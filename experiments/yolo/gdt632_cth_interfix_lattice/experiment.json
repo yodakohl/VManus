@@ -1,0 +1,285 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The retained 255-row fused occurrence atlas plus compact reader, register, context and hierarchy tables are the complete reproducible population needed to distinguish the four interfix cells, boundary-normalized expressions and five out-of-lattice forms; no image bytes are retained.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "GDT632 establishes the ordered working morphology ch/sh + optional e + [optional o + CTH remainder] for the complete preregistered NONE/e/o/eo raster. It covers 255 of 260 fused Q...CTH tokens, preserves two ee rivals and three outer compounds, and predicts octheey from the sole uncovered inclusive O-bearing expression. Dry/moist CTH material remains the inherited provisional reading, narrowed to leaf/herb only in Herbal; e and o remain open class markers. It does not identify a language, phonetics, species, exact e/o meanings, or solve the manuscript.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt632_cth_interfix_lattice/src/run.py",
+    "validate": "python3 experiments/yolo/gdt632_cth_interfix_lattice/src/validate.py"
+  },
+  "created": "2026-08-29",
+  "dependencies": [
+    "GDT625",
+    "GDT631"
+  ],
+  "experiment_id": "GDT632",
+  "inputs": [
+    {
+      "path": "transcription/voynich_zl3b_tokens.tsv",
+      "role": "token source queried only through guarded explicit-selector projection",
+      "sha256": "6a061a26edc05ff37dc386c2215774c229a5ff087d3091e68bdd4983a6c007aa"
+    },
+    {
+      "path": "transcription/voynich_cross_transcription_lines.tsv",
+      "role": "alternate-reader source queried only through guarded explicit-selector projection",
+      "sha256": "ff3a4559004a29764c60102326de154b29fbba06a2a206bdd76d7feda432e16c"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "role": "inherited 179-page f1r-free and f84-free scope",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+    },
+    {
+      "path": "experiments/yolo/gdt625_ordered_quality_state_transitions/artifacts/CTH_ROOT_FAMILY.tsv",
+      "role": "published 69-surface bare CTH material family",
+      "sha256": "c9d5c4e7f3d78035eef9ecd5995030689c8e41cc941a926398e73cac19e66345"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/src/run.py",
+      "role": "inherited guarded query and quality helpers",
+      "sha256": "2022e37e4944d2c38e0f94f7b53958d2e5b7f809ab4cff15e71dc7aa724d3c05"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/RESULT.json",
+      "role": "inherited direct CTH composition result",
+      "sha256": "8e70c18b003d1c2ff8ec8093b5780969d188c394f8c7244c1812546582f6c9a6"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/WORKING_DICTIONARY_V8.tsv",
+      "role": "complete inherited forty-seven-entry working dictionary",
+      "sha256": "a594de6cd8984cbeff992f4f85365be095c1129e2bfb1a96f8063e377ba862a0"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/INHERITED_VISUAL_SCOPE.tsv",
+      "role": "inherited manual visual claim limits; no new image access",
+      "sha256": "224cab3f62cd829bebac221bfe5e8daf43842d794a295a97a4e9551895ad95ca"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/METHOD.md",
+      "role": "guarded lattice, boundary, hierarchy and semantic-context method",
+      "sha256": "ffbde280d23d128d376221bded25bbbe08717e3aaf6e3ae307fe80f9ec515fb6"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/README.md",
+      "role": "short ordered-hierarchy and working-translation disposition",
+      "sha256": "4ef0b70532e2e237c7bdb9870b2e5251a106952522918b0371f33ad6e20187cc"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/REPORT.md",
+      "role": "primary CTH interfix hierarchy and concrete-reading report",
+      "sha256": "f2fdebfaa317cd0848cc2bcdf9308c0ec625b80e068b0f0ed8e6cb7423a6a1a8"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/artifacts/ALL_READER_SEPARATED_SHELL_CTH_SPANS.tsv",
+      "role": "compact reproducible all reader separated shell cth spans.tsv artifact",
+      "sha256": "c5e7f2adc30683da1fc5ceb02101f668f567c9eb599ac57b12c913b15d88a437"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/artifacts/ALTERNATIVE_INTERNAL_BOUNDARY_NULL.tsv",
+      "role": "compact reproducible alternative internal boundary null.tsv artifact",
+      "sha256": "3f7fd4b096ee1e7ce03b4b4b91dc61a40036a033ee6f2d76a708608b4c35fc82"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/artifacts/BOUNDARY_ORIENTATION_SUMMARY.tsv",
+      "role": "compact reproducible boundary orientation summary.tsv artifact",
+      "sha256": "818811f3c9d8d8a7888bed0035071cbce068d02b819e5517f5442f263d8e4279"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/artifacts/CONCRETE_CLAUSES_V4.tsv",
+      "role": "compact reproducible concrete clauses v4.tsv artifact",
+      "sha256": "4908ab6693962fc2cef2abf94228e29aa8ac80f14e15eab79859ab0443464518"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/artifacts/CROSS_READER_E_O_HEAD_CONTROL.tsv",
+      "role": "compact reproducible cross reader e o head control.tsv artifact",
+      "sha256": "d2516b8f75fe683fb3481854b7f714215dd52d9d6df81664f5fcb2d3e6aed540"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/artifacts/CROSS_READER_INTERFIX_BOUNDARY_BRIDGES.tsv",
+      "role": "compact reproducible cross reader interfix boundary bridges.tsv artifact",
+      "sha256": "f3c820b1036b57be5078db451403e800ac2f1901aa066a6dfb7bd32382ec1c0d"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/artifacts/CROSS_READER_INTERFIX_REALIZATIONS.tsv",
+      "role": "compact reproducible cross reader interfix realizations.tsv artifact",
+      "sha256": "04a00bfc55ea2377a8eec5eac9ecd6facb236bf582538a20533d98d011813d9a"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/artifacts/EXPRESSION_POPULATION_SUMMARY.tsv",
+      "role": "compact reproducible expression population summary.tsv artifact",
+      "sha256": "9436d3b83390cae2dd388e34358796557e867fd7d92579f3f151d907563b1a65"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/artifacts/E_O_ORDER_CONTROL.tsv",
+      "role": "compact reproducible e o order control.tsv artifact",
+      "sha256": "ce43a220e4e1bb7890d94193eb1df0fbbaae93c34dd1e24c8df924afb1a81eea"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/artifacts/FIXED_CONTEXT_PARADIGMS.tsv",
+      "role": "compact reproducible fixed context paradigms.tsv artifact",
+      "sha256": "b96d7b7e84ae2f253673a3942a54ea46ccd0ce27e7475ac02ba356f2709a25ae"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/artifacts/HIERARCHICAL_E_O_BASE_COVERAGE.tsv",
+      "role": "compact reproducible hierarchical e o base coverage.tsv artifact",
+      "sha256": "cf45a78987a8fa6993ba64c4c7e1c3d7bf1beaee7649843815fe8443514f91ba"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/artifacts/HISTORICAL_HYBRID_COMPARATORS.tsv",
+      "role": "compact reproducible historical hybrid comparators.tsv artifact",
+      "sha256": "25059a7e007f08cd4030535e289905fa7865288c3ef67458bb33c60ee3fb5812"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/artifacts/INHERITED_VISUAL_INTERFIX_SCOPE.tsv",
+      "role": "compact reproducible inherited visual interfix scope.tsv artifact",
+      "sha256": "8835734e1b35a15cd3c4f79ec12448ca29c1b49eff66e7dd6f8d19920f02afb8"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/artifacts/INNER_CTH_HEAD_PREFIX_SUMMARY.tsv",
+      "role": "compact reproducible inner cth head prefix summary.tsv artifact",
+      "sha256": "214cb498482526135c03c66e4dfd0ca0a9da22d6f04523fa983c6aca27c42d95"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/artifacts/INNER_CTH_HEAD_REMAINDER_MATRIX.tsv",
+      "role": "compact reproducible inner cth head remainder matrix.tsv artifact",
+      "sha256": "3df5bb2f192c9be5e033d7cdc3c0d56460fb03382de38d66fd304fa3e7619dad"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/artifacts/INTERFIX_CELL_SUMMARY.tsv",
+      "role": "compact reproducible interfix cell summary.tsv artifact",
+      "sha256": "8b15bb8cd48aad4a9e12ec4dd766282bcd4be14705e3f1ecefd82d0d2b9ac015"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/artifacts/INTERFIX_FAMILY_OCCURRENCES.tsv",
+      "role": "compact reproducible interfix family occurrences.tsv artifact",
+      "sha256": "43380056ba8c8c4ec5918e2e2617d6264cff0b8d31e883e3b23af88fe05a4c95"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/artifacts/INTERFIX_LOCAL_QUALITY_NEIGHBORS.tsv",
+      "role": "compact reproducible interfix local quality neighbors.tsv artifact",
+      "sha256": "f9157685cdaa912896911de8d6a052fdbbe72dd636a5e1a883a66e2bd63c4e04"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/artifacts/INTERFIX_PAGE_COEXISTENCE.tsv",
+      "role": "compact reproducible interfix page coexistence.tsv artifact",
+      "sha256": "487e8c35aec73797a2c0c7487cd4f3efffdb803fbc5ada2abe24b39547044f0b"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/artifacts/INTERFIX_QUALITY_DEGREE_CONTACTS.tsv",
+      "role": "compact reproducible interfix quality degree contacts.tsv artifact",
+      "sha256": "2f8b0f0854408fac642e5dc98fc5d81c73bd1811b457c4dd6ca82e1361dc3e15"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/artifacts/INTERFIX_QUALITY_SUMMARY.tsv",
+      "role": "compact reproducible interfix quality summary.tsv artifact",
+      "sha256": "e2dfd6be718b75811d15a4675c1ab8ead1ad1aac58cb7f4b4c0dae25857024af"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/artifacts/INTERFIX_REGISTER_PROFILE.tsv",
+      "role": "compact reproducible interfix register profile.tsv artifact",
+      "sha256": "251bfdc845c137e26db553709e3a6e181732e17dae0398310c32eaf2f022c875"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/artifacts/INTERFIX_REMAINDER_MATRIX.tsv",
+      "role": "compact reproducible interfix remainder matrix.tsv artifact",
+      "sha256": "55772fbac3ca94a7d550745630be43088731d35294db62c63f50e2239782466e"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/artifacts/INTERFIX_ROLE_RANKING.tsv",
+      "role": "compact reproducible interfix role ranking.tsv artifact",
+      "sha256": "7415573ccccfb9d649fd3253af3c8b46ca62b88b58361228142a2eb102e25747"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/artifacts/INTERFIX_SECTION_PROFILE.tsv",
+      "role": "compact reproducible interfix section profile.tsv artifact",
+      "sha256": "1529959074c20fd2c69c0b685bb03ff723113193118087c742215ad3b810c629"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/artifacts/LEFT_QUALITY_SHELLS.tsv",
+      "role": "compact reproducible left quality shells.tsv artifact",
+      "sha256": "7026a4500a44d97dd18e7a312abdf5506be83dc48f3f5fdb68dc22b71e492fb2"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/artifacts/ONE_SIDED_CONTEXT_PARADIGMS.tsv",
+      "role": "compact reproducible one sided context paradigms.tsv artifact",
+      "sha256": "ddbac5feae4f572d4cbe04a42c4e42a410a89c326ee0a20f486272e72104d28c"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/artifacts/OUTER_FAMILY_BOUNDARY_BRIDGES.tsv",
+      "role": "compact reproducible outer family boundary bridges.tsv artifact",
+      "sha256": "1e63ebc89b0f6261c5b765336b7275dafe0d5295fe33e07afce7e1401def90af"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/artifacts/OUT_OF_LATTICE_Q_CTH_FORMS.tsv",
+      "role": "compact reproducible out of lattice q cth forms.tsv artifact",
+      "sha256": "5869a90fecfa2d5943c305f94445e7cf252b2f05646b192bfd6973ff3cadc2e2"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/artifacts/PAGE_ALLOWLIST.tsv",
+      "role": "compact reproducible page allowlist.tsv artifact",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/artifacts/README.md",
+      "role": "artifact inventory",
+      "sha256": "0164efacaab85dd22932ca433720b81d6bc4a5d62270dea740e49ff4e4f0ff7d"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/artifacts/REPEATED_INTERFIX_CLAUSE_FRAMES.tsv",
+      "role": "compact reproducible repeated interfix clause frames.tsv artifact",
+      "sha256": "b68f94e8d0ed4bcf5b0bc9fca886c618e20b6a6cd3982051866f274c3ce0bff3"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/artifacts/RESULT.json",
+      "role": "canonical counts, findings and evidence hashes",
+      "sha256": "a7d9ba245e51ca37a47ed039a81b803701ebaec2192defced849183b6be32b62"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/artifacts/SHARED_CATEGORY_SLOTS.tsv",
+      "role": "compact reproducible shared category slots.tsv artifact",
+      "sha256": "ce62d1cf714bda317d72c410bca456a4cc3ccbf1fdbfdbc86fc696d947d6d119"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/artifacts/SHARED_REMAINDER_PAIRS.tsv",
+      "role": "compact reproducible shared remainder pairs.tsv artifact",
+      "sha256": "e167c0c07ef73a729fa92eb3d870db4131e1c2d68c5bef579b021e60810d24cb"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/artifacts/VALIDATION.json",
+      "role": "deterministic replay, count, provenance and privacy certificate",
+      "sha256": "a9df2cd637dd4377a0d7955b6fc30ee6744e9c16afec0ae0a25b402234b62452"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/artifacts/WORKING_DICTIONARY_V9.tsv",
+      "role": "compact reproducible working dictionary v9.tsv artifact",
+      "sha256": "5a0df84d2a62831aa1291c9c4c812f8d262fbc9950fd5ac0b7ca9a3595733776"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/src/run.py",
+      "role": "guarded deterministic experiment builder",
+      "sha256": "e11358791f53aece46665d69e99d00d43c5957ecbae1a34f2ef0fa3d908b59d7"
+    },
+    {
+      "path": "experiments/yolo/gdt632_cth_interfix_lattice/src/validate.py",
+      "role": "byte-replay, count, provenance, filler and privacy validator",
+      "sha256": "1d3c778ae600bbdff61df6c2549132ae5ed039c1d8ee8ded896ae9ddf7d0398b"
+    }
+  ],
+  "question": "Do ch/sh plus NONE/e/o/eo plus CTH remainder forms compose as one ordered hierarchy, and which concrete meanings survive across the full lattice?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "cth_interfix_lattice",
+  "status": "COMPLETE_ORDERED_Q_E_O_CTH_HIERARCHY__E_O_MEANINGS_OPEN",
+  "title": "Ordered ch/sh, e, o and CTH interfix lattice",
+  "updated": "2026-08-29",
+  "validation": {
+    "artifact": "experiments/yolo/gdt632_cth_interfix_lattice/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

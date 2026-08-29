@@ -15316,3 +15316,43 @@ equating their letters to Voynich glyphs. V8 retains all38 V7 rows and adds
 nine entries;GDT631 passes166 checks. Next use the same panel to test the
 larger `ch/sh+(NONE|e|o|eo)+cth+R` lattice,keeping e/o meanings open and
 opening no page or image.
+
+## GDT632 orders the complete ∅/e/o/eo CTH raster
+
+GDT632 keeps the same guarded179-page panel and exhausts the exact
+`ch/sh+(NONE|e|o|eo)+cth+R` family. All eight cells occur: CH has
+118/34/23/6 and SH36/21/13/4 tokens across ∅/e/o/eo,for255 fused tokens,48
+surface types and104 pages. Seven expressions are separated in all three
+readings;three further unambiguous ZL-split/other-reader-fused spans and one
+left-valid/right-overlapping span yield explicit populations of262,265 and266
+expressions. Three all-reader splits (`she|cthol`,`sho|cthos`,
+`sheo|cthody`) are component predictions without a fused counterpart.
+
+The internal asymmetry supplies the new parse. Naked heads occur as
+`cth+R`408 times and `o+cth+R`32 times,but `e+cth+R` and `eo+cth+R` never
+occur in any of ZL3b,IT2a or RF1b. All46 fused O/EO expressions in13 types
+reduce to six attested inner O-CTH bases;the inclusive panel covers54/55
+expressions and16/17 types. Its only missing inner head is the concrete
+prediction `octheey`,required by f114v.33 `cheo|ctheey↔cheoctheey`.
+`ch/sh+eo+cth` occurs10 times while reverse `ch/sh+oe+cth` is absent even
+across up to four reader tokens. The best working hierarchy is therefore
+`ch/sh+e?+[o?+cth+R]`,although visible word division usually cuts the left
+shell before CTH.
+
+The claim does not hide the edge. A complete fused `ch/sh…cth` census has260
+tokens:the raster explains255;`cheecthy` and `sheecthey` are real `ee`
+near-slot rivals,and `cheolchcthy`,`cholcthom`,`cholchecthody` are larger
+OL/CH compounds. Four inherited image bounds contain no E/O/EO target,so no
+leaf/root/flower/seed,medium,vessel or operation distinction is licensed for
+those slots. Pal.lat.1256 and Wellcome MS542 support only the historical
+architecture of learned names plus bound forms,quality codes and degrees.
+
+The concrete reader is nevertheless improved. `chocthy chol daiin` reads dry
+O-series leaf/herb material:dry III;`qokain checthy` and `qokain shecthy`
+read hot II with dry versus moist E-series CTH material. Nine frames repeat
+and49 local clauses contain no generic work-step filler. Direct moisture-axis
+support still occurs only in CH-∅,CH-O and SH-∅,so ch=dry/sh=moist is inherited
+across E/EO rather than independently proved there. V9 contains67 entries,
+retains e/o as visible OPEN classes and passes597 checks. Next compare exact
+same-rest/local-frame E/O/EO contrasts and the two `ee` rivals for a concrete
+form,part,medium or state reading without opening another page or image.

@@ -284,8 +284,8 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-GDT631 replaces isolated `chcthy` with productive direct CTH composition:408 bare,115 strict ch- and36 sh-prefixed tokens;17/5 rests have naked bases,simple k/t rows are empty. f21 gives `sh cthey↔shcthey`;the common terminal slot holds cthy6/chcthy3/shcthy1. Repeated clauses include4/4 `chcthy qokain=dry CTH material:hot II` and3/3 each `qokaiin/qotain shcthy=moist CTH material:hot III/cold II`. All4 immediate same-axis degree contacts agree,but f24 `chcthy shol` and f20 `shol chcthy` keep dry/moist provisional. Global output is CTH drug material;Herbal narrows to leaf/herb material. V8=47;166 checks.
-Next GDT632 test exact `ch/sh+(NONE|e|o|eo)+cth+R` as one interfix lattice with the same panel,no new page/image;keep e/o OPEN unless the lattice predicts them.
+GDT632 orders the complete `ch/sh+(NONE|e|o|eo)+cth+R` raster as `ch/sh+e?+[o?+cth+R]`:all8 cells,255 fused tokens/48 types,plus7 all-reader splits and4 reader-normalized spans. Naked heads are cth408/e-cth0/o-cth32/eo-cth0;all46 fused O/EO expressions hit6 attested inner o-CTH bases. Inclusive coverage is54/55 and predicts the sole missing head `octheey`. Twelve conservative shell|CTH spans and3 split-only forms expose composition. The raster covers255/260 Q…CTH tokens;2 `ee` rivals and3 outer OL/CH compounds remain outside. ch=dry/sh=moist and CTH drug material remain provisional concrete defaults;Herbal narrows to leaf/herb,e/o stay OPEN. V9=67;597 checks.
+Next GDT633 keep this panel and compare same-rest E/O/EO forms,`ee` rivals and exact local frames for concrete form/part/medium/state meanings;open no page/image and treat `octheey` as a prediction,not an observation.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`
