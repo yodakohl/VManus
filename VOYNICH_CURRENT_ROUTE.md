@@ -284,10 +284,10 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-GDT621 freezes two Lat.6823 bundles+third-reader reconciliation:five rubrics+12
-tokens,63 differences,SHA `4b56894b...7905`;Balsam,Kerbel,Süßholz,Cucurbita,
-Diptam and hot/cold,moist/dry degrees are concrete. Next publish,then open only
-five Clm locator controls;Clm and every Voynich target remain unopened.
+GDT621 completes five source pairs after public checkpoint `2ab45096...`:all
+Clm labels match and Latin remains frozen;result SHA `64581c4a...e219`. Later
+full-context reading corrects `vel frutex`,`radix cuiusdam`,`teste Ysaac` and
+`colitur`. Next exploit these exact slots/source family;Voynich stays unopened.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`

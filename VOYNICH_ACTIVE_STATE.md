@@ -14919,12 +14919,23 @@ is allowed,but no derivative image is retained. Profile SHA256 is
 `c34724e9...6c9b`;registration validation passes46/46 with zero network,source
 images or Voynich material opened.
 
-Both isolated readers have now submitted their five-page bundles,with canonical
+Both isolated readers submitted their five-page bundles,with canonical
 commitments `c510b732...b4136` and `a1400636...c512`. A separate adjudicator
 used only those frozen bundles and the five Latin JPEGs,recording63 explicit
-difference rows and freezing checkpoint SHA256 `4b56894b...7905`. Its readable
-content is concrete: Balsam/opobalsam as a tree with an internal-fruit phrase;
-Kerbel as a familiar culinary herb;Süßholz warm+moist in the first degree;
-Cucurbita cold+moist in the second;and Diptam warm+dry in the third. All Clm,
-Voynich,target,f84 and f84r counts remain zero. Next publicly commit this exact
-checkpoint;only afterward open the five Clm pages as nonrepairing controls.
+difference rows and freezing checkpoint SHA256 `4b56894b...7905`. That exact
+checkpoint was published as commit `2ab45096...2e25`;only then did a separate
+manual controller open the five Clm pages. It found `Balsamꝰ.`,`Cerfolium.`,
+`Liquiritia.`,`Cucurbita.`,`Diptamus.` with matching botanical scenes and made
+zero Latin change. Final result SHA256 is `64581c4a...e219`;all target,Voynich,
+f84 and f84r counts remain zero.
+
+Post-checkpoint full-sentence reading and historical-source comparison then
+corrected real palaeographic errors without altering the frozen payload:
+Balsam says `vel frutex,quod verius` rather than an internal-fruit phrase;
+Liquiritia says `radix cuiusdam`;Cucurbita says `teste Ysaac.Colitur autem`;
+Cerfolium has `in coquis`; Diptamus has `quod alio`, not `et alio`. The source is Manfredus de Monte Imperiali's
+Pisan c.1330–1340 expanded *Tractatus de herbis*,principally a *Circa instans*
+framework with Macer,Isaac and other layers. The concrete reusable slots are
+lemma/alias,hot-cold,moist-dry,degree,authority,plant part/morphology,
+apothecary choice,power,indication and administration. Next use rare splice
+points and remaining illustrated witnesses before any Voynich target pairing.

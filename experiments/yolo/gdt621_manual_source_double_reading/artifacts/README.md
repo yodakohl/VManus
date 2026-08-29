@@ -16,6 +16,14 @@
   complete ledger, and reconciliation access audit.
 - `LATIN_CHECKPOINT_VALIDATION.json`: compact result of the three-artifact
   validator and its 69-case in-memory suite.
+- `CLM_CONTROL_OBSERVATIONS.json`: five post-checkpoint manual Clm labels,
+  visual locator notes, access times, checkpoint bindings, and nonaccess
+  attestations.
+- `SOURCE_DOUBLE_READING_RESULT.json`: canonical final result; it reuses the
+  frozen Latin commitments, readings, and 63-row ledger exactly and adds the
+  five Clm controls plus the complete 15-event audit.
+- `FINAL_VALIDATION.json`: deterministic final-result and 20-case mutation-suite
+  validation summary.
 
 Canonical SHA-256 preimages omit their own hash field. Public artifacts contain
 no absolute/private paths or image bytes; bare registered filenames remain only

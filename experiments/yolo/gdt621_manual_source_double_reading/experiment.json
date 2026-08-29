@@ -1,12 +1,12 @@
 {
   "artifact_policy": {
-    "large_artifact_justification": "The ten immutable full-page JPEGs remain private and outside the repository. The checkpoint publishes only compact diplomatic text, audit, protocol, and validation artifacts; no image bytes, crops, renderings, private paths, or Voynich material are published.",
+    "large_artifact_justification": "The ten immutable full-page JPEGs remain private and outside the repository. The final result publishes only compact diplomatic text, labels, audit, protocol, and validation artifacts; no image bytes, crops, renderings, private paths, or Voynich material are published.",
     "max_inline_bytes": 5000000
   },
-  "claim_ceiling": "This checkpoint establishes only five reproducible Latin source transcriptions and provisional expansions. It does not assign any Voynich sign, word, language, plaintext, plant, operation, or meaning; all Clm control and Voynich target material remains unopened.",
+  "claim_ceiling": "This result establishes five reproducible Latin source transcriptions, five matching Clm locator labels, and a disclosed post-checkpoint readable correction layer. It does not assign any Voynich sign, word, language, plaintext, plant, operation, or meaning; all Voynich target material remains unopened.",
   "commands": {
-    "run": "python3 experiments/yolo/gdt621_manual_source_double_reading/src/run.py --check",
-    "validate": "python3 experiments/yolo/gdt621_manual_source_double_reading/src/validate_latin_checkpoint.py --check"
+    "run": "python3 experiments/yolo/gdt621_manual_source_double_reading/src/build_final_result.py --check",
+    "validate": "python3 experiments/yolo/gdt621_manual_source_double_reading/src/validate_final_result.py --check"
   },
   "created": "2026-08-29",
   "dependencies": [
@@ -23,8 +23,8 @@
   "outputs": [
     {
       "path": "experiments/yolo/gdt621_manual_source_double_reading/README.md",
-      "role": "compact checkpoint status and source-reading boundary",
-      "sha256": "75d56927cdc1f28505d4163df37cbb09fe5a3cefbd8389d1d931e9c6682885f8"
+      "role": "compact final status and source-reading boundary",
+      "sha256": "1525c37d068a216fc1e284435417b5562ce376953807000c43be4e68b15ad72d"
     },
     {
       "path": "experiments/yolo/gdt621_manual_source_double_reading/METHOD.md",
@@ -38,8 +38,8 @@
     },
     {
       "path": "experiments/yolo/gdt621_manual_source_double_reading/artifacts/README.md",
-      "role": "compact checkpoint artifact inventory and image exclusion",
-      "sha256": "cb9f9a2b58515b3e7d152f3ec9fec75ed6e56abaa6662d17f534135db5b8e41e"
+      "role": "compact final artifact inventory and image exclusion",
+      "sha256": "95ebe8fa4771f5c82b71ddc37c1acddb3d87a6608e1ac954be24c7fc44cae18d"
     },
     {
       "path": "experiments/yolo/gdt621_manual_source_double_reading/artifacts/REGISTERED_READING_PROFILE.json",
@@ -63,8 +63,8 @@
     },
     {
       "path": "experiments/yolo/gdt621_manual_source_double_reading/LATIN_CHECKPOINT.md",
-      "role": "primary Latin checkpoint report with exact diplomatic passages and provisional readable expansions",
-      "sha256": "3b4dfeda906524b7d5f9befefdee17f633f871490c539c54e1cc1eda1d9220be"
+      "role": "Latin checkpoint report with exact diplomatic passages, provisional expansions, and visible correction notice",
+      "sha256": "03681c0a6a8c7ae94e0930b0265aafe258b2735e6a7d5ccbc1987d9d756d5723"
     },
     {
       "path": "experiments/yolo/gdt621_manual_source_double_reading/artifacts/LATIN_READER_A_RAW.json",
@@ -95,6 +95,36 @@
       "path": "experiments/yolo/gdt621_manual_source_double_reading/src/validate_latin_checkpoint.py",
       "role": "offline canonical raw-bundle, reconciliation, privacy, hash, order, and ledger validator",
       "sha256": "ff38564799d735b79eeb6af66ec4bd668ff21fcec69a278c2a25417fc2d34d80"
+    },
+    {
+      "path": "experiments/yolo/gdt621_manual_source_double_reading/FINAL_RESULT.md",
+      "role": "primary final report with five source pairs, exact semantic slots, and disclosed contextual corrections",
+      "sha256": "2750ffaefa1fe5f15417bcac89eb5725f1449f7ff9ecf8fabaa685eb0b73210c"
+    },
+    {
+      "path": "experiments/yolo/gdt621_manual_source_double_reading/artifacts/CLM_CONTROL_OBSERVATIONS.json",
+      "role": "five post-checkpoint manual Clm labels, locator notes, access events, and nonaccess attestations",
+      "sha256": "384c774e0b9217f2490300ec36174ba2e66db2632cfc1a660ac5dee1f22f58fd"
+    },
+    {
+      "path": "experiments/yolo/gdt621_manual_source_double_reading/artifacts/SOURCE_DOUBLE_READING_RESULT.json",
+      "role": "canonical final source-pair result with byte-identical frozen Latin payload and complete 15-event audit",
+      "sha256": "2d0586ab41795d870fb89b44dd5edf5b18530dc8bb16b8d4cc0f0709786135c1"
+    },
+    {
+      "path": "experiments/yolo/gdt621_manual_source_double_reading/artifacts/FINAL_VALIDATION.json",
+      "role": "compact final-result and 20-case mutation-suite validation summary",
+      "sha256": "ade1fbd03a4e33e9e255119d2ad6ec1f55ce2c2d18a3184b2a58aa2ba35f5c98"
+    },
+    {
+      "path": "experiments/yolo/gdt621_manual_source_double_reading/src/build_final_result.py",
+      "role": "deterministic offline canonical final-result builder and byte checker",
+      "sha256": "a48a7984b5f91c443040b7be9f71db24c3c3f27ed1d300c7b09f4f50f6e8eb91"
+    },
+    {
+      "path": "experiments/yolo/gdt621_manual_source_double_reading/src/validate_final_result.py",
+      "role": "offline final schema, checkpoint identity, access chronology, privacy, and mutation validator",
+      "sha256": "89983de57107d20dc3e407a4deee42a2038066dff329d50fa0127c5e4b20b377"
     }
   ],
   "question": "Can two blinded readers independently produce and reconcile a diplomatic Latin heading-plus-twelve-token transcription before any control or Voynich target access?",
@@ -104,11 +134,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "manual_source_double_reading",
-  "status": "LATIN_RECONCILIATION_FROZEN__CLM_UNOPENED",
+  "status": "SOURCE_DOUBLE_READING_COMPLETE__TARGET_UNOPENED",
   "title": "Manual source double reading",
   "updated": "2026-08-29",
   "validation": {
-    "artifact": "experiments/yolo/gdt621_manual_source_double_reading/artifacts/LATIN_CHECKPOINT_VALIDATION.json",
+    "artifact": "experiments/yolo/gdt621_manual_source_double_reading/artifacts/FINAL_VALIDATION.json",
     "status": "PASS"
   }
 }

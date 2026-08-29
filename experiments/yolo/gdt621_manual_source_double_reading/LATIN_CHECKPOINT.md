@@ -2,6 +2,14 @@
 
 Status: `LATIN_RECONCILIATION_FROZEN__CLM_UNOPENED`
 
+> **Post-checkpoint correction:** later full-context reading showed that several
+> provisional diplomatic word readings below are wrong: notably `vel frutex,
+> quod verius` rather than `in fructu ... interius`, `radix cuiusdam` rather
+> than `maior cum`, and `teste Ysaac. Colitur autem` rather than `debet esse.
+> Colatur aut`; DEV05 also reads `quod alio`, not `et alio`. The frozen JSON is
+> deliberately unchanged. See
+> `FINAL_RESULT.md` for the corrected readable layer and source links.
+
 ## Result
 
 Two isolated readers independently read the rubric and first twelve running
