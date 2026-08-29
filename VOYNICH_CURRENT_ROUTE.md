@@ -284,10 +284,10 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-GDT624 expands V2 into the complete observed 48-cell grammar `(bare|o|qo)+(k|t)+(ch|sh)+e?+d?+y`:829 tokens,48/48 stable types,22 wrapper triplets and45 same-line one-bit edges.
-Every grid word now has a compositional default. `e` primarily binds quality forward/attributively,with degree as rival;`d` is DY binding/state closure,not an operation. The V2 hot/cold,dry/moist axis stays unchanged.
-Six adjacent Herbal contacts give practical phrases including `okchey dair=hot-dry root`,`okchey shor=hot-dry reproductive head`,and part-specific f23v root hot-dry versus reproductive head hot-moist.
-Next GDT625 asks whether ordered local state pairs encode changes such as moist→dry,then searches already inspected Herbal heads for leaf,seed,whole-herb,liquid and vessel slots without converting an isolated quality word into a verb.
+GDT625 expands the quality tail to1,162 tokens/200 surfaces and finds535 successive local pairs,63 moisture flips and6 dry→moist→dry paths;state order becomes an operation only when one carrier spans both states.
+Its concrete gain is `cth-=vegetative plant-part family`,`cthy=leaf material/leaf drug`:92 tokens,90 Herbal,85 three-reading stable,408-token root family,32 part contacts and12 immediate quality contacts.
+f29v.4 now reads primarily `[otshy okaiin][cthy oltchy]=cold-moist preparation/material;leaf drug cold-dry`,not an automatic drying sequence. Historical mixed codebooks keep operations as separate verbs or short frames.
+Next GDT626 ranks mobile operation words around `cthy,dair,shor` and changed result states,starting with low `otar=then/until/process`,and searches the carrier→operation→medium/time→result architecture without opening another image page.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`

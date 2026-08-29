@@ -15054,3 +15054,47 @@ allomorphy;Pal.lat.1234 confirms forward quality rubrics;Wellcome MS.541,
 Clm667 and older Pal.lat.1085 retain degree/field-close rivals. The validator
 passes112 checks. Next derive operations only from ordered state changes and
 seek additional concrete part/substance slots on already inspected pages.
+
+## GDT625 promotes `cthy` to leaf drug and separates parts from operations
+
+GDT625 expands the terminal quality family to1,162 occurrences/200 surfaces
+on168 pages/912 loci. The exact GDT624 grid contributes829 tokens and333 retain
+an additional external prefix;859 token occurrences have a conservative
+identical-surface witness across ZL3b,IT2a andRF1b. The next-quality local
+sequence inventory contains535 pairs,250 same-line and285 next-line. Its63
+moisture flips are directionally balanced in the broad same-line reader:
+17 dry→moist and17 moist→dry. Exact successive shells run7 versus1 locally,
+but the dry→moist cases are mostly direct contrasts and do not license a verb.
+
+All six local three-state paths run dry→moist→dry(two KCH→KSH→KCH,four
+TCH→TSH→TCH). This is a useful soak-then-dry template only when a repeated
+carrier spans every state. No current named head sits in such a stable minimal
+path. Accordingly state relations receive conditional defaults—dry→moist may
+mean moisten/soak and moist→dry may mean dry—while every isolated quality word
+remains a state descriptor.
+
+The concrete gain is `cth-=vegetative plant-part family` and
+`cthy=Blattgut/Blattdroge(folium)`. Exact `cthy` occurs92 times on50 pages/88
+loci,90/92 in Herbal and85 times under the conservative three-reading minimum;
+the complete cth-prefix family has408 tokens/69 surfaces. `cthy` makes32
+same-line contacts with `shor,chor,dair`,ten adjacent,plus12 immediate terminal
+quality contacts,eight stable. Eleven of those12 carry the current dry ch
+value. On the eleven already inspected images it appears15 times across six
+folios;its strongest rival is broader aerial herb/herba.
+
+This corrects f29v.4 from a preferred transition to two local bindings:
+`[otshy okaiin][cthy oltchy]=cold-moist preparation/material;leaf drug
+cold-dry`. The drawing shows several drug parts and the mirror attachment is
+stronger than a time sequence. f18r.12 `qokchy cthy=hot-dry leaf drug` is the
+cleanest direct new phrase. f29v.1 now partially reads rootstock drug;
+reproductive head cold-dry;leaf drug,matching the three visible part classes.
+
+Nine historical mechanisms show the target architecture in period sources:
+Wellcome MS.541/542 mix learned drug names and compact temperament codes with
+separate recipe verbs;other c.1380–1450 recipes keep soaking,drying,heating,
+cooling,pounding and bathing in explicit verb/medium/time frames. `cthy` is
+therefore an object,not the bridge verb. `otar` is the first low candidate for
+“then/until/separate process word”:123 occurrences,110 stable,116 mid-line,and
+two moist→dry bridges versus zero dry→moist. Next search mobile operation words
+around `cthy,dair,shor` in carrier→operation→medium/time→result frames without
+opening another image page. The deterministic validator passes107 checks.

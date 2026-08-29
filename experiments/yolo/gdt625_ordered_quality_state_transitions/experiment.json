@@ -1,0 +1,87 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The largest retained table has only 1,162 compact terminal-family occurrences. It is required to reproduce the local pair, cross-reading stability, section, cth-family, carrier-contact, and process-slot findings. No manuscript image bytes are retained.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "GDT625 establishes an exploratory cth vegetative-part family and promotes cthy to Blattgut or Blattdroge within the current GDT623/GDT624 working reader. It shows that the strongest opened f29v moist/dry sequence resolves more naturally as two part-state bindings, keeps dry-to-moist and moist-to-dry as conditional relation glosses only when one carrier is retained, and promotes otar only as a low then/until/process-slot candidate. It does not prove the language, phonetics, the quality-axis orientation, an operation lexeme, a complete recipe, or a global decipherment.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt625_ordered_quality_state_transitions/src/run.py",
+    "validate": "python3 experiments/yolo/gdt625_ordered_quality_state_transitions/src/validate.py"
+  },
+  "created": "2026-08-29",
+  "dependencies": [
+    "GDT623",
+    "GDT624"
+  ],
+  "experiment_id": "GDT625",
+  "inputs": [
+    {
+      "path": "transcription/voynich_zl3b_tokens.tsv",
+      "role": "mixed token table queried only through the explicit 179-page allow-list",
+      "sha256": "6a061a26edc05ff37dc386c2215774c229a5ff087d3091e68bdd4983a6c007aa"
+    },
+    {
+      "path": "transcription/voynich_cross_transcription_lines.tsv",
+      "role": "mixed ZL3b IT2a RF1b line table queried only through explicit selector allow-values",
+      "sha256": "ff3a4559004a29764c60102326de154b29fbba06a2a206bdd76d7feda432e16c"
+    },
+    {
+      "path": "experiments/yolo/gdt624_productive_quality_shell_grid/artifacts/PAGE_ALLOWLIST.tsv",
+      "role": "canonical f1r-free and f84-free 179-page selector allow-list",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+    },
+    {
+      "path": "experiments/yolo/gdt624_productive_quality_shell_grid/artifacts/RESULT.json",
+      "role": "current productive quality-shell synthesis",
+      "sha256": "951283cdfca2fda16c01ef84e9e38fb9f18df341d51b0d9c994b4fcd387b2524"
+    },
+    {
+      "path": "experiments/yolo/gdt624_productive_quality_shell_grid/artifacts/PRODUCTIVE_READER.tsv",
+      "role": "complete inherited 48-surface quality reader",
+      "sha256": "01124c05e8ca3042694cf654a5ff488e179a6b3c2feef4e5c63aaec3d2210a2c"
+    },
+    {
+      "path": "experiments/yolo/gdt625_ordered_quality_state_transitions/artifacts/HISTORICAL_PROCESS_COMPARATORS.tsv",
+      "role": "nine historical quality-code versus process-language mechanisms",
+      "sha256": "572bad47f4eecb8fcdb9a0cecd74bb329855c3acd508891f58771a94b125efe1"
+    },
+    {
+      "path": "experiments/yolo/gdt625_ordered_quality_state_transitions/artifacts/MANUAL_VISUAL_JUDGMENTS.tsv",
+      "role": "eight bounded judgments on eleven previously opened Herbal images",
+      "sha256": "45187e3feff31a500a83e31c8a5568ae58937e3e1fbe97950f631c10304c87c6"
+    }
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt625_ordered_quality_state_transitions/README.md", "role": "short result and corrected f29v reader", "sha256": "6f5faaaf656389dffd0d6948d607501b2116375bf675dab3e8178cfc3f33a953"},
+    {"path": "experiments/yolo/gdt625_ordered_quality_state_transitions/METHOD.md", "role": "guarded terminal-family pair path and cth-role method", "sha256": "de72da63cd6dbf5410097f216411571938508f6751b6908703730a699b489b3c"},
+    {"path": "experiments/yolo/gdt625_ordered_quality_state_transitions/REPORT.md", "role": "primary Blattgut finding and operation-slot report", "sha256": "56a3e9fc0ffc623f57b1fa6ff9c5dc73cfb610731081992a97e932cb19b34db4"},
+    {"path": "experiments/yolo/gdt625_ordered_quality_state_transitions/artifacts/README.md", "role": "artifact inventory", "sha256": "d2554950115a9f5316a02ec89e1364cadea66d72ca9ae1875379f2cd25ff3831"},
+    {"path": "experiments/yolo/gdt625_ordered_quality_state_transitions/artifacts/PAGE_ALLOWLIST.tsv", "role": "canonical guarded page scope", "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"},
+    {"path": "experiments/yolo/gdt625_ordered_quality_state_transitions/artifacts/TERMINAL_QUALITY_OCCURRENCES.tsv", "role": "1,162 terminal quality-family occurrences", "sha256": "f213bd912c9974a711132824197a2a429247496ad40237726035567b12ad15a3"},
+    {"path": "experiments/yolo/gdt625_ordered_quality_state_transitions/artifacts/SUCCESSIVE_QUALITY_PAIRS.tsv", "role": "535 ordered local state pairs", "sha256": "3fb63ab999421d0b38184372ff8792bcbc065f0171ac7fa9133a02dc6a554543"},
+    {"path": "experiments/yolo/gdt625_ordered_quality_state_transitions/artifacts/SUCCESSIVE_TRANSITION_MATRIX.tsv", "role": "complete state matrix by locality and frame strictness", "sha256": "590759887128ae71cc5f8b196294c7fe5b9aedf718208e68588113c10b92384d"},
+    {"path": "experiments/yolo/gdt625_ordered_quality_state_transitions/artifacts/MOISTURE_DIRECTION_SUMMARY.tsv", "role": "conditional moistening and drying relation counts", "sha256": "48d7b88ff52c6fdf86d1e808c71adc4c36eed782e6a0c874fe5f834173647bb5"},
+    {"path": "experiments/yolo/gdt625_ordered_quality_state_transitions/artifacts/THREE_STATE_CYCLES.tsv", "role": "six dry-moist-dry local paths", "sha256": "5d37d7648e160c2b3fca92a2e8b3db5cd930e73ba7f9b0c2fd4fa635eac09bde"},
+    {"path": "experiments/yolo/gdt625_ordered_quality_state_transitions/artifacts/INTERVENING_TOKEN_CANDIDATES.tsv", "role": "fifty-nine process bridge candidates", "sha256": "1737a5ae9e7ae8b23ccef0c4ad7f7416b26a1467d6c8ca92f0706b11e16700b2"},
+    {"path": "experiments/yolo/gdt625_ordered_quality_state_transitions/artifacts/CANDIDATE_TERM_ROLE_SUMMARY.tsv", "role": "seven concrete carrier and process term profiles", "sha256": "f87da0cb54efce299e2e87f4dd140321db7b90f5161e046a882a50eb978058fd"},
+    {"path": "experiments/yolo/gdt625_ordered_quality_state_transitions/artifacts/CTH_ROOT_FAMILY.tsv", "role": "408-token 69-surface cth family", "sha256": "c9d5c4e7f3d78035eef9ecd5995030689c8e41cc941a926398e73cac19e66345"},
+    {"path": "experiments/yolo/gdt625_ordered_quality_state_transitions/artifacts/CTHY_PART_CONTACTS.tsv", "role": "thirty-two cthy contacts with part candidates", "sha256": "af08d8f0981af8c0abc159a6583bff7b93e20f9ca974820ddef3a10787fc27f3"},
+    {"path": "experiments/yolo/gdt625_ordered_quality_state_transitions/artifacts/ANCHOR_QUALITY_CONTACTS.tsv", "role": "thirty-seven strict carrier-quality contacts", "sha256": "d3a6de345d3d06742e0dfb6d39221ba47e9d2d5483ed4b7ac6c62ab4d992e6b6"},
+    {"path": "experiments/yolo/gdt625_ordered_quality_state_transitions/artifacts/ANCHOR_QUALITY_SUMMARY.tsv", "role": "carrier-level quality contact synthesis", "sha256": "694037e8200f708735316c6336351dee951eeef7e52f0e83e30c21aa1429d0a7"},
+    {"path": "experiments/yolo/gdt625_ordered_quality_state_transitions/artifacts/CONCRETE_LOCAL_READINGS.tsv", "role": "five corrected practical Herbal readings", "sha256": "d5ad1d2123c4e9cbb79ac2c9251c02425a851d170646151b2801b80ca9af3b59"},
+    {"path": "experiments/yolo/gdt625_ordered_quality_state_transitions/artifacts/HISTORICAL_PROCESS_COMPARATORS.tsv", "role": "nine historical mixed-codebook and process comparators", "sha256": "572bad47f4eecb8fcdb9a0cecd74bb329855c3acd508891f58771a94b125efe1"},
+    {"path": "experiments/yolo/gdt625_ordered_quality_state_transitions/artifacts/MANUAL_VISUAL_JUDGMENTS.tsv", "role": "eight already-opened-image judgments", "sha256": "45187e3feff31a500a83e31c8a5568ae58937e3e1fbe97950f631c10304c87c6"},
+    {"path": "experiments/yolo/gdt625_ordered_quality_state_transitions/artifacts/RESULT.json", "role": "canonical synthesis and bound evidence hashes", "sha256": "317f04f6ff6d44f31d3c938bbc3b70afdf90c02a1e48f253ac3dac372644610a"},
+    {"path": "experiments/yolo/gdt625_ordered_quality_state_transitions/artifacts/VALIDATION.json", "role": "deterministic replay and privacy certificate", "sha256": "853cb110368c16c4b9165a6311eaa05241afb18e23dbaa74b169ecf3b43ab364"},
+    {"path": "experiments/yolo/gdt625_ordered_quality_state_transitions/src/run.py", "role": "deterministic guarded builder", "sha256": "b05e11c9188a5d2e346a110c1997c4fa17fc31fd26fe2a0a828b049049e95665"},
+    {"path": "experiments/yolo/gdt625_ordered_quality_state_transitions/src/validate.py", "role": "byte-replay count provenance and privacy validator", "sha256": "2fd5b54f0c9604c1431d630de4b65a4ceb1495de21c1107cedb305dd790c57c9"}
+  ],
+  "question": "Can ordered local quality-state paths support concrete moistening or drying operations, and which adjacent surface identifies the processed Herbal part?",
+  "schema_version": 1,
+  "sealed_data": {"f84": "FORBIDDEN", "f84r": "FORBIDDEN"},
+  "slug": "ordered_quality_state_transitions",
+  "status": "CTHY_BLATTGUT_PROMOTED__STATE_PATHS_SPLIT_PART_CONTRAST_FROM_PROCESS",
+  "title": "Ordered quality paths and the cth Blattgut family",
+  "updated": "2026-08-29",
+  "validation": {"artifact": "experiments/yolo/gdt625_ordered_quality_state_transitions/artifacts/VALIDATION.json", "status": "PASS"}
+}
