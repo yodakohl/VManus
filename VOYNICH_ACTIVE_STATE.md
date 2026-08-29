@@ -14710,3 +14710,27 @@ the same-role binding jointly with paid-child eligibility,so the newly found
 constraint is enforced before committing another key.
 No Voynich value,word,language,plaintext,object,operation or meaning is
 assigned;f84/f84r remain forbidden.
+
+## GDT616 registers joint binding before another key can be committed
+
+GDT616 removes GDT615's ordering error by solving the same-role34-card mapping
+and all eight actual paid-card assignments in one TRAIN-only formula. For every
+merge in the fixed64-node directed DAG,it recursively defines the unoverridden
+`child=eff(left)||eff(right)` and the selected effective render. Both must occur
+in the frozen28,101-entry TRAIN substring relation,whether or not the node is
+paid;every paid output differs from its child;all eight named paid cards occur
+once at distinct nodes;and exact `qok` alone is barred from a macro card.
+
+Stage-A SAT freezes nothing. Stage B must search the complete Stage-A-feasible
+mapping/paid space jointly with full ordered W0 traces and nonoverlapping
+98-unit tilings,then construct and commit three complete TRAIN worlds before
+Held or LM-confirm can be opened. The GDT615 chosen mapping,raw-support score
+and relaxed cover are explicitly excluded from GDT616 inputs and objectives.
+
+The registration artifact is byte-stable at SHA256
+`281fe360e6e3eda19323f5e62a99fe4822546b136f7ca91b85fdf4552e565aae`.
+Primary and independently written finite-domain solvers pass9/9 and7/7 own
+tests and agree on21/21 one-node plus128/128 recursive differential cases.
+No full-data run has occurred. The next action is the frozen dual-solver Stage-A
+execution;no Held,target,page,f84/f84r,Voynich value,word,language,plaintext,
+object,operation or meaning has been opened or assigned.

@@ -1,0 +1,716 @@
+{
+  "canonical_artifact_policy": {
+    "exclude": [
+      "wall time",
+      "worker order",
+      "nondeterministic solver statistics",
+      "transient work files"
+    ],
+    "json": "UTF-8, indent=2, sorted keys, one terminal newline"
+  },
+  "claim_ceiling": "synthetic Latin-carrier generator/recovery only; no Voynich unit, sound, word, language, plaintext, object, operation, or meaning",
+  "created": "2026-08-29",
+  "direct_input_hashes": [
+    {
+      "bytes": 1703,
+      "path": "experiments/yolo/gdt608_compositional_stem_orientation/artifacts/merge_tree.tsv",
+      "sha256": "2098c71be9da13b483cf2561e06412276d8c60aa32e72520e8877f8f5d53090a"
+    },
+    {
+      "bytes": 5978,
+      "path": "experiments/yolo/gdt614_core_run_macro_recovery/artifacts/REGISTERED_MODEL.json",
+      "sha256": "ed841dc254a961650a8bda8bdc6024b67655f6bdc96e5dab2aec02f1686ecc42"
+    },
+    {
+      "bytes": 1500,
+      "path": "experiments/yolo/gdt614_core_run_macro_recovery/artifacts/REGISTERED_TRANSITIONS.tsv",
+      "sha256": "bf26bfeaa258a65e3c22a8e035cf6ddec30557307ebc9c7619c662b12324271e"
+    },
+    {
+      "bytes": 11626,
+      "path": "experiments/yolo/gdt615_joint_output_permutation_recovery/artifacts/REGISTERED_SEARCH.json",
+      "sha256": "138cb3860a9927e8095534b293836271797a654e5e2797e12b0fadb0689e2089"
+    },
+    {
+      "bytes": 205822,
+      "path": "experiments/yolo/gdt615_joint_output_permutation_recovery/artifacts/REGISTERED_TRAIN_SUBSTRINGS.txt",
+      "sha256": "5b6859d8656f63cf8e8cf89221ae8ff1dea345e135a6cd012248b9b4c4ff14a9"
+    },
+    {
+      "bytes": 3305,
+      "path": "experiments/yolo/gdt615_joint_output_permutation_recovery/artifacts/stage1/STAGE1_RESULT.json",
+      "sha256": "f9f1e0ee8096d191ab454971c1e6218fed29586881d6cafbc9b790bff4332f3e"
+    }
+  ],
+  "experiment_id": "GDT616",
+  "gdt615_import_policy": {
+    "excluded": [
+      "GDT615 Stage-0 selected mapping",
+      "GDT615 mapping commit",
+      "GDT615 raw-support objective",
+      "GDT615 relaxed cover objective or witness"
+    ],
+    "imported": [
+      "primitive role assignment",
+      "complete same-role primitive output deck",
+      "paid output deck",
+      "partition hashes and reveal order",
+      "TRAIN substring relation",
+      "inherited GDT614 downstream thresholds"
+    ],
+    "terminal_prior_status": "MAPPING_BOUND_PASS__FULL_WORLD_INFEASIBLE",
+    "terminal_prior_use": "route rationale only; may not constrain X, Z, objectives, or candidates"
+  },
+  "inventory": {
+    "grammar": {
+      "CORE": "LITERAL | SYLLABIC | SHORT_CARD | MACRO_CORE",
+      "CORE_RUN": "TERM{1,12}",
+      "TERM": "CORE | CONTEXT LITERAL | LITERAL CONTEXT",
+      "WORD": "PREFIX{0,2} CORE_RUN (CONNECTOR CORE_RUN){0,3} SUFFIX{0,2}",
+      "WORD_EVENT": "NULL{0,2} WORD NULL{0,2}"
+    },
+    "merge_count": 64,
+    "merge_rank_order": [
+      "dy",
+      "ok",
+      "ol",
+      "aN",
+      "Ce",
+      "ot",
+      "qok",
+      "ar",
+      "al",
+      "or",
+      "Se",
+      "aI",
+      "daN",
+      "Ey",
+      "Cedy",
+      "qot",
+      "Cy",
+      "Edy",
+      "edy",
+      "ody",
+      "Col",
+      "Cey",
+      "ai",
+      "ey",
+      "od",
+      "Sedy",
+      "am",
+      "olk",
+      "yk",
+      "Cor",
+      "yt",
+      "qo",
+      "Co",
+      "dal",
+      "dar",
+      "Cdy",
+      "Ky",
+      "air",
+      "Ty",
+      "Sey",
+      "ky",
+      "qokaI",
+      "So",
+      "op",
+      "Sol",
+      "qokaN",
+      "qokEdy",
+      "qokal",
+      "qokedy",
+      "CE",
+      "eol",
+      "Sy",
+      "CEy",
+      "Ceol",
+      "daI",
+      "os",
+      "qol",
+      "lk",
+      "qokEy",
+      "okaN",
+      "okal",
+      "otal",
+      "oky",
+      "oty"
+    ],
+    "paid_output_deck": [
+      {
+        "card_id": "short:1",
+        "output": "de",
+        "role": "short_card"
+      },
+      {
+        "card_id": "short:2",
+        "output": "di",
+        "role": "short_card"
+      },
+      {
+        "card_id": "short:3",
+        "output": "ent",
+        "role": "short_card"
+      },
+      {
+        "card_id": "short:4",
+        "output": "ere",
+        "role": "short_card"
+      },
+      {
+        "card_id": "macro:1",
+        "output": "con",
+        "role": "macro_core",
+        "side_license": "RIGHT_HOST"
+      },
+      {
+        "card_id": "macro:2",
+        "output": "runt",
+        "role": "macro_core",
+        "side_license": "LEFT_HOST"
+      },
+      {
+        "card_id": "macro:3",
+        "output": "erunt",
+        "role": "macro_core",
+        "side_license": "STANDALONE_OR_LEFT_HOST"
+      },
+      {
+        "card_id": "macro:4",
+        "output": "reliqu",
+        "role": "macro_core",
+        "side_license": "RIGHT_HOST"
+      }
+    ],
+    "primitive_order": [
+      "C",
+      "E",
+      "F",
+      "I",
+      "K",
+      "N",
+      "P",
+      "S",
+      "T",
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g",
+      "h",
+      "i",
+      "j",
+      "k",
+      "l",
+      "m",
+      "n",
+      "o",
+      "p",
+      "q",
+      "r",
+      "s",
+      "t",
+      "u",
+      "v",
+      "x",
+      "y",
+      "z"
+    ],
+    "primitive_output_deck": {
+      "connector": [
+        {
+          "card_id": "K01",
+          "output": "um"
+        },
+        {
+          "card_id": "K02",
+          "output": "in"
+        }
+      ],
+      "context_abbreviation_mark": [
+        {
+          "card_id": "C01",
+          "output": "nt"
+        },
+        {
+          "card_id": "C02",
+          "output": "re"
+        }
+      ],
+      "literal_carrier": [
+        {
+          "card_id": "L01",
+          "output": "a"
+        },
+        {
+          "card_id": "L02",
+          "output": "b"
+        },
+        {
+          "card_id": "L03",
+          "output": "c"
+        },
+        {
+          "card_id": "L04",
+          "output": "e"
+        },
+        {
+          "card_id": "L05",
+          "output": "f"
+        },
+        {
+          "card_id": "L06",
+          "output": "g"
+        },
+        {
+          "card_id": "L07",
+          "output": "i"
+        },
+        {
+          "card_id": "L08",
+          "output": "l"
+        },
+        {
+          "card_id": "L09",
+          "output": "m"
+        },
+        {
+          "card_id": "L10",
+          "output": "n"
+        },
+        {
+          "card_id": "L11",
+          "output": "o"
+        },
+        {
+          "card_id": "L12",
+          "output": "p"
+        },
+        {
+          "card_id": "L13",
+          "output": "r"
+        },
+        {
+          "card_id": "L14",
+          "output": "s"
+        },
+        {
+          "card_id": "L15",
+          "output": "t"
+        },
+        {
+          "card_id": "L16",
+          "output": "u"
+        },
+        {
+          "card_id": "L17",
+          "output": "v"
+        },
+        {
+          "card_id": "L18",
+          "output": "x"
+        }
+      ],
+      "macro_core": [
+        {
+          "card_id": "M01",
+          "output": "ibus",
+          "side_license": "LEFT_HOST"
+        }
+      ],
+      "null_layout": [
+        {
+          "card_id": "N01",
+          "output": ""
+        }
+      ],
+      "prefix_operator": [
+        {
+          "card_id": "P01",
+          "output": "h"
+        },
+        {
+          "card_id": "P02",
+          "output": "pr"
+        },
+        {
+          "card_id": "P03",
+          "output": "pro"
+        }
+      ],
+      "suffix_operator": [
+        {
+          "card_id": "S01",
+          "output": "d"
+        },
+        {
+          "card_id": "S02",
+          "output": "us"
+        },
+        {
+          "card_id": "S03",
+          "output": "tur"
+        }
+      ],
+      "syllabic_carrier": [
+        {
+          "card_id": "Y01",
+          "output": "q"
+        },
+        {
+          "card_id": "Y02",
+          "output": "hi"
+        },
+        {
+          "card_id": "Y03",
+          "output": "ho"
+        },
+        {
+          "card_id": "Y04",
+          "output": "que"
+        }
+      ]
+    },
+    "primitive_role_assignment": [
+      {
+        "primitive_id": "C",
+        "role": "null_layout"
+      },
+      {
+        "primitive_id": "E",
+        "role": "syllabic_carrier"
+      },
+      {
+        "primitive_id": "F",
+        "role": "connector"
+      },
+      {
+        "primitive_id": "I",
+        "role": "suffix_operator"
+      },
+      {
+        "primitive_id": "K",
+        "role": "literal_carrier"
+      },
+      {
+        "primitive_id": "N",
+        "role": "syllabic_carrier"
+      },
+      {
+        "primitive_id": "P",
+        "role": "literal_carrier"
+      },
+      {
+        "primitive_id": "S",
+        "role": "prefix_operator"
+      },
+      {
+        "primitive_id": "T",
+        "role": "connector"
+      },
+      {
+        "primitive_id": "a",
+        "role": "literal_carrier"
+      },
+      {
+        "primitive_id": "b",
+        "role": "literal_carrier"
+      },
+      {
+        "primitive_id": "c",
+        "role": "syllabic_carrier"
+      },
+      {
+        "primitive_id": "d",
+        "role": "literal_carrier"
+      },
+      {
+        "primitive_id": "e",
+        "role": "literal_carrier"
+      },
+      {
+        "primitive_id": "f",
+        "role": "literal_carrier"
+      },
+      {
+        "primitive_id": "g",
+        "role": "prefix_operator"
+      },
+      {
+        "primitive_id": "h",
+        "role": "literal_carrier"
+      },
+      {
+        "primitive_id": "i",
+        "role": "context_abbreviation_mark"
+      },
+      {
+        "primitive_id": "j",
+        "role": "literal_carrier"
+      },
+      {
+        "primitive_id": "k",
+        "role": "literal_carrier"
+      },
+      {
+        "primitive_id": "l",
+        "role": "context_abbreviation_mark"
+      },
+      {
+        "primitive_id": "m",
+        "role": "suffix_operator"
+      },
+      {
+        "primitive_id": "n",
+        "role": "macro_core"
+      },
+      {
+        "primitive_id": "o",
+        "role": "literal_carrier"
+      },
+      {
+        "primitive_id": "p",
+        "role": "literal_carrier"
+      },
+      {
+        "primitive_id": "q",
+        "role": "literal_carrier"
+      },
+      {
+        "primitive_id": "r",
+        "role": "syllabic_carrier"
+      },
+      {
+        "primitive_id": "s",
+        "role": "literal_carrier"
+      },
+      {
+        "primitive_id": "t",
+        "role": "literal_carrier"
+      },
+      {
+        "primitive_id": "u",
+        "role": "suffix_operator"
+      },
+      {
+        "primitive_id": "v",
+        "role": "literal_carrier"
+      },
+      {
+        "primitive_id": "x",
+        "role": "prefix_operator"
+      },
+      {
+        "primitive_id": "y",
+        "role": "literal_carrier"
+      },
+      {
+        "primitive_id": "z",
+        "role": "literal_carrier"
+      }
+    ],
+    "registered_transition_count": 21,
+    "role_counts": {
+      "connector": 2,
+      "context_abbreviation_mark": 2,
+      "literal_carrier": 18,
+      "macro_core": 1,
+      "null_layout": 1,
+      "prefix_operator": 3,
+      "suffix_operator": 3,
+      "syllabic_carrier": 4
+    },
+    "thresholds": {
+      "blind_starts_per_world": 8,
+      "decoys_minimum": 100000,
+      "exact_starts_required": 7,
+      "focal_incidence_rank": 42,
+      "named_merge_min_held_events": 1,
+      "named_merge_min_train_types": 1,
+      "null_train_mass_max": 0.025,
+      "null_train_mass_min": 0.005,
+      "private_focal_min_held_types_per_card": 1,
+      "private_focal_min_train_types_per_card": 1,
+      "registered_transitions": 21,
+      "scored_card_min_held_events": 16,
+      "scored_card_min_train_types": 8,
+      "transition_min_held_events": 1,
+      "transition_min_train_types": 1,
+      "worlds_required": 3
+    }
+  },
+  "limits": {
+    "unknown_or_timeout_can_pass": false,
+    "wall_clock_seconds_maximum": 43200,
+    "workers_maximum": 32
+  },
+  "model_id": "HISTORICAL_MIXED_ABBREVIATION_FST_34_CORE_RUN_MACRO_V4_JOINT_CHILD_FEASIBLE",
+  "outcomes": [
+    "NO_JOINT_CHILD_FEASIBLE_BINDING",
+    "JOINT_BOUND_PASS__W0_INFEASIBLE",
+    "THREE_WORLD_GENERATOR_INFEASIBLE",
+    "HELD_BINDING_NONTRANSFER",
+    "SEARCH_INCOMPLETE",
+    "OBJECTIVE_NON_IDENTIFYING",
+    "OPTIMIZER_INSUFFICIENT",
+    "SYNTHETIC_RECOVERY_PASS",
+    "IMPLEMENTATION_OR_VALIDATION_FAILURE"
+  ],
+  "partition_access": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN",
+    "lm_confirm": "open only after three-world commit and held transfer pass",
+    "pre_three_world_commit": [
+      "merge DAG",
+      "registered model/decks",
+      "transitions",
+      "units",
+      "synthetic TRAIN",
+      "TRAIN substrings",
+      "lm_fit"
+    ],
+    "synthetic_held": "open exactly once after complete three-world TRAIN bundle commit",
+    "voynich_target": "FORBIDDEN_THROUGHOUT_GDT616"
+  },
+  "recursive_equations": {
+    "merge_child": "child(m)=eff(left(m))||eff(right(m))",
+    "merge_effective": "eff(m)=paid_output(Z[m]) if Z[m]!=NONE else child(m)",
+    "order": "increasing merge rank; directed left then right",
+    "primitive_effective": "eff(p)=output(X[p])"
+  },
+  "schema": "gdt616-joint-child-feasible-binding-registration-v1",
+  "stage_a_fail_fast_hard_constraints": [
+    "X is all-different inside each fixed role; card tuple metadata travels intact",
+    "every paid card is used exactly once at eight distinct merge IDs",
+    "child(m) is nonempty and in the registered TRAIN substring relation for every merge",
+    "eff(m) is nonempty and in the registered TRAIN substring relation for every merge",
+    "every paid output differs byte-for-byte from child(m)",
+    "all 41 nonempty card outputs remain globally distinct",
+    "merge rank 7 qok may not receive a paid macro card"
+  ],
+  "stage_a_selection": {
+    "diagnostic_witness_can_constrain_stage_b": false,
+    "diagnostic_witness_order": [
+      "lexicographically minimize card IDs in registered primitive order",
+      "lexicographically minimize ascending (merge rank, paid card ID) tuple"
+    ],
+    "forbidden_objectives": [
+      "raw train-substring support count",
+      "relaxed paid-subtree cover minimum",
+      "frequency",
+      "lexicon or LM score",
+      "distance from the GDT615 mapping"
+    ],
+    "sat_freezes_mapping_or_paid_assignment": false,
+    "stage_b_domain": "the complete Stage-A-feasible X+Z space"
+  },
+  "stage_b_integrated_w0": {
+    "domain": "all Stage-A-feasible X+Z assignments plus complete TRAIN traces and tilings",
+    "exact_optimality_required": true,
+    "hard_constraints": [
+      "complete GDT614 V2 grammar and 21 transitions",
+      "ordered multiplicity-preserving span-bearing labelled traces",
+      "nonoverlapping top-level 98-unit tilings",
+      "34 primitive, eight paid, 56 default, eight paid-child, and all 64 merge labels",
+      "registered train exposure, null-mass, collision, and focal-incidence-rank thresholds",
+      "exact macro host licenses on labelled occurrences"
+    ],
+    "host_licenses": {
+      "LEFT_HOST": "another non-NULL core term immediately left in the same CORE_RUN",
+      "RIGHT_HOST": "another non-NULL core term immediately right in the same CORE_RUN",
+      "STANDALONE_OR_LEFT_HOST": "singleton body term or LEFT_HOST",
+      "non_hosts": [
+        "PREFIX",
+        "SUFFIX",
+        "CONNECTOR",
+        "NULL"
+      ]
+    },
+    "independent_replay_and_better-bound_exclusion_required": true,
+    "objective_hierarchy": [
+      "maximize minimum distinct TRAIN-type exposure over all 42 cards",
+      "maximize minimum direct TRAIN occurrence over the eight paid cards",
+      "maximize total distinct labelled merge-node occurrences",
+      "lexicographically minimize primitive card-ID sequence in registered primitive order",
+      "lexicographically minimize ascending (merge rank, paid card ID) assignment tuple",
+      "lexicographically minimize canonical complete trace/tiling serialization"
+    ],
+    "qok_paid_macro_forbidden": {
+      "longer_qok_family_implicitly_forbidden": false,
+      "merge": "qok",
+      "rank": 7
+    }
+  },
+  "status": "REGISTERED_UNSCORED",
+  "three_world_rule": {
+    "all_worlds_repeat_full_train_contract": true,
+    "attempt_limit_each": 10000,
+    "commit": "one hash-bound bundle before held or lm_confirm access",
+    "contrast_seed_starts": [
+      61601,
+      61602
+    ],
+    "minimum_paid_location_or_output_differences": 6,
+    "minimum_primitive_assignment_differences": 24,
+    "permutation": "equal role and equal output length only",
+    "seed_increment": 2,
+    "worlds": [
+      "W616_0",
+      "W616_1",
+      "W616_2"
+    ]
+  },
+  "train_substrings": {
+    "distinct_substring_count": 28101,
+    "maximum_length": 12,
+    "minimum_length": 1,
+    "path": "experiments/yolo/gdt615_joint_output_permutation_recovery/artifacts/REGISTERED_TRAIN_SUBSTRINGS.txt",
+    "recounted_distinct_entries": 28101,
+    "sha256": "5b6859d8656f63cf8e8cf89221ae8ff1dea345e135a6cd012248b9b4c4ff14a9",
+    "sort_order": "ascending byte length, then ASCII byte order",
+    "source_distinct_type_count": 2595,
+    "source_event_count": 6157
+  },
+  "transitive_partition_hashes_from_gdt615": [
+    {
+      "access": "PRECOMMIT_TRAIN_ALLOWED",
+      "hash_inherited_without_opening": true,
+      "path": "experiments/yolo/gdt612_historical_fst34_target_attack/artifacts/units.tsv",
+      "sha256": "8fc32a38dbe47a5d738698ccccd7289fe3d533e9e5d870624da11f0fc5d19180"
+    },
+    {
+      "access": "PRECOMMIT_TRAIN_ALLOWED",
+      "hash_inherited_without_opening": true,
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/artifacts/reference_splits/synthetic_train.txt",
+      "sha256": "466f1568a9a387c4b091a6c1679c78ee136919ca7c959bd8742afdda3d272e78"
+    },
+    {
+      "access": "AFTER_THREE_WORLD_COMMIT_ONLY",
+      "hash_inherited_without_opening": true,
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/artifacts/reference_splits/synthetic_held.txt",
+      "sha256": "7fa47a1396870cf32d00748bbb213e993e853239a57b425796df26ac8e5f04bd"
+    },
+    {
+      "access": "PRECOMMIT_TRAIN_ALLOWED",
+      "hash_inherited_without_opening": true,
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/artifacts/reference_splits/lm_fit.txt",
+      "sha256": "2255b67ffb1b41bf1c327b97fb5b7c87acec70947aeeb3b75143d55a2af1c412"
+    },
+    {
+      "access": "AFTER_THREE_WORLD_COMMIT_AND_HELD_PASS_ONLY",
+      "hash_inherited_without_opening": true,
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/artifacts/reference_splits/lm_confirm.txt",
+      "sha256": "73d40ca54cc2fec3e7f1a5df4994a5cd394f4cbee2dacf966aa81c59518246a1"
+    }
+  ],
+  "variables": {
+    "X": "same-role bijection from primitive IDs to complete primitive output-card tuples",
+    "Z": "for each merge: NONE or one of eight named paid cards; each paid card exactly once",
+    "actual_paid_locations": 8,
+    "paid_macro_cards": 4,
+    "paid_short_cards": 4,
+    "relaxed_core_hit_variables": "FORBIDDEN"
+  }
+}
