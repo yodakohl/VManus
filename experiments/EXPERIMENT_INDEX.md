@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **635**
-- Experiment-associated tracked files: **10,075** (1.0 GiB)
-- Structured GDT337+ experiments: **300**
+- Experiments indexed: **636**
+- Experiment-associated tracked files: **10,097** (1.0 GiB)
+- Structured GDT337+ experiments: **301**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT638 | GDT638_sequential_compound_promotion | `PASS_13_EXACT_COMPOUNDS_PROMOTED__14_NEW_COMPLETE_LINES__2_HELD` | [report](../experiments/yolo/gdt638_sequential_compound_promotion/REPORT.md) | 22 | 2.6 MiB | 5 | STRUCTURED_YOLO |
 | GDT637 | GDT637_ladder_completion_one_unknown_passages | `EIGHT_ATTESTED_LADDER_CELLS_ADDED__ONE_UNKNOWN_PASSAGES_RANKED` | [report](../experiments/yolo/gdt637_ladder_completion_one_unknown_passages/REPORT.md) | 21 | 2.3 MiB | 1 | STRUCTURED_YOLO |
 | GDT636 | GDT636_residual_four_head_semantics | `ALL_19_RESIDUAL_BODIES_HAVE_SCOPED_COMPOSITIONAL_DEFAULTS` | [report](../experiments/yolo/gdt636_residual_four_head_semantics/REPORT.md) | 21 | 248.9 KiB | 1 | STRUCTURED_YOLO |
 | GDT635 | GDT635_initial_head_same_remainder_swaps | `MATERIA_HEAD_MODEL_PRIMARY__P_PULVIS_S_SEMEN_R_RADIX_L_LIGNUM` | [report](../experiments/yolo/gdt635_initial_head_same_remainder_swaps/REPORT.md) | 24 | 1.0 MiB | 2 | STRUCTURED_YOLO |

@@ -15537,7 +15537,7 @@ conditions. The65 holes reduce to64 surfaces. Strong concrete worksheet values
 include otchol=cold-dry preparation material,keechy=hot bound dry formII,
 cthoiin=leaf/herb preparationIII,cthor=leaf/herb portion,choiin=dry
 preparationIII,dol=measured material,doiin=dose of preparationIII and
-oaiir=preparation part-classIII. None is promoted yet;opaque cpholdy,cheockhy,
+oaiir=preparation part/sort-classIII. None is promoted yet;opaque cpholdy,cheockhy,
 chckhal and okcholksh explicitly remain unresolved rather than receiving
 generic filler. The independent validator passes33978 checks and byte-replays
 all13 builder outputs.
@@ -15546,3 +15546,34 @@ Next GDT638 adds the strongest reader-exact hole compounds sequentially and
 records the new complete passage created by each. A proposal survives while it
 adds concrete passage coverage without turning an existing complete line into
 nonsense. No new page,image,f1r,f84*,GDT418 value or naked-body globalization.
+
+## GDT638 promotes thirteen exact compounds after a full occurrence circuit
+
+GDT638 replaces the old score-only twelve-card idea with fifteen semantically
+ordered strict-hole compounds. cthey/chkaiin/chtain are restored from flat
+GDT637 defaults to CTH-drug formI,hot-dry gradeIII and cold-dry gradeII. Every
+candidate is inserted alone and rendered at every one of its full-surface
+occurrences before the decision;the combined audit has396 rows.
+
+Thirteen cards enter V15:cthoiin,choiin,cthey,cthor,qotchol,otchol,kcho,
+chkaiin,chtain,doiin,dol,oaiir,qoky. The high-burden defaults are now short:
+doiin=preparation measure/formIII,dol=material measure,oaiir=preparation
+part/sort-classIII and qoky=hot base form. keechy remains a concrete hot-dry/formII
+proposal outside V15 because its ee/ch/y field order is not secure. The
+singleton chokshy remains dry form with hot-moist quality outside V15 because
+dry and moist still lack a separately observed scope.
+
+Across all396 occurrences,85 are concrete-compatible in sufficiently read
+context,260 are too opaque to judge,50 carry alternate-reader boundaries and
+chokshy's one row is the sole hard collision. No accepted card has a hard
+contradiction or nonsense verdict. V15 preserves all259 V14 rows and appends13
+exact-whole cards=272;the executable glossary grows212→225. Complete
+multi-token lines grow16→30 and clean exact lines7→20. Fourteen new passages
+include f4r.13 daiin cthey=valueIII,leaf/herb formI;f28v.6 daiin chkaiin=
+valueIII,hot-dryIII;f36v.14 soiin chtain=seed preparationIII,cold-dryII;and
+f35v.21 doiin chor chor=preparation measure/formIII,plant part,plant part. The final
+one-hole queue has62 lines/61 surfaces,24 strict.
+
+Next GDT639 corrects underread strict holes rather than adding generic prose,
+starting with shy,chotaiin,cthar and remaining quality/form compounds. It uses
+the same all-occurrence exact-surface rule and opens no page or image.
