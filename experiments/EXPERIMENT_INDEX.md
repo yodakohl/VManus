@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **616**
-- Experiment-associated tracked files: **9,610** (1.0 GiB)
-- Structured GDT337+ experiments: **281**
+- Experiments indexed: **617**
+- Experiment-associated tracked files: **9,621** (1.0 GiB)
+- Structured GDT337+ experiments: **282**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT619 | GDT619_five_source_page_acquisition | `PROFILE_REGISTERED__NO_IMAGE_REQUEST_EXECUTED` | [report](../experiments/yolo/gdt619_five_source_page_acquisition/PREREGISTRATION.md) | 11 | 145.7 KiB | 1 | STRUCTURED_YOLO |
 | GDT618 | GDT618_four_witness_herbal_concordance | `PHYSICAL_FOLIO_COLLISION_CORRECTED` | [report](../experiments/yolo/gdt618_four_witness_herbal_concordance/PREREGISTRATION.md) | 9 | 72.2 KiB | 1 | STRUCTURED_YOLO |
 | GDT617 | GDT617_triple_herbal_plaintext_transducer | `HIGHER_EVIDENCE_LOCATOR_SET_CORRECTION` | [report](../experiments/yolo/gdt617_triple_herbal_plaintext_transducer/PREREGISTRATION.md) | 18 | 1.3 MiB | 2 | STRUCTURED_YOLO |
 | GDT616 | GDT616_joint_child_feasible_binding | `POST_TERMINAL_MINIMUM_GATE_RELAXATION_PASS` | [report](../experiments/yolo/gdt616_joint_child_feasible_binding/REPORT.md) | 24 | 393.5 KiB | 4 | STRUCTURED_YOLO |

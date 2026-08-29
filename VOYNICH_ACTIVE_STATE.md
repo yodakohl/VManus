@@ -14829,3 +14829,21 @@ and runtime validation passes52/52. The replacement search accessed official
 Mandragore HTML metadata and the already hash-bound Wagner PDF/text,but no
 manuscript image or Voynich material. Lat.6823 alone supplies the heading plus
 first twelve running tokens;Clm remains a control and may not repair it.
+
+## GDT619 registers the exact five-page source acquisition
+
+GDT619 binds the corrected public GDT618 deck to exact Gallica and BSB IIIF
+requests without opening an image. Its Clm map is f10v/f35v/f80r/f46r/f48v at
+BSB scans26/76/165/97/102;the corresponding Latin 6823 pages are Gallica
+f58/f96/f178/f91/f122. The BSB side consistently uses Presentation/Image API
+v3,manifest-advertised `full/max` bodies and raw v3 rights metadata;the BnF
+side retains its Image API1.1 native resources.
+
+Stage A permits the hash-bound BSB manifest and one width1200 Balsamus
+calibration image at scan26. Only a manually visible absence permits scans25
+and27;ambiguity or transport/decode failure stops. The acquisition code has a
+durable exactly-once journal,advisory concurrency lock,full Pillow JPEG decode,
+symlink/path guards and complete public hash/timing evidence. Stage B remains
+locked until the Stage1 resolution is public. Profile SHA256 is
+`7ee7e0e6...5e81`;offline self-tests pass25/25 and runtime validation53/53.
+No source image,Voynich target,word,plaintext or meaning has yet been opened.
