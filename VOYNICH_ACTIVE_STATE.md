@@ -14902,3 +14902,20 @@ page was displayed or read;no OCR,crop,source transcription or Voynich target
 was opened. The private images may be read only after a separate public GDT621
 double-reading registration;Latin headings+12 tokens come first and Clm stays
 a later control.
+
+## GDT621 freezes the manual Latin double reading
+
+GDT621 binds the ten acquired JPEGs to two distinct,source-only reader sessions.
+Each reader receives one exact path-free packet per Latin DEV page and returns
+one canonical five-page bundle:the visible rubric plus exactly twelve following
+main-text tokens under one diplomatic notation. Known headwords remain locator
+hints,not a blind discovery endpoint;the new endpoint is their running text.
+Neither reader may consult the profile,repository,catalog,edition,network,other
+sources or the other reading. Reconciliation has its own nonaccess audit and
+must freeze both raw hashes,all five Latin readings and the full difference
+ledger in a nonempty public checkpoint before any Clm page opens;the final
+result must reuse that Latin payload byte-identically. Temporary display zoom
+is allowed,but no derivative image is retained. Profile SHA256 is
+`c34724e9...6c9b`;registration validation passes46/46 with zero network,source
+images or Voynich material opened. Next publish the registration,then execute
+the two independent Latin readings.

@@ -1,0 +1,79 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The ten immutable full-page JPEGs remain private and outside the repository. Registration retains only compact protocol, profile, and validation artifacts; no image bytes, crops, renderings, private paths, or reader submissions are published.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "This registration freezes a two-reader, Latin-first diplomatic source-reading protocol. It opens no source image, reads no source text, and accesses no Voynich target. A later compliant result can establish only a reproducible source transcription; it cannot assign any Voynich sign, word, language, plaintext, plant, operation, or meaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt621_manual_source_double_reading/src/run.py --check",
+    "validate": "python3 experiments/yolo/gdt621_manual_source_double_reading/src/validate.py --check"
+  },
+  "created": "2026-08-29",
+  "dependencies": [
+    "GDT620"
+  ],
+  "experiment_id": "GDT621",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt620_stage_b_source_page_acquisition/artifacts/STAGE_B_RESULT.json",
+      "role": "public GDT620 ten-page acquisition result and exact private-JPEG hash/dimension binding",
+      "sha256": "f14976f54fd4ea0424ada9f23d19e7f02424beff739f5b4943dd3b0329ae378e"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt621_manual_source_double_reading/README.md",
+      "role": "compact registration status and source-reading boundary",
+      "sha256": "a4112e0aaab3d3338c1fa6e6e3d42266fd86c15f9c8988b889a128beced61d2a"
+    },
+    {
+      "path": "experiments/yolo/gdt621_manual_source_double_reading/METHOD.md",
+      "role": "Latin-first two-reader blinding, diplomatic capture, reconciliation, and delayed-control method",
+      "sha256": "5f322872fde75413a11b552f747f3337c9860517b0d88f865f850330bd4bf6ec"
+    },
+    {
+      "path": "experiments/yolo/gdt621_manual_source_double_reading/PREREGISTRATION.md",
+      "role": "frozen page bindings, display constraints, reader isolation, output contract, and stop rules",
+      "sha256": "419f6863b8afd20401cc528aa44f083a1ed6bfc441c3c74a601f3329b8013551"
+    },
+    {
+      "path": "experiments/yolo/gdt621_manual_source_double_reading/artifacts/README.md",
+      "role": "compact registration artifact inventory and image exclusion",
+      "sha256": "2aaa950447e73e409f92ad5529a5aec9c5fc24727f6d3c452c1a8116510dacbc"
+    },
+    {
+      "path": "experiments/yolo/gdt621_manual_source_double_reading/artifacts/REGISTERED_READING_PROFILE.json",
+      "role": "canonical page, provenance, display, blinding, diplomatic capture, reconciliation, and result contract",
+      "sha256": "c34724e98e4da65564eb3245c0b7b82ee8d109748a98b253ffd67ed835886c9b"
+    },
+    {
+      "path": "experiments/yolo/gdt621_manual_source_double_reading/artifacts/REGISTERED_VALIDATION.json",
+      "role": "deterministic offline dependency, profile, manifest, privacy, provenance, and no-image registration audit",
+      "sha256": "d206623a41f87935c27de8828109295f7ca308fbbed1ee7659c3651f45a67422"
+    },
+    {
+      "path": "experiments/yolo/gdt621_manual_source_double_reading/src/run.py",
+      "role": "deterministic offline registered reading-profile builder and byte checker",
+      "sha256": "ef7178d314de8f5eeaf68ab77c5c1ae808d3fbf60d981ba32b30974f4f41ca3a"
+    },
+    {
+      "path": "experiments/yolo/gdt621_manual_source_double_reading/src/validate.py",
+      "role": "offline dependency, public-commit, profile, manifest, privacy, and no-image validator",
+      "sha256": "7e815a8de2f9dc0fa568981161f4e24753ec1ce7b143c41312c8c68a021125c1"
+    }
+  ],
+  "question": "Can two blinded readers independently produce and reconcile a diplomatic Latin heading-plus-twelve-token transcription before any control or Voynich target access?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "manual_source_double_reading",
+  "status": "DOUBLE_READING_PROFILE_REGISTERED__NO_SOURCE_IMAGE_OPENED",
+  "title": "Manual source double reading",
+  "updated": "2026-08-29",
+  "validation": {
+    "artifact": "experiments/yolo/gdt621_manual_source_double_reading/artifacts/REGISTERED_VALIDATION.json",
+    "status": "PASS"
+  }
+}

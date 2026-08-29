@@ -1,0 +1,717 @@
+{
+  "access_state_at_registration": {
+    "images_opened": 0,
+    "network_requests": 0,
+    "source_text_read": false,
+    "voynich_material_opened": false
+  },
+  "claim_ceiling": "MANUAL_SOURCE_READING_PROTOCOL_ONLY__NO_IMAGE_OPENED_AT_REGISTRATION__NO_VOYNICH_SIGN_WORD_LANGUAGE_PLAINTEXT_PLANT_OR_MEANING",
+  "clm_control": {
+    "may_not_repair_or_replace_latin": true,
+    "opens_only_after_both_latin_submissions": true,
+    "opens_only_after_public_latin_reconciliation_checkpoint_commit": true,
+    "pages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "required_capture": "visible rubric/locator label plus notes only",
+    "separate_locator_control": true
+  },
+  "dependency": {
+    "gdt620_acquisition_code_registration_commit": "61a253ce2756ad06a6c69c620e702500f5e640ef",
+    "gdt620_result_path": "experiments/yolo/gdt620_stage_b_source_page_acquisition/artifacts/STAGE_B_RESULT.json",
+    "gdt620_result_publication_commit": "798e05f46e79c4abd2047577669d3a67d561ec51",
+    "gdt620_result_sha256": "f14976f54fd4ea0424ada9f23d19e7f02424beff739f5b4943dd3b0329ae378e",
+    "gdt620_result_status": "TEN_SOURCE_PAGES_ACQUIRED__SOURCE_READING_UNOPENED__TARGET_UNOPENED"
+  },
+  "display_policy": {
+    "crop_may_be_viewed_in_memory": true,
+    "derived_image_may_not_be_saved": true,
+    "full_page_must_be_displayed_first": true,
+    "image_modification": false,
+    "immutable_source_jpeg": true,
+    "immutable_source_jpeg_exists_and_is_never_rewritten": true,
+    "local_only": true,
+    "persisted_derivative_forbidden": true,
+    "rotation_enhancement_annotation_or_source_rewrite_forbidden": true,
+    "temporary_display_scaling_or_zoom_allowed": true,
+    "temporary_in_memory_renderer_output_may_scale_or_resample_for_display": true,
+    "zoom_allowed_after_full_page": true
+  },
+  "experiment_id": "GDT621",
+  "forbidden_methods": [
+    "OCR",
+    "AUTOMATIC_IMAGE_CLASSIFICATION",
+    "AUTOMATIC_TEXT_RECOGNITION",
+    "VOYNICH_TARGET_ACCESS",
+    "F84",
+    "F84R"
+  ],
+  "locator_blinding": {
+    "heading_or_rubric_remains_independent_diplomatic_capture": true,
+    "primary_new_capture": "exactly_12_following_tokens",
+    "reader_attestation_required": true,
+    "reader_forbidden_session_sources": [
+      "registered_profile",
+      "repository",
+      "catalog",
+      "edition",
+      "network",
+      "other_sources"
+    ],
+    "reader_packet": {
+      "additional_keys_allowed": false,
+      "canonicalization": "UTF-8 JSON; sorted keys; compact separators; LF final byte",
+      "exact_payload_keys": [
+        "opaque_candidate_id",
+        "source_sha256",
+        "session_id",
+        "opaque_rendering_handle"
+      ],
+      "exact_value_checks": {
+        "opaque_candidate_id_pattern": "^DEV0[1-5]$",
+        "opaque_rendering_handle_forbids_semantic_text_path_url_or_headword": true,
+        "session_id_pattern": "^SESSION_[AB]_[A-F0-9]{16}$",
+        "source_sha256_pattern": "^[0-9a-f]{64}$"
+      },
+      "excluded_fields": [
+        "headword",
+        "witness_or_control_identity",
+        "url",
+        "crosswalk",
+        "profile_or_repository_locator",
+        "expected_rubric",
+        "other_reader_submission",
+        "private_filename",
+        "private_directory"
+      ],
+      "opaque_rendering_handle_pattern": "^R[AB][0-9]{2}-[0-9A-F]{16}$",
+      "reader_must_attest_exact_packet_keys_and_sha256": true,
+      "rendering_handle_must_not_contain_path": true,
+      "sha256_preimage_rule": "payload contains no hash field; compute SHA-256 over exact canonical payload"
+    },
+    "reader_visible_inputs_ref": "locator_blinding.reader_packet.exact_payload_keys",
+    "registered_headwords_are_locator_hints_not_discovery_endpoint": true
+  },
+  "phase_seals": {
+    "latin_reconciliation": {
+      "canonicalization": "UTF-8 JSON; sorted keys; compact separators; LF final byte",
+      "checkpoint_path": "artifacts/LATIN_RECONCILIATION_FROZEN.json",
+      "checkpoint_schema": {
+        "additional_keys_allowed": false,
+        "difference_ledger": {
+          "complete_for_all_five_pages": true,
+          "ordinary_row_kind": "DIFFERENCE",
+          "zero_page_exact_sentinel": "AGREEMENT_NO_DIFFERENCE",
+          "zero_page_has_exactly_one_sentinel": true
+        },
+        "exact_artifact_keys": [
+          "experiment_id",
+          "status",
+          "gdt620_binding",
+          "raw_bundle_sha256s",
+          "reconciled_latin",
+          "difference_ledger",
+          "reconciliation_access_audit",
+          "canonicalization",
+          "claim_ceiling",
+          "checkpoint_sha256"
+        ],
+        "gdt620_binding_exact_keys": [
+          "gdt620_acquisition_code_registration_commit",
+          "gdt620_result_publication_commit",
+          "gdt620_result_path",
+          "gdt620_result_sha256"
+        ],
+        "hash_preimage_exact_keys": [
+          "experiment_id",
+          "status",
+          "gdt620_binding",
+          "raw_bundle_sha256s",
+          "reconciled_latin",
+          "difference_ledger",
+          "reconciliation_access_audit",
+          "canonicalization",
+          "claim_ceiling"
+        ],
+        "own_sha256_preimage": "exact canonical checkpoint payload with checkpoint_sha256 absent; insert hash afterward",
+        "raw_bundle_sha256s": {
+          "exact_keys": [
+            "READER_A",
+            "READER_B"
+          ],
+          "ordered": true,
+          "sha256_pattern": "^[0-9a-f]{64}$"
+        },
+        "reconciled_latin": {
+          "each_page_exact_keys": [
+            "candidate_id",
+            "source_sha256",
+            "heading_or_rubric",
+            "tokens_1_through_12",
+            "diplomatic_stream",
+            "uncertainties"
+          ],
+          "exactly_12_tokens_each": true,
+          "exactly_five_pages": true,
+          "page_order": [
+            "DEV01",
+            "DEV02",
+            "DEV03",
+            "DEV04",
+            "DEV05"
+          ]
+        },
+        "required_values": {
+          "experiment_id": "GDT621",
+          "status": "LATIN_RECONCILIATION_FROZEN__CLM_UNOPENED"
+        }
+      },
+      "checkpoint_status": "LATIN_RECONCILIATION_FROZEN__CLM_UNOPENED",
+      "clm_may_trigger_latin_change": false,
+      "hash": "SHA-256 over canonical bytes",
+      "hash_preimage_rule": "compute SHA-256 over canonical payload with its own hash field absent; insert hash only afterward",
+      "must_be_publicly_committed_before_clm_open": true,
+      "required_before_clm": true
+    },
+    "raw_double_submission": {
+      "canonicalization": "UTF-8 JSON; sorted keys; compact separators; LF final byte",
+      "hash": "SHA-256 over canonical bytes",
+      "hash_preimage_rule": "compute SHA-256 over canonical payload with its own hash field absent; insert hash only afterward",
+      "required_before_reconciliation": true,
+      "requires": "exactly one ordered DEV01..DEV05 canonical bundle for READER_A and exactly one for READER_B; each page once; verified bundle SHA-256"
+    }
+  },
+  "private_page_bindings": [
+    {
+      "candidate_id": "DEV01",
+      "dimensions": {
+        "height": 2466,
+        "width": 1707
+      },
+      "headword": "Balsamus",
+      "private_filename": "01_BSB_CLM28531_DEV01.jpg",
+      "sequence": 1,
+      "sha256": "82b476a028ad94ba7392520a4cba527c9dc521a577207bbec5842d0f7e266c50",
+      "witness": "CLM28531"
+    },
+    {
+      "candidate_id": "DEV02",
+      "dimensions": {
+        "height": 2581,
+        "width": 1707
+      },
+      "headword": "Cerfolium",
+      "private_filename": "02_BSB_CLM28531_DEV02.jpg",
+      "sequence": 2,
+      "sha256": "e0c56b10b19e823c7b0247881d1cf27a1302cced0bd432956b98c47aab78746f",
+      "witness": "CLM28531"
+    },
+    {
+      "candidate_id": "DEV03",
+      "dimensions": {
+        "height": 2562,
+        "width": 1707
+      },
+      "headword": "Liquiritia",
+      "private_filename": "03_BSB_CLM28531_DEV03.jpg",
+      "sequence": 3,
+      "sha256": "4d87c0f033236b88abbb0ce6a5fe24a3664d63660080e15e0763642d9444aee0",
+      "witness": "CLM28531"
+    },
+    {
+      "candidate_id": "DEV04",
+      "dimensions": {
+        "height": 2591,
+        "width": 1707
+      },
+      "headword": "Cucurbita",
+      "private_filename": "04_BSB_CLM28531_DEV04.jpg",
+      "sequence": 4,
+      "sha256": "f5a112fd194f45db72518e1a146f05bd2eec239e346a1b137cba7f1eab24e035",
+      "witness": "CLM28531"
+    },
+    {
+      "candidate_id": "DEV05",
+      "dimensions": {
+        "height": 2581,
+        "width": 1707
+      },
+      "headword": "Diptamus",
+      "private_filename": "05_BSB_CLM28531_DEV05.jpg",
+      "sequence": 5,
+      "sha256": "808ff7b43c074ee0e67770cf51d7a38f683254c1a11883bf799bc9deeee1f4a8",
+      "witness": "CLM28531"
+    },
+    {
+      "candidate_id": "DEV01",
+      "dimensions": {
+        "height": 4581,
+        "width": 3302
+      },
+      "headword": "Balsamus",
+      "private_filename": "06_BNF_LAT6823_DEV01.jpg",
+      "sequence": 6,
+      "sha256": "a12f51056ad4e18ae4ed40739987dae3924618787ebbaac1c481ac0b2976ef2a",
+      "witness": "LAT6823"
+    },
+    {
+      "candidate_id": "DEV02",
+      "dimensions": {
+        "height": 4553,
+        "width": 3451
+      },
+      "headword": "Cerfolium",
+      "private_filename": "07_BNF_LAT6823_DEV02.jpg",
+      "sequence": 7,
+      "sha256": "470aca9b7d6cdfd9aa3cb321d165f86b01e15f8de8193e50d8a9dbb722c71b11",
+      "witness": "LAT6823"
+    },
+    {
+      "candidate_id": "DEV03",
+      "dimensions": {
+        "height": 4557,
+        "width": 3284
+      },
+      "headword": "Liquiritia",
+      "private_filename": "08_BNF_LAT6823_DEV03.jpg",
+      "sequence": 8,
+      "sha256": "01397d43449619b004fcee6fdacc3e236dfb3523f689ef0c51d0ff550f30b6b4",
+      "witness": "LAT6823"
+    },
+    {
+      "candidate_id": "DEV04",
+      "dimensions": {
+        "height": 4388,
+        "width": 3333
+      },
+      "headword": "Cucurbita",
+      "private_filename": "09_BNF_LAT6823_DEV04.jpg",
+      "sequence": 9,
+      "sha256": "055dd108bbec73ca7a8b80f9cfa3c467b3ca560ef9650015f05aaffd2e28ca8d",
+      "witness": "LAT6823"
+    },
+    {
+      "candidate_id": "DEV05",
+      "dimensions": {
+        "height": 4574,
+        "width": 3346
+      },
+      "headword": "Diptamus",
+      "private_filename": "10_BNF_LAT6823_DEV05.jpg",
+      "sequence": 10,
+      "sha256": "8091ac2ac1939ac11e88d314501c4ef68d0015e6c38b89ad08a07a30521e0a4a",
+      "witness": "LAT6823"
+    }
+  ],
+  "reader_protocol": {
+    "both_complete_definition": "five canonical hashable raw submissions from each reader",
+    "distinct_session_id_per_reader": true,
+    "independent_fresh_rendering_per_reader_and_page": true,
+    "latin_pages_first": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "other_reader_rendering_hidden": true,
+    "other_reader_submission_hidden_until_both_submitted": true,
+    "precomparison_storage": "ROOT_MAILBOX_ONLY",
+    "reader_id_pattern": "^READER_[AB]$",
+    "readers": [
+      "A",
+      "B"
+    ],
+    "required_capture": {
+      "abbreviations": "preserve visible abbreviation marks without silent expansion",
+      "diplomatic_notation": {
+        "expansion_or_normalization": "forbidden",
+        "non_keyboard_sign": "ASCII tag <SIGN:DESCRIPTION> with no whitespace",
+        "notation_version": "GDT621_DIPLOMATIC_V1",
+        "uncertain_boundary": "record separately; never silently alter whitespace",
+        "uncertain_letterform": "ASCII tag <UNCERTAIN:x> with no whitespace; x is best literal letterform",
+        "unicode_rule": "exact UTF-8 codepoints; no Unicode normalization",
+        "unreadable_letterform": "ASCII tag <UNREADABLE> with no whitespace",
+        "visible_letterform_policy": "transcribe the visible letterform only; do not silently modernize, expand, or substitute"
+      },
+      "heading_or_rubric": "diplomatic codepoint string",
+      "lexical_tokens_after_heading": "exactly_12 whitespace-delimited diplomatic tokens",
+      "reading_order": "top-to-bottom then left-to-right",
+      "reading_region": "main_text_block_only; exclude marginalia and image labels",
+      "rubric_end": "visible transition from rubric to main text",
+      "spacing": "preserve visible spacing decisions",
+      "token_definition": "maximal run of non-whitespace codepoints; line break is whitespace; punctuation and abbreviation signs remain attached",
+      "uncertainties": "codepoint-addressed notes"
+    },
+    "separate_agent_sessions": true,
+    "separate_rendering_sessions": true,
+    "session_id_must_differ_between_readers": true,
+    "session_id_pattern": "^SESSION_[AB]_[A-F0-9]{16}$",
+    "shared_workspace_materialization_before_both_complete": false,
+    "submission_is_diplomatic_and_immutable_before_comparison": true
+  },
+  "reading_order": [
+    "READER_A_FIVE_RAW_CANONICAL_SUBMISSIONS",
+    "READER_A_COMMITMENT_VERIFIED",
+    "READER_B_FIVE_RAW_CANONICAL_SUBMISSIONS",
+    "READER_B_COMMITMENT_VERIFIED",
+    "BOTH_RAW_COMMITMENTS_FROZEN",
+    "LATIN_RECONCILIATION",
+    "LATIN_RECONCILIATION_FROZEN_ARTIFACT_VALIDATED",
+    "PUBLIC_CHECKPOINT_COMMITTED_AND_HASH_VERIFIED",
+    "CLM28531_FIVE_CONTROL_VIEWS"
+  ],
+  "reconciliation": {
+    "access_audit": {
+      "allowed_inputs": "only the two frozen raw bundles and the five registered Latin JPEGs when resolving glyphs",
+      "attestation_precedes_checkpoint_hash": true,
+      "exact_required_fields": [
+        "adjudicator_id",
+        "session_id",
+        "started_utc",
+        "completed_utc",
+        "attested_utc",
+        "frozen_reader_a_bundle_sha256",
+        "frozen_reader_b_bundle_sha256",
+        "only_frozen_bundles_and_five_latin_jpegs_used",
+        "clm_access_count",
+        "network_access_count",
+        "repository_or_profile_access_count",
+        "catalog_access_count",
+        "edition_access_count",
+        "other_source_access_count",
+        "voynich_access_count",
+        "f84_access_count",
+        "f84r_access_count"
+      ],
+      "required_before_checkpoint": true,
+      "required_values": {
+        "catalog_access_count": 0,
+        "clm_access_count": 0,
+        "edition_access_count": 0,
+        "f84_access_count": 0,
+        "f84r_access_count": 0,
+        "network_access_count": 0,
+        "only_frozen_bundles_and_five_latin_jpegs_used": true,
+        "other_source_access_count": 0,
+        "repository_or_profile_access_count": 0,
+        "voynich_access_count": 0
+      }
+    },
+    "adjudicator_id_pattern": "^ADJUDICATOR_[A-F0-9]{16}$",
+    "begins_only_after_both_complete_latin_submissions": true,
+    "compare_abbreviation_marks": true,
+    "compare_every_codepoint": true,
+    "compare_spacing": true,
+    "compare_token_boundaries": true,
+    "difference_ledger_required": true,
+    "difference_row_fields": [
+      "candidate_id",
+      "row_kind",
+      "field",
+      "position",
+      "reader_a",
+      "reader_b",
+      "difference_type",
+      "reconciled_reading",
+      "resolution_reason",
+      "adjudicator",
+      "resolved_utc"
+    ],
+    "row_kinds": {
+      "agreement_sentinel": "AGREEMENT_NO_DIFFERENCE",
+      "difference": "DIFFERENCE"
+    },
+    "zero_difference_pages_require_explicit_zero_row": true,
+    "zero_difference_rule": "exactly one AGREEMENT_NO_DIFFERENCE row per zero-difference page; position, readings, resolution, adjudicator and resolved_utc are null; no fabricated position"
+  },
+  "result_contract": {
+    "access_audit": {
+      "canonical_schema_source": true,
+      "clm_event_count": 5,
+      "clm_event_order": [
+        {
+          "candidate_id": "DEV01",
+          "sequence": 1,
+          "source_sha256": "82b476a028ad94ba7392520a4cba527c9dc521a577207bbec5842d0f7e266c50"
+        },
+        {
+          "candidate_id": "DEV02",
+          "sequence": 2,
+          "source_sha256": "e0c56b10b19e823c7b0247881d1cf27a1302cced0bd432956b98c47aab78746f"
+        },
+        {
+          "candidate_id": "DEV03",
+          "sequence": 3,
+          "source_sha256": "4d87c0f033236b88abbb0ce6a5fe24a3664d63660080e15e0763642d9444aee0"
+        },
+        {
+          "candidate_id": "DEV04",
+          "sequence": 4,
+          "source_sha256": "f5a112fd194f45db72518e1a146f05bd2eec239e346a1b137cba7f1eab24e035"
+        },
+        {
+          "candidate_id": "DEV05",
+          "sequence": 5,
+          "source_sha256": "808ff7b43c074ee0e67770cf51d7a38f683254c1a11883bf799bc9deeee1f4a8"
+        }
+      ],
+      "clm_event_required_fields": [
+        "sequence",
+        "controller_id",
+        "session_id",
+        "candidate_id",
+        "source_sha256",
+        "checkpoint_committed_utc",
+        "opened_utc",
+        "closed_utc",
+        "attested_utc",
+        "full_page_viewed_first",
+        "public_checkpoint_commit",
+        "public_checkpoint_sha256",
+        "public_checkpoint_commit_verified",
+        "public_checkpoint_hash_verified",
+        "clm_changed_latin",
+        "ocr_or_automation_used"
+      ],
+      "clm_event_required_values": {
+        "clm_changed_latin": false,
+        "full_page_viewed_first": true,
+        "ocr_or_automation_used": false,
+        "public_checkpoint_commit_verified": true,
+        "public_checkpoint_hash_verified": true
+      },
+      "clm_temporal_rule": "for every Clm event, opened_utc must be strictly later than checkpoint_committed_utc",
+      "controller_id_pattern": "^CONTROLLER_[A-F0-9]{16}$",
+      "controller_session_id_pattern": "^CLM_SESSION_[A-F0-9]{16}$",
+      "global_required_values": {
+        "f84_access_count": 0,
+        "f84r_access_count": 0,
+        "target_access_count": 0,
+        "voynich_access_count": 0
+      },
+      "latin_event_count": 10,
+      "latin_event_order": [
+        {
+          "candidate_id": "DEV01",
+          "reader_id": "READER_A",
+          "sequence": 1,
+          "source_sha256": "a12f51056ad4e18ae4ed40739987dae3924618787ebbaac1c481ac0b2976ef2a"
+        },
+        {
+          "candidate_id": "DEV02",
+          "reader_id": "READER_A",
+          "sequence": 2,
+          "source_sha256": "470aca9b7d6cdfd9aa3cb321d165f86b01e15f8de8193e50d8a9dbb722c71b11"
+        },
+        {
+          "candidate_id": "DEV03",
+          "reader_id": "READER_A",
+          "sequence": 3,
+          "source_sha256": "01397d43449619b004fcee6fdacc3e236dfb3523f689ef0c51d0ff550f30b6b4"
+        },
+        {
+          "candidate_id": "DEV04",
+          "reader_id": "READER_A",
+          "sequence": 4,
+          "source_sha256": "055dd108bbec73ca7a8b80f9cfa3c467b3ca560ef9650015f05aaffd2e28ca8d"
+        },
+        {
+          "candidate_id": "DEV05",
+          "reader_id": "READER_A",
+          "sequence": 5,
+          "source_sha256": "8091ac2ac1939ac11e88d314501c4ef68d0015e6c38b89ad08a07a30521e0a4a"
+        },
+        {
+          "candidate_id": "DEV01",
+          "reader_id": "READER_B",
+          "sequence": 6,
+          "source_sha256": "a12f51056ad4e18ae4ed40739987dae3924618787ebbaac1c481ac0b2976ef2a"
+        },
+        {
+          "candidate_id": "DEV02",
+          "reader_id": "READER_B",
+          "sequence": 7,
+          "source_sha256": "470aca9b7d6cdfd9aa3cb321d165f86b01e15f8de8193e50d8a9dbb722c71b11"
+        },
+        {
+          "candidate_id": "DEV03",
+          "reader_id": "READER_B",
+          "sequence": 8,
+          "source_sha256": "01397d43449619b004fcee6fdacc3e236dfb3523f689ef0c51d0ff550f30b6b4"
+        },
+        {
+          "candidate_id": "DEV04",
+          "reader_id": "READER_B",
+          "sequence": 9,
+          "source_sha256": "055dd108bbec73ca7a8b80f9cfa3c467b3ca560ef9650015f05aaffd2e28ca8d"
+        },
+        {
+          "candidate_id": "DEV05",
+          "reader_id": "READER_B",
+          "sequence": 10,
+          "source_sha256": "8091ac2ac1939ac11e88d314501c4ef68d0015e6c38b89ad08a07a30521e0a4a"
+        }
+      ],
+      "latin_event_required_fields": [
+        "sequence",
+        "reader_id",
+        "session_id",
+        "candidate_id",
+        "source_sha256",
+        "reader_packet_sha256",
+        "reader_packet_exact_keys_verified",
+        "opened_utc",
+        "closed_utc",
+        "attested_utc",
+        "full_page_viewed_first",
+        "only_opaque_packet_used",
+        "profile_not_consulted",
+        "repository_not_consulted",
+        "catalog_not_consulted",
+        "edition_not_consulted",
+        "network_not_consulted",
+        "other_sources_not_consulted",
+        "other_reader_material_not_seen",
+        "ocr_or_automation_used"
+      ],
+      "latin_required_values": {
+        "catalog_not_consulted": true,
+        "edition_not_consulted": true,
+        "full_page_viewed_first": true,
+        "network_not_consulted": true,
+        "ocr_or_automation_used": false,
+        "only_opaque_packet_used": true,
+        "other_reader_material_not_seen": true,
+        "other_sources_not_consulted": true,
+        "profile_not_consulted": true,
+        "reader_packet_exact_keys_verified": true,
+        "repository_not_consulted": true
+      }
+    },
+    "canonicalization": {
+      "encoding": "UTF-8",
+      "hash": "SHA-256 over exact canonical bytes",
+      "hash_preimage_rule": "compute artifact SHA-256 with that artifact's own hash field absent; insert hash only afterward",
+      "json_keys": "sorted",
+      "separators": [
+        ",",
+        ":"
+      ],
+      "terminal_newline": "LF"
+    },
+    "checkpoint_binding": {
+      "checkpoint_commit_and_sha_must_be_verified_before_clm": true,
+      "final_difference_ledger_must_byte_identically_equal_checkpoint": true,
+      "final_raw_bundle_sha256s_must_byte_identically_equal_checkpoint": true,
+      "final_reconciled_latin_must_byte_identically_equal_checkpoint": true,
+      "later_latin_change_forbidden": true,
+      "required_fields": [
+        "latin_checkpoint_public_commit",
+        "latin_checkpoint_sha256"
+      ]
+    },
+    "privacy": {
+      "absolute_path_regex_forbidden": "(^|[\\s\"'])(/|[A-Za-z]:[\\\\/])",
+      "bare_registered_filenames_allowed_only_in_registered_profile": true,
+      "image_bytes_forbidden": true,
+      "private_directory_components_forbidden": true,
+      "reader_results_should_use_candidate_id_and_source_sha256_not_filename": true
+    },
+    "public_result_must_exclude": [
+      "private_directory",
+      "absolute_path",
+      "image_bytes",
+      "saved_crop",
+      "voynich_material"
+    ],
+    "raw_bundle_contract": {
+      "additional_keys_allowed": false,
+      "bundle_sha256_pattern": "^[0-9a-f]{64}$",
+      "bundle_sha256_preimage": "exact canonical bundle payload with bundle_sha256 absent",
+      "canonicalization": "UTF-8 JSON; sorted keys; compact separators; LF final byte",
+      "each_candidate_exactly_once": true,
+      "exact_artifact_keys": [
+        "reader_id",
+        "session_id",
+        "pages",
+        "submitted_utc",
+        "bundle_sha256"
+      ],
+      "exactly_one_bundle_per_reader": true,
+      "hash_preimage_exact_keys": [
+        "reader_id",
+        "session_id",
+        "pages",
+        "submitted_utc"
+      ],
+      "page_exact_payload_keys": [
+        "candidate_id",
+        "source_sha256",
+        "rendering_session_id",
+        "full_page_viewed_first",
+        "heading_or_rubric",
+        "tokens_1_through_12",
+        "diplomatic_stream",
+        "uncertainties",
+        "submitted_utc",
+        "access_audit_ref"
+      ],
+      "page_order": [
+        "DEV01",
+        "DEV02",
+        "DEV03",
+        "DEV04",
+        "DEV05"
+      ],
+      "page_source_sha256_must_equal_registered_latin_binding": true,
+      "reader_order": [
+        "READER_A",
+        "READER_B"
+      ]
+    },
+    "reader_submission_page_fields": [
+      "candidate_id",
+      "source_sha256",
+      "rendering_session_id",
+      "full_page_viewed_first",
+      "heading_or_rubric",
+      "tokens_1_through_12",
+      "diplomatic_stream",
+      "uncertainties",
+      "submitted_utc",
+      "access_audit_ref"
+    ],
+    "required_top_level_fields": [
+      "experiment_id",
+      "status",
+      "dependency",
+      "reader_submissions",
+      "difference_ledger",
+      "reconciled_latin",
+      "clm_control",
+      "access_audit",
+      "claim_ceiling"
+    ],
+    "statuses": [
+      "DOUBLE_READING_PROFILE_REGISTERED__NO_SOURCE_IMAGE_OPENED",
+      "LATIN_READER_A_SUBMITTED__READER_B_BLINDED",
+      "LATIN_READER_B_SUBMITTED__READER_A_BLINDED",
+      "LATIN_DOUBLE_SUBMISSIONS_FROZEN__RECONCILIATION_PENDING",
+      "LATIN_RECONCILED__CLM_CONTROL_PENDING",
+      "LATIN_RECONCILIATION_FROZEN__CLM_UNOPENED",
+      "SOURCE_DOUBLE_READING_COMPLETE__TARGET_UNOPENED",
+      "MANUAL_READING_STOP"
+    ]
+  },
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "status": "DOUBLE_READING_PROFILE_REGISTERED__NO_SOURCE_IMAGE_OPENED"
+}
