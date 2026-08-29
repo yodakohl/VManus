@@ -15166,3 +15166,39 @@ measures;leaf material`. Drachm is only an analogy;the absolute unit and wider
 uses remain open. GDT627 passes130 deterministic checks. Next resolve `chol`
 inside the thirteen fixed terminal d-value frames and extend those clauses
 leftward without altering the value system or opening new material.
+
+## GDT628 resolves `chol` as the dry `ol` carrier
+
+GDT628 builds the exact bare/o/qo × empty/k/t/ch/sh/kch/ksh/tch/tsh × ol/or
+carrier lattice on the guarded179-page panel. Forty-eight of54 cells occur;
+the quality-bearing OL side occupies23/24 cells. The atlas contains2,264
+tokens on177 pages,1,909 stable as individual tokens. Its141 same-line
+contrasts split into43 ZL-adjacent and38 three-reading-stable adjacent cases;
+same-line is never silently treated as adjacency.
+
+The live composition is `ol=quality/state/material carrier`,usually null in
+fluent quality phrases,and `chol=ch+ol=dry`,nominal dry material. Parallel
+defaults include `shol=moist`,`kol/tol=hot/cold`,and
+`kchol/tchol=hot-dry/cold-dry`. Exact chol occurs343 times on125 pages,303
+stable,with320/343 line-medial. Across all chol-containing surfaces there are
+314 edge extensions plus33 internal substring hits;these remain distributional
+classes rather than automatically proven morphemes.
+
+The same value has three spacing modes:`cholaiin=chol+a+III`,
+`choldaiin=chol+d+a+III`,and `chol daiin=chol|d+a+III`,all read dry degree III.
+Across all lattice bases the modes contribute117 direct,15 fused-d and120
+separate-d occurrences. Chol alone has43 value realizations,35 stable as the
+whole expression,and the separate frame carries I/II/III/IV. After coreful OL
+quality forms,detached d therefore defaults to Galenic degree;after OR or a
+learned part term,amount/portion versus degree stays explicit.
+
+The13 terminal chol d-value witnesses now separate4 quality-anchored,6
+quality-or-dose,and3 multi-clause-required contexts. f17r.11 supplies the
+strongest stable clause:`cthar okaiin chol daiiin=leaf/herb material:hot degree
+III;dry degree IV`;the leading `otchol=o-frame cold-dry` remains a separate
+visible cell. Fourteen of19 concrete examples are exact in ZL3b/IT2a/RF1b;
+five retain a transcription-variant status. V5 genuinely consolidates all15
+V4 rows plus13 OL/OR additions. GDT628 passes184 deterministic checks. Next
+compare f27r.6 `chor cholaiin` with f32v.10 `chor chol daiin` and the three
+`choldaiin` sites to recover the smallest complete part+quality+degree clause
+without opening new material.

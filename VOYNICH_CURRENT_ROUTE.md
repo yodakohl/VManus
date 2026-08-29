@@ -284,8 +284,8 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-GDT627 assigns the four-cell slot by head. All16 primitive and31/32 scoped hot/cold/dry/moist×I–IV cells occur(1,561 tokens);33 nearby axis pairs include20 equal-degree and9/13 adjacent equal-degree pairs. Read `a` as a value-slot linker and quality heads as degree I–IV. The `d` family(948 tokens/176 pages) alone has I–IV in one identical frame,`chol __ <END>`;46 exact part contacts and variable values after identical `cthy` support a local measure/portion default. Thus `chor daiin cthy` reads “reproductive part:three measures;leaf material”;unit remains open.
-Next GDT628 resolve `chol` inside the thirteen fixed terminal `chol d-WERT` witnesses and its wider admitted contexts,then extend those clauses leftward without changing the value reader or opening a page/image.
+GDT628 resolves `chol=ch+ol=trocken`,nominal dry material. The OL/OR lattice occupies48/54 cells;the quality-bearing OL side occupies23/24,with 2,264 carrier tokens overall. Degree III has three visible realizations:`cholaiin`,`choldaiin`,`chol daiin`;the separated chol frame also has I–IV. Thus coreful `OL+dN` defaults to quality degree,while `OR/part+dN` keeps amount/portion versus degree open. The strongest stable clause is f17r.11 `cthar okaiin chol daiiin=leaf/herb material:hot III,dry IV`;initial `otchol=cold-dry in o-frame` remains a separate cell. Six of13 terminal cases remain quality/dose rivals and3 require multiple cells. GDT628 passes184 checks;V5 consolidates28 entries.
+Next GDT629 triangulate `chor cholaiin`(f27r.6),`chor chol daiin`(f32v.10),and the three `choldaiin` witnesses into the smallest complete part+quality+degree clause;open no page/image.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`

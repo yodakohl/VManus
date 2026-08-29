@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **625**
-- Experiment-associated tracked files: **9,816** (1.0 GiB)
-- Structured GDT337+ experiments: **290**
+- Experiments indexed: **626**
+- Experiment-associated tracked files: **9,841** (1.0 GiB)
+- Structured GDT337+ experiments: **291**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT628 | GDT628_chol_measure_frame | `OL_QUALITY_CARRIER_LATTICE__CHOL_DRY_DEGREES_I_IV__D_CONTEXT_SPLIT` | [report](../experiments/yolo/gdt628_chol_measure_frame/REPORT.md) | 25 | 708.5 KiB | 4 | STRUCTURED_YOLO |
 | GDT627 | GDT627_value_head_role_atlas | `QUALITY_DEGREE_SERIES_PROMOTED__D_FREE_MEASURE_HEAD_PROMOTED__A_VALUE_LINKER` | [report](../experiments/yolo/gdt627_value_head_role_atlas/REPORT.md) | 23 | 457.3 KiB | 3 | STRUCTURED_YOLO |
 | GDT626 | GDT626_mobile_operation_lexicon | `FOUR_CELL_MINIM_VALUE_READER__QUALITY_DEGREES_COMPOSE__DAIIN_RESEGMENTED` | [report](../experiments/yolo/gdt626_mobile_operation_lexicon/REPORT.md) | 26 | 917.5 KiB | 3 | STRUCTURED_YOLO |
 | GDT625 | GDT625_ordered_quality_state_transitions | `CTHY_BLATTGUT_PROMOTED__STATE_PATHS_SPLIT_PART_CONTRAST_FROM_PROCESS` | [report](../experiments/yolo/gdt625_ordered_quality_state_transitions/REPORT.md) | 24 | 362.7 KiB | 2 | STRUCTURED_YOLO |
