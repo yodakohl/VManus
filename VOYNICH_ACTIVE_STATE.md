@@ -14917,5 +14917,14 @@ ledger in a nonempty public checkpoint before any Clm page opens;the final
 result must reuse that Latin payload byte-identically. Temporary display zoom
 is allowed,but no derivative image is retained. Profile SHA256 is
 `c34724e9...6c9b`;registration validation passes46/46 with zero network,source
-images or Voynich material opened. Next publish the registration,then execute
-the two independent Latin readings.
+images or Voynich material opened.
+
+Both isolated readers have now submitted their five-page bundles,with canonical
+commitments `c510b732...b4136` and `a1400636...c512`. A separate adjudicator
+used only those frozen bundles and the five Latin JPEGs,recording63 explicit
+difference rows and freezing checkpoint SHA256 `4b56894b...7905`. Its readable
+content is concrete: Balsam/opobalsam as a tree with an internal-fruit phrase;
+Kerbel as a familiar culinary herb;Süßholz warm+moist in the first degree;
+Cucurbita cold+moist in the second;and Diptam warm+dry in the third. All Clm,
+Voynich,target,f84 and f84r counts remain zero. Next publicly commit this exact
+checkpoint;only afterward open the five Clm pages as nonrepairing controls.

@@ -284,10 +284,10 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-GDT621 registers two separate opaque-packet readers for the five Lat.6823
-rubrics+12 running tokens,canonical raw bundles and a complete Latin checkpoint
-that must be public before Clm control;profile SHA `c34724e9...6c9b`,46/46 PASS.
-Next publish GDT621,then run both Latin readers;no source image is yet opened.
+GDT621 freezes two Lat.6823 bundles+third-reader reconciliation:five rubrics+12
+tokens,63 differences,SHA `4b56894b...7905`;Balsam,Kerbel,Süßholz,Cucurbita,
+Diptam and hot/cold,moist/dry degrees are concrete. Next publish,then open only
+five Clm locator controls;Clm and every Voynich target remain unopened.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`

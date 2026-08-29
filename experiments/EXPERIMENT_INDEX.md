@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **619**
-- Experiment-associated tracked files: **9,651** (1.0 GiB)
+- Experiment-associated tracked files: **9,658** (1.0 GiB)
 - Structured GDT337+ experiments: **284**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT621 | GDT621_manual_source_double_reading | `DOUBLE_READING_PROFILE_REGISTERED__NO_SOURCE_IMAGE_OPENED` | [report](../experiments/yolo/gdt621_manual_source_double_reading/PREREGISTRATION.md) | 9 | 137.4 KiB | 1 | STRUCTURED_YOLO |
+| GDT621 | GDT621_manual_source_double_reading | `LATIN_RECONCILIATION_FROZEN__CLM_UNOPENED` | [report](../experiments/yolo/gdt621_manual_source_double_reading/LATIN_CHECKPOINT.md) | 16 | 254.0 KiB | 1 | STRUCTURED_YOLO |
 | GDT620 | GDT620_stage_b_source_page_acquisition | `TEN_SOURCE_PAGES_ACQUIRED__SOURCE_READING_UNOPENED__TARGET_UNOPENED` | [report](../experiments/yolo/gdt620_stage_b_source_page_acquisition/STAGE_B_RESULT.md) | 15 | 243.9 KiB | 1 | STRUCTURED_YOLO |
 | GDT619 | GDT619_five_source_page_acquisition | `STAGE1_RESOLVED__GLOBAL_DELTA_MINUS_ONE__STAGE_B_AUTHORIZED_NOT_EXECUTED` | [report](../experiments/yolo/gdt619_five_source_page_acquisition/STAGE1_RESULT.md) | 17 | 222.6 KiB | 1 | STRUCTURED_YOLO |
 | GDT618 | GDT618_four_witness_herbal_concordance | `PHYSICAL_FOLIO_COLLISION_CORRECTED` | [report](../experiments/yolo/gdt618_four_witness_herbal_concordance/PREREGISTRATION.md) | 9 | 72.2 KiB | 1 | STRUCTURED_YOLO |

@@ -1,6 +1,6 @@
 # GDT621 — manual source double reading
 
-Status: `DOUBLE_READING_PROFILE_REGISTERED__NO_SOURCE_IMAGE_OPENED`
+Status: `LATIN_RECONCILIATION_FROZEN__CLM_UNOPENED`
 
 GDT621 registers two independent diplomatic readings of the five Latin 6823
 pages acquired by GDT620. Reader A and Reader B use different fresh local
@@ -20,7 +20,11 @@ pages open only after a canonical reconciled-Latin checkpoint is publicly
 committed; they are locator/control pages only and cannot repair Latin.
 The checkpoint binds both raw bundles, every reconciled reading, the complete
 ledger, and adjudicator audit; the final result reuses these byte-identically.
-Registration opens no image and performs no network request. See `METHOD.md`,
-`PREREGISTRATION.md`, and `artifacts/REGISTERED_READING_PROFILE.json`.
+The registered reading has now run: both raw bundles and the 63-row
+reconciliation ledger are frozen in the public Latin checkpoint. See
+`LATIN_CHECKPOINT.md` for the exact five passages and their readable working
+expansions. No Clm control page or Voynich target has yet opened. See
+`METHOD.md`, `PREREGISTRATION.md`, and
+`artifacts/REGISTERED_READING_PROFILE.json` for the frozen method.
 The profile distinguishes GDT620's acquisition-code registration commit
 `61a253ce…` from its separate result-publication commit `798e05f4…`.
