@@ -14815,9 +14815,13 @@ Masson p96 / Sloane f10v),`Cerfolium` (f44v/f35v/p68/f30v),`Citruli`
 rubric;each Wagner row prints all three Clm/Masson/Sloane locators explicitly.
 The Gallica canvas/service bindings are respectively f58/f96/f92/f91/f122.
 
-The plan is byte-bound at SHA256 prefix `6cd4bca1` and passes46/46 checks.
-Registration made zero network requests and opened zero source images or
-Voynich data. Lat.6823 alone will supply the heading plus first twelve running
+The first public plan was byte-bound at SHA256 prefix `6cd4bca1` and passed
+46/46 checks. Its subsequent access-language audit corrects “zero network
+requests” to “zero builder/validator requests”:the developmental research had
+already accessed BSB manifest metadata,five Mandragore notices and Wagner's
+PDF,but no external manuscript page image or Voynich data.
+The corrected plan is byte-bound at SHA256 prefix `24bb75a1` and passes47/47
+checks. Lat.6823 alone will supply the heading plus first twelve running
 tokens;two readers must transcribe it independently and retain both raw
 readings,a difference ledger and reconciled scoring bytes. Clm is a separate
 locator/reading control and may not repair Lat.6823. Next publish this plan,

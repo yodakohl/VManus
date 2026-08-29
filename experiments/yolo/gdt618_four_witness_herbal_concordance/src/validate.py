@@ -121,7 +121,17 @@ def main() -> int:
     audit.check("bsb_official_manifest_exact_url", ext_roles.get("OFFICIAL_CLM28531_IIIF_PRESENTATION_MANIFEST", {}).get("url") == "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00107549/manifest")
     audit.check("wagner_stable_landing_exact_url", ext_roles.get("WAGNER_DISSERTATION_STABLE_LANDING", {}).get("url") == "https://freidok.uni-freiburg.de/data/2936")
     audit.check("wagner_pdf_exact_binding", wagner.get("url") == "https://freidok.uni-freiburg.de/files/2936/ETC8E6ksNFx7t_Bv/Diss_Eva_Wagner.pdf" and wagner.get("bytes") == 62861131 and wagner.get("sha256") == "8f57e7aaee4fe049ecf3fbf201ba2bf13bd6c446438ed59098afe2d28ee7a4fe" and wagner.get("used_pdf_pages") == [220, 222])
-    audit.check("external_sources_not_fetched", all(row.get("access_status") in {"REGISTERED_NOT_FETCHED", "HASH_BOUND_NOT_RETAINED_IN_GIT"} for row in external))
+    audit.check(
+        "external_source_access_disclosed",
+        {
+            row.get("role"): row.get("access_status") for row in external
+        }
+        == {
+            "OFFICIAL_CLM28531_IIIF_PRESENTATION_MANIFEST": "DEVELOPMENTALLY_ACCESSED_METADATA_ONLY__NOT_RETAINED",
+            "WAGNER_DISSERTATION_STABLE_LANDING": "DEVELOPMENTALLY_ACCESSED_METADATA_ONLY__NOT_RETAINED",
+            "WAGNER_DISSERTATION_PDF__APPENDIX_1_TRIPLE_CONCORDANCE": "DEVELOPMENTALLY_ACCESSED_AND_HASH_BOUND__NOT_RETAINED_IN_GIT",
+        },
+    )
 
     expected_candidates = [
         ("DEV01", "Balsamus", "f25v", "f58", "f10v", "p96", "f10v", "cgfbt113999s", 220),
@@ -196,6 +206,17 @@ def main() -> int:
     audit.check("result_fields_complete", contract.get("result_fields") == ["READER_A_RAW", "READER_B_RAW", "DIFFERENCE_LEDGER", "RECONCILED_DIPLOMATIC", "NORMALIZATION_LEDGER", "EXACT_SCORING_BYTES"])
 
     audit.check("zero_prohibited_registration_access", plan.get("access_audit") and all(value == 0 for value in plan["access_audit"].values()))
+    audit.check(
+        "developmental_exposure_exactly_disclosed",
+        plan.get("developmental_exposure_audit")
+        == {
+            "bsb_manifest_metadata_accessed_before_public_registration": True,
+            "mandragore_notice_pages_accessed_before_public_registration": 5,
+            "wagner_pdf_accessed_before_public_registration": True,
+            "external_source_page_images_opened": 0,
+            "voynich_material_opened": 0,
+        },
+    )
     forbidden = set(plan.get("forbidden_access", []))
     audit.check("sealed_folios_forbidden_in_plan", {"F84", "F84R"}.issubset(forbidden))
     audit.check("target_and_semantics_forbidden", {"VOYNICH_PAGE", "VOYNICH_TRANSCRIPTION", "VOYNICH_TARGET_FEATURE", "SEMANTIC_VOYNICH_ASSIGNMENT"}.issubset(forbidden))

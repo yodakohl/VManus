@@ -98,12 +98,19 @@ def build_plan() -> dict:
     return {
         "access_audit": {
             "image_request_profiles_registered": 0,
-            "network_requests": 0,
+            "registration_builder_network_requests": 0,
             "page_images_opened": 0,
             "source_canvases_opened": 0,
             "target_features_opened": 0,
             "voynich_pages_opened": 0,
             "voynich_transcriptions_opened": 0,
+        },
+        "developmental_exposure_audit": {
+            "bsb_manifest_metadata_accessed_before_public_registration": True,
+            "mandragore_notice_pages_accessed_before_public_registration": 5,
+            "wagner_pdf_accessed_before_public_registration": True,
+            "external_source_page_images_opened": 0,
+            "voynich_material_opened": 0,
         },
         "candidate_selection_status": "DEVELOPMENTAL__PREPUBLICATION_EXPOSURE_DECLARED",
         "candidate_selection_rule": "DIRECT_LAT6823_RUBRIC_ARK_PLUS_EXPLICIT_WAGNER_CLM_MASSON_SLOANE_LOCATORS",
@@ -113,19 +120,19 @@ def build_plan() -> dict:
         "experiment_id": "GDT618",
         "external_sources": [
             {
-                "access_status": "REGISTERED_NOT_FETCHED",
+                "access_status": "DEVELOPMENTALLY_ACCESSED_METADATA_ONLY__NOT_RETAINED",
                 "institution": "Bayerische_Staatsbibliothek",
                 "role": "OFFICIAL_CLM28531_IIIF_PRESENTATION_MANIFEST",
                 "url": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00107549/manifest",
             },
             {
-                "access_status": "REGISTERED_NOT_FETCHED",
+                "access_status": "DEVELOPMENTALLY_ACCESSED_METADATA_ONLY__NOT_RETAINED",
                 "institution": "Albert_Ludwigs_Universitaet_Freiburg",
                 "role": "WAGNER_DISSERTATION_STABLE_LANDING",
                 "url": "https://freidok.uni-freiburg.de/data/2936",
             },
             {
-                "access_status": "HASH_BOUND_NOT_RETAINED_IN_GIT",
+                "access_status": "DEVELOPMENTALLY_ACCESSED_AND_HASH_BOUND__NOT_RETAINED_IN_GIT",
                 "bytes": 62861131,
                 "institution": "Albert_Ludwigs_Universitaet_Freiburg",
                 "role": "WAGNER_DISSERTATION_PDF__APPENDIX_1_TRIPLE_CONCORDANCE",

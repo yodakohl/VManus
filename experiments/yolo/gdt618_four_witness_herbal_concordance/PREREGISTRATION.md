@@ -13,6 +13,14 @@ as blind, sealed, held, or prospectively selected. No Voynich page,
 transcription, candidate pairing, score, or mapping was opened while forming
 this source deck.
 
+The developmental search did access the official BSB manifest metadata, the
+five Mandragore notice pages, and Wagner's PDF before public registration.
+Those accesses supplied the openly declared locator deck and PDF hash; the BSB
+manifest and PDF are not retained here. No external manuscript page image,
+Voynich material, or target feature was opened. The zero-request counter below
+therefore describes the deterministic registration builder and validator, not
+the earlier disclosed source research.
+
 ## Frozen witness roles
 
 - `BNF_LAT6823`: sole future scoring-text witness.
@@ -65,10 +73,11 @@ used to fill or silently normalize Latin 6823.
 
 ## Frozen access boundary
 
-This registration performs zero network requests and opens zero canvases,
-page images, Voynich pages, Voynich transcriptions, source-to-target pairs, or
-target features. It reads only already frozen GDT617 metadata files to bind
-source identities. `f84` and `f84r` remain forbidden.
+The registration builder and validator perform zero network requests and open
+zero canvases,page images,Voynich pages,Voynich transcriptions,source-to-target
+pairs,or target features. They read only already frozen GDT617 metadata files
+to bind source identities. The preceding exposure statement separately records
+the developmental metadata/PDF access. `f84` and `f84r` remain forbidden.
 
 The later source-reading pass may request only the registered external witness
 resources needed for these five rows. Its exact image-request profile must be

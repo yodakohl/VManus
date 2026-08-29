@@ -24,16 +24,19 @@ Those bindings identify:
 - Sloane MS 4016 through the official British Library catalogue JSON and IIIF
   manifest.
 
-GDT618 additionally registers, but does not fetch, the official BSB IIIF
-Presentation manifest for Clm 28531. Eva-Maria Wagner's dissertation is bound
-as an external large source at its University of Freiburg landing page and PDF
-URL: 62,861,131 bytes, SHA-256
+GDT618 additionally registers the official BSB IIIF Presentation manifest for
+Clm 28531. It was inspected as developmental metadata before public
+registration but is not retained here. Eva-Maria Wagner's dissertation was
+likewise accessed during the declared source search and is bound as an external
+large source at its University of Freiburg landing page and PDF URL: 62,861,131
+bytes, SHA-256
 `8f57e7aaee4fe049ecf3fbf201ba2bf13bd6c446438ed59098afe2d28ee7a4fe`.
 The PDF is not retained in Git.
 
-The exact URLs and all inherited source hashes are machine-readable in
-`artifacts/REGISTERED_SOURCE_PLAN.json`. The builder and validator perform no
-network request. The five Latin 6823 canvas/service identities were derived
+The exact URLs,access disclosure and all inherited source hashes are
+machine-readable in `artifacts/REGISTERED_SOURCE_PLAN.json`. The deterministic
+builder and validator perform no network request. The five Latin 6823
+canvas/service identities were derived
 from GDT617's already frozen BnF manifest; no canvas or image bytes were
 requested. Five exact BnF Mandragore ARKs register the direct Latin-rubric
 locator leads. An exact image-request profile is deliberately absent and must

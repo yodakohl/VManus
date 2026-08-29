@@ -3,8 +3,11 @@
 Status: `SOURCE_PLAN_REGISTERED__NO_IMAGES_OPENED`
 
 GDT618 registers a source-only manual-reading packet for five developmental
-herbal-entry candidates. It does not fetch or display a manuscript canvas,
-page image, Voynich page, Voynich transcription, or target feature.
+herbal-entry candidates. Its deterministic builder does not fetch or display a
+manuscript canvas,page image,Voynich page,Voynich transcription,or target
+feature. The plan separately discloses the earlier developmental access to BSB
+manifest metadata,five Mandragore notices and Wagner's PDF;no external
+manuscript page image or Voynich material was opened.
 
 The five candidates are `Balsamus`, `Cerfolium`, `Citruli`, `Cucurbita`, and
 `Diptamus`. Each has a direct Latin 6823 rubric locator in an exact BnF
