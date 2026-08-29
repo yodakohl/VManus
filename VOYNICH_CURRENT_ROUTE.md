@@ -284,10 +284,10 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-GDT620 publicly registers the exact five Clm then five Lat.6823 full-page deck,
-fixed four-second delays and an at-most-once-per-bound-state acquirer;execute it
-once,then separately register and double-read each Latin heading+12 running
-tokens with Clm as control before opening any Voynich target.
+GDT620 acquired the exact five Clm then five Lat.6823 full-page deck:10/10
+HTTP200,zero redirects/failures,13,178,909 bytes and exact JPEG dimensions;
+no page was displayed or read. Next publicly register GDT621,then double-read
+each Latin heading+12 running tokens with Clm control before any Voynich target.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`

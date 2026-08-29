@@ -1,6 +1,6 @@
 # GDT620 — Stage-B source-page acquisition
 
-Status: `STAGE_B_PROFILE_REGISTERED__NO_STAGE_B_REQUEST_EXECUTED`
+Status: `TEN_SOURCE_PAGES_ACQUIRED__SOURCE_READING_UNOPENED__TARGET_UNOPENED`
 
 GDT620 turns GDT619's public delta-`-1` Stage-1 resolution into one executable
 ten-page source acquisition. The deck is closed: five Clm 28531 pages first,
@@ -13,5 +13,9 @@ remain private; a compact public result may expose only URLs, timings, response
 metadata, dimensions, byte counts, hashes, and status—not image bytes or local
 paths.
 
-See `METHOD.md`, `artifacts/REGISTERED_STAGE_B_PROFILE.json`, and
-`experiment.json`.
+The public-commit-gated execution succeeded for all ten pages. No page was
+displayed or read. See `STAGE_B_RESULT.md` and
+`artifacts/STAGE_B_RESULT.json` for the public-safe byte/provenance result.
+
+See `METHOD.md`, `artifacts/REGISTERED_STAGE_B_PROFILE.json`,
+`STAGE_B_RESULT.md`, and `experiment.json`.

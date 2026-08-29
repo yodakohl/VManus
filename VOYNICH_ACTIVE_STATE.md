@@ -14880,7 +14880,7 @@ fixes the IIIF service schema from object to one-element list;neither changes
 the observations,delta,pages or hashes. StageB is authorized but unexecuted;
 no five-entry running text or Voynich target has been opened.
 
-## GDT620 registers the exact Stage-B full-page deck
+## GDT620 acquires the exact Stage-B full-page deck
 
 GDT620 converts GDT619's public delta-1 resolution into ten literal full-page
 requests:Clm scans25/75/164/96/101 followed by Lat.6823 Gallica
@@ -14892,7 +14892,13 @@ at-most-once only within one bound private execution state;policy forbids a
 second state directory. Network remains locked until the complete runtime and
 configuration blobs are public and match the supplied origin/main commit.
 Profile SHA256 is `239aa320...acb0`;the acquirer passes52/52 offline tests and
-registration validation passes43/43 with zero network requests. Registration
-opens no source image or Voynich target. Next publish this registration,execute
-the one ten-page deck,and publish only compact hashes/provenance before a
-separate manual double-reading registration.
+registration validation passes43/43 with zero network requests. After public
+registration commit `61a253ce...40ef`,the one authorized private execution
+returned HTTP200 for all10 literal URLs with zero redirects/failures and
+13,178,909 total bytes. All ten bodies fully decode as one-frame JPEGs at the
+registered dimensions;raw hashes and compact provenance are bound by result
+SHA256 `f14976f5...378e`,and result validation passes30/30 offline checks. No
+page was displayed or read;no OCR,crop,source transcription or Voynich target
+was opened. The private images may be read only after a separate public GDT621
+double-reading registration;Latin headings+12 tokens come first and Clm stays
+a later control.
