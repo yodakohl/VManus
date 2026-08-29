@@ -284,9 +284,8 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-GDT626 replaces the generic operation with a four-cell value suffix. The safe panel has5,176 `^(.*a)(i*)n$` tokens/545 heads:102/1,565/3,404/105 `-an/-ain/-aiin/-aiiin`,15 complete I–IV heads,136 mixed lines and no fifth cell. Default I/II/III/IV follows medieval final-j numerals;conditioned inflection remains the rival.
-Concrete compounds are `qokchain/qokchaiin=hot-dry degree II/III`,`qotchain/qotchaiin=cold-dry degree II/III`,and `cthan/cthain/cthaiin=leaf drug value I/II/III`,with part-side unit open. `dan/dain/daiin/daiiin` is17/193/721/17;`daiin=d+III`,not operation/conjunction;d head and binding remain open.
-Next GDT627 separates degree,amount/dose and grammatical-grade heads under fixed frames,starting cth/chor/da. Use only admitted material;open no page or image.
+GDT627 assigns the four-cell slot by head. All16 primitive and31/32 scoped hot/cold/dry/moist×I–IV cells occur(1,561 tokens);33 nearby axis pairs include20 equal-degree and9/13 adjacent equal-degree pairs. Read `a` as a value-slot linker and quality heads as degree I–IV. The `d` family(948 tokens/176 pages) alone has I–IV in one identical frame,`chol __ <END>`;46 exact part contacts and variable values after identical `cthy` support a local measure/portion default. Thus `chor daiin cthy` reads “reproductive part:three measures;leaf material”;unit remains open.
+Next GDT628 resolve `chol` inside the thirteen fixed terminal `chol d-WERT` witnesses and its wider admitted contexts,then extend those clauses leftward without changing the value reader or opening a page/image.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`

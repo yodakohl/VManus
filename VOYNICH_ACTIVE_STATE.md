@@ -15136,3 +15136,33 @@ Its recurrent carrier-bridge placement leaves a secondary learned list-linking
 use possible. The next route classifies heads and fixed frames by degree,
 amount/dose and grammatical-grade behavior before opening another page or
 image. GDT626 passes119 deterministic checks.
+
+## GDT627 assigns quality degrees and a free measure head
+
+GDT627 classifies all545 inherited four-value heads without opening a page,
+image or raw mixed source. The inherited quality axes themselves form complete
+paradigms: `kan/kain/kaiin/kaiiin=hot degree I–IV`,the corresponding cold,dry
+and moist primitive series also occupy all16 cells,and the eight bare/o/qo
+core axes occupy31/32 cells. Their atlas has1,561 occurrences on143 pages,
+1,399 stable across all three alternate readings. Thirty-three same-line
+thermal/moisture pairs lie within three tokens;20 share a degree and9/13
+adjacent pairs do so. Concrete examples include `qokan chan=hot I;dry I`,
+`chain qokain=dry II;hot II`,and `qokaiin shaiin=hot III;moist III`.
+
+The common `a` edge now defaults to a value-slot linker,usually silent or a
+colon in translation. Head identity selects the value type:quality heads take
+Galenic degree;part heads retain amount/dose/grade/class;free `d` takes a local
+measure or grade. `dan/dain/daiin/daiiin` occurs17/193/721/17 times on176
+pages. Across72 exact multi-value neighbour frames,`d` supplies27 and is the
+only head with I–IV under one identical frame:`chol __ <line end>`,thirteen
+witnesses total.
+
+Forty-six exact contacts connect a d-value to inherited part terms;41 are III
+and5 II. Repeated `cthy daiin` versus `cthy dain`,four visible leaves beside
+D-III,and D-IV plus D-III on one line defeat literal picture count as a general
+default. In part lists use left attachment and read `d` as an unspecified
+measure/portion: f45v.2 `chor daiin cthy=reproductive plant part:three
+measures;leaf material`. Drachm is only an analogy;the absolute unit and wider
+uses remain open. GDT627 passes130 deterministic checks. Next resolve `chol`
+inside the thirteen fixed terminal d-value frames and extend those clauses
+leftward without altering the value system or opening new material.
