@@ -15011,3 +15011,46 @@ contains179 pages/32,339 tokens,excludes f1r,f84 and f84r before payload access,
 and the deterministic validator passes194 checks. Next test complete non-q
 four-corner shells and the productive e-length slot before seeking more visual
 part names.
+
+## GDT624 completes the 48-word quality family
+
+GDT624 establishes the exact surface grammar
+`(bare|o|qo)+(k|t)+(ch|sh)+e?+d?+y`. All48 predicted cells occur in the
+guarded179-page panel:829 ZL3b tokens on157 pages/679 loci,837 IT2a tokens and
+670 RF1b tokens. Every cell has at least one three-reading-stable locus;the
+conservative shared-token minimum is613. Twenty-two core×page cases contain
+the bare,o,and qo wrapper versions together.
+
+Local one-bit contacts show that the factors are active inside actual lines.
+The six axes contribute128 possible edges;28 edge types occur on the same line,
+21 of them with a three-reading-stable witness. The witnessed-line totals are
+45 overall and30 stable. Thermal k↔t is strongest at10/24 edge types and16
+stable lines;moisture ch↔sh has5/24 and4 stable lines. Wrapper changes,e
+insertion and d insertion also have exact local witnesses.
+
+The complete working reader preserves GDT623 `k=hot,t=cold,ch=dry,sh=moist`.
+`e` now defaults to a forward-bound/attributive quality form because3/4 exact
+`okchey` tokens immediately precede the already identified `dair/sair/shor`
+part candidates. Historical degree remains the strongest rival,especially for
+repeated e. `d` defaults to grammatical DY binding or state closure and never
+to an isolated operation. Final y closes the surface;bare,o,qo remain distinct
+scope wrappers.
+
+Six adjacent contacts on the eleven previously inspected Herbal images yield
+the first practical phrases: f23v.4 `okchey dair=hot-dry root/radix`,f31v.3
+`okchey sair=hot-dry root part`,f39v.6 `okchey shor=hot-dry reproductive head`,
+f29v.1 `kooiin shor chetchy=thick/creeping-root drug;reproductive head
+cold-dry`,f45v.1 `korary...shor ykchy=reproductive drug;reproductive head
+hot-dry`,and f23v.6 `shor shkshy=reproductive head hot-moist`. The f23v root
+and reproductive head therefore receive different qualities on one page,
+supporting part-local rather than page-wide attachment.
+
+The e-length census contains60 registered cells and83 local multi-length
+contacts. Principal series are `chdy/chedy/cheedy=133/470/56`,
+`shdy/shedy/sheedy=40/390/77`,`okedy/okeedy/okeeedy=87/94/7`,and
+`otedy/oteedy/oteeedy=131/88/2`;f116r.10 preserves all three sh lengths in all
+readings. Wellcome MS.542 early15th c. confirms real grammatical quality
+allomorphy;Pal.lat.1234 confirms forward quality rubrics;Wellcome MS.541,
+Clm667 and older Pal.lat.1085 retain degree/field-close rivals. The validator
+passes112 checks. Next derive operations only from ordered state changes and
+seek additional concrete part/substance slots on already inspected pages.

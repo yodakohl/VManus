@@ -284,10 +284,10 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-GDT623 corrects the live Herbal reader to `qo+(k/t)+(ch/sh)`,with `k/t=hot/cold` weak and `ch/sh=dry/moist` strong;the old moisture direction ranks last globally.
-Local attachment replaces distant page binding. Concrete defaults are `chody=dry/dry class`,`p...air=root-part/radix`,`kooiin=thick/creeping-root drug`,and weak `shor=reproductive head`;`shody=moist` is rejected.
-Six twice-repeated carriers retain the same local quality family. Clm667,Pal.lat.1234 and Wellcome MS.541 establish the historical learned-name+part+compact-quality architecture,not the Voynich values.
-Next GDT624 tests the complete non-q `kch/ksh/tch/tsh` shells and productive e-length series,then uses only locally licensed forms to increase concrete paragraph coverage without changing the V2 axis.
+GDT624 expands V2 into the complete observed 48-cell grammar `(bare|o|qo)+(k|t)+(ch|sh)+e?+d?+y`:829 tokens,48/48 stable types,22 wrapper triplets and45 same-line one-bit edges.
+Every grid word now has a compositional default. `e` primarily binds quality forward/attributively,with degree as rival;`d` is DY binding/state closure,not an operation. The V2 hot/cold,dry/moist axis stays unchanged.
+Six adjacent Herbal contacts give practical phrases including `okchey dair=hot-dry root`,`okchey shor=hot-dry reproductive head`,and part-specific f23v root hot-dry versus reproductive head hot-moist.
+Next GDT625 asks whether ordered local state pairs encode changes such as moist→dry,then searches already inspected Herbal heads for leaf,seed,whole-herb,liquid and vessel slots without converting an isolated quality word into a verb.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`

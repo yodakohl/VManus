@@ -1,0 +1,180 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The largest retained table contains only 829 compact exact occurrences and is required to reproduce page, locus, stability, edge, and local-binding totals. No manuscript image bytes are retained.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "GDT624 establishes a complete 48-cell surface lattice P plus k/t plus ch/sh plus optional e plus optional d plus y, with every type observed and three-reading stable somewhere. Under the GDT623 working key it supplies a compositional hot/cold and dry/moist reader, ranks e as forward-bound or attributive with degree as a rival, ranks d as grammatical DY binding or state closure, rejects operation as the isolated word default, and produces six adjacent Herbal part-quality readings. It does not prove the atom orientation, numbered degrees, arbitrary decomposition outside this family, language, phonetics, cipher, complete clauses, or a full manuscript solution.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt624_productive_quality_shell_grid/src/run.py",
+    "validate": "python3 experiments/yolo/gdt624_productive_quality_shell_grid/src/validate.py"
+  },
+  "created": "2026-08-29",
+  "dependencies": [
+    "GDT327",
+    "GDT623"
+  ],
+  "experiment_id": "GDT624",
+  "inputs": [
+    {
+      "path": "gdt327_joint_tuple_interlinear.tsv",
+      "role": "f84-free page inventory used to build the explicit 179-page allow-list",
+      "sha256": "7eba46774be44992064cc114f67329723ac7bf589321b0d763fb7f7f748cc1e9"
+    },
+    {
+      "path": "transcription/voynich_zl3b_tokens.tsv",
+      "role": "mixed token table queried only through explicit page allow-values",
+      "sha256": "6a061a26edc05ff37dc386c2215774c229a5ff087d3091e68bdd4983a6c007aa"
+    },
+    {
+      "path": "transcription/voynich_cross_transcription_lines.tsv",
+      "role": "mixed ZL3b IT2a RF1b line table queried only through explicit page allow-values",
+      "sha256": "ff3a4559004a29764c60102326de154b29fbba06a2a206bdd76d7feda432e16c"
+    },
+    {
+      "path": "experiments/yolo/gdt623_temperament_orientation_frequency/REPORT.md",
+      "role": "current V2 axis orientation and concrete part-state defaults",
+      "sha256": "dcdf7fe8a3003907487eb61ac22007ce8403893c20cbdf5ea02d1bfbd48238e4"
+    },
+    {
+      "path": "experiments/yolo/gdt623_temperament_orientation_frequency/artifacts/RESULT.json",
+      "role": "canonical GDT623 guard and reader synthesis",
+      "sha256": "e539a48775cbe636509d7c13de29f48c3a0cb43755cc7117cac3ee2d3105e7cd"
+    },
+    {
+      "path": "experiments/yolo/gdt623_temperament_orientation_frequency/artifacts/WORKING_DICTIONARY_V2.tsv",
+      "role": "inherited hot cold dry moist root and reproductive-part defaults",
+      "sha256": "7b93228a2b43d6544bf43955289a92e2f26046a739a07d12a91291f3b513b3ef"
+    },
+    {
+      "path": "experiments/yolo/gdt624_productive_quality_shell_grid/artifacts/HISTORICAL_BINDING_COMPARATORS.tsv",
+      "role": "five manual historical mechanisms ranking attributive binding degree and closure",
+      "sha256": "3342f5374751e63130192c81e4b14bedac174f26feae5cf741f47dd96c0ac7a6"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt624_productive_quality_shell_grid/README.md",
+      "role": "experiment entry point and short reader",
+      "sha256": "d04363120aea32b128cff2c61a09b759e00f11d5efcd5d1e6f432d6e50947e4e"
+    },
+    {
+      "path": "experiments/yolo/gdt624_productive_quality_shell_grid/METHOD.md",
+      "role": "guarded lattice edge stability and semantic-ranking method",
+      "sha256": "aeb183761dfd418f67dbf65b4dea0d3f822ad37dcc648b5b64e5989e358259ab"
+    },
+    {
+      "path": "experiments/yolo/gdt624_productive_quality_shell_grid/REPORT.md",
+      "role": "primary 48-word grammar and concrete Herbal reading report",
+      "sha256": "30eef6793c7f8f11f0248eb7f4edff360b0596f4d762a250c91cc06f3fee2129"
+    },
+    {
+      "path": "experiments/yolo/gdt624_productive_quality_shell_grid/artifacts/README.md",
+      "role": "artifact inventory and retention boundary",
+      "sha256": "92168e99e15d489b09bf358b0a41f76cf1b62e00ccf8092876cd883c73029c46"
+    },
+    {
+      "path": "experiments/yolo/gdt624_productive_quality_shell_grid/artifacts/PAGE_ALLOWLIST.tsv",
+      "role": "canonical 179-page guarded scope",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+    },
+    {
+      "path": "experiments/yolo/gdt624_productive_quality_shell_grid/artifacts/GRID_CELLS.tsv",
+      "role": "all 48 complete cells with ZL3b IT2a RF1b and stable counts",
+      "sha256": "8014c397ce86191bf3fb1f524ff2a1a54592d93c89b486abda57f99557a2e718"
+    },
+    {
+      "path": "experiments/yolo/gdt624_productive_quality_shell_grid/artifacts/GRID_OCCURRENCES.tsv",
+      "role": "829 exact cell occurrences with generated defaults",
+      "sha256": "04d099bd64e27e7d9cc996f15be9234da762a56bc9488fda20ec13560c8bb8ab"
+    },
+    {
+      "path": "experiments/yolo/gdt624_productive_quality_shell_grid/artifacts/QUADRANT_FRAME_COUNTS.tsv",
+      "role": "twelve wrapper by ending quadrant frames",
+      "sha256": "ac4b3d0fd820c81458594cffeb4be8860846387fee6f7d5c1711d09c900b0b42"
+    },
+    {
+      "path": "experiments/yolo/gdt624_productive_quality_shell_grid/artifacts/FACTOR_MARGINALS.tsv",
+      "role": "fifteen wrapper axis bit and ending marginals",
+      "sha256": "eb16f486f156b9c7aa3edd3667afe908114d961440f06dbe4d31ef4a8360a22d"
+    },
+    {
+      "path": "experiments/yolo/gdt624_productive_quality_shell_grid/artifacts/LOCAL_ONE_BIT_EDGES.tsv",
+      "role": "all 128 possible local one-bit edges",
+      "sha256": "c18980e63cc64905056af1f82a5442b788a84ceffcf90590f972631089005e6b"
+    },
+    {
+      "path": "experiments/yolo/gdt624_productive_quality_shell_grid/artifacts/LOCAL_EDGE_SUMMARY.tsv",
+      "role": "six-axis local edge summary",
+      "sha256": "db0148f75319a7817758fa233049bc457114d38fbda48e6cb39f4971490030d6"
+    },
+    {
+      "path": "experiments/yolo/gdt624_productive_quality_shell_grid/artifacts/WRAPPER_TRIPLETS.tsv",
+      "role": "22 page-core bare o qo triplets",
+      "sha256": "c707689035694d122dda4a85ee9f15339f553a6288d75bd17cddd7bf9defca85"
+    },
+    {
+      "path": "experiments/yolo/gdt624_productive_quality_shell_grid/artifacts/E_LENGTH_SERIES.tsv",
+      "role": "sixty e-length cells across six stems and two tails",
+      "sha256": "f7513509091e075b79ca7aeb9a6d56e85119997e1c3b38ae033b90769613980d"
+    },
+    {
+      "path": "experiments/yolo/gdt624_productive_quality_shell_grid/artifacts/E_LENGTH_LOCAL_SERIES.tsv",
+      "role": "83 local multi-length e-series contacts",
+      "sha256": "fbd7f19564a7f134df2ea7752c2f4ed5479cc31085f9de49b8a4be13cea0a0b4"
+    },
+    {
+      "path": "experiments/yolo/gdt624_productive_quality_shell_grid/artifacts/LOCAL_EXEMPLARS.tsv",
+      "role": "ten exact high-information local contrasts",
+      "sha256": "e74c5896881980ece872203dd4f97045f1411748672086238b52f02712038dec"
+    },
+    {
+      "path": "experiments/yolo/gdt624_productive_quality_shell_grid/artifacts/LOCAL_HERBAL_BINDINGS.tsv",
+      "role": "six adjacent quality-to-root or reproductive-part contacts",
+      "sha256": "397cbdaa79960702fd9d604929f2bc6579239a4c38c7bfc80eb41b82c1b65899"
+    },
+    {
+      "path": "experiments/yolo/gdt624_productive_quality_shell_grid/artifacts/PRODUCTIVE_READER.tsv",
+      "role": "complete 48-word German working reader",
+      "sha256": "01124c05e8ca3042694cf654a5ff488e179a6b3c2feef4e5c63aaec3d2210a2c"
+    },
+    {
+      "path": "experiments/yolo/gdt624_productive_quality_shell_grid/artifacts/CONCRETE_LINE_READINGS.tsv",
+      "role": "fifteen concrete line readings preserving unknown surfaces",
+      "sha256": "f3c9cf3d131fd5b16e0d1817b5f741e9afaf31296c634aaf2adb3640148422a6"
+    },
+    {
+      "path": "experiments/yolo/gdt624_productive_quality_shell_grid/artifacts/RESULT.json",
+      "role": "canonical 48-cell synthesis and artifact hashes",
+      "sha256": "951283cdfca2fda16c01ef84e9e38fb9f18df341d51b0d9c994b4fcd387b2524"
+    },
+    {
+      "path": "experiments/yolo/gdt624_productive_quality_shell_grid/artifacts/VALIDATION.json",
+      "role": "deterministic replay and privacy certificate",
+      "sha256": "a3a19d167aa061cc38a9b80d073e5c93284361365b49699a0cd2698839135978"
+    },
+    {
+      "path": "experiments/yolo/gdt624_productive_quality_shell_grid/src/run.py",
+      "role": "deterministic guarded builder",
+      "sha256": "9e57b6a8aaaee2bf41f3ad4d01e2fbc9b810243224d66f88394ce70d75e9308d"
+    },
+    {
+      "path": "experiments/yolo/gdt624_productive_quality_shell_grid/src/validate.py",
+      "role": "deterministic replay count provenance and privacy validator",
+      "sha256": "f14ff0d521405627ed18dd26e468ef67cacfe768c256b9eae6440d1f4d678db0"
+    }
+  ],
+  "question": "Does the GDT623 quality core extend beyond qo into one complete productive family, and can its wrapper e d and y slots support short practical Herbal readings?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "productive_quality_shell_grid",
+  "status": "COMPLETE_48_CELL_SURFACE_LATTICE__COMPOSITIONAL_QUALITY_CORE_WORKING_READER",
+  "title": "Productive 48-cell quality shell grid and complete word reader",
+  "updated": "2026-08-29",
+  "validation": {
+    "artifact": "experiments/yolo/gdt624_productive_quality_shell_grid/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}
