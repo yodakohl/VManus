@@ -1,0 +1,94 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The ten full-page JPEGs, private state, and request journal remain outside the repository. Only the compact request profile, validation certificate, and later public-safe hash/provenance result may be retained.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "This registration fixes one exact ten-request source-page deck and an at-most-once-per-bound-state acquirer. It executes no request, opens no source image or Voynich target, and assigns no Voynich sign, word, language, plant, plaintext, operation, or meaning. A later successful acquisition can establish only that the ten registered source JPEGs were received and mechanically validated; it still cannot read or translate them.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt620_stage_b_source_page_acquisition/src/run.py --check",
+    "validate": "python3 experiments/yolo/gdt620_stage_b_source_page_acquisition/src/validate.py --check"
+  },
+  "created": "2026-08-29",
+  "dependencies": [
+    "GDT619"
+  ],
+  "experiment_id": "GDT620",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt619_five_source_page_acquisition/artifacts/STAGE1_RESOLUTION.json",
+      "role": "public GDT619 adjacent-scan resolution selecting global Clm delta -1 and five exact BSB Stage-B pages",
+      "sha256": "95457d96fd7c8e4980c3e92bd1a4ac5009daf27090946b91407bbd476eb0d422"
+    },
+    {
+      "path": "experiments/yolo/gdt619_five_source_page_acquisition/artifacts/REGISTERED_REQUEST_PROFILE.json",
+      "role": "public GDT619 source profile binding the five Latin 6823 Gallica pages and witness roles",
+      "sha256": "c577525c5045b2e59ba68741fd098c1d94f43f6d52ac4364683f4dd1e1064164"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt620_stage_b_source_page_acquisition/README.md",
+      "role": "compact registration status and access-boundary entry point",
+      "sha256": "b533b3c1c576937b66fdc06ea84aa0115777ab7b9d6ebb3af7bb8c4aed517b95"
+    },
+    {
+      "path": "experiments/yolo/gdt620_stage_b_source_page_acquisition/METHOD.md",
+      "role": "exact ten-page order, bounded transport, private-state, publication, result, and claim-ceiling method",
+      "sha256": "1b82913e8fb7e498d686ca21d091ebc3cdacf51a797b93cc200af16dc90bcd14"
+    },
+    {
+      "path": "experiments/yolo/gdt620_stage_b_source_page_acquisition/PREREGISTRATION.md",
+      "role": "frozen dependency, literal request deck, transport stops, state boundary, and no-reading registration",
+      "sha256": "40831ba995a6eaf5fc30c6a94f2a97fa03484d44c2c1d84b34b083e2cb427595"
+    },
+    {
+      "path": "experiments/yolo/gdt620_stage_b_source_page_acquisition/artifacts/README.md",
+      "role": "compact artifact inventory and private-image exclusion",
+      "sha256": "7b9612fcf9fdfaa34407d9e8cd58561b746e475689ce95aaab69a95c76ad69cc"
+    },
+    {
+      "path": "experiments/yolo/gdt620_stage_b_source_page_acquisition/artifacts/REGISTERED_STAGE_B_PROFILE.json",
+      "role": "canonical exact ten-request deck, transport caps, fixed delays, publication gate, rights, and output contract",
+      "sha256": "239aa320a964460105dee5b077ddc7a3490491e19863d7b7b47159f622d7acb0"
+    },
+    {
+      "path": "experiments/yolo/gdt620_stage_b_source_page_acquisition/artifacts/REGISTERED_VALIDATION.json",
+      "role": "deterministic offline dependency, profile, acquirer, manifest, privacy, and no-network audit",
+      "sha256": "604b7215a406570cd153f56377ed7abc4d8ead7826c0c2cddc517f4af2f5b42d"
+    },
+    {
+      "path": "experiments/yolo/gdt620_stage_b_source_page_acquisition/requirements.txt",
+      "role": "exact Pillow runtime pin for complete JPEG validation",
+      "sha256": "2ea4551718a5b6779227e26956103791b7d0a87aca1610fbd4566d5da80988e3"
+    },
+    {
+      "path": "experiments/yolo/gdt620_stage_b_source_page_acquisition/src/run.py",
+      "role": "deterministic offline Stage-B profile builder and byte checker",
+      "sha256": "5c731293e28a55f1c853cb5f1647b53617ec6f62752072df8421d687efeb6277"
+    },
+    {
+      "path": "experiments/yolo/gdt620_stage_b_source_page_acquisition/src/acquire_stage_b.py",
+      "role": "publication-bound at-most-once-per-state ten-page acquirer and offline transport/crash test suite",
+      "sha256": "9d66ff28dad91390ed47dc72c58fc69f769f302f4a91c2612992008ea5a857a4"
+    },
+    {
+      "path": "experiments/yolo/gdt620_stage_b_source_page_acquisition/src/validate.py",
+      "role": "offline dependency, request-deck, protocol, acquirer, manifest, privacy, and reproducibility validator",
+      "sha256": "de1d2cd7da532f6e2ff3f12b215705ef816cff1d3bfe85291872a612c242e821"
+    }
+  ],
+  "question": "Can the ten source pages already selected by GDT619 be acquired in one exact closed order with bounded transport and at-most-once-per-bound-state request semantics before any source text or Voynich target is opened?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "stage_b_source_page_acquisition",
+  "status": "STAGE_B_PROFILE_REGISTERED__NO_STAGE_B_REQUEST_EXECUTED",
+  "title": "Stage-B source-page acquisition",
+  "updated": "2026-08-29",
+  "validation": {
+    "artifact": "experiments/yolo/gdt620_stage_b_source_page_acquisition/artifacts/REGISTERED_VALIDATION.json",
+    "status": "PASS"
+  }
+}

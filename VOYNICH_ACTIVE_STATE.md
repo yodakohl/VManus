@@ -14879,3 +14879,20 @@ computes minimum BSB spacing over all durable intents(4.000818967819214s)and
 fixes the IIIF service schema from object to one-element list;neither changes
 the observations,delta,pages or hashes. StageB is authorized but unexecuted;
 no five-entry running text or Voynich target has been opened.
+
+## GDT620 registers the exact Stage-B full-page deck
+
+GDT620 converts GDT619's public delta-1 resolution into ten literal full-page
+requests:Clm scans25/75/164/96/101 followed by Lat.6823 Gallica
+f58/f96/f178/f91/f122. Each response is capped at50,000,000 bytes,the pass at
+500,000,000 bytes,and Requests2–10 receive a fresh fixed four-second pause
+immediately before GET. Redirects,retries,proxies,cookies,auth,alternate URLs,
+metadata refetches,crops,OCR and image reading are absent. The state machine is
+at-most-once only within one bound private execution state;policy forbids a
+second state directory. Network remains locked until the complete runtime and
+configuration blobs are public and match the supplied origin/main commit.
+Profile SHA256 is `239aa320...acb0`;the acquirer passes52/52 offline tests and
+registration validation passes43/43 with zero network requests. Registration
+opens no source image or Voynich target. Next publish this registration,execute
+the one ten-page deck,and publish only compact hashes/provenance before a
+separate manual double-reading registration.

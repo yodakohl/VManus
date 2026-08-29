@@ -1,0 +1,323 @@
+{
+  "access_state_at_registration": {
+    "image_bytes_received": 0,
+    "network_requests": 0,
+    "registration_is_offline": true,
+    "source_images_opened": 0,
+    "stage1_already_public": true,
+    "stage_b_acquisition_code_is_separate": true,
+    "voynich_material_opened": 0
+  },
+  "claim_ceiling": "REQUEST_PROFILE_ONLY__STAGE1_PUBLIC_AND_DELTA_MINUS_ONE__NO_STAGE_B_IMAGE_ACQUIRED__NO_SOURCE_TRANSCRIPTION__NO_VOYNICH_VALUE_OR_MEANING",
+  "decision": "STAGE_B_PROFILE_REGISTERED__NO_STAGE_B_REQUEST_EXECUTED",
+  "dependency": {
+    "public_stage1_commit": "e82d73d6300f51c810ff131711ace31bb2610b69",
+    "source_profile_path": "experiments/yolo/gdt619_five_source_page_acquisition/artifacts/REGISTERED_REQUEST_PROFILE.json",
+    "source_profile_sha256": "c577525c5045b2e59ba68741fd098c1d94f43f6d52ac4364683f4dd1e1064164",
+    "stage1_path": "experiments/yolo/gdt619_five_source_page_acquisition/artifacts/STAGE1_RESOLUTION.json",
+    "stage1_publication_effect": "GLOBAL_DELTA_MINUS_ONE__STAGE_B_AUTHORIZED_NOT_EXECUTED",
+    "stage1_sha256": "95457d96fd7c8e4980c3e92bd1a4ac5009daf27090946b91407bbd476eb0d422",
+    "stage1_status_inside_frozen_artifact": "STAGE1_RESOLVED__STAGE_B_URLS_PUBLICLY_UNBOUND"
+  },
+  "execution_publication_gate": {
+    "committed_paths_must_match_runtime_bytes": [
+      "experiments/yolo/gdt620_stage_b_source_page_acquisition/METHOD.md",
+      "experiments/yolo/gdt620_stage_b_source_page_acquisition/PREREGISTRATION.md",
+      "experiments/yolo/gdt620_stage_b_source_page_acquisition/artifacts/REGISTERED_STAGE_B_PROFILE.json",
+      "experiments/yolo/gdt620_stage_b_source_page_acquisition/requirements.txt",
+      "experiments/yolo/gdt620_stage_b_source_page_acquisition/src/acquire_stage_b.py",
+      "experiments/yolo/gdt620_stage_b_source_page_acquisition/src/validate.py",
+      "experiments/yolo/gdt620_stage_b_source_page_acquisition/experiment.json"
+    ],
+    "network_forbidden_until_registration_commit_is_public": true,
+    "public_registration_commit_argument_required": true,
+    "registration_commit_must_be_ancestor_of_origin_main": true,
+    "working_tree_only_code_cannot_authorize_network": true
+  },
+  "experiment_id": "GDT620",
+  "forbidden_access": [
+    "F84",
+    "F84R",
+    "VOYNICH_PAGE",
+    "VOYNICH_TRANSCRIPTION",
+    "SOURCE_IMAGE_DISPLAY",
+    "SOURCE_IMAGE_READING",
+    "OCR",
+    "NETWORK_CROP",
+    "UNREGISTERED_URL"
+  ],
+  "output_contract": {
+    "acquisition_implementation": "SEPARATE_CODE_WITHIN_GDT620__NOT_PART_OF_REGISTRATION_BUILDER",
+    "private_directory": {
+      "absolute": true,
+      "mode": "0700",
+      "no_symlink_components": true,
+      "outside_repository": true,
+      "ownership_marker_required": true,
+      "second_execution_state_directory_forbidden_by_policy": true
+    },
+    "private_files": {
+      "request_journal": "REQUEST_JOURNAL.jsonl",
+      "source_jpegs": "exactly_10",
+      "state": "stage_b_state.json"
+    },
+    "public_result_must_exclude": [
+      "absolute_private_path",
+      "private_filename",
+      "image_bytes",
+      "authentication_material",
+      "machine_metadata"
+    ],
+    "public_result_required_fields": [
+      "status",
+      "request_order",
+      "literal_urls",
+      "observed_bytes",
+      "raw_sha256",
+      "decoded_width",
+      "decoded_height",
+      "request_started_utc",
+      "response_completed_utc",
+      "response_headers",
+      "failure_count"
+    ],
+    "success_status": "TEN_SOURCE_PAGES_ACQUIRED__SOURCE_READING_UNOPENED__TARGET_UNOPENED"
+  },
+  "protocol": {
+    "cap_semantics": {
+      "content_encoding": "ABSENT_OR_IDENTITY_ONLY",
+      "content_length": "ZERO_OR_ONE_VALID_NONNEGATIVE_DECIMAL_AT_MOST_CAP__IF_PRESENT_MUST_EQUAL_OBSERVED_BYTES",
+      "content_length_above_cap": "STOP_BEFORE_BODY_READ",
+      "missing_or_at_most_cap_content_length": "STREAM_CAP_PLUS_ONE_STILL_REQUIRED",
+      "observed_body_above_cap": "STOP",
+      "partial_body_or_decode_or_dimension_mismatch": "STOP",
+      "transfer_encoding": "ABSENT_OR_EXACT_CHUNKED_WITHOUT_CONTENT_LENGTH"
+    },
+    "concurrency": 1,
+    "durability": "ADVISORY_SINGLE_PROCESS_LOCK__FSYNC_FILE_AND_PARENT_DIRECTORY_AFTER_CREATE_OR_REPLACE__PROCESS_DEATH_RELEASES_LOCK",
+    "exactly_once": "AT_MOST_ONCE_PER_BOUND_EXECUTION_STATE__FSYNC_REQUEST_INTENT_AND_IN_FLIGHT_STATE_BEFORE_GET__REFUSE_ANY_URL_WITH_PRIOR_INTENT_OR_SUCCESS__PERSIST_NEXT_SEQUENCE_AFTER_SUCCESS__SECOND_STATE_DIRECTORY_FORBIDDEN_BY_POLICY",
+    "failure_action": "STOP_ON_FIRST_FAILURE__NO_LATER_REQUEST",
+    "fixed_pre_request_delay": {
+      "applies_to_sequences": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "elapsed_wall_time_never_reduces_delay": true,
+      "required_after_restart": true,
+      "seconds": 4.0
+    },
+    "follow_redirects": false,
+    "full_jpeg_validation": "Pillow_10_2_0__LOAD_TRUNCATED_FALSE__DECOMPRESSION_WARNINGS_ARE_ERRORS__verify_then_reopen_and_load__JPEG_ONE_FRAME__EXACT_STORED_DIMENSIONS__NO_EXIF_ORIENTATION_CORRECTION",
+    "header_semantics": {
+      "application_headers_exact": [
+        "Accept",
+        "Accept-Encoding",
+        "User-Agent"
+      ],
+      "opener_default_addheaders_disabled": true,
+      "protocol_headers_may_be_generated_by_python": [
+        "Host",
+        "Connection: close"
+      ],
+      "wire_header_set_claimed_exact": false
+    },
+    "http_method": "GET",
+    "maximum_response_bytes_each": 50000000,
+    "maximum_response_bytes_total": 500000000,
+    "network_crops": false,
+    "proxy_cookie_auth": "DISABLED",
+    "request_total_wall_seconds": 180,
+    "requests_allowed": 10,
+    "requests_by_institution": {
+      "BNF_GALLICA": 5,
+      "BSB": 5
+    },
+    "retries": 0,
+    "socket_operation_timeout_seconds": 60,
+    "unregistered_head_requests": false,
+    "unregistered_info_json_requests": false,
+    "unregistered_manifest_requests": false
+  },
+  "requests": [
+    {
+      "candidate_id": "DEV01",
+      "expected_dimensions": {
+        "height": 2466,
+        "width": 1707
+      },
+      "headers": {
+        "Accept": "image/jpeg",
+        "Accept-Encoding": "identity",
+        "User-Agent": "VManus-GDT620-stage-b-source-acquisition/1.0"
+      },
+      "institution": "BSB",
+      "resource_class": "IIIF_IMAGE_V3_MANIFEST_ADVERTISED_FULL_BODY",
+      "sequence": 1,
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v3/bsb00107549_00025/full/max/0/default.jpg"
+    },
+    {
+      "candidate_id": "DEV02",
+      "expected_dimensions": {
+        "height": 2581,
+        "width": 1707
+      },
+      "headers": {
+        "Accept": "image/jpeg",
+        "Accept-Encoding": "identity",
+        "User-Agent": "VManus-GDT620-stage-b-source-acquisition/1.0"
+      },
+      "institution": "BSB",
+      "resource_class": "IIIF_IMAGE_V3_MANIFEST_ADVERTISED_FULL_BODY",
+      "sequence": 2,
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v3/bsb00107549_00075/full/max/0/default.jpg"
+    },
+    {
+      "candidate_id": "DEV03",
+      "expected_dimensions": {
+        "height": 2562,
+        "width": 1707
+      },
+      "headers": {
+        "Accept": "image/jpeg",
+        "Accept-Encoding": "identity",
+        "User-Agent": "VManus-GDT620-stage-b-source-acquisition/1.0"
+      },
+      "institution": "BSB",
+      "resource_class": "IIIF_IMAGE_V3_MANIFEST_ADVERTISED_FULL_BODY",
+      "sequence": 3,
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v3/bsb00107549_00164/full/max/0/default.jpg"
+    },
+    {
+      "candidate_id": "DEV04",
+      "expected_dimensions": {
+        "height": 2591,
+        "width": 1707
+      },
+      "headers": {
+        "Accept": "image/jpeg",
+        "Accept-Encoding": "identity",
+        "User-Agent": "VManus-GDT620-stage-b-source-acquisition/1.0"
+      },
+      "institution": "BSB",
+      "resource_class": "IIIF_IMAGE_V3_MANIFEST_ADVERTISED_FULL_BODY",
+      "sequence": 4,
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v3/bsb00107549_00096/full/max/0/default.jpg"
+    },
+    {
+      "candidate_id": "DEV05",
+      "expected_dimensions": {
+        "height": 2581,
+        "width": 1707
+      },
+      "headers": {
+        "Accept": "image/jpeg",
+        "Accept-Encoding": "identity",
+        "User-Agent": "VManus-GDT620-stage-b-source-acquisition/1.0"
+      },
+      "institution": "BSB",
+      "resource_class": "IIIF_IMAGE_V3_MANIFEST_ADVERTISED_FULL_BODY",
+      "sequence": 5,
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v3/bsb00107549_00101/full/max/0/default.jpg"
+    },
+    {
+      "candidate_id": "DEV01",
+      "expected_dimensions": {
+        "height": 4581,
+        "width": 3302
+      },
+      "headers": {
+        "Accept": "image/jpeg",
+        "Accept-Encoding": "identity",
+        "User-Agent": "VManus-GDT620-stage-b-source-acquisition/1.0"
+      },
+      "institution": "BNF_GALLICA",
+      "resource_class": "IIIF_IMAGE_1_1_NATIVE_FULL_RESOURCE",
+      "sequence": 6,
+      "url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000517p/f58/full/full/0/native.jpg"
+    },
+    {
+      "candidate_id": "DEV02",
+      "expected_dimensions": {
+        "height": 4553,
+        "width": 3451
+      },
+      "headers": {
+        "Accept": "image/jpeg",
+        "Accept-Encoding": "identity",
+        "User-Agent": "VManus-GDT620-stage-b-source-acquisition/1.0"
+      },
+      "institution": "BNF_GALLICA",
+      "resource_class": "IIIF_IMAGE_1_1_NATIVE_FULL_RESOURCE",
+      "sequence": 7,
+      "url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000517p/f96/full/full/0/native.jpg"
+    },
+    {
+      "candidate_id": "DEV03",
+      "expected_dimensions": {
+        "height": 4557,
+        "width": 3284
+      },
+      "headers": {
+        "Accept": "image/jpeg",
+        "Accept-Encoding": "identity",
+        "User-Agent": "VManus-GDT620-stage-b-source-acquisition/1.0"
+      },
+      "institution": "BNF_GALLICA",
+      "resource_class": "IIIF_IMAGE_1_1_NATIVE_FULL_RESOURCE",
+      "sequence": 8,
+      "url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000517p/f178/full/full/0/native.jpg"
+    },
+    {
+      "candidate_id": "DEV04",
+      "expected_dimensions": {
+        "height": 4388,
+        "width": 3333
+      },
+      "headers": {
+        "Accept": "image/jpeg",
+        "Accept-Encoding": "identity",
+        "User-Agent": "VManus-GDT620-stage-b-source-acquisition/1.0"
+      },
+      "institution": "BNF_GALLICA",
+      "resource_class": "IIIF_IMAGE_1_1_NATIVE_FULL_RESOURCE",
+      "sequence": 9,
+      "url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000517p/f91/full/full/0/native.jpg"
+    },
+    {
+      "candidate_id": "DEV05",
+      "expected_dimensions": {
+        "height": 4574,
+        "width": 3346
+      },
+      "headers": {
+        "Accept": "image/jpeg",
+        "Accept-Encoding": "identity",
+        "User-Agent": "VManus-GDT620-stage-b-source-acquisition/1.0"
+      },
+      "institution": "BNF_GALLICA",
+      "resource_class": "IIIF_IMAGE_1_1_NATIVE_FULL_RESOURCE",
+      "sequence": 10,
+      "url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000517p/f122/full/full/0/native.jpg"
+    }
+  ],
+  "rights_policy": {
+    "bnf_attribution": "Bibliothèque nationale de France",
+    "bnf_terms_url": "https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica",
+    "bsb_rights": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "image_redistribution_in_repository": false,
+    "private_source_images_only": true
+  },
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "status": "STAGE_B_PROFILE_REGISTERED__NO_STAGE_B_REQUEST_EXECUTED"
+}
