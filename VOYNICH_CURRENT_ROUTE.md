@@ -284,10 +284,10 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-GDT622 finds a real 1481–1490 comparator:learned drug names plus compositional hot/cold and dry/moist codes.
-The leading reader is `qo+(k/t)+(ch/sh)`,with `k/t=hot/cold`,`ch/sh=moist/dry`;13 exact minimal pairs
-and all four corners exist. f38r Balsam is strongest;next attach the same code
-to repeated names/records without changing values. Degree and names stay open.
+GDT623 corrects the live Herbal reader to `qo+(k/t)+(ch/sh)`,with `k/t=hot/cold` weak and `ch/sh=dry/moist` strong;the old moisture direction ranks last globally.
+Local attachment replaces distant page binding. Concrete defaults are `chody=dry/dry class`,`p...air=root-part/radix`,`kooiin=thick/creeping-root drug`,and weak `shor=reproductive head`;`shody=moist` is rejected.
+Six twice-repeated carriers retain the same local quality family. Clm667,Pal.lat.1234 and Wellcome MS.541 establish the historical learned-name+part+compact-quality architecture,not the Voynich values.
+Next GDT624 tests the complete non-q `kch/ksh/tch/tsh` shells and productive e-length series,then uses only locally licensed forms to increase concrete paragraph coverage without changing the V2 axis.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`

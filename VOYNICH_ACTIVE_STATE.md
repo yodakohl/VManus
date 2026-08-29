@@ -14969,3 +14969,45 @@ only the III package is relatively rare(9 events on8 pages,including both
 Diptam candidates). Bare `dain/daiin/daiiin` remains unordered. Four concrete
 target spans now read hot/cold plus moist/dry;source-only facts such as liquorice
 root and Cerfolium culinary use remain explicitly unmapped.
+
+## GDT623 corrects the quality orientation and adds concrete part/state words
+
+GDT623 keeps the formal `qo+(k|t)+(ch|sh)+closure` square but flips its live
+moisture axis. The current Herbal throughput defaults are `k=hot`,`t=cold`,
+`ch=dry`,`sh=moist`: `qokch=hot/dry`,`qoksh=hot/moist`,
+`qotch=cold/dry`,`qotsh=cold/moist`. The dry direction is the stronger result.
+Clm667 has24/27 dry comparison rows;`ch` occupies168/192 exact and455/512
+strict-q target forms. V2 ranks first on the complete guarded panel and GDT622
+V1 ranks eighth. Herbal-only counts leave the thermal direction genuinely
+ambiguous,so `k=hot,t=cold` remains weaker than `ch=dry,sh=moist`.
+
+Attachment is now local:same physical line,then local opening,then a forward
+block under an explicit reanchor. The distant f3r and f24r page matches no
+longer orient the code. Six exact carriers occurring twice—`dsheody`,`kooiin`,
+`poraiin`,`tchdor`,`tshod`,`yshol`—reach the same local strict family in both
+occurrences. This supports binding but does not make every carrier a noun.
+
+The first practical non-bundle default is `chody=dry/dry class`:65/66 nearest
+strict codes and33/34 same-line codes are dry. `shody=moist` is rejected because
+its corresponding counts are37/38 and14/14 dry. `shedy=moist/moist class`
+survives only as a weak register-local lead. Dry,dried,moist,moistened and fresh
+remain separate possible historical categories.
+
+Manual official-image inspection gives two medium Herbal part defaults.
+`kooiin/koaiin` marks a thick or creeping underground-drug subclass on f2v,
+f29v and f3v;“rootstock” is a modern explanatory gloss rather than a claimed
+medieval word. Five distinct page heads `pdrairdy/podairol/podair/pdair/pdsairy`
+support `air|dair=root-part/radix` inside a p-headed entry. Exact Herbal `shor`
+is a weak flower/fruit-stand or reproductive-head default;head `koary|korary`
+is a still weaker reproductive-drug class. `koair` is explicitly excluded from
+that family.
+
+The historical architecture is independently real:Clm667 and Wellcome MS.541
+place learned whole drug names beside compact hot/cold,dry/moist and degree
+fields;Pal.lat.1234 nests learned names under temperament/degree and explicit
+plant-part rubrics. GDT623 therefore adopts a mixed learned-name+part+quality
+working system,not a claim of solved language or phonetics. The guarded panel
+contains179 pages/32,339 tokens,excludes f1r,f84 and f84r before payload access,
+and the deterministic validator passes194 checks. Next test complete non-q
+four-corner shells and the productive e-length slot before seeking more visual
+part names.

@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **620**
-- Experiment-associated tracked files: **9,689** (1.0 GiB)
-- Structured GDT337+ experiments: **285**
+- Experiments indexed: **621**
+- Experiment-associated tracked files: **9,719** (1.0 GiB)
+- Structured GDT337+ experiments: **286**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT623 | GDT623_temperament_orientation_frequency | `WORKING_TRANSLATION_V2__MOISTURE_AXIS_FLIPPED__LOCAL_ATTACHMENT_REPAIRED` | [report](../experiments/yolo/gdt623_temperament_orientation_frequency/REPORT.md) | 30 | 190.6 KiB | 2 | STRUCTURED_YOLO |
 | GDT622 | GDT622_clm667_temperament_codebook | `CONCRETE_COMPOSITIONAL_WORKING_TRANSLATION_V1` | [report](../experiments/yolo/gdt622_clm667_temperament_codebook/REPORT.md) | 25 | 182.0 KiB | 2 | STRUCTURED_YOLO |
 | GDT621 | GDT621_manual_source_double_reading | `LAT6823_LIQUIRICIA__CLM_LIQUIRITIA_WITNESS_FORMS_SEPARATED` | [report](../experiments/yolo/gdt621_manual_source_double_reading/FINAL_RESULT.md) | 22 | 365.2 KiB | 1 | STRUCTURED_YOLO |
 | GDT620 | GDT620_stage_b_source_page_acquisition | `TEN_SOURCE_PAGES_ACQUIRED__SOURCE_READING_UNOPENED__TARGET_UNOPENED` | [report](../experiments/yolo/gdt620_stage_b_source_page_acquisition/STAGE_B_RESULT.md) | 15 | 243.9 KiB | 1 | STRUCTURED_YOLO |
