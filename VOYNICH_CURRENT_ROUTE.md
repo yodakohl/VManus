@@ -284,8 +284,8 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-GDT633 reads outer `e/ee` as attributive/extended binding,`o+CTH` as a preparation from CTH drug material,and inner `y/ey/eey` as base/form I/form II. It covers257 fused tokens/50 types and268 boundary-inclusive expressions/55 types. Thirteen E,ten O and five E-vs-O edges preserve the head;29/32 O-head tokens have a same-rest CTH base. Occurrence-normalized E is not hotter than NONE,so heating is only a weak rival. V10=76;2022 checks. `octheey` stays predicted/unobserved;no specific medium,species,operation,language or phonetics.
-Next GDT634 read the eight micro-lines through literal `y/ey/eey`,`dy/edy/eedy/eeedy`,then test `o` on `oaiin/shokaiin/cheody/otedy/qokeeo` and `ol/or` on `qokal/qokar/oraiin/olor/dory`. Do not import GDT558's workshop E labels,open a page/image,or add generic process prose.
+GDT634 gives8 old lines69 token-aligned glosses/58 types,zero unassigned/filler;quality=4950/75/176,E0–3=907/2275/1663/105. Initial p/s/r/l=Pulver/Salz/Wurzel/Flüssigkeit;terminal p and posa stay separate LOW hypotheses. Only Herbal CTH=Blatt/Kraut;terminal m is value-open;daiir→daiin only at f85r1.21. L/R A/O-shared bodies=115/131;V11=76 unchanged+56 new=132;1002 checks. Reader51 exact/53 ZL-split-normalized excludes inverse fusion/glyph forks.
+Next GDT635 uses no new page:exact same-remainder swaps for initial p/s/r/l,distinct from GDT418 workshop atoms and terminal/internal signs;translate matched lines tokenwise and retain a head only when inherited rest meanings stay coherent. Prioritize p/s;keep r/l rival. No Herbal/local-reader globalization or generic process prose.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`

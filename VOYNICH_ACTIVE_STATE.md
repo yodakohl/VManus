@@ -15391,3 +15391,48 @@ passes2022 checks including byte replay. Next GDT634 stays on these pages and
 reads the eight micro-lines through known quality cores plus literal
 `y/ey/eey`,`dy/edy/eedy/eeedy`,then tests o-preparation and OL/OR part/gut
 composition on the remaining neighbours.
+
+## GDT634 supplies a token-aligned concrete eight-line working gloss
+
+GDT634 stays on the same guarded179 pages and opens no image. Eight selected
+lines from f20v,f22v,f29r,f80r,f80v,f82v,f85r1 and f114v contain69 token
+positions and58 surface types. Every position now has one nonempty primary
+material,part,state,quality or quantity gloss;all alternatives are kept in a
+separate rival field,and all eight line outputs have exactly one aligned gloss
+per token. The old generic work/process filler is absent.
+
+The inherited productive terminal family
+`(NONE/o/qo)+(k/t/ch/sh)+e0..3+d?+y` has4950 tokens,75 types,176 pages and3612
+ordinal-surface all-reader-exact occurrences. E0/1/2/3 counts are
+907/2275/1663/105. CTH remains global Drogenmaterial/-zubereitung and becomes
+Blatt/Kraut only on the three Herbal target lines. The target-only
+`daiir→daiin=Maß III` normalization is restricted to f85r1.21;eight other
+daiir loci are all-reader exact and remain open. Terminal m likewise remains
+a visible positional marker of unknown value(838 occurrences,591 line-final;
+olkam11/8),not a silently deleted suffix.
+
+Aggressive concrete heads are initial p=pulvis/Pulver,s=sal/Salz with
+semen/Samen rival,initial r=radix/Wurzelstoff and initial
+l=liquor/Flüssigkeit. Initial s excludes the sh moisture core and has801
+prefixed occurrences,not3556;p has503,of which395 have a delete-head
+counterpart. Terminal p in chep is a separate LOW Pulverform hypothesis,and
+posaiin is a learned posa-word with IT2a poraiin fork,not evidence for an
+internal productive s head. AL/OL versus AR/OR remain material versus
+part/portion carriers while a/o stay distinct;115 L bodies and131 R bodies
+occur with both vowels.
+
+Eight of ten aggressive form lists contain multiple listed forms,but this is
+attestation rather than a scored semantic relation. The automatic reader
+metrics are also narrow:51 target positions preserve the ordinal ZL surface
+in all readers,and53 survive exact-or-reader-split normalization;only saiin
+and qotainol gain in the second number. Inverse fusions and glyph forks are
+recorded separately. V11 has132 entries:all76 V10 rows and context rules are
+preserved,plus56 additions including local `daiir@f85r1.21`. The independent
+validator passes1002 checks and byte-replays all18 builder outputs.
+
+Next GDT635 remains on the current pages and tests initial p/s/r/l on exact
+same-remainder substitutions,kept distinct from terminal/internal signs and
+from GDT418 workshop atoms. It will translate matched lines token-for-token
+and retain a head only when the rest keeps its inherited quality,carrier and
+value reading while the material head changes coherently. p/s are primary;
+r/l remain weaker rivals.
