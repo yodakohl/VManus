@@ -15514,3 +15514,35 @@ Next GDT637 freezes these values,extends already observed aiir/oiiin/aim/aiim
 head cells and uses V13 to rank all already opened lines with exactly one
 unknown slot. The purpose is rapid complete-passage growth without reopening
 f1r,adding a page/image,importing GDT418 values or globalizing bare surfaces.
+
+## GDT637 turns four relative ladders into a full one-hole passage queue
+
+GDT637 stays on the same guarded179 pages. aiir continues the A-R part/sort
+series as classIII;oiiin continues the O-N series as form classIV;
+aim/aiim are separated from dose forms as quantity classesII/III,with entry-close
+added only at actual line end. The16 p/s/r/l cells divide into8 observed and8
+empty predictions. The observed cells have12 occurrences/8 exact-reader
+surfaces and alone extend V13=251 to V14=259. Empty cells never enter V14.
+
+These GDT637 class names are explicit umbrella labels,not retroactive V13
+rewrites. The byte-frozen V13 prefix keeps ar/air=Fraktionsklasse I/II and
+am=Maß-/Einheitsform I;the contrast artifact prints old and new labels side by
+side and joins only their visible minim-series position.
+
+Body-level coexistence now directly separates ar/aiir on5 lines,air/aiir on1,
+aiir/aim on1 and aiim/am on1. A scope-aware212-surface reader applies V14 to
+all4128 physical lines:16 multi-token lines are complete,7 also scope-clean and
+reader-exact;65 lines have exactly one unknown token,30 also pass those clean
+conditions. The65 holes reduce to64 surfaces. Strong concrete worksheet values
+include otchol=cold-dry preparation material,keechy=hot bound dry formII,
+cthoiin=leaf/herb preparationIII,cthor=leaf/herb portion,choiin=dry
+preparationIII,dol=measured material,doiin=dose of preparationIII and
+oaiir=preparation part-classIII. None is promoted yet;opaque cpholdy,cheockhy,
+chckhal and okcholksh explicitly remain unresolved rather than receiving
+generic filler. The independent validator passes33978 checks and byte-replays
+all13 builder outputs.
+
+Next GDT638 adds the strongest reader-exact hole compounds sequentially and
+records the new complete passage created by each. A proposal survives while it
+adds concrete passage coverage without turning an existing complete line into
+nonsense. No new page,image,f1r,f84*,GDT418 value or naked-body globalization.
