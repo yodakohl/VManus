@@ -15356,3 +15356,38 @@ across E/EO rather than independently proved there. V9 contains67 entries,
 retains e/o as visible OPEN classes and passes597 checks. Next compare exact
 same-rest/local-frame E/O/EO contrasts and the two `ee` rivals for a concrete
 form,part,medium or state reading without opening another page or image.
+
+## GDT633 gives E/O/CTH a concrete working meaning
+
+GDT633 extends the same guarded179-page panel to literal outer e-runs of
+length0/1/2. The six E×O cells contain154/36,55/10 and2/0 tokens,for257 fused
+tokens and50 types. Thirteen fixed-body E ladders include two complete0/1/2
+series:`chcthy/checthy/cheecthy=75/26/1` and
+`shcthey/shecthey/sheecthey=4/1/1`. Both EE endpoints are triple-exact. The
+whole allowed text independently contains397 one-e-run families with multiple
+lengths,871 types and8759 tokens;365 carry e/ee,73 e/ee/eee and3 all four
+levels through eeee. These are literal EVA runs,not GDT558 workshop atom names.
+
+The concrete default is `e=attributive binding`:without e the German reader
+uses `Blattgut: trocken/feucht`,with e `trockenes/feuchtes Blattgut`;ee is an
+extended binding stage. An important correction removes the apparent heating
+lead. At occurrence level no-O NONE has38/154 hot contacts and24/154 immediate
+hot,versus E12/55 and10/55;O has3/36 versus EO1/10. E merely has few cold
+contacts,so `e=heated/cooked` remains a weak cold-exclusion rival,not primary.
+
+Naked `cth+R` has408 tokens/69 types/347 Herbal;`octh+R` has32/16/15 Herbal.
+Twenty-nine O tokens and13 O types have a same-rest CTH base,seven pages carry
+both,and12 exact one-sided contexts are shared. The working Sachwert is
+therefore `cth=drug material`(Herbal leaf/herb material) and
+`o+cth=preparation/batch from that material`;water,wine,oil and a specific
+process are too narrow. Inner `cthy/cthey/ctheey=92/38/10` and
+`octhy/octhey/octheey=9/3/0` receive base/form I/form II. Twelve pages and18
+shared contexts support the CTH ladder;`octheey` remains predicted,not seen.
+
+The full working edition has257 fused plus11 boundary expressions=268 rows in
+55 normalized types,eight concrete microeditions and no generic process filler.
+V10 has76 entries(67 inherited,nine new,15 revised);the independent validator
+passes2022 checks including byte replay. Next GDT634 stays on these pages and
+reads the eight micro-lines through known quality cores plus literal
+`y/ey/eey`,`dy/edy/eedy/eeedy`,then tests o-preparation and OL/OR part/gut
+composition on the remaining neighbours.

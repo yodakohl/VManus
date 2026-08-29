@@ -284,8 +284,8 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-GDT632 orders the complete `ch/sh+(NONE|e|o|eo)+cth+R` raster as `ch/sh+e?+[o?+cth+R]`:all8 cells,255 fused tokens/48 types,plus7 all-reader splits and4 reader-normalized spans. Naked heads are cth408/e-cth0/o-cth32/eo-cth0;all46 fused O/EO expressions hit6 attested inner o-CTH bases. Inclusive coverage is54/55 and predicts the sole missing head `octheey`. Twelve conservative shell|CTH spans and3 split-only forms expose composition. The raster covers255/260 Q…CTH tokens;2 `ee` rivals and3 outer OL/CH compounds remain outside. ch=dry/sh=moist and CTH drug material remain provisional concrete defaults;Herbal narrows to leaf/herb,e/o stay OPEN. V9=67;597 checks.
-Next GDT633 keep this panel and compare same-rest E/O/EO forms,`ee` rivals and exact local frames for concrete form/part/medium/state meanings;open no page/image and treat `octheey` as a prediction,not an observation.
+GDT633 reads outer `e/ee` as attributive/extended binding,`o+CTH` as a preparation from CTH drug material,and inner `y/ey/eey` as base/form I/form II. It covers257 fused tokens/50 types and268 boundary-inclusive expressions/55 types. Thirteen E,ten O and five E-vs-O edges preserve the head;29/32 O-head tokens have a same-rest CTH base. Occurrence-normalized E is not hotter than NONE,so heating is only a weak rival. V10=76;2022 checks. `octheey` stays predicted/unobserved;no specific medium,species,operation,language or phonetics.
+Next GDT634 read the eight micro-lines through literal `y/ey/eey`,`dy/edy/eedy/eeedy`,then test `o` on `oaiin/shokaiin/cheody/otedy/qokeeo` and `ol/or` on `qokal/qokar/oraiin/olor/dory`. Do not import GDT558's workshop E labels,open a page/image,or add generic process prose.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`
