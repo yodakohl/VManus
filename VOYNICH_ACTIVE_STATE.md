@@ -15436,3 +15436,54 @@ from GDT418 workshop atoms. It will translate matched lines token-for-token
 and retain a head only when the rest keeps its inherited quality,carrier and
 value reading while the material head changes coherently. p/s are primary;
 r/l remain weaker rivals.
+
+## GDT635 replaces the four initial-head defaults with one materia quartet
+
+GDT635 stays on the same guarded179-page scope and opens neither a new page
+nor an image. Its only segmentation removes one first character from a token
+beginning in p/s/r/l and preserves the entire remainder literally. Initial sh,
+standalone signs and internal/terminal p/s/r/l are excluded. The resulting
+initial inventories are p503/277 types,s801/248,r332/116,l1224/344;their
+line-first/middle/last profiles are360/129/14,408/282/111,15/221/96 and
+66/930/228. Thus p/s remain entry or material heads while r/l form a second,
+mainly internal ingredient/plant-part subclass.
+
+Across2860 headed tokens there are985 head-body types on760 exact bodies.
+Occupancy1/2/3/4 has616/87/33/24 bodies and883/451/360/1166 occurrences.
+The144 shared bodies carry1977 tokens;140 also occur bare,22 are exact V11
+bodies,and24 appear with all four heads. Twelve body/head pairs contact in the
+same line. Eighteen unique bodies share an exact two-sided token frame(20
+pair edges);nine frames are register-matched(11 pair edges). The sole
+three-head frame is initial por/sor/lor before ar in B/B/hand2.
+
+The new primary meanings are initial p=pulvis/Pulver,s=semen/Samen,
+r=radix/Wurzel and l=lignum/Drogenholz. The previous s=sal and l=liquor values
+move to rivals;resina and extract remain r/l rivals. This specifically repairs
+lchedy116=`getrocknetes Drogenholz`,lshedy38=`eingeweichtes Drogenholz` and
+sol shedy=`Saatgut,eingeweicht`. Five complete bodies aiin/chedy/shedy/ol/or
+give20/20 attested concrete forms,639 occurrences and477 ordinal-surface
+all-reader-exact occurrences. The larger dry/moist head grid has36/40 cells;
+sshy,rshy,rsheey and sshdy are visible unobserved predictions and are not
+dictionary entries.
+
+Ten matched spans/22 tokens receive concrete translations without generic
+process filler;seven spans are entirely all-reader exact and eight survive
+pure split normalization. f77r.38 pol shedy reads Pulverstoff angefeuchtet,
+f76v.40 sol shedy Saatgut eingeweicht,f106v.8 cheo rol aiin Trockenansatz aus
+Wurzelstoff MengeIII,and f111v.10 cheo lol aiin Trockenansatz aus Holzstoff
+MengeIII. The exact paiin/saiin+daiin parallels correct a second defect:
+headed aIII is type/batchIII while d+aIII is dose/measureIII,not a duplicated
+amount.
+
+Salzburg M I 89 at the turn of the14th/15th century places pulvis and semen in
+one recipe codex. Early-fifteenth-century Wellcome MS542 gives lignum and radix
+with hot/dry qualities and explicit degreeII/III. These are exact historical
+architecture comparators,not Voynich glyph identifications. V12 contains156
+rows:all132 V11 rows unchanged plus four scoped initial heads and20 attested
+whole forms. The independent validator passes17773 checks and byte-replays all
+16 builder artifacts.
+
+Next GDT636 stays on the same material and gives the remaining19 four-way
+bodies short concrete defaults,using same-line/exact-frame passages and the
+p/s versus r/l subclass split. No generic prose,GDT418 values,new page or
+image is admitted.

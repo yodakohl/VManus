@@ -1,0 +1,157 @@
+entry	kind	working_meaning_de	composition	context_rule	status
+a	VALUE_SLOT_LINKER	öffnet nach einem Kopf eine Grad-/Maßstelle; in Übersetzung meist Doppelpunkt oder null	KOPF+a+(n|in|iin|iiin)	produktiv	NEW_PRIMARY_DEFAULT
+n/in/iin/iiin	VALUE_MINIMS	I/II/III/IV	terminaler Schlussstrich mit 0/1/2/3 inneren i-Minims	nach a	INHERITED_PRIMARY_DEFAULT
+d	DETACHED_VALUE_HEAD	freier Wert-/Gradträger	d+a+Wert	nach OL-Qualität Grad; nach OR-/Partterm Maß/Portion oder Grad	REVISED_CONTEXTUAL_DEFAULT
+dan/dain/daiin/daiiin	CONTEXTUAL_VALUE_SERIES	Grad- oder Maßwert I/II/III/IV	d+a+I/II/III/IV	nach OL-Qualität Grad I-IV; nach OR-/Partterm Menge oder Grad I-IV	REVISED_CONTEXTUAL_DEFAULT
+kan/kain/kaiin/kaiiin	QUALITY_DEGREE_SERIES	heiß, Grad I/II/III/IV	k+a+I/II/III/IV	Qualitätscode	NEW_PRIMARY_DEFAULT
+tan/tain/taiin/taiiin	QUALITY_DEGREE_SERIES	kalt, Grad I/II/III/IV	t+a+I/II/III/IV	Qualitätscode	NEW_PRIMARY_DEFAULT
+chan/chain/chaiin/chaiiin	QUALITY_DEGREE_SERIES	trocken, Grad I/II/III/IV	ch+a+I/II/III/IV	Qualitätscode	NEW_PRIMARY_DEFAULT
+shan/shain/shaiin/shaiiin	QUALITY_DEGREE_SERIES	feucht, Grad I/II/III/IV	sh+a+I/II/III/IV	Qualitätscode	NEW_PRIMARY_DEFAULT
+okan/okain/okaiin/okaiiin	QUALITY_DEGREE_SERIES	heiß im o-Rahmen, Grad I/II/III/IV	ok+a+I/II/III/IV	Qualitätscode	NEW_PRIMARY_DEFAULT
+otan/otain/otaiin/otaiiin	QUALITY_DEGREE_SERIES	kalt im o-Rahmen, Grad I/II/III/IV	ot+a+I/II/III/IV	Qualitätscode	NEW_PRIMARY_DEFAULT
+qokan/qokain/qokaiin/qokaiiin	QUALITY_DEGREE_SERIES	heiß im qo-Qualitätsrahmen, Grad I/II/III/IV	qok+a+I/II/III/IV	Qualitätscode	NEW_PRIMARY_DEFAULT
+qotan/qotain/qotaiin/qotaiiin	QUALITY_DEGREE_SERIES	kalt im qo-Qualitätsrahmen, Grad I/II/III/IV	qot+a+I/II/III/IV	Qualitätscode	NEW_PRIMARY_DEFAULT
+cthan/cthain/cthaiin	PART_VALUE_SERIES	Blatt-/oberirdisches Drogengut, Menge/Grad/Klasse I/II/III	cth+a+Wert	Herbal	INHERITED_WITH_VALUE_READER
+chorain/choraiin	PART_VALUE_SERIES	Blüten-/Pflanzenteil, Menge/Grad/Klasse II/III	chor+a+Wert	vor allem Herbal	INHERITED_WITH_VALUE_READER
+daiin	CONTEXTUAL_VALUE_III	Grad- oder Maßwert III	d+a+III	nach OL-Qualität Grad III; nach OR-/Partterm drei Portionen oder Grad III	REVISED_CONTEXTUAL_DEFAULT
+ol	QUALITY_STATE_MATERIAL_CARRIER	Eigenschafts-/Zustands-/Materialträger; als nacktes Wort Gut/Ansatz	QUALITY_CORE+ol	mit Qualitätskern flüssig meist ohne eigenes deutsches Wort	NEW_PRIMARY_DEFAULT
+or	NOMINAL_PART_CARRIER	Teil-/Nominalträger; genaue Basisbedeutung offen	ROOT+or	chor/shor behalten konkrete Partlesungen	NEW_CONTEXT_SPLIT
+chol	DRY_OL_FORM	trocken; nominal trockenes Gut/Material	ch+ol	vor d-Wert: trocken in Grad I-IV	NEW_PRIMARY_DEFAULT
+shol	MOIST_OL_FORM	feucht; nominal feuchtes Gut/Material	sh+ol	vor d-Wert: feucht in Grad II/III	NEW_PRIMARY_DEFAULT
+kol	HOT_OL_FORM	heiß; nominal heißes Gut/Material	k+ol	vor d-Wert: heiß in diesem Grad	NEW_PRIMARY_DEFAULT
+tol	COLD_OL_FORM	kalt; nominal kaltes Gut/Material	t+ol	vor d-Wert: kalt in diesem Grad	NEW_PRIMARY_DEFAULT
+kchol/kshol/tchol/tshol	PAIRED_QUALITY_OL_FORMS	heiß-trocken/heiß-feucht/kalt-trocken/kalt-feucht	k|t + ch|sh + ol	d-Wert danach ist Qualitätsgrad	NEW_PRIMARY_DEFAULT
+o-/qo- + OL-Form	SCOPED_QUALITY_OL_FORM	dieselbe Qualität im o-/qo-Rahmen	o|qo + QUALITY_CORE + ol	Wrapper bleibt hörbar nur wenn nötig	NEW_PRIMARY_DEFAULT
+cholaiin	DIRECT_QUALITY_VALUE	trocken, Grad III	chol+a+III	direkter Wertanschluss	NEW_CONCRETE_READING
+choldaiin	FUSED_FREE_VALUE	trocken, Grad III	chol+d+a+III	expliziter d-Träger im selben Token	NEW_CONCRETE_READING
+chol dan/dain/daiin/daiiin	SEPARATE_QUALITY_DEGREE	trocken, Grad I/II/III/IV	chol | d+a+I/II/III/IV	expliziter d-Träger als eigenes Token	NEW_CONCRETE_READING
+chor	PART_OR_FORM	Pflanzen-/Reproduktionsteil	gelernte Partform; ch+or Qualitätsrival	vor d-Wert standardmäßig lokale Menge/Grad, nicht chol-Trockenphrase	INHERITED_CONTEXT_SPLIT
+shor	PART_OR_FORM	Blüten-/Fruchtstand; reproduktiver Teil	gelernte Partform; sh+or Qualitätsrival	vor d-Wert standardmäßig lokale Menge/Grad	INHERITED_CONTEXT_SPLIT
+chor cholaiin	PART_DIRECT_DRY_III_READER_VARIANT	Pflanzen-/Reproduktionsteil: trocken, Grad III	chor | ch+ol+a+III	f27r.6 nur ZL3b direkt; IT2a/RF1b tragen zusätzliches ch	PROVISIONAL_DIRECT_CLAUSE
+chor chol daiin	PART_SEPARATE_DRY_III_CLAUSE	Pflanzen-/Reproduktionsteil: trocken, Grad III	chor | ch+ol | d+a+III	f21r.12 und f32v.10 dreifach exakt; Dosisrival bleibt	NEW_PRIMARY_CLAUSE
+choldaiin|chol daiin	FUSED_SEPARATE_BOUNDARY_EQUIVALENCE	trocken, Grad III	ch+ol+d+a+III | ch+ol | d+a+III	f49r.6 und f100r.22 wechseln nur die Wortgrenze	NEW_EXACT_BOUNDARY_BRIDGE
+cholchaiin|chol chaiin	REDUPLICATED_DRY_III_READER_VARIANT	trockenes Gut: trocken, Grad III	ch+ol(+|space)ch+a+III	f27r.6 IT2a/RF1b; nicht mit reinem Spacing verwechseln	NEW_READER_VARIANT
+sholdaiin|shol daiin	MOIST_III_BOUNDARY_EQUIVALENCE	feucht, Grad III	sh+ol+d+a+III | sh+ol | d+a+III	f8r.9 wechselt am selben Span nur die Leser-Wortgrenze	NEW_EXACT_BOUNDARY_BRIDGE
+sholdaiin shor|shol daiin shor	POSTPOSED_REPRODUCTIVE_PART_CLAUSE	Blüten-/Fruchtstand: feucht, Grad III	sh+ol(+|space)d+a+III | shor	f8r.9 dreifach grenznormalisiert; Qualität steht vor Part	NEW_PRIMARY_CLAUSE
+chol daiin cthy	POSTPOSED_LEAF_PART_CLAUSE	Blattgut/Blattdroge: trocken, Grad III	ch+ol | d+a+III | cthy	f3r.3 dreifach exakt; f15v.11 Zielspan ebenfalls dreifach exakt	NEW_PRIMARY_CLAUSE
+cthy qokol daiin	PREPOSED_LEAF_PART_CLAUSE	Blattgut/Blattdroge: im qo-Rahmen heiß, Grad III	cthy | qo+k+ol | d+a+III	f22v.8 dreifach exakt; Part steht vor Qualität	NEW_PRIMARY_CLAUSE
+OL_QUALITY dN CTH_PART	POSTPOSED_PART_FRAME	Blatt-/Krautteilform: Qualität im Grad N	QUALITY_CORE+ol | d+a+N | cth*	nur bei unmittelbar sichtbarem cth-Partslot; Rest bleibt OPEN	NEW_COMPOSITIONAL_FRAME
+CTH_PART OL_QUALITY dN	PREPOSED_PART_FRAME	Blatt-/Krautteilform: Qualität im Grad N	cth* | QUALITY_CORE+ol | d+a+N	nur bei unmittelbar sichtbarem cth-Partslot; Rest bleibt OPEN	NEW_COMPOSITIONAL_FRAME
+ch+cth*	DRY_PREFIXED_CTH_PART_FAMILY	trocken markierte cth-Pflanzen-/Drogenmaterialform	ch (trocken) + cth (Blatt-/Krautteilfamilie) + Rest	nur für die bezeugte chcth-Restfamilie; Herbal konkretisiert zu Blatt-/Krautgut	NEW_PRODUCTIVE_WORKING_DEFAULT
+sh+cth*	MOIST_PREFIXED_CTH_PART_FAMILY	feucht markierte cth-Pflanzen-/Drogenmaterialform	sh (feucht) + cth (Blatt-/Krautteilfamilie) + Rest	nur für die bezeugte shcth-Restfamilie; Herbal konkretisiert zu Blatt-/Krautgut	NEW_PRODUCTIVE_WORKING_DEFAULT
+chcthy	DRY_CTH_MATERIAL	trockene CTH-Materialform; im Herbal trockenes Blatt-/Krautgut	ch+cth+y	global CTH-Drogengut; Blattlesung nur im Herbal-Kontext	NEW_PRIMARY_WORKING_WORD__SEMANTIC_PROVISIONAL
+shcthy	MOIST_CTH_MATERIAL	feuchte CTH-Materialform; im Herbal feuchtes Blatt-/Krautgut	sh+cth+y	global CTH-Drogengut; Blattlesung nur im Herbal-Kontext	NEW_PRIMARY_WORKING_WORD__SEMANTIC_PROVISIONAL
+chcthy kchol daiin	DRY_LEAF_HOT_DRY_DEGREE_CLAUSE	trockenes Blattgut: heiß-trocken, Grad III	ch+cth+y | k+ch+ol | d+a+III	nur am dreifach stabilen unmittelbaren f45r.3-Span	NEW_CONCRETE_LOCAL_CLAUSE
+shol daiin shcthy	MOIST_DEGREE_LEAF_CLAUSE	feuchtes Blattgut: feucht, Grad III	sh+ol | d+a+III | sh+cth+y	nur am dreifach stabilen unmittelbaren f93r.21-Span	NEW_CONCRETE_LOCAL_CLAUSE
+QUALITY_PREFIX+CTH_PART	PREFIXED_PART_FRAME	qualitätsmarkiertes CTH-Pflanzen-/Drogengut	ch|sh + cth + Rest	ch=trocken und sh=feucht; einfache k/t-Gegenstücke fehlen, tchcthy bleibt Singleton	NEW_COMPOSITIONAL_FRAME
+tchcthy	NESTED_COLD_DRY_CTH_PART	kalt-trockenes cth-Blatt-/Krautgut	t+ch+cth+y	ein dreifach exakter Beleg f80v.33; produktive Erweiterung erst nach Wiederholung	NEW_LOW_SINGLETON_DEFAULT
+oshctho	WRAPPED_MOIST_CTH_PART	im o-Rahmen feuchte cth-Pflanzenteilform; Endung o offen	o+sh+cth+o	f37v.21 in zwei Lesern exakt, RF1b verkürzt; Außenrahmen und Endung noch offen	NEW_LOW_SINGLETON_DEFAULT
+cth+R	CTH_MATERIAL_STEM	Pflanzen-/Drogenmaterialfamilie; im Herbal Blatt-/Krautmaterial	cth+Rest	ch=trocken,sh=feucht; e ist abhängig, o besitzt eine nackte CTH-Kopfreihe; beide bleiben lexikalisch OPEN und in Fließlesung stumm	NEW_PRODUCTIVE_DEFAULT__ORDERED_E_O_HIERARCHY
+o+cth+R	PREPARED_CTH_HEAD	Zubereitung/Ansatz aus CTH-Drogenmaterial; im Herbal Blatt-/Krautansatz	o+[cth+Rest]	konkreter GDT633-Default; e=Bindung und o=Zubereitung bleiben ersetzbar, falls ein besserer Sachkontrast erscheint	REVISED_V10_CONCRETE_DEFAULT
+e nach ch/sh	ATTRIBUTIVE_E_BINDING	bindet trocken/feucht attributiv an den folgenden Kopf; im deutschen Fließtext meist null	ch|sh+e+KOPF	konkreter GDT633-Default; e=Bindung und o=Zubereitung bleiben ersetzbar, falls ein besserer Sachkontrast erscheint	REVISED_V10_CONCRETE_DEFAULT
+ch/sh+e?+[o?+cth+R]	CONCRETE_E_O_CTH_HIERARCHY	trocken/feucht + attributive Bindung? + Zubereitung? + CTH-Material + Restform	Qualitätskern+e?+[o?+cth+Rest]	konkreter GDT633-Default; e=Bindung und o=Zubereitung bleiben ersetzbar, falls ein besserer Sachkontrast erscheint	REVISED_V10_CONCRETE_DEFAULT
+-y in CTH	CTH_BASE_FORM_CLOSURE	häufigster Abschluss der CTH-Grundform; kein eigenes Stoffwort	cth+y	ch=trocken,sh=feucht; e ist abhängig, o besitzt eine nackte CTH-Kopfreihe; beide bleiben lexikalisch OPEN und in Fließlesung stumm	NEW_PRODUCTIVE_DEFAULT__ORDERED_E_O_HIERARCHY
+ch-	DRY_QUALITY_SHELL_CORE	provisorisch trocken markierender linker Qualitätskern	ch+(e|o|eo)?	ch=trocken,sh=feucht; e ist abhängig, o besitzt eine nackte CTH-Kopfreihe; beide bleiben lexikalisch OPEN und in Fließlesung stumm	NEW_PRODUCTIVE_DEFAULT__ORDERED_E_O_HIERARCHY
+sh-	MOIST_QUALITY_SHELL_CORE	provisorisch feucht markierender linker Qualitätskern	sh+(e|o|eo)?	ch=trocken,sh=feucht; e ist abhängig, o besitzt eine nackte CTH-Kopfreihe; beide bleiben lexikalisch OPEN und in Fließlesung stumm	NEW_PRODUCTIVE_DEFAULT__ORDERED_E_O_HIERARCHY
+che-	DRY_ATTRIBUTIVE_SHELL	attributiv trocken	ch+e	konkreter GDT633-Default; e=Bindung und o=Zubereitung bleiben ersetzbar, falls ein besserer Sachkontrast erscheint	REVISED_V10_CONCRETE_DEFAULT
+she-	MOIST_ATTRIBUTIVE_SHELL	attributiv feucht	sh+e	konkreter GDT633-Default; e=Bindung und o=Zubereitung bleiben ersetzbar, falls ein besserer Sachkontrast erscheint	REVISED_V10_CONCRETE_DEFAULT
+cho-	DRY_PREPARATION_SHELL	trocken markierte Zubereitung	ch+o	konkreter GDT633-Default; e=Bindung und o=Zubereitung bleiben ersetzbar, falls ein besserer Sachkontrast erscheint	REVISED_V10_CONCRETE_DEFAULT
+sho-	MOIST_PREPARATION_SHELL	feucht markierte Zubereitung	sh+o	konkreter GDT633-Default; e=Bindung und o=Zubereitung bleiben ersetzbar, falls ein besserer Sachkontrast erscheint	REVISED_V10_CONCRETE_DEFAULT
+cheo-	DRY_BOUND_PREPARATION_SHELL	attributiv trocken markierte Zubereitung	ch+e+o	konkreter GDT633-Default; e=Bindung und o=Zubereitung bleiben ersetzbar, falls ein besserer Sachkontrast erscheint	REVISED_V10_CONCRETE_DEFAULT
+sheo-	MOIST_BOUND_PREPARATION_SHELL	attributiv feucht markierte Zubereitung	sh+e+o	konkreter GDT633-Default; e=Bindung und o=Zubereitung bleiben ersetzbar, falls ein besserer Sachkontrast erscheint	REVISED_V10_CONCRETE_DEFAULT
+checthy	DRY_BOUND_CTH_MATERIAL	trockenes CTH-Drogenmaterial; im Herbal trockenes Blatt-/Krautgut	ch+e+cth+y	konkreter GDT633-Default; e=Bindung und o=Zubereitung bleiben ersetzbar, falls ein besserer Sachkontrast erscheint	REVISED_V10_CONCRETE_DEFAULT
+shecthy	MOIST_BOUND_CTH_MATERIAL	feuchtes CTH-Drogenmaterial; im Herbal feuchtes Blatt-/Krautgut	sh+e+cth+y	konkreter GDT633-Default; e=Bindung und o=Zubereitung bleiben ersetzbar, falls ein besserer Sachkontrast erscheint	REVISED_V10_CONCRETE_DEFAULT
+chocthy	DRY_CTH_PREPARATION	trockene CTH-Drogenzubereitung; im Herbal trockene Blatt-/Krautzubereitung	ch+o+cth+y	konkreter GDT633-Default; e=Bindung und o=Zubereitung bleiben ersetzbar, falls ein besserer Sachkontrast erscheint	REVISED_V10_CONCRETE_DEFAULT
+shocthy	MOIST_CTH_PREPARATION	feuchte CTH-Drogenzubereitung; im Herbal feuchte Blatt-/Krautzubereitung	sh+o+cth+y	konkreter GDT633-Default; e=Bindung und o=Zubereitung bleiben ersetzbar, falls ein besserer Sachkontrast erscheint	REVISED_V10_CONCRETE_DEFAULT
+cheocthy	DRY_BOUND_CTH_PREPARATION	attributiv trockene CTH-Drogenzubereitung	ch+e+o+cth+y	konkreter GDT633-Default; e=Bindung und o=Zubereitung bleiben ersetzbar, falls ein besserer Sachkontrast erscheint	REVISED_V10_CONCRETE_DEFAULT
+sheocthy	MOIST_BOUND_CTH_PREPARATION	attributiv feuchte CTH-Drogenzubereitung	sh+e+o+cth+y	konkreter GDT633-Default; e=Bindung und o=Zubereitung bleiben ersetzbar, falls ein besserer Sachkontrast erscheint	REVISED_V10_CONCRETE_DEFAULT
+[ch|sh]+e?+o? | CTH	LEFT_SHELL_SURFACE_FRAME	geschriebener linker Block vor CTH; Bedeutungsanalyse hierarchisch ch/sh+e?+[o?+CTH]	linker Oberflächenblock | cth+Rest	ch=trocken,sh=feucht; e ist abhängig, o besitzt eine nackte CTH-Kopfreihe; beide bleiben lexikalisch OPEN und in Fließlesung stumm	NEW_PRODUCTIVE_DEFAULT__ORDERED_E_O_HIERARCHY
+ee nach ch/sh	EXTENDED_ATTRIBUTIVE_E_BINDING	erweiterte/zweite attributive Bindungsstufe	ch|sh+ee+KOPF	nur zwei CTH-Belege; Grad-/Intensitätsrival sichtbar	NEW_V10_CONCRETE_DEFAULT
+cth+y	CTH_BASE_FORM	CTH-Drogenmaterial, Grundform	cth+y	Herbal konkretisiert zu Blatt-/Krautgut	NEW_V10_CONCRETE_DEFAULT
+cth+ey	CTH_FORM_I	CTH-Drogenmaterial, Form I	cth+ey	Flexionsrival sichtbar	NEW_V10_CONCRETE_DEFAULT
+cth+eey	CTH_FORM_II	CTH-Drogenmaterial, Form II	cth+eey	Flexionsrival sichtbar	NEW_V10_CONCRETE_DEFAULT
+octhy	CTH_PREPARATION_BASE	CTH-Zubereitung/Ansatz, Grundform	o+cth+y	im Herbal Blatt-/Krautansatz	NEW_V10_CONCRETE_DEFAULT
+octhey	CTH_PREPARATION_FORM_I	CTH-Zubereitung/Ansatz, Form I	o+cth+ey	Flexionsrival sichtbar	NEW_V10_CONCRETE_DEFAULT
+octheey	CTH_PREPARATION_FORM_II	CTH-Zubereitung/Ansatz, Form II	o+cth+eey	VORHERSAGE, nicht beobachtet	NEW_V10_PREDICTED_ENTRY
+cheecthy	DRY_EXTENDED_BOUND_CTH	trockenes Blatt-/Krautgut mit erweiterter Bindungsstufe II	ch+ee+cth+y	f29r.1 dreifach stabil	NEW_V10_CONCRETE_DEFAULT
+sheecthey	MOIST_EXTENDED_BOUND_CTH_FORM_I	feuchtes CTH-Drogenmaterial, Form I, mit erweiterter Bindungsstufe II	sh+ee+cth+ey	f82v.36 dreifach stabil	NEW_V10_CONCRETE_DEFAULT
+p- (initial)	PULVIS_HEAD_HYPOTHESIS	Pulver	p+Träger/Wert	historische Initialhypothese; p-Drogengut bleibt Rivale	NEW_V11_EXPLORATORY_ATOM
+-p (terminal)	TERMINAL_P_PULVERFORM_HYPOTHESIS	Pulverform	Qualität+p	separate LOW-Hypothese; nicht aus initialem p abgeleitet	NEW_V11_EXPLORATORY_ATOM
+s- (initial)	SAL_HEAD_HYPOTHESIS	Salz	s+Träger/Wert	Samen/Saatgut bleibt direkter Rivale	NEW_V11_EXPLORATORY_ATOM
+r- (initial)	RADIX_HEAD_HYPOTHESIS	Wurzelstoff	r+Qualität/Träger	nur als aggressiver Anfangskopf	NEW_V11_EXPLORATORY_ATOM
+l- (initial)	LIQUOR_HEAD_HYPOTHESIS	Flüssigkeit	l+Qualität/Träger	l-Rahmen bleibt Rivale	NEW_V11_EXPLORATORY_ATOM
+a+l / o+l	L_MATERIAL_POLARITY	Substanz-/Materialträger	Trägervokal+L	a und o nicht gleichgesetzt	NEW_V11_EXPLORATORY_ATOM
+a+r / o+r	R_PART_POLARITY	Teil-/Portionsträger	Trägervokal+R	a und o nicht gleichgesetzt	NEW_V11_EXPLORATORY_ATOM
+aiin	TARGET_SURFACE_DEFAULT	Menge III	a+III	INHERITED_VALUE; Rivale: Grad oder Klasse III	NEW_V11_TARGET_DEFAULT
+chedy	TARGET_SURFACE_DEFAULT	getrockneter Zustand	ch+e+d+y	PRODUCTIVE_QUALITY; Rivale: trocken gebundene Form	NEW_V11_TARGET_DEFAULT
+cheo	TARGET_SURFACE_DEFAULT	trocken angesetzte Zubereitung	ch+e+o	BOUNDARY_CTH_SHELL; Rivale: trockene o-Rahmenform	NEW_V11_TARGET_DEFAULT
+cheocthey	TARGET_SURFACE_DEFAULT	trockene Drogenzubereitung, Form I	ch+e+o+cth+ey	INHERITED_CTH; Rivale: trockenes CTH-Gut im o-Rahmen	NEW_V11_TARGET_DEFAULT
+cheody	TARGET_SURFACE_DEFAULT	getrockneter Ansatz	ch+e+o+d+y	O_STATE_TRANSFER; Rivale: trockene innere-o-Zustandsform	NEW_V11_TARGET_DEFAULT
+chep	TARGET_SURFACE_DEFAULT	trockenes Pulver	ch+e+p_terminal	TERMINAL_P_PULVERFORM_HYPOTHESIS; Rivale: trockenes p-Drogengut; nicht vom initialen p abgeleitet	NEW_V11_TARGET_DEFAULT
+chety	TARGET_SURFACE_DEFAULT	trocken-kalte gebundene Form	ch+e+t+y	REVERSED_QUALITY_CORE; Rivale: gelerntes Ganzwort	NEW_V11_TARGET_DEFAULT
+chy	TARGET_SURFACE_DEFAULT	trocken, Grundform	ch+y	PRODUCTIVE_QUALITY; Rivale: trockene Grundstufe	NEW_V11_TARGET_DEFAULT
+ctheey	TARGET_SURFACE_DEFAULT	CTH-Drogenmaterial, Form II	cth+eey	INHERITED_CTH; Rivale: im Herbal Blatt-/Krautdroge, Form II	NEW_V11_TARGET_DEFAULT
+cthy	TARGET_SURFACE_DEFAULT	CTH-Drogenmaterial	cth+y	INHERITED_CTH; Rivale: im Herbal Blatt-/Krautgut	NEW_V11_TARGET_DEFAULT
+daiir@f85r1.21	TARGET_LOCUS_DEFAULT	Maß III	d+a+III; IT2a/RF1b daiin	nur f85r1.21; andere daiir-Vorkommen bleiben offen	NEW_V11_TARGET_LOCUS_DEFAULT
+daltedy	TARGET_SURFACE_DEFAULT	abgekühltes Material	d+al+t+e+d+y	L_CARRIER_STATE_TRANSFER; Rivale: kalte gebundene dal-Form	NEW_V11_TARGET_DEFAULT
+dolshedy	TARGET_SURFACE_DEFAULT	eingeweichtes Material	d+ol+sh+e+d+y	L_CARRIER_STATE_TRANSFER; Rivale: befeuchtetes Material	NEW_V11_TARGET_DEFAULT
+dory	TARGET_SURFACE_DEFAULT	abgemessene Portion	d+or+y	R_CARRIER_STATE_TRANSFER; Rivale: unmarkierter Teilwert	NEW_V11_TARGET_DEFAULT
+ety	TARGET_SURFACE_DEFAULT	gekühlt	e+t+y	LEADING_E_COLD_HYPOTHESIS; Rivale: kalt gebundene Form; gelerntes Ganzwort	NEW_V11_TARGET_DEFAULT
+kaiin	TARGET_SURFACE_DEFAULT	heiß, Grad III	k+a+III	INHERITED_VALUE; Rivale: Hitze-Klasse III	NEW_V11_TARGET_DEFAULT
+lkealy	TARGET_SURFACE_DEFAULT	erwärmte Flüssigkeit	l+k+e+al+y	LIQUOR_HEAD_HYPOTHESIS; Rivale: heiße l-Rahmenform	NEW_V11_TARGET_DEFAULT
+oaiin	TARGET_SURFACE_DEFAULT	Ansatzmenge III	o+a+III	O_VALUE_TRANSFER; Rivale: Zubereitung, Menge III	NEW_V11_TARGET_DEFAULT
+okaiin	TARGET_SURFACE_DEFAULT	heiß, Grad III, im Ansatzrahmen	o+k+a+III	INHERITED_VALUE; Rivale: o-Rahmen, Hitze III	NEW_V11_TARGET_DEFAULT
+olkam	TARGET_SURFACE_DEFAULT	heißes Material [terminal-M]	ol+k+a+m	OL_K_PLUS_TERMINAL_M; Rivale: OL-Kopf mit positionalem M unbekannter Funktion	NEW_V11_TARGET_DEFAULT
+olor	TARGET_SURFACE_DEFAULT	Zutat	o+l+o+r	DIRECT_OL_OR_COMPOUND; Rivale: Materialportion; gelerntes Ganzwort	NEW_V11_TARGET_DEFAULT
+oraiin	TARGET_SURFACE_DEFAULT	Portion III	o+r+a+III	DIRECT_OR_VALUE; Rivale: Nominalträger, Stufe III	NEW_V11_TARGET_DEFAULT
+otedy	TARGET_SURFACE_DEFAULT	gekühlter Ansatz	o+t+e+d+y	O_STATE_TRANSFER; Rivale: kalte o-Rahmen-Zustandsform	NEW_V11_TARGET_DEFAULT
+oty	TARGET_SURFACE_DEFAULT	kalter Ansatz, Grundform	o+t+y	O_QUALITY_TRANSFER; Rivale: kalte o-Rahmenform	NEW_V11_TARGET_DEFAULT
+paiin	TARGET_SURFACE_DEFAULT	Pulver, Menge III	p+a+III	PULVIS_HEAD_HYPOTHESIS; Rivale: p-Drogengut, Stufe III	NEW_V11_TARGET_DEFAULT
+posaiin	TARGET_SURFACE_DEFAULT	Salzpulver-Zubereitung III	posa+III; IT2a p+or+a+III	CROSS_READER_LEARNED_POSA_FORK; Rivale: IT2a Pulverportion III; Samenpulver III	NEW_V11_TARGET_DEFAULT
+qokaiin	TARGET_SURFACE_DEFAULT	heiß, Grad III	qo+k+a+III	INHERITED_VALUE; Rivale: qo-Rahmen, Hitze III	NEW_V11_TARGET_DEFAULT
+qokain	TARGET_SURFACE_DEFAULT	heiß, Grad II	qo+k+a+II	INHERITED_VALUE; Rivale: qo-Rahmen, Hitze II	NEW_V11_TARGET_DEFAULT
+qokal	TARGET_SURFACE_DEFAULT	heiße Substanz	qo+k+a+l	A_L_MATERIAL_POLARITY; Rivale: heiße L-Form	NEW_V11_TARGET_DEFAULT
+qokar	TARGET_SURFACE_DEFAULT	heiße Portion	qo+k+a+r	A_R_PART_POLARITY; Rivale: heißer Teil; heiße R-Form	NEW_V11_TARGET_DEFAULT
+qokchy	TARGET_SURFACE_DEFAULT	heiß-trocken	qo+k+ch+y	PRODUCTIVE_QUALITY; Rivale: qo-Rahmen, heiß-trocken	NEW_V11_TARGET_DEFAULT
+qokeedy	TARGET_SURFACE_DEFAULT	heißer Zustand, Bindungsstufe II	qo+k+ee+d+y	PRODUCTIVE_QUALITY; Rivale: heiße Grad-II-Form	NEW_V11_TARGET_DEFAULT
+qokeeedy	TARGET_SURFACE_DEFAULT	heißer Zustand, Bindungsstufe III	qo+k+eee+d+y	PRODUCTIVE_QUALITY; Rivale: heiße Grad-III-Form	NEW_V11_TARGET_DEFAULT
+qokeeo	TARGET_SURFACE_DEFAULT	heißer Ansatz, Bindungsstufe II	qo+k+ee+o	TERMINAL_O_E_LADDER; Rivale: heiße terminale o-Form	NEW_V11_TARGET_DEFAULT
+qotaiin	TARGET_SURFACE_DEFAULT	kalt, Grad III	qo+t+a+III	INHERITED_VALUE; Rivale: Kälte-Klasse III	NEW_V11_TARGET_DEFAULT
+qotainol	TARGET_SURFACE_DEFAULT	kaltes Material, Grad II	qotain+ol; IT2a/RF1b qotain | ol	TWO_READER_BOUNDARY_NORMALIZATION; Rivale: fusioniertes Ganzwort	NEW_V11_TARGET_DEFAULT
+qotchy	TARGET_SURFACE_DEFAULT	kalt-trocken	qo+t+ch+y	PRODUCTIVE_QUALITY; Rivale: qo-Rahmen, kalt-trocken	NEW_V11_TARGET_DEFAULT
+qoteey	TARGET_SURFACE_DEFAULT	kalt, Bindungsstufe II	qo+t+ee+y	PRODUCTIVE_QUALITY; Rivale: kalte Grad-II-Form	NEW_V11_TARGET_DEFAULT
+qotol	TARGET_SURFACE_DEFAULT	kaltes Material	qo+t+ol	INHERITED_OL; Rivale: kalte Zustandsform	NEW_V11_TARGET_DEFAULT
+qoty	TARGET_SURFACE_DEFAULT	kalt, Grundform	qo+t+y	PRODUCTIVE_QUALITY; Rivale: qo-Rahmen, kalt	NEW_V11_TARGET_DEFAULT
+rcheald	TARGET_SURFACE_DEFAULT	getrockneter Wurzelstoff	r+ch+e+al+d; IT2a/RF1b rcheold	RADIX_HEAD_PLUS_L_CARRIER; Rivale: getrockneter Pflanzenteil	NEW_V11_TARGET_DEFAULT
+saiin	TARGET_SURFACE_DEFAULT	Salz, Menge III	s+a+III	SAL_HEAD_HYPOTHESIS; Rivale: Samen, Menge III	NEW_V11_TARGET_DEFAULT
+she	TARGET_SURFACE_DEFAULT	feucht, attributiv gebunden	sh+e	INHERITED_E_SHELL; Rivale: Feuchtestufe I	NEW_V11_TARGET_DEFAULT
+sheey	TARGET_SURFACE_DEFAULT	feucht, Bindungsstufe II	sh+ee+y	PRODUCTIVE_QUALITY; Rivale: Feuchtegrad II	NEW_V11_TARGET_DEFAULT
+sheol	TARGET_SURFACE_DEFAULT	feuchtes Material	sh+e+ol	OL_QUALITY_TRANSFER; Rivale: feucht gebundene OL-Form	NEW_V11_TARGET_DEFAULT
+shey	TARGET_SURFACE_DEFAULT	feucht, attributiv gebunden	sh+e+y	PRODUCTIVE_QUALITY; Rivale: Feuchteform I	NEW_V11_TARGET_DEFAULT
+sho	TARGET_SURFACE_DEFAULT	feuchter Ansatz	sh+o	INHERITED_PREPARATION_SHELL; Rivale: feuchte o-Rahmenform	NEW_V11_TARGET_DEFAULT
+shokaiin	TARGET_SURFACE_DEFAULT	feucht-heißer Ansatz, Grad III	sh+o+k+a+III	COMPOSED_PREPARATION_VALUE; Rivale: shoka-Gut, Stufe III	NEW_V11_TARGET_DEFAULT
+sol	TARGET_SURFACE_DEFAULT	Salzsubstanz	s+ol	SAL_HEAD_HYPOTHESIS; Rivale: Samenmaterial	NEW_V11_TARGET_DEFAULT
+p@GDT635_INITIAL_HEAD	SCOPED_INITIAL_MATERIA_HEAD	Pulver/Pulverform	p+vollständiger Rest	nur tokeninitial; nicht Einzeichen-p, internes oder terminales p; sh ausgeschlossen	NEW_V12_SCOPED_PRIMARY_HEAD
+s@GDT635_INITIAL_HEAD	SCOPED_INITIAL_MATERIA_HEAD	Samen/Saatgut	s+vollständiger Rest	nur tokeninitial; nicht Einzeichen-s, internes oder terminales s; sh ausgeschlossen	NEW_V12_SCOPED_PRIMARY_HEAD
+r@GDT635_INITIAL_HEAD	SCOPED_INITIAL_MATERIA_HEAD	Wurzel/Wurzeldroge	r+vollständiger Rest	nur tokeninitial; nicht Einzeichen-r, internes oder terminales r; sh ausgeschlossen	NEW_V12_SCOPED_PRIMARY_HEAD
+l@GDT635_INITIAL_HEAD	SCOPED_INITIAL_MATERIA_HEAD	Drogenholz/holziger Pflanzenteil	l+vollständiger Rest	nur tokeninitial; nicht Einzeichen-l, internes oder terminales l; sh ausgeschlossen	NEW_V12_SCOPED_PRIMARY_HEAD
+paiin@GDT635_HEAD_FORM	SCOPED_CONCRETE_HEAD_FORM	Pulver, Typ/Charge III	p+aiin	tokeninitiale Ganzform; 7 Vorkommen; Rivale: potio oder pilula	NEW_V12_ATTESTED_CONCRETE_DEFAULT
+saiin@GDT635_HEAD_FORM	SCOPED_CONCRETE_HEAD_FORM	Samen/Saatgut, Typ/Charge III	s+aiin	tokeninitiale Ganzform; 109 Vorkommen; Rivale: sal; danach succus oder species	NEW_V12_ATTESTED_CONCRETE_DEFAULT
+raiin@GDT635_HEAD_FORM	SCOPED_CONCRETE_HEAD_FORM	Wurzel, Typ/Charge III	r+aiin	tokeninitiale Ganzform; 62 Vorkommen; Rivale: resina	NEW_V12_ATTESTED_CONCRETE_DEFAULT
+laiin@GDT635_HEAD_FORM	SCOPED_CONCRETE_HEAD_FORM	Drogenholz, Typ/Charge III	l+aiin	tokeninitiale Ganzform; 13 Vorkommen; Rivale: liquor oder Auszug	NEW_V12_ATTESTED_CONCRETE_DEFAULT
+pchedy@GDT635_HEAD_FORM	SCOPED_CONCRETE_HEAD_FORM	getrocknetes Pulver	p+chedy	tokeninitiale Ganzform; 35 Vorkommen; Rivale: potio oder pilula	NEW_V12_ATTESTED_CONCRETE_DEFAULT
+schedy@GDT635_HEAD_FORM	SCOPED_CONCRETE_HEAD_FORM	getrocknete Samen/Saat	s+chedy	tokeninitiale Ganzform; 7 Vorkommen; Rivale: sal; danach succus oder species	NEW_V12_ATTESTED_CONCRETE_DEFAULT
+rchedy@GDT635_HEAD_FORM	SCOPED_CONCRETE_HEAD_FORM	getrocknete Wurzel	r+chedy	tokeninitiale Ganzform; 10 Vorkommen; Rivale: resina	NEW_V12_ATTESTED_CONCRETE_DEFAULT
+lchedy@GDT635_HEAD_FORM	SCOPED_CONCRETE_HEAD_FORM	getrocknetes Drogenholz	l+chedy	tokeninitiale Ganzform; 116 Vorkommen; Rivale: liquor oder Auszug	NEW_V12_ATTESTED_CONCRETE_DEFAULT
+pshedy@GDT635_HEAD_FORM	SCOPED_CONCRETE_HEAD_FORM	angefeuchtetes Pulver/Paste	p+shedy	tokeninitiale Ganzform; 3 Vorkommen; Rivale: potio oder pilula	NEW_V12_ATTESTED_CONCRETE_DEFAULT
+sshedy@GDT635_HEAD_FORM	SCOPED_CONCRETE_HEAD_FORM	eingeweichte Samen/Saat	s+shedy	tokeninitiale Ganzform; 6 Vorkommen; Rivale: sal; danach succus oder species	NEW_V12_ATTESTED_CONCRETE_DEFAULT
+rshedy@GDT635_HEAD_FORM	SCOPED_CONCRETE_HEAD_FORM	eingeweichte Wurzel	r+shedy	tokeninitiale Ganzform; 5 Vorkommen; Rivale: resina	NEW_V12_ATTESTED_CONCRETE_DEFAULT
+lshedy@GDT635_HEAD_FORM	SCOPED_CONCRETE_HEAD_FORM	eingeweichtes Drogenholz	l+shedy	tokeninitiale Ganzform; 38 Vorkommen; Rivale: liquor oder Auszug	NEW_V12_ATTESTED_CONCRETE_DEFAULT
+pol@GDT635_HEAD_FORM	SCOPED_CONCRETE_HEAD_FORM	Pulverstoff	p+ol	tokeninitiale Ganzform; 16 Vorkommen; Rivale: potio oder pilula	NEW_V12_ATTESTED_CONCRETE_DEFAULT
+sol@GDT635_HEAD_FORM	SCOPED_CONCRETE_HEAD_FORM	Samenmaterial/Saatgut	s+ol	tokeninitiale Ganzform; 57 Vorkommen; Rivale: sal; danach succus oder species	NEW_V12_ATTESTED_CONCRETE_DEFAULT
+rol@GDT635_HEAD_FORM	SCOPED_CONCRETE_HEAD_FORM	Wurzelstoff	r+ol	tokeninitiale Ganzform; 20 Vorkommen; Rivale: resina	NEW_V12_ATTESTED_CONCRETE_DEFAULT
+lol@GDT635_HEAD_FORM	SCOPED_CONCRETE_HEAD_FORM	Holzstoff	l+ol	tokeninitiale Ganzform; 35 Vorkommen; Rivale: liquor oder Auszug	NEW_V12_ATTESTED_CONCRETE_DEFAULT
+por@GDT635_HEAD_FORM	SCOPED_CONCRETE_HEAD_FORM	Pulverportion	p+or	tokeninitiale Ganzform; 7 Vorkommen; Rivale: potio oder pilula	NEW_V12_ATTESTED_CONCRETE_DEFAULT
+sor@GDT635_HEAD_FORM	SCOPED_CONCRETE_HEAD_FORM	Samenportion	s+or	tokeninitiale Ganzform; 43 Vorkommen; Rivale: sal; danach succus oder species	NEW_V12_ATTESTED_CONCRETE_DEFAULT
+ror@GDT635_HEAD_FORM	SCOPED_CONCRETE_HEAD_FORM	Wurzelportion	r+or	tokeninitiale Ganzform; 12 Vorkommen; Rivale: resina	NEW_V12_ATTESTED_CONCRETE_DEFAULT
+lor@GDT635_HEAD_FORM	SCOPED_CONCRETE_HEAD_FORM	Holzportion	l+or	tokeninitiale Ganzform; 38 Vorkommen; Rivale: liquor oder Auszug	NEW_V12_ATTESTED_CONCRETE_DEFAULT

@@ -284,8 +284,8 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-GDT634 gives8 old lines69 token-aligned glosses/58 types,zero unassigned/filler;quality=4950/75/176,E0–3=907/2275/1663/105. Initial p/s/r/l=Pulver/Salz/Wurzel/Flüssigkeit;terminal p and posa stay separate LOW hypotheses. Only Herbal CTH=Blatt/Kraut;terminal m is value-open;daiir→daiin only at f85r1.21. L/R A/O-shared bodies=115/131;V11=76 unchanged+56 new=132;1002 checks. Reader51 exact/53 ZL-split-normalized excludes inverse fusion/glyph forks.
-Next GDT635 uses no new page:exact same-remainder swaps for initial p/s/r/l,distinct from GDT418 workshop atoms and terminal/internal signs;translate matched lines tokenwise and retain a head only when inherited rest meanings stay coherent. Prioritize p/s;keep r/l rival. No Herbal/local-reader globalization or generic process prose.
+GDT635 keeps179 pages and separates initial p/s/r/l from sh,standalone,internal,terminal and GDT418 signs. Counts=503/801/332/1224;760 exact bodies,144 shared,24 four-way. Primary heads:p=pulvis/Pulver,s=semen/Samen,r=radix/Wurzel,l=lignum/Drogenholz;sal,resina,liquor/extract remain rivals. Bodies aiin/chedy/shedy/ol/or give20/20 concrete cells(639 tokens,477 reader-exact);10 spans/22 tokens are fully glossed(7 exact,8 split-normalized). p/s are entry heads,r/l internal ingredient heads;headed aIII=type/batchIII,d+aIII=dose/measureIII. V12=132 unchanged+24 scoped=156;17773 checks/16-output byte replay pass.
+Next GDT636 gives the other19 four-way bodies short concrete values on the same material. Preserve both head subclasses;no generic prose,GDT418 values,new pages/images or local globalization.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`
