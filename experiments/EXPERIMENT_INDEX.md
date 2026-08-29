@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **627**
-- Experiment-associated tracked files: **9,860** (1.0 GiB)
-- Structured GDT337+ experiments: **292**
+- Experiments indexed: **628**
+- Experiment-associated tracked files: **9,882** (1.0 GiB)
+- Structured GDT337+ experiments: **293**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT630 | GDT630_outer_carrier_attachment | `BILATERAL_PART_QUALITY_DEGREE_FRAMES__F8_MOIST_III_REPRODUCTIVE_PART_BOUNDARY_BRIDGE` | [report](../experiments/yolo/gdt630_outer_carrier_attachment/REPORT.md) | 22 | 193.3 KiB | 5 | STRUCTURED_YOLO |
 | GDT629 | GDT629_part_quality_degree_clause | `FUSED_SEPARATE_BOUNDARY_EQUIVALENCE__TWO_EXACT_PART_DRY_III_CLAUSES__DIRECT_PART_CLAUSE_READER_VARIANT` | [report](../experiments/yolo/gdt629_part_quality_degree_clause/REPORT.md) | 19 | 115.0 KiB | 5 | STRUCTURED_YOLO |
 | GDT628 | GDT628_chol_measure_frame | `OL_QUALITY_CARRIER_LATTICE__CHOL_DRY_DEGREES_I_IV__D_CONTEXT_SPLIT` | [report](../experiments/yolo/gdt628_chol_measure_frame/REPORT.md) | 25 | 708.5 KiB | 4 | STRUCTURED_YOLO |
 | GDT627 | GDT627_value_head_role_atlas | `QUALITY_DEGREE_SERIES_PROMOTED__D_FREE_MEASURE_HEAD_PROMOTED__A_VALUE_LINKER` | [report](../experiments/yolo/gdt627_value_head_role_atlas/REPORT.md) | 23 | 457.3 KiB | 3 | STRUCTURED_YOLO |

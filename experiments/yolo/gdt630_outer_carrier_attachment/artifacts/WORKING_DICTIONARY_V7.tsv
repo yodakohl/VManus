@@ -1,0 +1,39 @@
+entry	kind	working_meaning_de	composition	context_rule	status
+a	VALUE_SLOT_LINKER	öffnet nach einem Kopf eine Grad-/Maßstelle; in Übersetzung meist Doppelpunkt oder null	KOPF+a+(n|in|iin|iiin)	produktiv	NEW_PRIMARY_DEFAULT
+n/in/iin/iiin	VALUE_MINIMS	I/II/III/IV	terminaler Schlussstrich mit 0/1/2/3 inneren i-Minims	nach a	INHERITED_PRIMARY_DEFAULT
+d	DETACHED_VALUE_HEAD	freier Wert-/Gradträger	d+a+Wert	nach OL-Qualität Grad; nach OR-/Partterm Maß/Portion oder Grad	REVISED_CONTEXTUAL_DEFAULT
+dan/dain/daiin/daiiin	CONTEXTUAL_VALUE_SERIES	Grad- oder Maßwert I/II/III/IV	d+a+I/II/III/IV	nach OL-Qualität Grad I-IV; nach OR-/Partterm Menge oder Grad I-IV	REVISED_CONTEXTUAL_DEFAULT
+kan/kain/kaiin/kaiiin	QUALITY_DEGREE_SERIES	heiß, Grad I/II/III/IV	k+a+I/II/III/IV	Qualitätscode	NEW_PRIMARY_DEFAULT
+tan/tain/taiin/taiiin	QUALITY_DEGREE_SERIES	kalt, Grad I/II/III/IV	t+a+I/II/III/IV	Qualitätscode	NEW_PRIMARY_DEFAULT
+chan/chain/chaiin/chaiiin	QUALITY_DEGREE_SERIES	trocken, Grad I/II/III/IV	ch+a+I/II/III/IV	Qualitätscode	NEW_PRIMARY_DEFAULT
+shan/shain/shaiin/shaiiin	QUALITY_DEGREE_SERIES	feucht, Grad I/II/III/IV	sh+a+I/II/III/IV	Qualitätscode	NEW_PRIMARY_DEFAULT
+okan/okain/okaiin/okaiiin	QUALITY_DEGREE_SERIES	heiß im o-Rahmen, Grad I/II/III/IV	ok+a+I/II/III/IV	Qualitätscode	NEW_PRIMARY_DEFAULT
+otan/otain/otaiin/otaiiin	QUALITY_DEGREE_SERIES	kalt im o-Rahmen, Grad I/II/III/IV	ot+a+I/II/III/IV	Qualitätscode	NEW_PRIMARY_DEFAULT
+qokan/qokain/qokaiin/qokaiiin	QUALITY_DEGREE_SERIES	heiß im qo-Qualitätsrahmen, Grad I/II/III/IV	qok+a+I/II/III/IV	Qualitätscode	NEW_PRIMARY_DEFAULT
+qotan/qotain/qotaiin/qotaiiin	QUALITY_DEGREE_SERIES	kalt im qo-Qualitätsrahmen, Grad I/II/III/IV	qot+a+I/II/III/IV	Qualitätscode	NEW_PRIMARY_DEFAULT
+cthan/cthain/cthaiin	PART_VALUE_SERIES	Blatt-/oberirdisches Drogengut, Menge/Grad/Klasse I/II/III	cth+a+Wert	Herbal	INHERITED_WITH_VALUE_READER
+chorain/choraiin	PART_VALUE_SERIES	Blüten-/Pflanzenteil, Menge/Grad/Klasse II/III	chor+a+Wert	vor allem Herbal	INHERITED_WITH_VALUE_READER
+daiin	CONTEXTUAL_VALUE_III	Grad- oder Maßwert III	d+a+III	nach OL-Qualität Grad III; nach OR-/Partterm drei Portionen oder Grad III	REVISED_CONTEXTUAL_DEFAULT
+ol	QUALITY_STATE_MATERIAL_CARRIER	Eigenschafts-/Zustands-/Materialträger; als nacktes Wort Gut/Ansatz	QUALITY_CORE+ol	mit Qualitätskern flüssig meist ohne eigenes deutsches Wort	NEW_PRIMARY_DEFAULT
+or	NOMINAL_PART_CARRIER	Teil-/Nominalträger; genaue Basisbedeutung offen	ROOT+or	chor/shor behalten konkrete Partlesungen	NEW_CONTEXT_SPLIT
+chol	DRY_OL_FORM	trocken; nominal trockenes Gut/Material	ch+ol	vor d-Wert: trocken in Grad I-IV	NEW_PRIMARY_DEFAULT
+shol	MOIST_OL_FORM	feucht; nominal feuchtes Gut/Material	sh+ol	vor d-Wert: feucht in Grad II/III	NEW_PRIMARY_DEFAULT
+kol	HOT_OL_FORM	heiß; nominal heißes Gut/Material	k+ol	vor d-Wert: heiß in diesem Grad	NEW_PRIMARY_DEFAULT
+tol	COLD_OL_FORM	kalt; nominal kaltes Gut/Material	t+ol	vor d-Wert: kalt in diesem Grad	NEW_PRIMARY_DEFAULT
+kchol/kshol/tchol/tshol	PAIRED_QUALITY_OL_FORMS	heiß-trocken/heiß-feucht/kalt-trocken/kalt-feucht	k|t + ch|sh + ol	d-Wert danach ist Qualitätsgrad	NEW_PRIMARY_DEFAULT
+o-/qo- + OL-Form	SCOPED_QUALITY_OL_FORM	dieselbe Qualität im o-/qo-Rahmen	o|qo + QUALITY_CORE + ol	Wrapper bleibt hörbar nur wenn nötig	NEW_PRIMARY_DEFAULT
+cholaiin	DIRECT_QUALITY_VALUE	trocken, Grad III	chol+a+III	direkter Wertanschluss	NEW_CONCRETE_READING
+choldaiin	FUSED_FREE_VALUE	trocken, Grad III	chol+d+a+III	expliziter d-Träger im selben Token	NEW_CONCRETE_READING
+chol dan/dain/daiin/daiiin	SEPARATE_QUALITY_DEGREE	trocken, Grad I/II/III/IV	chol | d+a+I/II/III/IV	expliziter d-Träger als eigenes Token	NEW_CONCRETE_READING
+chor	PART_OR_FORM	Pflanzen-/Reproduktionsteil	gelernte Partform; ch+or Qualitätsrival	vor d-Wert standardmäßig lokale Menge/Grad, nicht chol-Trockenphrase	INHERITED_CONTEXT_SPLIT
+shor	PART_OR_FORM	Blüten-/Fruchtstand; reproduktiver Teil	gelernte Partform; sh+or Qualitätsrival	vor d-Wert standardmäßig lokale Menge/Grad	INHERITED_CONTEXT_SPLIT
+chor cholaiin	PART_DIRECT_DRY_III_READER_VARIANT	Pflanzen-/Reproduktionsteil: trocken, Grad III	chor | ch+ol+a+III	f27r.6 nur ZL3b direkt; IT2a/RF1b tragen zusätzliches ch	PROVISIONAL_DIRECT_CLAUSE
+chor chol daiin	PART_SEPARATE_DRY_III_CLAUSE	Pflanzen-/Reproduktionsteil: trocken, Grad III	chor | ch+ol | d+a+III	f21r.12 und f32v.10 dreifach exakt; Dosisrival bleibt	NEW_PRIMARY_CLAUSE
+choldaiin|chol daiin	FUSED_SEPARATE_BOUNDARY_EQUIVALENCE	trocken, Grad III	ch+ol+d+a+III | ch+ol | d+a+III	f49r.6 und f100r.22 wechseln nur die Wortgrenze	NEW_EXACT_BOUNDARY_BRIDGE
+cholchaiin|chol chaiin	REDUPLICATED_DRY_III_READER_VARIANT	trockenes Gut: trocken, Grad III	ch+ol(+|space)ch+a+III	f27r.6 IT2a/RF1b; nicht mit reinem Spacing verwechseln	NEW_READER_VARIANT
+sholdaiin|shol daiin	MOIST_III_BOUNDARY_EQUIVALENCE	feucht, Grad III	sh+ol+d+a+III | sh+ol | d+a+III	f8r.9 wechselt am selben Span nur die Leser-Wortgrenze	NEW_EXACT_BOUNDARY_BRIDGE
+sholdaiin shor|shol daiin shor	POSTPOSED_REPRODUCTIVE_PART_CLAUSE	Blüten-/Fruchtstand: feucht, Grad III	sh+ol(+|space)d+a+III | shor	f8r.9 dreifach grenznormalisiert; Qualität steht vor Part	NEW_PRIMARY_CLAUSE
+chol daiin cthy	POSTPOSED_LEAF_PART_CLAUSE	Blattgut/Blattdroge: trocken, Grad III	ch+ol | d+a+III | cthy	f3r.3 dreifach exakt; f15v.11 Zielspan ebenfalls dreifach exakt	NEW_PRIMARY_CLAUSE
+cthy qokol daiin	PREPOSED_LEAF_PART_CLAUSE	Blattgut/Blattdroge: im qo-Rahmen heiß, Grad III	cthy | qo+k+ol | d+a+III	f22v.8 dreifach exakt; Part steht vor Qualität	NEW_PRIMARY_CLAUSE
+OL_QUALITY dN CTH_PART	POSTPOSED_PART_FRAME	Blatt-/Krautteilform: Qualität im Grad N	QUALITY_CORE+ol | d+a+N | cth*	nur bei unmittelbar sichtbarem cth-Partslot; Rest bleibt OPEN	NEW_COMPOSITIONAL_FRAME
+CTH_PART OL_QUALITY dN	PREPOSED_PART_FRAME	Blatt-/Krautteilform: Qualität im Grad N	cth* | QUALITY_CORE+ol | d+a+N	nur bei unmittelbar sichtbarem cth-Partslot; Rest bleibt OPEN	NEW_COMPOSITIONAL_FRAME

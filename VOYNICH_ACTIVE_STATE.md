@@ -15233,3 +15233,42 @@ all28 V5 rows and adds four clause/boundary entries. GDT629 passes132 checks.
 Next compare the outer attachment of all15 fused OL+dN expressions with the120
 separate OL dN expressions,using only admitted material,to seek recurrent
 visible part/stuff heads beyond chor rather than inventing a hidden carrier.
+
+## GDT630 binds visible parts on both sides of quality-degree cells
+
+GDT630 reconstructs every15 fused and120 separated lattice-base d-value
+expression on the same guarded179-page panel. The first correction is
+semantic:only6 fused and80 separated expressions are core-bearing OL quality
+phrases. Eight fused plus11 separated cases have bare ol,and1 fused plus29
+separated cases are OR nominal/part carriers. Thus86,not135,immediately carry a
+hot/cold/dry/moist degree;the19 bare-OL and30 OR cases retain open
+value/amount/class readings.
+
+All six observed fused base/value cells have separate counterparts,56 events
+total. Fused tokens are9/15 exact and13/15 boundary-normalized across the
+three alternate readers;separate phrases are93/120 exact and98/120 normalized.
+Four fused-source loci and four separate-source loci preserve the same
+three-reader character span while changing fusion. No fused cell and its
+separate counterparts share a lexical immediate outer neighbour. Fusion is
+therefore a selective spelling of the inner BASE+dN phrase,not a complete
+hidden-carrier clause. Fourteen of15 fusions are III and one II,so no free I-IV
+fusion rule is added.
+
+Thirty-three known part contacts occur within distance three,but only eleven
+are immediate core-quality attachments:ten separate and f8r.9 fused. They span
+eleven pages,with5 part-before-quality and6 quality-before-part;8 clauses are
+triple-exact and9 boundary-normalized. New concrete readings include
+`chor qotol daiin=plant/reproductive part:cold III in qo frame`,
+`cthy qokol daiin=leaf drug:hot III in qo frame`,twice
+`chol daiin cthy=leaf drug:dry III`,and
+`sholdaiin shor|shol daiin shor=reproductive head:moist III`. The last is the
+first fused quality phrase with an immediate visible part. A layout reading as
+adjacent technical cells and a separated-form dose remain explicit rivals.
+
+V7 retains all32 V6 entries and adds six boundary/clause/frame rows. `chcthy`
+twice precedes a core-quality degree and becomes the next composition target
+(`ch+cthy=dry leaf material`),not a promoted lexeme;`qotor` remains the best
+repeated open nominal head. GDT630 passes179 checks. Next test chcthy against
+the complete inherited cth family and analogous k/t/sh+cth forms on admitted
+material only;open no new page/image and do not treat substring resemblance as
+proof.
