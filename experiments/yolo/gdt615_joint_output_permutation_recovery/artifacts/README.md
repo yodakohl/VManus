@@ -23,3 +23,18 @@ inherited downstream gates, and the 28,101-entry train-only substring table
 
 Transient work directories, timing diagnostics, PIDs, and compiler binaries
 are not public scored artifacts.
+
+`stage1/` is the terminal train-only release:
+
+- `PRIMARY_RESULT.json`: exact 64-variable Boolean/Z3 necessary bound and its
+  subset-minimal two-clause UNSAT core;
+- `INDEPENDENT_RESULT.json`: separately implemented exhaustive/combinatorial
+  reconstruction in a still larger admitted assignment space;
+- `CONTRACT_AUDIT.json`: independent paid/default two-case reading audit;
+- `STAGE1_RESULT.json`: compact registered terminal decision and `Ey→hoi`
+  witness;
+- `STAGE1_BUNDLE.json` and `STAGE1_VALIDATION.json`: source/evidence hashes and
+  54-check direct replay.
+
+No actual paid locations, W0/W1/W2 traces, held result, oracle, or recovery
+artifact exists because the more permissive Stage-1 necessary bound is UNSAT.

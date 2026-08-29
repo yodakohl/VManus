@@ -68,6 +68,7 @@ def main() -> int:
         in {
             "REGISTERED_UNSCORED",
             "STAGE0_MAPPING_CERTIFICATE_PASS__STAGE1_NOT_RUN",
+            "MAPPING_BOUND_PASS__FULL_WORLD_INFEASIBLE",
         },
     )
     check("sealed_f84", manifest["sealed_data"]["f84"] == "FORBIDDEN")
@@ -170,7 +171,14 @@ def main() -> int:
     if stage0_commit.is_file():
         from stage0_validate import main as validate_stage0
 
-        return validate_stage0([])
+        status = validate_stage0([])
+        if status:
+            return status
+        stage1_result = ART / "stage1/STAGE1_RESULT.json"
+        if stage1_result.is_file():
+            from stage1_validate import main as validate_stage1
+
+            return validate_stage1([])
     return 0
 
 

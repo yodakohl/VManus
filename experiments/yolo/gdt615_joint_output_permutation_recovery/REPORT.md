@@ -1,22 +1,49 @@
-# GDT615 Stage-0 report — the joint binding clears the necessary bound
+# GDT615 report — the joint binding clears Stage 0 but cannot form W0
 
 Date: 2026-08-29
 
 ## Decision
 
-`STAGE0_MAPPING_CERTIFICATE_PASS__STAGE1_NOT_RUN`
+`MAPPING_BOUND_PASS__FULL_WORLD_INFEASIBLE`
 
 The complete registered same-role card-permutation space has one canonical
 optimum under the prospective train-only hierarchy. It places 55/64 directed
 merge renders directly inside the 28,101 frozen train substrings. The nine
 remaining merges have an exact inclusive-DAG cover minimum of four, below the
-registered maximum of eight. This opens Stage 1; it does not establish that a
-complete grammar world exists.
+registered maximum of eight. That Stage-0 result opened Stage 1, but the fixed
+mapping cannot satisfy Stage 1's paid-child counterpart gate. No complete W0
+train world exists under the registered contract.
 
 The immutable Stage-0 mapping commit is
 `edb909f41ced2c17e5b8cbe55189adb5736dc03b3893bfc6e6582c46b443a262`.
-Every Stage-1 process must consume that exact hash. No next-best mapping is
-available inside GDT615 if a downstream gate fails.
+Every Stage-1 process consumed that exact hash. No next-best mapping is
+available inside GDT615 after the downstream gate failed.
+
+## Terminal Stage-1 bound
+
+The failure is the two-case contradiction at merge rank 14, `Ey`:
+
+- the fixed primitive mapping gives `E→ho` and `y→i`, so its unoverridden
+  direct child composition is `hoi`;
+- `hoi` is absent from the complete 28,101-entry train-substring table;
+- `Ey` is raw-unsupported and its inclusive recursive merge subtree is the
+  singleton `{14}`, so coverage forces rank 14 to be an actual paid location;
+- a paid location must directly expose its unoverridden child composition,
+  so the missing `hoi` span forbids rank 14 from being paid.
+
+The primary Boolean/Z3 model reports UNSAT with the subset-minimal core
+`E14_paid_requires_train_child_span` plus
+`U14_raw_unsupported_requires_paid_subtree`. Dropping either clause is SAT.
+A separately implemented combinatorial proof reaches the same contradiction
+even after admitting every other node and omitting paid-card roles, outputs,
+licenses, grammar, and tiling. A third contract-only two-case audit confirms
+that both the default and paid readings fail and that the only readings which
+avoid the result change a registered gate.
+
+This necessary bound is more permissive than the full Stage-1 solver. Its
+UNSAT result therefore terminates GDT615 without selecting actual paid
+locations or constructing W0, W1, or W2. Held, LM-confirm, oracle, recovery,
+Voynich target data, f84, and f84r were not opened.
 
 ## Exact optimum
 
@@ -118,18 +145,16 @@ The earlier 1,490,756-evaluation scout also found 55/4 repeatedly, but it did
 not prove optimality and did not select the lexicographically canonical key.
 It is published only as auxiliary search history.
 
-## Scope and next step
+## Scope and consequence
 
 No held, LM-confirm, Voynich target, f84, or f84r data entered Stage 0. No
 Voynich unit, language, word, plaintext, object, operation, or meaning is
 assigned here.
 
-Stage 1 must now use train only to choose exactly eight legal paid locations,
-assign the fixed four short and four macro cards, and construct all ordered
-traces and top-level tilings for W0. Stage 2 must construct W1 and W2. The
-complete three-world bundle and actual paid locations must be hash-committed
-before held is opened once. A failure ends GDT615; it cannot trigger a second
-Stage-0 binding.
+GDT615 ends here. It cannot try a second Stage-0 binding. A successor may use a
+new experiment ID to choose the primitive mapping jointly with the newly
+identified paid-child eligibility condition; that would be a genuinely
+stronger search, not a reinterpretation of this result.
 
 ## Reproduction
 
@@ -138,9 +163,15 @@ Install `z3-solver==4.15.3.0` and a C++20 compiler, then run:
 ```bash
 python3 experiments/yolo/gdt615_joint_output_permutation_recovery/src/run.py \
   --output-root gdt615-stage0-reproduction
+python3 experiments/yolo/gdt615_joint_output_permutation_recovery/src/stage1/primary_bound.py \
+  --output experiments/yolo/gdt615_joint_output_permutation_recovery/artifacts/stage1/PRIMARY_RESULT.json
+python3 experiments/yolo/gdt615_joint_output_permutation_recovery/src/stage1/independent_bound.py
+python3 experiments/yolo/gdt615_joint_output_permutation_recovery/src/stage1/contract_audit.py \
+  --output experiments/yolo/gdt615_joint_output_permutation_recovery/artifacts/stage1/CONTRACT_AUDIT.json
 python3 experiments/yolo/gdt615_joint_output_permutation_recovery/src/validate.py
 ```
 
 The stable public bundle is listed in `artifacts/stage0/STAGE0_BUNDLE.json`;
-transient timing diagnostics, PIDs, compiler binaries, and duplicate work
+the terminal evidence bundle is `artifacts/stage1/STAGE1_BUNDLE.json`.
+Transient timing diagnostics, PIDs, compiler binaries, and duplicate work
 directories are deliberately excluded.

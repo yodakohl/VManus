@@ -1,0 +1,623 @@
+{
+  "alternative_readings": [
+    {
+      "changes_a_registered_gate": false,
+      "description": "Removing a paid override at the audited node may retain paid overrides strictly below it.",
+      "reading_id": "EFFECTIVE_DESCENDANT_OVERRIDES_REMAIN_IN_COUNTERPART",
+      "reason": "Ey has no proper merge descendant, so both readings render ho+i=hoi.",
+      "removes_the_singleton_Ey_contradiction": false
+    },
+    {
+      "changed_contract_clauses": [
+        "DEFAULT_EXACT_CHILD_SPAN",
+        "PAID_CHILD_UNOVERRIDDEN_PARSE",
+        "PAID_CHILD_COMPOSITION_PRESENT"
+      ],
+      "changes_a_registered_gate": true,
+      "description": "Count the left and right children separately instead of requiring their joint ordered exact span.",
+      "does_not_by_itself_prove_world_feasibility": true,
+      "reading_id": "CHILDREN_MAY_APPEAR_SEPARATELY_ANYWHERE",
+      "removes_the_singleton_Ey_contradiction": true
+    },
+    {
+      "changed_contract_clauses": [
+        "STAGE1_ALL_DEFAULTS_COUNTERPARTS_AND_MERGES",
+        "PAID_CHILD_UNOVERRIDDEN_PARSE",
+        "PAID_CHILD_COMPOSITION_PRESENT"
+      ],
+      "changes_a_registered_gate": true,
+      "description": "A paid atom alone may satisfy exposure for its overridden node.",
+      "does_not_by_itself_prove_world_feasibility": true,
+      "reading_id": "PAID_NODE_EXEMPT_FROM_CHILD_COUNTERPART",
+      "removes_the_singleton_Ey_contradiction": true
+    },
+    {
+      "changed_contract_clauses": [
+        "DIRECT_UNIT_CONTIGUOUS_INTERVAL",
+        "DEFAULT_EXACT_CHILD_SPAN",
+        "EVERY_NAMED_MERGE_IN_TRAIN"
+      ],
+      "changes_a_registered_gate": true,
+      "description": "Credit Ey through a paid ancestor or another node/string without an exact Ey child-labelled span.",
+      "does_not_by_itself_prove_world_feasibility": true,
+      "reading_id": "ANCESTOR_OR_EQUAL_RENDER_MAY_CREDIT_NODE_ID",
+      "removes_the_singleton_Ey_contradiction": true
+    },
+    {
+      "changed_contract_clauses": [
+        "DIRECT_UNIT_CONTIGUOUS_INTERVAL",
+        "DEFAULT_EXACT_CHILD_SPAN"
+      ],
+      "changes_a_registered_gate": true,
+      "description": "Allow the two child outputs to be separated or cross a plaintext-word boundary.",
+      "does_not_by_itself_prove_world_feasibility": true,
+      "reading_id": "NONCONTIGUOUS_OR_CROSS_WORD_CHILD_SPAN",
+      "removes_the_singleton_Ey_contradiction": true
+    }
+  ],
+  "claim_ceiling": "Hash-bound contract interpretation and train-only necessary bound. This is not a Stage-1 parser, paid-location search, truth-world result, held result, oracle result, recovery result, or Voynich claim.",
+  "contract_clause_evidence": [
+    {
+      "clause_id": "DIRECT_UNIT_CONTIGUOUS_INTERVAL",
+      "input_id": "GDT615_PREREGISTRATION.md",
+      "line": 50,
+      "normalized_text": "direct source unit must occupy a contiguous plaintext interval",
+      "present": true
+    },
+    {
+      "clause_id": "PRIMITIVE_LEAVES_NOT_PAID",
+      "input_id": "GDT615_PREREGISTRATION.md",
+      "line": 67,
+      "normalized_text": "Primitive leaves are not selectable hit nodes.",
+      "present": true
+    },
+    {
+      "clause_id": "STAGE0_IGNORES_CHILD_COUNTERPARTS",
+      "input_id": "GDT615_PREREGISTRATION.md",
+      "line": 72,
+      "normalized_text": "This remains a relaxation: it ignores grammar, transition placement, paid types/outputs, child counterparts, ambiguity, and exact unit tiling.",
+      "present": true
+    },
+    {
+      "clause_id": "STAGE1_ALL_DEFAULTS_COUNTERPARTS_AND_MERGES",
+      "input_id": "GDT615_PREREGISTRATION.md",
+      "line": 164,
+      "normalized_text": "It must cover all 34 primitive cards, eight paid cards, 56 defaults, eight paid-child counterparts, all 64 named merges in train",
+      "present": true
+    },
+    {
+      "clause_id": "DEFAULT_EFFECTIVE_CHILD_CONCATENATION",
+      "input_id": "GDT615_PREREGISTRATION.md",
+      "line": 171,
+      "normalized_text": "leave every default as the exact left-to-right effective-child concatenation.",
+      "present": true
+    },
+    {
+      "clause_id": "DEFAULT_EXACT_CHILD_SPAN",
+      "input_id": "GDT614_PREREGISTRATION.md",
+      "line": 73,
+      "normalized_text": "Labelling a default merge span counts only when its two registered children occupy that exact span",
+      "present": true
+    },
+    {
+      "clause_id": "PAID_CHILD_UNOVERRIDDEN_PARSE",
+      "input_id": "GDT614_PREREGISTRATION.md",
+      "line": 75,
+      "normalized_text": "Paid-child exposure must use the unoverridden child parse, not the paid atom.",
+      "present": true
+    },
+    {
+      "clause_id": "PAID_CHILD_COMPOSITION_PRESENT",
+      "input_id": "GDT614_PREREGISTRATION.md",
+      "line": 83,
+      "normalized_text": "every paid card's unoverridden child composition present in both partitions;",
+      "present": true
+    },
+    {
+      "clause_id": "DEFAULT_MERGES_DIRECTLY_LABELLED",
+      "input_id": "GDT614_PREREGISTRATION.md",
+      "line": 84,
+      "normalized_text": "all 56 default merge nodes directly labelled in both partitions;",
+      "present": true
+    },
+    {
+      "clause_id": "EVERY_NAMED_MERGE_IN_TRAIN",
+      "input_id": "GDT614_PREREGISTRATION.md",
+      "line": 90,
+      "normalized_text": "every named merge node in at least one train type and one held event;",
+      "present": true
+    }
+  ],
+  "decision": "CONTRACT_NECESSARY_BOUND_PROVES_W0_INFEASIBLE",
+  "decisive_two_case_witness_count": 1,
+  "generated_by": {
+    "path": "experiments/yolo/gdt615_joint_output_permutation_recovery/src/stage1/contract_audit.py",
+    "sha256": "00e69fa8b50ce15ac040476ab8e0a0b598849a9de3601c86a8ee56dc3dddd22f"
+  },
+  "input_access": {
+    "allowlist": [
+      "experiments/yolo/gdt614_core_run_macro_recovery/PREREGISTRATION.md",
+      "experiments/yolo/gdt615_joint_output_permutation_recovery/PREREGISTRATION.md",
+      "experiments/yolo/gdt615_joint_output_permutation_recovery/artifacts/stage0/STAGE0_MAPPING_COMMIT.json",
+      "experiments/yolo/gdt615_joint_output_permutation_recovery/artifacts/REGISTERED_TRAIN_SUBSTRINGS.txt",
+      "experiments/yolo/gdt608_compositional_stem_orientation/artifacts/merge_tree.tsv"
+    ],
+    "f84_opened": false,
+    "f84r_opened": false,
+    "held_opened": false,
+    "lm_confirm_opened": false,
+    "voynich_target_opened": false
+  },
+  "input_hashes": [
+    {
+      "actual_sha256": "552b3ee1cda663157c793ab30434aa67aef3ab534a94117bdb62e8d33b9600d1",
+      "bytes": 10595,
+      "expected_sha256": "552b3ee1cda663157c793ab30434aa67aef3ab534a94117bdb62e8d33b9600d1",
+      "hash_match": true,
+      "input_id": "GDT614_PREREGISTRATION.md",
+      "path": "experiments/yolo/gdt614_core_run_macro_recovery/PREREGISTRATION.md"
+    },
+    {
+      "actual_sha256": "283b3d0199064eaeb7f1197ca1fde743bb64e7236fa43e6083ccbdb5261c5485",
+      "bytes": 10695,
+      "expected_sha256": "283b3d0199064eaeb7f1197ca1fde743bb64e7236fa43e6083ccbdb5261c5485",
+      "hash_match": true,
+      "input_id": "GDT615_PREREGISTRATION.md",
+      "path": "experiments/yolo/gdt615_joint_output_permutation_recovery/PREREGISTRATION.md"
+    },
+    {
+      "actual_sha256": "edb909f41ced2c17e5b8cbe55189adb5736dc03b3893bfc6e6582c46b443a262",
+      "bytes": 8901,
+      "expected_sha256": "edb909f41ced2c17e5b8cbe55189adb5736dc03b3893bfc6e6582c46b443a262",
+      "hash_match": true,
+      "input_id": "STAGE0_MAPPING_COMMIT.json",
+      "path": "experiments/yolo/gdt615_joint_output_permutation_recovery/artifacts/stage0/STAGE0_MAPPING_COMMIT.json"
+    },
+    {
+      "actual_sha256": "5b6859d8656f63cf8e8cf89221ae8ff1dea345e135a6cd012248b9b4c4ff14a9",
+      "bytes": 205822,
+      "expected_sha256": "5b6859d8656f63cf8e8cf89221ae8ff1dea345e135a6cd012248b9b4c4ff14a9",
+      "hash_match": true,
+      "input_id": "REGISTERED_TRAIN_SUBSTRINGS.txt",
+      "path": "experiments/yolo/gdt615_joint_output_permutation_recovery/artifacts/REGISTERED_TRAIN_SUBSTRINGS.txt"
+    },
+    {
+      "actual_sha256": "2098c71be9da13b483cf2561e06412276d8c60aa32e72520e8877f8f5d53090a",
+      "bytes": 1703,
+      "expected_sha256": "2098c71be9da13b483cf2561e06412276d8c60aa32e72520e8877f8f5d53090a",
+      "hash_match": true,
+      "input_id": "merge_tree.tsv",
+      "path": "experiments/yolo/gdt608_compositional_stem_orientation/artifacts/merge_tree.tsv"
+    }
+  ],
+  "minimal_witness_order": "inclusive subtree cardinality, then merge rank",
+  "minimal_witnesses": [
+    {
+      "default_case": {
+        "case_assumption": "merge rank 14 is not paid",
+        "proper_paid_descendant_could_change_effective_child_render": false,
+        "raw_span_absent": true,
+        "registered_requirement": "default label uses the two registered children on the exact direct span; the default output is their left-to-right effective concatenation",
+        "result_from_raw_absence_alone": "IMPOSSIBLE"
+      },
+      "inclusive_recursive_merge_subtree_ranks": [
+        14
+      ],
+      "left_child": "E",
+      "merge": "Ey",
+      "paid_case": {
+        "case_assumption": "merge rank 14 is paid",
+        "proper_paid_descendant_could_change_effective_child_render_under_a_weaker_reading": false,
+        "registered_requirement": "the paid atom does not count as its child exposure; an unoverridden child parse/composition is mandatory",
+        "result_invariant_across_raw_and_effective_descendant_readings": "IMPOSSIBLE",
+        "strict_fully_raw_counterpart_span_absent": true
+      },
+      "paid_or_default_case_partition_is_complete": true,
+      "primitive_leaves_are_selectable_paid_nodes": false,
+      "proper_merge_descendant_ranks": [],
+      "rank": 14,
+      "raw_composition_in_train_substrings": false,
+      "raw_unoverridden_child_composition": "hoi",
+      "right_child": "y",
+      "two_case_contradiction_invariant_to_descendant_counterpart_reading": true
+    }
+  ],
+  "paid_locations_selected": false,
+  "proof_summary": {
+    "case_partition": "each actual merge location is either paid or default",
+    "default_branch": "a default merge is credited only by its registered children on the exact direct span",
+    "paid_branch": "a paid atom cannot replace the mandatory unoverridden child parse/composition counterpart",
+    "singleton_subtree_consequence": "when both children are primitive leaves, no proper paid descendant can alter either branch's required child render",
+    "train_substring_absence_consequence": "absence of that render from the complete length-1..12 train table rules out a contiguous train span"
+  },
+  "registered_outcome_implication_if_contract_is_applied_literally": "MAPPING_BOUND_PASS__FULL_WORLD_INFEASIBLE",
+  "schema": "gdt615-stage1-contract-necessary-bound-audit-v1",
+  "stage0_replay": {
+    "mapping_rows": 34,
+    "matches_mapping_commit": true,
+    "merge_rows": 64,
+    "raw_supported_count": 55,
+    "raw_supported_ranks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      48,
+      50,
+      51,
+      52,
+      54,
+      55,
+      56,
+      57,
+      58,
+      61,
+      62,
+      63,
+      64
+    ],
+    "raw_unsupported_count": 9,
+    "raw_unsupported_ranks": [
+      14,
+      38,
+      45,
+      46,
+      47,
+      49,
+      53,
+      59,
+      60
+    ],
+    "train_substrings": 28101
+  },
+  "stage1_search_performed": false,
+  "status": "PASS",
+  "two_case_audit": [
+    {
+      "default_case": {
+        "case_assumption": "merge rank 14 is not paid",
+        "proper_paid_descendant_could_change_effective_child_render": false,
+        "raw_span_absent": true,
+        "registered_requirement": "default label uses the two registered children on the exact direct span; the default output is their left-to-right effective concatenation",
+        "result_from_raw_absence_alone": "IMPOSSIBLE"
+      },
+      "inclusive_recursive_merge_subtree_ranks": [
+        14
+      ],
+      "left_child": "E",
+      "merge": "Ey",
+      "paid_case": {
+        "case_assumption": "merge rank 14 is paid",
+        "proper_paid_descendant_could_change_effective_child_render_under_a_weaker_reading": false,
+        "registered_requirement": "the paid atom does not count as its child exposure; an unoverridden child parse/composition is mandatory",
+        "result_invariant_across_raw_and_effective_descendant_readings": "IMPOSSIBLE",
+        "strict_fully_raw_counterpart_span_absent": true
+      },
+      "paid_or_default_case_partition_is_complete": true,
+      "primitive_leaves_are_selectable_paid_nodes": false,
+      "proper_merge_descendant_ranks": [],
+      "rank": 14,
+      "raw_composition_in_train_substrings": false,
+      "raw_unoverridden_child_composition": "hoi",
+      "right_child": "y",
+      "two_case_contradiction_invariant_to_descendant_counterpart_reading": true
+    },
+    {
+      "default_case": {
+        "case_assumption": "merge rank 38 is not paid",
+        "proper_paid_descendant_could_change_effective_child_render": true,
+        "raw_span_absent": true,
+        "registered_requirement": "default label uses the two registered children on the exact direct span; the default output is their left-to-right effective concatenation",
+        "result_from_raw_absence_alone": "NOT_DECISIVE_WITHOUT_ENUMERATING_DESCENDANT_PAID_OVERRIDES"
+      },
+      "inclusive_recursive_merge_subtree_ranks": [
+        23,
+        38
+      ],
+      "left_child": "ai",
+      "merge": "air",
+      "paid_case": {
+        "case_assumption": "merge rank 38 is paid",
+        "proper_paid_descendant_could_change_effective_child_render_under_a_weaker_reading": true,
+        "registered_requirement": "the paid atom does not count as its child exposure; an unoverridden child parse/composition is mandatory",
+        "result_invariant_across_raw_and_effective_descendant_readings": "NOT_DECISIVE_WITHOUT_FIXING_DESCENDANT_COUNTERPART_SEMANTICS",
+        "strict_fully_raw_counterpart_span_absent": true
+      },
+      "paid_or_default_case_partition_is_complete": true,
+      "primitive_leaves_are_selectable_paid_nodes": false,
+      "proper_merge_descendant_ranks": [
+        23
+      ],
+      "rank": 38,
+      "raw_composition_in_train_substrings": false,
+      "raw_unoverridden_child_composition": "antque",
+      "right_child": "r",
+      "two_case_contradiction_invariant_to_descendant_counterpart_reading": false
+    },
+    {
+      "default_case": {
+        "case_assumption": "merge rank 45 is not paid",
+        "proper_paid_descendant_could_change_effective_child_render": true,
+        "raw_span_absent": true,
+        "registered_requirement": "default label uses the two registered children on the exact direct span; the default output is their left-to-right effective concatenation",
+        "result_from_raw_absence_alone": "NOT_DECISIVE_WITHOUT_ENUMERATING_DESCENDANT_PAID_OVERRIDES"
+      },
+      "inclusive_recursive_merge_subtree_ranks": [
+        3,
+        45
+      ],
+      "left_child": "S",
+      "merge": "Sol",
+      "paid_case": {
+        "case_assumption": "merge rank 45 is paid",
+        "proper_paid_descendant_could_change_effective_child_render_under_a_weaker_reading": true,
+        "registered_requirement": "the paid atom does not count as its child exposure; an unoverridden child parse/composition is mandatory",
+        "result_invariant_across_raw_and_effective_descendant_readings": "NOT_DECISIVE_WITHOUT_FIXING_DESCENDANT_COUNTERPART_SEMANTICS",
+        "strict_fully_raw_counterpart_span_absent": true
+      },
+      "paid_or_default_case_partition_is_complete": true,
+      "primitive_leaves_are_selectable_paid_nodes": false,
+      "proper_merge_descendant_ranks": [
+        3
+      ],
+      "rank": 45,
+      "raw_composition_in_train_substrings": false,
+      "raw_unoverridden_child_composition": "here",
+      "right_child": "ol",
+      "two_case_contradiction_invariant_to_descendant_counterpart_reading": false
+    },
+    {
+      "default_case": {
+        "case_assumption": "merge rank 46 is not paid",
+        "proper_paid_descendant_could_change_effective_child_render": true,
+        "raw_span_absent": true,
+        "registered_requirement": "default label uses the two registered children on the exact direct span; the default output is their left-to-right effective concatenation",
+        "result_from_raw_absence_alone": "NOT_DECISIVE_WITHOUT_ENUMERATING_DESCENDANT_PAID_OVERRIDES"
+      },
+      "inclusive_recursive_merge_subtree_ranks": [
+        2,
+        4,
+        7,
+        46
+      ],
+      "left_child": "qok",
+      "merge": "qokaN",
+      "paid_case": {
+        "case_assumption": "merge rank 46 is paid",
+        "proper_paid_descendant_could_change_effective_child_render_under_a_weaker_reading": true,
+        "registered_requirement": "the paid atom does not count as its child exposure; an unoverridden child parse/composition is mandatory",
+        "result_invariant_across_raw_and_effective_descendant_readings": "NOT_DECISIVE_WITHOUT_FIXING_DESCENDANT_COUNTERPART_SEMANTICS",
+        "strict_fully_raw_counterpart_span_absent": true
+      },
+      "paid_or_default_case_partition_is_complete": true,
+      "primitive_leaves_are_selectable_paid_nodes": false,
+      "proper_merge_descendant_ranks": [
+        2,
+        4,
+        7
+      ],
+      "rank": 46,
+      "raw_composition_in_train_substrings": false,
+      "raw_unoverridden_child_composition": "peraq",
+      "right_child": "aN",
+      "two_case_contradiction_invariant_to_descendant_counterpart_reading": false
+    },
+    {
+      "default_case": {
+        "case_assumption": "merge rank 47 is not paid",
+        "proper_paid_descendant_could_change_effective_child_render": true,
+        "raw_span_absent": true,
+        "registered_requirement": "default label uses the two registered children on the exact direct span; the default output is their left-to-right effective concatenation",
+        "result_from_raw_absence_alone": "NOT_DECISIVE_WITHOUT_ENUMERATING_DESCENDANT_PAID_OVERRIDES"
+      },
+      "inclusive_recursive_merge_subtree_ranks": [
+        1,
+        2,
+        7,
+        18,
+        47
+      ],
+      "left_child": "qok",
+      "merge": "qokEdy",
+      "paid_case": {
+        "case_assumption": "merge rank 47 is paid",
+        "proper_paid_descendant_could_change_effective_child_render_under_a_weaker_reading": true,
+        "registered_requirement": "the paid atom does not count as its child exposure; an unoverridden child parse/composition is mandatory",
+        "result_invariant_across_raw_and_effective_descendant_readings": "NOT_DECISIVE_WITHOUT_FIXING_DESCENDANT_COUNTERPART_SEMANTICS",
+        "strict_fully_raw_counterpart_span_absent": true
+      },
+      "paid_or_default_case_partition_is_complete": true,
+      "primitive_leaves_are_selectable_paid_nodes": false,
+      "proper_merge_descendant_ranks": [
+        1,
+        2,
+        7,
+        18
+      ],
+      "rank": 47,
+      "raw_composition_in_train_substrings": false,
+      "raw_unoverridden_child_composition": "perhomi",
+      "right_child": "Edy",
+      "two_case_contradiction_invariant_to_descendant_counterpart_reading": false
+    },
+    {
+      "default_case": {
+        "case_assumption": "merge rank 49 is not paid",
+        "proper_paid_descendant_could_change_effective_child_render": true,
+        "raw_span_absent": true,
+        "registered_requirement": "default label uses the two registered children on the exact direct span; the default output is their left-to-right effective concatenation",
+        "result_from_raw_absence_alone": "NOT_DECISIVE_WITHOUT_ENUMERATING_DESCENDANT_PAID_OVERRIDES"
+      },
+      "inclusive_recursive_merge_subtree_ranks": [
+        1,
+        2,
+        7,
+        19,
+        49
+      ],
+      "left_child": "qok",
+      "merge": "qokedy",
+      "paid_case": {
+        "case_assumption": "merge rank 49 is paid",
+        "proper_paid_descendant_could_change_effective_child_render_under_a_weaker_reading": true,
+        "registered_requirement": "the paid atom does not count as its child exposure; an unoverridden child parse/composition is mandatory",
+        "result_invariant_across_raw_and_effective_descendant_readings": "NOT_DECISIVE_WITHOUT_FIXING_DESCENDANT_COUNTERPART_SEMANTICS",
+        "strict_fully_raw_counterpart_span_absent": true
+      },
+      "paid_or_default_case_partition_is_complete": true,
+      "primitive_leaves_are_selectable_paid_nodes": false,
+      "proper_merge_descendant_ranks": [
+        1,
+        2,
+        7,
+        19
+      ],
+      "rank": 49,
+      "raw_composition_in_train_substrings": false,
+      "raw_unoverridden_child_composition": "perumi",
+      "right_child": "edy",
+      "two_case_contradiction_invariant_to_descendant_counterpart_reading": false
+    },
+    {
+      "default_case": {
+        "case_assumption": "merge rank 53 is not paid",
+        "proper_paid_descendant_could_change_effective_child_render": true,
+        "raw_span_absent": true,
+        "registered_requirement": "default label uses the two registered children on the exact direct span; the default output is their left-to-right effective concatenation",
+        "result_from_raw_absence_alone": "NOT_DECISIVE_WITHOUT_ENUMERATING_DESCENDANT_PAID_OVERRIDES"
+      },
+      "inclusive_recursive_merge_subtree_ranks": [
+        14,
+        53
+      ],
+      "left_child": "C",
+      "merge": "CEy",
+      "paid_case": {
+        "case_assumption": "merge rank 53 is paid",
+        "proper_paid_descendant_could_change_effective_child_render_under_a_weaker_reading": true,
+        "registered_requirement": "the paid atom does not count as its child exposure; an unoverridden child parse/composition is mandatory",
+        "result_invariant_across_raw_and_effective_descendant_readings": "NOT_DECISIVE_WITHOUT_FIXING_DESCENDANT_COUNTERPART_SEMANTICS",
+        "strict_fully_raw_counterpart_span_absent": true
+      },
+      "paid_or_default_case_partition_is_complete": true,
+      "primitive_leaves_are_selectable_paid_nodes": false,
+      "proper_merge_descendant_ranks": [
+        14
+      ],
+      "rank": 53,
+      "raw_composition_in_train_substrings": false,
+      "raw_unoverridden_child_composition": "hoi",
+      "right_child": "Ey",
+      "two_case_contradiction_invariant_to_descendant_counterpart_reading": false
+    },
+    {
+      "default_case": {
+        "case_assumption": "merge rank 59 is not paid",
+        "proper_paid_descendant_could_change_effective_child_render": true,
+        "raw_span_absent": true,
+        "registered_requirement": "default label uses the two registered children on the exact direct span; the default output is their left-to-right effective concatenation",
+        "result_from_raw_absence_alone": "NOT_DECISIVE_WITHOUT_ENUMERATING_DESCENDANT_PAID_OVERRIDES"
+      },
+      "inclusive_recursive_merge_subtree_ranks": [
+        2,
+        7,
+        14,
+        59
+      ],
+      "left_child": "qok",
+      "merge": "qokEy",
+      "paid_case": {
+        "case_assumption": "merge rank 59 is paid",
+        "proper_paid_descendant_could_change_effective_child_render_under_a_weaker_reading": true,
+        "registered_requirement": "the paid atom does not count as its child exposure; an unoverridden child parse/composition is mandatory",
+        "result_invariant_across_raw_and_effective_descendant_readings": "NOT_DECISIVE_WITHOUT_FIXING_DESCENDANT_COUNTERPART_SEMANTICS",
+        "strict_fully_raw_counterpart_span_absent": true
+      },
+      "paid_or_default_case_partition_is_complete": true,
+      "primitive_leaves_are_selectable_paid_nodes": false,
+      "proper_merge_descendant_ranks": [
+        2,
+        7,
+        14
+      ],
+      "rank": 59,
+      "raw_composition_in_train_substrings": false,
+      "raw_unoverridden_child_composition": "perhoi",
+      "right_child": "Ey",
+      "two_case_contradiction_invariant_to_descendant_counterpart_reading": false
+    },
+    {
+      "default_case": {
+        "case_assumption": "merge rank 60 is not paid",
+        "proper_paid_descendant_could_change_effective_child_render": true,
+        "raw_span_absent": true,
+        "registered_requirement": "default label uses the two registered children on the exact direct span; the default output is their left-to-right effective concatenation",
+        "result_from_raw_absence_alone": "NOT_DECISIVE_WITHOUT_ENUMERATING_DESCENDANT_PAID_OVERRIDES"
+      },
+      "inclusive_recursive_merge_subtree_ranks": [
+        2,
+        4,
+        60
+      ],
+      "left_child": "ok",
+      "merge": "okaN",
+      "paid_case": {
+        "case_assumption": "merge rank 60 is paid",
+        "proper_paid_descendant_could_change_effective_child_render_under_a_weaker_reading": true,
+        "registered_requirement": "the paid atom does not count as its child exposure; an unoverridden child parse/composition is mandatory",
+        "result_invariant_across_raw_and_effective_descendant_readings": "NOT_DECISIVE_WITHOUT_FIXING_DESCENDANT_COUNTERPART_SEMANTICS",
+        "strict_fully_raw_counterpart_span_absent": true
+      },
+      "paid_or_default_case_partition_is_complete": true,
+      "primitive_leaves_are_selectable_paid_nodes": false,
+      "proper_merge_descendant_ranks": [
+        2,
+        4
+      ],
+      "rank": 60,
+      "raw_composition_in_train_substrings": false,
+      "raw_unoverridden_child_composition": "eraq",
+      "right_child": "aN",
+      "two_case_contradiction_invariant_to_descendant_counterpart_reading": false
+    }
+  ],
+  "worlds_constructed": 0
+}

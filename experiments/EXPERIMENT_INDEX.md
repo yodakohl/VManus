@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **613**
-- Experiment-associated tracked files: **9,547** (1.0 GiB)
+- Experiment-associated tracked files: **9,559** (1.0 GiB)
 - Structured GDT337+ experiments: **278**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT615 | GDT615_joint_output_permutation_recovery | `STAGE0_MAPPING_CERTIFICATE_PASS__STAGE1_NOT_RUN` | [report](../experiments/yolo/gdt615_joint_output_permutation_recovery/REPORT.md) | 42 | 1.3 MiB | 4 | STRUCTURED_YOLO |
+| GDT615 | GDT615_joint_output_permutation_recovery | `MAPPING_BOUND_PASS__FULL_WORLD_INFEASIBLE` | [report](../experiments/yolo/gdt615_joint_output_permutation_recovery/REPORT.md) | 54 | 1.5 MiB | 4 | STRUCTURED_YOLO |
 | GDT614 | GDT614_core_run_macro_recovery | `TRUTH_GENERATOR_INFEASIBLE` | [report](../experiments/yolo/gdt614_core_run_macro_recovery/REPORT.md) | 19 | 98.6 KiB | 4 | STRUCTURED_YOLO |
 | GDT613 | GDT613_observation_complete_fst34_recovery | `MODEL_SCOPE_UNDERSPECIFIED_OR_INFEASIBLE` | [report](../experiments/yolo/gdt613_observation_complete_fst34_recovery/REPORT.md) | 53 | 2.0 MiB | 3 | STRUCTURED_YOLO |
 | GDT612 | GDT612_historical_fst34_target_attack | `HEURISTIC_DECODER_INVALIDATED__ORACLE_TRUTH_RANKS_LAST__ZERO_STABLE_TARGET_OUTPUTS` | [report](../experiments/yolo/gdt612_historical_fst34_target_attack/REPORT.md) | 117 | 2.5 MiB | 5 | STRUCTURED_YOLO |

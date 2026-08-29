@@ -14679,8 +14679,8 @@ GDT613 executes the pre-world feasibility gate and stops as `MODEL_SCOPE_UNDERSP
 
 GDT614 prospectively freezes `HISTORICAL_MIXED_ABBREVIATION_FST_34_CORE_RUN_MACRO_V2` with21 one-character cards, hosted context, internal carrier runs, five side-licensed macros, edge layout null and eight paid merges, then stops at the first necessary all-64 carrier bound as `TRUTH_GENERATOR_INFEASIBLE`. Under its fixed primitive/output binding only19/64 raw merge renders occur in both frozen Latin partitions and45 fail. A failed node can change only if itself or a recursive merge descendant is paid; the exact subtree hitting set is UNSAT at17 and has a deterministic SAT witness at18, ten above the registered budget. The bound ignores grammar, all21 transitions, macro licenses, collisions, child counterparts and ordered tilings, so those stricter stages cannot rescue the binding. Generator outputs repeat byte-identically and the independent validator passes398/398 checks. Reject the arbitrary output-to-primitive binding, not the fixed deck or CORE_RUN family. Next select the within-role binding jointly with this bound and freeze only a mapping whose exact minimum is at most8 before resuming ordered traces, twelve oracle panels and blind recovery. Historically this remains an abbreviation profile only; nomenclator macros/cipher nulls are separate. No Voynich value, language, plaintext or meaning is assigned.
 
-GDT615 Stage0 is now
-`STAGE0_MAPPING_CERTIFICATE_PASS__STAGE1_NOT_RUN`. It keeps all34 roles,the
+GDT615 ends as
+`MAPPING_BOUND_PASS__FULL_WORLD_INFEASIBLE`. Stage0 kept all34 roles,the
 complete role-wise output deck,eight paid cards,64 directed merges and V2
 grammar fixed and solves the full same-role output permutation against the
 frozen28,101-entry train-only substring table. Two independent exact
@@ -14693,11 +14693,20 @@ byte-identically;430/430 registration and81/81 scored validation checks pass.
 The immutable mapping commit SHA256 is
 `edb909f41ced2c17e5b8cbe55189adb5736dc03b3893bfc6e6582c46b443a262`.
 
-This pass is only the prospectively registered permissive necessary bound;
-its four cover ranks are not actual paid locations. W0,W1,W2,ordered traces,
-top-level tilings,oracle,recovery and Held are not run. Stage1 must consume
-the exact mapping hash and first audit the forced `Ey=E·y→hoi` child
-counterpart before any full solver:if the registered direct paid-child span is
-impossible on train,GDT615 stops without a second mapping,seed or Held reveal.
+Stage1 consumed that exact hash and fails a still more permissive necessary
+bound. Rank14 `Ey=E·y` has raw child composition `ho+i=hoi`,which is absent
+from the complete train-substring table. Because `Ey` is raw-unsupported and
+its inclusive merge subtree is the singleton `{14}`,coverage forces rank14 to
+be paid;the registered paid-child counterpart simultaneously requires the
+missing direct `hoi` span and therefore forbids rank14 from being paid. Primary
+Z3 gives the subset-minimal two-clause core;an independent combinatorial
+superset proof and a contract-only paid/default audit agree. Tests pass
+5/5,3/3,7,993/7,993,430/430,81/81 and54/54.
+
+No actual paid locations are selected and W0,W1,W2,ordered traces,top-level
+tilings,oracle,recovery,Held and LM-confirm are not run. GDT615 cannot retry a
+second mapping. The next route requires a new experiment ID and must choose
+the same-role binding jointly with paid-child eligibility,so the newly found
+constraint is enforced before committing another key.
 No Voynich value,word,language,plaintext,object,operation or meaning is
 assigned;f84/f84r remain forbidden.

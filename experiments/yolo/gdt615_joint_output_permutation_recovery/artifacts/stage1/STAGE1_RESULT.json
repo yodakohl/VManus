@@ -1,0 +1,93 @@
+{
+  "claim_ceiling": "Terminal result for the synthetic Latin-carrier truth generator only. No Voynich unit, sound, language, word, plaintext, object, operation, or meaning is assigned.",
+  "decision": {
+    "full_train_world_exists_under_registered_contract": false,
+    "reason": "The registered Stage-1 train world fails a strictly more permissive necessary bound.",
+    "registered_stop_outcome": "MAPPING_BOUND_PASS__FULL_WORLD_INFEASIBLE"
+  },
+  "execution_stop": {
+    "actual_paid_locations_selected": false,
+    "held_opened": false,
+    "lm_confirm_opened": false,
+    "next_best_stage0_mapping_tried": false,
+    "oracle_run": false,
+    "paid_cards_assigned": false,
+    "recovery_run": false,
+    "w0_constructed": false,
+    "w1_or_w2_constructed": false
+  },
+  "f84_or_f84r_opened": false,
+  "independent_agreement": {
+    "contract_two_case_audit": "paid and default branches both impossible",
+    "evidence": [
+      {
+        "bytes": 25412,
+        "path": "experiments/yolo/gdt615_joint_output_permutation_recovery/artifacts/stage1/PRIMARY_RESULT.json",
+        "sha256": "050e75c861692ee51ddd31bed131f76bffcffb5cd93a1c1b54a1fbf80e1c0bce"
+      },
+      {
+        "bytes": 41638,
+        "path": "experiments/yolo/gdt615_joint_output_permutation_recovery/artifacts/stage1/INDEPENDENT_RESULT.json",
+        "sha256": "bd57f5a6bfdb759ab636e4a5719c01b9ba20f6f7e7c252b9a5da80552cb6fd54"
+      },
+      {
+        "bytes": 25709,
+        "path": "experiments/yolo/gdt615_joint_output_permutation_recovery/artifacts/stage1/CONTRACT_AUDIT.json",
+        "sha256": "f2c53b59dd0ec015979b13d711762370d5fc9494fc0b35dd1d42953a136ccc08"
+      }
+    ],
+    "implementations": 3,
+    "independent_combinatorial": "UNSAT in a larger admitted assignment space",
+    "primary_z3": "UNSAT with subset-minimal two-clause core"
+  },
+  "minimal_unsat_core": {
+    "coverage_consequence": "rank 14 must be an actual paid location",
+    "inclusive_recursive_merge_subtree_ranks": [
+      14
+    ],
+    "left_child": "E",
+    "left_output": "ho",
+    "merge": "Ey",
+    "paid_child_consequence": "rank 14 cannot be an actual paid location",
+    "primary_core_labels": [
+      "E14_paid_requires_train_child_span",
+      "U14_raw_unsupported_requires_paid_subtree"
+    ],
+    "rank": 14,
+    "right_child": "y",
+    "right_output": "i",
+    "train_substring_member": false,
+    "unoverridden_child_composition": "hoi"
+  },
+  "necessary_bound": {
+    "actual_paid_location_count_required": 8,
+    "child_counterpart_eligible_location_count": 55,
+    "merge_count": 64,
+    "omitted_constraints": [
+      "four-short/four-macro assignment",
+      "paid output inequality and side licenses",
+      "V2 grammar and 21 transitions",
+      "ordered span-bearing traces",
+      "nonoverlapping 98-unit tilings",
+      "train exposure objectives"
+    ],
+    "raw_supported_count": 55,
+    "raw_unsupported_count": 9,
+    "raw_unsupported_ranks": [
+      14,
+      38,
+      45,
+      46,
+      47,
+      49,
+      53,
+      59,
+      60
+    ],
+    "solver_result": "UNSAT"
+  },
+  "schema": "gdt615-stage1-terminal-result-v1",
+  "stage0_mapping_commit_sha256": "edb909f41ced2c17e5b8cbe55189adb5736dc03b3893bfc6e6582c46b443a262",
+  "status": "MAPPING_BOUND_PASS__FULL_WORLD_INFEASIBLE",
+  "voynich_target_opened": false
+}

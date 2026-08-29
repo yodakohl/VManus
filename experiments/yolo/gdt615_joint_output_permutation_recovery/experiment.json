@@ -86,18 +86,18 @@
     },
     {
       "path": "experiments/yolo/gdt615_joint_output_permutation_recovery/README.md",
-      "role": "experiment entry point and current Stage-0 status",
-      "sha256": "99891c6dd91f1f1c0df9c704da05bd6f119debb0f90e3453b611194306203ba9"
+      "role": "experiment entry point and terminal Stage-1 status",
+      "sha256": "82b8af3b97f89792794e5e84322a51af6f6ee75b6653fb602a5198a85aee89fe"
     },
     {
       "path": "experiments/yolo/gdt615_joint_output_permutation_recovery/REPORT.md",
-      "role": "scored Stage-0 result, mapping, evidence, and claim ceiling",
-      "sha256": "73b98edbd482d3f9a2dc99e40b32a3cbddcdaad54609eba8359b9de0c7837550"
+      "role": "Stage-0 mapping plus terminal Stage-1 necessary-bound result",
+      "sha256": "bb04318403baf0ba8d9162ac45e455198945232926d879bbfb83f71e4bd04afd"
     },
     {
       "path": "experiments/yolo/gdt615_joint_output_permutation_recovery/artifacts/README.md",
       "role": "artifact inventory and compact release guide",
-      "sha256": "96360ff7330bf44ae38a076daff37d49876cbcae7550b5153f1ae0f4628d5671"
+      "sha256": "d3d2147507337982298b41492dd7e421f40160fe44dead40c0ef2d2c9c9bd46b"
     },
     {
       "path": "experiments/yolo/gdt615_joint_output_permutation_recovery/artifacts/REGISTERED_SEARCH.json",
@@ -276,8 +276,68 @@
     },
     {
       "path": "experiments/yolo/gdt615_joint_output_permutation_recovery/src/validate.py",
-      "role": "combined registration and scored Stage-0 validator entry point",
-      "sha256": "bffdc5b44b3ce7c42e1c3cf777ac2ac273381ccc8b3dc5171afb5a747ea76f28"
+      "role": "combined registration, Stage-0, and terminal Stage-1 validator entry point",
+      "sha256": "94649793825c54ad1c1aeb82b19b854238ec208276167473ce6426993e95cdf2"
+    },
+    {
+      "path": "experiments/yolo/gdt615_joint_output_permutation_recovery/src/stage1/primary_bound.py",
+      "role": "primary exact Stage-1 train-only child-counterpart necessary bound",
+      "sha256": "090a67bbd434dab3e2518157756c0f9e6f89aaa4fb2623eac69d843df5622981"
+    },
+    {
+      "path": "experiments/yolo/gdt615_joint_output_permutation_recovery/src/stage1/test_primary_bound.py",
+      "role": "primary Stage-1 encoding and toy-core tests",
+      "sha256": "78806c19aabc05bffc4875e7a91ab5ee9e7d6883acefd777af3202a65bf6f912"
+    },
+    {
+      "path": "experiments/yolo/gdt615_joint_output_permutation_recovery/src/stage1/independent_bound.py",
+      "role": "independent combinatorial Stage-1 necessary-bound proof",
+      "sha256": "6b5676aeb4f1977a79180dfd8d370c9f4b422d0e70c3e673c28eab71f1d7d5b2"
+    },
+    {
+      "path": "experiments/yolo/gdt615_joint_output_permutation_recovery/src/stage1/contract_audit.py",
+      "role": "independent registered-contract two-case audit",
+      "sha256": "00e69fa8b50ce15ac040476ab8e0a0b598849a9de3601c86a8ee56dc3dddd22f"
+    },
+    {
+      "path": "experiments/yolo/gdt615_joint_output_permutation_recovery/src/stage1/test_contract_audit.py",
+      "role": "contract-audit reconstruction and reading tests",
+      "sha256": "ddeb055de54bee054b89e9f52000e6ec6b52d39b0c2b6f8972f2a460cda91e21"
+    },
+    {
+      "path": "experiments/yolo/gdt615_joint_output_permutation_recovery/src/stage1_validate.py",
+      "role": "54-check terminal Stage-1 integration and direct replay",
+      "sha256": "6ad977a24fdfa8c244ba401505045924a6dd7a98970cfb0c7fde1f8de5fb1fde"
+    },
+    {
+      "path": "experiments/yolo/gdt615_joint_output_permutation_recovery/artifacts/stage1/PRIMARY_RESULT.json",
+      "role": "primary exact UNSAT core and complete 64-node eligibility table",
+      "sha256": "050e75c861692ee51ddd31bed131f76bffcffb5cd93a1c1b54a1fbf80e1c0bce"
+    },
+    {
+      "path": "experiments/yolo/gdt615_joint_output_permutation_recovery/artifacts/stage1/INDEPENDENT_RESULT.json",
+      "role": "independent over-relaxed combinatorial infeasibility certificate",
+      "sha256": "bd57f5a6bfdb759ab636e4a5719c01b9ba20f6f7e7c252b9a5da80552cb6fd54"
+    },
+    {
+      "path": "experiments/yolo/gdt615_joint_output_permutation_recovery/artifacts/stage1/CONTRACT_AUDIT.json",
+      "role": "contract-bound paid/default two-case witness",
+      "sha256": "f2c53b59dd0ec015979b13d711762370d5fc9494fc0b35dd1d42953a136ccc08"
+    },
+    {
+      "path": "experiments/yolo/gdt615_joint_output_permutation_recovery/artifacts/stage1/STAGE1_RESULT.json",
+      "role": "compact terminal GDT615 decision and Ey-to-hoi contradiction",
+      "sha256": "f9f1e0ee8096d191ab454971c1e6218fed29586881d6cafbc9b790bff4332f3e"
+    },
+    {
+      "path": "experiments/yolo/gdt615_joint_output_permutation_recovery/artifacts/stage1/STAGE1_BUNDLE.json",
+      "role": "stable terminal evidence and source hash bundle",
+      "sha256": "1e9fbc84f9043bc58eb98cea2ffad73f4b915490082347aa2757ab3c096edfea"
+    },
+    {
+      "path": "experiments/yolo/gdt615_joint_output_permutation_recovery/artifacts/stage1/STAGE1_VALIDATION.json",
+      "role": "54-check independent terminal replay and bundle audit",
+      "sha256": "5ed50cec4e3865b8367d924bb4645ccab9ec47f0494460e7c96aaadc4ddf85c1"
     }
   ],
   "question": "Can a train-only exact same-role output-to-primitive binding reduce the all-64 paid-subtree requirement to at most eight, support three complete train worlds, transfer unchanged to held, and then pass the inherited oracle and blind-recovery gates?",
@@ -287,11 +347,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "joint_output_permutation_recovery",
-  "status": "STAGE0_MAPPING_CERTIFICATE_PASS__STAGE1_NOT_RUN",
+  "status": "MAPPING_BOUND_PASS__FULL_WORLD_INFEASIBLE",
   "title": "Joint primitive/output binding recovery",
   "updated": "2026-08-29",
   "validation": {
-    "artifact": "experiments/yolo/gdt615_joint_output_permutation_recovery/artifacts/stage0/STAGE0_VALIDATION.json",
+    "artifact": "experiments/yolo/gdt615_joint_output_permutation_recovery/artifacts/stage1/STAGE1_VALIDATION.json",
     "status": "PASS"
   }
 }
