@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT621 | GDT621_manual_source_double_reading | `POST_CHECKPOINT_CONTEXTUAL_CORRECTION__FROZEN_PAYLOAD_RETAINED` | [report](../experiments/yolo/gdt621_manual_source_double_reading/FINAL_RESULT.md) | 22 | 365.1 KiB | 1 | STRUCTURED_YOLO |
+| GDT621 | GDT621_manual_source_double_reading | `LAT6823_LIQUIRICIA__CLM_LIQUIRITIA_WITNESS_FORMS_SEPARATED` | [report](../experiments/yolo/gdt621_manual_source_double_reading/FINAL_RESULT.md) | 22 | 365.2 KiB | 1 | STRUCTURED_YOLO |
 | GDT620 | GDT620_stage_b_source_page_acquisition | `TEN_SOURCE_PAGES_ACQUIRED__SOURCE_READING_UNOPENED__TARGET_UNOPENED` | [report](../experiments/yolo/gdt620_stage_b_source_page_acquisition/STAGE_B_RESULT.md) | 15 | 243.9 KiB | 1 | STRUCTURED_YOLO |
 | GDT619 | GDT619_five_source_page_acquisition | `STAGE1_RESOLVED__GLOBAL_DELTA_MINUS_ONE__STAGE_B_AUTHORIZED_NOT_EXECUTED` | [report](../experiments/yolo/gdt619_five_source_page_acquisition/STAGE1_RESULT.md) | 17 | 222.6 KiB | 1 | STRUCTURED_YOLO |
 | GDT618 | GDT618_four_witness_herbal_concordance | `PHYSICAL_FOLIO_COLLISION_CORRECTED` | [report](../experiments/yolo/gdt618_four_witness_herbal_concordance/PREREGISTRATION.md) | 9 | 72.2 KiB | 1 | STRUCTURED_YOLO |

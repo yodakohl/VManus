@@ -7,7 +7,8 @@ Status: `LATIN_RECONCILIATION_FROZEN__CLM_UNOPENED`
 > quod verius` rather than `in fructu ... interius`, `radix cuiusdam` rather
 > than `maior cum`, and `teste Ysaac. Colitur autem` rather than `debet esse.
 > Colatur aut`; DEV05 also reads `quod alio`, not `et alio`. The frozen JSON is
-> deliberately unchanged. See
+> deliberately unchanged. The Latin 6823 lemma is `Liquiricia`; the independent
+> Clm locator label is `Liquiritia`. See
 > `FINAL_RESULT.md` for the corrected readable layer and source links.
 
 ## Result

@@ -40,7 +40,7 @@ expansions of the same visible openings:
    cerfolii …` — “Chervil is a sufficiently familiar herb, frequently used by
    cooks. The use of chervil …”. Direct reinspection confirms the checkpoint's
    `coquis`; the preceding abbreviation expands to `in`.
-3. `Liquiritia calida est et humida in primo gradu. Est autem radix cuiusdam …`
+3. `Liquiricia calida est et humida in primo gradu. Est autem radix cuiusdam …`
    — “Liquorice is warm and moist in the first degree. It is the root of a
    certain …”; read `radix cuiusdam`, not frozen `maior cum`.
 4. `Cucurbita frigida est et humida in secundo gradu, teste Ysaac. Colitur
@@ -61,7 +61,7 @@ sentence context while preserving the originally frozen evidence separately.
 The corrections were checked on the original BnF images for
 [Balsamus](https://gallica.bnf.fr/ark:/12148/btv1b6000517p/f58.image),
 [Cerfolium](https://gallica.bnf.fr/ark:/12148/btv1b6000517p/f96.image),
-[Liquiritia](https://gallica.bnf.fr/ark:/12148/btv1b6000517p/f178.image),
+[Liquiricia](https://gallica.bnf.fr/ark:/12148/btv1b6000517p/f178.image),
 [Cucurbita](https://gallica.bnf.fr/ark:/12148/btv1b6000517p/f91.image), and
 [Diptamus](https://gallica.bnf.fr/ark:/12148/btv1b6000517p/f122.image). External
 comparison identifies the codex as Manfredus de Monte Imperiali's Pisa

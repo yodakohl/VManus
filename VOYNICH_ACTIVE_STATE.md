@@ -14932,7 +14932,7 @@ f84 and f84r counts remain zero.
 Post-checkpoint full-sentence reading and historical-source comparison then
 corrected real palaeographic errors without altering the frozen payload:
 Balsam says `vel frutex,quod verius` rather than an internal-fruit phrase;
-Liquiritia says `radix cuiusdam`;Cucurbita says `teste Ysaac.Colitur autem`;
+Liquiricia says `radix cuiusdam`;Cucurbita says `teste Ysaac.Colitur autem`;
 Cerfolium has `in coquis`; Diptamus has `quod alio`, not `et alio`. The source is Manfredus de Monte Imperiali's
 Pisan c.1330–1340 expanded *Tractatus de herbis*,principally a *Circa instans*
 framework with Macer,Isaac and other layers. The concrete reusable slots are
