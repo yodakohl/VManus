@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **649**
-- Experiment-associated tracked files: **10,433** (1.1 GiB)
-- Structured GDT337+ experiments: **314**
+- Experiments indexed: **650**
+- Experiment-associated tracked files: **10,461** (1.1 GiB)
+- Structured GDT337+ experiments: **315**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT652 | GDT652_strict_v28_frontier_completion | `PASS_35_EXACT_WHOLES__V29_PREPARATION_AND_MATERIA_GRIDS` | [report](../experiments/yolo/gdt652_strict_v28_frontier_completion/REPORT.md) | 28 | 3.1 MiB | 6 | STRUCTURED_YOLO |
 | GDT651 | GDT651_ckh_four_shell_family_migration | `PASS_7_CKH_SISTER_WHOLES__V28_FOUR_SHELL_GRID` | [report](../experiments/yolo/gdt651_ckh_four_shell_family_migration/REPORT.md) | 29 | 3.1 MiB | 4 | STRUCTURED_YOLO |
 | GDT650 | GDT650_v26_strict_family_completion | `PASS_7_EXACT_WHOLES__V27_FIVE_STRICT_FAMILIES_CLOSED` | [report](../experiments/yolo/gdt650_v26_strict_family_completion/REPORT.md) | 28 | 2.9 MiB | 7 | STRUCTURED_YOLO |
 | GDT649 | GDT649_strict_v25_hole_completion | `PASS_11_FAMILY_WHOLES__V26_THREE_STRICT_HOLES_CLOSED` | [report](../experiments/yolo/gdt649_strict_v25_hole_completion/REPORT.md) | 27 | 3.5 MiB | 5 | STRUCTURED_YOLO |

@@ -284,7 +284,7 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-GDT651 makes V28 by revising8 old and adding7 observed CKH wholes/124 positions:CHCKH/CHECKH/SHCKH/SHECKH form one four-shell grid;old mixing/binding prose is replaced by learned Arzneikompositum plus family-bound E_ATTR.109 targets are reader-exact;4 lines close/3 strict.V28=450 dictionary/379 glosses/14741 known;complete107/strict62;one-hole159/strict40.Hold checkhedy/sheckhdy and7 absent cells.Next rank recurrent strict V28 holes by complete observed family support,starting chdaly,yk/kchy and repeated whole frames;do not reuse generic GDT639 holds.No f1r,new page/image,GDT418,generic filler,free CKH/E,absent cell or ingredient identity.
+GDT652 makes V29 with35 exact-whole cards/210 positions across neutral CKH,O+CKH,qualified O+CKH/O+K and O+(P/S/R/L)+AL grids:175 reader-exact,178 normalized;6 lines close/5 strict.V29=485 dictionary/414 glosses/14951 known;complete113/strict67;one-hole165/strict39.O_PREP+CKH has direct o ckhy/ockhy and o ckhey/ockhey splits;opal/osal/oral/olal read powder/seed/root/wood preparations,with oral/olal segmentation rivals.Hold all absent/zero-exact cells.Next exact-boundary packet ranks orol=OR|OL,chckhal,octhdy,chdaly,sodal,skar;keep YK/initial-Y,DAL noun and EEE forms separate.No f1r,new page/image,GDT418,generic filler,free tags,absent cell or exact ingredient identity.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`

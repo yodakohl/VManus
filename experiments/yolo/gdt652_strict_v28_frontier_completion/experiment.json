@@ -1,0 +1,71 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exploratory V29 exact-whole migration of 35 observed, reader-anchored CKH, O-CKH, qualified O-CKH/O-K and O-materia surfaces. O_PREP, CKH_LEARNED, E_ATTR, K_HEISS and the tail fields remain family-bound structural tags; Arzneikompositum and the ORAL/OLAL segmentations remain replaceable; no absent cell, free component, plaintext, phonetics, language or exact ingredient identity.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt652_strict_v28_frontier_completion/src/run.py",
+    "validate": "python3 experiments/yolo/gdt652_strict_v28_frontier_completion/src/validate.py"
+  },
+  "created": "2026-08-30",
+  "dependencies": [
+    "GDT624",
+    "GDT632",
+    "GDT633",
+    "GDT647",
+    "GDT650",
+    "GDT651"
+  ],
+  "experiment_id": "GDT652",
+  "inputs": [
+    {"path": "experiments/yolo/gdt651_ckh_four_shell_family_migration/src/run.py", "role": "direct frozen V28 builder", "sha256": "fe773d9740bb4a690564b64e327d5fde8bb36efd0a1eec0d8ead5449af025dd2"},
+    {"path": "experiments/yolo/gdt651_ckh_four_shell_family_migration/artifacts/PAGE_ALLOWLIST.tsv", "role": "direct frozen V28 allowlist", "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"},
+    {"path": "experiments/yolo/gdt651_ckh_four_shell_family_migration/artifacts/ALL_LINE_CONCRETE_COVERAGE_V28.tsv", "role": "direct frozen V28 coverage", "sha256": "9a00c32e2f4030c33d89b276ab5b8129a5217500dc9de4b805492d09e04981dc"},
+    {"path": "experiments/yolo/gdt651_ckh_four_shell_family_migration/artifacts/COMPLETE_PASSAGES_V28.tsv", "role": "direct frozen V28 complete passages", "sha256": "90c9b2b803e8a862ac48489b5b44553668d1f579f479c147fdc0a79fa9456c35"},
+    {"path": "experiments/yolo/gdt651_ckh_four_shell_family_migration/artifacts/ONE_UNKNOWN_PASSAGES_V28.tsv", "role": "direct frozen V28 one-hole frontier", "sha256": "4c0bda6a284798c9b55b6446e2fd824ea97d21f514f572b9e64cc253e90b864e"},
+    {"path": "experiments/yolo/gdt651_ckh_four_shell_family_migration/artifacts/V28_EXACT_TOKEN_GLOSSARY.tsv", "role": "direct frozen V28 glossary", "sha256": "614714ad8c078d1a731ff3ea6232654d4a55bbdee8d70339392260474d1a5eef"},
+    {"path": "experiments/yolo/gdt651_ckh_four_shell_family_migration/artifacts/WORKING_DICTIONARY_V28.tsv", "role": "direct frozen V28 dictionary", "sha256": "809e0285deb07c356ea6de6e39d9ecf90b29557f2b94d082cdce06855ea9b6e4"},
+    {"path": "experiments/yolo/gdt651_ckh_four_shell_family_migration/artifacts/RESULT.json", "role": "direct frozen V28 result", "sha256": "eca669becbdb9aab4974bdb860490bdae7049abb90bf132507433f19f2280441"},
+    {"path": "experiments/yolo/gdt651_ckh_four_shell_family_migration/REPORT.md", "role": "direct V28 report", "sha256": "d5a3c447ed292d9a5f3fca426df89280f23c66c41a6b12836444767055cc6660"},
+    {"path": "experiments/yolo/gdt624_productive_quality_shell_grid/REPORT.md", "role": "productive quality-shell evidence", "sha256": "30eef6793c7f8f11f0248eb7f4edff360b0596f4d762a250c91cc06f3fee2129"},
+    {"path": "experiments/yolo/gdt632_cth_interfix_lattice/REPORT.md", "role": "quality-shell lattice evidence", "sha256": "f2fdebfaa317cd0848cc2bcdf9308c0ec625b80e068b0f0ed8e6cb7423a6a1a8"},
+    {"path": "experiments/yolo/gdt633_cth_interfix_semantic_contrasts/REPORT.md", "role": "O preparation and E attribution evidence", "sha256": "9e1b792cd3344a6eccfd05b390676bc00b27aa129f3d852a06b2785e97eb6a02"},
+    {"path": "experiments/yolo/gdt647_quality_subdegree_family_migration/REPORT.md", "role": "quality and subdegree evidence", "sha256": "6d139a35b41546a5e8bc4a49b83e3d6367d91d04245eeb848f0ce0d0f2bc905d"},
+    {"path": "experiments/yolo/gdt650_v26_strict_family_completion/REPORT.md", "role": "strict compound and CKH evidence", "sha256": "5555267980a648d017ba1b4f56d5ff0306d6e7d046aa14b88bb826d0c5af5846"},
+    {"path": "transcription/voynich_zl3b_tokens.tsv", "role": "guarded transcription input", "sha256": "6a061a26edc05ff37dc386c2215774c229a5ff087d3091e68bdd4983a6c007aa"},
+    {"path": "transcription/voynich_cross_transcription_lines.tsv", "role": "guarded cross-reader input", "sha256": "ff3a4559004a29764c60102326de154b29fbba06a2a206bdd76d7feda432e16c"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt652_strict_v28_frontier_completion/METHOD.md", "role": "method and decision rule", "sha256": "3f291b5b67385c58a21a366118f38993fd4b3872d2cf19db9076f36a329abea5"},
+    {"path": "experiments/yolo/gdt652_strict_v28_frontier_completion/README.md", "role": "experiment entry point", "sha256": "ce03c2b5ec76ad555e51754f9625a6eda79dd11a36275337fde42a7ce683c615"},
+    {"path": "experiments/yolo/gdt652_strict_v28_frontier_completion/REPORT.md", "role": "primary semantic report", "sha256": "c5c991f33400c83136ce928286976829f7627af6031d80576aefb1c1df0a6ef9"},
+    {"path": "experiments/yolo/gdt652_strict_v28_frontier_completion/artifacts/README.md", "role": "artifact map", "sha256": "922b798a5f6954d7de0f1f197f509633636d9b2a9c29c9007668f732063b50f5"},
+    {"path": "experiments/yolo/gdt652_strict_v28_frontier_completion/artifacts/TARGET_DECISION_DECK.tsv", "role": "35 exact-whole cards", "sha256": "388d9f85ab2d99069429a421f54849809d5b7ba01e5c780feaccb9817ed92957"},
+    {"path": "experiments/yolo/gdt652_strict_v28_frontier_completion/artifacts/FAMILY_EVIDENCE_ATLAS.tsv", "role": "target anchor hold and absent grid", "sha256": "38dde2be5c554772bd3924b3cb23c575aebb4535218049988d6dbde0e9f89254"},
+    {"path": "experiments/yolo/gdt652_strict_v28_frontier_completion/artifacts/BOUNDARY_BRIDGE_ATLAS.tsv", "role": "reader split and sister evidence", "sha256": "160ab1f203c1a078731af092379d197ce3e90c939769f787646200439bee5297"},
+    {"path": "experiments/yolo/gdt652_strict_v28_frontier_completion/artifacts/SOURCE_PASSAGE_REALITY_CHECK.tsv", "role": "five strict source translations", "sha256": "343a4c6df1baa2fe5ad27891ee5ea03946d32be48e424a0974462dfed96d84a3"},
+    {"path": "experiments/yolo/gdt652_strict_v28_frontier_completion/artifacts/RESULT.json", "role": "machine-readable result", "sha256": "52ea7e73d3cd0bb2962393010126a6daa5ca263a8214fb13726bcb8dccd06eae"},
+    {"path": "experiments/yolo/gdt652_strict_v28_frontier_completion/artifacts/V29_EXACT_TOKEN_GLOSSARY.tsv", "role": "reproducible V29 glossary", "sha256": "b6bf647a91d6639fe0cfebd84ff83263fb2858747e23e3b867a2165bb1aa9d16"},
+    {"path": "experiments/yolo/gdt652_strict_v28_frontier_completion/artifacts/ALL_LINE_CONCRETE_COVERAGE_V29.tsv", "role": "reproducible V29 coverage", "sha256": "d11cc85c77c88ec1b3dfc9a3115f650863db71e7db924a35ccdbf3090fabff7f"},
+    {"path": "experiments/yolo/gdt652_strict_v28_frontier_completion/artifacts/COMPLETE_PASSAGES_V29.tsv", "role": "reproducible V29 complete passages", "sha256": "13f2b6c2384f671a51fca8d3087dee4fd93e6dcc478b397fc2ff84da84d1d6e1"},
+    {"path": "experiments/yolo/gdt652_strict_v28_frontier_completion/artifacts/WORKING_DICTIONARY_V29.tsv", "role": "reproducible V29 dictionary", "sha256": "1c3584d86315d1b4adc4c8283e6dbc16ebdf96c88bc43bad732f678e6e89fbdd"},
+    {"path": "experiments/yolo/gdt652_strict_v28_frontier_completion/artifacts/VALIDATION.json", "role": "independent release validation", "sha256": "a66903a6d6aab68dc7143525506c21ce0fad876476678413f240091f77c0724a"},
+    {"path": "experiments/yolo/gdt652_strict_v28_frontier_completion/src/run.py", "role": "deterministic builder", "sha256": "5af1115bd6be59bdc5d57d7d30c918747f82c1fd0c1d6fec50450f7ca2ce523e"},
+    {"path": "experiments/yolo/gdt652_strict_v28_frontier_completion/src/validate.py", "role": "independent validator", "sha256": "fa30d572624fd185263042c1ed0cb861a5467d675745be4d5bdd8ed6d2dee40f"}
+  ],
+  "question": "Can the observed reader-anchored CKH, O-CKH, qualified O-CKH/O-K and O-materia surfaces be migrated as concrete whole-bound preparation grids that predict word compositions and close strict V28 passages?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "strict_v28_frontier_completion",
+  "status": "PASS_35_EXACT_WHOLES__V29_PREPARATION_AND_MATERIA_GRIDS",
+  "title": "V29 preparation and materia grid migration",
+  "updated": "2026-08-30",
+  "validation": {
+    "artifact": "experiments/yolo/gdt652_strict_v28_frontier_completion/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

@@ -16012,3 +16012,28 @@ family-wide correction. Observed zero-exact checkhedy/sheckhdy and seven absent
 cells remain holds. The next bounded route ranks the40 strict V28 one-hole
 surfaces by recurrence and complete-family support, beginning with repeated
 chdaly and yk/kchy frames; generic GDT639 hold prose is not inherited.
+
+## GDT652 turns four preparation grids into concrete V29 whole cards
+
+V29 adds35 observed exact-whole surfaces across five connected views of the
+same mixed lexicon:five neutral CKH forms,three O+CKH forms,nine qualified
+O+CKH forms,fourteen qualified O+K forms and four O+(P/S/R/L)+AL materia
+forms. The cards cover210 positions;175 are all-reader exact and178
+split-normalized. `O_PREP`,`CKH_LEARNED`,`E_ATTR`,`K_HEISS` and the local
+degree/completion tails remain structural family tags rather than free words.
+
+The strongest new compositional evidence is direct `o ckhy`/`ockhy` and
+`o ckhey`/`ockhey` reader splitting. Thus `ockhy` reads Ansatz eines
+Arzneikompositums am Gradanfang,and the qualified sisters render dry/moist
+compound preparations. The already complete OK hot-preparation ladder anchors
+the CHO/CHEO/SHO/SHEO+K grid. `opal/osal/oral/olal` receive whole-bound powder,
+seed,root and wood-preparation defaults; ORAL and OLAL retain explicit rival
+segmentations.
+
+V28→V29 moves dictionary450→485,glossary379→414,known14741→14951,
+complete107→113/strict62→67 and one-hole159→165/strict40→39. Six lines newly
+close,five strict;204 lines change,and the independent validator passes196
+checks. All absent,bridge-only and zero-exact cells stay outside. The next
+bounded packet starts with the reader-separated `orol=OR|OL`,then audits
+chckhal,octhdy,chdaly,sodal and singleton skar; initial-Y/YK,EEE forms and an
+unidentified free DAL noun remain separate.
