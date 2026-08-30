@@ -209,8 +209,9 @@ Fachfeldern. Sie identifizieren weder Ausgangssprache noch Klartext.
 
 ## Nächster Angriff
 
-V25 legt drei neue strikte Ein-Loch-Zeilen frei. Zuerst sind `shoiin`, `dair`
-und `okchor` gemeinsam gegen ihre bereits vorhandenen Leitern zu lesen. Danach
-folgen die gehaltenen Ordnungsfamilien, nicht nacktes DY oder initiales Y.
-Die sieben V25-Karten bleiben dabei unverändert, bis eine bessere konkrete
+V25 legt drei neue strikte Ein-Loch-Zeilen frei. Zuerst sind `shoiin`,
+`dairodg` und `chckhedy` gemeinsam gegen ihre bereits vorhandenen Leitern zu
+lesen. `dair` und `okchor` sind ebenfalls neu sichtbar, aber nicht strikt.
+Danach folgen die gehaltenen Ordnungsfamilien, nicht nacktes DY oder initiales
+Y. Die sieben V25-Karten bleiben dabei unverändert, bis eine bessere konkrete
 Lesung mehr ihrer Vorkommen mit weniger Sonderannahmen erklärt.

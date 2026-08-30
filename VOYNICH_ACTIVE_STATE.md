@@ -15934,7 +15934,8 @@ bridge is not shared by IT2a.
 V24→V25 moves dictionary410→417,glosses347→354,known13782→13995,complete
 77→87/strict42→49 and one-hole152→151/strict48→44. Ten lines newly close;
 seven are the clean source carriers. Nine new one-hole lines appear and three
-are strict:shoiin,dair,okchor. These three are the next bounded route against
-their already observed ladders. The seven V25 cards remain fixed during that
-pass. No new page,image,f1r,f84*,GDT418 value,generic filler,global suffix,
-bare component,absent cell,language or ingredient identity is licensed.
+are strict:shoiin,dairodg,chckhedy. These three are the next bounded route
+against their already observed ladders. dair and okchor are newly visible but
+non-strict. The seven V25 cards remain fixed during that pass. No new page,
+image,f1r,f84*,GDT418 value,generic filler,global suffix,bare component,absent
+cell,language or ingredient identity is licensed.
