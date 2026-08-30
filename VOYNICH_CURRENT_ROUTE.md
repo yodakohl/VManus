@@ -284,8 +284,8 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-GDT644 closes all five GDT643 holes:otal=cold raw-drug preparation I;cthol=CTH drug substance/herbal leaf-herb drug;chokchy=dry preparation:hot-dry base;qotchod=cold-dry preparation,finished-bound;ytchor=cold-dry portion of this drug,with y whole-bound.All195 positions:182 reader-exact,117 clean,65 opaque,13 warnings;five lines close.V21=298 dictionary/251 glosses/10230 known;complete49→54,strict35→38;one-hole65→75,strict20→26;1467 checks pass.
-GDT645 audits exact whole oky(89/80 exact) and otchor(16/16),then scoped ychair,cheaiin and cthom.The first two have complete6/6 and32/32 grids;cthom cannot free m.shotol/opal retain head-scope conflicts;bare s/yk/yd stay closed.Then return to keechy,chokshy,qotomody,odaiin.No f1r,new page/image,GDT418,generic filler,bare component or absent-cell transfer.
+GDT645 promotes five exact wholes:oky=hot preparation/base;otchor=cold-dry drug portion in preparation;ychair=second dry portion of this drug;cheaiin=dry in third degree;cthom=one handful leaf/herb preparation,with m whole-bound.The last is a bold period-M=manipulus hypothesis.All115 positions:105 reader-exact,60 clean,45 opaque,10 warnings;six lines close.V22=303 dictionary/256 glosses/10345 known;complete54→60,strict38→42;one-hole75→71,strict26→22;four family nulls held;686 checks pass.
+GDT646 audits newly exposed tcheey as an exact whole against K/T×CH/SH×E-length fields and attempts full f35r.5;bare s stays closed.Then rank shotol,opal,keechy,chokshy,qotomody,odaiin.No f1r,new page/image,GDT418,generic filler,bare component or absent-cell transfer.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`

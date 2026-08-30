@@ -15819,3 +15819,36 @@ may close two lines but cannot globalize m.shotol is held behind sh≠s-head sco
 opal behind the word-internal p-head transfer;bare s,yk,yd stay closed.No new
 page,image,f1r,f84*,GDT418 value,generic filler,substring,bare component or
 absent cell is licensed.
+
+## GDT645 turns the ranked frontier into six complete concrete lines
+
+GDT645 keeps the same guarded179-page V21 panel and promotes five exact-whole
+cards across115 positions:oky89/80 reader-exact,otchor16/16,ychair1/1,
+cheaiin4/3 and cthom5/5.The complete6/6 O/QO×K/T×Y grid supports oky=hot
+preparation/base form.The complete32/32 frame×K/T×CH×OL/OR grid supports
+otchor=cold-dry drug portion in the preparation.The r-final ar/air/aiir ladder
+makes ychair=second dry portion of this drug,whereas the n-final an/ain/aiin
+ladder makes cheaiin=dry in the third degree.
+
+All five cthom tokens lie in Herbal and are reader-exact.CTH+O supplies the
+leaf/herb preparation head;the period M=manipulus comparator motivates the
+bold exact-whole default one handful of leaf/herb preparation.GDT529's generic
+take/set/execute paraphrase is discarded.Terminal m remains bound to cthom;
+free m,om and O→OM are not licensed.The close rival is preparation form/unitI.
+
+Across the full target circuit,105 positions are all-reader exact,60 have at
+least two clean known companions,45 remain opaque-neutral and10 retain reader
+warnings,with zero recorded hard collision.The cards close f36v.13,f35r.14,
+f18r.12,f19v.14,f4r.7 and f6r.12;four are strict.V22 preserves the298-row V21
+prefix and grows to303 dictionary rows/256 exact glosses/10345 known positions;
+complete lines54→60/strict38→42 and one-hole lines75→71/strict26→22.The full
+YCHAIR and CHEA atlases retain yshair,cheaiiin,shean,sheaiiin as explicit
+ABSENT_PREDICTION_HOLD cells rather than invented words.The independent
+validator passes686 checks and byte-replays every builder output.
+
+Only otchor exposes new one-hole lines:f15v.5 ends in bare s and stays closed;
+f35r.5 exposes tcheey.The next route audits complete-surface tcheey against the
+already observed K/T,CH/SH and E-length fields and attempts the whole f35r.5
+reading.Then rank shotol,opal,keechy,chokshy,qotomody and odaiin.No new page,
+image,f1r,f84*,GDT418 value,generic filler,substring,bare component or absent
+cell is licensed.

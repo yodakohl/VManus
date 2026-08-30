@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **642**
-- Experiment-associated tracked files: **10,245** (1.0 GiB)
-- Structured GDT337+ experiments: **307**
+- Experiments indexed: **643**
+- Experiment-associated tracked files: **10,270** (1.0 GiB)
+- Structured GDT337+ experiments: **308**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT645 | GDT645_ranked_five_surface_completion | `PASS_5_RANKED_SURFACES__115_POSITIONS__6_NEW_COMPLETE_LINES` | [report](../experiments/yolo/gdt645_ranked_five_surface_completion/REPORT.md) | 25 | 2.5 MiB | 18 | STRUCTURED_YOLO |
 | GDT644 | GDT644_manifest_output_dedup_correction | `CORRECTED_DUPLICATE_OUTPUT_PATH` | [report](../experiments/yolo/gdt644_downstream_five_surface_completion/experiment.json) | 25 | 2.5 MiB | 15 | STRUCTURED_YOLO |
 | GDT643 | GDT643_exposed_five_hole_completion | `PASS_5_EXPOSED_HOLES__5_NEW_COMPLETE_LINES__68_POSITIONS` | [report](../experiments/yolo/gdt643_exposed_five_hole_completion/REPORT.md) | 25 | 2.4 MiB | 15 | STRUCTURED_YOLO |
 | GDT642 | GDT642_exact_e_ol_or_carrier_completion | `PASS_3_EXACT_E_CARRIERS__219_POSITIONS__5_NEW_ONE_HOLES` | [report](../experiments/yolo/gdt642_exact_e_ol_or_carrier_completion/REPORT.md) | 27 | 2.5 MiB | 7 | STRUCTURED_YOLO |
