@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **666**
-- Experiment-associated tracked files: **10,997** (1.1 GiB)
-- Structured GDT337+ experiments: **331**
+- Experiments indexed: **667**
+- Experiment-associated tracked files: **11,044** (1.1 GiB)
+- Structured GDT337+ experiments: **332**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,8 +20,9 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT669 | GDT669_thirty_seven_residual_family_completion | `PASS_165_TARGET_POSITIONS__V46_CONCRETE_RECIPE_REGISTER` | [report](../experiments/yolo/gdt669_thirty_seven_residual_family_completion/REPORT.md) | 47 | 5.7 MiB | 10 | STRUCTURED_YOLO |
 | GDT668 | GDT668_seventy_six_residual_family_completion | `PASS_230_TARGET_POSITIONS__V45_CONCRETE_RECIPE_REGISTER` | [report](../experiments/yolo/gdt668_seventy_six_residual_family_completion/REPORT.md) | 44 | 5.9 MiB | 9 | STRUCTURED_YOLO |
-| GDT667 | GDT667_manifest_role_count_correction | `CORRECTED_MANIFEST_DESCRIPTION_1925_TO_1924` | [report](../experiments/yolo/gdt667_one_hundred_one_residual_family_completion/experiment.json) | 44 | 6.4 MiB | 8 | STRUCTURED_YOLO |
+| GDT667 | GDT667_one_hundred_one_residual_family_completion | `PASS_438_TARGET_POSITIONS__V44_CONCRETE_RECIPE_REGISTER` | [report](../experiments/yolo/gdt667_one_hundred_one_residual_family_completion/REPORT.md) | 44 | 6.4 MiB | 8 | STRUCTURED_YOLO |
 | GDT666 | GDT666_one_hundred_fifty_one_residual_family_completion | `PASS_612_TARGET_POSITIONS__V43_CONCRETE_RECIPE_REGISTER` | [report](../experiments/yolo/gdt666_one_hundred_fifty_one_residual_family_completion/REPORT.md) | 45 | 6.9 MiB | 7 | STRUCTURED_YOLO |
 | GDT665 | GDT665_one_hundred_forty_eight_residual_family_completion | `PASS_994_TARGET_POSITIONS__V42_CONCRETE_RECIPE_REGISTER` | [report](../experiments/yolo/gdt665_one_hundred_forty_eight_residual_family_completion/REPORT.md) | 42 | 7.6 MiB | 6 | STRUCTURED_YOLO |
 | GDT664 | GDT664_one_hundred_forty_residual_family_completion | `PASS_1141_TARGET_POSITIONS__V41_CONCRETE_RECIPE_REGISTER` | [report](../experiments/yolo/gdt664_one_hundred_forty_residual_family_completion/REPORT.md) | 37 | 7.5 MiB | 5 | STRUCTURED_YOLO |

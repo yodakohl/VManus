@@ -16516,3 +16516,35 @@ frequency is led by `shear`22, `sh`14, `shedaiin` and `shek`10, `dcheey`9,
 `dals`8, then `cthal`, `ro`, and `sary`7. GDT669 should begin with the
 recurrent SH/SHE, measure, and material families using the unchanged V45 role
 sheet, with no new page or image and no f1r, f84 or f84r.
+
+## GDT669 closes the SH/SHE frontier as the V46 workshop register
+
+V46 assigns all 165 target positions in 165 lines on 95 already released
+pages and closes all 37 inherited one-hole rows. Known positions move
+23,832→23,997 and unknown 8,507→8,342. Complete multi-token lines move
+1,153→1,191/strict 299→306; one-hole lines move 180→170/strict 38→38. The
+glossary grows 1,350→1,387 and the dictionary 2,022→2,071 through 37 defaults
+and twelve context renderings.
+
+The final synthesis has 35 role-composed cards and two learned exact reader
+aliases. `lkchdal` at f105v.13 is `lkeedal` in both IT2a and RF1b; `eeckhy` at
+f51r.7 is `chckhy` in both. ZL3b keeps each as a learned whole rather than
+receiving invisible atoms. The recurrent moisture spine stays productive:
+`sh=SH_MOIST`, `shear=SH_MOIST+E_MIDDLE+AR_FRACTION_I`,
+`shek=SH_MOIST+E_MIDDLE+K_HOT`, and
+`shedaiin=SH_MOIST+E_MIDDLE+D_MEASURE+AIIN_III`. Two narrow blocks,
+`OY_PREP_BASE` and `OKY_HOT_PREP_BASE`, raise the shared role sheet 54→56.
+`olkair` retains initial `O_PREP+L_WOOD`; `tcheodal` retains the visible
+cold→dry→prepare→measure sequence.
+
+An independent reader supplies six narrow passage corrections; the root
+consistency pass catches two further instances of the same lost process
+direction. All twenty source lines remain exact and complete. Independent
+source-first validation passes 5,425 checks with byte-identical replay.
+
+The next frontier has 28 one-hole lines and 28 distinct forms. Full-panel
+frequency is led by `otair`22, `ytey`10, `cphy`9, `chekain`7, `chedol` and
+`shkaiin`5, `kchaiin` and `qoiiin`4, then `otodar`3 and `ka`2. GDT670 should
+first compose this fixed remainder from the unchanged 56-role sheet and add a
+new block only where the visible form cannot otherwise be reconstructed. No
+new page or image and no f1r, f84 or f84r is needed.
