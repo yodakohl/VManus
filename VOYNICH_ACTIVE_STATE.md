@@ -16056,3 +16056,30 @@ AR ladder predict `heiße Fraktion I`. It is not silently rewritten here.
 GDT654 must consolidate exact wholes `ar/or/kar/rkar/qokar` across853
 positions before the DAL259/AL204 materia migration. No new page,image or f1r
 enters.
+
+## GDT654 consolidates the AR/OR fraction-versus-portion surface system
+
+V31 adds seventeen observed exact-whole cards and visibly revises two existing
+cards across1,347 target positions/990 lines;1,051 are all-reader exact and
+1,053 split-normalized. `AR` now reads DrogenfraktionI (naturally a
+Mischungsanteil or technical class,not a claimed distillate),while `OR` reads
+Drogenportion. K/T supply hot/cold,O supplies preparation context and QO stays
+a structural scope. The old `qokar=heiße Portion` is corrected to heiße
+DrogenfraktionI because the observed `qokor` occupies the hot-portion cell.
+
+The complete BARE/O/QO×nine-qualifier×AR/OR control grid has54 cells,45
+observed,1,882 occurrences and1,516 all-reader exact. Only19 transparent
+whole surfaces are migrated; CH/SH learned-head collisions remain held. Direct
+reader witnesses include two A R/AR splits,one O R/OR split,two O+KAR splits
+and one L+KAR split. V30→V31 moves dictionary491→510,glossary420→437,
+known14973→15846,complete119→123/strict73→75 and one-hole160→197/strict34→44.
+Four lines newly close; f37r.7 is strict and the already complete f6r.12
+becomes strict after OR loses ambiguity. Independent validation passes502
+checks including byte-identical22-file replay.
+
+The next route is the distinct DAL259/AL204 materia field. A guarded census
+identifies a high-yield four-card core `al/dal/chdal/shedal` across425
+positions and six potential closures. Test `AL=RohstoffklasseI` and
+`DAL=abgemessene RohstoffmengeI` against the retained `Rohdrogenposten` rival;
+the three-reader-exact `dain dail dair` row is the strongest parallel-measure
+anchor. Do not infer free A/L/D pieces from this family.

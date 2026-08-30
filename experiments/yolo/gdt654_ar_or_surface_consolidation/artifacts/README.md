@@ -1,0 +1,22 @@
+# GDT654 artifacts
+
+- `TARGET_DECISION_DECK.tsv`: 19 konkrete Ganzwortentscheidungen mit Rivalen.
+- `FULL_AR_OR_PAIR_GRID.tsv`: vollständiges 54-Zellen-Kontrollraster.
+- `FAMILY_CONTRAST_ATLAS.tsv`: AR/OR-Leitern, Materialköpfe und Holds.
+- `PAIR_CONTRAST_COUNTS.tsv`: gemeinsame Zeilen der bedeutungsverschiedenen Paare.
+- `BOUNDARY_EVIDENCE_ATLAS.tsv`: direkte Split/Fusionszeugen und Warnungen.
+- `REVISION_LEDGER.tsv`: sichtbare V30→V31-Korrekturen für OR und QOKAR.
+- `ALL_OCCURRENCE_SEMANTIC_AUDIT.tsv`: alle 1.347 Zielvorkommen.
+- `READER_VARIANT_AUDIT.tsv`: nicht dreileser-exakte Zielstellen.
+- `SOURCE_PASSAGE_REALITY_CHECK.tsv`: ausgewählte reale Kontexte je Zielwort.
+- `CURATED_COMPLETE_PASSAGE_READINGS.tsv`: zehn vollständige Werkstattlektüren.
+- `NEWLY_COMPLETED_LINES.tsv`: vier durch V31 geschlossene Zeilen.
+- `NEWLY_EXPOSED_ONE_HOLE_LINES.tsv`: 41 neue Ein-Loch-Zeilen.
+- `ROUND_COVERAGE_COUNTS.tsv`: Abdeckung nach jeder Karte.
+- `V31_EXACT_TOKEN_GLOSSARY.tsv`: reproduzierbare V31-Glossardecke.
+- `ALL_LINE_CONCRETE_COVERAGE_V31.tsv`: alle 4.128 zugelassenen Zeilen.
+- `COMPLETE_PASSAGES_V31.tsv`: alle vollständigen Mehrwortzeilen.
+- `ONE_UNKNOWN_PASSAGES_V31.tsv`: V31-Ein-Loch-Frontier.
+- `WORKING_DICTIONARY_V31.tsv`: append-only Arbeitswörterbuch V31.
+- `RESULT.json`: maschinenlesbare Zusammenfassung und Hashbindung.
+- `VALIDATION.json`: unabhängige Replay- und Releaseprüfung.

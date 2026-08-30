@@ -284,7 +284,7 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-GDT653 makes V30 with6 exact-whole compounds/22 positions:20 reader-exact;6 lines close/all strict.V30=491 dictionary/420 glosses/14973 known;complete119/strict73;one-hole160/strict34.orol=Drogenstoffportion;chckhal=trockenes Arzneikompositum,RohstoffformI;octhdy=fertige Drogenzubereitung,Grundform;chdaly=trockener Rohdrogenposten,Grundform;sodal=Saatdrogenposten im Ansatz;skar=heiße SamenfraktionI.Old qokar=heiße Portion conflicts across153 tokens with K+AR=heiße FraktionI.Next GDT654 consolidates ar/or/kar/rkar/qokar across853 positions,then DAL259/AL204.No f1r,new page/image,filler,free tags,absent cell,plaintext or exact ingredient.
+GDT654 makes V31 with19 exact-whole AR/OR cards/1347 target positions:1051 reader-exact;the54-cell control grid has45 observed/1882 positions/1516 exact.QOKAR is corrected from hot portion to hot fractionI because QOKOR occupies hot portion.V31=510 dictionary/437 glosses/15846 known;complete123/strict75;one-hole197/strict44.Next GDT655 tests AL=raw-material classI and DAL=measured raw-material amountI through al/dal/chdal/shedal across425 positions and6 potential closures;raw-drug lot remains the rival.No f1r,new page/image,filler,free tags,absent cell,plaintext or exact ingredient.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`
