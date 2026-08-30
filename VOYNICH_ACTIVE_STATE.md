@@ -16037,3 +16037,22 @@ checks. All absent,bridge-only and zero-exact cells stay outside. The next
 bounded packet starts with the reader-separated `orol=OR|OL`,then audits
 chckhal,octhdy,chdaly,sodal and singleton skar; initial-Y/YK,EEE forms and an
 unidentified free DAL noun remain separate.
+
+## GDT653 closes six strict V29 holes and exposes the QOKAR conflict
+
+V30 adds six observed exact-whole compounds: `orol` Drogenstoffportion,
+`chckhal` trockenes Arzneikompositum in Rohstoffform I, `octhdy` fertig
+aufbereitete Drogenzubereitung in Grundform, `chdaly` trockener
+Rohdrogenposten in Grundform, `sodal` Ansatz aus einem Saatdrogenposten and
+`skar` heiße Samenfraktion I. They cover22 positions,20 all-reader exact and
+20 split-normalized. Six lines newly close and all six are strict.
+
+V29→V30 moves dictionary485→491,glossary414→420,known14951→14973,
+complete113→119/strict67→73 and one-hole165→160/strict39→34. The
+independent validator passes479 checks including a byte-identical20-file
+replay. The family atlas also makes one inherited inconsistency explicit:
+V29 `qokar=heiße Portion` occurs153 times but visible K+AR and the productive
+AR ladder predict `heiße Fraktion I`. It is not silently rewritten here.
+GDT654 must consolidate exact wholes `ar/or/kar/rkar/qokar` across853
+positions before the DAL259/AL204 materia migration. No new page,image or f1r
+enters.

@@ -284,7 +284,7 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-GDT652 makes V29 with35 exact-whole cards/210 positions across neutral CKH,O+CKH,qualified O+CKH/O+K and O+(P/S/R/L)+AL grids:175 reader-exact,178 normalized;6 lines close/5 strict.V29=485 dictionary/414 glosses/14951 known;complete113/strict67;one-hole165/strict39.O_PREP+CKH has direct o ckhy/ockhy and o ckhey/ockhey splits;opal/osal/oral/olal read powder/seed/root/wood preparations,with oral/olal segmentation rivals.Hold all absent/zero-exact cells.Next exact-boundary packet ranks orol=OR|OL,chckhal,octhdy,chdaly,sodal,skar;keep YK/initial-Y,DAL noun and EEE forms separate.No f1r,new page/image,GDT418,generic filler,free tags,absent cell or exact ingredient identity.
+GDT653 makes V30 with6 exact-whole compounds/22 positions:20 reader-exact;6 lines close/all strict.V30=491 dictionary/420 glosses/14973 known;complete119/strict73;one-hole160/strict34.orol=Drogenstoffportion;chckhal=trockenes Arzneikompositum,RohstoffformI;octhdy=fertige Drogenzubereitung,Grundform;chdaly=trockener Rohdrogenposten,Grundform;sodal=Saatdrogenposten im Ansatz;skar=heiße SamenfraktionI.Old qokar=heiße Portion conflicts across153 tokens with K+AR=heiße FraktionI.Next GDT654 consolidates ar/or/kar/rkar/qokar across853 positions,then DAL259/AL204.No f1r,new page/image,filler,free tags,absent cell,plaintext or exact ingredient.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`
