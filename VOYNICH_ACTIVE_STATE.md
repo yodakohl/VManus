@@ -16460,3 +16460,30 @@ The next frontier has 102 one-hole lines exposing 101 distinct forms, led by
 `qoolkeey`, `oiees`, `oain`, `olshy` and `ypchedy`. GDT667 should compose these
 from V43 on the same page panel, reuse the OLY and free-`g` exclusions, and
 open no new page or image and no f1r, f84 or f84r.
+
+## GDT667 turns the 101-form remainder into the V44 workshop register
+
+V44 assigns all 438 target positions in 419 lines on 145 already released
+pages and closes all 102 inherited one-hole rows. Known positions move
+23,164→23,602 and unknown 9,175→8,737. Complete multi-token lines move
+968→1,073/strict 257→281; one-hole lines move 251→222/strict 59→50. The
+glossary grows 1,173→1,274 and the dictionary 1,769→1,925.
+
+Full-panel family search improves the conservative 85-composed/16-learned
+draft to 94 role-composed cards and seven learned exact wholes. Four scoped
+roles expand the sheet from 48 to 52: narrow `i=Form I`, recurrent
+`so=Saatgutzubereitung`, terminal `om=eine Handvoll Ansatz`, and
+`cph=Arzneikompositum`. `I_FORM_I`, `F_FLOWER`, and `G_GRAIN_SIGLUM` remain
+enumerated narrow scopes; free `g` remains the inherited post-closing whole.
+`qoctholy` independently composes the inherited `oly=abseihen` action.
+
+A second token-by-token audit corrects eighteen of twenty-five manual passage
+readings: it removes unlicensed “take/add/put” verbs and restores omitted
+cooling, measuring, drying, preparing and closing operations. Independent
+source-first validation passes 6,811 checks with byte-identical replay.
+
+The next frontier has 76 one-hole lines and 76 distinct forms. Full-panel
+frequency is led by `okeor`15, `cheeor`13, `shedain`12, then `cheeol`, `okees`,
+`qolchey`, `qotcho`, and `tody` at nine each. GDT668 should compose these from
+V44 on the same page panel without opening a new page or image and without
+using f1r, f84 or f84r.
