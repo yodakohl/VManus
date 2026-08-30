@@ -284,8 +284,7 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-GDT645 adds oky,otchor,ychair,cheaiin,cthom over115 positions and closes six lines.V22=303 dictionary/256 glosses/10345 known;complete60/strict42;one-hole71/strict22.
-GDT646 adds exact tcheey=cold and dry at the end of its degree at6/6 positions and closes f35r.5.The K/T×CH/SH×{y,ey,eey/dy,edy,eedy} atlas is21/24 observed,with the non-d arm12/12.Tadhg O Cuinn's 1415 materia medica independently writes beginning/middle/end inside separately numbered humoral degrees,so y/ey/eey=beginning/middle/end beats Form0/I/II and hidden degreeI/II.V23=304 dictionary/257 glosses/10351 known;complete61/strict42;one-hole70/strict22.Next propagate this axis through sibling wholes/passages,then odaiin=preparation doseIII(55 positions,two lines);shotol,opal,keechy,chokshy,qotomody follow.No f1r,new page/image,GDT418,generic filler,bare component or absent-cell transfer.
+GDT647 propagates GDT646's 1415-backed beginning/middle/end-of-degree axis to107 observed quality-headed exact wholes:5664 positions/178 pages,102 surfaces with a three-reader anchor,5 reader warnings and13 absent holds.Only fixed A=(empty|o|qo)+(k|t)+(ch|sh)+S,B=(ch|sh)+S,C=(k|t|ok|ot|qok|qot)+S migrate;S=y/ey/eey/dy/edy/eedy.Naked CTH/material heads,reversed compounds,EEE and other ladders stay unchanged.V24=410 dictionary/347 glosses/13782 known;complete77/strict42;one-hole152/strict48.Next rank the26 newly exposed strict holes,starting with recurrent odaiin,against their concrete quality/position/degree contexts.No global suffix,free component,absent cell,f1r,new page/image,GDT418 or generic filler.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`

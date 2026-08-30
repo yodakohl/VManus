@@ -1,0 +1,9 @@
+decision	scope_id	surface_pattern	reason
+INCLUDE	A	(empty|o|qo)+(k|t)+(ch|sh)+(y|ey|eey|dy|edy|eedy)	Exakte qualitatskopfige Ganzoberflachen; o/qo bleiben gebunden.
+INCLUDE	B	(ch|sh)+(y|ey|eey|dy|edy|eedy)	Exakte Trocken-/Feucht-Ganzoberflachen.
+INCLUDE	C	(k|t|ok|ot|qok|qot)+(y|ey|eey|dy|edy|eedy)	Exakte Heiss-/Kalt-Ganzoberflachen; C hat keinen Feuchte-/Trocken-Slot.
+EXCLUDE	CTH	cth/octh/qocth families	Ohne sichtbaren Qualitatskopf ist unklar, wessen Gradposition bezeichnet wird.
+EXCLUDE	MATERIAL_HEADS	p/s/r/l + y-family remainder	Nacktes y wird nicht zu Gradanfang globalisiert; ly/soysar bleiben unverandert.
+EXCLUDE	REVERSED_COMPOUNDS	choky/chokchy/shok* and analogues	Andere Reihenfolge; braucht einen eigenen exact-whole-Audit.
+EXCLUDE	OTHER_LADDERS	aN/oiin/air/al/ol/or	Gradnummer, Zubereitungsform, Fraktion und Materialtrager bleiben getrennte Achsen.
+EXCLUDE	OVERLONG_OR_REORDERED	qokeeedy/keechy/initial-y forms	EEE, EE-vor-CH und initiales y sind nicht von der Dreierachse lizenziert.

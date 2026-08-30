@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **644**
-- Experiment-associated tracked files: **10,296** (1.0 GiB)
-- Structured GDT337+ experiments: **309**
+- Experiments indexed: **645**
+- Experiment-associated tracked files: **10,321** (1.0 GiB)
+- Structured GDT337+ experiments: **310**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT647 | GDT647_quality_subdegree_family_migration | `PASS_107_OBSERVED_QUALITY_WHOLES__NO_SUFFIX_GLOBALIZATION` | [report](../experiments/yolo/gdt647_quality_subdegree_family_migration/REPORT.md) | 25 | 7.5 MiB | 2 | STRUCTURED_YOLO |
 | GDT646 | GDT646_tcheey_surface_completion | `PASS_1_EXACT_SURFACE__6_POSITIONS__1_NEW_COMPLETE_LINE` | [report](../experiments/yolo/gdt646_tcheey_surface_completion/REPORT.md) | 26 | 2.3 MiB | 16 | STRUCTURED_YOLO |
 | GDT645 | GDT645_ranked_five_surface_completion | `PASS_5_RANKED_SURFACES__115_POSITIONS__6_NEW_COMPLETE_LINES` | [report](../experiments/yolo/gdt645_ranked_five_surface_completion/REPORT.md) | 25 | 2.5 MiB | 18 | STRUCTURED_YOLO |
 | GDT644 | GDT644_manifest_output_dedup_correction | `CORRECTED_DUPLICATE_OUTPUT_PATH` | [report](../experiments/yolo/gdt644_downstream_five_surface_completion/experiment.json) | 25 | 2.5 MiB | 15 | STRUCTURED_YOLO |
