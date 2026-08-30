@@ -16256,3 +16256,37 @@ group their existing families before assigning defaults, beginning with the
 recurrent quality/preparation wholes and treating short `r`, `d`, `cho`, `am`
 and `dam` contextually rather than turning them into universal lexemes. No new
 page,image,f1r,f84/f84r or substring shortcut is needed.
+
+## GDT661 closes the forty-eight V37 residual surfaces with concrete families
+
+V38 assigns every one of the872 target positions in786 lines on168 pages.
+Forty-six surfaces receive exact-whole cards. Naked `r` and `d` remain outside
+the global glossary:124 P-token `r` read as Wurzel/Wurzeldroge and five L-token
+as Wurzelzeichen;47 P-token `d` read as Dosis/Maß and six L-token as
+Dosis-/Maßzeichen. `cho=Trockenansatz`, `am=Maßeinheit I`, `dam=Dosis I` and
+`sain=Saatgut, Typ/Charge II` are the strongest short practical readings.
+
+The main composed additions include `okchol=heißer Ansatz aus Trockengut`,
+`ctholy=Blatt-/Krautdroge in Grundform`, `odan/kodaiin=Zubereitungsdosis I /`
+`erhitzte Zubereitung,Dosis III`, `dshor=abgemessene Blüten-/Fruchtdroge`,
+`cheeky=trocken am Gradende,dann heiß am Gradanfang` and
+`dalchedy=abgemessener Rohstoff I,trocken in der Gradmitte,abgeschlossen`.
+Seven low cards remain explicit rather than being hidden by neutral prose;
+`oeeo=zweiter Mazerationsansatz` is the deliberately creative Singleton.
+
+Known positions move17579→18451 and unknown14760→13888. Complete multi-token
+lines move172→233/strict83→99; one-hole lines move273→290/strict68→73. The
+global glossary grows510→556 and the dictionary606→678 through46 whole cards
+and26 render cards. All31467 non-target projections are identical. Reader-exact
+support is600; conservative complete-token-span normalization is602 through
+two `sheody ↔ sheo|dy` splits. Independent validation passes97 checks with an
+18-file byte-identical replay, including repeated-token renderer regressions.
+
+The next front contains78 newly exposed one-hole lines and76 distinct surfaces
+with861 inherited occurrences. Thirty-three surfaces with at least five
+occurrences already cover792/861 positions; the leading forms are `qol`132,
+`qokol`88,`oly`53,`qo`50,`qodaiin`41,`choty`34,`shar`29 and `chl`28. Route
+checking found only the expected earlier completion experiments, not this
+target set. GDT662 should close the dense families first and give every rare
+remainder an explicit replaceable card without new pages,images,f1r,f84/f84r
+or substring inheritance.
