@@ -284,8 +284,8 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-GDT642 adds only exact whole cheol=ch+e+ol=dry drug material(142),cheor=ch+e+or=dry drug part(71),and tcheol=tch+e+ol=cold-dry drug material(6).All219 positions are audited against fixed V18:117 concrete-compatible,63 opaque,39 reader warnings,zero hard collisions.E/NONE×OL/OR has11 complete prefix rows.V19=288 dictionary rows/241 surfaces;known9967;complete44/clean33 unchanged;one-hole60→65,clean17→19;612 checks pass.
-Next audit the five newly exposed exact holes separately:cheodain at f51v.13(dried preparation gradeII),oiin at f15v.11(preparation formIII),choky at f88v.26(dry preparation base),soysar at f96v.13(seed fraction/preparation),and kcheedy at f107r.20(hot finished form).If their full circuits hold they close five concrete lines.Then return to keechy,chokshy,qotomody and reader-unstable odaiin.No f1r,new page/image,GDT418 import,generic filler,bare component or absent-cell transfer.
+GDT643 closes all five GDT642 holes with exact-surface V20 cards:cheodain=Trockenansatz,DosisII;oiin=ZubereitungsformIII;choky=heiß-trockene Zubereitung,Grundform;soysar=visible soy|sar=Samenzubereitung,Grundform+SamenfraktionI;kcheedy=heiß-trockene gebundene Abschlussform,StufeII,with RF1b tcheedy=cold rival.All68 positions:23 clean-context,27 opaque/unstable,17 reader warnings,1 split package.V20=293 rows/246 surfaces;known10035;complete44→49,clean33→35;one-hole65,clean20;678 checks pass.
+Next consume the five new holes in this order:otal=cold-raw preparation formI;cthol=CTH drug material/Herbal leaf-herb material;chokchy=dry preparation from hot-dry drug,base; qotchod=cold-dry preparation,closed state;then ytchor=cold-dry portion in Y/current-entry frame without globalizing y.Afterward return to keechy,chokshy,qotomody,odaiin.No f1r,new page/image,GDT418 import,generic filler,bare component or absent-cell transfer.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`

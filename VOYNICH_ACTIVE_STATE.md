@@ -15741,3 +15741,47 @@ dry preparation base,seed fraction/preparation and hot finished form. If they
 hold,they close five content-diverse lines. Then return to keechy,chokshy,
 qotomody and reader-unstable odaiin. No new page,image,f1r,f84*,GDT418 value,
 generic filler,substring,bare component or absent-cell transfer is licensed.
+
+## GDT643 closes the five exposed holes with five different technical slots
+
+GDT643 stays on the byte-identical guarded179-page V19 scope and consumes all
+five one-hole surfaces exposed by GDT642. Their circuits contain68 target
+positions:cheodain8,oiin26,choky32,soysar1,kcheedy1. Exact-reader support is
+5,15,30,0,0;soysar survives all readers only as the boundary-normalized
+soy|sar package,and kcheedy is identical in ZL3b/IT2a while RF1b reads the
+opposite-temperature tcheedy.
+
+V20 adds exact complete-surface defaults with different practical fields:
+cheodain=ch+e+o+d+ain=Trockenansatz,DosisII;oiin=o+iin=
+ZubereitungsformIII;choky=ch+o+k+y=heiß-trockene Zubereitung,Grundform;
+soysar=soy|sar=s+o+y|s+ar=Samenzubereitung,Grundform plus SamenfraktionI;and
+kcheedy=k+ch+ee+d+y=heiß-trockene gebundene Abschlussform,BindungsstufeII.
+The kcheedy card is explicitly ZL3b/IT2a-bound;RF1b supplies the cold rival.
+Neither soy,sar,y nor another bare component is newly globalized.
+
+Against the unchanged V19 context,23 occurrences have at least two clean
+already glossed companions,27 exact occurrences remain opaque or unstable,17
+carry reader warnings and one is the constructive soy|sar split. The earlier
+30/20 sketch was corrected because ambiguous and reader-unstable companions
+must not count as clean support. No meaning changes under that correction.
+The zero hard-collision field is a manual recorded flag,not an independent
+semantic proof. The occurrence reader test is ordinal-aware,all inherited
+GDT631–642 helper sources are hash-sealed,and two clean builds are byte-equal.
+
+The five completed lines are f51v.13=grade/measureIII;dry drug material;
+dry preparation doseII,f15v.11=seed material as preparation formIII;dry drug
+part;dry material gradeIII;CTH material,f88v.26=seedIII;hot-dry preparation
+base;dry drug part;moist base,f96v.13=seed preparation base;seed fractionI;dry
+drug part,and f107r.20=cold-dry drug material;hot-dry bound final formII with
+the RF1b cold/cold alternative. Complete lines grow44→49 and clean lines
+33→35;dictionary288→293,glossary241→246,known positions9967→10035. Five new
+holes replace the five consumed holes,so one-hole lines remain65 while clean
+one-hole lines rise19→20. The validator passes678 checks.
+
+The immediate next cascade is otal=cold-raw preparation formI,cthol=CTH drug
+material/Herbal leaf-herb material,chokchy=dry preparation from hot-dry drug
+in base form,qotchod=cold-dry preparation in closed state,and finally ytchor=
+cold-dry drug portion in a still-open Y/current-entry frame. The first four
+have direct opposition or carrier lattices;ytchor may receive an exact-whole
+default but may not globalize initial y. No new page,image,f1r,f84*,GDT418
+value,generic filler,substring,bare component or absent cell is licensed.
