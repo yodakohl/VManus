@@ -284,7 +284,7 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-GDT656 makes V33 with21 reader-anchored AL-position cards:659 positions/567 exact;CH/SH/K/T=dry/moist/hot/cold and zero/E/EE=start/middle/end only in bound whole surfaces.AL=raw-material classI;O=preparation context;QO remains structural.OEEAL is a local exact-whole analogy,not free EE.V33=550 dictionary/471 glosses/16635 known;complete133/strict78;one-hole239/strict57.Three lines close;f83v.16 is strict.Hold CHEEEAL/EEAL/KEEAL and absent cells.Next GDT657 audits the13 already observed multi-quality AL shells(48 positions/42 exact) for two-axis composition.No new page/image,f1r,free component,plaintext or exact ingredient.
+GDT657 makes V34 with20 ordered/nested multi-quality AL whole cards:61 positions/52 three-reader exact across44 pages;V34=570 dictionary/491 glosses/16696 known;complete133/strict78;one-hole243/strict59.CHOKAL=CHO+KAL remains distinct from OKCHAL=O+KCH+AL,and CHKAL=CH+KAL from KCHAL=K+CHAL.CHO/CHEO/SHO/SHEO stay bound preparation heads.No target pair shares a line;15 target lines have a simple V33 AL sister;seven predicted core cells remain unattested.Three separate overlapping nonleak decks hold.Four new residuals are OTAM/SHEDEFAM/SCHOS/CHOKCHEO.Next GDT658 tests concrete exact-whole meanings for exactly these four against their K/T-AM,F-head,S-CHO-S and nested CHO/K/CHEO families.No new page/image,f1r,free component,plaintext or exact ingredient.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`

@@ -16131,3 +16131,28 @@ retain explicit reader notes. Independent validation passes615 checks with a
 byte-identical23-file replay. Next audit only the13 already observed
 multi-quality AL shells(48 positions/42 exact) for two-axis composition; no
 new page,image or f1r enters.
+
+## GDT657 preserves quality order and nesting across multi-quality AL wholes
+
+V34 adds twenty observed exact-whole cards across61 positions on44 pages;
+52 positions are exact in all three readers and nine retain explicit reader
+warnings. The live distinctions are ordered rather than bags of qualities:
+`chokal=cho+kal` (dry preparation from hot raw material) differs from
+`okchal=o+kch+al` (preparation from hot-dry raw material), while
+`chkal=ch+kal` differs from `kchal=k+chal`. `cho/cheo/sho/sheo` therefore stay
+bound preparation heads and are not flattened into free character values.
+
+No two GDT657 target forms co-occur in one line, but15 target lines contain a
+simple V33 AL sister. Seven predicted core cells remain unattested. Three
+separate, overlapping nonleak decks contain4 direct superforms,45 global
+short-tail types and45 CH/SH...AL frontier types; they are controls and are
+not summed. V33→V34 moves dictionary550→570,glossary471→491,known
+16635→16696 and unknown15704→15643; complete lines stay133/strict78, while
+one-hole lines move239→243/strict57→59. Independent validation passes646
+checks including a byte-identical25-file replay.
+
+The four newly exposed residuals are `otam` at f33r.5, `shedefam` at f66v.5,
+`schos` at f93r.32 and `chokcheo` at f56r.13. GDT658 must assign concrete
+whole meanings to exactly these four through the complete K/T-AM,F-head,
+S-CHO-S and nested CHO/K/CHEO families before any wider expansion. No new
+page,image,f1r,free component,plaintext or exact ingredient enters.
