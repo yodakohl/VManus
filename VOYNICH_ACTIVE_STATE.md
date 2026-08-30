@@ -16190,3 +16190,35 @@ Two independent GDT658 analysts each accidentally previewed the mixed ZL3b
 header plus its first f1r row once. Both rows were discarded; all reported
 counts were regenerated through the guarded179-page query with f1r/f84/f84r
 blocked, and no result depends on either preview.
+
+## GDT659 makes naked y a scoped entry boundary rather than a global word
+
+V36 assigns all270 whitespace-delimited `y` positions in257 lines on125 pages
+through eight occurrence-context cards. The census is60 BOS,167 medial,34 EOS
+and9 only;259 are P tokens and11 L tokens. All nine only-token cases are label
+lines. Reader attachment follows position: BOS binds only right and EOS only
+left in the single-y line census, while medial y binds both ways. Exactly83
+individual positions remain separately `y` in both IT2a and RF1b after
+occurrence alignment; the earlier count-only proxy of84 was corrected.
+
+The final card counts are11 label,60 BOS entry,33 EOS close,31 medial right,
+35 medial left,49 bidirectional hinge,38 unresolved hinge and13 right-bound
+materia/preparation subtypes. Twelve materia cases were already mechanically
+right-bound; only f80v.21 changes direction, because IT2a joins `y+rchey` while
+ZL3b/RF1b separate it. Its canonical practical reading is: “Kalte
+Drogenfraktion I; heiß, Grad II; Ansatzrohstoff Klasse I, heiß am Gradanfang;
+hierzu: trocken gebundene Wurzeldroge, Form I; Rohstoff Klasse I, heiß am
+Gradanfang; Zutat, Menge III; Ansatzrohstoff Klasse I, heiß am Gradanfang; ein
+Maß kalten Ansatzes.” `Zu derselben Droge` remains the narrower local rival.
+
+No global `y` row enters the surface glossary; it stays495 entries. The
+dictionary gains eight scoped dispatch cards,574→582. Known positions move
+16743→17013 and unknown15596→15326; all32069 non-y before/after projections
+are hash-identical. Eight lines become surface-complete but none strict;
+complete138→146/strict80 unchanged. One-hole lines move239→249/strict57→58
+because17 newly visible residuals replace seven closed y holes. All17 remain
+explicitly `[surface:?]` in GDT659, with no suffix or substring default.
+Independent validation passes78 checks and a byte-identical21-file builder
+replay. Next assign concrete family-bound whole meanings to exactly those17
+residuals, using the already screened GDT640/GDT643/GDT648 completion method;
+open no new page,image,f1r,f84/f84r or free suffix.
