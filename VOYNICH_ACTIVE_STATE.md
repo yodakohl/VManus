@@ -15785,3 +15785,37 @@ cold-dry drug portion in a still-open Y/current-entry frame. The first four
 have direct opposition or carrier lattices;ytchor may receive an exact-whole
 default but may not globalize initial y. No new page,image,f1r,f84*,GDT418
 value,generic filler,substring,bare component or absent cell is licensed.
+
+## GDT644 closes the five downstream holes and opens a stronger 15-hole cascade
+
+GDT644 keeps the same guarded179-page V20 panel and consumes exactly the five
+one-hole surfaces exposed by GDT643.otal119/109 reader-exact,cthol51/50,
+chokchy15/13,qotchod2/2 and ytchor8/8 give195 target positions:182 exact in
+ZL3b/IT2a/RF1b,117 concrete-context compatible,65 opaque/unstable and13
+reader warnings.No hard collision or split-only target remains.
+
+V21 adds five exact-whole cards.otal=o+t+al=Ansatz aus kaltem Rohstoff,FormI
+completes the O/QO×K/T×AL/AR grid.cthol=cth+ol=CTH-Drogenstoff,narrowed only
+in the herbal book to Blatt/Krautdroge;cthar is restored to fractionI against
+cthor portion.chokchy=cho+(k+ch+y)=Trockenansatz:heiß-trockene Grundform and
+keeps the outer dry versus inner hot-dry scopes nested.qotchod=qo+tch+o+d=
+kalt-trockene Zubereitung,fertig gebunden;its one medial and one final locus
+exclude d as mere line closure.ytchor=y+(tch+or)=kalt-trockene Portion dieser
+Droge;initial y has no free value and remains bound to the exact whole.
+
+The five practical readings close f44v.11,f49v.22,f49v.12,f15v.4 and f15v.8.
+The three middle lines are strict;f44v.11 and f15v.8 remain nonstrict and their
+smooth German is not treated as equally secure.V21 preserves all293 V20 rows
+and adds5=298;the exact glossary grows246→251,known positions10035→10230,
+complete lines49→54/strict35→38 and one-hole lines65→75/strict20→26.The
+validator passes1467 checks,including row-exact base replay,independent195-key
+target census,all artifact bytes,hash chains,guard accounting and RESULT binding.
+
+The15 newly exposed holes are ranked rather than consumed by line score alone.
+GDT645 starts with oky89/80 exact under a complete6/6 short K/T grid,then
+otchor16/16 under a complete32/32 frame×K/T×CH×OL/OR grid.Next are scoped
+singleton ychair,the chean/cheain/cheaiin I/II/III ladder,and cthom5/5,which
+may close two lines but cannot globalize m.shotol is held behind sh≠s-head scope;
+opal behind the word-internal p-head transfer;bare s,yk,yd stay closed.No new
+page,image,f1r,f84*,GDT418 value,generic filler,substring,bare component or
+absent cell is licensed.

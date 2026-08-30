@@ -284,8 +284,8 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-GDT643 closes all five GDT642 holes with exact-surface V20 cards:cheodain=Trockenansatz,DosisII;oiin=ZubereitungsformIII;choky=heiß-trockene Zubereitung,Grundform;soysar=visible soy|sar=Samenzubereitung,Grundform+SamenfraktionI;kcheedy=heiß-trockene gebundene Abschlussform,StufeII,with RF1b tcheedy=cold rival.All68 positions:23 clean-context,27 opaque/unstable,17 reader warnings,1 split package.V20=293 rows/246 surfaces;known10035;complete44→49,clean33→35;one-hole65,clean20;678 checks pass.
-Next consume the five new holes in this order:otal=cold-raw preparation formI;cthol=CTH drug material/Herbal leaf-herb material;chokchy=dry preparation from hot-dry drug,base; qotchod=cold-dry preparation,closed state;then ytchor=cold-dry portion in Y/current-entry frame without globalizing y.Afterward return to keechy,chokshy,qotomody,odaiin.No f1r,new page/image,GDT418 import,generic filler,bare component or absent-cell transfer.
+GDT644 closes all five GDT643 holes:otal=cold raw-drug preparation I;cthol=CTH drug substance/herbal leaf-herb drug;chokchy=dry preparation:hot-dry base;qotchod=cold-dry preparation,finished-bound;ytchor=cold-dry portion of this drug,with y whole-bound.All195 positions:182 reader-exact,117 clean,65 opaque,13 warnings;five lines close.V21=298 dictionary/251 glosses/10230 known;complete49→54,strict35→38;one-hole65→75,strict20→26;1467 checks pass.
+GDT645 audits exact whole oky(89/80 exact) and otchor(16/16),then scoped ychair,cheaiin and cthom.The first two have complete6/6 and32/32 grids;cthom cannot free m.shotol/opal retain head-scope conflicts;bare s/yk/yd stay closed.Then return to keechy,chokshy,qotomody,odaiin.No f1r,new page/image,GDT418,generic filler,bare component or absent-cell transfer.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`
