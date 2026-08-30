@@ -16391,3 +16391,43 @@ inherited positions, led by `dor`60, `okol`53, `ykeey`49, `ykaiin`43,
 `ody`37, `chos`30 and `dshedy`27. GDT665 should close those forms from the V41
 stem sheet and the local short-form dispatcher without opening another page or
 using f1r, f84 or f84r.
+
+## GDT665 turns the 148-form remainder into the V42 scoped mixed register
+
+V42 assigns all 994 target positions in 896 lines on 172 already released
+pages and closes all 156 inherited one-hole rows. Known positions move
+21,558→22,552 and unknown 10,781→9,787. Complete multi-token lines move
+613→802/strict 185→225; one-hole lines move 332→313/strict 72→67. The glossary
+grows 874→1,022 and the dictionary 1,266→1,509 through 148 defaults and 95
+occurrence renderers.
+
+The synthesis separates positional homographs rather than forcing one global
+letter value. Initial/internal `s-` remains seed, while absolute terminal `-s`
+marks a charge or pharmaceutical species. Initial `d-` measures a dose;
+absolute terminal `-d` closes, with drawing off retained only as a rival.
+`qol-` is a learned add-material command, `qokol` a separately reader-supported
+heat block, and `-ol` the material/result carrier. Naked `ol=Grundansatz`
+remains an exact whole and is not embedded in the 67-position
+`okol/okoldy/okeeol` Ansatzstoff ladder.
+
+The final architecture has 55 productive compounds at 442 positions, 77
+learned action wholes at 524, ten learned nominal wholes at fourteen, one entry
+composite and five boundary-sensitive forms at thirteen. Fifteen cards are
+explicit sole-atom learned wholes. Every other declared atom belongs to the
+47-role scoped stem sheet and its spelling reconstructs the complete surface
+exactly once. Internal `y` composition survives only at the locally visible
+`chkal|ykedy`, `oteey|oram`, and `shey|teedy` reader boundaries; `qokol|olal`
+likewise supports the one embedded qokol block.
+
+Three independent role passes removed 60 illegal naked-ol embeddings, 92
+unmarked portions, unsupported flow/water additions, and four unsplit
+over-compositions from the first synthesis. Thirty manual passages now agree
+with their final cards. Independent source-first validation passes 9,215
+checks with a byte-identical replay.
+
+The next frontier has 156 one-hole lines exposing 151 distinct forms. Frontier
+frequency is led by `qoaiin`3 and `chky`, `shdaiin`, `cthody`2 each. GDT666
+should derive their complete-panel occurrence counts and candidate meanings
+from V42 without opening another page or using f1r, f84 or f84r; quantities,
+water and flow actions may not be inserted unless their card actually carries
+them.
