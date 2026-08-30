@@ -284,7 +284,7 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-GDT647 propagates GDT646's 1415-backed beginning/middle/end-of-degree axis to107 observed quality-headed exact wholes:5664 positions/178 pages,102 surfaces with a three-reader anchor,5 reader warnings and13 absent holds.Only fixed A=(empty|o|qo)+(k|t)+(ch|sh)+S,B=(ch|sh)+S,C=(k|t|ok|ot|qok|qot)+S migrate;S=y/ey/eey/dy/edy/eedy.Naked CTH/material heads,reversed compounds,EEE and other ladders stay unchanged.V24=410 dictionary/347 glosses/13782 known;complete77/strict42;one-hole152/strict48.Next rank the26 newly exposed strict holes,starting with recurrent odaiin,against their concrete quality/position/degree contexts.No global suffix,free component,absent cell,f1r,new page/image,GDT418 or generic filler.
+GDT648 converts7/26 strict V24 holes into exact V25 whole cards:otol=kaltes Zubereitungsgut,sheor=feuchter Drogenteil,keol=heißer Drogenstoff,odaiin=Zubereitungsdosis III,cholkaiin=Trockengut/heiß Grad III,lkar=heiße Holzfraktion I,lsheey=eingeweichtes Drogenholz/Form II.All213 occurrences are audited;184 are three-reader exact;10 lines close,7 strictly.V25=417 dictionary/354 glosses/13995 known;complete87/strict49;one-hole151/strict44.The whole frontier remains7 accept/13 hold/6 reject;SH-before-S and material-head Form II repair two bad auto-parses.Next audit only the3 newly exposed strict holes shoiin,dair,okchor against their existing ladders.No global suffix,bare component,absent cell,f1r,new page/image,GDT418 or generic filler.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`

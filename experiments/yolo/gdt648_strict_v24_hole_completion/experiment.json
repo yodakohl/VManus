@@ -1,0 +1,249 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exploratory V25 exact-whole readings for seven observed strict-frontier surfaces only; no bare component, substring, absent cell, plaintext, phonetics, language, ingredient identity, global suffix or unrelated-family transfer.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt648_strict_v24_hole_completion/src/run.py",
+    "validate": "python3 experiments/yolo/gdt648_strict_v24_hole_completion/src/validate.py"
+  },
+  "created": "2026-08-30",
+  "dependencies": [
+    "GDT647"
+  ],
+  "experiment_id": "GDT648",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt647_quality_subdegree_family_migration/src/run.py",
+      "role": "direct frozen GDT648 input",
+      "sha256": "d8ef66c774ff1ecc8a9c542dcc242a54541d9a62e0d5155db7639d8b21adc3a5"
+    },
+    {
+      "path": "experiments/yolo/gdt647_quality_subdegree_family_migration/artifacts/PAGE_ALLOWLIST.tsv",
+      "role": "direct frozen GDT648 input",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+    },
+    {
+      "path": "experiments/yolo/gdt647_quality_subdegree_family_migration/artifacts/ALL_LINE_CONCRETE_COVERAGE_V24.tsv",
+      "role": "direct frozen GDT648 input",
+      "sha256": "76b3a605164d28fe1794cffdb693266948722ea52e4d9615c5f0270693a12b09"
+    },
+    {
+      "path": "experiments/yolo/gdt647_quality_subdegree_family_migration/artifacts/COMPLETE_PASSAGES_V24.tsv",
+      "role": "direct frozen GDT648 input",
+      "sha256": "0c315a7343db83ef9f7bba042f513c9e6f88cf13013258514c1637c7b1e0b922"
+    },
+    {
+      "path": "experiments/yolo/gdt647_quality_subdegree_family_migration/artifacts/ONE_UNKNOWN_PASSAGES_V24.tsv",
+      "role": "direct frozen GDT648 input",
+      "sha256": "9c0b0ef5e4064619ef006a178e2692e3c933d88cba858ea4dd838ae48c1502e8"
+    },
+    {
+      "path": "experiments/yolo/gdt647_quality_subdegree_family_migration/artifacts/NEWLY_EXPOSED_ONE_HOLE_LINES.tsv",
+      "role": "direct frozen GDT648 strict frontier",
+      "sha256": "c89283db9c12c3e5bed30e972470509335a7ee45580c4981d6e415c4488a4c08"
+    },
+    {
+      "path": "experiments/yolo/gdt647_quality_subdegree_family_migration/artifacts/V24_EXACT_TOKEN_GLOSSARY.tsv",
+      "role": "direct frozen GDT648 input",
+      "sha256": "63c64b9893c90c6c7b253692a79531ceb09b9064f2d3dd262937cee55160e19b"
+    },
+    {
+      "path": "experiments/yolo/gdt647_quality_subdegree_family_migration/artifacts/WORKING_DICTIONARY_V24.tsv",
+      "role": "direct frozen GDT648 input",
+      "sha256": "a5af73147880a8dda9cb7c36470289cade44da3c993208586eb15a028ae0f95c"
+    },
+    {
+      "path": "experiments/yolo/gdt647_quality_subdegree_family_migration/artifacts/RESULT.json",
+      "role": "direct frozen GDT648 input",
+      "sha256": "cfd99c095c4dede348fc5f7645463bc826a231413b51d82b81f60977d14b7215"
+    },
+    {
+      "path": "experiments/yolo/gdt647_quality_subdegree_family_migration/REPORT.md",
+      "role": "primary predecessor report",
+      "sha256": "6d139a35b41546a5e8bc4a49b83e3d6367d91d04245eeb848f0ce0d0f2bc905d"
+    },
+    {
+      "path": "experiments/yolo/gdt630_outer_carrier_attachment/REPORT.md",
+      "role": "primary OL OR carrier evidence",
+      "sha256": "6d775bfdb49e1bbdb90cc9b655b3d1c053c0fad52799e67b06bf2840d354b56f"
+    },
+    {
+      "path": "experiments/yolo/gdt636_residual_four_head_semantics/REPORT.md",
+      "role": "primary material and odaiin evidence",
+      "sha256": "cd031640976c12d169cb0058873d06f076a6abd1143a70e39ab1a56b46319a67"
+    },
+    {
+      "path": "experiments/yolo/gdt642_exact_e_ol_or_carrier_completion/REPORT.md",
+      "role": "primary E OL OR family evidence",
+      "sha256": "fc3cc8f5d7e00482771725e4ef5acc4ea0f3e4c1f997b18f7d1649fc6f7be1e2"
+    },
+    {
+      "path": "experiments/yolo/gdt645_ranked_five_surface_completion/REPORT.md",
+      "role": "primary quality fraction evidence",
+      "sha256": "fa6a0bb9a3c31581aad46dd0cbeb29f88970ac9cb3abd2d4ca44b2eded1c9404"
+    },
+    {
+      "path": "transcription/voynich_zl3b_tokens.tsv",
+      "role": "guarded token input",
+      "sha256": "6a061a26edc05ff37dc386c2215774c229a5ff087d3091e68bdd4983a6c007aa"
+    },
+    {
+      "path": "transcription/voynich_cross_transcription_lines.tsv",
+      "role": "guarded alternate-reader input",
+      "sha256": "ff3a4559004a29764c60102326de154b29fbba06a2a206bdd76d7feda432e16c"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt648_strict_v24_hole_completion/METHOD.md",
+      "role": "method and claim boundary",
+      "sha256": "6c0afce3b48ed9db3ff0c9d4a9b994916aa7a4cc0276d4bd0f267376e307e273"
+    },
+    {
+      "path": "experiments/yolo/gdt648_strict_v24_hole_completion/README.md",
+      "role": "experiment entry point",
+      "sha256": "6bbad393a062934873e336a7c9b2dfbfc072916c926aa117700e8cd9d6aa10ab"
+    },
+    {
+      "path": "experiments/yolo/gdt648_strict_v24_hole_completion/REPORT.md",
+      "role": "primary semantic report",
+      "sha256": "6fb5513eba6ea8c679a7a513212de661a4dde3461a1e41dd9f931d553dd55ed8"
+    },
+    {
+      "path": "experiments/yolo/gdt648_strict_v24_hole_completion/artifacts/ACCEPTED_WHOLE_SURFACE_DEFAULTS.tsv",
+      "role": "reproducible V25 artifact",
+      "sha256": "8a58c2446b455d804cb427036bc47c35406d3663fff5c5f8b7af15d32d490443"
+    },
+    {
+      "path": "experiments/yolo/gdt648_strict_v24_hole_completion/artifacts/ALL_LINE_CONCRETE_COVERAGE_V25.tsv",
+      "role": "reproducible V25 artifact",
+      "sha256": "3ed1b00f1dabaaa74495f9ff702b7cbe8ac1a505827a16ca62d581800fa4a510"
+    },
+    {
+      "path": "experiments/yolo/gdt648_strict_v24_hole_completion/artifacts/ALL_OCCURRENCE_SEMANTIC_AUDIT.tsv",
+      "role": "reproducible V25 artifact",
+      "sha256": "ff1b6ca3d69195ef62c71e617c6b968bf1317c18e72c673fca95e414ab50c61f"
+    },
+    {
+      "path": "experiments/yolo/gdt648_strict_v24_hole_completion/artifacts/COMPLETE_PASSAGES_V25.tsv",
+      "role": "reproducible V25 artifact",
+      "sha256": "e878ce0c38c20f330597eb88e30993f8864ba3913a3bb621c0f40afa807e8857"
+    },
+    {
+      "path": "experiments/yolo/gdt648_strict_v24_hole_completion/artifacts/COMPONENT_BINDING_AUDIT.tsv",
+      "role": "reproducible V25 artifact",
+      "sha256": "70441251a2e7e7a66b244c6b28d7de516c7c650f0281c73f62d2aff7245bb535"
+    },
+    {
+      "path": "experiments/yolo/gdt648_strict_v24_hole_completion/artifacts/FAMILY_EVIDENCE_ATLAS.tsv",
+      "role": "reproducible V25 artifact",
+      "sha256": "ac2cb0398ddb4a438f2dfcdbf51fc1768b119e9f31a8e35ba8a8f88f18c6249e"
+    },
+    {
+      "path": "experiments/yolo/gdt648_strict_v24_hole_completion/artifacts/FUSION_BRIDGE_AUDIT.tsv",
+      "role": "reproducible V25 artifact",
+      "sha256": "92e3bd6b57ed6e8525906f1a327ad0b1a1d53542a7df62908e5c7c3a4995b080"
+    },
+    {
+      "path": "experiments/yolo/gdt648_strict_v24_hole_completion/artifacts/NEWLY_COMPLETED_LINES.tsv",
+      "role": "reproducible V25 artifact",
+      "sha256": "3f2e81e8684d36ba319df202ed8bbdc78f1b801614751d381b7958a97a453a6c"
+    },
+    {
+      "path": "experiments/yolo/gdt648_strict_v24_hole_completion/artifacts/NEWLY_EXPOSED_ONE_HOLE_LINES.tsv",
+      "role": "reproducible V25 artifact",
+      "sha256": "46bdd72703273621c684857878169779100865e28ef370e68724d64235219f67"
+    },
+    {
+      "path": "experiments/yolo/gdt648_strict_v24_hole_completion/artifacts/ONE_UNKNOWN_PASSAGES_V25.tsv",
+      "role": "reproducible V25 artifact",
+      "sha256": "565f16f22e5841e4de7ca855831c7e1b6dbfc99fbb7b0d656631f2c62d6581c9"
+    },
+    {
+      "path": "experiments/yolo/gdt648_strict_v24_hole_completion/artifacts/PAGE_ALLOWLIST.tsv",
+      "role": "reproducible V25 artifact",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+    },
+    {
+      "path": "experiments/yolo/gdt648_strict_v24_hole_completion/artifacts/READER_VARIANT_AUDIT.tsv",
+      "role": "reproducible V25 artifact",
+      "sha256": "9e08a1411e4ec20486ec93a7ff78c5acb56e2d3d6f5dfa29fbbb9b55eb45796e"
+    },
+    {
+      "path": "experiments/yolo/gdt648_strict_v24_hole_completion/artifacts/README.md",
+      "role": "artifact map",
+      "sha256": "089c9b0e2e6ab45e5595210475bd3be09c94b18e187ee41f252ede2bd67bceb3"
+    },
+    {
+      "path": "experiments/yolo/gdt648_strict_v24_hole_completion/artifacts/RESULT.json",
+      "role": "machine-readable result",
+      "sha256": "78ae0afa083de94c901669bd328d0e2d6c07815ff106f32c3f3cf670d9d3c4d0"
+    },
+    {
+      "path": "experiments/yolo/gdt648_strict_v24_hole_completion/artifacts/ROUND_COVERAGE_COUNTS.tsv",
+      "role": "reproducible V25 artifact",
+      "sha256": "bbf73163557d7616c98ea890fbb421c24a658a0ec55dccedf60d4fea43da7f43"
+    },
+    {
+      "path": "experiments/yolo/gdt648_strict_v24_hole_completion/artifacts/SEQUENTIAL_DECISION_LEDGER.tsv",
+      "role": "reproducible V25 artifact",
+      "sha256": "90713040c0a40580d084fd3078a85ffa027186f9335aedcb8459793ee49ece10"
+    },
+    {
+      "path": "experiments/yolo/gdt648_strict_v24_hole_completion/artifacts/SOURCE_PASSAGE_REALITY_CHECK.tsv",
+      "role": "reproducible V25 artifact",
+      "sha256": "4ba1d5bf072ab0e4b2bb5ec12f33a66affcaf4a80331782d25326d719ef75501"
+    },
+    {
+      "path": "experiments/yolo/gdt648_strict_v24_hole_completion/artifacts/STRICT_FRONTIER_ADJUDICATION.tsv",
+      "role": "complete strict-frontier decision artifact",
+      "sha256": "0935ec374867beb49bfd2cd0010111b0124e288dff1778529d7fddf7d31f70c8"
+    },
+    {
+      "path": "experiments/yolo/gdt648_strict_v24_hole_completion/artifacts/TARGET_DECISION_DECK.tsv",
+      "role": "reproducible V25 artifact",
+      "sha256": "3e379d803c167a53ccec2b8c0181c81ffa34d293969d1514cd858d34f3cd61af"
+    },
+    {
+      "path": "experiments/yolo/gdt648_strict_v24_hole_completion/artifacts/V25_EXACT_TOKEN_GLOSSARY.tsv",
+      "role": "reproducible V25 artifact",
+      "sha256": "cbc5793c500f64c8017e54fda0e7476bc4bfe252d2c9fc17838f4c822d568d17"
+    },
+    {
+      "path": "experiments/yolo/gdt648_strict_v24_hole_completion/artifacts/VALIDATION.json",
+      "role": "independent release validation",
+      "sha256": "c1ce5a9ed79634f0215e39baeba44607ab7e755b72f8675372ba1fdd749f1dc1"
+    },
+    {
+      "path": "experiments/yolo/gdt648_strict_v24_hole_completion/artifacts/WORKING_DICTIONARY_V25.tsv",
+      "role": "reproducible V25 artifact",
+      "sha256": "9bf089aa8d08d37f4bbc9e27254b88fff4208ef92de230ed1b7e8c4bdbd3175c"
+    },
+    {
+      "path": "experiments/yolo/gdt648_strict_v24_hole_completion/src/run.py",
+      "role": "deterministic builder",
+      "sha256": "2911257b917958a61aa2b4c2a3e4c9dd05920311927d9694ccf97e308d614be1"
+    },
+    {
+      "path": "experiments/yolo/gdt648_strict_v24_hole_completion/src/validate.py",
+      "role": "independent validator",
+      "sha256": "37ddd373ce24f5609ba95117cc5e94c4864aae5fbefa080e00184b2448b432ea"
+    }
+  ],
+  "question": "Which concrete, compositional whole-word meanings can close the 26 strict one-hole surfaces newly exposed by GDT647 without reviving generic filler or exporting a component outside its observed family?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "strict_v24_hole_completion",
+  "status": "PASS_7_STRICT_WHOLE_SURFACES__213_POSITIONS__V25",
+  "title": "Seven concrete strict-frontier whole words and V25",
+  "updated": "2026-08-30",
+  "validation": {
+    "artifact": "experiments/yolo/gdt648_strict_v24_hole_completion/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

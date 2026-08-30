@@ -15909,3 +15909,32 @@ migrated. Next rank the26 new strict holes by all-occurrence recurrence and
 local quality/position/degree fit, beginning with recurrent odaiin; accept only
 complete observed wholes. No new page,image,f1r,f84*,GDT418 value,generic
 filler,substring,bare component or absent cell is licensed.
+
+## GDT648 turns seven strict V24 holes into concrete V25 whole cards
+
+The full26-surface strict frontier is now explicit:7 accept,13 remain separate
+audits and6 are rejected on this route. The accepted exact wholes are
+otol=kaltes Zubereitungsgut,sheor=feuchter Drogenteil,keol=heißer
+Drogenstoff,odaiin=Zubereitungsdosis III,cholkaiin=Trockengut/heiß im dritten
+Grad,lkar=heiße Holzfraktion I and lsheey=eingeweichtes Drogenholz/Form II.
+They cover213 positions on the unchanged179-page panel;184 are exact in all
+three readers. All occurrences are rendered,136 have at least two clean known
+companions,48 are short/opaque and29 retain reader warnings;no hard local
+collision is recorded.
+
+Two parse corrections are live. SH is matched before token-initial S, so
+sheor is sh+e+or rather than a false seed head. The GDT647 subdegree ending is
+not exported under the l material head: lsheey continues the inherited
+material Form-I/Form-II contrast,not degree end. Bare odaiin receives a new
+exact-whole card while its older GDT636 remainder-only firewall remains.
+cholkaiin is admitted because chol kaiin also occurs twice separated in each
+reader; lkar retains a named indivisible-hot-wood rival because its l|kar
+bridge is not shared by IT2a.
+
+V24→V25 moves dictionary410→417,glosses347→354,known13782→13995,complete
+77→87/strict42→49 and one-hole152→151/strict48→44. Ten lines newly close;
+seven are the clean source carriers. Nine new one-hole lines appear and three
+are strict:shoiin,dair,okchor. These three are the next bounded route against
+their already observed ladders. The seven V25 cards remain fixed during that
+pass. No new page,image,f1r,f84*,GDT418 value,generic filler,global suffix,
+bare component,absent cell,language or ingredient identity is licensed.
