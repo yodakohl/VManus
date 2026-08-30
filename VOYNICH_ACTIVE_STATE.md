@@ -15968,3 +15968,29 @@ one-hole events are next deduplicated by surface; prioritize already headed or
 complete-sister families while separately trying to replace the learned CKH
 noun. No new page,image,f1r,f84*,GDT418 value,generic filler,bare component,
 global suffix,plaintext,language or ingredient identity is licensed.
+
+## GDT650 closes five strict V26 holes with boundary-backed families
+
+V27 adds seven exact whole cards on the unchanged guarded 179-page panel:
+otcho=kalt-trockene Zubereitung,cholor=trockene Zutat,sheo=Feuchtzubereitung,
+ycheol=trockener Drogenstoff dieser Droge,and three observed SHECKH
+subdegree cells using the explicitly replaceable learned Arzneimischung noun.
+They cover101 positions;77 are exact in all three readers and one more is
+split-normalized. Seven lines newly close,six strict.
+
+The decisive corrections are structural. Four all-reader-separated chol or
+witnesses plus ol or/olor and shol or/sholor make cholor=CHOL+OR rather than
+CH+OLOR. Multiple ycheol/y cheol reader boundaries keep Y local to its
+line-initial entry family. Direct shckhy sheckhy and SHECKHY/CHECKHY contacts
+make sheckhy=SH+E+CKH+Y rather than S+HECKHY. SHECKHDY remains outside because
+neither observed token is all-reader exact; two further SHECKH cells are
+absent holds.
+
+V26→V27 moves dictionary428→435,glossary365→372,known14516→14617,
+complete96→103/strict53→59 and one-hole158→153/strict46→41. The independent
+validator passes95 checks and byte-replays every builder artifact. CHECKHY is
+now the strongest next target because it occurs in two strict one-hole lines
+and is the dry-attributive sister of SHECKHY. After it, migrate only observed
+reader-anchored OTCHO,Y+OL/OR and SHCKH/CHECKH sister wholes. No new page,
+image,f1r,f84*,GDT418 value,generic filler,free component,absent cell,
+plaintext,language or ingredient identity is licensed.

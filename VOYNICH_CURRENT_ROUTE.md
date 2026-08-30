@@ -284,7 +284,7 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-GDT649 makes V26 with11 exact wholes/522 positions:shoiin=Feuchtansatz FormIII,toiin=cold preparation FormIII,dar/dair/daiir=measured fraction I/II/III,dairodg=measured fractionII finished as preparation,and five CHCKH subdegree forms using an explicitly learned Arzneimischung noun.429 are reader-exact;9 lines close/4 strict.V26=428 dictionary/365 glosses/14516 known;complete96/strict53;one-hole158/strict46.DAIRODG and CKH noun are replaceable;no free G/CKH/endings,K+CH reorder,CTH transfer,absent chckheedy or unstable koiin.Next deduplicate the16 exposed one-hole events and attack headed/full-sister families while replacing CKH if a better object fits all five cells.No f1r,new page/image,GDT418 or generic filler.
+GDT650 makes V27 with7 exact wholes/101 positions:otcho=cold-dry preparation,cholor=dry ingredient,sheo=moist preparation,ycheol=dry drug substance of this drug,and3 SH+E+CKH forms with replaceable learned mixture noun.77 are reader-exact;7 lines close/6 strict.V27=435 dictionary/372 glosses/14617 known;complete103/strict59;one-hole153/strict41.CHOLOR is CHOL+OR,Y stays local,SHECKH is not S+HECKH.Next attack strict checkhy twice,then migrate reader-exact OTCHO,Y+OL/OR and SHCKH/CHECKH sisters as whole families.No f1r,new page/image,GDT418,generic filler,free component,absent cell or ingredient identity.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`
