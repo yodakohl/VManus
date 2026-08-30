@@ -16110,3 +16110,24 @@ audit the narrow observed CH/CHE/SH/SHE/K/KE/T/TE+AL shell family under one
 shared start/middle quality axis before any broader multi-shell export. No
 page,image,f1r,f84/f84r,free component,absent cell,
 language,plaintext or exact ingredient is added.
+
+## GDT656 extends AL with a whole-bound quality-position shell
+
+V33 adds eighteen observed reader-anchored AL whole surfaces and revises
+`okal`, `otal` and `qokal`. Across659 target positions,567 are all-reader
+exact and split-normalized. The live bound architecture is
+CH/SH/K/T=dry/moist/hot/cold, zero/E/EE=start/middle/end, AL=raw-material
+classI, O=preparation context and QO=structural scope. Components remain
+structural tags, not free translated words.
+
+`oeeal` is retained as the exact-whole local analogy “raw-material classI in
+preparation, at degree end”:2/2 occurrences are reader-exact and `oeear` has
+3/3 exact material-context sisters, but absent `oeal`, unstable `eeal` and no
+O|EE|AL boundary prevent a global EE export. `cheeeal`, `eeal` and `keeal`
+remain observed holds. V32→V33 moves dictionary529→550,glossary453→471,
+known16398→16635,complete130→133/strict77→78 and one-hole225→239/strict54→57.
+New complete lines are f83v.16(strict),f83r.43 and f108v.40; the latter two
+retain explicit reader notes. Independent validation passes615 checks with a
+byte-identical23-file replay. Next audit only the13 already observed
+multi-quality AL shells(48 positions/42 exact) for two-axis composition; no
+new page,image or f1r enters.
