@@ -16318,3 +16318,37 @@ is 667 and conservative split normalization 682. The next front contains 105
 new one-hole lines, 102 distinct surfaces and 1105 inherited positions, led by
 `l`163, `chody`78, `char`75 and `shody`46. GDT663 should close that front
 without new pages, images, f1r, f84/f84r or substring inheritance.
+
+## GDT663 turns the 102-form remainder into the concrete V40 recipe register
+
+V40 assigns all 1,105 target positions in 949 lines on 168 pages. The 102
+surfaces divide into 82 productive compounds at 817 positions, seven entry
+compounds at 76, eight learned action wholes at 44, four other learned wholes
+at five and one context-sensitive free-`l` family at 163. All 105 starting
+lines become complete. The concrete working vocabulary now includes salt,
+alkali, a pound measure, a herb bundle, a wooden vessel, residue and resting,
+with each risky reading explicitly marked replaceable rather than hidden behind
+generic process language.
+
+The important correction is that naked `l` is not flattened into one root.
+Only 38 positions are exact free `l` in all available readings; 105 further
+ZL3b boundaries have a visible adjacent merge in IT2a or RF1b, including
+`o|l→ol`, `qo|l→qol` and `l|X→lX`. Those positions receive only the attested
+occurrence merge. Outside visible joins, free `l=Pfund/Gewichtseinheit` is the
+current aggressive learned-siglum card; bound initial `l-` retains the inherited
+Holzdrogen family. Practical `ol` renders as `Grundansatz` while its structural
+gloss remains unchanged.
+
+Known positions move 19,312→20,417 and unknown 13,027→11,922. Complete
+multi-token lines move 331→449/strict 125→147; one-hole lines move 302→333/
+strict 67→80. The glossary grows 632→734 and the dictionary 785→976. All
+31,234 non-target token projections remain identical. Independent source-first
+validation passes 7,784 checks and a byte-identical nineteen-file builder
+replay.
+
+The next frontier has 146 newly exposed one-hole lines, 140 distinct surfaces
+and 1,141 inherited positions. It is led by `o`146, `air`56, `cheky`55,
+`lkaiin`/`opchedy`48, `okeol`44 and `chodaiin`/`olkeedy`42. GDT664 should first
+separate reader-supported `o` joins from genuinely free `o`, then close the
+visible grade-II/III and dry/moist/hot/cold families. No new page, image, f1r,
+f84 or f84r is needed.
