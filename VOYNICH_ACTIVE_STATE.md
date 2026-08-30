@@ -16580,3 +16580,38 @@ Full-panel frequency is led by `qoeedy`16, `teol` and `ychey`13, `ldar` and
 `olcheol`5, `cth`4, and `shekain`3. GDT671 should resolve this fixed V47
 remainder from the unchanged 56-role sheet before adding a new role, without
 opening a page or image and without f1r, f84 or f84r.
+
+## GDT671 closes the 15-form remainder as the V48 workshop register
+
+V48 assigns all 71 target positions in 70 lines on 56 pages of the guarded
+179-side transcription panel and closes all 15 inherited source rows. Known
+positions move 24,088→24,159
+and unknown 8,251→8,180. Complete multi-token lines move 1,223→1,242/strict
+313→318; one-hole lines move 154→144/strict 34→32. The glossary grows
+1,415→1,430 and the dictionary 2,100→2,115 through fifteen exact defaults and
+no context renderer.
+
+The final synthesis has thirteen role-composed cards and two learned exact
+wholes, `daiiy` and `otoiir`, while the role sheet remains at 56. Productive
+`qoeedy=QO_COMMAND+O_PREP+EE_END+DY_FINISHED` is “nimm den vollständig
+fertiggestellten Ansatz.” `teol`, `toldy`, and `shekain` stay nominal states;
+`qotod` is the single cool-and-close command without an extra “nimm.” Initial
+`olcheol` preserves `O_PREP+L_WOOD`, while `ychekch` ends in visible
+`CH_DRY`: the bilateral `ychekch y→ychekchy` reader join is occurrence-level
+evidence and adds neither an invisible terminal Y nor a context renderer.
+
+The final artifact-based audit accepts ten of twenty manual passages and
+repairs ten. The target cards hold; the repairs restore inherited directional
+drying/heating/moistening stages, replace a false part count in `shekain`, and
+remove an unrendered relation after `ychekch`. Independent source-first
+validation passes 4,954 checks with byte-identical replay.
+
+The next frontier still has eight one-hole lines and eight distinct forms.
+Full-panel frequency is two each for `charam`, `lsheckhy`, and `oltain`, then
+one each for `cheykedy`, `chorcholsal`, `iirain`, `qkeeody`, and `rshdy`.
+Do not continue that coverage ladder yet. GDT672 should instead combine the
+complete V48 semantic layer with the best GDT600 clause grammar, render f1r as
+an explicit transfer page, and audit several register-diverse passages. It
+must reject generic `Arbeitsgut/Arbeitsstelle/Arbeitsgang` filler while keeping
+genuinely unresolved content visible. The 179-side panel remains the admitted
+comparison basis; f84 and f84r remain forbidden.

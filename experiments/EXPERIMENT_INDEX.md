@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **668**
-- Experiment-associated tracked files: **11,092** (1.1 GiB)
-- Structured GDT337+ experiments: **333**
+- Experiments indexed: **669**
+- Experiment-associated tracked files: **11,141** (1.2 GiB)
+- Structured GDT337+ experiments: **334**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT671 | GDT671_fifteen_residual_family_completion | `PASS_71_TARGET_POSITIONS__V48_CONCRETE_RECIPE_REGISTER` | [report](../experiments/yolo/gdt671_fifteen_residual_family_completion/REPORT.md) | 49 | 5.4 MiB | 12 | STRUCTURED_YOLO |
 | GDT670 | GDT670_twenty_eight_residual_family_completion | `PASS_91_TARGET_POSITIONS__V47_CONCRETE_RECIPE_REGISTER` | [report](../experiments/yolo/gdt670_twenty_eight_residual_family_completion/REPORT.md) | 48 | 5.5 MiB | 11 | STRUCTURED_YOLO |
 | GDT669 | GDT669_thirty_seven_residual_family_completion | `PASS_165_TARGET_POSITIONS__V46_CONCRETE_RECIPE_REGISTER` | [report](../experiments/yolo/gdt669_thirty_seven_residual_family_completion/REPORT.md) | 47 | 5.7 MiB | 10 | STRUCTURED_YOLO |
 | GDT668 | GDT668_seventy_six_residual_family_completion | `PASS_230_TARGET_POSITIONS__V45_CONCRETE_RECIPE_REGISTER` | [report](../experiments/yolo/gdt668_seventy_six_residual_family_completion/REPORT.md) | 44 | 5.9 MiB | 9 | STRUCTURED_YOLO |
