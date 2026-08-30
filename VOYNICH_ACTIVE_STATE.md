@@ -15852,3 +15852,31 @@ already observed K/T,CH/SH and E-length fields and attempts the whole f35r.5
 reading.Then rank shotol,opal,keechy,chokshy,qotomody and odaiin.No new page,
 image,f1r,f84*,GDT418 value,generic filler,substring,bare component or absent
 cell is licensed.
+
+## GDT646 identifies the E-length triad with subdegree position
+
+GDT646 keeps the guarded 179-page V22 panel and promotes exact whole
+tcheey=t+ch+ee+y=cold and dry at the end of the associated degree. All six
+positions on six pages are exact in ZL3b, IT2a and RF1b; two contexts have at
+least two clean known companions and four remain opaque-neutral. The card
+closes non-strict f35r.5 and moves V22→V23: dictionary303→304, exact
+glosses256→257, known positions10345→10351, complete lines60→61/strict42,
+one-hole lines71→70/strict22. The independent validator passes206 checks.
+
+The decisive family is the 24-cell K/T×CH/SH×{y,ey,eey/dy,edy,eedy} atlas.
+The non-D arm is complete12/12 and the D/result arm9/12; only tcheedy,
+ksheedy and tsheedy are absent holds, while kcheedy is an observed reader-only
+warning. A dated external comparator resolves the old Form/degree ambiguity:
+Tadhg O Cuinn's 1415 materia medica writes beginning,middle and end inside
+separately numbered hot/cold,dry/wet degrees. The live hypothesis is therefore
+y/ey/eey=beginning/middle/end of the degree, with the aN ladder retaining the
+separate degree number or amount. Form0/I/II and hidden degreeI/II remain named
+rivals. No free t,ch,e,ee,eey,y or absent cell is created.
+
+Next propagate this improved axis through every observed sibling whole and all
+affected current passages before adding another card. Then promote the ranked
+exact whole odaiin=preparation doseIII:55 positions on42 pages,42 reader-exact,
+a complete odan/odain/odaiin/odaiiin I–IV ladder, four already read p/s/r/l
+compounds and two newly closable non-strict lines. shotol,opal,keechy,chokshy
+and qotomody remain behind it. No new page,image,f1r,f84*,GDT418 value,generic
+filler,substring,bare component or absent cell is licensed.

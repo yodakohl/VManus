@@ -284,8 +284,8 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-GDT645 promotes five exact wholes:oky=hot preparation/base;otchor=cold-dry drug portion in preparation;ychair=second dry portion of this drug;cheaiin=dry in third degree;cthom=one handful leaf/herb preparation,with m whole-bound.The last is a bold period-M=manipulus hypothesis.All115 positions:105 reader-exact,60 clean,45 opaque,10 warnings;six lines close.V22=303 dictionary/256 glosses/10345 known;complete54→60,strict38→42;one-hole75→71,strict26→22;four family nulls held;686 checks pass.
-GDT646 audits newly exposed tcheey as an exact whole against K/T×CH/SH×E-length fields and attempts full f35r.5;bare s stays closed.Then rank shotol,opal,keechy,chokshy,qotomody,odaiin.No f1r,new page/image,GDT418,generic filler,bare component or absent-cell transfer.
+GDT645 adds oky,otchor,ychair,cheaiin,cthom over115 positions and closes six lines.V22=303 dictionary/256 glosses/10345 known;complete60/strict42;one-hole71/strict22.
+GDT646 adds exact tcheey=cold and dry at the end of its degree at6/6 positions and closes f35r.5.The K/T×CH/SH×{y,ey,eey/dy,edy,eedy} atlas is21/24 observed,with the non-d arm12/12.Tadhg O Cuinn's 1415 materia medica independently writes beginning/middle/end inside separately numbered humoral degrees,so y/ey/eey=beginning/middle/end beats Form0/I/II and hidden degreeI/II.V23=304 dictionary/257 glosses/10351 known;complete61/strict42;one-hole70/strict22.Next propagate this axis through sibling wholes/passages,then odaiin=preparation doseIII(55 positions,two lines);shotol,opal,keechy,chokshy,qotomody follow.No f1r,new page/image,GDT418,generic filler,bare component or absent-cell transfer.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`
