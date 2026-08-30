@@ -16487,3 +16487,32 @@ frequency is led by `okeor`15, `cheeor`13, `shedain`12, then `cheeol`, `okees`,
 `qolchey`, `qotcho`, and `tody` at nine each. GDT668 should compose these from
 V44 on the same page panel without opening a new page or image and without
 using f1r, f84 or f84r.
+
+## GDT668 turns the 76-form remainder into the V45 workshop register
+
+V45 assigns all 230 target positions in 227 lines on 124 already released
+pages and closes all 76 inherited one-hole rows. Known positions move
+23,602→23,832 and unknown 8,737→8,507. Complete multi-token lines move
+1,073→1,153/strict 281→299; one-hole lines move 222→180/strict 50→38. The
+glossary grows 1,274→1,350 and the dictionary 1,924→2,022 through 76 defaults
+and 22 context renderings.
+
+The final synthesis has 74 role-composed cards and only two learned exact
+wholes, `dairin` and `eaiin`. Two narrow roles expand the shared sheet from 52
+to 54. Terminal `YD_POST_CLOSE` is supported by naked `yd` three times,
+inherited `dsholyd` once, `otchyd` twice and `rokyd` once. At f88v.20 ZL3b's
+`sqokeodaiin` is independently split as `sqokeo daiin` by both IT2a and RF1b,
+licensing the exact left block `SQOKEO_SEED_HEAT_PREP` without widening the
+global seed prefix.
+
+A second token-by-token pass corrects twelve of twenty manual readings. It
+restores missing cooling or preparation, assigns commands to the proper card,
+keeps `okain` as preparation Form II, and removes invented extra actions from
+free `dy`. Independent source-first validation passes 5,813 checks with a
+byte-identical replay.
+
+The next frontier has 37 one-hole lines and 37 distinct forms. Full-panel
+frequency is led by `shear`22, `sh`14, `shedaiin` and `shek`10, `dcheey`9,
+`dals`8, then `cthal`, `ro`, and `sary`7. GDT669 should begin with the
+recurrent SH/SHE, measure, and material families using the unchanged V45 role
+sheet, with no new page or image and no f1r, f84 or f84r.
