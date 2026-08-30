@@ -16548,3 +16548,35 @@ frequency is led by `otair`22, `ytey`10, `cphy`9, `chekain`7, `chedol` and
 first compose this fixed remainder from the unchanged 56-role sheet and add a
 new block only where the visible form cannot otherwise be reconstructed. No
 new page or image and no f1r, f84 or f84r is needed.
+
+## GDT670 closes the 28-form remainder as the V47 workshop register
+
+V47 assigns all 91 target positions in 90 lines on 64 already released pages
+and closes all 28 inherited one-hole rows. Known positions move
+23,997→24,088 and unknown 8,342→8,251. Complete multi-token lines move
+1,191→1,223/strict 306→313; one-hole lines move 170→154/strict 38→34. The
+glossary grows 1,387→1,415 and the dictionary 2,071→2,100 through 28 defaults
+and one local practical rendering.
+
+The final synthesis has 25 role-composed cards and three learned exact wholes:
+`oschotshl`, `qetal`, and `secheeol`. It reuses the unchanged 56-role sheet and
+adds no role. The 25 compositions preserve the full visible atom order,
+including `qoiiin=QO_COMMAND+O_PREP+IIIN_FORM_IV`, initial
+`olaiiny=O_PREP+L_WOOD+AIIN_III+Y`, and both preparation frames in
+`otodar=O_PREP+T_COLD+O_PREP+D_MEASURE+AR_FRACTION_I`. Bilateral
+`ofal sheky` reader boundaries license only the exact `ofalsheky` flower/raw
+material card. Free `ka` remains “ein erhitzter Teil”; only f40r.10 uses the
+bilaterally visible local `karar` rendering “erhitzte Wurzelfraktion I.”
+
+An independent final passage audit accepts sixteen of twenty readings and
+repairs four: two flattened directional stages, one over-narrow free `sol`,
+and one invented final action after free `dy`. The double-measure,
+five-operation, dry-and-measure, and repeated-preparation stress cases remain
+intact. Independent source-first validation passes 5,093 checks with
+byte-identical replay.
+
+The next frontier has fifteen one-hole lines and fifteen distinct forms.
+Full-panel frequency is led by `qoeedy`16, `teol` and `ychey`13, `ldar` and
+`olcheol`5, `cth`4, and `shekain`3. GDT671 should resolve this fixed V47
+remainder from the unchanged 56-role sheet before adding a new role, without
+opening a page or image and without f1r, f84 or f84r.
