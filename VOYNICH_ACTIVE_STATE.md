@@ -16222,3 +16222,37 @@ Independent validation passes78 checks and a byte-identical21-file builder
 replay. Next assign concrete family-bound whole meanings to exactly those17
 residuals, using the already screened GDT640/GDT643/GDT648 completion method;
 open no new page,image,f1r,f84/f84r or free suffix.
+
+## GDT660 closes all seventeen V36 residual surfaces with concrete cards
+
+V37 assigns every one of the566 target positions in510 lines on169 pages.
+Fifteen longer surfaces receive exact-whole cards. The clearest include
+`kchor=Drogenportion, heiß-trocken`, `qodain=Qualitätsgrad II`,
+`opchar=trockene Pulverfraktion I im Ansatz`, `lcho=Trockenansatz aus
+Drogenholz` and `cheoty=trocken angesetzte kalte Zubereitung am Gradanfang`.
+All are replaceable working meanings; components remain family-bound and no
+substring inherits a value.
+
+Naked `s` and `dy` remain outside the global surface glossary. Eight isolated
+L-token `s` are `[Beschriftungszeichen]`;264 P-token positions use the concrete
+Samen-/Saatgutposten default. `dy` uses BOS/medial/EOS closure cards and renders
+as a previous-field close, semicolon or point. Together these are exactly seven
+occurrence-scoped cards. `ydy` remains an exact whole with medial next-field
+and terminal close renderings. The f56v.10 `y dy` edge explicitly preserves the
+terminal point after the y-reference consumes its right neighbour.
+
+Known positions move17013→17579 and unknown15326→14760. Complete multi-token
+lines move146→172/strict80→83; one-hole lines move249→273/strict58→68.
+The global glossary grows495→510 through the fifteen long forms, while the
+dictionary grows582→606 through those forms plus scoped cards. All31773
+non-target token projections are identical. Reader-exact support is357; the
+conservative complete-token-span normalization is360 and deliberately does
+not claim reverse naked-s/dy fusions. Independent validation passes322 checks
+with a byte-identical21-file replay.
+
+The new frontier contains48 one-hole lines and48 different residual surfaces,
+but those surfaces have872 occurrences in the inherited corpus. GDT661 should
+group their existing families before assigning defaults, beginning with the
+recurrent quality/preparation wholes and treating short `r`, `d`, `cho`, `am`
+and `dam` contextually rather than turning them into universal lexemes. No new
+page,image,f1r,f84/f84r or substring shortcut is needed.

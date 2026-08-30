@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **657**
-- Experiment-associated tracked files: **10,674** (1.1 GiB)
-- Structured GDT337+ experiments: **322**
+- Experiments indexed: **658**
+- Experiment-associated tracked files: **10,703** (1.1 GiB)
+- Structured GDT337+ experiments: **323**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT660 | GDT660_seventeen_residual_concrete_completion | `PASS_566_TARGET_POSITIONS__V37` | [report](../experiments/yolo/gdt660_seventeen_residual_concrete_completion/REPORT.md) | 29 | 4.5 MiB | 12 | STRUCTURED_YOLO |
 | GDT659 | GDT659_naked_y_local_reference | `PASS_270_NAKED_Y_CONTEXT_CARDS__V36` | [report](../experiments/yolo/gdt659_naked_y_local_reference/REPORT.md) | 31 | 3.4 MiB | 3 | STRUCTURED_YOLO |
 | GDT658 | GDT658_four_residual_concrete_completion | `PASS_4_RESIDUAL_CONCRETE_WHOLES__V35` | [report](../experiments/yolo/gdt658_four_residual_concrete_completion/REPORT.md) | 30 | 3.2 MiB | 4 | STRUCTURED_YOLO |
 | GDT657 | GDT657_multi_quality_al_shell_order | `PASS_20_MULTI_QUALITY_AL_ORDER_WHOLES__V34` | [report](../experiments/yolo/gdt657_multi_quality_al_shell_order/REPORT.md) | 33 | 3.2 MiB | 3 | STRUCTURED_YOLO |
