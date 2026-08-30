@@ -16290,3 +16290,31 @@ checking found only the expected earlier completion experiments, not this
 target set. GDT662 should close the dense families first and give every rare
 remainder an explicit replaceable card without new pages,images,f1r,f84/f84r
 or substring inheritance.
+
+## GDT662 turns the seventy-six-form frontier into a mixed recipe register
+
+V39 assigns all 861 target positions in 776 lines on 160 pages. Its 76 exact
+surface cards divide into 61 productive compounds at 741 positions, three
+learned function words at 73, four learned wholes at 36 and eight exact
+hybrids at eleven. The practical exact-word defaults are `qo=nehmen`,
+`qol=zugeben`, `qokol=erhitzen`, `oly=abseihen`, `chl=trocknen`,
+`ey=anschließend` and `a=zu gleichen Teilen`; `qodaiin` remains the nominal
+`Qualitätsgrad III` because its II/III/IV ladder is stronger than exporting
+free `qo=nehmen` into the bound form.
+
+Thirty-one observed render cards make direction and scope explicit. They bind
+`qokol` to Grad II/III/IV, preserve both repeated QOKOL actions, direct the
+four `qol qol` pairs to the left and right substances, turn terminal `qo`
+backward, bind `chee ol` as fully dried drug material and use `ey=mischen`
+only at the two line boundaries and in one dry-material sandwich. Both the
+full passage reader and the short-form reader returned GO after these
+corrections.
+
+Known positions move 18451→19312 and unknown 13888→13027. Complete
+multi-token lines move 233→331/strict 99→125; one-hole lines move
+290→302/strict 73→67. The glossary grows 556→632 and the dictionary
+678→785. All 31478 non-target projections are identical; reader-exact support
+is 667 and conservative split normalization 682. The next front contains 105
+new one-hole lines, 102 distinct surfaces and 1105 inherited positions, led by
+`l`163, `chody`78, `char`75 and `shody`46. GDT663 should close that front
+without new pages, images, f1r, f84/f84r or substring inheritance.
