@@ -16679,3 +16679,42 @@ Next render already admitted f81r as the second transfer page. It has 210
 tokens, 183 exact V48 positions and 27 open positions/25 surfaces, with no P/W
 hit from GDT672. Its Biological/hand-2 setting makes it a useful register and
 hand transfer from f1r rather than a lexical replay. Keep f84/f84r forbidden.
+
+## GDT674 renders f81r as a concrete mixed preparation register
+
+GDT674 renders all 210 visible f81r positions and all 31 physical lines. Of
+these, 183 positions/103 surfaces inherit V48 unchanged. The 27 review
+positions/25 surfaces consist of 24 true V48 gaps, two line-initial contextual
+`y` entry markers, and one line-final contextual `dy` field close. Twenty
+atom-covering P surfaces cover 21 positions, while `lshl`, `eses`, and `lchl`
+remain three learned exact wholes. The `y`/`dy` readings stay local rather than
+becoming global word meanings.
+
+The page separates into two cached visual owners: f81r.1–15 has 94 tokens and
+f81r.16–31 has 116. Eighteen already inherited V48 action anchors occupy fifteen
+lines; sixteen lines have no inherited action anchor. The best current working
+architecture is therefore a mixed biological/pharmaceutical preparation and
+batch register rather than continuous prose or an all-imperative recipe. Ten
+quantity, grade, form, portion, or fraction values attach explicitly. The
+reader exposes seed, wood-, herb/leaf-, root- and flower-drug material, powder,
+composites, drying, soaking, heating, cooling, measuring, adding and straining,
+but it does not invent a vessel, bath, water, wine, oil, salt, patient, disease,
+or cure where no card exists.
+
+The review positions receive exact-reader support in both IT2a/RF1b eleven
+times, in one alternate thirteen times, and in neither three times. Relative
+to the old GDT416 compiler, generic station/current-entry rows fall from
+208/210 to zero in the new reading; the 61 remaining broad carriers stay
+visible. The 24 true gaps close twelve f81r lines, moving the panel overlay from
+8,018 to 7,994 unknown positions and from 1,368 to 1,380 complete lines.
+Independent source-first reconstruction passes 2,352 checks.
+
+One parallel read-only audit accidentally exposed forbidden-selector rows by
+opening the mixed cross-transcription source directly. Its complete output was
+discarded before synthesis; no card, count, value, or hypothesis uses it. The
+builder and validator rematerialize f81r only through the guarded selector.
+
+Next scan the twenty P cards and three learned W wholes at every other guarded
+exact occurrence in the already admitted panel. Keep the contextual `y`/`dy`
+cards local, keep f84/f84r forbidden, and open no new page until this transfer
+test shows which f81r meanings survive elsewhere.

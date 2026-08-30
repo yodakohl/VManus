@@ -284,7 +284,7 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-GDT673 scans all80 GDT672 cards at894 exact positions in the guarded179-side panel.Thirty-five P cards/155 positions and4 learned W cards/7 positions hold unchanged,cover162 old unknowns on156 lines/94 pages;unknown8180→8018 and multi-token complete1242→1246.The5 free O cards stay contextual across732 positions:`y`200 hold/70 conflict,`s`8 sign/264 seed,`d`0 d+or/47 dose/6 measure-sign,`r`3 dry-fraction binds/126 open,`ok`0 chey-binds/8 open.This corrects f1r.7 `s` to seed/material and f1r.13 `d` to dose/measure-sign while retaining local f1r.16 `d+or`;16 value bindings,4 open process values and3 reader rivals remain explicit;19817 checks pass.Next render already admitted f81r:210 tokens,183 exact V48,27 open,0 GDT672 P/W hits,Biological/hand2.Keep f84/f84r forbidden.
+GDT674 renders admitted f81r:210 tokens/31 lines;183 positions inherit V48 and27 reviews comprise24 true gaps plus contextual `y`×2/`dy`.Twenty composed surfaces cover21 positions,3 learned wholes cover3;reader support is11 both/13 one/3 neither.Ten values bind explicitly;18 inherited actions occur on15 lines while16 lines lack one.The best working architecture is a mixed biological/pharmaceutical preparation-and-batch register,not all-imperative prose.GDT416 generic station rows208/210→0 new;unknown8018→7994,complete1368→1380;2352 checks pass.Next scan the20 P and3 W cards at all other guarded exact occurrences before another admitted page.Keep f84/f84r forbidden.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`

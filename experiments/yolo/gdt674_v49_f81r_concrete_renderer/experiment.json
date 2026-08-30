@@ -1,0 +1,65 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The complete 210-position reader, 279 component traces, three-reader review audit and two comparison baselines are retained because the exact source-to-card-to-render path cannot be reproduced from the compact counts alone.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "A complete exploratory f81r working reader on the already admitted V48 panel: 183/210 positions inherit V48 unchanged and 27/210 are explicit review positions. The 24 former unknown positions receive replaceable page cards; none is silently promoted manuscript-wide. This does not establish plaintext, language, phonetics, a historical codebook, a plant identity, a disease, a patient, a cure, a vessel, a carrier liquid, or manuscript-wide meanings.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt674_v49_f81r_concrete_renderer/src/run.py",
+    "validate": "python3 experiments/yolo/gdt674_v49_f81r_concrete_renderer/src/validate.py"
+  },
+  "created": "2026-08-31",
+  "dependencies": ["GDT407", "GDT416", "GDT671", "GDT673"],
+  "experiment_id": "GDT674",
+  "inputs": [
+    {"path":"experiments/yolo/gdt673_v48_transfer_occurrence_conflict_scan/artifacts/RESULT.json","role":"frozen GDT673 panel overlay","sha256":"995bd39124c55c500e2c17c53fd4ba9b9db7535737a1a58f15e9314ab8f8d060"},
+    {"path":"experiments/yolo/gdt673_v48_transfer_occurrence_conflict_scan/artifacts/O_CONTEXT_RULES.tsv","role":"contextual y split","sha256":"00d4071bcff84ef9379634b1dc04204ed242d0dcef18b8a417b7bb159915577f"},
+    {"path":"experiments/yolo/gdt671_fifteen_residual_family_completion/artifacts/ALL_LINE_CONCRETE_COVERAGE_V48.tsv","role":"frozen V48 line coverage including f81r","sha256":"cb299433b38de8efb41c3da6e8343d74b46bff9c6063a5df88c85e6069cc45e6"},
+    {"path":"experiments/yolo/gdt671_fifteen_residual_family_completion/artifacts/STEM_MODEL_V48.tsv","role":"frozen 56-role V48 stem model","sha256":"6a05d2ee8d6b0c730cd5a61a6a327da9731c2278b258f9d7455c9aa1c60cd1ce"},
+    {"path":"experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/artifacts/gdt407_715_statement_edition.tsv","role":"comparison-only statement baseline and cached visual owners","sha256":"4f530dc3c4adafc278d720e53b367ba76cd8b96762cada9cccc9544eaf032a73"},
+    {"path":"experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/artifacts/gdt416_4576_imperative_clauses.tsv","role":"comparison-only imperative baseline","sha256":"cffae521ba93d96446537584e35fa9a4fe4b6e34330ebf7e955ad725f7c70561"},
+    {"path":"transcription/voynich_zl3b_tokens.tsv","role":"guarded f81r token source","sha256":"6a061a26edc05ff37dc386c2215774c229a5ff087d3091e68bdd4983a6c007aa"},
+    {"path":"transcription/voynich_cross_transcription_lines.tsv","role":"guarded f81r three-reader source","sha256":"ff3a4559004a29764c60102326de154b29fbba06a2a206bdd76d7feda432e16c"},
+    {"path":"experiments/yolo/gdt674_v49_f81r_concrete_renderer/src/F81R_TRANSFER_CARDS.tsv","role":"twenty-three raw-unknown review cards","sha256":"37bcb2c80fa18e32b2bd2c17b3f14eed4c21ea3c2762f5d1aa62460b9cc574b6"},
+    {"path":"experiments/yolo/gdt674_v49_f81r_concrete_renderer/src/F81R_CONTEXT_CARDS.tsv","role":"three occurrence context rechecks","sha256":"786de26453336f1df2a3e97e1181c695afb4c441a22a06ab4783482aa989c586"},
+    {"path":"experiments/yolo/gdt674_v49_f81r_concrete_renderer/src/F81R_LINE_SPECS.tsv","role":"thirty-one curated physical-line readings","sha256":"e9652f32b0d9ffd5a0efaca97f7324165cdac17e2211acc1d1a0bf431df0da88"},
+    {"path":"experiments/yolo/gdt674_v49_f81r_concrete_renderer/src/F81R_VALUE_ATTACHMENTS.tsv","role":"ten value-to-head bindings","sha256":"b2ad37ba38c2724d849764ccaa0b51d842606b0dda5cbc6f3aecf8191e60032a"},
+    {"path":"experiments/yolo/gdt674_v49_f81r_concrete_renderer/src/F81R_EXPLICIT_ACTIONS.tsv","role":"eighteen inherited V48 action anchors","sha256":"9a8203dd63192cf0083c85e9221127e517fada325439ee733d05a530963424c3"},
+    {"path":"experiments/yolo/gdt674_v49_f81r_concrete_renderer/src/RENDERER_RULES.tsv","role":"thirteen rendering rules","sha256":"71b882b39c717daef8e3458c628e29dcd37e3b0daec57257592a4db3fbef5248"}
+  ],
+  "outputs": [
+    {"path":"experiments/yolo/gdt674_v49_f81r_concrete_renderer/README.md","role":"entry point","sha256":"acafc34c37f1635f2688e623cb0050a294d8e45a56c16fc3cc8f6980f8ce5df7"},
+    {"path":"experiments/yolo/gdt674_v49_f81r_concrete_renderer/METHOD.md","role":"method","sha256":"f7f1f447875cedea82c3fcfe35dfa522965190acd59cc1a543a809fb91f4e7f5"},
+    {"path":"experiments/yolo/gdt674_v49_f81r_concrete_renderer/REPORT.md","role":"result report","sha256":"8c2c77d04c660e82d3151e1a8b5af977868fe9cfa64633f6051764b1a3919a24"},
+    {"path":"experiments/yolo/gdt674_v49_f81r_concrete_renderer/artifacts/README.md","role":"artifact map","sha256":"5683c0cffe9c5c78ede634ea28fbd65ed6e328b16f7c80254933355d893205a3"},
+    {"path":"experiments/yolo/gdt674_v49_f81r_concrete_renderer/src/run.py","role":"deterministic builder","sha256":"b2b31af769cdf1a096640abdfe7a0c9c1554fbaaaade72b158e1f6e86f8d459a"},
+    {"path":"experiments/yolo/gdt674_v49_f81r_concrete_renderer/src/validate.py","role":"independent validator","sha256":"a0a07cf19e1841ae8967591a0970e920efdcc5c9bd2c3c5ad6b631527c5da784"},
+    {"path":"experiments/yolo/gdt674_v49_f81r_concrete_renderer/artifacts/F81R_SOURCE_ALIGNMENT.tsv","role":"210-position guarded source alignment","sha256":"981456100f2dd10ca2dac126a3f20bb8de190f05969122c4d2a8ce32816ff94b"},
+    {"path":"experiments/yolo/gdt674_v49_f81r_concrete_renderer/artifacts/F81R_TOKEN_READINGS.tsv","role":"210 token meanings and provenance routes","sha256":"759b566f255739a491196dd0885f813ce9e8a2daba3c5abc3305e5c8e2fc44a3"},
+    {"path":"experiments/yolo/gdt674_v49_f81r_concrete_renderer/artifacts/F81R_COMPONENT_TRACES.tsv","role":"279 byte-covering component rows","sha256":"d1a654a81e8d1c733a4d8945d815cc042ef3d638ec35519764f57970fbf8a503"},
+    {"path":"experiments/yolo/gdt674_v49_f81r_concrete_renderer/artifacts/F81R_REVIEW_CARDS.tsv","role":"twenty-five review surface cards","sha256":"98034a90a004895fc88dda19f5785514cdafdeffd7d9c189976bd3fd15445b52"},
+    {"path":"experiments/yolo/gdt674_v49_f81r_concrete_renderer/artifacts/F81R_READER_VARIANT_AUDIT.tsv","role":"twenty-seven position-specific reader decisions","sha256":"a23c022b00622f3d03d83ffaebd35629c90c206cfabbd97727b56561fe26ac35"},
+    {"path":"experiments/yolo/gdt674_v49_f81r_concrete_renderer/artifacts/F81R_LINE_READER.tsv","role":"thirty-one concrete physical-line readings","sha256":"decfadb4d05b06f02f94c42d19a6b313ed78ea5fd94bb7fc9178d1142e6fe0c7"},
+    {"path":"experiments/yolo/gdt674_v49_f81r_concrete_renderer/artifacts/F81R_EXPLICIT_ACTION_AUDIT.tsv","role":"eighteen inherited action anchors","sha256":"8c2c9c804de535fa40cd0c75b71e6a8f00c594d1b1ae89b9d7fdb96f0921f2af"},
+    {"path":"experiments/yolo/gdt674_v49_f81r_concrete_renderer/artifacts/F81R_VALUE_ATTACHMENT_AUDIT.tsv","role":"ten value attachments","sha256":"d7625b73ae51dfe6fa86d89d6e5ca08bb9877c5af08de1059c9e90e09d66060e"},
+    {"path":"experiments/yolo/gdt674_v49_f81r_concrete_renderer/artifacts/F81R_COVERAGE_OVERLAY.tsv","role":"thirty-one local coverage transitions","sha256":"bd1a5337bc4e4fe9d91ca97f171c79543e5146f45341c0471914e05a6f35927e"},
+    {"path":"experiments/yolo/gdt674_v49_f81r_concrete_renderer/artifacts/F81R_PAGE_ARCHITECTURE.tsv","role":"two-block page architecture","sha256":"23bd5f8e541e8eb5b0a75f2481aaa15890f4ae9ea0cae3469d7d1fd94b8a7e62"},
+    {"path":"experiments/yolo/gdt674_v49_f81r_concrete_renderer/artifacts/LEGACY_TOKEN_RENDERER_AUDIT.tsv","role":"210-row comparison-only imperative audit","sha256":"e1505ec9e2e14e460e141d20b69fd10e91f9f22e099bc9e4734beaccd6230d48"},
+    {"path":"experiments/yolo/gdt674_v49_f81r_concrete_renderer/artifacts/LEGACY_STATEMENT_BASELINE.tsv","role":"48-statement comparison baseline","sha256":"488b77a87024b082ca20b06e86ae20fca1827b1ad9598ead98360f6fc548f203"},
+    {"path":"experiments/yolo/gdt674_v49_f81r_concrete_renderer/artifacts/RENDERER_RULE_CARDS.tsv","role":"thirteen rule cards","sha256":"71b882b39c717daef8e3458c628e29dcd37e3b0daec57257592a4db3fbef5248"},
+    {"path":"experiments/yolo/gdt674_v49_f81r_concrete_renderer/artifacts/GDT674_F81R_CONCRETE_WORKING_READER.md","role":"complete four-layer f81r reader","sha256":"11b47d5e7a3b85e9db406e6fc2c9bafba19c33e6462b049aebe3a2706c272246"},
+    {"path":"experiments/yolo/gdt674_v49_f81r_concrete_renderer/artifacts/RESULT.json","role":"compact result","sha256":"e3bbed380e506402fad216964b72059747f5d29070178f86322ca65aa397af35"},
+    {"path":"experiments/yolo/gdt674_v49_f81r_concrete_renderer/artifacts/VALIDATION.json","role":"independent validation","sha256":"6db4348fc5484ff60ef74e625554677fa265fa2d41693f5dcb7b8a10558641af"}
+  ],
+  "question": "Can the admitted f81r page be rendered concretely across all 210 tokens while preserving 183 V48 positions unchanged, resolving all 27 review positions explicitly, distinguishing inherited action anchors from nominal records and eliminating the old generic carry renderer?",
+  "schema_version": 1,
+  "sealed_data": {"f84": "FORBIDDEN", "f84r": "FORBIDDEN"},
+  "slug": "v49_f81r_concrete_renderer",
+  "status": "PASS_F81R_210_TOKEN_CONCRETE_READER__27_REVIEW_POSITIONS__24_GAPS_CLOSED",
+  "title": "V49 f81r Concrete Renderer",
+  "updated": "2026-08-31",
+  "validation": {
+    "artifact": "experiments/yolo/gdt674_v49_f81r_concrete_renderer/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}
