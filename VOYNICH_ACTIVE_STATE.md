@@ -16431,3 +16431,32 @@ should derive their complete-panel occurrence counts and candidate meanings
 from V42 without opening another page or using f1r, f84 or f84r; quantities,
 water and flow actions may not be inserted unless their card actually carries
 them.
+
+## GDT666 turns the 151-form remainder into the V43 workshop register
+
+V43 assigns all 612 target positions in 573 lines on 159 already released
+pages and closes all 156 inherited one-hole rows. Known positions move
+22,552→23,164 and unknown 9,787→9,175. Complete multi-token lines move
+802→968/strict 225→257; one-hole lines move 313→251/strict 67→59. The glossary
+grows 1,022→1,173 and the dictionary 1,509→1,769.
+
+The final 151-card synthesis has 129 role-based cards and 22 learned exact
+wholes. Forty-seven roles are inherited. One tightly bounded new action block,
+`OLY_STRAIN_ACTION=abseihen`, is licensed by naked `oly` (53 occurrences, 36
+line-final), `loly` and repeated `olyly`; it composes `chololy`, while nominal
+`choly` and `doly` remain explicit exclusions. A scope audit converts
+`chosory`, `koddy` and `ldchey` to learned wholes instead of forcing illegal
+internal stem readings.
+
+All eleven free-`g` contexts were read as complete lines. Nine are line-final
+and the two medial cases divide work blocks, so V43 keeps free `g` as the
+learned closure “vorstehenden Rezeptposten abschließen”; “ein Gran” and the
+historical `gutta`/Tropfen analogy remain recorded rivals. Thirty manual
+passages preserve the concrete root, herb/leaf, seed, flower, powder, dose,
+heat, cool, dry, soak, add and strain vocabulary. Independent source-first
+validation passes 7,729 checks with byte-identical replay.
+
+The next frontier has 102 one-hole lines exposing 101 distinct forms, led by
+`qoolkeey`, `oiees`, `oain`, `olshy` and `ypchedy`. GDT667 should compose these
+from V43 on the same page panel, reuse the OLY and free-`g` exclusions, and
+open no new page or image and no f1r, f84 or f84r.
