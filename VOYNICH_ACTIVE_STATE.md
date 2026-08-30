@@ -15994,3 +15994,21 @@ and is the dry-attributive sister of SHECKHY. After it, migrate only observed
 reader-anchored OTCHO,Y+OL/OR and SHCKH/CHECKH sister wholes. No new page,
 image,f1r,f84*,GDT418 value,generic filler,free component,absent cell,
 plaintext,language or ingredient identity is licensed.
+
+## GDT651 replaces the CKH mixture/binding fiction with one four-shell grid
+
+V28 revises eight existing CKH whole cards and adds seven observed CHECKH/SHCKH
+whole cards. The live family parse is CH/SH + optional outer `E_ATTR` + learned
+CKH object + the already local degree/completion ending. No-E forms are rendered
+lemma-first (`Arzneikompositum: trocken/feucht`); outer-E forms are rendered
+attributively (`trockenes/feuchtes Arzneikompositum`). Neither CKH nor E_ATTR is
+a free dictionary entry, and Arzneikompositum remains replaceable.
+
+The seven additions cover124 positions,109 all-reader exact and110
+split-normalized. V27→V28 moves dictionary435→450,glossary372→379,known
+14617→14741,complete103→107/strict59→62 and one-hole153→159/strict41→40.
+Four lines newly close,three strict;308 line renderings change after the
+family-wide correction. Observed zero-exact checkhedy/sheckhdy and seven absent
+cells remain holds. The next bounded route ranks the40 strict V28 one-hole
+surfaces by recurrence and complete-family support, beginning with repeated
+chdaly and yk/kchy frames; generic GDT639 hold prose is not inherited.

@@ -1,0 +1,192 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exploratory V28 exact-whole migration of the observed four-shell CKH grid: eight prior meanings revised and seven reader-exact whole surfaces added; Arzneikompositum and E_ATTR remain replaceable family-bound hypotheses; no free CKH/E, absent cell, plaintext, phonetics, language, or ingredient identity.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt651_ckh_four_shell_family_migration/src/run.py",
+    "validate": "python3 experiments/yolo/gdt651_ckh_four_shell_family_migration/src/validate.py"
+  },
+  "created": "2026-08-30",
+  "dependencies": [
+    "GDT633",
+    "GDT647",
+    "GDT649",
+    "GDT650"
+  ],
+  "experiment_id": "GDT651",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt650_v26_strict_family_completion/src/run.py",
+      "role": "direct frozen V27 builder",
+      "sha256": "91bd029f2edd6433afd7b98e46e399b2d9a54b47dd23a7ddda9e98fa4921f6b8"
+    },
+    {
+      "path": "experiments/yolo/gdt650_v26_strict_family_completion/artifacts/PAGE_ALLOWLIST.tsv",
+      "role": "direct frozen V27 allowlist",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+    },
+    {
+      "path": "experiments/yolo/gdt650_v26_strict_family_completion/artifacts/ALL_LINE_CONCRETE_COVERAGE_V27.tsv",
+      "role": "direct frozen V27 coverage",
+      "sha256": "7ea0a88236d19c11ab5bd5f518f05a8466c3045efef556aa8db1e9913589c941"
+    },
+    {
+      "path": "experiments/yolo/gdt650_v26_strict_family_completion/artifacts/COMPLETE_PASSAGES_V27.tsv",
+      "role": "direct frozen V27 complete passages",
+      "sha256": "101d6388828197e60438e776a8c5e369a1f028763216e8a9d34d9ccc6627dd86"
+    },
+    {
+      "path": "experiments/yolo/gdt650_v26_strict_family_completion/artifacts/ONE_UNKNOWN_PASSAGES_V27.tsv",
+      "role": "direct frozen V27 one-hole frontier",
+      "sha256": "9151d8c0c3cccecfc1d650fae3185a106e4ec849136c7a316a6becfab98f7e09"
+    },
+    {
+      "path": "experiments/yolo/gdt650_v26_strict_family_completion/artifacts/V27_EXACT_TOKEN_GLOSSARY.tsv",
+      "role": "direct frozen V27 glossary",
+      "sha256": "3d3f906f16fa242dcc328306ec78c8234dcc4c7a3633de1ed7677c9491846904"
+    },
+    {
+      "path": "experiments/yolo/gdt650_v26_strict_family_completion/artifacts/WORKING_DICTIONARY_V27.tsv",
+      "role": "direct frozen V27 dictionary",
+      "sha256": "e7d18fd96cc9d79a90abea2a0dbb139d9028debe2647cbbdeb4cc86f5224ac26"
+    },
+    {
+      "path": "experiments/yolo/gdt650_v26_strict_family_completion/artifacts/RESULT.json",
+      "role": "direct frozen V27 result",
+      "sha256": "07e3e3bc5eb9bd1284e99d285b805eb857e86d206969a9e6583bb2409e2bec68"
+    },
+    {
+      "path": "experiments/yolo/gdt650_v26_strict_family_completion/REPORT.md",
+      "role": "direct V27 report",
+      "sha256": "5555267980a648d017ba1b4f56d5ff0306d6e7d046aa14b88bb826d0c5af5846"
+    },
+    {
+      "path": "experiments/yolo/gdt633_cth_interfix_semantic_contrasts/REPORT.md",
+      "role": "quality and E-shell evidence",
+      "sha256": "9e1b792cd3344a6eccfd05b390676bc00b27aa129f3d852a06b2785e97eb6a02"
+    },
+    {
+      "path": "experiments/yolo/gdt647_quality_subdegree_family_migration/REPORT.md",
+      "role": "quality and subdegree evidence",
+      "sha256": "6d139a35b41546a5e8bc4a49b83e3d6367d91d04245eeb848f0ce0d0f2bc905d"
+    },
+    {
+      "path": "experiments/yolo/gdt649_strict_v25_hole_completion/REPORT.md",
+      "role": "initial CHCKH family evidence",
+      "sha256": "a33e1f0ec8a47ddffba77f3d35a060d0fd79c2a3ecda9f00fc17d0c8433caafe"
+    },
+    {
+      "path": "transcription/voynich_zl3b_tokens.tsv",
+      "role": "guarded transcription input",
+      "sha256": "6a061a26edc05ff37dc386c2215774c229a5ff087d3091e68bdd4983a6c007aa"
+    },
+    {
+      "path": "transcription/voynich_cross_transcription_lines.tsv",
+      "role": "guarded cross-reader input",
+      "sha256": "ff3a4559004a29764c60102326de154b29fbba06a2a206bdd76d7feda432e16c"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt651_ckh_four_shell_family_migration/METHOD.md",
+      "role": "method and predeclared decision rule",
+      "sha256": "9aedb80edbb8e653b06b0cba9f2ce3d89f7824a9926868d78902cc6859d2e8f9"
+    },
+    {
+      "path": "experiments/yolo/gdt651_ckh_four_shell_family_migration/README.md",
+      "role": "experiment entry point",
+      "sha256": "2d0988f48c820bd08af3549316575b1b65410c826b4c32e04c3b2a2e276e93ba"
+    },
+    {
+      "path": "experiments/yolo/gdt651_ckh_four_shell_family_migration/REPORT.md",
+      "role": "primary semantic report",
+      "sha256": "d5a3c447ed292d9a5f3fca426df89280f23c66c41a6b12836444767055cc6660"
+    },
+    {
+      "path": "experiments/yolo/gdt651_ckh_four_shell_family_migration/artifacts/README.md",
+      "role": "artifact map",
+      "sha256": "830d2e172c5d0e20ed29cc8188891e6389d080644e38561934acaacc8b2baed3"
+    },
+    {
+      "path": "experiments/yolo/gdt651_ckh_four_shell_family_migration/artifacts/TARGET_DECISION_DECK.tsv",
+      "role": "seven new exact-whole cards",
+      "sha256": "51d46f83a0b1bb67c505836fd045ff31c68ac535465effbc04a37c32752d3ea0"
+    },
+    {
+      "path": "experiments/yolo/gdt651_ckh_four_shell_family_migration/artifacts/REVISED_EXISTING_WHOLE_DEFAULTS.tsv",
+      "role": "eight revised existing whole defaults",
+      "sha256": "6c23f5656eec305b520408e1cc5af96c243d2dba6dbb5cfe94280508ae89c6e8"
+    },
+    {
+      "path": "experiments/yolo/gdt651_ckh_four_shell_family_migration/artifacts/FAMILY_EVIDENCE_ATLAS.tsv",
+      "role": "complete four-shell family grid",
+      "sha256": "c8acb5e7d5acf9f056d06989ae037461f0fbcd8dcdc9e74046a9d986b1fa05f0"
+    },
+    {
+      "path": "experiments/yolo/gdt651_ckh_four_shell_family_migration/artifacts/BOUNDARY_BRIDGE_ATLAS.tsv",
+      "role": "direct sister-line evidence",
+      "sha256": "057aa6465f6de27b8ee17644e944a32f4be20c9f2815eb6eb0dc35ca28e50e30"
+    },
+    {
+      "path": "experiments/yolo/gdt651_ckh_four_shell_family_migration/artifacts/SOURCE_PASSAGE_REALITY_CHECK.tsv",
+      "role": "strict source translations",
+      "sha256": "c83a121a60851f7b386eacac51b0b2336a12953b1ff0e9a7c7325a4a255427af"
+    },
+    {
+      "path": "experiments/yolo/gdt651_ckh_four_shell_family_migration/artifacts/RESULT.json",
+      "role": "machine-readable result",
+      "sha256": "eca669becbdb9aab4974bdb860490bdae7049abb90bf132507433f19f2280441"
+    },
+    {
+      "path": "experiments/yolo/gdt651_ckh_four_shell_family_migration/artifacts/V28_EXACT_TOKEN_GLOSSARY.tsv",
+      "role": "reproducible V28 glossary",
+      "sha256": "614714ad8c078d1a731ff3ea6232654d4a55bbdee8d70339392260474d1a5eef"
+    },
+    {
+      "path": "experiments/yolo/gdt651_ckh_four_shell_family_migration/artifacts/ALL_LINE_CONCRETE_COVERAGE_V28.tsv",
+      "role": "reproducible V28 coverage",
+      "sha256": "9a00c32e2f4030c33d89b276ab5b8129a5217500dc9de4b805492d09e04981dc"
+    },
+    {
+      "path": "experiments/yolo/gdt651_ckh_four_shell_family_migration/artifacts/COMPLETE_PASSAGES_V28.tsv",
+      "role": "reproducible V28 complete passages",
+      "sha256": "90c9b2b803e8a862ac48489b5b44553668d1f579f479c147fdc0a79fa9456c35"
+    },
+    {
+      "path": "experiments/yolo/gdt651_ckh_four_shell_family_migration/artifacts/WORKING_DICTIONARY_V28.tsv",
+      "role": "reproducible V28 dictionary",
+      "sha256": "809e0285deb07c356ea6de6e39d9ecf90b29557f2b94d082cdce06855ea9b6e4"
+    },
+    {
+      "path": "experiments/yolo/gdt651_ckh_four_shell_family_migration/artifacts/VALIDATION.json",
+      "role": "independent release validation",
+      "sha256": "f7afbe83317968f54b81764db15cb0d53e32186192b54c056b3d459a9af36ae8"
+    },
+    {
+      "path": "experiments/yolo/gdt651_ckh_four_shell_family_migration/src/run.py",
+      "role": "deterministic builder",
+      "sha256": "fe773d9740bb4a690564b64e327d5fde8bb36efd0a1eec0d8ead5449af025dd2"
+    },
+    {
+      "path": "experiments/yolo/gdt651_ckh_four_shell_family_migration/src/validate.py",
+      "role": "independent validator",
+      "sha256": "54c3ae10f3a653b9c69acdd6c056164e8f22c902723afe9d1cf37c37aaeb5b42"
+    }
+  ],
+  "question": "Can the observed CHCKH, CHECKH, SHCKH, and SHECKH surfaces be migrated as one concrete four-shell exact-whole family while removing unsupported mixing/binding prose and keeping CKH and outer E family-bound?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "ckh_four_shell_family_migration",
+  "status": "PASS_7_CKH_SISTER_WHOLES__V28_FOUR_SHELL_GRID",
+  "title": "CKH four-shell family migration",
+  "updated": "2026-08-30",
+  "validation": {
+    "artifact": "experiments/yolo/gdt651_ckh_four_shell_family_migration/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}
