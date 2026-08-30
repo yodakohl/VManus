@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT667 | GDT667_one_hundred_one_residual_family_completion | `PASS_438_TARGET_POSITIONS__V44_CONCRETE_RECIPE_REGISTER` | [report](../experiments/yolo/gdt667_one_hundred_one_residual_family_completion/REPORT.md) | 44 | 6.4 MiB | 8 | STRUCTURED_YOLO |
+| GDT667 | GDT667_dictionary_count_correction | `CORRECTED_REPORT_ONLY_1925_TO_1924` | [report](../experiments/yolo/gdt667_one_hundred_one_residual_family_completion/REPORT.md) | 44 | 6.4 MiB | 8 | STRUCTURED_YOLO |
 | GDT666 | GDT666_one_hundred_fifty_one_residual_family_completion | `PASS_612_TARGET_POSITIONS__V43_CONCRETE_RECIPE_REGISTER` | [report](../experiments/yolo/gdt666_one_hundred_fifty_one_residual_family_completion/REPORT.md) | 45 | 6.9 MiB | 7 | STRUCTURED_YOLO |
 | GDT665 | GDT665_one_hundred_forty_eight_residual_family_completion | `PASS_994_TARGET_POSITIONS__V42_CONCRETE_RECIPE_REGISTER` | [report](../experiments/yolo/gdt665_one_hundred_forty_eight_residual_family_completion/REPORT.md) | 42 | 7.6 MiB | 6 | STRUCTURED_YOLO |
 | GDT664 | GDT664_one_hundred_forty_residual_family_completion | `PASS_1141_TARGET_POSITIONS__V41_CONCRETE_RECIPE_REGISTER` | [report](../experiments/yolo/gdt664_one_hundred_forty_residual_family_completion/REPORT.md) | 37 | 7.5 MiB | 5 | STRUCTURED_YOLO |

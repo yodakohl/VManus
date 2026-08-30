@@ -16467,7 +16467,7 @@ V44 assigns all 438 target positions in 419 lines on 145 already released
 pages and closes all 102 inherited one-hole rows. Known positions move
 23,164→23,602 and unknown 9,175→8,737. Complete multi-token lines move
 968→1,073/strict 257→281; one-hole lines move 251→222/strict 59→50. The
-glossary grows 1,173→1,274 and the dictionary 1,769→1,925.
+glossary grows 1,173→1,274 and the dictionary 1,769→1,924.
 
 Full-panel family search improves the conservative 85-composed/16-learned
 draft to 94 role-composed cards and seven learned exact wholes. Four scoped

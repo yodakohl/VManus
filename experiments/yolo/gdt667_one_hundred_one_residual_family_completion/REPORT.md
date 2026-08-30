@@ -18,10 +18,10 @@ lines become the next frontier. No page or image is added.
 | one-hole lines | 251 | 222 | −29 |
 | reader-stable one-hole lines | 59 | 50 | −9 |
 | working glossary surfaces | 1,173 | 1,274 | +101 |
-| dictionary entries | 1,769 | 1,925 | +156 |
+| dictionary entries | 1,769 | 1,924 | +155 |
 
-The 156 dictionary additions are 101 surface defaults and 55 local practical
-renderings. They are not 156 independently identified plaintext words.
+The 155 dictionary additions are 101 surface defaults and 54 local practical
+renderings. They are not 155 independently identified plaintext words.
 
 ## The full panel reduces memorization
 
