@@ -1,0 +1,62 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The complete 894-position audit is retained because each occurrence binds exact page, locus, ordinal, V48 context, two-reader alignment, decision and reason; compact profiles alone cannot reproduce the three O-card conflict splits.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "An exact-spelling exploratory transfer overlay on the admitted f84-free 179-side V48 panel. Thirty-five role-composed cards and four learned exact-whole cards cover 162 prior unknown positions; learned wholes remain learned, and five free surfaces remain occurrence-scoped. This does not establish plaintext, language, phonetics, a historical codebook, lexemes, real substances, plants, diseases, patients, cures, procedures, or manuscript-wide semantics.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt673_v48_transfer_occurrence_conflict_scan/src/run.py",
+    "validate": "python3 experiments/yolo/gdt673_v48_transfer_occurrence_conflict_scan/src/validate.py"
+  },
+  "created": "2026-08-31",
+  "dependencies": ["GDT671", "GDT672"],
+  "experiment_id": "GDT673",
+  "inputs": [
+    {"path":"experiments/yolo/gdt672_v48_concrete_page_renderer/artifacts/RESULT.json","role":"frozen GDT672 result","sha256":"f064fedb8173ea8be0a8facaf0222fcbe1422868dba3aaef79ea3553bec56400"},
+    {"path":"experiments/yolo/gdt672_v48_concrete_page_renderer/src/F1R_TRANSFER_CARDS.tsv","role":"eighty frozen f1r transfer cards","sha256":"8af9d144878decbb150855462850c3b28b2ef87c7238bb904f9ba033c5349e37"},
+    {"path":"experiments/yolo/gdt672_v48_concrete_page_renderer/artifacts/F1R_TOKEN_READINGS.tsv","role":"214-position f1r occurrence reference","sha256":"7859ce7f7706d6c2b0d883de34c79b31e3d0a5ffb9a863e152751b4c6c95d350"},
+    {"path":"experiments/yolo/gdt671_fifteen_residual_family_completion/artifacts/RESULT.json","role":"frozen V48 result","sha256":"d980a7413eb202d7a606022cbceae7eb0f4c65ca59ae3a3a42e25559d12b50b4"},
+    {"path":"experiments/yolo/gdt671_fifteen_residual_family_completion/artifacts/ALL_LINE_CONCRETE_COVERAGE_V48.tsv","role":"guarded 179-side V48 line coverage","sha256":"cb299433b38de8efb41c3da6e8343d74b46bff9c6063a5df88c85e6069cc45e6"},
+    {"path":"experiments/yolo/gdt671_fifteen_residual_family_completion/artifacts/PAGE_ALLOWLIST.tsv","role":"exact 179-page allowlist","sha256":"f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"},
+    {"path":"transcription/voynich_cross_transcription_lines.tsv","role":"guarded alternate-reader source","sha256":"ff3a4559004a29764c60102326de154b29fbba06a2a206bdd76d7feda432e16c"},
+    {"path":"experiments/yolo/gdt673_v48_transfer_occurrence_conflict_scan/src/CARD_CONTEXT_DECISIONS.tsv","role":"39 manual P/W context decisions","sha256":"9bcbc0d23fb104fc6c6fe80fb2eee4b02cca651302d6e1e6e10f8b91abf3d406"},
+    {"path":"experiments/yolo/gdt673_v48_transfer_occurrence_conflict_scan/src/SEMANTIC_RIVAL_DECISIONS.tsv","role":"semantic and cross-line rival decisions","sha256":"c29645e1db31c1da5c7b2414a5fc3e67527c7c0d3403d2a8fffdbc8182021a47"},
+    {"path":"experiments/yolo/gdt673_v48_transfer_occurrence_conflict_scan/src/READER_CONDITIONED_RIVALS.tsv","role":"three reader-conditioned rivals","sha256":"49bea58b3c173a15167b040d65f71272eb1d722d0926749bcb9ef3f3d77a88c0"},
+    {"path":"experiments/yolo/gdt673_v48_transfer_occurrence_conflict_scan/src/PANEL_VALUE_ATTACHMENT_DECISIONS.tsv","role":"twenty adjacent value decisions","sha256":"f62a3ca807edaa51572c256cec1de3c4bcb8809308447253c50a750654ec641c"}
+  ],
+  "outputs": [
+    {"path":"experiments/yolo/gdt673_v48_transfer_occurrence_conflict_scan/README.md","role":"entry point","sha256":"fa76e13a01f3ffca37c15f83ed2d7a994f30502bed337c65848617fb4eecb4be"},
+    {"path":"experiments/yolo/gdt673_v48_transfer_occurrence_conflict_scan/METHOD.md","role":"method","sha256":"22e96b1eada8faea201673d1a9a7e33b325e7f420863a614513a1dd4eae302d2"},
+    {"path":"experiments/yolo/gdt673_v48_transfer_occurrence_conflict_scan/REPORT.md","role":"result report","sha256":"7d463d706ca5a3eb50e0fbc12a5a9613d1329a56aa26f950a2dff343d1b2551b"},
+    {"path":"experiments/yolo/gdt673_v48_transfer_occurrence_conflict_scan/artifacts/README.md","role":"artifact map","sha256":"a8cb82bb2d22d7550c16816a55cf47e258aa133261b4521ee67373330813063d"},
+    {"path":"experiments/yolo/gdt673_v48_transfer_occurrence_conflict_scan/src/run.py","role":"deterministic builder","sha256":"e5eeb4ba5b38cc79c551fcd48bd2719d7e23e3dfd8afc150e7e7adf9cb83e4af"},
+    {"path":"experiments/yolo/gdt673_v48_transfer_occurrence_conflict_scan/src/validate.py","role":"independent validator","sha256":"27b744a3a5e15f372a5ddb2324240c67167b181c58b14d36fed2bd334c839357"},
+    {"path":"experiments/yolo/gdt673_v48_transfer_occurrence_conflict_scan/artifacts/CARD_PANEL_TRANSFER_PROFILE.tsv","role":"eighty-card panel profile","sha256":"16837211151b4951704285b8bb0766414f664dac9fe19b2d61b01720b2055d23"},
+    {"path":"experiments/yolo/gdt673_v48_transfer_occurrence_conflict_scan/artifacts/CONTEXT_CONFLICTS.tsv","role":"381 named context conflicts","sha256":"070e799aab273a20dd92a1337ee271de46c7bf614846a34b5b78a4b3b4a4b633"},
+    {"path":"experiments/yolo/gdt673_v48_transfer_occurrence_conflict_scan/artifacts/EXACT_OCCURRENCE_CONTEXTS.tsv","role":"894-position complete audit","sha256":"05b7c6793b0fd35be7ae7e352dd07dbae312c3b6c77ba33adb573fc06a115a1d"},
+    {"path":"experiments/yolo/gdt673_v48_transfer_occurrence_conflict_scan/artifacts/F1R_OCCURRENCE_CARD_CORRECTIONS.tsv","role":"two f1r corrections and retained join","sha256":"115b3df8ace9c84b284ee065515ce1794e520db3cbeb190fc671230028fb8e0e"},
+    {"path":"experiments/yolo/gdt673_v48_transfer_occurrence_conflict_scan/artifacts/NEWLY_CLOSED_LINES.tsv","role":"six newly closed lines","sha256":"ae20b283d247cc6c95b98daa40e2a401d1a4d4a281cbe010dcf312d5d3ba207e"},
+    {"path":"experiments/yolo/gdt673_v48_transfer_occurrence_conflict_scan/artifacts/OCCURRENCE_SCOPED_BLOCKS.tsv","role":"732 O-card positions","sha256":"ba99c13565c8ba7fd84495a68597f6823e433aae9a3fe0f5e105156e59cad223"},
+    {"path":"experiments/yolo/gdt673_v48_transfer_occurrence_conflict_scan/artifacts/O_CONTEXT_RULES.tsv","role":"eleven O-context rules","sha256":"00d4071bcff84ef9379634b1dc04204ed242d0dcef18b8a417b7bb159915577f"},
+    {"path":"experiments/yolo/gdt673_v48_transfer_occurrence_conflict_scan/artifacts/PANEL_VALUE_ATTACHMENT_AUDIT.tsv","role":"twenty value attachments","sha256":"f62a3ca807edaa51572c256cec1de3c4bcb8809308447253c50a750654ec641c"},
+    {"path":"experiments/yolo/gdt673_v48_transfer_occurrence_conflict_scan/artifacts/READER_CONDITIONED_RIVALS.tsv","role":"three reader-conditioned rivals","sha256":"49bea58b3c173a15167b040d65f71272eb1d722d0926749bcb9ef3f3d77a88c0"},
+    {"path":"experiments/yolo/gdt673_v48_transfer_occurrence_conflict_scan/artifacts/REFERENCE_SCOPE_WARNINGS.tsv","role":"two cross-line reference bindings","sha256":"0c60379317eb608675971edb166cae2b5c37aef805e3466725141e295773d289"},
+    {"path":"experiments/yolo/gdt673_v48_transfer_occurrence_conflict_scan/artifacts/SEMANTIC_RIVAL_AUDIT.tsv","role":"semantic rival audit","sha256":"c29645e1db31c1da5c7b2414a5fc3e67527c7c0d3403d2a8fffdbc8182021a47"},
+    {"path":"experiments/yolo/gdt673_v48_transfer_occurrence_conflict_scan/artifacts/TOUCHED_LINE_OVERLAY.tsv","role":"156 touched line overlays","sha256":"3c47c72966df13ade8485bd16d6797100f571050cbe75349f780ba73c7f0b62d"},
+    {"path":"experiments/yolo/gdt673_v48_transfer_occurrence_conflict_scan/artifacts/TRANSFERABLE_EXACT_OCCURRENCES.tsv","role":"162 held P/W positions","sha256":"f3cfa24a12294541ab76bf30e9a727915a039bbf69d8dc27a0d9b25cba3393cf"},
+    {"path":"experiments/yolo/gdt673_v48_transfer_occurrence_conflict_scan/artifacts/V49_PANEL_TRANSFER_OVERLAY.tsv","role":"39-card V49 overlay","sha256":"34f866dc9699405c737986ffc7c17ecd32869d67cf1c80d42e0970a6624e90a0"},
+    {"path":"experiments/yolo/gdt673_v48_transfer_occurrence_conflict_scan/artifacts/RESULT.json","role":"compact result","sha256":"995bd39124c55c500e2c17c53fd4ba9b9db7535737a1a58f15e9314ab8f8d060"},
+    {"path":"experiments/yolo/gdt673_v48_transfer_occurrence_conflict_scan/artifacts/VALIDATION.json","role":"independent validation","sha256":"d36d35cea45a889cb92a8cf49896fe8410422ece007a8eb2778f743a51cf3eb1"}
+  ],
+  "question": "Do GDT672's eighty f1r transfer cards retain their working meanings at every exact occurrence in the admitted 179-side V48 panel, and which cards require a named contextual split rather than global exact-spelling transfer?",
+  "schema_version": 1,
+  "sealed_data": {"f84": "FORBIDDEN", "f84r": "FORBIDDEN"},
+  "slug": "v48_transfer_occurrence_conflict_scan",
+  "status": "PASS_162_PW_TRANSFER_POSITIONS__39_CARDS_HOLD__3_O_CARDS_SPLIT__2_F1R_CORRECTIONS",
+  "title": "V48 Transfer Occurrence Conflict Scan",
+  "updated": "2026-08-31",
+  "validation": {
+    "artifact": "experiments/yolo/gdt673_v48_transfer_occurrence_conflict_scan/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

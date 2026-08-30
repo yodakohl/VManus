@@ -16647,3 +16647,35 @@ Next run the same 80 cards over their exact occurrences in the admitted
 179-side panel and list every contextual conflict without emitting a 179-page
 edition. Then use the unchanged best cards on a second out-of-panel transfer
 page. Keep the eight-form residual ladder paused and keep f84/f84r forbidden.
+
+## GDT673 transfers the f1r cards back into the V48 panel
+
+GDT673 finds 894 exact occurrences of GDT672's eighty f1r transfer cards in the
+admitted 179-side V48 panel. Thirty-five role-composed P cards cover 155 prior
+unknown positions and four learned W cards cover seven. All 39 remain usable
+without changing their GDT672 meanings. The W cards remain exact learned
+wholes rather than productive roles. The overlay touches 156 lines on 94 pages,
+moves unknown positions 8,180→8,018, and raises complete multi-token lines
+1,242→1,246.
+
+The five free O cards do not transfer by exact spelling. Across 732 positions,
+`y` has 200 compatible reference/close contexts and seventy entry/label
+conflicts. `s` is a label sign eight times but seed/material 264 times. Naked
+`d` is never followed by `or`: 47 positions are dose and six are dose/measure
+signs. The base `r=Wurzel` remains aligned, while its following-dry-fraction
+binding is visible only three times and absent 126 times. None of eight naked
+`ok` positions satisfies the local `ok` before `chey` condition.
+
+This larger comparison corrects two f1r occurrences without discarding the
+page reader: f1r.7 free `s` becomes `Samen-/Saatgutposten`, and f1r.13 free `d`
+becomes `Dosis-/Maßzeichen?`. The bilateral f1r.16 `d or→dor` measurement join
+remains. Sixteen adjacent values bind to material heads; four possible process
+stages remain direction-open. Three reader-conditioned rivals remain explicit
+at `sory`, `kod`, and `daraiin`. Position-aligned reader support is 432 exact in
+both alternates, 261 in one, and 201 in neither. Independent reconstruction
+passes 19,817 checks.
+
+Next render already admitted f81r as the second transfer page. It has 210
+tokens, 183 exact V48 positions and 27 open positions/25 surfaces, with no P/W
+hit from GDT672. Its Biological/hand-2 setting makes it a useful register and
+hand transfer from f1r rather than a lexical replay. Keep f84/f84r forbidden.

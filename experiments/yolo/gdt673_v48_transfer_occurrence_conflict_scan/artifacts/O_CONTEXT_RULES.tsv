@@ -1,0 +1,12 @@
+surface	occurrence_predicate	occurrences	decision	reason_code
+y	target_v48_gloss in allowed reference/left-close set	200	O_HOLD_COMPATIBLE	Y_ALLOWED_REFERENCE_OR_LEFT_CLOSE
+y	target_v48_gloss is entry or label function	70	O_NAMED_CONTEXT_CONFLICT	Y_ENTRY_OR_LABEL_OUTSIDE_CARD
+s	target_v48_gloss=[Beschriftungszeichen]	8	O_HOLD_COMPATIBLE	S_SIGLUM_COMPATIBLE
+s	target_v48_gloss=Samen-/Saatgutposten	264	O_NAMED_CONTEXT_CONFLICT	S_SEED_MATERIAL_NOT_SIGLUM
+d	right1_surface=or	0	O_HOLD_COMPATIBLE	D_RIGHT_OR_READER_BINDING_VISIBLE
+d	target_v48_gloss=Dosis and right1_surface!=or	47	O_NAMED_CONTEXT_CONFLICT	D_FREE_DOSE_NOT_SUFFIX_CLOSE
+d	target_v48_gloss=[Dosis-/Maßzeichen] and right1_surface!=or	6	O_UNTESTABLE_LOCAL_BINDING	D_FREE_QUANTITY_SIGN_NOT_ACTION
+r	right1_v48_gloss is a dry fraction	3	O_HOLD_COMPATIBLE	R_FOLLOWING_DRY_FRACTION_VISIBLE
+r	otherwise	126	O_UNTESTABLE_LOCAL_BINDING	R_LOCAL_BINDING_CONDITION_ABSENT
+ok	right1_surface=chey	0	O_HOLD_COMPATIBLE	OK_CHEY_CONDITION_VISIBLE
+ok	right1_surface!=chey	8	O_UNTESTABLE_LOCAL_BINDING	OK_LOCAL_LEFT_OF_CHEY_CONDITION_ABSENT
