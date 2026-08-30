@@ -16352,3 +16352,42 @@ and 1,141 inherited positions. It is led by `o`146, `air`56, `cheky`55,
 separate reader-supported `o` joins from genuinely free `o`, then close the
 visible grade-II/III and dry/moist/hot/cold families. No new page, image, f1r,
 f84 or f84r is needed.
+
+## GDT664 turns the 140-form remainder into the V41 workshop reading
+
+V41 assigns all 1,141 target positions in 991 lines on 166 pages and closes all
+146 inherited one-hole source rows. The architecture contains 78 productive
+compounds at 614 positions, 43 learned action wholes at 245, twelve entry or
+reference compounds at 90, two learned wholes at eleven, and five
+occurrence-scoped short forms at 181. The glossary grows 734→874 and the
+dictionary 976→1,266.
+
+The short-form reader now uses a local minimum token alignment rather than a
+same-line string lookup. Naked `o` divides into 88 locally visible joins, 47
+free exploratory `Ansatzwasser` renderings and eleven labels. The other local
+joins are five `ch`, four `qok`, three left-bound `m` and one `sa`. One
+same-line but nonlocal candidate and one label candidate are rejected. All
+three frontier `o` holes are joins (`o|l`, `o|cthey`, `o|l`) and therefore do
+not support the free water hypothesis.
+
+The main compositional revision is `O_PREP + L_WOOD`: nineteen inherited
+material-bearing `ol*` forms at 256 positions become Holzdrogenansatz forms.
+Naked `ol=Grundansatz` remains an exact learned whole and `oly/olyly` remain
+straining actions. A thirty-passage manual audit finds and repairs the prior
+`sol` contradiction: `solaiin/sols` now follow the already inherited
+`sol=Saatgutansatz` reading at four positions, and new `solor/solkeedy` use the
+same family. Structural tags remain separate from these German practical
+renderers.
+
+Known positions move 20,417→21,558 and unknown 11,922→10,781. Complete
+multi-token lines move 449→613/strict 147→185; one-hole lines move 333→332/
+strict 80→72. The 36-row stem sheet keeps free `l=Pfund`, bound `l-=Holz`,
+free `m=Handvoll`, bound `am=Maß`, and exact-only terminal `-g=Gran` distinct.
+Independent validation passes 10,232 checks with a byte-identical 22-file
+builder replay, including the inherited f80v.21 fixed-line renderer regression.
+
+The next frontier contains 156 one-hole lines, 148 distinct surfaces and 994
+inherited positions, led by `dor`60, `okol`53, `ykeey`49, `ykaiin`43,
+`ody`37, `chos`30 and `dshedy`27. GDT665 should close those forms from the V41
+stem sheet and the local short-form dispatcher without opening another page or
+using f1r, f84 or f84r.
