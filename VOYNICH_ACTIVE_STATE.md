@@ -16156,3 +16156,37 @@ The four newly exposed residuals are `otam` at f33r.5, `shedefam` at f66v.5,
 whole meanings to exactly these four through the complete K/T-AM,F-head,
 S-CHO-S and nested CHO/K/CHEO families before any wider expansion. No new
 page,image,f1r,free component,plaintext or exact ingredient enters.
+
+## GDT658 closes four residual forms with practical whole meanings
+
+V35 adds exactly four concrete cards across47 positions in46 lines on37
+pages;41 positions are three-reader exact or split-normalized. `otam` is the
+strongest:44 positions/39 exact and a complete K/T-AM grid support “one measure
+of the cold preparation”, with line-final closure rendered only by punctuation.
+`shedefam` is the sole warning card and reads “one measure of soaked flower
+drug”; RF1b splits the target as `she|efam`. `schos` reads “dry medicinal
+mixture from seed”, preserving initial seed-S, bound CHO dry preparation and a
+local species-like terminal drug-kind S. `chokcheo` preserves outer
+CHO plus inner K+CHEO nesting as “dry preparation from a hot dry-prepared
+compound”.
+
+Initial F forms a fifth materia-head family beside P/S/R/L:102 occurrences/77
+types/65 pages,67 occurrences in43 shared bodies and eight complete five-head
+grids. Flower is the practical local default; fruit and leaf remain explicit
+rivals. Terminal S is not a general close:622/725 non-standalone S-final tokens
+have a following token, only103 are final or single. Neither F nor S becomes a
+free value.
+
+V34→V35 moves dictionary570→574,glossary491→495,known16696→16743 and
+unknown15643→15596. Five lines close,including strict f93r.32 and f56r.13;
+complete133→138/strict78→80 and one-hole243→239/strict59→57. A single new
+one-hole line, f80v.21, leaves naked `y`; its best local working paraphrase is
+“from this drug/this entry”, but270 safe-corpus Y occurrences span all line
+positions, so no global Y value enters V35. Independent validation passes404
+checks with a22-file byte-identical replay. Next audit this local Y reference
+against its existing GDT650 antecedent family without opening a page or image.
+
+Two independent GDT658 analysts each accidentally previewed the mixed ZL3b
+header plus its first f1r row once. Both rows were discarded; all reported
+counts were regenerated through the guarded179-page query with f1r/f84/f84r
+blocked, and no result depends on either preview.

@@ -1,0 +1,25 @@
+# GDT658 artifact map
+
+- `TARGET_DECISION_DECK.tsv`: four concrete exact-whole cards, component traces, confidence and rivals.
+- `ACCEPTED_WHOLE_SURFACE_DEFAULTS.tsv`: the four V35 glossary additions.
+- `ALL_OCCURRENCE_SEMANTIC_AUDIT.tsv`: all 47 target positions with reader and context decisions.
+- `READER_VARIANT_AUDIT.tsv`: the six non-exact reader rows, all belonging to the SHEDEFAM warning class or other target splits recorded by the builder.
+- `K_T_AM_FAMILY_GRID.tsv`: complete eight-surface K/T-AM comparison supporting OTAM.
+- `F_HEAD_BODY_FAMILY_ATLAS.tsv`: all 77 initial-F types and their P/S/R/L body sisters.
+- `F_HEAD_BODY_OCCURRENCES.tsv`: all 102 guarded initial-F occurrences.
+- `SHEDEFAM_BOUND_F_AUDIT.tsv`: target-local SHEDE/F/AM trace and reader fork.
+- `S_CHO_S_FAMILY_EVIDENCE.tsv`: direct S|CHO|S boundary, terminal-S census and SCHOL/SCHOR/SCHOS/RCHOS contrasts.
+- `KCHEO_TCHEO_FAMILY_ATLAS.tsv`: inner K/T-CHEO family for the nested CHOKCHEO card.
+- `SOURCE_READING_AUDIT.tsv`: six manually curated target and newly exposed source readings.
+- `TARGET_LINE_TRANSLATIONS.tsv`: before/after translation for all 46 affected lines.
+- `ROUND_COVERAGE_COUNTS.tsv`: sequential V34→V35 coverage replay.
+- `NEWLY_COMPLETED_LINES.tsv`: the five lines closed by the four cards.
+- `NEWLY_EXPOSED_ONE_HOLE_LINES.tsv`: f80v.21 with only naked Y remaining.
+- `V35_WORKING_TOKEN_GLOSSARY.tsv`: complete V35 surface glossary.
+- `ALL_LINE_CONCRETE_COVERAGE_V35.tsv`: complete guarded 4,128-line coverage table.
+- `COMPLETE_PASSAGES_V35.tsv`: all V35 complete multi-token passages.
+- `ONE_UNKNOWN_PASSAGES_V35.tsv`: complete V35 one-hole frontier.
+- `WORKING_DICTIONARY_V35.tsv`: complete 574-entry V35 dictionary.
+- `PAGE_ALLOWLIST.tsv`: inherited guarded 179-page allow-list.
+- `RESULT.json`: machine-readable counts, guards, family evidence, hashes and replay contract.
+- `VALIDATION.json`: independent raw recensus and release validation.

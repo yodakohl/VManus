@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **655**
-- Experiment-associated tracked files: **10,613** (1.1 GiB)
-- Structured GDT337+ experiments: **320**
+- Experiments indexed: **656**
+- Experiment-associated tracked files: **10,643** (1.1 GiB)
+- Structured GDT337+ experiments: **321**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT658 | GDT658_four_residual_concrete_completion | `PASS_4_RESIDUAL_CONCRETE_WHOLES__V35` | [report](../experiments/yolo/gdt658_four_residual_concrete_completion/REPORT.md) | 30 | 3.2 MiB | 4 | STRUCTURED_YOLO |
 | GDT657 | GDT657_multi_quality_al_shell_order | `PASS_20_MULTI_QUALITY_AL_ORDER_WHOLES__V34` | [report](../experiments/yolo/gdt657_multi_quality_al_shell_order/REPORT.md) | 33 | 3.2 MiB | 3 | STRUCTURED_YOLO |
 | GDT656 | GDT656_al_quality_position_shell | `PASS_21_OBSERVED_AL_POSITION_WHOLES__V33` | [report](../experiments/yolo/gdt656_al_quality_position_shell/REPORT.md) | 31 | 3.9 MiB | 3 | STRUCTURED_YOLO |
 | GDT655 | GDT655_dal_al_measured_material_completion | `PASS_18_ANCHORED_PLUS_1_PREDICTED_DAL_AL_SURFACES__V32` | [report](../experiments/yolo/gdt655_dal_al_measured_material_completion/REPORT.md) | 30 | 3.7 MiB | 4 | STRUCTURED_YOLO |
