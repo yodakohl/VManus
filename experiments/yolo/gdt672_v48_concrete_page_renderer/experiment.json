@@ -1,0 +1,70 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The complete f1r reader keeps all 214 source positions, 342 component spans, 28 line renderings, 80 transfer cards, 17 value attachments, seven comparison statements, and six cross-register controls reproducible.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "A complete exploratory f1r working reader: 129/214 positions inherit exact V48 cards; 85/214 positions use explicit f1r transfer cards, of which learned and occurrence-scoped cards are not promoted to V48. This does not establish plaintext, language, phonetics, a historical codebook, a plant identity, a disease, a patient, a cure, or manuscript-wide meanings.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt672_v48_concrete_page_renderer/src/run.py",
+    "validate": "python3 experiments/yolo/gdt672_v48_concrete_page_renderer/src/validate.py"
+  },
+  "created": "2026-08-31",
+  "dependencies": [
+    "GDT589",
+    "GDT671"
+  ],
+  "experiment_id": "GDT672",
+  "inputs": [
+    {"path":"experiments/yolo/gdt671_fifteen_residual_family_completion/artifacts/RESULT.json","role":"frozen V48 result","sha256":"d980a7413eb202d7a606022cbceae7eb0f4c65ca59ae3a3a42e25559d12b50b4"},
+    {"path":"experiments/yolo/gdt671_fifteen_residual_family_completion/artifacts/V48_WORKING_TOKEN_GLOSSARY.tsv","role":"frozen exact V48 token values","sha256":"f5e1286108c8746a86e6a654a49cd3b956d5c7ea3f18fbd8cc8e61ae7ee80ca1"},
+    {"path":"experiments/yolo/gdt671_fifteen_residual_family_completion/artifacts/STEM_MODEL_V48.tsv","role":"frozen 56-role model","sha256":"6a05d2ee8d6b0c730cd5a61a6a327da9731c2278b258f9d7455c9aa1c60cd1ce"},
+    {"path":"experiments/yolo/gdt671_fifteen_residual_family_completion/artifacts/ALL_LINE_CONCRETE_COVERAGE_V48.tsv","role":"V48 control line census","sha256":"cb299433b38de8efb41c3da6e8343d74b46bff9c6063a5df88c85e6069cc45e6"},
+    {"path":"experiments/yolo/gdt671_fifteen_residual_family_completion/artifacts/COMPLETE_PASSAGES_V48.tsv","role":"V48 complete control passages","sha256":"64b3ff08d136296a2f38fca29a0f02829a0e525d1807d70fdc93a4a728e8dd1a"},
+    {"path":"experiments/yolo/gdt589_full_host_carrier_intake_replay/artifacts/gdt589_793_count_overlay_statement_reader.tsv","role":"comparison-only f1r statement boundaries and old generic prose","sha256":"9896b32453b9adcbbba6ed706408e81ef8eb1b3c7e987de2ab64717a266d9c6d"},
+    {"path":"transcription/voynich_zl3b_tokens.tsv","role":"guarded f1r source tokens","sha256":"6a061a26edc05ff37dc386c2215774c229a5ff087d3091e68bdd4983a6c007aa"},
+    {"path":"transcription/voynich_cross_transcription_lines.tsv","role":"guarded f1r reader variants","sha256":"ff3a4559004a29764c60102326de154b29fbba06a2a206bdd76d7feda432e16c"},
+    {"path":"experiments/yolo/gdt672_v48_concrete_page_renderer/src/F1R_TRANSFER_CARDS.tsv","role":"80 explicit f1r transfer cards","sha256":"8af9d144878decbb150855462850c3b28b2ef87c7238bb904f9ba033c5349e37"},
+    {"path":"experiments/yolo/gdt672_v48_concrete_page_renderer/src/F1R_OCCURRENCE_OVERRIDES.tsv","role":"seven occurrence and reader-boundary realizations","sha256":"219a571e33327a5924a9f3e7b54e89d97b05c602b63cf22bfea5583fa544d61a"},
+    {"path":"experiments/yolo/gdt672_v48_concrete_page_renderer/src/F1R_VALUE_ATTACHMENTS.tsv","role":"seventeen explicit quantity bindings","sha256":"2e71334cedeeadaa1757b8f9e84666aa0a6c62fd1a2cee32f025eb74e4a7857a"},
+    {"path":"experiments/yolo/gdt672_v48_concrete_page_renderer/src/F1R_LINE_SPECS.tsv","role":"audited 28-line clause realizations","sha256":"1ae2d7ef72391e024f642310aadb27c470927df4cee635313499af48eae30f00"},
+    {"path":"experiments/yolo/gdt672_v48_concrete_page_renderer/src/CONTROL_PASSAGE_SPECS.tsv","role":"six register-diverse control renderings","sha256":"c1c31ca5ce6e4294059c40a55b7bbe2b88df730dc7db1edbcf5da1fd29b0219c"},
+    {"path":"experiments/yolo/gdt672_v48_concrete_page_renderer/src/RENDERER_RULES.tsv","role":"twelve clause and filler gates","sha256":"e61050b55bc64d8edfd44280aa90b80d8875dd2ede000897d2d77042c78f2d32"}
+  ],
+  "outputs": [
+    {"path":"experiments/yolo/gdt672_v48_concrete_page_renderer/README.md","role":"entry point","sha256":"00d30c114d8bcc0e46ddb5c1cdd462d731f60be425619d17b7374589c108bd3a"},
+    {"path":"experiments/yolo/gdt672_v48_concrete_page_renderer/METHOD.md","role":"method","sha256":"f496d07352fea191c42e81713d9fd3731e0225b2ef11d8c9aaa075f78346b0e9"},
+    {"path":"experiments/yolo/gdt672_v48_concrete_page_renderer/REPORT.md","role":"result report","sha256":"b1c6d5797a442cf21a04bf1f528a5019b1bfc10c23c7fe844cf81de5d075aecf"},
+    {"path":"experiments/yolo/gdt672_v48_concrete_page_renderer/artifacts/README.md","role":"artifact map","sha256":"04815c407866892985a882642d88c97c821e3bc855a5b9af53d95a51cc08adaa"},
+    {"path":"experiments/yolo/gdt672_v48_concrete_page_renderer/src/run.py","role":"builder","sha256":"8bbdd6832ea917bf55b41f98c2b08358461d305d3cf4b37a37b48446283479cd"},
+    {"path":"experiments/yolo/gdt672_v48_concrete_page_renderer/src/validate.py","role":"independent validator","sha256":"1045ab2f433ad367a9712f0ce2dfd78778ad57040b104f3d25f54cfb06bd876b"},
+    {"path":"experiments/yolo/gdt672_v48_concrete_page_renderer/artifacts/F1R_SOURCE_ALIGNMENT.tsv","role":"214-token source alignment","sha256":"6e0ee9e20898c9c0632e9e14be6b0b683bc710dcef44168f1e4cff958411a280"},
+    {"path":"experiments/yolo/gdt672_v48_concrete_page_renderer/artifacts/F1R_TOKEN_READINGS.tsv","role":"214 token readings","sha256":"7859ce7f7706d6c2b0d883de34c79b31e3d0a5ffb9a863e152751b4c6c95d350"},
+    {"path":"experiments/yolo/gdt672_v48_concrete_page_renderer/artifacts/F1R_COMPONENT_TRACES.tsv","role":"342 component spans","sha256":"5e4f6f07fbe5227a7957886ff697a5ca6d46c19b977d52ecdfaeec3158346168"},
+    {"path":"experiments/yolo/gdt672_v48_concrete_page_renderer/artifacts/F1R_COMPOSITION_RIVALS.tsv","role":"80-card rival status","sha256":"be4cd6e5e2b8188b2e891489d3a034daf25db71cce9f3d9843c4bf5d89a58901"},
+    {"path":"experiments/yolo/gdt672_v48_concrete_page_renderer/artifacts/F1R_CLAUSE_FRAMES.tsv","role":"28 clause frames","sha256":"145c2f76ea7a719c566fe1258fff5d3919631f43fea38ac19f2e51b38350560c"},
+    {"path":"experiments/yolo/gdt672_v48_concrete_page_renderer/artifacts/F1R_LINE_READER.tsv","role":"28 four-level line readings","sha256":"669a29257fe1424fea4cff7efef639ba6c1269228b1b2cbc61f0b148fc6e2bbf"},
+    {"path":"experiments/yolo/gdt672_v48_concrete_page_renderer/artifacts/F1R_GDT589_COMPARISON.tsv","role":"seven comparison-only statements","sha256":"928680f6b3f0c39b7886ecaa9b0c3fa77455b47fd645496ca5a4a5b1ace98fd0"},
+    {"path":"experiments/yolo/gdt672_v48_concrete_page_renderer/artifacts/F1R_TRANSFER_CARDS.tsv","role":"enriched transfer deck","sha256":"c18d5fe2c33900a48fd8805b7a3160963beb5adf4b4ffc8746889653f1c1e7f3"},
+    {"path":"experiments/yolo/gdt672_v48_concrete_page_renderer/artifacts/F1R_OCCURRENCE_AUDIT.tsv","role":"occurrence realization audit","sha256":"64709c8cf42da70ade09cfc5bca69d340bbab9020bece0dff702196c6d92daa0"},
+    {"path":"experiments/yolo/gdt672_v48_concrete_page_renderer/artifacts/F1R_VALUE_ATTACHMENT_AUDIT.tsv","role":"quantity attachment audit","sha256":"f5afb52c0cd344ae10c075ba6e2bd5dbf463466749b8f520d3171aea5944efdb"},
+    {"path":"experiments/yolo/gdt672_v48_concrete_page_renderer/artifacts/RENDERER_RULE_CARDS.tsv","role":"executable rule deck","sha256":"e61050b55bc64d8edfd44280aa90b80d8875dd2ede000897d2d77042c78f2d32"},
+    {"path":"experiments/yolo/gdt672_v48_concrete_page_renderer/artifacts/REGISTER_DIVERSE_RENDER_AUDIT.tsv","role":"six control passages","sha256":"d0f5db9d04c87efccd4e5e9dd903468f30580b8e35130ac4cdceede83198fdd1"},
+    {"path":"experiments/yolo/gdt672_v48_concrete_page_renderer/artifacts/GDT672_F1R_CONCRETE_WORKING_READER.md","role":"complete f1r reader","sha256":"3ce9397290320861489af087e607067b7ec26dd48fc68217b48a09203f27a203"},
+    {"path":"experiments/yolo/gdt672_v48_concrete_page_renderer/artifacts/RESULT.json","role":"compact result","sha256":"f064fedb8173ea8be0a8facaf0222fcbe1422868dba3aaef79ea3553bec56400"},
+    {"path":"experiments/yolo/gdt672_v48_concrete_page_renderer/artifacts/VALIDATION.json","role":"2491-check independent validation","sha256":"4490b321540c088c158bc272308e105cc0fe05a85d5e6f3ba7f0279e4d4e48be"}
+  ],
+  "question": "Can the frozen 179-side V48 semantic layer transfer to held-out f1r while preserving all 214 source tokens, making every non-V48 value explicit, and replacing the old generic carrier prose with a concrete but uncertainty-visible page reading?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "v48_concrete_page_renderer",
+  "status": "PASS_F1R_214_POSITION_CONCRETE_TRANSFER__129_V48_EXACT__85_EXPLICIT_TRANSFER",
+  "title": "V48 Concrete Page Renderer on f1r",
+  "updated": "2026-08-31",
+  "validation": {
+    "artifact": "experiments/yolo/gdt672_v48_concrete_page_renderer/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

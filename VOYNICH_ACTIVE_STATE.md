@@ -16615,3 +16615,35 @@ an explicit transfer page, and audit several register-diverse passages. It
 must reject generic `Arbeitsgut/Arbeitsstelle/Arbeitsgang` filler while keeping
 genuinely unresolved content visible. The 179-side panel remains the admitted
 comparison basis; f84 and f84r remain forbidden.
+
+## GDT672 renders f1r concretely without the old carrier filler
+
+GDT672 applies V48 to f1r, which was absent from V48's guarded 179-side panel.
+The guarded source has 214 tokens in 28 physical lines and aligns byte-for-byte
+with the seven old GDT589 f1r statement spans. Exact V48 cards cover 129
+positions/84 surfaces: 89 exact-whole and 40 context-licensed positions. The
+remaining 85 positions/80 surfaces receive explicit f1r transfer cards: 54
+role-composed, 23 locally learned-whole and eight occurrence-scoped positions.
+None of the local cards is promoted to V48.
+
+The reader now exposes four levels for every line: ZL3b, unchanged token cards,
+seventeen explicit quantity-to-head attachments, and a curated working line.
+All 214 source tokens remain visible. Nineteen lines contain at least one
+learned whole, marked directly as `⟦≈…?⟧`; nine lines do not. Independent
+action/reference and quantity audits remove thirteen invented actions/results,
+one unlicensed reference, one false repeated preparation, and the prior
+measure/grade attachment errors. Materially different ZL3b/IT2a/RF1b readings
+remain in the uncertainty channel.
+
+Five V48-complete controls cover H/P/B/S/T and a sixth C-register one-hole line
+keeps `dsheody` open. The old GDT589 comparison contains 191 occurrences of
+hard generic carrier phrases; the new working lines contain zero. They still
+contain 85 broad carriers such as compounds of Ansatz, Kompositum and Species,
+which are reported rather than hidden. Independent validation passes 2,491
+checks with byte-identical rebuild. This is a concrete exploratory transfer
+reader, not confirmed plaintext or manuscript-wide meaning.
+
+Next run the same 80 cards over their exact occurrences in the admitted
+179-side panel and list every contextual conflict without emitting a 179-page
+edition. Then use the unchanged best cards on a second out-of-panel transfer
+page. Keep the eight-form residual ladder paused and keep f84/f84r forbidden.
