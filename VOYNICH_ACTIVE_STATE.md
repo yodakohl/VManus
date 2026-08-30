@@ -15939,3 +15939,32 @@ against their already observed ladders. dair and okchor are newly visible but
 non-strict. The seven V25 cards remain fixed during that pass. No new page,
 image,f1r,f84*,GDT418 value,generic filler,global suffix,bare component,absent
 cell,language or ingredient identity is licensed.
+
+## GDT649 closes the three V25 holes through four visible families
+
+V26 adds eleven exact whole cards covering522 target positions. `shoiin` is
+the six-for-six reader-exact moist member of the direct OIIN quality arm and
+reads **Feuchtansatz, Form III**; low-n `toiin` supplies the cold member while
+reader-unstable `koiin` stays outside. The large `dar/dair/daiir` ladder reads
+**abgemessene Fraktion I/II/III** from the D measure head plus the inherited
+AR/AIR/AIIR ladder. These four family-led readings are distinct from the
+deliberately learned hypotheses below.
+
+Singleton `dairodg` receives the replaceable exact-whole value **abgemessene
+Fraktion II, als Zubereitung abgeschlossen**; no free G value follows. The
+five observed `chckhy/chckhey/chckheey/chckhdy/chckhedy` cells preserve
+literal CH+CKH and the beginning/middle/end by optional-completion axis. Their
+unidentified CKH object noun is provisionally learned as **Arzneimischung**,
+so `chckhedy` reads **trockene Arzneimischung in der Gradmitte,
+abgeschlossen**. CKH is neither reordered to K+CH nor equated with CTH or
+leaf material; absent `chckheedy` remains only a prediction.
+
+The522-position audit has429 all-reader exact and430 split-normalized
+positions,92 reader variants and no recorded local hard collision. V25→V26
+moves dictionary417→428,glossary354→365,known13995→14516,complete87→96
+/strict49→53 and one-hole151→158/strict44→46. Nine lines newly close,including
+all three source carriers and four strict lines. Sixteen newly exposed
+one-hole events are next deduplicated by surface; prioritize already headed or
+complete-sister families while separately trying to replace the learned CKH
+noun. No new page,image,f1r,f84*,GDT418 value,generic filler,bare component,
+global suffix,plaintext,language or ingredient identity is licensed.
