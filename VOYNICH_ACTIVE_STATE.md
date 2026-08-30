@@ -16718,3 +16718,44 @@ Next scan the twenty P cards and three learned W wholes at every other guarded
 exact occurrence in the already admitted panel. Keep the contextual `y`/`dy`
 cards local, keep f84/f84r forbidden, and open no new page until this transfer
 test shows which f81r meanings survive elsewhere.
+
+## GDT675 transfers twelve f81r cards with nine renderer splits
+
+GDT675 finds 75 exact positions for GDT674's twenty P cards and three learned
+W wholes: 24 source positions on f81r and 51 external positions on 51
+lines/36 pages. Twelve surfaces occur outside f81r. Eleven composed cards and
+the learned whole `lchl` retain an exploratory external meaning; the other
+eleven cards have no external spelling match and remain f81r-local rather than
+being rejected. Every one of the twenty P traces still covers its complete
+visible surface byte-for-byte.
+
+The context audit changes the renderer without discarding the components.
+`olpchedy`, `alched`, `chcphey`, and `shecphy` are externally nominal results,
+not fresh imperatives. Five more cards need explicit scope or boundary splits:
+`dchey` is an action at line start but a measured dry result medially;
+`qolsheedy` has QOL as the add action and SHEEDY as the already moist finished
+object; `dshees` defaults to a dose/charge head without a separate action
+anchor; `olam` secures measure I while O+L versus OL remains open; and `olkar`
+secures heat plus fraction I while the same OL boundary and two reader rivals
+remain visible. `qopchol` retains its command reading, `oror` remains two
+portions, and `lchl` stays an exact learned whole rather than licensing L-CH-L.
+
+The strongest transfer cards are `dchey`, with fourteen external occurrences
+on fourteen pages across H/S/C/P and both language classes, and `olkar`, with
+sixteen occurrences on eleven pages across five sections. Of the 51 external
+positions, 42 are exact in both IT2a and RF1b, seven in one, and two in neither;
+the two fully different external forms are both `olkar` rivals. The alternate
+readings remain one manuscript's reader evidence, not independent witnesses.
+
+All 51 external positions were open after GDT674. Their overlay moves unknown
+positions 7,994→7,943, complete lines 1,380→1,382, and complete multi-token
+lines 1,258→1,259. The new complete lines are singleton f102v2.3 `oror` =
+„zwei Portionen“ and f112v.10, a four-field grade/moist/hot-dry/two-portions
+record. Independent source-first validation passes 815 checks with
+byte-identical replay.
+
+Next render all 51 touched lines with these position-, scope-, and
+boundary-aware defaults while preserving every remaining unknown visibly.
+This tests whether the cards make whole records informative rather than merely
+looking plausible between open neighbors. Open no new page and keep f84/f84r
+forbidden.

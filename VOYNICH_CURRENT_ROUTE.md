@@ -284,7 +284,7 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-GDT674 renders admitted f81r:210 tokens/31 lines;183 positions inherit V48 and27 reviews comprise24 true gaps plus contextual `y`×2/`dy`.Twenty composed surfaces cover21 positions,3 learned wholes cover3;reader support is11 both/13 one/3 neither.Ten values bind explicitly;18 inherited actions occur on15 lines while16 lines lack one.The best working architecture is a mixed biological/pharmaceutical preparation-and-batch register,not all-imperative prose.GDT416 generic station rows208/210→0 new;unknown8018→7994,complete1368→1380;2352 checks pass.Next scan the20 P and3 W cards at all other guarded exact occurrences before another admitted page.Keep f84/f84r forbidden.
+GDT675 scans GDT674's20 P+3 W cards:75 exact positions=24 f81r+51 external on51 lines/36 pages.Twelve surfaces hold externally(11 P+learned `lchl`),11 stay f81r-local;all20 P traces remain byte-complete.Nine renderers improve:4 action→result and5 position/scope/OL-boundary splits.`dchey` has14 external positions/14 pages;`olkar`16/11 pages/5 sections.Reader support external42 both/7 one/2 neither;unknown7994→7943,complete1380→1382;815 checks pass.Next render all51 touched lines with these scope-aware defaults and visible residual unknowns before opening another page.Keep f84/f84r forbidden.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`
