@@ -15706,3 +15706,38 @@ part and tcheol6=cold-dry drug material separately across every occurrence,
 retaining part/portion and degree/amount rivals. After that remain strict
 keechy,chokshy,qotomody and reader-unstable odaiin. No component or absent
 surface is promoted by prediction alone.
+
+## GDT642 fills the productive E+OL/OR material and part cells
+
+GDT642 stays on the guarded179-page V18 scope and audits every occurrence of
+three exact complete surfaces:cheol142 on71 pages,cheor71 on45 pages and
+tcheol6 on5 pages. Their reader-exact counts are118,56 and6. Against the same
+fixed V18 context—not the cumulative trial—the219 rows divide into117
+concrete-compatible,63 opaque and39 alternate-reader warnings,with zero hard
+semantic collisions.
+
+The word formation is independently productive. Eleven prefixes(ch,sh,tch,
+kch,pch,lch,ot,ok,qo,qok,qot) occupy all four E/NONE by OL/OR cells. The focal
+rows are chol/cheol/chor/cheor=343/142/190/71 and
+tchol/tcheol/tchor/tcheor=16/6/21/3. V19 therefore adds only exact whole
+cheol=ch+e+ol=dry drug material,cheor=ch+e+or=dry drug part and
+tcheol=tch+e+ol=cold-dry drug material. Running German realizes e through the
+attributive adjective rather than erasing it. Material/state,part/portion and
+lexicalized-chor rivals remain explicit;no bare ch,tch,e,ol or or is promoted.
+
+V19 preserves all285 V18 dictionary rows and adds3=288;the executable glossary
+grows238→241 and known positions9748→9967. Complete multi-token lines remain44
+with33 clean because none of the three targets was a current one-hole surface.
+Instead the one-hole frontier grows60→65 and clean17→19. The five newly exposed
+cards are f51v.13 cheodain after gradeIII+dry drug material;f15v.11 oiin amid
+seed material+dry drug part+dry material gradeIII+CTH material;f88v.26 choky
+amid seedIII+dry drug part+moist base;f96v.13 soysar before dry drug part;and
+f107r.20 kcheedy after cold-dry drug material. The independent validator
+passes612 checks and byte-replays all18 builder artifacts plus RESULT.
+
+The next pass audits those five surfaces through separate all-occurrence
+circuits with provisional values dried preparation gradeII,preparation formIII,
+dry preparation base,seed fraction/preparation and hot finished form. If they
+hold,they close five content-diverse lines. Then return to keechy,chokshy,
+qotomody and reader-unstable odaiin. No new page,image,f1r,f84*,GDT418 value,
+generic filler,substring,bare component or absent-cell transfer is licensed.

@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **639**
-- Experiment-associated tracked files: **10,168** (1.0 GiB)
-- Structured GDT337+ experiments: **304**
+- Experiments indexed: **640**
+- Experiment-associated tracked files: **10,195** (1.0 GiB)
+- Structured GDT337+ experiments: **305**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT642 | GDT642_exact_e_ol_or_carrier_completion | `PASS_3_EXACT_E_CARRIERS__219_POSITIONS__5_NEW_ONE_HOLES` | [report](../experiments/yolo/gdt642_exact_e_ol_or_carrier_completion/REPORT.md) | 27 | 2.5 MiB | 7 | STRUCTURED_YOLO |
 | GDT641 | GDT641_strict_tch_bound_form_completion | `PASS_2_STRICT_TCH_EXACT_DEFAULTS__2_NEW_COMPLETE_LINES` | [report](../experiments/yolo/gdt641_strict_tch_bound_form_completion/REPORT.md) | 23 | 2.3 MiB | 5 | STRUCTURED_YOLO |
 | GDT640 | GDT640_downstream_component_prediction | `PASS_3_DOWNSTREAM_EXACT_DEFAULTS__3_NEW_COMPLETE_LINES__1_CONCRETE_HOLD` | [report](../experiments/yolo/gdt640_downstream_component_prediction/REPORT.md) | 24 | 2.4 MiB | 7 | STRUCTURED_YOLO |
 | GDT639 | GDT639_strict_hole_component_repair | `PASS_8_EXACT_COMPONENT_REPAIRS__9_NEW_COMPLETE_LINES__16_HELD_DEFAULTS` | [report](../experiments/yolo/gdt639_strict_hole_component_repair/REPORT.md) | 24 | 2.5 MiB | 7 | STRUCTURED_YOLO |

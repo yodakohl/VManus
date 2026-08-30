@@ -284,8 +284,8 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-GDT641 promotes the two reader-exact strict holes exposed by GDT640 after all7 occurrences: tcheor=tch+e+or=cold-dry drug part(3),and chetchy=ch+e+tch+y=dried drug;cold-dry base form(4).The latter is not CTH and keeps both written dry scopes.V18=285 dictionary rows/238 surfaces;known positions9748;complete42→44,clean31→33;one-hole62→60.The audit has4 concrete-compatible and3 opaque contexts,zero reader or hard conflicts;341 checks pass.No new one-hole line appears.
-Next audit exact cheol(142)=dry drug material,cheor(71)=dry drug part and tcheol(6)=cold-dry drug material through separate all-occurrence circuits;GDT628–630 keep part/portion and degree/amount rivals explicit.Then return to strict keechy,chokshy,qotomody and reader-unstable odaiin.No f1r,new page/image,GDT418 import,generic filler,bare component or absent-cell transfer.
+GDT642 adds only exact whole cheol=ch+e+ol=dry drug material(142),cheor=ch+e+or=dry drug part(71),and tcheol=tch+e+ol=cold-dry drug material(6).All219 positions are audited against fixed V18:117 concrete-compatible,63 opaque,39 reader warnings,zero hard collisions.E/NONE×OL/OR has11 complete prefix rows.V19=288 dictionary rows/241 surfaces;known9967;complete44/clean33 unchanged;one-hole60→65,clean17→19;612 checks pass.
+Next audit the five newly exposed exact holes separately:cheodain at f51v.13(dried preparation gradeII),oiin at f15v.11(preparation formIII),choky at f88v.26(dry preparation base),soysar at f96v.13(seed fraction/preparation),and kcheedy at f107r.20(hot finished form).If their full circuits hold they close five concrete lines.Then return to keechy,chokshy,qotomody and reader-unstable odaiin.No f1r,new page/image,GDT418 import,generic filler,bare component or absent-cell transfer.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`
