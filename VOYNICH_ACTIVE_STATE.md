@@ -16083,3 +16083,30 @@ positions and six potential closures. Test `AL=RohstoffklasseI` and
 `DAL=abgemessene RohstoffmengeI` against the retained `Rohdrogenposten` rival;
 the three-reader-exact `dain dail dair` row is the strongest parallel-measure
 anchor. Do not infer free A/L/D pieces from this family.
+
+## GDT655 consolidates AL/DAL as raw-material class and measured input amount
+
+V32 adds fifteen reader-anchored exact whole surfaces, one explicitly
+reader-unstable compositional prediction (`daiil`) and three visible revisions
+(`oral`,`chdaly`,`sodal`). Across567 target positions,426 are all-reader exact and429
+split-normalized. The live replaceable defaults are AL=RohstoffklasseI and
+DAL=abgemessene RohstoffmengeI; Rohstoffform and learned Rohdrogenposten remain
+the strongest rivals. f45v.4 supplies the exact DAIN/DAIL/DAIR level-II
+parallel; f55r.9 and f78r.27 show coordinated D omission. There is no direct
+D|AL split, so D and AL remain bound structural tags.
+
+The direct f79r.19 `or al` split corrects the inherited ORAL root-preparation
+card to Rohstoffportion,KlasseI; the old O+RAL parse remains a rival. The
+CH/CHE and SH/SHE DAL shells now retain the same quality-position contrast as
+the established CHY/CHEY and SHY/SHEY axis: dry/moist at start versus middle,
+not new actions “bind” or “moisten”.
+
+V31→V32 moves dictionary510→529,working glossary437→453,known
+15846→16398,complete123→130/strict75→77 and one-hole197→225/strict44→54.
+Seven lines newly close,including strict f83r.47/f83r.48. `daiil` alone is
+stored as PREDICTED rather than EXACT; zero-exact `aiiil` and `chdaldy` stay
+open. Independent validation uses a byte-identical22-artifact replay. Next
+audit the narrow observed CH/CHE/SH/SHE/K/KE/T/TE+AL shell family under one
+shared start/middle quality axis before any broader multi-shell export. No
+page,image,f1r,f84/f84r,free component,absent cell,
+language,plaintext or exact ingredient is added.

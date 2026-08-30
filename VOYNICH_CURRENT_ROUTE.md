@@ -284,7 +284,7 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-GDT654 makes V31 with19 exact-whole AR/OR cards/1347 target positions:1051 reader-exact;the54-cell control grid has45 observed/1882 positions/1516 exact.QOKAR is corrected from hot portion to hot fractionI because QOKOR occupies hot portion.V31=510 dictionary/437 glosses/15846 known;complete123/strict75;one-hole197/strict44.Next GDT655 tests AL=raw-material classI and DAL=measured raw-material amountI through al/dal/chdal/shedal across425 positions and6 potential closures;raw-drug lot remains the rival.No f1r,new page/image,filler,free tags,absent cell,plaintext or exact ingredient.
+GDT655 makes V32 with18 reader-anchored AL/DAL cards plus one unstable DAIIL prediction:567 positions/426 exact/429 normalized.AL=raw-material classI,DAL=measured raw-material amountI,ORAL=raw-material portionI by direct OR|AL split;form/lot/preparation remain rivals.V32=529 dictionary/453 working glosses/16398 known;complete130/strict77;one-hole225/strict54.Seven lines close.DAIIL alone is predicted;AIIIL/CHDALDY stay open.Next GDT656 audits the narrow observed AL quality shell with one shared start/middle axis.No f1r,new page/image,filler,free tags,absent cell,plaintext or exact ingredient.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`

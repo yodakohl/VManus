@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **652**
-- Experiment-associated tracked files: **10,519** (1.1 GiB)
-- Structured GDT337+ experiments: **317**
+- Experiments indexed: **653**
+- Experiment-associated tracked files: **10,549** (1.1 GiB)
+- Structured GDT337+ experiments: **318**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT655 | GDT655_dal_al_measured_material_completion | `PASS_18_ANCHORED_PLUS_1_PREDICTED_DAL_AL_SURFACES__V32` | [report](../experiments/yolo/gdt655_dal_al_measured_material_completion/REPORT.md) | 30 | 3.7 MiB | 4 | STRUCTURED_YOLO |
 | GDT654 | GDT654_ar_or_surface_consolidation | `PASS_19_AR_OR_SURFACES__V31` | [report](../experiments/yolo/gdt654_ar_or_surface_consolidation/REPORT.md) | 30 | 4.5 MiB | 6 | STRUCTURED_YOLO |
 | GDT653 | GDT653_strict_v29_boundary_compounds | `PASS_6_STRICT_BOUNDARY_COMPOUNDS__V30` | [report](../experiments/yolo/gdt653_strict_v29_boundary_compounds/REPORT.md) | 28 | 2.9 MiB | 7 | STRUCTURED_YOLO |
 | GDT652 | GDT652_strict_v28_frontier_completion | `PASS_35_EXACT_WHOLES__V29_PREPARATION_AND_MATERIA_GRIDS` | [report](../experiments/yolo/gdt652_strict_v28_frontier_completion/REPORT.md) | 28 | 3.1 MiB | 6 | STRUCTURED_YOLO |
