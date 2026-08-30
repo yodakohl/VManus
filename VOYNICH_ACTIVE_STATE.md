@@ -15880,3 +15880,32 @@ a complete odan/odain/odaiin/odaiiin I–IV ladder, four already read p/s/r/l
 compounds and two newly closable non-strict lines. shotol,opal,keechy,chokshy
 and qotomody remain behind it. No new page,image,f1r,f84*,GDT418 value,generic
 filler,substring,bare component or absent cell is licensed.
+
+## GDT647 migrates only quality-headed wholes to subdegree position
+
+GDT647 replaces the planned blanket propagation with a narrower V24 whole-word
+layer. Its fixed120-cell universe contains three visible-quality families:
+(empty|o|qo)+(k|t)+(ch|sh)+S,(ch|sh)+S and
+(k|t|ok|ot|qok|qot)+S, where S=y/ey/eey/dy/edy/eedy. Of these,107 surfaces
+are observed5664 times on178 pages,102 have at least one exact
+ZL3b/IT2a/RF1b whole anchor, five are retained as explicit reader warnings and
+13 absent cells remain holds. The live readings are beginning/middle/end of
+the degree, with d adding completion; o marks an Ansatz while qo stays bound
+and unspoken. tcheey remains byte-identical,15 strict plus one reader-warning
+V23 cards are revised, and86 strict plus four reader-warning surfaces are new.
+
+This adds3431 known positions and revises2227 old Form0/I/II positions. The
+V23→V24 edition moves dictionary304→410, exact glosses257→347, known
+10351→13782, complete lines61→77/strict42 and one-hole lines70→152/strict48.
+All16 newly complete lines are non-strict; the main next frontier is26 newly
+strict one-hole lines. Manual strong readings include f13v.5 qoky daiin=hot at
+the beginning of the third degree and f32r.5 qotchy qokchy daiin=at the
+beginning of the third degree,cold-dry versus hot-dry. f114v.33 and f47v.4 are
+retained adverse warnings. The independent validator passes562 checks.
+
+No global y/ey/eey rule exists. Naked CTH,p/s/r/l material forms,reversed
+choky/chokchy,EEE,qokeeedy,keechy,initial-y,aN,oiin,air,al,ol and or are not
+migrated. Next rank the26 new strict holes by all-occurrence recurrence and
+local quality/position/degree fit, beginning with recurrent odaiin; accept only
+complete observed wholes. No new page,image,f1r,f84*,GDT418 value,generic
+filler,substring,bare component or absent cell is licensed.
