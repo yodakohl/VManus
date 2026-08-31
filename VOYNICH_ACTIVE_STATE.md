@@ -16986,3 +16986,36 @@ the sole remaining line f105v.1 and its seven visible gaps: `polairy`, `oair`,
 `olpcheey`, `opchedaiin`, `dairody`, `ypcheddy`, `sairy`. First audit reuse
 against the published overlays, then test only genuinely new forms over every
 exact admitted occurrence. f84 and f84r remain forbidden.
+
+## GDT682 closes the final reader gap but exposes six inherited OL debts
+
+GDT682 assigns seven new cards across all seventeen exact ZL3b occurrences on
+eleven lines and ten already admitted pages. V56 moves 472→479 of 479 assigned
+positions, seven→zero visible gaps, fifty→51 formally complete lines and
+85→86 licensed actions. Global gaps fall 7,573→7,556 and complete lines rise
+1,439→1,440; only f105v.1 closes globally. No new page was opened.
+
+The source line now has explicit powder, wood-drug, degree, dose, measured
+fraction and seed-fraction content. `polairy` is a closed second powder
+fraction; `oair` a second preparation fraction; `olpcheey` dry-bound wood-drug
+powder form II; `opchedaiin` three doses of middle-dried powder preparation;
+`dairody` a finished measured preparation fraction II; `ypcheddy` dries powder
+to the middle stage, closes that drying and finishes the powder; `sairy` is a
+closed second seed fraction. The forward `ypcheddy→sairy` object binding is
+provisional: backward reference to `dairody` plus independent `sairy` closure
+remains visible.
+
+Sixteen of seventeen target positions are exact in both alternate readers.
+At f111v.33 ZL3b/RF1b retain `oair` while IT2a reads `qoair`; the nominal
+default remains portable and the local take-command rival is recorded. All
+seventeen contexts have keyed nominal/action/object/result verdicts rather than
+being counted as automatic holds. The validator passes 300 checks and rebuilds
+eleven files byte-for-byte.
+
+Formal completeness is not semantic completeness. Six inherited V56 `ol`
+positions still carry the old “Eigenschafts-/Zustands-/Materialträger” default,
+and f112r.36 plus f86v5.2 still print `Ansatz/Gut` in practical prose. GDT683
+must begin with those six debt positions, test every admitted exact `ol`
+context for a concrete portable core or explicit context-conditioned values,
+rerender both generic practical lines and then census the complete V56 deck for
+any other hidden semantic carrier. No new page; f84 and f84r remain forbidden.
