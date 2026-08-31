@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **703**
-- Experiment-associated tracked files: **11,939** (1.2 GiB)
-- Structured GDT337+ experiments: **368**
+- Experiments indexed: **704**
+- Experiment-associated tracked files: **11,965** (1.2 GiB)
+- Structured GDT337+ experiments: **369**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT706 | GDT706_v79_second_nominal_item_result_census | `PASS_V79_83_ACTION_DISPOSITIONS__161_DELAYED_PAIRS__28_BOUNDED_CELLS__1_NEW_C019_BUNDLE_10_HOLDS_17_STOPS__18_EDGES_12_COMPONENTS__ZERO_WORD_DELTA` | [report](../experiments/yolo/gdt706_v79_second_nominal_item_result_census/REPORT.md) | 26 | 1.6 MiB | 5 | STRUCTURED_YOLO |
 | GDT705 | GDT705_v78_complete_action_nominal_result_census | `PASS_V78_60_ACTION_NOMINAL_RESULTS__2_NEW_C017_C018__5_NEW_HOLDS__20_OPEN_26_CONTROLS__17_EDGES_12_COMPONENTS__ZERO_WORD_DELTA` | [report](../experiments/yolo/gdt705_v78_complete_action_nominal_result_census/REPORT.md) | 26 | 1.4 MiB | 4 | STRUCTURED_YOLO |
 | GDT704 | GDT704_v77_repeated_written_material_continuation | `PASS_V77_15_ACTION_CONTINUATIONS__4_EXACT_HEAD_REPEATS__1_NEW_C015__C016_HELD__15_EDGES_10_COMPONENTS__ZERO_WORD_DELTA` | [report](../experiments/yolo/gdt704_v77_repeated_written_material_continuation/REPORT.md) | 25 | 1.2 MiB | 3 | STRUCTURED_YOLO |
 | GDT703 | GDT703_v76_all_action_finished_result_census | `PASS_V76_83_ACTION_RIGHT_CONTEXTS__60_NOMINAL_15_ACTION_8_EOS__7_FINISHED_STATE_FIRSTS__3_LOCAL_READS_4_OPEN__C013_C014_ADDED__ZERO_WORD_DELTA` | [report](../experiments/yolo/gdt703_v76_all_action_finished_result_census/REPORT.md) | 23 | 1.2 MiB | 5 | STRUCTURED_YOLO |

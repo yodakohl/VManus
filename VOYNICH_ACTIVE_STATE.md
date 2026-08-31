@@ -17846,3 +17846,45 @@ The next pass is a separate later-result census only for actions still lacking
 an immediate written result.  Begin with the already ranked delayed candidates,
 retain A066/A072/A046/A006/A043 and C016 as comparators, and do not open a page
 or reinterpret a word.
+
+## GDT706 maps all delayed pairs and adds one written heat-result bundle
+
+GDT706 first preserves the complete search space rather than keeping only the
+attractive cases.  The 83 action clauses divide into five already bound to an
+immediate result, 42 initially unbound nominal windows with later positions,
+thirteen unbound one-item nominal windows, fifteen next-action boundaries and
+eight line ends.  The 42 delayed windows contain 163 later positions.  Two are
+the existing period renderings A043#6 and A047#10, leaving 161 semantic
+`(action, later item)` pairs with every intervening ordinal, surface and gloss
+retained in order.  Repeated bridge items are not collapsed.
+
+The bounded near zone then reads every rank-2 and rank-3 item behind GDT705's
+twenty `OPEN_PARTIAL` sources.  Sixteen sources supply rank 2 and twelve also
+supply rank 3, giving 28 complete cells: one admitted result bundle, ten useful
+holds and seventeen visible stops.  The other 133 semantic pairs remain in the
+outer map for later use rather than being rejected or forgotten.
+
+C019 extends M007 at `f86v6.25#5 ykaiin→#7 okeeeey`.  M007 already carries the
+measured drug share from #4 into the action *erhitze hiervon auf Stufe III*.
+The following #6 `or`, *Drogenportion*, is retained as the written material
+carrier; #7 writes *Zubereitung vollständig bis zur letzten Heizstufe geführt*.
+The practical component reading is: *Aus dem Anteil I des heißen Holzansatzes
+einen heißen Drogenanteil I abmessen. Den so abgemessenen Drogenanteil I auf
+Stufe III erhitzen. Ergebnis: Die Drogenportion ist vollständig bis zur letzten
+Heizstufe geführt.*  #6 is hull-only rather than an edge endpoint, so it is
+neither silently skipped nor promoted to an invented second relation.  #8
+changes to finished dried flower mass and stops the result path before the
+later Grade-III value #9.
+
+C019 changes the cumulative graph from seventeen to eighteen edges while
+retaining twelve components.  The current counts are 33 unique edge nodes, 39
+incidences, 36 hull positions, 36 render positions, six shared nodes, three
+hull-only positions and one structural closure.  All 479 token glosses, 51
+line translations, three spans and 36 pages remain unchanged; no word meaning,
+f84 or f84r access is added.  The independent validator passes 71,625 checks
+and reproduces the single expected GDT388 formal-access error.
+
+The next route uses the published 161-pair map to inspect the strongest longer
+bundle A083 `f8r.15#1→#2-4`: a measured portion dried to the middle stage,
+followed by written drug material, dry state and middle-grade state.  Compare
+it with A073, A002 and A012; open no new page and reinterpret no word.
