@@ -284,7 +284,7 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-GDT685 tests all540 exact `chol/shol/tol` positions plus935 core-OL tokens. Universal Trocken-/Feucht-/Kaltansatz fails: all540 source roles are quality carriers;57 value forms,7 visible parts,explicit E+OL heads and8 free+2 bound OL contacts require `chol=trocken`,`shol=feucht`,`tol=kalt` with a visible/local head. V58 revises8 positions on7/51 lines, preserves86 actions and lowers curated debt139→131 plus mechanical memberships194→186; the honest172 mechanical/381 four-layer unions remain. Next dispatch every V58 `dain/daiin/qodaiin` by visible head: quality→Grad, material/part→Menge/Portion, otherwise class/structure open. Then repair `dchey/y/dy` action/structure scope. No new page;f84/f84r forbidden.
+GDT686 exhausts955 `dain/daiin/qodaiin` positions:the naked d-series is a stable four-level value family,not a verb. Direct heads license75 quality grades and53 local amounts/parts;11 naked-OL,775 outer-head and41 qod cases keep the semantic axis open. V59 nevertheless gives every one of its11 target positions one replaceable practical default (4 grades,7 amounts),preserves86 actions and lowers curated debt131→120,mechanical union172→163 and four-layer union381→370. Next dispatch every current `dchey/y/dy` position as licensed action,nominal result or structural closure;remove verbs created only by fluent prose and rerender all touched lines. No new page;f84/f84r forbidden.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`

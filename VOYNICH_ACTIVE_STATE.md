@@ -17138,3 +17138,33 @@ amount/portion, and unlicensed cases remain class or structure values. In
 particular f86v3.13 must no longer turn `qodaiin` from a quality degree into
 three parts in fluent prose. Afterward comes the `dchey/y/dy` action-versus-
 structure dispatch. No new page is opened; f84 and f84r remain forbidden.
+
+## GDT686 separates the stable value level from its local semantic axis
+
+GDT686 exhausts 955 exact target positions on 174 already admitted pages:
+193 `dain`, 721 `daiin` and 41 `qodaiin`. The naked d-series has all four
+ordered levels (`dan/dain/daiin/daiiin`) and 27 fixed neighbouring frames with
+multiple levels. This supports a portable value-level reading, not one
+universal verb or one universal semantic axis.
+
+Visible head evidence partitions the 914 naked d targets into 75 direct
+core-OL quality contexts, 53 direct material/part amount contexts, eleven
+naked-OL cases with open axis and 775 cases whose outer head is not immediately
+typed. The 41 qod targets remain a separate open-head family; 34 are exact in
+all three readers and two loci expose rival internal boundaries. Thus the live
+global renderer is `d + level II/III` or `qod + level III`, with degree versus
+amount selected only by a visible or keyed local head.
+
+V59 deliberately makes the stronger practical move only inside the current
+51-line reader. Its eleven target positions receive one replaceable default
+each: four quality grades and seven local portions/measures. Every strongest
+rival remains recorded, ten choices are AMBER and one GREEN. Value tokens
+license no operation; the invented `abnehmen` readings on f10r.2 and f8r.15
+disappear. All 86 existing action licenses remain unchanged.
+
+The eleven replacements lower curated debt 131→120, mechanical debt union
+172→163, broad specificity 335→324 and four-layer union 381→370. The
+next no-new-page route is the `dchey/y/dy` family: enumerate every current
+position, separate licensed actions from nominal result states and structural
+closures, then rerender every touched line without prose-only verbs. f84 and
+f84r remain forbidden.
