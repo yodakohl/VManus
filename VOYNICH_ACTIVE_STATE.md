@@ -17199,9 +17199,40 @@ union 370→330; clean positions rise 109→149. Twenty-two target states still
 lack an explicit object and one target keeps inherited low confidence. The
 validator passes 254 checks and rebuilds fourteen files byte-for-byte.
 
-The next no-new-page pass must audit the whole practical renderer rather than
-another suffix family. At least 66 extra German verb×line pairs remain on 28
-lines. Every verb must be tied to one exact written action ordinal and
-whole-token card; otherwise it becomes a nominal state. This includes the
-inherited *abschließen* still visible in f26r.2 `ykecthey`. f84 and f84r remain
-forbidden.
+The published GDT687 outlook overstated the remaining renderer scope. Its 66
+extra German verb×line pairs on 28 lines were the reproducible V59 value; the
+already generated V60 reader retained only four pairs on two lines:
+`verbinden` and `abschließen` on f114v.36, plus `trocknen` and `bringen` on
+f75r.3. This routing correction changes none of GDT687's 95 local role
+decisions or debt totals. GDT688 supplies the exact executable correction.
+f84 and f84r remain forbidden.
+
+## GDT688 binds every practical verb to one written action ordinal
+
+GDT688 rerenders all 51 current lines through one source-ordered V61 compiler.
+Every emitted practical verb stores its own character interval, token ordinal,
+surface, literal action gloss and action license. The result contains 113/113
+exactly backprojected German verb occurrences and zero source-free, ambiguous
+or merely syntax-inserted verbs.
+
+The 85 action positions have a visible arity rather than a false one-word/one-
+verb relation: 65 cards emit one verb, twelve emit two and eight emit three,
+for 113 verb occurrences. Thus a card such as `sheky` may retain the current
+three-part working value *einweichen, erhitzen, abschließen* while every word
+still points to that one exact written card.
+
+The executable leakage history is V57 74 extra lemma×line pairs on 29 lines,
+V59 66/28, V60 4/2 and V61 0/0. V61 removes the two unsupported verbs on
+f114v.36 and the two on f75r.3, and keeps the two written `nehmen` cards on
+f114v.36 distinct. It also stores exact spans for repeated same-valued action
+cards such as the three `sheky` positions on f80r.17. Ten lines are rerendered;
+all 51 lines keep source order, all 479 positions and all 85 action licenses.
+
+V61 changes no semantic card, so strict debt remains 106, the mechanical union
+152 and the four-layer union 330. Its 16 work-sequence, 23 hybrid, six state-
+list and six quantity/state-list modes are reader metadata, not translated
+words. The next no-new-page route tests the 60 bound surface-`dy` forms against
+their 39 real non-`dy` sisters. It must distinguish a mere field-end spelling,
+a nominal result form and an endpoint-bearing action; `dchey/dchedy` is not a
+minimal pair, and `cheody/cheoy` is the parser-equality control. f84 and f84r
+remain forbidden.

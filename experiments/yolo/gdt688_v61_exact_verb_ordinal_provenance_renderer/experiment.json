@@ -1,0 +1,151 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The complete 113-row verb provenance and 51-line reader are retained because exact character spans, source ordinals, surfaces, literal glosses, action licenses and before/after renderer states cannot be reconstructed from aggregate counts.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "V61 proves renderer provenance only: all 113 detected practical German verb occurrences are emitted inside one exact written token span whose ordinal is action-licensed. It changes no token meaning, action license or semantic debt and does not prove that any current German verb is historical plaintext. No language, phonetics, codebook, ingredient, disease, patient, cure, new page or sealed material is identified.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt688_v61_exact_verb_ordinal_provenance_renderer/src/run.py",
+    "validate": "python3 experiments/yolo/gdt688_v61_exact_verb_ordinal_provenance_renderer/src/validate.py"
+  },
+  "created": "2026-08-31",
+  "dependencies": [
+    "GDT684",
+    "GDT686",
+    "GDT687"
+  ],
+  "experiment_id": "GDT688",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt684_v57_complete_semantic_debt_census/artifacts/V57_51_LINE_INFORMATION_SUMMARY.tsv",
+      "role": "published V57 action-leakage line totals",
+      "sha256": "0a28e7df81aba0a010f3bad6b47d2e0aa83f5d1b638615799f30472b32ca43ca"
+    },
+    {
+      "path": "experiments/yolo/gdt684_v57_complete_semantic_debt_census/artifacts/PRACTICAL_OPERATION_RULES.tsv",
+      "role": "frozen legacy 31-lemma comparison deck",
+      "sha256": "aad772ba538b098dcd6f7d8f90b64179c5ce467165dda33eeefcb6265cbfb68e"
+    },
+    {
+      "path": "experiments/yolo/gdt686_v59_dain_daiin_qodaiin_value_head_dispatch/artifacts/V59_51_LINE_READER.tsv",
+      "role": "V59 comparison reader",
+      "sha256": "8e131a70d40fccab7f7aa34de9124b0b97dbfc4ce1497d8e1a9376088150dd3f"
+    },
+    {
+      "path": "experiments/yolo/gdt687_v60_dchey_y_dy_action_result_boundary_dispatch/artifacts/V60_51_LINE_READER.tsv",
+      "role": "complete source reader for V61",
+      "sha256": "cbd543c00c4de3c991bd52addcfe49afe198d45096a33dd18165177b6ae82f35"
+    },
+    {
+      "path": "experiments/yolo/gdt687_v60_dchey_y_dy_action_result_boundary_dispatch/artifacts/RESULT.json",
+      "role": "frozen V60 action and debt totals",
+      "sha256": "9997865efdbc837416a87a1193eea69d0026e45f2b91ce83179c45d10b3714d6"
+    },
+    {
+      "path": "experiments/yolo/gdt688_v61_exact_verb_ordinal_provenance_renderer/src/V61_VERB_RULES.tsv",
+      "role": "corrected non-overlapping practical verb scanner",
+      "sha256": "88b2c8c80e3c4281eeda8878ee6e3f686b3408b154e9222387ba0601fa99e4a3"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt688_v61_exact_verb_ordinal_provenance_renderer/README.md",
+      "role": "entry point",
+      "sha256": "27d0d37858cbdfff760a0b5707e6717c6782d092ba09533c3f1e0895be937b04"
+    },
+    {
+      "path": "experiments/yolo/gdt688_v61_exact_verb_ordinal_provenance_renderer/METHOD.md",
+      "role": "method",
+      "sha256": "847e51d530cbbfe0ab4afeaddf76c86cf2f4df17198226c3770334570d8fcb6a"
+    },
+    {
+      "path": "experiments/yolo/gdt688_v61_exact_verb_ordinal_provenance_renderer/REPORT.md",
+      "role": "result and GDT687 scope correction",
+      "sha256": "1d1b172aa1d2312886a990e7bbed3243d11f64bc408c22bdedca7ba962d98ced"
+    },
+    {
+      "path": "experiments/yolo/gdt688_v61_exact_verb_ordinal_provenance_renderer/artifacts/README.md",
+      "role": "artifact map",
+      "sha256": "f2015282e8a445b57c604f47e806764bf698b88cd755f0911a1d94d3d86362be"
+    },
+    {
+      "path": "experiments/yolo/gdt688_v61_exact_verb_ordinal_provenance_renderer/src/run.py",
+      "role": "deterministic span-provenance builder",
+      "sha256": "cd8db4f2cb4f62a002b9ec27910b112a58c31be8d010c2f07a22cf10bb4f7215"
+    },
+    {
+      "path": "experiments/yolo/gdt688_v61_exact_verb_ordinal_provenance_renderer/src/validate.py",
+      "role": "independent byte-rebuild and backprojection validator",
+      "sha256": "add3a03d0b606b773eb04f7491574090813f5a4200085cf758b5f3bd1f9eb04e"
+    },
+    {
+      "path": "experiments/yolo/gdt688_v61_exact_verb_ordinal_provenance_renderer/artifacts/COUNTEREXAMPLE_AUDIT.tsv",
+      "role": "six renderer counterexamples",
+      "sha256": "22727c6f9f816d3f1069d019cc54017e27c03c416020e56da0b09ce11536f7b9"
+    },
+    {
+      "path": "experiments/yolo/gdt688_v61_exact_verb_ordinal_provenance_renderer/artifacts/GDT688_V61_WORKSHOP_READER.md",
+      "role": "complete human reader grouped by display mode",
+      "sha256": "a65712f8e0c9435ca66d306fcffe5fed0693341fb677b49f6438512032184f76"
+    },
+    {
+      "path": "experiments/yolo/gdt688_v61_exact_verb_ordinal_provenance_renderer/artifacts/LEGACY_ACTION_LEAKAGE_COMPARISON.tsv",
+      "role": "executable V57 to V61 leakage history",
+      "sha256": "5d8792f8994618bf2462426bc32d955258ad69d5d207a85f922a49d5db383155"
+    },
+    {
+      "path": "experiments/yolo/gdt688_v61_exact_verb_ordinal_provenance_renderer/artifacts/RESULT.json",
+      "role": "compact result",
+      "sha256": "429f20eb41bf2e4ab64565fe279edfed937916423e9e48fed86eaa4b082ada1e"
+    },
+    {
+      "path": "experiments/yolo/gdt688_v61_exact_verb_ordinal_provenance_renderer/artifacts/V60_BEFORE_116_VERB_PROVENANCE.tsv",
+      "role": "complete 116-occurrence V60 before-state",
+      "sha256": "f6f05ea9da9ec83bdf430387d8a60ddb1d2e0e5d4befdca221cfa8afdb5f8f5d"
+    },
+    {
+      "path": "experiments/yolo/gdt688_v61_exact_verb_ordinal_provenance_renderer/artifacts/V61_10_RERENDERED_LINES.tsv",
+      "role": "ten before and after line renderings",
+      "sha256": "e4d835eb309ec94240a6c410e87131f139565a718ddabdef9a103e145f4d10bd"
+    },
+    {
+      "path": "experiments/yolo/gdt688_v61_exact_verb_ordinal_provenance_renderer/artifacts/V61_113_VERB_OCCURRENCE_PROVENANCE.tsv",
+      "role": "complete exact practical-verb provenance",
+      "sha256": "3f416cda94b35a1b09ef50de57dbf464298086a51307cb37ef6fdf4b59e7c864"
+    },
+    {
+      "path": "experiments/yolo/gdt688_v61_exact_verb_ordinal_provenance_renderer/artifacts/V61_51_LINE_READER.tsv",
+      "role": "complete V61 reader",
+      "sha256": "e3955a6e34935466018f9e3a496c36d84b8b4a3e009a88f6d7742dc385879276"
+    },
+    {
+      "path": "experiments/yolo/gdt688_v61_exact_verb_ordinal_provenance_renderer/artifacts/V61_51_LINE_VERB_AUDIT.tsv",
+      "role": "line-level before and after audit",
+      "sha256": "9ff77b92ecbdf37cdbc17ffcde32259caf8e0698dd40258fd304957c28b97606"
+    },
+    {
+      "path": "experiments/yolo/gdt688_v61_exact_verb_ordinal_provenance_renderer/artifacts/V61_85_ACTION_POSITION_ARITY.tsv",
+      "role": "complete action-card verb arity deck",
+      "sha256": "ca7554baa7e45ad80fffa39c3bb587f14c311a5d4fa6fe0d11c29742adaa68d4"
+    },
+    {
+      "path": "experiments/yolo/gdt688_v61_exact_verb_ordinal_provenance_renderer/artifacts/VALIDATION.json",
+      "role": "independent validation",
+      "sha256": "d008aec23b264ad57e335fcaffb3a91e4050cdd93bec50b93111693d5cd07f66"
+    }
+  ],
+  "question": "Can every practical German verb in the complete reader be bound to one exact written action ordinal with zero verbs inferred from nominal states or fluent syntax?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "v61_exact_verb_ordinal_provenance_renderer",
+  "status": "PASS_V61_113_OF_113_PRACTICAL_VERBS_EXACT_ACTION_ORDINAL__LEGACY_LEAKAGE_74_TO_66_TO_4_TO_0",
+  "title": "V61 Exact Verb Ordinal Provenance Renderer",
+  "updated": "2026-08-31",
+  "validation": {
+    "artifact": "experiments/yolo/gdt688_v61_exact_verb_ordinal_provenance_renderer/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}
