@@ -17671,3 +17671,52 @@ GDT687 licenses the result-state type, not the #4→#5 link, and GDT689 keeps
 `olpchedy` as an unpaired whole rather than a productive sister form.  At most
 one occurrence-bound C012 may be nominated from the discriminating local
 material frame; no portable action-result default or new word meaning follows.
+
+## GDT702 adds one exact written final-result edge
+
+GDT702 reconstructs the complete action clause around every C001--C011 target
+and then takes exactly the first semantic item to its right.  The exhaustive
+partition is seven nominal blocks, three following actions and one line end.
+No later result-like token may replace that first item; in particular,
+f26r.2#7 `dy` remains inside the complete C011 action and #8 `checthedy` is
+the first semantic item after it.
+
+Only C001 passes the fixed local gate.  At f105v.1, C001 already binds
+`olpcheey#3` (*trocken gebundenes Holzpulver, Form II*) to `ykaiin#4`
+(*auf Stufe III erhitzen*), and the immediately written #5 `olpchedy` is a
+GDT687 HIGH nominal finished-result state with the inherited current gloss
+*fertiges Holzextraktpulver*.  C012 therefore adds the occurrence-bound
+relation `#4 ACTION_OUTPUT_TO_WRITTEN_RESULT_STATE #5` at
+`B_WORKING_LOCAL`.  The practical M002 reading is now: “Das trocken gebundene
+Holzpulver, Form II, auf Stufe III erhitzen. Ergebnis: fertiges
+Holzextraktpulver.”
+
+The admission is contrastive, not a word rule.  The second target action
+`ykaiin` is followed first by unmarked `or`, while the second `olpchedy`
+follows `qokaiir` (*nimm den heißen Drogenanteil III*) and is materially
+discordant with its wood-extract-powder gloss.  Thus YKAIIN-output,
+OLPCHEDY-left-action, mere adjacency, later-token skipping and productive
+`olpche*` morphology remain rejected.  GDT682 had already prose-rendered the
+same result and supplied C001's patient context; that shared provenance is
+recorded explicitly and prevents promotion above B tier.
+
+The cumulative graph now has twelve edges, nine components, 24 unique edge
+nodes, 27 incidences, 26 minimal-hull positions and 27 render positions.
+M002 alone grows to nodes #3--#5 with shared bridge #4 and the sole named final
+result.  The two old hull-only positions and one structural position remain
+unchanged.  All 479 token glosses, 51 line translations and three bound spans
+are byte-identical; there is no new word meaning, page, f84 or f84r access.
+The official GDT388 packet is deliberately invalid/not score-ready and has
+only the expected formal-access error.  Independent validation passes 218
+checks.
+
+The next finite pass applies the same full-clause/no-skip cut to all 83
+actions.  A complete pre-census yields 60 nominal successors, fifteen action
+successors and eight line ends; only seven first nominal positions are already
+GDT687 finished states.  Preserve C012 and compare all seven.  The strongest
+new exploratory case is f26r.2#4 `ykecthey` to #5 `chedy`, already described
+as a written state-only checkpoint; f115r.23#3 `qokeod` to #4 `chody` is a
+weaker practical candidate.  The other four cases retain explicit missing-
+operation or material-mismatch explanations.  Any new relation remains local
+and requires a written compatible patient or output; no page or word meaning
+is opened.
