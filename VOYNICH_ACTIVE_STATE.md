@@ -17088,10 +17088,53 @@ positions, but a frozen 31-lemma comparison finds 74 extra practical
 operation×line pairs on 29 lines. These are review candidates rather than 74
 automatically rejected verbs.
 
-GDT684 changes no V57 card and opens no page. The next route is the smallest
+GDT684 changes no V57 card and opens no page. Its next route was the smallest
 productive carrier circuit: enumerate every admitted exact `chol`, `shol` and
-`tol` occurrence and test whether the same visible CH/SH/T + OL composition
-supports the replaceable predictions `Trockenansatz`, `Feuchtansatz` and
-`Kaltansatz`. Do not export a locally inherited substance head globally.
-Afterward repair the `qodaiin/dain/daiin` value axes and the `dchey/y/dy`
-action/structure dispatch. f84 and f84r remain forbidden.
+`tol` occurrence and test the replaceable predictions `Trockenansatz`,
+`Feuchtansatz` and `Kaltansatz` without exporting a locally inherited head.
+
+## GDT685 replaces the universal Ansatz prediction with local state dispatch
+
+GDT685 exhausts all 540 exact targets on 151 admitted pages: 343 `chol`, 163
+`shol` and 34 `tol`; 476 positions are token-exact in ZL3b, IT2a and RF1b and
+64 retain an alternate-reader variant. The surrounding core-bearing OL grid
+contains 935 tokens on 167 pages, 833 reader-exact, with 23 of 24 expected
+quality cells occupied.
+
+The proposed universal nouns do not survive composition. Every target source
+role is `QUALITY_STATE_CARRIER`; 57 direct, fused or separate value
+realizations place the target in a quality slot, and seven contacts bind it to
+a visible plant-part head. Exact E+OL wholes instead carry their own explicit
+`Drogenstoff` or `Drogenteil` head. Ten visible target/OL contacts split into
+eight genuinely free adjacent OL words and two reader-bound compounds; the
+free cases keep `Grundansatz` in its own written cell rather than exporting it
+back into `chol/shol/tol`.
+
+The V58 portable cards are therefore:
+
+```text
+chol = trocken; sichtbarer oder lokal geerbter Kopf
+shol = feucht; sichtbarer oder lokal geerbter Kopf
+tol  = kalt; sichtbarer oder lokal geerbter Kopf
+```
+
+`Trockenansatz`, `Feuchtansatz` and `Kaltansatz` remain allowed only when a
+separate visible or inherited preparation head licenses them. `CHO/SHO+L`
+remains a local segmentation rival but does not cover `tol` and cannot serve
+as the common renderer.
+
+V58 rewrites eight positions on seven of the 51 lines. It removes eight
+slash-separated generic Gut/Material cards and binds visible heads at f30r.9,
+f86v3.18, f86v6.5 and f8r.15; genuinely headless state cells remain explicit.
+Curated debt falls 139→131 and mechanical memberships 194→186. The
+mechanical union stays 172, broad specificity stays 335 and the four-layer
+union stays 381 because all eight corrected states still lack a globally
+identified object. All 86 action licenses remain unchanged.
+
+The next route is the `dain/daiin/qodaiin` value axis. The four written values
+I–IV remain productive, but every V58 occurrence must now be dispatched by a
+visible head: quality selects degree, a local material or part may select
+amount/portion, and unlicensed cases remain class or structure values. In
+particular f86v3.13 must no longer turn `qodaiin` from a quality degree into
+three parts in fluent prose. Afterward comes the `dchey/y/dy` action-versus-
+structure dispatch. No new page is opened; f84 and f84r remain forbidden.
