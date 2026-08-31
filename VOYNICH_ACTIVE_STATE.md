@@ -16831,3 +16831,53 @@ at all exact admitted occurrences, and close the lines only after both slots
 produce a concrete coherent reading. The route duplicate query returns older
 bulk completion passes rather than this new V51 context circuit. Open no new
 page; f84 and f84r remain forbidden.
+
+## GDT678 closes the 17 two-hole lines with a boundary-aware V52 renderer
+
+GDT678 assigns concrete replaceable cards to all 34 residual forms in V51's
+seventeen two-gap lines. The complete exact-occurrence circuit contains 101
+still-open positions on 82 lines, 52 pages and the already admitted 179-side
+panel. One semantic core remains usable at every position. The strongest
+mass carriers are `olchey`=Holzdrogenansatz bis Mittelstufe getrocknet (20),
+`oteor`=eine Portion kalten Mittelansatzes (10), `chotar`=erste Fraktion des
+abgekühlten Trockenansatzes (9), `keeey`=stark erhitzt Endstufe III (9),
+`qokeod`=heißen Auszug bereiten und abschließen (5), `keo` as the bound middle
+heating/preparation component (5), and `pchedaiin`=three doses of middle-dried
+powder (4).
+
+The live composition model now explicitly mixes productive pieces with
+learned wholes. `qokeod` keeps known `qokeo` plus terminal close `d`; `qoin`
+selects learned `oin`, the second preparation, while `qo+in` form II remains
+the rival; `qocho` takes learned `cho`, the dry preparation; `cphdor` uses the
+learned portion-measure block `dor`; and `qoeeo` keeps learned `oeeo`, the
+second maceration preparation, nominal before the `lldar` measure command.
+Eleven new action positions enter the selected lines.
+
+The practical renderer executes reader-boundary evidence instead of merely
+footnoting it. On f7r.2, ZL3b `keo r` is rendered through the already learned
+joined `keor` as “heiße Drogenportion”. On f86v6.4 both alternates join
+`l karchees`, so practical prose prints one fully dried charge of the first hot
+wood fraction. ZL3b `rr` on f77v.7 is not promoted as a reduplicated quantity:
+both alternate readers write `rchr`, which controls the working value
+“getrocknete Wurzeldroge”; “two root parts” remains the named ZL3b-only rival.
+Other splits such as `cholches/chol ches` and `aiindy/aiin dy` preserve the same
+component core. Reader support across 101 positions is 65 bilateral exact,
+fifteen IT2a-only, ten RF1b-only and eleven neither; every neither-exact case
+has an explicit decision.
+
+V52 moves 352→386 of 479 assigned positions, 127→93 visible gaps, eleven→28
+complete lines and 49→60 licensed action positions. f49r.16 changes from a
+nominal register to an action sequence, while f83v.12 becomes mixed. The global
+position reconstruction moves gaps 7,923→7,822 and complete lines
+1,391→1,410. Nineteen rather than seventeen lines close because f38v.6 gains
+`keeey` and f80r.21 gains `oltain`. The guarded cross query selected 82 target
+loci, rejected 98 f84-prefixed rows before materialization and skipped 5,206
+non-allowed rows. Hard generic filler remains zero. Independent validation
+passes 210 checks and reproduces ten result files byte-for-byte.
+
+The next no-new-page route is GDT679 on V52's smallest residual front: eight
+three-gap lines exposing 24 distinct forms. The route duplicate screen returns
+older one-hole and bulk completion passes, not this exact V52 circuit. Apply
+each proposed card to all exact admitted occurrences, retain practical reader
+joins, and close all three slots before moving to four-gap lines. Keep f84 and
+f84r forbidden.
