@@ -17888,3 +17888,45 @@ The next route uses the published 161-pair map to inspect the strongest longer
 bundle A083 `f8r.15#1→#2-4`: a measured portion dried to the middle stage,
 followed by written drug material, dry state and middle-grade state.  Compare
 it with A073, A002 and A012; open no new page and reinterpret no word.
+
+## GDT707 adds the first complete material–dry-state–middle-degree bundle
+
+GDT707 converts the delayed-item map into the complete consecutive triple
+population.  The 42 delayed nominal windows contain 119 semantic triples: 32
+begin at the first nominal item and are therefore action-adjacent; 87 begin
+later and remain enumerated no-skip controls rather than independently
+classified result candidates.  Ten delayed windows contain exactly two
+semantic items and form the separate length-control set.  The complete manual
+classification of the 32 leading triples gives one admit, four holds and 27
+long-path stops.  A stop here does not erase any earlier shorter-prefix hold.
+
+C020 is the local A083 relation `f8r.15#1 dchey→#4 chey`.  The practical
+two-channel reading is: *Eine abgemessene Portion bis zur Mittelstufe
+trocknen. Als möglicher Ergebnisblock folgt: Drogenstoff aus
+Arzneikompositum – trocken; trocken in der Mitte des Grades.*  #2 `ckhol`
+supplies the written material carrier and #3 `chol` the broad dry state; both
+remain visible hull-only positions.  Only action #1 and middle-dry result #4
+are graph nodes.  This avoids asserting that the unnamed measured portion is
+certainly identical with #2's drug material.  It also avoids importing a
+quantity into #2-4 or turning the middle degree into a finished state.
+
+There is no written boundary after #4.  In the local working reading, #5's new
+charge/heat description together with #6's reset from middle to beginning
+forms the right semantic boundary; #5 alone remains compatible.  All nine
+exact action-form `dchey` contexts are published as one positive context plus
+eight controls.  All ten exact `ckhol`/`chol`/`chey` occurrences divide into
+three local C020 roles plus seven external controls, so no portable surface or
+bundle rule is added.
+
+C020 creates the new isolated component M013.  The cumulative graph now has
+nineteen edges, thirteen components, 35 unique edge nodes, 41 incidences, 40
+hull positions, 40 render positions, six shared nodes, five hull-only
+positions and one structural closure.  All 479 token glosses, 51 line
+translations, three spans and 36 pages remain unchanged.  The independent
+validator passes 77,147 checks and reproduces the single expected GDT388
+formal-access error.
+
+The four complete bundles A012/A014/A024/A043 remain live for a shared
+material–state architecture pass.  The shorter A073/A070/A029/A017/A004
+prefixes also remain visible even though their full three-item extensions stop.
+Next compare these two layers without opening a page or changing a word.
