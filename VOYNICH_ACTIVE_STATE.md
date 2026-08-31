@@ -16952,3 +16952,37 @@ six five-gap lines with thirty distinct surfaces. `chepy` already has GDT680's
 dry-powder-base card, leaving twenty-nine genuinely new cards plus one explicit
 reuse for GDT681. The duplicate screen returns older bulk and smaller-hole
 passes rather than this V54 circuit. f84 and f84r remain forbidden.
+
+## GDT681 closes the six five-hole lines and leaves one seven-gap line
+
+GDT681 assigns twenty-nine new concrete cards across all 104 exact ZL3b
+occurrences on 77 lines and 49 already admitted pages. The thirtieth source
+slot family, `chepy`, is not reassigned but reuses its exact six-position GDT680
+dry-powder-base card. V55 moves 442→472 of 479 assigned positions, 37→7
+explicit gaps, 44→50 complete lines and 75→85 licensed action positions.
+Global gaps fall 7,677→7,573 and complete lines rise 1,429→1,439; `oram`
+additionally closes f33v.11 and f88r.13, `ytedy` closes f75v.53 and `ls` closes
+f79r.17.
+
+The strongest new families are `aiir`, third drug fraction at twenty
+positions; `ytedy=y+tedy`, cool this to the middle stage and finish at 24
+positions; `oram=or+am`, one measured preparation portion at eight positions;
+and `ls`, a wood-drug charge at twelve positions with occurrence-specific
+reader repair. Both readers write `lr` at f26r.2, so that one source position
+renders as Wurzelholz. Both join `cheop` to following `ol` at f115r.1, and both
+replace f115v.34 `sheeey` by a CKH-composite-family form.
+
+Three-reader exact `shx` belongs to an admitted x-family which accepts material,
+portion, fraction, preparation, measure and treatment fields. Its substance
+role is retained; soaked gum resin is only the current concrete identity
+candidate. ZL3b/RF1b `ypchesy` supplies seed powder while IT2a `ypchery`
+supplies the live root-powder rival. `kodeey/todeey` remains a hot/cold dose
+rival, and neither `fdar` nor `cheop` exports a free sign value.
+
+All 44 non-both-exact reader positions have executable decisions. Hard generic
+vocabulary remains absent. Independent validation passes 287 checks and
+reproduces eleven files byte-for-byte. The next no-new-page route is GDT682 on
+the sole remaining line f105v.1 and its seven visible gaps: `polairy`, `oair`,
+`olpcheey`, `opchedaiin`, `dairody`, `ypcheddy`, `sairy`. First audit reuse
+against the published overlays, then test only genuinely new forms over every
+exact admitted occurrence. f84 and f84r remain forbidden.
