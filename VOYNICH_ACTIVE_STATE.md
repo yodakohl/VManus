@@ -17047,9 +17047,51 @@ are no longer silently promoted to actions, adjacent `ol ol` is an action only
 on f81r.5 where `qol` licenses addition, and the f86v5 reader warning remains
 on `ytol/ytal/yt|l` rather than on bilateral `ol`.
 
-This closes OL integration debt, not semantic completeness. GDT684 must now
-census every remaining generic, structural, tautological or practically empty
-value in the entire V57 reader. The known first cases are free `l` on
-f111v.18 and `tol = Kaltes Gut` on f80v.35, but the audit must enumerate exact
-locus/ordinal/surface debt rather than stopping at those examples. No new page
-is opened; f84 and f84r remain forbidden.
+This closes the old OL meta-gloss integration error, not semantic
+completeness. GDT684 confirms that the five free V57 `ol = Grundansatz`
+positions inherit only GDT664's MEDIUM learned-whole card. They remain a
+separate confidence debt inside V57. Scope correction: f80v.35
+`tol = Kaltes Gut` is inside V57, but free `l` on f111v.18 is not one of the
+51 reader lines; it remains a separately tracked global companion in GDT683's
+417-line rerender.
+
+## GDT684 completes the V57 semantic-debt census
+
+GDT684 explodes all 51 V57 lines into 479 exact position records covering 320
+surfaces and 324 surface/gloss cards. Formal assignment is no longer treated
+as semantic completion. Three complementary content audits produce a
+139-position curated repair queue, a 335-position broad specificity view and
+a 172-position mechanically visible debt union from 194 overlapping class
+memberships. The exact three-layer union is 371 positions. A fourth provenance
+join finds 30 positions/28 cards explicitly marked LOW or EXPLORATORY in
+GDT671, GDT674 and GDT677–681; ten were otherwise clean, so the four-layer
+union rises to 381 and only 98 positions retain no current debt or
+low-confidence signal.
+
+The curated 139 positions cover nine repair families: ten generic carriers,
+nineteen untyped values, twenty open `olkar/olam` bindings, eleven structure
+cards, sixteen unresolved taxonomies, twenty-one generic drug heads, twenty
+raw classes, twelve opaque form codes and eleven headless quantities. One
+`oidal` position overlaps two families, producing 140 memberships. The five
+free MEDIUM `Grundansatz` positions are disjoint from that narrow renderer
+queue and raise the stricter semantic count to 144. They remain working cards,
+not confirmed lexemes.
+
+The independent literal alarm finds twenty explicit open compositions, 44
+multi-valued slash/`oder` glosses, eighteen structure values, 47 hard generic
+carriers and 65 states without an object. Seven manually keyed layer drifts
+locate the most consequential transformations: f26r.2 `dchey` action versus
+result, `dy` becoming an invented close command, `ls` wood-to-root identity,
+f7r.2 `keo+r` identity loss, f86v3.13 `qodaiin` quality-to-quantity, and lost
+open binding on `olkar` and `olam`. The source still declares 86 action
+positions, but a frozen 31-lemma comparison finds 74 extra practical
+operation×line pairs on 29 lines. These are review candidates rather than 74
+automatically rejected verbs.
+
+GDT684 changes no V57 card and opens no page. The next route is the smallest
+productive carrier circuit: enumerate every admitted exact `chol`, `shol` and
+`tol` occurrence and test whether the same visible CH/SH/T + OL composition
+supports the replaceable predictions `Trockenansatz`, `Feuchtansatz` and
+`Kaltansatz`. Do not export a locally inherited substance head globally.
+Afterward repair the `qodaiin/dain/daiin` value axes and the `dchey/y/dy`
+action/structure dispatch. f84 and f84r remain forbidden.

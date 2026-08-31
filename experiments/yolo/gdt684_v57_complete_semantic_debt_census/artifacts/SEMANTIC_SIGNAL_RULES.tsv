@@ -1,0 +1,45 @@
+signal	regex	description	channel
+IDENTITY_WATER	Wasser	explicit water identity	SEMANTIC
+IDENTITY_ROOT	Wurzel	root or root-drug identity	SEMANTIC
+IDENTITY_SEED	Samen|Saatgut	seed identity	SEMANTIC
+IDENTITY_FLOWER_FRUIT	Blüt|Frucht|Reproduktion	flower, fruit or reproductive-part identity	SEMANTIC
+IDENTITY_WOOD	Holz	wood identity	SEMANTIC
+IDENTITY_POWDER	Pulver	powder form identity	SEMANTIC
+IDENTITY_LEAF_HERB	Blatt|Kraut|CTH	leaf, herb or CTH material identity	SEMANTIC
+IDENTITY_SALT	Salz	salt identity	SEMANTIC
+MATERIAL_ROLE	Ansatz|Droge|Arznei|Rohstoff|Zubereitung|Kompositum|Species|Fraktion|Portion|Charge|Posten|Absud|Auszug|Gut|Material|Stoff|Substanz	functional material or preparation role without necessarily naming an ingredient	SEMANTIC
+STATE_HOT	heiß|erhitz|wärm	hot or heated state	SEMANTIC
+STATE_COLD	kalt|kühl|abgekühl	cold or cooled state	SEMANTIC
+STATE_DRY	trocken|trockn|getrocknet	dry or drying state	SEMANTIC
+STATE_WET	feucht|einweich|eingeweicht|Mazeration	wet or soaked state	SEMANTIC
+STATE_FINISHED	fertig|abgeschlossen|schließ	finished or closed state	SEMANTIC
+VALUE_GRADE	Grad|Stufe	grade or stage value	SEMANTIC
+VALUE_QUANTITY	Maß|Menge|Dosis|Teil|Einheit|Portion|Fraktion|Bündel|Handvoll	quantity or division value	SEMANTIC
+STRUCTURAL_META	Eigenschafts-/Zustands-/Materialträger|Qualitäts-/Wertfeld|Eintrag/Bezug|Zubereitungsrahmen|Ansatzrahmen|hierzu:	renderer or register label rather than a plaintext meaning	SEMANTIC
+UNRESOLVED_COMPONENT	offen|unsicher	the published gloss itself retains an unresolved component	SEMANTIC
+AMBIGUOUS_ALTERNATIVE	/	slash-separated alternatives or fused role labels	SEMANTIC
+REGISTER_CONNECTIVE	hierzu|anschließend|Eintrag|Bezug	record linkage or connective wording	SEMANTIC
+ACT_TAKE	\b(?:nimm|nehmen)\b	take	ACTION
+ACT_MEASURE	\b(?:abmessen|messe(?:n)?\b[^.;]{0,20}\bab)\b	measure	ACTION
+ACT_ADD	\b(?:zugeben|hinzugeben|dazugeben|zusammengeben|geben|gib\b[^.;]{0,20}\bzu)\b	add	ACTION
+ACT_HEAT	\b(?:erhitze|erhitzen|anwärmen|nachwärmen)\b	heat	ACTION
+ACT_COOL	\b(?:abkühlen|kühlen|kühle)\b	cool	ACTION
+ACT_DRY	\b(?:trocknen|trockne|nachtrocknen)\b	dry	ACTION
+ACT_SOAK	\b(?:einweichen|einweiche)\b	soak	ACTION
+ACT_STRAIN	\b(?:abseihen|abseihe)\b	strain	ACTION
+ACT_SET	\b(?:ansetzen|setze\b[^.;]{0,20}\ban)\b	set or prepare	ACTION
+ACT_PREPARE	\b(?:aufbereiten|bereite|bereiten)\b	prepare	ACTION
+ACT_FINISH	\b(?:abschließen|schließe|schließen|fertigstellen|stelle\b[^.;]{0,20}\bfertig)\b	finish	ACTION
+ACT_DIVIDE	\b(?:abteilen|teile\b[^.;]{0,20}\bab)\b	divide	ACTION
+ACT_FILL	\babfüllen\b	fill	ACTION
+ACT_CONNECT	\bverbinden\b	combine	ACTION
+ACT_BRING	\bbringen\b	bring to a stage	ACTION
+ACT_HOLD	\bhalten\b	hold	ACTION
+ACT_DRAW_OFF	\babziehen\b	draw off	ACTION
+ACT_TREAT	\bbehandeln\b	treat	ACTION
+ACT_LEAD	\bführen\b	lead to a stage	ACTION
+ACT_USE	\bverwenden\b	use	ACTION
+ACT_MIX	\bmischen\b	mix	ACTION
+ACT_TRANSFER	\büberführen\b	transfer	ACTION
+ACT_FORM	\bbilden\b	form	ACTION
+ACT_REMOVE	\babnehmen\b	remove	ACTION

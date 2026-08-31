@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **681**
-- Experiment-associated tracked files: **11,433** (1.2 GiB)
-- Structured GDT337+ experiments: **346**
+- Experiments indexed: **682**
+- Experiment-associated tracked files: **11,460** (1.2 GiB)
+- Structured GDT337+ experiments: **347**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT684 | GDT684_v57_complete_semantic_debt_census | `PASS_479_POSITION_INFORMATION_CENSUS__FORMAL_COMPLETENESS_NOT_SEMANTIC_COMPLETENESS` | [report](../experiments/yolo/gdt684_v57_complete_semantic_debt_census/REPORT.md) | 27 | 925.2 KiB | 10 | STRUCTURED_YOLO |
 | GDT683 | GDT683_ol_semantic_debt_reconciliation | `PASS_374_BILATERAL_OL_BASE__64_MAJORITY_WITH_RIVAL__25_OVERRIDES__V57_ZERO_OL_DEBT` | [report](../experiments/yolo/gdt683_ol_semantic_debt_reconciliation/REPORT.md) | 19 | 968.5 KiB | 3 | STRUCTURED_YOLO |
 | GDT682 | GDT682_final_seven_hole_line_completion | `PASS_7_NEW_CARDS__17_CONTEXTS_HOLD__FINAL_V56_LINE_CLOSED__V56_COMPLETE` | [report](../experiments/yolo/gdt682_final_seven_hole_line_completion/REPORT.md) | 25 | 211.5 KiB | 9 | STRUCTURED_YOLO |
 | GDT681 | GDT681_six_five_hole_family_completion | `PASS_29_NEW_CARDS__104_CONTEXTS_HOLD__1_CARD_REUSED__6_V55_LINES_CLOSED__V55_7_OPEN` | [report](../experiments/yolo/gdt681_six_five_hole_family_completion/REPORT.md) | 25 | 410.0 KiB | 8 | STRUCTURED_YOLO |
