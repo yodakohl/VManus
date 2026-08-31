@@ -17019,3 +17019,37 @@ must begin with those six debt positions, test every admitted exact `ol`
 context for a concrete portable core or explicit context-conditioned values,
 rerender both generic practical lines and then census the complete V56 deck for
 any other hidden semantic carrier. No new page; f84 and f84r remain forbidden.
+
+## GDT683 reconciles the OL card and removes all six inherited OL debts
+
+GDT683 enumerates all 463 exact whitespace-delimited ZL3b `ol` positions on
+417 loci and 108 already admitted pages. IT2a and RF1b preserve exact `ol` at
+374 positions; these receive the bilateral replaceable working card
+`Grundansatz`. Another 64 positions preserve it in exactly one alternate
+reader and therefore use only a majority default with the other reader's
+surface and meaning retained. The 25 neither-exact positions receive keyed
+local renderers: nineteen bound material compounds, five material/form
+conflicts and one `ol+y → oly = abseihen` action conflict. No free OL value is
+exported into those 25 cases.
+
+The corrected character aligner preserves split tokens such as RF1b `o | l`,
+admits only improving 2→2 boundary moves and finds 63 boundary-active
+positions. Within the neither-exact set, 23 are genuine boundary cases and
+two are pure form conflicts. Each local source span is rendered once; f115r.1
+therefore renders bound `cheop ol` as one middle-dried powder compound rather
+than as a compound plus an invented second material.
+
+V57 keeps 51 lines, 479 assigned positions and 86 licensed actions while
+removing all six inherited OL meta-glosses. Four free repairs are bilateral,
+f80r.17 is explicitly a one-reader majority default with RF1b
+`l = Pfund/Gewichtseinheit`, and f115r.1 is locally bound. Nominal registers
+are no longer silently promoted to actions, adjacent `ol ol` is an action only
+on f81r.5 where `qol` licenses addition, and the f86v5 reader warning remains
+on `ytol/ytal/yt|l` rather than on bilateral `ol`.
+
+This closes OL integration debt, not semantic completeness. GDT684 must now
+census every remaining generic, structural, tautological or practically empty
+value in the entire V57 reader. The known first cases are free `l` on
+f111v.18 and `tol = Kaltes Gut` on f80v.35, but the audit must enumerate exact
+locus/ordinal/surface debt rather than stopping at those examples. No new page
+is opened; f84 and f84r remain forbidden.
