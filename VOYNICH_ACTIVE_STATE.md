@@ -17572,3 +17572,32 @@ competing donors and R012's written herb object as controls, and test only
 whether the YKA grade-II sister at f86v5.24 can take the unique material share
 `oar` from the immediately preceding block.  The neighbouring `aiin` remains
 an unbound quantity register; it may not be folded into that edge.
+
+## GDT699 adds one occurrence-bound YKA-II participant edge and excludes AIIN
+
+GDT699 resolves the fixed five-case heat deck without changing the inherited
+reader.  The complete 479-token scope contains exactly three action-licensed
+members of the registered YKA-II/III sister family: the two already bound
+`ykaiin` prototypes at f105v.1#4 and f86v6.25#5, plus `ykain` at f86v5.24#3.
+Only the last receives a new relation: C010 binds the unique `oar` at #1 to the
+action at #3.  The adjacent `aiin` at #2 remains a separate value-III quantity
+register with no edge.  The practical local reading is *Anteil I des Ansatzes.
+[Ungebundene Mengenangabe #2: „Menge III“.] Den Ansatzanteil auf Stufe II
+erhitzen.*
+
+The two outside-family controls remain held: f23r.6 `yky` has competing donors,
+and f26r.2 `ykecthey` already writes *Krautdroge* as its material object.  C010
+is `B_WORKING_LOCAL`, occurrence-bound and not a portable OAR/YKAIN rule.  Its
+GDT388 packet correctly fails score readiness because formal text was accessed
+and no capacity, held fold, crop provenance or mobile null exists.  Independent
+validation passes 721 checks.  All 479 token glosses, 51 line translations and
+three spans remain byte-identical; no word meaning, page, f84 or f84r access is
+added.
+
+The next route is the genuinely narrower H003 split at f26r.2, not a nonexistent
+second in-scope `oar`.  Census all ten `ACTION → one NOMINAL_BLOCK → ACTION`
+sequences, then test only whether the written *Krautdroge* output of
+`ykecthey` #4 remains the participant of objectless `ytedy` #6 across the
+state-only `chedy` #5 checkpoint.  Neither #3 nor #5 may be a donor, #5 may not
+enter the source span, the output may not pass beyond #6 to #8, and no general
+carry default may be inferred.
