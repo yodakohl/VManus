@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **690**
-- Experiment-associated tracked files: **11,645** (1.2 GiB)
-- Structured GDT337+ experiments: **355**
+- Experiments indexed: **691**
+- Experiment-associated tracked files: **11,682** (1.2 GiB)
+- Structured GDT337+ experiments: **356**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT693 | GDT693_ar_head_semantic_tournament | `PASS_V66_SCOPED_INDEXED_R_SELECTOR__55_HEAD_PLUS_2_READER_REVISIONS__6_R_N_PAIRS__OR_PORTION_PRESERVED` | [report](../experiments/yolo/gdt693_ar_head_semantic_tournament/REPORT.md) | 37 | 896.4 KiB | 4 | STRUCTURED_YOLO |
 | GDT692 | GDT692_o_q_fraction_sister_compositor | `PASS_V65_16_SURFACE_41_OCCURRENCE_COMPOSITOR__32_TOKEN_REVISIONS__AUSZUG_32_TO_7_EXPLICIT_WORKFLOW_ONLY` | [report](../experiments/yolo/gdt692_o_q_fraction_sister_compositor/REPORT.md) | 29 | 333.5 KiB | 3 | STRUCTURED_YOLO |
 | GDT691 | GDT691_preparation_head_role_dispatch | `PASS_V64_140_ROLE_DISPATCH__35_CONTEXT_RELATIONS_PRESERVED__54_EXACT_RULES_77_TOKEN_REVISIONS` | [report](../experiments/yolo/gdt691_preparation_head_role_dispatch/REPORT.md) | 21 | 347.7 KiB | 3 | STRUCTURED_YOLO |
 | GDT690 | GDT690_v63_noun_ordinal_provenance_main_apparatus | `PASS_V63_ALL_MAIN_NOUNS_EXACT_ORDINAL__ONE_MAIN_HEAD_PLUS_RIVAL_APPARATUS` | [report](../experiments/yolo/gdt690_noun_ordinal_provenance_main_apparatus/REPORT.md) | 22 | 804.7 KiB | 4 | STRUCTURED_YOLO |

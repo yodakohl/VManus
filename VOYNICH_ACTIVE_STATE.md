@@ -17381,3 +17381,34 @@ therefore compares *Fraktion*, *Zubereitungsstufe* and
 *Stoff-/Qualitätsklasse* across the 41 target positions and existing AR/OR
 controls. It preserves the nine literal segmentations, local product rivals,
 all verbs, material heads and ordinals; no page, f84 or f84r is opened.
+
+## GDT693 selects Anteil for the scoped R head and exposes the remaining forms
+
+GDT693 renders four common German heads over the same sixteen target surfaces
+at 41 positions plus 22 existing AR/OR controls. The alternatives are
+*Fraktion*, *Anteil*, *Zubereitungsstufe* and *Stoffklasse*. A contextual mix
+initially sounds fluent, but six exact same-body R/N terminal pairs occur 30
+times in the current 51-line deck: `aiir/aiin`, `dair/dain`,
+`olkaiir/olkaiin`, `otair/otain`, `qokaiir/qokaiin` and `sair/sain`.
+They support one shared index typed by R as a selected material share and by N
+as a head-dependent grade, amount or batch value. OR stays a separate divided
+portion and is never decomposed as O+R.
+
+V66 therefore selects *Anteil*. It records 57 token revisions on 31 lines:
+41 target heads, fourteen AR-bearing control heads, the neutral German case
+repair `qodor` = *eine Portion des Ansatzes abmessen*, and the isolated bound
+carry repair `qodaiin` = *drei Portionen des folgenden Anteils*. Ten
+OR-bearing controls still contain *Portion*. The two established multi-token
+quantity spans remain indivisible; all six local Holzauszug rivals change only
+their referent, not R; all 113 verb profiles are preserved.
+
+This is a scoped normalization, not a cosmetically global claim. The selected
+token and span-aware line editions still contain exactly 22 inherited
+Fraktion-bearing positions with 22 distinct surfaces outside the 41 targets
+and 22 controls. They are published as an exact residual deck. The independent
+validator passes sixteen checks and byte-replays all twenty builder artifacts;
+the deck remains 51 lines/479 positions/36 admitted pages with no new page,
+f84 or f84r access. The next route must migrate or explicitly retain each of
+the 22 residual wholes using its already published component and whole-card
+history. Only after a zero-Fraktion full reader should the stabilized nominal
+distinction feed the nominal-register versus procedure-grammar pass.
