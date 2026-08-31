@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **697**
-- Experiment-associated tracked files: **11,801** (1.2 GiB)
-- Structured GDT337+ experiments: **362**
+- Experiments indexed: **698**
+- Experiment-associated tracked files: **11,822** (1.2 GiB)
+- Structured GDT337+ experiments: **363**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT700 | GDT700_v73_action_output_state_checkpoint_carry | `PASS_V73_10_ANA_WINDOWS__1_EXACT_STATE_ONLY_2_WORKING_STATE_LIKE_2_DEICTIC__1_UNIQUE_CANDIDATE_1_NEW_B_EDGE__C011_OCCURRENCE_BOUND__ZERO_WORD_DELTA` | [report](../experiments/yolo/gdt700_v73_action_output_state_checkpoint_carry/REPORT.md) | 21 | 743.6 KiB | 6 | STRUCTURED_YOLO |
 | GDT699 | GDT699_v72_objectless_deictic_heat_frame | `PASS_V72_YKA_II_III_SISTER_FRAME__5_CASES_2_REPLAY_1_NEW_B_EDGE_2_HELD__AIIN_UNBOUND__ZERO_WORD_DELTA` | [report](../experiments/yolo/gdt699_v72_objectless_deictic_heat_frame/REPORT.md) | 21 | 653.1 KiB | 10 | STRUCTURED_YOLO |
 | GDT698 | GDT698_v70_action_surface_frame_replay | `PASS_V71_6_SURFACES_10_OCCURRENCES__9_EXISTING_MATCHES_1_UNBOUND_HELD__0_CROSS_REPLAYS__ZERO_WORD_DELTA` | [report](../experiments/yolo/gdt698_v70_action_surface_frame_replay/REPORT.md) | 18 | 718.2 KiB | 1 | STRUCTURED_YOLO |
 | GDT697 | GDT697_v69_exact_relation_microrecords | `PASS_V70_7_EXACT_MICRORECORDS__9_EDGE_COVERAGE__1_SERIAL_CHAIN_1_SHARED_DESTINATION_REPEAT_5_SINGLE__ZERO_WORD_MEANING_DELTA` | [report](../experiments/yolo/gdt697_v69_exact_relation_microrecords/REPORT.md) | 18 | 647.8 KiB | 2 | STRUCTURED_YOLO |

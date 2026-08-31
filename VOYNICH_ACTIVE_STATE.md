@@ -17596,8 +17596,41 @@ added.
 
 The next route is the genuinely narrower H003 split at f26r.2, not a nonexistent
 second in-scope `oar`.  Census all ten `ACTION → one NOMINAL_BLOCK → ACTION`
-sequences, then test only whether the written *Krautdroge* output of
-`ykecthey` #4 remains the participant of objectless `ytedy` #6 across the
-state-only `chedy` #5 checkpoint.  Neither #3 nor #5 may be a donor, #5 may not
-enter the source span, the output may not pass beyond #6 to #8, and no general
-carry default may be inferred.
+sequences, then test only whether the result of `ykecthey` #4, whose written
+material patient is *Krautdroge*, remains the participant of objectless
+`ytedy` #6 across the state-only `chedy` #5 checkpoint.  Neither #3 nor #5 may
+be a donor, #5 may not enter the source span, the inferred result may not pass
+beyond #6 to #8, and no general carry default may be inferred.
+
+## GDT700 nominates one occurrence-bound f26r action-result bridge
+
+GDT700 reconstructs all 175 V68 clauses through the explicit 51-locus safe
+allow-list and discovers exactly ten `ACTION → one-token NOMINAL_BLOCK →
+ACTION` windows.  It corrects an initially overbroad classification: only
+`f26r.2#5 chedy` is independently evidenced as an exact state-only result
+checkpoint.  `keey` and `kain` are merely state-like in their working gloss;
+seven other middle blocks are material-bearing.  Two targets are deictic.
+
+Only f26r.2 combines the exact checkpoint with a source action that writes
+*Krautdroge* as its material patient and the deictic objectless `ytedy#6`.
+C011 is therefore added as the occurrence-bound B-hypothesis `ykecthey#4 →
+ytedy#6`.  Its practical reading is *Hiervon Krautdroge bis zur Mittelstufe
+erhitzen und abschließen [Quelle von „hiervon“ offen]. [Zustandsvermerk ohne
+eigenen Materialträger: Mittlere Trockenstufe erreicht.] Die erhitzte
+Krautdroge bis zur Mittelstufe abkühlen und abschließen [C011-Arbeitshypothese].*
+The phrase *die erhitzte Krautdroge* is the inferred participant identity;
+there is no written output label at #4.
+
+Position #5 lies only in the 4–6 hull and is neither donor nor edge node.  #3
+remains an unresolved upstream rival, free `dy#7` is structural, and the edge
+does not reach #8.  The second deictic window at f77v.7 remains held because
+`rr#4` is the competing written material *getrocknete Wurzel*.  H002–H005 and
+R012/R013/R016/R017 remain unpromoted; C001–C010 are unchanged.  The GDT388
+packet remains invalid/not score-ready.  All 479 token glosses, 51 line
+translations and three bound spans are byte-identical, with zero word-meaning,
+page, f84 or f84r delta.  Independent validation passes 205 checks.
+
+The next route compiles C001–C011 into their exact connected components and
+practical microrecords.  It must retain each source/target node, distinguish
+window hulls from edges, keep f26r.2#5 hull-only, preserve every held rival and
+add no edge or word meaning.
