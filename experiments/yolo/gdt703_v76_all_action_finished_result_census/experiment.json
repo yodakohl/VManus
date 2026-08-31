@@ -1,0 +1,203 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The complete 479-token and 51-line projections are retained because the all-83-action successor census, C013/C014 graph insertion, position-class transition and zero-word-delta boundary require position-complete replay.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "V76 exhausts the first semantic item after all 83 current action clauses: 60 lead to a nominal block, 15 to another action and 8 to line end. Exactly seven first items are already typed HIGH nominal finished-result states. C012 is retained; C013 locally reads f26r.2#5 as the written state reached by #4, and C014 locally reads f115r.23#4 as the written preparation completed by #3. Four plausible but materially or operationally weaker juxtapositions remain open non-edge readings. These are replaceable workshop relations, not recovered plaintext, portable word rules or historical decipherment.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt703_v76_all_action_finished_result_census/src/run.py",
+    "validate": "python3 experiments/yolo/gdt703_v76_all_action_finished_result_census/src/validate.py"
+  },
+  "created": "2026-08-31",
+  "dependencies": [
+    "GDT388",
+    "GDT687",
+    "GDT695",
+    "GDT700",
+    "GDT702"
+  ],
+  "experiment_id": "GDT703",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt388_acquisition_ready_relation_edge_protocol/artifacts/gdt388_result.json",
+      "role": "frozen relation-acquisition and score-readiness protocol",
+      "sha256": "79cf873aa0f718d69d2af321ea8ebbae6c1db5fdef796ea099fe6b71045a9ac6"
+    },
+    {
+      "path": "experiments/yolo/gdt687_v60_dchey_y_dy_action_result_boundary_dispatch/artifacts/V60_95_POSITION_SCOPE_DISPATCH.tsv",
+      "role": "independent action result reference and boundary occurrence dispatch",
+      "sha256": "57a357d1b7b3b022aa08fe5044a15dafb2541a1096dc4be7946a69c1f1985910"
+    },
+    {
+      "path": "experiments/yolo/gdt695_fixed_v67_clause_realization/artifacts/V68_175_CLAUSE_REALIZATIONS.tsv",
+      "role": "complete 175-clause and 83-action boundary source",
+      "sha256": "805c246ee7daf213329bec3e3d5f5a0ef32be0f6db6c6f790f69c74b6169d66b"
+    },
+    {
+      "path": "experiments/yolo/gdt700_v73_action_output_state_checkpoint_carry/artifacts/V73_10_ANA_CENSUS.tsv",
+      "role": "exact f26r.2 state-only checkpoint provenance",
+      "sha256": "4c9429009a50d8939ec27431c7a25d6fcc6e7087f713b650bff9d2cfda423f0d"
+    },
+    {
+      "path": "experiments/yolo/gdt702_v75_exact_written_result_contrast/artifacts/RESULT.json",
+      "role": "authoritative V75 scope graph and freeze contract",
+      "sha256": "9ed740c19774aca86c7df3b2a1b293758bf36af8b2883ff4c51247b7c7648bbc"
+    },
+    {
+      "path": "experiments/yolo/gdt702_v75_exact_written_result_contrast/artifacts/V75_12_EDGE_COMPONENT_MEMBERSHIP.tsv",
+      "role": "complete inherited C001 through C012 membership",
+      "sha256": "0d0b3960a5b8f75eb3539fef5190ce06922b153d58e6cca8a6ea09138d971d78"
+    },
+    {
+      "path": "experiments/yolo/gdt702_v75_exact_written_result_contrast/artifacts/V75_27_COMPONENT_POSITION_ROLES.tsv",
+      "role": "V75 edge hull and structural position atlas",
+      "sha256": "cd800308bed99066d8b095e635021824ac8f99f2f1ea16c6906be1ce6215af40"
+    },
+    {
+      "path": "experiments/yolo/gdt702_v75_exact_written_result_contrast/artifacts/V75_3_BOUND_SPAN_FREEZE.tsv",
+      "role": "three immutable bound-span rows",
+      "sha256": "5a0d55224a8a14a70c10d444393d5430fa1318379dc6b1e0fa879495af2e09cf"
+    },
+    {
+      "path": "experiments/yolo/gdt702_v75_exact_written_result_contrast/artifacts/V75_479_TOKEN_RELATION_OVERLAY.tsv",
+      "role": "complete immutable token gloss source",
+      "sha256": "6d1cd6db380b32807e8b9627ff01cf184e8cf7cf7728a6ba2a151475f80961c1"
+    },
+    {
+      "path": "experiments/yolo/gdt702_v75_exact_written_result_contrast/artifacts/V75_51_LINE_RELATION_OVERLAY.tsv",
+      "role": "complete immutable line translation source",
+      "sha256": "24ba88df6cc91edddfaa760581cc62a48de73e65e9cf7e68c5e27009a897c19e"
+    },
+    {
+      "path": "experiments/yolo/gdt702_v75_exact_written_result_contrast/artifacts/V75_9_CONNECTED_COMPONENTS.tsv",
+      "role": "nine-component V75 baseline",
+      "sha256": "a10b4049f66ec22636251f98e6ea749002e3ae48ec16cf708bccc034545545be"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt703_v76_all_action_finished_result_census/METHOD.md",
+      "role": "complete all-action no-skip method and claim ceiling",
+      "sha256": "a4aedc59f413d2d4e8a1ebf5239c662d12ac5c4d14b8b892b71a42f3cbfc60d6"
+    },
+    {
+      "path": "experiments/yolo/gdt703_v76_all_action_finished_result_census/README.md",
+      "role": "experiment entry point and concise result",
+      "sha256": "31727c002680f60a9873eb84e5e506ab0c80bc7d674216a604aaaa3d0019b6e4"
+    },
+    {
+      "path": "experiments/yolo/gdt703_v76_all_action_finished_result_census/REPORT.md",
+      "role": "primary result concrete readings graph delta and next route",
+      "sha256": "20b92653f58fb1e54a5863588b09565ae52f11dd1c9a66d27445709c1da75a3e"
+    },
+    {
+      "path": "experiments/yolo/gdt703_v76_all_action_finished_result_census/artifacts/GDT703_V76_ALL_ACTION_RESULT_READER.md",
+      "role": "human-readable concrete C013 C014 reader and seven-case table",
+      "sha256": "a4c965a769c1d51782bdd9cf9f528a76e71e338352748074ffc31b090b038228"
+    },
+    {
+      "path": "experiments/yolo/gdt703_v76_all_action_finished_result_census/artifacts/README.md",
+      "role": "artifact map",
+      "sha256": "cd2a3d9a744388dd1d8703d141e450b746cff86a5c0ca7f3b52d0b9c10c0bf73"
+    },
+    {
+      "path": "experiments/yolo/gdt703_v76_all_action_finished_result_census/artifacts/RESULT.json",
+      "role": "compact result counts provenance hashes and next gap",
+      "sha256": "b743eb591378e8550922c989c7925839ff7cc1a6f05ea10d1dc2e7525c5858a5"
+    },
+    {
+      "path": "experiments/yolo/gdt703_v76_all_action_finished_result_census/artifacts/V76_10_CONNECTED_COMPONENTS.tsv",
+      "role": "cumulative ten-component practical graph",
+      "sha256": "f1d7f848456306c27f0e1dbadb7393156e062ee014c16612bdd2034927a93b6f"
+    },
+    {
+      "path": "experiments/yolo/gdt703_v76_all_action_finished_result_census/artifacts/V76_14_EDGE_COMPONENT_MEMBERSHIP.tsv",
+      "role": "complete cumulative C001 through C014 membership",
+      "sha256": "88ddf19a6eb8113f4ca2091cc77944c815ba01266783f4df998208b919cb6ff0"
+    },
+    {
+      "path": "experiments/yolo/gdt703_v76_all_action_finished_result_census/artifacts/V76_29_COMPONENT_POSITION_ROLES.tsv",
+      "role": "27 edge nodes one hull-only and one structural position",
+      "sha256": "cb15177f00063e49179467f28cb0d45e1401ac828b7e7aed92874c1f8e1f693f"
+    },
+    {
+      "path": "experiments/yolo/gdt703_v76_all_action_finished_result_census/artifacts/V76_2_NEW_LOCAL_RESULT_EDGES.tsv",
+      "role": "occurrence-bound C013 and C014 relation rows",
+      "sha256": "9d88b5e188c801a0166c9bdf33d12fe23aec544d6a51857a60ff472b52c3872b"
+    },
+    {
+      "path": "experiments/yolo/gdt703_v76_all_action_finished_result_census/artifacts/V76_3_BOUND_SPAN_FREEZE.tsv",
+      "role": "three byte-identical bound spans plus V76 metadata",
+      "sha256": "6a3e5b855197cc9b2eaaa8e96fff193f66e6f57bae5bf118cfdfdc5a73889f3d"
+    },
+    {
+      "path": "experiments/yolo/gdt703_v76_all_action_finished_result_census/artifacts/V76_479_TOKEN_RELATION_OVERLAY.tsv",
+      "role": "complete unchanged token reader plus V76 relation metadata",
+      "sha256": "273b7e329e3660685e9194caf87860c2971c2ef3bf7b0e9253740b06dd8f46df"
+    },
+    {
+      "path": "experiments/yolo/gdt703_v76_all_action_finished_result_census/artifacts/V76_51_LINE_RELATION_OVERLAY.tsv",
+      "role": "complete unchanged line reader plus V76 relation metadata",
+      "sha256": "e78ed01e408c58185368fcc47629ef17804964e51e531bed6ef01720a29b257f"
+    },
+    {
+      "path": "experiments/yolo/gdt703_v76_all_action_finished_result_census/artifacts/V76_7_FINISHED_RESULT_FIRSTS.tsv",
+      "role": "complete seven finished-state successor contrasts",
+      "sha256": "a5f3ce71e27906a9c6d3c886a8f7106f4079b659f2c2c0ae16f8ebe4894fdada"
+    },
+    {
+      "path": "experiments/yolo/gdt703_v76_all_action_finished_result_census/artifacts/V76_83_ACTION_RIGHT_CONTEXT_CENSUS.tsv",
+      "role": "all 83 actions with exact immediate successor",
+      "sha256": "324ccf24c417d077f40f27476bfaa98149d57491f95f471f7e28dc6bede2a5ec"
+    },
+    {
+      "path": "experiments/yolo/gdt703_v76_all_action_finished_result_census/artifacts/V76_COMPONENT_TOPOLOGY_CENSUS.tsv",
+      "role": "topology support position and result accounting",
+      "sha256": "6e620e073d87a1272e55e2193f711f12597254f820f0dd066cd083c0bcd2fbd6"
+    },
+    {
+      "path": "experiments/yolo/gdt703_v76_all_action_finished_result_census/artifacts/V76_GDT388_EDGE_INTAKE.json",
+      "role": "official exact invalid not-score-ready intake result",
+      "sha256": "aa2135a142b322d815fe9f8fa9249f407c9bb730180e037a8ee38eb0eaa02a6b"
+    },
+    {
+      "path": "experiments/yolo/gdt703_v76_all_action_finished_result_census/artifacts/V76_GDT388_EDGE_PACKET.tsv",
+      "role": "two formal-access workshop relation packet rows",
+      "sha256": "5623ce62d333111cb9d53ee891f268edc2ffc8fd0126f6b32e0491aedab1d186"
+    },
+    {
+      "path": "experiments/yolo/gdt703_v76_all_action_finished_result_census/src/V76_7_FINISHED_RESULT_CASE_SPECS.tsv",
+      "role": "fixed seven-case practical decision and rival specification",
+      "sha256": "8f4fb860a896f9a780539018fb919da9b98c11588d6fa0c8ada16fa360933cf4"
+    },
+    {
+      "path": "experiments/yolo/gdt703_v76_all_action_finished_result_census/src/run.py",
+      "role": "deterministic all-action census graph and overlay builder",
+      "sha256": "84357e24b633ee515c0406c7bc600d3e1eba1bc4bdc719450e75181dbd50face"
+    },
+    {
+      "path": "experiments/yolo/gdt703_v76_all_action_finished_result_census/src/validate.py",
+      "role": "independent census graph freeze and publication validator",
+      "sha256": "1fb91189f5c90e88916a8a89341a424a58e96afa9c2973bb961422f8e0c4e684"
+    },
+    {
+      "path": "experiments/yolo/gdt703_v76_all_action_finished_result_census/artifacts/VALIDATION.json",
+      "role": "independent validation audit",
+      "sha256": "e4e30811c9b15dae59fabc6f42c05528137d76ea0aa2d9b0c545ea846ed49803"
+    }
+  ],
+  "question": "Does the no-skip census of all 83 current action clauses isolate every immediate written finished-state successor, and can the seven cases support two additional occurrence-bound practical readings without changing a word meaning or exporting a default?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "v76_all_action_finished_result_census",
+  "status": "PASS_V76_83_ACTION_RIGHT_CONTEXTS__60_NOMINAL_15_ACTION_8_EOS__7_FINISHED_STATE_FIRSTS__3_LOCAL_READS_4_OPEN__C013_C014_ADDED__ZERO_WORD_DELTA",
+  "title": "V76 all-action finished-result census",
+  "updated": "2026-08-31",
+  "validation": {
+    "artifact": "experiments/yolo/gdt703_v76_all_action_finished_result_census/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

@@ -17720,3 +17720,39 @@ weaker practical candidate.  The other four cases retain explicit missing-
 operation or material-mismatch explanations.  Any new relation remains local
 and requires a written compatible patient or output; no page or word meaning
 is opened.
+
+## GDT703 completes all 83 action successors and adds two written results
+
+GDT703 finishes the no-skip census promised by GDT702.  The first semantic
+item after each complete action clause divides exactly into 60 nominal blocks,
+15 following action clauses and eight line ends.  Seven first positions are
+independently `HIGH / NOMINAL_FINISHED_RESULT_STATE`.  C012 is retained, four
+weaker operation/material juxtapositions remain visibly `HOLD_OPEN`, and two
+new occurrence-bound working relations are admitted.
+
+C013 is `f26r.2#4 ykecthey → #5 chedy`: *Die Krautdroge bis zur Mittelstufe
+erhitzen und abschließen. Zustand: mittlere Trockenstufe erreicht.*  C011 still
+connects the same #4 action output to deictic cooling action #6.  M009 is
+therefore a common-source fan-out `#4→#5` and `#4→#6`; #5 is a written
+intermediate state, not a donor and not a fabricated `#5→#6` bridge.
+
+C014 is the deliberately weaker `f115r.23#3 qokeod → #4 chody`: *Heißen
+Auszug bereiten und abschließen. Ergebnis: leicht getrocknete, abgeschlossene
+Zubereitung.*  #4 may still be an independent material checkpoint, so the
+relation remains low-tier and M010 ends before objectless action #5.
+
+The cumulative graph now contains 14 edges in ten components, 27 unique edge
+nodes, 31 incidences, 28 minimal-hull positions and 29 render positions.  Its
+four shared nodes are f105v.1#4, f26r.2#4, f80v.35#3 and f86v6.25#4.  Only
+f86v5.24#2 remains hull-only and f26r.2#7 remains render-only structural.
+All 479 token glosses, 51 line translations and three bound spans are
+byte-identical; no page or word meaning is added.  The two-edge GDT388 packet
+has exactly its two expected formal-access errors, and the independent
+validator passes 1,408 checks.
+
+The next practical extension stays on f26r.2.  After #6–7 completes cooling
+of the same herb, the first new semantic entry #8 `checthedy` writes
+*Krautdroge* again and dries it twice moderately.  Test a local #6-output→#8
+repeated-material action relation against the weaker C014-result→#5 objectless
+continuation.  Do not add a redundant #5→#6 edge or treat structural #7 as a
+semantic donor.
