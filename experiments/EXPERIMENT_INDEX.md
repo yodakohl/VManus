@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **701**
-- Experiment-associated tracked files: **11,888** (1.2 GiB)
-- Structured GDT337+ experiments: **366**
+- Experiments indexed: **702**
+- Experiment-associated tracked files: **11,913** (1.2 GiB)
+- Structured GDT337+ experiments: **367**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT704 | GDT704_v77_repeated_written_material_continuation | `PASS_V77_15_ACTION_CONTINUATIONS__4_EXACT_HEAD_REPEATS__1_NEW_C015__C016_HELD__15_EDGES_10_COMPONENTS__ZERO_WORD_DELTA` | [report](../experiments/yolo/gdt704_v77_repeated_written_material_continuation/REPORT.md) | 25 | 1.2 MiB | 3 | STRUCTURED_YOLO |
 | GDT703 | GDT703_v76_all_action_finished_result_census | `PASS_V76_83_ACTION_RIGHT_CONTEXTS__60_NOMINAL_15_ACTION_8_EOS__7_FINISHED_STATE_FIRSTS__3_LOCAL_READS_4_OPEN__C013_C014_ADDED__ZERO_WORD_DELTA` | [report](../experiments/yolo/gdt703_v76_all_action_finished_result_census/REPORT.md) | 23 | 1.2 MiB | 5 | STRUCTURED_YOLO |
 | GDT702 | GDT702_v75_exact_written_result_contrast | `PASS_V75_11_TARGET_RIGHT_CONTEXTS__7_NOMINAL_3_ACTION_1_EOS__1_EXACT_WRITTEN_RESULT__2X2_DEFAULTS_REJECTED__C012_OCCURRENCE_BOUND__ZERO_WORD_DELTA` | [report](../experiments/yolo/gdt702_v75_exact_written_result_contrast/REPORT.md) | 25 | 1.0 MiB | 9 | STRUCTURED_YOLO |
 | GDT701 | GDT701_v74_cumulative_relation_components | `PASS_V74_11_EDGES__9_CONNECTED_COMPONENTS__23_EDGE_NODES_2_HULL_ONLY_1_STRUCTURAL__ZERO_EDGE_WORD_DELTA` | [report](../experiments/yolo/gdt701_v74_cumulative_relation_components/REPORT.md) | 18 | 846.6 KiB | 4 | STRUCTURED_YOLO |

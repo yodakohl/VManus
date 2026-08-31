@@ -1,0 +1,221 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The complete 479-token and 51-line projections are retained because the all-15 continuation census, C015 graph insertion, structural-to-hull transition and zero-word-delta boundary require position-complete replay.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "V77 compares all 15 immediate action-to-action transitions. Four repeat an explicit material head exactly, but three are parallel ingredient additions; only f26r.2 combines the repeated Krautdroge with the already carried C011 batch. C015 therefore extends M009 from cooling clause #6-7 to drying action #8. C016 remains an open lower-tier reading because qokcho is neither deictic nor material-headed and #6 Samenposten competes as its patient. This is an occurrence-bound practical working relation, not recovered plaintext or a portable word rule.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt704_v77_repeated_written_material_continuation/src/run.py",
+    "validate": "python3 experiments/yolo/gdt704_v77_repeated_written_material_continuation/src/validate.py"
+  },
+  "created": "2026-08-31",
+  "dependencies": [
+    "GDT388",
+    "GDT695",
+    "GDT703"
+  ],
+  "experiment_id": "GDT704",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt388_acquisition_ready_relation_edge_protocol/artifacts/gdt388_result.json",
+      "role": "frozen relation-acquisition and score-readiness protocol",
+      "sha256": "79cf873aa0f718d69d2af321ea8ebbae6c1db5fdef796ea099fe6b71045a9ac6"
+    },
+    {
+      "path": "experiments/yolo/gdt695_fixed_v67_clause_realization/artifacts/V68_175_CLAUSE_REALIZATIONS.tsv",
+      "role": "complete 175-clause and 83-action boundary source",
+      "sha256": "805c246ee7daf213329bec3e3d5f5a0ef32be0f6db6c6f790f69c74b6169d66b"
+    },
+    {
+      "path": "experiments/yolo/gdt703_v76_all_action_finished_result_census/artifacts/RESULT.json",
+      "role": "authoritative V76 scope graph and freeze contract",
+      "sha256": "b743eb591378e8550922c989c7925839ff7cc1a6f05ea10d1dc2e7525c5858a5"
+    },
+    {
+      "path": "experiments/yolo/gdt703_v76_all_action_finished_result_census/artifacts/V76_83_ACTION_RIGHT_CONTEXT_CENSUS.tsv",
+      "role": "complete 83-action successor census including all 15 action continuations",
+      "sha256": "324ccf24c417d077f40f27476bfaa98149d57491f95f471f7e28dc6bede2a5ec"
+    },
+    {
+      "path": "experiments/yolo/gdt703_v76_all_action_finished_result_census/artifacts/V76_14_EDGE_COMPONENT_MEMBERSHIP.tsv",
+      "role": "complete inherited C001 through C014 membership",
+      "sha256": "88ddf19a6eb8113f4ca2091cc77944c815ba01266783f4df998208b919cb6ff0"
+    },
+    {
+      "path": "experiments/yolo/gdt703_v76_all_action_finished_result_census/artifacts/V76_10_CONNECTED_COMPONENTS.tsv",
+      "role": "ten-component V76 graph baseline",
+      "sha256": "f1d7f848456306c27f0e1dbadb7393156e062ee014c16612bdd2034927a93b6f"
+    },
+    {
+      "path": "experiments/yolo/gdt703_v76_all_action_finished_result_census/artifacts/V76_29_COMPONENT_POSITION_ROLES.tsv",
+      "role": "V76 edge hull and structural position atlas",
+      "sha256": "cb15177f00063e49179467f28cb0d45e1401ac828b7e7aed92874c1f8e1f693f"
+    },
+    {
+      "path": "experiments/yolo/gdt703_v76_all_action_finished_result_census/artifacts/V76_479_TOKEN_RELATION_OVERLAY.tsv",
+      "role": "complete immutable token gloss source",
+      "sha256": "273b7e329e3660685e9194caf87860c2971c2ef3bf7b0e9253740b06dd8f46df"
+    },
+    {
+      "path": "experiments/yolo/gdt703_v76_all_action_finished_result_census/artifacts/V76_51_LINE_RELATION_OVERLAY.tsv",
+      "role": "complete immutable line translation source",
+      "sha256": "e78ed01e408c58185368fcc47629ef17804964e51e531bed6ef01720a29b257f"
+    },
+    {
+      "path": "experiments/yolo/gdt703_v76_all_action_finished_result_census/artifacts/V76_3_BOUND_SPAN_FREEZE.tsv",
+      "role": "three immutable bound-span rows",
+      "sha256": "6a3e5b855197cc9b2eaaa8e96fff193f66e6f57bae5bf118cfdfdc5a73889f3d"
+    },
+    {
+      "path": "experiments/yolo/gdt704_v77_repeated_written_material_continuation/src/V77_15_ACTION_CONTINUATION_SPECS.tsv",
+      "role": "fixed complete action-continuation material and process decision deck",
+      "sha256": "a48ec7ef4054d4e5523ac610db591cc625bdd653e2c5b31baf03f382275552da"
+    },
+    {
+      "path": "experiments/yolo/gdt704_v77_repeated_written_material_continuation/src/V77_2_OBJECTLESS_POST_RESULT_SPECS.tsv",
+      "role": "fixed C011 replay and C016 open-result controls",
+      "sha256": "361c9db6be847551efdc7fd3eae0ee8bc6d5630ead70e704f04cc2e3d554ed0b"
+    },
+    {
+      "path": "experiments/yolo/gdt704_v77_repeated_written_material_continuation/src/run.py",
+      "role": "deterministic continuation census graph and overlay builder",
+      "sha256": "463b0ed1b260c56117f7c26fd045691e69e618f8b3dbb01cb4f50ad8e2cc2414"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt704_v77_repeated_written_material_continuation/METHOD.md",
+      "role": "complete repeated-material continuation method and claim ceiling",
+      "sha256": "924e4a82290b1b89d5112b169a2e12bcb79423c93e5606751c0c7218d15ad973"
+    },
+    {
+      "path": "experiments/yolo/gdt704_v77_repeated_written_material_continuation/README.md",
+      "role": "experiment entry point and concise result",
+      "sha256": "7e16b86ec1f2d2b1b2a929a3b081e8b7d3c13a7a7a2dd2d6d2e65366c1455b77"
+    },
+    {
+      "path": "experiments/yolo/gdt704_v77_repeated_written_material_continuation/REPORT.md",
+      "role": "primary concrete C015 result graph delta and next route",
+      "sha256": "e306901fb99c3a223bbd06aec200109030589ce541a39df60e4f41c49526c5cf"
+    },
+    {
+      "path": "experiments/yolo/gdt704_v77_repeated_written_material_continuation/artifacts/GDT704_V77_REPEATED_MATERIAL_READER.md",
+      "role": "human-readable C015 chain and C016 open alternative",
+      "sha256": "13350756a90138015e485da1bf409bd720dca58d9dde7846550473a4fc8e1ca8"
+    },
+    {
+      "path": "experiments/yolo/gdt704_v77_repeated_written_material_continuation/artifacts/README.md",
+      "role": "artifact map",
+      "sha256": "2fa0bbae0d4c55722f824a85f8985537e6c2165b512d1f992513973cba046673"
+    },
+    {
+      "path": "experiments/yolo/gdt704_v77_repeated_written_material_continuation/artifacts/RESULT.json",
+      "role": "compact result counts provenance hashes and next gap",
+      "sha256": "3e6d491818610fe2b1620a98b077b9bd9adfdcbdf41a32e8cc26939d0f52f5b1"
+    },
+    {
+      "path": "experiments/yolo/gdt704_v77_repeated_written_material_continuation/artifacts/V77_10_CONNECTED_COMPONENTS.tsv",
+      "role": "cumulative ten-component practical graph",
+      "sha256": "b16ce7201bbf005f302e32bbeaee4824156a9fafc777aeabe1731008c1955e0e"
+    },
+    {
+      "path": "experiments/yolo/gdt704_v77_repeated_written_material_continuation/artifacts/V77_15_ACTION_TO_ACTION_CONTINUATIONS.tsv",
+      "role": "complete fifteen-case direct action continuation deck",
+      "sha256": "876a352c80a02df5a9a501c251dd66e8a3ef3d0aa8c989af1e2d713a0a97fbfe"
+    },
+    {
+      "path": "experiments/yolo/gdt704_v77_repeated_written_material_continuation/artifacts/V77_15_EDGE_COMPONENT_MEMBERSHIP.tsv",
+      "role": "complete cumulative C001 through C015 membership",
+      "sha256": "bd7ff760c47e0bbc3725ff452e36d9153a956e39391fbe410f6c58342038bd5f"
+    },
+    {
+      "path": "experiments/yolo/gdt704_v77_repeated_written_material_continuation/artifacts/V77_1_NEW_REPEATED_MATERIAL_EDGE.tsv",
+      "role": "occurrence-bound C015 relation row",
+      "sha256": "35ee3c3f314612ca8c7369a89ded74d1227b7eeb31ac1ea28500e1c67332f134"
+    },
+    {
+      "path": "experiments/yolo/gdt704_v77_repeated_written_material_continuation/artifacts/V77_2_OBJECTLESS_POST_RESULT_CONTROLS.tsv",
+      "role": "C011 replay and held C016 comparison",
+      "sha256": "a3190c8c6b76c0ccc26b6159f87576b16eeb2f7907fa83e029bdc2eba61ce67e"
+    },
+    {
+      "path": "experiments/yolo/gdt704_v77_repeated_written_material_continuation/artifacts/V77_30_COMPONENT_POSITION_ROLES.tsv",
+      "role": "28 edge nodes and two hull-only positions",
+      "sha256": "e8cf5bcf51e2d4a34057969aad31a70685c24da39d74688a5f9b85a081657699"
+    },
+    {
+      "path": "experiments/yolo/gdt704_v77_repeated_written_material_continuation/artifacts/V77_3_BOUND_SPAN_FREEZE.tsv",
+      "role": "three byte-identical bound spans plus V77 metadata",
+      "sha256": "cffae1fa0263b3b8f79ee1722b5e21f137cdfdf4d320047398c550775d5b751b"
+    },
+    {
+      "path": "experiments/yolo/gdt704_v77_repeated_written_material_continuation/artifacts/V77_479_TOKEN_RELATION_OVERLAY.tsv",
+      "role": "complete unchanged token reader plus V77 relation metadata",
+      "sha256": "b0629eca2614ff60c622fab8ba8c3eaab4f7be9cedac1abb7bd0aae32025eda1"
+    },
+    {
+      "path": "experiments/yolo/gdt704_v77_repeated_written_material_continuation/artifacts/V77_4_EXACT_REPEATED_MATERIAL_HEADS.tsv",
+      "role": "four exact repeated-head controls isolating C015",
+      "sha256": "7c1c59201867c9864ccd40fec69fc477d1cee5288dc07bf6c9b0ce15107ac593"
+    },
+    {
+      "path": "experiments/yolo/gdt704_v77_repeated_written_material_continuation/artifacts/V77_51_LINE_RELATION_OVERLAY.tsv",
+      "role": "complete unchanged line reader plus V77 relation metadata",
+      "sha256": "aaf57e8cde59345347db84c669ab479aee791acc1f86b1658c394ab310a75482"
+    },
+    {
+      "path": "experiments/yolo/gdt704_v77_repeated_written_material_continuation/artifacts/V77_COMPONENT_TOPOLOGY_CENSUS.tsv",
+      "role": "topology support position and continuation accounting",
+      "sha256": "af77cc8fe026ce95b565b75e28790b6af729da027724d28290b1cd37242c18ff"
+    },
+    {
+      "path": "experiments/yolo/gdt704_v77_repeated_written_material_continuation/artifacts/V77_GDT388_EDGE_INTAKE.json",
+      "role": "official exact invalid not-score-ready intake result",
+      "sha256": "04333dab7d2c572d4a55e5b78b18f623b7b30919904374474fc87fbfa89732d6"
+    },
+    {
+      "path": "experiments/yolo/gdt704_v77_repeated_written_material_continuation/artifacts/V77_GDT388_EDGE_PACKET.tsv",
+      "role": "single formal-access workshop relation packet row",
+      "sha256": "b43ee96cf2381ef9e96ed4c0fe23c46f78b3205669057da4f6fce1e864be441e"
+    },
+    {
+      "path": "experiments/yolo/gdt704_v77_repeated_written_material_continuation/artifacts/VALIDATION.json",
+      "role": "independent validation audit",
+      "sha256": "4164ad7d4e975276dbb7d4360d1e63c840a4e88a0f39c18b940c2d3d99134e0a"
+    },
+    {
+      "path": "experiments/yolo/gdt704_v77_repeated_written_material_continuation/src/V77_15_ACTION_CONTINUATION_SPECS.tsv",
+      "role": "fixed complete action-continuation decision specification",
+      "sha256": "a48ec7ef4054d4e5523ac610db591cc625bdd653e2c5b31baf03f382275552da"
+    },
+    {
+      "path": "experiments/yolo/gdt704_v77_repeated_written_material_continuation/src/V77_2_OBJECTLESS_POST_RESULT_SPECS.tsv",
+      "role": "fixed objectless post-result comparison specification",
+      "sha256": "361c9db6be847551efdc7fd3eae0ee8bc6d5630ead70e704f04cc2e3d554ed0b"
+    },
+    {
+      "path": "experiments/yolo/gdt704_v77_repeated_written_material_continuation/src/run.py",
+      "role": "deterministic continuation census graph and overlay builder",
+      "sha256": "463b0ed1b260c56117f7c26fd045691e69e618f8b3dbb01cb4f50ad8e2cc2414"
+    },
+    {
+      "path": "experiments/yolo/gdt704_v77_repeated_written_material_continuation/src/validate.py",
+      "role": "independent continuation graph freeze and publication validator",
+      "sha256": "64cea84afaa4fb64463858db578916f6273049265cf882a07c54f6975c503c81"
+    }
+  ],
+  "question": "Among all fifteen immediate action-to-action transitions already exposed by GDT703, does an exact repeated written material head distinguish a genuine output continuation, and does that support one occurrence-bound C015 edge without admitting C016?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "v77_repeated_written_material_continuation",
+  "status": "PASS_V77_15_ACTION_CONTINUATIONS__4_EXACT_HEAD_REPEATS__1_NEW_C015__C016_HELD__15_EDGES_10_COMPONENTS__ZERO_WORD_DELTA",
+  "title": "v77 repeated written material continuation",
+  "updated": "2026-08-31",
+  "validation": {
+    "artifact": "experiments/yolo/gdt704_v77_repeated_written_material_continuation/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

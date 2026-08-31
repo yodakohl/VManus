@@ -17756,3 +17756,42 @@ of the same herb, the first new semantic entry #8 `checthedy` writes
 repeated-material action relation against the weaker C014-result→#5 objectless
 continuation.  Do not add a redundant #5→#6 edge or treat structural #7 as a
 semantic donor.
+
+## GDT704 extends the herb batch through cooling into repeated drying
+
+GDT704 completes the promised comparison of all fifteen immediate
+action-to-action transitions.  Their written material relation divides into
+four exact head repetitions, two deictic targets, three related explicit heads,
+five explicit head changes and one pair without a written material head.  The
+four exact repetitions are decisive only after process role is considered:
+the f80v.35 case and both f88r.19 cases repeat Drogenstoff as an ingredient
+addition, whereas only f26r.2 can continue the output of the left action.
+
+C015 is therefore admitted locally as `f26r.2#6→#8`.  Its complete source
+clause is #6 `ytedy` plus structural closing #7 `dy`; its target #8
+`checthedy` writes *Krautdroge* again.  The concrete M009 working reading is:
+*Die Krautdroge bis zur Mittelstufe erhitzen und abschließen. Zustand: mittlere
+Trockenstufe erreicht. Dieselbe erhitzte Krautdroge bis zur Mittelstufe
+abkühlen und abschließen. Die so abgekühlte Krautdroge mäßig trocknen, nochmals
+mäßig trocknen und abschließen.*  The source of the first *hiervon* remains
+open, and #9 `ls` (*Holz*) is the visible right break.
+
+The alternative C016 `f115r.23#4 chody→#5 qokcho` remains `HOLD_OPEN_B_LOW`.
+It supports the possible reading *Die leicht getrocknete fertige Zubereitung
+weiter erhitzen, trocknen und ansetzen*, but #5 is neither deictic nor
+material-headed and #6 writes a competing Samenposten.  This is not a rejection:
+the reading stays available for later improvement without becoming an edge.
+
+M009 now contains C013 `#4→#5`, C011 `#4→#6` and C015 `#6→#8`.  #4 and #6
+are shared nodes; #5 remains a checkpoint leaf; #7 remains a structural
+non-node but moves from render-only to hull-only.  No #5→#6, #5→#8, #4→#8,
+#6→#7 or #8→#9 edge is implied.  The cumulative graph has fifteen edges, ten
+components, 28 unique nodes, 33 incidences, 30 hull and render positions, five
+shared nodes and two hull-only positions.  All 479 token glosses, 51 line
+translations, three bound spans and 36 pages remain unchanged; no word meaning,
+f84 or f84r access is added.
+
+The next finite pass inventories actions whose final result is not separately
+written, beginning with C015 target #8, and looks only for a later explicit
+state or repeated material inside the same scope.  C016 remains the leading
+weaker alternative.
