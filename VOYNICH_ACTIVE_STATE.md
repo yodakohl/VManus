@@ -17346,3 +17346,38 @@ temperature–fraction sisters—`okar/qokar`, `otar/qotar`,
 `otair/otarar/otardy`, and `oar/oair/qodar/odar`—and asks whether the Auszug
 main values predict the sisters or must remain learned local wholes. Verbs,
 p/s/r/l material heads, written ordinals, f84 and f84r remain closed.
+
+## GDT692 composes the complete O/Q sister lattice and narrows Auszug
+
+GDT692 rebuilds the same 51 lines/479 token positions on 36 admitted pages.
+Sixteen exact surfaces at 41 positions are reconstructed by nine bounded
+visible components: O, QO, L, K, T, D and the AR/AIR/AIIR I–III ladder. The
+former QO scope/command split, a separate AR-subfraction component and a
+productive DY-finished component are unnecessary. QO remains one frame;
+`otarar` repeats AR recursively; only exact `otardy` leaves a visible `dy`
+result tail. All sixteen written strings replay exactly from the literals.
+
+V65 keeps *Fraktion I/II/III* as the working sister head. Thirty of 41 target
+positions change, and two GDT686 quantity carries follow the corrected head,
+for 32/479 revisions. The two relations are consumed as multi-token spans:
+f86v3.13#5–6 reads *drei Portionen der Fraktion I des heißen Holzansatzes*;
+f86v6.5#4–5 reads *Fraktion I des heißen Holzansatzes; drei Portionen davon*.
+All 113 action ordinals survive and the exact verb profile remains 110→110.
+
+Global *Auszug* falls 32→7 and survives only on the inherited explicit
+draw-off/product forms `qoteed/olord/oteed/okeeodar/qokeod/kchod/keeod`.
+A complete audit of the seventeen `olkar/olkaiir` positions finds six strong,
+four medium and seven weak product contexts. The six strong Holzauszug
+readings remain local rivals at f75r.3, f80r.17, f80v.35, f83v.12, f86v3.13
+and f86v6.5; they are not exported as the global `olkar` meaning.
+
+The semantic head is still open. GDT654's repeated AR/OR sisters support a
+selected mixture share or technical class versus a divided portion, which is
+why V65 retains *Fraktion* without claiming distillation. A near-period *prima
+colatura* comparator, however, uses explicit straining, separate collection
+and reservation; Tadhg Ó Cuinn's 1415 materia medica separately states
+humoral hot/cold degrees and actual boiling/straining. The next same-deck route
+therefore compares *Fraktion*, *Zubereitungsstufe* and
+*Stoff-/Qualitätsklasse* across the 41 target positions and existing AR/OR
+controls. It preserves the nine literal segmentations, local product rivals,
+all verbs, material heads and ordinals; no page, f84 or f84r is opened.
