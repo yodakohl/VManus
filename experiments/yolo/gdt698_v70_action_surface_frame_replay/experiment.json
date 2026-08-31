@@ -1,0 +1,149 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The complete 479-token and 51-line freezes are retained because exhaustive action-surface occurrence coverage and zero-word-delta cannot be reconstructed from the ten-row summary alone.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "V71 exhausts the exact occurrences of the six action surfaces used by V70 and replays only nine already observed contiguous participant frames. All nine matches are self-source matches; the sole unbound qol remains held. No relation, microrecord, word meaning, or page is added.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt698_v70_action_surface_frame_replay/src/run.py",
+    "validate": "python3 experiments/yolo/gdt698_v70_action_surface_frame_replay/src/validate.py"
+  },
+  "created": "2026-08-31",
+  "dependencies": [
+    "GDT697"
+  ],
+  "experiment_id": "GDT698",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt697_v69_exact_relation_microrecords/artifacts/RESULT.json",
+      "role": "authoritative V70 scope and result contract",
+      "sha256": "0d85be4ad35b1643eb619040f9da7a081fdd8839db73a68f3b2909fb2901bcaf"
+    },
+    {
+      "path": "experiments/yolo/gdt697_v69_exact_relation_microrecords/artifacts/V70_3_BOUND_SPAN_FREEZE.tsv",
+      "role": "three immutable inherited spans",
+      "sha256": "1c5ec3a1838a84cdfc9fc80a3d51943dcfb279e368bdcb12fb8bead076ee171a"
+    },
+    {
+      "path": "experiments/yolo/gdt697_v69_exact_relation_microrecords/artifacts/V70_479_TOKEN_FREEZE.tsv",
+      "role": "complete token scope and action-surface occurrence source",
+      "sha256": "c35a98d970dd0f4696fb9944325aa1f6fc038d219f6946b7834acc5889811238"
+    },
+    {
+      "path": "experiments/yolo/gdt697_v69_exact_relation_microrecords/artifacts/V70_51_LINE_MICRORECORD_OVERLAY.tsv",
+      "role": "complete immutable line reader and clause source",
+      "sha256": "6058271ccfe9b99a834e213c7cf01ae2938dcbd8c6939c61a087f0dfdc55833e"
+    },
+    {
+      "path": "experiments/yolo/gdt697_v69_exact_relation_microrecords/artifacts/V70_7_EXACT_MICRORECORDS.tsv",
+      "role": "seven admitted practical relation windows",
+      "sha256": "c4b8b8e87e729b70da6f43115f666297b441035cebb210bdc7d37e59e52bcdcc"
+    },
+    {
+      "path": "experiments/yolo/gdt697_v69_exact_relation_microrecords/artifacts/V70_9_EDGE_WINDOW_COVERAGE.tsv",
+      "role": "nine occurrence-bound participant edges",
+      "sha256": "02be802b569c39354f5bff77786cc2143e8d9e344bae09d4c8d14562f37a6aac"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt698_v70_action_surface_frame_replay/README.md",
+      "role": "experiment entry point",
+      "sha256": "4d4265ca56bcd1203a2f2ac1c7fc1ff886e58de54b15d81f32942cac1e7e202f"
+    },
+    {
+      "path": "experiments/yolo/gdt698_v70_action_surface_frame_replay/METHOD.md",
+      "role": "exact replay deck and decision rule",
+      "sha256": "d7c0cfe91b9f1c305037910e5a66b1285cf6a09a972dddd67b04b8f145dabf48"
+    },
+    {
+      "path": "experiments/yolo/gdt698_v70_action_surface_frame_replay/REPORT.md",
+      "role": "exhaustive replay result and narrowed next route",
+      "sha256": "92ee4d8d1b0234758cfc489422c16df54b64c39e43395353957c6101fc06337d"
+    },
+    {
+      "path": "experiments/yolo/gdt698_v70_action_surface_frame_replay/src/V71_EXACT_TARGET_FRAME_TEMPLATES.tsv",
+      "role": "fixed nine-template target-aligned surface deck",
+      "sha256": "debf5a334eb44b5ba2dad654087457b82a82fa77897a4f6e652e109b2d8a8bb9"
+    },
+    {
+      "path": "experiments/yolo/gdt698_v70_action_surface_frame_replay/src/run.py",
+      "role": "deterministic exhaustive action-surface replay builder",
+      "sha256": "6c8af2073cc0e0f401e74a8273ca14e8c87b4733e5bdc20e4b0545a205d4a525"
+    },
+    {
+      "path": "experiments/yolo/gdt698_v70_action_surface_frame_replay/src/validate.py",
+      "role": "independent fail-closed replay and freeze validator",
+      "sha256": "42d167be9c20d1881b829ec4e01254b65bc6e1ecdf092c89f771984ffe808592"
+    },
+    {
+      "path": "experiments/yolo/gdt698_v70_action_surface_frame_replay/artifacts/GDT698_V71_ACTION_SURFACE_FRAME_REPLAY_READER.md",
+      "role": "human-readable ten-occurrence replay audit",
+      "sha256": "eb35bc3551ff34c37869228b45c40bbb7ebd89b4712e6e0a6e4b3f4cab4318c3"
+    },
+    {
+      "path": "experiments/yolo/gdt698_v70_action_surface_frame_replay/artifacts/README.md",
+      "role": "artifact map",
+      "sha256": "696bf3f5d35f59d2b1515758b09ffe21250e45022e278e81b0cdc258290b26f0"
+    },
+    {
+      "path": "experiments/yolo/gdt698_v70_action_surface_frame_replay/artifacts/RESULT.json",
+      "role": "compact result, hashes and next gap",
+      "sha256": "6f3e17cf0457820e893b9c6032bc7e00e2c537fcc8bb380d35dbf9867a22c174"
+    },
+    {
+      "path": "experiments/yolo/gdt698_v70_action_surface_frame_replay/artifacts/V71_10_ACTION_SURFACE_OCCURRENCES.tsv",
+      "role": "exhaustive occurrence scan for the six action surfaces",
+      "sha256": "4a53248054c20538d74e00dc9d2f3e198b5e7edba146ff58679753ee78d346a8"
+    },
+    {
+      "path": "experiments/yolo/gdt698_v70_action_surface_frame_replay/artifacts/V71_3_BOUND_SPAN_FREEZE.tsv",
+      "role": "three byte-identical bound spans",
+      "sha256": "a75bfdf203ee352360412260ee3458bddc5246af88b31cea4880f9446750ce7b"
+    },
+    {
+      "path": "experiments/yolo/gdt698_v70_action_surface_frame_replay/artifacts/V71_3_UNBOUND_QOL_TEMPLATE_CONTRASTS.tsv",
+      "role": "sole open qol occurrence against all three admitted frames",
+      "sha256": "e4604631f7aeb8511a1b42684d52ef66007e32d80028d881c4fb266facae98d9"
+    },
+    {
+      "path": "experiments/yolo/gdt698_v70_action_surface_frame_replay/artifacts/V71_479_TOKEN_FREEZE.tsv",
+      "role": "complete unchanged token deck with replay decisions",
+      "sha256": "9400bcf8209c864d3960da27f2c882e541aa86ea3d5bfc12d62565a147658c45"
+    },
+    {
+      "path": "experiments/yolo/gdt698_v70_action_surface_frame_replay/artifacts/V71_51_LINE_FREEZE.tsv",
+      "role": "complete unchanged line deck with replay counts",
+      "sha256": "a66cfd78044fd21b584951a34507e156a0c712550e8c3b8304e272a09b4e13b0"
+    },
+    {
+      "path": "experiments/yolo/gdt698_v70_action_surface_frame_replay/artifacts/V71_6_ACTION_SURFACE_CENSUS.tsv",
+      "role": "surface multiplicity and frame-determinacy census",
+      "sha256": "0247d21e2bfc66dc9e78abf726cee8d724a0376c51c54a10fe0c0af3ce7e8532"
+    },
+    {
+      "path": "experiments/yolo/gdt698_v70_action_surface_frame_replay/artifacts/V71_9_EXACT_TARGET_FRAME_TEMPLATES.tsv",
+      "role": "resolved nine-template replay deck",
+      "sha256": "7e963ab41fcebf12f7ffecd477c77926199fd28bec9c2dc04f2d83ac3f4cd4b7"
+    },
+    {
+      "path": "experiments/yolo/gdt698_v70_action_surface_frame_replay/artifacts/VALIDATION.json",
+      "role": "independent exact replay, false-friend and freeze validation",
+      "sha256": "c838c97e22178b0594858218e119a6922429f9d917aa54176cda77528d4fb0c0"
+    }
+  ],
+  "question": "Do any unbound occurrences of the six V70 action surfaces reproduce an already observed exact contiguous participant frame?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "v70_action_surface_frame_replay",
+  "status": "PASS_V71_6_SURFACES_10_OCCURRENCES__9_EXISTING_MATCHES_1_UNBOUND_HELD__0_CROSS_REPLAYS__ZERO_WORD_DELTA",
+  "title": "V71 action-surface frame replay",
+  "updated": "2026-08-31",
+  "validation": {
+    "artifact": "experiments/yolo/gdt698_v70_action_surface_frame_replay/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

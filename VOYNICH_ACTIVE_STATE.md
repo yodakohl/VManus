@@ -17546,3 +17546,29 @@ occurrence of these action surfaces inside the same 479-token scope and may
 nominate another occurrence microrecord only when an already observed exact
 participant frame repeats. GDT595–GDT597's six-page object defaults and mere
 left adjacency are not reusable licenses.
+
+## GDT698 exhausts the six V70 action surfaces without a cross-frame replay
+
+GDT698 aligns nine target-final surface templates against every occurrence of
+their six action surfaces in the unchanged V70 scope.  There are exactly ten
+occurrences: nine are the already bound source actions and the tenth is
+f77r.38#9 `qol`.  Every exact hit is therefore a self-source hit; no template
+transfers to another occurrence and no new edge or microrecord is admitted.
+
+The open `qol` fails all three addition frames.  Its aligned surfaces differ
+from C004, C005 and C008 at two, one and three positions respectively.  The
+broad two-token-nominal-block shape is a false friend: participant-role traces
+and exact local surfaces differ.  Its safe rendering remains *Holz, kalt auf
+Stufe III; mittlere Feuchtstufe erreicht. [Teilnehmerbindung offen:]
+Drogenstoff zugeben.*  Repeated `ykaiin` and `qol` thus support stable operation
+readings but not action-surface-specific objects.
+
+All 479 token glosses, 51 line translations and three bound spans remain
+byte-identical; word-meaning delta, new-page count and f84/f84r access are zero.
+The independent validator passes 2,535/2,535 checks.  A broad pass over all 83
+actions would duplicate GDT595–GDT597.  The next route is instead the fixed
+five-case backward-referential HEAT deck: replay C001 and C006, retain R010's
+competing donors and R012's written herb object as controls, and test only
+whether the YKA grade-II sister at f86v5.24 can take the unique material share
+`oar` from the immediately preceding block.  The neighbouring `aiin` remains
+an unbound quantity register; it may not be folded into that edge.
