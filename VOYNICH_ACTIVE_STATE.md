@@ -17168,3 +17168,40 @@ next no-new-page route is the `dchey/y/dy` family: enumerate every current
 position, separate licensed actions from nominal result states and structural
 closures, then rerender every touched line without prose-only verbs. f84 and
 f84r remain forbidden.
+
+## GDT687 removes verbs invented by `y` and `dy`
+
+GDT687 exhausts the visible family on the complete 51-line V59 reader: fourteen
+exact `dchey`, four naked `y`, three free `dy` and 74 contiguous bound-`dy`
+positions, for 95 targets on forty lines. V60 gives all of them one concrete
+local role: 24 licensed actions, 64 finished results or states, three right
+references and four structural boundaries.
+
+`dchey` is scope-dispatched rather than forced into one grammatical category.
+Nine current line-entry positions are actions and five medial or immediately
+value-bound positions are nominal results. The f81r source makes the global
+working census ten actions to five results. Its internal composition stays
+open: GDT675 uses `D+CH+E+Y`, while four older exact GDT425 events use
+`CH+E+Y` with `has_close=NO`. V60 therefore preserves the learned whole-form
+working value but removes every automatic *abschließen*.
+
+Naked `y` now reads locally as a right-binding `Hierzu:` or a line-final
+point; f80v.35 keeps its unresolved-hinge rival. Free `dy` is only semicolon
+or point.
+Among 74 bound positions the whole card licenses fifteen actions; 59 are
+nominal finished states. The old f105r.2#13 `qody` action had no independent
+verb beyond dy-derived *fertigstellen*, so it becomes `fertige Zubereitung`
+and the complete action inventory falls 86→85.
+
+The rewrite lowers strict debt 120→106, mechanical debt union 163→152,
+mechanical memberships 177→162, broad specificity 324→285 and the four-layer
+union 370→330; clean positions rise 109→149. Twenty-two target states still
+lack an explicit object and one target keeps inherited low confidence. The
+validator passes 254 checks and rebuilds fourteen files byte-for-byte.
+
+The next no-new-page pass must audit the whole practical renderer rather than
+another suffix family. At least 66 extra German verb×line pairs remain on 28
+lines. Every verb must be tied to one exact written action ordinal and
+whole-token card; otherwise it becomes a nominal state. This includes the
+inherited *abschließen* still visible in f26r.2 `ykecthey`. f84 and f84r remain
+forbidden.
