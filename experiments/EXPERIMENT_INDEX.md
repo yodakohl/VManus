@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **692**
-- Experiment-associated tracked files: **11,703** (1.2 GiB)
-- Structured GDT337+ experiments: **357**
+- Experiments indexed: **693**
+- Experiment-associated tracked files: **11,724** (1.2 GiB)
+- Structured GDT337+ experiments: **358**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT695 | GDT695_fixed_v67_clause_realization | `PASS_V68_83_ACTION_CLAUSES__92_NOMINAL_BLOCKS__175_TOTAL__115_VERBS__ZERO_WORD_DELTA` | [report](../experiments/yolo/gdt695_fixed_v67_clause_realization/REPORT.md) | 21 | 368.7 KiB | 4 | STRUCTURED_YOLO |
 | GDT694 | GDT694_residual_fraction_share_migration | `PASS_V67_22_RESIDUAL_SHARE_MIGRATIONS__ZERO_FRAKTION_479_TOKEN_READER__3_BOUND_SPANS` | [report](../experiments/yolo/gdt694_residual_fraction_share_migration/REPORT.md) | 21 | 505.8 KiB | 14 | STRUCTURED_YOLO |
 | GDT693 | GDT693_ar_head_semantic_tournament | `PASS_V66_SCOPED_INDEXED_R_SELECTOR__55_HEAD_PLUS_2_READER_REVISIONS__6_R_N_PAIRS__OR_PORTION_PRESERVED` | [report](../experiments/yolo/gdt693_ar_head_semantic_tournament/REPORT.md) | 37 | 896.4 KiB | 4 | STRUCTURED_YOLO |
 | GDT692 | GDT692_o_q_fraction_sister_compositor | `PASS_V65_16_SURFACE_41_OCCURRENCE_COMPOSITOR__32_TOKEN_REVISIONS__AUSZUG_32_TO_7_EXPLICIT_WORKFLOW_ONLY` | [report](../experiments/yolo/gdt692_o_q_fraction_sister_compositor/REPORT.md) | 29 | 333.5 KiB | 3 | STRUCTURED_YOLO |

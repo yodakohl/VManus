@@ -1,0 +1,8 @@
+policy_id	scope	condition	realization	precedence
+P001	BOUND_SPAN	GDT694 exact span start	Keep the complete V67 span text as one indivisible nominal unit.	1
+P002	EXPLICIT_PUNCTUATION_TOKEN	V67 gloss is semicolon or full stop	Attach the zero-word marker to the preceding semantic unit; never emit an empty clause.	2
+P003	ACTION_CARD	Ordinal occurs in GDT689 v62_action_ordinals	Emit the complete written card as one action clause even when it contains several licensed verbs.	3
+P004	RIGHT_BOUND_INTRODUCER	One of four exact registered connector positions	Join the connector by colon to its immediately following nominal or action target.	4
+P005	NOMINAL_BINDING	Adjacent head and value carry GDT676 decision BIND or BIND_NOMINAL	Keep both inside one nominal block and place a colon between them.	5
+P006	NOMINAL_RUN	Maximal consecutive non-action units	Emit one semicolon-delimited nominal block.	6
+P007	LINE_JOIN	Between action clauses and nominal blocks	Place a full stop; never add a connective, object, pronoun or verb.	7

@@ -17441,8 +17441,9 @@ as *vollständig getrocknete Charge aus Anteil I der erhitzten Holzdroge*.
 GDT679's bilateral `daiiirchy` repair remains *abgemessener Drogenanteil IV,
 leicht getrocknet*.
 
-All three bound spans are disjoint. All 113 inherited verb presence/absence
-profiles survive, with 110 exact listed forms before and after V67; all six
+All three bound spans are disjoint. All 113 inherited V61 verb
+presence/absence profiles survive, with 110 exact listed forms before and
+after V67; all six
 local Holzauszug rivals remain byte-identical. The independent validator
 passes 21 executable checks, reconstructs all 51 V66 and V67 lines and
 byte-replays twelve generated files. The next route freezes all 479 V67 token
@@ -17450,3 +17451,40 @@ glosses and three spans and changes only clause realization: nominal lists
 must remain inventories, while action sequences may gain already licensed
 objects and carries. It may not invent a noun/verb, rename a token, open a new
 page or access f84/f84r.
+
+GDT695 later makes the baseline distinction explicit: those 113 rows are a
+historical V61 preservation view, not the live post-GDT689 action inventory.
+The V67 text itself matches GDT689/V62 exactly at 83 action positions and 115
+active verb occurrences.
+
+## GDT695 realizes V68 clauses without changing a content word
+
+GDT695 freezes every one of the 479 V67 token glosses and all three bound spans.
+It changes punctuation and capitalization only, producing 175 units: 83
+clauses containing exactly one written GDT689 action card and 92 maximal
+nominal blocks. All 51 German content-word sequences remain unchanged. The 16
+ACTION_SEQUENCE lines split into 49 action clauses plus 38 nominal checkpoints;
+the 23 MIXED_RECORD lines remain hybrid at 34 action islands plus 42 nominal
+blocks; six NOMINAL_REGISTER and six QUANTITY_LABEL lines contain no action.
+
+The renderer consumes ten already accepted GDT676 head/value relations: nine
+adjacent edges receive a colon and the tenth remains inside a byte-frozen GDT694
+span. Four exact right-bound connectors join only their immediate following
+target. Four zero-word punctuation cards attach to their preceding unit rather
+than becoming empty clauses. No connective, object, pronoun, source,
+destination, noun or verb is supplied for fluency.
+
+The pass corrects an important audit baseline before freezing the clauses.
+GDT688/V61 had 85 action positions and 113 active verbs. GDT689/V62 deliberately
+superseded it with 83 positions and 115 verbs: `olchdy` and `dshedy` became
+nominal results, while `ytedy`, `checthedy` and `qolsheedy` retained four
+sister-derived active verbs. Comparing V67 to obsolete V61 briefly suggested
+five repairs; the full V62 comparison disproved and retracted them. A fresh
+32-rule scan finds exact ordered verb sequences at 83/83 live action positions,
+115/115 occurrences and zero active verbs at the other 396 positions.
+
+The independent validator passes 81 compact checks, rescans all 479 tokens and
+byte-replays every generated artifact. The next route may test only a finite
+exact set of already licensed local object/carry edges on V68. Unresolved
+deictics remain unresolved; no token, span, meaning, page, f84 or f84r access
+changes.

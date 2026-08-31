@@ -1,0 +1,61 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The complete 479-token freeze, 175-clause table and 51-line reader are retained because position coverage, word-order identity, clause membership and exact action provenance cannot be reconstructed from aggregate counts.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "V68 is a punctuation-only clause realization of the frozen exploratory V67 German renderer under the live GDT689 action deck. It adds no content meaning and does not establish Voynich syntax, plaintext or historical sentence boundaries.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt695_fixed_v67_clause_realization/src/run.py",
+    "validate": "python3 experiments/yolo/gdt695_fixed_v67_clause_realization/src/validate.py"
+  },
+  "created": "2026-08-31",
+  "dependencies": ["GDT676", "GDT688", "GDT689", "GDT694"],
+  "experiment_id": "GDT695",
+  "inputs": [
+    {"path": "experiments/yolo/gdt676_v50_external_line_renderer/src/VALUE_ATTACHMENT_SPECS.tsv", "role": "seventeen frozen local value decisions; only ten accepted bindings are consumed", "sha256": "2be52fa6e30bf4a4c91fbcc9ee7446831c93e1540f8121a6b992f1344691fc63"},
+    {"path": "experiments/yolo/gdt688_v61_exact_verb_ordinal_provenance_renderer/src/V61_VERB_RULES.tsv", "role": "frozen 32-rule active-verb scanner", "sha256": "88b2c8c80e3c4281eeda8878ee6e3f686b3408b154e9222387ba0601fa99e4a3"},
+    {"path": "experiments/yolo/gdt689_v62_bound_dy_sister_endpoint_dispatch/artifacts/RESULT.json", "role": "authoritative live 83-action/115-verb baseline", "sha256": "0475c05a736af2afb4acd95f871321924fb519c19ae983c6630a71c970d08d30"},
+    {"path": "experiments/yolo/gdt689_v62_bound_dy_sister_endpoint_dispatch/artifacts/V62_51_LINE_READER.tsv", "role": "live action ordinals and line modes", "sha256": "03b5d6f31a99acb9c8c29d2647529301e37b6b45d356517668c3bb8335a6091d"},
+    {"path": "experiments/yolo/gdt689_v62_bound_dy_sister_endpoint_dispatch/artifacts/V62_VERB_OCCURRENCE_PROVENANCE.tsv", "role": "115 expected action-position verb occurrences", "sha256": "b99e95a5e1bdddcdfafce2fedc2df3aa7b3ab40d1ee2872e562f9de8d7ad96a4"},
+    {"path": "experiments/yolo/gdt694_residual_fraction_share_migration/artifacts/RESULT.json", "role": "inherited V67 result and scope", "sha256": "1218440f15d274c2bfaf7a4dad1125caaadd4afe6ce714c517c3c6dd94196f2f"},
+    {"path": "experiments/yolo/gdt694_residual_fraction_share_migration/artifacts/V67_3_BOUND_SPANS.tsv", "role": "three frozen bound spans", "sha256": "569b8ee823e73dcba34116075e9bcdfb8914ebbcd046978cf7ee40fcf8cd83c9"},
+    {"path": "experiments/yolo/gdt694_residual_fraction_share_migration/artifacts/V67_479_TOKEN_ZERO_FRACTION_READER.tsv", "role": "complete frozen V67 token deck", "sha256": "0d064db8caec4d9d3f25b066805a5c7234490ab670fb48ec3e47ccba7daea1c6"},
+    {"path": "experiments/yolo/gdt694_residual_fraction_share_migration/artifacts/V67_51_LINE_ZERO_FRACTION_READER.tsv", "role": "complete inherited V67 line edition", "sha256": "28cf00c143745ac0baead2a65cbaadcdf69537f2c06241ee622f6fa1352e8f11"},
+    {"path": "experiments/yolo/gdt695_fixed_v67_clause_realization/src/V68_CLAUSE_REALIZATION_POLICY.tsv", "role": "seven ordered clause-realization policies", "sha256": "488c3fa9214bf76e9ee4f72ee9d0557f90ee167e6fb56e688f688a612c06106f"},
+    {"path": "experiments/yolo/gdt695_fixed_v67_clause_realization/src/V68_RIGHT_BOUND_INTRODUCERS.tsv", "role": "four exact right-bound connector positions", "sha256": "04f8afcc79080c3e0f0a352b6c96a927e97f29c912f8e6b211c8a7da07f4b87e"},
+    {"path": "experiments/yolo/gdt695_fixed_v67_clause_realization/src/run.py", "role": "deterministic builder", "sha256": "1f05794803157f89327314ca816186fca350bdbc1e65ff1eb2ba64029ea31cbd"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt695_fixed_v67_clause_realization/README.md", "role": "entry point", "sha256": "d808bbb08dc696bd034868670f991107878d700b03b0286e53a8fe1adc5c33ea"},
+    {"path": "experiments/yolo/gdt695_fixed_v67_clause_realization/METHOD.md", "role": "scope, baseline correction and preregistered renderer", "sha256": "75b8f0caffe2ebf807ccb445954f58aa78ca7e06d3c049a9fdfa6695d7a66c4e"},
+    {"path": "experiments/yolo/gdt695_fixed_v67_clause_realization/REPORT.md", "role": "result, correction and next route", "sha256": "f937ef1867c83231abd6046647fdb7d913b60d38f19c9fd2bc1fa676d0cab480"},
+    {"path": "experiments/yolo/gdt695_fixed_v67_clause_realization/src/V68_CLAUSE_REALIZATION_POLICY.tsv", "role": "clause policy source deck", "sha256": "488c3fa9214bf76e9ee4f72ee9d0557f90ee167e6fb56e688f688a612c06106f"},
+    {"path": "experiments/yolo/gdt695_fixed_v67_clause_realization/src/V68_RIGHT_BOUND_INTRODUCERS.tsv", "role": "right-bound connector source deck", "sha256": "04f8afcc79080c3e0f0a352b6c96a927e97f29c912f8e6b211c8a7da07f4b87e"},
+    {"path": "experiments/yolo/gdt695_fixed_v67_clause_realization/src/run.py", "role": "deterministic builder", "sha256": "1f05794803157f89327314ca816186fca350bdbc1e65ff1eb2ba64029ea31cbd"},
+    {"path": "experiments/yolo/gdt695_fixed_v67_clause_realization/src/validate.py", "role": "independent validator and byte replay", "sha256": "e454c83caa5b804590ec8b34c46e12feab6d056ae5c935b06b7c31bce144f7fb"},
+    {"path": "experiments/yolo/gdt695_fixed_v67_clause_realization/artifacts/GDT695_V68_FIXED_WORD_CLAUSE_READER.md", "role": "complete human-readable 51-line V68 edition", "sha256": "e097cf3c673e90c1695508753cac49700ba03efbe855393cd76c735cc899a908"},
+    {"path": "experiments/yolo/gdt695_fixed_v67_clause_realization/artifacts/README.md", "role": "artifact map", "sha256": "6d11f43ec0d3b3823f870c27ddf957e04cbf363806fffebd115834439b6ea258"},
+    {"path": "experiments/yolo/gdt695_fixed_v67_clause_realization/artifacts/RESULT.json", "role": "compact result, hashes and next route", "sha256": "9f0db69dffade72f2443ba5b863ba4d93cba481345351ffa7434ad8ebf7d7f75"},
+    {"path": "experiments/yolo/gdt695_fixed_v67_clause_realization/artifacts/V61_V62_V67_VERB_BASELINE_CORRECTION.tsv", "role": "explicit verb-baseline correction", "sha256": "057ee261f6be88728413162e3b6e9496497f579907b734b70914a60c74e62060"},
+    {"path": "experiments/yolo/gdt695_fixed_v67_clause_realization/artifacts/V68_115_VERB_OCCURRENCE_PROVENANCE.tsv", "role": "115 exact active-verb token spans", "sha256": "c5192cfcb4c75b1f56d80d6b4c193e78e4548272cac48f173be3908568dcc2c6"},
+    {"path": "experiments/yolo/gdt695_fixed_v67_clause_realization/artifacts/V68_175_CLAUSE_REALIZATIONS.tsv", "role": "complete clause table", "sha256": "805c246ee7daf213329bec3e3d5f5a0ef32be0f6db6c6f790f69c74b6169d66b"},
+    {"path": "experiments/yolo/gdt695_fixed_v67_clause_realization/artifacts/V68_3_BOUND_SPAN_FREEZE.tsv", "role": "three byte-identical bound spans", "sha256": "640e8e01397da0c4037d59e540eb214c472fdee4d2e4e8751909a25cbeeace1f"},
+    {"path": "experiments/yolo/gdt695_fixed_v67_clause_realization/artifacts/V68_479_TOKEN_FREEZE.tsv", "role": "complete token and clause-membership freeze", "sha256": "4223b007941cbe78620060862341774f6ea7a2eb3669e08a607080b2443a2446"},
+    {"path": "experiments/yolo/gdt695_fixed_v67_clause_realization/artifacts/V68_51_LINE_CLAUSE_READER.tsv", "role": "complete V68 line edition", "sha256": "2375dae9786b80a86b176d766556e95a528d631668b926b8fb7814d76d7092fd"},
+    {"path": "experiments/yolo/gdt695_fixed_v67_clause_realization/artifacts/V68_51_LINE_WORD_SEQUENCE_AUDIT.tsv", "role": "word-order identity audit", "sha256": "8d14a0b1dc8f3861dbd362f00bcbb6e1a21a1d2d23cce0e87882412abc1106fe"},
+    {"path": "experiments/yolo/gdt695_fixed_v67_clause_realization/artifacts/V68_83_ACTION_VERB_MULTISET_AUDIT.tsv", "role": "83-position verb multiset and sequence audit", "sha256": "abbd2ac0f7c81d08c4e8189f4ce9a6e9f15c5ac90f55d7f8305888ffe8cc53f7"},
+    {"path": "experiments/yolo/gdt695_fixed_v67_clause_realization/artifacts/V68_MODE_CENSUS.tsv", "role": "four-mode clause census", "sha256": "f96b737f6674898aff6a9d05f3c0d37f79d7f8753a6556d431cf164c5b02ffe1"},
+    {"path": "experiments/yolo/gdt695_fixed_v67_clause_realization/artifacts/VALIDATION.json", "role": "independent validation", "sha256": "c37e77eb76cd9b0061b113522388dbd1199157ad26e2973214c5880261e3b93d"}
+  ],
+  "question": "Can the fixed V67 words be divided into executable action clauses and nominal register blocks under the live V62 action inventory without adding, deleting, reordering or reinterpreting any content word?",
+  "schema_version": 1,
+  "sealed_data": {"f84": "FORBIDDEN", "f84r": "FORBIDDEN"},
+  "slug": "fixed_v67_clause_realization",
+  "status": "PASS_V68_83_ACTION_CLAUSES__92_NOMINAL_BLOCKS__175_TOTAL__115_VERBS__ZERO_WORD_DELTA",
+  "title": "V68 fixed-word clause realization",
+  "updated": "2026-08-31",
+  "validation": {
+    "artifact": "experiments/yolo/gdt695_fixed_v67_clause_realization/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}
