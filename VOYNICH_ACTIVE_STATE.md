@@ -16881,3 +16881,39 @@ older one-hole and bulk completion passes, not this exact V52 circuit. Apply
 each proposed card to all exact admitted occurrences, retain practical reader
 joins, and close all three slots before moving to four-gap lines. Keep f84 and
 f84r forbidden.
+
+## GDT679 closes the eight three-hole lines and exposes a 17-position material head
+
+GDT679 assigns 24 concrete, replaceable cards to every residual position in
+V52's eight three-hole lines. Their 57 exact ZL3b occurrences span 41 lines and
+35 already admitted pages. The same practical core remains usable in every
+context; no new page was opened. Reader support is 44 bilateral exact, four
+IT2a-only exact, two RF1b-only exact and seven neither-exact positions. All
+thirteen non-bilateral boundaries have an explicit retained decision.
+
+The strongest new carrier is `ckhol = ckh + ol`, “Drogenstoff aus
+Arzneikompositum”: seventeen positions on fourteen pages, sixteen of them
+bilaterally exact. Both alternate readers independently repair the two shortest
+ambiguous f8r.15 forms: `kc → kchs`, a charge of heat-dried drug, and
+`daiiiry → daiiirchy`, the measured fourth dry fraction, lightly dried. The
+historical-reader pass also changes `qeeey` from the majority's proposed final
+portion to a left-bound process close: all three occurrences immediately
+follow a moist, cold or dry treatment. The final-portion rival remains visible.
+`tolg` stays the weakest unit card: ZL3b/RF1b permit a grain, IT2a `tolm` permits
+a handful, and no general value for final `g` is exported.
+
+V53 moves 386→410 of 479 assigned positions, 93→69 explicit gaps, 28→36
+complete lines and 60→65 licensed actions. Global gaps fall 7,822→7,765 and
+complete lines rise 1,410→1,418; exactly the eight source lines close. Two
+inherited prose uses of “weiterführen” were concretized without changing token
+values, and the hard generic vocabulary remains absent. The independent
+validator passes 269 checks and reproduces ten files byte-for-byte.
+
+The next front contains eight four-gap lines, six five-gap lines and one
+seven-gap line. GDT680 stays on the same 51-line deck and begins with the eight
+four-gap lines. They contain 32 open positions but only 31 distinct surfaces;
+`qoekol` repeats, and `pchedaiin` already has GDT678's concrete powder-dose
+card. Therefore the new task is thirty new cards plus one inherited-card reuse,
+all checked through every exact admitted occurrence. The duplicate screen
+returns older bulk and smaller-hole completion passes rather than this V53
+circuit. No new page is needed; f84 and f84r remain forbidden.
