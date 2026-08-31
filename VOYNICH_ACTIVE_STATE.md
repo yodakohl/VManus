@@ -16795,3 +16795,39 @@ with Y/DY framing; `olchain/lolkaiin` tests OL/L material plus grade fields;
 remain the least determined exact wholes. Apply any selected meaning at all
 admitted exact occurrences and rerender the same 51 lines before opening a new
 page. f84 and f84r remain forbidden.
+
+## GDT677 closes the nine one-hole lines and makes six family predictions
+
+GDT677 gives nine exact surfaces concrete replaceable meanings and applies
+each unchanged at every exact occurrence: twenty positions on twenty lines and
+seventeen already admitted pages. The 51-line reader moves from 343 to 352 of
+479 assigned positions, 136 to 127 explicit gaps and two to eleven complete
+lines. Current-panel gaps move 7,943→7,923 and complete lines 1,382→1,391.
+
+The strongest contrasts are now predictive. `ltaiin/oltaiin` preserves cold
+grade III while initial `o` changes Holzdroge to Holzdrogenansatz. `ykcho` is
+the four-occurrence action “hieraus einen heiß-trockenen Ansatz bereiten”; all
+four `kchody` positions are the paired finished hot-dry result. f56r.6 gains
+action ordinal 1 and alone changes from nominal register to mixed record, so
+the deck has 49 licensed actions. `aror=ar+or` is one portion of drug fraction
+I at six positions. `olchain` is dry wood-drug preparation grade II and
+`lolkaiin` hot wood material grade III.
+
+RF1b visibly splits `losair` as `los air`; two inherited exact cards therefore
+select “zweite Fraktion des Drogenholzpostens”, while unsplit `lo+sair` =
+“Holzabsud mit Samenfraktion II” remains the named rival. `taiky` stays the
+weakest learned exact whole, “kalt angesetzte Charge, leicht angewärmt”; only
+outer `t...ky` is transparent and internal `ai` receives no productive right.
+The guarded query selected only the twenty target loci and rejected 98 f84*
+rows before materialization. Seventeen positions are bilateral exact and three
+have one exact alternate reader. The complete reader has zero hard-generic
+matches. Independent validation passes 153 checks and reproduces eight files
+byte-for-byte.
+
+The next route remains on the same 51-line deck. Seventeen lines now have
+exactly two gaps, exposing 34 forms. GDT678 should group those forms into
+visible process/result, material/degree and quantity families, apply any card
+at all exact admitted occurrences, and close the lines only after both slots
+produce a concrete coherent reading. The route duplicate query returns older
+bulk completion passes rather than this new V51 context circuit. Open no new
+page; f84 and f84r remain forbidden.

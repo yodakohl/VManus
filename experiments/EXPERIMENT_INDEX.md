@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **674**
-- Experiment-associated tracked files: **11,273** (1.2 GiB)
-- Structured GDT337+ experiments: **339**
+- Experiments indexed: **675**
+- Experiment-associated tracked files: **11,293** (1.2 GiB)
+- Structured GDT337+ experiments: **340**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT677 | GDT677_nine_one_hole_family_completion | `PASS_9_FAMILY_CARDS__20_CONTEXTS_HOLD__9_LINES_CLOSED__V51_127_OPEN` | [report](../experiments/yolo/gdt677_nine_one_hole_family_completion/REPORT.md) | 20 | 170.6 KiB | 5 | STRUCTURED_YOLO |
 | GDT676 | GDT676_v50_external_line_renderer | `PASS_51_LINE_READER__479_TOKENS__136_OPEN__1_DCHEY_OVERRIDE__ZERO_HARD_GENERIC` | [report](../experiments/yolo/gdt676_v50_external_line_renderer/REPORT.md) | 27 | 375.1 KiB | 3 | STRUCTURED_YOLO |
 | GDT675 | GDT675_f81r_card_occurrence_conflict_scan | `PASS_51_EXTERNAL_POSITIONS__12_CARDS_HOLD__9_RENDER_SPLITS__11_SOURCE_ONLY` | [report](../experiments/yolo/gdt675_f81r_card_occurrence_conflict_scan/REPORT.md) | 21 | 294.2 KiB | 3 | STRUCTURED_YOLO |
 | GDT674 | GDT674_v49_f81r_concrete_renderer | `PASS_F81R_210_TOKEN_CONCRETE_READER__27_REVIEW_POSITIONS__24_GAPS_CLOSED` | [report](../experiments/yolo/gdt674_v49_f81r_concrete_renderer/REPORT.md) | 29 | 568.8 KiB | 4 | STRUCTURED_YOLO |

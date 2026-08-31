@@ -1,0 +1,59 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The full twenty-occurrence context audit and 51-line V51 reader are retained because exact token alignment, unchanged card meaning, alternate-reader boundaries, all residual gaps and the f56r.6 mode correction cannot be reconstructed from summary counts alone.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Nine replaceable exact-surface working cards applied without meaning change to all twenty exact occurrences on the already admitted panel. They close nine previously one-hole V50 lines and reduce the 51-line deck from 136 to 127 explicit gaps. The cards are a concrete compositional working theory, not confirmed plaintext, phonetics, historical codebook identity, exact substances, plant species, disease, patient, cure, carrier liquid, or manuscript-wide translation. taiky remains a learned low-confidence whole and the losair reader split remains open.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt677_nine_one_hole_family_completion/src/run.py",
+    "validate": "python3 experiments/yolo/gdt677_nine_one_hole_family_completion/src/validate.py"
+  },
+  "created": "2026-08-31",
+  "dependencies": ["GDT671", "GDT673", "GDT674", "GDT675", "GDT676"],
+  "experiment_id": "GDT677",
+  "inputs": [
+    {"path":"transcription/voynich_cross_transcription_lines.tsv","role":"guarded alternate-reader line source","sha256":"ff3a4559004a29764c60102326de154b29fbba06a2a206bdd76d7feda432e16c"},
+    {"path":"experiments/yolo/gdt671_fifteen_residual_family_completion/artifacts/ALL_LINE_CONCRETE_COVERAGE_V48.tsv","role":"admitted V48 panel and twenty exact target occurrences","sha256":"cb299433b38de8efb41c3da6e8343d74b46bff9c6063a5df88c85e6069cc45e6"},
+    {"path":"experiments/yolo/gdt673_v48_transfer_occurrence_conflict_scan/artifacts/TRANSFERABLE_EXACT_OCCURRENCES.tsv","role":"prior V48 transfer positions used for duplicate-position exclusion","sha256":"f3cfa24a12294541ab76bf30e9a727915a039bbf69d8dc27a0d9b25cba3393cf"},
+    {"path":"experiments/yolo/gdt674_v49_f81r_concrete_renderer/artifacts/RESULT.json","role":"frozen V49 source-page result","sha256":"e3bbed380e506402fad216964b72059747f5d29070178f86322ca65aa397af35"},
+    {"path":"experiments/yolo/gdt675_f81r_card_occurrence_conflict_scan/artifacts/EXTERNAL_TRANSFERABLE_OCCURRENCES.tsv","role":"prior V50 external positions used for duplicate-position exclusion","sha256":"9e48afbeefa8dcb8402938ba855ab32de61b4dcd0b48dc3a6576e39ada730c2c"},
+    {"path":"experiments/yolo/gdt675_f81r_card_occurrence_conflict_scan/artifacts/RESULT.json","role":"frozen current-panel coverage counts","sha256":"c6f83c3c6b72d4cb37daea5e39cd71fce0d476af3eb7f0cfac6c9f42c3668aab"},
+    {"path":"experiments/yolo/gdt676_v50_external_line_renderer/artifacts/V50_EXTERNAL_LINE_READER.tsv","role":"fifty-one-line V50 reader and nine one-hole lines","sha256":"c65a9679027de4eed7940caccb436a9fc01ed511175dbe11816b3bef980b3279"},
+    {"path":"experiments/yolo/gdt676_v50_external_line_renderer/artifacts/RESULT.json","role":"frozen V50 reader counts and modes","sha256":"6c3526203f8d56ce82d17b8af09242a5677afc0855fb5a0d58cc054cbcd3aef1"},
+    {"path":"experiments/yolo/gdt677_nine_one_hole_family_completion/src/TARGET_CARD_SPECS.tsv","role":"nine manual exact-whole meanings, compositions and rivals","sha256":"c95ee1605f8756a63594c3a18d7d5e14823c432b1a2c23b194105b73f26e9e80"},
+    {"path":"experiments/yolo/gdt677_nine_one_hole_family_completion/src/OCCURRENCE_CONTEXT_SPECS.tsv","role":"twenty manual same-meaning context decisions","sha256":"ba9bb7f8c4b6a4fc3efd048c622d0bf8fe6c2f9157be0febe5ec5c2f5cf7f22a"},
+    {"path":"experiments/yolo/gdt677_nine_one_hole_family_completion/src/HISTORICAL_ANALOG_SPECS.tsv","role":"eight sourced historical information-architecture analogies","sha256":"8ddd93320c37edd92e1c315499cdbd452e800a761ec9833631b64b8acc520035"},
+    {"path":"experiments/yolo/gdt677_nine_one_hole_family_completion/src/THREE_READER_SYNTHESIS.md","role":"manual synthesis of three independent reader backgrounds","sha256":"6c84380c3e2e1add11df01117448d64b09d875e145a306bd4112e383172fb731"}
+  ],
+  "outputs": [
+    {"path":"experiments/yolo/gdt677_nine_one_hole_family_completion/README.md","role":"entry point","sha256":"6cd602efbcb63a4c8e5607f63974efdd37ebdbebf3149b9ef59547616aed9938"},
+    {"path":"experiments/yolo/gdt677_nine_one_hole_family_completion/METHOD.md","role":"method","sha256":"1d5da457e75a8503678fb5e2545015ca8106994c3b95c83975cab6df3a7997e1"},
+    {"path":"experiments/yolo/gdt677_nine_one_hole_family_completion/REPORT.md","role":"result report","sha256":"a1ac3d1801004e773b0326e5e0cfa4042937cf0beec858926f126e2cf38ef688"},
+    {"path":"experiments/yolo/gdt677_nine_one_hole_family_completion/artifacts/README.md","role":"artifact map","sha256":"a301b462daf88feb4f6b06d16750556e9cf8ce9d8ddb93ecb90c327f1b5f408e"},
+    {"path":"experiments/yolo/gdt677_nine_one_hole_family_completion/src/run.py","role":"deterministic builder","sha256":"db93f8a407cb665063204f4267114e8de1862a9a8603e480c9a96cf8a0fcf448"},
+    {"path":"experiments/yolo/gdt677_nine_one_hole_family_completion/src/validate.py","role":"independent validator","sha256":"932f82fdd6e641b926a0c114c2b4020de39883e6d65fee460d20c4df5136db63"},
+    {"path":"experiments/yolo/gdt677_nine_one_hole_family_completion/artifacts/TARGET_FAMILY_CARDS.tsv","role":"nine cards and family summaries","sha256":"8d9b67a2359b2b5813c903c7a37201198e4af2b479a749cc4f7ad67b72f2c975"},
+    {"path":"experiments/yolo/gdt677_nine_one_hole_family_completion/artifacts/TARGET_EXACT_OCCURRENCE_AUDIT.tsv","role":"all twenty exact occurrence contexts and reader boundaries","sha256":"a3ebe51a4e1065f31b0a13bfd7dc10236d94ab26e103f4e44e4c8f382c645daa"},
+    {"path":"experiments/yolo/gdt677_nine_one_hole_family_completion/artifacts/NINE_COMPLETED_LINES_V51.tsv","role":"aligned old and new nine-line edition","sha256":"3d0bdd50231bdc8ec7b220ef00993a0a9bcad5438299ca2596cf6f99ae973c2e"},
+    {"path":"experiments/yolo/gdt677_nine_one_hole_family_completion/artifacts/V51_51_LINE_READER.tsv","role":"complete 51-line V51 reader","sha256":"a6591a79f8fcb379a24562c778d8e81fe865e4b555e0791b87670c2d4b9bfccd"},
+    {"path":"experiments/yolo/gdt677_nine_one_hole_family_completion/artifacts/FAMILY_PREDICTIONS.tsv","role":"six forward family predictions","sha256":"50f217427f25c76ed9c576b604d4a51a61d868ba6bb9fc6cd3fd5fbdd2e398be"},
+    {"path":"experiments/yolo/gdt677_nine_one_hole_family_completion/artifacts/HISTORICAL_ANALOG_ATLAS.tsv","role":"sourced historical analogy atlas","sha256":"8ddd93320c37edd92e1c315499cdbd452e800a761ec9833631b64b8acc520035"},
+    {"path":"experiments/yolo/gdt677_nine_one_hole_family_completion/artifacts/GDT677_NINE_COMPLETED_WORKING_READER.md","role":"human-readable nine-line edition","sha256":"5fbe8872a57cd3d2f7cf5c6a80aa1731018394dde9a2004156b05b0a1117c8c8"},
+    {"path":"experiments/yolo/gdt677_nine_one_hole_family_completion/artifacts/RESULT.json","role":"compact result","sha256":"5edaa24131ea585b7223e7665812c9d2bb04317439c92699299feb0a51e8ceb0"},
+    {"path":"experiments/yolo/gdt677_nine_one_hole_family_completion/artifacts/VALIDATION.json","role":"independent validation","sha256":"2904066341e84e83b374fb0793889fdf9751e2bc18ff9b15fc68f02f2f13b6bb"}
+  ],
+  "question": "Can the nine remaining surfaces in GDT676's non-singleton one-hole lines receive concrete, compositionally related meanings that remain unchanged at every exact occurrence and close the lines without generic filler?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "nine_one_hole_family_completion",
+  "status": "PASS_9_FAMILY_CARDS__20_CONTEXTS_HOLD__9_LINES_CLOSED__V51_127_OPEN",
+  "title": "Nine One-Hole Family Completion",
+  "updated": "2026-08-31",
+  "validation": {
+    "artifact": "experiments/yolo/gdt677_nine_one_hole_family_completion/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}
