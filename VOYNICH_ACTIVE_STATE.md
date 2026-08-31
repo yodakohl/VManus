@@ -17634,3 +17634,40 @@ The next route compiles C001–C011 into their exact connected components and
 practical microrecords.  It must retain each source/target node, distinguish
 window hulls from edges, keep f26r.2#5 hull-only, preserve every held rival and
 add no edge or word meaning.
+
+## GDT701 compiles all eleven relations into nine exact practical components
+
+GDT701 joins edges only through an identical `(locus, ordinal)` occurrence
+node.  The eleven inherited C001--C011 edges therefore form exactly nine
+components: seven one-edge components, the f80v.35 repeated common-destination
+fan-out and the f86v6.25 serial action-output chain.  A synthetic pair of
+adjacent but disjoint edges on one locus remains two components, so same-locus
+proximity cannot silently create a join.
+
+The atlas contains 23 unique edge nodes and 25 edge-node incidences.  Only
+f80v.35#3 and f86v6.25#4 are shared nodes.  The 25 minimal-hull positions
+include exactly two nonnodes: f86v5.24#2 `aiin` is an unbound quantity and
+f26r.2#5 `chedy` is a state checkpoint.  Free `dy` at f26r.2#7 is retained only
+as render closure outside C011's hull.  M007 remains the only written serial
+intermediate; no component yet has an admitted named final result.
+
+All seven GDT697 microrecords remain exact and M008/M009 add only the inherited
+C010/C011 windows.  The 17 held rivals and 27 reference decisions do not
+change.  All 479 token glosses, 51 line translations and three bound spans are
+byte-identical, with no new edge, participant identity, word meaning, page or
+f84/f84r access.  The independent validator reconstructs the graph and passes
+205 checks.
+
+The next route is the finite immediate-right result census over all eleven
+target actions.  A precheck finds one strict candidate: f105v.1#4 `ykaiin` is
+followed immediately by #5 `olpchedy`, already read as *fertiges
+Holzextraktpulver*.  GDT682 had prose-rendered this as the result of heating,
+GDT687 independently classifies #5 as `NOMINAL_FINISHED_RESULT_STATE`, and
+GDT697 deliberately cut before #5 because no relation edge yet existed.  Test
+it against the second YKAIIN target, whose first right token is merely `or`,
+and the second in-scope OLPCHEDY occurrence, whose left action has a material
+mismatch.  Later attractive words inside a nominal block cannot be skipped to.
+GDT687 licenses the result-state type, not the #4→#5 link, and GDT689 keeps
+`olpchedy` as an unpaired whole rather than a productive sister form.  At most
+one occurrence-bound C012 may be nominated from the discriminating local
+material frame; no portable action-result default or new word meaning follows.
