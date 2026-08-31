@@ -1,0 +1,128 @@
+{
+  "checks": [
+    {
+      "check": "result_status",
+      "detail": "PASS_V67_22_RESIDUAL_SHARE_MIGRATIONS__ZERO_FRAKTION_479_TOKEN_READER__3_BOUND_SPANS",
+      "passed": 1
+    },
+    {
+      "check": "fixed_deck_dimensions",
+      "detail": "479 token positions and 51 lines",
+      "passed": 1
+    },
+    {
+      "check": "forbidden_folios_absent",
+      "detail": "no f84/f84r selector in materialized token deck",
+      "passed": 1
+    },
+    {
+      "check": "exact_rule_keyset",
+      "detail": "22 unique residual keys equal 22 source rules and 22 materialized migrations",
+      "passed": 1
+    },
+    {
+      "check": "rule_surface_and_gloss_match",
+      "detail": "all exact cards bind source surface, old gloss and new gloss",
+      "passed": 1
+    },
+    {
+      "check": "all_rules_exact_card_scoped",
+      "detail": "all 22 rules are exact-card scoped; three additionally remain learned whole renderers",
+      "passed": 1
+    },
+    {
+      "check": "only_22_positions_changed",
+      "detail": "the exact 22 residual keys changed; all other 457 token glosses are byte-identical",
+      "passed": 1
+    },
+    {
+      "check": "seventeen_changed_lines",
+      "detail": "22 migrations occupy 17 unique loci",
+      "passed": 1
+    },
+    {
+      "check": "zero_fraktion_tokens",
+      "detail": "zero Fraktion-bearing words in 479 V67 token glosses",
+      "passed": 1
+    },
+    {
+      "check": "zero_fraktion_lines",
+      "detail": "zero Fraktion-bearing words in 51 V67 lines",
+      "passed": 1
+    },
+    {
+      "check": "mixed_composition_architecture",
+      "detail": "22 exact cards across explicit modes, including three learned whole-form renderers",
+      "passed": 1
+    },
+    {
+      "check": "three_exact_nonoverlapping_spans",
+      "detail": "two inherited spans plus exact l|karchees span",
+      "passed": 1
+    },
+    {
+      "check": "independent_v67_line_replay",
+      "detail": "all 51 V67 lines reconstruct from token glosses and three spans",
+      "passed": 1
+    },
+    {
+      "check": "independent_v66_line_replay",
+      "detail": "all 51 inherited V66 lines reconstruct before migration",
+      "passed": 1
+    },
+    {
+      "check": "verb_profile_parity",
+      "detail": "113/113 ordinal profiles preserved; 110 exact surface forms present",
+      "passed": 1
+    },
+    {
+      "check": "six_product_rivals_preserved",
+      "detail": "all inherited rival fields are byte-identical and marked preserved",
+      "passed": 1
+    },
+    {
+      "check": "term_census_replay",
+      "detail": "Fraktion census is 22→0 in token and line channels",
+      "passed": 1
+    },
+    {
+      "check": "critical_ambiguity_repairs",
+      "detail": "single-D, boundary, index, bound-dry-shell and bound-L repairs are materialized",
+      "passed": 1
+    },
+    {
+      "check": "input_hashes",
+      "detail": "23 input hashes match",
+      "passed": 1
+    },
+    {
+      "check": "output_hashes",
+      "detail": "11 generated file hashes match RESULT",
+      "passed": 1
+    },
+    {
+      "check": "byte_replay",
+      "detail": "builder reproduces 12 generated files byte-for-byte in a clean temporary directory",
+      "passed": 1
+    }
+  ],
+  "checks_passed": 21,
+  "experiment": "GDT694",
+  "status": "PASS",
+  "summary": {
+    "bound_spans": 3,
+    "changed_lines": 17,
+    "exact_verb_forms": 110,
+    "f84_access": 0,
+    "f84r_access": 0,
+    "lines": 51,
+    "migrations": 22,
+    "new_pages": 0,
+    "product_rivals": 6,
+    "token_positions": 479,
+    "v67_fraktion_bearing_line_words": 0,
+    "v67_fraktion_bearing_token_words": 0,
+    "verb_profiles": 113
+  },
+  "validated_status": "PASS_V67_22_RESIDUAL_SHARE_MIGRATIONS__ZERO_FRAKTION_479_TOKEN_READER__3_BOUND_SPANS"
+}

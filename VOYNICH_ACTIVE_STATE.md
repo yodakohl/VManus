@@ -17412,3 +17412,41 @@ f84 or f84r access. The next route must migrate or explicitly retain each of
 the 22 residual wholes using its already published component and whole-card
 history. Only after a zero-Fraktion full reader should the stabilized nominal
 distinction feed the nominal-register versus procedure-grammar pass.
+
+## GDT694 closes the 22-card remainder without global substring export
+
+GDT694 migrates exactly the residual deck published by GDT693. V67 changes
+22/479 token positions on 17/51 lines and leaves the other 457 glosses
+byte-identical. Both the token and span-aware line editions now contain zero
+German words bearing *Fraktion*. *Anteil* rises from 57 to 79 bearing words in
+the token channel and from 56 to 78 in the line channel; *Portion* remains 49.
+The edition still covers the same 36 admitted pages and opens no new source.
+
+The migration is explicitly hybrid. Nineteen exact cards compose an R share
+around their already admitted material, quality, action or learned-body heads.
+`arl`, `lldar` and `chear` instead remain learned whole forms whose German
+whole-card head is normalized. Every one of the 22 rules is confined to its
+named exact card; no free AR, E, L, QO or other substring meaning is exported.
+
+The manual morphology, workshop and glossator readings exposed five important
+repairs. `okeeodar` now selects *Anteil I des vollständig erhitzten Auszugs*;
+the alternative *abgemessener Anteil I des vollständig erhitzten Ansatzes*
+keeps the other single-D bracket, so one written `d` is never spent twice.
+RF1b `ar|aram` reads *Drogenanteil I; davon ein Maß* and retains the recursive
+two-share reading only as a rival. `chdar` no longer repeats share index I as a
+preparation stage. A later audit removed an unsupported E=Mittelstufe import
+from `chear`: GDT639 pays only for a bound CH+E dry shell. Both alternate
+readers join `l|karchees`, so the third exact span consumes the wood head once
+as *vollständig getrocknete Charge aus Anteil I der erhitzten Holzdroge*.
+GDT679's bilateral `daiiirchy` repair remains *abgemessener Drogenanteil IV,
+leicht getrocknet*.
+
+All three bound spans are disjoint. All 113 inherited verb presence/absence
+profiles survive, with 110 exact listed forms before and after V67; all six
+local Holzauszug rivals remain byte-identical. The independent validator
+passes 21 executable checks, reconstructs all 51 V66 and V67 lines and
+byte-replays twelve generated files. The next route freezes all 479 V67 token
+glosses and three spans and changes only clause realization: nominal lists
+must remain inventories, while action sequences may gain already licensed
+objects and carries. It may not invent a noun/verb, rename a token, open a new
+page or access f84/f84r.

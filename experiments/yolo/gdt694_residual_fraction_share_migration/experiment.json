@@ -1,0 +1,72 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The complete 479-token and 51-line editions, 22 exact migration cards, 17 changed lines, three spans and 113 verb profiles are retained because exact-card scope, reader-bound consumption and preservation cannot be reconstructed from aggregate counts.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "V67 is an exploratory exact-card German working renderer over the fixed 479-token deck. It removes a generic inherited renderer noun and makes 22 default readings concrete, but it is not recovered plaintext and exports no manuscript-wide substring meaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt694_residual_fraction_share_migration/src/run.py",
+    "validate": "python3 experiments/yolo/gdt694_residual_fraction_share_migration/src/validate.py"
+  },
+  "created": "2026-08-31",
+  "dependencies": ["GDT639", "GDT648", "GDT652", "GDT654", "GDT663", "GDT666", "GDT678", "GDT679", "GDT680", "GDT681", "GDT682", "GDT690", "GDT691", "GDT693"],
+  "experiment_id": "GDT694",
+  "inputs": [
+    {"path": "experiments/yolo/gdt693_ar_head_semantic_tournament/artifacts/RESULT.json", "role": "inherited V66 result and scope", "sha256": "0d063a944669540f9b15ea9c3d828683f891aa10069fab78449ef866fb8e2a70"},
+    {"path": "experiments/yolo/gdt693_ar_head_semantic_tournament/artifacts/V66_113_SELECTED_VERB_PRESERVATION.tsv", "role": "inherited exact verb profiles", "sha256": "946ff8f8ea9f4948825bef0026c064bbf93268ac1085594ee92271c264ed6cea"},
+    {"path": "experiments/yolo/gdt693_ar_head_semantic_tournament/artifacts/V66_22_RESIDUAL_FRACTION_BEARING_OCCURRENCES.tsv", "role": "complete 22-position residual deck", "sha256": "6fa85cd2e6bd5ccd2eb41d6f1b7291e1b2e8e1c0e77904799ad8e2dd5dc0bbee"},
+    {"path": "experiments/yolo/gdt693_ar_head_semantic_tournament/artifacts/V66_2_SELECTED_BOUND_SPANS.tsv", "role": "two inherited bound spans", "sha256": "7e28c12d7d3f4e64d4487da67879073299b59f5d041a9a7165256a26a13b9fde"},
+    {"path": "experiments/yolo/gdt693_ar_head_semantic_tournament/artifacts/V66_479_TOKEN_SELECTED_SHARE_READER.tsv", "role": "complete V66 token reader", "sha256": "3dbb8c06bf8cd126795e2f11a0c16245efb3a8626642ac9513b6eee1d5012472"},
+    {"path": "experiments/yolo/gdt693_ar_head_semantic_tournament/artifacts/V66_51_LINE_SELECTED_SHARE_READER.tsv", "role": "complete V66 line reader", "sha256": "ff5ebe40773f138a5cb43fb491ab6c774e526881cb3bca9dc8a9478b13be2c0d"},
+    {"path": "experiments/yolo/gdt693_ar_head_semantic_tournament/artifacts/V66_6_SELECTED_PRODUCT_RIVALS.tsv", "role": "six inherited local product rivals", "sha256": "0eb34163ed481425bc3916ca4d08752d3f8a82a9121de8bbef9a89bf8e6319b6"},
+    {"path": "experiments/yolo/gdt639_strict_hole_component_repair/REPORT.md", "role": "CHEAR exact-whole and bound dry-shell provenance", "sha256": "7a78e7ca6428640018820a884358a4607c5aadb7334b700431b29889305250b7"},
+    {"path": "experiments/yolo/gdt648_strict_v24_hole_completion/REPORT.md", "role": "LKAR ladder provenance", "sha256": "86faa123f0f26671e5815e4bd63db78dca3047c4947959805260853f18c8761f"},
+    {"path": "experiments/yolo/gdt652_strict_v28_frontier_completion/REPORT.md", "role": "O-CKH preparation provenance", "sha256": "c5c991f33400c83136ce928286976829f7627af6031d80576aefb1c1df0a6ef9"},
+    {"path": "experiments/yolo/gdt654_ar_or_surface_consolidation/REPORT.md", "role": "AR/OR and actual boundary provenance", "sha256": "ab9581f972c7007cbda02be1a999ddea9187833e6689d3e0fa04effbf1370fbe"},
+    {"path": "experiments/yolo/gdt663_one_hundred_two_residual_family_completion/REPORT.md", "role": "CHAR/CHDAR family provenance", "sha256": "6d71b5873a2138f7f3385fdd8abbab1fd177fdd498bb90beff15bf1109769ec6"},
+    {"path": "experiments/yolo/gdt666_one_hundred_fifty_one_residual_family_completion/REPORT.md", "role": "ARL context-scoped whole provenance", "sha256": "08f8a628c0c00044fa5793d125126671f8e566a8f1ccd018fbb7d47807514e2d"},
+    {"path": "experiments/yolo/gdt678_seventeen_two_hole_family_completion/REPORT.md", "role": "two-hole exact whole and reader-span provenance", "sha256": "e9a30423438f55ac97be2a2aae06d100382f868d2816bf7e3b08f83e850c5e57"},
+    {"path": "experiments/yolo/gdt679_eight_three_hole_family_completion/REPORT.md", "role": "bilateral DAIIIRCHY and quantity provenance", "sha256": "6cc09c2ebd3ac8b4b804505d4fc9e36dd4426f589eadb159ea5f2251eabf42bd"},
+    {"path": "experiments/yolo/gdt680_eight_four_hole_family_completion/REPORT.md", "role": "ARARAM and KARD provenance", "sha256": "27d4d039aa70290e78912af44c1676b54dbc355f220845a5899d188fd9b5cef4"},
+    {"path": "experiments/yolo/gdt681_six_five_hole_family_completion/REPORT.md", "role": "FDAR provenance", "sha256": "8a1f39314bd36593d8341a510cec3c6a2f37ed68a89b208c3570aefcf69bdda8"},
+    {"path": "experiments/yolo/gdt682_final_seven_hole_line_completion/REPORT.md", "role": "POLAIRY/DAIRODY/SAIRY provenance", "sha256": "141205640faa9d3929211eb10edd0d056606f748a10409926f694dd9fbb2f726"},
+    {"path": "experiments/yolo/gdt690_noun_ordinal_provenance_main_apparatus/REPORT.md", "role": "material-head provenance", "sha256": "638d21c8155cb03a5b8120a8bc26f0f826505bd0a94cd9227dc001d03bcaaf50"},
+    {"path": "experiments/yolo/gdt691_preparation_head_role_dispatch/REPORT.md", "role": "preparation/product-head provenance", "sha256": "697a70b1ba372b07b8a2af29e159d55e4237c3b117aac82a3dea074a248e9627"},
+    {"path": "experiments/yolo/gdt694_residual_fraction_share_migration/src/V67_22_RESIDUAL_SHARE_RULES.tsv", "role": "22 exact migration cards", "sha256": "e487ae1c3b86174a59881613c43a7e4317137e2f9edd363da1fa88d6ae66529a"},
+    {"path": "experiments/yolo/gdt694_residual_fraction_share_migration/src/V67_ADDITIONAL_BOUND_SPAN.tsv", "role": "new l-karchees span", "sha256": "de933d6e085aace31956375240033f144f8e274256002a6143fa6f7229f863af"},
+    {"path": "experiments/yolo/gdt694_residual_fraction_share_migration/src/run.py", "role": "deterministic builder", "sha256": "b0e0216ba21b8f59bd620c9a46c3b3746ce520286947bb4356c4338002cd75c7"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt694_residual_fraction_share_migration/README.md", "role": "entry point", "sha256": "a2df3deedf95f176502681b6986182f615b27a5df2e069cd42f7a70d5c97273e"},
+    {"path": "experiments/yolo/gdt694_residual_fraction_share_migration/METHOD.md", "role": "scope and exact-card method", "sha256": "a42a55d063431262715f38e5f1e79fa61e84bbb48380cf124b041145820dc8fa"},
+    {"path": "experiments/yolo/gdt694_residual_fraction_share_migration/REPORT.md", "role": "result and next route", "sha256": "58609b721236076526a9ee9dcc2a2a4556723c0d8dd17006dbf13d317045a346"},
+    {"path": "experiments/yolo/gdt694_residual_fraction_share_migration/src/V67_22_RESIDUAL_SHARE_RULES.tsv", "role": "22-card source deck", "sha256": "e487ae1c3b86174a59881613c43a7e4317137e2f9edd363da1fa88d6ae66529a"},
+    {"path": "experiments/yolo/gdt694_residual_fraction_share_migration/src/V67_ADDITIONAL_BOUND_SPAN.tsv", "role": "additional bound-span source", "sha256": "de933d6e085aace31956375240033f144f8e274256002a6143fa6f7229f863af"},
+    {"path": "experiments/yolo/gdt694_residual_fraction_share_migration/src/run.py", "role": "deterministic builder", "sha256": "b0e0216ba21b8f59bd620c9a46c3b3746ce520286947bb4356c4338002cd75c7"},
+    {"path": "experiments/yolo/gdt694_residual_fraction_share_migration/src/validate.py", "role": "independent validator and byte replay", "sha256": "ba78c16e16b8c29e109e09a912535ca0cbcd23def4d7c4c2fed4b2cd871602be"},
+    {"path": "experiments/yolo/gdt694_residual_fraction_share_migration/artifacts/GDT694_V67_ZERO_FRACTION_READER.md", "role": "complete human-readable 51-line V67 edition", "sha256": "e2b115cdf066c9e363cc5a78c4108b69135457254f07666a05e547d306e36571"},
+    {"path": "experiments/yolo/gdt694_residual_fraction_share_migration/artifacts/README.md", "role": "artifact map", "sha256": "d8879c3d0cdd9ef2ef41ef176873a7e29cdc4efc659201690c5e357f2c550e3e"},
+    {"path": "experiments/yolo/gdt694_residual_fraction_share_migration/artifacts/RESULT.json", "role": "compact result, hashes and next route", "sha256": "1218440f15d274c2bfaf7a4dad1125caaadd4afe6ce714c517c3c6dd94196f2f"},
+    {"path": "experiments/yolo/gdt694_residual_fraction_share_migration/artifacts/V67_113_VERB_PRESERVATION.tsv", "role": "113-profile verb preservation", "sha256": "89ff7c06c296cc2a3d24707c006082ad67dc2362537989183b1e338dbee2474f"},
+    {"path": "experiments/yolo/gdt694_residual_fraction_share_migration/artifacts/V67_17_CHANGED_LINE_AUDIT.tsv", "role": "complete changed-line audit", "sha256": "fcbf1fa4ad52af52a79b2b5f4f0c622f51d234660720d1a46d76f59d566c7f3b"},
+    {"path": "experiments/yolo/gdt694_residual_fraction_share_migration/artifacts/V67_22_RESIDUAL_SHARE_MIGRATIONS.tsv", "role": "materialized 22 exact migrations", "sha256": "6d0381871e87bb107d0b889e59d73ce513f2d12d72a5097aa378e2699be5ac51"},
+    {"path": "experiments/yolo/gdt694_residual_fraction_share_migration/artifacts/V67_3_BOUND_SPANS.tsv", "role": "three exact non-overlapping spans", "sha256": "569b8ee823e73dcba34116075e9bcdfb8914ebbcd046978cf7ee40fcf8cd83c9"},
+    {"path": "experiments/yolo/gdt694_residual_fraction_share_migration/artifacts/V67_479_TOKEN_ZERO_FRACTION_READER.tsv", "role": "complete V67 token edition", "sha256": "0d064db8caec4d9d3f25b066805a5c7234490ab670fb48ec3e47ccba7daea1c6"},
+    {"path": "experiments/yolo/gdt694_residual_fraction_share_migration/artifacts/V67_51_LINE_ZERO_FRACTION_READER.tsv", "role": "complete V67 line edition", "sha256": "28cf00c143745ac0baead2a65cbaadcdf69537f2c06241ee622f6fa1352e8f11"},
+    {"path": "experiments/yolo/gdt694_residual_fraction_share_migration/artifacts/V67_6_PRODUCT_RIVALS.tsv", "role": "six inherited product rivals", "sha256": "f5cd300cd9d82041d9c70face52611c0cd4c04adc6c74bb2cd5479edf23434d0"},
+    {"path": "experiments/yolo/gdt694_residual_fraction_share_migration/artifacts/V67_COMPOSITION_CLASS_CENSUS.tsv", "role": "migration-mode census", "sha256": "ac71620a1a340a0277367b4a4a27ab601725b711bb369d13992feabae9504e5e"},
+    {"path": "experiments/yolo/gdt694_residual_fraction_share_migration/artifacts/V67_TERM_CENSUS.tsv", "role": "V66/V67 terminology census", "sha256": "a9196cfeb8825c1ce61e580b5bc2605dc2c82dbbafcb0e12b2823ac1f41e5e83"},
+    {"path": "experiments/yolo/gdt694_residual_fraction_share_migration/artifacts/VALIDATION.json", "role": "independent validation", "sha256": "16ba843251b69850560c964234be930ac6101e9983e5e4bb39c84a2a2d1e934a"}
+  ],
+  "question": "Can all 22 inherited fraction-bearing exact cards be migrated to the selected indexed-share renderer without erasing learned wholes, reader boundaries, verbs, product rivals, or material heads?",
+  "schema_version": 1,
+  "sealed_data": {"f84": "FORBIDDEN", "f84r": "FORBIDDEN"},
+  "slug": "residual_fraction_share_migration",
+  "status": "PASS_V67_22_RESIDUAL_SHARE_MIGRATIONS__ZERO_FRAKTION_479_TOKEN_READER__3_BOUND_SPANS",
+  "title": "V67 residual fraction-to-share migration",
+  "updated": "2026-08-31",
+  "validation": {
+    "artifact": "experiments/yolo/gdt694_residual_fraction_share_migration/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}
