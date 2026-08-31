@@ -1,0 +1,55 @@
+rule_id	surface	uses	practical_head_de	decision_class	live_rivals_de
+P001	qoteed	1	Auszug	EXACT_WORKFLOW_WHOLE	Zubereitung|Absud
+P002	oteed	1	Auszug	EXACT_WORKFLOW_WHOLE	Zubereitung|Absud
+P003	keeod	1	Auszug	EXACT_WORKFLOW_WHOLE	Absud
+P004	olord	1	Holzauszug	EXACT_MATERIAL_WORKFLOW_WHOLE	Holzzubereitung|Holzansatz
+P005	qoeeo	1	Mazerat	EXACT_LEARNED_WHOLE	zweite Einweichung|zweite Zubereitung
+P006	osheey	1	Mazerat	EXACT_MOIST_WHOLE	Einweichung|eingeweichte Zubereitung
+P007	otsheody	1	Mazerat	EXACT_MOIST_WHOLE	Einweichung|feuchte Zubereitung
+P008	sheody	1	Mazerat	EXACT_MOIST_WHOLE	Einweichung|feuchte Zubereitung
+P009	shoko	1	Mazerat	EXACT_MOIST_WHOLE	Feuchtzubereitung|Einweichung
+P010	shotchey	1	Mazerat	EXACT_MOIST_WHOLE	Feuchtzubereitung|Einweichung
+P011	cheody	3	Masse	TERMINAL_DRY_RESULT	getrocknete Zubereitung|Trockenextrakt|Rückstand
+P012	ochdy	1	Trockenmasse	TERMINAL_DRY_RESULT	Trockenzubereitung|Trockenextrakt
+P013	oechedy	1	Masse	TERMINAL_DRY_RESULT	getrocknete Zubereitung|Trockenextrakt|Rückstand
+P014	kchody	1	Trockenzubereitung	INTERMEDIATE_DRY_PREPARATION	heiß getrocknete Masse|Trockenextrakt
+P015	chody	1	Trockenzubereitung	INTERMEDIATE_DRY_PREPARATION	Trockenrückstand|Trockengut
+P016	otchdy	1	Trockenzubereitung	INTERMEDIATE_DRY_PREPARATION	Kaltansatz|Trockenrückstand
+P017	otchey	1	Trockenzubereitung	INTERMEDIATE_DRY_PREPARATION	Kaltansatz|Trockenrückstand
+P018	otchy	1	Trockenzubereitung	INTERMEDIATE_DRY_PREPARATION	Kaltansatz|Trockenrückstand
+P019	okchedy	1	Trockenzubereitung	INTERMEDIATE_DRY_PREPARATION	Heißansatz|Trockenrückstand
+P020	etyd	1	Zubereitung	FINISHED_GENERIC_PREPARATION	Auszug|Kaltansatz
+P021	teeedy	1	Zubereitung	FINISHED_GENERIC_PREPARATION	Auszug|Absud
+P022	adeeody	1	Zubereitung	FINISHED_GENERIC_PREPARATION	Auszug|Charge
+P023	okeeeey	1	Zubereitung	FINISHED_GENERIC_PREPARATION	Heißansatz|Absud
+P024	okiin	1	Zubereitung	FINISHED_GENERIC_PREPARATION	Heißansatz|Absud
+P025	olpchedy	2	Holzextraktpulver	MATERIAL_RESULT_COLLAPSE	getrocknetes Holzpulver|Holzrückstand
+P026	opchedaiin	1	Pulver	MATERIAL_RESULT_COLLAPSE	Pulverzubereitung|Trockenpulver
+P027	opchey	1	Trockenpulver	MATERIAL_RESULT_COLLAPSE	Pulverzubereitung
+P028	op	1	Pulverzubereitung	MATERIAL_PREPARATION	Pulvermischung|Pulveransatz
+P029	chopo	1	Pulverzubereitung	MATERIAL_SOURCE_COLLAPSE	Pulvermischung aus Trockenextrakt
+P030	qocho	1	getrocknete Droge	MATERIAL_RESULT_COLLAPSE	Trockenzubereitung|Trockenmasse
+P031	ytcho	1	Trockenmischung	INTERMEDIATE_DRY_PREPARATION	Kaltansatz|Trockenmasse
+P032	ykcho	1	Trockenmischung	INTERMEDIATE_DRY_PREPARATION	heiße Trockenzubereitung|Trockenextrakt
+P033	orom	1	Drogenmaterial	LOCAL_QUANTITY_CONTEXT	Zubereitung|Trockengut
+P034	chokol	1	Absud	CONTRADICTION_REPAIR	Trockenzubereitung|heißes Trockengut
+P035	daiin	1	Absud	LEFT_HEAD_CARRY	Trockenzubereitung
+P036	ockhdar	1	Arzneizubereitung	O_CKH_PREPARATION_PRESERVATION	Arzneiansatz|Arzneikompositum-Auszug
+P037	chockhy	1	Arzneizubereitung	O_CKH_PREPARATION_PRESERVATION	Trockenansatz des Arzneikompositums
+P038	kchod	1	Auszug	EXACT_WORKFLOW_WHOLE	Absud|heiß-trockene Zubereitung
+P039	ofchedy	1	Blütenmasse	MATERIAL_RESULT_COLLAPSE	Blütentrockenextrakt|Blütenrückstand
+P040	solchedy	1	Samenmasse	MATERIAL_RESULT_COLLAPSE	Samenrückstand|Samenzubereitung
+P041	olkar	16	Holzauszug	LOCAL_CONTEXT_WHOLE	erste erhitzte Fraktion des Holzansatzes
+P042	otair	2	Kaltauszug	LOCAL_CONTEXT_WHOLE	zweite Fraktion des kalten Ansatzes
+P043	okal	4	heißer Ansatz	LOCAL_CONTEXT_WHOLE	Rohstoffklasse I der Heißzubereitung
+P044	olkaiir	1	Holzauszug	LOCAL_CONTEXT_WHOLE	dritte erhitzte Fraktion des Holzansatzes
+P045	okar	2	Drogenauszug	LOCAL_CONTEXT_WHOLE	erste Drogenfraktion des heißen Ansatzes
+P046	oidal	1	Grundansatz	LOCAL_CONTEXT_WHOLE	Rohstoffmenge I der Grundzubereitung
+P047	otal	1	kalter Ansatz	LOCAL_CONTEXT_WHOLE	Rohstoffklasse I der Kaltzubereitung
+P048	qodaiin	1	heißer Drogenauszug	LOCAL_CONTEXT_WHOLE	drei Portionen der ersten Fraktion des erhitzten Ansatzes
+P049	oar	1	Drogenauszug	LOCAL_CONTEXT_WHOLE	erste Drogenfraktion des Ansatzes
+P050	daiin	1	heißer Drogenauszug	LOCAL_CONTEXT_WHOLE	drei Portionen der ersten Fraktion des erhitzten Ansatzes
+P051	otar	1	Kaltauszug	LOCAL_CONTEXT_WHOLE	erste Drogenfraktion des kalten Ansatzes
+P052	otshey	1	Mazerat	EXACT_MOIST_WHOLE	kalt-feuchte Zubereitung|Einweichung
+P053	okeeodar	1	Auszug	EXACT_WORKFLOW_WHOLE	Fraktion der Heißzubereitung|Absud
+P054	qopaiin	1	Pulverzubereitung	MATERIAL_PREPARATION	Pulvermischung|Pulveransatz

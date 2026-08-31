@@ -17311,3 +17311,38 @@ learned whole cards and prose support; select among concrete Ansatz, Auszug,
 Absud, Mazerat and Bad only where the exact card or bounded local family can
 carry the value. Preserve every current verb, p/s/r/l head and noun ordinal;
 f84 and f84r remain forbidden.
+
+## GDT691 separates preparation heads from preparation relations
+
+GDT691 rebuilds the same 51 lines/479 token positions as V64 without opening a
+page. The 140 V63 preparation spans at 139 written positions are not 140
+interchangeable heads: they divide into 49 actual heads, 34 compound heads, 35
+locative/context relations, 15 genitive/source relations and seven
+quantity-governed objects. In particular, the sixteen *Ansatz* mentions on
+`olkar` are relations and do not make *Ansatz* the word's independent head.
+
+Fifty-four exact `(surface, V63 gloss)` rules revise 77 positions. All six SH
+end-preparation cells take the working main *Mazerat*, with `qoeeo` as an
+additional exact whole. The abgezogen family `qoteed/oteed/keeod/kchod/qokeod/
+okeeodar` forms an *Auszug* workflow island. Heat alone never licenses
+*Absud*: the only main Absud chain is `chokol` plus the immediate carried
+`daiin` grade. Terminal dry wholes become *Masse/Trockenmasse* or a visible
+material result, while intermediate dry cells remain *Trockenzubereitung*.
+The O-CKH opposition remains *Arzneizubereitung*, rather than collapsing to a
+naked material noun.
+
+All 35 contextual relations survive: 32 are rerendered exactly and three keep
+their already explicit wording. All 113 action ordinals survive, and V64
+introduces no additional exact verb-form loss. The practical term inventory
+moves *Ansatz* 143→75, *Zubereitung* 7→21, *Auszug* 1→32, *Mazerat* 1→7,
+*Masse* 3→10 and *Mischung* 1→3; *Absud* stays 2 and *Bad* remains zero.
+Validation passes fourteen checks and byte-replays the complete edition.
+
+The concrete local readings `olkar/olkaiir/otair/okar/oar/otar` remain exact
+whole-card choices with conservative fraction/Ansatz rivals. They do not yet
+license productive O, Q, K, T or AR substring values; 48 of 54 rules are
+singletons. The next no-new-page route enumerates their complete O/Q
+temperature–fraction sisters—`okar/qokar`, `otar/qotar`,
+`otair/otarar/otardy`, and `oar/oair/qodar/odar`—and asks whether the Auszug
+main values predict the sisters or must remain learned local wholes. Verbs,
+p/s/r/l material heads, written ordinals, f84 and f84r remain closed.
