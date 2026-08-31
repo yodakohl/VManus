@@ -16917,3 +16917,38 @@ card. Therefore the new task is thirty new cards plus one inherited-card reuse,
 all checked through every exact admitted occurrence. The duplicate screen
 returns older bulk and smaller-hole completion passes rather than this V53
 circuit. No new page is needed; f84 and f84r remain forbidden.
+
+## GDT680 closes the eight four-hole lines and reaches 92.3% on the 51-line deck
+
+GDT680 assigns thirty new concrete cards across all 88 exact ZL3b occurrences
+on 64 lines and fifty already admitted pages. The 32 source holes contain 31
+distinct surfaces because `qoekol` repeats; `pchedaiin` is not reassigned but
+reuses its exact four-position GDT678 powder-dose card. V54 moves 410→442 of
+479 assigned positions, 69→37 explicit gaps, 36→44 complete lines and 65→75
+licensed action positions. Global gaps fall 7,765→7,677 and complete lines rise
+1,418→1,429; `chetain` additionally closes f112v.22 and short `da` closes
+f14r.2 and f32v.10.
+
+The strongest new families are `tshol`, cold-soaked drug material at six
+bilateral-exact positions; `chetain`, dry to middle then cool to level II at
+four bilateral-exact process positions; `qodar`, measure the first preparation
+fraction at ten positions; and `qockhol=qo+ckhol`, add composite-drug material
+at six positions. The adjacent bilateral-exact `qoekol qoekol` on f88r.19 is
+executed twice as the same hot-middle-material command.
+
+The independent reader passes materially corrected the first synthesis.
+Published `fchedy` keeps `ofchedy` in the dried-flower family rather than
+powder. RF1b `ar aram` gives one measure of fraction I, not a double measure.
+`qopaiin` preserves the QOP take-command, and `oidal` preserves known `odal`,
+measured raw material I in preparation, rather than borrowing the AIR
+fraction-II ladder. Both alternate readers repair f47r.1 `chair→pchair` and
+bind f78v.20 `op chedy→opchedy`; all eighteen non-bilateral positions have an
+explicit local decision. `tail/kail`, seed/salt `solky`, unit-I/handful `orom`
+and short unstable `da` remain visible rivals.
+
+Hard generic vocabulary remains absent. Independent validation passes 282
+checks and reproduces eleven files byte-for-byte. The next no-new-page front is
+six five-gap lines with thirty distinct surfaces. `chepy` already has GDT680's
+dry-powder-base card, leaving twenty-nine genuinely new cards plus one explicit
+reuse for GDT681. The duplicate screen returns older bulk and smaller-hole
+passes rather than this V54 circuit. f84 and f84r remain forbidden.

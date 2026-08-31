@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **677**
-- Experiment-associated tracked files: **11,339** (1.2 GiB)
-- Structured GDT337+ experiments: **342**
+- Experiments indexed: **678**
+- Experiment-associated tracked files: **11,364** (1.2 GiB)
+- Structured GDT337+ experiments: **343**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT680 | GDT680_eight_four_hole_family_completion | `PASS_30_NEW_CARDS__88_CONTEXTS_HOLD__1_CARD_REUSED__8_V54_LINES_CLOSED__V54_37_OPEN` | [report](../experiments/yolo/gdt680_eight_four_hole_family_completion/REPORT.md) | 25 | 353.8 KiB | 7 | STRUCTURED_YOLO |
 | GDT679 | GDT679_eight_three_hole_family_completion | `PASS_24_FAMILY_CARDS__57_CONTEXTS_HOLD__8_V53_LINES_CLOSED__V53_69_OPEN` | [report](../experiments/yolo/gdt679_eight_three_hole_family_completion/REPORT.md) | 23 | 282.8 KiB | 6 | STRUCTURED_YOLO |
 | GDT678 | GDT678_seventeen_two_hole_family_completion | `PASS_34_FAMILY_CARDS__101_CONTEXTS_HOLD__17_V52_LINES_CLOSED__V52_93_OPEN` | [report](../experiments/yolo/gdt678_seventeen_two_hole_family_completion/REPORT.md) | 23 | 403.7 KiB | 5 | STRUCTURED_YOLO |
 | GDT677 | GDT677_nine_one_hole_family_completion | `PASS_9_FAMILY_CARDS__20_CONTEXTS_HOLD__9_LINES_CLOSED__V51_127_OPEN` | [report](../experiments/yolo/gdt677_nine_one_hole_family_completion/REPORT.md) | 20 | 170.6 KiB | 5 | STRUCTURED_YOLO |
