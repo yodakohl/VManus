@@ -17795,3 +17795,54 @@ The next finite pass inventories actions whose final result is not separately
 written, beginning with C015 target #8, and looks only for a later explicit
 state or repeated material inside the same scope.  C016 remains the leading
 weaker alternative.
+
+## GDT705 completes the immediate nominal first-token classification
+
+GDT705 corrects an important routing omission in GDT703.  GDT703 enumerated all
+sixty immediate ACTION-to-NOMINAL transitions but practically adjudicated only
+the seven exact `NOMINAL_FINISHED_RESULT_STATE` cases.  Two additional HIGH
+first items belong to the separate `NOMINAL_FINISHED_MIDDLE_DRY_PORTION` class,
+and other useful operation/state mirrors lie outside the GDT687 target deck.
+GDT705 now classifies the first nominal token in all sixty cases: two new local
+edges, five strong new holds, three admitted replays, four retained holds,
+twenty partial open cases and 26 visible conflicts.  Later entries inside the
+nominal blocks are not thereby resolved.
+
+C017 is the local pair `f80r.17#3 sheky→#4 shkeol`: *Bis zur Mittelstufe
+einweichen, erhitzen und abschließen. Ergebnis: eingeweichter Drogenstoff, bis
+Mittelstufe erhitzt.*  The target directly mirrors soaking, heating and the
+middle stage.  Material identity nevertheless remains open: immediately left
+#2 `sheckhy` is *feuchtes Arzneikompositum*, and the action does not write its
+own patient.  Only #4 is bound; #5 `qokar` remains an unbound later register
+entry.  The two other `sheky` occurrences are controls: A058 is followed by a
+new action, and A060 by hot raw material at the beginning of the grade.  No
+portable SHEKY output rule follows.
+
+C018 is the lower-tier local pair `f7r.2#5 dold→#6 dchey`: *Drogenstoff
+abmessen und abschließen. Ergebnis: fertige abgemessene
+Mittelstufen-Trockenportion.*  `abmessen→abgemessen` is a direct mirror;
+`abschließen→fertig` is only semantic equivalence, and #6 writes a generic
+portion rather than a Drogenstoff head.  Only #6 is bound; #7-9 remain unbound
+later register entries, not proven separate batches.  A043 has the same HIGH
+`dchey` target but lacks written measurement, portion and middle-stage input,
+so target identity does not license a DCHEY adjacency default.
+
+The five leading unadmitted comparisons remain live: A066 heat→hot dry goods,
+A072 cool drug→cold preparation measure, A046 measure composite→measured wet
+raw-material quantity, A006 package/close→completed composite, and A043 warm
+dry mixture→finished measured dry portion.  They are not rejected; each lacks
+or changes enough written information to stay outside the current edge graph.
+
+C017 and C018 create disjoint two-node components M011 and M012.  The
+cumulative graph now has seventeen edges, twelve components, 32 unique edge
+nodes, 37 endpoint incidences, 34 hull positions, 34 render positions and five
+shared nodes.  The two old hull-only positions and sole structural closure are
+unchanged.  All 479 token glosses, 51 line translations, three bound spans and
+36 pages remain unchanged; no word meaning, f84 or f84r access is added.  The
+independent validator passes 63,464 checks and reproduces the two expected
+GDT388 formal-access errors.
+
+The next pass is a separate later-result census only for actions still lacking
+an immediate written result.  Begin with the already ranked delayed candidates,
+retain A066/A072/A046/A006/A043 and C016 as comparators, and do not open a page
+or reinterpret a word.
