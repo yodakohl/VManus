@@ -17236,3 +17236,39 @@ their 39 real non-`dy` sisters. It must distinguish a mere field-end spelling,
 a nominal result form and an endpoint-bearing action; `dchey/dchedy` is not a
 minimal pair, and `cheody/cheoy` is the parser-equality control. f84 and f84r
 remain forbidden.
+
+## GDT689 preserves thirty-six sister heads and separates the parser null
+
+GDT689 rebuilds the sixty bound visible-`dy` surfaces and 74 current positions
+through page-guarded inputs. Mechanical deletion of the penultimate `d` finds
+39 card-backed neighbours, but only 36 supply an independently valued sister
+head. `cheody/cheoy` shares `CH+E+O+Y` and is a separate parser-null because
+`cheoy` has no V48 meaning; `dchedy/dchey` is parser-invalid; and
+`ypcheddy/ypchedy` leaves a nested `dy`.
+
+The selected V62 code contains 25 nominal result forms, twelve sister-copy
+field ends, zero productive action-telicity forms, one invalid pair and 22
+whole-only forms. A simple rule—same recipe or already end-pointed sister to
+FIELD_END, otherwise RESULT_PARTICIPLE—reproduces 36/37 decisions. `ychedy`
+is the sole explicitly in-sample whole-card exception and is not presented as
+a held prediction. The GDT624 grid remains only a `d_bit`/state-binding
+control, not evidence for the German term result participle.
+
+V62 revises 47 sister-head positions and three `cheody` parser-null positions
+on 25 lines. `olchdy` becomes *Holzdroge im Ansatz fertig getrocknet* instead
+of a generic drying command; `olshedy`, `solchedy`, `qoeedy` and `ychedy`
+likewise retain their material or operation core. The full reader still has51
+lines/479 positions and now has83 action ordinals with115/115 exact verb-span
+backprojections. Formal recipes partition into24 definite DY forms/30
+positions,2 mixed/3,17 non-DY/24 and17 unresolved/17. Strict, mechanical and
+four-layer debt remain106/152/330 because composition improves without
+confirming historical words.
+
+The next no-new-page route is exact noun provenance. Bind every emitted
+content noun to one written ordinal and distinguish productive GDT635/636
+`p/s/r/l` heads, learned local whole values, and prose-only inventions. Render
+a concrete main reading plus a compact uncertainty apparatus, starting with
+Gummiharz, Blüten-/Fruchtstand, Wurzel, CTH-Drogenmaterial, qo-Rahmen and
+Holzbindung offen. GDT685's rejected universal Ansatz head stays closed.
+Every mixed source must be selector-guarded before materialization; f84 and
+f84r remain forbidden.

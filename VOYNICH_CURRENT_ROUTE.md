@@ -32,39 +32,23 @@ GDT477–589 give the complete30-page reader and carrier overlays. GDT590–599 
 - Confirmed plaintext clauses: **0**.
 - Established language, phonetic alphabet, cipher, POS system, or S/V/O order: **none**.
 - Structural tags are formal descriptions, never translations.
-- ZL3b, IT2a, and RF1b are alternate readings of one manuscript, not three independent samples.
-- OCR, neural image recognition, CLIP/embedding retrieval, automatic captions, and automatic manuscript-image classification are excluded evidence.
+- ZL3b/IT2a/RF1b are alternate readings of one manuscript. Automatic image
+  classification, OCR captions and embedding retrieval are excluded evidence.
 ## Best live architectural description
 
-The strongest current model is a manuscript-wide, hierarchical,
-page-conditioned, line-reset construction system. “Record-like” describes its
-organization; it does not establish a database, natural-language syntax, or a
-technical genre.
-Physical lines are active structural units. Source separators carry
-hierarchical information. Reusable formal pieces recombine, but GDT003 found
-that held-folio transformation prediction does not beat strong character/string
-baselines. Formal reuse is therefore established; linguistic morphology is not.
-The live HPR2-style representation separates an opaque joint source state into
-descriptive coordinates such as wrapper, local frame, PAGE_HOST, right family,
-DY, and B3. These coordinates are an analysis representation, not proven
-authorial morphemes. PAGE_HOST is not a confirmed lexical item or semantic
-address.
+The strongest formal model is a hierarchical, page-conditioned, line-reset
+construction system. Physical lines and separators organize reusable pieces,
+but GDT003 did not beat string baselines on held transformation. HPR2
+coordinates such as PAGE_HOST/DY/B3 remain opaque analysis variables, not
+authorial morphemes, syntax or translations.
 ## Executable current layer
 
 ### Renderer
 
-- GDT314 and GDT315 support a stochastic `s` physical-line-entry selector after
-  an exact compatible cell is already licensed.
-- GDT316 and GDT317 support a stochastic `q` post-DY entry selector after an
-  exact compatible cell is already licensed.
-- GDT321 shows that these two rules retain the justified transferable renderer
-  gain after the fresh `t` and `d` tests failed.
-- GDT322 publishes the executable two-rule renderer over 126 known cells,
-  covering 5,607/8,448 events (66.4%). Unknown cells remain
-  `UNLICENSED_OR_UNKNOWN`; no rule may invent a new compatible cell.
-- GDT323 prefers global rather than Currier/register-specific magnitudes.
-`s` and `q` have no established sound, prefix meaning, POS, or translation.
-DY and B3 have no established semantic value.
+GDT314–323 retain only stochastic `s` line-entry and `q` post-DY selectors
+after an exact cell is licensed. GDT322 covers5,607/8,448 events over126 known
+cells; unknown cells stay `UNLICENSED_OR_UNKNOWN`. `s`,`q`,DY andB3 have no
+established sound, POS or translation.
 ### Opaque joint tuples
 
 - GDT324 found a small coordinate ecology on well-supported cells, but host
@@ -284,13 +268,8 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-GDT688 compiles all51 current lines through one source-ordered V61 renderer. All113 practical German verb occurrences now have an exact character span inside one of85 written action positions;zero free,ambiguous or syntax-only verbs remain. The executable legacy leakage is74 extra lemma×line pairs in V57,66 in V59,4 in the already generated V60 and0 in V61. Thus GDT687's published 66-pair next-scope was stale:its own rewrite had already reduced66→4 on f114v.36 and f75r.3. No semantic card or debt total changes. Next compare all60 bound surface-`dy` forms with their39 real non-`dy` sisters and dispatch the visible ending to FIELD_END,RESULT_PARTICIPLE or ACTION_TELICITY only where the pair supports it. Preserve the formal positional end prior as the null;`dchey/dchedy` is not a minimal pair and visible `cheody/cheoy` shares one parser recipe. No new page;f84/f84r forbidden.
+GDT689 guards and rebuilds all60 bound visible-`dy` forms/74 positions. The39 one-edit neighbours reduce to36 valued sister heads plus the same-recipe `cheody/cheoy` null;`dchedy/dchey` is parser-invalid and `ypcheddy/ypchedy` nested. V62 selects25 RESULT,12 silent FIELD_END,0 productive TELIC,1 invalid and22 whole-only forms;47 head+3 null revisions yield51 lines/479 positions/83 actions/115 exact verbs. Formal status is24 definite DY+2 mixed+17 non-DY+17 unresolved;the mechanical rule compresses36/37 decisions,with `ychedy` explicitly in-sample. Debt stays106/152/330. Next bind every practical V62 content noun to one exact ordinal/card:retain GDT635/636 p/s/r/l heads,separate local wholes from prose-only inventions,and issue concrete main text plus uncertainty apparatus. Start with Gummiharz,Blüten-/Fruchtstand,Wurzel,CTH-Drogenmaterial,qo-Rahmen and Holzbindung;GDT685's universal Ansatz stays closed. No new page;guard mixed tables before materialization;f84/f84r forbidden.
 ## Primary routing references
 
-- `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`
-- `GDT327_JOINT_TUPLE_INTERLINEAR_REPORT.md`
-- GDT386–389 reports: `experiments/yolo/gdt386_independent_relation_edge_capacity/REPORT.md`, `experiments/yolo/gdt387_cross_domain_parent_link_calibration/REPORT.md`, `experiments/yolo/gdt388_acquisition_ready_relation_edge_protocol/REPORT.md`, `experiments/yolo/gdt389_connector_edge_census/REPORT.md`
-- `experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/GDT395_ADVERSARIAL_SYNTHETIC_IDENTIFIABILITY_REPORT.md`
-- GDT390–392 reports: `experiments/yolo/gdt390_q20_inter_record_pointer_census/REPORT.md`, `experiments/yolo/gdt391_local_object_relation_normalization/REPORT.md`, `experiments/yolo/gdt392_special_circle_start_direction_census/REPORT.md`
-- `GDT330_F84R_METADATA_ACCESS_CORRECTION.md`
-Use `experiments/EXPERIMENT_INDEX.tsv` for paths, dependencies and validators.
+Use `experiments/EXPERIMENT_INDEX.tsv` for reports, dependencies and validators;
+the grammar registry is `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`.

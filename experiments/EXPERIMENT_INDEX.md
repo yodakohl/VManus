@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **686**
-- Experiment-associated tracked files: **11,548** (1.2 GiB)
-- Structured GDT337+ experiments: **351**
+- Experiments indexed: **687**
+- Experiment-associated tracked files: **11,573** (1.2 GiB)
+- Structured GDT337+ experiments: **352**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT689 | GDT689_v62_bound_dy_sister_endpoint_dispatch | `PASS_V62_36_HEAD_SISTERS_PLUS_1_RECIPE_NULL__25_RESULT_12_FIELD_0_TELIC__47_HEAD_PLUS_3_NULL_REVISIONS` | [report](../experiments/yolo/gdt689_v62_bound_dy_sister_endpoint_dispatch/REPORT.md) | 25 | 369.8 KiB | 6 | STRUCTURED_YOLO |
 | GDT688 | GDT688_v61_exact_verb_ordinal_provenance_renderer | `PASS_V61_113_OF_113_PRACTICAL_VERBS_EXACT_ACTION_ORDINAL__LEGACY_LEAKAGE_74_TO_66_TO_4_TO_0` | [report](../experiments/yolo/gdt688_v61_exact_verb_ordinal_provenance_renderer/REPORT.md) | 19 | 236.2 KiB | 3 | STRUCTURED_YOLO |
 | GDT687 | GDT687_v60_dchey_y_dy_action_result_boundary_dispatch | `PASS_95_POSITION_SCOPE_DISPATCH__V60_24_ACTION_64_RESULT_3_REFERENCE_4_BOUNDARY` | [report](../experiments/yolo/gdt687_v60_dchey_y_dy_action_result_boundary_dispatch/REPORT.md) | 24 | 257.2 KiB | 7 | STRUCTURED_YOLO |
 | GDT686 | GDT686_v59_dain_daiin_qodaiin_value_head_dispatch | `PASS_955_VALUE_HEAD_CENSUS__REJECT_UNIVERSAL_AXIS__V59_FOUR_GRADES_SEVEN_AMOUNTS` | [report](../experiments/yolo/gdt686_v59_dain_daiin_qodaiin_value_head_dispatch/REPORT.md) | 22 | 612.6 KiB | 8 | STRUCTURED_YOLO |
