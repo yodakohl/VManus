@@ -17272,3 +17272,42 @@ Gummiharz, Blüten-/Fruchtstand, Wurzel, CTH-Drogenmaterial, qo-Rahmen and
 Holzbindung offen. GDT685's rejected universal Ansatz head stays closed.
 Every mixed source must be selector-guarded before materialization; f84 and
 f84r remain forbidden.
+
+## GDT690 binds every V63 main noun to one exact written ordinal
+
+GDT690 rebuilds the same 51 lines/479 token positions without opening a page.
+Its versioned German word census classifies every emitted word and yields 725
+main noun occurrences at 459 positions, 108 canonical nouns and zero unbound
+main noun spans. Each occurrence carries exact token-local and line-global
+character offsets, the written surface and ordinal, selected head, rivals,
+provenance tier and upstream-source status.
+
+Seventy-two exact-surface rules touch 104 positions and change 92. The main
+productive heads are now consistently `p=Pulver`, `s=Samen`, `r=Wurzel` and
+`l=Holz`; overlong atomic readings such as Drogenholz are rendered as the
+short head plus the inherited state/form. Local selections are `shx=Gummi`,
+`shor=Blüte` and the CTH family=`Kraut`, with Harz/Gummiharz, Frucht and Blatt
+retained in the apparatus. The eight current `chol/shol/tol` state cells still
+emit zero nouns, preserving GDT685's rejection of a universal Ansatz head.
+
+V62 had 40 spoken structural/meta noun occurrences and 21 slash-or token
+alternatives. V63 has zero of both. In particular, twelve qo/preparation/
+Ansatz-frame positions become concrete cold/hot Ansatz states; twenty
+`olkar/olam` positions no longer speak *Holzbindung offen*. Their concrete
+Holzfraktion/Maß-Holz reading is explicitly `PROVISIONAL_LOCAL_SCOPE_HEAD`:
+these o-initial forms do not license a free internal-`l` rule.
+
+Written-ordinal provenance is complete, but upstream card export is not. The
+restricted GDT635/636/685 join gives 49 exact-gloss, 45 exact-surface-only, 25
+productive-head-only and 360 unexported token positions. The last class is
+reported as missing rather than assigned an invented card. The historical
+comparison uses real early-fifteenth-century short heads and rival sets only;
+it supplies no Voynich identification. Validation independently reconstructs
+all 725 main and 773 source noun spans and byte-replays every artifact.
+
+The next no-new-page route is the preparation-noun pass over 140 V63 spans,
+especially 89 bare `Ansatz` occurrences. Separate exact o-frame preparations,
+learned whole cards and prose support; select among concrete Ansatz, Auszug,
+Absud, Mazerat and Bad only where the exact card or bounded local family can
+carry the value. Preserve every current verb, p/s/r/l head and noun ordinal;
+f84 and f84r remain forbidden.

@@ -1,0 +1,113 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The complete 479-token and 725-noun tables are retained because exact ordinal, character span, before/after gloss, selected head, rivals and upstream-source status cannot be reconstructed from aggregate totals.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "V63 is an exploratory concrete working renderer over the current 51-line edition. It proves exact German noun-output-to-written-ordinal provenance, not that any German noun is historical Voynich plaintext. Productive p/s/r/l values are scoped GDT635/636 working heads; Gummi, Blüte, Kraut and the local olkar/olam Holz scope remain replaceable working selections. Missing upstream cards are explicitly unexported, never invented.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt690_noun_ordinal_provenance_main_apparatus/src/run.py",
+    "validate": "python3 experiments/yolo/gdt690_noun_ordinal_provenance_main_apparatus/src/validate.py"
+  },
+  "created": "2026-08-31",
+  "dependencies": [
+    "GDT635",
+    "GDT636",
+    "GDT685",
+    "GDT689"
+  ],
+  "experiment_id": "GDT690",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt689_v62_bound_dy_sister_endpoint_dispatch/artifacts/V62_51_LINE_READER.tsv",
+      "role": "complete current 51-line source edition",
+      "sha256": "03b5d6f31a99acb9c8c29d2647529301e37b6b45d356517668c3bb8335a6091d"
+    },
+    {
+      "path": "experiments/yolo/gdt689_v62_bound_dy_sister_endpoint_dispatch/artifacts/RESULT.json",
+      "role": "inherited debt totals and source ceiling",
+      "sha256": "0475c05a736af2afb4acd95f871321924fb519c19ae983c6630a71c970d08d30"
+    },
+    {
+      "path": "experiments/yolo/gdt635_initial_head_same_remainder_swaps/artifacts/WORKING_DICTIONARY_V12.tsv",
+      "role": "restricted exact-surface source dictionary",
+      "sha256": "22e8a24ac2b90486dd25bb5d96c71b022735422297bcd472efa773c09a0ef6c5"
+    },
+    {
+      "path": "experiments/yolo/gdt635_initial_head_same_remainder_swaps/artifacts/CONCRETE_FOUR_HEAD_PARADIGMS.tsv",
+      "role": "productive p/s/r/l complete-form grid",
+      "sha256": "dbe2606bf164b345131118dce57891362251809c661cca4192e759fcf9067159"
+    },
+    {
+      "path": "experiments/yolo/gdt636_residual_four_head_semantics/artifacts/WORKING_DICTIONARY_V13.tsv",
+      "role": "restricted exact-surface source dictionary",
+      "sha256": "543c4119a20249269a1f244de67ae516b19fa83a069853df598cc24e5dd6a11e"
+    },
+    {
+      "path": "experiments/yolo/gdt636_residual_four_head_semantics/artifacts/RESIDUAL_76_FORM_GRID.tsv",
+      "role": "residual p/s/r/l full-form grid",
+      "sha256": "c868d5d916a9d0564eaf910693ae862c1ed1fd02fd9a25b970323549cfc24c7e"
+    },
+    {
+      "path": "experiments/yolo/gdt685_v58_ch_sh_t_ol_ansatz_dispatch/artifacts/SURFACE_STATE_DISPATCH_SUMMARY.tsv",
+      "role": "chol/shol/tol no-universal-Ansatz guard",
+      "sha256": "963429437d29f85718001a61807a0dfd069e3fc7983ddb0682dd4f06ba362308"
+    },
+    {
+      "path": "experiments/yolo/gdt690_noun_ordinal_provenance_main_apparatus/src/V63_NOUN_RENDER_RULES.tsv",
+      "role": "72 explicit exact-surface main/apparatus decisions",
+      "sha256": "4d309604e6ed5f0df63ef24538f52b26f72254c1f73a33142d529e1ab8b816bf"
+    },
+    {
+      "path": "experiments/yolo/gdt690_noun_ordinal_provenance_main_apparatus/src/V63_NOUN_LEXICON.tsv",
+      "role": "versioned German noun classifier",
+      "sha256": "5e3c1dcc46f32569d4f9f9f12aaecde37dcb94faf9b571a054d79a5e6bf4aa7e"
+    },
+    {
+      "path": "experiments/yolo/gdt690_noun_ordinal_provenance_main_apparatus/src/V63_NON_NOUN_ALLOWLIST.tsv",
+      "role": "disjoint exhaustive non-noun word classifier",
+      "sha256": "7e889197caa02324429182e4220037d5161998b8b50b12a9a84bff432af604b9"
+    },
+    {
+      "path": "experiments/yolo/gdt690_noun_ordinal_provenance_main_apparatus/src/HISTORICAL_NOUN_RIVALS.tsv",
+      "role": "historical short-head and rival comparator deck",
+      "sha256": "1c4f9c8f26d7ad6d4f573f2b178b0eed8f18f64c1e6682862ef07020b771b0c5"
+    }
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt690_noun_ordinal_provenance_main_apparatus/README.md", "role": "entry point", "sha256": "138f280fbd71357c5f80312bc14885935fec94cb94629e09982b0c48c5ce3480"},
+    {"path": "experiments/yolo/gdt690_noun_ordinal_provenance_main_apparatus/METHOD.md", "role": "method and claim ceiling", "sha256": "058228f9f9cdff46688f5803bd457a108faa4d7b91d9e9e10e463c0cf5ece4a1"},
+    {"path": "experiments/yolo/gdt690_noun_ordinal_provenance_main_apparatus/REPORT.md", "role": "outcome and concrete noun decisions", "sha256": "638d21c8155cb03a5b8120a8bc26f0f826505bd0a94cd9227dc001d03bcaaf50"},
+    {"path": "experiments/yolo/gdt690_noun_ordinal_provenance_main_apparatus/artifacts/README.md", "role": "artifact map", "sha256": "83b70a5e2645c7601f8ae74321634c65ceda910162ba3056e9df16e94540c80f"},
+    {"path": "experiments/yolo/gdt690_noun_ordinal_provenance_main_apparatus/src/HISTORICAL_NOUN_RIVALS.tsv", "role": "historical comparator source", "sha256": "1c4f9c8f26d7ad6d4f573f2b178b0eed8f18f64c1e6682862ef07020b771b0c5"},
+    {"path": "experiments/yolo/gdt690_noun_ordinal_provenance_main_apparatus/src/V63_NON_NOUN_ALLOWLIST.tsv", "role": "non-noun classifier source", "sha256": "7e889197caa02324429182e4220037d5161998b8b50b12a9a84bff432af604b9"},
+    {"path": "experiments/yolo/gdt690_noun_ordinal_provenance_main_apparatus/src/V63_NOUN_LEXICON.tsv", "role": "noun lexicon source", "sha256": "5e3c1dcc46f32569d4f9f9f12aaecde37dcb94faf9b571a054d79a5e6bf4aa7e"},
+    {"path": "experiments/yolo/gdt690_noun_ordinal_provenance_main_apparatus/src/V63_NOUN_RENDER_RULES.tsv", "role": "main/apparatus decision source", "sha256": "4d309604e6ed5f0df63ef24538f52b26f72254c1f73a33142d529e1ab8b816bf"},
+    {"path": "experiments/yolo/gdt690_noun_ordinal_provenance_main_apparatus/src/run.py", "role": "deterministic builder", "sha256": "039dc5df530a0c7933c07f0451d5942fe51f23691f90d7d3f6f5fe338cbe18be"},
+    {"path": "experiments/yolo/gdt690_noun_ordinal_provenance_main_apparatus/src/validate.py", "role": "independent validator and byte replay", "sha256": "8f112ece4c82f5c1738119cee7a30cf716cf568d091e844e14bdd368ceb0f983"},
+    {"path": "experiments/yolo/gdt690_noun_ordinal_provenance_main_apparatus/artifacts/GDT690_V63_CONCRETE_NOUN_READER.md", "role": "complete main text and apparatus", "sha256": "8dbebfc2c900c1a02ed76cacd859d9510ec4fee9cc5c0fece177086a0771192f"},
+    {"path": "experiments/yolo/gdt690_noun_ordinal_provenance_main_apparatus/artifacts/HISTORICAL_NOUN_RIVALS.tsv", "role": "historical comparator artifact", "sha256": "1c4f9c8f26d7ad6d4f573f2b178b0eed8f18f64c1e6682862ef07020b771b0c5"},
+    {"path": "experiments/yolo/gdt690_noun_ordinal_provenance_main_apparatus/artifacts/RESULT.json", "role": "compact result and hashes", "sha256": "d11be69700046fc409711fcbe49609f745ae50f1ab1f2cfafb23ffd4591a6388"},
+    {"path": "experiments/yolo/gdt690_noun_ordinal_provenance_main_apparatus/artifacts/V62_SOURCE_NOUN_OCCURRENCE_AUDIT.tsv", "role": "source noun spans", "sha256": "9413feb07e10233a7e3515f7c695bace7eb9fa485a5a5a0067f9b7f27554fb91"},
+    {"path": "experiments/yolo/gdt690_noun_ordinal_provenance_main_apparatus/artifacts/V62_TO_V63_NOUN_RENDER_COMPARISON.tsv", "role": "before and after renderer totals", "sha256": "3c246b57b5fa9f4ca0afd3073fbf4218b8b521973b0aa89d09576cc623b12f53"},
+    {"path": "experiments/yolo/gdt690_noun_ordinal_provenance_main_apparatus/artifacts/V63_479_TOKEN_NOUN_BINDING.tsv", "role": "complete token binding deck", "sha256": "ab6593cb2407006f5652a30d4d5f3693f71ba082c3fe6a284f02e6790606603e"},
+    {"path": "experiments/yolo/gdt690_noun_ordinal_provenance_main_apparatus/artifacts/V63_51_LINE_MAIN_AND_APPARATUS.tsv", "role": "machine-readable line edition", "sha256": "7f6f274e347b9fffed68ecff579965aed3c784ff4dd68cc1409b77d3467c1323"},
+    {"path": "experiments/yolo/gdt690_noun_ordinal_provenance_main_apparatus/artifacts/V63_MAIN_NOUN_OCCURRENCE_PROVENANCE.tsv", "role": "725 exact main noun spans", "sha256": "6d692e54b85baa7c02f555a8aca3aa796242ec63a4cf8f726fbf4ba088cfe370"},
+    {"path": "experiments/yolo/gdt690_noun_ordinal_provenance_main_apparatus/artifacts/V63_SIX_FOCUS_FAMILY_SUMMARY.tsv", "role": "focus family outcomes", "sha256": "be6dbc2b8ee82dd76cc9f189e631e1cb20755b23cd05ede44f9f1eead6a04ea4"},
+    {"path": "experiments/yolo/gdt690_noun_ordinal_provenance_main_apparatus/artifacts/V63_WORD_CLASS_CENSUS.tsv", "role": "exhaustive German word classification", "sha256": "aee8b0fddd1c1def20f2e0f383211d8bb3f7db23c93f4dcaff7918cf0d99df0a"},
+    {"path": "experiments/yolo/gdt690_noun_ordinal_provenance_main_apparatus/artifacts/VALIDATION.json", "role": "independent validation", "sha256": "a663b2b2fb444daea55ce4e968d3d13b00034559eb185e9343d13e1fb1654978"}
+  ],
+  "question": "Can every concrete German noun in the current 51-line V62 edition be bound to one exact written ordinal while one practical main value is separated from historical and structural rivals, without opening another page?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "noun_ordinal_provenance_main_apparatus",
+  "status": "PASS_V63_ALL_MAIN_NOUNS_EXACT_ORDINAL__ONE_MAIN_HEAD_PLUS_RIVAL_APPARATUS",
+  "title": "V63 Noun Ordinal Provenance and Main/Apparatus Reader",
+  "updated": "2026-08-31",
+  "validation": {
+    "artifact": "experiments/yolo/gdt690_noun_ordinal_provenance_main_apparatus/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}
