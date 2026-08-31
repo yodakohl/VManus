@@ -16759,3 +16759,39 @@ boundary-aware defaults while preserving every remaining unknown visibly.
 This tests whether the cards make whole records informative rather than merely
 looking plausible between open neighbors. Open no new page and keep f84/f84r
 forbidden.
+
+## GDT676 renders all 51 V50 transfer contexts and exposes their abstraction burden
+
+GDT676 preserves all 479 tokens on the 51 lines touched by GDT675 and opens no
+new page. The one new V50 position per line raises assigned positions within
+this set from 292 to 343 and leaves 136 explicit `⟦surface:?⟧` gaps. Only
+f112v.10 and singleton f102v2.3 are complete; 49 lines remain incomplete.
+The reader classifies eleven lines as action sequences, eighteen as mixed
+records, fourteen as nominal registers and eight as quantity labels, with 48
+licensed actions on 29 lines.
+
+Fifty GDT675 applications hold at line scale. The one correction is f26r.2:
+initial `dchey aiin` is a nominal measured dry result followed by quantity III,
+not an imperative followed by a disconnected value. The two neither-exact
+`olkar` cases at f85r2.5 and f95v1.7 now show their alternate-reader rivals
+directly in the prose. Ten local value bindings hold, three stay provisional
+and four long-distance jumps are rejected.
+
+The edition no longer overstates assignment as knowledge. The narrow carrier
+screen finds 105 positions/106 matches in the literal overlay and 113/114 in
+the fluent reader. A deliberately wide sensitivity screen marks 311 of 343
+assigned literal values as class-level substance, grade, measure, state or
+similar vocabulary. Hard work-item/work-cycle filler remains zero in both
+layers, but most assigned slots still lack a real referent. The German line
+readings are manually authored semantic inputs; the 18,770-check validator
+proves token alignment, declared scope, counts and fourteen-file byte replay,
+not their historical truth.
+
+The next route stays on these lines. Nine non-singleton one-hole forms are
+grouped into five coupled attacks: `ltaiin/oltaiin` tests an O-wrapper around
+the cold level-III material family; `ykcho/kchody` tests the shared K-CH-O core
+with Y/DY framing; `olchain/lolkaiin` tests OL/L material plus grade fields;
+`aror` tests AR+OR fraction/portion composition; `taiky` and then `losair`
+remain the least determined exact wholes. Apply any selected meaning at all
+admitted exact occurrences and rerender the same 51 lines before opening a new
+page. f84 and f84r remain forbidden.

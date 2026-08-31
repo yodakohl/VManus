@@ -1,0 +1,61 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The complete 479-position reader and 51-line rendering tables are retained because token alignment, visible residual gaps, carrier sensitivity, action scope, reader rivals, and the one-line renderer correction cannot be reconstructed from summary counts alone.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "A token-preserving exploratory reader for 51 already touched V50 lines. It assigns working values to 343 of 479 positions, leaves 136 explicitly unknown, and exposes rather than hides narrow and extended semantic carriers. Only two lines are complete. This is not plaintext, a historical codebook, or proof of manuscript-wide language, lexemes, substances, procedures, plants, diseases, patients or cures.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt676_v50_external_line_renderer/src/run.py",
+    "validate": "python3 experiments/yolo/gdt676_v50_external_line_renderer/src/validate.py"
+  },
+  "created": "2026-08-31",
+  "dependencies": ["GDT674", "GDT675"],
+  "experiment_id": "GDT676",
+  "inputs": [
+    {"path":"experiments/yolo/gdt675_f81r_card_occurrence_conflict_scan/artifacts/TOUCHED_LINE_OVERLAY.tsv","role":"fifty-one frozen V50 line overlays","sha256":"ecf2b181012dd6f9347fa3478aad0fa158e626a7990e3b4b9dbc0abc98ef114f"},
+    {"path":"experiments/yolo/gdt675_f81r_card_occurrence_conflict_scan/artifacts/EXTERNAL_TRANSFERABLE_OCCURRENCES.tsv","role":"fifty-one accepted external card applications","sha256":"9e48afbeefa8dcb8402938ba855ab32de61b4dcd0b48dc3a6576e39ada730c2c"},
+    {"path":"experiments/yolo/gdt675_f81r_card_occurrence_conflict_scan/artifacts/RESULT.json","role":"frozen GDT675 result ceiling","sha256":"c6f83c3c6b72d4cb37daea5e39cd71fce0d476af3eb7f0cfac6c9f42c3668aab"},
+    {"path":"experiments/yolo/gdt676_v50_external_line_renderer/src/LINE_MODE_SPECS.tsv","role":"independent action-scope and correction decisions","sha256":"7664cd3a3f09f3086c25aae8b9cf5fb7ec9eb9ccf3cf3cad6a5d65b6e5e42118"},
+    {"path":"experiments/yolo/gdt676_v50_external_line_renderer/src/LINE_READER_SPECS.tsv","role":"fifty-one token-preserving practical line readings","sha256":"cfb5ff50b0402d12b990066462d7f7059d5e86223d071f07bee38e1f07baf2a7"},
+    {"path":"experiments/yolo/gdt676_v50_external_line_renderer/src/VALUE_ATTACHMENT_SPECS.tsv","role":"seventeen explicit value attachment decisions","sha256":"2be52fa6e30bf4a4c91fbcc9ee7446831c93e1540f8121a6b992f1344691fc63"},
+    {"path":"experiments/yolo/gdt676_v50_external_line_renderer/src/SYNTAX_TEMPLATES.tsv","role":"eight context-aware renderer templates","sha256":"ddd9e3373b543875890c4223d9b2671379a98df0cef5c436aa9b854cf2f94b7a"},
+    {"path":"experiments/yolo/gdt676_v50_external_line_renderer/src/PASSAGE_SELECTIONS.tsv","role":"four deterministic passage selections","sha256":"8190e8a8594277ec3ac10721886cb55aca9acb94c7cdcf75e059253d29594b4b"}
+  ],
+  "outputs": [
+    {"path":"experiments/yolo/gdt676_v50_external_line_renderer/README.md","role":"entry point","sha256":"62c6c0f20d904ea482bdafe6ee160ed004e38202f0b5d3fd26c978a8a8e5391c"},
+    {"path":"experiments/yolo/gdt676_v50_external_line_renderer/METHOD.md","role":"method","sha256":"039280fd416eed3a52a2d25a5a322bc4abb7bb652ad9e64671eec70d6bd3b15a"},
+    {"path":"experiments/yolo/gdt676_v50_external_line_renderer/REPORT.md","role":"result report","sha256":"0a62e6e84bad33b6301822961b015118470f9f0171e1a5f6196ed3b9b490b5d4"},
+    {"path":"experiments/yolo/gdt676_v50_external_line_renderer/artifacts/README.md","role":"artifact map","sha256":"2166ebd3a6ba0dbacda1ef1eabd3950ba360efd5c2c977d0b83d1baf672dc43e"},
+    {"path":"experiments/yolo/gdt676_v50_external_line_renderer/src/run.py","role":"deterministic builder","sha256":"b811dfa20d7e8ff347306a2e3572ba0accec0ef968ee50976ee86ad0a9cf8189"},
+    {"path":"experiments/yolo/gdt676_v50_external_line_renderer/src/validate.py","role":"independent validator","sha256":"c3e0fa7a808885a803ef6c712e3becb219e96cf4f93162de1081a264a2aa6d33"},
+    {"path":"experiments/yolo/gdt676_v50_external_line_renderer/artifacts/ACTION_SCOPE_AUDIT.tsv","role":"fifty-one line action-scope decisions","sha256":"7664cd3a3f09f3086c25aae8b9cf5fb7ec9eb9ccf3cf3cad6a5d65b6e5e42118"},
+    {"path":"experiments/yolo/gdt676_v50_external_line_renderer/artifacts/GDT676_V50_EXTERNAL_WORKING_READER.md","role":"complete 51-line working reader","sha256":"cf44e021b72f4e0955c9907f72a36b2e0abcd9ae6a4046b346af7f971172b2cb"},
+    {"path":"experiments/yolo/gdt676_v50_external_line_renderer/artifacts/INFORMATION_CATEGORY_COUNTS.tsv","role":"literal and working-reader carrier sensitivity counts","sha256":"0f05357bf03b6b35a5d11694e0e21ea3f7e21753093460091bfd209a3a624012"},
+    {"path":"experiments/yolo/gdt676_v50_external_line_renderer/artifacts/LINE_INFORMATION_RANKING.tsv","role":"deterministic 51-line information ranking","sha256":"b1db894fb6aeacc5d33596a4e1b5b187b2ef69ed96f953c27f1a5b59eae4e355"},
+    {"path":"experiments/yolo/gdt676_v50_external_line_renderer/artifacts/LOW_RESIDUAL_FRONTIER.tsv","role":"twenty-eight lines with at most two unknowns","sha256":"97685291279be4e3a63f8b45f4b5788c437b0d164e6c2cf0d565a4e92ec1f27c"},
+    {"path":"experiments/yolo/gdt676_v50_external_line_renderer/artifacts/PAGE_TRANSFER_RANKING.tsv","role":"multi-line page transfer ranking","sha256":"3dcc85ef561f1cd22e773606a66fed5f2dd708799d510b4de106692cd48da1ca"},
+    {"path":"experiments/yolo/gdt676_v50_external_line_renderer/artifacts/PASSAGE_TEST_DECK.tsv","role":"four selected rendered passages","sha256":"c157db728b3cac72b7878289c08b27451ec68aae411ad9bfd10b8178e0f209b3"},
+    {"path":"experiments/yolo/gdt676_v50_external_line_renderer/artifacts/REGISTER_HAND_PROFILE.tsv","role":"register language and hand profiles","sha256":"fbe8ee055cfa3f1f106259e43ab512c1a73a21c0c5d81190cfbe6b38951eafd1"},
+    {"path":"experiments/yolo/gdt676_v50_external_line_renderer/artifacts/RENDERER_RULE_CARDS.tsv","role":"ordered renderer and preflight rules","sha256":"143b918639d180f3a9168abdfc64c9bcb7a7328f827d017b4c5b4ad9738a1a7e"},
+    {"path":"experiments/yolo/gdt676_v50_external_line_renderer/artifacts/RESULT.json","role":"compact result","sha256":"6c3526203f8d56ce82d17b8af09242a5677afc0855fb5a0d58cc054cbcd3aef1"},
+    {"path":"experiments/yolo/gdt676_v50_external_line_renderer/artifacts/SYNTAX_TEMPLATE_CARDS.tsv","role":"eight syntax templates","sha256":"ddd9e3373b543875890c4223d9b2671379a98df0cef5c436aa9b854cf2f94b7a"},
+    {"path":"experiments/yolo/gdt676_v50_external_line_renderer/artifacts/V50_EXTERNAL_LINE_READER.tsv","role":"fifty-one rendered lines","sha256":"c65a9679027de4eed7940caccb436a9fc01ed511175dbe11816b3bef980b3279"},
+    {"path":"experiments/yolo/gdt676_v50_external_line_renderer/artifacts/V50_EXTERNAL_TOKEN_READER.tsv","role":"479 aligned token readings","sha256":"75d2cf75462ecddff7a11c2a57c72bc46235aaed35ba8220b40aac10f7ec84bb"},
+    {"path":"experiments/yolo/gdt676_v50_external_line_renderer/artifacts/VALUE_ATTACHMENT_AUDIT.tsv","role":"seventeen value attachment audits","sha256":"96f2c4a5c6139be6043806dc655ffa45b9bd565b4c3a5f1ff53ca25ba4ecdeb3"},
+    {"path":"experiments/yolo/gdt676_v50_external_line_renderer/artifacts/VALIDATION.json","role":"independent validation","sha256":"051943c28a44e2bbf65bf64027e9dabac13f4419c8772d3d212c969d73cd9a92"}
+  ],
+  "question": "Can GDT675's fifty-one externally touched lines be rendered token for token with explicit action/result scope, value attachment, reader rivals, residual unknowns, and semantic-carrier burden rather than generic filler or hidden completion?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "v50_external_line_renderer",
+  "status": "PASS_51_LINE_READER__479_TOKENS__136_OPEN__1_DCHEY_OVERRIDE__ZERO_HARD_GENERIC",
+  "title": "V50 External Line Renderer",
+  "updated": "2026-08-31",
+  "validation": {
+    "artifact": "experiments/yolo/gdt676_v50_external_line_renderer/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

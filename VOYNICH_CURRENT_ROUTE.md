@@ -284,7 +284,7 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-GDT675 scans GDT674's20 P+3 W cards:75 exact positions=24 f81r+51 external on51 lines/36 pages.Twelve surfaces hold externally(11 P+learned `lchl`),11 stay f81r-local;all20 P traces remain byte-complete.Nine renderers improve:4 action→result and5 position/scope/OL-boundary splits.`dchey` has14 external positions/14 pages;`olkar`16/11 pages/5 sections.Reader support external42 both/7 one/2 neither;unknown7994→7943,complete1380→1382;815 checks pass.Next render all51 touched lines with these scope-aware defaults and visible residual unknowns before opening another page.Keep f84/f84r forbidden.
+GDT676 renders GDT675's51 touched lines token-for-token:479 positions/36 admitted pages,292→343 assigned and187→136 visibly open;only2 lines are complete.Fifty card applications hold;f26r.2 changes initial `dchey aiin` to a nominal measured dry result+quantity III.The manual reader has11 action sequences/18 mixed records/14 nominal registers/8 quantity labels and48 licensed actions.Narrow carriers are literal105/106 and working-reader113/114;an extended class screen marks311/343 assignments,so coverage is not concrete referent knowledge.18,770 checks and14-file byte replay pass.Next resolve nine one-hole forms in five coupled families:`ltaiin/oltaiin`,`ykcho/kchody`,`olchain/lolkaiin`,`aror`,then `taiky/losair`;rerender the same51 lines before any new page.Keep f84/f84r forbidden.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`

@@ -1,0 +1,6 @@
+priority	rule_id	predicate	output
+0	HARD_GENERIC_PREFLIGHT_VETO	\b(?:Arbeitsgut|Arbeitsmaterial|Arbeitsstoff|Arbeitsmittel|Arbeitsprodukt|Arbeitsstelle|Arbeitsort|Arbeitsgang|Arbeitszyklus|Arbeitsvorgang|Arbeitsschritt|Stationsansatz|Stationsposten|Stationswert|Stationsanteil|Stationseinheit|Aktiver Posten|laufender Eintrag|work item|working material|worksite|work cycle|source vessel|destination place|destination vessel)\b	REJECT_RENDER
+1	NEW_V50	ordinal in applied_ordinals	NEW_V50
+2	RESIDUAL_UNKNOWN	ordinal in remaining_unknown_ordinals	RESIDUAL_UNKNOWN
+3	INHERITED_NARROW_CARRIER	\b(?:\w*Ansatz\w*|\w*Kompositum\w*|\w*Species\w*|Drogenstoff|Trockengut|Feuchtmaterial|Materialmaß|Grundauszug)\b	INHERITED_NARROW_CARRIER
+4	INHERITED_OTHER_ASSIGNED	otherwise	INHERITED_OTHER_ASSIGNED
