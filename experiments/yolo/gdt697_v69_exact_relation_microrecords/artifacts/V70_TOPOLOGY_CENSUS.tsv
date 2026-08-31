@@ -1,0 +1,15 @@
+dimension	value	count	member_ids	note
+TOPOLOGY	SINGLE_EDGE	5	M001|M002|M003|M004|M005	one admitted edge and one target action
+TOPOLOGY	ORDERED_REPEATED_COMMON_DESTINATION_FANOUT	1	M006	two ordered additions share only the written destination; no first-output carry
+TOPOLOGY	SERIAL_ACTION_OUTPUT_CHAIN	1	M007	the first action output is the exact donor of the second action
+SUPPORT_PROFILE	A_ONLY	4	M002|M003|M004|M005	support tiers remain visible and are not averaged
+SUPPORT_PROFILE	A_PLUS_B	1	M006	support tiers remain visible and are not averaged
+SUPPORT_PROFILE	A_MINUS_PLUS_B	1	M007	support tiers remain visible and are not averaged
+SUPPORT_PROFILE	B_ONLY	1	M001	support tiers remain visible and are not averaged
+EDGE_SUPPORT_TIER	A_STRONG_LICENSED	5	C001|C002|C003|C005|C004	unchanged GDT696 edge tier
+EDGE_SUPPORT_TIER	A_MINUS_EXPLICIT_OUTPUT	1	C006	unchanged GDT696 edge tier
+EDGE_SUPPORT_TIER	B_WORKING_LOCAL	3	C009|C008|C007	unchanged GDT696 edge tier
+RESULT_STATUS	NAMED_INTERMEDIATE_OUTPUT	1	M007	qodar at f86v6.25#4 is both C007 target and C006 donor
+RESULT_STATUS	NAMED_FINAL_RESULT	0	NONE	no final target has an admitted outgoing result carry
+BOUNDARY	CLAUSE_ALIGNED_START	1	M007	the other six windows start inside the tail of an existing V68 nominal block
+BOUNDARY	TARGET_CLAUSE_ALIGNED_END	7	M001|M002|M003|M004|M005|M006|M007	every window ends exactly at an admitted target action boundary

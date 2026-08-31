@@ -17519,3 +17519,30 @@ join, complete-overlay, provenance, hash and freeze checks. The next route may
 compose only the nine admitted edges into source–operation–result
 microclauses and ask which exact loci form coherent multi-step chains. It may
 not add a deictic, proximity edge, word meaning, page, or f84/f84r access.
+
+## GDT697 composes the nine V69 edges into seven exact practical windows
+
+GDT697 connects V69 edges only when they share an exact locus/ordinal node and
+takes the minimal contiguous hull of each connected component. The resulting
+V70 layer has seven disjoint microrecords over nineteen token positions and
+sixteen inherited V68 clauses. All nine edges occur exactly once: five windows
+contain one operation, f80v.35 is an ordered two-addition fan-out at one written
+destination, and f86v6.25 is the sole serial action-output chain.
+
+The seven concrete renderings bind written objects, subsets or destinations to
+their admitted actions without generic workflow placeholders. f86v6.25 reads
+*Aus dem Anteil I des heißen Holzansatzes einen heißen Drogenanteil I abmessen.
+Den so abgemessenen Drogenanteil I auf Stufe III erhitzen.* This is the only
+named intermediate output. f80v.35 instead repeats the full destination in two
+separate addition sentences; it has no first-output-to-second-action carry.
+None of the seven windows names a final result.
+
+The complete 479-token, 51-line and three-span V69 layers remain byte-identical.
+Held rival targets remain outside every window; no adjacency edge, nearest-
+donor rule, word meaning, page or f84/f84r access is added. Independent
+validation passes 2,196/2,196 checks, and separate graph and wording audits find
+no structural or generic-language leak. The next route inventories every
+occurrence of these action surfaces inside the same 479-token scope and may
+nominate another occurrence microrecord only when an already observed exact
+participant frame repeats. GDT595–GDT597's six-page object defaults and mere
+left adjacency are not reusable licenses.

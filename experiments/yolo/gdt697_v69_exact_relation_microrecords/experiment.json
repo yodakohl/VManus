@@ -1,0 +1,154 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The complete 479-token and 51-line freezes are retained because exact window membership and zero-word-delta cannot be reconstructed from the seven-row summary alone.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "V70 composes only the nine already admitted occurrence-bound V69 edges into seven minimal local German microrecords. It changes no token gloss, line translation, bound span, word meaning, page, or unresolved relation; the microrecords remain an exploratory editorial rendering, not deciphered plaintext.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt697_v69_exact_relation_microrecords/src/run.py",
+    "validate": "python3 experiments/yolo/gdt697_v69_exact_relation_microrecords/src/validate.py"
+  },
+  "created": "2026-08-31",
+  "dependencies": [
+    "GDT696"
+  ],
+  "experiment_id": "GDT697",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt696_v68_exact_local_object_carries/artifacts/RESULT.json",
+      "role": "authoritative V69 scope, freeze, relation and rival counts",
+      "sha256": "f6f2bb02a5e960ec0adc514f1991200677d06202d8647d268673bc68d7ad90f1"
+    },
+    {
+      "path": "experiments/yolo/gdt696_v68_exact_local_object_carries/artifacts/V69_17_RELATION_RIVALS.tsv",
+      "role": "complete held-rival boundary deck",
+      "sha256": "8c97948f25f94f59e141b65230de23d2fcf75de0da926e20caaa46507d7916dd"
+    },
+    {
+      "path": "experiments/yolo/gdt696_v68_exact_local_object_carries/artifacts/V69_27_REFERENCE_CENSUS.tsv",
+      "role": "complete reference-position deck for internal and outside decisions",
+      "sha256": "f289027471897b4605b0821c6378985ff4d1fc03b37868feaa6e24704b95f6d2"
+    },
+    {
+      "path": "experiments/yolo/gdt696_v68_exact_local_object_carries/artifacts/V69_3_BOUND_SPAN_FREEZE.tsv",
+      "role": "three immutable inherited spans",
+      "sha256": "c758b27ba2b7e59e29bde6bb8c0840d04c89df48c427e5ab2c61a29d61b483e3"
+    },
+    {
+      "path": "experiments/yolo/gdt696_v68_exact_local_object_carries/artifacts/V69_479_TOKEN_RELATION_OVERLAY.tsv",
+      "role": "complete immutable token gloss and relation-role source",
+      "sha256": "267ad5bff8331cfdd8e4516132802bd36301be9c4a2f00177efd59e46b226ae6"
+    },
+    {
+      "path": "experiments/yolo/gdt696_v68_exact_local_object_carries/artifacts/V69_51_LINE_RELATION_OVERLAY.tsv",
+      "role": "complete immutable V69 line reader and clause boundary source",
+      "sha256": "d006fb5025a4e084606f6aa0cfec6f95da17752b8058f3d7fd4be36fb290d2b6"
+    },
+    {
+      "path": "experiments/yolo/gdt696_v68_exact_local_object_carries/artifacts/V69_9_LOCAL_ACTION_EDGES.tsv",
+      "role": "closed nine-edge occurrence deck with exact participant roles",
+      "sha256": "06a5b402b2ddf3d956e4031f753e63e1ff32290ca522f5a8e72b8410b88af227"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt697_v69_exact_relation_microrecords/README.md",
+      "role": "experiment entry point",
+      "sha256": "f0a7d0e9c86e82d459571fdc87fa8d840b8d7140d073f4ca0c0e6dc0de729f28"
+    },
+    {
+      "path": "experiments/yolo/gdt697_v69_exact_relation_microrecords/METHOD.md",
+      "role": "exact endpoint-component construction and decision rule",
+      "sha256": "464dde9a7d0edbe6c0c13fdbff90527acd38365981ff18daa43a114be69763cc"
+    },
+    {
+      "path": "experiments/yolo/gdt697_v69_exact_relation_microrecords/REPORT.md",
+      "role": "seven practical readings, topology result and next route",
+      "sha256": "026e86aa3d970e77bfd821b60b248879269e6c642c93ca721047554644e7cceb"
+    },
+    {
+      "path": "experiments/yolo/gdt697_v69_exact_relation_microrecords/src/V70_MICRORECORD_SPECS.tsv",
+      "role": "fixed seven-window text and boundary specification",
+      "sha256": "1debb76d8d5589e5c740c4a86c426d8fe5996814ab52928c744616f19c56bd9f"
+    },
+    {
+      "path": "experiments/yolo/gdt697_v69_exact_relation_microrecords/src/run.py",
+      "role": "deterministic exact-window builder",
+      "sha256": "a6d3c165f7a8f8d0a397f5e9551896ee757f6aa3743ce5b6916340d7212afba0"
+    },
+    {
+      "path": "experiments/yolo/gdt697_v69_exact_relation_microrecords/src/validate.py",
+      "role": "independent fail-closed topology and freeze validator",
+      "sha256": "5504655cb06dbd896fccd462c81d1ae7ea3ebfe06d98f7119260031fa08bdefb"
+    },
+    {
+      "path": "experiments/yolo/gdt697_v69_exact_relation_microrecords/artifacts/GDT697_V70_EXACT_MICRORECORD_READER.md",
+      "role": "human seven-window reader and complete 51-line projection",
+      "sha256": "fef01b15e949d44cb10200c98fc07e095b99549b8e5bb508eea7e5c209b278d5"
+    },
+    {
+      "path": "experiments/yolo/gdt697_v69_exact_relation_microrecords/artifacts/README.md",
+      "role": "artifact map",
+      "sha256": "ff55991a34030656270b1061a09fc973c9c834c9b6be951cd4b3cca804a7394c"
+    },
+    {
+      "path": "experiments/yolo/gdt697_v69_exact_relation_microrecords/artifacts/RESULT.json",
+      "role": "compact result, hashes and next gap",
+      "sha256": "0d85be4ad35b1643eb619040f9da7a081fdd8839db73a68f3b2909fb2901bcaf"
+    },
+    {
+      "path": "experiments/yolo/gdt697_v69_exact_relation_microrecords/artifacts/V70_19_WINDOW_TOKEN_ROLES.tsv",
+      "role": "nineteen token-level window role positions",
+      "sha256": "0cbb1c67603d0df7f207cc807b3b6a78c497fcb28bf8cea7742eaefe3907bcf2"
+    },
+    {
+      "path": "experiments/yolo/gdt697_v69_exact_relation_microrecords/artifacts/V70_3_BOUND_SPAN_FREEZE.tsv",
+      "role": "three byte-identical bound spans",
+      "sha256": "1c5ec3a1838a84cdfc9fc80a3d51943dcfb279e368bdcb12fb8bead076ee171a"
+    },
+    {
+      "path": "experiments/yolo/gdt697_v69_exact_relation_microrecords/artifacts/V70_479_TOKEN_FREEZE.tsv",
+      "role": "complete unchanged V69 token deck plus V70 membership",
+      "sha256": "c35a98d970dd0f4696fb9944325aa1f6fc038d219f6946b7834acc5889811238"
+    },
+    {
+      "path": "experiments/yolo/gdt697_v69_exact_relation_microrecords/artifacts/V70_51_LINE_MICRORECORD_OVERLAY.tsv",
+      "role": "complete unchanged V69 lines plus separate V70 microrecords",
+      "sha256": "6058271ccfe9b99a834e213c7cf01ae2938dcbd8c6939c61a087f0dfdc55833e"
+    },
+    {
+      "path": "experiments/yolo/gdt697_v69_exact_relation_microrecords/artifacts/V70_7_EXACT_MICRORECORDS.tsv",
+      "role": "seven exact practical relation windows",
+      "sha256": "c4b8b8e87e729b70da6f43115f666297b441035cebb210bdc7d37e59e52bcdcc"
+    },
+    {
+      "path": "experiments/yolo/gdt697_v69_exact_relation_microrecords/artifacts/V70_9_EDGE_WINDOW_COVERAGE.tsv",
+      "role": "exact once-only use of all nine V69 edges",
+      "sha256": "02be802b569c39354f5bff77786cc2143e8d9e344bae09d4c8d14562f37a6aac"
+    },
+    {
+      "path": "experiments/yolo/gdt697_v69_exact_relation_microrecords/artifacts/V70_TOPOLOGY_CENSUS.tsv",
+      "role": "topology, support, result and boundary census",
+      "sha256": "2bd564c534741590adaf5644223e54664199a9e948637d64f9824e3f68090227"
+    },
+    {
+      "path": "experiments/yolo/gdt697_v69_exact_relation_microrecords/artifacts/VALIDATION.json",
+      "role": "independent exact graph, freeze and reader validation",
+      "sha256": "ab07ea474bbd7e1ccf8e7e1ff05489f418bc3d4e06642f6443863f3538cddec4"
+    }
+  ],
+  "question": "Can the nine admitted V69 occurrence edges be composed into concrete minimal source/action microrecords without inventing another relation or word meaning?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "v69_exact_relation_microrecords",
+  "status": "PASS_V70_7_EXACT_MICRORECORDS__9_EDGE_COVERAGE__1_SERIAL_CHAIN_1_SHARED_DESTINATION_REPEAT_5_SINGLE__ZERO_WORD_MEANING_DELTA",
+  "title": "V70 exact relation microrecords",
+  "updated": "2026-08-31",
+  "validation": {
+    "artifact": "experiments/yolo/gdt697_v69_exact_relation_microrecords/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}
