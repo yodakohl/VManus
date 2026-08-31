@@ -17930,3 +17930,41 @@ The four complete bundles A012/A014/A024/A043 remain live for a shared
 material–state architecture pass.  The shorter A073/A070/A029/A017/A004
 prefixes also remain visible even though their full three-item extensions stop.
 Next compare these two layers without opening a page or changing a word.
+
+## GDT708 replaces fixed triples with one variable terminal-product path
+
+GDT708 compares exactly those nine live cases.  The useful structural label is
+not a fixed three-item result but an action followed by the shortest coherent
+annotations/result sequence, ending at the first explicitly finished
+material-bearing product or at the first material, operation or grade reset.
+This label does not itself assert that all intervening fields share one patient.
+
+C021 is the local A012 relation `f106r.23#2 qckhedy→#6 shecphy`.  Its cautious
+practical reading is: *Das Arzneikompositum bis zur Mittelstufe aufbereiten.
+Danach stehen: abgemessener Anteil II; Rohstoff I; heiße Mittelstufe. Mögliches
+terminales Produkt: bis zur Mittelstufe eingeweichtes und abgeschlossenes
+Arzneikompositum.*  #6 is the first right field that restores both the action's
+exact material head and middle degree while adding completion.  #3 `dair`, #4
+`al` and #5 `qokedy` remain visible hull-only quantity, material and
+state/degree carriers; there are no invented edges between them.  Soaking and
+completion occur only on the right and are not derived from broad
+`aufbereiten`.
+
+The work reading cuts before #7 `qokchy`, where middle/soaked/closed changes to
+hot-dry at grade start.  This is an analytical exclusion point, not punctuation
+or a written patient change; #7 may begin another phase of the same material.
+A014 and A024 retain variable object-block holds.  A043 is the strongest
+formal countercase because `dy`/`;` places its finished product immediately at
+#3; its longer path stops when #4-5 reset middle to grade-end/III.  A024's
+attractive later #9 cannot be reached without skipping terminal #7 and the new
+quantity/material start #8.  A073/A070/A029/A017/A004 all retain their better
+two-item holds; their third item is recorded as the first overextension.
+
+C021 creates isolated M014.  The cumulative graph now has 20 edges, 14
+components, 37 unique nodes, 43 incidences, 45 hull positions, 45 render
+positions, six shared nodes, eight hull-only positions and one structural
+closure.  All 479 token glosses, 51 line translations, three spans and 36 pages
+remain unchanged.  The independent validator passes 83,341 checks and
+reproduces the expected GDT388 formal-access error.  Next run the same
+first-terminal-product census over all 42 delayed nominal windows without
+skipping, opening a page or changing a word value.
