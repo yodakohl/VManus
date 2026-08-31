@@ -17488,3 +17488,34 @@ byte-replays every generated artifact. The next route may test only a finite
 exact set of already licensed local object/carry edges on V68. Unresolved
 deictics remain unresolved; no token, span, meaning, page, f84 or f84r access
 changes.
+
+## GDT696 adds nine exact local source/action relations without changing V68
+
+GDT696 keeps all 479 token glosses, all 51 clause translations and all three
+bound spans byte-identical. It adds a separate V69 relation layer containing
+nine exact source-to-action edges on seven loci: five `A_STRONG_LICENSED`, one
+`A_MINUS_EXPLICIT_OUTPUT` and three `B_WORKING_LOCAL`. The stronger set links
+the written wood powder to heating at f105v.1, the three herb portions to a
+one-portion cooling action at f113v.17, the explicitly preceding dried portion
+to taking at f75r.3, the hot wood-preparation share to the first addition at
+f80v.35, the dried finished compound to the first addition at f77r.38, and the
+measured drug share to heating at f86v6.25.
+
+The three working edges stay occurrence-bound: f86v6.25 reads `qokar` as the
+selected hot-share label and `olkar` as the source preparation share before
+`qodar`; f80v.35 carries the same `olkar` destination to its second `qol`; and
+f104v.2 takes one of three written measures of the cold preparation. A manual
+workshop audit rejected the first artificial “Drogenanteilblock” formulation
+of C007 and replaced it with the role-separated sentence *Aus dem Anteil I des
+heißen Holzansatzes einen heißen Drogenanteil I abmessen.*
+
+The overlay exhausts all 27 visible German reference expressions. Only six
+participate in a new edge; seven object rivals, five line-initial references,
+two local rivals, three sequence connectors and four nominal/process cases
+remain outside new object carry. Seventeen tempting source/action alternatives
+are retained explicitly, including ten proximity-only controls, so no nearest-
+donor fallback enters V69. The independent validator passes 1,087/1,087 exact
+join, complete-overlay, provenance, hash and freeze checks. The next route may
+compose only the nine admitted edges into source–operation–result
+microclauses and ask which exact loci form coherent multi-step chains. It may
+not add a deictic, proximity edge, word meaning, page, or f84/f84r access.
