@@ -18476,3 +18476,50 @@ The next bounded route is the twelve remaining preparation-route holds
 routes them first to GDT691/GDT652 and the bounded core/context controls in
 GDT716/GDT718/GDT717/GDT713. No new page, image, transcription, f84 or f84r is
 licensed.
+
+## GDT723 advances the canonical dictionary to V96
+
+GDT723 audits all twelve preparation-route holds at their exact active
+positions. It keeps each concrete local translation but removes replaceable
+product heads, sources and verbs from the portable dictionary core. The active
+core/local pairs are:
+
+- `adeeody`: `gleich großer, abgemessener Fertiganteil` -> locally a part of
+  the finished preparation;
+- `chockhy`: `trockene Mischung, Anfangsstufe` -> locally a dry medicinal
+  preparation at the grade beginning;
+- `ofchedy`: fully dried flower material -> locally dried flower mass;
+- `okeeeey/okiin`: heated end/form states -> locally preparation heads;
+- `olord`: withdrawn wood share -> locally a portion of the wood extract;
+- `otsheody/shotchey`: cold/wet finished or stage-II states -> locally
+  macerate renderers;
+- `qocho`: `Trockengut` -> only P238 adds `getrocknete Droge nehmen`;
+- `solchedy`: seed material dried to the middle stage -> locally seed mass;
+- `ykcho/ytcho`: warm/cold dry mixture -> only P242/P209 add source and action.
+
+The lineage is not uniform. Ten forms were still `UNKNOWN_SURFACE` at GDT652.
+`chockhy` was already `KNOWN_EXACT_WHOLE` in the O-CKH grid; `solchedy` already
+had a `READER_BOUNDARY_UNSTABLE` seed-material reading. `ykcho/ytcho` are only a
+paired whole contrast. No K/T/CHO, CHEDY/DY or other component is exported.
+
+The release audits corrected four concrete interface details: `shotchey` now
+renders locally as `kalt angefeuchtetes Mazerat, Trockenstufe II` without an
+invented source drug; `geführt` is fully removed rather than labelled local;
+GDT652 bindings use real locus selectors plus explicit ordinal projections; and
+the GDT713 `F_CKH` family row is bound directly for the neutral `chockhy` head.
+
+Sixty-one exact evidence bindings replay. All 312 non-target lexical rows and 467
+non-target contexts preserve parity; five spans, two one-shot directives and
+eight f7r.2 units remain byte-identical. The validator passes 21,439 checks.
+V96 remains 324 active readings at 479 positions with 7 W0, 135 W1, 163 W2 and
+19 W3. The complete dictionary remains 1,582 surfaces/1,586 readings, every row
+with a default, score/level, evidence, counterevidence and `H0_NONE`. Thirty-five
+weak readings remain. Canonical lookup:
+`experiments/yolo/gdt723_v96_twelve_preparation_bound_core_context_repair/artifacts/V96_COMPLETE_WORD_CONFIDENCE.tsv`.
+
+The next bounded route is the nineteen remaining `CLOSED_AR_SHARE_ROUTE`
+holds. This does not reopen universal AR semantics: it applies the already
+established GDT693/GDT694/GDT716 indexed-share model to those exact wholes and
+again separates portable share/state cores from local material, product and
+action choices. The duplicate screen ranks GDT716, GDT693, GDT692 and GDT694
+first. No new page, image, transcription, f84 or f84r is licensed.

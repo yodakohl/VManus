@@ -1,0 +1,219 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The complete confidence dictionary and full lexical/context editions are required to verify every default, confidence/evidence field, exact target realization, and non-target parity.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exploratory exact-surface German renderer values only. Portable cores and exact local renderings are separated, but no productive component or substring value, new-surface prediction, semantic score credit, plaintext, language, phonetics, historical codebook, ingredient identity, new page, image, transcription, f84, or f84r is claimed.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt723_v96_twelve_preparation_bound_core_context_repair/src/run.py",
+    "validate": "python3 experiments/yolo/gdt723_v96_twelve_preparation_bound_core_context_repair/src/validate.py"
+  },
+  "created": "2026-09-01",
+  "dependencies": [
+    "GDT652",
+    "GDT691",
+    "GDT713",
+    "GDT717",
+    "GDT718",
+    "GDT722"
+  ],
+  "experiment_id": "GDT723",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt722_v95_op_whole_scope_and_context_separation/artifacts/V95_324_ACTIVE_LEXICAL_READINGS.tsv",
+      "role": "canonical V95 lexical input",
+      "sha256": "af99cc3c3bcb7a8e6b10d980299da2fd447519140eaddd7ba84ff096e18ff3a4"
+    },
+    {
+      "path": "experiments/yolo/gdt722_v95_op_whole_scope_and_context_separation/artifacts/V95_479_CONTEXT_REALIZATIONS.tsv",
+      "role": "canonical V95 context input",
+      "sha256": "d70b47b9962f4e0a82d5f7769ac5d40135bdde27ef4f000d5a4b274ac015d819"
+    },
+    {
+      "path": "experiments/yolo/gdt722_v95_op_whole_scope_and_context_separation/artifacts/V95_52_HELD_READING_AUDIT.tsv",
+      "role": "canonical V95 repair queue input",
+      "sha256": "545bea46ef5353078c76507ce62c614bd378a4c0db499d8ab0583ce292c00325"
+    },
+    {
+      "path": "experiments/yolo/gdt722_v95_op_whole_scope_and_context_separation/artifacts/V95_COMPLETE_WORD_CONFIDENCE.tsv",
+      "role": "canonical V95 complete dictionary",
+      "sha256": "7836fdc24f380f0ee808c647d99724c546c3aa3e76b1fdafb7026a12d346af29"
+    },
+    {
+      "path": "experiments/yolo/gdt722_v95_op_whole_scope_and_context_separation/artifacts/V95_5_BOUND_SPAN_RENDERER.tsv",
+      "role": "bound span parity input",
+      "sha256": "8c9dc5e4d32caa173a91f99021e9c097a1b2ae1fdf67a79c839545bc34cacd40"
+    },
+    {
+      "path": "experiments/yolo/gdt722_v95_op_whole_scope_and_context_separation/artifacts/V95_5_BOUND_SPAN_EXECUTION_AUDIT.tsv",
+      "role": "bound span execution parity input",
+      "sha256": "dc7f6c9e8365057ef9e50badced7e9eac4781e616864483d379b24dfff668444"
+    },
+    {
+      "path": "experiments/yolo/gdt722_v95_op_whole_scope_and_context_separation/artifacts/V95_2_ONE_SHOT_RENDER_DIRECTIVES.tsv",
+      "role": "one-shot directive parity input",
+      "sha256": "1bbb4a4505915ae89df1b596ad24cff95fd1fb01247ad1a350e60b3bac41c753"
+    },
+    {
+      "path": "experiments/yolo/gdt722_v95_op_whole_scope_and_context_separation/artifacts/V95_8_F7R2_RENDERED_UNITS.tsv",
+      "role": "f7r2 renderer parity input",
+      "sha256": "06c51d73ef65bea6a423decb0ff2b708816b6556ebd78a5f12e380ae04df73ef"
+    },
+    {
+      "path": "experiments/yolo/gdt691_preparation_head_role_dispatch/artifacts/V64_479_TOKEN_READER.tsv",
+      "role": "exact preparation role and context decisions",
+      "sha256": "6ca1fbd7302583b3f5745b74fbec88fb9296a817ca8585e4c718194a800ab37b"
+    },
+    {
+      "path": "experiments/yolo/gdt691_preparation_head_role_dispatch/src/V64_EXACT_TOKEN_RULES.tsv",
+      "role": "exact target token renderer rules",
+      "sha256": "d1efb76393c487e80ede7aff1184923c1afefcbf8a2dacde9a70b75a5a80aacc"
+    },
+    {
+      "path": "experiments/yolo/gdt652_strict_v28_frontier_completion/artifacts/ALL_LINE_CONCRETE_COVERAGE_V29.tsv",
+      "role": "guarded exact-position lineage controls",
+      "sha256": "d11cc85c77c88ec1b3dfc9a3115f650863db71e7db924a35ccdbf3090fabff7f"
+    },
+    {
+      "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/artifacts/V86_8_FAMILY_EVIDENCE.tsv",
+      "role": "explicit bound CKH family-head control for chockhy",
+      "sha256": "240df1ef6aa48c4c48417b4e3642efd7b8405e1544a0fd8dedeb679372d212bf"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt723_v96_twelve_preparation_bound_core_context_repair/METHOD.md",
+      "role": "method and claim ceiling",
+      "sha256": "1a420d6c69fb78d920b7c04874fbdc8f50332f53de269e91c87b1cf728df3d18"
+    },
+    {
+      "path": "experiments/yolo/gdt723_v96_twelve_preparation_bound_core_context_repair/README.md",
+      "role": "experiment entry point",
+      "sha256": "58ef613deb88562f0ddc40f47887d8fc13ebf870fac7db7e7a39cc193ff9e881"
+    },
+    {
+      "path": "experiments/yolo/gdt723_v96_twelve_preparation_bound_core_context_repair/REPORT.md",
+      "role": "primary result",
+      "sha256": "dfefc75c5ea7594fd2197a4e7e784f1da104d4c81f0b0dbf02d1c7af93f762d7"
+    },
+    {
+      "path": "experiments/yolo/gdt723_v96_twelve_preparation_bound_core_context_repair/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "54e144bda247715966843f493134592f52ddc56c40510c51ec62501535bed237"
+    },
+    {
+      "path": "experiments/yolo/gdt723_v96_twelve_preparation_bound_core_context_repair/artifacts/RESULT.json",
+      "role": "reproducible V96 result",
+      "sha256": "87e1cb52e9bb1f63799e32dd78130b58cc5483b41789b9f0a9bea983e756ed88"
+    },
+    {
+      "path": "experiments/yolo/gdt723_v96_twelve_preparation_bound_core_context_repair/artifacts/V96_12_ACTION_HEAD_SEPARATION.tsv",
+      "role": "local action and product-head separation audit",
+      "sha256": "26f0e85648670d079591f384efb09efea5b7baaced749a65b79d2e1a9e419fa3"
+    },
+    {
+      "path": "experiments/yolo/gdt723_v96_twelve_preparation_bound_core_context_repair/artifacts/V96_12_LINEAGE_AUDIT.tsv",
+      "role": "GDT652 and GDT691 target lineage audit",
+      "sha256": "3fa7f3eda58297eb794125bcea14405d068f88cbcb9e6f8ad36d89afe73662cc"
+    },
+    {
+      "path": "experiments/yolo/gdt723_v96_twelve_preparation_bound_core_context_repair/artifacts/V96_12_PREPARATION_CORE_CONTEXT_DELTA.tsv",
+      "role": "twelve target core-context decisions",
+      "sha256": "8dfbd8ed046f21a79247190756efef2a0b20893ad2426d0d121bfe3a2f4beccd"
+    },
+    {
+      "path": "experiments/yolo/gdt723_v96_twelve_preparation_bound_core_context_repair/artifacts/V96_12_TARGET_RENDERER.tsv",
+      "role": "portable cores and exact local target outputs",
+      "sha256": "cbd6a0682a9ee443f9e6768f9627e64ff2acccfb27967af674e10b838f5b979d"
+    },
+    {
+      "path": "experiments/yolo/gdt723_v96_twelve_preparation_bound_core_context_repair/artifacts/V96_2_ONE_SHOT_RENDER_DIRECTIVES.tsv",
+      "role": "inherited directives byte exact",
+      "sha256": "1bbb4a4505915ae89df1b596ad24cff95fd1fb01247ad1a350e60b3bac41c753"
+    },
+    {
+      "path": "experiments/yolo/gdt723_v96_twelve_preparation_bound_core_context_repair/artifacts/V96_324_ACTIVE_LEXICAL_READINGS.tsv",
+      "role": "canonical active V96 readings",
+      "sha256": "50a8faeab7b261d8172122da913d4419fa954be6c040da29fbf2a1160d9b6b9b"
+    },
+    {
+      "path": "experiments/yolo/gdt723_v96_twelve_preparation_bound_core_context_repair/artifacts/V96_36_RIVAL_MODEL_COMPARISON.tsv",
+      "role": "three rival models for each target",
+      "sha256": "0b411a77bd1e7446f1b3b872fef2ce1478a6b3982630318b2924100ef9193b41"
+    },
+    {
+      "path": "experiments/yolo/gdt723_v96_twelve_preparation_bound_core_context_repair/artifacts/V96_479_CONTEXT_REALIZATIONS.tsv",
+      "role": "canonical active V96 contexts",
+      "sha256": "5e6e092a8996da4a4e2c846c3cc8f335432f26cbc3c54ddab009ce7692058092"
+    },
+    {
+      "path": "experiments/yolo/gdt723_v96_twelve_preparation_bound_core_context_repair/artifacts/V96_47_HELD_READING_AUDIT.tsv",
+      "role": "twelve revised plus 35 held queue rows",
+      "sha256": "20e8de18b8c6c175de4d531173c33c3971404eedf28e9876ddc8799169a86897"
+    },
+    {
+      "path": "experiments/yolo/gdt723_v96_twelve_preparation_bound_core_context_repair/artifacts/V96_5_BOUND_SPAN_EXECUTION_AUDIT.tsv",
+      "role": "inherited bound span execution audit",
+      "sha256": "dc7f6c9e8365057ef9e50badced7e9eac4781e616864483d379b24dfff668444"
+    },
+    {
+      "path": "experiments/yolo/gdt723_v96_twelve_preparation_bound_core_context_repair/artifacts/V96_5_BOUND_SPAN_RENDERER.tsv",
+      "role": "inherited five-span renderer",
+      "sha256": "8c9dc5e4d32caa173a91f99021e9c097a1b2ae1fdf67a79c839545bc34cacd40"
+    },
+    {
+      "path": "experiments/yolo/gdt723_v96_twelve_preparation_bound_core_context_repair/artifacts/V96_61_PRIMARY_EVIDENCE_BINDINGS.tsv",
+      "role": "resolved exact evidence bindings",
+      "sha256": "a30efaa98febeb727f91e7f3f6158791d416a374f3b8fa32311aaaf458989c63"
+    },
+    {
+      "path": "experiments/yolo/gdt723_v96_twelve_preparation_bound_core_context_repair/artifacts/V96_6_SCOPE_DICTIONARY.tsv",
+      "role": "exact-whole versus component export scope",
+      "sha256": "0544a6d9d2eb22775e240c922d27cfde44f687310c887e00c7a59ed76af50f0f"
+    },
+    {
+      "path": "experiments/yolo/gdt723_v96_twelve_preparation_bound_core_context_repair/artifacts/V96_8_F7R2_RENDERED_UNITS.tsv",
+      "role": "inherited f7r2 units byte exact",
+      "sha256": "06c51d73ef65bea6a423decb0ff2b708816b6556ebd78a5f12e380ae04df73ef"
+    },
+    {
+      "path": "experiments/yolo/gdt723_v96_twelve_preparation_bound_core_context_repair/artifacts/V96_COMPLETE_WORD_CONFIDENCE.tsv",
+      "role": "canonical complete V96 dictionary",
+      "sha256": "5fab5b692116ab6d1003a7c20c66d9d2c962876e38e4560cb9be58f7aab3afae"
+    },
+    {
+      "path": "experiments/yolo/gdt723_v96_twelve_preparation_bound_core_context_repair/artifacts/VALIDATION.json",
+      "role": "independent validation",
+      "sha256": "e9032bc761de77f5cff56ee4bf8e4a45f5d13fdb85319dd33683f9d768a1b665"
+    },
+    {
+      "path": "experiments/yolo/gdt723_v96_twelve_preparation_bound_core_context_repair/src/V96_12_AUDIT_SPECS.tsv",
+      "role": "twelve exact audit decisions",
+      "sha256": "8991776a6b051293b3c9159513e88c03b1088702bca327063ec7edcaeecb10bc"
+    },
+    {
+      "path": "experiments/yolo/gdt723_v96_twelve_preparation_bound_core_context_repair/src/run.py",
+      "role": "deterministic builder",
+      "sha256": "43bce126e58837be170e8a673f34ae1e2ad1222886e3dfd680e6f164da3bbb02"
+    },
+    {
+      "path": "experiments/yolo/gdt723_v96_twelve_preparation_bound_core_context_repair/src/validate.py",
+      "role": "independent validator",
+      "sha256": "1bca9bcc1ea9e9edb3e40cc677d3c693a2b17a42ac4725ffcd225d6efb575f60"
+    }
+  ],
+  "question": "Can twelve weak preparation-related exact-surface readings retain concrete state, stage, quantity or material cores while moving replaceable product heads, sources and actions into only their licensed local positions?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "v96_twelve_preparation_bound_core_context_repair",
+  "status": "PASS_V96_12_PREPARATION_HOLDS_REVISED__10_LATER_BOUND_WHOLES_PLUS_1_EXACT_O_CKH_GRID_PLUS_1_BOUNDARY_SEED_HEAD__3_LOCAL_ACTIONS_SEPARATED__35_WEAK_READINGS_REMAIN__NO_COMPONENT_EXPORT_NO_SCORE_CREDIT__ALL_H0_NONE",
+  "title": "V96 twelve preparation-whole core/context repair",
+  "updated": "2026-09-01",
+  "validation": {
+    "artifact": "experiments/yolo/gdt723_v96_twelve_preparation_bound_core_context_repair/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}
