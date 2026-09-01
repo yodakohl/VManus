@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **708**
-- Experiment-associated tracked files: **12,051** (1.2 GiB)
-- Structured GDT337+ experiments: **373**
+- Experiments indexed: **709**
+- Experiment-associated tracked files: **12,068** (1.2 GiB)
+- Structured GDT337+ experiments: **374**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT711 | GDT711_v84_active_weak_family_repair | `PASS_V84_181_WEAK_AUDITED__30_SOURCE_READINGS_49_POSITIONS_REPAIRED__332_TO_324_ACTIVE_LEXICAL_READINGS__1594_TO_1586_COMPLETE_READINGS__11_W0_149_W1_145_W2_19_W3__19_W3_PRESERVED__ALL_H0_NONE` | [report](../experiments/yolo/gdt711_v84_active_weak_family_repair/REPORT.md) | 17 | 1.9 MiB | 22 | STRUCTURED_YOLO |
 | GDT710 | GDT710_v83_complete_dictionary_confidence_evidence | `PASS_V83_2115_MASTER_CARDS__1430_GLOBAL_SURFACES__1582_COMPLETE_WORD_SURFACES_1594_READINGS__320_LIVE_SURFACES_332_LIVE_READINGS_479_OCCURRENCES__ALL_H0_NONE__CONFIDENCE_IS_NOT_PLAINTEXT` | [report](../experiments/yolo/gdt710_v83_complete_dictionary_confidence_evidence/REPORT.md) | 18 | 6.9 MiB | 70 | STRUCTURED_YOLO |
 | GDT709 | GDT709_v82_complete_first_terminal_product_census | `PASS_V82_42_WINDOWS_203_ITEMS__25_LEXICAL_FIRST_TERMINALS_22_OPERATOR_TERMINALS_9_EXPLORATORY_ENDPOINTS__0_NEW_EDGES__A048_HIGH_HOLD_ZERO_WORD_DELTA` | [report](../experiments/yolo/gdt709_v82_complete_first_terminal_product_census/REPORT.md) | 18 | 207.7 KiB | 2 | STRUCTURED_YOLO |
 | GDT708 | GDT708_v81_variable_batch_terminal_product | `PASS_V81_9_VARIABLE_BUNDLES__1_NEW_C021_8_LIVE_HOLDS__20_EDGES_14_COMPONENTS__ZERO_WORD_DELTA` | [report](../experiments/yolo/gdt708_v81_variable_batch_terminal_product/REPORT.md) | 24 | 1.8 MiB | 2 | STRUCTURED_YOLO |
