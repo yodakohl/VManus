@@ -1,0 +1,231 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The 1586-reading dictionary and 479-position table preserve the complete V93 handoff; 20 bindings and six rival rows make the two semantic repairs exactly auditable.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exploratory working-dictionary repair only. Two learned wholes retain distinct cold-result defaults while Zubereitung remains occurrence-local. Shared cooling semantics do not license a common written family, free E/T/Y/D/DY/EEE component, family credit or score. No plaintext, language, historical terminology, product identity, action, new page, image, transcription, f84 or f84r is asserted.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt720_v93_cold_result_whole_domain_repair/src/run.py",
+    "validate": "python3 experiments/yolo/gdt720_v93_cold_result_whole_domain_repair/src/validate.py"
+  },
+  "created": "2026-09-01",
+  "dependencies": [
+    "GDT633",
+    "GDT664",
+    "GDT684",
+    "GDT687",
+    "GDT689",
+    "GDT691",
+    "GDT710",
+    "GDT719"
+  ],
+  "experiment_id": "GDT720",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt719_v92_three_result_whole_dy_rejection/artifacts/V92_324_ACTIVE_LEXICAL_READINGS.tsv",
+      "role": "canonical V92 lexical input",
+      "sha256": "65067eeeb62af70af0da0de22fb02d2f6e9549c68eab6e52bc58fb9ad0bb59e5"
+    },
+    {
+      "path": "experiments/yolo/gdt719_v92_three_result_whole_dy_rejection/artifacts/V92_479_CONTEXT_REALIZATIONS.tsv",
+      "role": "canonical V92 context input",
+      "sha256": "ba2716d67c72a3875b6bbd6c7553886764bc390a09e536e419c4d43ec60ae601"
+    },
+    {
+      "path": "experiments/yolo/gdt719_v92_three_result_whole_dy_rejection/artifacts/V92_61_HELD_READING_AUDIT.tsv",
+      "role": "canonical V92 repair queue input",
+      "sha256": "6e844c2cfb2ff87b6a3d3177bdf5a7392753512a768792453f4a5ed1ee846525"
+    },
+    {
+      "path": "experiments/yolo/gdt719_v92_three_result_whole_dy_rejection/artifacts/V92_COMPLETE_WORD_CONFIDENCE.tsv",
+      "role": "canonical V92 complete dictionary",
+      "sha256": "c9fd1460b9e5a8b51f31d1ebae66bb8517df732b2f7002fafbc08c9b6bc08ab1"
+    },
+    {
+      "path": "experiments/yolo/gdt719_v92_three_result_whole_dy_rejection/artifacts/V92_2_BOUND_SPAN_RENDERER.tsv",
+      "role": "renderer parity input",
+      "sha256": "b714d9d32b6f108039494ac789cbbc1f1aba63a5456dbe6fdd3ea5a35a62f002"
+    },
+    {
+      "path": "experiments/yolo/gdt719_v92_three_result_whole_dy_rejection/artifacts/V92_2_ONE_SHOT_RENDER_DIRECTIVES.tsv",
+      "role": "renderer parity input",
+      "sha256": "1bbb4a4505915ae89df1b596ad24cff95fd1fb01247ad1a350e60b3bac41c753"
+    },
+    {
+      "path": "experiments/yolo/gdt719_v92_three_result_whole_dy_rejection/artifacts/V92_8_F7R2_RENDERED_UNITS.tsv",
+      "role": "renderer parity input",
+      "sha256": "06c51d73ef65bea6a423decb0ff2b708816b6556ebd78a5f12e380ae04df73ef"
+    },
+    {
+      "path": "experiments/yolo/gdt710_v83_complete_dictionary_confidence_evidence/artifacts/V83_332_LIVE_READING_CONFIDENCE.tsv",
+      "role": "exact score provenance",
+      "sha256": "7d31f1e973dd5fb43b1387c2d421ad69f4be0465527dfeeb5865026032eef3de"
+    },
+    {
+      "path": "experiments/yolo/gdt710_v83_complete_dictionary_confidence_evidence/artifacts/V83_1430_GLOBAL_SURFACE_CONFIDENCE.tsv",
+      "role": "teeedy recurrence aggregate only",
+      "sha256": "3b113fe23908e812a49e186c60f0b50a2795d52a94b45d7732272fb94e6e727b"
+    },
+    {
+      "path": "experiments/yolo/gdt691_preparation_head_role_dispatch/src/V64_EXACT_TOKEN_RULES.tsv",
+      "role": "local product-head rules",
+      "sha256": "d1efb76393c487e80ede7aff1184923c1afefcbf8a2dacde9a70b75a5a80aacc"
+    },
+    {
+      "path": "experiments/yolo/gdt691_preparation_head_role_dispatch/artifacts/V64_479_TOKEN_READER.tsv",
+      "role": "exact local product-head positions",
+      "sha256": "6ca1fbd7302583b3f5745b74fbec88fb9296a817ca8585e4c718194a800ab37b"
+    },
+    {
+      "path": "experiments/yolo/gdt684_v57_complete_semantic_debt_census/artifacts/V57_479_POSITION_INFORMATION_AUDIT.tsv",
+      "role": "exact state and debt signals",
+      "sha256": "77c4122021b4b1dc65c43d16c47ae4230b0713d3643f5c9c2e9a503f6361555f"
+    },
+    {
+      "path": "experiments/yolo/gdt687_v60_dchey_y_dy_action_result_boundary_dispatch/artifacts/V60_95_POSITION_SCOPE_DISPATCH.tsv",
+      "role": "teeedy nominal result scope",
+      "sha256": "57a357d1b7b3b022aa08fe5044a15dafb2541a1096dc4be7946a69c1f1985910"
+    },
+    {
+      "path": "experiments/yolo/gdt687_v60_dchey_y_dy_action_result_boundary_dispatch/artifacts/V60_51_LINE_READER.tsv",
+      "role": "etyd exact line and action boundary",
+      "sha256": "cbd543c00c4de3c991bd52addcfe49afe198d45096a33dd18165177b6ae82f35"
+    },
+    {
+      "path": "experiments/yolo/gdt689_v62_bound_dy_sister_endpoint_dispatch/artifacts/SURFACE_DY_60_FORM_INVENTORY.tsv",
+      "role": "later teeedy formal status and etyd absence",
+      "sha256": "0914039a2da924c79c1eb5442041014e55ce41f82bbcb4ccf6b908213891cba8"
+    },
+    {
+      "path": "experiments/yolo/gdt689_v62_bound_dy_sister_endpoint_dispatch/artifacts/SURFACE_DY_74_POSITION_INVENTORY.tsv",
+      "role": "later teeedy position status and etyd absence",
+      "sha256": "82da74c0c6ab060cf994f12337325830f9538514d0c7c88fc888c3f23a8c372c"
+    },
+    {
+      "path": "experiments/yolo/gdt633_cth_interfix_semantic_contrasts/artifacts/LITERAL_E_RUN_BACKGROUND.tsv",
+      "role": "teeedy form-ladder recurrence only",
+      "sha256": "095f51bf4b378bffefa93830ada2de0ab3e384815d4a2f61a219742aad6cca20"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt720_v93_cold_result_whole_domain_repair/METHOD.md",
+      "role": "method",
+      "sha256": "9748a81e23a71c53b74c34fc0bec632d81565388ce0bb6528f08afd2ddb68a1e"
+    },
+    {
+      "path": "experiments/yolo/gdt720_v93_cold_result_whole_domain_repair/README.md",
+      "role": "entry point",
+      "sha256": "6223a6b16c9d4570bd664a203248e9b196593e4b03c674540a99597a7bd8f6c3"
+    },
+    {
+      "path": "experiments/yolo/gdt720_v93_cold_result_whole_domain_repair/REPORT.md",
+      "role": "primary result",
+      "sha256": "c0d6c9b513d50c8cd2f81163004f7de15b91c44ee579adac338dc5d2043c1eed"
+    },
+    {
+      "path": "experiments/yolo/gdt720_v93_cold_result_whole_domain_repair/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "a26698da780a818796529682b2b0e48bfa53e0b590bd49a439e9d109ed2735d9"
+    },
+    {
+      "path": "experiments/yolo/gdt720_v93_cold_result_whole_domain_repair/artifacts/RESULT.json",
+      "role": "reproducible V93 result",
+      "sha256": "f766cdc7a952ff332c3338a05b066560db6f2f1b25955bf547ea552c992970e0"
+    },
+    {
+      "path": "experiments/yolo/gdt720_v93_cold_result_whole_domain_repair/artifacts/V93_1_REJECTED_SHARED_COOLING_MORPHOLOGY.tsv",
+      "role": "semantic-domain and morphology decision",
+      "sha256": "c887628a93bcd079f6b180f5caf880ceae7decaa4c9be18417c0caf464f380a6"
+    },
+    {
+      "path": "experiments/yolo/gdt720_v93_cold_result_whole_domain_repair/artifacts/V93_20_PRIMARY_EVIDENCE_BINDINGS.tsv",
+      "role": "resolved evidence bindings",
+      "sha256": "b05b23bd6a42421ff8bef983be31b312d9621f5b566b13f3faa87e6018e1b6be"
+    },
+    {
+      "path": "experiments/yolo/gdt720_v93_cold_result_whole_domain_repair/artifacts/V93_2_BOUND_SPAN_RENDERER.tsv",
+      "role": "renderer parity",
+      "sha256": "b714d9d32b6f108039494ac789cbbc1f1aba63a5456dbe6fdd3ea5a35a62f002"
+    },
+    {
+      "path": "experiments/yolo/gdt720_v93_cold_result_whole_domain_repair/artifacts/V93_2_COLD_RESULT_CORE_CONTEXT_DELTA.tsv",
+      "role": "two repaired readings",
+      "sha256": "77b85bda6ed8424b4f4ac212ab15657107056bfeb65a59734c0389f76070d9ae"
+    },
+    {
+      "path": "experiments/yolo/gdt720_v93_cold_result_whole_domain_repair/artifacts/V93_2_ONE_SHOT_RENDER_DIRECTIVES.tsv",
+      "role": "renderer parity",
+      "sha256": "1bbb4a4505915ae89df1b596ad24cff95fd1fb01247ad1a350e60b3bac41c753"
+    },
+    {
+      "path": "experiments/yolo/gdt720_v93_cold_result_whole_domain_repair/artifacts/V93_324_ACTIVE_LEXICAL_READINGS.tsv",
+      "role": "canonical active V93 readings",
+      "sha256": "7c11155124e8866e09b01b7027121f7bb7f47f86a978e40a1cf8f33c19eb1d16"
+    },
+    {
+      "path": "experiments/yolo/gdt720_v93_cold_result_whole_domain_repair/artifacts/V93_479_CONTEXT_REALIZATIONS.tsv",
+      "role": "canonical active V93 contexts",
+      "sha256": "acd41cf7d176252c301da8bdb4c907003ed7fa32bd661313716d1d495a759247"
+    },
+    {
+      "path": "experiments/yolo/gdt720_v93_cold_result_whole_domain_repair/artifacts/V93_58_HELD_READING_AUDIT.tsv",
+      "role": "repair queue handoff",
+      "sha256": "8514aa9b5fb72a0c3f60f21d362e40958280df733d0e781aa7a0e50c280eb392"
+    },
+    {
+      "path": "experiments/yolo/gdt720_v93_cold_result_whole_domain_repair/artifacts/V93_6_RIVAL_MODEL_COMPARISON.tsv",
+      "role": "explicit model comparison",
+      "sha256": "8894e192a7b2efc27abec17209c245c6ab8465f71ba8f11feab5e44ea62c5a4e"
+    },
+    {
+      "path": "experiments/yolo/gdt720_v93_cold_result_whole_domain_repair/artifacts/V93_8_F7R2_RENDERED_UNITS.tsv",
+      "role": "renderer parity",
+      "sha256": "06c51d73ef65bea6a423decb0ff2b708816b6556ebd78a5f12e380ae04df73ef"
+    },
+    {
+      "path": "experiments/yolo/gdt720_v93_cold_result_whole_domain_repair/artifacts/V93_COMPLETE_WORD_CONFIDENCE.tsv",
+      "role": "canonical complete V93 dictionary",
+      "sha256": "52675a1b7f4b919a92b995b0192d9f41d4ca1dbe7b762563b0ab7ecc9d517d61"
+    },
+    {
+      "path": "experiments/yolo/gdt720_v93_cold_result_whole_domain_repair/artifacts/VALIDATION.json",
+      "role": "independent validation",
+      "sha256": "e0ad18ee33739555807f445ef5e0704f1ca82114cf3e141c910bf93f2ae121e9"
+    },
+    {
+      "path": "experiments/yolo/gdt720_v93_cold_result_whole_domain_repair/src/V93_20_PRIMARY_EVIDENCE_BINDINGS.tsv",
+      "role": "evidence binding source",
+      "sha256": "62b622d50d1d27f508f372717d24cc2b365409fa04f07608ab8983498492a442"
+    },
+    {
+      "path": "experiments/yolo/gdt720_v93_cold_result_whole_domain_repair/src/V93_2_AUDIT_SPECS.tsv",
+      "role": "audit specification",
+      "sha256": "220f807e27feb64e59edb27aed27d1e4e47815d5d25f0e9f267a532b00bd2fc1"
+    },
+    {
+      "path": "experiments/yolo/gdt720_v93_cold_result_whole_domain_repair/src/run.py",
+      "role": "deterministic builder",
+      "sha256": "3d47a1da2a196e06ae43653c1025a4cb2efa814cb5a4d49a7a2ce25b3e918288"
+    },
+    {
+      "path": "experiments/yolo/gdt720_v93_cold_result_whole_domain_repair/src/validate.py",
+      "role": "independent validator",
+      "sha256": "1c61ec19b70f9ae173b6bf1a846505120b91d2bbc232a1db0a9f4175c5c5f42f"
+    }
+  ],
+  "question": "Can teeedy and etyd retain distinct concrete cold-result defaults while local product heads are removed, without promoting their shared German domain to shared written morphology?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "v93_cold_result_whole_domain_repair",
+  "status": "PASS_V93_2_COLD_RESULT_WHOLES_REVISED__SHARED_COOLING_MORPHOLOGY_REJECTED__2_POSITIONS_2_PAGES__56_WEAK_READINGS_REMAIN__NO_SCORE_CREDIT__ALL_H0_NONE",
+  "title": "V93 cold-result whole-domain repair",
+  "updated": "2026-09-01",
+  "validation": {
+    "artifact": "experiments/yolo/gdt720_v93_cold_result_whole_domain_repair/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

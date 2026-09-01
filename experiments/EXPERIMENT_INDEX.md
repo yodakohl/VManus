@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **717**
-- Experiment-associated tracked files: **12,230** (1.2 GiB)
-- Structured GDT337+ experiments: **382**
+- Experiments indexed: **718**
+- Experiment-associated tracked files: **12,252** (1.2 GiB)
+- Structured GDT337+ experiments: **383**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT720 | GDT720_v93_cold_result_whole_domain_repair | `PASS_V93_2_COLD_RESULT_WHOLES_REVISED__SHARED_COOLING_MORPHOLOGY_REJECTED__2_POSITIONS_2_PAGES__56_WEAK_READINGS_REMAIN__NO_SCORE_CREDIT__ALL_H0_NONE` | [report](../experiments/yolo/gdt720_v93_cold_result_whole_domain_repair/REPORT.md) | 22 | 2.0 MiB | 8 | STRUCTURED_YOLO |
 | GDT719 | GDT719_v92_three_result_whole_dy_rejection | `PASS_V92_3_RESULT_WHOLES_REVISED__SHARED_DY_DECOMPOSITION_REJECTED__3_POSITIONS_3_PAGES__58_WEAK_READINGS_REMAIN__NO_SCORE_CREDIT__ALL_H0_NONE` | [report](../experiments/yolo/gdt719_v92_three_result_whole_dy_rejection/REPORT.md) | 21 | 2.1 MiB | 8 | STRUCTURED_YOLO |
 | GDT718 | GDT718_v91_three_result_whole_core_context_repair | `PASS_V91_3_WORKFLOW_WHOLES_REVISED__SHARED_WITHDRAWAL_FAMILY_REJECTED__3_POSITIONS_3_PAGES__61_WEAK_READINGS_REMAIN__NO_SCORE_CREDIT__ALL_H0_NONE` | [report](../experiments/yolo/gdt718_v91_three_result_whole_core_context_repair/REPORT.md) | 21 | 2.1 MiB | 5 | STRUCTURED_YOLO |
 | GDT717 | GDT717_v90_quality_stage_core_context_repair | `PASS_V90_7_QUALITY_STAGE_READINGS_REVISED__5_GRID_PLUS_2_SISTER_WHOLES__7_POSITIONS_7_PAGES__64_WEAK_READINGS_REMAIN__F7R2_RERENDERED__ALL_H0_NONE` | [report](../experiments/yolo/gdt717_v90_quality_stage_core_context_repair/REPORT.md) | 21 | 2.1 MiB | 5 | STRUCTURED_YOLO |

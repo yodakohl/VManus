@@ -18344,3 +18344,45 @@ The next bounded comparison is the cold-result pair `teeedy` and `etyd`. It
 must test whether their common cooling domain survives while their different
 stage and boundary structures stay separate. The weaker unpaired `otsheody`
 remains outside that comparison.
+
+## GDT720 advances the canonical dictionary to V93
+
+GDT720 selects the cooled-result model for both target wholes while keeping
+their written analyses separate. `etyd` becomes `bis Mittelstufe gekühlt;
+abgeschlossen`; its one local realization is `bis zur Mittelstufe gekühlte,
+abgeschlossene Zubereitung`. It stands line-final after `daiin` at f10r.2#10,
+but the line's sole licensed action is the initial `dchey`. GDT684 supplies
+`STATE_COLD|STATE_FINISHED|VALUE_GRADE`; the neighboring value does not turn
+`etyd` into a dose, handoff or command.
+
+`teeedy` becomes `vollständig abgekühlt; abgeschlossen`, locally
+`vollständig abgekühlte Zubereitung, fertig`. It is medial in the nominal
+result sequence at f115r.1#7. GDT633/GDT710 count four exact surface
+occurrences, but recurrence is used only as form evidence. The later GDT689
+status remains `UNRESOLVED`, `NO_REAL_SISTER`, no formal recipe and
+`WHOLE_ONLY_NO_PAIR_EXPORT`; no `T`, `EEE`, `D` or `DY` value is exported.
+
+The six-row rival table compares cooled result, dose/handoff and residue/rest
+for each form. Dose/handoff loses because `daiin` or `oroiir` already carries
+the adjacent value/portion information. Residue/rest remains a visible local
+product rival without its own signal. Thus one semantic domain—cooled,
+completed result—is retained, but a shared written cooling or closure family
+is rejected. `otsheody` remains unchanged and outside the comparison.
+
+Twenty exact primary bindings resolve uniquely and replay their assertions and
+fingerprints. Both targets remain 30/W1 with zero score, family or component
+credit. All 322 non-target lexical rows and 477 non-target contexts preserve
+parity; both spans and all eight f7r.2 units remain byte-identical. Three
+independent audits pass, and the independent validator passes 54,411 checks.
+
+V93 remains 324 active readings at 479 positions with 7 W0, 135 W1, 163 W2
+and 19 W3. The complete dictionary remains 1,582 surfaces/1,586 readings, each
+with a default meaning, numeric score, confidence level, positive evidence,
+counterevidence and `H0_NONE`. Fifty-six weak readings remain. The canonical
+lookup is
+`experiments/yolo/gdt720_v93_cold_result_whole_domain_repair/artifacts/V93_COMPLETE_WORD_CONFIDENCE.tsv`.
+
+The next pass audits the four simple concrete heads `l`, `r`, `pol` and `lor`
+against GDT635/GDT636/GDT693/GDT682. Its purpose is to retain and sharpen
+`Holz`, `Wurzel`, `Pulver` and `Portion` where their exact head compositions
+hold, not to erase concrete material content by default.
