@@ -18060,3 +18060,56 @@ targets the 16 W0 plus 165 W1 active readings by evidence/family payoff.  The
 preterminal-reset gate remains paused rather than rejected.  No page, word
 meaning, relation edge, f84 or f84r was opened or silently promoted by this
 audit.
+
+## GDT711 separates lexical cores from local fluent renderings
+
+GDT711 takes the complete GDT710 confidence register as its only live word
+universe.  All 181 active W0/W1 source readings and their 211 positions are
+placed in eleven disjoint repair queues.  The first selected block contains 30
+source readings at 49 unchanged positions on 25 already admitted pages.  No
+new transcription, segmentation, page, `f84` or `f84r` is used.
+
+The important change is architectural.  A reusable lexical core is now stored
+separately from the German realization needed at a particular occurrence.
+Seven formerly distinct `daiin` glosses reduce to the core `Wert III`, while
+their occurrences retain `Grad III` or `drei`; three `dain` glosses reduce to
+`Wert II`, with `Grad II` or `zwei` in context.  `qodaiin` remains a separate
+W1 `Wert III` reading: its decomposition explicitly leaves `qod|aiin` versus
+`qo|daiin` open and assigns no free QO meaning.  `orom` now carries only
+`Portion`; OM and the local material head remain open outside the lexical
+core.
+
+The same deletion rule removes unsupported object or unit identities from the
+selected cards.  `shx` no longer identifies gum; `tolg` no longer identifies a
+gran or a drug; `am/dam` no longer name a historical unit or dose;
+CKH-family cards retain only exact-family mixture language rather than a
+specific medicine; and the selected product cards no longer infer macerate,
+decoction or extract merely from a fluent renderer.  `qoteed` retains only the
+licensed action `vollständig abkühlen und abziehen`; its local context supplies
+the preparation object.  `olkar` keeps the rival intersection hot + wood +
+share I while preparation-head identity is removed.  Free `ol` remains W1.
+The second `ol` is `Stoffkopf` only inside the explicit GDT683 `cheop ol`
+compound, remains W0 and cannot export a powder meaning.
+
+Thirty source readings consolidate to 22 repaired lexical cards, so the active
+deck moves from 332 to 324 readings without losing any of the 479 token
+positions.  Its levels are 11 W0, 149 W1, 145 W2 and the unchanged 19 W3.  The
+complete table contains 1,582 surfaces and 1,586 readings with 291 W0, 329 W1,
+523 W2 and 443 W3.  All historical states remain `H0_NONE`; normalized master
+card matches receive automatic score credit zero; GDT696–GDT709 relation
+evidence remains zero word credit.
+
+The V84 export keeps semantic scope, structural/compound applicability,
+source provenance and export boundaries distinct from the German meaning.
+Lexical aggregate span membership is not copied to every occurrence: the six
+V67 B001–B003 positions retain their exact IDs, and only the GDT683 `cheop ol`
+position gains its named local span marker.  All 19 W3 meanings, scores,
+writers, scopes, applicability classes, export boundaries, bound-span metadata
+and provenance survive.  The deterministic validator passes 71,665 checks.
+
+The next lexical pass starts from the 151 held weak readings in
+`V84_181_WEAK_READING_REPAIR_CENSUS.tsv`: first the 15 unrepaired AL-class
+cells, then the 18 unrepaired state/carrier cells.  Keep the core/context split
+and require a named deleted debt or an explicit common family intersection;
+do not award points for repetition, fluent generality, an old exact card or a
+relation edge.  The preterminal-reset route remains paused rather than closed.
