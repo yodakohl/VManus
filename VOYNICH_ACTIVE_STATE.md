@@ -18229,3 +18229,42 @@ The next lexical route starts with the 32 preparation-head candidates in the
 remaining queue and ranks repeated exact family support against removable
 identity debt. It may keep exploratory local referents, but fluent prose alone
 supplies no confidence credit; no new page or sealed material is required.
+
+## GDT717 advances the canonical dictionary to V90
+
+GDT717 resolves seven of those preparation-head holds through two narrow,
+already repeated families. Five exact GDT647 grid cells now use portable
+state-plus-stage cores: `otchy = kalt-trocken; Anfangsstufe`, `otchey =
+kalt-trocken; Mittelstufe`, `otchdy = kalt-trocken; Anfangsstufe erreicht`,
+`okchedy = heiß-trocken; Mittelstufe erreicht` and `otshey = kalt-feucht;
+Mittelstufe`. Their occurrence realizations may say `Zubereitung`, but that
+replaceable product head is not part of the portable reading. The comma in
+the two open-stage realizations deliberately distinguishes `..., Anfangs-`
+or `Mittelstufe` from the explicit `Stufe erreicht` result forms.
+
+The two GDT689 result sisters remain weaker exact-whole readings: `chody =
+leicht getrocknet; abgeschlossen` and `sheody = feucht angesetzt;
+Anfangsstufe abgeschlossen`. Their visible final `dy` is not the formal DY
+field used by the five grid cells. They therefore receive only `F_STATE +4`,
+whereas each grid cell receives exactly one `F_STATE +4` and one `F_STAGE +4`.
+No score is paid for deleted `Ansatz`, `Zubereitung`, `Mazerat` or fluent
+German. All seven readings remain W1.
+
+Thirty-four exact primary-row bindings reproduce the GDT647, GDT689 and GDT691
+sources, assertions and fingerprints. All 317 non-target lexical rows and 472
+non-target occurrence contexts retain fieldwise parity; both inherited spans
+remain byte-exact. The f7r.2 one-shot renderer still consumes nine positions
+into eight units and now emits `kalt-trockene Zubereitung, Anfangsstufe` at the
+target unit. The independent validator passes 87,495 checks.
+
+V90 remains 324 active readings at 479 positions with 7 W0, 135 W1, 163 W2
+and 19 W3. The complete dictionary remains 1,582 surfaces/1,586 readings, each
+with a default meaning, numeric score, confidence level, positive evidence,
+counterevidence and `H0_NONE`. Sixty-four weak readings remain. The canonical
+lookup is
+`experiments/yolo/gdt717_v90_quality_stage_core_context_repair/artifacts/V90_COMPLETE_WORD_CONFIDENCE.tsv`.
+
+The next pass keeps the queue partitioned into small families. The first
+candidate is the exact workflow/withdrawal island around `oteed`, `keeod` and
+`kchod`; action-patient, material-identity and unrelated preparation-noun
+forms stay separate until their own repeated composition supports them.

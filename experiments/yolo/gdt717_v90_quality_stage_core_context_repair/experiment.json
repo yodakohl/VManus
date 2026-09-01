@@ -1,0 +1,208 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The complete 1586-reading dictionary and 479-position realization table preserve a default meaning, confidence, evidence, counterevidence, locality and export boundary for every carried reading; thirty-four exact source-row bindings make the asymmetric five-grid plus two-sister repair replayable.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exploratory working-dictionary repair only. V90 treats five selected quality-grid wholes as bound state-plus-stage compositions and two selected visible-dy sister wholes as bound state-plus-whole-result compositions. Product heads stay occurrence-local, components are not free morphemes, the two non-formal-DY wholes receive no F_STAGE credit, scores are non-probabilistic evidence indices, historical status is H0_NONE, and GDT717 supplies zero relation-word credit. No plaintext, language, historical lexicon, product identity, new page, image, transcription, f84 or f84r is asserted.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt717_v90_quality_stage_core_context_repair/src/run.py",
+    "validate": "python3 experiments/yolo/gdt717_v90_quality_stage_core_context_repair/src/validate.py"
+  },
+  "created": "2026-09-01",
+  "dependencies": [
+    "GDT647",
+    "GDT689",
+    "GDT691",
+    "GDT711",
+    "GDT716"
+  ],
+  "experiment_id": "GDT717",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt716_v89_indexed_share_core_context_repair/artifacts/V89_324_ACTIVE_LEXICAL_READINGS.tsv",
+      "role": "canonical V89 active lexical cores confidence evidence and export scopes",
+      "sha256": "a1b83300df491ad29cc7918816ca77356221fa69eee3b4017ca75dcc75b8fed0"
+    },
+    {
+      "path": "experiments/yolo/gdt716_v89_indexed_share_core_context_repair/artifacts/V89_479_CONTEXT_REALIZATIONS.tsv",
+      "role": "canonical V89 exact-position context universe and clause licenses",
+      "sha256": "3be488e67a0604efd0880bf42d8e9c303cdcf85d40400b359000036d9458af94"
+    },
+    {
+      "path": "experiments/yolo/gdt716_v89_indexed_share_core_context_repair/artifacts/V89_COMPLETE_WORD_CONFIDENCE.tsv",
+      "role": "canonical V89 complete default confidence and evidence dictionary",
+      "sha256": "157153f5c68aece443a3336eb9fb28ba7269b3e507e5ba7999eb665d97afdf1c"
+    },
+    {
+      "path": "experiments/yolo/gdt716_v89_indexed_share_core_context_repair/artifacts/V89_84_HELD_READING_AUDIT.tsv",
+      "role": "V89 cumulative weak-reading queue and dispositions",
+      "sha256": "be1fdaf5376d0d4f894fb9a5e0c5348a94b7fbe0e07bc77153310fcbd90347a8"
+    },
+    {
+      "path": "experiments/yolo/gdt716_v89_indexed_share_core_context_repair/artifacts/V89_2_BOUND_SPAN_RENDERER.tsv",
+      "role": "two inherited exact occurrence-local spans",
+      "sha256": "b714d9d32b6f108039494ac789cbbc1f1aba63a5456dbe6fdd3ea5a35a62f002"
+    },
+    {
+      "path": "experiments/yolo/gdt711_v84_active_weak_family_repair/artifacts/V84_13_STEM_FAMILY_EVIDENCE.tsv",
+      "role": "declared F_STATE and F_STAGE values bonuses caps and counterevidence",
+      "sha256": "48b2312493cf7136ed0c2e45d4d63f16c0e0df8b8d168785d40104dd97b5f03d"
+    },
+    {
+      "path": "experiments/yolo/gdt647_quality_subdegree_family_migration/artifacts/FAMILY_MIGRATION_DECK.tsv",
+      "role": "five repeated exact quality-grid whole cells and decompositions",
+      "sha256": "979406e024453cfc36df8f6181f4f16189ebe905e7d86defc022b842e80a34a2"
+    },
+    {
+      "path": "experiments/yolo/gdt647_quality_subdegree_family_migration/artifacts/V24_EXACT_TOKEN_GLOSSARY.tsv",
+      "role": "exact whole glossary anchors for the five quality-grid cells",
+      "sha256": "63c64b9893c90c6c7b253692a79531ceb09b9064f2d3dd262937cee55160e19b"
+    },
+    {
+      "path": "experiments/yolo/gdt689_v62_bound_dy_sister_endpoint_dispatch/artifacts/GRID_8_D_BIT_STATE_CONTROLS.tsv",
+      "role": "otchdy and okchedy D-bit sister controls and semantic caution",
+      "sha256": "ba6236d6206438136a99995236684f0b5d4b3879aed0598029538c3682c6c82a"
+    },
+    {
+      "path": "experiments/yolo/gdt689_v62_bound_dy_sister_endpoint_dispatch/artifacts/SURFACE_DY_60_FORM_INVENTORY.tsv",
+      "role": "chody and sheody visible-dy whole-pair inventory and formal status",
+      "sha256": "0914039a2da924c79c1eb5442041014e55ce41f82bbcb4ccf6b908213891cba8"
+    },
+    {
+      "path": "experiments/yolo/gdt689_v62_bound_dy_sister_endpoint_dispatch/artifacts/SISTER_36_HEAD_PRESERVING_COMPARISON.tsv",
+      "role": "chody and sheody head-preserving sister comparisons",
+      "sha256": "9df30ef0d8e0fbdc29c659c062696a43458c730c52be3ea36a2ca2de74bd3cd4"
+    },
+    {
+      "path": "experiments/yolo/gdt689_v62_bound_dy_sister_endpoint_dispatch/artifacts/V62_50_POSITION_REVISIONS.tsv",
+      "role": "four exact result-sister position revisions and action controls",
+      "sha256": "20a5924db3a6239c02e308b6d25bc2c8f66afe9cac93a15e33e37927c1eceee7"
+    },
+    {
+      "path": "experiments/yolo/gdt691_preparation_head_role_dispatch/src/V64_EXACT_TOKEN_RULES.tsv",
+      "role": "seven exact local preparation-head rules and live product rivals",
+      "sha256": "d1efb76393c487e80ede7aff1184923c1afefcbf8a2dacde9a70b75a5a80aacc"
+    },
+    {
+      "path": "experiments/yolo/gdt691_preparation_head_role_dispatch/artifacts/V64_479_TOKEN_READER.tsv",
+      "role": "seven exact admitted occurrences and nominal role assignments",
+      "sha256": "6ca1fbd7302583b3f5745b74fbec88fb9296a817ca8585e4c718194a800ab37b"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt717_v90_quality_stage_core_context_repair/README.md",
+      "role": "experiment entry point",
+      "sha256": "3c6313379e7848ba1f62136be4f1b3589ce88f997036f5cb640ca92f7a415bc7"
+    },
+    {
+      "path": "experiments/yolo/gdt717_v90_quality_stage_core_context_repair/METHOD.md",
+      "role": "asymmetric grid and sister-whole repair method",
+      "sha256": "991b7d985a4dd663374c60a9a5afdf34c67f1613071b7e6a1a7b36b8707b1787"
+    },
+    {
+      "path": "experiments/yolo/gdt717_v90_quality_stage_core_context_repair/REPORT.md",
+      "role": "primary result and seven concrete quality-stage readings",
+      "sha256": "2e17e4ff95250586ea7f8247d6cf2ffff6fd7b90c86728cb388eda4be3167159"
+    },
+    {
+      "path": "experiments/yolo/gdt717_v90_quality_stage_core_context_repair/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "abcc3201de81c5dd54ac5cdc6efd88478ac058ad1eea5c8020eb69c02582d2e9"
+    },
+    {
+      "path": "experiments/yolo/gdt717_v90_quality_stage_core_context_repair/src/run.py",
+      "role": "deterministic V90 builder",
+      "sha256": "29fa8b274a120e6117e9a14c91198b182077b368584504daf1ccd8624d185209"
+    },
+    {
+      "path": "experiments/yolo/gdt717_v90_quality_stage_core_context_repair/src/validate.py",
+      "role": "independent evidence parity confidence and renderer validator",
+      "sha256": "f82001174236c9a11c735c8fdfeb6c338b6cd8d490133f92eb7dace5ce5de5da"
+    },
+    {
+      "path": "experiments/yolo/gdt717_v90_quality_stage_core_context_repair/src/V90_7_AUDIT_SPECS.tsv",
+      "role": "seven explicit portable-core and occurrence-context specifications",
+      "sha256": "1b31d7ee681ff4ea681de0590f4fe569745093a9b2acb56529d262d068fef039"
+    },
+    {
+      "path": "experiments/yolo/gdt717_v90_quality_stage_core_context_repair/src/V90_34_PRIMARY_EVIDENCE_BINDINGS.tsv",
+      "role": "thirty-four exact source-row selectors assertions and score-credit declarations",
+      "sha256": "b32e8ae73571406622b35d22c60309743fea20e04ce8a8b750ed814411731144"
+    },
+    {
+      "path": "experiments/yolo/gdt717_v90_quality_stage_core_context_repair/artifacts/RESULT.json",
+      "role": "compact result counts confidence levels and rendered line",
+      "sha256": "c9f6989463f4049a9ac2beb4ac314ebb7f41f3010e813904c4621d270459e0de"
+    },
+    {
+      "path": "experiments/yolo/gdt717_v90_quality_stage_core_context_repair/artifacts/VALIDATION.json",
+      "role": "87495-check independent validation report",
+      "sha256": "1e9e0db2ef1412f3803d832c1cc3604b3f04e9cb744d766576863eb91a93924d"
+    },
+    {
+      "path": "experiments/yolo/gdt717_v90_quality_stage_core_context_repair/artifacts/V90_324_ACTIVE_LEXICAL_READINGS.tsv",
+      "role": "canonical active V90 lexical cores confidence evidence and boundaries",
+      "sha256": "0fce71567af4981b3fe1932ba7ada7bd468b0eeba18e45ee1e4ab3d41a5e71c5"
+    },
+    {
+      "path": "experiments/yolo/gdt717_v90_quality_stage_core_context_repair/artifacts/V90_479_CONTEXT_REALIZATIONS.tsv",
+      "role": "all exact-position V90 realizations and local-head hypotheses",
+      "sha256": "014028cfe5f7cb202d159ed35ca597beea1617a3d43ea61ff888519cba145461"
+    },
+    {
+      "path": "experiments/yolo/gdt717_v90_quality_stage_core_context_repair/artifacts/V90_71_HELD_READING_AUDIT.tsv",
+      "role": "seven revised queue rows plus sixty-four later weak repairs",
+      "sha256": "1e58d649aa2cfe53c958701dbcfff80a5743c6294062f6cb6b7fffc223b235fb"
+    },
+    {
+      "path": "experiments/yolo/gdt717_v90_quality_stage_core_context_repair/artifacts/V90_7_QUALITY_STAGE_CORE_CONTEXT_DELTA.tsv",
+      "role": "compact seven-reading core context score and evidence delta",
+      "sha256": "ef430f8df9c023abdb17f6c8beaf401c5ebe2318d5b5f5e2189e9423dcce782a"
+    },
+    {
+      "path": "experiments/yolo/gdt717_v90_quality_stage_core_context_repair/artifacts/V90_34_PRIMARY_EVIDENCE_BINDINGS.tsv",
+      "role": "resolved exact source rows and fingerprints",
+      "sha256": "0e84cb86760c653134bab96386a75ad257b6c777bd130c6a86e4284e3846cb62"
+    },
+    {
+      "path": "experiments/yolo/gdt717_v90_quality_stage_core_context_repair/artifacts/V90_2_FAMILY_EVIDENCE.tsv",
+      "role": "F_STATE and F_STAGE rules with selected V90 readings",
+      "sha256": "3c5cebbf6f404101cb66226e23a428ab97908c49e6f2af83f9bfde949e45aec3"
+    },
+    {
+      "path": "experiments/yolo/gdt717_v90_quality_stage_core_context_repair/artifacts/V90_2_BOUND_SPAN_RENDERER.tsv",
+      "role": "byte-preserved inherited occurrence-local spans",
+      "sha256": "b714d9d32b6f108039494ac789cbbc1f1aba63a5456dbe6fdd3ea5a35a62f002"
+    },
+    {
+      "path": "experiments/yolo/gdt717_v90_quality_stage_core_context_repair/artifacts/V90_2_ONE_SHOT_RENDER_DIRECTIVES.tsv",
+      "role": "f7r.2 left-emission and right-consumption directives",
+      "sha256": "1bbb4a4505915ae89df1b596ad24cff95fd1fb01247ad1a350e60b3bac41c753"
+    },
+    {
+      "path": "experiments/yolo/gdt717_v90_quality_stage_core_context_repair/artifacts/V90_8_F7R2_RENDERED_UNITS.tsv",
+      "role": "actual eight-unit f7r.2 V90 output with revised open-stage wording",
+      "sha256": "06c51d73ef65bea6a423decb0ff2b708816b6556ebd78a5f12e380ae04df73ef"
+    },
+    {
+      "path": "experiments/yolo/gdt717_v90_quality_stage_core_context_repair/artifacts/V90_COMPLETE_WORD_CONFIDENCE.tsv",
+      "role": "primary 1582-surface 1586-reading V90 default meaning confidence and evidence dictionary",
+      "sha256": "77e07674772fb8c28a85aa7585dedfca2e1d03a58027c5bb639ecc721fdd0204"
+    }
+  ],
+  "question": "Can five repeated exact quality-grid cells and two weaker result-sister wholes share compact state-stage cores while moving replaceable preparation or macerate heads out of portable defaults and preserving the open-versus-reached stage contrast?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "v90_quality_stage_core_context_repair",
+  "status": "PASS_V90_7_QUALITY_STAGE_READINGS_REVISED__5_GRID_PLUS_2_SISTER_WHOLES__7_POSITIONS_7_PAGES__64_WEAK_READINGS_REMAIN__F7R2_RERENDERED__ALL_H0_NONE",
+  "title": "V90 quality/stage core-context repair",
+  "updated": "2026-09-01",
+  "validation": {
+    "artifact": "experiments/yolo/gdt717_v90_quality_stage_core_context_repair/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}
