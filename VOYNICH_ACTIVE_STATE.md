@@ -18738,9 +18738,34 @@ permission and structural/action flag is preserved. Components receive zero
 credit; five historical convention controls remain H0_NONE. Canonical lookup:
 `experiments/yolo/gdt729_v99r3_fourteen_indexed_quantity_dispatch/artifacts/V99R3_COMPLETE_WORD_CONFIDENCE.tsv`.
 
-The next no-new-page route is GDT730. Its fixed starting inventory is the 95
-remaining inherited global meanings whose semantic field contains a slash,
-`oder` or an unresolved quantity label. Start with `an/ain` and coherent CTH,
-root and seed families; use GDT631–632 as CTH constraints, select one audible
-whole-reading default, retain each displaced option as counterevidence, and do
-not reopen the earlier lattice or export internal components.
+## GDT730 advances the complete dictionary to V99R4
+
+GDT730 corrects and closes the inherited ambiguity inventory. The deliberately
+broad technical selector returns 95 global rows and 1,050 occurrences, but one
+is a lexical false positive: `cphol = zusammengesetzter Drogenstoff` contains
+the letters `menge` only inside `zusammengesetzter`. It remains byte-identical.
+The true dispatch therefore contains 94 rows and 1,039 occurrences.
+
+Every target now has one audible default in both semantic-rendering fields;
+the displaced option remains in the decision audit. The 25 plant wholes use
+global `Pflanzendroge/Pflanzenmaterial/Pflanzenzubereitung` while local
+Blattgut remains a rival. Root, seed, wood and powder families use coherent
+material terms. Later R-headed forms use `Anteil`; DAL measured inputs use
+`abgewogener Rohstoffposten` and remain distinct from OR portions;
+`saim/saiim` retain GDT637's quantity-class axis; E/O interfixes remain silent.
+Concrete outputs include `pshedy = Pulverpaste`, `sshedy = eingeweichte Samen`
+and `ydy = Wertfeldgrenze`.
+
+The target confidence census remains 20 W3, 48 W2, 20 W1 and six W0. All 324
+active rows, 1,168 non-target global rows, fourteen GDT729 targets and five
+active-reader artifacts remain stable. Scores, confidence, positive and
+negative evidence, scope, spans, source-reading identities, export rights and
+structural/action flags do not change. Component credit remains zero and all
+historical comparisons remain H0_NONE. Canonical lookup:
+`experiments/yolo/gdt730_v99r4_ninety_four_ambiguity_default_dispatch/artifacts/V99R4_COMPLETE_WORD_CONFIDENCE.tsv`.
+
+The next no-new-page route is GDT731: project the 94 V99R4 defaults onto their
+already cached exact occurrences, publish high-impact before/after passage
+renderings and rank the still audible abstract blockers by frequency. This is
+an impact pass over a genuinely new dictionary delta, not another GDT726
+active-reader replay and not a reopening of GDT631–632 or GDT686.
