@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **724**
-- Experiment-associated tracked files: **12,403** (1.2 GiB)
-- Structured GDT337+ experiments: **389**
+- Experiments indexed: **725**
+- Experiment-associated tracked files: **12,429** (1.2 GiB)
+- Structured GDT337+ experiments: **390**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT727 | GDT727_v99_six_meaning_debt_dispatch | `PASS_V99_6_MEANING_DEBTS_DISPATCHED__5_LEXICAL_CORES__13_CONTEXTS__9_LINES__PORTION_FAMILY__4_BOS_PHYSICAL_DISPATCH__3_SHEKY_PATIENTS__479_POSITIONS_ONCE__471_UNITS__ZERO_SCORE_SCOPE_EXPORT_DELTA__ALL_H0_NONE` | [report](../experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/REPORT.md) | 26 | 2.7 MiB | 5 | STRUCTURED_YOLO |
 | GDT726 | GDT726_v98_51_line_delta_integration | `PASS_V98_51_LINE_DELTA_INTEGRATION__479_POSITIONS_CONSUMED_ONCE__474_EXACT_UNITS__V98R1_471_PRACTICAL_UNITS__357_CONTEXT_DELTAS__9_NEW_LOCAL_RENDER_PATCHES_PLUS_1_INHERITED_COMPANION__6_OPEN_MEANING_DEBTS__ZERO_CORE_SCORE_EXPORT_DELTA__ALL_H0_NONE` | [report](../experiments/yolo/gdt726_v98_51_line_delta_integration/REPORT.md) | 22 | 765.7 KiB | 4 | STRUCTURED_YOLO |
 | GDT725 | GDT725_v98_final_low_hardcap_dictionary_dispatch | `PASS_V98_16_FINAL_LOW_HARDCAP_READINGS_AUDITED__21_POSITIONS__9_CORE_OR_STRUCTURAL_REPAIRS_PLUS_7_RETAINED__5_STRUCTURAL_READINGS_SEPARATED__4_ACTION_WHOLES_RETAINED__72_EVIDENCE_BINDINGS__0_UNAUDITED_HARDCAP__NO_COMPONENT_EXPORT_NO_SCORE_CREDIT__ALL_H0_NONE` | [report](../experiments/yolo/gdt725_v98_final_low_hardcap_dictionary_dispatch/REPORT.md) | 29 | 2.4 MiB | 9 | STRUCTURED_YOLO |
 | GDT724 | GDT724_v97_remaining_indexed_share_core_context_repair | `PASS_V97_19_REMAINING_INDEXED_SHARE_HOLDS_AUDITED__16_CORE_CONTEXT_REPAIRS_PLUS_3_EXACT_WHOLES_RETAINED__2_LOCAL_ACTIONS_SEPARATED__16_WEAK_READINGS_REMAIN__82_EVIDENCE_BINDINGS__NO_COMPONENT_EXPORT_NO_SCORE_CREDIT__ALL_H0_NONE` | [report](../experiments/yolo/gdt724_v97_remaining_indexed_share_core_context_repair/REPORT.md) | 25 | 2.2 MiB | 6 | STRUCTURED_YOLO |

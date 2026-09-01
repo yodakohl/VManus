@@ -1,0 +1,217 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The complete 324-reading lexical table, 479-position context and consumption tables, 471 rendered units, 51-line reader, and 1,586-row confidence/evidence dictionary are required to prove full-deck parity outside the explicitly changed five lexical cores and thirteen contexts.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exploratory German working defaults for the inherited 51-line deck. GDT727 changes five exact-whole lexical cores at six positions from dose wording to portion wording, neutralizes two local product/material heads, and installs four physical-predecessor plus three repeated-action position dispatches. The local patients are not productive component meanings. Scores, scopes and export permissions do not change. No plaintext, language, phonetics, historical codebook, historical unit, ingredient identity, disease, remedy, new page, image, f84, or f84r is claimed.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/src/run.py",
+    "validate": "python3 experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/src/validate.py"
+  },
+  "created": "2026-09-01",
+  "dependencies": [
+    "GDT682",
+    "GDT705",
+    "GDT725",
+    "GDT726"
+  ],
+  "experiment_id": "GDT727",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt682_final_seven_hole_line_completion/artifacts/V56_51_LINE_READER.tsv",
+      "role": "V56 context baseline used to reconstruct complete line-delta counts",
+      "sha256": "8724a673a80b50718e95cd929e6d1fdb15dca5c498415472b82fe36b54286866"
+    },
+    {
+      "path": "experiments/yolo/gdt705_v78_complete_action_nominal_result_census/artifacts/V78_3_SHEKY_OCCURRENCE_CONTRAST.tsv",
+      "role": "three-occurrence sheky successor contrast and anti-result control",
+      "sha256": "4e0f51c8e2c4cac8fe4ae7a4ea59fb1b3297b1275c68a76a606e65c17ab81d1a"
+    },
+    {
+      "path": "experiments/yolo/gdt725_v98_final_low_hardcap_dictionary_dispatch/artifacts/V98_324_ACTIVE_LEXICAL_READINGS.tsv",
+      "role": "canonical V98 active lexical baseline",
+      "sha256": "de5d03df3d59ad10a1fcaaaee79165605084eb96f0e0132e79c2117cbf32a703"
+    },
+    {
+      "path": "experiments/yolo/gdt725_v98_final_low_hardcap_dictionary_dispatch/artifacts/V98_479_CONTEXT_REALIZATIONS.tsv",
+      "role": "canonical V98 position-context baseline",
+      "sha256": "41efa4c674c48dd66ea965322e8e16784111fd9db0cc79c3a266336f09001673"
+    },
+    {
+      "path": "experiments/yolo/gdt725_v98_final_low_hardcap_dictionary_dispatch/artifacts/V98_COMPLETE_WORD_CONFIDENCE.tsv",
+      "role": "canonical V98 complete confidence and evidence dictionary",
+      "sha256": "ec32f0de312800af7be313077e355d0ee7decbd4da57cfd537a28eb6e7cb32a5"
+    },
+    {
+      "path": "experiments/yolo/gdt725_v98_final_low_hardcap_dictionary_dispatch/artifacts/V98_8_F7R2_RENDERED_UNITS.tsv",
+      "role": "f7r2 eight-unit baseline whose P287 unit must be updated",
+      "sha256": "06c51d73ef65bea6a423decb0ff2b708816b6556ebd78a5f12e380ae04df73ef"
+    },
+    {
+      "path": "experiments/yolo/gdt726_v98_51_line_delta_integration/artifacts/V98R1_479_PRACTICAL_POSITION_CONSUMPTION.tsv",
+      "role": "complete V98R1 practical position-consumption baseline",
+      "sha256": "8f539f7a1892112150b47d626f143ec02f42c8a239091b68f7731f123a20368f"
+    },
+    {
+      "path": "experiments/yolo/gdt726_v98_51_line_delta_integration/artifacts/V98R1_471_PRACTICAL_RENDERED_UNITS.tsv",
+      "role": "complete V98R1 unit and special-rule baseline",
+      "sha256": "09cda1f09b218248ca78d00ff93fc5c0ed2c5877ea425b208cae9ea98cb75508"
+    },
+    {
+      "path": "experiments/yolo/gdt726_v98_51_line_delta_integration/artifacts/V98R1_51_PRACTICAL_LINE_READER.tsv",
+      "role": "complete V98R1 line-reader baseline",
+      "sha256": "3f0bb28af01ef67729245c2d373eb7ad87ca4ab24db9863a1c7cc40d725d20aa"
+    },
+    {
+      "path": "experiments/yolo/gdt726_v98_51_line_delta_integration/artifacts/V98R1_6_OPEN_MEANING_DEBT_AUDIT.tsv",
+      "role": "six source debt groups dispatched by GDT727",
+      "sha256": "5377a66f6a1311b2234c720e98c0b48f96061ad1a2206052f5f3f651ac55f5ba"
+    },
+    {
+      "path": "transcription/voynich_zl3b_lines.tsv",
+      "role": "mixed raw transcription accessed only through a four-page guarded allowlist for physical predecessor order",
+      "sha256": "7520dd4c11f4d23c8492e4b2a52cc0fcbda6d9fc88a96ead8f1c31081a4d7ed2"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/METHOD.md",
+      "role": "GDT727 method and decision contract",
+      "sha256": "80259ce41bc152de23059027b509b53371529347e6ce15bf4cc2d675913f4a77"
+    },
+    {
+      "path": "experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/README.md",
+      "role": "GDT727 entry point and reproduction commands",
+      "sha256": "079c252fb150246b7c3515b80fa7a77d500dd42ecb6cf436ebb499d15633813a"
+    },
+    {
+      "path": "experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/REPORT.md",
+      "role": "GDT727 findings, limits, and next route",
+      "sha256": "603fb3731a10946670b8666bad14616c11975f2dc982f7f22fb270312cbe763b"
+    },
+    {
+      "path": "experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/artifacts/GDT727_V99_51_LINE_WORKING_READER.md",
+      "role": "complete human-readable V99 working reader",
+      "sha256": "51acb54b2b06b6838b92e0c43aac0f64eb2a848acc102f1bda2d1443ded896ce"
+    },
+    {
+      "path": "experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/artifacts/README.md",
+      "role": "GDT727 artifact guide",
+      "sha256": "3e07a77519dee9e1bda8447c30fb24a2cf9800aaf7f26064cbffd0946eda74b0"
+    },
+    {
+      "path": "experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/artifacts/RESULT.json",
+      "role": "machine-readable GDT727 result",
+      "sha256": "92326547232671e4cceb97a278ca8e364ecab7a022c530e66c3ebf60d1b9d16c"
+    },
+    {
+      "path": "experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/artifacts/V99_13_CONTEXT_DELTA.tsv",
+      "role": "thirteen exact position-context changes with confidence and evidence",
+      "sha256": "0c80e7da432cf4ee6d132bc4be3f641841693a835c8db46c06720b86d589f834"
+    },
+    {
+      "path": "experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/artifacts/V99_324_ACTIVE_LEXICAL_READINGS.tsv",
+      "role": "complete V99 active lexical table",
+      "sha256": "1a61f969b27e05782182f75b372bce45bb3554463c813be061a4a50448ca80f5"
+    },
+    {
+      "path": "experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/artifacts/V99_471_PRACTICAL_RENDERED_UNITS.tsv",
+      "role": "complete V99 ordered practical output units",
+      "sha256": "2424a3ee515c0989db680f32b25ce9a9ec8d24c7fed8641381bf83566a1b8d16"
+    },
+    {
+      "path": "experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/artifacts/V99_479_CONTEXT_REALIZATIONS.tsv",
+      "role": "complete V99 position-context table",
+      "sha256": "cd49f1d6dcfa20fa4aa86c36e8a64382aa14fce7ad16ebbc3ef9c87df767e847"
+    },
+    {
+      "path": "experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/artifacts/V99_479_PRACTICAL_POSITION_CONSUMPTION.tsv",
+      "role": "complete V99 position-consumption ledger",
+      "sha256": "c4fd9fe261a7e2db4510131c9d7c8b6e8be60ae3a12ab43dc126efe99e244273"
+    },
+    {
+      "path": "experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/artifacts/V99_4_BOS_PHYSICAL_PREDECESSOR_AUDIT.tsv",
+      "role": "guarded four-position physical-predecessor audit",
+      "sha256": "ef5f0984bd17c05cb5f97e09414a6d78c4e3660eca1054ee3723a89c89771acd"
+    },
+    {
+      "path": "experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/artifacts/V99_51_LINE_DELTA_AUDIT.tsv",
+      "role": "complete nine-changed and forty-two-unchanged line audit",
+      "sha256": "83f2e797b4c31a7f9ad48c74ce305d917ba07b43fa6f35f606dbe50d5fb12519"
+    },
+    {
+      "path": "experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/artifacts/V99_51_PRACTICAL_LINE_READER.tsv",
+      "role": "complete machine-readable V99 line reader",
+      "sha256": "9be299204a53700970e01eb85d75239afe1b13d911fb3f2eac8782585f351662"
+    },
+    {
+      "path": "experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/artifacts/V99_5_LEXICAL_READING_DELTA.tsv",
+      "role": "five exact-whole lexical core decisions",
+      "sha256": "8c2d014243f4d7dd8ef08cb53e9599a403ade510d5301a3d9771ebcec29d0611"
+    },
+    {
+      "path": "experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/artifacts/V99_6_DEBT_DECISIONS.tsv",
+      "role": "six provisional working-default debt dispositions",
+      "sha256": "d414fa4b2ebacaa978bb175b165d72950d6abae204b4b62b3d69446a8be39425"
+    },
+    {
+      "path": "experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/artifacts/V99_8_F7R2_RENDERED_UNITS.tsv",
+      "role": "updated eight-unit f7r2 renderer",
+      "sha256": "7bce5cafa70afb2240e05653b8b260068b23ef6b62e36630416f2e1a2e28aa7f"
+    },
+    {
+      "path": "experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/artifacts/V99_COMPLETE_WORD_CONFIDENCE.tsv",
+      "role": "complete V99 confidence and evidence dictionary",
+      "sha256": "e98d6193440bc0a3465c478473e3d7d2dcd7a7fd1a6889975579a26bfc78b76d"
+    },
+    {
+      "path": "experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/artifacts/VALIDATION.json",
+      "role": "independent full-reconstruction validation result",
+      "sha256": "1e8a34a37157177cbe297b2a2dd662bd09b6f9f42d9f88335aec0edb17a6f61d"
+    },
+    {
+      "path": "experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/src/V99_13_CONTEXT_SPECS.tsv",
+      "role": "thirteen predeclared position meaning specifications",
+      "sha256": "bdecf459bd63671a5a6b0d90d0101eb4f9d62aeae6bb8992c07026487c4d2dea"
+    },
+    {
+      "path": "experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/src/V99_4_BOS_PREDECESSOR_SPECS.tsv",
+      "role": "four physical-predecessor expectation specifications",
+      "sha256": "db3fd2bd0afc48cb36f03ea580ce40cdb9e123de66ea2d97a21485050c2db9bd"
+    },
+    {
+      "path": "experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/src/V99_5_LEXICAL_READING_SPECS.tsv",
+      "role": "five exact-whole lexical default specifications",
+      "sha256": "d6821d1de4738b65a5b63d2ab105cd0aa3c9d36766020b5d01afdeee6fffb6d1"
+    },
+    {
+      "path": "experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/src/V99_6_DEBT_DECISION_SPECS.tsv",
+      "role": "six debt-disposition specifications",
+      "sha256": "f60211be439ba78782acd88022f2484d745993c246e54076ec53cd35d5f6d82d"
+    },
+    {
+      "path": "experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/src/run.py",
+      "role": "deterministic GDT727 generator",
+      "sha256": "2154c1002ec5217fd9eb2afc3ef512cdc3b771b99c1d4e37ccf7792eab1787b9"
+    },
+    {
+      "path": "experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/src/validate.py",
+      "role": "independent GDT727 validator",
+      "sha256": "1f1c162d688878c93aa1a9788244435b322a1375d834701e9a0117a76a414712"
+    }
+  ],
+  "question": "Can the six GDT726 unit, product, material, BOS-deixis and repeated-action meaning debts receive concrete whole-family or position-local defaults that remain coherent in the complete 51-line reader?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "v99_six_meaning_debt_dispatch",
+  "status": "PASS_V99_6_MEANING_DEBTS_DISPATCHED__5_LEXICAL_CORES__13_CONTEXTS__9_LINES__PORTION_FAMILY__4_BOS_PHYSICAL_DISPATCH__3_SHEKY_PATIENTS__479_POSITIONS_ONCE__471_UNITS__ZERO_SCORE_SCOPE_EXPORT_DELTA__ALL_H0_NONE",
+  "title": "V99 six meaning debt dispatch",
+  "updated": "2026-09-01",
+  "validation": {
+    "artifact": "experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

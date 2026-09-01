@@ -18642,3 +18642,45 @@ GDT694 and GDT593), but none decides these six V98 groups. Their useful rule is
 only locality: a visible same-scope head outranks a distant generic patient.
 Do not reopen general prose completion, add pages or infer component meanings
 from a fluent renderer.
+
+## GDT727 advances the canonical reader and dictionary to V99
+
+GDT727 assigns concrete working defaults to all six GDT726 meaning debts. Five
+active exact-whole cores at six positions change from `Dosis/Dosen` to
+`Portion/Portionen`: `ychedaiin`, `kodeey`, `pchedaiin` at two positions,
+`ycheeodaiin` and `dcheey`. `Maß` remains reserved for separately written
+measure heads and `Wert` for headless value/stage forms. `cpheesy` keeps its
+neutral portable Kompositum core and now renders locally as a fully prepared,
+finished mixture; `tail` renders as its neutral cold material share II.
+
+The four BOS targets are checked against physical manuscript order rather than
+the discontinuous 51-line deck. The guarded loader selects only f104v, f114r,
+f86v5 and f86v6 and rejects 98 f84-prefixed rows before materializing their
+remaining fields. P002 and P142 have incomplete or conflicting predecessors
+and lose unsupported `hiervon`. P394 locally takes the final f86v5.3 `otain`
+as cold preparation grade II. P405 takes final f86v6.24 `qokar oly` as the
+just-strained hot drug share I. These patient phrases are local line carries,
+not Y-, OL- or component meanings.
+
+The three f80r.17 `sheky` occurrences retain one portable operation—soak, heat
+and finish to middle stage—but receive three different occurrence patients:
+the wet mixture, hot drug share I, and hot wood share I in preparation grade
+II. They are not a count meaning `three times`; the broader left-block scope
+remains a live local rival.
+
+V99 changes five lexical cores, ten lexical context aggregates and thirteen
+positions on nine lines. The complete outputs remain 324 active readings, 479
+positions, 1,586 dictionary readings and 471 practical units, with every
+position consumed exactly once. Scores, semantic scopes and component exports
+do not change; all historical fields remain H0_NONE. The independent validator
+checks confidence plus positive and counterevidence on all 1,586 rows and
+reconstructs the complete reader. Canonical lookup:
+`experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/artifacts/V99_COMPLETE_WORD_CONFIDENCE.tsv`.
+Canonical reader:
+`experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/artifacts/GDT727_V99_51_LINE_WORKING_READER.md`.
+
+The next route is GDT728: inventory inherited global V48 meanings containing
+the unit terms Dosis/Dosen outside the active V99 tranche, then choose
+`Portion`, `Teil`, `Maß`, `Wert` or HOLD per exact-whole family. Do not perform
+a blind text replacement, change confidence scores, or infer productive
+`d`/`dain`/`daiin` component semantics from German phrasing.
