@@ -1,0 +1,169 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The complete and occurrence tables retain every dictionary reading and all 479 source positions so confidence evidence, local realizations and export boundaries cannot be silently dropped.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exploratory working-dictionary repair only. V85 separates compact lexical cores from local German realizations for 33 weak readings and removes named unsupported identity atoms. Scores are non-probabilistic audit indices. Structural, compound-only and bound-span scopes remain distinct from translations; every historical status is H0_NONE and GDT712 supplies zero relation word credit. No plaintext, language, historical lexicon, free morpheme, new page, f84 or f84r is asserted.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt712_v85_al_state_core_context_repair/src/run.py",
+    "validate": "python3 experiments/yolo/gdt712_v85_al_state_core_context_repair/src/validate.py"
+  },
+  "created": "2026-09-01",
+  "dependencies": [
+    "GDT647",
+    "GDT655",
+    "GDT656",
+    "GDT683",
+    "GDT685",
+    "GDT711"
+  ],
+  "experiment_id": "GDT712",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt711_v84_active_weak_family_repair/artifacts/V84_324_ACTIVE_LEXICAL_READINGS.tsv",
+      "role": "canonical V84 active lexical cores and confidence evidence",
+      "sha256": "dc41ed0d5f2289a20a928fe7b0b36f26965775d28b4125243b20bafdd7114532"
+    },
+    {
+      "path": "experiments/yolo/gdt711_v84_active_weak_family_repair/artifacts/V84_479_CONTEXT_REALIZATIONS.tsv",
+      "role": "canonical V84 479-position context and bound-span table",
+      "sha256": "031f7d4f9443e45384042642647bca3ec7cd19d08155ff266489abbec1b5a8d7"
+    },
+    {
+      "path": "experiments/yolo/gdt711_v84_active_weak_family_repair/artifacts/V84_COMPLETE_WORD_CONFIDENCE.tsv",
+      "role": "canonical V84 complete dictionary",
+      "sha256": "2d82c9921c9b7451c49caeeee99541b523174bea345f15144069976b42730556"
+    },
+    {
+      "path": "experiments/yolo/gdt711_v84_active_weak_family_repair/artifacts/V84_181_WEAK_READING_REPAIR_CENSUS.tsv",
+      "role": "V84 weak-reading queue and prior dispositions",
+      "sha256": "fabed75c5d0ca1739bebe65254cfff357d5e6c36d962e0ff1c5904231a5dc7b7"
+    },
+    {
+      "path": "experiments/yolo/gdt711_v84_active_weak_family_repair/artifacts/V84_13_STEM_FAMILY_EVIDENCE.tsv",
+      "role": "declared family values bonuses caps and counterevidence",
+      "sha256": "48b2312493cf7136ed0c2e45d4d63f16c0e0df8b8d168785d40104dd97b5f03d"
+    },
+    {
+      "path": "experiments/yolo/gdt647_quality_subdegree_family_migration/REPORT.md",
+      "role": "state and stage family evidence",
+      "sha256": "6d139a35b41546a5e8bc4a49b83e3d6367d91d04245eeb848f0ce0d0f2bc905d"
+    },
+    {
+      "path": "experiments/yolo/gdt655_dal_al_measured_material_completion/REPORT.md",
+      "role": "AL DAL and measured-material family evidence",
+      "sha256": "83f6cc72cea3b5f12abed2e2c916edfab3c4c0eb1028f090e468a1a7900fee50"
+    },
+    {
+      "path": "experiments/yolo/gdt656_al_quality_position_shell/REPORT.md",
+      "role": "AL quality-shell atlas evidence",
+      "sha256": "e334d267f959d433f8142400a2303a19624611160cbe4d00d49318ca68641b95"
+    },
+    {
+      "path": "experiments/yolo/gdt683_ol_semantic_debt_reconciliation/REPORT.md",
+      "role": "bilateral cheop ol local-compound source",
+      "sha256": "09b1289942202bc1d43ac0b35e20e2cdf7d57c515fb6454906b081b9ad8febe3"
+    },
+    {
+      "path": "experiments/yolo/gdt685_v58_ch_sh_t_ol_ansatz_dispatch/REPORT.md",
+      "role": "state-only and OL-head dispatch evidence",
+      "sha256": "b4fc6d1fdfd393e2b42fb082c1f4dc8b0f0d6875799b7b208523c873f3d922c9"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/README.md",
+      "role": "experiment entry point",
+      "sha256": "812237518254fcf4c2b4c1c7a74c61ac133e2733799dd6285b269d2401310c6b"
+    },
+    {
+      "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/METHOD.md",
+      "role": "core-context repair method and claim ceiling",
+      "sha256": "98d76bb83f7795b73f9264e75450db1808ddd5b64bcc772c2da062d2e79210b1"
+    },
+    {
+      "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/REPORT.md",
+      "role": "primary report and interpretation",
+      "sha256": "2e4caf2703707c57922316903b68fea67eb4e58e0f9678bc0e22859a0af9811e"
+    },
+    {
+      "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "ccfbc05c6978d7e9c5182cf754a4c7458ef084f40734e5810743df17c3e037ff"
+    },
+    {
+      "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/src/run.py",
+      "role": "deterministic V85 builder",
+      "sha256": "d51540be96158e290a03b3ce5ec5b1b425bb0f0e49fef55dd28752cf2d8c3b7b"
+    },
+    {
+      "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/src/validate.py",
+      "role": "independent replay parity and semantic-boundary validator",
+      "sha256": "1b3079f04e62c268c4568edfd9b6d61601b57fad6060c6d9ff86da8686ab901f"
+    },
+    {
+      "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/src/V85_33_AUDIT_SPECS.tsv",
+      "role": "thirty-three explicit AL and state audit specifications",
+      "sha256": "c9b7b71ac2815853c3bb09a8f420e19e7b7e5c11fcdbd0f8ca5f61160a8e301a"
+    },
+    {
+      "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/artifacts/RESULT.json",
+      "role": "compact result counts and distributions",
+      "sha256": "dc1845d128a2b465b6c1c60b74d914a80f7a3bfc86e451ad890fa25445e19c99"
+    },
+    {
+      "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/artifacts/VALIDATION.json",
+      "role": "validation report with deterministic output hashes",
+      "sha256": "8bc176f30ebb3ab4c30afa2da992f66a4fa659a1ba858bf803e613446a22e297"
+    },
+    {
+      "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/artifacts/V85_151_HELD_READING_AUDIT.tsv",
+      "role": "remaining V84-held readings with V85 dispositions",
+      "sha256": "f3fc48fce1265ef99ce30229b85c8360a7f8c995825aa9e8591c48195ba194e8"
+    },
+    {
+      "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/artifacts/V85_1_BOUND_SPAN_RENDERER.tsv",
+      "role": "one-shot cheop ol bound-span renderer",
+      "sha256": "95add9c81b6b2f77b2c30cee702292995a9b4f1b983811a7ac6fe4916804c080"
+    },
+    {
+      "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/artifacts/V85_324_ACTIVE_LEXICAL_READINGS.tsv",
+      "role": "active lexical cores confidence evidence and export scopes",
+      "sha256": "557f2e93943b884e5c2b89d387632d7d9a1c4da65fa87e0f1f25a9833c249044"
+    },
+    {
+      "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/artifacts/V85_33_AL_STATE_CORE_CONTEXT_DELTA.tsv",
+      "role": "compact thirty-three-reading decision and evidence deck",
+      "sha256": "122e5ab8e49e0617e0a4782f0f11fb1b71192c66656d8939894bf92bc089c990"
+    },
+    {
+      "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/artifacts/V85_479_CONTEXT_REALIZATIONS.tsv",
+      "role": "all occurrence realizations and exact span metadata",
+      "sha256": "acdc7c60862a151efc7942ebfff9b1f3c10704ecf7e149ac0f3e004a5ac5947e"
+    },
+    {
+      "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/artifacts/V85_7_FAMILY_EVIDENCE.tsv",
+      "role": "seven used family rules with target census",
+      "sha256": "320b10ca76f57bedb3f2302ecd7849de4f38e5073ee4a6d2e1ab75a64730aae0"
+    },
+    {
+      "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/artifacts/V85_COMPLETE_WORD_CONFIDENCE.tsv",
+      "role": "primary 1582-surface 1586-reading V85 dictionary",
+      "sha256": "266a3b901a8acc16b14b152b689739ab7f29acea910cc9b4b85ce66df6554ee5"
+    }
+  ],
+  "question": "Can the next fifteen AL-class and eighteen state/carrier weak readings receive smaller predictive lexical cores, local realizations and explicit confidence evidence without changing the admitted position universe?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "v85_al_state_core_context_repair",
+  "status": "PASS_V85_33_AL_STATE_READINGS_AUDITED__30_REVISED_3_HELD__38_POSITIONS_23_PAGES__8_W0_149_W1_148_W2_19_W3__CHEOP_OL_LEFT_RIGHT_BOUND__ALL_H0_NONE",
+  "title": "GDT712_v85_al_state_core_context_repair",
+  "updated": "2026-09-01",
+  "validation": {
+    "artifact": "experiments/yolo/gdt712_v85_al_state_core_context_repair/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}
