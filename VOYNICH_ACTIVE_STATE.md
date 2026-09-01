@@ -18569,3 +18569,41 @@ cpheesy, da, two dy readings, kodeey, oror, otytchol, qy, taiky, tail, two y
 readings, yey and ypchesy. The next route must split them by actual function:
 punctuation/links, local actions, quantities, and complex material/state
 wholes. No new page, image, transcription, f84 or f84r is licensed.
+
+## GDT725 advances the canonical dictionary to V98
+
+GDT725 audits those final sixteen LOW_STRUCTURAL_OR_MANUAL_HARDCAP readings at
+21 positions in eighteen lines on seventeen already admitted pages. Nine
+defaults or structural tags are revised and seven useful exact wholes are
+reviewed-retained. `dy#1/y#1` are named sentence-end functions, `dy#2` is a
+work-step separator, and `y#2/yey#1` are following-item links; their visible
+period, semicolon, `Hierzu:` or `Anschließend:` outputs remain renderer values,
+not spoken lexemes. The exact-whole actions aiijy, da, qy and ypchesy retain
+their concrete verbs because their origin cards license them; no action or
+structural value exports to a component.
+
+The post-build line audit executes inherited spans B001 and B002 once each
+instead of printing their members separately. It also restores the GDT686
+f76v.10 local renderer from the fragment `drei` to `drei Portionen des
+vorstehenden eingeweichten Arzneikompositums`; daiin#6 remains the dictionary
+core `Wert III` with unchanged score. This companion repair is line-only and
+exports neither Portion nor Arzneikompositum.
+
+All 72 primary bindings plus the separate GDT686 companion source replay.
+The independent validator reconstructs all old/new target lines and passes
+17,817 checks; three release audits pass and all 43 manifest-bound files hash
+exactly. V98 remains 324 active readings/479 positions at 7 W0, 135 W1, 163 W2
+and 19 W3, with 1,582 surfaces/1,586 complete readings. There are zero
+unaudited hardcap readings; the sixteen low-score readings remain low-score,
+all H0_NONE, and receive no score or component credit. Canonical lookup:
+`experiments/yolo/gdt725_v98_final_low_hardcap_dictionary_dispatch/artifacts/V98_COMPLETE_WORD_CONFIDENCE.tsv`.
+
+The route duplicate screen points to GDT566's older 30-page prose edition and
+GDT676/GDT682's V50/V56 51-line readers. Do not repeat their completion claim.
+The next route is a strict V98 delta integration over the already complete
+GDT682 51-line deck: prove that every post-GDT682 context change lands, all
+untouched positions retain parity, all five spans/two one-shot directives and
+new structural/companion renderers execute exactly once, and no output unit is
+dropped or duplicated. Only after that exact regression may practical prose be
+audited for remaining generic fragments. Every V98 default stays fixed; no new
+page, image, transcription, f84 or f84r is licensed.

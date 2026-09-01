@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **722**
-- Experiment-associated tracked files: **12,352** (1.2 GiB)
-- Structured GDT337+ experiments: **387**
+- Experiments indexed: **723**
+- Experiment-associated tracked files: **12,381** (1.2 GiB)
+- Structured GDT337+ experiments: **388**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT725 | GDT725_v98_final_low_hardcap_dictionary_dispatch | `PASS_V98_16_FINAL_LOW_HARDCAP_READINGS_AUDITED__21_POSITIONS__9_CORE_OR_STRUCTURAL_REPAIRS_PLUS_7_RETAINED__5_STRUCTURAL_READINGS_SEPARATED__4_ACTION_WHOLES_RETAINED__72_EVIDENCE_BINDINGS__0_UNAUDITED_HARDCAP__NO_COMPONENT_EXPORT_NO_SCORE_CREDIT__ALL_H0_NONE` | [report](../experiments/yolo/gdt725_v98_final_low_hardcap_dictionary_dispatch/REPORT.md) | 29 | 2.4 MiB | 9 | STRUCTURED_YOLO |
 | GDT724 | GDT724_v97_remaining_indexed_share_core_context_repair | `PASS_V97_19_REMAINING_INDEXED_SHARE_HOLDS_AUDITED__16_CORE_CONTEXT_REPAIRS_PLUS_3_EXACT_WHOLES_RETAINED__2_LOCAL_ACTIONS_SEPARATED__16_WEAK_READINGS_REMAIN__82_EVIDENCE_BINDINGS__NO_COMPONENT_EXPORT_NO_SCORE_CREDIT__ALL_H0_NONE` | [report](../experiments/yolo/gdt724_v97_remaining_indexed_share_core_context_repair/REPORT.md) | 25 | 2.2 MiB | 6 | STRUCTURED_YOLO |
 | GDT723 | GDT723_v96_post_audit_correction | `PASS_SHOTCHEY_SOURCE_REMOVED__OKEEEY_REMOVED_ACTION_NOT_LOCAL__GDT652_REAL_SELECTORS_PLUS_PROJECTION__GDT713_F_CKH_BOUND__VALIDATOR_STRENGTHENED` | [report](../experiments/yolo/gdt723_v96_twelve_preparation_bound_core_context_repair/REPORT.md) | 25 | 2.2 MiB | 6 | STRUCTURED_YOLO |
 | GDT722 | GDT722_v95_op_whole_scope_and_context_separation | `PASS_V95_5_OP_HOLDS_RESOLVED_AS_BOUND_WHOLE_RENDERERS__QOPAIIN_ACTION_REMOVED_FROM_LEXICAL_CORE__OPCHEY_26_PLUS_4_FORMAL_FAMILY__NO_INTERNAL_P_EXPORT__47_WEAK_READINGS_REMAIN__NO_SCORE_CREDIT__ALL_H0_NONE` | [report](../experiments/yolo/gdt722_v95_op_whole_scope_and_context_separation/REPORT.md) | 26 | 2.1 MiB | 5 | STRUCTURED_YOLO |
