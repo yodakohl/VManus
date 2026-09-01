@@ -1,0 +1,240 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The 1,586-reading dictionary and 479-position table preserve the complete V94 handoff; 30 bindings, twelve rival rows, the five-span renderer and its execution audit make all four semantic repairs and three legacy-span restorations exactly auditable.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exploratory compositional working renderer only. POL and LOR are scoped whole defaults; P/L/R and OL/OR are construction-bound working values, not free glyph or substring translations. Naked active L and R are consumed only by their exact bound spans. No plaintext, language, plant identity, historical codebook identity, free morpheme, score credit, new page, image, transcription, f84 or f84r is asserted.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt721_v94_four_head_construction_scope_and_b003_restore/src/run.py",
+    "validate": "python3 experiments/yolo/gdt721_v94_four_head_construction_scope_and_b003_restore/src/validate.py"
+  },
+  "created": "2026-09-01",
+  "dependencies": [
+    "GDT635",
+    "GDT636",
+    "GDT682",
+    "GDT690",
+    "GDT693",
+    "GDT695",
+    "GDT720"
+  ],
+  "experiment_id": "GDT721",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt720_v93_cold_result_whole_domain_repair/artifacts/V93_324_ACTIVE_LEXICAL_READINGS.tsv",
+      "role": "canonical V93 lexical input",
+      "sha256": "7c11155124e8866e09b01b7027121f7bb7f47f86a978e40a1cf8f33c19eb1d16"
+    },
+    {
+      "path": "experiments/yolo/gdt720_v93_cold_result_whole_domain_repair/artifacts/V93_479_CONTEXT_REALIZATIONS.tsv",
+      "role": "canonical V93 context input",
+      "sha256": "acd41cf7d176252c301da8bdb4c907003ed7fa32bd661313716d1d495a759247"
+    },
+    {
+      "path": "experiments/yolo/gdt720_v93_cold_result_whole_domain_repair/artifacts/V93_58_HELD_READING_AUDIT.tsv",
+      "role": "canonical V93 repair queue input",
+      "sha256": "8514aa9b5fb72a0c3f60f21d362e40958280df733d0e781aa7a0e50c280eb392"
+    },
+    {
+      "path": "experiments/yolo/gdt720_v93_cold_result_whole_domain_repair/artifacts/V93_COMPLETE_WORD_CONFIDENCE.tsv",
+      "role": "canonical V93 complete dictionary",
+      "sha256": "52675a1b7f4b919a92b995b0192d9f41d4ca1dbe7b762563b0ab7ecc9d517d61"
+    },
+    {
+      "path": "experiments/yolo/gdt720_v93_cold_result_whole_domain_repair/artifacts/V93_2_BOUND_SPAN_RENDERER.tsv",
+      "role": "current renderer input and missing-legacy baseline",
+      "sha256": "b714d9d32b6f108039494ac789cbbc1f1aba63a5456dbe6fdd3ea5a35a62f002"
+    },
+    {
+      "path": "experiments/yolo/gdt720_v93_cold_result_whole_domain_repair/artifacts/V93_2_ONE_SHOT_RENDER_DIRECTIVES.tsv",
+      "role": "renderer parity input",
+      "sha256": "1bbb4a4505915ae89df1b596ad24cff95fd1fb01247ad1a350e60b3bac41c753"
+    },
+    {
+      "path": "experiments/yolo/gdt720_v93_cold_result_whole_domain_repair/artifacts/V93_8_F7R2_RENDERED_UNITS.tsv",
+      "role": "f7r2 renderer parity input",
+      "sha256": "06c51d73ef65bea6a423decb0ff2b708816b6556ebd78a5f12e380ae04df73ef"
+    },
+    {
+      "path": "experiments/yolo/gdt635_initial_head_same_remainder_swaps/artifacts/CONCRETE_FOUR_HEAD_PARADIGMS.tsv",
+      "role": "exact pol and lor compound cells",
+      "sha256": "dbe2606bf164b345131118dce57891362251809c661cca4192e759fcf9067159"
+    },
+    {
+      "path": "experiments/yolo/gdt635_initial_head_same_remainder_swaps/artifacts/SHARED_REMAINDER_ATLAS.tsv",
+      "role": "complete OL and OR four-head grids",
+      "sha256": "8ef9ab58dbb5c2dbb080d5263c8870949bac8768b5f50adb959c29e8a6b16f61"
+    },
+    {
+      "path": "experiments/yolo/gdt635_initial_head_same_remainder_swaps/artifacts/EXACT_NEIGHBOR_FRAME_SWAPS.tsv",
+      "role": "exact pol and lor neighbor swaps",
+      "sha256": "f9f8dd02e58fd9d2924eecdd50ab2f17cad8533ec12255375977ae04b97da85b"
+    },
+    {
+      "path": "experiments/yolo/gdt635_initial_head_same_remainder_swaps/artifacts/INITIAL_HEAD_SCOPE_PROFILE.tsv",
+      "role": "p l r productive-head scope and counts",
+      "sha256": "66539dfb04f82e9d03471e876d654fea560ff5d90b311a1f9926754c26a8886a"
+    },
+    {
+      "path": "experiments/yolo/gdt636_residual_four_head_semantics/artifacts/WORKING_DICTIONARY_V13.tsv",
+      "role": "explicit pol and lor decompositions",
+      "sha256": "543c4119a20249269a1f244de67ae516b19fa83a069853df598cc24e5dd6a11e"
+    },
+    {
+      "path": "experiments/yolo/gdt693_ar_head_semantic_tournament/artifacts/V66_9_SELECTED_HEAD_MODEL.tsv",
+      "role": "bounded OR portion control model",
+      "sha256": "b66d1953d9648573b7a5719f97c8a84d3d53c15b6284e98ddd20238b7b149363"
+    },
+    {
+      "path": "experiments/yolo/gdt693_ar_head_semantic_tournament/artifacts/V66_22_AR_OR_CONTROL_OCCURRENCES.tsv",
+      "role": "exact lor OR control position",
+      "sha256": "3d8eb5af02ce495ae63e743b95ed59a07b2f5c2b49b81f177ff7aa8f36262374"
+    },
+    {
+      "path": "experiments/yolo/gdt690_noun_ordinal_provenance_main_apparatus/artifacts/V63_479_TOKEN_NOUN_BINDING.tsv",
+      "role": "exact active l wood-head selection and rivals",
+      "sha256": "ab6593cb2407006f5652a30d4d5f3693f71ba082c3fe6a284f02e6790606603e"
+    },
+    {
+      "path": "experiments/yolo/gdt695_fixed_v67_clause_realization/artifacts/V68_3_BOUND_SPAN_FREEZE.tsv",
+      "role": "frozen B001 to B003 boundaries and renders",
+      "sha256": "640e8e01397da0c4037d59e540eb214c472fdee4d2e4e8751909a25cbeeace1f"
+    },
+    {
+      "path": "experiments/yolo/gdt682_final_seven_hole_line_completion/artifacts/V56_51_LINE_READER.tsv",
+      "role": "alternate-reader keo r join control",
+      "sha256": "8724a673a80b50718e95cd929e6d1fdb15dca5c498415472b82fe36b54286866"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt721_v94_four_head_construction_scope_and_b003_restore/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "dc125cab4a1ed0197bf793b09139324f59be61840be79a3abf95a6499b31e60b"
+    },
+    {
+      "path": "experiments/yolo/gdt721_v94_four_head_construction_scope_and_b003_restore/artifacts/RESULT.json",
+      "role": "reproducible V94 result",
+      "sha256": "2b349d016b621a510cb4b81ea328cb5613b3510ee57581b610328900b42fc2e5"
+    },
+    {
+      "path": "experiments/yolo/gdt721_v94_four_head_construction_scope_and_b003_restore/artifacts/V94_12_RIVAL_MODEL_COMPARISON.tsv",
+      "role": "explicit rival comparison",
+      "sha256": "6b0f555db3c19a30bf9ee5dd5ad4785a6a0d5d8bf22d4ee896be34d9c5820f34"
+    },
+    {
+      "path": "experiments/yolo/gdt721_v94_four_head_construction_scope_and_b003_restore/artifacts/V94_2_ONE_SHOT_RENDER_DIRECTIVES.tsv",
+      "role": "inherited directives byte exact",
+      "sha256": "1bbb4a4505915ae89df1b596ad24cff95fd1fb01247ad1a350e60b3bac41c753"
+    },
+    {
+      "path": "experiments/yolo/gdt721_v94_four_head_construction_scope_and_b003_restore/artifacts/V94_3_LEGACY_SPAN_RESTORE_AUDIT.tsv",
+      "role": "legacy span restoration proof",
+      "sha256": "3903b0e327db40a9f5e9ca67b174d56b69825f1e409d1911942ed7bade0e1b33"
+    },
+    {
+      "path": "experiments/yolo/gdt721_v94_four_head_construction_scope_and_b003_restore/artifacts/V94_30_PRIMARY_EVIDENCE_BINDINGS.tsv",
+      "role": "resolved evidence bindings",
+      "sha256": "5dae5cd38ff7b0ac3e3896a8408cb6fa5b8b89e3bbe62780597d94489547de85"
+    },
+    {
+      "path": "experiments/yolo/gdt721_v94_four_head_construction_scope_and_b003_restore/artifacts/V94_324_ACTIVE_LEXICAL_READINGS.tsv",
+      "role": "canonical active V94 readings",
+      "sha256": "0f3f61e6e6711cbabfd5002e0b5876902bc2a596affbbf384457607692871086"
+    },
+    {
+      "path": "experiments/yolo/gdt721_v94_four_head_construction_scope_and_b003_restore/artifacts/V94_4_HEAD_CORE_CONTEXT_DELTA.tsv",
+      "role": "four repaired readings",
+      "sha256": "d405aa42a02527d8f91c1f38981fff323caf609e0100b286df0baa3d1cbcdf68"
+    },
+    {
+      "path": "experiments/yolo/gdt721_v94_four_head_construction_scope_and_b003_restore/artifacts/V94_479_CONTEXT_REALIZATIONS.tsv",
+      "role": "canonical active V94 contexts",
+      "sha256": "7dd979411cd7597325001185a6a3cff8530a4e298dca2f0de7c54007b98f052f"
+    },
+    {
+      "path": "experiments/yolo/gdt721_v94_four_head_construction_scope_and_b003_restore/artifacts/V94_5_BOUND_SPAN_EXECUTION_AUDIT.tsv",
+      "role": "one-output two-consumer replay for all five spans",
+      "sha256": "dc7f6c9e8365057ef9e50badced7e9eac4781e616864483d379b24dfff668444"
+    },
+    {
+      "path": "experiments/yolo/gdt721_v94_four_head_construction_scope_and_b003_restore/artifacts/V94_5_BOUND_SPAN_RENDERER.tsv",
+      "role": "complete five-span renderer",
+      "sha256": "8c9dc5e4d32caa173a91f99021e9c097a1b2ae1fdf67a79c839545bc34cacd40"
+    },
+    {
+      "path": "experiments/yolo/gdt721_v94_four_head_construction_scope_and_b003_restore/artifacts/V94_5_SCOPED_CONSTRUCTION_DICTIONARY.tsv",
+      "role": "five-atom scoped construction model",
+      "sha256": "5c14fcfdc7ceedc64e467996931d04d1035abbbb52f763c9cf564582fed359ca"
+    },
+    {
+      "path": "experiments/yolo/gdt721_v94_four_head_construction_scope_and_b003_restore/artifacts/V94_56_HELD_READING_AUDIT.tsv",
+      "role": "repair queue handoff",
+      "sha256": "048033ecd8fb6bc1569b0082e31998f0557866c7955f137540ddccb82740af72"
+    },
+    {
+      "path": "experiments/yolo/gdt721_v94_four_head_construction_scope_and_b003_restore/artifacts/V94_8_F7R2_RENDERED_UNITS.tsv",
+      "role": "inherited f7r2 units byte exact",
+      "sha256": "06c51d73ef65bea6a423decb0ff2b708816b6556ebd78a5f12e380ae04df73ef"
+    },
+    {
+      "path": "experiments/yolo/gdt721_v94_four_head_construction_scope_and_b003_restore/artifacts/V94_COMPLETE_WORD_CONFIDENCE.tsv",
+      "role": "canonical complete V94 dictionary",
+      "sha256": "637c37456593873563f568a0ab04a65a1dc1ec64f6acc3cb2e845433ef9f2901"
+    },
+    {
+      "path": "experiments/yolo/gdt721_v94_four_head_construction_scope_and_b003_restore/artifacts/VALIDATION.json",
+      "role": "independent validation",
+      "sha256": "84e89190408b3ceb45ffcccf22748329c64802f15fb6f5600a27e4ed2a70c799"
+    },
+    {
+      "path": "experiments/yolo/gdt721_v94_four_head_construction_scope_and_b003_restore/METHOD.md",
+      "role": "method",
+      "sha256": "9512fb503640fb74b273778726040e0fd6615e5caa7b70989dca8be866685584"
+    },
+    {
+      "path": "experiments/yolo/gdt721_v94_four_head_construction_scope_and_b003_restore/README.md",
+      "role": "entry point",
+      "sha256": "7dbaadc9c62d9fdc22b035ff4020e6b8671b676e2a56c9b321923f0776d6c3eb"
+    },
+    {
+      "path": "experiments/yolo/gdt721_v94_four_head_construction_scope_and_b003_restore/REPORT.md",
+      "role": "primary result",
+      "sha256": "e4437208a25b40fffe553178661b15a4ba3cab657bdb5088e4fce1d87dae138d"
+    },
+    {
+      "path": "experiments/yolo/gdt721_v94_four_head_construction_scope_and_b003_restore/src/run.py",
+      "role": "deterministic builder",
+      "sha256": "29737bcfc356c3c1086bd0faa7b84a4267b63471d91539ccde9e82fe0bdb3e6e"
+    },
+    {
+      "path": "experiments/yolo/gdt721_v94_four_head_construction_scope_and_b003_restore/src/V94_30_PRIMARY_EVIDENCE_BINDINGS.tsv",
+      "role": "evidence binding source",
+      "sha256": "265f65704020ba586ed4a7401fdb5309ec5a51f9fd56d6e9d5045200f9b1fd30"
+    },
+    {
+      "path": "experiments/yolo/gdt721_v94_four_head_construction_scope_and_b003_restore/src/V94_4_AUDIT_SPECS.tsv",
+      "role": "audit specification",
+      "sha256": "aeacb67f158ecffa50ac50ace95add616e78806f1439241c82841fd05e374d7a"
+    },
+    {
+      "path": "experiments/yolo/gdt721_v94_four_head_construction_scope_and_b003_restore/src/validate.py",
+      "role": "independent validator",
+      "sha256": "9dde9c5657db1b421a609f3e0f5a3a77d5828ab93cfc9f1d07027f7cf6356985"
+    }
+  ],
+  "question": "Can pol and lor receive predictive p/l/r plus ol/or compositions while naked active l and r remain correctly span-bound, and can every legacy span still referenced by V93 be restored exactly?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "v94_four_head_construction_scope_and_b003_restore",
+  "status": "PASS_V94_4_HEAD_READINGS_REPAIRED__POL_POWDER_MATERIAL__LOR_WOOD_PORTION__L_R_ACTIVE_OCCURRENCES_BOUND__3_LEGACY_SPANS_RESTORED__52_WEAK_READINGS_REMAIN__NO_SCORE_CREDIT__ALL_H0_NONE",
+  "title": "V94 four-head construction scope and legacy-span restoration",
+  "updated": "2026-09-01",
+  "validation": {
+    "artifact": "experiments/yolo/gdt721_v94_four_head_construction_scope_and_b003_restore/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

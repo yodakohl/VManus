@@ -18386,3 +18386,50 @@ The next pass audits the four simple concrete heads `l`, `r`, `pol` and `lor`
 against GDT635/GDT636/GDT693/GDT682. Its purpose is to retain and sharpen
 `Holz`, `Wurzel`, `Pulver` and `Portion` where their exact head compositions
 hold, not to erase concrete material content by default.
+
+## GDT721 advances the canonical dictionary to V94
+
+GDT721 retains concrete content by separating productive construction heads
+from the two naked active tokens. `pol` remains `Pulverstoff` with the explicit
+scoped composition `P_INITIAL_POWDER + OL_MATERIAL_BODY`. GDT635 binds the form
+16 times on 12 pages, 13 reader-exact, inside the complete
+`pol/sol/rol/lol` grid; the exact BOS frame `pol shedy` exchanges with
+`sol shedy`. `lor` remains `Holzportion` as
+`L_INITIAL_WOOD + OR_PORTION_BODY`: 38 occurrences on 28 pages, 30
+reader-exact, in the complete `por/sor/ror/lor` grid. GDT693 does not supply an
+independent word identification; it preserves the inherited f107r.2 reading as
+an `OR_PORTION` control.
+
+The live construction dictionary is deliberately scoped: initial `p/l/r`
+carry Pulver/Holz/Wurzel and the admitted bodies `ol/or` carry Stoff/Portion
+only inside the four-head construction. GDT635 separately counts 163 naked
+`l` and 129 naked `r`, so neither one-character form inherits the head value
+freely. At P435, `l` keeps the wood-head prior but has no standalone output;
+B003 emits `l|karchees` once as `vollständig getrocknete Charge aus Anteil I
+der erhitzten Holzdroge`. At P289, `r` keeps the root-head prior but is consumed
+only by `keo|r=heiße Portion`; it is neither a free Wurzel output nor redefined
+as Portion. All four readings remain 31/32 W1 with zero score credit and zero
+component export.
+
+The pass also corrects a renderer-lineage loss. V93 still marked two context
+positions each for B001, B002 and B003, but its canonical span renderer held
+only the later G683 and G678 spans. V94 restores all three from the byte-stable
+GDT695 rows. The five-span execution audit now consumes ten distinct positions,
+suppresses both standalone component outputs per span and emits exactly five
+whole units. The existing two directives and eight f7r.2 units remain
+byte-identical.
+
+Thirty exact bindings replay source rows and fingerprints. All 320 non-target
+lexical rows and 475 non-target contexts preserve parity. The independent
+validator passes 51,304 checks. V94 remains 324 active readings at 479
+positions with 7 W0, 135 W1, 163 W2 and 19 W3; the complete dictionary remains
+1,582 surfaces/1,586 readings, every row with a default, score/level, evidence,
+counterevidence and `H0_NONE`. Fifty-two weak readings remain. Canonical lookup:
+`experiments/yolo/gdt721_v94_four_head_construction_scope_and_b003_restore/artifacts/V94_COMPLETE_WORD_CONFIDENCE.tsv`.
+
+The next bounded pass is the five OP/P powder-preparation holds `op`, `chopo`,
+`qopaiin`, `opchedaiin` and `opchey`. It must compare GDT635's scoped
+`P_INITIAL` with the learned-whole and preparation-head apparatus in
+GDT691/GDT633/GDT652, preserve one concrete default per form, and avoid
+reopening a universal preparation-head route. No new page, image,
+transcription, f84 or f84r is licensed.
