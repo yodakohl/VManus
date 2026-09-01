@@ -18523,3 +18523,49 @@ established GDT693/GDT694/GDT716 indexed-share model to those exact wholes and
 again separates portable share/state cores from local material, product and
 action choices. The duplicate screen ranks GDT716, GDT693, GDT692 and GDT694
 first. No new page, image, transcription, f84 or f84r is licensed.
+
+## GDT724 advances the canonical dictionary to V97
+
+GDT724 closes all nineteen remaining CLOSED_AR_SHARE_ROUTE cards without
+turning ar into a universal word. Seventeen exact semantic-source rows come
+from GDT694; olkaiir and oroiir correctly remain bound to their earlier GDT693
+rows. Sixteen portable cores are narrowed and three already useful exact
+wholes are reviewed and retained:
+
+- airoy becomes Grundansatz aus Anteil II; its exact position supplies the
+  preceding dried mass;
+- araram becomes Anteil I; davon ein Maß; the local renderer may refer to the
+  preceding hot, fully dried flower mass;
+- arl/lkar/lldar/losair/olkaiir preserve their exact wood identities while
+  removing generic drug or product heads from portable cores;
+- chear/chotar/daiiiry/dairody retain dry, cold, measure, result and indexed
+  share information without a portable generic drug or preparation patient;
+- fdar and lldar keep flower/wood share cores, with abmessen only at their two
+  action-licensed positions;
+- ockhdar and okeeeodar retain measured/preparation or fully heated share
+  information while Arznei and Auszug remain local;
+- oroiir keeps OR as a portion over R as an indexed share;
+- polairy, sairy and saraiin are explicitly retained because stripping their
+  powder, seed, result or quantity information would make them worse.
+
+The B003 l|karchees span is rerendered once as vollständig getrocknete Charge
+aus erhitztem Holzanteil I. The visible left l supplies wood; karchees alone
+exports neither wood, herb nor drug. A release audit corrected dairody's local
+referent from a generic powder preparation to the exact preceding material:
+abgemessener Anteil II des vorstehenden bis zur Mittelstufe getrockneten
+Pulvers; fertig.
+
+Eighty-two evidence and countermodel bindings replay. All 305 non-target
+lexical rows and 460 non-target contexts preserve parity. The validator passes
+21,533 checks; the manifest seals 13 inputs and 24 outputs. V97 remains 324
+active readings at 479 positions with 7 W0, 135 W1, 163 W2 and 19 W3. The
+complete dictionary remains 1,582 surfaces/1,586 readings, every row with a
+default, confidence, evidence, counterevidence and H0_NONE. Scores, relation
+credit and component export remain zero for this pass. Canonical lookup:
+experiments/yolo/gdt724_v97_remaining_indexed_share_core_context_repair/artifacts/V97_COMPLETE_WORD_CONFIDENCE.tsv.
+
+Sixteen LOW_STRUCTURAL_OR_MANUAL_HARDCAP readings remain: aiijy, chpcheey,
+cpheesy, da, two dy readings, kodeey, oror, otytchol, qy, taiky, tail, two y
+readings, yey and ypchesy. The next route must split them by actual function:
+punctuation/links, local actions, quantities, and complex material/state
+wholes. No new page, image, transcription, f84 or f84r is licensed.
