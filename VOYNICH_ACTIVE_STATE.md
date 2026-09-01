@@ -18598,12 +18598,47 @@ unaudited hardcap readings; the sixteen low-score readings remain low-score,
 all H0_NONE, and receive no score or component credit. Canonical lookup:
 `experiments/yolo/gdt725_v98_final_low_hardcap_dictionary_dispatch/artifacts/V98_COMPLETE_WORD_CONFIDENCE.tsv`.
 
-The route duplicate screen points to GDT566's older 30-page prose edition and
-GDT676/GDT682's V50/V56 51-line readers. Do not repeat their completion claim.
-The next route is a strict V98 delta integration over the already complete
-GDT682 51-line deck: prove that every post-GDT682 context change lands, all
-untouched positions retain parity, all five spans/two one-shot directives and
-new structural/companion renderers execute exactly once, and no output unit is
-dropped or duplicated. Only after that exact regression may practical prose be
-audited for remaining generic fragments. Every V98 default stays fixed; no new
-page, image, transcription, f84 or f84r is licensed.
+The route duplicate screen pointed to GDT566's older 30-page prose edition and
+GDT676/GDT682's V50/V56 51-line readers. GDT726 performs only the missing V98
+delta integration; it does not repeat their completion claim.
+
+## GDT726 integrates the complete V98 deck and adds V98R1
+
+GDT726 materializes all 51 inherited lines on 36 already admitted pages. The
+surface and locus order is identical in V56, V57 and V98. V56→V57 changes seven
+position strings; V57→V98 changes 357 and preserves 122, with deltas in 50 of
+51 lines.
+
+The exact channel consumes every one of the 479 positions once and produces
+474 units: 468 direct V98 contexts, five inherited two-position spans and the
+GDT725 P265 companion. The practical V98R1 channel also consumes all 479 once
+and produces 471 units: 456 direct contexts, eight two-position spans, six new
+local position overrides and the same companion. The two f7r.2 directive rows
+remain one `keo r` semantic span; all eight frozen output units consume its nine
+positions without change.
+
+Nine new local renderer repairs alter eight lines. They join naked values to
+visible amount heads on f104v.2, f83v.12, f116r.12 and f8r.15; make the local
+wood patient visible on f105r.31; replace a generic continuation head on
+f107r.2; restore the visible preparation patient on f115r.23; and compact the
+repeated flower head on f86v6.25. f116r.12 retains both hot and cold Grade-II
+units, both quantities and its final wood measure. No dictionary core, V98
+context, score, confidence or component export changes.
+
+Six questions remain meaning debts rather than renderer defects: `kodeey`
+unit identity, `cpheesy` product identity, `tail` material identity, six
+Dosis-family occurrences, four BOS `hiervon` references and the scope of three
+`sheky` occurrences on f80r.17. The independent validator imports no generator
+code and reconstructs ten TSVs/2,082 rows, both readers and RESULT exactly.
+Three differentiated post-build audits pass. The manifest binds eleven inputs
+and 21 outputs; all hashes pass. No new page, image or transcription and no f84
+or f84r was used; every historical field stays H0_NONE.
+
+The next route is GDT727: decide only those six groups against all their
+existing V98 positions and immediate written material, quantity and action
+heads, then rebuild the same reader. The duplicate screen found completed OL,
+indexed-share, repetition and bath-reference work (especially GDT683, GDT704,
+GDT694 and GDT593), but none decides these six V98 groups. Their useful rule is
+only locality: a visible same-scope head outranks a distant generic patient.
+Do not reopen general prose completion, add pages or infer component meanings
+from a fluent renderer.
