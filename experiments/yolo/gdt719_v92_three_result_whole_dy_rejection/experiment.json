@@ -1,0 +1,215 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The 1586-reading dictionary and 479-position table preserve full handoff state; 34 bindings replay the exact formal, semantic and renderer lineage.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exploratory working-dictionary repair only. Two wholes are NO_FORMAL_DY with distinct traces and one is UNRESOLVED without a sister. No free DY, component, score or family credit is exported; product heads remain occurrence-local; all history is H0_NONE. No plaintext, language, historical terminology, product identity, new page, image, transcription, f84 or f84r is asserted.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt719_v92_three_result_whole_dy_rejection/src/run.py",
+    "validate": "python3 experiments/yolo/gdt719_v92_three_result_whole_dy_rejection/src/validate.py"
+  },
+  "created": "2026-09-01",
+  "dependencies": [
+    "GDT677",
+    "GDT679",
+    "GDT684",
+    "GDT687",
+    "GDT689",
+    "GDT691",
+    "GDT718"
+  ],
+  "experiment_id": "GDT719",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt718_v91_three_result_whole_core_context_repair/artifacts/V91_324_ACTIVE_LEXICAL_READINGS.tsv",
+      "role": "exact canonical or primary lineage input",
+      "sha256": "06a1e42b337bf8068a6d9b6eeb84afb6d21d5852cebddde06fb99e102a468801"
+    },
+    {
+      "path": "experiments/yolo/gdt718_v91_three_result_whole_core_context_repair/artifacts/V91_479_CONTEXT_REALIZATIONS.tsv",
+      "role": "exact canonical or primary lineage input",
+      "sha256": "c91ab873cd92db336d630ca39465cf97eb1e958b05cdd15bd5036e3fe6dc90f1"
+    },
+    {
+      "path": "experiments/yolo/gdt718_v91_three_result_whole_core_context_repair/artifacts/V91_64_HELD_READING_AUDIT.tsv",
+      "role": "exact canonical or primary lineage input",
+      "sha256": "0afadd15b5bf60b7c9eaabbe5fc16c943399e0a599556175ec2dd1ff0e3d98ef"
+    },
+    {
+      "path": "experiments/yolo/gdt689_v62_bound_dy_sister_endpoint_dispatch/artifacts/SURFACE_DY_60_FORM_INVENTORY.tsv",
+      "role": "exact canonical or primary lineage input",
+      "sha256": "0914039a2da924c79c1eb5442041014e55ce41f82bbcb4ccf6b908213891cba8"
+    },
+    {
+      "path": "experiments/yolo/gdt689_v62_bound_dy_sister_endpoint_dispatch/artifacts/SURFACE_DY_74_POSITION_INVENTORY.tsv",
+      "role": "exact canonical or primary lineage input",
+      "sha256": "82da74c0c6ab060cf994f12337325830f9538514d0c7c88fc888c3f23a8c372c"
+    },
+    {
+      "path": "experiments/yolo/gdt687_v60_dchey_y_dy_action_result_boundary_dispatch/artifacts/V60_95_POSITION_SCOPE_DISPATCH.tsv",
+      "role": "exact canonical or primary lineage input",
+      "sha256": "57a357d1b7b3b022aa08fe5044a15dafb2541a1096dc4be7946a69c1f1985910"
+    },
+    {
+      "path": "experiments/yolo/gdt684_v57_complete_semantic_debt_census/artifacts/V57_479_POSITION_INFORMATION_AUDIT.tsv",
+      "role": "exact canonical or primary lineage input",
+      "sha256": "77c4122021b4b1dc65c43d16c47ae4230b0713d3643f5c9c2e9a503f6361555f"
+    },
+    {
+      "path": "experiments/yolo/gdt691_preparation_head_role_dispatch/src/V64_EXACT_TOKEN_RULES.tsv",
+      "role": "exact canonical or primary lineage input",
+      "sha256": "d1efb76393c487e80ede7aff1184923c1afefcbf8a2dacde9a70b75a5a80aacc"
+    },
+    {
+      "path": "experiments/yolo/gdt691_preparation_head_role_dispatch/artifacts/V64_479_TOKEN_READER.tsv",
+      "role": "exact canonical or primary lineage input",
+      "sha256": "6ca1fbd7302583b3f5745b74fbec88fb9296a817ca8585e4c718194a800ab37b"
+    },
+    {
+      "path": "experiments/yolo/gdt677_nine_one_hole_family_completion/src/TARGET_CARD_SPECS.tsv",
+      "role": "exact canonical or primary lineage input",
+      "sha256": "c95ee1605f8756a63594c3a18d7d5e14823c432b1a2c23b194105b73f26e9e80"
+    },
+    {
+      "path": "experiments/yolo/gdt677_nine_one_hole_family_completion/src/OCCURRENCE_CONTEXT_SPECS.tsv",
+      "role": "exact canonical or primary lineage input",
+      "sha256": "ba9bb7f8c4b6a4fc3efd048c622d0bf8fe6c2f9157be0febe5ec5c2f5cf7f22a"
+    },
+    {
+      "path": "experiments/yolo/gdt679_eight_three_hole_family_completion/src/TARGET_CARD_SPECS.tsv",
+      "role": "exact canonical or primary lineage input",
+      "sha256": "830ba2e3e38ae5c14e22929adb366344d3889727b1d86eec89cb58f17bb7065f"
+    },
+    {
+      "path": "experiments/yolo/gdt679_eight_three_hole_family_completion/artifacts/TARGET_EXACT_OCCURRENCE_AUDIT.tsv",
+      "role": "exact canonical or primary lineage input",
+      "sha256": "dee2a09700d0ae4861bf6a5ac24da31e211718bf2e1626643024e142036dbe5f"
+    },
+    {
+      "path": "experiments/yolo/gdt718_v91_three_result_whole_core_context_repair/artifacts/V91_COMPLETE_WORD_CONFIDENCE.tsv",
+      "role": "exact canonical or primary lineage input",
+      "sha256": "6ecc1bf954cd7616b878389eebe30903ff42b2f5419b8cf73004ed92a317a32f"
+    },
+    {
+      "path": "experiments/yolo/gdt718_v91_three_result_whole_core_context_repair/artifacts/V91_2_BOUND_SPAN_RENDERER.tsv",
+      "role": "exact canonical or primary lineage input",
+      "sha256": "b714d9d32b6f108039494ac789cbbc1f1aba63a5456dbe6fdd3ea5a35a62f002"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt719_v92_three_result_whole_dy_rejection/METHOD.md",
+      "role": "method",
+      "sha256": "6f89781d424e276a909cd554c6998e99a728adc88e8747d92e5c4568a47f8ccc"
+    },
+    {
+      "path": "experiments/yolo/gdt719_v92_three_result_whole_dy_rejection/README.md",
+      "role": "entry point",
+      "sha256": "eb46b76a7ebcfeaf2581ddc4757e512d301614940c3235efe1f588b6fe986b49"
+    },
+    {
+      "path": "experiments/yolo/gdt719_v92_three_result_whole_dy_rejection/REPORT.md",
+      "role": "primary result",
+      "sha256": "f6c38a06cde8a6d940bda1bd1b55c29932ad4ef7278fe5eec4ad9c098c2b2ba7"
+    },
+    {
+      "path": "experiments/yolo/gdt719_v92_three_result_whole_dy_rejection/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "7ccb58a994c3e0f59f5108ee14f7b399af661e295e2ed0b27cb0f035dad1f2e6"
+    },
+    {
+      "path": "experiments/yolo/gdt719_v92_three_result_whole_dy_rejection/artifacts/RESULT.json",
+      "role": "reproducible V92 artifact",
+      "sha256": "2b006349de3e38d2d35c662130b759fc8664f222476fd7ba54f65bba8756810e"
+    },
+    {
+      "path": "experiments/yolo/gdt719_v92_three_result_whole_dy_rejection/artifacts/V92_1_REJECTED_SHARED_DY_DECOMPOSITION.tsv",
+      "role": "reproducible V92 artifact",
+      "sha256": "153592a1cea89e98d903cd38dcd5323ce6538910f34b8bfed0fc259de2bab62b"
+    },
+    {
+      "path": "experiments/yolo/gdt719_v92_three_result_whole_dy_rejection/artifacts/V92_2_BOUND_SPAN_RENDERER.tsv",
+      "role": "reproducible V92 artifact",
+      "sha256": "b714d9d32b6f108039494ac789cbbc1f1aba63a5456dbe6fdd3ea5a35a62f002"
+    },
+    {
+      "path": "experiments/yolo/gdt719_v92_three_result_whole_dy_rejection/artifacts/V92_2_ONE_SHOT_RENDER_DIRECTIVES.tsv",
+      "role": "reproducible V92 artifact",
+      "sha256": "1bbb4a4505915ae89df1b596ad24cff95fd1fb01247ad1a350e60b3bac41c753"
+    },
+    {
+      "path": "experiments/yolo/gdt719_v92_three_result_whole_dy_rejection/artifacts/V92_324_ACTIVE_LEXICAL_READINGS.tsv",
+      "role": "reproducible V92 artifact",
+      "sha256": "65067eeeb62af70af0da0de22fb02d2f6e9549c68eab6e52bc58fb9ad0bb59e5"
+    },
+    {
+      "path": "experiments/yolo/gdt719_v92_three_result_whole_dy_rejection/artifacts/V92_34_PRIMARY_EVIDENCE_BINDINGS.tsv",
+      "role": "reproducible V92 artifact",
+      "sha256": "7056c5040e2fcdd28898635a3a2aaeaf9cf75f923530b38e7208c0f14ec11cdc"
+    },
+    {
+      "path": "experiments/yolo/gdt719_v92_three_result_whole_dy_rejection/artifacts/V92_3_RESULT_WHOLE_CORE_CONTEXT_DELTA.tsv",
+      "role": "reproducible V92 artifact",
+      "sha256": "fc50a677bf3410d68c519c6bdf24002dacff9d329c760349c26796e55cac7cde"
+    },
+    {
+      "path": "experiments/yolo/gdt719_v92_three_result_whole_dy_rejection/artifacts/V92_479_CONTEXT_REALIZATIONS.tsv",
+      "role": "reproducible V92 artifact",
+      "sha256": "ba2716d67c72a3875b6bbd6c7553886764bc390a09e536e419c4d43ec60ae601"
+    },
+    {
+      "path": "experiments/yolo/gdt719_v92_three_result_whole_dy_rejection/artifacts/V92_61_HELD_READING_AUDIT.tsv",
+      "role": "reproducible V92 artifact",
+      "sha256": "6e844c2cfb2ff87b6a3d3177bdf5a7392753512a768792453f4a5ed1ee846525"
+    },
+    {
+      "path": "experiments/yolo/gdt719_v92_three_result_whole_dy_rejection/artifacts/V92_8_F7R2_RENDERED_UNITS.tsv",
+      "role": "reproducible V92 artifact",
+      "sha256": "06c51d73ef65bea6a423decb0ff2b708816b6556ebd78a5f12e380ae04df73ef"
+    },
+    {
+      "path": "experiments/yolo/gdt719_v92_three_result_whole_dy_rejection/artifacts/V92_COMPLETE_WORD_CONFIDENCE.tsv",
+      "role": "reproducible V92 artifact",
+      "sha256": "c9fd1460b9e5a8b51f31d1ebae66bb8517df732b2f7002fafbc08c9b6bc08ab1"
+    },
+    {
+      "path": "experiments/yolo/gdt719_v92_three_result_whole_dy_rejection/artifacts/VALIDATION.json",
+      "role": "independent validation",
+      "sha256": "d5399f976eb4b60d2cf0f88f646c78a715772883b2dbd4fead25e8429b160d1d"
+    },
+    {
+      "path": "experiments/yolo/gdt719_v92_three_result_whole_dy_rejection/src/V92_34_PRIMARY_EVIDENCE_BINDINGS.tsv",
+      "role": "reproducible V92 artifact",
+      "sha256": "19adb6a354021d8edfb095240e5d64e69c94278cd9be59dae7ed547e1fcbccd3"
+    },
+    {
+      "path": "experiments/yolo/gdt719_v92_three_result_whole_dy_rejection/src/V92_3_AUDIT_SPECS.tsv",
+      "role": "reproducible V92 artifact",
+      "sha256": "152b10a599751d4bdb8c7bb820d3d443ce2f89b6edd4b904cb0b5967e0ee2bc2"
+    },
+    {
+      "path": "experiments/yolo/gdt719_v92_three_result_whole_dy_rejection/src/run.py",
+      "role": "deterministic builder",
+      "sha256": "6b829de96b1c4093afd8e259025bc700b1aea236ee3665ca54a31c2fd67bb288"
+    },
+    {
+      "path": "experiments/yolo/gdt719_v92_three_result_whole_dy_rejection/src/validate.py",
+      "role": "independent validator",
+      "sha256": "fa9fe85e0a7a200e132a2146c64d08175ab97ac595533186400f9c7be76ac9ac"
+    }
+  ],
+  "question": "Can three dry result wholes lose replaceable product heads while retaining state/result information without promoting visible dy to a shared free component?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "v92_three_result_whole_dy_rejection",
+  "status": "PASS_V92_3_RESULT_WHOLES_REVISED__SHARED_DY_DECOMPOSITION_REJECTED__3_POSITIONS_3_PAGES__58_WEAK_READINGS_REMAIN__NO_SCORE_CREDIT__ALL_H0_NONE",
+  "title": "V92 three result-whole repair with shared-DY rejection",
+  "updated": "2026-09-01",
+  "validation": {
+    "artifact": "experiments/yolo/gdt719_v92_three_result_whole_dy_rejection/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

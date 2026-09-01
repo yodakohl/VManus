@@ -18307,3 +18307,40 @@ The next bounded candidate is the dry-result triplet `kchody`, `ochdy` and
 `oechedy`. They may share whole-result behavior, but their distinct formal-DY
 statuses and decompositions must remain visible; no free DY or product head is
 licensed by grouping them.
+
+## GDT719 advances the canonical dictionary to V92
+
+GDT719 repairs that dry-result triplet without forcing a common internal
+spelling rule. The portable whole-word cores are `kchody = heiß-trocken;
+abgeschlossen`, `ochdy = trocken; abgeschlossen` and `oechedy = bis
+Mittelstufe getrocknet; abgeschlossen`. Their concrete occurrences may still
+be rendered as `fertige heiß-trockene Zubereitung`, `fertige Trockenmasse` and
+`fertige, bis zur Mittelstufe getrocknete Masse`, but the replaceable product
+heads are local context, not portable word content.
+
+The later GDT689 form inventory controls the decomposition. `kchody` is
+`NO_FORMAL_DY` with trace `K+CH+O+D_ADDR+Y`; `ochdy` is `NO_FORMAL_DY` with
+trace `O+CHD+Y`; `oechedy` is `UNRESOLVED`, has no formal recipe and has no
+real sister. The older GDT677/GDT679 `DY_FINISHED` descriptions remain visible
+as lineage and counterevidence but do not license a free final-DY meaning.
+All three therefore use `LEARNED_WHOLE_RESULT_NO_FREE_DY`, receive zero score
+and family credit, and remain 30/W1.
+
+Thirty-four exact bindings replay the nine inherited V91 rows plus the named
+GDT689 form and position controls, GDT687 scope rows, GDT684 debt rows, GDT691
+rules and contexts, and the older GDT677/GDT679 evidence. All 321 non-target
+lexical rows and 476 non-target contexts preserve parity. Both spans and all
+eight f7r.2 units remain byte-identical. The independent validator passes
+78,924 checks.
+
+V92 remains 324 active readings at 479 positions with 7 W0, 135 W1, 163 W2
+and 19 W3. The complete dictionary remains 1,582 surfaces/1,586 readings, each
+with a default meaning, numeric score, confidence level, positive evidence,
+counterevidence and `H0_NONE`. Fifty-eight weak readings remain. The canonical
+lookup is
+`experiments/yolo/gdt719_v92_three_result_whole_dy_rejection/artifacts/V92_COMPLETE_WORD_CONFIDENCE.tsv`.
+
+The next bounded comparison is the cold-result pair `teeedy` and `etyd`. It
+must test whether their common cooling domain survives while their different
+stage and boundary structures stay separate. The weaker unpaired `otsheody`
+remains outside that comparison.
