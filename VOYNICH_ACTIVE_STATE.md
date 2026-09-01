@@ -18708,9 +18708,39 @@ after narrowing dolas from equality to proportionality and repairing the
 ykeedan object grammar. Canonical lookup:
 `experiments/yolo/gdt728_v99r2_inherited_unit_term_dispatch/artifacts/V99R2_COMPLETE_WORD_CONFIDENCE.tsv`.
 
-The next no-new-page route is GDT729 on the fourteen remaining inherited
-indexed or ambiguous quantity wholes: `arain`, `chorain`, `choraiin`, `cthan`,
-`cthain`, `cthaiin`, `dan`, `daiiin`, `olain`, `olaiin`, `oraiin`, `qoraiin`,
-`solaiin` and `tdain`. GDT724 and GDT686 are the duplicate/constraint anchors.
-Dispatch each exact head to cardinal amount, quality grade, open value or a
-separately licensed measure without changing scores or exporting components.
+## GDT729 advances the complete dictionary to V99R3
+
+GDT729 audits the fourteen inherited quantity/value wholes named by the route,
+covering 140 exact occurrences. The final dispatch is five cardinal amounts,
+one amount inside an indexed share, seven open value levels, one quality grade,
+zero licensed measures and zero HOLD. Every main-channel target now has one
+spoken default rather than a slash-separated choice.
+
+The practical cardinal forms are `olain = zwei Portionen Drogenstoff`,
+`olaiin = drei Portionen Drogenstoff`, `oraiin = drei Portionen`,
+`qoraiin = drei Drogenportionen nehmen` and exploratory singleton
+`solaiin = drei Portionen Salz`. `arain` preserves its two indices as `zwei
+Teile des Drogenanteils I`. The displaced seed, class, quality and measure
+readings remain explicit rivals in the fourteen-row audit.
+
+The primary head rules prevent false concreteness elsewhere. GDT627 says the
+`cth/chor+a+value` compounds can encode amount, strength, size, maturity or
+class and must not be silently counted as pictured organs. They therefore keep
+concrete patients but open axes: `Blütenteil, Wertstufe II/III` and `Blattgut,
+Wertstufe I/II/III`. GDT686 keeps naked `dan/daiiin` at `Wertstufe I/IV`; exact
+`tdain` has a visible cold-quality head and becomes `Kältegrad II`, while its
+inherited W0 score stays unchanged.
+
+Exactly fourteen global semantic rows change. All 324 active rows, 1,248 other
+global rows, sixty GDT728 targets and five reader artifacts are byte-stable.
+Every confidence level, positive/counterevidence field, semantic scope, export
+permission and structural/action flag is preserved. Components receive zero
+credit; five historical convention controls remain H0_NONE. Canonical lookup:
+`experiments/yolo/gdt729_v99r3_fourteen_indexed_quantity_dispatch/artifacts/V99R3_COMPLETE_WORD_CONFIDENCE.tsv`.
+
+The next no-new-page route is GDT730. Its fixed starting inventory is the 95
+remaining inherited global meanings whose semantic field contains a slash,
+`oder` or an unresolved quantity label. Start with `an/ain` and coherent CTH,
+root and seed families; use GDT631–632 as CTH constraints, select one audible
+whole-reading default, retain each displaced option as counterevidence, and do
+not reopen the earlier lattice or export internal components.
