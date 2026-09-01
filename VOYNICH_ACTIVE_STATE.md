@@ -18433,3 +18433,46 @@ The next bounded pass is the five OP/P powder-preparation holds `op`, `chopo`,
 GDT691/GDT633/GDT652, preserve one concrete default per form, and avoid
 reopening a universal preparation-head route. No new page, image,
 transcription, f84 or f84r is licensed.
+
+## GDT722 advances the canonical dictionary to V95
+
+GDT722 audits all five OP/P holds at their exact active positions and keeps
+their concrete powder content without promoting inner `p` to a free component.
+The active bound renderer values are:
+
+- `opchedaiin`: `drei Portionen bis zur Mittelstufe getrockneten Pulvers`;
+- `chopo`: `Pulverzubereitung aus Trockengut`;
+- `op`: `Pulverzubereitung`;
+- `qopaiin`: portable `drei Teile Pulverzubereitung`, locally at the sole
+  action-licensed P158 `drei Teile der Pulverzubereitung nehmen`;
+- `opchey`: `Trockenpulver, Form I`.
+
+These are bound, unsegmented renderer values. GDT691's formal route is
+`LEARNED_WHOLE_OR_UNEXPORTED`, so learned whole versus unexported composition
+remains unresolved. GDT635 licenses `p=Pulver/Pulverform` only token-initial
+and separately counts 858 internal-p tokens/443 types. V95 therefore selects
+zero internal-p decompositions and grants zero component, family or score
+credit. Each exact target surface retains its working dictionary default, but
+productive `op`, internal `p`, or substring export remains forbidden.
+
+GDT633 supplies one strong form-only control: `opchey` occurs 26 times and its
+`opcheey` sister four times in `opch<E>y`. This supports recurrence, not free
+OP/CH/E/Y semantics, and does not raise the 30/W1 target score. GDT652 shows
+all five exact active positions were still unknown before GDT691's later bound
+role decisions.
+
+Thirty-six exact evidence bindings replay. All 319 non-target lexical rows and
+474 non-target contexts preserve parity; five spans, two one-shot directives
+and eight f7r.2 units remain byte-identical. The validator passes 14,807 checks.
+V95 remains 324 active readings at 479 positions with 7 W0, 135 W1, 163 W2 and
+19 W3. The complete dictionary remains 1,582 surfaces/1,586 readings, every row
+with a default, score/level, evidence, counterevidence and `H0_NONE`. Forty-seven
+weak readings remain. Canonical lookup:
+`experiments/yolo/gdt722_v95_op_whole_scope_and_context_separation/artifacts/V95_COMPLETE_WORD_CONFIDENCE.tsv`.
+
+The next bounded route is the twelve remaining preparation-route holds
+`adeeody`, `chockhy`, `ofchedy`, `okeeeey`, `okiin`, `olord`, `otsheody`,
+`qocho`, `shotchey`, `solchedy`, `ykcho` and `ytcho`. The duplicate screen
+routes them first to GDT691/GDT652 and the bounded core/context controls in
+GDT716/GDT718/GDT717/GDT713. No new page, image, transcription, f84 or f84r is
+licensed.
