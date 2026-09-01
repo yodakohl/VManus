@@ -17968,3 +17968,48 @@ remain unchanged.  The independent validator passes 83,341 checks and
 reproduces the expected GDT388 formal-access error.  Next run the same
 first-terminal-product census over all 42 delayed nominal windows without
 skipping, opening a page or changing a word value.
+
+## GDT709 exhausts the complete first-terminal population
+
+GDT709 reconstructs all 42 delayed nominal windows as 205 raw nominal
+positions: 203 semantic items plus two terminal punctuation controls.  It does
+not select a preferred definition after seeing the cases.  Three independent
+readers instead form a practical funnel nested only by window identity.  A compound-aware executable
+marker (`fertig|vollständig|abgeschlossen` plus a material head) finds 30
+terminal-material fields and 25 first-hit windows; five later hits are blocked
+by no-skip.  The workshop-flow reader recognizes 22 terminal windows.  The
+complete manual reader retains nine locally readable exploratory endpoints.
+Twenty-one operation-aware values are the same first field selected by the
+broad marker.  A047 is the sole exception: its operation-aware terminal lies
+behind an earlier lexical completion, remains STOP and cannot rescue the path.
+
+The exact manual partition is nine locally readable product endpoints, seven earlier
+completion values that block longer paths, twelve material/operation/degree
+resets, thirteen windows without a coherent product path, and A083/C020 as one
+coherent but explicitly non-finished result-state exception.  The strict
+terminal route replays inherited C019 and C021, holds six, and stops 34.  Those
+STOP labels apply only to the longer terminal route: they do not erase shorter
+holds, C020, C019 or C021.
+
+The endpoint label is deliberately weaker than a blocker-free causal path.
+A005, A014, A041 and A048 carry their first unresolved operation or degree
+mismatch in the selected terminal field itself.  Their practical product
+phrases stay visible, while that mismatch prevents admission.
+
+A048 `f77r.38#3-5` is the strongest new exploratory high hold: *Endportion
+hinzugeben. Danach steht: heiß, Grad III. Mögliches terminales Produkt:
+abgeschlossenes, bis zur Mittelstufe getrocknetes Arzneikompositum.*  The block
+is short, concrete, material-bearing and ends at #5.  It is not a new edge
+because addition does not productively license drying or closure, III changes
+to the middle degree, and action surface `qoeedy` is a singleton in the frozen
+479-token layer.  This is `HIGH_HOLD_NO_EDGE`, not rejection and not a surface
+default.
+
+The cumulative graph remains 20 edges, 14 components, 37 unique nodes, 43
+incidences, 45 hull/render positions, six shared nodes, eight hull-only
+positions and one structural closure.  All 479 token glosses, 51 line
+translations, three spans and 36 pages are unchanged.  The independent
+validator passes 3,840 checks; there is zero edge, word, page, f84 or f84r
+delta.  Next apply one deterministic preterminal-reset gate to all 25 broad
+first hits, with C021 as positive anchor, inherited C019 as the carrier-bundle
+special case and A048 as the named negative/high-hold anchor.
