@@ -18679,8 +18679,38 @@ reconstructs the complete reader. Canonical lookup:
 Canonical reader:
 `experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/artifacts/GDT727_V99_51_LINE_WORKING_READER.md`.
 
-The next route is GDT728: inventory inherited global V48 meanings containing
-the unit terms Dosis/Dosen outside the active V99 tranche, then choose
-`Portion`, `Teil`, `Maß`, `Wert` or HOLD per exact-whole family. Do not perform
-a blind text replacement, change confidence scores, or infer productive
-`d`/`dain`/`daiin` component semantics from German phrasing.
+## GDT728 advances the complete dictionary to V99R2
+
+GDT728 inventories exactly 60 inherited `GLOBAL_V48_DEFAULT` readings whose
+working meaning and context realization still contain Dosis wording. The fixed
+set covers 293 observed occurrences and consists of 24 counted plurals, 18
+singular work objects, eleven Roman-axis forms, six compounds and one redundant
+`Portion als Dosis` form. Every target ID and exact old/new text is declared
+before execution; no substring replacement selects or edits a row.
+
+The whole-family dispatch yields 55 `PORTION`, one `TEIL`, one `MASS`, three
+`WERT` and zero HOLD readings. `dolas` is only `Drogenstoff anteilig abmessen`:
+its A_PART_OR_LINK licenses a part/ratio but not equality. `doly` is the sole
+`ein Maß Abguss`, bound to its exact inherited measure-family whole. The open
+GDT627 `oda/od` head keeps `odan/odain/odaiin` at Zubereitung, Wertstufe I–III
+instead of converting them to quantities. The other visible material and work
+heads take exploratory portion defaults. No free `d`, `dain`, `daiin`, `dol`
+or `a` value is exported.
+
+Each semantic field loses 61 Dosis tokens. All 324 active V99 readings and all
+1,202 non-target global readings remain byte-identical; five active
+lexical/context/reader artifacts are hash-identical. Scores, confidence levels,
+positive evidence, counterevidence, scopes, spans, structural tags and export
+permissions do not change. Five historical recipe comparators distinguish
+part, named measure and actual administration conventions, but all carry zero
+Voynich relation credit and H0_NONE. Three independent post-build audits pass
+after narrowing dolas from equality to proportionality and repairing the
+ykeedan object grammar. Canonical lookup:
+`experiments/yolo/gdt728_v99r2_inherited_unit_term_dispatch/artifacts/V99R2_COMPLETE_WORD_CONFIDENCE.tsv`.
+
+The next no-new-page route is GDT729 on the fourteen remaining inherited
+indexed or ambiguous quantity wholes: `arain`, `chorain`, `choraiin`, `cthan`,
+`cthain`, `cthaiin`, `dan`, `daiiin`, `olain`, `olaiin`, `oraiin`, `qoraiin`,
+`solaiin` and `tdain`. GDT724 and GDT686 are the duplicate/constraint anchors.
+Dispatch each exact head to cardinal amount, quality grade, open value or a
+separately licensed measure without changing scores or exporting components.
