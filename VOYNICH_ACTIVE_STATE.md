@@ -18765,7 +18765,47 @@ historical comparisons remain H0_NONE. Canonical lookup:
 `experiments/yolo/gdt730_v99r4_ninety_four_ambiguity_default_dispatch/artifacts/V99R4_COMPLETE_WORD_CONFIDENCE.tsv`.
 
 The next no-new-page route is GDT731: project the 94 V99R4 defaults onto their
-already cached exact occurrences, publish high-impact before/after passage
+already cached exact occurrences, publish target-dense before/after passage
 renderings and rank the still audible abstract blockers by frequency. This is
 an impact pass over a genuinely new dictionary delta, not another GDT726
 active-reader replay and not a reopening of GDT631–632 or GDT686.
+
+## GDT731 measures V99R4 across every cached occurrence
+
+GDT731 exact-matches all 94 GDT730 surfaces at all 1,039 canonical positions
+inside 911 of the 4,128 cached lines. Every per-surface count reconstructs the
+V99R4 dictionary. Exactly 31,300 non-target token cells remain unchanged; 351
+affected lines already have zero unknown tokens under inherited V48 coverage.
+The three audible rival markers inside changed cells fall from 823 slashes, 76
+standalone `oder` tokens and 251 case-insensitive `menge` tokens to zero. Mean
+target-cell length falls from 4.05 to 2.68 words.
+
+This is a measured concision and single-default gain, not a blanket claim of
+greater practical information. Some old rival lists become concrete plant,
+seed, root, wood or powder terms; other cells merely replace a long analytic
+choice with a shorter indexed placeholder. The published fifty-passage reader
+is therefore ranked by changed target count, inherited completeness and locus,
+not by semantic importance. GDT696's three local action/patient/relation
+artifacts remain byte-identical.
+
+The explicit post-projection census identifies the next defects. The affected
+passages still contain 1,609 unknown cells in 560 lines. The largest coherent,
+repairable family is the audible grade frame: 175 dictionary rows and 2,431
+canonical occurrences, heard in 1,836 cells across 705 affected lines. Indexed
+`Wertstufe/Form/Charge/Klasse` placeholders account for 111 rows/691
+occurrences and 363 cells; strict unnamed material carriers for 18/191 and 170
+cells; audible `Eintrag/Eintragsform` structure for 17/146 and 105 cells. The
+unknown tail is more severe but fragmented across 1,335 mostly rare surfaces,
+so it is not one efficient blanket route.
+
+Canonical occurrence audit:
+`experiments/yolo/gdt731_v99r4_occurrence_passage_impact/artifacts/V99R3_V99R4_1039_OCCURRENCE_DELTA.tsv`.
+Canonical target-dense reader:
+`experiments/yolo/gdt731_v99r4_occurrence_passage_impact/artifacts/GDT731_V99R4_50_TARGET_DENSE_READER.md`.
+
+The next no-new-page route is GDT732. Preserve the formal grade tag as a
+separate analysis channel, but render the audible state by modality as
+`leicht`, `bis zur Mittelstufe` or `vollständig` heated, cooled, dried or
+soaked. GDT558's carrier envelopes and GDT717's state/stage grid are inherited
+constraints, not routes to reopen. Afterwards remove audible Y structure; do
+not blanket-fill the diffuse unknown tail or unnamed materials.

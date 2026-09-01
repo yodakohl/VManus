@@ -1,0 +1,53 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The 911-line and 1,039-occurrence comparison tables retain complete aligned before/after cells so exact non-target preservation and passage impact can be reproduced without reopening transcription data.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Cached exact-whole renderer impact only. GDT731 projects the 94 V99R4 defaults onto 1,039 existing positions and reports concision, audible single-default dispatch and surviving abstraction while preserving every non-target cell and the separate local-relation layer. It does not equate shorter defaults with practical informativeness or claim polished translation, plaintext, language, phonetics, ingredient or species identity, disease, cure, historical key, productive component meanings, a new page, image, transcription, f84 or f84r.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt731_v99r4_occurrence_passage_impact/src/run.py",
+    "validate": "python3 experiments/yolo/gdt731_v99r4_occurrence_passage_impact/src/validate.py"
+  },
+  "created": "2026-09-01",
+  "dependencies": ["GDT671", "GDT696", "GDT729", "GDT730"],
+  "experiment_id": "GDT731",
+  "inputs": [
+    {"path": "experiments/yolo/gdt671_fifteen_residual_family_completion/REPORT.md", "role": "primary V48 line-register scope and passage semantics", "sha256": "23fb98ce743a89be4086f755b8dfbccb83cdca9f8c203cb182dd759bab369b84"},
+    {"path": "experiments/yolo/gdt671_fifteen_residual_family_completion/artifacts/ALL_LINE_CONCRETE_COVERAGE_V48.tsv", "role": "4,128 cached physical lines and 32,339 aligned token gloss cells", "sha256": "cb299433b38de8efb41c3da6e8343d74b46bff9c6063a5df88c85e6069cc45e6"},
+    {"path": "experiments/yolo/gdt671_fifteen_residual_family_completion/artifacts/PAGE_ALLOWLIST.tsv", "role": "179-page f84 and f84r-free cached-page allowlist", "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"},
+    {"path": "experiments/yolo/gdt729_v99r3_fourteen_indexed_quantity_dispatch/artifacts/V99R3_COMPLETE_WORD_CONFIDENCE.tsv", "role": "canonical V99R3 before defaults", "sha256": "313867a00fcdbd18211c35c9890bdf6525e2d80903e1c6eca04172ed0d942256"},
+    {"path": "experiments/yolo/gdt730_v99r4_ninety_four_ambiguity_default_dispatch/REPORT.md", "role": "primary V99R4 decision scope and claim ceiling", "sha256": "8e46899197dbd175743b273f86d8f1a39e3d069d70380399b0c3ae2efb3b19d7"},
+    {"path": "experiments/yolo/gdt730_v99r4_ninety_four_ambiguity_default_dispatch/src/V99R4_94_AMBIGUITY_DEFAULT_SPECS.tsv", "role": "explicit 94-surface old/new decision deck", "sha256": "c4e6a0b03ea0825dffc290c9c486e89b3963fd16e7aa5f35b9380bf37df4b4f6"},
+    {"path": "experiments/yolo/gdt730_v99r4_ninety_four_ambiguity_default_dispatch/artifacts/V99R4_COMPLETE_WORD_CONFIDENCE.tsv", "role": "canonical V99R4 after defaults, confidence and evidence", "sha256": "1ded8ffd13577be1de2470e10381b7d6d76a50042864e89475255119c936f340"},
+    {"path": "experiments/yolo/gdt696_v68_exact_local_object_carries/artifacts/V69_51_LINE_RELATION_OVERLAY.tsv", "role": "byte-parity control for the separate local line-relation layer", "sha256": "d006fb5025a4e084606f6aa0cfec6f95da17752b8058f3d7fd4be36fb290d2b6"},
+    {"path": "experiments/yolo/gdt696_v68_exact_local_object_carries/artifacts/V69_479_TOKEN_RELATION_OVERLAY.tsv", "role": "byte-parity control for the separate local token-relation layer", "sha256": "267ad5bff8331cfdd8e4516132802bd36301be9c4a2f00177efd59e46b226ae6"},
+    {"path": "experiments/yolo/gdt696_v68_exact_local_object_carries/artifacts/GDT696_V69_LOCAL_OBJECT_CARRY_READER.md", "role": "byte-parity control for the local relation reader", "sha256": "10cbb4cafdcbfd715c01df75693ffefbbdbf4f480c7084c2a50419efcaac31e0"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt731_v99r4_occurrence_passage_impact/README.md", "role": "experiment entry point and reproduction commands", "sha256": "e77626f5e91625ee50766ba9ba9b997df2479189889ede73caae30b7bb4f6241"},
+    {"path": "experiments/yolo/gdt731_v99r4_occurrence_passage_impact/METHOD.md", "role": "exact occurrence projection and practical-blocker method", "sha256": "38b891ba0d396bd54ff0786b3aac95185a7c3ab8bb6b9b95d8e88de5bc3ae70a"},
+    {"path": "experiments/yolo/gdt731_v99r4_occurrence_passage_impact/REPORT.md", "role": "impact result, representative passages, reality check and next route", "sha256": "12360c48659e13380a9492aea7d289eb6de4d4e2aa70f7e43c295f44151ef1ff"},
+    {"path": "experiments/yolo/gdt731_v99r4_occurrence_passage_impact/artifacts/README.md", "role": "artifact guide", "sha256": "98b7648c8f88fa3e414d84d791a351388468245f3c680c498b95a0f69cd6037d"},
+    {"path": "experiments/yolo/gdt731_v99r4_occurrence_passage_impact/artifacts/GDT731_V99R4_50_TARGET_DENSE_READER.md", "role": "human-readable fifty-passage before/after target-density reader", "sha256": "769cee87cac0b07d0bc67d1145de33c2753b1e9fb8123e12925a1cd4411aa693"},
+    {"path": "experiments/yolo/gdt731_v99r4_occurrence_passage_impact/artifacts/RESULT.json", "role": "machine-readable GDT731 result", "sha256": "242961b33a0aae631423da3059742e15f6c43ef114abe80ba2e1bfc4fad87323"},
+    {"path": "experiments/yolo/gdt731_v99r4_occurrence_passage_impact/artifacts/V99R3_V99R4_1039_OCCURRENCE_DELTA.tsv", "role": "1,039 exact old/new occurrence records with confidence and evidence", "sha256": "5dc9d23ece054cea986a95c0b960ad77f1dcf5471bd1c17f2f782e40bd542e5a"},
+    {"path": "experiments/yolo/gdt731_v99r4_occurrence_passage_impact/artifacts/V99R3_V99R4_351_COMPLETE_LINE_COMPARISON.tsv", "role": "351 affected inherited-complete line comparisons", "sha256": "999edb60766b23e67e362518faa9a3f4cfbbd1ef5b8ce1670a90e0f53250a2a4"},
+    {"path": "experiments/yolo/gdt731_v99r4_occurrence_passage_impact/artifacts/V99R3_V99R4_911_LINE_RENDER_COMPARISON.tsv", "role": "911 complete aligned before/after line-cell comparisons", "sha256": "1581cff22d3ee2d44c206cb23433ac3aa792b26d97379b5bb20c662edfab5e15"},
+    {"path": "experiments/yolo/gdt731_v99r4_occurrence_passage_impact/artifacts/V99R4_50_TARGET_DENSE_PASSAGES.tsv", "role": "deterministic fifty most target-dense machine-readable passage comparisons", "sha256": "714efbf08dcfdca2a0129e4eb884f5a2307d72ab03df976fd7c27aa7411d9ba1"},
+    {"path": "experiments/yolo/gdt731_v99r4_occurrence_passage_impact/artifacts/V99R4_BLOCKER_CENSUS.tsv", "role": "explicit remaining abstraction and unknown-cell census", "sha256": "1d0bd7702becb89577238fd1375eaf258973b98b6f6dc9e9a7f4c39401acdb9c"},
+    {"path": "experiments/yolo/gdt731_v99r4_occurrence_passage_impact/artifacts/V99R4_GDT696_OVERLAY_PARITY.tsv", "role": "three local-relation artifact hashes proving no rewrite", "sha256": "2fd7aa225bb50fe7fb9e8f325595d66dc627e251e29c6768589bf2d254467a8b"},
+    {"path": "experiments/yolo/gdt731_v99r4_occurrence_passage_impact/artifacts/V99R4_RENDER_QUALITY_SUMMARY.tsv", "role": "nine exact projection metrics; after-only blocker count is marked NA before", "sha256": "42f778b215269ad83f61c7882ef4338d519ab60e32c9bf86637e3b4a6566c894"},
+    {"path": "experiments/yolo/gdt731_v99r4_occurrence_passage_impact/artifacts/VALIDATION.json", "role": "independent token, line, rule, parity and artifact-hash validation", "sha256": "5094df2f9ec4f4c50bc713681cc4d5c9aeb1ff006412a6bae9f6eb00434b4e18"},
+    {"path": "experiments/yolo/gdt731_v99r4_occurrence_passage_impact/src/PRACTICAL_BLOCKER_RULES.tsv", "role": "five explicit practical-readability blocker rules", "sha256": "0cb3c420fab71bcab83dd3bbbb448bdcc19cf386529c34f953ca9e3c58b56fe8"},
+    {"path": "experiments/yolo/gdt731_v99r4_occurrence_passage_impact/src/run.py", "role": "deterministic GDT731 generator", "sha256": "4345593ef858971f7f254441ecbeda876e7f402ff513d64083fc4cccd808a7ca"},
+    {"path": "experiments/yolo/gdt731_v99r4_occurrence_passage_impact/src/validate.py", "role": "independent GDT731 validator", "sha256": "c346242a796d6b02f529c097d6d47af8ff419ccc2f00a5d02c9ac11187df8e3c"}
+  ],
+  "question": "What do the 94 V99R4 defaults change across all 1,039 cached occurrences, and which audible abstractions still prevent practical prose?",
+  "schema_version": 1,
+  "sealed_data": {"f84": "FORBIDDEN", "f84r": "FORBIDDEN"},
+  "slug": "v99r4_occurrence_passage_impact",
+  "status": "PASS_94_SURFACES_1039_POSITIONS_911_LINES__351_COMPLETE_LINES__50_TARGET_DENSE_PASSAGES__GDT696_OVERLAYS_BYTE_STABLE__CACHED_DEFAULT_IMPACT_ONLY__NO_POLISHED_TRANSLATION_OR_NEW_PAGE",
+  "title": "V99R4 occurrence and passage impact",
+  "updated": "2026-09-01",
+  "validation": {"artifact": "experiments/yolo/gdt731_v99r4_occurrence_passage_impact/artifacts/VALIDATION.json", "status": "PASS"}
+}
