@@ -1,0 +1,197 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The 1586-reading complete dictionary and 479-position realization table retain a default meaning, confidence, positive evidence, counterevidence, locality and export boundary for every carried reading; twenty-nine exact primary-row bindings make all thirteen indexed-share repairs replayable.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exploratory working-dictionary repair only. V89 treats the selected written AR/AIR/AIIR sequences as bound indexed-share selectors inside thirteen exact whole readings, removes unsupported generic drug or preparation identities from portable cores, and keeps concrete patients local to their single admitted positions. Scores are non-probabilistic evidence indices, components are not free morphemes, historical status is H0_NONE, and GDT716 supplies zero relation-word credit. No plaintext, language, historical lexicon, new page, image, transcription, f84 or f84r is asserted.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt716_v89_indexed_share_core_context_repair/src/run.py",
+    "validate": "python3 experiments/yolo/gdt716_v89_indexed_share_core_context_repair/src/validate.py"
+  },
+  "created": "2026-09-01",
+  "dependencies": [
+    "GDT693",
+    "GDT694",
+    "GDT711",
+    "GDT715"
+  ],
+  "experiment_id": "GDT716",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt715_v88_axis_action_patient_core_context_repair/artifacts/V88_324_ACTIVE_LEXICAL_READINGS.tsv",
+      "role": "canonical V88 active lexical cores confidence evidence and export scopes",
+      "sha256": "bdb329b6eb41027f5a0edc40bd6e38ab67d381d57a98083452937ec87a13dc55"
+    },
+    {
+      "path": "experiments/yolo/gdt715_v88_axis_action_patient_core_context_repair/artifacts/V88_479_CONTEXT_REALIZATIONS.tsv",
+      "role": "canonical V88 exact-position context universe and action licenses",
+      "sha256": "dfec26ba01a3f142676710b6edd22baa5ccfb08302f9c762d308dd542d4c725a"
+    },
+    {
+      "path": "experiments/yolo/gdt715_v88_axis_action_patient_core_context_repair/artifacts/V88_COMPLETE_WORD_CONFIDENCE.tsv",
+      "role": "canonical V88 complete confidence evidence and default-meaning dictionary",
+      "sha256": "bfeb9a924841e3ba4e4fe967bd6fbb1b55d7fcb5a5ce11bdf88605683e8f2b12"
+    },
+    {
+      "path": "experiments/yolo/gdt715_v88_axis_action_patient_core_context_repair/artifacts/V88_91_HELD_READING_AUDIT.tsv",
+      "role": "V88 cumulative weak-reading queue and dispositions",
+      "sha256": "e231a28d06bc587d845a04e00dec989c09e2e858bb03b10c699bb8749ca4edaa"
+    },
+    {
+      "path": "experiments/yolo/gdt715_v88_axis_action_patient_core_context_repair/artifacts/V88_2_BOUND_SPAN_RENDERER.tsv",
+      "role": "two inherited exact occurrence-local spans",
+      "sha256": "b714d9d32b6f108039494ac789cbbc1f1aba63a5456dbe6fdd3ea5a35a62f002"
+    },
+    {
+      "path": "experiments/yolo/gdt711_v84_active_weak_family_repair/artifacts/V84_13_STEM_FAMILY_EVIDENCE.tsv",
+      "role": "declared F_R family value bonus cap and counterevidence",
+      "sha256": "48b2312493cf7136ed0c2e45d4d63f16c0e0df8b8d168785d40104dd97b5f03d"
+    },
+    {
+      "path": "experiments/yolo/gdt693_ar_head_semantic_tournament/artifacts/V66_16_SELECTED_SURFACE_RULES.tsv",
+      "role": "eight exact selected indexed-share whole-reading rules",
+      "sha256": "ce8ad4720f28db86df7c23c894f43dcd494a7f6ec796f5c3243f2168c0a56e30"
+    },
+    {
+      "path": "experiments/yolo/gdt693_ar_head_semantic_tournament/artifacts/V66_479_TOKEN_SELECTED_SHARE_READER.tsv",
+      "role": "exact positions and selected share roles for the GDT693 tranche",
+      "sha256": "3dbb8c06bf8cd126795e2f11a0c16245efb3a8626642ac9513b6eee1d5012472"
+    },
+    {
+      "path": "experiments/yolo/gdt693_ar_head_semantic_tournament/artifacts/V66_113_SELECTED_VERB_PRESERVATION.tsv",
+      "role": "exact qodar and qokaiir verb-preservation rows",
+      "sha256": "946ff8f8ea9f4948825bef0026c064bbf93268ac1085594ee92271c264ed6cea"
+    },
+    {
+      "path": "experiments/yolo/gdt694_residual_fraction_share_migration/artifacts/V67_22_RESIDUAL_SHARE_MIGRATIONS.tsv",
+      "role": "five exact residual whole-reading migrations from fraction to share",
+      "sha256": "6d0381871e87bb107d0b889e59d73ce513f2d12d72a5097aa378e2699be5ac51"
+    },
+    {
+      "path": "experiments/yolo/gdt694_residual_fraction_share_migration/artifacts/V67_479_TOKEN_ZERO_FRACTION_READER.tsv",
+      "role": "exact positions and migrated share roles for the GDT694 tranche",
+      "sha256": "0d064db8caec4d9d3f25b066805a5c7234490ab670fb48ec3e47ccba7daea1c6"
+    },
+    {
+      "path": "experiments/yolo/gdt694_residual_fraction_share_migration/artifacts/V67_113_VERB_PRESERVATION.tsv",
+      "role": "exact qochar verb-preservation row",
+      "sha256": "89ff7c06c296cc2a3d24707c006082ad67dc2362537989183b1e338dbee2474f"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt716_v89_indexed_share_core_context_repair/README.md",
+      "role": "experiment entry point",
+      "sha256": "ed912bb3af059080807b49af22500c1a325d17c74606429892a324f3efdd2889"
+    },
+    {
+      "path": "experiments/yolo/gdt716_v89_indexed_share_core_context_repair/METHOD.md",
+      "role": "indexed-share core-context repair method",
+      "sha256": "787fd7bc4e367595aa3d45e43573cad036f9ce720661bbdbf01cfdcffa8ef28c"
+    },
+    {
+      "path": "experiments/yolo/gdt716_v89_indexed_share_core_context_repair/REPORT.md",
+      "role": "primary result and concrete thirteen-reading interpretation",
+      "sha256": "f3f875983ba7e3f8c28767f2cdae00e7f66a1de0adf7b6b14c4d9a19bf8df975"
+    },
+    {
+      "path": "experiments/yolo/gdt716_v89_indexed_share_core_context_repair/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "feeeabebb9cbd86e6cd02b6f3f81483f6131d74558505e4e10fb2665dfd5b7be"
+    },
+    {
+      "path": "experiments/yolo/gdt716_v89_indexed_share_core_context_repair/src/run.py",
+      "role": "deterministic V89 builder",
+      "sha256": "e378d95cad048b7c7175bc5f62683e51f3abd8bf4a74c7edd579e52fcf353938"
+    },
+    {
+      "path": "experiments/yolo/gdt716_v89_indexed_share_core_context_repair/src/validate.py",
+      "role": "independent evidence parity confidence and renderer validator",
+      "sha256": "b6d2f2ca55ff4827ea1f7dd4c0b3dd1e3780993a2ec070c7ca521316a1ddec79"
+    },
+    {
+      "path": "experiments/yolo/gdt716_v89_indexed_share_core_context_repair/src/V89_13_AUDIT_SPECS.tsv",
+      "role": "thirteen explicit portable-core and exact-position context specifications",
+      "sha256": "6ec45ce37419c6d111d9182de1db69b32c0311ff3f692aae16f7148bdf6eb827"
+    },
+    {
+      "path": "experiments/yolo/gdt716_v89_indexed_share_core_context_repair/src/V89_29_PRIMARY_EVIDENCE_BINDINGS.tsv",
+      "role": "twenty-nine exact primary-row selectors assertions and score-credit declarations",
+      "sha256": "e5cb8fddb80cb49ed8a6d1dcb3d38d6e0678c673935aafc4b1d728fecfe83d0b"
+    },
+    {
+      "path": "experiments/yolo/gdt716_v89_indexed_share_core_context_repair/artifacts/RESULT.json",
+      "role": "compact result counts confidence levels and rendered line",
+      "sha256": "0917d04e061384d1fa21ea5f6c870d1d638d1c447aabf58e38e077eabfa57130"
+    },
+    {
+      "path": "experiments/yolo/gdt716_v89_indexed_share_core_context_repair/artifacts/VALIDATION.json",
+      "role": "87367-check independent validation report",
+      "sha256": "56988a44ce5b53dcf48b85a28371abfc65359698a43cc50883c9940fee0055bc"
+    },
+    {
+      "path": "experiments/yolo/gdt716_v89_indexed_share_core_context_repair/artifacts/V89_324_ACTIVE_LEXICAL_READINGS.tsv",
+      "role": "canonical active V89 lexical cores confidence evidence and boundaries",
+      "sha256": "a1b83300df491ad29cc7918816ca77356221fa69eee3b4017ca75dcc75b8fed0"
+    },
+    {
+      "path": "experiments/yolo/gdt716_v89_indexed_share_core_context_repair/artifacts/V89_479_CONTEXT_REALIZATIONS.tsv",
+      "role": "all exact-position V89 realizations and local hypotheses",
+      "sha256": "3be488e67a0604efd0880bf42d8e9c303cdcf85d40400b359000036d9458af94"
+    },
+    {
+      "path": "experiments/yolo/gdt716_v89_indexed_share_core_context_repair/artifacts/V89_84_HELD_READING_AUDIT.tsv",
+      "role": "thirteen revised queue rows plus seventy-one later weak repairs",
+      "sha256": "be1fdaf5376d0d4f894fb9a5e0c5348a94b7fbe0e07bc77153310fcbd90347a8"
+    },
+    {
+      "path": "experiments/yolo/gdt716_v89_indexed_share_core_context_repair/artifacts/V89_13_INDEXED_SHARE_CORE_CONTEXT_DELTA.tsv",
+      "role": "compact thirteen-reading core context score and evidence delta",
+      "sha256": "051ce8559898f11fd03b8cde90797bf87069dc5416790031a4b0ba2b9ab0d066"
+    },
+    {
+      "path": "experiments/yolo/gdt716_v89_indexed_share_core_context_repair/artifacts/V89_29_PRIMARY_EVIDENCE_BINDINGS.tsv",
+      "role": "resolved exact primary rows and fingerprints",
+      "sha256": "ec705c199c3e665307830003b1401358ec0d0901dc5d7f8ea5b7c2e3adbcb8c8"
+    },
+    {
+      "path": "experiments/yolo/gdt716_v89_indexed_share_core_context_repair/artifacts/V89_1_FAMILY_EVIDENCE.tsv",
+      "role": "F_R rule with thirteen selected V89 readings",
+      "sha256": "5f83a76631b4304881a6fb8d978cb588633936c904eed9ddd2237c43ea475f2c"
+    },
+    {
+      "path": "experiments/yolo/gdt716_v89_indexed_share_core_context_repair/artifacts/V89_2_BOUND_SPAN_RENDERER.tsv",
+      "role": "byte-preserved inherited occurrence-local spans",
+      "sha256": "b714d9d32b6f108039494ac789cbbc1f1aba63a5456dbe6fdd3ea5a35a62f002"
+    },
+    {
+      "path": "experiments/yolo/gdt716_v89_indexed_share_core_context_repair/artifacts/V89_2_ONE_SHOT_RENDER_DIRECTIVES.tsv",
+      "role": "f7r.2 left-emission and right-consumption directives",
+      "sha256": "1bbb4a4505915ae89df1b596ad24cff95fd1fb01247ad1a350e60b3bac41c753"
+    },
+    {
+      "path": "experiments/yolo/gdt716_v89_indexed_share_core_context_repair/artifacts/V89_8_F7R2_RENDERED_UNITS.tsv",
+      "role": "actual eight-unit f7r.2 V89 output",
+      "sha256": "26a15e23f5a29c5b1b47a2a4cdfa7e27a0f09213b0183661ba851008e342b8b9"
+    },
+    {
+      "path": "experiments/yolo/gdt716_v89_indexed_share_core_context_repair/artifacts/V89_COMPLETE_WORD_CONFIDENCE.tsv",
+      "role": "primary 1582-surface 1586-reading V89 default meaning confidence and evidence dictionary",
+      "sha256": "157153f5c68aece443a3336eb9fb28ba7269b3e507e5ba7999eb665d97afdf1c"
+    }
+  ],
+  "question": "Can thirteen weak exact AR/AIR/AIIR whole readings share one predictable indexed-share composition while moving unsupported drug, preparation and patient identities out of portable cores and into only their admitted positions?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "v89_indexed_share_core_context_repair",
+  "status": "PASS_V89_13_INDEXED_SHARE_READINGS_REVISED__13_POSITIONS_8_PAGES__F_R_CREDIT_ONCE_EACH__71_WEAK_READINGS_REMAIN__ALL_H0_NONE",
+  "title": "V89 indexed-share core-context repair",
+  "updated": "2026-09-01",
+  "validation": {
+    "artifact": "experiments/yolo/gdt716_v89_indexed_share_core_context_repair/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

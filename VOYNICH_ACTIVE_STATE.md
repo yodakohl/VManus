@@ -18187,3 +18187,45 @@ The canonical lookup is
 The next lexical route ranks those 84 holds by repeated-family support and
 removable identity debt, then selects a compact core/context tranche. Local
 fluency or a plausible patient alone supplies zero confidence credit.
+
+## GDT716 advances the canonical dictionary to V89
+
+GDT716 applies one common indexed-share composition to thirteen weak whole
+readings at thirteen exact positions on eight already admitted pages. The
+written R ladder is retained only as a bound component: AR/AIR/AIIR selects
+`Anteil I/II/III`. O, CH, T, K, D, DY and QO retain their already licensed
+preparation frame, state, measure, endpoint or action inside each selected
+whole; none becomes a newly exported free word.
+
+The portable cores are `aiir = Anteil III`, `oar = Zubereitungsanteil I`,
+`oair = Zubereitungsanteil II`, `otar = kalter Zubereitungsanteil I`, `otarar
+= kalter Unteranteil I von Zubereitungsanteil I`, `otardy = fertiger kalter
+Zubereitungsanteil I`, `qodar = Anteil I abmessen`, `qokaiir = heißen Anteil
+III nehmen`, `char = trockener Anteil I`, `chair = trockener Anteil II`,
+`chdar = abgemessener trockener Anteil I`, `kard = erhitzter Anteil I,
+abgezogen` and `qochar = trockenen Anteil I nehmen`. Generic `Droge` and
+`Ansatz` heads are removed. Concrete wood, herb, portion or preparation
+patients occur only in the named local realization; for example P408 reads
+`den vorstehenden heißen Holzanteil I abmessen`, while Holz is not part of
+`qodar`. The nominal P055 realization is the state phrase `vorstehend
+abgemessener, erhitzter und abgezogener Anteil I`, not a new command chain.
+
+Twenty-nine exact primary-row bindings replay the selected GDT693 and GDT694
+rules, positions and three verb licenses. Exactly one binding per target
+carries `F_R +8`; the recursive two-R form `otarar` is still credited only
+once, and no deleted noun or fluent sentence receives points. All thirteen
+readings remain W1. The 311 non-target lexical rows, 466 non-target contexts,
+two bound spans and eight f7r.2 output units retain parity.
+
+The canonical V89 deck remains 324 active readings at 479 positions with 7
+W0, 135 W1, 163 W2 and 19 W3. The complete table remains 1,582 surfaces and
+1,586 readings; every row has a nonempty default meaning, numeric confidence,
+matching level, positive evidence, counterevidence and `H0_NONE`. The
+independent validator passes 87,367 checks. Seventy-one weak readings remain.
+The canonical lookup is
+`experiments/yolo/gdt716_v89_indexed_share_core_context_repair/artifacts/V89_COMPLETE_WORD_CONFIDENCE.tsv`.
+
+The next lexical route starts with the 32 preparation-head candidates in the
+remaining queue and ranks repeated exact family support against removable
+identity debt. It may keep exploratory local referents, but fluent prose alone
+supplies no confidence credit; no new page or sealed material is required.
