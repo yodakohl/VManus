@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **715**
-- Experiment-associated tracked files: **12,188** (1.2 GiB)
-- Structured GDT337+ experiments: **380**
+- Experiments indexed: **716**
+- Experiment-associated tracked files: **12,209** (1.2 GiB)
+- Structured GDT337+ experiments: **381**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT718 | GDT718_v91_three_result_whole_core_context_repair | `PASS_V91_3_WORKFLOW_WHOLES_REVISED__SHARED_WITHDRAWAL_FAMILY_REJECTED__3_POSITIONS_3_PAGES__61_WEAK_READINGS_REMAIN__NO_SCORE_CREDIT__ALL_H0_NONE` | [report](../experiments/yolo/gdt718_v91_three_result_whole_core_context_repair/REPORT.md) | 21 | 2.1 MiB | 5 | STRUCTURED_YOLO |
 | GDT717 | GDT717_v90_quality_stage_core_context_repair | `PASS_V90_7_QUALITY_STAGE_READINGS_REVISED__5_GRID_PLUS_2_SISTER_WHOLES__7_POSITIONS_7_PAGES__64_WEAK_READINGS_REMAIN__F7R2_RERENDERED__ALL_H0_NONE` | [report](../experiments/yolo/gdt717_v90_quality_stage_core_context_repair/REPORT.md) | 21 | 2.1 MiB | 5 | STRUCTURED_YOLO |
 | GDT716 | GDT716_v89_indexed_share_core_context_repair | `PASS_V89_13_INDEXED_SHARE_READINGS_REVISED__13_POSITIONS_8_PAGES__F_R_CREDIT_ONCE_EACH__71_WEAK_READINGS_REMAIN__ALL_H0_NONE` | [report](../experiments/yolo/gdt716_v89_indexed_share_core_context_repair/REPORT.md) | 21 | 2.1 MiB | 4 | STRUCTURED_YOLO |
 | GDT715 | GDT715_v88_axis_action_patient_core_context_repair | `PASS_V88_7_AXIS_ACTION_READINGS_REVISED__2_VALUE_CORES_5_ACTION_CORES__7_TARGET_POSITIONS_7_PAGES__84_WEAK_READINGS_REMAIN__F7R2_RERENDERED__ALL_H0_NONE` | [report](../experiments/yolo/gdt715_v88_axis_action_patient_core_context_repair/REPORT.md) | 21 | 2.1 MiB | 13 | STRUCTURED_YOLO |

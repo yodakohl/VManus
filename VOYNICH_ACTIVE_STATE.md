@@ -18268,3 +18268,42 @@ The next pass keeps the queue partitioned into small families. The first
 candidate is the exact workflow/withdrawal island around `oteed`, `keeod` and
 `kchod`; action-patient, material-identity and unrelated preparation-noun
 forms stay separate until their own repeated composition supports them.
+
+## GDT718 advances the canonical dictionary to V91
+
+GDT718 tests that proposed workflow island and rejects the common-family part
+of it. `oteed`, `keeod` and `kchod` are three learned nominal result wholes;
+there is no licensed written unit shared by all three for `Auszug` or
+`abziehen`. The portable cores therefore become `oteed = vollständig
+abgekühlt; abgezogen`, `keeod = vollständig erhitzt; abgezogen` and `kchod =
+heiß-trocken; abgeschlossen`. The first two retain their repeated GDT679
+whole-result default, not a free `d` or `eed` reading. The third returns to its
+smaller GDT679 hot-dry closed-result core.
+
+The concrete GDT691 occurrence renderings remain visible: `vollständig
+abgekühlter und abgezogener Auszug`, `vollständig erhitzter und abgezogener
+Auszug`, and `heißer Auszug aus Trockengut, abgezogen und abgeschlossen`.
+`Auszug`, `Trockengut`, any patient and any extraction mechanism are local
+hypotheses, not portable word content. All three rows remain nominal,
+not-action-licensed and component-nonexporting.
+
+Thirty-five exact primary bindings cover the V90 source rows, three GDT679
+card specifications, all eleven of their exact GDT679 occurrences, the three
+GDT684 debt controls, the three GDT691 rules and positions, and the three
+GDT692 workflow-island controls. Every binding resolves uniquely and its
+assertions and row fingerprint replay. Because this pass removes over-specific
+heads but adds no new common family, all score deltas are zero and all three
+readings remain 30/W1.
+
+All 321 non-target lexical rows and 476 non-target contexts preserve parity.
+The complete dictionary remains 1,582 surfaces/1,586 readings with a nonempty
+default, score, confidence level, evidence, counterevidence and `H0_NONE` on
+every row. Both inherited spans and the eight f7r.2 units are byte-identical.
+The independent validator passes 78,935 checks. Sixty-one weak readings remain.
+The canonical lookup is
+`experiments/yolo/gdt718_v91_three_result_whole_core_context_repair/artifacts/V91_COMPLETE_WORD_CONFIDENCE.tsv`.
+
+The next bounded candidate is the dry-result triplet `kchody`, `ochdy` and
+`oechedy`. They may share whole-result behavior, but their distinct formal-DY
+statuses and decompositions must remain visible; no free DY or product head is
+licensed by grouping them.
