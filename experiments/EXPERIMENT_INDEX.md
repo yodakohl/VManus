@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **707**
-- Experiment-associated tracked files: **12,033** (1.2 GiB)
-- Structured GDT337+ experiments: **372**
+- Experiments indexed: **708**
+- Experiment-associated tracked files: **12,051** (1.2 GiB)
+- Structured GDT337+ experiments: **373**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT710 | GDT710_v83_complete_dictionary_confidence_evidence | `PASS_V83_2115_MASTER_CARDS__1430_GLOBAL_SURFACES__1582_COMPLETE_WORD_SURFACES_1594_READINGS__320_LIVE_SURFACES_332_LIVE_READINGS_479_OCCURRENCES__ALL_H0_NONE__CONFIDENCE_IS_NOT_PLAINTEXT` | [report](../experiments/yolo/gdt710_v83_complete_dictionary_confidence_evidence/REPORT.md) | 18 | 6.9 MiB | 70 | STRUCTURED_YOLO |
 | GDT709 | GDT709_v82_complete_first_terminal_product_census | `PASS_V82_42_WINDOWS_203_ITEMS__25_LEXICAL_FIRST_TERMINALS_22_OPERATOR_TERMINALS_9_EXPLORATORY_ENDPOINTS__0_NEW_EDGES__A048_HIGH_HOLD_ZERO_WORD_DELTA` | [report](../experiments/yolo/gdt709_v82_complete_first_terminal_product_census/REPORT.md) | 18 | 207.7 KiB | 2 | STRUCTURED_YOLO |
 | GDT708 | GDT708_v81_variable_batch_terminal_product | `PASS_V81_9_VARIABLE_BUNDLES__1_NEW_C021_8_LIVE_HOLDS__20_EDGES_14_COMPONENTS__ZERO_WORD_DELTA` | [report](../experiments/yolo/gdt708_v81_variable_batch_terminal_product/REPORT.md) | 24 | 1.8 MiB | 2 | STRUCTURED_YOLO |
 | GDT707 | GDT707_v80_three_item_material_state_result_bundle | `PASS_V80_119_TRIPLES__32_ACTION_ADJACENT_BUNDLES__1_NEW_C020_4_HOLDS_27_STOPS__9_DCHEY_CONTEXTS__19_EDGES_13_COMPONENTS__ZERO_WORD_DELTA` | [report](../experiments/yolo/gdt707_v80_three_item_material_state_result_bundle/REPORT.md) | 26 | 1.7 MiB | 3 | STRUCTURED_YOLO |

@@ -18013,3 +18013,50 @@ validator passes 3,840 checks; there is zero edge, word, page, f84 or f84r
 delta.  Next apply one deterministic preterminal-reset gate to all 25 broad
 first hits, with C021 as positive anchor, inherited C019 as the carrier-bundle
 special case and A048 as the named negative/high-hold anchor.
+
+## GDT710 assigns confidence and evidence to the complete dictionary
+
+GDT710 separates three objects that the earlier shorthand had blurred.  The
+V48 master dictionary has 2,115 entries, but they are heterogeneous cards, not
+2,115 words; 563 are practical renderer cards.  The V48 exact surface glossary
+has 1,430 unique forms.  The current V68 reader has 479 positions, 320 unique
+surfaces and 332 `surface × gloss` readings.  Overlaying every active V68 sense
+on the older global defaults yields the canonical sidequest word table with
+1,582 surfaces and 1,594 current readings.
+
+Every reading now carries separate form confidence, working-semantic
+confidence, positive evidence, counterevidence and historical status.  F0–F3
+describe only form/segmentation.  The W score is a transparent 0–100 audit
+index over attestation, invariance, rule path, provenance, specificity/scope
+and stress/survival; it is explicitly not a probability.  No prospective
+plaintext test exists, so every score is capped at 79.  Historical confirmation
+is `H0_NONE` for all 1,594 word readings and all 2,115 master cards.
+
+The positions are replayed without mismatch through GDT684–GDT695.  Final
+semantic-writer counts are GDT684 201, GDT685 8, GDT686 8, GDT687 32, GDT689
+36, GDT690 64, GDT691 50, GDT692 1, GDT693 57 and GDT694 22.  For the 201 V57
+survivors, V50–V57 is also replayed so assignment writer and semantic card
+origin remain separate.  Reused cards therefore do not gain false independent
+support.  Only 127/479 active positions exactly match both V48 surface and
+gloss; 152 share a surface but have a superseded older gloss and 200 have no
+V48 exact surface card.  The three bound spans B001–B003 are marked at six
+positions and cannot export their combined reading as two lexemes.
+
+The active 332 readings divide into 16 W0, 165 W1, 132 W2 and 19 W3.  Polysemy
+is never averaged: `daiin` has seven senses, `dain` three, and `dchey`, `dy`,
+`ol`, `y` two each.  The abstract global `daiin/dain` value cells outrank every
+local Grad/Menge choice.  `dchey` has separate W3 action and result readings
+only inside the named dispatch.  `olkar` remains W1 despite frequency;
+`dy/y` are semantically W0 even where their structural rendering is stable;
+LOW identity singletons such as `shx` and `oidal` remain W0.  GDT696–GDT709
+are `ZERO_WORD_DELTA` and contribute exactly zero confidence points, including
+C019, C021 and A048.
+
+The independent validator performs 72,617 checks over all populations, source
+parity, global token counts, last-writer replay, score bounds, hard reality
+controls, bound spans and H0/zero-relation ceilings.  The lexical route now
+uses `V83_COMPLETE_WORD_CONFIDENCE.tsv` as its canonical lookup and first
+targets the 16 W0 plus 165 W1 active readings by evidence/family payoff.  The
+preterminal-reset gate remains paused rather than rejected.  No page, word
+meaning, relation edge, f84 or f84r was opened or silently promoted by this
+audit.

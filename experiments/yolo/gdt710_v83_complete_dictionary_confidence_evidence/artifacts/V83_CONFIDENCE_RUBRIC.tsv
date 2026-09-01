@@ -1,0 +1,21 @@
+dimension	rule_id	condition	points_or_cap	meaning
+FORM	F0	kein exaktes ZL3b-Vorkommen	label only	keine Formattestation
+FORM	F1	ambig oder reader-unstabil	label only	schwache Segmentierung
+FORM	F2	kontextlizenziert oder Reader-Variante	label only	lokal lesbare Form
+FORM	F3	exakte aktive oder globale ZL3b-Oberflaeche	label only	Form sicherer als Semantik
+WORKING	A	Vorkommen 1/2/3-4/5-8/9+ und Seiten 1/2/3-4/5-8/9+	0-20	Attestation
+WORKING	I	Singleton bis vollstaendig invariante Zuordnung	0-10	Invarianz der benannten Lesart
+WORKING	R	kein Pfad bis produktives Raster	0-25 (aktuell max 20)	Regel-/Kompositionspfad
+WORKING	P	unexportiert/LOW/exakte Karte/exakte Ordinalprovenienz	0-15	Provenienz
+WORKING	S	strukturell bis lokal voll gebunden	0-15	Spezifitaet und Scope
+WORKING	T	in-sample bis fokussierter Rival-/Kontrollaudit	0-15	Stress und Survival
+CAP	LOW	nur LOW/EXPL ohne spaeteren Semantikaudit	-12/-18; max W1	Fluessigere Prosa hebt schwache Quelle nicht auf
+CAP	DEBT	aktuelle GDT684 CRITICAL/MAJOR-Schuld	-20/-10	nur wenn dieselbe aktuelle Glosse betroffen ist
+CAP	RIVAL	lebender unaufgeloester Rivale	-10; max W2	Rivale bleibt im Apparatus
+CAP	REL	GDT696-GDT709 Relationskanten	+0	alle sind ZERO_WORD_DELTA
+LEVEL	W0	0-19	placeholder	semantisch leer oder nur strukturell
+LEVEL	W1	20-39	weak	schwache Arbeitshypothese
+LEVEL	W2	40-59	provisional	provisorische Arbeitshypothese
+LEVEL	W3	60-79	solid	solide innerhalb der Arbeitstheorie
+LEVEL	W4	80-100	strong	derzeit durch fehlenden Prospektivtest gedeckelt; keine Entzifferung
+HISTORICAL	H0	keine unabhaengige Voynich-Klartext-Zuordnung	alle Eintraege	historisch unbestaetigt
