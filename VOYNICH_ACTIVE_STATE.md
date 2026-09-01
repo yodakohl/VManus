@@ -18113,3 +18113,45 @@ cells, then the 18 unrepaired state/carrier cells.  Keep the core/context split
 and require a named deleted debt or an explicit common family intersection;
 do not award points for repetition, fluent generality, an old exact card or a
 relation edge.  The preterminal-reset route remains paused rather than closed.
+
+## GDT712–GDT714 advance the canonical dictionary to V87
+
+GDT712 repairs 30 of the next 33 AL/state readings and keeps three already
+minimal wholes. `AL` is reduced to `Material I`; state cards retain only their
+hot/cold/dry/wet, stage and value fields. The local GDT683 `cheop ol` sequence
+becomes one nonexportable LEFT/RIGHT span. GDT713 then audits the actual
+remaining three measure plus six CKH/CPH readings: the learned head is bound
+`Mischung`, not `Arznei`; `oram = Maßportion`; `otam` separates the core `kalt;
+Maß I` from its concrete local Ansatz realization; `dol = Materialmaß` remains
+minimal.
+
+GDT714 revises all eighteen held bound-C1 cores. Drug, medicine, dose, charge
+and unsupported S-form identities are removed while state, stage,
+measure/value, portion and preparation composition is retained. Representative V87 cores are
+`chedaiin = abgemessene Trockenmenge III, Mittelstufe`, `dshey = abgemessene
+Feuchtmenge, Mittelstufe`, `kor = heiße Portion`, `okees = heiße
+Zubereitung, Endstufe`, `oteor = kalte Portion, Mittelstufe` and `oty =
+kalte Zubereitung, Anfangsstufe`. The exploratory `dshees = abgemessene
+feuchte Form, Endstufe` receives no score gain because its internal split remains
+open; `cholkain`, `kc`, `keo`, `oteor` and `oty` are likewise cleaned without
+promotion. `os = Zubereitung` receives only the bound F_O bonus of three and
+remains W0. Every target now joins an exact primary TSV row for source
+decomposition, support counts and reader class; score deltas are derived from
+named GDT711 family bonuses.
+
+The earlier GDT678 f7r.2 decision is now executable: P288 `keo` plus P289 `r`
+renders once as `heiße Portion`. Two consumer directives consume both source
+contexts; the actual locus output has eight units and contains neither the
+standalone keo realization nor Wurzel. This is an occurrence-local,
+zero-export span. The global working card
+`r = Wurzel` is retained for its broader GDT661 evidence, and `keo` retains its
+standalone `heiße Zubereitung, Mittelstufe` reading outside named joins.
+
+The canonical V87 deck remains 324 lexical readings at 479 positions and
+1,582 complete surfaces/1,586 readings. Its active levels are 7 W0, 135 W1,
+163 W2 and the unchanged 19 W3; 91 individually unaudited weak readings
+remain. All historical fields stay `H0_NONE`. The canonical lookup is
+`experiments/yolo/gdt714_v87_bound_c1_core_context_repair/artifacts/V87_COMPLETE_WORD_CONFIDENCE.tsv`.
+Next audit the two abstract-axis and five open-patient action cores against the
+existing GDT686/GDT682 lineage without reopening their closed universal-axis
+or action-result claims.
