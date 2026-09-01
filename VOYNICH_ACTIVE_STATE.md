@@ -18155,3 +18155,35 @@ remain. All historical fields stay `H0_NONE`. The canonical lookup is
 Next audit the two abstract-axis and five open-patient action cores against the
 existing GDT686/GDT682 lineage without reopening their closed universal-axis
 or action-result claims.
+
+## GDT715 advances the canonical dictionary to V88
+
+GDT715 separates the final two abstract-axis holds and five open-patient action
+holds at seven exact positions on seven already admitted pages. `aiiin` now has
+the portable core `Wert IV` and the P052 realization `Menge IV`; `ydaiin` has
+`Bezugswert III` and the P006 realization `davon: Wert III`. Each receives
+exactly one `F_N +3`; `F_REF` remains a zero-point scope family and `F_D` is not
+double-counted.
+
+The five portable action cores are `dold = abmessen und abschließen`,
+`qckhedy = bis zur Mittelstufe fertig aufbereiten`, `qey = anschließend
+nehmen`, `qochedain = Trockenwert II auf Mittelstufe abmessen`, and `yky =
+leicht erhitzen`. Their concrete patients live only in the named occurrence
+contexts. In f7r.2, for example, the actual output is `Blüte · diese Blüte
+abmessen und abschließen`; `Blüte` does not become part of `dold`. None of the
+five action rewrites receives score credit.
+
+Nineteen exact primary-row bindings cover the seven decisions. All 317
+non-target lexical rows and 472 non-target contexts retain fieldwise parity;
+both inherited bound spans remain exact. The f7r.2 one-shot consumer is rebuilt
+from V88 and still turns nine source positions into eight output units. The
+complete dictionary retains 1,582 surfaces/1,586 readings, each with score,
+level, positive evidence and counterevidence. Active levels remain 7 W0, 135
+W1, 163 W2 and 19 W3; 84 individually unaudited weak readings remain. The
+validator passes 54,835 checks and all historical fields remain `H0_NONE`.
+The canonical lookup is
+`experiments/yolo/gdt715_v88_axis_action_patient_core_context_repair/artifacts/V88_COMPLETE_WORD_CONFIDENCE.tsv`.
+
+The next lexical route ranks those 84 holds by repeated-family support and
+removable identity debt, then selects a compact core/context tranche. Local
+fluency or a plausible patient alone supplies zero confidence credit.

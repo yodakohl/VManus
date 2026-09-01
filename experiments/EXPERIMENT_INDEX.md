@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **712**
-- Experiment-associated tracked files: **12,125** (1.2 GiB)
-- Structured GDT337+ experiments: **377**
+- Experiments indexed: **713**
+- Experiment-associated tracked files: **12,146** (1.2 GiB)
+- Structured GDT337+ experiments: **378**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT715 | GDT715_v88_axis_action_patient_core_context_repair | `PASS_V88_7_AXIS_ACTION_READINGS_REVISED__2_VALUE_CORES_5_ACTION_CORES__7_TARGET_POSITIONS_7_PAGES__84_WEAK_READINGS_REMAIN__F7R2_RERENDERED__ALL_H0_NONE` | [report](../experiments/yolo/gdt715_v88_axis_action_patient_core_context_repair/REPORT.md) | 21 | 2.1 MiB | 13 | STRUCTURED_YOLO |
 | GDT714 | GDT714_v87_bound_c1_core_context_repair | `PASS_V87_18_BOUND_C1_READINGS_REVISED__18_TARGET_POSITIONS_12_PAGES__1_KEO_R_ONE_SHOT_SPAN__7_W0_135_W1_163_W2_19_W3__91_WEAK_READINGS_REMAIN__ALL_H0_NONE` | [report](../experiments/yolo/gdt714_v87_bound_c1_core_context_repair/REPORT.md) | 23 | 2.1 MiB | 14 | STRUCTURED_YOLO |
 | GDT713 | GDT713_v86_measure_ckh_core_context_repair | `PASS_V86_9_MEASURE_CKH_READINGS_AUDITED__8_REVISED_1_HELD__10_POSITIONS_7_PAGES__7_W0_143_W1_155_W2_19_W3__109_WEAK_READINGS_REMAIN__ALL_H0_NONE` | [report](../experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/REPORT.md) | 17 | 2.0 MiB | 8 | STRUCTURED_YOLO |
 | GDT712 | GDT712_v85_al_state_core_context_repair | `PASS_V85_33_AL_STATE_READINGS_AUDITED__30_REVISED_3_HELD__38_POSITIONS_23_PAGES__8_W0_149_W1_148_W2_19_W3__CHEOP_OL_LEFT_RIGHT_BOUND__ALL_H0_NONE` | [report](../experiments/yolo/gdt712_v85_al_state_core_context_repair/REPORT.md) | 17 | 2.1 MiB | 6 | STRUCTURED_YOLO |
