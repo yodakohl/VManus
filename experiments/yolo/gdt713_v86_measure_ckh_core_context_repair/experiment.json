@@ -1,0 +1,186 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The complete dictionary and 479-position table retain every reading, score, evidence field, local realization and export boundary so the nine-row repair cannot silently alter inherited entries.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exploratory working-dictionary repair only. V86 audits nine exact whole-form readings and separates compact cores from local German. CKH/CPH, state, stage and measure components remain family-bound and nonexportable; scores are non-probabilistic evidence indices. Every historical status is H0_NONE and GDT713 supplies zero relation word credit. No plaintext, language, historical lexicon, free morpheme, new page, image, transcription, f84 or f84r is asserted.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/src/run.py",
+    "validate": "python3 experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/src/validate.py"
+  },
+  "created": "2026-09-01",
+  "dependencies": [
+    "GDT638",
+    "GDT651",
+    "GDT652",
+    "GDT658",
+    "GDT670",
+    "GDT681",
+    "GDT711",
+    "GDT712"
+  ],
+  "experiment_id": "GDT713",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/artifacts/V85_324_ACTIVE_LEXICAL_READINGS.tsv",
+      "role": "canonical V85 active lexical cores and confidence evidence",
+      "sha256": "557f2e93943b884e5c2b89d387632d7d9a1c4da65fa87e0f1f25a9833c249044"
+    },
+    {
+      "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/artifacts/V85_479_CONTEXT_REALIZATIONS.tsv",
+      "role": "canonical V85 479-position context and bound-span table",
+      "sha256": "acdc7c60862a151efc7942ebfff9b1f3c10704ecf7e149ac0f3e004a5ac5947e"
+    },
+    {
+      "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/artifacts/V85_COMPLETE_WORD_CONFIDENCE.tsv",
+      "role": "canonical V85 complete dictionary",
+      "sha256": "266a3b901a8acc16b14b152b689739ab7f29acea910cc9b4b85ce66df6554ee5"
+    },
+    {
+      "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/artifacts/V85_151_HELD_READING_AUDIT.tsv",
+      "role": "V85 weak-reading queue and prior dispositions",
+      "sha256": "f3fc48fce1265ef99ce30229b85c8360a7f8c995825aa9e8591c48195ba194e8"
+    },
+    {
+      "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/artifacts/V85_1_BOUND_SPAN_RENDERER.tsv",
+      "role": "inherited exact one-shot bound-span renderer",
+      "sha256": "95add9c81b6b2f77b2c30cee702292995a9b4f1b983811a7ac6fe4916804c080"
+    },
+    {
+      "path": "experiments/yolo/gdt711_v84_active_weak_family_repair/artifacts/V84_13_STEM_FAMILY_EVIDENCE.tsv",
+      "role": "declared family values bonuses caps and counterevidence",
+      "sha256": "48b2312493cf7136ed0c2e45d4d63f16c0e0df8b8d168785d40104dd97b5f03d"
+    },
+    {
+      "path": "experiments/yolo/gdt638_sequential_compound_promotion/REPORT.md",
+      "role": "exact D plus OL Materialmass evidence",
+      "sha256": "42f43c0b2240fba658bddd6ecc6d5e7499cd2618458c71255fa8b9021ca2129b"
+    },
+    {
+      "path": "experiments/yolo/gdt651_ckh_four_shell_family_migration/REPORT.md",
+      "role": "CKH moisture and attribution family evidence",
+      "sha256": "d5a3c447ed292d9a5f3fca426df89280f23c66c41a6b12836444767055cc6660"
+    },
+    {
+      "path": "experiments/yolo/gdt652_strict_v28_frontier_completion/REPORT.md",
+      "role": "CKH stage and preparation-frame family evidence",
+      "sha256": "c5c991f33400c83136ce928286976829f7627af6031d80576aefb1c1df0a6ef9"
+    },
+    {
+      "path": "experiments/yolo/gdt658_four_residual_concrete_completion/REPORT.md",
+      "role": "O T AM cold-measure family evidence",
+      "sha256": "71dac0d8656909f655821a1ca3f0c6b8cb47e69d06388857d96ca465ba6a343c"
+    },
+    {
+      "path": "experiments/yolo/gdt670_twenty_eight_residual_family_completion/REPORT.md",
+      "role": "CPH Y nominal base-form evidence",
+      "sha256": "84b6727f1fa8918bc0511d28d92f63492a6de19d09eaab4789ce693716b71a6e"
+    },
+    {
+      "path": "experiments/yolo/gdt681_six_five_hole_family_completion/REPORT.md",
+      "role": "OR AM and CPH O CH Y exact-family evidence",
+      "sha256": "8a1f39314bd36593d8341a510cec3c6a2f37ed68a89b208c3570aefcf69bdda8"
+    },
+    {
+      "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/REPORT.md",
+      "role": "immediate V85 interpretation and corrected next-tranche source",
+      "sha256": "2e4caf2703707c57922316903b68fea67eb4e58e0f9678bc0e22859a0af9811e"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/README.md",
+      "role": "experiment entry point",
+      "sha256": "eadcc0e1fc8f0d09e91411137b55af27044cef5488641f38eccb0c9803652f6d"
+    },
+    {
+      "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/METHOD.md",
+      "role": "measure and CKH core-context repair method",
+      "sha256": "2a6c96a34d9b08724f99d244e8c3c5718dba2ccb8c5ee67148bf7d44cb347f92"
+    },
+    {
+      "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/REPORT.md",
+      "role": "primary result and interpretation",
+      "sha256": "1fd5ab1bb30ac01e5cb5bfbff1462e52ba631d4c493b5aa8c4365c5a6fe4b71d"
+    },
+    {
+      "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "c54c8e35ecb2f0240ae31edd22329c5e0fd2da8df03dfe6ad841020ccc5560cf"
+    },
+    {
+      "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/src/run.py",
+      "role": "deterministic V86 builder",
+      "sha256": "ae3a15e44379a3f1d3ce09a2193e4d5ddf61060f345d786555bc23a8961bc203"
+    },
+    {
+      "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/src/validate.py",
+      "role": "independent replay parity and semantic-boundary validator",
+      "sha256": "eabff88b94c42e50bb02a195fc048c4e2e09f1d65d20c5896d97a256f5a155cc"
+    },
+    {
+      "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/src/V86_9_AUDIT_SPECS.tsv",
+      "role": "nine explicit measure and CKH audit specifications",
+      "sha256": "74847fbf49b3f028382393c1349dc99be3d77f7251351df79feceec2a489b7a6"
+    },
+    {
+      "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/artifacts/RESULT.json",
+      "role": "compact result counts and distributions",
+      "sha256": "729e7b71eee9f77b770639f298041510e073427f7ee80d8bb07bf73d69b0c50e"
+    },
+    {
+      "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/artifacts/VALIDATION.json",
+      "role": "56513-check validation report with deterministic hashes",
+      "sha256": "881c636fdaf0ae86b800d59a115b8aedb450cd4a0670e48e599c8c32318da0dd"
+    },
+    {
+      "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/artifacts/V86_118_HELD_READING_AUDIT.tsv",
+      "role": "remaining held rows with V86 dispositions",
+      "sha256": "8fecc65374c50282992f6809c68fc7f96dededc7ab22e2c235008782b5825ad0"
+    },
+    {
+      "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/artifacts/V86_1_BOUND_SPAN_RENDERER.tsv",
+      "role": "byte-identical inherited one-shot bound-span renderer",
+      "sha256": "95add9c81b6b2f77b2c30cee702292995a9b4f1b983811a7ac6fe4916804c080"
+    },
+    {
+      "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/artifacts/V86_324_ACTIVE_LEXICAL_READINGS.tsv",
+      "role": "active lexical cores confidence evidence and export scopes",
+      "sha256": "86435e18dc9193d909c838b9fac14ae4b1bff16c0caf8afc4c295a53e6faae1e"
+    },
+    {
+      "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/artifacts/V86_479_CONTEXT_REALIZATIONS.tsv",
+      "role": "all occurrence realizations and exact bound-span metadata",
+      "sha256": "211875111bd2e2479ac09e7937cea3db1580f91fcd9ce204e3d568a7142f0a45"
+    },
+    {
+      "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/artifacts/V86_8_FAMILY_EVIDENCE.tsv",
+      "role": "eight used family rules with target census",
+      "sha256": "240df1ef6aa48c4c48417b4e3642efd7b8405e1544a0fd8dedeb679372d212bf"
+    },
+    {
+      "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/artifacts/V86_9_MEASURE_CKH_CORE_CONTEXT_DELTA.tsv",
+      "role": "compact nine-reading decisions and evidence",
+      "sha256": "34ac22d8709e49796a59817271b40493a0b201610a3b346603c103f0ece5fbc9"
+    },
+    {
+      "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/artifacts/V86_COMPLETE_WORD_CONFIDENCE.tsv",
+      "role": "primary 1582-surface 1586-reading V86 dictionary",
+      "sha256": "eba2802c97a00e7429fb27e86761bbe9c257741548bc7833760f57f49d746093"
+    }
+  ],
+  "question": "Can the actual remaining three measure-family and six CKH/CPH-family weak readings receive smaller predictive lexical cores and practical local realizations without exporting bound fields as free words or changing the admitted position universe?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "v86_measure_ckh_core_context_repair",
+  "status": "PASS_V86_9_MEASURE_CKH_READINGS_AUDITED__8_REVISED_1_HELD__10_POSITIONS_7_PAGES__7_W0_143_W1_155_W2_19_W3__109_WEAK_READINGS_REMAIN__ALL_H0_NONE",
+  "title": "GDT713_v86_measure_ckh_core_context_repair",
+  "updated": "2026-09-01",
+  "validation": {
+    "artifact": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}
