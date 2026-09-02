@@ -19363,9 +19363,33 @@ forms retain their conflicts visibly. The validator passes 5,318 checks and
 byte replay. Primary report:
 `experiments/yolo/gdt745_exact_open_content_role_expansion/REPORT.md`.
 
-The next route compares GDT745's 17 strongest candidates against their agreeing
-distance-one neighbors in actual occurrence distributions: section, line
-position, left/right complete-whole context and closure proximity. This tests
-whether, for example, `cheeey` occupies the same paradigm position as
-`cheey/cheedy`, without exporting any EVA substring value. No new page is
-required.
+## GDT746 shows that part of the whole-form analogy is distributional
+
+GDT746 follows GDT745's 17 A3 candidates and 52 distance-one relations through
+1,523 cached occurrences of 63 complete surfaces on 172 already allowed pages;
+1,228 occurrences are exact across all three alternate readings. Each selected
+pair is compared by section, line position, immediate known-whole axes, exact
+left/right surfaces and nearest-close proximity, then ranked against the same
+46 known whole distributions. A second rank removes section entirely.
+
+Fifteen pairs are distribution-reinforced, ten compatible, 19 ordinary/mixed
+and eight sparse; no pair reaches the explicit mismatch tier. Four candidates
+have multiple reinforced neighbors (`alom`, `chtar`, `dsheedy`, `ykeeey`) and
+eight more have at least one supported comparison. Direct edit neighbors occupy
+16 of 85 top-five distribution slots, against 5.65 from their deck share, and
+14/17 candidates share at least one form/top-five axis. This is a 2.83-fold
+descriptive enrichment, not a probability or lexeme claim.
+
+The independent distribution narrows the useful core to MATERIAL for `alom`,
+DRY for several `ch/che/qoch` candidates, PREPARATION plus END for `okeeody`,
+END for `dsheedy/sheeol/ykeeey`, and HOT plus END for `ykeeody`. Direct families
+retain additional replaceable details, but exact flank-word overlap has median
+zero and cannot be called phrase identity. `adchey`, `cheear` and `otalsy` stay
+singleton-bound; `oteeol` and `oteeos` receive no distribution bonus. The
+validator passes 18,725 checks and byte replay. Primary report:
+`experiments/yolo/gdt746_whole_analogy_distribution_test/REPORT.md`.
+
+The next route locates cached passages containing multiple supported candidates
+and renders only the intersection of complete-whole form and distribution axes.
+It must measure whether concrete information rises without generic filler and
+must not reuse GDT637/645's component compositions. No new page is required.

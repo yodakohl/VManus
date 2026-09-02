@@ -221,7 +221,7 @@ export. GDT737 passes 200 checks and byte-identical replay.
 
 Primary report: `experiments/yolo/gdt737_held_body_record_role_transfer/REPORT.md`.
 
-## GDT738–GDT745 occurrence-gated whole, attachment and field renderer
+## GDT738–GDT746 occurrence-gated whole, attachment and field renderer
 
 GDT738 licenses twelve wholes at 202 positions. GDT739 keeps only radius one/two active: 43 quality, 15 amount,
 five process and 109 open scalar positions; 22 state/eight result, 73 carriers
@@ -247,6 +247,8 @@ W3-only retains 69/80 templates and 67 same channels; 42 open content cells yiel
 Report: `experiments/yolo/gdt744_historical_microfield_channel_bridge/REPORT.md`.
 
 GDT745 finds 136 cached occurrences of those 41 exact wholes on 53 pages; all 136 centered contexts stay OPEN, and `qochey` proves that field role cannot be inherited as word role. Clean complete-whole edit analogies give 34/41 multiwhole axis consensuses, including 17 with multiple agreeing distance-one neighbors, and 41 replaceable defaults with counterevidence. These are mixed quality/state, material/preparation, quantity/part and process/result families—not literal identities or component values. Report: `experiments/yolo/gdt745_exact_open_content_role_expansion/REPORT.md`.
+
+GDT746 compares the 17 strongest candidates and 52 direct whole neighbors over 1,523 cached occurrences: 15 pairs reinforce and ten are compatible after section-removed local controls; four candidates have multiple reinforced neighbors. Direct form neighbors occupy 16/85 top-five distribution slots versus 5.65 from deck share, and 14/17 candidates share at least one form/distribution axis. Exact phrase flanks remain sparse, so these are whole-role families, not decoded words. Report: `experiments/yolo/gdt746_whole_analogy_distribution_test/REPORT.md`.
 
 ## What remains usable from older work
 
@@ -288,9 +290,9 @@ Do not rerun without genuinely new data or a different falsifier:
 Closure memory: `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv`.
 Run `./vmanus-exp route-check QUERY`, then inspect returned primary reports and closed rows.
 
-## Next useful route: test the strongest whole analogies in distribution
+## Next useful route: apply the intersected whole axes to complete passages
 
-Compare GDT745's 17 strongest candidates with their agreeing distance-one whole neighbors by section, line position, left/right whole context and closure proximity. Promote only relationships that share real distributions; preserve whole identity, export no EVA substring value and add no page, image or transcript.
+Find already cached passages containing multiple GDT746-supported wholes, render only the intersection of form-family and top-five distribution axes, and test whether concrete paragraph information rises without generic filler. This is distinct from GDT637/645's retired component closure: keep wholes opaque, preserve every rival, and add no page, image or transcript.
 
 ## Primary routing references
 
