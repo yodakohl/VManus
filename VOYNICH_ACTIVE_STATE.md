@@ -19939,8 +19939,64 @@ rival without graphic credit. One of thirteen `ychor` lines changes. GDT759
 passes 805 checks and byte-identical replay. Primary report:
 `experiments/yolo/gdt759_quantity_part_state_construction_atlas/REPORT.md`.
 
-The next route takes the exact amount expressions as right-hand anchors and
-follows their recurrent immediate left wholes. It seeks stable ingredient or
-preparation slots that can choose among water, wine, oil, salt, powder and
-plant-part candidates without using EVA initials or silently importing the old
-source-composed prose.
+The next route takes the exact amount expressions as bilateral anchors and
+tests immediate content attachment by line position rather than assuming that
+the ingredient always stands on the left.
+
+## GDT760 makes 44 concrete amount/content phrases and conditions fused s
+
+GDT760 combines the 96 separated GDT759 amount spans with every reader-exact
+fusion of the same three heads and four values. The resulting 281 expressions
+contain 185 fused and 96 separated forms on 98 already cached pages. Their
+positions are 87 line-first, 169 internal and 25 line-final. No new page, image
+or transcription is opened.
+
+After all 172 GDT754 source-composed surfaces are removed as semantic anchors,
+the immediate neighbors contain 45 clean MATERIAL/PREPARATION contacts at 44
+expressions and 35 complete surfaces. The planned universal left ingredient
+slot fails: among eligible exact neighbors, content occurs at 20/163 left
+positions and 25/204 right positions. The useful rule is position-conditioned.
+Line-first amounts have 14/72 right content contacts; internal amounts have
+19/140 left versus 11/132 right contacts; final amounts have only 1/23 left.
+The renderer therefore looks right after an initial amount, left first around
+an internal amount, and assigns no automatic content at a final amount.
+
+Forty-four expression loci now receive an occurrence-scoped candidate phrase.
+Examples include `cthy or aiin=drei Portionen Blattgut`, `sheo
+oraiin=drei Portionen Feuchtzubereitung`, `oraiin sheor=drei Portionen eines
+feuchten Drogenteils`, `sain sheor=zwei Drachmen eines feuchten Drogenteils`,
+`saiin cheeol=drei Drachmen vollständig getrockneten Drogenstoffs` and `saiin
+choky=drei Drachmen einer heiß-trockenen Zubereitung`. At f43v.12 the amount is
+between two preparation candidates, so attachment remains bilateral and open.
+
+The strongest new whole-form content relation is `cheor/sheor`. Each has three
+exact amount contacts on three pages; globally the wholes have 56 and 31
+reader-exact cached occurrences and retain dry versus moist MATERIAL/PART
+readings. Together they produce six amount-bearing drug-part phrases under
+`s`, `or` and `ar`. The parallel preparation pair `cheo/sheo` produces three
+dry/moist preparation phrases. No differing character is exported as a value.
+
+The requested identity deck keeps the semantic competition explicit. Water
+and wine touch exactly the same six moist-family amount positions and cannot be
+separated. `ols` has no direct content contact in this 281-expression deck,
+though its three GDT759 value spans preserve oil as a rival. `solaiin/sols`
+have zero contacts and their salt readings remain retired. Six dry-content
+contacts are powder-compatible but do not name powder. `cthy` occurs once
+directly before `or aiin`, preserving the GDT758 C2 working lead `Blattgut` and
+adding the exact phrase `drei Portionen Blattgut`; root gains no new support.
+
+GDT760 also corrects the scope of GDT759's fused s overlay without discarding
+the Drachm hypothesis. The 145 exact fused `san/sain/saiin/saiiin` forms are
+line-first 76 times, whereas none of the 25 separated `s + value` spans is
+line-first. In eleven paragraphs with repeated initial fused s forms, fifteen
+transitions comprise ten equal, two decreasing and only three increasing
+values, rejecting a simple running second/third/fourth-entry interpretation.
+Drachms remain the concrete contextual lead, but no longer speak as an
+unconditional exact-whole value at all 145 fused positions. Twenty-two fused
+positions with clean content contacts retain full amount/content phrases; the
+other 123 expose amount-form, value and unit rivals.
+
+GDT760 passes 1,720 checks and byte-identical replay. Primary report:
+`experiments/yolo/gdt760_quantity_bilateral_content_attachment/REPORT.md`.
+Next, expand `cheor/sheor` and `cheo/sheo` outward across their already cached
+occurrences to seek a learned plant-part or solvent whole without new pages.
