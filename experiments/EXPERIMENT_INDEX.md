@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **754**
-- Experiment-associated tracked files: **13,037** (1.3 GiB)
-- Structured GDT337+ experiments: **419**
+- Experiments indexed: **755**
+- Experiment-associated tracked files: **13,055** (1.3 GiB)
+- Structured GDT337+ experiments: **420**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT757 | GDT757_initial_formula_role_atlas | `PARTIAL__11_COMPLETE_FORMULA_WHOLES__79_INITIAL_LINES__PCHOR_RECIPE_OPEN_6_OF7_PARAGRAPH_START__YCHOR_ITEM_0_OF13_START__YCHEOL_YCHOL_DCHEOL_YCHEOR_FAMILY_1_OF26_START_9_OF26_END__4_LOW_PURITY_CONTROLS_NOT_PROMOTED__ZERO_CONFIRMED_LEXEMES__NO_NEW_PAGE` | [report](../experiments/yolo/gdt757_initial_formula_role_atlas/REPORT.md) | 18 | 133.9 KiB | 4 | STRUCTURED_YOLO |
 | GDT756 | GDT756_ychor_line_frame_content_slots | `PARTIAL__YCHOR_ITEM_LEAD__13_OF13_LINE_INITIAL_0_OF13_PARAGRAPH_INITIAL__4_OF13_RECIPE_TRIADS_VS22_OF247_MATCHED__RANK4_OF113_INITIAL_FRAME_FORMS__71_OF71_BODY_TOKENS_CANDIDATE_RENDERED__53_BODY_WHOLES__ZERO_CONFIRMED_LEXEMES__NO_NEW_PAGE` | [report](../experiments/yolo/gdt756_ychor_line_frame_content_slots/REPORT.md) | 21 | 182.8 KiB | 19 | STRUCTURED_YOLO |
 | GDT755 | GDT755_top24_historical_register_crosswalk | `PARTIAL__24_CONCRETE_COMPLETE_FORM_CANDIDATES__448_EXACT_OCCURRENCES__198_COMPLETE_INDEPENDENT_FIELDS__52_HISTORICAL_EXPRESSIONS__13_SOURCES__2_C2_15_C1_7_C0__YCHOR_UNIQUE_13_OF_13_INITIAL_RANK1_OF373__ZERO_CONFIRMED_LEXEMES__NO_NEW_PAGE` | [report](../experiments/yolo/gdt755_top24_historical_register_crosswalk/REPORT.md) | 21 | 621.8 KiB | 18 | STRUCTURED_YOLO |
 | GDT754 | GDT754_active_productive_compound_provenance_sieve | `PARTIAL__172_ACTIVE_PRODUCTIVE_COMPOUNDS__889_SOURCE_PROSE_CELLS_159_PAGES__686_READER_EXACT__168_COMPOSITION_AXES_ONLY__1_LOCAL_ROLE_PATCH_FAMILY_42_CELLS__1_FORM_ANALOGY_ONLY__2_CORRECTED_PAIR_HYPOTHESES__12_GDT737_QUARANTINES__ZERO_SOURCE_LITERAL_PROSE_SPOKEN__172_BACKGROUND_HYPOTHESES_PRESERVED__24_HISTORICAL_BRIDGE_TARGETS__ZERO_COMPONENT_EXPORT__NO_NEW_PAGE` | [report](../experiments/yolo/gdt754_active_productive_compound_provenance_sieve/REPORT.md) | 16 | 659.7 KiB | 11 | STRUCTURED_YOLO |

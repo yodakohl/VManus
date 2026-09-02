@@ -19818,9 +19818,41 @@ not identifications, and none was chosen from an EVA initial. GDT756 passes
 2,369 checks and byte-identical replay. Primary report:
 `experiments/yolo/gdt756_ychor_line_frame_content_slots/REPORT.md`.
 
-The next route first checks the other high-triad initial wholes `pchor`,
-`ykar` and `yteedy` for initial purity, continuation geometry and distinct
-formula roles. In parallel it follows all occurrences of the eleven direct
-`ychor` followers; a literal candidate survives only while its full-form
-distribution remains compatible with a concrete plant, ingredient, amount or
-operation slot. Rivals stay available and no component inherits a value.
+## GDT757 separates eleven concrete formula roles
+
+GDT757 applies the fixed GDT756 gate of at least five exact initial lines,
+recipe-triad rate at least .20 and global line-initial purity at least .70. It
+selects eleven complete forms and follows all 79 initial occurrences on 54
+admitted cached pages. Each complete form receives three historically attested
+formula-role candidates, and the following body is scored only by independent
+content, amount, process and quality axes after excluding the 172 GDT754
+source-composed forms.
+
+The strongest contrast is the one-edit complete-form pair `pchor/ychor`.
+`pchor` starts a coded paragraph in 6/7 initial lines and has the highest body-
+triad rate, so **`pchor=nimm`** becomes the C1 recipe-opening lead, narrowly
+ahead of preparation-heading and indication rivals. `ychor` remains
+**Item/ferner/ebenso**: 0/13 paragraph starts, with `ferner:nimm` and `nimm` as
+rivals. No meaning is assigned to the differing EVA character.
+
+The other opening leads are `polaiin=Zubereitung/Rezept` (7/7 paragraph
+starts), `pol=Zubereitung/Eintrag` (7/11) and the Herbal-only
+`tshol=für/gegen` (4/5). Internal candidates are `qokchor=mische hinein` and
+the near-form sequence family `ycheol=danach`, `ychol=danach/als Nächstes`,
+`dcheol=danach/darauf`, `ycheor=zum Schluss`. Those four sequence/closure
+wholes jointly have 26 initial occurrences, only one paragraph start and nine
+paragraph ends. `paiin=drei Teile/dritte Menge` remains C0 because only one of
+five bodies independently supplies an amount axis.
+
+The tempting `ykar`, `yteedy`, `qotor` and `dchey` controls have strong initial
+bodies but global line-initial purities below .70, so they are not promoted to
+global formula words. GDT757 has eleven primaries, 22 live rivals, 33 scored
+candidate rows, six edit-one whole comparisons, 152 validation checks and a
+byte-identical replay. Primary report:
+`experiments/yolo/gdt757_initial_formula_role_atlas/REPORT.md`.
+
+The next route follows all admitted occurrences of the direct `ychor`
+followers. The newly separated formula slots should help choose concrete
+whole-form rivals: leaf/root/seed after take or Item, water/wine/oil in liquid
+slots, and soak/dry/cool in process continuations. Alternatives remain live;
+no character or substring inherits a value.
