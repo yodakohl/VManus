@@ -19690,9 +19690,41 @@ field context. GDT753 passes 10,360 checks and byte-identical replay. Primary
 report:
 `experiments/yolo/gdt753_qokeol_okeol_whole_role_census/REPORT.md`.
 
-The next route inventories active V99R7 values inherited from GDT664/GDT666
-`PRODUCTIVE_COMPOUND` cards and separates independently retained whole roles
-from composition-only literal prose. This is a current-renderer provenance
-sieve, not a rerun of the GDT684 debt census or GDT734 unknown dispatch. It may
-preserve working hypotheses and prioritize high-footprint forms, but formal
-roles alone still cannot become historical lexemes or substring values.
+## GDT754 removes active source-composed literal prose without deleting its hypotheses
+
+GDT754 mechanically selects all active exact-whole V99R7 cards whose exact
+GDT664/GDT666 source row is `PRODUCTIVE_COMPOUND`. The universe is 172 forms:
+65 from GDT664 and 107 from GDT666. They currently occupy 889 cache cells on
+159 admitted pages, including 686 reader-exact cells. All 889 still spoke the
+old source sentence before this correction.
+
+Later exact-form support is sparse. GDT737 contributes twelve negative
+retired-head-noun quarantine rows, GDT738 contributes two form rows and GDT753
+the corrected `qokeol/okeol` pair. GDT745, GDT746, GDT748, GDT749 and GDT750
+contribute zero exact overlaps. Only four forms have positive later evidence:
+`lkaiin`, `lky`, `qokeol` and `okeol`.
+
+The corrected spoken layer therefore has 168 explicit composition-axis
+hypotheses, the two GDT753 shared heat/middle hypotheses, one `lky` HOT
+form-analogy hypothesis and one `lkaiin` global composition hypothesis with
+stronger local readings. All 172 literal source sentences become silent, but
+none is erased: source prose, composition, component assumptions, rival and
+strength remain in the inventory and decision artifacts. The coordinate patch
+covers all 889 cells; 847 use the GDT754 complete-form default and 42 preserve
+the exact GDT738 occurrence reading for `lkaiin`.
+
+Thus `air` retains an exploratory index-II/part-or-fraction role but no longer
+claims a drug; `opchedy` retains a dry/material/preparation/process/close role
+bundle but no longer claims powder; `lkaiin` retains heat/III/material as a
+global hypothesis but no longer claims wood. These are nonempty working
+meanings, not decoded lexemes. GDT754 exports no component and passes 7,307
+checks plus byte-identical replay. Primary report:
+`experiments/yolo/gdt754_active_productive_compound_provenance_sieve/REPORT.md`.
+
+The next route is the fixed top-24 historical vocabulary bridge. It compares
+the complete forms against real late-medieval measure/fraction/degree,
+recipe-action, quality/state and learned drug/preparation registers. Candidate
+words may become concrete only by matching a complete-form role and its
+recurring use; EVA characters are not Latin initials and substrings inherit
+nothing. The first output is an exploratory ranked crosswalk, not an automatic
+confirmation.

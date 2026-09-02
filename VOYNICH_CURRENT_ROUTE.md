@@ -221,7 +221,7 @@ export. GDT737 passes 200 checks and byte-identical replay.
 
 Primary report: `experiments/yolo/gdt737_held_body_record_role_transfer/REPORT.md`.
 
-## GDT738–GDT753 occurrence-gated whole, attachment and field renderer
+## GDT738–GDT754 occurrence-gated whole, attachment and field renderer
 
 GDT738 licenses twelve wholes at 202 positions. GDT739 keeps only radius one/two active: 43 quality, 15 amount,
 five process and 109 open scalar positions; 22 state/eight result, 73 carriers
@@ -290,10 +290,9 @@ Do not rerun without genuinely new data or a different falsifier:
 
 Closure memory: `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv`; run `./vmanus-exp route-check QUERY`, then inspect returned primary reports and closed rows.
 
-## Next useful route: active composition-provenance sieve
+## GDT754 correction and next historical bridge
 
-Inventory active V99R7 whole values whose ultimate GDT664/GDT666 cards are `PRODUCTIVE_COMPOUND`. Separate literal atoms supplied only by old analyst composition from roles independently retained by later whole-form occurrence evidence; keep learned/independent whole, role-level default and composition-only-prose-withheld buckets.
-Rank by current renderer footprint so the largest false-concreteness debt is corrected first while useful hypotheses stay visible. This is a current-cache provenance correction, not another GDT684 51-line debt census or GDT734 unknown dispatch.
-Only the strongest surviving complete wholes may enter an exploratory historical vocabulary comparison; formal roles alone still cannot identify a lexeme or export a substring.
+GDT754 finds 172 active GDT664/GDT666 `PRODUCTIVE_COMPOUND` wholes at 889 cache cells/159 pages, 686 reader-exact. Only four have positive later whole-role evidence; GDT745/746/748/749/750 overlap none. All 172 concrete source sentences leave the spoken layer while every old composition remains an explicit background hypothesis; 847 cells take compact whole-role defaults and 42 preserve local GDT738 readings. Report: `experiments/yolo/gdt754_active_productive_compound_provenance_sieve/REPORT.md`.
+The next route compares the fixed top-24 complete-form deck against real late-medieval measure/degree, recipe-action, quality/state and learned drug/preparation registers. Rank candidates by whole-form and role compatibility; do not read EVA initials as Latin or promote a substring. This is exploratory candidate generation toward concrete vocabulary, not confirmation in advance.
 ## Primary routing references
 Use `experiments/EXPERIMENT_INDEX.tsv`, `VOYNICH_ACTIVE_STATE.md`, the ledger, grammar registry and closed-route registry.
