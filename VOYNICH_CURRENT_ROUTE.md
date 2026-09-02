@@ -221,7 +221,7 @@ export. GDT737 passes 200 checks and byte-identical replay.
 
 Primary report: `experiments/yolo/gdt737_held_body_record_role_transfer/REPORT.md`.
 
-## GDT738–GDT741 occurrence-gated whole and attachment renderer
+## GDT738–GDT742 occurrence-gated whole and attachment renderer
 
 GDT738 licenses twelve wholes at 202 positions. GDT739 keeps only radius one/two active: 43 quality, 15 amount,
 five process and 109 open scalar positions; 22 state/eight result, 73 carriers
@@ -234,12 +234,14 @@ The renderer becomes 36 axes, 43 carriers, 56 specific and 146 open positions;
 only one of eight old result modes survives and 49/202 renders change.
 
 GDT741 compresses all thirteen manual outcomes with occurrence-ID/locus-free
-decision records and replays all 103 role flags, eight result cases, 202 patches
-and twenty passages. Six role rules remain singletons. Two strict relays stay
-active; a looser channel exposes six inactive roles on five collision targets
-(projected 56→61 specific) without changing the renderer. The two relay middles
-remain relational-only, never positive hosts. GDT741 passes 87 checks and byte
-replay; report: `experiments/yolo/gdt741_local_attachment_boundary_relay_grammar/REPORT.md`.
+decisions and replays 103 role flags, eight result cases, 202 patches and twenty
+passages. Two strict relays stay active; six inactive roles on five collision
+targets remain relational-only. GDT741 passes 87 checks and byte replay; report:
+`experiments/yolo/gdt741_local_attachment_boundary_relay_grammar/REPORT.md`.
+
+GDT742 removes role purity only for a direction-matching open carrier relay. It adds MATERIAL at D0143 and PREPARATION at D0164 while both axes stay open,
+giving 36 axes, 45 carriers, 58 specific and 144 open. Four roles on D0040/D0075/D0184 stay inactive; the two triggers share only a reduced in-sample
+signature. It passes 78 checks; report: `experiments/yolo/gdt742_r2_open_collision_adjudication/REPORT.md`.
 
 ## What remains usable from older work
 
@@ -285,13 +287,11 @@ The complete closure memory is
 `./vmanus-exp route-check QUERY` before proposing a new family, then inspect
 only the returned primary reports and closed rows.
 
-## Next useful route: adjudicate the five exposed relay collisions
+## Next useful route: settle direction versus carrier-run continuity
 
-Audit the five `OPEN_COLLISION` targets against their closest held and active
-radius-two analogues. Decide whether formal direction, partial versus exact
-continuity, PROCESS/PASS scope or another cached boundary feature separates
-them. Keep every unresolved role open; do not revive old atom meanings or make
-an ineligible middle field a positive host. No new page, image or transcript.
+Test whether a longer carrier run can override formal direction at D0075 without activating held controls; keep D0040's HOT-only intersection separate.
+If neither compresses beyond its seed, leave both open and pivot to concrete whole-field semantic bridges. Use only the inherited cache; add no page,
+image or transcript.
 
 ## Primary routing references
 

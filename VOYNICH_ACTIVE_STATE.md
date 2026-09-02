@@ -19236,3 +19236,40 @@ Next audit those five collision targets against their closest cached held and
 active radius-two analogues. Test formal direction, partial versus exact
 continuity and PROCESS/PASS or other middle-boundary scope without making an
 ineligible middle field a positive host. No new page is required.
+
+## GDT742 activates two role-separated carrier relays
+
+GDT742 runs one identity-, locus- and predecessor-outcome-free radius-two rule
+over all 103 inherited contacts. Direct contacts and the strict AXIS relay stay
+unchanged. At a mixed AXIS+CARRIER contact, CARRIER alone may now relay when the
+reader-exact full frame recurs, the known unit-emitting middle is non-head,
+non-target and OPEN, formal direction agrees, the complete requested carrier is
+present in middle and host, and `axis_continuity=NONE`.
+
+Exactly D0143 at `f77v.33 rain` gains `Carrier=MATERIAL`, and D0164 at
+`f112r.36 sain` gains `Carrier=PREPARATION`; both quality axes remain open. The
+renderer moves from 36/43/56/146 to 36 axis-specific, 45 carrier-bound, 58
+specific and 144 fully open positions. The scalar level and position phrases
+are inherited; only these local broad-carrier tags are new.
+
+The two triggers occupy one reduced role-isomorphic in-sample class that omits
+concrete carrier kind, so it is compression rather than independent
+confirmation. D0062 remains held with partial requested-carrier coverage and
+D0166 with no middle carrier. D0040 AXIS, D0075 AXIS+CARRIER and D0184 AXIS
+remain inactive. D0075 is a genuine rival: a long PREPARATION-tagged run follows
+the target, but formal H4 direction points left and the rightward axis is only
+partially continuous; HOLD means not promoted under this grammar, not disproved.
+
+The validator independently reconstructs all 41 radius-two outcomes from
+atomic fields, proves zero direct or axis changes, checks the exact two-role
+delta across 202 renderer rows, obtains the intentional GDT388 `INVALID_PACKET`,
+passes 78 checks and rebuilds byte-identically. No page, image or transcription
+is added and no lexeme, component, plaintext, literal ingredient/patient,
+species, disease, cure or unit is identified. Primary report:
+`experiments/yolo/gdt742_r2_open_collision_adjudication/REPORT.md`.
+
+Next test whether uninterrupted same-carrier run length can override formal
+direction at D0075 without activating held controls, while keeping D0040's
+HOT-only intersection as a separate axis proposal. If neither relation extends
+beyond its seed, preserve the open roles and pivot from attachment polish to
+concrete whole-field semantic bridges. No new page is required.
