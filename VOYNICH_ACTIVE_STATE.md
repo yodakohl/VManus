@@ -19430,3 +19430,51 @@ and exactly one open whole, then ask whether the known cards predict one shared
 axis or contrast at that slot. This is not a revival of the GDT623–632
 substring grids or GDT624–625 process reading; components and invented verbs
 remain excluded.
+
+## GDT748 requires a complete-whole form bridge for serial role transfer
+
+GDT748 scans all 45,136 consecutive length-three/four windows in the inherited
+32,339-token, 179-page cache. Of 4,080 windows with exactly one non-W2/W3
+position, 3,975 retain at least two distinct known complete wholes and 1,406
+share a quality/stage axis. Overlapping windows collapse to 1,125 physical
+target positions.
+
+The unconditioned serial rule is not usable as a word-value rule. Hiding 429
+known targets and predicting them from the other complete wholes recovers any
+true target axis only 189 times (44.1%); reader-exact cases recover 113/245.
+Without a complete-form bridge the rate is 93/303 (30.7%). Requiring at least
+one known whole in complete-surface edit distance one/two raises recovery to
+96/126 (76.2%), or 55/69 with exact readers; frames with at least two such
+whole bridges recover 18/20 (90.0%). No edited position or EVA component
+receives a value.
+
+The combined rule retains 237 physical leads over 122 surfaces. Sixteen reach
+a repeated, opposition-free S2/S3 axis: thirteen reinforce or narrow weak
+cards, `olkar` and `lkeey` replace retired literal identities only with HOT
+role leads, and `okechy` is the sole previously open whole receiving a new
+repeated lead. Its two frames on f103r.8 and f108r.36 support HOT while leaving
+carrier, stage, function and identity open. The larger reinforcements include
+`qokedy` END_STAGE (8 positions/8 pages), `okedy` HOT (5/5), `cheol` DRY
+(4/4), `okal` HOT (4/2) and `okeey` HOT (4/4). These are working roles, not
+literal words; old drug/substance text is not revived.
+
+GDT748 corrects the apparent GDT747 certainty around `qochey`. Three
+form-bridged exact frames exist. The strongest has two whole-form bridges and
+supports DRY|MIDDLE_STAGE at f104v.23, but two weaker single-bridge frames
+support END_STAGE or HOT|END_STAGE. One strong frame cannot manufacture a
+recurrent value, so `qochey` has no global serial consensus: retain
+DRY|MIDDLE_STAGE as the strongest lead with explicit END/HOT rivals and a
+context-dependent quality/stage-role alternative. `cheeey` receives one
+form-bridged DRY support and remains S1; `chtl` has no bridged frame and stays
+open.
+
+The validator passes 32,157 checks and byte-identical replay. All 237 relation
+rows are invalid/not score-ready solely because formal access is unsealed.
+Primary report:
+`experiments/yolo/gdt748_complete_whole_serial_paradigm_census/REPORT.md`.
+
+The next route follows the sixteen S2/S3 surfaces through all cached
+occurrences outside their discovering serial frames and compares their
+distribution against fixed quality/stage reference wholes. This is new data
+for the GDT746 distribution mechanism, not a revival of GDT550 component
+frames or the closed literal-gloss route.

@@ -221,7 +221,7 @@ export. GDT737 passes 200 checks and byte-identical replay.
 
 Primary report: `experiments/yolo/gdt737_held_body_record_role_transfer/REPORT.md`.
 
-## GDT738–GDT747 occurrence-gated whole, attachment and field renderer
+## GDT738–GDT748 occurrence-gated whole, attachment and field renderer
 
 GDT738 licenses twelve wholes at 202 positions. GDT739 keeps only radius one/two active: 43 quality, 15 amount,
 five process and 109 open scalar positions; 22 state/eight result, 73 carriers
@@ -248,7 +248,7 @@ Report: `experiments/yolo/gdt744_historical_microfield_channel_bridge/REPORT.md`
 
 GDT745 finds 136 cached occurrences of those 41 exact wholes on 53 pages; all 136 centered contexts stay OPEN, and `qochey` proves that field role cannot be inherited as word role. Clean complete-whole edit analogies give 34/41 multiwhole axis consensuses, including 17 with multiple agreeing distance-one neighbors, and 41 replaceable defaults with counterevidence. These are mixed quality/state, material/preparation, quantity/part and process/result families—not literal identities or component values. Report: `experiments/yolo/gdt745_exact_open_content_role_expansion/REPORT.md`.
 
-GDT746 compares the 17 strongest candidates and 52 direct whole neighbors over 1,523 cached occurrences: 15 pairs reinforce and ten are compatible after section-removed local controls; four candidates have multiple reinforced neighbors. Direct form neighbors occupy 16/85 top-five distribution slots versus 5.65 from deck share, and 14/17 candidates share at least one form/distribution axis. Exact phrase flanks remain sparse, so these are whole-role families, not decoded words. GDT747 inserts only the twelve S2/S3 intersections into all 64 cached occurrences: 62 strong token gains on 61 lines, one contrastive `qochey` series, two multiwhole `cheeey` supports and six complete blocks. The working whole values narrow to `qochey` = DRY with probable MIDDLE_STAGE and `cheeey` = DRY state with probable END, while `chtl` remains open; no component or literal name is exported. Reports: `experiments/yolo/gdt746_whole_analogy_distribution_test/REPORT.md`, `experiments/yolo/gdt747_supported_whole_passage_application/REPORT.md`.
+GDT746 compares the 17 strongest candidates and 52 direct whole neighbors over 1,523 cached occurrences: 15 pairs reinforce and ten are compatible after section-removed local controls; four candidates have multiple reinforced neighbors. Direct form neighbors occupy 16/85 top-five distribution slots versus 5.65 from deck share, and 14/17 candidates share at least one form/distribution axis. GDT747 inserts twelve S2/S3 intersections into 64 cached occurrences and finds one contrastive `qochey` plus two multiwhole `cheeey` supports. GDT748 then checks all 45,136 written length-three/four windows: serial context alone recovers only 189/429 hidden known axes, but a complete-whole edit≤2 bridge recovers 96/126 and multiple bridges 18/20. The combined rule leaves sixteen recurrent role leads: thirteen weak-card reinforcements, HOT-only replacements for two retired literals and the new open `okechy` HOT lead. `qochey` has no repeated consensus: its strongest multiple-bridge frame remains DRY|MIDDLE_STAGE against two weaker END/HOT rivals; `cheeey` retains one DRY support and `chtl` remains open. Reports: `experiments/yolo/gdt746_whole_analogy_distribution_test/REPORT.md`, `experiments/yolo/gdt747_supported_whole_passage_application/REPORT.md`, `experiments/yolo/gdt748_complete_whole_serial_paradigm_census/REPORT.md`.
 
 ## What remains usable from older work
 
@@ -290,9 +290,9 @@ Do not rerun without genuinely new data or a different falsifier:
 Closure memory: `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv`.
 Run `./vmanus-exp route-check QUERY`, then inspect returned primary reports and closed rows.
 
-## Next useful route: complete-whole serial paradigms
+## Next useful route: test the sixteen form-serial roles outside discovery frames
 
-Enumerate already cached written three-/four-whole series containing independently supported HOT/COLD/DRY/MOIST or stage cards and exactly one open complete whole. Require the known cards to predict one shared axis or contrast for that slot, score every eligible series, and keep whole forms opaque. This differs from GDT623–632's productive substring grids and GDT624–625's state-transition reading: no component, process verb, new page, image or transcript may enter.
+Follow every cached occurrence of GDT748's sixteen S2/S3 surfaces outside the frames that proposed its role. Compare section, line position, neighbouring known-whole axes and closure proximity against fixed HOT/COLD/DRY/MOIST/stage reference wholes. The primary targets are the new `okechy` HOT lead, axis-only `olkar/lkeey`, and the qochey split; reuse GDT746's distribution features but keep discovery-frame evidence separate. This is not GDT550's old component-frame bridge or a literal-gloss route, and adds no component, new page, image or transcript.
 
 ## Primary routing references
 
