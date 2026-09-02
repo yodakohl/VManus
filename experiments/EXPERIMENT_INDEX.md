@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **740**
-- Experiment-associated tracked files: **12,760** (1.3 GiB)
-- Structured GDT337+ experiments: **405**
+- Experiments indexed: **741**
+- Experiment-associated tracked files: **12,780** (1.3 GiB)
+- Structured GDT337+ experiments: **406**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT743 | GDT743_r2_run_intersection_adjudication | `PARTIAL__REQUESTED_CARRIER_COVERAGE_GE3_ANALOGY_ADDS_D0075__RUN_GATE_ABLATION_ONE_TO_ONE_EXCLUDES_ZERO__CONDITIONED_HOT_INTERSECTION_REMAINS_OPEN_LEAD__36_AXIS__46_CARRIER__59_SPECIFIC__143_OPEN__PROVISIONAL_COMPOSITE_RULE__ZERO_LEXEME_OR_COMPONENT_EXPORT__NO_NEW_PAGE` | [report](../experiments/yolo/gdt743_r2_run_intersection_adjudication/REPORT.md) | 20 | 285.5 KiB | 4 | STRUCTURED_YOLO |
 | GDT742 | GDT742_r2_open_collision_adjudication | `PARTIAL__ROLE_SEPARATED_CARRIER_RELAY_ADDS_TWO_TARGETS__FOUR_OF_EIGHT_R2_CANDIDATE_ROLES_ACTIVE__FOUR_OPEN_ROLES_ON_THREE_TARGETS__45_CARRIER_BOUND__58_SPECIFIC__144_OPEN__ZERO_NEW_AXIS__ZERO_LEXEME_OR_COMPONENT_EXPORT__NO_NEW_PAGE` | [report](../experiments/yolo/gdt742_r2_open_collision_adjudication/REPORT.md) | 17 | 224.7 KiB | 5 | STRUCTURED_YOLO |
 | GDT741 | GDT741_local_attachment_boundary_relay_grammar | `PASS__ID_FREE_GRAMMAR_REPLAYS_13_OF_13_OVERRIDES__ZERO_103_ROLE_FLAG_ERRORS__EIGHT_OF_EIGHT_RESULT_MODES__TWO_SINGLETON_RELAYS_EXPLICIT__SIX_OPEN_COLLISION_ROLE_CANDIDATES__NO_NEW_RENDER_CHANGE__ZERO_LEXEME_OR_COMPONENT_EXPORT__NO_NEW_PAGE` | [report](../experiments/yolo/gdt741_local_attachment_boundary_relay_grammar/REPORT.md) | 20 | 294.8 KiB | 4 | STRUCTURED_YOLO |
 | GDT740 | GDT740_local_host_attachment_adjudication | `PARTIAL__103_BINDING_CONTACTS_PLUS_ONE_CONFLICT_CUE__62_DIRECT_CONTACTS_ON_58_TARGETS__39_RADIUS_TWO_HELD_PLUS_TWO_MANUAL_RELAYS__ONE_LOCAL_RESULT_MODE__BOUNDARY_AND_FLANK_FUSION_REPAIRED__ZERO_LEXEME_OR_COMPONENT_EXPORT__NO_NEW_PAGE` | [report](../experiments/yolo/gdt740_local_host_attachment_adjudication/REPORT.md) | 23 | 342.0 KiB | 6 | STRUCTURED_YOLO |

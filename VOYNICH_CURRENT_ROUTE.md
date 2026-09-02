@@ -221,7 +221,7 @@ export. GDT737 passes 200 checks and byte-identical replay.
 
 Primary report: `experiments/yolo/gdt737_held_body_record_role_transfer/REPORT.md`.
 
-## GDT738–GDT742 occurrence-gated whole and attachment renderer
+## GDT738–GDT743 occurrence-gated whole and attachment renderer
 
 GDT738 licenses twelve wholes at 202 positions. GDT739 keeps only radius one/two active: 43 quality, 15 amount,
 five process and 109 open scalar positions; 22 state/eight result, 73 carriers
@@ -239,9 +239,10 @@ passages. Two strict relays stay active; six inactive roles on five collision
 targets remain relational-only. GDT741 passes 87 checks and byte replay; report:
 `experiments/yolo/gdt741_local_attachment_boundary_relay_grammar/REPORT.md`.
 
-GDT742 removes role purity only for a direction-matching open carrier relay. It adds MATERIAL at D0143 and PREPARATION at D0164 while both axes stay open,
-giving 36 axes, 45 carriers, 58 specific and 144 open. Four roles on D0040/D0075/D0184 stay inactive; the two triggers share only a reduced in-sample
-signature. It passes 78 checks; report: `experiments/yolo/gdt742_r2_open_collision_adjudication/REPORT.md`.
+GDT742 removes role purity only for a direction-matching open carrier relay. It adds MATERIAL at D0143 and PREPARATION at D0164 while both axes stay open, giving 36 axes, 45 carriers, 58 specific and 144 open.
+Four roles on D0040/D0075/D0184 stay inactive; the two triggers share only a reduced in-sample signature. It passes 78 checks; report: `experiments/yolo/gdt742_r2_open_collision_adjudication/REPORT.md`.
+GDT743 shows that the proposed run gate does not discriminate: relaxed reverse/full-carrier R2 selects one contact and the coverage gate still selects one, excluding zero. A carrier-unconditioned scan finds six pairs, including D0027/D0187 hidden by the inherited request.
+D0075 receives only a bracketed provisional `Carrier=PREPARATION` tag; its axis stays open. D0040 remains a conditioned HOT lead without axis licence. Counts become 36 axes, 46 carriers, 59 specific and 143 open; 83 checks pass. Report: `experiments/yolo/gdt743_r2_run_intersection_adjudication/REPORT.md`.
 
 ## What remains usable from older work
 
@@ -287,11 +288,10 @@ The complete closure memory is
 `./vmanus-exp route-check QUERY` before proposing a new family, then inspect
 only the returned primary reports and closed rows.
 
-## Next useful route: settle direction versus carrier-run continuity
+## Next useful route: concrete recurrent whole-field bridges
 
-Test whether a longer carrier run can override formal direction at D0075 without activating held controls; keep D0040's HOT-only intersection separate.
-If neither compresses beyond its seed, leave both open and pivot to concrete whole-field semantic bridges. Use only the inherited cache; add no page,
-image or transcript.
+Leave attachment tuning unless a genuinely new comparator appears. Across the inherited 202-position cache, inventory complete recurrent local fields whose exact whole-form target and independently varying neighbors recur in at least two contexts.
+Compare ingredient/material, operation/state/result, quantity/grade and record-role readings while keeping unsupported slots explicit. GDT735 supplies the architecture; GDT738 wholes are candidates, not roots. Do not revive literal GDT727 vocabulary or infer a lexeme from coverage alone; add no page, image or transcript.
 
 ## Primary routing references
 

@@ -19273,3 +19273,43 @@ direction at D0075 without activating held controls, while keeping D0040's
 HOT-only intersection as a separate axis proposal. If neither relation extends
 beyond its seed, preserve the open roles and pivot from attachment polish to
 concrete whole-field semantic bridges. No new page is required.
+
+## GDT743 closes attachment polishing with one explicit working assumption
+
+GDT743 measures requested-carrier containment on both sides of all 202 cached
+targets and recomputes all 41 radius-two contacts without target identity,
+locus or predecessor outcome. The permissive screened class contains D0028,
+D0041, D0045 and D0075. D0075 has PREPARATION coverage through four cells, but
+its contiguous exact-carrier-set prefix is only two; PROCESS, extra MATERIAL
+and CLOSE remain visible. Exact-set and PROCESS-excluding sensitivities remove
+D0075.
+
+The carrier-unconditioned scan is the important correction. Testing
+PREPARATION, MATERIAL and PART separately produces six target/carrier pairs;
+D0027 MATERIAL and D0187 MATERIAL are hidden by their inherited requested
+carrier choices. Coverage therefore checks consistency with a candidate but
+does not name the carrier.
+
+Within the 41-contact R2 deck, the relaxed reverse/full-carrier condition
+already selects exactly D0075. Adding the run gate leaves exactly D0075 and
+excludes zero rows. Run length consequently does not adjudicate the collision.
+For exploratory renderer throughput, D0075 nevertheless receives one visibly
+bracketed occurrence-local working tag:
+`Skalarstufe II [Carrier=PREPARATION; Dimension offen; provisorischer
+R4-Lauf]`. This is a provisional composite analogy, not plaintext; the D0075
+axis remains open.
+
+D0040's bilateral HOT pattern is conditioned on HOT having already been the
+favored candidate. It remains a useful visible lead but adds no axis. The
+complete renderer now contains 36 axis-specific, 46 carrier-bound, 59 specific
+and 143 fully open positions. The validator passes 83 checks, byte-replays all
+builder artifacts and obtains the intended GDT388 `INVALID_PACKET`. Primary
+report: `experiments/yolo/gdt743_r2_run_intersection_adjudication/REPORT.md`.
+
+The next route leaves attachment tuning unless genuinely new comparators
+appear. It inventories recurrent complete-whole local fields across at least
+two cached contexts and compares concrete ingredient/material,
+operation/state/result, quantity/grade and record-role readings. GDT735's
+learned-whole plus bound-field architecture is the prior and GDT738's licensed
+complete wholes are candidates; neither coverage nor an EVA substring may
+create a lexeme. No new page is required.

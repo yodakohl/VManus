@@ -1,0 +1,111 @@
+{
+  "artifact_hashes": {
+    "experiments/yolo/gdt743_r2_run_intersection_adjudication/artifacts/AXIS_5_INHERITED_FAVORED_CENSUS.tsv": "6e2288d8c14403928d4e82cf98197a441c9f7565b9b66aa088c9cc459c7c7084",
+    "experiments/yolo/gdt743_r2_run_intersection_adjudication/artifacts/CANDIDATE_4_REMAINING_ROLE_ADJUDICATION.tsv": "d229e18bac4607d83db4db639a483d14c575266988cfc1de67aada216848d355",
+    "experiments/yolo/gdt743_r2_run_intersection_adjudication/artifacts/CARRIER_6_UNCONDITIONED_COVERAGE_CENSUS.tsv": "ee0cea1c17fd805896d3c992cb1d738a8d20dca71e90a64bcd148e21131db412",
+    "experiments/yolo/gdt743_r2_run_intersection_adjudication/artifacts/FOCUS_3_EXTENSION_REVIEW.tsv": "b2732f9915a71181c83ba4b3edef088e1c703485a0a0f8d8239178f9218f02a9",
+    "experiments/yolo/gdt743_r2_run_intersection_adjudication/artifacts/GDT743_GDT388_RUN_OVERRIDE_EDGE_PACKET.tsv": "18f2da0ab77fa622486bfa331a244c6e65672447d16a24131acb5d743cb29194",
+    "experiments/yolo/gdt743_r2_run_intersection_adjudication/artifacts/GDT743_RUN_INTERSECTION_READER.md": "42a3bcf2c49d6ec7f0fb885e655dbd75de89532f9d23c32dc37a4f66cdb389cd",
+    "experiments/yolo/gdt743_r2_run_intersection_adjudication/artifacts/R2_41_EXTENSION_DISPATCH.tsv": "cf0c7b5faadf10a4267287df10b702e0bcd3610a401fd5e16a0df38953c8360c",
+    "experiments/yolo/gdt743_r2_run_intersection_adjudication/artifacts/RUN_8_REQUESTED_CARRIER_COVERAGE_CENSUS.tsv": "ed70ac3c9d57b8df2281cd1752ca6d9511625cbdc5b21798605ea5da515c6d89",
+    "experiments/yolo/gdt743_r2_run_intersection_adjudication/artifacts/TARGET_202_RENDERER_PATCH_V5.tsv": "1593c1a89fd78f735847bdece079165f0a2813c52c77761ffc418182dbb34be9",
+    "experiments/yolo/gdt743_r2_run_intersection_adjudication/artifacts/TARGET_202_REQUESTED_CARRIER_COVERAGE_FEATURES.tsv": "50e4504ac546e12b39bcf32e2ad838031ab8b4396e7b4a0c2b30bc7783fc0275"
+  },
+  "axis_census": {
+    "bilateral_favored_axis_targets": 5,
+    "bilateral_two_by_two_targets": 1,
+    "favored_partial_r2_leads": 1,
+    "new_axis_roles": 0
+  },
+  "claims": {
+    "components_exported": 0,
+    "lexemes_identified": 0,
+    "literal_patients_or_species": 0,
+    "new_axes": 0,
+    "new_pages": 0,
+    "plaintext_clauses": 0,
+    "unseen_forms_licensed": 0
+  },
+  "edge_intake": {
+    "expected_status": "INVALID_PACKET",
+    "packet_rows": 1,
+    "score_ready": false
+  },
+  "next_route": "CONCRETE_RECURRENT_WHOLE_FIELD_BRIDGE_ACROSS_MULTIPLE_CACHED_CONTEXTS",
+  "r2_ablation": {
+    "excluded_by_coverage_gate": 0,
+    "post_coverage_gate_triggers": 1,
+    "relaxed_reverse_full_carrier_triggers": 1
+  },
+  "renderer": {
+    "axis_specific_occurrences": 36,
+    "carrier_bound_occurrences": 46,
+    "changed_from_gdt742": 1,
+    "fully_open_occurrences": 143,
+    "specific_occurrences": 59
+  },
+  "requested_carrier_coverage_census": {
+    "new_run_override_contacts": 1,
+    "new_run_override_roles": 1,
+    "raw_ge3_targets": 8,
+    "screened_unique_ge3_targets": 4,
+    "screened_unique_previously_carrier_bound": 3,
+    "unconditioned_request_mismatches": 2,
+    "unconditioned_target_carrier_pairs": 6
+  },
+  "roles": {
+    "gdt742_active_r2_roles": 4,
+    "gdt743_active_r2_roles": 5,
+    "remaining_open_candidate_roles": 3,
+    "remaining_open_candidate_targets": 3
+  },
+  "schema": "GDT743_R2_RUN_INTERSECTION_ADJUDICATION_V1",
+  "scope": {
+    "f84_used": false,
+    "f84r_used": false,
+    "focus_cached_lines": 3,
+    "inherited_allowlist_pages": 179,
+    "new_pages_used": 0,
+    "radius_two_contacts": 41,
+    "remaining_candidate_roles_entered_post_decision": 4,
+    "renderer_positions": 202,
+    "window_rows": 1373
+  },
+  "sensitivity": {
+    "base_requested_carrier_coverage_ge3_ids": [
+      "G739-D0028",
+      "G739-D0041",
+      "G739-D0045",
+      "G739-D0075"
+    ],
+    "exact_carrier_set_prefix_ge3_ids": [
+      "G739-D0028",
+      "G739-D0041"
+    ],
+    "exclude_close_ge3_ids": [
+      "G739-D0028",
+      "G739-D0041",
+      "G739-D0045",
+      "G739-D0075"
+    ],
+    "exclude_pass_ge3_ids": [
+      "G739-D0041",
+      "G739-D0045",
+      "G739-D0075"
+    ],
+    "exclude_process_ge3_ids": [
+      "G739-D0028",
+      "G739-D0041",
+      "G739-D0045"
+    ],
+    "exclude_process_pass_close_ge3_ids": [
+      "G739-D0041",
+      "G739-D0045"
+    ],
+    "exclude_process_pass_ge3_ids": [
+      "G739-D0041",
+      "G739-D0045"
+    ]
+  },
+  "status": "PARTIAL__REQUESTED_CARRIER_COVERAGE_GE3_ANALOGY_ADDS_D0075__RUN_GATE_ABLATION_ONE_TO_ONE_EXCLUDES_ZERO__CONDITIONED_HOT_INTERSECTION_REMAINS_OPEN_LEAD__36_AXIS__46_CARRIER__59_SPECIFIC__143_OPEN__PROVISIONAL_COMPOSITE_RULE__ZERO_LEXEME_OR_COMPONENT_EXPORT__NO_NEW_PAGE"
+}
