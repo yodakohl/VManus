@@ -20000,3 +20000,55 @@ GDT760 passes 1,720 checks and byte-identical replay. Primary report:
 `experiments/yolo/gdt760_quantity_bilateral_content_attachment/REPORT.md`.
 Next, expand `cheor/sheor` and `cheo/sheo` outward across their already cached
 occurrences to seek a learned plant-part or solvent whole without new pages.
+
+## GDT761 links both state pairs through one complete carrier candidate
+
+GDT761 follows every reader-exact `cheor`, `sheor`, `cheo` and `sheo`
+occurrence in the admitted cache: 151 occurrences, 150 loci and 80 pages. It
+records four outward slots per target. The published direct universe contains
+224 clean exact relation edges at 223 neighbor-token positions and 173 complete
+neighbor surfaces. One `chey` position lies between two targets and therefore
+forms two edges; edge and position counts must not be conflated.
+
+The semantic guard now unites three previously separate closures: 172 GDT754
+source-composed surfaces, 80 GDT737 retired p/s/r/l patient meanings and the
+two GDT738 retired salt cards. Explicit later repairs take precedence. Thus
+`sain` remains a quantity whole, while five direct legacy seed/powder/wood/root
+neighbors are excluded. Only unconditional GDT734 whole cards may override a
+local cell; current explicit corrections repair `cheey`, `okeey`, `qokaiin`,
+`pcheey`, `lkeey`, `polaiin` and the `al` role. In particular `pcheey` no
+longer contains the zero-credit p→*pulvis* gloss, and `al` is MATERIAL I rather
+than an amount form.
+
+`chor` is the only non-amount content-prior surface that directly touches all
+four targets: five edges on five pages, three DRY and two MOIST, three left and
+two right; only the known amount whole `oraiin` also reaches all four. Its raw,
+not section-controlled descriptive lift is 2.924107. This promotes `chor` only
+to `C2_CROSS_CONSTRUCTION_PART_CARRIER`; the specific “Blüten-/Samenstand”
+identity remains C1 with general plant part as a live rival. Five exact spans
+receive conditional readings: `chor cheor`, `cheor chor`, `chor sheor`, `cheo
+chor`, and `chor sheo`. They do not export `chor`, `ch`, `or`, a word order or
+a component meaning.
+
+The two repeated `shor sheor` spans remain separate C0 base-family rivals,
+because the pair can reflect SH+E+OR base/extension structure rather than two
+reproductive words; they have zero concrete phrase licence. `cheor/sheor`
+share eight same-side direct frames and `cheo/sheo` two. This is descriptive
+compatibility with the inherited state pairs, not independent proof of their
+dry/moist or carrier-role meanings. `cthy` appears at radius two beside both
+preparation targets with different interveners and grants no composition.
+
+No direct exact neighbor identifies a solvent. `ol` has six edges split DRY 4
+to MOIST 2 and is not selective. `ckhy` is the best small cross-role
+moist-medium lead: one edge with `sheor`, one with `sheo`, two pages, zero DRY
+and raw lift 8.234286. `pcheey` follows `sheo` on two pages despite only three
+global reader-exact occurrences; it is a priority complement/transition lead,
+not powder and not yet a medium. Water and wine remain tied, oil stays only an
+`ol` rival. GDT761 passes 2,095 checks and byte-identical replay. Primary
+report: `experiments/yolo/gdt761_state_pair_outer_carrier_bridge/REPORT.md`.
+
+Next, audit all cached occurrences and exact outward constructions of `ckhy`,
+`pcheey` and negative control `ol` against additional moist state wholes. The
+goal is to distinguish medium, preparation complement, state field and generic
+carrier before attempting a concrete water/wine/oil working identity. No new
+page is required.
