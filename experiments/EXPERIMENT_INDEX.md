@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **747**
-- Experiment-associated tracked files: **12,902** (1.3 GiB)
-- Structured GDT337+ experiments: **412**
+- Experiments indexed: **748**
+- Experiment-associated tracked files: **12,924** (1.3 GiB)
+- Structured GDT337+ experiments: **413**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT750 | GDT750_form_gated_direct_host_dispatch | `PARTIAL__1134_KNOWN_OCCURRENCE_CALIBRATION__D1_R1_19_TP_0_FP_15_POSITIONS__19_ACTIVE_OUTSIDE_POSITIONS__5_FORMS__32_AXIS_CARDS__RADIUS2_DISCOVERY_ONLY__DISTANCE2_SENSITIVITY_ONLY__QOCHEY_OKECHY_NO_ACTIVE_HOST__ZERO_LITERAL_IDENTITIES__ZERO_COMPONENT_EXPORT__NO_NEW_PAGE` | [report](../experiments/yolo/gdt750_form_gated_direct_host_dispatch/REPORT.md) | 22 | 640.8 KiB | 8 | STRUCTURED_YOLO |
 | GDT749 | GDT749_outside_frame_whole_role_distribution | `PARTIAL__16_RECURRENT_PLUS_QOCHEY__1311_READER_EXACT_OUTSIDE_OCCURRENCES__CALIBRATION_23_TP_42_FP_60_FN__4_LOCAL_COMPATIBILITY__1_RIVAL_LEADS__QOCHEY_THREE_OUTSIDE_POSITIONS__ZERO_LITERAL_IDENTITIES__ZERO_COMPONENT_EXPORT__NO_NEW_PAGE` | [report](../experiments/yolo/gdt749_outside_frame_whole_role_distribution/REPORT.md) | 19 | 684.2 KiB | 6 | STRUCTURED_YOLO |
 | GDT748 | GDT748_complete_whole_serial_paradigm_census | `PARTIAL__45136_WINDOWS__4080_ONE_OPEN__1406_PREDICTIVE_FRAMES__1125_POSITIONS__UNCONDITIONED_189_OF_429__FORM_BRIDGE_96_OF_126__MULTIBRIDGE_18_OF_20__237_FORM_BRIDGED_POSITIONS__122_SURFACES__16_RECURRENT_ROLE_LEADS__1_NEW_OPEN_WHOLE__13_WEAK_REINFORCED__2_RETIRED_LITERAL_REPLACED__QOCHEY_STRONGEST_FRAME_ONLY__ZERO_LEXEME_OR_COMPONENT_EXPORT__NO_NEW_PAGE` | [report](../experiments/yolo/gdt748_complete_whole_serial_paradigm_census/REPORT.md) | 21 | 3.7 MiB | 6 | STRUCTURED_YOLO |
 | GDT747 | GDT747_supported_whole_passage_application | `PARTIAL__12_GDT746_SUPPORTED_WHOLES__64_OCCURRENCES__62_LINES__1_CONTRASTIVE_LOCAL_PARADIGMS__2_MULTIWHOLE_LOCAL_SUPPORTS__16_SINGLE_WHOLE_LOCAL_SUPPORTS__62_STRONG_CONCRETE_TOKEN_DELTA__6_PASSAGE_BLOCKS__ZERO_LITERAL_IDENTITIES__ZERO_COMPONENT_EXPORT__NO_NEW_PAGE` | [report](../experiments/yolo/gdt747_supported_whole_passage_application/REPORT.md) | 22 | 281.5 KiB | 6 | STRUCTURED_YOLO |

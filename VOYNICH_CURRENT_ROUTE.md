@@ -221,7 +221,7 @@ export. GDT737 passes 200 checks and byte-identical replay.
 
 Primary report: `experiments/yolo/gdt737_held_body_record_role_transfer/REPORT.md`.
 
-## GDT738–GDT748 occurrence-gated whole, attachment and field renderer
+## GDT738–GDT750 occurrence-gated whole, attachment and field renderer
 
 GDT738 licenses twelve wholes at 202 positions. GDT739 keeps only radius one/two active: 43 quality, 15 amount,
 five process and 109 open scalar positions; 22 state/eight result, 73 carriers
@@ -252,24 +252,18 @@ GDT746 compares the 17 strongest candidates and 52 direct whole neighbors over 1
 
 GDT749 removes all 57 discovering positions and follows the sixteen recurrent forms plus `qochey` through 1,311 reader-exact outside occurrences on 154 cached pages. Its initially attractive global distribution classifier fails leave-self-out on the 46 known-whole deck: 23 correct quality/stage labels, 42 false and 60 missed (precision .354, recall .277). Global section/position ranks therefore become navigation only. Baseline-adjusted immediate contexts leave four weak K2 compatibility leads: `chdy` DRY, `cheey` DRY, `okeey` HOT and `qokedy` END_STAGE. `cheky`'s MIDDLE_STAGE default acquires a stronger BEGIN/END rival; `kchdy` gets only a sparse COLD/DRY rival. `lkeey`, `olkar` and `qokaiin` remain baseline-like, so their HOT roles may stay as hypotheses but not spoken defaults. `okechy` has only two outside positions and becomes a preparation/state form with HOT versus COLD/END polarity open. For `qochey`, END_STAGE ranks first and occupies four outside top-five references, while DRY|MIDDLE_STAGE ranks fifth with no immediate outside hit; the new global working order is END/transition first, strongest single-frame DRY/MIDDLE second, HOT/END local rival. Reports: `experiments/yolo/gdt746_whole_analogy_distribution_test/REPORT.md`, `experiments/yolo/gdt747_supported_whole_passage_application/REPORT.md`, `experiments/yolo/gdt748_complete_whole_serial_paradigm_census/REPORT.md`, `experiments/yolo/gdt749_outside_frame_whole_role_distribution/REPORT.md`.
 
+GDT750 rejects raw direct-host copying (203 true/371 false axes) but finds a narrow complete-form gate: on 1,134 known occurrences, a distance-one form prior supported by multiple reference wholes plus an immediate non-`CLOSE` distance-one host emits 19 true and zero false axes at fifteen positions. On the seventeen-form outside deck it licenses 32 local axes at nineteen positions of five forms. `okeey` supplies fourteen cards on ten pages—twelve HOT|END, one HOT and one END—`cheol` supplies two cross-page DRY cards, and `cheey`, `cheky`, `sheey` one each; `qochey` and `okechy` receive no active host. These are occurrence roles, not universal word meanings.
+
+The post-result census closes two naive successors: only 28/738 recurrent open surfaces have a distance-one multi-prior and the sole emission is the excluded `qochey` discovery position; a blanket carrier extension gives 19 true/14 false axes, all false MATERIAL on `chol`. The remaining lead is 51 clean complete `qX`/`X` pairs: inherited quality/stage matches 47/51 and inherited PREPARATION occurs only unprefixed in 41/51 (zero reverse), but may be circular. Independent placement puts q earlier in 33/51 pairs, with 44 direct contacts across twelve pair types/27 pages. Report: `experiments/yolo/gdt750_form_gated_direct_host_dispatch/REPORT.md`.
+
 ## What remains usable from older work
 
-- Exact recurrent forms, line placement, within-field position, entry/closure
-  behavior, reader agreement and whole-form recurrence are usable formal
-  features.
-- Register conditioning matters; GDT333 rejects a universal
-  register-independent tuple-role dictionary.
-- GDT336 supplies only a weak exact-tuple placement prior (+446.40 held bits;
-  top-1 1,932→1,971 on 6,626 recurrent events), not a standalone decoder or a
-  semantic slot assignment.
-- Exact identity is stronger than free equivalence clustering. GDT398 leaves
-  zero stable merges; unknown cells cannot be licensed by coordinate or sibling
-  backoff.
-- Historical and synthetic comparators calibrate mechanisms but do not name
-  Voynich fields; GDT339–344 found no portable anonymous semantic topology.
-- The GDT459–473 address work supports a mixed architecture of productive
-  shells plus learned content-name fragments. Its German roots remain workshop
-  labels, not words.
+- Exact recurrent forms, line placement, within-field position, entry/closure behavior, reader agreement and whole-form recurrence are usable formal features.
+- Register conditioning matters; GDT333 rejects a universal register-independent tuple-role dictionary.
+- GDT336 supplies only a weak exact-tuple placement prior (+446.40 held bits; top-1 1,932→1,971 on 6,626 recurrent events), not a standalone decoder or semantic slot assignment.
+- Exact identity is stronger than free equivalence clustering. GDT398 leaves zero stable merges; unknown cells cannot be licensed by coordinate or sibling backoff.
+- Historical and synthetic comparators calibrate mechanisms but do not name Voynich fields; GDT339–344 found no portable anonymous semantic topology.
+- GDT459–473 supports a mixed architecture of productive shells plus learned content-name fragments; its German roots remain workshop labels, not words.
 - GDT477–599's six-page Station/Portion/Measure/Body renderer is a working layer, not historical lexical identification.
 
 Use the relevant primary report through the experiment index before relying on any of these facts.
@@ -292,8 +286,9 @@ Do not rerun without genuinely new data or a different falsifier:
 Closure memory: `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv`.
 Run `./vmanus-exp route-check QUERY`, then inspect returned primary reports and closed rows.
 
-## Next useful route: attachment-gated occurrence dispatch for the seventeen forms
-Apply an occurrence-level host dispatcher to GDT749's fixed sixteen forms plus `qochey`, with discovery positions still separated. Calibrate the dispatcher by hiding each of the forty-six known reference wholes at its real occurrences. An immediate complete-whole host may propose one quality/stage axis only after GDT740-style boundary, competing-flank and ownership checks; radius two remains silent unless a complete repeated frame or explicit continuous relay licenses it. Issue position-specific cards for `qochey`, `okechy`, `cheky` and `kchdy`, while keeping global form roles as priors. This is a new target deck for GDT739/GDT740's host/attachment mechanism, not another global distribution rank, substring decoder or literal-gloss route, and adds no component, page, image or transcript.
+## Next useful route: paired `qX`/`X` carrier-shell audit
+
+Audit the fixed 51 clean complete-form `qX`/`X` pairs over 3,761 reader-exact cached occurrences. Keep 47/51 quality-stage preservation and 41/51 one-way `PREPARATION` asymmetry as inherited hypotheses, then test independent pair-balanced line position, entry/closure bias, section-removed controls and 44 direct contacts of twelve pair types against matched non-q edit-distance-one pairs. The desired output is a complete-pair transformation rule predicting carrier/field role while preserving quality/stage; failure retires the q-shell interpretation. `q` remains opaque: no character, sound, morpheme, substring, plaintext, new page, image or transcription is licensed.
 
 ## Primary routing references
 Use `experiments/EXPERIMENT_INDEX.tsv`, `VOYNICH_ACTIVE_STATE.md`, the ledger, grammar registry and closed-route registry.

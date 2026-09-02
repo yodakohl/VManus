@@ -19527,3 +19527,54 @@ these seventeen forms at individual occurrences. Immediate complete-whole
 hosts must pass boundary, competing-flank and ownership checks; radius two is
 silent without a repeated full frame or explicit continuous relay. The same
 dispatcher is first calibrated by hiding the forty-six known reference wholes.
+
+## GDT750 licenses nineteen local state cards and exposes the q/base pair route
+
+GDT750 tests the fixed seventeen GDT749 forms with a host dispatcher calibrated
+on 1,134 reader-exact occurrences of known complete wholes. Raw immediate host
+copying fails with 203 true and 371 false quality/stage axes; merely excluding
+`CLOSE` hosts still gives 186 true and 331 false. The active rule additionally
+requires a complete-surface distance-one prior whose dimension winner has at
+least two known-whole supporters, an immediate non-`CLOSE` distance-one host,
+reader agreement and no within-dimension conflict. Its known-card calibration
+emits at fifteen positions: 19 true axes, zero false, precision 1.0 and recall
+.009739. Radius two also has zero calibration errors but remains discovery-only
+under GDT740's attachment constraint; edit distance two introduces 21/30 false
+axes in its radius-one/two sensitivities.
+
+After removing all 57 GDT748 discovery positions, the active rule licenses
+nineteen of 1,311 reader-exact outside positions: fourteen `okeey`, two
+`cheol`, and one each `cheey`, `cheky` and `sheey`. The `okeey` cards occur on
+ten pages and split twelve HOT|END_STAGE, one HOT and one END_STAGE; its best
+current occurrence reading is therefore a hot end-/full-stage state at those
+twelve double-axis positions. `cheol` gives two cross-page DRY cards. `cheky`
+gets one DRY occurrence that rivals its inherited global MIDDLE_STAGE card.
+`sheey` gets one MOIST|END card and `cheey` one END card. `qochey`, `okechy`
+and the other ten forms receive no active occurrence card. No local card is a
+universal whole meaning, literal word or component value.
+
+A reproducible successor diagnostic prevents two unproductive expansions.
+The current cache contains 5,007 reader-exact open positions over 3,447
+surfaces, including 738 recurrent surfaces/2,298 positions. Only 28 recurrent
+forms/112 positions possess the required distance-one multi-reference prior;
+the sole activation is `qochey` at f104v.23, already one of the excluded
+discovery positions. The naive all-open route therefore adds zero outside
+cards. Extending the same rule to carrier, amount and process axes on 1,158
+known occurrences yields 19 true and 14 false axes; all false predictions are
+`MATERIAL` on `chol`, so carrier roles do not obey the quality/stage copy rule.
+
+The live compositional lead is a fixed deck of 51 clean complete `qX`/`X`
+pairs. Their inherited cards preserve exactly the same quality/stage axes in
+47/51 pairs; 41/51 place `PREPARATION` only on the unprefixed side and zero
+reverse that asymmetry. This semantic regularity may be inherited circularity,
+so it is not yet evidence for a q prefix or morpheme. Independent raw placement
+does justify a bounded audit: across 2,060 q-side and 1,701 unprefixed
+reader-exact occurrences, the q-side lies earlier in 33/51 pair-balanced
+comparisons (mean normalized delta -.066507), while the unprefixed side has
+more raw line endings (156/1,701 versus 109/2,060). Twelve pair types also form
+44 reader-exact direct contacts on 27 pages. GDT751 should compare these fixed
+pairs with matched non-q one-edit controls and section-removed position,
+entry/closure and direct-contact features. It may export only a whole-pair
+transformation rule; `q` remains an opaque contrast with zero character,
+sound, substring or lexeme credit. Primary report:
+`experiments/yolo/gdt750_form_gated_direct_host_dispatch/REPORT.md`.
