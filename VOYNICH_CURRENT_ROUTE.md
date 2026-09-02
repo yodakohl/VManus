@@ -221,7 +221,7 @@ export. GDT737 passes 200 checks and byte-identical replay.
 
 Primary report: `experiments/yolo/gdt737_held_body_record_role_transfer/REPORT.md`.
 
-## GDT738–GDT743 occurrence-gated whole and attachment renderer
+## GDT738–GDT744 occurrence-gated whole, attachment and field renderer
 
 GDT738 licenses twelve wholes at 202 positions. GDT739 keeps only radius one/two active: 43 quality, 15 amount,
 five process and 109 open scalar positions; 22 state/eight result, 73 carriers
@@ -244,6 +244,10 @@ Four roles on D0040/D0075/D0184 stay inactive; the two triggers share only a red
 GDT743 shows that the proposed run gate does not discriminate: relaxed reverse/full-carrier R2 selects one contact and the coverage gate still selects one, excluding zero. A carrier-unconditioned scan finds six pairs, including D0027/D0187 hidden by the inherited request.
 D0075 receives only a bracketed provisional `Carrier=PREPARATION` tag; its axis stays open. D0040 remains a conditioned HOT lead without axis licence. Counts become 36 axes, 46 carriers, 59 specific and 143 open; 83 checks pass. Report: `experiments/yolo/gdt743_r2_run_intersection_adjudication/REPORT.md`.
 
+GDT744 clips all 202 radius-five contexts: 140 complete, 62 censored. Sixteen exact-whole/channel templates cover 80 positions (47 complete, 33 censored), add descriptive, recipe/process or quantity/part cards and raise target-or-field specificity 59→95.
+W3-only retains 69/80 templates and 67 same channels; 42 open content cells yield 41 surfaces and zero cross-page identities. Seventeen of twenty manual examples add information; 2,919 checks and byte replay pass.
+Report: `experiments/yolo/gdt744_historical_microfield_channel_bridge/REPORT.md`.
+
 ## What remains usable from older work
 
 - Exact recurrent forms, line placement, within-field position, entry/closure
@@ -262,9 +266,7 @@ D0075 receives only a bracketed provisional `Carrier=PREPARATION` tag; its axis 
 - The GDT459–473 address work supports a mixed architecture of productive
   shells plus learned content-name fragments. Its German roots remain workshop
   labels, not words.
-- GDT477–599 provide an exploratory complete object renderer for a six-page
-  subset, but its Station/Portion/Measure/Body vocabulary is a working layer,
-  not historical lexical identification.
+- GDT477–599's six-page Station/Portion/Measure/Body renderer is a working layer, not historical lexical identification.
 
 Use the relevant primary report through the experiment index before relying on any of these facts.
 
@@ -283,17 +285,14 @@ Do not rerun without genuinely new data or a different falsifier:
 - the literal Naibbe/whitespace-token route and the infeasible FST34/V2
   synthetic compiler configuration.
 
-The complete closure memory is
-`experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv`. Run
-`./vmanus-exp route-check QUERY` before proposing a new family, then inspect
-only the returned primary reports and closed rows.
+Closure memory: `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv`.
+Run `./vmanus-exp route-check QUERY`, then inspect returned primary reports and closed rows.
 
-## Next useful route: concrete recurrent whole-field bridges
+## Next useful route: expand exact open content slots
 
-Leave attachment tuning unless a genuinely new comparator appears. Across the inherited 202-position cache, inventory complete recurrent local fields whose exact whole-form target and independently varying neighbors recur in at least two contexts.
-Compare ingredient/material, operation/state/result, quantity/grade and record-role readings while keeping unsupported slots explicit. GDT735 supplies the architecture; GDT738 wholes are candidates, not roots. Do not revive literal GDT727 vocabulary or infer a lexeme from coverage alone; add no page, image or transcript.
+Locate GDT744's 41 unresolved exact surfaces in other already cached occurrences and compare persistent descriptive-lemma, ingredient/process, quantity or open roles.
+Preserve whole identity: field roles are not translations; revive no GDT727 literal vocabulary or EVA substring value, and add no page, image or transcript.
 
 ## Primary routing references
 
-Use `experiments/EXPERIMENT_INDEX.tsv`, `VOYNICH_ACTIVE_STATE.md`, the ledger,
-grammar registry and the closed-route registry.
+Use `experiments/EXPERIMENT_INDEX.tsv`, `VOYNICH_ACTIVE_STATE.md`, the ledger, grammar registry and closed-route registry.

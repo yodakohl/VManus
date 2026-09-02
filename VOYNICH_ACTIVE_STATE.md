@@ -19306,10 +19306,44 @@ and 143 fully open positions. The validator passes 83 checks, byte-replays all
 builder artifacts and obtains the intended GDT388 `INVALID_PACKET`. Primary
 report: `experiments/yolo/gdt743_r2_run_intersection_adjudication/REPORT.md`.
 
-The next route leaves attachment tuning unless genuinely new comparators
-appear. It inventories recurrent complete-whole local fields across at least
-two cached contexts and compares concrete ingredient/material,
-operation/state/result, quantity/grade and record-role readings. GDT735's
-learned-whole plus bound-field architecture is the prior and GDT738's licensed
-complete wholes are candidates; neither coverage nor an EVA substring may
-create a lexeme. No new page is required.
+## GDT744 turns recurrent target contexts into historical field cards
+
+GDT744 boundary-clips all 202 inherited target windows at line edges, strict
+initial heads, another licensed target and direction-aware close markers. One
+hundred forty microfields are fully bounded inside radius five and 62 remain
+censored. Screened W2/W3 exact-whole anchors dispatch seven historical channel
+outcomes; PASS is treated as a processing passage rather than automatically as
+an imperative. Sixteen exact-target/channel templates recur with varying
+anchor signatures on at least two fully bounded pages. They cover 80
+occurrences: 47 complete F3 contexts and 33 censored F2 applications.
+
+The 80 field cards split into 40 descriptive-materia, 17 descriptive-quality,
+11 recipe/process, three process and nine quantity/part contexts. Combined with
+GDT743's 59 target-specific readings, target-or-field specificity rises to 95
+positions, adding 36. `lkaiin`, `lkain`, `lkar` and `sain` each recur in
+multiple complete channel templates; their best current role is therefore a
+reusable bound level/state field rather than a literal content name. Seven
+licensed quality collisions remain explicitly competing rather than merged.
+
+Two inherited W3 wholes lacked GDT739 axis tags. The explicit whole-role deck
+adds only the already inherited `olor` ingredient role and `qoly` process/close
+role with zero lexeme credit. `olor` changes one clipped field to an ambiguous
+material/ingredient candidate; `qoly` lies beyond an included close boundary
+and has no effect. W3-only anchors retain 69/80 template readings and 67/80
+with the same channel. Removing clipping preserves only 152/202 raw channels,
+so naked radius windows over-import adjacent records.
+
+The twenty-passage manual audit finds practical field-level information in 17
+examples and retains two window-only plus one open control without licence.
+Within the 80 template-backed fields, 42 exact-reader unknown cells form 41
+content surfaces across 28 fields. None repeats across pages inside this deck;
+they remain learned-lemma, ingredient or complement slots, not substances.
+The validator passes 2,919 checks and byte replay; the formal-context GDT388
+packet is intentionally invalid/not score-ready. Primary report:
+`experiments/yolo/gdt744_historical_microfield_channel_bridge/REPORT.md`.
+
+The next route expands those 41 exact content surfaces across their already
+cached occurrences outside the 202 windows and compares persistent descriptive,
+prescriptive, quantity and open roles. Preserve complete-whole identity and
+seek learned names or ingredients there; do not turn recurrence or an EVA
+substring into a lexeme. No new page is required.

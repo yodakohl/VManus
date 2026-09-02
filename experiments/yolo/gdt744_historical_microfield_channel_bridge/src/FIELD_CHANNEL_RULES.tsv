@@ -1,0 +1,8 @@
+precedence	channel	required_all	required_any_1	required_any_2	historical_mode	unresolved_slot_class	historical_basis
+1	PRESCRIPTIVE_RECIPE	NONE	PASS|PROCESS	AMOUNT|INGREDIENT|MATERIAL|PART|PREPARATION	PRESCRIPTIVE	INGREDIENT_OR_COMMAND_CONTENT	command/process passage plus ingredient, preparation, part or amount
+2	PRESCRIPTIVE_PROCESS	NONE	PASS|PROCESS	NONE	PRESCRIPTIVE	INGREDIENT_OR_PROCESS_COMPLEMENT	command/process passage without a locally typed object
+3	DESCRIPTIVE_MATERIA	NONE	COLD|DRY|HOT|MOIST	MATERIAL|PART|PREPARATION	DESCRIPTIVE	LEMMA_OR_DESCRIPTIVE_CONTENT	quality or state plus substance, preparation or plant-part carrier
+4	DESCRIPTIVE_QUALITY	NONE	COLD|DRY|HOT|MOIST	NONE	DESCRIPTIVE	LEMMA_OR_DESCRIPTIVE_CONTENT	quality or state with lemma and carrier still open
+5	QUANTITY_OR_PART	NONE	AMOUNT|PART	NONE	AMBIGUOUS_BOUND_FIELD	QUANTITY_REFERENT_OR_PART_NAME	amount or part can belong to recipe quantity or descriptive plant-part fields
+6	MATERIA_OR_INGREDIENT	NONE	INGREDIENT|MATERIAL|PREPARATION	NONE	AMBIGUOUS_RECORD_CHANNEL	LEMMA_OR_INGREDIENT	material, preparation or inherited whole-ingredient role alone does not distinguish description from prescription
+7	OPEN	NONE	NONE	NONE	OPEN	UNASSIGNED	no W2/W3 historical-channel anchor survives the clipped field

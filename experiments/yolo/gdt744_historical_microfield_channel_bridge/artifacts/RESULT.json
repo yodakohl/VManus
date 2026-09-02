@@ -1,0 +1,140 @@
+{
+  "artifact_hashes": {
+    "experiments/yolo/gdt744_historical_microfield_channel_bridge/artifacts/FORM_CHANNEL_RECURRENCE_CENSUS.tsv": "345ae19607cd8902cba8bb07e64fd0a4faea481d4920181499ca6cbdaa7f8244",
+    "experiments/yolo/gdt744_historical_microfield_channel_bridge/artifacts/GDT744_GDT388_EDGE_INTAKE.json": "04333dab7d2c572d4a55e5b78b18f623b7b30919904374474fc87fbfa89732d6",
+    "experiments/yolo/gdt744_historical_microfield_channel_bridge/artifacts/GDT744_GDT388_MICROFIELD_EDGE_PACKET.tsv": "12fd805ace533dd919429b06bbbd539c60d59c85ab52f7da47bdce29c245f14a",
+    "experiments/yolo/gdt744_historical_microfield_channel_bridge/artifacts/GDT744_HISTORICAL_MICROFIELD_READER.md": "3f6030f61d4b3d09892c57c53419bf770e979530e80e97308140e3a8e6d2baf7",
+    "experiments/yolo/gdt744_historical_microfield_channel_bridge/artifacts/MICROFIELD_202_CHANNEL_DISPATCH.tsv": "edfa4bb6e552a46a89b7630908bc140361aa7776934792fb11104aba30b335a8",
+    "experiments/yolo/gdt744_historical_microfield_channel_bridge/artifacts/PASSAGE_20_MICROFIELD_READER.tsv": "8aa7d4bb5d6bc64dd1f714649c1c09fa0cb827e1ea6c87d196a24dc400eb25a1",
+    "experiments/yolo/gdt744_historical_microfield_channel_bridge/artifacts/UNRESOLVED_CONTENT_SLOT_CANDIDATES.tsv": "86d3952eed011162f3d60d8ba1c623dca38237e01816d92b007fa39389fb87c5"
+  },
+  "artifact_rows": {
+    "FORM_CHANNEL_RECURRENCE_CENSUS.tsv": 84,
+    "GDT744_GDT388_EDGE_INTAKE.json": 1,
+    "GDT744_GDT388_MICROFIELD_EDGE_PACKET.tsv": 1,
+    "GDT744_HISTORICAL_MICROFIELD_READER.md": 20,
+    "MICROFIELD_202_CHANNEL_DISPATCH.tsv": 202,
+    "PASSAGE_20_MICROFIELD_READER.tsv": 20,
+    "UNRESOLVED_CONTENT_SLOT_CANDIDATES.tsv": 42
+  },
+  "boundary": {
+    "fully_bounded_microfields": 140,
+    "left_reason_counts": {
+      "LINE_EDGE_AFTER": 69,
+      "NEXT_TARGET_BEFORE": 5,
+      "PRIOR_CLOSE_BEFORE": 51,
+      "RADIUS5_CENSORED": 29,
+      "STRICT_INITIAL_BEFORE": 48
+    },
+    "radius5_censored_microfields": 62,
+    "right_reason_counts": {
+      "CURRENT_CLOSE_INCLUDED": 68,
+      "LINE_EDGE_AFTER": 53,
+      "NEXT_TARGET_BEFORE": 5,
+      "RADIUS5_CENSORED": 35,
+      "STRICT_INITIAL_BEFORE": 41
+    }
+  },
+  "channel": {
+    "complete_recurrent_exact_whole_channel_templates": 16,
+    "confidence_tiers": {
+      "F0_OPEN": 93,
+      "F1_RECURRENT_WINDOW_ONLY": 7,
+      "F1_SINGLE_CONTEXT": 22,
+      "F2_RECURRENT_TEMPLATE_PARTIAL_CONTEXT": 33,
+      "F3_RECURRENT_COMPLETE_CONTEXT": 47
+    },
+    "forms_with_multiple_complete_templates": [
+      "lkaiin",
+      "lkain",
+      "lkar",
+      "sain"
+    ],
+    "raw_counts": {
+      "DESCRIPTIVE_MATERIA": 45,
+      "DESCRIPTIVE_QUALITY": 23,
+      "MATERIA_OR_INGREDIENT": 6,
+      "OPEN": 93,
+      "PRESCRIPTIVE_PROCESS": 5,
+      "PRESCRIPTIVE_RECIPE": 19,
+      "QUANTITY_OR_PART": 11
+    },
+    "template_backed_occurrences": 80,
+    "template_backed_quality_conflicts": 7,
+    "template_channels": {
+      "DESCRIPTIVE_MATERIA": 40,
+      "DESCRIPTIVE_QUALITY": 17,
+      "PRESCRIPTIVE_PROCESS": 3,
+      "PRESCRIPTIVE_RECIPE": 11,
+      "QUANTITY_OR_PART": 9
+    },
+    "window_recurrent_exact_whole_channel_templates": 19
+  },
+  "claims": {
+    "component_export_credit": 0,
+    "confirmed_lexemes": 0,
+    "head_or_body_lexeme_credit": 0,
+    "literal_substances_or_species": 0,
+    "plaintext_translations": 0,
+    "unseen_form_predictions": 0
+  },
+  "content_slots": {
+    "candidate_cells": 42,
+    "candidate_fields": 28,
+    "candidate_surfaces": 41,
+    "cross_page_identity_gates": 0
+  },
+  "historical_bridge": {
+    "architecture_only": true,
+    "content_identity": "open learned whole/name or ingredient slots",
+    "direct_two_channel_source": [
+      "HSR010"
+    ],
+    "inherited_exact_whole_role_supplement_contacts": 1,
+    "target_reading": "bound level/state field across descriptive, prescriptive and ambiguous quantity/part channels"
+  },
+  "relation_edge_intake": {
+    "capacity_gate_50_edges_5_folios": false,
+    "discovery_edges": 0,
+    "eligible_edges": 0,
+    "eligible_folios": 0,
+    "errors": [
+      "edge row 2: formal access is not sealed"
+    ],
+    "holdout_edges": 0,
+    "holdout_gate": false,
+    "mobile_edges": 0,
+    "mobile_null_gate": false,
+    "packet_rows": 1,
+    "score_ready": false,
+    "status": "INVALID_PACKET"
+  },
+  "renderer": {
+    "combined_specific_occurrences": 95,
+    "gdt743_target_specific_occurrences": 59,
+    "manual_information_gain_examples": 17,
+    "newly_specific_from_field_channel": 36,
+    "passage_examples": 20,
+    "remaining_without_target_or_template_specificity": 107,
+    "template_field_specific_occurrences": 80
+  },
+  "schema": "GDT744_HISTORICAL_MICROFIELD_CHANNEL_BRIDGE_RESULT_V1",
+  "scope": {
+    "cached_window_rows": 1373,
+    "f84_used": false,
+    "f84r_used": false,
+    "inherited_target_occurrences": 202,
+    "new_images_used": 0,
+    "new_pages_used": 0,
+    "new_transcriptions_used": 0,
+    "target_forms": 12,
+    "target_pages": 52
+  },
+  "sensitivity": {
+    "main_vs_r2_channel_matches": 172,
+    "main_vs_unclipped_channel_matches": 152,
+    "w3_only_same_channel_and_template": 67,
+    "w3_only_template_backed_occurrences": 69
+  },
+  "status": "PARTIAL__16_COMPLETE_RECURRENT_EXACT_WHOLE_CHANNEL_TEMPLATES__80_TEMPLATE_BACKED_FIELDS__47_COMPLETE_PLUS_33_RADIUS_CENSORED__69_OF_80_W3_TEMPLATE_RETAINED__67_SAME_CHANNEL__42_UNRESOLVED_CONTENT_SLOT_CELLS__TARGET_WHOLES_REMAIN_LEVEL_OR_STATE_FIELDS__ZERO_LEXEMES__NO_NEW_PAGE"
+}
