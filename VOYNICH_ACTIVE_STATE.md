@@ -19728,3 +19728,51 @@ words may become concrete only by matching a complete-form role and its
 recurring use; EVA characters are not Latin initials and substrings inherit
 nothing. The first output is an exploratory ranked crosswalk, not an automatic
 confirmation.
+
+## GDT755 installs concrete top-24 whole-form candidates and isolates the missing content deck
+
+GDT755 compares the fixed GDT754 top-24 complete-form deck with 52 attested
+late-medieval expression classes from thirteen registered sources. It follows
+all 448 reader-exact occurrences on 125 already admitted pages and builds 198
+fully bounded target-excluding fields. Every one of the 172 source-composed
+GDT754 wholes is also prevented from contributing its inherited axes as a
+neighbour, so the discarded analyst prose cannot select its own historical
+analogue.
+
+Each target now has one concise primary candidate and two preserved rivals.
+The active candidate layer contains two C2, fifteen C1 and seven deliberately
+bold C0 defaults. Examples are `lkaiin=heiß im dritten Grad`,
+`okeol/qokeol=heiß im zweiten Grad`, `okam=eine Drachme`,
+`orain=zwei Teile`, `opchedy=trockne`, `qockhey=mische` and the explicitly
+weak `cthody=Salbe`. These are replaceable complete-whole candidates, not
+component readings or confirmed lexemes. The hybrid renderer alters only the
+448 enumerated target positions and leaves every unmapped token visible as EVA;
+generic work-item filler remains absent.
+
+The strongest lead is `ychor=nimm`, corresponding to the historical recipe
+formulae `Recipe` or `Accipe`. All thirteen reader-exact `ychor` occurrences
+are line-initial. In a semantics-free comparison with all 373 exact surfaces
+having at least ten occurrences, `ychor` ranks first and is the unique form at
+100 percent line-initial placement. It is never paragraph-initial. Eight
+outside fields are complete and three are independently prescriptive-recipe
+fields. This combination supports a repeated line-level instruction or field
+macro more strongly than the earlier abstract PART/PASS default, while two
+descriptive fields and one open materia field keep the candidate exploratory.
+
+The 26-slot audit also clarifies where concrete vocabulary can still enter.
+The top 24 are dominated by formula, amount/part, quality/degree and process
+slots. They offer no literal-specific support for water, wine, oil, salt,
+root, leaf, seed, wood, powder, vessel, woman, disease or bath. Those concepts
+must therefore be sought mainly among recurrent learned wholes outside this
+deck, not forced into these 24 forms. GDT755 passes 3,887 checks and a
+byte-identical replay. Primary report:
+`experiments/yolo/gdt755_top24_historical_register_crosswalk/REPORT.md`.
+
+The next route tests `ychor`, the final amount candidates `okam/chdam`, and the
+degree candidates inside recurring complete line frames. If `ychor=nimm` is
+useful, the post-`ychor` geometry should expose repeatable ingredient, amount
+and operation slots. The same frame geometry then guides a whole-form search
+outside the top 24 for water, wine, oil, salt, plant parts, preparations,
+vessels, patients and diseases. Candidates and rivals stay live until a
+repeated frame makes one interpretation clearly better; no EVA character or
+substring receives a Latin value.
