@@ -19892,3 +19892,55 @@ an/ain/aiin/aiiin`, `chor/cthy + chol/qokchol/sheol`, and `odol/ols` in all
 admitted exact contexts. Its job is to turn compatible candidates into useful
 multiword renderings or replace them when their global construction behavior
 does not fit.
+
+## GDT759 turns the first whole candidates into exact mini-constructions
+
+GDT759 enumerates the fixed quantity/value, part/state and preparation/value
+pairs over the admitted guarded cache. Seventeen of 26 directed pair types are
+observed, covering 122 reader-exact spans: 96 quantity, 23 plant-part/state and
+three preparation/value expressions. Each observed span receives one concrete
+working rendering with confidence and two rivals; the nine zero-count pairs
+receive no construction licence.
+
+The new boundary evidence changes the `s` interpretation. There are 23 exact
+separated `s aiin` and 89 exact fused `saiin`. At four physical loci the ZL3b,
+IT2a and RF1b lines become completely identical when only that boundary is
+normalized. Three more complete-line bridges connect `or ain/orain`, `or
+aiin/oraiin` and `ar aiin/araiin`. Consequently the old seed-derived fused
+defaults `san=ein Teil Saatgut`, `sain=Samen, Charge II`, `saiin=Samencharge
+III` and `saiiin=Saatgutcharge IV` are quarantined.
+
+The exact `s + value` construction now uses the deliberately concrete
+Drachmen lead: `s ain=zwei Drachmen`, `s aiin=drei Drachmen`, `s aiiin=vier
+Drachmen`; equal parts and ounces stay live rivals, and the historical unit is
+not identified. The choice is functional rather than graphic: period measure
+signs productively accompany values and the historical comparator bank ranks
+the dram sign as a frequent abbreviated recipe formula. All 154 exact `s`
+occurrences are dispatched: 25 ordered-value spans, one exact `s om=je eine
+Handvoll`, 34 line-final `zu gleichen Teilen`, and 94 low-confidence `je`
+fallbacks. Thus no universal free `s` component is exported.
+
+The other amount constructions are stronger: 44 `or + value` spans render as
+portions, including 36 `or aiin=drei Portionen`; 27 `ar + value` spans render
+as shares, including 16 `ar aiin=drei Anteile`. Plant-part/state adjacency is
+bidirectional: fifteen `chor↔chol` spans render `getrockneter Blüten-/
+Samenstand`, six `cthy↔chol` render `getrocknetes Blattgut`, and two
+`chor↔qokchol` render `erhitzter und getrockneter Blüten-/Samenstand`.
+There is no direct `sheol` pair with `chor` or `cthy`, so no moist plant-part
+phrase is licensed.
+
+`odol=abgemessene Zubereitung` remains C1 across its two Herbal positions but
+has no exact value pair. Three of `ols`'s five exact right contexts are ordered
+values, while five of twelve occurrences are line-final. This favors a
+value-bearing result/preparation over a bare imperative. GDT759 therefore
+widens `ols=abgeseihtes Endprodukt` to `ols=abgeseihte Zubereitung` C0 and
+renders `ols aiin=drei Portionen abgeseihte Zubereitung`; oil remains a live
+rival without graphic credit. One of thirteen `ychor` lines changes. GDT759
+passes 805 checks and byte-identical replay. Primary report:
+`experiments/yolo/gdt759_quantity_part_state_construction_atlas/REPORT.md`.
+
+The next route takes the exact amount expressions as right-hand anchors and
+follows their recurrent immediate left wholes. It seeks stable ingredient or
+preparation slots that can choose among water, wine, oil, salt, powder and
+plant-part candidates without using EVA initials or silently importing the old
+source-composed prose.

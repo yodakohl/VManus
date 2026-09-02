@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **756**
-- Experiment-associated tracked files: **13,076** (1.3 GiB)
-- Structured GDT337+ experiments: **421**
+- Experiments indexed: **757**
+- Experiment-associated tracked files: **13,100** (1.3 GiB)
+- Structured GDT337+ experiments: **422**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT759 | GDT759_quantity_part_state_construction_atlas | `PARTIAL__122_EXACT_CONSTRUCTION_SPANS__96_QUANTITY__7_EXACT_BOUNDARY_BRIDGES__S_AIIN_SAIIN_SINGLE_EXPRESSION__OLD_SEED_FAMILY_QUARANTINED__23_PART_STATE__15_CHOR_CHOL__6_CTHY_CHOL__3_OLS_VALUE__OLS_PREPARATION_REVISED__ZERO_CONFIRMED_LEXEMES__NO_NEW_PAGE` | [report](../experiments/yolo/gdt759_quantity_part_state_construction_atlas/REPORT.md) | 24 | 278.5 KiB | 7 | STRUCTURED_YOLO |
 | GDT758 | GDT758_ychor_follower_global_content_census | `PARTIAL__11_YCHOR_FOLLOWER_WHOLES__1141_EXACT_OCCURRENCES__13_DIRECT_YCHOR_POSITIONS__S_EQUAL_AMOUNT_LEAD_25_OF99_ORDERED_VALUE_FOLLOWERS__23_S_TO_AIIN_BIGRAMS__8_EXACT_SPAN_RENDER_RULES__ZERO_CONFIRMED_LEXEMES__NO_NEW_PAGE` | [report](../experiments/yolo/gdt758_ychor_follower_global_content_census/REPORT.md) | 21 | 791.2 KiB | 7 | STRUCTURED_YOLO |
 | GDT757 | GDT757_initial_formula_role_atlas | `PARTIAL__11_COMPLETE_FORMULA_WHOLES__79_INITIAL_LINES__PCHOR_RECIPE_OPEN_6_OF7_PARAGRAPH_START__YCHOR_ITEM_0_OF13_START__YCHEOL_YCHOL_DCHEOL_YCHEOR_FAMILY_1_OF26_START_9_OF26_END__4_LOW_PURITY_CONTROLS_NOT_PROMOTED__ZERO_CONFIRMED_LEXEMES__NO_NEW_PAGE` | [report](../experiments/yolo/gdt757_initial_formula_role_atlas/REPORT.md) | 18 | 133.9 KiB | 4 | STRUCTURED_YOLO |
 | GDT756 | GDT756_ychor_line_frame_content_slots | `PARTIAL__YCHOR_ITEM_LEAD__13_OF13_LINE_INITIAL_0_OF13_PARAGRAPH_INITIAL__4_OF13_RECIPE_TRIADS_VS22_OF247_MATCHED__RANK4_OF113_INITIAL_FRAME_FORMS__71_OF71_BODY_TOKENS_CANDIDATE_RENDERED__53_BODY_WHOLES__ZERO_CONFIRMED_LEXEMES__NO_NEW_PAGE` | [report](../experiments/yolo/gdt756_ychor_line_frame_content_slots/REPORT.md) | 21 | 182.8 KiB | 19 | STRUCTURED_YOLO |
