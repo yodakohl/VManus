@@ -119,9 +119,10 @@ remain scoped and do not become unconditional globals.
 
 GDT737 later audits the 82 V99R7 whole cards that overlap its held head+body
 forms. Eighty still contain literal powder, seed, root or wood patients derived
-from the retired p/s/r/l head model and are quarantined for this route. Only
-`solaiin` and `sols` survive provisionally as current clean exact-whole working
-defaults; neither is confirmed plaintext.
+from the retired p/s/r/l head model and are quarantined for this route. GDT738
+then re-audits the two remaining provisional cards `solaiin` and `sols` and
+downgrades both literal salt/species readings to audit-only HOLD. Neither is an
+active plaintext or renderer value.
 
 Canonical cache:
 `experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/artifacts/V99R7_4128_INTEGRATED_LINE_READER.tsv`.
@@ -221,6 +222,24 @@ export. GDT737 passes 200 checks and byte-identical replay.
 Primary report:
 `experiments/yolo/gdt737_held_body_record_role_transfer/REPORT.md`.
 
+## GDT738 occurrence-gated semantic adjudication
+
+From 1,266 immediate slots around 811 held occurrences, 783 are jointly
+reader-exact; formal filtering yields FORMAL705, exact GDT734 semantic filtering
+yields permissive SEM570, and W2/W3+zero-composition+non-OTHER filtering yields
+W23-AXIS195. SEM570 supports 11 bodies/17 forms. W23 keeps direct `ain,sheedy`
+plus family-supported `kar,kaiin,kain,cheol,cheedy`; the four bodies
+`keey,cheor,ky,key` and five forms remain Discovery-only.
+
+The 12 licensed wholes are `lain,lcheedy,lcheol,lkaiin,lkain,lkar,lsheedy,
+pcheol,rain,rsheedy,sain,skaiin`: 203 exact occurrences and 202 position-valid
+patches, with one initial H4 `lkaiin` excluded and `skaiin` an explicit whole
+exception. They render local scalar, heat/processing, dry or moist/soaking
+fields with open patient/dimension and zero H1–H4, body, component, unseen-form
+or plaintext export. Validation passes 100 checks and byte replay. Cards:
+`experiments/yolo/gdt738_held_body_occurrence_semantic_adjudication/artifacts/ADJUDICATED_17_WHOLE_CARDS.tsv`;
+report: `experiments/yolo/gdt738_held_body_occurrence_semantic_adjudication/REPORT.md`.
+
 ## What remains usable from older work
 
 - Exact recurrent forms, line placement, within-field position, entry/closure
@@ -267,31 +286,14 @@ The complete closure memory is
 `./vmanus-exp route-check QUERY` before proposing a new family, then inspect
 only the returned primary reports and closed rows.
 
-## Next useful route: multihead candidate adjudication
+## Next useful route: bind the local dimension of the twelve cards
 
-Do not repeat GDT647's broad quality-family migration, GDT638's generic
-one-hole promotion or the closed lexical-gloss-from-formal-role route. Use the
-new GDT737 object instead: the same held body observed under two or three opaque
-heads and all of its cached occurrences. Test the strongest heat, dry, moist
-and value matrices against exact non-head-derived neighbour fields and explicit
-register/position exceptions. A candidate may enter only as a scoped complete
-headed whole; it may not become a free suffix, body lexeme or universal head
-meaning. Preserve GDT685's state-with-open-patient correction.
-
-The useful output is an occurrence-gated promotion/hold table for the 120 body
-candidates and repaired exact-whole cards for any headed surfaces that survive.
-Start with the high-coverage `ain`, `kaiin/kain`, `ky/key/keey`,
-`cheedy/sheedy/shdy`, `o`, `kar`, `chor` and `cheol` families, while treating
-`sary`, `so`, `skaiin`, `lcheol`, `lchor` and `lsheody` as explicit stress
-cases. Open no new page, image or transcription.
+Project the 12 licensed wholes into 202 cached positions and dispatch degree,
+dose or process passage, and dry versus moist result. Keep the five
+Discovery-only forms silent. Export no `ain`,`kaiin`,`cheol` or other
+substring, fill no patient from old p/s/r/l nouns, and open no new material.
 
 ## Primary routing references
 
-- Reports, dependencies and validators: `experiments/EXPERIMENT_INDEX.tsv`
-- Full live claim registry: `VOYNICH_ACTIVE_STATE.md`
-- Append-only material history:
-  `experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv`
-- Grammar registry:
-  `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`
-- Closed family memory:
-  `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv`
+Use `experiments/EXPERIMENT_INDEX.tsv`, `VOYNICH_ACTIVE_STATE.md`, the ledger,
+grammar registry and `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv`.

@@ -19023,14 +19023,15 @@ H2–H3 becomes a partial count-affinity lead with no shared semantic label.
 The renderer correction is equally material. Eighty-two held forms possess a
 V99R7 whole card; eighty still contain literal powder, seed, root or wood
 patients inherited from the retired p/s/r/l material-head model and are now
-quarantined. Only `solaiin` (three portions of salt) and `sols` (finished salt
-species) remain as provisional current exact-whole working defaults. The
-executable precedence is current clean exact whole, observed register and
-position role, then unknown. A separate 120-body candidate deck retains the
-best heat, dry, moist, value, material, part and preparation hypotheses with
-confidence and counterevidence; `chr`, `oiir` and `oiis` remain unknown and six
-more bodies are structure-only. Every candidate has zero renderer licence,
-zero component export and zero lexeme confidence.
+quarantined. GDT737 provisionally retained `solaiin` (three portions of salt)
+and `sols` (finished salt species), but GDT738 subsequently re-audits and
+downgrades both literal salt readings to audit-only HOLD. The executable
+precedence is current clean exact whole, observed register and position role,
+then unknown. A separate 120-body candidate deck retains the best heat, dry,
+moist, value, material, part and preparation hypotheses with confidence and
+counterevidence; `chr`, `oiir` and `oiis` remain unknown and six more bodies are
+structure-only. Every body candidate has zero automatic renderer licence, zero
+component export and zero lexeme confidence.
 
 GDT737 passes 200 independent checks and byte-identical replay. Canonical
 transfer correction:
@@ -19047,3 +19048,46 @@ dry, moist and value matrices and preserve GDT685's state-with-open-patient
 boundary. No component, suffix or universal head meaning may be promoted.
 Physical glyph geometry remains unobserved and requires a separate authorized
 image audit.
+
+## GDT738 selects a 12-form occurrence-gated renderer core
+
+GDT738 rebuilds every immediate neighbour around the fixed GDT737 held panel:
+1,266 slots, of which 783 have reader-exact target and neighbour. A formal
+initial-head exclusion leaves 705 slots from 520 occurrences/109 bodies/182
+forms. Exact GDT734 cell joins with unknown and retired-patient filtering leave
+SEM570 at 570 slots from 444/105/162. The W2/W3, zero-composition, non-OTHER
+axis intersection leaves W23-AXIS195 at 195 slots from 178/71/89. No new page,
+image or transcription is opened; the held panel remains 120 bodies, 273 forms,
+811 occurrences, 134 cached pages, 697 loci and 619 reader-exact targets.
+
+The permissive deck supports eleven bodies: direct `ain,sheedy`; family-only
+`kar,keey,kaiin,kain,cheol,ky,cheor,key,cheedy`. `char,cheody` are explicit
+high-capacity contradicted family transfers. The strict W23 deck retains only
+seven supported bodies: direct `ain,sheedy` and family-only
+`kar,kaiin,kain,cheol,cheedy`. Thus four bodies and five forms remain
+Discovery-only rather than being erased or spoken.
+
+Seventeen complete forms remain visible. Exactly twelve receive occurrence
+licences:
+`lain,lcheedy,lcheol,lkaiin,lkain,lkar,lsheedy,pcheol,rain,rsheedy,sain,skaiin`.
+Their 203 reader-exact occurrences reduce to 202 patches after the explicit
+position scope; one initial H4 `lkaiin` stays unrendered. `skaiin` is the sole
+licensed learned-whole position exception. The practical readings are local
+scalar stage II, heat/processing stage II or III, dry status/result and
+moist/soaking result. Patients and scalar dimensions remain open. The five
+forms `lcheor,lkeey,lkey,lky,pcheor` stay Discovery-only.
+
+Both old salt cards are now retired: `solaiin` may at most retain an open
+material/value-post rival; `sols` an open finished/closed-form rival. Neither
+identifies salt, species or an absolute three. Eight historical microentry
+models support learned whole plus bound state/value/process architecture with
+zero target relation credit. Every head/body lexeme, component, plaintext and
+unseen-form export remains zero. The independent validator passes 100 checks
+and byte-identical replay. Primary report:
+`experiments/yolo/gdt738_held_body_occurrence_semantic_adjudication/REPORT.md`.
+
+Next project only the twelve licensed wholes into their 202 cached positions
+and bind each occurrence's local dimension: quality/degree versus amount/dose
+versus process passage, and dry versus moist/soaking result. Use longer complete
+cached passages; do not export a body substring or fill an open patient from
+the retired head nouns. No new page is required.

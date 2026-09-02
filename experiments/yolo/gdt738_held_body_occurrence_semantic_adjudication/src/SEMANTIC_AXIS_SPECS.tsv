@@ -1,0 +1,11 @@
+axis_id	keyword_regex	working_interpretation	patient_identity_credit
+HEAT	heiß|erhitz|erwärm|heiz|warm	heat or processing-intensity field	0
+COLD	kalt|abgekühl|abkühl	cold or cooling field	0
+DRY	trocken|getrock|trockn	dry or drying field	0
+MOIST	feucht|einweich|angefeucht	moistening or soaking field	0
+VALUE	wert|menge|maß|grad|stufe|klasse|dosis|charge|index|pfund|gewicht|handvoll|gebinde	value, amount, degree or rank field	0
+PART	\bteil|fraktion|portion|anteil|blüt|frucht|reproduktion	part, share or portion field	0
+MATERIAL	material|rohstoff|droge|stoff|\bgut|blatt|kraut	open material field; identity discarded	0
+PREPARATION	ansatz|zubereitung|kompositum|misch	preparation or mixture field	0
+CLOSE	abgeschlossen|fertig|schluss|geschlossen	completion or closure field	0
+PROCESS	nehmen|abseih|trenn|abmess|abfüll|trocknen|erhitze|einweichen|abkühlen	procedural-action field	0
