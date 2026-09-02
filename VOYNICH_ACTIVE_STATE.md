@@ -1,6 +1,6 @@
 # Voynich active state — structural reset baseline
 
-Updated: 2026-09-02. This is the full claim registry. For routine work, read
+Updated: 2026-09-03. This is the full claim registry. For routine work, read
 `VOYNICH_CURRENT_ROUTE.md` first and open only the relevant sections here and in
 `experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv`.
 
@@ -20103,3 +20103,53 @@ as content head, source/complement, parallel record field or result from their
 following role sequence. In parallel classify all sixteen `ol` amount contacts
 as head, object, context or source against matched quantity-bearing content
 wholes. Only after that discriminator should oil, water or wine be promoted.
+
+## GDT763 resolves `pcheey` as a field-bearing head and types the `ol` slots
+
+GDT763 enumerates all 199 reader-exact H1 occurrences on 82 admitted cache
+pages/183 loci. The position-matched paragraph-start medial cohort has 52
+occurrences: three `pcheey` and 49 controls. Every target follows exact
+`sho|sheo`, every target line contains multiple H1 forms, and two targets form
+the reader-exact gapped frame `pcheey X daiin`. All other H1 occurrences have
+only three such frames in 196 positions. A stricter non-H1 recurrence and
+geometry control contains eleven surfaces/33 occurrences and only one surface
+with an `X daiin` hit.
+
+The four opaque record classes also separate directionally after GDT762's
+working state sides. H1 follows dry/moist sides 6/12 times, an
+opportunity-normalized moist/dry ratio of 2.939; H2, H3 and H4 yield .541,
+.245 and .482. This supports a post-moist H1 subfield channel without naming
+H1. Within three slots, all three `pcheey` positions reach a working content
+field and two reach a scalar field. None has `PROCESS|PASS|CLOSE` within ±3,
+none is line-final, and none lies on a paragraph-end line. The result/residue
+reading is therefore downgraded.
+
+The portable `pcheey` whole becomes `gebundenes Trockenzubereitungs-/Form-II-
+Feld mit Wertfeld-Affinität; Stoffidentität offen`. Its exact neutral frame is
+`Feuchtzubereitung — Trockenzubereitung/Form II: folgendes Feld`.
+`Feuchtzubereitung aus Trockengut, Form II` remains a local C1 source rival
+because no relation marker identifies “aus”. Residual old literal material
+prose encountered only for display in the H1 windows is suppressed rather
+than allowed to re-enter the renderer.
+
+All sixteen fixed `ol` amount positions are now typed: nine HEAD, one
+OBJECT/PATIENT, five CONTEXT/SECOND_FIELD and one BILATERAL_AMBIGUOUS. The
+eighteen exact placement controls show that all nine matched medial-right
+content slots are working preparations. `ol` agrees with the preferred content
+side in 8/15 unambiguous contacts, close to preparations at 14/24 and unlike
+the strongly directional material class at 16/17. The portable whole is now
+`mengenfähiger Zubereitungs-/Inhaltskopf mit kontextuellen Nebenverwendungen`.
+The strongest exact span is f94v.9 `ol s aiin oly`, working `drei Drachmen
+Ansatz/Zubereitung; abseihen`; the unit remains replaceable. Zero source
+markers and zero independent liquid signatures leave oil unselected.
+
+GDT763 opens no page and passes 2,364 checks plus byte-identical replay.
+Primary report:
+`experiments/yolo/gdt763_h1_content_vs_record_discriminator/REPORT.md`.
+
+Next, keep the same cache and follow the five exact `H1 X daiin` triples and
+the four repeated `ol` amount orders into their bounded local fields. The aim
+is to decide whether the intervening `X` slot separates quality, material and
+preparation subtypes and thereby narrows `daiin` from generic value III toward
+degree, amount or another indexed field. Do not open a new page or infer a
+free component value.

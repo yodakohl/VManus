@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **760**
-- Experiment-associated tracked files: **13,176** (1.3 GiB)
-- Structured GDT337+ experiments: **425**
+- Experiments indexed: **761**
+- Experiment-associated tracked files: **13,202** (1.3 GiB)
+- Structured GDT337+ experiments: **426**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT763 | GDT763_h1_content_vs_record_discriminator | `PARTIAL__199_H1_OCCURRENCES__52_PARAGRAPH_START_MEDIAL_H1__PCHEEY_3_OF_3_POST_SHO_SHEO__2_OF_3_PCHEEY_X_DAIIN_VS_3_OF_196_OTHER_H1__SELECT_FIELD_BEARING_FORM_II_RECORD_CONTENT_HEAD__C1_SOURCE_RIVAL__RESULT_DOWNGRADED_ZERO_PROCESS_CLOSE_WITHIN_PLUS_MINUS3__OL_16_AMOUNT_POSITIONS_HEAD9_OBJECT1_CONTEXT5_BILATERAL1__OL_PREPARATION_LIKE_NOT_FIXED_SUBSTANCE__ZERO_CONFIRMED_LEXEMES__NO_NEW_PAGE` | [report](../experiments/yolo/gdt763_h1_content_vs_record_discriminator/REPORT.md) | 26 | 282.6 KiB | 11 | STRUCTURED_YOLO |
 | GDT762 | GDT762_moist_medium_candidate_discrimination | `PARTIAL__404_CANDIDATE_OCCURRENCES__11_DRY_MOIST_WHOLE_PAIRS__98_DIRECT_STATE_EDGES__66_RADIUS2_STATE_RELAYS__PCHEEY_3_OF_3_IMMEDIATELY_AFTER_SHO_OR_SHEO__SELECT_POST_MOIST_FORM_II_RECORD_FIELD__C1_DRY_SOURCE_RIVAL__CKHY_OPEN_RELAY_ONLY__OL_QUANTITY_BEARING_CONTENT_CARRIER__ZERO_SPECIFIC_MEDIUM_IDENTITY__ZERO_CONFIRMED_LEXEMES__NO_NEW_PAGE` | [report](../experiments/yolo/gdt762_moist_medium_candidate_discrimination/REPORT.md) | 33 | 574.1 KiB | 11 | STRUCTURED_YOLO |
 | GDT761 | GDT761_state_pair_outer_carrier_bridge | `PARTIAL__151_STATE_WHOLE_OCCURRENCES__224_CLEAN_DIRECT_EXACT_EDGES__CHOR_UNIQUE_NONAMOUNT_NEIGHBOR_ACROSS_ALL4_TARGETS__5_CONTACTS_5_PAGES__5_CHOR_CONDITIONAL_PHRASES__2_SHOR_SHEOR_BASE_RIVAL_SPANS__10_SHARED_DIRECT_FRAMES__CTHY_RADIUS2_PREPARATION_RELAY_ONLY__ZERO_SOLVENT_IDENTITY__ZERO_CONFIRMED_LEXEMES__NO_NEW_PAGE` | [report](../experiments/yolo/gdt761_state_pair_outer_carrier_bridge/REPORT.md) | 21 | 224.7 KiB | 15 | STRUCTURED_YOLO |
 | GDT760 | GDT760_quantity_bilateral_content_attachment | `PARTIAL__281_AMOUNT_EXPRESSIONS__45_CLEAN_CONTENT_ATTACHMENTS__44_PHRASE_POSITIONS__35_CONTENT_WHOLES__NO_UNIVERSAL_LEFT_SLOT__POSITION_CONDITIONED_ORIENTATION__CHEOR_SHEOR_DRY_MOIST_PART_LEAD__FUSED_S_GLOBAL_DRACHM_OVERLAY_NARROWED__ZERO_CONFIRMED_LEXEMES__NO_NEW_PAGE` | [report](../experiments/yolo/gdt760_quantity_bilateral_content_attachment/REPORT.md) | 22 | 316.5 KiB | 8 | STRUCTURED_YOLO |
