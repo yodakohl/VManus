@@ -19578,3 +19578,43 @@ entry/closure and direct-contact features. It may export only a whole-pair
 transformation rule; `q` remains an opaque contrast with zero character,
 sound, substring or lexeme credit. Primary report:
 `experiments/yolo/gdt750_form_gated_direct_host_dispatch/REPORT.md`.
+
+## GDT751 corrects the q-position story and enriches ten local `okeey` cards
+
+GDT751 freezes the 51 clean complete `qX`/`X` pairs and all 3,761 reader-exact
+cached occurrences (2,060 q-side, 1,701 unprefixed), then compares them with
+160 other one-initial-character complete pairs and a unique outcome-free
+51-pair frequency/length match. The inherited card layer preserves the same
+quality/stage in 47/51 q/base pairs and places `PREPARATION` only on the base
+in 41/51, with zero reverse cases. That pattern is explicitly model-internal:
+it cannot establish a value for q because it was selected from the existing
+working cards.
+
+The independent position result corrects the live route. Although q lies
+earlier in 33/51 pair-balanced comparisons, its mean normalized delta
+(-.066507) is nearly the matched-control value (-.061454), while all 160
+non-q pairs are even earlier (-.080680) and the fourteen non-q pairs with an
+o-initial base reach -.167448. A q-specific entry-position shell is therefore
+not supported.
+
+The complete-pair relation itself remains a weak lead. Twelve q/base pair types
+make 44 reader-exact immediate contacts on 27 pages, split 24 q-before-base and
+20 base-before-q. Their contact density is 35.313 per 1,000 minimum-side
+occurrences versus 20.349 for all non-q controls, a ratio of 1.735. This is
+evidence about the two complete forms as a relation, not evidence that EVA q is
+a prefix, morpheme, character value, abbreviation or word.
+
+Ten of the thirteen direct `qokeey`/`okeey` contacts intersect GDT750's already
+licensed HOT|END_STAGE occurrence gate. Those exact positions now receive the
+additional occurrence-local carrier `PREPARATION` and render as **heiße
+Zubereitung an der End-/Vollstufe** on seven pages. Other `okeey` occurrences
+do not inherit it. GDT751 passes 24,432 checks and a byte-identical replay.
+Primary report:
+`experiments/yolo/gdt751_q_base_carrier_shell_audit/REPORT.md`.
+
+The next route keeps the 44 direct q/base contacts fixed, clips them into
+GDT740/GDT744-style complete microfields and compares their role geometry with
+the 42 direct non-q control contacts. It asks whether an independently anchored
+unprefixed preparation/object or learned-content slot repeatedly contrasts
+with a q-side quality/state field. If not, the inherited carrier toggle is
+retired while the weak complete-pair relation remains descriptive only.
