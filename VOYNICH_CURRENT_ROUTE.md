@@ -221,7 +221,7 @@ export. GDT737 passes 200 checks and byte-identical replay.
 
 Primary report: `experiments/yolo/gdt737_held_body_record_role_transfer/REPORT.md`.
 
-## GDT738–GDT744 occurrence-gated whole, attachment and field renderer
+## GDT738–GDT745 occurrence-gated whole, attachment and field renderer
 
 GDT738 licenses twelve wholes at 202 positions. GDT739 keeps only radius one/two active: 43 quality, 15 amount,
 five process and 109 open scalar positions; 22 state/eight result, 73 carriers
@@ -239,14 +239,14 @@ passages. Two strict relays stay active; six inactive roles on five collision
 targets remain relational-only. GDT741 passes 87 checks and byte replay; report:
 `experiments/yolo/gdt741_local_attachment_boundary_relay_grammar/REPORT.md`.
 
-GDT742 removes role purity only for a direction-matching open carrier relay. It adds MATERIAL at D0143 and PREPARATION at D0164 while both axes stay open, giving 36 axes, 45 carriers, 58 specific and 144 open.
-Four roles on D0040/D0075/D0184 stay inactive; the two triggers share only a reduced in-sample signature. It passes 78 checks; report: `experiments/yolo/gdt742_r2_open_collision_adjudication/REPORT.md`.
-GDT743 shows that the proposed run gate does not discriminate: relaxed reverse/full-carrier R2 selects one contact and the coverage gate still selects one, excluding zero. A carrier-unconditioned scan finds six pairs, including D0027/D0187 hidden by the inherited request.
-D0075 receives only a bracketed provisional `Carrier=PREPARATION` tag; its axis stays open. D0040 remains a conditioned HOT lead without axis licence. Counts become 36 axes, 46 carriers, 59 specific and 143 open; 83 checks pass. Report: `experiments/yolo/gdt743_r2_run_intersection_adjudication/REPORT.md`.
+GDT742 adds occurrence-local MATERIAL at D0143 and PREPARATION at D0164 while both axes stay open (36 axes, 45 carriers, 58 specific, 144 open); four roles remain inactive. GDT743 finds that the proposed run gate excludes zero and exposes six carrier-unconditioned pairs.
+D0075 receives only provisional `Carrier=PREPARATION`; D0040 remains a conditioned HOT lead. Counts become 36 axes, 46 carriers, 59 specific and 143 open. Reports: `experiments/yolo/gdt742_r2_open_collision_adjudication/REPORT.md`, `experiments/yolo/gdt743_r2_run_intersection_adjudication/REPORT.md`.
 
 GDT744 clips all 202 radius-five contexts: 140 complete, 62 censored. Sixteen exact-whole/channel templates cover 80 positions (47 complete, 33 censored), add descriptive, recipe/process or quantity/part cards and raise target-or-field specificity 59→95.
 W3-only retains 69/80 templates and 67 same channels; 42 open content cells yield 41 surfaces and zero cross-page identities. Seventeen of twenty manual examples add information; 2,919 checks and byte replay pass.
 Report: `experiments/yolo/gdt744_historical_microfield_channel_bridge/REPORT.md`.
+
+GDT745 finds 136 cached occurrences of those 41 exact wholes on 53 pages; all 136 centered contexts stay OPEN, and `qochey` proves that field role cannot be inherited as word role. Clean complete-whole edit analogies give 34/41 multiwhole axis consensuses, including 17 with multiple agreeing distance-one neighbors, and 41 replaceable defaults with counterevidence. These are mixed quality/state, material/preparation, quantity/part and process/result families—not literal identities or component values. Report: `experiments/yolo/gdt745_exact_open_content_role_expansion/REPORT.md`.
 
 ## What remains usable from older work
 
@@ -288,10 +288,9 @@ Do not rerun without genuinely new data or a different falsifier:
 Closure memory: `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv`.
 Run `./vmanus-exp route-check QUERY`, then inspect returned primary reports and closed rows.
 
-## Next useful route: expand exact open content slots
+## Next useful route: test the strongest whole analogies in distribution
 
-Locate GDT744's 41 unresolved exact surfaces in other already cached occurrences and compare persistent descriptive-lemma, ingredient/process, quantity or open roles.
-Preserve whole identity: field roles are not translations; revive no GDT727 literal vocabulary or EVA substring value, and add no page, image or transcript.
+Compare GDT745's 17 strongest candidates with their agreeing distance-one whole neighbors by section, line position, left/right whole context and closure proximity. Promote only relationships that share real distributions; preserve whole identity, export no EVA substring value and add no page, image or transcript.
 
 ## Primary routing references
 

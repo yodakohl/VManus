@@ -19342,8 +19342,30 @@ The validator passes 2,919 checks and byte replay; the formal-context GDT388
 packet is intentionally invalid/not score-ready. Primary report:
 `experiments/yolo/gdt744_historical_microfield_channel_bridge/REPORT.md`.
 
-The next route expands those 41 exact content surfaces across their already
-cached occurrences outside the 202 windows and compares persistent descriptive,
-prescriptive, quantity and open roles. Preserve complete-whole identity and
-seek learned names or ingredients there; do not turn recurrence or an EVA
-substring into a lexeme. No new page is required.
+## GDT745 expands the open cells but rejects direct field-to-word inheritance
+
+The 41 exact GDT744 surfaces have 136 cached ZL3b occurrences on 53 pages and
+121 lines; 123 are exact in all three alternate readings and 22 wholes cross
+pages. Candidate-centered GDT744 windows provide no shortcut: all 136 remain
+OPEN. The 202 inherited fields add only two memberships, and the only new
+cross-page case, `qochey`, conflicts between QUANTITY_OR_PART and
+DESCRIPTIVE_MATERIA. Field role therefore does not transfer as word meaning.
+
+After excluding component-derived, HOLD and withdrawn literal patient rows,
+770 clean W2/W3 readings over 769 known complete wholes supply 213 edit-distance
+one/two relations. Thirty-four of 41 candidates receive a multiwhole semantic-
+axis consensus; 17 already have multiple agreeing distance-one neighbors. The
+41 explicit defaults consequently describe a mixed population of quality/state,
+material/preparation, quantity/part and process/result wholes. They are
+replaceable working values with evidence and counterevidence, not lexemes.
+`olky`, `oeedy`, `ytapy`, `qochey`, the single-neighbor cases and two neighborless
+forms retain their conflicts visibly. The validator passes 5,318 checks and
+byte replay. Primary report:
+`experiments/yolo/gdt745_exact_open_content_role_expansion/REPORT.md`.
+
+The next route compares GDT745's 17 strongest candidates against their agreeing
+distance-one neighbors in actual occurrence distributions: section, line
+position, left/right complete-whole context and closure proximity. This tests
+whether, for example, `cheeey` occupies the same paradigm position as
+`cheey/cheedy`, without exporting any EVA substring value. No new page is
+required.
