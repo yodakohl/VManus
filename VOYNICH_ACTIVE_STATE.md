@@ -19856,3 +19856,39 @@ followers. The newly separated formula slots should help choose concrete
 whole-form rivals: leaf/root/seed after take or Item, water/wine/oil in liquid
 slots, and soak/dry/cool in process continuations. Alternatives remain live;
 no character or substring inherits a value.
+
+## GDT758 replaces eleven forced `ychor`-follower defaults globally
+
+GDT758 follows the eleven distinct forms immediately following the thirteen
+reader-exact `ychor` line starts through every admitted exact occurrence. The
+result covers 1,141 tokens, 907 loci and 175 already cached pages; it opens no
+new page, image or transcription. The pass assigns all eleven forms a global,
+replaceable complete-whole default, revises all eleven GDT756 assignments and
+changes 23 of the 71 positions in the thirteen-line reader.
+
+The decisive correction is **`s=je/zu gleichen Teilen`**, not `Samen`. Among
+99 exact right contexts, 25 contain the ordered `an/ain/aiin/aiiin` value
+family (descriptive lift 11.684203); the exact `s aiin` pair alone occurs 23
+times (lift 14.493663). By such hits `or` ranks first, `ar` second and `s`
+third, so the live model is a small competing amount ecology rather than one
+unique number key. Recipe *ana* supplies a historical functional comparator;
+the EVA shape itself supplies no Latin letter or abbreviation value.
+
+The repaired whole-form deck is `chor=Pflanzenteil, wahrscheinlich Blüten-/
+Samenstand` (C1), `chshoty=kalte Trockenzubereitung` (C0), `cthy=Blattgut`
+(C2), `oky=erste Wärmestufe` (C1), `qokchol=erhitzt und getrocknet` (C2),
+`s=je/zu gleichen Teilen` (C2), `ar=Anteil` (C2), `odol=abgemessene
+Zubereitung` (C1), `ols=abgeseihtes Endprodukt` (C0), `sheol=feucht/
+eingeweicht` (C2) and `chol=trocken/getrocknet` (C2). `cthy=Wurzel` is
+replaced by the independently recurring Herbal/part lead `Blattgut`; invented
+carriers are removed from `chol`, `qokchol` and `sheol`. Eight exactly observed
+`ychor` spans receive local one-time renderings. None licenses free component
+export, a confirmed lexeme or a plaintext sentence. GDT758 passes 206 checks
+and a byte-identical replay. Primary report:
+`experiments/yolo/gdt758_ychor_follower_global_content_census/REPORT.md`.
+
+The next pass compares the complete mini-constructions `s/or/ar +
+an/ain/aiin/aiiin`, `chor/cthy + chol/qokchol/sheol`, and `odol/ols` in all
+admitted exact contexts. Its job is to turn compatible candidates into useful
+multiword renderings or replace them when their global construction behavior
+does not fit.
