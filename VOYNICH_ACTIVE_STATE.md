@@ -18853,3 +18853,38 @@ cells outside exact scope without promoting them to portable word meanings.
 Audit the one remaining exact-context grade phrase and eight alias/merge cells
 individually. Do not jump to Y cleanup while this projection debt makes the
 full reader audibly inconsistent.
+
+## GDT733 compiles one current cache and restores the complete unit layer
+
+GDT733 integrates all 32,339 cached cells/4,128 lines under one explicit
+precedence: 30 exact V99 plus spoken cells, 52 exact contexts superseding V48
+grade text, 397 other exact contexts, 2,401 global GDT732 cells, 4,692
+occurrence-local legacy grade cells, eight legacy alias anchors, 6,866 further
+unconditional V99R4 globals and 17,893 inherited cells. The inherited V48
+projection's 7,183 analytical grade-frame cells fall to zero. Spoken
+formatting touches 7,132 cells/7,125 practical units; modality and workflow
+closure remain exact. This does not remove indexed wording such as `Grad II`,
+`Menge III` or `Mittelstufe`.
+
+The first draft exposed why the cell register and spoken units must remain
+separate. Manual inspection found two older bound spans printing twice with
+debug text, four punctuation cells emitted as words and 48 doubled
+`; ; hierzu:` joins. The final unit layer executes all eight inherited V99
+bound spans and eight legacy merges once, consuming 32 unique positions into
+sixteen units; four disjoint punctuation positions attach structurally.
+Exactly 32,319 practical units remain. No `keine Einzelausgabe`, `Gesamtspan`
+or doubled separator survives. Independent validation passes 4,223 checks.
+
+Canonical cell register:
+`experiments/yolo/gdt733_v99r6_integrated_legacy_grade_cache_renderer/artifacts/V99R6_32339_CELL_REGISTER.tsv`.
+Canonical complete line reader:
+`experiments/yolo/gdt733_v99r6_integrated_legacy_grade_cache_renderer/artifacts/V99R6_4128_INTEGRATED_LINE_READER.tsv`.
+
+The next no-new-page route is GDT734. Start from the now honest largest debt:
+7,989 unknown cells across 5,107 forms, of which 3,998 are singletons. Build a
+recurrent unknown-family inventory, combine already admitted whole-form and
+component families into short concrete candidate meanings, and carry score,
+confidence, positive evidence, counterevidence and exact scope for every
+candidate. Prioritise coverage and practical passage gain. Do not use a
+coordinate or neighbouring word by itself as the value, and do not force the
+name-like singleton tail into one generic material gloss.

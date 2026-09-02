@@ -1,0 +1,9 @@
+priority	integration_class	authority	expected_cell_count	actual_cell_count	semantic_changes_from_v48	spoken_changes_from_semantic	final_changes_from_v48	grade_cells_v48	grade_cells_current_semantic	grade_cells_v99r6	change_rule
+1	V99_EXACT_CONTEXT_GDT732_SPOKEN	GDT727_EXACT_CONTEXT_PLUS_GDT732_SPOKEN_POLICY	30	30	7	30	30	30	30	0	Keep the exact V99 context meaning and apply only the licensed GDT732 spoken grade rendering.
+2	V99_EXACT_CONTEXT_SUPERSEDES_V48_GRADE	GDT727_EXACT_CONTEXT	52	52	52	1	52	52	1	0	Replace the superseded inherited V48 grade cell with the exact current V99 context realization.
+3	V99_EXACT_CONTEXT_OTHER	GDT727_EXACT_CONTEXT	397	397	340	0	340	0	0	0	Replace the inherited cache cell with the exact current V99 context realization.
+4	GDT732_GLOBAL_SPOKEN_OVERLAY	GDT732_GLOBAL_SURFACE_OVERLAY	2401	2401	113	2401	2401	2401	2401	0	Use the GDT732 spoken rendering while preserving its formal modality, stage, closure and source-whole metadata.
+5	ACTIVE_SURFACE_OUTSIDE_EXACT_SCOPE_LEGACY	GDT671_LEGACY_V48_CONTEXT_CELL	4692	4692	0	4692	4692	4692	4692	0	Keep the occurrence-local inherited V48 semantic cell; never substitute the active surface core by surface alone. A spoken cleanup may alter wording only with legacy provenance retained.
+6	LEGACY_CONTEXTUAL_ALIAS_OR_MERGE	GDT671_LEGACY_CONTEXTUAL_ALIAS	8	8	0	8	8	8	8	0	Keep the complete occurrence-local inherited compound cell; never replace it with the bare global surface default.
+7	ADDITIONAL_UNCONDITIONAL_V99R4_GLOBAL	GDT730_UNCONDITIONAL_GLOBAL_DEFAULT	6866	6866	1018	0	1018	0	0	0	Project the exact V99R4 global whole default; preserve score, scope, evidence and zero component export.
+8	INHERITED_OTHER	GDT671_V48_CACHE	17893	17893	0	0	0	0	0	0	Retain the inherited cache cell byte-for-byte.
