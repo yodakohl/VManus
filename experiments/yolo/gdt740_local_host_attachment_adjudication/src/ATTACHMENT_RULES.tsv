@@ -1,0 +1,9 @@
+rule_id	contact_condition	contact_decision	active_renderer_effect
+A01	distance=1 and same ordered pair is alternate-reader exact on at least two loci	ATTACHED_STRONG_REPEATED_DIRECT	retain contact role at those complete occurrences
+A02	distance=1 and ordered pair is unique in the guarded exact-pair census	SUPPORTED_DIRECTION_DIRECT_OR_PROVISIONAL_REVERSE_DIRECT	retain role provisionally; formal direction changes confidence label only
+A03	distance=2 with an independently emitted intervening cell	NEAR_ONLY_HOLD_UNLESS_ENUMERATED_RELAY	do not speak by default; an explicit same-axis or same-carrier three-cell relay may survive
+A04	manual result/end mode lacks an attached process-result frame	DOWNGRADE_TO_QUALITY_STATE	retain result only at an enumerated locally supported occurrence
+A05	at least one direct AXIS contact survives	RETAIN_LOCAL_AXIS	complete target occurrence only
+A06	one direct host carries the selected broad carrier combination	RETAIN_BROAD_CARRIER	complete target occurrence only
+A07	distinct flanking hosts contribute incompatible roles or a direct closure boundary terminates scope	OPEN_OR_HOLD	do not fuse or cross boundary; preserve candidates in contact audit
+A08	any proposed head/body/component/unseen-form/global/literal-patient export	FORBIDDEN	zero export

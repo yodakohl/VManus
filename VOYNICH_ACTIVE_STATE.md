@@ -19140,3 +19140,50 @@ actually shares a microentry: direction, intervening boundary and repeated
 exact ordered frame must be checked before semantic proximity becomes an
 attachment. GDT630 is a prior attachment route, so a successor must use the
 corrected GDT739 candidate deck and must not revive its old literal part nouns.
+
+## GDT740 separates local attachment from semantic proximity
+
+GDT740 reconstructs the complete selected ring around GDT739's formerly
+specific positions. The evidence deck contains 104 typed contacts: 103
+role-bearing contacts on 90 targets and the non-binding conflict cue
+`G739-N00627`. The binding deck has 43 axis+carrier, 33 carrier-only and 27
+axis-only rows. Sixty-two contacts are direct on 58 targets; 41 are radius two
+on 40 targets. All contact cells are single-cell practical units and no target
+and host already share a bound span.
+
+The 103 contacts reduce to 100 ordered keys. Three alternate-reader-exact
+pairs repeat twice: `ycheeo lkaiin`, `sain sheor`, and `qokey sain`. Raw ZL3b
+also repeats `cho lkain`, but its second occurrence fails alternate-reader
+exactness. No complete radius-two three-cell frame repeats.
+
+Fifty-five direct contact rows remain renderer-active. Seven are held: four
+carrier contacts on two targets would fuse components supplied by separate
+hosts, one preparation contact crosses a closure boundary, and two contacts on
+one target would fuse axis and carrier from opposite flanks. Every radius-two
+middle cell emits its own practical unit. Thirty-nine contacts therefore hold;
+two explicitly enumerated manual relays survive: `qokeey–okeey–lain` as an
+axis relay and `pcheol–sholoiin–cthor` as a broad-carrier relay.
+
+The renderer now has 36 axis-specific and 43 broad-carrier occurrences, 56
+positions with any specific channel and 146 fully open positions. Forty-nine
+of 202 patches change. The scalar split is 24 quality, six amount, four process
+and 138 open/conflicted. GDT739's 22 state/eight result split becomes 29 state
+and one locally supported result at `f103r.47`. The 57 retained contact rows
+carry 80 retained role flags: 36 axis and 44 carrier; the extra carrier flag is
+a second contact on one carrier-bound occurrence, not a 44th occurrence.
+
+The historical field-order evidence remains only a qualitative architecture
+prior; it does not attest token adjacency. All 13 manual occurrence overrides
+and all 20 cellwise review displays are explicit. The six repeated contacts fail the
+GDT388 capacity, holdout, provenance and mobile-null gates and remain an
+intentional `INVALID_PACKET`. GDT740 passes 85 checks plus byte-identical
+replay. It exports no word, component, plaintext, literal patient, species,
+unit, new page, `f84` or `f84r`. Primary report:
+`experiments/yolo/gdt740_local_host_attachment_adjudication/REPORT.md`.
+
+Next replace the thirteen dispatch-ID overrides with a small executable local
+boundary/relay grammar. It must predict closure ownership, split-carrier and
+opposite-flank conflicts, the two semantic relays, and result support from
+cached local features, then run over all 104 evidence contacts. This is a new
+predictive compression of GDT740, not a return to GDT552/GDT558/GDT630's old
+atom vocabulary or literal part nouns. No new page is required.

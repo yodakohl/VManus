@@ -221,25 +221,23 @@ export. GDT737 passes 200 checks and byte-identical replay.
 
 Primary report: `experiments/yolo/gdt737_held_body_record_role_transfer/REPORT.md`.
 
-## GDT738–GDT739 occurrence-gated whole and local-host renderer
+## GDT738–GDT740 occurrence-gated whole and attachment renderer
 
-GDT738's FORMAL705/SEM570/W23-AXIS195 decks retain 17 visible forms and license
-12 complete wholes at 202 position-valid occurrences; five forms remain
-Discovery-only. GDT739 then audits 1,373 radius-five neighbors. Its full gate
-leaves 230 eligible contacts and 62/98/121/146 target occurrences with a host by
-radius 1/2/3/5; only radius two is active.
+GDT738 retains 17 visible forms and licenses twelve complete wholes at 202 exact positions; five stay Discovery-only. GDT739 audits 1,373 radius-five neighbors; 230
+contacts survive, but only radius one/two may render. Its 172 scalar positions
+split 43 quality, 15 amount, five process and 109 open; the 30 state positions
+split 22 state/eight result, 73 carriers bind and 107 positions remain fully open.
 
-Among 172 scalar occurrences the nearest unanimous host yields 43 quality
-degrees, 15 amount/portion levels and five counted process passages; 109 stay
-open or conflicted. Among 30 state occurrences, 22 are descriptive and eight
-result/end fields, but only six have local support for the formerly automatic
-dry/moist axis. Seventy-three of all 202 bind a broad carrier; 107 remain fully
-open after all active bindings.
+GDT740 separates proximity from attachment. Its 104 typed contacts comprise 103
+role-bearing rows on 90 targets plus one conflict cue. All are single practical
+units with zero shared bound spans. Of 62 direct contacts, 55 remain active;
+seven fail component, closure or flank gates. Of 41 radius-two contacts, 39 are
+silent and two relays remain. Three pairs repeat; no radius-two frame repeats.
 
-The invariant spoken core is now complete-whole field class plus ordered level.
-Heat/dry/moist/fraction remain silent candidate priors unless locally hosted.
-There is zero substring, head/body, literal-patient, species, unseen-form or
-plaintext export. GDT739 passes 51 checks and byte-identical replay; report: `experiments/yolo/gdt739_twelve_whole_local_dimension_dispatch/REPORT.md`.
+The corrected renderer retains 36 axes, 43 broad carriers and 56 specific
+positions; 146 are open, 49 change and only one of eight old result modes survives.
+Its invariant core is whole-field class plus ordered level. GDT740 passes 85
+checks and byte replay; report: `experiments/yolo/gdt740_local_host_attachment_adjudication/REPORT.md`.
 
 ## What remains usable from older work
 
@@ -285,15 +283,17 @@ The complete closure memory is
 `./vmanus-exp route-check QUERY` before proposing a new family, then inspect
 only the returned primary reports and closed rows.
 
-## Next useful route: verify local host attachment
+## Next useful route: replace manual attachment exceptions with a local grammar
 
-Test the 95 non-fully-open GDT739 positions for actual microentry attachment,
-side/direction and intervening boundary using repeated exact ordered frames,
-not semantic proximity alone. This differs from GDT630: use the corrected
-GDT739 host deck, keep old literal part/patient nouns unavailable, and downgrade
-any merely adjacent host that does not share a formal local unit. No new page.
+Compile GDT740's thirteen manual overrides into the smallest executable grammar
+that predicts them without IDs or loci. Use cached distance, closure ownership,
+split versus single-host carriers, flank agreement, middle-cell continuity,
+local result support and formal direction; run it over all 104 contacts and
+surface every new collision. Unlike GDT552/GDT558/GDT630, revive neither their
+old atom dictionary, literal part readings nor control envelopes. Make the
+current twelve-whole renderer predictive without a new page, image or transcript.
 
 ## Primary routing references
 
 Use `experiments/EXPERIMENT_INDEX.tsv`, `VOYNICH_ACTIVE_STATE.md`, the ledger,
-grammar registry and `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv`.
+grammar registry and the closed-route registry.

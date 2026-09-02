@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **737**
-- Experiment-associated tracked files: **12,700** (1.3 GiB)
-- Structured GDT337+ experiments: **402**
+- Experiments indexed: **738**
+- Experiment-associated tracked files: **12,723** (1.3 GiB)
+- Structured GDT337+ experiments: **403**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT740 | GDT740_local_host_attachment_adjudication | `PARTIAL__103_BINDING_CONTACTS_PLUS_ONE_CONFLICT_CUE__62_DIRECT_CONTACTS_ON_58_TARGETS__39_RADIUS_TWO_HELD_PLUS_TWO_MANUAL_RELAYS__ONE_LOCAL_RESULT_MODE__BOUNDARY_AND_FLANK_FUSION_REPAIRED__ZERO_LEXEME_OR_COMPONENT_EXPORT__NO_NEW_PAGE` | [report](../experiments/yolo/gdt740_local_host_attachment_adjudication/REPORT.md) | 23 | 342.0 KiB | 6 | STRUCTURED_YOLO |
 | GDT739 | GDT739_twelve_whole_local_dimension_dispatch | `PARTIAL__202_HOST_FIRST_OCCURRENCE_DISPATCHES__FORM_CLASS_AND_LEVEL_CORE__RADIUS_TWO_AXIS_OR_CARRIER_BINDING__RADIUS_THREE_TO_FIVE_DISCOVERY_ONLY__CHEEDY_SHEEDY_RESULT_DEFAULT_DOWNGRADED__EIGHT_LOCAL_RESULT_OVERRIDES__ZERO_LEXEME_OR_COMPONENT_EXPORT__NO_NEW_PAGE` | [report](../experiments/yolo/gdt739_twelve_whole_local_dimension_dispatch/REPORT.md) | 20 | 450.1 KiB | 3 | STRUCTURED_YOLO |
 | GDT738 | GDT738_held_body_occurrence_semantic_adjudication | `PARTIAL__TWO_DIRECT_CROSS_HEAD_SURVIVORS__FIVE_ADDITIONAL_W23_FAMILY_SURVIVORS__FOUR_DISCOVERY_ONLY_FAMILY_PASSES__TWELVE_SCOPED_COMPLETE_WHOLE_CARDS__LITERAL_SALT_DOWNGRADED__ZERO_LEXEME_EXPORT__NO_NEW_PAGE` | [report](../experiments/yolo/gdt738_held_body_occurrence_semantic_adjudication/REPORT.md) | 28 | 683.6 KiB | 4 | STRUCTURED_YOLO |
 | GDT737 | GDT737_held_body_record_role_transfer | `HELD_120_LOCATION_AXIS_REPLICATES_STRONGLY__FROZEN_BODY_AFFINITY_2X2_FAILS_TRANSFER__H1_H4_DOWNGRADED_TO_WEAK_OCCUPANCY_ASSOCIATION__H2_H3_PARTIAL_AND_AIN_DOMINATED__REGISTER_GATED_HEAD_ROLES__EXACT_WHOLE_FALLBACK_REQUIRED__ZERO_LEXEMES__NO_NEW_PAGE` | [report](../experiments/yolo/gdt737_held_body_record_role_transfer/REPORT.md) | 24 | 576.7 KiB | 5 | STRUCTURED_YOLO |
