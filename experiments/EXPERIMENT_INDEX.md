@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **729**
-- Experiment-associated tracked files: **12,499** (1.2 GiB)
-- Structured GDT337+ experiments: **394**
+- Experiments indexed: **730**
+- Experiment-associated tracked files: **12,521** (1.2 GiB)
+- Structured GDT337+ experiments: **395**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT732 | GDT732_v99r5_grade_frame_spoken_renderer | `PASS_175_GRADE_READINGS_2431_LICENSED_POSITIONS__162_GLOBAL_2401_PLUS_13_ACTIVE_30__1784_TARGET_ACTIVE_SURFACE_LEAK_CONTROLS__75_DIRECT_ROWS_1748_POSITIONS__100_NEUTRAL_ROWS_683_POSITIONS__ZERO_TARGET_GRADE_FRAMES__4752_V48_BASELINE_RESIDUALS_4692_ACTIVE_OUTSIDE_EXACT_PLUS_52_SUPERSEDED_EXACT_PLUS_8_ALIAS_MERGE__V99R4_SEMANTIC_DICTIONARY_BYTE_STABLE__NO_NEW_PAGE` | [report](../experiments/yolo/gdt732_v99r5_grade_frame_spoken_renderer/REPORT.md) | 22 | 6.3 MiB | 8 | STRUCTURED_YOLO |
 | GDT731 | GDT731_v99r4_occurrence_passage_impact | `PASS_94_SURFACES_1039_POSITIONS_911_LINES__351_COMPLETE_LINES__50_TARGET_DENSE_PASSAGES__GDT696_OVERLAYS_BYTE_STABLE__CACHED_DEFAULT_IMPACT_ONLY__NO_POLISHED_TRANSLATION_OR_NEW_PAGE` | [report](../experiments/yolo/gdt731_v99r4_occurrence_passage_impact/REPORT.md) | 18 | 2.2 MiB | 4 | STRUCTURED_YOLO |
 | GDT730 | GDT730_v99r4_ninety_four_ambiguity_default_dispatch | `PASS_V99R4_94_AMBIGUOUS_GLOBAL_WHOLES__1039_OCCURRENCES__TECHNICAL_SELECTOR_95_ROWS_1050_OCCURRENCES__CPHOL_LEXICAL_FALSE_POSITIVE__MAIN_AND_CONTEXT_DEFAULTS_AMBIGUITY_FREE__GDT730_PROVENANCE_APPENDED__SCORE_CONFIDENCE_EVIDENCE_SCOPE_EXPORT_SPAN_STRUCTURE_ACTION_UNCHANGED__ZERO_COMPONENT_CREDIT` | [report](../experiments/yolo/gdt730_v99r4_ninety_four_ambiguity_default_dispatch/REPORT.md) | 19 | 1.4 MiB | 12 | STRUCTURED_YOLO |
 | GDT729 | GDT729_v99r3_fourteen_indexed_quantity_dispatch | `PASS_V99R3_14_QUANTITY_READINGS__5_CARDINAL_1_INDEXED_SHARE_7_OPEN_VALUE_1_QUALITY_GRADE_0_MEASURE_0_HOLD__140_OCCURRENCES__NO_SLASH_AMBIGUITY_IN_TARGET_MEANINGS__324_ACTIVE_1248_OTHER_GLOBAL_BYTE_STABLE__SCORE_EVIDENCE_SCOPE_EXPORT_UNCHANGED__ZERO_COMPONENT_CREDIT__ALL_H0_NONE` | [report](../experiments/yolo/gdt729_v99r3_fourteen_indexed_quantity_dispatch/REPORT.md) | 16 | 1.3 MiB | 10 | STRUCTURED_YOLO |

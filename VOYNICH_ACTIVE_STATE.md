@@ -18809,3 +18809,47 @@ separate analysis channel, but render the audible state by modality as
 soaked. GDT558's carrier envelopes and GDT717's state/stage grid are inherited
 constraints, not routes to reopen. Afterwards remove audible Y structure; do
 not blanket-fill the diffuse unknown tail or unnamed materials.
+
+## GDT732 adds a scope-safe spoken grade layer and exposes the cache lineage debt
+
+GDT732 selects all 175 V99R4 readings with an audible analytical grade frame
+and reconstructs all 2,431 licensed positions: 162 global readings/2,401
+positions plus thirteen active readings/thirty exact positions. Every original
+column of the 1,586-row V99R4 dictionary remains byte-identical. Seven overlay
+fields retain the spoken German state, formal stage sequence, workflow closure,
+modality, renderer mode, dispatch scope and exact policy rule.
+
+Seventy-five readings/1,748 positions support direct state prose; 100/683 keep
+a neutral stage because their process axis is mixed, composite-ambiguous or
+unstated. Examples are `heiß am Ende des Grades` → `vollständig erhitzt`,
+`kalt in der Mitte des Grades` → `bis zur Mittelstufe abgekühlt`, and
+`trocken am Gradende, dann heiß am Gradanfang` → `vollständig getrocknet,
+dann leicht erhitzt`. Mixed closed states retain both axes and separate stage
+from closure: `kalt-feuchter Ansatz, Mittelstufe erreicht; abgeschlossen`.
+Across target cells 2,469 grade markers fall to zero while all 728 closure
+markers and 3,015 modality mentions remain exact. Scores, confidence,
+positive/counterevidence, scope, export, actions and component credit do not
+change; eight GDT696/GDT727 artifacts remain byte-stable.
+
+The full-cache reality check must be read as a target-only projection over the
+inherited V48 baseline, not as a fully merged current reader. It still displays
+4,752 grade-bearing V48 cells: 1,784 occurrences of the thirteen target active
+surfaces outside their thirty exact positions; 2,908 occurrences of 41 other
+active surfaces outside their exact positions; 52 old V48 cells already
+superseded at exact V99 positions; and eight contextual `o/ch/dom` alias/merge
+cells. Installing the existing V99 values removes 51 of those 52 exact-position
+markers; only f104v.2 ordinal3 `chockhy` retains one. The fifty-passage reader
+now lists every untouched residual by ordinal and lineage class.
+
+Canonical spoken dictionary:
+`experiments/yolo/gdt732_v99r5_grade_frame_spoken_renderer/artifacts/V99R5_COMPLETE_SPOKEN_RENDERER.tsv`.
+Canonical passage reader:
+`experiments/yolo/gdt732_v99r5_grade_frame_spoken_renderer/artifacts/GDT732_V99R5_50_TARGET_DENSE_READER.md`.
+
+The next no-new-page route is GDT733: build one integrated current-cache
+renderer, first installing the 52 already licensed V99 contexts, then applying
+the frozen GDT732 voice positionally to the 4,692 active-surface V48 context
+cells outside exact scope without promoting them to portable word meanings.
+Audit the one remaining exact-context grade phrase and eight alias/merge cells
+individually. Do not jump to Y cleanup while this projection debt makes the
+full reader audibly inconsistent.
