@@ -18950,7 +18950,7 @@ pharmaceutical abbreviations. A literal head meaning may return only from
 context, grapheme and record-role convergence; the EVA label itself never
 counts. No new page is needed for that pass.
 
-## GDT736 selects a record-location × body-affinity grid
+## GDT736 selects a training-scope record-location × body-affinity grid
 
 The complete occurrence rebuild has 1,166 target positions on 141 pages and
 946 loci within the inherited 179-page allow-list; 875 are surface-exact across
@@ -18965,11 +18965,13 @@ the six represented sections. H1 is paragraph-first 49/135 times versus H2
 
 Across the same 24 body dimensions, occurrence vectors pair H1–H4 at cosine
 0.919004 and H2–H3 at 0.934429; reader-exact vectors reproduce 0.910885 and
-0.942449. All other head pairings are 0.342219–0.469380. The active formal
-model is therefore entry/internal record location crossed by opaque body
-cluster A (H1/H4) and cluster B (H2/H3). Under inherited body Working Roles,
-A is form/state-heavy and B materia/value-heavy, but this semantic orientation
-is replaceable and supplies no lexeme. H2/H3 also have more split-only reader
+0.942449. All other head pairings are 0.342219–0.469380. On this selected
+24-body training grid, the formal model was entry/internal record location
+crossed by opaque body cluster A (H1/H4) and cluster B (H2/H3). GDT737 later
+fails the frozen transfer test for that full pairing, so A/B no longer exports
+beyond the 24 training bodies. Under inherited body Working Roles, A was
+form/state-heavy and B materia/value-heavy, but this orientation supplies no
+lexeme. H2/H3 also have more split-only reader
 normalization than H1/H4 (OR 2.745124, CI 1.336602–5.637957); this is only a
 free-form proxy, not observed physical attachment.
 
@@ -18988,7 +18990,60 @@ grid:
 Complete renderer:
 `experiments/yolo/gdt736_opaque_head_record_role_bridge/artifacts/OPAQUE_96_CONCRETE_ROLE_GRID.tsv`.
 
-Next freeze all four roles and test transfer to the remaining multihead shared
-bodies outside the selected complete 24. A transfer pass may extend scoped body
-defaults but may not retune H1–H4 after seeing held families. Physical glyph
-geometry remains unobserved and requires a separate authorized image audit.
+## GDT737 transfers the location axis and rejects the full affinity 2x2
+
+The held panel consists of all 120 GDT635 shared bodies outside GDT736's 24
+complete training bodies: 87 with two heads and 33 with three, producing 273
+real forms and 811 cached occurrences on 134 pages and 697 loci. Exactly 619
+occurrences are surface-exact across ZL3b, IT2a and RF1b. No new page, image or
+transcription is opened.
+
+The location axis transfers strongly. H1/H2 are line-first 199/328 times,
+against 24/483 for H3/H4 (OR 29.502907, 95% CI
+18.506052–47.034424). The reader-exact OR is 36.780749 and the exact
+non-singleton-line OR 40.862121. Body+section and
+body+section+cached-language Mantel-Haenszel ORs are 10.922153 and 11.899427.
+H1 is paragraph-first 98/147 times versus H2 3/181. Mean normalized position
+orders the four heads H1 .148428, H2 .324907, H4 .574910 and H3 .665316.
+Among 95 body-controlled comparisons, 72 put H1/H2 earlier, 19 reverse and
+four tie; among 62 page-controlled comparisons the split is 52/8/2. Section C
+alone reverses the mean direction on tiny counts.
+
+The frozen body-affinity test fails exactly where it was meant to. Raw held
+cosines rank H2–H3 .915084, H3–H4 .198696, H1–H4 .156632, H2–H4 .146730,
+H1–H2 .058865 and H1–H3 .051918. H1–H4 is therefore rank 3, and reader-exact
+rank 4, rather than part of the required top two. H2–H3 remains a partial
+frequency lead but is `ain`-dominated: without `ain` it falls to .620056 and
+without `ain|o|kar` to .522092. Binary and body-balanced views return H1–H4
+and H2–H3 to the top two, but are supporting occupancy diagnostics and cannot
+replace the frozen raw-count score. The full semantic cluster 2x2 is withdrawn
+outside GDT736's training 24. H1–H4 becomes a weak occupancy association;
+H2–H3 becomes a partial count-affinity lead with no shared semantic label.
+
+The renderer correction is equally material. Eighty-two held forms possess a
+V99R7 whole card; eighty still contain literal powder, seed, root or wood
+patients inherited from the retired p/s/r/l material-head model and are now
+quarantined. Only `solaiin` (three portions of salt) and `sols` (finished salt
+species) remain as provisional current exact-whole working defaults. The
+executable precedence is current clean exact whole, observed register and
+position role, then unknown. A separate 120-body candidate deck retains the
+best heat, dry, moist, value, material, part and preparation hypotheses with
+confidence and counterevidence; `chr`, `oiir` and `oiis` remain unknown and six
+more bodies are structure-only. Every candidate has zero renderer licence,
+zero component export and zero lexeme confidence.
+
+GDT737 passes 200 independent checks and byte-identical replay. Canonical
+transfer correction:
+`experiments/yolo/gdt737_held_body_record_role_transfer/artifacts/TRANSFER_MODEL_UPDATE.tsv`.
+Complete held form bridge:
+`experiments/yolo/gdt737_held_body_record_role_transfer/artifacts/HELD_273_FORM_ROLE_BRIDGE.tsv`.
+
+The next route is a genuinely narrower multihead candidate adjudication, not a
+repeat of GDT647, GDT638 or the closed lexical-gloss-from-formal-role family.
+Test the same held body across its two or three heads and every occurrence,
+requiring exact non-head-derived neighbour support plus register/position
+compatibility before promoting any complete headed whole. Start with the heat,
+dry, moist and value matrices and preserve GDT685's state-with-open-patient
+boundary. No component, suffix or universal head meaning may be promoted.
+Physical glyph geometry remains unobserved and requires a separate authorized
+image audit.

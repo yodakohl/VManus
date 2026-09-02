@@ -22,10 +22,11 @@ logs are recovery archives and may be superseded.
 ## Active scope and source boundary
 
 - The semantic calibration chain began from thirty released pages, but the
-  integrated GDT733/GDT734 cache and the formal GDT635–GDT736 audits use the
+  integrated GDT733/GDT734 cache and the formal GDT635–GDT737 audits use the
   already inherited 179-page allow-list. Do not call that 179 visually
-  inspected semantic pages. In GDT736 the 96 target forms occur on 141 of the
-  179 cached pages; no new page was opened.
+  inspected semantic pages. In GDT736 the 96 training forms occur on 141 of
+  the 179 cached pages; GDT737's 273 held forms occur on 134 cached pages. No
+  new page was opened.
 - Counts from older global experiments, including GDT327's 91-folio tuple
   edition, do **not** enlarge this sidequest's page scope and must not be
   silently joined to its renderer.
@@ -56,8 +57,10 @@ line-reset construction system with a mixed lexicon:
 3. position- and context-bound renderer defaults;
 4. separate descriptive and prescriptive pharmaceutical record channels as a
    historical architecture prior;
-5. an H1–H4 record-role grid: H1/H2 entry-biased versus H3/H4 internal/final,
-   crossed by two strong 24-body affinity pairs H1–H4 and H2–H3.
+5. four occurrence-conditioned H1–H4 record classes: H1/H2 entry-biased versus
+   H3/H4 internal/final. H2–H3 retains a partial, `ain`-dominated count-affinity
+   lead; H1–H4 is only a weak occupancy association outside GDT736's 24-body
+   training grid. No semantic cluster is exported.
 
 Physical lines, separators, entry/closure biases and repeated form families are
 real formal structure. PAGE_HOST, DY, B3, workshop roots, exact tuple IDs and
@@ -114,6 +117,12 @@ including 3,971 singleton surfaces. Frequent unresolved forms such as
 receiving generic filler prose. Scoped readings such as `dchey` and `olkar`
 remain scoped and do not become unconditional globals.
 
+GDT737 later audits the 82 V99R7 whole cards that overlap its held head+body
+forms. Eighty still contain literal powder, seed, root or wood patients derived
+from the retired p/s/r/l head model and are quarantined for this route. Only
+`solaiin` and `sols` survive provisionally as current clean exact-whole working
+defaults; neither is confirmed plaintext.
+
 Canonical cache:
 `experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/artifacts/V99R7_4128_INTEGRATED_LINE_READER.tsv`.
 
@@ -164,48 +173,53 @@ Primary report:
 
 GDT735 passes all 58 validator checks with a byte-identical builder replay.
 
-## GDT736 record-role and body-affinity bridge
+## GDT736 training-scope record-role and body-affinity bridge
 
-GDT736 reconstructs all 1,166 occurrences of the 96 H1–H4+body forms on 141
-pages and 946 loci inside the inherited 179-page cache. H1/H2 are line-first
-at 294/575 positions, H3/H4 at 39/591: unadjusted OR 14.81, body+section
-adjusted OR 16.68, and 9.76 in the all-reader-exact residual subset. All six
-represented sections keep the same direction; 21/24 bodies put the entry pair
-earlier by mean normalized position. H1 further separates from H2 at paragraph
-starts, 49/135 versus 3/440 paragraph-first tokens.
+On 1,166 occurrences of 96 forms/24 complete bodies, H1/H2 are line-first
+294/575 times and H3/H4 39/591 (OR 14.81; body+section-adjusted 16.68). H1 is
+paragraph-first 49/135 times versus H2 3/440. On those same 24 body dimensions,
+H1–H4 cosine is .919 and H2–H3 .934, with every rival below .47. GDT736
+therefore selected H1 as paragraph/record opener, H2 as item/subentry, H3 as
+late internal/reference field and H4 as internal field, crossed locally by
+clusters A (H1/H4) and B (H2/H3).
 
-The independent cross-axis is body affinity. Across the identical 24 body
-dimensions, H1–H4 have cosine 0.919 and H2–H3 0.934; every other head pairing
-is below 0.47. The selected formal grid is therefore:
+GDT737 shows that the complete pairing does not transfer, so A/B now describe
+only this 24-body training grid. The 96-form aggressive renderer and 24 repaired
+examples remain exploratory; `air` is part/fraction II, with a root rival only
+on the five inherited Herbal H1-air cases. GDT736 identifies no lexeme,
+plaintext, language, species, unit, glyph value or portable component and
+passes 201 checks plus byte replay. Primary report:
+`experiments/yolo/gdt736_opaque_head_record_role_bridge/REPORT.md`.
 
-- H1: entry/paragraph opener + cluster A;
-- H2: entry item/subentry + cluster B;
-- H3: late internal/reference field + cluster B;
-- H4: internal field + cluster A.
+## GDT737 held-body correction
 
-Cluster A is form/state-heavy and cluster B materia/value-heavy under the
-inherited working body labels. Those semantic orientations and the aggressive
-pharmaceutical renderer remain replaceable; the distributional pairing is the
-strong claim. Split-only reader normalizations modestly support a secondary
-H2/H3 free-form proxy, but physical joining and glyph geometry remain
-unobserved.
+GDT737 uses the remaining 120 shared bodies: 87 two-head and 33 three-head
+families, 273 real forms and 811 occurrences on 134 cached pages/697 loci; 619
+occurrences are exact across all three alternate readings. The location axis
+transfers strongly. H1/H2 are line-first at 199/328 positions, H3/H4 at
+24/483 (OR 29.50; reader-exact OR 36.78; body+section adjusted OR 10.92).
+H1 is paragraph-first 98/147 times versus H2 3/181, and the mean order is
+H1 < H2 < H4 < H3. Among 95 body-controlled comparisons, 72 put the entry pair
+earlier, 19 reverse and four tie; only the small section C reverses by mean.
 
-All 24 body roles and all 96 forms now have scoped structural and aggressive
-working renderings. The 24 inherited span examples remove the obsolete
-head-derived powder, seed, root and wood nouns. `air` defaults formally to
-part/fraction tier II; root/underground part survives only for the five already
-inspected Herbal H1–air cases. No head or body lexeme, plaintext, language,
-species, unit, glyph value or portable component is identified. GDT736 passes
-201 independent checks and a byte-identical replay.
+The frozen full affinity 2x2 fails. Raw held-body cosine ranks H2–H3 .915,
+H3–H4 .199, H1–H4 .157, then the other pairs. H1–H4 therefore misses the
+required top two and falls to exact rank 4. H2–H3 remains a partial frequency
+lead but drops to .620 without `ain` and .522 without `ain|o|kar`. Binary and
+body-balanced diagnostics put the old selected pairs first and second, but
+cannot rescue the failed raw test. The four location roles generalize only as
+register- and position-conditioned classes; the semantic clusters do not.
 
-Canonical role grid:
-`experiments/yolo/gdt736_opaque_head_record_role_bridge/artifacts/RECORD_ROLE_2X2_GRID.tsv`.
-
-Complete 96-form renderer:
-`experiments/yolo/gdt736_opaque_head_record_role_bridge/artifacts/OPAQUE_96_CONCRETE_ROLE_GRID.tsv`.
+The corrected held renderer uses current clean exact whole, then observed
+register-and-position role, then unknown. Of 82 inherited held whole cards, 80
+are quarantined for retired powder/seed/root/wood head patients. A separate
+120-body candidate deck preserves concrete heat, dry, moist, value, material,
+part and preparation hypotheses with confidence and counterevidence, including
+three honest unknowns, but grants zero automatic renderer licence or component
+export. GDT737 passes 200 checks and byte-identical replay.
 
 Primary report:
-`experiments/yolo/gdt736_opaque_head_record_role_bridge/REPORT.md`.
+`experiments/yolo/gdt737_held_body_record_role_transfer/REPORT.md`.
 
 ## What remains usable from older work
 
@@ -253,20 +267,23 @@ The complete closure memory is
 `./vmanus-exp route-check QUERY` before proposing a new family, then inspect
 only the returned primary reports and closed rows.
 
-## Next useful route: held-body transfer
+## Next useful route: multihead candidate adjudication
 
-Freeze the GDT736 2×2 axes and test them on the remaining shared-remainder
-families outside the 24 complete bodies. The key question is whether entry
-versus internal placement and the H1–H4/H2–H3 body-affinity pairing predict
-held bodies rather than merely describing the selected complete grid. If they
-transfer, use exact neighbor fields and already licensed whole meanings to
-orient additional body roles and extend the concrete renderer without changing
-the four head roles.
+Do not repeat GDT647's broad quality-family migration, GDT638's generic
+one-hole promotion or the closed lexical-gloss-from-formal-role route. Use the
+new GDT737 object instead: the same held body observed under two or three opaque
+heads and all of its cached occurrences. Test the strongest heat, dry, moist
+and value matrices against exact non-head-derived neighbour fields and explicit
+register/position exceptions. A candidate may enter only as a scoped complete
+headed whole; it may not become a free suffix, body lexeme or universal head
+meaning. Preserve GDT685's state-with-open-patient correction.
 
-Keep the actual manuscript-glyph audit as a separate later route. Current
-artifacts contain no physical baseline, joining, superscript or stroke-skeleton
-descriptor; do not manufacture a Cappelli-style expansion from EVA shape.
-Open no new Voynich page, image or transcription for the held-body pass.
+The useful output is an occurrence-gated promotion/hold table for the 120 body
+candidates and repaired exact-whole cards for any headed surfaces that survive.
+Start with the high-coverage `ain`, `kaiin/kain`, `ky/key/keey`,
+`cheedy/sheedy/shdy`, `o`, `kar`, `chor` and `cheol` families, while treating
+`sary`, `so`, `skaiin`, `lcheol`, `lchor` and `lsheody` as explicit stress
+cases. Open no new page, image or transcription.
 
 ## Primary routing references
 
