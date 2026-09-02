@@ -221,7 +221,7 @@ export. GDT737 passes 200 checks and byte-identical replay.
 
 Primary report: `experiments/yolo/gdt737_held_body_record_role_transfer/REPORT.md`.
 
-## GDT738–GDT751 occurrence-gated whole, attachment and field renderer
+## GDT738–GDT752 occurrence-gated whole, attachment and field renderer
 
 GDT738 licenses twelve wholes at 202 positions. GDT739 keeps only radius one/two active: 43 quality, 15 amount,
 five process and 109 open scalar positions; 22 state/eight result, 73 carriers
@@ -256,6 +256,8 @@ GDT750 rejects raw direct-host copying (203 true/371 false axes) but finds a nar
 
 GDT751 audits 51 clean complete `qX`/`X` pairs over 3,761 exact occurrences against 160 non-q controls. The q side is earlier in 33/51 pairs, but its mean position delta (-.0665) is essentially matched by 51 controls (-.0615) and exceeded by all controls (-.0807): a q-specific entry shell fails. The complete-pair relation remains weakly enriched (44 direct contacts/12 pair types/27 pages; 35.31 contacts per 1,000 minimum-side occurrences versus 20.35 for all controls). The inherited 47/51 quality-stage matches and 41 base-only PREPARATION cards remain model-internal, not independent evidence about q. Ten already licensed `okeey` occurrences directly hosted by `qokeey` now render occurrence-locally as `heiße Zubereitung an der End-/Vollstufe`; no other `okeey` occurrence or q component inherits that value. Report: `experiments/yolo/gdt751_q_base_carrier_shell_audit/REPORT.md`.
 
+GDT752 clips all 44 direct q/base contacts and all 42 direct non-q contacts into pair-excluding outward fields. Among 27 fully bounded q fields, zero support the directional q-quality/base-PREPARATION split; the sole exact q pattern is symmetric `qokeey/okeey` at f99r.50, while 28 bounded controls contain one reverse case. The attractive `qokeol/okeol` f99v.22 direction is radius-censored and remains a lead only. All ten GDT751 `okeey` PREPARATION cards return to hypothesis-only status; their HOT|END occurrence axes survive and now render `heiß an der End-/Vollstufe; Trägerrolle offen`. The weak complete-pair relation remains. Report: `experiments/yolo/gdt752_q_base_microfield_role_audit/REPORT.md`.
+
 ## What remains usable from older work
 
 - Exact recurrent forms, line placement, within-field position, entry/closure behavior, reader agreement and whole-form recurrence are usable formal features.
@@ -286,9 +288,9 @@ Do not rerun without genuinely new data or a different falsifier:
 Closure memory: `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv`.
 Run `./vmanus-exp route-check QUERY`, then inspect returned primary reports and closed rows.
 
-## Next useful route: direct q/base microfield-role audit
+## Next useful route: `qokeol/okeol` whole-form role census
 
-Place the fixed 44 reader-exact direct q/base contacts into complete GDT740/GDT744-style bounded microfields. Ask whether the unprefixed whole independently and repeatedly occupies a preparation/object or learned-content slot while the q-side occupies a distinct quality/state field, and compare the same role geometry with the 42 direct non-q control contacts. Export only occurrence cards whose whole-field role is independently anchored; otherwise retain the weak complete-pair relation and retire the carrier toggle. Preserve all complete surfaces and keep q opaque.
+Follow all 34 exact `qokeol` and 41 exact `okeol` occurrences, not just their two contacts. Build target-centered pair-excluding complete microfields and compare cross-page process/material/middle-stage versus preparation roles with frequency-matched q/base and non-q whole-pair controls. The censored f99v.22 pattern is discovery only; only repeated complete fields may issue whole-form working meanings. Preserve q as opaque and keep substring export at zero.
 
 ## Primary routing references
 Use `experiments/EXPERIMENT_INDEX.tsv`, `VOYNICH_ACTIVE_STATE.md`, the ledger, grammar registry and closed-route registry.

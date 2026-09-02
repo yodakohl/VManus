@@ -19618,3 +19618,42 @@ the 42 direct non-q control contacts. It asks whether an independently anchored
 unprefixed preparation/object or learned-content slot repeatedly contrasts
 with a q-side quality/state field. If not, the inherited carrier toggle is
 retired while the weak complete-pair relation remains descriptive only.
+
+## GDT752 removes the spoken carrier toggle but preserves a narrower whole-pair lead
+
+GDT752 treats each member of all 44 q/base direct contacts as a complete cell
+and clips only away from its adjacent partner. Pair members never anchor one
+another. Exact W2/W3 outside wholes enter the unchanged GDT744 historical field
+rules; radius-five-censored sides remain discovery-only. The same construction
+materializes and audits all 42 direct contacts from GDT751's fixed 160-pair
+non-q control universe.
+
+Twenty-seven q contacts and 28 controls have both outward fields fully bounded.
+The q deck contains zero exact directional q-quality/base-PREPARATION splits
+and zero exact reverses. Its only complete exact pattern is `qokeey/okeey` at
+f99r.50, where both outer sides carry the identical
+HOT|PREPARATION|LEVEL_II evidence; this is symmetric and cannot assign the
+carrier to the base. The broad carrier sensitivity is one support and one
+reverse. Controls contain zero exact supports, one exact reverse and a broad
+two-versus-three split. The direction is therefore not q-specific.
+
+The only raw directional q lead is `qokeol/okeol` at f99v.22. `ctheol`
+outside `qokeol` supplies MATERIAL|MIDDLE_STAGE, while distant `otey` outside
+`okeol` supplies COLD|PREPARATION|MIDDLE_STAGE. The base-side field reaches
+radius five without a real boundary, so this remains a censored follow-up lead,
+not an active card.
+
+All ten GDT751 `okeey` preparation cards receive zero exact complete outside
+support. `PREPARATION` remains an exploratory background hypothesis but leaves
+the spoken renderer. The ten independently calibrated GDT750 HOT|END_STAGE
+occurrence cards remain and now read **heiß an der End-/Vollstufe;
+Trägerrolle offen**. The three other `qokeey/okeey` contacts still receive no
+card. GDT751's weak complete-form pair relation also remains; GDT752 rejects
+only the proposed semantic direction. The validator passes 1,895 checks and
+byte-identical replay. Primary report:
+`experiments/yolo/gdt752_q_base_microfield_role_audit/REPORT.md`.
+
+The next route follows all 34 exact `qokeol` and 41 exact `okeol` occurrences
+through target-centered, pair-excluding complete fields and frequency-matched
+q/base and non-q controls. Only repeated complete cross-page roles may turn the
+censored f99v.22 pattern into a whole-form working meaning; q remains opaque.
