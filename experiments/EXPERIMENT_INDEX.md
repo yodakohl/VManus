@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **750**
-- Experiment-associated tracked files: **12,962** (1.3 GiB)
-- Structured GDT337+ experiments: **415**
+- Experiments indexed: **751**
+- Experiment-associated tracked files: **12,979** (1.3 GiB)
+- Structured GDT337+ experiments: **416**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT753 | GDT753_qokeol_okeol_whole_role_census | `PARTIAL__75_EXACT_TARGET_OCCURRENCES_40_PAGES__34_COMPLETE_FIELDS__Q_PROCESS_MATERIAL_MIDDLE_3_BASE_4__Q_PREPARATION_6_BASE_8__DIRECTIONAL_GATE_FAILS__TEN_MATCHED_PAIR_GATES_ZERO__GDT664_GDT666_COMPOSITIONAL_PROSE_DEMOTED__SHARED_HEAT_MIDDLE_HYPOTHESIS_RETAINED__WHOLE_PAIR_LEAD_RETAINED__ZERO_COMPONENT_EXPORT__NO_NEW_PAGE` | [report](../experiments/yolo/gdt753_qokeol_okeol_whole_role_census/REPORT.md) | 17 | 500.4 KiB | 6 | STRUCTURED_YOLO |
 | GDT752 | GDT752_q_base_microfield_role_audit | `PARTIAL__44_Q_CONTACTS_12_PAIRS__42_NONQ_CONTROLS_26_PAIRS__27_Q_28_CONTROL_COMPLETE_FIELDS__ZERO_Q_EXACT_ROLE_SPLITS__ONE_CONTROL_REVERSE__ONE_Q_SYMMETRIC_AMBIGUOUS_FIELD__TEN_OKEEY_PREPARATION_CARDS_HYPOTHESIS_ONLY__HOT_END_RETAINED__ZERO_Q_COMPONENT_EXPORT__NO_NEW_PAGE` | [report](../experiments/yolo/gdt752_q_base_microfield_role_audit/REPORT.md) | 18 | 134.3 KiB | 8 | STRUCTURED_YOLO |
 | GDT751 | GDT751_q_base_carrier_shell_audit | `PARTIAL__51_Q_BASE_PAIRS__3761_EXACT_OCCURRENCES__47_QS_PRESERVED_INHERITED__41_BASE_ONLY_PREPARATION_INHERITED__Q_POSITION_EFFECT_NOT_SPECIFIC__44_DIRECT_CONTACTS_12_PAIR_TYPES__10_OKEEY_PREPARATION_CARDS__ZERO_Q_COMPONENT_EXPORT__NO_NEW_PAGE` | [report](../experiments/yolo/gdt751_q_base_carrier_shell_audit/REPORT.md) | 20 | 929.7 KiB | 8 | STRUCTURED_YOLO |
 | GDT750 | GDT750_form_gated_direct_host_dispatch | `PARTIAL__1134_KNOWN_OCCURRENCE_CALIBRATION__D1_R1_19_TP_0_FP_15_POSITIONS__19_ACTIVE_OUTSIDE_POSITIONS__5_FORMS__32_AXIS_CARDS__RADIUS2_DISCOVERY_ONLY__DISTANCE2_SENSITIVITY_ONLY__QOCHEY_OKECHY_NO_ACTIVE_HOST__ZERO_LITERAL_IDENTITIES__ZERO_COMPONENT_EXPORT__NO_NEW_PAGE` | [report](../experiments/yolo/gdt750_form_gated_direct_host_dispatch/REPORT.md) | 22 | 640.8 KiB | 8 | STRUCTURED_YOLO |

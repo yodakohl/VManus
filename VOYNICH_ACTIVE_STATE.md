@@ -19657,3 +19657,42 @@ The next route follows all 34 exact `qokeol` and 41 exact `okeol` occurrences
 through target-centered, pair-excluding complete fields and frequency-matched
 q/base and non-q controls. Only repeated complete cross-page roles may turn the
 censored f99v.22 pattern into a whole-form working meaning; q remains opaque.
+
+## GDT753 removes the inherited `qokeol/okeol` directional prose
+
+GDT753 follows every reader-exact target occurrence: 34 `qokeol` and 41
+`okeol` positions on 40 admitted cached pages. Pair members and their inherited
+meanings cannot anchor their own target-centred radius-five fields. Of the 15
+complete q-form fields, three on two pages carry process/material plus
+middle-stage evidence and six on six pages carry preparation evidence. Of the
+19 complete base-form fields, the corresponding counts are four on four pages
+and eight on eight pages. The process delta is -.010526 and the preparation
+delta +.021053. The distributions are effectively the same, so the proposed
+q-command/base-preparation direction fails. All five matched q/base and five
+matched non-q pair gates are also zero.
+
+The decisive correction is provenance, not mere absence. GDT666 created
+`qokeol=erhitze den Drogenstoff bis zur Mittelstufe` as
+`QO_COMMAND+K_HOT+E_MIDDLE+OL_MATERIAL`; GDT664 created
+`okeol=Grundansatz bis zur mittleren Heizstufe erwärmt` as
+`O_PREP+K_HOT+E_MIDDLE+OL_BASE`. Both source rows are explicitly
+`PRODUCTIVE_COMPOUND` and replaceable. They therefore cannot independently
+confirm the operation, patient or preparation roles from which their German
+sentences were assembled.
+
+The two literal sentences leave the spoken renderer. GDT753 keeps the compact
+exploratory whole default **Wärme-/Mittelstufenfeld; genaue Funktion und Träger
+offen** for both forms. This preserves the useful shared family hypothesis
+without claiming that `qokeol` is already an imperative, that its patient is a
+Drogenstoff, or that `okeol` names a Grundansatz. The weak complete-form pair
+relation survives, and every occurrence retains its separately labelled local
+field context. GDT753 passes 10,360 checks and byte-identical replay. Primary
+report:
+`experiments/yolo/gdt753_qokeol_okeol_whole_role_census/REPORT.md`.
+
+The next route inventories active V99R7 values inherited from GDT664/GDT666
+`PRODUCTIVE_COMPOUND` cards and separates independently retained whole roles
+from composition-only literal prose. This is a current-renderer provenance
+sieve, not a rerun of the GDT684 debt census or GDT734 unknown dispatch. It may
+preserve working hypotheses and prioritize high-footprint forms, but formal
+roles alone still cannot become historical lexemes or substring values.

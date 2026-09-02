@@ -221,7 +221,7 @@ export. GDT737 passes 200 checks and byte-identical replay.
 
 Primary report: `experiments/yolo/gdt737_held_body_record_role_transfer/REPORT.md`.
 
-## GDT738–GDT752 occurrence-gated whole, attachment and field renderer
+## GDT738–GDT753 occurrence-gated whole, attachment and field renderer
 
 GDT738 licenses twelve wholes at 202 positions. GDT739 keeps only radius one/two active: 43 quality, 15 amount,
 five process and 109 open scalar positions; 22 state/eight result, 73 carriers
@@ -258,6 +258,10 @@ GDT751 audits 51 clean complete `qX`/`X` pairs over 3,761 exact occurrences agai
 
 GDT752 clips all 44 direct q/base contacts and all 42 direct non-q contacts into pair-excluding outward fields. Among 27 fully bounded q fields, zero support the directional q-quality/base-PREPARATION split; the sole exact q pattern is symmetric `qokeey/okeey` at f99r.50, while 28 bounded controls contain one reverse case. The attractive `qokeol/okeol` f99v.22 direction is radius-censored and remains a lead only. All ten GDT751 `okeey` PREPARATION cards return to hypothesis-only status; their HOT|END occurrence axes survive and now render `heiß an der End-/Vollstufe; Trägerrolle offen`. The weak complete-pair relation remains. Report: `experiments/yolo/gdt752_q_base_microfield_role_audit/REPORT.md`.
 
+GDT753 follows all 34 reader-exact `qokeol` and 41 reader-exact `okeol` occurrences on 40 cached pages. Fifteen and nineteen target-centred fields are complete; process/material+middle appears in 3/15 versus 4/19 and PREPARATION in 6/15 versus 8/19. The directional deltas (-.010526/+.021053) and all ten matched-pair gates fail.
+Provenance traces `qokeol=erhitze den Drogenstoff bis zur Mittelstufe` to GDT666's `QO_COMMAND+K_HOT+E_MIDDLE+OL_MATERIAL` and `okeol=Grundansatz bis zur mittleren Heizstufe erwärmt` to GDT664's `O_PREP+K_HOT+E_MIDDLE+OL_BASE`; both were analyst `PRODUCTIVE_COMPOUND` cards, not independently learned meanings. Their literal directional prose leaves the spoken renderer.
+Both forms now use the exploratory whole default `Wärme-/Mittelstufenfeld; genaue Funktion und Träger offen`; the shared heat/middle hypothesis and weak pair relation remain. Report: `experiments/yolo/gdt753_qokeol_okeol_whole_role_census/REPORT.md`.
+
 ## What remains usable from older work
 
 - Exact recurrent forms, line placement, within-field position, entry/closure behavior, reader agreement and whole-form recurrence are usable formal features.
@@ -282,15 +286,14 @@ Do not rerun without genuinely new data or a different falsifier:
 - universal register-independent tuple roles or free tuple clustering;
 - anonymous recipe-record topology, latent-role or coordinate-operator transfer;
 - the withdrawn f57/f77 quality/element/process decoder;
-- the literal Naibbe/whitespace-token route and the infeasible FST34/V2
-  synthetic compiler configuration.
+- the literal Naibbe/whitespace-token route and the infeasible FST34/V2 synthetic compiler configuration.
 
-Closure memory: `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv`.
-Run `./vmanus-exp route-check QUERY`, then inspect returned primary reports and closed rows.
+Closure memory: `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv`; run `./vmanus-exp route-check QUERY`, then inspect returned primary reports and closed rows.
 
-## Next useful route: `qokeol/okeol` whole-form role census
+## Next useful route: active composition-provenance sieve
 
-Follow all 34 exact `qokeol` and 41 exact `okeol` occurrences, not just their two contacts. Build target-centered pair-excluding complete microfields and compare cross-page process/material/middle-stage versus preparation roles with frequency-matched q/base and non-q whole-pair controls. The censored f99v.22 pattern is discovery only; only repeated complete fields may issue whole-form working meanings. Preserve q as opaque and keep substring export at zero.
-
+Inventory active V99R7 whole values whose ultimate GDT664/GDT666 cards are `PRODUCTIVE_COMPOUND`. Separate literal atoms supplied only by old analyst composition from roles independently retained by later whole-form occurrence evidence; keep learned/independent whole, role-level default and composition-only-prose-withheld buckets.
+Rank by current renderer footprint so the largest false-concreteness debt is corrected first while useful hypotheses stay visible. This is a current-cache provenance correction, not another GDT684 51-line debt census or GDT734 unknown dispatch.
+Only the strongest surviving complete wholes may enter an exploratory historical vocabulary comparison; formal roles alone still cannot identify a lexeme or export a substring.
 ## Primary routing references
 Use `experiments/EXPERIMENT_INDEX.tsv`, `VOYNICH_ACTIVE_STATE.md`, the ledger, grammar registry and closed-route registry.
