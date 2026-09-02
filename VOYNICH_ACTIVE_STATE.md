@@ -19091,3 +19091,52 @@ and bind each occurrence's local dimension: quality/degree versus amount/dose
 versus process passage, and dry versus moist/soaking result. Use longer complete
 cached passages; do not export a body substring or fill an open patient from
 the retired head nouns. No new page is required.
+
+## GDT739 binds only locally written dimensions and carriers
+
+GDT739 projects all twelve GDT738 licensed wholes into all 202 enumerated
+positions and audits 1,373 neighbors out to radius five. The executable host
+gate requires alternate-reader exactness, a known W2/W3 zero-composition GDT734
+cell, no opaque p/s/r/l-head neighbor, no second target card, no retired literal
+powder/seed/root/wood patient, and an explicit axis tag. It leaves 230 eligible
+contacts. Target footprints are 62 at radius one, 98 by radius two, 121 by
+radius three and 146 by radius five. Only radius one/two may alter the renderer;
+the wider contacts are discovery evidence.
+
+The 172 scalar occurrences now share an axis-neutral ordered-level core. The
+nearest unanimous typed ring yields 43 quality degrees, 15 amount/portion
+levels and five counted process passages. The remaining 109 divide into 89
+without any eligible active-radius host, 17 with eligible but untyped context
+and three direct conflicts. Thirty-five selected axes are immediate and 28 lie
+at distance two; their contributing contacts are 57 W3 and seven W2. This
+rejects unconditional renderer equations such as `ain=amount`, `kain=hot` or
+`kaiin=heating`: each family appears under multiple locally written axes.
+
+The separate 30-position state audit yields 22 descriptive state fields and
+eight result/end fields: four `lcheedy`, three `lsheedy`, one `rsheedy`. Two
+result decisions have strong local W2/W3 support; six are endpoint/closure best
+fits. Only six state positions have a clean local host for the old automatic
+dry/moist orientation: two `pcheol`, three `lcheol`, one `rsheedy`. No
+`lcheedy` or `lsheedy` position does. Thus cheol/cheedy/sheedy retain dry or
+moist as a silent family favorite, but the spoken default is axis-neutral until
+a local host supplies it.
+
+Seventy-three of 202 occurrences bind a broad preparation/material/part
+carrier; the other 129 remain carrier-open. A binder supplies only a broad
+class, never its proposed substance or species. In total 107 occurrences remain
+fully open after axis, mode and carrier dispatch. The twenty-line safe reader
+covers all twelve forms and 23 focal patches; unsupported and retired-patient
+cells print as `[surface:?]` rather than fluent filler.
+
+The invariant renderer core is now complete-whole field class plus ordered
+level, followed by a nearest unambiguous radius-two dimension and/or carrier.
+The licence remains exact surface at exact enumerated position. Every H1–H4,
+body, substring, unseen-form, literal patient, plaintext and global export is
+zero. GDT739 passes 51 checks and byte-identical replay. Primary report:
+`experiments/yolo/gdt739_twelve_whole_local_dimension_dispatch/REPORT.md`.
+
+The next route must test whether the 95 non-fully-open positions' selected host
+actually shares a microentry: direction, intervening boundary and repeated
+exact ordered frame must be checked before semantic proximity becomes an
+attachment. GDT630 is a prior attachment route, so a successor must use the
+corrected GDT739 candidate deck and must not revive its old literal part nouns.

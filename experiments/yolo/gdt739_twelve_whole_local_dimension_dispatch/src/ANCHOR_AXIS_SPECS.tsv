@@ -1,0 +1,13 @@
+axis_id	axis_group	keyword_regex	working_scope
+HOT	QUALITY	(?:heiß|erhitz|erwärm|heiz|warm)	local quality or heating context only
+COLD	QUALITY	(?:kalt|abgekühl|abkühl)	local quality or cooling context only
+DRY	QUALITY	(?:trocken|getrock|trockn)	local dry quality or drying context only
+MOIST	QUALITY	(?:feucht|einweich|angefeucht|befeucht)	local moist quality or soaking context only
+AMOUNT	SCALAR	(?:\\bmenge|\\bmaß|portion|dosis|pfund|gewicht|handvoll|gebinde|\\bcharge|abgewog|abwie|abmess)	local amount, portion or measure context only
+VALUE	SCALAR	(?:wert|grad|stufe|klasse|charge|index)	local ordered-value stem; does not choose its axis alone
+PART	CARRIER	(?:teil|fraktion|anteil)	local part or fraction carrier only
+MATERIAL	CARRIER	(?:material|rohstoff|droge|stoff|\\bgut|blatt|kraut)	local broad material carrier only; never a species
+PREPARATION	CARRIER	(?:ansatz|zubereitung|kompositum|misch)	local preparation carrier only
+PROCESS	PROCESS	(?:nehmen|abseih|trenn|abmess|abfüll|trocknen|erhitze|einweichen|abkühlen|bearbeit)	local operation context only
+CLOSE	PROCESS	(?:abgeschlossen|fertig|schluss|geschlossen)	local completed-result context only
+PASS	SCALAR	(?:arbeitsgang|durchgang|schritt|behandlung|wiederhol|nochmals|(?:erste|erster|erstes|zweite|zweiter|zweites|dritte|dritter|drittes)\\s+\\S*(?:ansatz|zubereitung))	counted or repeated process passage; a bare verb is insufficient

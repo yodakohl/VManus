@@ -1,0 +1,17 @@
+rule_id	applies_to	condition	result	export_limit
+R01	ALL	anchor token is alternate-reader exact, W2/W3, zero-composition, non-head, non-target, known and free of retired literal patients	ELIGIBLE_LOCAL_ANCHOR	occurrence only
+R02	ALL	eligible anchor at distance 1	DIRECT_R1	may dispatch locally
+R03	ALL	nearest eligible anchor at distance 2	NEAR_R2	may dispatch locally
+R04	ALL	nearest eligible anchor only at distance 3 to 5	R3_R5_DISCOVERY	must not dispatch
+R05	SCALAR	one nearest QUALITY axis within radius 2 and no closer AMOUNT	QUALITY_AXIS	complete target occurrence only
+R06	SCALAR	AMOUNT is nearer than every QUALITY axis within radius 2	AMOUNT_AXIS	complete target occurrence only
+R07	SCALAR	PROCESS is nearest and neither QUALITY nor AMOUNT is as near within radius 2	PROCESS_PASS	complete target occurrence only
+R08	SCALAR	equal nearest rival axes or no selecting anchor	LOCAL_CONFLICT_OR_OPEN	preserve open dimension
+R09	STATE_PROCESS	HOT and PROCESS are both nearest or equally local within radius 2	HEAT_PROCESS_STAGE	complete target occurrence only
+R10	STATE_PROCESS	HOT is nearer than PROCESS within radius 2	HEAT_STAGE	complete target occurrence only
+R11	STATE_PROCESS	PROCESS is nearer than HOT within radius 2	PROCESS_STAGE	complete target occurrence only
+R12	STATE_PROCESS	neither HOT nor PROCESS occurs within radius 2	OPEN_STATE_PROCESS	preserve only the axis-neutral form core
+R13	CARRIER	nearest PREPARATION, MATERIAL or PART class within radius 2	VISIBLE_BROAD_CARRIER	broad class only; no substance or species noun
+R14	STATE_OR_RESULT	favored DRY or MOIST axis has an eligible local anchor within radius 2	SPEAK_FAVORED_AXIS	complete target occurrence only
+R15	STATE_OR_RESULT	favored axis lacks an eligible local anchor within radius 2	AXIS_OPEN	keep favored axis only as a silent candidate prior
+R16	ALL	any proposed substring, head/body, unseen-form or global export	FORBIDDEN	zero export

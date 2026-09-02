@@ -219,26 +219,27 @@ part and preparation hypotheses with confidence and counterevidence, including
 three honest unknowns, but grants zero automatic renderer licence or component
 export. GDT737 passes 200 checks and byte-identical replay.
 
-Primary report:
-`experiments/yolo/gdt737_held_body_record_role_transfer/REPORT.md`.
+Primary report: `experiments/yolo/gdt737_held_body_record_role_transfer/REPORT.md`.
 
-## GDT738 occurrence-gated semantic adjudication
+## GDT738–GDT739 occurrence-gated whole and local-host renderer
 
-From 1,266 immediate slots around 811 held occurrences, 783 are jointly
-reader-exact; formal filtering yields FORMAL705, exact GDT734 semantic filtering
-yields permissive SEM570, and W2/W3+zero-composition+non-OTHER filtering yields
-W23-AXIS195. SEM570 supports 11 bodies/17 forms. W23 keeps direct `ain,sheedy`
-plus family-supported `kar,kaiin,kain,cheol,cheedy`; the four bodies
-`keey,cheor,ky,key` and five forms remain Discovery-only.
+GDT738's FORMAL705/SEM570/W23-AXIS195 decks retain 17 visible forms and license
+12 complete wholes at 202 position-valid occurrences; five forms remain
+Discovery-only. GDT739 then audits 1,373 radius-five neighbors. Its full gate
+leaves 230 eligible contacts and 62/98/121/146 target occurrences with a host by
+radius 1/2/3/5; only radius two is active.
 
-The 12 licensed wholes are `lain,lcheedy,lcheol,lkaiin,lkain,lkar,lsheedy,
-pcheol,rain,rsheedy,sain,skaiin`: 203 exact occurrences and 202 position-valid
-patches, with one initial H4 `lkaiin` excluded and `skaiin` an explicit whole
-exception. They render local scalar, heat/processing, dry or moist/soaking
-fields with open patient/dimension and zero H1–H4, body, component, unseen-form
-or plaintext export. Validation passes 100 checks and byte replay. Cards:
-`experiments/yolo/gdt738_held_body_occurrence_semantic_adjudication/artifacts/ADJUDICATED_17_WHOLE_CARDS.tsv`;
-report: `experiments/yolo/gdt738_held_body_occurrence_semantic_adjudication/REPORT.md`.
+Among 172 scalar occurrences the nearest unanimous host yields 43 quality
+degrees, 15 amount/portion levels and five counted process passages; 109 stay
+open or conflicted. Among 30 state occurrences, 22 are descriptive and eight
+result/end fields, but only six have local support for the formerly automatic
+dry/moist axis. Seventy-three of all 202 bind a broad carrier; 107 remain fully
+open after all active bindings.
+
+The invariant spoken core is now complete-whole field class plus ordered level.
+Heat/dry/moist/fraction remain silent candidate priors unless locally hosted.
+There is zero substring, head/body, literal-patient, species, unseen-form or
+plaintext export. GDT739 passes 51 checks and byte-identical replay; report: `experiments/yolo/gdt739_twelve_whole_local_dimension_dispatch/REPORT.md`.
 
 ## What remains usable from older work
 
@@ -253,9 +254,8 @@ report: `experiments/yolo/gdt738_held_body_occurrence_semantic_adjudication/REPO
 - Exact identity is stronger than free equivalence clustering. GDT398 leaves
   zero stable merges; unknown cells cannot be licensed by coordinate or sibling
   backoff.
-- Readable historical and synthetic comparators calibrate possible mechanisms;
-  they do not name Voynich fields. GDT339–344 found no portable anonymous
-  record topology or event path that grounds target semantics.
+- Historical and synthetic comparators calibrate mechanisms but do not name
+  Voynich fields; GDT339–344 found no portable anonymous semantic topology.
 - The GDT459–473 address work supports a mixed architecture of productive
   shells plus learned content-name fragments. Its German roots remain workshop
   labels, not words.
@@ -263,8 +263,7 @@ report: `experiments/yolo/gdt738_held_body_occurrence_semantic_adjudication/REPO
   subset, but its Station/Portion/Measure/Body vocabulary is a working layer,
   not historical lexical identification.
 
-Use the relevant primary report through the experiment index before relying on
-any of these facts.
+Use the relevant primary report through the experiment index before relying on any of these facts.
 
 ## Closed or constrained routes
 
@@ -286,12 +285,13 @@ The complete closure memory is
 `./vmanus-exp route-check QUERY` before proposing a new family, then inspect
 only the returned primary reports and closed rows.
 
-## Next useful route: bind the local dimension of the twelve cards
+## Next useful route: verify local host attachment
 
-Project the 12 licensed wholes into 202 cached positions and dispatch degree,
-dose or process passage, and dry versus moist result. Keep the five
-Discovery-only forms silent. Export no `ain`,`kaiin`,`cheol` or other
-substring, fill no patient from old p/s/r/l nouns, and open no new material.
+Test the 95 non-fully-open GDT739 positions for actual microentry attachment,
+side/direction and intervening boundary using repeated exact ordered frames,
+not semantic proximity alone. This differs from GDT630: use the corrected
+GDT739 host deck, keep old literal part/patient nouns unavailable, and downgrade
+any merely adjacent host that does not share a formal local unit. No new page.
 
 ## Primary routing references
 
