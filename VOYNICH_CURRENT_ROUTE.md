@@ -21,9 +21,11 @@ logs are recovery archives and may be superseded.
 
 ## Active scope and source boundary
 
-- The current sidequest renderer follows the fixed thirty-page chain
-  GDT515→GDT730→GDT732→GDT733→GDT734. GDT734 changes only the inherited GDT733
-  cache; GDT735 adds historical comparator metadata and no Voynich page.
+- The semantic calibration chain began from thirty released pages, but the
+  integrated GDT733/GDT734 cache and the formal GDT635–GDT736 audits use the
+  already inherited 179-page allow-list. Do not call that 179 visually
+  inspected semantic pages. In GDT736 the 96 target forms occur on 141 of the
+  179 cached pages; no new page was opened.
 - Counts from older global experiments, including GDT327's 91-folio tuple
   edition, do **not** enlarge this sidequest's page scope and must not be
   silently joined to its renderer.
@@ -53,7 +55,9 @@ line-reset construction system with a mixed lexicon:
 2. learned exact wholes and opaque name cores;
 3. position- and context-bound renderer defaults;
 4. separate descriptive and prescriptive pharmaceutical record channels as a
-   historical architecture prior.
+   historical architecture prior;
+5. an H1–H4 record-role grid: H1/H2 entry-biased versus H3/H4 internal/final,
+   crossed by two strong 24-body affinity pairs H1–H4 and H2–H3.
 
 Physical lines, separators, entry/closure biases and repeated form families are
 real formal structure. PAGE_HOST, DY, B3, workshop roots, exact tuple IDs and
@@ -160,6 +164,49 @@ Primary report:
 
 GDT735 passes all 58 validator checks with a byte-identical builder replay.
 
+## GDT736 record-role and body-affinity bridge
+
+GDT736 reconstructs all 1,166 occurrences of the 96 H1–H4+body forms on 141
+pages and 946 loci inside the inherited 179-page cache. H1/H2 are line-first
+at 294/575 positions, H3/H4 at 39/591: unadjusted OR 14.81, body+section
+adjusted OR 16.68, and 9.76 in the all-reader-exact residual subset. All six
+represented sections keep the same direction; 21/24 bodies put the entry pair
+earlier by mean normalized position. H1 further separates from H2 at paragraph
+starts, 49/135 versus 3/440 paragraph-first tokens.
+
+The independent cross-axis is body affinity. Across the identical 24 body
+dimensions, H1–H4 have cosine 0.919 and H2–H3 0.934; every other head pairing
+is below 0.47. The selected formal grid is therefore:
+
+- H1: entry/paragraph opener + cluster A;
+- H2: entry item/subentry + cluster B;
+- H3: late internal/reference field + cluster B;
+- H4: internal field + cluster A.
+
+Cluster A is form/state-heavy and cluster B materia/value-heavy under the
+inherited working body labels. Those semantic orientations and the aggressive
+pharmaceutical renderer remain replaceable; the distributional pairing is the
+strong claim. Split-only reader normalizations modestly support a secondary
+H2/H3 free-form proxy, but physical joining and glyph geometry remain
+unobserved.
+
+All 24 body roles and all 96 forms now have scoped structural and aggressive
+working renderings. The 24 inherited span examples remove the obsolete
+head-derived powder, seed, root and wood nouns. `air` defaults formally to
+part/fraction tier II; root/underground part survives only for the five already
+inspected Herbal H1–air cases. No head or body lexeme, plaintext, language,
+species, unit, glyph value or portable component is identified. GDT736 passes
+201 independent checks and a byte-identical replay.
+
+Canonical role grid:
+`experiments/yolo/gdt736_opaque_head_record_role_bridge/artifacts/RECORD_ROLE_2X2_GRID.tsv`.
+
+Complete 96-form renderer:
+`experiments/yolo/gdt736_opaque_head_record_role_bridge/artifacts/OPAQUE_96_CONCRETE_ROLE_GRID.tsv`.
+
+Primary report:
+`experiments/yolo/gdt736_opaque_head_record_role_bridge/REPORT.md`.
+
 ## What remains usable from older work
 
 - Exact recurrent forms, line placement, within-field position, entry/closure
@@ -206,26 +253,20 @@ The complete closure memory is
 `./vmanus-exp route-check QUERY` before proposing a new family, then inspect
 only the returned primary reports and closed rows.
 
-## Next useful route: GDT736
+## Next useful route: held-body transfer
 
-Work from opaque H1–H4, never from the EVA labels. Use all 1,166 already cached
-positions to separate candidate record roles such as entry/headword/form from
-internal ingredient/part/state roles. Then compare the **underlying manuscript
-graphemes**, their ZL3b/IT2a/RF1b variants and their physical placement with
-real pharmaceutical abbreviations and microentry layouts.
+Freeze the GDT736 2×2 axes and test them on the remaining shared-remainder
+families outside the 24 complete bodies. The key question is whether entry
+versus internal placement and the H1–H4/H2–H3 body-affinity pairing predict
+held bodies rather than merely describing the selected complete grid. If they
+transfer, use exact neighbor fields and already licensed whole meanings to
+orient additional body roles and extend the concrete renderer without changing
+the four head roles.
 
-The immediate deliverable is a ranked H1–H4 role table plus concrete candidate
-meanings for the complete head+body forms. Provisional defaults may remain
-exploratory until contradicted or replaced, but every value must state whether
-it comes from (a) target context, (b) manuscript glyph form, (c) historical
-entry architecture, or merely (d) renderer convenience. A historical word or
-plant-part meaning becomes a serious bridge only when record role, grapheme or
-abbreviation behavior and historical microentry pattern converge. An EVA-letter
-match never counts.
-
-Open no new Voynich page, image or transcription for GDT736. Before creating
-it, run `./vmanus-exp route-check` against head-role placement, historical
-abbreviations and descriptive/prescriptive channel assignment.
+Keep the actual manuscript-glyph audit as a separate later route. Current
+artifacts contain no physical baseline, joining, superscript or stroke-skeleton
+descriptor; do not manufacture a Cappelli-style expansion from EVA shape.
+Open no new Voynich page, image or transcription for the held-body pass.
 
 ## Primary routing references
 

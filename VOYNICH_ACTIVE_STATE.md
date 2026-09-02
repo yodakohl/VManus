@@ -18949,3 +18949,46 @@ underlying manuscript graphemes and alternate-reader variants against actual
 pharmaceutical abbreviations. A literal head meaning may return only from
 context, grapheme and record-role convergence; the EVA label itself never
 counts. No new page is needed for that pass.
+
+## GDT736 selects a record-location × body-affinity grid
+
+The complete occurrence rebuild has 1,166 target positions on 141 pages and
+946 loci within the inherited 179-page allow-list; 875 are surface-exact across
+ZL3b, IT2a and RF1b. No page or transcription was added. H1/H2 are line-first
+294/575 times, against 39/591 for H3/H4 (OR 14.808650, 95% CI
+10.294590–21.302074). The first-position OR is 16.681983 after stratifying by
+body and section and 18.018192 after also stratifying by cached language
+metadata. The all-reader-exact GDT636 residual alone remains at OR 9.762467.
+Mean normalized position places H1/H2 earlier in 21/24 bodies and every one of
+the six represented sections. H1 is paragraph-first 49/135 times versus H2
+3/440, licensing paragraph/record opener versus item/subentry as formal roles.
+
+Across the same 24 body dimensions, occurrence vectors pair H1–H4 at cosine
+0.919004 and H2–H3 at 0.934429; reader-exact vectors reproduce 0.910885 and
+0.942449. All other head pairings are 0.342219–0.469380. The active formal
+model is therefore entry/internal record location crossed by opaque body
+cluster A (H1/H4) and cluster B (H2/H3). Under inherited body Working Roles,
+A is form/state-heavy and B materia/value-heavy, but this semantic orientation
+is replaceable and supplies no lexeme. H2/H3 also have more split-only reader
+normalization than H1/H4 (OR 2.745124, CI 1.336602–5.637957); this is only a
+free-form proxy, not observed physical attachment.
+
+The revised renderer gives all 24 bodies and all 96 forms a structural role
+default plus an explicitly aggressive pharmaceutical working rendering. All
+24 inherited translation examples remove head-derived Pulver/Samen/Wurzel/
+Holz nouns from the corrected field. `air` is formally Teil-/Fraktionsstufe II;
+Wurzel-/Untergrundteil survives only as the inherited five-page GDT623 Herbal
+H1–air visual override. H1–H4 remain zero-lexeme opaque classes. The body
+defaults are unconfirmed roles, not recovered words, and no component exports
+beyond a registered exact whole.
+
+GDT736 passes 201 independent checks and byte-identical replay. Canonical role
+grid:
+`experiments/yolo/gdt736_opaque_head_record_role_bridge/artifacts/RECORD_ROLE_2X2_GRID.tsv`.
+Complete renderer:
+`experiments/yolo/gdt736_opaque_head_record_role_bridge/artifacts/OPAQUE_96_CONCRETE_ROLE_GRID.tsv`.
+
+Next freeze all four roles and test transfer to the remaining multihead shared
+bodies outside the selected complete 24. A transfer pass may extend scoped body
+defaults but may not retune H1–H4 after seeing held families. Physical glyph
+geometry remains unobserved and requires a separate authorized image audit.

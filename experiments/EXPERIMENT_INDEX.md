@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **733**
-- Experiment-associated tracked files: **12,600** (1.3 GiB)
-- Structured GDT337+ experiments: **398**
+- Experiments indexed: **734**
+- Experiment-associated tracked files: **12,628** (1.3 GiB)
+- Structured GDT337+ experiments: **399**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT736 | GDT736_opaque_head_record_role_bridge | `RECORD_LOCATION_X_BODY_AFFINITY_2X2_SELECTED__PARAGRAPH_SUBENTRY_SPLIT_STRONG__FREE_FORM_AXIS_SUPPORTING_PROXY_ONLY__96_SCOPED_ROLE_RENDERINGS__ZERO_HEAD_LEXEMES__NO_NEW_PAGE` | [report](../experiments/yolo/gdt736_opaque_head_record_role_bridge/REPORT.md) | 28 | 725.5 KiB | 4 | STRUCTURED_YOLO |
 | GDT735 | GDT735_historical_semantic_bridge_atlas | `TWO_CHANNEL_PHARMACEUTICAL_ARCHITECTURE_ATTESTED__MIXED_WHOLE_PLUS_BOUND_FIELD_MODEL_SELECTED__FOUR_HEAD_SEMANTICS_UNIDENTIFIED__EVA_INITIALISM_REJECTED__ZERO_LEXEMES__NO_NEW_PAGE` | [report](../experiments/yolo/gdt735_historical_semantic_bridge_atlas/REPORT.md) | 23 | 165.8 KiB | 6 | STRUCTURED_YOLO |
 | GDT734 | GDT734_v99r7_recurrent_unknown_family_dispatch | `PASS_V99R7_71_ACTIVE_WHOLE_EXPORT_REPAIRS_305_CELLS__20_UNIQUE_SPLIT_EXACT_WHOLES_226_CELLS__531_CHANGED_CELLS__7989_TO_7458_UNKNOWNS__5107_TO_5016_FORMS__15_NEW_COMPLETE_LINES__9_COMPOSITIONAL_5_ROLE_CONSTRAINED_6_LEARNED__28_EDITORIAL_AUDITS_26_REVISED__1606_CONFIDENCE_EVIDENCE_ROWS__19_ROLE_MATRIX__ZERO_COMPONENT_EXPORT__NO_NEW_PAGE` | [report](../experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/REPORT.md) | 29 | 16.9 MiB | 6 | STRUCTURED_YOLO |
 | GDT733 | GDT733_v99r6_integrated_legacy_grade_cache_renderer | `PASS_32339_CELL_CURRENT_CACHE__479_EXACT_CONTEXTS__2431_GDT732_SPOKEN__6866_ADDITIONAL_UNCONDITIONAL_GLOBALS__4692_LEGACY_CONTEXT_GRADE_RENDERS__52_SUPERSEDED_EXACT_V48_CELLS__8_CURRENT_V99_BOUND_SPANS__8_LEGACY_ALIAS_MERGES__4_STRUCTURAL_PUNCTUATION_ATTACHMENTS__7132_GRADE_CELLS_SPOKEN__ZERO_AUDIBLE_GRADE_FRAMES__32319_PRACTICAL_UNITS__NO_DEBUG_TEXT_IN_PRACTICAL_OUTPUT__NO_DOUBLED_SEPARATORS__NO_NEW_MEANING_NO_NEW_PAGE` | [report](../experiments/yolo/gdt733_v99r6_integrated_legacy_grade_cache_renderer/REPORT.md) | 27 | 17.2 MiB | 8 | STRUCTURED_YOLO |
