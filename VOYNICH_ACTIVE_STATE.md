@@ -19187,3 +19187,52 @@ opposite-flank conflicts, the two semantic relays, and result support from
 cached local features, then run over all 104 evidence contacts. This is a new
 predictive compression of GDT740, not a return to GDT552/GDT558/GDT630's old
 atom vocabulary or literal part nouns. No new page is required.
+
+## GDT741 replaces the manual lookup with a feature-only local grammar
+
+GDT741 compiles GDT740's thirteen manual attachment outcomes into one ordered
+boundary/relay implementation. Before adjudication, the builder constructs
+explicit decision records that contain current whole-field tags and local
+geometry but exclude dispatch ID, patch ID, occurrence ID, page, locus,
+GDT740 role outcomes and old manual effects. The override table enters only
+after all grammar decisions and serves only as the comparison deck.
+
+The grammar functionally replays all thirteen old outcomes, all 103 binding-
+contact role flags, all eight former PROCESS_RESULT cases, all 95 target
+functions, all 202 renderer patches and all twenty cached passage renders. The
+inherited 104th ring row remains bookkeeping-only conflict evidence; GDT741
+does not claim to derive that label again. The visible renderer remains exactly
+GDT740's 36 axis-specific, 43 carrier-bound, 56 specific and 146 fully open
+positions.
+
+The reusable relation fields are `middle_barrier`, `axis_continuity` and
+`carrier_continuity`. Direct rules encode closure ownership, opposite-flank
+non-fusion, opposing quality veto, pure amount-field ownership and single-host
+coverage of composite carriers. One result mode survives only with a retained
+direct PROCESS carrier; seven unsupported result candidates return to state.
+
+Two strict radius-two relays remain active. They require an attested reader-
+exact full frame, a reader-exact known middle cell that emits its own unit, no
+strict head or second target, `middle_barrier=OPEN`, one selected role, formal
+direction agreement and exact axis or full-carrier continuity. Their middle
+cells were not positive GDT739 anchors and remain relational-only. Each relay
+rule still has one observed trigger.
+
+A deliberately looser channel exposes six inactive roles on five targets:
+AXIS on D0040, D0075 and D0184; CARRIER on D0075, D0143 and D0164. Activating
+all would move 56→61 specific and 146→141 open positions, but GDT741 leaves
+them `OPEN_COLLISION`. Six role-bearing rules remain in-sample singletons, so
+the experiment is feature compression rather than unseen-page confirmation.
+
+The independent validator recomputes relay gates from atomic predecessor
+fields, enforces the exact identity/outcome-free decision-field contract,
+passes 87 checks and rebuilds every artifact byte-identically. The five unique
+open-collision geometries remain an intentional GDT388 `INVALID_PACKET`. No
+page, image or transcription was added and no lexeme, component, plaintext,
+literal patient, species or unit is exported. Primary report:
+`experiments/yolo/gdt741_local_attachment_boundary_relay_grammar/REPORT.md`.
+
+Next audit those five collision targets against their closest cached held and
+active radius-two analogues. Test formal direction, partial versus exact
+continuity and PROCESS/PASS or other middle-boundary scope without making an
+ineligible middle field a positive host. No new page is required.

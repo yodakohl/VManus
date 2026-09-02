@@ -221,23 +221,25 @@ export. GDT737 passes 200 checks and byte-identical replay.
 
 Primary report: `experiments/yolo/gdt737_held_body_record_role_transfer/REPORT.md`.
 
-## GDT738–GDT740 occurrence-gated whole and attachment renderer
+## GDT738–GDT741 occurrence-gated whole and attachment renderer
 
-GDT738 retains 17 visible forms and licenses twelve complete wholes at 202 exact positions; five stay Discovery-only. GDT739 audits 1,373 radius-five neighbors; 230
-contacts survive, but only radius one/two may render. Its 172 scalar positions
-split 43 quality, 15 amount, five process and 109 open; the 30 state positions
-split 22 state/eight result, 73 carriers bind and 107 positions remain fully open.
+GDT738 licenses twelve wholes at 202 positions. GDT739 keeps only radius one/two active: 43 quality, 15 amount,
+five process and 109 open scalar positions; 22 state/eight result, 73 carriers
+and 107 fully open positions. Five of 17 visible forms stay Discovery-only.
 
-GDT740 separates proximity from attachment. Its 104 typed contacts comprise 103
-role-bearing rows on 90 targets plus one conflict cue. All are single practical
-units with zero shared bound spans. Of 62 direct contacts, 55 remain active;
-seven fail component, closure or flank gates. Of 41 radius-two contacts, 39 are
-silent and two relays remain. Three pairs repeat; no radius-two frame repeats.
+GDT740 separates proximity from attachment. Among 104 typed contacts, 103 carry
+roles on 90 targets and one is inherited conflict bookkeeping. Fifty-five of 62
+direct contacts remain; 39/41 radius-two contacts hold and two relays survive.
+The renderer becomes 36 axes, 43 carriers, 56 specific and 146 open positions;
+only one of eight old result modes survives and 49/202 renders change.
 
-The corrected renderer retains 36 axes, 43 broad carriers and 56 specific
-positions; 146 are open, 49 change and only one of eight old result modes survives.
-Its invariant core is whole-field class plus ordered level. GDT740 passes 85
-checks and byte replay; report: `experiments/yolo/gdt740_local_host_attachment_adjudication/REPORT.md`.
+GDT741 compresses all thirteen manual outcomes with occurrence-ID/locus-free
+decision records and replays all 103 role flags, eight result cases, 202 patches
+and twenty passages. Six role rules remain singletons. Two strict relays stay
+active; a looser channel exposes six inactive roles on five collision targets
+(projected 56→61 specific) without changing the renderer. The two relay middles
+remain relational-only, never positive hosts. GDT741 passes 87 checks and byte
+replay; report: `experiments/yolo/gdt741_local_attachment_boundary_relay_grammar/REPORT.md`.
 
 ## What remains usable from older work
 
@@ -283,15 +285,13 @@ The complete closure memory is
 `./vmanus-exp route-check QUERY` before proposing a new family, then inspect
 only the returned primary reports and closed rows.
 
-## Next useful route: replace manual attachment exceptions with a local grammar
+## Next useful route: adjudicate the five exposed relay collisions
 
-Compile GDT740's thirteen manual overrides into the smallest executable grammar
-that predicts them without IDs or loci. Use cached distance, closure ownership,
-split versus single-host carriers, flank agreement, middle-cell continuity,
-local result support and formal direction; run it over all 104 contacts and
-surface every new collision. Unlike GDT552/GDT558/GDT630, revive neither their
-old atom dictionary, literal part readings nor control envelopes. Make the
-current twelve-whole renderer predictive without a new page, image or transcript.
+Audit the five `OPEN_COLLISION` targets against their closest held and active
+radius-two analogues. Decide whether formal direction, partial versus exact
+continuity, PROCESS/PASS scope or another cached boundary feature separates
+them. Keep every unresolved role open; do not revive old atom meanings or make
+an ineligible middle field a positive host. No new page, image or transcript.
 
 ## Primary routing references
 
