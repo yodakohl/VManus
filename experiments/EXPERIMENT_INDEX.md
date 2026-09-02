@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **744**
-- Experiment-associated tracked files: **12,840** (1.3 GiB)
-- Structured GDT337+ experiments: **409**
+- Experiments indexed: **745**
+- Experiment-associated tracked files: **12,862** (1.3 GiB)
+- Structured GDT337+ experiments: **410**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT747 | GDT747_supported_whole_passage_application | `PARTIAL__12_GDT746_SUPPORTED_WHOLES__64_OCCURRENCES__62_LINES__1_CONTRASTIVE_LOCAL_PARADIGMS__2_MULTIWHOLE_LOCAL_SUPPORTS__16_SINGLE_WHOLE_LOCAL_SUPPORTS__62_STRONG_CONCRETE_TOKEN_DELTA__6_PASSAGE_BLOCKS__ZERO_LITERAL_IDENTITIES__ZERO_COMPONENT_EXPORT__NO_NEW_PAGE` | [report](../experiments/yolo/gdt747_supported_whole_passage_application/REPORT.md) | 22 | 281.5 KiB | 6 | STRUCTURED_YOLO |
 | GDT746 | GDT746_whole_analogy_distribution_test | `PARTIAL__17_A3_COMPLETE_WHOLES__52_DISTANCE1_RELATIONS__63_SURFACES__1523_OCCURRENCES__15_PAIR_REINFORCED__10_PAIR_COMPATIBLE__4_CANDIDATE_MULTI_REINFORCED__16_DIRECT_IN_85_TOP5_SLOTS__14_OF_17_FORM_DISTRIBUTION_AXIS_AGREEMENTS__ZERO_LITERAL_IDENTITIES__ZERO_COMPONENT_EXPORT__NO_NEW_PAGE` | [report](../experiments/yolo/gdt746_whole_analogy_distribution_test/REPORT.md) | 19 | 534.6 KiB | 6 | STRUCTURED_YOLO |
 | GDT745 | GDT745_exact_open_content_role_expansion | `PARTIAL__41_EXACT_OPEN_SURFACES__136_CACHE_OCCURRENCES__53_PAGES__22_CROSS_PAGE_WHOLES__136_OF_136_CENTERED_CONTEXTS_OPEN__34_MULTIWHOLE_AXIS_CONSENSUS__17_DISTANCE1_MULTIWHOLE__41_EXPLORATORY_WORKING_DEFAULTS__ZERO_LITERAL_IDENTITIES__ZERO_COMPONENT_EXPORT__NO_NEW_PAGE` | [report](../experiments/yolo/gdt745_exact_open_content_role_expansion/REPORT.md) | 21 | 350.2 KiB | 6 | STRUCTURED_YOLO |
 | GDT744 | GDT744_historical_microfield_channel_bridge | `PARTIAL__16_COMPLETE_RECURRENT_EXACT_WHOLE_CHANNEL_TEMPLATES__80_TEMPLATE_BACKED_FIELDS__47_COMPLETE_PLUS_33_RADIUS_CENSORED__69_OF_80_W3_TEMPLATE_RETAINED__67_SAME_CHANNEL__42_UNRESOLVED_CONTENT_SLOT_CELLS__TARGET_WHOLES_REMAIN_LEVEL_OR_STATE_FIELDS__ZERO_LEXEMES__NO_NEW_PAGE` | [report](../experiments/yolo/gdt744_historical_microfield_channel_bridge/REPORT.md) | 20 | 459.2 KiB | 5 | STRUCTURED_YOLO |

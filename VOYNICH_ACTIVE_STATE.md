@@ -19393,3 +19393,40 @@ The next route locates cached passages containing multiple supported candidates
 and renders only the intersection of complete-whole form and distribution axes.
 It must measure whether concrete information rises without generic filler and
 must not reuse GDT637/645's component compositions. No new page is required.
+
+## GDT747 applies supported wholes to complete cached passages
+
+GDT747 freezes the twelve GDT746 S2/S3 candidates and inserts only each
+whole's shared form-family/top-five-distribution axes into all 64 cached
+occurrences. The deck covers 613 tokens on 62 lines and 40 already allowed
+pages. Eleven candidates receive an intersected core; `chtl` has none and both
+of its occurrences remain open. The result is 62 strong concrete candidate
+tokens on 61 lines, with one contrastive local paradigm, two local
+multiwhole-support cases, sixteen single-whole supports and 43 lines without
+independent radius-two support.
+
+The strongest written series is `tchey qokchey qochey` on f104v.23. The first
+two complete cards share DRY and MIDDLE_STAGE while contrasting COLD/HOT.
+Together with GDT745 form and GDT746 distribution evidence, this narrows the
+replaceable whole-card for `qochey` to DRY with probable MIDDLE_STAGE;
+temperature and function remain open. `cheeey` receives two independent local
+multiwhole DRY supports and is now a dry state with probable END. `okeeody`,
+`sheeol`, `chtar`, `alom`, `ykeeey` and `ykeeody` retain weaker passage leads;
+`chckh`, `chetar` and `dsheedy` gain no local support.
+
+Across six full blocks, three manual readings have high, two medium and one low
+information gain. The compact f86v3.20 block exposes heat, dry state,
+preparation, middle/end stage, fraction and portion roles at eight of nine
+positions, five strongly, but does not identify a single literal substance.
+Thirty-six candidate lines still contain retired literal cards and those cards
+remain withheld. The validator passes 3,783 checks and byte-identical replay;
+the relation packet is expectedly invalid/not score-ready because formal
+access is unsealed. Primary report:
+`experiments/yolo/gdt747_supported_whole_passage_application/REPORT.md`.
+
+The next route is the narrower complete-whole serial-paradigm census: search
+cached three-/four-word runs with supported HOT/COLD/DRY/MOIST or stage cards
+and exactly one open whole, then ask whether the known cards predict one shared
+axis or contrast at that slot. This is not a revival of the GDT623–632
+substring grids or GDT624–625 process reading; components and invented verbs
+remain excluded.

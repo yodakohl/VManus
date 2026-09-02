@@ -221,7 +221,7 @@ export. GDT737 passes 200 checks and byte-identical replay.
 
 Primary report: `experiments/yolo/gdt737_held_body_record_role_transfer/REPORT.md`.
 
-## GDT738–GDT746 occurrence-gated whole, attachment and field renderer
+## GDT738–GDT747 occurrence-gated whole, attachment and field renderer
 
 GDT738 licenses twelve wholes at 202 positions. GDT739 keeps only radius one/two active: 43 quality, 15 amount,
 five process and 109 open scalar positions; 22 state/eight result, 73 carriers
@@ -248,7 +248,7 @@ Report: `experiments/yolo/gdt744_historical_microfield_channel_bridge/REPORT.md`
 
 GDT745 finds 136 cached occurrences of those 41 exact wholes on 53 pages; all 136 centered contexts stay OPEN, and `qochey` proves that field role cannot be inherited as word role. Clean complete-whole edit analogies give 34/41 multiwhole axis consensuses, including 17 with multiple agreeing distance-one neighbors, and 41 replaceable defaults with counterevidence. These are mixed quality/state, material/preparation, quantity/part and process/result families—not literal identities or component values. Report: `experiments/yolo/gdt745_exact_open_content_role_expansion/REPORT.md`.
 
-GDT746 compares the 17 strongest candidates and 52 direct whole neighbors over 1,523 cached occurrences: 15 pairs reinforce and ten are compatible after section-removed local controls; four candidates have multiple reinforced neighbors. Direct form neighbors occupy 16/85 top-five distribution slots versus 5.65 from deck share, and 14/17 candidates share at least one form/distribution axis. Exact phrase flanks remain sparse, so these are whole-role families, not decoded words. Report: `experiments/yolo/gdt746_whole_analogy_distribution_test/REPORT.md`.
+GDT746 compares the 17 strongest candidates and 52 direct whole neighbors over 1,523 cached occurrences: 15 pairs reinforce and ten are compatible after section-removed local controls; four candidates have multiple reinforced neighbors. Direct form neighbors occupy 16/85 top-five distribution slots versus 5.65 from deck share, and 14/17 candidates share at least one form/distribution axis. Exact phrase flanks remain sparse, so these are whole-role families, not decoded words. GDT747 inserts only the twelve S2/S3 intersections into all 64 cached occurrences: 62 strong token gains on 61 lines, one contrastive `qochey` series, two multiwhole `cheeey` supports and six complete blocks. The working whole values narrow to `qochey` = DRY with probable MIDDLE_STAGE and `cheeey` = DRY state with probable END, while `chtl` remains open; no component or literal name is exported. Reports: `experiments/yolo/gdt746_whole_analogy_distribution_test/REPORT.md`, `experiments/yolo/gdt747_supported_whole_passage_application/REPORT.md`.
 
 ## What remains usable from older work
 
@@ -290,9 +290,9 @@ Do not rerun without genuinely new data or a different falsifier:
 Closure memory: `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv`.
 Run `./vmanus-exp route-check QUERY`, then inspect returned primary reports and closed rows.
 
-## Next useful route: apply the intersected whole axes to complete passages
+## Next useful route: complete-whole serial paradigms
 
-Find already cached passages containing multiple GDT746-supported wholes, render only the intersection of form-family and top-five distribution axes, and test whether concrete paragraph information rises without generic filler. This is distinct from GDT637/645's retired component closure: keep wholes opaque, preserve every rival, and add no page, image or transcript.
+Enumerate already cached written three-/four-whole series containing independently supported HOT/COLD/DRY/MOIST or stage cards and exactly one open complete whole. Require the known cards to predict one shared axis or contrast for that slot, score every eligible series, and keep whole forms opaque. This differs from GDT623–632's productive substring grids and GDT624–625's state-transition reading: no component, process verb, new page, image or transcript may enter.
 
 ## Primary routing references
 
