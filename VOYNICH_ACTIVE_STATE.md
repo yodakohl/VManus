@@ -19478,3 +19478,52 @@ occurrences outside their discovering serial frames and compares their
 distribution against fixed quality/stage reference wholes. This is new data
 for the GDT746 distribution mechanism, not a revival of GDT550 component
 frames or the closed literal-gloss route.
+
+## GDT749 calibrates the outside-role test and moves `qochey` toward END
+
+GDT749 removes all 57 GDT748 discovery coordinates before following the
+sixteen recurrent forms plus `qochey`. The fixed target deck contains 1,684
+cached occurrences; 1,627 remain outside discovery, including 1,311
+reader-exact positions on 154 already allowed pages. No new page, image or
+transcription enters.
+
+The first global distribution renderer does not survive its required reality
+check. Applied leave-self-out to the forty-six known reference wholes, the
+same top-five enrichment rule returns 23 true quality/stage labels, 42 false
+labels and misses 60, for precision .353846 and recall .277108. Section,
+line-position, neighbor and closure similarity is therefore navigation only;
+its raw X tiers cannot confirm or reject a complete-whole role.
+
+Immediate known-whole contexts are compared with their own 1,158-occurrence
+reference baseline. Four forms retain weak K2 compatibility: `chdy` DRY (7:1
+prior-only/rival-only outside versus 123:37 baseline), `cheey` DRY (13:1),
+`okeey` HOT (22:6 versus 166:87) and `qokedy` END_STAGE (13:12 versus 72:109).
+Six more cards remain weakly compatible; `lkeey`, `olkar` and `qokaiin` are
+baseline-like and their HOT hypotheses are no longer audible defaults.
+`cheky`'s MIDDLE_STAGE prior loses to a BEGIN/END outside rival (1:7), while
+`kchdy` gains only a sparse COLD/DRY rival and is not rejected.
+
+`okechy` has only two exact outside positions, neither with an immediate known
+quality axis. Its outside profiles favor preparation/material and COLD/END
+cards before the first HOT card. The working whole card becomes a
+preparation/state form with HOT from the discovery series versus COLD/END from
+outside distribution; polarity and stage remain open.
+
+The three outside `qochey` positions reorder its hypotheses. DRY|MIDDLE_STAGE
+has best reference rank five, one top-five match and zero immediate outside
+hits. END_STAGE has rank one, four top-five matches and one immediate hit;
+HOT|END_STAGE has rank four and one immediate hit. The new global working card
+is END/transition first, the strongest single serial frame DRY/MIDDLE second,
+and HOT/END as a local rival. This is an occurrence-sensitive role, not a word
+translation.
+
+The validator passes 11,787 checks and byte-identical replay. The same-page
+GDT388 relation is invalid/not score-ready solely because formal access is
+unsealed. Primary report:
+`experiments/yolo/gdt749_outside_frame_whole_role_distribution/REPORT.md`.
+
+The next no-new-page route applies GDT739/GDT740's host/attachment logic to
+these seventeen forms at individual occurrences. Immediate complete-whole
+hosts must pass boundary, competing-flank and ownership checks; radius two is
+silent without a repeated full frame or explicit continuous relay. The same
+dispatcher is first calibrated by hiding the forty-six known reference wholes.
