@@ -1,6 +1,6 @@
 # Voynich active state — structural reset baseline
 
-Updated: 2026-08-29. This is the full claim registry. For routine work, read
+Updated: 2026-09-02. This is the full claim registry. For routine work, read
 `VOYNICH_CURRENT_ROUTE.md` first and open only the relevant sections here and in
 `experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv`.
 
@@ -18888,3 +18888,64 @@ confidence, positive evidence, counterevidence and exact scope for every
 candidate. Prioritise coverage and practical passage gain. Do not use a
 coordinate or neighbouring word by itself as the value, and do not force the
 name-like singleton tail into one generic material gloss.
+
+## GDT734 repairs V99R6 projection and adds a bounded recurrent-whole tranche
+
+GDT734 separates a technical repair from an exploratory semantic pass. The
+technical pass finds 71 unconditional `ACTIVE_WORKING_DEFAULT` whole forms
+that GDT733 did not project because its collector admitted only the older
+`GLOBAL_V48_DEFAULT` class. It repairs all 305 unknown cache cells while
+leaving the two context-/span-bound surfaces `dchey` and `olkar` excluded.
+
+The independent exploratory pass adds twenty enumerated recurrent exact
+wholes at 226 cells. Exactly one split among currently concrete V99R4 reading
+combinations is navigation only and earns no score. Nine forms are classified
+as compositional, five as role-constrained and six as learned wholes with zero
+free-component export. All remain W1/W2. Twenty-eight editorial audits revise
+only the spoken renderer for 26 active wholes; stored meaning, score,
+confidence, evidence, scope and export rights remain unchanged.
+
+Together the passes change 531 cells on 472 lines. Unknown markers fall from
+7,989 to 7,458 cells and 5,107 to 5,016 forms; complete lines rise from 1,413
+to 1,428. The dictionary has 1,606 readings for 1,602 surfaces. Its nineteen
+role rows and five historical comparators are working architecture aids with
+zero relation/sign credit. Independent validation passes 79 checks and
+byte-replays the builder. Canonical cache:
+`experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/artifacts/V99R7_4128_INTEGRATED_LINE_READER.tsv`.
+
+## GDT735 removes the EVA-initial category error and selects the historical bridge
+
+The prior `p=pulvis`, `s=semen`, `r=radix`, `l=lignum` rationale is not merely
+weak: EVA `p/s/r/l` are modern transcription labels, not manuscript Latin
+letters. Matching those labels to Latin initials gives zero letter, sound,
+glyph, relation or lexeme evidence. Older GDT635+ artifacts remain frozen as
+the record of that experiment, but their head-derived literal nouns are no
+longer active defaults.
+
+The valid formal survivor is a balanced grid of 96 unique head-body forms on
+24 complete bodies: four contrastive classes `H1-H4`, 24 cells each, with
+1,166 inherited occurrences and 875 alternate-reader-exact occurrences.
+H1/H2 are more line-initial; H3/H4 are more internal/final, so even the claim
+that all four are one material-noun class remains open. Every one of the 24
+assignments of pulvis/semen/radix/lignum explains the same 96 structural cells.
+The rejected initial mnemonic ranks 20/24 in both Alphita and Sinonoma OCR
+mention-frequency controls, but those counts are not entries and identify no
+alternative mapping.
+
+The 22-source registry and seventeen observations do establish the desired
+late-medieval architecture. Descriptive records combine a learned name with
+part/form, quality/state and degree; prescriptive records combine command,
+ingredient/preparation, amount and unit. Wellcome MS542 directly contains both
+channels in one manuscript. A mixed learned-whole plus bound-field system is
+therefore the selected historical prior, with the two record channels kept
+distinct. None of the inspected sources contains a comparable four-head
+one-letter material code, and no target record linkage or head meaning is
+claimed. The canonical corrected role dictionary is:
+`experiments/yolo/gdt735_historical_semantic_bridge_atlas/artifacts/SEMANTIC_BRIDGE_ROLE_DICTIONARY.tsv`.
+
+Next use all 1,166 already admitted positions to determine whether H1/H2 and
+H3/H4 occupy descriptive versus prescriptive record roles, then inspect the
+underlying manuscript graphemes and alternate-reader variants against actual
+pharmaceutical abbreviations. A literal head meaning may return only from
+context, grapheme and record-role convergence; the EVA label itself never
+counts. No new page is needed for that pass.

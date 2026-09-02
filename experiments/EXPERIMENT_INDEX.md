@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **731**
-- Experiment-associated tracked files: **12,548** (1.2 GiB)
-- Structured GDT337+ experiments: **396**
+- Experiments indexed: **733**
+- Experiment-associated tracked files: **12,600** (1.3 GiB)
+- Structured GDT337+ experiments: **398**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,8 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT735 | GDT735_historical_semantic_bridge_atlas | `TWO_CHANNEL_PHARMACEUTICAL_ARCHITECTURE_ATTESTED__MIXED_WHOLE_PLUS_BOUND_FIELD_MODEL_SELECTED__FOUR_HEAD_SEMANTICS_UNIDENTIFIED__EVA_INITIALISM_REJECTED__ZERO_LEXEMES__NO_NEW_PAGE` | [report](../experiments/yolo/gdt735_historical_semantic_bridge_atlas/REPORT.md) | 23 | 165.8 KiB | 6 | STRUCTURED_YOLO |
+| GDT734 | GDT734_v99r7_recurrent_unknown_family_dispatch | `PASS_V99R7_71_ACTIVE_WHOLE_EXPORT_REPAIRS_305_CELLS__20_UNIQUE_SPLIT_EXACT_WHOLES_226_CELLS__531_CHANGED_CELLS__7989_TO_7458_UNKNOWNS__5107_TO_5016_FORMS__15_NEW_COMPLETE_LINES__9_COMPOSITIONAL_5_ROLE_CONSTRAINED_6_LEARNED__28_EDITORIAL_AUDITS_26_REVISED__1606_CONFIDENCE_EVIDENCE_ROWS__19_ROLE_MATRIX__ZERO_COMPONENT_EXPORT__NO_NEW_PAGE` | [report](../experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/REPORT.md) | 29 | 16.9 MiB | 6 | STRUCTURED_YOLO |
 | GDT733 | GDT733_v99r6_integrated_legacy_grade_cache_renderer | `PASS_32339_CELL_CURRENT_CACHE__479_EXACT_CONTEXTS__2431_GDT732_SPOKEN__6866_ADDITIONAL_UNCONDITIONAL_GLOBALS__4692_LEGACY_CONTEXT_GRADE_RENDERS__52_SUPERSEDED_EXACT_V48_CELLS__8_CURRENT_V99_BOUND_SPANS__8_LEGACY_ALIAS_MERGES__4_STRUCTURAL_PUNCTUATION_ATTACHMENTS__7132_GRADE_CELLS_SPOKEN__ZERO_AUDIBLE_GRADE_FRAMES__32319_PRACTICAL_UNITS__NO_DEBUG_TEXT_IN_PRACTICAL_OUTPUT__NO_DOUBLED_SEPARATORS__NO_NEW_MEANING_NO_NEW_PAGE` | [report](../experiments/yolo/gdt733_v99r6_integrated_legacy_grade_cache_renderer/REPORT.md) | 27 | 17.2 MiB | 8 | STRUCTURED_YOLO |
 | GDT732 | GDT732_v99r5_grade_frame_spoken_renderer | `PASS_175_GRADE_READINGS_2431_LICENSED_POSITIONS__162_GLOBAL_2401_PLUS_13_ACTIVE_30__1784_TARGET_ACTIVE_SURFACE_LEAK_CONTROLS__75_DIRECT_ROWS_1748_POSITIONS__100_NEUTRAL_ROWS_683_POSITIONS__ZERO_TARGET_GRADE_FRAMES__4752_V48_BASELINE_RESIDUALS_4692_ACTIVE_OUTSIDE_EXACT_PLUS_52_SUPERSEDED_EXACT_PLUS_8_ALIAS_MERGE__V99R4_SEMANTIC_DICTIONARY_BYTE_STABLE__NO_NEW_PAGE` | [report](../experiments/yolo/gdt732_v99r5_grade_frame_spoken_renderer/REPORT.md) | 22 | 6.3 MiB | 8 | STRUCTURED_YOLO |
 | GDT731 | GDT731_v99r4_occurrence_passage_impact | `PASS_94_SURFACES_1039_POSITIONS_911_LINES__351_COMPLETE_LINES__50_TARGET_DENSE_PASSAGES__GDT696_OVERLAYS_BYTE_STABLE__CACHED_DEFAULT_IMPACT_ONLY__NO_POLISHED_TRANSLATION_OR_NEW_PAGE` | [report](../experiments/yolo/gdt731_v99r4_occurrence_passage_impact/REPORT.md) | 18 | 2.2 MiB | 4 | STRUCTURED_YOLO |
