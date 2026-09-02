@@ -19776,3 +19776,51 @@ outside the top 24 for water, wine, oil, salt, plant parts, preparations,
 vessels, patients and diseases. Candidates and rivals stay live until a
 repeated frame makes one interpretation clearly better; no EVA character or
 substring receives a Latin value.
+
+## GDT756 promotes `ychor=Item/ferner` and candidate-fills all thirteen line bodies
+
+GDT756 adds three near-period recipe comparators absent from GDT755. Wellcome
+MS.407 (early fifteenth century) has `Item. Tak ...`; Durham Cosin MS V.iv.1
+(turn of the fourteenth/fifteenth century) follows an initial `Take ...`
+remedy with `Item stampe ...` and `Item take ...`; the late-fourteenth/early-
+fifteenth-century Harley MS 2378 sequence likewise has `Item take ...`.
+These examples make a continuation marker a serious rival to the GDT755
+command-only reading.
+
+The complete-form placement now favors **`ychor=Item/ferner/ebenso`** as the
+C2 working primary. `Recipe/Accipe=nimm` remains the strongest rival,
+`Item take=ferner:nimm` the third, and a topical `De/Ad/For=für/gegen` reading
+the fourth. The choice does not use spelling: all thirteen reader-exact
+occurrences begin a line, zero begin a coded paragraph, three end a coded
+paragraph, and the form appears in H, P, S and T. Its paragraph-line indices
+range from 2 to 28, fitting an additional-entry marker better than an opening
+heading.
+
+The body comparison removes `ychor` itself, reader-variant evidence and all
+172 GDT754 source-composed forms before counting role axes. Four of thirteen
+target bodies contain content + amount/level + process, versus 22 of 247
+nearby continuation controls matched on section, Currier language, hand and
+line length. The rates are .307692 versus .089069, a descriptive ratio of
+3.454545. Process alone is 4/13 versus 40/247 (1.9x); quality/stage is lower
+than controls. Among 113 exact initial surfaces with at least five initial
+lines, `ychor` ranks fourth by the full body triad, behind `pchor`, `ykar` and
+`yteedy`, while retaining the unique 13/13 global line-initial purity found by
+GDT755.
+
+Every one of the 71 post-`ychor` token positions now has a concise candidate,
+and the 53 distinct body wholes each retain two rivals. The fully filled
+renderer therefore has no question marks or generic work-item filler. It uses
+specific exploratory values such as `chor=Blätter`, `cthy=Wurzel`, `s=Samen`,
+`sheol=eingeweichtes Kraut`, `sheeor=Wein`, `ols=Heilmittel`,
+`chshoty=weiche ein`, `odol=miss den Arzneistoff ab` and
+`qokchol=heiß getrocknetes Kraut`. These literal nouns remain C0/C1 candidates,
+not identifications, and none was chosen from an EVA initial. GDT756 passes
+2,369 checks and byte-identical replay. Primary report:
+`experiments/yolo/gdt756_ychor_line_frame_content_slots/REPORT.md`.
+
+The next route first checks the other high-triad initial wholes `pchor`,
+`ykar` and `yteedy` for initial purity, continuation geometry and distinct
+formula roles. In parallel it follows all occurrences of the eleven direct
+`ychor` followers; a literal candidate survives only while its full-form
+distribution remains compatible with a concrete plant, ingredient, amount or
+operation slot. Rivals stay available and no component inherits a value.
