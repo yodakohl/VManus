@@ -20052,3 +20052,54 @@ Next, audit all cached occurrences and exact outward constructions of `ckhy`,
 goal is to distinguish medium, preparation complement, state field and generic
 carrier before attempting a concrete water/wine/oil working identity. No new
 page is required.
+
+## GDT762 separates a post-moist record field from a quantity-bearing carrier
+
+GDT762 follows all 404 reader-exact occurrences of `ckhy`, `pcheey` and `ol`
+across the admitted cache and compares them with eleven whole-form working
+dry-side/moist-side pairs. The pair deck contributes 2,520 exact state
+occurrences, 98 direct target-state edges and 66 exact radius-two relays. These
+pair sides remain analyst working hypotheses rather than confirmed dry/moist
+lexemes.
+
+`pcheey` is the strongest new construction result. All three exact occurrences
+are medial on paragraph-start lines and immediately follow `sheo`, `sheo` or
+`sho`; the first two are the GDT761 discovery contacts and the `sho` instance
+is an outer-pair replication. Among 1,571 quarantine-clean recurrent exact
+surfaces, `pcheey` alone has complete `sho|sheo` predecessor coverage. It also
+accounts for all three exact post-moist contacts in the 199-occurrence H1
+universe; the other 196 H1 occurrences and the seven `pchey|pchy` dry-body
+controls have zero. All three target lines contain multiple H1 record forms.
+The portable whole therefore becomes `Trockenzubereitungs-/Form-II-Eintrag;
+Identität offen`. The exact spans render structurally as `Feuchtzubereitung;
+[Eintrag:] Trockenform II`, while `Feuchtzubereitung mit/aus Trockengut, Form
+II` remains the concrete C1 source/complement reading. Result, medium and bound
+shell interpretations remain weaker rivals; no temporal arrow is licensed.
+
+`ol` has 376 exact occurrences. Its 58 direct dry-side versus 34 moist-side
+contacts normalize to a moist/dry rate ratio of .883685, rejecting a simple
+moist-medium selector. Its independent gain is quantitative: sixteen GDT760
+amount-expression positions create seventeen direct edges on thirteen pages,
+eight on the positionally preferred content side. The portable whole is now
+`mengenfähiger Zubereitungs-/Stoffträger; genaue Basis offen`; eight exact
+spans receive local working phrases, including f94v.9 `ol s aiin oly` =
+`Ansatzstoff: drei Drachmen; abseihen`. Ansatzstoff, Drachme and oil are still
+replaceable candidates. `ckhy` retains `Zubereitung/Kompositum,
+Anfangsstufe; Mischung als Rivale`: its full direct profile is one dry and two
+moist edges, too small and mixed for water or wine.
+
+The pass also closes a renderer-precedence leak. Ninety-four GDT736 training
+wholes still inherited GDT734 powder/seed/root/wood head patients in local
+neighbor windows. All are now recorded and replaced by their later structural
+whole-form roles before rendering; `pchey` and `paiin` no longer reintroduce
+the invalid EVA-`p` to *pulvis* mnemonic. Nine period vocabulary categories are
+crossed with all three targets, but every historical comparison receives zero
+EVA-spelling and lexical assignment credit. GDT762 passes 3,419 checks and
+byte-identical replay. Primary report:
+`experiments/yolo/gdt762_moist_medium_candidate_discrimination/REPORT.md`.
+
+Next, without opening a new page, distinguish `pcheey` and matched H1 contexts
+as content head, source/complement, parallel record field or result from their
+following role sequence. In parallel classify all sixteen `ol` amount contacts
+as head, object, context or source against matched quantity-bearing content
+wholes. Only after that discriminator should oil, water or wine be promoted.
