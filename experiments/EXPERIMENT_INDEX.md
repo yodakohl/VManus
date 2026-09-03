@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **772**
-- Experiment-associated tracked files: **13,539** (1.3 GiB)
-- Structured GDT337+ experiments: **437**
+- Experiments indexed: **773**
+- Experiment-associated tracked files: **13,572** (1.3 GiB)
+- Structured GDT337+ experiments: **438**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT775 | GDT775_ol_right_complement_slot_test | `PASS__RENDERER_THROUGHPUT_66_PLUS_8__PREDECESSOR_DIAGNOSTIC_NOT_SCORE_READY__NO_PLAINTEXT` | [report](../experiments/yolo/gdt775_ol_right_complement_slot_test/REPORT.md) | 33 | 690.3 KiB | 11 | STRUCTURED_YOLO |
 | GDT774 | GDT774_ol_376_contextual_transfer | `PASS__376_OL__AUTO_CONTEXT49_FALLBACK327__HYBRID_CONTEXT55_FALLBACK321__CALIBRATION9_OF15__STRUCTURAL_RIGHT_BINDING_REGISTER_CONDITIONED__ZERO_CONFIRMED_LEXEMES_NO_NEW_PAGE` | [report](../experiments/yolo/gdt774_ol_376_contextual_transfer/REPORT.md) | 37 | 823.3 KiB | 9 | STRUCTURED_YOLO |
 | GDT773 | GDT773_ol_capacity_equalized_composition_audit | `PASS__15_OL_CASES_11_LINES_10_PHYSICAL_FOLIOS__75_EQUAL_CAPACITY_MASKS__FORMAL_NOMINAL_HEAD_6_VS_VON_10_FIELD_13_UNIT_15_AUS_24__CONTEXTUAL_ASSOCIATION7_FIELD8__ZERO_CONFIRMED_LEXEMES_NO_NEW_PAGE` | [report](../experiments/yolo/gdt773_ol_capacity_equalized_composition_audit/REPORT.md) | 37 | 245.0 KiB | 5 | STRUCTURED_YOLO |
 | GDT772 | GDT772_expanded_ol_branch_masked_rescore | `PARTIAL__22_LINES_186_TOKENS_183_SCORE_NODES_182_READER_UNITS__27_TARGET_MASKS_OL15_CKHY4_OLS3_OTAR5__OL_LEFT_BRANCH_7_ON_6_PAGES_OTHER_BRANCH_4_ON_4__OL_POSITIONAL_NOMINAL_EXACT_TIE_56__0_POLICY_WINS__ZERO_CONFIRMED_LEXEMES_NO_NEW_PAGE` | [report](../experiments/yolo/gdt772_expanded_ol_branch_masked_rescore/REPORT.md) | 28 | 263.3 KiB | 8 | STRUCTURED_YOLO |
