@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **763**
-- Experiment-associated tracked files: **13,255** (1.3 GiB)
-- Structured GDT337+ experiments: **428**
+- Experiments indexed: **764**
+- Experiment-associated tracked files: **13,292** (1.3 GiB)
+- Structured GDT337+ experiments: **429**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT766 | GDT766_ofch_chor_role_switch_prediction | `PARTIAL__43_EXACT_OFCH_CORE_OCCURRENCES_25_FORMS__36_PAGES_41_LOCI__36_MEDIAL_6_LAST_1_FIRST__34_PARAGRAPH_START_LINES_1_TRUE_OPENER_0_PARAGRAPH_END__PREFIX_25_ZERO_FIRST_ZERO_REPEATED_EXACT_BIGRAMS__GENERIC_DRUG_CORE_PORTABLE__FLOWER_DRUG_CORE_BOLD_C0__4_REPRODUCTIVE_SAME_LINE_BRIDGES_NOT_SCORE_READY__OFCHEDY_QOFCHEDY_5_PLUS5_NOMINAL_ACTION_REMOVED__191_CHOR_FAMILY_OCCURRENCES__PCHOR_RECIPE_OPEN_CHOR_CONTENT_SCHOR_ITEM_LCHOR_INTERNAL__5_FULL_EXACT_LINES__ZERO_CONFIRMED_LEXEMES_ZERO_COMPONENT_EXPORT_NO_NEW_PAGE` | [report](../experiments/yolo/gdt766_ofch_chor_role_switch_prediction/REPORT.md) | 37 | 306.1 KiB | 7 | STRUCTURED_YOLO |
 | GDT765 | GDT765_ofchy_schor_content_field_discriminator | `PARTIAL__6_TARGET_OCCURRENCES__OFCHY_3_OF3_NOMINAL_SPECIFICATION_HEAD__SELECT_BLUETENMASSE_C0__SCHOR_3_ITEM_HEADS__SELECT_BLUETENSTAND_C1__25_OFCH_PREFIX__13_FCHY_SUFFIX__67_CHOR_VALUE_PAIRS__12_H_X_DAIIN__F22R_TWO_PARALLEL_TARGET_FIELDS__CFHY_TRANSITION_C1__ZERO_CONFIRMED_LEXEMES__NO_NEW_PAGE` | [report](../experiments/yolo/gdt765_ofchy_schor_content_field_discriminator/REPORT.md) | 28 | 114.9 KiB | 7 | STRUCTURED_YOLO |
 | GDT764 | GDT764_bounded_value_field_dispatch | `PARTIAL__254_X_OCCURRENCES__9_EXACT_X_DAIIN_BIGRAMS__5_H1_X_DAIIN_FIELDS__1_STRONG_1_PROVISIONAL_3_OPEN_H1_AXES__QOTY_GRADE_III__OTEODY_STAGE_C1__DAL_MEASURE_VALUE_AMOUNT_C1__QOPCHDY_NOMINAL_OPEN__OFCHY_OPEN__15_RAW_12_EXACT_OL_ORDERS__HEAD8_OBJECT1_CONTEXT2_BILATERAL1__POSITIONAL_RECORD_GRAMMAR__ZERO_CONFIRMED_LEXEMES__NO_NEW_PAGE` | [report](../experiments/yolo/gdt764_bounded_value_field_dispatch/REPORT.md) | 25 | 204.6 KiB | 12 | STRUCTURED_YOLO |
 | GDT763 | GDT763_h1_content_vs_record_discriminator | `PARTIAL__199_H1_OCCURRENCES__52_PARAGRAPH_START_MEDIAL_H1__PCHEEY_3_OF_3_POST_SHO_SHEO__2_OF_3_PCHEEY_X_DAIIN_VS_3_OF_196_OTHER_H1__SELECT_FIELD_BEARING_FORM_II_RECORD_CONTENT_HEAD__C1_SOURCE_RIVAL__RESULT_DOWNGRADED_ZERO_PROCESS_CLOSE_WITHIN_PLUS_MINUS3__OL_16_AMOUNT_POSITIONS_HEAD9_OBJECT1_CONTEXT5_BILATERAL1__OL_PREPARATION_LIKE_NOT_FIXED_SUBSTANCE__ZERO_CONFIRMED_LEXEMES__NO_NEW_PAGE` | [report](../experiments/yolo/gdt763_h1_content_vs_record_discriminator/REPORT.md) | 26 | 282.6 KiB | 11 | STRUCTURED_YOLO |
