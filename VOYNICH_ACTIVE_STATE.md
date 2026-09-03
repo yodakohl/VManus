@@ -20428,9 +20428,43 @@ artifacts. No new page, image, OCR, transcription, `f84`, or `f84r` was used.
 Primary report:
 `experiments/yolo/gdt770_target_masked_valency_orphan_tournament/REPORT.md`.
 
-Next, GDT771 searches only the already admitted cache for four missing
-discriminator contexts: amount/value immediately left of `ol`, a second
-patient-supported final `ckhy`, a second `ols`-right-value contrast against
-straining, and additional `otar` nominal/sequence/endpoint bridges. If those
-contexts are absent, the ambiguity stays explicit until the next user-released
-four-page packet rather than being filled with another synonymous model.
+## GDT771 complete-cache discriminator result
+
+GDT771 guard-searches all 461 already known `ol/ckhy/ols/otar` target loci and
+the matching 46 GDT760 quantity rows; both guarded reads materialize zero
+`f84*` rows. The union of 173 GDT734-complete loci and fifteen GDT770-admitted
+lines contains 176 loci and 203 target occurrences. After inherited and five
+new line-wide semantic-contamination exclusions, 195 target occurrences can
+carry strict availability decisions.
+
+The formerly empty GDT770 `ol` left-amount/value branch is now present at
+fourteen occurrences in twelve loci on nine pages. Eleven occurrences on
+seven pages possess a physical reader-exact right neighbour. Seven occurrences
+on six pages also possess a target-independent right role allowed by the exact
+GDT770 branch expression: `f112r.36@2`, `f30v.2@7`, `f75r.26@2`,
+`f81r.15@2`, `f81r.22@8`, `f82r.33@2`, and `f85r1.21@4`.
+`f81r.22@6` is explicitly not a full case because its right
+`AMOUNT_VALUE|QUALITY_STAGE` roles cannot silently become a required
+field/material/process role. The positional `[von/aus]` display is therefore
+now score-ready, not selected or translated.
+
+The other gaps remain informative. `ckhy` has six exact final positions but
+only one patient-supported final page. `ols` has three exact right-value
+contacts but only `f104v.19` is a complete line; `f99v.21` supplies the
+strongest local preparation–`ols`–value product-vs-strain contrast while six
+other cells remain open. Under the inherited GDT769 predicates, `otar`
+sequence covers five occurrences/four pages and contains all three nominal
+cases plus two, but this is only a display lead. The terminative rival has one
+real local case, `f75r.43@6`, precisely `FIELD→ENDPOINT`, not an observed
+left-PROCESS frame; without a second page it cannot make `bis` portable.
+
+GDT771 confirms zero lexemes, plaintext clauses or components and creates no
+new relation packet, page, image, OCR or transcription. Independent validation
+passes 3,326 checks and byte-replays all nine runner artifacts. Primary report:
+`experiments/yolo/gdt771_complete_cache_discriminator_sufficiency/REPORT.md`.
+
+Next, GDT772 should rerender and simultaneously mask the seven full `ol`
+branch occurrences plus directional and final controls, then rerun the
+unchanged GDT770 candidate deck. A second patient-final `ckhy` page and a
+second complete `ols`-value line remain targeted acquisition requirements for
+the next user-released four-page packet.
