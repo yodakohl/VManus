@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **773**
-- Experiment-associated tracked files: **13,572** (1.3 GiB)
-- Structured GDT337+ experiments: **438**
+- Experiments indexed: **774**
+- Experiment-associated tracked files: **13,598** (1.3 GiB)
+- Structured GDT337+ experiments: **439**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT776 | GDT776_ol_h4_h3_medial_register_bridge | `PASS__H4_LEANING_HEURISTIC__INTERNAL_LATE_FIELD_BRIDGE__149_CONTEXTUAL__NO_PLAINTEXT` | [report](../experiments/yolo/gdt776_ol_h4_h3_medial_register_bridge/REPORT.md) | 26 | 853.0 KiB | 9 | STRUCTURED_YOLO |
 | GDT775 | GDT775_ol_right_complement_slot_test | `PASS__RENDERER_THROUGHPUT_66_PLUS_8__PREDECESSOR_DIAGNOSTIC_NOT_SCORE_READY__NO_PLAINTEXT` | [report](../experiments/yolo/gdt775_ol_right_complement_slot_test/REPORT.md) | 33 | 690.3 KiB | 11 | STRUCTURED_YOLO |
 | GDT774 | GDT774_ol_376_contextual_transfer | `PASS__376_OL__AUTO_CONTEXT49_FALLBACK327__HYBRID_CONTEXT55_FALLBACK321__CALIBRATION9_OF15__STRUCTURAL_RIGHT_BINDING_REGISTER_CONDITIONED__ZERO_CONFIRMED_LEXEMES_NO_NEW_PAGE` | [report](../experiments/yolo/gdt774_ol_376_contextual_transfer/REPORT.md) | 37 | 823.3 KiB | 9 | STRUCTURED_YOLO |
 | GDT773 | GDT773_ol_capacity_equalized_composition_audit | `PASS__15_OL_CASES_11_LINES_10_PHYSICAL_FOLIOS__75_EQUAL_CAPACITY_MASKS__FORMAL_NOMINAL_HEAD_6_VS_VON_10_FIELD_13_UNIT_15_AUS_24__CONTEXTUAL_ASSOCIATION7_FIELD8__ZERO_CONFIRMED_LEXEMES_NO_NEW_PAGE` | [report](../experiments/yolo/gdt773_ol_capacity_equalized_composition_audit/REPORT.md) | 37 | 245.0 KiB | 5 | STRUCTURED_YOLO |
