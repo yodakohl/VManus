@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **775**
-- Experiment-associated tracked files: **13,621** (1.3 GiB)
-- Structured GDT337+ experiments: **440**
+- Experiments indexed: **776**
+- Experiment-associated tracked files: **13,643** (1.3 GiB)
+- Structured GDT337+ experiments: **441**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT778 | GDT778_ol_singleton_exact_whole_promotion | `PASS__39_EXACT_WHOLES__32_FALLBACK_REPLACEMENTS__5_SHARPENINGS__2_CONFIRMATIONS__195_CONTEXTUAL__155_CONSUMED__NO_COMPONENT_EXPORT` | [report](../experiments/yolo/gdt778_ol_singleton_exact_whole_promotion/REPORT.md) | 22 | 498.9 KiB | 11 | STRUCTURED_YOLO |
 | GDT777 | GDT777_ol_registered_split_fusion_composer | `PASS__23_REGISTERED_SPANS__14_FALLBACKS_REPLACED__9_CONTEXTUAL_SHARPENED__163_CONTEXTUAL__NO_COMPONENT_EXPORT` | [report](../experiments/yolo/gdt777_ol_registered_split_fusion_composer/REPORT.md) | 23 | 346.1 KiB | 8 | STRUCTURED_YOLO |
 | GDT776 | GDT776_ol_h4_h3_medial_register_bridge | `PASS__H4_LEANING_HEURISTIC__INTERNAL_LATE_FIELD_BRIDGE__149_CONTEXTUAL__NO_PLAINTEXT` | [report](../experiments/yolo/gdt776_ol_h4_h3_medial_register_bridge/REPORT.md) | 26 | 853.0 KiB | 9 | STRUCTURED_YOLO |
 | GDT775 | GDT775_ol_right_complement_slot_test | `PASS__RENDERER_THROUGHPUT_66_PLUS_8__PREDECESSOR_DIAGNOSTIC_NOT_SCORE_READY__NO_PLAINTEXT` | [report](../experiments/yolo/gdt775_ol_right_complement_slot_test/REPORT.md) | 33 | 690.3 KiB | 11 | STRUCTURED_YOLO |
