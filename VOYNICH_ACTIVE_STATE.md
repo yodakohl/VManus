@@ -20858,7 +20858,49 @@ remain 270 contextual, 106 fallback and 230 consumed; only this one display
 changes.  Primary report:
 `experiments/yolo/gdt784_chorcholsal_boundary_name_adjudication/REPORT.md`.
 
-Next, use the 33 reader-exact `sal` occurrences as their own whole-form field
-census.  Compare learned drug/name, material, preparation, form and record
-field roles across target-free contexts, then feed the winning short role back
-into `chorcholsal`; do not assume salt, seed, `s+al`, or any EVA letter value.
+## GDT785 `sal` exact-whole field census
+
+GDT785 exhausts all 37 raw and 33 reader-exact standalone `sal` wholes on 26
+page labels and 23 physical folios.  Their position profile is seven first,
+sixteen medial and ten last, but `sal` itself occupies only two true paragraph
+starts and one true paragraph end.  Against the 68 clean recurrent wholes with
+25--45 exact occurrences its 17/33 line-edge rate ranks 8/68.  The only
+repeated direct frames are `sal shol` twice and `sal raiin` twice.  `sal`
+enters zero of GDT759's 96 quantity pairs, has no reader-exact bare
+`sal ain/aiin/aiiin`, and makes only the single direct GDT760 amount contact
+`sal araiin`; its same-line state ecology is balanced at eleven moist versus
+ten dry contexts.
+
+The selected portable C1 role is therefore **a nominal Arzneidrogen- or
+material head**, with the short, deliberately replaceable C0 display
+**`sal=Droge`**.  This is narrower and more useful than “item/subentry,” but is
+not a deciphered word.  `Arzneistoff`, `Präparat` and the specific substance
+`Salz` remain visible rivals; EVA resemblance to Latin *sal* receives zero
+spelling credit.  The old seed reading stays retired because it required the
+unsupported `s+al` split.
+
+The full string family has 58 exact tokens in 23 complete surfaces: 33 bare
+plus 25 in 22 longer forms.  `sal+X` contributes fourteen occurrences in
+twelve forms and ranks 3/12 by clean recurrent extension types among matched
+three-character roots; `X+sal` contributes only seven occurrences in six
+forms and its only clean recurrent case is `osal`.  Thus a left formal core is
+plausible while the suffix direction remains weak.  No longer form is split
+or licensed from the root alone.  After the target-free selection,
+`chorcholsal` keeps its C2 written-whole boundary and the unchanged concrete
+display **`trockene Blütendroge`**; `Pflanzenteil + trocken + Droge` is only a
+C0 nonexporting internal explanation.
+
+All 376 cumulative renderer rows remain 270 contextual, 106 fallback and 230
+uniquely consumed tokens, with no display change.  Independent validation
+passes 1,099 checks and an eighteen-file byte replay; the four repeated-frame
+edges form a valid acquisition packet but fail capacity, holdout and mobile
+null gates and are not score-ready.  No plaintext lexeme, specific substance,
+component, new page, image, OCR or transcription is selected.  Primary report:
+`experiments/yolo/gdt785_sal_exact_whole_field_census/REPORT.md`.
+
+Next, test the observed `sal+X` complete-whole family against matched prefix
+families and learned-whole controls.  Ask whether the members share the
+nominal drug/material geometry predicted by `sal`, while allowing every whole
+to override that role.  Do not use the exhausted legacy superform peel, infer
+an unseen word, or treat a visible remainder as a known suffix before its own
+complete-whole evidence supports it.

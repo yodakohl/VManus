@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **782**
-- Experiment-associated tracked files: **13,803** (1.3 GiB)
-- Structured GDT337+ experiments: **447**
+- Experiments indexed: **783**
+- Experiment-associated tracked files: **13,833** (1.3 GiB)
+- Structured GDT337+ experiments: **448**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT785 | GDT785_sal_exact_whole_field_census | `PASS__37_RAW__33_EXACT_SAL__26_PAGES__23_FOLIOS__7_FIRST_16_MIDDLE_10_LAST__2_1_TRUE_PARAGRAPH_EDGES__EDGE_RANK_8_OF_68__SAL_SHOL_2__SAL_RAIIN_2__ZERO_OF_96_QUANTITY_PAIRS__23_SAL_STRING_FORMS__WORKING_SAL_DROGE__SALT_RETAINED_C0_RIVAL__CHORCHOLSAL_REINFORCED_NOT_DECOMPOSED__ZERO_LEXEMES` | [report](../experiments/yolo/gdt785_sal_exact_whole_field_census/REPORT.md) | 30 | 726.5 KiB | 11 | STRUCTURED_YOLO |
 | GDT784 | GDT784_chorcholsal_boundary_name_adjudication | `PASS__1_TARGET_WHOLE__3_CURRENT_READERS_FUSED__STOLFI_SPLIT__13_STOLFI_DOT_COMPARATOR_LOCI__VISUAL_EXTERNAL_GAP_INTERNAL_NO_EQUAL_GAP__190_176_CHOR__343_303_CHOL__37_33_SAL__8_7_PART_STATE_PAIRS__SLOT_TWIN_F100V20__PRACTICAL_TROCKENE_BLUETENDROGE__270_CONTEXTUAL__106_FALLBACKS__230_CONSUMED__ZERO_COMPONENT_EXPORT` | [report](../experiments/yolo/gdt784_chorcholsal_boundary_name_adjudication/REPORT.md) | 34 | 655.1 KiB | 12 | STRUCTURED_YOLO |
 | GDT783 | GDT783_chsky_majority_variant_external_field | `PASS__3_PHYSICAL_LOCI_ONCE__1_TARGET_MASKED__2_EXTERNAL_MAJORITY_VARIANTS__28_POSITIONAL_NEIGHBORS__4_ANALOGS_1_GDT754_BLOCKED__PRACTICAL_HOT_DRY_WITH_HOT_MINIMUM_CORE__270_CONTEXTUAL__106_FALLBACKS__230_CONSUMED__ZERO_VARIANT_LETTER_EXPORT` | [report](../experiments/yolo/gdt783_chsky_majority_variant_external_field/REPORT.md) | 27 | 613.3 KiB | 11 | STRUCTURED_YOLO |
 | GDT782 | GDT782_recurrent_six_target_external_field_adjudication | `PASS__20_CACHE_OCCURRENCES__14_READER_EXACT__6_TARGET_MASKED__8_TARGET_EXTERNAL__65_EXTERNAL_NEIGHBORS__5_REVISED__1_KEPT__270_CONTEXTUAL__106_FALLBACKS__230_CONSUMED__ZERO_COMPONENT_EXPORT` | [report](../experiments/yolo/gdt782_recurrent_six_target_external_field_adjudication/REPORT.md) | 28 | 630.9 KiB | 11 | STRUCTURED_YOLO |
