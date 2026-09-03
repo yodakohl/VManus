@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **769**
-- Experiment-associated tracked files: **13,437** (1.3 GiB)
-- Structured GDT337+ experiments: **434**
+- Experiments indexed: **770**
+- Experiment-associated tracked files: **13,465** (1.3 GiB)
+- Structured GDT337+ experiments: **435**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT772 | GDT772_expanded_ol_branch_masked_rescore | `PARTIAL__22_LINES_186_TOKENS_183_SCORE_NODES_182_READER_UNITS__27_TARGET_MASKS_OL15_CKHY4_OLS3_OTAR5__OL_LEFT_BRANCH_7_ON_6_PAGES_OTHER_BRANCH_4_ON_4__OL_POSITIONAL_NOMINAL_EXACT_TIE_56__0_POLICY_WINS__ZERO_CONFIRMED_LEXEMES_NO_NEW_PAGE` | [report](../experiments/yolo/gdt772_expanded_ol_branch_masked_rescore/REPORT.md) | 28 | 263.3 KiB | 8 | STRUCTURED_YOLO |
 | GDT771 | GDT771_complete_cache_discriminator_sufficiency | `PARTIAL__461_GUARDED_LOCI__203_ADMITTED_TARGETS__195_STRICT_TARGETS__OL_LEFT_14_ON_9_PAGES_FULL_BRANCH_7_ON_6__CKHY_FINAL_PATIENT_1__OLS_RIGHT_VALUE_1__OTAR_SEQUENCE_5_NOMINAL_3_ENDPOINT_1__ZERO_CONFIRMED_LEXEMES_NO_NEW_PAGE` | [report](../experiments/yolo/gdt771_complete_cache_discriminator_sufficiency/REPORT.md) | 24 | 278.1 KiB | 10 | STRUCTURED_YOLO |
 | GDT770 | GDT770_target_masked_valency_orphan_tournament | `PARTIAL__15_LINES_131_TOKENS_128_SCORE_NODES_127_READER_UNITS__17_TARGET_MASKS__0_POLICY_WINS__1_RAW_LEADS_BRANCH_INSUFFICIENT__4_CONCRETE_REPLACEABLE_DEFAULTS__ZERO_CONFIRMED_LEXEMES_ZERO_COMPONENT_EXPORT_NO_NEW_PAGE` | [report](../experiments/yolo/gdt770_target_masked_valency_orphan_tournament/REPORT.md) | 34 | 537.5 KiB | 8 | STRUCTURED_YOLO |
 | GDT769 | GDT769_liquid_process_role_identity_dispatch | `PARTIAL__640_RAW_526_EXACT_TARGET_OCCURRENCES__OL_RELATIONAL_FIELD_LINKER_WORKING_TIEBREAK__CKHY_MIX_PROCESS_CONCRETE_RIVAL_ROLE_OPEN__PCHEEY_BOUND_PREPARATION_FORM_FIELD_SELECTED__OLS_BOUND_MEASURE_PRODUCT_FIELD_WORKING_TIEBREAK__OTAR_SEQUENCE_FIELD_LINKER_WORKING_TIEBREAK__12_COMPLETE_109_TOKEN_LINES__ZERO_CONFIRMED_LEXEMES_ZERO_COMPONENT_EXPORT_NO_NEW_PAGE` | [report](../experiments/yolo/gdt769_liquid_process_role_identity_dispatch/REPORT.md) | 36 | 4.5 MiB | 14 | STRUCTURED_YOLO |
