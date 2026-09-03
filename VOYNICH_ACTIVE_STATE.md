@@ -20463,8 +20463,54 @@ new relation packet, page, image, OCR or transcription. Independent validation
 passes 3,326 checks and byte-replays all nine runner artifacts. Primary report:
 `experiments/yolo/gdt771_complete_cache_discriminator_sufficiency/REPORT.md`.
 
-Next, GDT772 should rerender and simultaneously mask the seven full `ol`
-branch occurrences plus directional and final controls, then rerun the
-unchanged GDT770 candidate deck. A second patient-final `ckhy` page and a
-second complete `ols`-value line remain targeted acquisition requirements for
-the next user-released four-page packet.
+## GDT772 expanded `ol` branch rescore
+
+GDT772 adds exactly the seven complete GDT771 `ol` bridge lines to the
+unchanged fifteen-line GDT770 tournament. The resulting cohort contains 22
+lines, 20 pages, 186 source tokens, 183 score nodes, 182 practical reader
+units and 27 simultaneously masked exact targets: fifteen `ol`, four `ckhy`,
+three `ols` and five `otar`. The seven new lines carry ten exact `ol`, because
+`f75r.26` has a second target and `f81r.22` has three; none is discarded after
+inspection.
+
+The missing positional branch is now genuinely populated. Seven full
+left-AMOUNT/VALUE-to-right-PREPARATION/FIELD/PROCESS cases occur on six pages,
+while the other-two-sided branch retains four cases on four pages. Under the
+byte-locked GDT770 candidates, binder, penalties and winner gates, however,
+`OL_POSITIONAL_RELATOR` and `OL_NOMINAL_BASE` tie exactly at 56 penalty points.
+The measurable-product rival scores 76 and NULL 127. The old cases favor the
+positional model by nine points and the seven intended full bridges by 28;
+three unavoidable collateral targets favor the nominal model by 37, producing
+the exact tie. Thus no policy wins.
+
+The manual seven-case recipe audit exposes why the tie is useful rather than
+empty. The left inputs comprise four true amount forms (`sain` three times and
+`oraiin` once), one dimensions-open value (`dain`) and two already
+content/quality-bearing heads (`keor`, `chedar`). In six cases a quantifiable
+preparation/content head is at least as usable as partitive `von`. At
+`f81r.22@8`, `chedar ol oly`, a separator or sequence reading `und/dann`
+outperforms mechanical “von/aus abseihen.” None of the seven has an independent
+source-to-result direction, so `aus` is now only a weak contextual rival.
+Oil, water, wine and other liquid identities remain indistinguishable.
+
+The inherited deck has reached a design limit: its positional relator may bind
+a left amount/value and a right preparation/field/process simultaneously, but
+its nominal rival cannot represent a quantified content head with a following
+modifier or process field. The next live working display is therefore the
+explicit opposition `quantifizierter Ansatz/Inhaltskopf ↔ partitives von ↔
+Feldtrenner/und-dann`; it remains replaceable and is not a translation. `ckhy`,
+`ols` and `otar` receive no new exact occurrences and reproduce their GDT770
+formal NULL decisions.
+
+Independent validation recalculates the scores, tests target-hint and display
+mutation invariance, audits the guarded query and byte-replays all fourteen
+runner artifacts in 304 checks. No new page, image, OCR, transcription, `f84`
+or `f84r` is used. Primary report:
+`experiments/yolo/gdt772_expanded_ol_branch_masked_rescore/REPORT.md`.
+
+Next, GDT773 should reuse the same fifteen `ol` occurrences and no new pages.
+It must separate partitive `von`, directional `aus`, quantifiable nominal
+head, field separator/sequence and measure/unit complement into explicit
+rivals with equal local binding capacity. A second patient-final `ckhy` page
+and a second complete `ols`-value line remain future acquisition targets, not
+requirements for this repaired `ol` comparison.
