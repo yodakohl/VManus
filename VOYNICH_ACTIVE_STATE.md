@@ -20394,3 +20394,43 @@ without manual prose repair. The frozen cohort already shows its limits: only
 one patient-qualified final `ckhy`, no clean amount-before-`ol` line, one `ols`
 value line and one strict process–`otar`–endpoint line. Those branches may end
 as `INSUFFICIENT_BRANCH_COVERAGE`; no new page is opened to manufacture a win.
+
+## GDT770 target-masked valency result
+
+GDT770 simultaneously removes the inherited roles and German defaults from all
+17 exact `ol`, `ckhy`, `ols`, and `otar` occurrences in fifteen already
+admitted complete lines. The cohort has 131 source tokens, 128 uniquely named
+score nodes, 127 practical reader units, and thirty target-independent orphan
+edges under NULL. Every candidate sees only opaque mask identity and the
+reader-exact roles of its immediate physical neighbours.
+
+The corrected role-edge binder yields four raw working leads: `ol` contextual
+relator at 19 versus NULL 41; `ckhy` invariant mixing operation at 13 versus
+32; `ols` finished preparation/result at 0 versus 23; and `otar` nominal
+transition/preparation at 16, narrowly ahead of sequence 18 and NULL 41. None
+is a formal policy winner. `ol` has no observed instance of its declared
+left-amount/value branch; `ckhy` falls one point behind its noun rivals when
+f32r is removed; `ols` ties straining when f104v is removed; and `otar` has
+only a two-point full rival margin with a worst page-holdout margin of −7.
+
+The replaceable working defaults are therefore
+`ol=[aus?]/mit/und` by context, `ckhy=mischen`, `ols=fertige Zubereitung`, and
+`otar=Zwischenzubereitung` with `dann` retained as a close rival. The
+post-score reader keeps every local minimum tie and every zero-binding case in
+visible question brackets. Its 127 source-membership rows cover all 131 token
+ordinals disjointly and exactly once. These are exploratory whole-form
+defaults, not lexemes or recovered plaintext; *Colatura* is expressly not
+selected.
+
+Independent validation passes 34,744 assertions, synthetic dormant-penalty,
+DSL and full-tie probes, and byte-identical replay of all seventeen runner
+artifacts. No new page, image, OCR, transcription, `f84`, or `f84r` was used.
+Primary report:
+`experiments/yolo/gdt770_target_masked_valency_orphan_tournament/REPORT.md`.
+
+Next, GDT771 searches only the already admitted cache for four missing
+discriminator contexts: amount/value immediately left of `ol`, a second
+patient-supported final `ckhy`, a second `ols`-right-value contrast against
+straining, and additional `otar` nominal/sequence/endpoint bridges. If those
+contexts are absent, the ambiguity stays explicit until the next user-released
+four-page packet rather than being filled with another synonymous model.
