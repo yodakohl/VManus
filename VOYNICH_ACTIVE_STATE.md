@@ -20321,10 +20321,76 @@ prose or free `r/s/l/o/ol` values. GDT768 passes 53,504 checks and byte-replays
 all twelve builder outputs. Primary report:
 `experiments/yolo/gdt768_chor_shor_part_identity_tournament/REPORT.md`.
 
-Next, GDT769 holds that nominal-part result fixed and separates the exact
-wholes `ol`, `ckhy`, `pcheey`, `ols`, and `otar` first by role—preparation or
-substance, process, product, or bounded record field—and only then compares
-water, wine, oil, vinegar, powder, soaking/maceration, and straining/filtration
-defaults. `oly` is the process/final-position control. No new page or image is
-needed; a concrete identity must retain a target-free two-axis signature on a
-second page after its strongest supporting locus is removed.
+## GDT769 role/identity dispatch and complete-line correction
+
+GDT769 enumerates 640 raw and 526 reader-exact occurrences of the five complete
+forms `ol`, `ckhy`, `pcheey`, `ols`, and `otar`. The exact counts are 376, 25,
+3, 12, and 110 respectively. Its executable evidence layer contains sixteen
+frames per target, five roles per target, 37 whole-form identity candidates,
+and a twelve-line reader with 109 tokens, of which 106 are reader-exact.
+Targets, their edit-distance-two families, 172 GDT754 source-composed forms,
+and 80 explicit GDT737 quarantine forms cannot donate identity.
+
+The corrected R03 product test requires amount/value and
+process/result/closure evidence on the same target occurrence; evidence from
+different pages cannot be pooled. The corrected R05 linker test gives F14
+medial two-sided geometry zero support-page credit. Only locally conjunctive
+F15 state-transition or F16 relational-amount occurrences count, with at least
+three pages before and two pages after strongest-locus removal.
+
+`ol` has nine exact relational amount contacts on eight pages. R05 is retained
+as the working field-relation role, but R03 product/result and R01 nominal
+preparation also pass. The choice is a specificity tiebreak with zero evidence
+superiority, not a unique role result. Its contextual reader is `und/mit`, or
+`von/aus` after an exact amount; `Zubereitungsbasis` remains the primary
+identity rival and no water, wine, oil, or vinegar identity is selected.
+
+`otar` is medial in 105/110 exact occurrences. R05 is retained as the working
+sequence/field-linker role, but R01 nominal preparation also passes at the same
+gate score. `weiter/dann` is therefore
+`C1_LOCAL_FRAME__C0_ROLE_TIEBREAK`; `bis`, not the near-synonymous
+`dann/danach` card, is the primary identity rival. `ols` similarly retains R04
+bounded record/measure over a supported R01 rival only by specificity
+tiebreak. Its three direct value contacts and five final positions support
+`Maß-/Produktposten`, but its concrete product or substance identity remains
+open.
+
+`pcheey` is the sole unique top-role result. All three exact occurrences have a
+moist frame, while F03 dry support is zero occurrences on zero pages. It
+selects R04 bounded preparation/Form-II field and identity I10, with
+`gebundenes Zubereitungs-/Form-II-Feld` as its replaceable default. This zero
+dry result removes the former automatic powder/Trockenform reading; it does
+not identify paste, salve, mixture, liquid, or any particular substance.
+
+`ckhy` remains globally open. Although six of 25 exact occurrences are final,
+the corrected F05 process inventory contains only one clean directed
+left-patient frame, f17v.5, and zero surviving pages after that locus is
+removed. R05 likewise has only two locally discriminating F15/F16 pages and
+one after ablation, below its 3/2 requirement. The reader may still use
+`mischen/verrühren` in suitable final contexts and `Mischung/Kompositum`
+medially, but these remain C0 contextual rivals rather than a selected global
+role or lexeme.
+
+The complete reader also closes two inherited semantic leaks. At f10v.1,
+`sain` is the recurrent fused value form II and renders `zwei Drachmen`, with
+`zwei gleiche Teile` and `zwei Unzen` as rivals and the unit explicitly C0; no
+seed meaning survives. At f75r.43, `chekar` is source-composed and quarantined,
+so the old hot/dry/fraction composition receives zero semantic credit and only
+the local forced-C0 placeholder `Zwischenzubereitung` remains.
+
+Historical comparisons supply candidate and recipe architecture only and
+create zero Voynich evidence. GDT769 confirms zero lexemes, plaintext clauses,
+Latin correspondences, substrings, components, liquids, substances, or
+operations. It opens no new page, image, or transcription; `f84` and `f84r`
+remain untouched. The validator passes 26,743 checks and byte-replays all 17
+declared outputs. Primary report:
+`experiments/yolo/gdt769_liquid_process_role_identity_dispatch/REPORT.md`.
+
+Next, GDT770 masks each occurrence of `ol`, `ckhy`, `ols`, and `otar`, its
+current German default, and its prior selected role in fifteen already
+admitted complete-reader lines. Fixed rival cards then compete by how many
+amount, value, patient, result, endpoint and two-field relations they bind
+without manual prose repair. The frozen cohort already shows its limits: only
+one patient-qualified final `ckhy`, no clean amount-before-`ol` line, one `ols`
+value line and one strict process–`otar`–endpoint line. Those branches may end
+as `INSUFFICIENT_BRANCH_COVERAGE`; no new page is opened to manufacture a win.
