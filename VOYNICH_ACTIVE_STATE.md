@@ -20540,10 +20540,41 @@ passes 6,507 independent checks and byte-replays all twenty runner outputs plus
 the report. No specific substance, liquid, unit, lexeme, plaintext, component,
 new page, image, OCR, transcription, `f84` or `f84r` is selected.
 
-Next, GDT774 should transfer the explicit `ol` dispatch to all 376 already
-cached reader-exact occurrences without casewise tuning. Strong local
-amount/content and process/field signals should receive the contextual output;
-unsupported contexts must retain the nominal fallback rather than being
-silently called punctuation. A second patient-final `ckhy` page and a second
-complete `ols`-value line remain future acquisition targets, not requirements
-for this broad `ol` transfer.
+## GDT774 full cached `ol` transfer and structural audit
+
+GDT774 transfers occurrence-ID-free rules to all 376 reader-exact `ol`
+positions already cached on 340 loci, 98 page labels and 61 physical folios.
+The automatic reader emits ten `Ansatz:`, five `Menge:`, four `und dann`, three
+`;` and 27 `und`, while retaining 327 nominal
+`Ansatz-/Zubereitungsposten` fallbacks. It reproduces nine of the fifteen
+GDT773 calibration outputs. The practical hybrid copies those fifteen fixed
+calibration decisions and then applies the automatic rules elsewhere, yielding
+55 contextual and 321 nominal outputs. The fifteen selected amount outputs
+split into eight already phrase-licensed and seven exploratory directional
+cases; two line-final amount contacts are explicitly excluded from dangling
+`Ansatz:` output. All seven adjacent `ol ol` pairs remain nominal.
+
+A fixed 20,000-draw structural audit finds `ol` strongly internal (22 first
+positions versus 47.90 folio-matched expected) and its right followers unusually
+concentrated (188 types versus 224.81 expected), with much of the signal in
+section B and hand 2. Same-line repetition is elevated under a broad register
+null but ordinary after folio matching. This favors a right-binding,
+register-conditioned field head or operator over universal punctuation, but
+does not choose between the nominal-head and operator interpretations. Only 73
+of 376 positions enter the broad inherited typed-evidence union; 303 remain
+untyped. The older 376 `Grundansatz` displays are all descendants of one
+GDT664 learned-whole card, not 376 independent confirmations.
+
+Independent validation passes 28,954 checks, verifies fifteen source locks,
+reconstructs every occurrence and output, and byte-replays all 24 generated
+artifacts plus the report. No specific liquid, substance, unit, operation,
+lexeme, plaintext, component, new page, image, OCR, transcription, `f84` or
+`f84r` is selected. Primary report:
+`experiments/yolo/gdt774_ol_376_contextual_transfer/REPORT.md`.
+
+Next, partition the 327 automatic nominal fallbacks by register-conditioned
+exact right-follower classes. The useful discriminator is whether recurrent
+complete-whole complements predict a content-field head or an operator without
+casewise tuning. Unsupported subclasses retain the nominal fallback; a second
+patient-final `ckhy` page and a second complete `ols`-value line remain future
+acquisition targets.
