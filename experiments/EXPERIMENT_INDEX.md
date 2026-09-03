@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT779 | GDT779_secondary_independent_validation | `PASS__196_OF196__PURE_SELECTOR__FULL_SHADOW__14_FILE_REPLAY` | [report](../experiments/yolo/gdt779_ol_residual_v99r7_exact_whole_recovery/artifacts/ALT_VALIDATION.json) | 25 | 587.7 KiB | 9 | STRUCTURED_YOLO |
+| GDT779 | GDT779_ol_residual_v99r7_exact_whole_recovery | `PASS__50_EXACT_FALLBACK_WHOLES__44_FORMS__49_LOCI__245_CONTEXTUAL__131_FALLBACKS__205_CONSUMED__6_SANITIZATIONS__NO_COMPONENT_EXPORT` | [report](../experiments/yolo/gdt779_ol_residual_v99r7_exact_whole_recovery/REPORT.md) | 25 | 587.7 KiB | 9 | STRUCTURED_YOLO |
 | GDT778 | GDT778_ol_singleton_exact_whole_promotion | `PASS__39_EXACT_WHOLES__32_FALLBACK_REPLACEMENTS__5_SHARPENINGS__2_CONFIRMATIONS__195_CONTEXTUAL__155_CONSUMED__NO_COMPONENT_EXPORT` | [report](../experiments/yolo/gdt778_ol_singleton_exact_whole_promotion/REPORT.md) | 22 | 498.9 KiB | 11 | STRUCTURED_YOLO |
 | GDT777 | GDT777_ol_registered_split_fusion_composer | `PASS__23_REGISTERED_SPANS__14_FALLBACKS_REPLACED__9_CONTEXTUAL_SHARPENED__163_CONTEXTUAL__NO_COMPONENT_EXPORT` | [report](../experiments/yolo/gdt777_ol_registered_split_fusion_composer/REPORT.md) | 23 | 346.1 KiB | 8 | STRUCTURED_YOLO |
 | GDT776 | GDT776_ol_h4_h3_medial_register_bridge | `PASS__H4_LEANING_HEURISTIC__INTERNAL_LATE_FIELD_BRIDGE__149_CONTEXTUAL__NO_PLAINTEXT` | [report](../experiments/yolo/gdt776_ol_h4_h3_medial_register_bridge/REPORT.md) | 26 | 853.0 KiB | 9 | STRUCTURED_YOLO |
