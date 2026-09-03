@@ -20799,13 +20799,36 @@ No lexeme, plaintext, component, number, unit or substance is selected.
 Primary report:
 `experiments/yolo/gdt782_recurrent_six_target_external_field_adjudication/REPORT.md`.
 
-Next, audit `chsky` with an explicitly variant-aware whole-form route.  Mask
-the sole three-reader-exact target at f86v5.15 and compare the two admitted
-two-of-three outside readings: f25r.2 has ZL3b/RF1b `chsky` versus IT2a
-`chrky`, and f103r.37 has ZL3b/IT2a `chsky` versus RF1b `chsty`.  GDT678 is a
-bulk completion with other boundary repairs, so this route uses the genuinely
-different falsifier of two fixed external majority forms plus target-excluding
-complete-whole fields.  It may revise HOT|DRY but may not treat the three
-readers as independent witnesses or export `s/r/t` components.  Singleton
-`chorcholsal` remains for a separate construction route.  No new page is
-needed.
+## GDT783 variant-aware `chsky` field audit
+
+GDT783 treats the three `chsky` loci as three physical positions, never nine
+reader witnesses.  The exact f86v5.15 target is masked; f25r.2 enters once as
+the strong `chsky/chrky/chsky` majority field and f103r.37 once as the weaker
+`chsky/chsky/chsty` field.  Twenty-eight aligned non-target slots yield ten
+clean field donors.  The strong outside field is locally cold/dry and
+material/preparation-bearing, the weak outside field is hot/moist and staged,
+and the target sensitivity field is hot but not dry.
+
+One of GDT781's four edit-neighbor donors, `chky`, is now blocked by GDT754 as
+source-composed prose.  The three admissible complete wholes still share
+HOT|DRY.  A fixed six-candidate diagnostic ranks the shorter `chsky=heiß`
+first; the exploratory retention rule keeps the richer practical card
+`chsky=heiß und trocken` while making the split explicit: HOT is the C1
+portable minimum core and DRY a C0 standing extension.  At the single already
+licensed target span, `ol chsky` is sharpened from a bare quality phrase to
+`heiß-trockener Ansatz`.  No process verb, named substance, reader variant or
+letter value is inferred.
+
+All 109 GDT782 fields over 376 renderer rows are preserved, with one local
+display refinement and unchanged totals of 270 contextual, 106 fallback and
+230 consumed.  Independent validation reconstructs the guarded sources,
+variant geometry, field donors, analogy sanitation, score dissent and parent
+renderer in 42,081 checks and replays sixteen files byte-identically.  Primary
+report:
+`experiments/yolo/gdt783_chsky_majority_variant_external_field/REPORT.md`.
+
+Next, move the singleton `chorcholsal` at f88r.22 into its own route.  Compare
+the current target-local `getrocknete Stoffzubereitung` against a learned-name
+whole and against explicit constituent-order models, but do not assume in
+advance that the visually tempting `chor+chol+sal` segmentation is valid.  No
+new page is needed.
