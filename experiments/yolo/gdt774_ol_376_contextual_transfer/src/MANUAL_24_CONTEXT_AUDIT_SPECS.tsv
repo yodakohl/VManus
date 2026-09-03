@@ -1,0 +1,25 @@
+sample_id	locus	ordinal	stratum	preferred_output	acceptable_rival	reason_de
+S01	f112r.36	2	AMOUNT_BEFORE_OL_G763_EXPANDED	Ansatz:	Ansatz-/Zubereitungsposten	sain steht unmittelbar links; die Mengenrichtung ist klar, aber dieser Fall gehört nicht zum strengeren GDT769-F01-Subset.
+S02	f55v.10	2	OL_BEFORE_AMOUNT_G769_F01	Menge:	Ansatz-/Zubereitungsposten	ol s aiin ist ein reader-exakter direkter Mengenrahmen; Inhalt zu Menge ist die GDT773-Gegenrichtung.
+S03	f85r1.13	7	BILATERAL_AMOUNT_LEFT_MEMBER	Menge:	Ansatz-/Zubereitungsposten	Linkes ol in ol s aiin ol; deterministische Richtung, aber die beidseitige Doppelbesetzung macht die Gesamtlesung ausdrücklich ambig.
+S04	f85r1.13	10	BILATERAL_AMOUNT_RIGHT_MEMBER	Ansatz:	Ansatz-/Zubereitungsposten	Rechtes ol in ol s aiin ol; Gegenrichtung zu S03, daher Paarambiguität trotz eindeutiger lokaler Seite.
+S05	f104r.5	4	PROCESS_RIGHT_DIRECT	und dann	Ansatz-/Zubereitungsposten	Unmittelbares ol chl; PROCESS liegt rechts. Der Prozessnachbar ist ED2-geblockt, bleibt aber als exakte Direktsignatur sichtbar.
+S06	f58r.13	9	PROCESS_RIGHT_OLY	und dann	Ansatz-/Zubereitungsposten	Unmittelbares ol oly; genau der in GDT773 verwendete Feld-zu-Prozess-Rahmen.
+S07	f78v.9	6	PROCESS_RIGHT_DIRECT	und dann	Ansatz-/Zubereitungsposten	chedol steht unmittelbar rechts mit PROCESS_PASS; Feldfortsetzung ist brauchbar, nominaler Patient bleibt Rivale.
+S08	f81r.22	8	PROCESS_RIGHT_OLY	und dann	;	Unmittelbares ol oly; GDT773 wählt hier bereits dieselbe Prozessfortsetzung.
+S09	f104r.5	6	PROCESS_LEFT_DIRECT	Ansatz-/Zubereitungsposten	;	In chl ol liegt PROCESS links; die GDT773-Regel sagt nur Feld zu PROCESS voraus, nicht PROCESS zu Feld.
+S10	f79v.35	5	PROCESS_LEFT_DIRECT	Ansatz-/Zubereitungsposten	;	Unmittelbares chl ol; ohne rechtsgerichteten Prozessanker wäre und dann richtungswidrig.
+S11	f116r.20	3	CLOSE_LEFT_DIRECT	;	Ansatz-/Zubereitungsposten	keedy ol setzt ol direkt nach ein Abschlussfeld; ein Feldschnitt ist möglich, ein neuer nominaler Kopf bleibt Rivale.
+S12	f78v.3	8	CLOSE_LEFT_DIRECT	;	Menge:	qotedy ol dam: Abschluss liegt links, rechts steht ein bloßer Wertprior dam, aber keine GDT763-Mengenformel; deshalb Grenzlesung mit Mengenrival.
+S13	f81r.12	3	CLOSE_LEFT_PLUS_F15	;	und	tedy ol sheedy: lokaler Abschluss links hat Vorrang vor der breiteren Zustandsbrücke; beide Feldlesungen bleiben möglich.
+S14	f114r.14	5	CLOSE_RIGHT_DIRECT	Ansatz-/Zubereitungsposten	;	ol daldy: ein Abschluss-/Wertfeld rechts kann den nominalen Kopf modifizieren; ol darf nicht automatisch zu Satzzeichen verschwinden.
+S15	f77v.29	8	CLOSE_RIGHT_DIRECT	Ansatz-/Zubereitungsposten	;	ol cheedy ist Kopf zu Abschluss, nicht Abschluss zu neuem Feld; nominal bleibt die bessere Defaultrichtung.
+S16	f94v.2	1	LINE_FIRST_PLUS_CLOSE_RIGHT	Ansatz-/Zubereitungsposten	;	Zeilenanfang plus rechts folgender Abschluss spricht eher für einen Kopf; line-first und close-right lizenzieren keinen bloßen Trenner.
+S17	f3r.19	2	F15_STATE_FIELD_CHAIN	und	Ansatz-/Zubereitungsposten	F15 und F14 sowie direkte Trockenfeldnähe stützen Koordination statt bis oder Prozess.
+S18	f102v1.13	2	F15_STATE_FIELD_CHAIN_NO_DIRECT_SIG	und	Ansatz-/Zubereitungsposten	Zweiseitige F15-Zustandsbrücke ohne enge Direktsignatur; brauchbarer Feldanschluss, aber hohe Ambiguität.
+S19	f105v.4	6	F15_STATE_FIELD_CHAIN_NO_DIRECT_SIG	und	Ansatz-/Zubereitungsposten	F15 verbindet heiße und trockene Feldspender; keine gerichtete Mengen- oder Prozesskante.
+S20	f23r.5	8	REPEATED_OL_LEFT	Ansatz-/Zubereitungsposten	;	Erstes Token in ol ol; F14 allein genügt nicht, und keine der festen Kontextregeln feuert.
+S21	f23r.5	9	REPEATED_OL_RIGHT	Ansatz-/Zubereitungsposten	;	Zweites Token in ol ol; getrennte Nominaldefaults bewahren die beobachtete Verdopplung statt zwei Satzzeichen zu erfinden.
+S22	f107v.2	13	LINE_FINAL_ONLY	Ansatz-/Zubereitungsposten	;	Line-final ohne Direktsignatur; Endposition allein ist nach GDT773 kein Nachweis, dass das geschriebene Token Interpunktion ist.
+S23	f104r.23	1	LINE_FIRST_NO_SIGNATURE	Ansatz-/Zubereitungsposten	Ansatz:	Zeilenanfang ohne Mengen-, Prozess- oder Feldanker; nominaler Fallback trägt weniger Zusatzannahmen als ein Feldlabel.
+S24	f102v1.8	2	MIDDLE_NO_SIGNATURE_NO_F14	Ansatz-/Zubereitungsposten	und	Medial, aber weder Direktsignatur noch zweiseitige F14-Geometrie; jeder Operator wäre ungestützt.
