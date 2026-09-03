@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **767**
-- Experiment-associated tracked files: **13,379** (1.3 GiB)
-- Structured GDT337+ experiments: **432**
+- Experiments indexed: **768**
+- Experiment-associated tracked files: **13,413** (1.3 GiB)
+- Structured GDT337+ experiments: **433**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT770 | GDT770_target_masked_valency_orphan_tournament | `PARTIAL__15_LINES_131_TOKENS_128_SCORE_NODES_127_READER_UNITS__17_TARGET_MASKS__0_POLICY_WINS__1_RAW_LEADS_BRANCH_INSUFFICIENT__4_CONCRETE_REPLACEABLE_DEFAULTS__ZERO_CONFIRMED_LEXEMES_ZERO_COMPONENT_EXPORT_NO_NEW_PAGE` | [report](../experiments/yolo/gdt770_target_masked_valency_orphan_tournament/REPORT.md) | 34 | 537.5 KiB | 8 | STRUCTURED_YOLO |
 | GDT769 | GDT769_liquid_process_role_identity_dispatch | `PARTIAL__640_RAW_526_EXACT_TARGET_OCCURRENCES__OL_RELATIONAL_FIELD_LINKER_WORKING_TIEBREAK__CKHY_MIX_PROCESS_CONCRETE_RIVAL_ROLE_OPEN__PCHEEY_BOUND_PREPARATION_FORM_FIELD_SELECTED__OLS_BOUND_MEASURE_PRODUCT_FIELD_WORKING_TIEBREAK__OTAR_SEQUENCE_FIELD_LINKER_WORKING_TIEBREAK__12_COMPLETE_109_TOKEN_LINES__ZERO_CONFIRMED_LEXEMES_ZERO_COMPONENT_EXPORT_NO_NEW_PAGE` | [report](../experiments/yolo/gdt769_liquid_process_role_identity_dispatch/REPORT.md) | 36 | 4.5 MiB | 14 | STRUCTURED_YOLO |
 | GDT768 | GDT768_chor_shor_part_identity_tournament | `PARTIAL__404_EXACT_ANCHOR_OCCURRENCES__33_MULTI_ANCHOR_LINES__CHOR_SHOR_GLOBAL_DRY_MOIST_MODEL_REJECTED_BY_FAMILY_ABLATION__CHOR_SHOR_PARALLEL_NOMINAL_PLANT_PART_WHOLES__FLOWER_VS_SEED_FRUIT_DIRECTION_UNRESOLVED__6_CONCRETE_REPLACEABLE_DEFAULTS__12_COMPLETE_CONCRETE_LINES__ZERO_CONFIRMED_LEXEMES_ZERO_COMPONENT_EXPORT_NO_NEW_PAGE` | [report](../experiments/yolo/gdt768_chor_shor_part_identity_tournament/REPORT.md) | 28 | 965.7 KiB | 10 | STRUCTURED_YOLO |
 | GDT767 | GDT767_ofch_historical_identity_cofield_tournament | `PARTIAL__28_COMPLETE_WHOLES_224_EXACT_OCCURRENCES__25_OFCH_WHOLES_43_OCCURRENCES__TARGET_EXCLUDING_200_BLOCKED_DONORS__OFCH_ZERO_CTHY_ZERO_EXACT_CHOR_ANCHORS__CHOR_CTHY_15_PARALLEL_OCCURRENCES_14_LOCI_5_DIRECT__18_HISTORICAL_SUBSTANCE_FORM_CANDIDATES__FORM_CLASS_SIGNAL_WITH_SPECIFIC_SUBSTANCE_OPEN__OFCH_EOL_EXTRACT_DEFAULTS_DOWNGRADED__28_FORCED_CONCRETE_REPLACEABLE_DEFAULTS__5_REVISED_LINES__ZERO_CONFIRMED_LEXEMES_ZERO_COMPONENT_EXPORT_NO_NEW_PAGE` | [report](../experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/REPORT.md) | 23 | 405.9 KiB | 5 | STRUCTURED_YOLO |

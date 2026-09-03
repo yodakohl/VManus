@@ -1,0 +1,161 @@
+{
+  "claim_ceiling": {
+    "component_export_credit": 0,
+    "confirmed_lexemes": 0,
+    "confirmed_plaintext_clauses": 0,
+    "confirmed_translations": 0,
+    "defaults_are_replaceable": true,
+    "eva_latin_credit": 0
+  },
+  "counts": {
+    "branch_coverage_row_count": 22,
+    "candidate_branch_count": 22,
+    "candidate_count": 18,
+    "candidate_occurrence_evaluation_count": 75,
+    "dictionary_default_count": 4,
+    "exclusion_count": 8,
+    "leave_one_page_out_row_count": 71,
+    "line_count": 15,
+    "nonexact_nontarget_count": 11,
+    "null_orphan_edge_count": 30,
+    "penalty_normative_sha256": "754f0d718f00eea6491d17c23d1eb9692a62af317258bdafe22cc3a87ad53290",
+    "policy_winner_count": 0,
+    "practical_unit_count": 127,
+    "predicate_only_close_slot_count": 0,
+    "reader_exact_token_count": 120,
+    "reader_line_count": 15,
+    "reader_unit_consumption_count": 127,
+    "score_node_count": 128,
+    "span_count": 4,
+    "target_context_count": 17,
+    "target_count": 17,
+    "target_counts": {
+      "ckhy": 4,
+      "ol": 5,
+      "ols": 3,
+      "otar": 5
+    },
+    "target_owned_reader_span_count": 1,
+    "token_count": 131,
+    "winner_gate_normative_sha256": "40959bc5c3d517706378193750248e477fa17fb2762a8e6fea72adacab38f96d",
+    "winner_gate_row_count": 144
+  },
+  "experiment_id": "GDT770",
+  "outputs": [
+    "MASKED_COHORT_15_LINE_ATLAS.tsv",
+    "TARGET_17_OCCURRENCE_INVENTORY.tsv",
+    "NULL_ORPHAN_EDGE_ATLAS.tsv",
+    "CANDIDATE_OCCURRENCE_SCOREBOARD.tsv",
+    "ATTACHMENT_EDGE_ATLAS.tsv",
+    "ORPHAN_DEBT_ATLAS.tsv",
+    "PENALTY_EVENT_ATLAS.tsv",
+    "TARGET_POLICY_SCOREBOARD.tsv",
+    "LEAVE_ONE_PAGE_OUT.tsv",
+    "BRANCH_COVERAGE.tsv",
+    "WINNER_GATE_AUDIT.tsv",
+    "TARGET_DECISIONS.tsv",
+    "GDT770_4_WORKING_DICTIONARY.tsv",
+    "FIFTEEN_COMPLETE_LINE_READER.tsv",
+    "READER_UNIT_CONSUMPTION.tsv",
+    "GDT770_CONCRETE_READER.md",
+    "RESULT.json"
+  ],
+  "question": "Which fixed whole-form policy best removes target-independent immediate-edge orphans when ol, ckhy, ols and otar are simultaneously masked in fifteen already admitted complete lines?",
+  "scope": {
+    "f84_accessed": false,
+    "f84r_accessed": false,
+    "new_image_opened": false,
+    "new_page_opened": false,
+    "new_transcription_opened": false,
+    "source_scope": "fifteen already admitted complete-reader lines"
+  },
+  "score_contract": {
+    "fluency_credit": 0,
+    "neighbor_radius": 1,
+    "old_target_default_role_evidence_confidence_credit": 0,
+    "orphan_priority": [
+      "AMOUNT",
+      "VALUE",
+      "PATIENT",
+      "RESULT"
+    ],
+    "orphan_types": [
+      "AMOUNT",
+      "FIELD_EDGE",
+      "PATIENT",
+      "RESULT",
+      "VALUE"
+    ],
+    "penalty_normative_sha256": "754f0d718f00eea6491d17c23d1eb9692a62af317258bdafe22cc3a87ad53290",
+    "penalty_weights": {
+      "P01_UNRESOLVED_TARGET": 1,
+      "P02_NOUN_IN_PREDICATE_ONLY_CLOSE": 2,
+      "P03_DOUBLE_CONSUMPTION": 3,
+      "P04_ORPHAN_OR_SOURCELESS_RESULT": 4,
+      "P05_MISSING_REQUIRED_VALENCY": 5,
+      "P06_ILLEGAL_BRANCH_OR_BAD_ENDPOINT": 6
+    },
+    "predicate_only_close_slot_count": 0,
+    "resampling_unit": "page",
+    "skip_untyped_or_nonexact_neighbor": false,
+    "target_identity_seen_by_scorer": "opaque target_mask_id only",
+    "target_surface_score_credit": 0,
+    "winner_gate_normative_sha256": "40959bc5c3d517706378193750248e477fa17fb2762a8e6fea72adacab38f96d"
+  },
+  "status": "PARTIAL__15_LINES_131_TOKENS_128_SCORE_NODES_127_READER_UNITS__17_TARGET_MASKS__0_POLICY_WINS__1_RAW_LEADS_BRANCH_INSUFFICIENT__4_CONCRETE_REPLACEABLE_DEFAULTS__ZERO_CONFIRMED_LEXEMES_ZERO_COMPONENT_EXPORT_NO_NEW_PAGE",
+  "target_results": {
+    "ckhy": {
+      "failed_gates": [
+        "G07_ALL_LEAVE_ONE_PAGE_OUT_WINS"
+      ],
+      "formal_decision": "CKHY_NULL",
+      "formal_status": "OPAQUE_NULL",
+      "lead_disposition": "OPAQUE_NULL",
+      "null_penalty": 32,
+      "raw_lead_candidate": "CKHY_INVARIANT_MIX_OPERATION",
+      "raw_lead_delta_vs_null": 19,
+      "raw_lead_penalty": 13,
+      "target_mask_id": "TM-V4C9"
+    },
+    "ol": {
+      "failed_gates": [
+        "G01_BRANCH_PAGE_COVERAGE"
+      ],
+      "formal_decision": "OL_NULL",
+      "formal_status": "OPAQUE_NULL",
+      "lead_disposition": "INSUFFICIENT_BRANCH_COVERAGE",
+      "null_penalty": 41,
+      "raw_lead_candidate": "OL_POSITIONAL_RELATOR",
+      "raw_lead_delta_vs_null": 22,
+      "raw_lead_penalty": 19,
+      "target_mask_id": "TM-Q7M2"
+    },
+    "ols": {
+      "failed_gates": [
+        "G07_ALL_LEAVE_ONE_PAGE_OUT_WINS"
+      ],
+      "formal_decision": "OLS_NULL",
+      "formal_status": "OPAQUE_NULL",
+      "lead_disposition": "OPAQUE_NULL",
+      "null_penalty": 23,
+      "raw_lead_candidate": "OLS_FINISHED_PRODUCT_COLATURA",
+      "raw_lead_delta_vs_null": 23,
+      "raw_lead_penalty": 0,
+      "target_mask_id": "TM-H8R1"
+    },
+    "otar": {
+      "failed_gates": [
+        "G03_EVERY_RIVAL_MARGIN",
+        "G07_ALL_LEAVE_ONE_PAGE_OUT_WINS"
+      ],
+      "formal_decision": "OTAR_NULL",
+      "formal_status": "OPAQUE_NULL",
+      "lead_disposition": "OPAQUE_NULL",
+      "null_penalty": 41,
+      "raw_lead_candidate": "OTAR_NOMINAL_TRANSITION_PREPARATION",
+      "raw_lead_delta_vs_null": 25,
+      "raw_lead_penalty": 16,
+      "target_mask_id": "TM-N5K6"
+    }
+  }
+}
