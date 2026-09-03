@@ -20720,8 +20720,33 @@ specific substance, new page, image, OCR, transcription, `f84`, or `f84r` is
 selected. Primary report:
 `experiments/yolo/gdt779_ol_residual_v99r7_exact_whole_recovery/REPORT.md`.
 
-Next, test only the two reader-exact cardless complete wholes that already have
-independent whole-form support: `eees=Mengenfeld` and `sheeol=Endzustand`, with
-identity rivals kept visible. The occurrence-free prediction is two spans,
-coverage 245→247, fallback 131→129, and consumption 205→207. The other 23 exact
-cardless forms stay unresolved rather than inheriting edit-neighbour meanings.
+## GDT780 adds two target-independent cardless whole roles
+
+GDT780 tests only `eees=Mengenfeld` and `sheeol=Endzustand` against the 25
+reader-exact cardless GDT779 fallbacks.  Its occurrence-free selector finds
+exactly `ol eees` at f43v.16 and `ol sheeol` at f88r.21.  Both are fallback
+replacements; contextual coverage rises 245→247, fallbacks fall 131→129 and
+unique right-token consumption rises 205→207.  The other 374 renderer rows are
+byte-stable and the remaining exact-cardless debt is 23 forms/23 positions.
+
+The evidence is now target-independent row by row.  GDT758 gives `eees` four
+exact right contexts with three `aiin` followers; GDT769 identifies the target
+as one of those `eees aiin` contexts, so removal leaves two hits in three
+contexts.  GDT747 identifies target `sheeol` occurrence G747-O060 as exact but
+L0 with zero local support, leaving all four END contacts on three pages
+outside the target.  Thus the shortest practical whole-span defaults are
+`Mengenfeld` and `Endzustand`; number, unit, moisture, cold and specific content
+remain rivals or open identities.
+
+Eleven source locks, 1,526 independent checks, a fourteen-output byte replay,
+the executable GDT388 intake and a separate manual audit all pass.  No
+component, lexeme, plaintext, number, unit, specific substance, new page,
+image, OCR, transcription, `f84`, or `f84r` is selected.  Primary report:
+`experiments/yolo/gdt780_ol_two_cardless_whole_bridge/REPORT.md`.
+
+Next, project the remaining 23 complete surfaces—not their substrings—against
+the already published clean GDT745 whole pool and their cached exact recurrence
+profiles.  The exploratory deck must give every surface a short replaceable
+default plus two rivals, explicitly separate analogy-only A2/A3 cards from
+target-independent recurrence evidence, and expose conflicts such as
+`cheedaiin` rather than resolving them by fiat.  No new page is needed.
