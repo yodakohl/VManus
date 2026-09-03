@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **765**
-- Experiment-associated tracked files: **13,315** (1.3 GiB)
-- Structured GDT337+ experiments: **430**
+- Experiments indexed: **766**
+- Experiment-associated tracked files: **13,343** (1.3 GiB)
+- Structured GDT337+ experiments: **431**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT768 | GDT768_chor_shor_part_identity_tournament | `PARTIAL__404_EXACT_ANCHOR_OCCURRENCES__33_MULTI_ANCHOR_LINES__CHOR_SHOR_GLOBAL_DRY_MOIST_MODEL_REJECTED_BY_FAMILY_ABLATION__CHOR_SHOR_PARALLEL_NOMINAL_PLANT_PART_WHOLES__FLOWER_VS_SEED_FRUIT_DIRECTION_UNRESOLVED__6_CONCRETE_REPLACEABLE_DEFAULTS__12_COMPLETE_CONCRETE_LINES__ZERO_CONFIRMED_LEXEMES_ZERO_COMPONENT_EXPORT_NO_NEW_PAGE` | [report](../experiments/yolo/gdt768_chor_shor_part_identity_tournament/REPORT.md) | 28 | 965.7 KiB | 10 | STRUCTURED_YOLO |
 | GDT767 | GDT767_ofch_historical_identity_cofield_tournament | `PARTIAL__28_COMPLETE_WHOLES_224_EXACT_OCCURRENCES__25_OFCH_WHOLES_43_OCCURRENCES__TARGET_EXCLUDING_200_BLOCKED_DONORS__OFCH_ZERO_CTHY_ZERO_EXACT_CHOR_ANCHORS__CHOR_CTHY_15_PARALLEL_OCCURRENCES_14_LOCI_5_DIRECT__18_HISTORICAL_SUBSTANCE_FORM_CANDIDATES__FORM_CLASS_SIGNAL_WITH_SPECIFIC_SUBSTANCE_OPEN__OFCH_EOL_EXTRACT_DEFAULTS_DOWNGRADED__28_FORCED_CONCRETE_REPLACEABLE_DEFAULTS__5_REVISED_LINES__ZERO_CONFIRMED_LEXEMES_ZERO_COMPONENT_EXPORT_NO_NEW_PAGE` | [report](../experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/REPORT.md) | 23 | 405.9 KiB | 5 | STRUCTURED_YOLO |
 | GDT766 | GDT766_ofch_chor_role_switch_prediction | `PARTIAL__43_EXACT_OFCH_CORE_OCCURRENCES_25_FORMS__36_PAGES_41_LOCI__36_MEDIAL_6_LAST_1_FIRST__34_PARAGRAPH_START_LINES_1_TRUE_OPENER_0_PARAGRAPH_END__PREFIX_25_ZERO_FIRST_ZERO_REPEATED_EXACT_BIGRAMS__GENERIC_DRUG_CORE_PORTABLE__FLOWER_DRUG_CORE_BOLD_C0__4_REPRODUCTIVE_SAME_LINE_BRIDGES_NOT_SCORE_READY__OFCHEDY_QOFCHEDY_5_PLUS5_NOMINAL_ACTION_REMOVED__191_CHOR_FAMILY_OCCURRENCES__PCHOR_RECIPE_OPEN_CHOR_CONTENT_SCHOR_ITEM_LCHOR_INTERNAL__5_FULL_EXACT_LINES__ZERO_CONFIRMED_LEXEMES_ZERO_COMPONENT_EXPORT_NO_NEW_PAGE` | [report](../experiments/yolo/gdt766_ofch_chor_role_switch_prediction/REPORT.md) | 37 | 306.1 KiB | 7 | STRUCTURED_YOLO |
 | GDT765 | GDT765_ofchy_schor_content_field_discriminator | `PARTIAL__6_TARGET_OCCURRENCES__OFCHY_3_OF3_NOMINAL_SPECIFICATION_HEAD__SELECT_BLUETENMASSE_C0__SCHOR_3_ITEM_HEADS__SELECT_BLUETENSTAND_C1__25_OFCH_PREFIX__13_FCHY_SUFFIX__67_CHOR_VALUE_PAIRS__12_H_X_DAIIN__F22R_TWO_PARALLEL_TARGET_FIELDS__CFHY_TRANSITION_C1__ZERO_CONFIRMED_LEXEMES__NO_NEW_PAGE` | [report](../experiments/yolo/gdt765_ofchy_schor_content_field_discriminator/REPORT.md) | 28 | 114.9 KiB | 7 | STRUCTURED_YOLO |
