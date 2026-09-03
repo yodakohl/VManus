@@ -1,0 +1,127 @@
+{
+  "artifact_dir": "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/artifacts",
+  "byte_identical_replay": true,
+  "checks": 26743,
+  "counts": {
+    "frame_evaluations": 80,
+    "frame_specs": 16,
+    "historical_relator_rows": 17,
+    "historical_source_rows": 17,
+    "identity_evaluations": 37,
+    "identity_specs": 37,
+    "raw_target_occurrences": 640,
+    "reader_exact_target_occurrences": 526,
+    "reader_exact_tokens": 106,
+    "reader_lines": 12,
+    "reader_tokens": 109,
+    "role_evaluations": 25,
+    "role_specs": 5,
+    "support_loci": 52,
+    "target_forms": 5
+  },
+  "declared_builder_outputs": 17,
+  "guards": {
+    "confirmed_lexemes": 0,
+    "confirmed_plaintext_clauses": 0,
+    "eva_latin_credit": 0,
+    "f84_accessed": false,
+    "f84r_accessed": false,
+    "historical_predictions_create_voynich_evidence": 0,
+    "r03_same_occurrence": true,
+    "r05_f14_alone_selection_credit": 0,
+    "r05_f15_f16_discriminating_pages_only": true,
+    "substring_export_credit": 0
+  },
+  "replay_sha256": {
+    "CONTROL_SPAN_ATLAS.tsv": "3541eb2821da9ec3c6cf0003b6382b340ffc4f6f9124418d80e6e9acba96ed28",
+    "DONOR_BLOCK_REGISTRY.tsv": "b1fe4ea3215293ed89c14de678646111de2f817711a17d700a6670caa702e9e2",
+    "FRAME_16X5_EVIDENCE.tsv": "36f2f0e5a403aba8d15a70a58f66772076b724a5acd2a10f902c359ae34651a8",
+    "FRAME_LOCUS_EVIDENCE.tsv": "06fa673a80fdd780b913d9075fd81457e4c88845e81ac51d9460c005a9116c70",
+    "GDT769_5_WORKING_DICTIONARY.tsv": "b61b427b8acc2d0f5ca4e7eaa37d677281b132adec7be522efa467795098d37c",
+    "HISTORICAL_ROLE_IDENTITY_READER.md": "6f9bf9fe86ff1701e52b4b6eb3b827c4db52845e0021be8fbdeb362b92c40fb9",
+    "IDENTITY_CANDIDATE_SCOREBOARD.tsv": "b2746f45f3a9f60003d6300fac0a2a9890562933eed12fccac8a12f4cd74a80c",
+    "LEAVE_ONE_LOCUS_OUT.tsv": "d7030e5ee34a010157661316c906c6562acf346abb01059dc13f05a77b1c3e7e",
+    "RESULT.json": "c77feb8716dbb0b9ac86eb44276a04b7aef68ef700b53a4885aaeaa8c0e17446",
+    "ROLE_5X5_SCOREBOARD.tsv": "8b60e73d2ad3702d917fa0cd4fd91d180d7593ae06e578e1475ccdd276364cc4",
+    "SIGNATURE_5_SUMMARY.tsv": "cfcff955120665dda6323c5defcde597b19d5d81c59574dd3ae65b5b393ee0e4",
+    "SUPPORT_52_LOCUS_ATLAS.tsv": "aebfa433dd0f912f76445490ff6bd3909ae54564ac274b2a397669d8b0824d15",
+    "TARGET_526_EXACT_CONTEXT_ATLAS.tsv": "935c39c026db8a9b282700fec90a4158cc6120323f4080477140922f318cb95a",
+    "TARGET_5_CENSUS.tsv": "46fe8f459d502d01aab12292e2f3a9888934b8a6d56e79e4fbf7cd75f10332d9",
+    "TARGET_5_ROLE_GEOMETRY.tsv": "3b1313b1305e03abd1ba53f416490b546ac16175e73b1649f4444d060da87cc6",
+    "TARGET_640_RAW_OCCURRENCE_ATLAS.tsv": "d7600a0c06e3339bf2f9eb4d9a2f759bb5a33371c1d53e05fc037db5e5e6686b",
+    "TWELVE_COMPLETE_LINE_READER.tsv": "a8a9506ec1447abd2ec030c2f3fcb113bf769a76e97e3d13257fde7a23a09c44"
+  },
+  "schema": "GDT769_VALIDATION_V1",
+  "selected_working_defaults": {
+    "ckhy": {
+      "confidence": "C0_RIVAL_ONLY",
+      "identity": "OPEN",
+      "reader": "mischen",
+      "rival": "Mischung oder Kompositum",
+      "role": "OPEN",
+      "role_evidence_superiority": false,
+      "role_identity_consistent": true,
+      "role_selection_basis": "NO_ROLE_GATE_PASSED",
+      "supported_role_rivals": "NONE"
+    },
+    "ol": {
+      "confidence": "C1_LOCAL_FRAME__C0_ROLE_TIEBREAK",
+      "identity": "I36_OL_FIELD_RELATOR",
+      "reader": "und/mit; nach einer Menge von/aus",
+      "rival": "Zubereitungsbasis",
+      "role": "R05_SEQUENCE_FIELD_LINKER",
+      "role_evidence_superiority": false,
+      "role_identity_consistent": true,
+      "role_selection_basis": "SPECIFICITY_DISPATCH_PRIORITY_AMONG_EQUAL_GATE_SCORES",
+      "supported_role_rivals": "R03_PRODUCT_RESULT|R01_NOMINAL_SUBSTANCE_PREPARATION"
+    },
+    "ols": {
+      "confidence": "C0_RIVAL_ONLY",
+      "identity": "OPEN",
+      "reader": "Maß-/Produktposten",
+      "rival": "Abschlussprodukt",
+      "role": "R04_BOUND_RECORD_FIELD",
+      "role_evidence_superiority": false,
+      "role_identity_consistent": true,
+      "role_selection_basis": "SPECIFICITY_DISPATCH_PRIORITY_AMONG_EQUAL_GATE_SCORES",
+      "supported_role_rivals": "R01_NOMINAL_SUBSTANCE_PREPARATION"
+    },
+    "otar": {
+      "confidence": "C1_LOCAL_FRAME__C0_ROLE_TIEBREAK",
+      "identity": "I23_OTAR_LINKER",
+      "reader": "weiter/dann",
+      "rival": "bis",
+      "role": "R05_SEQUENCE_FIELD_LINKER",
+      "role_evidence_superiority": false,
+      "role_identity_consistent": true,
+      "role_selection_basis": "SPECIFICITY_DISPATCH_PRIORITY_AMONG_EQUAL_GATE_SCORES",
+      "supported_role_rivals": "R01_NOMINAL_SUBSTANCE_PREPARATION"
+    },
+    "pcheey": {
+      "confidence": "C1_REPLICATED_REPLACEABLE",
+      "identity": "I10_PCHEEY_FIELD",
+      "reader": "gebundenes Zubereitungs-/Form-II-Feld",
+      "rival": "Paste, Salben- oder Mischform II",
+      "role": "R04_BOUND_RECORD_FIELD",
+      "role_evidence_superiority": true,
+      "role_identity_consistent": true,
+      "role_selection_basis": "UNIQUE_TOP_ROLE_GATE",
+      "supported_role_rivals": "NONE"
+    }
+  },
+  "status": "PASS",
+  "target_exact_counts": {
+    "ckhy": 25,
+    "ol": 376,
+    "ols": 12,
+    "otar": 110,
+    "pcheey": 3
+  },
+  "target_raw_counts": {
+    "ckhy": 34,
+    "ol": 463,
+    "ols": 17,
+    "otar": 123,
+    "pcheey": 3
+  }
+}
