@@ -20827,8 +20827,38 @@ renderer in 42,081 checks and replays sixteen files byte-identically.  Primary
 report:
 `experiments/yolo/gdt783_chsky_majority_variant_external_field/REPORT.md`.
 
-Next, move the singleton `chorcholsal` at f88r.22 into its own route.  Compare
-the current target-local `getrocknete Stoffzubereitung` against a learned-name
-whole and against explicit constituent-order models, but do not assume in
-advance that the visually tempting `chor+chol+sal` segmentation is valid.  No
-new page is needed.
+## GDT784 `chorcholsal` boundary and learned-name adjudication
+
+GDT784 replaces the circular f88r.22 display `getrocknete
+Stoffzubereitung` with the concrete, replaceable C0 whole default
+**`chorcholsal=trockene Blütendroge`** and the already licensed span display
+**`ol chorcholsal=Ansatz: trockene Blütendroge`**.  The current written surface
+remains one whole at C2: ZL3b, IT2a and RF1b all preserve it, and the bound
+Yale crop shows a clear gap after `ol` but no equal internal gap.  Stolfi's
+older `chor,chol.sal` is retained as real boundary dissent; thirteen of the
+fourteen target-free GDT759 contact loci available in Stolfi use definite dots
+at their `chor`/`chol` boundaries.
+
+The internal echo nevertheless has independent C1 support.  GDT759 supplies
+eight exact `chor chol` and seven exact `chol chor` contacts at fourteen loci,
+while the current whole cards support a non-leaf plant-part role for `chor`
+and a DRY role for `chol`.  This permits PART+DRY to inform the learned whole,
+but exports no substring.  `sal` occurs 37 times raw and 33 times
+reader-exact; GDT777 finds zero reader-exact `s al` split among five raw split
+candidates, so its meaning remains completely open.  Flower versus fruit or
+seed, dry quality versus drying process, and the drug identity all remain
+replaceable rivals.
+
+The exact P|A|1 line-final twin `cheor ol chockhar` supports a preparation-like
+value in the `cheor ol X` slot, but does not make `ol` a preposition meaning
+“aus”.  Consequently the target now reads as a compact record rather than a
+manufactured sentence: **`Trocknung bis Mittelstufe abschließen | Heißansatz
+III | trockenes Teilgut | Ansatz: trockene Blütendroge`**.  Renderer totals
+remain 270 contextual, 106 fallback and 230 consumed; only this one display
+changes.  Primary report:
+`experiments/yolo/gdt784_chorcholsal_boundary_name_adjudication/REPORT.md`.
+
+Next, use the 33 reader-exact `sal` occurrences as their own whole-form field
+census.  Compare learned drug/name, material, preparation, form and record
+field roles across target-free contexts, then feed the winning short role back
+into `chorcholsal`; do not assume salt, seed, `s+al`, or any EVA letter value.
