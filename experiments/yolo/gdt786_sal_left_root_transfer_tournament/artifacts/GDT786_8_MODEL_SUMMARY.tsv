@@ -1,0 +1,9 @@
+model_id	model_name	prediction_source	portable_sal_root_claim	meaning	macro_distance	macro_similarity	formally_scored	decision	selected_portable_model	score_is_probability	default_is_translation	confirmed_lexeme	confirmed_plaintext	specific_substance_confirmed	component_export_credit
+M01	ADDITIVE_SAL_PLUS_REMAINDER	standalone sal profile plus type-balanced same-remainder profile	1	Productive left semantic root with a bound modifier.	0.555076037598	0.444923962402	1	NUMERIC_LEAD_NOT_ROBUST__NO_PORTABLE_TRANSFER	0	0	0	0	0	0	0
+M02	SAL_ROOT_ONLY	standalone sal outside profile	0	Shared sal-initial family geometry without evidence that the remainder contributes predictably.	0.570577820048	0.429422179952	1	COMPARATOR	0	0	0	0	0	0	0
+M03	REMAINDER_ONLY	type-balanced non-sal same-remainder profile	0	The visible remainder or general suffix class explains the outside field.	0.559357508544	0.440642491456	1	COMPARATOR	0	0	0	0	0	0	0
+M04	SAL_FAMILY_LOTO	other sal-initial target types only	0	A common written family profile without a decompositional interpretation.	0.570580540858	0.429419459142	1	FORMAL_STRING_FAMILY_RETAINED	0	0	0	0	0	0	0
+M05	LEARNED_WHOLE_BACKOFF	complete target identity with same-remainder fallback	0	Each whole may be learned separately; no portable component is required.	0.598764777104	0.401235222896	1	COMPARATOR	0	0	0	0	0	0	0
+M06	SAME_REMAINDER_NULL	non-sal same-remainder controls	0	Matched written ending null.	0.559079832419	0.440920167581	1	COMPARATOR	0	0	0	0	0	0	0
+M07	LENGTH_FREQUENCY_NULL	same-length and same-frequency exact wholes	0	Generic surface-frequency geometry null.	0.568809676945	0.431190323055	1	COMPARATOR	0	0	0	0	0	0	0
+M08	SALT_COMPOSITE	historical substance rival with no EVA spelling points	1	Specific salt plus bound modifier; requires an exclusive substance signal to win.	0.555076037598	0.444923962402	0	SAME_FORMAL_FIT_AS_M01__ZERO_EXCLUSIVE_SALT_SIGNAL	0	0	0	0	0	0	0

@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **783**
-- Experiment-associated tracked files: **13,833** (1.3 GiB)
-- Structured GDT337+ experiments: **448**
+- Experiments indexed: **784**
+- Experiment-associated tracked files: **13,866** (1.3 GiB)
+- Structured GDT337+ experiments: **449**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT786 | GDT786_sal_left_root_transfer_tournament | `PARTIAL__12_SAL_PREFIX_WHOLES__14_EXACT_OCCURRENCES__10_PRIMARY_TYPES__ADDITIVE_05551_VS_SAME_X_05591__5_OF10_P0444__SAL_ROOT_TOP1_2_TOP2_5_OF10__CONTROL_ROOTS_TOP1_17_TOP2_27_OF29__SALO_RANK51_SALY_RANK49_OF55__ZERO_EXACT_FORWARD_SPLITS__ZERO_STOLFI_SAL_X_BOUNDARIES__FORMAL_FAMILY_ONLY__12_CONCRETE_WHOLE_DEFAULTS__ZERO_COMPONENT_EXPORT` | [report](../experiments/yolo/gdt786_sal_left_root_transfer_tournament/REPORT.md) | 33 | 216.8 KiB | 34 | STRUCTURED_YOLO |
 | GDT785 | GDT785_sal_exact_whole_field_census | `PASS__37_RAW__33_EXACT_SAL__26_PAGES__23_FOLIOS__7_FIRST_16_MIDDLE_10_LAST__2_1_TRUE_PARAGRAPH_EDGES__EDGE_RANK_8_OF_68__SAL_SHOL_2__SAL_RAIIN_2__ZERO_OF_96_QUANTITY_PAIRS__23_SAL_STRING_FORMS__WORKING_SAL_DROGE__SALT_RETAINED_C0_RIVAL__CHORCHOLSAL_REINFORCED_NOT_DECOMPOSED__ZERO_LEXEMES` | [report](../experiments/yolo/gdt785_sal_exact_whole_field_census/REPORT.md) | 30 | 726.5 KiB | 11 | STRUCTURED_YOLO |
 | GDT784 | GDT784_chorcholsal_boundary_name_adjudication | `PASS__1_TARGET_WHOLE__3_CURRENT_READERS_FUSED__STOLFI_SPLIT__13_STOLFI_DOT_COMPARATOR_LOCI__VISUAL_EXTERNAL_GAP_INTERNAL_NO_EQUAL_GAP__190_176_CHOR__343_303_CHOL__37_33_SAL__8_7_PART_STATE_PAIRS__SLOT_TWIN_F100V20__PRACTICAL_TROCKENE_BLUETENDROGE__270_CONTEXTUAL__106_FALLBACKS__230_CONSUMED__ZERO_COMPONENT_EXPORT` | [report](../experiments/yolo/gdt784_chorcholsal_boundary_name_adjudication/REPORT.md) | 34 | 655.1 KiB | 12 | STRUCTURED_YOLO |
 | GDT783 | GDT783_chsky_majority_variant_external_field | `PASS__3_PHYSICAL_LOCI_ONCE__1_TARGET_MASKED__2_EXTERNAL_MAJORITY_VARIANTS__28_POSITIONAL_NEIGHBORS__4_ANALOGS_1_GDT754_BLOCKED__PRACTICAL_HOT_DRY_WITH_HOT_MINIMUM_CORE__270_CONTEXTUAL__106_FALLBACKS__230_CONSUMED__ZERO_VARIANT_LETTER_EXPORT` | [report](../experiments/yolo/gdt783_chsky_majority_variant_external_field/REPORT.md) | 27 | 613.3 KiB | 11 | STRUCTURED_YOLO |

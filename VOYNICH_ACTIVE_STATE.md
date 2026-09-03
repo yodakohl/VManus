@@ -20904,3 +20904,50 @@ nominal drug/material geometry predicted by `sal`, while allowing every whole
 to override that role.  Do not use the exhausted legacy superform peel, infer
 an unseen word, or treat a visible remainder as a known suffix before its own
 complete-whole evidence supports it.
+
+## GDT786 `sal...` left-root transfer tournament
+
+GDT786 reconstructs all fourteen reader-exact occurrences of the twelve
+observed complete `sal...` forms on thirteen admitted page labels and eleven
+physical folios.  Ten comparable forms/twelve occurrences enter the primary
+test against 29 type-balanced complete `R+X` controls.  The directed additive
+model has Gower distance .555076 versus .559080 for same-X controls, wins only
+5/10 type cells and has exact sign-flip p=.444336.  In the inverse test `sal`
+recovers its true root rank 1 in 2/10 cells and top 2 in 5/10, whereas the 29
+non-`sal` controls achieve 17/29 and 27/29.  The small additive lead reverses
+under the expanded-root, no-single-occurrence and no-`cho` sensitivities.
+
+The two repeated wholes are unusually incoherent: `salo` ranks 51/55 and
+`saly` 49/55 among same-length, exact-count-two forms.  There is one raw
+separated `sal ol` but zero reader-exact `sal X`.  Of seven same-locus Stolfi
+readings, six keep the whole fused and one reads `s,alal`; zero split at
+`sal|X`.  Two reverse exact contacts, `keedy sal` and `al sal`, do not rescue a
+forward construction.  Therefore the formal left string family remains C1,
+while a productive semantic `sal-` root is retained only as an inactive C0
+hypothesis.  Standalone **`sal=Droge`** remains unchanged and no component is
+exported.
+
+All twelve observed wholes receive short replaceable defaults:
+`salal=Drogenmaterial I`, `salar=Drogenanteil I`,
+`saldal=abgemessene Rohdroge`, `saldam=Pflanzendroge`,
+`saldy=Fertigdroge`, `salf=Drogenname`,
+`salkeedy=erhitzte Fertigdroge`, `salo=Arzneidroge`,
+`salol=Drogenzubereitung`, `salshcthdy=feuchte Fertigdroge`,
+`saltar=kalter Drogenanteil I` and `saly=Arzneidroge`.
+`saldal`, `salkeedy` and `saltar` are the three preferred form-specific
+composite leads; `salal`, `salar` and `salol` keep composition as a rival; the
+other six default to learned/local wholes.  Manual historical reading favors
+eight learned-whole occurrences, three drug composites and three ties; a salt
+composite wins zero.  `chorcholsal=trockene Blütendroge` remains unchanged as
+a learned whole, but its internal `sal` string no longer counts as independent
+semantic evidence.
+
+The independent validator passes 176 checks and an eighteen-file byte replay.
+No new page, image, OCR or transcription is opened and f84/f84r remain sealed.
+Primary report:
+`experiments/yolo/gdt786_sal_left_root_transfer_tournament/REPORT.md`.
+
+Next, invert the transfer question: test the strongest independently supported
+remainder wholes, beginning with `keedy` and then `dal`, `ar` and `ol`, across
+multiple left families.  Require a stable form-level change before using any
+remainder composition, but retain concrete complete-whole defaults throughout.

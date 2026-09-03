@@ -1,0 +1,293 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "C2 observed complete-word boundaries; C1 formal sal-initial family and standalone sal nominal role; C1 at most form-specific whole roles; C0 replaceable German displays. No plaintext, specific substance, EVA spelling/sound/glyph value, free component, unseen form, new page, image, OCR, transcription, f84 or f84r.",
+  "commands": {
+    "run": "python3 -B experiments/yolo/gdt786_sal_left_root_transfer_tournament/src/run.py",
+    "validate": "python3 -B experiments/yolo/gdt786_sal_left_root_transfer_tournament/src/validate.py"
+  },
+  "created": "2026-09-03",
+  "dependencies": [
+    "GDT515",
+    "GDT585",
+    "GDT635",
+    "GDT734",
+    "GDT735",
+    "GDT739",
+    "GDT766",
+    "GDT773",
+    "GDT782",
+    "GDT785"
+  ],
+  "experiment_id": "GDT786",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt782_recurrent_six_target_external_field_adjudication/src/run.py",
+      "role": "guarded context and clean-axis loader",
+      "sha256": "94b15ffaa293ea0dc55b7467fbada2c0d9bd0e9c636070d3e93b6857491389cc"
+    },
+    {
+      "path": "experiments/yolo/gdt635_initial_head_same_remainder_swaps/artifacts/PAGE_ALLOWLIST.tsv",
+      "role": "179-page allow-list",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+    },
+    {
+      "path": "transcription/voynich_zl3b_tokens.tsv",
+      "role": "guarded token source",
+      "sha256": "6a061a26edc05ff37dc386c2215774c229a5ff087d3091e68bdd4983a6c007aa"
+    },
+    {
+      "path": "transcription/voynich_cross_transcription_lines.tsv",
+      "role": "guarded current-reader source",
+      "sha256": "ff3a4559004a29764c60102326de154b29fbba06a2a206bdd76d7feda432e16c"
+    },
+    {
+      "path": "transcription/voynich_zl3b_lines.tsv",
+      "role": "guarded line metadata",
+      "sha256": "7520dd4c11f4d23c8492e4b2a52cc0fcbda6d9fc88a96ead8f1c31081a4d7ed2"
+    },
+    {
+      "path": "transcription/voynich_stolfi25e1_lines.tsv",
+      "role": "guarded legacy boundary reader",
+      "sha256": "b4c83c18f8f814e547ab4a849dab8cf24188680fc512d9497885bdaa0d944988"
+    },
+    {
+      "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/artifacts/V99R7_32339_COMPACT_CELL_REGISTER.tsv",
+      "role": "cached cell register",
+      "sha256": "47e8c7375503c2af7c95049392660de23556993ef78c1f24a10af6d9d7a1ed3c"
+    },
+    {
+      "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/artifacts/V99R7_1606_COMPLETE_WORD_CONFIDENCE.tsv",
+      "role": "clean exact-whole axis pool",
+      "sha256": "9646b8960840f0a6bb10985f0f9d7eef1237725f0763b712a96f0190aeaf7816"
+    },
+    {
+      "path": "experiments/yolo/gdt739_twelve_whole_local_dimension_dispatch/src/ANCHOR_AXIS_SPECS.tsv",
+      "role": "axis pattern definitions",
+      "sha256": "0561329a79ce6c32e8eea4ca58a38e5a5f9602bf181beb79d741543b95aa2b53"
+    },
+    {
+      "path": "experiments/yolo/gdt785_sal_exact_whole_field_census/artifacts/GDT785_23_SAL_STRING_FAMILY.tsv",
+      "role": "fixed sal string family",
+      "sha256": "aa24b19a99b1056e9cbc961d1b16eb1f6ca0fa17974cc510bdc05bb67663ceee"
+    },
+    {
+      "path": "experiments/yolo/gdt785_sal_exact_whole_field_census/artifacts/GDT785_12_TRIGRAM_ROOT_CONTROLS.tsv",
+      "role": "matched three-character roots",
+      "sha256": "dedfe8af38171d62e05c83e2dfc763e5a36a1cc73c922aba23a9458ec88cdcf8"
+    },
+    {
+      "path": "experiments/yolo/gdt785_sal_exact_whole_field_census/artifacts/GDT785_2_WORKING_DICTIONARY.tsv",
+      "role": "standalone sal working card",
+      "sha256": "acd09d646b8ee0a375a8a7cb4ef7009be3c3ba684cb8b522b1821df32b2e2337"
+    },
+    {
+      "path": "experiments/yolo/gdt515_second_random_four_page_full_admission/artifacts/gdt515_744_local_group_edition.tsv",
+      "role": "older local-owner counterexamples",
+      "sha256": "39207ac70d88d8bd14665471ffded436cbdd851eec071d8c1e7b62fb5ad434f2"
+    },
+    {
+      "path": "experiments/yolo/gdt585_learned_name_compound_atlas/artifacts/gdt585_19_compound_and_pair_readings.tsv",
+      "role": "saldam owner-bound name counterexample",
+      "sha256": "15add3fa23dd9040b6621f1ba3d48bfeadc1377b9a3c7af19e2ff6fdc504de51"
+    },
+    {
+      "path": "experiments/yolo/gdt735_historical_semantic_bridge_atlas/artifacts/HISTORICAL_ENTRY_ATLAS.tsv",
+      "role": "period entry architecture",
+      "sha256": "06a32f617a5dc92751c08bacf994907b66ec0497950734c9831ab48a83224d5d"
+    },
+    {
+      "path": "experiments/yolo/gdt735_historical_semantic_bridge_atlas/artifacts/HISTORICAL_SOURCE_ARCHITECTURE_MATRIX.tsv",
+      "role": "period source architecture",
+      "sha256": "8d9427ddd60a6db7bb0613da3c7769eb2e2efa45a543742e485bf2090630263d"
+    },
+    {
+      "path": "experiments/yolo/gdt773_ol_capacity_equalized_composition_audit/artifacts/GDT773_OL_WORKING_DICTIONARY.tsv",
+      "role": "corrected contextual ol role",
+      "sha256": "4ada5daf6a32bd4594fd02cfced2dd1ce70bfa373ba2d4d961c1d60bc74a3d15"
+    },
+    {
+      "path": "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/artifacts/OFCH_25_WORKING_DICTIONARY.tsv",
+      "role": "positive nominal family and learned-whole control",
+      "sha256": "7f183e9d58089c754ee04d56ab20736b929aa52477ad8026809d4d6121f8b7a1"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt786_sal_left_root_transfer_tournament/METHOD.md",
+      "role": "executed transfer-tournament method and limitations",
+      "sha256": "118c9d821412213afe9befc4363b50c1bcb91b91ec2aada623720baa151a3585"
+    },
+    {
+      "path": "experiments/yolo/gdt786_sal_left_root_transfer_tournament/PREREGISTRATION.md",
+      "role": "fixed exploratory cohort, models, controls and claim ceiling",
+      "sha256": "1d2bfa8071f5ca03c7048ea7b5f3f8806e89905396ca2cd2cbbf82ab8f066361"
+    },
+    {
+      "path": "experiments/yolo/gdt786_sal_left_root_transfer_tournament/README.md",
+      "role": "compact result and reproduction entry point",
+      "sha256": "c2f209116e9ea0886006c72ceec4614e82883a676a59e731861694da5e36396a"
+    },
+    {
+      "path": "experiments/yolo/gdt786_sal_left_root_transfer_tournament/REPORT.md",
+      "role": "primary geometry, boundary, historical and concrete-whole report",
+      "sha256": "102f2865251a298fc7a48fca1ad4bdaf69ad650018b2ec03e1f475dbba4b737b"
+    },
+    {
+      "path": "experiments/yolo/gdt786_sal_left_root_transfer_tournament/artifacts/GDT786_14_TARGET_OCCURRENCE_ATLAS.tsv",
+      "role": "all fourteen exact target occurrences with masked formal geometry",
+      "sha256": "0b332f3b83ce1aa12d68c8b51e572cbc8f24ac23524acef1d8cbe5c375c2c7c4"
+    },
+    {
+      "path": "experiments/yolo/gdt786_sal_left_root_transfer_tournament/artifacts/GDT786_29_SAME_REMAINDER_CONTROL_TYPES.tsv",
+      "role": "type-balanced same-remainder controls",
+      "sha256": "15bb5fc05e3c700d1cea9da84382523142493f95727248d724005bd1905405ce"
+    },
+    {
+      "path": "experiments/yolo/gdt786_sal_left_root_transfer_tournament/artifacts/GDT786_10_PRIMARY_MODEL_SCORECARD.tsv",
+      "role": "ten type-level transfer comparisons",
+      "sha256": "dc55bb44b75c731b770342690cbf9b76d939a3feb50ea6f4f3e9ad385dd3c5af"
+    },
+    {
+      "path": "experiments/yolo/gdt786_sal_left_root_transfer_tournament/artifacts/GDT786_8_MODEL_SUMMARY.tsv",
+      "role": "fixed mechanism deck with formal scores and decisions",
+      "sha256": "8718557d3097d33ce75309e6279465ea76e89c93bb6735f336735dfc464df0a2"
+    },
+    {
+      "path": "experiments/yolo/gdt786_sal_left_root_transfer_tournament/artifacts/GDT786_11_SENSITIVITY_SCORECARD.tsv",
+      "role": "eleven weighting, feature and cohort sensitivities",
+      "sha256": "6b3834ab731af6a123323d1c834bddd5896e64cfb3c44c84518840d5c9f456d6"
+    },
+    {
+      "path": "experiments/yolo/gdt786_sal_left_root_transfer_tournament/artifacts/GDT786_39_ROOT_RECOGNITION.tsv",
+      "role": "ten sal and twenty-nine control inverse root cells",
+      "sha256": "8496e6d0b201ac924ce9c7b692e4c259198536307b21f2f6d559c508b9a69888"
+    },
+    {
+      "path": "experiments/yolo/gdt786_sal_left_root_transfer_tournament/artifacts/GDT786_2_REPEAT_COHERENCE.tsv",
+      "role": "salo and saly equal-frequency repeat diagnostics",
+      "sha256": "bbf5121da951060dad943ce47b92095aae0683a5d551abdb998a7e6cb60de3e5"
+    },
+    {
+      "path": "experiments/yolo/gdt786_sal_left_root_transfer_tournament/artifacts/GDT786_12_SPLIT_BOUNDARY_AUDIT.tsv",
+      "role": "raw and exact sal-X separated-pair census",
+      "sha256": "b709f4485e3919af36ca2d96939113c21f93c210a24f6f54a42b02f5140375eb"
+    },
+    {
+      "path": "experiments/yolo/gdt786_sal_left_root_transfer_tournament/artifacts/GDT786_2_REVERSE_EXACT_CONTACTS.tsv",
+      "role": "two exact reverse X-sal contacts",
+      "sha256": "87ff97a2e0d3d025018fd0371dfd439022867e649a54302ceffb5a75263e27c2"
+    },
+    {
+      "path": "experiments/yolo/gdt786_sal_left_root_transfer_tournament/artifacts/GDT786_STOLFI_BOUNDARY_ATLAS.tsv",
+      "role": "fourteen target-wise guarded Stolfi boundary checks",
+      "sha256": "66cbbe6d3f7f41cc97ce15ddad37b4b22f491eea506069f173899890e1066f10"
+    },
+    {
+      "path": "experiments/yolo/gdt786_sal_left_root_transfer_tournament/artifacts/GDT786_12_REMAINDER_EVIDENCE.tsv",
+      "role": "independent remainder lineage and retired-reading audit",
+      "sha256": "f93561c747f8561c1c23eb48924f9d322341b7de3ba59a94e1e6331e71ade122"
+    },
+    {
+      "path": "experiments/yolo/gdt786_sal_left_root_transfer_tournament/artifacts/GDT786_12_WORKING_DICTIONARY.tsv",
+      "role": "twelve short complete-whole defaults with rivals and evidence",
+      "sha256": "e0103b14c194fde50c9d7049157508488e9a635c82db87d891f668020f0f9c62"
+    },
+    {
+      "path": "experiments/yolo/gdt786_sal_left_root_transfer_tournament/artifacts/GDT786_14_PRACTICAL_PASSAGES.tsv",
+      "role": "fourteen focused context displays",
+      "sha256": "5fc7a3b1f53be933eaa3d5f957ae63f5b2dd7d541c50b956ac4b9b1b93cbfc64"
+    },
+    {
+      "path": "experiments/yolo/gdt786_sal_left_root_transfer_tournament/artifacts/GDT786_4_HISTORICAL_COMPARATORS.tsv",
+      "role": "period architecture comparators with zero identity credit",
+      "sha256": "59ef40ece6a6da68646713a881b8fa938982057fde2a90ea9ec37074259b0146"
+    },
+    {
+      "path": "experiments/yolo/gdt786_sal_left_root_transfer_tournament/artifacts/GDT786_1_CHORCHOLSAL_CORRECTION.tsv",
+      "role": "unchanged whole display and corrected internal-sal provenance",
+      "sha256": "700045a3e361433dec020dd139c2a5d313ac93de898ebc76ff2a1587f7cd87e7"
+    },
+    {
+      "path": "experiments/yolo/gdt786_sal_left_root_transfer_tournament/artifacts/README.md",
+      "role": "artifact inventory and scope guide",
+      "sha256": "567a8fcf5a6abf09deb9279fa56c26fee2ab89d5274f67920b91180c53464c93"
+    },
+    {
+      "path": "experiments/yolo/gdt786_sal_left_root_transfer_tournament/artifacts/RESULT.json",
+      "role": "machine-readable transfer, boundary and adjudication result",
+      "sha256": "df728a743d3602e3e5f305a5a50b80f5b5082db81d686cf5e6f6544a23869a1a"
+    },
+    {
+      "path": "experiments/yolo/gdt786_sal_left_root_transfer_tournament/artifacts/VALIDATION.json",
+      "role": "independent 176-check reconstruction and eighteen-file byte replay",
+      "sha256": "21e37bbdfd2c5bbc7dabe3d6ac585d70b7fd43077382f907a5ade272523c84e4"
+    },
+    {
+      "path": "experiments/yolo/gdt786_sal_left_root_transfer_tournament/src/HISTORICAL_ROLE_SPECS.tsv",
+      "role": "four historical architecture specifications",
+      "sha256": "57346bdd04a4b4a66271469935a4776b2f82ee1f3a41af28f1070c22e887089e"
+    },
+    {
+      "path": "experiments/yolo/gdt786_sal_left_root_transfer_tournament/src/MODEL_SPECS.tsv",
+      "role": "eight fixed mechanism specifications",
+      "sha256": "0769995e85a4fc2e8e925291e728d2297d13fcbae1232e51598177f7b0b0938c"
+    },
+    {
+      "path": "experiments/yolo/gdt786_sal_left_root_transfer_tournament/src/PASSAGE_14_SPECS.tsv",
+      "role": "fourteen fixed manual passage decisions",
+      "sha256": "af44b066e02802b422ad86d326f58428dfe24d7749fbf24d0d38fa12e85a1fb1"
+    },
+    {
+      "path": "experiments/yolo/gdt786_sal_left_root_transfer_tournament/src/SOURCE_LOCK.tsv",
+      "role": "eighteen guarded input path/hash locks",
+      "sha256": "18fb4f739225afa790f04e2938f204b538823a41c113464abcf61b459b278c25"
+    },
+    {
+      "path": "experiments/yolo/gdt786_sal_left_root_transfer_tournament/src/TARGET_12_SPECS.tsv",
+      "role": "twelve fixed whole-card specifications",
+      "sha256": "efdf0489847c8b3196b2ca7feb9a144b7c817ea43afaa5b6fb84399bd1f1cf16"
+    },
+    {
+      "path": "experiments/yolo/gdt786_sal_left_root_transfer_tournament/src/geometry.py",
+      "role": "independent guarded Gower, recognition and robustness engine",
+      "sha256": "85ea56f8974f257c56665ad293be68304549e69fc3e4a167a95e6590f06fbf43"
+    },
+    {
+      "path": "experiments/yolo/gdt786_sal_left_root_transfer_tournament/src/qualitative.py",
+      "role": "guarded occurrence, split and Stolfi reconstruction module",
+      "sha256": "1b5a4b3f15243693a346de7af2a36fb9d7f5f921b39539e9233289c02796f146"
+    },
+    {
+      "path": "experiments/yolo/gdt786_sal_left_root_transfer_tournament/src/remainder_evidence.py",
+      "role": "independent remainder provenance module",
+      "sha256": "a11ae913c540a3693498ebab0c5265e506d2edec537f13dab130cd368e09b40f"
+    },
+    {
+      "path": "experiments/yolo/gdt786_sal_left_root_transfer_tournament/src/run.py",
+      "role": "deterministic artifact and report builder",
+      "sha256": "571d52e59e34566c2b31305c1aa2bfcd0d16d01eb5a0a0a9c11e53738a646a32"
+    },
+    {
+      "path": "experiments/yolo/gdt786_sal_left_root_transfer_tournament/src/validate.py",
+      "role": "independent source, invariant, ceiling and replay validator",
+      "sha256": "f435957caa17d4b0e8855aca1302717b3fdac6b054012f72050ec4ad1c047199"
+    }
+  ],
+  "question": "Do the twelve observed complete sal-initial words share a productive nominal drug/material root that predicts their target-masked outside geometry better than learned-whole and type-balanced same-remainder controls?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "sal_left_root_transfer_tournament",
+  "status": "PARTIAL__12_SAL_PREFIX_WHOLES__14_EXACT_OCCURRENCES__10_PRIMARY_TYPES__ADDITIVE_05551_VS_SAME_X_05591__5_OF10_P0444__SAL_ROOT_TOP1_2_TOP2_5_OF10__CONTROL_ROOTS_TOP1_17_TOP2_27_OF29__SALO_RANK51_SALY_RANK49_OF55__ZERO_EXACT_FORWARD_SPLITS__ZERO_STOLFI_SAL_X_BOUNDARIES__FORMAL_FAMILY_ONLY__12_CONCRETE_WHOLE_DEFAULTS__ZERO_COMPONENT_EXPORT",
+  "title": "sal left root transfer tournament",
+  "updated": "2026-09-04",
+  "validation": {
+    "artifact": "experiments/yolo/gdt786_sal_left_root_transfer_tournament/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}
