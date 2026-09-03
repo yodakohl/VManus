@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **778**
-- Experiment-associated tracked files: **13,691** (1.3 GiB)
-- Structured GDT337+ experiments: **443**
+- Experiments indexed: **779**
+- Experiment-associated tracked files: **13,714** (1.3 GiB)
+- Structured GDT337+ experiments: **444**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT781 | GDT781_ol_remaining_23_exploratory_whole_projection | `PASS__23_EXPLORATORY_EXACT_WHOLES__23_FORMS__23_LOCI__270_CONTEXTUAL__106_FALLBACKS__230_CONSUMED__12_A3__10_A2__1_A0__NO_COMPONENT_EXPORT` | [report](../experiments/yolo/gdt781_ol_remaining_23_exploratory_whole_projection/REPORT.md) | 23 | 672.4 KiB | 9 | STRUCTURED_YOLO |
 | GDT780 | GDT780_ol_two_cardless_whole_bridge | `PASS__2_EXACT_CARDLESS_WHOLES__2_FORMS__2_LOCI__247_CONTEXTUAL__129_FALLBACKS__207_CONSUMED__NO_COMPONENT_EXPORT` | [report](../experiments/yolo/gdt780_ol_two_cardless_whole_bridge/REPORT.md) | 23 | 436.2 KiB | 9 | STRUCTURED_YOLO |
 | GDT779 | GDT779_ol_residual_v99r7_exact_whole_recovery | `PASS__50_EXACT_FALLBACK_WHOLES__44_FORMS__49_LOCI__245_CONTEXTUAL__131_FALLBACKS__205_CONSUMED__6_SANITIZATIONS__NO_COMPONENT_EXPORT` | [report](../experiments/yolo/gdt779_ol_residual_v99r7_exact_whole_recovery/REPORT.md) | 25 | 587.7 KiB | 9 | STRUCTURED_YOLO |
 | GDT778 | GDT778_ol_singleton_exact_whole_promotion | `PASS__39_EXACT_WHOLES__32_FALLBACK_REPLACEMENTS__5_SHARPENINGS__2_CONFIRMATIONS__195_CONTEXTUAL__155_CONSUMED__NO_COMPONENT_EXPORT` | [report](../experiments/yolo/gdt778_ol_singleton_exact_whole_promotion/REPORT.md) | 22 | 498.9 KiB | 11 | STRUCTURED_YOLO |

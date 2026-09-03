@@ -20744,9 +20744,34 @@ component, lexeme, plaintext, number, unit, specific substance, new page,
 image, OCR, transcription, `f84`, or `f84r` is selected.  Primary report:
 `experiments/yolo/gdt780_ol_two_cardless_whole_bridge/REPORT.md`.
 
-Next, project the remaining 23 complete surfaces—not their substrings—against
-the already published clean GDT745 whole pool and their cached exact recurrence
-profiles.  The exploratory deck must give every surface a short replaceable
-default plus two rivals, explicitly separate analogy-only A2/A3 cards from
-target-independent recurrence evidence, and expose conflicts such as
-`cheedaiin` rather than resolving them by fiat.  No new page is needed.
+## GDT781 completes the reader-exact cardless `ol` whole deck
+
+GDT781 gives all 23 remaining reader-exact cardless complete right surfaces one
+concise replaceable whole-span default and two visible rivals.  Reconstructing
+the original GDT745 mechanism from 770 eligible readings/769 complete wholes
+produces 135 selected analogy relations and exactly twelve A3, ten A2 and one
+A0 card.  Later `eees`/`sheeol` cards remain supplements rather than votes in
+that old pool; `chorcholsal` remains raw A0/NONE and receives only the explicitly
+target-local C0 display `getrocknete Stoffzubereitung` at `ol chorcholsal`.
+
+The pure exact-whole selector replaces all 23 intended fallbacks on 23 loci/20
+physical folios.  Contextual output rises 247→270/376, fallback falls 129→106
+and unique right-token consumption rises 207→230 without collision or takeover;
+all other 353 rows remain unchanged.  The remaining 106 rows split into zero
+reader-exact cardless rights, 49 nonexact rights with a V99R7 card, twenty
+nonexact cardless rights and 37 line-final `ol`.  The concrete f88r.22 field
+display is `Trocknung bis zur Mittelstufe, dann Abschluss | Heißansatz, Grad III
+| trocken | trockener Teil | getrocknete Stoffzubereitung`, explicitly not
+plaintext.  Fourteen source locks, 3,407 independent checks, fourteen
+runner-owned outputs including the report, the executable edge intake and a
+separate manual audit pass.
+No component, lexeme, number, unit, substance or plaintext is selected.  Primary
+report: `experiments/yolo/gdt781_ol_remaining_23_exploratory_whole_projection/REPORT.md`.
+
+Next, target-mask all exact occurrences of the six recurrent new forms
+`cheedaiin`, `chedor`, `chockhar`, `keeor`, `shdair` and `sheckhal`, then read
+their target-external complete-whole fields as evidence for the fixed default
+versus its two rivals.  Under the exploratory policy a weak or contradictory
+outside field revises a card; it does not return the form to empty generic prose.
+`chsky` requires alternate-reader alignment, while singleton `chorcholsal`
+requires a different context model.  No new page is needed.
