@@ -20655,13 +20655,48 @@ twelve runner artifacts plus its report, and keeps all 23 relation edges
 ineligible. Primary report:
 `experiments/yolo/gdt777_ol_registered_split_fusion_composer/REPORT.md`.
 
-Next, GDT778 replaces the flawed first-occurrence singleton scout with a true
-form-wide rule. A frozen 29-whole deck matches 41 rows, of which 39 are exact on
-31 page labels/25 physical folios; `keey` G769-T0284 and `dal` G769-T0391 stay
-nonexact. The fixed expectation is 32 fallback replacements, five actual
-semantic sharpenings, two contextual confirmations, coverage 163→195,
-fallback 213→181, and 120→155 unique consumptions after four same-row ownership
-transfers. Twenty-four GDT736/GDT737 body candidates become explicitly new,
-exploratory `EXACT_OL_PLUS_WHOLE_ONLY` promotions rather than inherited bare
-lexemes. `ols=Produktposten` is C0 and source-conflicted; the superseded
-Filtrat/abgeseihte-Zubereitung reading is not restored.
+## GDT778 form-wide exact-whole promotion
+
+GDT778 corrects the first singleton scout before implementation: choosing only
+the first exact occurrence of each form was corpus-order-dependent. Its frozen
+29-complete-whole deck is instead applied to all 376 GDT777 rows by complete
+right surface and reader exactness alone. The deck matches 41 raw rows and
+selects 39 exact `ol + whole` spans on 39 loci, 31 page labels, and 25 physical
+folios. `keey` G769-T0284 and `dal` G769-T0391 are the two nonexact exclusions.
+
+Thirty-two selected rows replace the generic fallback. Five inherited frames
+gain actual content: `ar` becomes `und; Anteil`, two `kain` rows become `und;
+erhitzte Form II`, and two `chy` rows become `Ansatz: trockene Grundform`. Two
+`chol` rows already read `Zustand: trocken` and are correctly counted only as
+confirmations. Thus contextual coverage rises 163→195, fallbacks fall 213→181,
+and the passage artifact contains 37 genuinely changed lines. Four `chol/chy`
+tokens transfer same-row ownership; 35 token IDs are new and total unique
+consumption rises 120→155 without cross-row collision.
+
+The working deck now contains concrete whole-span values including
+`chor=Blütenstand` C0, `dair=abgemessener Anteil II` C2, `ar=Anteil` C2,
+`ain=Wertstufe II` C2, `sheckhy=angefeuchtete Mischung` C0, and
+`otaiin=abgekühlte Zubereitung, Wert III` C0. Twenty-four values are explicitly
+new exploratory `EXACT_OL_PLUS_WHOLE_ONLY` promotions from corrected body
+candidates; none turns the old body or an EVA character into a free word.
+`ols=Produktposten` is a marked C0 source conflict against GDT772 `OLS_NULL`;
+the old Filtrat/Abseih reading remains rejected.
+
+An independent validator passes 37,991 checks, reconstructs all 39 rows, 37
+patches, source cards, frames, and consumption IDs, confirms occurrence-free
+AST selection, and byte-replays eleven runner artifacts plus the report. A
+separate manual audit inspected every atlas, dictionary, patch, provenance, and
+renderer row with no defect. All 39 relation edges remain ineligible; no
+component, lexeme, plaintext, specific substance, new page, image, OCR,
+transcription, `f84`, or `f84r` is selected. Primary report:
+`experiments/yolo/gdt778_ol_singleton_exact_whole_promotion/REPORT.md`.
+
+Next, GDT779 applies a sanitized residual V99R7 complete-whole deck to the 181
+remaining fallbacks. Ninety-nine raw card-bearing rows/76 forms reduce by exact
+right-token gating to 50 spans/44 forms on 49 loci, 33 page labels, and 24
+physical folios. All 50 are genuine replacements, predicting coverage 195→245,
+fallback 181→131, and consumption 155→205. Forty-one forms have global V99R7
+export cards; `daiin`, `kaiiin`, and `chcthy` require new exact-`ol+whole` scope.
+Six legacy patient-bearing defaults are sanitized, and source-composed
+`qockhey` may use only its later corrected complete-whole candidate. Selection
+may not use occurrence ID, page, locus, frequency, neighbours, or substrings.
