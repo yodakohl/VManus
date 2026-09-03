@@ -20178,7 +20178,40 @@ GDT764 opens no page, confirms no lexeme or component, and passes 714 checks
 plus fourteen byte-identical builder outputs. Primary report:
 `experiments/yolo/gdt764_bounded_value_field_dispatch/REPORT.md`.
 
-Next, follow all three exact `ofchy` occurrences and the second `schor daiin`
-field on f22r.4 through already cached whole-family and paragraph parallels.
-The target discriminator is content/preparation class versus another quality
-axis; do not open a page or export a free component value.
+## GDT765 resolves two f22r material fields with concrete working nouns
+
+GDT765 admits three of four raw `ofchy` strings and all three raw `schor`
+strings. All six targets are Herbal. Every exact `ofchy` is medial and opens a
+compatible specification: `ofchy daiin`, `ofchy chs ar`, or
+`ofchy kar or aiin`. Content/preparation therefore outranks quality, unit, and
+action. The portable whole is `benannte Arzneidroge in Grundform`; the bold
+replaceable identity is **Blütenmasse** (31/100), supported only by the three
+frames and the weak scoped `ofchedy = fertig getrocknete Blütenmasse`
+whole-family analogy. No `ofch`, `f`, `ch`, or `y` component receives a value.
+
+`schor` is twice line-initial and once medial; all three positions fit an H2
+item or internal field. The portable whole is `Pflanzenteilposten`; the bold
+identity is **Blütenstand** (39/100), with Samenstand and generic plant part as
+rivals. GDT738's contradicted generic body transfer remains explicit
+counterevidence. The choice uses the complete `chor` whole's five exact
+dry/moist plant-part contacts and 67 enumerated `chor`-like head/value pairs,
+not `s = Samen` or another EVA initialism.
+
+On f22r.4–5, four exact heads carry `daiin`: `ofchy`, `schor`, `ol`, and `dar`.
+Together with the twelve-cache-wide `H-head X daiin` inventory, this selects a
+material/value record over action prose. The bold nine-token f22r.4 working
+line is: “Haupteintrag, Trockenklasse III: drei Einheiten Blütenmasse;
+abgemessene Drogenportion Form III mit dazugehörigem Trockenmaterial;
+Unterposten: drei Einheiten Blütenstand.” Its `cfhy` token is locally a field
+transition: six exact positions are never paragraph-final and never directly
+before `daiin`; inherited “take/wring” prose is removed. `daiin` remains
+portable value III; the amount reading is local and replaceable.
+
+GDT765 opens no page, confirms no lexeme or component, and passes 357 checks
+plus fifteen byte-identical builder outputs. Primary report:
+`experiments/yolo/gdt765_ofchy_schor_content_field_discriminator/REPORT.md`.
+
+Next, test the twelve remaining `ofch*` complete forms as flower-material,
+state, or preparation variants and compare `chor`, `pchor`, `schor`, and
+`lchor` as one plant-part domain with different record roles. Use cached
+material only; a contradictory target context replaces the concrete default.
