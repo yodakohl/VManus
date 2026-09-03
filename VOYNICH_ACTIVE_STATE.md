@@ -20691,12 +20691,37 @@ component, lexeme, plaintext, specific substance, new page, image, OCR,
 transcription, `f84`, or `f84r` is selected. Primary report:
 `experiments/yolo/gdt778_ol_singleton_exact_whole_promotion/REPORT.md`.
 
-Next, GDT779 applies a sanitized residual V99R7 complete-whole deck to the 181
-remaining fallbacks. Ninety-nine raw card-bearing rows/76 forms reduce by exact
-right-token gating to 50 spans/44 forms on 49 loci, 33 page labels, and 24
-physical folios. All 50 are genuine replacements, predicting coverage 195→245,
-fallback 181→131, and consumption 155→205. Forty-one forms have global V99R7
-export cards; `daiin`, `kaiiin`, and `chcthy` require new exact-`ol+whole` scope.
-Six legacy patient-bearing defaults are sanitized, and source-composed
-`qockhey` may use only its later corrected complete-whole candidate. Selection
-may not use occurrence ID, page, locus, frequency, neighbours, or substrings.
+## GDT779 residual V99R7 complete-whole recovery
+
+GDT779 applies a frozen, sanitized 44-complete-whole deck to all matching
+reader-exact GDT778 fallbacks. The full 76-form intake has 99 raw card-bearing
+fallback rows; exactness selects 50 spans/44 forms on 49 loci, 33 page labels,
+and 24 physical folios while retaining 49 nonexact exclusions. All 50 are real
+fallback replacements, raising contextual coverage 195→245, reducing fallback
+181→131, and raising unique right-token consumption 155→205 without collision.
+
+The 179-row precedence shadow contains 99 fallbacks and 80 already contextual
+matches. Its 127 exact rows divide into the 50 new selections and 77 protected
+contextual rows; all protected rows remain unchanged. The final 44-card deck
+contains 32 directly inherited whole cards, six patient-free sanitizations,
+three new exact-`ol+whole` scopes, two composition-derived complete wholes with
+zero component export, and one later GDT755 whole replacement for `qockhey`.
+The old powder/seed/root/wood patients and source-composed `qockhey` prose never
+enter the renderer.
+
+The residual 131 fallbacks are now explicit: 25 reader-exact cardless right
+wholes, 49 nonexact card-bearing rows, 20 nonexact cardless rows, and 37
+line-final positions. Independent validation passes 1,385 checks, reconstructs
+all eleven source locks, protects the full shadow, and byte-replays thirteen
+runner artifacts plus the report; a second independent implementation passes
+196/196 cross-checks and reaches the same selection and replay. The 50 relation
+rows remain acquisition-valid but ineligible. No component, lexeme, plaintext,
+specific substance, new page, image, OCR, transcription, `f84`, or `f84r` is
+selected. Primary report:
+`experiments/yolo/gdt779_ol_residual_v99r7_exact_whole_recovery/REPORT.md`.
+
+Next, test only the two reader-exact cardless complete wholes that already have
+independent whole-form support: `eees=Mengenfeld` and `sheeol=Endzustand`, with
+identity rivals kept visible. The occurrence-free prediction is two spans,
+coverage 245→247, fallback 131→129, and consumption 205→207. The other 23 exact
+cardless forms stay unresolved rather than inheriting edit-neighbour meanings.
