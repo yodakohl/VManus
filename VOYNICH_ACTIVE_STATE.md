@@ -20215,3 +20215,43 @@ Next, test the twelve remaining `ofch*` complete forms as flower-material,
 state, or preparation variants and compare `chor`, `pchor`, `schor`, and
 `lchor` as one plant-part domain with different record roles. Use cached
 material only; a contradictory target context replaces the concrete default.
+
+## GDT766 expands the nominal class and splits the four `chor` whole roles
+
+GDT766 admits 43 reader-exact occurrences of 25 complete words containing the
+formal sequence `ofch`, including 25 strict-prefix occurrences in thirteen
+forms. The strict prefix has 21 medial, four final and zero first positions.
+Among the 22 non-`ofchy` targets, 17/22 are on paragraph-start lines versus a
+26.3923% macro mean across full same-section/same-frequency control pools, but
+0/22 are line-first versus 19.2546% in controls. This selects an early nominal
+drug/preparation class over a command class. The concrete flower-drug analogy
+remains C0 and applies only to the 25 observed complete words; no free `ofch`
+root or unseen-form rule survives the adversarial audit.
+
+The exact `chor|pchor|schor|lchor` census has 191 occurrences on 99 pages and
+183 loci. `chor` is medial 161/176 times and has 41 exact immediate state/value
+contacts. `pchor` is line-first 7/10 and a true paragraph opener 6/10, versus
+10/176 and 0/176 for `chor` (two-sided Fisher p=1.47e-6 and 3.96e-9). The live
+architecture is therefore role-switched learned wholes: `chor` content head
+with **Blütenstand** as C1 lead; `pchor` **nimm** only at its six true openings
+and entry marker elsewhere; `schor` subentry with **Blütenstandsposten**; and
+weak `lchor` internal field with **Blütenzubereitung**. Visible initial letters
+receive no meanings.
+
+Five full cached lines now expose a local default for every one of 46 exact
+tokens. The final adversarial edit retains weak concrete guesses as explicit
+`möglicherweise` values or rivals but removes unearned attachment words and
+actions. In particular, `qofchedy` is again nominal rather than the composed
+instruction “take, dry, finish,” and `lchor=wood` remains retired. Four
+same-line `ofch`/reproductive contacts have a valid GDT388 acquisition packet
+but zero eligible edges and are not score-ready. GDT766 opens no page and
+passes 5,294 checks plus byte-identical replay of 22 outputs. Primary report:
+`experiments/yolo/gdt766_ofch_chor_role_switch_prediction/REPORT.md`.
+
+Next, hold the complete-word roles stable and attack the concrete identity
+problem directly. Compare the strongest observed nominal wholes against
+independently recurring state, amount, plant-part and preparation co-fields,
+then align those slot bundles with the cached circa-1400 lexicon/register bank.
+Preserve a concrete default for every tested whole, but replace it when another
+substance or operation predicts more exact contexts; do not return to generic
+“work item” prose and do not infer meanings from EVA letter shapes.
