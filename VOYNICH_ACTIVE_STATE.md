@@ -20951,3 +20951,41 @@ Next, invert the transfer question: test the strongest independently supported
 remainder wholes, beginning with `keedy` and then `dal`, `ar` and `ol`, across
 multiple left families.  Require a stable form-level change before using any
 remainder composition, but retain concrete complete-whole defaults throughout.
+
+## GDT787 `keedy` remainder cross-family transfer
+
+GDT787 executes that reversal over the complete admitted cache.  It finds 601
+raw `*keedy` tokens in 38 complete surfaces and 370 reader-exact tokens in 27
+surfaces.  Bare plus nine prefixes fill all 50 cells of a 10-by-5
+`ky/key/keey/kedy/keedy` lattice (2,208 raw and 1,664 exact tokens), establishing
+the written family but not a shared meaning.  In a target-masked tournament,
+the additive estimate `Xkeey + Xkedy - Xkey` beats standalone `X` for 5/9
+prefixes, the form-selected learned-whole null for 4/9, and both for only 3/9;
+macro similarities are .677608, .701133 and .675193 respectively.
+
+The cleaned semantic-axis audit does not rescue general composition.  HOT is
+mixed.  END is the best weak lead: at R1, six of nine prefix comparisons are
+informative, five positive and one negative, with three NA and exact sign-flip
+`p=.09375`; at R3 it remains mixed.  CLOSE is nearly untestable (2/16
+informative at R1; 3/16 at R3) and is rejected.  Twenty reader-exact separated
+`X keedy` spans, five families observed both fused and split, and one Stolfi
+`sol,keedy` reading establish occasional boundary mobility but give no semantic
+vote.  Alternate readers remain readings of one manuscript, never witnesses.
+
+Decision: retain the C1 formal family and treat `keedy=heißer Endzustand` plus
+older HOT+END readings only as provenance-bound learned complete-whole cards.
+Automatic CLOSED and every substring export are rejected.  All 38 observed
+forms now have a nonempty replaceable C0 display, two concrete semantic rivals,
+separate mechanism alternatives where needed, evidence, counterevidence and an
+editorial confidence weight.  Their shared HOT+END language is one explicit
+nonexporting display prior, not 38 discoveries.  Zero new renderer licences are
+created.  The 20-edge packet passes acquisition/provenance validation, while
+capacity, holdout and mobile-null gates remain unmet; it is not score-ready.
+Validation passes 223 checks and byte-replays all 23
+builder outputs without opening a new page, image, OCR or transcription and
+without f84/f84r access.
+
+Next, reuse the same target-masked cross-family protocol for `dal`; only then
+continue to `ar` and `ol`.  Preserve complete-whole defaults and demand a stable
+form-level shift before exporting any remainder meaning.  Primary report:
+`experiments/yolo/gdt787_keedy_remainder_cross_family_transfer/REPORT.md`.
