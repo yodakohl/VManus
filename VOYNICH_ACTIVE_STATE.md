@@ -20601,11 +20601,37 @@ plaintext clause, component value, new page, image, OCR, `f84`, or `f84r` is
 selected. Primary report:
 `experiments/yolo/gdt775_ol_right_complement_slot_test/REPORT.md`.
 
-Next, GDT776 should compare the 183 medial novel `ol` edges with the already
-located complete H4 and H3 internal-field forms, matching
-section/language/hand and predecessor ordinal, and report pooled,
-surface-equalized, body-paired, and `lo...`-ablated views. H4 is structural
-internal-field evidence, not semantic operator gold. The 33 recurrent right
-words may be ranked in parallel only as heuristic throughput before assigning
-new concrete whole-word candidates. A second patient-final `ckhy` page and a
-second complete `ols`-value line remain future acquisition targets.
+## GDT776 medial `ol` record-field bridge
+
+GDT776 compares the fixed 183 medial novel `ol` edges with 102 H3 and 350 H4
+reader-exact controls. H4 leads pooled (0.537863 versus 0.376871), after
+predecessor-surface equalization (0.417966 versus 0.344710), and over 23 common
+register×ordinal strata (0.352534 versus 0.205856). That lead is deliberately
+only structural: equal weighting of eighteen shared bodies reverses to H3
+(0.304845 versus 0.245539), while the strict nine-body/thirteen-cell capacity
+view leaves only a small non-separating H4 lead. The live interpretation is an
+H4-leaning **internal/late record-field bridge**, not an H4 identity or an
+`ol=FIELD_OPERATOR` lexeme.
+
+Twenty-five recurrent complete right wholes cover 89 of the 183 target edges.
+Their fixed deck raises contextual renderer output from 123 to 149/376: seven
+non-consuming `ol ol` chains plus nineteen new consuming spans, for 93 unique
+right-token consumptions including the inherited layer. Every visible default
+is now one short reading rather than slash-separated prose; evidence and rivals
+remain separate. All 26 additions are C0/C1 and fourteen are structural, so
+the gain is a sharper span grammar rather than 26 decoded content words.
+GDT759 is binding counterevidence against a universal `s=SUBENTRY`: before
+value wholes `s` is an amount/unit head, while elsewhere both readings remain
+live. GDT776 passes 76,045 independent checks, byte-replays fifteen runner
+artifacts plus the report, and keeps all 635 relation rows ineligible. Primary
+report: `experiments/yolo/gdt776_ol_h4_h3_medial_register_bridge/REPORT.md`.
+
+Next, GDT777 should compose the four exact split fields `ol r aiin`, `ol r ain`,
+`ol s chey`, and `ol s al` against registered complete forms
+`raiin/rain/schey/sal`, then cover the thirteen exact registered singleton
+right forms. This fixed 24-span route is expected to sharpen ten existing
+outputs and replace fourteen fallbacks, taking contextual coverage 149→163.
+Split and fused forms may share a content body without becoming identical
+spellings, and no free `r`, `s`, `p`, or `l` meaning is exported. The 68 older
+GDT734 singleton cards become the following, broader cleanup only after their
+retired Drogenholz/Wurzel/Pulver/Samen patients are removed.
