@@ -20147,9 +20147,38 @@ GDT763 opens no page and passes 2,364 checks plus byte-identical replay.
 Primary report:
 `experiments/yolo/gdt763_h1_content_vs_record_discriminator/REPORT.md`.
 
-Next, keep the same cache and follow the five exact `H1 X daiin` triples and
-the four repeated `ol` amount orders into their bounded local fields. The aim
-is to decide whether the intervening `X` slot separates quality, material and
-preparation subtypes and thereby narrows `daiin` from generic value III toward
-degree, amount or another indexed field. Do not open a new page or infer a
-free component value.
+## GDT764 bounds the value frames and separates selected from open axes
+
+GDT764 follows the six complete X wholes through 254 current reader-exact
+occurrences and isolates nine exact `X daiin` pairs, including all five H1
+targets. They share one working grammar: `RECORD := H1 FIELD+`,
+`FIELD := X daiin`; H1 supplies the record scope, the complete X whole bounds
+or selects the local axis, and `daiin` supplies value III without acquiring a global
+number or word meaning. All five targets are on paragraph-start lines and none
+is paragraph-final; three have a second parallel `Y daiin` cell.
+
+Only `qoty` now strongly selects an axis: `pcheey qoty daiin` is “dry Form II:
+cold grade III.” `oteody` retains a weak C1 result-stage choice. For `dal`,
+GDT711's later `UNSUPPORTED_QUANTITY_HEAD_REMOVAL` remains binding, so the
+portable field is “raw material I, measured; value III,” with three measures
+only as C1. f105v.5 has exact `qopchdy daiin | chedy daiin` field parallelism;
+this securely removes the foreign “take/powder” reading and selects nominal
+syntax, but it does not choose result/stage over amount. `qopchdy` and `ofchy`
+therefore keep open axes.
+
+The four recurrent `ol` amount orders have fifteen raw but twelve reader-exact
+positions. Local position and competitor rules dispatch these as eight heads,
+one process patient, two context/second fields and one bilateral ambiguity.
+Only `ol s aiin` has a strong independent preferred-position association
+(lift 31.11; descriptive Fisher p=.000568). Its strongest portable rendering
+is `Ansatz/Zubereitung, Menge III; Prozess-/Abschlussfeld`; “three Drachmen;
+abseihen” remains aggressive C1, and `ol=oil` remains an unselected whole rival.
+
+GDT764 opens no page, confirms no lexeme or component, and passes 714 checks
+plus fourteen byte-identical builder outputs. Primary report:
+`experiments/yolo/gdt764_bounded_value_field_dispatch/REPORT.md`.
+
+Next, follow all three exact `ofchy` occurrences and the second `schor daiin`
+field on f22r.4 through already cached whole-family and paragraph parallels.
+The target discriminator is content/preparation class versus another quality
+axis; do not open a page or export a free component value.
