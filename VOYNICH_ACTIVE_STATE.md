@@ -20626,12 +20626,42 @@ live. GDT776 passes 76,045 independent checks, byte-replays fifteen runner
 artifacts plus the report, and keeps all 635 relation rows ineligible. Primary
 report: `experiments/yolo/gdt776_ol_h4_h3_medial_register_bridge/REPORT.md`.
 
-Next, GDT777 should compose the four exact split fields `ol r aiin`, `ol r ain`,
-`ol s chey`, and `ol s al` against registered complete forms
-`raiin/rain/schey/sal`, then cover the thirteen exact registered singleton
-right forms. This fixed 24-span route is expected to sharpen ten existing
-outputs and replace fourteen fallbacks, taking contextual coverage 149→163.
-Split and fused forms may share a content body without becoming identical
-spellings, and no free `r`, `s`, `p`, or `l` meaning is exported. The 68 older
-GDT734 singleton cards become the following, broader cleanup only after their
-retired Drogenholz/Wurzel/Pulver/Samen patients are removed.
+## GDT777 registered whole and split-field composer
+
+GDT777 applies one occurrence-ID-free surface rule to the fixed 376-position
+renderer. It finds sixteen reader-exact `ol + registered whole` spans and seven
+reader-exact `ol + opaque head + body` spans: `r aiin`, `r ain`, `s chey`, and
+four `s aiin`. The 23 spans represent seventeen registered forms, replace
+fourteen fallbacks, sharpen nine existing outputs, and raise contextual
+coverage from 149 to 163. Their 30 new span-token uses combine with the
+inherited layer into 120 unique right-token consumptions.
+
+Each output has one short working default plus separate rivals and evidence.
+Examples are `Binnenfeld: Trockenansatz`, `Binnenfeld: trockene Form I`,
+`Bezugsfeld: Wert III`, `Bezugsfeld: Feuchtresultat II`, and, at four exact
+split positions, `Menge: drei Drachmen`. The latter keeps `drei gleiche Teile`
+and `drei Unzen` as rivals. Only `s aiin/saiin` has four normalized
+alternate-reader boundary bridges; the other split/fused pairs are distinct
+surface constructions sharing a registered body, not identical spellings.
+
+The original 24-span estimate is visibly corrected: f80r.51 `s al` fails
+successor exactness. Globally `sal` has 33 exact fused occurrences, whereas
+`s al` has zero reader-exact pairs among five raw pairs. Five nonexact complete
+right wholes and one additional nonexact `s aiin` also remain excluded. No
+meaning is exported for `p`, `s`, `r`, `l`, or another substring. GDT777 passes
+2,531 independent checks, reconstructs all three profile cosines, binds every
+selected renderer row back to branch/form/default/consumed IDs, byte-replays
+twelve runner artifacts plus its report, and keeps all 23 relation edges
+ineligible. Primary report:
+`experiments/yolo/gdt777_ol_registered_split_fusion_composer/REPORT.md`.
+
+Next, GDT778 replaces the flawed first-occurrence singleton scout with a true
+form-wide rule. A frozen 29-whole deck matches 41 rows, of which 39 are exact on
+31 page labels/25 physical folios; `keey` G769-T0284 and `dal` G769-T0391 stay
+nonexact. The fixed expectation is 32 fallback replacements, five actual
+semantic sharpenings, two contextual confirmations, coverage 163→195,
+fallback 213→181, and 120→155 unique consumptions after four same-row ownership
+transfers. Twenty-four GDT736/GDT737 body candidates become explicitly new,
+exploratory `EXACT_OL_PLUS_WHOLE_ONLY` promotions rather than inherited bare
+lexemes. `ols=Produktposten` is C0 and source-conflicted; the superseded
+Filtrat/abgeseihte-Zubereitung reading is not restored.
