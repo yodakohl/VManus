@@ -20572,9 +20572,40 @@ lexeme, plaintext, component, new page, image, OCR, transcription, `f84` or
 `f84r` is selected. Primary report:
 `experiments/yolo/gdt774_ol_376_contextual_transfer/REPORT.md`.
 
-Next, partition the 327 automatic nominal fallbacks by register-conditioned
-exact right-follower classes. The useful discriminator is whether recurrent
-complete-whole complements predict a content-field head or an operator without
-casewise tuning. Unsupported subclasses retain the nominal fallback; a second
-patient-final `ckhy` page and a second complete `ols`-value line remain future
-acquisition targets.
+## GDT775 complete-right-word `ol` renderer
+
+GDT775 partitions the 327 GDT774 automatic fallbacks without opening new
+pages. Sixty-six clean reader-exact `ol X` positions receive a fixed
+thirteen-family complete-whole phrase (57 primary-card and nine marked family
+extension positions); a separate throughput layer adds eight two-folio
+whole-word leads. Automatic concrete coverage therefore rises from 49 to
+123/376 and leaves 253 generic fallbacks. Family, throughput, and hybrid layers
+carry separate consumption flags; all 74 throughput spans bind one unique
+right-token identifier. `daiin=Wert III` at five positions and `dain=Wert II`
+at two remain visible C0 scope extrapolations.
+
+The predecessor comparison does not resolve the meaning of `ol`. Its
+`NOMINAL_HEAD` label is an authored mixture of content/record heads, one
+measured-field control, and two headings, not an upstream gold class. Targets
+and that mixture are mainly medial while the first operator deck is mainly
+line-initial. Only 33/66 selected family tokens have an individual head-mix
+Tier-A lead, 28 are uninformative, and five `kaiin` tokens lean operator-like.
+Dropping `daiin` flips the equalized core comparison; dropping the fixed
+thirteen-family flips both nested decks. All three alternate-reader fusion
+variants have nonexact right tokens and lie outside the selected spans; the
+fourteen selected boundary-audit cases remain separated in all three readings.
+The 572-row relation packet is valid acquisition but has zero eligible edges
+and is not score-ready. GDT775 passes 27,356 independent checks and byte-replays
+all twenty runner artifacts plus its report. No specific substance, lexeme,
+plaintext clause, component value, new page, image, OCR, `f84`, or `f84r` is
+selected. Primary report:
+`experiments/yolo/gdt775_ol_right_complement_slot_test/REPORT.md`.
+
+Next, GDT776 should compare the 183 medial novel `ol` edges with the already
+located complete H4 and H3 internal-field forms, matching
+section/language/hand and predecessor ordinal, and report pooled,
+surface-equalized, body-paired, and `lo...`-ablated views. H4 is structural
+internal-field evidence, not semantic operator gold. The 33 recurrent right
+words may be ranked in parallel only as heuristic throughput before assigning
+new concrete whole-word candidates. A second patient-final `ckhy` page and a
+second complete `ols`-value line remain future acquisition targets.
