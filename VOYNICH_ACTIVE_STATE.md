@@ -20255,3 +20255,38 @@ then align those slot bundles with the cached circa-1400 lexicon/register bank.
 Preserve a concrete default for every tested whole, but replace it when another
 substance or operation predicts more exact contexts; do not return to generic
 “work item” prose and do not infer meanings from EVA letter shapes.
+
+## GDT767 separates whole-form classes but leaves OFCH substance identity open
+
+GDT767 enumerates 28 complete target words at 224 reader-exact positions: 25
+OFCH-containing forms at 43 positions, `chor` at 176, `schor` at three and
+`lchor` at two. Its donor gate excludes all targets, `pchor`, and all 172
+GDT754 source-composed wholes, for 200 blocked surfaces. Every surviving donor
+is rebound to an exact, clean cache position. Across OFCH, target-free contexts
+support state/form ecology—DRY 4/10/14, MOIST 3/6/13, STAGE 8/21/29,
+VALUE/AMOUNT 5/9/11 and PREPARATION 0/6/8 at D1/R3/line—but exact `cthy` and
+usable exact `chor` anchors are both 0/0/0. The selected whole-form layer has
+five raw-drug, five dry-drug, four preparation and fourteen open-form entries.
+
+The historical tournament contains eight substance and ten form cards from
+six real circa-1400/15th-century pharmaceutical witnesses. It distinguishes
+broad form classes but not flower, seed, root, wood/bark, resin/gum, salt, oil,
+water, wine or vinegar. Exact `chor` and `cthy` occur in parallel at fifteen
+`chor` positions on fourteen loci, with five direct pairs in both orders. This
+supports different plant-part heads; `cthy=Blattgut` remains inherited and
+`chor=Blütenstand` remains a bold C0 default with seed/fruit as its strongest
+rival. Because no independent liquid/extract signal appears, `ofcheol` and
+`qofcheol` are narrowed from **Blütenauszug** to **Blütenzubereitung**.
+
+All 28 words retain nonempty concrete but replaceable defaults; no target is
+rendered as generic “work item.” Five full lines preserve all 46 token defaults
+in written order. GDT767 confirms zero lexemes, substances, plaintext clauses
+or components, opens no page or image, and passes 41,469 checks plus
+byte-identical replay of all eleven builder outputs. Primary report:
+`experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/REPORT.md`.
+
+Next, keep these form classes fixed and search the admitted cache for nominal
+complete words whose independent record frames discriminate concrete
+substances and plant parts. The highest-value targets are leaf versus
+reproductive material, root/bark/wood, resin/gum, powder and solvent classes;
+wet/dry context alone cannot name a substance.
