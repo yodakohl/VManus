@@ -20290,3 +20290,41 @@ complete words whose independent record frames discriminate concrete
 substances and plant parts. The highest-value targets are leaf versus
 reproductive material, root/bark/wood, resin/gum, powder and solvent classes;
 wet/dry context alone cannot name a substance.
+
+## GDT768 selects a parallel `chor`/`shor` part register but not its direction
+
+GDT768 follows the six complete words `chor`, `shor`, `cthy`, `dair`,
+`kooiin`, and `koaiin` through 404 reader-exact occurrences on 135 admitted
+cache pages and 350 loci. Thirty-three lines on 26 pages contain at least two
+distinct anchors. The GDT754 provenance gate blocks all 172 source-composed
+surfaces before feature extraction, including 54 target-context exposures.
+Per-target complete-form edit-family ablation is a contamination control only
+and exports no substring meaning.
+
+The raw D1 DRY/MOIST contrast is not portable: `chor` changes 45/9 at ED0 to
+12/7 at ED2, while `shor` reverses from 8/12 to 7/2. In the explicit state
+whole deck, `chor` retains two `qokchol` donors at ED2 but `shor` retains no
+expected moist donor, so the global same-part dry/moist persistence score is
+zero. Nevertheless the target-excluding 12D `chor`/`shor` cofield cosines stay
+very high at ED2 (.966 D1, .984 R3, .991 line), and they share eight exact
+lines, three direct pairs, and similar position and section geometry.
+
+The best live relation is therefore two parallel nominal plant-part or content
+wholes in one technical register. The two directional models tie at .820437:
+`chor=flower, shor=seed/fruit` and its reverse. Neither satisfies its
+directional replacement rule. The working display keeps
+**`chor=Blütenstand`**, **`shor=Fruchtstand`**, **`cthy=Blattgut`**,
+**`dair=Anteil II`**, and weak rootstock defaults for `kooiin/koaiin`, all
+explicitly replaceable. Twelve complete reader-exact lines now carry concrete
+defaults, evidence and rivals for all 94 tokens, without generic work-item
+prose or free `r/s/l/o/ol` values. GDT768 passes 53,504 checks and byte-replays
+all twelve builder outputs. Primary report:
+`experiments/yolo/gdt768_chor_shor_part_identity_tournament/REPORT.md`.
+
+Next, GDT769 holds that nominal-part result fixed and separates the exact
+wholes `ol`, `ckhy`, `pcheey`, `ols`, and `otar` first by role—preparation or
+substance, process, product, or bounded record field—and only then compares
+water, wine, oil, vinegar, powder, soaking/maceration, and straining/filtration
+defaults. `oly` is the process/final-position control. No new page or image is
+needed; a concrete identity must retain a target-free two-axis signature on a
+second page after its strongest supporting locus is removed.
