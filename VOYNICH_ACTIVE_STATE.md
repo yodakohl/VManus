@@ -20508,9 +20508,42 @@ runner artifacts in 304 checks. No new page, image, OCR, transcription, `f84`
 or `f84r` is used. Primary report:
 `experiments/yolo/gdt772_expanded_ol_branch_masked_rescore/REPORT.md`.
 
-Next, GDT773 should reuse the same fifteen `ol` occurrences and no new pages.
-It must separate partitive `von`, directional `aus`, quantifiable nominal
-head, field separator/sequence and measure/unit complement into explicit
-rivals with equal local binding capacity. A second patient-final `ckhy` page
-and a second complete `ols`-value line remain future acquisition targets, not
-requirements for this repaired `ol` comparison.
+## GDT773 capacity-equalized `ol` composition audit
+
+GDT773 reuses the same fifteen `ol` occurrences on eleven lines and ten
+physical folios. All five pure readings receive the same left, right and bridge
+capacity at every case and in every folio holdout. The resulting topology
+inventory is AC7, CA2, CC2 and one each of C0, A0, 0A and AA. The invariant
+quantifiable nominal head scores 6, partitive `von` 10, field/sequence 13,
+measure/unit 15 and directional `aus` 24. The four-point nominal-over-`von`
+margin comes entirely from the two old reverse CA cases; all seven focal AC
+cases contribute zero delta. The nominal fallback remains uniquely first in
+all ten whole-folio holdouts, with minimum margin two.
+
+The practical result is deliberately contextual rather than one fixed German
+word. An explicit record-field operator renders five amount/value-to-content
+cases as `Ansatz:`, two content-to-amount cases as `Menge:`, and eight remaining
+cases as `:`, `;`, `und` or `und dann`. Its adjusted workshop cost is 2 versus
+6 for the best pure reader. Two manual readers agree on only six of fifteen
+primary functions, all field/sequence cases, and choose `aus` zero times. The
+stable single-word fallback is therefore `Ansatz-/Zubereitungsposten`, while
+the running reader uses the 5/2/8 contextual dispatch. Both remain C1
+structural-composition/C0 lexeme defaults.
+
+The mechanical eleven-line display accounts for 93 tokens as 91 practical
+units. A separate non-scoring register view preserves all fifteen `ol`
+directions but exposes the inherited prose debt: among 78 non-`ol` tokens, 33
+have no structural role, 29 are display-only untyped defaults and three are
+not reader-exact. Thus the new `ol` punctuation improves the lines, but the
+surrounding old literal prose is not validated by this experiment. GDT773
+passes 6,507 independent checks and byte-replays all twenty runner outputs plus
+the report. No specific substance, liquid, unit, lexeme, plaintext, component,
+new page, image, OCR, transcription, `f84` or `f84r` is selected.
+
+Next, GDT774 should transfer the explicit `ol` dispatch to all 376 already
+cached reader-exact occurrences without casewise tuning. Strong local
+amount/content and process/field signals should receive the contextual output;
+unsupported contexts must retain the nominal fallback rather than being
+silently called punctuation. A second patient-final `ckhy` page and a second
+complete `ols`-value line remain future acquisition targets, not requirements
+for this broad `ol` transfer.
