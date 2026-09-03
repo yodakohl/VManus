@@ -20768,10 +20768,44 @@ separate manual audit pass.
 No component, lexeme, number, unit, substance or plaintext is selected.  Primary
 report: `experiments/yolo/gdt781_ol_remaining_23_exploratory_whole_projection/REPORT.md`.
 
-Next, target-mask all exact occurrences of the six recurrent new forms
-`cheedaiin`, `chedor`, `chockhar`, `keeor`, `shdair` and `sheckhal`, then read
-their target-external complete-whole fields as evidence for the fixed default
-versus its two rivals.  Under the exploratory policy a weak or contradictory
-outside field revises a card; it does not return the form to empty generic prose.
-`chsky` requires alternate-reader alignment, while singleton `chorcholsal`
-requires a different context model.  No new page is needed.
+## GDT782 recurrent-six target-external field adjudication
+
+GDT782 reconstructs twenty cached occurrences of `cheedaiin`, `chedor`,
+`chockhar`, `keeor`, `shdair` and `sheckhal`: fourteen are reader-exact, split
+into six masked GDT781 targets and eight outside fields, while six nonexact
+rows never vote.  The 65 full-line neighbor cells contain 38 radius-three
+cells and seventeen clean radius-three donors.  There is no target leakage;
+one cross-cohort analogy source votes inside the radius and a second remains
+visible only at distance four.
+
+Five complete-whole cards change and one remains: `cheedaiin=Trockenmenge,
+Endstufe`, `chedor=getrockneter Arzneistoff`, `chockhar=erhitzter Ansatz`,
+`keeor=getrockneter Arzneistoff`, `shdair=Arzneistoff`, and
+`sheckhal=trockene Arzneimischung`.  These are deliberately aggressive but
+replaceable working defaults.  MIDDLE versus END for `cheedaiin` is tied 2:2;
+`keeor` transfers DRY from one field at C0 without pretending that DRY excludes
+HOT; `sheckhal` has one clean R2 dry donor; and `shdair` retains a moist-portion
+dissent.  The most useful field repair is `or aiin | chedor` = working
+`Menge: drei Portionen | Stoff: getrockneter Arzneistoff`, avoiding a doubled
+Portion.
+
+The outside lines are aggregate card audits, not new renderer licences.
+GDT754 blocks the obsolete source-built `okeol` prose at distance five and
+GDT768 restores the current `cthy=Blattgut` display.  The six original target
+spans remain consumed once; the renderer stays 270/376 contextual, 106
+fallback and 230 consumed, with five display changes and 370 untouched rows.
+Independent validation passes 37,731 checks and byte-replays seventeen files.
+No lexeme, plaintext, component, number, unit or substance is selected.
+Primary report:
+`experiments/yolo/gdt782_recurrent_six_target_external_field_adjudication/REPORT.md`.
+
+Next, audit `chsky` with an explicitly variant-aware whole-form route.  Mask
+the sole three-reader-exact target at f86v5.15 and compare the two admitted
+two-of-three outside readings: f25r.2 has ZL3b/RF1b `chsky` versus IT2a
+`chrky`, and f103r.37 has ZL3b/IT2a `chsky` versus RF1b `chsty`.  GDT678 is a
+bulk completion with other boundary repairs, so this route uses the genuinely
+different falsifier of two fixed external majority forms plus target-excluding
+complete-whole fields.  It may revise HOT|DRY but may not treat the three
+readers as independent witnesses or export `s/r/t` components.  Singleton
+`chorcholsal` remains for a separate construction route.  No new page is
+needed.
