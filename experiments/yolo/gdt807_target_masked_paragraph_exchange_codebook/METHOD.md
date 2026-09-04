@@ -60,16 +60,25 @@ decision at zero.  A paragraph, never an occurrence, is one vote.
 
 For each primary pair and view, whole target-membership sets are cyclically
 rotated by offsets 1 through 12 inside deterministic
-`section × language × hand × post-mask-length-bin` strata.  The remainders do
-not move.  This preserves target prevalence, multi-target correlation,
-register, and approximate length while breaking the proposed target-to-
-remainder link.
+`section × language × hand × post-mask-length-bin` strata.  The length bin is
+`floor(log2(retained_token_count))`.  Within a stratum of size `n`, offset `k`
+means rotation by `k mod n`; singleton and divisor-aligned strata therefore
+remain unchanged, no replacement permutation is invented, and tied nulls
+count against the target.  The remainders do not move.  This preserves target
+prevalence, multi-target correlation, register, and approximate length while
+breaking the proposed target-to-remainder link wherever the stratum permits.
 
-The GDT806 K12 membership lists supply 24 deterministic pseudo-pairs per target
-pair.  The first twelve compare equal control ranks; the next twelve compare
-rank `r` with the next distinct cyclic rank.  Every pseudo-pair uses the same
-strict paragraph builder, mask, model, and folio folds.  Ties count against the
-target when ranks are reported.
+The full `PRIMARY_K12` lists in GDT804's
+`GDT804_NEAREST_CONTROL_POOLS.tsv` supply 24 deterministic pseudo-pairs per
+target pair.  (GDT806's exported subset lacks the required `qotal` list.)  For
+direct pair `A/B`, the first twelve compare `A_r/B_r`; the next twelve compare
+`A_r/B_(r+1 mod 12)`.  If the two selected control surfaces are identical, the
+negative rank advances cyclically until the first distinct surface.  Every
+pseudo-pair uses the same strict paragraph builder, model, and folio folds.
+Its line mask is the common seven-target set plus both pseudo-pair control
+surfaces; its feature quarantine likewise adds both control wholes.  Thus the
+classifier cannot see the surfaces that define its pseudo-label.  Ties count
+against the target when ranks are reported.
 
 ## Secondary overlays
 

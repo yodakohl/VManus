@@ -74,7 +74,14 @@ view is primary.  Unique forced-LCS reader identity is reported as an audit.
 
 The official model, vocabulary threshold, alpha, folio grouping, score,
 cyclic offsets, matched strata, K24 construction, result gates, and landmark
-rule are fully specified in `METHOD.md`.  Any implementation correction must
+rule are fully specified in `METHOD.md`.  Before scoring, two operational
+details were closed explicitly: length bins use
+`floor(log2(retained_token_count))`, and the K24 deck uses GDT804's full
+`PRIMARY_K12` registry because GDT806's six-target export omits `qotal`.
+Each K24 pseudo-pair additionally removes every line containing either of its
+two control surfaces and quarantines both surfaces from features; otherwise
+the model would be allowed to read its own pseudo-label.
+Any implementation correction must
 be documented before interpreting changed results and must not choose a new
 pair, direction, threshold, or candidate meaning from the observed score.
 
