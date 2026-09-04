@@ -21632,3 +21632,41 @@ outcome-blind rarity controls before any descriptive/prescriptive field
 alignment. GDT802 passes 20,828 checks and two byte-identical replays. Primary
 report:
 `experiments/yolo/gdt802_masked_lm_neighbour_context_transfer/REPORT.md`.
+
+## GDT803 recurrent complete-context rarity discriminator
+
+GDT803 takes the fourteen GDT802 side/surface cells that are eligible in all
+25 crossed folds, retain one coefficient sign and have at least twenty
+cache-rest events.  It compacts four complete left contexts
+`qokeey/qokedy/qokeedy/qokain` (149 events, 11 `m`) and three complete right
+contexts `daiin/shedy/chedy` (301 events, two `m`).  Their held-folio
+position-plus-stem residuals are -.08944 and -.04246; exposure-only matched
+control groups point positive.
+
+The important new object is a pooled but exact three-token construction.  The
+two groups intersect at twelve exact passages on eleven physical folios with
+eleven different middle target stems, and every middle surface ends in `l`.
+The matched control intersection has four events/one `m`.  Crossing all 1,595
+left and 120 right ten-nearest exposure sets yields 191,400 controls; none
+matches the candidate simultaneously on event count, all-`l` purity, stem
+breadth and folio breadth.  Because the seven identities were compacted after
+GDT802 outcomes were visible, this is an exploratory rank rather than an
+independent p-value.
+
+A separately specified hard held-stem-and-folio identity-versus-rarity audit
+uses 107 left pairs/28 strata and 48 right pairs/13 strata.  Exact whole
+identity beats outcome-blind rarity on the left by macro AUC .167163
+(`p=.044975` over 200,000 whole-stratum sign flips); the right delta .129274
+remains unresolved (`p=.172709`).  The effect varies by section/language/hand,
+and exact same-folio pair capacity is only three left/four right.
+
+The live working construction is
+`QUALITY_VALUE_BRACKETED_L_SURFACE_WORKING_CONSTRUCTION`: descriptive
+quality/state + lemma/material carrier + grade/state, prescriptive condition
++ ingredient/preparation + result, and an opaque three-field address remain
+explicit rivals.  None of the twelve passages is itself licensed by GDT744,
+no individual neighbour becomes a portable word, and final EVA `l` is not a
+morpheme.  Clothing is not an input or meaning: GDT799 supplied only the old
+discovery trigger.  GDT803 passes 156 checks and two byte-identical replays.
+Primary report:
+`experiments/yolo/gdt803_recurrent_context_rarity_discriminator/REPORT.md`.
