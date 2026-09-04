@@ -20989,3 +20989,51 @@ Next, reuse the same target-masked cross-family protocol for `dal`; only then
 continue to `ar` and `ol`.  Preserve complete-whole defaults and demand a stable
 form-level shift before exporting any remainder meaning.  Primary report:
 `experiments/yolo/gdt787_keedy_remainder_cross_family_transfer/REPORT.md`.
+
+## GDT788 `dal` remainder cross-family transfer
+
+GDT788 inventories all 415 admitted raw `*dal` tokens in 107 complete
+surfaces; 304 tokens in 80 surfaces are reader-exact. Bare `dal` contributes
+147 exact tokens on 58 physical folios. Ten X rows fill a complete 40-cell
+`Xal/Xdal/Xar/Xdar` lattice, with every cell represented at least twice on at
+least two folios. A broader 64-cell lattice remains an inventory sensitivity.
+
+The primary SHIFT profile `Xal + Xdar - Xar` beats Xal in 4/10 rows, a clean
+form-selected learned whole in 5/10, and both in only 2/10. The stronger direct
+CORE profile `Xal + dal - al` reaches 6/10, 7/10 and 4/10. Full macro
+similarities are .717970 SHIFT, .729122 CORE, .709568 Xal and .702580 learned;
+semantic-only comparison is informative in eight rows and gives both transfer
+models only 2/8 wins against both nulls. The transfer decision is therefore
+`FORMAL_FAMILY__WHOLE_ONLY`.
+
+A corrected 996-surface mask excludes every raw `al/dal/ar/dar` ending form,
+all GDT754 provenance forms, GDT737 quarantine forms and the full
+GDT653/654/655/711/764 semantic lineage. It removes contaminated pilot donors
+such as `chtal`, `cheeal` and `chedar`, leaving 32 independent GDT746 controls.
+An independent replay matches all factorial and axis values to 1e-12.
+
+The outside-axis audit does not identify a common content. AMOUNT shares a
+nonzero direction in 0/8 informative rows at radius one and 2/9 at radius
+three; its common D effect is only +.019/+.015. MATERIAL, PART and VALUE are
+likewise mixed. Thus no portable measure, material, part, preparation or value
+component is exported.
+
+There are 185 raw separated `X dal` spans and 115 strict reader-exact spans.
+Only `cheo`, `chol`, `ol` and `y` occur both separated and fused at different
+loci. None of the 304 exact fused targets has a current same-locus split;
+Stolfi keeps 47 accessible nonbare occurrences fused and splits zero. The
+relation packet is valid acquisition but intentionally not score-ready.
+
+Standalone **`dal=Material I, abgemessen`** remains the best short
+provenance-bound whole reading, with Rohdrogenposten and Mengen-/Wertfeld I as
+rivals and the value axis open. All 107 forms have concrete replaceable cards:
+37 explicit overrides, 46 exact singleton fallbacks and 24 raw-only fallbacks.
+Their common material/measure/level-I language is one visible C0 display prior,
+not 107 discoveries. Zero new renderer licences, components, lexemes,
+plaintext clauses or substances are selected. Validation passes 663 checks and
+byte-replays all 25 runner outputs without new or sealed data.
+
+Next, run the repaired remainder tournament on `ar`, whose current complete-
+whole lead is Anteil/Fraktion, and then on `ol`. Preserve complete-whole cards
+and the 996-mask discipline. Primary report:
+`experiments/yolo/gdt788_dal_remainder_cross_family_transfer/REPORT.md`.

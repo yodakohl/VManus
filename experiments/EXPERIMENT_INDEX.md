@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **785**
-- Experiment-associated tracked files: **13,902** (1.3 GiB)
-- Structured GDT337+ experiments: **450**
+- Experiments indexed: **786**
+- Experiment-associated tracked files: **13,939** (1.3 GiB)
+- Structured GDT337+ experiments: **451**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT788 | GDT788_dal_remainder_cross_family_transfer | `PARTIAL__107_RAW_FORMS__415_RAW__80_EXACT_FORMS__304_EXACT__40_PRIMARY_LATTICE_CELLS__SHIFT_BOTH_2_OF10__CORE_BOTH_4_OF10__FORMAL_FAMILY_WHOLE_ONLY__107_DEFAULTS__ZERO_COMPONENT_EXPORT__ZERO_NEW_RENDERER_LICENSE` | [report](../experiments/yolo/gdt788_dal_remainder_cross_family_transfer/REPORT.md) | 37 | 605.3 KiB | 17 | STRUCTURED_YOLO |
 | GDT787 | GDT787_keedy_remainder_cross_family_transfer | `PARTIAL__38_RAW_FORMS__601_RAW__27_EXACT_FORMS__370_EXACT__50_COMPLETE_PARADIGM_CELLS__9_FACTORIAL_ROWS__ADDITIVE_BEATS_X_5_OF9__WHOLE_4_OF9__BOTH_3_OF9__WHOLE_ONLY__END_WEAK__CLOSE_REJECTED__38_DEFAULTS__ZERO_COMPONENT_EXPORT__ZERO_NEW_RENDERER_LICENSE` | [report](../experiments/yolo/gdt787_keedy_remainder_cross_family_transfer/REPORT.md) | 36 | 420.0 KiB | 17 | STRUCTURED_YOLO |
 | GDT786 | GDT786_sal_left_root_transfer_tournament | `PARTIAL__12_SAL_PREFIX_WHOLES__14_EXACT_OCCURRENCES__10_PRIMARY_TYPES__ADDITIVE_05551_VS_SAME_X_05591__5_OF10_P0444__SAL_ROOT_TOP1_2_TOP2_5_OF10__CONTROL_ROOTS_TOP1_17_TOP2_27_OF29__SALO_RANK51_SALY_RANK49_OF55__ZERO_EXACT_FORWARD_SPLITS__ZERO_STOLFI_SAL_X_BOUNDARIES__FORMAL_FAMILY_ONLY__12_CONCRETE_WHOLE_DEFAULTS__ZERO_COMPONENT_EXPORT` | [report](../experiments/yolo/gdt786_sal_left_root_transfer_tournament/REPORT.md) | 33 | 216.8 KiB | 34 | STRUCTURED_YOLO |
 | GDT785 | GDT785_sal_exact_whole_field_census | `PASS__37_RAW__33_EXACT_SAL__26_PAGES__23_FOLIOS__7_FIRST_16_MIDDLE_10_LAST__2_1_TRUE_PARAGRAPH_EDGES__EDGE_RANK_8_OF_68__SAL_SHOL_2__SAL_RAIIN_2__ZERO_OF_96_QUANTITY_PAIRS__23_SAL_STRING_FORMS__WORKING_SAL_DROGE__SALT_RETAINED_C0_RIVAL__CHORCHOLSAL_REINFORCED_NOT_DECOMPOSED__ZERO_LEXEMES` | [report](../experiments/yolo/gdt785_sal_exact_whole_field_census/REPORT.md) | 30 | 726.5 KiB | 11 | STRUCTURED_YOLO |
