@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **800**
-- Experiment-associated tracked files: **14,317** (1.3 GiB)
-- Structured GDT337+ experiments: **465**
+- Experiments indexed: **801**
+- Experiment-associated tracked files: **14,341** (1.3 GiB)
+- Structured GDT337+ experiments: **466**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT802 | GDT802_masked_lm_neighbour_context_transfer | `PARTIAL__4137_EXACT_NEIGHBOUR_JOINS__388_DISCOVERY__3749_TRANSFER__PHYSICAL_POSITION_PLUS_LEARNED_STEM__SPARSE_CONTEXT_LEAD_UNRESOLVED__DAIIN_RETIRED__JOINT_FRAME_CAPACITY_STOP__ZERO_LEXEMES` | [report](../experiments/yolo/gdt802_masked_lm_neighbour_context_transfer/REPORT.md) | 24 | 1.4 MiB | 3 | STRUCTURED_YOLO |
 | GDT801 | GDT801_terminal_lm_boundary_hierarchy_discriminator | `PARTIAL__542_EXACT_JOINS__530_RUNNING__411_STRICT_INTERIOR__PHYSICAL_LINE_EDGE_RETAINS__DIRECT_HIGHER_CLOSURE_CAPACITY_STOP__PROJECTED_STATEMENT_NO_GAIN__ZERO_LEXEMES` | [report](../experiments/yolo/gdt801_terminal_lm_boundary_hierarchy_discriminator/REPORT.md) | 24 | 967.3 KiB | 2 | STRUCTURED_YOLO |
 | GDT800 | GDT800_terminal_b2_b3_line_final_bridge | `PARTIAL__155_NONEMPTY_PAIRED_STEMS__BOUNDARY_FIELD_SELECTED__OBLIGATORY_ALLOGRAPH_REJECTED__A09_DIRECTION_OPEN__ZERO_LEXEMES` | [report](../experiments/yolo/gdt800_terminal_b2_b3_line_final_bridge/REPORT.md) | 22 | 1.4 MiB | 5 | STRUCTURED_YOLO |
 | GDT799 | GDT799_f70_f71_f72_homolog_clothing_transition | `PARTIAL__18_NEW_STATES__F70_3C6U__F72_0C9U_PAGE_RING_FACIES_ONLY__FIXED_RELATION_NOT_MOBILE__ZERO_LEXEMES` | [report](../experiments/yolo/gdt799_f70_f71_f72_homolog_clothing_transition/REPORT.md) | 23 | 122.4 KiB | 4 | STRUCTURED_YOLO |

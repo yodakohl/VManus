@@ -21592,3 +21592,43 @@ test held stems plus held physical pages after fixing line position; f95v1 and
 f95v2 stay in one physical-page fold. Validation passes 11,351 checks and two
 byte-identical replays. Primary report:
 `experiments/yolo/gdt801_terminal_lm_boundary_hierarchy_discriminator/REPORT.md`.
+
+## GDT802 masked neighbour-context transfer
+
+GDT802 reconstructs immediate complete left/right ZL3b neighbours for all
+4,137 GDT800 paired-terminal events with 4,137/4,137 exact target joins. The
+population contains 653 `m`, 3,484 `l`, 155 derived paired families, 177 source
+selectors and 171 normalized physical folios. It uses only the inherited
+V99R7 cache: no new page, image or transcription is opened, and f84/f84r remain
+absent.
+
+The GDT801 28-family/388-event deck is retained as local discovery; the
+disjoint 3,749 events are the portability population. On held physical folios,
+learned target-family identity improves the physical distance baseline by
+.0153507 nats/event in cache-rest and .0135095 on the full cache. This selects
+a learned paired-family propensity, not a suffix, morpheme or equivalence.
+
+A sparse complete-neighbour model has a small positive hard stem+folio-held
+gain: .00126878 nats/event outside discovery and .00265310 full-cache. Its
+full-cache 499-world diagnostics give p=.008 under folio×distance margins and
+p=.002 under stem×distance margins; masking all adjacent paired-family targets
+retains the sign. However, a transparent alpha-20 exact-identity model gives
+held-folio combined macro AUC .430921 (micro .499269), and an outcome-blind
+rarity score matches or beats several identity channels. Exact neighbour
+identity is therefore a model-dependent lead, not an installed structural
+role or renderer value.
+
+The narrow `daiin` bridge is retired. Direct discovery has seven earlier `l`
+and five final `m`, but cache-rest has 54/5 earlier, 12/0 penultimate and 10/11
+final `l/m`; position-controlled OR is .893074 with upper p=.697728. Of 2,946
+raw two-sided frames, 2,844 are singletons and only six are bidirectional
+across multiple stems and folios, so joint-frame grammar stops for capacity.
+
+The live structural card is
+`PHYSICAL_LINE_EDGE_PLUS_LEARNED_PAIRED_FAMILY__SPARSE_COMPLETE_CONTEXT_LEAD_UNRESOLVED`.
+It grants no `l=m` licence, component value, lexeme, meaning or plaintext. The
+next route uses recurrent cross-fold left/right candidates against matched
+outcome-blind rarity controls before any descriptive/prescriptive field
+alignment. GDT802 passes 20,828 checks and two byte-identical replays. Primary
+report:
+`experiments/yolo/gdt802_masked_lm_neighbour_context_transfer/REPORT.md`.
