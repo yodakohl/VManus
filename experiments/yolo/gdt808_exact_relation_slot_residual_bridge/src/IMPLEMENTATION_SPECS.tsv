@@ -12,26 +12,35 @@ QUARTILE_BIN	min(4,1+floor(4*(index-1)/count))	PRIMARY
 INDEX_BINS	1|2|3|4|5PLUS	PRIMARY
 WORD_LENGTH_BINS	1|2|3|4|5|6|7PLUS	PRIMARY
 HISTOGRAM_COUNT_BINS	0|1|2|3PLUS	PRIMARY
+FORM_PARAGRAPH_LOCATION	paragraph-line FIRST|MIDDLE|LAST|SINGLE plus paragraph-line quartile only; no paragraph line-count or paragraph-line forward/reverse feature	PRIMARY
+FORM_FOCAL_LOCATION	focal-token FIRST|MIDDLE|LAST|SINGLE plus focal forward index reverse index and quartile	PRIMARY
+END_CLASS_UNIVERSE	endings observed outside exact Q152; fixed unchanged for the ED1 rebuild	PRIMARY
 SLOT_OFFSETS	L2|L1|R1|R2	PRIMARY
 SLOT_BRACKETS	L2_L1|L1_R1|R1_R2	PRIMARY
 SLOT_NEIGHBOUR_RULE	rank-stable exact complete whole and not Q152; otherwise omit atom and every bracket requiring it	PRIMARY
 TEMPLATE_ORDINAL_RULE	assign signed bin from original raw token ordinal before quarantine deletion; deleted tokens never close gaps	PRIMARY
 SLOT_ED1_ORDER	delete ED1 atomic neighbours before building L2_L1 L1_R1 R1_R2 brackets	REQUIRED_SENSITIVITY
+ED1_REBUILD_SCOPE	rebuild all four feature decks with Q152 plus ED1 deletion while retaining the primary end-class universe	REQUIRED_SENSITIVITY
 FEATURE_SUPPORT	at least two training carriers and two training physical folios	PRIMARY
 FEATURE_VALUE	binary presence in every deck	PRIMARY
+EVENT_FEATURE_AUDIT	per-event count plus SHA256 of newline-joined canonical sorted feature set for TOPIC TEMPLATE FORM_REGIME SLOT_HOLE MASK_STATUS RAW_SLOT	AUDIT_ONLY
 NB_ALPHA	0.5	PRIMARY
 NB_CLASS_PRIOR	equal	PRIMARY
 NB_CELL_WEIGHT	event weight 1/n(carrier,class) within fold; weighted binary feature counts give equal total training weight per nonempty carrier-class cell	PRIMARY
 DECK_EVENT_SCORE	mean known-feature log likelihood ratio; all-OOV equals zero	PRIMARY
+SCORE_QUANTIZATION	serialize every held event-score channel to 12 significant decimal digits before metrics and null AUCs	PRIMARY
+FOLD_PREFLIGHT	enumerate all4538 model folds before fitting; each retains both source classes and all non-held carriers	REQUIRED
 PRIMARY_NUISANCE_SCORE	TOPIC plus TEMPLATE plus FORM_REGIME deck scores	PRIMARY
 PRIMARY_AUGMENTED_SCORE	PRIMARY_NUISANCE_SCORE plus SLOT_HOLE deck score	PRIMARY
 UNION_SCORER	one alpha-half MNB over union of namespaced features	REQUIRED_SENSITIVITY
 CONDITIONAL_STRATUM	carrier|section|language|hand|target-free-line-length-bin	PRIMARY
 CONDITIONAL_AGGREGATION	within each carrier pool same-stratum positive-negative pairs with ties half; macro across carriers; pooled pair score audit only	PRIMARY
+CONDITIONAL_CARRIER_AUDIT	emit every target carrier including zero-pair carriers with comparable-pair count and NA concordance	AUDIT_ONLY
 FIXED_LOGLOSS	carrier-class-weighted binary cross entropy of sigmoid(sum of relevant mean-LLR deck scores)	PRIMARY
 LABEL_NULL_MOBILITY	emit changed count and fraction per repetition; below 0.20 is reporting-only LOW_MOBILITY	AUDIT_ONLY
 LABEL_NULL_DIRECTION	destination i receives source i-k modulo stratum size; inherited GDT807 right rotation	PRIMARY
 OVERLAY_JOIN	exact page+locus plus 1-based ordinal; recompute physical folio from page	TOPOLOGY_ONLY
+OVERLAY_ACCESS	guarded allow-list query with explicit output columns for GDT759 GDT768 and GDT757 derived atlases	REQUIRED
 OVERLAY_QUARANTINE	drop GDT759 contact unless both endpoint surfaces are outside Q152; drop GDT768/GDT757 anchor if its surface is Q152	TOPOLOGY_ONLY
 AMOUNT_CONTACT	GDT759 QUANTITY_VALUE span; focal outside closed span and distance to span is one or two	TOPOLOGY_ONLY
 QUALITY_VALUE_CONTACT	GDT759 PART_STATE or PREPARATION_VALUE span; focal outside closed span and distance to span is one or two	TOPOLOGY_ONLY
@@ -41,4 +50,12 @@ CONTACT_LOG_OR	per axis absolute Haldane-corrected expanded/base log odds; zero 
 CONTACT_FOLIO_COUPLING	folio score uses contact folios on same axis selected by maximum absolute log odds; lexical axis breaks exact tie	TOPOLOGY_ONLY
 READER_STABILITY_DENOMINATOR	minimum L/DY stable proportion among parsed strict CORE13 occurrences before stability LCS and singleton filters	TOPOLOGY_ONLY
 REVERSED_CARRIER_COUNT	maximum across M01/M02 count of scoreable carriers with augmented AUC below 0.50; ties not reversed	TOPOLOGY_ONLY
+RECORD_NO_LOCAL_INCREMENT	PORTABLE_RECORD_OR_FORM_RELATION requires local gain strictly below 0.02	PRIMARY
+EVENT_ID_RULE	assign on sorted accepted ALL28 stream; CORE13 subset retains its nonconsecutive global event IDs	AUDIT_ONLY
 HISTORICAL_RIVAL_TIEBREAK	total points descending then rival_id lexical	TOPOLOGY_ONLY
+SOURCE_LOCK_TIMING	verify every manifest input plus registered run.py and validate.py hashes before corpus loading or model fitting	REQUIRED
+OUTPUT_DIR_SCOPE	builder output directory must resolve inside repository so guarded GDT388 intake remains applicable	REQUIRED
+EDGE_PACKET_SCOPE	emit only same-page distinct-locus base/expanded carrier-axis pairs; expected fixed capacity 19	AUDIT_ONLY
+EDGE_PACKET_EXPECTED_FAILURE	every packet row must fail only because FORMAL_ACCESSED is not sealed; any other intake error aborts	AUDIT_ONLY
+EDGE_PACKET_PREFLIGHT	guarded intake before model fitting; published packet bytes must match preflight SHA256	REQUIRED
+TSV_SCHEMA_GATE	all row keys must be contained in the declared or first-row schema before projection; later-only fields abort instead of truncating	REQUIRED

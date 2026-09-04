@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import ast
 import csv
 import hashlib
 import json
@@ -33,6 +34,16 @@ def sha256(path: Path) -> str:
 def rows(name: str) -> list[dict[str, str]]:
     with (BASE / "src" / name).open(encoding="utf-8", newline="") as handle:
         return list(csv.DictReader(handle, delimiter="\t"))
+
+
+def literal_assignment(path: Path, name: str) -> object:
+    tree = ast.parse(path.read_text(encoding="utf-8"), filename=str(path))
+    for node in tree.body:
+        if isinstance(node, (ast.Assign, ast.AnnAssign)):
+            targets = node.targets if isinstance(node, ast.Assign) else [node.target]
+            if any(isinstance(target, ast.Name) and target.id == name for target in targets):
+                return ast.literal_eval(node.value)
+    raise RuntimeError(f"literal assignment absent: {path}:{name}")
 
 
 def main() -> int:
@@ -91,6 +102,28 @@ def main() -> int:
     check("q152_overlap", sorted(main_surfaces & thin_surfaces) == sorted(overlap6), sorted(main_surfaces & thin_surfaces))
     check("rival_rules", len(rows("RIVAL_DECISION_SPECS.tsv")) == 20, 20)
     check("historical_rows", len(rows("HISTORICAL_TOPOLOGY_SPECS.tsv")) == 10, 10)
+
+    run_names = tuple(literal_assignment(BASE / "src/run.py", "OUTPUT_NAMES"))
+    validator_names = tuple(literal_assignment(BASE / "src/validate.py", "OUTPUT_NAMES"))
+    check("builder_output_inventory_25", len(run_names) == len(set(run_names)) == 25, len(run_names))
+    check("builder_validator_output_contract", validator_names == run_names, validator_names)
+    implementation = {row["key"]: row["value"] for row in rows("IMPLEMENTATION_SPECS.tsv")}
+    required_implementation = {
+        "FORM_PARAGRAPH_LOCATION": "paragraph-line FIRST|MIDDLE|LAST|SINGLE plus paragraph-line quartile only; no paragraph line-count or paragraph-line forward/reverse feature",
+        "END_CLASS_UNIVERSE": "endings observed outside exact Q152; fixed unchanged for the ED1 rebuild",
+        "ED1_REBUILD_SCOPE": "rebuild all four feature decks with Q152 plus ED1 deletion while retaining the primary end-class universe",
+        "RECORD_NO_LOCAL_INCREMENT": "PORTABLE_RECORD_OR_FORM_RELATION requires local gain strictly below 0.02",
+        "EDGE_PACKET_SCOPE": "emit only same-page distinct-locus base/expanded carrier-axis pairs; expected fixed capacity 19",
+        "SCORE_QUANTIZATION": "serialize every held event-score channel to 12 significant decimal digits before metrics and null AUCs",
+        "TSV_SCHEMA_GATE": "all row keys must be contained in the declared or first-row schema before projection; later-only fields abort instead of truncating",
+    }
+    check("implementation_contract_amendments", all(implementation.get(key) == value for key, value in required_implementation.items()), required_implementation)
+    manifest_outputs = {item["path"]: item for item in manifest.get("outputs", [])}
+    for path in (BASE / "src/run.py", BASE / "src/validate.py"):
+        relative = path.relative_to(ROOT).as_posix()
+        check(f"runtime_hash_registered:{relative}",
+              relative in manifest_outputs and manifest_outputs[relative]["sha256"] == sha256(path),
+              manifest_outputs.get(relative))
 
     payload = {
         "experiment_id": "GDT808",

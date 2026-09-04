@@ -16,6 +16,7 @@ import math
 import re
 import subprocess
 import sys
+import tempfile
 import time
 from collections import Counter, defaultdict
 from dataclasses import dataclass, field
@@ -36,7 +37,8 @@ ROOT = find_repo_root(Path(__file__).resolve())
 BASE = ROOT / "experiments/yolo/gdt808_exact_relation_slot_residual_bridge"
 SRC = BASE / "src"
 DEFAULT_ARTIFACTS = BASE / "artifacts"
-RUN, METHOD, PREREG, MANIFEST = SRC / "run.py", BASE / "METHOD.md", BASE / "PREREGISTRATION.md", BASE / "experiment.json"
+RUN, VALIDATOR = SRC / "run.py", SRC / "validate.py"
+METHOD, PREREG, MANIFEST = BASE / "METHOD.md", BASE / "PREREGISTRATION.md", BASE / "experiment.json"
 ALLOWLIST = ROOT / "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv"
 LINES_RAW = ROOT / "transcription/voynich_zl3b_lines.tsv"
 CROSS_RAW = ROOT / "transcription/voynich_cross_transcription_lines.tsv"
@@ -60,6 +62,11 @@ EXPECTED = {"selectors": 179, "source_lines": 4137, "source_tokens": 32339,
             "all28_events": 2208}
 EXPECTED_CORE_TAILS = {"ol": 641, "eol": 273, "edy": 715, "eody": 148}
 EXPECTED_ALL28_TAILS = {"ol": 759, "eol": 332, "edy": 939, "eody": 178}
+EXPECTED_EDGE_ROWS = 19
+EXPECTED_MODEL_FOLDS = {"M01_L_TO_L": 569, "M02_DY_TO_DY": 394,
+    "M03_L_TO_DY": 394, "M04_DY_TO_L": 569, "M05_L_TO_L_ALL28": 729,
+    "M06_DY_TO_DY_ALL28": 577, "M07_L_TO_DY_ALL28": 577,
+    "M08_DY_TO_L_ALL28": 729}
 OUTPUT_NAMES = (
     "SOURCE_LOCK.tsv", "GDT808_IMPLEMENTATION_CLARIFICATIONS.tsv", "GDT808_GUARDED_QUERY_STATS.tsv",
     "GDT808_SOURCE_CENSUS.tsv", "GDT808_RAW35_ALL28_CORE13_CARRIER_CENSUS.tsv",
@@ -91,6 +98,11 @@ def write_tsv(path: Path, rows: Iterable[Mapping[str, Any]], fields: Sequence[st
         if not material:
             raise RuntimeError(f"empty TSV without schema: {path.name}")
         fields = tuple(material[0])
+    allowed = set(fields)
+    for number, row in enumerate(material, 1):
+        extras = set(row) - allowed
+        if extras:
+            raise RuntimeError(f"unexpected TSV fields {path.name} row {number}: {sorted(extras)}")
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=fields, delimiter="\t", lineterminator="\n", extrasaction="raise")
@@ -118,6 +130,11 @@ def f12(value: float | None) -> str:
 def pipe(values: Iterable[Any]) -> str:
     material = [str(value) for value in values if str(value)]
     return "|".join(material) if material else "NONE"
+
+
+def value_fingerprint(values: Iterable[str]) -> str:
+    payload = "\n".join(sorted(values)).encode("utf-8")
+    return hashlib.sha256(payload).hexdigest()
 
 
 def selector_sort_key(value: str) -> tuple[int, int, int, str]:
@@ -494,10 +511,7 @@ def build_event_features(event: Event, quarantine: frozenset[str], end_classes: 
         f"FORM:HAND={event.paragraph.hand}", f"FORM:JOINT={event.paragraph.section}/{event.paragraph.language}/{event.paragraph.hand}",
         f"FORM:TARGETFREE_LINE_LENGTH_BIN={length_bin(len(line_tokens))}",
         f"FORM:TARGETFREE_PARAGRAPH_LENGTH_BIN={length_bin(len(paragraph_tokens))}",
-        f"FORM:PARAGRAPH_LINE_COUNT_BIN={length_bin(len(event.paragraph.lines))}",
         f"FORM:PARAGRAPH_LINE_POSITION={position_name(event.paragraph_line_index, len(event.paragraph.lines))}",
-        f"FORM:PARAGRAPH_LINE_FORWARD_INDEX={index_bin(event.paragraph_line_index)}",
-        f"FORM:PARAGRAPH_LINE_REVERSE_INDEX={index_bin(len(event.paragraph.lines) - event.paragraph_line_index + 1)}",
         f"FORM:PARAGRAPH_LINE_QUARTILE={quartile(event.paragraph_line_index, len(event.paragraph.lines))}"}
     for scope, tokens in (("LINE", line_tokens), ("PARAGRAPH", paragraph_tokens)):
         lengths, ends = Counter(word_length_bin(len(surface)) for surface in tokens), Counter(surface[-1] for surface in tokens if surface)
@@ -566,7 +580,9 @@ PRIMARY_DECKS = {
 
 def features_for(event: Event, variant: str, names: Sequence[str]) -> frozenset[str]:
     decks = event.features_ed1 if variant == "ED1" else event.features
-    return frozenset(feature for name in names for feature in decks[name])
+    if len(names) == 1:
+        return decks[names[0]]
+    return frozenset().union(*(decks[name] for name in names))
 
 
 def train_nb(events: Sequence[Event], getter: Callable[[Event], frozenset[str]],
@@ -633,6 +649,20 @@ def score_bundle(bundle: Mapping[str, NBModel], event: Event, variant: str = "EX
 
 def model_events(events: Sequence[Event], axis: str) -> list[Event]:
     return [event for event in events if event.axis == axis]
+
+
+def preflight_relation_folds(spec: Mapping[str, str], population_events: Sequence[Event]) -> None:
+    source = model_events(population_events, spec["source_axis"])
+    target = model_events(population_events, spec["target_axis"])
+    groups = sorted({(event.carrier, event.folio) for event in target})
+    if len(groups) != EXPECTED_MODEL_FOLDS[spec["model_id"]]:
+        raise RuntimeError(f"held fold count drift: {spec['model_id']}:{len(groups)}")
+    source_carriers = {event.carrier for event in source}
+    for carrier, folio in groups:
+        train = [event for event in source if event.carrier != carrier and event.folio != folio]
+        if ({event.label for event in train} != {0, 1}
+                or len({event.carrier for event in train}) != len(source_carriers) - 1):
+            raise RuntimeError(f"held fold preflight failed: {spec['model_id']}:{carrier}:{folio}")
 
 
 def run_relation_model(spec: Mapping[str, str], population_events: Sequence[Event],
@@ -800,6 +830,18 @@ def make_conditional_rows(model_specs: Sequence[Mapping[str, str]], predictions:
                 "negative_events": sum(1 - int(row["true_label"]) for row in subset),
                 "comparable_pairs": sum(int(row["comparable_pairs"]) for row in strata),
                 "concordance": f12(macro), "pooled_pair_concordance_audit": f12(pooled)})
+            for carrier in sorted({str(row["carrier"]) for row in subset}):
+                carrier_source = [row for row in subset if row["carrier"] == carrier]
+                carrier_macro, carrier_pooled, carrier_rows = conditional_concordance(carrier_source, field)
+                carrier_pairs = sum(int(row["comparable_pairs"]) for row in carrier_rows)
+                output.append({"row_type": "CARRIER", "model_id": spec["model_id"],
+                    "score_channel": channel, "carrier": carrier, "section": "ALL", "language": "ALL",
+                    "hand": "ALL", "targetfree_line_length_bin": "ALL",
+                    "events": len(carrier_source),
+                    "positive_events": sum(int(row["true_label"]) for row in carrier_source),
+                    "negative_events": sum(1 - int(row["true_label"]) for row in carrier_source),
+                    "comparable_pairs": carrier_pairs, "concordance": f12(carrier_macro),
+                    "pooled_pair_concordance_audit": f12(carrier_pooled)})
             for row in strata:
                 if int(row["comparable_pairs"]):
                     output.append({"row_type": "STRATUM", "model_id": spec["model_id"], "score_channel": channel,
@@ -854,7 +896,7 @@ def carrier_null_predictions(spec: Mapping[str, str], core_events: Sequence[Even
                       for name, names in (("topic", ("TOPIC",)), ("template", ("TEMPLATE",)),
                                           ("form", ("FORM_REGIME",)))]
             output.append({"event_id": event.event_id, "carrier": event.carrier,
-                           "true_label": event.label, "score": math.fsum(scores)})
+                           "true_label": event.label, "score": f12(math.fsum(scores))})
     audit = [{"null_family": "C02_CARRIER_SIGN_ROTATION", "null_id": f"R{repetition:02d}",
         "model_id": spec["model_id"], "target_axis": spec["target_axis"], "carrier": carrier,
         "section": "ALL", "language": "ALL", "hand": "ALL", "targetfree_line_length_bin": "ALL",
@@ -1068,9 +1110,13 @@ def stage_census(lines: Sequence[Line], paragraph_by_locus: Mapping[str, Paragra
     return output
 
 
-def clean_contact_metrics(core_events: Sequence[Event], q152: frozenset[str]) -> tuple[dict[str, float | int | None], list[dict[str, Any]]]:
+def clean_contact_metrics(core_events: Sequence[Event], q152: frozenset[str], pages: Sequence[str]) -> tuple[dict[str, float | int | None], list[dict[str, Any]], list[dict[str, Any]]]:
     spans: defaultdict[tuple[str, str], list[dict[str, Any]]] = defaultdict(list)
-    span_rows = read_tsv(G759_SPANS)
+    span_rows, span_stats = guarded_query(
+        G759_SPANS, pages,
+        ("page", "locus", "left_token_ordinal", "right_token_ordinal", "left_surface", "right_surface", "family"),
+        "gdt759_overlay",
+    )
     assert_no_sealed(span_rows)
     for row in span_rows:
         # Direct derived input; page and locus must both agree and folio is replayed.
@@ -1081,17 +1127,27 @@ def clean_contact_metrics(core_events: Sequence[Event], q152: frozenset[str]) ->
             continue
         spans[(row["page"], row["locus"])].append({"left": left, "right": right, "family": row["family"]})
     anchors: defaultdict[tuple[str, str], list[tuple[int, str]]] = defaultdict(list)
-    anchor_rows = read_tsv(G768_ANCHORS)
+    anchor_rows, anchor_stats = guarded_query(
+        G768_ANCHORS, pages, ("page", "locus", "token_index", "surface", "reader_exact"),
+        "gdt768_overlay",
+    )
     assert_no_sealed(anchor_rows)
     for row in anchor_rows:
         if row["reader_exact"] == "1" and row["surface"] not in q152:
             anchors[(row["page"], row["locus"])].append((int(row["token_index"]), row["surface"]))
     openers: defaultdict[tuple[str, str], list[tuple[int, str]]] = defaultdict(list)
-    opener_rows = read_tsv(G757_OPENERS)
+    opener_rows, opener_stats = guarded_query(
+        G757_OPENERS, pages, ("page", "locus", "surface", "written_line_eva"),
+        "gdt757_overlay",
+    )
     assert_no_sealed(opener_rows)
     for row in opener_rows:
+        positions = [index for index, surface in enumerate(row["written_line_eva"].split(), 1)
+                     if surface == row["surface"]]
+        if len(positions) != 1 or positions[0] != 1:
+            raise RuntimeError(f"GDT757 opener ordinal drift: {row['page']}:{row['locus']}:{positions}")
         if row["surface"] not in q152:
-            openers[(row["page"], row["locus"])].append((1, row["surface"]))
+            openers[(row["page"], row["locus"])].append((positions[0], row["surface"]))
     contacts = []
     for event in core_events:
         key, ordinal = (event.page, event.locus), event.token_index
@@ -1111,6 +1167,10 @@ def clean_contact_metrics(core_events: Sequence[Event], q152: frozenset[str]) ->
         ("PART", "L"): (10, 263, 59, 582), ("PART", "DY"): (5, 143, 11, 704),
         ("FORMULA", "L"): (4, 269, 3, 638), ("FORMULA", "DY"): (0, 148, 1, 714),
         ("QUALITY", "L"): (0, 273, 0, 641), ("QUALITY", "DY"): (0, 148, 0, 715)}
+    expected_folios = {("AMOUNT", "L"): 7, ("AMOUNT", "DY"): 4,
+        ("QUALITY", "L"): 0, ("QUALITY", "DY"): 0,
+        ("PART", "L"): 48, ("PART", "DY"): 10,
+        ("FORMULA", "L"): 7, ("FORMULA", "DY"): 1}
     result: dict[str, float | int | None] = {}
     audit = []
     for kind in ("AMOUNT", "QUALITY", "PART", "FORMULA"):
@@ -1125,6 +1185,8 @@ def clean_contact_metrics(core_events: Sequence[Event], q152: frozenset[str]) ->
                 raise RuntimeError(f"clean contact cell drift {kind}/{axis}: {(a,b,c,d)}")
             log_or = None if a + c == 0 else math.log(((a + .5) * (d + .5)) / ((b + .5) * (c + .5)))
             folios = len({row["event"].folio for row in values if row[kind]})
+            if folios != expected_folios[(kind, axis)]:
+                raise RuntimeError(f"clean contact folio drift {kind}/{axis}: {folios}")
             audit.append({"contact_kind": kind, "axis": axis, "expanded_contact": a,
                 "expanded_no_contact": b, "base_contact": c, "base_no_contact": d,
                 "haldane_log_or": f12(log_or), "absolute_log_or": f12(abs(log_or) if log_or is not None else None),
@@ -1143,7 +1205,7 @@ def clean_contact_metrics(core_events: Sequence[Event], q152: frozenset[str]) ->
                     row["winning_axis"] = 1
         else:
             result[f"{kind}_ABS_LOG_OR"], result[f"{kind}_FOLIOS"], result[f"{kind}_WINNING_AXIS"] = None, 0, "NONE"
-    return result, audit
+    return result, audit, [span_stats, anchor_stats, opener_stats]
 
 
 def rival_card(score_lookup: Mapping[tuple[str, str], dict[str, Any]],
@@ -1243,7 +1305,8 @@ def decision_for_axis(model_id: str, all28_model_id: str,
         "conditional_gain": conditional_gain, "local_gain_rank_of_25": ranks[model_id]["local_gain_rank"],
         "nuisance_rank_of_13": ranks[model_id]["nuisance_portability_rank"],
         "all28_augmented_macro_auc": all_augmented, "all28_local_gain": all_gain,
-        "union_local_gain": union_gain, "direction_gates_pass": int(direction_gates)}
+        "union_local_gain": union_gain, "direction_gates_pass": int(direction_gates),
+        "record_no_local_increment": int(gain < .02)}
 
 
 def joint_topology(l_decision: str, dy_decision: str,
@@ -1271,7 +1334,27 @@ def edge_packet(core_events: Sequence[Event]) -> list[dict[str, Any]]:
     for carrier in sorted({event.carrier for event in core_events}):
         for axis in ("L", "DY"):
             values = [event for event in core_events if event.carrier == carrier and event.axis == axis]
-            expanded, base = next(event for event in values if event.label), next(event for event in values if not event.label)
+            common_pages = sorted(
+                {event.page for event in values if event.label}
+                & {event.page for event in values if not event.label},
+                key=selector_sort_key,
+            )
+            pair = next(
+                (
+                    (expanded, base)
+                    for page in common_pages
+                    for expanded in values
+                    for base in values
+                    if expanded.page == base.page == page
+                    and expanded.label == 1
+                    and base.label == 0
+                    and expanded.locus != base.locus
+                ),
+                None,
+            )
+            if pair is None:
+                continue
+            expanded, base = pair
             output.append({"edge_id": f"G808E{len(output) + 1:04d}", "batch_id": "GDT808_EXACT_FORMAL_RECTANGLE",
                 "page": expanded.page, "physical_folio": leaf_folio(expanded.page),
                 "diagram_unit_id": f"FORMAL_RECTANGLE_{carrier}_{axis}",
@@ -1301,6 +1384,10 @@ def run_edge_intake(packet: Path, output: Path, expected_rows: int) -> dict[str,
     if (result.get("status") != "INVALID_PACKET" or result.get("packet_rows") != expected_rows
             or result.get("eligible_edges") != 0 or result.get("score_ready") is not False):
         raise RuntimeError("GDT388 packet did not fail closed")
+    expected_errors = [f"edge row {number}: formal access is not sealed"
+                       for number in range(2, expected_rows + 2)]
+    if result.get("errors") != expected_errors:
+        raise RuntimeError(f"GDT388 packet failed for an unintended reason: {result.get('errors')}")
     output.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     return result
 
@@ -1309,19 +1396,25 @@ def source_lock() -> list[dict[str, Any]]:
     manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
     if manifest["experiment_id"] != "GDT808" or manifest["sealed_data"] != {"f84": "FORBIDDEN", "f84r": "FORBIDDEN"}:
         raise RuntimeError("manifest identity/sealed state drift")
-    raw_paths = {rel(LINES_RAW), rel(CROSS_RAW), rel(TOKENS_RAW)}
+    guarded_paths = {rel(path) for path in (
+        LINES_RAW, CROSS_RAW, TOKENS_RAW, G759_SPANS, G768_ANCHORS, G757_OPENERS
+    )}
     output = []
     for item in manifest["inputs"]:
         path = ROOT / item["path"]
         if not path.is_file() or sha256(path) != item["sha256"]:
             raise RuntimeError(f"manifest input hash drift: {item['path']}")
         output.append({"path": item["path"], "sha256": item["sha256"], "purpose": item["role"],
-            "access_mode": "MANIFEST_HASH__MIXED_TSV_GUARDED_ONLY" if item["path"] in raw_paths else "DIRECT_SAFE_INPUT",
+            "access_mode": "MANIFEST_HASH__TSV_GUARDED_QUERY_ONLY" if item["path"] in guarded_paths else "DIRECT_SAFE_INPUT",
             "manifest_hash_match": 1})
-    for path, purpose in ((RUN, "official GDT808 builder"), (VMANUS_EXP, "guarded query and edge dispatcher"),
-                          (GUARDED_TOOL, "selector-before-materialization guard"), (EDGE_TOOL, "GDT388 packet intake")):
-        output.append({"path": rel(path), "sha256": sha256(path), "purpose": purpose,
-                       "access_mode": "RUNTIME_IMPLEMENTATION", "manifest_hash_match": "NA"})
+    manifest_outputs = {item["path"]: item for item in manifest["outputs"]}
+    for path, purpose in ((RUN, "official GDT808 builder"),
+                          (VALIDATOR, "independent GDT808 result validator")):
+        item = manifest_outputs.get(rel(path))
+        if item is None or sha256(path) != item["sha256"]:
+            raise RuntimeError(f"manifest implementation hash drift: {rel(path)}")
+        output.append({"path": rel(path), "sha256": item["sha256"], "purpose": purpose,
+                       "access_mode": "MANIFEST_HASHED_RUNTIME_IMPLEMENTATION", "manifest_hash_match": 1})
     return output
 
 
@@ -1330,6 +1423,9 @@ def main() -> int:
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_ARTIFACTS)
     args = parser.parse_args()
     output_dir = args.output_dir.resolve()
+    if not output_dir.is_relative_to(ROOT):
+        raise RuntimeError("output directory must remain inside the repository for guarded edge intake")
+    lock_rows = source_lock()
     output_dir.mkdir(parents=True, exist_ok=True)
     started = time.time()
 
@@ -1357,13 +1453,28 @@ def main() -> int:
     stages = stage_census(lines, paragraph_by_locus, set(core13), "CORE13") + stage_census(lines, paragraph_by_locus, set(all28), "ALL28")
     core_stage = {row["item"].split("_")[0]: row for row in stages if row["scope"] == "CORE13"}
     reader_stable_rate = min(float(core_stage[axis]["rank_stable_rate_strict_prefilter"]) for axis in ("L", "DY"))
+    contacts, contact_audit, overlay_query_stats = clean_contact_metrics(
+        core_events, q152, sorted({line.page for line in lines}, key=selector_sort_key)
+    )
+    query_stats.extend(overlay_query_stats)
+    edges = edge_packet(core_events)
+    if len(edges) != EXPECTED_EDGE_ROWS:
+        raise RuntimeError(f"same-page GDT388 audit capacity drift: {len(edges)} != {EXPECTED_EDGE_ROWS}")
+    with tempfile.TemporaryDirectory(prefix=".gdt808_edge_preflight_", dir=BASE) as temporary:
+        preflight_packet = Path(temporary) / "packet.tsv"
+        preflight_intake = Path(temporary) / "intake.json"
+        write_tsv(preflight_packet, edges, EDGE_FIELDS)
+        intake = run_edge_intake(preflight_packet, preflight_intake, len(edges))
+        edge_packet_digest = sha256(preflight_packet)
     observed_surfaces = {surface for line in lines for surface in line.tokens}
     ed1 = frozenset(surface for surface in observed_surfaces if surface not in q152
                     and any(levenshtein(surface, quarantined) <= 1 for quarantined in q152))
-    end_classes = sorted({surface[-1] for surface in observed_surfaces if surface})
+    end_classes = sorted({surface[-1] for surface in observed_surfaces - q152 if surface})
     attach_features(all_events, q152, ed1, end_classes)
 
     model_specs = read_tsv(MODEL_SPECS)
+    for spec in model_specs:
+        preflight_relation_folds(spec, core_events if spec["population"] == "CORE13" else all_events)
     predictions, fold_rows = [], []
     for spec in model_specs:
         population = core_events if spec["population"] == "CORE13" else all_events
@@ -1392,7 +1503,6 @@ def main() -> int:
     attach_features(learned_events, q152, ed1, end_classes)
     learned_rows = custom_control_scores(learned_events, "LEAVE_ONE_PHYSICAL_FOLIO_OUT")
 
-    contacts, contact_audit = clean_contact_metrics(core_events, q152)
     historical_rows, leading_rival, rival_metrics = rival_card(score_lookup, contacts, reader_stable_rate)
     for row in contact_audit:
         historical_rows.append({"row_type": "CONTACT_AUDIT", "rival_id": "NONE", "rank": "NA",
@@ -1415,12 +1525,18 @@ def main() -> int:
         "it2a_unique_forced_exact_ordinal": event.it2a_ordinal,
         "rf1b_unique_forced_exact_ordinal": event.rf1b_ordinal, "own_family_raw_line_count": 1,
         "targetfree_line_length_bin": event.targetfree_line_length_bin,
-        "topic_features": pipe(sorted(event.features["TOPIC"])),
-        "template_features": pipe(sorted(event.features["TEMPLATE"])),
-        "form_regime_features": pipe(sorted(event.features["FORM_REGIME"])),
-        "slot_hole_features": pipe(sorted(event.features["SLOT_HOLE"])),
-        "mask_status_audit_features": pipe(sorted(event.features["MASK_STATUS"])),
-        "raw_slot_sensitivity_features": pipe(sorted(event.features["RAW_SLOT"])),
+        "topic_feature_count": len(event.features["TOPIC"]),
+        "topic_feature_sha256": value_fingerprint(event.features["TOPIC"]),
+        "template_feature_count": len(event.features["TEMPLATE"]),
+        "template_feature_sha256": value_fingerprint(event.features["TEMPLATE"]),
+        "form_regime_feature_count": len(event.features["FORM_REGIME"]),
+        "form_regime_feature_sha256": value_fingerprint(event.features["FORM_REGIME"]),
+        "slot_hole_feature_count": len(event.features["SLOT_HOLE"]),
+        "slot_hole_feature_sha256": value_fingerprint(event.features["SLOT_HOLE"]),
+        "mask_status_audit_feature_count": len(event.features["MASK_STATUS"]),
+        "mask_status_audit_feature_sha256": value_fingerprint(event.features["MASK_STATUS"]),
+        "raw_slot_sensitivity_feature_count": len(event.features["RAW_SLOT"]),
+        "raw_slot_sensitivity_feature_sha256": value_fingerprint(event.features["RAW_SLOT"]),
         "semantic_credit": 0, "component_export_credit": 0} for event in core_events]
 
     census_rows = [
@@ -1443,7 +1559,8 @@ def main() -> int:
         {"issue": "LEARNED_CONTROL_SUPPORT", "resolution": "cheol and otal are descriptive class-carrier identities for support/cell weighting; only physical folio is held.", "selection_credit": "CALIBRATION_ONLY"},
         {"issue": "OVERLAY_SELF_EXCLUSION", "resolution": "Exact page+locus+ordinal join; nonzero outside-span distance; every overlay surface Q152-clean; winning-axis folios coupled.", "selection_credit": "TOPOLOGY_ONLY"},
         {"issue": "READER_STABILITY", "resolution": "Minimum strict parsed CORE13 axis stable rate is measured before stable/LCS/singleton filters.", "selection_credit": "TOPOLOGY_ONLY"},
-        {"issue": "GDT388_PACKET", "resolution": "One formal pair per CORE13 carrier/axis must fail closed as formally accessed nonvisual evidence.", "selection_credit": "AUDIT_ONLY"}]
+        {"issue": "SOURCE_LOCK_TIMING", "resolution": "Manifest inputs plus registered builder/validator hashes are verified before corpus loading or model fitting.", "selection_credit": "REQUIRED"},
+        {"issue": "GDT388_PACKET", "resolution": "Nineteen same-page distinct-locus formal pairs must fail only as formally accessed nonvisual evidence.", "selection_credit": "AUDIT_ONLY"}]
     feature_rows = feature_capacity(core_events, "CORE13") + feature_capacity(all_events, "ALL28")
     ablations = ablation_rows(primary_specs, predictions)
     directions = carrier_direction_rows(model_specs, predictions)
@@ -1464,7 +1581,11 @@ def main() -> int:
 
     write_tsv(output_dir / "GDT808_IMPLEMENTATION_CLARIFICATIONS.tsv", clarifications)
     write_tsv(output_dir / "GDT808_GUARDED_QUERY_STATS.tsv", query_stats)
-    write_tsv(output_dir / "GDT808_SOURCE_CENSUS.tsv", census_rows)
+    write_tsv(output_dir / "GDT808_SOURCE_CENSUS.tsv", census_rows,
+        ("scope", "item", "count", "expected", "status", "raw_parsed", "outside_strict",
+         "strict_parsed", "rank_stable", "unique_forced_lcs", "own_family_singleton",
+         "rank_stable_rate_strict_prefilter", "accepted_paragraphs", "accepted_focal_lines",
+         "strict_candidate_physical_folios"))
     write_tsv(output_dir / "GDT808_RAW35_ALL28_CORE13_CARRIER_CENSUS.tsv", carrier_rows)
     write_tsv(output_dir / "GDT808_Q152_EXACT_QUARANTINE.tsv", q_rows)
     write_tsv(output_dir / "GDT808_1777_CORE_EVENT_ATLAS.tsv", event_rows)
@@ -1483,12 +1604,15 @@ def main() -> int:
     write_tsv(output_dir / "GDT808_LEARNED_CHEOL_OTAL.tsv", learned_rows)
     write_tsv(output_dir / "GDT808_HISTORICAL_RIVAL_CARD.tsv", historical_rows)
     write_tsv(output_dir / "GDT808_STRUCTURAL_CARD.tsv", structural_rows)
-    write_tsv(output_dir / "SOURCE_LOCK.tsv", source_lock())
+    write_tsv(output_dir / "SOURCE_LOCK.tsv", lock_rows)
 
-    edges = edge_packet(core_events)
     packet = output_dir / "GDT808_GDT388_RELATION_PACKET.tsv"
     write_tsv(packet, edges, EDGE_FIELDS)
-    intake = run_edge_intake(packet, output_dir / "GDT808_GDT388_EDGE_INTAKE.json", len(edges))
+    if sha256(packet) != edge_packet_digest:
+        raise RuntimeError("GDT388 packet bytes changed after preflight")
+    (output_dir / "GDT808_GDT388_EDGE_INTAKE.json").write_text(
+        json.dumps(intake, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+    )
     artifact_hashes = {(rel(path) if path.is_relative_to(ROOT) else path.name): sha256(path)
                        for path in sorted(output_dir.iterdir()) if path.name in OUTPUT_NAMES and path.name != "RESULT.json"}
     result = {"experiment_id": "GDT808", "status": f"{topology}__L_{l_decision}__DY_{dy_decision}",

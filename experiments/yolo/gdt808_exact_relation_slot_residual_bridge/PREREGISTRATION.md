@@ -91,3 +91,59 @@ and null computation, before any result artifact or score was emitted; the
 artifact directory remained registration-only.  That aborted process has zero
 official or exploratory selection credit.  The official run begins only from
 the implementation and amendment hashes published together below.
+
+## Prebuild builder-validator interface correction
+
+After the corrected implementation was published but before it emitted any
+artifact or score, a read-only interface audit found that the independent
+validator still required seven obsolete draft artifact names while the builder
+used the final registered inventory.  A second attempted builder process was
+therefore interrupted during held-model training, again before any artifact or
+score was written; the artifact directory was verified to contain only its
+README and `REGISTERED_VALIDATION.json`.
+
+The final builder inventory is authoritative.  Before the official run, the
+validator is synchronized to all twenty-five builder outputs and strengthened
+from an existence-only inventory check to independent row/value comparisons of
+the event population, held predictions, model summaries, null ranks, contact
+overlays, decisions, and result core.  This is an interface and validation
+coverage correction with zero selection credit: no event, feature, score,
+threshold, rival, prototype observation, meaning, lexeme, plaintext, renderer,
+or translation is changed or observed.
+
+The same prebuild audit also moves manifest/source-lock verification before
+corpus loading, binds the direct builder and validator hashes, restricts output
+directories to repository-internal paths, and replaces cross-page audit pairs
+with the nineteen available same-page, distinct-locus pairs.  GDT388 intake
+must reject each solely because accessed textual relations are not sealed
+visual edges; unrelated schema failures can no longer masquerade as the
+intended rejection.  These harden execution and audit provenance only and do
+not alter a statistical population or score.  The inherited GDT759/GDT768/
+GDT757 overlay rows are also narrowed to explicit columns through the guarded
+179-selector query, and the GDT757 opening ordinal is reconstructed and
+asserted rather than assumed.
+
+Finally, the method-contract audit found three extra FORM features in the
+unscored builder that were not licensed by the registered prose: paragraph
+line-count and paragraph-line forward/reverse indices.  They are removed
+before scoring; paragraph FIRST/MIDDLE/LAST/SINGLE plus paragraph quartile and
+the four registered focal-position features remain.  The end-character
+universe is fixed to endings observed outside Q152 (empirically the same 23
+endings as the broader observed universe), every zero-pair carrier is retained
+in the conditional audit, and `no local increment` is made executable as gain
+strictly below 0.02.  All held event scores, including the carrier-null
+nuisance score, are fixed to twelve significant digits before metrics so the
+published summaries replay exactly from their event tables.  Removing the
+three unregistered nuisance features can
+change official scores, but no official or aborted-process score was emitted
+or inspected; this is a preregistration-conformance correction, not
+outcome-driven selection.
+
+The preflight also measured the unscored event-atlas serialization at 5.66 MB,
+above the registered five-megabyte artifact cap.  Its six redundant feature
+string columns are therefore replaced before scoring by per-event feature
+counts and SHA-256 fingerprints of the canonical sorted sets.  The independent
+validator reconstructs and compares every fingerprint.  No feature or value
+used by a model is removed, and the compact representation is not a score.
+The TSV writer now rejects any later-only field before row projection, so a
+mixed-row artifact cannot silently lose audit columns.

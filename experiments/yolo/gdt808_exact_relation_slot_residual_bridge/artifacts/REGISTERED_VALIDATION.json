@@ -1,5 +1,5 @@
 {
-  "check_count": 57,
+  "check_count": 72,
   "checks": [
     {
       "check": "experiment_id",
@@ -26,7 +26,7 @@
     },
     {
       "check": "input_hash:experiments/yolo/gdt808_exact_relation_slot_residual_bridge/PREREGISTRATION.md",
-      "detail": "f9adf5487fe235041eadf4638b97a324ade9fb6e2ee56c3d39e8fddfd7f4dd17",
+      "detail": "f96dca442cb1b01817c2ecb9b8b21b9fad321020a75ffca9741b2c541a81594b",
       "pass": true
     },
     {
@@ -36,7 +36,7 @@
     },
     {
       "check": "input_hash:experiments/yolo/gdt808_exact_relation_slot_residual_bridge/METHOD.md",
-      "detail": "88c909ad6812d57d3c6d5a52b612e7ff82e14831776955760e6cfa67f6a2feac",
+      "detail": "0841889cb0c54441915b4cb14808bc2d115c24a9d7de412caa0607f89da60580",
       "pass": true
     },
     {
@@ -86,7 +86,7 @@
     },
     {
       "check": "input_hash:experiments/yolo/gdt808_exact_relation_slot_residual_bridge/src/IMPLEMENTATION_SPECS.tsv",
-      "detail": "4a4f6f180ff5a9f3c1bb54a92a8b3801bc73ffc1c5af89898c29a9e1f2111fd3",
+      "detail": "d34e5195596985e12c46377cac91114210f6a1eda7533f459b87e8b4bad09e73",
       "pass": true
     },
     {
@@ -167,6 +167,56 @@
     {
       "check": "input_hash:transcription/voynich_zl3b_tokens.tsv",
       "detail": "6a061a26edc05ff37dc386c2215774c229a5ff087d3091e68bdd4983a6c007aa",
+      "pass": true
+    },
+    {
+      "check": "input_exists:vmanus-exp",
+      "detail": "vmanus-exp",
+      "pass": true
+    },
+    {
+      "check": "input_hash:vmanus-exp",
+      "detail": "53b69eec8412b54d1248fd52d91c06e0eabc7f436b9015d0cfdb0746606c1528",
+      "pass": true
+    },
+    {
+      "check": "input_exists:tools/vmanus_exp_cli.py",
+      "detail": "tools/vmanus_exp_cli.py",
+      "pass": true
+    },
+    {
+      "check": "input_hash:tools/vmanus_exp_cli.py",
+      "detail": "67af0295b7f1282062981331982d893091532d07acbd986ed744ce9076b6b5dd",
+      "pass": true
+    },
+    {
+      "check": "input_exists:tools/guarded_tsv_query.py",
+      "detail": "tools/guarded_tsv_query.py",
+      "pass": true
+    },
+    {
+      "check": "input_hash:tools/guarded_tsv_query.py",
+      "detail": "eeb8f325b3f7b10ad94eef4907d2d3baaa20bb1b81a9aa36782f96c9008551e3",
+      "pass": true
+    },
+    {
+      "check": "input_exists:tools/relation_edge_intake.py",
+      "detail": "tools/relation_edge_intake.py",
+      "pass": true
+    },
+    {
+      "check": "input_hash:tools/relation_edge_intake.py",
+      "detail": "fb8447470aa81ed608b90aedf7478893ddf6a445351aa12ab23c6fd725be3a47",
+      "pass": true
+    },
+    {
+      "check": "input_exists:tools/vmanus_experiment.py",
+      "detail": "tools/vmanus_experiment.py",
+      "pass": true
+    },
+    {
+      "check": "input_hash:tools/vmanus_experiment.py",
+      "detail": "0b84a5503f8d4aa2e1d23c449da1cd1b2d2059f4d7f74727c6b899928e59cce2",
       "pass": true
     },
     {
@@ -329,6 +379,73 @@
     {
       "check": "historical_rows",
       "detail": 10,
+      "pass": true
+    },
+    {
+      "check": "builder_output_inventory_25",
+      "detail": 25,
+      "pass": true
+    },
+    {
+      "check": "builder_validator_output_contract",
+      "detail": [
+        "SOURCE_LOCK.tsv",
+        "GDT808_IMPLEMENTATION_CLARIFICATIONS.tsv",
+        "GDT808_GUARDED_QUERY_STATS.tsv",
+        "GDT808_SOURCE_CENSUS.tsv",
+        "GDT808_RAW35_ALL28_CORE13_CARRIER_CENSUS.tsv",
+        "GDT808_Q152_EXACT_QUARANTINE.tsv",
+        "GDT808_1777_CORE_EVENT_ATLAS.tsv",
+        "GDT808_FEATURE_DECK_CAPACITY.tsv",
+        "GDT808_COMPONENT_HELD_FOLDS.tsv",
+        "GDT808_HELD_PREDICTIONS.tsv",
+        "GDT808_DECK_SCORE_SUMMARY.tsv",
+        "GDT808_CONDITIONAL_CONCORDANCE.tsv",
+        "GDT808_POSITION_MASK_SLOT_ABLATIONS.tsv",
+        "GDT808_CARRIER_DIRECTION_DIAGNOSTICS.tsv",
+        "GDT808_NULL_STRATUM_AUDIT.tsv",
+        "GDT808_NULL_SCORES.tsv",
+        "GDT808_ALL28_SENSITIVITY.tsv",
+        "GDT808_ED1_SENSITIVITY.tsv",
+        "GDT808_THIN_KOL_TAL.tsv",
+        "GDT808_LEARNED_CHEOL_OTAL.tsv",
+        "GDT808_HISTORICAL_RIVAL_CARD.tsv",
+        "GDT808_GDT388_RELATION_PACKET.tsv",
+        "GDT808_GDT388_EDGE_INTAKE.json",
+        "GDT808_STRUCTURAL_CARD.tsv",
+        "RESULT.json"
+      ],
+      "pass": true
+    },
+    {
+      "check": "implementation_contract_amendments",
+      "detail": {
+        "ED1_REBUILD_SCOPE": "rebuild all four feature decks with Q152 plus ED1 deletion while retaining the primary end-class universe",
+        "EDGE_PACKET_SCOPE": "emit only same-page distinct-locus base/expanded carrier-axis pairs; expected fixed capacity 19",
+        "END_CLASS_UNIVERSE": "endings observed outside exact Q152; fixed unchanged for the ED1 rebuild",
+        "FORM_PARAGRAPH_LOCATION": "paragraph-line FIRST|MIDDLE|LAST|SINGLE plus paragraph-line quartile only; no paragraph line-count or paragraph-line forward/reverse feature",
+        "RECORD_NO_LOCAL_INCREMENT": "PORTABLE_RECORD_OR_FORM_RELATION requires local gain strictly below 0.02",
+        "SCORE_QUANTIZATION": "serialize every held event-score channel to 12 significant decimal digits before metrics and null AUCs",
+        "TSV_SCHEMA_GATE": "all row keys must be contained in the declared or first-row schema before projection; later-only fields abort instead of truncating"
+      },
+      "pass": true
+    },
+    {
+      "check": "runtime_hash_registered:experiments/yolo/gdt808_exact_relation_slot_residual_bridge/src/run.py",
+      "detail": {
+        "path": "experiments/yolo/gdt808_exact_relation_slot_residual_bridge/src/run.py",
+        "role": "frozen official builder implementation before score production",
+        "sha256": "0c1ed0ffb44ec46a6cceafb57352715d7cbb218a5a99829b2155e8cc94b0ff61"
+      },
+      "pass": true
+    },
+    {
+      "check": "runtime_hash_registered:experiments/yolo/gdt808_exact_relation_slot_residual_bridge/src/validate.py",
+      "detail": {
+        "path": "experiments/yolo/gdt808_exact_relation_slot_residual_bridge/src/validate.py",
+        "role": "frozen independent result validator implementation before score production",
+        "sha256": "f20e6e71f63833141c71efd456a0fb5a1a6cb406506b163807db732412fcebba"
+      },
       "pass": true
     }
   ],

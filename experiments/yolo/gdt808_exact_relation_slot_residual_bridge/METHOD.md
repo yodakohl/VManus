@@ -102,12 +102,22 @@ cell.  Weighted binary feature counts feed the alpha-0.5 estimator.  Its event
 score is the mean known-feature log likelihood ratio; an all-OOV event scores
 zero.  Fixed-score log loss is carrier-by-class-weighted binary cross entropy
 after applying `sigmoid` to the sum of the relevant mean-LLR deck scores.
+Every held event-score channel is serialized to twelve significant decimal
+digits before metrics, target-label rotations, or carrier-null AUCs are
+computed, so every published summary is exactly replayable from its table.
 
 All length bins are `floor(log2(n+1))`.  Paragraph-line and focal-token
 quartiles are `min(4, 1 + floor(4*(index-1)/count))`.  Forward and reverse
 focal indices use `1`, `2`, `3`, `4`, `5PLUS`; word lengths use `1` through
 `6`, `7PLUS`, and every end-character count is bucketed `0`, `1`, `2`,
 `3PLUS`.
+
+For avoidance of doubt, relative paragraph-line location consists only of its
+FIRST/MIDDLE/LAST/SINGLE category and quartile.  Paragraph line count and
+paragraph-line forward/reverse indices are not features; forward/reverse index
+features apply only to the focal token.  The fixed end-character universe is
+the set of endings observed outside exact Q152, and that same universe is
+retained when ED1 rebuilds all four decks.
 
 The implementation reports every deck alone.  The fixed nuisance score is the
 sum of `TOPIC`, `TEMPLATE`, and `FORM_REGIME`; the augmented score adds
@@ -116,6 +126,12 @@ stacker or post-score sign flip can rescue the fixed primary result.  A
 required `UNION_MNB_SCORER` sensitivity instead pools all namespaced binary
 features into one alpha-0.5 model.  If its local gain is nonpositive, a primary
 local pass is downgraded to `SCORER_SENSITIVE_LOCAL_LEAD`.
+
+To keep the complete event atlas below the five-megabyte repository limit,
+each event records the count and SHA-256 of the canonical sorted feature set
+for every primary and audit deck instead of repeating the full strings.  The
+independent validator reconstructs those feature sets and compares every count
+and digest; this is lossless for equality auditing and carries no score input.
 
 ### Component- and folio-held transfer
 
@@ -160,6 +176,10 @@ Unmoved strata and ties count against the target.  `Xkol/Xtal` and learned-whole
 `cheol/otal` tracks are descriptive calibrations, not substitutes for the
 four-cell test.
 
+Before fitting any model, all 4,538 registered model folds are enumerated and
+must retain both source classes and every non-held carrier.  Model fitting then
+rechecks the same exclusions while emitting the fold audit.
+
 ### Historical topology orientation
 
 The held result is compared with six period-attested record roles:
@@ -179,6 +199,12 @@ A GDT768 or GDT757 anchor contacts only at nonzero absolute distance one or
 two and its surface must be outside Q152.  Contacts are event-binary.  GDT757
 is a displayed formula overlay only and has no rival point rule.
 
+Although the three inherited overlay atlases are hash-locked outputs of
+upstream experiments that already forbid f84/f84r, GDT808 reads their selected
+columns through the same guarded allow-list query used for transcription data.
+The GDT757 ordinal is reconstructed as the unique position of its surface in
+`written_line_eva` and must be one; it is never silently hard-coded.
+
 For each scored GDT759/GDT768 contact family, expanded/base odds are computed
 separately on L and DY.  If both sides of both classes have zero contacts on an
 axis, its absolute log odds is `NA`, not a Haldane-created signal.  Otherwise
@@ -193,6 +219,20 @@ rank-stability, LCS, and own-family-singleton filters.  Accepted-event stability
 is not reused because it is one by construction.  `MAX_REVERSED_CARRIER_COUNT`
 is the maximum across M01/M02 of the number of scoreable held carriers whose
 augmented AUC is below 0.50; ties are not reversed.
+
+Before corpus loading or model fitting, the direct builder verifies every
+manifest input plus the registered builder and independent-validator hashes.
+Official and replay output directories must remain inside the repository so
+the guarded GDT388 intake cannot be bypassed by an unsupported external path.
+
+The GDT388 audit packet contains only carrier/axis pairs for which one exact
+base and one exact expanded occurrence exist on the same page at distinct
+loci.  It is deliberately ineligible because these are already accessed text
+relations rather than sealed authorial visual edges.  Intake must fail for
+exactly that formal-access reason on every row; a page mismatch, malformed
+locus, duplicate, or any other schema error aborts the builder rather than
+counting as the intended fail-closed result.  This byte-exact packet/intake
+preflight runs before model fitting; the published packet must match its digest.
 
 ## Decision rule and claim ceiling
 
@@ -211,6 +251,9 @@ AUC at least 0.55, and nuisance-portability rank no worse than three of
 thirteen but no local increment is
 retained as `PORTABLE_RECORD_OR_FORM_RELATION`; it is not discarded or
 mislabeled as a local morpheme.
+
+Here `no local increment` means registered local gain strictly below 0.02,
+the non-overlapping complement of the local gain gate.
 
 If both within-axis relations transfer and both cross-axis local-neighbour
 directions are at least 0.60, the joint topology is
