@@ -58,3 +58,36 @@ the CORE13 paragraph count.  An independent replay from the guarded sources
 confirmed that the fixed 1,777 CORE13 events occupy 559 strict paragraphs,
 1,403 focal lines, and 169 physical folios.  No event, carrier, feature, model,
 threshold, rival, prototype observation, or claim ceiling changed.
+
+## Prebuild overlay and score precision amendment
+
+Before any official score was built, an independent historical/contact replay
+found that a literal reading of "same locus within token distance two" could
+count a target occurrence inside its own inherited span and could reuse Q152
+target-family surfaces as purported semantic anchors.  In particular, 21 of
+23 candidate PART_STATE rows contain `chol`; after focal self-overlap and Q152
+endpoint removal, the registered QUALITY_VALUE overlay has zero CORE13 contacts
+on either axis.  The independently reproduced clean contact tables are fixed
+as follows: AMOUNT has L `(4,269,4,637)` and DY `(4,144,1,714)` expanded-hit,
+expanded-miss, base-hit, base-miss cells; PART/FORM has L `(10,263,59,582)`
+and DY `(5,143,11,704)`; the audit-only formula overlay has L
+`(4,269,3,638)` and DY `(0,148,1,714)`.
+
+`METHOD.md` and `IMPLEMENTATION_SPECS.tsv` now make the already intended
+self-exclusion, exact page/locus/ordinal join, Q152 overlay quarantine, same-axis
+odds/folio coupling, zero-contact handling, raw-distance template bins, slot
+bracket deletion, event weighting, fixed-score log loss, carrier-macro
+conditional concordance, label-null mobility, non-tautological reader-stability
+and its inherited right-rotation direction, denominator, and reversed-carrier
+metric explicit.  GDT757 remains audit-only
+because the registered rival table gives it no point rule.  These are prebuild
+leakage and implementation precisions; no target, event population, feature
+deck, score direction, threshold, rival, prototype observation, semantic
+credit, or claim ceiling changed.
+
+A first builder process was inadvertently launched before this final amendment
+was committed.  It was terminated after roughly ninety seconds during model
+and null computation, before any result artifact or score was emitted; the
+artifact directory remained registration-only.  That aborted process has zero
+official or exploratory selection credit.  The official run begins only from
+the implementation and amendment hashes published together below.

@@ -76,7 +76,8 @@ from the focal spelling is emitted.
    Q152 tokens are then deleted.
 2. `TEMPLATE`: binary exact-whole presence on the focal line outside radius
    two, in the fixed signed bins `L3`, `L4`, `L5PLUS`, `R3`, `R4`, and
-   `R5PLUS`.  Q152 is deleted.
+   `R5PLUS`.  Distance is assigned from the original token ordinals before
+   Q152 deletion; deleting a token never closes a gap.  Q152 is deleted.
 3. `FORM_REGIME`: section, language, hand, their joint cell, target-free
    line/paragraph length bins, relative line location, focal-hole
    FIRST/MIDDLE/LAST/SINGLE geometry, forward/reverse index and quartile, and
@@ -86,14 +87,21 @@ from the focal spelling is emitted.
 4. `SLOT_HOLE`: only exact stable `L2/L1/R1/R2` neighbour identities and their
    ordered brackets.  Q152 neighbours are omitted completely rather than
    replaced by a relation-density marker.  Boundaries and unstable-neighbour
-   status remain audit-only.  A raw-neighbour version is a sensitivity only.
+   status remain audit-only.  The only brackets are `L2_L1`, `L1_R1`, and
+   `R1_R2`, and a bracket exists only when both of its atomic neighbours
+   survive the stability and quarantine rules.  The ED1 sensitivity applies
+   its deletion before bracket construction.  A raw-neighbour version is a
+   sensitivity only.
 
 A deck feature enters a training vocabulary only when it occurs on at least
 two training carriers and two training physical folios.  Each event supplies
 binary feature presence.  Per-deck multinomial naive Bayes uses alpha 0.5,
-equal class priors, and equal total weight for every training
-`carrier × class` cell.  Its event score is the mean known-feature log
-likelihood ratio; an all-OOV event scores zero.
+equal class priors, and event weight `1 / n(carrier,class)` in the training
+fold, hence equal total weight for every nonempty training `carrier × class`
+cell.  Weighted binary feature counts feed the alpha-0.5 estimator.  Its event
+score is the mean known-feature log likelihood ratio; an all-OOV event scores
+zero.  Fixed-score log loss is carrier-by-class-weighted binary cross entropy
+after applying `sigmoid` to the sum of the relevant mean-LLR deck scores.
 
 All length bins are `floor(log2(n+1))`.  Paragraph-line and focal-token
 quartiles are `min(4, 1 + floor(4*(index-1)/count))`.  Forward and reverse
@@ -122,17 +130,24 @@ within-carrier conditional concordance.  The conditional score compares only
 positive/negative event pairs inside the same held
 `carrier × section × language × hand × target-free-length-bin` cell, so a
 local claim cannot be purchased by Currier/register separation.  Every
-paragraph and occurrence remains auditable.
+paragraph and occurrence remains auditable.  For each carrier, all such
+comparable pairs are pooled with ties worth one half; the primary conditional
+score is the unweighted macro mean over carriers with at least one pair.
+Pooled-pair concordance and the pair count for every carrier are audits only.
 
 Twenty-four deterministic target-label rotations accompany the primary local
 result.  On the already held predictions, complete labels are cyclically
 rotated inside fixed `axis × carrier × section × language × hand ×
 target-free-line-length-bin` strata after sorting by page, numeric line,
 token index, and event id.  Offset `k` is `k mod n`; singleton and
-divisor-aligned strata remain unchanged.  Scores, nuisance, SLOT packets,
+divisor-aligned strata remain unchanged, and destination position `i` receives
+the label from source position `(i-k) mod n` (the inherited GDT807 right
+rotation).  Scores, nuisance, SLOT packets,
 events, folds, and vocabularies do not move.  This preserves label counts and
 cannot import a donor carrier or folio into a fold.  Ties count against the
-target and moved/identity labels are printed.
+target and moved/identity labels are printed.  Every repetition reports its
+changed-label count and fraction; a changed fraction below 0.20 receives a
+reporting-only `LOW_MOBILITY` warning and cannot be hidden.
 
 A separate twelve-member portability null reverses source-axis labels for a
 cyclic consecutive block of six of the twelve available training carriers,
@@ -155,6 +170,29 @@ signatures—local versus distant gain, multi-head grouping, amount contacts,
 position, section transfer, reader stability, and e-run ladders—rank these
 rivals.  Historical sources can orient a role topology but never assign a
 Voynich spelling.
+
+Overlay contacts join on exact `(page,locus)` plus 1-based token ordinal, and
+physical folio is always recomputed from `page`.  A GDT759 span contacts an
+event only when the focal ordinal lies outside its closed span and is one or
+two positions from that span; both endpoint surfaces must be outside Q152.
+A GDT768 or GDT757 anchor contacts only at nonzero absolute distance one or
+two and its surface must be outside Q152.  Contacts are event-binary.  GDT757
+is a displayed formula overlay only and has no rival point rule.
+
+For each scored GDT759/GDT768 contact family, expanded/base odds are computed
+separately on L and DY.  If both sides of both classes have zero contacts on an
+axis, its absolute log odds is `NA`, not a Haldane-created signal.  Otherwise
+the registered half-count correction applies.  The winning axis is the one
+with maximum absolute log odds (lexical axis order breaks an exact tie), and
+the folio threshold uses contact folios from that same axis; log odds and
+folio coverage may not be cherry-picked from different axes.
+
+`MIN_TARGET_READER_STABLE_RATE` is the smaller L/DY rank-stable proportion
+among all exactly parsed CORE13 occurrences in strict paragraphs before the
+rank-stability, LCS, and own-family-singleton filters.  Accepted-event stability
+is not reused because it is one by construction.  `MAX_REVERSED_CARRIER_COUNT`
+is the maximum across M01/M02 of the number of scoreable held carriers whose
+augmented AUC is below 0.50; ties are not reversed.
 
 ## Decision rule and claim ceiling
 

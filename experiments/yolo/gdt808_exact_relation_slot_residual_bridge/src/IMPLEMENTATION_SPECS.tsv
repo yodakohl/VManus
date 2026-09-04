@@ -14,19 +14,31 @@ WORD_LENGTH_BINS	1|2|3|4|5|6|7PLUS	PRIMARY
 HISTOGRAM_COUNT_BINS	0|1|2|3PLUS	PRIMARY
 SLOT_OFFSETS	L2|L1|R1|R2	PRIMARY
 SLOT_BRACKETS	L2_L1|L1_R1|R1_R2	PRIMARY
-SLOT_NEIGHBOUR_RULE	rank-stable exact complete whole and not Q152; otherwise emit nothing	PRIMARY
+SLOT_NEIGHBOUR_RULE	rank-stable exact complete whole and not Q152; otherwise omit atom and every bracket requiring it	PRIMARY
+TEMPLATE_ORDINAL_RULE	assign signed bin from original raw token ordinal before quarantine deletion; deleted tokens never close gaps	PRIMARY
+SLOT_ED1_ORDER	delete ED1 atomic neighbours before building L2_L1 L1_R1 R1_R2 brackets	REQUIRED_SENSITIVITY
 FEATURE_SUPPORT	at least two training carriers and two training physical folios	PRIMARY
 FEATURE_VALUE	binary presence in every deck	PRIMARY
 NB_ALPHA	0.5	PRIMARY
 NB_CLASS_PRIOR	equal	PRIMARY
-NB_CELL_WEIGHT	equal total training weight per carrier-class cell	PRIMARY
+NB_CELL_WEIGHT	event weight 1/n(carrier,class) within fold; weighted binary feature counts give equal total training weight per nonempty carrier-class cell	PRIMARY
 DECK_EVENT_SCORE	mean known-feature log likelihood ratio; all-OOV equals zero	PRIMARY
 PRIMARY_NUISANCE_SCORE	TOPIC plus TEMPLATE plus FORM_REGIME deck scores	PRIMARY
 PRIMARY_AUGMENTED_SCORE	PRIMARY_NUISANCE_SCORE plus SLOT_HOLE deck score	PRIMARY
 UNION_SCORER	one alpha-half MNB over union of namespaced features	REQUIRED_SENSITIVITY
 CONDITIONAL_STRATUM	carrier|section|language|hand|target-free-line-length-bin	PRIMARY
-AMOUNT_CONTACT	GDT759 QUANTITY_VALUE span on same locus within token distance two	TOPOLOGY_ONLY
-QUALITY_VALUE_CONTACT	GDT759 PART_STATE or PREPARATION_VALUE span on same locus within token distance two	TOPOLOGY_ONLY
-PART_FORM_CONTACT	GDT768 anchor occurrence on same locus within token distance two	TOPOLOGY_ONLY
-CONTACT_LOG_OR	absolute Haldane-corrected log odds expanded versus base computed separately per axis then take maximum	TOPOLOGY_ONLY
+CONDITIONAL_AGGREGATION	within each carrier pool same-stratum positive-negative pairs with ties half; macro across carriers; pooled pair score audit only	PRIMARY
+FIXED_LOGLOSS	carrier-class-weighted binary cross entropy of sigmoid(sum of relevant mean-LLR deck scores)	PRIMARY
+LABEL_NULL_MOBILITY	emit changed count and fraction per repetition; below 0.20 is reporting-only LOW_MOBILITY	AUDIT_ONLY
+LABEL_NULL_DIRECTION	destination i receives source i-k modulo stratum size; inherited GDT807 right rotation	PRIMARY
+OVERLAY_JOIN	exact page+locus plus 1-based ordinal; recompute physical folio from page	TOPOLOGY_ONLY
+OVERLAY_QUARANTINE	drop GDT759 contact unless both endpoint surfaces are outside Q152; drop GDT768/GDT757 anchor if its surface is Q152	TOPOLOGY_ONLY
+AMOUNT_CONTACT	GDT759 QUANTITY_VALUE span; focal outside closed span and distance to span is one or two	TOPOLOGY_ONLY
+QUALITY_VALUE_CONTACT	GDT759 PART_STATE or PREPARATION_VALUE span; focal outside closed span and distance to span is one or two	TOPOLOGY_ONLY
+PART_FORM_CONTACT	GDT768 anchor at nonzero absolute ordinal distance one or two	TOPOLOGY_ONLY
+FORMULA_CONTACT	GDT757 anchor at nonzero absolute ordinal distance one or two; display audit only with no rival points	AUDIT_ONLY
+CONTACT_LOG_OR	per axis absolute Haldane-corrected expanded/base log odds; zero total contacts gives NA; take maximum axis	TOPOLOGY_ONLY
+CONTACT_FOLIO_COUPLING	folio score uses contact folios on same axis selected by maximum absolute log odds; lexical axis breaks exact tie	TOPOLOGY_ONLY
+READER_STABILITY_DENOMINATOR	minimum L/DY stable proportion among parsed strict CORE13 occurrences before stability LCS and singleton filters	TOPOLOGY_ONLY
+REVERSED_CARRIER_COUNT	maximum across M01/M02 count of scoreable carriers with augmented AUC below 0.50; ties not reversed	TOPOLOGY_ONLY
 HISTORICAL_RIVAL_TIEBREAK	total points descending then rival_id lexical	TOPOLOGY_ONLY
