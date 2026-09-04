@@ -278,7 +278,6 @@ pages. `okal` has 16 running uses plus four labels; its label/prose role
 transfers, but ranks and controls are common enough that only the structural
 tag `CROSS_SCOPE_LABEL_PROSE_WHOLE` was selected. `otedy` remains an unselected
 bounded-field/f77-port rival. GDT792 passes 257 checks/two byte replays.
-
 GDT793 then evaluates all 41 literal `okal*` occurrences (26 running in 17
 paragraphs;15 labels). Masking the family recovers 0/3 alleged source owners;
 f72's two `okal` plus two `okaly` labels yield four member assignments and the
@@ -292,8 +291,9 @@ plaintext; the opaque-renderer null survives and no substring/longer form
 inherits it. GDT793 passes 181 checks/two byte replays. Reports: GDT792 and
 `experiments/yolo/gdt793_okal_whole_record_candidate_discriminator/REPORT.md`.
 GDT794–GDT795 recover101 source-native Kluge-A labels/74 boundary families and reject fixed member, ordinal and shared-transform codes;35/87 consecutive labels share the formal prefix versus null23.398 (`p=.000800`).
-GDT796 reproduces only a descriptive f71 relative-reflection texture: F9/R0 raw `p=.003905`, fixed-mask `p=.034415`, but normalized held-half ranks203/264 and the effect is mainly f70–f71; it is no decoder direction.
-The guarded visual bridge has174 states but barrel/facing are page×ring-confounded; all three concrete visual rivals remain below gate and there are zero selected status cards or prose exports.
-Target-masking rejects `AQABAC=günstige Facies`; only the open marked-quality rival remains. `AQABBA=Facies mit benefischem Herrscher` is C0 on two Pisces/Gemini events, lacks sign-holdout capacity and is contradicted by the Chaldean control.
-The live model remains a learned individual designation plus locally blocked graphical/status material. Picatrix sign holdout predicts only2/5 unambiguous statuses; zero components or lexemes export. GDT796 passes11,856 checks/two byte replays.
-**Next:** on the same admitted outer rings freeze f70-R0/f71-F9/f72-R0 and test label-blind clothing states; in parallel discriminate family-pooled AQABBA from surface-specific learned `okaldy/otaldy` hosts. Open no new page.
+GDT796 retains only a descriptive f71 reflection texture; visual cards stay below gate, `AQABAC=benefic` fails, and the two-event AQABBA facies rival lacks holdout capacity. Learned designation plus local graphical/status material remains primary;11,856 checks/two replays pass.
+## GDT797 concrete AQABBA complete-whole split
+
+Across six exact events, the four external hosts split 4/4: `okaldy` joins an f82 pool label to an f75 pool paragraph, while `otaldy` joins an f88 Gabelwurzelstock to an f95 whole-plant paragraph. Surface-keyed LOHO is4/4 versus family pooling0/4, but the exact micro-null is only `p=.333333`.
+The occurrence-bound C0 displays are `okaldy=Bade-/Behandlungseintrag` and `otaldy=Wurzel-/Drogenartikel`; no substring exports, two old generic GDT666 action cells are quarantined, the broad ok/ot control is weak (`p=.653417`), f18r.8 counters, the opaque null survives, and 492 checks/two replays pass.
+**Next:** test prose-only complete `qokaldy`/DAQABBA without a `q` component, and independently test frozen f70-R0/f71-F9/f72-R0 label-blind clothing relations on admitted canvases; open no new page.

@@ -21417,3 +21417,51 @@ learned entries: `okaldy` has station/figure-system contacts while `otaldy`
 has herbal/drug-material contacts. Neither route may infer `benefic` from a
 host paragraph without an independent planetary anchor. Primary report:
 `experiments/yolo/gdt796_outer_ring_mirror_status_facies_bridge/REPORT.md`.
+
+
+## GDT797 AQABBA surface-host split and concrete whole displays
+
+GDT797 tests seven enumerated contacts without opening a new page, image or
+transcription. Six are primary complete-whole events: each of `okaldy` and
+`otaldy` has one source-circle label, one non-celestial local label and one
+non-celestial running paragraph. The seventh, f18r.8, is sensitivity-only
+because ZL3b/RF1b read `okal dy` and only IT2a joins `okaldy`.
+
+The four primary off-circle host units split by complete surface. `okaldy`
+contacts the f82 upper pool figure and the f75 pool/apparatus paragraph;
+`otaldy` contacts the f88 Gabelwurzelstock and the f95 whole-plant paragraph.
+A surface-keyed leave-one-host-out model recovers 4/4 and AQABBA family pooling
+0/4. Of eleven recurrent source families, only AQABBA among the three with
+enough external surface capacity has positive keyed gain. With two contacts
+per surface, however, the exact six-permutation result is only `p=.333333`.
+
+The selected exploratory architecture is hybrid: the source family may still
+carry locally conditioned facies/register material, while complete surfaces
+behave as separately learned content entries. The current concrete C0 displays
+are therefore `okaldy=Bade-/Behandlungseintrag` and
+`otaldy=Wurzel-/Drogenartikel`, restricted to the six enumerated contexts.
+Circle labels receive only the weaker combined hybrid prediction. Neither
+display is a confirmed word or plaintext, and no `ok`, `ot`, `al`, `dy`,
+family or unseen occurrence inherits it.
+
+The broader target-excluded `ok...` versus `ot...` calibration in AQAB/AQABA
+is directionally compatible but weak: 7/4 versus 4/5 figure/plant contacts,
+`OR=2.1875`, Fisher `p=.653417`. The four-host result is also macro-domain
+dependent: `otaldy` joins a material register to a whole-plant article rather
+than reproducing one fine topology. The opaque-null model remains live.
+
+GDT797 quarantines the old GDT666 compositional action
+`otaldy=kalten Rohstoff-I-Ansatz fertigstellen` in the two released-scope
+GDT734 cells where it remained active. That action was assembled from analyst
+parts and is incompatible with the one-word radial/material labels. The full
+f75/f95 paragraphs remain visible with only the exact target replaced; all
+other tokens stay untranslated rather than becoming generic work prose.
+
+The executable build selected only exact guarded loci and materialized no
+sealed row. A pre-experiment broad scratch search had traversed pre-existing
+sealed metadata text; no value from that transient display enters an input,
+artifact, score or hypothesis. Independent validation passes 492 checks and
+two byte-identical replays. Next test complete prose-only `qokaldy`/DAQABBA as
+a learned whole, not as `q + okaldy`, and independently test the frozen
+f70-R0/f71-F9/f72-R0 clothing relation. Primary report:
+`experiments/yolo/gdt797_aqabba_surface_host_domain_discriminator/REPORT.md`.
