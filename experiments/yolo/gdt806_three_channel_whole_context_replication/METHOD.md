@@ -27,13 +27,18 @@ Each contact is binary within QUALITY, SCALAR, CARRIER and PROCESS. Raw and
 pair-sequence-stable macro rates use only the mapped contacts in the relevant
 channel and side as denominators. Each candidate contains one fixed L1 macro
 and one fixed R1 macro, so no candidate receives a signature-width advantage.
+Because macro base rates still differ sharply, every target delta is also
+centered on the pooled occurrences of its twelve fixed GDT804 K12 controls.
+The absolute and centered deltas must point to the same rival.
 
 ## Decision and interpretation
 
 Candidate scores are the mean of their L1 and R1 macro rates. Narrow and
-disjoint-global residual deltas must agree in direction, exceed 0.05 in raw and
-stable views, retain direction in at least 80 percent of leave-one-folio-out
-stable folds and remain un-reversed in the recombined full-global sensitivity.
+disjoint-global residual absolute and K12-centered deltas must agree in
+direction, exceed 0.05 in raw and stable views, retain direction in at least 80
+percent of leave-one-folio-out stable folds and ten of twelve
+leave-one-control-surface-out folds, and remain un-reversed in the recombined
+full-global sensitivity.
 The exact channel can select only if it independently reaches bilateral
 capacity; otherwise it is annotated but underpowered.
 

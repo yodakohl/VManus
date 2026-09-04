@@ -40,9 +40,12 @@ The fixed duels are `MAT_PREP` versus `QUALITY_STATE` for `cheol` and `otal`,
 - `GLOBAL652_FULL`: a sensitivity overlay that recombines C1, C2 and C3; it is
   not an additional independent channel.
 
-The expected raw L/R capacities are C1 1/5, C2 91/87, C3 427/421 and full
-519/513; pair-stable capacities are 1/4, 65/60, 300/277 and 366/341. These
-counts apply to the six targets together and are builder assertions.
+For the six duel targets together, the expected raw L/R capacities are C1
+1/4, C2 77/84, C3 376/374 and full 454/462; pair-stable capacities are 1/3,
+56/57, 263/244 and 320/304. The wider eleven-target atlas totals—1/5, 91/87,
+427/421 and 519/513 raw—are not used as duel denominators. Both levels are
+asserted separately so `chal/chedal/qotal` cannot enter the six-target score
+silently.
 
 The fail-closed global deck begins with GDT734's 1,606 confidence rows/1,602
 surfaces. It keeps W2/W3 rows with zero GDT734 composition credit, zero
@@ -66,26 +69,58 @@ A contact may hit more than one macroclass, but within one contact and
 macroclass it counts at most once. For each target, channel, side and view,
 `p = macro hits / mapped contacts`. The stable view restricts both numerator
 and denominator to GDT805 pair-sequence-stable contacts. A candidate score is
-`0.5 × (p_L + p_R)`, and delta is candidate A minus candidate B. Missing
-bilateral capacity yields `NA`, never zero.
+`0.5 × (p_L + p_R)`, and absolute delta is candidate A minus candidate B.
+Missing bilateral capacity yields `NA`, never zero.
 
-For C2 and C3, remove each mapped physical folio once and recompute the stable
-delta. An available fold retains direction only when its delta has the same
-strict sign as the full-channel stable delta; zero, unavailable or reversed
-folds count against. C1 is descriptive unless it has at least two stable
-contacts on each side and four physical folios.
+## Pre-build base-rate and capacity correction
+
+An adversarial calculation found that equal signature width does not equalize
+macro prevalence. QUALITY and CARRIER are much more common than PROCESS, so the
+first absolute-delta rule would reproduce deck composition even for an
+uninformative target. It is therefore retained only as a necessary
+compatibility check, never as sufficient target evidence.
+
+For each target, channel, side and view, the twelve already fixed GDT804
+`PRIMARY_K12` complete surfaces form a pooled target-specific baseline. They
+are mapped with the identical channel and macro code. The same two candidate
+scores give a K12 baseline delta, and
+`centered_delta = target_absolute_delta - pooled_K12_delta`.
+
+A direction can be selected only when both the target absolute delta and the
+centered delta point to the same rival in raw and stable views. The centered
+margin must also reach 0.05. This prevents a target from being called
+GENERAL_CARRIER, PROCESS_FIELD, QUALITY_STATE or OPAQUE_RECORD merely because
+that duel has the same built-in direction for almost every deck surface.
+
+Controls are reconstructed from the safe GDT800/GDT802 artifacts. Their pair
+stability is recomputed from the mixed cross-reader TSV only through
+`./vmanus-exp query-tsv`, with explicit columns, the inherited allow-list and
+f84/f84r rejected before materialization. No full raw row is read directly.
+
+For C2 and C3, remove each mapped target physical folio once from both target
+and pooled K12 events and recompute the stable absolute and centered deltas. A
+fold retains direction only when both have the same strict selected sign;
+zero, unavailable or reversed folds count against. A separate
+leave-one-control-surface-out diagnostic recomputes the pooled baseline twelve
+times; at least ten folds must retain the centered direction. C1 is descriptive
+unless it has at least two stable contacts on each side and four physical
+folios.
 
 ## Working-rival decision
 
 A practical rival preference requires all of the following in both C2 and C3:
 
 1. at least two stable mapped contacts on each side and four mapped folios;
-2. raw and stable deltas have the same nonzero direction;
-3. absolute raw and stable delta are each at least 0.05;
+2. raw and stable absolute deltas and raw and stable K12-centered deltas have
+   the same nonzero direction;
+3. absolute values of all four deltas are each at least 0.05;
 4. at least 80 percent of leave-one-mapped-folio-out folds retain the stable
    direction;
-5. C2 and C3 prefer the same candidate;
-6. `GLOBAL652_FULL` does not reverse that direction in either view.
+5. at least ten of twelve leave-one-control-surface-out folds retain the
+   centered direction;
+6. C2 and C3 prefer the same candidate;
+7. `GLOBAL652_FULL` does not reverse the absolute or centered direction in
+   either view.
 
 If C1 also reaches its capacity and agrees, the status may be
 `THREE_CHANNEL_CORROBORATED`; otherwise a replicated preference is explicitly
