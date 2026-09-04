@@ -12,7 +12,7 @@ Known at registration:
 - 35 carriers are raw-complete, 28 have a stable occurrence in all cells, and
   CORE13 has useful capacity in every cell;
 - after the fixed paragraph, reader, LCS, and own-family-singleton rules,
-  CORE13 contains 1,777 focal events on 596 paragraphs and 169 physical
+  CORE13 contains 1,777 focal events on 559 paragraphs and 169 physical
   folios;
 - raw section distributions differ sharply between several cells, so a raw
   context classifier is not an adequate compositional test;
@@ -48,3 +48,13 @@ The practical purpose is not to discard every imperfect hypothesis.  The
 output always retains a ranked, replaceable working theory.  The thresholds in
 `METHOD.md` control only whether that theory may be exported as a reusable
 formal slot beyond the observed complete surfaces.
+
+## Prebuild census correction
+
+After this registration was published but before any official score was built,
+the independent validator reconstructed the paragraph union and exposed one
+transcription error above: `596` is the ALL28 sensitivity paragraph count, not
+the CORE13 paragraph count.  An independent replay from the guarded sources
+confirmed that the fixed 1,777 CORE13 events occupy 559 strict paragraphs,
+1,403 focal lines, and 169 physical folios.  No event, carrier, feature, model,
+threshold, rival, prototype observation, or claim ceiling changed.
