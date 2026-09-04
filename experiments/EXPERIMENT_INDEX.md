@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **787**
-- Experiment-associated tracked files: **13,985** (1.3 GiB)
-- Structured GDT337+ experiments: **452**
+- Experiments indexed: **788**
+- Experiment-associated tracked files: **14,013** (1.3 GiB)
+- Structured GDT337+ experiments: **453**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT790 | GDT790_panel_owner_image_grammar_overlay | `PASS__3_PAGES__10_IMAGE_PANELS__13_RECORDS__123_PROSE_LINES__940_PROSE_TOKENS__27_LABEL_LOCI__28_LABEL_TOKENS__10_EXACT_LABEL_PROSE_EDGES__9_MULTI_CHARACTER_EDGES__PANEL_OWNER_OVERLAY__ZERO_TOKEN_MEANING_CHANGES__ZERO_PREFIX_EXPORT` | [report](../experiments/yolo/gdt790_panel_owner_image_grammar_overlay/REPORT.md) | 28 | 291.7 KiB | 13 | STRUCTURED_YOLO |
 | GDT789 | GDT789_ar_remainder_cross_family_transfer | `PARTIAL__285_RAW_FORMS__1698_RAW__225_EXACT_FORMS__1348_EXACT__47_ROBUST_AR_OR_PREFIXES__SUPPORT_ADD_BOTH_7_OF31__HISTORICAL_EXCLUSION_8_OF31__RN12_0_OF7__RN23_0_OF6__BARE_AR_ANTEIL__WHOLE_ONLY__285_DEFAULTS__ZERO_COMPONENT_EXPORT__ZERO_NEW_RENDERER_LICENSE` | [report](../experiments/yolo/gdt789_ar_remainder_cross_family_transfer/REPORT.md) | 46 | 1.4 MiB | 13 | STRUCTURED_YOLO |
 | GDT788 | GDT788_dal_remainder_cross_family_transfer | `PARTIAL__107_RAW_FORMS__415_RAW__80_EXACT_FORMS__304_EXACT__40_PRIMARY_LATTICE_CELLS__SHIFT_BOTH_2_OF10__CORE_BOTH_4_OF10__FORMAL_FAMILY_WHOLE_ONLY__107_DEFAULTS__ZERO_COMPONENT_EXPORT__ZERO_NEW_RENDERER_LICENSE` | [report](../experiments/yolo/gdt788_dal_remainder_cross_family_transfer/REPORT.md) | 37 | 605.3 KiB | 17 | STRUCTURED_YOLO |
 | GDT787 | GDT787_keedy_remainder_cross_family_transfer | `PARTIAL__38_RAW_FORMS__601_RAW__27_EXACT_FORMS__370_EXACT__50_COMPLETE_PARADIGM_CELLS__9_FACTORIAL_ROWS__ADDITIVE_BEATS_X_5_OF9__WHOLE_4_OF9__BOTH_3_OF9__WHOLE_ONLY__END_WEAK__CLOSE_REJECTED__38_DEFAULTS__ZERO_COMPONENT_EXPORT__ZERO_NEW_RENDERER_LICENSE` | [report](../experiments/yolo/gdt787_keedy_remainder_cross_family_transfer/REPORT.md) | 36 | 420.0 KiB | 17 | STRUCTURED_YOLO |

@@ -21073,3 +21073,48 @@ Next, test `ol` separately as a complete word, a context-sensitive record
 operator and a possible written remainder. Do not inherit any automatic
 component value from the failed `keedy`, `dal` or `ar` transfer models. Primary
 report: `experiments/yolo/gdt789_ar_remainder_cross_family_transfer/REPORT.md`.
+
+## GDT790 panel-owner image grammar overlay
+
+GDT790 turns the direct visual reading of f77r, f82r and f83r into an
+executable layer above the current text grammar. A guarded explicit page query
+materializes 150 ZL3b loci: 123 prose lines/940 tokens in thirteen paragraph
+records and 27 graphical-label loci/28 tokens. The records are assigned once
+to ten visible panels: three on f77r, three on f82r, three individual upper
+figures and one lower coupled system on f83r. The lower f83r system retains two
+main and two embedded records rather than flattening the layout.
+
+The live hierarchy is now `PAGE → IMAGE_PANEL_OWNER → PARAGRAPH_RECORD →
+LINE/FIELD → EXACT_LABEL_ANCHOR`. The owner is a silent visible topic, not a
+word translation. Every prose line receives it while all ZL3b strings,
+ordinals, H1–H4 roles, exact-whole precedence and bounded `X daiin` fields stay
+unchanged. Ordinary words acquire no individual pictured figure by proximity.
+
+The complete exact label/prose join yields ten occurrence edges. Nine are
+multi-character: `otedy` is an f77r upper-arch label and then the exact f77r P2
+opener, with four additional f82r/f83r prose occurrences; `okal` is an f82r
+lower-pool label with exact earlier occurrences in P1 and P2; `otchdy` is an
+f77r middle figure-zone label and the exact f83r embedded-Q1 opener; `olaiin`
+is an f82r lower-pool figure label and occurs in f77r P3. The remaining single
+`o` edge is retained but excluded as an anchor. Same-page edges can be local
+image references; cross-page edges are reusable name/formula forms only.
+
+Five whole-form image families remain active exploratory leads. The strongest
+is **`darol/darolsy=Zufluss-/Auslasskennung`**, because the two labels sit at a
+vertical inflow and an open outlet on different pages. `okal/okaldy` is a
+same-panel adjacent pool-station pair. `dchdy/otchdy`, `otedy/dotedy` and
+`otol/otolaiin/olaiin/olsaiin` remain broader connection/station/name decks.
+None exports `d`, `ot`, `ol`, `dy`, `sy` or `aiin`; the drawings do not select
+water or oil for `ol`.
+
+The new complete reader replaces ownerless generic action prose with visible
+panel owner, exact EVA, line-head tendency, bounded fields and exact label
+references; open words remain open. Validation passes 811 checks and
+byte-replays all thirteen runner outputs, with zero new page, f84 or f84r use.
+
+Next, remain on these three pages and compare complete-form and bounded-field
+distributions across the ten visible topology classes. Seek whole forms that
+distinguish single figures, paired systems, multi-port arches, transfer
+channels, communal pools and outlet systems before opening another page.
+Primary report:
+`experiments/yolo/gdt790_panel_owner_image_grammar_overlay/REPORT.md`.
