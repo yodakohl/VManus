@@ -21166,3 +21166,58 @@ on eleven pages, four first. `otchdy` and `olaiin` are lower-capacity controls.
 `darol/darolsy` have no running-prose occurrence in the 30-page corpus and stay
 image-local. Primary report:
 `experiments/yolo/gdt791_thirty_page_visual_owner_spine/REPORT.md`.
+
+
+## GDT792 target-masked image/form host transfer
+
+GDT792 keeps the exact GDT791 thirty-page scope and masks the inherited glosses
+of four complete forms while learning physical host roles from the 27
+non-deep pages and checking f77r/f82r/f83r. The executable atlas has 58 target
+occurrences: `otedy` 18 running/one local, `okal` 16/four, `otchdy` three/two
+and `olaiin` eleven/three. The outside/held split is 39/9 running plus 6/4
+local. Two physical roles, three local-scope memberships and three novel
+topology memberships transfer.
+
+The strongest form is `okal`. It has four singleton labels across f67r, f72r
+and f82r, three physical pages and two topology families; fifteen of sixteen
+running occurrences are line-internal (13/14 outside, 2/2 held). It ranks first
+on the all-30 label-breadth ordering and beats all eight controls in each of two
+sensitivity decks. Those favorable summaries are not independent semantic
+evidence: the all-30 rank includes the held f82 label; outside-only rank is 4
+(multicharacter rank 2); the decks overlap 7/8 and have nine unique controls;
+and 105/139 testable recurrent forms pass the same 60% transfer rule.
+
+Two new f72 and two retained f82 exact-whole reuse observations form only two
+page clusters. GDT388 accepts the two new rows as acquisition but reports zero
+eligible edges and `score_ready=false`; all four retain zero semantic credit
+and no reference direction. Address/reference, label/class, addressed member,
+name, grade and number predict the observed host geometry equally well.
+Accordingly the preregistered observable trigger fires, but the proposed
+`Ziel-/Bezugsstelle` consequence is withheld. The selected structural tag is
+`CROSS_SCOPE_LABEL_PROSE_WHOLE`; selected semantic glosses remain zero.
+
+The twenty exact-scope overlay rows comprise fifteen true GDT734 cache
+positions, where `Rohstoffklasse I im heißen Ansatz, Gradanfang` and the actual
+cache display are quarantined without being semantically refuted, plus five
+new structural positions. None emits translated prose or exports `ok`, `al` or
+another component.
+
+For `otedy`, the inherited 18/18 parser-final regularity becomes only 1/18
+physical-line-final: fifteen are internal, two initial. GDT791-corrected hosts
+split into nine singleton and nine attached fields. All running tokens are
+Currier B (17 hand 2/one hand 3), and only ten of eighteen have a unique forced
+partner in both alternate-reader alignments. The bounded state/value-field and
+f77-local port/status readings stay active C0 rivals, not renderer values.
+
+Reader stability is rebuilt with all maximum exact-token same-line LCS
+alignments. A match counts only when every maximum alignment must include the
+reference occurrence and exactly one alternate partner is possible. Across
+116 target/reader pairs, 95 are uniquely forced and 21 have no exact alignment;
+all receive zero independent semantic credit because the readings describe one
+manuscript.
+
+Validation passes 257 checks, exact source hashes, two byte-identical builder
+replays and relation-intake replay. Next, use whole-paragraph/page predictions
+and the complete `okal*` family to distinguish the unresolved concrete models;
+do not rerun another generic line-position or label-reuse test. Primary report:
+`experiments/yolo/gdt792_target_masked_image_form_host_transfer/REPORT.md`.

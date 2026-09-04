@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **790**
-- Experiment-associated tracked files: **14,069** (1.3 GiB)
-- Structured GDT337+ experiments: **455**
+- Experiments indexed: **791**
+- Experiment-associated tracked files: **14,094** (1.3 GiB)
+- Structured GDT337+ experiments: **456**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT792 | GDT792_target_masked_image_form_host_transfer | `PARTIAL__58_TARGET_OCCURRENCES__48_RUNNING__10_LOCAL__39_OUTSIDE_RUNNING__9_HELD_RUNNING__6_OUTSIDE_LOCAL__4_HELD_LOCAL__2_PHYSICAL_ROLE_TRANSFERS__3_LOCAL_SCOPE_TRANSFERS__3_CROSS_TOPOLOGY_LABEL_TRANSFERS__4_OKAL_SAME_PAGE_CROSS_OWNER_STRING_REUSES__OKAL_CROSS_SCOPE_LABEL_PROSE_WHOLE__PREREGISTERED_RAW_GATE_PASS__SEMANTIC_GLOSS_UNDERDETERMINED__20_STRUCTURAL_OVERLAYS__15_PREDECESSOR_QUARANTINES__5_NEW_OVERLAYS__OTEDY_RIVALS_UNSELECTED__ZERO_SEMANTIC_RENDERER_PATCHES__ZERO_COMPONENT_EXPORT__ZERO_CONFIRMED_LEXEMES` | [report](../experiments/yolo/gdt792_target_masked_image_form_host_transfer/REPORT.md) | 25 | 275.2 KiB | 9 | STRUCTURED_YOLO |
 | GDT791 | GDT791_thirty_page_visual_owner_spine | `PASS__30_VISUALLY_REVIEWED_PAGES__35_SOURCE_SELECTORS__1007_LINES__5866_TOKENS__612_RUNNING_PROSE_LINES__392_LOCAL_LABEL_LINES__3_EMPTY_LINES__5122_RUNNING_EVENTS__744_LOCAL_CARDS__3_DEEP_PAGES__13_RECORDS__235_LEGACY_STATEMENTS__240_RECORD_LOCAL_FRAGMENTS__5_CROSS_RECORD_STATEMENTS__2_CROSS_RECORD_ALIASES_QUARANTINED__1_RAW_GOVERNOR_CROSSING_CLIPPED__ZERO_EFFECTIVE_HOST_CROSSINGS__ZERO_SEMANTIC_EXPORT` | [report](../experiments/yolo/gdt791_thirty_page_visual_owner_spine/REPORT.md) | 25 | 1.8 MiB | 7 | STRUCTURED_YOLO |
 | GDT790 | GDT790_panel_owner_image_grammar_overlay | `PASS__3_PAGES__10_IMAGE_PANELS__13_RECORDS__123_PROSE_LINES__940_PROSE_TOKENS__27_LABEL_LOCI__28_LABEL_TOKENS__10_EXACT_LABEL_PROSE_EDGES__9_MULTI_CHARACTER_EDGES__PANEL_OWNER_OVERLAY__ZERO_TOKEN_MEANING_CHANGES__ZERO_PREFIX_EXPORT` | [report](../experiments/yolo/gdt790_panel_owner_image_grammar_overlay/REPORT.md) | 28 | 291.7 KiB | 13 | STRUCTURED_YOLO |
 | GDT789 | GDT789_ar_remainder_cross_family_transfer | `PARTIAL__285_RAW_FORMS__1698_RAW__225_EXACT_FORMS__1348_EXACT__47_ROBUST_AR_OR_PREFIXES__SUPPORT_ADD_BOTH_7_OF31__HISTORICAL_EXCLUSION_8_OF31__RN12_0_OF7__RN23_0_OF6__BARE_AR_ANTEIL__WHOLE_ONLY__285_DEFAULTS__ZERO_COMPONENT_EXPORT__ZERO_NEW_RENDERER_LICENSE` | [report](../experiments/yolo/gdt789_ar_remainder_cross_family_transfer/REPORT.md) | 46 | 1.4 MiB | 13 | STRUCTURED_YOLO |
