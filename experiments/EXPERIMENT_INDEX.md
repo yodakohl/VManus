@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **804**
-- Experiment-associated tracked files: **14,426** (1.3 GiB)
-- Structured GDT337+ experiments: **469**
+- Experiments indexed: **805**
+- Experiment-associated tracked files: **14,435** (1.3 GiB)
+- Structured GDT337+ experiments: **470**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT806 | GDT806_three_channel_whole_context_replication_prebuild | `REGISTERED__6_FIXED_WHOLES__12_EQUAL_WIDTH_RIVALS__3_DISJOINT_PROVENANCE_CHANNELS__652_FAIL_CLOSED_GLOBAL_SURFACES__577_GLOBAL_RESIDUAL__7_FIXED_REAL_FRAMES` | [report](../experiments/yolo/gdt806_three_channel_whole_context_replication/PREREGISTRATION.md) | 9 | 16.1 KiB | 7 | STRUCTURED_YOLO |
 | GDT805 | GDT805_eleven_whole_context_role_discriminator | `PARTIAL__1086_EXTERNAL_EVENTS__916_TARGET_TOKEN_STABLE__131_GDT739_SURFACES_AUDITED__75_PRIMARY_SURFACE_PROJECTIONS__21_K12_PROFILE_LEADS__2_DOMINATE_ALL_K12__7_REAL_TWO_SIDED_MULTIFOLIO_FRAMES__0_NEW_ROLE_SELECTIONS__2_PRIORS_RETAINED__ZERO_LEXEMES` | [report](../experiments/yolo/gdt805_eleven_whole_context_role_discriminator/REPORT.md) | 27 | 867.8 KiB | 14 | STRUCTURED_YOLO |
 | GDT804 | GDT804_bracket_middle_independent_field_bridge | `PARTIAL__11_BRACKET_MIDDLES__0_OPEN_SLOT_INTERSECTION__72_COMMON_MASK_FIELDS__18_OF_45_FIELD_CELLS__15_POSITIONAL_AMOUNT_NEIGHBOURS__0_GDT760_CLEAN_CONTENT_CONTACTS__FIELD_ASSOCIATION_MATCH_SENSITIVE__CONTENT_SLOT_UNRESOLVED__41_ZL3B_QUALITY_VALUE_SPANS__33_CROSS_READER_SEQUENCES__CHEOL_SPECIFICITY_UNRESOLVED__ZERO_LEXEMES` | [report](../experiments/yolo/gdt804_bracket_middle_independent_field_bridge/REPORT.md) | 31 | 994.4 KiB | 17 | STRUCTURED_YOLO |
 | GDT803 | GDT803_recurrent_context_rarity_discriminator | `PARTIAL__14_STABLE_CONTEXTS__450_CORE_NEIGHBOUR_EVENTS__12_ALL_L_DOUBLE_BRACKETS__LEFT_IDENTITY_BEATS_RARITY__RIGHT_UNRESOLVED__ZERO_LEXEMES` | [report](../experiments/yolo/gdt803_recurrent_context_rarity_discriminator/REPORT.md) | 27 | 265.6 KiB | 7 | STRUCTURED_YOLO |
