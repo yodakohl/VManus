@@ -37,8 +37,11 @@ The primary feature vector is a bag of exact remaining whole surfaces.  It
 contains no substring, edit-neighbour, renderer, role, German, illustration,
 page identity, section, language, hand, or target-position feature.
 
-Eligible remainders have at least twelve retained tokens and two nonempty
-retained lines.  `RAW_PAIRED` and `STABLE_PAIRED` use the exact quarantine.
+Eligible remainders have at least twelve tokens and two nonempty lines after
+the complete-line mask but before exact-family or ED1 feature quarantine.
+Post-mask length bins use that same pre-feature-quarantine token count.  Thus
+the direct four views retain the same raw or stable paragraph units instead of
+selecting an easier ED1 subsample.  `RAW_PAIRED` and `STABLE_PAIRED` use the exact quarantine.
 `RAW_ED1_SENSITIVITY` and `STABLE_ED1_SENSITIVITY` additionally remove every
 surface at Levenshtein distance at most one from any registered target; these
 are destructive sensitivities rather than promotion channels.
@@ -53,8 +56,14 @@ rebuilt from training data and retains an exact surface only when it has at
 least two training tokens in at least two training paragraphs.  A multinomial
 naive-Bayes model uses additive alpha `1/2` and equal class priors.  The primary
 decision value is the mean positive-minus-negative log likelihood over the
-retained tokens.  AUC counts ties as one half; balanced accuracy thresholds the
-decision at zero.  A paragraph, never an occurrence, is one vote.
+test tokens present in that fold's vocabulary; out-of-vocabulary tokens make
+no contribution and do not enter the mean denominator.  AUC counts ties as one half; balanced accuracy thresholds the
+decision at zero.  A paragraph, never an occurrence, is one vote.  If none of
+a paragraph's tokens belongs to the in-fold vocabulary, its decision score is
+exactly zero and it remains a tied vote.  A zero score contributes one half of
+a correct vote to either class in balanced accuracy.  A held fold is scoreable
+when both classes remain represented in training; an empty in-fold vocabulary
+is allowed and produces tied zero scores.
 
 ## Exchange null and K24 pseudo-pairs
 
@@ -67,6 +76,14 @@ remain unchanged, no replacement permutation is invented, and tied nulls
 count against the target.  The remainders do not move.  This preserves target
 prevalence, multi-target correlation, register, and approximate length while
 breaking the proposed target-to-remainder link wherever the stratum permits.
+Within each stratum, destinations are sorted by `(page lexicographically,
+paragraph_start_line numerically, paragraph_id)` and destination `i` receives
+the original membership set from source `(i-k) mod n`.  Every offset reports
+how many complete membership sets actually moved.
+The rotation covers every eligible strict paragraph, including paragraphs
+whose membership set is empty.  Pair exclusivity is derived only after the
+complete sets have moved; it is not a permutation restricted to already
+selected positive and negative units.
 
 The full `PRIMARY_K12` lists in GDT804's
 `GDT804_NEAREST_CONTROL_POOLS.tsv` supply 24 deterministic pseudo-pairs per
@@ -78,7 +95,13 @@ pseudo-pair uses the same strict paragraph builder, model, and folio folds.
 Its line mask is the common seven-target set plus both pseudo-pair control
 surfaces; its feature quarantine likewise adds both control wholes.  Thus the
 classifier cannot see the surfaces that define its pseudo-label.  Ties count
-against the target when ranks are reported.
+against the target when ranks are reported.  Control membership comes only
+from GDT800's `l`-terminal occurrence universe, matching the source of the K12
+selection; guarded all-token hits are a parity audit and cannot enlarge it.  A
+pseudo-pair is scoreable only when every evaluated held-folio unit has both
+classes represented in its training fold.  Its specificity rank is
+`1 + count(scoreable_pseudo_auc >= target_auc)`; at least eighteen of the 24
+pseudo-pairs must be scoreable.
 
 ## Secondary overlays
 
@@ -102,8 +125,15 @@ A pair is `ROBUST_NONLOCAL_PARAGRAPH_ECOLOGY_SPLIT` only when:
 - AUC remains above 0.50 after removal of each single eligible folio in at
   least 80 percent of the reported removal diagnostics.
 
-If raw/stable AUC and stable balanced accuracy pass but a robustness gate does
-not, the pair is `PROVISIONAL_PARAGRAPH_ECOLOGY_SPLIT`.  Otherwise it is
+For the last gate, remove each folio in the union of the pair's two stable
+sides, rebuild the complete held-folio model on the remaining paragraphs, and
+count only removals for which both classes and every resulting evaluation fold
+remain scoreable.  Print both the scoreable denominator and every unscoreable
+removal.
+
+If `RAW_PAIRED` and `STABLE_PAIRED` AUC plus `STABLE_PAIRED` balanced accuracy
+pass 0.60 but a robustness gate does not, the pair is
+`PROVISIONAL_PARAGRAPH_ECOLOGY_SPLIT`.  Otherwise it is
 `NO_PARAGRAPH_ECOLOGY_SPLIT`.
 
 An exact whole may be named only as a `PARAGRAPH_ECOLOGY_LANDMARK` when it

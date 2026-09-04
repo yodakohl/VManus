@@ -81,6 +81,14 @@ details were closed explicitly: length bins use
 Each K24 pseudo-pair additionally removes every line containing either of its
 two control surfaces and quarantines both surfaces from features; otherwise
 the model would be allowed to read its own pseudo-label.
+Eligibility and length are fixed immediately after that line mask and before
+feature quarantine.  A document with no in-fold vocabulary token remains as a
+zero-score tie; balanced-accuracy ties count one half.  Cyclic exchange moves
+complete memberships across all eligible paragraphs, including empty sets,
+using sorted destination `(page, numeric start line, paragraph id)` and source
+`(i-offset) mod n`, and derives pair exclusivity afterward.  K24 membership stays inside the
+GDT800 `l`-terminal universe; scoreability, target rank, and the single-folio-
+removal denominator follow the explicit definitions in `METHOD.md`.
 Any implementation correction must
 be documented before interpreting changed results and must not choose a new
 pair, direction, threshold, or candidate meaning from the observed score.
