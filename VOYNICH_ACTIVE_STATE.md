@@ -21037,3 +21037,39 @@ Next, run the repaired remainder tournament on `ar`, whose current complete-
 whole lead is Anteil/Fraktion, and then on `ol`. Preserve complete-whole cards
 and the 996-mask discipline. Primary report:
 `experiments/yolo/gdt788_dal_remainder_cross_family_transfer/REPORT.md`.
+
+## GDT789 `ar` remainder cross-family transfer
+
+GDT789 inventories the longest-ending `*ar` partition after excluding the
+already assigned `*dar` tail: 285 raw forms/1,698 tokens and 225 reader-exact
+forms/1,348 tokens. Bare `ar` contributes 242 exact occurrences on 51 physical
+folios. The 47 robust `Xar/Xor` pairs contain 861 versus 786 exact tokens.
+
+The target-masked profile estimate `Xor + ar - or` beats both Xor and a clean
+learned-whole control in only 7/31 high-support rows, 8/31 rows in a
+mechanically defined but partly overlapping historical-exclusion view, and
+9/47 robust rows overall. An additional surface contrast is supplied by the
+orthogonal RN12/RN23 grids, where the additive model beats all controls in 0/7
+and 0/6 full-profile rows. PART/AMOUNT axes remain sparse and unstable. A
+253-anchor role classifier has AMOUNT recall .273 and is unusable; its target
+labels remain rivals and now control zero preferred dictionary defaults.
+
+The best exploratory complete-word card remains **`ar=Anteil`**, now without
+the older automatic drug patient or implicit level I. This does not license
+`Xar=X-Anteil`: every longer form remains a learned or form-specific complete
+whole. All 285 raw forms receive nonempty replaceable displays and three
+rivals—19 explicit cards, 63 recurrent neutral relationship fields, 143 exact
+singletons and 60 raw-reader warnings—with zero renderer or component export.
+
+Boundary evidence stays separate. There are 318 raw and 192 strict
+all-reader-preserved `X ar` spans plus twenty cross-locus fused/separated
+bridges. Among 352 nonbare occurrences comparable to Stolfi at the same locus,
+327 remain fused, twenty are alternate readings, four show another boundary
+and only f5r.1 has `oar→o,ar`. The 192-edge packet is valid acquisition but not
+score-ready. Validation passes 1,309 checks and byte-replays all 34 runner
+outputs without new page, image, OCR, transcription or f84/f84r access.
+
+Next, test `ol` separately as a complete word, a context-sensitive record
+operator and a possible written remainder. Do not inherit any automatic
+component value from the failed `keedy`, `dal` or `ar` transfer models. Primary
+report: `experiments/yolo/gdt789_ar_remainder_cross_family_transfer/REPORT.md`.
