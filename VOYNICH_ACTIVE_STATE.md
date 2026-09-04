@@ -21506,3 +21506,29 @@ an observed source family. The qS controls use the fixed thirty-page spine and
 touch seventeen released pages; no new page or image was opened. Independent
 validation passes 725 checks and two byte-identical replays. Primary report:
 `experiments/yolo/gdt798_qokaldy_complete_whole_paragraph_discriminator/REPORT.md`.
+
+## GDT799 label-blind outer-ring torso transition
+
+GDT799 adds 18 previously uncoded strict upper-torso states on the admitted
+f70v1 and f72r1 outer rings, at A06--A13 and A15. Two independent readers saw
+only shuffled 520-pixel crops and agreed exactly on 15/18; one
+decisive/uncertain split and two opposite decisive calls are fully disclosed.
+The final new margins are f70 3 covered/6 uncovered and f72 0 covered/9
+uncovered. Thus f70 is mobile but f72 is state-pure: clothing cannot identify
+a homologous position on f72.
+
+Under the already fixed f70-R0/f71-F9/f72-R0 alignment, decisive matches are
+3/8, 6/9 and 2/8 for f70--f71, f70--f72 and f71--f72. The combined score is
+11/25 and ranks 171/400 with 28 ties; identity is 11/27, rank 257/400. Both are
+descriptive because f72 fails mobility. The f70--f71 nine-position margin test
+is likewise weak (`p=.773810`). A header-only GDT388 packet returns valid
+acquisition but zero score-ready edges.
+
+A09 supplies the concrete counterexample: f70 `okalal` and f72 `okalam` have
+the same complete source-native boundary family `AQABAB`, but the strict torso
+state changes covered→uncovered. Therefore AQABAB is not a portable upper-
+garment value. The final surface difference remains a whole-label/local-copy
+rival, not a decoded component. Learned designation plus page/ring-conditioned
+graphical realization remains primary. Validation passes 881 checks and two
+byte-identical builder replays. Primary report:
+`experiments/yolo/gdt799_f70_f71_f72_homolog_clothing_transition/REPORT.md`.

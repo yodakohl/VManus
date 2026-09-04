@@ -1,0 +1,13 @@
+test_id	observed	reference	result	interpretation
+BLIND_EXACT_AGREEMENT	15/18	>=14/18	PASS	raw independent crop-state agreement
+OPPOSITE_DECISIVE_CALLS	2	<=2	PASS	source-aware adjudication burden
+F70_WITHIN_RING_MOBILITY	C=3|U=6	C>=2|U>=2	PASS	position can in principle vary within f70
+F72_WITHIN_RING_MOBILITY	C=0|U=9	C>=2|U>=2	FAIL	page/ring purity prevents position inference
+FIXED_F70_F71_MATCH	3/8	descriptive	REPORT	fixed R0/F9 pair
+FIXED_F70_F72_MATCH	6/9	descriptive	REPORT	invariantly inflated by f72 uncovered purity
+FIXED_F71_F72_MATCH	2/8	descriptive	REPORT	invariantly determined by f72 margin
+FIXED_400_TRANSFORM_RANK	rank=171/400|ties=28|accuracy=0.440000	rank<=40|ties<=40 after mobility	NOT_ELIGIBLE	diagnostic only because f72 is nonmobile
+IDENTITY_400_TRANSFORM_RANK	rank=257/400|ties=2|accuracy=0.407407	descriptive	REPORT	R0/R0 comparator
+F70_F71_MARGIN_EXACT	matches=3|p=0.773810|worlds=84	within-nine-position margin null	REPORT	not a rescue for failed three-ring mobility
+EXACT_FAMILY_OPPOSITE_STATE	1	>=1	PASS	complete boundary family cannot portably denote upper-torso state
+GDT388_EDGE_PACKET	VALID_ACQUISITION_NOT_SCORE_READY	VALID_ACQUISITION_NOT_SCORE_READY	PASS	analyst homologies are not authorial directed edges
