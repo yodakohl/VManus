@@ -291,9 +291,9 @@ released occurrences. It is a replaceable owner-conditioned renderer, not
 plaintext; the opaque-renderer null survives and no substring/longer form
 inherits it. GDT793 passes 181 checks/two byte replays. Reports: GDT792 and
 `experiments/yolo/gdt793_okal_whole_record_candidate_discriminator/REPORT.md`.
-GDT794 joins216 admitted circle-label sequences/274 tokens in19 arrays on six folios. The vocabulary is199 complete sequences, only15 recurrent and eight cross-folio. Exact-whole held-folio models fail for source-list rank, visible angle, opposition axis and Kluge-A.
-
-The true09A row is `okaldal,okalal,otchody,okalam,okarcham` (3/5 `okal*`, two positive folios), a template-slot/class rival only. `otody` at visible01:00/01:15 retains the C0 whole rival “oberes rechtes Zeit-/Gradfeld”; the opaque learned-entry/class model remains primary.
-
-The circle context suppresses97 unconditional V99R7 token defaults over216 label sequences; six recurrent universal pharma wholes move to cross-scope HOLD, multi-token labels render once, and GDT794 passes167 checks/two byte replays.
-**Next:** guarded reconstruction of the complete source-native family sequence for all101 admitted Kluge-A records, then held-physical-folio A-code retrieval under one shared array transform; separately retain the bounded `otedy` family.
+GDT794 joins216 admitted circle-label sequences/274 tokens in19 arrays on six folios, corrects raw slot order and suppresses97 unconditional token defaults; exact-whole coordinate models fail. `otody` at01:00/01:15 retains only a C0 whole rival, and `okal` is not nine.
+GDT795 guardedly reconstructs all101 Kluge-A labels from394 source groups:81 all-reader boundary families,11 boundary-only disagreements and nine2/3 family readings yield74 signatures, of which11 recur.
+Across156 same-K cross-chart pairs exact member sequences match0 and families2; exact-family LOFO finds4/26 exact and6/26 within one A, while every shared transform fails the three-signature gate.
+The positive signal is local:35/87 consecutive source slots share a transferred prefix versus23.398 under within-array permutation (`p=.000800`); families and residuals do not cluster there.
+The live model is therefore an individual learned member designation plus a locally blocked graphical/register field. Four T15 position cards remain context-only; they export neither prose nor components.
+**Next:** reproduce the unstable f71 outer-ring mirror rival, then test complete families against already admitted visible attributes and sign-conditioned historical facies/status matrices under one global orientation; open no new page.

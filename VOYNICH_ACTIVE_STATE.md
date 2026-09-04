@@ -21301,9 +21301,55 @@ Universal pharmaceutical wholes for `okaly`, `okaram`, `okeal`, `otaly`,
 context-bound candidates remain preserved. Validation passes 167 checks and
 two byte-identical replays. No new page/image or mixed source was opened.
 
-Next reconstruct the full source-native family sequence for the 101 Kluge-A
-records through the guarded interface, preserving complete multi-token label
-boundaries. A useful key must recover several A-positions under one shared
-array transform; it may not choose a separate rotation for each form. Primary
-report:
+GDT795 completes the requested source-native reconstruction and supersedes that
+next-step instruction. Primary report:
 `experiments/yolo/gdt794_complete_label_multiform_slot_transfer/REPORT.md`.
+
+
+## GDT795 source-native family transfer and local register field
+
+GDT795 uses exactly the 101 already admitted GDT794 labels with a Kluge-A
+member on f70/f71/f72. Its exact-locus guarded query selects 394 aligned source
+groups and rejects 2,122 `f84*` rows before materialisation. No sealed row, new
+page, new image or new transcription enters the pass. Eighty-one loci have the
+same family sequence and boundaries in all three alternate readings, eleven
+retain the same compact family with a 2/3 boundary choice and nine require a
+2/3 family majority. Full source-member sequences are all-reader exact at 55
+loci, majority 2/3 at 36 and all-different at ten.
+
+The 101 labels contain 74 boundary-bearing family signatures, 73 compact
+signatures and 93 visible complete surfaces. Eleven family signatures recur in
+38 events. Across 156 cross-chart pairs with the same Kluge-A member, exact
+ZL3b member sequences agree zero times, boundary families twice, transferred
+prefixes 39 times and residuals three times; none beats its within-diagram
+permutation control. Exact family LOFO supplies 26 eligible targets but only
+four exact-A and six ±1 events. Those exact events reduce to two non-unique
+families: `AQABAB` at 09A and `AQABA` at 21A. The two 09A member sequences end
+B2 versus B3, so neither `AQABAB=9` nor `okal=nine` is licensed.
+
+No whole-diagram rotation/reflection recovers three independent signatures.
+The best T15 pairwise transforms recover 1/1/0 exact families and the best T30
+transform recovers two with permutation `p=.998004`. Boundary-family edit
+similarity has weak non-unique texture (99 targets, top-1 .069966,
+`p=.083832`) but does not name a member. A six-versus-seven T30 relative
+interval remains an internal catalogue rival only; the deliberately empty
+GDT388 relation packet is acquisition-valid but not score-ready.
+
+The positive transferable signal is local. Thirty-five of 87 consecutive
+source-slot edges share the formal GDT233 prefix, versus a within-array null
+mean of 23.398 (`p=.000800`); boundary families, member sequences and residuals
+do not share this adjacency concentration. The selected architecture is
+therefore **individual learned member designations plus a locally blocked
+graphical/register prefix or status field**. Prefixes remain analyst-side
+families, not words, sounds or authorial morphemes.
+
+Four complete-signature T15 cards remain as bounded catalogue displays:
+`okalal` and `okalam` at 09A/outer place4-of-10, and `otalaiin` at early inner
+02A/03A. The T30 `AQABAG` occurrence at 10A blocks any free 02–03 meaning.
+These cards have zero prose and component export. The next route must reproduce
+the C0 f71 outer-ring mirror rival, then test the small status/facies-field
+architecture against already admitted visible attributes and competing
+historical matrices under one global orientation. `AQABAC=favorable/benefic
+facies` is an explicitly untested C0 rival, not an installed meaning. Primary
+report:
+`experiments/yolo/gdt795_source_native_family_kluge_transfer/REPORT.md`.
