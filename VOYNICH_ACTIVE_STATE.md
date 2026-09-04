@@ -21221,3 +21221,49 @@ replays and relation-intake replay. Next, use whole-paragraph/page predictions
 and the complete `okal*` family to distinguish the unresolved concrete models;
 do not rerun another generic line-position or label-reuse test. Primary report:
 `experiments/yolo/gdt792_target_masked_image_form_host_transfer/REPORT.md`.
+
+
+## GDT793 `okal` whole-record candidate discriminator
+
+GDT793 uses the same thirty released pages and retains 41 complete surfaces
+beginning `okal`: 26 running occurrences in seventeen full physical paragraphs
+and fifteen local one-word labels. Exact `okal` contributes sixteen running
+and four local occurrences. Thirteen of its sixteen running uses have no
+same-page exact local label; for the whole prefix family the corresponding
+count is eighteen of 26.
+
+The candidate-specific address test masks every complete `okal*` form before
+comparing a target record with page-local label owners. The alleged source
+owner is recovered in 0/3 cases: f72 ring E→D and f82 P1/P2→lower communal
+panel all lose their complete overlap. Thus the previous address evidence was
+target self-repetition, not an independent owner fingerprint. On the f72 outer
+ring, `okal` and `okaly` each label two different members; the later prose pair
+has four equally maximal member assignments. A unique name/member renderer is
+therefore rejected.
+
+The ordered f72 sequence `okalar, okal, okaly, okal, okaly` creates both
+`okal<okaly` and `okaly<okal`, rejecting a strict complete-form number/ordinal
+ladder. Four of five homologous outer-slot-4 diagram units nevertheless carry
+an `okal*` form, so a topology-bound calendar/degree/slot renderer remains the
+strongest concrete specialization. It does not mean “four”, because family
+members also occupy several other slots. Exact `okal` has a post-hoc upper-arc
+lead (three timed celestial labels near twelve plus one f82 top-row label), but
+the low-capacity exposed window is not selected.
+
+The new C0 whole-form working default is
+`okal=KENNSTELLEN-/SYSTEMEINTRAGSCODE`, owner-conditioned as a ring or station
+entry code over its twenty exact released-scope occurrences. This is more
+specific than GDT792's structural tag but remains a renderer hypothesis, not
+plaintext. The opaque productive-renderer null survives; no `ok`, `al`, suffix
+or longer form inherits the default.
+
+Two delegated pre-build scratch scans traversed the mixed alternate-reader
+table outside the mandated guarded interface. No sealed row was displayed and
+all scratch values were excluded. The executable reacquisition uses the
+35-selector guard, selects 1,007 allowed rows and rejects 98 `f84*` rows before
+materialisation. Validation passes 181 checks and two byte-identical replays.
+Next test whether several complete label forms jointly predict several
+homologous circular-array slots under leave-one-array-out transfer; this is the
+necessary bridge from generic slot code to a real calendar/degree codebook.
+Primary report:
+`experiments/yolo/gdt793_okal_whole_record_candidate_discriminator/REPORT.md`.

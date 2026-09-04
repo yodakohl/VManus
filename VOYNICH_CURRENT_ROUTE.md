@@ -271,28 +271,25 @@ f77r/f82r/f83r; GDT791 integrates all 5,866 tokens on the thirty released pages
 and selects `PANEL > RECORD > LEGACY_STATEMENT`, clipping three cross-record
 inheritance links without inventing meanings. Use the experiment index for the
 individual reports.
-## GDT792 target-masked complete-whole host transfer
+## GDT792–GDT793 cross-scope whole and `okal` meaning
 
-Across the same thirty released pages, GDT792 tests 58 occurrences of
-`otedy/okal/otchdy/olaiin` with f77r/f82r/f83r held deep. Two physical roles,
-three local scopes and three topology memberships transfer, but the 60% rule
-is common (105/139 testable forms; 95/119 line-internal predictions).
+GDT792 tests 58 `otedy/okal/otchdy/olaiin` occurrences on the thirty released
+pages. `okal` has 16 running uses plus four labels; its label/prose role
+transfers, but ranks and controls are common enough that only the structural
+tag `CROSS_SCOPE_LABEL_PROSE_WHOLE` was selected. `otedy` remains an unselected
+bounded-field/f77-port rival. GDT792 passes 257 checks/two byte replays.
 
-`okal` is the strongest cross-scope carrier: 16 running uses (15 internal)
-plus four singleton labels on three pages/two topologies. Its all-30 rank is 1,
-outside-only rank 4 (multichar 2); its control decks overlap 7/8. Four reuse
-edges form only two page clusters and have zero semantic credit. Thus the raw
-`Ziel-/Bezugsstelle` trigger passes, but no meaning is selected. The live tag
-is `CROSS_SCOPE_LABEL_PROSE_WHOLE`; 15 actual GDT734 cells quarantine the old
-heat/material display and five positions gain structural overlays.
+GDT793 then evaluates all 41 literal `okal*` occurrences (26 running in 17
+paragraphs;15 labels). Masking the family recovers 0/3 alleged source owners;
+f72's two `okal` plus two `okaly` labels yield four member assignments and the
+order `okalar,okal,okaly,okal,okaly` rejects a strict ordinal. Four of five
+homologous outer-slot-4 units retain a calendar/degree-slot rival, not “four”.
 
-`otedy` keeps unselected bounded-field and f77-local port/status rivals:
-18/18 parser-final is only 1/18 physically final and resolves as nine singleton
-plus nine attached fields. Reader stability now requires a unique forced token
-in every maximum same-line LCS alignment. Validation passes 257 checks and two
-byte replays. Report:
-`experiments/yolo/gdt792_target_masked_image_form_host_transfer/REPORT.md`.
+The live C0 exact-whole default is `okal=KENNSTELLEN-/SYSTEMEINTRAGSCODE` on 20
+released occurrences. It is a replaceable owner-conditioned renderer, not
+plaintext; the opaque-renderer null survives and no substring/longer form
+inherits it. GDT793 passes 181 checks/two byte replays. Reports: GDT792 and
+`experiments/yolo/gdt793_okal_whole_record_candidate_discriminator/REPORT.md`.
 
-**Next:** distinguish `okal` address, class, member and grade/number models by
-different whole-paragraph/page and `okal*`-family predictions; test `otedy`
-against its `ot-/qot-edy` family without globalising the f77 port reading.
+**Next:** test whether several complete forms jointly predict several
+homologous circular-array slots; separately retain the bounded `otedy` family.
