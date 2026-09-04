@@ -291,9 +291,9 @@ released occurrences. It is a replaceable owner-conditioned renderer, not
 plaintext; the opaque-renderer null survives and no substring/longer form
 inherits it. GDT793 passes 181 checks/two byte replays. Reports: GDT792 and
 `experiments/yolo/gdt793_okal_whole_record_candidate_discriminator/REPORT.md`.
-GDT794 joins216 admitted circle-label sequences/274 tokens in19 arrays on six folios, corrects raw slot order and suppresses97 unconditional token defaults; exact-whole coordinate models fail. `otody` at01:00/01:15 retains only a C0 whole rival, and `okal` is not nine.
-GDT795 guardedly reconstructs all101 Kluge-A labels from394 source groups:81 all-reader boundary families,11 boundary-only disagreements and nine2/3 family readings yield74 signatures, of which11 recur.
-Across156 same-K cross-chart pairs exact member sequences match0 and families2; exact-family LOFO finds4/26 exact and6/26 within one A, while every shared transform fails the three-signature gate.
-The positive signal is local:35/87 consecutive source slots share a transferred prefix versus23.398 under within-array permutation (`p=.000800`); families and residuals do not cluster there.
-The live model is therefore an individual learned member designation plus a locally blocked graphical/register field. Four T15 position cards remain context-only; they export neither prose nor components.
-**Next:** reproduce the unstable f71 outer-ring mirror rival, then test complete families against already admitted visible attributes and sign-conditioned historical facies/status matrices under one global orientation; open no new page.
+GDT794–GDT795 recover101 source-native Kluge-A labels/74 boundary families and reject fixed member, ordinal and shared-transform codes;35/87 consecutive labels share the formal prefix versus null23.398 (`p=.000800`).
+GDT796 reproduces only a descriptive f71 relative-reflection texture: F9/R0 raw `p=.003905`, fixed-mask `p=.034415`, but normalized held-half ranks203/264 and the effect is mainly f70–f71; it is no decoder direction.
+The guarded visual bridge has174 states but barrel/facing are page×ring-confounded; all three concrete visual rivals remain below gate and there are zero selected status cards or prose exports.
+Target-masking rejects `AQABAC=günstige Facies`; only the open marked-quality rival remains. `AQABBA=Facies mit benefischem Herrscher` is C0 on two Pisces/Gemini events, lacks sign-holdout capacity and is contradicted by the Chaldean control.
+The live model remains a learned individual designation plus locally blocked graphical/status material. Picatrix sign holdout predicts only2/5 unambiguous statuses; zero components or lexemes export. GDT796 passes11,856 checks/two byte replays.
+**Next:** on the same admitted outer rings freeze f70-R0/f71-F9/f72-R0 and test label-blind clothing states; in parallel discriminate family-pooled AQABBA from surface-specific learned `okaldy/otaldy` hosts. Open no new page.

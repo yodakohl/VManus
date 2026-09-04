@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **794**
-- Experiment-associated tracked files: **14,167** (1.3 GiB)
-- Structured GDT337+ experiments: **459**
+- Experiments indexed: **795**
+- Experiment-associated tracked files: **14,198** (1.3 GiB)
+- Structured GDT337+ experiments: **460**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT796 | GDT796_outer_ring_mirror_status_facies_bridge | `PARTIAL__101_LOCI__OUTER10_F71_RELATIVE_REFLECTION_C0_NOT_REUSABLE__554_GUARDED_VISUAL_ROWS__174_VARYING_STATES__3_VISUAL_RIVALS_BELOW_GATE__ZERO_STATUS_CARDS__GENERAL_VISUAL_CODE_FAIL__240_HISTORICAL_TRANSFORMS__AQABAC_FORTUNATE_FACIES_TARGET_MASKED_FAIL__LEARNED_ENTRY_PLUS_LOCAL_GRAPHIC_FIELD_PRIMARY__ZERO_COMPONENT_EXPORT__ZERO_CONFIRMED_LEXEMES` | [report](../experiments/yolo/gdt796_outer_ring_mirror_status_facies_bridge/REPORT.md) | 31 | 911.6 KiB | 9 | STRUCTURED_YOLO |
 | GDT795 | GDT795_source_native_family_kluge_transfer | `PARTIAL__101_KLUGE_LOCI__394_GUARDED_GROUP_ROWS__2122_SEALED_ROWS_REJECTED_PRE_MATERIALIZATION__81_ALL3_BOUNDARY__11_BOUNDARY_ONLY_DISAGREEMENTS__9_FAMILY_DISAGREEMENTS_RESOLVED_2OF3__55_ALL3_MEMBER_SEQUENCES__74_BOUNDARY_SIGNATURES__73_COMPACT_SIGNATURES__11_RECURRENT__26_EXACT_LOFO_TARGETS__4_ANY_EXACT_A__6_ANY_PM1__ZERO_EXACT_MEMBER_SAME_K__T15_TWO_CONTEXTUAL_ANCHORS__SHARED_TRANSFORMS_FAIL__LOCAL_PREFIX_BLOCKING_35_OF_87__WEAK_FAMILY_TEXTURE__LEARNED_MEMBER_PLUS_GRAPHICAL_LAYER_PRIMARY__ZERO_COMPONENT_EXPORT__ZERO_CONFIRMED_LEXEMES` | [report](../experiments/yolo/gdt795_source_native_family_kluge_transfer/REPORT.md) | 25 | 186.4 KiB | 10 | STRUCTURED_YOLO |
 | GDT794 | GDT794_complete_label_multiform_slot_transfer | `CORRECTION__216_ADMITTED_SLOTS__19_ARRAYS__6_FOLIOS__15_REPEATED_COMPLETE_LABELS__8_CROSS_FOLIO_FORMS__RAW_SLOT4_NOT_TRUE_HOMOLOG__TRUE_KLUGE09_OKAL_PREFIX_3_OF_5__JOINT_POSITION_MODELS_ALL_FAIL__OTODY_ONE_OCLOCK_POSITION_RIVAL_C0__OPAQUE_ENTRY_CLASS_PRIMARY__ZERO_COMPONENT_EXPORT__ZERO_CONFIRMED_LEXEMES` | [report](../experiments/yolo/gdt794_complete_label_multiform_slot_transfer/REPORT.md) | 24 | 276.0 KiB | 8 | STRUCTURED_YOLO |
 | GDT793 | GDT793_okal_whole_record_candidate_discriminator | `PARTIAL__41_OKAL_PREFIX_OCCURRENCES__26_RUNNING__15_LOCAL__17_CONTEXTS__0_OF_3_TARGET_MASKED_OWNER_RECOVERIES__F72_TWO_COLLISION_TYPES__UNIQUE_MEMBER_FAIL__STRICT_ORDINAL_FAIL__4_OF_5_OUTER_SLOT4_SENSITIVITY__CLASS_SLOT_ENTRY_CODE_C0_SELECTED_FOR_20_EXACT_OKAL_OCCURRENCES__OPAQUE_RENDERER_SURVIVES__ZERO_COMPONENT_EXPORT__ZERO_CONFIRMED_LEXEMES` | [report](../experiments/yolo/gdt793_okal_whole_record_candidate_discriminator/REPORT.md) | 24 | 146.9 KiB | 11 | STRUCTURED_YOLO |

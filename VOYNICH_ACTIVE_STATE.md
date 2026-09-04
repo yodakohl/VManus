@@ -21353,3 +21353,67 @@ historical matrices under one global orientation. `AQABAC=favorable/benefic
 facies` is an explicitly untested C0 rival, not an installed meaning. Primary
 report:
 `experiments/yolo/gdt795_source_native_family_kluge_transfer/REPORT.md`.
+
+
+## GDT796 outer-ring relative reflection and status/facies bridge
+
+GDT796 uses exactly the same 101 GDT795 Kluge-A loci and opens no new page,
+image or transcription. The mixed GDT360 visual inventory is reacquired only
+through the exact-locus guard: 554 allowed rows are selected and 4,053 other
+rows skipped; five page/sign rows are separately guarded. No f84/f84r row is
+materialized. Inner-five positions remain excluded from the mirror analysis.
+
+Across the f70v1/f71v/f72r1 outer A06–A15 panel, exhaustive dihedral scoring
+selects f71 `F9` and f72 `R0` for all nested member/family edit views. The
+boundary-family raw optimized-null calibration is `p=.003905296558`; the
+fixed-missing-mask normalized calibration is `p=.034415425921`. This is a
+descriptive same-data texture, not an independent discovery. Raw split-half
+ranks are 122/400 and 7/400; normalized ranks are 203/400 and 264/400. An
+independent pair decomposition gives f70–f71 `p=.030510129363`, f71–f72
+`.078105931169` and f70–f72 `.821332682451`. The only allowed claim is
+`F71_RELATIVE_REFLECTION_TEXTURE`; copying direction, reading direction and a
+reusable member/calendar code are not identified.
+
+The visual panel contains 174 unique varying-state records: 77 barrel, 30
+clothing and 67 facing. Every barrel page×ring block and every facing block is
+state-pure; clothing has genuine variation but poor held-folio transfer. The
+concrete readings `AQABAG=figure with barrel/container`,
+`AQKA|ACA=undressed figure` and `AQACAB=profile figure` remain explicit
+candidate-deck rivals, but none passes the preregistered cross-folio-plus-null
+gate. Their renderer licence is NONE. GDT796 therefore selects zero visual
+status cards and exports none to prose or components.
+
+Two full historical 12-sign×3-facies matrices and all sixty global
+direction/offset transformations are tested under both Taurus half-page
+phases. The attractive nominal Picatrix H0 alignment that makes all three
+`AQABAC` events benefic fails once AQABAC is masked: H0 selects D+1/O9 and
+yields OTHER:2|BENEFIC:1; H1 selects D+1/O11 and yields one OTHER, one BENEFIC
+and one MALEFIC. `AQABAC=fortunate/benefic facies` is rejected. Only
+`AQABAC=marked facies/quality class, polarity open` remains C0.
+
+Picatrix H1 retains a descriptive texture (`p=.023976`) but is a mandatory
+sensitivity rather than the primary phase; H0 is `.084915`, the offsets and
+consistent families change, and leave-one-sign-out has little transfer
+capacity. The two phases together predict only two of five unambiguous
+non-target statuses. `AQABBA` is the sole intersection of H0/H1
+leave-one-family-out status-consistent families, so the concrete C0 rival
+`AQABBA=facies with benefic ruler` is retained for its two Pisces/Gemini
+events. It has no independent sign-holdout capacity, no Taurus occurrence and
+is contradicted by the Chaldean control; it is not plaintext or an installed
+renderer value.
+
+The selected architecture remains **learned individual entry/designation plus
+locally copied, sign/page/ring-conditioned graphical or status material**.
+GDT796 confirms zero words, roots, numbers, planets, facies, substances,
+actions, diseases, treatments or plaintext clauses and grants zero component
+export. Independent validation passes 11,856 checks and two byte-identical
+builder replays over sixteen canonical outputs.
+
+The next two concrete rivals are already bounded. First, freeze the
+f70-R0/f71-F9/f72-R0 outer-ten layout and acquire label-blind clothing states
+for the eighteen currently unannotated f70/f72 figures on the same admitted
+canvases. Second, compare portable AQABBA status against surface-specific
+learned entries: `okaldy` has station/figure-system contacts while `otaldy`
+has herbal/drug-material contacts. Neither route may infer `benefic` from a
+host paragraph without an independent planetary anchor. Primary report:
+`experiments/yolo/gdt796_outer_ring_mirror_status_facies_bridge/REPORT.md`.
