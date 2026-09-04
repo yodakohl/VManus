@@ -1,0 +1,32 @@
+key	value	selection_credit
+TAIL_PARSE_ORDER	eody|eol|edy|ol	PRIMARY
+PHYSICAL_FOLIO_REGEX	^(f[0-9]+[rv])	PRIMARY
+STRICT_PARAGRAPH_RULE	open only paragraph_start=1 and close only paragraph_end=1; no previous-paragraph fill	PRIMARY
+RANK_STABILITY_RULE	ZL3b within-line occurrence rank <= minimum same-surface count in ZL3b IT2a RF1b	PRIMARY
+LCS_RULE	focal removal lowers each alternate exact-token LCS optimum and exactly one equal alternate token can occupy an optimum	PRIMARY
+OWN_FAMILY_SINGLETON_RULE	count all raw ZL3b tokens from the carrier four-cell family on focal physical line; require exactly one	PRIMARY
+TOPIC_VALUE	binary surface presence	PRIMARY
+TEMPLATE_DISTANCE_BINS	L3|L4|L5PLUS|R3|R4|R5PLUS	PRIMARY
+LENGTH_BIN	floor(log2(n+1))	PRIMARY
+QUARTILE_BIN	min(4,1+floor(4*(index-1)/count))	PRIMARY
+INDEX_BINS	1|2|3|4|5PLUS	PRIMARY
+WORD_LENGTH_BINS	1|2|3|4|5|6|7PLUS	PRIMARY
+HISTOGRAM_COUNT_BINS	0|1|2|3PLUS	PRIMARY
+SLOT_OFFSETS	L2|L1|R1|R2	PRIMARY
+SLOT_BRACKETS	L2_L1|L1_R1|R1_R2	PRIMARY
+SLOT_NEIGHBOUR_RULE	rank-stable exact complete whole and not Q152; otherwise emit nothing	PRIMARY
+FEATURE_SUPPORT	at least two training carriers and two training physical folios	PRIMARY
+FEATURE_VALUE	binary presence in every deck	PRIMARY
+NB_ALPHA	0.5	PRIMARY
+NB_CLASS_PRIOR	equal	PRIMARY
+NB_CELL_WEIGHT	equal total training weight per carrier-class cell	PRIMARY
+DECK_EVENT_SCORE	mean known-feature log likelihood ratio; all-OOV equals zero	PRIMARY
+PRIMARY_NUISANCE_SCORE	TOPIC plus TEMPLATE plus FORM_REGIME deck scores	PRIMARY
+PRIMARY_AUGMENTED_SCORE	PRIMARY_NUISANCE_SCORE plus SLOT_HOLE deck score	PRIMARY
+UNION_SCORER	one alpha-half MNB over union of namespaced features	REQUIRED_SENSITIVITY
+CONDITIONAL_STRATUM	carrier|section|language|hand|target-free-line-length-bin	PRIMARY
+AMOUNT_CONTACT	GDT759 QUANTITY_VALUE span on same locus within token distance two	TOPOLOGY_ONLY
+QUALITY_VALUE_CONTACT	GDT759 PART_STATE or PREPARATION_VALUE span on same locus within token distance two	TOPOLOGY_ONLY
+PART_FORM_CONTACT	GDT768 anchor occurrence on same locus within token distance two	TOPOLOGY_ONLY
+CONTACT_LOG_OR	absolute Haldane-corrected log odds expanded versus base computed separately per axis then take maximum	TOPOLOGY_ONLY
+HISTORICAL_RIVAL_TIEBREAK	total points descending then rival_id lexical	TOPOLOGY_ONLY

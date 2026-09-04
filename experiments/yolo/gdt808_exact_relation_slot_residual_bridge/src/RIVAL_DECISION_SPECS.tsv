@@ -1,0 +1,21 @@
+rival_id	evidence_id	metric	operator	threshold	points	interpretation	semantic_credit
+R01_ATTRIBUTIVE_BINDING_PLUS_PREPARATION	E01	MIN_WITHIN_NUISANCE_MACRO_AUC	GE	0.60	1	both exact changes recur beyond learned carrier wholes	0
+R01_ATTRIBUTIVE_BINDING_PLUS_PREPARATION	E02	DY_LOCAL_GAIN	GE	0.02	2	DY inner-o change has independent local context	0
+R01_ATTRIBUTIVE_BINDING_PLUS_PREPARATION	E03	L_LOCAL_GAIN	GE	0.02	2	L inner-e change has independent local context	0
+R01_ATTRIBUTIVE_BINDING_PLUS_PREPARATION	E04	MIN_CROSS_SLOT_MACRO_AUC	LT	0.55	1	changes need not share one contextual direction	0
+R02_SHARED_FORM_STAGE	E05	MIN_CROSS_SLOT_MACRO_AUC	GE	0.60	4	both axes share a local expanded-side direction	0
+R02_SHARED_FORM_STAGE	E06	MIN_LOCAL_GAIN	GE	0.02	2	both within-axis changes have local residuals	0
+R03_QUALITY_OR_DEGREE	E07	QUALITY_VALUE_CONTACT_ABS_LOG_OR	GE	0.405465	3	at least one-and-a-half-fold independent quality/value contact	0
+R03_QUALITY_OR_DEGREE	E08	QUALITY_VALUE_CONTACT_FOLIOS	GE	4	1	contact spans four physical folios	0
+R04_PART_OR_FORM_SCOPE	E09	PART_FORM_CONTACT_ABS_LOG_OR	GE	0.405465	3	at least one-and-a-half-fold independent part/form contact	0
+R04_PART_OR_FORM_SCOPE	E10	PART_FORM_CONTACT_FOLIOS	GE	4	1	contact spans four physical folios	0
+R05_GROUP_DOSE_OR_UNIT_VALUE	E11	AMOUNT_CONTACT_ABS_LOG_OR	GE	0.405465	3	at least one-and-a-half-fold exact amount-field contact	0
+R05_GROUP_DOSE_OR_UNIT_VALUE	E12	AMOUNT_CONTACT_FOLIOS	GE	4	1	contact spans four physical folios	0
+R06_RECORD_CHANNEL	E13	MIN_WITHIN_TOPIC_OR_FORM_MACRO_AUC	GE	0.60	3	relation is portable in paragraph or register ecology	0
+R06_RECORD_CHANNEL	E14	MAX_LOCAL_GAIN	LT	0.02	2	local neighbours add little after nuisance	0
+R06_RECORD_CHANNEL	E15	MAX_CROSS_NUISANCE_INVERTED_AUC	GE	0.60	1	axes reverse with register composition	0
+R07_BREVIGRAPH_OR_ORTHOGRAPHY	E16	MIN_WITHIN_FORM_MACRO_AUC	GE	0.60	2	writing regime predicts both changes	0
+R07_BREVIGRAPH_OR_ORTHOGRAPHY	E17	MAX_LOCAL_GAIN	LT	0.02	2	no independent local contextual value	0
+R07_BREVIGRAPH_OR_ORTHOGRAPHY	E18	MIN_TARGET_READER_STABLE_RATE	GE	0.95	1	stable spelling weakens but does not remove abbreviation rival	0
+R08_CARRIER_BOUND_LEARNED_WHOLES	E19	MAX_WITHIN_NUISANCE_MACRO_AUC	LT	0.60	3	no portable within-axis ecology	0
+R08_CARRIER_BOUND_LEARNED_WHOLES	E20	MAX_REVERSED_CARRIER_COUNT	GE	5	2	many carriers reverse the pooled direction	0

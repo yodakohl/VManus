@@ -1,0 +1,9 @@
+item_type	identifier	surfaces_or_rule	selection_credit
+TAIL_PARSE_ORDER	LONGEST_FIRST	eody|eol|edy|ol	PRIMARY
+RAW_COMPLETE_CARRIER	RAW35	ch|chok|ckh|cph|cth|d|dch|dsh|e|fch|k|kch|ksh|lch|lk|lsh|octh|ok|okch|olk|opch|ot|otch|pch|qocth|qok|qopch|qot|sh|t|tch|ych|yk|ysh|yt	Q152_MAIN
+STABLE_COMPLETE_CARRIER	ALL28	ch|chok|ckh|cph|cth|dch|dsh|fch|k|kch|ksh|lch|lk|ok|okch|opch|ot|otch|pch|qok|qopch|qot|sh|t|tch|ych|yk|yt	ALL28
+CORE_CARRIER	CORE13	ch|cth|k|kch|ok|ot|pch|qok|qot|sh|t|tch|yt	CORE13
+THIN_KOL_TAL_CARRIER	THIN9	ch|cho|d|l|o|ol|qo|qoe|y	Q152_THIN
+Q152_OVERLAP	OVERLAP6	chokol|lkol|okol|olkol|qokol|ykol	Q152_DEDUP
+Q152_RULE	EXACT_ONLY	140 main plus 18 thin minus 6 overlap equals 152	PRIMARY_QUARANTINE
+ED1_RULE	SYMMETRIC_FEATURE_ONLY	any observed feature surface at Levenshtein distance at most one from Q152	DESTRUCTIVE_SENSITIVITY_ONLY
