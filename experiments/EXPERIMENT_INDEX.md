@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **796**
-- Experiment-associated tracked files: **14,222** (1.3 GiB)
-- Structured GDT337+ experiments: **461**
+- Experiments indexed: **797**
+- Experiment-associated tracked files: **14,248** (1.3 GiB)
+- Structured GDT337+ experiments: **462**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT798 | GDT798_qokaldy_complete_whole_paragraph_discriminator | `PARTIAL__10_CACHE_CELLS__8_PAGES__3_RELEASED_EVENTS__2_PARAGRAPH_HOSTS__24_OF_30_READER_WHOLES__14_OF_71_QS_CONTROLS__QOKALDY_TEXT_HOST_PURITY_RANK1_OF8_P0_125__TEXT_PAGE_CONFOUNDED__THREE_SURFACE_DOMAIN_TRIAD_6_OF6_EXACT_P0_066667__DAQABBA_NOT_SOURCE_NATIVE__QREF_QREM_C0_TIE__NO_EVIDENCE_WINNER__OPAQUE_SURVIVES__ZERO_COMPONENT_EXPORT__ZERO_CONFIRMED_LEXEMES` | [report](../experiments/yolo/gdt798_qokaldy_complete_whole_paragraph_discriminator/REPORT.md) | 26 | 195.9 KiB | 7 | STRUCTURED_YOLO |
 | GDT797 | GDT797_aqabba_surface_host_domain_discriminator | `PARTIAL__6_PRIMARY_EXACT_EVENTS__4_EXTERNAL_HOST_UNITS__4_OF_4_SURFACE_DOMAIN_SPLIT__3_CAPACITY_QUALIFIED_FAMILIES__AQABBA_UNIQUE_POSITIVE_LOHO_GAIN__MICRO_EXACT_P_0_333333__71_SOURCE_SURFACES__2_TARGET_NONCELESTIAL_MINIMAL_BRIDGES__OK_OT_CONTROL_DIRECTION_WEAK__OKALDY_BATH_ENTRY_C0__OTALDY_ROOT_DRUG_ARTICLE_C0__2_LEGACY_ACTION_CELLS_QUARANTINED__OPAQUE_NULL_SURVIVES__ZERO_COMPONENT_EXPORT__ZERO_CONFIRMED_LEXEMES` | [report](../experiments/yolo/gdt797_aqabba_surface_host_domain_discriminator/REPORT.md) | 24 | 137.9 KiB | 10 | STRUCTURED_YOLO |
 | GDT796 | GDT796_outer_ring_mirror_status_facies_bridge | `PARTIAL__101_LOCI__OUTER10_F71_RELATIVE_REFLECTION_C0_NOT_REUSABLE__554_GUARDED_VISUAL_ROWS__174_VARYING_STATES__3_VISUAL_RIVALS_BELOW_GATE__ZERO_STATUS_CARDS__GENERAL_VISUAL_CODE_FAIL__240_HISTORICAL_TRANSFORMS__AQABAC_FORTUNATE_FACIES_TARGET_MASKED_FAIL__LEARNED_ENTRY_PLUS_LOCAL_GRAPHIC_FIELD_PRIMARY__ZERO_COMPONENT_EXPORT__ZERO_CONFIRMED_LEXEMES` | [report](../experiments/yolo/gdt796_outer_ring_mirror_status_facies_bridge/REPORT.md) | 31 | 911.6 KiB | 9 | STRUCTURED_YOLO |
 | GDT795 | GDT795_source_native_family_kluge_transfer | `PARTIAL__101_KLUGE_LOCI__394_GUARDED_GROUP_ROWS__2122_SEALED_ROWS_REJECTED_PRE_MATERIALIZATION__81_ALL3_BOUNDARY__11_BOUNDARY_ONLY_DISAGREEMENTS__9_FAMILY_DISAGREEMENTS_RESOLVED_2OF3__55_ALL3_MEMBER_SEQUENCES__74_BOUNDARY_SIGNATURES__73_COMPACT_SIGNATURES__11_RECURRENT__26_EXACT_LOFO_TARGETS__4_ANY_EXACT_A__6_ANY_PM1__ZERO_EXACT_MEMBER_SAME_K__T15_TWO_CONTEXTUAL_ANCHORS__SHARED_TRANSFORMS_FAIL__LOCAL_PREFIX_BLOCKING_35_OF_87__WEAK_FAMILY_TEXTURE__LEARNED_MEMBER_PLUS_GRAPHICAL_LAYER_PRIMARY__ZERO_COMPONENT_EXPORT__ZERO_CONFIRMED_LEXEMES` | [report](../experiments/yolo/gdt795_source_native_family_kluge_transfer/REPORT.md) | 25 | 186.4 KiB | 10 | STRUCTURED_YOLO |

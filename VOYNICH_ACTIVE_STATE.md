@@ -21465,3 +21465,44 @@ two byte-identical replays. Next test complete prose-only `qokaldy`/DAQABBA as
 a learned whole, not as `q + okaldy`, and independently test the frozen
 f70-R0/f71-F9/f72-R0 clothing relation. Primary report:
 `experiments/yolo/gdt797_aqabba_surface_host_domain_discriminator/REPORT.md`.
+
+## GDT798 qokaldy paragraph discriminator and concrete C0 tie
+
+GDT798 tests complete ZL3b `qokaldy` at ten inherited cache cells on eight
+pages. The full-whitespace surface remains exact in 24/30 alternate-reader
+opportunities; the ten positions are zero line-initial, eight middle and two
+final across four section codes. Only three events lie in the released visual
+spine, collapsing to f66r:P5 and f76r:P1; the other six target pages contribute
+inherited text lines only, not new visual interpretation.
+
+Both released target hosts are prose. f66r:P5 contains the form twice at token
+positions 5 and 23 of a 30-token paragraph. f33r.2 separately has the adjacent
+complete-whole pair `okaldy qokaldy` in all three readers, but that `okaldy`
+lies outside GDT797's six licensed C0 cells and inherits no bath meaning. These
+facts admit a reference reading `davon`, but also a learned content noun
+`Heilmittel`; no decoded antecedent, material owner or clause frame decides
+between them.
+
+Controls prevent a false winner. Fourteen of 71 complete source-derived `qS`
+surfaces occur; eight have multiple hosts and `qokaldy` has purity rank 1/8,
+empirical `p=.125`. Event-level q...dy concentration falls from `.003613` to
+`.057692` after page×topology collapse; nearest-whole Fisher is `.4`. Removing
+f66/f76 leaves 52 control contacts and zero text contacts, so the apparent text
+specialization is page-confounded. A balanced qokaldy/okaldy/otaldy host triad
+is 6/6 surface-keyed versus 0/6 pooled, exact `p=.066667`; it supports distinct
+learned wholes, not any shared substring meaning.
+
+The live bounded renderer is therefore the explicit C0 tie
+`qokaldy=davon?/Heilmittel?` on the ten enumerated cells. `davon` appears first
+only as editorial display order; matched independent-axis scoring is not
+established and every candidate has `evidence_winner=NO`. The opaque learned
+whole remains primary, `anwenden` stays HOLD, and portable identity with
+`okaldy` is rejected. No `q`, `okal`, `dy`, unseen occurrence, lexeme or
+plaintext is exported.
+
+GDT798 also corrects GDT797's route shorthand: the 101-locus source-native
+atlas contains zero q-prefixed labels and zero DAQABBA rows, so DAQABBA is not
+an observed source family. The qS controls use the fixed thirty-page spine and
+touch seventeen released pages; no new page or image was opened. Independent
+validation passes 725 checks and two byte-identical replays. Primary report:
+`experiments/yolo/gdt798_qokaldy_complete_whole_paragraph_discriminator/REPORT.md`.

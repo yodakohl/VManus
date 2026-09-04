@@ -292,8 +292,8 @@ inherits it. GDT793 passes 181 checks/two byte replays. Reports: GDT792 and
 `experiments/yolo/gdt793_okal_whole_record_candidate_discriminator/REPORT.md`.
 GDT794–GDT795 recover101 source-native Kluge-A labels/74 boundary families and reject fixed member, ordinal and shared-transform codes;35/87 consecutive labels share the formal prefix versus null23.398 (`p=.000800`).
 GDT796 retains only a descriptive f71 reflection texture; visual cards stay below gate, `AQABAC=benefic` fails, and the two-event AQABBA facies rival lacks holdout capacity. Learned designation plus local graphical/status material remains primary;11,856 checks/two replays pass.
-## GDT797 concrete AQABBA complete-whole split
+## GDT797–GDT798 concrete complete-whole split
 
 Across six exact events, the four external hosts split 4/4: `okaldy` joins an f82 pool label to an f75 pool paragraph, while `otaldy` joins an f88 Gabelwurzelstock to an f95 whole-plant paragraph. Surface-keyed LOHO is4/4 versus family pooling0/4, but the exact micro-null is only `p=.333333`.
 The occurrence-bound C0 displays are `okaldy=Bade-/Behandlungseintrag` and `otaldy=Wurzel-/Drogenartikel`; no substring exports, two old generic GDT666 action cells are quarantined, the broad ok/ot control is weak (`p=.653417`), f18r.8 counters, the opaque null survives, and 492 checks/two replays pass.
-**Next:** test prose-only complete `qokaldy`/DAQABBA without a `q` component, and independently test frozen f70-R0/f71-F9/f72-R0 label-blind clothing relations on admitted canvases; open no new page.
+GDT798 tests ten complete `qokaldy` cells/eight pages and two released paragraph hosts. It retains the bounded C0 tie `davon?/Heilmittel?` with no evidence winner; qS purity rank1/8 has `p=.125`, f66/f76 removal leaves0 text controls, DAQABBA is not source-native, and 725 checks/two replays pass with zero component export. **Next:** test frozen f70-R0/f71-F9/f72-R0 label-blind clothing relations on admitted canvases; open no new page.
