@@ -101,7 +101,8 @@ selection; guarded all-token hits are a parity audit and cannot enlarge it.  A
 pseudo-pair is scoreable only when every evaluated held-folio unit has both
 classes represented in its training fold.  Its specificity rank is
 `1 + count(scoreable_pseudo_auc >= target_auc)`; at least eighteen of the 24
-pseudo-pairs must be scoreable.
+pseudo-pairs must be scoreable.  Both pseudo-pair scores and `target_auc` in
+this ranking are exclusively the `STABLE_PAIRED` view.
 
 ## Secondary overlays
 

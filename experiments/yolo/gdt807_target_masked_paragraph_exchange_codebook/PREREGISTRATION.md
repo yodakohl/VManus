@@ -89,6 +89,8 @@ using sorted destination `(page, numeric start line, paragraph id)` and source
 `(i-offset) mod n`, and derives pair exclusivity afterward.  K24 membership stays inside the
 GDT800 `l`-terminal universe; scoreability, target rank, and the single-folio-
 removal denominator follow the explicit definitions in `METHOD.md`.
+K24 ranking compares stable-paired pseudo-pair AUCs only with the direct
+`STABLE_PAIRED` target AUC.
 Any implementation correction must
 be documented before interpreting changed results and must not choose a new
 pair, direction, threshold, or candidate meaning from the observed score.
