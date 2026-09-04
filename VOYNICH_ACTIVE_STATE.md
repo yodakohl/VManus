@@ -21751,3 +21751,36 @@ seven repeated frames can sharpen it. No new page is required.
 
 Primary report:
 `experiments/yolo/gdt805_eleven_whole_context_role_discriminator/REPORT.md`.
+
+## GDT806 three-channel whole-context correction
+
+GDT806 closes the immediate-neighbour deck-concordance route without selecting
+a meaning. Its fail-closed construction contains 652 global surfaces, split
+into the 75-surface GDT739-derived narrow deck and a disjoint 577-surface
+residual. Six fixed wholes contribute 967 target events and are compared with
+target-specific K12 controls by exact Fraction scores, centered rank, raw and
+stable LOCO, stable physical-folio LOFO and an unfiltered all-opportunity
+denominator.
+
+All six duels remain `UNRESOLVED_RIVAL`: there are zero conditional preferences,
+zero cross-denominator concordances, zero new roles and zero renderer licences.
+`okal` strongly favors its opaque/system-entry rival only in the residual deck;
+the narrow deck and all-opportunity gate prevent promotion. Seven repeated
+frames and twelve passage cards are display-only. The three decks share the
+same German working-renderer ancestry and are not independent semantic
+witnesses.
+
+The independent validator passes 100,821 checks and two byte-identical replays,
+including 948 exact-rational score reconstructions, 958 LOFO folds and 576 LOCO
+folds. The 916 formal edges remain invalid/not score-ready at GDT388. No page,
+image, transcription, f84 or f84r material was added.
+
+The live next route moves outward: infer a target's nonlocal entry ecology from
+the target-masked remainder of whole paragraphs, calibrated on complete donor
+wholes and controlled for page/register/length. Immediate neighbours and the
+GDT806 axis decks cannot decide it. A later ordered formular-block pass over
+the 73 GDT757 formula paragraphs is reserved for the finer command/item/amount/
+process/close distinction.
+
+Primary report:
+`experiments/yolo/gdt806_three_channel_whole_context_replication/REPORT.md`.
