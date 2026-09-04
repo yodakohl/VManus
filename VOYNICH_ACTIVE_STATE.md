@@ -21710,3 +21710,44 @@ model.
 
 Primary report:
 `experiments/yolo/gdt804_bracket_middle_independent_field_bridge/REPORT.md`.
+
+## GDT805 discovery-subtracted eleven-whole context discriminator
+
+GDT805 removes the twelve exact GDT803 discovery occurrence IDs and reconstructs
+1,086 external events of the eleven middle wholes on 143 physical folios. 916
+target tokens are stable across all three alternate readings. `okail` has no
+external event and `sail` only one; neither receives a forced interpretation.
+
+The GDT739 source deck contains 230 contacts over 131 unique neighbour
+surfaces. Restricting the source to active radius one/two, then applying the
+GDT754 quarantine, GDT738 HOLD inventory and target mask, leaves 75 surfaces
+for an explicitly new GDT805 axis projection. Only six mapped flanks in the
+external atlas are the identical locally active GDT739 source cells; 178 are
+surface projections. Their broad tags derive from earlier German working prose
+and carry zero independent semantic credit and zero renderer licence.
+
+Against each target's fixed GDT804 K12 pool, 21 side/axis profiles meet the
+three-folio, rank-3 and above-median rule. Only `okal`–L1–HOT and
+`otal`–R1–CLOSE exceed all twelve controls in both raw and pair-stable views.
+The twenty concrete rival cards use a width-scaled but axis-correlated
+diagnostic; correlated tags can still count separately, so the score is not a
+probability or fully normalized evidence. GDT805 selects zero new roles and
+retains only the earlier `okal` opaque/system-entry prior and `ol` general
+content/preparation-carrier prior. A specific `ol` medium—oil, water or
+wine—remains unsupported.
+
+There are seven exact real two-sided multi-folio frames and six separate
+boundary-anchored one-sided frames. They sharpen the next ordering test:
+general preparation/carrier currently fits `ol`; a code/record entry fits
+`okal`; `otal` remains preparation/state; and `qokeol`, `qokol`, `cheol` remain
+process-versus-preparation/quality rivals rather than words.
+
+GDT805 passes 5,272 checks and two byte-identical replays. Its 184 formal text
+edges fail the GDT388 intake because formal access was not sealed. The next
+route uses three visibly distinct evidence channels: exact GDT739 source cells,
+the narrow 75-surface cleaned projection and a broader quarantined GDT734 axis
+sensitivity deck. A candidate must keep direction across channels before the
+seven repeated frames can sharpen it. No new page is required.
+
+Primary report:
+`experiments/yolo/gdt805_eleven_whole_context_role_discriminator/REPORT.md`.
