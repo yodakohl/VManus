@@ -27,6 +27,12 @@ deck that excludes those surfaces. The global deck is built fail-closed from
 W2/W3 unconditional complete-whole readings with zero composition/component
 credit, no retired literal patient words, at least one axis match and no later
 quarantine, HOLD or target membership.
+All filters through unconditional global export are applied row-wise. Only then
+must duplicate surviving surfaces agree on every gate field, source string and
+derived tag before collapse; disagreements among already excluded rows do not
+abort or enter the deck.
+GDT739 regex strings are unescaped once and matched Unicode-case-insensitively
+only against GDT734 `v99r7_spoken_default_de`.
 
 Each contact is binary within QUALITY, SCALAR, CARRIER and PROCESS. Raw and
 pair-sequence-stable macro rates use only the mapped contacts in the relevant

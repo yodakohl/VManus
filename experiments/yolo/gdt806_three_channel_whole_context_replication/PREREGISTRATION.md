@@ -65,11 +65,17 @@ surfaces. It keeps W2/W3 rows with zero GDT734 composition credit, zero
 component export, unconditional global export, no literal
 `pulver|samen|saat|wurzel|holz`, and at least one GDT739 axis-regex match.
 Identical duplicate surfaces may collapse only when all gate fields and derived
-tags agree; any conflict aborts the build rather than dropping a row. All GDT754 surfaces,
+tags agree; any conflict aborts the build rather than dropping a row. This
+conflict check is applied only after the row-wise unconditional-global-export
+gate: excluded duplicate rows are retained in earlier row/surface stage counts
+but never enter a deck conflict. All GDT754 surfaces,
 all GDT738 manual HOLD surfaces and all eleven GDT805 targets are removed.
 Expected row/surface stages are 1,606/1,602→990/989→984/983→777/776→
 769/768→726/726→659/659→657/657→652/652.
 All 75 narrow surfaces must occur in the 652; C3 therefore has 577 surfaces.
+The fixed GDT739 regex strings are unescaped once and matched Unicode
+case-insensitively against `v99r7_spoken_default_de`; no other GDT734 meaning
+column supplies tags.
 
 ## Macro counting and score
 
