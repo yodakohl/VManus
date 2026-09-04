@@ -1,0 +1,175 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "GDT801 may refine the GDT800 terminal field to a physical-line-edge association and determine whether paragraph, legacy-statement, record or panel closure has independent capacity. It cannot establish l/m equivalence, allography, abbreviation, inflection, case, morphology, sound, lexeme, plaintext, clothing/status value or translation; a capacity failure is not evidence of absence.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt801_terminal_lm_boundary_hierarchy_discriminator/src/run.py",
+    "validate": "python3 experiments/yolo/gdt801_terminal_lm_boundary_hierarchy_discriminator/src/validate.py"
+  },
+  "created": "2026-09-04",
+  "dependencies": [
+    "GDT791",
+    "GDT800"
+  ],
+  "experiment_id": "GDT801",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt801_terminal_lm_boundary_hierarchy_discriminator/PREREGISTRATION.md",
+      "role": "frozen hierarchy question, gates and claim ceiling",
+      "sha256": "dfd98edcce3035bde7cd409bcb62ac7d40d2f425ec26e304f3c5b482e648bb71"
+    },
+    {
+      "path": "experiments/yolo/gdt801_terminal_lm_boundary_hierarchy_discriminator/METHOD.md",
+      "role": "source-selector join and boundary discriminator method",
+      "sha256": "551ee5994befa9445de724fc9acb31bd7fa8066b7f9125009ffaf4d45fee5295"
+    },
+    {
+      "path": "experiments/yolo/gdt801_terminal_lm_boundary_hierarchy_discriminator/src/SOURCE_LOCK.tsv",
+      "role": "sealed-safe predecessor bindings",
+      "sha256": "e29dd2f56d786c1c32d706b1533f7258eb781cd266de38faa88d372dc7389e7e"
+    },
+    {
+      "path": "experiments/yolo/gdt801_terminal_lm_boundary_hierarchy_discriminator/src/CANDIDATE_MODEL_SPECS.tsv",
+      "role": "seven frozen structural rivals",
+      "sha256": "4c7e7a8120b388022f5c12a4aaca80b522459e7dbccb3a052bcbe5aaa0e7386b"
+    },
+    {
+      "path": "experiments/yolo/gdt800_terminal_b2_b3_line_final_bridge/artifacts/GDT800_4137_MATCHED_TERMINAL_OCCURRENCES.tsv",
+      "role": "frozen nonempty terminal occurrence population",
+      "sha256": "0ce409c54658bc8651a19989ec260041b1d5118d49d19cbffb6fe590d994aaf9"
+    },
+    {
+      "path": "experiments/yolo/gdt800_terminal_b2_b3_line_final_bridge/artifacts/GDT800_155_MATCHED_STEM_SUMMARY.tsv",
+      "role": "frozen 155-stem inventory",
+      "sha256": "4a6329ca13e738a4f4759c2cdcbda5c757604c655c6349044c5782502e3e3d95"
+    },
+    {
+      "path": "experiments/yolo/gdt800_terminal_b2_b3_line_final_bridge/artifacts/GDT800_STRUCTURAL_CARD.tsv",
+      "role": "inherited nonlexical terminal-field contract",
+      "sha256": "4f8fced8a1195cc3a407c9d992291863ee79a0165d1482bc21f79406a19a04ec"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/artifacts/GDT791_5866_OCCURRENCE_SPINE.tsv",
+      "role": "released-page exact occurrence and owner spine",
+      "sha256": "4075ffca8e7a8b9cefda62c9ec6997fb6c518dba8f86790f5309bfe2a8574707"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/artifacts/GDT791_1007_LINE_OWNER_ATLAS.tsv",
+      "role": "released-page line and paragraph atlas",
+      "sha256": "5ef9ef2a3ddf294aa9b57a459f0669e1aab7f38c4546f3914bd28e6fbac3378f"
+    },
+    {
+      "path": "experiments/yolo/gdt801_terminal_lm_boundary_hierarchy_discriminator/src/run.py",
+      "role": "deterministic builder",
+      "sha256": "ecd3dfc3079545bdc60827b1a5f437aa3b55ab6bd6346b690d2f9c6954469b54"
+    },
+    {
+      "path": "experiments/yolo/gdt801_terminal_lm_boundary_hierarchy_discriminator/src/validate.py",
+      "role": "independent validator and two-replay audit",
+      "sha256": "271ec20fe7d1f3cf67d072dd6c0230ddc3ee4fc8ad8411a16d022a65efad3c46"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt801_terminal_lm_boundary_hierarchy_discriminator/README.md",
+      "role": "experiment entry point",
+      "sha256": "0adce12aff89824e94883efe080f3ff4355bb8523e4612c49bddffb03ab4eecc"
+    },
+    {
+      "path": "experiments/yolo/gdt801_terminal_lm_boundary_hierarchy_discriminator/REPORT.md",
+      "role": "primary hierarchy result and next discriminator",
+      "sha256": "1256b13fb399ab212aa177e9f00a157197499deb464d9188dba0e6568806d458"
+    },
+    {
+      "path": "experiments/yolo/gdt801_terminal_lm_boundary_hierarchy_discriminator/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "7e8e3b5ddf0b6c0950e5d73723cec07b8b66db78027013ca3c11040447c731e1"
+    },
+    {
+      "path": "experiments/yolo/gdt801_terminal_lm_boundary_hierarchy_discriminator/artifacts/GDT801_542_SOURCE_SELECTOR_BOUNDARY_JOIN.tsv",
+      "role": "542 exact source-selector boundary joins",
+      "sha256": "6f0004694e6bdaf3cfecc34b22e9f75676ced4031903e591568f4f3dca69ef67"
+    },
+    {
+      "path": "experiments/yolo/gdt801_terminal_lm_boundary_hierarchy_discriminator/artifacts/GDT801_411_STRICT_INTERIOR_EVENTS.tsv",
+      "role": "411 higher-boundary-excluded primary events",
+      "sha256": "0342b0e05ae9d306daf1d10f73834da6a735eeedbdaecbfc8c12191d7e864097"
+    },
+    {
+      "path": "experiments/yolo/gdt801_terminal_lm_boundary_hierarchy_discriminator/artifacts/GDT801_743_FROZEN_STEM_SPINE.tsv",
+      "role": "743-event frozen-stem projection sensitivity",
+      "sha256": "4a3bdcdf452ed7367a83598dbfe9cf4f74e38962fdac1a3859e095871f8e568e"
+    },
+    {
+      "path": "experiments/yolo/gdt801_terminal_lm_boundary_hierarchy_discriminator/artifacts/GDT801_23_RECORD_PANEL_ENDPOINT_CAPACITY.tsv",
+      "role": "all record and panel endpoint coverage",
+      "sha256": "c3ebb5f9df4e82d6c9272cfef9624ad2f0458e39829e5f8f468e3a2d79c0b470"
+    },
+    {
+      "path": "experiments/yolo/gdt801_terminal_lm_boundary_hierarchy_discriminator/artifacts/GDT801_24_DEEP_LINEFINAL_PROGRESS.tsv",
+      "role": "deep-page line-final progress population",
+      "sha256": "9dad80e7509820a14c32de2f056163091941e69e5f1cc22237e4b2cf547694d0"
+    },
+    {
+      "path": "experiments/yolo/gdt801_terminal_lm_boundary_hierarchy_discriminator/artifacts/GDT801_80_LOCAL_LABEL_PROJECTION.tsv",
+      "role": "separate local-label projection sensitivity",
+      "sha256": "5674511ecc31e61bc2547f73278540915bb1791773a2c3fdf8de4dedd5864e84"
+    },
+    {
+      "path": "experiments/yolo/gdt801_terminal_lm_boundary_hierarchy_discriminator/artifacts/GDT801_4_GLOBAL_HIERARCHY_CENSUS.tsv",
+      "role": "global paragraph statement record and panel endpoint geometry",
+      "sha256": "26243ed6c634a40fcc2969b486652338d81af343a29a21b4ed07890b2e5b9203"
+    },
+    {
+      "path": "experiments/yolo/gdt801_terminal_lm_boundary_hierarchy_discriminator/artifacts/GDT801_BOUNDARY_TESTS.tsv",
+      "role": "physical-edge, higher-boundary, length and label tests",
+      "sha256": "1cfc0a143cf56b25f1b1f031d6168d689af1b83bd3b9dd034e8b57f2c86bc485"
+    },
+    {
+      "path": "experiments/yolo/gdt801_terminal_lm_boundary_hierarchy_discriminator/artifacts/GDT801_8_TARGET_BOUNDARY_CAPACITY.tsv",
+      "role": "eight higher-boundary capacity gates",
+      "sha256": "91a1c45996bc3c254e7445100ad1bd292e741b66c475b98df4b80f034df20d2f"
+    },
+    {
+      "path": "experiments/yolo/gdt801_terminal_lm_boundary_hierarchy_discriminator/artifacts/GDT801_DEEP_PROGRESS_TESTS.tsv",
+      "role": "two exhaustive deep-page progress tests",
+      "sha256": "4e272df6d9a4708ddc8c472958cd73b75b91c254036a7de9aaf3ed0bb348084d"
+    },
+    {
+      "path": "experiments/yolo/gdt801_terminal_lm_boundary_hierarchy_discriminator/artifacts/GDT801_CANDIDATE_ADJUDICATION.tsv",
+      "role": "seven architecture decisions and counterevidence",
+      "sha256": "0531f156d0cf98a06dcd0103cd9319dc1ed6a9b80c0af6003204a829915e0649"
+    },
+    {
+      "path": "experiments/yolo/gdt801_terminal_lm_boundary_hierarchy_discriminator/artifacts/GDT801_STRUCTURAL_CARD.tsv",
+      "role": "refined nonlexical line-edge renderer card",
+      "sha256": "27be6d8e2904da7d9aae208ea5b6ce612baab9f56bf629e8ccc556dba41eaa14"
+    },
+    {
+      "path": "experiments/yolo/gdt801_terminal_lm_boundary_hierarchy_discriminator/artifacts/RESULT.json",
+      "role": "machine-readable result",
+      "sha256": "1ad875e56a13d8ef85277969b92cc0f39ba4be334b68120eede64d24d686fa9f"
+    },
+    {
+      "path": "experiments/yolo/gdt801_terminal_lm_boundary_hierarchy_discriminator/artifacts/VALIDATION.json",
+      "role": "independent checks and two byte-identical replays",
+      "sha256": "50c76be1fb55d85e6f3f0a9a3d8824c0eb3f6095cc56a851aa8a04397db68c48"
+    }
+  ],
+  "question": "Does the GDT800 terminal-m enrichment survive within GDT791 events away from paragraph, legacy-statement, record and panel boundaries, and is any higher closure independently identifiable beyond physical line position?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "terminal_lm_boundary_hierarchy_discriminator",
+  "status": "PARTIAL__542_EXACT_JOINS__530_RUNNING__411_STRICT_INTERIOR__PHYSICAL_LINE_EDGE_RETAINS__DIRECT_HIGHER_CLOSURE_CAPACITY_STOP__PROJECTED_STATEMENT_NO_GAIN__ZERO_LEXEMES",
+  "title": "terminal lm boundary hierarchy discriminator",
+  "updated": "2026-09-04",
+  "validation": {
+    "artifact": "experiments/yolo/gdt801_terminal_lm_boundary_hierarchy_discriminator/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

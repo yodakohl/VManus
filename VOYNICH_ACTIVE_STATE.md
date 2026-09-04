@@ -21565,3 +21565,30 @@ beyond physical line position; if capacity is insufficient, record that rather
 than manufacture a status value. Validation passes 26,493 checks and two
 byte-identical replays. Primary report:
 `experiments/yolo/gdt800_terminal_b2_b3_line_final_bridge/REPORT.md`.
+
+## GDT801 physical-line versus higher-boundary discriminator
+
+GDT801 joins 542 GDT800 events exactly to GDT791 by source selector, locus,
+token ordinal and surface. This corrects the tempting but wrong physical-page
+join, which would lose 43 valid f89r1/f95v1/f95v2 events. The primary running
+population has 530 events: `m` is multi-token-line-final 41/65 times versus
+`l` 54/465. After removing every paragraph-start/end line and all annotated
+higher endpoints, the single composite 411-event interior still gives fixed-
+stem OR 10.9881; stem×physical-page gives OR 10.7333 (`p=.008825`). Higher
+closure is therefore not the sole source of the physical-line association.
+
+All direct paragraph/statement/record/panel target endpoints are line-final,
+so their increments are not independently identifiable. The separate 743-row
+frozen-stem projection contributes one internal legacy-statement `l` endpoint;
+that sole scoreable sensitivity gives OR 1.1 (`p=.6065`) and selects no higher
+closure value. Local-label page controls likewise select nothing. The refined
+structural tag is `PHYSICAL_LINE_EDGE_FAVOURED_TERMINAL_SURFACE__HIGHER_SCOPE_UNTESTED`.
+It is neither a morpheme nor a meaning, and `l/m` remain distinct observed
+surfaces.
+
+The next clean deck is the 28 bidirectional exact-join stems/388 running
+events, not the wider projected 30/478 sensitivity. Mask full neighbours and
+test held stems plus held physical pages after fixing line position; f95v1 and
+f95v2 stay in one physical-page fold. Validation passes 11,351 checks and two
+byte-identical replays. Primary report:
+`experiments/yolo/gdt801_terminal_lm_boundary_hierarchy_discriminator/REPORT.md`.
