@@ -1,0 +1,17 @@
+metric	observed_value	registered_expected_value	expected_match	definition
+allowlist_selectors	179	179	1	inherited page selector scope
+normalized_physical_folios	173	173	1	split selectors collapsed by ^(f\d+[rv])
+guarded_source_lines	4137	4137	1	line/cross key parity
+guarded_source_tokens	32339	32339	1	token/line text parity
+empty_source_lines	9	9	1	retained in source census
+strict_complete_paragraphs	665	665	1	start=1 through end=1 only
+strict_included_lines	3807	3807	1	no nearest-previous fill
+strict_included_tokens	31938	31938	1	strict start/end membership
+outside_paragraph_lines	330	330	1	explicit outside class
+outside_paragraph_tokens	401	401	1	never assigned to a paragraph
+common_target_masked_strict_lines	847	NOT_FIXED	NA	complete lines containing any registered target
+basis_eligible_paragraphs	609	NOT_FIXED	NA	after line mask before feature quarantine
+gdt805_target_wholes_quarantined	11	11	1	complete wholes only
+gdt800_exact_partner_wholes_quarantined	11	11	1	one m-partner per target l-whole
+exact_family_quarantine_wholes	22	22	1	11 targets plus 11 exact partners
+global_target_ed1_quarantine_wholes_observed	197	NOT_FIXED	NA	observed surfaces at edit distance <=1 from seven targets

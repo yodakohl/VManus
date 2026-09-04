@@ -1,0 +1,16 @@
+clarification_id	topic	implementation	registered_source	score_or_pair_posthoc_adjustment	semantic_credit
+G807-I01	paragraph construction	Open only on paragraph_start=1; close only on paragraph_end=1; never nearest-fill outside lines.	METHOD.md@390645a1	0	0
+G807-I02	eligibility	Count >=12 tokens and >=2 nonempty lines after complete-line mask and before exact/ED1 feature quarantine.	METHOD.md@390645a1	0	0
+G807-I03	cyclic stratum	floor(log2(post-line-mask pre-feature-quarantine token count)).	METHOD.md@390645a1	0	0
+G807-I04	feature exclusion	Eleven GDT805 target l-wholes plus exactly their eleven paired GDT800 m-counterparts.	METHOD.md@390645a1	0	0
+G807-I05	MNB score	Mean denominator is only test tokens present in the held-fold vocabulary; OOV tokens are ignored.	METHOD.md@390645a1	0	0
+G807-I06	MNB score	A paragraph with zero in-vocabulary tokens receives score 0 and remains a tied vote.	METHOD.md@390645a1	0	0
+G807-I07	balanced accuracy	Score 0 contributes one-half correct credit to either true class.	METHOD.md@390645a1	0	0
+G807-I08	LOFO	A fold is scoreable only when both classes remain in training; empty vocabulary is permitted as all-zero ties.	METHOD.md@390645a1	0	0
+G807-I09	exchange null	Rotate whole membership sets including empty sets across every eligible paragraph; apply pair exclusivity afterward.	METHOD.md@390645a1	0	0
+G807-I10	exchange null	Sort by page lexicographic, start line numeric, paragraph id; dest_i receives source_(i-k mod n).	METHOD.md@390645a1	0	0
+G807-I11	specificity control	Control membership comes only from GDT800 terminal=l occurrences; guarded tokens are parity only.	METHOD.md@390645a1	0	0
+G807-I12	specificity control	Mask common seven targets plus both control wholes; add both controls to exact feature quarantine.	METHOD.md@390645a1	0	0
+G807-I13	specificity control	Score only STABLE_PAIRED and rank against direct STABLE_PAIRED target AUC.	METHOD.md@390645a1	0	0
+G807-I14	specificity disclosure	Keep all 24 deterministic IDs but report repeated surface-pair keys; IDs are not claimed independent.	METHOD.md@390645a1	0	0
+G807-I15	robustness	Remove each union folio and rebuild complete LOFO; >0.5 fraction uses scoreable removals only.	METHOD.md@390645a1	0	0

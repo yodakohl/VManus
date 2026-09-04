@@ -21784,3 +21784,43 @@ process/close distinction.
 
 Primary report:
 `experiments/yolo/gdt806_three_channel_whole_context_replication/REPORT.md`.
+
+## GDT807 target-masked paragraph ecology
+
+GDT807 moves from immediate neighbours to complete paragraph remainders without
+opening a page.  It reconstructs 665 strict start-to-end paragraphs on the
+existing 179 selectors/173 physical folios.  Removing every complete line that
+contains any of the seven registered targets deletes 847 lines; 609 paragraphs
+still have at least twelve tokens on two nonempty lines.  The model additionally
+quarantines eleven GDT805 target wholes and their eleven exact GDT800 partners,
+and the ED1 view removes 197 observed near forms.
+
+All three held-folio splits are reproducible but only provisional.  Stable AUC
+is .702507 for `cheol/otal`, .706706 for `qokol/qotal` and .694042 for
+`qokeol/qokol`.  `cheol/otal` passes seven of eight robustness gates but ranks
+only 17th against its 24 K24 pseudo-pair IDs; the other K24 ranks are 11 and 12,
+all above the required six.  `qokol/qotal` additionally fails ED1 and cyclic
+exchange; `qokeol/qokol` misses stable capacity by one positive paragraph.
+Every single-folio removal remains above chance.  Thus paragraph ecology is
+real enough to follow, but it is common among comparable complete forms and
+does not identify a meaning.
+
+The fixed landmark rule is intentionally broad: 380 pair-surface rows, only
+185 distinct wholes, and 122 wholes shared by at least two pair lists.  P01 has
+50 pair-exclusive landmarks, P02 six and P03 seven.  The P03 contrast contains
+the notable parallel `qokeody` versus `qokedy` echo, suggesting the exact
+relation rectangle `Xeol/Xol :: Xeody/Xedy`; it is not yet an `e` meaning.
+Post-result metadata-only diagnostics explain much of P02/P03 but not all of
+P01.  The next route therefore holds out both carrier and physical folio,
+separates paragraph topic, formula template and global E/O/EO form regime, and
+asks whether a directed masked target-line slot transfers across relation
+families.  Only then may historical NAME/PART/QUALITY/DEGREE or
+COMMAND/INGREDIENT/UNIT/VALUE topologies orient a role-class rival.
+
+The independent validator passes 24 full reconstruction blocks and a
+byte-identical builder replay.  All 537 GDT388 rows fail closed solely because
+formal access was not sealed.  There are zero lexemes, plaintexts, component
+exports, renderer licences or semantic promotions.
+
+Primary report:
+`experiments/yolo/gdt807_target_masked_paragraph_exchange_codebook/REPORT.md`.
