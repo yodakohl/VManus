@@ -282,14 +282,18 @@ bounded-field/f77-port rival. GDT792 passes 257 checks/two byte replays.
 GDT793 then evaluates all 41 literal `okal*` occurrences (26 running in 17
 paragraphs;15 labels). Masking the family recovers 0/3 alleged source owners;
 f72's two `okal` plus two `okaly` labels yield four member assignments and the
-order `okalar,okal,okaly,okal,okaly` rejects a strict ordinal. Four of five
-homologous outer-slot-4 units retain a calendar/degree-slot rival, not “four”.
+order `okalar,okal,okaly,okal,okaly` rejects a strict ordinal. Its apparent
+four-of-five raw outer-`slot_index=4` series is corrected by GDT794: the rows
+are Kluge 09A,17A,09A,13A and missing, not one homologous degree slot.
 
 The live C0 exact-whole default is `okal=KENNSTELLEN-/SYSTEMEINTRAGSCODE` on 20
 released occurrences. It is a replaceable owner-conditioned renderer, not
 plaintext; the opaque-renderer null survives and no substring/longer form
 inherits it. GDT793 passes 181 checks/two byte replays. Reports: GDT792 and
 `experiments/yolo/gdt793_okal_whole_record_candidate_discriminator/REPORT.md`.
+GDT794 joins216 admitted circle-label sequences/274 tokens in19 arrays on six folios. The vocabulary is199 complete sequences, only15 recurrent and eight cross-folio. Exact-whole held-folio models fail for source-list rank, visible angle, opposition axis and Kluge-A.
 
-**Next:** test whether several complete forms jointly predict several
-homologous circular-array slots; separately retain the bounded `otedy` family.
+The true09A row is `okaldal,okalal,otchody,okalam,okarcham` (3/5 `okal*`, two positive folios), a template-slot/class rival only. `otody` at visible01:00/01:15 retains the C0 whole rival “oberes rechtes Zeit-/Gradfeld”; the opaque learned-entry/class model remains primary.
+
+The circle context suppresses97 unconditional V99R7 token defaults over216 label sequences; six recurrent universal pharma wholes move to cross-scope HOLD, multi-token labels render once, and GDT794 passes167 checks/two byte replays.
+**Next:** guarded reconstruction of the complete source-native family sequence for all101 admitted Kluge-A records, then held-physical-folio A-code retrieval under one shared array transform; separately retain the bounded `otedy` family.

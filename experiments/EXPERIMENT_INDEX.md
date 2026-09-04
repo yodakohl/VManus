@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **792**
-- Experiment-associated tracked files: **14,118** (1.3 GiB)
-- Structured GDT337+ experiments: **457**
+- Experiments indexed: **793**
+- Experiment-associated tracked files: **14,142** (1.3 GiB)
+- Structured GDT337+ experiments: **458**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT794 | GDT794_complete_label_multiform_slot_transfer | `CORRECTION__216_ADMITTED_SLOTS__19_ARRAYS__6_FOLIOS__15_REPEATED_COMPLETE_LABELS__8_CROSS_FOLIO_FORMS__RAW_SLOT4_NOT_TRUE_HOMOLOG__TRUE_KLUGE09_OKAL_PREFIX_3_OF_5__JOINT_POSITION_MODELS_ALL_FAIL__OTODY_ONE_OCLOCK_POSITION_RIVAL_C0__OPAQUE_ENTRY_CLASS_PRIMARY__ZERO_COMPONENT_EXPORT__ZERO_CONFIRMED_LEXEMES` | [report](../experiments/yolo/gdt794_complete_label_multiform_slot_transfer/REPORT.md) | 24 | 276.0 KiB | 8 | STRUCTURED_YOLO |
 | GDT793 | GDT793_okal_whole_record_candidate_discriminator | `PARTIAL__41_OKAL_PREFIX_OCCURRENCES__26_RUNNING__15_LOCAL__17_CONTEXTS__0_OF_3_TARGET_MASKED_OWNER_RECOVERIES__F72_TWO_COLLISION_TYPES__UNIQUE_MEMBER_FAIL__STRICT_ORDINAL_FAIL__4_OF_5_OUTER_SLOT4_SENSITIVITY__CLASS_SLOT_ENTRY_CODE_C0_SELECTED_FOR_20_EXACT_OKAL_OCCURRENCES__OPAQUE_RENDERER_SURVIVES__ZERO_COMPONENT_EXPORT__ZERO_CONFIRMED_LEXEMES` | [report](../experiments/yolo/gdt793_okal_whole_record_candidate_discriminator/REPORT.md) | 24 | 146.9 KiB | 11 | STRUCTURED_YOLO |
 | GDT792 | GDT792_target_masked_image_form_host_transfer | `PARTIAL__58_TARGET_OCCURRENCES__48_RUNNING__10_LOCAL__39_OUTSIDE_RUNNING__9_HELD_RUNNING__6_OUTSIDE_LOCAL__4_HELD_LOCAL__2_PHYSICAL_ROLE_TRANSFERS__3_LOCAL_SCOPE_TRANSFERS__3_CROSS_TOPOLOGY_LABEL_TRANSFERS__4_OKAL_SAME_PAGE_CROSS_OWNER_STRING_REUSES__OKAL_CROSS_SCOPE_LABEL_PROSE_WHOLE__PREREGISTERED_RAW_GATE_PASS__SEMANTIC_GLOSS_UNDERDETERMINED__20_STRUCTURAL_OVERLAYS__15_PREDECESSOR_QUARANTINES__5_NEW_OVERLAYS__OTEDY_RIVALS_UNSELECTED__ZERO_SEMANTIC_RENDERER_PATCHES__ZERO_COMPONENT_EXPORT__ZERO_CONFIRMED_LEXEMES` | [report](../experiments/yolo/gdt792_target_masked_image_form_host_transfer/REPORT.md) | 25 | 275.2 KiB | 9 | STRUCTURED_YOLO |
 | GDT791 | GDT791_thirty_page_visual_owner_spine | `PASS__30_VISUALLY_REVIEWED_PAGES__35_SOURCE_SELECTORS__1007_LINES__5866_TOKENS__612_RUNNING_PROSE_LINES__392_LOCAL_LABEL_LINES__3_EMPTY_LINES__5122_RUNNING_EVENTS__744_LOCAL_CARDS__3_DEEP_PAGES__13_RECORDS__235_LEGACY_STATEMENTS__240_RECORD_LOCAL_FRAGMENTS__5_CROSS_RECORD_STATEMENTS__2_CROSS_RECORD_ALIASES_QUARANTINED__1_RAW_GOVERNOR_CROSSING_CLIPPED__ZERO_EFFECTIVE_HOST_CROSSINGS__ZERO_SEMANTIC_EXPORT` | [report](../experiments/yolo/gdt791_thirty_page_visual_owner_spine/REPORT.md) | 25 | 1.8 MiB | 7 | STRUCTURED_YOLO |

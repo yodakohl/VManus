@@ -21243,12 +21243,12 @@ therefore rejected.
 
 The ordered f72 sequence `okalar, okal, okaly, okal, okaly` creates both
 `okal<okaly` and `okaly<okal`, rejecting a strict complete-form number/ordinal
-ladder. Four of five homologous outer-slot-4 diagram units nevertheless carry
-an `okal*` form, so a topology-bound calendar/degree/slot renderer remains the
-strongest concrete specialization. It does not mean “four”, because family
-members also occupy several other slots. Exact `okal` has a post-hoc upper-arc
-lead (three timed celestial labels near twelve plus one f82 top-row label), but
-the low-capacity exposed window is not selected.
+ladder. GDT793 initially described four of five raw outer-`slot_index=4` units
+as a homologous slot sensitivity. GDT794 corrects that wording: their Kluge-A
+values are 09, 17, 09, 13 and missing, so raw source-list slot four is not one
+calendar/degree homolog. Exact `okal` retains a post-hoc upper-arc rival (three
+timed celestial labels near twelve plus one f82 top-row label), but the
+low-capacity exposed window is not selected.
 
 The new C0 whole-form working default is
 `okal=KENNSTELLEN-/SYSTEMEINTRAGSCODE`, owner-conditioned as a ring or station
@@ -21267,3 +21267,43 @@ homologous circular-array slots under leave-one-array-out transfer; this is the
 necessary bridge from generic slot code to a real calendar/degree codebook.
 Primary report:
 `experiments/yolo/gdt793_okal_whole_record_candidate_discriminator/REPORT.md`.
+
+
+## GDT794 complete-label circle transfer and renderer correction
+
+GDT794 joins only already released GDT791 local loci to the published
+special-circle inventory: 216 complete label sequences/274 tokens in nineteen
+arrays on six physical folios. There are 199 distinct complete sequences; only
+fifteen recur and only eight recur across folios. Held-folio exact-whole models
+fail for linear source-list rank, visible clock angle, opposition axis and
+Kluge-A. The true Kluge panel has 101 records in eleven arrays on f70/f71/f72;
+no repeated complete cross-folio label retains one A-code.
+
+The old raw-slot-4 series is corrected to Kluge 09A/17A/09A/13A/missing. The
+actual Kluge-09A row is `okaldal, okalal, otchody, okalam, okarcham`: three of
+five literal `okal*`, but on only two positive physical folios and with f71 as
+a direct break. This remains a template-slot/class rival, not nine, a degree or
+a component value.
+
+The best individual whole is `otody`, whose two circle labels lie at visible
+01:00 and 01:15 on f69/f70. The C0 card “oberes rechtes Zeit-/Gradfeld” remains
+a concrete replaceable rival across its four released exact occurrences, but
+is not installed in prose because the two running contexts do not identify a
+coordinate. The primary account remains learned names/entries plus a small
+opaque class/status vocabulary.
+
+GDT794 also prevents a concrete renderer leak. Ninety-seven of 274 circular
+label tokens carried unconditional V99R7 defaults; 36/47 multi-token labels
+would partly and fourteen wholly compose into pharmaceutical prose. All 216
+circle loci now use `RADIAL_LABEL_SEQUENCE > GLOBAL_TOKEN` and render once.
+Universal pharmaceutical wholes for `okaly`, `okaram`, `okeal`, `otaly`,
+`otar` and `otody` move to cross-scope HOLD while their historical and later
+context-bound candidates remain preserved. Validation passes 167 checks and
+two byte-identical replays. No new page/image or mixed source was opened.
+
+Next reconstruct the full source-native family sequence for the 101 Kluge-A
+records through the guarded interface, preserving complete multi-token label
+boundaries. A useful key must recover several A-positions under one shared
+array transform; it may not choose a separate rotation for each form. Primary
+report:
+`experiments/yolo/gdt794_complete_label_multiform_slot_transfer/REPORT.md`.
