@@ -106,7 +106,7 @@ least two physical folios on each side.
 
 A direction can be selected only when both the target uncentered delta and the
 centered delta point to the same rival in raw and stable views. The centered
-margin must also reach 0.05. This prevents a target from being called
+margin must also be at least the exact rational `1/20` (0.05). This prevents a target from being called
 GENERAL_CARRIER, PROCESS_FIELD, QUALITY_STATE or OPAQUE_RECORD merely because
 that duel has the same built-in direction for almost every deck surface.
 
@@ -139,9 +139,11 @@ against. The gate is `successes >= ceil(0.8 * len(F_stable(t,c)))`. A separate
 leave-one-control-surface-out diagnostic removes exactly one of the twelve
 complete control surfaces, leaves the target unchanged and uses sorted
 position six as the median of the remaining eleven. No replacement is allowed.
-Success tests only whether the recomputed centered delta has the same strict
-nonzero sign; at least ten of twelve folds must succeed. C1 is descriptive
-regardless of capacity.
+The selected direction is fixed from the full sample and is never reselected
+inside a fold. Success tests only whether the recomputed centered delta has
+that strict nonzero sign. This is run separately in raw and stable views, and
+at least ten of twelve folds must succeed in each. C1 is descriptive regardless
+of capacity.
 
 A mandatory selection-conditioning sensitivity repeats every K12-centered
 score with the GDT805 denominator: raw denominator is every occurrence of the
@@ -165,6 +167,10 @@ all twelve control deltas to remain scoreable with at least ten still meeting
 the robust stable-opportunity capacity, and applies the same strict
 `ceil(0.8*N)` rule.
 
+Across the six targets, the all-opportunity raw L1/R1 denominators must be
+967/967 and the stable L1/R1 denominators 600/594. These totals are assertions,
+not mapped-contact capacities.
+
 ## Working-rival decision
 
 A practical rival preference requires all of the following in both C2 and C3:
@@ -173,7 +179,8 @@ A practical rival preference requires all of the following in both C2 and C3:
    side, and at least four distinct stable mapped folios in their union;
 2. raw and stable uncentered deltas and raw and stable K12-centered deltas have
    the same nonzero direction;
-3. `abs(delta)` for all four signed deltas is at least 0.05;
+3. `abs(delta)` for all four signed deltas is at least the exact rational
+   `1/20` (0.05);
 4. the strict stable mapped-contact LOFO gate above passes;
 5. at least ten of twelve leave-one-control-surface-out folds retain the
    centered direction;

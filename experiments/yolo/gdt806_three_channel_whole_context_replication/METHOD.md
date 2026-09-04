@@ -46,7 +46,8 @@ against it.
 
 Candidate scores are the mean of their L1 and R1 macro rates. Narrow and
 disjoint-global residual uncentered and K12-centered deltas must agree in
-direction, exceed 0.05 in raw and stable views, retain direction in at least 80
+direction, have absolute magnitude at least the exact rational `1/20` in raw
+and stable views, retain direction in at least 80
 percent of the target stable-folio leave-one-out folds and ten of twelve
 leave-one-control-surface-out folds, and remain un-reversed in the recombined
 GDT734-global sensitivity. The full decision is then repeated with all subject
@@ -57,15 +58,19 @@ Mapped capacity requires two stable contacts on two physical folios per side
 and four distinct stable folios in the side union. The stable mapped LOFO
 universe is exactly the target's union of stable mapped-contact folios. Every
 fold removes that folio synchronously from target and controls, rechecks target
-and control capacity, and counts ties, empty sides or unavailable folds as
-failures; success means at least `ceil(0.8*N)` folds. Cross-denominator
+bilateral nonzero denominators, all twelve bilateral control deltas and the
+ten-control robust capacity, and counts ties, empty sides or unavailable folds
+as failures; the original full target-capacity minimum is not reapplied inside
+the fold. Success means at least `ceil(0.8*N)` folds. Cross-denominator
 concordance applies the matching capacity, raw/stable direction and 0.05
 margin, K12 rank, LOCO, strict stable LOFO and global no-reversal gates to the
 all-opportunity denominator. Its fold universe is the target's union of stable
 side-opportunity folios, including opportunities whose neighbour is unmapped.
 LOCO removes each complete control surface exactly once, keeps the target
 unchanged, takes sorted position six as the K11 median and tests only strict
-centered-sign retention; no replacement is allowed. Every global no-reversal
+centered-sign retention in separate raw and stable views; at least 10/12 must
+retain the full-sample selected direction in each, with no direction reselection
+inside a fold and no replacement. Every global no-reversal
 test requires the same strict sign, so zero or unavailable fails.
 The exact channel is always reported separately and never becomes an
 independent selector, regardless of capacity.
