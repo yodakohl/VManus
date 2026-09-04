@@ -21670,3 +21670,43 @@ morpheme.  Clothing is not an input or meaning: GDT799 supplied only the old
 discovery trigger.  GDT803 passes 156 checks and two byte-identical replays.
 Primary report:
 `experiments/yolo/gdt803_recurrent_context_rarity_discriminator/REPORT.md`.
+
+## GDT804 independent bracket-middle field bridge
+
+GDT804 treats all eleven complete GDT803 middle surfaces equally and opens no
+new page, image or transcription.  After simultaneously removing all 155
+paired `Xl` forms as semantic anchors, the locked GDT744 builder still licenses
+72 fields.  Six target wholes occupy 18 of 45 exposed target cells.  The
+aggregate matched null is strong for hit count (`p=.00019996`), exposure
+(`p=.00199960`) and rate (`p=.00239952`), but individual K10 and leave-`ol`-out
+rate controls fail (`p=.371076` and `.536935`).  This is a control-sensitive
+field-neighbour lead, not a lemma or ingredient identification.
+
+The GDT760 preferred-side rule produces fifteen target neighbours, fourteen of
+them previously open, but zero selected sides are already licensed
+`CONTENT_PREP` contacts.  In particular, f88r.10 selects left `cheol` while the
+old content licence is right `cheos`; a uniform material slot is therefore
+rejected.
+
+The exploratory `{chol,cheol,sheol}+{dain,daiin}` family contains 41 raw ZL3b
+adjacencies, 33 contiguous sequences represented in all three alternate
+readings and 32 stricter both-token-stable spans.  Equal treatment of all
+eleven middles yields nine external reader-stable right-value spans for `ol`,
+four for `qokol` and one for `cheol`.  Against cheol's outcome-blind K12
+controls, 8/10/8 controls meet or exceed its token-stable count/rate/both, so
+cheol obtains no right-value specificity lead.  It remains the best material rival only
+because it has four independently anchored field hits; `qokol` is the stronger
+process rival and `ol` the broad carrier rival.
+
+The safe bounded display is `qokain-Qualitätsfeld; cheol-Feld, Wert III`.
+The GDT636-derived `qokain cheol daiin ≈ heiß im II. Grad; trocken im III. Grad` remains an
+aggressive, replaceable candidate and is not selected plaintext.  GDT804
+confirms zero lexemes and zero component exports.  Its 41 formal adjacencies
+fail the GDT388 intake because formal access is unsealed, the packet is below
+capacity and no mobile null exists.  GDT804 passes 294 checks and two
+byte-identical replays.  Next, subtract the twelve discovery passages and
+compare complete left/right contexts for all eleven wholes under one common
+model.
+
+Primary report:
+`experiments/yolo/gdt804_bracket_middle_independent_field_bridge/REPORT.md`.
