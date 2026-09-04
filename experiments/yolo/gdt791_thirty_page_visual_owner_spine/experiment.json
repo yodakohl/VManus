@@ -1,0 +1,275 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The 1.33 MB 5,866-occurrence spine is retained because it is the exact lossless crosswalk between all released-page transcription tokens, the running/local grammar partition and the available visual owner tier; aggregate counts cannot reproduce boundary assignments.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "A lossless structural and visible-owner integration over exactly 30 released pages. It may select page/panel/component contexts, record-local statement boundaries, local owner reparenting and quarantine of three raw cross-record links. It confirms no plaintext, Voynich lexeme, free root/affix, object identity, substance, action, process direction, word-to-figure ownership from proximity or unseen-form meaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt791_thirty_page_visual_owner_spine/src/run.py",
+    "validate": "python3 experiments/yolo/gdt791_thirty_page_visual_owner_spine/src/validate.py"
+  },
+  "created": "2026-09-04",
+  "dependencies": [
+    "GDT389",
+    "GDT391",
+    "GDT404",
+    "GDT514",
+    "GDT515",
+    "GDT581",
+    "GDT790"
+  ],
+  "experiment_id": "GDT791",
+  "inputs": [
+    {
+      "path": "transcription/voynich_zl3b_lines.tsv",
+      "role": "mixed transcription queried only through explicit allow-list and f84/f84r rejection",
+      "sha256": "7520dd4c11f4d23c8492e4b2a52cc0fcbda6d9fc88a96ead8f1c31081a4d7ed2"
+    },
+    {
+      "path": "vmanus-exp",
+      "role": "guarded query executable",
+      "sha256": "53b69eec8412b54d1248fd52d91c06e0eabc7f436b9015d0cfdb0746606c1528"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/src/run.py",
+      "role": "executable synthesis",
+      "sha256": "7e1f625847db1246a5803c5617052d04bd57a0b58f2518103b5ab7ac17fbb5e3"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/src/PAGE_SELECTOR_SPECS.tsv",
+      "role": "35-selector to 30-page mapping",
+      "sha256": "69e5463f7ce6c22bd83fe35e4fdc0601731a3c470b5c510a15ac3befa1716bae"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/src/PAGE_TOPOLOGY_SPECS.tsv",
+      "role": "neutral page-context and topology specification",
+      "sha256": "b2a461be7705c6535e558cb2295d78f889bfe19b620377144cb5a779e03224c7"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/src/VISUAL_BATCH_SPECS.tsv",
+      "role": "exact six-batch visual evidence union",
+      "sha256": "1bd3b3ab365c920a1974902872d67ad550a6535f2dbb79a278fc71c258a0330a"
+    },
+    {
+      "path": "experiments/yolo/gdt515_second_random_four_page_full_admission/artifacts/gdt515_5866_unified_group_ledger.tsv",
+      "role": "complete running/local token partition",
+      "sha256": "29782d5278d881bab5ef6483bc2deea8b94b0b5be54cfee63b2401627a5bfa46"
+    },
+    {
+      "path": "experiments/yolo/gdt515_second_random_four_page_full_admission/artifacts/gdt515_5122_running_event_edition.tsv",
+      "role": "running event to line-coordinate map",
+      "sha256": "6615c3874d09a2e0043e56ac9d71317d138b8fb675cc56f4ab3d866f5b8fa346"
+    },
+    {
+      "path": "experiments/yolo/gdt581_grammar_content_boundary_audit/REPORT.md",
+      "role": "legacy grammar boundary interpretation and ceiling",
+      "sha256": "2956f609b9a71cceb3411a011c9d4d09ef5467156c5e0ac4baf4dc11de4567c5"
+    },
+    {
+      "path": "experiments/yolo/gdt581_grammar_content_boundary_audit/artifacts/gdt581_30_page_boundary_profiles.tsv",
+      "role": "exact released page registry and page counts",
+      "sha256": "9454fa327a53fda42bb97babb9cb59027f37707ded44ef16f73885dc5abefd3c"
+    },
+    {
+      "path": "experiments/yolo/gdt581_grammar_content_boundary_audit/artifacts/gdt581_5122_content_ready_event_edition.tsv",
+      "role": "complete running event identity and statement positions",
+      "sha256": "ce94f0ec11cd226cf1946a6bc1fa21420bd97c311e35cdab164c46143bc35c43"
+    },
+    {
+      "path": "experiments/yolo/gdt581_grammar_content_boundary_audit/artifacts/gdt581_793_content_ready_statement_edition.tsv",
+      "role": "legacy statement segmentation",
+      "sha256": "ce9f447afb45e171bf5baf026b85051c25e5e04fe9c67f0178ce0353ca1c3801"
+    },
+    {
+      "path": "experiments/yolo/gdt581_grammar_content_boundary_audit/artifacts/gdt581_744_local_card_hosts.tsv",
+      "role": "complete local label and marker layer",
+      "sha256": "b4c55fc633e91d1cf4e26cae0f288bb6a4999133fd075846c19ac58f1528fbe3"
+    },
+    {
+      "path": "experiments/yolo/gdt581_grammar_content_boundary_audit/artifacts/gdt581_4026_inherited_alias_edges.tsv",
+      "role": "legacy inheritance graph",
+      "sha256": "27203f5e2b3c76134eae63082be4a9a4739f8e9507ff599854b1c221e20cd295"
+    },
+    {
+      "path": "experiments/yolo/gdt581_grammar_content_boundary_audit/artifacts/gdt581_5672_focus_reconciliation.tsv",
+      "role": "focus governor and effective-host graph",
+      "sha256": "03759c615dbd837202831bdc9df8999dafdd7480adc1b9e4a88c28c3699e5932"
+    },
+    {
+      "path": "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/REPORT.md",
+      "role": "deep panel-owner interpretation and ceiling",
+      "sha256": "c613d9869015e996ed6e8a33463a041a453e468f439ce78c4fdaa54a0bbe0ee3"
+    },
+    {
+      "path": "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/artifacts/GDT790_123_IMAGE_AWARE_LINES.tsv",
+      "role": "deep line to record map",
+      "sha256": "13e4cc2f4373948c2772991f608d8f3b442cdf501b7fc685519dc6830f2f5216"
+    },
+    {
+      "path": "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/artifacts/GDT790_28_LABEL_TOKEN_ATLAS.tsv",
+      "role": "deep label-token to component map",
+      "sha256": "a63da4254d0e45565ef37e0b4429cc27b5041de47c10e2a870bdf764213ec931"
+    },
+    {
+      "path": "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/artifacts/GDT790_13_PANEL_RECORD_BINDINGS.tsv",
+      "role": "deep record to panel map",
+      "sha256": "b83222ec244d206c55fc0d516148a31d776b3ee619ae7f622ff2085ae67870d3"
+    },
+    {
+      "path": "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/artifacts/GDT790_10_EXACT_LABEL_PROSE_BRIDGES.tsv",
+      "role": "string-only reference edges",
+      "sha256": "76b04676f7c6b8d6779047a9b7e1bd39c7b3d5c3226139fd4c0b29474a8b8634"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v70/V70_IMAGE_MANIFEST.tsv",
+      "role": "image provenance for V70 ten-page batch",
+      "sha256": "2a191ec26c7eca88a6cdcd0c134dffacf412d8208e78fb93c8258aeaada3419f"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v70/V70_R1_TEN_PAGE_VISUAL_INVENTORY.tsv",
+      "role": "manual visual inventory for V70 ten-page batch",
+      "sha256": "f50bc385a33c78a9cf8f56a9aa116fe9e2bc16d567eab1b8e59721f66810fbff"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_four_page_reality_check_nine_hundred_ninth/NINE_HUNDRED_NINTH_VISUAL_INVENTORY.tsv",
+      "role": "manual visual inventory for pass 909 batch",
+      "sha256": "c8a44c32426fc185c414f37735b5be1849c1949ecfd48114e17cff6ecabeee9a"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_four_fresh_page_transfer_one_thousand_third/PASS1003_VISUAL_OWNER_MAP.tsv",
+      "role": "manual visual owner map for pass 1003 batch",
+      "sha256": "43b41c432207927c945a5e2dbfaf7d563d6fc465c58604157469f9b6a4098da7"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_four_page_template_transfer_one_thousand_eighth/PASS1008_IMAGE_MANIFEST.tsv",
+      "role": "image provenance and visual inventory for pass 1008 batch",
+      "sha256": "f1d2e5742b0ab2e5dc5384570d8476a1e8088d97a5103195d8348b14e837a216"
+    },
+    {
+      "path": "experiments/yolo/gdt404_random_four_page_factorized_admission/artifacts/gdt404_image_first_owner_manifest.tsv",
+      "role": "image-first owner inventory for GDT404 batch",
+      "sha256": "f9334ba634e2997a04e3650fce908fa38e24d17bf8205b892889599c792605e6"
+    },
+    {
+      "path": "experiments/yolo/gdt514_second_random_four_page_selection_owner_map/artifacts/gdt514_4_image_owner_map.tsv",
+      "role": "image-owner inventory for GDT514 batch",
+      "sha256": "54bf92fe548617a7bce8463bbcf3315f608edf919d4ef2d3064ed82500459a77"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/src/SOURCE_LOCK.tsv",
+      "role": "complete executable input hash lock",
+      "sha256": "7f16cf3ed2ce7c2713f2ee79ff61cf575cf35cfdbba7b681d863a1fd9e75507f"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/README.md",
+      "role": "experiment entry point",
+      "sha256": "6d12b7caed75853a7b7dbe6f55d9436931c7784df5de04566f2ea9198874fb27"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/METHOD.md",
+      "role": "lossless occurrence-spine and boundary-repair method",
+      "sha256": "07b5931d85d606b47b67647e6c395d92c517baa779c5f22cc14d788443c2d79b"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/PREREGISTRATION.md",
+      "role": "explicit reconstruction contract",
+      "sha256": "77146c900af152c7d0c586442c1522758651f8c010f66167f4c132c6adc48b75"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/REPORT.md",
+      "role": "primary result and next route",
+      "sha256": "9e185152b625a51a755b3fb12c425542cb59ce89d4121223e6ce07a037350150"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "746962590fd08242cca45db576230d67c16a9c2281b01dbaa91807c13a764857"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/artifacts/GDT791_30_PAGE_EVIDENCE_REGISTRY.tsv",
+      "role": "exact 30-page visual and text evidence registry",
+      "sha256": "67c0aec3b81474ec943d615c130404ebeac86f93241a6d3e30ce4a56b74b3e83"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/artifacts/GDT791_1007_LINE_OWNER_ATLAS.tsv",
+      "role": "complete line-level owner atlas",
+      "sha256": "5ef9ef2a3ddf294aa9b57a459f0669e1aab7f38c4546f3914bd28e6fbac3378f"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/artifacts/GDT791_5866_OCCURRENCE_SPINE.tsv",
+      "role": "lossless all-token occurrence graph",
+      "sha256": "4075ffca8e7a8b9cefda62c9ec6997fb6c518dba8f86790f5309bfe2a8574707"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/artifacts/GDT791_240_RECORD_LOCAL_STATEMENT_FRAGMENTS.tsv",
+      "role": "record-local deep-page statement edition",
+      "sha256": "d58f3e2b0ff2a68a0995c6a7b41e19cdbccb944bf3cfa152f3447eada0f20aa6"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/artifacts/GDT791_5_CROSS_RECORD_STATEMENTS.tsv",
+      "role": "complete record-boundary conflict census",
+      "sha256": "9cf2f7fb49db204b9721ca47531ed6655ffb305f34ddf3875e6eacea429406e1"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/artifacts/GDT791_745_DEEP_ALIAS_BINDINGS.tsv",
+      "role": "all deep alias boundary decisions",
+      "sha256": "df4f094192262fbd0e839e1838f8eb3fbf9d91b73750744c8a64c9bca5e5a0bc"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/artifacts/GDT791_3_RAW_BOUNDARY_LINK_REPAIRS.tsv",
+      "role": "two quarantined aliases and one clipped raw governor",
+      "sha256": "feaab76df4ea9cfa48546d52c40ad531356c2a2e3b1439587a0951e9a7a490ec"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/artifacts/GDT791_10_EXACT_STRING_REFERENCE_EDGES.tsv",
+      "role": "zero-credit exact-string reference graph",
+      "sha256": "94392b2f0d3b9d55d41619e71dc32d4177c24bef448cd5baf7c8002af279cd9e"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/artifacts/GDT791_6_FORM_RUNNING_CENSUS.tsv",
+      "role": "next-test complete-form capacity census",
+      "sha256": "f5d3710f01c83d53bacfadec816977530b6c8b65f01badd0f80cdeb91674f754"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/artifacts/GDT791_5_TOPOLOGY_FAMILY_SUMMARY.tsv",
+      "role": "visible topology burden summary",
+      "sha256": "6133015a3415698da15e7bedb8c27a0227643082a933997e7eaef5f6b5153e4e"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/artifacts/GDT791_GUARDED_SOURCE_STATS.tsv",
+      "role": "guarded source accounting",
+      "sha256": "16a6b9dc9cc289515c3a2048561d9a99d5bfcaa2a3cbdd8ad162baf92c380644"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/artifacts/RESULT.json",
+      "role": "machine-readable decision and counts",
+      "sha256": "ff2e5985ce2e83a423429116d7e2c49f1a12d7da04b5116b19436e2cb00f8cd3"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/artifacts/VALIDATION.json",
+      "role": "validation and byte-replay result",
+      "sha256": "e77ae94529211d925d5bd8301c03abf563572fb605295acb9e0a5abf07a6e29e"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/src/validate.py",
+      "role": "executable validator",
+      "sha256": "7c0bec5cebd67ec1e8a57a067765582a7dacd6e4a57ce249e36ee3fa6d04ae07"
+    }
+  ],
+  "question": "Can all 5,866 tokens on the 30 released, visually reviewed pages be joined losslessly to the text grammar and available image-owner hierarchy, and which legacy statement or inheritance links conflict with visible record boundaries?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "thirty_page_visual_owner_spine",
+  "status": "PASS",
+  "title": "Thirty-page visual-owner spine",
+  "updated": "2026-09-04",
+  "validation": {
+    "artifact": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

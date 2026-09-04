@@ -21118,3 +21118,51 @@ distinguish single figures, paired systems, multi-port arches, transfer
 channels, communal pools and outlet systems before opening another page.
 Primary report:
 `experiments/yolo/gdt790_panel_owner_image_grammar_overlay/REPORT.md`.
+
+## GDT791 lossless thirty-page visual-owner spine
+
+GDT791 corrects the working scope distinction. All thirty released pages have
+already received direct visual page inspection, but only f77r, f82r and f83r
+have the deep executable GDT790 panel/record/component layer. The other 27 are
+represented by a visible page context and an explicit
+`PANEL_NOT_DEEPLY_ANNOTATED` marker, never by invented panels.
+
+The complete guarded source has 35 selectors, 1,007 lines and 5,866 tokens. Its
+lossless partition is 612 running-prose lines/5,122 events, 392 local
+label-marker lines/744 cards and three empty f66r transcription rows. The
+5,866-occurrence spine preserves every surface and distinguishes page context,
+deep record context and deep component-label context without exporting a word
+meaning.
+
+The full page view confirms sharply different address regimes. The twelve
+whole-plant pages contain 1,118 running events and only two local cards; six
+radial-array pages contain 523 running events and 574 local cards. Pool or
+apparatus pages contain 1,811/40, material-register pages 603/68 and text-block
+pages 1,067/60. Page/paragraph topology is therefore a necessary conditioning
+layer for subsequent semantic tests.
+
+The selected hierarchy is now `PANEL > RECORD > LEGACY_STATEMENT`. Of 235
+GDT581 statements on the three deep pages, 230 remain inside one record and
+five cross a record boundary; four also cross a panel. They are represented as
+240 record-local fragments while their 235 legacy IDs remain provenance.
+
+Only G407-S357 carries concrete inheritance across its f77r boundary. Two
+aliases transfer CH action and Y object from `qolchy` at f77r.24/F77_P1 to
+`otedy` at f77r.25/F77_P2. Both are quarantined. One raw grade governor crosses
+the same edge, but the effective host is already the local
+`CONTROL:G407-E2535:OT>G<DY` envelope, so the raw link is clipped and the local
+control survives. The inherited “entnimm denselben Stationsposten” rendering is
+removed from `otedy`; no replacement translation is selected. The other 460
+concrete aliases stay within records and 283 source-free owner defaults are
+reparented to the local record owner.
+
+All ten GDT790 exact label/prose bridges cross panel owners and remain a
+separate zero-credit exact-string reference graph. They do not join records or
+transport meaning. The next route target-masks the deep image occurrences of
+`otedy` and `okal`, then asks whether their occurrences on the other 27 pages
+predict record opening, continuation, local field or closing geometry. `otedy`
+has 18 running occurrences on nine pages, eight statement-first; `okal` has 16
+on eleven pages, four first. `otchdy` and `olaiin` are lower-capacity controls.
+`darol/darolsy` have no running-prose occurrence in the 30-page corpus and stay
+image-local. Primary report:
+`experiments/yolo/gdt791_thirty_page_visual_owner_spine/REPORT.md`.

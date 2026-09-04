@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **788**
-- Experiment-associated tracked files: **14,013** (1.3 GiB)
-- Structured GDT337+ experiments: **453**
+- Experiments indexed: **790**
+- Experiment-associated tracked files: **14,069** (1.3 GiB)
+- Structured GDT337+ experiments: **455**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT791 | GDT791_thirty_page_visual_owner_spine | `PASS__30_VISUALLY_REVIEWED_PAGES__35_SOURCE_SELECTORS__1007_LINES__5866_TOKENS__612_RUNNING_PROSE_LINES__392_LOCAL_LABEL_LINES__3_EMPTY_LINES__5122_RUNNING_EVENTS__744_LOCAL_CARDS__3_DEEP_PAGES__13_RECORDS__235_LEGACY_STATEMENTS__240_RECORD_LOCAL_FRAGMENTS__5_CROSS_RECORD_STATEMENTS__2_CROSS_RECORD_ALIASES_QUARANTINED__1_RAW_GOVERNOR_CROSSING_CLIPPED__ZERO_EFFECTIVE_HOST_CROSSINGS__ZERO_SEMANTIC_EXPORT` | [report](../experiments/yolo/gdt791_thirty_page_visual_owner_spine/REPORT.md) | 25 | 1.8 MiB | 7 | STRUCTURED_YOLO |
 | GDT790 | GDT790_panel_owner_image_grammar_overlay | `PASS__3_PAGES__10_IMAGE_PANELS__13_RECORDS__123_PROSE_LINES__940_PROSE_TOKENS__27_LABEL_LOCI__28_LABEL_TOKENS__10_EXACT_LABEL_PROSE_EDGES__9_MULTI_CHARACTER_EDGES__PANEL_OWNER_OVERLAY__ZERO_TOKEN_MEANING_CHANGES__ZERO_PREFIX_EXPORT` | [report](../experiments/yolo/gdt790_panel_owner_image_grammar_overlay/REPORT.md) | 28 | 291.7 KiB | 13 | STRUCTURED_YOLO |
 | GDT789 | GDT789_ar_remainder_cross_family_transfer | `PARTIAL__285_RAW_FORMS__1698_RAW__225_EXACT_FORMS__1348_EXACT__47_ROBUST_AR_OR_PREFIXES__SUPPORT_ADD_BOTH_7_OF31__HISTORICAL_EXCLUSION_8_OF31__RN12_0_OF7__RN23_0_OF6__BARE_AR_ANTEIL__WHOLE_ONLY__285_DEFAULTS__ZERO_COMPONENT_EXPORT__ZERO_NEW_RENDERER_LICENSE` | [report](../experiments/yolo/gdt789_ar_remainder_cross_family_transfer/REPORT.md) | 46 | 1.4 MiB | 13 | STRUCTURED_YOLO |
 | GDT788 | GDT788_dal_remainder_cross_family_transfer | `PARTIAL__107_RAW_FORMS__415_RAW__80_EXACT_FORMS__304_EXACT__40_PRIMARY_LATTICE_CELLS__SHIFT_BOTH_2_OF10__CORE_BOTH_4_OF10__FORMAL_FAMILY_WHOLE_ONLY__107_DEFAULTS__ZERO_COMPONENT_EXPORT__ZERO_NEW_RENDERER_LICENSE` | [report](../experiments/yolo/gdt788_dal_remainder_cross_family_transfer/REPORT.md) | 37 | 605.3 KiB | 17 | STRUCTURED_YOLO |
@@ -210,6 +211,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT603 | GDT603_naibbe_end_to_end_control | `END_TO_END_NAIBBE_CONTROL_RECOVERED_AT_PUBLIC_CAPACITY` | [report](../experiments/yolo/gdt603_naibbe_end_to_end_control/REPORT.md) | 13 | 1.0 MiB | 2 | STRUCTURED_YOLO |
 | GDT602 | GDT602_naibbe_blind_key_recovery | `NAIBBE_KEY_RECOVERED_CONDITIONAL_ON_ORACLE_SEGMENTATION` | [report](../experiments/yolo/gdt602_naibbe_blind_key_recovery/REPORT.md) | 11 | 42.7 KiB | 1 | STRUCTURED_YOLO |
 | GDT601 | GDT601_naibbe_literal_key_attack | `LITERAL_NAIBBE_KEY_REJECTED_ON_F84_FREE_91_FOLIO_CORPUS` | [report](../experiments/yolo/gdt601_naibbe_literal_key_attack/REPORT.md) | 11 | 40.0 KiB | 4 | STRUCTURED_YOLO |
+| GDT600 | complete object surface grammar | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt600_complete_object_surface_grammar/REPORT.md) | 31 | 3.6 MiB | 2 | STRUCTURED_YOLO |
 | GDT599 | GDT599_remaining_action_object_completion | `PASS_793_REMAINING_OBJECTS__1443_OF_1443_ACTIONS_COMPLETE__313_OF_313_STATEMENTS_COMPLETE__11_LOCAL_WORKSHOP_DECISIONS__46_AIIN_QUANTITY_BINDINGS__9_Q_CIRCULAR_TARGETS_BLOCKED__0_UNFILLED` | [report](../experiments/yolo/gdt599_remaining_action_object_completion/REPORT.md) | 32 | 3.0 MiB | 6 | STRUCTURED_YOLO |
 | GDT598 | GDT598_six_page_object_statement_integration | `PASS_313_STATEMENTS__2272_HOSTS__1443_ACTIONS__650_OBJECT_COMPLETE__793_GAPS__71_COMPLETE__229_MIXED__13_GAP_ONLY__298_PARTICIPANT_PACKET__46_AIIN_ONLY__449_CARRIERLESS__36_MULTI_EVENTS__10_STRING_HAZARDS__0_SLOT_COLLISIONS` | [report](../experiments/yolo/gdt598_six_page_object_statement_integration/REPORT.md) | 22 | 2.1 MiB | 5 | STRUCTURED_YOLO |
 | GDT597 | GDT597_nonsh_action_object_reference_phrasebook | `PASS_396_NONSH_ACTION_OBJECTS__219_WRITTEN__77_LEFT__4_RIGHT__96_DEFAULT__0_UNFILLED` | [report](../experiments/yolo/gdt597_nonsh_action_object_reference_phrasebook/REPORT.md) | 24 | 355.2 KiB | 7 | STRUCTURED_YOLO |
