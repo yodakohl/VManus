@@ -21532,3 +21532,36 @@ rival, not a decoded component. Learned designation plus page/ring-conditioned
 graphical realization remains primary. Validation passes 881 checks and two
 byte-identical builder replays. Primary report:
 `experiments/yolo/gdt799_f70_f71_f72_homolog_clothing_transition/REPORT.md`.
+
+## GDT800 nonempty terminal B2/B3 boundary field
+
+GDT800 follows the concrete A09 `okalal`/`okalam` difference at physical
+source-member resolution. All three alternate readings give B2 for f70 and B3
+for f72, and the already admitted native crops show two distinct terminal ink
+forms. Yet A09 is the only exact `l/m` same-stem change among 156 cross-array
+same-Kluge-member pairs. It is not a repeated homolog operation, and the A09
+direction remains unpredicted.
+
+The wider formal contrast is real. Twenty-seven admitted circular labels end
+in source-native B2/B3, and four normalized compact bases occur with both
+endings in labels and as nonempty exact bases in running text: `oka`, `okala`,
+`ota`, `otara`. The `ota` and `otara` oppositions occur inside one source
+array, rejecting page-only allography. In the f84-free running cache, 155
+nonempty exact preceding surfaces supply 4,137 paired events. Terminal `m` is
+last on 450/653 multi-token lines versus 310/3,484 for `l`; fixed-stem OR is
+17.3775 (`p=3.17e-153`), metadata-adjusted OR 14.5258 and page-adjusted OR
+15.6886. All 29 thick stems favor `m`. The 169 bare one-sign `l`/`m` tokens
+are excluded from this stem model; removing all 26 singleton-line events also
+retains and slightly strengthens the effect.
+
+The live addition is therefore structural only:
+`BOUNDARY_FAVOURED_TERMINAL_SURFACE`, displayed as
+“zeilenrandbevorzugte Endform; Wert offen”. It supports learned whole or stem
+material plus a bound terminal realization, but does not license `m=l`, an
+obligatory allograph, case, abbreviation, sound, morpheme or meaning. There
+remain 203 paired nonfinal `m` events and 310 paired final `l` events. The next
+discriminator is whether GDT791 record/panel closure adds predictive value
+beyond physical line position; if capacity is insufficient, record that rather
+than manufacture a status value. Validation passes 26,493 checks and two
+byte-identical replays. Primary report:
+`experiments/yolo/gdt800_terminal_b2_b3_line_final_bridge/REPORT.md`.

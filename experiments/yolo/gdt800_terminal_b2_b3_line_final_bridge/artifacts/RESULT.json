@@ -1,0 +1,114 @@
+{
+  "a09": {
+    "direction_predicted": false,
+    "f70": {
+      "locus": "f70v1.5",
+      "member": "B2",
+      "state": "TORSO_COVERED",
+      "surface": "okalal"
+    },
+    "f72": {
+      "locus": "f72r1.5",
+      "member": "B3",
+      "state": "TORSO_UNCOVERED",
+      "surface": "okalam"
+    }
+  },
+  "claim_ceiling": "FORMAL_BOUNDARY_FIELD_ONLY__NO_EQUIVALENCE_MORPHEME_WORD_OR_TRANSLATION",
+  "confirmed_lexemes": 0,
+  "confirmed_plaintext_clauses": 0,
+  "content_hash": "b93347130b0319fd94eb56e28f343e448a6b8b1db2adcacb090b5d42d87dbf43",
+  "decision": "LEARNED_WHOLE_OR_STEM_PLUS_BOUNDARY_FAVOURED_TERMINAL_FIELD",
+  "experiment": "GDT800",
+  "f84_or_f84r_accessed": false,
+  "implementation": {
+    "experiments/yolo/gdt800_terminal_b2_b3_line_final_bridge/src/run.py": "e8e0862f928ab206191a3ebc1d6db1a58d3d3a834ba8a1b31022caaea6fd002b"
+  },
+  "inputs": {
+    "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/artifacts/V99R7_4128_INTEGRATED_LINE_READER.tsv": "d88e11748377467cc6beafe279fa812909a8449499cbdb7f37fb80944fce582b",
+    "experiments/yolo/gdt795_source_native_family_kluge_transfer/artifacts/GDT795_101_KLUGE_SOURCE_FAMILY_ATLAS.tsv": "079208404e6e4cc77c397b1bca4ed9201b6dbae3227836fa7423a4b74948a754",
+    "experiments/yolo/gdt799_f70_f71_f72_homolog_clothing_transition/artifacts/GDT799_9_FIXED_HOMOLOG_TRANSITIONS.tsv": "7705bbd69cb39c6b5968345a5739323928d589714e7c631190fd49d977f9902c",
+    "experiments/yolo/gdt800_terminal_b2_b3_line_final_bridge/src/CANDIDATE_MODEL_SPECS.tsv": "7856f406faea7ab843201b25a83ea13ea93685663c5867041977ff0fdb91e54d",
+    "experiments/yolo/gdt800_terminal_b2_b3_line_final_bridge/src/NATIVE_A09_GLYPH_AUDIT.tsv": "1c2a33e67228221d436d8169bc2d095a9dd42fb967b4a7791474675bf948b6e6",
+    "experiments/yolo/gdt800_terminal_b2_b3_line_final_bridge/src/SOURCE_LOCK.tsv": "ad60d413a32a0e3c8942eeefda00b8b38fe83b1eae2d5de5c177b0f439509522"
+  },
+  "labels": {
+    "B2": 12,
+    "B3": 15,
+    "a09_holdout_pairs": 1,
+    "atlas_loci": 101,
+    "cross_register_stems": [
+      "oka",
+      "okala",
+      "ota",
+      "otara"
+    ],
+    "homolog_distance_one": 2,
+    "homolog_pairs": 156,
+    "homolog_same_family": 2,
+    "homolog_terminal_lm": 1,
+    "terminal_b2_b3": 27
+  },
+  "outputs": {
+    "experiments/yolo/gdt800_terminal_b2_b3_line_final_bridge/REPORT.md": "b3919c4a744b150c487c866b8e32423edfed188cd9678c7d9c32ae718c6f00a3",
+    "experiments/yolo/gdt800_terminal_b2_b3_line_final_bridge/artifacts/GDT800_155_MATCHED_STEM_SUMMARY.tsv": "4a6329ca13e738a4f4759c2cdcbda5c757604c655c6349044c5782502e3e3d95",
+    "experiments/yolo/gdt800_terminal_b2_b3_line_final_bridge/artifacts/GDT800_156_HOMOLOG_PAIR_CENSUS.tsv": "44ae58beb0910e756789770016caf8b8b455a02063f18d6c2740a5119c592061",
+    "experiments/yolo/gdt800_terminal_b2_b3_line_final_bridge/artifacts/GDT800_27_LABEL_TERMINAL_ATLAS.tsv": "3ab23bcb5d0e333b8fdc2514b5859c0c627ee76546e482634e5127a7734dafdb",
+    "experiments/yolo/gdt800_terminal_b2_b3_line_final_bridge/artifacts/GDT800_4137_MATCHED_TERMINAL_OCCURRENCES.tsv": "0ce409c54658bc8651a19989ec260041b1d5118d49d19cbffb6fe590d994aaf9",
+    "experiments/yolo/gdt800_terminal_b2_b3_line_final_bridge/artifacts/GDT800_4_CROSS_REGISTER_STEM_CARDS.tsv": "858c82b39eed0074ad8026ef91d41e561fc811a407be53a10c25a88bb5ec443b",
+    "experiments/yolo/gdt800_terminal_b2_b3_line_final_bridge/artifacts/GDT800_CANDIDATE_ADJUDICATION.tsv": "a0497f8418bbbec8c13063ef0fca735d72add8b22092cbeaa7bc9f2a496bbb59",
+    "experiments/yolo/gdt800_terminal_b2_b3_line_final_bridge/artifacts/GDT800_POSITION_TESTS.tsv": "002ea3d3439a92cf5180ba7072420a986c0a2a3aff715ad560711acdd62414d3",
+    "experiments/yolo/gdt800_terminal_b2_b3_line_final_bridge/artifacts/GDT800_STRATIFIED_RESULTS.tsv": "5933a69ab25980611f28b155c2d6b9dbe40a65d4e00b5c4497f0e3335d073df6",
+    "experiments/yolo/gdt800_terminal_b2_b3_line_final_bridge/artifacts/GDT800_STRUCTURAL_CARD.tsv": "4f8fced8a1195cc3a407c9d992291863ee79a0165d1482bc21f79406a19a04ec"
+  },
+  "primary_tests": {
+    "l_higher_stems": 12,
+    "leave_one_section_out_all_pass": true,
+    "m_higher_stems": 111,
+    "stem": {
+      "exact_upper_p": 3.174029163523885e-153,
+      "informative_strata": 125,
+      "odds_ratio": 17.37748265531406,
+      "strata": 155
+    },
+    "stem_multitoken_only": {
+      "exact_upper_p": 3.2779055409692757e-153,
+      "informative_strata": 122,
+      "odds_ratio": 18.072254134695786,
+      "strata": 155
+    },
+    "stem_page": {
+      "exact_upper_p": 5.780465674573553e-45,
+      "informative_strata": 137,
+      "odds_ratio": 15.68858133619123,
+      "strata": 2280
+    },
+    "stem_section_language_hand": {
+      "exact_upper_p": 9.920198355297755e-117,
+      "informative_strata": 171,
+      "odds_ratio": 14.525787600877639,
+      "strata": 613
+    },
+    "thick_m_higher": 29,
+    "thick_stems": 29,
+    "tie_stems": 32
+  },
+  "running_cache": {
+    "all_l": 4929,
+    "all_l_any_line_final": 482,
+    "all_m": 838,
+    "all_m_any_line_final": 591,
+    "empty_prefix_events_excluded_from_stem_model": 169,
+    "lines": 4128,
+    "paired_l": 3484,
+    "paired_l_multi_line_final": 310,
+    "paired_m": 653,
+    "paired_m_multi_line_final": 450,
+    "paired_occurrences": 4137,
+    "paired_stems": 155,
+    "tokens": 32339
+  },
+  "schema": "GDT800_RESULT_V1",
+  "semantic_exports": 0,
+  "status": "PARTIAL__155_NONEMPTY_PAIRED_STEMS__BOUNDARY_FIELD_SELECTED__OBLIGATORY_ALLOGRAPH_REJECTED__A09_DIRECTION_OPEN__ZERO_LEXEMES"
+}
