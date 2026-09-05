@@ -1,10 +1,10 @@
 # Voynich current route
 Updated: 2026-09-05. Read first.
-`./vmanus-work lookup GDT823 GDT822 GDT819`: primary reports only.
+`./vmanus-work lookup GDT824 GDT823 GDT819`: primary reports only.
 
 ## Goal and actual position
 
-Concrete transferable translation. Unsolved.
+Transferable translation. Unsolved.
 
 - Confirmed English lexemes: **0**; German lexemes/clauses: **0**.
   Language,sounds,cipher,POS/SVO unknown.
@@ -31,8 +31,8 @@ Concrete transferable translation. Unsolved.
 
 ## Current working model
 
-Page hierarchy,line effects,technical shells/learned wholes;no sentence reset rule.
-Description of substance/part/quality and ingredient/amount/process remain rivals.
+Page hierarchy,line effects,shells/learned wholes;no sentence reset rule.
+Substance/part/quality versus ingredient/amount/process remains open.
 
 Structural tags: H1/H2 favor entry, H3/H4 internal/final; semantic transfer
 failed (GDT736–737). No POS decoded.
@@ -44,7 +44,7 @@ and alternate boundaries. Similarity grants no component.
 Source groups/separator states BEFORE whole-word/compound/space claims.
 Legacy ASCII spaces can be cleaner-created; extended @entities stay opaque.
 
-## Inherited family and active GDT823
+## Inherited family and active GDT824
 
 809axes open;810arity fails beyondf32v;sho sh+o-derived.811:0objects17ineligibleedges;
 f4rdefeatsobligatoryslots;f17r two otchol-X-Y-chol spans;okol/qokol notspecies.
@@ -90,23 +90,23 @@ Two C0 senses:steigt physical up (notincrease/heat/is/fall);leicht physical low
 heaviness (notdose/mild/easy/bright/fast/up),referenceunknown. No winner/hybrid.
 Light loses finiteverb;nohiddenis. sal unknown;chedy becomes;818matrix separate.
 
-GDT822qokeey=Feuer? physicalfire,notheat/heating/warmth/drug/air/water;C0.
-ALL39:153readerhits50loci17selectors;union821320loci31wholeP2nonP10L8391groups.
-Fire fits bothraiin;82r24fire[lkeey]fire,76r19firefire retained;95v1raiin-fire order.
-75r33fire...becomeswater subjectopen. De animaII.9.3#80618 possible,notwordkey.
-No qokeedy/okeeyheatcard,genre/SVOproof;822sourcechecknotsemantics.
-GDT823qol=daraus? material-source anaphor,notthen/therefore/whose/add/destination.
-Cached822only:101readerhits37loci8selectors;15wholeP217loci208P9L/all3reread.
-Notall39qolcensus. 81r20/82r21daraus-wird-fire;75r33ITdaraus-wird-water;
-77r33all3viel-wird-daraus. No recoveredreferent;unknowncontextsnotpositives.
-ZL75r33qo,l notqol;RFched@222;opaque;IT77r34extra-chedy/airdoublet kept.
-qolchedy stillunknown. Bothraiin fixed;0newpage/image/dictionary/confirmedword.
+GDT822qokeey=physicalfire?,notheat/heating/warmth/drug. ALL39:153hits50loci17selectors;
+union821320loci8391groups. Firefitsbothraiin;doublets/orderdebtsremain,noSVOproof.
+De animaII.9.3#80618fire-watergenerationpossible,notwordkey. No qokeedy/okeeyheat.
+GDT823qol=daraus? materialsource,notthen/therefore/whose/add/destination. C0.
+Cached101hits37loci15P217records;viel-wird-daraus77r33;referentsopen,notall39census.
+GDT824qolchedy=daraus?wird? ONEwholecell,notgeneralprefixrule;bothcomponentsC0.
+Cached13joined14split12loci9P164records155P9L/all3read;72trials26newjoinedcells.
+Joinedwater81v17/82r2;airjoin/split77r34ONEknownlocus;fireonlysplitincache.
+Extra-becomes77r34/81v17/76r19 andairdoubletremain. No source/materialrecovery.
+2cached77rregionsreviewed,authorialboundaryopen;0admissionsdownloadswordproof.
+7accountingmutationspass;relationpacketFAILpriorformalaccess,0eligible,not score-ready.
 
 ## Which source to open
 
 | Need | Index lookup / source |
 |---|---|
-| Source reference / debts | GDT823: theory, report, CONTENT_READING, candidates |
+| Composition / reference / debts | GDT824 / GDT823: theory, report, CONTENT_READING |
 | Fire / ascent / lightness | GDT822 / GDT821 |
 | Repetition constructions / initial ascent trial | GDT820 |
 | Actual image / boundary decisions | GDT819 |
@@ -135,9 +135,9 @@ Failed route needs new data/prediction. Do not revive:
 
 ## Next work
 
-Next proposal:onewholeqolchedy composition fromqol=daraus?/chedy=wird?,notyetglossed.
-77r34ZLjoined/ITsplit;81v17/82r2joinedbeforewater. Route-check beforelaunch.
-No generalqol-prefixsplit;fireandbothraiin fixed;no newpage/nouncensus needed.
+Next:qopchedy81r20 beforedaraus-wird-fire versusqopchedy.qopchedy77r9.
+Seekoneconcretesourcemeaning,notanotherconnector/heatcard. Route-check beforelaunch.
+No meaningchosenyet;bothraiin/firefixed;no generalqol-prefixruleornewpage needed.
 
 Reuse readers/batch probes. Workflow:`docs/WORKFLOW.md`; preserve bound tools.
 

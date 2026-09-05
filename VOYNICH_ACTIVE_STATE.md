@@ -22348,6 +22348,33 @@ withsal.raiin76r51/82r24. Not anothercensus,q-prefixgenericrouteorautomaticdrug
 meaning. Scope34visualkeys39selectors16unusedadmissions;f84/f84rsealed.
 Authority821REPORT/WORKING_THEORY,CANDIDATES,LIGHT_TRIALandthreecontentnotes.
 
+## GDT824 — one qolchedy composition, repeated predicates unresolved (2026-09-05)
+
+New whole C0 qolchedy=daraus?wird?, composed of unchanged material-source qol
+and becomes chedy. One source group/one literal cell, no inserted source space.
+No component export to qolchey/qolain/qolsheedy/qolky/opaque qolche@152;y.
+Joinedwater81v17/82r2 is locally compatible; both examples known on proposal.
+Known77r34ZLjoined/ITsplit yields same sequence after one display expansion,
+but two becomes and final air-air remain. Earlier becomes81v17/76r19 also
+retained. This does NOT solve repeated-predicate syntax or recover a source.
+Fire is adjacent only to split forms in this cache; air bridge is one locus.
+No calibrated confidence or confirmed linguistic compound/grammar/word.
+
+Cached822only320loci8391groups:13joinedreaderhits6loci14split7loci12union;
+9wholeP164records155P9separateL/all3reread;72trials26newjoinedcells. Notall39.
+Two cachedYale1006212nativecrops of77r reviewed,hashesmatch819. Wider middle
+context coversjoin;rightdetailstarts too late forwholetransition. Authorial
+boundaryOPEN,no canonicaltranscriptionedit,no newdownload/admission.
+
+RelationpacketinitialID/duplicatepositiondefects corrected with reader-qualified
+positions;previousformalaccess kept honest. ExecutableGDT388 INVALID_PACKET
+priorformalaccess27rows0eligible,score_readyfalse;no capacity/held/mobile gate
+pass. Sameauthorseparate7mutationaccountingaudit passes,notrelationorsemantics.
+Next:qopchedy81r20inputbeforefire versusdoublet77r9,seekconcretematerial not
+anotherconnector;nonechosenyet,routecheckfirst. Authority824theory/report/
+CONTENT_READING/VISUAL_REVIEW/CANDIDATES. Scope34visual39selectors16unused,
+f84/f84rsealed;0confirmedwordsclausesdictionaryadmissionsdownloads/scorededges.
+
 ## GDT823 — qol material-source reference, no recovered antecedent (2026-09-05)
 
 One new exact-whole C0 trial: qol=daraus? (from that material), never then,
