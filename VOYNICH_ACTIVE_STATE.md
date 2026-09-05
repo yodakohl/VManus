@@ -6,6 +6,19 @@ Updated: 2026-09-05. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### Own visual production-path proposal (2026-09-05; untested)
+
+User-requested direct review covered ten admitted page keys in nine full cached
+images plus two f77r details. f32v/f55v/f82r show divided writing spaces; this
+does not establish reading order. DIC001 already tested interruption edges,
+so that rediscovered idea is not selected. Proposed new physical discriminator:
+transient pen/ink-state continuity along competing production paths, subject
+to same-stroke, background, spatial and known-continuation controls. No ink
+clock, chronology, pixel measurement or order inference has been established.
+Production order and intended reading order remain separate. Source ledger
+and unexecuted proposal: `docs/visual_writing_order/PROPOSAL.md`.
+
+
 ### User scope correction: public approaches exhausted (2026-09-05)
 
 The user prohibits further searches for public approaches and states these

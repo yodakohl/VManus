@@ -27,14 +27,24 @@ or admit more pages to rescue it. No replacement attack is selected. A new
 route needs a distinct predeclared discriminator or genuinely new comparison
 data and the usual targeted duplicate review. No cipher/language selected.
 
-## Pending internal reassessment
+## Current proposal — visual production-path hypothesis, not executed
 
-`docs/NEXT_BOUNDARY_PROPOSAL.md` remains an unexecuted candidate. Its external
-publication-based motivation is withdrawn as a basis for choosing the next
-route. Any further recommendation must establish its value and nonduplication
-from our own experimental history. The user has not adjudicated the underlying
-cross-gap hypothesis; no scientific rejection or new result is inferred.
-GDT829's stopping rule remains intact.
+The user requests an own new idea grounded in actual visual review of admitted
+pages. Root directly viewed nine cached full images covering10 admitted page
+keys plus two f77r details. Source identities/hashes and observations are in
+`docs/visual_writing_order/SOURCES.json` and `PROPOSAL.md` in that directory.
+No new page, public approach search, pixel fit or target test was performed.
+The initial drawing-interruption reset idea was caught as a near-duplicate of
+DIC001; do not rerun or present that as novel. f55v column/row order was already
+open. The distinct proposed discriminator is transient pen/ink-state continuity
+along competing production paths, first calibrated against spatial/background
+and same-stroke controls on unambiguous rows. Darkness is not a clock; success
+at artificial cuts does not automatically transfer to pen lifts. Without
+independently calibrated temporal asymmetry, infer at most path support.
+Production order is not intended reading order. No transcription reordering,
+language or meaning follows. Numeric gates and executable method are not yet
+registered. The earlier public-paper boundary proposal remains inactive;
+GDT829 remains closed. Detailed proposal: `docs/visual_writing_order/PROPOSAL.md`.
 
 ## Understanding basis and limits
 
