@@ -3,40 +3,29 @@ Updated: 2026-09-05. Read first.
 
 ## Current mandate
 
-User explicitly requested an independent methodological reset after GDT828.
-Goal: a transferable decipherment. No confirmed lexemes or clauses exist.
-Confirmed English lexemes: **0**; confirmed German lexemes/clauses: **0**.
-Stop extending the guessed water/vapour/manual-treatment dictionaries as the
-main research programme. Language, encoding, sign units and word boundaries
-are open. Earlier model choices and route closures are claims to audit, not
-proof that every other mechanism is impossible.
+User correction on 2026-09-05: first understand the manuscript, the external
+research and this project's history thoroughly BEFORE selecting a fixed plan.
+The assistant's premature two-phase cipher proposal is withdrawn as the active
+route. No new attack or experiment is selected. Goal remains transferable
+translation. Confirmed English lexemes: **0**; confirmed German lexemes/clauses: **0**.
 
-Read `docs/RESEARCH_RESET.md` for the current decision. Do not automatically
-resume GDT828's attachment problem. Its conditional result remains archived.
-`./vmanus-work lookup GDT827 GDT828 GDT612 GDT613` gives relevant audit pointers.
+## Next work: understanding, not a selected decoder
 
-## Next work
+Reconstruct the major research phases and why they changed. Use index metadata
+and compact lookups to locate primary reports; audit targeted registry/ledger
+rows when tracing claims and corrections. Treat older archive summaries as
+potentially superseded. Understand contributions as well as failures.
 
-Build a small explicit encoding attack with measurable plaintext recovery.
-First candidate for specification: a two-phase homophonic letter channel on
-continuous text across line breaks, with arbitrary displayed gaps, one emitted
-letter per source atom and no word glosses. GDT001 already tests two-phase
-homophony but resets at lines/groups and retains source spaces. The proposed
-difference is cross-line phase/gap independence plus calibrated key recovery,
-not the bare cipher family. This is a test candidate, not manuscript evidence.
-Fix an auditable atom policy; opaque entities must not silently change phase.
-Test hidden keys and arbitrary gaps on independent known-text controls.
+Combine that history with authoritative manuscript description, material and
+scribal studies, transcription limitations, linguistic/cryptanalytic research,
+and the distinction between established findings and proposed explanations.
+Do not prefer a cipher, language, semantic glossary or nonlinguistic account
+before this review. Do not run new fitting or open new manuscript pages.
 
-Use normalized forward ciphertext probability; account for homophone choices.
-Judge the method by recovery of withheld plaintext, not pleasant output,
-roundtrip alone, dictionary coverage, or a successful artifact validator.
-Do not import fixed FST34 role counts or the 98-unit BPE alphabet as facts.
-A model unable to recover its own covered controls has not tested Voynich.
-
-A joint segmentation/encoding model and recurrence-based neural decipherment
-are methodological options, not established findings or automatic fallback
-searches. Select one bounded executable mechanism at a time. GPU and subagents
-are authorized; no other LLM API keys may be used.
+`docs/RESEARCH_RESET.md` records the earlier premature proposal; it is not the
+current research plan. The source-linked understanding dossier is `docs/VOYNICH_UNDERSTANDING.md`;
+its three historical appendices document reviewed reports and remaining gaps.
+GPU and subagents remain authorized; no other LLM API keys may be used.
 
 ## Source scope and fidelity
 

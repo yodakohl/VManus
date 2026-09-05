@@ -22348,6 +22348,19 @@ withsal.raiin76r51/82r24. Not anothercensus,q-prefixgenericrouteorautomaticdrug
 meaning. Scope34visualkeys39selectors16unusedadmissions;f84/f84rsealed.
 Authority821REPORT/WORKING_THEORY,CANDIDATES,LIGHT_TRIALandthreecontentnotes.
 
+## Understanding before method selection — user correction (2026-09-05)
+
+The user rejected selecting a fixed successor attack before understanding the
+manuscript and project history. The proposed continuous-phase cipher is no
+longer an active task. No new decoder, language or semantic model is selected.
+Three independent retrospective reviews cover early/middle/late phases through
+selected primary reports; root integrates external manuscript, paleographic,
+transliteration and statistical literature. docs/VOYNICH_UNDERSTANDING.md and
+its three history appendices distinguish original results, later corrections,
+actual reading coverage and unresolved gaps. No new target experiment or page
+admission; historical numerical results were not rerun. All meanings remain
+unconfirmed. The preceding reset proposal is preserved as superseded history.
+
 ## Research reset requested by user (2026-09-05)
 
 The user explicitly requested independent method selection after GDT828.

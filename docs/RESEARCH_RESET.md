@@ -1,5 +1,9 @@
 # Research reset — 2026-09-05
 
+Status: SUPERSEDED AS AN ACTIVE PLAN. The user subsequently required thorough
+understanding of the subject and project history before selecting an approach.
+The proposed cipher attack below has not been run and is not the current route.
+
 The user asked for an independent decipherment approach, explicitly allowing
 departure from the inherited model's schema. Subagents and local GPU use are
 authorized; other LLM API keys are prohibited. This note changes the research
