@@ -6,9 +6,10 @@ Updated: 2026-09-05. Read first.
 Latest user clarification (2026-09-05): the root assistant must personally
 look at whole admitted manuscript pages with native vision to understand the
 manuscript's overall appearance. Pixel-label QC and delegated interpretation
-do not satisfy that request. The l/m width investigation was paused for that viewing. In response to
-the subsequent planning question it is now recommended as a bounded candidate;
-no measurement experiment is registered or executed. Inspect whole pages and record direct
+do not satisfy that request. The l/m width investigation was paused for that viewing. Its subsequent
+rank1 recommendation is now withdrawn: tractability was overweighted relative
+to decipherment value. It remains an optional unexecuted side question, not
+the main route. No measurement experiment is registered or executed. Inspect whole pages and record direct
 visual observations separately from interpretation before choosing a plan.
 A subagent may help with source metadata only; root performs the viewing.
 
@@ -64,16 +65,16 @@ layouts. Source logistics alone were delegated. The observational dossier is
 No new experimental or semantic claim, no new page admission. User's required
 visual understanding remains part of future work; no fixed successor plan.
 
-## Proposed next step — direct l/m geometry, unexecuted
+## Priority correction — l/m width is not the main route
 
-Recommendation: `docs/visual_overview/NEXT_STEP.md`. First verify complete raw
-same-body l/m comparison groups on admitted images, then describe full-group,
-body and separable terminal horizontal extent on the same page/position class.
-This tests a geometric prerequisite of direct space saving; it does not equate
-meanings, establish advance width or independently measure available space.
-No old ink-mask or long-context route is reopened; no new page is admitted.
-The apparent label-to-prose and f66r-column ideas were screened as prior work.
-No GDT number, frozen new statistical design or measured width result yet.
+Rationale: `docs/visual_overview/NEXT_STEP.md`. The broad l/m question could
+help distinguish content from writing convention, but width alone cannot do
+that. Smaller mforms fit multiple explanations; a contrary result rejects only
+a narrow direct-space-saving premise. Rank1 was not supported by a comparative
+assessment of expected decipherment information. Root withdraws that ranking.
+This is a planning correction, not a test result. Optional side check only;
+no widths, new GDT, independent space-pressure measurement or meanings.
+No replacement main route is yet selected. Closed experiments remain closed.
 
 ## Understanding basis and limits
 

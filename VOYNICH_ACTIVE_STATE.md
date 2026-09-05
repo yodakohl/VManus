@@ -6,16 +6,16 @@ Updated: 2026-09-05. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-### Proposed next step after visual orientation (2026-09-05; unexecuted)
+### l/m-width priority corrected (2026-09-05; unexecuted)
 
-Recommend source-verified direct l/m geometry on same-page complete bodies,
-first testing only a horizontal space-saving prerequisite. No widths measured,
-new experiment registered, meanings equated or old mask/context gate reopened.
-The visually tempting local-label/prose and f66r-column routes are already
-represented in prior work; f66r's detailed old primary report is unavailable
-in the targeted recovery, so only its recorded scope is cited.
+The initial rank1 recommendation is withdrawn after reviewing expected value.
+The l/m position finding remains interesting, but a width contrast cannot
+separate content difference from writing convention. A pass fits several
+accounts; a contrary result addresses only direct horizontal space saving.
+Root had overweighted tractability without a comparative decipherment-value
+assessment. Optional side question only; no new test or negative result,
+no registered or executed width experiment, no replacement main route.
 Primary: `docs/visual_overview/NEXT_STEP.md`.
-
 
 ### User clarification and root visual orientation (2026-09-05)
 

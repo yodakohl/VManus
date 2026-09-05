@@ -1,11 +1,33 @@
-# Empfehlung nach eigener Bildbetrachtung
+# l/m-Breitenidee — möglicher Nebencheck, keine erste Priorität
 
 5. September 2026. Antwort auf die Frage nach dem besten nächsten Schritt.
-Status: vorgeschlagen, nicht ausgeführt; kein neues Experiment registriert.
+Status: nach Prüfung des erwartbaren Erkenntnisgewinns als Hauptpriorität
+zurückgenommen. Möglicher Nebencheck, nicht ausgeführt; kein neues Experiment.
 
-## Entscheidung
+## Korrektur der Priorisierung
 
-Ich empfehle eine kleine direkte Untersuchung der sichtbaren l/m-Variation.
+Die Nachfrage des Nutzers nach Erwartung und Platz1 verlangt eine Trennung
+von strategischer Frage und vorgeschlagenem Messinstrument. l/m ist interessant,
+weil eine belastbare Unterscheidung zwischen inhaltlicher Differenz und
+Schreibkonvention unser Verständnis der schriftlichen Einheiten verändern
+könnte. GDT800/801 belegen den Positionsbezug, nicht diese Unterscheidung.
+
+Die Breitenmessung liefert dafür wenig: kleinere m-Formen wären mit direkter
+Platzersparnis vereinbar, aber ebenfalls mit inhaltlich verschiedenen Endungen
+oder anderen Schreibregeln. Eine Gegenrichtung träfe nur die schmale
+Platzsparannahme. Keines der Ergebnisse bestimmt Gleichbedeutung, Lautwert,
+Wortgrenze, Sprache oder einen Decodierschritt.
+
+Die frühere Rang1-Empfehlung gewichtete Beobachtbarkeit, begrenzten Aufwand und
+den vorhandenen Positionsbefund stärker als den erwartbaren Beitrag zur
+Entzifferung. Ein Vergleich des strategischen Informationsgewinns gegenüber
+anderen Routen lag nicht vor. Deshalb wird Rang1 zurückgenommen; dies ist eine
+Priorisierungskorrektur, kein negatives Messergebnis und keine Widerlegung
+der l/m-Forschung. Keine alternative Hauptroute wird hier als geprüft ausgegeben.
+
+## Aufbewahrter Umfang des möglichen Nebenchecks
+
+Eine kleine direkte Untersuchung der sichtbaren l/m-Variation bleibt möglich.
 Die konkrete neue Frage lautet: Beanspruchen Gruppen mit der Endform m bei
 ansonsten identischem vollständigem Schriftkörper auf derselben Seite weniger
 horizontalen Platz als Gruppen mit l? Die lateinischen Buchstaben sind dabei
