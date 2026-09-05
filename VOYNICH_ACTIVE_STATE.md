@@ -21898,3 +21898,18 @@ not another identical context ranking or GDT686/GDT764 dispatch rerun.
 
 Primary report:
 `experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/REPORT.md`.
+
+### GDT810 — compact quality-arity prediction receives no external support
+
+The specific otchol daiin daiin idea, one value for each of two alleged
+qualities, has no external paired-quality example among2,264 exact GDT628
+head occurrences. Outside f32v, supported interior OL arity1 has29 single
+versus1 multiple run; arity2 has5 single and0 multiple. Raw unfiltered arity2
+multiple runs also occur only at discovery. The repeated f32v pair agrees
+across readers, but its following ctho/cthodaiin boundary varies. This does
+not reject shared degrees or the local III/III rival. No general rule is
+exported; do not rerun this same prediction without new evidence.
+The sho audit finds inherited sh+o semantic provenance, not a new learned
+meaning. GDT809 remains unchanged. All27 independent checks pass; empty
+GDT388 packet grants no evidence credit. No new pages/images or f84 access.
+Report: `experiments/yolo/gdt810_quality_arity_value_run/REPORT.md`.
