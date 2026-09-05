@@ -6,6 +6,20 @@ Updated: 2026-09-05. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### GDT829 repeated-context capacity stop (2026-09-05)
+
+The authorized fixed 12-atom-flank/full-masked-body census is complete. Its
+ZL3b 4455, IT2a 4596 and RF1b 4474 complete windows yield zero recurrent
+context families in each reading, before layout/hand/certainty filters.
+No cross-layout pairs exist; primary capacity upper bound U=0. Independent
+reconstruction of all 13525 windows and exact replay pass. The three readings
+are sensitivity channels, not pooled evidence. The plan ends at its registered
+capacity stop: no shorter flanks, edit matching, terminal swap or new pages.
+This neither tests the l/m mechanism nor denies repetitions under other
+definitions. Existing GDT800–803 observations remain; no replacement attack
+is selected. Primary: `experiments/yolo/gdt829_repeated_passage_reflow_capacity/REPORT.md`.
+
+
 ### Decipherment reset (GDT601–GDT605)
 
 No concrete GDT409+ German value is confirmed manuscript content. The

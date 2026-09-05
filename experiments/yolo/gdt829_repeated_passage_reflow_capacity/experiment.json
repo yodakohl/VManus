@@ -1,6 +1,6 @@
 {
   "artifact_policy": {
-    "large_artifact_justification": "",
+    "large_artifact_justification": "MASKED_OCCURRENCES.tsv retains all 13525 candidate windows across three alternate readings (about 7.6 MB). The full negative census makes absence of repeated keys and candidate coverage independently auditable; no selected-example substitute. All other result artifacts are compact.",
     "max_inline_bytes": 5000000
   },
   "claim_ceiling": "Capacity only under one preregistered twelve-atom flank and full masked group-body rule. No outcome direction, glyph equivalence, lexical meaning, normalization, cipher or new page. Alternate readings are sensitivity channels; blocks are conservative dependency control.",
@@ -64,17 +64,57 @@
     {
       "path": "experiments/yolo/gdt829_repeated_passage_reflow_capacity/README.md",
       "role": "bound_source_design_or_result",
-      "sha256": "fef5ce778906057d093fb62fd295d8c2ac6dc91aa9cac4090284ce2fb5f17a2b"
+      "sha256": "7c4fd9f1d64346bcc178a869e658951b77c271bd41b1e27462a206d4656fe054"
     },
     {
       "path": "experiments/yolo/gdt829_repeated_passage_reflow_capacity/REPORT.md",
       "role": "bound_source_design_or_result",
-      "sha256": "42be06e1dd057aa25d0d8b7923740002165d078166e067704df632a213ef8a50"
+      "sha256": "946b3bed676e610ce0e9a2202d163fdc6fcd0eaabd959986d04332990d852417"
+    },
+    {
+      "path": "experiments/yolo/gdt829_repeated_passage_reflow_capacity/artifacts/COMPONENTS.tsv",
+      "role": "bound_source_design_or_result",
+      "sha256": "de40fa9848fd89b902cee9a2ef46ea5b9d3f9b07786107322f9cd05ff2f78b4e"
+    },
+    {
+      "path": "experiments/yolo/gdt829_repeated_passage_reflow_capacity/artifacts/LAYOUT.tsv",
+      "role": "bound_source_design_or_result",
+      "sha256": "663cd713fbb49d554db3b413680b0b5afbc0bfc9b643ec4e415ab9df155b7397"
+    },
+    {
+      "path": "experiments/yolo/gdt829_repeated_passage_reflow_capacity/artifacts/MASKED_FREEZE.json",
+      "role": "bound_source_design_or_result",
+      "sha256": "42d43210afa65aec3d941b8223863664afc05c47dec24edf25023c0daed0f426"
+    },
+    {
+      "path": "experiments/yolo/gdt829_repeated_passage_reflow_capacity/artifacts/MASKED_OCCURRENCES.tsv",
+      "role": "bound_source_design_or_result",
+      "sha256": "fc78466c742f2f83f23a8df51d651f945d2e9e9d5dcf092b39edaf9059c3ff01"
+    },
+    {
+      "path": "experiments/yolo/gdt829_repeated_passage_reflow_capacity/artifacts/PAIRS.tsv",
+      "role": "bound_source_design_or_result",
+      "sha256": "d2cea3d55b10b5dd3428acdfcaa88b4001c258d275dd268988eb6a3ddf329ff4"
     },
     {
       "path": "experiments/yolo/gdt829_repeated_passage_reflow_capacity/artifacts/README.md",
       "role": "bound_source_design_or_result",
-      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+      "sha256": "3033cda6cb52577b966062355c130d1033ee1f2f1da2da75c1801a8383962c8d"
+    },
+    {
+      "path": "experiments/yolo/gdt829_repeated_passage_reflow_capacity/artifacts/RECURRENT_CONTEXTS.tsv",
+      "role": "bound_source_design_or_result",
+      "sha256": "9ccdc41aa6a5d4a33dad5dae5e91cca0bfad8bf6d9a19c6a6d71216905d43b4c"
+    },
+    {
+      "path": "experiments/yolo/gdt829_repeated_passage_reflow_capacity/artifacts/RESULT.json",
+      "role": "bound_source_design_or_result",
+      "sha256": "4684e014b98c5140ba2bd2ff64fc13437bcdef119a3a300414e7b2f5f4b0b484"
+    },
+    {
+      "path": "experiments/yolo/gdt829_repeated_passage_reflow_capacity/artifacts/VALIDATION.json",
+      "role": "bound_source_design_or_result",
+      "sha256": "b0c1e07960f3f865ec3ce7ec15ad5b80b45dab8597c928c30094e3f320c76c08"
     },
     {
       "path": "experiments/yolo/gdt829_repeated_passage_reflow_capacity/src/DESIGN_REVIEW.md",
@@ -119,11 +159,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "repeated_passage_reflow_capacity",
-  "status": "REGISTERED_UNSCORED",
+  "status": "CAPACITY_FAIL_UPPER_BOUND",
   "title": "Extended literal context under changed line wrapping: capacity",
   "updated": "2026-09-05",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "artifact": "experiments/yolo/gdt829_repeated_passage_reflow_capacity/artifacts/VALIDATION.json",
+    "status": "PASS"
   }
 }

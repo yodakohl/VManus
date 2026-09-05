@@ -1,0 +1,96 @@
+{
+  "components": 0,
+  "cross_layout_pairs": 0,
+  "cryptographic_blinding": false,
+  "experiment_id": "GDT829",
+  "independently_reconstructed_scaffold": {
+    "bounded_zl_paragraphs": 665,
+    "editions": {
+      "IT2a": {
+        "alternate_flag_disagreements": 104,
+        "drawing_split_segments": 1372,
+        "segments_dropped": 1,
+        "segments_retained": 702
+      },
+      "RF1b": {
+        "alternate_flag_disagreements": 1330,
+        "drawing_split_segments": 1377,
+        "segments_dropped": 0,
+        "segments_retained": 703
+      },
+      "ZL3b": {
+        "alternate_flag_disagreements": 0,
+        "drawing_split_segments": 1377,
+        "segments_dropped": 0,
+        "segments_retained": 703
+      }
+    },
+    "zl_scaffold_segments": 703
+  },
+  "limitations": [
+    "Reconstructs the registered atlas projection; does not independently reread manuscript images or prove the human atlas correct.",
+    "Physical-leaf components are conservative dependency blocks, not proof of statistical independence.",
+    "Current files can verify the byte freeze; chronology is established by versioned preregistration and the runner protocol, not by hashes alone.",
+    "Masking is procedural: overlapping flanks and source identifiers can allow target recovery, and historical source exposure is not erased.",
+    "No target direction test, language, meaning, allography or semantic relation is validated."
+  ],
+  "masked_file_sha256": {
+    "MASKED_OCCURRENCES.tsv": "fc78466c742f2f83f23a8df51d651f945d2e9e9d5dcf092b39edaf9059c3ff01",
+    "RECURRENT_CONTEXTS.tsv": "9ccdc41aa6a5d4a33dad5dae5e91cca0bfad8bf6d9a19c6a6d71216905d43b4c"
+  },
+  "masked_occurrences": 13525,
+  "primary_capacity_upper_bounds_by_edition": {
+    "IT2a": 0,
+    "RF1b": 0,
+    "ZL3b": 0
+  },
+  "recurrent_context_families": 0,
+  "recurrent_occurrences": 0,
+  "source_projected_groups": 96184,
+  "source_projection_sha256": "c5c6f4c0b8d445c7d173638172b5de488483ee29e4f3bb3f6ee59d2797b2e1ce",
+  "status": "PASS",
+  "synthetic_controls": {
+    "alternate_nonconsecutive_segment_excluded": true,
+    "definite_gap_equals_admissible_reflow_gap": true,
+    "exact_power_32_vs_33": true,
+    "extended_entity_not_ascii_split": true,
+    "malformed_atom_rejection": true,
+    "opaque_entity_and_nested_annotation": true,
+    "paragraph_numeric_source_label_drawing_barriers": true,
+    "sameleaf_sides_panels_and_transitive_clustering": true,
+    "unbounded_paragraph_excluded": true,
+    "uncertain_gap_distinct_and_nonprimary": true,
+    "unchanged_ending_pair_retained": true
+  },
+  "target_value_column_or_directional_statistics_emitted": false,
+  "validator": "INDEPENDENT_SOURCE_RECONSTRUCTION",
+  "verified_edition_counts": {
+    "IT2a": {
+      "components": 0,
+      "cross_layout_pairs": 0,
+      "independent_primary_upper_bound": 0,
+      "masked_occurrences": 4596,
+      "recurrent_families": 0,
+      "recurrent_occurrences": 0,
+      "same_known_hand_certain_pairs": 0
+    },
+    "RF1b": {
+      "components": 0,
+      "cross_layout_pairs": 0,
+      "independent_primary_upper_bound": 0,
+      "masked_occurrences": 4474,
+      "recurrent_families": 0,
+      "recurrent_occurrences": 0,
+      "same_known_hand_certain_pairs": 0
+    },
+    "ZL3b": {
+      "components": 0,
+      "cross_layout_pairs": 0,
+      "independent_primary_upper_bound": 0,
+      "masked_occurrences": 4455,
+      "recurrent_families": 0,
+      "recurrent_occurrences": 0,
+      "same_known_hand_certain_pairs": 0
+    }
+  }
+}

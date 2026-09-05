@@ -6,19 +6,23 @@ Updated: 2026-09-05. Read first.
 User correction on 2026-09-05: first understand the manuscript, the external
 research and this project's history thoroughly BEFORE selecting a fixed plan.
 The assistant's premature two-phase cipher proposal is withdrawn as the active
-route. The bounded GDT829 capacity census is now authorized. Goal remains transferable
+route. GDT829 completed with a capacity stop. Goal remains transferable
 translation. Confirmed English lexemes: **0**; confirmed German lexemes/clauses: **0**.
 
-## Active investigation — GDT829 capacity census
+## Latest result — GDT829 capacity stop
 
-The user authorized continuation of `docs/NEXT_RESEARCH_PROPOSAL.md`.
-GDT829 preregisters one source-group search for extended literal contexts
-under changed physical wrapping, with twelve atoms per flank and the complete
-masked target-group body. It will establish comparison capacity only, keeping
-l/m outcomes out of result columns. Primary: ZL3b; IT2a/RF1b are sensitivities.
-No usable pairs have yet been established. No cipher/language/meaning selected.
-Stop this fixed extraction if independent primary capacity is insufficient;
-do not shorten contexts, change endings, or expand page scope to rescue it.
+The authorized repeated-passage plan was executed with its fixed 12-atom
+flanks and complete masked target-group body. ZL3b has 4455 complete windows,
+IT2a 4596 and RF1b 4474; each has zero recurrent context families, hence zero
+crossed-layout pairs. Independent source reconstruction and replay pass.
+Primary report: `experiments/yolo/gdt829_repeated_passage_reflow_capacity/REPORT.md`.
+This is absence of capacity under the fixed source-group rule, not a test of
+the l/m mechanism or a general absence of textual repetition. GDT800–803's
+existing observations remain as before. No terminal direction or meaning tested.
+The registered route ends here; do not shorten flanks, allow edits, swap endings
+or admit more pages to rescue it. No replacement attack is selected. A new
+route needs a distinct predeclared discriminator or genuinely new comparison
+data and the usual targeted duplicate review. No cipher/language selected.
 
 ## Understanding basis and limits
 
