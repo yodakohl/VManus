@@ -1,0 +1,92 @@
+{
+  "claim_ceiling": "Model-display contrast and exact-whole substitution reproducibility only.",
+  "confirmed_plaintext_clauses": 0,
+  "confirmed_words": 0,
+  "dictionary_changed": false,
+  "guard": {
+    "command": [
+      "./vmanus-exp",
+      "query-tsv",
+      "experiments/yolo/gdt812_additional_page_semantic_bridge/artifacts/ADMITTED_PAGE_LINES.tsv",
+      "--selector",
+      "page",
+      "--allow",
+      "f32v",
+      "--columns",
+      "page,locus,line_number,kind,paragraph_start,paragraph_end,eva_clean,it2a_clean,rf1b_clean",
+      "--forbid-prefix",
+      "f84",
+      "--forbid-prefix",
+      "f84r"
+    ],
+    "projection_sha256": "d682b80b1109dee19f2d2f0d1b5af541c78a8cb73ce34e72906726dfcc750823",
+    "stats": {
+      "selected": 11,
+      "skipped_forbidden": 0,
+      "skipped_not_allowed": 44
+    }
+  },
+  "meanings_validated": false,
+  "models": {
+    "model_III": "III?",
+    "model_sehr": "sehr?"
+  },
+  "new_admissions": 0,
+  "page": "f32v",
+  "per_reader": {
+    "IT2a": {
+      "daiin_wholes": 12,
+      "loci": 11,
+      "tokens": 85,
+      "unknown_wholes": 73
+    },
+    "RF1b": {
+      "daiin_wholes": 11,
+      "loci": 11,
+      "tokens": 84,
+      "unknown_wholes": 73
+    },
+    "ZL3b": {
+      "daiin_wholes": 12,
+      "loci": 11,
+      "tokens": 89,
+      "unknown_wholes": 77
+    }
+  },
+  "reader_rows": 33,
+  "readers_are_alternate_readings_not_independent_witnesses": true,
+  "runner_sha256": "c913b713b910cbbad8765f497e7aac7432be5bb559a30e0392dc4379e0202bf9",
+  "semantic_score": null,
+  "source_difference_loci": {
+    "IT2a_vs_RF1b": [
+      "f32v.1",
+      "f32v.2",
+      "f32v.4",
+      "f32v.6",
+      "f32v.7",
+      "f32v.8"
+    ],
+    "ZL3b_vs_IT2a": [
+      "f32v.2",
+      "f32v.5",
+      "f32v.6",
+      "f32v.7",
+      "f32v.8",
+      "f32v.10"
+    ],
+    "ZL3b_vs_RF1b": [
+      "f32v.1",
+      "f32v.2",
+      "f32v.4",
+      "f32v.5",
+      "f32v.6",
+      "f32v.7",
+      "f32v.8",
+      "f32v.10"
+    ]
+  },
+  "source_loci": 11,
+  "spec_sha256": "1e0be8fec2d1cad494b3907c0ae2af863705516aa6648f1b9a10d77422f23c8d",
+  "status": "POST_RESULT_EXPLORATORY_DISPLAY_ONLY",
+  "trial_tsv_sha256": "0d1eeea9db20c99830f8dde154d1b18a66269ec4036a89190428f83ff6a1ad9e"
+}

@@ -21972,3 +21972,19 @@ pair is explicitly ineligible under GDT388; no word or owner is identified.
 Seven independent reconstruction groups pass. Dictionary/renderer unchanged.
 Theory: `experiments/yolo/gdt812_additional_page_semantic_bridge/WORKING_THEORY.md`.
 Report: `experiments/yolo/gdt812_additional_page_semantic_bridge/REPORT.md`.
+
+Post-result follow-up: exact daiin=very/sehr? is retained as a nonnumerical
+C0 rival, not adopted as a dictionary meaning. The complete f32v display
+preserves all11 loci/three readings and every repetition. The doubled modifier
+can share one explicit expression; the first paragraph exposes conflicts
+with inherited noun/number readings of shor and dain, also cthaiin in P2.
+No hidden property repairs those conflicts. Macer attests postposed qualitative
+intensity, not immediate doubling; the minim family still needs explanation.
+Numeric degree/dose/storage alternatives remain open. Follow-up validation
+certifies exact substitution/conservation only, not either meaning.
+Historical clary/broom baths have opposing flow effects, so the dchdy
+substance/effect rivals remain distinct. Its exact whole is absent from both
+pages' prose; known soral/tolchd bridges do not supply its missing predicate.
+The Fribourg L52 Latin phrase is directly read but only an abbreviation
+comparator, not a core-script lexical bridge. f116v was not admitted; quota
+unchanged. These related probes are GDT812 continuation, not extra experiments.

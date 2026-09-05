@@ -41,6 +41,18 @@ three certified pictured owners. The trial is retained, but has no advantage
 until those subject references are independently explained. Do not promote
 qokol=hot by repeating this display.
 
+## Nonnumerical intensity rival added in the follow-up
+
+Exact daiin can alternatively be tried as **very / sehr?**. The doubled form
+then intensifies one expression, while chol daiin could conditionally mean
+very dry rather than dry in degree III. Macer attests postposed intensity,
+not the doubled modifier. The full f32v trial preserves twelve exact ZL3b
+occurrences and all unknowns, including dain and cthaiin. It cannot keep
+inherited nominal/numerical readings of every preceding whole: shor daiin
+and dain daiin make that cost especially clear. This is a concrete rival,
+not a new dictionary winner. The recurring written family remains a separate
+obligation; its minim counts do not independently identify numbers.
+
 ## Next discriminating question
 
 For the concrete shared-label hypothesis, ask whether a named substance is
@@ -48,8 +60,16 @@ introduced on a botanical page and referred to at an application, or whether
 the same label instead predicates a shared property. That requires a source-
 bound construction retaining the same subject across the explanatory text,
 not another word-frequency ranking or a nearby picture substituted as a noun.
-For keeping time, seek an independent time/storage expression, not another
-recount of the two known chor chol daiin occurrences.
+For the value/intensity alternatives, work from complete constructions with
+explicit preceding expressions: can a fixed modifier explain them without
+continually changing their noun/property roles? A number/unit, time/storage
+or gradable-predicate interpretation must account for the same occurrences.
+Do not count the two known chor chol daiin spans again as new support.
+
+The source follow-up sharpens rather than resolves this choice. Historical
+baths can promote or arrest flow; a shared drug does not imply a shared effect.
+Fribourg L52 supplies a real Latin abbreviation comparator, not a bilingual
+key. No f116v admission was spent to repeat the archived marginalia route.
 
 The relocated-label test on f101r is not pursued further: there are no local
 labels to relocate. The16 unspent page admissions remain available for a

@@ -76,11 +76,45 @@ f101r no-label test as another semantic experiment. The further question is
 subject-preserving naming/application versus property reference, with a
 separate storage-time construction if one can actually be identified.
 
-## Reproduce
+## Post-result follow-up: a concrete nonnumerical rival
+
+This continuation is exploratory work within GDT812, not a newly numbered
+experiment or a retrospective preregistration. No additional page is admitted.
+
+The [whole-page intensity trial](src/INTENSIFIER_TRIAL.md) gives exact `daiin`
+one fixed alternative, **very / sehr?**. It explains the repeated pair as an
+emphatic modifier of one expression, not two numerical fields with invented
+subjects. Macer supplies a medieval example of postposed qualitative intensity,
+but no adjacent doubling was found in the checked medical sources. The
+complete f32v page exposes the price: earlier noun/number readings of shor,
+dain and cthaiin cannot simply coexist with the new modifier interpretation.
+The written minim family still needs explanation. No rival is selected.
+
+The reproducible display retains all11 loci in all three alternate readings
+and replaces only exact standalone daiin, either by `III?` or `sehr?`.
+Every other token stays unknown. It adds no units, property names, subjects,
+or sentence boundaries. These are two counterfactual displays, not complete
+translations or a semantic score. The independent follow-up validator checks
+token conservation and substitution positions only.
+
+The [drug/effect comparison](src/NAME_EFFECT_FOLLOWUP.md) gives a specific
+historical reason not to equate a bath with one bodily effect. A shared drug
+name remains plausible for dchdy, but neither page's prose repeats that exact
+whole; the already known label bridges do not identify its predicate.
+
+The [Fribourg source audit](src/HISTORICAL_BRIDGE_FOLLOWUP.md) authenticates a
+historical Latin ointment sentence used as an abbreviation comparator. It
+does not establish a Voynich lexical equivalent. f116v was not newly opened;
+the16 unused discretionary admissions remain available. No dictionary,
+renderer, confirmed word or clause changed.
+
+### Reproduce original pass and follow-up
 
 ```sh
 python3 experiments/yolo/gdt812_additional_page_semantic_bridge/src/run.py
 python3 experiments/yolo/gdt812_additional_page_semantic_bridge/src/validate.py --no-write
+python3 experiments/yolo/gdt812_additional_page_semantic_bridge/src/run_followup.py
+python3 experiments/yolo/gdt812_additional_page_semantic_bridge/src/validate_followup.py --check
 ./vmanus-exp check-edge-packet experiments/yolo/gdt812_additional_page_semantic_bridge/src/CROSS_CONTEXT_PACKET.tsv
 ```
 

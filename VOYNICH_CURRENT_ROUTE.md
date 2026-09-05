@@ -1,11 +1,10 @@
 # Voynich current route
 Updated: 2026-09-05. Read first; route, not history.
-`./vmanus-work lookup GDT811 GDT809` returns compact pointers from
-`experiments/EXPERIMENT_INDEX.tsv`. Open only needed reports.
+`./vmanus-work lookup GDT812 GDT809`: index pointers; open only needed reports.
 
 ## Goal and actual position
 
-Translate concrete content with meanings that transfer. No translation yet.
+Translate concrete content with transferable meanings. No translation yet.
 
 - Confirmed English lexemes: **0**. Confirmed German lexemes: **0**.
 - Confirmed plaintext clauses: **0**; language, sounds, cipher and POS/SVO unknown.
@@ -25,31 +24,28 @@ Translate concrete content with meanings that transfer. No translation yet.
 - GDT811 joined those lists: 190 selectors, not 190 visually
   inspected or newly admitted pages. This union is not automatic experiment scope.
 - Preserve panel keys f67r2/f68r1. Pages, selectors and folio keys differ.
-- GDT327's older 91-folio edition does not enlarge this scope.
+- GDT327's 91-folio edition does not enlarge scope.
 - f84 is sealed; f84r is sealed. Record any further admission against the
   remaining quota before opening it. Metadata exposure is no semantic licence.
 - Query mixed TSVs only through `./vmanus-exp query-tsv` with explicit selector
   allow-values, requested columns and forbidden prefixes f84/f84r. Reject the
   selector before materializing the payload, never parse everything then filter.
-- Image labels, embeddings and OCR counts do not identify words.
-  Visual observation and inferred meaning stay separate.
+- Image/OCR labels do not identify words. Observation is not inferred meaning.
 
 ## Current working model
 
 Page-conditioned hierarchy, line-position effects, technical shells and learned
-wholes/opaque names. Line reset is not a universal sentence break. Descriptive
-substance/part/quality/degree and prescriptive ingredient/amount/process are
-historical rivals. Distinguish depicted thing, property and reference/category;
-common property vocabulary and different genres remain possible.
+wholes. Line reset is not a sentence rule. Descriptive substance/part/quality
+and prescriptive ingredient/amount/process remain rivals. Distinguish pictured
+thing, property and reference; different genres remain possible.
 
-Structural tags (PAGE_HOST, DY, B3, H1–H4, tuple IDs) are analyst variables.
-H1/H2 tend toward entry positions, H3/H4 toward internal/final positions;
-the full old semantic pairing did not transfer (GDT736–737). No POS is decoded.
+Structural tags are analyst variables: H1/H2 favor entry, H3/H4 internal/final
+positions; the semantic pairing failed transfer (GDT736–737). No POS decoded.
 GDT333 rejects universal register-independent roles. GDT336 supplies only a
 weak placement prior, not a decoder. GDT398 licenses no free equivalence merges.
 
-Renderer: bound span > licensed exact whole > unknown. Consume once; preserve
-repetitions, unknowns and alternate boundaries. Similarity grants no component.
+Renderer: bound span > licensed whole > unknown. Consume once; preserve
+repetition and alternate boundaries. Similarity grants no component.
 
 ## Inherited results: GDT809–811
 
@@ -80,8 +76,12 @@ Its displaced vessel does not provide a relocated-label ownership test.
 Historical keeping time is a third rival to degree/dose, not a decoded value.
 The known chor chol daiin spans remain unidentified; the rose comparator
 does not identify either pictured plant. No GPU computation needed so far.
-dchdy on f100v pressures portable Dampf/Abfluss; retain those only as f77r-local
-guesses. Shared drug, property/effect and context-specific senses remain open.
+dchdy pressures portable Dampf/Abfluss; neither page's prose repeats it.
+Shared drug/effect remain open; historical baths can have opposite effects.
+Follow-up: daiin=sehr? is a fixed nonnumerical rival on complete f32v, not a
+new dictionary winner. Doubling fits, but shor/dain/cthaiin meanings then
+need revision; Macer attests postfix intensity, not doubled valde.
+Fribourg L52 is an abbreviation comparator, not a key; f116v not admitted.
 
 ## Which source to open
 
@@ -96,8 +96,7 @@ guesses. Shared drug, property/effect and context-specific senses remain open.
 | Label/prose and circle-label corrections | GDT792–798; learned whole/status rivals, no unique-day code |
 | Line endings and independent axes | GDT800–808; no universal l/m or e/o meaning |
 
-The GDT734 V99R7 cache is an inherited display, not current semantic truth.
-GDT809's 16-card dictionary supplements it; it is not a global replacement.
+GDT734 V99R7 is inherited display, not semantic truth; GDT809 supplements it.
 GDT737 quarantines 80 p/s/r/l-derived held cards; GDT738 holds salt/species
 readings of solaiin/sols. GDT754 removes inherited component-composed prose.
 GDT769–786 bound ol and related wholes by occurrence; oil/water/wine stay open.
@@ -121,12 +120,13 @@ Do not revive:
 
 ## Next useful work and efficient operation
 
-Continue GDT812's complete-page comparison. Seek concrete meanings with shared
-subject/scope; distinguish name, property, dose and duration. Keep alternatives.
-No new broad decoder selected. Absence alone is no disproof.
+Compare complete value/intensity constructions without changing preceding
+words to fit each occurrence. Retain name/property and dose/duration rivals.
+GDT812 follow-up holds the source comparisons and full f32v counterfactuals.
+No broad decoder selected. Absence alone is no disproof.
 
-Reuse readers; batch related probes. Reformatting/recounting is not a new
-experiment. Workflow: `docs/WORKFLOW.md`. Add helpers outside hash-bound tools.
+Reuse readers; batch probes. Reformatting is not an experiment.
+Workflow: `docs/WORKFLOW.md`. Add helpers outside hash-bound tools.
 
 ## Detailed memory and recording
 
