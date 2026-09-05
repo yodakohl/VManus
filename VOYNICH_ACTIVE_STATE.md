@@ -22348,6 +22348,22 @@ withsal.raiin76r51/82r24. Not anothercensus,q-prefixgenericrouteorautomaticdrug
 meaning. Scope34visualkeys39selectors16unusedadmissions;f84/f84rsealed.
 Authority821REPORT/WORKING_THEORY,CANDIDATES,LIGHT_TRIALandthreecontentnotes.
 
+## Research reset requested by user (2026-09-05)
+
+The user explicitly requested independent method selection after GDT828.
+Guessed-gloss extension and attachment repair cease to be the default route.
+No earlier semantic claim is promoted or erased. Prior negative results retain
+only their actual tested scope; GDT612 invalidates its heuristic decoder, not
+all possible encodings. See docs/RESEARCH_RESET.md for the compact reassessment.
+
+Next candidate is continuous cross-line two-phase homophony with arbitrary
+shown gaps, assessed first by actual hidden-key plaintext recovery. GDT001
+already tested periods2/3/4 with homophonic keys but reset at lines/groups and
+retained spaces; bare two-phase homophony is not new. No candidate is preferred
+by positive manuscript evidence, no new target fit or model training has run,
+and no word boundary/atom alphabet is assumed decoded. Source-group atlas and
+existing admission/sealed-data rules remain; no new page or lexeme.
+
 ## GDT828 — conditional attachment failures, no lexical verdict (2026-09-05)
 
 Qualifies GDT827's on/press conflict: it requires an obligatory immediate nominal
