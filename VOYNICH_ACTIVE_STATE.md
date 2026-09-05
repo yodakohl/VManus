@@ -6,6 +6,19 @@ Updated: 2026-09-05. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### GDT830 pen-state control stopped (2026-09-05)
+
+The preregistered four-page/86-strip control produces 1032 windows, 249 quality
+passes, 30 calibration rows and only 1 held query. The 24-query/four-page gate fails.
+The independent descriptor/statistical validator passes without independently
+remeasuring pixels. Post-result diagnosis with unchanged parameters selects
+64.6757% of a visibly blank f76r paper region as foreground, exposing an
+unsuitable background assay. This is measurement failure, not rejection of
+pen-state information or support for any chronology/reading order. No disputed
+f32v/f55v/f82r block was scored; no threshold/filter rescue is made.
+Primary: `experiments/yolo/gdt830_pen_state_continuation_control/REPORT.md`.
+
+
 ### Own visual production-path proposal (2026-09-05; untested)
 
 User-requested direct review covered ten admitted page keys in nine full cached

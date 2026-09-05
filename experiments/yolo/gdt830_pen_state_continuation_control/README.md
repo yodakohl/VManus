@@ -1,6 +1,7 @@
 # GDT830 — pen-state continuation control
 
-Status: REGISTERED_UNSCORED.
+Status: CONTROL_CAPACITY_STOP. The post-result background diagnostic shows
+that the registered assay confounds native background variation with ink.
 
 See PREREGISTRATION.md and src/SPEC.json for the frozen task. This is a
 control on unambiguous-looking row strips, not a disputed-block order test.
@@ -16,3 +17,6 @@ existing cache. Exact image hashes are checked before measurement. Native
 JPEGs are not duplicated in this experiment directory. Use --check for
 artifact replay after generation. The validator reconstructs the statistical
 accounting from the measured descriptor table, with its coverage explicit.
+
+See REPORT.md for the failed measurement interpretation and its limits. The
+background audit is explicitly post-result and uses unchanged assay parameters.

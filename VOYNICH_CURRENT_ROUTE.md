@@ -9,38 +9,29 @@ Do not introduce an external publication or public method as a fresh route.
 Derive next steps from our admitted data, primary experiment reports and
 unresolved internal findings. Apply this restriction to delegated work too.
 The earlier mandate to understand our history before choosing a fixed plan
-remains. The user-authorized GDT830 control is active. Goal remains transferable
+remains. GDT830 has completed with a measurement/capacity stop. Goal remains transferable
 translation. Confirmed English lexemes: **0**; confirmed German lexemes/clauses: **0**.
 
-## Latest result — GDT829 capacity stop
+## Closed predecessor — GDT829
 
-The authorized repeated-passage plan was executed with its fixed 12-atom
-flanks and complete masked target-group body. ZL3b has 4455 complete windows,
-IT2a 4596 and RF1b 4474; each has zero recurrent context families, hence zero
-crossed-layout pairs. Independent source reconstruction and replay pass.
-Primary report: `experiments/yolo/gdt829_repeated_passage_reflow_capacity/REPORT.md`.
-This is absence of capacity under the fixed source-group rule, not a test of
-the l/m mechanism or a general absence of textual repetition. GDT800–803's
-existing observations remain as before. No terminal direction or meaning tested.
-The registered route ends here; do not shorten flanks, allow edits, swap endings
-or admit more pages to rescue it. No replacement attack is selected. A new
-route needs a distinct predeclared discriminator or genuinely new comparison
-data and the usual targeted duplicate review. No cipher/language selected.
+The fixed 12-atom-flank/full-body reflow census has zero recurrent contexts in
+all three readings. It stops at capacity; do not shorten flanks or relax matches.
+Report: `experiments/yolo/gdt829_repeated_passage_reflow_capacity/REPORT.md`.
 
-## Active work — GDT830 pen-state continuation control
+## Latest result — GDT830 control stop, background assay unsuitable
 
-The user authorized continuing the visual production-path proposal. GDT830
-freezes four admitted native images (f76r/f77r/f81r/f83r),86 geometry-selected
-row strips and one artificial-cut task. Odd rows calibrate nuisance regression;
-even rows compare a fixed two-window-gap continuation against same-row and
-other-row decoys. The primary RGB-contrast trend must beat nuisance, constant
-ink and reversed-trend baselines under fixed gates. The synthetic review
-corrected a background-filter width bias before any manuscript feature score.
-Preregistration: `experiments/yolo/gdt830_pen_state_continuation_control/PREREGISTRATION.md`.
-No target feature extraction has run yet. This unit cannot establish chronology
-or intended reading order, and does not score f32v/f55v/f82r disputed blocks
-even if it passes. No public approach search, new page or semantic claim.
-DIC001 interruption statistics are not repeated. GDT829 stays closed.
+GDT830 was registered/published before pixel extraction. Four admitted native
+images and 86 fixed strips produced 1032 windows: 249 quality passes and 783
+INSUFFICIENT_PAPER. Only 1 held query survived; the 24-query/four-page gate fails.
+The independent descriptor/statistical validator confirms this accounting;
+it does not independently validate pixel measurements. A post-result unchanged
+assay on visibly blank f76r paper classifies 64.6757% as foreground, exposing
+background/ink confounding. This is a failure of the registered observation
+method, not evidence against pen-state information. No retrieval performance
+or disputed-block order is claimed. No retrospective threshold/filter rescue.
+Report: `experiments/yolo/gdt830_pen_state_continuation_control/REPORT.md`.
+No replacement experiment is selected. GDT829 remains closed; DIC001 is not
+rerun. Public approach searches remain prohibited. No new pages or meanings.
 
 ## Understanding basis and limits
 
@@ -53,8 +44,8 @@ Use the existing research record for manuscript description, material and
 scribal studies and transcription limitations. Keep established findings
 distinct from proposed explanations. No further search for public approaches.
 Do not prefer a cipher, language, semantic glossary or nonlinguistic account
-without evidence. Only the authorized GDT830 control fit is active; no new
-manuscript page admissions.
+without evidence. No new fit is selected after GDT830; no new manuscript
+page admissions.
 
 `docs/RESEARCH_RESET.md` records the earlier premature proposal; it is not the
 current research plan. The source-linked understanding dossier is `docs/VOYNICH_UNDERSTANDING.md`;

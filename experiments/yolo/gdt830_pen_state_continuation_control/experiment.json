@@ -51,17 +51,52 @@
     {
       "path": "experiments/yolo/gdt830_pen_state_continuation_control/README.md",
       "role": "bound_source_design_or_result",
-      "sha256": "da261a71e0114f76f053a5030f168c0c5a7d662e15f4541a357fe559b20caaf6"
+      "sha256": "d26f3f7aa544e0b4ed08487c3e1b4b9c7e4004ad5bd2b7a06799099ad4d19234"
     },
     {
       "path": "experiments/yolo/gdt830_pen_state_continuation_control/REPORT.md",
       "role": "bound_source_design_or_result",
-      "sha256": "a9bf6da1bf510eb07eaabae88832c448b55ef95be0aaa3b2e03dc9d8d9ec745c"
+      "sha256": "97f209089a5afea1aa16fb736f1b82601ba81455ee1da6242bf35bf70cdcd7ea"
+    },
+    {
+      "path": "experiments/yolo/gdt830_pen_state_continuation_control/artifacts/BACKGROUND_AUDIT.json",
+      "role": "bound_source_design_or_result",
+      "sha256": "2eee4f2875cdb965ff1ab96d7516f3feed999b57b3b5f32ff1f1240400eac7b0"
+    },
+    {
+      "path": "experiments/yolo/gdt830_pen_state_continuation_control/artifacts/FEATURES.tsv",
+      "role": "bound_source_design_or_result",
+      "sha256": "0246a6a63545e759b03ff5ed8474243cd0ea4ff71bef1b0b136dbf3d324dc0fb"
+    },
+    {
+      "path": "experiments/yolo/gdt830_pen_state_continuation_control/artifacts/MODEL.json",
+      "role": "bound_source_design_or_result",
+      "sha256": "da075f253ec3f5e30259aae75185ec4a31f590bfdd2f2a2a2020ad6470d45a51"
+    },
+    {
+      "path": "experiments/yolo/gdt830_pen_state_continuation_control/artifacts/QUERY_SCORES.tsv",
+      "role": "bound_source_design_or_result",
+      "sha256": "f370ce2a69a2da06e43ebc927efe50b5f68aa7d73bdcdda5797e2f491f32eb52"
     },
     {
       "path": "experiments/yolo/gdt830_pen_state_continuation_control/artifacts/README.md",
       "role": "bound_source_design_or_result",
       "sha256": "f30e47f90fef4eab899e6a575b3714456f0945020fa7ff5e855bc799f563a171"
+    },
+    {
+      "path": "experiments/yolo/gdt830_pen_state_continuation_control/artifacts/RESULT.json",
+      "role": "bound_source_design_or_result",
+      "sha256": "c991298586b918b3acef926a04691f3dbd6f7d6e0d0d483485771ece55228ccd"
+    },
+    {
+      "path": "experiments/yolo/gdt830_pen_state_continuation_control/artifacts/VALIDATION.json",
+      "role": "bound_source_design_or_result",
+      "sha256": "078dd5b5b82bf1e1db722396a81347234c393e11191c43750966fe9f407218fd"
+    },
+    {
+      "path": "experiments/yolo/gdt830_pen_state_continuation_control/src/BACKGROUND_REVIEW.md",
+      "role": "bound_source_design_or_result",
+      "sha256": "a7623283ade111fa1bc9f9cd430fc2a4c38ee54fda64205a50b95c847b86eca5"
     },
     {
       "path": "experiments/yolo/gdt830_pen_state_continuation_control/src/DESIGN_REVIEW.md",
@@ -94,6 +129,11 @@
       "sha256": "eb719e7914fd33f1456f80d412c48192a5ded2d6f7003eb5a9d43cababe9c433"
     },
     {
+      "path": "experiments/yolo/gdt830_pen_state_continuation_control/src/audit_background.py",
+      "role": "bound_source_design_or_result",
+      "sha256": "14cd3426b64f562706a1f080d35acc9bf3ff80af1279b07a46a91374b675e45a"
+    },
+    {
       "path": "experiments/yolo/gdt830_pen_state_continuation_control/src/measure.py",
       "role": "bound_source_design_or_result",
       "sha256": "c8689673d63f5db575ab5216036359f5134914dcb21b47ac16075cbc1ebfae57"
@@ -121,11 +161,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "pen_state_continuation_control",
-  "status": "REGISTERED_UNSCORED",
+  "status": "CONTROL_CAPACITY_STOP",
   "title": "Native image pen-state artificial-cut continuation control",
   "updated": "2026-09-05",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "artifact": "experiments/yolo/gdt830_pen_state_continuation_control/artifacts/VALIDATION.json",
+    "status": "PASS"
   }
 }
