@@ -22348,6 +22348,32 @@ withsal.raiin76r51/82r24. Not anothercensus,q-prefixgenericrouteorautomaticdrug
 meaning. Scope34visualkeys39selectors16unusedadmissions;f84/f84rsealed.
 Authority821REPORT/WORKING_THEORY,CANDIDATES,LIGHT_TRIALandthreecontentnotes.
 
+## GDT826 — dar material/property contrast and role correction (2026-09-05)
+
+GDT825's mandatory-result interpretation of dar.chedy.qopchedy76r51 is
+superseded: dar's noun/subject status was assumed, not decoded. A fronted
+property permits the illustrative German Trocken wird Holz with unchanged
+becomes; it does not prove Voynich word order or identify a subject.
+Two fixed exact-whole C0 candidates: dar=Erde? physicalsoil, notplanet/generic
+matter; dar=trocken? physical lowmoisture, nothumoral/action/thoroughly/residue.
+Both wood/charcoal and both raiin models remain separate; no winner.
+
+76r9ZL_ITchedy.dar permits wirdtrocken? without recoveredsubject;RF@152;ar
+unknown. qokain.dar75r32_ZL_RF/75r35_all3/76r29_ZL_IT:3physicalcontacts,
+not7independentobservations. Physicaldry incompatible IFqualifyingwater;
+adjacency doesnotproveattachment. No hiddenclause/vanishedwater/humoralrescue.
+Earth avoids drywater but lacks relation, notconfirmed. dar.dar75r35_all3
+and36_IT_RF retained;ZL dardardy ONEunknown.95v2.7fire-dar notcompensating
+proof.70v1.1C exactdar ITonly versusZLzar/RFmar;no planet/seasonswitch.
+
+Cached822only81readerhits30loci26ZL29IT26RF;15P+1C176records166P9L1C/all3
+reread;notall39census.90storedtemplates720virtualcombinations,not720experiments.
+Separate sameauthorvalidator expansionaccounting/five mutationsnotmeaningproof.
+Next same water-dar attachment question, no freshnoun/universalgrammar rule.
+0dictionaryconfirmedwordsclausesadmissionsimagesnewscorededges.34visualkeys,
+39selectors16unusedadmissions;f84/f84rsealed. Authority826REPORT/WORKING_THEORY,
+src/CANDIDATES and artifacts/RESULT. Historical825files unchanged.
+
 ## GDT825 — concrete wood/charcoal input-versus-result trial (2026-09-05)
 
 Exact qopchedy=Holz? physicalwoodymaterial proposedbeforecensus. Afterfullreading,

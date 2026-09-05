@@ -1,6 +1,6 @@
 # Voynich current route
 Updated: 2026-09-05. Read first.
-`./vmanus-work lookup GDT825 GDT824 GDT819`: primary reports only.
+`./vmanus-work lookup GDT826 GDT825 GDT819`: primary reports only.
 
 ## Goal and actual position
 
@@ -44,7 +44,7 @@ and alternate boundaries. Similarity grants no component.
 Source groups/separator states BEFORE whole-word/compound/space claims.
 Legacy ASCII spaces can be cleaner-created; extended @entities stay opaque.
 
-## Inherited family and active GDT825
+## Inherited family and active GDT826
 
 809axes open;810arity fails beyondf32v;sho sh+o-derived.811:0objects17ineligibleedges;
 f4rdefeatsobligatoryslots;f17r two otchol-X-Y-chol spans;okol/qokol notspecies.
@@ -78,17 +78,16 @@ Not all qokaiin singletons read;4GDT818 alternatives GDT388-ineligible.
 GDT819 images5targets3pages: RF f77r35 eightgroups/fourtail, che@152;aiin ONE;
 f81r19 shee@152;y ONE; final ol,am genuine smallspace. Entities stay opaque.
 F77r12 image favors local IT shedaiin, not canonical replacement; k/t35 OPEN.
-Actual doublets f76r23/f77r34 remain. No clause mark/POS/wordowner decoded.
+Doublets f76r23/f77r34 remain. No clause mark/POS/owner decoded.
 ExistingAug09correction missed;819/820 do not revalidate all legacywork.
 
-GDT820172loci4734groups:reprise/finite repeats possible,noAA rule.75r33contact,
-72r3.26chedypair;AABBA75r38. No lexical proof; oldsourcecounts notgloballyreaudited.
+GDT820:reprise/finite repeats possible,noAA rule;75r38AABBA. No lexicalproof.
 F77r34air-air,ITextra-chedy unresolved;RF@206;aiin opaque;checkhy unknown.
-GDT821ALL39raiin:28readerhits12loci7selectors;7P+L+C65loci/all3read.
-IT66r12raiin/ZL_RFsaiin;77r45air...raiin8ZL/7ITunknownmiddle. No labelPOSproof.
+GDT821ALL39raiin:28hits12loci7selectors;7P+L+C65loci/all3read.
+IT66r12raiin/ZL_RFsaiin;77r45air...raiinunknownmiddle. No labelPOSproof.
 Two C0 senses:steigt physical up (notincrease/heat/is/fall);leicht physical low
 heaviness (notdose/mild/easy/bright/fast/up),referenceunknown. No winner/hybrid.
-Light loses finiteverb;nohiddenis. sal unknown;chedy becomes;818matrix separate.
+Light notfinite;nohiddenis. sal unknown;818matrix separate.
 
 GDT822qokeey=physicalfire?,notheat/heating/warmth/drug. ALL39:153hits50loci17selectors;
 union821320loci8391groups. Firefitsbothraiin;doublets/orderdebtsremain,noSVOproof.
@@ -97,16 +96,18 @@ GDT823qol=daraus? materialsource,notthen/therefore/whose/add/destination. C0.
 Cached101hits37loci15P217records;viel-wird-daraus77r33;referentsopen,notall39census.
 GDT824qolchedy=daraus?wird? ONEwholecell;water81v17/82r2;airbridge77r34ONEknownlocus.
 Extra-becomes/airdoubletsremain;authorialboundaryopen. No generalprefixrule.
-824relationpacketFAILpriorformalaccess,0eligible;accountingPASSnotmeaningproof.
-GDT825qopchedy=Holz?/Holzkohle?,separatephysicalmaterialmodels,C0,no winner.
-81r20material-daraus-wird-fire versus76r51ZL_IT[dar]-wird-material;sourceunknown.
-18readerhits6loci6P102records93P9L/all3read;2materials×2raiin72trials;no newpage/image.
+824packetFAILprioraccess,0eligible;accountingnotmeaningproof.
+GDT825qopchedy=Holz?/Holzkohle? separateC0;81r20material-daraus-wird-fire,owneropen.
+GDT826withdraws825mandatoryresult76r51:darproperty-firstcouldgiveTrockenwirdHolz.
+dar=Erde?/trocken? separateC0;76r9wird-drypossible;water-dar3lociattachmentpressure.
+No humoral/residue/hiddenclause rescue;no winner.81hits30loci15P+C176records/all3read.
+90templates720virtualrowsNOTexperiments;cached822notall39;no newpage/image.
 
 ## Which source to open
 
 | Need | Index lookup / source |
 |---|---|
-| Material / composition / debts | GDT825 / GDT824: theory, report, candidates |
+| Property / material / composition | GDT826 / GDT825 / GDT824: theory, report |
 | Fire / ascent / lightness | GDT822 / GDT821 |
 | Repetition constructions / initial ascent trial | GDT820 |
 | Actual image / boundary decisions | GDT819 |
@@ -122,8 +123,7 @@ GDT737 quarantines initial-derived cards; GDT754 removes component prose.
 ## Avoid repeating work
 
 New route:`./vmanus-exp route-check QUERY` for navigation, not verdict.
-Read primary reports and `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv`.
-Failed route needs new data/prediction. Do not revive:
+Read primary reports and `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv`; failedroute needsnewdata. Do not revive:
 
 - EVA-to-Latin initials; generic language/cipher expansion or anonymous role induction;
 - generic universal action prose, substring glosses, neighbour/backoff meanings;
@@ -135,11 +135,11 @@ Failed route needs new data/prediction. Do not revive:
 
 ## Next work
 
-Next:dar beforewird-material76r51 andotherknowncontexts;no darmeaningchosenyet.
-Do notsetdar=wood merelytorescuecharcoal. Route-check beforelaunch.
-Bothmaterials/raiin separate;firefixed;batchsamecontexts,nofullreadercopy/newpage.
+Water-dar75r32/35/76r29:dryconflictsIFqualifyingwater;Earthrelationunknown.
+No automaticadjacent-nounruleorfreshnoun. Bothmaterials/raiin separate;firefixed.
+Samecontrast,notnewrootroute;reusefactorizedcontexts,nofullreadercopy/newpage.
 
-Reuse readers/batch probes. Workflow:`docs/WORKFLOW.md`; preserve bound tools.
+Reuse readers. Workflow:`docs/WORKFLOW.md`; keep bound tools.
 
 ## Detailed memory and recording
 
@@ -147,4 +147,4 @@ Reuse readers/batch probes. Workflow:`docs/WORKFLOW.md`; preserve bound tools.
 - `experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv`: row per material pass.
 - GDT001–336 untouched; GDT337+ scaffold/manifest, f84/f84r seals.
 - New relations: `./vmanus-exp check-edge-packet`; identity is not ownership.
-- Preserve unrelated work; scan exact staged tree; global/task checks differ.
+- Keep unrelated work; scan staged tree; global/task checks differ.
