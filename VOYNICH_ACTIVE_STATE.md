@@ -22062,3 +22062,37 @@ No new admission, dictionary change, confirmed lexeme or plaintext clause.
 Next: compare concrete substance/part, property and reference identities across
 the label AND prose construction without changing the family or omitting radial
 uses. Authority: experiments/yolo/gdt813_f17_content_word_transfer/WORKING_THEORY.md.
+
+## GDT814 — property/genitive across complete contexts (2026-09-05)
+
+The seven GDT813 shared guesses and N=powder?/G=is? are unchanged. New exact
+Q=warm? is a property, not action/hot-III; R=dessen? is an anaphoric possessive
+genitive, not partitive/source reference. All meanings C0, no decoded POS.
+Practical property-architecture priority does NOT identify warmth over cold:
+the genuine historical material/astral quality tradition contains both poles.
+GDT628's component-derived hot-III is a prior rival, not new whole-word evidence.
+
+Full contexts retain37 source blocks/176 loci on the same39 selectors:20
+source-marked P paragraphs and17 separate non-P records. The first extraction
+had cut P at each L, making29 blocks/146 loci and two incomplete f76r fragments.
+Final source reconstruction keeps f76r P.1–38 together across nine separate
+interleaved L records. These are editorial source boundaries, not sentence grammar.
+Thirty exact-target cards produce360 literal alternate-reader/model displays,
+not360 experiments. Source/literal validation is independent of the runner.
+
+f81v.4/.5 supplies chcthy / okaiin daiin: Q can scale a property, R can scale
+the written nominal expression [chcthy dessen], conditional on chcthy being N.
+RF instead has kaiin aiin and is not smoothed. f76r.32 ain okaiin dain also
+permits written-head R; owner and head identities stay unknown. The standalone
+label and okaiin dan need head ellipsis for R, not an unnoticed switch to davon.
+f88r.22 continues to support a possible copula construction; no rival discarded.
+
+Five correct-source official views were reviewed by both visual agent and
+coordinator. f89r1.14 is visibly one two-word inscription near a plant/root
+form. f72r3.12 word-pair graphical localisation remains OPEN despite the visible
+figure/star band; reader-exact source pair retained, no visual owner or pair PASS.
+Both cross-page context packets are GDT388-ineligible, not a semantic veto.
+No new admission, dictionary change, confirmed lexeme or plaintext clause.
+Next: concrete polarity/reference contrast without old k/t meanings, image
+temperature assumptions or another frequency-only rank. Authority:
+experiments/yolo/gdt814_okaiin_quality_reference_construction/WORKING_THEORY.md.

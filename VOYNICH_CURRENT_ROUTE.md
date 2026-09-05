@@ -1,6 +1,6 @@
 # Voynich current route
 Updated: 2026-09-05. Read first; route, not history.
-`./vmanus-work lookup GDT813 GDT812`: index pointers; open only needed reports.
+`./vmanus-work lookup GDT814 GDT813`: index pointers; open only needed reports.
 
 ## Goal and actual position
 
@@ -44,8 +44,8 @@ repetition and alternate boundaries. Similarity grants no component.
 
 ## Inherited results: GDT809–811
 
-- GDT809:16 C0 wholes cover46/145 tokens in four paragraphs; quality/degree
-  and state/amount remain rivals. cthy leaf/herb/opaque tied; overlap is not new evidence.
+- GDT809:16 C0 wholes cover46/145 tokens; quality/degree vs state/amount unresolved.
+  cthy leaf/herb/opaque tied; overlap is not new evidence.
 - GDT810: compound-quality arity fails beyond f32v; sho came from sh+o composition.
 - GDT811: f17r/f77r/f88r/f72r178 loci/946 tokens; labels separate. No object decoded.
   f88r repeats only okol as a complete label; f77r only otedy, in the next paragraph.
@@ -55,7 +55,7 @@ repetition and alternate boundaries. Similarity grants no component.
   No other width-two case on the original30 pages; f4r otchol chol defeats obligatory slots.
 - Reconstruction checks do not validate meanings; GDT811's17 edges remain ineligible.
 
-## Inherited GDT812 and active GDT813
+## Inherited family and active GDT814
 
 GDT812's four extra pages were viewed: complete reader55 loci/513 ZL tokens.
 Scalar baseline A: dan very little, dain little, daiin much, daiiin very much;
@@ -68,38 +68,40 @@ authentication through it; keep selector-bound text. Correct parent1006203
 was used for current f72r3 region, not a whole-foldout audit. See GDT812
 src/F72R_SOURCE_CORRECTION.md. No new admission; f116v not admitted.
 
-GDT813 holds family A fixed and tries otchol=this?, cthar=root?, chol=dry?.
-Only okaiin differs: N powder? versus G is?. Both are C0, not translations.
-Full f17r and any-reader target loci across39 selectors:54 loci/324 literal
-displays, not324 experiments. All readings and unknowns retained; no new page.
-Manual f88v.14 isolated okaiin label gives content-word priority over pure
-copula, not a powder identity or decoded POS. G remains possible. F88v shows
-a plant fragment, not powder; unique owner and cthar=root are unidentified.
-Keep G-friendly f88r.22, repeated cthar f1r.2 and otchol daiin daiin f32v.8;
-the demonstrative needs a pronominal quantity account there. No quiet regloss.
-Historical part-plus-its is another architecture, not an aligned key; dry
-quality does not entail dried matter. One cross-page edge remains ineligible.
-Source/literal checks pass, no meanings. Basis:GDT813 WORKING_THEORY.md;
-every used guess has C0, origin and costs in src/HYPOTHESES.tsv.
+GDT813 keeps family A, otchol=this?, cthar=root?, chol=dry?; okaiin differs
+as N powder? or G is?. Standalone f88v label favours a content-word question,
+not powder/root/POS identity. G-friendly f88r.22 and all repetition costs remain.
+GDT814 adds Q warm? (no III/action) and R dessen? (anaphoric possessive genitive,
+not partitive davon/origin daraus). N/G/shared guesses unchanged, all C0.
+Q has practical PROPERTY-architecture priority, not a decoded thermal value.
+f81v.4/.5 chcthy / okaiin daiin permits written-head R as well as Q; RF reads
+kaiin aiin instead. Isolated okaiin dan still lacks a written R nominal head.
+Expanded reader:37 blocks/176 loci,20 P paragraphs/17 separate non-P records;
+30 cards/360 displays, not experiments. f76r P.1-38 spans nine interleaved L
+records, kept separate; cutting at each L had yielded incomplete fragments.
+f89r1 okaiin dan visually grouped; f72r3 opoeey okaiin graphical pairing still
+OPEN despite five correct-source views. Text pair retained; no visual owner PASS.
+Historical material/astral warmth-dryness is real, but cold-dryness also exists:
+warm vs cold unresolved. No EVA-k/t key. Two contextual edges remain ineligible.
+Source/literal checks only; no admission/dictionary change or confirmed words.
+Basis:GDT814 WORKING_THEORY.md; every trial has C0/origin/costs in src/HYPOTHESES.tsv.
 
 ## Which source to open
 
 | Need | Index lookup / source |
 |---|---|
-| Current concrete content-word alternatives | GDT813: theory, report, hypotheses |
+| Current quality/reference construction | GDT814: theory, report, hypotheses |
+| Earlier fixed powder/copula alternatives | GDT813 |
 | Current extra-page reader and semantic comparison | GDT812 |
 | Complete-page synthesis/text | GDT811: theory and reader |
 | Shared paragraph hypotheses | GDT809: reader and dictionary |
 | Original image/text ownership | GDT790–791; PANEL > RECORD > old statement |
 | Legacy renderer/dictionary | GDT734; later corrections govern |
-| Historical learned-word bridge | GDT735; no four-initial material code identified |
 | Label/prose corrections | GDT792–798; no unique-day code |
 | Line endings and independent axes | GDT800–808; no universal l/m or e/o meaning |
 
-GDT734 V99R7 is display, not semantic truth. GDT737 quarantines80 p/s/r/l cards;
-GDT738 holds solaiin/sols salt/species; GDT754 removes component-composed prose.
-GDT769–786 bound ol-family wholes; oil/water/wine stay open. GDT794 prioritises
-complete radial labels over global pharmaceutical glosses.
+GDT737 quarantines80 initial-derived cards; GDT738 holds solaiin/sols salt/species;
+GDT754 removes component prose. Oil/water/wine remain open (GDT769–786).
 
 ## Avoid repeating work
 
@@ -119,13 +121,13 @@ Do not revive:
 
 ## Next useful work and efficient operation
 
-Next: a concrete identity for the label AND prose use, comparing substance/part,
-quality and reference while keeping family costs. No isolated copula count or
-root-by-picture shortcut. A written family does not rule out verbs/inflection.
+Next: a named referent or concrete contrast separating thermal polarity and
+gradable property from possessed quantity. No k/t grid revival, image-colour
+temperature, or frequency-only substitute. Form families do not rule out verbs.
 No broad decoder selected; no extra page needed for this immediate work.
 
-Reuse readers; batch probes. Reformatting is not an experiment.
-Workflow: `docs/WORKFLOW.md`; keep hash-bound tools unchanged.
+Reuse readers and batch probes; reformatting is not an experiment.
+Workflow:`docs/WORKFLOW.md`; preserve bound tools.
 
 ## Detailed memory and recording
 

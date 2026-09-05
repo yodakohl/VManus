@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **812**
-- Experiment-associated tracked files: **14,716** (1.3 GiB)
-- Structured GDT337+ experiments: **477**
+- Experiments indexed: **813**
+- Experiment-associated tracked files: **14,740** (1.3 GiB)
+- Structured GDT337+ experiments: **478**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT814 | GDT814_content_synthesis | `C0_QUALITY_ARCHITECTURE_PRIORITY_THERMAL_VALUE_UNRESOLVED` | [report](../experiments/yolo/gdt814_okaiin_quality_reference_construction/REPORT.md) | 24 | 256.6 KiB | 5 | STRUCTURED_YOLO |
 | GDT813 | GDT813_content_synthesis | `C0_CONTENT_ROLE_PRIORITY_NO_TRANSLATION` | [report](../experiments/yolo/gdt813_f17_content_word_transfer/REPORT.md) | 22 | 167.6 KiB | 5 | STRUCTURED_YOLO |
 | GDT812 | GDT812_whole_family_continuation | `C0_WHOLE_FAMILY_SCALAR_PRIORITY__RIVALS_RETAINED__NO_TRANSLATION` | [report](../experiments/yolo/gdt812_additional_page_semantic_bridge/REPORT.md) | 54 | 363.0 KiB | 6 | STRUCTURED_YOLO |
 | GDT811 | GDT811_joint_content_synthesis | `WORKING_THEORY_ONLY_DICTIONARY_UNCHANGED` | [report](../experiments/yolo/gdt811_four_page_content_synthesis/REPORT.md) | 31 | 264.0 KiB | 13 | STRUCTURED_YOLO |
