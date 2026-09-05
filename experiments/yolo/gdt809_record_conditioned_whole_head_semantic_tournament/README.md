@@ -1,6 +1,6 @@
 # GDT809 — concrete paragraph readings and repaired head comparison
 
-Status: REGISTERED_UNSCORED; inherited outcomes and paragraph selection disclosed.
+Status: COMPLETE_REPAIR_AND_JOINT_EXPLORATION__MEANINGS_UNRESOLVED.
 
 This pass repairs the unfinished whole-head comparison and uses one small,
 explicitly hypothetical dictionary for two readings of four complete paragraphs.
@@ -13,8 +13,11 @@ Leaf, herb and an unnamed botanical term compete on identical contextual rules.
 Inherited glosses are displayed separately and never counted as new evidence.
 No concrete identity is automatically promoted.
 
-Start with PREREGISTRATION.md and METHOD.md. The official run will produce
-artifacts/JOINT_COMPETING_PARAGRAPH_READINGS.md and
-artifacts/JOINT_COMMON_DICTIONARY.tsv, alongside the formal head comparison.
+Start with [REPORT.md](REPORT.md), the [four complete paragraphs and two
+working readings](artifacts/JOINT_COMPETING_PARAGRAPH_READINGS.md), and the
+[16-entry dictionary with evidence](artifacts/JOINT_COMMON_DICTIONARY.tsv).
+It covers 46/145 token positions with hypotheses; 99 remain unknown.
+The formal comparison retains cthy/L-base and sheo/DY-expanded associations,
+but none of its 735 identity requirements is measured by the current inputs.
 The source scope remains 179 inherited selectors, with the existing 30-page
 visual spine reused and no new manuscript image or page opened.

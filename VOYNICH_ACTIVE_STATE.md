@@ -1,6 +1,6 @@
 # Voynich active state — structural reset baseline
 
-Updated: 2026-09-03. This is the full claim registry. For routine work, read
+Updated: 2026-09-05. This is the full claim registry. For routine work, read
 `VOYNICH_CURRENT_ROUTE.md` first and open only the relevant sections here and in
 `experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv`.
 
@@ -21861,3 +21861,40 @@ nor an inherited German gloss is a feature.
 
 Primary report:
 `experiments/yolo/gdt808_exact_relation_slot_residual_bridge/REPORT.md`.
+
+### GDT809 — repaired context comparison and joint complete-paragraph readings
+
+GDT809 completes the inherited exact-whole HEAD-PIVOT pass with 35 heads,
+1,032 stable occurrences, 209 distinct links, 189 unique-head windows and
+795 strict external occurrences. cthy/L-base passes with 12:0 contacts on
+11 folios, rotation rank4/25, and retains direction under ED1. sheo/DY-expanded
+passes with 3:1 on four folios, rank3/25; ED1 excludes that head rather than
+observing a reversed effect. External record compatibility overlaps training
+folios and is explicitly not unseen-folio semantic evidence.
+
+The unfinished semantic ranking is repaired: inherited priors are separate,
+missing candidate-specific measurements are UNOBSERVED rather than negative,
+singleton margins are NA, and folium/herba/opaque botanical profiles receive
+identical context scoring. For cthy they tie at11. All735 candidate-specific
+requirement rows are unobserved; no literal identity is promoted.
+
+A supplementary 16-entry low-confidence whole-word dictionary produces two
+token-preserving working readings of four complete paragraphs: f17r.4–6,
+f21r.8–12, f32v.7–11 and f29v.1–4. Their17 lines contain145 tokens:46 have
+hypotheses and99 stay visible EVA. The descriptive quality/degree and recipe
+state/amount readings remain rivals. GDT629's local descriptive preference
+is an inherited prior, not overwritten or independently confirmed here.
+GDT625/629/686/768 repetition and clause findings are explicitly inherited.
+Dry quality, dried state and drying command remain distinct; repeated
+okaiin does not establish a shared referent; ctho daiin/cthodaiin is a local
+alternate-reading boundary, not a decoded root.
+
+The15 independent reconstruction groups and61 joint checks pass; both new
+GDT388 packets have zero eligible sealed visual edges. No new page or image
+was opened; f84/f84r remain sealed. Neither the larger inherited renderer nor
+its dictionary is replaced by this supplementary paragraph comparison.
+Continue toward explicit subject/scope binding across complete passages,
+not another identical context ranking or GDT686/GDT764 dispatch rerun.
+
+Primary report:
+`experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/REPORT.md`.
