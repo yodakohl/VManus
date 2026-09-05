@@ -9,7 +9,7 @@ Do not introduce an external publication or public method as a fresh route.
 Derive next steps from our admitted data, primary experiment reports and
 unresolved internal findings. Apply this restriction to delegated work too.
 The earlier mandate to understand our history before choosing a fixed plan
-remains. No replacement attack is selected. Goal remains transferable
+remains. The user-authorized GDT830 control is active. Goal remains transferable
 translation. Confirmed English lexemes: **0**; confirmed German lexemes/clauses: **0**.
 
 ## Latest result — GDT829 capacity stop
@@ -27,24 +27,20 @@ or admit more pages to rescue it. No replacement attack is selected. A new
 route needs a distinct predeclared discriminator or genuinely new comparison
 data and the usual targeted duplicate review. No cipher/language selected.
 
-## Current proposal — visual production-path hypothesis, not executed
+## Active work — GDT830 pen-state continuation control
 
-The user requests an own new idea grounded in actual visual review of admitted
-pages. Root directly viewed nine cached full images covering10 admitted page
-keys plus two f77r details. Source identities/hashes and observations are in
-`docs/visual_writing_order/SOURCES.json` and `PROPOSAL.md` in that directory.
-No new page, public approach search, pixel fit or target test was performed.
-The initial drawing-interruption reset idea was caught as a near-duplicate of
-DIC001; do not rerun or present that as novel. f55v column/row order was already
-open. The distinct proposed discriminator is transient pen/ink-state continuity
-along competing production paths, first calibrated against spatial/background
-and same-stroke controls on unambiguous rows. Darkness is not a clock; success
-at artificial cuts does not automatically transfer to pen lifts. Without
-independently calibrated temporal asymmetry, infer at most path support.
-Production order is not intended reading order. No transcription reordering,
-language or meaning follows. Numeric gates and executable method are not yet
-registered. The earlier public-paper boundary proposal remains inactive;
-GDT829 remains closed. Detailed proposal: `docs/visual_writing_order/PROPOSAL.md`.
+The user authorized continuing the visual production-path proposal. GDT830
+freezes four admitted native images (f76r/f77r/f81r/f83r),86 geometry-selected
+row strips and one artificial-cut task. Odd rows calibrate nuisance regression;
+even rows compare a fixed two-window-gap continuation against same-row and
+other-row decoys. The primary RGB-contrast trend must beat nuisance, constant
+ink and reversed-trend baselines under fixed gates. The synthetic review
+corrected a background-filter width bias before any manuscript feature score.
+Preregistration: `experiments/yolo/gdt830_pen_state_continuation_control/PREREGISTRATION.md`.
+No target feature extraction has run yet. This unit cannot establish chronology
+or intended reading order, and does not score f32v/f55v/f82r disputed blocks
+even if it passes. No public approach search, new page or semantic claim.
+DIC001 interruption statistics are not repeated. GDT829 stays closed.
 
 ## Understanding basis and limits
 
@@ -57,7 +53,8 @@ Use the existing research record for manuscript description, material and
 scribal studies and transcription limitations. Keep established findings
 distinct from proposed explanations. No further search for public approaches.
 Do not prefer a cipher, language, semantic glossary or nonlinguistic account
-before this review. Do not run new fitting or open new manuscript pages.
+without evidence. Only the authorized GDT830 control fit is active; no new
+manuscript page admissions.
 
 `docs/RESEARCH_RESET.md` records the earlier premature proposal; it is not the
 current research plan. The source-linked understanding dossier is `docs/VOYNICH_UNDERSTANDING.md`;

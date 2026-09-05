@@ -1,0 +1,116 @@
+{
+  "background": {
+    "gaussian_radius": 5,
+    "max_filter_size": 15
+  },
+  "calibration_rows": "odd source_ordinal within each page",
+  "candidate_count": 5,
+  "capacity_gate": {
+    "minimum_calibration_rows": 24,
+    "minimum_calibration_rows_per_page": 1,
+    "minimum_pages": 4,
+    "minimum_queries": 24,
+    "minimum_queries_per_page": 4
+  },
+  "comparators": {
+    "constant_ink": "negative mean squared residual error to context column3",
+    "nuisance": "negative mean squared standardized nuisance distance to context column3",
+    "reverse_trend": "r2+3*(r2-r3)"
+  },
+  "context_columns": [
+    2,
+    3
+  ],
+  "disputed_pages_not_scored": [
+    "f32v",
+    "f55v",
+    "f82r"
+  ],
+  "experiment_id": "GDT830",
+  "foreground_relative_darkness": 0.15,
+  "geometry": "src/ROWS.tsv",
+  "held_rows": "even source_ordinal within each page",
+  "horizontal_run_width": [
+    2,
+    10
+  ],
+  "image_contract": "native JPEG bytes verified by SHA256; no enhancement/resampling/generative images; image operations below are measurements only",
+  "inference": "operational retrieval thresholds, not causal p-values; correlated queries/decoys not independent replications; no chronology, time direction, reading order or split-block scoring even on pass",
+  "ink_features": [
+    "median_log_background_over_ink_R",
+    "median_log_background_over_ink_G",
+    "median_log_background_over_ink_B"
+  ],
+  "minimum_core_pixels": 24,
+  "minimum_paper_fraction": 0.4,
+  "no_rescue": [
+    "retuned image threshold",
+    "different columns",
+    "extra pages",
+    "post-score model/feature changes",
+    "treat darkness as time",
+    "infer reading order"
+  ],
+  "nuisance_features": [
+    "ink_fraction",
+    "log_core_count",
+    "mean_run_width",
+    "sd_run_width",
+    "vertical_run_fraction",
+    "paper_R",
+    "paper_G",
+    "paper_B",
+    "paper_sd_R",
+    "paper_sd_G",
+    "paper_sd_B",
+    "paper_dx_R",
+    "paper_dx_G",
+    "paper_dx_B",
+    "paper_dy_R",
+    "paper_dy_G",
+    "paper_dy_B",
+    "x_normalized",
+    "y_normalized"
+  ],
+  "nuisance_regression": "standardize nuisance features on calibration windows only, append page intercept indicators, fit RGB ink by ridge sum(XtX)+1*I with page intercepts unpenalized; standardize residual ink by calibration residual standard deviations floor1e-6",
+  "omitted_columns": [
+    4,
+    5
+  ],
+  "one_query_per_held_row": true,
+  "other_row_decoys": 2,
+  "other_row_selection": "held rows of same page at true_column6; nearest two to true target in standardized nuisance feature distance; no ink feature or score in selection; exclude own row",
+  "pages": [
+    "f76r",
+    "f77r",
+    "f81r",
+    "f83r"
+  ],
+  "predictor": "linear continuation of last two residual ink vectors across three window steps: r3+3*(r3-r2); score negative mean squared residual error",
+  "reproducibility": "numeric features rounded to12decimal places before model; deterministic NumPy linear algebra; all-source hashes and prereg/code locks before extraction",
+  "row_eligibility": "all context,true,same-rowdecoy windows pass fixed quality plus at least2 other held rows with valid column6; no rescue or alternate columns",
+  "same_row_decoy_columns": [
+    8,
+    10
+  ],
+  "score_rounding_decimal_places": 12,
+  "sealed_data": [
+    "f84",
+    "f84r"
+  ],
+  "source_manifest": "src/SOURCES.json",
+  "stage": "ARTIFICIAL_CUT_CONTROL_ONLY",
+  "success_gates": {
+    "each_page_gain_over_nuisance_positive": true,
+    "same_row_threeway_top1_minimum": 0.5,
+    "top1_gain_over_constant_minimum": 0.1,
+    "top1_gain_over_nuisance_minimum": 0.1,
+    "top1_gain_over_reverse_minimum": 0.05,
+    "top1_minimum": 0.4
+  },
+  "tie_credit": "fractional top1 within1e-12 of best score",
+  "true_column": 6,
+  "vertical_persistence_minimum": 4,
+  "vertical_persistence_rows": 5,
+  "windows_per_row": 12
+}
