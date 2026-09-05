@@ -6,6 +6,21 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### GDT833 reference intervention and complete held recovery pass (2026-09-06)
+
+Publicefa4aad8 precedes48fits;48restarts/6keys fixed beforetruthaccess. NATIVE
+recovers all5519heldwords/32212chars/122paragraphs,2138newform and1270newlemma
+occurrences andall24L/3S/8W supportedvalues in eachkey. COLLAPSED changesonly
+referencev→u and gets5062words/0of457vwords; nonvwords remain100%correct.
+The optimizedcollapsedkey mapsv→k, distinctfromthefixedlegalv/zoracle rival;
+truth-minus-v/z score flips+5470.2261native/−535.7301collapsed aspredeclared.
+Independentrawsource48objective33114prediction12oracle replayPASS; scientific
+status ORTHOGRAPHY_EFFECT_AND_RECOVERY_PASS. Controlledreferenceeffect within
+thisonecontentsplit, notthreeindependenttexts. Known roles/boundaries/fixed
+mixedclass are supplied; familyOFF, no fullparadigm/hiddensegmentationclaim.
+GDT832failure remains; no Voynichfit/meaning or automatic successor/target.
+Primary: `experiments/yolo/gdt833_reference_orthography_intervention/REPORT.md`.
+
 ### GDT833 paired reference intervention registered (2026-09-06; unscored)
 
 User continuation selects a new causal control after GDT832's post-result

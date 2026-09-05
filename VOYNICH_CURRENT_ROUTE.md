@@ -3,8 +3,8 @@ Updated: 2026-09-06. Read first.
 
 ## Current mandate
 
-Latest request (2026-09-06): continue after GDT832. GDT833 tests the reference-
-orthography explanation on a fresh control work with paired references; see
+Latest request (2026-09-06): continue after GDT832. GDT833 completes the paired
+reference intervention and fully recovers its fresh held control; see
 below. No manuscript fit is selected. Root's personal whole-page orientation is
 completed and remains part of future work. For that viewing, subagents may
 help with source metadata only; root performs the visual interpretation.
@@ -40,21 +40,23 @@ layouts. Source logistics alone were delegated. The observational dossier is
 No new experimental or semantic claim, no new page admission. User's required
 visual understanding remains part of future work; no experiment executed; see the new proposed candidate below.
 
-## Current experiment — GDT833 paired reference intervention
+## Completed — GDT833 reference effect and exact control recovery pass
 
 `experiments/yolo/gdt833_reference_orthography_intervention/REPORT.md`.
-Fresh De vulgari eloquentia Book I/II gives120discovery/122held citation runs,
-5866/5519words and507/457v-containingwords. One Monarchia reference has19162words;
-NATIVE retains1188v, COLLAPSED replacesreferencev→u only. Exact control/gold,
-candidate pool and frozenGDT832OFF engine remain common; no oldscore repair.
-Source capacity passes from outset;24L/3S/8W observed rules. All quotations
-and repeated-citation runs retained; inactive parameters remain unscorable.
+Public registrationefa4aad8 precedes48fits;48restarts/6selections locked before
+truth. FreshDVEBookII held: NATIVE gets5519/5519words,32212/32212characters,
+122/122paragraphs,all2138newform/1270newlemmaoccurrences and24L/3S/8Wvalues
+exactly right in all3keys. ORTHOGRAPHY_EFFECT_AND_RECOVERY_PASS.
+SameMonarchiareference withonlyv→u gives5062/5519words(91.72%),0/457vwords;
+all5062nonvwords staycorrect. Optimizedcollapsedmapsv→k. The separatepredeclared
+legalv/z-swap oracle flips: truth-minus-rival+5470.2261native/−535.7301collapsed.
+No metric/goldnormalization,decoderchange or GDT832score repair.
+Independent rawsource+48objectives+33114predictions+12oracles replayPASS.
 
-Publish code/spec before48fits; lock48restarts/6selectedkeys before key-truth
-evaluation. Specific criterion: NATIVE correctvkey/95%heldvwords,20pppairedgain,
-and a legalv/z-swaporaclecontrast reversingbetweenconditions. General recovery
-retains95/99/90/90 floors separately. Same seeds/budgets; reference-frequency
-initial keys maydiffer. No fitted score yet, no new Voynich page or target.
+Known roles/boundaries and one fixedmixedarchitecture are supplied. Threekeys
+shareonehistoricalcontentsplit; no fullparadigm or hiddensegmentation inference.
+FamilytermOFF; GDT832's zero-added-family-benefit result remains. No Voynich
+fit/word/language and no automatic target/successor selection. GDT616/CDA001 stayclosed.
 
 ## Completed control — GDT832 recovery fails; context identifies W values
 
@@ -77,7 +79,8 @@ co-lemma relations were tested; no full paradigm generator/unknown segmentation.
 Three keys share one historical content split. Initial pre-key four-mandatory-
 suffix capacity STOP remains unchanged; disclosed pre-fit correction assesses
 observable24L/3S/8W only, keeping source/deck/thresholds fixed. No post-fit rescue.
-No successor fit selected. Predecessor: `docs/joint_reading/PROPOSAL.md`.
+Its disclosed successor GDT833 uses fresh control data and a paired reference
+intervention; the GDT832 failure stays unchanged. Proposal: `docs/joint_reading/PROPOSAL.md`.
 
 GDT616 remains closed. A control pass cannot supply CDA001's missing independent
 text/value evidence or authorize a cached Voynich translation fit. No new page.
