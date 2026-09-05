@@ -22012,3 +22012,23 @@ reopening. Authority: GDT812 src/F72R_SOURCE_CORRECTION.md.
 The two-word oteey daiin label/prose comparison has zero eligible GDT388
 edges; neither inspected label selects a number, intensity, owner or name.
 All previous confirmed-word/clause counts remain zero; dictionary unchanged.
+
+Whole-family continuation: next exploratory priority A assigns exact dan very
+little, dain little, daiin much, daiiin very much, all C0. It requires fewer
+unobserved comparison standards than rival B less/more/much/too-much; this is
+practical priority, not semantic proof. I–IV remains a separate hypothesis.
+The39-selector guarded text extension covers1062 loci and retains15 complete
+blocks/83 loci with all readings. No family word is source-prose-paragraph-
+initial in this scope. A retrospective11-locus same-chol comparison preserves
+variant-only hits: slightly/very/extremely dry contrasts with drier/very/too
+dry only if chol is dry. These are inherited contexts, not independent new
+meaning evidence. f32v image gaps do not supply separate entry boundaries.
+One f89r2 reading has three free daiin; the declared two-level rule does not
+cover that without explicit extension. Old longer mixed chains stay open.
+Historical multus-family inflection has more than four forms; comparative
+multo plus/magis differs in order and form from the proposed postfix whole.
+The family's existence does not logically rule out verbs/conjunctions;
+old GDT626/GDT686 wording to that effect is too strong. It does not license
+generic action prose. No new admission, dictionary change or confirmed word.
+Next: fixed family hypotheses plus concrete content heads in f17r.7–12,
+not another isolated daiin refinement. Authority: GDT812 src/FAMILY_SYNTHESIS.md.

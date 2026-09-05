@@ -1,6 +1,6 @@
 # GDT812 — four extra pages and concrete semantic rivals
 
-Status: C0_SCALAR_REFINEMENT__F72R_IMAGE_CHAIN_CORRECTED__NO_TRANSLATION.
+Status: C0_WHOLE_FAMILY_SCALAR_PRIORITY__RIVALS_RETAINED__NO_TRANSLATION.
 
 Four additional visual pages are now admitted and personally inspected:
 f21r, f32v, f100v and f101r. This uses4 of the user's20 discretionary pages,
@@ -142,6 +142,41 @@ zero eligible edges and fails capacity, held-folio and mobile-null gates.
 No scored relation or decoded word follows. Admissions remain34 page keys /
 39 selectors, with16 discretionary admissions unused.
 
+## Whole-family continuation: a fixed provisional baseline
+
+The [family synthesis](src/FAMILY_SYNTHESIS.md) gives all four wholes one
+consistent exploratory assignment: dan very little, dain little, daiin much,
+daiiin very much. All four are C0. This is the next practical baseline because
+it needs fewer unobserved comparison standards than the preserved less/more/
+much/too-much rival. Neither beats the I–IV hypothesis on decoded meaning;
+the global dictionary and renderer are unchanged.
+
+The text extension stays within34 admitted visual page keys /39 selectors.
+Guarded extraction covers1062 loci; the declared mechanical selection retains
+15 complete blocks /83 loci with all three readings. No exact family word is
+source-prose-paragraph-initial in this scope. This is structural compatibility,
+not proof of postfix semantics. A separate retrospective same-head query
+retains11 full loci, including alternate-only hits and disagreements.
+The exact chol dain / chol daiin / chol daiiin contexts permit a concrete
+conditional contrast: slightly / very / extremely dry, if chol really is dry.
+The comparison rival instead predicts drier / very dry / too dry. Neither
+may change chol to suit a locus. This applies new hypotheses to inherited
+contexts; it does not rediscover those pairs as independent semantic support.
+
+Manual f32v inspection shows no visible entry boundaries inside the critical
+pairs. Historical quantity-word flexion and intensified comparison are real,
+but no exact four-form Voynich bridge follows. Triple daiin in one f89r2
+alternate reading exceeds the declared two-level intensification rule;
+general recursion would be an explicit extension, not a retrospective win.
+The old claim that a written family logically disproves verbs/conjunctions
+is corrected. Unknown content heads remain the next lexical task, not more
+polishing of a single intensity word. No new admission or confirmed clause.
+
+An independent source validator reconstructs13 explicitly bounded prose
+paragraphs and2 individual label loci, verifies all alternate readings and
+the11 separate chol contexts, and rejects five deliberately damaged in-memory
+copies. Builder replay also passes. These certify extraction, not semantics.
+
 ### Reproduce original pass and follow-up
 
 ```sh
@@ -151,6 +186,9 @@ python3 experiments/yolo/gdt812_additional_page_semantic_bridge/src/run_followup
 python3 experiments/yolo/gdt812_additional_page_semantic_bridge/src/validate_followup.py --check
 python3 experiments/yolo/gdt812_additional_page_semantic_bridge/src/validate_transfer.py --check
 python3 experiments/yolo/gdt812_additional_page_semantic_bridge/src/verify_canvas_metadata.py --check
+python3 experiments/yolo/gdt812_additional_page_semantic_bridge/src/family_probe.py
+python3 experiments/yolo/gdt812_additional_page_semantic_bridge/src/family_probe.py --check
+python3 experiments/yolo/gdt812_additional_page_semantic_bridge/src/validate_family_probe.py --check
 ./vmanus-exp check-edge-packet experiments/yolo/gdt812_additional_page_semantic_bridge/src/CROSS_CONTEXT_PACKET.tsv
 ./vmanus-exp check-edge-packet experiments/yolo/gdt812_additional_page_semantic_bridge/src/SCALAR_CONTEXT_PACKET.tsv
 ```

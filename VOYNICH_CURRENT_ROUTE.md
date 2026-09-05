@@ -34,10 +34,9 @@ Translate concrete content with transferable meanings. No translation yet.
 
 ## Current working model
 
-Page-conditioned hierarchy, line-position effects, technical shells and learned
-wholes. Line reset is not a sentence rule. Descriptive substance/part/quality
-and prescriptive ingredient/amount/process remain rivals. Distinguish pictured
-thing, property and reference; different genres remain possible.
+Page-conditioned hierarchy, line effects, technical shells and learned wholes.
+Line reset is not a sentence rule. Descriptive substance/part/quality and
+prescriptive ingredient/amount/process remain rivals. Picture is not meaning.
 
 Structural tags are analyst variables: H1/H2 favor entry, H3/H4 internal/final
 positions; the semantic pairing failed transfer (GDT736–737). No POS decoded.
@@ -75,10 +74,11 @@ f101r has no labels and three source paragraphs in two visual text bands.
 No relocated-label test is available. Keeping time remains a rival to degree/
 dose; chor chol daiin and the pictured plants are unidentified.
 dchdy is absent from both pages' prose; drug/effect remain open.
-daiin=sehr? fits doubling but conflicts with inherited nouns. Broader much/high
-magnitude can retain cthy=herb-material and chol=dry; neither is adopted.
-Historical multum supports lexical range, not fixed postfix order or a minim
-key. Numbered degree and qualitative intensity can coexist. Old trials stay.
+daiin=sehr? and much/high remain C0. Next family baseline: dan very little,
+dain little, daiin much, daiiin very much; less/more/much/too-much and I-IV
+remain rivals. No dictionary adoption. Family probe:39 admitted selectors,
+15 complete blocks/83 loci; same chol head gives competing low/high versus
+comparison/excess readings. Historical flexion is no four-form Latin key.
 Correction: Yale1006204 is72v, not72r. Quarantine GDT791/GDT811 f72r visual
 authentication through it; keep selector-bound text. Correct parent1006203
 was used for current f72r3 region, not a whole-foldout audit. See GDT812
@@ -121,14 +121,14 @@ Do not revive:
 
 ## Next useful work and efficient operation
 
-Compare complete value/intensity constructions without changing preceding
-words to fit each occurrence. Much/high magnitude excludes exact count/index
-and requires explicit measurable/gradable scope; family meanings remain open.
-GDT812 holds transfer cards, full readers and the image-source correction.
-No broad decoder selected. Absence alone is no disproof.
+Use the fixed C0 family in GDT812 src/FAMILY_SYNTHESIS.md with f17r.7-12.
+Identify the written content head and degree/comparison/excess construction;
+do not keep polishing daiin alone. Longer mixed chains remain unexplained.
+A written family does not logically disprove verbs or grammatical inflection.
+No broad decoder selected; no extra page needed for this immediate work.
 
 Reuse readers; batch probes. Reformatting is not an experiment.
-Workflow: `docs/WORKFLOW.md`. Add helpers outside hash-bound tools.
+Workflow: `docs/WORKFLOW.md`; keep hash-bound tools unchanged.
 
 ## Detailed memory and recording
 

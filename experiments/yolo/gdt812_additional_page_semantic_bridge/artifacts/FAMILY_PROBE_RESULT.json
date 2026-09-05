@@ -1,0 +1,1098 @@
+{
+  "alternate_readings_not_independent_witnesses": true,
+  "confirmed_lexemes": 0,
+  "confirmed_plaintext_clauses": 0,
+  "counts_by_alternate_reading": {
+    "it2a_clean": {
+      "daiiin": 5,
+      "daiin": 163,
+      "dain": 44,
+      "dan": 5
+    },
+    "rf1b_clean": {
+      "daiiin": 5,
+      "daiin": 133,
+      "dain": 36,
+      "dan": 3
+    },
+    "zl3b_clean": {
+      "daiiin": 5,
+      "daiin": 156,
+      "dain": 44,
+      "dan": 4
+    }
+  },
+  "design_timing": "POST_RESULT_EXTENSION_BEFORE_39_SELECTOR_EXTRACTION",
+  "dictionary_changed": false,
+  "guarded_queries": [
+    {
+      "command": [
+        "./vmanus-exp",
+        "query-tsv",
+        "transcription/voynich_zl3b_lines.tsv",
+        "--selector",
+        "page",
+        "--allow",
+        "f1r",
+        "--allow",
+        "f4r",
+        "--allow",
+        "f10r",
+        "--allow",
+        "f11r",
+        "--allow",
+        "f13r",
+        "--allow",
+        "f17r",
+        "--allow",
+        "f18r",
+        "--allow",
+        "f20v",
+        "--allow",
+        "f24v",
+        "--allow",
+        "f31r",
+        "--allow",
+        "f55v",
+        "--allow",
+        "f56r",
+        "--allow",
+        "f66r",
+        "--allow",
+        "f67r2",
+        "--allow",
+        "f68r1",
+        "--allow",
+        "f69v",
+        "--allow",
+        "f70v1",
+        "--allow",
+        "f70v2",
+        "--allow",
+        "f71v",
+        "--allow",
+        "f72r1",
+        "--allow",
+        "f72r2",
+        "--allow",
+        "f72r3",
+        "--allow",
+        "f75r",
+        "--allow",
+        "f76r",
+        "--allow",
+        "f77r",
+        "--allow",
+        "f81r",
+        "--allow",
+        "f81v",
+        "--allow",
+        "f82r",
+        "--allow",
+        "f83r",
+        "--allow",
+        "f88r",
+        "--allow",
+        "f88v",
+        "--allow",
+        "f89r1",
+        "--allow",
+        "f89r2",
+        "--allow",
+        "f95v1",
+        "--allow",
+        "f95v2",
+        "--allow",
+        "f21r",
+        "--allow",
+        "f32v",
+        "--allow",
+        "f100v",
+        "--allow",
+        "f101r",
+        "--columns",
+        "page,locus,line_number,kind,paragraph_start,paragraph_end,eva_clean",
+        "--forbid-prefix",
+        "f84",
+        "--forbid-prefix",
+        "f84r"
+      ],
+      "projection_sha256": "7e21662ca47afb879785f55b0957f8e295cbdf6012c2ed8b3ee66f932d6f2ebc",
+      "stats": {
+        "selected": 1062,
+        "skipped_forbidden": 98,
+        "skipped_not_allowed": 4225
+      }
+    },
+    {
+      "command": [
+        "./vmanus-exp",
+        "query-tsv",
+        "transcription/voynich_cross_transcription_lines.tsv",
+        "--selector",
+        "page",
+        "--allow",
+        "f1r",
+        "--allow",
+        "f4r",
+        "--allow",
+        "f10r",
+        "--allow",
+        "f11r",
+        "--allow",
+        "f13r",
+        "--allow",
+        "f17r",
+        "--allow",
+        "f18r",
+        "--allow",
+        "f20v",
+        "--allow",
+        "f24v",
+        "--allow",
+        "f31r",
+        "--allow",
+        "f55v",
+        "--allow",
+        "f56r",
+        "--allow",
+        "f66r",
+        "--allow",
+        "f67r2",
+        "--allow",
+        "f68r1",
+        "--allow",
+        "f69v",
+        "--allow",
+        "f70v1",
+        "--allow",
+        "f70v2",
+        "--allow",
+        "f71v",
+        "--allow",
+        "f72r1",
+        "--allow",
+        "f72r2",
+        "--allow",
+        "f72r3",
+        "--allow",
+        "f75r",
+        "--allow",
+        "f76r",
+        "--allow",
+        "f77r",
+        "--allow",
+        "f81r",
+        "--allow",
+        "f81v",
+        "--allow",
+        "f82r",
+        "--allow",
+        "f83r",
+        "--allow",
+        "f88r",
+        "--allow",
+        "f88v",
+        "--allow",
+        "f89r1",
+        "--allow",
+        "f89r2",
+        "--allow",
+        "f95v1",
+        "--allow",
+        "f95v2",
+        "--allow",
+        "f21r",
+        "--allow",
+        "f32v",
+        "--allow",
+        "f100v",
+        "--allow",
+        "f101r",
+        "--columns",
+        "page,locus,zl3b_clean,it2a_clean,rf1b_clean",
+        "--forbid-prefix",
+        "f84",
+        "--forbid-prefix",
+        "f84r"
+      ],
+      "projection_sha256": "8c39bc60c657af0ad190a8fa6dc5c85afd47bc121fcfa9437806439c1f8c6f6b",
+      "stats": {
+        "selected": 1062,
+        "skipped_forbidden": 98,
+        "skipped_not_allowed": 4226
+      }
+    }
+  ],
+  "meanings_validated": false,
+  "new_admissions": 0,
+  "sealed_data": [
+    "f84",
+    "f84r"
+  ],
+  "selected_blocks": 15,
+  "selected_loci": 83,
+  "shared_chol_frame_followup": {
+    "complete_paragraphs_claimed": false,
+    "frames": [
+      {
+        "chol_positions_1based": {
+          "it2a_clean": [
+            2
+          ],
+          "rf1b_clean": [
+            2
+          ],
+          "zl3b_clean": [
+            2
+          ]
+        },
+        "source_line": {
+          "eva_clean": "ydoin chol dain cthal dar shear kaiin dar shey cthar",
+          "it2a_clean": "doin chol dain cthal dar shear kaiin dar shey cthar",
+          "kind": "P",
+          "line_number": "23",
+          "locus": "f1r.23",
+          "page": "f1r",
+          "paragraph_end": "0",
+          "paragraph_start": "0",
+          "rf1b_clean": "ain chol dain cthal dar shear kaiin dar ey cthar",
+          "zl3b_clean": "ydoin chol dain cthal dar shear kaiin dar shey cthar"
+        }
+      },
+      {
+        "chol_positions_1based": {
+          "it2a_clean": [
+            6
+          ],
+          "rf1b_clean": [
+            6
+          ],
+          "zl3b_clean": [
+            6
+          ]
+        },
+        "source_line": {
+          "eva_clean": "qotchor chor otol chol cholor chol daiin dar",
+          "it2a_clean": "qotchor chor otol chol cholor chol daiin dar",
+          "kind": "P",
+          "line_number": "8",
+          "locus": "f10r.8",
+          "page": "f10r",
+          "paragraph_end": "0",
+          "paragraph_start": "0",
+          "rf1b_clean": "qotchor chor otol chol cholor chol daiin dar",
+          "zl3b_clean": "qotchor chor otol chol cholor chol daiin dar"
+        }
+      },
+      {
+        "chol_positions_1based": {
+          "it2a_clean": [
+            4
+          ],
+          "rf1b_clean": [
+            4
+          ],
+          "zl3b_clean": [
+            4
+          ]
+        },
+        "source_line": {
+          "eva_clean": "otchol cthar okaiin chol daiiin",
+          "it2a_clean": "otchol cthar okaiin chol daiiin",
+          "kind": "P",
+          "line_number": "11",
+          "locus": "f17r.11",
+          "page": "f17r",
+          "paragraph_end": "0",
+          "paragraph_start": "0",
+          "rf1b_clean": "otchol cthar okaiin chol daiiin",
+          "zl3b_clean": "otchol cthar okaiin chol daiiin"
+        }
+      },
+      {
+        "chol_positions_1based": {
+          "it2a_clean": [],
+          "rf1b_clean": [],
+          "zl3b_clean": [
+            7
+          ]
+        },
+        "source_line": {
+          "eva_clean": "otshol qokchol chykchy okchal daiin dy chol dain",
+          "it2a_clean": "otshol qokchol chykchy okchal daiin dy chol diiin",
+          "kind": "P",
+          "line_number": "2",
+          "locus": "f18r.2",
+          "page": "f18r",
+          "paragraph_end": "0",
+          "paragraph_start": "0",
+          "rf1b_clean": "otshol qokchol chykchy okchal daiin dy chol diiin",
+          "zl3b_clean": "otshol qokchol chykchy okchal daiin dy chol dain"
+        }
+      },
+      {
+        "chol_positions_1based": {
+          "it2a_clean": [
+            3
+          ],
+          "rf1b_clean": [
+            3
+          ],
+          "zl3b_clean": [
+            3
+          ]
+        },
+        "source_line": {
+          "eva_clean": "shokaiin chocthy chol daiin chy chor ety",
+          "it2a_clean": "shokaiin chocthy chol daiin chy chor ety",
+          "kind": "P",
+          "line_number": "10",
+          "locus": "f20v.10",
+          "page": "f20v",
+          "paragraph_end": "0",
+          "paragraph_start": "0",
+          "rf1b_clean": "shokaiin chocthy chol daiin chy chor ety",
+          "zl3b_clean": "shokaiin chocthy chol daiin chy chor ety"
+        }
+      },
+      {
+        "chol_positions_1based": {
+          "it2a_clean": [
+            6
+          ],
+          "rf1b_clean": [
+            6
+          ],
+          "zl3b_clean": [
+            6
+          ]
+        },
+        "source_line": {
+          "eva_clean": "ykeey chor sheey ysheol chor chol daiin chkaiin",
+          "it2a_clean": "ykeea chor sheey ysheol chor chol daiin chkaiin",
+          "kind": "P",
+          "line_number": "12",
+          "locus": "f21r.12",
+          "page": "f21r",
+          "paragraph_end": "1",
+          "paragraph_start": "0",
+          "rf1b_clean": "ykee chor sheey sheol chor chol daiin chkaiin",
+          "zl3b_clean": "ykeey chor sheey ysheol chor chol daiin chkaiin"
+        }
+      },
+      {
+        "chol_positions_1based": {
+          "it2a_clean": [
+            4
+          ],
+          "rf1b_clean": [
+            4
+          ],
+          "zl3b_clean": [
+            4
+          ]
+        },
+        "source_line": {
+          "eva_clean": "sho keol chor chol daiin cpho l cthol da ar",
+          "it2a_clean": "sho keol chor chol daiin cphol cthol da ar",
+          "kind": "P",
+          "line_number": "10",
+          "locus": "f32v.10",
+          "page": "f32v",
+          "paragraph_end": "0",
+          "paragraph_start": "0",
+          "rf1b_clean": "sho keol chor chol daiin cphol cthol da ar",
+          "zl3b_clean": "sho keol chor chol daiin cpho l cthol da ar"
+        }
+      },
+      {
+        "chol_positions_1based": {
+          "it2a_clean": [
+            1
+          ],
+          "rf1b_clean": [],
+          "zl3b_clean": []
+        },
+        "source_line": {
+          "eva_clean": "chol giin okol",
+          "it2a_clean": "chol daiin okol",
+          "kind": "P",
+          "line_number": "35",
+          "locus": "f67r2.35",
+          "page": "f67r2",
+          "paragraph_end": "0",
+          "paragraph_start": "1",
+          "rf1b_clean": "chol iin okol",
+          "zl3b_clean": "chol giin okol"
+        }
+      },
+      {
+        "chol_positions_1based": {
+          "it2a_clean": [
+            1
+          ],
+          "rf1b_clean": [
+            1
+          ],
+          "zl3b_clean": [
+            1
+          ]
+        },
+        "source_line": {
+          "eva_clean": "chol dain otedy cheey qotain ly",
+          "it2a_clean": "chol dain otedy cheey qotain ly",
+          "kind": "P",
+          "line_number": "10",
+          "locus": "f81r.10",
+          "page": "f81r",
+          "paragraph_end": "0",
+          "paragraph_start": "0",
+          "rf1b_clean": "chol dain ote y cheey qotain ly",
+          "zl3b_clean": "chol dain otedy cheey qotain ly"
+        }
+      },
+      {
+        "chol_positions_1based": {
+          "it2a_clean": [],
+          "rf1b_clean": [
+            10
+          ],
+          "zl3b_clean": [
+            10
+          ]
+        },
+        "source_line": {
+          "eva_clean": "daiin olkey okeol okey okeeol qoor ol chor cheky chol daiin chol cheol koldam olcheol dol cheol",
+          "it2a_clean": "daiin olkey okeol okey okeeol qoor ol chor cheky shol daiiin chol cheol kol dam olcheol dol cheol",
+          "kind": "P",
+          "line_number": "13",
+          "locus": "f89r2.13",
+          "page": "f89r2",
+          "paragraph_end": "0",
+          "paragraph_start": "0",
+          "rf1b_clean": "daiin olkey okeol okey okeeol qoor ol chor cheky chol daiin chol cheol kol am olcheol dol cheol",
+          "zl3b_clean": "daiin olkey okeol okey okeeol qoor ol chor cheky chol daiin chol cheol koldam olcheol dol cheol"
+        }
+      },
+      {
+        "chol_positions_1based": {
+          "it2a_clean": [
+            22
+          ],
+          "rf1b_clean": [],
+          "zl3b_clean": [
+            24
+          ]
+        },
+        "source_line": {
+          "eva_clean": "dol chokeey chkey cthey okalchol kol o keey r or ol okol ol olchey qok chal okey qokeol kar shey teol or oiiin chol daiin",
+          "it2a_clean": "dol chokeey chkey cthey okal chol kol okeey r or ol okolol olchey qokchor okey qokeol kor shey teol or aiin chol daiin",
+          "kind": "P",
+          "line_number": "2",
+          "locus": "f101r.2",
+          "page": "f101r",
+          "paragraph_end": "1",
+          "paragraph_start": "0",
+          "rf1b_clean": "dol chokeey chkey cthey okal chol kol o keey r or ol okol ol olchey qokch l okey qokeol kor shey teol or aiiin choldaiin",
+          "zl3b_clean": "dol chokeey chkey cthey okalchol kol o keey r or ol okol ol olchey qok chal okey qokeol kar shey teol or oiiin chol daiin"
+        }
+      }
+    ],
+    "rule": "All within-locus exact chol plus family pairs in any reading; no cross-line search.",
+    "semantics": "chol=dry is conditional, not independently confirmed",
+    "timing": "POST_CONTEXT_DESCRIPTIVE_QUERY"
+  },
+  "source_loci": 1062,
+  "source_selectors": [
+    "f1r",
+    "f4r",
+    "f10r",
+    "f11r",
+    "f13r",
+    "f17r",
+    "f18r",
+    "f20v",
+    "f24v",
+    "f31r",
+    "f55v",
+    "f56r",
+    "f66r",
+    "f67r2",
+    "f68r1",
+    "f69v",
+    "f70v1",
+    "f70v2",
+    "f71v",
+    "f72r1",
+    "f72r2",
+    "f72r3",
+    "f75r",
+    "f76r",
+    "f77r",
+    "f81r",
+    "f81v",
+    "f82r",
+    "f83r",
+    "f88r",
+    "f88v",
+    "f89r1",
+    "f89r2",
+    "f95v1",
+    "f95v2",
+    "f21r",
+    "f32v",
+    "f100v",
+    "f101r"
+  ],
+  "status": "WHOLE_FAMILY_CONTEXTS_ONLY_NO_SEMANTIC_WINNER",
+  "triggers": [
+    {
+      "locus": "f1r.2",
+      "position_1based": 11,
+      "previous": [
+        "f1r.2",
+        10,
+        "cthar"
+      ],
+      "reader": "zl3b_clean",
+      "reasons": [
+        "RARE_ENDPOINT"
+      ],
+      "token": "dan"
+    },
+    {
+      "locus": "f1r.2",
+      "position_1based": 11,
+      "previous": [
+        "f1r.2",
+        10,
+        "cthar"
+      ],
+      "reader": "it2a_clean",
+      "reasons": [
+        "RARE_ENDPOINT"
+      ],
+      "token": "dan"
+    },
+    {
+      "locus": "f1r.2",
+      "position_1based": 10,
+      "previous": [
+        "f1r.2",
+        9,
+        "cthar"
+      ],
+      "reader": "rf1b_clean",
+      "reasons": [
+        "RARE_ENDPOINT"
+      ],
+      "token": "dan"
+    },
+    {
+      "locus": "f1r.21",
+      "position_1based": 2,
+      "previous": [
+        "f1r.21",
+        1,
+        "otol"
+      ],
+      "reader": "zl3b_clean",
+      "reasons": [
+        "RARE_ENDPOINT"
+      ],
+      "token": "daiiin"
+    },
+    {
+      "locus": "f1r.14",
+      "position_1based": 8,
+      "previous": [
+        "f1r.14",
+        7,
+        "okain"
+      ],
+      "reader": "it2a_clean",
+      "reasons": [
+        "RARE_ENDPOINT"
+      ],
+      "token": "dan"
+    },
+    {
+      "locus": "f1r.21",
+      "position_1based": 2,
+      "previous": [
+        "f1r.21",
+        1,
+        "otol"
+      ],
+      "reader": "it2a_clean",
+      "reasons": [
+        "RARE_ENDPOINT"
+      ],
+      "token": "daiiin"
+    },
+    {
+      "locus": "f1r.21",
+      "position_1based": 2,
+      "previous": [
+        "f1r.21",
+        1,
+        "otol"
+      ],
+      "reader": "rf1b_clean",
+      "reasons": [
+        "RARE_ENDPOINT"
+      ],
+      "token": "daiiin"
+    },
+    {
+      "locus": "f17r.11",
+      "position_1based": 5,
+      "previous": [
+        "f17r.11",
+        4,
+        "chol"
+      ],
+      "reader": "zl3b_clean",
+      "reasons": [
+        "RARE_ENDPOINT"
+      ],
+      "token": "daiiin"
+    },
+    {
+      "locus": "f17r.11",
+      "position_1based": 5,
+      "previous": [
+        "f17r.11",
+        4,
+        "chol"
+      ],
+      "reader": "it2a_clean",
+      "reasons": [
+        "RARE_ENDPOINT"
+      ],
+      "token": "daiiin"
+    },
+    {
+      "locus": "f17r.11",
+      "position_1based": 5,
+      "previous": [
+        "f17r.11",
+        4,
+        "chol"
+      ],
+      "reader": "rf1b_clean",
+      "reasons": [
+        "RARE_ENDPOINT"
+      ],
+      "token": "daiiin"
+    },
+    {
+      "locus": "f20v.6",
+      "position_1based": 3,
+      "previous": [
+        "f20v.6",
+        2,
+        "chockhy"
+      ],
+      "reader": "zl3b_clean",
+      "reasons": [
+        "RARE_ENDPOINT"
+      ],
+      "token": "dan"
+    },
+    {
+      "locus": "f20v.6",
+      "position_1based": 3,
+      "previous": [
+        "f20v.6",
+        2,
+        "chockhy"
+      ],
+      "reader": "rf1b_clean",
+      "reasons": [
+        "RARE_ENDPOINT"
+      ],
+      "token": "dan"
+    },
+    {
+      "locus": "f32v.3",
+      "position_1based": 6,
+      "previous": [
+        "f32v.3",
+        5,
+        "dain"
+      ],
+      "reader": "zl3b_clean",
+      "reasons": [
+        "ADJACENT_FAMILY"
+      ],
+      "token": "daiin"
+    },
+    {
+      "locus": "f32v.3",
+      "position_1based": 6,
+      "previous": [
+        "f32v.3",
+        5,
+        "dain"
+      ],
+      "reader": "it2a_clean",
+      "reasons": [
+        "ADJACENT_FAMILY"
+      ],
+      "token": "daiin"
+    },
+    {
+      "locus": "f32v.3",
+      "position_1based": 6,
+      "previous": [
+        "f32v.3",
+        5,
+        "dain"
+      ],
+      "reader": "rf1b_clean",
+      "reasons": [
+        "ADJACENT_FAMILY"
+      ],
+      "token": "daiin"
+    },
+    {
+      "locus": "f32v.8",
+      "position_1based": 3,
+      "previous": [
+        "f32v.8",
+        2,
+        "daiin"
+      ],
+      "reader": "zl3b_clean",
+      "reasons": [
+        "ADJACENT_FAMILY"
+      ],
+      "token": "daiin"
+    },
+    {
+      "locus": "f32v.8",
+      "position_1based": 3,
+      "previous": [
+        "f32v.8",
+        2,
+        "daiin"
+      ],
+      "reader": "it2a_clean",
+      "reasons": [
+        "ADJACENT_FAMILY"
+      ],
+      "token": "daiin"
+    },
+    {
+      "locus": "f32v.8",
+      "position_1based": 3,
+      "previous": [
+        "f32v.8",
+        2,
+        "daiin"
+      ],
+      "reader": "rf1b_clean",
+      "reasons": [
+        "ADJACENT_FAMILY"
+      ],
+      "token": "daiin"
+    },
+    {
+      "locus": "f66r.68",
+      "position_1based": 4,
+      "previous": [
+        "f66r.68",
+        3,
+        "daiin"
+      ],
+      "reader": "zl3b_clean",
+      "reasons": [
+        "ADJACENT_FAMILY"
+      ],
+      "token": "daiin"
+    },
+    {
+      "locus": "f66r.68",
+      "position_1based": 4,
+      "previous": [
+        "f66r.68",
+        3,
+        "daiin"
+      ],
+      "reader": "it2a_clean",
+      "reasons": [
+        "ADJACENT_FAMILY"
+      ],
+      "token": "daiin"
+    },
+    {
+      "locus": "f71v.10",
+      "position_1based": 3,
+      "previous": [
+        "f71v.10",
+        2,
+        "am"
+      ],
+      "reader": "zl3b_clean",
+      "reasons": [
+        "RARE_ENDPOINT"
+      ],
+      "token": "dan"
+    },
+    {
+      "locus": "f71v.10",
+      "position_1based": 3,
+      "previous": [
+        "f71v.10",
+        2,
+        "am"
+      ],
+      "reader": "it2a_clean",
+      "reasons": [
+        "RARE_ENDPOINT"
+      ],
+      "token": "dan"
+    },
+    {
+      "locus": "f77r.40",
+      "position_1based": 1,
+      "previous": [
+        "f77r.39",
+        7,
+        "laiin"
+      ],
+      "reader": "zl3b_clean",
+      "reasons": [
+        "RARE_ENDPOINT"
+      ],
+      "token": "daiiin"
+    },
+    {
+      "locus": "f77r.40",
+      "position_1based": 1,
+      "previous": [
+        "f77r.39",
+        7,
+        "laiin"
+      ],
+      "reader": "it2a_clean",
+      "reasons": [
+        "RARE_ENDPOINT"
+      ],
+      "token": "daiiin"
+    },
+    {
+      "locus": "f77r.40",
+      "position_1based": 1,
+      "previous": [
+        "f77r.39",
+        8,
+        "laiin"
+      ],
+      "reader": "rf1b_clean",
+      "reasons": [
+        "RARE_ENDPOINT"
+      ],
+      "token": "daiiin"
+    },
+    {
+      "locus": "f83r.49",
+      "position_1based": 2,
+      "previous": [
+        "f83r.49",
+        1,
+        "sol"
+      ],
+      "reader": "zl3b_clean",
+      "reasons": [
+        "RARE_ENDPOINT"
+      ],
+      "token": "daiiin"
+    },
+    {
+      "locus": "f83r.49",
+      "position_1based": 2,
+      "previous": [
+        "f83r.49",
+        1,
+        "sol"
+      ],
+      "reader": "it2a_clean",
+      "reasons": [
+        "RARE_ENDPOINT"
+      ],
+      "token": "daiiin"
+    },
+    {
+      "locus": "f83r.49",
+      "position_1based": 2,
+      "previous": [
+        "f83r.49",
+        1,
+        "sol"
+      ],
+      "reader": "rf1b_clean",
+      "reasons": [
+        "RARE_ENDPOINT"
+      ],
+      "token": "daiiin"
+    },
+    {
+      "locus": "f89r1.14",
+      "position_1based": 2,
+      "previous": [
+        "f89r1.14",
+        1,
+        "okaiin"
+      ],
+      "reader": "zl3b_clean",
+      "reasons": [
+        "RARE_ENDPOINT"
+      ],
+      "token": "dan"
+    },
+    {
+      "locus": "f89r1.14",
+      "position_1based": 2,
+      "previous": [
+        "f89r1.14",
+        1,
+        "okaiin"
+      ],
+      "reader": "it2a_clean",
+      "reasons": [
+        "RARE_ENDPOINT"
+      ],
+      "token": "dan"
+    },
+    {
+      "locus": "f89r1.14",
+      "position_1based": 2,
+      "previous": [
+        "f89r1.14",
+        1,
+        "okaiin"
+      ],
+      "reader": "rf1b_clean",
+      "reasons": [
+        "RARE_ENDPOINT"
+      ],
+      "token": "dan"
+    },
+    {
+      "locus": "f89r2.8",
+      "position_1based": 3,
+      "previous": [
+        "f89r2.8",
+        2,
+        "daiin"
+      ],
+      "reader": "zl3b_clean",
+      "reasons": [
+        "ADJACENT_FAMILY"
+      ],
+      "token": "daiin"
+    },
+    {
+      "locus": "f89r2.8",
+      "position_1based": 3,
+      "previous": [
+        "f89r2.8",
+        2,
+        "daiin"
+      ],
+      "reader": "it2a_clean",
+      "reasons": [
+        "ADJACENT_FAMILY"
+      ],
+      "token": "daiin"
+    },
+    {
+      "locus": "f89r2.8",
+      "position_1based": 4,
+      "previous": [
+        "f89r2.8",
+        3,
+        "daiin"
+      ],
+      "reader": "it2a_clean",
+      "reasons": [
+        "ADJACENT_FAMILY"
+      ],
+      "token": "daiin"
+    },
+    {
+      "locus": "f89r2.8",
+      "position_1based": 3,
+      "previous": [
+        "f89r2.8",
+        2,
+        "daiin"
+      ],
+      "reader": "rf1b_clean",
+      "reasons": [
+        "ADJACENT_FAMILY"
+      ],
+      "token": "daiin"
+    },
+    {
+      "locus": "f89r2.13",
+      "position_1based": 11,
+      "previous": [
+        "f89r2.13",
+        10,
+        "shol"
+      ],
+      "reader": "it2a_clean",
+      "reasons": [
+        "RARE_ENDPOINT"
+      ],
+      "token": "daiiin"
+    },
+    {
+      "locus": "f89r2.25",
+      "position_1based": 7,
+      "previous": [
+        "f89r2.25",
+        6,
+        "qocheey"
+      ],
+      "reader": "zl3b_clean",
+      "reasons": [
+        "RARE_ENDPOINT"
+      ],
+      "token": "daiiin"
+    },
+    {
+      "locus": "f89r2.25",
+      "position_1based": 8,
+      "previous": [
+        "f89r2.25",
+        7,
+        "qocheey"
+      ],
+      "reader": "rf1b_clean",
+      "reasons": [
+        "RARE_ENDPOINT"
+      ],
+      "token": "daiiin"
+    },
+    {
+      "locus": "f100v.19",
+      "position_1based": 8,
+      "previous": [
+        "f100v.19",
+        7,
+        "chckhey"
+      ],
+      "reader": "it2a_clean",
+      "reasons": [
+        "RARE_ENDPOINT"
+      ],
+      "token": "dan"
+    }
+  ],
+  "visual_page_keys": 34
+}

@@ -53,6 +53,24 @@ and dain daiin make that cost especially clear. This is a concrete rival,
 not a new dictionary winner. The recurring written family remains a separate
 obligation; its minim counts do not independently identify numbers.
 
+## Whole-family working priority
+
+For the next text work, use the explicit C0 baseline dan=very little,
+dain=little, daiin=much, daiiin=very much. This supplies a fixed whole-family
+alternative, not four confirmed meanings or a new character decoder.
+The less/more/much/too-much rival and the old I–IV hypothesis stay visible.
+With the same tentative chol=dry, the three written chol dain/daiin/daiiin
+pairs conditionally become slightly/very/extremely dry; the comparison rival
+instead says drier/very/too dry. No picture or source decides those values yet.
+See src/FAMILY_SYNTHESIS.md for confidence, evidence and exact alternatives.
+
+The39-selector extension selects15 complete source blocks/83 loci, not new
+images. The fixed scope rule still needs an account of longer mixed family
+chains; one reading of f89r2 even has three free daiin. Do not smooth this
+away or infer numeric semantics from the written family alone. Historical
+quantity-word inflection is another architectural possibility, not a mapped
+four-form Latin key. The global dictionary/renderer remains unchanged.
+
 ## Next discriminating question
 
 Transfer adds a broader rival: **much/high magnitude**. With the same tentative
@@ -73,10 +91,11 @@ introduced on a botanical page and referred to at an application, or whether
 the same label instead predicates a shared property. That requires a source-
 bound construction retaining the same subject across the explanatory text,
 not another word-frequency ranking or a nearby picture substituted as a noun.
-For the value/intensity alternatives, work from complete constructions with
-explicit preceding expressions: can a fixed modifier explain them without
-continually changing their noun/property roles? A number/unit, time/storage
-or gradable-predicate interpretation must account for the same occurrences.
+For the value/intensity alternatives, use the complete f17r.7–12 paragraph
+and its chol daiiin without changing the preceding words. Identify the written
+content head and whether the assertion is an absolute degree, comparison or
+excess. Keep the family defaults fixed while pursuing those concrete heads;
+another round of isolated daiin gloss optimization will not supply them.
 Do not count the two known chor chol daiin spans again as new support.
 
 The source follow-up sharpens rather than resolves this choice. Historical

@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **811**
-- Experiment-associated tracked files: **14,684** (1.3 GiB)
+- Experiment-associated tracked files: **14,694** (1.3 GiB)
 - Structured GDT337+ experiments: **476**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT812 | GDT812_scalar_transfer_and_source_correction | `C0_SCALAR_REFINEMENT__F72R_IMAGE_CHAIN_CORRECTED__NO_TRANSLATION` | [report](../experiments/yolo/gdt812_additional_page_semantic_bridge/REPORT.md) | 44 | 221.2 KiB | 3 | STRUCTURED_YOLO |
+| GDT812 | GDT812_whole_family_continuation | `C0_WHOLE_FAMILY_SCALAR_PRIORITY__RIVALS_RETAINED__NO_TRANSLATION` | [report](../experiments/yolo/gdt812_additional_page_semantic_bridge/REPORT.md) | 54 | 363.0 KiB | 6 | STRUCTURED_YOLO |
 | GDT811 | GDT811_joint_content_synthesis | `WORKING_THEORY_ONLY_DICTIONARY_UNCHANGED` | [report](../experiments/yolo/gdt811_four_page_content_synthesis/REPORT.md) | 31 | 264.0 KiB | 13 | STRUCTURED_YOLO |
 | GDT810 | GDT810_quality_arity_value_run | `NO_EXTERNAL_PAIRED_QUALITY_MULTIPLE_VALUE_SUPPORT` | [report](../experiments/yolo/gdt810_quality_arity_value_run/REPORT.md) | 17 | 289.5 KiB | 9 | STRUCTURED_YOLO |
 | GDT809 | GDT809_repaired_context_and_joint_paragraphs | `COMPLETE_REPAIR_AND_JOINT_EXPLORATION__TWO_FORMAL_ASSOCIATIONS__FOUR_COMPLETE_PARAGRAPHS__MEANINGS_UNRESOLVED` | [report](../experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/REPORT.md) | 53 | 2.5 MiB | 14 | STRUCTURED_YOLO |
