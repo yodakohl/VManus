@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **807**
-- Experiment-associated tracked files: **14,539** (1.3 GiB)
-- Structured GDT337+ experiments: **472**
+- Experiments indexed: **808**
+- Experiment-associated tracked files: **14,559** (1.3 GiB)
+- Structured GDT337+ experiments: **473**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT809 | GDT809_repaired_joint_reading_registration | `REGISTERED_UNSCORED__CONTEXT_NOT_IDENTITY__FOUR_COMPLETE_PARAGRAPHS` | [report](../experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/PREREGISTRATION.md) | 20 | 233.8 KiB | 14 | STRUCTURED_YOLO |
 | GDT808 | GDT808_exact_relation_slot_residual_bridge | `COMPLETE__L_AND_DY_PORTABLE_RECORD_OR_FORM__TWO_DISTINCT_OR_AXIS_BOUND_RELATIONS__R06_RECORD_CHANNEL_LEADS__ZERO_LEXEMES` | [report](../experiments/yolo/gdt808_exact_relation_slot_residual_bridge/REPORT.md) | 45 | 5.2 MiB | 14 | STRUCTURED_YOLO |
 | GDT807 | GDT807_target_masked_paragraph_exchange_codebook | `COMPLETE__0_ROBUST__3_PROVISIONAL__0_NO_SPLIT__ZERO_SEMANTIC_PROMOTION` | [report](../experiments/yolo/gdt807_target_masked_paragraph_exchange_codebook/REPORT.md) | 36 | 2.3 MiB | 8 | STRUCTURED_YOLO |
 | GDT806 | GDT806_three_channel_whole_context_replication | `PASS__652_GLOBAL__577_RESIDUAL__967_TARGET_EVENTS__0_CONDITIONAL__0_CROSS_DENOMINATOR__6_UNRESOLVED__0_NEW_ROLES__ZERO_LEXEMES` | [report](../experiments/yolo/gdt806_three_channel_whole_context_replication/REPORT.md) | 32 | 1.7 MiB | 12 | STRUCTURED_YOLO |
