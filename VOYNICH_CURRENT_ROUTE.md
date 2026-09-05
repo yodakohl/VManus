@@ -1,6 +1,6 @@
 # Voynich current route
 Updated: 2026-09-05. Read first.
-`./vmanus-work lookup GDT822 GDT821 GDT819`: primary reports only.
+`./vmanus-work lookup GDT823 GDT822 GDT819`: primary reports only.
 
 ## Goal and actual position
 
@@ -44,7 +44,7 @@ and alternate boundaries. Similarity grants no component.
 Source groups/separator states BEFORE whole-word/compound/space claims.
 Legacy ASCII spaces can be cleaner-created; extended @entities stay opaque.
 
-## Inherited family and active GDT822
+## Inherited family and active GDT823
 
 809axes open;810arity fails beyondf32v;sho sh+o-derived.811:0objects17ineligibleedges;
 f4rdefeatsobligatoryslots;f17r two otchol-X-Y-chol spans;okol/qokol notspecies.
@@ -91,23 +91,23 @@ heaviness (notdose/mild/easy/bright/fast/up),referenceunknown. No winner/hybrid.
 Light loses finiteverb;nohiddenis. sal unknown;chedy becomes;818matrix separate.
 
 GDT822qokeey=Feuer? physicalfire,notheat/heating/warmth/drug/air/water;C0.
-ALL39:153readerhits50loci17selectors,allP. Union821=320loci/all3rootread;
-31wholeP+2nonP,10L separate,8391groups960flatmatches1920two-worlddisplays.
-No newpage/image/dictionary. Fire fits bothraiin senses,so doesnotdiscriminate.
-82r24fire[lkeey]fire retained;95v1.9raiin-fire reversesorder,no universalSVO.
-75r33ITfire[lshedy][qol]becomeswater:subjectnotdecoded,RFched@222;opaque.
-81r20/82r21all3qol.chedy.qokeey=...becomesfire;76r19ZL_ITfirefiredoublet.
-De animaII.9.3#80618 allowsfire-watergeneration:historicalpossibility,notwordkey.
-Explanatorymaterialchange possible,notgenreproof. No qokeedy/okeeyheatcard.
-Next sameconnector inqol.chedy.qokeey versusfire...qol.chedy.water.
-822theory/report/CONTENT_READING/CANDIDATES govern;oneauthor,sourcechecknotsemantics.
+ALL39:153readerhits50loci17selectors;union821320loci31wholeP2nonP10L8391groups.
+Fire fits bothraiin;82r24fire[lkeey]fire,76r19firefire retained;95v1raiin-fire order.
+75r33fire...becomeswater subjectopen. De animaII.9.3#80618 possible,notwordkey.
+No qokeedy/okeeyheatcard,genre/SVOproof;822sourcechecknotsemantics.
+GDT823qol=daraus? material-source anaphor,notthen/therefore/whose/add/destination.
+Cached822only:101readerhits37loci8selectors;15wholeP217loci208P9L/all3reread.
+Notall39qolcensus. 81r20/82r21daraus-wird-fire;75r33ITdaraus-wird-water;
+77r33all3viel-wird-daraus. No recoveredreferent;unknowncontextsnotpositives.
+ZL75r33qo,l notqol;RFched@222;opaque;IT77r34extra-chedy/airdoublet kept.
+qolchedy stillunknown. Bothraiin fixed;0newpage/image/dictionary/confirmedword.
 
 ## Which source to open
 
 | Need | Index lookup / source |
 |---|---|
-| Current fire / material-change trial | GDT822: theory, report, CONTENT_READING, candidates |
-| Ascent versus lightness / full raiin | GDT821 |
+| Source reference / debts | GDT823: theory, report, CONTENT_READING, candidates |
+| Fire / ascent / lightness | GDT822 / GDT821 |
 | Repetition constructions / initial ascent trial | GDT820 |
 | Actual image / boundary decisions | GDT819 |
 | Fixed line trial / candidate meanings | GDT818: candidates; GDT819 corrections govern |
@@ -135,9 +135,9 @@ Failed route needs new data/prediction. Do not revive:
 
 ## Next work
 
-Next: qol.chedy.qokeey81r20/82r21 versusqokeey...qol.chedy.qokain75r33;
-one explicit connection acrosswholeP,notnewnouncensus. Keepfireandbothraiin fixed.
-Qokedy carrier/content separate;no q-prefix/auxiliary rescue ornewpage needed.
+Next proposal:onewholeqolchedy composition fromqol=daraus?/chedy=wird?,notyetglossed.
+77r34ZLjoined/ITsplit;81v17/82r2joinedbeforewater. Route-check beforelaunch.
+No generalqol-prefixsplit;fireandbothraiin fixed;no newpage/nouncensus needed.
 
 Reuse readers/batch probes. Workflow:`docs/WORKFLOW.md`; preserve bound tools.
 

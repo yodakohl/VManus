@@ -22348,6 +22348,32 @@ withsal.raiin76r51/82r24. Not anothercensus,q-prefixgenericrouteorautomaticdrug
 meaning. Scope34visualkeys39selectors16unusedadmissions;f84/f84rsealed.
 Authority821REPORT/WORKING_THEORY,CANDIDATES,LIGHT_TRIALandthreecontentnotes.
 
+## GDT823 — qol material-source reference, no recovered antecedent (2026-09-05)
+
+One new exact-whole C0 trial: qol=daraus? (from that material), never then,
+therefore, whose, add or destination. Fixed fire/water/becomes and both separate
+physical raiin senses retained. Before becomes-fire81r20/82r21 and becomes-water
+75r33IT, and after becomes in daiin.chedy.qol77r33, the same meaning is locally
+intelligible. Excerpts, not translated clauses. No reference target recovered;
+fire at75r33 is a possible attachment, not a named source argument. No current
+concrete material precedes the fire frames inside81r16–31 or82r20–33.
+
+Cached GDT822 packet only, not all39 qol census:101readergroups31ZL36IT34RF,
+37loci8selectors. Coordinator reread15wholeP217loci208P9separateL/all3;45coreloci.
+222two-worldtrialrows202exactsubstitutions, allotherwords/boundaries unchanged.
+Unknown contexts are not successes. Repeated qol and77r34doubleair/extra-chedy
+remain. ZL75r33qo,l notqol,RFched@222;notchedy. No source/entity alias.
+GDT573Germanpronouncompression andGDT698oldaddframes are different routes,
+not evidence for this lexical proposal. No new historical word-key claim.
+
+qolchedy remains unknown. Next proposed bounded composition trial uses actual
+77r34ZLjoined/ITsplit and joinedwatercontexts81v17/82r2; duplicate-screen before
+launch, no generalprefixrule. Status C0_SOURCE_ANAPHOR_POSSIBLE_REFERENTS_UNRESOLVED.
+Authority:GDT823 WORKING_THEORY/REPORT/src/CONTENT_READING/CANDIDATES.
+Sameauthor separatevalidator6mutations checksaccountingnotsemantics. Scope34visual
+keys39selectors16unused unchanged;0newimagespagesdictionaryconfirmedwordsclauses
+orGDT388scorededges;f84/f84rsealed. Fullreader/sourcepacket hash-bound reused.
+
 ## GDT822 — qokeey physical fire and material-change obligations (2026-09-05)
 
 One C0 whole qokeey=Feuer,physicalfire notheat/heating/warmth/air/water/drug.
