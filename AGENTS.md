@@ -10,6 +10,12 @@ when auditing a claim, correcting the route, or checking for duplicate work,
 not on every turn. `VOYNICH_HANDOFF.md`, `VOYNICH_WORKLOG.md`, and the older
 experiment log/README are recovery archives and may contain superseded claims.
 
+Use `./vmanus-work lookup GDT811` (or the relevant IDs) for compact index
+pointers instead of dumping entire index rows. The efficient operating guide is
+`docs/WORKFLOW.md`. Keep the current route short; replace current summaries
+instead of appending an ever-growing chronology. Add workflow conveniences
+outside hash-bound legacy tools so past experiments remain reproducible.
+
 - Use subagents only when the user explicitly authorizes them; preserve task
   independence where blinding is part of an experiment.
 - Publish every material finding promptly to the public GitHub repository,
