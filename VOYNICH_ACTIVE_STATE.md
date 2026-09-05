@@ -6,6 +6,24 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### GDT832 completed: context helps, full recovery and joint gain fail (2026-09-06)
+
+Public registration8beefeec precedes120 fits and fixed15 selections. FULL
+recovers all8W/all3activeS but21–22/24L:93.33–93.35%heldwords,98.81%characters,
+88.88–88.92%newforms,88.62%newlemmas; all reconstruction floors fail. CUT gets
+0/8W and77.60–77.61%words. FULL gains25.561pp on the fixedmacro/novelform subset
+againstCUT, but0pp againstOFF; REWIRED likewise has the same recovery asFULL.
+Real orderp=.001, pseudo.311/.559/.219. WrongFULLkeys outranktruth by184.4667nats,
+with identical family contributions, so further optimization alone cannot
+make truth preferred. Independent120objective/207390prediction/5994null replay
+passes; scientificstatus CONTROL_RECOVERY_FAIL. Known control boundaries/roles,
+partialattestedfamilyfactor andsharedcontent limit interpretation. No Voynich
+fit/meaning and no post-fit repair or selected successor; GDT616/CDA001 stayclosed.
+Post-result fixed-key audit finds reference0v/0k versus held899v occurrences;
+allFULLmapsv→z and890of920–922worderrors involvev. Reference orthography mismatch
+is an explanation candidate, not an isolated cause or tested normalization fix.
+Primary: `experiments/yolo/gdt832_joint_family_context_control/REPORT.md`.
+
 ### GDT832 independent control prepared (2026-09-06; fits unscored)
 
 User authorizes execution. ITTB reference and UDante Monarchia supply128/325

@@ -3,6 +3,10 @@
 Independent Latin control; no Voynich target fit. See [REPORT.md](REPORT.md),
 [METHOD.md](METHOD.md) and [PREREGISTRATION.md](PREREGISTRATION.md).
 
+Result: **CONTROL_RECOVERY_FAIL**. FULL recovers all eight W and three active S
+values, with 93.33–93.35% held words and 98.81% characters. Context helps;
+the implemented family factor adds no exact recovery. Independent replay passes.
+
 Three key replicates use the same 128 discovery and 325 held Monarchia
 paragraphs, with independent ITTB reference sentences and attested families.
 Four matched arms and a word-shuffled control test exact plaintext recovery.

@@ -4,8 +4,8 @@ Updated: 2026-09-06. Read first.
 ## Current mandate
 
 Latest request (2026-09-05): execute the proposed joint family/context control.
-GDT832 prepares independent historical Latin data and a prospective blind fit;
-see below. No manuscript fit is selected. Root's personal whole-page orientation is
+GDT832 is completed with a failed full-recovery criterion and a positive
+wholeword-context contrast; see below. No manuscript fit is selected. Root's personal whole-page orientation is
 completed and remains part of future work. For that viewing, subagents may
 help with source metadata only; root performs the visual interpretation.
 
@@ -40,23 +40,28 @@ layouts. Source logistics alone were delegated. The observational dossier is
 No new experimental or semantic claim, no new page admission. User's required
 visual understanding remains part of future work; no experiment executed; see the new proposed candidate below.
 
-## Active control — GDT832 joint family/context recovery
+## Completed control — GDT832 recovery fails; context identifies W values
 
 `experiments/yolo/gdt832_joint_family_context_control/REPORT.md`.
-Independent ITTB reference:335601 words and attested co-lemma relations;
-UDante Monarchia:128 discovery/325 held citation-run paragraphs,5336/13826words.
-397 source-family edges,254 reference-supported. Known word/paragraph boundaries
-and L/S/W roles are supplied control information; full historical paradigms and
-unknown Voynich segmentation are not implemented by this first factor model.
+Public preregistration8beefeec precedes120 fits;120 restarts/15 selected keys
+locked before evaluation. On325 held Monarchia paragraphs/13826words, FULL
+recovers8/8W and3/3activeS, but21–22/24L. Words93.33–93.35%,chars98.81%,newforms
+88.88–88.92%,newlemmas88.62% miss all registered floors: CONTROL_RECOVERY_FAIL.
+CUT gets0/8W and77.60–77.61%words; FULL adds25.561pp on fixedmacro/novelform
+subset. OFF/REWIRED have identical recovery toFULL: no added family benefit.
+Real orderp=.001; pseudo.311/.559/.219. WrongFULLkeys score184.4667nats above
+truth; more optimization cannot make truth preferred under this objective.
+Independent replay of120objectives/207390predictions/5994nullscores PASS.
+Post-result aggregate audit: reference has0v/0k, while held has899v occurrences;
+allFULLmapsv→z.890of920–922wrongwordtokens involvev. Consistent with reference
+orthography mismatch, not a tested normalization fix; no rescore or rerun.
 
-Initial pre-key capacity stopped at one nominal suffix absent in both splits.
-Its CAPACITY.json remains unchanged. Explicit pre-fit correction assesses only
-observable rules, analogously to unused letters:24L/3S/8W. No text, deck, split,
-seed or recovery/gain threshold changed; the original gate is not relabeled.
-Independent source recount passes. Prospectively publish code/inputs before
-all120 fits; lock120 restarts/15 selected keys before evaluator key-truth access.
-FULL/CUT/OFF/REWIRED and pseudo controls share candidates and budgets. No fit
-or recovery result yet. The predecessor idea is `docs/joint_reading/PROPOSAL.md`.
+Known boundaries and roles are control information. Only partial attested
+co-lemma relations were tested; no full paradigm generator/unknown segmentation.
+Three keys share one historical content split. Initial pre-key four-mandatory-
+suffix capacity STOP remains unchanged; disclosed pre-fit correction assesses
+observable24L/3S/8W only, keeping source/deck/thresholds fixed. No post-fit rescue.
+No successor fit selected. Predecessor: `docs/joint_reading/PROPOSAL.md`.
 
 GDT616 remains closed. A control pass cannot supply CDA001's missing independent
 text/value evidence or authorize a cached Voynich translation fit. No new page.

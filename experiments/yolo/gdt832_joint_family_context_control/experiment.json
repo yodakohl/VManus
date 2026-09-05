@@ -6,7 +6,7 @@
   "claim_ceiling": "Known control roles and boundaries; incomplete attested families; three key replicates share one source split. No Voynich data, coding-class identification, language, meaning or translation.",
   "commands": {
     "run": "python3 experiments/yolo/gdt832_joint_family_context_control/src/run.py --fit",
-    "validate": "python3 experiments/yolo/gdt832_joint_family_context_control/src/validate.py --check"
+    "validate": "python3 experiments/yolo/gdt832_joint_family_context_control/src/validate.py --data-dir experiments/yolo/gdt832_joint_family_context_control --model-dir experiments/yolo/gdt832_joint_family_context_control/runtime/reference_model --check"
   },
   "created": "2026-09-05",
   "dependencies": [],
@@ -31,12 +31,17 @@
     {
       "path": "experiments/yolo/gdt832_joint_family_context_control/README.md",
       "role": "reproducible_source_or_artifact",
-      "sha256": "08d624f817fc260739f5e84caad793a6b20649460738c273d3c0cd0bc1500173"
+      "sha256": "7d7d75f0c2a89a8dc4e5b23d45aaeaafccd0082cbb879375ef964a1e10f40aa0"
     },
     {
       "path": "experiments/yolo/gdt832_joint_family_context_control/REPORT.md",
       "role": "primary_report",
-      "sha256": "25d7330979147394bbf83ad9d9f58634f3b6db35a1d7b28eb291c73b561c466c"
+      "sha256": "33f98d6419b50957fab343e50d5091e1d7221e5b61080718c3deac3155bc3ea0"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/REPRODUCE.md",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "0ae00555fc13f2d1fffba89344a383fd0dd54bcf338c602a97ac68d71ec31719"
     },
     {
       "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/CAPACITY_VALIDATION.json",
@@ -44,9 +49,714 @@
       "sha256": "48bf03d53b2ef40ce5f5fea8d5fb1f05cb622be747b822ad53fbb47843ac05c8"
     },
     {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/EVALUATION.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "d994fe5e73e37e94adbcba9c8cc624bfc4640f6ad2e63a942ab367e5ac36f004"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/FIT_INPUTS.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "f874262e81949c8f255b88165fb8d8f27aa09452bf3e91317d0f03d0a6745dbe"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/FIT_LOCK.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "5593244dce9ef3548416b1a28b501cf5bdf7937add4a49ff027c732553bbb2cd"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/POST_RESULT_AUDIT.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "7dc7dc11b9563129facf72cb0b3f7c1df25331cb01dfebc6dcfe1dc528eef40a"
+    },
+    {
       "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/README.md",
       "role": "reproducible_source_or_artifact",
       "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/RESULT.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "f5540844747b6e470dc0bd08f6c777355829ea61fb7f3c9d6f8bbc9d3b807a6c"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/VALIDATION.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "7600f8ba4ae882c5a3bbafc8528ae8f68ef27b692b25a1f0cfe5ba898b286c06"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_pseudo_FULL_selected.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "a1bb1b21493ceb50c14eee0e83fb1b89a0f3ce4ff0ac13cd210d4b6924361f23"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_pseudo_FULL_start0.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "a1bb1b21493ceb50c14eee0e83fb1b89a0f3ce4ff0ac13cd210d4b6924361f23"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_pseudo_FULL_start1.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "fe02b281bd52d8dcc1e4531494c4915a0fff8f4ecc91b365e68a86746be564f5"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_pseudo_FULL_start2.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "fd47c2c22422544c84ea7eb980ea27a22ad37d59c8108b8a29f170933bca72bd"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_pseudo_FULL_start3.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "456f48ad833bc926075ff0516ce8dff060e30d75d7645dad75d3cc445954d43a"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_pseudo_FULL_start4.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "210ba47e5b7dd5059af07a6a683037f9b6aab325385abb4bc4fa4e980458d1db"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_pseudo_FULL_start5.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "f24ad0ab965a2efff205578f06efeda48a6a0d26bad03c425cd9c8237d9c4719"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_pseudo_FULL_start6.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "016c02e8c0ff30a0660aeb44606b62938f3453a025f6376670c03c6c1ef26e4c"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_pseudo_FULL_start7.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "c07edf07aa937de892004f1c5fdd473cc8875f0db059fb036c429566290d6c2c"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_real_CUT_selected.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "847561d48aa9dee8a43bc5d79821dacbeb19b9d8ff0dcb03cf64f1d48b0b82bf"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_real_CUT_start0.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "847561d48aa9dee8a43bc5d79821dacbeb19b9d8ff0dcb03cf64f1d48b0b82bf"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_real_CUT_start1.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "16ea60d40585a98bb41ecb97eb0eecc57af8d907334056a6e07ae4e66f829c36"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_real_CUT_start2.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "3490ac254f3ae12cb4237962e10542dc1bc7780609bde0924336e78cabbdec34"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_real_CUT_start3.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "28019fdf5bc21084fbbdc0aedcc3bcc682aec04037c04660073dbfa12c5d402f"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_real_CUT_start4.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "a027160d65002505cc144cdc16d7d45b8731e6dcce8bbbc1e5585bbd9f6b5bab"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_real_CUT_start5.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "ca04fa006095106c9995f389c068310a61442734961bda3e98dbdaa33eeaedce"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_real_CUT_start6.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "4321fbe7784eab47ad4bb3850e26aa20988c279378ced3d8b84f0f784b266f59"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_real_CUT_start7.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "603100834b6798d699c21aa102ced43029c69ff6c9158e32d5c7c5f9cd636099"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_real_FULL_selected.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "df682652b4ccf1e9ddd30890bb5922f8e6ab539d8317c4f1e5ca3253a3d72f7b"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_real_FULL_start0.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "df682652b4ccf1e9ddd30890bb5922f8e6ab539d8317c4f1e5ca3253a3d72f7b"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_real_FULL_start1.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "b7455832ffe5b71ac69ce62705ae55dbf60ae51487027496d6acc649049db49b"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_real_FULL_start2.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "7e47b7b37943bc5f839885bf12b15ee4a360b8a29e09eb6f5cad2b0160474c48"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_real_FULL_start3.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "0bef58e9428bdfcd3aff94d12bfbd62369707b9f7a12c5eaa358443840d22f09"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_real_FULL_start4.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "2547d34af3ed9e752908a52b228bfa50a3ceb0ac8def5c52ad40e9681f1da744"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_real_FULL_start5.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "35b2f6aea7b5a8558be464a736791db70cdde60c7d8db191af92e7324dcc997b"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_real_FULL_start6.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "9e3913960c53184d1af500c7abb127e2ff8977e6d166d20236acc8ddbd20c6bd"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_real_FULL_start7.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "b3c9f3f7fe4ae5e8adacb5e5ae0f4ea620a81f146dbdf523a64fb0a4dc5bf552"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_real_OFF_selected.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "81642c68af7a8993a71c1d87e62467f403dfdd2634d4372dcdc8f8250303c17b"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_real_OFF_start0.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "81642c68af7a8993a71c1d87e62467f403dfdd2634d4372dcdc8f8250303c17b"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_real_OFF_start1.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "b6683eed21e7b67b4c03b2ba7703ba88ffd770fd1692c336c218e02a4e50bf6c"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_real_OFF_start2.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "9f7a5d38d90971e8d7d06139e956be769e556a0c2eb557b4b5cc359ed667e841"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_real_OFF_start3.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "1d15f34d37825d6fe315e105b988b60d9aebdd11ee91efb9a35c7a42e64ab2b0"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_real_OFF_start4.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "735a64fd8f8db0ca5235d2ceecc533fbfb90d0d1cde4d986f06e6d7f83ec9b69"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_real_OFF_start5.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "4dbf1f0e049ea0ecf10a4fa56551228510261f7b48aff264c241246c2458a5a8"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_real_OFF_start6.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "73adc6c12054d7dd8dae8342fec0a662338826cc0f5adfb073861331ababee13"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_real_OFF_start7.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "71e448b60286c5415d7d1ca6642e9252918467cd3dea03531bc12138f19464a4"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_real_REWIRED_selected.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "386ce2c87dce2486e401318446b76b094fd271394fff709d41e3febc6246c3be"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_real_REWIRED_start0.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "386ce2c87dce2486e401318446b76b094fd271394fff709d41e3febc6246c3be"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_real_REWIRED_start1.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "7195d449838f9083b777e0ee79d472614b4ed69b247a2cf433b8127e05c96667"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_real_REWIRED_start2.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "510b4910212c4fe3e92a9e5b679332244c920d846742f8648a6d2f9024a86d70"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_real_REWIRED_start3.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "b6ad8948169944af369738267b7133e5202244ed9dd4ffa3035c6cada3d09b5f"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_real_REWIRED_start4.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "3f1918f13db5bf45b5c832f97f442ea43f323a743fc773eac9421ec4f9eadc4f"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_real_REWIRED_start5.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "283763101b25045ec42bd3cbfbecd5d09937b40919b1e59fd04ed78ebb9e429d"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_real_REWIRED_start6.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "b86cd781c27c69ea7452fac2a4c034bd7e887be09513dd1a9adc0a3c166c7fa3"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83201_real_REWIRED_start7.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "3579ad69412bed460871ae5fb87a19683cd0e8d45a00819ac70048136bb1f89c"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_pseudo_FULL_selected.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "b20991bd52c18f56ca6716d3058edb5fb62ae468910bde5bd48d0a50b124a33c"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_pseudo_FULL_start0.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "b20991bd52c18f56ca6716d3058edb5fb62ae468910bde5bd48d0a50b124a33c"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_pseudo_FULL_start1.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "92304d4713e1a0a1a6606075b5e4ca630d929a45d796841eae53e1116ce5d41c"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_pseudo_FULL_start2.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "d906bff446aba71013c1652d75dcc86de282a6cfb966dde1799960550dbf5e9a"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_pseudo_FULL_start3.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "49636a8a6cffdc7caf59c95515f3c442fe0c00c81266799cd0b8da63db4345e8"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_pseudo_FULL_start4.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "a7163069c9504921f7cde1924f8072bbab32ee632a2cce22b94815c16e58eb66"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_pseudo_FULL_start5.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "c0ac9526592a4ebcde5c94448269c39ca1221dab0e024e8f90c20c4cbf2a7589"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_pseudo_FULL_start6.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "aa86ce6fc697dd83ebf1df0c5e7b3e4a9c85a53e6a4a3a35abccd8ff56e20cf4"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_pseudo_FULL_start7.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "3130f98f5b9ba8a1a675ccbd34fabba27ff458c6588afce60ed5ab2ec6840586"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_real_CUT_selected.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "f4a61dafc2724bf730a00f6d0821fa822eeddd824b62d2178d376528d6899cb0"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_real_CUT_start0.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "f4a61dafc2724bf730a00f6d0821fa822eeddd824b62d2178d376528d6899cb0"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_real_CUT_start1.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "c2e35509e9d6554a8111764b8e94737b4e0b1c797a5428270cc1cc9cc451d22d"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_real_CUT_start2.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "1713a9d68a6731d8f6d55c648b747887e7f4ca37c5e91dea3eb8d7a25098fed0"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_real_CUT_start3.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "5036da8a9a33071a7f93f48d58877b7e1e30d08ff960ef7da903b3389cb033c6"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_real_CUT_start4.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "63621e617567fef44d05e8a4a10996b9ca6ef16d2ac24506b708a11702b19f62"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_real_CUT_start5.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "ef3dd935f4cef6f357c5dd81e38489c8bc527b0625c203e110f114f0f85527bc"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_real_CUT_start6.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "9210dffe5256eedbf536804c0f11b3478fe7bd0cc260176377eda213fa16362e"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_real_CUT_start7.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "8f89ab655280362f5300ff41ba63f881f6d3849d25b5625dae8308cd6fc31af8"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_real_FULL_selected.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "e8da49cc981ecf1b313b26cf5a65ec6a4a7c66d42b0b7b2983c1134f46f0fe26"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_real_FULL_start0.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "e8da49cc981ecf1b313b26cf5a65ec6a4a7c66d42b0b7b2983c1134f46f0fe26"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_real_FULL_start1.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "9ea1b58d11cc87cac2629437d0f585ef8f9af2be116727c95b2e01426af5d915"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_real_FULL_start2.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "fcbe649d7fdf6c8262266160bf2cede405edf18224a3bd9aa8d5649447f986af"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_real_FULL_start3.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "92bd864adcb0afb69cd624afbd06e301b0e2b561a86186bbca6b7ed9c85dc151"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_real_FULL_start4.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "7889a4dca2eef5ff20da0eec1a3c71a8977707faffe748566ae08f11bae45ea2"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_real_FULL_start5.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "5310c6aa7c0ce22db5fec359873ce5867936575bcad4d6c9d90e2496c300795e"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_real_FULL_start6.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "c55200843e6755fe10553dc5b149448dbbb37654ba6cfcb95292e0f77de4cae6"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_real_FULL_start7.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "2f9a356dda4c636dd243435267985c9ac4ba16953896b97e697f73948ddea65b"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_real_OFF_selected.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "552c23b1ad94df43a90d63a84e8f380f8aa7ed98b96a3c66aa1085be38db01dd"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_real_OFF_start0.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "552c23b1ad94df43a90d63a84e8f380f8aa7ed98b96a3c66aa1085be38db01dd"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_real_OFF_start1.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "be25b4f070d509f29eae2d7612ef97e44d424b9ef78ab36ef28719371e0c06f2"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_real_OFF_start2.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "2eb58d67d958bd78763cbef15743dfc9ae89e1867e795ded8fe357ff5d095248"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_real_OFF_start3.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "81917d5ad93c13b53006f7a49462e6ffa474d14ecc40d2cdff94d91ace4c17b1"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_real_OFF_start4.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "e26674273db1021f7b93fbdd82ff94314981ecda2042bbd494737bd8e2386b3d"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_real_OFF_start5.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "eb91592f073bf35ef0b6a180a1c229a23576e87c40ebfeffd07ec542a6841950"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_real_OFF_start6.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "68df7e303121f41c8f55ab5f4f8be5d5f53e8dcfe21848c59288dc1c64a75fe3"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_real_OFF_start7.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "7027471e52f370d3be6e3c8e7a15c98874bed161001db4a926e427aa5ea37c4c"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_real_REWIRED_selected.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "866ecc6ffb6b81490f6f956103d2c25bd5cffdde38f326feef26e4872502f1c4"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_real_REWIRED_start0.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "866ecc6ffb6b81490f6f956103d2c25bd5cffdde38f326feef26e4872502f1c4"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_real_REWIRED_start1.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "7fe92a1dbc03173f7eb78a87aaeae62051c81c427b9abaf705ae66ab5c5e1f05"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_real_REWIRED_start2.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "b59d14bdd7cf83b9cddd93fa9df5d1af3355d3de47974a06d861da85065a2a1b"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_real_REWIRED_start3.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "ad1fbaa19fe58e2ac190853dde910f093c64356640063892a08f846f85194c1a"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_real_REWIRED_start4.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "283f4baafae5553740b55353090acb3a1e6794af77da6c199d853cad757c73ef"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_real_REWIRED_start5.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "898374200dd95aac5173fef7a110d545206f340b2af9feff7baaac3f1a07ca95"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_real_REWIRED_start6.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "318ef7e740b74d6af5eb59c49b8000e9751a7cdb397324a4d5d7c48aa1fec387"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83202_real_REWIRED_start7.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "8dd7e22e5d48bb3c7fda9c5c2f2ebcdc414348a93c1b1164fd50bf4008cabce1"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_pseudo_FULL_selected.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "b9b678caa0d47556962fcacffb1db942d24e1948a03b22d2d6a7868191297b8f"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_pseudo_FULL_start0.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "b9b678caa0d47556962fcacffb1db942d24e1948a03b22d2d6a7868191297b8f"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_pseudo_FULL_start1.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "ecb202a9c7b244b81df149458015605bbfa3da6da4f48c7c20e3ddc8b3523628"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_pseudo_FULL_start2.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "1616342eec014daa58a3571f95a39cc2172d7a98fe88b33ccca2639374a97f2c"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_pseudo_FULL_start3.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "766c381857da6f40f90af8c76cdd7187a776f67cec285d6bfe5ed8eb4c882ea1"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_pseudo_FULL_start4.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "106994b8a52e89f49b0a8ba91176649735582635f3f6940deaea2bb6723b53ec"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_pseudo_FULL_start5.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "e3d10d7b5b0186c4d19f8771ab7f327cff9474f97b6e0b9d9e52fe0b550a67bd"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_pseudo_FULL_start6.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "4da415898300b2add3cc92b7fba62a199b246663eea9a184140cedcc6e7297df"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_pseudo_FULL_start7.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "a0517ebd292cbea3314746b3f96a93023b1dc4e8822f7bfe412a80e3a95f5218"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_real_CUT_selected.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "3d23e1f162d4bb7a6c9cbed60c656c6343fef311938376678a7b111af763ae3f"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_real_CUT_start0.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "3d23e1f162d4bb7a6c9cbed60c656c6343fef311938376678a7b111af763ae3f"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_real_CUT_start1.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "f7a78a7ce14d3706c896e02449b15f0ed924840d97ead36274429ac5b3a73cc4"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_real_CUT_start2.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "aba76e7e0896eb1a5c0108d7e336ed4d3171673a7c698a490172c5c5493c8041"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_real_CUT_start3.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "6ec262dc0ccd821535e325cdbdeecc5800ff9eefd0c2e711228101ba130b6b8e"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_real_CUT_start4.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "af022512b99f3ca1b2760de2e3cc22ad15248ede531d5452642e30bca18070df"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_real_CUT_start5.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "2addc67808f95db5fe676244157f1bdd1557521ef47f140a3df9c239eb28dc30"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_real_CUT_start6.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "bc940be55e35ef82cd78344ed3c8208e9432ceb8dd8f2c8b001fdc1853e782f2"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_real_CUT_start7.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "97f7c17914c68d41a613b422d31a8b86c7a3ca20799fbdb385c39ee6bf8e1230"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_real_FULL_selected.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "e1ed1029d688d04c95bed35899f7010839c77c50d28261c6459a166cab883752"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_real_FULL_start0.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "e1ed1029d688d04c95bed35899f7010839c77c50d28261c6459a166cab883752"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_real_FULL_start1.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "188ecdd8d2ac45cb642295d9f4ae00105474e31da72b704baedd4724232999fa"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_real_FULL_start2.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "cb6c24b3929db1765b6fcfdaec95305c652ead89d328d29b9b653ea6b5280d44"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_real_FULL_start3.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "daac22d8d9331cb16a90ad926bfa2a96cb6bb2b2e308468edcded0445a939dcd"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_real_FULL_start4.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "6ed7f5a39c77221c32d35e443332c8e93340d18365c02c512911b28d065190a2"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_real_FULL_start5.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "38d59b704f58c4566a735ef4af9af843878fba02fce69de98cac40bc31a91df2"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_real_FULL_start6.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "9275acd1e8a018d6961a480d850239a526a81ef436c7cce4bc808ccf093dd765"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_real_FULL_start7.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "146210152768209ca290c7728f65a0c97b9045d582ea6a26f1e9fe4788c9ec8f"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_real_OFF_selected.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "05ab76cb6864c8836f101ac72f2b8daadec9ff45edd43e1c0653dec706facc77"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_real_OFF_start0.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "05ab76cb6864c8836f101ac72f2b8daadec9ff45edd43e1c0653dec706facc77"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_real_OFF_start1.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "463b731a15339ab04c47b30423f44d8c12a026f91010150011962a98304c42de"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_real_OFF_start2.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "3ed5a530989985c9783a1de0450ad73f99d85d9d1a2550ad0b85bd5ded5d130f"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_real_OFF_start3.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "6b20daa269ffa0af2c690f65ceae5114e507e15b7deabcafc7de52d1cd374217"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_real_OFF_start4.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "186cf48d725d8fcbc348b75a380f3b0c04197609b8dea24b595852e7849ac3b8"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_real_OFF_start5.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "a902ddec81ca2501413d2e0ff221745ead7f919fd7088d92b619b8c308783873"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_real_OFF_start6.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "ad18f0a0f024ead296078f552efb30b14f6809e9c53e1bda69fc92dee3199e67"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_real_OFF_start7.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "186c661cee764e4aad930a8d5e7d64865b0a5cb21c4099e49c8c98003ba1c86d"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_real_REWIRED_selected.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "cc9b1bb81e03042c8b0f7a1082355bf6f5901699771c69707abfc7fed353b783"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_real_REWIRED_start0.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "cc9b1bb81e03042c8b0f7a1082355bf6f5901699771c69707abfc7fed353b783"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_real_REWIRED_start1.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "3fb09cb6eedc3e2953960e87d9d5dee3fa3197f7876f6b86fa942bdbbf0e38b8"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_real_REWIRED_start2.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "c37978c9d03cb39eef93d8bb6efa9487fb0e81c7fb5fbbf05968372aa6f75c64"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_real_REWIRED_start3.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "9b113e6eb72dfdd0d4ee647b6497d4dbf683d330a3a5263581835427dce2c9ce"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_real_REWIRED_start4.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "77ccc7a3031e9898ee73f3f1f33cca16bed0e078f3823804482c312c7c6d494e"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_real_REWIRED_start5.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "310a2961c3293e3cc9210da0889d89f387137a839deb3202688b7909c08eaa5f"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_real_REWIRED_start6.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "de78682af81b509771068e8e04db391624853d01231e7fee3f44e4a14e373f23"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/artifacts/fits/world_83203_real_REWIRED_start7.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "20db98f555acc405e28032a0d927fc150e50a7e2e334f7c215a341ae63922bca"
     },
     {
       "path": "experiments/yolo/gdt832_joint_family_context_control/prepared/ACTIVE_RULE_CAPACITY.json",
@@ -144,6 +854,26 @@
       "sha256": "85bfc9b328612e05f66e341943c73944f6824cfeb1e9f655590afdf70d91e133"
     },
     {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/sealed/source_truth.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "f8cc67aef43281f1fb9ee913230f464d49ecd5f7e028fd7a0360cb1c22090984"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/sealed/world_83201_truth.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "618220a5bec5bd9575b4f6e97b0d0a22456dc40b4b1b84c5da9c9e447c022069"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/sealed/world_83202_truth.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "51b6b8b2bd0a081bc0dae47416ada0a42a3e7cca446626edc4a96458dd011a00"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/sealed/world_83203_truth.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "daf9ea468f056c6249bbd4ff93c150bcc2282c9808327fb95065521566760c95"
+    },
+    {
       "path": "experiments/yolo/gdt832_joint_family_context_control/sources/MANIFEST.json",
       "role": "reproducible_source_or_artifact",
       "sha256": "61bd2d3610ae0e59abaa83507aa6245fa29eb95b2f67ecfc067eadc7154a375d"
@@ -204,6 +934,11 @@
       "sha256": "79c3ba430529ee9e3c7febde013e63d642906fdd24304af7f04122aa0fa77a59"
     },
     {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/src/post_result_audit.py",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "5e521803d3b46daa9be8648e99757a3f7b6ae65661247c338f9fcf212d02321a"
+    },
+    {
       "path": "experiments/yolo/gdt832_joint_family_context_control/src/prepare.py",
       "role": "reproducible_source_or_artifact",
       "sha256": "a8ca27308ab3f1fbeda1eef756c71081b602020b8b59350ba8661efd79536b77"
@@ -217,6 +952,11 @@
       "path": "experiments/yolo/gdt832_joint_family_context_control/src/run.py",
       "role": "reproducible_source_or_artifact",
       "sha256": "091fd0ad0702c0ddcd3c4f0bd2a10726f8ebe3ace03d4c6a83fe9c3fcfbae55e"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/src/summarize.py",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "fea06d28cd768b43a8cbbf733f5f4310e18547139ff332ea145364b85b2cd25f"
     },
     {
       "path": "experiments/yolo/gdt832_joint_family_context_control/src/test_decoder.py",
@@ -241,11 +981,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "joint_family_context_control",
-  "status": "REGISTERED_UNSCORED",
+  "status": "CONTROL_RECOVERY_FAIL",
   "title": "Joint historical family and continuous-context blind recovery control",
   "updated": "2026-09-06",
   "validation": {
-    "artifact": "experiments/yolo/gdt832_joint_family_context_control/artifacts/CAPACITY_VALIDATION.json",
+    "artifact": "experiments/yolo/gdt832_joint_family_context_control/artifacts/VALIDATION.json",
     "status": "PASS"
   }
 }
