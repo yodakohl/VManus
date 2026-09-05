@@ -22032,3 +22032,33 @@ old GDT626/GDT686 wording to that effect is too strong. It does not license
 generic action prose. No new admission, dictionary change or confirmed word.
 Next: fixed family hypotheses plus concrete content heads in f17r.7–12,
 not another isolated daiin refinement. Authority: GDT812 src/FAMILY_SYNTHESIS.md.
+
+## GDT813 — fixed concrete heads, label/prose transfer (2026-09-05)
+
+GDT812 family A remains unchanged. Two new C0 local trials share otchol=this?,
+cthar=root?, chol=dry?; okaiin alone differs between powder? and is?. These
+replace old cold-dry/hot-III defaults only inside the trial, not the dictionary.
+The conditional five-word line gives either a very dry root powder (nominal
+predication) or a root explicitly said to be very dry. The rest of f17r.7–12
+is not translated. All13 f17r loci and all ANY-reader exact targets across39
+admitted selectors produce54 complete loci and324 literal model/reader rows;
+these are displays, not324 independent experiments or complete external paragraphs.
+
+The correctly sourced manual f88v.14 view confirms a standalone okaiin
+inscription, not prose continuation. This increases the cost of a fixed
+copula-only account and gives a content-term question practical priority.
+It identifies neither a noun nor powder; the visible plant fragment has
+leaves, no unique caption owner or powder pile. The G-friendly f88r.22 remains.
+f32v.8 otchol daiin daiin requires a pronominal/anaphoric quantity account for
+the shared demonstrative, not a hidden noun or restored cold-dry gloss.
+f1r.2 repeated cthar remains repeated and unexplained. No cth/root component.
+
+Historical part/substance-plus-reference constructions are attested but not
+aligned to the five Voynich words. Dry humoral quality, dried state and drying
+action remain distinct; even water can have the first, so no powder follows.
+All meanings remain C0. Independent checks validate source conservation only;
+one cross-page/unsealed relation packet has zero eligible GDT388 edges.
+No new admission, dictionary change, confirmed lexeme or plaintext clause.
+Next: compare concrete substance/part, property and reference identities across
+the label AND prose construction without changing the family or omitting radial
+uses. Authority: experiments/yolo/gdt813_f17_content_word_transfer/WORKING_THEORY.md.

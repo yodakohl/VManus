@@ -1,0 +1,228 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Standalone okaiin inscription gives content-term research priority over pure copula, not powder/root/POS identity. All mappings C0. Source conservation only; no new admission, dictionary change or confirmed translation. External contexts are complete loci, not complete paragraphs.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt813_f17_content_word_transfer/src/run.py",
+    "validate": "python3 experiments/yolo/gdt813_f17_content_word_transfer/src/validate.py --check"
+  },
+  "created": "2026-09-05",
+  "dependencies": [
+    "GDT628",
+    "GDT791",
+    "GDT809",
+    "GDT811",
+    "GDT812"
+  ],
+  "experiment_id": "GDT813",
+  "inputs": [
+    {
+      "path": "transcription/voynich_zl3b_lines.tsv",
+      "role": "source_or_guard_or_prior_hypothesis",
+      "sha256": "7520dd4c11f4d23c8492e4b2a52cc0fcbda6d9fc88a96ead8f1c31081a4d7ed2"
+    },
+    {
+      "path": "transcription/voynich_cross_transcription_lines.tsv",
+      "role": "source_or_guard_or_prior_hypothesis",
+      "sha256": "ff3a4559004a29764c60102326de154b29fbba06a2a206bdd76d7feda432e16c"
+    },
+    {
+      "path": "vmanus-exp",
+      "role": "source_or_guard_or_prior_hypothesis",
+      "sha256": "53b69eec8412b54d1248fd52d91c06e0eabc7f436b9015d0cfdb0746606c1528"
+    },
+    {
+      "path": "tools/vmanus_exp_cli.py",
+      "role": "source_or_guard_or_prior_hypothesis",
+      "sha256": "67af0295b7f1282062981331982d893091532d07acbd986ed744ce9076b6b5dd"
+    },
+    {
+      "path": "tools/vmanus_experiment.py",
+      "role": "source_or_guard_or_prior_hypothesis",
+      "sha256": "0b84a5503f8d4aa2e1d23c449da1cd1b2d2059f4d7f74727c6b899928e59cce2"
+    },
+    {
+      "path": "tools/relation_edge_intake.py",
+      "role": "source_or_guard_or_prior_hypothesis",
+      "sha256": "fb8447470aa81ed608b90aedf7478893ddf6a445351aa12ab23c6fd725be3a47"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/src/PAGE_SELECTOR_SPECS.tsv",
+      "role": "source_or_guard_or_prior_hypothesis",
+      "sha256": "69e5463f7ce6c22bd83fe35e4fdc0601731a3c470b5c510a15ac3befa1716bae"
+    },
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/src/PAGE_ADMISSIONS.tsv",
+      "role": "source_or_guard_or_prior_hypothesis",
+      "sha256": "1636a5868a86fca239156772119d41cca52ec8044b616f3110507289452fab0b"
+    },
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/src/family_probe.py",
+      "role": "source_or_guard_or_prior_hypothesis",
+      "sha256": "20674c29aaed02d1c97c8f31e82e120b0679e4e6ee60e4b68d67f17229d7fdac"
+    },
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/src/FAMILY_SYNTHESIS.md",
+      "role": "source_or_guard_or_prior_hypothesis",
+      "sha256": "1d9e8d208cf0a97e12eb89fc6c27b09e6d02fd678437923128b9b616ef376d33"
+    },
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/artifacts/FAMILY_CONTEXTS.json",
+      "role": "source_or_guard_or_prior_hypothesis",
+      "sha256": "f38b71a1f2dcdd5daf2d1190e79e2027d869b97bcb85e81e746746d4a69e66dd"
+    },
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/src/F72R_SOURCE_CORRECTION.md",
+      "role": "source_or_guard_or_prior_hypothesis",
+      "sha256": "bdd7b13c8a6af191cec59791979dc3e0849c172a9fdf1bb551e6ca0359d42e7e"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/artifacts/FOUR_PAGE_LINES.tsv",
+      "role": "source_or_guard_or_prior_hypothesis",
+      "sha256": "da98294db9562988e6ea70f37b71e84db8f0335895620c6765072068ae179bf0"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/src/VISUAL_SOURCES.tsv",
+      "role": "source_or_guard_or_prior_hypothesis",
+      "sha256": "1c3e898e02bb456812a0d9b1420e3a1bd2d7f909bada36caf3fc55d9e5866cd6"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/src/F17_SCOPE_PROPOSAL.md",
+      "role": "source_or_guard_or_prior_hypothesis",
+      "sha256": "d9490d95ad84e6a7b7134f3ffc880015f914c3b98f896eea907defa044d7967d"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/WORKING_THEORY.md",
+      "role": "source_or_guard_or_prior_hypothesis",
+      "sha256": "706bb1aa3b6782fcc67d43348a6ac4c54f95e25cb409ccc5440455bb4f8b18ea"
+    },
+    {
+      "path": "experiments/yolo/gdt628_chol_measure_frame/REPORT.md",
+      "role": "source_or_guard_or_prior_hypothesis",
+      "sha256": "c66cdf8f4c7766ec1f32a9f2eeae1bf599fff95386c2f93fa71733cd1f279264"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt813_f17_content_word_transfer/METHOD.md",
+      "role": "implementation_or_manual_source",
+      "sha256": "35eaf88b4c055c7787ee6ed74f9f94ca997487e84c5b34245f06fdb858d0443f"
+    },
+    {
+      "path": "experiments/yolo/gdt813_f17_content_word_transfer/PREREGISTRATION.md",
+      "role": "implementation_or_manual_source",
+      "sha256": "39f2c08f133bac6f9995be8028f3eb39a1b2d1bacb0cb7a12db5aa784f6dad90"
+    },
+    {
+      "path": "experiments/yolo/gdt813_f17_content_word_transfer/README.md",
+      "role": "implementation_or_manual_source",
+      "sha256": "f7ef2b128b85aecab8b1055a1171f3f60915a2d4169e2b42fa297eec7a344b58"
+    },
+    {
+      "path": "experiments/yolo/gdt813_f17_content_word_transfer/REPORT.md",
+      "role": "implementation_or_manual_source",
+      "sha256": "d945b7e02bb21be92767a7f12eb2e7597eebfac7647d19bdbd08f55d00e4d92e"
+    },
+    {
+      "path": "experiments/yolo/gdt813_f17_content_word_transfer/WORKING_THEORY.md",
+      "role": "implementation_or_manual_source",
+      "sha256": "890c791cd38c5dce48773957fd2e8fe53935b9674747a38ef9d1196ace1db9d3"
+    },
+    {
+      "path": "experiments/yolo/gdt813_f17_content_word_transfer/artifacts/CONTEXTS.tsv",
+      "role": "compact_result",
+      "sha256": "5ac8b7b33fe6649d6ab2aab1e4eee4d30442ab44bb2c7894d0062aa95027e7ce"
+    },
+    {
+      "path": "experiments/yolo/gdt813_f17_content_word_transfer/artifacts/EDGE_GATE.json",
+      "role": "compact_result",
+      "sha256": "17c0fad3b92b0567836dbd5406a14525801be4b4ea6b60d3d013ab7d74d36ac8"
+    },
+    {
+      "path": "experiments/yolo/gdt813_f17_content_word_transfer/artifacts/LITERAL_TRIALS.tsv",
+      "role": "compact_result",
+      "sha256": "aa797c6995f5610211847ba7983cecfb9d6ae9c9f4c04865caaf730f0a95c178"
+    },
+    {
+      "path": "experiments/yolo/gdt813_f17_content_word_transfer/artifacts/README.md",
+      "role": "compact_result",
+      "sha256": "a770cc4fe055133d6228df9ee502695e07ae7a60e960e4cb873ffdb969d31fee"
+    },
+    {
+      "path": "experiments/yolo/gdt813_f17_content_word_transfer/artifacts/RESULT.json",
+      "role": "compact_result",
+      "sha256": "c22da1f51cdaba6b82754ca5cfc6e853b0d9e034091d9a84282e3e93e9896d6c"
+    },
+    {
+      "path": "experiments/yolo/gdt813_f17_content_word_transfer/artifacts/VALIDATION.json",
+      "role": "compact_result",
+      "sha256": "222be21fdfadaad85b4e9d806e9567f1c7c005d428f3d92eeff6ca5807bec0e7"
+    },
+    {
+      "path": "experiments/yolo/gdt813_f17_content_word_transfer/src/F17_CONTENT_MODELS.md",
+      "role": "implementation_or_manual_source",
+      "sha256": "145c0faa653aec8a914e477a9d6124078cc86655e2a14fa260d63fff158e483b"
+    },
+    {
+      "path": "experiments/yolo/gdt813_f17_content_word_transfer/src/F17_CONTENT_VISUAL.md",
+      "role": "implementation_or_manual_source",
+      "sha256": "2a89f1aee99fdc8c1f9d322ea6ebb476869d36b372f3789954db3baa2a482b42"
+    },
+    {
+      "path": "experiments/yolo/gdt813_f17_content_word_transfer/src/F17_HISTORICAL_CONSTRUCTIONS.md",
+      "role": "implementation_or_manual_source",
+      "sha256": "255ea61092e08f0920e64f0d51c20654a4c0eba46f7443709d5834c21e5cb1b3"
+    },
+    {
+      "path": "experiments/yolo/gdt813_f17_content_word_transfer/src/HYPOTHESES.tsv",
+      "role": "implementation_or_manual_source",
+      "sha256": "cd36e4e21bdcea15edca2066a12d90169e58f460fa18a3987be18b62626f863f"
+    },
+    {
+      "path": "experiments/yolo/gdt813_f17_content_word_transfer/src/LABEL_CONTEXT_PACKET.tsv",
+      "role": "implementation_or_manual_source",
+      "sha256": "59e42fa8d353821d6da60c3f2b3bbfdc7e839e4081ece526b86b351350d855af"
+    },
+    {
+      "path": "experiments/yolo/gdt813_f17_content_word_transfer/src/OKAIIN_LABEL_VISUAL.md",
+      "role": "implementation_or_manual_source",
+      "sha256": "85f52c836b020e5a45c27b0d2449c38e5f2ab88d9e7dd52a5f1f0da593056914"
+    },
+    {
+      "path": "experiments/yolo/gdt813_f17_content_word_transfer/src/SOURCE_REGISTER.tsv",
+      "role": "implementation_or_manual_source",
+      "sha256": "53f14d765e4d846f573040a10d9f600f6080b9e4dc52b780a5a45c8317a2af58"
+    },
+    {
+      "path": "experiments/yolo/gdt813_f17_content_word_transfer/src/SPEC.json",
+      "role": "implementation_or_manual_source",
+      "sha256": "4e026756f6adc0845250aaf271e525f6dcb02b07e33adc3b46eefd21adf36263"
+    },
+    {
+      "path": "experiments/yolo/gdt813_f17_content_word_transfer/src/run.py",
+      "role": "implementation_or_manual_source",
+      "sha256": "833ac85ef0677b27c2a51dd01072894eac8f46b69d0c0b9041b3d73aabc7872e"
+    },
+    {
+      "path": "experiments/yolo/gdt813_f17_content_word_transfer/src/validate.py",
+      "role": "implementation_or_manual_source",
+      "sha256": "27dc6c095d7fd1a6fa45902b51b4e346bf8d25999db18c70b95442407378f7b5"
+    }
+  ],
+  "question": "Can fixed root-powder versus root-is readings explain the complete f17r paragraph and admitted exact-word contexts without changing the scalar family?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "f17_content_word_transfer",
+  "status": "C0_CONTENT_ROLE_PRIORITY_NO_TRANSLATION",
+  "title": "Fixed f17r content-word alternatives across admitted labels and prose",
+  "updated": "2026-09-05",
+  "validation": {
+    "artifact": "experiments/yolo/gdt813_f17_content_word_transfer/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}
