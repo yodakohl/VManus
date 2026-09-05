@@ -6,6 +6,17 @@ Updated: 2026-09-05. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### Proposed next step after visual orientation (2026-09-05; unexecuted)
+
+Recommend source-verified direct l/m geometry on same-page complete bodies,
+first testing only a horizontal space-saving prerequisite. No widths measured,
+new experiment registered, meanings equated or old mask/context gate reopened.
+The visually tempting local-label/prose and f66r-column routes are already
+represented in prior work; f66r's detailed old primary report is unavailable
+in the targeted recovery, so only its recorded scope is cited.
+Primary: `docs/visual_overview/NEXT_STEP.md`.
+
+
 ### User clarification and root visual orientation (2026-09-05)
 
 User wanted root's own native-vision understanding of whole manuscript pages,
