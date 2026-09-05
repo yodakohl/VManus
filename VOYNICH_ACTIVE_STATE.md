@@ -6,6 +6,15 @@ Updated: 2026-09-05. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### Proposed cross-gap follow-up (2026-09-05; no execution)
+
+A source-native association test at definite internal gaps is proposed in
+`docs/NEXT_BOUNDARY_PROPOSAL.md`. It separates adjacency from measured line
+position and does not need GDT829's long repeats. Exact null and mobility gates
+remain to be registered. Published external edge-order results are not adopted
+as new independent evidence. The GDT605 inventory is learned under supplied
+collapses/merge budget, not a recovered authorial alphabet. No new data or fit.
+
 ### GDT829 repeated-context capacity stop (2026-09-05)
 
 The authorized fixed 12-atom-flank/full-masked-body census is complete. Its

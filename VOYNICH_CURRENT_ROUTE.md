@@ -24,6 +24,17 @@ or admit more pages to rescue it. No replacement attack is selected. A new
 route needs a distinct predeclared discriminator or genuinely new comparison
 data and the usual targeted duplicate review. No cipher/language selected.
 
+## Proposed next question — not executed
+
+`docs/NEXT_BOUNDARY_PROPOSAL.md` proposes a source-group cross-gap association
+check with position-preserving comparisons. Primary: definite internal gaps;
+uncertain gaps separately. It needs no long literal repeats. The exact null,
+donor mobility and effect thresholds must be frozen before any target score.
+No 98-unit alphabet, language, grammar or cipher is assumed. The August2026
+Rozanova/Temerev preprint and its within-line shuffle code motivate a stricter
+conditional claim; its published results are not independently replicated here.
+No replacement experiment has been run; GDT829's stopping rule remains intact.
+
 ## Understanding basis and limits
 
 Reconstruct the major research phases and why they changed. Use index metadata
