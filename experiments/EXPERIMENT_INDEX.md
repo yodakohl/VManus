@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **807**
-- Experiment-associated tracked files: **14,512** (1.3 GiB)
+- Experiment-associated tracked files: **14,539** (1.3 GiB)
 - Structured GDT337+ experiments: **472**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT808 | GDT808_prebuild_validator_decision_parity | `REGISTERED_CORRECTION__PROVISIONAL_RANK_GATE_EXACT__ZERO_SCORE_ACCESS` | [report](../experiments/yolo/gdt808_exact_relation_slot_residual_bridge/METHOD.md) | 18 | 356.4 KiB | 14 | STRUCTURED_YOLO |
+| GDT808 | GDT808_exact_relation_slot_residual_bridge | `COMPLETE__L_AND_DY_PORTABLE_RECORD_OR_FORM__TWO_DISTINCT_OR_AXIS_BOUND_RELATIONS__R06_RECORD_CHANNEL_LEADS__ZERO_LEXEMES` | [report](../experiments/yolo/gdt808_exact_relation_slot_residual_bridge/REPORT.md) | 45 | 5.2 MiB | 14 | STRUCTURED_YOLO |
 | GDT807 | GDT807_target_masked_paragraph_exchange_codebook | `COMPLETE__0_ROBUST__3_PROVISIONAL__0_NO_SPLIT__ZERO_SEMANTIC_PROMOTION` | [report](../experiments/yolo/gdt807_target_masked_paragraph_exchange_codebook/REPORT.md) | 36 | 2.3 MiB | 8 | STRUCTURED_YOLO |
 | GDT806 | GDT806_three_channel_whole_context_replication | `PASS__652_GLOBAL__577_RESIDUAL__967_TARGET_EVENTS__0_CONDITIONAL__0_CROSS_DENOMINATOR__6_UNRESOLVED__0_NEW_ROLES__ZERO_LEXEMES` | [report](../experiments/yolo/gdt806_three_channel_whole_context_replication/REPORT.md) | 32 | 1.7 MiB | 12 | STRUCTURED_YOLO |
 | GDT805 | GDT805_eleven_whole_context_role_discriminator | `PARTIAL__1086_EXTERNAL_EVENTS__916_TARGET_TOKEN_STABLE__131_GDT739_SURFACES_AUDITED__75_PRIMARY_SURFACE_PROJECTIONS__21_K12_PROFILE_LEADS__2_DOMINATE_ALL_K12__7_REAL_TWO_SIDED_MULTIFOLIO_FRAMES__0_NEW_ROLE_SELECTIONS__2_PRIORS_RETAINED__ZERO_LEXEMES` | [report](../experiments/yolo/gdt805_eleven_whole_context_role_discriminator/REPORT.md) | 27 | 867.8 KiB | 14 | STRUCTURED_YOLO |

@@ -21824,3 +21824,40 @@ exports, renderer licences or semantic promotions.
 
 Primary report:
 `experiments/yolo/gdt807_target_masked_paragraph_exchange_codebook/REPORT.md`.
+
+## GDT808 exact relation rectangle
+
+GDT808 reconstructs 1,777 exact CORE13 `Xol/Xeol/Xedy/Xeody` events on 559
+strict paragraphs, 1,403 focal lines and 169 physical folios.  The eight
+models produce 7,970 predictions in 4,538 carrier-and-folio-held folds.
+
+Both within-axis contrasts are portable as record/form relations, not as local
+operators.  L has nuisance/augmented carrier-macro AUC .611534/.617142,
+local gain .005609, target-null rank 4/25 and portability rank 3/13.  DY has
+.753049/.769903, gain .016854, ranks 1/25 and 1/13.  Both gains miss the fixed
+.02 local gate.  Cross-axis augmented AUC is .398734 L-to-DY and .450339
+DY-to-L; the registered result is `TWO_DISTINCT_OR_AXIS_BOUND_RELATIONS`.
+GDT808 licenses no shared `e`, `o`, `ol` or `edy` meaning.
+
+The historical working-rival ranking puts `R06_RECORD_CHANNEL` first with six
+points, ahead of `R04_PART_OR_FORM_SCOPE` and
+`R05_GROUP_DOSE_OR_UNIT_VALUE` with four each.  DY-expanded has a sparse
+positive amount contact (log OR 2.696916; four folios); L-expanded is
+depleted at the broader part/form contact (log OR -0.941325; 48 folios).
+Quality/value has zero clean contacts.  These are orientation leads, not
+lexemes.
+
+The independent validator passes 34 full reconstruction and value-comparison
+blocks, including all events, decks, scores, nulls, controls, contacts and
+artifact hashes.  All 19 GDT388 relations fail only because the accessed
+formal text is not sealed visual evidence.
+
+The live next route is the record-conditioned exact-whole HEAD-PIVOT.  Reuse
+heads from `H daiin` and the GDT760 measured phrases across their other exact
+occurrences; keep L and DY separate; join same-head record, image/label and
+paragraph evidence; then rank concrete historical behavior profiles for
+liquids, salt/drug, plant parts, operations and vessels.  Neither EVA spelling
+nor an inherited German gloss is a feature.
+
+Primary report:
+`experiments/yolo/gdt808_exact_relation_slot_residual_bridge/REPORT.md`.
