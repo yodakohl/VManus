@@ -1,0 +1,306 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Preserve four complete pages and compare concrete content models, exact label reuse and two disclosed reference/scope inventories. No translated manuscript, confirmed lexeme, component value, new page or dictionary change.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt811_four_page_content_synthesis/src/run.py",
+    "validate": "python3 experiments/yolo/gdt811_four_page_content_synthesis/src/validate.py"
+  },
+  "created": "2026-09-05",
+  "dependencies": [
+    "GDT388",
+    "GDT460",
+    "GDT628",
+    "GDT631",
+    "GDT748",
+    "GDT784",
+    "GDT790",
+    "GDT791",
+    "GDT792",
+    "GDT794",
+    "GDT795",
+    "GDT809",
+    "GDT810"
+  ],
+  "experiment_id": "GDT811",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/METHOD.md",
+      "role": "disclosed design, source or inherited report; raw tables guarded before row materialization",
+      "sha256": "254a3681ceec95b2e076de5dff4736a4b1a5d8701effa26893d4debb1d8f8ef5"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/PREREGISTRATION.md",
+      "role": "disclosed design, source or inherited report; raw tables guarded before row materialization",
+      "sha256": "4ffda15aacde4a1ae031f3b3b68e94d80612c1aa6ae793a9369544dc609a851e"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/src/SPEC.json",
+      "role": "disclosed design, source or inherited report; raw tables guarded before row materialization",
+      "sha256": "9e5433b59bd169aa538bb3044ea01747c25d77e268a9e5f2e03e8f3ca199ad56"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/src/REFERENCE_DESIGN.md",
+      "role": "disclosed design, source or inherited report; raw tables guarded before row materialization",
+      "sha256": "2b4d7d7a32c529e8772250d1e3cd695933a6a9d5cbf39039a277122fb9e1e2b7"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/src/F17_SCOPE_PROPOSAL.md",
+      "role": "disclosed design, source or inherited report; raw tables guarded before row materialization",
+      "sha256": "d9490d95ad84e6a7b7134f3ffc880015f914c3b98f896eea907defa044d7967d"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/src/F77_HISTORICAL_READING.md",
+      "role": "disclosed design, source or inherited report; raw tables guarded before row materialization",
+      "sha256": "9c828026face38dd1d295597b5d7c0202bcfb44aca525cfb1851d2d6811cf5df"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/src/VISUAL_SOURCES.tsv",
+      "role": "disclosed design, source or inherited report; raw tables guarded before row materialization",
+      "sha256": "1c3e898e02bb456812a0d9b1420e3a1bd2d7f909bada36caf3fc55d9e5866cd6"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "role": "disclosed design, source or inherited report; raw tables guarded before row materialization",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/src/PAGE_SELECTOR_SPECS.tsv",
+      "role": "disclosed design, source or inherited report; raw tables guarded before row materialization",
+      "sha256": "69e5463f7ce6c22bd83fe35e4fdc0601731a3c470b5c510a15ac3befa1716bae"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/artifacts/GDT791_1007_LINE_OWNER_ATLAS.tsv",
+      "role": "disclosed design, source or inherited report; raw tables guarded before row materialization",
+      "sha256": "5ef9ef2a3ddf294aa9b57a459f0669e1aab7f38c4546f3914bd28e6fbac3378f"
+    },
+    {
+      "path": "transcription/voynich_zl3b_lines.tsv",
+      "role": "disclosed design, source or inherited report; raw tables guarded before row materialization",
+      "sha256": "7520dd4c11f4d23c8492e4b2a52cc0fcbda6d9fc88a96ead8f1c31081a4d7ed2"
+    },
+    {
+      "path": "transcription/voynich_cross_transcription_lines.tsv",
+      "role": "disclosed design, source or inherited report; raw tables guarded before row materialization",
+      "sha256": "ff3a4559004a29764c60102326de154b29fbba06a2a206bdd76d7feda432e16c"
+    },
+    {
+      "path": "vmanus-exp",
+      "role": "disclosed design, source or inherited report; raw tables guarded before row materialization",
+      "sha256": "53b69eec8412b54d1248fd52d91c06e0eabc7f436b9015d0cfdb0746606c1528"
+    },
+    {
+      "path": "tools/vmanus_exp_cli.py",
+      "role": "disclosed design, source or inherited report; raw tables guarded before row materialization",
+      "sha256": "67af0295b7f1282062981331982d893091532d07acbd986ed744ce9076b6b5dd"
+    },
+    {
+      "path": "tools/guarded_tsv_query.py",
+      "role": "disclosed design, source or inherited report; raw tables guarded before row materialization",
+      "sha256": "eeb8f325b3f7b10ad94eef4907d2d3baaa20bb1b81a9aa36782f96c9008551e3"
+    },
+    {
+      "path": "tools/relation_edge_intake.py",
+      "role": "disclosed design, source or inherited report; raw tables guarded before row materialization",
+      "sha256": "fb8447470aa81ed608b90aedf7478893ddf6a445351aa12ab23c6fd725be3a47"
+    },
+    {
+      "path": "tools/vmanus_experiment.py",
+      "role": "disclosed design, source or inherited report; raw tables guarded before row materialization",
+      "sha256": "0b84a5503f8d4aa2e1d23c449da1cd1b2d2059f4d7f74727c6b899928e59cce2"
+    },
+    {
+      "path": "experiments/yolo/gdt460_learned_label_edge_stem_atlas/REPORT.md",
+      "role": "disclosed design, source or inherited report; raw tables guarded before row materialization",
+      "sha256": "23b3c3751acd36ff81c6bccf325f2cbe8111392d69051064ddf61e9622d9d741"
+    },
+    {
+      "path": "experiments/yolo/gdt628_chol_measure_frame/REPORT.md",
+      "role": "disclosed design, source or inherited report; raw tables guarded before row materialization",
+      "sha256": "c66cdf8f4c7766ec1f32a9f2eeae1bf599fff95386c2f93fa71733cd1f279264"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/REPORT.md",
+      "role": "disclosed design, source or inherited report; raw tables guarded before row materialization",
+      "sha256": "22647ec417eef0781712527fc1aa17175959756c414a5c5687a482e89333f405"
+    },
+    {
+      "path": "experiments/yolo/gdt748_complete_whole_serial_paradigm_census/REPORT.md",
+      "role": "disclosed design, source or inherited report; raw tables guarded before row materialization",
+      "sha256": "293c072ae653913632b93089d97301b67fd76469ada475fa4bd207408174dbe5"
+    },
+    {
+      "path": "experiments/yolo/gdt784_chorcholsal_boundary_name_adjudication/REPORT.md",
+      "role": "disclosed design, source or inherited report; raw tables guarded before row materialization",
+      "sha256": "8d567792945e232d6c48b1ce0c8ccd3f2f015aa83e238cc477e4bcd2e33dc17a"
+    },
+    {
+      "path": "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/REPORT.md",
+      "role": "disclosed design, source or inherited report; raw tables guarded before row materialization",
+      "sha256": "c613d9869015e996ed6e8a33463a041a453e468f439ce78c4fdaa54a0bbe0ee3"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/REPORT.md",
+      "role": "disclosed design, source or inherited report; raw tables guarded before row materialization",
+      "sha256": "9e185152b625a51a755b3fb12c425542cb59ce89d4121223e6ce07a037350150"
+    },
+    {
+      "path": "experiments/yolo/gdt792_target_masked_image_form_host_transfer/REPORT.md",
+      "role": "disclosed design, source or inherited report; raw tables guarded before row materialization",
+      "sha256": "4ca6636bceaf98a0a172a00b3b67004f4f658d06d2b9eb20328480c7f14a9003"
+    },
+    {
+      "path": "experiments/yolo/gdt794_complete_label_multiform_slot_transfer/REPORT.md",
+      "role": "disclosed design, source or inherited report; raw tables guarded before row materialization",
+      "sha256": "f8adcdeba41b96ec27d031a4ad1a0515a1825f8d5bad06e3b6111ec3ff42878b"
+    },
+    {
+      "path": "experiments/yolo/gdt795_source_native_family_kluge_transfer/REPORT.md",
+      "role": "disclosed design, source or inherited report; raw tables guarded before row materialization",
+      "sha256": "51a12d410af2e3eb6eb4a5393ba7d7a2ee8c156b58dea3306c86ea32dca2e4e8"
+    },
+    {
+      "path": "experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/REPORT.md",
+      "role": "disclosed design, source or inherited report; raw tables guarded before row materialization",
+      "sha256": "4ba0b56b633b85771f533c1ec00737f6a71109d91086c9d1ac7701e06529d86f"
+    },
+    {
+      "path": "experiments/yolo/gdt810_quality_arity_value_run/REPORT.md",
+      "role": "disclosed design, source or inherited report; raw tables guarded before row materialization",
+      "sha256": "ae75a1818c9481c10bf7e03a78af9e77d65580be457d614536a9b3f32bd99309"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/README.md",
+      "role": "reproducible implementation, source-preserving artifact or bounded working interpretation",
+      "sha256": "5d069625f54b0a2abadf448ce341e3fc98f514cd4e5db1064d271db0f8876857"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/REPORT.md",
+      "role": "reproducible implementation, source-preserving artifact or bounded working interpretation",
+      "sha256": "b5277bce41201d1146d398b95e59d864ad08f59a92e23d262b1de20c3dcc6e8c"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/WORKING_THEORY.md",
+      "role": "reproducible implementation, source-preserving artifact or bounded working interpretation",
+      "sha256": "706bb1aa3b6782fcc67d43348a6ac4c54f95e25cb409ccc5440455bb4f8b18ea"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/artifacts/EXACT_LABEL_PROSE_MATCHES.tsv",
+      "role": "reproducible implementation, source-preserving artifact or bounded working interpretation",
+      "sha256": "921075fe681d793668a6370baef0c80e0a0e5c4fa84cbf7eca7e8865797a6dc6"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/artifacts/FOUR_PAGES_FULL_TEXT.md",
+      "role": "reproducible implementation, source-preserving artifact or bounded working interpretation",
+      "sha256": "52c093b0d365db2df948c8dae278f24212341983b0cdc52cf6d63f1b334e72c0"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/artifacts/FOUR_PAGE_LINES.tsv",
+      "role": "reproducible implementation, source-preserving artifact or bounded working interpretation",
+      "sha256": "da98294db9562988e6ea70f37b71e84db8f0335895620c6765072068ae179bf0"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/artifacts/GDT388_EDGE_INTAKE.json",
+      "role": "reproducible implementation, source-preserving artifact or bounded working interpretation",
+      "sha256": "c213186f115208a0deb3a566ba59ff87912c88feb7e02b9c383e1c0a5d59d723"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/artifacts/GDT388_RELATION_PACKET.tsv",
+      "role": "reproducible implementation, source-preserving artifact or bounded working interpretation",
+      "sha256": "98507208a514f216af90bfb098a2ad4ccba0d24789d175aaca0e73fdac92a5fe"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/artifacts/GUARDED_QUERY_STATS.json",
+      "role": "reproducible implementation, source-preserving artifact or bounded working interpretation",
+      "sha256": "5a86ad87a26c98d6971b0c7999fc3744c565594bcd812475127798efb6635b91"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/artifacts/PAGE_SUMMARY.tsv",
+      "role": "reproducible implementation, source-preserving artifact or bounded working interpretation",
+      "sha256": "6be5ae05f0839e139d05b258e82d680d417cfe404c4b64f95eec51be7120aaa2"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/artifacts/README.md",
+      "role": "reproducible implementation, source-preserving artifact or bounded working interpretation",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/artifacts/REFERENCE_DISTRIBUTION_COUNTS.tsv",
+      "role": "reproducible implementation, source-preserving artifact or bounded working interpretation",
+      "sha256": "3287262cc26f012fe3db1551d25be79372a0e8a71a79b40d55f74d25f150044b"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/artifacts/REFERENCE_INVENTORY.tsv",
+      "role": "reproducible implementation, source-preserving artifact or bounded working interpretation",
+      "sha256": "ebcbb4e606c0bcbfe45f4f86add5d3085679309a70f0b028863cd3192d977873"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/artifacts/REFERENCE_RESULT.json",
+      "role": "reproducible implementation, source-preserving artifact or bounded working interpretation",
+      "sha256": "7a0f20a3a0bb4328c259a30cbd4b455f67d9e171c4537e615fda2028ef4e5c2f"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/artifacts/REFERENCE_WHOLE_SUMMARY.tsv",
+      "role": "reproducible implementation, source-preserving artifact or bounded working interpretation",
+      "sha256": "942e4f7a4638b7a61461e77b7ce0fe821a4970ce183dc7a34caa7bf3576830f8"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/artifacts/RESULT.json",
+      "role": "reproducible implementation, source-preserving artifact or bounded working interpretation",
+      "sha256": "59d214d98b2a859f50f45816a01179fa1457ff1e43467f111a15c1e7e367f9c4"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/artifacts/SCOPE_INVENTORY.tsv",
+      "role": "reproducible implementation, source-preserving artifact or bounded working interpretation",
+      "sha256": "45779465fc9c541931e4ab51fb9102c1ad8787961f3f41a51f68aa3c8e3edb6a"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/artifacts/SCOPE_RESULT.json",
+      "role": "reproducible implementation, source-preserving artifact or bounded working interpretation",
+      "sha256": "2e224e837e5adeb78271bfe58cfc0a652e00d437dd34b0b47cbc62f0bed88748"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/artifacts/VALIDATION.json",
+      "role": "reproducible implementation, source-preserving artifact or bounded working interpretation",
+      "sha256": "58638a25b71a31a1046f1d206298bdc11f4b38fec3472b67e4ac791606367efb"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/src/reference_inventory.py",
+      "role": "reproducible implementation, source-preserving artifact or bounded working interpretation",
+      "sha256": "62fdc47171c25a4409a32b5709f5606f94ac4fc637ab6461c78775ca3a68b2ec"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/src/run.py",
+      "role": "reproducible implementation, source-preserving artifact or bounded working interpretation",
+      "sha256": "240837cbf71fe8dc9ac51a640f3a5a557f66d6d0567fe7483d1879867f972031"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/src/scope_inventory.py",
+      "role": "reproducible implementation, source-preserving artifact or bounded working interpretation",
+      "sha256": "30bd947cfdb9eab112fd89c7dcef71b8480500540b484e215872ece8df8c6052"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/src/validate.py",
+      "role": "reproducible implementation, source-preserving artifact or bounded working interpretation",
+      "sha256": "8128132c705ef95c18558ccd94fbe8faa1e35fb65c68a1df4cb763097b7eb19e"
+    }
+  ],
+  "question": "Can complete-page text/image readings support explicit referent and phrase scope across botanical, bodily and circular records, without invented connectives or label-to-object identity?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "four_page_content_synthesis",
+  "status": "COMPLETE_PAGE_SYNTHESIS__MEANINGS_UNRESOLVED",
+  "title": "GDT811_four_page_content_synthesis",
+  "updated": "2026-09-05",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt811_four_page_content_synthesis/artifacts/VALIDATION.json"
+  }
+}

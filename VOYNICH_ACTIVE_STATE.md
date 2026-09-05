@@ -21913,3 +21913,36 @@ The sho audit finds inherited sh+o semantic provenance, not a new learned
 meaning. GDT809 remains unchanged. All27 independent checks pass; empty
 GDT388 packet grants no evidence credit. No new pages/images or f84 access.
 Report: `experiments/yolo/gdt810_quality_arity_value_run/REPORT.md`.
+
+### GDT811 — four complete pages, label referents and local scope
+
+The four-page reader preserves178 loci/946 tokens on f17r/f77r/f88r/f72r,
+with all alternate readings and local inscriptions kept separate. Eleven
+same-physical-page complete-label text-identity edges include duplicated
+label-to-one-token contacts; six have the declared three-reader support.
+f88r has only okol exact label/prose reuse; f77r only otedy, at P2 rather
+than the upper paragraph. These are identities of strings, not objects.
+
+The f88r seven-whole inventory uses190 selectors: union of the inherited179
+and the35 selectors of the released30-page spine. This admits no new page.
+It retains164 occurrences/150 same-line occurrence-rank reader matches:
+okol58 on45 keys, qokol90 on52, chokol3, okoldy8, qoekol2, ofaldo1, ofal2.
+okol spans seven source sections including released circular text. A specific
+drug name is not selected; a broadly reusable property/category/reference
+rival remains live. ofaldo/ofal is a scarce name-form candidate, not a plant
+identity or licensed do suffix. No botanical-trait route is reopened.
+
+Two exact otchol-X-Y-chol spans on f17r support a local scope proposal only.
+Across30 released pages, eight otchol have six next-chol spans and two
+absences; only the two known f17r spans have width two. Exact otchol chol
+on f4r counters obligatory two-slot grammar. No interior role or quality
+meaning is exported. Do not rerun these same inventories as new semantics.
+
+The consolidated working theory compares natural substances/properties and
+effects with celestial correspondences, retaining separate-genre and recipe
+rivals. Historical MS510 and Parker395 layers are explicitly dated, not
+claimed as a1420 decoder. Current dictionary/renderer remain unchanged.
+All19 independent groups pass. The17 GDT388 text-only edges stay ineligible;
+four foldout-cross-selector edges additionally exceed its page schema.
+Theory: `experiments/yolo/gdt811_four_page_content_synthesis/WORKING_THEORY.md`.
+Report: `experiments/yolo/gdt811_four_page_content_synthesis/REPORT.md`.

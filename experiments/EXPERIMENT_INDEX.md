@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **809**
-- Experiment-associated tracked files: **14,609** (1.3 GiB)
-- Structured GDT337+ experiments: **474**
+- Experiments indexed: **810**
+- Experiment-associated tracked files: **14,640** (1.3 GiB)
+- Structured GDT337+ experiments: **475**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT811 | GDT811_joint_content_synthesis | `WORKING_THEORY_ONLY_DICTIONARY_UNCHANGED` | [report](../experiments/yolo/gdt811_four_page_content_synthesis/REPORT.md) | 31 | 264.0 KiB | 13 | STRUCTURED_YOLO |
 | GDT810 | GDT810_quality_arity_value_run | `NO_EXTERNAL_PAIRED_QUALITY_MULTIPLE_VALUE_SUPPORT` | [report](../experiments/yolo/gdt810_quality_arity_value_run/REPORT.md) | 17 | 289.5 KiB | 9 | STRUCTURED_YOLO |
 | GDT809 | GDT809_repaired_context_and_joint_paragraphs | `COMPLETE_REPAIR_AND_JOINT_EXPLORATION__TWO_FORMAL_ASSOCIATIONS__FOUR_COMPLETE_PARAGRAPHS__MEANINGS_UNRESOLVED` | [report](../experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/REPORT.md) | 53 | 2.5 MiB | 14 | STRUCTURED_YOLO |
 | GDT808 | GDT808_exact_relation_slot_residual_bridge | `COMPLETE__L_AND_DY_PORTABLE_RECORD_OR_FORM__TWO_DISTINCT_OR_AXIS_BOUND_RELATIONS__R06_RECORD_CHANNEL_LEADS__ZERO_LEXEMES` | [report](../experiments/yolo/gdt808_exact_relation_slot_residual_bridge/REPORT.md) | 45 | 5.2 MiB | 14 | STRUCTURED_YOLO |
