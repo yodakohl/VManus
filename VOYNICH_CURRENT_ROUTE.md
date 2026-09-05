@@ -20,41 +20,20 @@ remains. Goal: transferable translation. Confirmed English lexemes: **0**;
 confirmed German lexemes/clauses: **0**. GPU/subagents authorized; no other
 LLM API keys. No additional page admission is selected for this viewing pass.
 
-## Closed predecessor — GDT829
+## Completed predecessor controls — closed
 
-The fixed 12-atom-flank/full-body reflow census has zero recurrent contexts in
-all three readings. It stops at capacity; do not shorten flanks or relax matches.
-Report: `experiments/yolo/gdt829_repeated_passage_reflow_capacity/REPORT.md`.
-
-## Latest result — GDT830 control stop, background assay unsuitable
-
-GDT830 was registered/published before pixel extraction. Four admitted native
-images and 86 fixed strips produced 1032 windows: 249 quality passes and 783
-INSUFFICIENT_PAPER. Only 1 held query survived; the 24-query/four-page gate fails.
-The independent descriptor/statistical validator confirms this accounting;
-it does not independently validate pixel measurements. A post-result unchanged
-assay on visibly blank f76r paper classifies 64.6757% as foreground, exposing
-background/ink confounding. This is a failure of the registered observation
-method, not evidence against pen-state information. No retrieval performance
-or disputed-block order is claimed. No retrospective threshold/filter rescue.
-Report: `experiments/yolo/gdt830_pen_state_continuation_control/REPORT.md`.
-GDT830 is not rerun. GDT829 and DIC001 remain closed. No new pages or meanings.
-
-## Latest result — GDT831 selected-point control fails
-
-192 new visual centerpoint labels in24 fixed native tiles were frozen with
-all code before scores (5aa88a56). f76r/f77r calibration selects threshold.03
-and passes. On held labels f81r/f83r,48/48 ink cores and45/48 paper points
-are classified correctly, but f81r22/24 paper falls below required23/24.
-Status HELD_POINT_CONTROL_FAIL; no threshold retuning or relabeling. The
-independent validator verifies14 preregistration hashes,4JPEGs,24tiles and
-independently reconstructs all192 center scores. A full runner replay passes.
-These are selected clear points, not full masks or physical ink certification;
-photos were previously seen. Do not compare directly with GDT830's whole-patch
-foreground fraction. No pen state, chronology, disputed-block order or meaning.
-Primary: `experiments/yolo/gdt831_annotated_ink_paper_control/REPORT.md`.
-No successor is selected. New route selection requires a different falsifier
-or new evidence; do not repair the failed control against these held labels.
+- GDT829: no exact repeated12-atom-flank/full-body contexts in any reading;
+  capacity stop. Do not shorten or relax this failed literal-context route.
+  `experiments/yolo/gdt829_repeated_passage_reflow_capacity/REPORT.md`.
+- GDT830:1032windows,249qualitypasses,only1heldquery; capacity stop. Unchanged
+  post-result assay marks64.6757% of a visibly blank patch as foreground.
+  Observation failure, not a test against pen-state information. No retuning.
+  `experiments/yolo/gdt830_pen_state_continuation_control/REPORT.md`.
+- GDT831:192new clear-point labels; calibrated.03 detects48/48heldink and45/48
+  heldpaper, but f81r22/24paper fails required23/24. Independent192center replay
+  passes; scientific control fails. No relabeling, full-mask/chronology claim
+  or direct comparison with GDT830's differently sampled foreground fraction.
+  `experiments/yolo/gdt831_annotated_ink_paper_control/REPORT.md`.
 
 ## Current visual orientation completed
 
@@ -90,6 +69,19 @@ synonym alignment. Whole-group boundaries and alternate readings stay visible.
 Search-adjusted controls and copied nonsense limit interpretation: a pass gives
 formal recoding evidence, not equal meanings or translation. Root will review
 any candidate images personally within recorded admission. No new page access.
+
+## Known structure is substantial; sentence syntax is not fully established
+
+Clarification: `docs/STRUCTURAL_KNOWLEDGE.md`. Source-native within-group
+family dependencies and productive opening/closing patterns transfer to held
+folios/new forms. Real cross-group assembly and positional patterns survive.
+GDT581 supplies a detailed reversible working grammar, not independent proof
+of all host/POS assignments or its inherited793 statement boundaries. DY
+field transitions and B3/m end preference are not universal sentence points;
+GDT791 corrects5of235 record-crossing statements, not a full sentence-gold test.
+Unknown meanings alone do not rule out known grammar. Preserve confirmed
+surface structure in the proposed search; do not treat groups as structureless
+or use every working-parser boundary as authorial truth. No new test performed.
 
 ## Understanding basis and limits
 

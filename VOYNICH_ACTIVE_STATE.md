@@ -6,6 +6,19 @@ Updated: 2026-09-05. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### Structural-knowledge clarification (2026-09-05; no new test)
+
+User correctly recalls substantial word/field/attachment work. Root's neutral
+»group« definition understated that context. Source-native local transitions
+and endpoint construction transfer are retained, alongside qualified cross-group
+assembly. GDT581's complete working parser does not independently establish
+all its historical POS/hosts or inherited statement limits. DY/B3 observations
+and GDT791's limited boundary corrections are distinguished from a universally
+validated sentence terminator. Unknown vocabulary alone would not refute
+known grammar. No reset of confirmed structure and no new experimental result.
+Primary: `docs/STRUCTURAL_KNOWLEDGE.md`.
+
+
 ### Internal recoded-parallel-passages proposal (2026-09-05; unexecuted)
 
 On the user's request for a substantially stronger idea, recommend exact

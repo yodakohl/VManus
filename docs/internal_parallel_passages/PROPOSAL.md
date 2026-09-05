@@ -120,6 +120,17 @@ identischer abgeschlossener Test gefunden; vollständige Neuheit im teils
 kuratierten Archiv oder in der öffentlichen Forschung wird nicht behauptet.
 Es wurde nicht nach öffentlichen Entzifferungsansätzen gesucht.
 
+## Bestätigte Struktur wird nicht vergessen
+
+Die spätere [Klarstellung zum Forschungsstand](../STRUCTURAL_KNOWLEDGE.md)
+hält übertragbare innere Bauregeln, Randkonstruktionen und qualifizierte
+Anschlussstruktur ausdrücklich fest. Die neutralen Quellgruppen sind keine
+Behauptung frei austauschbarer, strukturloser Wörter. Diese Befunde gehören
+in die noch festzulegenden Vergleiche und Kontrollen. Die umfangreiche
+Arbeitsgrammatik liefert dafür nachvollziehbare Hypothesen, aber keine
+unfehlbaren historischen Satzgrenzen. Hier wird kein neuer Filter festgelegt
+und kein Satzparser als bereits geprüfter Goldstandard übernommen.
+
 ## Entscheidung und Grenzen
 
 Dies ist der empfohlene neue Hauptkandidat. Die Aussicht beruht auf dem möglichen
