@@ -1,0 +1,145 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Selected clear centerpoints only. No full mask, faint stroke recovery, pen state, chronology, reading order, glyph identity or meaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt831_annotated_ink_paper_control/src/run.py --check",
+    "validate": "python3 experiments/yolo/gdt831_annotated_ink_paper_control/src/validate.py --check"
+  },
+  "created": "2026-09-05",
+  "dependencies": [
+    "GDT791",
+    "GDT830"
+  ],
+  "experiment_id": "GDT831",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt830_pen_state_continuation_control/src/SOURCES.json",
+      "role": "bound_source_design_or_result",
+      "sha256": "3afde50b1e2bfcee5cca2c9ebc8ed412582895d5e21b911472c65a021270a1e7"
+    },
+    {
+      "path": "experiments/yolo/gdt830_pen_state_continuation_control/src/ROWS.tsv",
+      "role": "bound_source_design_or_result",
+      "sha256": "97fb993f237c17cd75b4d9639ddb78eafeed741b04a1649544a6ec6a4c3ad3b9"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/src/PAGE_SELECTOR_SPECS.tsv",
+      "role": "bound_source_design_or_result",
+      "sha256": "69e5463f7ce6c22bd83fe35e4fdc0601731a3c470b5c510a15ac3befa1716bae"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt831_annotated_ink_paper_control/METHOD.md",
+      "role": "bound_source_design_or_result",
+      "sha256": "9ed3cc095c064009723b52b00b91b27d7642612996bf82a3a5761f9501c8bc50"
+    },
+    {
+      "path": "experiments/yolo/gdt831_annotated_ink_paper_control/PREREGISTRATION.md",
+      "role": "bound_source_design_or_result",
+      "sha256": "37b3db087d40588dc3412b935666619d70e1e48d6078765ee6af9d6c2af55d2e"
+    },
+    {
+      "path": "experiments/yolo/gdt831_annotated_ink_paper_control/README.md",
+      "role": "bound_source_design_or_result",
+      "sha256": "b57def86544ddd54edafd6e1c68f97ea0b9cda0ab43e554ac2cc92797d0dc864"
+    },
+    {
+      "path": "experiments/yolo/gdt831_annotated_ink_paper_control/REPORT.md",
+      "role": "bound_source_design_or_result",
+      "sha256": "903ec80860934efafa1c6bd51be906b2e5cf57083280d2ec0f8ed277474190f1"
+    },
+    {
+      "path": "experiments/yolo/gdt831_annotated_ink_paper_control/artifacts/README.md",
+      "role": "bound_source_design_or_result",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt831_annotated_ink_paper_control/src/ANNOTATIONS_CAL.tsv",
+      "role": "bound_source_design_or_result",
+      "sha256": "bfaabfe8601699b79813900cb26ea1e14dad753f6e42b4c2b8f75e56ce4b8d54"
+    },
+    {
+      "path": "experiments/yolo/gdt831_annotated_ink_paper_control/src/ANNOTATIONS_HELD.tsv",
+      "role": "bound_source_design_or_result",
+      "sha256": "f518775ade6c2caba1216e0ff7274f6ad5af5c729c6d50403a73e12f93cbdf06"
+    },
+    {
+      "path": "experiments/yolo/gdt831_annotated_ink_paper_control/src/ANNOTATION_CAL_REVIEW.md",
+      "role": "bound_source_design_or_result",
+      "sha256": "cdd8b0490287b64175e80c42f46d6f6cc5620e7cf4ee8cf3180555c7869d02e2"
+    },
+    {
+      "path": "experiments/yolo/gdt831_annotated_ink_paper_control/src/ANNOTATION_HELD_REVIEW.md",
+      "role": "bound_source_design_or_result",
+      "sha256": "c4921f5e7dd5f25a151269dd1bc3cd293bb43e483382b5974d87c2b443593873"
+    },
+    {
+      "path": "experiments/yolo/gdt831_annotated_ink_paper_control/src/PREREG_LOCK.json",
+      "role": "bound_source_design_or_result",
+      "sha256": "c2a831d3cf788177664e39e23e8e60de411b5cde56263539a6f6a97a2269618b"
+    },
+    {
+      "path": "experiments/yolo/gdt831_annotated_ink_paper_control/src/SECOND_VISUAL_REVIEW.md",
+      "role": "bound_source_design_or_result",
+      "sha256": "8f60faba54beaa670a9fa03fe0c66e28118a6fb6d74fc701dcd4226b1598fecf"
+    },
+    {
+      "path": "experiments/yolo/gdt831_annotated_ink_paper_control/src/SOURCES.json",
+      "role": "bound_source_design_or_result",
+      "sha256": "a81e8ae3fc5a7b4688f5aedadb977ec671c5baed9490c8f1becb6e6e57b83967"
+    },
+    {
+      "path": "experiments/yolo/gdt831_annotated_ink_paper_control/src/SPEC.json",
+      "role": "bound_source_design_or_result",
+      "sha256": "89bded07e896db2388ac7532fbe69cd20930f40f6b3512db038789155fef9d16"
+    },
+    {
+      "path": "experiments/yolo/gdt831_annotated_ink_paper_control/src/TILES.json",
+      "role": "bound_source_design_or_result",
+      "sha256": "d7747e4118a09ef48fedd4775e7c8a105d35a9c8c65336ef42403d8233585e8b"
+    },
+    {
+      "path": "experiments/yolo/gdt831_annotated_ink_paper_control/src/inspect_tiles.py",
+      "role": "bound_source_design_or_result",
+      "sha256": "edfc8f4b826f4bdbfc8402ca717e01a7954e83f191fc087b0231a4ae858bf420"
+    },
+    {
+      "path": "experiments/yolo/gdt831_annotated_ink_paper_control/src/measure.py",
+      "role": "bound_source_design_or_result",
+      "sha256": "d55ead8059ad08165000699888bc822ecf23c6a481dcde7618daa797f9561649"
+    },
+    {
+      "path": "experiments/yolo/gdt831_annotated_ink_paper_control/src/run.py",
+      "role": "bound_source_design_or_result",
+      "sha256": "724a6ce1b4b0139ab255668114ad069d6af4fa2e1edb9174fb7fd0f5b08dc69c"
+    },
+    {
+      "path": "experiments/yolo/gdt831_annotated_ink_paper_control/src/test_measurement.py",
+      "role": "bound_source_design_or_result",
+      "sha256": "1ea2a54e621a027669f1ac63d30b16ba3626792967722194f9d52d1e6d8000ba"
+    },
+    {
+      "path": "experiments/yolo/gdt831_annotated_ink_paper_control/src/validate.py",
+      "role": "bound_source_design_or_result",
+      "sha256": "2bcd4ca158c3c787ab2b1477a94455e778ada36cb076566c3ae2cd573743db30"
+    }
+  ],
+  "question": "Can one fixed local contrast classifier distinguish newly visually annotated clear writing-core center pixels from nearby paper on held labeled pages?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "annotated_ink_paper_control",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Independently annotated writing-core and paper point control",
+  "updated": "2026-09-05",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

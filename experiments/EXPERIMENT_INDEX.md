@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **829**
-- Experiment-associated tracked files: **15,107** (1.3 GiB)
-- Structured GDT337+ experiments: **494**
+- Experiments indexed: **830**
+- Experiment-associated tracked files: **15,127** (1.3 GiB)
+- Structured GDT337+ experiments: **495**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT831 | GDT831_annotated_ink_paper_control_registration | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt831_annotated_ink_paper_control/PREREGISTRATION.md) | 20 | 100.2 KiB | 2 | STRUCTURED_YOLO |
 | GDT830 | GDT830_post_result_background_diagnostic | `BACKGROUND_ASSAY_UNSUITABLE` | [report](../experiments/yolo/gdt830_pen_state_continuation_control/REPORT.md) | 24 | 242.8 KiB | 3 | STRUCTURED_YOLO |
 | GDT829 | GDT829_repeated_passage_reflow_capacity_result | `CAPACITY_FAIL_UPPER_BOUND` | [report](../experiments/yolo/gdt829_repeated_passage_reflow_capacity/REPORT.md) | 21 | 7.4 MiB | 6 | STRUCTURED_YOLO |
 | GDT828 | GDT828_manual_attachment_type_audit | `C0_IMMEDIATE_ATTACHMENT_CONSTRUCTIONS_FAIL_NO_LEXICAL_VERDICT` | [report](../experiments/yolo/gdt828_manual_attachment_type_audit/REPORT.md) | 15 | 66.2 KiB | 4 | STRUCTURED_YOLO |

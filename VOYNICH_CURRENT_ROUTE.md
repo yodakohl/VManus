@@ -9,7 +9,8 @@ Do not introduce an external publication or public method as a fresh route.
 Derive next steps from our admitted data, primary experiment reports and
 unresolved internal findings. Apply this restriction to delegated work too.
 The earlier mandate to understand our history before choosing a fixed plan
-remains. GDT830 has completed with a measurement/capacity stop. Goal remains transferable
+remains. GDT830 has completed with a measurement/capacity stop. GDT831 now
+registers a separate visual ink/paper point calibration before any new score. Goal remains transferable
 translation. Confirmed English lexemes: **0**; confirmed German lexemes/clauses: **0**.
 
 ## Closed predecessor — GDT829
@@ -30,8 +31,18 @@ background/ink confounding. This is a failure of the registered observation
 method, not evidence against pen-state information. No retrieval performance
 or disputed-block order is claimed. No retrospective threshold/filter rescue.
 Report: `experiments/yolo/gdt830_pen_state_continuation_control/REPORT.md`.
-No replacement experiment is selected. GDT829 remains closed; DIC001 is not
-rerun. Public approach searches remain prohibited. No new pages or meanings.
+GDT830 is not rerun. GDT829 and DIC001 remain closed. No new pages or meanings.
+
+## Active control — GDT831 registered, unscored
+
+New independently visual labels: 192 clear writing-core/paper centerpoints
+in 24 fixed native tiles on f76r/f77r (scalar calibration) and f81r/f83r
+(held from that calibration only). Median3/median31 contrast with actual
+16-pixel halo; frozen threshold-selection rule, page/tile sensitivity and
+paper-specificity gates. All labels and code freeze before scores. This
+controls selected-point observation only, not full masks, pen state or order.
+No automatic return to GDT830 and no disputed production paths scored.
+Primary: `experiments/yolo/gdt831_annotated_ink_paper_control/PREREGISTRATION.md`.
 
 ## Understanding basis and limits
 
@@ -44,8 +55,8 @@ Use the existing research record for manuscript description, material and
 scribal studies and transcription limitations. Keep established findings
 distinct from proposed explanations. No further search for public approaches.
 Do not prefer a cipher, language, semantic glossary or nonlinguistic account
-without evidence. No new fit is selected after GDT830; no new manuscript
-page admissions.
+without evidence. Only the GDT831 scalar observation calibration is selected;
+no semantic fit or new manuscript page admissions.
 
 `docs/RESEARCH_RESET.md` records the earlier premature proposal; it is not the
 current research plan. The source-linked understanding dossier is `docs/VOYNICH_UNDERSTANDING.md`;

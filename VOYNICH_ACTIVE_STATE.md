@@ -6,6 +6,18 @@ Updated: 2026-09-05. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### GDT831 visual observation control registered (2026-09-05)
+
+A new 192-point visual ink/paper annotation on 24 fixed tiles supplies an
+observation endpoint independent of detector output. f76r/f77r calibrate one
+frozen-rule scalar threshold; f81r/f83r labels are held from calibration,
+although their photos were exposed previously. Median3/median31 with actual
+16-pixel halo replaces the failed observation primitive in a separate task.
+All coordinates and code are frozen before scores. No full segmentation,
+pen state, writing order, translation or rescue of GDT830 is claimed.
+Primary: `experiments/yolo/gdt831_annotated_ink_paper_control/PREREGISTRATION.md`.
+
+
 ### GDT830 pen-state control stopped (2026-09-05)
 
 The preregistered four-page/86-strip control produces 1032 windows, 249 quality

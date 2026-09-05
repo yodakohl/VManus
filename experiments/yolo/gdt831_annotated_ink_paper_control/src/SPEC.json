@@ -1,0 +1,22 @@
+{
+  "experiment_id": "GDT831",
+  "calibration_pages": ["f76r", "f77r"],
+  "held_pages": ["f81r", "f83r"],
+  "tiles_per_page": 6,
+  "ink_points_per_tile": 4,
+  "paper_points_per_tile": 4,
+  "tile_size": 192,
+  "halo": 16,
+  "smooth_median_size": 3,
+  "background_median_size": 31,
+  "threshold_grid_hundredths": [2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30],
+  "comparison": "score >= threshold is ink",
+  "threshold_selection": "smallest grid value with paper specificity >= 0.95 on each calibration page; no eligible value means stop",
+  "page_min_ink_recall": 0.90,
+  "page_min_paper_specificity": 0.95,
+  "tile_min_ink_recall": 0.75,
+  "tile_min_paper_specificity": 0.75,
+  "calibration_failure": "stop before held feature extraction",
+  "estimand": "visually selected clear writing-core and nearby paper center pixels, not whole masks",
+  "confirmed_lexemes": 0
+}
