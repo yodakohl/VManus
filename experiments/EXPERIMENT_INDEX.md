@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **826**
-- Experiment-associated tracked files: **15,047** (1.3 GiB)
-- Structured GDT337+ experiments: **491**
+- Experiments indexed: **827**
+- Experiment-associated tracked files: **15,062** (1.3 GiB)
+- Structured GDT337+ experiments: **492**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT828 | GDT828_manual_attachment_type_audit | `C0_IMMEDIATE_ATTACHMENT_CONSTRUCTIONS_FAIL_NO_LEXICAL_VERDICT` | [report](../experiments/yolo/gdt828_manual_attachment_type_audit/REPORT.md) | 15 | 66.2 KiB | 4 | STRUCTURED_YOLO |
 | GDT827 | GDT827_content_synthesis | `C0_JOINT_CONFLICT_PRIORITY_NO_TRANSLATION` | [report](../experiments/yolo/gdt827_joint_core_paragraph_contrast/WORKING_THEORY.md) | 19 | 194.5 KiB | 7 | STRUCTURED_YOLO |
 | GDT826 | GDT826_content_synthesis | `C0_FACTOR_BATCH_NOT_SEMANTIC_VALIDATION` | [report](../experiments/yolo/gdt826_dar_material_property_contrast/WORKING_THEORY.md) | 17 | 119.9 KiB | 6 | STRUCTURED_YOLO |
 | GDT825 | GDT825_content_synthesis | `C0_WOOD_CHARCOAL_UNRESOLVED_INPUT_AND_RESULT` | [report](../experiments/yolo/gdt825_qopchedy_physical_wood_trial/WORKING_THEORY.md) | 17 | 92.2 KiB | 5 | STRUCTURED_YOLO |

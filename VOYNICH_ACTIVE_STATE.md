@@ -22348,6 +22348,31 @@ withsal.raiin76r51/82r24. Not anothercensus,q-prefixgenericrouteorautomaticdrug
 meaning. Scope34visualkeys39selectors16unusedadmissions;f84/f84rsealed.
 Authority821REPORT/WORKING_THEORY,CANDIDATES,LIGHT_TRIALandthreecontentnotes.
 
+## GDT828 — conditional attachment failures, no lexical verdict (2026-09-05)
+
+Qualifies GDT827's on/press conflict: it requires an obligatory immediate nominal
+complement. Under the unchanged MANUAL proposed types, right attachment fails
+at81r27 inZL/IT; left attachment fails at77r34 inall3. RF81r27 has opaque
+che@152;y/qoke@152;y, so no exact rightward conflict there and no positive credit.
+Full fixed827packet50loci150streams yields43exactchedy15loci86neighbour rows.
+Right compatible/conflict/unknown:ZL5/1/9 IT7/1/8 RF4/0/8;
+left:ZL1/1/13 IT3/1/12 RF1/1/10. Compatibility assumes meanings,notproof.
+
+81r19sheedy/qoteedy remain unknown inMANUAL;IT19/27 in separate nativeP.
+Known action repeats contain no chedy and establish no contact attachment.
+Exposed independent scope reviewer gives chedy ACTION* GROUND logical countermodel:
+81r27 retains press with unknown olkedy ground;only that exposed locus exercises
+extra branch. Not adopted/scored;no nounmeaning, pressure nominalization or POS.
+Thus reject the two fixed immediate constructions,not allMANUAL senses or any
+complete core. Allfour827models remainC0;0confirmedwords/clauses/dictionarychanges.
+
+Two independent exposed reviews; thirdagent validator independently reconstructs
+all86rows and result, rejects6mutations. Accounting checks not semantic proof.
+No image/download/admission/scorededge;34visualkeys39selectors16unused;f84/f84rsealed.
+Same packet cannot choose broader attachment. Resume this conflict only with
+independent type/attachment evidence or genuinely different predeclared discriminator;
+no freshnounchain,automaticneighbourcount ornewpage. Authority828REPORT/WORKING_THEORY.
+
 ## GDT827 — joint-core countermodels, no semantic winner (2026-09-05)
 
 User authorized coherent-model comparison and independent agents. Two agents

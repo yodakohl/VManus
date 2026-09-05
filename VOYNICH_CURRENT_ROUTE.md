@@ -1,6 +1,6 @@
 # Voynich current route
 Updated: 2026-09-05. Read first.
-`./vmanus-work lookup GDT827 GDT826 GDT819`: primary reports only.
+`./vmanus-work lookup GDT828 GDT827 GDT819`: primary reports only.
 
 ## Goal and actual position
 
@@ -44,7 +44,7 @@ and alternate boundaries. Similarity grants no component.
 Source groups/separator states BEFORE whole-word/compound/space claims.
 Legacy ASCII spaces can be cleaner-created; extended @entities stay opaque.
 
-## Inherited family and active GDT827
+## Inherited family and active GDT828
 
 809axes open;810arity fails beyondf32v;sho sh+o-derived.811:0objects17ineligibleedges;
 f4rdefeatsobligatoryslots;f17r two otchol-X-Y-chol spans;okol/qokol notspecies.
@@ -98,14 +98,20 @@ Extra-becomes/airdoubletsremain;authorialboundaryopen. No generalprefixrule.
 825Holz/HolzkohleC0;826darErde/trockenC0;mandatoryresult76r51withdrawn;water-dryconditional.
 GDT827:4eightwholecores TRANSFORMATION/FLOW/MANUAL/NETWORK;water/becomesNOTprotected.
 77r35condensationandwater-through-basinbothcompletebyguess;no winner/paragraphtranslation.
-MANUALrub/press/stroke fitsknownAABBA/BAB,but81r27on+imperativepressconflicts;no pressure-rescue.
+MANUALrub/press/stroke fitsknownAABBA/BAB;81r27on+press conflicts IF immediate nominal complement.
 50loci150readerlines1157groups;IT81r23END/24START,RFnoPflags;notsharedsingleP.
 2exposedindependentagents;2cachedimages81rfull/77rmiddle;no ownedword/edge/admission.
+GDT828:43exactchedy15loci;right-immediate fails81r27ZL/IT,left-immediate fails77r34all3.
+RF81r27che@152;y/qoke@152;yopaque;RFright0conflicts notvalidation. Unknownsnotfits.
+Twofixedconstructionfailures,notMANUALlexicalrefutation.81r19sheedy/qoteedyunknown.
+ACTION* countermodel logicalonly;extra branchonlyexposed81r27,olkedyunknown;noadoption.
+No press-to-pressure switch;actionrepeatsdo nottestcontactscope. All4coresremainC0.
 
 ## Which source to open
 
 | Need | Index lookup / source |
 |---|---|
+| Conditional attachment failures / exact source limits | GDT828 |
 | Joint core models / property / material | GDT827 / GDT826 / GDT825 |
 | Fire / ascent / lightness | GDT822 / GDT821 |
 | Repetition constructions / initial ascent trial | GDT820 |
@@ -134,9 +140,12 @@ Read primary reports and `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES
 
 ## Next work
 
-Same827comparison:chedy.qokedy81r27 versusqokedy.sheedy.chedy.qoteedy19 andactionsequences.
-Resolvejointrelation/operationscope;no press-to-pressure switchorfreshnounchain.
-No protectedcore;keepoldmodels;no topology/AA-statisticrerunornewpagebydefault.
+GDT828 closes both fixed immediate-complement repairs; current packet cannot
+decide broader attachment. This conflict needs independent complement/operation
+type or authorial construction-boundary evidence; no automatic further neighbour
+count, freshnounchain, ACTION* adoption or press-to-pressure switch.
+Retain4cores;no protectedwater/becomes. New route requires route-check and a
+different predeclared discriminator;no topology/AA rerun or newpage bydefault.
 
 Reuse readers. Workflow:`docs/WORKFLOW.md`; keep bound tools.
 

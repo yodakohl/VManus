@@ -1,0 +1,57 @@
+{
+  "experiment_id": "GDT828",
+  "status": "PASS_INDEPENDENT_RECONSTRUCTION",
+  "source_sha256": "8df7f22589c8b79a778ac038ae901bd746947fe5781177bd7c59e7193a188fb5",
+  "source_lines": 150,
+  "source_loci": 50,
+  "source_groups": 1157,
+  "neighbor_rows": 86,
+  "checks_passed": 10,
+  "checks": [
+    "fixed_specification",
+    "bound_source_hash",
+    "allowed_pages_and_sealed_exclusion",
+    "source_group_identities_and_array_alignment",
+    "complete_three_reading_loci",
+    "exact_target_rule_coverage",
+    "opaque_immediate_neighbors_and_source_metadata",
+    "candidate_types_and_unknown_censoring",
+    "per_reading_counts_and_verdicts",
+    "mutation_rejection"
+  ],
+  "mutation_count": 6,
+  "mutations": [
+    {
+      "name": "missing_target_rule",
+      "status": "REJECTED"
+    },
+    {
+      "name": "altered_neighbor",
+      "status": "REJECTED"
+    },
+    {
+      "name": "unknown_treated_as_fit",
+      "status": "REJECTED"
+    },
+    {
+      "name": "source_entity_split",
+      "status": "REJECTED"
+    },
+    {
+      "name": "altered_summary_count",
+      "status": "REJECTED"
+    },
+    {
+      "name": "altered_native_paragraph_flag",
+      "status": "REJECTED"
+    }
+  ],
+  "semantic_limits": {
+    "confirmed_lexemes": 0,
+    "recovered_parts_of_speech": 0,
+    "meaning_validation": false,
+    "held_prediction": false,
+    "alternate_readings_are_independent_witnesses": false,
+    "failure_scope": "TWO_UNIFORM_IMMEDIATE_NOMINAL_CONSTRUCTIONS_UNDER_FIXED_C0_TYPES"
+  }
+}
