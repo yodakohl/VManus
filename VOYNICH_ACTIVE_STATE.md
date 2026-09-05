@@ -22272,3 +22272,43 @@ relation evidence; inherited GDT818 alternatives remain ineligible. Scope still
 Next bounded source-group context integration, then actual repetition/finite
 predicate content, not more nouns or global atlas rerun. Authority:GDT819
 REPORT/WORKING_THEORY, src/SOURCE_AUDIT and visual notes/READING_DECISIONS.
+
+## GDT820 — grouped repetition context and one ascent verb (2026-09-05)
+
+Existing source atlas integrated across fixed818/819 union172 loci159P9L4C,
+nine wholeP blocks,14 already admitted selectors. All172 group-native records
+and alternates rootread.4734groups516comparisons allflatten=currentclean;
+140multifragmentgroups and actual zero-fragment??? onf72r3.1 retained. Four
+leading placement annotations in raw CONTEXTS, not lexical groups.67exactraw
+pair/readings25ZL26IT16RF, notindependentobservations; no observed eligible
+crossPlinepair. No corpus-wide count or sentence-boundary rule. Earlier sources
+unchanged; this does not globally validate legacy roles or counts.
+
+Physician retains a noun-to-next-subject seam atf77r34, historically possible,
+not forced; first air...becomes/contains...air and missing second predicate remain.
+Apothecary retains W emphatic predicate with shared water argument versus N two
+predicates with omitted sharedsubject and explicit OV/VO condition/mainclause
+hypothesis. Different constructions, not universalAA or dosecount. No arbitrary
+nonfinite replacement. Actual75r38AABBA and otherrawdoublets retained.75r33 was
+initially calleddoublet in taskerror; source shows contactonly; second actual
+chedy pair72r3.26C. Exactsolkeey absent in75r32–46 and76r1–38, no named subject.
+
+Separate POST one-new-whole C0 raiin=steigt, strict PHYSICAL_UPWARD_MOTION,
+never increase heat evaporate is orfall. F77r34 righttrial Luft?[checkhy]steigt?
+supplies guessedpredicate; checkhy unknown, RF@206;aiin opaque. No solvedleft
+air-to-air clause, no ITextra-chedy repair, no decodedowner linking next vapour
+to air. Old818 fixedmatrixandconditional remain unchanged, not pooledsuccess.
+Medievalprimary naturalphilosophy allows air motion/other vapour process, notkey.
+
+All exactraiincoreloci66r80/77r34 plus two known785sal-raiinrecords76r51/82r24
+readinall3:12displays14exactoccurrences,174unique records combined, same14selectors.
+66r80 immediatelyraiin-sheedy allows rises?-if?, no identifiedmoving subject or
+condition. Sal and other comparator subjectsunknown; both82r24raiinstayspatial.
+No wholecomparatorPread orall39raiin inventory. Knownolderdegree/drugglosses
+notadopted. Candidate remainsC0completionmotivated,notdictionary/lexicalproof.
+
+Independent validator reproduces coreandannex;7syntheticboundarychecks7core+2annex
+mutations. Source/literalpreservation only. No newrelationevidence;818alternatives
+ineligible.39selectors34visualkeys16unusedadmissions;f84/f84r sealed;0confirmed
+words/clauses. Next alladmittedexactraiinwithwholePandsamephysicalverb,notnewmenu.
+Authority820 REPORT/WORKING_THEORY,CANDIDATES,ASCENT_TRIALandthreecontentnotes.

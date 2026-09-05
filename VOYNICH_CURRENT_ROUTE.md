@@ -1,6 +1,6 @@
 # Voynich current route
 Updated: 2026-09-05. Read first.
-`./vmanus-work lookup GDT819 GDT818 GDT817`: index pointers; open only needed reports.
+`./vmanus-work lookup GDT820 GDT819 GDT818`: index pointers; open only needed reports.
 
 ## Goal and actual position
 
@@ -43,7 +43,6 @@ Renderer: span > licensed whole > unknown; consume once, retain doublets
 and alternate boundaries. Similarity grants no component.
 Source groups/separator states BEFORE whole-word/compound/space claims.
 Legacy ASCII spaces can be cleaner-created; extended @entities stay opaque.
-GDT819 reconnects the existing2026-08-09 source atlas correction to live trials.
 
 ## Inherited results: GDT809–811
 
@@ -51,7 +50,7 @@ GDT809 axes open; GDT810 arity fails beyond f32v; sho sh+o-derived.
 GDT811:0objects17ineligibleedges; f4r defeats obligatory slots; f17r two exact
 otchol-X-Y-chol spans; okol/qokol and ofaldo/ofal not species.
 
-## Inherited family and active GDT819
+## Inherited family and active GDT820
 
 Scalar baseline A: dan very little, dain little, daiin much, daiiin very much;
 all C0 wholes. Comparison/excess and I-IV rivals remain; no dictionary adoption.
@@ -71,8 +70,7 @@ Joint Q warm/dry humoral, POST-external; no pooling physical warmth. R dry same.
 Owners unproved: f81v first P lacks source before water-whose .6; source .10
 is NEXT P. Cross-register noun debts remain; no qokeedy heating actions.
 
-GDT817 keeps the C0 vapour-whose-becomes-water seed; ol=or loses global priority
-on ol ol / ol ol ol. chedy doublets burden finite becomes. No image word owner.
+GDT817 C0 vapour-whose-becomes-water; ol=or loses priority on ol repeats.
 GDT818 fixed2x2: vapour/basin × becomes/physically contains; R fixed, ol unknown.
 Contains fixes basin-becomes-water mismatch, not doublets or unknown owners.
 F75r16/22 water-before-predicate all3; line end not clause end. F83r9–17
@@ -80,30 +78,35 @@ has no exact vapour/basin/source word naming its chedy-water subject.
 Separate ZL/IT f77r35 trial: Dessen Dampf wird Wasser, wenn die Luft kalt ist.
 New C0 sheedy=if,qokaiin=air,chedaiin=is,chealy=physical cold; completion-motivated.
 Rightward with+nominal loses local priority f81r19 ONLY IF chedy finite.
-115contextloci7P1C;35focal420displays;29tailrecords174displays, overlaps.
-Not all qokaiin singletons read.4relation alternatives GDT388-ineligible.
+Not all qokaiin singletons read;4GDT818 alternatives GDT388-ineligible.
 
-GDT819 actual images f76r/f77r/f81r,5targets;74P+9L fullcontexts rootread.
-129target sourcegroups/15comparisons; all15atlas-flat=current-clean.
-RF f77r35 has8groups/four-group tail, not9/five: che@152;aiin is ONE group.
-Corrected RF trial tail: if [qotaiin][che@152;aiin] cold. No entity=d alias.
-RF f81r19 shee@152;y ONE group; final ol,am genuine uncertain smallspace.
-RF f77r12 che@152;aiin + che@152;y TWO groups, notfour independent words.
-Image favors local IT shedaiin over ZL chedaiin f77r12: is-becomes less secure.
-No source overwrite/wholeIT preference. IT sheol.ol12 and qol.chedy34 retained.
-Actual chedy-like doublet f76r23 and qokaiin doublet f77r34 visibly remain.
-F77r35 k/t OPEN; no clear clause marker/P reset at targets; no POS decoded.
-13renditions on3admittedpages, not13pages. No image wordowner or meaning proof.
-Old separator correction was missed in recent reasoning, not newly discovered;
-five-target integration does NOT revalidate all legacy counts/word boundaries.
-No new admission/dictionary meaning/confirmed clause. GDT818 candidate C0 values
-unchanged; GDT819 WORKING_THEORY/REPORT and src/READING_DECISIONS govern corrections.
+GDT819 images5targets3pages: RF f77r35 eightgroups/fourtail, che@152;aiin ONE;
+f81r19 shee@152;y ONE; final ol,am genuine smallspace. Entities stay opaque.
+F77r12 image favors local IT shedaiin, not canonical replacement; k/t35 OPEN.
+Actual doublets f76r23/f77r34 remain. No clause mark/POS/wordowner decoded.
+Existing2026-08-09 correction had been missed;819/820 do not revalidate all legacywork.
+
+GDT820 grouped core172loci159P9L4C,9completeP,14admittedselectors; all rootread.
+4734groups516comparisons allflatmatch;140multifragmentgroups+one??? omission retained.
+Four leading placement annotations in raw CONTEXTS, not words.67rawpair/readings,
+not independentevents; no eligiblecrosslinepair inthisselectedcore, no sentence rule.
+Noun reprise and repeated finite predicate both possible; no universal AA rule.
+F75r33 is contact, notdoublet; other chedy pair f72r3.26C. AABBA75r38 retained.
+New separate POST C0 raiin=steigt? PHYSICAL_UPWARD_ONLY, not increase/heat/is/fall.
+F77r34 trial: ... Luft? || Luft? [checkhy] steigt?; first Luft...wird/enthält...Luft
+still unexplained; IT extra chedy, RF@206;aiin opaque. No warm/moist insertion.
+All core exactraiin66r80/77r34 plus known76r51/82r24 sal-raiin records:12displays,
+14exacttokens acrossreadings,174unique records total. No fullcomparatorP/all39census.
+66r80 rises?-if? fits positiononly; sal and other moving subjects unidentified.
+No dictionaryadoption; candidate/evidence:CANDIDATES.tsv;
+820 WORKING_THEORY/REPORT govern; verbtrial ASCENT_TRIAL.json separate from818matrix.
 
 ## Which source to open
 
 | Need | Index lookup / source |
 |---|---|
-| Current boundaries / image decisions | GDT819: theory, report, source and visual notes |
+| Current content / upward-motion trial | GDT820: theory, report, candidate and content notes |
+| Actual image / boundary decisions | GDT819 |
 | Fixed line trial / candidate meanings | GDT818: candidates; GDT819 corrections govern |
 | Earlier vapour/basin / concrete nouns / quality | GDT817 / GDT816 / GDT814 |
 | Earlier powder/copula and extra pages | GDT813 / GDT812 |
@@ -111,8 +114,7 @@ unchanged; GDT819 WORKING_THEORY/REPORT and src/READING_DECISIONS govern correct
 | Legacy renderer/dictionary | GDT734; later corrections govern |
 | Label / axis corrections | GDT792–798 / GDT800–808 |
 
-GDT737 quarantines80 initial-derived cards; GDT738 holds solaiin/sols salt/species;
-GDT754 removes component prose. Oil/water/wine remain open (GDT769–786).
+GDT737 quarantines initial-derived cards; GDT754 removes component prose.
 
 ## Avoid repeating work
 
@@ -126,14 +128,13 @@ No failed-route rerun without new data/different prediction. Do not revive:
 - the withdrawn f57/f77 element decoder, literal Naibbe/whitespace route or FST34/V2;
 - botanical species naming by resemblance plus recycled medicinal-use statistics;
 - GDT629 clause rediscovery or GDT686/GDT764 degree-versus-amount dispatch;
-- the same GDT809 rankings, GDT810 arity count or GDT811 reference/scope inventories.
+- old GDT809 rankings, GDT810 arity or GDT811 scope inventories.
 
 ## Next useful work and efficient operation
 
-Next: source-group layer in bounded GDT818 predicate/connective contexts, then
-actual doublets and finite-verb assumption against concrete whole paragraphs.
-Do not infer words from ASCII splits or rerun global atlas. No auxiliary rescue,
-new noun menu or line-reset rule. Existing sentence remains an exploratory guess.
+Next: all exact raiin in admitted39 selectors, whole paragraphs, unchanged spatial
+steigt sense. Not another verb menu. qokedy carrier vs content/result remains
+the second explicit debt. No newpage needed; no ASCII splits or auxiliary rescue.
 
 Reuse readers/batch probes. Workflow:`docs/WORKFLOW.md`; preserve bound tools.
 

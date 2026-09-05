@@ -1,0 +1,58 @@
+{
+  "added_records_outside_core": 2,
+  "all_raiin_in_admitted39": false,
+  "combined_unique_records": 174,
+  "comparator_loci": [
+    "f76r.51",
+    "f82r.24"
+  ],
+  "confirmed_lexemes": 0,
+  "confirmed_plaintext_clauses": 0,
+  "core_raiin_loci": [
+    "f66r.80",
+    "f77r.34"
+  ],
+  "dictionary_changed": false,
+  "exact_raiin_occurrences": 14,
+  "experiment_id": "GDT820",
+  "guarded_query": {
+    "command": [
+      "./vmanus-exp",
+      "query-tsv",
+      "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "--selector",
+      "page",
+      "--allow",
+      "f66r",
+      "--allow",
+      "f76r",
+      "--allow",
+      "f77r",
+      "--allow",
+      "f82r",
+      "--columns",
+      "source_group_id,edition,locus,page,source_group_index,source_group_count,paragraph_start,paragraph_end,left_separator,right_separator,ivtff_group_raw,clean_ascii_fragments,clean_ascii_fragment_count,legacy_surface_positions_1based,legacy_mapping_status",
+      "--forbid-prefix",
+      "f84",
+      "--forbid-prefix",
+      "f84r"
+    ],
+    "projection_sha256": "17911779263fe726c0df8be44a45b97f34c7cbdc520d49499aa37b45c5d536e3",
+    "stats": {
+      "selected": 4570,
+      "skipped_forbidden": 2122,
+      "skipped_not_allowed": 108778
+    }
+  },
+  "meanings_validated": false,
+  "new_admissions": 0,
+  "phase": "POST_GROUP_READING_C0_CONTINUATION",
+  "trial_loci": [
+    "f66r.80",
+    "f76r.51",
+    "f77r.34",
+    "f82r.24"
+  ],
+  "trial_rows": 12,
+  "whole_comparator_paragraphs_read": false
+}
