@@ -1,10 +1,26 @@
 # Voynich active state — structural reset baseline
 
-Updated: 2026-09-05. This is the full claim registry. For routine work, read
+Updated: 2026-09-06. This is the full claim registry. For routine work, read
 `VOYNICH_CURRENT_ROUTE.md` first and open only the relevant sections here and in
 `experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv`.
 
 ## Outcome
+
+### GDT832 independent control prepared (2026-09-06; fits unscored)
+
+User authorizes execution. ITTB reference and UDante Monarchia supply128/325
+discovery/held citation-run paragraphs and397 source-family pairs;254 share
+reference lemmas. Independent original-source recount passes. Before any key
+or fit, the initial mandatory-four-suffix coverage gate stops at a rule absent
+from both partitions. Its artifact remains byte-fixed. An explicit pre-fit
+design correction limits inverse identification to observed rules, as for
+unused letters:24L/3S/8W; the fourth nominal suffix stays unidentifiable.
+No text, split, deck, seed or recovery/gain threshold changes. This does not
+retroactively pass the original gate. Prospective matched FULL/CUT/OFF/REWIRED
+and shuffled controls use known boundaries/classes, incomplete attested families,
+and120 train-only starts before locked key-truth evaluation. No fit result or
+Voynich data; GDT616/CDA001 remain closed.
+Primary: `experiments/yolo/gdt832_joint_family_context_control/REPORT.md`.
 
 ### Joint family/context decoder candidate (2026-09-05; control-only, unexecuted)
 

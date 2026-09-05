@@ -1,5 +1,11 @@
 # Wortfamilien und Absatzkontext unter einem gemeinsamen Leseschlüssel
 
+Umsetzung nach Nutzerauftrag: [GDT832](../../experiments/yolo/gdt832_joint_family_context_control/REPORT.md)
+beginnt mit einem begrenzten unabhängigen Kontrollmodell. Der ursprüngliche
+Vorschlag unten bleibt als Entwurf erhalten; Status und Ergebnisse stehen im
+verlinkten Bericht. Die erste Umsetzung nutzt belegte Co-Lemma-Beziehungen,
+noch keinen vollständigen historischen Paradigmengenerator.
+
 5. September 2026. **PROPOSED_CONTROL_ONLY_UNEXECUTED**. Methodenvorschlag und
 statische Quellenprüfung; kein neuer GDT, kein Fit, keine Lesung und keine
 numerische Preregistrierung. Empfohlener nächster Methodenkandidat. Die frühere

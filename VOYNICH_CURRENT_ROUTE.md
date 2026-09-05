@@ -1,12 +1,11 @@
 # Voynich current route
-Updated: 2026-09-05. Read first.
+Updated: 2026-09-06. Read first.
 
 ## Current mandate
 
-Latest request (2026-09-05): a better idea after the structural-knowledge
-clarification. Recommended method candidate: joint word-family and continuous
-paragraph decoding, control-only and unexecuted; see below. No manuscript fit
-is selected. Root's required personal whole-page native-vision orientation is
+Latest request (2026-09-05): execute the proposed joint family/context control.
+GDT832 prepares independent historical Latin data and a prospective blind fit;
+see below. No manuscript fit is selected. Root's personal whole-page orientation is
 completed and remains part of future work. For that viewing, subagents may
 help with source metadata only; root performs the visual interpretation.
 
@@ -41,24 +40,26 @@ layouts. Source logistics alone were delegated. The observational dossier is
 No new experimental or semantic claim, no new page admission. User's required
 visual understanding remains part of future work; no experiment executed; see the new proposed candidate below.
 
-## Recommended method candidate — joint families and paragraph decoding
+## Active control — GDT832 joint family/context recovery
 
-`docs/joint_reading/PROPOSAL.md`, PROPOSED_CONTROL_ONLY_UNEXECUTED. One bounded
-shared spelling model must jointly explain historical whole-form paradigms
-and continuous plaintext across wholeword/component interfaces. Existing formal
-grammar constrains analysis without declaring its working POS/roots true.
-Root-verified static audit: GDT610 scores words independently; GDT612 carries
-context within chunks but trains separate chunk types. GDT001 already uses
-word order, and GDT603 already uses continuous alphabetic context: continuity
-alone is not new. No causal recovery benefit is established by this code audit.
+`experiments/yolo/gdt832_joint_family_context_control/REPORT.md`.
+Independent ITTB reference:335601 words and attested co-lemma relations;
+UDante Monarchia:128 discovery/325 held citation-run paragraphs,5336/13826words.
+397 source-family edges,254 reference-supported. Known word/paragraph boundaries
+and L/S/W roles are supplied control information; full historical paradigms and
+unknown Voynich segmentation are not implemented by this first factor model.
 
-First resolve historical paradigm-resource availability and a precise encoding
-class, then preregister blind recovery of unchanged continuous historical text,
-held forms/lemmas and paragraphs, with matched context/paradigm ablations.
-No new GDT, numerical registration, generator, fit or target result yet.
-GDT616's fixed configuration remains closed. CDA001's missing independent
-text/value evidence is not supplied by a stronger decoder or a control pass;
-this proposal does not reopen cached translation fits. No new page admission.
+Initial pre-key capacity stopped at one nominal suffix absent in both splits.
+Its CAPACITY.json remains unchanged. Explicit pre-fit correction assesses only
+observable rules, analogously to unused letters:24L/3S/8W. No text, deck, split,
+seed or recovery/gain threshold changed; the original gate is not relabeled.
+Independent source recount passes. Prospectively publish code/inputs before
+all120 fits; lock120 restarts/15 selected keys before evaluator key-truth access.
+FULL/CUT/OFF/REWIRED and pseudo controls share candidates and budgets. No fit
+or recovery result yet. The predecessor idea is `docs/joint_reading/PROPOSAL.md`.
+
+GDT616 remains closed. A control pass cannot supply CDA001's missing independent
+text/value evidence or authorize a cached Voynich translation fit. No new page.
 
 ## Earlier proposals remain unexecuted
 
