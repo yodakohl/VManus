@@ -6,6 +6,21 @@ Updated: 2026-09-05. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### Internal recoded-parallel-passages proposal (2026-09-05; unexecuted)
+
+On the user's request for a substantially stronger idea, recommend exact
+ordered repetition matching of complete source groups, a fixed nonidentity
+bijection, and prediction of pre-excluded whole text sequences. No real pair,
+map, GDT registration, numeric threshold or target score yet. Discovery must
+exclude validation material globally, including overlapping windows/readings;
+search costs and repeated-template controls apply. A true recoding of nonsense
+could pass, so no semantic equivalence follows. Targeted predecessor screening
+found no identical completed test, without claiming exhaustive novelty.
+Root retains direct image review. Main: `docs/internal_parallel_passages/PROPOSAL.md`.
+A separate static GDT610 per-word-context-reset note is retained without a new
+language fit: `docs/internal_parallel_passages/OTHER_REVIEW_NOTE.md`.
+
+
 ### l/m-width priority corrected (2026-09-05; unexecuted)
 
 The initial rank1 recommendation is withdrawn after reviewing expected value.

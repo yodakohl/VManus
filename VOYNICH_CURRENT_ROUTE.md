@@ -63,7 +63,7 @@ keys across whole-plant, figure/becken, circular, small-object and text-heavy
 layouts. Source logistics alone were delegated. The observational dossier is
 `docs/visual_overview/README.md`; exact viewed images: `docs/visual_overview/SOURCES.json`.
 No new experimental or semantic claim, no new page admission. User's required
-visual understanding remains part of future work; no fixed successor plan.
+visual understanding remains part of future work; no experiment executed; see the new proposed candidate below.
 
 ## Priority correction — l/m width is not the main route
 
@@ -74,7 +74,22 @@ a narrow direct-space-saving premise. Rank1 was not supported by a comparative
 assessment of expected decipherment information. Root withdraws that ranking.
 This is a planning correction, not a test result. Optional side check only;
 no widths, new GDT, independent space-pressure measurement or meanings.
-No replacement main route is yet selected. Closed experiments remain closed.
+The former ranking remains withdrawn. The new proposed main candidate is
+described below; closed experiments remain closed.
+
+## Recommended main candidate — internally recoded parallel passages
+
+User requests a substantially better decipherment idea. Recommendation:
+`docs/internal_parallel_passages/PROPOSAL.md`, PROPOSED_UNEXECUTED. Search exact
+ordered repetition patterns of complete source groups, learn one fixed
+nonidentity bijection on discovery material and require exact predictions in
+pre-excluded passages with substantial coverage and independent transfer.
+No real candidate/map is claimed; no GDT experiment or numeric design registered.
+This is not relaxed GDT829 literal matching, a language-score fit or free
+synonym alignment. Whole-group boundaries and alternate readings stay visible.
+Search-adjusted controls and copied nonsense limit interpretation: a pass gives
+formal recoding evidence, not equal meanings or translation. Root will review
+any candidate images personally within recorded admission. No new page access.
 
 ## Understanding basis and limits
 
