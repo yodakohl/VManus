@@ -1,0 +1,273 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "All39 admitted raw-exact inventory:28 reader-group hits/12 loci/7 selectors;7 complete P plus one L and one C;65 loci/all3 read,1724 groups/195 displays. Separate POST lightness rival changes only28 exact glosses and confidence; neither is confirmed or global winner. No new page/image/dictionary/confirmed word/clause/scored edge. Source validators do not validate semantics.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt821_raiin_admitted_paragraph_transfer/src/run.py --check",
+    "validate": "python3 experiments/yolo/gdt821_raiin_admitted_paragraph_transfer/src/validate.py --check"
+  },
+  "created": "2026-09-05",
+  "dependencies": [
+    "GDT785",
+    "GDT791",
+    "GDT812",
+    "GDT819",
+    "GDT820"
+  ],
+  "experiment_id": "GDT821",
+  "inputs": [
+    {
+      "path": "transcription/voynich_zl3b_lines.tsv",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "7520dd4c11f4d23c8492e4b2a52cc0fcbda6d9fc88a96ead8f1c31081a4d7ed2"
+    },
+    {
+      "path": "transcription/voynich_cross_transcription_lines.tsv",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "ff3a4559004a29764c60102326de154b29fbba06a2a206bdd76d7feda432e16c"
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0"
+    },
+    {
+      "path": "experiments/semantic_assumptions/SOURCE_SEPARATOR_TRANSCRIPTION_SPEC.md",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "fdcfb65a67438ae154979b1499ce63dc359e0e65ae5eaf93e73637e7dec3ec46"
+    },
+    {
+      "path": "experiments/semantic_assumptions/build_source_separator_transcription.py",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "dd93f78547a4917334b3bbf3d10e6af075b2ef2d2870e25bcfcdab5cd41aee51"
+    },
+    {
+      "path": "vmanus-exp",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "53b69eec8412b54d1248fd52d91c06e0eabc7f436b9015d0cfdb0746606c1528"
+    },
+    {
+      "path": "tools/vmanus_exp_cli.py",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "67af0295b7f1282062981331982d893091532d07acbd986ed744ce9076b6b5dd"
+    },
+    {
+      "path": "tools/vmanus_experiment.py",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "0b84a5503f8d4aa2e1d23c449da1cd1b2d2059f4d7f74727c6b899928e59cce2"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/src/PAGE_SELECTOR_SPECS.tsv",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "69e5463f7ce6c22bd83fe35e4fdc0601731a3c470b5c510a15ac3befa1716bae"
+    },
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/src/PAGE_ADMISSIONS.tsv",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "1636a5868a86fca239156772119d41cca52ec8044b616f3110507289452fab0b"
+    },
+    {
+      "path": "experiments/yolo/gdt819_written_predicate_boundary_review/src/run.py",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "e518a340edf025db0958c81ee106d3dc67b5c05d8606b0ef9c75fd07e854b450"
+    },
+    {
+      "path": "experiments/yolo/gdt820_grouped_predicate_repetition_context/src/run.py",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "84224c1c217f76febf843c9fc3a005cb2cb72cdf5554252853f17e4bd2b6e166"
+    },
+    {
+      "path": "experiments/yolo/gdt820_grouped_predicate_repetition_context/src/ASCENT_TRIAL.json",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "921160cf1dbf501348c11146cebe7680a69c7a244fb3f8522c84faf9ddd47db9"
+    },
+    {
+      "path": "experiments/yolo/gdt820_grouped_predicate_repetition_context/WORKING_THEORY.md",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "605cc54898516e12ba3b72cbea6866b8690d5a34501e7c2a69817afad7cd1674"
+    },
+    {
+      "path": "experiments/yolo/gdt820_grouped_predicate_repetition_context/REPORT.md",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "b5594cf38b334a6f5614f65ca375fc49bd57d11326de6169c9d3a8ce44a37f81"
+    },
+    {
+      "path": "experiments/yolo/gdt785_sal_exact_whole_field_census/REPORT.md",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "b4b54d40b26a32c640c1e40f4b9dae3852071ff5b33ae732e1a281d1fcfa5c2e"
+    },
+    {
+      "path": "experiments/yolo/gdt785_sal_exact_whole_field_census/src/run.py",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "1cbba528d9559c8814399169ff5b8f216e8122167fdbc52f49583c1fc0227609"
+    },
+    {
+      "path": "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt821_raiin_admitted_paragraph_transfer/METHOD.md",
+      "role": "compact_result_or_report",
+      "sha256": "3d2315d788b8e9160408eef1017ae9508af2ae0c783749ac130de8a4966174eb"
+    },
+    {
+      "path": "experiments/yolo/gdt821_raiin_admitted_paragraph_transfer/PREREGISTRATION.md",
+      "role": "compact_result_or_report",
+      "sha256": "03545752222c784b6d8610b8d176d047d8df8a4e4958b0314c7c7a104e94ecd4"
+    },
+    {
+      "path": "experiments/yolo/gdt821_raiin_admitted_paragraph_transfer/README.md",
+      "role": "compact_result_or_report",
+      "sha256": "e500abdcf4a7eb8e373c0b3b62e059e72402e21025fca058362c6d80a2cc1ba5"
+    },
+    {
+      "path": "experiments/yolo/gdt821_raiin_admitted_paragraph_transfer/REPORT.md",
+      "role": "compact_result_or_report",
+      "sha256": "85e54762b22b19bda5df98115827989ac01b6b67b527a0802247ad834893eaab"
+    },
+    {
+      "path": "experiments/yolo/gdt821_raiin_admitted_paragraph_transfer/WORKING_THEORY.md",
+      "role": "compact_result_or_report",
+      "sha256": "316fa73d8d3e661f59418d8bf6da000b2040fc67b983a5588e6028bf14f21073"
+    },
+    {
+      "path": "experiments/yolo/gdt821_raiin_admitted_paragraph_transfer/artifacts/ADMITTED_SELECTORS.tsv",
+      "role": "compact_result_or_report",
+      "sha256": "32cccae4fdfd10ffd1243655047cc2ea9d8ba063d359a3b3fc6eda7f67ca1c59"
+    },
+    {
+      "path": "experiments/yolo/gdt821_raiin_admitted_paragraph_transfer/artifacts/BLOCKS.tsv",
+      "role": "compact_result_or_report",
+      "sha256": "936ab42550c2914706bc69d5081f7ae93d5f132d32e8040c9fe91ac96b0adecb"
+    },
+    {
+      "path": "experiments/yolo/gdt821_raiin_admitted_paragraph_transfer/artifacts/CLEAN_ONLY_HITS.tsv",
+      "role": "compact_result_or_report",
+      "sha256": "e812718450d21f55207dda731d83ef351d5541bd2ffaadb6eed20e9fae8ccfd1"
+    },
+    {
+      "path": "experiments/yolo/gdt821_raiin_admitted_paragraph_transfer/artifacts/CONTEXTS.tsv",
+      "role": "compact_result_or_report",
+      "sha256": "2f4e1b03277486fc3e51c3ab2ebdc43cf31a2e8aeb1db8d6017c8f9660cd98f9"
+    },
+    {
+      "path": "experiments/yolo/gdt821_raiin_admitted_paragraph_transfer/artifacts/EXACT_HITS.tsv",
+      "role": "compact_result_or_report",
+      "sha256": "6ee056e56421f7ee656338c2777002219e1ef618a5c74669e7ddae5df333e7a5"
+    },
+    {
+      "path": "experiments/yolo/gdt821_raiin_admitted_paragraph_transfer/artifacts/FULL_READER.md",
+      "role": "compact_result_or_report",
+      "sha256": "e31b327a9092c28d10023098f57c5de5835ea570d210ffc74386bed50aa1120e"
+    },
+    {
+      "path": "experiments/yolo/gdt821_raiin_admitted_paragraph_transfer/artifacts/GROUP_COMPARISON.tsv",
+      "role": "compact_result_or_report",
+      "sha256": "1a6e2d668d35cc7abb2feb18f5e48065859acc1405c5d4fa3f00a14c182ad221"
+    },
+    {
+      "path": "experiments/yolo/gdt821_raiin_admitted_paragraph_transfer/artifacts/LIGHT_RESULT.json",
+      "role": "compact_result_or_report",
+      "sha256": "24556371783cc0fc2dd75a9c8dc3882b827eabdde06fedd852f0235b83a142b4"
+    },
+    {
+      "path": "experiments/yolo/gdt821_raiin_admitted_paragraph_transfer/artifacts/LIGHT_TRIALS.tsv",
+      "role": "compact_result_or_report",
+      "sha256": "690b615167e7b2d21c61cb58502df72f82840fc0016cc3fee0df1b21db9b3e57"
+    },
+    {
+      "path": "experiments/yolo/gdt821_raiin_admitted_paragraph_transfer/artifacts/LITERAL_TRIALS.tsv",
+      "role": "compact_result_or_report",
+      "sha256": "84da181175b1db6a7444f8c48033055ccd98ed77e5d32d817763c23530361b1c"
+    },
+    {
+      "path": "experiments/yolo/gdt821_raiin_admitted_paragraph_transfer/artifacts/README.md",
+      "role": "compact_result_or_report",
+      "sha256": "2a32542cf07a618387e2a771ccec3c7bc86041078cd9e4cc64a8c933375d0538"
+    },
+    {
+      "path": "experiments/yolo/gdt821_raiin_admitted_paragraph_transfer/artifacts/RESULT.json",
+      "role": "compact_result_or_report",
+      "sha256": "a3233095cd9086549d559a09aed7f744acdb4388486ae76992088a25289f98f0"
+    },
+    {
+      "path": "experiments/yolo/gdt821_raiin_admitted_paragraph_transfer/artifacts/SOURCE_GROUPS.tsv",
+      "role": "compact_result_or_report",
+      "sha256": "a567214e8d8cf27e4458d7d23165205b1f5876482321db80c2269ef082c7b524"
+    },
+    {
+      "path": "experiments/yolo/gdt821_raiin_admitted_paragraph_transfer/artifacts/VALIDATION.json",
+      "role": "compact_result_or_report",
+      "sha256": "58652f5921845ff16fefabb5c473c4c4efe69035b800b4912ce5a421da9d3330"
+    },
+    {
+      "path": "experiments/yolo/gdt821_raiin_admitted_paragraph_transfer/src/ASCENT_CONTENT.md",
+      "role": "source_or_design",
+      "sha256": "4a12227c40bb6d427d75a33c8623ca6165437ab2545c36980393a447a0555b86"
+    },
+    {
+      "path": "experiments/yolo/gdt821_raiin_admitted_paragraph_transfer/src/CANDIDATES.tsv",
+      "role": "source_or_design",
+      "sha256": "50a7fbbc0f2bf8639fddd359c79b434d024ec68744a83fd4ea9e9c69cdab6d61"
+    },
+    {
+      "path": "experiments/yolo/gdt821_raiin_admitted_paragraph_transfer/src/CHALLENGER_CONTENT.md",
+      "role": "source_or_design",
+      "sha256": "ea68e6abe6df31753e58a730d7076a2eb9423dea6ae8bb376b3f3a29e5127b7f"
+    },
+    {
+      "path": "experiments/yolo/gdt821_raiin_admitted_paragraph_transfer/src/COORDINATOR_CONTENT.md",
+      "role": "source_or_design",
+      "sha256": "533adaff6dd757359ba9f47b6c0f95310587e0cb42c668ce10a60b747228cad7"
+    },
+    {
+      "path": "experiments/yolo/gdt821_raiin_admitted_paragraph_transfer/src/LIGHT_TRIAL.json",
+      "role": "source_or_design",
+      "sha256": "8f9ff3904c415bbbf1ff7e5f073bc974d4dd23a6cc1035d523775df14866aa09"
+    },
+    {
+      "path": "experiments/yolo/gdt821_raiin_admitted_paragraph_transfer/src/SOURCE_AUDIT.md",
+      "role": "source_or_design",
+      "sha256": "ad553e7029445edce8b66f6fd2e94b4548506ac0ec5de95dcbf5bebf22bfcd11"
+    },
+    {
+      "path": "experiments/yolo/gdt821_raiin_admitted_paragraph_transfer/src/SPEC.json",
+      "role": "source_or_design",
+      "sha256": "7affcab27c7ae221f830b80a888e4239680eee403237b29a8613f10b71ab2edc"
+    },
+    {
+      "path": "experiments/yolo/gdt821_raiin_admitted_paragraph_transfer/src/light_probe.py",
+      "role": "source_or_design",
+      "sha256": "296d7393ab47586d7ad29ffe110741ed47e6eebc881b6ea8f5837ad422350a46"
+    },
+    {
+      "path": "experiments/yolo/gdt821_raiin_admitted_paragraph_transfer/src/run.py",
+      "role": "source_or_design",
+      "sha256": "c2bddf483c7dc7c483e632cf3ced8486f3235f6e39495556e0f7a4887dbb7d27"
+    },
+    {
+      "path": "experiments/yolo/gdt821_raiin_admitted_paragraph_transfer/src/validate.py",
+      "role": "source_or_design",
+      "sha256": "8a33ee0559fd35c4c703cddfc3f4a03f59c9dc0dc1ff417fb4940cbb74a19c24"
+    }
+  ],
+  "question": "Does the unchanged physical-ascent meaning fit every exact source-group raiin in the 39 admitted selectors and full containing paragraphs, and does one concrete rival explain those same contexts better?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "raiin_admitted_paragraph_transfer",
+  "status": "C0_ASCENT_VS_PHYSICAL_LIGHTNESS_NO_WORD_IDENTIFICATION",
+  "title": "Exact raiin in every admitted paragraph: ascent and one physical-lightness rival",
+  "updated": "2026-09-05",
+  "validation": {
+    "artifact": "experiments/yolo/gdt821_raiin_admitted_paragraph_transfer/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

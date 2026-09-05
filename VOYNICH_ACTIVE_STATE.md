@@ -22312,3 +22312,38 @@ mutations. Source/literalpreservation only. No newrelationevidence;818alternativ
 ineligible.39selectors34visualkeys16unusedadmissions;f84/f84r sealed;0confirmed
 words/clauses. Next alladmittedexactraiinwithwholePandsamephysicalverb,notnewmenu.
 Authority820 REPORT/WORKING_THEORY,CANDIDATES,ASCENT_TRIALandthreecontentnotes.
+
+## GDT821 — complete admitted raiin and physical-lightness rival (2026-09-05)
+
+All39 admitted selectors searched for exact raw whole raiin, per edition.
+28 reader-group occurrences (10 ZL,13 IT,5 RF),12 loci on7 selectors; not28
+independent tokens. Ten P hit loci expand to7completeP, plus1L and1C singleton
+records:65loci63P1L1C,1724groups195literaldisplays. All65/all3 read by coordinator
+and two different content readers. Inventory1062loci18981groups is not full
+manual corpus reading. Zero cleaner-only raiin hits; sourcevariants still differ.
+IT66r12 lone raiin versus ZL/RF saiin; IT88r8 versus ZL/RFs/aiin; RF@206;aiin
+and r,aiin remain opaque/separate. No new image inspection or admission.
+
+Unchanged C0 physical-ascent gains another possible air...raiin in nextP77r45,
+but8ZL/7ITinterveninggroups unknown. Whole76r/82r comparatorP now read; no decoded
+moving subject for sal.raiin or either82r24raiin. Final76r56air not automatically
+subject of initial76r51. No impossible known movement, no lexical confirmation.
+
+One separate POST-C0 rival raiin=leicht, low physical heaviness of a carrier,
+comparison reference unknown. Not dose mildness ease brightness speed or ascent.
+Local nominalsal-property economy conditional on unknownnoun; loses finiteverb
+at77r34, needs attribute/ellipsis grammar. No global winner or hybridgloss.
+Same195rows,only28exactglosspositions+confidence changed. sal remainsunknown and
+chedy becomes in both executable trials. Agent's additional oldsal=Arzneistoff
+and separatecontains illustrations are conditional, not model/dictionaryadoption.
+Historicalrelativeairlightness and impededlightbody support conceptualdifference,
+not wordkey; generalascentstatement need notdescribe momentaryevent. MediManus
+leuisproperty and indicativegrauatdoublet do not identifyVoynich/emphasis. Initial
+De caeloI.4.3 locator corrected toI.5.5/#70865 beforepublication.
+
+Independent source/allrowreconstruction:4classifier6core2annexmutations; no
+semanticvalidation ornewGDT388edge.0confirmedwordsclausesdictionarychanges.
+Next concrete qokeey contribution in82r24qokeey.lkeey.qokeey.raiin, compared
+withsal.raiin76r51/82r24. Not anothercensus,q-prefixgenericrouteorautomaticdrug
+meaning. Scope34visualkeys39selectors16unusedadmissions;f84/f84rsealed.
+Authority821REPORT/WORKING_THEORY,CANDIDATES,LIGHT_TRIALandthreecontentnotes.
