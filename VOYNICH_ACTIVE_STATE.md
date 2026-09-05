@@ -22080,9 +22080,9 @@ interleaved L records. These are editorial source boundaries, not sentence gramm
 Thirty exact-target cards produce360 literal alternate-reader/model displays,
 not360 experiments. Source/literal validation is independent of the runner.
 
-f81v.4/.5 supplies chcthy / okaiin daiin: Q can scale a property, R can scale
-the written nominal expression [chcthy dessen], conditional on chcthy being N.
-RF instead has kaiin aiin and is not smoothed. f76r.32 ain okaiin dain also
+GDT815 corrects GDT814 prose: f81v.4/.5 is ZL chcthy / okaiin daiin,
+IT chckhy / okaiin daiin, RF chckhy / kaiin aiin. Q/R retain possible
+written heads, not a common identified head. f76r.32 ain okaiin dain also
 permits written-head R; owner and head identities stay unknown. The standalone
 label and okaiin dan need head ellipsis for R, not an unnoticed switch to davon.
 f88r.22 continues to support a possible copula construction; no rival discarded.
@@ -22096,3 +22096,35 @@ No new admission, dictionary change, confirmed lexeme or plaintext clause.
 Next: concrete polarity/reference contrast without old k/t meanings, image
 temperature assumptions or another frequency-only rank. Authority:
 experiments/yolo/gdt814_okaiin_quality_reference_construction/WORKING_THEORY.md.
+
+## GDT815 — written carrier chains and historical predicate frames (2026-09-05)
+
+N/G/Q/R and seven shared wholes unchanged. K=cold? and B=bitter? are explicit
+fixed rivals, not alternative senses inside Q. All13 word/model assignments C0.
+Property architecture remains viable, but temperature itself is not selected.
+The1499 GENCIANA primary scan contains root, warm/dry II and graded bitterness;
+Latin9333 f050v separately handles complexion and bitterness. Neither is an
+exact f17r match or a secure1420 witness. Bitter has no free astral extension.
+
+Two known whole-label identities now support particular R owner hypotheses:
+okol f88r.15/.19 -> ychey okaiin chol .22, within P.18–22;
+otedy f77r.3 -> NEXT P opener.25 -> qokain okaiin .27 and solkeey okaiin .35.
+These are written antecedent CANDIDATES, not decoded parts/owners or new discoveries
+of recurrence. Q also must carry okol okaiin f24v.4 and otedy okaiin f75r.45.
+oty f70v2.5 label -> f21r.8/.9 exact cross-line carrier remains unnamed.
+Neither cthar, ychey, ain nor opoeey has an independent complete label here.
+Do not merge chcthy/chckhy; GDT814 source artifacts were already correct.
+
+Correct f72r3 centre strongly Cancer-like, but not assigned to outer .12.
+Medieval Latin sources distinguish cold/moist Cancer complexion from warm Cancer
+weather and differentiated star powers. Need subject, label owner AND predicate
+frame. No central-to-peripheral quality inheritance or new ring-order test.
+Two root cached image reviews plus agent detail review; no new download/page.
+
+Same39 selectors/34 visual page keys;16 discretionary admissions remain.
+10 construction cards/30 source views/180 literal displays, not experiments.
+3 explicit label/prose/target chains/9 reader rows;9 manual contacts go through
+GDT388 intake, zero eligible. Independent source/literal validator checks3
+negative mutations, not meanings/history/images. Dictionary unchanged;0 confirmed
+lexemes or clauses. Authority:GDT815 WORKING_THEORY.md; next whole-paragraph
+accounts of okol/ychey and otedy/qokain/solkeey with their separate pair uses.

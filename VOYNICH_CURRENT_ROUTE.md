@@ -1,6 +1,6 @@
 # Voynich current route
-Updated: 2026-09-05. Read first; route, not history.
-`./vmanus-work lookup GDT814 GDT813`: index pointers; open only needed reports.
+Updated: 2026-09-05. Read first.
+`./vmanus-work lookup GDT815 GDT814`: index pointers; open only needed reports.
 
 ## Goal and actual position
 
@@ -55,7 +55,7 @@ repetition and alternate boundaries. Similarity grants no component.
   No other width-two case on the original30 pages; f4r otchol chol defeats obligatory slots.
 - Reconstruction checks do not validate meanings; GDT811's17 edges remain ineligible.
 
-## Inherited family and active GDT814
+## Inherited family and active GDT815
 
 GDT812's four extra pages were viewed: complete reader55 loci/513 ZL tokens.
 Scalar baseline A: dan very little, dain little, daiin much, daiiin very much;
@@ -68,37 +68,39 @@ authentication through it; keep selector-bound text. Correct parent1006203
 was used for current f72r3 region, not a whole-foldout audit. See GDT812
 src/F72R_SOURCE_CORRECTION.md. No new admission; f116v not admitted.
 
-GDT813 keeps family A, otchol=this?, cthar=root?, chol=dry?; okaiin differs
-as N powder? or G is?. Standalone f88v label favours a content-word question,
-not powder/root/POS identity. G-friendly f88r.22 and all repetition costs remain.
-GDT814 adds Q warm? (no III/action) and R dessen? (anaphoric possessive genitive,
-not partitive davon/origin daraus). N/G/shared guesses unchanged, all C0.
-Q has practical PROPERTY-architecture priority, not a decoded thermal value.
-f81v.4/.5 chcthy / okaiin daiin permits written-head R as well as Q; RF reads
-kaiin aiin instead. Isolated okaiin dan still lacks a written R nominal head.
-Expanded reader:37 blocks/176 loci,20 P paragraphs/17 separate non-P records;
-30 cards/360 displays, not experiments. f76r P.1-38 spans nine interleaved L
-records, kept separate; cutting at each L had yielded incomplete fragments.
-f89r1 okaiin dan visually grouped; f72r3 opoeey okaiin graphical pairing still
-OPEN despite five correct-source views. Text pair retained; no visual owner PASS.
-Historical material/astral warmth-dryness is real, but cold-dryness also exists:
-warm vs cold unresolved. No EVA-k/t key. Two contextual edges remain ineligible.
-Source/literal checks only; no admission/dictionary change or confirmed words.
-Basis:GDT814 WORKING_THEORY.md; every trial has C0/origin/costs in src/HYPOTHESES.tsv.
+GDT813 keeps family A, otchol=this?, cthar=root?, chol=dry?; okaiin=N powder?
+or G is?. GDT814 adds Q warm? (no III/action), R possessive dessen? (not davon).
+GDT814 reader:37 blocks/176 loci,20 P/17 non-P; f76r P spans nine separate L
+records. Source paragraphs, not decoded clauses. All guesses remain C0.
+GDT815 corrects GDT814 prose: f81v.4 ends ZL chcthy, IT/RF chckhy; .5 starts
+ZL/IT okaiin daiin, RF kaiin aiin. Written head survives, not common identity.
+K cold? and B bitter? are separate fixed rivals; no within-model sense switch.
+1499 GENCIANA has root/thermal qualities and graded bitterness; not a1420 key.
+Literal bitter is not licensed for stars through an unwritten medicinal relation.
+Correct f72r3 image has a Cancer-like centre, not a proven owner of outer .12.
+Medieval Cancer is cold/moist in complexion but warm in weather: frame matters.
+f72r3 graphical word-pair registration stays OPEN; f89r1 okaiin dan grouped.
+Priority: okol label f88r.15 -> prose.19 -> ychey okaiin chol .22;
+otedy label f77r.3 -> next P opener.25 -> qokain/solkeey okaiin .27/.35.
+These known identities now supply explicit possible R owners, not proved
+antecedents/parts. Q must also carry okol okaiin f24v and otedy okaiin f75r.
+oty label f70v2.5 -> f21r.8/.9 cross-line pair is exact but still unnamed.
+10 cards/180 literal displays, not experiments;9 contacts GDT388-ineligible.
+No admission/dictionary change or confirmed words. Property domain unresolved.
+Basis:GDT815 WORKING_THEORY.md; all13 assignments C0/origin/debt in HYPOTHESES.tsv.
 
 ## Which source to open
 
 | Need | Index lookup / source |
 |---|---|
-| Current quality/reference construction | GDT814: theory, report, hypotheses |
+| Current carrier/property-frame comparison | GDT815: theory, report, hypotheses |
+| Complete quality/reference context reader | GDT814 |
 | Earlier fixed powder/copula alternatives | GDT813 |
 | Current extra-page reader and semantic comparison | GDT812 |
 | Complete-page synthesis/text | GDT811: theory and reader |
-| Shared paragraph hypotheses | GDT809: reader and dictionary |
-| Original image/text ownership | GDT790–791; PANEL > RECORD > old statement |
+| Earlier paragraph model / original ownership | GDT809 / GDT790–791 |
 | Legacy renderer/dictionary | GDT734; later corrections govern |
-| Label/prose corrections | GDT792–798; no unique-day code |
-| Line endings and independent axes | GDT800–808; no universal l/m or e/o meaning |
+| Earlier label / axis corrections | GDT792–798 / GDT800–808 |
 
 GDT737 quarantines80 initial-derived cards; GDT738 holds solaiin/sols salt/species;
 GDT754 removes component prose. Oil/water/wine remain open (GDT769–786).
@@ -121,10 +123,10 @@ Do not revive:
 
 ## Next useful work and efficient operation
 
-Next: a named referent or concrete contrast separating thermal polarity and
-gradable property from possessed quantity. No k/t grid revival, image-colour
-temperature, or frequency-only substitute. Form families do not rule out verbs.
-No broad decoder selected; no extra page needed for this immediate work.
+Next: whole-paragraph content accounts of okol/ychey (f88r) and otedy with
+qokain/solkeey (f77r), plus their independent pair uses. Seek concrete owner,
+part or property relations, not more interchangeable adjectives for okaiin.
+No ring-order, k/t or proximity-owner revival; no extra page needed.
 
 Reuse readers and batch probes; reformatting is not an experiment.
 Workflow:`docs/WORKFLOW.md`; preserve bound tools.
@@ -140,5 +142,4 @@ Workflow:`docs/WORKFLOW.md`; preserve bound tools.
   through `./vmanus-exp check-edge-packet`; text identity is not visual ownership.
 - Preserve unrelated/untracked work. Scan the exact staged tree before any
   publication. Full global checking remains separate from task-scoped checking.
-- Replace current summaries, not append chronology. Details remain in reports,
-  registry and Git.
+- Replace summaries; details stay in reports, registry and Git.
