@@ -1,0 +1,275 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Four C0 worlds;35 focal loci/420 displays;115 complete-context loci in7P+1C. Separate29 whole-record continuation contexts/174 displays, not all qokaiin singletons or full follow-up paragraphs. Complete ZL/IT seed is completion-motivated; RF incomplete. Local rightward-with attachment loses priority, no confirmed words/clauses. Four ineligible relations; no new page/image or dictionary adoption.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt818_fixed_material_container_relation/src/run.py && python3 experiments/yolo/gdt818_fixed_material_container_relation/src/continuation_probe.py",
+    "validate": "python3 experiments/yolo/gdt818_fixed_material_container_relation/src/validate.py --check"
+  },
+  "created": "2026-09-05",
+  "dependencies": [
+    "GDT675",
+    "GDT739",
+    "GDT791",
+    "GDT812",
+    "GDT813",
+    "GDT816",
+    "GDT817"
+  ],
+  "experiment_id": "GDT818",
+  "inputs": [
+    {
+      "path": "transcription/voynich_zl3b_lines.tsv",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "7520dd4c11f4d23c8492e4b2a52cc0fcbda6d9fc88a96ead8f1c31081a4d7ed2"
+    },
+    {
+      "path": "transcription/voynich_cross_transcription_lines.tsv",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "ff3a4559004a29764c60102326de154b29fbba06a2a206bdd76d7feda432e16c"
+    },
+    {
+      "path": "vmanus-exp",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "53b69eec8412b54d1248fd52d91c06e0eabc7f436b9015d0cfdb0746606c1528"
+    },
+    {
+      "path": "tools/vmanus_exp_cli.py",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "67af0295b7f1282062981331982d893091532d07acbd986ed744ce9076b6b5dd"
+    },
+    {
+      "path": "tools/vmanus_experiment.py",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "0b84a5503f8d4aa2e1d23c449da1cd1b2d2059f4d7f74727c6b899928e59cce2"
+    },
+    {
+      "path": "tools/relation_edge_intake.py",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "fb8447470aa81ed608b90aedf7478893ddf6a445351aa12ab23c6fd725be3a47"
+    },
+    {
+      "path": "experiments/yolo/gdt675_f81r_card_occurrence_conflict_scan/REPORT.md",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "ba787c1ae953e67846495a19df94f3e357c7f2569ad2a35821ce1307bcb4f985"
+    },
+    {
+      "path": "experiments/yolo/gdt739_twelve_whole_local_dimension_dispatch/REPORT.md",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "f8925bcdfc3832b6eadad3429e760c8e2785cf3424e8233db91260c0c6ba8761"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/src/PAGE_SELECTOR_SPECS.tsv",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "69e5463f7ce6c22bd83fe35e4fdc0601731a3c470b5c510a15ac3befa1716bae"
+    },
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/src/PAGE_ADMISSIONS.tsv",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "1636a5868a86fca239156772119d41cca52ec8044b616f3110507289452fab0b"
+    },
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/src/family_probe.py",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "20674c29aaed02d1c97c8f31e82e120b0679e4e6ee60e4b68d67f17229d7fdac"
+    },
+    {
+      "path": "experiments/yolo/gdt813_f17_content_word_transfer/src/SPEC.json",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "4e026756f6adc0845250aaf271e525f6dcb02b07e33adc3b46eefd21adf36263"
+    },
+    {
+      "path": "experiments/yolo/gdt816_paragraph_content_models/src/SPEC.json",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "9dd18d67016b45443b39cf1c6a06e4dec1ed8041e4eb62da21fbc83319e79963"
+    },
+    {
+      "path": "experiments/yolo/gdt817_solkeey_external_content/REPORT.md",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "91b5d68ee69b58542dda9f4d5c4df8b6d33e848dc1378012c9b7a2e425146923"
+    },
+    {
+      "path": "experiments/yolo/gdt817_solkeey_external_content/WORKING_THEORY.md",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "e21752373c9eb19d05d1fd52e40e28437395ba27d5523ce65cf66a19852b6cfc"
+    },
+    {
+      "path": "experiments/yolo/gdt817_solkeey_external_content/artifacts/FOCAL.tsv",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "839b6c05574515cb7543b4705487981b0a7e3a19eddf54cd88910426a40e6c9b"
+    },
+    {
+      "path": "experiments/yolo/gdt817_solkeey_external_content/src/COORDINATOR_CONTENT.md",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "36f5685f659b5026ee9a76ca78a4ec895dc19a36cbe94e5b7e14ee2788db920e"
+    },
+    {
+      "path": "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt818_fixed_material_container_relation/METHOD.md",
+      "role": "report_or_design",
+      "sha256": "57670a0c2b405bbc85f6eb33ead7f13c7059dcbcf6ca15c5def644a56aebceda"
+    },
+    {
+      "path": "experiments/yolo/gdt818_fixed_material_container_relation/PREREGISTRATION.md",
+      "role": "report_or_design",
+      "sha256": "7a61b1f654819f08fdb3d912bcd63a600446cd4935dd5a41223e5377e6cfbff1"
+    },
+    {
+      "path": "experiments/yolo/gdt818_fixed_material_container_relation/README.md",
+      "role": "report_or_design",
+      "sha256": "5945cc12324137e3c61897ab086c4621d1c6d6f42b2f5e3c701720d1f7ff095f"
+    },
+    {
+      "path": "experiments/yolo/gdt818_fixed_material_container_relation/REPORT.md",
+      "role": "report_or_design",
+      "sha256": "70297594bd7dbffabe4f00558b1d0c0f29ec7186a388771acc62403e9d692757"
+    },
+    {
+      "path": "experiments/yolo/gdt818_fixed_material_container_relation/WORKING_THEORY.md",
+      "role": "report_or_design",
+      "sha256": "d4b0b29c93112d4ec99c2a9aab88a70abc73057f8b610969aa5bccb0edaae0e8"
+    },
+    {
+      "path": "experiments/yolo/gdt818_fixed_material_container_relation/artifacts/BLOCKS.tsv",
+      "role": "compact_result",
+      "sha256": "30cbb0d254c13b651de9f9844249d0ab1ad4c28c9cf5aa6fb9163d5479725b2a"
+    },
+    {
+      "path": "experiments/yolo/gdt818_fixed_material_container_relation/artifacts/CONTEXTS.tsv",
+      "role": "compact_result",
+      "sha256": "6a32790f87b290df5033e32129f110d6f9a7225867026f8ef1e6556445b6456c"
+    },
+    {
+      "path": "experiments/yolo/gdt818_fixed_material_container_relation/artifacts/CONTINUATION_CONTEXTS.tsv",
+      "role": "compact_result",
+      "sha256": "6deb4468e4f10ce811b3052a021e816a723f62d9420ad2a87cc50b888cd19400"
+    },
+    {
+      "path": "experiments/yolo/gdt818_fixed_material_container_relation/artifacts/CONTINUATION_RESULT.json",
+      "role": "compact_result",
+      "sha256": "2af2b8e122356e34bf1246399ad563708b0a0adeb6b816d0d835c719113dd324"
+    },
+    {
+      "path": "experiments/yolo/gdt818_fixed_material_container_relation/artifacts/CONTINUATION_TRIALS.tsv",
+      "role": "compact_result",
+      "sha256": "18b100b6b2a153b5383d2d0df243a35bddb6dc781f28e4e9d4fc6a8f0192b7b5"
+    },
+    {
+      "path": "experiments/yolo/gdt818_fixed_material_container_relation/artifacts/EDGE_GATE.json",
+      "role": "compact_result",
+      "sha256": "100196b17db3ab988b714bdc7a04d9e753cce2759fe81d293b7bbee6c557cf16"
+    },
+    {
+      "path": "experiments/yolo/gdt818_fixed_material_container_relation/artifacts/FULL_READER.md",
+      "role": "compact_result",
+      "sha256": "13d8e7e1336f633106a8871171f196e40c75b1ef4fc3f4e0ac7e0a0c1dd12106"
+    },
+    {
+      "path": "experiments/yolo/gdt818_fixed_material_container_relation/artifacts/HITS.tsv",
+      "role": "compact_result",
+      "sha256": "ea34b007b382715435f63b25d889137a92fdc4d556a835d61b417940f576956b"
+    },
+    {
+      "path": "experiments/yolo/gdt818_fixed_material_container_relation/artifacts/LITERAL_TRIALS.tsv",
+      "role": "compact_result",
+      "sha256": "df69ff00c4f024198f05d2c79c0b8b3a88d3b9189ac7ad7762e09d89f2cac432"
+    },
+    {
+      "path": "experiments/yolo/gdt818_fixed_material_container_relation/artifacts/README.md",
+      "role": "compact_result",
+      "sha256": "3be1dc61195e34963759e01240f2ca39d2019be80731e4c4de698580aa5a8aab"
+    },
+    {
+      "path": "experiments/yolo/gdt818_fixed_material_container_relation/artifacts/RESULT.json",
+      "role": "compact_result",
+      "sha256": "1d7b44be7e4e0f1e414de5e956bc07f431d2a8a53d5761ddb80f58e34d3e2e9d"
+    },
+    {
+      "path": "experiments/yolo/gdt818_fixed_material_container_relation/artifacts/TAIL_HITS.tsv",
+      "role": "compact_result",
+      "sha256": "a0b0eec51cba9da97dcf8cbab9a3573b6357645471950f49f84e604de7ca91a7"
+    },
+    {
+      "path": "experiments/yolo/gdt818_fixed_material_container_relation/artifacts/TAIL_ROWS.tsv",
+      "role": "compact_result",
+      "sha256": "e3e9cb45f6bb905875ab5602ee09037dbf348d17ab6b74817bd71966d47fc2c8"
+    },
+    {
+      "path": "experiments/yolo/gdt818_fixed_material_container_relation/artifacts/VALIDATION.json",
+      "role": "compact_result",
+      "sha256": "2cf4b25fdf35f4014eaa76c43a7743d512f9313069484dce4899723e528f9d1b"
+    },
+    {
+      "path": "experiments/yolo/gdt818_fixed_material_container_relation/src/BATHHOUSE_CONTENT.md",
+      "role": "implementation_or_manual_source",
+      "sha256": "3aecddd8fa184b7bc74ec6e753baa1fca00c8ce421a5ee70d2e520f3e4a2c818"
+    },
+    {
+      "path": "experiments/yolo/gdt818_fixed_material_container_relation/src/CANDIDATES.tsv",
+      "role": "implementation_or_manual_source",
+      "sha256": "51f7e91e1ccf4013a1ae03d93cd13f65a0e4317f8eb936812ff6970f2151a43e"
+    },
+    {
+      "path": "experiments/yolo/gdt818_fixed_material_container_relation/src/HISTORICAL_CONTINUATION.json",
+      "role": "implementation_or_manual_source",
+      "sha256": "83f780f7243543107b84d1a4f4a0f201759c93168f7fafd949a8bb423a10178a"
+    },
+    {
+      "path": "experiments/yolo/gdt818_fixed_material_container_relation/src/HISTORICAL_RELATIONS.md",
+      "role": "implementation_or_manual_source",
+      "sha256": "8359733ed9534ddabb1eea07667e281bd8a561e57ead6e3b0a5bc925ad47f03b"
+    },
+    {
+      "path": "experiments/yolo/gdt818_fixed_material_container_relation/src/RELATION_PACKET.tsv",
+      "role": "implementation_or_manual_source",
+      "sha256": "5259cc5f0e83829b046944a9113af4f8df61f870e5f42580a21f378e8ff43371"
+    },
+    {
+      "path": "experiments/yolo/gdt818_fixed_material_container_relation/src/SOURCE_AUDIT.md",
+      "role": "implementation_or_manual_source",
+      "sha256": "7520dee2f238451acd5994c5e44c26491ed2826646ae949999a6c5a3e317483d"
+    },
+    {
+      "path": "experiments/yolo/gdt818_fixed_material_container_relation/src/SPEC.json",
+      "role": "implementation_or_manual_source",
+      "sha256": "3998267c35d36226d73a01f693dcfc69e1c968a2a447c36c1dad094a19e497ec"
+    },
+    {
+      "path": "experiments/yolo/gdt818_fixed_material_container_relation/src/continuation_probe.py",
+      "role": "implementation_or_manual_source",
+      "sha256": "c2f8156fb49906bf20fff4a37a2e2a3d72a980b480e2b90506b921ee8ca2bf42"
+    },
+    {
+      "path": "experiments/yolo/gdt818_fixed_material_container_relation/src/run.py",
+      "role": "implementation_or_manual_source",
+      "sha256": "e247a06e973b04f6229d0078cbdbc2de6a04a0fa383ae3bf6936187beed206f2"
+    },
+    {
+      "path": "experiments/yolo/gdt818_fixed_material_container_relation/src/validate.py",
+      "role": "implementation_or_manual_source",
+      "sha256": "60086aa5cbfe3219773f555e1c04772666a5adbb9466754f9a13cec230c5d49f"
+    }
+  ],
+  "question": "Can a fixed vapour/basin by becomes/contains comparison explain full paragraph relations, and do explicit if-air-is-cold versus with-only tails supply a transferable construction without changing word meanings?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "fixed_material_container_relation",
+  "status": "C0_FULL_LINE_CONDITION_TRIAL_WITH_ATTACHMENT_DEBT_NO_TRANSLATION",
+  "title": "Fixed material/container predicates and a concrete conditional continuation",
+  "updated": "2026-09-05",
+  "validation": {
+    "artifact": "experiments/yolo/gdt818_fixed_material_container_relation/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

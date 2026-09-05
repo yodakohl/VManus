@@ -1,6 +1,6 @@
 # Voynich current route
 Updated: 2026-09-05. Read first.
-`./vmanus-work lookup GDT817 GDT816`: index pointers; open only needed reports.
+`./vmanus-work lookup GDT818 GDT817 GDT816`: index pointers; open only needed reports.
 
 ## Goal and actual position
 
@@ -34,23 +34,21 @@ Translate concrete content with transferable meanings. No translation yet.
 Page hierarchy, line effects, technical shells and learned wholes; no sentence reset rule.
 Description of substance/part/quality and ingredient/amount/process remain rivals.
 
-Structural tags are analyst variables: H1/H2 favor entry, H3/H4 internal/final
-positions; the semantic pairing failed transfer (GDT736–737). No POS decoded.
+Structural tags: H1/H2 favor entry, H3/H4 internal/final; semantic transfer
+failed (GDT736–737). No POS decoded.
 GDT333 rejects universal register-independent roles. GDT336 supplies only a
 weak placement prior, not a decoder. GDT398 licenses no free equivalence merges.
 
-Renderer: bound span > licensed whole > unknown. Consume once; preserve
-repetition and alternate boundaries. Similarity grants no component.
+Renderer: span > licensed whole > unknown; consume once, retain doublets
+and alternate boundaries. Similarity grants no component.
 
 ## Inherited results: GDT809–811
 
-- GDT809 quality/degree vs state/amount unresolved; cthy leaf/herb/opaque tied.
-- GDT810 quality arity fails beyond f32v; sho came from sh+o composition.
-- GDT811 complete reader: labels separate, no object decoded;17 edges ineligible.
-  okol/qokol cross-register, not plant names; ofaldo/ofal not a decoded species.
-- Two f17r otchol-X-Y-chol spans exact, one cross-line; f4r defeats obligatory slots.
+GDT809 axes unresolved; GDT810 arity fails beyond f32v; sho was sh+o-derived.
+GDT811: no object decoded;17 edges ineligible; f4r defeats obligatory slots.
+Two f17r otchol-X-Y-chol spans exact; okol/qokol and ofaldo/ofal not species.
 
-## Inherited family and active GDT817
+## Inherited family and active GDT818
 
 Scalar baseline A: dan very little, dain little, daiin much, daiiin very much;
 all C0 wholes. Comparison/excess and I-IV rivals remain; no dictionary adoption.
@@ -71,39 +69,41 @@ Cancer-like centre does not own outer .12; cold complexion vs warm weather matte
 f72r3 pair registration OPEN; f89r1 okaiin dan grouped (GDT815).
 GDT816 C0: Q okol=plant drug?, R okol=whole plant?; both chor=leaves?,
 ychey=plant juice?, otedy=water source?, qokain=water?, solkeey=aqueous vapour?.
-Joint Q warm/dry explicitly humoral, declared POST-external; physician's physical
-warmth not pooled. R dry same frame. Four whole P+2L and94 external loci read;
-no lexeme identified. Earlier owner candidates remain unproved; f81v first P
-has no source before qokain okaiin .6; source .10 is in NEXT P. Cross-register
-juice/plant/source debts remain. qokaiin unknown; no qokeedy heating actions.
+Joint Q warm/dry humoral, POST-external; no pooling physical warmth. R dry same.
+Owners unproved: f81v first P lacks source before water-whose .6; source .10
+is NEXT P. Cross-register noun debts remain; no qokeedy heating actions.
 
-GDT817 adds separate C0 chedy=becomes? and ol=or? trials, no dictionary adoption.
-f77r.35 solkeey okaiin chedy qokain -> vapour whose becomes water, proposed
-owner source .25. Actual medieval condensation clauses, not a word key.
-Remaining4words unknown. f81v P.10–27 contains source .10 ZL/IT, water .17,
-vapour .19, but no okaiin or bound transformation. f83r P.52–55 has neither
-source/water/okaiin/chedy;2 ol-final lines then daiin ol dain = much or little?.
-Global simple or loses priority: ol ol f81r.4 all3;2–3 adjacent ol in .5.
-chedy chedy f76r.23/f72r3.26 ZL/IT burdens finite becomes; no deletion or
-unwritten steps. Keep local clause/quantity seeds, not universal word adoption.
-Visual f81v/f83r: open containers, no uniquely identified vapour or word owner.
-Separate solkeey=basin? rival cannot inherit becomes water as becomes filled.
-35 focal P loci/273 ZL words;133 threepage records;210 base+extended rows.
-20 challenge rows/10 loci in39 scope;511 inventory rows NOT all read
-semantically.3 relations GDT388-ineligible. No new page or confirmed words.
-Basis:GDT817 WORKING_THEORY.md;23 inherited/new assignments in HYPOTHESES.tsv.
+GDT817 keeps the C0 vapour-whose-becomes-water seed; ol=or loses global priority
+on ol ol / ol ol ol. chedy doublets burden finite becomes. No image word owner.
+GDT818 fixed2x2: solkeey=vapour/basin × chedy=becomes/physically contains;
+R otherwise unchanged, ol unknown. Basin-becomes-water is not becomes-filled.
+Contains fixes that local mismatch, not doublets or unknown subjects/owners.
+Water precedes chedy f75r16/22 all3; a line ending does not end the P clause.
+F83r9–17 has chedy-water but no exact vapour/basin/source word to name its subject.
+Separate complete ZL/IT f77r35 trial: vapour whose becomes water if air is cold.
+Four new C0 guesses sheedy=if,qokaiin=air,chedaiin=is,chealy=physical cold;
+completion-motivated, not lexical evidence. RF tail if [qotaiin][che][aiin] cold.
+Rival sheedy=with leaves3ZL/4RF tail words open. F81r19 ZL/IT sheedy chedy:
+fixed rightward nominal with loses priority before finite becomes/contains;
+if permits clause opening, subject unknown. RF shee y. No global word-order rule.
+New copula produces is-becomes/contains f77r12 ZL (IT shedaiin;RF splits).
+Air air f77r34 all3 remains. chealy occurs only at seed in admitted39 scope.
+115 loci/7P+1C complete contexts;35focal/420matrix rows;29tailrecords/174rows.
+Root read115+29 with variants; sets overlap. Not all qokaiin singletons or
+full follow-up P blocks read.4relation alternatives GDT388-ineligible.
+No new page/image/dictionary word/confirmed clause. Candidate confidences in
+GDT818 src/CANDIDATES.tsv; current basis WORKING_THEORY.md/REPORT.md.
 
 ## Which source to open
 
 | Need | Index lookup / source |
 |---|---|
-| Current clause; container/material | GDT817: theory, report, hypotheses |
+| Current line trial / attachment | GDT818: theory, report, candidates |
+| Earlier vapour/basin comparison | GDT817 |
 | Fixed concrete paragraph nouns and frame debt | GDT816 |
-| Prior carrier/property-frame comparison | GDT815 |
 | Complete quality/reference context reader | GDT814 |
 | Earlier powder/copula and extra-page reader | GDT813 / GDT812 |
 | Complete-page synthesis/text | GDT811: theory and reader |
-| Earlier paragraph model / ownership | GDT809 / GDT790–791 |
 | Legacy renderer/dictionary | GDT734; later corrections govern |
 | Label / axis corrections | GDT792–798 / GDT800–808 |
 
@@ -128,10 +128,10 @@ Do not revive:
 
 ## Next useful work and efficient operation
 
-Next: fixed container-content versus material-transformation accounts of the
-same f77r.35 word frame, carrying all doublets and remaining4words. A new
-predicate is a different model, not a local repair from becomes to fills.
-No ring-order, k/t or proximity-owner revival; no extra page needed.
+Next: actual clause/word grouping at f81r19, f77r12/35 and f76r23; if useful,
+inspect already admitted originals. Resolve the finite/copula/connective
+collision before another word menu. No assumed auxiliary, component-role
+renderer or line-reset rule. No extra page needed.
 
 Reuse readers and batch probes; reformatting is not an experiment.
 Workflow:`docs/WORKFLOW.md`; preserve bound tools.

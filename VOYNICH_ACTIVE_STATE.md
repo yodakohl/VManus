@@ -22195,3 +22195,38 @@ No new proximity-owner/class-statistics route. All23 table assignments C0,
 dictionary unchanged,0 confirmed words/clauses. Independent source validator
 and5 mutations pass;3 GDT388relations ineligible, intralocus f77 seed also
 outside two-locus schema. Authority:GDT817 theory/report/hypotheses/source notes.
+
+## GDT818 — fixed predicates and full conditional line trial (2026-09-05)
+
+Four whole-word worlds solkeey=vapour/open basin x chedy=becomes/physically
+contains; inherited R otherwise fixed, ol unknown. Main420 literal rows are
+35 focal P loci, not420 experiments. Seven complete P blocks+one C record,
+115 loci selected by same-record distance1/2 predicate-water or chedy doublet,
+plus focal paragraphs. All115 and variants rootread. F76r P has29loci over
+.1–38;9 separate labels do not reset P. Seven contact loci, no new page.
+Contains solves only basin-becomes-water's local mismatch, not repeated verbs,
+unidentified subjects or owner. F75r16/22 water-before-predicate all3; line
+end not clause end. F83r9–17 contains no exact solkeey/otedy subject candidate.
+
+New separate full ZL/IT f77r35 hypothesis: vapour whose becomes water if air
+is cold. Four tail guesses are completion-motivated C0, no external word key:
+sheedy=if, qokaiin=physical air, chedaiin=copula is, chealy=physical cold.
+Not humoral chol; no qokain/qotaiin aliases or che-aiin merge. RF remains
+if [qotaiin][che][aiin] cold. Alternative sheedy=with leaves rest unknown.
+All3exact tailbigrams only seedZL/IT; wider29 whole-record contexts of sheedy,
+chedaiin/chealy rootread all3.174 separate tail-only displays; not all qokaiin
+singletons or whole follow-up paragraphs. Chealy singleton in admitted39.
+
+F81r19 ZL/IT sheedy-chedy burdens declared rightward with+nominal complement
+before fixed finite becomes/contains. If permits a clause opening, still no
+identified subject. RF shee y differs. Local with loses priority; no global
+postposition or word-order refutation. Conditional advantage does not identify
+air/is/cold. New is+becomes/contains f77r12 ZL; IT shedaiin/RF splits. Air-air
+f77r34 all3 retained. Historic actual content vs potential element/creation
+distinguished, no1420codebook. Four relation alternatives ineligible; repeated
+same intralocus is not4independent edges. Validator6mutations passes sourceonly.
+
+Next: actual grouping f81r19/f77r12,35/f76r23, admitted images if useful,
+before more noun/verb menus.0confirmed words/clauses, unchanged dictionary,
+39selectors34pagekeys16admissionsunused;f84/f84r sealed. Authority:GDT818
+WORKING_THEORY/REPORT, src/CANDIDATES.tsv and separate agent/source notes.
