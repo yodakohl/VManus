@@ -22348,6 +22348,40 @@ withsal.raiin76r51/82r24. Not anothercensus,q-prefixgenericrouteorautomaticdrug
 meaning. Scope34visualkeys39selectors16unusedadmissions;f84/f84rsealed.
 Authority821REPORT/WORKING_THEORY,CANDIDATES,LIGHT_TRIALandthreecontentnotes.
 
+## GDT827 — joint-core countermodels, no semantic winner (2026-09-05)
+
+User authorized coherent-model comparison and independent agents. Two agents
+read the required route first: exposed to old glosses, NOT blind. Practical
+reader read50loci150streams1157groups; visual reader29loci87streams622groups.
+Coordinator read all50/all3 and applied both proposals to allfour ZL windows
+75r32–46/76r51–56/77r25–37/81r16–31. No new admission/download.
+
+Four separate eight-whole C0 maps: inherited TRANSFORMATION; FLOW revises
+solkeey water,chedy flows-through,qokain basin,qokaiin pipe,chealy open while
+keeping possession/if/is. Both complete77r35 with SAME assumed grammar, not
+independent support;RFtaildiffers. Water/becomes no longer protected semantic
+anchors in the active comparison. This does not reject or erase old models.
+MANUAL rub/press/stroke,hand/foot/skin,on/it gives knownAABBA/BAB action sketches,
+but81r27on+imperativepress a real joint debt;no nominalpressure rescue.
+NETWORK channel/basin,outlet/inlet,joins/where/there/its has no owned endpoints.
+No complete paragraph/winner;ZL42/42/94/51of388hypothesiscoverage notaccuracy.
+
+Boundary clarification:cachedBLOCKS selectZL windows;IT81r23END/24START splits
+the selected16–31window;RF noPflags. Do not infer all3-identicalparagraph
+continuity. Source flags now preserved explicitly;old boundfiles untouched.
+Rootandvisualagent reinspected SAME2cached819images81rfull/77rmiddletextcrop,
+not4independentvisualobservations.81rgreenregionsandblueoutlinedconnector
+permitnetworkpicturebutnotwordownership/flowdirection/chemicalidentity.
+Exactqokain/qokaiin absentselected81rtext;no visualconfirmation orrefutation.
+No newauthorialcaption/edge;closed BATHING_IMAGE_SEMANTICS not reopened.
+
+Next samejointproblem:chedy.qokedy81r27 versusqokedy.sheedy.chedy.qoteedy19
+andactionsequences;actualtype/scopeaccount needed,notanothernounorsenseswitch.
+One150linepacket4maps600virtualrenders;sameauthoraccountingnotmeaningproof.
+32C0candidate/evidence/debtrows;fullagentnoteskeptwithoutduplicateappendices.
+0confirmedwordsclausesdictionarychange;34visualkeys39selectors16unused;
+f84/f84rsealed. Authority827REPORT/WORKING_THEORY/srcMODELS,CANDIDATES,agentnotes.
+
 ## GDT826 — dar material/property contrast and role correction (2026-09-05)
 
 GDT825's mandatory-result interpretation of dar.chedy.qopchedy76r51 is

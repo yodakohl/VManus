@@ -1,6 +1,6 @@
 # Voynich current route
 Updated: 2026-09-05. Read first.
-`./vmanus-work lookup GDT826 GDT825 GDT819`: primary reports only.
+`./vmanus-work lookup GDT827 GDT826 GDT819`: primary reports only.
 
 ## Goal and actual position
 
@@ -44,7 +44,7 @@ and alternate boundaries. Similarity grants no component.
 Source groups/separator states BEFORE whole-word/compound/space claims.
 Legacy ASCII spaces can be cleaner-created; extended @entities stay opaque.
 
-## Inherited family and active GDT826
+## Inherited family and active GDT827
 
 809axes open;810arity fails beyondf32v;sho sh+o-derived.811:0objects17ineligibleedges;
 f4rdefeatsobligatoryslots;f17r two otchol-X-Y-chol spans;okol/qokol notspecies.
@@ -72,8 +72,6 @@ F75r16/22 water-before-predicate all3; line end not clause end. F83r9–17
 has no exact vapour/basin/source word naming its chedy-water subject.
 Separate ZL/IT f77r35 trial: Dessen Dampf wird Wasser, wenn die Luft kalt ist.
 New C0 sheedy=if,qokaiin=air,chedaiin=is,chealy=physical cold; completion-motivated.
-Rightward with+nominal loses local priority f81r19 ONLY IF chedy finite.
-Not all qokaiin singletons read;4GDT818 alternatives GDT388-ineligible.
 
 GDT819 images5targets3pages: RF f77r35 eightgroups/fourtail, che@152;aiin ONE;
 f81r19 shee@152;y ONE; final ol,am genuine smallspace. Entities stay opaque.
@@ -97,17 +95,18 @@ Cached101hits37loci15P217records;viel-wird-daraus77r33;referentsopen,notall39cen
 GDT824qolchedy=daraus?wird? ONEwholecell;water81v17/82r2;airbridge77r34ONEknownlocus.
 Extra-becomes/airdoubletsremain;authorialboundaryopen. No generalprefixrule.
 824packetFAILprioraccess,0eligible;accountingnotmeaningproof.
-GDT825qopchedy=Holz?/Holzkohle? separateC0;81r20material-daraus-wird-fire,owneropen.
-GDT826withdraws825mandatoryresult76r51:darproperty-firstcouldgiveTrockenwirdHolz.
-dar=Erde?/trocken? separateC0;76r9wird-drypossible;water-dar3lociattachmentpressure.
-No humoral/residue/hiddenclause rescue;no winner.81hits30loci15P+C176records/all3read.
-90templates720virtualrowsNOTexperiments;cached822notall39;no newpage/image.
+825Holz/HolzkohleC0;826darErde/trockenC0;mandatoryresult76r51withdrawn;water-dryconditional.
+GDT827:4eightwholecores TRANSFORMATION/FLOW/MANUAL/NETWORK;water/becomesNOTprotected.
+77r35condensationandwater-through-basinbothcompletebyguess;no winner/paragraphtranslation.
+MANUALrub/press/stroke fitsknownAABBA/BAB,but81r27on+imperativepressconflicts;no pressure-rescue.
+50loci150readerlines1157groups;IT81r23END/24START,RFnoPflags;notsharedsingleP.
+2exposedindependentagents;2cachedimages81rfull/77rmiddle;no ownedword/edge/admission.
 
 ## Which source to open
 
 | Need | Index lookup / source |
 |---|---|
-| Property / material / composition | GDT826 / GDT825 / GDT824: theory, report |
+| Joint core models / property / material | GDT827 / GDT826 / GDT825 |
 | Fire / ascent / lightness | GDT822 / GDT821 |
 | Repetition constructions / initial ascent trial | GDT820 |
 | Actual image / boundary decisions | GDT819 |
@@ -135,9 +134,9 @@ Read primary reports and `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES
 
 ## Next work
 
-Water-dar75r32/35/76r29:dryconflictsIFqualifyingwater;Earthrelationunknown.
-No automaticadjacent-nounruleorfreshnoun. Bothmaterials/raiin separate;firefixed.
-Samecontrast,notnewrootroute;reusefactorizedcontexts,nofullreadercopy/newpage.
+Same827comparison:chedy.qokedy81r27 versusqokedy.sheedy.chedy.qoteedy19 andactionsequences.
+Resolvejointrelation/operationscope;no press-to-pressure switchorfreshnounchain.
+No protectedcore;keepoldmodels;no topology/AA-statisticrerunornewpagebydefault.
 
 Reuse readers. Workflow:`docs/WORKFLOW.md`; keep bound tools.
 
