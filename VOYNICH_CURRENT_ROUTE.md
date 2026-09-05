@@ -1,14 +1,14 @@
 # Voynich current route
 Updated: 2026-09-05. Read first.
-`./vmanus-work lookup GDT821 GDT820 GDT819`: index pointers; open only needed reports.
+`./vmanus-work lookup GDT822 GDT821 GDT819`: primary reports only.
 
 ## Goal and actual position
 
-Translate concrete content with transferable meanings. Unsolved.
+Concrete transferable translation. Unsolved.
 
 - Confirmed English lexemes: **0**; German lexemes/clauses: **0**.
   Language,sounds,cipher,POS/SVO unknown.
-- Concrete guesses are hypotheses; source/renderer checks do not prove them.
+- Guessed meanings are hypotheses; source checks do not prove them.
 - EVA letters are modern transcription labels: p/s/r/l are not Latin initials.
   ZL3b/IT2a/RF1b are alternate readings of one manuscript, not independent witnesses.
 
@@ -31,7 +31,7 @@ Translate concrete content with transferable meanings. Unsolved.
 
 ## Current working model
 
-Page hierarchy, line effects, technical shells and learned wholes; no sentence reset rule.
+Page hierarchy,line effects,technical shells/learned wholes;no sentence reset rule.
 Description of substance/part/quality and ingredient/amount/process remain rivals.
 
 Structural tags: H1/H2 favor entry, H3/H4 internal/final; semantic transfer
@@ -44,7 +44,7 @@ and alternate boundaries. Similarity grants no component.
 Source groups/separator states BEFORE whole-word/compound/space claims.
 Legacy ASCII spaces can be cleaner-created; extended @entities stay opaque.
 
-## Inherited family and active GDT821
+## Inherited family and active GDT822
 
 809axes open;810arity fails beyondf32v;sho sh+o-derived.811:0objects17ineligibleedges;
 f4rdefeatsobligatoryslots;f17r two otchol-X-Y-chol spans;okol/qokol notspecies.
@@ -81,38 +81,41 @@ F77r12 image favors local IT shedaiin, not canonical replacement; k/t35 OPEN.
 Actual doublets f76r23/f77r34 remain. No clause mark/POS/wordowner decoded.
 ExistingAug09correction missed;819/820 do not revalidate all legacywork.
 
-GDT820 core172loci159P9L4C,9P,14selectors;4734groups516flatmatches; all rootread.
-140multifragment+one??? retained;67rawpair/readings notindependent. No AA rule.
-Noun reprise/repeated finite predicate possible.75r33contact,72r3.26chedypair;
-AABBA75r38 retained. POST raiin=steigt? physical up, no increase/heat/is/fall.
-F77r34 ... Luft? || Luft? [checkhy] steigt?; left air-to-air,ITextra-chedy unresolved.
-RF@206;aiin opaque.8204locus trial now expanded by821, not retrospective proof.
+GDT820172loci4734groups:reprise/finite repeats possible,noAA rule.75r33contact,
+72r3.26chedypair;AABBA75r38. No lexical proof; oldsourcecounts notgloballyreaudited.
+F77r34air-air,ITextra-chedy unresolved;RF@206;aiin opaque;checkhy unknown.
+GDT821ALL39raiin:28readerhits12loci7selectors;7P+L+C65loci/all3read.
+IT66r12raiin/ZL_RFsaiin;77r45air...raiin8ZL/7ITunknownmiddle. No labelPOSproof.
+Two C0 senses:steigt physical up (notincrease/heat/is/fall);leicht physical low
+heaviness (notdose/mild/easy/bright/fast/up),referenceunknown. No winner/hybrid.
+Light loses finiteverb;nohiddenis. sal unknown;chedy becomes;818matrix separate.
 
-GDT821 ALL39 exactrawraiin inventory:28readeroccurrences12loci7selectors;
-7wholeP+1L+1C,65loci/all3 rootread;1724groups195flatmatches;0ASCII-onlyfalsehits.
-No newimage/page. IT66r12 lone raiin vs ZL/RF saiin; no POS/owner from label.
-77r45 another guessed air...rises,8ZL/7ITunknowninterveninggroups.82r24two rises
-still lack namedsubjects. POST ONE rival raiin=leicht?, low physical heaviness;
-not dose/mild/easy/bright/fast/up. Reference class unknown; no global winner.
-Same195rows28glosschanges; all otherglosses unchanged:sal unknown,chedy becomes.
-Light saves motion under a nominalsalguess but loses finiteverb; no hiddenis.
-Historical weight/motion distinction possible, not wordkey; no hybrid light/rises.
-Next qokeey.lkeey.qokeey.raiin vs sal.raiin: actual carrier/qualification,
-not another raiincensus.821theory/report/CANDIDATES govern;818matrix separate.
+GDT822qokeey=Feuer? physicalfire,notheat/heating/warmth/drug/air/water;C0.
+ALL39:153readerhits50loci17selectors,allP. Union821=320loci/all3rootread;
+31wholeP+2nonP,10L separate,8391groups960flatmatches1920two-worlddisplays.
+No newpage/image/dictionary. Fire fits bothraiin senses,so doesnotdiscriminate.
+82r24fire[lkeey]fire retained;95v1.9raiin-fire reversesorder,no universalSVO.
+75r33ITfire[lshedy][qol]becomeswater:subjectnotdecoded,RFched@222;opaque.
+81r20/82r21all3qol.chedy.qokeey=...becomesfire;76r19ZL_ITfirefiredoublet.
+De animaII.9.3#80618 allowsfire-watergeneration:historicalpossibility,notwordkey.
+Explanatorymaterialchange possible,notgenreproof. No qokeedy/okeeyheatcard.
+Next sameconnector inqol.chedy.qokeey versusfire...qol.chedy.water.
+822theory/report/CONTENT_READING/CANDIDATES govern;oneauthor,sourcechecknotsemantics.
 
 ## Which source to open
 
 | Need | Index lookup / source |
 |---|---|
-| Current content / ascent versus lightness | GDT821: theory, report, candidates, content notes |
+| Current fire / material-change trial | GDT822: theory, report, CONTENT_READING, candidates |
+| Ascent versus lightness / full raiin | GDT821 |
 | Repetition constructions / initial ascent trial | GDT820 |
 | Actual image / boundary decisions | GDT819 |
 | Fixed line trial / candidate meanings | GDT818: candidates; GDT819 corrections govern |
-| Earlier vapour/basin / concrete nouns / quality | GDT817 / GDT816 / GDT814 |
-| Earlier powder/copula and extra pages | GDT813 / GDT812 |
-| Complete-page synthesis/text | GDT811: theory and reader |
-| Legacy renderer/dictionary | GDT734; later corrections govern |
-| Label / axis corrections | GDT792–798 / GDT800–808 |
+| Vapour/basin / nouns / quality | GDT817 / GDT816 / GDT814 |
+| Powder/copula / extra pages | GDT813 / GDT812 |
+| Full pages | GDT811: theory/reader |
+| Legacy renderer | GDT734; corrections govern |
+| Label/axis | GDT792–798 / GDT800–808 |
 
 GDT737 quarantines initial-derived cards; GDT754 removes component prose.
 
@@ -130,11 +133,11 @@ Failed route needs new data/prediction. Do not revive:
 - GDT629 clause rediscovery or GDT686/GDT764 degree-versus-amount dispatch;
 - old GDT809 rankings, GDT810 arity or GDT811 scope inventories.
 
-## Next useful work and efficient operation
+## Next work
 
-Next: name a concrete contribution of qokeey in82r24 repeatedframe, compared with
-sal.raiin76r51/82r24. Both raiin senses stay separate; no generic role-only answer.
-Qokedy carrier/content remains separate debt. No newpage or auxiliary rescue.
+Next: qol.chedy.qokeey81r20/82r21 versusqokeey...qol.chedy.qokain75r33;
+one explicit connection acrosswholeP,notnewnouncensus. Keepfireandbothraiin fixed.
+Qokedy carrier/content separate;no q-prefix/auxiliary rescue ornewpage needed.
 
 Reuse readers/batch probes. Workflow:`docs/WORKFLOW.md`; preserve bound tools.
 

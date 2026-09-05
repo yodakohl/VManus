@@ -22347,3 +22347,37 @@ Next concrete qokeey contribution in82r24qokeey.lkeey.qokeey.raiin, compared
 withsal.raiin76r51/82r24. Not anothercensus,q-prefixgenericrouteorautomaticdrug
 meaning. Scope34visualkeys39selectors16unusedadmissions;f84/f84rsealed.
 Authority821REPORT/WORKING_THEORY,CANDIDATES,LIGHT_TRIALandthreecontentnotes.
+
+## GDT822 — qokeey physical fire and material-change obligations (2026-09-05)
+
+One C0 whole qokeey=Feuer,physicalfire notheat/heating/warmth/air/water/drug.
+Declared after initialcount,before newfullPreading. All39 admitted rawexact
+inventory153readerhits52ZL54IT47RF,50loci17selectors,allP;0cleaner-onlyhits.
+AllcontainingP union82165contexts yields320loci309P10L1C,31completeP+2nonPblocks,
+8391groups960readerrows1920two-worlddisplays. All320/all3 rootread.255addedto821
+packet notnecessarilyneverreadinprojecthistory.9interleaved76rlabels separate;
+821lone66rlabel/Cretained. No newimage/admission/dictionary;scope39/34/16unchanged.
+
+Bothraiinsenses unchanged:fire-rises/fire-light possible,notdiscriminatedbyfire.
+82r24twoexactlaterqokeeyall3,ITthird;fire[lkeey]fire remains. Otherdirectfire-raiin
+77r42ITonly;95v1.9raiin-fire reverseorder,no universalSVO. qokeedy/okeey/sal/lkeey
+notglossed. InitialoldHOT/ENDcardsfrom751notinherited,nocomponent/export.
+
+Concretejointdebt:75r33ITqokeey.lshedy.qol.chedy.qokain permitsfire...becomeswater
+ONLYIFfireissubject;earlier32watercouldcontinue,butnounattachmentnotdecoded.
+ZLsplitlshedy/qol;RFched@222;opaque.81r20/82r21all3qol.chedy.qokeey gives
+becomesfirecontacts;77r21qokeey.chedy.shear and76r19ZL_ITfirefire.chedy.qokar
+retained. Nofire-to-heatingrewriteor containsrescue. Notnewdiscoveryofrepetition.
+
+HistoricalprimaryDeanimaII.9.3#80618 explicitlypermitsreciprocalfire-watergeneration;
+modernchemicalimplausibilitynotautomaticmedievalrefutation. Doesnotdecodefire,
+subject,chedy,genreorhistoricalsourceidentity. DeCaeloI.5.5supportsfirelightness,
+doesnotselectraiin. ExplanatorymaterialchangeC0route nowconcrete,nottranslation.
+Unknowncontextsnotpositives;noclearflame/furnace/fuelimageanchorinspected.
+
+Separatevalidator bysamecoordinator,notindependentsemanticagent:nearestPflags
+versusrunnerpartitions,all960source/1920literalrows,fivemutations.0confirmedwords
+clausesnewGDT388scorededges. Next oneconsistentconnector/attachmentin
+qol.chedy.qokeey81r20/82r21 versusqokeey...qol.chedy.qokain75r33,wholeP retained.
+No repeatedqokeeycensus,genericqprefixorfour-elementdiagramroute. Authority822
+REPORT/WORKING_THEORY/CONTENT_READING/CANDIDATES;f84/f84rsealed.
