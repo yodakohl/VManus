@@ -9,8 +9,8 @@ Do not introduce an external publication or public method as a fresh route.
 Derive next steps from our admitted data, primary experiment reports and
 unresolved internal findings. Apply this restriction to delegated work too.
 The earlier mandate to understand our history before choosing a fixed plan
-remains. GDT830 has completed with a measurement/capacity stop. GDT831 now
-registers a separate visual ink/paper point calibration before any new score. Goal remains transferable
+remains. GDT830 has completed with a measurement/capacity stop. GDT831 has now completed its separate visual ink/paper point control with
+a held-page specificity failure. Goal remains transferable
 translation. Confirmed English lexemes: **0**; confirmed German lexemes/clauses: **0**.
 
 ## Closed predecessor — GDT829
@@ -33,16 +33,21 @@ or disputed-block order is claimed. No retrospective threshold/filter rescue.
 Report: `experiments/yolo/gdt830_pen_state_continuation_control/REPORT.md`.
 GDT830 is not rerun. GDT829 and DIC001 remain closed. No new pages or meanings.
 
-## Active control — GDT831 registered, unscored
+## Latest result — GDT831 selected-point control fails
 
-New independently visual labels: 192 clear writing-core/paper centerpoints
-in 24 fixed native tiles on f76r/f77r (scalar calibration) and f81r/f83r
-(held from that calibration only). Median3/median31 contrast with actual
-16-pixel halo; frozen threshold-selection rule, page/tile sensitivity and
-paper-specificity gates. All labels and code freeze before scores. This
-controls selected-point observation only, not full masks, pen state or order.
-No automatic return to GDT830 and no disputed production paths scored.
-Primary: `experiments/yolo/gdt831_annotated_ink_paper_control/PREREGISTRATION.md`.
+192 new visual centerpoint labels in24 fixed native tiles were frozen with
+all code before scores (5aa88a56). f76r/f77r calibration selects threshold.03
+and passes. On held labels f81r/f83r,48/48 ink cores and45/48 paper points
+are classified correctly, but f81r22/24 paper falls below required23/24.
+Status HELD_POINT_CONTROL_FAIL; no threshold retuning or relabeling. The
+independent validator verifies14 preregistration hashes,4JPEGs,24tiles and
+independently reconstructs all192 center scores. A full runner replay passes.
+These are selected clear points, not full masks or physical ink certification;
+photos were previously seen. Do not compare directly with GDT830's whole-patch
+foreground fraction. No pen state, chronology, disputed-block order or meaning.
+Primary: `experiments/yolo/gdt831_annotated_ink_paper_control/REPORT.md`.
+No successor is selected. New route selection requires a different falsifier
+or new evidence; do not repair the failed control against these held labels.
 
 ## Understanding basis and limits
 
@@ -55,8 +60,8 @@ Use the existing research record for manuscript description, material and
 scribal studies and transcription limitations. Keep established findings
 distinct from proposed explanations. No further search for public approaches.
 Do not prefer a cipher, language, semantic glossary or nonlinguistic account
-without evidence. Only the GDT831 scalar observation calibration is selected;
-no semantic fit or new manuscript page admissions.
+without evidence. GDT831 is completed; no further fit is selected and no new
+manuscript page admissions are made.
 
 `docs/RESEARCH_RESET.md` records the earlier premature proposal; it is not the
 current research plan. The source-linked understanding dossier is `docs/VOYNICH_UNDERSTANDING.md`;

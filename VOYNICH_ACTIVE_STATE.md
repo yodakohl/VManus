@@ -6,17 +6,19 @@ Updated: 2026-09-05. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-### GDT831 visual observation control registered (2026-09-05)
+### GDT831 selected-point control fails (2026-09-05)
 
-A new 192-point visual ink/paper annotation on 24 fixed tiles supplies an
-observation endpoint independent of detector output. f76r/f77r calibrate one
-frozen-rule scalar threshold; f81r/f83r labels are held from calibration,
-although their photos were exposed previously. Median3/median31 with actual
-16-pixel halo replaces the failed observation primitive in a separate task.
-All coordinates and code are frozen before scores. No full segmentation,
-pen state, writing order, translation or rescue of GDT830 is claimed.
-Primary: `experiments/yolo/gdt831_annotated_ink_paper_control/PREREGISTRATION.md`.
-
+New192 visual centerpoint labels on24 fixed native tiles and all code were
+published before scores (5aa88a56). f76r/f77r calibration selects.03 and passes;
+held f81r/f83r recover48/48 ink cores and45/48 paper points. f81r22/24 paper
+fails required23/24, so HELD_POINT_CONTROL_FAIL. All tile gates pass but do
+not replace the page gate. Independent validation verifies14 source/design
+hashes,4JPEGs,24tile hashes and independently reconstructs all192 center
+scores; full runner replay passes. No label changes or threshold rescue.
+Selected clear points and previously exposed photos do not establish full
+segmentation, pen state, chronology or translation. Do not directly compare
+with GDT830's whole-blank-patch foreground fraction. No successor selected.
+Primary: `experiments/yolo/gdt831_annotated_ink_paper_control/REPORT.md`.
 
 ### GDT830 pen-state control stopped (2026-09-05)
 

@@ -12,7 +12,7 @@ With Python3, NumPy and Pillow installed, run from repository root:
 python3 experiments/yolo/gdt831_annotated_ink_paper_control/src/test_measurement.py
 python3 experiments/yolo/gdt831_annotated_ink_paper_control/src/run.py --calibrate --fetch
 python3 experiments/yolo/gdt831_annotated_ink_paper_control/src/run.py --evaluate --fetch
-python3 experiments/yolo/gdt831_annotated_ink_paper_control/src/validate.py
+python3 experiments/yolo/gdt831_annotated_ink_paper_control/src/validate.py --cache-dir .cache/gdt830_native
 ```
 
 All image-reading commands support --cache-dir. Default native cache is
