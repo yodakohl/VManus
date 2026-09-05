@@ -6,19 +6,19 @@ Updated: 2026-09-05. Read first.
 User correction on 2026-09-05: first understand the manuscript, the external
 research and this project's history thoroughly BEFORE selecting a fixed plan.
 The assistant's premature two-phase cipher proposal is withdrawn as the active
-route. No new attack or experiment is selected. Goal remains transferable
+route. The bounded GDT829 capacity census is now authorized. Goal remains transferable
 translation. Confirmed English lexemes: **0**; confirmed German lexemes/clauses: **0**.
 
-## Proposed next investigation — not executed
+## Active investigation — GDT829 capacity census
 
-The user now requests a considered plan. `docs/NEXT_RESEARCH_PROPOSAL.md`
-proposes one capped search for extended literal passage repetitions under
-changed physical line wrapping, initially testing terminal l/m variation.
-This is a capacity question first; no usable pairs have yet been established.
-GDT800–803 already cover boundary association and short neighbours; the
-proposed discriminator is changed wrapping within the same longer context.
-No cipher/language/meaning is selected and no experiment has been run.
-Preserve the understanding dossier and its explicit historical review gaps.
+The user authorized continuation of `docs/NEXT_RESEARCH_PROPOSAL.md`.
+GDT829 preregisters one source-group search for extended literal contexts
+under changed physical wrapping, with twelve atoms per flank and the complete
+masked target-group body. It will establish comparison capacity only, keeping
+l/m outcomes out of result columns. Primary: ZL3b; IT2a/RF1b are sensitivities.
+No usable pairs have yet been established. No cipher/language/meaning selected.
+Stop this fixed extraction if independent primary capacity is insufficient;
+do not shorten contexts, change endings, or expand page scope to rescue it.
 
 ## Understanding basis and limits
 
