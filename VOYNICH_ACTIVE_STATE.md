@@ -21988,3 +21988,27 @@ pages' prose; known soral/tolchd bridges do not supply its missing predicate.
 The Fribourg L52 Latin phrase is directly read but only an abbreviation
 comparator, not a core-script lexical bridge. f116v was not admitted; quota
 unchanged. These related probes are GDT812 continuation, not extra experiments.
+
+Transfer continuation retains a broader C0 candidate, daiin=much/high magnitude,
+without adopting it. It conditionally preserves cthy=herb-material and
+chol=dry rather than recategorizing them to rescue strict sehr. Source order
+is fixed postfix within a paragraph, never an invented distant attachment.
+Latin9333 attests related quantity/intensity uses of multum but not constant
+postfix order or an uninflected modifier; medieval sources separate amount
+and medicinal strength while allowing intensity and numbered degree together.
+No other d-family meaning, numerical identity or lexical key follows.
+The selected-context cards preserve all three readers, including fused and
+changed forms; their checks establish source facts, not a semantic victory.
+
+Correction to GDT791/GDT811 f72r visual authentication: inherited Yale1006204
+is officially72v(part), not72r. The PASS1008 source chain is quarantined for
+f72r picture claims, including its whole-foldout visual review and missing-
+start/direction claims. Selector-bound f72r1/f72r2/f72r3 text remains usable.
+Correct parent1006203 was used for present f72r3 region inspection, not a
+new full-foldout audit. Public metadata/hash checks confirm the side error.
+The f67r2 cache also showed an unexpected full67r spread; incidental f67r1
+exposure was excluded from analysis. No additional admission or f72v image
+reopening. Authority: GDT812 src/F72R_SOURCE_CORRECTION.md.
+The two-word oteey daiin label/prose comparison has zero eligible GDT388
+edges; neither inspected label selects a number, intensity, owner or name.
+All previous confirmed-word/clause counts remain zero; dictionary unchanged.

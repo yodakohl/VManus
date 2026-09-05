@@ -1,6 +1,6 @@
 # GDT812 — four extra pages and concrete semantic rivals
 
-Status: COMPLETE_PAGE_COMPARISON__STORAGE_RIVAL_OPEN__CROSS_CONTEXT_GLOSS_LIMIT__NO_TRANSLATION.
+Status: C0_SCALAR_REFINEMENT__F72R_IMAGE_CHAIN_CORRECTED__NO_TRANSLATION.
 
 Four additional visual pages are now admitted and personally inspected:
 f21r, f32v, f100v and f101r. This uses4 of the user's20 discretionary pages,
@@ -108,6 +108,40 @@ does not establish a Voynich lexical equivalent. f116v was not newly opened;
 the16 unused discretionary admissions remain available. No dictionary,
 renderer, confirmed word or clause changed.
 
+## Transfer continuation and an image-source correction
+
+The [transfer comparison](src/INTENSITY_TRANSFER.md) keeps the existing cthy
+herb-material and chol dry hypotheses fixed. Strict daiin=sehr clashes with
+cthy daiin at f21r.2; the explicitly broader candidate **much/high magnitude**
+can instead express much herb-material and very dry without changing those
+two heads. It does not mean exact III, an ordinal index, an instruction, or
+any convenient value. Other heads remain unknown; fixed postfix scope may
+cross a physical line inside one paragraph, but may not skip words or
+paragraph boundaries. This retrospective improvement selects no winner.
+
+The [historical bridge](src/SCALAR_HISTORICAL_BRIDGE.md) now supplies an actual
+quantity/intensity lexical pair, with agreement and word-order limits. It
+also shows why a fluent "very" does not disprove a numbered quality degree:
+both descriptions can occur for the same property. Another source explicitly
+separates medicinal strength and dose. None provides a four-minim key.
+
+**Corrected provenance:** Yale1006204 is labelled "72v (part)", not f72r.
+PASS1008 propagated the wrong-side binding into GDT791 and GDT811. Their
+f72r visual authentication through that image is quarantined; their correctly
+selector-bound text is not discarded. Yale1006203 is the proper parent. The
+present inspection covers a correctly sourced f72r3 target region, not a
+complete new foldout audit. [Exact chain, affected claims and source hashes](src/F72R_SOURCE_CORRECTION.md).
+The old bound files remain reproducible as historical records of the error;
+this correction governs current interpretation. No f72v image was reopened.
+
+The two inspected label contexts do not choose number versus intensity.
+RF1b reads tol aiin at f67r2.56 and fused oteeydaiin at f72r3.9. The latter
+phrase resembles the exact oteey daiin prose pair on f100v.14 in ZL3b/IT2a;
+it supplies no plant/person/property identity. Its explicit GDT388 packet has
+zero eligible edges and fails capacity, held-folio and mobile-null gates.
+No scored relation or decoded word follows. Admissions remain34 page keys /
+39 selectors, with16 discretionary admissions unused.
+
 ### Reproduce original pass and follow-up
 
 ```sh
@@ -115,10 +149,15 @@ python3 experiments/yolo/gdt812_additional_page_semantic_bridge/src/run.py
 python3 experiments/yolo/gdt812_additional_page_semantic_bridge/src/validate.py --no-write
 python3 experiments/yolo/gdt812_additional_page_semantic_bridge/src/run_followup.py
 python3 experiments/yolo/gdt812_additional_page_semantic_bridge/src/validate_followup.py --check
+python3 experiments/yolo/gdt812_additional_page_semantic_bridge/src/validate_transfer.py --check
+python3 experiments/yolo/gdt812_additional_page_semantic_bridge/src/verify_canvas_metadata.py --check
 ./vmanus-exp check-edge-packet experiments/yolo/gdt812_additional_page_semantic_bridge/src/CROSS_CONTEXT_PACKET.tsv
+./vmanus-exp check-edge-packet experiments/yolo/gdt812_additional_page_semantic_bridge/src/SCALAR_CONTEXT_PACKET.tsv
 ```
 
-The last command intentionally reports INVALID_PACKET with the two disclosed
-schema/provenance errors. Its saved output is artifacts/CROSS_CONTEXT_INTAKE.json.
+Both edge commands intentionally report INVALID_PACKET: cross-page target and
+already-unsealed access. Outputs are CROSS_CONTEXT_INTAKE.json and
+SCALAR_CONTEXT_INTAKE.json in artifacts. Metadata verification fetches only
+the public manifest, not images; it confirms the side correction, not meanings.
 The unchanged global audit retains seven pre-existing unbound GDT600 files;
 those unrelated unfinished files are neither altered nor published here.

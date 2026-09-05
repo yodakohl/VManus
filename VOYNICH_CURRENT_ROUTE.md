@@ -72,28 +72,29 @@ repetition and alternate boundaries. Similarity grants no component.
 All four newly admitted pages were viewed; the complete reader retains
 55 loci / 513 ZL3b tokens. f100v has 13 local labels and one paragraph;
 f101r has no labels and three source paragraphs in two visual text bands.
-Its displaced vessel does not provide a relocated-label ownership test.
-Historical keeping time is a third rival to degree/dose, not a decoded value.
-The known chor chol daiin spans remain unidentified; the rose comparator
-does not identify either pictured plant. No GPU computation needed so far.
-dchdy pressures portable Dampf/Abfluss; neither page's prose repeats it.
-Shared drug/effect remain open; historical baths can have opposite effects.
-Follow-up: daiin=sehr? is a fixed nonnumerical rival on complete f32v, not a
-new dictionary winner. Doubling fits, but shor/dain/cthaiin meanings then
-need revision; Macer attests postfix intensity, not doubled valde.
-Fribourg L52 is an abbreviation comparator, not a key; f116v not admitted.
+No relocated-label test is available. Keeping time remains a rival to degree/
+dose; chor chol daiin and the pictured plants are unidentified.
+dchdy is absent from both pages' prose; drug/effect remain open.
+daiin=sehr? fits doubling but conflicts with inherited nouns. Broader much/high
+magnitude can retain cthy=herb-material and chol=dry; neither is adopted.
+Historical multum supports lexical range, not fixed postfix order or a minim
+key. Numbered degree and qualitative intensity can coexist. Old trials stay.
+Correction: Yale1006204 is72v, not72r. Quarantine GDT791/GDT811 f72r visual
+authentication through it; keep selector-bound text. Correct parent1006203
+was used for current f72r3 region, not a whole-foldout audit. See GDT812
+src/F72R_SOURCE_CORRECTION.md. No new admission; f116v not admitted.
 
 ## Which source to open
 
 | Need | Index lookup / source |
 |---|---|
 | Current extra-page reader and semantic comparison | GDT812 |
-| Current content synthesis + complete four-page text | GDT811: WORKING_THEORY.md and full reader |
-| Shared concrete paragraph hypotheses | GDT809: joint reader and common dictionary |
+| Complete-page synthesis/text | GDT811: theory and reader |
+| Shared paragraph hypotheses | GDT809: reader and dictionary |
 | Original image/text ownership | GDT790–791; PANEL > RECORD > old statement |
-| Latest integrated legacy renderer/dictionary | GDT734; read later corrections before using a gloss |
+| Legacy renderer/dictionary | GDT734; later corrections govern |
 | Historical learned-word bridge | GDT735; no four-initial material code identified |
-| Label/prose and circle-label corrections | GDT792–798; learned whole/status rivals, no unique-day code |
+| Label/prose corrections | GDT792–798; no unique-day code |
 | Line endings and independent axes | GDT800–808; no universal l/m or e/o meaning |
 
 GDT734 V99R7 is inherited display, not semantic truth; GDT809 supplements it.
@@ -121,8 +122,9 @@ Do not revive:
 ## Next useful work and efficient operation
 
 Compare complete value/intensity constructions without changing preceding
-words to fit each occurrence. Retain name/property and dose/duration rivals.
-GDT812 follow-up holds the source comparisons and full f32v counterfactuals.
+words to fit each occurrence. Much/high magnitude excludes exact count/index
+and requires explicit measurable/gradable scope; family meanings remain open.
+GDT812 holds transfer cards, full readers and the image-source correction.
 No broad decoder selected. Absence alone is no disproof.
 
 Reuse readers; batch probes. Reformatting is not an experiment.

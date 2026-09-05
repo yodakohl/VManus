@@ -55,6 +55,19 @@ obligation; its minim counts do not independently identify numbers.
 
 ## Next discriminating question
 
+Transfer adds a broader rival: **much/high magnitude**. With the same tentative
+cthy=herb-material and chol=dry, cthy daiin can mean much herb-material and
+chol daiin very dry. Historical multum attests this lexical range, but its
+nominal agreement and variable placement do not validate invariant Voynich
+postfix syntax. Amount and medicinal strength remain different axes, and
+qualitative intensity can coexist with a numbered degree. The original sehr
+trial stays unchanged; the broader candidate is not a dictionary adoption.
+
+The f72r visual-source chain has a separate correction: inherited Yale1006204
+shows72v, not72r. Do not use it to authenticate GDT791/GDT811 f72r image claims.
+Correct parent1006203 supports the currently inspected f72r3 region only.
+Selector-bound text remains usable. See src/F72R_SOURCE_CORRECTION.md.
+
 For the concrete shared-label hypothesis, ask whether a named substance is
 introduced on a botanical page and referred to at an application, or whether
 the same label instead predicates a shared property. That requires a source-

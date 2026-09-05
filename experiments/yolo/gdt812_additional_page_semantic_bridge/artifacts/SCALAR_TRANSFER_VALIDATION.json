@@ -1,0 +1,76 @@
+{
+  "all_selected_context_targets_retained": true,
+  "card_rows": 27,
+  "cards_sha256": "1de7c603601520e0433b6cad23211bcff9effa37c42a7e520ead6b0525660a73",
+  "confirmed_plaintext_clauses": 0,
+  "confirmed_words": 0,
+  "coverage_limit": "Nine selected complete contexts, not all daiin on the three pages.",
+  "cross_line_spans": 9,
+  "design_timing": "POST_RESULT_EXPLORATION",
+  "dictionary_changed": false,
+  "f101r_paragraphs": [
+    [
+      1,
+      2
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      7,
+      10
+    ]
+  ],
+  "guard": {
+    "command": [
+      "./vmanus-exp",
+      "query-tsv",
+      "experiments/yolo/gdt812_additional_page_semantic_bridge/artifacts/ADMITTED_PAGE_LINES.tsv",
+      "--selector",
+      "page",
+      "--allow",
+      "f21r",
+      "--allow",
+      "f100v",
+      "--allow",
+      "f101r",
+      "--columns",
+      "page,locus,line_number,kind,paragraph_start,paragraph_end,eva_clean,it2a_clean,rf1b_clean",
+      "--forbid-prefix",
+      "f84",
+      "--forbid-prefix",
+      "f84r"
+    ],
+    "projection_sha256": "d6aeda955b90c02c535d83cfe3fc091116cd100a7e9bfcc65abbb6033afbc0eb",
+    "stats": {
+      "selected": 44,
+      "skipped_forbidden": 0,
+      "skipped_not_allowed": 11
+    }
+  },
+  "meanings_validated": false,
+  "new_admissions": 0,
+  "readers_are_alternate_readings_not_independent_witnesses": true,
+  "sealed_data": [
+    "f84",
+    "f84r"
+  ],
+  "selected_context_loci": [
+    "f21r.2",
+    "f101r.2",
+    "f101r.4",
+    "f101r.5",
+    "f101r.8",
+    "f101r.9",
+    "f100v.14",
+    "f100v.21",
+    "f100v.22"
+  ],
+  "semantic_score": null,
+  "source_loci_guarded": 44,
+  "status": "PASS_SELECTED_CONTEXT_SOURCE_REPRODUCIBILITY_ONLY",
+  "target_occurrences_in_selected_contexts": 40,
+  "validator_sha256": "eee006606b885b9998fd361b72b149185156500bf177701ada9f5985ace547f6",
+  "zero_target_reader_rows_retained": 4
+}
