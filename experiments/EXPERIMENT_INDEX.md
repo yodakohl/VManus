@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **823**
-- Experiment-associated tracked files: **14,994** (1.3 GiB)
-- Structured GDT337+ experiments: **488**
+- Experiments indexed: **824**
+- Experiment-associated tracked files: **15,011** (1.3 GiB)
+- Structured GDT337+ experiments: **489**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT825 | GDT825_content_synthesis | `C0_WOOD_CHARCOAL_UNRESOLVED_INPUT_AND_RESULT` | [report](../experiments/yolo/gdt825_qopchedy_physical_wood_trial/WORKING_THEORY.md) | 17 | 92.2 KiB | 5 | STRUCTURED_YOLO |
 | GDT824 | GDT824_content_synthesis | `C0_COMPOSITION_RETAINED_PREDICATE_AND_REFERENT_DEBTS` | [report](../experiments/yolo/gdt824_qolchedy_fixed_composition/WORKING_THEORY.md) | 21 | 117.3 KiB | 6 | STRUCTURED_YOLO |
 | GDT823 | GDT823_content_synthesis | `C0_SOURCE_ANAPHOR_POSSIBLE_REFERENTS_UNRESOLVED` | [report](../experiments/yolo/gdt823_qol_source_anaphor_trial/WORKING_THEORY.md) | 18 | 256.4 KiB | 5 | STRUCTURED_YOLO |
 | GDT822 | GDT822_content_synthesis | `C0_FIRE_REQUIRES_MATERIAL_CHANGE_ACCOUNT_NO_WORD_IDENTIFICATION` | [report](../experiments/yolo/gdt822_qokeey_physical_fire_context/WORKING_THEORY.md) | 23 | 2.4 MiB | 6 | STRUCTURED_YOLO |

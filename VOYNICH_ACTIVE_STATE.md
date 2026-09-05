@@ -22348,6 +22348,26 @@ withsal.raiin76r51/82r24. Not anothercensus,q-prefixgenericrouteorautomaticdrug
 meaning. Scope34visualkeys39selectors16unusedadmissions;f84/f84rsealed.
 Authority821REPORT/WORKING_THEORY,CANDIDATES,LIGHT_TRIALandthreecontentnotes.
 
+## GDT825 — concrete wood/charcoal input-versus-result trial (2026-09-05)
+
+Exact qopchedy=Holz? physicalwoodymaterial proposedbeforecensus. Afterfullreading,
+Holzkohle? physicalcharcoal(notmineralcoal/ash) addedasexplicitpostreadingrival.
+No genericfuel/drug/action,componentexport,orperoccurrencesenseswitch. BothC0,
+no winner. All GDT824 meanings andtwo separatephysicalraiinworlds unchanged.
+81r20all3material-daraus-wird-fire ismotivation-compatible;76r51ZL_ITinstead
+has[dar]-wird-material. Sourceunknown;cannotsetdar=wood toprefercharcoal.
+Neitherwoodformationnorcharcoalformation identified. 77r9materialdoublet kept,
+no twospecies/grades orhiddenclause. RF76r51qopched@222;unknown;81v15qopchedy
+onlyRF versusZL_ITqofchedy. Equal6hits/readerdonotmeanequalsourcecoverage.
+
+Cached822only18readerhits6loci6wholeP102records93P9L/all3read;notall39census.
+Singlebatch2materials×2raiin72targetvectors;fullreaderreusednotcopied. REPORT
+holdsallcontentjudgments,no duplicatedlongcontentreport. Sameauthorseparate
+validator5mutationschecksaccountingnotmeaning. No newrelationevidence/scorededge,
+dictionaryadmissionsimagesconfirmedwordsclauses. Scope34visual39selectors16unused,
+f84/f84rsealed. Nextdar76r51versusotherknowncontexts,no darmeaningchosenyet,
+routecheckfirst. Authority825WORKING_THEORY/REPORT/src/CANDIDATES.
+
 ## GDT824 — one qolchedy composition, repeated predicates unresolved (2026-09-05)
 
 New whole C0 qolchedy=daraus?wird?, composed of unchanged material-source qol

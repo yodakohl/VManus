@@ -1,6 +1,6 @@
 # Voynich current route
 Updated: 2026-09-05. Read first.
-`./vmanus-work lookup GDT824 GDT823 GDT819`: primary reports only.
+`./vmanus-work lookup GDT825 GDT824 GDT819`: primary reports only.
 
 ## Goal and actual position
 
@@ -44,7 +44,7 @@ and alternate boundaries. Similarity grants no component.
 Source groups/separator states BEFORE whole-word/compound/space claims.
 Legacy ASCII spaces can be cleaner-created; extended @entities stay opaque.
 
-## Inherited family and active GDT824
+## Inherited family and active GDT825
 
 809axes open;810arity fails beyondf32v;sho sh+o-derived.811:0objects17ineligibleedges;
 f4rdefeatsobligatoryslots;f17r two otchol-X-Y-chol spans;okol/qokol notspecies.
@@ -95,18 +95,18 @@ union821320loci8391groups. Firefitsbothraiin;doublets/orderdebtsremain,noSVOproo
 De animaII.9.3#80618fire-watergenerationpossible,notwordkey. No qokeedy/okeeyheat.
 GDT823qol=daraus? materialsource,notthen/therefore/whose/add/destination. C0.
 Cached101hits37loci15P217records;viel-wird-daraus77r33;referentsopen,notall39census.
-GDT824qolchedy=daraus?wird? ONEwholecell,notgeneralprefixrule;bothcomponentsC0.
-Cached13joined14split12loci9P164records155P9L/all3read;72trials26newjoinedcells.
-Joinedwater81v17/82r2;airjoin/split77r34ONEknownlocus;fireonlysplitincache.
-Extra-becomes77r34/81v17/76r19 andairdoubletremain. No source/materialrecovery.
-2cached77rregionsreviewed,authorialboundaryopen;0admissionsdownloadswordproof.
-7accountingmutationspass;relationpacketFAILpriorformalaccess,0eligible,not score-ready.
+GDT824qolchedy=daraus?wird? ONEwholecell;water81v17/82r2;airbridge77r34ONEknownlocus.
+Extra-becomes/airdoubletsremain;authorialboundaryopen. No generalprefixrule.
+824relationpacketFAILpriorformalaccess,0eligible;accountingPASSnotmeaningproof.
+GDT825qopchedy=Holz?/Holzkohle?,separatephysicalmaterialmodels,C0,no winner.
+81r20material-daraus-wird-fire versus76r51ZL_IT[dar]-wird-material;sourceunknown.
+18readerhits6loci6P102records93P9L/all3read;2materials×2raiin72trials;no newpage/image.
 
 ## Which source to open
 
 | Need | Index lookup / source |
 |---|---|
-| Composition / reference / debts | GDT824 / GDT823: theory, report, CONTENT_READING |
+| Material / composition / debts | GDT825 / GDT824: theory, report, candidates |
 | Fire / ascent / lightness | GDT822 / GDT821 |
 | Repetition constructions / initial ascent trial | GDT820 |
 | Actual image / boundary decisions | GDT819 |
@@ -135,9 +135,9 @@ Failed route needs new data/prediction. Do not revive:
 
 ## Next work
 
-Next:qopchedy81r20 beforedaraus-wird-fire versusqopchedy.qopchedy77r9.
-Seekoneconcretesourcemeaning,notanotherconnector/heatcard. Route-check beforelaunch.
-No meaningchosenyet;bothraiin/firefixed;no generalqol-prefixruleornewpage needed.
+Next:dar beforewird-material76r51 andotherknowncontexts;no darmeaningchosenyet.
+Do notsetdar=wood merelytorescuecharcoal. Route-check beforelaunch.
+Bothmaterials/raiin separate;firefixed;batchsamecontexts,nofullreadercopy/newpage.
 
 Reuse readers/batch probes. Workflow:`docs/WORKFLOW.md`; preserve bound tools.
 
