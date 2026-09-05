@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **815**
-- Experiment-associated tracked files: **14,787** (1.3 GiB)
-- Structured GDT337+ experiments: **480**
+- Experiments indexed: **816**
+- Experiment-associated tracked files: **14,814** (1.3 GiB)
+- Structured GDT337+ experiments: **481**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT817 | GDT817_content_synthesis | `C0_CONDENSATION_CLAUSE_SEED_DUPLICATION_DEBTS_NO_TRANSLATION` | [report](../experiments/yolo/gdt817_solkeey_external_content/REPORT.md) | 27 | 244.6 KiB | 7 | STRUCTURED_YOLO |
 | GDT816 | GDT816_content_synthesis | `C0_CONCRETE_NOUN_TRIALS_JOINT_FRAME_DEBT_NO_TRANSLATION` | [report](../experiments/yolo/gdt816_paragraph_content_models/REPORT.md) | 24 | 185.1 KiB | 9 | STRUCTURED_YOLO |
 | GDT815 | GDT815_content_synthesis | `C0_CARRIER_CHAINS_PRIORITY_PROPERTY_FRAME_UNRESOLVED` | [report](../experiments/yolo/gdt815_referent_property_discrimination/REPORT.md) | 23 | 125.7 KiB | 6 | STRUCTURED_YOLO |
 | GDT814 | GDT814_content_synthesis | `C0_QUALITY_ARCHITECTURE_PRIORITY_THERMAL_VALUE_UNRESOLVED` | [report](../experiments/yolo/gdt814_okaiin_quality_reference_construction/REPORT.md) | 24 | 256.6 KiB | 5 | STRUCTURED_YOLO |

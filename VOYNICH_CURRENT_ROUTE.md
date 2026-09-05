@@ -1,6 +1,6 @@
 # Voynich current route
 Updated: 2026-09-05. Read first.
-`./vmanus-work lookup GDT816 GDT815`: index pointers; open only needed reports.
+`./vmanus-work lookup GDT817 GDT816`: index pointers; open only needed reports.
 
 ## Goal and actual position
 
@@ -50,12 +50,10 @@ repetition and alternate boundaries. Similarity grants no component.
   okol/qokol cross-register, not plant names; ofaldo/ofal not a decoded species.
 - Two f17r otchol-X-Y-chol spans exact, one cross-line; f4r defeats obligatory slots.
 
-## Inherited family and active GDT816
+## Inherited family and active GDT817
 
-GDT812's four extra pages viewed; complete reader55 loci/513 ZL tokens.
 Scalar baseline A: dan very little, dain little, daiin much, daiiin very much;
 all C0 wholes. Comparison/excess and I-IV rivals remain; no dictionary adoption.
-Long chains unresolved; historical quantity/intensity/flexion supplies no Latin key.
 dchdy absent from f100v/f101r prose; substance/effect unresolved.
 Correction: Yale1006204 is72v, not72r. Quarantine GDT791/GDT811 f72r visual
 authentication through it; keep selector-bound text. Correct parent1006203
@@ -64,38 +62,43 @@ src/F72R_SOURCE_CORRECTION.md. No new admission; f116v not admitted.
 
 GDT813 keeps family A, otchol=this?, cthar=root?, chol=dry?; okaiin=N powder?
 or G is?. GDT814 adds Q warm? (no III/action), R possessive dessen? (not davon).
-GDT814 reader:37 blocks/176 loci,20 P/17 non-P; f76r P spans nine separate L
-records. Source paragraphs, not decoded clauses. All guesses remain C0.
+GDT814: f76r P spans nine L records, not sentence resets.
 GDT815 corrects GDT814 prose: f81v.4 ends ZL chcthy, IT/RF chckhy; .5 starts
 ZL/IT okaiin daiin, RF kaiin aiin. Written head survives, not common identity.
-K cold? and B bitter? separate fixed rivals;1499 GENCIANA is not a1420 key.
-No bitter-star reading through an unwritten medicinal relation. Correct f72r3
+K cold? and B bitter? separate fixed rivals, no1420 key.
+No bitter-star reading via invented medicinal relation. Correct f72r3
 Cancer-like centre does not own outer .12; cold complexion vs warm weather matters.
 f72r3 pair registration OPEN; f89r1 okaiin dan grouped (GDT815).
-GDT816: four complete P paragraphs f88r.18–22/f77r.25–37/f24v.1–5/f75r.32–46,
-plus two separate labels;40 loci/240 literal displays. All94 other exact-six-whole
-loci in39 selectors read; not94 whole paragraphs. No new admission or dictionary.
-Concrete C0 atoms: Q okol=plant drug?, R okol=whole plant?; both chor=leaves?,
+GDT816 C0: Q okol=plant drug?, R okol=whole plant?; both chor=leaves?,
 ychey=plant juice?, otedy=water source?, qokain=water?, solkeey=aqueous vapour?.
-qokaiin stays UNKNOWN; repeated qokeedy/qokedy chains are not heating actions.
-R names earlier owners: okol .19 -> ychey .22; otedy .25 -> qokain/solkeey
-.27/.35; f75r water .43#4 -> source .45 crosses nearer source mentions.
-All four bindings GDT388-ineligible. f81v first P.1–9 has no otedy before
-qokain okaiin .6; source .10 in NEXT P cannot supply an earlier owner.
-Q has local attachment simplicity, NOT a joint semantic win. Apothecary uses
-humoral warm/dry; physician uses physical warmth. Joint Q explicitly assumes
-humoral qualities everywhere, declared POST-external; R dry shares that frame.
-Heated water is not thereby naturally warm; no mineral-water rescue inserted.
-Juice at f69v.2 C, plant at f71v.12 C, source at f95v2.1 remain unexplained,
-not reinterpreted metaphorically. Bare solkeey f81v.19/f83r.52 exact, no meaning
-identified. Six nouns narrower than generic prose but not lexically confirmed.
-Basis:GDT816 WORKING_THEORY.md; all joint and retained values in HYPOTHESES.tsv.
+Joint Q warm/dry explicitly humoral, declared POST-external; physician's physical
+warmth not pooled. R dry same frame. Four whole P+2L and94 external loci read;
+no lexeme identified. Earlier owner candidates remain unproved; f81v first P
+has no source before qokain okaiin .6; source .10 is in NEXT P. Cross-register
+juice/plant/source debts remain. qokaiin unknown; no qokeedy heating actions.
+
+GDT817 adds separate C0 chedy=becomes? and ol=or? trials, no dictionary adoption.
+f77r.35 solkeey okaiin chedy qokain -> vapour whose becomes water, proposed
+owner source .25. Actual medieval condensation clauses, not a word key.
+Remaining4words unknown. f81v P.10–27 contains source .10 ZL/IT, water .17,
+vapour .19, but no okaiin or bound transformation. f83r P.52–55 has neither
+source/water/okaiin/chedy;2 ol-final lines then daiin ol dain = much or little?.
+Global simple or loses priority: ol ol f81r.4 all3;2–3 adjacent ol in .5.
+chedy chedy f76r.23/f72r3.26 ZL/IT burdens finite becomes; no deletion or
+unwritten steps. Keep local clause/quantity seeds, not universal word adoption.
+Visual f81v/f83r: open containers, no uniquely identified vapour or word owner.
+Separate solkeey=basin? rival cannot inherit becomes water as becomes filled.
+35 focal P loci/273 ZL words;133 threepage records;210 base+extended rows.
+20 challenge rows/10 loci in39 scope;511 inventory rows NOT all read
+semantically.3 relations GDT388-ineligible. No new page or confirmed words.
+Basis:GDT817 WORKING_THEORY.md;23 inherited/new assignments in HYPOTHESES.tsv.
 
 ## Which source to open
 
 | Need | Index lookup / source |
 |---|---|
-| Current concrete paragraph accounts | GDT816: theory, report, hypotheses |
+| Current clause; container/material | GDT817: theory, report, hypotheses |
+| Fixed concrete paragraph nouns and frame debt | GDT816 |
 | Prior carrier/property-frame comparison | GDT815 |
 | Complete quality/reference context reader | GDT814 |
 | Earlier powder/copula and extra-page reader | GDT813 / GDT812 |
@@ -125,10 +128,9 @@ Do not revive:
 
 ## Next useful work and efficient operation
 
-Next: solkeey=vapour? through full external P f81v.10–27/f83r.52–55 compared
-with f77r.35 solkeey okaiin chedy qokain. Seek a concrete material assertion
-and connection to qokain, not another adjective or an invisible heating step.
-Occurrences already known; next work is their complete content account.
+Next: fixed container-content versus material-transformation accounts of the
+same f77r.35 word frame, carrying all doublets and remaining4words. A new
+predicate is a different model, not a local repair from becomes to fills.
 No ring-order, k/t or proximity-owner revival; no extra page needed.
 
 Reuse readers and batch probes; reformatting is not an experiment.

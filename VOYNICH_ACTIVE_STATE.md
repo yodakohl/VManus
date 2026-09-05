@@ -22162,3 +22162,36 @@ substantives do not themselves mean stronger evidence. Authority:GDT816 theory,
 report, hypotheses and separate historical agent notes. Next: full external
 solkeey paragraphs f81v.10–27/f83r.52–55 and actual material relation to qokain,
 not another adjective or invented process. No extra page needed.
+
+## GDT817 — condensation clause seed and literal repetition debts (2026-09-05)
+
+35 complete P loci: f77r.25–37/f81v.10–27/f83r.52–55,273 ZL words. All133
+records of these3 already admitted pages read with alternatives,2 agent image
+reviews plus root f83r review.39-selector scope unchanged, no new admission.
+GDT81614values per Q/R unchanged. New C0 trials chedy=becomes (not is/makes/
+auxiliary), ol=or (not contextual und/mit/von). Base/extended arrays side by
+side,210 rows, not210 experiments. Separate solkeey=open basin visual rival.
+
+Concrete f77r.35 seed: vapour whose becomes water; possible source owner .25,
+four following words unfilled. Peter of Auvergne IV.3 has a genuine vapour
+condensing at a vessel lid comparison; digital1865 edition, not1420 codebook.
+No Q physical/humoral merging or general SVO inference. F81v secondP contains
+source10 ZL/IT, water17, vapour19 but no okaiin or bound transformation.
+F83r shortP has no water/source/okaiin/chedy; first2lines ol-final, then
+daiin ol dain motivates much-or-little, not a complete quantity statement.
+
+Global simple or loses priority on actual ol ol f81r4 all3 and2–3 adjacent
+ol in5. No written operand; nesting alone not a repair. Chedy doublets f76r23
+and f72r3.26 ZL/IT burden fixed finite becomes; no hidden procedures/auxiliary.
+20 bounded challenge reader rows/10loci checked;511 mechanical inventory rows
+are NOT all semantically read. No direct knownNoun-chedy-knownNoun triple;
+does not erase the different4word f77 construction. Local seeds stay C0.
+
+Images show open-container analogues, not lexical owners or identified vapour.
+Becken whose becomes water cannot be silently made becomes filled with water.
+Next concrete relation question: fixed container-content versus material-change
+account of the same written frame, retaining doublets and the remaining4words.
+No new proximity-owner/class-statistics route. All23 table assignments C0,
+dictionary unchanged,0 confirmed words/clauses. Independent source validator
+and5 mutations pass;3 GDT388relations ineligible, intralocus f77 seed also
+outside two-locus schema. Authority:GDT817 theory/report/hypotheses/source notes.
