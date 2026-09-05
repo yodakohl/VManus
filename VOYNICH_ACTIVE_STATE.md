@@ -6,6 +6,15 @@ Updated: 2026-09-05. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### User scope correction: public approaches exhausted (2026-09-05)
+
+The user prohibits further searches for public approaches and states these
+have already been thoroughly explored. Future route selection must rely on
+our own admitted data, primary reports and unresolved findings. The external
+publication-based motivation of the cross-gap proposal is withdrawn; that
+candidate remains unexecuted pending internal reassessment. This is a user
+scope correction, not a scientific rejection of cross-gap dependence.
+
 ### Proposed cross-gap follow-up (2026-09-05; no execution)
 
 A source-native association test at definite internal gaps is proposed in

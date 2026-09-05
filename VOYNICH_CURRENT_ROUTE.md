@@ -3,10 +3,13 @@ Updated: 2026-09-05. Read first.
 
 ## Current mandate
 
-User correction on 2026-09-05: first understand the manuscript, the external
-research and this project's history thoroughly BEFORE selecting a fixed plan.
-The assistant's premature two-phase cipher proposal is withdrawn as the active
-route. GDT829 completed with a capacity stop. Goal remains transferable
+Latest user correction (2026-09-05): do not search public decipherment
+approaches; the user states these have already been exhaustively explored.
+Do not introduce an external publication or public method as a fresh route.
+Derive next steps from our admitted data, primary experiment reports and
+unresolved internal findings. Apply this restriction to delegated work too.
+The earlier mandate to understand our history before choosing a fixed plan
+remains. No replacement attack is selected. Goal remains transferable
 translation. Confirmed English lexemes: **0**; confirmed German lexemes/clauses: **0**.
 
 ## Latest result — GDT829 capacity stop
@@ -24,16 +27,14 @@ or admit more pages to rescue it. No replacement attack is selected. A new
 route needs a distinct predeclared discriminator or genuinely new comparison
 data and the usual targeted duplicate review. No cipher/language selected.
 
-## Proposed next question — not executed
+## Pending internal reassessment
 
-`docs/NEXT_BOUNDARY_PROPOSAL.md` proposes a source-group cross-gap association
-check with position-preserving comparisons. Primary: definite internal gaps;
-uncertain gaps separately. It needs no long literal repeats. The exact null,
-donor mobility and effect thresholds must be frozen before any target score.
-No 98-unit alphabet, language, grammar or cipher is assumed. The August2026
-Rozanova/Temerev preprint and its within-line shuffle code motivate a stricter
-conditional claim; its published results are not independently replicated here.
-No replacement experiment has been run; GDT829's stopping rule remains intact.
+`docs/NEXT_BOUNDARY_PROPOSAL.md` remains an unexecuted candidate. Its external
+publication-based motivation is withdrawn as a basis for choosing the next
+route. Any further recommendation must establish its value and nonduplication
+from our own experimental history. The user has not adjudicated the underlying
+cross-gap hypothesis; no scientific rejection or new result is inferred.
+GDT829's stopping rule remains intact.
 
 ## Understanding basis and limits
 
@@ -42,9 +43,9 @@ and compact lookups to locate primary reports; audit targeted registry/ledger
 rows when tracing claims and corrections. Treat older archive summaries as
 potentially superseded. Understand contributions as well as failures.
 
-Combine that history with authoritative manuscript description, material and
-scribal studies, transcription limitations, linguistic/cryptanalytic research,
-and the distinction between established findings and proposed explanations.
+Use the existing research record for manuscript description, material and
+scribal studies and transcription limitations. Keep established findings
+distinct from proposed explanations. No further search for public approaches.
 Do not prefer a cipher, language, semantic glossary or nonlinguistic account
 before this review. Do not run new fitting or open new manuscript pages.
 

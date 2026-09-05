@@ -1,9 +1,18 @@
 # Proposed next question: association across source-group gaps
 
-2026-09-05. PROPOSAL_ONLY_NOT_EXECUTED. User asks how to continue after GDT829.
+2026-09-05. NOT_ACTIVE_PENDING_INTERNAL_REASSESSMENT. No experiment executed.
 No new experiment number, manuscript extraction, image, fit or target score.
 
-## Recommendation
+## Subsequent user correction
+
+The user instructs us not to search public approaches, stating that those
+have already been thoroughly explored. The public-paper motivation below is
+therefore withdrawn as a basis for selecting a fresh route. The earlier
+proposal is retained as history, not an active experiment instruction. A next
+recommendation must be justified from our own data and primary reports.
+This scope correction does not scientifically reject the cross-gap hypothesis.
+
+## Earlier recommendation
 
 Set aside the l/m reflow route. Test whether the last source atom of one group
 and the first of its immediate neighbour remain associated across definite
