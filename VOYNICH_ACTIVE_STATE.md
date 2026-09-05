@@ -6,6 +6,21 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### GDT834 complete: roles recovered, wrong word values selected (2026-09-06)
+
+Public1daf02ee precedes48fits/6selections, lockedbeforetruth. Scientific
+BASELINE_RECOVERY_FAIL: botharms/all3keys6343/6511words,98.6575%chars below99%,
+79/172paragraphs; all3160newforms/1977newlemmaoccurrences exact. BLIND gets
+all35roles right,24L3Svalues right, but W ut→quod andquod→cum cause59+109Herrors.
+Wrongmap scorestruth+3.50047366nats. Explicitposthoc auditfinds21existingrestarts
+alreadyhaveallobservedtruevalues (11BLIND10TYPED),27selectedwrongmap,0other.
+Thus searchfoundtruth, fixedobjectivepreferredwrongvalues. No posttruthrescue.
+Independent48objectives/39066predictions/6oracles/210roledomains PASS. Boundaries,
+atomicunits,nominal26L4S8W andfixedclass remainknown;67observablepartitions.
+Threekeysonecontentsplit; no Voynichfit/meaning or nextfitselected. Successor
+requiresdifferentpredeclaredword-valuediscriminator; GDT616/CDA001closed.
+Primary: `experiments/yolo/gdt834_role_blind_mixed_control/REPORT.md`.
+
 ### GDT834 paired role-blind control registered (2026-09-06; unscored)
 
 Fresh Epistolae I–VI versus VII–XIII,87/172runs and3180/6511words;

@@ -30,8 +30,22 @@ Source generation is deterministic and checks its commitments. It never
 changes a failed split or support threshold. `CAPACITY.json` is preserved as
 the pre-key snapshot; `GENERATION.json` records subsequent key generation.
 
-For a fresh fit reproduction, use the public preregistration commit before
-result publication, with the source checkout above. The runner rejects an
+To verify an existing result checkout without running any new fit, prepare the
+ignored reference model and discovery projections, then replay:
+
+```sh
+python3 experiments/yolo/gdt834_role_blind_mixed_control/src/prepare_verification.py
+python3 experiments/yolo/gdt834_role_blind_mixed_control/src/run.py --check
+python3 experiments/yolo/gdt834_role_blind_mixed_control/src/evaluate.py --check
+python3 experiments/yolo/gdt834_role_blind_mixed_control/src/validate.py --check
+python3 experiments/yolo/gdt834_role_blind_mixed_control/src/post_result_audit.py --check
+```
+
+`prepare_verification.py` is a post-result convenience, outside the registered
+fitter; it rebuilds runtime resources only and never fits or changes results.
+
+For a fresh fit reproduction, use public preregistration commit
+`1daf02ee1bf5bc74db9b1dbb5f86ec208bafa0a7`, with the source checkout above. The runner rejects an
 existing FIT_LOCK.json, so a result checkout is for verification, not silent
 overwriting. The exact frozen fit is:
 

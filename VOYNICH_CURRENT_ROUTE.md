@@ -3,8 +3,9 @@ Updated: 2026-09-06. Read first.
 
 ## Current mandate
 
-Latest request (2026-09-06): continue after GDT833. GDT834 is the paired
-fresh control with individual symbol roles hidden; registration below.
+Latest request (2026-09-06): continue after GDT833. GDT834 completes the paired
+role-blind control: allrolescorrect, baselinefails, and correctkeysalreadyfound
+butrankedbelowtwowrongWvalues; see below.
 No manuscript fit is selected. Root's personal whole-page orientation remains
 completed; subagents help with source metadata, root interprets images.
 
@@ -39,18 +40,22 @@ layouts. Source logistics alone were delegated. The observational dossier is
 No new experimental or semantic claim, no new page admission. User's required
 visual understanding remains part of future work; no experiment executed; see the new proposed candidate below.
 
-## Registered — GDT834 finite role disambiguation on a fresh control
+## Completed — GDT834 roles correct; word-value selection defeats control
 
 `experiments/yolo/gdt834_role_blind_mixed_control/REPORT.md`.
-Epistolae I–VI discovery87runs/3180words; VII–XIII held172runs/6511words.
-Independent9691-wordsource reconstructionPASS. TYPED/BLIND sharecontent,
-reference,candidates andnewrole-search engine; exactboundaries and26L/4S/8W
-nominalcounts stay supplied. BLIND getsopaqueXIDs, no individualroles.
-Positionaudit leaves67observablepartitions(219includingunusedpermutations),
-so thisis finite disambiguation, notgeneralrole/segmentationinduction.
-48restarts/6selections mustlockbeforetruth;95/99/90/90recoveryfloors plus
-allidentifiableactiveBLINDrole+outputexact. No fitresult or Voynichclaim yet.
-GDT833pass/GDT832failure/GDT616+CDA001closures remainunchanged.
+Public1daf02ee precedes48fits/6lockedselections. Botharms/all3keys get
+6343/6511heldwords(97.4198%),98.6575%chars(fails99%),79/172paragraphs;
+all3160newforms/1977newlemmaoccurrences exact. BASELINE_RECOVERY_FAIL.
+BLIND identifiesall35activeroles;24L/3Soutputs correct; W ut→quod(59H),
+quod→cum(109H) explainall168wrongwords. Wrongkey beatsoracle3.50047366nats.
+Explicitposthoc census:21/48existingrestarts alreadyhaveallobservedtruevalues;
+27have theselectedwrongmap,0otherclasses. Searchfoundtruth; objectivepreferred
+wrongvalues. Do notposthocpickcorrectrestarts, rerununchangedobjective, or
+retune thresholds. Independent48objective/39066prediction/6oracle replayPASS.
+Knownboundaries,atomicunits and26L/4S/8Wnominalcounts remain supplied; only
+67observablepartitions were ambiguous. Threekeys shareoneEpistolaesplit.
+No Voynichfit/language/word or nextfit selected. A successor needs a genuinely
+differentpredeclaredword-value discriminator; GDT616/CDA001 remainclosed.
 
 ## Completed — GDT833 reference effect and exact control recovery pass
 

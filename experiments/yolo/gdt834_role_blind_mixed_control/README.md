@@ -1,7 +1,9 @@
-# GDT834 — paired mixed control with hidden symbol roles
+# GDT834 — mixed control with hidden symbol roles
 
-Status: REGISTERED_UNSCORED.
+Status: **BASELINE_RECOVERY_FAIL**.
 
-See [REPORT.md](REPORT.md), [METHOD.md](METHOD.md),
-[PREREGISTRATION.md](PREREGISTRATION.md) and [REPRODUCE.md](REPRODUCE.md).
-No Voynich data or language claim; boundaries and nominal capacities remain known.
+All35observedroles correct; twoWvalues wrong inbotharms. 6343/6511heldwords,
+98.6575%chars; all3160newforms/1977newlemmaoccurrences exact. Wrongkey beats
+truth by3.50047366nats, although21of48restarts alreadyfoundthecorrectobservedkey. No Voynichclaim. See [REPORT.md](REPORT.md),
+[METHOD.md](METHOD.md), [PREREGISTRATION.md](PREREGISTRATION.md) and
+[REPRODUCE.md](REPRODUCE.md).
