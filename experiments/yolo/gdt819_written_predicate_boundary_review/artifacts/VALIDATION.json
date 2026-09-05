@@ -1,0 +1,126 @@
+{
+  "checked_artifact_hashes": {
+    "BLOCKS.tsv": "e1cbd5e4c4c7cb8f1b342f6e8d178310719b117582b35f49e9a337e6e7b4e459",
+    "FULL_READER.md": "564f1056025f63ae9934bf9469790fad0bf0f77ba9228f799f92a1adcfd6e3e0",
+    "GROUP_COMPARISON.tsv": "0de2bbb76cd89ea803c1b30b5fd2174233e4a0a6d426c59151872bba1da9edc9",
+    "INTERLEAVED_LABELS.tsv": "e3d8712fb45b6aeb1fdb097b972aad340a4926f9b692678ece074822f078ff17",
+    "ISSUE_GROUPS.tsv": "7cf43ee27bd3f7114da126813f50ceb1509ccbe2d7784f0a2eaeb434c81fa8d4",
+    "NEIGHBORS.tsv": "4a11a45bcb4543e79b91f36f0891421090f2e58b3c9421083435e78fd277f153",
+    "PARAGRAPHS.tsv": "d57d91b2c1ac4acc66f2db683596550ca4256c84706db739def61ef45d4a95ab",
+    "RESULT.json": "4533389dc9cde4fcd5920adb05fd98d3b0fefd690ee5e90304b72c96734df9c1",
+    "SOURCE_GROUPS.tsv": "8e6df96d694b61e98ca58d121addd2763efda8526322421f2fd5269823e7c724",
+    "TARGETS.tsv": "e6767f6e2211ab90c9bc4797bb83b009be353e1e62c5abda577a28c9c8144a05"
+  },
+  "checked_source_metadata_hashes": {
+    "CANVASES.json": "5321b5b7a1ab180733a7c3e7606c393704136bdf6257cf08da5f70ba9ac40aad",
+    "F76R_IMAGES.tsv": "23def5a567fe6441d32828c9bf6d8f3da71b4b3cecf4e1795008acb241710b47",
+    "F77R_IMAGES.tsv": "a932ff19736ec6d5565ea97ce05933397a000030c9655f7377940207fe19ccb5",
+    "F81R_IMAGES.tsv": "75a5e4984637b1fe0ca81a0511a5438e7ef2035de7df30e6dfaabf6f7697557b",
+    "SPEC.json": "056ef0191b3f0f3c0b32e933ce4e80792046a7a4e8774b902bbbd3a95779e02e"
+  },
+  "comparisons": 15,
+  "complete_prose_loci": 74,
+  "experiment_id": "GDT819",
+  "glyph_truth_validated": false,
+  "guarded_queries": [
+    {
+      "command": [
+        "./vmanus-exp",
+        "query-tsv",
+        "transcription/voynich_zl3b_lines.tsv",
+        "--selector",
+        "page",
+        "--allow",
+        "f76r",
+        "--allow",
+        "f77r",
+        "--allow",
+        "f81r",
+        "--columns",
+        "page,locus,kind,paragraph_start,paragraph_end,eva_clean,ivtff_raw",
+        "--forbid-prefix",
+        "f84",
+        "--forbid-prefix",
+        "f84r"
+      ],
+      "projection_sha256": "03bdd08c29b5970c7b352b84340a24d4e19942cc1f65623662f88ed2127ed3cf",
+      "stats": {
+        "selected": 137,
+        "skipped_forbidden": 98,
+        "skipped_not_allowed": 5150
+      }
+    },
+    {
+      "command": [
+        "./vmanus-exp",
+        "query-tsv",
+        "transcription/voynich_cross_transcription_lines.tsv",
+        "--selector",
+        "page",
+        "--allow",
+        "f76r",
+        "--allow",
+        "f77r",
+        "--allow",
+        "f81r",
+        "--columns",
+        "page,locus,zl3b_clean,it2a_clean,rf1b_clean",
+        "--forbid-prefix",
+        "f84",
+        "--forbid-prefix",
+        "f84r"
+      ],
+      "projection_sha256": "a0674c6420e4816dfd2110c1c8311b02c98fe6dca96d8e9f4490028be73b0ec6",
+      "stats": {
+        "selected": 137,
+        "skipped_forbidden": 98,
+        "skipped_not_allowed": 5151
+      }
+    },
+    {
+      "command": [
+        "./vmanus-exp",
+        "query-tsv",
+        "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+        "--selector",
+        "page",
+        "--allow",
+        "f76r",
+        "--allow",
+        "f77r",
+        "--allow",
+        "f81r",
+        "--columns",
+        "source_group_id,edition,locus,page,source_group_index,source_group_count,paragraph_start,paragraph_end,left_separator,right_separator,ivtff_group_raw,clean_ascii_fragments,clean_ascii_fragment_count,legacy_surface_positions_1based,legacy_mapping_status",
+        "--forbid-prefix",
+        "f84",
+        "--forbid-prefix",
+        "f84r"
+      ],
+      "projection_sha256": "0e72e0f7b1dca53d163b61b57479335326cc88b08f059122ba95215d03f373e3",
+      "stats": {
+        "selected": 3296,
+        "skipped_forbidden": 2122,
+        "skipped_not_allowed": 110052
+      }
+    }
+  ],
+  "image_bytes_validated": false,
+  "interleaved_labels": 9,
+  "legacy_inputs_modified": false,
+  "meanings_validated": false,
+  "negative_controls_rejected": {
+    "IT_shedaiin_smoothed": true,
+    "deleted_actual_doublet": true,
+    "entity_split": true,
+    "entity_to_d": true,
+    "glyph_truth_promoted": true,
+    "qotaiin_merge": true
+  },
+  "public_image_metadata_rows": 13,
+  "runner_imported_or_called": false,
+  "source_groups_not_linguistic_words": true,
+  "source_loci": 137,
+  "status": "PASS_INDEPENDENT_SOURCE_METADATA_RECONSTRUCTION",
+  "target_source_groups": 129
+}

@@ -1,6 +1,6 @@
 # Voynich current route
 Updated: 2026-09-05. Read first.
-`./vmanus-work lookup GDT818 GDT817 GDT816`: index pointers; open only needed reports.
+`./vmanus-work lookup GDT819 GDT818 GDT817`: index pointers; open only needed reports.
 
 ## Goal and actual position
 
@@ -27,7 +27,7 @@ Translate concrete content with transferable meanings. No translation yet.
 - f84 is sealed; f84r is sealed. Record admissions before opening; metadata grants no scope.
 - Mixed TSVs: `./vmanus-exp query-tsv`, explicit allow-values/columns, forbidden
   f84/f84r prefixes. Reject raw selectors before payload, never parse then filter.
-- Image/OCR labels do not identify words. Observation is not inferred meaning.
+- Image/OCR labels do not identify words.
 
 ## Current working model
 
@@ -41,14 +41,17 @@ weak placement prior, not a decoder. GDT398 licenses no free equivalence merges.
 
 Renderer: span > licensed whole > unknown; consume once, retain doublets
 and alternate boundaries. Similarity grants no component.
+Source groups/separator states BEFORE whole-word/compound/space claims.
+Legacy ASCII spaces can be cleaner-created; extended @entities stay opaque.
+GDT819 reconnects the existing2026-08-09 source atlas correction to live trials.
 
 ## Inherited results: GDT809–811
 
-GDT809 axes unresolved; GDT810 arity fails beyond f32v; sho was sh+o-derived.
-GDT811: no object decoded;17 edges ineligible; f4r defeats obligatory slots.
-Two f17r otchol-X-Y-chol spans exact; okol/qokol and ofaldo/ofal not species.
+GDT809 axes open; GDT810 arity fails beyond f32v; sho sh+o-derived.
+GDT811:0objects17ineligibleedges; f4r defeats obligatory slots; f17r two exact
+otchol-X-Y-chol spans; okol/qokol and ofaldo/ofal not species.
 
-## Inherited family and active GDT818
+## Inherited family and active GDT819
 
 Scalar baseline A: dan very little, dain little, daiin much, daiiin very much;
 all C0 wholes. Comparison/excess and I-IV rivals remain; no dictionary adoption.
@@ -58,15 +61,10 @@ authentication through it; keep selector-bound text. Correct parent1006203
 was used for current f72r3 region, not a whole-foldout audit. See GDT812
 src/F72R_SOURCE_CORRECTION.md. No new admission; f116v not admitted.
 
-GDT813 keeps family A, otchol=this?, cthar=root?, chol=dry?; okaiin=N powder?
-or G is?. GDT814 adds Q warm? (no III/action), R possessive dessen? (not davon).
-GDT814: f76r P spans nine L records, not sentence resets.
-GDT815 corrects GDT814 prose: f81v.4 ends ZL chcthy, IT/RF chckhy; .5 starts
-ZL/IT okaiin daiin, RF kaiin aiin. Written head survives, not common identity.
-K cold? and B bitter? separate fixed rivals, no1420 key.
-No bitter-star reading via invented medicinal relation. Correct f72r3
-Cancer-like centre does not own outer .12; cold complexion vs warm weather matters.
-f72r3 pair registration OPEN; f89r1 okaiin dan grouped (GDT815).
+GDT813–815: otchol=this?, cthar=root?, chol=dry?; okaiin=N powder?/G is?,
+Q warm? or R possessive dessen? (not davon). K cold?/B bitter? separate; no1420key.
+F81v4/5 alternate readings differ; GDT815 source correction governs, not one head identity.
+F72r3 centre does not own outer12; pair registration OPEN. F89r1 okaiin dan grouped.
 GDT816 C0: Q okol=plant drug?, R okol=whole plant?; both chor=leaves?,
 ychey=plant juice?, otedy=water source?, qokain=water?, solkeey=aqueous vapour?.
 Joint Q warm/dry humoral, POST-external; no pooling physical warmth. R dry same.
@@ -75,34 +73,40 @@ is NEXT P. Cross-register noun debts remain; no qokeedy heating actions.
 
 GDT817 keeps the C0 vapour-whose-becomes-water seed; ol=or loses global priority
 on ol ol / ol ol ol. chedy doublets burden finite becomes. No image word owner.
-GDT818 fixed2x2: solkeey=vapour/basin × chedy=becomes/physically contains;
-R otherwise unchanged, ol unknown. Basin-becomes-water is not becomes-filled.
-Contains fixes that local mismatch, not doublets or unknown subjects/owners.
-Water precedes chedy f75r16/22 all3; a line ending does not end the P clause.
-F83r9–17 has chedy-water but no exact vapour/basin/source word to name its subject.
-Separate complete ZL/IT f77r35 trial: vapour whose becomes water if air is cold.
-Four new C0 guesses sheedy=if,qokaiin=air,chedaiin=is,chealy=physical cold;
-completion-motivated, not lexical evidence. RF tail if [qotaiin][che][aiin] cold.
-Rival sheedy=with leaves3ZL/4RF tail words open. F81r19 ZL/IT sheedy chedy:
-fixed rightward nominal with loses priority before finite becomes/contains;
-if permits clause opening, subject unknown. RF shee y. No global word-order rule.
-New copula produces is-becomes/contains f77r12 ZL (IT shedaiin;RF splits).
-Air air f77r34 all3 remains. chealy occurs only at seed in admitted39 scope.
-115 loci/7P+1C complete contexts;35focal/420matrix rows;29tailrecords/174rows.
-Root read115+29 with variants; sets overlap. Not all qokaiin singletons or
-full follow-up P blocks read.4relation alternatives GDT388-ineligible.
-No new page/image/dictionary word/confirmed clause. Candidate confidences in
-GDT818 src/CANDIDATES.tsv; current basis WORKING_THEORY.md/REPORT.md.
+GDT818 fixed2x2: vapour/basin × becomes/physically contains; R fixed, ol unknown.
+Contains fixes basin-becomes-water mismatch, not doublets or unknown owners.
+F75r16/22 water-before-predicate all3; line end not clause end. F83r9–17
+has no exact vapour/basin/source word naming its chedy-water subject.
+Separate ZL/IT f77r35 trial: Dessen Dampf wird Wasser, wenn die Luft kalt ist.
+New C0 sheedy=if,qokaiin=air,chedaiin=is,chealy=physical cold; completion-motivated.
+Rightward with+nominal loses local priority f81r19 ONLY IF chedy finite.
+115contextloci7P1C;35focal420displays;29tailrecords174displays, overlaps.
+Not all qokaiin singletons read.4relation alternatives GDT388-ineligible.
+
+GDT819 actual images f76r/f77r/f81r,5targets;74P+9L fullcontexts rootread.
+129target sourcegroups/15comparisons; all15atlas-flat=current-clean.
+RF f77r35 has8groups/four-group tail, not9/five: che@152;aiin is ONE group.
+Corrected RF trial tail: if [qotaiin][che@152;aiin] cold. No entity=d alias.
+RF f81r19 shee@152;y ONE group; final ol,am genuine uncertain smallspace.
+RF f77r12 che@152;aiin + che@152;y TWO groups, notfour independent words.
+Image favors local IT shedaiin over ZL chedaiin f77r12: is-becomes less secure.
+No source overwrite/wholeIT preference. IT sheol.ol12 and qol.chedy34 retained.
+Actual chedy-like doublet f76r23 and qokaiin doublet f77r34 visibly remain.
+F77r35 k/t OPEN; no clear clause marker/P reset at targets; no POS decoded.
+13renditions on3admittedpages, not13pages. No image wordowner or meaning proof.
+Old separator correction was missed in recent reasoning, not newly discovered;
+five-target integration does NOT revalidate all legacy counts/word boundaries.
+No new admission/dictionary meaning/confirmed clause. GDT818 candidate C0 values
+unchanged; GDT819 WORKING_THEORY/REPORT and src/READING_DECISIONS govern corrections.
 
 ## Which source to open
 
 | Need | Index lookup / source |
 |---|---|
-| Current line trial / attachment | GDT818: theory, report, candidates |
-| Earlier vapour/basin comparison | GDT817 |
-| Fixed concrete paragraph nouns and frame debt | GDT816 |
-| Complete quality/reference context reader | GDT814 |
-| Earlier powder/copula and extra-page reader | GDT813 / GDT812 |
+| Current boundaries / image decisions | GDT819: theory, report, source and visual notes |
+| Fixed line trial / candidate meanings | GDT818: candidates; GDT819 corrections govern |
+| Earlier vapour/basin / concrete nouns / quality | GDT817 / GDT816 / GDT814 |
+| Earlier powder/copula and extra pages | GDT813 / GDT812 |
 | Complete-page synthesis/text | GDT811: theory and reader |
 | Legacy renderer/dictionary | GDT734; later corrections govern |
 | Label / axis corrections | GDT792–798 / GDT800–808 |
@@ -112,11 +116,9 @@ GDT754 removes component prose. Oil/water/wine remain open (GDT769–786).
 
 ## Avoid repeating work
 
-Before a genuinely new research route, run `./vmanus-exp route-check QUERY`.
-Its lexical ranking is navigation, not a verdict. Inspect relevant returned
-primary reports and `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv`.
-Do not rerun failures without new data or a genuinely different prediction.
-Do not revive:
+Before new routes:`./vmanus-exp route-check QUERY`; lexical navigation, not verdict.
+Read relevant primary reports and `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv`.
+No failed-route rerun without new data/different prediction. Do not revive:
 
 - EVA-to-Latin initials; generic language/cipher expansion or anonymous role induction;
 - generic universal action prose, substring glosses, neighbour/backoff meanings;
@@ -128,20 +130,17 @@ Do not revive:
 
 ## Next useful work and efficient operation
 
-Next: actual clause/word grouping at f81r19, f77r12/35 and f76r23; if useful,
-inspect already admitted originals. Resolve the finite/copula/connective
-collision before another word menu. No assumed auxiliary, component-role
-renderer or line-reset rule. No extra page needed.
+Next: source-group layer in bounded GDT818 predicate/connective contexts, then
+actual doublets and finite-verb assumption against concrete whole paragraphs.
+Do not infer words from ASCII splits or rerun global atlas. No auxiliary rescue,
+new noun menu or line-reset rule. Existing sentence remains an exploratory guess.
 
-Reuse readers and batch probes; reformatting is not an experiment.
-Workflow:`docs/WORKFLOW.md`; preserve bound tools.
+Reuse readers/batch probes. Workflow:`docs/WORKFLOW.md`; preserve bound tools.
 
 ## Detailed memory and recording
 
-- `VOYNICH_ACTIVE_STATE.md`: targeted claim registry, not routine context.
-- `experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv`: one short row
-  per material pass/correction/lead. Older prose archives may be superseded.
+- `VOYNICH_ACTIVE_STATE.md`: targeted claims.
+- `experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv`: row per material pass.
 - GDT001–336 untouched; GDT337+ scaffold/manifest, f84/f84r seals.
 - New relations: `./vmanus-exp check-edge-packet`; identity is not ownership.
-- Preserve unrelated work; scan exact staged tree before publication.
-  Global and task-scoped checks differ. Replace summaries; keep report details.
+- Preserve unrelated work; scan exact staged tree; global/task checks differ.

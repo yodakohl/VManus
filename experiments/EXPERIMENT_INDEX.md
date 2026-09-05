@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **817**
-- Experiment-associated tracked files: **14,844** (1.3 GiB)
-- Structured GDT337+ experiments: **482**
+- Experiments indexed: **818**
+- Experiment-associated tracked files: **14,874** (1.3 GiB)
+- Structured GDT337+ experiments: **483**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT819 | GDT819_content_synthesis | `SOURCE_GROUP_LOSS_CORRECTED_VISUAL_PREFERENCE_NO_TRANSLATION` | [report](../experiments/yolo/gdt819_written_predicate_boundary_review/REPORT.md) | 30 | 160.0 KiB | 6 | STRUCTURED_YOLO |
 | GDT818 | GDT818_content_synthesis | `C0_FULL_LINE_CONDITION_TRIAL_WITH_ATTACHMENT_DEBT_NO_TRANSLATION` | [report](../experiments/yolo/gdt818_fixed_material_container_relation/WORKING_THEORY.md) | 30 | 322.7 KiB | 8 | STRUCTURED_YOLO |
 | GDT817 | GDT817_content_synthesis | `C0_CONDENSATION_CLAUSE_SEED_DUPLICATION_DEBTS_NO_TRANSLATION` | [report](../experiments/yolo/gdt817_solkeey_external_content/REPORT.md) | 27 | 244.6 KiB | 7 | STRUCTURED_YOLO |
 | GDT816 | GDT816_content_synthesis | `C0_CONCRETE_NOUN_TRIALS_JOINT_FRAME_DEBT_NO_TRANSLATION` | [report](../experiments/yolo/gdt816_paragraph_content_models/REPORT.md) | 24 | 185.1 KiB | 9 | STRUCTURED_YOLO |

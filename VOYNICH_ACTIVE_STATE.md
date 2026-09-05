@@ -22230,3 +22230,45 @@ Next: actual grouping f81r19/f77r12,35/f76r23, admitted images if useful,
 before more noun/verb menus.0confirmed words/clauses, unchanged dictionary,
 39selectors34pagekeys16admissionsunused;f84/f84r sealed. Authority:GDT818
 WORKING_THEORY/REPORT, src/CANDIDATES.tsv and separate agent/source notes.
+
+## GDT819 — source-group correction and actual image boundaries (2026-09-05)
+
+Supersedes GDT818's RF five-word-tail/independent clean-fragment claims, not its
+stored artifacts. Existing2026-08-09 source_separator_transcription_correction
+and atlas already documented semicolon-based splitting of @number; entities.
+This pass reuses that layer at five active targets; not a newly discovered
+global defect or an impact audit of every older experiment. Historical source,
+cleaner and atlas unchanged. Use raw source groups/separator states before
+whole-word/compound/space inferences; source groups are not proven lexical words.
+
+RF f77r35 has8source groups, four tail groups:
+sheedy.qotaiin.che@152;aiin.chealy. The extra che/aiin boundary was artificial;
+qotaiin remains different, @152; opaque, no automatic d expansion. F81r19
+shee@152;y is one group; final ol,am instead has a real uncertain small source
+space. F77r12 che@152;aiin/che@152;y are two groups notfour words. IT genuine
+sheol.ol12 and qol.chedy34 stay distinct. All15 target atlas-flattened readings
+exactly match current cross TSV; this checks representation not translation.
+
+Manual images: f77r12 elevated mark favors local IT shedaiin, moderate confidence;
+ZL-only is-becomes objection weakened, not copula confirmed or canonical source
+edited. F76r23 both chedy-like complexes and f77r34 both qokaiin complexes are
+actually written, no obvious deletion. Air-air and finite becomes/contains debts
+remain. F77r35 k/t unresolved. F81r19 five large complexes do not cancel RF ol,am.
+No diagnostic clause marker or paragraph boundary solves any target; no POS or
+word owner inferred. Different readers inspect the same manuscript images.
+
+GDT818 ZL/IT Dessen Dampf wird Wasser, wenn die Luft kalt ist remains C0,
+all word identities/syntax guessed. RF has two unknown groups in four-group tail,
+notthree unknown words. If-over-rightward-with priority remains conditional on
+unproved finiteness. Four vapour/basin x becomes/contains worlds unchanged.
+
+Four complete P streams74P+9separateL rootread with variants; five targets,
+129sourcegroups15comparisons16issuegroups.13renditions including10regions of
+three admitted pages; not13pages. Independent source/metadata validator passes
+six negative mutations, does not validate image bytes/glyphs/meanings. No new
+relation evidence; inherited GDT818 alternatives remain ineligible. Scope still
+39selectors34visualkeys16unusedadmissions;f84/f84r sealed;0confirmedwords/clauses.
+
+Next bounded source-group context integration, then actual repetition/finite
+predicate content, not more nouns or global atlas rerun. Authority:GDT819
+REPORT/WORKING_THEORY, src/SOURCE_AUDIT and visual notes/READING_DECISIONS.
