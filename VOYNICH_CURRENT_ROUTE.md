@@ -1,6 +1,6 @@
 # Voynich current route
 Updated: 2026-09-05. Read first.
-`./vmanus-work lookup GDT815 GDT814`: index pointers; open only needed reports.
+`./vmanus-work lookup GDT816 GDT815`: index pointers; open only needed reports.
 
 ## Goal and actual position
 
@@ -44,25 +44,19 @@ repetition and alternate boundaries. Similarity grants no component.
 
 ## Inherited results: GDT809–811
 
-- GDT809:16 C0 wholes cover46/145 tokens; quality/degree vs state/amount unresolved.
-  cthy leaf/herb/opaque tied; overlap is not new evidence.
-- GDT810: compound-quality arity fails beyond f32v; sho came from sh+o composition.
-- GDT811: f17r/f77r/f88r/f72r178 loci/946 tokens; labels separate. No object decoded.
-  f88r repeats only okol as a complete label; f77r only otedy, in the next paragraph.
-- okol58/45 keys and qokol90/52 are cross-register, not plant names. ofaldo/ofal
-  remains a name-form candidate, not a species or licensed suffix. Inventory:GDT811.
-- Both f17r otchol-X-Y-chol spans are reader-exact, one across a line break.
-  No other width-two case on the original30 pages; f4r otchol chol defeats obligatory slots.
-- Reconstruction checks do not validate meanings; GDT811's17 edges remain ineligible.
+- GDT809 quality/degree vs state/amount unresolved; cthy leaf/herb/opaque tied.
+- GDT810 quality arity fails beyond f32v; sho came from sh+o composition.
+- GDT811 complete reader: labels separate, no object decoded;17 edges ineligible.
+  okol/qokol cross-register, not plant names; ofaldo/ofal not a decoded species.
+- Two f17r otchol-X-Y-chol spans exact, one cross-line; f4r defeats obligatory slots.
 
-## Inherited family and active GDT815
+## Inherited family and active GDT816
 
-GDT812's four extra pages were viewed: complete reader55 loci/513 ZL tokens.
+GDT812's four extra pages viewed; complete reader55 loci/513 ZL tokens.
 Scalar baseline A: dan very little, dain little, daiin much, daiiin very much;
 all C0 wholes. Comparison/excess and I-IV rivals remain; no dictionary adoption.
-Family probe39 selectors,15 complete blocks/83 loci; long chains unresolved.
-Historical quantity/intensity and flexion provide no four-form Latin key.
-dchdy is absent from f100v/f101r prose; substance/effect remains unresolved.
+Long chains unresolved; historical quantity/intensity/flexion supplies no Latin key.
+dchdy absent from f100v/f101r prose; substance/effect unresolved.
 Correction: Yale1006204 is72v, not72r. Quarantine GDT791/GDT811 f72r visual
 authentication through it; keep selector-bound text. Correct parent1006203
 was used for current f72r3 region, not a whole-foldout audit. See GDT812
@@ -74,33 +68,41 @@ GDT814 reader:37 blocks/176 loci,20 P/17 non-P; f76r P spans nine separate L
 records. Source paragraphs, not decoded clauses. All guesses remain C0.
 GDT815 corrects GDT814 prose: f81v.4 ends ZL chcthy, IT/RF chckhy; .5 starts
 ZL/IT okaiin daiin, RF kaiin aiin. Written head survives, not common identity.
-K cold? and B bitter? are separate fixed rivals; no within-model sense switch.
-1499 GENCIANA has root/thermal qualities and graded bitterness; not a1420 key.
-Literal bitter is not licensed for stars through an unwritten medicinal relation.
-Correct f72r3 image has a Cancer-like centre, not a proven owner of outer .12.
-Medieval Cancer is cold/moist in complexion but warm in weather: frame matters.
-f72r3 graphical word-pair registration stays OPEN; f89r1 okaiin dan grouped.
-Priority: okol label f88r.15 -> prose.19 -> ychey okaiin chol .22;
-otedy label f77r.3 -> next P opener.25 -> qokain/solkeey okaiin .27/.35.
-These known identities now supply explicit possible R owners, not proved
-antecedents/parts. Q must also carry okol okaiin f24v and otedy okaiin f75r.
-oty label f70v2.5 -> f21r.8/.9 cross-line pair is exact but still unnamed.
-10 cards/180 literal displays, not experiments;9 contacts GDT388-ineligible.
-No admission/dictionary change or confirmed words. Property domain unresolved.
-Basis:GDT815 WORKING_THEORY.md; all13 assignments C0/origin/debt in HYPOTHESES.tsv.
+K cold? and B bitter? separate fixed rivals;1499 GENCIANA is not a1420 key.
+No bitter-star reading through an unwritten medicinal relation. Correct f72r3
+Cancer-like centre does not own outer .12; cold complexion vs warm weather matters.
+f72r3 pair registration OPEN; f89r1 okaiin dan grouped (GDT815).
+GDT816: four complete P paragraphs f88r.18–22/f77r.25–37/f24v.1–5/f75r.32–46,
+plus two separate labels;40 loci/240 literal displays. All94 other exact-six-whole
+loci in39 selectors read; not94 whole paragraphs. No new admission or dictionary.
+Concrete C0 atoms: Q okol=plant drug?, R okol=whole plant?; both chor=leaves?,
+ychey=plant juice?, otedy=water source?, qokain=water?, solkeey=aqueous vapour?.
+qokaiin stays UNKNOWN; repeated qokeedy/qokedy chains are not heating actions.
+R names earlier owners: okol .19 -> ychey .22; otedy .25 -> qokain/solkeey
+.27/.35; f75r water .43#4 -> source .45 crosses nearer source mentions.
+All four bindings GDT388-ineligible. f81v first P.1–9 has no otedy before
+qokain okaiin .6; source .10 in NEXT P cannot supply an earlier owner.
+Q has local attachment simplicity, NOT a joint semantic win. Apothecary uses
+humoral warm/dry; physician uses physical warmth. Joint Q explicitly assumes
+humoral qualities everywhere, declared POST-external; R dry shares that frame.
+Heated water is not thereby naturally warm; no mineral-water rescue inserted.
+Juice at f69v.2 C, plant at f71v.12 C, source at f95v2.1 remain unexplained,
+not reinterpreted metaphorically. Bare solkeey f81v.19/f83r.52 exact, no meaning
+identified. Six nouns narrower than generic prose but not lexically confirmed.
+Basis:GDT816 WORKING_THEORY.md; all joint and retained values in HYPOTHESES.tsv.
 
 ## Which source to open
 
 | Need | Index lookup / source |
 |---|---|
-| Current carrier/property-frame comparison | GDT815: theory, report, hypotheses |
+| Current concrete paragraph accounts | GDT816: theory, report, hypotheses |
+| Prior carrier/property-frame comparison | GDT815 |
 | Complete quality/reference context reader | GDT814 |
-| Earlier fixed powder/copula alternatives | GDT813 |
-| Current extra-page reader and semantic comparison | GDT812 |
+| Earlier powder/copula and extra-page reader | GDT813 / GDT812 |
 | Complete-page synthesis/text | GDT811: theory and reader |
-| Earlier paragraph model / original ownership | GDT809 / GDT790–791 |
+| Earlier paragraph model / ownership | GDT809 / GDT790–791 |
 | Legacy renderer/dictionary | GDT734; later corrections govern |
-| Earlier label / axis corrections | GDT792–798 / GDT800–808 |
+| Label / axis corrections | GDT792–798 / GDT800–808 |
 
 GDT737 quarantines80 initial-derived cards; GDT738 holds solaiin/sols salt/species;
 GDT754 removes component prose. Oil/water/wine remain open (GDT769–786).
@@ -123,9 +125,10 @@ Do not revive:
 
 ## Next useful work and efficient operation
 
-Next: whole-paragraph content accounts of okol/ychey (f88r) and otedy with
-qokain/solkeey (f77r), plus their independent pair uses. Seek concrete owner,
-part or property relations, not more interchangeable adjectives for okaiin.
+Next: solkeey=vapour? through full external P f81v.10–27/f83r.52–55 compared
+with f77r.35 solkeey okaiin chedy qokain. Seek a concrete material assertion
+and connection to qokain, not another adjective or an invisible heating step.
+Occurrences already known; next work is their complete content account.
 No ring-order, k/t or proximity-owner revival; no extra page needed.
 
 Reuse readers and batch probes; reformatting is not an experiment.
@@ -133,13 +136,10 @@ Workflow:`docs/WORKFLOW.md`; preserve bound tools.
 
 ## Detailed memory and recording
 
-- `VOYNICH_ACTIVE_STATE.md`: full claim registry; read targeted sections only.
-- `experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv`: append-only
-  material history. Add one short row per material pass/failure/correction/lead.
-- Older handoff/worklogs may be superseded.
-- Keep GDT001–336 untouched; new GDT337+ experiments use the scaffold and
-  manifest, explicitly sealing f84 and f84r. New relation evidence still runs
-  through `./vmanus-exp check-edge-packet`; text identity is not visual ownership.
-- Preserve unrelated/untracked work. Scan the exact staged tree before any
-  publication. Full global checking remains separate from task-scoped checking.
-- Replace summaries; details stay in reports, registry and Git.
+- `VOYNICH_ACTIVE_STATE.md`: targeted claim registry, not routine context.
+- `experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv`: one short row
+  per material pass/correction/lead. Older prose archives may be superseded.
+- GDT001–336 untouched; GDT337+ scaffold/manifest, f84/f84r seals.
+- New relations: `./vmanus-exp check-edge-packet`; identity is not ownership.
+- Preserve unrelated work; scan exact staged tree before publication.
+  Global and task-scoped checks differ. Replace summaries; keep report details.

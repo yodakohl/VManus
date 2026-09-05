@@ -1,0 +1,262 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Four complete P paragraphs and two labels,94 external loci,240 literal displays; source conservation only. Six concrete C0 noun trials; physical and humoral Q advantages cannot be pooled. Four R bindings ineligible; no confirmed words or clauses, dictionary change or new admission.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt816_paragraph_content_models/src/run.py",
+    "validate": "python3 experiments/yolo/gdt816_paragraph_content_models/src/validate.py --check"
+  },
+  "created": "2026-09-05",
+  "dependencies": [
+    "GDT762",
+    "GDT791",
+    "GDT792",
+    "GDT798",
+    "GDT811",
+    "GDT812",
+    "GDT813",
+    "GDT814",
+    "GDT815"
+  ],
+  "experiment_id": "GDT816",
+  "inputs": [
+    {
+      "path": "transcription/voynich_zl3b_lines.tsv",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "7520dd4c11f4d23c8492e4b2a52cc0fcbda6d9fc88a96ead8f1c31081a4d7ed2"
+    },
+    {
+      "path": "transcription/voynich_cross_transcription_lines.tsv",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "ff3a4559004a29764c60102326de154b29fbba06a2a206bdd76d7feda432e16c"
+    },
+    {
+      "path": "vmanus-exp",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "53b69eec8412b54d1248fd52d91c06e0eabc7f436b9015d0cfdb0746606c1528"
+    },
+    {
+      "path": "tools/vmanus_exp_cli.py",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "67af0295b7f1282062981331982d893091532d07acbd986ed744ce9076b6b5dd"
+    },
+    {
+      "path": "tools/vmanus_experiment.py",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "0b84a5503f8d4aa2e1d23c449da1cd1b2d2059f4d7f74727c6b899928e59cce2"
+    },
+    {
+      "path": "tools/relation_edge_intake.py",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "fb8447470aa81ed608b90aedf7478893ddf6a445351aa12ab23c6fd725be3a47"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/src/PAGE_SELECTOR_SPECS.tsv",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "69e5463f7ce6c22bd83fe35e4fdc0601731a3c470b5c510a15ac3befa1716bae"
+    },
+    {
+      "path": "experiments/yolo/gdt792_target_masked_image_form_host_transfer/REPORT.md",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "4ca6636bceaf98a0a172a00b3b67004f4f658d06d2b9eb20328480c7f14a9003"
+    },
+    {
+      "path": "experiments/yolo/gdt798_qokaldy_complete_whole_paragraph_discriminator/REPORT.md",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "cdaad700d5d31e542b636e12ccb9342c96b8caf8eb0228e21dedf57ad77d6e10"
+    },
+    {
+      "path": "experiments/yolo/gdt762_moist_medium_candidate_discrimination/REPORT.md",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "66c48146f7a04eb4af39f5c9a51f1b6675bdf2c230f8f02bd949c8eedf640076"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/REPORT.md",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "b5277bce41201d1146d398b95e59d864ad08f59a92e23d262b1de20c3dcc6e8c"
+    },
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/src/PAGE_ADMISSIONS.tsv",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "1636a5868a86fca239156772119d41cca52ec8044b616f3110507289452fab0b"
+    },
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/src/family_probe.py",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "20674c29aaed02d1c97c8f31e82e120b0679e4e6ee60e4b68d67f17229d7fdac"
+    },
+    {
+      "path": "experiments/yolo/gdt813_f17_content_word_transfer/src/SPEC.json",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "4e026756f6adc0845250aaf271e525f6dcb02b07e33adc3b46eefd21adf36263"
+    },
+    {
+      "path": "experiments/yolo/gdt814_okaiin_quality_reference_construction/artifacts/SOURCE_READER.md",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "7208235aecfc3bc8befc2fc7d2718c8fc339f0b0a3b51f87f5e33272cd94384f"
+    },
+    {
+      "path": "experiments/yolo/gdt815_referent_property_discrimination/REPORT.md",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "699a06fccd9298c304e76c38b7d743a8282d4b6a521e59f4c6ee8008bc852144"
+    },
+    {
+      "path": "experiments/yolo/gdt815_referent_property_discrimination/src/HYPOTHESES.tsv",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "c5780019d0eee6f223077501e6ab17672c66d97741e157c9d4a078d5885fe261"
+    },
+    {
+      "path": "experiments/yolo/gdt815_referent_property_discrimination/src/TEXT_REFERENT_AUDIT.md",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "e187625a3f4d7a422267fc4cd158b7e6320262f5c5b32fa73c99f3910beb1d1f"
+    },
+    {
+      "path": "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/src/VISUAL_SOURCES.tsv",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "1c3e898e02bb456812a0d9b1420e3a1bd2d7f909bada36caf3fc55d9e5866cd6"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/src/F77_HISTORICAL_READING.md",
+      "role": "source_guard_admission_or_prior_claim",
+      "sha256": "9c828026face38dd1d295597b5d7c0202bcfb44aca525cfb1851d2d6811cf5df"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt816_paragraph_content_models/METHOD.md",
+      "role": "report_or_design",
+      "sha256": "c0784866f5a08e0f3ad4940fbf49cec177910e35d9e667a0bba109fc334de92e"
+    },
+    {
+      "path": "experiments/yolo/gdt816_paragraph_content_models/PREREGISTRATION.md",
+      "role": "report_or_design",
+      "sha256": "10849dafbd98894db8702223fa87b6d373ca119b630a7b69c40f4177512960e8"
+    },
+    {
+      "path": "experiments/yolo/gdt816_paragraph_content_models/README.md",
+      "role": "report_or_design",
+      "sha256": "d83193272c13e3279ea54a02a78cd036cf49ad30176dc6b16f7322963b26131d"
+    },
+    {
+      "path": "experiments/yolo/gdt816_paragraph_content_models/REPORT.md",
+      "role": "report_or_design",
+      "sha256": "74119c1116d8dfe06133fac4ae4a1a9b91f1beb0af159dfe0e4ab48a5676b214"
+    },
+    {
+      "path": "experiments/yolo/gdt816_paragraph_content_models/WORKING_THEORY.md",
+      "role": "report_or_design",
+      "sha256": "c8a692cec2601f2078ed9579d56c85a5ed5bf2f95db5cae9e7648c0500b7d830"
+    },
+    {
+      "path": "experiments/yolo/gdt816_paragraph_content_models/artifacts/EDGE_GATE.json",
+      "role": "compact_result",
+      "sha256": "ca0b77e837520dac2fca16a668d26ea1d229802929d43afa2ace05bd2dc359ce"
+    },
+    {
+      "path": "experiments/yolo/gdt816_paragraph_content_models/artifacts/EXTERNAL.tsv",
+      "role": "compact_result",
+      "sha256": "5e2e9c6b8c53b73c4792704aa520005896361daf13fa56f0297e5d92bc58def6"
+    },
+    {
+      "path": "experiments/yolo/gdt816_paragraph_content_models/artifacts/FOCAL.tsv",
+      "role": "compact_result",
+      "sha256": "443718c39f623d23a2f3dee132b83f88a02e12b51e158ab9e9e5e66449f2e291"
+    },
+    {
+      "path": "experiments/yolo/gdt816_paragraph_content_models/artifacts/FULL_READER.md",
+      "role": "compact_result",
+      "sha256": "733c78a8d2705e00d9a250e6ecc8502c5e20469eca80a338ee057c5c9afa42ef"
+    },
+    {
+      "path": "experiments/yolo/gdt816_paragraph_content_models/artifacts/LITERAL_TRIALS.tsv",
+      "role": "compact_result",
+      "sha256": "52f5ed60b45fe232e97702d91222ee850127a57f9c16b48877b21771ee7fc67a"
+    },
+    {
+      "path": "experiments/yolo/gdt816_paragraph_content_models/artifacts/README.md",
+      "role": "compact_result",
+      "sha256": "3193168ad2f152f73fca171b1674e5c5b4f5545c25fc4ac613ba9bd61fe47ba6"
+    },
+    {
+      "path": "experiments/yolo/gdt816_paragraph_content_models/artifacts/RESULT.json",
+      "role": "compact_result",
+      "sha256": "9fefd543fe482c86ed9f96b00df6810764056263c4b88c77275a88e4108a29ef"
+    },
+    {
+      "path": "experiments/yolo/gdt816_paragraph_content_models/artifacts/VALIDATION.json",
+      "role": "compact_result",
+      "sha256": "710bb693c42679778a5742813367b6f84869206805ac65929e56173beef9dd0d"
+    },
+    {
+      "path": "experiments/yolo/gdt816_paragraph_content_models/src/APOTHECARY_MODELS.json",
+      "role": "implementation_or_manual_source",
+      "sha256": "67da265f343d941f47d9e7dbdf8f20c07b42036c2c45276d2c0091df3dc1b721"
+    },
+    {
+      "path": "experiments/yolo/gdt816_paragraph_content_models/src/F77R_PHYSICIAN.md",
+      "role": "implementation_or_manual_source",
+      "sha256": "839a0d5566208b67b50a23767f1618540839abdb3895a758a66d10a080f47c91"
+    },
+    {
+      "path": "experiments/yolo/gdt816_paragraph_content_models/src/F88R_APOTHECARY.md",
+      "role": "implementation_or_manual_source",
+      "sha256": "287ed09331e8d6a1150fd3771712e53d56be3674e381627531ba7716ed719fdc"
+    },
+    {
+      "path": "experiments/yolo/gdt816_paragraph_content_models/src/HYPOTHESES.tsv",
+      "role": "implementation_or_manual_source",
+      "sha256": "c41274a06a7dcc9148c16d06a601f241f55e0960f8721644c482f56bca5869ec"
+    },
+    {
+      "path": "experiments/yolo/gdt816_paragraph_content_models/src/PARAGRAPH_CONSTRAINTS.md",
+      "role": "implementation_or_manual_source",
+      "sha256": "ac1782f25ed5df636bc6414223132c4e56068b1062083d6bad619bdfb0f86276"
+    },
+    {
+      "path": "experiments/yolo/gdt816_paragraph_content_models/src/PHYSICIAN_MODELS.json",
+      "role": "implementation_or_manual_source",
+      "sha256": "f2397eeb1d5b546c8e65d1218012317f2e94b4b541b1f0f6748afab4130fb46a"
+    },
+    {
+      "path": "experiments/yolo/gdt816_paragraph_content_models/src/RELATION_PACKET.tsv",
+      "role": "implementation_or_manual_source",
+      "sha256": "d6e28a41881c576e4d4bdadd31dc2717bf9d2b7974aef10b6071caa61a13c733"
+    },
+    {
+      "path": "experiments/yolo/gdt816_paragraph_content_models/src/SPEC.json",
+      "role": "implementation_or_manual_source",
+      "sha256": "9dd18d67016b45443b39cf1c6a06e4dec1ed8041e4eb62da21fbc83319e79963"
+    },
+    {
+      "path": "experiments/yolo/gdt816_paragraph_content_models/src/run.py",
+      "role": "implementation_or_manual_source",
+      "sha256": "9107b8be3d0bb1280b33db40cc4ca1eed9bef51457ec0fc6680b3684ceb4eaa6"
+    },
+    {
+      "path": "experiments/yolo/gdt816_paragraph_content_models/src/validate.py",
+      "role": "implementation_or_manual_source",
+      "sha256": "6b5d5455b36c894a42eb7320f4c64c8acd4447ba8205a5b5c995a1753008c0ea"
+    }
+  ],
+  "question": "Can six fixed concrete noun meanings support complete paragraph content accounts and carry to exact external occurrences without changing senses or conflating humoral and physical qualities?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "paragraph_content_models",
+  "status": "C0_CONCRETE_NOUN_TRIALS_JOINT_FRAME_DEBT_NO_TRANSLATION",
+  "title": "Concrete paragraph nouns and joint quality-frame debt",
+  "updated": "2026-09-05",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt816_paragraph_content_models/artifacts/VALIDATION.json"
+  }
+}

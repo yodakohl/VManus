@@ -1,0 +1,129 @@
+{
+  "experiment_id": "GDT816",
+  "design_timing": "EXPLORATORY_ATOMS_DECLARED_AFTER_KNOWN_TARGET_CONTEXTS_BEFORE_EXTERNAL_AGENT_TRANSFER_RESULTS",
+  "frame_declaration_timing": "POST_EXTERNAL_CONTEXT_CLARIFICATION_AFTER_COORDINATOR_REQUEST_NO_BLINDED_SUCCESS",
+  "confidence": "C0_UNCONFIRMED",
+  "source_reader": "experiments/yolo/gdt814_okaiin_quality_reference_construction/artifacts/SOURCE_READER.md",
+  "primary_blocks": [
+    "f88r.18--f88r.22",
+    "f24v.1--f24v.5"
+  ],
+  "inherited_label_locus": "f88r.15",
+  "new_wholes_per_model": [
+    "okol",
+    "chor",
+    "ychey"
+  ],
+  "unknown_policy": "BRACKET_EACH_UNMAPPED_WHOLE",
+  "exact_wholes_only": true,
+  "alternate_readings_not_independent_witnesses": true,
+  "new_admissions": 0,
+  "dictionary_changed": false,
+  "confirmed_lexemes": 0,
+  "models": [
+    {
+      "name": "Q_WERKSTATT",
+      "model_kind": "PROPERTY",
+      "quality_frame": "FIXED_MEDICAL_HUMORAL_COMPLEXION_NOT_MEASURED_TEMPERATURE_OR_PHYSICAL_DRYING; explicit additional C0 frame for every application including the four joint paragraphs",
+      "mappings": {
+        "otchol": "dieses?",
+        "cthar": "Wurzel?",
+        "chol": "trocken?",
+        "dan": "sehr wenig?",
+        "dain": "wenig?",
+        "daiin": "viel?",
+        "daiiin": "sehr viel?",
+        "okaiin": "warm?",
+        "okol": "Kraut?",
+        "chor": "Blätter?",
+        "ychey": "Saft?"
+      },
+      "meanings": {
+        "okol": "pflanzliches Arzneimaterial; kein Artname und kein beliebiges Arbeitsgut",
+        "chor": "Blattmaterial; kein Samen, keine Wurzel und keine Portion",
+        "ychey": "Pflanzensaft; keine im Wort behauptete Press-, Koch- oder Trocknungshandlung",
+        "okaiin": "warm als zugeschriebene medizinisch-humorale Qualität; nicht gemessene Temperatur, heiß, erwärmt, erwärmend oder Grad III",
+        "chol": "trocken als zugeschriebene medizinisch-humorale Qualität; nicht physisch getrocknet, verdampft oder Pulver"
+      },
+      "proposed_written_constructions": [
+        {
+          "locus": "f88r.22",
+          "source_span": "ychey okaiin chol",
+          "analysis": "Saft: warm, trocken; nominale Prädikation und Juxtaposition sind zusätzliche Syntaxannahmen"
+        },
+        {
+          "locus": "f24v.4",
+          "source_span": "okol okaiin",
+          "analysis": "Kraut: warm; odaiin und dlos bleiben UNKNOWN"
+        }
+      ],
+      "proposed_topic_relation": {
+        "from": "f88r.19:okol",
+        "to": [
+          "f88r.20:chor",
+          "f88r.21:chor",
+          "f88r.22:ychey"
+        ],
+        "status": "DISCOURSE_HYPOTHESIS_NOT_WRITTEN_POSSESSION_OR_PICTURE_OWNER"
+      }
+    },
+    {
+      "name": "R_WERKSTATT",
+      "model_kind": "ANAPHORIC_POSSESSIVE_GENITIVE",
+      "quality_frame": "FIXED_MEDICAL_HUMORAL_DRYNESS_NOT_PHYSICAL_DRYING; explicit additional C0 frame for chol in every application",
+      "mappings": {
+        "otchol": "dieses?",
+        "cthar": "Wurzel?",
+        "chol": "trocken?",
+        "dan": "sehr wenig?",
+        "dain": "wenig?",
+        "daiin": "viel?",
+        "daiiin": "sehr viel?",
+        "okaiin": "dessen?",
+        "okol": "Pflanze?",
+        "chor": "Blätter?",
+        "ychey": "Saft?"
+      },
+      "meanings": {
+        "okol": "ganze pflanzliche Bezugsentität; kein Artname, kein Saft und kein Extrakt",
+        "chor": "Blattmaterial; keine beim zweiten Vorkommen neu erfundenen Pflanzenteile",
+        "ychey": "Pflanzensaft; keine im Wort behauptete Press-, Koch- oder Trocknungshandlung",
+        "okaiin": "postnominaler anaphorischer Genitiv zum zuvor eingeführten Besitzer; nicht davon, daraus oder ist",
+        "chol": "trocken als zugeschriebene medizinisch-humorale Qualität; nicht physisch getrocknet, verdampft oder Pulver"
+      },
+      "proposed_written_constructions": [
+        {
+          "locus": "f88r.22",
+          "source_span": "ychey okaiin chol",
+          "analysis": "Saft dessen: trocken; nominale Prädikation ist eine zusätzliche Syntaxannahme"
+        },
+        {
+          "locus": "f24v.4",
+          "source_span": "okol okaiin",
+          "analysis": "Pflanze dessen; Besitzer im vollständigen f24v.1--5-Absatz unidentifiziert, keine Selbstreferenz auf dasselbe okol"
+        }
+      ],
+      "proposed_reference_bindings": [
+        {
+          "head": "f88r.22:ychey",
+          "marker": "f88r.22:okaiin",
+          "antecedent": "f88r.19:okol",
+          "status": "EXPLICIT_C0_BINDING_HYPOTHESIS_NOT_AUTHENTICATED"
+        },
+        {
+          "head": "f24v.4:okol",
+          "marker": "f24v.4:okaiin",
+          "antecedent": null,
+          "status": "UNRESOLVED_OWNER_REQUIRED"
+        }
+      ]
+    }
+  ],
+  "cautions": [
+    "Die neuen Bedeutungen existieren nur innerhalb ihrer jeweiligen Modellwelt, auch wo die deutschen Werte gleich aussehen.",
+    "Q/R unterscheiden auch den okol-Wert; dies ist kein isolierter kausaler Test allein von okaiin.",
+    "Keine ganze Quelle oder Klausel wird allein durch den physischen Zeilenumbruch segmentiert.",
+    "chokol, qoekol, qokeol, okol und qokol bleiben verschiedene Ganzformen; odaiin ist nicht daiin.",
+    "RF1b f88r.18 und f24v.2 hat jeweils ein separates chor, das in den anderen entsprechenden Ganzformen fehlt."
+  ]
+}

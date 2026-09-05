@@ -22128,3 +22128,37 @@ GDT388 intake, zero eligible. Independent source/literal validator checks3
 negative mutations, not meanings/history/images. Dictionary unchanged;0 confirmed
 lexemes or clauses. Authority:GDT815 WORKING_THEORY.md; next whole-paragraph
 accounts of okol/ychey and otedy/qokain/solkeey with their separate pair uses.
+
+## GDT816 — fixed concrete nouns through full paragraphs (2026-09-05)
+
+Four complete P windows f88r.18–22/f77r.25–37/f24v.1–5/f75r.32–46 plus
+two complete L records:40 focal loci,240 literal displays;94 exhaustive external
+exact-six-whole loci in unchanged39 selectors/34 keys. No new admission.
+Q okol=plant drug?, R okol=whole plant?; both chor=leaves?, ychey=plant juice?,
+otedy=literal water source?, qokain=physical water?, solkeey=aqueous vapour?.
+All C0; qokaiin and other lookalikes stay unknown. Seven prior wholes retained.
+N/G/K/B remain without automatic inheritance of the new nouns.
+
+Four explicit R bindings now name possible plant/juice, source/water,
+source/vapour, and water/source relations. First three reuse GDT815 contacts;
+no newly proved owner. f75r source .45 -> water .43#4 skips nearer sources.
+f81v whole first P.1–9 lacks otedy; source .10 cannot be an earlier owner
+of water whose at .6. Unknown earlier owners remain possible; no R refutation.
+f69v.2 juice C, f71v.12 plant C, f95v2.1 source P remain concrete topical debts.
+f89r2.10 RF otol is not okol. External solkeey f81v.19/f83r.52 lacks okaiin.
+
+Important synthesis correction: apothecary Q uses humoral warm/dry; physician
+Q uses physical warmth. Preserve their submissions, do not add their wins.
+Joint Q explicitly assumes humoral qualities throughout; R dry shares that
+frame. This clarification was POST-external, not preregistered success.
+Historical warm/dry plant juice is possible; heated water need not be naturally
+warm. No extra mineral-water noun or physical/humoral sense-switch supplied.
+Local Q attachment simplicity is not a joint Q winner or a lexical identification.
+
+Independent raw guarded source/literal validator and four negative mutations
+pass; four R bindings GDT388-ineligible,0 eligible. No word/history/image meaning
+validated, dictionary unchanged,0 confirmed lexemes/clauses. More concrete
+substantives do not themselves mean stronger evidence. Authority:GDT816 theory,
+report, hypotheses and separate historical agent notes. Next: full external
+solkeey paragraphs f81v.10–27/f83r.52–55 and actual material relation to qokain,
+not another adjective or invented process. No extra page needed.

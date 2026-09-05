@@ -1,0 +1,110 @@
+{
+  "experiment": "GDT816",
+  "role": "Late-medieval physician comparing medicinal springs and baths",
+  "status": "EXPLORATORY_C0_NO_DICTIONARY_ADOPTION",
+  "scope": ["f77r", "f75r"],
+  "external_scope": ["f81v", "f83r", "f31r", "f95v2"],
+  "paragraphs": ["f77r.25--f77r.37", "f75r.32--f75r.46"],
+  "source_reader": "experiments/yolo/gdt814_okaiin_quality_reference_construction/artifacts/SOURCE_READER.md",
+  "shared_atoms": [
+    {
+      "surface": "otedy",
+      "gloss_de": "Quelle",
+      "gloss_en": "spring",
+      "fixed_sense": "A water source; not the water itself, an action, a patient, or any generic origin.",
+      "confidence": "C0",
+      "origin": "Concrete noun proposal for the inherited f77r upper label and next-paragraph opener; not an image identification.",
+      "support": ["A source can own water and vapour in one coherent descriptive account.", "The same noun can occur independently as a described source on f75r."],
+      "debt": ["No natural spring or unique otedy owner is visually identified.", "Warmth predicated of a source is metonymic unless its water is explicitly named."]
+    },
+    {
+      "surface": "qokain",
+      "gloss_de": "Wasser",
+      "gloss_en": "water",
+      "fixed_sense": "Physical water; not qokaiin, a generic material, a humour, or an instruction.",
+      "confidence": "C0",
+      "origin": "Concrete recurring medium hypothesis compatible with the depicted receptacles and differentiated emissions; recurrence does not identify it.",
+      "support": ["The noun remains meaningful both in qokain okaiin and in the other occurrences within each whole paragraph.", "Historical water descriptions distinguish water from its source, air and other associated materials."],
+      "debt": ["The repeated qokaiin and qokeedy chains remain untranslated and cannot inherit this meaning.", "No uniquely water-bound label or known verbal predicate identifies qokain."]
+    },
+    {
+      "surface": "solkeey",
+      "gloss_de": "Dampf",
+      "gloss_en": "vapour",
+      "fixed_sense": "Physical aqueous vapour; not heat, an effect, air in general, a deposit, or bathing.",
+      "confidence": "C0",
+      "origin": "A second concrete output compatible with the proposed source/water account; this is the weakest of the three noun proposals.",
+      "support": ["A source can supply water and vapour as distinct objects of description or possession."],
+      "debt": ["No visible steam cloud is securely identified.", "The owned paragraphs provide no independent solkeey occurrence.", "It is not equated with sol keedy, solchedy, solchey, or any substring."]
+    }
+  ],
+  "models": [
+    {
+      "id": "PHYSICIAN_Q",
+      "okaiin": "warm",
+      "confidence": "C0",
+      "account": "A source description with warm water and warm vapour; the independent paragraph can describe the source itself as warm.",
+      "fixed_semantics": "A thermal adjective, not an instruction to warm or a therapeutic warming effect.",
+      "target_spans": [
+        {"locus": "f77r.27", "eva": "qokain okaiin", "literal_de": "Wasser? warm?"},
+        {"locus": "f77r.35", "eva": "solkeey okaiin", "literal_de": "Dampf? warm?"},
+        {"locus": "f75r.45", "eva": "otedy okaiin", "literal_de": "Quelle? warm?"}
+      ],
+      "costs": ["No clause boundary or predication is decoded.", "The apparent temperature of water must not be swapped for its natural complexion or treatment effect.", "Warm vapour is possible but supplies little identifying information by itself.", "No medical indication, administration verb, patient or dose is translated."]
+    },
+    {
+      "id": "PHYSICIAN_R",
+      "okaiin": "dessen",
+      "confidence": "C0",
+      "account": "A source entry refers to its water and its vapour; the independent paragraph can refer back from a source to previously mentioned water.",
+      "fixed_semantics": "Anaphoric possessive genitive; not partitive davon, origin daraus, a reflexive rule, or a free discourse connective.",
+      "target_spans": [
+        {"locus": "f77r.27", "eva": "qokain okaiin", "literal_de": "Wasser? dessen?", "proposed_owner": "f77r.25#1 otedy", "owner_status": "WRITTEN_CANDIDATE_NOT_RESOLVED"},
+        {"locus": "f77r.35", "eva": "solkeey okaiin", "literal_de": "Dampf? dessen?", "proposed_owner": "f77r.25#1 otedy", "owner_status": "WRITTEN_CANDIDATE_NOT_RESOLVED"},
+        {"locus": "f75r.45", "eva": "otedy okaiin", "literal_de": "Quelle? dessen?", "proposed_owner": "f75r.43#4 qokain", "owner_status": "WRITTEN_CANDIDATE_NOT_RESOLVED"}
+      ],
+      "costs": ["f77r.25 otedy is not the only possible written antecedent and becomes remote at .35.", "The .35 water-vapour relation itself offers qokain as a competing antecedent; the model cannot quietly change its chosen owner.", "f75r has intervening and repeated otedy: nearest-noun attachment would not simply recover the proposed water owner.", "Source-of-water is the inverse relation of water-of-source; the noun meaning is unchanged, but discourse attachment must independently justify it.", "No predicate, treatment effect, patient or administration verb is decoded."]
+    }
+  ],
+  "external_checks": [
+    {
+      "locus": "f81v.6",
+      "eva": "qokain okaiin",
+      "reader_exact": true,
+      "Q": "Wasser warm retains both word senses.",
+      "R": "Wasser dessen requires another owner: the complete f81v.1--9 paragraph has no otedy; otedy on .10 is in the next paragraph and cannot be the earlier antecedent.",
+      "result": "Q_LOCAL_ATTACHMENT_ADVANTAGE_NOT_LEXICAL_CONFIRMATION"
+    },
+    {
+      "loci": ["f81v.19", "f83r.52"],
+      "eva": "solkeey",
+      "reader_exact": true,
+      "result": "Bare Dampf remains possible; no obligatory okaiin rule and no identifying predicate."
+    },
+    {
+      "locus": "f95v2.1",
+      "eva": "otedy",
+      "reader_exact": true,
+      "result": "Literal water source in a plant paragraph has an unexplained topical relation; do not turn it into springwater or generic origin."
+    },
+    {
+      "locus": "f31r.13",
+      "eva": "otedy",
+      "reader_exact": false,
+      "result": "ZL otedy only; IT and RF okedy stay unknown."
+    }
+  ],
+  "literal_policy": {
+    "unknown": "[EVA]",
+    "preserve_repetitions": true,
+    "preserve_alternate_readings": true,
+    "no_substring_export": true,
+    "shared_inherited_words_unchanged": true,
+    "automatic_pos_or_clause_assignment": false
+  },
+  "prohibited_merges": [
+    ["qokain", "qokaiin"],
+    ["otedy", "qotedy", "oteedy", "qoteedy", "dotedy"],
+    ["solkeey", "sol keedy", "solchedy", "solchey"]
+  ]
+}
