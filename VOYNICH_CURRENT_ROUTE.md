@@ -3,15 +3,20 @@ Updated: 2026-09-05. Read first.
 
 ## Current mandate
 
-Latest user correction (2026-09-05): do not search public decipherment
-approaches; the user states these have already been exhaustively explored.
-Do not introduce an external publication or public method as a fresh route.
-Derive next steps from our admitted data, primary experiment reports and
-unresolved internal findings. Apply this restriction to delegated work too.
-The earlier mandate to understand our history before choosing a fixed plan
-remains. GDT830 has completed with a measurement/capacity stop. GDT831 has now completed its separate visual ink/paper point control with
-a held-page specificity failure. Goal remains transferable
-translation. Confirmed English lexemes: **0**; confirmed German lexemes/clauses: **0**.
+Latest user clarification (2026-09-05): the root assistant must personally
+look at whole admitted manuscript pages with native vision to understand the
+manuscript's overall appearance. Pixel-label QC and delegated interpretation
+do not satisfy that request. Pause the prospective l/m width investigation;
+no measurement experiment is selected. Inspect whole pages and record direct
+visual observations separately from interpretation before choosing a plan.
+A subagent may help with source metadata only; root performs the viewing.
+
+No public decipherment-approach searches: the user says these are exhausted.
+Use admitted images, primary internal reports and unresolved findings. The
+mandate to understand the manuscript and project history before fixing a plan
+remains. Goal: transferable translation. Confirmed English lexemes: **0**;
+confirmed German lexemes/clauses: **0**. GPU/subagents authorized; no other
+LLM API keys. No additional page admission is selected for this viewing pass.
 
 ## Closed predecessor — GDT829
 
@@ -48,6 +53,15 @@ foreground fraction. No pen state, chronology, disputed-block order or meaning.
 Primary: `experiments/yolo/gdt831_annotated_ink_paper_control/REPORT.md`.
 No successor is selected. New route selection requires a different falsifier
 or new evidence; do not repair the failed control against these held labels.
+
+## Current visual orientation completed
+
+Root personally viewed15renderings of14Yale canvases covering15admitted page
+keys across whole-plant, figure/becken, circular, small-object and text-heavy
+layouts. Source logistics alone were delegated. The observational dossier is
+`docs/visual_overview/README.md`; exact viewed images: `docs/visual_overview/SOURCES.json`.
+No new experimental or semantic claim, no new page admission. User's required
+visual understanding remains part of future work; no fixed successor plan.
 
 ## Understanding basis and limits
 

@@ -6,6 +6,17 @@ Updated: 2026-09-05. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### User clarification and root visual orientation (2026-09-05)
+
+User wanted root's own native-vision understanding of whole manuscript pages,
+not delegated interpretation or ink/paper-point QC. Prospective l/m width
+work is paused before measurement/registration. Root personally viewed15
+renderings of14Yale canvases covering15admitted page keys; a subagent supplied
+source metadata only. The source-bound descriptive dossier separates visible
+layout from interpretation. No new semantic claim, test, page admission or
+fixed decipherment plan. Primary: `docs/visual_overview/README.md`.
+
+
 ### GDT831 selected-point control fails (2026-09-05)
 
 New192 visual centerpoint labels on24 fixed native tiles and all code were
