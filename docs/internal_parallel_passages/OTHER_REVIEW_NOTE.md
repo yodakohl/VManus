@@ -10,6 +10,9 @@ summiert diese Einzelwortwerte und verwendet außerdem Wortlängen und Anzahlen.
 Seine Bewertung kann deshalb keine Reihenfolgeabhängigkeit zwischen denselben
 ausgegebenen Wörtern innerhalb dieses Chunks unterscheiden. Das ist eine
 statische Eigenschaft dieser konkreten Funktion, kein neuer Voynich-Test.
+Der [ursprüngliche GDT610-Bericht](../../experiments/yolo/gdt610_consensus_carrier_control_audit/REPORT.md)
+mit dem Ergebnis CONSENSUS_STABILITY_INCREASES__WHOLE_WORD_KEY_STABLE_BUT_WRONG
+bleibt unverändert; dieser spätere Hinweis ergänzt ihn.
 
 Ein durchgehender Klartextscore könnte diese verworfene Information nutzen.
 Die Schlussfolgerung darf nicht auf sämtliche alten Decoder übertragen werden:
