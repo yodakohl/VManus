@@ -6,6 +6,22 @@ Updated: 2026-09-05. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### Joint family/context decoder candidate (2026-09-05; control-only, unexecuted)
+
+On the user's request for a better idea, recommend a bounded shared spelling
+model constrained jointly by historical whole-form paradigms and continuous
+plaintext across wholeword/component interfaces. Root verified the specific
+GDT610 word reset, GDT612 chunk scoring and synthetic type aggregation, and
+GDT001's complementary run cuts. GDT001 already has word context; GDT603/604
+already test continuous alphabetic decoding. No recovery benefit follows from
+the static audit alone, and GDT747/748's inherited roles are not historical
+paradigm gold. First establish resources and a precise encoding class, then
+preregister independent blind continuous-text recovery and matched ablations.
+No historical paradigm resource verified, new GDT, numeric design, fit or target
+result. GDT616 remains closed; a control pass does not meet CDA001's independent
+text/value evidence requirement. The recoded-parallel candidate remains an
+untested alternative. Primary: `docs/joint_reading/PROPOSAL.md`.
+
 ### Structural-knowledge clarification (2026-09-05; no new test)
 
 User correctly recalls substantial word/field/attachment work. Root's neutral

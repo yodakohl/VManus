@@ -3,15 +3,12 @@ Updated: 2026-09-05. Read first.
 
 ## Current mandate
 
-Latest user clarification (2026-09-05): the root assistant must personally
-look at whole admitted manuscript pages with native vision to understand the
-manuscript's overall appearance. Pixel-label QC and delegated interpretation
-do not satisfy that request. The l/m width investigation was paused for that viewing. Its subsequent
-rank1 recommendation is now withdrawn: tractability was overweighted relative
-to decipherment value. It remains an optional unexecuted side question, not
-the main route. No measurement experiment is registered or executed. Inspect whole pages and record direct
-visual observations separately from interpretation before choosing a plan.
-A subagent may help with source metadata only; root performs the viewing.
+Latest request (2026-09-05): a better idea after the structural-knowledge
+clarification. Recommended method candidate: joint word-family and continuous
+paragraph decoding, control-only and unexecuted; see below. No manuscript fit
+is selected. Root's required personal whole-page native-vision orientation is
+completed and remains part of future work. For that viewing, subagents may
+help with source metadata only; root performs the visual interpretation.
 
 No public decipherment-approach searches: the user says these are exhausted.
 Use admitted images, primary internal reports and unresolved findings. The
@@ -44,31 +41,34 @@ layouts. Source logistics alone were delegated. The observational dossier is
 No new experimental or semantic claim, no new page admission. User's required
 visual understanding remains part of future work; no experiment executed; see the new proposed candidate below.
 
-## Priority correction — l/m width is not the main route
+## Recommended method candidate — joint families and paragraph decoding
 
-Rationale: `docs/visual_overview/NEXT_STEP.md`. The broad l/m question could
-help distinguish content from writing convention, but width alone cannot do
-that. Smaller mforms fit multiple explanations; a contrary result rejects only
-a narrow direct-space-saving premise. Rank1 was not supported by a comparative
-assessment of expected decipherment information. Root withdraws that ranking.
-This is a planning correction, not a test result. Optional side check only;
-no widths, new GDT, independent space-pressure measurement or meanings.
-The former ranking remains withdrawn. The new proposed main candidate is
-described below; closed experiments remain closed.
+`docs/joint_reading/PROPOSAL.md`, PROPOSED_CONTROL_ONLY_UNEXECUTED. One bounded
+shared spelling model must jointly explain historical whole-form paradigms
+and continuous plaintext across wholeword/component interfaces. Existing formal
+grammar constrains analysis without declaring its working POS/roots true.
+Root-verified static audit: GDT610 scores words independently; GDT612 carries
+context within chunks but trains separate chunk types. GDT001 already uses
+word order, and GDT603 already uses continuous alphabetic context: continuity
+alone is not new. No causal recovery benefit is established by this code audit.
 
-## Recommended main candidate — internally recoded parallel passages
+First resolve historical paradigm-resource availability and a precise encoding
+class, then preregister blind recovery of unchanged continuous historical text,
+held forms/lemmas and paragraphs, with matched context/paradigm ablations.
+No new GDT, numerical registration, generator, fit or target result yet.
+GDT616's fixed configuration remains closed. CDA001's missing independent
+text/value evidence is not supplied by a stronger decoder or a control pass;
+this proposal does not reopen cached translation fits. No new page admission.
 
-User requests a substantially better decipherment idea. Recommendation:
-`docs/internal_parallel_passages/PROPOSAL.md`, PROPOSED_UNEXECUTED. Search exact
-ordered repetition patterns of complete source groups, learn one fixed
-nonidentity bijection on discovery material and require exact predictions in
-pre-excluded passages with substantial coverage and independent transfer.
-No real candidate/map is claimed; no GDT experiment or numeric design registered.
-This is not relaxed GDT829 literal matching, a language-score fit or free
-synonym alignment. Whole-group boundaries and alternate readings stay visible.
-Search-adjusted controls and copied nonsense limit interpretation: a pass gives
-formal recoding evidence, not equal meanings or translation. Root will review
-any candidate images personally within recorded admission. No new page access.
+## Earlier proposals remain unexecuted
+
+`docs/internal_parallel_passages/PROPOSAL.md`: fixed nonidentity complete-group
+bijections must predict globally pre-excluded passages. No actual pair/map.
+Retained alternative, not refuted or selected for execution; formal recoding
+would not establish equal meanings. `docs/visual_overview/NEXT_STEP.md`: l/m
+width remains an optional side question; its rank1 recommendation is withdrawn.
+Tractability was overweighted, and width alone cannot distinguish content from
+writing convention. No measurement or scientific rejection of either proposal.
 
 ## Known structure is substantial; sentence syntax is not fully established
 

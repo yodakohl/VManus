@@ -24,3 +24,7 @@ wird wiederholt und keine Laufzeitauswirkung wird aus der Codelektüre behauptet
 Der unabhängige Reviewer nannte zusätzlich GDT612-Chunkgrenzen und Details des
 GDT610-Kontrollgenerators. Root hat diese weitergehenden Implementationspfade
 nicht vollständig nachverfolgt; sie sind hier kein neu bestätigter Befund.
+
+Die anschließende [gemeinsame Decoderprüfung](../joint_reading/PROPOSAL.md)
+dokumentiert Root's spätere direkte Prüfung der GDT612-Pfade und der früheren
+Kontextmodelle. Auch diese Erweiterung enthält keinen neuen Fit.
