@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **831**
-- Experiment-associated tracked files: **15,325** (1.4 GiB)
-- Structured GDT337+ experiments: **496**
+- Experiments indexed: **832**
+- Experiment-associated tracked files: **15,359** (1.4 GiB)
+- Structured GDT337+ experiments: **497**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT833 | GDT833_paired_reference_orthography_registration | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt833_reference_orthography_intervention/REPORT.md) | 34 | 1.6 MiB | 1 | STRUCTURED_YOLO |
 | GDT832 | GDT832_post_result_reference_orthography_audit | `CONTROL_RECOVERY_FAIL` | [report](../experiments/yolo/gdt832_joint_family_context_control/REPORT.md) | 193 | 20.3 MiB | 1 | STRUCTURED_YOLO |
 | GDT831 | GDT831_annotated_ink_paper_control_result | `HELD_POINT_CONTROL_FAIL` | [report](../experiments/yolo/gdt831_annotated_ink_paper_control/REPORT.md) | 25 | 137.0 KiB | 2 | STRUCTURED_YOLO |
 | GDT830 | GDT830_post_result_background_diagnostic | `BACKGROUND_ASSAY_UNSUITABLE` | [report](../experiments/yolo/gdt830_pen_state_continuation_control/REPORT.md) | 24 | 242.8 KiB | 3 | STRUCTURED_YOLO |

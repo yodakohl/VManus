@@ -6,6 +6,18 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### GDT833 paired reference intervention registered (2026-09-06; unscored)
+
+User continuation selects a new causal control after GDT832's post-result
+reference mismatch. Same Monarchia reference sentences, NATIVE versusv→u
+COLLAPSED, paired with fresh DVEBookI/II ciphertext/originalgold. Same candidate
+pool and byte-frozenGDT832OFF engine; no normalized rescoring of GDT832.
+Capacity120/122citationruns,5866/5519words,507/457v-wordtokens; reference1188v.
+48fits/6selectedkeys must lock before truth evaluation. Nativev-key/v-word
+recovery and a legalv/z-swap oracle signcontrast test the specific mechanism;
+general95/99/90/90recovery remains a separate gate. No fit or Voynich result.
+Primary: `experiments/yolo/gdt833_reference_orthography_intervention/REPORT.md`.
+
 ### GDT832 completed: context helps, full recovery and joint gain fail (2026-09-06)
 
 Public registration8beefeec precedes120 fits and fixed15 selections. FULL

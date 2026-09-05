@@ -3,9 +3,9 @@ Updated: 2026-09-06. Read first.
 
 ## Current mandate
 
-Latest request (2026-09-05): execute the proposed joint family/context control.
-GDT832 is completed with a failed full-recovery criterion and a positive
-wholeword-context contrast; see below. No manuscript fit is selected. Root's personal whole-page orientation is
+Latest request (2026-09-06): continue after GDT832. GDT833 tests the reference-
+orthography explanation on a fresh control work with paired references; see
+below. No manuscript fit is selected. Root's personal whole-page orientation is
 completed and remains part of future work. For that viewing, subagents may
 help with source metadata only; root performs the visual interpretation.
 
@@ -39,6 +39,22 @@ layouts. Source logistics alone were delegated. The observational dossier is
 `docs/visual_overview/README.md`; exact viewed images: `docs/visual_overview/SOURCES.json`.
 No new experimental or semantic claim, no new page admission. User's required
 visual understanding remains part of future work; no experiment executed; see the new proposed candidate below.
+
+## Current experiment — GDT833 paired reference intervention
+
+`experiments/yolo/gdt833_reference_orthography_intervention/REPORT.md`.
+Fresh De vulgari eloquentia Book I/II gives120discovery/122held citation runs,
+5866/5519words and507/457v-containingwords. One Monarchia reference has19162words;
+NATIVE retains1188v, COLLAPSED replacesreferencev→u only. Exact control/gold,
+candidate pool and frozenGDT832OFF engine remain common; no oldscore repair.
+Source capacity passes from outset;24L/3S/8W observed rules. All quotations
+and repeated-citation runs retained; inactive parameters remain unscorable.
+
+Publish code/spec before48fits; lock48restarts/6selectedkeys before key-truth
+evaluation. Specific criterion: NATIVE correctvkey/95%heldvwords,20pppairedgain,
+and a legalv/z-swaporaclecontrast reversingbetweenconditions. General recovery
+retains95/99/90/90 floors separately. Same seeds/budgets; reference-frequency
+initial keys maydiffer. No fitted score yet, no new Voynich page or target.
 
 ## Completed control — GDT832 recovery fails; context identifies W values
 

@@ -1,0 +1,219 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Known mixed control roles/boundaries; paired references, original gold spelling, one fresh source split and three key replicates. No repaired GDT832 score or Voynich language/meaning/translation.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt833_reference_orthography_intervention/src/run.py --fit",
+    "validate": "python3 experiments/yolo/gdt833_reference_orthography_intervention/src/validate.py --data-dir experiments/yolo/gdt833_reference_orthography_intervention --source-dir experiments/yolo/gdt833_reference_orthography_intervention/runtime/udante_source --model-root experiments/yolo/gdt833_reference_orthography_intervention/runtime --check"
+  },
+  "created": "2026-09-06",
+  "dependencies": [
+    "GDT832"
+  ],
+  "experiment_id": "GDT833",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/src/decoder.cpp",
+      "role": "unchanged_upstream_implementation",
+      "sha256": "5e62c8edb2798a9fc3cc68bbb58da1b0cc287caf26838493a39a0f8389ca7750"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/src/reference_model.py",
+      "role": "unchanged_upstream_implementation",
+      "sha256": "8b91713a350a30dcb824334ebe7cb4407afeeaddbb9fc1bdb4129786a9d873b2"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/src/run.py",
+      "role": "unchanged_upstream_implementation",
+      "sha256": "091fd0ad0702c0ddcd3c4f0bd2a10726f8ebe3ace03d4c6a83fe9c3fcfbae55e"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/src/prepare.py",
+      "role": "unchanged_upstream_implementation",
+      "sha256": "a8ca27308ab3f1fbeda1eef756c71081b602020b8b59350ba8661efd79536b77"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/.gitignore",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "c1a87baf0301524a8513b64b4a80931279446e2b0cf3545cbeb8fc9b102152e7"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/METHOD.md",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "328b0fba98addb4ceceedeeca59d91f1fd5a27986a8f14dd68965e1454571298"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/PREREGISTRATION.md",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "971e5a7c4bade43a210f21540fdea311d5a360af071e9ac08628f7a978e8156a"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/README.md",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "6fa6f845bdab12f70ed87631299bfede9fbcf67da108db9650e015d59500f059"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/REPORT.md",
+      "role": "primary_report",
+      "sha256": "da256e5b32bfe219bc82a51bc7f0780a45f012e1c0a13c852c2b1e70a05b8127"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/artifacts/README.md",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/artifacts/SOURCE_VALIDATION.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "c70fefa277e1ddcdfdd74e3ab60c15f7583b677563dfc0252d041b9911c462f9"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/prepared/CAPACITY.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "180f9c803761f3b7587e8edb9fbea071e3791755177243ada848dd744fe90075"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/prepared/GENERATION.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "25d8bad92119c8469a99206e02310949de0c0a630a535b18534d5b8d819b174c"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/prepared/candidates.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "66d920e39056d6136a92c8a4509bb0d24c0d9ca9c1e01fdb9794d2f3ce663e86"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/prepared/families.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/prepared/reference_collapsed.jsonl",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "3afafd758b0b8ee0aac9f8d6224047d50379a3e6df7f81032eb782bcf7560e41"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/prepared/reference_ids.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "b759b59a92bde4e56efc83db8b702eb37a835abecf57f18a37a92ca097010526"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/prepared/reference_native.jsonl",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "dc9c57b32779b4be64911c042d8ad468f090ebbebcd9686d71a7ba422263b3e1"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/prepared/world_83301_discovery.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "f6d8b81032e49a23e93d7760918126dd28c6385c20d00ab3be5edbd6af5cd67b"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/prepared/world_83301_held.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "f8c38a3aae261f68d6ac21a3122412c32653078a1b2ebd61e62925b0a16e3ceb"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/prepared/world_83302_discovery.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "c0e768109024f5fe85391c87c7ca22b432053c43bd8227d6195ce2c0f881773d"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/prepared/world_83302_held.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "ae5be7a7168ca92413fee2254879671ad0e109d4f439e18ff62ac4227d5ef66a"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/prepared/world_83303_discovery.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "3b5eb0205f5347156ee508ec9c679f65369a58826dfec5076834d10667f5e58c"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/prepared/world_83303_held.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "89d651ab49e7ba1c30ee03bc78c6685c2c414e78abc169a4d21c3ef20344d8d1"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/sources/LICENSE.txt",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "899b1804a12ebc090b96339614eede1b64b686721b650a71430b55b5235f7f79"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/sources/MANIFEST.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "b6dfe50c3ab9da50e8f27ac886d8fa228c108c19367a2c116751fc93e9a47625"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/sources/README.md",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "cf6be577c5a44470ed826b673f9b7e8acd798ee0738279805ae1b3814ca1ed00"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/sources/SOURCE_NOTES.md",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "6f78ab6bc91f6d1b307cd79c10f7be64c1923fd3fdaa83f5fb7921fce646019e"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/src/ENCODER_SPEC.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "f66b392ecedf34926b612e34bf375204ea510d431cc01dabe93f45035c3ba6cc"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/src/PREREG_LOCK.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "d9375341cd5f2edcb26145f205077c99c78742ab1a83c014732aa100d997e8d7"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/src/SPEC.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "29ee771986dc5365fc1f1de091e6645a43968e5d973c94de599a1af808a899d8"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/src/bind_manifest.py",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "27fd2bde3b461c6d76626009fd562fe732afda8edfbf158e46b203b4be81e6e5"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/src/evaluate.py",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "805ed97d267e06079231c6c2affbf9faa07dcb160382693b040e752729570b2e"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/src/prepare.py",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "6360504e06bdf13a67177b3071db1ca1421184105e702d8ef0017dda5d8c5494"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/src/run.py",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "eb35bef3e4d9bcae6a2bdc03463a2d438361b4bd01f0d5c4c058e9ea84df873a"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/src/test_intervention.py",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "5190e20702dc5a6080d848a22e6306eba4c042b0ba52d73f597ad4e396d85695"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/src/validate.py",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "8505b1a5c48ba51520f0e0318b6f24c63e9e0124bac2e4ba604519507079c835"
+    }
+  ],
+  "question": "Does removing only reference-side v/u distinction impair exact original-spelling recovery and reverse a legal v/z oracle-key contrast on a fresh historical work?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "reference_orthography_intervention",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Paired reference orthography intervention with fresh original-spelling recovery",
+  "updated": "2026-09-06",
+  "validation": {
+    "artifact": "experiments/yolo/gdt833_reference_orthography_intervention/artifacts/SOURCE_VALIDATION.json",
+    "status": "PASS"
+  }
+}

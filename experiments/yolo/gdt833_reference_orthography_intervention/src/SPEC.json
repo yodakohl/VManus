@@ -1,0 +1,61 @@
+{
+  "schema": "GDT833_REFERENCE_INTERVENTION_SPEC_V1",
+  "experiment_id": "GDT833",
+  "question": "Does removing only reference-side v/u spelling distinction impair exact original-spelling recovery on a fresh historical work under an unchanged mixed decoder?",
+  "reference": "All UDante Monarchia sentences; identical sentence/token order in both arms, COLLAPSED replaces v by u in reference words only",
+  "control": "UDante De vulgari eloquentia Book I discovery, Book II held; all citation-run paragraphs and vernacular quotations retained",
+  "world_ids": [83301, 83302, 83303],
+  "reference_conditions": ["NATIVE", "COLLAPSED"],
+  "starts": [0, 1, 2, 3, 4, 5, 6, 7],
+  "engine_arm": "OFF",
+  "candidate_policy": "One common pool from NATIVE reference only; unchanged GDT832 letter alphabet, suffix candidates, wholeword candidate rule and encoder value decks",
+  "family_policy": "Empty family resource and zero family coefficient in both conditions; GDT832's failed family-gain claim is not reopened",
+  "optimizer": {
+    "annealing_steps": 60000,
+    "polish_sweeps": 4,
+    "max_workers": 24,
+    "seed_formula": "83300000 + 100*world_id + start",
+    "selection": "highest discovery objective; ties lowest start",
+    "initialization": "Unchanged GDT832 frequency initialization uses its respective reference. Seeds/budgets/candidates are paired; initial keys need not coincide. The oracle contrast separately isolates objective direction."
+  },
+  "capacity": {
+    "minimum_discovery_paragraphs": 20,
+    "minimum_held_paragraphs": 20,
+    "minimum_discovery_occurrences_active_macro": 8,
+    "minimum_discovery_occurrences_held_active_letter": 1,
+    "minimum_discovery_v_word_tokens": 100,
+    "minimum_held_v_word_tokens": 100,
+    "minimum_reference_v_characters": 100,
+    "minimum_held_novel_composed_form_occurrences": 100,
+    "minimum_held_novel_composed_lemma_occurrences": 30,
+    "unused_parameters": "Unobserved in both partitions means unidentifiable and unscored from the outset; no post-capacity gate adjustment"
+  },
+  "specific_effect": {
+    "minimum_native_v_word_accuracy_each_key": 0.95,
+    "native_v_key_correct_each_key": true,
+    "minimum_mean_v_word_gain": 0.20,
+    "minimum_each_key_v_word_gain": 0.0,
+    "oracle_native_margin": "strictly positive",
+    "oracle_collapsed_margin": "strictly negative",
+    "oracle_mutant": "One legal bijective key formed by swapping the complete outputs of the true v and z literal carriers; all other values unchanged",
+    "oracle_score": "truth minus the legal v/z-swap discovery objective, evaluated only after all fits are locked"
+  },
+  "overall_recovery": {
+    "minimum_word_accuracy_each_native_key": 0.95,
+    "minimum_character_accuracy_each_native_key": 0.99,
+    "minimum_novel_form_accuracy_each_native_key": 0.90,
+    "minimum_novel_lemma_accuracy_each_native_key": 0.90
+  },
+  "evaluation": {
+    "gold": "Exact original normalized control spelling; never v/u-collapsed",
+    "word_accuracy": "exact matched word occurrences / all applicable occurrences",
+    "character_accuracy": "1 - sum wordwise Levenshtein distances / sum max(gold length, predicted length); known spaces excluded",
+    "novelty": "Against original discovery plaintext, composed L/S words only; lemma joins must be unambiguous",
+    "secondary": ["non-v words", "active literal/suffix/wholeword key values", "exact held paragraphs", "selected objective versus true-key oracle"],
+    "replicates": "Three encryption keys share one source split; no independent-content or population-p-value claim"
+  },
+  "decision_order": ["SOURCE_CAPACITY_STOP", "ORTHOGRAPHY_EFFECT_NOT_CONFIRMED", "ORTHOGRAPHY_EFFECT_CONFIRMED_RECOVERY_FAIL", "ORTHOGRAPHY_EFFECT_AND_RECOVERY_PASS"],
+  "blinding": "All 48 restarts and six discovery-selected keys hash-locked before evaluator key-truth or held recovery access",
+  "claim_ceiling": "A reference intervention on a fresh historical control with known boundaries and role classes. No rerun or repaired score of GDT832, no full paradigm inference, no Voynich fit, language or translation.",
+  "sealed_data": {"f84": "FORBIDDEN", "f84r": "FORBIDDEN"}
+}
