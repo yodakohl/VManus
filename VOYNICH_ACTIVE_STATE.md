@@ -22348,6 +22348,16 @@ withsal.raiin76r51/82r24. Not anothercensus,q-prefixgenericrouteorautomaticdrug
 meaning. Scope34visualkeys39selectors16unusedadmissions;f84/f84rsealed.
 Authority821REPORT/WORKING_THEORY,CANDIDATES,LIGHT_TRIALandthreecontentnotes.
 
+## Considered next-step proposal (2026-09-05)
+
+At the user's request, three independent planning reviews were synthesized in
+`docs/NEXT_RESEARCH_PROPOSAL.md`. Proposed first task: establish capacity for
+naturally repeated extended passages with changed physical line wrapping;
+conditional terminal-l/m comparison, not another global boundary count.
+No pairs, corpus results, normalization, meaning or decoder are claimed.
+Source anchors remain unproved; proposed first phase stops if capacity fails.
+No new experiment executed or page admitted; full limits are in the proposal.
+
 ## Understanding before method selection — user correction (2026-09-05)
 
 The user rejected selecting a fixed successor attack before understanding the

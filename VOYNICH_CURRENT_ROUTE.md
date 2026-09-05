@@ -9,7 +9,18 @@ The assistant's premature two-phase cipher proposal is withdrawn as the active
 route. No new attack or experiment is selected. Goal remains transferable
 translation. Confirmed English lexemes: **0**; confirmed German lexemes/clauses: **0**.
 
-## Next work: understanding, not a selected decoder
+## Proposed next investigation — not executed
+
+The user now requests a considered plan. `docs/NEXT_RESEARCH_PROPOSAL.md`
+proposes one capped search for extended literal passage repetitions under
+changed physical line wrapping, initially testing terminal l/m variation.
+This is a capacity question first; no usable pairs have yet been established.
+GDT800–803 already cover boundary association and short neighbours; the
+proposed discriminator is changed wrapping within the same longer context.
+No cipher/language/meaning is selected and no experiment has been run.
+Preserve the understanding dossier and its explicit historical review gaps.
+
+## Understanding basis and limits
 
 Reconstruct the major research phases and why they changed. Use index metadata
 and compact lookups to locate primary reports; audit targeted registry/ledger
