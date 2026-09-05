@@ -1,0 +1,289 @@
+{
+  "checks": [
+    {
+      "detail": {
+        "admitted": 4,
+        "limit": 20,
+        "remaining": 16
+      },
+      "group": "admission_and_seals",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "authorization_hashes": 2,
+        "independent_guarded_projections": 2
+      },
+      "group": "guarded_provenance",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "complete_three_reader_rows": 55,
+        "source_rows": 55
+      },
+      "group": "exact_field_conservation",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "ZL3b_tokens": 513,
+        "per_page": [
+          {
+            "missing_cached_readings": {
+              "IT2a": 0,
+              "RF1b": 0
+            },
+            "paragraph_ends": 3,
+            "paragraph_starts": 3,
+            "physical_page": "f21r",
+            "source_kind_counts": {
+              "P": 12
+            },
+            "source_lines": 12,
+            "source_selector": "f21r",
+            "tokens": {
+              "IT2a": 95,
+              "RF1b": 99,
+              "ZL3b": 104
+            }
+          },
+          {
+            "missing_cached_readings": {
+              "IT2a": 0,
+              "RF1b": 0
+            },
+            "paragraph_ends": 2,
+            "paragraph_starts": 2,
+            "physical_page": "f32v",
+            "source_kind_counts": {
+              "P": 11
+            },
+            "source_lines": 11,
+            "source_selector": "f32v",
+            "tokens": {
+              "IT2a": 85,
+              "RF1b": 84,
+              "ZL3b": 89
+            }
+          },
+          {
+            "missing_cached_readings": {
+              "IT2a": 0,
+              "RF1b": 0
+            },
+            "paragraph_ends": 1,
+            "paragraph_starts": 1,
+            "physical_page": "f100v",
+            "source_kind_counts": {
+              "L": 13,
+              "P": 9
+            },
+            "source_lines": 22,
+            "source_selector": "f100v",
+            "tokens": {
+              "IT2a": 91,
+              "RF1b": 93,
+              "ZL3b": 93
+            }
+          },
+          {
+            "missing_cached_readings": {
+              "IT2a": 0,
+              "RF1b": 0
+            },
+            "paragraph_ends": 3,
+            "paragraph_starts": 3,
+            "physical_page": "f101r",
+            "source_kind_counts": {
+              "P": 10
+            },
+            "source_lines": 10,
+            "source_selector": "f101r",
+            "tokens": {
+              "IT2a": 209,
+              "RF1b": 234,
+              "ZL3b": 227
+            }
+          }
+        ],
+        "source_rows": 55
+      },
+      "group": "raw_derived_counts",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "exact_reading_blocks": 165,
+        "loci": 55
+      },
+      "group": "complete_markdown_readings",
+      "status": "PASS"
+    },
+    {
+      "detail": "Declared zero promotion verified; no meaning, species, or ownership is validated.",
+      "group": "declared_semantic_ceiling",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "present": true,
+        "rows": 4,
+        "scope": "Metadata declarations only; image bytes and object semantics not validated",
+        "unique_images": 3
+      },
+      "group": "optional_image_provenance",
+      "status": "PASS"
+    }
+  ],
+  "claim_ceiling": "PASS validates construction and source conservation, not meanings.",
+  "experiment_id": "GDT812",
+  "guarded_queries": [
+    {
+      "allowed": [
+        "f21r",
+        "f32v",
+        "f100v",
+        "f101r"
+      ],
+      "columns": [
+        "page_order",
+        "page",
+        "locus",
+        "line_number",
+        "code",
+        "relation",
+        "kind",
+        "subtype",
+        "section",
+        "language",
+        "hand",
+        "quire",
+        "folio_type",
+        "paragraph_start",
+        "paragraph_end",
+        "token_count",
+        "eva_clean",
+        "ivtff_raw"
+      ],
+      "command": [
+        "./vmanus-exp",
+        "query-tsv",
+        "transcription/voynich_zl3b_lines.tsv",
+        "--selector",
+        "page",
+        "--allow",
+        "f21r",
+        "--allow",
+        "f32v",
+        "--allow",
+        "f100v",
+        "--allow",
+        "f101r",
+        "--columns",
+        "page_order,page,locus,line_number,code,relation,kind,subtype,section,language,hand,quire,folio_type,paragraph_start,paragraph_end,token_count,eva_clean,ivtff_raw",
+        "--forbid-prefix",
+        "f84",
+        "--forbid-prefix",
+        "f84r"
+      ],
+      "forbidden_prefixes": [
+        "f84",
+        "f84r"
+      ],
+      "projected_tsv_sha256": "9d4e749cec25c9ccd6cf020d95ac7b2607dac9d3cebe8670a31699972f113d60",
+      "selector": "page",
+      "source": "transcription/voynich_zl3b_lines.tsv",
+      "stats": {
+        "selected": 55,
+        "skipped_forbidden": 98,
+        "skipped_not_allowed": 5232
+      }
+    },
+    {
+      "allowed": [
+        "f21r",
+        "f32v",
+        "f100v",
+        "f101r"
+      ],
+      "columns": [
+        "page",
+        "locus",
+        "all_three_present",
+        "all_present_exact",
+        "zl3b_it2a_similarity",
+        "zl3b_rf1b_similarity",
+        "zl3b_clean",
+        "it2a_clean",
+        "rf1b_clean"
+      ],
+      "command": [
+        "./vmanus-exp",
+        "query-tsv",
+        "transcription/voynich_cross_transcription_lines.tsv",
+        "--selector",
+        "page",
+        "--allow",
+        "f21r",
+        "--allow",
+        "f32v",
+        "--allow",
+        "f100v",
+        "--allow",
+        "f101r",
+        "--columns",
+        "page,locus,all_three_present,all_present_exact,zl3b_it2a_similarity,zl3b_rf1b_similarity,zl3b_clean,it2a_clean,rf1b_clean",
+        "--forbid-prefix",
+        "f84",
+        "--forbid-prefix",
+        "f84r"
+      ],
+      "forbidden_prefixes": [
+        "f84",
+        "f84r"
+      ],
+      "projected_tsv_sha256": "9c4ab4d81b511e055c78bd823b538f1b0a98ba2a46fb47c4feddfa5e9a2d0e56",
+      "selector": "page",
+      "source": "transcription/voynich_cross_transcription_lines.tsv",
+      "stats": {
+        "selected": 55,
+        "skipped_forbidden": 98,
+        "skipped_not_allowed": 5233
+      }
+    }
+  ],
+  "runner_imported_or_executed": false,
+  "semantic_validation": false,
+  "status": "PASS",
+  "validated_files": [
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/src/SPEC.json",
+      "sha256": "8b588e74cf19be9da7b203f434e95b948501d3a5d9388ecdc3445fb718c62512"
+    },
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/src/PAGE_ADMISSIONS.tsv",
+      "sha256": "1636a5868a86fca239156772119d41cca52ec8044b616f3110507289452fab0b"
+    },
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/artifacts/gdt812_result.json",
+      "sha256": "a9b3ec74a8ec2b1574ec5bcff61bea6dd563a3614fea37d7963e9fc9c3dfea40"
+    },
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/artifacts/ADMITTED_PAGE_LINES.tsv",
+      "sha256": "80075bccd288a99a5a772540f4e631d833f5fb5673e62ab1f914253dd54cdad8"
+    },
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/artifacts/COMPLETE_ADMITTED_PAGES.md",
+      "sha256": "24661347ab432d6d8212c4840c0c7984461f225af78dca69dcc036a164277282"
+    },
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/src/validate.py",
+      "sha256": "fb19187cd7bea4ca39f25a04ddf6c7339780fb1db08b0b6b129a5eb85d5e4f3c"
+    },
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/src/IMAGE_SOURCES.tsv",
+      "sha256": "09b9d3a8f89ab912b5860411a834d53e96d0e32ed2c2b9271e99e7d7acf7060d"
+    }
+  ]
+}

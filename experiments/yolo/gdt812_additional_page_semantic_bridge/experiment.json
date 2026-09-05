@@ -1,0 +1,196 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Four of twenty discretionary pages admitted; no confirmed word, substance, clause or ownership. Historical duration and cross-context label hypotheses remain open; no GPU semantics.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt812_additional_page_semantic_bridge/src/run.py",
+    "validate": "python3 experiments/yolo/gdt812_additional_page_semantic_bridge/src/validate.py --no-write"
+  },
+  "created": "2026-09-05",
+  "dependencies": [
+    "GDT791",
+    "GDT809",
+    "GDT811"
+  ],
+  "experiment_id": "GDT812",
+  "inputs": [
+    {
+      "path": "transcription/voynich_zl3b_lines.tsv",
+      "role": "source_or_guard",
+      "sha256": "7520dd4c11f4d23c8492e4b2a52cc0fcbda6d9fc88a96ead8f1c31081a4d7ed2"
+    },
+    {
+      "path": "transcription/voynich_cross_transcription_lines.tsv",
+      "role": "source_or_guard",
+      "sha256": "ff3a4559004a29764c60102326de154b29fbba06a2a206bdd76d7feda432e16c"
+    },
+    {
+      "path": "vmanus-exp",
+      "role": "source_or_guard",
+      "sha256": "53b69eec8412b54d1248fd52d91c06e0eabc7f436b9015d0cfdb0746606c1528"
+    },
+    {
+      "path": "tools/vmanus_exp_cli.py",
+      "role": "source_or_guard",
+      "sha256": "67af0295b7f1282062981331982d893091532d07acbd986ed744ce9076b6b5dd"
+    },
+    {
+      "path": "tools/vmanus_experiment.py",
+      "role": "source_or_guard",
+      "sha256": "0b84a5503f8d4aa2e1d23c449da1cd1b2d2059f4d7f74727c6b899928e59cce2"
+    },
+    {
+      "path": "tools/relation_edge_intake.py",
+      "role": "source_or_guard",
+      "sha256": "fb8447470aa81ed608b90aedf7478893ddf6a445351aa12ab23c6fd725be3a47"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/src/PAGE_SELECTOR_SPECS.tsv",
+      "role": "source_or_guard",
+      "sha256": "69e5463f7ce6c22bd83fe35e4fdc0601731a3c470b5c510a15ac3befa1716bae"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/artifacts/FOUR_PAGE_LINES.tsv",
+      "role": "source_or_guard",
+      "sha256": "da98294db9562988e6ea70f37b71e84db8f0335895620c6765072068ae179bf0"
+    },
+    {
+      "path": "experiments/yolo/gdt811_four_page_content_synthesis/src/VISUAL_SOURCES.tsv",
+      "role": "source_or_guard",
+      "sha256": "1c3e898e02bb456812a0d9b1420e3a1bd2d7f909bada36caf3fc55d9e5866cd6"
+    },
+    {
+      "path": "experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/artifacts/JOINT_COMPETING_PARAGRAPH_READINGS.md",
+      "role": "source_or_guard",
+      "sha256": "4ff89651cd22e8d0605c2eded0f18895397d3d687fcc069345146c579b156649"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/METHOD.md",
+      "role": "implementation_or_manual_source",
+      "sha256": "e6de5bd5b10fcf3f6671fd097e4c9fd360d77a9933c6fe9f0b21f4b453e17d2b"
+    },
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/PREREGISTRATION.md",
+      "role": "implementation_or_manual_source",
+      "sha256": "3d2192249e0d2e408782c82d545f15a6f1dcc462fb71178fed0b742f751a9ff7"
+    },
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/README.md",
+      "role": "implementation_or_manual_source",
+      "sha256": "b439f9679316abd5911285c02a7275aa1da75d12fb4467007ca48f330e87827c"
+    },
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/REPORT.md",
+      "role": "implementation_or_manual_source",
+      "sha256": "95c7b6d89b801b8fc1d5836875da424392fc0dec962417a259a06df5b4d27c48"
+    },
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/WORKING_THEORY.md",
+      "role": "implementation_or_manual_source",
+      "sha256": "cffc69c699f7ab2c40c6c3f122680157114df1e41ab37ff8349dbf1acdb0a762"
+    },
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/artifacts/ADMITTED_PAGE_LINES.tsv",
+      "role": "reproducible_artifact",
+      "sha256": "80075bccd288a99a5a772540f4e631d833f5fb5673e62ab1f914253dd54cdad8"
+    },
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/artifacts/COMPLETE_ADMITTED_PAGES.md",
+      "role": "reproducible_artifact",
+      "sha256": "24661347ab432d6d8212c4840c0c7984461f225af78dca69dcc036a164277282"
+    },
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/artifacts/CROSS_CONTEXT_INTAKE.json",
+      "role": "reproducible_artifact",
+      "sha256": "17c0fad3b92b0567836dbd5406a14525801be4b4ea6b60d3d013ab7d74d36ac8"
+    },
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/artifacts/README.md",
+      "role": "reproducible_artifact",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/artifacts/gdt812_result.json",
+      "role": "reproducible_artifact",
+      "sha256": "a9b3ec74a8ec2b1574ec5bcff61bea6dd563a3614fea37d7963e9fc9c3dfea40"
+    },
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/artifacts/gdt812_validation.json",
+      "role": "reproducible_artifact",
+      "sha256": "5f07638472ff11827bf8cee6e948903234a3ab290df46de893b3b4ff4a580d3d"
+    },
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/src/COMPARATIVE_QUALITY_TRIAL.md",
+      "role": "implementation_or_manual_source",
+      "sha256": "6029d256019cee25ee855368553b45e63df2562cdd2271d79d40917361fffb98"
+    },
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/src/CROSS_CONTEXT_DCHDY.md",
+      "role": "implementation_or_manual_source",
+      "sha256": "49c5e5726e87c5e2b62f8f9ae0af57cdd1e35c75cdb321ce4f110c4db3f61307"
+    },
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/src/CROSS_CONTEXT_PACKET.tsv",
+      "role": "implementation_or_manual_source",
+      "sha256": "187bc8f482c22f2cc90caf412735d312a9678bcd4445e9cc1abed7de40f82f0b"
+    },
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/src/HERBAL_VISUAL_REVIEW.md",
+      "role": "implementation_or_manual_source",
+      "sha256": "9239029865f5d519e7b98e03b6fd69b0b5bd75c059ac3c3c1555f200ca8becca"
+    },
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/src/HISTORICAL_STORAGE_COMPARISON.md",
+      "role": "implementation_or_manual_source",
+      "sha256": "37f60dd7d2b370783cf4fc2ecdc3b723bd6b857fda59b63076326daa00740bc0"
+    },
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/src/IMAGE_SOURCES.tsv",
+      "role": "implementation_or_manual_source",
+      "sha256": "09b9d3a8f89ab912b5860411a834d53e96d0e32ed2c2b9271e99e7d7acf7060d"
+    },
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/src/PAGE_ADMISSIONS.tsv",
+      "role": "implementation_or_manual_source",
+      "sha256": "1636a5868a86fca239156772119d41cca52ec8044b616f3110507289452fab0b"
+    },
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/src/SPEC.json",
+      "role": "implementation_or_manual_source",
+      "sha256": "8b588e74cf19be9da7b203f434e95b948501d3a5d9388ecdc3445fb718c62512"
+    },
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/src/VISUAL_LAYOUT_REVIEW.md",
+      "role": "implementation_or_manual_source",
+      "sha256": "36d0f0c972d794325f316befd2b8b1719d5a493e8784ffe556e579957a5b4b61"
+    },
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/src/run.py",
+      "role": "implementation_or_manual_source",
+      "sha256": "9e690ad4ed3f15a274b538fcc872e0d63d4cb8500cb6770a1f9450c29987b002"
+    },
+    {
+      "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/src/validate.py",
+      "role": "implementation_or_manual_source",
+      "sha256": "fb19187cd7bea4ca39f25a04ddf6c7339780fb1db08b0b6b129a5eb85d5e4f3c"
+    }
+  ],
+  "question": "Can four additional complete illustrated pages distinguish named substances, qualities, material states and keeping time without inventing subjects to repair repeated written forms?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "additional_page_semantic_bridge",
+  "status": "COMPLETE_PAGE_COMPARISON__STORAGE_RIVAL_OPEN__CROSS_CONTEXT_GLOSS_LIMIT__NO_TRANSLATION",
+  "title": "Four additional visual pages and concrete storage / shared-label rivals",
+  "updated": "2026-09-05",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt812_additional_page_semantic_bridge/artifacts/gdt812_validation.json"
+  }
+}

@@ -21946,3 +21946,29 @@ All19 independent groups pass. The17 GDT388 text-only edges stay ineligible;
 four foldout-cross-selector edges additionally exceed its page schema.
 Theory: `experiments/yolo/gdt811_four_page_content_synthesis/WORKING_THEORY.md`.
 Report: `experiments/yolo/gdt811_four_page_content_synthesis/REPORT.md`.
+
+### GDT812 — four discretionary visual admissions and concrete rivals
+
+The user authorized up to20 extra pages. f21r/f32v/f100v/f101r are now
+explicitly admitted and personally viewed:34 visual page keys/39 selectors
+including the original spine;16 extra pages remain reserved. The new reader
+retains55 loci/513 ZL3b tokens and every alternate reading. These are new
+visual admissions, not unseen text: inherited work already exposed passages.
+f84/f84r remain sealed. No GPU computation or model installation was needed.
+
+The actual1415 Irish Materia medica rose entry distinguishes degree II from
+three-year keeping time. Storage duration is thus an explicit third rival to
+the old degree/dose framing, not a decoded chor chol daiin or a rose match.
+The fully viewed herbal pages identify neither the subject nor a time unit.
+f100v has13 local loci/one paragraph; f101r has zero local loci/three paragraphs
+in two broad text bands. Its displaced vessel cannot supply a relocated-label
+test. No automatic vessel-to-following-paragraph or three-label/three-owner
+alignment is licensed. The f88r quality trial remains openly conjectural.
+
+dchdy at f100v.8 gives newly viewed botanical context to a known spelling also
+at f77r.6. Dampf/Abfluss remains only a local f77r guess; shared drug,
+property/effect and context-specific readings stay open. One manual cross-page
+pair is explicitly ineligible under GDT388; no word or owner is identified.
+Seven independent reconstruction groups pass. Dictionary/renderer unchanged.
+Theory: `experiments/yolo/gdt812_additional_page_semantic_bridge/WORKING_THEORY.md`.
+Report: `experiments/yolo/gdt812_additional_page_semantic_bridge/REPORT.md`.
