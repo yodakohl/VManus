@@ -3,11 +3,10 @@ Updated: 2026-09-06. Read first.
 
 ## Current mandate
 
-Latest request (2026-09-06): continue after GDT832. GDT833 completes the paired
-reference intervention and fully recovers its fresh held control; see
-below. No manuscript fit is selected. Root's personal whole-page orientation is
-completed and remains part of future work. For that viewing, subagents may
-help with source metadata only; root performs the visual interpretation.
+Latest request (2026-09-06): continue after GDT833. GDT834 is the paired
+fresh control with individual symbol roles hidden; registration below.
+No manuscript fit is selected. Root's personal whole-page orientation remains
+completed; subagents help with source metadata, root interprets images.
 
 No public decipherment-approach searches: the user says these are exhausted.
 Use admitted images, primary internal reports and unresolved findings. The
@@ -39,6 +38,19 @@ layouts. Source logistics alone were delegated. The observational dossier is
 `docs/visual_overview/README.md`; exact viewed images: `docs/visual_overview/SOURCES.json`.
 No new experimental or semantic claim, no new page admission. User's required
 visual understanding remains part of future work; no experiment executed; see the new proposed candidate below.
+
+## Registered — GDT834 finite role disambiguation on a fresh control
+
+`experiments/yolo/gdt834_role_blind_mixed_control/REPORT.md`.
+Epistolae I–VI discovery87runs/3180words; VII–XIII held172runs/6511words.
+Independent9691-wordsource reconstructionPASS. TYPED/BLIND sharecontent,
+reference,candidates andnewrole-search engine; exactboundaries and26L/4S/8W
+nominalcounts stay supplied. BLIND getsopaqueXIDs, no individualroles.
+Positionaudit leaves67observablepartitions(219includingunusedpermutations),
+so thisis finite disambiguation, notgeneralrole/segmentationinduction.
+48restarts/6selections mustlockbeforetruth;95/99/90/90recoveryfloors plus
+allidentifiableactiveBLINDrole+outputexact. No fitresult or Voynichclaim yet.
+GDT833pass/GDT832failure/GDT616+CDA001closures remainunchanged.
 
 ## Completed — GDT833 reference effect and exact control recovery pass
 

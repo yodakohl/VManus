@@ -1,0 +1,325 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Known architecture and boundaries, finite per-symbol role disambiguation; three encryption keys share one contentsplit; no general segmentation or Voynich language/meaning/translation.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt834_role_blind_mixed_control/src/run.py --fit",
+    "validate": "python3 experiments/yolo/gdt834_role_blind_mixed_control/src/validate.py --check"
+  },
+  "created": "2026-09-06",
+  "dependencies": [
+    "GDT832",
+    "GDT833"
+  ],
+  "experiment_id": "GDT834",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/src/decoder.cpp",
+      "role": "bound_predecessor_resource_or_implementation",
+      "sha256": "5e62c8edb2798a9fc3cc68bbb58da1b0cc287caf26838493a39a0f8389ca7750"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/src/reference_model.py",
+      "role": "bound_predecessor_resource_or_implementation",
+      "sha256": "8b91713a350a30dcb824334ebe7cb4407afeeaddbb9fc1bdb4129786a9d873b2"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/src/prepare.py",
+      "role": "bound_predecessor_resource_or_implementation",
+      "sha256": "a8ca27308ab3f1fbeda1eef756c71081b602020b8b59350ba8661efd79536b77"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/src/prepare.py",
+      "role": "bound_predecessor_resource_or_implementation",
+      "sha256": "6360504e06bdf13a67177b3071db1ca1421184105e702d8ef0017dda5d8c5494"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/src/ENCODER_SPEC.json",
+      "role": "bound_predecessor_resource_or_implementation",
+      "sha256": "f66b392ecedf34926b612e34bf375204ea510d431cc01dabe93f45035c3ba6cc"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/prepared/reference_native.jsonl",
+      "role": "bound_predecessor_resource_or_implementation",
+      "sha256": "dc9c57b32779b4be64911c042d8ad468f090ebbebcd9686d71a7ba422263b3e1"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/prepared/reference_ids.json",
+      "role": "bound_predecessor_resource_or_implementation",
+      "sha256": "b759b59a92bde4e56efc83db8b702eb37a835abecf57f18a37a92ca097010526"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/prepared/candidates.json",
+      "role": "bound_predecessor_resource_or_implementation",
+      "sha256": "66d920e39056d6136a92c8a4509bb0d24c0d9ca9c1e01fdb9794d2f3ce663e86"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/prepared/families.json",
+      "role": "bound_predecessor_resource_or_implementation",
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/prepared/world_83301_discovery.json",
+      "role": "bound_predecessor_resource_or_implementation",
+      "sha256": "f6d8b81032e49a23e93d7760918126dd28c6385c20d00ab3be5edbd6af5cd67b"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/prepared/world_83302_discovery.json",
+      "role": "bound_predecessor_resource_or_implementation",
+      "sha256": "c0e768109024f5fe85391c87c7ca22b432053c43bd8227d6195ce2c0f881773d"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/prepared/world_83303_discovery.json",
+      "role": "bound_predecessor_resource_or_implementation",
+      "sha256": "3b5eb0205f5347156ee508ec9c679f65369a58826dfec5076834d10667f5e58c"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/.gitignore",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "9b9dc66af90f9ff99fa79101a6e3eb357e4d8b53cafcf51e9a8d2e2e32ca7dbb"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/METHOD.md",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "5a87f432e2e475aaa14b99bea328360ffb65a2985427597acb578458bf0fbf3d"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/PREREGISTRATION.md",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "79c1cf2426eb5f045495b396df5b7dbfb3e92ae322bca24b64e4c24a63cc7e02"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/README.md",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "e602f031a976c81664f712a0d5ba7c7c014492aaeb23af9a473b2435206b1106"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/REPORT.md",
+      "role": "primary_report",
+      "sha256": "b3f737ef1a1afadb379520c39d9e08df0132799ac43b159c3f910916d307af9c"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/REPRODUCE.md",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "a64137aadfdf321aa345c518f4982eafcfb7e14a90b34def0b0847f8b9b94045"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/artifacts/README.md",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/artifacts/ROLE_AMBIGUITY.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "8a78f48ee7ca3b6c5af5fb7312acf2272c1c96fb094796b90aafb74051aaf48e"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/artifacts/ROLE_AUDIT_833.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "01c2a16078743ec7a0e7d918c463a953ca6d16e9bf8c3ac5f007642c87e1155a"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/artifacts/SOURCE_VALIDATION.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "7c09185861ec04a9c7ac4ed1d51fbe0b71a069e7e527d09357740ddc85b34061"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/artifacts/TESTS.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "838863a030c9dcf5a264dd7c7677c810cccb241bb9958a05b31dba6ff9ae17d2"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/prepared/CAPACITY.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "488232e037501fb900546cd96f32771d9d0b64e7251c3ffc7ba9eef9716ec0ce"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/prepared/GENERATION.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "8a999e5e2f0b695bd367bafe0398d08019353a292d344e74f47b2839a1416d9e"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/prepared/candidates.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "66d920e39056d6136a92c8a4509bb0d24c0d9ca9c1e01fdb9794d2f3ce663e86"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/prepared/families.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/prepared/inventory.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "08ba8d3c7b0d0eee4e6ea896084039719b4996e89a8b7447d4427f3f6d6b3af6"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/prepared/reference.jsonl",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "dc9c57b32779b4be64911c042d8ad468f090ebbebcd9686d71a7ba422263b3e1"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/prepared/reference_ids.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "b759b59a92bde4e56efc83db8b702eb37a835abecf57f18a37a92ca097010526"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/prepared/world_83401_discovery.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "9edf1d588680b1d6e3033d5ffab758f359d0afd1b66a98772a41407eb6e3c89b"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/prepared/world_83401_held.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "c4d96599b75dd532a7d6cb354c4cabc5dcd66b8815f4ed1a7c1547d683d642fd"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/prepared/world_83401_typed_discovery.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "2150adc3e6f8634f0892e245b30b384f1e6264a079d93a699bf8b85d08238949"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/prepared/world_83401_typed_held.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "4b58aa29c44fa991d6e475525c250ebefea8520b6294f8cdcf952e5fb07d214d"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/prepared/world_83402_discovery.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "fceaab152b8f5affe21ab30a7bb3a4aeb79c18e81620deee681b83f7852730d4"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/prepared/world_83402_held.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "f64ed322c4fc4a507ff94f8125b3dbbf93508a3c167cd2441961ee4927a9d011"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/prepared/world_83402_typed_discovery.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "dae07962b8836e2532eaba9d14810b1d6181bb782da25bd60f17610c5e997ca0"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/prepared/world_83402_typed_held.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "13518dd6de00de313e3a5402666b8c565e57f9f565f1d3794f64a40e1d59e748"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/prepared/world_83403_discovery.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "a4cd25aedd68f713c462d4b2d6f0eb1baa8b05c416aa9ab249b1cd5c6ebb1d44"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/prepared/world_83403_held.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "90c2013ba7c805c970c70c1b4279dd0e186bb664c5d850d591189210c6e3e44d"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/prepared/world_83403_typed_discovery.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "e3b69b143bd274c561d92eec473d377e9f75d22f75bd52433a5dc983d4b6545d"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/prepared/world_83403_typed_held.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "a6607d4665a2ce20021b76631ccc68647c61388ced7a3a4d998324b56211c3e7"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/sources/LICENSE.txt",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "899b1804a12ebc090b96339614eede1b64b686721b650a71430b55b5235f7f79"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/sources/MANIFEST.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "8cd447720a6920b68856a8d78aababb1c9f27009796f27750e60921a4bcf2f97"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/sources/README.md",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "cf6be577c5a44470ed826b673f9b7e8acd798ee0738279805ae1b3814ca1ed00"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/sources/SOURCE_NOTES.md",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "c67903f751c0b8010cb4b2c4c1ac145e816cb0741fd3381f563d3076c59f0e59"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/src/ENCODER_SPEC.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "7475b71abac50e8e4e6bc3bb2c1f1bf6c13eb45dcadcc684251c513f890b4f7c"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/src/PREREG_LOCK.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "41480be4e507c281f36aeb0ff37cd10e3e0616d380d6f00490e416f392e55479"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/src/SPEC.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "406ac45d4563ec7e1ac083f82947f3d4d763d2d9ed4a03c4cf3dd5b92def15ff"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/src/bind_manifest.py",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "dd97eab7fc09f79df5d414e518aa02931eaa9348b1cc0e7d57df786f116c1c02"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/src/build_engine.py",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "4957d3d23a631cf930a5aef55b95c972627f3d9d416bcbbd2a179891e80e7bc4"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/src/decoder.cpp",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "aa1ba2f0293ee35323e6c738c934e9646cd467d29f29c89b3e74dd309711d9aa"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/src/evaluate.py",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "a948cd5617ce57609dc2fad062b5b69b1d1c8c70a8e3d4897a3a027f320a8f7a"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/src/prepare.py",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "ae3e39cb3e39636833eaed60191181e0c01d3a443e8d634c277b1d542076ac0a"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/src/role_audit.py",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "b51eaa3a998b57796c27ff191ac3db35219ccc52c9e6d1f26a34c94c3a3036b4"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/src/run.py",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "e44075d18388c684c073dcfa2d62b49c2406ac00ae7cce0d2ebccea9853cc8bf"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/src/test_roles.py",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "526b0e543b3d5bb0cc3ad4cb9b9222d494cac8f25057d0ea37bb4d5c2f0ebd58"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/src/validate.py",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "732b779f45db9a8163adf5b4c7893efa6fd9dc29f2debace1526c6673f9a4c17"
+    }
+  ],
+  "question": "Can a fresh mixed-code control be recovered with individual symbol roles hidden while exact boundaries and nominal role capacities remain supplied?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "role_blind_mixed_control",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Paired mixed control with individual symbol roles hidden",
+  "updated": "2026-09-06",
+  "validation": {
+    "artifact": "experiments/yolo/gdt834_role_blind_mixed_control/artifacts/SOURCE_VALIDATION.json",
+    "status": "PASS"
+  }
+}

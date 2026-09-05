@@ -1,0 +1,76 @@
+{
+  "arms": [
+    "TYPED",
+    "BLIND"
+  ],
+  "blinding": "all48restartsandsixdiscovery-selectedkeyslockedbeforeevaluation opensheldortruth; fitterroleblindjobsneveropentypedworlds",
+  "claim_ceiling": "finite per-symbol role disambiguation in a known architecture with supplied atomic/word/paragraph boundaries; no general segmentation or Voynich reading",
+  "decision_order": [
+    "SOURCE_CAPACITY_STOP",
+    "ROLE_AMBIGUITY_STOP",
+    "BASELINE_RECOVERY_FAIL",
+    "ROLE_BLIND_RECOVERY_FAIL",
+    "ROLE_BLIND_RECOVERY_PASS"
+  ],
+  "evaluation": {
+    "gold": "exact original normalized spelling, no u/v collapse",
+    "novelty": "against discovery plaintext; composed forms and unambiguous novel composed lemma occurrences",
+    "oracle": "truekey objective afterallfitslocked; diagnostic legalcrossrole package swaps may be enumerated without newfit",
+    "replicates": "three keys share one contentsplit"
+  },
+  "information_hidden_in_BLIND": [
+    "per-symbol role identity",
+    "active role counts",
+    "per-symbol output",
+    "typed ciphertext and alias map"
+  ],
+  "information_retained": [
+    "exact word boundaries",
+    "exact paragraph boundaries",
+    "atomic ciphertext IDs",
+    "nominal role counts",
+    "position rules",
+    "reference-derived candidate pools"
+  ],
+  "nominal_capacities": {
+    "L": 26,
+    "S": 4,
+    "W": 8
+  },
+  "optimizer": {
+    "annealing_steps": 60000,
+    "initialization": "random feasible nominal role matching; frequency-rank letters and wholewords, seeded suffixes; per-arm constraints differ, initialkeysneednotcoincide",
+    "max_workers": 24,
+    "polish_sweeps": 4,
+    "proposal_policy": "20 percent complete package transpositions; remaining80percent use72/14/14literal/suffix/wholeword mutations in botharms; illegal moves rejected",
+    "seed_formula": "83400000 + 100*world_id + start",
+    "selection": "highest discovery objective; ties lowest start"
+  },
+  "overall_recovery": {
+    "minimum_character_accuracy_each_key": 0.99,
+    "minimum_novel_form_accuracy_each_key": 0.9,
+    "minimum_novel_lemma_accuracy_each_key": 0.9,
+    "minimum_word_accuracy_each_key": 0.95
+  },
+  "role_recovery": "all identifiable observed roles plus outputs exactly correct for every BLIND key; same-emission role ambiguity reported separately; unused slots never scored",
+  "schema": "GDT834_ROLE_BLIND_SPEC_V1",
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "starts": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "world_ids": [
+    83401,
+    83402,
+    83403
+  ]
+}

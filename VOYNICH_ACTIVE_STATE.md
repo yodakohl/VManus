@@ -6,6 +6,18 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### GDT834 paired role-blind control registered (2026-09-06; unscored)
+
+Fresh Epistolae I–VI versus VII–XIII,87/172runs and3180/6511words;
+independent259run/9691word source replayPASS. TYPED/BLIND shareonecontent,
+nativeMonarchiareference andcommonnewsearch; all boundaries and nominal
+26L/4S/8W counts remain supplied. Positions reduce hidden roles to67observable
+partitions(219withunusedslotcompletions), notgeneralroleinduction. Sameemission
+roleambiguity is excluded from identifiable role accuracy; absent slots unscored.
+48fits/6selections lockbeforetruth;95/99/90/90floors plus allidentifiableBLIND
+role+outputexact. No fitresult or Voynichrun; predecessorstatuses unchanged.
+Primary: `experiments/yolo/gdt834_role_blind_mixed_control/REPORT.md`.
+
 ### GDT833 reference intervention and complete held recovery pass (2026-09-06)
 
 Publicefa4aad8 precedes48fits;48restarts/6keys fixed beforetruthaccess. NATIVE
