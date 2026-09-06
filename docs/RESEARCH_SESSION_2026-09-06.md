@@ -222,3 +222,12 @@ zero published excluded rows onthispage; no source-family payload requested.
 07:53UTC GDT859 result: nativeABconnection replicated, BCunconnected; threecomplete rawlines preserve firstseam definite andZL/RF167/168 versusITt. Rootmanualalignment qualified separately, no glyph/word/penmotion claim. Independent source/image/seal checks and replayPASS. Publicfreeze f657e15c precededtargetread. Smallpass publishing before07:57:20budget; goalACTIVE at13:40:45deadline.
 
 07:58UTC localcode audit after859: Pd/Pe detailed167/168 versusbasicp/f; ITt/t is a rawreading difference, not establishedintentional simplification. Independentstatic review agrees. No manuscript census/newimage/newmeaning; source note+exactrow validator published afterchecks. Goal remainsACTIVE until13:40:45UTC.
+
+08:00:31UTC GDT860 decision: knownf56r.1 supplies a physical uppercontact and
+literal167/168 mentions; the convention tables do not define their relation.
+A bounded exact-mention census in the existing179selector safe caches tests
+whether additional text locators exist. No newlocators→stop transferable
+entity-pair route; newlocators→only prospective native-candidate review, not
+automaticadmission or relationcredit. Preserve mentions within uncertainty as
+mentions, not physicaloccurrences; ITabsence is not visualabsence.10min total
+budget to08:10:31UTC, sourcecode/protocol publicbeforeexpandedtargetread.
