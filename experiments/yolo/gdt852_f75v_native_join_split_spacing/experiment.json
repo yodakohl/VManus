@@ -1,0 +1,115 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exploratory native layout only; no word meaning or independently verified semantic relation.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt852_f75v_native_join_split_spacing/src/run.py",
+    "validate": "python3 experiments/yolo/gdt852_f75v_native_join_split_spacing/src/validate.py"
+  },
+  "created": "2026-09-06",
+  "dependencies": [
+    "GDT850",
+    "GDT851"
+  ],
+  "experiment_id": "GDT852",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt850_qolchedy_join_split_context_inventory/REPORT.md",
+      "role": "frozen_source_or_extractor",
+      "sha256": "aed20548a1de762ceb4f56a204830e599878f6b5320579eda167355de91e30a0"
+    },
+    {
+      "path": "experiments/yolo/gdt851_primitive_tandem_raw_group_discovery/REPORT.md",
+      "role": "frozen_source_or_extractor",
+      "sha256": "4114c79e1ca7040070693d9eee87401cae2ed744bd6bb42045192593e4e0750d"
+    },
+    {
+      "path": "experiments/yolo/gdt851_primitive_tandem_raw_group_discovery/artifacts/SOURCE_ZL3b.json",
+      "role": "frozen_source_or_extractor",
+      "sha256": "73d3a80095d76876da91e67a6c9bd0d46284fdfe62250fccfb7d9dee3c038329"
+    },
+    {
+      "path": "experiments/yolo/gdt851_primitive_tandem_raw_group_discovery/artifacts/SOURCE_IT2a.json",
+      "role": "frozen_source_or_extractor",
+      "sha256": "333a76f0f8ec4904accf8f56cd947cb81cc6a05e2a53b1de3674659a04c83e03"
+    },
+    {
+      "path": "experiments/yolo/gdt851_primitive_tandem_raw_group_discovery/artifacts/SOURCE_RF1b.json",
+      "role": "frozen_source_or_extractor",
+      "sha256": "e9998f013dd1ae4608a13bc4e67bea1f9bfb3859cb4f4b60b84c404b2c7e0101"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt852_f75v_native_join_split_spacing/.gitignore",
+      "role": "source_or_artifact",
+      "sha256": "429a7ff8e3befe5ac528bb832881840115d63940883b125526b582eedcdcb7a9"
+    },
+    {
+      "path": "experiments/yolo/gdt852_f75v_native_join_split_spacing/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "4ec8f5d4ad891e36167507fcfacf1b0be2045d848eb4bc68247dbb89a49a910c"
+    },
+    {
+      "path": "experiments/yolo/gdt852_f75v_native_join_split_spacing/PREREGISTRATION.md",
+      "role": "source_or_artifact",
+      "sha256": "7a640049553966db7d3cd25fc8be4ea0bdf0f762b5736cde15e519187154ce18"
+    },
+    {
+      "path": "experiments/yolo/gdt852_f75v_native_join_split_spacing/README.md",
+      "role": "source_or_artifact",
+      "sha256": "e2106640ac424f493f3a9572cb9c9c5a487db9b26b75a2fa18abbf49eb8a9530"
+    },
+    {
+      "path": "experiments/yolo/gdt852_f75v_native_join_split_spacing/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt852_f75v_native_join_split_spacing/src/PAGE_ADMISSIONS.tsv",
+      "role": "source_or_artifact",
+      "sha256": "817f117c9c5e57fb5c2d33a644fdfc6624c17183929031927568894d85aec561"
+    },
+    {
+      "path": "experiments/yolo/gdt852_f75v_native_join_split_spacing/src/PREREG_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "dcf360b1dd5578d67d5b14a9101b9f6f2c9ee385f722a79cbec087434c1706a3"
+    },
+    {
+      "path": "experiments/yolo/gdt852_f75v_native_join_split_spacing/src/SPEC.json",
+      "role": "source_or_artifact",
+      "sha256": "92d4aef1fa21480bbe436b3a0f75c68a26827487b2f0cc65498dfb79cfc96e18"
+    },
+    {
+      "path": "experiments/yolo/gdt852_f75v_native_join_split_spacing/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "940c69786568acf686c0de4df01524d9aa96d5dbdcff2a641a9110ebfc80aac3"
+    },
+    {
+      "path": "experiments/yolo/gdt852_f75v_native_join_split_spacing/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "5aaa892a1076c2fe868586a3c042823c2a6c8d6fcb864c18c27dd288848b63a7"
+    },
+    {
+      "path": "experiments/yolo/gdt852_f75v_native_join_split_spacing/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "e501c964319b1079d955ad450681ee78fa24456efe6e823c3afd3f4f799243fc"
+    }
+  ],
+  "question": "Do two fixed f75v.44 sequences differ locally in internal spacing beyond whole-span scaling?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "f75v_native_join_split_spacing",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Native same-line internal spacing audit",
+  "updated": "2026-09-06",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

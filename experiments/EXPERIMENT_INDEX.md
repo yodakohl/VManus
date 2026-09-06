@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **850**
-- Experiment-associated tracked files: **15,935** (1.4 GiB)
-- Structured GDT337+ experiments: **515**
+- Experiments indexed: **851**
+- Experiment-associated tracked files: **15,947** (1.4 GiB)
+- Structured GDT337+ experiments: **516**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT852 | Native same-line internal spacing audit | `REGISTERED_UNSCORED` | — | 12 | 15.5 KiB | 2 | STRUCTURED_YOLO |
 | GDT851 | GDT851 | `COMPLETE_PRIMITIVE_TANDEM_DISCOVERY_NO_MECHANISM_TEST` | [report](../experiments/yolo/gdt851_primitive_tandem_raw_group_discovery/REPORT.md) | 23 | 12.1 MiB | 5 | STRUCTURED_YOLO |
 | GDT850 | GDT850 | `COMPLETE_LITERAL_JOIN_SPLIT_DISCOVERY_NO_SEMANTIC_TEST` | [report](../experiments/yolo/gdt850_qolchedy_join_split_context_inventory/REPORT.md) | 22 | 1.5 MiB | 4 | STRUCTURED_YOLO |
 | GDT849 | GDT849 | `DESCRIPTIVE_GRID_COMPLETE_NO_CONFIRMATORY_TEST` | [report](../experiments/yolo/gdt849_two_e_run_grid_discovery/REPORT.md) | 18 | 559.5 KiB | 6 | STRUCTURED_YOLO |
