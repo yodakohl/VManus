@@ -3,7 +3,7 @@ Updated: 2026-09-06. Read first.
 
 ## Current mandate and effort limit
 
-Latest mandate: at least10h active research, start2026-09-06 03:40:45UTC;
+Mandate: at least10h work from2026-09-06 03:40:45UTC;
 not complete before13:40:45UTC unless user interrupts/changes the mandate.
 Active goal/session record: `docs/RESEARCH_SESSION_2026-09-06.md`.
 
@@ -15,7 +15,8 @@ Primary via lookup858; old source bytes preserved. No automatic model rerun.
 
 GDT859:f56r.1 upperlink seenby2viewers; firstgroupseam definitein3readings.
 ZL/RF@167/@168 versus ITt retained; rootonly alignment, no glyph/meaning.
-860adds textlocators f100r.12(168,ZL/RF),f114r.1(167,RF); no new image/pair.
+860adds textlocators f100r.12(168,ZL/RF),f114r.1(167,RF).861 registers native
+comparison of those two targets; uncertain localization stops entity alignment.
 850joined/split28loci;851ABAB2loci;852native75v.44 seamcontrast. No wordhood.
 GDT853:25W qualify, zero held pairs meet fixed source/start-index matching;
 no predictor or automatic looser pairing. GDT854:146events,14mixed cells;
@@ -44,11 +45,9 @@ manuscript appearance before fixing a route; use primary internal evidence.
 
 ## Preserved star observations — GDT841–843
 
-Primary reports via compact lookup. Same Yale1006201 photo: inner4/5agreement,
-outer9/10, O6disagrees. No independent witness, pigment history or meaning.
-GDT843:9crop links,1missing,6clear contexts;42rawgroups/27reader-loci.
-PROVENANCE_INTAKE_ONLY_NO_AUTHORIAL_EDGE: no authorial caption ownership/score.
-These routes stay stopped; no regrading or additional same-photo counts.
+Same Yale1006201: inner4/5agreement,outer9/10,O6disagrees.843:9links,1missing,
+6clearcontexts,42groups/27reader-loci. No authorial ownership or meaning.
+841–843 stay stopped; no regrading or same-photo counts. Primary via lookup.
 
 ## Earlier screens and control
 
@@ -97,10 +96,12 @@ Understanding dossier: `docs/VOYNICH_UNDERSTANDING.md`; reset chronology:
 
 - Visual: original30 keys/35 selectors in `experiments/yolo/gdt791_thirty_page_visual_owner_spine/src/PAGE_SELECTOR_SPECS.tsv`,
   plus f21r/f32v/f100v/f101r in `experiments/yolo/gdt812_additional_page_semantic_bridge/src/PAGE_ADMISSIONS.tsv`:34 keys/39 selectors,
-  plus GDT844 f6v/f9v, GDT848 f104r/f104v, GDT852 f75v:39 keys/44 selectors,11 admissions remain.
+  plus GDT844 f6v/f9v, GDT848 f104r/f104v, GDT852 f75v:39 keys/44 selectors.
+  GDT861 adds f100r/f114r:41 keys/46 selectors,9 admissions remain.
   GDT844 admission source: `experiments/yolo/gdt844_ychor_visual_subentry/src/PAGE_ADMISSIONS.tsv`.
   GDT848 source: `experiments/yolo/gdt848_f104_visual_e_run_audit/src/PAGE_ADMISSIONS.tsv`.
   GDT852 source: `experiments/yolo/gdt852_f75v_native_join_split_spacing/src/PAGE_ADMISSIONS.tsv`.
+  GDT861 source: `experiments/yolo/gdt861_extended_entity_native_comparison/src/PAGE_ADMISSIONS.tsv`.
   Register before any new page access.
 - Text:179 selectors in `experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv`, not179 visually
   inspected pages. GDT811 union190 and GDT327's91-folio edition do not enlarge scope.
@@ -127,6 +128,6 @@ Local visual observations are distinct from ordered inscription edges; one
 emitted gate error does not establish passage of the other scientific gates.
 Record material corrections in `experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv`;
 `VOYNICH_ACTIVE_STATE.md` holds full claims. Old logs/handoff are recovery archives.
-Publish authorized work after exact staged privacy/scope checks, preserve unrelated
-files. Full worktree retains pre-existing GDT600 binding/TSV index debt.
+Publish after exact staged privacy/scope checks; preserve unrelated files.
+Pre-existing GDT600 binding/TSV index debt remains.
 Workflow: `docs/WORKFLOW.md`.

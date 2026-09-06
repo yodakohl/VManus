@@ -233,3 +233,12 @@ mentions, not physicaloccurrences; ITabsence is not visualabsence.10min total
 budget to08:10:31UTC, sourcecode/protocol publicbeforeexpandedtargetread.
 
 08:08UTC GDT860 finds twoadditional textlocators f100r.12(168ZL/RF),f114r.1(167RF); noadditional linewithboth.7literalmentions5readerlines total. Source-only discovery, noimage/admission/physicalrelation. Publicfreeze64a428f1, independentfindvalidation+regexreplayPASS. Publishingbefore08:10:31totalbudget. GoalACTIVE until13:40:45UTC.
+
+08:15:21UTC GDT861 decision: compare860 additional literal-entity locators
+f100r.12 andf114r.1 on two newly registered official originals. A visible
+extended upper link versus absent link at a confidently localized candidate
+region distinguishes whether knownf56r contact recurs at these locators.
+Uncertain localization is inconclusive, not absence. No obligatory entitypair,
+glyphidentity, penmotion or meaning. TGC001 guarded exactpage query selected0;
+official cached manifest supplies1006248/1006272. RootA sealed beforeB; both
+may use published860textcontexts.15min total budget to08:30:21UTC.

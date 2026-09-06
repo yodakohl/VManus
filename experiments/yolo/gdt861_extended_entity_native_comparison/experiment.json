@@ -1,0 +1,120 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Two same-photo native comparisons only; no glyph identity, paired code, pen motion or meaning",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt861_extended_entity_native_comparison/src/run.py",
+    "validate": "python3 experiments/yolo/gdt861_extended_entity_native_comparison/src/validate.py"
+  },
+  "created": "2026-09-06",
+  "dependencies": [
+    "GDT859",
+    "GDT860"
+  ],
+  "experiment_id": "GDT861",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt859_f56r_initial_bar_separator/REPORT.md",
+      "role": "frozen_source_or_extractor",
+      "sha256": "899060a3e8f17cca22582e06adc89b99e4ce36e4708d917679cd1b76e63cda58"
+    },
+    {
+      "path": "experiments/yolo/gdt860_extended_bar_entity_recurrence/REPORT.md",
+      "role": "frozen_source_or_extractor",
+      "sha256": "65cf96a3d10230a18fdc54ea86dbb651de78e46832293ca716034504ad52e952"
+    },
+    {
+      "path": "experiments/yolo/gdt860_extended_bar_entity_recurrence/artifacts/HITS.json",
+      "role": "frozen_source_or_extractor",
+      "sha256": "d4f14033b80c123944c7342b0787205125492fedcea36d68f22c123ea9140b18"
+    },
+    {
+      "path": "experiments/yolo/gdt860_extended_bar_entity_recurrence/artifacts/SOURCE_LINES.json",
+      "role": "frozen_source_or_extractor",
+      "sha256": "55b8b30b4b0a8a172fb4fa54ed922a38b17bfbb952ee7fba17db82c2e2d7ee10"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt861_extended_entity_native_comparison/.gitignore",
+      "role": "source_or_artifact",
+      "sha256": "429a7ff8e3befe5ac528bb832881840115d63940883b125526b582eedcdcb7a9"
+    },
+    {
+      "path": "experiments/yolo/gdt861_extended_entity_native_comparison/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "0b4edf92f9c2e45252420951bb6db65737fb47a947440dcc090071aae433d47a"
+    },
+    {
+      "path": "experiments/yolo/gdt861_extended_entity_native_comparison/PREREGISTRATION.md",
+      "role": "source_or_artifact",
+      "sha256": "b1bd631800f239f0cae5c917fa6d8d5439a637f3edc20cb41d3e1f340e9ac983"
+    },
+    {
+      "path": "experiments/yolo/gdt861_extended_entity_native_comparison/README.md",
+      "role": "source_or_artifact",
+      "sha256": "b49a4cc9c6bd4b2da848e80da9cd025d7a2137d21d2e5ef0bdbdccc0ad23a10e"
+    },
+    {
+      "path": "experiments/yolo/gdt861_extended_entity_native_comparison/REPORT.md",
+      "role": "primary_report",
+      "sha256": "bfea4f47768da31bdcb7cd275edd0531cd2fd0e4ad3da0ec3220ac6a560a0c5e"
+    },
+    {
+      "path": "experiments/yolo/gdt861_extended_entity_native_comparison/artifacts/CONTROLS.json",
+      "role": "source_or_artifact",
+      "sha256": "830ecb37bfae363d8fbc2bafa32f4959ccd72fb23ccc248b53f62d631eeea263"
+    },
+    {
+      "path": "experiments/yolo/gdt861_extended_entity_native_comparison/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "f867a9978d84e6697ce96df56310563723993f3ffe7aa1d4b1a3aebeb04b340e"
+    },
+    {
+      "path": "experiments/yolo/gdt861_extended_entity_native_comparison/src/PAGE_ADMISSIONS.tsv",
+      "role": "source_or_artifact",
+      "sha256": "a53e12843ba78cf00f4a3be75bc5d26d1593ba30b13e8531693e89fe7cea91f3"
+    },
+    {
+      "path": "experiments/yolo/gdt861_extended_entity_native_comparison/src/PREREG_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "3e90bd655b73f3d5d492b5bb69001af9c0afbc50c3ac0210c02c1841d1c8e944"
+    },
+    {
+      "path": "experiments/yolo/gdt861_extended_entity_native_comparison/src/SPEC.json",
+      "role": "source_or_artifact",
+      "sha256": "d83940809c7434128f668f92cbb4ce93da37de114960caa2401c122cb3464195"
+    },
+    {
+      "path": "experiments/yolo/gdt861_extended_entity_native_comparison/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "313d777301fc48b5a93d6c0eaba945721a59cfeed73a579c8f1c574a5919d66b"
+    },
+    {
+      "path": "experiments/yolo/gdt861_extended_entity_native_comparison/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "24d8a0b696f121f504570b3a47532635ff6d0b124687559075235d5be2281754"
+    },
+    {
+      "path": "experiments/yolo/gdt861_extended_entity_native_comparison/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "78a669fd99d638aff53b2d595ac0531ec5926ad342a93896da374fb2b45541cd"
+    }
+  ],
+  "question": "Do two registered literal text locators permit localized visible extended upper connection comparisons?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "extended_entity_native_comparison",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Two exact entity locator native comparisons",
+  "updated": "2026-09-06",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}
