@@ -6,6 +6,17 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### GDT839 exact boundary conservation (2026-09-06)
+
+Primary: `experiments/yolo/gdt839_boundary_conservation_screen/REPORT.md`.
+Public 9a3a8df2 before extraction. Odd admitted folios only; exact joined pairs,
+at least2atoms per group/8total, definite space and local three-reader agreement.
+13634 adjacent pairs,12227 definite,10398 size-eligible,4169 reader-concordant.
+Zero cross-folio joined-string matches with different split offsets1–3atoms:
+CAPACITY_STOP. Pair census and guarded byte replay pass; extraction shared829.
+No general word-boundary claim, calibrated null, meaning, held or image access.
+No candidate pipeline or relaxed thresholds selected.
+
 ### GDT838 ten-minute manuscript capacity screen (2026-09-06)
 
 Primary: `experiments/yolo/gdt838_recoded_passage_capacity/REPORT.md`.

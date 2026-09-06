@@ -3,13 +3,10 @@ Updated: 2026-09-06. Read first.
 
 ## Current mandate and effort limit
 
-Latest request: faster parallel idea work. Three short read-only worker reviews
-found no new ready discriminator in their image/obstacle, l/m-neighbor and local
-similarity candidates. This is triage, not a new scientific rejection. No new
-experiment selected; GDT838 unchanged. Use distinct bounded worker tasks, shared
-inputs and one batch report; preregister surviving tests and protect held data.
-Total wall-time limits include setup, checks and publication. No automatic decoder
-repair or new corpus. Durable rules: `docs/WORKFLOW.md` and `AGENTS.md`.
+Latest request: continue the parallel short round. Three independent idea reviews;
+exact boundary conservation selected and tested as GDT839: CAPACITY_STOP.
+No next experiment selected. Total limits include setup, checks and publication.
+No automatic decoder repair or new corpus. Rules: `docs/WORKFLOW.md` and `AGENTS.md`.
 
 Goal: transferable translation. Confirmed English lexemes: **0**;
 confirmed German lexemes/clauses: **0**. No new fit or page admission selected.
@@ -17,19 +14,22 @@ GPU/subagents authorized; no other LLM API keys. No public decipherment-approach
 searches: the user says these are exhausted. Understand project history and
 manuscript appearance before fixing a route; use primary internal evidence.
 
-## Latest manuscript screen — GDT838
+## Latest manuscript screens — GDT839 / GDT838
+
+`experiments/yolo/gdt839_boundary_conservation_screen/REPORT.md`.
+Public9a3a8df2 before extraction. Exact joined adjacent groups across odd admitted
+folios; two atoms/group, eight total, certain gap, three-reader local agreement.
+13634 adjacent pairs;4169 eligible occurrences. Zero cross-folio matches with
+split offsets differing1–3atoms: CAPACITY_STOP. No threshold repair or pipeline.
+Independent pair census and byte-exact guarded replay pass; extraction shared829.
+This does not prove lexical spaces or reject general boundary variation.
+No calibrated null, meaning, held evaluation or image access.
 
 `experiments/yolo/gdt838_recoded_passage_capacity/REPORT.md`.
-Public bba4741d precedes extraction. Odd admitted folios only (88 selectors),
-ZL3b; even folios excluded before payload. Fixed16-group windows, at least6types
-and4repeated types, cross-folio bijection with6nonidentity types. Of8490 windows,
-5392 have uncertain small-space boundaries;14 meet the repetition criteria on
-five physical folios. Zero cross-folio matching patterns: CAPACITY_STOP.
-No candidate for a larger fixed-map/held-prediction pipeline. No threshold repair.
-Independent direct-map pair census and byte-exact guarded extraction replay pass;
-source extraction is shared with GDT829. This is not a calibrated null, general
-rejection of parallel passages or new meaning. No held evaluation or image access.
-The older internal-parallel proposal now has this narrow capacity failure only.
+Public bba4741d; odd88selectors, ZL3b16-group windows,6types/4repeated,
+6nonidentity mappings. 8490windows,5392uncertain gaps,14eligible on5folios,
+zero cross-folio patterns: CAPACITY_STOP. No relaxed thresholds or general
+parallel-passage rejection. Pair audit and source replay pass; extraction shared829.
 
 ## Previous control — GDT837
 
