@@ -5,9 +5,9 @@ headings, experiment methods, result rows without a proposition and pending
 extraction work are excluded. Their original records remain in the source archive.
 This is curation of historical hypotheses, not decipherment progress.
 
-The public snapshot contains **2,984 concrete semantic hypothesis variants** and
-**408 separate formal-role cards**. Active cards and the correction archive retain all **3,880 reviewed source cases**;
-**454 repetitions of identical normalized assertions** are grouped for display.
+The public snapshot contains **3,004 concrete semantic hypothesis variants** and
+**409 separate formal-role cards**. Active cards and the correction archive retain all **3,902 reviewed source cases**;
+**455 repetitions of identical normalized assertions** are grouped for display.
 All **5,370 proposal fragments**, **3,788 component excerpts** and **82 IP entries**
 have explicit dispositions. This is not a count of independently distinct theories.
 The local V81 supplement adds **96 concrete cards** (76 lexical, 19 content models, one formal role).
@@ -64,7 +64,7 @@ and source cases when recording corrections; never erase a failure to reopen a r
 ## Source correction pass
 
 An append-only correction log, `semantic_claim_corrections.jsonl`, currently
-archives 34 source-extraction errors and restates thirteen source assertions
+archives 34 source-extraction errors and restates fourteen source assertions
 with explicit scope and appropriate lexical, functional, model or formal types. Numeric table ratios, denied constituent inferences
 and dispatch metadata had incorrectly entered the hypothesis list. Every original
 card, source case and exact quote remains in `semantic_ideas_excluded.jsonl` or
@@ -80,9 +80,11 @@ audit is bounded and does not establish error-free global extraction.
 
 ## Reviewed identity and scoped failure memory
 
-The default public view currently has **2,937 semantic display entries** from
-2,984 active semantic variants. `semantic_identity_decisions.jsonl` records38
-approved equivalence groups and two explicit nonidentity relations. These are
+The default public view currently has **2,957 semantic display entries** from
+3,004 active semantic variants. `semantic_identity_decisions.jsonl` records38
+approved equivalence groups, two related-but-distinct links,28 explicit rival
+links and two specializations. Whole-card V51/V60 continuity is backed by shared
+source-deck IDs, not merely matching names or occurrence counts. These are
 source-scoped propositions; shared subject words alone never establish identity.
 Independent peer reviews cover each accepted group, including the I and N expansions.
 Conflicting nonidentity links block transitive merging; changed source scope or
@@ -101,7 +103,7 @@ case history. No rejection, success or reopening permission crosses an identity
 link. Search covers every member wording. Cached pages do not deserialize the
 complete card snapshot, including the10k-card regression.
 
-Thirteen reviewed question dossiers in `semantic_failure_decisions.jsonl` distinguish
+Fourteen reviewed question dossiers in `semantic_failure_decisions.jsonl` distinguish
 empirical failure, invalid test, insufficient capacity, missing meaning binding
 and proposal-only status. They appear before inherited experiment context under
 `--field assessments`. They name the actual tested subclaim, primary evidence,
@@ -112,13 +114,17 @@ Only the latest linked revision acts; all original decisions remain in the log.
 
 ## Recovery and conditional priorities
 
-The J/M source-block review and independent L/O extraction recovered14 distinct
-historical propositions and one additional source case for an existing Y claim.
+The J/M/R/V source-block reviews inspect188 distinct source blocks. Q/U revisit
+and resolve the35 earlier J/M scope comparisons; they are not35 extra blocks.
+Together the L/O/Q/T/U/W recovery packets add34 historical semantic propositions,
+one formal parser rule and two additional source cases for existing Y and V15
+claims. This is recovery of missing source statements, not a global uniqueness
+claim. Eleven V full-model spans and seven R scope comparisons remain open.
 The source archive contains9,917 actual unresolved blocks plus5,561 pointer rows;
-these are not15,478 independently missing ideas. The first140 inspected blocks
-include35 unresolved scope comparisons, which remain open review work. This is
-not an exhaustive recovery claim. New cards retain original register, whole-form
-or compositional units, rivals and historical uncertainty.
+these are not15,478 independently missing ideas. New cards retain original
+register, whole-form or compositional units, rivals and historical uncertainty.
+The recovered GDT180 quality-process reading is linked to its later GDT202
+semantic withdrawal; re-listing a historical claim never reinstates its decoder.
 
 ```bash
 ./vmanus-work priorities --shortlist

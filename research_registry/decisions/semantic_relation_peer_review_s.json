@@ -1,0 +1,2146 @@
+{
+  "review_id": "S30_INDEPENDENT_PEER_REVIEW",
+  "status": "COMPLETE_WITH_TWO_SCOPE_BRIDGES_UNRESOLVED",
+  "reviewer": "grid_count_audit",
+  "scope": "All 30 proposed decisions in semantic_relation_review_s.json. No relation log mutation, manuscript data query, image inspection or experiment. Existing equivalence closure checked independently and with implementation. Full current claims and source-case scopes retained.",
+  "input_hashes": {
+    "research_registry/decisions/semantic_relation_review_s.json": "289dda738078d4f5c6474234c00cb07e223b691327e07bf23a7e901a9152da2d",
+    "research_registry/semantic_ideas.jsonl": "316127a7d3c2c46a803ab43b3426e996850c21a173da6903e471ac606d5f2c57",
+    "research_registry/semantic_identity_decisions.jsonl": "2b623e6bdb72b72100855065124e7175a6c92aacd4b5b3bf559f3f96ea7d187d"
+  },
+  "counts": {
+    "decisions": 30,
+    "approve": 28,
+    "reject": 0,
+    "uncertain": 2,
+    "current_identity_log_records": 40
+  },
+  "checks": {
+    "all_exact_quotes_and_source_hashes": true,
+    "all_original_and_effective_card_bases": true,
+    "independent_transitive_equivalence_conflicts": 0,
+    "hypothetical_all30_approved_combined_index": "PASS_NO_LOG_WRITE"
+  },
+  "decisions": [
+    {
+      "decision_id": "S_RELATION_A_21_v1",
+      "verdict": "approve",
+      "relation": "alternative_to",
+      "member_ids": [
+        "SEM:40f989b099e36ca42871",
+        "SEM:9f367740d80b66c21d64"
+      ],
+      "full_effective_propositions": [
+        {
+          "id": "SEM:40f989b099e36ca42871",
+          "claim": "okaiin → ist",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "c386b84b7e75e57182d0340593f7f5f2115c1e5fd38c5b0e295b936483157478",
+          "effective_basis": "db335cba356b70c8275de25f7262d01cbb4facfe886a2e60ac5a1bfaba7b0642",
+          "source_case_scopes": [
+            {
+              "section": "Arbeitsstand GDT813: ein Inhaltswort, noch keine Stoffidentifikation",
+              "source": "experiments/yolo/gdt813_f17_content_word_transfer/WORKING_THEORY.md"
+            }
+          ]
+        },
+        {
+          "id": "SEM:9f367740d80b66c21d64",
+          "claim": "okaiin → Pulver",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "7e126c4974cad7e1681eb41c7e03f79ebb071a8625db1c1af796aa5ffad8b031",
+          "effective_basis": "ecbe0ef6830f0eb1e3a0d64e75724e2b81bc7db831922393f93d62869c63dbb1",
+          "source_case_scopes": [
+            {
+              "section": "Arbeitsstand GDT813: ein Inhaltswort, noch keine Stoffidentifikation",
+              "source": "experiments/yolo/gdt813_f17_content_word_transfer/WORKING_THEORY.md"
+            }
+          ]
+        }
+      ],
+      "reason": "Approve the explicitly scoped historical rival relation: GDT813 holds the neighboring guesses fixed and explicitly compares IS against POWDER for the complete okaiin. This records distinct proposals in the cited comparison, not logical incompatibility or a scientific outcome.",
+      "scope_applicability": "These are historical proposed readings, not established manuscript meanings. This relation supplies no scientific rejection, confirmation, reopening permission or inherited experiment status. The compared objects are complete okaiin readings. Larger host models are retained separately; an alternative relation does not claim a controlled one-word ablation.",
+      "transitive_equivalence_conflict": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt813_f17_content_word_transfer/WORKING_THEORY.md",
+          "line": 3,
+          "quote": "2026-09-05. Alle folgenden Wortbedeutungen sind C0: unbestätigte Arbeitshypothesen.",
+          "sha256": "890c791cd38c5dce48773957fd2e8fe53935b9674747a38ef9d1196ace1db9d3"
+        },
+        {
+          "path": "experiments/yolo/gdt813_f17_content_word_transfer/WORKING_THEORY.md",
+          "line": 5,
+          "quote": "`otchol cthar okaiin chol daiiin` auf f17r.11 lässt zwei konkrete Versuche zu:",
+          "sha256": "890c791cd38c5dce48773957fd2e8fe53935b9674747a38ef9d1196ace1db9d3"
+        },
+        {
+          "path": "experiments/yolo/gdt813_f17_content_word_transfer/WORKING_THEORY.md",
+          "line": 5,
+          "quote": "`otchol cthar okaiin chol daiiin` auf f17r.11 lässt zwei konkrete Versuche zu:\n\n- N: **„Dieses Wurzelpulver: äußerst trocken?“**\n- G: **„Diese Wurzel ist äußerst trocken?“**\n\nBeide halten die gleichen Annahmen fest: otchol=dieses, cthar=Wurzel,\nchol=trocken und daiiin=sehr hohe Ausprägung. Nur okaiin unterscheidet sich:\nPulver oder ist. Der Doppelpunkt in N ist unsere nominale Satzanalyse,\nkein entschlüsseltes Wort. Es gibt keinen belegten Mahlvorgang.",
+          "sha256": "890c791cd38c5dce48773957fd2e8fe53935b9674747a38ef9d1196ace1db9d3"
+        }
+      ],
+      "remaining_gate": null
+    },
+    {
+      "decision_id": "S_RELATION_A_22_v1",
+      "verdict": "approve",
+      "relation": "alternative_to",
+      "member_ids": [
+        "SEM:08a05de29068958d3f58",
+        "SEM:7be1e4f37215895ddc58"
+      ],
+      "full_effective_propositions": [
+        {
+          "id": "SEM:08a05de29068958d3f58",
+          "claim": "okaiin → dessen?",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "3f51f711960dc4880b28ffa17a4466a1d5362286c5c018f4154859ec046f140a",
+          "effective_basis": "06cdadd4a5a3585922f40d9be7ef55c77f05cd55cdd54dadc083fd5949241f0a",
+          "source_case_scopes": [
+            {
+              "case": "R: Besitzmodell",
+              "section": "Was wir jetzt versuchsweise lesen / Ganzwort | Q: Eigenschaftsmodell | R: Besitzmodell",
+              "source": "experiments/yolo/gdt816_paragraph_content_models/REPORT.md"
+            }
+          ]
+        },
+        {
+          "id": "SEM:7be1e4f37215895ddc58",
+          "claim": "okaiin → warm?",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "3cd3fd7a4efd1b7b62a54ec433921fdffdb4919ba5c3b68a37c5d6fb1dc5db6f",
+          "effective_basis": "924fad8060087b11a3b7bdf7fdbb8560c4a0be429dbdc968464f26418babee2c",
+          "source_case_scopes": [
+            {
+              "case": "Q: Eigenschaftsmodell",
+              "section": "Was wir jetzt versuchsweise lesen / Ganzwort | Q: Eigenschaftsmodell | R: Besitzmodell",
+              "source": "experiments/yolo/gdt816_paragraph_content_models/REPORT.md"
+            }
+          ]
+        }
+      ],
+      "reason": "Approve the explicitly scoped historical rival relation: GDT816 explicitly contrasts possessive DESSEN with WARM, while warning that okol also differs between the two models. This records distinct proposals in the cited comparison, not logical incompatibility or a scientific outcome.",
+      "scope_applicability": "These are historical proposed readings, not established manuscript meanings. This relation supplies no scientific rejection, confirmation, reopening permission or inherited experiment status. The compared objects are complete okaiin readings. Larger host models are retained separately; an alternative relation does not claim a controlled one-word ablation.",
+      "transitive_equivalence_conflict": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt816_paragraph_content_models/REPORT.md",
+          "line": 20,
+          "quote": "| okaiin | warm? | dessen? |",
+          "sha256": "74119c1116d8dfe06133fac4ae4a1a9b91f1beb0af159dfe0e4ab48a5676b214"
+        },
+        {
+          "path": "experiments/yolo/gdt816_paragraph_content_models/REPORT.md",
+          "line": 22,
+          "quote": "Alle C0: konkrete, unbestätigte Vermutungen. Ein Fragezeichen bezeichnet keine\nberechnete Wahrscheinlichkeit. Die sechs neuen Atome sind für diese Runde neu\nfestgelegte Werte, keine Behauptung, niemand habe ähnliche Wörter früher versucht.\nDie sieben geerbten Ganzwörter bleiben erhalten; alle Werte, Herkunft und\nGegenkosten stehen in [HYPOTHESES.tsv](src/HYPOTHESES.tsv). N/G/K/B-Rivalen\nbleiben dokumentiert, ohne die neuen Substantive automatisch zu erben.\nQ/R unterscheiden sich zusätzlich bei okol; kein isolierter okaiin-Test.",
+          "sha256": "74119c1116d8dfe06133fac4ae4a1a9b91f1beb0af159dfe0e4ab48a5676b214"
+        }
+      ],
+      "remaining_gate": null
+    },
+    {
+      "decision_id": "S_RELATION_A_23_v1",
+      "verdict": "approve",
+      "relation": "alternative_to",
+      "member_ids": [
+        "SEM:16548455675289dcae5f",
+        "SEM:7be1e4f37215895ddc58"
+      ],
+      "full_effective_propositions": [
+        {
+          "id": "SEM:16548455675289dcae5f",
+          "claim": "okaiin → bitter?",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "936013e8a6b1d03bee507761803925922c57c540d5775b64d51018bafbde8f40",
+          "effective_basis": "375e3e878578c0f636761dea4f37ca74a08cf64aef1def4ee49c19ca2840bc06",
+          "source_case_scopes": [
+            {
+              "case": "explicit_whole_word_trial",
+              "section": "Bitter? — ein konkreter nichtthermischer Eigenschaftsrivale",
+              "source": "experiments/yolo/gdt815_referent_property_discrimination/src/PROPERTY_RIVAL.md"
+            }
+          ]
+        },
+        {
+          "id": "SEM:7be1e4f37215895ddc58",
+          "claim": "okaiin → warm?",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "3cd3fd7a4efd1b7b62a54ec433921fdffdb4919ba5c3b68a37c5d6fb1dc5db6f",
+          "effective_basis": "924fad8060087b11a3b7bdf7fdbb8560c4a0be429dbdc968464f26418babee2c",
+          "source_case_scopes": [
+            {
+              "case": "Q: Eigenschaftsmodell",
+              "section": "Was wir jetzt versuchsweise lesen / Ganzwort | Q: Eigenschaftsmodell | R: Besitzmodell",
+              "source": "experiments/yolo/gdt816_paragraph_content_models/REPORT.md"
+            }
+          ]
+        }
+      ],
+      "reason": "Approve the explicitly scoped historical rival relation: GDT815 introduces literal taste BITTER as a nonthermal rival to WARM, without relabeling warm as a different property. This records distinct proposals in the cited comparison, not logical incompatibility or a scientific outcome.",
+      "scope_applicability": "These are historical proposed readings, not established manuscript meanings. This relation supplies no scientific rejection, confirmation, reopening permission or inherited experiment status. The compared objects are complete okaiin readings. Larger host models are retained separately; an alternative relation does not claim a controlled one-word ablation.",
+      "transitive_equivalence_conflict": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt815_referent_property_discrimination/src/PROPERTY_RIVAL.md",
+          "line": 3,
+          "quote": "2026-09-05. EXPLORATIV, C0_UNCONFIRMED. B bezeichnet hier ausschließlich\nokaiin=bitter? als Geschmackseigenschaft, nicht erwärmend, scharf, adstringierend\noder allgemein wirksam. B ist eine lokale Konkurrenzhypothese, kein neuer\nglobaler Default und nicht GDT812s frühere skalare Modellfamilie B.\nDie sieben gemeinsamen Vermutungen bleiben unverändert: otchol=dieses?,\ncthar=Wurzel?, chol=trocken?; dan=sehr wenig?, dain=wenig?, daiin=viel?,\ndaiiin=sehr viel?. Keine EVA-Komponente und kein Nachbarwort wird neu übersetzt.",
+          "sha256": "255f945f48fb08beac3f106e1092b742c2974284c033374ae339bc6b2857521d"
+        },
+        {
+          "path": "experiments/yolo/gdt815_referent_property_discrimination/src/PROPERTY_RIVAL.md",
+          "line": 11,
+          "quote": "Route und GDT814-Bericht/Historik wurden zuerst gelesen; route-check zeigte\nkeine frühere Prüfung dieses konkreten Geschmacksrivalen. Die bekannten\nVoynich-Kontexte waren vor der Quellenwahl gesehen; keine Blindheit behauptet.\nZwei historische Primärquellen tragen den Vergleich, keine neue Voynich-Seite.",
+          "sha256": "255f945f48fb08beac3f106e1092b742c2974284c033374ae339bc6b2857521d"
+        },
+        {
+          "path": "experiments/yolo/gdt816_paragraph_content_models/REPORT.md",
+          "line": 20,
+          "quote": "| okaiin | warm? | dessen? |",
+          "sha256": "74119c1116d8dfe06133fac4ae4a1a9b91f1beb0af159dfe0e4ab48a5676b214"
+        },
+        {
+          "path": "experiments/yolo/gdt815_referent_property_discrimination/REPORT.md",
+          "line": 34,
+          "quote": "## Temperature is not selected by the construction alone\n\nGDT814's N=powder?, G=is?, Q=warm? and R=possessive dessen? remain fixed, as\ndo the seven GDT813 shared guesses. K=cold? and B=bitter? are explicit additional\ncandidates, not new senses silently assigned to Q. B means literal taste.\nThe same f17r.11 therefore permits a conditional bitter/dry trial as well as\nwarm/dry and cold/dry. This demonstrates underdetermination, not three translations.",
+          "sha256": "699a06fccd9298c304e76c38b7d743a8282d4b6a521e59f4c6ee8008bc852144"
+        }
+      ],
+      "remaining_gate": null
+    },
+    {
+      "decision_id": "S_RELATION_A_24_v1",
+      "verdict": "approve",
+      "relation": "alternative_to",
+      "member_ids": [
+        "SEM:9f367740d80b66c21d64",
+        "SEM:16548455675289dcae5f"
+      ],
+      "full_effective_propositions": [
+        {
+          "id": "SEM:9f367740d80b66c21d64",
+          "claim": "okaiin → Pulver",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "7e126c4974cad7e1681eb41c7e03f79ebb071a8625db1c1af796aa5ffad8b031",
+          "effective_basis": "ecbe0ef6830f0eb1e3a0d64e75724e2b81bc7db831922393f93d62869c63dbb1",
+          "source_case_scopes": [
+            {
+              "section": "Arbeitsstand GDT813: ein Inhaltswort, noch keine Stoffidentifikation",
+              "source": "experiments/yolo/gdt813_f17_content_word_transfer/WORKING_THEORY.md"
+            }
+          ]
+        },
+        {
+          "id": "SEM:16548455675289dcae5f",
+          "claim": "okaiin → bitter?",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "936013e8a6b1d03bee507761803925922c57c540d5775b64d51018bafbde8f40",
+          "effective_basis": "375e3e878578c0f636761dea4f37ca74a08cf64aef1def4ee49c19ca2840bc06",
+          "source_case_scopes": [
+            {
+              "case": "explicit_whole_word_trial",
+              "section": "Bitter? — ein konkreter nichtthermischer Eigenschaftsrivale",
+              "source": "experiments/yolo/gdt815_referent_property_discrimination/src/PROPERTY_RIVAL.md"
+            }
+          ]
+        }
+      ],
+      "reason": "Approve the explicitly scoped historical rival relation: GDT815 retains the material-name POWDER hypothesis alongside the literal taste property BITTER; neither names a proven visible referent. This records distinct proposals in the cited comparison, not logical incompatibility or a scientific outcome.",
+      "scope_applicability": "These are historical proposed readings, not established manuscript meanings. This relation supplies no scientific rejection, confirmation, reopening permission or inherited experiment status. The compared objects are complete okaiin readings. Larger host models are retained separately; an alternative relation does not claim a controlled one-word ablation.",
+      "transitive_equivalence_conflict": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt813_f17_content_word_transfer/WORKING_THEORY.md",
+          "line": 3,
+          "quote": "2026-09-05. Alle folgenden Wortbedeutungen sind C0: unbestätigte Arbeitshypothesen.",
+          "sha256": "890c791cd38c5dce48773957fd2e8fe53935b9674747a38ef9d1196ace1db9d3"
+        },
+        {
+          "path": "experiments/yolo/gdt813_f17_content_word_transfer/WORKING_THEORY.md",
+          "line": 5,
+          "quote": "`otchol cthar okaiin chol daiiin` auf f17r.11 lässt zwei konkrete Versuche zu:",
+          "sha256": "890c791cd38c5dce48773957fd2e8fe53935b9674747a38ef9d1196ace1db9d3"
+        },
+        {
+          "path": "experiments/yolo/gdt815_referent_property_discrimination/src/PROPERTY_RIVAL.md",
+          "line": 3,
+          "quote": "2026-09-05. EXPLORATIV, C0_UNCONFIRMED. B bezeichnet hier ausschließlich\nokaiin=bitter? als Geschmackseigenschaft, nicht erwärmend, scharf, adstringierend\noder allgemein wirksam. B ist eine lokale Konkurrenzhypothese, kein neuer\nglobaler Default und nicht GDT812s frühere skalare Modellfamilie B.\nDie sieben gemeinsamen Vermutungen bleiben unverändert: otchol=dieses?,\ncthar=Wurzel?, chol=trocken?; dan=sehr wenig?, dain=wenig?, daiin=viel?,\ndaiiin=sehr viel?. Keine EVA-Komponente und kein Nachbarwort wird neu übersetzt.",
+          "sha256": "255f945f48fb08beac3f106e1092b742c2974284c033374ae339bc6b2857521d"
+        },
+        {
+          "path": "experiments/yolo/gdt815_referent_property_discrimination/src/PROPERTY_RIVAL.md",
+          "line": 11,
+          "quote": "Route und GDT814-Bericht/Historik wurden zuerst gelesen; route-check zeigte\nkeine frühere Prüfung dieses konkreten Geschmacksrivalen. Die bekannten\nVoynich-Kontexte waren vor der Quellenwahl gesehen; keine Blindheit behauptet.\nZwei historische Primärquellen tragen den Vergleich, keine neue Voynich-Seite.",
+          "sha256": "255f945f48fb08beac3f106e1092b742c2974284c033374ae339bc6b2857521d"
+        },
+        {
+          "path": "experiments/yolo/gdt815_referent_property_discrimination/REPORT.md",
+          "line": 34,
+          "quote": "## Temperature is not selected by the construction alone\n\nGDT814's N=powder?, G=is?, Q=warm? and R=possessive dessen? remain fixed, as\ndo the seven GDT813 shared guesses. K=cold? and B=bitter? are explicit additional\ncandidates, not new senses silently assigned to Q. B means literal taste.\nThe same f17r.11 therefore permits a conditional bitter/dry trial as well as\nwarm/dry and cold/dry. This demonstrates underdetermination, not three translations.",
+          "sha256": "699a06fccd9298c304e76c38b7d743a8282d4b6a521e59f4c6ee8008bc852144"
+        }
+      ],
+      "remaining_gate": null
+    },
+    {
+      "decision_id": "S_RELATION_B_00_v1",
+      "verdict": "approve",
+      "relation": "alternative_to",
+      "member_ids": [
+        "SEM:14211cd150cd1cea1cff",
+        "SEM:9463201c8ace50490712"
+      ],
+      "full_effective_propositions": [
+        {
+          "id": "SEM:14211cd150cd1cea1cff",
+          "claim": "CTHY → fertig",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "b45a0252bde4a6eb3326a3f6923f9ded4a9a3f26b812506671b5c5137a70e024",
+          "effective_basis": "d6f73b58c1c7259a4cb070812d0564dd57b693b753f6993bcbb937ea2ab3d249",
+          "source_case_scopes": [
+            {
+              "case": "zwei atomare Rivalen",
+              "section": "Elf Karten / Exact-Card | Default | Klasse | zwei atomare Rivalen | n H/B | Confidence | Revisionskosten",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md"
+            }
+          ]
+        },
+        {
+          "id": "SEM:9463201c8ace50490712",
+          "claim": "CTHY → bereit",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "1e72d508ba6e27195ccf8578362ab0b712a43422611eb0d3dd07a6c234e5ba0b",
+          "effective_basis": "3a834e4b3de9b8da650bd1714ebb0ba6e7aabf7b410492b76f52c60b295b047a",
+          "source_case_scopes": [
+            {
+              "case": "V60_fixed_card_trial_with_contradictions",
+              "section": "Vollständiger Kontextdruck",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md"
+            },
+            {
+              "case": "Default",
+              "section": "Elf Karten / Exact-Card | Default | Klasse | zwei atomare Rivalen | n H/B | Confidence | Revisionskosten",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md"
+            }
+          ]
+        }
+      ],
+      "reason": "Approve the explicitly scoped historical rival relation: Finished and ready are explicit V60 rivals; readiness can precede completion. This records distinct proposals in the cited comparison, not logical incompatibility or a scientific outcome.",
+      "scope_applicability": "These are historical proposed readings, not established manuscript meanings. This relation supplies no scientific rejection, confirmation, reopening permission or inherited experiment status. The shared unit is the registered whole-card type, not an EVA substring or productive primitive. No transfer to another joint_tuple_id is inferred.",
+      "transitive_equivalence_conflict": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 31,
+          "quote": "| CTHY | bereit | Zustand | fertig · reif | 3/4 | 0.62 | 0 |",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 73,
+          "quote": "3. **CTHY — bereit.** Sechs von sieben Fällen stehen feldmittig, alle vor einem\n   Schluss. Lehrregel: Zustand, nicht Befehl. Widerspruch: Nur einmal folgt OR;\n   der eine offene Feldendfall trägt keine Zubereitungsfolge.",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 41,
+          "quote": "`H/B` zählt Herbal-/Biological-Vorkommen, nicht unabhängige Belege. Das\nWörterbuch bindet jeden Wert ausschließlich an die vollständige\n`joint_tuple_id`. Die in der Vorkommenstabelle mitgeführten Oberflächen und\nFormelbäume heißen ausdrücklich `audit_only`; weder sie noch PAGE_HOST oder\nsichtbare Komponenten dürfen einen Wert auf eine andere Tuple-ID übertragen.",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        }
+      ],
+      "remaining_gate": null
+    },
+    {
+      "decision_id": "S_RELATION_B_01_v1",
+      "verdict": "approve",
+      "relation": "alternative_to",
+      "member_ids": [
+        "SEM:f784f9aa56d490a48f7e",
+        "SEM:9463201c8ace50490712"
+      ],
+      "full_effective_propositions": [
+        {
+          "id": "SEM:f784f9aa56d490a48f7e",
+          "claim": "CTHY → reif",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "b1c491f3345bbe0371a4003c7d00174861caff3f7dcb8f5bddb38e6641db1806",
+          "effective_basis": "141e94b5a1423e3191ac5fe86196d2aa481e3700a6b6ec0cb10d11c3705eed0c",
+          "source_case_scopes": [
+            {
+              "case": "zwei atomare Rivalen",
+              "section": "Elf Karten / Exact-Card | Default | Klasse | zwei atomare Rivalen | n H/B | Confidence | Revisionskosten",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md"
+            }
+          ]
+        },
+        {
+          "id": "SEM:9463201c8ace50490712",
+          "claim": "CTHY → bereit",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "1e72d508ba6e27195ccf8578362ab0b712a43422611eb0d3dd07a6c234e5ba0b",
+          "effective_basis": "3a834e4b3de9b8da650bd1714ebb0ba6e7aabf7b410492b76f52c60b295b047a",
+          "source_case_scopes": [
+            {
+              "case": "V60_fixed_card_trial_with_contradictions",
+              "section": "Vollständiger Kontextdruck",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md"
+            },
+            {
+              "case": "Default",
+              "section": "Elf Karten / Exact-Card | Default | Klasse | zwei atomare Rivalen | n H/B | Confidence | Revisionskosten",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md"
+            }
+          ]
+        }
+      ],
+      "reason": "Approve the explicitly scoped historical rival relation: Ripe/mature is not the same condition as readiness. This records distinct proposals in the cited comparison, not logical incompatibility or a scientific outcome.",
+      "scope_applicability": "These are historical proposed readings, not established manuscript meanings. This relation supplies no scientific rejection, confirmation, reopening permission or inherited experiment status. The shared unit is the registered whole-card type, not an EVA substring or productive primitive. No transfer to another joint_tuple_id is inferred.",
+      "transitive_equivalence_conflict": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 31,
+          "quote": "| CTHY | bereit | Zustand | fertig · reif | 3/4 | 0.62 | 0 |",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 73,
+          "quote": "3. **CTHY — bereit.** Sechs von sieben Fällen stehen feldmittig, alle vor einem\n   Schluss. Lehrregel: Zustand, nicht Befehl. Widerspruch: Nur einmal folgt OR;\n   der eine offene Feldendfall trägt keine Zubereitungsfolge.",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 41,
+          "quote": "`H/B` zählt Herbal-/Biological-Vorkommen, nicht unabhängige Belege. Das\nWörterbuch bindet jeden Wert ausschließlich an die vollständige\n`joint_tuple_id`. Die in der Vorkommenstabelle mitgeführten Oberflächen und\nFormelbäume heißen ausdrücklich `audit_only`; weder sie noch PAGE_HOST oder\nsichtbare Komponenten dürfen einen Wert auf eine andere Tuple-ID übertragen.",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        }
+      ],
+      "remaining_gate": null
+    },
+    {
+      "decision_id": "S_RELATION_B_02_v1",
+      "verdict": "approve",
+      "relation": "alternative_to",
+      "member_ids": [
+        "SEM:fa303160fbc5ee4be2ba",
+        "SEM:9463201c8ace50490712"
+      ],
+      "full_effective_propositions": [
+        {
+          "id": "SEM:fa303160fbc5ee4be2ba",
+          "claim": "CTHY → DANN?",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "db6cd272b8f878c297fb3799805f444a2d53195af684b377fdc0ec0ce5783ea1",
+          "effective_basis": "c157fc3657be3c5f26bbc82c4679a5189ca218d1a43ece9af89f273b01fcd974",
+          "source_case_scopes": [
+            {
+              "case": "Zwei atomare Rivalen",
+              "section": "Entscheidungen / Karte | V60-Merker | Wortart/Funktion | Zwei atomare Rivalen | Entscheidung | Konfidenz | stärkster Allvorkommens-Gegenbeleg",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R2_HISTORICAL_FUNCTION_WORD_COMPETITION_REPORT.md"
+            }
+          ]
+        },
+        {
+          "id": "SEM:9463201c8ace50490712",
+          "claim": "CTHY → bereit",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "1e72d508ba6e27195ccf8578362ab0b712a43422611eb0d3dd07a6c234e5ba0b",
+          "effective_basis": "3a834e4b3de9b8da650bd1714ebb0ba6e7aabf7b410492b76f52c60b295b047a",
+          "source_case_scopes": [
+            {
+              "case": "V60_fixed_card_trial_with_contradictions",
+              "section": "Vollständiger Kontextdruck",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md"
+            },
+            {
+              "case": "Default",
+              "section": "Elf Karten / Exact-Card | Default | Klasse | zwei atomare Rivalen | n H/B | Confidence | Revisionskosten",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md"
+            }
+          ]
+        }
+      ],
+      "reason": "Approve the explicitly scoped historical rival relation: DANN is a temporal connective while BEREIT is a state. This records distinct proposals in the cited comparison, not logical incompatibility or a scientific outcome.",
+      "scope_applicability": "These are historical proposed readings, not established manuscript meanings. This relation supplies no scientific rejection, confirmation, reopening permission or inherited experiment status. The shared unit is the registered whole-card type, not an EVA substring or productive primitive. No transfer to another joint_tuple_id is inferred.",
+      "transitive_equivalence_conflict": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R2_HISTORICAL_FUNCTION_WORD_COMPETITION_REPORT.md",
+          "line": 35,
+          "quote": "| CTHY | BEREIT? | Zustandsadjektiv/Temporalprädikat | DANN?, FERTIG? | KEEP | .48 | Mehrere Belege liegen mitten im Ablauf, einmal sogar vor `OR`; ein rein formaler Statusslot bleibt fast gleich stark. |",
+          "sha256": "eae7d9225e61203f56f0a56100f70c813657819e06ca216390b917c515f69597"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 73,
+          "quote": "3. **CTHY — bereit.** Sechs von sieben Fällen stehen feldmittig, alle vor einem\n   Schluss. Lehrregel: Zustand, nicht Befehl. Widerspruch: Nur einmal folgt OR;\n   der eine offene Feldendfall trägt keine Zubereitungsfolge.",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 41,
+          "quote": "`H/B` zählt Herbal-/Biological-Vorkommen, nicht unabhängige Belege. Das\nWörterbuch bindet jeden Wert ausschließlich an die vollständige\n`joint_tuple_id`. Die in der Vorkommenstabelle mitgeführten Oberflächen und\nFormelbäume heißen ausdrücklich `audit_only`; weder sie noch PAGE_HOST oder\nsichtbare Komponenten dürfen einen Wert auf eine andere Tuple-ID übertragen.",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        }
+      ],
+      "remaining_gate": null
+    },
+    {
+      "decision_id": "S_RELATION_B_03_v1",
+      "verdict": "approve",
+      "relation": "alternative_to",
+      "member_ids": [
+        "SEM:84b1b17fedc124788627",
+        "SEM:9463201c8ace50490712"
+      ],
+      "full_effective_propositions": [
+        {
+          "id": "SEM:84b1b17fedc124788627",
+          "claim": "CTHY → FREIGABE?",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "9b5d7030d72e01b35bf6803af5fedc64f1f4ded942af0ea97943b66f40470eb2",
+          "effective_basis": "4cd0319ee6bcf9599a42c6f77f261907767c313f87cb721f7c014e0090da95a5",
+          "source_case_scopes": [
+            {
+              "case": "Technischer Default",
+              "section": "Entscheidungen / Karte | n | Technischer Default | Zwei Rivalen | Quellklasse / Zustandswirkung | Stärkster Widerspruch | Konfidenz",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R3_TECHNICAL_EXACT_CARD_REPORT.md"
+            }
+          ]
+        },
+        {
+          "id": "SEM:9463201c8ace50490712",
+          "claim": "CTHY → bereit",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "1e72d508ba6e27195ccf8578362ab0b712a43422611eb0d3dd07a6c234e5ba0b",
+          "effective_basis": "3a834e4b3de9b8da650bd1714ebb0ba6e7aabf7b410492b76f52c60b295b047a",
+          "source_case_scopes": [
+            {
+              "case": "V60_fixed_card_trial_with_contradictions",
+              "section": "Vollständiger Kontextdruck",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md"
+            },
+            {
+              "case": "Default",
+              "section": "Elf Karten / Exact-Card | Default | Klasse | zwei atomare Rivalen | n H/B | Confidence | Revisionskosten",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md"
+            }
+          ]
+        }
+      ],
+      "reason": "Approve the explicitly scoped historical rival relation: Release/permission adds authorization of a next step to a state description. This records distinct proposals in the cited comparison, not logical incompatibility or a scientific outcome.",
+      "scope_applicability": "These are historical proposed readings, not established manuscript meanings. This relation supplies no scientific rejection, confirmation, reopening permission or inherited experiment status. The shared unit is the registered whole-card type, not an EVA substring or productive primitive. No transfer to another joint_tuple_id is inferred.",
+      "transitive_equivalence_conflict": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R3_TECHNICAL_EXACT_CARD_REPORT.md",
+          "line": 23,
+          "quote": "| CTHY | 7 | `FREIGABE?` | `BEREIT?`, `HALTEN?` | Zustands-Gate; markiere bereit und erlaube den Folgeschritt | Sechs von sieben Belegen sind medial und könnten bloßer Verbinder sein | 0,61 |",
+          "sha256": "6f943caad4300b135b8efd096c79c16deeaa49bff5cb323dc29d513c3793842d"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 73,
+          "quote": "3. **CTHY — bereit.** Sechs von sieben Fällen stehen feldmittig, alle vor einem\n   Schluss. Lehrregel: Zustand, nicht Befehl. Widerspruch: Nur einmal folgt OR;\n   der eine offene Feldendfall trägt keine Zubereitungsfolge.",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 41,
+          "quote": "`H/B` zählt Herbal-/Biological-Vorkommen, nicht unabhängige Belege. Das\nWörterbuch bindet jeden Wert ausschließlich an die vollständige\n`joint_tuple_id`. Die in der Vorkommenstabelle mitgeführten Oberflächen und\nFormelbäume heißen ausdrücklich `audit_only`; weder sie noch PAGE_HOST oder\nsichtbare Komponenten dürfen einen Wert auf eine andere Tuple-ID übertragen.",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        }
+      ],
+      "remaining_gate": null
+    },
+    {
+      "decision_id": "S_RELATION_B_04_v1",
+      "verdict": "approve",
+      "relation": "alternative_to",
+      "member_ids": [
+        "SEM:9df0d7545f84e4ff17eb",
+        "SEM:9463201c8ace50490712"
+      ],
+      "full_effective_propositions": [
+        {
+          "id": "SEM:9df0d7545f84e4ff17eb",
+          "claim": "CTHY → HALTEN?",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "da5dd28c43a321171abc691d2dc59f6f5dde7ca2cfb365c2cefbe00a3980ceb4",
+          "effective_basis": "9a67975a20cb1184f459812894d443137de0427b009f3ca82e49f7ccf0395b89",
+          "source_case_scopes": [
+            {
+              "case": "Zwei Rivalen",
+              "section": "Entscheidungen / Karte | n | Technischer Default | Zwei Rivalen | Quellklasse / Zustandswirkung | Stärkster Widerspruch | Konfidenz",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R3_TECHNICAL_EXACT_CARD_REPORT.md"
+            }
+          ]
+        },
+        {
+          "id": "SEM:9463201c8ace50490712",
+          "claim": "CTHY → bereit",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "1e72d508ba6e27195ccf8578362ab0b712a43422611eb0d3dd07a6c234e5ba0b",
+          "effective_basis": "3a834e4b3de9b8da650bd1714ebb0ba6e7aabf7b410492b76f52c60b295b047a",
+          "source_case_scopes": [
+            {
+              "case": "V60_fixed_card_trial_with_contradictions",
+              "section": "Vollständiger Kontextdruck",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md"
+            },
+            {
+              "case": "Default",
+              "section": "Elf Karten / Exact-Card | Default | Klasse | zwei atomare Rivalen | n H/B | Confidence | Revisionskosten",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md"
+            }
+          ]
+        }
+      ],
+      "reason": "Approve the explicitly scoped historical rival relation: Hold is an action, ready a state. This records distinct proposals in the cited comparison, not logical incompatibility or a scientific outcome.",
+      "scope_applicability": "These are historical proposed readings, not established manuscript meanings. This relation supplies no scientific rejection, confirmation, reopening permission or inherited experiment status. The shared unit is the registered whole-card type, not an EVA substring or productive primitive. No transfer to another joint_tuple_id is inferred.",
+      "transitive_equivalence_conflict": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R3_TECHNICAL_EXACT_CARD_REPORT.md",
+          "line": 23,
+          "quote": "| CTHY | 7 | `FREIGABE?` | `BEREIT?`, `HALTEN?` | Zustands-Gate; markiere bereit und erlaube den Folgeschritt | Sechs von sieben Belegen sind medial und könnten bloßer Verbinder sein | 0,61 |",
+          "sha256": "6f943caad4300b135b8efd096c79c16deeaa49bff5cb323dc29d513c3793842d"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 73,
+          "quote": "3. **CTHY — bereit.** Sechs von sieben Fällen stehen feldmittig, alle vor einem\n   Schluss. Lehrregel: Zustand, nicht Befehl. Widerspruch: Nur einmal folgt OR;\n   der eine offene Feldendfall trägt keine Zubereitungsfolge.",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 41,
+          "quote": "`H/B` zählt Herbal-/Biological-Vorkommen, nicht unabhängige Belege. Das\nWörterbuch bindet jeden Wert ausschließlich an die vollständige\n`joint_tuple_id`. Die in der Vorkommenstabelle mitgeführten Oberflächen und\nFormelbäume heißen ausdrücklich `audit_only`; weder sie noch PAGE_HOST oder\nsichtbare Komponenten dürfen einen Wert auf eine andere Tuple-ID übertragen.",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        }
+      ],
+      "remaining_gate": null
+    },
+    {
+      "decision_id": "S_RELATION_B_09_v1",
+      "verdict": "approve",
+      "relation": "alternative_to",
+      "member_ids": [
+        "SEM:08bf7e0793a6642191e8",
+        "SEM:9b06f4391c1b93e4c34d"
+      ],
+      "full_effective_propositions": [
+        {
+          "id": "SEM:08bf7e0793a6642191e8",
+          "claim": "OKE → spülen",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "3a4bf0e6c75c2881428d61d6b800c03045ddc595fade1e050228d05901e4267b",
+          "effective_basis": "67ac03a920b0a29e332519b48e5c8b2070f6926fedc17b46be263609e5091341",
+          "source_case_scopes": [
+            {
+              "case": "Default",
+              "section": "Elf Karten / Exact-Card | Default | Klasse | zwei atomare Rivalen | n H/B | Confidence | Revisionskosten",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md"
+            },
+            {
+              "case": "V60_fixed_card_trial_with_contradictions",
+              "section": "Vollständiger Kontextdruck",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md"
+            }
+          ]
+        },
+        {
+          "id": "SEM:9b06f4391c1b93e4c34d",
+          "claim": "OKE → WASCHEN?",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "ed580698cda177f73ee62c11fdc2aabb3da4c7d74c1868da7261d2bcdb31d8c3",
+          "effective_basis": "b8f67289b1b293cc8dfd0a6aee32a0712f0666eb9b1306680608d5b153058462",
+          "source_case_scopes": [
+            {
+              "case": "Zwei atomare Rivalen",
+              "section": "Entscheidungen / Karte | V60-Merker | Wortart/Funktion | Zwei atomare Rivalen | Entscheidung | Konfidenz | stärkster Allvorkommens-Gegenbeleg",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R2_HISTORICAL_FUNCTION_WORD_COMPETITION_REPORT.md"
+            }
+          ]
+        }
+      ],
+      "reason": "Approve the explicitly scoped historical rival relation: Rinsing and washing remain explicitly named rival actions. This records distinct proposals in the cited comparison, not logical incompatibility or a scientific outcome.",
+      "scope_applicability": "These are historical proposed readings, not established manuscript meanings. This relation supplies no scientific rejection, confirmation, reopening permission or inherited experiment status. The shared unit is the registered whole-card type, not an EVA substring or productive primitive. No transfer to another joint_tuple_id is inferred.",
+      "transitive_equivalence_conflict": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 38,
+          "quote": "| OKE | spülen | Verb | reinigen · beenden | 0/8 | 0.35 | 0 |",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R2_HISTORICAL_FUNCTION_WORD_COMPETITION_REPORT.md",
+          "line": 42,
+          "quote": "| OKE | SPÜLEN? | terminales Handlungsverb | WASCHEN?, SCHLIESSEN? | KEEP | .31 | Alle 8/8 Belege sind formal `CLOSE`; Tätigkeit und bloßer Schlusswert sind vollständig konfundiert. |",
+          "sha256": "eae7d9225e61203f56f0a56100f70c813657819e06ca216390b917c515f69597"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 41,
+          "quote": "`H/B` zählt Herbal-/Biological-Vorkommen, nicht unabhängige Belege. Das\nWörterbuch bindet jeden Wert ausschließlich an die vollständige\n`joint_tuple_id`. Die in der Vorkommenstabelle mitgeführten Oberflächen und\nFormelbäume heißen ausdrücklich `audit_only`; weder sie noch PAGE_HOST oder\nsichtbare Komponenten dürfen einen Wert auf eine andere Tuple-ID übertragen.",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        }
+      ],
+      "remaining_gate": null
+    },
+    {
+      "decision_id": "S_RELATION_B_10_v1",
+      "verdict": "approve",
+      "relation": "alternative_to",
+      "member_ids": [
+        "SEM:08bf7e0793a6642191e8",
+        "SEM:0c5de9024eb48194e7fe"
+      ],
+      "full_effective_propositions": [
+        {
+          "id": "SEM:08bf7e0793a6642191e8",
+          "claim": "OKE → spülen",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "3a4bf0e6c75c2881428d61d6b800c03045ddc595fade1e050228d05901e4267b",
+          "effective_basis": "67ac03a920b0a29e332519b48e5c8b2070f6926fedc17b46be263609e5091341",
+          "source_case_scopes": [
+            {
+              "case": "Default",
+              "section": "Elf Karten / Exact-Card | Default | Klasse | zwei atomare Rivalen | n H/B | Confidence | Revisionskosten",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md"
+            },
+            {
+              "case": "V60_fixed_card_trial_with_contradictions",
+              "section": "Vollständiger Kontextdruck",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md"
+            }
+          ]
+        },
+        {
+          "id": "SEM:0c5de9024eb48194e7fe",
+          "claim": "OKE → SCHLIESSEN?",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "97fe424ddd3389b12724c681198e394dd6cb7c91f4014cb7aa48ece7fe415586",
+          "effective_basis": "00c41f08548919ac3f5570565649f56a9e72fb1ed627fb123a68765b75506e7a",
+          "source_case_scopes": [
+            {
+              "case": "Zwei atomare Rivalen",
+              "section": "Entscheidungen / Karte | V60-Merker | Wortart/Funktion | Zwei atomare Rivalen | Entscheidung | Konfidenz | stärkster Allvorkommens-Gegenbeleg",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R2_HISTORICAL_FUNCTION_WORD_COMPETITION_REPORT.md"
+            }
+          ]
+        }
+      ],
+      "reason": "Approve the explicitly scoped historical rival relation: Rinsing is not a bare close value; terminal position confounds their proposed functions. This records distinct proposals in the cited comparison, not logical incompatibility or a scientific outcome.",
+      "scope_applicability": "These are historical proposed readings, not established manuscript meanings. This relation supplies no scientific rejection, confirmation, reopening permission or inherited experiment status. The shared unit is the registered whole-card type, not an EVA substring or productive primitive. No transfer to another joint_tuple_id is inferred.",
+      "transitive_equivalence_conflict": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 38,
+          "quote": "| OKE | spülen | Verb | reinigen · beenden | 0/8 | 0.35 | 0 |",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R2_HISTORICAL_FUNCTION_WORD_COMPETITION_REPORT.md",
+          "line": 42,
+          "quote": "| OKE | SPÜLEN? | terminales Handlungsverb | WASCHEN?, SCHLIESSEN? | KEEP | .31 | Alle 8/8 Belege sind formal `CLOSE`; Tätigkeit und bloßer Schlusswert sind vollständig konfundiert. |",
+          "sha256": "eae7d9225e61203f56f0a56100f70c813657819e06ca216390b917c515f69597"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 41,
+          "quote": "`H/B` zählt Herbal-/Biological-Vorkommen, nicht unabhängige Belege. Das\nWörterbuch bindet jeden Wert ausschließlich an die vollständige\n`joint_tuple_id`. Die in der Vorkommenstabelle mitgeführten Oberflächen und\nFormelbäume heißen ausdrücklich `audit_only`; weder sie noch PAGE_HOST oder\nsichtbare Komponenten dürfen einen Wert auf eine andere Tuple-ID übertragen.",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        }
+      ],
+      "remaining_gate": null
+    },
+    {
+      "decision_id": "S_RELATION_B_11_v1",
+      "verdict": "approve",
+      "relation": "alternative_to",
+      "member_ids": [
+        "SEM:08bf7e0793a6642191e8",
+        "SEM:fb693942a2fde030a42b"
+      ],
+      "full_effective_propositions": [
+        {
+          "id": "SEM:08bf7e0793a6642191e8",
+          "claim": "OKE → spülen",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "3a4bf0e6c75c2881428d61d6b800c03045ddc595fade1e050228d05901e4267b",
+          "effective_basis": "67ac03a920b0a29e332519b48e5c8b2070f6926fedc17b46be263609e5091341",
+          "source_case_scopes": [
+            {
+              "case": "Default",
+              "section": "Elf Karten / Exact-Card | Default | Klasse | zwei atomare Rivalen | n H/B | Confidence | Revisionskosten",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md"
+            },
+            {
+              "case": "V60_fixed_card_trial_with_contradictions",
+              "section": "Vollständiger Kontextdruck",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md"
+            }
+          ]
+        },
+        {
+          "id": "SEM:fb693942a2fde030a42b",
+          "claim": "OKE → UMWÄLZEN?",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "d2e3769064a48cd356766aeff29b12bed6fecddcade4da0ecd99b166db4df749",
+          "effective_basis": "c154864e410368e78af30822ea36297bf5193cb24dce239c0852426f33eb857b",
+          "source_case_scopes": [
+            {
+              "case": "Zwei Rivalen",
+              "section": "Entscheidungen / Karte | n | Technischer Default | Zwei Rivalen | Quellklasse / Zustandswirkung | Stärkster Widerspruch | Konfidenz",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R3_TECHNICAL_EXACT_CARD_REPORT.md"
+            }
+          ]
+        }
+      ],
+      "reason": "Approve the explicitly scoped historical rival relation: Rinsing and circulation are different proposed operations. This records distinct proposals in the cited comparison, not logical incompatibility or a scientific outcome.",
+      "scope_applicability": "These are historical proposed readings, not established manuscript meanings. This relation supplies no scientific rejection, confirmation, reopening permission or inherited experiment status. The shared unit is the registered whole-card type, not an EVA substring or productive primitive. No transfer to another joint_tuple_id is inferred.",
+      "transitive_equivalence_conflict": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 38,
+          "quote": "| OKE | spülen | Verb | reinigen · beenden | 0/8 | 0.35 | 0 |",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R3_TECHNICAL_EXACT_CARD_REPORT.md",
+          "line": 30,
+          "quote": "| OKE | 8 | `SPÜLEN?` | `REINIGEN?`, `UMWÄLZEN?` | Spülaktion; markiere gespült, dann formaler Commit | Alle acht Belege sind terminal; Semantik ist nicht von `CLOSE` isolierbar | 0,46 |",
+          "sha256": "6f943caad4300b135b8efd096c79c16deeaa49bff5cb323dc29d513c3793842d"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 41,
+          "quote": "`H/B` zählt Herbal-/Biological-Vorkommen, nicht unabhängige Belege. Das\nWörterbuch bindet jeden Wert ausschließlich an die vollständige\n`joint_tuple_id`. Die in der Vorkommenstabelle mitgeführten Oberflächen und\nFormelbäume heißen ausdrücklich `audit_only`; weder sie noch PAGE_HOST oder\nsichtbare Komponenten dürfen einen Wert auf eine andere Tuple-ID übertragen.",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        }
+      ],
+      "remaining_gate": null
+    },
+    {
+      "decision_id": "S_RELATION_B_16_v1",
+      "verdict": "approve",
+      "relation": "alternative_to",
+      "member_ids": [
+        "SEM:33ae7e5be5f751747493",
+        "SEM:7435937b89651fba48e1"
+      ],
+      "full_effective_propositions": [
+        {
+          "id": "SEM:33ae7e5be5f751747493",
+          "claim": "OKEEY → NACHFÜLLEN?",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "2213309607f52f50c4156c953c1e044d36433b4d9da0cef6e832efc8feb87c15",
+          "effective_basis": "e38ef1bc8ddfeff7d1f2e614f70d7a82b3e9792436633b67f1c33524b5de8bd0",
+          "source_case_scopes": [
+            {
+              "case": "Zwei Rivalen",
+              "section": "Entscheidungen / Karte | n | Technischer Default | Zwei Rivalen | Quellklasse / Zustandswirkung | Stärkster Widerspruch | Konfidenz",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R3_TECHNICAL_EXACT_CARD_REPORT.md"
+            }
+          ]
+        },
+        {
+          "id": "SEM:7435937b89651fba48e1",
+          "claim": "OKEEY → TEMPERIEREN?",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "f2ced784c97025ca38f0030e0c4ef1c52a3f557a2031956067819d34877e27d6",
+          "effective_basis": "d280b986771b97cf2f8284b8b9312c9847dc94a404f0e6a109e6be92f3c25242",
+          "source_case_scopes": [
+            {
+              "case": "Technischer Default",
+              "section": "Entscheidungen / Karte | n | Technischer Default | Zwei Rivalen | Quellklasse / Zustandswirkung | Stärkster Widerspruch | Konfidenz",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R3_TECHNICAL_EXACT_CARD_REPORT.md"
+            },
+            {
+              "case": "V60-R4-Wert",
+              "section": "Revidiertes Kurzdeck / Karte | Quellklasse | V60-R4-Wert | härtester Rivale",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/CANDIDATE_V60_R4_CHANCERY_CORRECTOR.md"
+            }
+          ]
+        }
+      ],
+      "reason": "Approve the explicitly scoped historical rival relation: Refilling concerns amount/material; tempering concerns temperature. This records distinct proposals in the cited comparison, not logical incompatibility or a scientific outcome.",
+      "scope_applicability": "These are historical proposed readings, not established manuscript meanings. This relation supplies no scientific rejection, confirmation, reopening permission or inherited experiment status. The shared unit is the registered whole-card type, not an EVA substring or productive primitive. No transfer to another joint_tuple_id is inferred.",
+      "transitive_equivalence_conflict": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R3_TECHNICAL_EXACT_CARD_REPORT.md",
+          "line": 29,
+          "quote": "| OKEEY | 7 | `TEMPERIEREN?` | `WARMHALTEN?`, `NACHFÜLLEN?` | Temperaturkontrolle; setze Arbeitsband | Keine Skala oder unabhängige Wärmereferenz; nur Bio-Belege | 0,69 |",
+          "sha256": "6f943caad4300b135b8efd096c79c16deeaa49bff5cb323dc29d513c3793842d"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 41,
+          "quote": "`H/B` zählt Herbal-/Biological-Vorkommen, nicht unabhängige Belege. Das\nWörterbuch bindet jeden Wert ausschließlich an die vollständige\n`joint_tuple_id`. Die in der Vorkommenstabelle mitgeführten Oberflächen und\nFormelbäume heißen ausdrücklich `audit_only`; weder sie noch PAGE_HOST oder\nsichtbare Komponenten dürfen einen Wert auf eine andere Tuple-ID übertragen.",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        }
+      ],
+      "remaining_gate": null
+    },
+    {
+      "decision_id": "S_RELATION_B_17_v1",
+      "verdict": "approve",
+      "relation": "alternative_to",
+      "member_ids": [
+        "SEM:3b7e0bbed92f12eb0a26",
+        "SEM:b9e6d625631606b62761"
+      ],
+      "full_effective_propositions": [
+        {
+          "id": "SEM:3b7e0bbed92f12eb0a26",
+          "claim": "M02 treats chor as flower and shor as seed or fruit.",
+          "claim_type": "semantic_model",
+          "card_basis": "a28f8f37b0b3fea3e1b0d252a671659f18281e21b67965b40fb8a83ecc2e2bc3",
+          "effective_basis": "71705329c6bb4b263a22a4126b2b88afa4532e34dcf057b02a588ebdd4329e81",
+          "source_case_scopes": [
+            {
+              "case": "explicit_prose_model",
+              "section": "Five fixed models and scoring",
+              "source": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/METHOD.md"
+            }
+          ]
+        },
+        {
+          "id": "SEM:b9e6d625631606b62761",
+          "claim": "M03: chor seed/fruit and shor flower reverse the distinct-part assignment.",
+          "claim_type": "semantic_model",
+          "card_basis": "160893e746d257cc32a929c04a48c3fd3c02014e658635be6c42ff593dde6282",
+          "effective_basis": "b988738ff6914e012a78993b79ddf495f6ae550ba6f46fd22ef4671a24f4abca",
+          "source_case_scopes": [
+            {
+              "section": "Fixed models",
+              "source": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/PREREGISTRATION.md"
+            }
+          ]
+        }
+      ],
+      "reason": "Approve the explicitly scoped historical rival relation: M02 and M03 reverse lexical assignments; identical observation scores do not make these propositions equivalent. This records distinct proposals in the cited comparison, not logical incompatibility or a scientific outcome.",
+      "scope_applicability": "These are historical proposed readings, not established manuscript meanings. This relation supplies no scientific rejection, confirmation, reopening permission or inherited experiment status. These are the complete fixed GDT768 model propositions. M05 is a competing opaque-role account, not the logical negation of a material interpretation. M02/M03 scores were tied; no direction was established.",
+      "transitive_equivalence_conflict": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/METHOD.md",
+          "line": 119,
+          "quote": "2. M02: `chor` flower, `shor` seed/fruit;",
+          "sha256": "fced688d624a763d7149183f6b8f7681e6747c0f88610f1e626e829f9c1be19f"
+        },
+        {
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/PREREGISTRATION.md",
+          "line": 30,
+          "quote": "| ID | relation | concrete direction under test |\n|---|---|---|\n| M01 | two state forms of one reproductive part | `chor` dry, `shor` moist |\n| M02 | two distinct reproductive parts | `chor` flower, `shor` seed/fruit |\n| M03 | two distinct reproductive parts | `chor` seed/fruit, `shor` flower |\n| M04 | hierarchical general-to-specific pair | `chor` general herb, `shor` reproductive part |\n| M05 | two opaque learned record wholes | identities remain different and open |",
+          "sha256": "fd08255d615fdfe9effbe5bf9ccef03e130d3dee76f2804a0f4da2b3ba0ea7c4"
+        },
+        {
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/METHOD.md",
+          "line": 132,
+          "quote": "Unknown identity never helps M05. Historical and visual priors are explicit\nand bounded. M02 and M03 receive identical evidence because the admitted\nobservations contain no directional discriminator.\n\nA high score alone cannot replace a dictionary default. M01 additionally\nrequires persistent opposite state polarity; M04 requires exposure-controlled\n`chor` breadth; M05 requires two stable divergence channels. M02 or M03 needs\ntwo independent directional contrasts and a lead of at least 0.10 over its\nreverse. When they tie, their shared two-part relation may be retained, but",
+          "sha256": "fced688d624a763d7149183f6b8f7681e6747c0f88610f1e626e829f9c1be19f"
+        }
+      ],
+      "remaining_gate": null
+    },
+    {
+      "decision_id": "S_RELATION_B_18_v1",
+      "verdict": "approve",
+      "relation": "alternative_to",
+      "member_ids": [
+        "SEM:2469f26ba5b615b52f13",
+        "SEM:3b7e0bbed92f12eb0a26"
+      ],
+      "full_effective_propositions": [
+        {
+          "id": "SEM:2469f26ba5b615b52f13",
+          "claim": "M01 treats chor and shor as dry and moist forms of the same reproductive plant part.",
+          "claim_type": "semantic_model",
+          "card_basis": "4edca9d355d70abe527655ddce2576fac2fe33b965a7cb7ba83b2fae8c17e5e8",
+          "effective_basis": "8845fd19ab0f556e3f3cb8ea6af05f5a15efca11f53de88929f574bfd12b1c87",
+          "source_case_scopes": [
+            {
+              "case": "explicit_prose_model",
+              "section": "Five fixed models and scoring",
+              "source": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/METHOD.md"
+            }
+          ]
+        },
+        {
+          "id": "SEM:3b7e0bbed92f12eb0a26",
+          "claim": "M02 treats chor as flower and shor as seed or fruit.",
+          "claim_type": "semantic_model",
+          "card_basis": "a28f8f37b0b3fea3e1b0d252a671659f18281e21b67965b40fb8a83ecc2e2bc3",
+          "effective_basis": "71705329c6bb4b263a22a4126b2b88afa4532e34dcf057b02a588ebdd4329e81",
+          "source_case_scopes": [
+            {
+              "case": "explicit_prose_model",
+              "section": "Five fixed models and scoring",
+              "source": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/METHOD.md"
+            }
+          ]
+        }
+      ],
+      "reason": "Approve the explicitly scoped historical rival relation: M01 proposes states of one part; M02 distinct parts. This records distinct proposals in the cited comparison, not logical incompatibility or a scientific outcome.",
+      "scope_applicability": "These are historical proposed readings, not established manuscript meanings. This relation supplies no scientific rejection, confirmation, reopening permission or inherited experiment status. These are the complete fixed GDT768 model propositions. M05 is a competing opaque-role account, not the logical negation of a material interpretation. M02/M03 scores were tied; no direction was established.",
+      "transitive_equivalence_conflict": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/METHOD.md",
+          "line": 118,
+          "quote": "1. M01: dry and moist forms of the same reproductive part;",
+          "sha256": "fced688d624a763d7149183f6b8f7681e6747c0f88610f1e626e829f9c1be19f"
+        },
+        {
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/METHOD.md",
+          "line": 119,
+          "quote": "2. M02: `chor` flower, `shor` seed/fruit;",
+          "sha256": "fced688d624a763d7149183f6b8f7681e6747c0f88610f1e626e829f9c1be19f"
+        },
+        {
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/PREREGISTRATION.md",
+          "line": 30,
+          "quote": "| ID | relation | concrete direction under test |\n|---|---|---|\n| M01 | two state forms of one reproductive part | `chor` dry, `shor` moist |\n| M02 | two distinct reproductive parts | `chor` flower, `shor` seed/fruit |\n| M03 | two distinct reproductive parts | `chor` seed/fruit, `shor` flower |\n| M04 | hierarchical general-to-specific pair | `chor` general herb, `shor` reproductive part |\n| M05 | two opaque learned record wholes | identities remain different and open |",
+          "sha256": "fd08255d615fdfe9effbe5bf9ccef03e130d3dee76f2804a0f4da2b3ba0ea7c4"
+        },
+        {
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/METHOD.md",
+          "line": 132,
+          "quote": "Unknown identity never helps M05. Historical and visual priors are explicit\nand bounded. M02 and M03 receive identical evidence because the admitted\nobservations contain no directional discriminator.\n\nA high score alone cannot replace a dictionary default. M01 additionally\nrequires persistent opposite state polarity; M04 requires exposure-controlled\n`chor` breadth; M05 requires two stable divergence channels. M02 or M03 needs\ntwo independent directional contrasts and a lead of at least 0.10 over its\nreverse. When they tie, their shared two-part relation may be retained, but",
+          "sha256": "fced688d624a763d7149183f6b8f7681e6747c0f88610f1e626e829f9c1be19f"
+        }
+      ],
+      "remaining_gate": null
+    },
+    {
+      "decision_id": "S_RELATION_B_19_v1",
+      "verdict": "approve",
+      "relation": "alternative_to",
+      "member_ids": [
+        "SEM:a22b1b5d720e78b3fe62",
+        "SEM:3b7e0bbed92f12eb0a26"
+      ],
+      "full_effective_propositions": [
+        {
+          "id": "SEM:a22b1b5d720e78b3fe62",
+          "claim": "M04 treats chor as general herb and shor as a reproductive plant part.",
+          "claim_type": "semantic_model",
+          "card_basis": "f7d19ee75c45af380334d3911a7c54ed748036b53ba1911bf63d2e6c67d4b6f4",
+          "effective_basis": "d5a7948feb01e7c2905b0d06ed2e91f4f355bc649de5316c4b3bca68b785c2e2",
+          "source_case_scopes": [
+            {
+              "case": "explicit_prose_model",
+              "section": "Five fixed models and scoring",
+              "source": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/METHOD.md"
+            }
+          ]
+        },
+        {
+          "id": "SEM:3b7e0bbed92f12eb0a26",
+          "claim": "M02 treats chor as flower and shor as seed or fruit.",
+          "claim_type": "semantic_model",
+          "card_basis": "a28f8f37b0b3fea3e1b0d252a671659f18281e21b67965b40fb8a83ecc2e2bc3",
+          "effective_basis": "71705329c6bb4b263a22a4126b2b88afa4532e34dcf057b02a588ebdd4329e81",
+          "source_case_scopes": [
+            {
+              "case": "explicit_prose_model",
+              "section": "Five fixed models and scoring",
+              "source": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/METHOD.md"
+            }
+          ]
+        }
+      ],
+      "reason": "Approve the explicitly scoped historical rival relation: General-to-specific hierarchy differs from two parallel reproductive parts. This records distinct proposals in the cited comparison, not logical incompatibility or a scientific outcome.",
+      "scope_applicability": "These are historical proposed readings, not established manuscript meanings. This relation supplies no scientific rejection, confirmation, reopening permission or inherited experiment status. These are the complete fixed GDT768 model propositions. M05 is a competing opaque-role account, not the logical negation of a material interpretation. M02/M03 scores were tied; no direction was established.",
+      "transitive_equivalence_conflict": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/METHOD.md",
+          "line": 121,
+          "quote": "4. M04: `chor` general herb, `shor` reproductive part;",
+          "sha256": "fced688d624a763d7149183f6b8f7681e6747c0f88610f1e626e829f9c1be19f"
+        },
+        {
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/METHOD.md",
+          "line": 119,
+          "quote": "2. M02: `chor` flower, `shor` seed/fruit;",
+          "sha256": "fced688d624a763d7149183f6b8f7681e6747c0f88610f1e626e829f9c1be19f"
+        },
+        {
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/PREREGISTRATION.md",
+          "line": 30,
+          "quote": "| ID | relation | concrete direction under test |\n|---|---|---|\n| M01 | two state forms of one reproductive part | `chor` dry, `shor` moist |\n| M02 | two distinct reproductive parts | `chor` flower, `shor` seed/fruit |\n| M03 | two distinct reproductive parts | `chor` seed/fruit, `shor` flower |\n| M04 | hierarchical general-to-specific pair | `chor` general herb, `shor` reproductive part |\n| M05 | two opaque learned record wholes | identities remain different and open |",
+          "sha256": "fd08255d615fdfe9effbe5bf9ccef03e130d3dee76f2804a0f4da2b3ba0ea7c4"
+        },
+        {
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/METHOD.md",
+          "line": 132,
+          "quote": "Unknown identity never helps M05. Historical and visual priors are explicit\nand bounded. M02 and M03 receive identical evidence because the admitted\nobservations contain no directional discriminator.\n\nA high score alone cannot replace a dictionary default. M01 additionally\nrequires persistent opposite state polarity; M04 requires exposure-controlled\n`chor` breadth; M05 requires two stable divergence channels. M02 or M03 needs\ntwo independent directional contrasts and a lead of at least 0.10 over its\nreverse. When they tie, their shared two-part relation may be retained, but",
+          "sha256": "fced688d624a763d7149183f6b8f7681e6747c0f88610f1e626e829f9c1be19f"
+        }
+      ],
+      "remaining_gate": null
+    },
+    {
+      "decision_id": "S_RELATION_B_20_v1",
+      "verdict": "approve",
+      "relation": "alternative_to",
+      "member_ids": [
+        "SEM:39c657e0ba2711d7df83",
+        "SEM:3b7e0bbed92f12eb0a26"
+      ],
+      "full_effective_propositions": [
+        {
+          "id": "SEM:39c657e0ba2711d7df83",
+          "claim": "M05 treats chor and shor as two role-distinct learned wholes.",
+          "claim_type": "semantic_model",
+          "card_basis": "12b878c5b22768302aeb0e5a0d7ef154a4d2ec8e15781a4a9f184da1c4c17275",
+          "effective_basis": "0dd0b0fa6b242d6298240669b6de7de381c3f8bbc5c05f1593e3292343f92628",
+          "source_case_scopes": [
+            {
+              "case": "explicit_prose_model",
+              "section": "Five fixed models and scoring",
+              "source": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/METHOD.md"
+            }
+          ]
+        },
+        {
+          "id": "SEM:3b7e0bbed92f12eb0a26",
+          "claim": "M02 treats chor as flower and shor as seed or fruit.",
+          "claim_type": "semantic_model",
+          "card_basis": "a28f8f37b0b3fea3e1b0d252a671659f18281e21b67965b40fb8a83ecc2e2bc3",
+          "effective_basis": "71705329c6bb4b263a22a4126b2b88afa4532e34dcf057b02a588ebdd4329e81",
+          "source_case_scopes": [
+            {
+              "case": "explicit_prose_model",
+              "section": "Five fixed models and scoring",
+              "source": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/METHOD.md"
+            }
+          ]
+        }
+      ],
+      "reason": "Approve the explicitly scoped historical rival relation: Opaque learned roles do not assert the flower/seed content model. This records distinct proposals in the cited comparison, not logical incompatibility or a scientific outcome.",
+      "scope_applicability": "These are historical proposed readings, not established manuscript meanings. This relation supplies no scientific rejection, confirmation, reopening permission or inherited experiment status. These are the complete fixed GDT768 model propositions. M05 is a competing opaque-role account, not the logical negation of a material interpretation. M02/M03 scores were tied; no direction was established.",
+      "transitive_equivalence_conflict": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/METHOD.md",
+          "line": 122,
+          "quote": "5. M05: two role-distinct learned wholes.",
+          "sha256": "fced688d624a763d7149183f6b8f7681e6747c0f88610f1e626e829f9c1be19f"
+        },
+        {
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/METHOD.md",
+          "line": 119,
+          "quote": "2. M02: `chor` flower, `shor` seed/fruit;",
+          "sha256": "fced688d624a763d7149183f6b8f7681e6747c0f88610f1e626e829f9c1be19f"
+        },
+        {
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/PREREGISTRATION.md",
+          "line": 30,
+          "quote": "| ID | relation | concrete direction under test |\n|---|---|---|\n| M01 | two state forms of one reproductive part | `chor` dry, `shor` moist |\n| M02 | two distinct reproductive parts | `chor` flower, `shor` seed/fruit |\n| M03 | two distinct reproductive parts | `chor` seed/fruit, `shor` flower |\n| M04 | hierarchical general-to-specific pair | `chor` general herb, `shor` reproductive part |\n| M05 | two opaque learned record wholes | identities remain different and open |",
+          "sha256": "fd08255d615fdfe9effbe5bf9ccef03e130d3dee76f2804a0f4da2b3ba0ea7c4"
+        },
+        {
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/METHOD.md",
+          "line": 132,
+          "quote": "Unknown identity never helps M05. Historical and visual priors are explicit\nand bounded. M02 and M03 receive identical evidence because the admitted\nobservations contain no directional discriminator.\n\nA high score alone cannot replace a dictionary default. M01 additionally\nrequires persistent opposite state polarity; M04 requires exposure-controlled\n`chor` breadth; M05 requires two stable divergence channels. M02 or M03 needs\ntwo independent directional contrasts and a lead of at least 0.10 over its\nreverse. When they tie, their shared two-part relation may be retained, but",
+          "sha256": "fced688d624a763d7149183f6b8f7681e6747c0f88610f1e626e829f9c1be19f"
+        }
+      ],
+      "remaining_gate": null
+    },
+    {
+      "decision_id": "S_RELATION_B_28_v1",
+      "verdict": "uncertain",
+      "relation": "specializes",
+      "member_ids": [
+        "SEM:f65a7ab53b3385123b6b",
+        "SEM:08bf7e0793a6642191e8"
+      ],
+      "full_effective_propositions": [
+        {
+          "id": "SEM:f65a7ab53b3385123b6b",
+          "claim": "OKE → spüle die bezeichnete Stelle einmal und beende den Schritt",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "4d9cd439ec2d11318cb660e6a221559b42f777b2476987d3b76d0a57da3bcd78",
+          "effective_basis": "85fa9da7965d13571e1b2514368f837338dbc8431b2d633f73ae94ec9b6737d6",
+          "source_case_scopes": [
+            {
+              "kind": "source_bound_working_hypothesis",
+              "parent_gdt": null,
+              "section": "Alle neun Karten und ihre lokalen Defaults",
+              "semantic_column": "unveränderte lokale V49-Expansion",
+              "source": "experiments/yolo/sidequest_theory_candidates_v51/V51_R1_WHOLE_CARD_REPORT.md"
+            }
+          ]
+        },
+        {
+          "id": "SEM:08bf7e0793a6642191e8",
+          "claim": "OKE → spülen",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "3a4bf0e6c75c2881428d61d6b800c03045ddc595fade1e050228d05901e4267b",
+          "effective_basis": "67ac03a920b0a29e332519b48e5c8b2070f6926fedc17b46be263609e5091341",
+          "source_case_scopes": [
+            {
+              "case": "Default",
+              "section": "Elf Karten / Exact-Card | Default | Klasse | zwei atomare Rivalen | n H/B | Confidence | Revisionskosten",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md"
+            },
+            {
+              "case": "V60_fixed_card_trial_with_contradictions",
+              "section": "Vollständiger Kontextdruck",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md"
+            }
+          ]
+        }
+      ],
+      "reason": "The complete longer instruction contains the short action as a genuine subclaim, not just a shared topic. However, V51 and V60 bind to opaque whole-card identities. The cited prose provides labels and matching counts but not the exact cross-version identity bridge. Approval is deferred until that bridge is documented; no rejection of the semantic entailment or historical proposal is inferred.",
+      "scope_applicability": "These are historical proposed readings, not established manuscript meanings. This relation supplies no scientific rejection, confirmation, reopening permission or inherited experiment status. The shared unit is the registered whole-card type, not an EVA substring or productive primitive. No transfer to another joint_tuple_id is inferred. Direction is from the full explicit expansion to its action subclaim only. The reverse implication is rejected: additional object, endpoint, quantity or continuation is not supplied by the bare action.",
+      "transitive_equivalence_conflict": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v51/V51_R1_WHOLE_CARD_REPORT.md",
+          "line": 79,
+          "quote": "| `OKE` | `qokedy` 8 | 8 | spüle die bezeichnete Stelle einmal und beende den Schritt |",
+          "sha256": "d753d07ce7e5a13a19004d194635d49d87d47046a59f7dcd9597fdb41969b62a"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 38,
+          "quote": "| OKE | spülen | Verb | reinigen · beenden | 0/8 | 0.35 | 0 |",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 41,
+          "quote": "`H/B` zählt Herbal-/Biological-Vorkommen, nicht unabhängige Belege. Das\nWörterbuch bindet jeden Wert ausschließlich an die vollständige\n`joint_tuple_id`. Die in der Vorkommenstabelle mitgeführten Oberflächen und\nFormelbäume heißen ausdrücklich `audit_only`; weder sie noch PAGE_HOST oder\nsichtbare Komponenten dürfen einen Wert auf eine andere Tuple-ID übertragen.",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        }
+      ],
+      "remaining_gate": "Document V51-to-V60 exact whole-card identity and preserve the Bio-local source scope; no comparison of fragments or arbitrary similarly labelled cards."
+    },
+    {
+      "decision_id": "S_RELATION_B_29_v1",
+      "verdict": "uncertain",
+      "relation": "specializes",
+      "member_ids": [
+        "SEM:9689e20280c44eac8807",
+        "SEM:7435937b89651fba48e1"
+      ],
+      "full_effective_propositions": [
+        {
+          "id": "SEM:9689e20280c44eac8807",
+          "claim": "OKEEY → temperiere die Arbeitsflüssigkeit und halte sie lauwarm",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "9fdd42c9e0e0bcc94a42399cecc5021fa0a696fb3ba3d5fbb2a1e7c925272712",
+          "effective_basis": "01a635faa20332eb3b9733efc358867c6734256fad904930fcfae938d008b1a4",
+          "source_case_scopes": [
+            {
+              "kind": "source_bound_working_hypothesis",
+              "parent_gdt": null,
+              "section": "Alle neun Karten und ihre lokalen Defaults",
+              "semantic_column": "unveränderte lokale V49-Expansion",
+              "source": "experiments/yolo/sidequest_theory_candidates_v51/V51_R1_WHOLE_CARD_REPORT.md"
+            }
+          ]
+        },
+        {
+          "id": "SEM:7435937b89651fba48e1",
+          "claim": "OKEEY → TEMPERIEREN?",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "f2ced784c97025ca38f0030e0c4ef1c52a3f557a2031956067819d34877e27d6",
+          "effective_basis": "d280b986771b97cf2f8284b8b9312c9847dc94a404f0e6a109e6be92f3c25242",
+          "source_case_scopes": [
+            {
+              "case": "Technischer Default",
+              "section": "Entscheidungen / Karte | n | Technischer Default | Zwei Rivalen | Quellklasse / Zustandswirkung | Stärkster Widerspruch | Konfidenz",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R3_TECHNICAL_EXACT_CARD_REPORT.md"
+            },
+            {
+              "case": "V60-R4-Wert",
+              "section": "Revidiertes Kurzdeck / Karte | Quellklasse | V60-R4-Wert | härtester Rivale",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/CANDIDATE_V60_R4_CHANCERY_CORRECTOR.md"
+            }
+          ]
+        }
+      ],
+      "reason": "The complete longer instruction contains the short action as a genuine subclaim, not just a shared topic. However, V51 and V60 bind to opaque whole-card identities. The cited prose provides labels and matching counts but not the exact cross-version identity bridge. Approval is deferred until that bridge is documented; no rejection of the semantic entailment or historical proposal is inferred.",
+      "scope_applicability": "These are historical proposed readings, not established manuscript meanings. This relation supplies no scientific rejection, confirmation, reopening permission or inherited experiment status. The shared unit is the registered whole-card type, not an EVA substring or productive primitive. No transfer to another joint_tuple_id is inferred. Direction is from the full explicit expansion to its action subclaim only. The reverse implication is rejected: additional object, endpoint, quantity or continuation is not supplied by the bare action.",
+      "transitive_equivalence_conflict": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v51/V51_R1_WHOLE_CARD_REPORT.md",
+          "line": 81,
+          "quote": "| `OKEEY` | `okeey` 1; `qokeey` 6 | 7 | temperiere die Arbeitsflüssigkeit und halte sie lauwarm |",
+          "sha256": "d753d07ce7e5a13a19004d194635d49d87d47046a59f7dcd9597fdb41969b62a"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R3_TECHNICAL_EXACT_CARD_REPORT.md",
+          "line": 29,
+          "quote": "| OKEEY | 7 | `TEMPERIEREN?` | `WARMHALTEN?`, `NACHFÜLLEN?` | Temperaturkontrolle; setze Arbeitsband | Keine Skala oder unabhängige Wärmereferenz; nur Bio-Belege | 0,69 |",
+          "sha256": "6f943caad4300b135b8efd096c79c16deeaa49bff5cb323dc29d513c3793842d"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 41,
+          "quote": "`H/B` zählt Herbal-/Biological-Vorkommen, nicht unabhängige Belege. Das\nWörterbuch bindet jeden Wert ausschließlich an die vollständige\n`joint_tuple_id`. Die in der Vorkommenstabelle mitgeführten Oberflächen und\nFormelbäume heißen ausdrücklich `audit_only`; weder sie noch PAGE_HOST oder\nsichtbare Komponenten dürfen einen Wert auf eine andere Tuple-ID übertragen.",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        }
+      ],
+      "remaining_gate": "Document V51-to-V60 exact whole-card identity and preserve the Bio-local source scope; no comparison of fragments or arbitrary similarly labelled cards."
+    },
+    {
+      "decision_id": "S_RELATION_I_00_v1",
+      "verdict": "approve",
+      "relation": "alternative_to",
+      "member_ids": [
+        "SEM:53c15b0654753ab9b293",
+        "SEM:656fc76f4d983447be88"
+      ],
+      "full_effective_propositions": [
+        {
+          "id": "SEM:53c15b0654753ab9b293",
+          "claim": "OLOR → VORIGES?",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "d80c3f3ade8b8240d4734348bab21edda4efa7c919b1360d45ebc9d0bdbb2ab2",
+          "effective_basis": "24d7bf0a8d58c6995a710d6245c4607b41b2fb445081b5c40b307de11dd0a64e",
+          "source_case_scopes": [
+            {
+              "case": "V60-Merker",
+              "section": "Entscheidungen / Karte | V60-Merker | Wortart/Funktion | Zwei atomare Rivalen | Entscheidung | Konfidenz | stärkster Allvorkommens-Gegenbeleg",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R2_HISTORICAL_FUNCTION_WORD_COMPETITION_REPORT.md"
+            },
+            {
+              "case": "V60-R4-Wert",
+              "section": "Revidiertes Kurzdeck / Karte | Quellklasse | V60-R4-Wert | härtester Rivale",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/CANDIDATE_V60_R4_CHANCERY_CORRECTOR.md"
+            }
+          ]
+        },
+        {
+          "id": "SEM:656fc76f4d983447be88",
+          "claim": "OLOR → ZUVOR?",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "dc94837019cc6dbe37b0daa9d416a25cb6f026fb9008db9e169f33b6ef4e639c",
+          "effective_basis": "2f5eefaee63ba92073e1920928919196a217ac6f750f52d870c11814525bac22",
+          "source_case_scopes": [
+            {
+              "kind": "source_bound_working_hypothesis",
+              "parent_gdt": null,
+              "section": "Vollständiger Audit",
+              "semantic_column": null,
+              "source": "experiments/yolo/sidequest_theory_candidates_v52/V52_R2_HISTORICAL_FIELD_GRAMMAR_REPORT.md"
+            },
+            {
+              "case": "Zwei Rivalen",
+              "section": "Entscheidungen / Karte | n | Technischer Default | Zwei Rivalen | Quellklasse / Zustandswirkung | Stärkster Widerspruch | Konfidenz",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R3_TECHNICAL_EXACT_CARD_REPORT.md"
+            },
+            {
+              "case": "Zwei atomare Rivalen",
+              "section": "Entscheidungen / Karte | V60-Merker | Wortart/Funktion | Zwei atomare Rivalen | Entscheidung | Konfidenz | stärkster Allvorkommens-Gegenbeleg",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R2_HISTORICAL_FUNCTION_WORD_COMPETITION_REPORT.md"
+            }
+          ]
+        }
+      ],
+      "reason": "Approve the explicitly scoped historical rival relation: V60 explicitly contrasts anaphoric nominal VORIGES with temporal ZUVOR. Same two occurrences do not make their proposed functions identical. This records distinct proposals in the cited comparison, not logical incompatibility or a scientific outcome.",
+      "scope_applicability": "These are historical proposed readings, not established manuscript meanings. This relation supplies no scientific rejection, confirmation, reopening permission or inherited experiment status. The shared unit is the registered whole-card type, not an EVA substring or productive primitive. No transfer to another joint_tuple_id is inferred.",
+      "transitive_equivalence_conflict": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R2_HISTORICAL_FUNCTION_WORD_COMPETITION_REPORT.md",
+          "line": 39,
+          "quote": "| OLOR | VORIGES? | anaphorisches Pronomen/substantiviertes Adjektiv | DAVON?, ZUVOR? | **REVISE** | .36 | Nur zwei Belege und kein ausgeschriebener Antezedent; zeitlicher und anaphorischer Rückverweis bleiben kaum trennbar. |",
+          "sha256": "eae7d9225e61203f56f0a56100f70c813657819e06ca216390b917c515f69597"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/CANDIDATE_V60_R4_CHANCERY_CORRECTOR.md",
+          "line": 31,
+          "quote": "| OLOR | Rückverweis | `VORIGES?` | `DARAUS?` |",
+          "sha256": "913bede9f275b266efdbceb6836c822a7248a13528ea1b07362521ddb725507b"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v52/V52_R2_HISTORICAL_FIELD_GRAMMAR_REPORT.md",
+          "line": 27,
+          "quote": "Für die Klassifikation zählen als positive Host-/Rahmenwerte `OK=SET`, `OT=MARK`, `L=LINK`, `AL=AN?`, `OR=BEREITUNG?` und `CHEY=TEIL?`; `E` bleibt unbekannt. Positive exakte Ganzkarten sind `AIIN=MASS?`, `EY=KLAR?`, `OKY=VERWENDEN?`, `LCHE=ABLASSEN?`, `OKE=SPÜLEN?`, `CTHY=BEREIT?`, `OKEEY=WARM?` und `OLOR=ZUVOR?`; `CKHY` bleibt unbekannt. Die V49-Werte wurden nur zur Lokalisierung benutzt und dann durch die V50/V51-Auswahl ersetzt.",
+          "sha256": "bf73e7e5d1e122366809e198df7928f72e85583115dae7978a84968d4d373d39"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R3_TECHNICAL_EXACT_CARD_REPORT.md",
+          "line": 27,
+          "quote": "| OLOR | 2 | `VORLAUF?` | `ZUVOR?`, `RÜCKLAUF?` | Vorchargenrelation; nimm vorherigen Lauf als Linkquelle | Beide Belege berühren eine exakte LINK-Karte; n=2 | 0,48 |",
+          "sha256": "6f943caad4300b135b8efd096c79c16deeaa49bff5cb323dc29d513c3793842d"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 41,
+          "quote": "`H/B` zählt Herbal-/Biological-Vorkommen, nicht unabhängige Belege. Das\nWörterbuch bindet jeden Wert ausschließlich an die vollständige\n`joint_tuple_id`. Die in der Vorkommenstabelle mitgeführten Oberflächen und\nFormelbäume heißen ausdrücklich `audit_only`; weder sie noch PAGE_HOST oder\nsichtbare Komponenten dürfen einen Wert auf eine andere Tuple-ID übertragen.",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        }
+      ],
+      "remaining_gate": null
+    },
+    {
+      "decision_id": "S_RELATION_I_02_v1",
+      "verdict": "approve",
+      "relation": "alternative_to",
+      "member_ids": [
+        "SEM:c88c4b6a08ee489d6c64",
+        "SEM:53c15b0654753ab9b293"
+      ],
+      "full_effective_propositions": [
+        {
+          "id": "SEM:c88c4b6a08ee489d6c64",
+          "claim": "OLOR → DAVON?",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "9e3d6fbe6f2a60df2b451d125ce15560a89c90d4b607a0c143ab224391ba208e",
+          "effective_basis": "edc9b9b4d7635b185d1ba8a9a45962813765b53e9ed5c86e510b409620d850f0",
+          "source_case_scopes": [
+            {
+              "kind": "source_bound_working_hypothesis",
+              "parent_gdt": null,
+              "section": "Revisionen",
+              "semantic_column": null,
+              "source": "experiments/yolo/sidequest_theory_candidates_v51/V51_R4_CORRECTOR_WHOLE_CARD_REPORT.md"
+            },
+            {
+              "case": "Zwei atomare Rivalen",
+              "section": "Entscheidungen / Karte | V60-Merker | Wortart/Funktion | Zwei atomare Rivalen | Entscheidung | Konfidenz | stärkster Allvorkommens-Gegenbeleg",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R2_HISTORICAL_FUNCTION_WORD_COMPETITION_REPORT.md"
+            }
+          ]
+        },
+        {
+          "id": "SEM:53c15b0654753ab9b293",
+          "claim": "OLOR → VORIGES?",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "d80c3f3ade8b8240d4734348bab21edda4efa7c919b1360d45ebc9d0bdbb2ab2",
+          "effective_basis": "24d7bf0a8d58c6995a710d6245c4607b41b2fb445081b5c40b307de11dd0a64e",
+          "source_case_scopes": [
+            {
+              "case": "V60-Merker",
+              "section": "Entscheidungen / Karte | V60-Merker | Wortart/Funktion | Zwei atomare Rivalen | Entscheidung | Konfidenz | stärkster Allvorkommens-Gegenbeleg",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R2_HISTORICAL_FUNCTION_WORD_COMPETITION_REPORT.md"
+            },
+            {
+              "case": "V60-R4-Wert",
+              "section": "Revidiertes Kurzdeck / Karte | Quellklasse | V60-R4-Wert | härtester Rivale",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/CANDIDATE_V60_R4_CHANCERY_CORRECTOR.md"
+            }
+          ]
+        }
+      ],
+      "reason": "Approve the explicitly scoped historical rival relation: V51 defines DAVON as anaphoric source indication instead of a noun naming the whole previous preparation. V60 lists DAVON versus nominal VORIGES as rivals. This records distinct proposals in the cited comparison, not logical incompatibility or a scientific outcome.",
+      "scope_applicability": "These are historical proposed readings, not established manuscript meanings. This relation supplies no scientific rejection, confirmation, reopening permission or inherited experiment status. The shared unit is the registered whole-card type, not an EVA substring or productive primitive. No transfer to another joint_tuple_id is inferred.",
+      "transitive_equivalence_conflict": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v51/V51_R4_CORRECTOR_WHOLE_CARD_REPORT.md",
+          "line": 25,
+          "quote": "- `OLOR=DAVON?` behandelt die zwei Vorkommen als mögliche anaphorische\n  Quellenangabe, nicht als Nomen für einen ganzen vorigen Ansatz.",
+          "sha256": "35ddc5cd1dec8988a3ad74a96673b203f754d13b6553e48ba9557b27e36709ad"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R2_HISTORICAL_FUNCTION_WORD_COMPETITION_REPORT.md",
+          "line": 39,
+          "quote": "| OLOR | VORIGES? | anaphorisches Pronomen/substantiviertes Adjektiv | DAVON?, ZUVOR? | **REVISE** | .36 | Nur zwei Belege und kein ausgeschriebener Antezedent; zeitlicher und anaphorischer Rückverweis bleiben kaum trennbar. |",
+          "sha256": "eae7d9225e61203f56f0a56100f70c813657819e06ca216390b917c515f69597"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/CANDIDATE_V60_R4_CHANCERY_CORRECTOR.md",
+          "line": 31,
+          "quote": "| OLOR | Rückverweis | `VORIGES?` | `DARAUS?` |",
+          "sha256": "913bede9f275b266efdbceb6836c822a7248a13528ea1b07362521ddb725507b"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 41,
+          "quote": "`H/B` zählt Herbal-/Biological-Vorkommen, nicht unabhängige Belege. Das\nWörterbuch bindet jeden Wert ausschließlich an die vollständige\n`joint_tuple_id`. Die in der Vorkommenstabelle mitgeführten Oberflächen und\nFormelbäume heißen ausdrücklich `audit_only`; weder sie noch PAGE_HOST oder\nsichtbare Komponenten dürfen einen Wert auf eine andere Tuple-ID übertragen.",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        }
+      ],
+      "remaining_gate": null
+    },
+    {
+      "decision_id": "S_RELATION_I_04_v1",
+      "verdict": "approve",
+      "relation": "alternative_to",
+      "member_ids": [
+        "SEM:dfcc0041394dba8e5a84",
+        "SEM:80696c588fd295e24f32"
+      ],
+      "full_effective_propositions": [
+        {
+          "id": "SEM:dfcc0041394dba8e5a84",
+          "claim": "OLOR → VORLAUF?",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "9fdaeb67b1a04f514c9b8d0978bfea4b172f74f8c0aaba9d86b961d22cb41387",
+          "effective_basis": "f450828871ed4dd579a885745cdfabd38887ecdb1cb8e88e0df124a55118ecef",
+          "source_case_scopes": [
+            {
+              "case": "Technischer Default",
+              "section": "Entscheidungen / Karte | n | Technischer Default | Zwei Rivalen | Quellklasse / Zustandswirkung | Stärkster Widerspruch | Konfidenz",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R3_TECHNICAL_EXACT_CARD_REPORT.md"
+            }
+          ]
+        },
+        {
+          "id": "SEM:80696c588fd295e24f32",
+          "claim": "OLOR → RÜCKLAUF?",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "999d7b8ff743a79a2b840360646d21a62b977797b68992bdc4643949c048865f",
+          "effective_basis": "10bede9b9abbf4ad3eed92a36ec2dd807edbe2c1916392b766d2912c9e905b16",
+          "source_case_scopes": [
+            {
+              "case": "Zwei Rivalen",
+              "section": "Entscheidungen / Karte | n | Technischer Default | Zwei Rivalen | Quellklasse / Zustandswirkung | Stärkster Widerspruch | Konfidenz",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R3_TECHNICAL_EXACT_CARD_REPORT.md"
+            }
+          ]
+        }
+      ],
+      "reason": "Approve the explicitly scoped historical rival relation: V60 declares VORLAUF and RÜCKLAUF competing process/source interpretations; neither is automatically a synonym of temporal previously. This records distinct proposals in the cited comparison, not logical incompatibility or a scientific outcome.",
+      "scope_applicability": "These are historical proposed readings, not established manuscript meanings. This relation supplies no scientific rejection, confirmation, reopening permission or inherited experiment status. The shared unit is the registered whole-card type, not an EVA substring or productive primitive. No transfer to another joint_tuple_id is inferred.",
+      "transitive_equivalence_conflict": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R3_TECHNICAL_EXACT_CARD_REPORT.md",
+          "line": 27,
+          "quote": "| OLOR | 2 | `VORLAUF?` | `ZUVOR?`, `RÜCKLAUF?` | Vorchargenrelation; nimm vorherigen Lauf als Linkquelle | Beide Belege berühren eine exakte LINK-Karte; n=2 | 0,48 |",
+          "sha256": "6f943caad4300b135b8efd096c79c16deeaa49bff5cb323dc29d513c3793842d"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 41,
+          "quote": "`H/B` zählt Herbal-/Biological-Vorkommen, nicht unabhängige Belege. Das\nWörterbuch bindet jeden Wert ausschließlich an die vollständige\n`joint_tuple_id`. Die in der Vorkommenstabelle mitgeführten Oberflächen und\nFormelbäume heißen ausdrücklich `audit_only`; weder sie noch PAGE_HOST oder\nsichtbare Komponenten dürfen einen Wert auf eine andere Tuple-ID übertragen.",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        }
+      ],
+      "remaining_gate": null
+    },
+    {
+      "decision_id": "S_RELATION_I_07_v1",
+      "verdict": "approve",
+      "relation": "alternative_to",
+      "member_ids": [
+        "SEM:7faaa122fa145c302a9e",
+        "SEM:1acdb29f01a143645c3f"
+      ],
+      "full_effective_propositions": [
+        {
+          "id": "SEM:7faaa122fa145c302a9e",
+          "claim": "OKY → verwenden",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "55e2b7ed17029e7eebfa32a483461124e5210a7391ba6dcfd9c3337a7d4a5e8e",
+          "effective_basis": "4803f992f6dff24f2dbe24efdae2df5621cd2b2c55d1466ef81b4deb6df19651",
+          "source_case_scopes": [
+            {
+              "case": "V60_fixed_card_trial_with_contradictions",
+              "section": "Vollständiger Kontextdruck",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md"
+            },
+            {
+              "case": "Default",
+              "section": "Elf Karten / Exact-Card | Default | Klasse | zwei atomare Rivalen | n H/B | Confidence | Revisionskosten",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md"
+            }
+          ]
+        },
+        {
+          "id": "SEM:1acdb29f01a143645c3f",
+          "claim": "OKY → fortsetzen",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "2669d4e56630b9b2965db0d09504cf00ca7ca3e9ae89bb48d6323c07d9687e31",
+          "effective_basis": "c7c03cfc406533388b3deddcb1084c53fedccb8fa0d075724ea110b9ceaa36d2",
+          "source_case_scopes": [
+            {
+              "case": "zwei atomare Rivalen",
+              "section": "Elf Karten / Exact-Card | Default | Klasse | zwei atomare Rivalen | n H/B | Confidence | Revisionskosten",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md"
+            }
+          ]
+        }
+      ],
+      "reason": "Approve the explicitly scoped historical rival relation: V60 distinguishes verwenden and fortsetzen; the only/end-field exceptions motivate the continuation rival rather than prove equivalence. This records distinct proposals in the cited comparison, not logical incompatibility or a scientific outcome.",
+      "scope_applicability": "These are historical proposed readings, not established manuscript meanings. This relation supplies no scientific rejection, confirmation, reopening permission or inherited experiment status. The shared unit is the registered whole-card type, not an EVA substring or productive primitive. No transfer to another joint_tuple_id is inferred.",
+      "transitive_equivalence_conflict": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 69,
+          "quote": "2. **OKY — verwenden.** Zehn Fälle bilden einen breiten Handlungspivot;\n   `OKEEY→OKY` und `OKY→AIIN` erscheinen je zweimal. Lehrregel: kein Material\n   oder Ziel mitsprechen. Widerspruch: ONLY- und Feldendfälle erlauben ebenso\n   „fortsetzen“ oder eine Freigabeformel.",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 30,
+          "quote": "| OKY | verwenden | Verb | anwenden · fortsetzen | 3/7 | 0.68 | 0 |",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 41,
+          "quote": "`H/B` zählt Herbal-/Biological-Vorkommen, nicht unabhängige Belege. Das\nWörterbuch bindet jeden Wert ausschließlich an die vollständige\n`joint_tuple_id`. Die in der Vorkommenstabelle mitgeführten Oberflächen und\nFormelbäume heißen ausdrücklich `audit_only`; weder sie noch PAGE_HOST oder\nsichtbare Komponenten dürfen einen Wert auf eine andere Tuple-ID übertragen.",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        }
+      ],
+      "remaining_gate": null
+    },
+    {
+      "decision_id": "S_RELATION_I_11_v1",
+      "verdict": "approve",
+      "relation": "alternative_to",
+      "member_ids": [
+        "SEM:ed2bc1a6f8fe6d98158c",
+        "SEM:cd3274b7cac59d5bdbe6"
+      ],
+      "full_effective_propositions": [
+        {
+          "id": "SEM:ed2bc1a6f8fe6d98158c",
+          "claim": "LCHE → ablassen",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "b421f4dc3fa7da1a4cc47ba507eb2a4030965bc0fff36135a802aa6bc3f0a047",
+          "effective_basis": "9bc1faffa355b35c5275301ff42d2f798412ee1580cde7225fa373b953edf76d",
+          "source_case_scopes": [
+            {
+              "case": "V60_fixed_card_trial_with_contradictions",
+              "section": "Vollständiger Kontextdruck",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md"
+            },
+            {
+              "case": "Default",
+              "section": "Elf Karten / Exact-Card | Default | Klasse | zwei atomare Rivalen | n H/B | Confidence | Revisionskosten",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md"
+            }
+          ]
+        },
+        {
+          "id": "SEM:cd3274b7cac59d5bdbe6",
+          "claim": "LCHE → beenden",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "6f99d6f3ca3e813f8700ff1dbf0b6019c2bad840abd42eb8791a0418a9c3b685",
+          "effective_basis": "07e605a3da685cbfc664e6864366459d44308ebe41802ed5a744c178e9365fb6",
+          "source_case_scopes": [
+            {
+              "case": "zwei atomare Rivalen",
+              "section": "Elf Karten / Exact-Card | Default | Klasse | zwei atomare Rivalen | n H/B | Confidence | Revisionskosten",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md"
+            }
+          ]
+        }
+      ],
+      "reason": "Approve the explicitly scoped historical rival relation: V60 compares drain against end; complete terminal confounding does not make the physical action and formal completion the same claim. This records distinct proposals in the cited comparison, not logical incompatibility or a scientific outcome.",
+      "scope_applicability": "These are historical proposed readings, not established manuscript meanings. This relation supplies no scientific rejection, confirmation, reopening permission or inherited experiment status. The shared unit is the registered whole-card type, not an EVA substring or productive primitive. No transfer to another joint_tuple_id is inferred.",
+      "transitive_equivalence_conflict": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 103,
+          "quote": "11. **LCHE — ablassen.** Acht Bio-Fälle; einer folgt AL, ein technischer\n    Ganzdefault lautet ebenfalls „unten ablassen“. Lehrregel: Gefäß und\n    Richtung nur aus dem Exemplar beziehen. Widerspruch: 8/8 sind TERMINAL,\n    fünf davon ONLY; die Abgrenzung von OKE ist nicht unabhängig geerdet.",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 39,
+          "quote": "| LCHE | ablassen | Verb | sammeln · beenden | 0/8 | 0.36 | 0 |",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 41,
+          "quote": "`H/B` zählt Herbal-/Biological-Vorkommen, nicht unabhängige Belege. Das\nWörterbuch bindet jeden Wert ausschließlich an die vollständige\n`joint_tuple_id`. Die in der Vorkommenstabelle mitgeführten Oberflächen und\nFormelbäume heißen ausdrücklich `audit_only`; weder sie noch PAGE_HOST oder\nsichtbare Komponenten dürfen einen Wert auf eine andere Tuple-ID übertragen.",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        }
+      ],
+      "remaining_gate": null
+    },
+    {
+      "decision_id": "S_RELATION_I_12_v1",
+      "verdict": "approve",
+      "relation": "alternative_to",
+      "member_ids": [
+        "SEM:ed2bc1a6f8fe6d98158c",
+        "SEM:d139b6988bf291c247c8"
+      ],
+      "full_effective_propositions": [
+        {
+          "id": "SEM:ed2bc1a6f8fe6d98158c",
+          "claim": "LCHE → ablassen",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "b421f4dc3fa7da1a4cc47ba507eb2a4030965bc0fff36135a802aa6bc3f0a047",
+          "effective_basis": "9bc1faffa355b35c5275301ff42d2f798412ee1580cde7225fa373b953edf76d",
+          "source_case_scopes": [
+            {
+              "case": "V60_fixed_card_trial_with_contradictions",
+              "section": "Vollständiger Kontextdruck",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md"
+            },
+            {
+              "case": "Default",
+              "section": "Elf Karten / Exact-Card | Default | Klasse | zwei atomare Rivalen | n H/B | Confidence | Revisionskosten",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md"
+            }
+          ]
+        },
+        {
+          "id": "SEM:d139b6988bf291c247c8",
+          "claim": "LCHE → sammeln",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "69ccd7ac0d8e020ffe600813a3f5ef078a693b544e33aa35fff697ca9f3d9825",
+          "effective_basis": "f3e82ced179ce5f5cd288338be4cac26452aed854948bdd839acc6696200bdd7",
+          "source_case_scopes": [
+            {
+              "case": "zwei atomare Rivalen",
+              "section": "Elf Karten / Exact-Card | Default | Klasse | zwei atomare Rivalen | n H/B | Confidence | Revisionskosten",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md"
+            }
+          ]
+        }
+      ],
+      "reason": "Approve the explicitly scoped historical rival relation: Drain and collect are explicitly competing V60 actions; do not merge by a shared fluid-transfer topic. This records distinct proposals in the cited comparison, not logical incompatibility or a scientific outcome.",
+      "scope_applicability": "These are historical proposed readings, not established manuscript meanings. This relation supplies no scientific rejection, confirmation, reopening permission or inherited experiment status. The shared unit is the registered whole-card type, not an EVA substring or productive primitive. No transfer to another joint_tuple_id is inferred.",
+      "transitive_equivalence_conflict": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 103,
+          "quote": "11. **LCHE — ablassen.** Acht Bio-Fälle; einer folgt AL, ein technischer\n    Ganzdefault lautet ebenfalls „unten ablassen“. Lehrregel: Gefäß und\n    Richtung nur aus dem Exemplar beziehen. Widerspruch: 8/8 sind TERMINAL,\n    fünf davon ONLY; die Abgrenzung von OKE ist nicht unabhängig geerdet.",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 39,
+          "quote": "| LCHE | ablassen | Verb | sammeln · beenden | 0/8 | 0.36 | 0 |",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 41,
+          "quote": "`H/B` zählt Herbal-/Biological-Vorkommen, nicht unabhängige Belege. Das\nWörterbuch bindet jeden Wert ausschließlich an die vollständige\n`joint_tuple_id`. Die in der Vorkommenstabelle mitgeführten Oberflächen und\nFormelbäume heißen ausdrücklich `audit_only`; weder sie noch PAGE_HOST oder\nsichtbare Komponenten dürfen einen Wert auf eine andere Tuple-ID übertragen.",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        }
+      ],
+      "remaining_gate": null
+    },
+    {
+      "decision_id": "S_RELATION_I_20_v1",
+      "verdict": "approve",
+      "relation": "alternative_to",
+      "member_ids": [
+        "SEM:c2f61337208004b55bdb",
+        "SEM:873a0a7342b860396ea7"
+      ],
+      "full_effective_propositions": [
+        {
+          "id": "SEM:c2f61337208004b55bdb",
+          "claim": "EY → klar",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "7396b4e789daa37193ef923faa2c279b4b95b5202c3b31328dd58fb30da89f73",
+          "effective_basis": "cc9ec18b2affff1be78a7783aaba5f3b74392e0e5b595bf552e54099af45a6f9",
+          "source_case_scopes": [
+            {
+              "case": "Default",
+              "section": "Elf Karten / Exact-Card | Default | Klasse | zwei atomare Rivalen | n H/B | Confidence | Revisionskosten",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md"
+            },
+            {
+              "case": "V60_fixed_card_trial_with_contradictions",
+              "section": "Vollständiger Kontextdruck",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md"
+            }
+          ]
+        },
+        {
+          "id": "SEM:873a0a7342b860396ea7",
+          "claim": "EY → fertig",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "e89988a5065599da26efb2b19028feafd156a15c5c8c4f1884ec6f30c48ce665",
+          "effective_basis": "705675e552b011d1bcdce6fa13e29f811955f970a5c0d45d4069f98cdb656486",
+          "source_case_scopes": [
+            {
+              "case": "zwei atomare Rivalen",
+              "section": "Elf Karten / Exact-Card | Default | Klasse | zwei atomare Rivalen | n H/B | Confidence | Revisionskosten",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md"
+            }
+          ]
+        }
+      ],
+      "reason": "Approve the explicitly scoped historical rival relation: Clear versus finished is an explicit V60 state rival; V51/V53 revision also distinguishes them, not a spelling normalization. This records distinct proposals in the cited comparison, not logical incompatibility or a scientific outcome.",
+      "scope_applicability": "These are historical proposed readings, not established manuscript meanings. This relation supplies no scientific rejection, confirmation, reopening permission or inherited experiment status. The shared unit is the registered whole-card type, not an EVA substring or productive primitive. No transfer to another joint_tuple_id is inferred.",
+      "transitive_equivalence_conflict": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 34,
+          "quote": "| EY | klar | Zustand | rein · fertig | 1/3 | 0.53 | 0 |",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 85,
+          "quote": "6. **EY — klar.** Vier NONCLOSE-Fälle auf drei Seiten erlauben einen echten\n   Zwischenzustand. Lehrregel: weder Flüssigkeit noch Ergebnis mitsprechen.\n   Widerspruch: Transparenz, Reinheit und Fertigsein sind nicht getrennt.",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 41,
+          "quote": "`H/B` zählt Herbal-/Biological-Vorkommen, nicht unabhängige Belege. Das\nWörterbuch bindet jeden Wert ausschließlich an die vollständige\n`joint_tuple_id`. Die in der Vorkommenstabelle mitgeführten Oberflächen und\nFormelbäume heißen ausdrücklich `audit_only`; weder sie noch PAGE_HOST oder\nsichtbare Komponenten dürfen einen Wert auf eine andere Tuple-ID übertragen.",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        }
+      ],
+      "remaining_gate": null
+    },
+    {
+      "decision_id": "S_RELATION_I_21_v1",
+      "verdict": "approve",
+      "relation": "alternative_to",
+      "member_ids": [
+        "SEM:c2f61337208004b55bdb",
+        "SEM:c9e9d88292d07dee8f97"
+      ],
+      "full_effective_propositions": [
+        {
+          "id": "SEM:c2f61337208004b55bdb",
+          "claim": "EY → klar",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "7396b4e789daa37193ef923faa2c279b4b95b5202c3b31328dd58fb30da89f73",
+          "effective_basis": "cc9ec18b2affff1be78a7783aaba5f3b74392e0e5b595bf552e54099af45a6f9",
+          "source_case_scopes": [
+            {
+              "case": "Default",
+              "section": "Elf Karten / Exact-Card | Default | Klasse | zwei atomare Rivalen | n H/B | Confidence | Revisionskosten",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md"
+            },
+            {
+              "case": "V60_fixed_card_trial_with_contradictions",
+              "section": "Vollständiger Kontextdruck",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md"
+            }
+          ]
+        },
+        {
+          "id": "SEM:c9e9d88292d07dee8f97",
+          "claim": "EY → FILTERN?",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "a5a6f2971de1877ea9daa72e72f12f60768bbc0fb75807b5ee9bff833b072c37",
+          "effective_basis": "305f4b137dd3d79adbd97a8245e5e8ab4981d0aa2feaf7d8cafd2eb2eb906510",
+          "source_case_scopes": [
+            {
+              "case": "Zwei Rivalen",
+              "section": "Entscheidungen / Karte | n | Technischer Default | Zwei Rivalen | Quellklasse / Zustandswirkung | Stärkster Widerspruch | Konfidenz",
+              "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R3_TECHNICAL_EXACT_CARD_REPORT.md"
+            }
+          ]
+        }
+      ],
+      "reason": "Approve the explicitly scoped historical rival relation: KLAR state versus FILTERN action are separate V60 technical hypotheses. Process adjacency is not identity. This records distinct proposals in the cited comparison, not logical incompatibility or a scientific outcome.",
+      "scope_applicability": "These are historical proposed readings, not established manuscript meanings. This relation supplies no scientific rejection, confirmation, reopening permission or inherited experiment status. The shared unit is the registered whole-card type, not an EVA substring or productive primitive. No transfer to another joint_tuple_id is inferred.",
+      "transitive_equivalence_conflict": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 34,
+          "quote": "| EY | klar | Zustand | rein · fertig | 1/3 | 0.53 | 0 |",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 85,
+          "quote": "6. **EY — klar.** Vier NONCLOSE-Fälle auf drei Seiten erlauben einen echten\n   Zwischenzustand. Lehrregel: weder Flüssigkeit noch Ergebnis mitsprechen.\n   Widerspruch: Transparenz, Reinheit und Fertigsein sind nicht getrennt.",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R3_TECHNICAL_EXACT_CARD_REPORT.md",
+          "line": 26,
+          "quote": "| EY | 4 | `KLARLAUF?` | `KLAR?`, `FILTERN?` | Zustandsschwelle; markiere erreichten Klarlauf | Positionswechsel lässt Zustand gegen lokale Aktion unentschieden | 0,49 |",
+          "sha256": "6f943caad4300b135b8efd096c79c16deeaa49bff5cb323dc29d513c3793842d"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 41,
+          "quote": "`H/B` zählt Herbal-/Biological-Vorkommen, nicht unabhängige Belege. Das\nWörterbuch bindet jeden Wert ausschließlich an die vollständige\n`joint_tuple_id`. Die in der Vorkommenstabelle mitgeführten Oberflächen und\nFormelbäume heißen ausdrücklich `audit_only`; weder sie noch PAGE_HOST oder\nsichtbare Komponenten dürfen einen Wert auf eine andere Tuple-ID übertragen.",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        }
+      ],
+      "remaining_gate": null
+    },
+    {
+      "decision_id": "S_RELATION_N_06_v1",
+      "verdict": "approve",
+      "relation": "alternative_to",
+      "member_ids": [
+        "SEM:2a96b81a9093714732c9",
+        "SEM:e7e955d9ce7e5a689821"
+      ],
+      "full_effective_propositions": [
+        {
+          "id": "SEM:2a96b81a9093714732c9",
+          "claim": "or → helle Wurzeldroge",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "66649202d3fc1fc47c972a8648d97c83c7d145084a6f240ff69a42daa646268a",
+          "effective_basis": "0ae8782d1e3215298c3f6a5e277914213f030cf0b9b86b1f9d6f4f9bacc46619",
+          "source_case_scopes": [
+            {
+              "case": "neuer Primärdefault",
+              "section": "Was gegenüber GDT582 besser wird / Kern in der Drogenklasse | neuer Primärdefault | sichtbarer alter Rivale",
+              "source": "experiments/yolo/gdt585_learned_name_compound_atlas/REPORT.md"
+            }
+          ]
+        },
+        {
+          "id": "SEM:e7e955d9ce7e5a689821",
+          "claim": "or → Olivenöl",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "d0f293e032c8bc094658c7c9337311497b40fe68a4b4c8c9895f29ac54e63489",
+          "effective_basis": "4346255878b21e25a18c41943b799cbbb2a3f3c03441b77657489430b75b7548",
+          "source_case_scopes": [
+            {
+              "case": "sichtbarer alter Rivale",
+              "section": "Was gegenüber GDT582 besser wird / Kern in der Drogenklasse | neuer Primärdefault | sichtbarer alter Rivale",
+              "source": "experiments/yolo/gdt585_learned_name_compound_atlas/REPORT.md"
+            }
+          ]
+        }
+      ],
+      "reason": "Approve the explicitly scoped historical rival relation: GDT585 directly lists light-root drug and olive oil as competing values of learned or name-class material, not primitive OR. This records distinct proposals in the cited comparison, not logical incompatibility or a scientific outcome.",
+      "scope_applicability": "These are historical proposed readings, not established manuscript meanings. This relation supplies no scientific rejection, confirmation, reopening permission or inherited experiment status. Only the fixed owner-determined learned name class of GDT585 is compared, never primitive OR or every surface or.",
+      "transitive_equivalence_conflict": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt585_learned_name_compound_atlas/REPORT.md",
+          "line": 54,
+          "quote": "| `or` | helle Wurzeldroge | Olivenöl |",
+          "sha256": "64c22c0d024fcde4abea03d857fa6db809264b340eaa02f098b7e3c1e8d36a1f"
+        },
+        {
+          "path": "experiments/yolo/gdt585_learned_name_compound_atlas/REPORT.md",
+          "line": 170,
+          "quote": "Nicht vorliegt: eine Entzifferung, eine Artbestimmung, ein Stoffnachweis, eine\nbestätigte Kalenderfunktion oder ein historisches Codebuch. Vor allem sind\n`d=Wurzel`, `y=Kraut` und `s=Blatt` keine globalen Wortgleichungen; sie gelten\nnur in der festen ownerbestimmten Namensklasse dieses Experiments. `dy` und\nlängere Kerne bleiben Ganzkerne, solange kein eigener Kompositionstest eine\nTeilung trägt.",
+          "sha256": "64c22c0d024fcde4abea03d857fa6db809264b340eaa02f098b7e3c1e8d36a1f"
+        }
+      ],
+      "remaining_gate": null
+    },
+    {
+      "decision_id": "S_RELATION_N_35_v1",
+      "verdict": "approve",
+      "relation": "alternative_to",
+      "member_ids": [
+        "SEM:8e4621d3bb234eab01a7",
+        "SEM:15425e745ff84a5059b8"
+      ],
+      "full_effective_propositions": [
+        {
+          "id": "SEM:8e4621d3bb234eab01a7",
+          "claim": "T → EINSTELLEN",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "f41045a30565646a569d6ad33674f7a73603966950606801e83cafb183dd0e0a",
+          "effective_basis": "0c783c5ea87d0c3df2de50410d46c098ed2dd10fd4d5f1eec812d1341376ff49",
+          "source_case_scopes": [
+            {
+              "kind": "literal_core_declaration_without_portability_claim"
+            },
+            {
+              "kind": "source_bound_working_hypothesis",
+              "parent_gdt": "GDT420",
+              "section": "Die neun Kopfkarten",
+              "semantic_column": null,
+              "source": "experiments/yolo/gdt420_action_head_slot_license_atlas/REPORT.md"
+            },
+            {
+              "kind": "source_bound_working_hypothesis",
+              "parent_gdt": null,
+              "section": "Alle Zwei-Kopf-Stellen",
+              "semantic_column": null,
+              "source": "experiments/yolo/sidequest_semantic_scope_ambiguity_resolution_one_thousand_twenty_third/EQUAL_DISTANCE_GENERALIZATION_REPORT.md"
+            },
+            {
+              "case": "gewählter Minimalwert",
+              "section": "Ergebnis / Kern | gewählter Minimalwert | stärkster Rivale | Ergebnis",
+              "source": "experiments/yolo/gdt410_provisional_core_rival_tournament/REPORT.md"
+            }
+          ]
+        },
+        {
+          "id": "SEM:15425e745ff84a5059b8",
+          "claim": "T → BESTIMMEN",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "7cb2fa00783a18b857d5f340d31987b37bb31405aa46ee5016d087c089e5757d",
+          "effective_basis": "85f5f72bb2cefe40e72b9da4f6a403826baf15f9739070b973c49b2883f42d68",
+          "source_case_scopes": [
+            {
+              "case": "stärkster Rivale",
+              "section": "Ergebnis / Kern | gewählter Minimalwert | stärkster Rivale | Ergebnis",
+              "source": "experiments/yolo/gdt410_provisional_core_rival_tournament/REPORT.md"
+            }
+          ]
+        }
+      ],
+      "reason": "Approve the explicitly scoped historical rival relation: GDT410 directly tests EINSTELLEN against BESTIMMEN. Same control-head position does not remove their proposed action difference. This records distinct proposals in the cited comparison, not logical incompatibility or a scientific outcome.",
+      "scope_applicability": "These are historical proposed readings, not established manuscript meanings. This relation supplies no scientific rejection, confirmation, reopening permission or inherited experiment status. Current EINSTELLEN card contains literal T core declarations and explicitly scoped head uses. The competing BESTIMMEN is directly named for T in GDT410; relation does not propagate any success or failure to later host models.",
+      "transitive_equivalence_conflict": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt409_nineteen_core_semantic_drift_audit/REPORT.md",
+          "line": 64,
+          "quote": "3. `K=GEBEN` / `T=EINSTELLEN`: 53 gemeinsame Rahmen, 130 Treffer. Das stützt\n   zwei austauschbare Handlungsköpfe, nicht zwingend genau diese deutschen\n   Verben.",
+          "sha256": "d9315dc142103c095dbb6fb46901dd2d93f825e8d750c8a200606461c4e732e6"
+        },
+        {
+          "path": "experiments/yolo/gdt427_typed_prediction_specificity_repair/REPORT.md",
+          "line": 16,
+          "quote": "- **SET_CONTROL:** `T=EINSTELLEN`;",
+          "sha256": "7125603c7cafb565f9c1a2d380b18d5f30575066c8bd5d3923abb8bcd3974deb"
+        },
+        {
+          "path": "experiments/yolo/gdt427_typed_prediction_specificity_repair/REPORT.md",
+          "line": 54,
+          "quote": "Die Trennung `T=EINSTELLEN` versus `R=MARKIEREN` ist strukturell nützlicher als\nihre frühere Zusammenlegung. Die übrigen drei Sammelklassen bleiben vorläufig\nsinnvoll, aber ihre Mitglieder dürfen semantisch nicht verschmolzen werden:\nNEHMEN ist nicht WÄHLEN, GEBEN nicht SETZEN, HALTEN nicht BEARBEITEN. Der\nnächste Pass muss genau diese inneren Kontraste anhand ihrer Argumente,\nNachbarn und Besitzer prüfen.",
+          "sha256": "7125603c7cafb565f9c1a2d380b18d5f30575066c8bd5d3923abb8bcd3974deb"
+        },
+        {
+          "path": "experiments/yolo/gdt428_within_class_action_semantic_contrasts/REPORT.md",
+          "line": 24,
+          "quote": "- **T = EINSTELLEN:** Posten, Wert oder Grad als Einstellung festlegen.",
+          "sha256": "82df1791157e0c43181e372369b486182d275cfceaffec6bfbb2bffbf5674b33"
+        },
+        {
+          "path": "experiments/yolo/gdt491_markierungen_observed_phrase_contrast_atlas/REPORT.md",
+          "line": 41,
+          "quote": "Damit ist die Arbeitsunterscheidung erstmals als Satzkontrast hörbar:\n`T=EINSTELLEN` legt den Slot als Einstellung fest; `R=MARKIEREN` kennzeichnet\ndenselben formalen Slot als Bezug. Das beweist die Wörter nicht, ist aber eine\ndeutlich konkretere und kompositionell wiederverwendbare Lesung als die frühere\nisolierte Glossierung.",
+          "sha256": "ad80e34c9e060ff50047a1576d6b0e3c80208e3a48a21998b61313a934d3ad75"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_cross_register_core_revision_one_thousand_eighteenth/PASS1018_REPORT.md",
+          "line": 29,
+          "quote": "`Y=DIES`, `OK=SETZEN`, `OL=FORTSETZEN`, `OT=DANACH`, `AL=ZIELORT`, `CH=NEHMEN`, `SH=HALTEN`, `AR=AUSGANG`, `K=GEBEN`, `S=WÄHLEN`, `CHD=UMSETZEN`, `L=VERBINDUNG`, `T=EINSTELLEN`, `R=MARKIEREN`, `P=EINSETZEN`, `AIR=LAUF`.",
+          "sha256": "c12063509ff27206ee412a9711814200ac202404878baa2a582284f97b180951"
+        },
+        {
+          "path": "experiments/yolo/gdt420_action_head_slot_license_atlas/REPORT.md",
+          "line": 23,
+          "quote": "- **T=EINSTELLEN:** E/EE/EEE; alle vier Argumente; Schluss möglich.",
+          "sha256": "67559ae568933f517d5b2d52553795e3db80db6df8320fc264a7f8649dcac1d8"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_scope_ambiguity_resolution_one_thousand_twenty_third/EQUAL_DISTANCE_GENERALIZATION_REPORT.md",
+          "line": 68,
+          "quote": "Von den fünf rechten Argument-/Gradstellen sind die vier oben genannten\nBindungen klar unterscheidbar. In der fünften tragen beide Seiten\n`T=EINSTELLEN`; die Atomposition bleibt in der ausgeschriebenen Wertspur offen.",
+          "sha256": "962c746972a3483f9171aa597db511381b345c947e34a08279b20e1bbd5167c6"
+        },
+        {
+          "path": "experiments/yolo/gdt410_provisional_core_rival_tournament/REPORT.md",
+          "line": 12,
+          "quote": "| `T` | EINSTELLEN | BESTIMMEN | behalten |",
+          "sha256": "275bde78f9a14df65dc2a96c67880d3a77ef0810ac5a12485cc53fc69ec6c465"
+        }
+      ],
+      "remaining_gate": null
+    },
+    {
+      "decision_id": "S_RELATION_ROOT_00_v1",
+      "verdict": "approve",
+      "relation": "alternative_to",
+      "member_ids": [
+        "SEM:66b72332b3184d1b3caf",
+        "SEM:8bfed0e09b62537455e6"
+      ],
+      "full_effective_propositions": [
+        {
+          "id": "SEM:66b72332b3184d1b3caf",
+          "claim": "Repeated L/O continues a chain from the preceding right-hand neighbor.",
+          "claim_type": "functional_hypothesis",
+          "card_basis": "c4258ed73530548ea2162a12be0a1d1df921721715e448aef8a0b4e68f81520a",
+          "effective_basis": "c8182fc46b6bc0f55b5d19550ec1689c3adfdc68962d42f3adb20ba7acdf40e8",
+          "source_case_scopes": [
+            {
+              "local_historical_model": true,
+              "source": "experiments/yolo/sidequest_theory_candidates_v13/CANDIDATE_V13_R1_WORKSHOP_LINK.md",
+              "source_line": 112
+            },
+            {
+              "local_historical_model": true,
+              "source": "experiments/yolo/sidequest_theory_candidates_v13/CANDIDATE_V13_R1_WORKSHOP_LINK.md",
+              "source_line": 328
+            }
+          ]
+        },
+        {
+          "id": "SEM:8bfed0e09b62537455e6",
+          "claim": "Repeated A–L/O–B–L/O–C attaches B and C as siblings under one head rather than a directional chain.",
+          "claim_type": "functional_hypothesis",
+          "card_basis": "3f34b2c8074b088813d8bd9790f22b3658896be96359d4193bd681e0ecd980e7",
+          "effective_basis": "0d9759a160e79dbeddf0e3c29400cf78ce111cb0b58ae9887ca498b72f799a4a",
+          "source_case_scopes": [
+            {
+              "local_historical_model": true,
+              "source": "experiments/yolo/sidequest_theory_candidates_v13/CANDIDATE_V13_R4_CHANCERY_LINK_AUDIT.md",
+              "source_line": 293
+            },
+            {
+              "local_historical_model": true,
+              "source": "experiments/yolo/sidequest_theory_candidates_v13/V13_THEORY_SELECTION.md",
+              "source_line": 61
+            }
+          ]
+        }
+      ],
+      "reason": "Approve the explicitly scoped historical rival relation: A chain using the prior right neighbor and a sibling list under one fixed head assign different relation topology. This records distinct proposals in the cited comparison, not logical incompatibility or a scientific outcome.",
+      "scope_applicability": "These are historical proposed readings, not established manuscript meanings. This relation supplies no scientific rejection, confirmation, reopening permission or inherited experiment status. Both are conditional relation-topology proposals for repeated L/O, not observations of known participants. A competing topology is not itself evidence that either topology has been found.",
+      "transitive_equivalence_conflict": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v13/CANDIDATE_V13_R1_WORKSHOP_LINK.md",
+          "line": 112,
+          "quote": "3. Folgt spaeter im selben Feld wieder L/O, beginne mit dem zuletzt erreichten\n   rechten Nachbarn. So entsteht eine Kette mit derselben Verbindungsart.",
+          "sha256": "9b41b26df77dea77b58eee4ae62705d1a75d774ea2a0701b5427433d432757f8"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v13/CANDIDATE_V13_R4_CHANCERY_LINK_AUDIT.md",
+          "line": 293,
+          "quote": "3. Repeated `A--L--B--L--C` fields should behave more like sibling lists under\n   one head than directional chains: exchanging the two added opaque members\n   should be less disruptive than reversing an independently identifiable\n   source and target. This remains a future discriminator, not a present fact.",
+          "sha256": "49371ef26c42edc7c819662ddb6398baffdc8c423615fcc9df413c1955898d11"
+        }
+      ],
+      "remaining_gate": null
+    }
+  ],
+  "negative_controls": [
+    {
+      "contrast": "GDT768 M02 versus M03",
+      "reason": "Equal scores do not make opposite flower/seed assignments equivalent."
+    },
+    {
+      "contrast": "GDT768 M05 versus M02",
+      "reason": "Operational alternatives can remain logically compatible; opaque learned wholes do not establish flower/seed identities."
+    },
+    {
+      "contrast": "GDT816 Q versus R",
+      "reason": "The surrounding okol guess differs too; rival relation is not a one-word controlled ablation."
+    },
+    {
+      "contrast": "Full temper-and-hold instruction versus temperature state",
+      "reason": "Only the explicitly proposed TEMPERIEREN action is a possible entailed target; LAUWARM state is not substituted for this target."
+    },
+    {
+      "contrast": "T EINSTELLEN multi-case card",
+      "reason": "The GDT410 rival applies to that explicitly compared literal core declaration; no later host model status or universal portability is inherited."
+    }
+  ],
+  "limitations": [
+    "Approvals concern source-supported relation curation only, not true meanings or permission to rerun.",
+    "No pair is approved merely because two German labels differ.",
+    "Uncertain scope bridges are not empirical failures.",
+    "Evidence already present in S was verified against unchanged source bytes; additional source paragraphs were read for local context."
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "schema": "clean_source_gap_review_v1",
+  "review_id": "CLEAN_GAP_REVIEW_T",
+  "cards": [
+    {
+      "id": "CLEAN_GAP_T:r_yteedy_context",
+      "claim": "At the GDT727 f86v6.25 context, yteedy is rendered as cooling the just-strained hot drug fraction I to its final stage.",
+      "claim_type": "lexical_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:5470d92169bdffe342eb"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/REPORT.md",
+          "line": 20,
+          "line_end": 21,
+          "quote": "- `yteedy` auf f86v6.25: den soeben abgeseihten heißen Drogenanteil I bis zur\n  Endstufe abkühlen.",
+          "sha256": "603fb3731a10946670b8666bad14616c11975f2dc982f7f22fb270312cbe763b"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "assessment_basis": "direct_original_source_review",
+      "scope": "An occurrence-bound expansion using the previous physical line, not a portable lexical identity or an independently confirmed reading.",
+      "source_polarity": "historical_working_hypothesis",
+      "failure_reason": "Source-bound working reading only. Model consistency and fluent rendering do not identify a manuscript word; no semantic confirmation is inherited.",
+      "unit": "single occurrence f86v6.25 in GDT727",
+      "claim_limits": [
+        "No atom or stem value exported.",
+        "No new manuscript observation or scientific test."
+      ]
+    },
+    {
+      "id": "CLEAN_GAP_T:r_ykeeody_endpoint",
+      "claim": "ykeeody is proposed as a hot final/closure state, with a preparation reading weaker.",
+      "claim_type": "lexical_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:73577a2e52d1cbd58e69"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt746_whole_analogy_distribution_test/REPORT.md",
+          "line": 32,
+          "line_end": 32,
+          "quote": "- `ykeeody`: heißer End-/Abschlusszustand; Ansatzlesung schwächer.",
+          "sha256": "8d0fa7625b1ffee06daee8e782bbfea5ead2fb6b0b89d4ff74d24384d069dca1"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "assessment_basis": "direct_original_source_review",
+      "scope": "A GDT746 whole-analogy candidate; the source reports descriptive comparison, not semantic identification or a calibrated probability.",
+      "source_polarity": "historical_working_hypothesis",
+      "failure_reason": "Source-bound working reading only. Model consistency and fluent rendering do not identify a manuscript word; no semantic confirmation is inherited.",
+      "unit": "complete form ykeeody under GDT746 whole-analogy candidate scope",
+      "claim_limits": [
+        "No atom or stem value exported.",
+        "No new manuscript observation or scientific test."
+      ]
+    }
+  ],
+  "dispositions": [
+    {
+      "source_id": "LEGACY_COMPONENT:5470d92169bdffe342eb",
+      "decision": "accepted",
+      "reason": "Concrete source-bound reading absent from the bounded counterpart search, with occurrence/full-form scope retained.",
+      "card_ids": [
+        "CLEAN_GAP_T:r_yteedy_context"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:73577a2e52d1cbd58e69",
+      "decision": "accepted",
+      "reason": "Concrete source-bound reading absent from the bounded counterpart search, with occurrence/full-form scope retained.",
+      "card_ids": [
+        "CLEAN_GAP_T:r_ykeeody_endpoint"
+      ]
+    }
+  ],
+  "input_audit": "research_registry/decisions/source_coverage_gap_batch_r.json",
+  "input_sha256": "e37aff979c3935f85a8c0ca8646c8b304d614f8d6162f9e94253e92204d49a6c",
+  "validation": {
+    "status": "PASS",
+    "cards": 2,
+    "inventory_ids_checked": true,
+    "validate_card_checks": 2,
+    "new_confirmed_meanings": 0
+  }
+}

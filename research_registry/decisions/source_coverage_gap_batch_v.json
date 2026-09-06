@@ -1,0 +1,1022 @@
+{
+  "schema": "source_coverage_gap_audit_v1",
+  "review_id": "SOURCE_COVERAGE_GAP_BATCH_V",
+  "scope": "28 fully read, new actual unresolved_block source spans; prior J/M/R/Q source IDs and overlapping cited line intervals excluded. No private or untracked V81 sources.",
+  "selection": {
+    "eligible_initial_blocks": 44,
+    "initial_selected_different_files": 30,
+    "overlap_removed_initial_indices": [
+      5,
+      19
+    ],
+    "final_blocks": 28,
+    "span_lines": "4–20",
+    "navigation": "Weighted content/overall/concrete-reading and hypothesis/model headings; descending score then SHA256 ID; at most one block per file.",
+    "stopping_reason": "Four concrete scoped candidate gaps recovered; avoid expanding with headings/status rows merely to reach100.",
+    "nonrepresentative_sample": true
+  },
+  "reviewed_blocks": [
+    {
+      "source_id": "LEGACY_COMPONENT:10c3b303c9b84287cc4f",
+      "selection_index": 0,
+      "source_record_type": "unresolved_block",
+      "title": "Joint content interpretation",
+      "evidence": {
+        "path": "experiments/yolo/gdt811_four_page_content_synthesis/REPORT.md",
+        "line": 95,
+        "line_end": 98,
+        "quote": "This historical architecture is not a new codebook identification. The\n[source notes](src/F77_HISTORICAL_READING.md) distinguish the actual dates and\nlayers of the medicinal-water, Wellcome MS510 and Parker MS395 comparators.\nThey support plausible kinds of content, not an EVA-to-Latin mapping.",
+        "sha256": "b5277bce41201d1146d398b95e59d864ad08f59a92e23d262b1de20c3dcc6e8c"
+      },
+      "disposition": "nonproposition",
+      "reason": "Selected text is heading/status, provenance/counts, a limiting correction, or renderer order-conservation commentary rather than a new content proposal.",
+      "existing_exact_source_overlap": [],
+      "accepted_counterparts": [],
+      "counts_as_semantic_coverage_completed": true
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:a4a7063c46000470f4e1",
+      "selection_index": 1,
+      "source_record_type": "unresolved_block",
+      "title": "GDT208 — the strongest content theory is medicinal-alchemical circulation",
+      "evidence": {
+        "path": "GDT208_MEDICAL_ALCHEMICAL_CIRCULATION_REPORT.md",
+        "line": 1,
+        "line_end": 3,
+        "quote": "# GDT208 — the strongest content theory is medicinal-alchemical circulation\n\nStatus: **MEDICAL_ALCHEMICAL_CIRCULATION_THEORY_STRENGTHENED_EXACT_TRANSLATION_KEY_ABSENT**.",
+        "sha256": "eb15da3569cb5e54703a2efb1b0b06d258a1d88629f9a0b9a7c65134b9560155"
+      },
+      "disposition": "nonproposition",
+      "reason": "Selected text is heading/status, provenance/counts, a limiting correction, or renderer order-conservation commentary rather than a new content proposal.",
+      "existing_exact_source_overlap": [],
+      "accepted_counterparts": [],
+      "counts_as_semantic_coverage_completed": true
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:d94d14411146792f5feb",
+      "selection_index": 2,
+      "source_record_type": "unresolved_block",
+      "title": "Inhaltliche Arbeitstheorie",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_dual_layer_release_one_thousand_second/PASS1002_CURRENT_WORKING_THEORY.md",
+        "line": 45,
+        "line_end": 56,
+        "quote": "## Inhaltliche Arbeitstheorie\n\nDie Seiten lesen sich weiterhin am besten als bebildertes Arbeitsbuch:\nPflanzenstoffe und ihre Teile, Ansaetze und Gefaesse, lokale Bade-/Wasch- und\nAnwendungsstationen sowie getrennte Himmels- und Zeitwahlinstrumente. Die\nkonkreten Substantive kommen weitgehend aus Bildern und Masterexemplar; die\nportable Schrift traegt vor allem Auswahl, Menge, Quelle, Ziel, Prozess, Grad,\nFortsetzung und Abschluss.\n\nDas erklaert zugleich, warum dasselbe Wurzelgeruest Pflanzenartikel,\nBeckenanweisungen und Himmelsringe bedienen kann: Die Grammatik ist gemeinsam,\nder sichtbare Besitzer wechselt.",
+        "sha256": "06a8b20176904f64535a68cb69cebc0923e4781198330e4233c96053316df8c5"
+      },
+      "disposition": "accepted_counterpart",
+      "reason": "Substantive proposition or retained model pair already represented; no new idea inferred from a new source block.",
+      "existing_exact_source_overlap": [
+        "SEM:73a260b9db84592f2c28"
+      ],
+      "accepted_counterparts": [
+        {
+          "target": "SEM:73a260b9db84592f2c28",
+          "effective_claim": "Die Seiten lesen sich weiterhin am besten als bebildertes Arbeitsbuch: Pflanzenstoffe und ihre Teile, Ansaetze und Gefaesse, lokale Bade-/Wasch- und Anwendungsstationen sowie getrennte Himmels- und Zeitwahlinstrumente. Die konkreten Substantive kommen weitgehend aus Bildern und Masterexemplar; die portable Schrift traegt vor allem Auswahl, Menge, Quelle, Ziel, Prozess, Grad, Fortsetzung und Abschluss. Das erklaert zugleich, warum dasselbe Wurzelgeruest Pflanzenartikel, Beckenanweisungen und Himmelsringe bedienen kann: Die Grammatik ist gemeinsam, der sichtbare Besitzer wechselt.",
+          "effective_claim_type": "semantic_model",
+          "target_basis_sha256": "33a8c907916dd2389e83579beae30c0fd0733f6688678af1bb27e2f471313778",
+          "comparison": "Same stated content proposal or model pair; does not confer semantic validation.",
+          "evidence": [
+            {
+              "line": 45,
+              "path": "experiments/yolo/sidequest_semantic_dual_layer_release_one_thousand_second/PASS1002_CURRENT_WORKING_THEORY.md",
+              "quote": "## Inhaltliche Arbeitstheorie",
+              "sha256": "06a8b20176904f64535a68cb69cebc0923e4781198330e4233c96053316df8c5"
+            },
+            {
+              "line": 47,
+              "path": "experiments/yolo/sidequest_semantic_dual_layer_release_one_thousand_second/PASS1002_CURRENT_WORKING_THEORY.md",
+              "quote": "Die Seiten lesen sich weiterhin am besten als bebildertes Arbeitsbuch:\nPflanzenstoffe und ihre Teile, Ansaetze und Gefaesse, lokale Bade-/Wasch- und\nAnwendungsstationen sowie getrennte Himmels- und Zeitwahlinstrumente. Die\nkonkreten Substantive kommen weitgehend aus Bildern und Masterexemplar; die\nportable Schrift traegt vor allem Auswahl, Menge, Quelle, Ziel, Prozess, Grad,\nFortsetzung und Abschluss.",
+              "sha256": "06a8b20176904f64535a68cb69cebc0923e4781198330e4233c96053316df8c5"
+            },
+            {
+              "line": 54,
+              "path": "experiments/yolo/sidequest_semantic_dual_layer_release_one_thousand_second/PASS1002_CURRENT_WORKING_THEORY.md",
+              "quote": "Das erklaert zugleich, warum dasselbe Wurzelgeruest Pflanzenartikel,\nBeckenanweisungen und Himmelsringe bedienen kann: Die Grammatik ist gemeinsam,\nder sichtbare Besitzer wechselt.",
+              "sha256": "06a8b20176904f64535a68cb69cebc0923e4781198330e4233c96053316df8c5"
+            }
+          ]
+        }
+      ],
+      "counts_as_semantic_coverage_completed": true
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:f4eb9c2a4fc138b9f21e",
+      "selection_index": 3,
+      "source_record_type": "unresolved_block",
+      "title": "GDT210 — therapeutic balneology now leads the q13 content theory",
+      "evidence": {
+        "path": "GDT210_THERAPEUTIC_BALNEOLOGICAL_COMPARATOR_REPORT.md",
+        "line": 1,
+        "line_end": 3,
+        "quote": "# GDT210 — therapeutic balneology now leads the q13 content theory\n\nStatus: **THERAPEUTIC_BALNEOLOGY_LEADING_Q13_CONTENT_THEORY_HYDRAULIC_HYBRID_PROVISIONAL**.",
+        "sha256": "3671117cccfb54862084fe4d29154743604433ea5b36be9ec69df52bc383084c"
+      },
+      "disposition": "nonproposition",
+      "reason": "Selected text is heading/status, provenance/counts, a limiting correction, or renderer order-conservation commentary rather than a new content proposal.",
+      "existing_exact_source_overlap": [],
+      "accepted_counterparts": [],
+      "counts_as_semantic_coverage_completed": true
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:4c0f38602c7f00464e0a",
+      "selection_index": 4,
+      "source_record_type": "unresolved_block",
+      "title": "Genau ein führendes Inhaltsmodell und ein Rivale",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_theory_candidates_v80/V80_R3_CANONICAL_THIRD_EDITION_REPORT.md",
+        "line": 83,
+        "line_end": 90,
+        "quote": "## Genau ein führendes Inhaltsmodell und ein Rivale\n\nDie Ausgabe friert genau diese zwei bereits ausgewählten Modelle ein:\n\n- führend: `A_PRACTITIONER_THERAPEUTIC_IATROMATHEMATICAL_COMPENDIUM`;\n- Rivale: `B_NATURAL_ARTIFICIAL_CELESTIAL_IMAGE_ATLAS_MODELBOOK`.\n\nDas führende Modell dient nur als einheitliches Masterexemplar für die lesbare Ausgabe. Der Rivale hält eine technisch-formale, nichtmedizinische Gegenlesung offen. V80 bewertet keines der beiden als wahr, decodiert oder semantisch aus dem Text gewonnen. Die knappe ältere Zweckwertung wird nicht zu einem Entzifferungsbeleg hochgestuft.",
+        "sha256": "00bfe5286490bf2f476194f1162d16035be538f5f0657e05b833272423e3c763"
+      },
+      "disposition": "accepted_counterpart",
+      "reason": "Substantive proposition or retained model pair already represented; no new idea inferred from a new source block.",
+      "existing_exact_source_overlap": [],
+      "accepted_counterparts": [
+        {
+          "target": "SEM:491b06fa54c4f05a96aa",
+          "effective_claim": "Lead: A_PRACTITIONER_THERAPEUTIC_IATROMATHEMATICAL_COMPENDIUM — illustriertes therapeutisch-iatromathematisches Praxis- und Nachschlagekompendium. Rivale: B_NATURAL_ARTIFICIAL_CELESTIAL_IMAGE_ATLAS_MODELBOOK — Natur–Kunst–Himmel-Bildatlas oder Musterbuch. Der eingefrorene V76-Vorsprung beträgt nur 236:235. Deshalb ist der Lead die konkrete Arbeitsordnung der Edition, nicht eine historische Identifikation",
+          "effective_claim_type": "semantic_model",
+          "target_basis_sha256": "fd06c082d8475a9a87d3a8235aae700ce66b5d63bb58fe834dc5d5f6e0be302c",
+          "comparison": "Same stated content proposal or model pair; does not confer semantic validation.",
+          "evidence": [
+            {
+              "line": 38,
+              "path": "experiments/yolo/sidequest_theory_candidates_v80/V80_R1_REPORT.md",
+              "quote": "## Buchinhalt: genau ein Lead und ein Rivale",
+              "sha256": "f22979841233d29007318ae51bfa1d3d02d57c2da957474c3aa31eb0c42eec22"
+            },
+            {
+              "line": 40,
+              "path": "experiments/yolo/sidequest_theory_candidates_v80/V80_R1_REPORT.md",
+              "quote": "Lead: `A_PRACTITIONER_THERAPEUTIC_IATROMATHEMATICAL_COMPENDIUM` — illustriertes therapeutisch-iatromathematisches Praxis- und\nNachschlagekompendium. Rivale: `B_NATURAL_ARTIFICIAL_CELESTIAL_IMAGE_ATLAS_MODELBOOK` — Natur–Kunst–Himmel-Bildatlas oder\nMusterbuch. Der eingefrorene V76-Vorsprung beträgt nur 236:235. Deshalb ist der\nLead die konkrete Arbeitsordnung der Edition, nicht eine historische Identifikation.",
+              "sha256": "f22979841233d29007318ae51bfa1d3d02d57c2da957474c3aa31eb0c42eec22"
+            }
+          ]
+        }
+      ],
+      "counts_as_semantic_coverage_completed": true
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:a057515c0949e8b1770f",
+      "selection_index": 6,
+      "source_record_type": "unresolved_block",
+      "title": "Beste Gesamtlesung",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_stem_search/R1_SEMANTIC_MORPHEME_THEORY.md",
+        "line": 141,
+        "line_end": 154,
+        "quote": "## Beste Gesamtlesung\n\nAuf den Pflanzenseiten ist die Bildpflanze der unausgesprochene Besitzer;\nKarten spezifizieren Teil, Portion, Flüssigkeit, Gefäß, Erwärmen, Filtern und\nGebrauch. Auf den biologischen Seiten wird dieselbe kleine Chemie in sichtbaren\nBecken, Rinnen, Öffnungen, Tüchern und Körperzielen angewandt. Das gemeinsame\nGenre wäre am ehesten ein praktisches Pflanzen-, Wasch- und Badehandbuch mit\nkompakter Werkstattnotation.\n\nDiese Theorie ist explorativ und darf ersetzt werden, sobald eine einfachere\nkonkrete Stammbelegung mehr Wörter zugleich erklärt. Die drei Kreis-/\nAstronomieseiten bleiben in dieser Runde lokale Beschriftungssysteme; die hier\nbeauftragten 173 Karten und 381 Ereignisse sind der Prosaapparat. Keine weitere\nSeite wurde hinzugezogen; f84 und f84r blieben geschlossen.",
+        "sha256": "62a407e4fd0527338b3bc6327f79661177f21bf1db68101d05db7d7f1a974c25"
+      },
+      "disposition": "scope_unresolved",
+      "reason": "Contains a model/reading conjunction; broad genre or atom similarity does not prove whole-scope identity. No new idea or completed coverage is claimed.",
+      "existing_exact_source_overlap": [],
+      "accepted_counterparts": [],
+      "counts_as_semantic_coverage_completed": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:6e7f498f927ad4664266",
+      "selection_index": 7,
+      "source_record_type": "unresolved_block",
+      "title": "Neue Gesamtlesung",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_product_station_compatibility_six_hundred_first/SIX_HUNDRED_FIRST_REPORT.md",
+        "line": 23,
+        "line_end": 33,
+        "quote": "## Neue Gesamtlesung\n\nDie WHAT/HOW-Kopplung ist jetzt greifbar:\n\n```text\nHerbal erzeugt eine Produktklasse\n-> Werkstatt waehlt eine kompatible Stationsklasse\n-> Biological beschreibt den lokalen Umgang mit diesem Produkt\n```\n\nDas ist staerker als blosse gemeinsame Grammatik, aber immer noch kein entschluesselter Querverweis.",
+        "sha256": "49f053edf862a3e746d079fed7a7e7553570c769c88a70eb2290d7a5f50cf600"
+      },
+      "disposition": "exact_gap_possible",
+      "reason": "Explicit scoped positive interpretation with no located exact current counterpart; see complete claim and semantic contrasts below.",
+      "existing_exact_source_overlap": [],
+      "accepted_counterparts": [],
+      "counts_as_semantic_coverage_completed": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:2353d4337be66c51be84",
+      "selection_index": 8,
+      "source_record_type": "unresolved_block",
+      "title": "Komplette konkrete Rücklesung",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_theory_candidates_v55/V55_R1_CIRCLE_ASTRO_EDITION_REPORT.md",
+        "line": 119,
+        "line_end": 133,
+        "quote": "### Komplette konkrete Rücklesung\n\n> Dies ist eine geordnete Regelrolle. Lies zuerst die drei Anweisungsbänder mit\n> zusammen 107 Gruppen. Gehe danach die 28 radialen Einträge in der auf diesem\n> Blatt vorgegebenen Folge durch. Jeder vollständige Eintrag ist eine lokale\n> Regelkarte; längere und kürzere Plätze zeigen nur verfügbaren Schreibraum.\n> Der identische Eintrag `okeod` an den Positionen 11, 15 und 24 wird jedes Mal\n> als dieselbe, noch unbekannte Regel rückgelesen. Nach dem 28. Eintrag beginnt\n> die Folge nur innerhalb dieses Blattes erneut.\n\nDamit ist die Tafel vollständig ausführbar als geordnete Auswahl- und\nMerkfolge, ohne `okeod` zu „baden“ oder irgendeine andere sichtbare Form zu\neiner medizinischen Handlung zu machen. Eine konkrete medizinische\nElektionstafel bleibt ein möglicher Quelleninhalt, nicht die ausgewählte\nGruppenübersetzung.",
+        "sha256": "4c3549adfa844fe4f58e3a95e85147054b25a2f24b45eefabb0e1067711b0c92"
+      },
+      "disposition": "scope_unresolved",
+      "reason": "Contains a model/reading conjunction; broad genre or atom similarity does not prove whole-scope identity. No new idea or completed coverage is claimed.",
+      "existing_exact_source_overlap": [],
+      "accepted_counterparts": [],
+      "counts_as_semantic_coverage_completed": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:438c79b9be90a278b5b1",
+      "selection_index": 9,
+      "source_record_type": "unresolved_block",
+      "title": "Five complete working readings",
+      "evidence": {
+        "path": "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/REPORT.md",
+        "line": 119,
+        "line_end": 122,
+        "quote": "## Five complete working readings\n\nThese are exploratory semantic readers, not recovered plaintext. Semicolons\npreserve written order without claiming attachment.",
+        "sha256": "d0d18c1673a524356c8e082f6aad351f734d327912b6da26ce02d6bccdf7709e"
+      },
+      "disposition": "nonproposition",
+      "reason": "Selected text is heading/status, provenance/counts, a limiting correction, or renderer order-conservation commentary rather than a new content proposal.",
+      "existing_exact_source_overlap": [],
+      "accepted_counterparts": [],
+      "counts_as_semantic_coverage_completed": true
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:60b340803f2e116ecfb1",
+      "selection_index": 10,
+      "source_record_type": "unresolved_block",
+      "title": "Beste derzeitige Gesamtlesung",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_ten_page_register_bridge/TEN_PAGE_REGISTER_BRIDGE_REPORT.md",
+        "line": 125,
+        "line_end": 140,
+        "quote": "## Beste derzeitige Gesamtlesung\n\nDie zehn Seiten wirken wie Teile eines bildgestützten praktischen\nWerkstattbuchs. Pflanzenbilder eröffnen Materialartikel; die biologischen\nSeiten führen lokale Bade-, Wasch-, Zubereitungs- und Anwendungsstationen;\ndie Kreisseiten ordnen Werte, Plätze und Bedingungen in eigenständigen\nHimmelsinstrumenten. Ob der Gesamtzweck enger medizinisch oder allgemeiner\npraktisch-technisch ist, bleibt offen. Die Schreibmaschine selbst ist nun\neinheitlicher als beide Inhaltsvarianten:\n\n> Bildbesitzer + gemeinsamer Werkstattkern + registereigene Expansion +\n> kleiner lokaler Nomenklator.\n\nDas ist der Fortschritt dieses Passes: Astro ist nicht länger ein getrenntes\nEtikettenarchiv, sondern dasselbe erlernbare Werkstattsystem in einem anderen\nRegister.",
+        "sha256": "e08b787098c59969607cd7662b2cba83ba11cb7007589e9a6d38951a13d1d2c9"
+      },
+      "disposition": "scope_unresolved",
+      "reason": "Contains a model/reading conjunction; broad genre or atom similarity does not prove whole-scope identity. No new idea or completed coverage is claimed.",
+      "existing_exact_source_overlap": [],
+      "accepted_counterparts": [],
+      "counts_as_semantic_coverage_completed": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:6b7153a6de5fa1a2509d",
+      "selection_index": 11,
+      "source_record_type": "unresolved_block",
+      "title": "Iteration 129 — current maximum-content reading of the three Bio pages",
+      "evidence": {
+        "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+        "line": 7158,
+        "line_end": 7163,
+        "quote": "The most economical content reading is **bath/application/apparatus\nspecification**, not continuous narrative. The figures and tubes provide silent\narguments; prose records state common rules or regimens; labels select local\nconfigurations; short cells commit attributes or states. A treatment sequence\nis possible, but the pages need not be chronological stages. They may be three\nplates from a catalogue of arrangements.",
+        "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+      },
+      "disposition": "accepted_counterpart",
+      "reason": "Substantive proposition or retained model pair already represented; no new idea inferred from a new source block.",
+      "existing_exact_source_overlap": [
+        "SEM:e15b824050f3c63149a3"
+      ],
+      "accepted_counterparts": [
+        {
+          "target": "SEM:e15b824050f3c63149a3",
+          "effective_claim": "Biological pages catalogue bath, application or apparatus arrangements rather than necessarily narrating chronological treatment stages.",
+          "effective_claim_type": "functional_hypothesis",
+          "target_basis_sha256": "3510dfb76476475b3e8db3d26ceab0b5e10f2a7bd48ed09d1e746b991534f284",
+          "comparison": "Same stated content proposal or model pair; does not confer semantic validation.",
+          "evidence": [
+            {
+              "line": 7143,
+              "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+              "quote": "## Iteration 129 — current maximum-content reading of the three Bio pages",
+              "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+            },
+            {
+              "line": 7145,
+              "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+              "quote": "The same symbolic vocabulary yields:",
+              "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+            },
+            {
+              "line": 7158,
+              "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+              "quote": "The most economical content reading is **bath/application/apparatus\nspecification**, not continuous narrative. The figures and tubes provide silent\narguments; prose records state common rules or regimens; labels select local\nconfigurations; short cells commit attributes or states. A treatment sequence\nis possible, but the pages need not be chronological stages. They may be three\nplates from a catalogue of arrangements.",
+              "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+            },
+            {
+              "line": 7165,
+              "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+              "quote": "The women's-health fork remains historically plausible because comparable\nmedical miscellanies place women's recipes, waters, bathing and diagrams\ntogether. It is nevertheless weaker than the neutral apparatus/regimen reading:\nthe drawn figures do not prove patients, fertility, anatomy or disease.",
+              "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+            }
+          ]
+        }
+      ],
+      "counts_as_semantic_coverage_completed": true
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:6193777eab1b3e493d29",
+      "selection_index": 12,
+      "source_record_type": "unresolved_block",
+      "title": "Führende Gesamtlesung",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_theory_candidates_v76/V76_R4_CHANCERY_BOOK_PURPOSE_REPORT.md",
+        "line": 5,
+        "line_end": 19,
+        "quote": "## Führende Gesamtlesung\n\nDas stärkste einzelne Buchmodell ist ein **illustriertes praktisches\nGesundheits- und Himmelskompendium einer kleinen Werkstatt**:\n\n```text\nHerbal      = welche Pflanzenstoffe und Zubereitungen\nBiological  = welche lokalen Bäder, Waschungen, Anwendungen und Geräteplätze\nCelestial   = unter welchem lokalen Himmels-/Kalenderhinweis nachschlagen\n```\n\nDas Manuskript wäre darin kein Fließtextbuch, sondern ein stark elliptisches\nArbeits- und Nachschlageexemplar. Bilder werden zuerst gezeichnet und liefern\nden stillen Besitzer. Danach kopieren mehrere Schreiber kurze opake Karten aus\neinem ausführlicheren Masterexemplar in die verbleibenden Räume.",
+        "sha256": "cb9949e811d576be700044655a884e30af18d146d2f3fbc49096e3484c7281e1"
+      },
+      "disposition": "scope_unresolved",
+      "reason": "Contains a model/reading conjunction; broad genre or atom similarity does not prove whole-scope identity. No new idea or completed coverage is claimed.",
+      "existing_exact_source_overlap": [],
+      "accepted_counterparts": [],
+      "counts_as_semantic_coverage_completed": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:852c2e6fd2be95863950",
+      "selection_index": 13,
+      "source_record_type": "unresolved_block",
+      "title": "Best retained provisional readings",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_theory_candidates_v2/V2_THEORY_SELECTION.md",
+        "line": 63,
+        "line_end": 79,
+        "quote": "## Best retained provisional readings\n\n| card/construction | selected role | confidence |\n|---|---|---:|\n| attached DY/B3 behavior | local field commitment/termination | .78 formal |\n| exact `qokaiin` | entry/instruction head | .46 formal |\n| exact `qokaiin` | TAKE/USE/ENTER/APPLY-like source class | .27 |\n| L/O exact card | link/co-member/general relation | .39 formal |\n| AIIN exact card | parameter/amount/degree/index/reference | .28 |\n| AIIN specifically quantity | subordinate hypothesis | .15 |\n| CTHY exact card | qualifier/prepared/property state | .25 |\n| Y exact card | item/unit/reference slot | .21 |\n| `Y–AIIN–Y` | paired or typed parameter frame | .34 constructional |\n| `Y–AIIN–Y` specifically equal amount | subordinate hypothesis | .12 |\n| f82r repeated `qokaiin` | one copied-forward logical head | .52 local parse only |\n\nNo entry is a confirmed word, sound, POS or translation.",
+        "sha256": "2202661c950e6b7eb089670c5bf999f14b9b283878c8d2e771a76e35dbce0eb6"
+      },
+      "disposition": "scope_unresolved",
+      "reason": "Contains a model/reading conjunction; broad genre or atom similarity does not prove whole-scope identity. No new idea or completed coverage is claimed.",
+      "existing_exact_source_overlap": [],
+      "accepted_counterparts": [],
+      "counts_as_semantic_coverage_completed": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:326246c1c8345b2e65a3",
+      "selection_index": 14,
+      "source_record_type": "unresolved_block",
+      "title": "Konkrete Lesung der Biological-Module",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_work_module_completion/WORK_MODULE_REPORT.md",
+        "line": 73,
+        "line_end": 90,
+        "quote": "## Konkrete Lesung der Biological-Module\n\nDie Biological-Seiten sind jetzt kein angenommener Gesamtwasserkreislauf mehr.\nSie werden als lokale Programme gelesen:\n\n- **f81v / B1:** Grundprogramme des gemeinsamen Pools; abgekühlte Badmischung;\n  kurze Haltevarianten; Durchlauf zum Waschgang; Auslass zum Auffanggefäß;\n  Sammel-/Seih-/Zielvarianten.\n- **f82r / B2:** obere Paarbecken; Überlaufposten zur Mittelstation;\n  Absetzvarianten; Klarflüssigkeit zur unklaren Mittelstation; Sprung zum\n  unteren Pool; Bodenablauf und Randstation; sieben Randprogramme.\n- **f83r / B3:** obere Fächerstation; Sollmaßportion zum Rundgefäß;\n  Rundgefäßprogramme; Ansatz zur Korbstation; lokale Aufstreich-/Absetzroutine;\n  ungelöste Zwischenstation; Hauptbogenprogramme.\n- **f83r / B4:** zehn Anwendungs-/Filtervarianten am Hauptpaar; vier Programme\n  am linken Fransenposten; Klarflüssigkeit zum rechten Knoten; warmer Ausguss.\n- **B5/B6:** getrennte linke und rechte Stationsnachträge, nicht die letzten\n  Phasen eines einzigen B4-Kreislaufs.",
+        "sha256": "7dcf3656834a25c4df2892be2ac46746bd0abc544203b35aa1a83a7c4c6b1dce"
+      },
+      "disposition": "scope_unresolved",
+      "reason": "Contains a model/reading conjunction; broad genre or atom similarity does not prove whole-scope identity. No new idea or completed coverage is claimed.",
+      "existing_exact_source_overlap": [],
+      "accepted_counterparts": [],
+      "counts_as_semantic_coverage_completed": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:38d7b40b5e9a01c22744",
+      "selection_index": 15,
+      "source_record_type": "unresolved_block",
+      "title": "Gesamtlesung",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_b2_station_book_five_hundred_thirty_third/FIVE_HUNDRED_THIRTY_THIRD_REPORT.md",
+        "line": 3,
+        "line_end": 15,
+        "quote": "## Gesamtlesung\n\nf82r/B2 enthält 62 Karten in 22 Betriebszellen. Neunzehn Zellen schließen,\ndrei bleiben offen. Die Seite wird in fünf sichtbare Stationen getrennt:\n\n1. oberes Beckenpaar mit Zylinder — 22 Karten;\n2. mittleres linkes Handgerät mit Inline-Knoten — 9;\n3. mittlere rechte, bildlich unklare Station — 5;\n4. unteres grünes Mehrfigurenbecken — 9;\n5. kleine Randstationen des unteren Beckens — 17.\n\nZwischen diesen Stationen wird keine Leitung erfunden. Ihre Textreihenfolge ist\nreal; eine physische Verbindung ist es nicht automatisch.",
+        "sha256": "258b6a333e805dc146e2301fe239c6ba34dce35ec8b47cc2c7146b811850df15"
+      },
+      "disposition": "scope_unresolved",
+      "reason": "Contains a model/reading conjunction; broad genre or atom similarity does not prove whole-scope identity. No new idea or completed coverage is claimed.",
+      "existing_exact_source_overlap": [],
+      "accepted_counterparts": [],
+      "counts_as_semantic_coverage_completed": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:beaafb23687be976b115",
+      "selection_index": 16,
+      "source_record_type": "unresolved_block",
+      "title": "Beste derzeitige Gesamtlesung",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_book_function_synthesis_nine_hundred_forty_seventh/PASS947_COMPLETE_WORKING_THEORY.md",
+        "line": 3,
+        "line_end": 14,
+        "quote": "## Beste derzeitige Gesamtlesung\n\nEin möglicher Werkstatttitel wäre *Liber simplicium, compositionum, balneorum et temporum caelestium*: ein bildgeführtes praktisches Kompendium, das nicht jedes Sachwort ausschreibt, sondern Bildbesitzer, lokale Namen, gelernte Arbeitsformeln und produktive Kürzel verbindet.\n\nDie vier Abteilungen beantworten eine einfache Arbeitsfolge:\n\n1. **Was?** — Welcher einfache Pflanzenstoff und welcher Teil davon?\n2. **Woraus und worin?** — Welche Zutaten kommen in welchen Ansatz oder welches Gefäß?\n3. **Wie und wo?** — An welcher Bade-, Körper- oder Leitungsstation wird der Posten angesetzt, gehalten, umgesetzt oder abgesetzt?\n4. **Wann/unter welchem Himmel?** — Welcher Ringplatz, Grad oder Sternort wird für den betreffenden Eintrag nachgeschlagen?\n\nEs braucht keine sichtbaren Querverweise zwischen den Seiten. Die Werkstatt verbindet die Abteilungen durch denselben kleinen Kartenapparat und durch die Reihenfolge des praktischen Wissens.",
+        "sha256": "1f0e0625be45601eb88884a7e30a66a79dd9ec06016fa4c271fb4d55adcd716f"
+      },
+      "disposition": "scope_unresolved",
+      "reason": "Contains a model/reading conjunction; broad genre or atom similarity does not prove whole-scope identity. No new idea or completed coverage is claimed.",
+      "existing_exact_source_overlap": [],
+      "accepted_counterparts": [],
+      "counts_as_semantic_coverage_completed": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:d80f8a1a8ab070390d2f",
+      "selection_index": 17,
+      "source_record_type": "unresolved_block",
+      "title": "Combined working reading",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_normalized_h4_h5_b2_edition_hundred_ninety_ninth/HUNDRED_NINETY_NINTH_NORMALIZED_TRANSLATION_REPORT.md",
+        "line": 38,
+        "line_end": 50,
+        "quote": "## Combined working reading\n\nH4 supplies measured stored portions. H5 turns a portion or extract into a\ntarget additive/application. B2 routes such working material through visible\nstations in short closed cells. This remains compatible with both therapeutic\nwashing and technical bathhouse operation; the cards specify process more\nstrongly than domain.\n\nAll 107 visible events, 37 fields and 32 statements have normalized and fluent\nlayers. Together with the preceding two passes, all 381 fixed prose events are\nnow covered by the new normalization. Next consolidate one complete 381-event\nfour-layer edition and compare its concrete vocabulary against the old master\ndictionary.",
+        "sha256": "e59ea3868f833440ca258f940e66251d33530297f78b427bc4f3407333b7bc0b"
+      },
+      "disposition": "exact_gap_possible",
+      "reason": "Explicit scoped positive interpretation with no located exact current counterpart; see complete claim and semantic contrasts below.",
+      "existing_exact_source_overlap": [],
+      "accepted_counterparts": [],
+      "counts_as_semantic_coverage_completed": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:404fe5aca4cc142ba06c",
+      "selection_index": 18,
+      "source_record_type": "unresolved_block",
+      "title": "Beste gegenwärtige Gesamtlesung",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_manual_optical_passage_audit_one_thousand_eleventh/PASS1011_REPORT.md",
+        "line": 102,
+        "line_end": 114,
+        "quote": "## Beste gegenwärtige Gesamtlesung\n\nDie stärkste Arbeitsfassung ist nun einfacher als vor der Bildprüfung. Die\nKräuterseiten sind illustrierte Materialartikel. Die Biological-Seiten sind\nKataloge lokaler Bade-, Kontakt-, Behälter- und Anschlussvarianten, nicht ein\neinziges Wasserwerk. Der Text steuert Posten, Menge, Grad, Wiederholung und\nAbschluss; die Zeichnung liefert den konkreten Besitzer und manchmal eine\nwirkliche lokale Verbindung.\n\nDas passt zu einer kleinen Werkstatt mit mehreren Schreibern: Sie lernen eine\nkompakte Prozessnotation und benutzen die vorgezeichnete Seite als stillen\nSachträger. Sie müssen weder für jede Pflanzenzeile ein unsichtbares Labor noch\nfür jede Biological-Seite ein verborgenes Rohrnetz memorieren.",
+        "sha256": "8fe70393380cfaa456e408373db355909a456d24c5fe339cfedf8dd1ac108273"
+      },
+      "disposition": "scope_unresolved",
+      "reason": "Contains a model/reading conjunction; broad genre or atom similarity does not prove whole-scope identity. No new idea or completed coverage is claimed.",
+      "existing_exact_source_overlap": [],
+      "accepted_counterparts": [],
+      "counts_as_semantic_coverage_completed": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:a88e552f4a9db0787e22",
+      "selection_index": 20,
+      "source_record_type": "unresolved_block",
+      "title": "V55 R4 — korrekturische Gesamtlesung der drei Kreisseiten",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_theory_candidates_v55/V55_R4_CORRECTOR_ASTRO_REPORT.md",
+        "line": 1,
+        "line_end": 5,
+        "quote": "# V55 R4 — korrekturische Gesamtlesung der drei Kreisseiten\n\nStatus: unabhängige kreative Ganzdiagramm-Lesung vor Sichtung der anderen\nV55-Berichte. Keine Entzifferung. Die 395 ZL3b-Gruppen bilden eine eigene\nlokale Kartenwelt; kein GDT327-Prosa-Wert wird importiert.",
+        "sha256": "73dcd0afbbb8834da26f2ecc9859c67980e9ef5eca0515818d20fe59ae352b03"
+      },
+      "disposition": "nonproposition",
+      "reason": "Selected text is heading/status, provenance/counts, a limiting correction, or renderer order-conservation commentary rather than a new content proposal.",
+      "existing_exact_source_overlap": [],
+      "accepted_counterparts": [],
+      "counts_as_semantic_coverage_completed": true
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:59a9336c669b7e34ac56",
+      "selection_index": 21,
+      "source_record_type": "unresolved_block",
+      "title": "Current content basis after GDT821",
+      "evidence": {
+        "path": "experiments/yolo/gdt821_raiin_admitted_paragraph_transfer/WORKING_THEORY.md",
+        "line": 29,
+        "line_end": 32,
+        "quote": "All exact raiin in the39 admitted selectors now reviewed in full containing\nP paragraphs:12 loci on7 selectors,7 complete P blocks plus one L and one C,\n65 context loci/all3 readings.28 exact reader-group occurrences. No new pages\nor images; scope34 visual keys/39 selectors,16 extra admissions unused.",
+        "sha256": "316fa73d8d3e661f59418d8bf6da000b2040fc67b983a5588e6028bf14f21073"
+      },
+      "disposition": "nonproposition",
+      "reason": "Selected text is heading/status, provenance/counts, a limiting correction, or renderer order-conservation commentary rather than a new content proposal.",
+      "existing_exact_source_overlap": [],
+      "accepted_counterparts": [],
+      "counts_as_semantic_coverage_completed": true
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:8272cda86c6cb58088e6",
+      "selection_index": 22,
+      "source_record_type": "unresolved_block",
+      "title": "Arbeitsstand GDT813: ein Inhaltswort, noch keine Stoffidentifikation",
+      "evidence": {
+        "path": "experiments/yolo/gdt813_f17_content_word_transfer/WORKING_THEORY.md",
+        "line": 24,
+        "line_end": 27,
+        "quote": "Das identifiziert ausdrücklich **nicht Pulver**. Das Bild zeigt ein\nPflanzenfragment mit Blättern, keinen Pulverhaufen; ein eindeutiger Besitzer\ndes Labels ist nicht abgegrenzt. Ebenso hat Wurzel noch keinen unabhängigen\nWortbeleg. N ist die konkretere Frage, keine gewonnene Übersetzung.",
+        "sha256": "890c791cd38c5dce48773957fd2e8fe53935b9674747a38ef9d1196ace1db9d3"
+      },
+      "disposition": "nonproposition",
+      "reason": "Selected text is heading/status, provenance/counts, a limiting correction, or renderer order-conservation commentary rather than a new content proposal.",
+      "existing_exact_source_overlap": [
+        "SEM:2394e08e5d9afb417871",
+        "SEM:290c00069ff28e26351a",
+        "SEM:2bebc77194d6dca303ec",
+        "SEM:40f989b099e36ca42871",
+        "SEM:867dd59844d8457e8061",
+        "SEM:9f367740d80b66c21d64",
+        "SEM:a083e88bcb1bf4247e32",
+        "SEM:b669fb52dff2e1555d99",
+        "SEM:e95d2ef50840e41dad97",
+        "SEM:f3f37d25bae8e346d328"
+      ],
+      "accepted_counterparts": [],
+      "counts_as_semantic_coverage_completed": true
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:37a5459c6ec80c2c42e4",
+      "selection_index": 23,
+      "source_record_type": "unresolved_block",
+      "title": "1. `aiin` — strongest content-stem candidate",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_theory_candidates_v44/V44_R3_TECHNICAL_NOTATION_STEM_THEORY.md",
+        "line": 49,
+        "line_end": 52,
+        "quote": "All 20 local occurrences are one exact card meaning **a prescribed measure**,\nwhile the visible entry can be `aiin`, `chaiin`, `daiin`, `saiin`, or `taiin`.\nThis is precisely the behavior wanted from a shared core plus positional\nrenderer.",
+        "sha256": "b76bbac8226212b4f73d9851459249f60b2eaef883fa1ba258990e56e3283202"
+      },
+      "disposition": "accepted_counterpart",
+      "reason": "Substantive proposition or retained model pair already represented; no new idea inferred from a new source block.",
+      "existing_exact_source_overlap": [
+        "SEM:7bed60ddc01bf95408ce"
+      ],
+      "accepted_counterparts": [
+        {
+          "target": "SEM:7bed60ddc01bf95408ce",
+          "effective_claim": "The aiin core means a prescribed measure across its listed wrapped realizations.",
+          "effective_claim_type": "lexical_hypothesis",
+          "target_basis_sha256": "40dbe46518c7a1d6595695cf12efa0bb1e1f9923fc5a29d4ea69232ad6007dda",
+          "comparison": "Same stated content proposal or model pair; does not confer semantic validation.",
+          "evidence": [
+            {
+              "line": 47,
+              "path": "experiments/yolo/sidequest_theory_candidates_v44/V44_R3_TECHNICAL_NOTATION_STEM_THEORY.md",
+              "quote": "### 1. `aiin` — strongest content-stem candidate",
+              "sha256": "b76bbac8226212b4f73d9851459249f60b2eaef883fa1ba258990e56e3283202"
+            },
+            {
+              "line": 49,
+              "path": "experiments/yolo/sidequest_theory_candidates_v44/V44_R3_TECHNICAL_NOTATION_STEM_THEORY.md",
+              "quote": "All 20 local occurrences are one exact card meaning **a prescribed measure**,\nwhile the visible entry can be `aiin`, `chaiin`, `daiin`, `saiin`, or `taiin`.\nThis is precisely the behavior wanted from a shared core plus positional\nrenderer.",
+              "sha256": "b76bbac8226212b4f73d9851459249f60b2eaef883fa1ba258990e56e3283202"
+            },
+            {
+              "line": 54,
+              "path": "experiments/yolo/sidequest_theory_candidates_v44/V44_R3_TECHNICAL_NOTATION_STEM_THEORY.md",
+              "quote": "Working value:",
+              "sha256": "b76bbac8226212b4f73d9851459249f60b2eaef883fa1ba258990e56e3283202"
+            },
+            {
+              "line": 60,
+              "path": "experiments/yolo/sidequest_theory_candidates_v44/V44_R3_TECHNICAL_NOTATION_STEM_THEORY.md",
+              "quote": "The spelling-neighbour `ain` is not its demonstrated inflection: standalone\n`dain` is assigned “through a cloth.”  The extra `i` is therefore potentially\nidentity-bearing, not ornamental.",
+              "sha256": "b76bbac8226212b4f73d9851459249f60b2eaef883fa1ba258990e56e3283202"
+            },
+            {
+              "line": 64,
+              "path": "experiments/yolo/sidequest_theory_candidates_v44/V44_R3_TECHNICAL_NOTATION_STEM_THEORY.md",
+              "quote": "Decision: **NATURAL_STEM**, provisionally.  It could still be an indivisible\nmeasure card rather than a spoken lexical root.",
+              "sha256": "b76bbac8226212b4f73d9851459249f60b2eaef883fa1ba258990e56e3283202"
+            }
+          ]
+        }
+      ],
+      "counts_as_semantic_coverage_completed": true
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:c1ed7f35b1578c698413",
+      "selection_index": 24,
+      "source_record_type": "unresolved_block",
+      "title": "Konkrete neue Lesemöglichkeiten",
+      "evidence": {
+        "path": "experiments/yolo/gdt431_strong_prediction_reading_phrasebook/REPORT.md",
+        "line": 66,
+        "line_end": 69,
+        "quote": "Auch die Reihenfolge bleibt sichtbar. `AIR+Y` lautet **„Entlang der Bahn:\nPosten“**, während `Y+AIR` **„Posten entlang der Bahn“** lautet. Keine zwei der\n47 generischen Phrasen und keine zwei Karten innerhalb desselben Registers\nfallen daher auf dieselbe deutsche Lesung zusammen.",
+        "sha256": "83a44cec6cd93299b9d095f0d1ce129d80ff183368f0b975a6e105c37c006e29"
+      },
+      "disposition": "nonproposition",
+      "reason": "Selected text is heading/status, provenance/counts, a limiting correction, or renderer order-conservation commentary rather than a new content proposal.",
+      "existing_exact_source_overlap": [],
+      "accepted_counterparts": [],
+      "counts_as_semantic_coverage_completed": true
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:ef9e6e33302bc32ed1e4",
+      "selection_index": 25,
+      "source_record_type": "unresolved_block",
+      "title": "Konkrete Lesebeispiele",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_astro_instrument_readings/ASTRO_INSTRUMENT_READINGS_REPORT.md",
+        "line": 68,
+        "line_end": 72,
+        "quote": "Als Bestandteil des Gesamtbuches ist das wahrscheinlich eine\nWahl-/Vergleichstafel: Man fragt, unter welcher Himmels- oder Kalenderbedingung\nein praktischer Arbeitsgang stattfinden soll. In der medizinischen Lesung kann\ndas der Zeitpunkt eines Bades oder einer Anwendung sein; in der technischen\nLesung eine allgemeine Arbeits- oder Wetterbedingung.",
+        "sha256": "5b4105dd46dc694a0d61d571d8af153b182f98237ea3ac7bfdad63920a90d277"
+      },
+      "disposition": "scope_unresolved",
+      "reason": "Contains a model/reading conjunction; broad genre or atom similarity does not prove whole-scope identity. No new idea or completed coverage is claimed.",
+      "existing_exact_source_overlap": [],
+      "accepted_counterparts": [],
+      "counts_as_semantic_coverage_completed": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:a365e9a7c1e3328868bd",
+      "selection_index": 26,
+      "source_record_type": "unresolved_block",
+      "title": "Konkrete neue Lesart",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_what_how_bridge_seven_hundred_twenty_seventh/SEVEN_HUNDRED_TWENTY_SEVENTH_REPORT.md",
+        "line": 22,
+        "line_end": 32,
+        "quote": "## Konkrete neue Lesart\n\nDas Buch kann weiterhin als einfach lehrbares Werkstattbuch gelesen werden:\n\n1. Das Bild setzt still den Gegenstand.\n2. Der Herbal-Text macht daraus einen bearbeitbaren Posten.\n3. `Y–AIIN–Y` hält ihn unter einem Maß aktiv.\n4. Ein Biological-Bild setzt eine lokale Station.\n5. Dieselben Karten für Posten, Maß, Ansatz und Fortsetzung beschreiben dort die Handhabung.\n\nDas ergibt eine thematische WHAT→HOW-Architektur, aber keinen versteckten Hyperlink.",
+        "sha256": "427552aacef70e5ef87b5664439dafe83212299a340199ddf40feb57f5a998e4"
+      },
+      "disposition": "scope_unresolved",
+      "reason": "Contains a model/reading conjunction; broad genre or atom similarity does not prove whole-scope identity. No new idea or completed coverage is claimed.",
+      "existing_exact_source_overlap": [],
+      "accepted_counterparts": [],
+      "counts_as_semantic_coverage_completed": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:59434ca2b2d7c3e10182",
+      "selection_index": 27,
+      "source_record_type": "unresolved_block",
+      "title": "Reproduction and next content step",
+      "evidence": {
+        "path": "experiments/yolo/gdt821_raiin_admitted_paragraph_transfer/REPORT.md",
+        "line": 88,
+        "line_end": 92,
+        "quote": "Independent source reconstruction passes: all28 exact hits, all65 contexts,\nall195 literal displays; four non-vacuous classifier checks and six core damaged\noutput controls. The separate lightness annex retains all1724 groups and changes\nonly28 exact glosses plus the declared confidence field; two alias controls pass.\nSource checks do not validate semantics. No new GDT388-scored edge is claimed.",
+        "sha256": "85e54762b22b19bda5df98115827989ac01b6b67b527a0802247ad834893eaab"
+      },
+      "disposition": "nonproposition",
+      "reason": "Selected text is heading/status, provenance/counts, a limiting correction, or renderer order-conservation commentary rather than a new content proposal.",
+      "existing_exact_source_overlap": [],
+      "accepted_counterparts": [],
+      "counts_as_semantic_coverage_completed": true
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:8b6507541449d65c861d",
+      "selection_index": 28,
+      "source_record_type": "unresolved_block",
+      "title": "Konkrete Leseregel",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_theory_candidates_v75/V75_R4_CHANCERY_CELESTIAL_ATLAS_REPORT.md",
+        "line": 29,
+        "line_end": 33,
+        "quote": "Diese Bedeutung ist bewusst minimal und ausführbar: „an diesem Himmelsplatz\ndie zugehörige lokale Notiz nachschlagen“. Die engeren Wörter Planet,\nTierkreiszeichen, Mondhaus, Mondtag, Körperteil, günstige Handlung und\nmedizinische Wahl sind mögliche Exemplarfüllungen, aber keine entschlüsselten\nLabels.",
+        "sha256": "28f1c2845321c1eb96a94b4927cb5ff70b2397747b5d37048b0f1602506408a8"
+      },
+      "disposition": "exact_gap_possible",
+      "reason": "Explicit scoped positive interpretation with no located exact current counterpart; see complete claim and semantic contrasts below.",
+      "existing_exact_source_overlap": [],
+      "accepted_counterparts": [],
+      "counts_as_semantic_coverage_completed": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:8d95e0fd9a1e2bf3b25f",
+      "selection_index": 29,
+      "source_record_type": "unresolved_block",
+      "title": "Why medical/application content remains ahead",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_theory_candidates_v15/V15_THEORY_SELECTION.md",
+        "line": 128,
+        "line_end": 131,
+        "quote": "Working confidence is .62 for a latent application/configuration deck and .52\nfor a generic stencil/cadence deck. Direct visible-station naming is only .10.\nThe medical interpretation therefore remains leading but narrows from\n“pictured role name” to “latent state selected for the pictured configuration.”",
+        "sha256": "f749cb689fe4a9cfb41dfcb5ead797eca2cb5704931eb386a2861d672ae9c092"
+      },
+      "disposition": "exact_gap_possible",
+      "reason": "Explicit scoped positive interpretation with no located exact current counterpart; see complete claim and semantic contrasts below.",
+      "existing_exact_source_overlap": [],
+      "accepted_counterparts": [],
+      "counts_as_semantic_coverage_completed": false
+    }
+  ],
+  "gap_candidates": [
+    {
+      "id": "GAP_V:PRODUCT_STATION_COMPATIBILITY",
+      "source_block_ids": [
+        "LEGACY_COMPONENT:6e7f498f927ad4664266"
+      ],
+      "claim": "Herbal yields a product class, the workshop selects a compatible station class, and Biological describes local handling of that product.",
+      "claim_type": "semantic_model",
+      "scope": "Pass601 WHAT/HOW product-to-station compatibility model; thematic content coupling, explicitly not a deciphered cross-reference.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_product_station_compatibility_six_hundred_first/SIX_HUNDRED_FIRST_REPORT.md",
+          "line": 23,
+          "line_end": 33,
+          "quote": "## Neue Gesamtlesung\n\nDie WHAT/HOW-Kopplung ist jetzt greifbar:\n\n```text\nHerbal erzeugt eine Produktklasse\n-> Werkstatt waehlt eine kompatible Stationsklasse\n-> Biological beschreibt den lokalen Umgang mit diesem Produkt\n```\n\nDas ist staerker als blosse gemeinsame Grammatik, aber immer noch kein entschluesselter Querverweis.",
+          "sha256": "49f053edf862a3e746d079fed7a7e7553570c769c88a70eb2290d7a5f50cf600"
+        }
+      ],
+      "status": "SOURCE_REVIEW_CANDIDATE_NO_EXACT_CARD_LOCATED",
+      "assessed_by": "curation_review",
+      "ready": false,
+      "coverage_check": {
+        "searched_snapshots": [
+          "research_registry/semantic_ideas.jsonl",
+          "research_registry/semantic_ideas_excluded.jsonl"
+        ],
+        "literal_navigation_queries": [
+          "Produktklasse",
+          "product class",
+          "kompatible Station",
+          "compatible station",
+          "WHAT/HOW"
+        ],
+        "source_case_overlap": [],
+        "reviewed_nearby_cards": [
+          {
+            "target": "SEM:29acbe0f9029544e6225",
+            "effective_claim": "Herbal, Biological and Astro sections organize medical WHAT/HOW/WHEN, despite lacking a fixed cross-register key.",
+            "effective_claim_type": "semantic_model",
+            "target_basis_sha256": "d8c00838d260ac373f424ffdd39031ae1b0ad14b5bd5163c96be4b2ffd9bf3bf",
+            "comparison": "Medical WHAT/HOW/WHEN genre does not specify product-class compatibility selecting a station class.",
+            "evidence": [
+              {
+                "line": 336,
+                "path": "experiments/yolo/sidequest_theory_candidates_v14/CANDIDATE_V14_R4_CHANCERY_PURPOSE_AUDIT.md",
+                "quote": "## Widersprüche und Grenzen des führenden Modells",
+                "sha256": "6d8dcab1b4d5159881f31a06656d433ebf58e8b9ce24655c87b2e5579a74263c"
+              },
+              {
+                "line": 338,
+                "path": "experiments/yolo/sidequest_theory_candidates_v14/CANDIDATE_V14_R4_CHANCERY_PURPOSE_AUDIT.md",
+                "quote": "- Ein allgemeines Exemplarregister erklärt die Formularform, aber nicht allein,\n  warum gerade Pflanzen, Bio-Figuren und Himmelsdiagramme gemeinsam gesammelt\n  wurden. Medizinisch-naturkundliche Praxis ist dafür die beste Ergänzung.\n- Ein bloßes Lehr- oder Musterbuch erklärt die kostspieligen, inhaltlich reichen\n  Bilder und den großen lokalen Kartenrest schlecht. Deshalb ist\n  `bedeutungslose Übung` nicht mein Sieger.\n- Eine universale Form scheitert an Herbal As langen offenen Artikeln und den\n  drei getrennten Astro-Namensräumen. Der Registertyp muss die Form wählen.\n- Die medizinische `WHAT/HOW/WHEN`-Lesung erklärt die Bildfolge attraktiv,\n  besitzt aber keinen festen seitenübergreifenden Schlüssel. Besonders Astro\n  darf nicht durch Prose-Karten nachträglich angebunden werden.\n- `qokaiin`, L/O und FORMULA_F3 sind gute Bedien- oder Relationskandidaten,\n  doch sie decken nur einen kleinen Teil der 381 Prose-Ereignisse. Der größte\n  Teil des Fachinhalts bleibt im seltenen Bestand.\n- Mehrere Hände können denselben Lehrbestand führen; dies beweist aber weder\n  zentrale Werkstattorganisation noch bewusste Geheimschrift.",
+                "sha256": "6d8dcab1b4d5159881f31a06656d433ebf58e8b9ce24655c87b2e5579a74263c"
+              }
+            ]
+          },
+          {
+            "target": "SEM:6f6bfb8447ea68fee191",
+            "effective_claim": "**Relation operands.** L/O-adjacent operands on fixed Bio pages should more often occupy compatible station/path/short-cell roles than operands around matched interior cards. No particular English preposition is predicted.",
+            "effective_claim_type": "semantic_model",
+            "target_basis_sha256": "b9e6dd294bb9b67b0306781c55216cc5f011ca0d3b85dab2ec23b24ccb8c68d1",
+            "comparison": "Compatibility of L/O-adjacent operands is a within-text relation test, not Herbal product class selecting Biological station class.",
+            "evidence": [
+              {
+                "line": 566,
+                "path": "experiments/yolo/sidequest_theory_candidates_v3/CANDIDATE_V3_VISUAL_ADDRESS_TRANSLATION.md",
+                "quote": "3. **Relation operands.** L/O-adjacent operands on fixed Bio pages should more\n   often occupy compatible station/path/short-cell roles than operands around\n   matched interior cards. No particular English preposition is predicted.",
+                "sha256": "89fbc74d0510262b7b142f22d60f054018735e8fb9395440f78f6932016c7c12"
+              }
+            ]
+          }
+        ],
+        "interpretation": "Queries locate candidate counterparts, not a proof of universal semantic absence. Quoted source and full proposition scopes were compared directly."
+      },
+      "limits": "Historical unconfirmed interpretation only. No newly validated referent relation, physical owner, content identity or automatic clean-card admission. No global extrapolation of missing-idea rate."
+    },
+    {
+      "id": "GAP_V:H4_H5_B2_MATERIAL_CHAIN",
+      "source_block_ids": [
+        "LEGACY_COMPONENT:d80f8a1a8ab070390d2f"
+      ],
+      "claim": "H4 supplies measured stored portions; H5 turns a portion or extract into a target additive/application; B2 routes that working material through visible stations in short closed cells.",
+      "claim_type": "semantic_model",
+      "scope": "The complete H4–H5–B2 working interpretation from pass199, compatible with therapeutic washing or technical bathhouse operation. Not the different H1–H2–B1 sequence recovered in Q.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_normalized_h4_h5_b2_edition_hundred_ninety_ninth/HUNDRED_NINETY_NINTH_NORMALIZED_TRANSLATION_REPORT.md",
+          "line": 38,
+          "line_end": 50,
+          "quote": "## Combined working reading\n\nH4 supplies measured stored portions. H5 turns a portion or extract into a\ntarget additive/application. B2 routes such working material through visible\nstations in short closed cells. This remains compatible with both therapeutic\nwashing and technical bathhouse operation; the cards specify process more\nstrongly than domain.\n\nAll 107 visible events, 37 fields and 32 statements have normalized and fluent\nlayers. Together with the preceding two passes, all 381 fixed prose events are\nnow covered by the new normalization. Next consolidate one complete 381-event\nfour-layer edition and compare its concrete vocabulary against the old master\ndictionary.",
+          "sha256": "e59ea3868f833440ca258f940e66251d33530297f78b427bc4f3407333b7bc0b"
+        }
+      ],
+      "status": "SOURCE_REVIEW_CANDIDATE_NO_EXACT_CARD_LOCATED",
+      "assessed_by": "curation_review",
+      "ready": false,
+      "coverage_check": {
+        "searched_snapshots": [
+          "research_registry/semantic_ideas.jsonl",
+          "research_registry/semantic_ideas_excluded.jsonl"
+        ],
+        "literal_navigation_queries": [
+          "H4 supplies",
+          "H5 turns",
+          "stored portions",
+          "H4 H5 B2"
+        ],
+        "source_case_overlap": [],
+        "reviewed_nearby_cards": [
+          {
+            "target": "SEM:cd6316aa9b03b8c16807",
+            "effective_claim": "Local H2 model (konkrete Artikelhandlung): zwei recordlokale Blüten-/Blattfraktionen als Salbenansatz",
+            "effective_claim_type": "semantic_model",
+            "target_basis_sha256": "83cdec700fe2ac45fac5567ecdf17cb3225e8cbb7ed2cd65d9f4544ea3769c20",
+            "comparison": "A local H2 two-fraction ointment scenario does not encode the H4-storage/H5-target-additive/B2-routing chain.",
+            "evidence": [
+              {
+                "line": 13,
+                "path": "experiments/yolo/sidequest_theory_candidates_v64/V64_R2_HISTORICAL_HERBAL_SECOND_EDITION_REPORT.md",
+                "quote": "| H2 | dieselbe Bildpflanze | Skabiose | zwei recordlokale Blüten-/Blattfraktionen als Salbenansatz | 10/24 |",
+                "sha256": "4e696761a2ebcd73d3fb04d14085aac7da7fd5ca1a54a014c04463708d8944fb"
+              }
+            ]
+          },
+          {
+            "target": "SEM:29acbe0f9029544e6225",
+            "effective_claim": "Herbal, Biological and Astro sections organize medical WHAT/HOW/WHEN, despite lacking a fixed cross-register key.",
+            "effective_claim_type": "semantic_model",
+            "target_basis_sha256": "d8c00838d260ac373f424ffdd39031ae1b0ad14b5bd5163c96be4b2ffd9bf3bf",
+            "comparison": "The section-level WHAT/HOW/WHEN architecture does not entail this particular material chain.",
+            "evidence": [
+              {
+                "line": 336,
+                "path": "experiments/yolo/sidequest_theory_candidates_v14/CANDIDATE_V14_R4_CHANCERY_PURPOSE_AUDIT.md",
+                "quote": "## Widersprüche und Grenzen des führenden Modells",
+                "sha256": "6d8dcab1b4d5159881f31a06656d433ebf58e8b9ce24655c87b2e5579a74263c"
+              },
+              {
+                "line": 338,
+                "path": "experiments/yolo/sidequest_theory_candidates_v14/CANDIDATE_V14_R4_CHANCERY_PURPOSE_AUDIT.md",
+                "quote": "- Ein allgemeines Exemplarregister erklärt die Formularform, aber nicht allein,\n  warum gerade Pflanzen, Bio-Figuren und Himmelsdiagramme gemeinsam gesammelt\n  wurden. Medizinisch-naturkundliche Praxis ist dafür die beste Ergänzung.\n- Ein bloßes Lehr- oder Musterbuch erklärt die kostspieligen, inhaltlich reichen\n  Bilder und den großen lokalen Kartenrest schlecht. Deshalb ist\n  `bedeutungslose Übung` nicht mein Sieger.\n- Eine universale Form scheitert an Herbal As langen offenen Artikeln und den\n  drei getrennten Astro-Namensräumen. Der Registertyp muss die Form wählen.\n- Die medizinische `WHAT/HOW/WHEN`-Lesung erklärt die Bildfolge attraktiv,\n  besitzt aber keinen festen seitenübergreifenden Schlüssel. Besonders Astro\n  darf nicht durch Prose-Karten nachträglich angebunden werden.\n- `qokaiin`, L/O und FORMULA_F3 sind gute Bedien- oder Relationskandidaten,\n  doch sie decken nur einen kleinen Teil der 381 Prose-Ereignisse. Der größte\n  Teil des Fachinhalts bleibt im seltenen Bestand.\n- Mehrere Hände können denselben Lehrbestand führen; dies beweist aber weder\n  zentrale Werkstattorganisation noch bewusste Geheimschrift.",
+                "sha256": "6d8dcab1b4d5159881f31a06656d433ebf58e8b9ce24655c87b2e5579a74263c"
+              }
+            ]
+          }
+        ],
+        "interpretation": "Queries locate candidate counterparts, not a proof of universal semantic absence. Quoted source and full proposition scopes were compared directly."
+      },
+      "limits": "Historical unconfirmed interpretation only. No newly validated referent relation, physical owner, content identity or automatic clean-card admission. No global extrapolation of missing-idea rate."
+    },
+    {
+      "id": "GAP_V:CELESTIAL_PLACE_NOTE",
+      "source_block_ids": [
+        "LEGACY_COMPONENT:8b6507541449d65c861d"
+      ],
+      "claim": "At a given celestial place, consult its associated local note; planet, zodiac, lunar-house, day, body-part and medical-election labels remain unspecified possible exemplar content.",
+      "claim_type": "functional_hypothesis",
+      "scope": "V75 R4 deliberately minimal celestial lookup function, not an assigned planet/day/medical identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v75/V75_R4_CHANCERY_CELESTIAL_ATLAS_REPORT.md",
+          "line": 29,
+          "line_end": 33,
+          "quote": "Diese Bedeutung ist bewusst minimal und ausführbar: „an diesem Himmelsplatz\ndie zugehörige lokale Notiz nachschlagen“. Die engeren Wörter Planet,\nTierkreiszeichen, Mondhaus, Mondtag, Körperteil, günstige Handlung und\nmedizinische Wahl sind mögliche Exemplarfüllungen, aber keine entschlüsselten\nLabels.",
+          "sha256": "28f1c2845321c1eb96a94b4927cb5ff70b2397747b5d37048b0f1602506408a8"
+        }
+      ],
+      "status": "SOURCE_REVIEW_CANDIDATE_NO_EXACT_CARD_LOCATED",
+      "assessed_by": "curation_review",
+      "ready": false,
+      "coverage_check": {
+        "searched_snapshots": [
+          "research_registry/semantic_ideas.jsonl",
+          "research_registry/semantic_ideas_excluded.jsonl"
+        ],
+        "literal_navigation_queries": [
+          "Himmelsplatz",
+          "celestial place",
+          "lokale Notiz",
+          "associated local note"
+        ],
+        "source_case_overlap": [],
+        "reviewed_nearby_cards": [
+          {
+            "target": "SEM:7990c5b3e9cb918bd8c9",
+            "effective_claim": "Die vierzehn Seiten werden als bildadressiertes Werkstattbuch gelesen: > Pflanzenstoff wählen → im Gefäß zubereiten → in Bad, Auflage oder lokaler > Station anwenden → Himmelsplatz oder Arbeitsklasse nachschlagen.",
+            "effective_claim_type": "semantic_model",
+            "target_basis_sha256": "974c2ab97050b3b55186bb4f779c4d80b64d8374f5fc68c2978c1fb8610331df",
+            "comparison": "The broader fourteen-page workflow ends by looking up celestial place/work class; it does not specify place→associated-note retrieval or these explicit limits.",
+            "evidence": [
+              {
+                "line": 3,
+                "path": "experiments/yolo/sidequest_semantic_canonical_image_owned_workshop_edition_nine_hundred_eighty_ninth/PASS989_CURRENT_WORKING_THEORY.md",
+                "quote": "## Arbeitsmodell",
+                "sha256": "40d9e3c31a718c744560a215a605e7590d12ee864e0c00f25c1767d76526e1e4"
+              },
+              {
+                "line": 5,
+                "path": "experiments/yolo/sidequest_semantic_canonical_image_owned_workshop_edition_nine_hundred_eighty_ninth/PASS989_CURRENT_WORKING_THEORY.md",
+                "quote": "Die vierzehn Seiten werden als bildadressiertes Werkstattbuch gelesen:",
+                "sha256": "40d9e3c31a718c744560a215a605e7590d12ee864e0c00f25c1767d76526e1e4"
+              },
+              {
+                "line": 7,
+                "path": "experiments/yolo/sidequest_semantic_canonical_image_owned_workshop_edition_nine_hundred_eighty_ninth/PASS989_CURRENT_WORKING_THEORY.md",
+                "quote": "> Pflanzenstoff wählen → im Gefäß zubereiten → in Bad, Auflage oder lokaler\n> Station anwenden → Himmelsplatz oder Arbeitsklasse nachschlagen.",
+                "sha256": "40d9e3c31a718c744560a215a605e7590d12ee864e0c00f25c1767d76526e1e4"
+              }
+            ]
+          },
+          {
+            "target": "SEM:67d8f7d04d7b72d2a5d6",
+            "effective_claim": "Die stärkste historische Expansion ist ein astronomisch-kalendarisches oder iatromathematisches Nachschlagewerk: lokale Zeichen-, Stern-, Haus-, Tages- oder Wahlregeln. Der stärkste skeptische Rivale ist ein rein kosmographisches, mnemonisches oder ikonographisches Diagramm, dessen Beschriftungen sich ohne externes Exemplar nicht sachlich rücklesen lassen",
+            "effective_claim_type": "semantic_model",
+            "target_basis_sha256": "e6a2e6ad248dd44865c477c2e714cdf16b30c85630140fa8498c31786016fde3",
+            "comparison": "A possible astronomical/calendar/iathromathematical reference work is broader and does not select the minimal note-at-place function.",
+            "evidence": [
+              {
+                "line": 43,
+                "path": "experiments/yolo/sidequest_theory_candidates_v75/V75_R4_CHANCERY_CELESTIAL_ATLAS_REPORT.md",
+                "quote": "## Stärkste Rivalen",
+                "sha256": "28f1c2845321c1eb96a94b4927cb5ff70b2397747b5d37048b0f1602506408a8"
+              },
+              {
+                "line": 45,
+                "path": "experiments/yolo/sidequest_theory_candidates_v75/V75_R4_CHANCERY_CELESTIAL_ATLAS_REPORT.md",
+                "quote": "Die stärkste historische Expansion ist ein astronomisch-kalendarisches oder\niatromathematisches Nachschlagewerk: lokale Zeichen-, Stern-, Haus-, Tages-\noder Wahlregeln. Der stärkste skeptische Rivale ist ein rein kosmographisches,\nmnemonisches oder ikonographisches Diagramm, dessen Beschriftungen sich ohne\nexternes Exemplar nicht sachlich rücklesen lassen.",
+                "sha256": "28f1c2845321c1eb96a94b4927cb5ff70b2397747b5d37048b0f1602506408a8"
+              }
+            ]
+          }
+        ],
+        "interpretation": "Queries locate candidate counterparts, not a proof of universal semantic absence. Quoted source and full proposition scopes were compared directly."
+      },
+      "limits": "Historical unconfirmed interpretation only. No newly validated referent relation, physical owner, content identity or automatic clean-card admission. No global extrapolation of missing-idea rate."
+    },
+    {
+      "id": "GAP_V:LATENT_CONFIGURATION_STATE",
+      "source_block_ids": [
+        "LEGACY_COMPONENT:8d95e0fd9a1e2bf3b25f"
+      ],
+      "claim": "The medical reading of the Biological deck concerns a latent application/configuration state selected for the pictured configuration, rather than a name for the pictured role; a generic stencil/cadence deck remains the rival.",
+      "claim_type": "semantic_model",
+      "scope": "V15 source-level medical-versus-formal interpretation; quoted working confidences are not probabilities, tests or meaning confirmation.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v15/V15_THEORY_SELECTION.md",
+          "line": 128,
+          "line_end": 131,
+          "quote": "Working confidence is .62 for a latent application/configuration deck and .52\nfor a generic stencil/cadence deck. Direct visible-station naming is only .10.\nThe medical interpretation therefore remains leading but narrows from\n“pictured role name” to “latent state selected for the pictured configuration.”",
+          "sha256": "f749cb689fe4a9cfb41dfcb5ead797eca2cb5704931eb386a2861d672ae9c092"
+        }
+      ],
+      "status": "SOURCE_REVIEW_CANDIDATE_NO_EXACT_CARD_LOCATED",
+      "assessed_by": "curation_review",
+      "ready": false,
+      "coverage_check": {
+        "searched_snapshots": [
+          "research_registry/semantic_ideas.jsonl",
+          "research_registry/semantic_ideas_excluded.jsonl"
+        ],
+        "literal_navigation_queries": [
+          "latent application",
+          "latent state configuration",
+          "application/configuration",
+          "stencil/cadence"
+        ],
+        "source_case_overlap": [],
+        "reviewed_nearby_cards": [
+          {
+            "target": "SEM:4289ca5ccc558e787606",
+            "effective_claim": "Biological value families are learned answers completing page-conditioned copied short-cell stencils; meanings may be arbitrary or absent.",
+            "effective_claim_type": "semantic_model",
+            "target_basis_sha256": "f6394e8a9ad0e8acc93c656b66bab36b7744945026d9c2d1a3dd1e6e6651e3b3",
+            "comparison": "Learned answers completing copied short-cell stencils allows arbitrary/absent meanings, the rival architecture; it does not specify latent medical application states.",
+            "evidence": [
+              {
+                "line": 239,
+                "path": "experiments/yolo/sidequest_theory_candidates_v15/CANDIDATE_V15_R2_MEDICAL_VALUE_ROLES.md",
+                "quote": "## Strongest rival and contradictions",
+                "sha256": "8268b520add1eba2ce74fea3332a632e0d4fe0a9e91a4b30f1cafb9fff767344"
+              },
+              {
+                "line": 241,
+                "path": "experiments/yolo/sidequest_theory_candidates_v15/CANDIDATE_V15_R2_MEDICAL_VALUE_ROLES.md",
+                "quote": "**Strongest rival:** `PAGE_CONDITIONED_GENERIC_ANSWER_DECK`. The four\nidentities are learned answers used to complete copied short-cell stencils;\ntheir source meanings may be arbitrary or absent. This rival predicts exactly\nthe observed page selectivity, ordinal mobility and weak picture ownership.",
+                "sha256": "8268b520add1eba2ce74fea3332a632e0d4fe0a9e91a4b30f1cafb9fff767344"
+              },
+              {
+                "line": 246,
+                "path": "experiments/yolo/sidequest_theory_candidates_v15/CANDIDATE_V15_R2_MEDICAL_VALUE_ROLES.md",
+                "quote": "Contradictions that cap the medical glosses:",
+                "sha256": "8268b520add1eba2ce74fea3332a632e0d4fe0a9e91a4b30f1cafb9fff767344"
+              },
+              {
+                "line": 248,
+                "path": "experiments/yolo/sidequest_theory_candidates_v15/CANDIDATE_V15_R2_MEDICAL_VALUE_ROLES.md",
+                "quote": "- proposed `VAL-D = immersion` has zero frozen pool-owned occurrences and is\n  absent from visually pool-rich f82r;\n- proposed `VAL-B = warm` has no independent heat mark or degree qualifier;\n- proposed `VAL-C = pour/rinse` has only 5/8 figure-or-path occurrences and no\n  uniquely owned pouring station;\n- `VAL-A = standard` is hard to distinguish from the default cadence value;\n- f82r.27's repeated value shares one collective visual owner, so it cannot\n  prove two equal-temperature depicted stations.",
+                "sha256": "8268b520add1eba2ce74fea3332a632e0d4fe0a9e91a4b30f1cafb9fff767344"
+              },
+              {
+                "line": 257,
+                "path": "experiments/yolo/sidequest_theory_candidates_v15/CANDIDATE_V15_R2_MEDICAL_VALUE_ROLES.md",
+                "quote": "No contradiction makes the class-level application/configuration theory\nimpossible. They lower confidence and preserve the cadence rival.",
+                "sha256": "8268b520add1eba2ce74fea3332a632e0d4fe0a9e91a4b30f1cafb9fff767344"
+              }
+            ]
+          },
+          {
+            "target": "SEM:39deda54732bf81414e5",
+            "effective_claim": "Biological stencil values encode operations or results.",
+            "effective_claim_type": "semantic_model",
+            "target_basis_sha256": "35010da1a6d679396178cd8b23e365bdf1600d2ec62785021b78f3a1c38f48a9",
+            "comparison": "Operations/results is a broad value class and does not preserve the explicit shift from visible-role naming to configuration-selected latent state.",
+            "evidence": [
+              {
+                "line": 177,
+                "path": "experiments/yolo/sidequest_theory_candidates_v9/CANDIDATE_V9_STENCIL_VALUE_VECTOR.md",
+                "quote": "| operation/result cards | 7.0 | good terminal semantics, but needs pervasive ellipsis for singleton cells |",
+                "sha256": "c2eaf4b098fd41e814a238162bd613e7f2afb64f8f535ef0e130d06b29552c89"
+              }
+            ]
+          }
+        ],
+        "interpretation": "Queries locate candidate counterparts, not a proof of universal semantic absence. Quoted source and full proposition scopes were compared directly."
+      },
+      "limits": "Historical unconfirmed interpretation only. No newly validated referent relation, physical owner, content identity or automatic clean-card admission. No global extrapolation of missing-idea rate."
+    }
+  ],
+  "conclusion": {
+    "candidate_count": 4,
+    "no_new_lexical_identity_claim": true,
+    "interpretation": "Some explicitly stated linked-content and reference-function proposals are narrower than current genre/atom cards. Four candidates merit independent review, while eleven broader scope comparisons remain open. Neither absence of a matching string nor this selected sample establishes global novelty or the largest remaining coverage gap.",
+    "no_automatic_cards": true
+  },
+  "validation": {
+    "status": "PASS",
+    "reviewed_blocks": 28,
+    "distinct_source_ids": 28,
+    "only_actual_unresolved_blocks": true,
+    "dispositions": {
+      "nonproposition": 9,
+      "accepted_counterpart": 4,
+      "scope_unresolved": 11,
+      "exact_gap_possible": 4
+    },
+    "candidate_count": 4,
+    "original_sources_and_comparison_hashes_checked": true
+  },
+  "input_sha256": {
+    "research_registry/semantic_ideas.jsonl": "316127a7d3c2c46a803ab43b3426e996850c21a173da6903e471ac606d5f2c57",
+    "research_registry/semantic_ideas_excluded.jsonl": "0f69f6c5d228e3e747e573e2bea7e4970e9d4c4571da2a81b8fce0c9ffa5bf5e",
+    "research_registry/decisions/source_coverage_gap_batch_j.json": "e293fc991a63f95749f03fab41870b189ddae43471199250202b17f8108f7f7c",
+    "research_registry/decisions/source_coverage_gap_batch_m.json": "e37d56e745dafc5dbfa3203d8a497708324e0021319a7b7344851cbd739fe673",
+    "research_registry/decisions/source_coverage_gap_batch_r.json": "e37aff979c3935f85a8c0ca8646c8b304d614f8d6162f9e94253e92204d49a6c",
+    "research_registry/decisions/source_coverage_scope_batch_q.json": "02c06240066e5fcec34d1c5afb1dc38a3b74da8b42fa5e16239f09909183a358"
+  }
+}

@@ -61,3 +61,14 @@ local B3 formal-role correction remains ignored with its original sources.
 Next bounded work resolves the35 open J/M scope comparisons and tests the
 colon-list extraction gap on further source blocks. No new infrastructure or
 decoder follows automatically from these memory findings.
+
+18:18UTC checkpoint: Q/T/U/W add20 semantic propositions, one formal parser rule
+and one existing V15 source case. The35 J/M scope comparisons are resolved as
+source recovery, coverage or instances, not new tests. S adds28 explicit rivals
+and two specializations; extra deck-ID provenance resolves the initial peer
+uncertainty without erasing it. X attaches the later quality-decoder withdrawal.
+Next bounded pass: remaining R/V full-model spans plus35 disjoint early source
+blocks. Unknown is whether complete joint propositions are absent despite atom
+coverage. Each outcome changes inclusion or preserves a separate source case.
+Budget20minutes per source batch, then root review, validation and publication;
+no decoder work or automatic promotion of recovered historical meanings.

@@ -1,0 +1,413 @@
+{
+  "schema": "clean_semantic_gap_review_v1",
+  "review_id": "CLEAN_GAP_REVIEW_W",
+  "status": "independently_source_reviewed_pending_root_integration",
+  "input_audit": "research_registry/decisions/source_coverage_gap_batch_v.json",
+  "input_audit_sha256": "5c3b4c401ca7177780a9073e09459a7a936239366a53bbed40af91dfb53eaf8d",
+  "scope": "Only the four gap candidates in batch V. This does not adjudicate the eleven other unresolved full-model spans or the whole history. Public primary prose and current source cards only.",
+  "cards": [
+    {
+      "status": "unconfirmed",
+      "ready": false,
+      "assessment_basis": "independent_direct_primary_source_and_current_case_review",
+      "source_polarity": "explicit_historical_working_hypothesis_not_confirmed",
+      "limitations": "Historical source recovery only. No new manuscript observation, decoded meaning, independent cross-reference or permission to rerun a closed family. Exact source caveats remain bound to the proposed model.",
+      "id": "CLEAN_GAP_W:product_station_compatibility",
+      "claim": "In Pass601’s working model, Herbal supplies product classes; a workshop selects compatible Biological station classes many-to-many according to purpose, availability and pictured situation, and Biological describes local handling of those products without a written folio pointer.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "LEGACY_COMPONENT:6e7f498f927ad4664266"
+      ],
+      "scope": {
+        "source_revision": "Pass601",
+        "unit": "complete proposed Herbal-product to Biological-station coupling",
+        "domain": "five Herbal product roles and sixteen visible Biological owners as creatively interpreted in this source",
+        "limits": "Product compatibility is a proposed content relation, not a demonstrated written reference. Individual products, stations and their numerical match tallies are not independently established identities."
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_product_station_compatibility_six_hundred_first/SIX_HUNDRED_FIRST_REPORT.md",
+          "line": 5,
+          "quote": "Die fuenf Herbal-Produkte passen als **Produktklassen** an die sechzehn sichtbaren Biological-Besitzer. Die 80 Kombinationen ergeben 18 direkte Arbeitsmatches und 32 weitere plausible Matches. Keine einzige braucht einen geschriebenen Foliozeiger.\n\n## Die fuenf Produktrollen\n\n- **H1 Grundauszug:** leichtes fluessiges Wasch-, Bad- oder Mischmaterial.\n- **H2 Nachauszug:** staerkerer fluessiger Ansatz fuer Bad, Mischung oder Einspeisung.\n- **H3 Bluetenauszug:** Wasch-, Bad- oder lokale Anwendungsfluessigkeit.\n- **H4 temperierte Auflage:** halbfeste Anwendung, die gehalten, gewaermt oder abgesetzt werden kann.\n- **H5 Konzentrat:** fluessiger Bad-/Waschvorrat fuer Fluss-, Speise- und Auffangstationen.",
+          "sha256": "49f053edf862a3e746d079fed7a7e7553570c769c88a70eb2290d7a5f50cf600"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_product_station_compatibility_six_hundred_first/SIX_HUNDRED_FIRST_REPORT.md",
+          "line": 19,
+          "quote": "## Warum many-to-many richtig ist\n\nEin Pflanzenprodukt ist kein Stationsname. Derselbe Auszug kann als Badzusatz, Waschung oder weiterer Ansatz dienen. Umgekehrt kann dieselbe Beckenstation verschiedene Produkte aufnehmen. Genau deshalb fehlt eine sichtbare H1->B1- oder H4->B4-Nummer: Der Meister waehlt nach Zweck, Verfuegbarkeit und Bildsituation.\n\n## Neue Gesamtlesung\n\nDie WHAT/HOW-Kopplung ist jetzt greifbar:\n\n```text\nHerbal erzeugt eine Produktklasse\n-> Werkstatt waehlt eine kompatible Stationsklasse\n-> Biological beschreibt den lokalen Umgang mit diesem Produkt\n```\n\nDas ist staerker als blosse gemeinsame Grammatik, aber immer noch kein entschluesselter Querverweis.",
+          "sha256": "49f053edf862a3e746d079fed7a7e7553570c769c88a70eb2290d7a5f50cf600"
+        }
+      ],
+      "coverage_result": "new_scoped_complete_model",
+      "related_existing_cards": [
+        {
+          "target": "SEM:29acbe0f9029544e6225",
+          "target_basis_sha256": "d8c00838d260ac373f424ffdd39031ae1b0ad14b5bd5163c96be4b2ffd9bf3bf",
+          "effective_basis_sha256": "5e18aac92e2e93550131cee3fcf42ee86dcff6670fd04376833755e8ddf0d4ee",
+          "claim": "Herbal, Biological and Astro sections organize medical WHAT/HOW/WHEN, despite lacking a fixed cross-register key.",
+          "comparison": "WHAT/HOW/WHEN genre does not specify many-to-many product compatibility, selection or local material handling.",
+          "operational_identity_decision": false
+        },
+        {
+          "target": "SEM:63ee880ad84c65e2aa48",
+          "target_basis_sha256": "01b22fa89f278cb5816c93d77bb47f3a3484f0df0f4cb11820962ac1c2b289c1",
+          "effective_basis_sha256": "28b8306faebb63c9090c59f248512ce81d3b9d864c8c78e5cfbe51c996918c74",
+          "claim": "Für die sieben Prosaseiten ist der beste konkrete Entwurf nun ein **illustriertes Produkt-und-Anwendungsformular für eine medizinisch-badende Werkstatt**. Die technische Badehauslesung bleibt wichtig, ist aber Bediengrammatik innerhalb des therapeutischen Fallbuchs, nicht mehr zwingend ein konkurrierender Gesamtzweck.",
+          "comparison": "Product-and-application genre and its therapeutic ranking do not contain this product/station selection rule.",
+          "operational_identity_decision": false
+        },
+        {
+          "target": "SEM:6f6bfb8447ea68fee191",
+          "target_basis_sha256": "b9e6dd294bb9b67b0306781c55216cc5f011ca0d3b85dab2ec23b24ccb8c68d1",
+          "effective_basis_sha256": "30f80d56aef8a25fe1d8452b44dde56062a3d67384ff41c56b1c7db87a10930a",
+          "claim": "**Relation operands.** L/O-adjacent operands on fixed Bio pages should more often occupy compatible station/path/short-cell roles than operands around matched interior cards. No particular English preposition is predicted.",
+          "comparison": "L/O neighbor compatibility is a different within-record operand proposal, not this cross-register product coupling.",
+          "operational_identity_decision": false
+        }
+      ]
+    },
+    {
+      "status": "unconfirmed",
+      "ready": false,
+      "assessment_basis": "independent_direct_primary_source_and_current_case_review",
+      "source_polarity": "explicit_historical_working_hypothesis_not_confirmed",
+      "limitations": "Historical source recovery only. No new manuscript observation, decoded meaning, independent cross-reference or permission to rerun a closed family. Exact source caveats remain bound to the proposed model.",
+      "id": "CLEAN_GAP_W:h4_h5_b2_complete_material_chain",
+      "claim": "In the Pass199 combined reading, H4 supplies measured stored portions, H5 turns a portion or extract into a target additive or application, and B2 routes that working material through visible stations in short closed cells; both therapeutic washing and technical bathhouse operation remain possible.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "LEGACY_COMPONENT:d80f8a1a8ab070390d2f"
+      ],
+      "scope": {
+        "source_revision": "Pass199",
+        "unit": "complete H4–H5–B2 proposed material chain",
+        "limits": "Preserve the specific three-record chain. Its stored portion, additive and routing relations do not follow merely from individual lexical working values or a general workshop genre. Source does not identify WATER/WINE/OIL or add a global flow direction."
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_normalized_h4_h5_b2_edition_hundred_ninety_ninth/HUNDRED_NINETY_NINTH_NORMALIZED_TRANSLATION_REPORT.md",
+          "line": 3,
+          "quote": "## H4: portion and store\n\nH4 is a four-step preparation ledger:\n\n1. measure the preparation, divide it into a first and second portion, cool;\n2. transfer the prescribed amount to storage;\n3. later take a prescribed portion from the source extract, work it longer and\n   finish it;\n4. set the prescribed amount at the target and form the following preparation\n   from this batch and its preparation portion.\n\nThe text needs a working liquid or extract, but it does not itself force the\nword WATER, WINE or OIL.",
+          "sha256": "e59ea3868f833440ca258f940e66251d33530297f78b427bc4f3407333b7bc0b"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_normalized_h4_h5_b2_edition_hundred_ninety_ninth/HUNDRED_NINETY_NINTH_NORMALIZED_TRANSLATION_REPORT.md",
+          "line": 17,
+          "quote": "## H5: add and apply\n\nH5 makes an additive preparation, brings the added material to measure, inserts\nit into a following preparation, then repeats target operations: hold, add,\nwork briefly, reinsert, distribute extract and move to the next measured item.\nThe pictured plant remains the silent owner; the recurring cards are operations\nand references, not plant-name fragments.",
+          "sha256": "e59ea3868f833440ca258f940e66251d33530297f78b427bc4f3407333b7bc0b"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_normalized_h4_h5_b2_edition_hundred_ninety_ninth/HUNDRED_NINETY_NINTH_NORMALIZED_TRANSLATION_REPORT.md",
+          "line": 25,
+          "quote": "## B2: local station route\n\nB2 contains 62 visible events in 26 fields and 22 statements. It moves working\nportions through an upper pair station, a middle left device, an unresolved\nmiddle-right line/platform, a lower multi-figure field and local rim stations.\nThe instructions are local: transfer, continue, add a portion, set at target,\npass, warm, settle, drain, divide and wash. No global flow direction is added.",
+          "sha256": "e59ea3868f833440ca258f940e66251d33530297f78b427bc4f3407333b7bc0b"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_normalized_h4_h5_b2_edition_hundred_ninety_ninth/HUNDRED_NINETY_NINTH_NORMALIZED_TRANSLATION_REPORT.md",
+          "line": 38,
+          "quote": "## Combined working reading\n\nH4 supplies measured stored portions. H5 turns a portion or extract into a\ntarget additive/application. B2 routes such working material through visible\nstations in short closed cells. This remains compatible with both therapeutic\nwashing and technical bathhouse operation; the cards specify process more\nstrongly than domain.",
+          "sha256": "e59ea3868f833440ca258f940e66251d33530297f78b427bc4f3407333b7bc0b"
+        }
+      ],
+      "coverage_result": "new_scoped_complete_model",
+      "related_existing_cards": [
+        {
+          "target": "SEM:29acbe0f9029544e6225",
+          "target_basis_sha256": "d8c00838d260ac373f424ffdd39031ae1b0ad14b5bd5163c96be4b2ffd9bf3bf",
+          "effective_basis_sha256": "5e18aac92e2e93550131cee3fcf42ee86dcff6670fd04376833755e8ddf0d4ee",
+          "claim": "Herbal, Biological and Astro sections organize medical WHAT/HOW/WHEN, despite lacking a fixed cross-register key.",
+          "comparison": "General WHAT/HOW/WHEN architecture does not specify H4 storage, H5 additive/application and B2 local routing.",
+          "operational_identity_decision": false
+        },
+        {
+          "target": "SEM:cd6316aa9b03b8c16807",
+          "target_basis_sha256": "83cdec700fe2ac45fac5567ecdf17cb3225e8cbb7ed2cd65d9f4544ea3769c20",
+          "effective_basis_sha256": "09c9c13aa1adad3c37638b4f99a96c675471b9e5168fd5db97679dc4bcdec378",
+          "claim": "Local H2 model (konkrete Artikelhandlung): zwei recordlokale Blüten-/Blattfraktionen als Salbenansatz",
+          "comparison": "The H2 two-fraction ointment case is a distinct record-local content model, not this three-record sequence.",
+          "operational_identity_decision": false
+        }
+      ]
+    },
+    {
+      "status": "unconfirmed",
+      "ready": false,
+      "assessment_basis": "independent_direct_primary_source_and_current_case_review",
+      "source_polarity": "explicit_historical_working_hypothesis_not_confirmed",
+      "limitations": "Historical source recovery only. No new manuscript observation, decoded meaning, independent cross-reference or permission to rerun a closed family. Exact source caveats remain bound to the proposed model.",
+      "id": "CLEAN_GAP_W:v75_local_celestial_note_rule",
+      "claim": "V75 R4 reads the three celestial diagrams by first selecting the local panel, wheel or star place, then consulting its copied local sector-relation, star-station, choice/avoidance note or wheel legend; interpretation resets at each visible namespace change, without assigning planet, zodiac, lunar-day, body-part or medical-election names.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:8b6507541449d65c861d"
+      ],
+      "scope": {
+        "source_revision": "V75 R4",
+        "unit": "complete local place-to-note reading operation for f67r2, f68r1 and f69v",
+        "limits": "Generic lookup is already represented. This case retains the complete stated selection/read/reset rule and its unassigned contents, not a claim that lookup was newly discovered. No selected rotation, direction, f68–f69 key or prose-value import."
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v75/V75_R4_CHANCERY_CELESTIAL_ATLAS_REPORT.md",
+          "line": 3,
+          "quote": "Status: vollständige kreative Arbeitstheorie; keine Entzifferung.\n\n## Entscheidung\n\nDie 395 sichtbaren Gruppen werden als kopierte lokale Beschriftungs- und\nRegelfragmente dreier selbständiger Himmelsinstrumente behandelt. Jede Gruppe\nhat einen konkreten Arbeitsdefault; keine Gruppe erhält dadurch eine\nübertragbare Wortbedeutung.\n\n- **f67r2:** zwei getrennte Räder für lokale Himmelssektor- oder\n  Relationsnachschläge. Das rechte Rad enthält zwölf sichtbar adressierbare\n  Sektorplätze; die übrigen Felder werden nicht in eine 7×12-Matrix gezwungen.\n- **f68r1:** ein Mehrpaneel-Sternstationsatlas mit getrennten Köpfen, Zentren\n  und 28 lokalen Sternplätzen. Ein globales Zentrum oder eine gewählte Rotation\n  wird nicht eingesetzt.\n- **f69v:** drei unverbundene Räder. Ihre langen Ringtexte bleiben getrennte\n  Legenden. Nur das linke Rad besitzt 28 editorisch benannte Radialplätze; sie\n  bleiben ungeordnet.",
+          "sha256": "28f1c2845321c1eb96a94b4927cb5ff70b2397747b5d37048b0f1602506408a8"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v75/V75_R4_CHANCERY_CELESTIAL_ATLAS_REPORT.md",
+          "line": 22,
+          "quote": "## Konkrete Leseregel\n\nDer Lehrling setzt zuerst Paneel, Rad oder Sternplatz. Dann kopiert er die\nopaken Fragmente des lokalen Masterexemplars und liest sie als örtliche\nSektorbeziehung, Sternstationsnotiz, Wahl-/Meidungsnotiz oder Radlegende. Beim\nWechsel des sichtbaren Namensraums wird alles zurückgesetzt.\n\nDiese Bedeutung ist bewusst minimal und ausführbar: „an diesem Himmelsplatz\ndie zugehörige lokale Notiz nachschlagen“. Die engeren Wörter Planet,\nTierkreiszeichen, Mondhaus, Mondtag, Körperteil, günstige Handlung und\nmedizinische Wahl sind mögliche Exemplarfüllungen, aber keine entschlüsselten\nLabels.\n\n## Orientierungsaudit\n\nFür das rechte f67-Zwölferrad bleiben 24 Start-/Richtungsvarianten offen; für\ndie 28 f68-Sternplätze und die 28 linken f69-Radialplätze je 56. Keine Variante\nwird ausgewählt. Die mittleren und rechten f69-Räder werden nicht an das linke\nInventar angehängt. Es gibt keinen f68↔f69-Schlüssel und keinen Import der\nProsakartenwerte.",
+          "sha256": "28f1c2845321c1eb96a94b4927cb5ff70b2397747b5d37048b0f1602506408a8"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v75/V75_R4_CHANCERY_CELESTIAL_ATLAS_REPORT.md",
+          "line": 51,
+          "quote": "## Grenze\n\nEine vollständige formale Adresslesung ist möglich, eine externe Benennung\nnicht. Dieselben 395 Oberflächen könnten unter einem isomorphen Masterexemplar\nandere Himmelsnamen und Regeln tragen. Die Ausgabe fügt daher keine Karte,\nkeinen Stamm, Laut, Textsprache, Startpunkt, Rotation oder seitenübergreifende\nZuordnung hinzu. f84 und f84r blieben versiegelt; aktive V75-Geschwister wurden\nnicht gelesen.",
+          "sha256": "28f1c2845321c1eb96a94b4927cb5ff70b2397747b5d37048b0f1602506408a8"
+        }
+      ],
+      "coverage_result": "new_scoped_complete_rule_not_new_generic_lookup",
+      "related_existing_cards": [
+        {
+          "target": "SEM:0e44f0a744d632a6948e",
+          "target_basis_sha256": "8db57b3889390a443e8790304ddf001a415e6e3a7fae90c5c470b8cca4e54e83",
+          "effective_basis_sha256": "9e36590c646540818654ab58e83f78c07e11a417f752fb7f117b2500d912b82b",
+          "claim": "Die Kreisdiagramme sind ein Stationskatalog mit Adressen und Nachschlagfunktion.",
+          "comparison": "Existing stations/lookup catalogue overlaps the generic lookup operation; its cited V55 source also chose a 7×12 selection, common center and ordered f69v sequence. No identity of the full V75 rule is asserted.",
+          "operational_identity_decision": false
+        },
+        {
+          "target": "SEM:94784bba460f2af988ad",
+          "target_basis_sha256": "b7f1be2a87fad2c5d9859f05339294ef743bb30f0c4d3c92bb9ac32071302db7",
+          "effective_basis_sha256": "88e8ea00c54c1187e98978c6c327094d3e21ca4f3fb76f34226e23adc240e637",
+          "claim": "Astronomical label meanings are local to each diagram namespace rather than one universal dictionary.",
+          "comparison": "Local namespace meanings are one component of this full operation, not the entire select-place/read-note/reset contract.",
+          "operational_identity_decision": false
+        },
+        {
+          "target": "SEM:7990c5b3e9cb918bd8c9",
+          "target_basis_sha256": "974c2ab97050b3b55186bb4f779c4d80b64d8374f5fc68c2978c1fb8610331df",
+          "effective_basis_sha256": "f137f00f100b811403f936d4804612c3a07b7d669c577acdecbffd39d9c7a249",
+          "claim": "Die vierzehn Seiten werden als bildadressiertes Werkstattbuch gelesen: > Pflanzenstoff wählen → im Gefäß zubereiten → in Bad, Auflage oder lokaler > Station anwenden → Himmelsplatz oder Arbeitsklasse nachschlagen.",
+          "comparison": "The four-stage workshop workflow ends in a sky-place lookup but does not preserve this three-diagram local rule.",
+          "operational_identity_decision": false
+        },
+        {
+          "target": "SEM:67d8f7d04d7b72d2a5d6",
+          "target_basis_sha256": "e6a2e6ad248dd44865c477c2e714cdf16b30c85630140fa8498c31786016fde3",
+          "effective_basis_sha256": "cf5a7532e3f08a9b82a1e694549c9f4f63a0889813a604476c5f49fb37e02b16",
+          "claim": "Die stärkste historische Expansion ist ein astronomisch-kalendarisches oder iatromathematisches Nachschlagewerk: lokale Zeichen-, Stern-, Haus-, Tages- oder Wahlregeln. Der stärkste skeptische Rivale ist ein rein kosmographisches, mnemonisches oder ikonographisches Diagramm, dessen Beschriftungen sich ohne externes Exemplar nicht sachlich rücklesen lassen",
+          "comparison": "Historical content-world rivals do not themselves state this minimal place-to-note operation.",
+          "operational_identity_decision": false
+        }
+      ]
+    },
+    {
+      "status": "unconfirmed",
+      "ready": false,
+      "assessment_basis": "independent_direct_primary_source_and_current_case_review",
+      "source_polarity": "explicit_historical_working_hypothesis_not_confirmed",
+      "limitations": "Historical source recovery only. No new manuscript observation, decoded meaning, independent cross-reference or permission to rerun a closed family. Exact source caveats remain bound to the proposed model.",
+      "id": "CLEAN_GAP_W:v15_application_deck_additional_source_case",
+      "claim": "Biological records use an application deck tied to depicted workshop configurations.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "LEGACY_COMPONENT:8d95e0fd9a1e2bf3b25f"
+      ],
+      "scope": {
+        "source_revision": "V15 theory selection; existing V15 R1 application-deck model",
+        "unit": "four Biological categorical application/configuration value families on f81v/f82r/f83r",
+        "same_existing_claim": "SEM:eba4f02758e3320b5905",
+        "same_existing_claim_basis_sha256": "e22457a92ef8dd6466d88ef4d86fe1dd205c25d76fae04be8f015449e7273934",
+        "same_existing_effective_basis_sha256": "d7d7f1bb841fb1bf3035547d67b19f49dca718a4164ddf8f0382002f927077bc",
+        "limits": "The underlying R1 source already explicitly calls the deck latent and rejects a one-to-one mapping to visible components. The selection passage narrows confidence toward latent configuration states but does not create a distinct semantic proposition. It does not inherit the R1 individual proposed V-Q/V-QE/V-L/V-S glosses."
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v15/V15_THEORY_SELECTION.md",
+          "line": 115,
+          "quote": "\n## Why medical/application content remains ahead\n\nThe direct visual-role dictionary fails, but an application/configuration deck\nstill explains:\n\n- exact value identity beyond generic DY closure;\n- one-card inherited slots;\n- nonadjacent repeated values in one configuration;\n- movement of a value among field ordinals and visual zones;\n- the page-level figures, containers, pools and conduits;\n- register-local vocabulary under a shared B production system.\n\nWorking confidence is .62 for a latent application/configuration deck and .52\nfor a generic stencil/cadence deck. Direct visible-station naming is only .10.\nThe medical interpretation therefore remains leading but narrows from\n“pictured role name” to “latent state selected for the pictured configuration.”\n\n## Strongest rival and replacement rule\n\nThe generic exemplar/stencil model predicts that family identity follows\ncopied paragraph template, wrapper and field ecology without stable practical\ncontent. It gains from the repeated `1C|3C|1C|4O` stencil on f81v.17/f82r.7,\nwhich preserves `VAL-S` at the same field while most cards vary.\n",
+          "sha256": "f749cb689fe4a9cfb41dfcb5ead797eca2cb5704931eb386a2861d672ae9c092"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v15/CANDIDATE_V15_R1_VISUAL_VALUE_WORKSHOP.md",
+          "line": 10,
+          "quote": "Die vier 12/10/8/8-Familien sind am einfachsten als ein **kleines Deck\nkategorialer Anwendungs- oder Konfigurationswerte** zu lehren. Das Deck bildet\nkeine vier sichtbaren Bauteile eins zu eins ab. Die Zeichnung und der lokale\nTextblock liefern vielmehr die Frage; die Karte liefert eine wiederverwendbare\nAntwort, und DY bestaetigt die Zelle.",
+          "sha256": "803e0cf279c3c8953e04dcc58f9df8f8f69531fe3e9f871892d0b1fbbf63f365"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v15/CANDIDATE_V15_R1_VISUAL_VALUE_WORKSHOP.md",
+          "line": 32,
+          "quote": "\n| Behauptung | Konfidenz |\n|---|---:|\n| vier stabile Nutzlastfamilien plus gemeinsamer Commit | .93 |\n| latentes Anwendungs-/Konfigurationsdeck | **.68** |\n| Werte reagieren teilweise auf sichtbare Funktionszonen | .55 |\n| feste Karte = festes gezeichnetes Bauteil | .24 |\n| `V-Q = STANDARD` | .56 |\n| `V-QE = DURCHLAUF/ZIRKULIEREND` | .49 |\n| `V-L = LOKAL/AM ENDE ANWENDEN` | .47 |\n| `V-S = HALTEN/RUHEN` | .39 |\n\nDer staerkste Rivale ist ein **seiten- und stencilgebundener Kadenzwert ohne\nsichtbare Bedeutung** (`.41`): Die Familienwahl koennte vor allem vom lokalen\nExemplar, von Feldlaenge und Abschlussrhythmus abhaengen. Dieser Rivale bleibt\nernst, weil Seite und Bildrolle stark konfundiert sind. Gewoehnliche",
+          "sha256": "803e0cf279c3c8953e04dcc58f9df8f8f69531fe3e9f871892d0b1fbbf63f365"
+        }
+      ],
+      "coverage_result": "additional_source_case_existing_assertion",
+      "distinctions": [
+        "Not a fourth new idea.",
+        "No recovery of the values or medical meaning is claimed.",
+        "Generic stencil/cadence remains the rival; the direct visible-role dictionary failing does not demonstrate the latent medical model."
+      ]
+    }
+  ],
+  "dispositions": [
+    {
+      "source_id": "LEGACY_COMPONENT:6e7f498f927ad4664266",
+      "decision": "accepted",
+      "card_ids": [
+        "CLEAN_GAP_W:product_station_compatibility"
+      ],
+      "reason": "Explicit complete scoped historical proposition retained after current-card comparison; related genre, atom or subclaim records do not supply the complete model. No global paraphrase absence claimed.",
+      "candidate_id": "GAP_V:PRODUCT_STATION_COMPATIBILITY"
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:d80f8a1a8ab070390d2f",
+      "decision": "accepted",
+      "card_ids": [
+        "CLEAN_GAP_W:h4_h5_b2_complete_material_chain"
+      ],
+      "reason": "Explicit complete scoped historical proposition retained after current-card comparison; related genre, atom or subclaim records do not supply the complete model. No global paraphrase absence claimed.",
+      "candidate_id": "GAP_V:H4_H5_B2_MATERIAL_CHAIN"
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:8b6507541449d65c861d",
+      "decision": "accepted",
+      "card_ids": [
+        "CLEAN_GAP_W:v75_local_celestial_note_rule"
+      ],
+      "reason": "Explicit complete scoped historical proposition retained after current-card comparison; related genre, atom or subclaim records do not supply the complete model. No global paraphrase absence claimed.",
+      "candidate_id": "GAP_V:CELESTIAL_PLACE_NOTE"
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:8d95e0fd9a1e2bf3b25f",
+      "decision": "grouped",
+      "card_ids": [
+        "CLEAN_GAP_W:v15_application_deck_additional_source_case"
+      ],
+      "reason": "Existing full source already states the latent application/configuration account; append this source case to that same assertion.",
+      "candidate_id": "GAP_V:LATENT_CONFIGURATION_STATE"
+    }
+  ],
+  "duplicate_review": [
+    {
+      "candidate_id": "GAP_V:PRODUCT_STATION_COMPATIBILITY",
+      "result": "new_scoped_complete_model",
+      "card_id": "CLEAN_GAP_W:product_station_compatibility",
+      "reviewed_nearby_cards": [
+        {
+          "target": "SEM:29acbe0f9029544e6225",
+          "target_basis_sha256": "d8c00838d260ac373f424ffdd39031ae1b0ad14b5bd5163c96be4b2ffd9bf3bf",
+          "effective_basis_sha256": "5e18aac92e2e93550131cee3fcf42ee86dcff6670fd04376833755e8ddf0d4ee",
+          "claim": "Herbal, Biological and Astro sections organize medical WHAT/HOW/WHEN, despite lacking a fixed cross-register key.",
+          "comparison": "WHAT/HOW/WHEN genre does not specify many-to-many product compatibility, selection or local material handling.",
+          "operational_identity_decision": false
+        },
+        {
+          "target": "SEM:63ee880ad84c65e2aa48",
+          "target_basis_sha256": "01b22fa89f278cb5816c93d77bb47f3a3484f0df0f4cb11820962ac1c2b289c1",
+          "effective_basis_sha256": "28b8306faebb63c9090c59f248512ce81d3b9d864c8c78e5cfbe51c996918c74",
+          "claim": "Für die sieben Prosaseiten ist der beste konkrete Entwurf nun ein **illustriertes Produkt-und-Anwendungsformular für eine medizinisch-badende Werkstatt**. Die technische Badehauslesung bleibt wichtig, ist aber Bediengrammatik innerhalb des therapeutischen Fallbuchs, nicht mehr zwingend ein konkurrierender Gesamtzweck.",
+          "comparison": "Product-and-application genre and its therapeutic ranking do not contain this product/station selection rule.",
+          "operational_identity_decision": false
+        },
+        {
+          "target": "SEM:6f6bfb8447ea68fee191",
+          "target_basis_sha256": "b9e6dd294bb9b67b0306781c55216cc5f011ca0d3b85dab2ec23b24ccb8c68d1",
+          "effective_basis_sha256": "30f80d56aef8a25fe1d8452b44dde56062a3d67384ff41c56b1c7db87a10930a",
+          "claim": "**Relation operands.** L/O-adjacent operands on fixed Bio pages should more often occupy compatible station/path/short-cell roles than operands around matched interior cards. No particular English preposition is predicted.",
+          "comparison": "L/O neighbor compatibility is a different within-record operand proposal, not this cross-register product coupling.",
+          "operational_identity_decision": false
+        }
+      ],
+      "source_card_mutation": false
+    },
+    {
+      "candidate_id": "GAP_V:H4_H5_B2_MATERIAL_CHAIN",
+      "result": "new_scoped_complete_model",
+      "card_id": "CLEAN_GAP_W:h4_h5_b2_complete_material_chain",
+      "reviewed_nearby_cards": [
+        {
+          "target": "SEM:29acbe0f9029544e6225",
+          "target_basis_sha256": "d8c00838d260ac373f424ffdd39031ae1b0ad14b5bd5163c96be4b2ffd9bf3bf",
+          "effective_basis_sha256": "5e18aac92e2e93550131cee3fcf42ee86dcff6670fd04376833755e8ddf0d4ee",
+          "claim": "Herbal, Biological and Astro sections organize medical WHAT/HOW/WHEN, despite lacking a fixed cross-register key.",
+          "comparison": "General WHAT/HOW/WHEN architecture does not specify H4 storage, H5 additive/application and B2 local routing.",
+          "operational_identity_decision": false
+        },
+        {
+          "target": "SEM:cd6316aa9b03b8c16807",
+          "target_basis_sha256": "83cdec700fe2ac45fac5567ecdf17cb3225e8cbb7ed2cd65d9f4544ea3769c20",
+          "effective_basis_sha256": "09c9c13aa1adad3c37638b4f99a96c675471b9e5168fd5db97679dc4bcdec378",
+          "claim": "Local H2 model (konkrete Artikelhandlung): zwei recordlokale Blüten-/Blattfraktionen als Salbenansatz",
+          "comparison": "The H2 two-fraction ointment case is a distinct record-local content model, not this three-record sequence.",
+          "operational_identity_decision": false
+        }
+      ],
+      "source_card_mutation": false
+    },
+    {
+      "candidate_id": "GAP_V:CELESTIAL_PLACE_NOTE",
+      "result": "new_scoped_complete_rule_not_new_generic_lookup",
+      "card_id": "CLEAN_GAP_W:v75_local_celestial_note_rule",
+      "reviewed_nearby_cards": [
+        {
+          "target": "SEM:0e44f0a744d632a6948e",
+          "target_basis_sha256": "8db57b3889390a443e8790304ddf001a415e6e3a7fae90c5c470b8cca4e54e83",
+          "effective_basis_sha256": "9e36590c646540818654ab58e83f78c07e11a417f752fb7f117b2500d912b82b",
+          "claim": "Die Kreisdiagramme sind ein Stationskatalog mit Adressen und Nachschlagfunktion.",
+          "comparison": "Existing stations/lookup catalogue overlaps the generic lookup operation; its cited V55 source also chose a 7×12 selection, common center and ordered f69v sequence. No identity of the full V75 rule is asserted.",
+          "operational_identity_decision": false
+        },
+        {
+          "target": "SEM:94784bba460f2af988ad",
+          "target_basis_sha256": "b7f1be2a87fad2c5d9859f05339294ef743bb30f0c4d3c92bb9ac32071302db7",
+          "effective_basis_sha256": "88e8ea00c54c1187e98978c6c327094d3e21ca4f3fb76f34226e23adc240e637",
+          "claim": "Astronomical label meanings are local to each diagram namespace rather than one universal dictionary.",
+          "comparison": "Local namespace meanings are one component of this full operation, not the entire select-place/read-note/reset contract.",
+          "operational_identity_decision": false
+        },
+        {
+          "target": "SEM:7990c5b3e9cb918bd8c9",
+          "target_basis_sha256": "974c2ab97050b3b55186bb4f779c4d80b64d8374f5fc68c2978c1fb8610331df",
+          "effective_basis_sha256": "f137f00f100b811403f936d4804612c3a07b7d669c577acdecbffd39d9c7a249",
+          "claim": "Die vierzehn Seiten werden als bildadressiertes Werkstattbuch gelesen: > Pflanzenstoff wählen → im Gefäß zubereiten → in Bad, Auflage oder lokaler > Station anwenden → Himmelsplatz oder Arbeitsklasse nachschlagen.",
+          "comparison": "The four-stage workshop workflow ends in a sky-place lookup but does not preserve this three-diagram local rule.",
+          "operational_identity_decision": false
+        },
+        {
+          "target": "SEM:67d8f7d04d7b72d2a5d6",
+          "target_basis_sha256": "e6a2e6ad248dd44865c477c2e714cdf16b30c85630140fa8498c31786016fde3",
+          "effective_basis_sha256": "cf5a7532e3f08a9b82a1e694549c9f4f63a0889813a604476c5f49fb37e02b16",
+          "claim": "Die stärkste historische Expansion ist ein astronomisch-kalendarisches oder iatromathematisches Nachschlagewerk: lokale Zeichen-, Stern-, Haus-, Tages- oder Wahlregeln. Der stärkste skeptische Rivale ist ein rein kosmographisches, mnemonisches oder ikonographisches Diagramm, dessen Beschriftungen sich ohne externes Exemplar nicht sachlich rücklesen lassen",
+          "comparison": "Historical content-world rivals do not themselves state this minimal place-to-note operation.",
+          "operational_identity_decision": false
+        }
+      ],
+      "source_card_mutation": false
+    },
+    {
+      "candidate_id": "GAP_V:LATENT_CONFIGURATION_STATE",
+      "result": "additional_source_case_existing_assertion",
+      "card_id": "CLEAN_GAP_W:v15_application_deck_additional_source_case",
+      "reviewed_nearby_cards": [],
+      "source_card_mutation": false
+    }
+  ],
+  "validation": {
+    "status": "PASS",
+    "cards": 4,
+    "new_scoped_assertions": 3,
+    "additional_existing_assertion_cases": 1,
+    "dispositions": 4,
+    "source_ids_known": true,
+    "exact_quotes_and_hashes": true,
+    "current_comparison_basis_bound": true,
+    "no_base_or_operational_log_edits": true
+  },
+  "limits": [
+    "Source coverage is distinct from semantic confirmation.",
+    "No whole-model coverage is inferred from a bag of already-listed atomic glosses.",
+    "Same generic lookup function is acknowledged; the retained V75 claim is its entire source-specified local operation.",
+    "Additional source case uses the exact current existing claim/type for normalized assertion grouping; source cases remain distinct."
+  ]
+}

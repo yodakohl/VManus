@@ -1,0 +1,476 @@
+{
+  "schema": "clean_gap_peer_review_v1",
+  "review_id": "CLEAN_GAP_PEER_REVIEW_U",
+  "scope": "All ten U cards, primary quotations, source-scope blocks and bounded current-card comparisons; no raw manuscript data or new experiments.",
+  "input_sha256": {
+    "research_registry/decisions/clean_gap_review_u.json": "ee83972c462537930796bad095fad5a2b7579a126408f6cf8556e577b1e2c867",
+    "research_registry/decisions/scope_instances_batch_u.json": "5ac6b68dcd5afd804fbbcfa46d897906e7b2a2d0e8360d770ff7b375a466c429"
+  },
+  "reviews": [
+    {
+      "card_id": "CLEAN_GAP_U:field_layers",
+      "decision": "correction",
+      "reason": "The complete four-layer joint parser rule is explicit, but it assigns record-entry, early carrier, unresolved local frame and closure coordinates. The source says recovery did not use semantic labels. Retain as formal_role outside the default semantic list; this is not a new content/referent hypothesis.",
+      "coverage_class": "joint_formal_rule",
+      "proposition_source_support": "PASS",
+      "coverage_limit": "No complete counterpart located in the bounded current-card/source-case comparisons. This is not an exhaustive semantic-equivalence proof, an experiment result or a count of universally new mechanisms.",
+      "source_card_sha256": "cc3db632f166f859ffb536e6234dfac4ffb4d0af91d9a5fc4a17b1d5244af429",
+      "source_ids": [
+        "LEGACY_COMPONENT:39786b2b852da0cdec91"
+      ],
+      "evidence": [
+        {
+          "path": "GDT011_FIELD_LAYER_REPORT.md",
+          "line": 25,
+          "quote": "## Meaning update\n\nThe best defensible functions are now:\n\n- `t/s/d`: choose an entry or continuation record state;\n- `q/ch/sh/che`: introduce or scope an early field;\n- `o/ot`: local frame material whose function remains unresolved;\n- `DY`: close or resolve the current field.\n\nThis is stronger than assigning a picture noun, because the classes were\nrecovered from attachment distributions across matched hosts and pages.",
+          "sha256": "07ef1bf0ddf9c5531bd5986ca17aabb922aa90da77b0620c797c88e3f68a6a73"
+        },
+        {
+          "path": "GDT011_FIELD_LAYER_REPORT.md",
+          "line": 5,
+          "quote": "## Result\n\nHost-plus-page matching recovers a four-layer field grammar without using the\nprovisional semantic labels:\n\n```text\nENTRY (t / s / d)\n    -> EARLY CARRIER (q / ch / sh / che)\n    -> LOCAL OR UNRESOLVED FRAME (o / ot and host material)\n    -> CLOSURE (DY)\n```\n\nRecovered classes: T_PREPEND=ENTRY, S_PREPEND=ENTRY, D_PREPEND=ENTRY, Q_PREPEND=EARLY_CARRIER, CH_PREPEND=EARLY_CARRIER, SH_PREPEND=EARLY_CARRIER, CHE_PREPEND=EARLY_CARRIER, O_PREPEND=LOCAL_OR_UNRESOLVED, OT_PREPEND=LOCAL_OR_UNRESOLVED, DY_APPEND=CLOSURE.",
+          "sha256": "07ef1bf0ddf9c5531bd5986ca17aabb922aa90da77b0620c797c88e3f68a6a73"
+        },
+        {
+          "path": "GDT011_FIELD_LAYER_REPORT.md",
+          "line": 50,
+          "quote": "## What changed\n\nGDT010's q-early and DY-late constraints survive.  GDT009's concrete\n`d=active`, `s=state`, and line-wide current-scope language is too specific.\nThe useful decoder is a field-state grammar: entry carriers, early carriers,\nlocal host material, and closure.  Exact lexical content remains inside the\npage-local host inventory.",
+          "sha256": "07ef1bf0ddf9c5531bd5986ca17aabb922aa90da77b0620c797c88e3f68a6a73"
+        }
+      ],
+      "reviewed_current_neighbors": [],
+      "status_inheritance": "none; original unconfirmed status and local failure/hold limitations remain",
+      "proposed_correction": {
+        "field": "claim_type",
+        "from": "functional_hypothesis",
+        "to": "formal_role",
+        "claim_unchanged": true,
+        "default_semantic_listing": false,
+        "reason": "No content binding or reference claim beyond parser/field coordinates. The early source explicitly withdraws d=active and s=state as too specific."
+      }
+    },
+    {
+      "card_id": "CLEAN_GAP_U:reference_microgrammar",
+      "decision": "approve",
+      "reason": "The six-part source proposal adds referent/association, adjacency and bounded/interior qualification to parser positions. That makes it a proposed functional interpretation rather than just field coordinates. Preserve the full microgrammar and its expressly abductive status; OT+AL alone is not a second idea.",
+      "coverage_class": "joint_functional_microgrammar",
+      "proposition_source_support": "PASS",
+      "coverage_limit": "No complete counterpart located in the bounded current-card/source-case comparisons. This is not an exhaustive semantic-equivalence proof, an experiment result or a count of universally new mechanisms.",
+      "source_card_sha256": "0fc61c8f20ebbac307ecd9abc5f8bd4ec92bf9704df25d67f5adc8f2bee1b771",
+      "source_ids": [
+        "LEGACY_COMPONENT:bf2682c3535c084ca39f",
+        "LEGACY_COMPONENT:38e3d5ab3ed488412315"
+      ],
+      "evidence": [
+        {
+          "path": "GDT014_LOCAL_REFERENCE_MICROGRAMMAR_REPORT.md",
+          "line": 45,
+          "quote": "## Provisional meaning update\n\n- `AR`: local referent/association nucleus;\n- `AR+O/L` environments: adjacent or associated referent lead;\n- `OT+AR`: bounded/interior or locally qualified referent lead;\n- `OT+AL`: analogous later qualified state without a visual gloss yet;\n- `q`: outer/current field state that prefers an O/OT-framed core;\n- `DY`: alternative resolved/terminal field state, not a paired line bracket.\n\nThese functions explain visual `ARO/TAR` hints, productive prose ladders, and\nrecord position at once.  They remain an abductive microgrammar, not word\ntranslations.\n\nf84r was not retained, joined, or scored.  No word, morpheme, POS, sound,\nlanguage, plaintext, or translation is confirmed.",
+          "sha256": "276839f627a74313ba0892739e5d661d05411192ad8517330a1a59f0453a5e24"
+        },
+        {
+          "path": "GDT014_LOCAL_REFERENCE_MICROGRAMMAR_REPORT.md",
+          "line": 50,
+          "quote": "- `OT+AL`: analogous later qualified state without a visual gloss yet;",
+          "sha256": "276839f627a74313ba0892739e5d661d05411192ad8517330a1a59f0453a5e24"
+        },
+        {
+          "path": "GDT014_LOCAL_REFERENCE_MICROGRAMMAR_REPORT.md",
+          "line": 27,
+          "quote": "So `OT` is not a uniform lexical prefix.  The best provisional function is a\n**later/local-qualified field state**, especially for AR/AL-like cores.\n\n## Outer-state compatibility\n\nBare `AR` and `AL` have 0 q-prefixed occurrences in this projection;\n`OTAR` and `OTAL` have 62.  The observed forms therefore support the stack\n\n```text\n[entry/carrier] [q outer state] [O/OT local frame] [AR/AL core] [DY state]\n```\n\nrather than unrestricted concatenation.  The q result is not independent\nsemantic evidence: it may be entirely explained by the familiar source\northotactic preference for `qo`.  q and DY mostly behave as alternative states\ninside these exact ladders, consistent with GDT011's rejection of whole-line\nq...DY bracketing.",
+          "sha256": "276839f627a74313ba0892739e5d661d05411192ad8517330a1a59f0453a5e24"
+        }
+      ],
+      "reviewed_current_neighbors": [],
+      "status_inheritance": "none; original unconfirmed status and local failure/hold limitations remain"
+    },
+    {
+      "card_id": "CLEAN_GAP_U:endpoint_world",
+      "decision": "approve",
+      "reason": "The primary report deliberately combines a revised endpoint/extent dictionary, corrected Y interpretation, three SOLK constructions and eight ordered scene readings. A collection of separate SOLK or Y gloss cards does not retain that source-specific joint world. Keep one model with eight exemplifications, not eight new independent mechanisms or words.",
+      "coverage_class": "joint_model_with_eight_source_instances",
+      "proposition_source_support": "PASS",
+      "coverage_limit": "No complete counterpart located in the bounded current-card/source-case comparisons. This is not an exhaustive semantic-equivalence proof, an experiment result or a count of universally new mechanisms.",
+      "source_card_sha256": "4297b0d8300fdf1157047043df06127dbf708d2a52cc1a3fb2293d0a070231b9",
+      "source_ids": [
+        "LEGACY_COMPONENT:8767263dba2e288bc17f",
+        "LEGACY_COMPONENT:5f42c22a862d6d24b00f"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_state_endpoint_completion/HISTORICAL_ENDPOINT_PARADIGM_REPORT.md",
+          "line": 59,
+          "quote": "## Wichtigste Korrektur: Y bedeutet nicht offen\n\nDie früheren SOLKEY/SOLKEEY-Glossen „Sammelstelle öffnen“ werden zurückgenommen. Es gibt keine eigene OPEN-Bedeutung. In der neuen Komposition benennt Y den laufenden Posten:\n\n    SOLK + E  + Y   den laufenden Posten kurz an der Sammelstelle halten\n    SOLK + EE + Y   den laufenden Posten länger an der Sammelstelle halten\n    SOLK + EE + DY  an der Sammelstelle absetzen; Schluss\n\nDie ersten beiden Ereignisse sind offen, weil keine Schlusskarte folgt, nicht weil Y „offen“ hieße. SOLK bleibt mit fünf Ereignissen und zwei offenen Einzelkarten die schwächste Sachkernwahl; HALTESTELLE und ABSETZPLATZ bleiben ernsthafte Alternativen.",
+          "sha256": "0b5df828e2d03f67434c93f529acbe9a744c9d309616816e5b2216685b882f35"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_state_endpoint_completion/HISTORICAL_ENDPOINT_PARADIGM_REPORT.md",
+          "line": 86,
+          "quote": "## Acht konkrete Rücklesungen\n\n| Aussage | neue knappe Werkstattlektüre |\n|---|---|\n| H2-S003 | Im glasierten Gefäß vereinige zwei Zubereitungen mit dem laufenden Posten bis zur weichen Konsistenzstufe; verwende dies für das Geschwür. |\n| H4-S003 | Bemiss den laufenden Posten, entnimm daraus den Auszug, halte ihn anhaltend warm und führe ihn weiter; Schluss. |\n| B1-S018 | Fülle das Gefäß, bestreiche die Stelle und bringe den Posten auf die verlangte Arbeitsstufe; lasse ihn an der Sammelstelle absetzen; Schluss. |\n| B2-S012 | Ziehe den flüssigen Anteil ab, halte den geklärten Posten kurz bereit und dann anhaltend in Kontakt; bemiss und durchtränke ihn vollständig; Schluss. |\n| B3-S013 | Stelle nach Maß ein, nimm eine Portion, halte den laufenden Posten kurz bereit und benetze ihn kurz; Schluss. |\n| B3-S014 | Bring die Flüssigkeit in den Lauf und lasse sie länger ruhen oder nachwirken; Schluss. |\n| B3-S034 | Wenn Sollstufe und Bereitschaft erreicht sind, zerkleinere; nimm das nächste Maß zur unteren Zielstelle und lasse den Posten kurz ruhen; Schluss. |\n| B4-S015 | Gib die Portionen der klaren Flüssigkeit für die angesetzte Dauer zu, halte den Posten kurz an der Sammelstelle und führe ihn hinaus; Schluss. |\n\nB6-S001 bleibt absichtlich weniger glatt: SOLKEEY eröffnet einen ungeschlossenen Stationsablauf. Die Karte sagt nur „laufenden Posten länger an der Sammelstelle halten“; ungekocht, erste Öffnung, Maß, Tuch und bezeichnete Zielstelle kommen aus den folgenden Karten.",
+          "sha256": "0b5df828e2d03f67434c93f529acbe9a744c9d309616816e5b2216685b882f35"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_state_endpoint_completion/HISTORICAL_ENDPOINT_PARADIGM_REPORT.md",
+          "line": 5,
+          "quote": "Als knappe Werkstattordnung um 1420 ist folgende Lesung am besten lehrbar:\n\n| Karte/Kern | genau ein Default | Frage des Schreibers |\n|---|---|---|\n| IIN | STUFE | Welcher Arbeitsstand ist verlangt oder erreicht? |\n| E | KURZ | Wie kurz oder unmittelbar wird der Kern ausgeführt? |\n| EE | ANHALTEND | Wie lange bleibt der Kern wirksam? |\n| EEE | VOLLSTÄNDIG | Ist der Arbeitsgang ganz durchgeführt? |\n| CTH | BEREIT | Ist der laufende Posten verwendbar? |\n| SHED | RUHEN | Soll der Posten stehen oder nachwirken? |\n| CHK | WÄRMEN | Soll der Posten warm behandelt werden? |\n| SOLK | SAMMELSTELLE | An welchem lokalen Halte-/Empfangsplatz steht er? |\n| Y | DIES | Welcher Posten ist gemeint? Der laufende. |\n| DY | SCHLUSS | Wird der lokale Arbeitsschritt beendet? |\n\nDas ist eine kreative Zehn-Seiten-Arbeitstheorie. Die Defaults sind keine bestätigten Wörter, Lautwerte oder historische Entzifferung. f84 und f84r blieben vollständig versiegelt.\n\n## Zwei getrennte Achsen\n\nIIN und E/EE/EEE dürfen nicht mehr als dasselbe Maß behandelt werden:\n\n    IIN = Ergebnis- oder Sollstufe des Arbeitsguts\n    E / EE / EEE = Ausdehnung der jeweils genannten Handlung\n\nDarum kann K+IIN eine weiche Konsistenzstufe und DA+IIN eine zweite Öffnungsstufe bezeichnen, während CHK+E/EE kurz wärmen gegenüber länger warm halten und SH+E/EE gewöhnlich gegenüber länger ruhen unterscheidet. IIN ist nicht automatisch Temperatur; E ist nicht automatisch Zeit in Minuten.",
+          "sha256": "0b5df828e2d03f67434c93f529acbe9a744c9d309616816e5b2216685b882f35"
+        }
+      ],
+      "reviewed_current_neighbors": [
+        {
+          "target": "SEM:999e35affafbf18a03d3",
+          "claim": "solkey → catch briefly and leave active",
+          "target_basis_sha256": "bc8baedfb194d043174d84a478eb0a17969208663257c78e783ca4479fd6a01c",
+          "effective_basis_sha256": "15b3494861941ce049d034d859b040cdde30fa5dacdaa3f2bd2214f1111f585e",
+          "reason": "Short whole-form catch/active reading does not encode the corrected endpoint world or its eight scene propositions.",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 13,
+              "line_end": 13,
+              "path": "experiments/yolo/sidequest_semantic_solk_collect_grid_six_hundred_sixty_sixth/SIX_HUNDRED_SIXTY_SIXTH_REPORT.md",
+              "quote": "| `solkey` | SOLK+E+Y | catch briefly and leave active |",
+              "sha256": "a594b9f75aa1da090d5a36caf9fe49890da63a49362b126cc9e83484645263f5",
+              "source_id": "LEGACY_COMPONENT:c9106b7c80aba5d5cac5",
+              "source_section": "The small paradigm",
+              "table_header": "| Card | Composition | Workshop reading |"
+            }
+          ]
+        },
+        {
+          "target": "SEM:f7526a58afbd8845ec22",
+          "claim": "solkeey → catch for longer and leave active",
+          "target_basis_sha256": "af95d920a63783cfcb7cf12efa96ee3a08d1c9aa199e20a3f075641484ee406c",
+          "effective_basis_sha256": "b56d9354406c7771385a1a80b0f8d1480e032912ecfa1a977765a79b84248dfc",
+          "reason": "Long catch/active reading is only one constituent proposition.",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 14,
+              "line_end": 14,
+              "path": "experiments/yolo/sidequest_semantic_solk_collect_grid_six_hundred_sixty_sixth/SIX_HUNDRED_SIXTY_SIXTH_REPORT.md",
+              "quote": "| `solkeey` | SOLK+EE+Y | catch for longer and leave active |",
+              "sha256": "a594b9f75aa1da090d5a36caf9fe49890da63a49362b126cc9e83484645263f5",
+              "source_id": "LEGACY_COMPONENT:33f4e91b0d57bdf50823",
+              "source_section": "The small paradigm",
+              "table_header": "| Card | Composition | Workshop reading |"
+            }
+          ]
+        },
+        {
+          "target": "SEM:d3318631560bf2673dcc",
+          "claim": "`SOLK+E/EE` sollte kurze/längere Sammlung bezeichnen.",
+          "target_basis_sha256": "057bfb8dd807c8a2242d2da032dc3150658b5ed403e8155489a6c5e7b21ecab1",
+          "effective_basis_sha256": "50dc80da8f3107468d95633a2936543839207ed32a2d5f4de06d55148fb6828b",
+          "reason": "Shared short/long SOLK prediction does not imply the full clinical/workshop conjunction.",
+          "evidence": [
+            {
+              "line": 222,
+              "path": "experiments/yolo/sidequest_semantic_vessel_tool_station_completion/VESSEL_TOOL_STATION_REPORT.md",
+              "quote": "## Was das Modell als Nächstes vorhersagt",
+              "sha256": "09c6dedcd2836d6f3ecce12880f2fcf5c38150e0910b81a6fe9ec98399c507ce"
+            },
+            {
+              "line": 224,
+              "path": "experiments/yolo/sidequest_semantic_vessel_tool_station_completion/VESSEL_TOOL_STATION_REPORT.md",
+              "quote": "- Eine neue `X+AL`-Karte sollte zielwärts gelesen werden: `an/zu`, nicht als\n  neues Körperteil oder neues Gefäß.\n- Eine neue `X+AR`-Karte sollte eine Quellseite liefern: `aus/von`.\n- `P+CHED` sollte hinein-, `L+CHED` herausführen.\n- `CKH` sollte einen Durchgang, `CKHE` einen gefilterten Durchgang ergeben.\n- `SOLK+E/EE` sollte kurze/längere Sammlung bezeichnen.\n- Ein weiteres `AIR`-Kompositum sollte bei Wasser bleiben.\n- Ein neues Gefäßwort muss nicht zerlegbar sein; es darf als Ganzzeichen neben\n  `VAS/OLLA/SCUTELLA/TINA/LABRUM` gelernt werden.\n- Ein Armaturenwort darf lokal `Hahn`, `Düse`, `Ablauf` oder `Seitenarm` heißen,\n  darf aber nicht ohne sichtbare Komposition plötzlich „erste“ oder „zweite“\n  bedeuten.",
+              "sha256": "09c6dedcd2836d6f3ecce12880f2fcf5c38150e0910b81a6fe9ec98399c507ce"
+            }
+          ]
+        }
+      ],
+      "status_inheritance": "none; original unconfirmed status and local failure/hold limitations remain",
+      "counting_rule": "One model; eight historical examples stay inside its evidence/case. Do not split or count these as eight new semantic discoveries."
+    },
+    {
+      "card_id": "CLEAN_GAP_U:record_templates",
+      "decision": "approve",
+      "reason": "The three exact record formulas contain different order and name-slot topology. A broad shared-grammar/section-template card and separate DANACH/ZIELORT/POSTEN glosses do not specify these complete templates. The claimed generality remains only the listed GDT480 records and working edition.",
+      "coverage_class": "joint_three_template_architecture",
+      "proposition_source_support": "PASS",
+      "coverage_limit": "No complete counterpart located in the bounded current-card/source-case comparisons. This is not an exhaustive semantic-equivalence proof, an experiment result or a count of universally new mechanisms.",
+      "source_card_sha256": "c4b63b35354838437d230a21875fdd551f5793824edbe6efc42401f530572cce",
+      "source_ids": [
+        "LEGACY_COMPONENT:b871f80c31416ee2eac8"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt480_microrecord_template_atlas/REPORT.md",
+          "line": 20,
+          "quote": "## Three cross-register meaning templates\n\nThe strongest result is small and concrete:\n\n- `CATALOGUE[DANACH · {N1}]` occurs four times on f71v, f77r, and f88v. The\n  surfaces `otchody`, `otork`, `otora`, and `otdordy` all read as a named entry\n  with a following-entry mark; OT opens the right-hand sibling.\n- `COORDINATE[DANACH · ZIELORT · POSTEN]` occurs as `otalshy` on f72r and\n  `otalsy` on f89r: “Adressspur: danach → Zielort → Posten.”\n- `CATALOGUE[{N1} · AUSGANG · {N2}]` occurs as celestial `yfary` and\n  pharmaceutical `ytarem`: two named entries joined by an Ausgang assignment.\n\nThese are the best current whole-record compositions because they preserve the\nexact model, component order, name-slot topology, and OT/OL scope across owner\nclasses. They are working predictions for how the already visible components\ncompose, not new word meanings.",
+          "sha256": "4d69a8a9d68d76a95999029383db97c5a8e34c8eb50507a3796637d008907e32"
+        }
+      ],
+      "reviewed_current_neighbors": [
+        {
+          "target": "SEM:5f5230823f9a3a284351",
+          "claim": "Different sections use different higher-level record templates under a shared cell grammar.",
+          "target_basis_sha256": "4a60283336064a3dccfd8688f8ba16203951179b938424a231ff2b6a006204c8",
+          "effective_basis_sha256": "c41835eef7b3f6aac2f386d604c8a38b02c62de7a36a7cd5cdaeb6e5525cb27c",
+          "reason": "Generic section-specific templates do not encode the three named strict formulas.",
+          "evidence": [
+            {
+              "line": 944,
+              "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+              "quote": "## Iteration 9 — section-specific record syntax",
+              "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+            },
+            {
+              "line": 946,
+              "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+              "quote": "The same compiler appears to be used with different higher-level templates.\nIn the covered six-page material, the useful qualitative contrast is:",
+              "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+            }
+          ]
+        }
+      ],
+      "status_inheritance": "none; original unconfirmed status and local failure/hold limitations remain"
+    },
+    {
+      "card_id": "CLEAN_GAP_U:f81_local_cells",
+      "decision": "approve",
+      "reason": "The report explicitly opposes separate operating/application settings and open handoffs to one circulating watercourse or sentence in the same f81v scene. General configuration-cell claims do not preserve this particular rival and local edition. This is one source-bound scene interpretation, not newly verified cell boundaries.",
+      "coverage_class": "local_scene_model_with_explicit_rival",
+      "proposition_source_support": "PASS",
+      "coverage_limit": "No complete counterpart located in the bounded current-card/source-case comparisons. This is not an exhaustive semantic-equivalence proof, an experiment result or a count of universally new mechanisms.",
+      "source_card_sha256": "6a43aae0e1c94b94bd26b6e25ea765bc8251ba7666834d399c44458af007cec1",
+      "source_ids": [
+        "LEGACY_COMPONENT:a7d681fb8902dd9a03b0"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_b1_pool_modules_five_hundred_thirty_second/FIVE_HUNDRED_THIRTY_SECOND_REPORT.md",
+          "line": 3,
+          "quote": "## Die konkrete Lesung\n\nf81v/B1 ist in der jetzigen Theorie kein einziger kreisender Wasserlauf. Das\nBild gibt eine gemeinsame zweireihige Figuren-/Beckenstation, aber keine\ngerichtete Gesamtleitung. Der Text besteht aus **21 lokalen Betriebszellen**:\n\n- 17 schließen ausdrücklich;\n- vier bleiben als offene Übergaben stehen;\n- acht Zellen haben nur eine Karte;\n- nur eine lange Setupzelle hat 19 Karten.\n\nDas passt besser zu einem Betriebs- oder Anwendungsblatt mit mehreren\nEinstellungen als zu einem einzigen Satz.",
+          "sha256": "6aa11b6511549e3cbdc037a3f19b4b83fb067e294465d61cfa09289857cc110b"
+        }
+      ],
+      "reviewed_current_neighbors": [
+        {
+          "target": "SEM:c58c7e48ffd441d7d13d",
+          "claim": "Biological records fill short configuration cells; images and stencils supply questions, payload cards give values and DY confirms the cell.",
+          "target_basis_sha256": "90c6eff935ca165a548e6e8de9e622d4400652c9757100aeacff508156f9f2e8",
+          "effective_basis_sha256": "a3bad3bcd7ac70bf4253d8ffba9bce1f692923b8a50bd56c1bb91d2a9a5585cb",
+          "reason": "Generic Bio question/value/commit architecture lacks the f81v-specific open handoffs and explicit single-watercourse rival.",
+          "evidence": [
+            {
+              "line": 90,
+              "path": "experiments/yolo/sidequest_theory_candidates_v14/CANDIDATE_V14_R1_WORKSHOP_PURPOSE.md",
+              "quote": "4. Im Bio-Register fuellt er kurze Zellen der gezeigten Konfiguration. Die\n   Frage bzw. der Slot kann aus Bild und Stencil geerbt sein; eine exakte\n   Nutzlastkarte traegt den Wert und die angehaengte DY-Realisierung bestaetigt\n   die Zelle.",
+              "sha256": "307976d65eabf4b1f9783ca4692d2f07b66692299277f4c28d90868212bf8ceb"
+            }
+          ]
+        },
+        {
+          "target": "SEM:535d022d5be9b2341463",
+          "claim": "The historical page reading for f81v is: overview or regimen record for a shared pool/scene, using a register-wide closed-state deck.",
+          "target_basis_sha256": "1a62f03cf6d97584bb2943483d7061714cc40268f0b1fcf7610ffb8f77467ac9",
+          "effective_basis_sha256": "a607e6b4682dafcee16292855624a234c1099bf34a4ed70814f70158c2b2f960",
+          "reason": "Overview/regimen of a shared pool scene does not assert the same separate-setting interpretation.",
+          "evidence": [
+            {
+              "line": 6658,
+              "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+              "quote": "| f81v | overview or regimen record for a shared pool/scene, using a register-wide closed-state deck | whether figures are patients, exemplars, personifications or owners |",
+              "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+            }
+          ]
+        }
+      ],
+      "status_inheritance": "none; original unconfirmed status and local failure/hold limitations remain"
+    },
+    {
+      "card_id": "CLEAN_GAP_U:f83_station_program",
+      "decision": "approve",
+      "reason": "The primary text assigns distinct ordered programs to six named station contexts and one B6 open addendum. This is a single joint station-program map, not seven new action lexemes. The station/action bindings are the additional model-level content; merely listing the individual actions or visible stations does not cover the map.",
+      "coverage_class": "joint_station_program_map",
+      "proposition_source_support": "PASS",
+      "coverage_limit": "No complete counterpart located in the bounded current-card/source-case comparisons. This is not an exhaustive semantic-equivalence proof, an experiment result or a count of universally new mechanisms.",
+      "source_card_sha256": "d688c40f23d64e731067a8cbd6a7de9820e84b5b909b1c898f668b80909e14ac",
+      "source_ids": [
+        "LEGACY_COMPONENT:eb862a1d52e6ff130efe"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_f83_complete_edition_five_hundred_thirty_fourth/FIVE_HUNDRED_THIRTY_FOURTH_REPORT.md",
+          "line": 50,
+          "quote": "## Konkrete lokale Lesungen\n\n- obere Fächerstation: länger auffangen und schließen; danach Ziel setzen und\n  länger wärmen;\n- Rundgefäß: umsetzen und schließen; an Zielstelle ansetzen, weiter umsetzen;\n- Korbgefäß: hinein umsetzen, Ziel setzen, kurz schließen; Posten bereit\n  umsetzen und von dort nehmen;\n- Figurenpaar: länger auffangen, danach länger schließen, ansetzen, absetzen,\n  messen und durch kurze/lange Zyklen führen;\n- linke Fransenstation: Maß setzen, kurz wärmen, länger fortsetzen, Portion\n  ansetzen, führen und schließen;\n- rechter S-Lauf: Portion fortsetzen, Zielstelle setzen, von dort zuführen,\n  absetzen und schließen.\n\nDer B6-Nachtrag liest sich als längere offene Kette: länger auffangen, kurz\nzuführen, an der Zielstelle abkühlen, fortsetzen, messen, Portion nehmen und in\nden Zielansatz führen.",
+          "sha256": "876240d4cbf4d70e6e2d6e06ff2f7431744ad098bcb74a0a662a70e583501549"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_f83_complete_edition_five_hundred_thirty_fourth/FIVE_HUNDRED_THIRTY_FOURTH_REPORT.md",
+          "line": 39,
+          "quote": "10. eigener Nachtrag zum rechten S-Lauf.\n\n## Drei echte Besitzergrenzen mitten in einer Aussage\n\n- B3-S016: Korbgefäß → unverbundener Zwischenbereich;\n- B3-S026: Zwischenbereich → sichtbares Figurenpaar;\n- B4-S015: linke Fransenstation → rechter S-Lauf.\n\nDie Ausgabe setzt an jeder Stelle ausdrücklich „ohne Bildkante wechseln“ ein.\nDas bewahrt den Satzfluss, ohne einen Rohrzyklus zu erfinden.",
+          "sha256": "876240d4cbf4d70e6e2d6e06ff2f7431744ad098bcb74a0a662a70e583501549"
+        }
+      ],
+      "reviewed_current_neighbors": [],
+      "status_inheritance": "none; original unconfirmed status and local failure/hold limitations remain"
+    },
+    {
+      "card_id": "CLEAN_GAP_U:four_register_world",
+      "decision": "approve",
+      "reason": "The primary jointly assigns Herbal, Biological, Zodiac and Pharma tasks and divides information among pictures, short forms and local labels. The older three-content-block practical compendium is related, but does not contain this exact four-register conjunction including Pharma and Zodiac next-position/stage/identifier. Keep source-specific model; no global theory novelty follows.",
+      "coverage_class": "joint_four_register_information_model",
+      "proposition_source_support": "PASS",
+      "coverage_limit": "No complete counterpart located in the bounded current-card/source-case comparisons. This is not an exhaustive semantic-equivalence proof, an experiment result or a count of universally new mechanisms.",
+      "source_card_sha256": "85cb6a203c83c7454df5b944cbc31815990e73ed62018068f5f0f87aaa6ce3cc",
+      "source_ids": [
+        "LEGACY_COMPONENT:b1277c5b64e07d78d019"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_four_page_reality_check_nine_hundred_ninth/NINE_HUNDRED_NINTH_REALITY_CHECK_REPORT.md",
+          "line": 157,
+          "quote": "## Beste neue Gesamtlesung\n\nDas Manuskriptteil wirkt jetzt am ehesten wie ein **bildgefuehrtes\nWerkstattkompendium mit gemeinsamer Kurznotation**:\n\n- Herbal: Was ist der dargestellte Stoff, und welche Verarbeitung gehoert\n  dazu?\n- Biological: An welcher Koerper-, Becken- oder Anschlussstation wird der\n  Posten gehalten, umgesetzt oder weitergefuehrt?\n- Zodiac: Welche Ringstelle, Stufe oder Kennung ist als Naechstes zu lesen?\n- Pharma: Welche lokale Zutat gehoert zu welchem Gefaessansatz und Teilgang?\n\nDie Bilder liefern die grossen Nomen. Die wiederkehrenden Kurzformen liefern\nvor allem Ablauf, Menge, Adresse, Grad und Referenz. Lokale Labels liefern die\nNamen, die ein Lehrling aus dem Musterbuch kennen oder kopieren musste.",
+          "sha256": "c23499adc22cef915619daa4ffa3d0bb9a6dd20539e400f6a0e7626fe279b001"
+        }
+      ],
+      "reviewed_current_neighbors": [
+        {
+          "target": "SEM:d9169c6a4452bdee1ea2",
+          "claim": "Das Buch ist ein bildgeführtes Praxis-Kompendium. Pflanzenbilder eröffnen Stoff- und Zubereitungsartikel; Figuren, Becken und Gefäße eröffnen lokale Bade-, Wasch-, Klär- und Übergabestationen; die Himmelsbilder liefern getrennte Wahl- und Nachschlageinstrumente. Derselbe gelernte Kürzelbaukasten trägt Quelle, Ziel, Folge, Portion, Grad, Bahn und Festsetzung. Bild und Exemplar liefern die vielen lokalen Namen. Die engste Inhaltslesung ist ein Heilkundigenbuch mit balneologischer Praxis und Himmelswahl. Ein Pflanzenmaterial-/Badehaus-/Almanach-Miszellaneum bleibt der stärkste Rivale; die Kartengrammatik funktioniert in beiden.",
+          "target_basis_sha256": "a5f9fdf0aea20b2859195c817ca2cf1bf269ce33d02e6652acf80b0b6b069ef8",
+          "effective_basis_sha256": "3291e20ec5a38ff1945b7906cf90098ec70d6edb8886c7ebb696a92dd95a96bd",
+          "reason": "Older broad practical compendium lacks this source-specific four-register division.",
+          "evidence": [
+            {
+              "line": 3,
+              "path": "experiments/yolo/sidequest_semantic_complete_ten_page_reading_two_hundred_eighty_fifth/TWO_HUNDRED_EIGHTY_FIFTH_COMPLETE_TEN_PAGE_READING.md",
+              "quote": "## Arbeitstheorie des Schreibers",
+              "sha256": "b2496a10b30dec7beac0aa830bf26ec30f32739dd1060decfc20c266c7c4356c"
+            },
+            {
+              "line": 5,
+              "path": "experiments/yolo/sidequest_semantic_complete_ten_page_reading_two_hundred_eighty_fifth/TWO_HUNDRED_EIGHTY_FIFTH_COMPLETE_TEN_PAGE_READING.md",
+              "quote": "Das Buch ist ein bildgeführtes Praxis-Kompendium. Pflanzenbilder eröffnen Stoff- und Zubereitungsartikel; Figuren, Becken und Gefäße eröffnen lokale Bade-, Wasch-, Klär- und Übergabestationen; die Himmelsbilder liefern getrennte Wahl- und Nachschlageinstrumente. Derselbe gelernte Kürzelbaukasten trägt Quelle, Ziel, Folge, Portion, Grad, Bahn und Festsetzung. Bild und Exemplar liefern die vielen lokalen Namen.",
+              "sha256": "b2496a10b30dec7beac0aa830bf26ec30f32739dd1060decfc20c266c7c4356c"
+            }
+          ]
+        }
+      ],
+      "status_inheritance": "none; original unconfirmed status and local failure/hold limitations remain"
+    },
+    {
+      "card_id": "CLEAN_GAP_U:a048_input_product",
+      "decision": "approve",
+      "reason": "The reported short A048 block explicitly preserves an input, heat/degree statement and tentative material-bearing terminal product. The grade/endpoint mismatch and singleton are also explicit, so HIGH_HOLD_NO_EDGE must stay: this is a local attempted reading, not a production edge or atom default. No matching complete A048 reading was located among reviewed current cards.",
+      "coverage_class": "local_whole_block_reading_with_no_edge",
+      "proposition_source_support": "PASS",
+      "coverage_limit": "No complete counterpart located in the bounded current-card/source-case comparisons. This is not an exhaustive semantic-equivalence proof, an experiment result or a count of universally new mechanisms.",
+      "source_card_sha256": "00c202cd739dd7bf87daf65b94d4bddd959d424683af7000f0b741fab585fe9a",
+      "source_ids": [
+        "LEGACY_COMPONENT:9523b6b15c22ec2e7d6a"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt709_v82_complete_first_terminal_product_census/REPORT.md",
+          "line": 26,
+          "quote": "## Best new working reading\n\n> **A048 / f77r.38#3-5:** Endportion hinzugeben. Danach steht: heiß, Grad III.\n> Mögliches terminales Produkt: abgeschlossenes, bis zur Mittelstufe\n> getrocknetes Arzneikompositum.\n\nThis is not generic renderer filler. It names an input portion, a thermal and\ndegree attribute, and a material-bearing terminal product. It is the strongest\nnew exploratory hold because the block is short and ends exactly at #5.\n\nIt is not yet an edge. `Hinzunehmen` does not itself produce drying or closure;\nGrad III changes to Mittelstufe; and the action surface `qoeedy` is a singleton\nin the frozen 479-token layer. The useful conclusion is therefore\n`HIGH_HOLD_NO_EDGE`, not rejection and not a word default.",
+          "sha256": "8ebf1d0a20ad1f50d0ed8185b8d65637936626e43fe09f1b0fc2147ba64a5e0d"
+        }
+      ],
+      "reviewed_current_neighbors": [],
+      "status_inheritance": "none; original unconfirmed status and local failure/hold limitations remain"
+    },
+    {
+      "card_id": "CLEAN_GAP_U:five_herbal_articles",
+      "decision": "approve",
+      "reason": "The source supplies a specific H1/H2 two-stage same-material relation plus three different object-layer programs. This is a full five-article working model rather than five species identifications or five renamed atoms. Preserve water as article-level default and wine/fat alternatives; no new literal medium word is established.",
+      "coverage_class": "joint_five_article_model",
+      "proposition_source_support": "PASS",
+      "coverage_limit": "No complete counterpart located in the bounded current-card/source-case comparisons. This is not an exhaustive semantic-equivalence proof, an experiment result or a count of universally new mechanisms.",
+      "source_card_sha256": "983e7fc84a5c13b45d9c322c031c736f16ee7d8ff50ca29c4966f52150541e4b",
+      "source_ids": [
+        "LEGACY_COMPONENT:c0a6b51000e9a54de89f"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_concrete_herbal_recipes_six_hundredth/SIX_HUNDREDTH_REPORT.md",
+          "line": 19,
+          "quote": "## Warum diese Lesung besser zusammenhaengt\n\nH1/H2 bilden erstmals eine echte zweistufige f10r-Folge: Grundauszug, Nachauszug, Wiederbeschickung. H3 hat eine klare Tuch-/Presslogik. H4 endet sichtbar in einer Zielanwendung. H5 sammelt mehrere getrennte Pflanzengaben in einem gemeinsamen Ansatz. Damit bekommt jeder Artikel einen anderen Werkstattzweck, obwohl alle dieselbe Karten- und Mengenlehre benutzen.",
+          "sha256": "0193f3680135abc1da0ab4e5a4a67e422404aacf602e2fa55229b183fe4c59b3"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_concrete_herbal_recipes_six_hundredth/SIX_HUNDREDTH_REPORT.md",
+          "line": 5,
+          "quote": "Die fuenf Pflanzenartikel lassen sich jetzt als fuenf konkrete Arbeitsrezepte lesen:\n\n1. **H1:** erster waessriger Auszug der f10r-Pflanze;\n2. **H2:** Nachauszug und zweimalige Wiederbeschickung desselben Materials;\n3. **H3:** ausgewrungener, zweimal gezogener Bluetenauszug;\n4. **H4:** gemessene, verwahrte und temperierte Pflanzenauflage;\n5. **H5:** mehrfach beschickter konzentrierter Pflanzenansatz.\n\nAlle 100 Kartenereignisse und 19 Aussagen bleiben erhalten. Neu ist nur die Gegenstandsebene: Was liegt im Gefaess, welche Zwischencharge entsteht und wofuer koennte sie weitergegeben werden?\n\n## Wasserfrage\n\nWasser ist besonders fuer H1/H2 und H5 ein guter Default, weil die Arbeitsfolge Lauf, Ansatz, Abzug und Nachbeschickung verlangt. Aber **kein einzelner Stamm bedeutet deshalb automatisch Wasser**. Das Medium wird vom gesamten Artikel, Bild und Werkstattexemplar geliefert. Bei H3 bleibt leichter Wein als historisch plausibler Rivale; H4 kann statt einer waessrigen Masse auch einen fetten oder zaehen Traeger benutzen.\n\n## Warum diese Lesung besser zusammenhaengt\n\nH1/H2 bilden erstmals eine echte zweistufige f10r-Folge: Grundauszug, Nachauszug, Wiederbeschickung. H3 hat eine klare Tuch-/Presslogik. H4 endet sichtbar in einer Zielanwendung. H5 sammelt mehrere getrennte Pflanzengaben in einem gemeinsamen Ansatz. Damit bekommt jeder Artikel einen anderen Werkstattzweck, obwohl alle dieselbe Karten- und Mengenlehre benutzen.\n\n## Was nicht behauptet wird\n\nKeine Pflanze erhaelt einen Artnamen, keine Anwendung eine bestimmte Krankheit, und Wasser/Wein/Fett werden nicht an einzelne Voynichformen geklebt. Es sind konkrete Rezeptdefaults, die wir in der naechsten Runde gegen die Biological-Stationen anschliessen koennen.",
+          "sha256": "0193f3680135abc1da0ab4e5a4a67e422404aacf602e2fa55229b183fe4c59b3"
+        }
+      ],
+      "reviewed_current_neighbors": [],
+      "status_inheritance": "none; original unconfirmed status and local failure/hold limitations remain"
+    },
+    {
+      "card_id": "CLEAN_GAP_U:whole_endpoint_card",
+      "decision": "approve",
+      "reason": "The source names the exact complete opaque joint tuple and explicitly corrects its earlier liquid-running-clear expansion to a demanded visible endpoint. This is a whole-card functional proposal with a preserved superseded expansion; neither a free EY suffix nor a bare generic CLOSE card covers it. Keep the exact tuple and V42/V43 historical scope.",
+      "coverage_class": "whole_tuple_functional_revision",
+      "proposition_source_support": "PASS",
+      "coverage_limit": "No complete counterpart located in the bounded current-card/source-case comparisons. This is not an exhaustive semantic-equivalence proof, an experiment result or a count of universally new mechanisms.",
+      "source_card_sha256": "2b1681b0748fed63efaf54144ac795674735c356ec70a304c2317e0e7bcc3eed",
+      "source_ids": [
+        "LEGACY_COMPONENT:f8981bcda1d38878abd2"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v43/V43_CONSOLIDATED_DICTIONARY_REPORT.md",
+          "line": 18,
+          "quote": "## Was bedeutet `ey`?\n\n`ey` besitzt in V42 **keine selbständige Bedeutung**. Die konkrete Karte\n`b5df9126607030b95175`, sichtbar unter anderem als `shey` oder `cheey`, erhielt\nin V42 die Expansion „bis die Flüssigkeit klar abläuft“. Diese Expansion\ngehört zur ganzen Joint-Tuple-Karte in den ausgewählten Kontexten, nicht zum\nPAGE_HOST `ey` allein.\n\nNach dem anschließenden Konsistenzhinweis ist sogar diese Kartenexpansion als\nallgemeine Glossierung zu eng; die vorsichtigere formale Lesung lautet „bis\nder geforderte sichtbare Endzustand erreicht ist“. V43 ändert V42 jedoch nicht\nrückwirkend, sondern dokumentiert seinen exakten Stand.",
+          "sha256": "aa36065c8043bfc5271e6aab4cc98e0f61c87cbec7c879f8b569da884283b59b"
+        }
+      ],
+      "reviewed_current_neighbors": [
+        {
+          "target": "SEM:f9b3df1dd6e7b1da0dc1",
+          "claim": "GDT750 assigns an END state role to its one licensed cheey occurrence.",
+          "target_basis_sha256": "fc4272c36850e6cebd52336de0f1305fce8db3d4b6e818a358665bfb0b365fd9",
+          "effective_basis_sha256": "69a0519e0568bd4f2c4ab61d0b3888a8816d6bc1a3cf280f6cc979f068166358",
+          "reason": "GDT750 single licensed cheey END-state case is a different source-defined unit; not equality of the V43 opaque tuple.",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 43,
+              "line_end": 43,
+              "path": "experiments/yolo/gdt750_form_gated_direct_host_dispatch/REPORT.md",
+              "quote": "| `cheey` | 1/1 | END 1 | einmal End-/Vollstufe |",
+              "sha256": "2245c80b399f6fece7741fda6ab396eae19c3a16c1d74d39753a14c05c2955df",
+              "source_id": "LEGACY_COMPONENT:f67e8b3f18383ebbcee3",
+              "source_section": "Die neunzehn konkreten Außenstellen",
+              "table_header": "| Form | aktive Stellen/Seiten | lokale Achsen | praktische Lesart |"
+            }
+          ]
+        }
+      ],
+      "status_inheritance": "none; original unconfirmed status and local failure/hold limitations remain"
+    }
+  ],
+  "counts": {
+    "cards_reviewed": 10,
+    "approve": 9,
+    "correction": 1,
+    "uncertain": 0,
+    "recommended_semantic_or_functional_cards": 9,
+    "recommended_formal_role_cards": 1,
+    "exact_quote_and_hash_checks": 29
+  },
+  "validation": {
+    "all_input_cards_primary_quote_valid": true,
+    "all_ten_have_decision": true,
+    "source_ids_and_input_card_fingerprints_preserved": true,
+    "original_cards_modified": false
+  },
+  "conclusion": "Preserve nine source-bound content/function conjunctions or local readings, and retain GDT011 field_layers as formal_role. Do not equate retained source instances with globally novel theories. No generic parent or list of atomic glosses establishes complete model coverage."
+}
