@@ -6,7 +6,7 @@
   "claim_ceiling": "Known mandatory-W synthetic architecture on historical source sentences with supplied boundaries and nominal26L4S8W counts; three keys share one split; no full suffix inverse, optional abbreviation rule or Voynich reading.",
   "commands": {
     "run": "python3 experiments/yolo/gdt837_scg_integrated_wholeword_control/src/run.py --fit",
-    "validate": "python3 experiments/yolo/gdt837_scg_integrated_wholeword_control/src/validate.py --source-only --check"
+    "validate": "python3 experiments/yolo/gdt837_scg_integrated_wholeword_control/src/validate.py --check"
   },
   "created": "2026-09-06",
   "dependencies": [
@@ -87,12 +87,12 @@
     {
       "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/README.md",
       "role": "reproducible_source_or_artifact",
-      "sha256": "eb8d48f86f0844ebde37cc47ddc5db38374ab0ff2caa5e3d492234caca0d3cf1"
+      "sha256": "7118839f2cef5d43d7252e90a5323fec07c3a6ad45ee8ddab13b03d7f4cc5002"
     },
     {
       "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/REPORT.md",
       "role": "primary_report",
-      "sha256": "cb48674e5480c89a13760a4e2879087fbe9e7cece5110d702a189284b95d1c51"
+      "sha256": "62b6a8ea15ef9693509eac82b155494a383389fa7ee49918e2b565f85e716a78"
     },
     {
       "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/REPRODUCE.md",
@@ -100,9 +100,29 @@
       "sha256": "9273b37c152a7390001622bf8ba158d912030aaaf5742bf4c7ca63e5c9499469"
     },
     {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/FIT_INPUTS.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "3e2b2a81035c96f3dc70ac919444c1756d353618464ff01c8c17658af8ddebef"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/FIT_LOCK.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "e25befd85b812a33c5ef600b5de4383367164a35f105409a53c3cfba9f8ff4a9"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/POSTHOC_ERROR_CENSUS.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "1ffb93b2ccd2f47f757800decea8b6a50e73bd27108ab91375e4ebd5ce14e0c5"
+    },
+    {
       "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/README.md",
       "role": "reproducible_source_or_artifact",
-      "sha256": "01a4c85a794b45b987e06734c625679809f6544c6ff5f3d10836527515ec6654"
+      "sha256": "bcde686733b0b0b146d0bb672746445f9903f20fe7bfac2fdab4f9c4a870a169"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/RESULT.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "61bd4a1ef8ae5ddf082c4c330f09ca8a835f137ae61268a24de195e9caf441f0"
     },
     {
       "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/SOURCE_VALIDATION.json",
@@ -113,6 +133,301 @@
       "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/TESTS.json",
       "role": "reproducible_source_or_artifact",
       "sha256": "5fcb802277c6aaad2a8fe274f618df10fb241264a4fe324d974c5a1a1fef533e"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/VALIDATION.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "6c98814977b57b83a233e701af60f81cec7a39d758f0263744fce7acf6de0efd"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83701_RELAXED_selected.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "c1d03ebb423b1cebea52b79e78d64863221be39c6fd0381b4796c04d93c94a74"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83701_RELAXED_start0.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "c1d03ebb423b1cebea52b79e78d64863221be39c6fd0381b4796c04d93c94a74"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83701_RELAXED_start1.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "f2e2495b660f2a85ba685559d6b0f8eadb9ae85784f46cb0e31da1c4f5dc1446"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83701_RELAXED_start2.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "a17024dcbe878cee95694ebb8cbbf1691180f566279d9c72843e8b792a93c51b"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83701_RELAXED_start3.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "074058fa86dc7e98f376ff1db2929d414b5624d277f26495b30a53c13cbe3535"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83701_RELAXED_start4.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "d812c1570cd3f7151a4e16b83cd47b9d1f5534e55d3bf0c711c4ea7b078990a3"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83701_RELAXED_start5.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "71d6a61aa15d97b9c06387caa97f8cae995e0c2cfabc2390fb867b4076bf0a6b"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83701_RELAXED_start6.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "e0767c2d3bc83a1ed7189870076694f024c810710a2ae457cdcd807e7a5838fd"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83701_RELAXED_start7.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "5d5759cf850a0112d8d92379573d122928ad331253a09b1ab2d9362546d7cd14"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83701_STRICT_selected.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "63de6e0119117221707a16cb6ea7535f9578a177751076249e2305a1b982b4e0"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83701_STRICT_start0.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "63de6e0119117221707a16cb6ea7535f9578a177751076249e2305a1b982b4e0"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83701_STRICT_start1.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "58f543dee71d15a456d8cd86e967e18d77aca3852b67b944c2cf55572c63443e"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83701_STRICT_start2.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "a0e14c29dff72c44c6334a875a5ecc10895f127a62e724adf778c9c761b68e1e"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83701_STRICT_start3.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "0564541f5741219c1d86e91f52bc808c2ec0ae7707892818d10b6e6e7647130d"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83701_STRICT_start4.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "586120bfea70243ad52b81119b6f6e79fef340d8b9ba4f3238d5b1c59019b5b5"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83701_STRICT_start5.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "0b3d6ef7f9fa76a0ac43f4a16b830d37847ecaa985fef2033226eedd264b0fb7"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83701_STRICT_start6.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "1488cc7070289e3f87e2f48a7e6ccd6828ee85779d309482b3dc3690c0ff4448"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83701_STRICT_start7.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "07bb3a54ee4648a2de855839599a75b99538b2a6ae1693c799b78a725f4d521a"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83702_RELAXED_selected.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "7f2032ac540f958875d40a999fcd5322881cb0d2afe108a665ecaf2e0c6081f7"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83702_RELAXED_start0.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "7f2032ac540f958875d40a999fcd5322881cb0d2afe108a665ecaf2e0c6081f7"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83702_RELAXED_start1.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "2328e3f1e3d4d4031f2954f5b2add20e617b5ed20c07bd43b643bff45a6d7d0f"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83702_RELAXED_start2.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "9274c6cc7ee9af3d0c88533f19ca4b0ad486bad5f035e9775b02c0e52d6eceeb"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83702_RELAXED_start3.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "00e37fcbec7322aca01c96fa2799cbc4ba34ca01c19fbf7630886be506e94a56"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83702_RELAXED_start4.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "08f5d3865676ccfd986187c429faa9af778926129bb54604cd1dc3b2451610b1"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83702_RELAXED_start5.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "19363101a570de2d88de9c2dabb649c5a5a6e59b682fefc0b82103bc0e0427d6"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83702_RELAXED_start6.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "3be5437862f325e417518e07ebcbe13d117cb9b472ec91a30010a1430519c698"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83702_RELAXED_start7.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "1170d437475bdb344537195f6b24e6b44d1eda5ceb40adc3ba71893d9ae1b61b"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83702_STRICT_selected.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "d7a1c30b2bcab9d22ebbf59a9015e40d9fe8285e9a6db33712df30b25934146d"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83702_STRICT_start0.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "d7a1c30b2bcab9d22ebbf59a9015e40d9fe8285e9a6db33712df30b25934146d"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83702_STRICT_start1.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "d139df4da195beb3dc53928814b1c32467e6562cc9e6a6668762d8aca74e4dc4"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83702_STRICT_start2.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "5d2471a256b365b25392f0bd9b7aecd21bfc4f79899395354f83924cd54bb044"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83702_STRICT_start3.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "ae7404f9c02aea3be748584aa1d03e12b71157ec4a4da4d71fc8507846a0130a"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83702_STRICT_start4.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "d6ad638847548653af0064130ef4ae07cc87a8039119cfd562eca2b78ae8a92c"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83702_STRICT_start5.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "93af6a71bc2f62b6b9615ae864e127a7349845fd033d55a97e9b54316e41ef7e"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83702_STRICT_start6.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "611f508ab6eb1619cd84536d4bfbf41e2f220c86a9888f5c6c3f31dac56e199e"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83702_STRICT_start7.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "faf0a5a0f269d3dc1c98490613ea339b32522668ebe7af51703f84135d6fa749"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83703_RELAXED_selected.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "caa1a4f657fb492840d072e76f11ab8a3ea9de0a39dc12cbaaedd2de370f5fbc"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83703_RELAXED_start0.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "caa1a4f657fb492840d072e76f11ab8a3ea9de0a39dc12cbaaedd2de370f5fbc"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83703_RELAXED_start1.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "5662ddc9fc733283704245134eb3381ca6ab37ebb9f7626ea8e340f3b271759a"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83703_RELAXED_start2.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "7c12d5439bb99f307269834bed582548c0d59ab2ffb1ad6e9f28fe1b0f9be496"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83703_RELAXED_start3.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "9140c4f41bcbcd3b7ce3bb62aed2d2cf3175fca92dee60fb6d7a0870dba23879"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83703_RELAXED_start4.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "2b6ead74154f9298e8ae28bd05527d0b3d7ad14218d719271639feef983870ce"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83703_RELAXED_start5.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "e0c94ca9e8fe157d8c4c9b95237f0f203828f348d4f4013741931c43f2551fdf"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83703_RELAXED_start6.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "255a64be525ac84829ebb340fd0c4d1ee920ef998441181d0582a03bf22c3959"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83703_RELAXED_start7.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "9bae9e673ffff6ea2643520da6dfc3b3dc04bf87b37a957bf15854fe1c9d5464"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83703_STRICT_selected.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "c5b9bfbe505962db146eafede3db10f962ee1361fc77c8eb1c7c0d689efba69d"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83703_STRICT_start0.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "c5b9bfbe505962db146eafede3db10f962ee1361fc77c8eb1c7c0d689efba69d"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83703_STRICT_start1.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "8d7428c146e092b85627beb86ae8e126e5f05c074b3515529e2019c3307ccfe7"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83703_STRICT_start2.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "f11b6546cb5f7fceadd20938a7ad54ed2976770254b8eed1155a1d7a5505ca11"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83703_STRICT_start3.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "51b299b06c7c997eb50ecf2dc52b298b0ad0a9059eed30b7af5d5c5414ae8a8c"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83703_STRICT_start4.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "cb775e4e0bab0104a96342049d9f6c22ee19abf66dac7e3ca76657f717842f5c"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83703_STRICT_start5.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "c192563ecebda071eef2d56e4ea0ce4bb9a94e261e5c974a3d67b39795bbae16"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83703_STRICT_start6.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "437fa61b00d51c77d800cbc88f7b5e03e86601f81b6c16f72fc95ccacdf7e7ea"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/fits/world_83703_STRICT_start7.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "6e50053df950c1f9c1375b1119e4980eee4cfc85c87d2a618797f1eeff34903f"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/confirmation/source_truth.json.gz",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "730a32626de008f8ad7e7f4ecdede94296db1192973d58155d756dc607bd7d1a"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/confirmation/world_83701_truth.json.gz",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "7d16daedc006f4aec560464c769697b73a7a2c7dc4a97904f22db9b2656c255b"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/confirmation/world_83702_truth.json.gz",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "d0ba4d5318a1cbb44f01da09f44d00ecb338af7be4dd99882e2e625011e1ca9e"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/confirmation/world_83703_truth.json.gz",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "93ab823b23960a3cc5f87bca3c153b1d3a4ffef4039a5dcd24afda5ac30c07f6"
     },
     {
       "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/prepared/CAPACITY.json",
@@ -230,6 +545,11 @@
       "sha256": "e2e8b879b0b1b62709a9a954a71da01ff5e8efa44d56b835532300a2fe829ec6"
     },
     {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/src/posthoc_error_census.py",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "27f1b31f77a26de99540af0210c8b10fcf1a3843bb10b281096eaa9835780b23"
+    },
+    {
       "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/src/prepare.py",
       "role": "reproducible_source_or_artifact",
       "sha256": "6ba6b51450a897a179eabe685ca04c453a24739648597a807e82b07d9153b304"
@@ -257,11 +577,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "scg_integrated_wholeword_control",
-  "status": "REGISTERED_UNSCORED",
+  "status": "STRICT_RECOVERY_FAIL",
   "title": "SCG paired integrated mandatory wholeword control",
   "updated": "2026-09-06",
   "validation": {
-    "artifact": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/SOURCE_VALIDATION.json",
+    "artifact": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/VALIDATION.json",
     "status": "PASS"
   }
 }

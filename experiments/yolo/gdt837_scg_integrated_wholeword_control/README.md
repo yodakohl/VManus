@@ -3,6 +3,7 @@
 [Report](REPORT.md) · [Method](METHOD.md) · [Preregistration](PREREGISTRATION.md) ·
 [Reproduction](REPRODUCE.md)
 
-Fixed SCG Books I–II discovery / III–IV held, unchanged GDT836 RELAXED/STRICT
-search, three opaque keys and eight paired starts. Source capacity passes;
-recovery remains unscored at registration. No Voynich data are used.
+**STRICT_RECOVERY_FAIL.** Both arms and all three keys read 98.2512% of held
+words and 99.6947% of characters correctly. All active roles, literal values and
+wholeword values are correct; suffix `ae → a` leaves 33/34 exact active packages.
+No paired wholeword-constraint gain. Independent full replay passes.

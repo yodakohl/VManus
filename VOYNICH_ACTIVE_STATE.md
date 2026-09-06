@@ -7,6 +7,24 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 ## Outcome
 
 
+### GDT837 complete: suffix value wrong, wholeword gain zero (2026-09-06)
+
+Primary report: `experiments/yolo/gdt837_scg_integrated_wholeword_control/REPORT.md`.
+Public registration 60e0d84b precedes 48 fits and six frozen discovery selections.
+All six get 189616/192991 held words (98.2512%), 99.6947% characters, 20292/20871
+novel composed forms and 7979/8254 novel lemma occurrences exact. All plaintext
+floors pass, but S ae→a leaves 33/34 identifiable active role/output packages:
+STRICT_RECOVERY_FAIL. All 34 roles, 22 literal outputs and eight wholeword outputs
+are correct. Both arms pass W precedence on discovery and held; paired gain zero.
+Wrong key beats oracle by 31589.171877 discovery nats. No observed u/v error.
+Posthoc fixed-fit census: 45/48 have that sole S error, three STRICT have extra
+errors, none all-correct; all selected 2248 discovery / 3375 held errors are
+suffix-attributed. No new fit, score, ranking or causal orthography claim.
+Independent 48-objective / 1157946-prediction replay and byte-exact artifact check
+pass. This is not an implementation failure or full suffix-inverse test. No
+extra restarts, source/spelling/threshold repair or Voynich fit; GDT616/CDA001
+remain closed. Three keys share one SCG split with supplied sentence boundaries.
+
 ### GDT837 SCG control registered, recovery unscored (2026-09-06)
 
 Primary report: `experiments/yolo/gdt837_scg_integrated_wholeword_control/REPORT.md`.

@@ -3,12 +3,13 @@ Updated: 2026-09-06. Read first.
 
 ## Current mandate
 
-Latest request (2026-09-06): continue. GDT837 is the fixed SCG Books I–II /
-III–IV control for the unchanged GDT836 mandatory-W engine. Source capacity
-passes; the paired RELAXED/STRICT comparison is registered before real fits.
-All 48 restarts and six discovery selections must lock before held recovery.
-No manuscript fit is selected. Root's personal whole-page orientation remains
-completed; subagents help with source metadata, root interprets images.
+Latest request (2026-09-06): continue. GDT837 completed its registered 48-fit
+SCG comparison. Both arms fail exact-key recovery: all 34 active roles and
+22 literal / 8 wholeword values are correct, but suffix ae is read as a.
+Held words 98.2512%, characters 99.6947%; paired wholeword-constraint gain zero.
+Independent full replay passes. No new fit or manuscript page is selected.
+Root's personal whole-page orientation remains completed; subagents help with
+source metadata, root interprets images.
 
 No public decipherment-approach searches: the user says these are exhausted.
 Use admitted images, primary internal reports and unresolved findings. The
@@ -39,23 +40,27 @@ keys across whole-plant, figure/becken, circular, small-object and text-heavy
 layouts. Source logistics alone were delegated. The observational dossier is
 `docs/visual_overview/README.md`; exact viewed images: `docs/visual_overview/SOURCES.json`.
 No new experimental or semantic claim, no new page admission. User's required
-visual understanding remains part of future work; no experiment executed; see the active control below.
+visual understanding remains part of future work; no experiment executed; see the completed control below.
 
-## Active control — GDT837 registered, recovery unscored
+## Completed control — GDT837: wrong suffix, no wholeword gain
 
 `experiments/yolo/gdt837_scg_integrated_wholeword_control/REPORT.md`.
-SCG fixed Books I–II discovery / III–IV held, canonical source-sentence order:
-9859 / 13828 units, 129120 / 192991 words. SOURCE_CAPACITY_PASS: all 22 active L,
-4 S and 8 W rules supported in discovery; 20871 held novel composed form
-occurrences and 8254 novel lemma occurrences. Independent 322111-word source
-replay passes. SCG is new as a ciphertext control; ITTB train was already a
-GDT832 reference. Native Monarchia remains frozen; original u/v spelling is
-retained. Units are supplied annotated source sentences, not historical paragraphs.
-Same opaque packets and paired compatible initializations, unchanged GDT836
-engine, 48 fits and 6 discovery selections. STRICT recovery and at least 1 pp
-mean paired benefit are separate predeclared claims. Next: run registered panel,
-lock all outcomes, then evaluate and independently replay. No retuning or failed
-Questio repair; GDT616/CDA001 remain closed.
+Public 60e0d84b precedes 48 fits and 6 locked selections. SCG Books I–II /
+III–IV: 129120 discovery / 192991 held words in 9859 / 13828 source sentences.
+STRICT_RECOVERY_FAIL in both arms/all keys: 189616 held words exact (98.2512%),
+99.6947% characters, 20292/20871 novel forms and 7979/8254 novel lemma occurrences
+exact; all plaintext floors pass. All 34 roles and 22 L / 8 W values correct;
+S ae→a leaves 33/34 identifiable active packages. All six W gates pass on both
+splits. Gain zero. Wrong key beats oracle by 31589.171877 discovery nats.
+Independent 48-score / 1157946-prediction replay passes; no implementation mismatch.
+SCG is new as ciphertext, previously part of GDT832 reference; native Monarchia
+remains frozen. No observed u/v error. Supplied sentence/word/atom boundaries
+and nominal capacities limit the result; three keys share one content split.
+Posthoc saved-fit census: 45/48 have the sole S error, three STRICT have extra
+errors, none all-correct. Selected errors: 2248 discovery / 3375 held, entirely
+suffix-attributed. No new fits, scores, selections or causal spelling claim. Full suffix
+inverse remains untested; no next fit selected. A successor needs a different
+predeclared discriminator for competing suffix values. GDT616/CDA001 stay closed.
 
 ## Completed implementation — GDT836; historical source capacity stop
 
@@ -150,8 +155,8 @@ Use the existing research record for manuscript description, material and
 scribal studies and transcription limitations. Keep established findings
 distinct from proposed explanations. No further search for public approaches.
 Do not prefer a cipher, language, semantic glossary or nonlinguistic account
-without evidence. GDT831 is completed; only the registered historical control is selected; no new
-manuscript page admissions are made.
+without evidence. GDT831 is completed; the historical control is completed; no new fit or
+manuscript page admission is selected.
 
 `docs/RESEARCH_RESET.md` records the earlier premature proposal; it is not the
 current research plan. The source-linked understanding dossier is `docs/VOYNICH_UNDERSTANDING.md`;
