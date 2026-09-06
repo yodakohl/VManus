@@ -1,0 +1,810 @@
+{
+  "review_id": "CLEAN_GAP_PEER_DK",
+  "status": "THREE_CARDS_APPROVED_WITH_ONE_WORDING_FIX_AND_THREE_LINKED_SCOPE_FIXES",
+  "inputs": [
+    {
+      "path": "research_registry/decisions/source_coverage_gap_batch_dk.json",
+      "sha256": "66eac9dae6f14f9db325d118bbb6b65fc6c88032d418de63eb78c06619ed2742"
+    },
+    {
+      "path": "research_registry/decisions/clean_gap_review_dk.json",
+      "sha256": "4683458deb9f0c581744135ae05a515c1b88fd3b7052c62cf91aada58d27cd6b"
+    }
+  ],
+  "card_reviews": [
+    {
+      "card_id": "CLEAN_GAP_DK:three_master_contrast_pairs",
+      "decision": "approve_with_minor_scope_wording_fix",
+      "reason": "All three complete paired readings are explicitly in351; the comparison is learned whole cards versus nearby card meanings, not invented letter assignments. Make the small wording correction so the comparator cards are not inadvertently all classified as members of the memorized twelve.",
+      "required_claim_fix": {
+        "from": "within its twelve learned master cards",
+        "to": "in teaching its twelve learned master cards"
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_twelve_card_master_tablet_three_hundred_fifty_first/THREE_HUNDRED_FIFTY_FIRST_REPORT.md",
+          "line": 1,
+          "line_end": 17,
+          "quote": "# Pass 351 — Meistertafel für zwölf Ganzkarten\n\nDer nichtproduktive Rest ist jetzt ein lehrbares Mini-Nomenklatorium statt ein\nunbestimmter Ausnahmehaufen. Jede der zwölf einmaligen Karten besitzt genau eine\nBild-/Stationsadresse, einen kurzen konkreten Arbeitswert, einen Merksatz, einen\nvollständigen Satzstreifen und die nächstähnliche Kontrastkarte.\n\nDrei besonders gute Lehrpaare entstehen: `cfhy` Auswringen gegen `cphy`\nNachseihen, `ches` Teilen gegen `chey` Diesposten und `qekey` Kurzbearbeitung\ngegen `qokey` Kurzkontakt. Diese Gegensätze erklären, warum bloße\nBuchstabenzerlegung gefährlich wäre und warum ein kleiner gelernter Ganzwortsatz\nneben der produktiven Kartenkomposition sinnvoll ist.\n\nAls Nächstes sollte ein Lehrling alle zwölf Karten in verdeckten Lückensätzen\naus dem Besitzer, linken und rechten Arbeitswert rekonstruieren; falsche\nAntworten werden nicht verworfen, sondern als mögliche neue Allographen,\nNachbarkarten oder echte Verwechslungen sortiert.",
+          "sha256": "5c166f176765f268fdb978e0bcddd2a18516a7195632e2b1396838d7dc2c49a0"
+        }
+      ]
+    },
+    {
+      "card_id": "CLEAN_GAP_DK:local_ok_duration_endpoint_ladder",
+      "decision": "approve",
+      "reason": "The384 report explicitly states all four decisions, six-neighbor exclusion and both endpoint extensions. Existing655 grid and individual qokeedal/okeeol cards do not contain the complete same-scoped combination. AL/OL replace the endpoint slot locally, not globally every visible y/dy; the six unnamed neighboring families should remain unnamed.",
+      "required_claim_fix": null,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_ok_grade_endpoint_ladder_three_hundred_eighty_fourth/THREE_HUNDRED_EIGHTY_FOURTH_REPORT.md",
+          "line": 1,
+          "line_end": 18,
+          "quote": "# Pass 384 — die bislang beste produktive Fachkürzung\n\nSechs Kartenfamilien mit zusammen 38 echten Vorkommen bilden eine kompakte\nOK-Leiter. OK setzt den Arbeitsgang an; E, EE und EEE staffeln kurz, länger und\nvollständig; Y lässt den Diesposten offen, während die lizenzierte DY-Endform den\nSchritt schließt. Damit werden sechs Karten aus vier lehrbaren Entscheidungen\ngebaut.\n\nDie Leiter ist absichtlich lokal. Sichtbares `dy` ist nicht überall Schluss,\nund sichtbares `e` ist nicht überall Grad. Sechs benachbarte Ganzkartenfamilien\nbleiben außerhalb der Regel. Das ist genau die gesuchte Mischung aus produktiver\nFachkürzung und gelerntem Nomenklator.\n\nDie existierenden Karten `qokeedal` und `okeeol` liefern zwei sofort lesbare\nEndslot-Erweiterungen: Zielstelle statt Y/DY sowie Fortsetzung statt Y/DY.\nAls nächstes soll ein Lehrling aus der Leiter neue vollständige Arbeitsgänge nur\nmit bereits belegten Karten bauen und anschließend die lange deutsche\nUmschreibung wieder auf vier kurze Komponenten reduzieren.",
+          "sha256": "22d902445bdab9d363fd7748b61e4bb4bfc737d5649d499fb9615f69804d519e"
+        }
+      ]
+    },
+    {
+      "card_id": "CLEAN_GAP_DK:qokeedy_whole_gloss_to_components",
+      "decision": "approve",
+      "reason": "The385 source explicitly replaces long-gloss storage with component reading and gives the short/long open/closed and single-complete-stage constraints. It remains dependent on the384 model. The content contrast is not an independent proof of OK/EE/DY meanings or evidence of nonexistent missing partners.",
+      "required_claim_fix": null,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_ok_process_strip_three_hundred_eighty_fifth/THREE_HUNDRED_EIGHTY_FIFTH_REPORT.md",
+          "line": 1,
+          "line_end": 14,
+          "quote": "# Pass 385 — vom langen Gloss zurück zu Komponenten\n\nDer Lehrstreifen benutzt sieben bereits belegte Karten in elf Positionen. Zwei\nBahnen zeigen dasselbe offene/geschlossene Paar bei kurzem und längerem Grad;\ndie vollständige Bahn besitzt nur eine registrierte geschlossene Karte.\n\nDer wichtige Gewinn ist sprachlich: `qokeedy` braucht nicht mehr als eigenes\nlanges Wort „länger in Kontakt halten und den Schritt abschließen“ gespeichert\nzu werden. Es wird aus OK=ansetzen, EE=länger und dem lizenzierten DY-Schluss\ngelesen. Ebenso bleiben `dy` und `daiin` trotz gleicher Eintrittsschale getrennt.\n\nAls nächstes bekommt der Lehrling genau einen absichtlichen Grad- oder\nEndpunktfehler in jeder Bahn. Die Korrektur darf nur eine bestehende Karte\naustauschen und muss erklären, welcher Bestandteil falsch war.",
+          "sha256": "c877e1bfe4cadcb7764da6d3400fef33e580d6f1e9ed5032ee5813e662952e4f"
+        }
+      ]
+    }
+  ],
+  "source_disposition_reviews": [
+    {
+      "selection_index": 0,
+      "source_id": "LEGACY_COMPONENT:2b2d3ae39cb5537cde1d",
+      "decision": "approve",
+      "reason": "Retain the complete source-defined construction/contrast or explicitly local revision case without claiming new decipherment.",
+      "full_selected_span_read": true,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_twelve_card_master_tablet_three_hundred_fifty_first/THREE_HUNDRED_FIFTY_FIRST_REPORT.md",
+          "line": 1,
+          "line_end": 17,
+          "quote": "# Pass 351 — Meistertafel für zwölf Ganzkarten\n\nDer nichtproduktive Rest ist jetzt ein lehrbares Mini-Nomenklatorium statt ein\nunbestimmter Ausnahmehaufen. Jede der zwölf einmaligen Karten besitzt genau eine\nBild-/Stationsadresse, einen kurzen konkreten Arbeitswert, einen Merksatz, einen\nvollständigen Satzstreifen und die nächstähnliche Kontrastkarte.\n\nDrei besonders gute Lehrpaare entstehen: `cfhy` Auswringen gegen `cphy`\nNachseihen, `ches` Teilen gegen `chey` Diesposten und `qekey` Kurzbearbeitung\ngegen `qokey` Kurzkontakt. Diese Gegensätze erklären, warum bloße\nBuchstabenzerlegung gefährlich wäre und warum ein kleiner gelernter Ganzwortsatz\nneben der produktiven Kartenkomposition sinnvoll ist.\n\nAls Nächstes sollte ein Lehrling alle zwölf Karten in verdeckten Lückensätzen\naus dem Besitzer, linken und rechten Arbeitswert rekonstruieren; falsche\nAntworten werden nicht verworfen, sondern als mögliche neue Allographen,\nNachbarkarten oder echte Verwechslungen sortiert.",
+          "sha256": "5c166f176765f268fdb978e0bcddd2a18516a7195632e2b1396838d7dc2c49a0"
+        }
+      ]
+    },
+    {
+      "selection_index": 1,
+      "source_id": "LEGACY_COMPONENT:c4d1c5ddd46b068586b2",
+      "decision": "approve",
+      "reason": "Twelve deliberately substituted cards are recovered by owner/slot/right-context rules; no real manuscript variants or new allographs are identified. The three cfhy/cphy/tshol-dchol confusion names contain no additional paired meanings beyond the explicitly recovered master contrasts.",
+      "full_selected_span_read": true,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_hidden_card_drill_three_hundred_fifty_second/THREE_HUNDRED_FIFTY_SECOND_REPORT.md",
+          "line": 1,
+          "line_end": 19,
+          "quote": "# Pass 352 — verdeckte Meisterkarten\n\nAlle zwölf Ganzkarten wurden verdeckt und jeweils durch die ähnlichste andere\nregistrierte Oberfläche ersetzt. Die Korrekturleiter arbeitet erstaunlich früh:\nBesitzer repariert 8, Slot repariert\n1, rechte Nachbarhandlung repariert\n3; keine Karte bleibt bis zum bloßen Nachschlagen\nder Meistertafel ununterscheidbar.\n\nDie drei hartnäckigen Nachbarverwechslungen sind gerade die guten Lehrpaare:\n`tshol/dchol`, `cfhy/cphy` und `cphy/cfhy`. Ihre Position in der Arbeitskette,\nnicht eine erfundene Buchstabenbedeutung, trennt sie. Unter den zwölf Fällen\nexistiert kein nützlicher neuer Allograph: jede falsche Oberfläche gehört schon\nzu einer anderen Karte.\n\nAls Nächstes sollte aus der gesamten 173-Karten-Tafel ein räumliches\nWerkstattbrett entstehen: sechs Slots als Spalten, fünf Stoffzustände als\nfarbige Reihen, zwölf Meisterkarten am Bildrand und die 14 Doppelpaare direkt\nnebeneinander. Das wäre die einfachste tatsächlich benutzbare Lehrhilfe.",
+          "sha256": "983a25c65c98430b58fba95873e7a0caeca185b8141636f813534431c33a501e"
+        }
+      ]
+    },
+    {
+      "selection_index": 2,
+      "source_id": "LEGACY_COMPONENT:dcdeb113775f3f49406e",
+      "decision": "approve",
+      "reason": "A30-cell board arranges five editorial material states by six slots and most-frequent use. The source explicitly denies that an operation card thereby means the material row; no extra code-to-material assertion should be manufactured.",
+      "full_selected_span_read": true,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_workshop_board_three_hundred_fifty_third/THREE_HUNDRED_FIFTY_THIRD_REPORT.md",
+          "line": 1,
+          "line_end": 17,
+          "quote": "# Pass 353 — das vollständige Werkstattbrett\n\nAlle 173 Karten stehen jetzt auf einem einzigen benutzbaren Brett mit 30 Zellen:\nfünf laufende Stoffzustände kreuzen sechs Arbeitsslots. Die Zustandsreihe sagt,\nan welchem Stofffaden die Karte am häufigsten benutzt wird; sie behauptet nicht,\ndass jede Operationskarte selbst diesen Stoff bedeutet. Mehrfachbelegungen\nstehen mit Zählung auf der Kartenrückseite.\n\nVierzehn gleichwertige Doppelpaare hängen nebeneinander. Zwölf gelernte\nGanzkarten werden zusätzlich an ihren Bild-/Stationsbesitzer gepinnt. Damit kann\nein Schreiber vom Arbeitsauftrag zur Kartenfamilie, vom Stofffaden zur Brettreihe\nund vom lokalen Bild zur exakten Ausnahme gelangen.\n\nAls Nächstes sollte ein kompletter neuer Arbeitsauftrag nur mit diesem Brett\ngesetzt werden: ein Herbal-Auszug, der in einer Bio-Station zu einer bemessenen\nAnwendung wird. Danach wird geprüft, wo der Schreiber trotzdem zur laufenden\nSeitenvorlage greifen muss.",
+          "sha256": "31e1418903630a8d42f76e80bdc7e36c6eb8b9caa1d1a70eb3930a1bfa180ba5"
+        }
+      ]
+    },
+    {
+      "selection_index": 3,
+      "source_id": "LEGACY_COMPONENT:e35dbbe660ea706f15fd",
+      "decision": "approve",
+      "reason": "Eleven existing cards compose a new four-stage teaching instruction. No complete written source sequence is presented and no new card meaning is claimed; the high-level synthetic assignment is an exercise, not an additional historical manuscript content hypothesis.",
+      "full_selected_span_read": true,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_board_composed_work_order_three_hundred_fifty_fourth/THREE_HUNDRED_FIFTY_FOURTH_REPORT.md",
+          "line": 1,
+          "line_end": 17,
+          "quote": "# Pass 354 — ein neuer Auftrag nur vom Werkstattbrett\n\nAus elf bereits attestierten Karten wurde eine neue, viergliedrige Folge gesetzt:\nPflanzenzusatz und Ansatz herstellen, Klarabzug bereitstellen, an B4 messen und\neinsetzen, lange halten und befestigen. Alle Slotfolgen sind innerhalb ihres\nMikrogangs vorwärts gerichtet; der Stofffaden durchläuft die fünf Zustände.\n\nAcht Karten sind direkt produktiv, `qokaly` und `okeey` brauchen nur ihr\nDoppelplacard, und `qokylddy` kommt von der B4-gepinnten Meisterkarte. Kein Griff\nzur laufenden Seitenvorlage bleibt übrig. Das ist der bislang konkreteste Beleg\ninnerhalb der Arbeitstheorie, dass die Karten als kleines erlernbares\nKompositionssystem funktionieren könnten und nicht bloß nachträglich glossierte\nEinzelzeilen sind.\n\nAls Nächstes sollte derselbe Auftrag von allen vier Schreiberhänden gesetzt und\ndann gegenseitig rückgelesen werden. So zeigt sich, ob die neue Komposition trotz\nverschiedener Oberflächen identisch bleibt.",
+          "sha256": "2985df29aa349e522de6cefcffa3ad8ee0d5194ee99604ae78eec8e01b9b0e49"
+        }
+      ]
+    },
+    {
+      "selection_index": 4,
+      "source_id": "LEGACY_COMPONENT:91ae28b9ab0039937000",
+      "decision": "approve",
+      "reason": "Four fixed artificial page widths and rule-generated boundary copies test the existing copy convention. This is not evidence of a new real boundary or deciphered content; retain the specified owner/cycle prohibitions as exercise provenance.",
+      "full_selected_span_read": true,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_residual_page_layout_three_hundred_fifty_sixth/THREE_HUNDRED_FIFTY_SIXTH_REPORT.md",
+          "line": 1,
+          "line_end": 15,
+          "quote": "# Pass 356 — Zeilenumbruch ohne Satzschlusszwang\n\nDie vier Handfassungen wurden in Restbreiten 18, 16, 20 und 22 gesetzt. Daraus\nentstehen 17 physische Zeilen und 13 Brüche. Nur vier Brüche schneiden einen\nlaufenden Mikrogang; dort wird die erste Karte der Folgezeile am alten Rand\nvorweggenommen und nach der Read-once-Regel nicht doppelt gezählt.\n\nAn fünf Mikroganggrenzen und vier Besitzerwechseln ist dieselbe Kopie verboten.\nDamit erklärt das System sowohl eine lokale Randdoppelung als auch, warum man\nnicht jede Wiederholung am Zeilenrand wegsegmentieren darf. Aussagen bleiben\nvon physischen Zeilen unabhängig.\n\nAls Nächstes sollte ein Korrektor die vier Layouts ohne logische Striche sehen,\nMikroganggrenzen und die vier Read-once-Paare selbst eintragen und danach die\nelf Quellkarten je Hand rekonstruieren.",
+          "sha256": "5e9a8248485ddf682ee7065ca8681648a7d9a6cb1dcee93225b992045bf18cf2"
+        }
+      ]
+    },
+    {
+      "selection_index": 5,
+      "source_id": "LEGACY_COMPONENT:398dc5d6fe49f0b5cb5e",
+      "decision": "approve",
+      "reason": "Recovering44 source cards from48 authored shapes demonstrates the designed inverse rules. The future proposal to classify381 real events is not an executed new semantic test here.",
+      "full_selected_span_read": true,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_corrector_reconstruction_three_hundred_fifty_seventh/THREE_HUNDRED_FIFTY_SEVENTH_REPORT.md",
+          "line": 1,
+          "line_end": 16,
+          "quote": "# Pass 357 — Korrektor rekonstruiert die unmarkierten Layouts\n\nAus 48 sichtbaren Formen wurden ohne logische Lehrstriche 44 Quellkarten\nrekonstruiert. Der Korrektor erkennt vier Rand-Anfang-Paare als Read-once, lässt\nneun andere Zeilenbrüche unberührt und setzt pro Hand drei logische Grenzen:\nzweimal durch Slotabstieg, einmal durch Besitzerwechsel plus Slotabstieg.\n\nJede Hand ergibt wieder elf Karten und vier Mikrozyklen. Das zeigt praktisch,\ndass Zeilenumbruch, Mikrogang, Besitzer und Quellzählung vier getrennte Ebenen\nsind. Die Regel braucht keine Satzzeichen und erklärt zugleich, wann eine\nsichtbare Doppelung nicht als Wiederholung gelesen werden darf.\n\nAls Nächstes sollte dieses Korrektorprinzip auf die 381 bestehenden Prosaevents\nübertragen werden: alle realen Zeilenübergänge in drei Klassen—weiterlesen,\nRead-once-Randpaar oder echter Gang-/Besitzerreset—und daraus eine vollständig\nkontinuierliche sieben-seitige Werkstattausgabe setzen.",
+          "sha256": "075d22c383d827b5579b467ac716aa1216ebabd498c9501c2a45d13f0905615b"
+        }
+      ]
+    },
+    {
+      "selection_index": 6,
+      "source_id": "LEGACY_COMPONENT:ddfbefba1b0200d24872",
+      "decision": "approve",
+      "reason": "The46 real transitions are an expanded edition application of the previously retained line/statement distinction and unique E180/E181 read-once rule. Counts6/1/39 and381→380 do not add content meanings or a new authorial sentence claim. Concrete counterparts independently located: SEM:63933ec0cb14750ba404 and SEM:76d149cbb3f402b123eb explicitly preserve the same E180/E181 once-interpreted/twice-written distinction. The expanded46-boundary accounting is a local application, not independent semantic verification.",
+      "full_selected_span_read": true,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_seven_page_continuous_reading_three_hundred_fifty_eighth/THREE_HUNDRED_FIFTY_EIGHTH_REPORT.md",
+          "line": 1,
+          "line_end": 19,
+          "quote": "# Pass 358 — alle realen Prosa-Zeilenübergänge\n\nDie 381 vorhandenen Ereignisse liegen auf 57 physischen Zeilen in elf Records.\nAlle 46 recordinternen Zeilenübergänge erhalten dieselbe Werkstattentscheidung:\n6 weiterlesen,\n1 Rand-/Anfangspaar einmal lesen und\n39 echten Mikrogang- oder\nBesitzerreset setzen.\n\nDas einzige Read-once-Paar bleibt `E180→E181 qokaiin/qokaiin`. Seine zwei\nsichtbaren Formen bilden eine Quellkarte; damit ergeben 381 sichtbare Ereignisse\n380 Quellpositionen. Die übrigen Wiederholungen bleiben echte Karten. Die\nkomplette Ausgabe lässt Aussagen und Mikrozyklen über physische Zeilen laufen,\nohne Zeilenende als Satzschluss zu behandeln.\n\nAls Nächstes sollte die 57-Zeilen-Ausgabe in ein vollständiges Meisterdiktat\numgeschrieben werden: je Zeile erst Besitzer und laufender Stoff, dann die\nkonkrete deutsche Arbeitsanweisung, danach die sichtbaren Karten. So erhält man\ndie bislang flüssigste Gesamtübersetzung der sieben Prosaseiten.",
+          "sha256": "93aef4be04412a7450eeed79b9b07f1e489f2b677595294cd347f8be94dc5270"
+        }
+      ]
+    },
+    {
+      "selection_index": 7,
+      "source_id": "LEGACY_COMPONENT:244dce1d76f24182cd4d",
+      "decision": "fix_full_scope_counterpart",
+      "reason": "The prose contains a specific additional assignment: E180 is the visible anticipation and E181 carries the spoken Sollstellung. SEM:63933ec0cb14750ba404 and SEM:76d149cbb3f402b123eb state boundary carry and step organization, not that local interpreted value. Retain that contribution for exact source-case/counterpart comparison; do not declare all semantics covered from read-once alone. The21 state-change count and presentation format remain accounting, not new meanings.",
+      "full_selected_span_read": true,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_full_master_dictation_three_hundred_fifty_ninth/THREE_HUNDRED_FIFTY_NINTH_REPORT.md",
+          "line": 1,
+          "line_end": 17,
+          "quote": "# Pass 359 — 57 Zeilen als Meisterdiktat\n\nJede physische Zeile besitzt jetzt eine vollständige Werkstattanweisung:\nBesitzer, eingehender Stoffzustand, konkrete Slotwerte, sichtbare Karten,\nausgehender Zustand und Übergang zur nächsten Zeile. Die 57 Diktatzeilen decken\n381 sichtbare Ereignisse, 380 gesprochene Quellkarten, 116 Aussagen und elf\nRecords ab.\n\n21 Zeilen verändern den laufenden Stoffzustand. Sechs Zeilen weisen\nausdrücklich zum Weiterlesen, eine auf das einmalige Randpaar und 39 auf einen\nReset; elf beenden ihren Record. E180 wird nur als sichtbarer Randvorgriff\ngeschrieben, E181 trägt die gesprochene Sollstellung.\n\nAls Nächstes sollte aus diesem Diktat eine flüssige moderne Gesamtübersetzung\nentstehen: pro Record ein zusammenhängender deutscher Arbeitsabsatz, darunter\neine wörtliche Kartenzeile und eine kurze Liste der Stellen, an denen Bildbesitz\nstatt Karte den konkreten Gegenstand liefert.",
+          "sha256": "2ad855a411c48d984bf46ad8534a00b47d82ffbb236e01fca0268e45a95da1ae"
+        }
+      ]
+    },
+    {
+      "selection_index": 8,
+      "source_id": "LEGACY_COMPONENT:8c725365d4f30e782d61",
+      "decision": "approve",
+      "reason": "SLOT[value] permits exact reconstruction while free German requires alignment. The report explicitly does not recover pronouns and synonyms mechanically; these are output/representation methods, not new Voynich translations.",
+      "full_selected_span_read": true,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_controlled_reverse_language_three_hundred_sixty_first/THREE_HUNDRED_SIXTY_FIRST_REPORT.md",
+          "line": 1,
+          "line_end": 18,
+          "quote": "# Pass 361 — kontrollierte Rücklesesprache\n\nAus den elf freien Absätzen entsteht eine zweite, exakt rücklesbare\nWerkstattschicht. 159 belegte Wert-Slot-Paare erhalten je eine Phrase im Muster\n`SLOT[Wert]`. Alle 380 Quellkarten und 116 Aussagen werden damit ohne Verlust in\nderselben Reihenfolge rekonstruiert.\n\nFreies Deutsch bleibt ausdrücklich die Lesefassung und braucht ein\nEreignis-Alignment; es wird nicht so getan, als ließen sich Pronomen und\nSynonyme mechanisch in Karten zurückverwandeln. Die kontrollierte Zeile ist die\nSchreiber-/Korrektorsprache darunter. 16\nWert-Slot-Paare besitzen mehr als eine beobachtete freie Formulierung und werden\ndadurch auf jeweils einen Ausdruck vereinheitlicht.\n\nAls Nächstes sollte geprüft werden, welche der 159 Phrasen zu größeren\nKompositionsfamilien zusammenfallen: gleiche Operation mit anderem Maß, Zustand\noder Ziel. Daraus entsteht ein kleiner Werkstatt-Thesaurus, der freie deutsche\nSynonyme zulässt, aber jede Variante an genau eine Kartenformel bindet.",
+          "sha256": "58c9b18567664b5ce10970fd81991055263fa52a18296abc10f21cb3bb89e2b6"
+        }
+      ]
+    },
+    {
+      "selection_index": 9,
+      "source_id": "LEGACY_COMPONENT:adb2fd0f79ef45e42a0f",
+      "decision": "approve",
+      "reason": "33 German teaching families explain synonym variation under a fixed formula. The source expressly says families are not new Voynich words; no new codeword-to-content assignment is specified.",
+      "full_selected_span_read": true,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_workshop_thesaurus_three_hundred_sixty_second/THREE_HUNDRED_SIXTY_SECOND_REPORT.md",
+          "line": 1,
+          "line_end": 16,
+          "quote": "# Pass 362 — kompakter Werkstatt-Thesaurus\n\nDie 159 exakten Kontrollphrasen fallen in 33 lehrbare Familien.\nDer Thesaurus gestattet natürliche Synonyme, hält aber unter jeder freien\nFormulierung genau eine Formel `FAMILIE::SLOT[Wert]`. So bleiben alle 380\nQuellkarten und 116 Aussagen exakt rücklesbar.\n\nDie Familien sind keine neuen Voynich-Wörter. Sie sind das kleine deutsche\nLehrgerüst, mit dem ein Meister Varianten wie *abführen*, *abziehen* und\n*ablassen* zusammen erklären kann, ohne die Karten selbst zu verwechseln. Jede\nFamilie besitzt deshalb auch eine ausdrückliche Driftgrenze.\n\nAls nächster Schritt eignet sich ein Blinddiktat im handwerklichen Sinn: Der\nMeister spricht nur freie Familienphrasen; der Lehrling muss die vollständige\nkontrollierte Formel auswählen und daraus die Karte setzen. Fehler zeigen dann,\nwelche Familien noch zu breit sind.",
+          "sha256": "ca1a26d0b3f7c4a8961c6de51da326e664ed600c099a4a92b2fe063d86af652a"
+        }
+      ]
+    },
+    {
+      "selection_index": 10,
+      "source_id": "LEGACY_COMPONENT:a52cfd4cdcfb417edd9e",
+      "decision": "approve",
+      "reason": "94/159 formulas and187/380 cards are recovered under family dictation, with65 learned residual formulas. This is an authored decoding-capacity result, not a new semantic inventory or externally established lexical rule.",
+      "full_selected_span_read": true,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_family_dictation_three_hundred_sixty_third/THREE_HUNDRED_SIXTY_THIRD_REPORT.md",
+          "line": 1,
+          "line_end": 11,
+          "quote": "# Pass 363 — Familien-Diktat\n\nEin Lehrmeister diktiert nur Familienkopf plus kurze semantische Zusätze. Das\nreicht für 94/159 Formeln und 187/380 Quellkarten. Die\nrestlichen 65 Formeln (193 Karten) werden ehrlich als\ngelernte Ganzformen vom Brett genommen.\n\nDas ist die gesuchte Mischung: produktive Fachkürzel tragen den größeren Teil,\ndoch dicht benachbarte Formen werden nicht mit immer neuen Bedeutungsstämmen\ngerettet. 22 konkrete Mehrdeutigkeitsbündel zeigen, wo die\nnächste Runde paarweise Kontraste lehren muss.",
+          "sha256": "459722468a57ec11c0ca5a173db3f8c2f03bc1746f0199a8066c02a3e0152f53"
+        }
+      ]
+    },
+    {
+      "selection_index": 11,
+      "source_id": "LEGACY_COMPONENT:a2d4ad558885074f8d72",
+      "decision": "approve",
+      "reason": "65 teaching contrasts fall into four categories; no individual new full claim is named in the span. Later Pass365 narrows its settable-card claim to values; preserve that distinction instead of treating380settable values as380identified cards.",
+      "full_selected_span_read": true,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_contrast_cards_three_hundred_sixty_fourth/THREE_HUNDRED_SIXTY_FOURTH_REPORT.md",
+          "line": 1,
+          "line_end": 17,
+          "quote": "# Pass 364 — Kontrastkarten\n\nDie 22 mehrdeutigen Diktatbündel erhalten 65 explizite Kontrastkarten. Davon\nsind 35 wiederkehrende semantische Zusätze,\n19 Handlungs-/Zustands-/Ergebnisunterschiede,\n4 sichtbare Besitzerunterschiede und\n7 ehrliche Nomenklator-Merksprüche.\n\nDamit sind alle 380 Quellkarten setzbar: 187 direkt\naus der ersten Familienregel, 161 mit einer\nzusätzlichen wiederverwendbaren oder grammatischen Kontrastkarte und\n32 als ganze gelernte Karte. Die letzte Gruppe wird\nnicht in neue Stämme zerlegt.\n\nAls Nächstes soll ein kompletter Rekonstruktionsdurchgang die 116 Aussagen nur\naus Familien-, Kontrast- und Nomenklatortafeln neu setzen und danach mit der\nrealen Kartenfolge vergleichen.",
+          "sha256": "fd47c0a26a3e8625ef9d16a0616268b359d5089d84a493bbf818d2cf5ce3366c"
+        }
+      ]
+    },
+    {
+      "selection_index": 12,
+      "source_id": "LEGACY_COMPONENT:7f7cc46dc85b3007c7bb",
+      "decision": "approve",
+      "reason": "Pass365 explicitly corrects Pass364: values alone pick308identities,48requireowner and24rightneighbor. This is a real internal correction of an authored reconstruction claim, not newly verified card semantics or a fresh letter rule.",
+      "full_selected_span_read": true,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_full_tablet_reconstruction_three_hundred_sixty_fifth/THREE_HUNDRED_SIXTY_FIFTH_REPORT.md",
+          "line": 1,
+          "line_end": 19,
+          "quote": "# Pass 365 — Tafelnachschrift und Paar-Korrektur\n\nAlle 116 Aussagen werden aus Familien-, Kontrast- und Nomenklatortafeln neu\ngesetzt. Der Wert ist bei allen 380 Quellkarten eindeutig. Die konkrete exakte\nKartenidentität ist jedoch nur bei 308\nPositionen schon durch Wert und Slot bestimmt. 48\nPositionen brauchen zusätzlich den sichtbaren Besitzer und\n24 außerdem den\nrechten Nachbarn auf einer der 14 Paar-Tafeln.\n\nDamit wird die zu starke Formulierung von Pass 364 korrigiert: dessen drei\nSetzwege wählen 187 direkt komponierte, 161 kontrast-komponierte und 32\nnomenklatorische **Werte**. Erst die Paar-Tafeln wählen bei 72 Vorkommen die\nexakte Karte. Zusammen rekonstruieren beide Schichten 380/380 Identitäten und\nOberflächen.\n\nAls Nächstes soll der Lehrling die 14 Paar-Tafeln selbst lernen: Besitzerregel\nzuerst, rechter Nachbar nur dort, wo beide Karten beim selben Besitzer möglich\nsind.",
+          "sha256": "c87337afeb89227e21a627ef3825a59c9ed0adfedb265e9781144fffa23eb8b0"
+        }
+      ]
+    },
+    {
+      "selection_index": 13,
+      "source_id": "LEGACY_COMPONENT:f92020699a4ba973153f",
+      "decision": "approve",
+      "reason": "Six teaching days and one newly authored examination instruction are a plausibility exercise; the source supplies no new manuscript reading or independently tested historical learning duration.",
+      "full_selected_span_read": true,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_apprentice_curriculum_three_hundred_sixty_seventh/THREE_HUNDRED_SIXTY_SEVENTH_REPORT.md",
+          "line": 1,
+          "line_end": 13,
+          "quote": "# Pass 367 — sechstägiger Werkstattkurs\n\nDie gesamte aktuelle Schreiblehre passt in sechs Unterrichtstage: Slots,\nBezug/Menge, Nasswerkstatt, Dauer/Ziel/Abschluss, Kontraste und schließlich\nSchreiberformen plus Zeilenführung. Das ist für eine kleine Werkstatt um 1420\nerlernbar: eine produktive Grundgrammatik, wenige Kontrasttafeln und ein kleiner\nNomenklator.\n\nDie Abschlussarbeit setzt eine neue zehnteilige Arbeitsanweisung vorwärts und\nliest sie mit einem zweiten Lehrling exakt zurück. Als nächstes sollte dieselbe\nAnweisung ohne Kontrollformeln nur aus der Kartenoberfläche in freies Deutsch\nzurückübersetzt werden; jede Abweichung zeigt, welche Bedeutung noch nicht\nwirklich auf der Karte sitzt.",
+          "sha256": "acc2784ed9231a233ef555e3004a8903216b0bb8397f7d06baa3443a327ecd24"
+        }
+      ]
+    },
+    {
+      "selection_index": 14,
+      "source_id": "LEGACY_COMPONENT:cae8be45a8514d88abf5",
+      "decision": "approve",
+      "reason": "Ten deliberately selected unambiguous teaching forms permit readback under their existing board identities. Medicine/bathhouse remain narrower owner expansions, not two independently evidenced new semantic theories.",
+      "full_selected_span_read": true,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_surface_only_backread_three_hundred_sixty_eighth/THREE_HUNDRED_SIXTY_EIGHTH_REPORT.md",
+          "line": 1,
+          "line_end": 10,
+          "quote": "# Pass 368 — Oberfläche ohne Kontrollformeln\n\nAlle zehn sichtbaren Formen sind auf dem 173-Karten-Brett eindeutig. Ein Leser\ngewinnt deshalb zehn Werte und Slots ohne Formel oder Seitenexemplar; der einzige\nSlotabfall trennt die zwei Mikrogänge. Die neutrale Werkstattanweisung bleibt\nvollständig, während Badehaus und Medizin als engere Besitzerexpansionen leben.\n\nAls nächstes sollte dieselbe Probe schwieriger werden: gezielt drei Oberflächen\naus den vierzehn Paar-Tafeln einsetzen. Dann muss der B3-Besitzer und rechte\nNachbar die Karte bestimmen, nicht die Oberfläche allein.",
+          "sha256": "76a7c77a5458d203a4a51eb166315abe71d803124541926e2ef9ba48e6111bc7"
+        }
+      ]
+    },
+    {
+      "selection_index": 15,
+      "source_id": "LEGACY_COMPONENT:1286e89376d241180233",
+      "decision": "approve",
+      "reason": "cheky/qokeey anticipatory copies are intentionally inserted under two artificial widths. Their exact reversibility does not add new observed manuscript occurrences or a new word meaning.",
+      "full_selected_span_read": true,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_two_residual_layouts_three_hundred_seventy_first/THREE_HUNDRED_SEVENTY_FIRST_REPORT.md",
+          "line": 1,
+          "line_end": 10,
+          "quote": "# Pass 371 — Restbreiten und Randkopien\n\nDie kompakte Palette passt in Breite 20 und kopiert `cheky` am inneren Bruch;\ndie erweiterte Palette passt in Breite 30 und kopiert `qokeey`. Jede Fassung\nhat drei Zeilen, eine echte Zyklusgrenze und genau eine Read-once-Randkopie.\nNeun sichtbare Formen werden dadurch wieder zu acht Quellkarten.\n\nAls nächstes soll ein Korrektor beide unmarkierten Layouts lesen: Kopierrollen\nwerden versteckt, und nur Identität, Besitzer, Slotfolge und Zyklusabfall dürfen\ndie 16 Quellkarten rekonstruieren.",
+          "sha256": "70738c7b32b84b2f670dd242dbd0dc3f01f94bc328822e4a34dffbbf446e3aaa"
+        }
+      ]
+    },
+    {
+      "selection_index": 16,
+      "source_id": "LEGACY_COMPONENT:e3821c5d2e03d8ffc934",
+      "decision": "approve",
+      "reason": "Removing two known artificial boundary copies by identity and owner plus slot decline is a control. The proposed next deliberately illegal boundary is future work here.",
+      "full_selected_span_read": true,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_unmarked_layout_corrector_three_hundred_seventy_second/THREE_HUNDRED_SEVENTY_SECOND_REPORT.md",
+          "line": 1,
+          "line_end": 10,
+          "quote": "# Pass 372 — Korrektor ohne Rollenmarken\n\nDer Korrektor sieht sechs Zeilen, aber keine SOURCE-/COPY- oder Grenzlabels.\nGleiche Identität beidseits desselben Besitzerrandes entfernt zweimal die linke\nRandkopie; der fallende Satzplatz erkennt zweimal den echten Mikrogangwechsel.\nBeide neun sichtbaren Formen werden exakt zu je acht Quellkarten.\n\nAls nächstes soll die achtteilige Anweisung mit einer absichtlichen falschen\nRandkopie versehen werden: einmal an einer echten Zyklusgrenze. Der Korrektor\nmuss sie als unzulässige Doppelung erkennen und darf sie nicht read-once retten.",
+          "sha256": "5153d440dbf977cd5874d156c1912ff9f16c7fe45fce81b3789326fdba3f67da"
+        }
+      ]
+    },
+    {
+      "selection_index": 17,
+      "source_id": "LEGACY_COMPONENT:5b4c87b87e641ea429ba",
+      "decision": "approve",
+      "reason": "An intentional bad copy exposes a weakness of identity-only restoration and motivates the predecessor-slot check. This is a genuine control-rule counterexample, not a manuscript semantic counterexample; later real replay was only proposed in this span.",
+      "full_selected_span_read": true,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_illegal_boundary_copy_three_hundred_seventy_third/THREE_HUNDRED_SEVENTY_THIRD_REPORT.md",
+          "line": 1,
+          "line_end": 10,
+          "quote": "# Pass 373 — Randkopie gegen echten Reset\n\nEine reine Identitätsregel würde beide Doppelränder read-once nennen und damit\nden zweiten Produktionsfehler unsichtbar machen. Die vollständige Werkstattregel\nprüft die Vorgängerkarte: ein Slotabfall vor der Doppelkarte sperrt die\nAntizipation. So wird eine legale Kopie entfernt, eine illegale gelöscht und als\nFehler markiert; acht Quellkarten bleiben exakt.\n\nAls nächstes wird diese Fehlerregel auf alle 46 realen Zeilenübergänge der sieben\nProsaseiten zurückgespielt, diesmal mit expliziter Vorgängerprüfung.",
+          "sha256": "f873905d226479059f7ecf6b1b66af01267aa65378047c74687c9efd128cbee6"
+        }
+      ]
+    },
+    {
+      "selection_index": 18,
+      "source_id": "LEGACY_COMPONENT:2a9b7ad29d81896197b5",
+      "decision": "approve",
+      "reason": "A positive added gap is chosen for an authored exercise; the unmarked aiin|aiin case remains error-or-repeat. This does not report a newly observed manuscript gap or identify a meaning.",
+      "full_selected_span_read": true,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_visible_carry_convention_three_hundred_seventy_fifth/THREE_HUNDRED_SEVENTY_FIFTH_REPORT.md",
+          "line": 1,
+          "line_end": 11,
+          "quote": "# Pass 375 — positive Antizipationsmarke\n\nUnter drei einfachen Werkstattkonventionen gewinnt die zusätzliche Randlücke:\nkein neues Zeichen, zwei Regeln und stabil bei verschiedenen Schreibpaletten.\nSie lizenziert die beiden Übungskopien `cheky` und `qokeey`, während ein\nunmarkiertes `aiin | aiin` offen als Fehler oder echte Wiederholung zum Meister\nzurückgeht. Damit wird keine unsichtbare Unterscheidung behauptet.\n\nAls nächstes soll dieselbe Markierung in eine komplette Musterseite mit Bildraum,\nzwei Besitzern und vier Mikrogängen eingebaut werden, um die Regeln gemeinsam zu\nsehen: Bild zuerst, Restbreite, Besitzerwechsel, Kartenwahl und Randkopie.",
+          "sha256": "071f1d1b8310adbf6543bf87e0e4c9ae20fca25aef094c2483791208a3bfa5fa"
+        }
+      ]
+    },
+    {
+      "selection_index": 19,
+      "source_id": "LEGACY_COMPONENT:ae19fc6a83987656f615",
+      "decision": "approve",
+      "reason": "The image-first two-owner five-line page is constructed to test four cycles and one marked copy. Its successful readback uses no new card values and supplies no independent manuscript scenario.",
+      "full_selected_span_read": true,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_image_first_practice_page_three_hundred_seventy_sixth/THREE_HUNDRED_SEVENTY_SIXTH_REPORT.md",
+          "line": 1,
+          "line_end": 10,
+          "quote": "# Pass 376 — vollständiges Musterblatt\n\nZwei bestehende Bildbesitzer werden zuerst gesetzt; fünf Textzeilen füllen die\nRestflächen. Vier Mikrogänge, ein Besitzerwechsel und eine markierte Randkopie\ntragen vierzehn Quellkarten in fünfzehn sichtbaren Formen. Die vollständige\nArbeitsanweisung liest ohne neue Kartenwerte zurück.\n\nAls nächstes soll ein anderer Schreiber das Blatt in der zweiten Palette\nabschreiben, dabei aber die Bildblöcke leicht anders skalieren. Das testet, ob\nTextfluss und Eigentümer trotz neuer Restbreiten stabil bleiben.",
+          "sha256": "4dbebc747543c3cdb97f05211103194981e6b0707fef2fe8c1f633ad7d42db76"
+        }
+      ]
+    },
+    {
+      "selection_index": 20,
+      "source_id": "LEGACY_COMPONENT:21a9ea4cc363381efebe",
+      "decision": "approve",
+      "reason": "The intentionally damaged second copy is repaired by restoring cphy under the existing Nachseihen value. That is an exercise restoration, not a newly found omission in the manuscript.",
+      "full_selected_span_read": true,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_two_copy_collation_three_hundred_seventy_eighth/THREE_HUNDRED_SEVENTY_EIGHTH_REPORT.md",
+          "line": 1,
+          "line_end": 10,
+          "quote": "# Pass 378 — Varianten, Carry, Lücke und Besitzerwechsel\n\nDie absichtlich beschädigte Zweitkopie hat 13 statt 14 Quellkarten. Der\nKorrektor behält 8 Varianten, liest eine\nmarkierte Randkopie einmal, respektiert einen Besitzerwechsel und stellt genau\n`cphy`/Nachseihen wieder her. Danach stimmt die komplette 14-Karten-Folge.\n\nAls nächstes soll der Korrektor die restaurierte Seite ohne deutsche Werte an\neinen dritten Schreiber diktieren. Dieser setzt eine dritte Palette und darf nur\nan den acht variablen Positionen abweichen.",
+          "sha256": "0ad303a5c5c50647fc973ebcd827abfc916993cc69c07020c133888d0ae66565"
+        }
+      ]
+    },
+    {
+      "selection_index": 21,
+      "source_id": "LEGACY_COMPONENT:a137f132bf7188e31b8d",
+      "decision": "approve",
+      "reason": "Eight named invariant identity kernels across three authored copies and six unused registered palette forms are a rendering exercise. They do not establish fresh real scribal equivalences or new meanings.",
+      "full_selected_span_read": true,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_three_copy_stem_sheet_three_hundred_eightieth/THREE_HUNDRED_EIGHTIETH_REPORT.md",
+          "line": 1,
+          "line_end": 15,
+          "quote": "# Pass 380 — Kerne über drei Kopien\n\nDie acht variablen Positionen bilden acht saubere Workshop-Kerne: HO, OR,\nCTHY, Y, AIIN, CKHY, OKY und OKEEY. Ihre unterschiedlichen Eintrittsformen\nändern weder Kartenidentität noch Wert. Sechs weitere Karten bleiben in allen\ndrei Kopien fest.\n\nNur 6 registrierte Wrapperformen der produktiven Kerne fehlen\nnoch in den drei Musterkopien: `or`, drei weitere Y-Formen sowie `aiin` und\n`daiin`. Sie liefern konkrete Vorhersagen für eine vierte Palette, ohne eine neue\nForm zu erfinden.\n\nAls nächstes soll eine vierte Kopie bevorzugt diese sechs noch unbenutzten, aber\nbereits registrierten Formen einsetzen und anschließend denselben vierzehnteiligen\nText zurücklesen.",
+          "sha256": "9431e2144ca2155740a74df9dc4b49c6c03d778d9169f4d0eadbb1528a27c4ad"
+        }
+      ]
+    },
+    {
+      "selection_index": 22,
+      "source_id": "LEGACY_COMPONENT:bc8e34950eb2adad747a",
+      "decision": "fix_full_scope_counterpart",
+      "reason": "The synthetic copy also explicitly asserts dy as the Y/Diesposten card and daiin as the AIIN/Sollmaß card despite shared d-entry form, with entry wrapper changing form rather than replacing the content core. SEM:e1e0cdaddc06b281e0ef preserves only the D:Y-to-D:AIIN sequence/withdrawn closure claim, and the six-family Pass337 card does not specify this dy/daiin contrast. Synthetic status limits evidential force, but does not by itself establish full proposition coverage. Compare the whole two-form role/value contrast and wrapper limit or retain it as a local source case, not a new general mechanism.",
+      "full_selected_span_read": true,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_fourth_copy_combination_three_hundred_eighty_second/THREE_HUNDRED_EIGHTY_SECOND_REPORT.md",
+          "line": 1,
+          "line_end": 17,
+          "quote": "# Pass 382 — drei neue Wrapper gleichzeitig\n\nDie vierte Abschrift kombiniert `or`, `dy` und `daiin` in einem vollständigen\nViergang-Text. Alle übrigen elf Quellenpositionen bleiben wie in Kopie drei.\nDie gemeinsame Anfangsform `d-` der beiden benachbarten Oberflächen führt nicht\nzu einer Verwechslung: `dy` wird als Y-/Diesposten-Karte und `daiin` als\nAIIN-/Sollmaß-Karte zurückgelesen.\n\nFünfzehn sichtbare Formen ergeben nach der markierten Randkopie genau vierzehn\nQuellkarten. Der Leser rekonstruiert alle Besitzer-, Mikrogang-, Karten- und\nPositionsaufrufe ohne deutsche Glossenvorgabe. Das stützt die Arbeitsannahme,\ndass der Eintrittswrapper die Kartenform steuert, aber nicht selbst den\nInhaltskern ersetzt.\n\nAls nächstes soll eine kleine Kontrasttafel die drei Y- und zwei AIIN-Formen in\ndenselben Satzrahmen nebeneinanderstellen. So wird sichtbar, welche Teile beim\nKopieren tatsächlich invariant bleiben.",
+          "sha256": "3d62eaee08e2dcbb3dade811802b13a52d188f65af640f170899834b80c27f71"
+        }
+      ]
+    },
+    {
+      "selection_index": 23,
+      "source_id": "LEGACY_COMPONENT:ba57b0fa4dbe1e16d623",
+      "decision": "approve",
+      "reason": "Retain the complete source-defined construction/contrast or explicitly local revision case without claiming new decipherment.",
+      "full_selected_span_read": true,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_ok_grade_endpoint_ladder_three_hundred_eighty_fourth/THREE_HUNDRED_EIGHTY_FOURTH_REPORT.md",
+          "line": 1,
+          "line_end": 18,
+          "quote": "# Pass 384 — die bislang beste produktive Fachkürzung\n\nSechs Kartenfamilien mit zusammen 38 echten Vorkommen bilden eine kompakte\nOK-Leiter. OK setzt den Arbeitsgang an; E, EE und EEE staffeln kurz, länger und\nvollständig; Y lässt den Diesposten offen, während die lizenzierte DY-Endform den\nSchritt schließt. Damit werden sechs Karten aus vier lehrbaren Entscheidungen\ngebaut.\n\nDie Leiter ist absichtlich lokal. Sichtbares `dy` ist nicht überall Schluss,\nund sichtbares `e` ist nicht überall Grad. Sechs benachbarte Ganzkartenfamilien\nbleiben außerhalb der Regel. Das ist genau die gesuchte Mischung aus produktiver\nFachkürzung und gelerntem Nomenklator.\n\nDie existierenden Karten `qokeedal` und `okeeol` liefern zwei sofort lesbare\nEndslot-Erweiterungen: Zielstelle statt Y/DY sowie Fortsetzung statt Y/DY.\nAls nächstes soll ein Lehrling aus der Leiter neue vollständige Arbeitsgänge nur\nmit bereits belegten Karten bauen und anschließend die lange deutsche\nUmschreibung wieder auf vier kurze Komponenten reduzieren.",
+          "sha256": "22d902445bdab9d363fd7748b61e4bb4bfc737d5649d499fb9615f69804d519e"
+        }
+      ]
+    },
+    {
+      "selection_index": 24,
+      "source_id": "LEGACY_COMPONENT:f1384d80bd71abc35f4c",
+      "decision": "approve_qokeedy_card_fix_remaining_scope",
+      "reason": "The qokeedy revision is accurately retained as a dependent local representation case. The same selected source independently repeats that dy and daiin remain distinct despite the shared entry shell. Its coverage must be linked to the precise Pass382 comparison under index22; the qokeedy card itself does not assert that contrast. No automatic separate third mechanism or bare d-word meaning.",
+      "full_selected_span_read": true,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_ok_process_strip_three_hundred_eighty_fifth/THREE_HUNDRED_EIGHTY_FIFTH_REPORT.md",
+          "line": 1,
+          "line_end": 14,
+          "quote": "# Pass 385 — vom langen Gloss zurück zu Komponenten\n\nDer Lehrstreifen benutzt sieben bereits belegte Karten in elf Positionen. Zwei\nBahnen zeigen dasselbe offene/geschlossene Paar bei kurzem und längerem Grad;\ndie vollständige Bahn besitzt nur eine registrierte geschlossene Karte.\n\nDer wichtige Gewinn ist sprachlich: `qokeedy` braucht nicht mehr als eigenes\nlanges Wort „länger in Kontakt halten und den Schritt abschließen“ gespeichert\nzu werden. Es wird aus OK=ansetzen, EE=länger und dem lizenzierten DY-Schluss\ngelesen. Ebenso bleiben `dy` und `daiin` trotz gleicher Eintrittsschale getrennt.\n\nAls nächstes bekommt der Lehrling genau einen absichtlichen Grad- oder\nEndpunktfehler in jeder Bahn. Die Korrektur darf nur eine bestehende Karte\naustauschen und muss erklären, welcher Bestandteil falsch war.",
+          "sha256": "c877e1bfe4cadcb7764da6d3400fef33e580d6f1e9ed5032ee5813e662952e4f"
+        }
+      ]
+    }
+  ],
+  "counterpart_bindings": [
+    {
+      "id": "SEM:01030ae7485b63b0cc06",
+      "claim": "qokeedy → set for longer; close",
+      "card_basis": "d45f8a1618bdef6554ba8ef30a2e6d2dbd5e472b154fd6037176d55a44dd8ad5",
+      "effective_basis": "7dbf0e9a9c086b848d0988c5d6f303c0c2b7cb39826cd18c137d19d04453a0c6",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 22,
+          "line_end": 22,
+          "path": "experiments/yolo/sidequest_semantic_productive_paradigm_table_six_hundred_thirty_fifth/SIX_HUNDRED_THIRTY_FIFTH_REPORT.md",
+          "quote": "| `qokeedy` | set for longer; close |",
+          "sha256": "4c9b99fc964fd1e97b7424915fe9d66d2e60db1bafb42cd9944e13e3d9d4aead",
+          "source_id": "LEGACY_COMPONENT:df100836fb87f25be479",
+          "source_section": "1. `OK × E/EE/EEE × Y/DY`",
+          "table_header": "| Form | Reading |"
+        }
+      ]
+    },
+    {
+      "id": "SEM:118d710fc54864c26529",
+      "claim": "Pass655 proposes qoky, qokey, qokeey, qokedy, qokeedy and qokeeedy as productive combinations of an operation, duration grade and open versus closed endpoint.",
+      "card_basis": "23c15d3a62926b1d5880a8fb21c95cee84b3d655b462af99ee635b56b5387781",
+      "effective_basis": "b86b29b010f6b012bedaddd9638181b2a664cb603e72304782443a579ed87c8f",
+      "evidence": [
+        {
+          "line": 52,
+          "line_end": 56,
+          "path": "experiments/yolo/sidequest_semantic_endpoint_branching_six_hundred_fifty_fifth/SIX_HUNDRED_FIFTY_FIFTH_REPORT.md",
+          "quote": "Das Zweigpaar wird nun in das gesamte OK–E–Y/DY-Raster zurückgeführt. Geprüft\nwerden `qoky`, `qokey`, `qokeey`, `qokedy`, `qokeedy` und `qokeeedy` als\nproduktive Kombination von Arbeitsgang, Dauergrad und offenem bzw.\ngeschlossenem Endpunkt. Daraus sollen konkrete noch nicht belegte\nKartenlesungen vorhergesagt werden.",
+          "sha256": "74b413a299fa0445b83e7a38900e7df1d4c78885fa7be408b3b6af08520c278e"
+        }
+      ]
+    },
+    {
+      "id": "SEM:165a5436bbb0c9559e10",
+      "claim": "The E-grade paradigm reads exact okeeol as die anhaltende Anwendung mit dem Vorigen fortführen.",
+      "card_basis": "da704464299fb5d48cfba8af9ec226d9a34bf183ced3fd6abc3c4c783724d089",
+      "effective_basis": "aadd8e9c134504f9a642111777ab2674343571c1f529245109bce73be3aa76e9",
+      "evidence": [
+        {
+          "line": 83,
+          "line_end": 84,
+          "path": "experiments/yolo/sidequest_semantic_paradigm_closure/E_GRADE_REPORT.md",
+          "quote": "- `okeeol = OK + EE + OL`: die anhaltende Anwendung mit dem Vorigen\n  fortführen. Die alte freie Ganzglosse „breites Gefäß“ wird dafür aufgegeben.",
+          "sha256": "a982d2c7b8613c758aa4f0d27a9f569861a7adecc3e9c452a9ebe73fbacf4411"
+        }
+      ]
+    },
+    {
+      "id": "SEM:1a100826de5f2f08f2c0",
+      "claim": "QEKEY → ROH",
+      "card_basis": "e765ac944a6993168fd4ea7de8a2a559da82676c055e78302097d3009c50b643",
+      "effective_basis": "dd90523d5f301c0bf6992934a23f82a3b933f83bcb91535d28bff79184bf50e5",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 145,
+          "line_end": 145,
+          "path": "experiments/yolo/sidequest_semantic_thermal_temporal_completion/R2_REPORT.md",
+          "quote": "- `QEKEY = ROH`;",
+          "sha256": "3938eafaba2acf826e87f2e22a7ba993dcecf2a14a6e8b896ce405b20bdcab14",
+          "source_id": "LEGACY_COMPONENT:327cdebbe2729903fe41",
+          "source_section": "4. CTH: BEREIT; SHECTHY bleibt TEMPERIERT",
+          "table_header": null
+        },
+        {
+          "line": 1,
+          "line_end": 48,
+          "path": "experiments/yolo/sidequest_semantic_unified_prose_edition_two_hundred_first/TWO_HUNDRED_FIRST_UNIFIED_PROSE_REPORT.md",
+          "quote": "# Two-hundred-first pass: one current prose edition\n\n## Unified release\n\nThe four normalized sub-editions now form one continuous current prose reader:\n\n- 381 visible events;\n- 380 logical source tokens after the one line-edge read-once correction;\n- 135 fields;\n- 116 translated statements;\n- eleven records on seven fixed prose pages;\n- 173 exact cards with 230 unambiguous registered surfaces.\n\nEvery event has a visible form, normalized master form, exact card, short value,\nfield mode, owner and close status. Every statement has a literal card sequence\nand a fluent German working translation.\n\n## Dictionary architecture\n\nThe compact component/codebook architecture joins exactly to the current cards:\n\n| layer | card types | events |\n|---|---:|---:|\n| productive composition | 151 | 353 |\n| learned whole card | 22 | 28 |\n\nThis is a workable small-shop system. Most running text is built from reusable\ncomponents; the memorized deck is only twenty-two cards, several of which share\nshort teaching heads such as vessel, clear run or previous item. The 57 written\naliases are handled by the ten-rule reader sheet.\n\n## Important editorial warning\n\nThe new dictionary deliberately keeps two columns: the current card value and\nthe older component-closure reading snapshot. The current value controls the\nnew translations. The snapshot is not silently treated as current because it\nexposes unresolved historical conflicts, notably:\n\n- `tchody`: final addition versus cool/store;\n- `qekey`: brief processing versus raw;\n- `dchey`: base part versus root;\n- `sh`: hold versus stalk;\n- `dshedy`: short settle versus fresh water.\n\nThese are now the highest-value next targets. A compact audit of all twenty-two\nwhole cards should choose one short default for each from their complete local\noccurrences and visible owners. No new component is needed until that deck is\ninternally consistent.",
+          "sha256": "0a7da30748203ef6f3fec74b93e2c408ab9a88646b84816535629c09a144264b"
+        }
+      ]
+    },
+    {
+      "id": "SEM:27230d22d16e78974752",
+      "claim": "CFHY → AUSWRINGEN",
+      "card_basis": "c2a5a63259132e81bb733b396c5ee0672722fde3c15d250804d98e604181f990",
+      "effective_basis": "889a4f5a6c1de2c767d6da54c99c15a43b6b5cf7e4096e6a14eb505ccc97b543",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 219,
+          "line_end": 219,
+          "path": "experiments/yolo/sidequest_semantic_filtration_separation_completion/HISTORICAL_FILTRATION_REPORT.md",
+          "quote": "> `CFHY=AUSWRINGEN`, `SHFY=STEHEN LASSEN`, `CPHY=NACHSEIHEN`, `CHEEY/SHEY=KLARAUSZUG`, `DAIN=TUCH`, `SOLKAIIN=SEIHTUCH`, `QOCTHOLY=ABPRESSEN`, `KCHAL=ABSEIHEN`, `CKH=DURCHLAUF`, `CKHE=SEIHEN`, `LSH=WASCHEN`, `SOLK=AUFFANGSTELLE`.",
+          "sha256": "255e6bfaca13343e66ff182c1cc3b2fefa9a8460348384fc2c5502a8dd7d0480",
+          "source_id": "LEGACY_COMPONENT:7e035a4043078e2dcc6b",
+          "source_section": "Arbeitsentscheidung",
+          "table_header": null
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 31,
+          "line_end": 35,
+          "path": "experiments/yolo/sidequest_semantic_filtration_separation_completion/WORKSHOP_FILTRATION_REPORT.md",
+          "quote": "Dazu kommen kurze gelernte Ganzkarten: vier verschiedene Karten für „durch\nTuch“, `CFHY=AUSWRINGEN`, `CPHY=NACHSEIHEN`, drei Karten für „Gefäß füllen“,\n`OTYTCHOL=ERSTAUSZUG AUFFANGEN` und `TALAM=AUSZUG VERWAHREN`. Diese Mischung\nist leichter zu lernen als eine erzwungene Buchstabenmorphologie und vermeidet\nlange Satzglossen als angebliche Wortwerte.",
+          "sha256": "5ff712952a88928ba1f596a08a1951f11d9409e4182202585e07ce2d4b9ba77a",
+          "source_id": "LEGACY_COMPONENT:3e867afcceaaeaadbee8",
+          "source_section": "Arbeitsresultat",
+          "table_header": null
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 6,
+          "line_end": 10,
+          "path": "experiments/yolo/sidequest_semantic_h3_wring_receive_four_hundred_ninety_fourth/FOUR_HUNDRED_NINETY_FOURTH_REPORT.md",
+          "quote": "Die Folge hält zunächst den laufenden Ansatz an der gelernten Arbeitsstelle,\nwringt ihn mit der bereits gelernten Karte `CFHY=AUSWRINGEN` aus, hält den\nausgewrungenen Posten bis zum Sollmaß, gibt ihn in den Empfänger und übernimmt\nden mit `SHEY=EMPFANGSBESTAND` bezeichneten Ausgang. Die letzte Karte füllt\noder zieht diesen Bestand ab und schließt den Schritt.",
+          "sha256": "f949f81fb2659b0a9236bb727e3cd7ea813c72255e2f51cf5a62f30c4113a9a7",
+          "source_id": "LEGACY_COMPONENT:7be690460f14370986a4",
+          "source_section": "Pass 494 — H3-S001 ist keine gelernte Ganzphrase mehr",
+          "table_header": null
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 3,
+          "line_end": 7,
+          "path": "experiments/yolo/sidequest_semantic_herbal_component_completion_four_hundred_fifty_fourth/FOUR_HUNDRED_FIFTY_FOURTH_REPORT.md",
+          "quote": "Die 49 nach Pass 453 noch lokalen Herbal-Kartentypen zerfallen in drei\nSchubladen. Neununddreißig lesen sich unmittelbar mit den 33 bereits gelernten\nBiological-Komponenten. Sieben brauchen zwei kleine Herbal-Erweiterungen:\n`HO = ZUTAT` und `CHEO = AUSZUG`. Nur drei Typen bleiben gelernte Ganzkarten:\n`OS = GEFÄSS`, `CFHY = AUSWRINGEN` und `TALAM = VERWAHREN`.",
+          "sha256": "0cd60ae7202d0a09a1112a57fbf6e40237e2a9849c56bcf3c52fc6ced98f4d2f",
+          "source_id": "LEGACY_COMPONENT:61e632031e0c95bccadb",
+          "source_section": "Pass 454 — das Herbal-Wörterbuch braucht nur drei echte Ganzkarten",
+          "table_header": null
+        }
+      ]
+    },
+    {
+      "id": "SEM:3e393b164adede423e10",
+      "claim": "CPHY → NACHSEIHEN",
+      "card_basis": "7bed17db50c5dff4566a45d86349fd9268dd1866175064f3658b930ddf91b513",
+      "effective_basis": "7f971b1383b1373984effb363ff511c08ee7a45d4793ee9194098dba83644660",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 219,
+          "line_end": 219,
+          "path": "experiments/yolo/sidequest_semantic_filtration_separation_completion/HISTORICAL_FILTRATION_REPORT.md",
+          "quote": "> `CFHY=AUSWRINGEN`, `SHFY=STEHEN LASSEN`, `CPHY=NACHSEIHEN`, `CHEEY/SHEY=KLARAUSZUG`, `DAIN=TUCH`, `SOLKAIIN=SEIHTUCH`, `QOCTHOLY=ABPRESSEN`, `KCHAL=ABSEIHEN`, `CKH=DURCHLAUF`, `CKHE=SEIHEN`, `LSH=WASCHEN`, `SOLK=AUFFANGSTELLE`.",
+          "sha256": "255e6bfaca13343e66ff182c1cc3b2fefa9a8460348384fc2c5502a8dd7d0480",
+          "source_id": "LEGACY_COMPONENT:7e035a4043078e2dcc6b",
+          "source_section": "Arbeitsentscheidung",
+          "table_header": null
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 31,
+          "line_end": 35,
+          "path": "experiments/yolo/sidequest_semantic_filtration_separation_completion/WORKSHOP_FILTRATION_REPORT.md",
+          "quote": "Dazu kommen kurze gelernte Ganzkarten: vier verschiedene Karten für „durch\nTuch“, `CFHY=AUSWRINGEN`, `CPHY=NACHSEIHEN`, drei Karten für „Gefäß füllen“,\n`OTYTCHOL=ERSTAUSZUG AUFFANGEN` und `TALAM=AUSZUG VERWAHREN`. Diese Mischung\nist leichter zu lernen als eine erzwungene Buchstabenmorphologie und vermeidet\nlange Satzglossen als angebliche Wortwerte.",
+          "sha256": "5ff712952a88928ba1f596a08a1951f11d9409e4182202585e07ce2d4b9ba77a",
+          "source_id": "LEGACY_COMPONENT:3e867afcceaaeaadbee8",
+          "source_section": "Arbeitsresultat",
+          "table_header": null
+        }
+      ]
+    },
+    {
+      "id": "SEM:58e1d2c05c699bcde465",
+      "claim": "In Pass337’s authored four-hand copy, the same exact-card values are preserved by the registered families dar/char/sar=source, aiin/daiin/saiin/taiin=prescribed measure, shey/cheey=clear extract, cthy/shcthy/checthy=ready, okeey/qokeey=long contact, and oky/qoky/choky=insertion. These are six specified examples of its learned allograph model, not six newly demonstrated mechanisms or evidence that historical scribes actually produced the synthetic copies.",
+      "card_basis": "a5a8da6da3943b71fa20591b11e28d397ec58d25ae7b0a66ce710d07765e6de9",
+      "effective_basis": "5c900ea3ae58568e886f095e2f213177c4cad8b119509ec4eff792701ca87d48",
+      "evidence": [
+        {
+          "line": 3,
+          "line_end": 12,
+          "path": "experiments/yolo/sidequest_semantic_four_hand_fresh_copy_three_hundred_thirty_seventh/THREE_HUNDRED_THIRTY_SEVENTH_REPORT.md",
+          "quote": "Vier Werkstatthände erzeugen acht verschiedene Oberflächenkopien der frischen\nHerbal/Bio-Doppelfolge. Alle 64 sichtbaren Ereignisse verwenden ausschließlich\nfür die jeweilige exakte Karte registrierte Oberflächen; Kartenidentität,\nBedeutung, Slotfolge und Mikrogang bleiben gleich.\n\nDie häufigen Bezugskarten variieren stark: Quelle erscheint als `dar/char/sar`,\nSollmaß als `aiin/daiin/saiin/taiin`, Klarauszug als `shey/cheey`, Bereit als\n`cthy/shcthy/checthy`, Langkontakt als `okeey/qokeey` und Einsetzen als\n`oky/qoky/choky`. Seltene Fachkarten bleiben stabil. Jede Aussage läuft über\neine physische Zeilengrenze weiter.",
+          "sha256": "8fe148168d70900b0f9806fa1d0eef6e2777e1d892798d08c2bb72a7b287f1d6"
+        }
+      ]
+    },
+    {
+      "id": "SEM:60fa7808672a86f62715",
+      "claim": "The E-grade paradigm reads qokeedal = OK+EE+AL as bringing the designated part/place into sustained contact; eingetauchter Teil remains a local short expansion, and the written d belongs to DAL/AL rather than DY.",
+      "card_basis": "a65670fb3d7a97eed0e3a25d6126882612757161a9db921f23d96b3ff221c107",
+      "effective_basis": "a1730c4c568ec6b7990b32048180381485a7a75612f51e441d7fa1b80ad879c6",
+      "evidence": [
+        {
+          "line": 79,
+          "line_end": 82,
+          "path": "experiments/yolo/sidequest_semantic_paradigm_closure/E_GRADE_REPORT.md",
+          "quote": "- `qokeedal = OK + EE + AL`: den bezeichneten Teil/die Stelle in anhaltenden\n  Kontakt bringen; „eingetauchter Teil“ bleibt eine gute lokale Kurzfassung.\n  Das sichtbare `d` gehört hier zur belegten `DAL/AL`-Realisierung und ist\n  nicht `DY`.",
+          "sha256": "a982d2c7b8613c758aa4f0d27a9f569861a7adecc3e9c452a9ebe73fbacf4411"
+        }
+      ]
+    },
+    {
+      "id": "SEM:63933ec0cb14750ba404",
+      "claim": "Pass301 separates visible ending, registered card function and sentence scope. In its current edition some written dy endings do not close, while learned talam is terminal without dy; sentences can cross physical lines and can contain visible owner changes. E180/E181 remains one interpreted read-once boundary carry despite two written occurrences. A nonclosing statement may remain open or be released at record end. These are the source reader’s boundary rules, not established authorial sentence gold.",
+      "card_basis": "b844825b32f7be6774572ef2ae2214f03038474a92948201cc81c06887cc56ea",
+      "effective_basis": "13b7b66dc40cf3cd520e6572dc030c99bccaab506036c75d968311b97f6295bc",
+      "evidence": [
+        {
+          "line": 5,
+          "line_end": 9,
+          "path": "experiments/yolo/sidequest_semantic_endpoint_scope_three_hundred_first/THREE_HUNDRED_FIRST_REPORT.md",
+          "quote": "Alle 381 Ereignisse sind jetzt gleichzeitig an Karten-, Feld-, Aussage-, Record- und physische Zeilengrenzen gebunden. Die wichtige Trennung lautet: sichtbare Endform, registrierte Kartenfunktion und Satzreichweite sind drei verschiedene Dinge.\n\nVon 105 sichtbar auf `dy` endenden Ereignissen schließen 89 und 16 nicht. Das gelernte `talam` ist der Gegenfall: terminal ohne `dy`. Neunzig der 135 Felder und neunzig der 116 Aussagen schließen explizit; die übrigen laufen offen aus oder werden erst am Recordende freigegeben.\n\nDie 19 inneren Zeilenübergänge bestätigen die Nutzerkorrektur aus dem Sidequest: Eine Aussage muss nicht mit einer Zeile enden. E180→E181 bleibt die einzige Read-once-Randkopie; vier Übergänge wechseln den sichtbaren Besitzer mitten in einer laufenden Aussage.",
+          "sha256": "5df6f51ea6dca1333b9a9b48f89b0f61bef2058664a78bae6f3ec627a96ac8f5"
+        }
+      ]
+    },
+    {
+      "id": "SEM:76d149cbb3f402b123eb",
+      "claim": "Pass317 splits its twelve long Biological statements into executable microsteps: owner changes within these statements begin a new step, while a step may cross a physical line. Apart from one already justified six-card B1 cross-line step, each step has at most five cards. The E180/E181 boundary copy remains twice written but once interpreted; the scheme is a source-specific reading organization, not a universal five-word manuscript sentence rule.",
+      "card_basis": "b605a24273ac84704cebf5f320b43d98d16391cd5e718f552240ec29b3dcb87b",
+      "effective_basis": "43e68fead32bc6a3297427264a097583d12dd6a1754f18ecf7596a44695aaff0",
+      "evidence": [
+        {
+          "line": 3,
+          "line_end": 5,
+          "path": "experiments/yolo/sidequest_semantic_all_long_bio_three_hundred_seventeenth/THREE_HUNDRED_SEVENTEENTH_REPORT.md",
+          "quote": "Genau zwölf der 97 Aussagen sind länger als fünf Karten. Ihre 105 sichtbaren Ereignisse werden zu 32 ausführbaren Schritten; wegen der Randkopie E180/E181 sind das 104 gelesene Operationen. Außer dem bereits begründeten sechs Karten langen B1-Querzeilenschritt hat jeder Schritt höchstens fünf Karten.\n\nAlle drei Besitzerwechsel innerhalb dieser langen Aussagen beginnen einen neuen Mikroschritt; keiner liegt versteckt in einem Schritt. Mehrere echte Schritte dürfen dagegen einen physischen Zeilenwechsel überqueren. Die Gesamtausgabe ist damit erstmals zugleich vollständig, kurz genug zum Ausführen und mit der sichtbaren Stationsgeometrie verträglich.",
+          "sha256": "c73ba094dc4f6de7d69df018c0d62f2b50d65ea022e12db61b83fb3c969cc202"
+        }
+      ]
+    },
+    {
+      "id": "SEM:b7c6f97fefbf8c3e4197",
+      "claim": "ches → gleichteilen",
+      "card_basis": "b31a54ab93bff17a5fc663360298da3be571c58d5d030e9cf6a37860d57f363c",
+      "effective_basis": "e9f66a08916dba2af851c239345e41a8b5a2e0f91e721cbda335bf6d139f2ca7",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 5,
+          "line_end": 5,
+          "path": "experiments/yolo/sidequest_semantic_biological_second_lesson_two_hundred_thirty_seventh/TWO_HUNDRED_THIRTY_SEVENTH_REPORT.md",
+          "quote": "Die stärksten Reparaturen sind `sshkchdy = schwenken; Schluss`, `ytey = füllen`, `dl = Badzusatz`, `ls = Düse`, `ly = Auffangschale`, `ches = gleichteilen`. Sie bilden genau das erwartete Nomenklator-Ende eines produktiven Fachkürzelsystems.",
+          "sha256": "7181d9013f86ee1d765fb9152d8dac2cc1bce07394356efca95735409a58c088",
+          "source_id": "LEGACY_COMPONENT:90483929905253f29e31",
+          "source_section": "Pass 237 — zweite Biological-Lehrstunde",
+          "table_header": null
+        }
+      ]
+    },
+    {
+      "id": "SEM:e1e0cdaddc06b281e0ef",
+      "claim": "DY DAIIN → shared D:Y-to-D:AIIN surface sequence; closure reading withdrawn",
+      "card_basis": "495ca6104dcb9aa5c2b97e890d925ad340da245912bffce0107b7bde70adfe89",
+      "effective_basis": "7ee0b879d4cbf8c5fb5831bef12bcfa4bfc4565976bb36b84bd7579f63d26ede",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 8,
+              "text": "Status: **deliberately speculative, post-hoc, and non-confirmatory**."
+            }
+          ],
+          "line": 5604,
+          "line_end": 5604,
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "quote": "| `DY DAIIN` | f11r, f81v, f82r | exact in ZL/IT/RF | shared D:Y-to-D:AIIN surface sequence; closure reading withdrawn |",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945",
+          "source_id": "LEGACY_COMPONENT:da6583aded189316c611",
+          "source_section": "Iteration 85 — master grammar versus hand-local phrasebook",
+          "table_header": "| formula | locations | reading stability | workshop interpretation |"
+        }
+      ]
+    },
+    {
+      "id": "SEM:e3783b7e58685de4b765",
+      "claim": "okey / qokey → set briefly; item remains active",
+      "card_basis": "fabad2623f2021180e11caf3a052fc2fa06035512205c9c200ea3fe1b06b7813",
+      "effective_basis": "be880920e1e5b6dc930b2c3c36a0339b96daf1e3dae3b9983274fbc8593a4889",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 19,
+          "line_end": 19,
+          "path": "experiments/yolo/sidequest_semantic_productive_paradigm_table_six_hundred_thirty_fifth/SIX_HUNDRED_THIRTY_FIFTH_REPORT.md",
+          "quote": "| `okey / qokey` | set briefly; item remains active |",
+          "sha256": "4c9b99fc964fd1e97b7424915fe9d66d2e60db1bafb42cd9944e13e3d9d4aead",
+          "source_id": "LEGACY_COMPONENT:db6db6223f7c57542d22",
+          "source_section": "1. `OK × E/EE/EEE × Y/DY`",
+          "table_header": "| Form | Reading |"
+        }
+      ]
+    }
+  ],
+  "scope_fixes": {
+    "local_spoken_value": [
+      7
+    ],
+    "shared_entry_dy_daiin_contrast": [
+      22,
+      24
+    ],
+    "rule": "Resolve exact whole-source propositions; neither synthetic provenance nor an existing quote alone establishes complete coverage. These are bounded source-case questions, not findings of independent novel theories."
+  },
+  "validation": {
+    "cards_validate": "PASS",
+    "known_selected_source_ids": 25,
+    "all_selected_primary_spans_read": 25,
+    "source_quotes_and_hashes": "PASS",
+    "approved_source_decisions": 22,
+    "source_scope_fixes": 3
+  },
+  "limits": [
+    "Only25 preselected spans and3 draft cards; no audit of excluded candidates or whole historical families.",
+    "No manuscript images/raw tables or new experiments.",
+    "No operational files changed; shared-entry contrast and E181 local interpretation remain prospective recovery decisions, not invented cards."
+  ]
+}

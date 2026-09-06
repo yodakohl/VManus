@@ -1,0 +1,489 @@
+{
+  "review_id": "CLEAN_GAP_PEER_DM",
+  "inputs": [
+    {
+      "path": "research_registry/decisions/clean_gap_review_dm.json",
+      "sha256": "ce7315982dff6b283751d726d461db58be37173b7c970a8792b9e9dc7d4c5256"
+    },
+    {
+      "path": "research_registry/decisions/source_coverage_gap_batch_dm.json",
+      "sha256": "d98ec5965e97823474af22c3943ac0bb5d57f5e0f032d1ec1565c1dbc08ea81e"
+    }
+  ],
+  "card_reviews": [
+    {
+      "card_id": "CLEAN_GAP_DM:local_chetchy_grade_rival",
+      "decision": "approve",
+      "reason": "Exact f37v.8 nominal catalog reading, chetchy carrier and GradIII/MengeIII rival are all explicit. The GDT625 different-locus plant-part card does not address this full local dependency. Do not treat nominal-role inheritance as independent quality gold.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt641_strict_tch_bound_form_completion/REPORT.md",
+          "line": 29,
+          "line_end": 39,
+          "quote": "f37v.8:\n\n```text\nqotor choiin chetchy daiin\nkalte Drogenportion; Trockenpräparat, Form III;\ngetrocknete Droge, kalt-trocken, Grundform; Grad III.\n```\n\nDas sind Katalog-/Arzneizellen, keine erfundenen Handlungsanweisungen. Beim\nletzten `daiin` bleibt Menge III der Rivale; die Primärlesung Grad III folgt\nhier dem unmittelbar vorausgehenden Qualitäts-/Formträger `chetchy`.",
+          "sha256": "d7496b7d35e5c4e8ae6bb322cf16b0c810c86f4653f4af72fa61203b768d0f4c"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "card_id": "CLEAN_GAP_DM:otal_nominal_cold_raw_material",
+      "decision": "approve",
+      "reason": "Exact otal nominal cold-raw-material FormI value is explicit and the source gives standalone-use motivation. Existing thereafter-target and generic preparation readings are different scoped whole assertions, not full counterparts. The source inference is a working-model rationale.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt644_downstream_five_surface_completion/REPORT.md",
+          "line": 24,
+          "line_end": 36,
+          "quote": "### `otal`: der fehlende kalte Rohstoffansatz\n\n`otal` ist kein kompliziertes gelerntes Einzelwort. Es füllt ein vollständiges\nO/QO×K/T×AL/AR-Raster:\n\n| Rahmen | heißer Rohstoff | heiße Fraktion | kalter Rohstoff | kalte Fraktion |\n|---|---|---|---|---|\n| O | `okal` 123 | `okar` 119 | `otal` 119 | `otar` 123 |\n| QO | `qokal` 180 | `qokar` 153 | `qotal` 57 | `qotar` 61 |\n\nDie Form steht einmal selbständig auf f99v.27 und braucht daher einen\nnominalen Gesamtwert. **Ansatz aus kaltem Rohstoff, Form I** hält `o`, `t` und\n`al` sichtbar. Eine bloße Lesung „kalt“ würde zwei Slots wegwerfen.",
+          "sha256": "450a90c388a8431d4e3be0d0b279e91052dbbfcacdede2a0b3cf468b99334407"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "card_id": "CLEAN_GAP_DM:tcheey_grade_end",
+      "decision": "approve",
+      "reason": "Complete tcheey value and nonexportable t+ch+ee+y analysis match GDT646. The six-reader-stable positions do not prove the gloss; current bounded whole-claim search contains no exact same-form value counterpart.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt646_tcheey_surface_completion/REPORT.md",
+          "line": 5,
+          "line_end": 7,
+          "quote": "`tcheey` erhält in V23 die ersetzbare Ganzwortlesung\n**kalt und trocken am Ende des Grades**. Die Arbeitszerlegung lautet\n`t+ch+ee+y`, aber kein Teil davon wird als freies Wort befördert.",
+          "sha256": "dcab4d6c525ef7db7f642cc0ce65c930be1800a6011124e02531884ce7793d06"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "card_id": "CLEAN_GAP_DM:quality_head_bound_grade_axis",
+      "decision": "approve_with_scope_addition",
+      "reason": "The six ending values and preparation/temperature/moisture fields are correct, but the complete operational domain needs the source three-template universe and explicit exclusions. Visible quality alone can otherwise suggest a larger domain than the107registered forms.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt647_quality_subdegree_family_migration/REPORT.md",
+          "line": 5,
+          "line_end": 23,
+          "quote": "Die GDT646-Lesung trägt weit über `tcheey` hinaus. V24 kennt jetzt **107\nbeobachtete Ganzformen** mit einer konkreten Qualitätsposition innerhalb eines\nGrades. Zusammen stehen sie **5.664-mal auf 178 der 179 freigegebenen Seiten**.\n102 Formen besitzen mindestens einen exakten ZL3b/IT2a/RF1b-Ganzwortanker;\nfünf seltene Formen bleiben sichtbar als Leserwarnungen.\n\nDie Arbeitsachse lautet:\n\n```text\ny      am Anfang des Grades\ney     in der Mitte des Grades\neey    am Ende des Grades\ndy     am Anfang des Grades, abgeschlossen\nedy    in der Mitte des Grades, abgeschlossen\needy   am Ende des Grades, abgeschlossen\n```\n\nSie gilt in GDT647 ausschließlich für vollständige Wörter mit sichtbarem\nQualitätskopf. Beispiele:",
+          "sha256": "6d139a35b41546a5e8bc4a49b83e3d6367d91d04245eeb848f0ce0d0f2bc905d"
+        },
+        {
+          "path": "experiments/yolo/gdt647_quality_subdegree_family_migration/REPORT.md",
+          "line": 34,
+          "line_end": 38,
+          "quote": "`qo` wird nicht als deutsches Pseudowort ausgesprochen; es bleibt im\nKompositionsfeld gebunden. Ein initiales `o` unterscheidet dagegen die\nAnsatzformen. In der Temperaturfamilie bezeichnet `k/t` heiß/kalt, in der\nFeuchtefamilie `ch/sh` trocken/feucht. Das sind weiterhin Analysefelder\ngelernter Ganzwörter, keine freigesetzten Voynich-Wörter.",
+          "sha256": "6d139a35b41546a5e8bc4a49b83e3d6367d91d04245eeb848f0ce0d0f2bc905d"
+        }
+      ],
+      "required_corrections": [
+        {
+          "field": "scope",
+          "addition": "Restrict to A=(empty|o|qo)+(k|t)+(ch|sh)+S, B=(ch|sh)+S, C=(k|t|ok|ot|qok|qot)+S, S=y/ey/eey/dy/edy/eedy;107/120observed. Thirteen absent cells remain HOLD/no gloss. Naked CTH/material forms, reordered choky/chokchy, qokeeedy, keechy, initial-y forms and separate aN/oiin/air/al/ol/or ladders remain unchanged."
+        }
+      ],
+      "additional_primary_evidence": [
+        {
+          "path": "experiments/yolo/gdt647_quality_subdegree_family_migration/REPORT.md",
+          "line": 40,
+          "line_end": 61,
+          "quote": "## Warum die enge Migration besser ist als ein globales `-y`\n\nEine erste breite Inventur hätte auch `ly`, `soysar`, nackte CTH-Wörter und\np/s/r/l-Materialformen zu „Gradanfang“ umgedeutet. Die Passagen wurden dadurch\nschlechter: Bei einem bloßen Materialnamen ist nicht sichtbar, wessen Grad\ngemeint sein soll. GDT647 verwirft diese Ausweitung.\n\nDas zugelassene Universum ist stattdessen vollständig vorgegeben:\n\n```text\nA  (leer|o|qo)+(k|t)+(ch|sh)+S     61/72 beobachtet\nB  (ch|sh)+S                       12/12 beobachtet\nC  (k|t|ok|ot|qok|qot)+S          34/36 beobachtet\nS  y, ey, eey, dy, edy, eedy\n```\n\nDamit sind 107 von 120 Zellen real. Die 13 Nullzellen bleiben im HOLD-Deck und\nerhalten keinen Glossareintrag. Ebenfalls unverändert bleiben nackte CTH- und\nMaterialformen, umgestellte Wörter wie `choky/chokchy`, `qokeeedy`, `keechy`,\ninitiale y-Formen sowie die getrennten Leitern `aN`, `oiin`, `air`, `al`, `ol`\nund `or`.\n",
+          "sha256": "6d139a35b41546a5e8bc4a49b83e3d6367d91d04245eeb848f0ce0d0f2bc905d"
+        }
+      ],
+      "suggested_visible_claim_addition": "The scope is the report’s three explicitly enumerated templates, not every quality-bearing form; its listed reordered, initial-y, naked-material/CTH and longer-e exceptions remain outside."
+    },
+    {
+      "card_id": "CLEAN_GAP_DM:measured_fraction_three_step_family",
+      "decision": "approve",
+      "reason": "Complete dar/dair/daiir measurement-head plus three-step fraction ladder is explicit. The CHAR/DAR/SAR source-direction family is not that proposition. These are linked whole-form working values, not independently calibrated measures.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt649_strict_v25_hole_completion/REPORT.md",
+          "line": 39,
+          "line_end": 53,
+          "quote": "## `dar/dair/daiir`: erstmals eine große offene Leiter geschlossen\n\nDie drei Formen kommen 245/77/14-mal vor. Acht identische Nachbarrahmen\ntauschen mindestens zwei Stufen; sechs Zeilen enthalten `dar` und `dair`\ngemeinsam. Die kurze Komposition ist:\n\n```text\nd + ar    abgemessene Fraktion I\nd + air   abgemessene Fraktion II\nd + aiir  abgemessene Fraktion III\n```\n\nDamit werden nicht drei unabhängige Wörter erfunden. Ein Maßkopf verbindet\nsich mit einer schon vorhandenen Dreistufenleiter und sagt die Bedeutung der\nSchwesterformen voraus.",
+          "sha256": "a33e1f0ec8a47ddffba77f3d35a060d0fd79c2a3ecda9f00fc17d0c8433caafe"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "card_id": "CLEAN_GAP_DM:cholor_dry_ingredient_rival",
+      "decision": "approve",
+      "reason": "CHOL+OR versus earlier CH+OLOR and ingredient versus dry-portion readings are explicit. The boundary evidence motivates parsing within the source; it does not identify ingredients independently. Current continuation and prior-stock-withdrawal cards are not this full rival pair.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt650_v26_strict_family_completion/REPORT.md",
+          "line": 35,
+          "line_end": 45,
+          "quote": "## CHOLOR: die Zerlegung wurde korrigiert\n\nDie anfängliche Möglichkeit CH+OLOR ist schlechter als der tatsächlich\nsichtbare Parse:\n\n    CHOL + OR  →  CHOLOR\n\nVier Stellen zeigen in allen drei Lesern getrenntes CHOL OR: f10r.3, f17r.3,\nf24v.9 und f39r.4. Dazu kommen OL OR ↔ OLOR auf f49r.6 und\nSHOLOR ↔ SHOL OR auf f86v3.22. Die Werkstattglosse trockene Zutat ist damit\nbrauchbar; der formnähere Rivale bleibt Anteil oder Portion Trockengut.",
+          "sha256": "5555267980a648d017ba1b4f56d5ff0306d6e7d046aa14b88bb826d0c5af5846"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "card_id": "CLEAN_GAP_DM:sodal_seed_item_rival",
+      "decision": "approve",
+      "reason": "S+ODAL preference, both reader/boundary uncertainties and Saat-Rohstoffmaß rival are accurately preserved. The earlier GDT639 unexecuted default is a related hypothesis, not the same later scoped parse/reading choice.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt653_strict_v29_boundary_compounds/REPORT.md",
+          "line": 58,
+          "line_end": 61,
+          "quote": "Bei `sodal` zeigt f93r.11 IT2a `sodal`, RF1b `s odal` und ZL3b den L/M-Rivalen\n`s odam`; f116r.50 hat zusätzlich `sodal` gegen RF1b `s dal`. Das bevorzugt\nS+ODAL, aber nicht ohne Warnung. Die Werkstattlesung ist `Ansatz aus einem\nSaatdrogenposten`, der stärkste Rivale `Saat-Rohstoffmaß`.",
+          "sha256": "a9ddf3fa023f458c06e0dcbb29a3d3ab5fad9ea58454cf2d82ddbaeaa91e32c8"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "card_id": "CLEAN_GAP_DM:qokar_qokor_fraction_portion_revision",
+      "decision": "approve",
+      "reason": "The paired qokar/qokor fraction-versus-portion revision accurately records V31 replacing the undifferentiated value. Cooccurrence and sister contrasts motivate the author but do not force German fraction/portion meanings or empirically refute synonymy.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt654_ar_or_surface_consolidation/REPORT.md",
+          "line": 41,
+          "line_end": 55,
+          "quote": "## Warum `qokar = heiße Portion` fallen muss\n\nDer alte V30-Wert gab sowohl dem AR- als auch dem OR-Zweig dieselbe Bedeutung.\nV31 beseitigt diesen Fehler, weil das erwartete Gegenstück wirklich vorhanden\nist:\n\n```text\nqokar   153 Vorkommen   QO + heiß + AR   heiße Drogenfraktion I\nqokor    29 Vorkommen   QO + heiß + OR   heiße Drogenportion\n```\n\nBeide Formen stehen sogar auf zwei Zeilen nebeneinander. Dasselbe Paarmuster\nkehrt als `okar/okor`, `otar/otor` und `qotar/qotor` wieder. `ar` und `or`\nselbst koexistieren auf 48 Zeilen. „Alles bedeutet Portion“ würde diese\nsichtbaren Kontraste vernichten; Fraktion gegen Portion erhält sie.",
+          "sha256": "ab9581f972c7007cbda02be1a999ddea9187833e6689d3e0fa04effbf1370fbe"
+        }
+      ],
+      "required_corrections": []
+    },
+    {
+      "card_id": "CLEAN_GAP_DM:dal_quality_shell_grade_revision",
+      "decision": "approve_with_scope_addition",
+      "reason": "The four dry/moist measured-raw-material shells and E-position reinterpretation are exact. Preserve also the expressly surviving learned DAL whole-word rival and the missing internal D/AL boundary evidence, which constrain the compositional account.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt655_dal_al_measured_material_completion/REPORT.md",
+          "line": 37,
+          "line_end": 45,
+          "quote": "Die beobachteten Schalen bleiben kurz und verwenden dieselbe Qualitätsachse\nwie die schon gelesenen `chy/chey`- und `shy/shey`-Paare. Null E markiert die\nAnfangsposition, ein E die Mitte; die alte Zusatzdeutung „gebunden“ oder\n„angefeuchtet“ wird hier nicht weitergetragen:\n\n- `chdal` — trockene abgemessene Rohstoffmenge I am Gradanfang;\n- `chedal` — trockene abgemessene Rohstoffmenge I in der Gradmitte;\n- `shdal` — feuchte abgemessene Rohstoffmenge I am Gradanfang;\n- `shedal` — feuchte abgemessene Rohstoffmenge I in der Gradmitte;",
+          "sha256": "83f6cc72cea3b5f12abed2e2c916edfab3c4c0eb1028f090e468a1a7900fee50"
+        }
+      ],
+      "required_corrections": [
+        {
+          "field": "claim_or_explicit_scope_rivals",
+          "addition": "The learned whole-word DAL=Rohdrogenposten remains the strongest rival; AL=RohstoffformI also remains possible. There is no direct d al↔dal or a l↔al boundary in the source corpus, so D_MEASURE and AL_CLASS_I remain internal analytical tags, not free word meanings."
+        }
+      ],
+      "additional_primary_evidence": [
+        {
+          "path": "experiments/yolo/gdt655_dal_al_measured_material_completion/REPORT.md",
+          "line": 85,
+          "line_end": 93,
+          "quote": "## Sichtbare Grenzen — und die fehlende Grenze\n\nAL ist als rechter Block in `s al`, `r al`, `ch al` und `or al` sichtbar.\nDAL wird nach außen dreimal durch `daldy ↔ dal dy/dal y` abgegrenzt; `sodal ↔\ns odal` zeigt zusätzlich die äußere S+ODAL-Struktur.\n\nEs gibt aber in den 4.137 zugelassenen Zeilen kein direktes `d al ↔ dal` und\nkein `a l ↔ al`. Darum bleiben `D_MEASURE` und `AL_CLASS_I` interne\nStrukturtags, keine frei übersetzbaren Voynich-Wörter. Der stärkste Rivale",
+          "sha256": "83f6cc72cea3b5f12abed2e2c916edfab3c4c0eb1028f090e468a1a7900fee50"
+        }
+      ]
+    }
+  ],
+  "source_disposition_reviews": [
+    {
+      "source_id": "LEGACY_COMPONENT:69ea9130b41a098dbe99",
+      "selection_index": 0,
+      "decision": "approve_source_assessment",
+      "reason": "The earlier GDT625 chetchy plant-part entry concerns another locus and does not state this local grade-versus-quantity dependency.",
+      "original_decision": "candidate_complete_proposition_recovered",
+      "card_ids": [
+        "CLEAN_GAP_DM:local_chetchy_grade_rival"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt641_strict_tch_bound_form_completion/REPORT.md",
+          "line": 29,
+          "line_end": 39,
+          "quote": "f37v.8:\n\n```text\nqotor choiin chetchy daiin\nkalte Drogenportion; Trockenpräparat, Form III;\ngetrocknete Droge, kalt-trocken, Grundform; Grad III.\n```\n\nDas sind Katalog-/Arzneizellen, keine erfundenen Handlungsanweisungen. Beim\nletzten `daiin` bleibt Menge III der Rivale; die Primärlesung Grad III folgt\nhier dem unmittelbar vorausgehenden Qualitäts-/Formträger `chetchy`.",
+          "sha256": "d7496b7d35e5c4e8ae6bb322cf16b0c810c86f4653f4af72fa61203b768d0f4c"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:cb6bc0982395d9067d3a",
+      "selection_index": 1,
+      "decision": "approve_source_assessment",
+      "reason": "Selected63–67 gives coverage/reader accounting plus author assertions against positional-marker/plant-name interpretations. Its positive dry-drug-material value is already a card. No tested concrete alternative is specified here; do not turn distribution-based exclusion into an empirically refuted lexical rival. The broader physical-dried versus humoral-dry issue in69–75 is adjacent context, not completed by this disposition.",
+      "original_decision": "source_status_and_scope_limit_no_new_card",
+      "card_ids": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt642_exact_e_ol_or_carrier_completion/REPORT.md",
+          "line": 63,
+          "line_end": 67,
+          "quote": "`cheol` erscheint 142-mal auf 71 Seiten und in allen traditionellen\nAbschnittsklassen; es ist weder ein Positionsmarker noch ein Pflanzenname.\n118 Vorkommen sind in allen drei Lesungen tokenexakt, ein weiteres bleibt nach\nreiner Grenzzusammenziehung erhalten. Die feste V18-Prüfung ergibt 80 konkret\nkompatible, 38 opake und 24 Lesungswarnungen.",
+          "sha256": "fc3cc8f5d7e00482771725e4ef5acc4ea0f3e4c1f997b18f7d1649fc6f7be1e2"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:7410d7c2dac24f9bf185",
+      "selection_index": 2,
+      "decision": "approve_source_assessment",
+      "reason": "The selected paragraph reports rendering, known-context compatibility and warnings; it explicitly does not establish historical German plaintext. The neighboring five-value table is context, not a new conjunctive model asserted by this validation paragraph.",
+      "original_decision": "method_and_validation_limit_no_new_card",
+      "card_ids": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt643_exposed_five_hole_completion/REPORT.md",
+          "line": 17,
+          "line_end": 23,
+          "quote": "Alle 68 Vorkommen wurden gerendert. Gegen den unveränderten V19-Kontext haben\n23 Stellen mindestens zwei saubere bereits gelesene Begleiter; 27 exakte\nStellen bleiben wegen offener oder leserinstabiler Umgebung neutral. Weitere\n17 sind Lesungswarnungen und `soysar` ist genau einmal nur über die sichtbare\nGrenze stabil. Es wurde keine manuelle harte Bedeutungsunvereinbarkeit\nregistriert. Das ist eine brauchbare Arbeitsbasis, keine Behauptung, dass die\ndeutschen Wörter bereits historischer Klartext seien.",
+          "sha256": "185e56107d86d15b01bbcc72b83a27b7715493160e7b4dd118bbc1431bebae5d"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:e07d8cadc419f03cfb7b",
+      "selection_index": 3,
+      "decision": "approve_source_assessment",
+      "reason": "The workshop direction card has another meaning/domain; the generic later preparation entry does not express this cold raw-material/form-I whole value.",
+      "original_decision": "candidate_complete_proposition_recovered",
+      "card_ids": [
+        "CLEAN_GAP_DM:otal_nominal_cold_raw_material"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt644_downstream_five_surface_completion/REPORT.md",
+          "line": 24,
+          "line_end": 36,
+          "quote": "### `otal`: der fehlende kalte Rohstoffansatz\n\n`otal` ist kein kompliziertes gelerntes Einzelwort. Es füllt ein vollständiges\nO/QO×K/T×AL/AR-Raster:\n\n| Rahmen | heißer Rohstoff | heiße Fraktion | kalter Rohstoff | kalte Fraktion |\n|---|---|---|---|---|\n| O | `okal` 123 | `okar` 119 | `otal` 119 | `otar` 123 |\n| QO | `qokal` 180 | `qokar` 153 | `qotal` 57 | `qotar` 61 |\n\nDie Form steht einmal selbständig auf f99v.27 und braucht daher einen\nnominalen Gesamtwert. **Ansatz aus kaltem Rohstoff, Form I** hält `o`, `t` und\n`al` sichtbar. Eine bloße Lesung „kalt“ würde zwei Slots wegwerfen.",
+          "sha256": "450a90c388a8431d4e3be0d0b279e91052dbbfcacdede2a0b3cf468b99334407"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:7a7da43340f82724154f",
+      "selection_index": 4,
+      "decision": "approve_source_assessment",
+      "reason": "The introductory promise is instantiated immediately by five table rows. All five complete values have exact active counterparts. The fact they were selected together is a frontier procedure, not an additional substantive relation among their meanings.",
+      "original_decision": "existing_five_whole_values_no_extra_list_model",
+      "card_ids": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt645_ranked_five_surface_completion/REPORT.md",
+          "line": 5,
+          "line_end": 6,
+          "quote": "Die fünf stärksten Löcher der V21-Front erhalten kurze Sachlesungen, deren\ninnere Felder mit den bereits beobachteten Rastern übereinstimmen:",
+          "sha256": "fa6a0bb9a3c31581aad46dd0cbeb29f88970ac9cb3abd2d4ca44b2eded1c9404"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:49606dc62c125d3c8bdf",
+      "selection_index": 5,
+      "decision": "approve_source_assessment",
+      "reason": "No active claim naming tcheey was located in the current whole-claim scan; source-bound646 card scan also found no complete counterpart. Global historical equivalence is not asserted absent.",
+      "original_decision": "candidate_complete_proposition_recovered",
+      "card_ids": [
+        "CLEAN_GAP_DM:tcheey_grade_end"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt646_tcheey_surface_completion/REPORT.md",
+          "line": 5,
+          "line_end": 7,
+          "quote": "`tcheey` erhält in V23 die ersetzbare Ganzwortlesung\n**kalt und trocken am Ende des Grades**. Die Arbeitszerlegung lautet\n`t+ch+ee+y`, aber kein Teil davon wird als freies Wort befördert.",
+          "sha256": "dcab4d6c525ef7db7f642cc0ce65c930be1800a6011124e02531884ce7793d06"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:d914617c1614c30d2539",
+      "selection_index": 6,
+      "decision": "approve_source_assessment",
+      "reason": "No active card tied to GDT647 was found. Individual quality or degree glosses do not constitute the whole restricted migration rule. A wider unrestricted suffix interpretation is not silently equated with it.",
+      "original_decision": "candidate_complete_proposition_recovered",
+      "card_ids": [
+        "CLEAN_GAP_DM:quality_head_bound_grade_axis"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt647_quality_subdegree_family_migration/REPORT.md",
+          "line": 5,
+          "line_end": 23,
+          "quote": "Die GDT646-Lesung trägt weit über `tcheey` hinaus. V24 kennt jetzt **107\nbeobachtete Ganzformen** mit einer konkreten Qualitätsposition innerhalb eines\nGrades. Zusammen stehen sie **5.664-mal auf 178 der 179 freigegebenen Seiten**.\n102 Formen besitzen mindestens einen exakten ZL3b/IT2a/RF1b-Ganzwortanker;\nfünf seltene Formen bleiben sichtbar als Leserwarnungen.\n\nDie Arbeitsachse lautet:\n\n```text\ny      am Anfang des Grades\ney     in der Mitte des Grades\neey    am Ende des Grades\ndy     am Anfang des Grades, abgeschlossen\nedy    in der Mitte des Grades, abgeschlossen\needy   am Ende des Grades, abgeschlossen\n```\n\nSie gilt in GDT647 ausschließlich für vollständige Wörter mit sichtbarem\nQualitätskopf. Beispiele:",
+          "sha256": "6d139a35b41546a5e8bc4a49b83e3d6367d91d04245eeb848f0ce0d0f2bc905d"
+        },
+        {
+          "path": "experiments/yolo/gdt647_quality_subdegree_family_migration/REPORT.md",
+          "line": 34,
+          "line_end": 38,
+          "quote": "`qo` wird nicht als deutsches Pseudowort ausgesprochen; es bleibt im\nKompositionsfeld gebunden. Ein initiales `o` unterscheidet dagegen die\nAnsatzformen. In der Temperaturfamilie bezeichnet `k/t` heiß/kalt, in der\nFeuchtefamilie `ch/sh` trocken/feucht. Das sind weiterhin Analysefelder\ngelernter Ganzwörter, keine freigesetzten Voynich-Wörter.",
+          "sha256": "6d139a35b41546a5e8bc4a49b83e3d6367d91d04245eeb848f0ce0d0f2bc905d"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:290be89820f50ff1d683",
+      "selection_index": 7,
+      "decision": "approve_source_assessment",
+      "reason": "Selected18–22 is event/reader/neighbor coverage and author-recorded absence of collision against an inherited reading. It does not propose a further meaning, furnish independent gold or prove the seven preceding meanings.",
+      "original_decision": "method_and_validation_limit_no_new_card",
+      "card_ids": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/REPORT.md",
+          "line": 18,
+          "line_end": 22,
+          "quote": "Zusammen betreffen die Karten 213 Tokenpositionen. 184 bleiben in ZL3b, IT2a\nund RF1b exakt; die 29 übrigen Leserabweichungen stehen einzeln im Artefakt.\n136 Vorkommen besitzen mindestens zwei bereits sauber gelesene Begleiter,\n48 liegen in kurzen oder noch weitgehend offenen Zeilen. In der vollständigen\nVorkommensschau wurde keine harte lokale Bedeutungskollision registriert.",
+          "sha256": "86faa123f0f26671e5815e4bd63db78dca3047c4947959805260853f18c8761f"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:116af3bcf126049a920f",
+      "selection_index": 8,
+      "decision": "approve_source_assessment",
+      "reason": "The historical CHAR/DAR/SAR source-direction family has a different unit/domain and does not encode this measured-fraction ladder. Exact whole-claim/source scans did not locate its complete three-member contract.",
+      "original_decision": "candidate_complete_proposition_recovered",
+      "card_ids": [
+        "CLEAN_GAP_DM:measured_fraction_three_step_family"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt649_strict_v25_hole_completion/REPORT.md",
+          "line": 39,
+          "line_end": 53,
+          "quote": "## `dar/dair/daiir`: erstmals eine große offene Leiter geschlossen\n\nDie drei Formen kommen 245/77/14-mal vor. Acht identische Nachbarrahmen\ntauschen mindestens zwei Stufen; sechs Zeilen enthalten `dar` und `dair`\ngemeinsam. Die kurze Komposition ist:\n\n```text\nd + ar    abgemessene Fraktion I\nd + air   abgemessene Fraktion II\nd + aiir  abgemessene Fraktion III\n```\n\nDamit werden nicht drei unabhängige Wörter erfunden. Ein Maßkopf verbindet\nsich mit einer schon vorhandenen Dreistufenleiter und sagt die Bedeutung der\nSchwesterformen voraus.",
+          "sha256": "a33e1f0ec8a47ddffba77f3d35a060d0fd79c2a3ecda9f00fc17d0c8433caafe"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:ca0c56dd5619c8db9666",
+      "selection_index": 9,
+      "decision": "approve_source_assessment",
+      "reason": "The active continuation and withdrawal-from-previous-preparation CHOLOR cards preserve different historical assertions; neither states this ingredient-versus-dry-portion rival pair.",
+      "original_decision": "candidate_complete_proposition_recovered",
+      "card_ids": [
+        "CLEAN_GAP_DM:cholor_dry_ingredient_rival"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt650_v26_strict_family_completion/REPORT.md",
+          "line": 35,
+          "line_end": 45,
+          "quote": "## CHOLOR: die Zerlegung wurde korrigiert\n\nDie anfängliche Möglichkeit CH+OLOR ist schlechter als der tatsächlich\nsichtbare Parse:\n\n    CHOL + OR  →  CHOLOR\n\nVier Stellen zeigen in allen drei Lesern getrenntes CHOL OR: f10r.3, f17r.3,\nf24v.9 und f39r.4. Dazu kommen OL OR ↔ OLOR auf f49r.6 und\nSHOLOR ↔ SHOL OR auf f86v3.22. Die Werkstattglosse trockene Zutat ist damit\nbrauchbar; der formnähere Rivale bleibt Anteil oder Portion Trockengut.",
+          "sha256": "5555267980a648d017ba1b4f56d5ff0306d6e7d046aa14b88bb826d0c5af5846"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:c2e5607ec50d995f2075",
+      "selection_index": 10,
+      "decision": "approve_source_assessment",
+      "reason": "The paragraph explicitly withholds meanings from two unanchored observed cells and seven absent cells. These are source eligibility limits, not nine rejected meanings or ideas to synthesize.",
+      "original_decision": "source_capacity_and_nonassignment_no_new_card",
+      "card_ids": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt651_ckh_four_shell_family_migration/REPORT.md",
+          "line": 41,
+          "line_end": 44,
+          "quote": "17 der 24 Rasterzellen sind beobachtet; 15 besitzen mindestens einen\ndreileser-exakten Anker. CHECKHEDY und SHECKHDY sind zwar beobachtet, aber ohne\nexakten Zielbeleg und bleiben draußen. Sieben weitere Zellen fehlen ganz und\nerhalten keine Bedeutung.",
+          "sha256": "d5a3c447ed292d9a5f3fca426df89280f23c66c41a6b12836444767055cc6660"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:3d7903685014a453155e",
+      "selection_index": 11,
+      "decision": "approve_source_assessment",
+      "reason": "Selected97–100 records the held sheokedy cell and absent cells receiving no meaning. It is not a positive lexical assignment; no new card is inferred from the missing cells or authored admission counts.",
+      "original_decision": "source_capacity_and_nonassignment_no_new_card",
+      "card_ids": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt652_strict_v28_frontier_completion/REPORT.md",
+          "line": 97,
+          "line_end": 100,
+          "quote": "Von den 16 tatsächlich beobachteten Zellen dieses qualifizierten Feldes waren\n15 exakt verankert; `choky` war bereits bekannt, 14 werden hier ergänzt.\n`sheokedy` bleibt als einzige beobachtete Null-Exakt-Zelle im HOLD. Weitere\nacht Rasterzellen sind nicht geschrieben und erhalten keine Bedeutung.",
+          "sha256": "c5c991f33400c83136ce928286976829f7627af6031d80576aefb1c1df0a6ef9"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:82282a0ed871579a2d16",
+      "selection_index": 12,
+      "decision": "approve_source_assessment",
+      "reason": "GDT639’s earlier unexecuted Saatgutzubereitung, Rohstoffmaß default is related but does not assert this later S+ODAL preference and explicit rival/status contract.",
+      "original_decision": "candidate_complete_proposition_recovered",
+      "card_ids": [
+        "CLEAN_GAP_DM:sodal_seed_item_rival"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt653_strict_v29_boundary_compounds/REPORT.md",
+          "line": 58,
+          "line_end": 61,
+          "quote": "Bei `sodal` zeigt f93r.11 IT2a `sodal`, RF1b `s odal` und ZL3b den L/M-Rivalen\n`s odam`; f116r.50 hat zusätzlich `sodal` gegen RF1b `s dal`. Das bevorzugt\nS+ODAL, aber nicht ohne Warnung. Die Werkstattlesung ist `Ansatz aus einem\nSaatdrogenposten`, der stärkste Rivale `Saat-Rohstoffmaß`.",
+          "sha256": "a9ddf3fa023f458c06e0dcbb29a3d3ab5fad9ea58454cf2d82ddbaeaa91e32c8"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:95b7771640d775c9cbf7",
+      "selection_index": 13,
+      "decision": "approve_source_assessment",
+      "reason": "The active hot-share or hot-field alternatives do not state this complete paired revision. A formal difference alone does not falsify synonymy or empirically prove fraction versus portion.",
+      "original_decision": "candidate_complete_proposition_recovered",
+      "card_ids": [
+        "CLEAN_GAP_DM:qokar_qokor_fraction_portion_revision"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt654_ar_or_surface_consolidation/REPORT.md",
+          "line": 41,
+          "line_end": 55,
+          "quote": "## Warum `qokar = heiße Portion` fallen muss\n\nDer alte V30-Wert gab sowohl dem AR- als auch dem OR-Zweig dieselbe Bedeutung.\nV31 beseitigt diesen Fehler, weil das erwartete Gegenstück wirklich vorhanden\nist:\n\n```text\nqokar   153 Vorkommen   QO + heiß + AR   heiße Drogenfraktion I\nqokor    29 Vorkommen   QO + heiß + OR   heiße Drogenportion\n```\n\nBeide Formen stehen sogar auf zwei Zeilen nebeneinander. Dasselbe Paarmuster\nkehrt als `okar/okor`, `otar/otor` und `qotar/qotor` wieder. `ar` und `or`\nselbst koexistieren auf 48 Zeilen. „Alles bedeutet Portion“ würde diese\nsichtbaren Kontraste vernichten; Fraktion gegen Portion erhält sie.",
+          "sha256": "ab9581f972c7007cbda02be1a999ddea9187833e6689d3e0fa04effbf1370fbe"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:9694db072ec058a6bc2f",
+      "selection_index": 14,
+      "decision": "approve_source_assessment",
+      "reason": "The single chedal middle-level card supplies one matching component value, while the old DAL label has a different scope. Neither addresses the complete four-form opposition and explicit retirement of binding/moistening in this family.",
+      "original_decision": "candidate_complete_proposition_recovered",
+      "card_ids": [
+        "CLEAN_GAP_DM:dal_quality_shell_grade_revision"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt655_dal_al_measured_material_completion/REPORT.md",
+          "line": 37,
+          "line_end": 45,
+          "quote": "Die beobachteten Schalen bleiben kurz und verwenden dieselbe Qualitätsachse\nwie die schon gelesenen `chy/chey`- und `shy/shey`-Paare. Null E markiert die\nAnfangsposition, ein E die Mitte; die alte Zusatzdeutung „gebunden“ oder\n„angefeuchtet“ wird hier nicht weitergetragen:\n\n- `chdal` — trockene abgemessene Rohstoffmenge I am Gradanfang;\n- `chedal` — trockene abgemessene Rohstoffmenge I in der Gradmitte;\n- `shdal` — feuchte abgemessene Rohstoffmenge I am Gradanfang;\n- `shedal` — feuchte abgemessene Rohstoffmenge I in der Gradmitte;",
+          "sha256": "83f6cc72cea3b5f12abed2e2c916edfab3c4c0eb1028f090e468a1a7900fee50"
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "cards_reviewed": 9,
+    "approve_without_change": 7,
+    "approve_with_scope_addition": 2,
+    "source_spans_reviewed": 15,
+    "empirical_meaning_refutations": 0
+  },
+  "existing_counterpart_check": {
+    "gdt645_five_values": "The five table values exactly match active SEM:2e6c4dceeaa8d1d0612b, SEM:ad16b0c0f934175b12c8, SEM:efbc597c7192afd33859, SEM:dcbdfb4bf35bd10d8f14 and SEM:da6c85d0baf2779e38e3; audit-only is correct, no added source case or sixth list-model needed.",
+    "other_nine": "Named current full claims and their source cases were compared; none supplies the complete recovered claim plus its specified local/revision scope. This is a bounded comparison, not exhaustive global nonidentity."
+  },
+  "limits": [
+    "Scope additions preserve existing historical meanings, not a new theory or gate relaxation.",
+    "Author-recorded distributional compatibility, internal score/reader stability and family consistency are not independent meaning tests.",
+    "Source nonassignments and absent cells remain source limits, not invented missing-word hypotheses.",
+    "No operative cards, corrections, raw data, images or experiments changed."
+  ],
+  "validation": {
+    "nine_cards_exact_validated": true,
+    "fifteen_selected_evidence_spans_exact_validated": true
+  }
+}

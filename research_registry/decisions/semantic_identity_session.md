@@ -223,3 +223,22 @@ groups reduce55displayvariants,35otherrelations unchanged.32scoped dossiers
 and9conditional questions validate.158repository unittest cases and9DH
 pytest regressions PASS, plus13real receipt comparisons. More source recovery
 DK/DM and scoped historical reason DL continue independently; no experiment.
+
+DK–DP decision: source completeness still requires exact local assignments,
+explicit family-template exclusions and retained whole-word rivals. Resolve
+three DK scope findings, two DM scope qualifications, two historical DL reason
+dossiers and the DN type boundary. Pure ordering over preset roles remains
+formal; continuation or interruption of interpreted content is functional.
+The earlier DE335 type expansion is corrected append-only, not overwritten.
+Smallest adequate test is source/case/basis validation and existing regression
+checks plus independent source peers. Budget25minutes including publication;
+no new decipherment experiment or source-corpus expansion. DO identities are
+a separate bounded comparison and require their independent peer first.
+
+DK–DP/DO checkpoint:4531sourcecases,3743semantic265formalvariants;48groups
+reduce57displayvariants,36otherrelations. Four type corrections yield181
+restatements;47extraction archives remain.34scoped dossiers and9conditional
+questions validate.158repository tests and all source/operational audits PASS.
+DO completed after the first build, so its separate material ledger row
+received one additional metadata refresh; neither refresh read raw events.
+DQ/DR/DS and the exact GDT663 follow-up DT remain independent pending work.

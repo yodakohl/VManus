@@ -1,0 +1,237 @@
+{
+  "review_id": "SEMANTIC_SOURCE_POLARITY_DL_INTEGRATED",
+  "inputs": [
+    {
+      "path": "research_registry/decisions/semantic_source_polarity_review_dl.json",
+      "sha256": "d00df98721006de67bff1d6d869372c38d4759ba95fb086521d5a39e6743a491"
+    },
+    {
+      "path": "research_registry/decisions/semantic_source_polarity_peer_dl.json",
+      "sha256": "c51c4189a4d0dae99ca62be495561559ccc319168567b0428a2889097ed9c9fe"
+    }
+  ],
+  "dossiers": [
+    {
+      "id": "FAILURE_DL:H4_COOLING_HANDOFF:v1",
+      "decision_key": "FAILURE_DL:H4_COOLING_HANDOFF",
+      "previous_revision": null,
+      "status": "reviewed_scoped_context",
+      "targets": [
+        "SEM:02c63b4dee2fd4571228"
+      ],
+      "card_basis": {
+        "SEM:02c63b4dee2fd4571228": "736109c578e242fd3d9a26e3d18363e64f0506a9f1e0ea0cf1b345bb86db5811"
+      },
+      "effective_basis": {
+        "SEM:02c63b4dee2fd4571228": "b92078ed988d6dd488cbad1a1f30a8871cdd4c4fa3d307f1dadd95dd2af661a8"
+      },
+      "claim": "Only the cooled-leaf-extract qualification in the fourth Pass319 Herbal-output/Biological-input correspondence; not the entire five-handoff proposition.",
+      "scope": "Pass319 H4 output and its author-model revision in330/331. The later selection B4-S008 is an authored recipient assignment, not a newly verified manuscript pointer.",
+      "scope_applicability": "partial_claim_specific_case",
+      "claim_ceiling": "The same authored dictionary and selected stations supply both repaired outputs and their matching interpretation. Reported matching anchors may establish reuse of modeled card identities, but cannot independently prove their heat/measure meanings or historical cross-page transfer.",
+      "actually_tested_falsifier": "No independent temperature or action-binding falsifier was reported in these sources. The changed article and handoff are regenerated from repaired working values.",
+      "actually_compared": "Pass330 replaces a securely cooled extract by a divided portion later warmed. Pass331 removes cooling as an old dependency, retains prescribed measure and long warmth, and hardcodes the revised H4 handoff to B4-S008.",
+      "outcome": "The old cooling dependency is explicitly withdrawn from this model; the whole handoff framework survives. The newer warming/measure account is itself unconfirmed.",
+      "reason_class": "historical_model_revision",
+      "reason_subtype": "missing_meaning_binding",
+      "failure_reason": "The earlier cooling detail is not retained under the repaired dictionary and cannot be treated as a secure card-supported input to the H4 bridge. A warm later stage does not logically exclude an earlier cooling stage; the source decision is removal of unsupported specification, not such a thermodynamic contradiction.",
+      "circularity_limit": "The same authored dictionary and selected stations supply both repaired outputs and their matching interpretation. Reported matching anchors may establish reuse of modeled card identities, but cannot independently prove their heat/measure meanings or historical cross-page transfer.",
+      "what_is_not_refuted": [
+        "All cooling meanings elsewhere or every H4 recipe interpretation.",
+        "The other four Pass319 handoffs or the modelbook rival.",
+        "Possibility of a sequence containing both cooling and later warming."
+      ],
+      "reopening": {
+        "status": "prospective_reviewer_criteria_only_not_satisfied",
+        "policy": "conditional",
+        "all_of": [
+          {
+            "id": "h4_scope_binding",
+            "change": "new_binding",
+            "detail": "Bind any renewed cooling claim to the exact H4 carrier and stage, distinguish the card contribution from image/exemplar supplementation, and preserve the limited handoff scope."
+          },
+          {
+            "id": "h4_discriminating_evidence",
+            "change": "new_design",
+            "detail": "State an independently observable consequence that separates the proposed cooling contribution from a measure/portion/long-warmth account; simply appending a cooling stage to the same generated prose is not a contrast."
+          }
+        ],
+        "not_sufficient": [
+          "More matches among values supplied by the same dictionary.",
+          "A source reporting long warmth alone, since warming and prior cooling can coexist.",
+          "An attractive pictured plant, extra unbound pages, or a more fluent rewrite."
+        ],
+        "inherited_conditions_overwritten": false,
+        "assessed_by": "curation_review"
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_herbal_bio_handoff_three_hundred_nineteenth/THREE_HUNDRED_NINETEENTH_REPORT.md",
+          "line": 5,
+          "line_end": 29,
+          "quote": "Die vier Pflanzenblätter enthalten fünf getrennte Artikel. Jeder Artikel lässt\nsich als Herstellung eines konkreten Arbeitsguts lesen, das an mindestens eine\nbereits rekonstruierte Biological-Station anschließt:\n\n1. bemessener Wurzelauszug mit Rest → gemeinsames Behandlungsbecken;\n2. fortgesetzter Auszugsansatz auf Sollstufe → Maß–Halt–Maß-Kontrolle;\n3. geklärter kalter Sud → Klarlauf–Kontakt–Klarabzug;\n4. bemessener gekühlter Blattauszug → Langbearbeitung am Ziel;\n5. Stängel-/Zusatzauszug → Folgeanwendung am lokalen Paar.\n\nDie stärkste einzelne Verbindung ist H3 zu `B2-S012-M02`, weil beide Seiten\nunabhängig dieselbe kurze Prozessfolge ergeben: geklärtes Gut, Vorbereitung,\nlängerer Kontakt, klarer Abzug. H4 und H5 stärken eine Anwendungslesung der\nf83r-Stationen. H1 und H2 passen in den f81v-Beckenbetrieb, bleiben aber weniger\nspezifisch.\n\n## Was sich geändert hat\n\nDie alte Kurzform „vier Herbal-Artikel“ war falsch: Auf vier Pflanzenblättern\nliegen fünf Record-Artikel, weil f10r zwei getrennte Artikel enthält. Die Route\nist darauf korrigiert.\n\nEs wird weiterhin kein gezeichneter Cross-page-Pointer behauptet. Die Übergaben\nsind eine praktische Lesereihenfolge des Werkstattbuchs. Derselbe Text könnte\nauch ein Musterbuch mit vergleichbaren Stoff- und Stationskarten sein.",
+          "sha256": "ba8a8e57a1cb9c87c26936bc55142956b32cc07edbc5ea303fc07d8a1eea2b9b"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_shared_components_three_hundred_twenty_sixth/THREE_HUNDRED_TWENTY_SIXTH_REPORT.md",
+          "line": 15,
+          "line_end": 22,
+          "quote": "## Wichtigste Reparaturen\n\n- `char/dar/sar`: **Quelle**, nicht der ganze Satz „aus demselben Vorrat“.\n- `cheeky`: `CHK+EE+Y = Langwärme`.\n- `otchey`: `OT+Y = Folgeposten`.\n- `cholor/olor`: `OL+OR = Fortsetzungsansatz`.\n- `oldy`: `OL+DY = Fortschluss`.\n- `cheey/shey` und `chety/chty` bleiben ehrlich ungeteilte Fachkarten.",
+          "sha256": "0557ecf3bca640b0f0850440d321a6dfcbd9145da252329eb11907e9728276c3"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_herbal_formula_repair_three_hundred_twenty_ninth/THREE_HUNDRED_TWENTY_NINTH_REPORT.md",
+          "line": 5,
+          "line_end": 14,
+          "quote": "24 Herbal-relevante Kartenwerte wurden gegen ihre eigene Komponentenformel\nrepariert. Eine Karte (`chety/chty = Zerkleinern`) kehrt wie in Pass 326 in die\nGanzkartenklasse zurück. Das globale Deck steht nun bei 157 produktiven und 16\nmemorierten Kartentypen.\n\nDie Reparatur entfernt mehrere besonders attraktive, aber intern nicht\nerzeugbare Bedeutungen: Geschwür, Trank, Blütebeginn, Pflanzenspitzen,\nGrobzerreiben, Abseihen und Waschen. Diese können später nur über eine\nunabhängige Ganzkarte zurückkehren, nicht als freie Erweiterung inkompatibler\nStämme.",
+          "sha256": "2e15f14a4136fa5d6bba45a380eaed995c308ad860e8f307a061b7efbe57102b"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_repaired_herbal_edition_three_hundred_thirtieth/THREE_HUNDRED_THIRTIETH_REPORT.md",
+          "line": 5,
+          "line_end": 21,
+          "quote": "Alle 100 Herbal-Ereignisse und 19 Aussagen sind als fünf fortlaufende Artikel\nneu geschrieben. Jede Ergänzung stammt aus genau einer von vier Quellen:\nKartenwert, sichtbarer Pflanzenbesitzer, aktiver Recordbezug oder deutsche\nGrammatik.\n\nDie neue Fassung behält den praktischen Pflanzenzubereitungscharakter, verliert\naber mehrere überladene Einzelgeschichten. H3 bleibt der stärkste Klärprozess;\nH4 ist eine geteilte und später erwärmte Portion, nicht ein sicher gekühlter\nAuszug; H5 ist eine Bindungs-/Anwendungskette, kein frei aus K-Zeichen gelesenes\nWaschrezept.\n\n## Nächster Schritt\n\nNun müssen die fünf in Pass 319 gewählten Herbal→Bio-Übergaben an die\nreparierten Ausgänge angepasst werden. Besonders H4 und H5 brauchen neue\nStationsanschlüsse, weil Kühlung, Waschen und Abseihen nicht mehr frei im\nHerbal-Text stehen.",
+          "sha256": "e372b171cbb85d27226a691bcda5ac984f48026f6d8e5ebbd6804ecbfb7dca2e"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_repaired_herbal_edition_three_hundred_thirtieth/build_three_hundred_thirtieth.py",
+          "line": 27,
+          "line_end": 30,
+          "quote": "    \"H4-S001\": \"Stelle das Sollmaß ein, prüfe es und teile den Posten in eine erste und eine zweite Portion. Nimm beide aus diesem Arbeitsschritt und schließe ihn.\",\n    \"H4-S002\": \"Überführe die abgemessene Menge und verwahre sie.\",\n    \"H4-S003\": \"Nimm das Sollmaß des Postens aus dem gewonnenen Auszug, halte es länger warm und schließe den fortgesetzten Schritt.\",\n    \"H4-S004\": \"Setze das Sollmaß an der bezeichneten Stelle ein. Führe die Zubereitung dort weiter, halte den Ansatz als aktuellen Posten und verwende eine Ansatzportion.\",",
+          "sha256": "a8957a2f2e4e61e7897c228f02ed7fc620c081e82c3b70554a6665a46ae6492f"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_repaired_handoffs_three_hundred_thirty_first/THREE_HUNDRED_THIRTY_FIRST_REPORT.md",
+          "line": 5,
+          "line_end": 12,
+          "quote": "Alle fünf Herbal→Bio-Übergaben überleben die Wörterbuchreparatur und besitzen\nzusammen sieben exakte Identitätsanker. H4 wird stärker, weil Sollmaß und\nLangwärme nun ausdrücklich auf beiden Seiten stehen. H5 bleibt über\nFolgeposten und Einsetzen verbunden, ohne unzulässige K-Aktionsglossen.\n\nDie alten Abhängigkeiten von zweiter Wurzel, Geschwür, Wein, Kühlung sowie frei\ngelesenem Waschen/Abseihen sind entfernt. Kein direkter Seitenpointer wird\nbehauptet.",
+          "sha256": "9ff23c4f363031a8dcdc5fe3cb216af40a730f69f800727e24e72d72320ee52c"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_repaired_handoffs_three_hundred_thirty_first/build_three_hundred_thirty_first.py",
+          "line": 23,
+          "line_end": 23,
+          "quote": "    \"H4\": (\"B4-S008\", \"Die abgemessene Auszugsportion länger warm halten, danach am lokalen Ziel kurz ansetzen.\"),",
+          "sha256": "9d9d7cccfb9b2b754bcbfefd3db775cc23798f9bf67900ec4b70a53353c3f0e3"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_repaired_handoffs_three_hundred_thirty_first/build_three_hundred_thirty_first.py",
+          "line": 27,
+          "line_end": 33,
+          "quote": "WITHDRAWN_DEPENDENCIES = {\n    \"H1\": \"SECOND_ROOT_AT_END_WITHDRAWN;ETyd_IS_KURZREST\",\n    \"H2\": \"ULCER_READING_WITHDRAWN;CHO_AIIN_IS_INGREDIENT_MEASURE\",\n    \"H3\": \"WINE_READING_WITHDRAWN;CLEAR_EXTRACT_CHAIN_RETAINED\",\n    \"H4\": \"COOLING_READING_WITHDRAWN;EXPLICIT_LONG_WARMTH_RETAINED\",\n    \"H5\": \"FREE_K_WASH_STRAIN_ACTIONS_WITHDRAWN;FOLLOW_ITEM_AND_INSERT_RETAINED\",\n}",
+          "sha256": "9d9d7cccfb9b2b754bcbfefd3db775cc23798f9bf67900ec4b70a53353c3f0e3"
+        }
+      ],
+      "empirical_meaning_refutation": false,
+      "automatic_card_status_propagation": false,
+      "reviewer": "root and independent DL primary-source peer",
+      "review_artifacts": [
+        {
+          "path": "research_registry/decisions/semantic_source_polarity_review_dl.json",
+          "sha256": "d00df98721006de67bff1d6d869372c38d4759ba95fb086521d5a39e6743a491"
+        },
+        {
+          "path": "research_registry/decisions/semantic_source_polarity_peer_dl.json",
+          "sha256": "c51c4189a4d0dae99ca62be495561559ccc319168567b0428a2889097ed9c9fe"
+        }
+      ]
+    },
+    {
+      "id": "FAILURE_DL:DSHEDY_FRESH_RINSE:v1",
+      "decision_key": "FAILURE_DL:DSHEDY_FRESH_RINSE",
+      "previous_revision": null,
+      "status": "reviewed_scoped_context",
+      "targets": [
+        "SEM:c832f681da39d2bea4ad"
+      ],
+      "card_basis": {
+        "SEM:c832f681da39d2bea4ad": "a2e4283a98ce71413bcf5b3947390cf547ae169ae502400eb537a34a5f0efb93"
+      },
+      "effective_basis": {
+        "SEM:c832f681da39d2bea4ad": "8a751613b56ac32b58b4296276cdfd1bdd9a4a34283ef1e6afacdd11adca760b"
+      },
+      "claim": "The fresh-rinsing-liquid admission content of the Pass304 dshedy/MC138 working clause, not every wet-material reading or other historical dshedy contract.",
+      "scope": "Pass304 context-narrowed whole-card proposal, followed by the named dshedy revision in328 and its propagation to332.",
+      "scope_applicability": "source_specific_content_revision_no_universal_unit_export",
+      "claim_ceiling": "The old MC138-to-dshedy bridge is already bound in the active DA source case. The later report and authored PROMOTIONS name dshedy and explicitly describe the discarded fresh-rinsing content. No new equality of all underlying event positions/joint_tuple IDs across304–328 was audited; do not export an event-by-event failure verdict from this named content-history assessment.",
+      "actually_tested_falsifier": "No independently identified liquid-admission versus settling event, semantic gold or new manuscript observation was tested. The stated discriminator is adequacy under the chosen existing-component grammar.",
+      "actually_compared": "The304 literal override proposes admitting fresh rinsing liquid, contrasted with adding fresh water and motivated by its authored inline-rinse context.328’s PROMOTIONS explicitly replaces the unbound fresh-rinsing reading with D_PREVIOUS+SHED+DY=Vorabsetzschluss inside the fixed existing component deck;332 calls dshedy/rshedy settling closures rather than special fresh/full washes.",
+      "outcome": "The fresh-rinse content is later replaced in the authored model. This does not establish that the old whole-clause meaning is globally false or the replacement components are independently correct.",
+      "reason_class": "historical_model_revision",
+      "reason_subtype": "missing_meaning_binding",
+      "failure_reason": "Freshness and rinsing were treated as unbound content beyond the retained component account. The successor opts for a productive previous-item/settle/close interpretation; it does not obtain an external meaning anchor that decides between the two.",
+      "circularity_limit": "Testing whether a gloss can be regenerated from assigned component values is an internal consistency/reduction criterion. Selecting those same components and then observing successful regeneration cannot validate their meanings.",
+      "what_is_not_refuted": [
+        "Every historical dshedy spelling or all water/rinse interpretations.",
+        "The separately stated old context motivation as a newly checked manuscript observation.",
+        "The possibility of rinsing followed by settling; only the source-assigned word/clause contribution is being revised."
+      ],
+      "reopening": {
+        "status": "prospective_reviewer_criteria_only_not_satisfied",
+        "policy": "conditional",
+        "all_of": [
+          {
+            "id": "dshedy_contract_bridge",
+            "change": "source_correction",
+            "detail": "Before occurrence-level reassessment, establish the exact licensed whole-card/source-unit continuity between the old MC138 clause and the selected later comparison cases; retain any split or changed contract."
+          },
+          {
+            "id": "dshedy_independent_action_binding",
+            "change": "new_binding",
+            "detail": "Provide independent source-grounded evidence distinguishing fresh-liquid admission/rinsing from previous-item settling/closure at the relevant card contribution, rather than treating both as freely supplied successive steps."
+          }
+        ],
+        "not_sufficient": [
+          "Reparsing the same form with the same assumed component values.",
+          "Agreement of newly generated clauses or a repeated count of dictionary-covered events.",
+          "Any new fluid image without exact card/action binding."
+        ],
+        "inherited_conditions_overwritten": false,
+        "assessed_by": "curation_review"
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_ten_weak_cards_three_hundred_fourth/build_three_hundred_fourth.py",
+          "line": 29,
+          "line_end": 29,
+          "quote": "    \"MC138\": (\"Lass frische Spülflüssigkeit ein\", \"lass frische Spülflüssigkeit ein\", \"Frischwasser zugeben\", \"beginnt nach sichtbarem Stationswechsel eine neue Inline-Spülphase\"),",
+          "sha256": "cf8b7d42a5bbb1471e5fb7eaadf38207f0da2606823482e91af288d75e3f01e7"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_whole_card_attack_three_hundred_twenty_eighth/THREE_HUNDRED_TWENTY_EIGHTH_REPORT.md",
+          "line": 5,
+          "line_end": 12,
+          "quote": "Acht der 23 Ganzkarten fallen sauber in das bestehende 40-Komponenten-System.\nEs wurden keine neuen Stämme zugelassen. Das Deck umfasst nun 158 produktive\nKarten mit 361 Ereignissen und 15 gelernte Ganzkarten mit 20 Ereignissen.\n\nDie größte semantische Reparatur ist `schoal`: nicht mehr der unbelegte\n„Weinsud“, sondern HO+AL = Zieleingabe. Ebenso werden spezielle Wasserlesungen\nvon `rshedy/dshedy` durch normale Absetzschlüsse ersetzt. `etyd` wird zum\nKurzrest und unterscheidet sich damit sinnvoll von `dchey` am Artikelanfang.",
+          "sha256": "82b0c6d56c43ad588d40dd54820a4e0758eaa71f00d3f344a7e068dbb2c3d670"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_whole_card_attack_three_hundred_twenty_eighth/build_three_hundred_twenty_eighth.py",
+          "line": 19,
+          "line_end": 28,
+          "quote": "PROMOTIONS = {\n    \"tchody\": (\"TCH_PREPARATION+O_WITHDRAW+DY\", \"Rücknahmeschluss\", \"TCH, Rücknahme und Schluss sind bereits im 40er-Deck; Kälte war eine lokale Expansion.\"),\n    \"schoal\": (\"HO+AL\", \"Zieleingabe\", \"Die sichtbare HO-Zutat steht an AL-Stelle; Wein war nicht auf der Karte verankert.\"),\n    \"sshkchdy\": (\"CHD+DY\", \"Umsetzschluss\", \"Der lange Vorbau bleibt Renderer; CHD-Umsetzen plus DY-Schluss reicht.\"),\n    \"rshedy\": (\"SHED+DY\", \"Absetzschluss\", \"R bleibt Renderer; SHED-Absetzen und DY-Schluss sind produktiv.\"),\n    \"etyd\": (\"E+TY+D_PREVIOUS\", \"Kurzrest\", \"Kurzgrad plus Teil und Vorbezug bilden den kleinen Rest am Ende der Wurzelzubereitung.\"),\n    \"ytey\": (\"Y+TY+E\", \"Kurzteil\", \"Aktueller Posten plus Teil plus Kurzgrad erklärt die Karte ohne Füll-Ganzwort.\"),\n    \"lkedy\": (\"L+K_BINDER+E+DY\", \"Kurzabzugsschluss\", \"Abzug, Binder, Kurzgrad und Schluss erklären den bisherigen Weiterabzug.\"),\n    \"dshedy\": (\"D_PREVIOUS+SHED+DY\", \"Vorabsetzschluss\", \"Vorposten plus Absetzen plus Schluss ersetzt die ungebundene Frischspülungslesung.\"),\n}",
+          "sha256": "f20e1902c0e5f19ea69e4c91fb538119a66c5b472a288aaf25c49139855ae891"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_repaired_bio_edition_three_hundred_thirty_second/THREE_HUNDRED_THIRTY_SECOND_REPORT.md",
+          "line": 14,
+          "line_end": 21,
+          "quote": "## Inhaltliche Folgen\n\n- `cheeky` ist Langwärme statt allgemeiner Langbearbeitung.\n- `dshedy/rshedy` sind Absetzschlüsse statt spezieller Frisch-/Vollwaschungen.\n- `lkedy` ist Kurzabzugsschluss statt pauschaler Weiterabzug.\n- `cheey/shey` ist Klarauszug.\n- `qokaiin` ist Sollstellung; `AIIN` selbst bleibt Sollmaß.\n- `chety` ist die gelernte Zerkleinern-Karte, auch im Bio-Kontext.",
+          "sha256": "e5cebc8feeb43ee7b106e18c2cb508b57c7c7ac8d194fe69e2e715c314a6f293"
+        }
+      ],
+      "empirical_meaning_refutation": false,
+      "automatic_card_status_propagation": false,
+      "reviewer": "root and independent DL primary-source peer",
+      "review_artifacts": [
+        {
+          "path": "research_registry/decisions/semantic_source_polarity_review_dl.json",
+          "sha256": "d00df98721006de67bff1d6d869372c38d4759ba95fb086521d5a39e6743a491"
+        },
+        {
+          "path": "research_registry/decisions/semantic_source_polarity_peer_dl.json",
+          "sha256": "c51c4189a4d0dae99ca62be495561559ccc319168567b0428a2889097ed9c9fe"
+        }
+      ]
+    }
+  ]
+}

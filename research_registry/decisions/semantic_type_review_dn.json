@@ -1,0 +1,393 @@
+{
+  "review_id": "SEMANTIC_TYPE_REVIEW_DN",
+  "status": "COMPLETE_BOUNDED_PRIMARY_TYPE_REVIEW_NO_OPERATIONAL_CHANGE",
+  "selection": {
+    "scope_ids": [
+      "SEM:5d2ca522a7a0f1c8d833",
+      "SEM:bd53e8cd507f91ae07e8",
+      "SEM:4c31fa2f19e108dbf1e0",
+      "SEM:63933ec0cb14750ba404",
+      "SEM:76d149cbb3f402b123eb",
+      "SEM:a9ec7a31a783bc5783f5",
+      "SEM:aed2031587e4e6d53917",
+      "SEM:3f6f1e48977f8f169898",
+      "SEM:5808e70acb235e62bb84",
+      "SEM:93909c34c4cdd68fa319",
+      "SEM:23659586e96e83395266"
+    ],
+    "method": "Bounded current formal-role card metadata ranked by possible content/reference terms. Exclude IDs occurring in prior type-review recommendation/review/primary-review records and every ID already present in the public correction log. Exclude DE335/DJ347 scope; no local overlays. Initial strongest20 navigation candidates left11 eligible after correction-log exclusion; no quota refill.",
+    "primary_reviewed": 11
+  },
+  "recommendations": [
+    {
+      "target": "SEM:5d2ca522a7a0f1c8d833",
+      "decision": "retain",
+      "claim": "Pass1022 gives WERT, ANTEIL, EINHEIT, AKTIVER POSTEN, grades and relations one binding stack. E/EE/EEE and AL/AR/AIR attach to the nearest action on the left with the registered right/previous-card/inherited/owner fallbacks; L prefers a right grip because VERBINDUNG opens the enclosed or following operation. This is the earlier contract, subsequently narrowed by Pass1023; its left preference must not be read as the corrected final rule.",
+      "claim_type": "formal_role",
+      "card_basis": "0bb409f3eaaba647d850d91e3ba28595b2d3d2ea5fe65850655d578b9b7038a9",
+      "effective_basis": "70eed51a0bbc9850b4ced6e1c5bf962c7ccddc6782357206afbd7db3fb21fc58",
+      "evidence": [
+        {
+          "line": 132,
+          "line_end": 133,
+          "path": "experiments/yolo/sidequest_semantic_argument_scope_stack_one_thousand_twenty_second/SCOPE_STACK_REPORT.md",
+          "quote": "Damit erhalten WERT, ANTEIL, EINHEIT, AKTIVER POSTEN, Grade und Beziehungen\ndieselbe mechanische Reichweite, ohne eine neue Bedeutung einzuführen.",
+          "sha256": "8db0e6aa97dcd5e5bd8891f0289945bd76eefda7368cd206cb3cfa275f35c1d9"
+        },
+        {
+          "line": 120,
+          "line_end": 133,
+          "path": "experiments/yolo/sidequest_semantic_argument_scope_stack_one_thousand_twenty_second/SCOPE_STACK_REPORT.md",
+          "quote": "## Grad und Beziehungen benutzen denselben Stapel\n\nEs ist keine zweite Grammatik nötig:\n\n- `E / EE / EEE` schließen wie Nachsätze an die nächste Handlung links an;\n  ohne linken Kopf benutzen sie denselben Rechts-, Vorige-Karte-, Erb- und\n  Besitzerweg.\n- `AL / AR / AIR` schließen ebenfalls nach links; sie behalten nur ihre Werte\n  ZIELORT, AUSGANG und LAUF.\n- `L` ist der einzige der verlangten Kerne mit bevorzugtem Rechtsgriff, weil\n  VERBINDUNG den eingeschlossenen oder folgenden Gang eröffnet.\n\nDamit erhalten WERT, ANTEIL, EINHEIT, AKTIVER POSTEN, Grade und Beziehungen\ndieselbe mechanische Reichweite, ohne eine neue Bedeutung einzuführen.",
+          "sha256": "8db0e6aa97dcd5e5bd8891f0289945bd76eefda7368cd206cb3cfa275f35c1d9"
+        }
+      ],
+      "reason": "Retain formal: the full proposition is an attachment-stack contract for already named arguments, grades and relations. The primary explicitly says no new meaning is introduced. ZIELORT/AUSGANG/LAUF/VERBINDUNG are inherited role labels in this rule; their presence alone does not turn nearest-head attachment into a new content assertion. Preserve the later narrowing.",
+      "proposed_claim": "Pass1022 gives WERT, ANTEIL, EINHEIT, AKTIVER POSTEN, grades and relations one binding stack. E/EE/EEE and AL/AR/AIR attach to the nearest action on the left with the registered right/previous-card/inherited/owner fallbacks; L prefers a right grip because VERBINDUNG opens the enclosed or following operation. This is the earlier contract, subsequently narrowed by Pass1023; its left preference must not be read as the corrected final rule.",
+      "proposed_claim_type": "formal_role",
+      "scope_limit": "Exact current complete proposition and named historical source case. No new assertion, confirmation, equivalence link, lexical value export or experiment eligibility.",
+      "full_primary_relevant_context_read": true
+    },
+    {
+      "target": "SEM:bd53e8cd507f91ae07e8",
+      "decision": "retain",
+      "claim": "Pass292 proposes three written formation operations: replace AIIN by AIN in otaiin to predict otain; overlap pchedy with chedain at their shared CHED to predict pchedain; and extend the e grade to predict lsheedy, sheeedy and sheeckhal. Selectors stay left, quantity/target slots are family-specific and the e grade precedes the process body or DY, rejecting a universal freely suffixed stem. The source distinguishes a meaning prediction for pchedain from a primarily formal prediction for sheeedy and allows separate OT and AIN cards instead of otain.",
+      "claim_type": "formal_role",
+      "card_basis": "0d6239653bbfb0db3fb53c58a171e01638eccab91dabe9863545f6d52ddfed3c",
+      "effective_basis": "3c82911d31f371210540b3ae6ab11bae7249076756ab2553fdab422244e899f1",
+      "evidence": [
+        {
+          "line": 5,
+          "line_end": 13,
+          "path": "experiments/yolo/sidequest_semantic_five_production_squares_two_hundred_ninety_second/TWO_HUNDRED_NINETY_SECOND_REPORT.md",
+          "quote": "Die fünf verbliebenen Prognosen benötigen nicht eine, sondern drei genau lehrbare Kompositionstechniken:\n\n1. **Slotwechsel:** `otaiin` wird durch Austausch AIIN→AIN zu `otain`.\n2. **Kernüberlagerung:** `pchedy` und `chedain` werden am gemeinsamen CHED zu `pchedain` vereinigt.\n3. **Gradverlängerung:** Ein zusätzliches `e` bildet `lsheedy`, `sheeedy` und `sheeckhal`.\n\nDamit wird die Grammatik konkreter. Die Reihenfolge ist nicht frei: Selektoren stehen links, Mengen-/Zielslots besetzen ihre familientypische Stelle, und der E-Grad steht unmittelbar vor dem Prozesskörper oder vor DY. Die alte Vorstellung eines universellen „Stamm + beliebige Endung“-Systems wird aufgegeben.\n\n`pchedain` bleibt die stärkste neue Bedeutungsprognose, weil beide Hälften durch echte Elternkarten gestützt sind. `sheeedy` ist die stärkste reine Formprognose, weil zwei Stufen derselben Familie und eine EEE-Kontrollkarte bereits sichtbar sind. `otain` ist plausibel, aber ein Schreiber könnte OT und AIN auch als zwei Karten setzen.",
+          "sha256": "7d24ad066865e0662ebfb41b48ab80aa6d16e574a7511868762954d1fc1eb601"
+        }
+      ],
+      "reason": "Retain formal: exact slot substitution, shared-core overlap and e insertion predict written forms. Calling pchedain a meaning prediction does not supply that complete meaning in this report. Do not fabricate the unnamed semantic reading from parent names; separate-card OT/AIN remains a formal rival.",
+      "proposed_claim": "Pass292 proposes three written formation operations: replace AIIN by AIN in otaiin to predict otain; overlap pchedy with chedain at their shared CHED to predict pchedain; and extend the e grade to predict lsheedy, sheeedy and sheeckhal. Selectors stay left, quantity/target slots are family-specific and the e grade precedes the process body or DY, rejecting a universal freely suffixed stem. The source distinguishes a meaning prediction for pchedain from a primarily formal prediction for sheeedy and allows separate OT and AIN cards instead of otain.",
+      "proposed_claim_type": "formal_role",
+      "scope_limit": "Exact current complete proposition and named historical source case. No new assertion, confirmation, equivalence link, lexical value export or experiment eligibility.",
+      "full_primary_relevant_context_read": true
+    },
+    {
+      "target": "SEM:4c31fa2f19e108dbf1e0",
+      "decision": "restate_scope_type_only",
+      "claim": "GDT416 resolves repeated but unwritten verbs or items by continuing the active action and active argument only within the same page and visible owner. It treats these carries as ellipsis in card/cell writing, not additional missing written words; fluent imperative output is a workshop paraphrase, not deciphered plaintext. GDT562 later states that the old GDT416 edition stores no source-event IDs; its earlier audit is not equivalent to that later event-pointer provenance.",
+      "claim_type": "formal_role",
+      "card_basis": "f7454ad0ab98268f59a3024e9304f138c1322857ec40d885bd5f3b6580ee55ac",
+      "effective_basis": "c4d42010177e533b0d3bed4c13f18967c0e7eb81225131afbe4e60ac0f1ef0f0",
+      "evidence": [
+        {
+          "line": 41,
+          "line_end": 46,
+          "path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/REPORT.md",
+          "quote": "Auf Kartenebene fehlen häufig das wiederholte Verb oder der wiederholte\nPosten. Der Compiler trägt deshalb 1.598-mal eine aktive Handlung und 2.096-mal\nein aktives Argument weiter. Das geschieht ausschließlich innerhalb derselben\nSeite und desselben sichtbaren Besitzers; jede Stelle steht in einem Audit.\nDiese Zahlen sind keine 1.598 fehlenden Wörter, sondern die explizite Auflösung\nder kleinteiligen Karten-/Zellenschreibweise.",
+          "sha256": "5372b714dcff8a00d59ead47d04466ed3399dd45d09c417e588a2e8e0be55e44"
+        },
+        {
+          "line": 50,
+          "line_end": 53,
+          "path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/REPORT.md",
+          "quote": "Flüssig heißt nicht entschlüsselt. Die deutschen Imperative sind eine\neinheitliche Werkstattparaphrase der aktuellen Kernwerte. Der nächste starke\nTest muss prüfen, ob dieselbe Handlung–Argument–Relation-Reihenfolge auch dann\nstabil bleibt, wenn man Besitzerklassen und Register gegeneinander vertauscht.",
+          "sha256": "5372b714dcff8a00d59ead47d04466ed3399dd45d09c417e588a2e8e0be55e44"
+        },
+        {
+          "line": 22,
+          "line_end": 42,
+          "path": "experiments/yolo/gdt562_thirty_page_actionless_state_role_reader/REPORT.md",
+          "quote": "## Woher die ausgelassene Bedeutung kommt\n\n| Slot | Herkunft | Karten |\n|---|---|---:|\n| Handlung | frühere sichtbare Handlung derselben Aussage | 544 |\n| Handlung | Besitzer-/Abschnittsdefault | 149 |\n| Handlung | keine aktive Handlung | 13 |\n| Argument | sichtbar in der Karte | 233 |\n| Argument | früher sichtbar in derselben Aussage | 355 |\n| Argument | Besitzer-/Abschnittsdefault | 104 |\n| Argument | kein aktives Argument | 14 |\n\nDie Reichweite ist kurz, aber nicht nur unmittelbare Nachbarschaft. Von544\nsichtbaren Handlungsquellen stehen376 direkt davor;168 bleiben zwei bis acht\nKarten aktiv. Bei Argumenten sind238/355 unmittelbar und117 zwei bis fünf\nKarten entfernt. Das ist ein kleiner Satzspeicher.\n\nAuf den vier aktuellen Seiten besitzen alle54 aktionslosen Karten gespeicherte\nGDT539-Quellpointer;54/54 stimmen mit der unabhängigen Rekonstruktion überein.\nFür die alten26 Seiten markiert der Leser ehrlich, dass GDT416 keine\nQuellereignis-ID speichert, statt eine nachträglich zu behaupten.",
+          "sha256": "f59a6f3c02369ee862c2592d433b3559fb9c3abab9c7d3a925172f36672d2442"
+        }
+      ],
+      "reason": "Correct to functional_hypothesis: this full source claim explains an absent repeated verb/item as continued active action/argument under the same page and owner. That is a concrete ellipsis/reference operation mapping unwritten content into interpretation, not merely locating a written suffix or formatting a boundary. The values themselves remain inherited and unconfirmed. Keep the exact source-event provenance limitation; no GDT562 source-pointer validation is inherited.",
+      "proposed_claim": "GDT416 resolves repeated but unwritten verbs or items by continuing the active action and active argument only within the same page and visible owner. It treats these carries as ellipsis in card/cell writing, not additional missing written words; fluent imperative output is a workshop paraphrase, not deciphered plaintext. GDT562 later states that the old GDT416 edition stores no source-event IDs; its earlier audit is not equivalent to that later event-pointer provenance.",
+      "proposed_claim_type": "functional_hypothesis",
+      "scope_limit": "Exact current complete proposition and named historical source case. No new assertion, confirmation, equivalence link, lexical value export or experiment eligibility.",
+      "full_primary_relevant_context_read": true,
+      "proposed_action": {
+        "type": "restate_scope",
+        "claim": "GDT416 resolves repeated but unwritten verbs or items by continuing the active action and active argument only within the same page and visible owner. It treats these carries as ellipsis in card/cell writing, not additional missing written words; fluent imperative output is a workshop paraphrase, not deciphered plaintext. GDT562 later states that the old GDT416 edition stores no source-event IDs; its earlier audit is not equivalent to that later event-pointer provenance.",
+        "claim_type": "functional_hypothesis",
+        "status_change": false,
+        "reason": "Existing addressable semantic/function claim restored to the default semantic view; wording and historical polarity remain unchanged."
+      }
+    },
+    {
+      "target": "SEM:63933ec0cb14750ba404",
+      "decision": "retain",
+      "claim": "Pass301 separates visible ending, registered card function and sentence scope. In its current edition some written dy endings do not close, while learned talam is terminal without dy; sentences can cross physical lines and can contain visible owner changes. E180/E181 remains one interpreted read-once boundary carry despite two written occurrences. A nonclosing statement may remain open or be released at record end. These are the source reader’s boundary rules, not established authorial sentence gold.",
+      "claim_type": "formal_role",
+      "card_basis": "b844825b32f7be6774572ef2ae2214f03038474a92948201cc81c06887cc56ea",
+      "effective_basis": "13b7b66dc40cf3cd520e6572dc030c99bccaab506036c75d968311b97f6295bc",
+      "evidence": [
+        {
+          "line": 5,
+          "line_end": 9,
+          "path": "experiments/yolo/sidequest_semantic_endpoint_scope_three_hundred_first/THREE_HUNDRED_FIRST_REPORT.md",
+          "quote": "Alle 381 Ereignisse sind jetzt gleichzeitig an Karten-, Feld-, Aussage-, Record- und physische Zeilengrenzen gebunden. Die wichtige Trennung lautet: sichtbare Endform, registrierte Kartenfunktion und Satzreichweite sind drei verschiedene Dinge.\n\nVon 105 sichtbar auf `dy` endenden Ereignissen schließen 89 und 16 nicht. Das gelernte `talam` ist der Gegenfall: terminal ohne `dy`. Neunzig der 135 Felder und neunzig der 116 Aussagen schließen explizit; die übrigen laufen offen aus oder werden erst am Recordende freigegeben.\n\nDie 19 inneren Zeilenübergänge bestätigen die Nutzerkorrektur aus dem Sidequest: Eine Aussage muss nicht mit einer Zeile enden. E180→E181 bleibt die einzige Read-once-Randkopie; vier Übergänge wechseln den sichtbaren Besitzer mitten in einer laufenden Aussage.",
+          "sha256": "5df6f51ea6dca1333b9a9b48f89b0f61bef2058664a78bae6f3ec627a96ac8f5"
+        }
+      ],
+      "reason": "Retain formal: visible ending, registered closure and clause/record boundaries are distinguished without assigning an object, property or concrete action. The talam exception and read-once boundary carry are scoped edition/parser behavior, not a new lexical meaning.",
+      "proposed_claim": "Pass301 separates visible ending, registered card function and sentence scope. In its current edition some written dy endings do not close, while learned talam is terminal without dy; sentences can cross physical lines and can contain visible owner changes. E180/E181 remains one interpreted read-once boundary carry despite two written occurrences. A nonclosing statement may remain open or be released at record end. These are the source reader’s boundary rules, not established authorial sentence gold.",
+      "proposed_claim_type": "formal_role",
+      "scope_limit": "Exact current complete proposition and named historical source case. No new assertion, confirmation, equivalence link, lexical value export or experiment eligibility.",
+      "full_primary_relevant_context_read": true
+    },
+    {
+      "target": "SEM:76d149cbb3f402b123eb",
+      "decision": "retain",
+      "claim": "Pass317 splits its twelve long Biological statements into executable microsteps: owner changes within these statements begin a new step, while a step may cross a physical line. Apart from one already justified six-card B1 cross-line step, each step has at most five cards. The E180/E181 boundary copy remains twice written but once interpreted; the scheme is a source-specific reading organization, not a universal five-word manuscript sentence rule.",
+      "claim_type": "formal_role",
+      "card_basis": "b605a24273ac84704cebf5f320b43d98d16391cd5e718f552240ec29b3dcb87b",
+      "effective_basis": "43e68fead32bc6a3297427264a097583d12dd6a1754f18ecf7596a44695aaff0",
+      "evidence": [
+        {
+          "line": 3,
+          "line_end": 5,
+          "path": "experiments/yolo/sidequest_semantic_all_long_bio_three_hundred_seventeenth/THREE_HUNDRED_SEVENTEENTH_REPORT.md",
+          "quote": "Genau zwölf der 97 Aussagen sind länger als fünf Karten. Ihre 105 sichtbaren Ereignisse werden zu 32 ausführbaren Schritten; wegen der Randkopie E180/E181 sind das 104 gelesene Operationen. Außer dem bereits begründeten sechs Karten langen B1-Querzeilenschritt hat jeder Schritt höchstens fünf Karten.\n\nAlle drei Besitzerwechsel innerhalb dieser langen Aussagen beginnen einen neuen Mikroschritt; keiner liegt versteckt in einem Schritt. Mehrere echte Schritte dürfen dagegen einen physischen Zeilenwechsel überqueren. Die Gesamtausgabe ist damit erstmals zugleich vollständig, kurz genug zum Ausführen und mit der sichtbaren Stationsgeometrie verträglich.",
+          "sha256": "c73ba094dc4f6de7d69df018c0d62f2b50d65ea022e12db61b83fb3c969cc202"
+        }
+      ],
+      "reason": "Retain formal: microstep size, owner-change partition and cross-line permission organize the reader. No concrete thing or operation meaning is assigned by these boundaries, and the six-card exception is preserved.",
+      "proposed_claim": "Pass317 splits its twelve long Biological statements into executable microsteps: owner changes within these statements begin a new step, while a step may cross a physical line. Apart from one already justified six-card B1 cross-line step, each step has at most five cards. The E180/E181 boundary copy remains twice written but once interpreted; the scheme is a source-specific reading organization, not a universal five-word manuscript sentence rule.",
+      "proposed_claim_type": "formal_role",
+      "scope_limit": "Exact current complete proposition and named historical source case. No new assertion, confirmation, equivalence link, lexical value export or experiment eligibility.",
+      "full_primary_relevant_context_read": true
+    },
+    {
+      "target": "SEM:a9ec7a31a783bc5783f5",
+      "decision": "restate_scope_type_only",
+      "claim": "GDT413 assigns compositional core readings to running cards, while local addresses, figure identifiers and circle designations are copied locally rather than exported as translated words. This division applies to the report’s 26-page working edition; its German core values remain working meanings supplied with local picture, rubric or exemplar context.",
+      "claim_type": "formal_role",
+      "card_basis": "e1f709a5dccdb571645b08f0f04e57a88b7ca0ed27382d09417b3446d62ba926",
+      "effective_basis": "40769d293a68b096a2fef95a8c57954b756efbcb2f8b837350cbf7f2e47cd570",
+      "evidence": [
+        {
+          "line": 15,
+          "line_end": 17,
+          "path": "experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/REPORT.md",
+          "quote": "Jede laufende Karte erhält eine konkrete kompositionelle Kernlesung. Keine\nAdresse, Figurenkennung oder Kreisbezeichnung wird dafür zum erfundenen Wort:\ndie 693 lokalen Gruppen bleiben ausdrücklich **lokal kopieren**.",
+          "sha256": "204806766156c2b1fd769d0944c7a8a217e82b8e6470ced6b8f0d054a34ec908"
+        },
+        {
+          "line": 61,
+          "line_end": 65,
+          "path": "experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/REPORT.md",
+          "quote": "## Grenze\n\nDie Ausgabe ist unser bestes ausführbares Bedeutungsmodell, nicht entschlüsselter\nKlartext. Die deutschen Wörter sind breite Arbeitswerte. Das lokale Sachwissen\nbleibt weiterhin im Bild, in der Rubrik oder im Werkstattexemplar.",
+          "sha256": "204806766156c2b1fd769d0944c7a8a217e82b8e6470ced6b8f0d054a34ec908"
+        }
+      ],
+      "reason": "Correct to semantic_model: the full claim divides interpretation into compositional meaningful running cards and locally copied figure/address identifiers, with concrete contextual knowledge supplied by picture/rubric/exemplar. This is a content representation hypothesis about which units carry portable readings versus local designations, not a bare parse inventory. Preserve the26-page working-edition scope and absence of deciphered plaintext; no particular name becomes identified.",
+      "proposed_claim": "GDT413 assigns compositional core readings to running cards, while local addresses, figure identifiers and circle designations are copied locally rather than exported as translated words. This division applies to the report’s 26-page working edition; its German core values remain working meanings supplied with local picture, rubric or exemplar context.",
+      "proposed_claim_type": "semantic_model",
+      "scope_limit": "Exact current complete proposition and named historical source case. No new assertion, confirmation, equivalence link, lexical value export or experiment eligibility.",
+      "full_primary_relevant_context_read": true,
+      "proposed_action": {
+        "type": "restate_scope",
+        "claim": "GDT413 assigns compositional core readings to running cards, while local addresses, figure identifiers and circle designations are copied locally rather than exported as translated words. This division applies to the report’s 26-page working edition; its German core values remain working meanings supplied with local picture, rubric or exemplar context.",
+        "claim_type": "semantic_model",
+        "status_change": false,
+        "reason": "Existing addressable semantic/function claim restored to the default semantic view; wording and historical polarity remain unchanged."
+      }
+    },
+    {
+      "target": "SEM:aed2031587e4e6d53917",
+      "decision": "retain",
+      "claim": "Pass293 raises the candidate slot order Selektor → Quelle/Ziel → Menge → Tätigkeit → Posten/Schluss for its sixty-four slot frames, explicitly asking whether this order works or individual families require another syntax. This is the report’s prospective formal alternative, not an established order or the later Pass294 process-before-address rule.",
+      "claim_type": "formal_role",
+      "card_basis": "896e902f6927d1b1311ca378f69a6072375cd6801f2a8ee54fe63e9f344c846c",
+      "effective_basis": "3277efe43a9d0fcf437673a6028c1a7ceaadc8bd6f8ceeb0a8fc81592df1c8b4",
+      "evidence": [
+        {
+          "line": 18,
+          "line_end": 18,
+          "path": "experiments/yolo/sidequest_semantic_full_prose_morphology_two_hundred_ninety_third/TWO_HUNDRED_NINETY_THIRD_REPORT.md",
+          "quote": "Nun muss die Reihenfolge innerhalb der 64 Slotrahmen explizit werden. Wir bauen aus allen Rezepten eine Slotordnung und prüfen, ob ein Lehrling aus einer Bedeutungsfolge die Reihenfolge vorhersagen kann: Selektor → Quelle/Ziel → Menge → Tätigkeit → Posten/Schluss, oder ob einzelne Familien eine andere Syntax verlangen.",
+          "sha256": "de95fc0a77bbe65496f4a4d4d9254842d0247ac8dcaf65cbb80bdad8d1956e92"
+        }
+      ],
+      "reason": "Retain formal: prospective ordering of declared source/target/amount/activity slots. No actual referent or value is assigned by this ordering question. The alternative family-specific syntax and untested prospective status remain explicit.",
+      "proposed_claim": "Pass293 raises the candidate slot order Selektor → Quelle/Ziel → Menge → Tätigkeit → Posten/Schluss for its sixty-four slot frames, explicitly asking whether this order works or individual families require another syntax. This is the report’s prospective formal alternative, not an established order or the later Pass294 process-before-address rule.",
+      "proposed_claim_type": "formal_role",
+      "scope_limit": "Exact current complete proposition and named historical source case. No new assertion, confirmation, equivalence link, lexical value export or experiment eligibility.",
+      "full_primary_relevant_context_read": true
+    },
+    {
+      "target": "SEM:3f6f1e48977f8f169898",
+      "decision": "retain",
+      "claim": "Pass1022 allows two readings when R precedes a required focus and an older head exists: R can open an inner MARKIEREN frame, or remain a tail of the outer operation while the focus stays with that outer head. Its provisional default treats R before a right focus as a head, explicitly retaining the tail alternative until local context decides.",
+      "claim_type": "formal_role",
+      "card_basis": "838d65badd4a63533b7173b8b23d56ede7406612d78c14bbe02611f3bd69e331",
+      "effective_basis": "235cd51bac3aaa49ccc55b1460da905074cf3d36632f44b6d51fc345559e85de",
+      "evidence": [
+        {
+          "line": 106,
+          "line_end": 108,
+          "path": "experiments/yolo/sidequest_semantic_argument_scope_stack_one_thousand_twenty_second/SCOPE_STACK_REPORT.md",
+          "quote": "`R` ist bereits als `MARK_HEAD_OR_TAIL` geführt. Wenn ein verlangter Kern an\nein solches `R` anschließt und ein älterer Kopf vorhanden ist, bleiben zwei\nLesungen möglich. Beispiel:",
+          "sha256": "8db0e6aa97dcd5e5bd8891f0289945bd76eefda7368cd206cb3cfa275f35c1d9"
+        },
+        {
+          "line": 116,
+          "line_end": 118,
+          "path": "experiments/yolo/sidequest_semantic_argument_scope_stack_one_thousand_twenty_second/SCOPE_STACK_REPORT.md",
+          "quote": "Die 63 Fokusvorkommen gehen auf 42 verschiedene `R`-Karten zurück. Bis der\nörtliche Text entscheidet, wird `R` vor einem rechten Fokus als Kopf gelesen;\ndie Schwanzlesung bleibt ausdrücklich erhalten.",
+          "sha256": "8db0e6aa97dcd5e5bd8891f0289945bd76eefda7368cd206cb3cfa275f35c1d9"
+        },
+        {
+          "line": 104,
+          "line_end": 118,
+          "path": "experiments/yolo/sidequest_semantic_argument_scope_stack_one_thousand_twenty_second/SCOPE_STACK_REPORT.md",
+          "quote": "### 3. `R` als Kopf oder Schwanz — 63 Vorkommen\n\n`R` ist bereits als `MARK_HEAD_OR_TAIL` geführt. Wenn ein verlangter Kern an\nein solches `R` anschließt und ein älterer Kopf vorhanden ist, bleiben zwei\nLesungen möglich. Beispiel:\n\n```text\nf18r  P1008-E0001  P + D_ADDR + R + AIR + DY\nRegel:              P[ R[AIR] ]\nAlternative:        P[ ... R ] und AIR weiterhin unter P\n```\n\nDie 63 Fokusvorkommen gehen auf 42 verschiedene `R`-Karten zurück. Bis der\nörtliche Text entscheidet, wird `R` vor einem rechten Fokus als Kopf gelesen;\ndie Schwanzlesung bleibt ausdrücklich erhalten.",
+          "sha256": "8db0e6aa97dcd5e5bd8891f0289945bd76eefda7368cd206cb3cfa275f35c1d9"
+        },
+        {
+          "line": 98,
+          "line_end": 119,
+          "path": "experiments/yolo/sidequest_semantic_scope_ambiguity_resolution_one_thousand_twenty_third/PASS1023_REPORT.md",
+          "quote": "## Griff 4 — `R` bleibt MARKIEREN, ändert aber seine Stellung\n\n`R` braucht keinen zweiten Sinn. Seine Paketposition genügt:\n\n- erster Kopf mit rechtem Glied: `R` eröffnet `MARKIEREN[...]`;\n- alleinige `R`-Karte vor einem kurzen Glied: ebenfalls Kopf;\n- nach einer äußeren Handlung und ohne eigenes rechtes Glied: Schwanz, der\n  den äußeren Gang markiert;\n- zwischen äußerem Kopf und eigenem Rechtsglied: innerer Kopf.\n\nBeispiele:\n\n```text\nR + AIIN        → MARKIEREN[WERT]\nCH + O + E + R  |  AIIN\n                → NEHMEN[AUSFÜHRUNG; GRAD I; MARKIEREN]; WERT bleibt bei NEHMEN\nP + HIER + R + AIR + DY\n                → EINSETZEN[MARKIEREN[LAUF]]; SCHLUSS\n```\n\nDamit wechseln 16 zuvor an `R` gehängte Zusätze zurück zum äußeren Kopf. Das\nist eine Scope-Korrektur, keine Umdeutung von `R`.",
+          "sha256": "61cb6dbaf14e1d61ca3a73afb0886370eb60e4e48a5bd5c24175df6a9b42b828"
+        }
+      ],
+      "reason": "Retain formal: two attachment parses differ over which head owns AIR, while R retains the existing MARKIEREN label. The source and successor expressly call the revision scope rather than reinterpretation. A stored action label in the bracketed examples is insufficient to create a new action-value claim.",
+      "proposed_claim": "Pass1022 allows two readings when R precedes a required focus and an older head exists: R can open an inner MARKIEREN frame, or remain a tail of the outer operation while the focus stays with that outer head. Its provisional default treats R before a right focus as a head, explicitly retaining the tail alternative until local context decides.",
+      "proposed_claim_type": "formal_role",
+      "scope_limit": "Exact current complete proposition and named historical source case. No new assertion, confirmation, equivalence link, lexical value export or experiment eligibility.",
+      "full_primary_relevant_context_read": true
+    },
+    {
+      "target": "SEM:5808e70acb235e62bb84",
+      "decision": "retain",
+      "claim": "Pass1023 restricts the failed blanket left-binding rule: arguments and grades choose the nearest head, with left winning only at equal distance; AL/AR prefer left, then the active head, then the sole right head in the same card, then the owner; L/AIR prefer right and fall back only when no right head exists. The reported agreement is with existing interpreted bindings; no case tests a farther right L/AIR head against a nearer left head.",
+      "claim_type": "formal_role",
+      "card_basis": "85fa643e93c8e68ec9e0f941f73dd53f33f0e252b146123dcdc5715c11a627a5",
+      "effective_basis": "35742de360b367a33e62d96409bf7cca309510c84178ae051b81d7dbd110b881",
+      "evidence": [
+        {
+          "line": 44,
+          "line_end": 46,
+          "path": "experiments/yolo/sidequest_semantic_scope_ambiguity_resolution_one_thousand_twenty_third/PASS1023_REPORT.md",
+          "quote": "Das ist genau die Art von Reparatur, die wir für spätere Seiten brauchen: nicht\neine neue Bedeutung erfinden, sondern eine zu breite Schreibregel rechtzeitig\nenger machen.",
+          "sha256": "61cb6dbaf14e1d61ca3a73afb0886370eb60e4e48a5bd5c24175df6a9b42b828"
+        },
+        {
+          "line": 25,
+          "line_end": 42,
+          "path": "experiments/yolo/sidequest_semantic_scope_ambiguity_resolution_one_thousand_twenty_third/PASS1023_REPORT.md",
+          "quote": "Die erste verführerische Kurzregel lautete: „Alles außer `L/AIR` hängt links.“\nDas wäre zu grob und scheitert im Vollinventar viermal klar:\n\n- `SH+O+Y+T+Y`: das mittlere `Y` gehört zum näheren `T`, nicht zum `SH`;\n- `OK+O+E+S`: `E` gehört zum näheren `S`, nicht zum `OK`;\n- `S+OR+AIIN+R`: `AIIN` gehört zum näheren `R`, nicht zum `S`;\n- `CH+O+E+R`: `E` gehört zum näheren `R`, nicht zum `CH`.\n\nDie haltbare Regel ist kleiner:\n\n> Argument und Grad nehmen den nächsten Kopf; nur bei Gleichstand gewinnt\n> links. `AL/AR` nehmen zuerst links, dann den laufenden Kopf, dann den\n> einzigen Kopf derselben Karte rechts und erst danach den Besitzer. `L/AIR`\n> bevorzugen rechts und fallen nur ohne rechten Kopf zurück.\n\nAuf allen 4.345 Fokusanschlüssen stimmt diese örtliche Regel in 3.100/3.100\ndirekt prüfbaren Fällen. 1.245 kopflose Fälle sind keine Gegenbeispiele,\nsondern brauchen den Besitzer-/Paketstapel.",
+          "sha256": "61cb6dbaf14e1d61ca3a73afb0886370eb60e4e48a5bd5c24175df6a9b42b828"
+        }
+      ],
+      "reason": "Retain formal: nearer-head versus left-tie and AL/AR/L/AIR fallbacks are syntactic attachment choices against existing bindings. They do not independently identify the role labels or their semantic objects. Preserve the absence of a farther-right versus nearer-left test.",
+      "proposed_claim": "Pass1023 restricts the failed blanket left-binding rule: arguments and grades choose the nearest head, with left winning only at equal distance; AL/AR prefer left, then the active head, then the sole right head in the same card, then the owner; L/AIR prefer right and fall back only when no right head exists. The reported agreement is with existing interpreted bindings; no case tests a farther right L/AIR head against a nearer left head.",
+      "proposed_claim_type": "formal_role",
+      "scope_limit": "Exact current complete proposition and named historical source case. No new assertion, confirmation, equivalence link, lexical value export or experiment eligibility.",
+      "full_primary_relevant_context_read": true
+    },
+    {
+      "target": "SEM:93909c34c4cdd68fa319",
+      "decision": "retain",
+      "claim": "Pass1007 inserts a stable statement level of owner, address zone, execution zone and ending between single cards and fluent paraphrases, allowing new card sequences without a separate learned whole sentence for each sequence.",
+      "claim_type": "formal_role",
+      "card_basis": "fcec73fbaeef77155d494245aae8db25ad80f1c623e5f6a47a29522e1b4bc746",
+      "effective_basis": "62a0be4c221cd8dcbe2a668892cb4a80f2fd2b717b8883ca6a1dd32ef7364285",
+      "evidence": [
+        {
+          "line": 21,
+          "line_end": 21,
+          "path": "experiments/yolo/sidequest_semantic_recurring_clause_template_drawer_one_thousand_seventh/PASS1007_REPORT.md",
+          "quote": "Die alte Lesung wechselte zu schnell zwischen Einzelkarten und langen freien Paraphrasen. Die neue Fassung hält dazwischen eine stabile Satzebene: Besitzer, Adresszone, Ausführungszone und Ende. Ein Schreiber kann damit neue Kartenfolgen bauen, ohne für jede Folge ein neues Ganzwort oder eine neue Satzregel zu lernen.",
+          "sha256": "93d4bc648439040d4804542a7f1fa0930f389d434e4c72f0e345dc0cad01a561"
+        }
+      ],
+      "reason": "Retain formal: owner/address/execution/ending is an intermediate clause-template level between cards and paraphrase. This scope statement does not assert a new concrete operation or reference choice; no named local referent is bound by the level alone.",
+      "proposed_claim": "Pass1007 inserts a stable statement level of owner, address zone, execution zone and ending between single cards and fluent paraphrases, allowing new card sequences without a separate learned whole sentence for each sequence.",
+      "proposed_claim_type": "formal_role",
+      "scope_limit": "Exact current complete proposition and named historical source case. No new assertion, confirmation, equivalence link, lexical value export or experiment eligibility.",
+      "full_primary_relevant_context_read": true
+    },
+    {
+      "target": "SEM:23659586e96e83395266",
+      "decision": "retain",
+      "claim": "The Pass1023 blanket binding generalization extends the equal-distance rule to unequal multi-head positions: non-L/AIR attachments close on the left action head, while L/AIR frame the right action head.",
+      "claim_type": "formal_role",
+      "card_basis": "0b91796466445d140b2a8d6b1fbca0e47dc580a04d1ef0be689975c9b1da2fa9",
+      "effective_basis": "b14186ff31641cf762d3cf8bb137ef869a322243ca5c22af1d498ed2c7a05861",
+      "evidence": [
+        {
+          "line": 5,
+          "line_end": 13,
+          "path": "experiments/yolo/sidequest_semantic_scope_ambiguity_resolution_one_thousand_twenty_third/EQUAL_DISTANCE_GENERALIZATION_REPORT.md",
+          "quote": "Ja. Die wörtliche Vollregel\n\n```text\nnicht-L/AIR schließt links; L/AIR rahmt rechts\n```\n\nerzeugt außerhalb der 120 Gleichstände **vier klare Widersprüche**. Die\nGleichstandsentscheidung selbst bleibt gut; falsch ist nur ihre Ausdehnung auf\njede ungleiche Mehrkopfstellung.",
+          "sha256": "962c746972a3483f9171aa597db511381b345c947e34a08279b20e1bbd5167c6"
+        },
+        {
+          "line": 23,
+          "line_end": 34,
+          "path": "experiments/yolo/sidequest_semantic_scope_ambiguity_resolution_one_thousand_twenty_third/EQUAL_DISTANCE_GENERALIZATION_REPORT.md",
+          "quote": "## Die vier Gegenfälle\n\n| Anschluss | Karte | strenge Linkslesung | vorhandene Bindung |\n|---|---|---|---|\n| `SA00090` | `SH+O+Y+T+Y` | `Y→SH=HALTEN` | `Y→T=EINSTELLEN` |\n| `SA00557` | `OK+O+E+S` | `E→OK=SETZEN` | `E→S=WÄHLEN` |\n| `SA00563` | `S+OR+AIIN+R` | `AIIN→S=WÄHLEN` | `AIIN→R=MARKIEREN` |\n| `SA00636` | `CH+O+E+R` | `E→CH=NEHMEN` | `E→R=MARKIEREN` |\n\nIn allen vier Karten ist der rechte Kopf ein Atom näher als der linke. Das\nAusführungszeichen `O` oder der schon geschlossene erste Zusatz verlängert den\nAbstand zum linken Kopf, ohne selbst einen neuen Kopf zu bilden.",
+          "sha256": "962c746972a3483f9171aa597db511381b345c947e34a08279b20e1bbd5167c6"
+        }
+      ],
+      "reason": "Retain formal: this is the historical overextended head-direction rule. Its four counterexamples concern existing attachment annotations, not the truth of HALTEN/SETZEN/WÄHLEN/MARKIEREN translations. Keep the failure narrow to unequal multi-head scope.",
+      "proposed_claim": "The Pass1023 blanket binding generalization extends the equal-distance rule to unequal multi-head positions: non-L/AIR attachments close on the left action head, while L/AIR frame the right action head.",
+      "proposed_claim_type": "formal_role",
+      "scope_limit": "Exact current complete proposition and named historical source case. No new assertion, confirmation, equivalence link, lexical value export or experiment eligibility.",
+      "full_primary_relevant_context_read": true
+    }
+  ],
+  "counts": {
+    "fully_reviewed": 11,
+    "retain_formal": 9,
+    "type_only_scope_correction_proposals": 2,
+    "new_hypotheses": 0,
+    "operational_changes": 0
+  },
+  "classification_rule": "Concrete ellipsis/reference or meaningful-versus-local-designation representation is functional/semantic. A parse order, attachment stack, boundary, template or named but untranslated prediction remains formal even when its labels resemble meaningful words.",
+  "input_sha256": [
+    {
+      "path": "research_registry/decisions/semantic_type_review_aj.json",
+      "sha256": "c38201f9ea18241eaf155b21044fec9bffbec1c9f565f5020d8654fe734821f2"
+    },
+    {
+      "path": "research_registry/decisions/semantic_type_review_ak.json",
+      "sha256": "ab34ce759b37c680e472f6ca4ab66a0401308a2843877f007e233f22b622c809"
+    },
+    {
+      "path": "research_registry/decisions/semantic_type_review_aq.json",
+      "sha256": "f737e4f9caa4491d940e56dd387efa32350a37b542a63561b7e424c44e226179"
+    },
+    {
+      "path": "research_registry/decisions/semantic_type_review_ar.json",
+      "sha256": "95068ddf7778ca754437c97ae9406d00d53380f16821708954f2110b88dfac37"
+    },
+    {
+      "path": "research_registry/decisions/semantic_type_review_as.json",
+      "sha256": "bdbb81a877ec9fe2946882bb8c826d53221097e445289d71817796650dfedffd"
+    },
+    {
+      "path": "research_registry/decisions/semantic_type_review_at.json",
+      "sha256": "9260470bbc86c49733c6fae16db0d3e81784383fba15491521020e44db357df3"
+    },
+    {
+      "path": "research_registry/decisions/semantic_type_review_au.json",
+      "sha256": "e392a9c6b1581534b5cd9e1c155ad063c7329f62d63c908ad47f630051386a30"
+    },
+    {
+      "path": "research_registry/semantic_claim_corrections.jsonl",
+      "sha256": "5c864a6e91fb053767f70d9b370e332d558d1b3b53cf37ed7bc2289a05d70d9f"
+    }
+  ],
+  "validation": {
+    "all_current_bases_bound": true,
+    "all_exact_primary_quotes_and_hashes_checked": true
+  },
+  "limits": [
+    "No generic formal-to-semantic promotion and no counted meanings inferred from English/German labels alone.",
+    "The11-card selection is not an exhaustive formal-role audit; prior reviewed/corrected cards deliberately remain out of scope.",
+    "Proposed type corrections preserve full claims and status; no operational correction appended."
+  ]
+}

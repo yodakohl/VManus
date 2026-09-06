@@ -1,0 +1,229 @@
+{
+  "review_id": "SEMANTIC_SOURCE_POLARITY_PEER_DL",
+  "status": "APPROVE_TWO_SCOPED_HISTORICAL_REVISIONS",
+  "input": {
+    "path": "research_registry/decisions/semantic_source_polarity_review_dl.json",
+    "sha256": "d00df98721006de67bff1d6d869372c38d4759ba95fb086521d5a39e6743a491"
+  },
+  "dossier_reviews": [
+    {
+      "id": "SOURCE_POLARITY_DL:H4_COOLING_HANDOFF",
+      "decision": "approve",
+      "target_binding": {
+        "sem_id": "SEM:02c63b4dee2fd4571228",
+        "claim": "Pass319 proposes five specific Herbal-output/Biological-input correspondences: measured root extract with remainder → shared treatment basin; continued extract preparation at the prescribed stage → measure–hold–measure control; clarified cold decoction → clear outflow–contact–clear discharge; measured cooled leaf extract → prolonged treatment at the target; and stem/additive extract → subsequent application at the local pair. H3→B2-S012-M02 is its strongest local match, based on clarified material, preparation, longer contact and clear discharge; H1/H2 are less specific. The handoffs are a practical reading order, not drawn cross-page pointers, and a modelbook of comparable material/station cards remains possible.",
+        "claim_type": "semantic_model",
+        "case_id": "CLEAN_GAP_CX:five_herbal_bio_handoffs",
+        "member_ids": [
+          "LEGACY_COMPONENT:43c7625c37754a0a44cc"
+        ],
+        "card_basis": "736109c578e242fd3d9a26e3d18363e64f0506a9f1e0ea0cf1b345bb86db5811",
+        "effective_basis": "b92078ed988d6dd488cbad1a1f30a8871cdd4c4fa3d307f1dadd95dd2af661a8",
+        "status": "ACTIVE_CARD_EXACT_CASE_FOUND"
+      },
+      "reason_class_approved": "historical_model_revision",
+      "scope_applicability": "partial_claim_specific_case",
+      "finding": "Approve partial historical model revision only.319 explicitly supplies cooled leaf extract in the fourth handoff;330 explicitly retreats from a secure cooling account;331 names the cooling dependency as withdrawn and fixes its revised H4 recipient. That is a textual revision bridge with matching named H4 scope. It neither rejects the entire five-handoff card nor shows a physical contradiction: prior cooling and later warming are compatible. No empirical temperature binding is supplied.",
+      "scope_limit": "Only the secure-cooling qualification in the fourth correspondence. Preserve all other handoffs, the former source wording and the modelbook alternative.",
+      "unit_bridge_limit": "No claim of event-by-event identity or a newly established cross-page pointer. The explicitly authored B4-S008 selection is not an independently discovered destination.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_herbal_bio_handoff_three_hundred_nineteenth/THREE_HUNDRED_NINETEENTH_REPORT.md",
+          "line": 5,
+          "line_end": 29,
+          "quote": "Die vier Pflanzenblätter enthalten fünf getrennte Artikel. Jeder Artikel lässt\nsich als Herstellung eines konkreten Arbeitsguts lesen, das an mindestens eine\nbereits rekonstruierte Biological-Station anschließt:\n\n1. bemessener Wurzelauszug mit Rest → gemeinsames Behandlungsbecken;\n2. fortgesetzter Auszugsansatz auf Sollstufe → Maß–Halt–Maß-Kontrolle;\n3. geklärter kalter Sud → Klarlauf–Kontakt–Klarabzug;\n4. bemessener gekühlter Blattauszug → Langbearbeitung am Ziel;\n5. Stängel-/Zusatzauszug → Folgeanwendung am lokalen Paar.\n\nDie stärkste einzelne Verbindung ist H3 zu `B2-S012-M02`, weil beide Seiten\nunabhängig dieselbe kurze Prozessfolge ergeben: geklärtes Gut, Vorbereitung,\nlängerer Kontakt, klarer Abzug. H4 und H5 stärken eine Anwendungslesung der\nf83r-Stationen. H1 und H2 passen in den f81v-Beckenbetrieb, bleiben aber weniger\nspezifisch.\n\n## Was sich geändert hat\n\nDie alte Kurzform „vier Herbal-Artikel“ war falsch: Auf vier Pflanzenblättern\nliegen fünf Record-Artikel, weil f10r zwei getrennte Artikel enthält. Die Route\nist darauf korrigiert.\n\nEs wird weiterhin kein gezeichneter Cross-page-Pointer behauptet. Die Übergaben\nsind eine praktische Lesereihenfolge des Werkstattbuchs. Derselbe Text könnte\nauch ein Musterbuch mit vergleichbaren Stoff- und Stationskarten sein.",
+          "sha256": "ba8a8e57a1cb9c87c26936bc55142956b32cc07edbc5ea303fc07d8a1eea2b9b"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_shared_components_three_hundred_twenty_sixth/THREE_HUNDRED_TWENTY_SIXTH_REPORT.md",
+          "line": 15,
+          "line_end": 22,
+          "quote": "## Wichtigste Reparaturen\n\n- `char/dar/sar`: **Quelle**, nicht der ganze Satz „aus demselben Vorrat“.\n- `cheeky`: `CHK+EE+Y = Langwärme`.\n- `otchey`: `OT+Y = Folgeposten`.\n- `cholor/olor`: `OL+OR = Fortsetzungsansatz`.\n- `oldy`: `OL+DY = Fortschluss`.\n- `cheey/shey` und `chety/chty` bleiben ehrlich ungeteilte Fachkarten.",
+          "sha256": "0557ecf3bca640b0f0850440d321a6dfcbd9145da252329eb11907e9728276c3"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_herbal_formula_repair_three_hundred_twenty_ninth/THREE_HUNDRED_TWENTY_NINTH_REPORT.md",
+          "line": 5,
+          "line_end": 14,
+          "quote": "24 Herbal-relevante Kartenwerte wurden gegen ihre eigene Komponentenformel\nrepariert. Eine Karte (`chety/chty = Zerkleinern`) kehrt wie in Pass 326 in die\nGanzkartenklasse zurück. Das globale Deck steht nun bei 157 produktiven und 16\nmemorierten Kartentypen.\n\nDie Reparatur entfernt mehrere besonders attraktive, aber intern nicht\nerzeugbare Bedeutungen: Geschwür, Trank, Blütebeginn, Pflanzenspitzen,\nGrobzerreiben, Abseihen und Waschen. Diese können später nur über eine\nunabhängige Ganzkarte zurückkehren, nicht als freie Erweiterung inkompatibler\nStämme.",
+          "sha256": "2e15f14a4136fa5d6bba45a380eaed995c308ad860e8f307a061b7efbe57102b"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_repaired_herbal_edition_three_hundred_thirtieth/THREE_HUNDRED_THIRTIETH_REPORT.md",
+          "line": 5,
+          "line_end": 21,
+          "quote": "Alle 100 Herbal-Ereignisse und 19 Aussagen sind als fünf fortlaufende Artikel\nneu geschrieben. Jede Ergänzung stammt aus genau einer von vier Quellen:\nKartenwert, sichtbarer Pflanzenbesitzer, aktiver Recordbezug oder deutsche\nGrammatik.\n\nDie neue Fassung behält den praktischen Pflanzenzubereitungscharakter, verliert\naber mehrere überladene Einzelgeschichten. H3 bleibt der stärkste Klärprozess;\nH4 ist eine geteilte und später erwärmte Portion, nicht ein sicher gekühlter\nAuszug; H5 ist eine Bindungs-/Anwendungskette, kein frei aus K-Zeichen gelesenes\nWaschrezept.\n\n## Nächster Schritt\n\nNun müssen die fünf in Pass 319 gewählten Herbal→Bio-Übergaben an die\nreparierten Ausgänge angepasst werden. Besonders H4 und H5 brauchen neue\nStationsanschlüsse, weil Kühlung, Waschen und Abseihen nicht mehr frei im\nHerbal-Text stehen.",
+          "sha256": "e372b171cbb85d27226a691bcda5ac984f48026f6d8e5ebbd6804ecbfb7dca2e"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_repaired_herbal_edition_three_hundred_thirtieth/build_three_hundred_thirtieth.py",
+          "line": 27,
+          "line_end": 30,
+          "quote": "    \"H4-S001\": \"Stelle das Sollmaß ein, prüfe es und teile den Posten in eine erste und eine zweite Portion. Nimm beide aus diesem Arbeitsschritt und schließe ihn.\",\n    \"H4-S002\": \"Überführe die abgemessene Menge und verwahre sie.\",\n    \"H4-S003\": \"Nimm das Sollmaß des Postens aus dem gewonnenen Auszug, halte es länger warm und schließe den fortgesetzten Schritt.\",\n    \"H4-S004\": \"Setze das Sollmaß an der bezeichneten Stelle ein. Führe die Zubereitung dort weiter, halte den Ansatz als aktuellen Posten und verwende eine Ansatzportion.\",",
+          "sha256": "a8957a2f2e4e61e7897c228f02ed7fc620c081e82c3b70554a6665a46ae6492f"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_repaired_handoffs_three_hundred_thirty_first/THREE_HUNDRED_THIRTY_FIRST_REPORT.md",
+          "line": 5,
+          "line_end": 12,
+          "quote": "Alle fünf Herbal→Bio-Übergaben überleben die Wörterbuchreparatur und besitzen\nzusammen sieben exakte Identitätsanker. H4 wird stärker, weil Sollmaß und\nLangwärme nun ausdrücklich auf beiden Seiten stehen. H5 bleibt über\nFolgeposten und Einsetzen verbunden, ohne unzulässige K-Aktionsglossen.\n\nDie alten Abhängigkeiten von zweiter Wurzel, Geschwür, Wein, Kühlung sowie frei\ngelesenem Waschen/Abseihen sind entfernt. Kein direkter Seitenpointer wird\nbehauptet.",
+          "sha256": "9ff23c4f363031a8dcdc5fe3cb216af40a730f69f800727e24e72d72320ee52c"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_repaired_handoffs_three_hundred_thirty_first/build_three_hundred_thirty_first.py",
+          "line": 23,
+          "line_end": 23,
+          "quote": "    \"H4\": (\"B4-S008\", \"Die abgemessene Auszugsportion länger warm halten, danach am lokalen Ziel kurz ansetzen.\"),",
+          "sha256": "9d9d7cccfb9b2b754bcbfefd3db775cc23798f9bf67900ec4b70a53353c3f0e3"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_repaired_handoffs_three_hundred_thirty_first/build_three_hundred_thirty_first.py",
+          "line": 27,
+          "line_end": 33,
+          "quote": "WITHDRAWN_DEPENDENCIES = {\n    \"H1\": \"SECOND_ROOT_AT_END_WITHDRAWN;ETyd_IS_KURZREST\",\n    \"H2\": \"ULCER_READING_WITHDRAWN;CHO_AIIN_IS_INGREDIENT_MEASURE\",\n    \"H3\": \"WINE_READING_WITHDRAWN;CLEAR_EXTRACT_CHAIN_RETAINED\",\n    \"H4\": \"COOLING_READING_WITHDRAWN;EXPLICIT_LONG_WARMTH_RETAINED\",\n    \"H5\": \"FREE_K_WASH_STRAIN_ACTIONS_WITHDRAWN;FOLLOW_ITEM_AND_INSERT_RETAINED\",\n}",
+          "sha256": "9d9d7cccfb9b2b754bcbfefd3db775cc23798f9bf67900ec4b70a53353c3f0e3"
+        }
+      ],
+      "reopening_review": {
+        "decision": "approve_as_prospective_curation_only",
+        "assessed_by": "curation_review",
+        "requirements_not_claimed_satisfied": true,
+        "reason": "Both source/role binding and a genuinely distinguishing observation are needed for an occurrence-level semantic comparison. More unbound pages, re-generated gloss agreement or a plausible adjacent action do not supply that binding. A correction to the historical source record alone is a documentary correction, not a new semantic experiment.",
+        "optional_serialization_clarification": "If exported into an executable dossier schema, attach assessed_by=curation_review explicitly to the reopening block/criteria. The existing status and limits already disclose that these are reviewer proposals, not inherited preregistration gates."
+      }
+    },
+    {
+      "id": "SOURCE_POLARITY_DL:DSHEDY_FRESH_RINSE",
+      "decision": "approve",
+      "target_binding": {
+        "sem_id": "SEM:c832f681da39d2bea4ad",
+        "claim": "Pass304 assigns the registered whole card dshedy (MC138) the context-narrowed imperative \"Lass frische Spülflüssigkeit ein\" and short action \"lass frische Spülflüssigkeit ein\". This is its authored working-clause realization, not a new free substring meaning or a claim that the whole imperative is intrinsically encoded by an isolated manuscript word.",
+        "claim_type": "functional_hypothesis",
+        "case_id": "CLEAN_GAP_DA:mc138_context_imperative",
+        "member_ids": [
+          "LEGACY_COMPONENT:3566deb24f26b61c89e6"
+        ],
+        "card_basis": "a2e4283a98ce71413bcf5b3947390cf547ae169ae502400eb537a34a5f0efb93",
+        "effective_basis": "8a751613b56ac32b58b4296276cdfd1bdd9a4a34283ef1e6afacdd11adca760b",
+        "status": "ACTIVE_CARD_EXACT_CASE_FOUND"
+      },
+      "reason_class_approved": "historical_model_revision",
+      "scope_applicability": "source_specific_content_revision_no_universal_unit_export",
+      "finding": "Approve named-content-history revision.304 explicitly selects the MC138 fresh-rinsing-liquid imperative; the active DA case binds MC138 to dshedy using previously reviewed lexicon metadata.328 explicitly names dshedy and replaces unbound Frischspülungslesung by D_PREVIOUS+SHED+DY/Vorabsetzschluss;332 retains settling rather than fresh/full washing. This establishes authored revision of that named content, not identity of every licensed event or proof that either semantic account is true.",
+      "scope_limit": "Only the context-narrowed fresh-rinsing admission content of the304 dshedy/MC138 source case. The prior and later contexts need not be identical, and rinsing can precede settling.",
+      "unit_bridge_limit": "The304 imperative/rival/reason and328 formula/value/reason are static author selections. The328 loop applies a surface-keyed PROMOTIONS entry to its existing tuple records; this does not establish a304 master-ID to328 tuple bridge. The active DA bridge is reused as disclosed metadata provenance; no TIFF, manuscript or legacy TSV was opened.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_ten_weak_cards_three_hundred_fourth/build_three_hundred_fourth.py",
+          "line": 29,
+          "line_end": 29,
+          "quote": "    \"MC138\": (\"Lass frische Spülflüssigkeit ein\", \"lass frische Spülflüssigkeit ein\", \"Frischwasser zugeben\", \"beginnt nach sichtbarem Stationswechsel eine neue Inline-Spülphase\"),",
+          "sha256": "cf8b7d42a5bbb1471e5fb7eaadf38207f0da2606823482e91af288d75e3f01e7"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_whole_card_attack_three_hundred_twenty_eighth/THREE_HUNDRED_TWENTY_EIGHTH_REPORT.md",
+          "line": 5,
+          "line_end": 12,
+          "quote": "Acht der 23 Ganzkarten fallen sauber in das bestehende 40-Komponenten-System.\nEs wurden keine neuen Stämme zugelassen. Das Deck umfasst nun 158 produktive\nKarten mit 361 Ereignissen und 15 gelernte Ganzkarten mit 20 Ereignissen.\n\nDie größte semantische Reparatur ist `schoal`: nicht mehr der unbelegte\n„Weinsud“, sondern HO+AL = Zieleingabe. Ebenso werden spezielle Wasserlesungen\nvon `rshedy/dshedy` durch normale Absetzschlüsse ersetzt. `etyd` wird zum\nKurzrest und unterscheidet sich damit sinnvoll von `dchey` am Artikelanfang.",
+          "sha256": "82b0c6d56c43ad588d40dd54820a4e0758eaa71f00d3f344a7e068dbb2c3d670"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_whole_card_attack_three_hundred_twenty_eighth/build_three_hundred_twenty_eighth.py",
+          "line": 19,
+          "line_end": 28,
+          "quote": "PROMOTIONS = {\n    \"tchody\": (\"TCH_PREPARATION+O_WITHDRAW+DY\", \"Rücknahmeschluss\", \"TCH, Rücknahme und Schluss sind bereits im 40er-Deck; Kälte war eine lokale Expansion.\"),\n    \"schoal\": (\"HO+AL\", \"Zieleingabe\", \"Die sichtbare HO-Zutat steht an AL-Stelle; Wein war nicht auf der Karte verankert.\"),\n    \"sshkchdy\": (\"CHD+DY\", \"Umsetzschluss\", \"Der lange Vorbau bleibt Renderer; CHD-Umsetzen plus DY-Schluss reicht.\"),\n    \"rshedy\": (\"SHED+DY\", \"Absetzschluss\", \"R bleibt Renderer; SHED-Absetzen und DY-Schluss sind produktiv.\"),\n    \"etyd\": (\"E+TY+D_PREVIOUS\", \"Kurzrest\", \"Kurzgrad plus Teil und Vorbezug bilden den kleinen Rest am Ende der Wurzelzubereitung.\"),\n    \"ytey\": (\"Y+TY+E\", \"Kurzteil\", \"Aktueller Posten plus Teil plus Kurzgrad erklärt die Karte ohne Füll-Ganzwort.\"),\n    \"lkedy\": (\"L+K_BINDER+E+DY\", \"Kurzabzugsschluss\", \"Abzug, Binder, Kurzgrad und Schluss erklären den bisherigen Weiterabzug.\"),\n    \"dshedy\": (\"D_PREVIOUS+SHED+DY\", \"Vorabsetzschluss\", \"Vorposten plus Absetzen plus Schluss ersetzt die ungebundene Frischspülungslesung.\"),\n}",
+          "sha256": "f20e1902c0e5f19ea69e4c91fb538119a66c5b472a288aaf25c49139855ae891"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_repaired_bio_edition_three_hundred_thirty_second/THREE_HUNDRED_THIRTY_SECOND_REPORT.md",
+          "line": 14,
+          "line_end": 21,
+          "quote": "## Inhaltliche Folgen\n\n- `cheeky` ist Langwärme statt allgemeiner Langbearbeitung.\n- `dshedy/rshedy` sind Absetzschlüsse statt spezieller Frisch-/Vollwaschungen.\n- `lkedy` ist Kurzabzugsschluss statt pauschaler Weiterabzug.\n- `cheey/shey` ist Klarauszug.\n- `qokaiin` ist Sollstellung; `AIIN` selbst bleibt Sollmaß.\n- `chety` ist die gelernte Zerkleinern-Karte, auch im Bio-Kontext.",
+          "sha256": "e5cebc8feeb43ee7b106e18c2cb508b57c7c7ac8d194fe69e2e715c314a6f293"
+        }
+      ],
+      "reopening_review": {
+        "decision": "approve_as_prospective_curation_only",
+        "assessed_by": "curation_review",
+        "requirements_not_claimed_satisfied": true,
+        "reason": "Both source/role binding and a genuinely distinguishing observation are needed for an occurrence-level semantic comparison. More unbound pages, re-generated gloss agreement or a plausible adjacent action do not supply that binding. A correction to the historical source record alone is a documentary correction, not a new semantic experiment.",
+        "optional_serialization_clarification": "If exported into an executable dossier schema, attach assessed_by=curation_review explicitly to the reopening block/criteria. The existing status and limits already disclose that these are reviewer proposals, not inherited preregistration gates."
+      }
+    }
+  ],
+  "excluded_candidate_reviews": [
+    {
+      "candidate": "qokaiin=Sollstellung versus AIIN=Sollmaß",
+      "decision": "approve_exclusion",
+      "reason": "The332 sentence distinguishes a whole card from its component. It does not itself assert rejection of an earlier same-unit prescribed-measure hypothesis; no guessed dossier target or whole-card/component equivalence.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_repaired_bio_edition_three_hundred_thirty_second/THREE_HUNDRED_THIRTY_SECOND_REPORT.md",
+          "line": 20,
+          "line_end": 20,
+          "quote": "- `qokaiin` ist Sollstellung; `AIIN` selbst bleibt Sollmaß.",
+          "sha256": "e5cebc8feeb43ee7b106e18c2cb508b57c7c7ac8d194fe69e2e715c314a6f293"
+        }
+      ]
+    },
+    {
+      "candidate": "free K-washing/straining as a universal lexical target",
+      "decision": "approve_exclusion",
+      "reason": "329/330/331 withdraw free action expansions in specific model/formula contexts. This bounded pass does not equate all K-containing whole words or create a blanket K failure dossier. The H5 content remains preserved in the existing DE revision proposal.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_herbal_formula_repair_three_hundred_twenty_ninth/THREE_HUNDRED_TWENTY_NINTH_REPORT.md",
+          "line": 10,
+          "line_end": 14,
+          "quote": "Die Reparatur entfernt mehrere besonders attraktive, aber intern nicht\nerzeugbare Bedeutungen: Geschwür, Trank, Blütebeginn, Pflanzenspitzen,\nGrobzerreiben, Abseihen und Waschen. Diese können später nur über eine\nunabhängige Ganzkarte zurückkehren, nicht als freie Erweiterung inkompatibler\nStämme.",
+          "sha256": "2e15f14a4136fa5d6bba45a380eaed995c308ad860e8f307a061b7efbe57102b"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_repaired_herbal_edition_three_hundred_thirtieth/THREE_HUNDRED_THIRTIETH_REPORT.md",
+          "line": 12,
+          "line_end": 14,
+          "quote": "H4 ist eine geteilte und später erwärmte Portion, nicht ein sicher gekühlter\nAuszug; H5 ist eine Bindungs-/Anwendungskette, kein frei aus K-Zeichen gelesenes\nWaschrezept.",
+          "sha256": "e372b171cbb85d27226a691bcda5ac984f48026f6d8e5ebbd6804ecbfb7dca2e"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_repaired_handoffs_three_hundred_thirty_first/build_three_hundred_thirty_first.py",
+          "line": 32,
+          "line_end": 32,
+          "quote": "    \"H5\": \"FREE_K_WASH_STRAIN_ACTIONS_WITHDRAWN;FOLLOW_ITEM_AND_INSERT_RETAINED\",",
+          "sha256": "9d9d7cccfb9b2b754bcbfefd3db775cc23798f9bf67900ec4b70a53353c3f0e3"
+        }
+      ]
+    }
+  ],
+  "additional_static_provenance": [
+    {
+      "path": "experiments/yolo/sidequest_semantic_ten_weak_cards_three_hundred_fourth/build_three_hundred_fourth.py",
+      "line": 66,
+      "line_end": 90,
+      "quote": "    clause_by_card = {r[\"master_card_id\"]: r[\"imperative_clause_de\"] for r in lexicon}\n    for card_id, (clause, *_rest) in OVERRIDES.items():\n        clause_by_card[card_id] = clause\n\n    decisions = []\n    for card_id, (clause, atomic, rival, reason) in OVERRIDES.items():\n        occurrences = [r for r in raw if r[\"master_card_id\"] == card_id]\n        contexts = []\n        for event in occurrences:\n            selected = by_statement[event[\"statement_id\"]]\n            index = selected.index(event)\n            before = selected[index - 1][\"visible_surface\"] if index else \"<START>\"\n            after = selected[index + 1][\"visible_surface\"] if index + 1 < len(selected) else \"<END>\"\n            contexts.append(f\"{event['event_id']}:{event['record_unit_id']}/{event['statement_id']}:{before}>{event['visible_surface']}>{after}\")\n        source = next(r for r in lexicon if r[\"master_card_id\"] == card_id)\n        decisions.append({\n            \"master_card_id\": card_id,\n            \"master_form\": source[\"master_form\"],\n            \"source_short_value_de\": source[\"source_short_value_de\"],\n            \"old_imperative_de\": source[\"imperative_clause_de\"],\n            \"selected_atomic_action_de\": atomic,\n            \"new_imperative_de\": clause,\n            \"strongest_rival_de\": rival,\n            \"context_reason_de\": reason,\n            \"occurrence_count\": len(occurrences),",
+      "sha256": "cf8b7d42a5bbb1471e5fb7eaadf38207f0da2606823482e91af288d75e3f01e7"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_whole_card_attack_three_hundred_twenty_eighth/build_three_hundred_twenty_eighth.py",
+      "line": 60,
+      "line_end": 95,
+      "quote": "\ndef main() -> None:\n    base_dictionary = read(DICTIONARY)\n    base_events = read(EVENTS)\n    whole = [x for x in base_dictionary if x[\"deck_class\"] == \"MEMORIZED_WHOLE_CARD\"]\n    attacks = []\n    revised_dictionary = []\n    old_atom = {x[\"joint_tuple_id\"]: x[\"atomic_value_de\"] for x in base_dictionary}\n    new_atom = dict(old_atom)\n    new_class = {x[\"joint_tuple_id\"]: x[\"deck_class\"] for x in base_dictionary}\n    new_formula = {x[\"joint_tuple_id\"]: x[\"component_formula\"] for x in base_dictionary}\n\n    for row in whole:\n        surface = row[\"surface_family\"]\n        if surface in PROMOTIONS:\n            formula, value, reason = PROMOTIONS[surface]\n            decision = \"PROMOTE_WITH_EXISTING_COMPONENTS\"\n            new_atom[row[\"joint_tuple_id\"]] = value\n            new_class[row[\"joint_tuple_id\"]] = \"PRODUCTIVE_COMPOSITION\"\n            new_formula[row[\"joint_tuple_id\"]] = formula\n        else:\n            formula, value, reason = \"WHOLE_CARD\", row[\"atomic_value_de\"], RETAIN_REASONS[surface]\n            decision = \"RETAIN_MEMORIZED_WHOLE_CARD\"\n        attacks.append(\n            {\n                \"joint_tuple_id\": row[\"joint_tuple_id\"],\n                \"surface_family\": surface,\n                \"events\": row[\"occurrences\"],\n                \"old_atomic_value_de\": row[\"atomic_value_de\"],\n                \"decision\": decision,\n                \"new_component_formula\": formula,\n                \"new_atomic_value_de\": value,\n                \"new_components_added\": \"0\",\n                \"reason_de\": reason,\n            }\n        )",
+      "sha256": "f20e1902c0e5f19ea69e4c91fb538119a66c5b472a288aaf25c49139855ae891"
+    }
+  ],
+  "required_substantive_corrections": [],
+  "validation": {
+    "status": "PASS",
+    "exact_active_targets": 2,
+    "exact_active_case_bindings": 2,
+    "quote_and_sha_checks": 21,
+    "source_reports_read_in_full": 7,
+    "legacy_execution": false,
+    "operative_changes": false
+  },
+  "limits": [
+    "No broader failure status is inherited by an entire composite target card.",
+    "Both old and new meanings remain historical authored hypotheses without independent semantic gold.",
+    "A conditional future occurrence-level comparison is not a current permission or a claim that its gates are fulfilled."
+  ]
+}
