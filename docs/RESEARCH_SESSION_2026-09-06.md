@@ -30,3 +30,11 @@ coverage and same-line coexistence f75v.44; GDT851 provides two all-reader
 ABAB anchors and complete period1–3counts. The gate-scope review corrects
 GDT807s single-error interpretation; source and executable gates unchanged.
 No confirmed word meaning. The ten-hour goal remains ACTIVE; about9h20remain.
+
+04:39UTC checkpoint, about58minutes elapsed: GDT852 adds a native same-line
+spacing contrast supported by two separately recorded judgments, with expected
+strings withheld from B after A was sealed.39visual keys/44selectors,11remain.
+The support is physical/qualitative, not a word meaning. Result public8641538d.
+IL026 primary files remain unavailable; preserved registry evidence describes
+a failed synthetic power gate, not a general ban on sequential observations.
+The last goal continuation made material progress; goal remains ACTIVE.

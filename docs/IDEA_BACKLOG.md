@@ -915,3 +915,14 @@ IP047 completed: two native judgments support a localized spacing contrast
 on f75v.44; physical source support, no word-boundary/meaning assignment.
 Original image only, A sealed before B; no regrading.39visual keys44selectors,
 11admissions remain. Primary852REPORT. No next model follows automatically.
+
+### IL026 primary-source availability and scope, 2026-09-06
+
+Targeted recovery found no il026/higher_order_pairwise primary artifact in
+the worktree or Git path history. Retained evidence is CLOSED_ROUTE_FAMILIES
+row29 and ACTIVE_EXPERIMENT_LEDGER rows168–169: synthetic power failed, no
+manuscript trigram score. This is registry testimony, not a recovered or
+replayed primary method. The closed family governs pairwise-preserving
+higher-order residual tests; its title is not a blanket ban on every new
+sequential source question. GDT851s literal census was a different endpoint.
+Do not restart the failed null, strengthen planting or score sealed buckets.
