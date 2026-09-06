@@ -23329,3 +23329,15 @@ no owner/glyph/meaning upgrade. 330group rows/12frame rows exactreplay/imagehash
 software does not verify vision. NO_NEW_EXPLICIT_REFERENCE closes this one scene,
 not all linguistic reference. No new admission;391capacity failure unchanged.
 Primary: experiments/yolo/gdt870_f100r_complete_scene_discovery/REPORT.md.
+
+
+## GDT871 shared diagram scope and personal orientation, 2026-09-06
+
+Root personally viewed1006194/1006196complete originals after public1d5514f8;
+explicit siblingadmissionsf67r1/f68r2/f68r3 make45keys/51selectors/5remaining.
+Sourceheaders/hashes/declarationsPASS, not nativejudgment proof. Seven general
+orientationdossiers now34renderings/33canvases/38keys;7additional target-native
+contexts coverall45admittedkeys. No completeMS/fineglyph claim. Radial/curved
+text and shortstar-adjacent texts described; no count direction underlayer
+ownership astronomicalphase ormeaning assessment. RBR002/ringclosures unchanged.
+Primary: experiments/yolo/gdt871_remaining_shared_diagram_orientation/REPORT.md.

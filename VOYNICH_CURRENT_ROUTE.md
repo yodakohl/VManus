@@ -60,7 +60,8 @@ No general boundary/cipher rejection.
 
 ## Visual understanding and earlier routes
 
-Six orientations:32renderings/31canvases/33keys.871registered for2shared diagrams.
+Seven orientations:34renderings/33canvases/38keys;7more target-native contexts.
+871complete: full67r/68r views; all45admittedkeys have personal native contexts.
 Sources: `docs/visual_overview/README.md`.
 f76r offset signs are a known functionally unresolved column; f4r rot is an
 ordinary-alphabet note. No decipherment/admission.95v images stay distinct.

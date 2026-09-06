@@ -487,3 +487,10 @@ capture-map requirementa7f36380. At11:29UTC selected871personalorientation:
 located personalcontext thissession. Their fulloriginals require3siblingkeys;
 registerf67r1/f68r2/f68r3 beforeview, now45keys/51selectors/5remain. No old
 RBR/ringtest reopened; firstpersonsourceunderstanding only. Stop11:45UTC.
+
+GDT871 prereg1d5514f8 public11:33:33UTC. Rootfullnativeviews11:34:06/11:34:54,
+sourcehash/header/recordPASS. No oldcounts/underlayersregraded. Sevenorientations
+now34renderings/33canvases/38keys;7targetnativecontextscompletecurrent45keys.
+This is personalunderstanding andscope completion, not manuscript-wide fineglyph
+verification. Producer addedIP065–074 tenRAWideas insixfamilies, publicwithprereg;
+none is a newtestedclaim or selectedexperiment. Preparingpublicationbefore11:45.

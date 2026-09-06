@@ -110,3 +110,10 @@ Gemeinsame Aufnahme f69v/f70r: [sechster persönlicher Durchgang](SHARED_CIRCLES
 GDT867. Ein Original, zwei Seitenschlüssel, drei Textselektoren; damit
 32Darstellungen/31Yale-Aufnahmen/33Seitenschlüssel in sechs Orientierungen.
 Keine neue Kreisanzahl- oder Leserichtungsbehauptung.
+
+
+Verbleibende gemeinsame Diagrammaufnahmen: [siebter persönlicher Durchgang](SHARED_DIAGRAMS_2026-09-06.md),
+GDT871. Jetzt34Darstellungen/33Yale-Aufnahmen/38Schlüssel in sieben Dossiers;
+sieben weitere Schlüssel besitzen gezielte native Root-Kontexte. Damit haben
+alle45aktuell zugelassenen Schlüssel einen persönlichen Bildkontext dieser
+Sitzung; dies ist keine vollständige Manuskriptzählung oder Bedeutungszuordnung.
