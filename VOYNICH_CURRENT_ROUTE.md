@@ -23,7 +23,8 @@ no predictor or automatic looser pairing. GDT854:146events,14mixed cells;
 CKH one-e positions vary within9folios, CTH onlyf83. Cross-kernel capacity
 fails; no model/null/meaning or within-kernel rescue. IP012 deferred:
 no motivated remodeling rival.862/IP053 mirror screen:1/3materialpairs; stop
-before targetcomparison, no show-through claim. Ideas: see backlog.
+before targetcomparison, no show-through claim.863:7all3 non-qo followers
+afterstandaloneqo on6leaves defeat strict immediateecho; no function/meaning.
 
 GDT855:outside ALL60LM-graded folios, onlyf35/f36/f37 remain, allq05.
 Post-count proof: any newTOOTHED breaks25%quire cap; none adds no mixed new

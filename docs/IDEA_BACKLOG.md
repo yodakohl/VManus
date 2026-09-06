@@ -1653,3 +1653,13 @@ der Vertrag entscheidet ausdrücklich nur die universelle Erklärung aller
 nackten `qo`, nicht jede mögliche Wiederansetzung. Keine Datenabfrage oder
 neue ID; Quellenstatus `CONCRETE_QUESTION_FOR_ROOT_REVIEW`.
 Schreibzuständigkeit zurück bei root.
+
+### Standalone qo echo result — GDT863
+
+**STRICT_ECHO_COUNTEREXAMPLE.** Seven all-reader eligible non-qo followers
+on six physical leaves; four all-reader echo coordinates also retained.
+Examples: f32v.5 `qo kaiin`, f76r.21 `qo olain`, f116r.3 `qo saly`.
+The universal immediate literal echo fails under the fixed source assumptions;
+no general false-start rejection or word-function proof. Full retained census:
+`experiments/yolo/gdt863_standalone_qo_immediate_echo/REPORT.md`.
+No automatic extension to another prefix, delayed echo or fusion test.

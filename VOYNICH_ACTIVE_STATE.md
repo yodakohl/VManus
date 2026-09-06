@@ -6,6 +6,24 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### GDT863 standalone qo strict echo counterexamples (2026-09-06)
+
+Primary: `experiments/yolo/gdt863_standalone_qo_immediate_echo/REPORT.md`.
+Frozen179safe P-line exactqo census retains119reader-occurrences:
+ZL46(total)/18eligible/6echo/12non-echo/28unscorable;
+IT26/25/6/19/1; RF47/29/5/24/18. Eleven eligible exact(locus,index,follower)
+coordinates matchall3, including7non-echo on6physicalleaves:
+f116r3#8 saly;f32v5#5 kaiin;f42v11#1 aiin;f45r3#1 chcthy;
+f76r21#4 olain;f76v7#2 okaiin;f83v13#3 lched. Fourall3echos include
+exposed611f111v21#12 qokain, full15groups exactall3.
+Onlythe strict universal immediate raw-prefix rule fails underfaithfulsource
+andboundaryassumptions. Not allfalse-start mechanisms, a probabilisticpattern,
+physicalwordhood, codeidentity orsemanticfunction. Three readings are oneMS;
+coordinateagreementnotindependentphysicalalignment. Everyrawoccurrence and
+fullcontext/ineligibilityretained; uncertain characters elsewhere unnormalized.
+Publicfreeze8823631d beforecensus; independenteligibility/recordparity/counts
+and replayPASS. Noimages/null/model/otherprefix orautomaticrouteextension.
+
 ### GDT862 material-mirror screen stop (2026-09-06)
 
 Primary: `experiments/yolo/gdt862_f104_material_landmark_mirror_screen/REPORT.md`.
