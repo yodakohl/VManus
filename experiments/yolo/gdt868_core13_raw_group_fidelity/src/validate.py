@@ -8,6 +8,7 @@ import io
 import json
 from pathlib import Path
 import subprocess
+import tempfile
 
 EXP = Path(__file__).resolve().parents[1]
 ROOT = EXP.parents[2]
@@ -41,6 +42,29 @@ def locked():
     require(required <= set(lock), 'incomplete executable preregistration lock')
 
 
+def query_command(source, pages):
+    command = [str(ROOT / 'vmanus-exp'), 'query-tsv', str(ROOT / source['path']), '--selector', source['selector']]
+    for page in pages:
+        command.extend(['--allow', page])
+    command.extend(['--columns', ','.join(source['columns']), '--forbid-prefix', 'f84', '--forbid-prefix', 'f84r'])
+    return command
+
+
+def guard_control():
+    # Synthetic fixture only; the guarded tool rejects the sealed selector
+    # before materializing the fixture's remainder.
+    runtime = EXP / 'runtime'
+    runtime.mkdir(exist_ok=True)
+    with tempfile.TemporaryDirectory(prefix='validator_guard_fixture_', dir=runtime) as temporary:
+        fixture = Path(temporary) / 'fixture.tsv'
+        fixture.write_text('page\tpayload\nf1r\tONE\nf2v\tTWO\nf84r\tFORBIDDEN_FIXTURE\n')
+        source = {'path': str(fixture), 'selector': 'page', 'columns': ['page', 'payload']}
+        done = subprocess.run(query_command(source, ['f1r', 'f2v']), cwd=ROOT, capture_output=True, check=True)
+        require(table(done.stdout) == [{'page': 'f1r', 'payload': 'ONE'}, {'page': 'f2v', 'payload': 'TWO'}], 'real guard repeated-allow fixture')
+        stats = [json.loads(line[len('GUARD_STATS '):]) for line in done.stderr.decode().splitlines() if line.startswith('GUARD_STATS ')]
+        require(stats == [{'selected': 2, 'skipped_forbidden': 1, 'skipped_not_allowed': 0}], 'real guard fixture counts')
+
+
 def project(spec):
     projections = read(EXP / 'artifacts/PROJECTIONS.json')
     with (ROOT / spec['allowlist']).open(newline='') as handle:
@@ -52,9 +76,7 @@ def project(spec):
     require(set(projections) == set(spec['sources']) == {'EVENTS', 'CROSS', 'ATLAS'}, 'three projections required')
     for name, source in spec['sources'].items():
         require(source['selector'] == 'page', 'selector-first page gate')
-        command = [str(ROOT / 'vmanus-exp'), 'query-tsv', str(ROOT / source['path']), '--selector', 'page']
-        command.extend(['--allow', ','.join(pages)])
-        command.extend(['--columns', ','.join(source['columns']), '--forbid-prefix', 'f84', '--forbid-prefix', 'f84r'])
+        command = query_command(source, pages)
         done = subprocess.run(command, cwd=ROOT, capture_output=True, check=True)
         notices = [line[len('GUARD_STATS '):] for line in done.stderr.decode().splitlines() if line.startswith('GUARD_STATS ')]
         require(len(notices) == 1, 'one guard report required')
@@ -165,6 +187,7 @@ def reconstruct(data, spec):
 
 
 def controls():
+    guard_control()
     def group(index, raw, frags, positions, left, right, total=2):
         n = len(frags.split())
         return {'source_group_id': str(index), 'source_group_index': str(index), 'source_group_count': str(total),

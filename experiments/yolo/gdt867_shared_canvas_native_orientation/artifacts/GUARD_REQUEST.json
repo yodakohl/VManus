@@ -1,7 +1,12 @@
 {
-  "tool": "vmanus-exp query-tsv",
-  "path": "experiments/semantic_assumptions/results/tgc001_whole_group_trace_capacity_panel.tsv",
-  "selector": "page",
+  "actual_allow_arguments": [
+    "--allow",
+    "f69v",
+    "--allow",
+    "f70r1",
+    "--allow",
+    "f70r2"
+  ],
   "allow": [
     "f69v",
     "f70r1",
@@ -12,13 +17,17 @@
     "locus",
     "consensus_group_id"
   ],
+  "correction": "Original root command passed one comma-joined allow value; its zero-row result was not sufficient. Correct repeated-allow query at10:21:52UTC also selectszero rows and skips30. Native observations unchanged; no excluded target was found.",
   "forbid_prefix": [
     "f84",
     "f84r"
   ],
+  "path": "experiments/semantic_assumptions/results/tgc001_whole_group_trace_capacity_panel.tsv",
   "result": {
     "selected": 0,
     "skipped_forbidden": 0,
     "skipped_not_allowed": 30
-  }
+  },
+  "selector": "page",
+  "tool": "vmanus-exp query-tsv"
 }

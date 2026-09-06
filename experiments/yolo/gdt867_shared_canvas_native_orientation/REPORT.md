@@ -41,3 +41,13 @@ the visual observations. Exact root notes are in OBSERVATION.json.
 
 Budget starts10:01:29UTC, intended result publication by10:18UTC. The ten-hour
 research mandate remains active until at least13:40:45UTC.
+
+## Guard argument replay correction
+
+At10:21:52UTC root discovered the original root TGC command used a single
+comma-joined allow-value, so its zero result alone did not validate the stated
+three-selector check. A corrected command with three repeated --allow flags
+also selectszero rows and skips30. GUARD_REQUEST_V1 preserves the original
+record; GUARD_REQUEST now records the executed correction. No excluded target
+was found; no native observation, source hash or admission changes. This is
+a procedural correction, not new manuscript evidence.

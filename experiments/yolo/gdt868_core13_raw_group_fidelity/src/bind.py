@@ -8,7 +8,7 @@ up=['experiments/yolo/gdt808_exact_relation_slot_residual_bridge/REPORT.md','exp
 lock=E/'src/PREREG_LOCK.json'
 if a.register:
     assert not lock.exists()
-    bound=[*sorted((E/'src').glob('*.py')),E/'src/SPEC.json',E/'METHOD.md',E/'PREREGISTRATION.md']+[ROOT/n for n in up]
+    bound=[*sorted((E/'src').glob('*.py')),E/'src/SPEC.json',E/'METHOD.md',E/'PREREGISTRATION.md',E/'AMENDMENT_V2.md',E/'src/PREREG_LOCK_V1.json']+[ROOT/n for n in up]
     write(lock,{p.relative_to(ROOT).as_posix():sha(p) for p in bound})
 for name,h in json.loads(lock.read_text()).items():assert sha(ROOT/name)==h,name
 validation_file=E/'artifacts/VALIDATION.json'

@@ -31,6 +31,9 @@ current-route summaries in place; put history in its existing registry.
 - Reuse a completed experiment's admitted reader or compact artifact when it
   contains the needed information. Obtain any new mixed-table projection through
   the existing selector-first query-tsv guard; never broaden admission implicitly.
+  Repeat `--allow` for each page, e.g. `--allow f1r --allow f2v`; do not join
+  allow-values with commas. Only `--columns page,locus` takes a comma list.
+  An unexpected zero-row projection is an input failure, not missing evidence.
 - Share one precise input packet across independent subtasks. State the question,
   source paths, allowed scope and output ownership; ask for interpretations as
   well as checks. Avoid multiple agents repeatedly locating the same files.

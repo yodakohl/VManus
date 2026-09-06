@@ -416,3 +416,11 @@ allthree readers and require complete focal line parity before any mapped
 category; no model refit. Agent independently authors validator, targetsource
 projections not yet computed. One illustrative865metadata row was printed
 during source navigation, disclosed. Budget through10:35UTC.
+
+GDT868 V1publicb05febf5 at10:20:25UTC; runnerandvalidator selectedzero rows due
+to a shared --allow argument-encoding bug, population gateSTOP. No source
+target payload/categories opened. ExplicitV2technical amendment preserves
+originalattemptartifacts/lock; actual-CLI synthetic multiple-allow controls
+added before realprojection. Root867guard usedthe same joinedvalue mistake;
+correct repeatedallow queryat10:21:52UTC alsozero/30skipped, observations
+unchanged. Recordboth corrections ratherthan claim scientificprogress.

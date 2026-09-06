@@ -1,5 +1,5 @@
 """Retrospective fixed-event raw source fidelity; no model fit."""
-import csv, hashlib, io, json, subprocess
+import argparse, csv, hashlib, io, json, subprocess, tempfile
 from collections import defaultdict, Counter
 from pathlib import Path
 E=Path(__file__).resolve().parents[1]; ROOT=E.parents[2]
@@ -11,12 +11,30 @@ def require(ok,message):
     if not ok:raise ValueError(message)
 def table(rows,cols):
     f=io.StringIO(newline='');w=csv.DictWriter(f,fieldnames=cols,delimiter='\t',lineterminator='\n');w.writeheader();w.writerows(rows);return f.getvalue()
+def query_command(source,pages):
+    args=[str(ROOT/'vmanus-exp'),'query-tsv',str(ROOT/source['path']),'--selector',source['selector']]
+    for page in pages:args.extend(['--allow',page])
+    args.extend(['--columns',','.join(source['columns']),'--forbid-prefix','f84','--forbid-prefix','f84r'])
+    return args
+
+def controls():
+    R.mkdir(exist_ok=True)
+    with tempfile.TemporaryDirectory(dir=R) as tmp:
+        path=Path(tmp)/'fixture.tsv'
+        path.write_text('page\tpayload\nf1r\tONE\nf2v\tTWO\nf84r\tFORBIDDEN_FIXTURE\n')
+        proc=subprocess.run(query_command({'path':str(path),'selector':'page','columns':['page','payload']},['f1r','f2v']),capture_output=True,check=True)
+        rows=list(csv.DictReader(io.StringIO(proc.stdout.decode()),delimiter='\t'))
+        require(rows==[{'page':'f1r','payload':'ONE'},{'page':'f2v','payload':'TWO'}],'guard multi-allow control')
+        stats=json.loads(proc.stderr.decode().strip().removeprefix('GUARD_STATS '))
+        require(stats=={'selected':2,'skipped_forbidden':1,'skipped_not_allowed':0},'guard fixture counts')
+    print('PASS_SYNTHETIC_MULTI_ALLOW_GUARD_NO_TARGET_ACCESS')
+
 def acquire(spec):
     with (ROOT/spec['allowlist']).open(newline='') as f:pages=[r['page'] for r in csv.DictReader(f,delimiter='\t')]
     require(len(pages)==len(set(pages))==179 and not any(p.startswith('f84') for p in pages),'allowlist')
     data={};projections={};R.mkdir(exist_ok=True)
     for name,source in spec['sources'].items():
-        args=[str(ROOT/'vmanus-exp'),'query-tsv',str(ROOT/source['path']),'--selector',source['selector'],'--allow',','.join(pages),'--columns',','.join(source['columns']),'--forbid-prefix','f84','--forbid-prefix','f84r']
+        args=query_command(source,pages)
         proc=subprocess.run(args,capture_output=True,check=True)
         stats=[json.loads(line.removeprefix('GUARD_STATS ')) for line in proc.stderr.decode().splitlines() if line.startswith('GUARD_STATS ')]
         require(len(stats)==1,'guard stats '+name)
@@ -95,6 +113,8 @@ def audit(spec,data):
     return result
 
 def main():
+    parser=argparse.ArgumentParser();parser.add_argument('--controls',action='store_true');args=parser.parse_args()
+    if args.controls:controls();return
     for p,h in read(E/'src/PREREG_LOCK.json').items():require(digest((ROOT/p).read_bytes())==h,'locked bytes '+p)
     spec=read(E/'src/SPEC.json')
     try: result=audit(spec,acquire(spec))
