@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **842**
-- Experiment-associated tracked files: **15,777** (1.4 GiB)
+- Experiment-associated tracked files: **15,784** (1.4 GiB)
 - Structured GDT337+ experiments: **507**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT843 | Star-caption source provenance intake | `REGISTERED_UNSCORED` | — | 12 | 17.9 KiB | 3 | STRUCTURED_YOLO |
+| GDT843 | GDT843_source_intake_result | `PROVENANCE_INTAKE_ONLY_NO_AUTHORIAL_EDGE` | [report](../experiments/yolo/gdt843_star_caption_provenance_intake/REPORT.md) | 19 | 43.0 KiB | 3 | STRUCTURED_YOLO |
 | GDT842 | GDT842_outer_star_result | `VISUAL_RING_EXTENSION_PASS` | [report](../experiments/yolo/gdt842_star_outer_ring_extension/REPORT.md) | 16 | 22.6 KiB | 1 | STRUCTURED_YOLO |
 | GDT841 | GDT841_star_centre_result | `VISUAL_PILOT_CAPACITY_PASS` | [report](../experiments/yolo/gdt841_star_centre_visual_reliability/REPORT.md) | 16 | 19.6 KiB | 2 | STRUCTURED_YOLO |
 | GDT840 | GDT840_do_label_prose_result | `NO_ADDITIONAL_FORWARD_BASE` | [report](../experiments/yolo/gdt840_do_label_prose_discovery/REPORT.md) | 16 | 32.9 KiB | 2 | STRUCTURED_YOLO |

@@ -3,18 +3,27 @@ Updated: 2026-09-06. Read first.
 
 ## Current mandate and effort limit
 
-Latest request: continue. IP001/GDT842 outer-ring extension passes9/10agreement:
-3pigmented,4outline,2bothuncertain,1disagreement; seven clear cases, one photo.
-Same-photo visual capacity now covers both rings; do not keep growing colourcounts.
-Next check is source-native figure-star/inscription assignment, before text scoring;
-no star-name inference from proximity. IP003 lacks a new discriminator.
-Producer maintains `docs/IDEA_BACKLOG.md` during active work, no background daemon.
+Latest request: continue. GDT843 links9/10starcentres to old figure crops,
+including6/7clearcases; O8/A14 stays missing. Raw captions include multiple groups.
+These are legacy context joins, not authorial star-label ownership. GDT388empty
+packet has0eligibleedges; do not score or promote colour/name semantics.
+Preserve GDT841/842visual positives and GDT843candidate deck; no more same-photo
+colourcounts. New independent assignment/whole-record relation needed.
+Producer maintains `docs/IDEA_BACKLOG.md`; no next scientific test selected.
 
 Goal: transferable translation. Confirmed English lexemes: **0**;
 confirmed German lexemes/clauses: **0**. No new fit or page admission selected.
 GPU/subagents authorized; no other LLM API keys. No public decipherment-approach
 searches: the user says these are exhausted. Understand project history and
 manuscript appearance before fixing a route; use primary internal evidence.
+
+## Latest source intake — GDT843
+
+`experiments/yolo/gdt843_star_caption_provenance_intake/REPORT.md`.
+Publicf3a16cf3 after metadata inspection, before raw-caption query/joins.
+9unique crop links,1missing;6clear linked contexts. 42rawgroups/27reader-loci;
+no collapsing the2/4-group captions or reader variants. Source/reverse-geometry
+checks pass; PROVENANCE_INTAKE_ONLY_NO_AUTHORIAL_EDGE. No semantic edge/score.
 
 ## Latest visual extension — GDT842
 
@@ -34,36 +43,17 @@ VISUAL_PILOT_CAPACITY_PASS; only local appearance readability. Same photograph,
 not independent witnesses. No new image/selector, label query, score or meaning.
 Recorded judgments unchanged; source-lock and independent matrix arithmetic pass.
 
-## Previous manuscript screen — GDT840
+## Earlier screens and control
 
-`experiments/yolo/gdt840_do_label_prose_discovery/REPORT.md`.
-Public41239f95;179selectors, raw singleton-L/P exactXdo/X. Only knownofal
-forward andshreverse ineachreader: NO_ADDITIONAL_FORWARD_BASE. No suffix/name.
-Sixcards/50records, source/card checks pass. This do generalization stays closed.
-
-## Latest manuscript screens — GDT839 / GDT838
-
-`experiments/yolo/gdt839_boundary_conservation_screen/REPORT.md`.
-Public9a3a8df2 before extraction. Exact joined adjacent groups across odd admitted
-folios; two atoms/group, eight total, certain gap, three-reader local agreement.
-13634 adjacent pairs;4169 eligible occurrences. Zero cross-folio matches with
-split offsets differing1–3atoms: CAPACITY_STOP. No threshold repair or pipeline.
-Independent pair census and byte-exact guarded replay pass; extraction shared829.
-No lexical-space proof, general rejection, null, meaning, held or image access.
-
-`experiments/yolo/gdt838_recoded_passage_capacity/REPORT.md`.
-Public bba4741d; odd88selectors, ZL3b16-group windows,6types/4repeated,
-6nonidentity mappings. 8490windows,5392uncertain gaps,14eligible on5folios,
-zero patterns: CAPACITY_STOP; no general rejection. Pair/replay checks pass.
-
-## Previous control — GDT837
-
-`experiments/yolo/gdt837_scg_integrated_wholeword_control/REPORT.md`.
-48fits/six selections: both arms98.2512%words,99.6947%characters; suffix ae→a
-leaves33/34 exact active packages. STRICT_RECOVERY_FAIL; constraint gain0.
-Wrong key beats oracle31589.171877nats;45/48 restarts sole suffix error,
-three have extras,none exact. Replay passes; score issue already known834.
-No manuscript reading. Supplied boundaries/capacities; no successor selected.
+Primary reports via `./vmanus-work lookup GDT840 GDT839 GDT838 GDT837`.
+GDT840: only knownofal forward Xdo-label/X-prose; no additional base. Stop do
+extension; do not reject the local relation or infer names. GDT839:4169eligible
+adjacent pairs,zero cross-folio conserved strings with shifted1–3atom splits.
+GDT838:8490windows,14eligible on5folios,zero fixed16-group recoding patterns.
+These narrow capacity stops do not generally reject word boundaries or ciphers.
+GDT837:48fits/sixselected controls,98.2512%words,wrong suffix ae→a,33/34packages;
+STRICT_RECOVERY_FAIL, wholeword-constraint gain0, score issue already known834.
+No manuscript meaning or automatic control-decoder successor follows.
 
 ## Earlier control claims remain unchanged
 

@@ -19,15 +19,16 @@ eine erwünschte Übersetzung zu erhalten. Zeitbudgets umfassen Prüfung und Pub
 
 ### IP001 — Füllung getragener Sterne innerhalb eines Ringes
 
-Status: `VISUAL_EXTENSION_PASS` — GDT841/GDT842 abgeschlossen.
-[Äußerer Ring](../experiments/yolo/gdt842_star_outer_ring_extension/REPORT.md):
-9/10getrennteUrteile stimmen überein, darunter3gefärbt4umrandet2unklar;
-ein Fall Aunklar/Bgefärbt. Sieben klare Fälle im äußeren Ring.
-[Innerer Pilot](../experiments/yolo/gdt841_star_centre_visual_reliability/REPORT.md):
-4/5Übereinstimmung. Beide Ringe derselben Aufnahme, keine unabhängigen Folios.
-Nächster Schritt: vorhandene quellennahe Figur-Stern-/Beschriftungszuordnung
-prüfen, keine Sternnamen aus Nähe und kein weiterer gleichartiger Farbzensus.
-Noch keine Textkorrelation, keine historische Farbklasse und keine Wortbedeutung.
+Status: `CONTEXT_DECK_ONLY_NEEDS_INDEPENDENT_BINDING`.
+[GDT843](../experiments/yolo/gdt843_star_caption_provenance_intake/REPORT.md)
+verbindet9/10Sternpunkte eindeutig mit alten Figuren-Crops; O8/A14fehlt.
+Sechs der sieben klaren Fälle haben damit einen Beschriftungs-Locus. Rohlesungen
+bleiben vollständig: auch2/4Gruppen und Varianten. Keine autorielle Sternbindung,
+GDT3880eligibleedges, keine Farb-/Wortkorrelation oder Bedeutungsbeförderung.
+[GDT842](../experiments/yolo/gdt842_star_outer_ring_extension/REPORT.md)9/10
+Urteilsübereinstimmung und [GDT841](../experiments/yolo/gdt841_star_centre_visual_reliability/REPORT.md)4/5bleiben lokale visuelle Positivbefunde.
+Nächster Schritt braucht unabhängige autorielle Zuordnung oder eine neu begründete
+Gesamt-Record-Relation; weitere Farbzählung oder nächste Beschriftung hilft nicht.
 
 ## Priorisierte Warteschlange
 
@@ -213,3 +214,31 @@ würde bekannte Grenzen wiederholen. IP003 ist `NEEDS_DISCRIMINATOR`.
 Auch die kompakte NEXT_STEP-Vorarbeit wurde erneut berücksichtigt. Keine neue
 Idee ohne konkreten neuen Discriminator eingetragen. Keine Roh-TSV, Bilder,
 Programme oder Experimente geöffnet/ausgeführt. Schreibzuständigkeit an root frei.
+
+## Produktionsspur: geprüfte Datenlücke statt neuer Test
+
+Runde 4 prüfte die positive physische Schreibprozessbeobachtung
+[RBR001](../experiments/semantic_assumptions/results/rbr001_f67r2_red_brown_result_report.md):
+f67r2.3 und f67r2.10 zeigen abweichende braune Unterstriche unter roter Nachzeichnung.
+Der anschließende [RBR002-Primärbericht](../experiments/semantic_assumptions/results/rbr002_complete_underlayer_capacity_result_report.md)
+schließt aber den kompletten sichtbaren Ring bereits ab: nur die zwei bekannten
+von zwölf Records, null von neun neuen, verfehlen sämtliche Kapazitätsgrenzen.
+Die zuerst attraktiv wirkende Idee, die frühere Textfassung aus dem ganzen Ring
+zu gewinnen, wird deshalb nicht als neue ID oder weiterer Bildtest angeboten.
+
+Der konkret fehlende Input ist eine **neue physische/spektrale Aufnahme von f67r2**,
+die Unterstriche an denselben vorab fixierten zwölf Records trennen kann; neue
+Kontraste oder Zuschnitte derselben Aufnahme genügen nicht. f67r2 ist bereits
+visuell zugelassen. Ein zulässiger nächster Beschaffungsschritt wäre ausschließlich
+ein zweiminütiger lokaler Metadatenabgleich vorhandener Spektralquellen gegen die
+RBR002-Aufnahme: anderer Aufnahmezustand, exakter Folio-/Panelbezug, Wellenband und
+Registrierung müssen nachweisbar sein, bevor Bilder geöffnet werden. Fehlt ein
+solcher bereits verfügbarer Datensatz, stoppt die lokale Beschaffung; es wird
+keine externe Aufnahmeverfügbarkeit unterstellt oder Kontaktaufnahme gestartet.
+Dieser Metadatenabgleich wurde in Runde 4 noch nicht ausgeführt.
+
+Duplikatprüfung: `writing process line space compression hyphenation ink retracing
+stroke omission`, danach `f67r2 twelve sector underlayer recovery census red brown
+retracing`; RBR001/RBR002-Primärberichte und gezielte aktive Registerhinweise gelesen.
+Kein neuer Manuskriptbefund, keine neue Entzifferungsidee als bereit ausgegeben.
+Schreibzuständigkeit an root zurückgegeben.

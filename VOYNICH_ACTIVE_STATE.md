@@ -6,6 +6,15 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### GDT843 star-caption provenance intake (2026-09-06)
+
+Primary: `experiments/yolo/gdt843_star_caption_provenance_intake/REPORT.md`.
+Nine unique legacy figure-crop links for10starcentres; O8/A14missing;6/7clear
+contexts linked. 42rawgroups over27reader-loci, multi-group captions preserved.
+PROVENANCE_INTAKE_ONLY_NO_AUTHORIAL_EDGE. Reverse geometry/source replay pass;
+GDT388empty packet0eligibleedges, not score-ready. No authorial ownership,
+word/fill correlation or meaning. Visual841/842observations remain unchanged.
+
 ### GDT842 complete outer-star ring extension (2026-09-06)
 
 Primary: `experiments/yolo/gdt842_star_outer_ring_extension/REPORT.md`.
