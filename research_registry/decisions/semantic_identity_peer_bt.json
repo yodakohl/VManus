@@ -1,0 +1,407 @@
+{
+  "review_id": "PEER_BT",
+  "reviewed_artifact": "research_registry/decisions/semantic_identity_proposal_bt.json",
+  "reviewed_artifact_sha256": "f50467bbd86a7bb80abbc1b02fe2972588e669bad893cc0d16c323b38c38b894",
+  "status": "APPROVE_WITH_EXPLICIT_SCOPE_LIMITS",
+  "scope_ids": [
+    "SEM:f65f4053975bbf1cfb68",
+    "SEM:16727b10daa0ba5b439c",
+    "SEM:071e926ff24edcb664f1",
+    "SEM:4b10008c16172e4631cc",
+    "SEM:a6a548c47e8792e586fb",
+    "SEM:0fefd3af71cc395b85f4",
+    "SEM:07f9162c63a43be0d20c",
+    "SEM:a5e3a26c43daf911604c",
+    "SEM:3db62205301363f9ba20",
+    "SEM:7b06d204e17a27206553",
+    "SEM:d403258d5962736ecd5f",
+    "SEM:4f06044c1bc127c6348b",
+    "SEM:702631f5e8f5e8b532f7"
+  ],
+  "counts": {
+    "comparisons_reviewed": 7,
+    "related_not_equivalent_approved": 2,
+    "unresolved_approved": 5,
+    "equivalences_proposed": 0,
+    "current_card_bindings_verified": 13,
+    "primary_quote_occurrences_verified": 19,
+    "unique_primary_quotes_verified": 12,
+    "additional_composite_navigation_quotes_verified": 1
+  },
+  "reviews": [
+    {
+      "id": "BT:QOCKHEY",
+      "decision": "approve_unresolved",
+      "proposed_outcome": "identity_unresolved",
+      "reason": "Pass146 explicitly compresses a sentence-sized card to KURZPASSAGE. The composition report explicitly calls its OK+CKH+E+Y construction the short passage program, with conduit supplied by the image. That makes missing ansetzen insufficient evidence of nonidentity. Neither exact report establishes that both cards preserve the same semantic contribution independently of their local owner arguments.",
+      "scope_limits": [
+        "No equality edge, nonidentity edge or blanket rejection of the short default."
+      ],
+      "member_ids": [
+        "SEM:f65f4053975bbf1cfb68",
+        "SEM:16727b10daa0ba5b439c"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_specialist_owner_scrub_hundred_forty_sixth/HUNDRED_FORTY_SIXTH_SPECIALIST_SCRUB_REPORT.md",
+          "line": 3,
+          "line_end": 15,
+          "quote": "All 132 learned specialist cards were reread. 52 card defaults covering 54 events were shortened. The remaining 80 were already compact enough.\n\nThe main corrections are deliberately plain: Wurzel/Posten becomes GRUNDTEIL, Zutat becomes ZUGABE,\nGefäß becomes AUFNAHME, Tuch becomes TRÄGEREINLAGE, Flüssigkeitslauf becomes LAUF, Zielstelle becomes\nZIEL, Ausgang becomes QUELLE, Durchgang becomes PASSAGE and Ansatz becomes BEREITUNG. These are learned\nworkshop entries; the exact pictured plant, vessel, basin, cloth, source or target remains an owner argument.\n\nThree sentence-sized entries are compressed further: SSHKCHDY is HALTETRANSFER; SCHLUSS, CHEECKHODY is\nLANGPASSAGE; SCHLUSS, and QOCKHEY is KURZPASSAGE. No card is left without a concrete default. The complete\n381-event and 116-statement readings are regenerated so the shorter words can be judged in place.\n\nNext rank these specialist values by recurrence and cross-record portability. Promote only genuinely shared\nshort words; keep one-off values as learned nomenclator entries rather than pretending every visible part is a stem.",
+          "sha256": "032996b1b4d22f407ba70b958f393d850afc9cbfa4c2382357329c1f67281da1"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_singleton_composition_rescue/SINGLETON_COMPOSITION_REPORT.md",
+          "line": 27,
+          "line_end": 48,
+          "quote": "## Die staerksten Reparaturen\n\n| Karte | alte Lesung | neue Zerlegung | neue kurze Lesung |\n|---|---|---|---|\n| `solkaiin` | Seihtuch | `SOLK + AIIN` | bis Sollmass sammeln |\n| `sheckhy` | Ueberlauf | `CKH + E + Y` | kurz durchleiten |\n| `qockhey` | Ueberlauf | `OK + CKH + E + Y` | kurzen Durchlauf ansetzen |\n| `chary` | antrocknen | `AR + Y` | daraus |\n| `raly` | Seitenarm | `AL + Y` | diesen Posten dorthin |\n| `choy` | abwaschen | `HO + Y` | diese Zutat |\n| `lcheey` | Koerperstelle | `L + CHEEY` | Klarlauf abfuehren |\n| `shecthy` | handwarm | `CTH + E + Y` | kurz bereit halten |\n| `chckhal` | Haltezeit | `CKH + AL` | zur Zielstelle durchleiten |\n| `sheckhal` | Mittelmass | `CKH + E + AL` | kurz zur Zielstelle durchleiten |\n| `qotedaiin` | Wanne | `OT + E + AIIN` | kurzes Folgemass |\n| `cheedar` | Auffangbecken | `CHED + AR` | von dort umsetzen |\n| `qolchey` | Arbeitsbecken | `OL + Y` | diesen Posten weiterfuehren |\n\nVier besonders teure Bildwoerter verschwinden damit gemeinsam: zwei\nverschiedene UEberlaufkarten, ein Seihtuch und eine Wanne. Die Bilder duerfen\nweiterhin einen Durchlauf, ein Tuch oder ein Becken zeigen; diese Dinge stecken\naber nicht mehr unnoetig als Substantive in der einzelnen Karte.",
+          "sha256": "997aad4c958c4eb1bc640983d723f694098fbf7e289fb983dd735914af736395"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_singleton_composition_rescue/SINGLETON_COMPOSITION_REPORT.md",
+          "line": 88,
+          "line_end": 96,
+          "quote": "### f83r, B4-S014\n\n```text\nAnsatz -> dieser Posten -> kurzen Durchlauf ansetzen\n-> Wasserlauf schliessen; Schluss\n```\n\nHier braucht man keinen bezeichneten Ueberlauf mehr. Die Karte selbst ist das\nkurze Durchlaufprogramm; die Zeichnung liefert die lokale Leitung.",
+          "sha256": "997aad4c958c4eb1bc640983d723f694098fbf7e289fb983dd735914af736395"
+        }
+      ],
+      "card_basis": {
+        "SEM:f65f4053975bbf1cfb68": "1346a387287f4b2daecea1cb80d824c2fafa230826b7a57131a84cab8be25e93",
+        "SEM:16727b10daa0ba5b439c": "14bb103422ef442ed0770c3f7b48cc8824c673f7d28b69980d4c6dda0086f97b"
+      },
+      "effective_basis": {
+        "SEM:f65f4053975bbf1cfb68": "828c2fe2a753b1f509b8cf5eda999388f475bd83c6395d5360642ca46b7df6b5",
+        "SEM:16727b10daa0ba5b439c": "0783dea121a57075c80badb55c04580bfb942bc0fb9bfae86851318f4b571cf7"
+      }
+    },
+    {
+      "id": "BT:OIIIN",
+      "decision": "approve_related_not_equivalent",
+      "proposed_outcome": "propose_related_not_equivalent",
+      "reason": "The compared target is the entire eight-action B1 ladder and ordered process, not its embedded OIIIN subclaim. Pass147 only asserts the Bio-shared ARBEITSSTUFE whole-card default. Their complete claims differ in required actions, process relations and source scope; related_not_equivalent is justified at these exact card IDs.",
+      "scope_limits": [
+        "Do not export this edge as ARBEITSSTUFE != SOLLSTAND. That embedded lexical comparison remains unresolved; no specializes relation follows."
+      ],
+      "member_ids": [
+        "SEM:071e926ff24edcb664f1",
+        "SEM:4b10008c16172e4631cc"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_recurrent_specialist_promotion_hundred_forty_seventh/HUNDRED_FORTY_SEVENTH_PROMOTION_REPORT.md",
+          "line": 3,
+          "line_end": 14,
+          "quote": "The 132 specialist cards divide cleanly into 122 singletons, four cards repeated only inside one record,\nand six cards repeated across two Biological records. The last six cover twelve events and are promoted\nto a bounded Biological shared deck; none is yet claimed to bridge Herbal and Biological.\n\nThe portable readings are OIIIN=ARBEITSSTUFE, DAIN=EINLAGE, QCTHEY=KURZ VORBEREITEN, OLKAIN=WEITERER\nANTEIL, SHEDAL=AM ZIEL ABSETZEN and QOTEEDY=LANGE FOLGESTUFE; SCHLUSS. DAIN is deliberately broadened\nfrom TRÄGEREINLAGE because its second owner does not independently display cloth. The four within-record\nrepetitions remain local; the 122 singletons remain memorized nomenclator cards.\n\nThe active vocabulary is therefore 47 cards: the earlier 41 plus six Bio-shared cards. This is a better\nworkshop economy without pretending recurrence on one page proves a universal stem. Next use the resulting\n47-card deck to reconstruct the six complete Biological records in terse apprentice speech.",
+          "sha256": "026edbd5178f374d74cf974dc540820e1bd67d1a92d1c59ae6d1a694bae871c3"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_b1_process_ladder_four_hundred_thirty_first/FOUR_HUNDRED_THIRTY_FIRST_REPORT.md",
+          "line": 3,
+          "line_end": 32,
+          "quote": "Die B1-Karten für Ansetzen, Halten, Wärmen, Absetzen und Auffangen werden jetzt\nals ein Lehrsystem gelesen. Der Schreiber lernt keine langen Übersetzungen,\nsondern eine Basisoperation, einen Grad, einen Adresszusatz und gegebenenfalls\neine Schlussform.\n\n## Leiter\n\n- `qokey/qokedy`: KURZ ANSETZEN, offen oder mit Schluss;\n- `okeey`: LÄNGER ANSETZEN, offen;\n- `qokeedal`: LÄNGER AN DER STELLE HALTEN;\n- `dsheol`: KURZ HALTEN und fortsetzen;\n- `cheky`: KURZ WÄRMEN;\n- `shedy/cheedy/tedy`: KURZ ABSETZEN und schließen;\n- `olkeedy`: LÄNGER AUFFANGEN und schließen;\n- `oiiin`: SOLLSTAND einstellen.\n\nDie wichtigste Revision betrifft die vier Erscheinungen derselben\n`shedy/cheedy/tedy`-Karte: Ihr E-Grad wird nicht mehr unterschlagen. Sie heißt\njetzt überall KURZ ABSETZEN; SCHLUSS.\n\nDamit besitzt B1 eine verständliche Stationslogik: einen Posten ansetzen,\ngegebenenfalls an einer Stelle länger halten, kurz wärmen, kurz absetzen und\ndas getrennte Produkt länger auffangen. Das ist als Becken-/Werkstattablauf\ndirekter als eine Sammlung unverbundener medizinischer Verben. Die Figuren\nkönnen den Gebrauch als Bad zeigen, ohne die Kartenbedeutungen zu verändern.\n\nNoch offen bleiben zwei asymmetrische Lücken: B1 besitzt keine lange\nWärmekarte und keine kurze Auffangkarte. Diese müssen nicht erfunden werden;\nder Schreiber kann für seltene Kombinationen Ganzkarten oder lokale\nExemplare verwenden.",
+          "sha256": "694810db46a6943c45b0f97e20b196881bff214914b5fafc233bec0579ba919a"
+        }
+      ],
+      "card_basis": {
+        "SEM:071e926ff24edcb664f1": "b25ea042451f1e42adcded733be23d44598edffc9bf7ab6640ebbf294c3369f1",
+        "SEM:4b10008c16172e4631cc": "a69efd9f407ad5dcc1ebe8db192cc90e570a9dee85c536161bbd4c98f0ef16d8"
+      },
+      "effective_basis": {
+        "SEM:071e926ff24edcb664f1": "b65b734fa9454080632be895a841e7b76b0bf894266be77e4eb0d91fb04dd303",
+        "SEM:4b10008c16172e4631cc": "d20941cf44186cbb99a7364c7d7445eaadd1327a401622b7b97df9d716b0e7db"
+      }
+    },
+    {
+      "id": "BT:DAIN",
+      "decision": "approve_related_not_equivalent",
+      "proposed_outcome": "propose_related_not_equivalent",
+      "reason": "Pass147 expressly broadens TRÄGEREINLAGE to EINLAGE after the second owner fails to independently display cloth. The compared directional card explicitly retains durch Tuch. Thus the broad default deliberately lacks the cloth requirement and through-cloth relation of the other full assertion. This is a source-stated broadening, not an inference from a short title.",
+      "scope_limits": [
+        "The source does not establish cloth absence, refute every cloth use, or document a direct revision of the particular durch Tuch registry card. Do not create supersedes or specializes from this evidence."
+      ],
+      "member_ids": [
+        "SEM:a6a548c47e8792e586fb",
+        "SEM:0fefd3af71cc395b85f4"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_recurrent_specialist_promotion_hundred_forty_seventh/HUNDRED_FORTY_SEVENTH_PROMOTION_REPORT.md",
+          "line": 3,
+          "line_end": 14,
+          "quote": "The 132 specialist cards divide cleanly into 122 singletons, four cards repeated only inside one record,\nand six cards repeated across two Biological records. The last six cover twelve events and are promoted\nto a bounded Biological shared deck; none is yet claimed to bridge Herbal and Biological.\n\nThe portable readings are OIIIN=ARBEITSSTUFE, DAIN=EINLAGE, QCTHEY=KURZ VORBEREITEN, OLKAIN=WEITERER\nANTEIL, SHEDAL=AM ZIEL ABSETZEN and QOTEEDY=LANGE FOLGESTUFE; SCHLUSS. DAIN is deliberately broadened\nfrom TRÄGEREINLAGE because its second owner does not independently display cloth. The four within-record\nrepetitions remain local; the 122 singletons remain memorized nomenclator cards.\n\nThe active vocabulary is therefore 47 cards: the earlier 41 plus six Bio-shared cards. This is a better\nworkshop economy without pretending recurrence on one page proves a universal stem. Next use the resulting\n47-card deck to reconstruct the six complete Biological records in terse apprentice speech.",
+          "sha256": "026edbd5178f374d74cf974dc540820e1bd67d1a92d1c59ae6d1a694bae871c3"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_specialist_owner_scrub_hundred_forty_sixth/HUNDRED_FORTY_SIXTH_SPECIALIST_SCRUB_REPORT.md",
+          "line": 3,
+          "line_end": 8,
+          "quote": "All 132 learned specialist cards were reread. 52 card defaults covering 54 events were shortened. The remaining 80 were already compact enough.\n\nThe main corrections are deliberately plain: Wurzel/Posten becomes GRUNDTEIL, Zutat becomes ZUGABE,\nGefäß becomes AUFNAHME, Tuch becomes TRÄGEREINLAGE, Flüssigkeitslauf becomes LAUF, Zielstelle becomes\nZIEL, Ausgang becomes QUELLE, Durchgang becomes PASSAGE and Ansatz becomes BEREITUNG. These are learned\nworkshop entries; the exact pictured plant, vessel, basin, cloth, source or target remains an owner argument.",
+          "sha256": "032996b1b4d22f407ba70b958f393d850afc9cbfa4c2382357329c1f67281da1"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_directional_completion/SELECTED_DIRECTIONAL_COMPLETION_REPORT.md",
+          "line": 99,
+          "line_end": 117,
+          "quote": "## Seven recurrent whole cards become compositional\n\nThe ten most frequent remaining whole cards were reviewed separately. Three\nkeep their useful learned values (`chety|chty=zerkleinern`, `dain=durch Tuch`,\n`dl=Badezusatz`). Seven now use the existing component inventory:\n\n| Card | Selected composition | New default |\n|---|---|---|\n| `dchol|schol` | renderer + `OL` | vom vorigen Posten nehmen |\n| `oiiin|soiiin` | renderer + `IIN` grade | vorgeschriebener Grad |\n| `olkain|qolkain` | `OL+KAIN` | mit einer weiteren Portion fortfahren |\n| `otchey` | `OT` + wrapped `Y` | den nächsten Posten wählen |\n| `otchor|qotchor` | `OT` + renderer + `OR` | die nächste Zubereitung |\n| `qcthey|shcthey` | ready + hold + current item | den laufenden Posten bereit halten |\n| `shedal` | rest/settle + `AL` | Ruhe- oder Absetzstelle |\n\n`olkain` is the clearest correction: its two occurrences do not share one\nunique lower-basin owner, while `OL=continue` and `KAIN=measured portion`\nalready exist independently.",
+          "sha256": "b5b313994f43aee0ca6ffe844a40a84baf002417460459be63fdbf4740305a45"
+        }
+      ],
+      "card_basis": {
+        "SEM:a6a548c47e8792e586fb": "736314f9873fe808b845951cba986e15dfe6f7fcbf6a7fed91fdfbdcb1c5a496",
+        "SEM:0fefd3af71cc395b85f4": "ec1d744af7b9cffc2185bf2bbee9977b9a8784a20aa8e9ade3789b6530c72f38"
+      },
+      "effective_basis": {
+        "SEM:a6a548c47e8792e586fb": "9a46a3e3ef666495f5f2ac6a99c42b0d797b2564d18bc8e697354771b9c0b082",
+        "SEM:0fefd3af71cc395b85f4": "fbc05ffbe6ade8d56477d8282652e3bc85dce8085c595103f3b16cce077ad930"
+      }
+    },
+    {
+      "id": "BT:QCTHEY",
+      "decision": "approve_unresolved",
+      "proposed_outcome": "identity_unresolved_source_counterpart_not_separately_addressed",
+      "reason": "KURZ VORBEREITEN and ready+hold+current item -> den laufenden Posten bereit halten have an unresolved preparation-versus-maintaining-readiness relation. The source-defined qcthey|shcthey construction is real, but neither report equates its semantic arguments or phase with the short Bio-shared default.",
+      "scope_limits": [
+        "The missing separately addressable counterpart is only a bounded-search finding; no invented ID or synonym-based equality."
+      ],
+      "member_ids": [
+        "SEM:07f9162c63a43be0d20c"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_recurrent_specialist_promotion_hundred_forty_seventh/HUNDRED_FORTY_SEVENTH_PROMOTION_REPORT.md",
+          "line": 3,
+          "line_end": 14,
+          "quote": "The 132 specialist cards divide cleanly into 122 singletons, four cards repeated only inside one record,\nand six cards repeated across two Biological records. The last six cover twelve events and are promoted\nto a bounded Biological shared deck; none is yet claimed to bridge Herbal and Biological.\n\nThe portable readings are OIIIN=ARBEITSSTUFE, DAIN=EINLAGE, QCTHEY=KURZ VORBEREITEN, OLKAIN=WEITERER\nANTEIL, SHEDAL=AM ZIEL ABSETZEN and QOTEEDY=LANGE FOLGESTUFE; SCHLUSS. DAIN is deliberately broadened\nfrom TRÄGEREINLAGE because its second owner does not independently display cloth. The four within-record\nrepetitions remain local; the 122 singletons remain memorized nomenclator cards.\n\nThe active vocabulary is therefore 47 cards: the earlier 41 plus six Bio-shared cards. This is a better\nworkshop economy without pretending recurrence on one page proves a universal stem. Next use the resulting\n47-card deck to reconstruct the six complete Biological records in terse apprentice speech.",
+          "sha256": "026edbd5178f374d74cf974dc540820e1bd67d1a92d1c59ae6d1a694bae871c3"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_directional_completion/SELECTED_DIRECTIONAL_COMPLETION_REPORT.md",
+          "line": 99,
+          "line_end": 117,
+          "quote": "## Seven recurrent whole cards become compositional\n\nThe ten most frequent remaining whole cards were reviewed separately. Three\nkeep their useful learned values (`chety|chty=zerkleinern`, `dain=durch Tuch`,\n`dl=Badezusatz`). Seven now use the existing component inventory:\n\n| Card | Selected composition | New default |\n|---|---|---|\n| `dchol|schol` | renderer + `OL` | vom vorigen Posten nehmen |\n| `oiiin|soiiin` | renderer + `IIN` grade | vorgeschriebener Grad |\n| `olkain|qolkain` | `OL+KAIN` | mit einer weiteren Portion fortfahren |\n| `otchey` | `OT` + wrapped `Y` | den nächsten Posten wählen |\n| `otchor|qotchor` | `OT` + renderer + `OR` | die nächste Zubereitung |\n| `qcthey|shcthey` | ready + hold + current item | den laufenden Posten bereit halten |\n| `shedal` | rest/settle + `AL` | Ruhe- oder Absetzstelle |\n\n`olkain` is the clearest correction: its two occurrences do not share one\nunique lower-basin owner, while `OL=continue` and `KAIN=measured portion`\nalready exist independently.",
+          "sha256": "b5b313994f43aee0ca6ffe844a40a84baf002417460459be63fdbf4740305a45"
+        }
+      ],
+      "card_basis": {
+        "SEM:07f9162c63a43be0d20c": "c41be837abe4986f70cf7960b902a1674412f18cfb4e10070ab3ac02f5aa25c1"
+      },
+      "effective_basis": {
+        "SEM:07f9162c63a43be0d20c": "c7dc7cd4057940388f986d26ca38a9a98eb060de5d714c3a4a23494559384eba"
+      }
+    },
+    {
+      "id": "BT:OLKAIN",
+      "decision": "approve_unresolved",
+      "proposed_outcome": "identity_unresolved",
+      "reason": "The long whole-form source explicitly replaces a lower-basin noun with OL+KAIN continuation plus another portion. WEITERER ANTEIL preserves the portion but leaves its continuation contribution unspecified in the short default. The earlier shortening program makes either contextual compression or scope difference possible.",
+      "scope_limits": [
+        "Retain the explicit historical replacement of unteres Becken without treating the later short reading as rejected; no extension to every qolkain use."
+      ],
+      "member_ids": [
+        "SEM:a5e3a26c43daf911604c",
+        "SEM:3db62205301363f9ba20"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_recurrent_specialist_promotion_hundred_forty_seventh/HUNDRED_FORTY_SEVENTH_PROMOTION_REPORT.md",
+          "line": 3,
+          "line_end": 14,
+          "quote": "The 132 specialist cards divide cleanly into 122 singletons, four cards repeated only inside one record,\nand six cards repeated across two Biological records. The last six cover twelve events and are promoted\nto a bounded Biological shared deck; none is yet claimed to bridge Herbal and Biological.\n\nThe portable readings are OIIIN=ARBEITSSTUFE, DAIN=EINLAGE, QCTHEY=KURZ VORBEREITEN, OLKAIN=WEITERER\nANTEIL, SHEDAL=AM ZIEL ABSETZEN and QOTEEDY=LANGE FOLGESTUFE; SCHLUSS. DAIN is deliberately broadened\nfrom TRÄGEREINLAGE because its second owner does not independently display cloth. The four within-record\nrepetitions remain local; the 122 singletons remain memorized nomenclator cards.\n\nThe active vocabulary is therefore 47 cards: the earlier 41 plus six Bio-shared cards. This is a better\nworkshop economy without pretending recurrence on one page proves a universal stem. Next use the resulting\n47-card deck to reconstruct the six complete Biological records in terse apprentice speech.",
+          "sha256": "026edbd5178f374d74cf974dc540820e1bd67d1a92d1c59ae6d1a694bae871c3"
+        },
+        {
+          "path": "experiments/yolo/sidequest_historical_compositional_analogue_search/SELECTED_HISTORICAL_ANALOGUE_REPORT.md",
+          "line": 178,
+          "line_end": 199,
+          "quote": "## Was diese Grammatik schon jetzt besser vorhersagt\n\nSie zwingt mehrere alte, frei erfundene Ganzwortglossen zu einfacheren\nKompositionen:\n\n| sichtbare Karte | alte Ganzwortglosse | regelhafte neue Lesung |\n|---|---|---|\n| `otol` | Handvoll | `OT + OL` = danach weiter |\n| `oteey` | Badezusatz | `OT + EEY` = danach temperieren/wärmen |\n| `lchedar` | kühles Wasser | `LCHED + AR` = aus der Quelle/Station abziehen |\n| `qokar` | über der Stelle | `OK + AR` = daraus/von dort zuführen |\n| `qokaly` | zweiter Lauf | `OK + AL + Y` = den Ansatz an die Zielstelle führen |\n| `olkain` | unteres Becken | `OL + KAIN` = mit einer weiteren Portion fortfahren |\n| `ykaiin` | Wunde waschen | `Y + KAIIN` = den laufenden Ansatz bemessen |\n| `dairydy` | sofort gebrauchen; Ende | `D + AIR + Y + DY` = den Flüssigkeitslauf abschließen |\n| `oiiin/soiiin` | klar | Quantitätsfamilie `IIN/AIIN`, also ein Maß/Grad |\n| `ykan` | Weißwein zugeben | Schwester von `ykain`: weitere/kleinere Portion |\n\nDie ersten sechs sind die wichtigsten. Sie wurden nicht gewählt, weil ihre\nalten Kontexte zufällig schön klingen, sondern weil die feste Grammatik sie\naus bereits gesetzten Nachbarfamilien erzeugt. Die vollständige Tabelle steht\nin `PREDICTED_CARD_REVISIONS.tsv`.",
+          "sha256": "37bf9d6445555ff6401d3d99025f15e0d2df7c826a49c28f55eebe1865b7daab"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_directional_completion/SELECTED_DIRECTIONAL_COMPLETION_REPORT.md",
+          "line": 105,
+          "line_end": 117,
+          "quote": "| Card | Selected composition | New default |\n|---|---|---|\n| `dchol|schol` | renderer + `OL` | vom vorigen Posten nehmen |\n| `oiiin|soiiin` | renderer + `IIN` grade | vorgeschriebener Grad |\n| `olkain|qolkain` | `OL+KAIN` | mit einer weiteren Portion fortfahren |\n| `otchey` | `OT` + wrapped `Y` | den nächsten Posten wählen |\n| `otchor|qotchor` | `OT` + renderer + `OR` | die nächste Zubereitung |\n| `qcthey|shcthey` | ready + hold + current item | den laufenden Posten bereit halten |\n| `shedal` | rest/settle + `AL` | Ruhe- oder Absetzstelle |\n\n`olkain` is the clearest correction: its two occurrences do not share one\nunique lower-basin owner, while `OL=continue` and `KAIN=measured portion`\nalready exist independently.",
+          "sha256": "b5b313994f43aee0ca6ffe844a40a84baf002417460459be63fdbf4740305a45"
+        }
+      ],
+      "card_basis": {
+        "SEM:a5e3a26c43daf911604c": "4863ca06a1d22652d181d832c901b30bc40a29a677e405108cea800c67d841a5",
+        "SEM:3db62205301363f9ba20": "58b92442cdecab97454eaa1a08f8c00716d88c1a14c87093a058b05900e916c3"
+      },
+      "effective_basis": {
+        "SEM:a5e3a26c43daf911604c": "31f8f6513717481d262d362e7c90ff4408e55b46700433580fdc753a1895957a",
+        "SEM:3db62205301363f9ba20": "0be57c8f1fadcc0f2e1274fb7a83a0c093c362f0dc4925c1ff7552d35fe7c8d6"
+      }
+    },
+    {
+      "id": "BT:SHEDAL",
+      "decision": "approve_unresolved",
+      "proposed_outcome": "identity_unresolved_source_counterpart_not_separately_addressed",
+      "reason": "Rest/settle+AL supplies a place value, while AM ZIEL ABSETZEN supplies an action at a target. Their roles may differ or be contextual realizations; the reports do not resolve that. The retained Pass405 card asserts a complete three-card rival disjunction, so it cannot replace a standalone SHEDAL counterpart.",
+      "scope_limits": [
+        "Do not infer place/action equivalence or inequality from grammatical form alone; preserve the whole SAIIN–SHEDAL–SHECTHY rival set."
+      ],
+      "member_ids": [
+        "SEM:7b06d204e17a27206553"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_recurrent_specialist_promotion_hundred_forty_seventh/HUNDRED_FORTY_SEVENTH_PROMOTION_REPORT.md",
+          "line": 3,
+          "line_end": 14,
+          "quote": "The 132 specialist cards divide cleanly into 122 singletons, four cards repeated only inside one record,\nand six cards repeated across two Biological records. The last six cover twelve events and are promoted\nto a bounded Biological shared deck; none is yet claimed to bridge Herbal and Biological.\n\nThe portable readings are OIIIN=ARBEITSSTUFE, DAIN=EINLAGE, QCTHEY=KURZ VORBEREITEN, OLKAIN=WEITERER\nANTEIL, SHEDAL=AM ZIEL ABSETZEN and QOTEEDY=LANGE FOLGESTUFE; SCHLUSS. DAIN is deliberately broadened\nfrom TRÄGEREINLAGE because its second owner does not independently display cloth. The four within-record\nrepetitions remain local; the 122 singletons remain memorized nomenclator cards.\n\nThe active vocabulary is therefore 47 cards: the earlier 41 plus six Bio-shared cards. This is a better\nworkshop economy without pretending recurrence on one page proves a universal stem. Next use the resulting\n47-card deck to reconstruct the six complete Biological records in terse apprentice speech.",
+          "sha256": "026edbd5178f374d74cf974dc540820e1bd67d1a92d1c59ae6d1a694bae871c3"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_directional_completion/SELECTED_DIRECTIONAL_COMPLETION_REPORT.md",
+          "line": 105,
+          "line_end": 117,
+          "quote": "| Card | Selected composition | New default |\n|---|---|---|\n| `dchol|schol` | renderer + `OL` | vom vorigen Posten nehmen |\n| `oiiin|soiiin` | renderer + `IIN` grade | vorgeschriebener Grad |\n| `olkain|qolkain` | `OL+KAIN` | mit einer weiteren Portion fortfahren |\n| `otchey` | `OT` + wrapped `Y` | den nächsten Posten wählen |\n| `otchor|qotchor` | `OT` + renderer + `OR` | die nächste Zubereitung |\n| `qcthey|shcthey` | ready + hold + current item | den laufenden Posten bereit halten |\n| `shedal` | rest/settle + `AL` | Ruhe- oder Absetzstelle |\n\n`olkain` is the clearest correction: its two occurrences do not share one\nunique lower-basin owner, while `OL=continue` and `KAIN=measured portion`\nalready exist independently.",
+          "sha256": "b5b313994f43aee0ca6ffe844a40a84baf002417460459be63fdbf4740305a45"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_quantity_preparation/PREPARATION_PARADIGM_REPORT.md",
+          "line": 158,
+          "line_end": 160,
+          "quote": "| B3-S019 | qokshedy | Ansatz zur Ruhe bringen oder absetzen lassen; abschließen | beibehalten |\n| B3-S020 | dal · lchedy | Zielstelle; hinausführen; Schluss | beibehalten |\n| B3-S021 | qokaiin · shcthy · dal · sy · saiin · shedal · shecthy · chey · tal · shcthy · dalchdy | Nach Maß einsetzen; den Einsatz bemessen; bereit; Zielstelle; der laufende Posten; dies oder es; Maß; Ruhe- oder Absetzstelle; warmes Wasser; der laufende Posten; dies oder es; Zielstelle; bereit; lokal umsetzen; Schluss | beibehalten |",
+          "sha256": "77943fcb084ef25d1ee68d45f0cadccfffd966981a43e0eff44428b619de8169"
+        }
+      ],
+      "card_basis": {
+        "SEM:7b06d204e17a27206553": "a32c6ddcd7989b2d84400495da48348a07b4653a56e60f210154618831f7124f"
+      },
+      "effective_basis": {
+        "SEM:7b06d204e17a27206553": "9357aae30fed0218fe8f3058ee1ff896211b31803526289a084a20dbf3a5a16b"
+      }
+    },
+    {
+      "id": "BT:QOTEEDY",
+      "decision": "approve_unresolved",
+      "proposed_outcome": "identity_unresolved",
+      "reason": "Both source statements preserve following order, duration and closure. The retained B3-S027 row adds sustained acting/effect, whereas LANGE FOLGESTUFE; SCHLUSS leaves the operation implicit. The other Bio-shared owner is not semantically equated to this exact process in the cited source.",
+      "scope_limits": [
+        "beibehalten means retained, not a rejected trial; no operation-general extension of einwirken lassen and no forced equality."
+      ],
+      "member_ids": [
+        "SEM:d403258d5962736ecd5f",
+        "SEM:4f06044c1bc127c6348b"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_recurrent_specialist_promotion_hundred_forty_seventh/HUNDRED_FORTY_SEVENTH_PROMOTION_REPORT.md",
+          "line": 3,
+          "line_end": 14,
+          "quote": "The 132 specialist cards divide cleanly into 122 singletons, four cards repeated only inside one record,\nand six cards repeated across two Biological records. The last six cover twelve events and are promoted\nto a bounded Biological shared deck; none is yet claimed to bridge Herbal and Biological.\n\nThe portable readings are OIIIN=ARBEITSSTUFE, DAIN=EINLAGE, QCTHEY=KURZ VORBEREITEN, OLKAIN=WEITERER\nANTEIL, SHEDAL=AM ZIEL ABSETZEN and QOTEEDY=LANGE FOLGESTUFE; SCHLUSS. DAIN is deliberately broadened\nfrom TRÄGEREINLAGE because its second owner does not independently display cloth. The four within-record\nrepetitions remain local; the 122 singletons remain memorized nomenclator cards.\n\nThe active vocabulary is therefore 47 cards: the earlier 41 plus six Bio-shared cards. This is a better\nworkshop economy without pretending recurrence on one page proves a universal stem. Next use the resulting\n47-card deck to reconstruct the six complete Biological records in terse apprentice speech.",
+          "sha256": "026edbd5178f374d74cf974dc540820e1bd67d1a92d1c59ae6d1a694bae871c3"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_quantity_preparation/PREPARATION_PARADIGM_REPORT.md",
+          "line": 39,
+          "line_end": 44,
+          "quote": "## OL, OT und AR als Anschlüsse\n\n- OL wird durch ol, dchol, okchol, qokol, olkain, oldy, olchedy und okeeol als Fortsetzung/Vorigkeit gestützt.\n- OT wird durch otaiin, otchedy, otchdy, otal, otar, oteey, otedy, qoteedy und otchey als Danach/Nächstes gestützt.\n- AR wird durch char|dar|sar, qokar, lchedar, cheoar und skar als Quelle/Vorrat gestützt. Es gibt keine eigene OR+AR-Karte; H2-S002 endet lediglich mit „aus demselben Vorrat“.\n- Daher ist otol = OT+OL = danach weiter; der alte Wert Handvoll folgt aus keiner Komponente.",
+          "sha256": "77943fcb084ef25d1ee68d45f0cadccfffd966981a43e0eff44428b619de8169"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_quantity_preparation/PREPARATION_PARADIGM_REPORT.md",
+          "line": 164,
+          "line_end": 173,
+          "quote": "| B3-S025 | qokchdy | Ansatz umsetzen; Schluss | beibehalten |\n| B3-S026 | cheedar · chldaiin · chedy · qokain · checthy · chealror · solkeedy | Beckenstation; absetzen lassen; den laufenden Posten umsetzen oder durcharbeiten; eine Portion einsetzen oder zugeben; bereit; bis klar; an der Sammelstelle stehen oder absetzen lassen; Schluss | beibehalten |\n| B3-S027 | qoteedy | Danach anhaltend einwirken lassen und abschließen | beibehalten |\n| B3-S028 | qokeey · qokedy | Den laufenden Posten anhaltend in Kontakt halten; kurz spülen oder benetzen und den Schritt abschließen | beibehalten |\n| B3-S029 | sol · cheeety · qokedy | Mit Vorigem weiter; erste Spülung; kurz spülen oder benetzen und den Schritt abschließen | beibehalten |\n| B3-S030 | qoky · saiin · schedair · otchedy | Den laufenden Posten anwenden oder in Arbeit nehmen; Maß; fließende Flüssigkeit durch den Lauf führen; danach oder erneut umsetzen; Schluss | beibehalten |\n| B3-S031 | qokeedy | Eintauchen oder einweichen und den Schritt abschließen | beibehalten |\n| B3-S032 | chedain · chedy · qotedaiin · otaiin · otedy | Eine Portion in Arbeit nehmen; den laufenden Posten umsetzen oder durcharbeiten; breites Gefäß; voriges Maß wiederholen; danach kurz oder gewöhnlich einwirken lassen und abschließen | beibehalten |\n| B3-S033 | ldy | Abziehen; Ende | beibehalten |\n| B3-S034 | soiiin · checthy · chety · otaiin · olsaly · shedy | Vorgeschriebener Grad; bereit; zerkleinern; voriges Maß wiederholen; untere Zielstelle; kurz oder gewöhnlich ruhen lassen; Schluss | beibehalten |",
+          "sha256": "77943fcb084ef25d1ee68d45f0cadccfffd966981a43e0eff44428b619de8169"
+        }
+      ],
+      "card_basis": {
+        "SEM:d403258d5962736ecd5f": "c5e0cab9cd2e062edfc201fd17814a7bdc3a138c7bfd020344004d31174ccea3",
+        "SEM:4f06044c1bc127c6348b": "40a26df764cec60320288f297be674f7fa4d0b0d06d7d64f7035a070557f4077"
+      },
+      "effective_basis": {
+        "SEM:d403258d5962736ecd5f": "9f34d92a0fba30aea522d36565bc57edc758d94a6e0a06eefaa24628aa86343c",
+        "SEM:4f06044c1bc127c6348b": "75ba4a1c539a061f28a3247d00ae034de637e35fd96f417d9e62cb62ebd37a72"
+      }
+    }
+  ],
+  "required_fixes": [],
+  "general_limits": [
+    "Approval concerns exact complete proposition relationships only, not the truth of the proposed Voynich meanings.",
+    "No automatic merge, scope specialization, semantic refutation or operation change is authorized by this peer artifact.",
+    "No images, raw manuscript records, external sources or new experiments accessed. Only bounded public report prose/tables and current card metadata were inspected.",
+    "For two source-only counterparts, absence of all possible equivalent cards elsewhere remains unknown.",
+    "All five unresolved comparisons remain audits rather than placeholder ideas or operative identity edges."
+  ],
+  "validation": {
+    "primary_quote_and_sha_checks": "PASS",
+    "current_card_and_effective_bindings": "PASS",
+    "proposal_unchanged": true
+  },
+  "additional_root_proposal_review": {
+    "artifact": "research_registry/decisions/clean_gap_review_bv.json",
+    "sha256": "12595e64c4b7db78e1960a958764d144ef48a15953f4c38ace77bdb0e571665a",
+    "status": "APPROVE",
+    "cards": [
+      {
+        "id": "CLEAN_GAP_BV:qcthey_shcthey_ready",
+        "decision": "approve_exact_source_bound_whole_reading",
+        "evidence": [
+          {
+            "path": "experiments/yolo/sidequest_semantic_directional_completion/SELECTED_DIRECTIONAL_COMPLETION_REPORT.md",
+            "line": 112,
+            "line_end": 112,
+            "quote": "| `qcthey|shcthey` | ready + hold + current item | den laufenden Posten bereit halten |",
+            "sha256": "b5b313994f43aee0ca6ffe844a40a84baf002417460459be63fdbf4740305a45"
+          },
+          {
+            "path": "experiments/yolo/sidequest_semantic_directional_completion/SELECTED_DIRECTIONAL_COMPLETION_REPORT.md",
+            "line": 99,
+            "line_end": 117,
+            "quote": "## Seven recurrent whole cards become compositional\n\nThe ten most frequent remaining whole cards were reviewed separately. Three\nkeep their useful learned values (`chety|chty=zerkleinern`, `dain=durch Tuch`,\n`dl=Badezusatz`). Seven now use the existing component inventory:\n\n| Card | Selected composition | New default |\n|---|---|---|\n| `dchol|schol` | renderer + `OL` | vom vorigen Posten nehmen |\n| `oiiin|soiiin` | renderer + `IIN` grade | vorgeschriebener Grad |\n| `olkain|qolkain` | `OL+KAIN` | mit einer weiteren Portion fortfahren |\n| `otchey` | `OT` + wrapped `Y` | den nächsten Posten wählen |\n| `otchor|qotchor` | `OT` + renderer + `OR` | die nächste Zubereitung |\n| `qcthey|shcthey` | ready + hold + current item | den laufenden Posten bereit halten |\n| `shedal` | rest/settle + `AL` | Ruhe- oder Absetzstelle |\n\n`olkain` is the clearest correction: its two occurrences do not share one\nunique lower-basin owner, while `OL=continue` and `KAIN=measured portion`\nalready exist independently.",
+            "sha256": "b5b313994f43aee0ca6ffe844a40a84baf002417460459be63fdbf4740305a45"
+          },
+          {
+            "path": "experiments/yolo/sidequest_semantic_directional_completion/SELECTED_DIRECTIONAL_COMPLETION_REPORT.md",
+            "line": 211,
+            "line_end": 216,
+            "quote": "## Interpretation ceiling\n\nThe result is a deliberately concrete writing-system hypothesis. It proposes a\nlearnable source–flow–target composition and usable German defaults. It does\nnot establish historical German, Latin, phonetics, or literal Voynich\nplaintext.",
+            "sha256": "b5b313994f43aee0ca6ffe844a40a84baf002417460459be63fdbf4740305a45"
+          }
+        ],
+        "reason": "Original table header and literal alias-bearing row support the entire selected composition and new default; original ceiling excludes plaintext identification."
+      },
+      {
+        "id": "CLEAN_GAP_BV:shedal_rest_place",
+        "decision": "approve_exact_source_bound_whole_reading",
+        "evidence": [
+          {
+            "path": "experiments/yolo/sidequest_semantic_directional_completion/SELECTED_DIRECTIONAL_COMPLETION_REPORT.md",
+            "line": 113,
+            "line_end": 113,
+            "quote": "| `shedal` | rest/settle + `AL` | Ruhe- oder Absetzstelle |",
+            "sha256": "b5b313994f43aee0ca6ffe844a40a84baf002417460459be63fdbf4740305a45"
+          },
+          {
+            "path": "experiments/yolo/sidequest_semantic_directional_completion/SELECTED_DIRECTIONAL_COMPLETION_REPORT.md",
+            "line": 99,
+            "line_end": 117,
+            "quote": "## Seven recurrent whole cards become compositional\n\nThe ten most frequent remaining whole cards were reviewed separately. Three\nkeep their useful learned values (`chety|chty=zerkleinern`, `dain=durch Tuch`,\n`dl=Badezusatz`). Seven now use the existing component inventory:\n\n| Card | Selected composition | New default |\n|---|---|---|\n| `dchol|schol` | renderer + `OL` | vom vorigen Posten nehmen |\n| `oiiin|soiiin` | renderer + `IIN` grade | vorgeschriebener Grad |\n| `olkain|qolkain` | `OL+KAIN` | mit einer weiteren Portion fortfahren |\n| `otchey` | `OT` + wrapped `Y` | den nächsten Posten wählen |\n| `otchor|qotchor` | `OT` + renderer + `OR` | die nächste Zubereitung |\n| `qcthey|shcthey` | ready + hold + current item | den laufenden Posten bereit halten |\n| `shedal` | rest/settle + `AL` | Ruhe- oder Absetzstelle |\n\n`olkain` is the clearest correction: its two occurrences do not share one\nunique lower-basin owner, while `OL=continue` and `KAIN=measured portion`\nalready exist independently.",
+            "sha256": "b5b313994f43aee0ca6ffe844a40a84baf002417460459be63fdbf4740305a45"
+          },
+          {
+            "path": "experiments/yolo/sidequest_semantic_directional_completion/SELECTED_DIRECTIONAL_COMPLETION_REPORT.md",
+            "line": 211,
+            "line_end": 216,
+            "quote": "## Interpretation ceiling\n\nThe result is a deliberately concrete writing-system hypothesis. It proposes a\nlearnable source–flow–target composition and usable German defaults. It does\nnot establish historical German, Latin, phonetics, or literal Voynich\nplaintext.",
+            "sha256": "b5b313994f43aee0ca6ffe844a40a84baf002417460459be63fdbf4740305a45"
+          }
+        ],
+        "reason": "Original table header and literal alias-bearing row support the entire selected composition and new default; original ceiling excludes plaintext identification."
+      }
+    ],
+    "validation": {
+      "cards_validated": 2,
+      "known_member_ids_verified": 1,
+      "exact_quote_hash_checks": 6
+    },
+    "limits": [
+      "Separate later proposal review; original BT bounded absence finding remains correct at its review time.",
+      "New source addressability does not decide either unresolved short/long semantic identity.",
+      "No operative identity or curation change."
+    ]
+  }
+}

@@ -1,0 +1,1029 @@
+{
+  "schema": "source_coverage_gap_review_v1",
+  "review_id": "BN",
+  "selection": {
+    "eligible_scored_spans": 430,
+    "selected": 60,
+    "max_lines": 20,
+    "max_per_report": 2
+  },
+  "reviewed_blocks": [
+    {
+      "selection_index": 0,
+      "source_id": "LEGACY_COMPONENT:37edfe4f984ffc6959e1",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_ten_page_register_bridge/TEN_PAGE_REGISTER_BRIDGE_REPORT.md",
+        "line": 73,
+        "line_end": 91,
+        "quote": "## Konkrete neue Lesungen\n\nEinige Diagrammgruppen werden dadurch erstmals wirklich werkstattartig\nkomponierbar:\n\n- `okar` = AUSGANG SETZEN: den Ausgangs- oder Bezugsplatz aktivieren.\n- `alaiin` = ZIEL + VORGABEWERT: den Sollwert am Zielplatz eintragen.\n- `chedaiin` = ÜBERTRAGEN + VORGABEWERT: den vorgegebenen Wert übertragen.\n- `otolor` = FOLGE + FORTSETZEN + ARBEITSSATZ: beim nächsten Platz denselben\n  Bedingungs- oder Tabellensatz weiterführen.\n- `saral` = AUSGANG + ZIEL mit lokalem `s`-Rest: vom bezeichneten Ausgang zum\n  Zielplatz.\n- `airchy` = LAUF mit lokalem Rest: Eintrag für einen Ring- oder Himmelslauf.\n- `oeoldan` = FORTSETZEN + ANWENDEN mit lokalem Rest: denselben Satz\n  weiterführen und anwenden.\n\nDie lokalen Reste werden nicht gewaltsam zerlegt. Sie sind genau der Teil, den\nder Lehrling als Stern-, Sektor- oder Tabellenname aus dem Muster übernimmt.\n",
+        "sha256": "e08b787098c59969607cd7662b2cba83ba11cb7007589e9a6d38951a13d1d2c9"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [
+        "CLEAN_GAP_BN:okar_diagram_output",
+        "CLEAN_GAP_BN:otolor_diagram_condition",
+        "CLEAN_GAP_BN:airchy_diagram_course",
+        "CLEAN_GAP_BN:oeoldan_diagram_continue_apply"
+      ],
+      "decision": "scoped_local_proposition_candidates",
+      "reason": "Concrete complete local reading or source-stated relation recovered; this does not claim a new independent global theory.",
+      "already_covered_subclaims": [
+        {
+          "id": "SEM:f0cafbedd3a4d411e4a4",
+          "claim": "In Pass265, the whole local f67r2 Astro label ALAIIN is read as target plus prescribed value (AL+AIIN).",
+          "reason": "Already explicit ALAIIN/CHEDAIIN/SARAL local interpretation; no duplicate card recovered."
+        },
+        {
+          "id": "SEM:b5d703ed39906938ea16",
+          "claim": "In Pass265, the whole local f67r2 Astro label CHEDAIIN is read as transfer plus prescribed value (CHED+AIIN).",
+          "reason": "Already explicit ALAIIN/CHEDAIIN/SARAL local interpretation; no duplicate card recovered."
+        },
+        {
+          "id": "SEM:6deb23e35033ef5fd64b",
+          "claim": "In Pass269, SARAL on the registered f67r2/f69v occurrences realizes AR+AL and is read as source to target.",
+          "reason": "Already explicit ALAIIN/CHEDAIIN/SARAL local interpretation; no duplicate card recovered."
+        }
+      ]
+    },
+    {
+      "selection_index": 1,
+      "source_id": "LEGACY_COMPONENT:79c8efa30f4d1282acc9",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_master_reader_codebook/MASTER_READER_CODEBOOK_REPORT.md",
+        "line": 1,
+        "line_end": 19,
+        "quote": "# Gemeinsames Meisterwörterbuch und Rückleser\n\n## Ergebnis\n\nDie zehnseitige Werkstattausgabe enthält 230 registrierte sichtbare Formen für 173 Meisterkarten. In diesem Inventar kollidiert keine sichtbare Form mit einer zweiten Karte: Der Lehrling kann daher jede Form ohne Satzkontext zuerst auf genau eine Meisterkarte und danach auf deren kurzen Arbeitswert zurückführen.\n\nDie 381 beobachteten Prosaereignisse werden zu einer einheitlichen Meisterorthographie normalisiert; 146 sichtbare Tokens wechseln dabei zur Kopfvariante, ohne Tuple oder Bedeutung zu ändern. Alle 116 Aussagen bleiben vollständig erhalten.\n\nDer härtere Kopiertest liest sämtliche 464 Vier-Schreiber-Aussagen und alle 64 Diktierübungen zurück. Jede Gegenkopie ergibt wieder exakt dieselbe Tuplefolge und dieselbe Bedeutungsfolge. Damit ist die derzeitige Rekonstruktion als kleine Werkstatttechnik geschlossen: Bedeutung -> Meisterkarte -> Schreiberform und Schreiberform -> Meisterkarte -> Bedeutung.\n\n## Verteilung der Formen\n\nDie 230 Schlüsselzeilen verteilen sich auf {'MASTER_HEAD_FORM': 34, 'FIXED_REGISTERED_FORM': 139, 'OTHER_REGISTERED_ALLOGRAPH': 24, 'Q_CELL_VARIANT': 14, 'S_LINE_VARIANT': 19}. `q` und `s` werden nicht als neue Wörter gelesen; andere registrierte Allographen wie `daiin/saiin/taiin` bleiben ebenfalls unter derselben Meisterkarte gebündelt.\n\n## Wichtigste Konsequenz\n\nMehrere Schreiber müssen für diese Arbeitstheorie nur ein gemeinsames 173-Kartenbuch lernen. Ihre sichtbaren Gewohnheiten sitzen anschließend auf der Oberfläche. Der Leser braucht keinen Lautwert und keine Handschriftenidentifikation, sondern nur die 230-zu-173-Rückschlagtabelle.\n\nDie Meisterkarten und deutschen Arbeitswerte bleiben bewusst die kreative Arbeitstheorie dieses Sidequests. Der Rundlauf zeigt interne Benutzbarkeit, nicht dass die Bedeutungen historisch bewiesen wären.",
+        "sha256": "9cbf6242e7dff98e36b9b35a56f76fe995b282fee13d42bc223f3f4bb5b69352"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "existing_assertion_or_model_instance",
+      "reason": "Selected statement repeats the already explicit named model/meaning. Its engineering counts or additional copy instances do not by themselves add a semantic proposition.",
+      "counterparts": [
+        {
+          "id": "SEM:8ec13534f34c3ab7ff45",
+          "claim": "The ten fixed pages are best read as an illustrated practical workshop compendium. Plant pages name material and preparation; figure/basin pages route and change an inherited work item; celestial pages offer optional owner-selected conditions. The strongest content expansion remains therapeutic bathing and plant preparation, with a material/bathhouse technical book as a close practical rival. The writing system is a mixed technical codebook: 41 actively learned recurrent cards cover 239 prose events, while 132 low-frequency exact specialist cards cover 142. The 173 master cards have 230 visible registered forms. Seventeen cards cross Herbal and Biological; two register orders and two bracket formulas make them speakable. Four hand habits alter the surface only after card choice. Four optional WHEN→WHAT→HOW jobs organize every one of the 381 prose events and retain all 395 Astro groups as a menu. Only 21 Astro groups are activated in the four sample jobs. This is the current most coherent creative reading of the ten pages, not a claim that the manuscript has been historically deciphered.",
+          "basis_sha256": "1332891463de572a86271e39e7c16d40b2dc39a173b226fafe3b587007b59315"
+        }
+      ]
+    },
+    {
+      "selection_index": 2,
+      "source_id": "LEGACY_COMPONENT:8be75d7c4d1ce0a1c92b",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_complete_reader_fifty_sixth_edition/FIFTY_SIXTH_EDITION_REPORT.md",
+        "line": 1,
+        "line_end": 19,
+        "quote": "# Sechsundfünfzigste Runde: die zehn Seiten neu aus der Taschengrammatik\n\nDie vereinfachte Grammatik trägt über alle zehn festen Seiten. Die neue Ausgabe\nenthält 776 sichtbare Gruppen in 258 Leseeinheiten: 116 Prosaaussagen und 142\nAstro-Loci. Jede Einheit zeigt Oberfläche, atomare beziehungsweise gelernte\nKartenlesung, flüssige kreative Werkstattlesung und die darüberliegenden\nKontextquellen getrennt.\n\nDas beseitigt eine wichtige Unschärfe früherer Vollübersetzungen. „Wasser“,\n„Wurzel“, „Becken“, „Tuch“ oder ein bestimmter Sternplatz dürfen in der\nflüssigen Lesung stehen, weil Bild und lokales Exemplar sie liefern. Sie sind\nnicht automatisch die Bedeutung von `AIR`, `Y`, `AL` oder einer anderen\nkurzen Karte. Ebenso bleiben Astro-Lesungen lokale Instrumenteinträge statt\nexportierbare Prosawörter.\n\nAlle Kartenfolgen sind mit der 24-Regel-Taschengrammatik lesbar. Die konkrete\nflüssige Fassung benötigt erwartungsgemäß den sichtbaren Besitzer, die vier\nMerkfächer, den kleinen Nomenklator oder das lokale Astro-Exemplar. Das ist kein\nDefekt des Werkstattmodells, sondern genau seine angenommene Kompressionsweise.",
+        "sha256": "67589d9cf12160537c01040e5618fd2bc532040f2c96031cfe08e3208309eb8f"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "scope_comparison_unresolved_no_card",
+      "reason": "The span contains semantic/model/rival content; exact full-proposition coverage or scope still needs independent comparison. Retained audit-only, not a placeholder card or completed decision."
+    },
+    {
+      "selection_index": 3,
+      "source_id": "LEGACY_COMPONENT:bff1d6916d7a537fa092",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_speakable_edition/SPEAKABLE_EDITION_REPORT.md",
+        "line": 1,
+        "line_end": 19,
+        "quote": "# Vom Kartenstapel zur gesprochenen Anweisung\n\n## Auswahl\n\nDie aktive Seitenlesung wird jetzt in zwei Ebenen ausgesprochen. Die 173 kurzen Kartenwerte und die 254 Anheftungsgruppen bleiben die technische Unterlage. Darüber steht eine knappe fortlaufende Ausgabe aller elf Prosa-Records. Kein Zeilenende wird zum Satzende gemacht, und keine der 381 sichtbaren Karten fällt aus der Bindung.\n\nDie wichtigste redaktionelle Entscheidung ist, `OK+E/EE/EEE` in laufender Rede nicht immer hölzern als „kurz/länger/vollständig setzen“ zu sprechen. Je nach Besitzer wird daraus **kurz bearbeiten**, **länger einwirken lassen** oder **vollständig ausführen**; der gemeinsame Stammwert bleibt *in Arbeit setzen*. `AIIN` wird als *Sollmaß*, `AIN` als *Portion*, `IIN` als *Stufe*, `AL/AR/AIR` als Ziel/Quelle/Laufflüssigkeit und `CHEEY` in den Nassfolgen als *Klarauszug* gesprochen.\n\n## Vollständigkeit\n\n- 116/116 Aussagen haben eine sprechbare Lesung.\n- 381/381 sichtbare Prosaereignisse bleiben in exakter Reihenfolge gebunden.\n- 19 Herbal-Aussagen wurden Satz für Satz von Hand geglättet.\n- 37 Biological-Aussagen verwenden dieselben wiederkehrenden Sprachreparaturen.\n- 60 Aussagen waren bereits kurz genug und bleiben wörtlich stehen.\n\n## Was die neue Fassung sagt\n\nHerbal liest sich nun als fünf kleine Pflanzen-/Auszugsartikel: Wurzel oder anderer abgebildeter Pflanzenteil, Ansatz, Portion und Sollmaß, Wasser oder Auszug, Auswringen/Nachseihen, Verwahren und lokale Anwendung. Biological liest sich als sechs dicht codierte Becken-, Durchlauf-, Halte-, Tuch- und Nachwaschprogramme. Diese Sachlesung bleibt kreativ; der Fortschritt ist, dass derselbe kleine Stammwortschatz jetzt tatsächlich in durchgehender Werkstattrede funktioniert.",
+        "sha256": "b66b6f36a2c8d7c911e2d0520fbd69ba44ed061e725678e0a979a4401290e5a5"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "scope_comparison_unresolved_no_card",
+      "reason": "The span contains semantic/model/rival content; exact full-proposition coverage or scope still needs independent comparison. Retained audit-only, not a placeholder card or completed decision."
+    },
+    {
+      "selection_index": 4,
+      "source_id": "LEGACY_COMPONENT:05f7817f69975a43d9fb",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_directional_completion/MEDICAL_DIRECTION_REPORT.md",
+        "line": 254,
+        "line_end": 267,
+        "quote": "## Grenzen dieser Arbeitslesung\n\n- WASSER in CHEO ist der gewählte Default, nicht eine bestätigte Stofflesung.\n- WASSERLAUF in AIR bezeichnet keinen bestimmten gezeichneten Pfeil.\n- Quelle und Ziel dürfen im lokalen Exemplar ein Gefäß, Becken, Pflanzenteil\n  oder eine Anwendungsstelle sein.\n- L+CHED/P+CHED bilden die kreative Aus-/Ein-Symmetrie; daraus folgt keine\n  allgemeine Laut- oder Buchstabenbedeutung von L und P.\n- Die 39 deutschen Aussagen sind eine konsistente Werkstattedition, keine\n  Behauptung über die historische Originalsprache.\n\nVerwendet wurden ausschließlich die aktuelle component-complete\n173-/381-/116-Ausgabe und die dort festgelegten zehn Seiten. In dieser Runde\nwurde kein f84- oder f84r-Inhalt geöffnet.",
+        "sha256": "bfd1fb6e8bb38cd51d9c54eed7be70b86d27a44137e8977b84ab3e628bbb8c75"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "scope_comparison_unresolved_no_card",
+      "reason": "The span contains semantic/model/rival content; exact full-proposition coverage or scope still needs independent comparison. Retained audit-only, not a placeholder card or completed decision."
+    },
+    {
+      "selection_index": 5,
+      "source_id": "LEGACY_COMPONENT:282c83de86d5f93d6f84",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_astro_nomenclator_closure/ASTRO_NOMENCLATOR_CLOSURE_REPORT.md",
+        "line": 138,
+        "line_end": 157,
+        "quote": "## Drei vollständige lokale Lesungen\n\nAuf `f67r2` ergibt das Sternfeld mit `okeo r aiin am`:\n\n> Platz setzen – Bezugswert – Vorgabewert – Aspektwert.\n\nDas benachbarte Feld `ytody saiin` liest sich:\n\n> Platz fest eingetragen – Vorgabewert.\n\nDas schwierige Feld `ytoeopchey chekody` wird:\n\n> Vergleichswert dieses Platzes – abgeleiteter Klassenwert.\n\nUnd einzelne f69-Radialkarten werden nun sehr knapp:\n\n- `ykeydy` = aktuelle Klasse fest;\n- `saiir` = sekundärer Hauptindex;\n- `ykeody` = Klassenplatz fest eingetragen.\n",
+        "sha256": "507d3e0de2a91b7ee103c154281cab7bf463e6222c20c2312376d3e8f99656c1"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [
+        "CLEAN_GAP_BN:okeo_r_aiin_am_field",
+        "CLEAN_GAP_BN:ytody_saiin_field",
+        "CLEAN_GAP_BN:ytoeopchey_chekody_field",
+        "CLEAN_GAP_BN:ykeydy_radial",
+        "CLEAN_GAP_BN:saiir_radial",
+        "CLEAN_GAP_BN:ykeody_radial"
+      ],
+      "decision": "scoped_local_proposition_candidates",
+      "reason": "Concrete complete local reading or source-stated relation recovered; this does not claim a new independent global theory."
+    },
+    {
+      "selection_index": 6,
+      "source_id": "LEGACY_COMPONENT:6c0a6ed3b28bbc8c5d7d",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_four_scribe_rendering_fifty_ninth_edition/FIFTY_NINTH_EDITION_REPORT.md",
+        "line": 1,
+        "line_end": 18,
+        "quote": "# Neunundfünfzigste Runde: vier Hände, eine Lesung\n\nAlle 116 Prosaaussagen sind durch vier Schreiberprofile kopiert. Das ergibt 464\nvollständige Satzkopien und 1.524 einzelne Kartenentscheidungen. Jede Hand wählt\nnur unter registrierten Oberflächen derselben atomaren Karte: ungerahmt,\nq-gerahmt, s-gerahmt oder kompakt o/d/a-bevorzugt.\n\nDie Oberflächen ändern sich häufig, aber kein einziger Kartenwert und keine\nSatzlesung. Damit besitzt unser Werkstattmodell jetzt eine klare Grenze zwischen\nHandstil und Bedeutung. Sicher sind registrierte Allographen, Zeilenumbruch und\nunterschiedliche Kürzungslänge innerhalb derselben Karte. Unsicher sind\nGradwechsel E/EE/EEE, Y gegen Schluss, AL gegen AR sowie Auslassen, Verdoppeln\noder Umstellen einer Karte.\n\nDas passt zur angenommenen kleinen Werkstatt: Mehrere Hände müssen nicht\nidentisch schreiben, solange sie dieselbe Kartenidentität und Reihenfolge aus\ndem Exemplar erhalten. Die vier Handprofile sind Gewohnheiten, keine vier\nSprachen oder vier verschiedene Wörterbücher.",
+        "sha256": "0b3b5983874c56afa46557c7c88d2cc1a1d45249db793ef2ec9b1befc8aab806"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "existing_assertion_or_model_instance",
+      "reason": "Selected statement repeats the already explicit named model/meaning. Its engineering counts or additional copy instances do not by themselves add a semantic proposition.",
+      "counterparts": [
+        {
+          "id": "SEM:02c0398507a9a7fbc791",
+          "claim": "Mehrere Schreiber verwenden dasselbe Ganzkartendeck mit positionsabhängiger Oberfläche und gemeinsamem Bedeutungswert.",
+          "basis_sha256": "30b37af57630df79add109cb92a2b8e92a4ee82223b9651b86e2ec4304980a14"
+        }
+      ]
+    },
+    {
+      "selection_index": 7,
+      "source_id": "LEGACY_COMPONENT:878e2ce96f700b34883b",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_paradigm_closure/SELECTED_PARADIGM_CLOSURE_REPORT.md",
+        "line": 158,
+        "line_end": 175,
+        "quote": "## Was noch keine gemeinsame Bedeutung hat\n\nDie wichtigsten offenen Kerne sind:\n\n- der genaue Sachinhalt von `Y` (Flüssigkeit, Pflanzenteil oder allgemeiner\n  Arbeitsposten);\n- die Richtung von `P+CHED`;\n- der Sachkern `SH` hinter dem plausiblen Haltegrad;\n- der Sachkern `CHK` hinter `cheky/cheeky`;\n- `SOLK`, `CHEO`, `LDDY` sowie die Einzelhüllen `DAL`, `LO`, `SSHK`;\n- eine globale Bedeutung von `E` außerhalb der lizenzierten Raster;\n- 84 unveränderte alte Ganzkarten sowie `chokcheo` als neu ausdrücklich opake\n  Ganzkarte; zusätzlich bleiben `qokylddy`, `qokokchy` und `qokaly` nur\n  teilweise zerlegt.\n\nDas heißt: Jede Karte besitzt weiterhin eine Arbeitsbedeutung, aber nicht jede\ndieser Bedeutungen ist bereits aus kleineren Teilen vorhersagbar.\n",
+        "sha256": "0c051a5aca3a060eecd337ce1829faae4844489149d91e67e06d6c3921ae0ffe"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "scope_comparison_unresolved_no_card",
+      "reason": "The span contains semantic/model/rival content; exact full-proposition coverage or scope still needs independent comparison. Retained audit-only, not a placeholder card or completed decision."
+    },
+    {
+      "selection_index": 8,
+      "source_id": "LEGACY_COMPONENT:87ce3686694ce107d73b",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_selected_source_four_scribe_seventy_ninth_edition/SEVENTY_NINTH_EDITION_REPORT.md",
+        "line": 1,
+        "line_end": 17,
+        "quote": "# Neunundsiebzigste Werkstattfassung: vier Schreiber, eine Bedeutung\n\n## Ergebnis\n\nThe existing 464 four-hand copies are reconciled with the current minimal\ndictionary and selected finite source vocabulary. No new copy is generated and\nno renderer rule changes. The older free rich readbacks are simply replaced by\nthe current bounded semantic layers.\n\nAll 116 statements have four copies; 68 statements retain at least two\nvisible surface sequences. Every four-copy set has one exact tuple sequence, one\nminimal reading, one unit vocabulary and one controlled unit reading.\n\nThis makes the multi-scribe hypothesis easy to teach: hands vary after exact-card\nselection, not inside the shared word meanings or content program.\n\nOnly the fixed ten pages were used; f84 and f84r remained sealed.",
+        "sha256": "cbacfa5148853d5830a874c78d5a9f5f972925eede393ab301531a11db2e247b"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "existing_assertion_or_model_instance",
+      "reason": "Selected statement repeats the already explicit named model/meaning. Its engineering counts or additional copy instances do not by themselves add a semantic proposition.",
+      "counterparts": [
+        {
+          "id": "SEM:02c0398507a9a7fbc791",
+          "claim": "Mehrere Schreiber verwenden dasselbe Ganzkartendeck mit positionsabhängiger Oberfläche und gemeinsamem Bedeutungswert.",
+          "basis_sha256": "30b37af57630df79add109cb92a2b8e92a4ee82223b9651b86e2ec4304980a14"
+        }
+      ]
+    },
+    {
+      "selection_index": 9,
+      "source_id": "LEGACY_COMPONENT:a670213d932c1afeafe1",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_master_correction_sixtieth_edition/SIXTIETH_EDITION_REPORT.md",
+        "line": 1,
+        "line_end": 18,
+        "quote": "# Sechzigste Runde: der Meister kann Bedeutungsfehler gezielt korrigieren\n\nDas Rotstiftbuch enthält 32 Übungen: je acht Gradfehler, Y/Schluss-Verwechslungen,\nAL/AR-Richtungsfehler und Auslassungs-, Doppelungs- oder Reihenfolgefehler.\nJede Übung stammt aus einer vollständigen Aussage und benennt die konkrete\nfalsche Rücklesung.\n\nDie Hälfte lässt sich aus der lokalen Kartenlesung allein fangen: E, EE und EEE\nändern den Grad; Y hält den aktuellen Posten, während nur eine gelernte\nSchlusskarte schließt. Acht AL/AR-Fälle brauchen zusätzlich die sichtbare\nStation, um Quelle und Ziel zu prüfen. Acht Reihenfolgefehler verlangen den\nVergleich mit dem Meisterexemplar, weil eine vertauschte Folge für sich noch\nlesbar wirken kann.\n\nDamit ist das Mehrschreibermodell nicht nur produktiv, sondern korrigierbar.\nDie Werkstatt braucht keine moderne Grammatikbeschreibung: laut rücklesen, an\nQuelle und Ziel zeigen, dann Kartenanzahl und Reihenfolge gegen die Vorlage\nprüfen.",
+        "sha256": "f89a540737614bdc294f3c05ea4d372c70a301dcd15a946be747636288293af6"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "no_independent_semantic_proposition_in_span",
+      "reason": "The complete selected span gives a method, control or output count, publication pointer, scope ceiling or future procedural instruction without an independently specified additional meaning. No classification of the unread full report is implied."
+    },
+    {
+      "selection_index": 10,
+      "source_id": "LEGACY_COMPONENT:de5424f2d8fd4fad3269",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R1_MEDIUM_SUBSTANCE_REPORT.md",
+        "line": 172,
+        "line_end": 172,
+        "quote": "Diese Lesung hat nun eine klare Materialfolge: `PFLANZENSTOFF → WEINSUD → KLARAUSZUG → TRANK`.",
+        "sha256": "5f36716813e3e12341b606e7334884c4514751adc61ee63d440a105204305631"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [
+        "CLEAN_GAP_BN:plant_wine_extract_draught_chain"
+      ],
+      "decision": "scoped_local_proposition_candidates",
+      "reason": "Concrete complete local reading or source-stated relation recovered; this does not claim a new independent global theory."
+    },
+    {
+      "selection_index": 11,
+      "source_id": "LEGACY_COMPONENT:eba475941ad20383ae49",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_noun_load_twenty_sixth_edition/TWENTY_SIXTH_EDITION_REPORT.md",
+        "line": 1,
+        "line_end": 18,
+        "quote": "# Sechsundzwanzigste Ausgabe: Woher kommen die Nomen?\n\nJede der 116 Prosa-Aussagen steht nun in vier sichtbaren Schichten: exakte\nKartenfolge, kurze Kartenlesung, Bildbesitzer und kreative Vollausdeutung. Eine\nparallele magere Fassung behält Bild und alle 254 Arbeitsklauseln, ersetzt aber\nnicht erforderliche Arznei-, Krankheits-, Zutaten-, Gefäß-, Zeit- und\nPflanzenteilnomen durch den allgemeinen Besitzer oder Arbeitsgegenstand.\n\nDas ist keine Rückkehr zu leeren Platzhaltern. Handlung, Folge, Portion,\nSollmaß, Quelle, Ziel, Lauf, Grad, Halten und lokaler Schluss bleiben konkret.\nNur Wörter wie Olivenöl, Honig, bestimmte Leiden oder genaue anatomische Ziele\nwerden nicht mehr so behandelt, als lägen sie bereits in einem einzelnen\nStamm. Die reichere Übersetzung bleibt als kreative Werkstatttheorie erhalten.\n\nDie neue magere Ausgabe ist damit der bessere Vergleichstext: Wenn eine\nzukünftige Bedeutungsannahme die Lesung wirklich verbessert, muss sie mehr\nleisten als nur ein austauschbares Nomen in einen bereits funktionierenden\nArbeitsrahmen einzusetzen.",
+        "sha256": "0ee6329c4e6ddcdec81854ffda665bb4cb3d3cc7e73c4302cde19c435221a24f"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "no_independent_semantic_proposition_in_span",
+      "reason": "The complete selected span gives a method, control or output count, publication pointer, scope ceiling or future procedural instruction without an independently specified additional meaning. No classification of the unread full report is implied."
+    },
+    {
+      "selection_index": 12,
+      "source_id": "LEGACY_COMPONENT:01ce1c2ecb3d5f583506",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_scribe_forward_encoder/SCRIBE_FORWARD_ENCODER_REPORT.md",
+        "line": 24,
+        "line_end": 28,
+        "quote": "## Mehrschreiber-Modell\n\nAlle Schreiber teilen Bedeutungsbundle und exakte Kartenfamilie. Die lokale Hand entscheidet erst danach über eine registrierte `q`-, `s`- oder bare Oberfläche. Damit muss ein Lehrling nicht 173 unabhängige Wörter erfinden: Er lernt 37 häufige Paradigmen, das weitere Komponentenblatt und 22 Ganzkarten.\n\nDie neuen Übungsfolgen sind eine kreative Belastungsprobe der Theorie. Sie werden nicht als Voynich-Text ausgegeben und begründen keine Sprache oder Lautung.",
+        "sha256": "8c88eb11a199781dc02cf48626a75223f80140620e799c921f257f114135ecce"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "existing_assertion_or_model_instance",
+      "reason": "Selected statement repeats the already explicit named model/meaning. Its engineering counts or additional copy instances do not by themselves add a semantic proposition.",
+      "counterparts": [
+        {
+          "id": "SEM:02c0398507a9a7fbc791",
+          "claim": "Mehrere Schreiber verwenden dasselbe Ganzkartendeck mit positionsabhängiger Oberfläche und gemeinsamem Bedeutungswert.",
+          "basis_sha256": "30b37af57630df79add109cb92a2b8e92a4ee82223b9651b86e2ec4304980a14"
+        }
+      ]
+    },
+    {
+      "selection_index": 13,
+      "source_id": "LEGACY_COMPONENT:0e036f61c0759ccd8882",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_hierarchical_dictionary_fifty_fourth_edition/FIFTY_FOURTH_EDITION_REPORT.md",
+        "line": 23,
+        "line_end": 25,
+        "quote": "Dieses Schichtenmodell ist derzeit die sauberste Gesamtform unserer kreativen\nArbeitstheorie. Es erhält konkrete Bedeutungen, ohne lange Satzübersetzungen in\neinen vermeintlichen Stamm hineinzupressen.",
+        "sha256": "abb475140516a621a03322cae381f8244cad409650fbe3846ec3e99fde52b200"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "no_independent_semantic_proposition_in_span",
+      "reason": "The complete selected span gives a method, control or output count, publication pointer, scope ceiling or future procedural instruction without an independently specified additional meaning. No classification of the unread full report is implied."
+    },
+    {
+      "selection_index": 14,
+      "source_id": "LEGACY_COMPONENT:4a1174f69328a408e328",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_quantity_preparation/SELECTED_QUANTITY_PREPARATION_REPORT.md",
+        "line": 210,
+        "line_end": 213,
+        "quote": "Die Astro-Seiten bleiben im festen Zehn-Seiten-Scope, erhalten in dieser Runde\naber keine neuen Prosa-Satzwerte; ihre bisherigen lokalen Lookup-Lesungen\nbleiben unverändert. Die neue Grammatik ist eine kreative Werkstattlesung,\nkein Nachweis für Sprache, Lautung oder tatsächliche Voynich-Bedeutung.",
+        "sha256": "1d742fb23f9b6c2b3f0333fa2181d7cd47e29e16e30e5503029cbff3abec7632"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "no_independent_semantic_proposition_in_span",
+      "reason": "The complete selected span gives a method, control or output count, publication pointer, scope ceiling or future procedural instruction without an independently specified additional meaning. No classification of the unread full report is implied."
+    },
+    {
+      "selection_index": 15,
+      "source_id": "LEGACY_COMPONENT:4e1f38306eb6b0d24df3",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_new_dictations_thirtieth_edition/THIRTIETH_EDITION_REPORT.md",
+        "line": 1,
+        "line_end": 18,
+        "quote": "# Dreißigste Ausgabe: neue Diktate aus alten Wendungen\n\nZwölf neue Meisterübungen kombinieren jeweils zwei oder drei der siebzehn\nbelegten Kartenwendungen. Jede Übung verwendet ausschließlich bereits\nregistrierte Exact-Karten und wird von allen vier Werkstatthänden geschrieben.\nKartenidentität und Bedeutungsrücklesung bleiben gleich; nur die sichtbare\nOberfläche darf variieren.\n\nKeine der zwölf kompletten Tuplefolgen kommt zusammenhängend in einer der 116\nfesten Aussagen vor. Sie sind deshalb echte Vorhersagen der kreativen\nWerkstattgrammatik, aber ausdrücklich kein neuer Manuskripttext. Beispiele sind\n„diesen Pflanzenansatz auf Sollmaß setzen und danach im selben Gang\nweiterführen“ sowie „die nächste Portion zum Ziel bringen, länger halten, kurz\nnachsetzen und schließen“.\n\nDer Test zeigt, was das Modell praktisch behauptet: Ein Lehrling kann mit dem\nvorhandenen Karten- und Phrasekasten neue Arbeitsanweisungen schreiben, ohne\nneue Zeichen, Wörter oder Rendererregeln zu erfinden.",
+        "sha256": "ce8202c1b09dece847d76433d5d2219ca09be585ab59b2cdefee13d5cd17e345"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "no_independent_semantic_proposition_in_span",
+      "reason": "The complete selected span gives a method, control or output count, publication pointer, scope ceiling or future procedural instruction without an independently specified additional meaning. No classification of the unread full report is implied."
+    },
+    {
+      "selection_index": 16,
+      "source_id": "LEGACY_COMPONENT:6add402ab8362d21ef79",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_continuous_translation_eighty_ninth_edition/EIGHTY_NINTH_EDITION_REPORT.md",
+        "line": 1,
+        "line_end": 16,
+        "quote": "# Neunundachtzigste Werkstattrunde: fortlaufende Prosa\n\nAll 116 prose statements and all 381 visible prose events now have a card-near\nreading and a concrete source expansion. Eighteen statements explicitly cross\nphysical lines; none is split into separate semantic statements at that point.\n\nThe eight repaired Herbal classes from the previous round are propagated. The\nedition therefore says extraction liquid, carrier, binder, residue, dosed means,\nspreadable means, external application and bound application where the text does\nnot force wine, oil, honey or a named finished product.\n\nThis is the complete working translation for the fixed prose pages, not a claim\nthat the German words reproduce historical plaintext. It is the current scribe's\nsource program written out without leaving a card or statement unused.\n\nOnly the fixed pages were used; f84 and f84r remained sealed.",
+        "sha256": "5894f718acf4f96ab9485997e07c47ac1e13d832cf5b8bbdbec25ccdc1c3c76f"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "no_independent_semantic_proposition_in_span",
+      "reason": "The complete selected span gives a method, control or output count, publication pointer, scope ceiling or future procedural instruction without an independently specified additional meaning. No classification of the unread full report is implied."
+    },
+    {
+      "selection_index": 17,
+      "source_id": "LEGACY_COMPONENT:a5cf3d020692eab27c1d",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_scribe_idiom_copybook_twenty_ninth_edition/TWENTY_NINTH_EDITION_REPORT.md",
+        "line": 1,
+        "line_end": 19,
+        "quote": "# Neunundzwanzigste Ausgabe: Vier Hände, dieselben Wendungen\n\nDie siebzehn Kartenwendungen aus dem Phrasebuch wurden nun praktisch durch die\nvier Werkstattprofile geschrieben. Jede Wendung verwendet ein echtes Auftreten\naus den elf Prosa-Records. Die vier Kopien dürfen q-, s-, bare oder kompakte\nregistrierte Oberflächen wählen; ihre Exact-Tuples und ihre deutsche\nArbeitswendung bleiben identisch.\n\nDie Ausgabe enthält 68 vollständige Idiomkopien und zeigt pro Wendung, wie viele\nsichtbar verschiedene Oberflächenfolgen entstehen. Acht typische\nLehrlingsfehler ergänzen das Lehrbuch: q/s als Wort lesen, an der Zeile\nschließen, jedes dy als Ende lesen, Ganzkarten zerlegen, Gradzeichen frei\nausdehnen, den Besitzerwechsel ignorieren oder eine ganze Redewendung als neue\nEinzelkarte behandeln.\n\nDamit ist die Mehrschreiberidee konkret: Die Hände teilen Wörterbuch,\nPhrasebuch und Bedeutung, unterscheiden sich aber in der letzten graphischen\nAusführung. Unterschiedliche Oberfläche muss in dieser Arbeitstheorie keine\nunterschiedliche Sprache oder Bedeutung anzeigen.",
+        "sha256": "ac54af065d8069035d09c00e6a3c9910ff61f2358bad186f64372fa87b1ed62f"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "existing_assertion_or_model_instance",
+      "reason": "Selected statement repeats the already explicit named model/meaning. Its engineering counts or additional copy instances do not by themselves add a semantic proposition.",
+      "counterparts": [
+        {
+          "id": "SEM:02c0398507a9a7fbc791",
+          "claim": "Mehrere Schreiber verwenden dasselbe Ganzkartendeck mit positionsabhängiger Oberfläche und gemeinsamem Bedeutungswert.",
+          "basis_sha256": "30b37af57630df79add109cb92a2b8e92a4ee82223b9651b86e2ec4304980a14"
+        }
+      ]
+    },
+    {
+      "selection_index": 18,
+      "source_id": "LEGACY_COMPONENT:a87503924b6aa980359c",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_component_completion/TRANSFER_ORDER_REPORT.md",
+        "line": 161,
+        "line_end": 165,
+        "quote": "Diese drei Entscheidungen schliessen die verlangten Leerstellen innerhalb\nder konkreten Werkstatttheorie. Sie identifizieren weder eine historische\nSprache noch ein Voynich-Lexem. Die Bildbefunde begrenzen die lokale\nAusfuehrung; die Bedeutung kommt aus der erzwungenen Stammkonsistenz dieses\nkreativen Modells.",
+        "sha256": "dcea72d3895a046bf5f4e16289d593cf4aba93bcbfe9f1360305436074f95bed"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "no_independent_semantic_proposition_in_span",
+      "reason": "The complete selected span gives a method, control or output count, publication pointer, scope ceiling or future procedural instruction without an independently specified additional meaning. No classification of the unread full report is implied."
+    },
+    {
+      "selection_index": 19,
+      "source_id": "LEGACY_COMPONENT:dc54c14062225e67bc1f",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_ten_page_unified_reader/TEN_PAGE_UNIFIED_READER_REPORT.md",
+        "line": 1,
+        "line_end": 19,
+        "quote": "# Einheitlicher Leser für alle zehn Seiten\n\n## Ergebnis\n\nDie aktuelle Ausgabe liest nun alle 776 sichtbaren Gruppen mit einem einzigen zweigeteilten Werkstattschlüssel. Die sieben Prosaseiten liefern 381 Ereignisse in 116 Aussagen; die drei Diagrammseiten 395 Gruppen an 142 sichtbaren Orten.\n\nFür die Prosa genügen 230 sichtbare Formen, die direkt auf 173 eindeutige Meisterkarten führen. Für die Diagramme genügen 377 Kombinationen aus sichtbarem Besitzer und Oberfläche. Zusammen besitzt das Taschenbuch 607 Nachschlagezeilen.\n\nDie Besitzerregel ist notwendig: Astro allein enthält 301 verschiedene Oberflächen, und 42 davon tragen an verschiedenen sichtbaren Orten verschiedene konkrete Lesungen. Innerhalb derselben Besitzer-Oberflächen-Kombination entsteht dagegen kein Bedeutungswiderspruch.\n\n## Gemeinsamer Kartenbestand\n\nProsa und Diagramme teilen 44 sichtbare Formen. Diese werden nicht als zwei zufällig gleich geschriebene Wörter behandelt, sondern als Werkstattkarten mit gemeinsamem operativem Kern und registerabhängiger Ausprägung: praktisch im Text, himmlisch oder tabellarisch am Diagrammbesitzer.\n\n## Leseregel\n\nProsa: Oberfläche -> Meisterkarte -> eindeutiger Arbeitswert. Diagramm: sichtbarer Besitzer + Oberfläche -> lokaler Himmels- oder Tabellenwert. Weder Kreisrichtung noch gemeinsamer Startpunkt noch ein f68-f69-Schlüssel wird benötigt.\n\nDas ist die kreative zehnseitige Arbeitstheorie; die vollständige Lesbarkeit folgt aus dem gewählten Werkstattcodebuch und ist keine Behauptung einer historisch bestätigten Entzifferung.",
+        "sha256": "95acbf10203b5311a5b5565cb2e10ac22d4816d6f0db2d987668161b5cd2a6dd"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "scope_comparison_unresolved_no_card",
+      "reason": "The span contains semantic/model/rival content; exact full-proposition coverage or scope still needs independent comparison. Retained audit-only, not a placeholder card or completed decision."
+    },
+    {
+      "selection_index": 20,
+      "source_id": "LEGACY_COMPONENT:dd5d53328ba9d50c9979",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_od_marked_entry_paradigm/OD_MARKED_ENTRY_REPORT.md",
+        "line": 3,
+        "line_end": 10,
+        "quote": "## Neue kurze Bedeutung\n\n`OD` ist der nächste brauchbare gebundene Tabellenmodifier. Seine kleinste Lesung lautet:\n\n> **MARKIERT / EINGETRAGEN**\n\n`OD` ist kein selbständiges deutsches Wort und kein Schlusszeichen. Es steht zwischen Tabellenkörper, Arbeitskern und aktuellem Posten. Zusammen mit `Y` bildet es die häufige Lesung **diesen Eintrag markieren/festhalten**.\n",
+        "sha256": "4bca4d8e9f1da4ebb3e853ba61cfaef1a11b12ed796f6c08aeb2bbd4765f79fb"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "scope_comparison_unresolved_no_card",
+      "reason": "The span contains semantic/model/rival content; exact full-proposition coverage or scope still needs independent comparison. Retained audit-only, not a placeholder card or completed decision."
+    },
+    {
+      "selection_index": 21,
+      "source_id": "LEGACY_COMPONENT:02538d03b899892f7517",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_historical_workshop_model/HISTORICAL_ARCHITECTURE_REPORT.md",
+        "line": 14,
+        "line_end": 23,
+        "quote": "## Warum dieses Modell besser ist als eine Geheimschrift oder eine normale Sprache\n\nEine reine Substitutionschiffre erklärt die vielen lokal gelernten Karten, aber nicht, warum `OK+AR`, `OK+AL`, `OT+OL` oder `AL+AIIN` auf verschiedenen Besitzern denselben kurzen Beitrag behalten. Eine normale abgekürzte Sprache erklärt produktive Kürzel, aber nicht die große bild- und diagrammlokale Nomenklatorschicht. Ein reines semantisches Kombinationsalphabet würde umgekehrt zu viele Karten gewaltsam zerlegen.\n\nDas Hybridmodell erlaubt deshalb drei ehrliche Ausgänge:\n\n- **regelhaft:** die sichtbare Folge wird aus wiederverwendbaren Kernen gelesen;\n- **teilregelhaft:** bekannte Kerne liefern die Arbeitsrelation, ein lokaler Rest bleibt Nomenklatorwert;\n- **Ganzkarte:** der längste registrierte Wert blockiert eine verführerische Teilung.\n",
+        "sha256": "f82bc1a9470d99987a4914121a7c418e88228df9c8764d969f1085a1ebaae802"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "scope_comparison_unresolved_no_card",
+      "reason": "The span contains semantic/model/rival content; exact full-proposition coverage or scope still needs independent comparison. Retained audit-only, not a placeholder card or completed decision."
+    },
+    {
+      "selection_index": 22,
+      "source_id": "LEGACY_COMPONENT:067862599e1ced1863e9",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_selected_job_paths/MENU_TO_PATH_REPORT.md",
+        "line": 28,
+        "line_end": 28,
+        "quote": "Diese neun Echos wurden nicht zu neuen langen Satzbedeutungen aufgeblasen. Die gemeinsame Bedeutung bleibt jeweils kurz; Besitzer und Register liefern den konkreten Gegenstand.",
+        "sha256": "e84a5d33d832dbba8cbe710e5ac13d9c49203156a82c6b490f751a5d3b75e392"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "no_independent_semantic_proposition_in_span",
+      "reason": "The complete selected span gives a method, control or output count, publication pointer, scope ceiling or future procedural instruction without an independently specified additional meaning. No classification of the unread full report is implied."
+    },
+    {
+      "selection_index": 23,
+      "source_id": "LEGACY_COMPONENT:20a794e6754675933472",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_slot_lattice_forty_seventh_edition/FORTY_SEVENTH_EDITION_REPORT.md",
+        "line": 7,
+        "line_end": 10,
+        "quote": "Die 24 leeren Zellen mit der stärksten Zeilen- und Spaltenanalogie erhalten\neine vorab bestimmte Kurzlesung. Jede wird zusätzlich unter Pflanze, Becken,\nTuch, Himmelsfeld und Werkstück gesprochen, insgesamt 120 Besitzerprognosen.\nEine sichtbare Voynich-Oberfläche wird absichtlich nicht erfunden.",
+        "sha256": "11aafcf734ef89389c0ca245e896663504e817b73f9bce9b8d0747920965e68b"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "no_independent_semantic_proposition_in_span",
+      "reason": "The complete selected span gives a method, control or output count, publication pointer, scope ceiling or future procedural instruction without an independently specified additional meaning. No classification of the unread full report is implied."
+    },
+    {
+      "selection_index": 24,
+      "source_id": "LEGACY_COMPONENT:243f1458871a8654ed25",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R3_MEDIUM_SUBSTANCE_REPORT.md",
+        "line": 133,
+        "line_end": 138,
+        "quote": "`SHECTHY` kommt nur in `E276 / B3-S021` vor. Zwischen Ruhe-/Absetzstelle und\ndem wiederaufgenommenen Arbeitsposten ist **TEMPERIERT** die kürzeste\ntragfähige Lesung. Die Karte sagt damit den erreichten Zustand, nicht noch\neinmal die Substanz. Die ältere Lesung „warmes Wasser“ war zu eng; auch „warmes\nArbeitsmedium“ schrieb unnötig einen Gegenstand in eine Position, die sehr gut\nals Zustandsangabe funktioniert.",
+        "sha256": "f9b702a835beba25625fdf9e83efef08497689d42a7ed6048880ddf9db4481f0"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "scope_comparison_unresolved_no_card",
+      "reason": "The span contains semantic/model/rival content; exact full-proposition coverage or scope still needs independent comparison. Retained audit-only, not a placeholder card or completed decision."
+    },
+    {
+      "selection_index": 25,
+      "source_id": "LEGACY_COMPONENT:2614c70d1a9dd3f2dfc0",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_minimal_pairs_thirty_third_edition/THIRTY_THIRD_EDITION_REPORT.md",
+        "line": 3,
+        "line_end": 6,
+        "quote": "Diese Runde nimmt die aktuelle Werkstatttheorie beim Wort. Ein Stamm zählt hier\nnicht deshalb als gut, weil er eine einzelne Karte hübsch erklärt, sondern weil\nsein Austausch innerhalb einer tatsächlich vorhandenen Familie einen kleinen,\nwiederholbaren Bedeutungsunterschied erzeugt.",
+        "sha256": "4e0a27f784812b4aa350b96541525ca24ea649064cb5a6fb98fc58c3a9816aa1"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "no_independent_semantic_proposition_in_span",
+      "reason": "The complete selected span gives a method, control or output count, publication pointer, scope ceiling or future procedural instruction without an independently specified additional meaning. No classification of the unread full report is implied."
+    },
+    {
+      "selection_index": 26,
+      "source_id": "LEGACY_COMPONENT:2802c1c57fc0715e4eb7",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_open_middle_lexicon/OPEN_MIDDLE_LEXICON_REPORT.md",
+        "line": 140,
+        "line_end": 159,
+        "quote": "## Gegenwärtige beste Arbeitstheorie\n\nEin Schreiber um 1420 arbeitet mit zwei Gedächtnissen zugleich:\n\n- **Regelgedächtnis:** kurze Fachkürzel für Posten, Maß, Portion, Quelle, Ziel,\n  Fortsetzung, Ansatz, Grad und wiederkehrende Arbeitsgänge;\n- **Exemplargedächtnis:** wenige häufige Fachwörter plus viele seltene lokale\n  Karten für besondere Materialien, Gefäße, Werkzeuge oder Operationen.\n\nDas erklärt, warum ähnliche Kartenfamilien neue Kombinationen bilden können,\nohne dass jede sichtbare Teilfolge ein Morphem sein muss. Es erklärt ebenfalls,\nwarum häufige Grammatik sehr regelmäßig wirkt, während der seltene Schwanz\nsprunghaft und bildlokal bleibt.\n\nDie nächste produktive Runde sollte daher nicht weitere Stämme erfinden. Sie\nsoll aus dem 16-Karten-Kern ein kurzes Lehrlingsphrasebuch bauen und dann prüfen,\nwelche der 55 Einzelkarten durch wiederkehrende **Satzpositionen** eine zweite,\neinfachere Bedeutung bekommen. So greifen wir den opaken Schwanz an, ohne die\nbereits gefundene Kompositionsgrammatik wieder aufzuweichen.\n",
+        "sha256": "1e313d1c66549f8a54a3441976d8618864c9b20483087a07d0326a601755a152"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "scope_comparison_unresolved_no_card",
+      "reason": "The span contains semantic/model/rival content; exact full-proposition coverage or scope still needs independent comparison. Retained audit-only, not a placeholder card or completed decision."
+    },
+    {
+      "selection_index": 27,
+      "source_id": "LEGACY_COMPONENT:2dc951869ffff68ad827",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_four_scribe_copyshop/FOUR_SCRIBE_COPYSHOP_REPORT.md",
+        "line": 7,
+        "line_end": 7,
+        "quote": "Das Prosa-Inventar enthält 34 exakte Kartenfamilien mit mehr als einer registrierten Oberfläche. Über alle 116 Aussagen entstehen 464 Gegenkopien. 68 Aussagen erhalten unter den vier Profilen mindestens zwei verschiedene sichtbare Folgen; die übrigen besitzen an den betreffenden Stellen nur feste oder für diese Regeln nicht alternative Formen. Alle Tuplefolgen und Bedeutungsrücklesungen bleiben gleich.",
+        "sha256": "9119f57fd8ad81cbe21f9c37ae802e5b18926ca99a385175862788649d7295be"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "no_independent_semantic_proposition_in_span",
+      "reason": "The complete selected span gives a method, control or output count, publication pointer, scope ceiling or future procedural instruction without an independently specified additional meaning. No classification of the unread full report is implied."
+    },
+    {
+      "selection_index": 28,
+      "source_id": "LEGACY_COMPONENT:35d066f7e3f648f61c41",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_minimal_dictionary_seventy_second_edition/SEVENTY_SECOND_EDITION_REPORT.md",
+        "line": 1,
+        "line_end": 18,
+        "quote": "# Zweiundsiebzigste Werkstattfassung: minimales Bedeutungswörterbuch\n\n## Ergebnis\n\nThe shared semantic dictionary is reduced to 28 one-word productive roots and\n15 short learned whole-card or pattern values. All other hierarchy layers are\nexplicitly nonwords: visual owners, memory registers, process macros and local\nAstro modules.\n\nEvery one of the 381 prose groups and 116 statements is reissued with the short\ncomponent reading beside the richer master text. This prevents meanings such as\na disease, liquid recipe or entire instruction from leaking back into a root.\n\nThe useful core is intentionally plain: target, source, run, set, continue, next,\npreparation, this, short/long/full, transfer, ready, passage, separate, warm,\nsettle, collect, ingredient, extract, part, hold and result.\n\nOnly the fixed prose pages were used; f84 and f84r remained sealed.",
+        "sha256": "2735a76e5019612e81e7348cc54cb1aa23ce2fae1d821ca5ce34e3deeb658de5"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "scope_comparison_unresolved_no_card",
+      "reason": "The span contains semantic/model/rival content; exact full-proposition coverage or scope still needs independent comparison. Retained audit-only, not a placeholder card or completed decision."
+    },
+    {
+      "selection_index": 29,
+      "source_id": "LEGACY_COMPONENT:3df32bea8011d04aa1ce",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_singleton_composition_rescue/SINGLETON_COMPOSITION_REPORT.md",
+        "line": 106,
+        "line_end": 108,
+        "quote": "Die alte Lesung SEITENARM war eine Bildbeschreibung. `AL + Y` sagt knapper,\nwas der Schreiber tun soll: den aktuellen Posten an die bezeichnete Stelle\nbringen.",
+        "sha256": "997aad4c958c4eb1bc640983d723f694098fbf7e289fb983dd735914af736395"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "scope_comparison_unresolved_no_card",
+      "reason": "The span contains semantic/model/rival content; exact full-proposition coverage or scope still needs independent comparison. Retained audit-only, not a placeholder card or completed decision."
+    },
+    {
+      "selection_index": 30,
+      "source_id": "LEGACY_COMPONENT:402d5e43e672864855d4",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_unique_master_glosses/UNIQUE_MASTER_GLOSS_REPORT.md",
+        "line": 21,
+        "line_end": 21,
+        "quote": "Die Bedeutungen bleiben die kreative Arbeitstheorie dieser zehn Seiten. Die Eindeutigkeit ist eine bewusste Codebuchentscheidung, keine Behauptung, dass natürliche Sprache nie Synonyme haben dürfe.",
+        "sha256": "abc9b7831bbeed5e73774e2ecef6fb0917fb453b3515ba5cb169cc33617a7f73"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "no_independent_semantic_proposition_in_span",
+      "reason": "The complete selected span gives a method, control or output count, publication pointer, scope ceiling or future procedural instruction without an independently specified additional meaning. No classification of the unread full report is implied."
+    },
+    {
+      "selection_index": 31,
+      "source_id": "LEGACY_COMPONENT:40a6b59106f99a17489c",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_filtration_separation_completion/DRAUGHTSMAN_FILTRATION_REPORT.md",
+        "line": 307,
+        "line_end": 310,
+        "quote": "Jede Zeile enthält Tuple-ID, Oberflächen, Events, Seiten, Records, Aussagen,\nBildbesitzer, sichtbare Geometrie, verifizierten Bildhash, aktuelle und neue\nLesung, kurzen konkreten Default, Rivalen und alle zugehörigen\nzusammenhängenden Satzpassagen. Keine Zielkarte bleibt bedeutungsleer.",
+        "sha256": "15cc55baf8430628aad31c01dec2c34a3fd664f222906ec8239bc6f603f65c49"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "no_independent_semantic_proposition_in_span",
+      "reason": "The complete selected span gives a method, control or output count, publication pointer, scope ceiling or future procedural instruction without an independently specified additional meaning. No classification of the unread full report is implied."
+    },
+    {
+      "selection_index": 32,
+      "source_id": "LEGACY_COMPONENT:46497e3e1bf8cec654cf",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_canonical_handoff_thirty_second_edition/THIRTY_SECOND_EDITION_REPORT.md",
+        "line": 1,
+        "line_end": 17,
+        "quote": "# Zweiunddreißigste Ausgabe: kompakte Gesamtfassung\n\nDie aktiven Schichten sind erstmals in einem kurzen, fortsetzbaren Handoff\ngebündelt. Zwölf Quellartefakte tragen Oberfläche, 776-Gruppen-Ledger,\n258 Leseeinheiten, Besitzer, 56er Lehrkasten, 254 Klauseln, Nomenlast, elf\nausgewogene Records, siebzehn Idiome, vier Schreiber, neue Diktate und vier\nDossiers. Eine Pfad- und Hashkarte zeigt eindeutig, wo jede Schicht liegt.\n\n`THIRTY_SECOND_QUICK_REFERENCE.md` ist die Taschenfassung für Kerne,\nGanzkarten, Idiome und Schreiberregeln. `THIRTY_SECOND_CANONICAL_WORKING_THEORY.md`\nenthält die beste aktuelle Theorie, alle elf bevorzugten Prosa-Records, vier\nBenutzungsfälle und die Regeln für weitere kreative Verbesserungen.\n\nDie Kompression ändert keine Bedeutungen. Sie verhindert, dass spätere\nIterationen auf veraltete Glossen oder frühere überladene Vollübersetzungen\nzurückfallen, und lässt die detaillierten Editionen weiterhin als exakte\nUnterlagen bestehen.",
+        "sha256": "5cf2ebebd78cb432ae628775f8f119e0c5e2481e8b5f4442cf9d13be9f94613a"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "no_independent_semantic_proposition_in_span",
+      "reason": "The complete selected span gives a method, control or output count, publication pointer, scope ceiling or future procedural instruction without an independently specified additional meaning. No classification of the unread full report is implied."
+    },
+    {
+      "selection_index": 33,
+      "source_id": "LEGACY_COMPONENT:466b61e95ed7d60b59e7",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_reference_continuity_completion/REFERENCE_CONTINUITY_REPORT.md",
+        "line": 53,
+        "line_end": 70,
+        "quote": "## Resulting readings\n\nThe repaired passages now read naturally within the current theory:\n\n- H3: “Prepare a draught from the previous item to the target measure.”\n- H5: “Wash the marked site, set the previous item on it, and apply it.”\n- B1: “Transfer to the work site, lead it out at the outlet, then continue\n  from there.”\n- B3: “Set the following measure, lead to the lower target, allow it to\n  settle, and close.”\n- B6: “Collect the raw item longer, open the side arm, continue to the target\n  measure, insert the cloth, and lead the item to the final target.”\n\nThis pass revises six exact cards across 25 occurrences and seven continuous\ninstructions. The complete edition remains 173 card types, 381 prose events,\n116 instructions and eleven records. Every event still has a concrete default\nreading.\n",
+        "sha256": "55838982e1730e3affb4896bb26ce3be43b8645071799c7ad9f3998664d08eba"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [
+        "CLEAN_GAP_BN:h3_prior_draught",
+        "CLEAN_GAP_BN:h5_marked_site_apply",
+        "CLEAN_GAP_BN:b1_transfer_outlet_continue",
+        "CLEAN_GAP_BN:b3_following_measure_lower",
+        "CLEAN_GAP_BN:b6_raw_cloth_target"
+      ],
+      "decision": "scoped_local_proposition_candidates",
+      "reason": "Concrete complete local reading or source-stated relation recovered; this does not claim a new independent global theory."
+    },
+    {
+      "selection_index": 34,
+      "source_id": "LEGACY_COMPONENT:49b1cf5785a366bef758",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_nonmedical_counterbook_seventieth_edition/SEVENTIETH_EDITION_REPORT.md",
+        "line": 1,
+        "line_end": 16,
+        "quote": "# Siebzigste Werkstattfassung: nichtmedizinisches Gegenbuch\n\n## Ergebnis\n\nA coherent nonmedical master source can regenerate the same fourteen units\nwithout changing a card, clause, owner or visible surface. It reads Herbal as\nplant-material processing, Biological as wash/bath/dyehouse operation and Astro\nas a general celestial work almanac.\n\nThe deliberately simple local content tally is medical 53 versus nonmedical 55. The rival is especially strong in H4, H5, B5 and B6; the medical reading is stronger where people, immersion or bodily application are visually natural.\n\nThis does not weaken the writing-system model. It sharpens the next semantic\ntask: body-use versus material/station wording must be resolved inside the\nexisting cards and owners, not by adding new pages or grand book-purpose claims.\n\nOnly the fixed ten pages were used; f84 and f84r remained sealed.",
+        "sha256": "98c9d24743394728fd79211bd1ba69f60e342253d37fb0352431269366d7b049"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "scope_comparison_unresolved_no_card",
+      "reason": "The span contains semantic/model/rival content; exact full-proposition coverage or scope still needs independent comparison. Retained audit-only, not a placeholder card or completed decision."
+    },
+    {
+      "selection_index": 35,
+      "source_id": "LEGACY_COMPONENT:4c2cb803d60ac283cacf",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R3_MEDIUM_SUBSTANCE_REPORT.md",
+        "line": 73,
+        "line_end": 78,
+        "quote": "In `H4-S003` wird der Auszug gewonnen und länger warm gehalten; in `H5-S004`\nwird derselbe Produkttyp einem laufenden Posten wieder zugegeben und danach\nabgeseiht. Das ist kein Bedeutungswechsel, sondern die gewöhnliche\nWerkstattlaufbahn eines Zwischenprodukts: **aus einem Ansatz entnehmen → als\nZutat in einem späteren Arbeitsschritt einsetzen**. Ob dieser Auszug wässrig,\nweinig oder ölig ist, bleibt lokal offen.",
+        "sha256": "f9b702a835beba25625fdf9e83efef08497689d42a7ed6048880ddf9db4481f0"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [
+        "CLEAN_GAP_BN:extract_intermediate_lifecycle"
+      ],
+      "decision": "scoped_local_proposition_candidates",
+      "reason": "Concrete complete local reading or source-stated relation recovered; this does not claim a new independent global theory."
+    },
+    {
+      "selection_index": 36,
+      "source_id": "LEGACY_COMPONENT:4c91f565f6d55f919696",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_variant_selector_completion/VARIANT_SELECTOR_REPORT.md",
+        "line": 52,
+        "line_end": 53,
+        "quote": "Diese Achsen sind kein abstraktes Universalmodell. Sie sind das konkrete\nMenü, das die gegenwärtige Zehn-Seiten-Lesung am besten ausführbar macht.",
+        "sha256": "3a3a3311e0f5eb9a5973e723ee7cf0cd350fe31ee397548629774903be4cdd67"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "no_independent_semantic_proposition_in_span",
+      "reason": "The complete selected span gives a method, control or output count, publication pointer, scope ceiling or future procedural instruction without an independently specified additional meaning. No classification of the unread full report is implied."
+    },
+    {
+      "selection_index": 37,
+      "source_id": "LEGACY_COMPONENT:5e5a38c2591de636093f",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_variant_selector_completion/VARIANT_SELECTOR_REPORT.md",
+        "line": 114,
+        "line_end": 117,
+        "quote": "Wiederholung innerhalb derselben Zelle bleibt erlaubt: Wenn eine Maß-, Ziel-\noder Transferkarte dort wirklich mehrfach steht, kann die flüssige Lesung\n„erneut“ verwenden. Verboten ist nur, Nachbarschaft zwischen geschlossenen\nZellen heimlich in die Kartenbedeutung einzubauen.",
+        "sha256": "3a3a3311e0f5eb9a5973e723ee7cf0cd350fe31ee397548629774903be4cdd67"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "scope_comparison_unresolved_no_card",
+      "reason": "The span contains semantic/model/rival content; exact full-proposition coverage or scope still needs independent comparison. Retained audit-only, not a placeholder card or completed decision."
+    },
+    {
+      "selection_index": 38,
+      "source_id": "LEGACY_COMPONENT:6636e0aedce50df832d3",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_paradigm_closure/OK_PARADIGM_REPORT.md",
+        "line": 196,
+        "line_end": 197,
+        "quote": "Die selbständige `shedy`-Karte bezeichnet in der Arbeitstheorie einen\nRuhe-/Absetzabschluss. Der einzelne `qokshedy`-Beleg wird daher:",
+        "sha256": "94d88e8d751541da909fbe87b746c61639fa40156a7d2e81bdeccd1182c6a377"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "existing_assertion_or_model_instance",
+      "reason": "Selected statement repeats the already explicit named model/meaning. Its engineering counts or additional copy instances do not by themselves add a semantic proposition.",
+      "counterparts": [
+        {
+          "id": "SEM:38f08d4261fad18d3646",
+          "claim": "shedy → settle; close",
+          "basis_sha256": "2fa18eff25d6dfd62f524ab2d4d8bcadf3be3260c76fb19375c289a24931a45a"
+        }
+      ]
+    },
+    {
+      "selection_index": 39,
+      "source_id": "LEGACY_COMPONENT:6db3e89d6ab957ef26e0",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_slot_lattice_forty_seventh_edition/FORTY_SEVENTH_EDITION_REPORT.md",
+        "line": 12,
+        "line_end": 15,
+        "quote": "Das ist die bisher schärfste produktive Konsequenz der Arbeitstheorie: Die\nLesung einer neuen Kombination wird aus Basis und Endung vorhergesagt, statt\nnach ihrem Auftauchen als Ganzsatz glossiert zu werden. SHED, SOLK und CLOSE\nbleiben dabei im Himmelsregister nur Lehrübungen.",
+        "sha256": "11aafcf734ef89389c0ca245e896663504e817b73f9bce9b8d0747920965e68b"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "no_independent_semantic_proposition_in_span",
+      "reason": "The span summarizes the already posited base-plus-ending prediction procedure and explicitly limits SHED/SOLK/CLOSE in the celestial register to exercises; it gives no new specific meaning or manuscript observation."
+    },
+    {
+      "selection_index": 40,
+      "source_id": "LEGACY_COMPONENT:70cb1235afa0cbfc03e2",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_compiler_decision_tree_fiftieth_edition/FIFTIETH_EDITION_REPORT.md",
+        "line": 20,
+        "line_end": 25,
+        "quote": "Der entscheidende Fortschritt ist organisatorisch: Unsere Theorie beschreibt\nnun nicht nur, was einzelne Karten bedeuten könnten, sondern wie ein Schreiber\naus einer gemeinten Handlung zuverlässig zu einer vorhandenen Schreibform kommt.\nDer nächste Hebel ist klar: Unter den 65 Rückfragen müssen wir herausfinden,\nwelche wenigen fehlenden Basiskarten oder Endkarten die meisten Lücken zugleich\nschließen würden.",
+        "sha256": "25ed6955dd7fed73b6f3fd4ab8cc7886ca2f2d7a5bc31383cafd8ab4cf505cf0"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "no_independent_semantic_proposition_in_span",
+      "reason": "The complete selected span gives a method, control or output count, publication pointer, scope ceiling or future procedural instruction without an independently specified additional meaning. No classification of the unread full report is implied."
+    },
+    {
+      "selection_index": 41,
+      "source_id": "LEGACY_COMPONENT:71229e3df26222da49d6",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_thermal_temporal_completion/R2_REPORT.md",
+        "line": 63,
+        "line_end": 63,
+        "quote": "Genau diese Trennung motiviert das R2-Modell. Sie beweist keine einzelne Kartenbedeutung.",
+        "sha256": "3938eafaba2acf826e87f2e22a7ba993dcecf2a14a6e8b896ce405b20bdcab14"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "no_independent_semantic_proposition_in_span",
+      "reason": "The complete selected span gives a method, control or output count, publication pointer, scope ceiling or future procedural instruction without an independently specified additional meaning. No classification of the unread full report is implied."
+    },
+    {
+      "selection_index": 42,
+      "source_id": "LEGACY_COMPONENT:75c54ab36fd66ba0ecd6",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_pocket_grammar_fifty_fifth_edition/FIFTY_FIFTH_EDITION_REPORT.md",
+        "line": 1,
+        "line_end": 17,
+        "quote": "# Fünfundfünfzigste Runde: die Theorie passt auf den Schreibertisch\n\nDie sieben Wörterbuchebenen sind jetzt in 24 kurze Tischregeln und eine\neinseitige Taschengrammatik übersetzt. Der Lehrling braucht vier Vorbereitungen,\nneun Leseschritte, vier Satzregeln, vier Schreibentscheidungen und drei lokale\nAstroregeln.\n\nDie wichtigste Lesereihenfolge lautet: längster gelernter Fachkörper zuerst;\ndann Reihenfolge, Handlung, Quelle oder Lauf, Menge oder Stufe, Ziel, Grad,\naktueller Posten und gegebenenfalls die gelernte Schlusskarte. Das Bild liefert\ndie konkreten Gegenstände. Ein Zeilenende bleibt bloß Platzverwaltung.\n\nDie Schreibseite ist noch kürzer: ganze Karte, sonst zwei vorhandene Karten,\nsonst kontrollierte Umschreibung, sonst Meister. Zwölf Beispiele decken alle\nvier Compilerzweige ab. Damit ist das Modell tatsächlich als einfaches,\nmehrschreibertaugliches Werkstattsystem lehrbar und nicht nur als nachträgliche\nAnalyse beschreibbar.",
+        "sha256": "0f23273ee059a5afc7f8b762266432b09fbd4b6cc81b01ab042b6f2c2b0cf5e8"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "scope_comparison_unresolved_no_card",
+      "reason": "The span contains semantic/model/rival content; exact full-proposition coverage or scope still needs independent comparison. Retained audit-only, not a placeholder card or completed decision."
+    },
+    {
+      "selection_index": 43,
+      "source_id": "LEGACY_COMPONENT:76469a0429086d3b0024",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_refined_controlled_rewrite_eighty_second_edition/EIGHTY_SECOND_EDITION_REPORT.md",
+        "line": 1,
+        "line_end": 15,
+        "quote": "# Zweiundachtzigste Werkstattfassung: verfeinerte Lesung\n\n## Ergebnis\n\nThe twelve source-word revisions are propagated through all fourteen units and\nall 776 bindings. Thirteen units change wording; B5 remains unchanged.\n\nThe main gain is compositional. Herbal now speaks of extraction liquid, carrier\nmaterial, binding material and means; Biological separates cloth from a straining\npass; Astro reads fields and signs instead of labels and abstract value metrics.\n\nNo card/root meaning, visible group, owner, unit program or scribe rendering is\nchanged. The rewrite acts only at the selected source-word layer.\n\nOnly the fixed ten pages were used; f84 and f84r remained sealed.",
+        "sha256": "06df6bde3b0da794cbefcb0909292fb73349a0d8965ab9b4139791b88ebb989a"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "scope_comparison_unresolved_no_card",
+      "reason": "The span contains semantic/model/rival content; exact full-proposition coverage or scope still needs independent comparison. Retained audit-only, not a placeholder card or completed decision."
+    },
+    {
+      "selection_index": 44,
+      "source_id": "LEGACY_COMPONENT:7665db5f61e9a767c5ed",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_historical_workshop_model/HISTORICAL_ARCHITECTURE_REPORT.md",
+        "line": 83,
+        "line_end": 83,
+        "quote": "Die zehn Seiten passen jetzt am besten zu einem **bildgetragenen technischen Nomenklator mit produktiver Brevigrafgrammatik**. Die wahrscheinlichste Inhaltsfassung bleibt praktisch: Pflanzenmaterial, Bäder/Anwendungen/Flüssigkeitsgänge und getrennte Himmels- bzw. Wahltafeln. Das historische Modell macht diese Lesung nicht wahr, aber es macht ihre Schreibtechnik konkret, einfach erlernbar und vorhersagend.",
+        "sha256": "f82bc1a9470d99987a4914121a7c418e88228df9c8764d969f1085a1ebaae802"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "scope_comparison_unresolved_no_card",
+      "reason": "The span contains semantic/model/rival content; exact full-proposition coverage or scope still needs independent comparison. Retained audit-only, not a placeholder card or completed decision."
+    },
+    {
+      "selection_index": 45,
+      "source_id": "LEGACY_COMPONENT:7fea2e6dc45ea2e8aa9d",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_concrete_codex_eighty_sixth_edition/EIGHTY_SIXTH_EDITION_REPORT.md",
+        "line": 1,
+        "line_end": 14,
+        "quote": "# Sechsundachtzigste Werkstattfassung: konkreter Gesamtcodex\n\n## Ergebnis\n\nThe selected Herbal recipebook, bath/service book and celestial almanac are\ncombined without altering local readings. The release contains 44 domain source\nwords, fourteen complete units and all 776 groups.\n\nThe leading book purpose is P1_PRACTITIONER_RECIPE_BATH_CELESTIAL_COMPENDIUM with 54/60.\nBathhouse supply/work almanac and modelbook remain coherent rivals. The lead is\na practical practitioner compendium, but cross-section use is thematic rather\nthan asserted through invented pointers.\n\nOnly the fixed ten pages were used; f84 and f84r remained sealed.",
+        "sha256": "eed8df1c032d52debdc755b158947c2134f643e1a68493113be315a282773a22"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "scope_comparison_unresolved_no_card",
+      "reason": "The span contains semantic/model/rival content; exact full-proposition coverage or scope still needs independent comparison. Retained audit-only, not a placeholder card or completed decision."
+    },
+    {
+      "selection_index": 46,
+      "source_id": "LEGACY_COMPONENT:85b50b6092fb476e7bec",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_thermal_temporal_completion/R1_REPORT.md",
+        "line": 87,
+        "line_end": 88,
+        "quote": "Für eine Flüssigkeit kann **RUHEN LASSEN** lokal „absetzen lassen“ bedeuten.\nDer Stamm selbst muss diese Folge nicht als zweite Wörterbuchbedeutung tragen.",
+        "sha256": "c8e34c8e915b6222fa57078ddc8d0a3d9eafa155e248abb75b47ddd805f8893b"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "no_independent_semantic_proposition_in_span",
+      "reason": "The selected sentence gives a context-dependent paraphrase of RUHEN LASSEN as settling for liquid; it explicitly says not to create a second stem meaning. No separate token assignment or complete model is specified by the span."
+    },
+    {
+      "selection_index": 47,
+      "source_id": "LEGACY_COMPONENT:92d3f7f2a65a6f646fde",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_apprentice_curriculum_forty_fourth_edition/FORTY_FOURTH_EDITION_REPORT.md",
+        "line": 8,
+        "line_end": 11,
+        "quote": "Jeder Tag enthält vier kurze Übungen; insgesamt gibt es 32. Das Gesellenstück\nhat acht Aufgaben und 60 Punkte. Es verlangt vollständige H3- und B2-Lesung,\neine lokale f68-Auswahl, Korrektur aller acht Fehlerarten, den kleinen\nNomenklator, Makro-Rücklesung und einen neuen Befehl in zwei Händen.",
+        "sha256": "bcc4f5482e5b7d3d0b21382ea35c3655d97a5c961799a01e902e5548134bacc2"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "no_independent_semantic_proposition_in_span",
+      "reason": "The complete selected span gives a method, control or output count, publication pointer, scope ceiling or future procedural instruction without an independently specified additional meaning. No classification of the unread full report is implied."
+    },
+    {
+      "selection_index": 48,
+      "source_id": "LEGACY_COMPONENT:9e7480cee5ffefe2095d",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_quantity_preparation/WORKSHOP_SENTENCE_GRAMMAR_REPORT.md",
+        "line": 77,
+        "line_end": 79,
+        "quote": "Diese Ergänzungen sind **konkrete Werkstattdefaults**, kein Ausweichen auf eine\nleere Bedeutung. Gelernte Ganzkarten bleiben erlaubt, wenn die derzeitige\nKomponentenlesung sie nicht sinnvoll weiter zerlegt.",
+        "sha256": "17b9533852a6d1501c707dce96c4abfcec75f5456d5bb71b9304924271eeecdd"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "no_independent_semantic_proposition_in_span",
+      "reason": "The complete selected span gives a method, control or output count, publication pointer, scope ceiling or future procedural instruction without an independently specified additional meaning. No classification of the unread full report is implied."
+    },
+    {
+      "selection_index": 49,
+      "source_id": "LEGACY_COMPONENT:9ea2371eb664d5aee308",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_astro_nomenclator_closure/ASTRO_NOMENCLATOR_CLOSURE_REPORT.md",
+        "line": 65,
+        "line_end": 66,
+        "quote": "`ytoeopchey` wird als längste Komposition gelesen: aktueller Platz +\nVergleichsbezug + Ablesung, kurz „Vergleichswert dieses Platzes“.",
+        "sha256": "507d3e0de2a91b7ee103c154281cab7bf463e6222c20c2312376d3e8f99656c1"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [
+        "CLEAN_GAP_BN:ytoeopchey_local_comparison"
+      ],
+      "decision": "scoped_local_proposition_candidates",
+      "reason": "Concrete complete local reading or source-stated relation recovered; this does not claim a new independent global theory."
+    },
+    {
+      "selection_index": 50,
+      "source_id": "LEGACY_COMPONENT:a53726180923430e2b27",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_journeyman_piece_sixty_first_edition/SIXTY_FIRST_EDITION_REPORT.md",
+        "line": 1,
+        "line_end": 18,
+        "quote": "# Einundsechzigste Runde: ein vollständiges Gesellenstück\n\nEin sechzehnstufiger Werkstattauftrag verbindet vier f11r-Pflanzenschritte,\nacht f82r-Stationsschritte und vier lokale f69-Ablesungen. Alle drei Teile\nverwenden ihre vorhandenen Karten, Besitzer und Namensräume. Vier vollständige\nHandkopien bewahren Prosa- und Astroreihenfolge.\n\nDie Verbindung ist bewusst nicht als geheimes Universalwort ausgegeben. Vier\nmündliche Meisterbrücken sagen: Pflanzenansatz bereiten, zur Station bringen,\ndie drei lokalen Räder und einen linken Platz ablesen, Ergebnis auf dem\nAuftragszettel eintragen. Das Manuskript muss dafür keinen sichtbaren\nQuerverweis tragen.\n\nDas zwölfpunktige Gesellenblatt prüft Besitzer, Kartenordnung, Merkfächer,\nStationen, AL/AR, Grade, Y/Schluss, Zeilen, Astro-Namensräume und das Verbot\neines erfundenen f68↔f69-Schlüssels. Damit ist die aktuelle Theorie als ganzer\npraktischer Arbeitsgang ausführbar, ohne Herbal, Biological und Astro zu einem\neinzigen sprachlichen Register zu zwingen.",
+        "sha256": "9027c0a05b531eb6d421bc35c9f22a2fcb0de2cdec5fcc3dbcc0e368594127cb"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "scope_comparison_unresolved_no_card",
+      "reason": "The span contains semantic/model/rival content; exact full-proposition coverage or scope still needs independent comparison. Retained audit-only, not a placeholder card or completed decision."
+    },
+    {
+      "selection_index": 51,
+      "source_id": "LEGACY_COMPONENT:a587dc6bee69198b184c",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_application_completion/SELECTED_APPLICATION_COMPLETION_REPORT.md",
+        "line": 3,
+        "line_end": 6,
+        "quote": "Status: **kreative Zehnseiten-Werkstattrekonstruktion**. Diese Ausgabe ist\nkeine behauptete Entzifferung und kein GDT-Ergebnis. Sie setzt die ausdrücklich\ngewünschte schnelle Bedeutungsarbeit fort: kurze, konstante Kartenwerte werden\nso lange als Arbeitsannahmen verwendet, bis eine bessere Lesung sie ersetzt.",
+        "sha256": "0dc5a20cabf4ef190522de94f7458a2dfbb3448d61a71d4617d2899e7015ed6d"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "no_independent_semantic_proposition_in_span",
+      "reason": "The complete selected span gives a method, control or output count, publication pointer, scope ceiling or future procedural instruction without an independently specified additional meaning. No classification of the unread full report is implied."
+    },
+    {
+      "selection_index": 52,
+      "source_id": "LEGACY_COMPONENT:ac8fb355b25e682064e1",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_complete_terminal_deck/COMPLETE_TERMINAL_DECK_REPORT.md",
+        "line": 153,
+        "line_end": 164,
+        "quote": "## Auswirkung auf die Übersetzung\n\nKeine der 173 Kartenbedeutungen, 381 Ereignislesungen oder 116 deutschen\nAnweisungen musste geändert werden. Der Gewinn ist eine vollständige,\nlehrbare Rückzerlegung aller 89 terminalen Befehle.\n\nDie neun neuen Kartentypen und ihre elf Anweisungen stehen in\n`ELEVEN_REMAINING_TERMINAL_INSTRUCTIONS.tsv`. Das vollständige Deck steht in\n`COMPLETE_TERMINAL_CARD_DECK.tsv`, die 17 Komponenten in\n`COMPLETE_TERMINAL_COMPONENT_LEXICON.tsv` und die neun Familien in\n`COMPLETE_TERMINAL_FAMILY_GRID.tsv`.\n",
+        "sha256": "612492ea417f7a30f41fb1620a25cb6e635b2a6eb2716b00859dbd29697dee98"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "no_independent_semantic_proposition_in_span",
+      "reason": "The complete selected span gives a method, control or output count, publication pointer, scope ceiling or future procedural instruction without an independently specified additional meaning. No classification of the unread full report is implied."
+    },
+    {
+      "selection_index": 53,
+      "source_id": "LEGACY_COMPONENT:add0618380efc62cbefa",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_application_completion/SELECTED_APPLICATION_COMPLETION_REPORT.md",
+        "line": 177,
+        "line_end": 192,
+        "quote": "### B1-S012 — die perfekte Doppellesung\n\n```text\nLSHO · QOKEY · LSHEDY\n```\n\nKörperfassung:\n\n> Beginne die Waschung, lege den Posten kurz an und wasche die Stelle; Schluss.\n\nAnlagenfassung:\n\n> Beginne den Spülgang, setze das Arbeitsstück kurz an und spüle es; Schluss.\n\nDie identische Grammatik ist ein Vorteil des Modells, kein Fehler.\n",
+        "sha256": "0dc5a20cabf4ef190522de94f7458a2dfbb3448d61a71d4617d2899e7015ed6d"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [
+        "CLEAN_GAP_BN:b1_washing_body_apparatus_rivals"
+      ],
+      "decision": "scoped_local_proposition_candidates",
+      "reason": "Concrete complete local reading or source-stated relation recovered; this does not claim a new independent global theory."
+    },
+    {
+      "selection_index": 54,
+      "source_id": "LEGACY_COMPONENT:b910cf25b60f25b69a53",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_shared_headword_resolution/SHARED_HEADWORD_RESOLUTION_REPORT.md",
+        "line": 13,
+        "line_end": 15,
+        "quote": "Das gemeinsame Stichwort bleibt die Bedeutungsbasis. Die exakte Karte plus\nBildbesitzer, Prozessphase, Richtung, Werkzeugrolle, Zustand oder\nProgrammabschluss wählt die konkrete Lesung.",
+        "sha256": "85d2cb0ec9882cbfdeb112576c90d92099a6901707d4f0c92150af7c052eb423"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "scope_comparison_unresolved_no_card",
+      "reason": "The span contains semantic/model/rival content; exact full-proposition coverage or scope still needs independent comparison. Retained audit-only, not a placeholder card or completed decision."
+    },
+    {
+      "selection_index": 55,
+      "source_id": "LEGACY_COMPONENT:bc3139c3b3b4674049cc",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_program_composition_completion/PROGRAM_COMPOSITION_REPORT.md",
+        "line": 183,
+        "line_end": 195,
+        "quote": "## Was sich an der laufenden Übersetzung ändert\n\nDie 173 Kartenwerte, 381 Ereignislesungen und 116 deutschen Arbeitsanweisungen\nwerden in dieser Runde nicht umgeschrieben. Ihre knappen Programmbedeutungen\nbleiben gleich. Neu ist, dass 20 der 28 Programmkarten nicht länger als 20\nseparate Wörter gelernt werden müssen, sondern aus demselben kleinen\nKomponentenapparat rücklesbar sind.\n\nDie vollständige Zuordnung steht in `PROGRAM_COMPOSITION_REGISTER.tsv`; das\n15-teilige Lehrwörterbuch in `PROGRAM_COMPONENT_LEXICON.tsv`; die acht\nProgrammfamilien in `PROGRAM_FAMILY_GRID.tsv`. Die vollständige Ausgabe bleibt\nin den 173-/381-/116-/11-Dateien erhalten.\n",
+        "sha256": "8da057b649e1ce9e3aeceacb2457b2accf3a00db500a48dc7f78941884566fec"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "no_independent_semantic_proposition_in_span",
+      "reason": "The complete selected span gives a method, control or output count, publication pointer, scope ceiling or future procedural instruction without an independently specified additional meaning. No classification of the unread full report is implied."
+    },
+    {
+      "selection_index": 56,
+      "source_id": "LEGACY_COMPONENT:bfb105c9b8df577df49b",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R2_MEDIUM_SUBSTANCE_REPORT.md",
+        "line": 121,
+        "line_end": 125,
+        "quote": "Das ist die sauberste nichtmedizinische Lesung. Sie erklärt Zulauf, laufendes\nBad, Einsetzen in den Lauf, Durchführung und Schluss, ohne einen gezeichneten\nPfeil oder reines Wasser zu erfinden. Der starke Rivale bleibt: `AIR` könnte\nnur eine formale Lauf-/Wegekarte sein, der Flüssigkeitswert käme dann ganz aus\ndem Besitzer. Ein trockener Gegenbeleg würde die Stofflesung sofort brechen.",
+        "sha256": "68949b4eee286dacccff866cafaf241cf88ff8bb797139c8d4691129f3be3a42"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "scope_comparison_unresolved_no_card",
+      "reason": "The span contains semantic/model/rival content; exact full-proposition coverage or scope still needs independent comparison. Retained audit-only, not a placeholder card or completed decision."
+    },
+    {
+      "selection_index": 57,
+      "source_id": "LEGACY_COMPONENT:c3f266b4a2c94c86d35b",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_shared_headword_resolution/SHARED_HEADWORD_RESOLUTION_REPORT.md",
+        "line": 35,
+        "line_end": 40,
+        "quote": "`ODY`, das im vorigen Phrasebook allein als „kühlen“ stand, gehört jetzt\nebenfalls zur Kühlbasis. Dadurch sinkt die Zahl der eigentlichen Basisstichwörter\nüber alle 68 Ganzkarten von 55 auf **54**. Die 54 Basen erzeugen durch ihre\nKontextparameter **66 konkrete Lesungen**. Nur zwei Kartenpaare behalten danach\ndieselbe konkrete Bedeutung: die beiden lokalen Ablauf-Schließkarten und die\nbeiden lokalen Überlaufkarten.",
+        "sha256": "85d2cb0ec9882cbfdeb112576c90d92099a6901707d4f0c92150af7c052eb423"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "scope_comparison_unresolved_no_card",
+      "reason": "The span contains semantic/model/rival content; exact full-proposition coverage or scope still needs independent comparison. Retained audit-only, not a placeholder card or completed decision."
+    },
+    {
+      "selection_index": 58,
+      "source_id": "LEGACY_COMPONENT:cec4d5c921572e44688f",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_surface_compiler/SURFACE_COMPILER_REPORT.md",
+        "line": 39,
+        "line_end": 39,
+        "quote": "Der Compiler wird im nächsten Pass nicht auf weitere Bedeutungen trainiert, sondern auf die 381 laufenden Kontexte angewandt. Besonders wichtig sind die leeren Vorhersagezellen und die Karten, deren sichtbare Form zwar passt, deren bisheriger Ganzwert aber widerspricht. Danach wird derselbe Parser ohne neue Wortbedeutung gegen die 395 Astrogruppen gehalten.",
+        "sha256": "10731ae57c059445c55274b044705965fe621d9c1138c95d7d86de93e3ecd45b"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "no_independent_semantic_proposition_in_span",
+      "reason": "The complete selected span gives a method, control or output count, publication pointer, scope ceiling or future procedural instruction without an independently specified additional meaning. No classification of the unread full report is implied."
+    },
+    {
+      "selection_index": 59,
+      "source_id": "LEGACY_COMPONENT:ced4a96cbbe74c667204",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R1_MEDIUM_SUBSTANCE_REPORT.md",
+        "line": 7,
+        "line_end": 7,
+        "quote": "Das ist eine ausdrücklich kreative Sidequest-Arbeitstheorie, keine Entzifferungsbehauptung. Alle Bedeutungen sind kurze Werkstattdefaults; Besitzer, Bild und Nachbarn dürfen nur die lokale Handlung ergänzen.",
+        "sha256": "5f36716813e3e12341b606e7334884c4514751adc61ee63d440a105204305631"
+      },
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "decision": "no_independent_semantic_proposition_in_span",
+      "reason": "The complete selected span gives a method, control or output count, publication pointer, scope ceiling or future procedural instruction without an independently specified additional meaning. No classification of the unread full report is implied."
+    }
+  ],
+  "counts": {
+    "scoped_local_proposition_candidates": 7,
+    "existing_assertion_or_model_instance": 6,
+    "scope_comparison_unresolved_no_card": 21,
+    "no_independent_semantic_proposition_in_span": 26
+  },
+  "draft_cards": 19,
+  "input_sha256": {
+    "research_registry/semantic_ideas.jsonl": "128306f51136dd56227f2be8824c5fa895063880d5cfe593d5310d9193f4d406",
+    "research_registry/decisions/clean_gap_review_bb.json": "f09eae60284584c168727cf974269b2c19c93cec2490faf974d2ead16b5cce13",
+    "research_registry/decisions/clean_gap_review_bd.json": "d354778abd69802fc261a06a59ad57c33448df85ef79e7c015f77fcde0934901",
+    "research_registry/decisions/clean_gap_review_be.json": "0e1acad7a8a292917fa85c7dbbb8a6407ff68af0966adc6791cee6d8e1c9b0f4",
+    "research_registry/decisions/clean_gap_review_bh.json": "bdbd3a984fc6cddaffb2d18f58a77f496a428bd2dddfa0adaea6085002a840ec",
+    "research_registry/decisions/clean_gap_review_bi.json": "c24ba02600efcc445b00cb87d8b2bb564899445417ea8a8665717dfed5423833",
+    "research_registry/decisions/clean_gap_review_bj.json": "600fc9ca054ae359a3b653838ace248299a62ef50ac5c6ae3f14b57d7a987a5a",
+    "research_registry/decisions/clean_gap_review_bk.json": "ff81fc29b1878c923aac8172b64ee2f6069a9fbe0eb108b2ce39f1534fe86468"
+  },
+  "limits": [
+    "60 selected short public tracked early Sidequest spans, numbered editions1–99 plus their unnumbered predecessor reports; no later hundred/thousand series.",
+    "Selected spans fully read; full predecessor reports not comprehensively read.",
+    "Risk-ranked navigation sample, not random/full-history estimate.",
+    "Local readings remain local cases, not19 independent decipherment models.",
+    "Scope-unresolved rows are audit only and create no placeholders.",
+    "Earlier gap/recovery source IDs and intervals, including pending B-series reviews, excluded before selection.",
+    "No source data, image, experiment or operative mutation."
+  ],
+  "validation": {
+    "known_ids": true,
+    "all60_source_quotes_and_hashes_valid": true,
+    "card_schema_pass": 19,
+    "earlier_review_id_or_span_conflicts": []
+  }
+}

@@ -1,0 +1,2744 @@
+{
+  "schema": "semantic_source_coverage_v1",
+  "review_id": "BM",
+  "input_sha256": {
+    "research_registry/decisions/clean_gap_review_bb.json": "f09eae60284584c168727cf974269b2c19c93cec2490faf974d2ead16b5cce13",
+    "research_registry/decisions/clean_gap_review_bd.json": "d354778abd69802fc261a06a59ad57c33448df85ef79e7c015f77fcde0934901",
+    "research_registry/decisions/clean_gap_review_be.json": "0e1acad7a8a292917fa85c7dbbb8a6407ff68af0966adc6791cee6d8e1c9b0f4",
+    "research_registry/decisions/clean_gap_review_bh.json": "bdbd3a984fc6cddaffb2d18f58a77f496a428bd2dddfa0adaea6085002a840ec",
+    "research_registry/decisions/clean_gap_review_bi.json": "c24ba02600efcc445b00cb87d8b2bb564899445417ea8a8665717dfed5423833",
+    "research_registry/decisions/clean_gap_review_bj.json": "600fc9ca054ae359a3b653838ace248299a62ef50ac5c6ae3f14b57d7a987a5a",
+    "research_registry/decisions/clean_gap_review_bk.json": "ff81fc29b1878c923aac8172b64ee2f6069a9fbe0eb108b2ce39f1534fe86468"
+  },
+  "counts": {
+    "selected_spans_fully_read": 100,
+    "unique_source_ids": 100,
+    "cards": 17,
+    "coverage_classes": {
+      "additional_addressable_assertion": 15,
+      "local_scope_instance": 2
+    },
+    "dispositions": {
+      "additional_addressable_assertion": 17,
+      "local_scope_instance": 7,
+      "existing_full_assertion_or_instance": 12,
+      "scope_comparison_unresolved": 28,
+      "no_additional_semantic_proposition_in_selected_span": 36
+    }
+  },
+  "limits": [
+    "100 selected short spans read in full, not100 entire reports. Five short contextual reports additionally read to resolve local scope.",
+    "Only tracked public prose/metadata. No raw manuscript, images, external links or operative files accessed.",
+    "Pending BB/BD/BE/BH/BI/BJ/BK full claims and targeted current counterparts compared. Search remains navigation, not global identity adjudication.",
+    "Unresolved comparisons remain audit-only, never placeholder cards.",
+    "Historical source-described visible scenes are not new observations and do not confirm content."
+  ],
+  "selection_contract": {
+    "pass_range_requested": [
+      910,
+      999
+    ],
+    "pass_range_selected": [
+      910,
+      973
+    ],
+    "disjoint_selected_intervals": true,
+    "prior_exclusion_inputs": {
+      "research_registry/decisions/clean_gap_peer_review_aa.json": "2fd5ac2eb77349dc363fdead55c5d32f5eb854be83eaaeaed67b0b3f0848cd92",
+      "research_registry/decisions/clean_gap_peer_review_ac.json": "b9b9afd28efa73fad271000ba8ed1ab41e7613fbe4041441602b2c64f7eff2a2",
+      "research_registry/decisions/clean_gap_peer_review_ae.json": "79d97d50f3af9d7786bd82a985bf8f86a882fdc5215cf4de35a0f142f3b18123",
+      "research_registry/decisions/clean_gap_peer_review_af.json": "0f14d52b7a3da2d0b1ed14be381b5232eb78b4eacaffdc46e6c609cbd20d02b7",
+      "research_registry/decisions/clean_gap_peer_review_ag.json": "d12d32f97967e477c7b443ca5ddedb1ac1981a379bafb3d2e39400cafc130f87",
+      "research_registry/decisions/clean_gap_peer_review_am.json": "b03ac53397c015b24b95fe10e0c5d4b7f0117aa4818843e7f723b971084252bd",
+      "research_registry/decisions/clean_gap_peer_review_an.json": "29ac70ee83cd482ee7e8fccc3c146b0327c09fdbbc3bc6468975e7573aec627c",
+      "research_registry/decisions/clean_gap_peer_review_ao.json": "f6b57d9af2e540e0a76a3cad41ebda55c303c4636d71784b86cebf9fb1a2c70e",
+      "research_registry/decisions/clean_gap_peer_review_ax.json": "6d16aa4b163f331e9085544098f3f15dcf23cf234baa4d191942a8f8ce869bb2",
+      "research_registry/decisions/clean_gap_peer_review_ay.json": "c6929e32b575f36fdc713afa083a9139289f0710299dc5c649d350d4362cdad8",
+      "research_registry/decisions/clean_gap_peer_review_az.json": "7a7711fd8ca88011b1b9c8e4771fe7b69376ec1f634eeafe4ea850509987aab4",
+      "research_registry/decisions/clean_gap_peer_review_bb.json": "ed35f10e96dca6427ea8990824d867d1b7285f5e19e7863e5f8dcba210151be2",
+      "research_registry/decisions/clean_gap_peer_review_bd.json": "343c17db2ed95a6bac13ec550b206491b254262c7f10cdaa6b47f000d21c101c",
+      "research_registry/decisions/clean_gap_peer_review_be.json": "45f5e4135d111d1d6b8b1c1e3958886268e4ae1750b33d19f2eada53c85b5cd8",
+      "research_registry/decisions/clean_gap_peer_review_bi.json": "91b738762f3a2f293c73a6b3af65889b402ac3563582327d444f907876801df8",
+      "research_registry/decisions/clean_gap_peer_review_bj.json": "761e0fae9876d49beed267dc0d390769e780e7d57b8c960281c13257fcf04fbf",
+      "research_registry/decisions/clean_gap_peer_review_u.json": "d08a71b7b27a85274640dfb3c7529388ec84d806c3e6a124f48ed99680ff7896",
+      "research_registry/decisions/clean_gap_review_aa.json": "df6879cccf384c36c940dc1e1493f1fb1c99ab4d2043c9aa22d4eb117d830000",
+      "research_registry/decisions/clean_gap_review_ab.json": "aba7be7299550c3f14e3ec4b5f19e183bcb80bb714110a98c8a0b6bd575ea423",
+      "research_registry/decisions/clean_gap_review_ac.json": "eb18f4a4169f74a67a4601d9ab1526362582ff890b3f86607a3bba6ddbbce8f9",
+      "research_registry/decisions/clean_gap_review_ae.json": "f6be998c27c0bf356ac9221806fbe06c28d00fe93c962352857c33708fe9226d",
+      "research_registry/decisions/clean_gap_review_af.json": "399339fe6d552749ff397d441e4c60b82433da0cefcce93022f885d0ed180042",
+      "research_registry/decisions/clean_gap_review_ag.json": "a962d8b0ad4dd0f9219c7ba559f7da4f612c393ae546c6257f5acd9122f44f64",
+      "research_registry/decisions/clean_gap_review_ai.json": "5168e1f81ec411e74c0058fea583ef648fe89893a37ea9306ec2a1fb7b9f0d73",
+      "research_registry/decisions/clean_gap_review_al.json": "a7f5566080892f12a30f863e0e5181e2fca6970e4cc29c40fba683229b50ae55",
+      "research_registry/decisions/clean_gap_review_am.json": "74d5c3c0e1916bdda5958f58bbce0146498160ff26e01ec7844ab0ee99be1200",
+      "research_registry/decisions/clean_gap_review_am_integrated.json": "88e676a7d225b77576822cbbd318efc22eb8b55b9b902b4d3f8280a0c712f48f",
+      "research_registry/decisions/clean_gap_review_an.json": "afd6abf0cd1e2f1e831b142b7b6aa133b25a01a140c62991c2f0d4c6b11587f6",
+      "research_registry/decisions/clean_gap_review_an_integrated.json": "105129391fc1fa64bb58ff4291dfdc4de67c784e6ec4543ca1296432d74d9f61",
+      "research_registry/decisions/clean_gap_review_ao.json": "a88b058118bd1d2eb9f909db511e6ec6a595d1457c9caeb7f48c14407907865e",
+      "research_registry/decisions/clean_gap_review_ao_integrated.json": "1d8c99d915fcfc5d48c6e2e97e15516386a0967db70937d2507d1b767ba68609",
+      "research_registry/decisions/clean_gap_review_aq.json": "144e729158b846acc4fc82f36f923eb6c70ccd042ac3b5ffd4b84de627470e8a",
+      "research_registry/decisions/clean_gap_review_aq_integrated.json": "88b05f1339271e23f8b6c91b9dd855823f7beed9b9b28693d1f56b4f76cdab78",
+      "research_registry/decisions/clean_gap_review_aw.json": "151574670d95646fb94c29c66be483b1f75b8fc0897e4f27c62340ad645c4ad1",
+      "research_registry/decisions/clean_gap_review_aw_integrated.json": "7d1a74afa444596417828d70a1fc7477a8096230014b74fcd0c78eb786f04fbd",
+      "research_registry/decisions/clean_gap_review_ax.json": "56292107fb042381a5a01b3f07b04686236dc0041bba285cb270394d0e1cff98",
+      "research_registry/decisions/clean_gap_review_ax_integrated.json": "77bd20ae3bc60a0824aa5b3704e00fde4d4519fd6edb50a22f889dedc2af90c0",
+      "research_registry/decisions/clean_gap_review_ay.json": "76c99f57b99e45b4e2ecc1779a5f2789c3bc8d1607d65f06b3a9ac9a532fc80a",
+      "research_registry/decisions/clean_gap_review_ay_integrated.json": "5f538b709782a996e3bc2ca17c0b3c90aa93f6f6b312884b6c331c7fe2a346f2",
+      "research_registry/decisions/clean_gap_review_az.json": "82d81898d9ee19b5a895d390b9e8c35479dfb7532f5d6345f6ba137ab55eeff6",
+      "research_registry/decisions/clean_gap_review_az_integrated.json": "a29b365de56c822d48eaddcf297b75c22ac7b57ac8d852ec51ccba895c992616",
+      "research_registry/decisions/clean_gap_review_ba.json": "fe238aada1a43e0962686819a2c81a4a2726c5ce25018d4b997f1d9c8e5e4c34",
+      "research_registry/decisions/clean_gap_review_bb.json": "f09eae60284584c168727cf974269b2c19c93cec2490faf974d2ead16b5cce13",
+      "research_registry/decisions/clean_gap_review_bd.json": "d354778abd69802fc261a06a59ad57c33448df85ef79e7c015f77fcde0934901",
+      "research_registry/decisions/clean_gap_review_be.json": "0e1acad7a8a292917fa85c7dbbb8a6407ff68af0966adc6791cee6d8e1c9b0f4",
+      "research_registry/decisions/clean_gap_review_bg.json": "3faaa12a2873c61f2813f30614def2ec46e743a5e687ef832673f2844a9e4afd",
+      "research_registry/decisions/clean_gap_review_bh.json": "bdbd3a984fc6cddaffb2d18f58a77f496a428bd2dddfa0adaea6085002a840ec",
+      "research_registry/decisions/clean_gap_review_bi.json": "c24ba02600efcc445b00cb87d8b2bb564899445417ea8a8665717dfed5423833",
+      "research_registry/decisions/clean_gap_review_bj.json": "600fc9ca054ae359a3b653838ace248299a62ef50ac5c6ae3f14b57d7a987a5a",
+      "research_registry/decisions/clean_gap_review_bk.json": "ff81fc29b1878c923aac8172b64ee2f6069a9fbe0eb108b2ce39f1534fe86468",
+      "research_registry/decisions/clean_gap_review_l.json": "9963545b58e12b14d2408dd3ffeca89e180b874bc7b2d0480a42a30b89c141a2",
+      "research_registry/decisions/clean_gap_review_o.json": "f2cdb0c902df9ef6c7827028d3f71087a5ffc7f30c9cd39307a7997ee4185edf",
+      "research_registry/decisions/clean_gap_review_q.json": "5f0dd23cf90f2a9e0d1f8783da1d7d1bf555669e87a00bf0208a6d0df2b1f0d4",
+      "research_registry/decisions/clean_gap_review_t.json": "9c675474ff46af0b9fff06bf716f4303c2b67b05cd8666bcce2419da27d79481",
+      "research_registry/decisions/clean_gap_review_u.json": "ee83972c462537930796bad095fad5a2b7579a126408f6cf8556e577b1e2c867",
+      "research_registry/decisions/clean_gap_review_w.json": "c0fd3b84ce6233248d4bac0085a3c4d2f4ca3316371adb7d287d9bc3db650264",
+      "research_registry/decisions/scope_instances_batch_u.json": "5ac6b68dcd5afd804fbbcfa46d897906e7b2a2d0e8360d770ff7b375a466c429",
+      "research_registry/decisions/semantic_polarity_review_bl.json": "972b6cdf0d3eed2db3faf322adda27d23df7901bc22dc081b1cc7f4fe80a5d24",
+      "research_registry/decisions/semantic_recovery_audit_ax.json": "282977d740ac4ff62134cfde38755061b0ad36bda312815898184d6e109744cd",
+      "research_registry/decisions/semantic_recovery_audit_ay.json": "31bda5b3421fcb749d22d3d96bab545c9ff351e1f685d1393eaf39852933db9b",
+      "research_registry/decisions/semantic_recovery_audit_az.json": "ce30ee34eb572e498d1168cbda75ec96768fef14617b5f21043cdb77be0e1c1b",
+      "research_registry/decisions/semantic_recovery_audit_ba.json": "d0db20303d19916045760810ebad9348df7912b6a1aa194b4617aefec24dfaed",
+      "research_registry/decisions/semantic_scope_resolution_bh.json": "95f72320c8abb734a3b8a66b51b8671fe5b7979bae41a1902cc177161d021868",
+      "research_registry/decisions/semantic_scope_resolution_bi.json": "b40ab48d9b8282aa9590c3286c42350a42658148892d4f19b6b5119fe306aae9",
+      "research_registry/decisions/semantic_scope_resolution_bj.json": "0b8c02ec6d1f30b3f120b90997e9ad3f1ea24f9526945c9052ccb68dc02de638",
+      "research_registry/decisions/semantic_scope_resolution_bk.json": "87948d695ba924b1454e979795ed3fbdf2c72702211456be3f6cb8f9cf1762c4",
+      "research_registry/decisions/semantic_scope_review_bg.json": "29f00c96832af029208074ce19c35151b5364e5c300fd93472d198bd1144df97",
+      "research_registry/decisions/source_coverage_gap_batch_ab.json": "3f030b313271d176d45f43228f43e6d996fec6123b3deaef87cf74adf65f7638",
+      "research_registry/decisions/source_coverage_gap_batch_af.json": "0be3d3fa2c7cc978e9220879e8a80c71c1b29e4be0599ed0a150d30b72f77285",
+      "research_registry/decisions/source_coverage_gap_batch_ag.json": "3602b4e2f667b29891be8cb917115a458aca8ff11019b529adfb00c0b706b25a",
+      "research_registry/decisions/source_coverage_gap_batch_al.json": "55724779cb85c916e4cc122c87dbb10eab3df5a92644586b98ff49ac5d3784af",
+      "research_registry/decisions/source_coverage_gap_batch_am.json": "e1ca87fc0a07a22b8a8e4a71887653eee883aa99237a2cd7d5196f681ad321cd",
+      "research_registry/decisions/source_coverage_gap_batch_an.json": "b6f5657799ecbd814ef45c4f33b0e01b06c4d84f054e4f7e7c72e14dbb7828d5",
+      "research_registry/decisions/source_coverage_gap_batch_bb.json": "58a5db465ecf539f35b7ca4bf7887b9dd64a455e1fc3993f5dd1b23d057830c3",
+      "research_registry/decisions/source_coverage_gap_batch_bd.json": "cc45b5a1b13cbff47c7952b0291a6460be9561d72a6d86b1713ccbf4e3a11eea",
+      "research_registry/decisions/source_coverage_gap_batch_be.json": "c1d1d9eac72026b6bb3c86baf6477760789aafd4f8f6813d678e25cfd0458e92",
+      "research_registry/decisions/source_coverage_gap_batch_j.json": "e293fc991a63f95749f03fab41870b189ddae43471199250202b17f8108f7f7c",
+      "research_registry/decisions/source_coverage_gap_batch_m.json": "e37d56e745dafc5dbfa3203d8a497708324e0021319a7b7344851cbd739fe673",
+      "research_registry/decisions/source_coverage_gap_batch_r.json": "e37aff979c3935f85a8c0ca8646c8b304d614f8d6162f9e94253e92204d49a6c",
+      "research_registry/decisions/source_coverage_gap_batch_v.json": "5c3b4c401ca7177780a9073e09459a7a936239366a53bbed40af91dfb53eaf8d",
+      "research_registry/decisions/source_coverage_scope_batch_aa.json": "274690dd1330f49afff17d7a2f3f00fec5ec3ea7387fc79528567a1d0cb58d53",
+      "research_registry/decisions/source_coverage_scope_batch_ac.json": "f86ba91a1ab5297ec002bcb26593aa9b210aeef1fd2d9cfdfae5de9fb19e13c6",
+      "research_registry/decisions/source_coverage_scope_batch_ao.json": "529f82483084c11494c0da1f8d14498ab627233f2f730997146750c480cc8294",
+      "research_registry/decisions/source_coverage_scope_batch_q.json": "02c06240066e5fcec34d1c5afb1dc38a3b74da8b42fa5e16239f09909183a358",
+      "research_registry/decisions/semantic_type_review_ar.json": "95068ddf7778ca754437c97ae9406d00d53380f16821708954f2110b88dfac37",
+      "research_registry/decisions/semantic_type_review_as.json": "bdbb81a877ec9fe2946882bb8c826d53221097e445289d71817796650dfedffd",
+      "research_registry/decisions/semantic_type_review_at.json": "9260470bbc86c49733c6fae16db0d3e81784383fba15491521020e44db357df3",
+      "research_registry/decisions/semantic_type_review_au.json": "e392a9c6b1581534b5cd9e1c155ad063c7329f62d63c908ad47f630051386a30"
+    }
+  },
+  "reviewed_blocks": [
+    {
+      "source_id": "LEGACY_COMPONENT:11f4dd2d390dc284e0f4",
+      "path": "experiments/yolo/sidequest_semantic_three_layer_master_handbook_nine_hundred_tenth/PASS910_REPORT.md",
+      "line": 5,
+      "line_end": 11,
+      "pass_number": 910,
+      "title": "Ergebnis",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_three_layer_master_handbook_nine_hundred_tenth/PASS910_REPORT.md",
+        "line": 5,
+        "line_end": 11,
+        "quote": "Die Ausgabe bindet alle 2511 sichtbaren Gruppen auf vierzehn physischen Seiten.\n1737 Gruppen verwenden eine bereits gelernte Komponentenrezeptur;\n492 sind neue vollständige Zusammensetzungen;\n21 enthalten zusätzlich genau ein lokales Zeichen;\n198 sind bildgebundene Namen oder Klassen;\n63 sind gelernte lokale Arbeitskarten.\nKeine Gruppe bleibt ohne Defaultlesung.",
+        "sha256": "96558b40fbe9f9a0a38375e6b2bb097e47123e29c4cdd1f283e7264d7f56434d",
+        "source_id": "LEGACY_COMPONENT:11f4dd2d390dc284e0f4"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:11f4dd2d390dc284e0f4",
+        "decision": "no_additional_semantic_proposition_in_selected_span",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Edition inventory counts and completion claim; no distinct meaning assignment."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:34691c84817f01ceceb2",
+      "path": "experiments/yolo/sidequest_semantic_three_layer_master_handbook_nine_hundred_tenth/PASS910_REPORT.md",
+      "line": 13,
+      "line_end": 14,
+      "pass_number": 910,
+      "title": "Ergebnis",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_three_layer_master_handbook_nine_hundred_tenth/PASS910_REPORT.md",
+        "line": 13,
+        "line_end": 14,
+        "quote": "Die beste Arbeitstheorie ist damit kein Universalwörterbuch, sondern ein kleines\nSchreiberprogramm mit vier Fachregistern und einem kopierten Namensfach.",
+        "sha256": "96558b40fbe9f9a0a38375e6b2bb097e47123e29c4cdd1f283e7264d7f56434d",
+        "source_id": "LEGACY_COMPONENT:34691c84817f01ceceb2"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:34691c84817f01ceceb2",
+        "decision": "existing_full_assertion_or_instance",
+        "card_ids": [],
+        "counterpart_ids": [
+          "SEM:3c1326c24619dbd3255a"
+        ],
+        "reason": "Four practical registers plus copied names already explicitly in the full compendium model."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:557fcf36eae9a5e5ebca",
+      "path": "experiments/yolo/sidequest_semantic_three_layer_master_handbook_nine_hundred_tenth/PASS910_REPORT.md",
+      "line": 30,
+      "line_end": 30,
+      "pass_number": 910,
+      "title": "Vollständige Ausgaben",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_three_layer_master_handbook_nine_hundred_tenth/PASS910_REPORT.md",
+        "line": 30,
+        "line_end": 30,
+        "quote": "- `PASS910_CARD_DICTIONARY.tsv`: ein Default je Register-, Nutzungs- und Rezeptlesung.",
+        "sha256": "96558b40fbe9f9a0a38375e6b2bb097e47123e29c4cdd1f283e7264d7f56434d",
+        "source_id": "LEGACY_COMPONENT:557fcf36eae9a5e5ebca"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:557fcf36eae9a5e5ebca",
+        "decision": "no_additional_semantic_proposition_in_selected_span",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Artifact filename/schema pointer."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:670a5322321c4f433edf",
+      "path": "experiments/yolo/sidequest_semantic_local_drawer_ordering_nine_hundred_eleventh/PASS911_REPORT.md",
+      "line": 11,
+      "line_end": 15,
+      "pass_number": 911,
+      "title": "Ergebnis",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_local_drawer_ordering_nine_hundred_eleventh/PASS911_REPORT.md",
+        "line": 11,
+        "line_end": 15,
+        "quote": "Die 183 Bildetiketten bleiben Besitzer-gebundene Namen oder Klassen. Ihre sichtbare\nForm lässt sich zwar in Adress-, Grad- und Bezugsteile zerlegen; das übersetzt den\nkonkreten Namen aber nicht. Besonders bei den f88r-Zutaten gilt: Bildreferent zuerst,\nKomponenten nur als mögliche Klassifikatoren. Nur auf der Formebene bleibt keine\nunsegmentierte Ganzkarte übrig.",
+        "sha256": "8bae98dd0a9b088ec095b97e34b31c0870b569277eb6b1ac8da1367e34f6dfa0",
+        "source_id": "LEGACY_COMPONENT:670a5322321c4f433edf"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:670a5322321c4f433edf",
+        "decision": "additional_addressable_assertion",
+        "card_ids": [
+          "CLEAN_GAP_BM:owner_label_classifier_limit"
+        ],
+        "counterpart_ids": [
+          "CLEAN_GAP_BI:astro_prefix_local_item_address",
+          "SEM:e833dbffca017f531d36"
+        ],
+        "reason": "The explicit split between composable classifier/address information and still-untranslated proper name is narrower than a generic picture-owned register; no identified ingredient or celestial name is inferred."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:6d81b11815b8f1a673d0",
+      "path": "experiments/yolo/sidequest_semantic_owner_address_syntax_nine_hundred_thirteenth/PASS913_REPORT.md",
+      "line": 55,
+      "line_end": 57,
+      "pass_number": 913,
+      "title": "Was bewusst lokal bleibt",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_owner_address_syntax_nine_hundred_thirteenth/PASS913_REPORT.md",
+        "line": 55,
+        "line_end": 57,
+        "quote": "Die Etiketten nennen weiterhin keine identifizierte Pflanze, Zutat, Sternfigur oder\nhistorische Himmelsstation. Pass 913 liefert eine brauchbare Klassen-/Adresslesung\nüber dem sichtbaren Besitzer; der eigentliche Eigenname bleibt Werkstattwissen.",
+        "sha256": "8d77f6fa35d3219bd03b87ebfeaebd45abd360907948bd38616bfb998a75ddf7",
+        "source_id": "LEGACY_COMPONENT:6d81b11815b8f1a673d0"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:6d81b11815b8f1a673d0",
+        "decision": "additional_addressable_assertion",
+        "card_ids": [
+          "CLEAN_GAP_BM:owner_label_classifier_limit"
+        ],
+        "counterpart_ids": [
+          "CLEAN_GAP_BI:astro_prefix_local_item_address",
+          "SEM:e833dbffca017f531d36"
+        ],
+        "reason": "The explicit split between composable classifier/address information and still-untranslated proper name is narrower than a generic picture-owned register; no identified ingredient or celestial name is inferred."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:3d3734cfd07793e5aab7",
+      "path": "experiments/yolo/sidequest_semantic_classifier_action_split_nine_hundred_fourteenth/PASS914_REPORT.md",
+      "line": 5,
+      "line_end": 8,
+      "pass_number": 914,
+      "title": "Ergebnis",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_classifier_action_split_nine_hundred_fourteenth/PASS914_REPORT.md",
+        "line": 5,
+        "line_end": 8,
+        "quote": "Sieben häufige Komponenten betreffen 1286 der 2511 Gruppen. Jede hat jetzt\nzwei kurze, verwandte Lesungen: eine aktive Prosahandlung und einen statischen\nEtikettenklassifikator. Dadurch liest sich ein Zutatenname nicht mehr als Befehl,\nwährend dieselbe Kartenfamilie im Werkstatttext weiterhin ausführbar bleibt.",
+        "sha256": "d5fc462afe262fa0ab8788d886fda3f7b9d515115726fe2332a3777041667af3",
+        "source_id": "LEGACY_COMPONENT:3d3734cfd07793e5aab7"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:3d3734cfd07793e5aab7",
+        "decision": "additional_addressable_assertion",
+        "card_ids": [
+          "CLEAN_GAP_BM:action_static_label_modes"
+        ],
+        "counterpart_ids": [
+          "SEM:00e23948b4d66b561e01",
+          "CLEAN_GAP_BK:strict_two_mode_ten_page_book"
+        ],
+        "reason": "The active-action/static-classifier distinction is explicitly asserted. BK instead prohibits importing prose roots into Astro; keep historical alternatives rather than silently treating them as one model."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:3e2459d6bd8993f9dc27",
+      "path": "experiments/yolo/sidequest_semantic_classifier_action_split_nine_hundred_fourteenth/PASS914_REPORT.md",
+      "line": 10,
+      "line_end": 13,
+      "pass_number": 914,
+      "title": "Ergebnis",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_classifier_action_split_nine_hundred_fourteenth/PASS914_REPORT.md",
+        "line": 10,
+        "line_end": 13,
+        "quote": "Die Trennung ist besonders wichtig für `OK`: 410 Prosaereignisse bedeuten ansetzen/\naktivieren, 36 Etikettenereignisse markieren einen ausgewählten aktiven Platz. `CH`\nhat 194 Prosa- und 19 Etikettenereignisse; `K` 169 und 23. Das sind keine seltenen\nAusnahmen, sondern ein zentraler Schreibmechanismus.",
+        "sha256": "d5fc462afe262fa0ab8788d886fda3f7b9d515115726fe2332a3777041667af3",
+        "source_id": "LEGACY_COMPONENT:3e2459d6bd8993f9dc27"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:3e2459d6bd8993f9dc27",
+        "decision": "additional_addressable_assertion",
+        "card_ids": [
+          "CLEAN_GAP_BM:action_static_label_modes"
+        ],
+        "counterpart_ids": [
+          "SEM:00e23948b4d66b561e01",
+          "CLEAN_GAP_BK:strict_two_mode_ten_page_book"
+        ],
+        "reason": "The active-action/static-classifier distinction is explicitly asserted. BK instead prohibits importing prose roots into Astro; keep historical alternatives rather than silently treating them as one model."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:bc6524e239bcce62d426",
+      "path": "experiments/yolo/sidequest_semantic_clause_word_order_nine_hundred_fifteenth/PASS915_REPORT.md",
+      "line": 27,
+      "line_end": 30,
+      "pass_number": 915,
+      "title": "Nächster Hebel",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_clause_word_order_nine_hundred_fifteenth/PASS915_REPORT.md",
+        "line": 27,
+        "line_end": 30,
+        "quote": "Nun können die längsten offenen Klauseln bearbeitet werden. Statt neue Wörter zu\nerfinden, werden wiederholte Slotblöcke zu kurzen Werkstattphrasen zusammengezogen:\nMASS+ANSETZEN, QUELLE+ENTNEHMEN, ZIEL+KURZHALTEN, DURCHLASS+FORTSETZEN. Danach wird\neine kompakte vollständige Übersetzung der zwölf Prosaseiten geschrieben.",
+        "sha256": "69ff44ba30204edea1ff2077b302bed2c697af9c3107540c68f8104494529d5b",
+        "source_id": "LEGACY_COMPONENT:bc6524e239bcce62d426"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:bc6524e239bcce62d426",
+        "decision": "no_additional_semantic_proposition_in_selected_span",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Future phrase-compaction task; generic examples are not bound to a whole source card here."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:bc4475ec20b208806c2d",
+      "path": "experiments/yolo/sidequest_semantic_workshop_phrasebook_nine_hundred_sixteenth/PASS916_REPORT.md",
+      "line": 22,
+      "line_end": 26,
+      "pass_number": 916,
+      "title": "Schreibsystem",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_workshop_phrasebook_nine_hundred_sixteenth/PASS916_REPORT.md",
+        "line": 22,
+        "line_end": 26,
+        "quote": "Ein Schreiber lernt zuerst die 53 kurzen Kerne, dann die 44 häufigen\nPhrasen als flüssige Ganzbewegungen. Seltene Kombinationen bleiben vollständig\nlesbar, weil der Builder sie wieder in dieselben Kerne zerlegt. So verbindet die\nArbeitstheorie Fachkürzel mit eingelernten Ganzformen, ohne für jede Karte eine\neigene lange Bedeutung zu erfinden.",
+        "sha256": "a4febbcda2fd6e45329715b87fa7ca7395a181b7794299805710242de4af1c58",
+        "source_id": "LEGACY_COMPONENT:bc4475ec20b208806c2d"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:bc4475ec20b208806c2d",
+        "decision": "existing_full_assertion_or_instance",
+        "card_ids": [],
+        "counterpart_ids": [
+          "SEM:33b2c20ec73cae22459e"
+        ],
+        "reason": "Hierarchical learned movements plus decomposable rare combinations instantiate the existing stem→handgrip→recipe-block model; numeric53/44 teaching inventory adds no new semantic rule."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:14c7fd2cce073863ffb8",
+      "path": "experiments/yolo/sidequest_semantic_fluent_prose_nine_hundred_seventeenth/PASS917_REPORT.md",
+      "line": 36,
+      "line_end": 40,
+      "pass_number": 917,
+      "title": "Arbeitsstand",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_fluent_prose_nine_hundred_seventeenth/PASS917_REPORT.md",
+        "line": 36,
+        "line_end": 40,
+        "quote": "Das ist nun eine vollständige kreative Übersetzungsschicht der gesamten Prosa im\n14-Seiten-Scope. Die sachlichen Besitzer bleiben bildgebunden: Pflanzenteil,\nBecken-/Stationsposten, Ringstelle oder Rezeptansatz. Im nächsten Pass werden die\nhäufigsten Arbeitszüge gegeneinander verglichen, damit wir Verben mit gleicher\nFunktion zusammenlegen und überladene Bedeutungen wieder kürzen können.",
+        "sha256": "d04f2857b995a01ffefec9d139af2b8afd5a266800610d59c24c6fdbfa0b3d0e",
+        "source_id": "LEGACY_COMPONENT:14c7fd2cce073863ffb8"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:14c7fd2cce073863ffb8",
+        "decision": "no_additional_semantic_proposition_in_selected_span",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Edition scope and next editorial comparison; no new specific assignment."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:3c919f7daf0b4f9591b0",
+      "path": "experiments/yolo/sidequest_semantic_minimal_verb_deck_nine_hundred_eighteenth/PASS918_REPORT.md",
+      "line": 18,
+      "line_end": 20,
+      "pass_number": 918,
+      "title": "Neue feste Trennung",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_minimal_verb_deck_nine_hundred_eighteenth/PASS918_REPORT.md",
+        "line": 18,
+        "line_end": 20,
+        "quote": "Alle 1435 Arbeitszüge und 354 Klauseln wurden damit neu gesprochen. Kein Ereignis\nbekommt eine zweite Verbdeutung. Als Nächstes kann die Komposition dieser Verben\nmit Quelle, Menge, Ziel und Grad gezielt auf den vier neuen Seiten gelesen werden.",
+        "sha256": "70d8305cf62076a3505bb132d75c955252e350be71c90fbbc8ab72063624252d",
+        "source_id": "LEGACY_COMPONENT:3c919f7daf0b4f9591b0"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:3c919f7daf0b4f9591b0",
+        "decision": "no_additional_semantic_proposition_in_selected_span",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Implementation propagation and next use of existing verbs."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:145c312612088042c898",
+      "path": "experiments/yolo/sidequest_semantic_four_new_pages_second_reading_nine_hundred_nineteenth/PASS919_REPORT.md",
+      "line": 5,
+      "line_end": 8,
+      "pass_number": 919,
+      "title": "Umfang",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_four_new_pages_second_reading_nine_hundred_nineteenth/PASS919_REPORT.md",
+        "line": 5,
+        "line_end": 8,
+        "quote": "Die vier neu freigegebenen physischen Seiten ergeben **863 Gruppen in 144 Loci**:\nf13r 77, f75r 418, f70v 218 und f88r 150. Davon laufen 619\nGruppen durch die neue 17-Verb-Prosa und 244 durch die\nBesitzer-/Adresslesung.",
+        "sha256": "0270609c856a5cb1957fa680b5291cfe7b78caf3323dc92bc8b0fe5387861b87",
+        "source_id": "LEGACY_COMPONENT:145c312612088042c898"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:145c312612088042c898",
+        "decision": "no_additional_semantic_proposition_in_selected_span",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Page/locus/reader counts, not a meaning relation."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:94e79dded76357569742",
+      "path": "experiments/yolo/sidequest_semantic_four_new_pages_second_reading_nine_hundred_nineteenth/PASS919_REPORT.md",
+      "line": 26,
+      "line_end": 30,
+      "pass_number": 919,
+      "title": "Was die vier Seiten der Komposition hinzufügen",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_four_new_pages_second_reading_nine_hundred_nineteenth/PASS919_REPORT.md",
+        "line": 26,
+        "line_end": 30,
+        "quote": "Die 863 Gruppen bestehen aus 707 bereits bekannten\nKompositionen, 64\nneu gebauten Kompositionen, 86 bildgebundenen\nNamen/Klassen und 6 lokalen Zeichenformen.\nEs wird keine neue lange Wortbedeutung benötigt.",
+        "sha256": "0270609c856a5cb1957fa680b5291cfe7b78caf3323dc92bc8b0fe5387861b87",
+        "source_id": "LEGACY_COMPONENT:94e79dded76357569742"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:94e79dded76357569742",
+        "decision": "no_additional_semantic_proposition_in_selected_span",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Composition inventory counts and no new long gloss."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:1a996b67825bfc180a2c",
+      "path": "experiments/yolo/sidequest_semantic_apprentice_encoder_nine_hundred_twentieth/PASS920_REPORT.md",
+      "line": 18,
+      "line_end": 25,
+      "pass_number": 920,
+      "title": "Was dieses Modell jetzt konkret ist",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_apprentice_encoder_nine_hundred_twentieth/PASS920_REPORT.md",
+        "line": 18,
+        "line_end": 25,
+        "quote": "## Was dieses Modell jetzt konkret ist\n\nEs ist weder eine reine Buchstabenchiffre noch ein Wörterbuch mit 1384 unabhängigen\nWörtern. Es ist ein **kleines Kürzelalphabet plus ein gelerntes Phrasendeck plus\nPositionsallographen**. Ein Schreiber kann eine neue Arbeitsfolge aus bekannten\nPhrasen zusammenstellen; seltene Besitzer- und Klassennamen bleiben im lokalen\nExemplar.\n",
+        "sha256": "961a0da67315c9486228d988c65cbffd0bc3e657fdca469cdbe1c3679ed17d6c",
+        "source_id": "LEGACY_COMPONENT:1a996b67825bfc180a2c"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:1a996b67825bfc180a2c",
+        "decision": "existing_full_assertion_or_instance",
+        "card_ids": [],
+        "counterpart_ids": [
+          "SEM:2df7068e5e0369b03245"
+        ],
+        "reason": "Exact same full assertion and source."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:ead805041a0ede02c9ea",
+      "path": "experiments/yolo/sidequest_semantic_apprentice_encoder_nine_hundred_twentieth/PASS920_REPORT.md",
+      "line": 28,
+      "line_end": 31,
+      "pass_number": 920,
+      "title": "Nächster Schritt",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_apprentice_encoder_nine_hundred_twentieth/PASS920_REPORT.md",
+        "line": 28,
+        "line_end": 31,
+        "quote": "Die 24 Nachrichten werden nun absichtlich variiert: Maß gegen Portion, kurz gegen\nlänger, Quelle gegen Ziel und interner gegen q-Eintritt. Daraus entsteht ein\nminimaler Bedeutungswürfel, der vorhersagt, welche einzelne Kartenänderung eine\nkonkrete Bedeutungsänderung ausdrücken soll.",
+        "sha256": "961a0da67315c9486228d988c65cbffd0bc3e657fdca469cdbe1c3679ed17d6c",
+        "source_id": "LEGACY_COMPONENT:ead805041a0ede02c9ea"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:ead805041a0ede02c9ea",
+        "decision": "no_additional_semantic_proposition_in_selected_span",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Proposed synthetic variations; axes listed but no concrete word assignment in this span."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:2b91f20b68915a66cf02",
+      "path": "experiments/yolo/sidequest_semantic_meaning_cube_nine_hundred_twenty_first/PASS921_REPORT.md",
+      "line": 1,
+      "line_end": 2,
+      "pass_number": 921,
+      "title": "Pass 921 — Bedeutungswürfel",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_meaning_cube_nine_hundred_twenty_first/PASS921_REPORT.md",
+        "line": 1,
+        "line_end": 2,
+        "quote": "# Pass 921 — Bedeutungswürfel\n",
+        "sha256": "1fdfe9e103b83a9f95e4040c9b6072bca3da20a97b5b45025aab6680a5aa1458",
+        "source_id": "LEGACY_COMPONENT:2b91f20b68915a66cf02"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:2b91f20b68915a66cf02",
+        "decision": "no_additional_semantic_proposition_in_selected_span",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Heading only."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:bbd1abcb9eedb10f5a9f",
+      "path": "experiments/yolo/sidequest_semantic_meaning_cube_nine_hundred_twenty_first/PASS921_REPORT.md",
+      "line": 5,
+      "line_end": 8,
+      "pass_number": 921,
+      "title": "Ergebnis",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_meaning_cube_nine_hundred_twenty_first/PASS921_REPORT.md",
+        "line": 5,
+        "line_end": 8,
+        "quote": "Das Schreibsystem besitzt jetzt 25 konkrete Minimalpaare. Jede Paarzeile\nändert genau eine Achse: Handlung, Grad, Ende, Menge, Richtung, Weg oder Reihenfolge.\nDie 19 `q`-Paare ändern dagegen ausdrücklich **keine** Bedeutung; sie markieren\nnur den Eintritt nach einem geschlossenen Feld.",
+        "sha256": "1fdfe9e103b83a9f95e4040c9b6072bca3da20a97b5b45025aab6680a5aa1458",
+        "source_id": "LEGACY_COMPONENT:bbd1abcb9eedb10f5a9f"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:bbd1abcb9eedb10f5a9f",
+        "decision": "scope_comparison_unresolved",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "q-pairs/no-meaning-change versus field entry; exact source-conditioned card identity and earlier frame rules not fully reconciled."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:efaab026fb19ebca2816",
+      "path": "experiments/yolo/sidequest_semantic_meaning_cube_nine_hundred_twenty_first/PASS921_REPORT.md",
+      "line": 16,
+      "line_end": 17,
+      "pass_number": 921,
+      "title": "Warum das ein Fortschritt ist",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_meaning_cube_nine_hundred_twenty_first/PASS921_REPORT.md",
+        "line": 16,
+        "line_end": 17,
+        "quote": "Wir raten nun nicht mehr für jede Oberfläche eine neue Langglosse. Ein Schreiber\nkann gezielt eine einzige Achse ändern:",
+        "sha256": "1fdfe9e103b83a9f95e4040c9b6072bca3da20a97b5b45025aab6680a5aa1458",
+        "source_id": "LEGACY_COMPONENT:efaab026fb19ebca2816"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:efaab026fb19ebca2816",
+        "decision": "no_additional_semantic_proposition_in_selected_span",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Sentence introducing omitted following examples; no complete new assertion in this selected span."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:f6d68d4934d47caa039a",
+      "path": "experiments/yolo/sidequest_semantic_meaning_cube_nine_hundred_twenty_first/PASS921_REPORT.md",
+      "line": 27,
+      "line_end": 29,
+      "pass_number": 921,
+      "title": "Nächster Schritt",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_meaning_cube_nine_hundred_twenty_first/PASS921_REPORT.md",
+        "line": 27,
+        "line_end": 29,
+        "quote": "Nun wird geprüft, welche der 53 Kerne noch keinen solchen Kontrastpartner haben.\nDiese isolierten Kerne sind die verbleibenden Kandidaten für echte gelernte\nGanzwörter; alles mit einem Partner bleibt produktive Fachkürzung.",
+        "sha256": "1fdfe9e103b83a9f95e4040c9b6072bca3da20a97b5b45025aab6680a5aa1458",
+        "source_id": "LEGACY_COMPONENT:f6d68d4934d47caa039a"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:f6d68d4934d47caa039a",
+        "decision": "no_additional_semantic_proposition_in_selected_span",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Next audit selection heuristic, not a historical meaning binding."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:06bd37a82410aabff7d2",
+      "path": "experiments/yolo/sidequest_semantic_component_shelves_nine_hundred_twenty_second/PASS922_REPORT.md",
+      "line": 7,
+      "line_end": 7,
+      "pass_number": 922,
+      "title": "Inventar",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_component_shelves_nine_hundred_twenty_second/PASS922_REPORT.md",
+        "line": 7,
+        "line_end": 7,
+        "quote": "- **30 produktive Bedeutungskerne** mit einem sichtbaren Austauschpartner;",
+        "sha256": "b141fcd5dd544cde2e2bb2757c2291edeb08c1333e0ed1d5addcf051cb97ebbf",
+        "source_id": "LEGACY_COMPONENT:06bd37a82410aabff7d2"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:06bd37a82410aabff7d2",
+        "decision": "no_additional_semantic_proposition_in_selected_span",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Productive-core count only."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:5098a4b6e103c3877a31",
+      "path": "experiments/yolo/sidequest_semantic_component_shelves_nine_hundred_twenty_second/PASS922_REPORT.md",
+      "line": 8,
+      "line_end": 8,
+      "pass_number": 922,
+      "title": "Inventar",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_component_shelves_nine_hundred_twenty_second/PASS922_REPORT.md",
+        "line": 8,
+        "line_end": 8,
+        "quote": "- **10 gelernte Werkstattwurzeln** mit kurzer konkreter Defaultbedeutung;",
+        "sha256": "b141fcd5dd544cde2e2bb2757c2291edeb08c1333e0ed1d5addcf051cb97ebbf",
+        "source_id": "LEGACY_COMPONENT:5098a4b6e103c3877a31"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:5098a4b6e103c3877a31",
+        "decision": "no_additional_semantic_proposition_in_selected_span",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Learned-root count only."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:d1e96be92409086da2d9",
+      "path": "experiments/yolo/sidequest_semantic_component_shelves_nine_hundred_twenty_second/PASS922_REPORT.md",
+      "line": 12,
+      "line_end": 14,
+      "pass_number": 922,
+      "title": "Inventar",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_component_shelves_nine_hundred_twenty_second/PASS922_REPORT.md",
+        "line": 12,
+        "line_end": 14,
+        "quote": "Die produktiven Kerne sind keine 30 frei memorierten Wörter. Ihre Bedeutung wird\ndurch Würfel und Paarreihen eingeschränkt: E/EE/EEE, AIN/AIIN/IIN, AL/AR/AIR,\nOK/SH/CHK, Y/DY, OL/OT/OS und so weiter.",
+        "sha256": "b141fcd5dd544cde2e2bb2757c2291edeb08c1333e0ed1d5addcf051cb97ebbf",
+        "source_id": "LEGACY_COMPONENT:d1e96be92409086da2d9"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:d1e96be92409086da2d9",
+        "decision": "no_additional_semantic_proposition_in_selected_span",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Names contrast families without new values or specified relation."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:980c65539e00a6ef0559",
+      "path": "experiments/yolo/sidequest_semantic_component_shelves_nine_hundred_twenty_second/PASS922_REPORT.md",
+      "line": 27,
+      "line_end": 33,
+      "pass_number": 922,
+      "title": "Wo Bedeutung noch weich ist",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_component_shelves_nine_hundred_twenty_second/PASS922_REPORT.md",
+        "line": 27,
+        "line_end": 33,
+        "quote": "## Wo Bedeutung noch weich ist\n\nAm weichsten bleiben `HO`, `AN`, `OS`, `LD` und `RESUME_CARD`, weil sie wenige\nEreignisse oder nur einen klaren Kontext besitzen. Die stärkeren gelernten Wurzeln\n`SHED`, `SOLK`, `LSH`, `CPH` und `CFH` haben wiederholte Arbeitsabläufe und können\nschon als kurze Werkstattverben gelehrt werden.\n",
+        "sha256": "b141fcd5dd544cde2e2bb2757c2291edeb08c1333e0ed1d5addcf051cb97ebbf",
+        "source_id": "LEGACY_COMPONENT:980c65539e00a6ef0559"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:980c65539e00a6ef0559",
+        "decision": "no_additional_semantic_proposition_in_selected_span",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Confidence comparison of known cores, no new assignment."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:92f29c7e7d1d532ccf9d",
+      "path": "experiments/yolo/sidequest_semantic_component_shelves_nine_hundred_twenty_second/PASS922_REPORT.md",
+      "line": 36,
+      "line_end": 38,
+      "pass_number": 922,
+      "title": "Nächster Schritt",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_component_shelves_nine_hundred_twenty_second/PASS922_REPORT.md",
+        "line": 36,
+        "line_end": 38,
+        "quote": "Die zehn gelernten Wurzeln werden nun nacheinander in vollständigen Passagen\ngelesen. Ziel ist nicht, sie zwanghaft zu zerlegen, sondern ihre kürzeste feste\nBedeutung zu finden und überladene Glossierung zu entfernen.",
+        "sha256": "b141fcd5dd544cde2e2bb2757c2291edeb08c1333e0ed1d5addcf051cb97ebbf",
+        "source_id": "LEGACY_COMPONENT:92f29c7e7d1d532ccf9d"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:92f29c7e7d1d532ccf9d",
+        "decision": "no_additional_semantic_proposition_in_selected_span",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Next rereading task."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:21ee2a08fead5656eb3b",
+      "path": "experiments/yolo/sidequest_semantic_consolidated_fourteen_page_edition_nine_hundred_twenty_fourth/PASS924_REPORT.md",
+      "line": 29,
+      "line_end": 32,
+      "pass_number": 924,
+      "title": "Noch nicht fest",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_consolidated_fourteen_page_edition_nine_hundred_twenty_fourth/PASS924_REPORT.md",
+        "line": 29,
+        "line_end": 32,
+        "quote": "Die eigentlichen Pflanzen-, Stern-, Figuren- und Zutatenbezeichnungen bleiben\nlokale Namen/Klassen. Auch der Gesamtzweck Medizin versus allgemeine praktische\nNatur-/Badewerkstatt bleibt offen. Fest innerhalb der Arbeitstheorie ist jetzt nur\ndie ausführbare Schreib- und Lesemaschine.",
+        "sha256": "77c04d32b5dc8c64bb93fb2be2f2d7b91e3cb7d5893a85c8e71d6f5e94673613",
+        "source_id": "LEGACY_COMPONENT:21ee2a08fead5656eb3b"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:21ee2a08fead5656eb3b",
+        "decision": "scope_comparison_unresolved",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Medicine versus practical nature/bath-workshop scope remains a real rival; full model comparison not resolved here."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:fef4de76786bb9b33a9f",
+      "path": "experiments/yolo/sidequest_semantic_consolidated_fourteen_page_edition_nine_hundred_twenty_fourth/PASS924_REPORT.md",
+      "line": 36,
+      "line_end": 38,
+      "pass_number": 924,
+      "title": "Nächster Schritt",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_consolidated_fourteen_page_edition_nine_hundred_twenty_fourth/PASS924_REPORT.md",
+        "line": 36,
+        "line_end": 38,
+        "quote": "Als nächstes werden die längsten 30 Klauseln redaktionell in wirklich natürliche\ndeutsche Anweisungen umgeschrieben. Dabei darf kein Kern verschwinden; Ziel ist\neine menschlich lesbare Übersetzung, nicht noch eine neue Tabelle.",
+        "sha256": "77c04d32b5dc8c64bb93fb2be2f2d7b91e3cb7d5893a85c8e71d6f5e94673613",
+        "source_id": "LEGACY_COMPONENT:fef4de76786bb9b33a9f"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:fef4de76786bb9b33a9f",
+        "decision": "no_additional_semantic_proposition_in_selected_span",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Next prose editing task."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:a0c02fc69f0b96c00fbe",
+      "path": "experiments/yolo/sidequest_semantic_recurrent_action_templates_nine_hundred_twenty_seventh/PASS927_REPORT.md",
+      "line": 20,
+      "line_end": 27,
+      "pass_number": 927,
+      "title": "Wichtigste Lesung",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_recurrent_action_templates_nine_hundred_twenty_seventh/PASS927_REPORT.md",
+        "line": 20,
+        "line_end": 27,
+        "quote": "## Wichtigste Lesung\n\nDer Text verhält sich damit eher wie ein Werkstattregister als wie eine Folge\nisolierter Wörter. `OK→CHD` ist nicht eine lange Lexembedeutung, sondern\n„ansetzen, dann umsetzen“; `CHD→OK` gibt den Gegenzyklus „umsetzen, dann neu\nansetzen“. Ebenso bilden `SH→O`, `O→CTH` und `OK→SH` normale Arbeitsfolgen,\nohne dass eine Einzelwurzel den ganzen Satz tragen muss.\n",
+        "sha256": "250b76f671309ef0e57ec730cba74bc160172577cd2aaa8a47df8952d6e2fce0",
+        "source_id": "LEGACY_COMPONENT:a0c02fc69f0b96c00fbe"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:a0c02fc69f0b96c00fbe",
+        "decision": "existing_full_assertion_or_instance",
+        "card_ids": [],
+        "counterpart_ids": [
+          "CLEAN_GAP_BH:bidirectional_set_transfer_cycle"
+        ],
+        "reason": "BH explicitly covers both OK→CHD and CHD→OK plus longer cycles; new abbreviated presentation is not a new cycle hypothesis."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:86c83167506c22a263ea",
+      "path": "experiments/yolo/sidequest_semantic_recurrent_action_templates_nine_hundred_twenty_seventh/PASS927_REPORT.md",
+      "line": 30,
+      "line_end": 32,
+      "pass_number": 927,
+      "title": "Kreativer Gewinn",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_recurrent_action_templates_nine_hundred_twenty_seventh/PASS927_REPORT.md",
+        "line": 30,
+        "line_end": 32,
+        "quote": "Die häufigsten Übergänge erlauben nun ganze kurze Lesungen, ohne Bedeutungen in\nein einzelnes Zeichen hineinzustopfen. Im nächsten Durchgang werden drei- und\nvierstufige Rezepte nur aus diesen Handgriffen zusammengesetzt.",
+        "sha256": "250b76f671309ef0e57ec730cba74bc160172577cd2aaa8a47df8952d6e2fce0",
+        "source_id": "LEGACY_COMPONENT:86c83167506c22a263ea"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:86c83167506c22a263ea",
+        "decision": "no_additional_semantic_proposition_in_selected_span",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Next longer-recipe construction task."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:e3bbdaabc05cc89229e9",
+      "path": "experiments/yolo/sidequest_semantic_multistep_recipe_fragments_nine_hundred_twenty_eighth/PASS928_REPORT.md",
+      "line": 10,
+      "line_end": 20,
+      "pass_number": 928,
+      "title": "Arbeitsmodell",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_multistep_recipe_fragments_nine_hundred_twenty_eighth/PASS928_REPORT.md",
+        "line": 10,
+        "line_end": 20,
+        "quote": "## Arbeitsmodell\n\nDie lernbare Einheit liegt damit zwischen Stamm und vollständigem Rezept:\n\n`kurze Tätigkeitswurzel → Zwei-Schritt-Handgriff → Drei-/Vier-Schritt-Baustein → lokale Klausel`.\n\nDas passt besser zu einer kleinen Werkstatt als ein riesiges Wörterbuch mit\nsatzlangen Einzelglossen. Ein Schreiber lernt etwa „entnehmen → ausführen →\nbereitstellen“ oder „umsetzen → ansetzen → umsetzen“ und füllt Besitzer, Menge,\nZiel und Grad aus dem Bild und dem lokalen Exemplar ein.\n",
+        "sha256": "da629fe9d9b004d2978274f13d5f4a9da296d5cb4db77b51075608c9d0dc52ec",
+        "source_id": "LEGACY_COMPONENT:e3bbdaabc05cc89229e9"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:e3bbdaabc05cc89229e9",
+        "decision": "existing_full_assertion_or_instance",
+        "card_ids": [],
+        "counterpart_ids": [
+          "SEM:33b2c20ec73cae22459e"
+        ],
+        "reason": "Exact complete hierarchy and examples already current."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:74002b0adc0d8c914378",
+      "path": "experiments/yolo/sidequest_semantic_concrete_page_readings_nine_hundred_twenty_ninth/PASS929_REPORT.md",
+      "line": 5,
+      "line_end": 10,
+      "pass_number": 929,
+      "title": "Ergebnis",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_concrete_page_readings_nine_hundred_twenty_ninth/PASS929_REPORT.md",
+        "line": 5,
+        "line_end": 10,
+        "quote": "Die zwölf Seiten mit Werkstattprosa haben jetzt je eine konkrete, kurze\nGesamtlesung. Die fünf Pflanzenblätter bilden keine Liste von Pflanzennamen,\nsondern Seitenartikel mit Entnahme, Ansatz, Portion, Behandlung und Weitergabe.\nDie vier Biological-Seiten lesen sich am besten als viele lokale Bade-,\nAnwendungs- und Stationsaufträge. Die zwei Himmelsseiten sind Auswahl- und\nZuordnungstafeln. f88r ist ein dichtes Zutaten-/Vorratsregister.",
+        "sha256": "c9a7c97c2914cd142e9e79fcb9fffcf917478ff481b73c9824c81c8e360ca8ef",
+        "source_id": "LEGACY_COMPONENT:74002b0adc0d8c914378"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:74002b0adc0d8c914378",
+        "decision": "scope_comparison_unresolved",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Complete twelve-page genre conjunction has closely related full four-register models; exact conjunction identity not yet adjudicated."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:53d19f20bb0d7e3e2c2b",
+      "path": "experiments/yolo/sidequest_semantic_concrete_page_readings_nine_hundred_twenty_ninth/PASS929_REPORT.md",
+      "line": 21,
+      "line_end": 25,
+      "pass_number": 929,
+      "title": "Derzeit beste Buchidee",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_concrete_page_readings_nine_hundred_twenty_ninth/PASS929_REPORT.md",
+        "line": 21,
+        "line_end": 25,
+        "quote": "Ein bildgeführtes praktisches Kompendium: Pflanzenmaterial auswählen und\nzubereiten; es in lokalen Bade-/Anwendungsstationen führen; getrennte\nhimmelsbezogene Tafeln zur Auswahl oder Zuordnung verwenden. Die technische\nLesung bleibt als enger Rivale erhalten, aber die neue Prosa liest sich nicht\nmehr wie ein reines Wasserwerk.",
+        "sha256": "c9a7c97c2914cd142e9e79fcb9fffcf917478ff481b73c9824c81c8e360ca8ef",
+        "source_id": "LEGACY_COMPONENT:53d19f20bb0d7e3e2c2b"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:53d19f20bb0d7e3e2c2b",
+        "decision": "scope_comparison_unresolved",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Bath/application versus technical-waterworks content preference needs comparison with complete previous genre variants."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:cb203b61d802d64a5deb",
+      "path": "experiments/yolo/sidequest_semantic_diagram_address_readings_nine_hundred_thirtieth/PASS930_REPORT.md",
+      "line": 12,
+      "line_end": 16,
+      "pass_number": 930,
+      "title": "Die wichtigste Trennung",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_diagram_address_readings_nine_hundred_thirtieth/PASS930_REPORT.md",
+        "line": 12,
+        "line_end": 16,
+        "quote": "`AIR` kann in der Werkstatt einen Flüssigkeits- oder Stationslauf bezeichnen,\nim Widder- und Fischrad bezeichnet derselbe kurze Kern aber den Ringlauf. `OK`,\n`O`, `CH`, `K`, `S`, `AL` und `AR` funktionieren in den Bildern ebenfalls als\nAufruf-, Klassen-, Wert-, Ziel- und Quellzeichen. Der gemeinsame abstrakte Kern\nbleibt; die konkrete Sachbedeutung kommt vom Register.",
+        "sha256": "de5d8ba6692ebbc5129c69f4217a231a45821e48322fc439b8abba2e21b0eb83",
+        "source_id": "LEGACY_COMPONENT:cb203b61d802d64a5deb"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:cb203b61d802d64a5deb",
+        "decision": "existing_full_assertion_or_instance",
+        "card_ids": [],
+        "counterpart_ids": [
+          "SEM:00e23948b4d66b561e01"
+        ],
+        "reason": "Current full model explicitly contrasts fluid/station versus ring AIR with invariant address/operation cores."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:f78a347e658d46f46bdb",
+      "path": "experiments/yolo/sidequest_semantic_bilevel_component_dictionary_nine_hundred_thirty_first/PASS931_REPORT.md",
+      "line": 5,
+      "line_end": 8,
+      "pass_number": 931,
+      "title": "Ergebnis",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_bilevel_component_dictionary_nine_hundred_thirty_first/PASS931_REPORT.md",
+        "line": 5,
+        "line_end": 8,
+        "quote": "Die 56 Komponenten besitzen jetzt je einen kurzen abstrakten Kern sowie je eine\nWerkstatt- und Bildlesung. 44 Komponenten kommen tatsächlich in beiden\nKanälen vor. Alle 6513 Komponentenatome der 2.511 sichtbaren Gruppen\nsind an diese zweistufige Lesung gebunden.",
+        "sha256": "364f27fd6782f9fe09974205d9852b625abd8d0a92b99d69b9cddd2399050b38",
+        "source_id": "LEGACY_COMPONENT:f78a347e658d46f46bdb"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:f78a347e658d46f46bdb",
+        "decision": "scope_comparison_unresolved",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Single abstract core with two readings across56components: a full-registry assertion beyond bare glosses; equivalence to existing cross-register model unresolved."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:ed5b05bca87c6bd55301",
+      "path": "experiments/yolo/sidequest_semantic_bilevel_component_dictionary_nine_hundred_thirty_first/PASS931_REPORT.md",
+      "line": 12,
+      "line_end": 12,
+      "pass_number": 931,
+      "title": "Die wichtigsten gemeinsamen Kerne",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_bilevel_component_dictionary_nine_hundred_thirty_first/PASS931_REPORT.md",
+        "line": 12,
+        "line_end": 12,
+        "quote": "- `O = LAUF`: Werkstattgang ausführen / Bildreihe aufrufen;",
+        "sha256": "364f27fd6782f9fe09974205d9852b625abd8d0a92b99d69b9cddd2399050b38",
+        "source_id": "LEGACY_COMPONENT:ed5b05bca87c6bd55301"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:ed5b05bca87c6bd55301",
+        "decision": "additional_addressable_assertion",
+        "card_ids": [
+          "CLEAN_GAP_BM:o_work_image_pair"
+        ],
+        "counterpart_ids": [
+          "SEM:2c5a2199eb452d680104"
+        ],
+        "reason": "The bare O=LAUF core does not itself assert this specific paired realization."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:ed1675e1ea15646d1178",
+      "path": "experiments/yolo/sidequest_semantic_bilevel_component_dictionary_nine_hundred_thirty_first/PASS931_REPORT.md",
+      "line": 13,
+      "line_end": 13,
+      "pass_number": 931,
+      "title": "Die wichtigsten gemeinsamen Kerne",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_bilevel_component_dictionary_nine_hundred_thirty_first/PASS931_REPORT.md",
+        "line": 13,
+        "line_end": 13,
+        "quote": "- `OK = AKTIVIEREN`: Arbeitsgang ansetzen / Bildplatz aktivieren;",
+        "sha256": "364f27fd6782f9fe09974205d9852b625abd8d0a92b99d69b9cddd2399050b38",
+        "source_id": "LEGACY_COMPONENT:ed1675e1ea15646d1178"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:ed1675e1ea15646d1178",
+        "decision": "existing_full_assertion_or_instance",
+        "card_ids": [],
+        "counterpart_ids": [
+          "SEM:00e23948b4d66b561e01"
+        ],
+        "reason": "Its complete model already gives OK work setup versus diagram place activation."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:1855dee9b63822090cb1",
+      "path": "experiments/yolo/sidequest_semantic_bilevel_component_dictionary_nine_hundred_thirty_first/PASS931_REPORT.md",
+      "line": 14,
+      "line_end": 14,
+      "pass_number": 931,
+      "title": "Die wichtigsten gemeinsamen Kerne",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_bilevel_component_dictionary_nine_hundred_thirty_first/PASS931_REPORT.md",
+        "line": 14,
+        "line_end": 14,
+        "quote": "- `CH = AUSWAHL_ENTNAHME`: Anteil entnehmen / Klasse kennzeichnen;",
+        "sha256": "364f27fd6782f9fe09974205d9852b625abd8d0a92b99d69b9cddd2399050b38",
+        "source_id": "LEGACY_COMPONENT:1855dee9b63822090cb1"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:1855dee9b63822090cb1",
+        "decision": "additional_addressable_assertion",
+        "card_ids": [
+          "CLEAN_GAP_BM:ch_work_image_pair"
+        ],
+        "counterpart_ids": [
+          "SEM:c28402730df27e051162"
+        ],
+        "reason": "Paired action/classification roles, not a second free lexical gloss."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:33cf3642a25ead3dc1f5",
+      "path": "experiments/yolo/sidequest_semantic_bilevel_component_dictionary_nine_hundred_thirty_first/PASS931_REPORT.md",
+      "line": 15,
+      "line_end": 15,
+      "pass_number": 931,
+      "title": "Die wichtigsten gemeinsamen Kerne",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_bilevel_component_dictionary_nine_hundred_thirty_first/PASS931_REPORT.md",
+        "line": 15,
+        "line_end": 15,
+        "quote": "- `K = ZUORDNUNG`: Material zugeben / Wert zuordnen;",
+        "sha256": "364f27fd6782f9fe09974205d9852b625abd8d0a92b99d69b9cddd2399050b38",
+        "source_id": "LEGACY_COMPONENT:33cf3642a25ead3dc1f5"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:33cf3642a25ead3dc1f5",
+        "decision": "additional_addressable_assertion",
+        "card_ids": [
+          "CLEAN_GAP_BM:k_work_image_pair"
+        ],
+        "counterpart_ids": [
+          "SEM:67288c0cbe6c0423ed11"
+        ],
+        "reason": "The complete paired content roles add scope beyond the bare association core."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:1b8f1f04321674d03401",
+      "path": "experiments/yolo/sidequest_semantic_bilevel_component_dictionary_nine_hundred_thirty_first/PASS931_REPORT.md",
+      "line": 16,
+      "line_end": 16,
+      "pass_number": 931,
+      "title": "Die wichtigsten gemeinsamen Kerne",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_bilevel_component_dictionary_nine_hundred_thirty_first/PASS931_REPORT.md",
+        "line": 16,
+        "line_end": 16,
+        "quote": "- `AIR = LAUFWEG`: Flüssigkeits- oder Stationslauf / Ringlauf;",
+        "sha256": "364f27fd6782f9fe09974205d9852b625abd8d0a92b99d69b9cddd2399050b38",
+        "source_id": "LEGACY_COMPONENT:1b8f1f04321674d03401"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:1b8f1f04321674d03401",
+        "decision": "existing_full_assertion_or_instance",
+        "card_ids": [],
+        "counterpart_ids": [
+          "SEM:00e23948b4d66b561e01"
+        ],
+        "reason": "Exact AIR fluid/ring abstraction already stated."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:a1343fa8779cf41aced8",
+      "path": "experiments/yolo/sidequest_semantic_bilevel_component_dictionary_nine_hundred_thirty_first/PASS931_REPORT.md",
+      "line": 17,
+      "line_end": 18,
+      "pass_number": 931,
+      "title": "Die wichtigsten gemeinsamen Kerne",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_bilevel_component_dictionary_nine_hundred_thirty_first/PASS931_REPORT.md",
+        "line": 17,
+        "line_end": 18,
+        "quote": "- `AL = ZIEL`, `AR = QUELLE`, `Y = REFERENT` funktionieren in beiden Registern\n  beinahe wörtlich gleich.",
+        "sha256": "364f27fd6782f9fe09974205d9852b625abd8d0a92b99d69b9cddd2399050b38",
+        "source_id": "LEGACY_COMPONENT:a1343fa8779cf41aced8"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:a1343fa8779cf41aced8",
+        "decision": "scope_comparison_unresolved",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "The cross-register AL/AR/Y near-literal invariance needs exact scope comparison, not three bare gloss matches."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:b1eff71167ba5e390fac",
+      "path": "experiments/yolo/sidequest_semantic_bilevel_component_dictionary_nine_hundred_thirty_first/PASS931_REPORT.md",
+      "line": 22,
+      "line_end": 25,
+      "pass_number": 931,
+      "title": "Konsequenz",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_bilevel_component_dictionary_nine_hundred_thirty_first/PASS931_REPORT.md",
+        "line": 22,
+        "line_end": 25,
+        "quote": "Das System braucht weder zwei unabhängige Sprachen noch satzlange\nWortbedeutungen. Ein kleines abstraktes Karteninventar wird im jeweiligen\nRegister konkretisiert. Genau diese Mischung aus produktiver Kurznotation und\nlokal gelernten Karten ist derzeit unsere stärkste Schreiberhypothese.",
+        "sha256": "364f27fd6782f9fe09974205d9852b625abd8d0a92b99d69b9cddd2399050b38",
+        "source_id": "LEGACY_COMPONENT:b1eff71167ba5e390fac"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:b1eff71167ba5e390fac",
+        "decision": "scope_comparison_unresolved",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "General two-language rejection and local-concretization mixed model may already be full-model coverage; no forced equivalence."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:c630a0dc03561a9749cd",
+      "path": "experiments/yolo/sidequest_semantic_bilevel_card_composition_nine_hundred_thirty_second/PASS932_REPORT.md",
+      "line": 5,
+      "line_end": 9,
+      "pass_number": 932,
+      "title": "Ergebnis",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_bilevel_card_composition_nine_hundred_thirty_second/PASS932_REPORT.md",
+        "line": 5,
+        "line_end": 9,
+        "quote": "Alle 1.384 exakten Karten und alle 2.511 sichtbaren Ereignisse erhalten ihre\nLesung jetzt mechanisch aus dem 56-Komponenten-Wörterbuch. Es wird keine neue\nsatzlange Ganzwortbedeutung eingeführt. 107 sichtbare\nOberflächenfamilien kommen in beiden Kanälen vor und zeigen die\nRegisterumschaltung unmittelbar.",
+        "sha256": "7259d04323b0ef11a8558257c328e292e27fac8abde3aa3b12cfd12dc818aaf9",
+        "source_id": "LEGACY_COMPONENT:c630a0dc03561a9749cd"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:c630a0dc03561a9749cd",
+        "decision": "no_additional_semantic_proposition_in_selected_span",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Mechanical edition rebuild counts; full register model considered separately."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:52ab82c90245e3fcd269",
+      "path": "experiments/yolo/sidequest_semantic_bilevel_card_composition_nine_hundred_thirty_second/PASS932_REPORT.md",
+      "line": 13,
+      "line_end": 16,
+      "pass_number": 932,
+      "title": "Beispielprinzip",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_bilevel_card_composition_nine_hundred_thirty_second/PASS932_REPORT.md",
+        "line": 13,
+        "line_end": 16,
+        "quote": "`OK + E + DY` bedeutet abstrakt `AKTIVIEREN → GRAD_1 → ABSCHLUSS`.\nIn der Werkstatt wird daraus „kurz ansetzen; Schritt schließen“, im Bildregister\n„Platz aktivieren; erster Grad; Eintrag schließen“. Die Karte bleibt\nkompositionell gleich, nur ihre konkrete Domäne wechselt.",
+        "sha256": "7259d04323b0ef11a8558257c328e292e27fac8abde3aa3b12cfd12dc818aaf9",
+        "source_id": "LEGACY_COMPONENT:52ab82c90245e3fcd269"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:52ab82c90245e3fcd269",
+        "decision": "existing_full_assertion_or_instance",
+        "card_ids": [],
+        "counterpart_ids": [
+          "SEM:80689182e7e9aa6ca775"
+        ],
+        "reason": "Current whole OKEDY card already preserves brief setup/close versus first-grade-place activation/entry close."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:2d11ac5b7b8e2ced7f9f",
+      "path": "experiments/yolo/sidequest_semantic_predictive_paradigm_grid_nine_hundred_thirty_third/PASS933_REPORT.md",
+      "line": 22,
+      "line_end": 26,
+      "pass_number": 933,
+      "title": "Warum das wichtig ist",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_predictive_paradigm_grid_nine_hundred_thirty_third/PASS933_REPORT.md",
+        "line": 22,
+        "line_end": 26,
+        "quote": "Unsere Bedeutungen sind jetzt vorwärtsgerichtet. Wir müssen eine neue Oberfläche\nnicht nachträglich mit einem langen Satz belegen: Stamm, Grad und Endpunkt sagen\nvorab, welche kurze Funktion sie haben müsste. Oberflächenkollisionen sind dabei\nkein Scheitern; sie zeigen, an welchen Stellen der Schreiber einen q-Träger,\nWrapper oder gelernten Allograph braucht.",
+        "sha256": "c4aa9ecb328528bd112fb8b165d5902b78fe2aab12f15020bb99d7bef108c702",
+        "source_id": "LEGACY_COMPONENT:2d11ac5b7b8e2ced7f9f"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:2d11ac5b7b8e2ced7f9f",
+        "decision": "scope_comparison_unresolved",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Collision repair using q/wrapper/allograph is a writing-model assertion, not a meaning failure; prior control/identity scope not fully compared."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:66410e69c31efd0cc077",
+      "path": "experiments/yolo/sidequest_semantic_apprentice_bichannel_manual_nine_hundred_thirty_fourth/PASS934_REPORT.md",
+      "line": 13,
+      "line_end": 13,
+      "pass_number": 934,
+      "title": "Ergebnis",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_apprentice_bichannel_manual_nine_hundred_thirty_fourth/PASS934_REPORT.md",
+        "line": 13,
+        "line_end": 13,
+        "quote": "- `chedy = CHD+Y`: diesen Posten umsetzen / zu diesem Bildplatz wechseln;",
+        "sha256": "6c68da711993c3c6aa809b8ff392657afe6962c3a1d08c892f81d8ee9c2ef287",
+        "source_id": "LEGACY_COMPONENT:66410e69c31efd0cc077"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:66410e69c31efd0cc077",
+        "decision": "additional_addressable_assertion",
+        "card_ids": [
+          "CLEAN_GAP_BM:chedy_item_place_switch"
+        ],
+        "counterpart_ids": [
+          "SEM:fd8bcd16a4c929d88956",
+          "CLEAN_GAP_BH:chd_transfer_valency"
+        ],
+        "reason": "Existing chedy parse and prose valency model do not state the image-place realization."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:2fea668edc892bc37246",
+      "path": "experiments/yolo/sidequest_semantic_atomic_pocket_lexicon_nine_hundred_thirty_fifth/PASS935_REPORT.md",
+      "line": 1,
+      "line_end": 2,
+      "pass_number": 935,
+      "title": "Pass 935 — keine satzlangen Stammglossen mehr",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_atomic_pocket_lexicon_nine_hundred_thirty_fifth/PASS935_REPORT.md",
+        "line": 1,
+        "line_end": 2,
+        "quote": "# Pass 935 — keine satzlangen Stammglossen mehr\n",
+        "sha256": "e7ff3208c0c69d7210bf7d47743745ee0ce1a379ff025dc64bf960d5d92e4f86",
+        "source_id": "LEGACY_COMPONENT:2fea668edc892bc37246"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:2fea668edc892bc37246",
+        "decision": "no_additional_semantic_proposition_in_selected_span",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Heading only."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:af310aea7e46b45f84f2",
+      "path": "experiments/yolo/sidequest_semantic_atomic_pocket_lexicon_nine_hundred_thirty_fifth/PASS935_REPORT.md",
+      "line": 9,
+      "line_end": 11,
+      "pass_number": 935,
+      "title": "Ergebnis",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_atomic_pocket_lexicon_nine_hundred_thirty_fifth/PASS935_REPORT.md",
+        "line": 9,
+        "line_end": 11,
+        "quote": "Die wichtigen Unterschiede bleiben sichtbar: `O=GANG`, `OK=START`,\n`CH=AUSWAHL`, `K=ZUORDNUNG`, `SH=HALT`, `CHD=WECHSEL`, `AIR=LAUFWEG`,\n`AIN=EINHEIT`, `AIIN=SOLLWERT`, `IIN=STUFE`, `Y=DIES`, `DY=ENDE`.",
+        "sha256": "e7ff3208c0c69d7210bf7d47743745ee0ce1a379ff025dc64bf960d5d92e4f86",
+        "source_id": "LEGACY_COMPONENT:af310aea7e46b45f84f2"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:af310aea7e46b45f84f2",
+        "decision": "no_additional_semantic_proposition_in_selected_span",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Existing primitive glossary inventory; no additional complete combination asserted."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:dc1c1abfd79f8778a00b",
+      "path": "experiments/yolo/sidequest_semantic_atomic_pocket_lexicon_nine_hundred_thirty_fifth/PASS935_REPORT.md",
+      "line": 13,
+      "line_end": 16,
+      "pass_number": 935,
+      "title": "Ergebnis",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_atomic_pocket_lexicon_nine_hundred_thirty_fifth/PASS935_REPORT.md",
+        "line": 13,
+        "line_end": 16,
+        "quote": "Das beseitigt genau den früheren Fehler „ein Stamm = ein ganzer moderner Satz“.\nEine konkrete Lesung wie „führe die Flüssigkeit zur nächsten Beckenstelle“\nentsteht aus `GANG/WECHSEL + LAUFWEG + ZIEL + DIES` unter einem sichtbaren\nBeckenbesitzer; kein einzelner Stamm bedeutet diesen ganzen Satz.",
+        "sha256": "e7ff3208c0c69d7210bf7d47743745ee0ce1a379ff025dc64bf960d5d92e4f86",
+        "source_id": "LEGACY_COMPONENT:dc1c1abfd79f8778a00b"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:dc1c1abfd79f8778a00b",
+        "decision": "scope_comparison_unresolved",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Full modern-fluid sentence generated from four roles is a local illustration; no exact combined earlier formula counterpart established."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:84ee8d98358028089566",
+      "path": "experiments/yolo/sidequest_semantic_complete_surface_dictionary_nine_hundred_thirty_sixth/PASS936_REPORT.md",
+      "line": 13,
+      "line_end": 13,
+      "pass_number": 936,
+      "title": "Ergebnis",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_complete_surface_dictionary_nine_hundred_thirty_sixth/PASS936_REPORT.md",
+        "line": 13,
+        "line_end": 13,
+        "quote": "`Oberfläche → Komponentenrezept → atomare Einwortglosse → Werkstattlesung → Bildlesung`.",
+        "sha256": "d289e8f2ef71afaddfe2440844b6360f83b9cded4e0384cf951a2729b6331561",
+        "source_id": "LEGACY_COMPONENT:84ee8d98358028089566"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:84ee8d98358028089566",
+        "decision": "scope_comparison_unresolved",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Five-stage surface→recipe→atomic→workshop→image interpretation chain requires full pipeline comparison."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:080f171dae672c2d78cb",
+      "path": "experiments/yolo/sidequest_semantic_complete_surface_dictionary_nine_hundred_thirty_sixth/PASS936_REPORT.md",
+      "line": 15,
+      "line_end": 19,
+      "pass_number": 936,
+      "title": "Ergebnis",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_complete_surface_dictionary_nine_hundred_thirty_sixth/PASS936_REPORT.md",
+        "line": 15,
+        "line_end": 19,
+        "quote": "Damit ist das Wörterbuch nicht mehr eine Liste frei erfundener langer\nÜbersetzungen. Eine Oberfläche wie `okedy` wird stabil als\n`OK+E+DY = START+KURZ+ENDE` gespeichert. Erst ihr Ort macht daraus „kurz\nansetzen und schließen“ oder „Platz ersten Grades aktivieren und Eintrag\nschließen“.",
+        "sha256": "d289e8f2ef71afaddfe2440844b6360f83b9cded4e0384cf951a2729b6331561",
+        "source_id": "LEGACY_COMPONENT:080f171dae672c2d78cb"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:080f171dae672c2d78cb",
+        "decision": "existing_full_assertion_or_instance",
+        "card_ids": [],
+        "counterpart_ids": [
+          "SEM:80689182e7e9aa6ca775"
+        ],
+        "reason": "Same complete OKEDY register realizations, additional recipe-storage explanation."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:09f1078aebc26c128aae",
+      "path": "experiments/yolo/sidequest_semantic_macro_clause_translation_nine_hundred_thirty_seventh/PASS937_REPORT.md",
+      "line": 1,
+      "line_end": 2,
+      "pass_number": 937,
+      "title": "Pass 937 — zweite natürliche Vollübersetzung",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_macro_clause_translation_nine_hundred_thirty_seventh/PASS937_REPORT.md",
+        "line": 1,
+        "line_end": 2,
+        "quote": "# Pass 937 — zweite natürliche Vollübersetzung\n",
+        "sha256": "2446ad86f7380e059b3098c7a22c7926f38579ee08a64e727553d75f92af0437",
+        "source_id": "LEGACY_COMPONENT:09f1078aebc26c128aae"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:09f1078aebc26c128aae",
+        "decision": "no_additional_semantic_proposition_in_selected_span",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Heading only."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:c7a9ea990ce495400cdc",
+      "path": "experiments/yolo/sidequest_semantic_macro_clause_translation_nine_hundred_thirty_seventh/PASS937_REPORT.md",
+      "line": 5,
+      "line_end": 9,
+      "pass_number": 937,
+      "title": "Ergebnis",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_macro_clause_translation_nine_hundred_thirty_seventh/PASS937_REPORT.md",
+        "line": 5,
+        "line_end": 9,
+        "quote": "Alle 354 Klauseln und alle 1758 Tätigkeitsatome stehen\nin einer kompakten Handlungsfassung. 836 Tätigkeitsatome\n(47.6%) werden durch 373 gelernte Mehrschrittsegmente gesprochen;\n922 bleiben kurze Einzelhandlungen. Kein Atom und keine Klausel\nfällt aus der Übersetzung.",
+        "sha256": "2446ad86f7380e059b3098c7a22c7926f38579ee08a64e727553d75f92af0437",
+        "source_id": "LEGACY_COMPONENT:c7a9ea990ce495400cdc"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:c7a9ea990ce495400cdc",
+        "decision": "no_additional_semantic_proposition_in_selected_span",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Atom/segment coverage statistics."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:14f12b2efb4ebc1255a4",
+      "path": "experiments/yolo/sidequest_semantic_local_sign_meanings_nine_hundred_thirty_eighth/PASS938_REPORT.md",
+      "line": 5,
+      "line_end": 9,
+      "pass_number": 938,
+      "title": "Ergebnis",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_local_sign_meanings_nine_hundred_thirty_eighth/PASS938_REPORT.md",
+        "line": 5,
+        "line_end": 9,
+        "quote": "Elf bisher nur benannte lokale Zeichen erhalten kurze Arbeitswerte in 44\nAtomen innerhalb von 43 Kartenereignissen: F=NEBENPFAD,\nG-Prüfzeichen=PRUEFMARKE, lokales g=EINMAL,\ni=UNTERINDEX, d=RAND, s=RAHMEN, b=PAAR, m=MITTE, Z-Adresse=AUSSEN,\nj=VERBUND und lokales z=ZWISCHEN.",
+        "sha256": "251f853516f3317967df8e8ad6fa875035570a30dadae49b9a10e5cbb46b92f2",
+        "source_id": "LEGACY_COMPONENT:14f12b2efb4ebc1255a4"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:14f12b2efb4ebc1255a4",
+        "decision": "additional_addressable_assertion",
+        "card_ids": [
+          "CLEAN_GAP_BM:local_sign_role_dictionary"
+        ],
+        "counterpart_ids": [],
+        "reason": "A source-local sign-role table; case distinctions and special G/Z roles are preserved. No global F/g/i/d/s/b/m/j/z alphabet values are inferred."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:11a4e9c8237cb800af05",
+      "path": "experiments/yolo/sidequest_semantic_integrated_fourteen_page_edition_nine_hundred_thirty_ninth/PASS939_REPORT.md",
+      "line": 5,
+      "line_end": 8,
+      "pass_number": 939,
+      "title": "Ergebnis",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_integrated_fourteen_page_edition_nine_hundred_thirty_ninth/PASS939_REPORT.md",
+        "line": 5,
+        "line_end": 8,
+        "quote": "Die vollständige 14-Seiten-Ausgabe ist nach den Bedeutungen der seltenen\nlokalen Zeichen neu gebaut: 56 atomare Werte, 1.078 Oberflächen, 2.511\nEreignisse, 354 Klauseln und 14 Seitenaussagen. Kein Ereignis endet mehr mit\neinem bloßen F/G/I/D/S/B/M/J/Z-Zeichennamen.",
+        "sha256": "cf9fbec8d4860e0ed52b8ad697fa19097e5df8c280f8dd9bab16f4958bd1fcf4",
+        "source_id": "LEGACY_COMPONENT:11a4e9c8237cb800af05"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:11a4e9c8237cb800af05",
+        "decision": "no_additional_semantic_proposition_in_selected_span",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Rebuild statistics following local-sign assignments."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:5e4791e4b33259f1a1e9",
+      "path": "experiments/yolo/sidequest_semantic_integrated_fourteen_page_edition_nine_hundred_thirty_ninth/PASS939_REPORT.md",
+      "line": 22,
+      "line_end": 28,
+      "pass_number": 939,
+      "title": "Führende Lesung",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_integrated_fourteen_page_edition_nine_hundred_thirty_ninth/PASS939_REPORT.md",
+        "line": 22,
+        "line_end": 28,
+        "quote": "## Führende Lesung\n\nDas Buch bleibt am plausibelsten ein bildgeführtes praktisches Kompendium:\nPflanzenmaterial entnehmen und zubereiten, in lokale Bade-/Anwendungsstationen\nüberführen, und getrennte Himmelsräder als Auswahl-/Zuordnungstafeln verwenden.\nDie Übersetzung ist eine kreative Werkstattrekonstruktion, aber innerhalb der\n14 Seiten jetzt vollständig und einheitlich.",
+        "sha256": "cf9fbec8d4860e0ed52b8ad697fa19097e5df8c280f8dd9bab16f4958bd1fcf4",
+        "source_id": "LEGACY_COMPONENT:5e4791e4b33259f1a1e9"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:5e4791e4b33259f1a1e9",
+        "decision": "scope_comparison_unresolved",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Practical-compendium genre close to existing full models; different14-page scope cannot be dismissed by a broad label match."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:565b2da53a8ad463a3d6",
+      "path": "experiments/yolo/sidequest_semantic_scribe_style_reading_nine_hundred_fortieth/PASS940_REPORT.md",
+      "line": 1,
+      "line_end": 2,
+      "pass_number": 940,
+      "title": "Pass 940 — vom Kartenprotokoll zur Schreiberlesung",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_scribe_style_reading_nine_hundred_fortieth/PASS940_REPORT.md",
+        "line": 1,
+        "line_end": 2,
+        "quote": "# Pass 940 — vom Kartenprotokoll zur Schreiberlesung\n",
+        "sha256": "9c7008383dcc8a8fe91b1a35e0bbfbd91d63f907c9e5f29f64b0e09930dbfc5c",
+        "source_id": "LEGACY_COMPONENT:565b2da53a8ad463a3d6"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:565b2da53a8ad463a3d6",
+        "decision": "no_additional_semantic_proposition_in_selected_span",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Heading only."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:40f20b6ac30f54c01efe",
+      "path": "experiments/yolo/sidequest_semantic_renderer_consolidated_card_deck_nine_hundred_forty_second/PASS942_REPORT.md",
+      "line": 5,
+      "line_end": 9,
+      "pass_number": 942,
+      "title": "Ergebnis",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_renderer_consolidated_card_deck_nine_hundred_forty_second/PASS942_REPORT.md",
+        "line": 5,
+        "line_end": 9,
+        "quote": "Die häufigen Formeln aus Pass 941 kollabieren zu **47 Kartenfamilien** mit\n**97 sichtbaren Schreibvarianten**. Sie decken **1137 von 2.511\nEreignissen**. Die häufigsten Gleichungen sind `dy/chey/y/chy/shy/sy = DIESER\nPOSTEN`, `ol/chol/qol/sol/ls = DAMIT WEITER` und\n`qokedy/okedy = KURZ ANSETZEN; ENDE`.",
+        "sha256": "4b83c6fc75e0945abe59c49ec875b540a6d2af435735a870be81ccdd4bbda212",
+        "source_id": "LEGACY_COMPONENT:40f20b6ac30f54c01efe"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:40f20b6ac30f54c01efe",
+        "decision": "scope_comparison_unresolved",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Whole renderer-equivalence families include Y and OL realizations; registered units must be audited before claiming identical semantic propositions."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:f37de68f4546bab67b4f",
+      "path": "experiments/yolo/sidequest_semantic_ca1420_hybrid_teaching_book_nine_hundred_forty_third/PASS943_REPORT.md",
+      "line": 3,
+      "line_end": 10,
+      "pass_number": 943,
+      "title": "Arbeitsmodell",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_ca1420_hybrid_teaching_book_nine_hundred_forty_third/PASS943_REPORT.md",
+        "line": 3,
+        "line_end": 10,
+        "quote": "## Arbeitsmodell\n\nDas passendste Modell ist jetzt konkret: **Brevigraphe + gelernte Formelkarten +\nörtlicher Bildnomenklator**. Ein Schreiber lernt zwanzig Regeln, 56 Kurzwerte\nund 47 häufige Kartenfamilien. Das entspricht der Bauart gemischter\nKanzleicodes, medizinischer Kürzelpraxis und regelhaften Gradzeichen, ohne eine\ndieser historischen Schriften direkt zu kopieren.\n",
+        "sha256": "5154479b97ea783402b8d960728dc272cc9260af08913584764b76e29b684509",
+        "source_id": "LEGACY_COMPONENT:f37de68f4546bab67b4f"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:f37de68f4546bab67b4f",
+        "decision": "scope_comparison_unresolved",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Brevigraph/formula/local-name model is genuine but may be already covered;20-rule inventory alone does not prove new proposition."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:c4594069d64570969195",
+      "path": "experiments/yolo/sidequest_semantic_ca1420_hybrid_teaching_book_nine_hundred_forty_third/PASS943_REPORT.md",
+      "line": 13,
+      "line_end": 18,
+      "pass_number": 943,
+      "title": "Vorhersagefähigkeit",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_ca1420_hybrid_teaching_book_nine_hundred_forty_third/PASS943_REPORT.md",
+        "line": 13,
+        "line_end": 18,
+        "quote": "Die Regel erzeugt 27 derzeit fehlende, aber lesbare\nKompositionen. Beispielsweise ergibt `CHK+E+DY` schon vor einer Oberfläche\n„kurz behandeln; Schritt schließen“; mögliche Schreibungen wären `chekedy`\noder `qchekedy`. Ebenso ergibt `SH+EEE+Y` „diesen Posten vollständig halten“.\nDamit ist die Theorie nicht mehr nur ein rückwärts erfundenes Wörterbuch: Sie\nkann neue Formelkarten bilden und lesen.",
+        "sha256": "5154479b97ea783402b8d960728dc272cc9260af08913584764b76e29b684509",
+        "source_id": "LEGACY_COMPONENT:c4594069d64570969195"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:c4594069d64570969195",
+        "decision": "additional_addressable_assertion",
+        "card_ids": [
+          "CLEAN_GAP_BM:chk_short_close_prediction",
+          "CLEAN_GAP_BM:sh_full_item_prediction"
+        ],
+        "counterpart_ids": [],
+        "reason": "A complete predicted composition; no invented witnessed token or contrast."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:8adadce9f7cdf387c4ad",
+      "path": "experiments/yolo/sidequest_semantic_hybrid_card_retranslation_nine_hundred_forty_fourth/PASS944_REPORT.md",
+      "line": 1,
+      "line_end": 2,
+      "pass_number": 944,
+      "title": "Pass 944 — Ganzkarten machen die Übersetzung kürzer",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_hybrid_card_retranslation_nine_hundred_forty_fourth/PASS944_REPORT.md",
+        "line": 1,
+        "line_end": 2,
+        "quote": "# Pass 944 — Ganzkarten machen die Übersetzung kürzer\n",
+        "sha256": "fc1b4cf423bda63aeaa613803d1985f5aeebc6391fe233390d149a247dbc7fc4",
+        "source_id": "LEGACY_COMPONENT:8adadce9f7cdf387c4ad"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:8adadce9f7cdf387c4ad",
+        "decision": "no_additional_semantic_proposition_in_selected_span",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Heading only."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:daed8fefebe4680621a4",
+      "path": "experiments/yolo/sidequest_semantic_f88r_local_nomenclator_nine_hundred_forty_fifth/PASS945_REPORT.md",
+      "line": 3,
+      "line_end": 12,
+      "pass_number": 945,
+      "title": "Bildlesung",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_f88r_local_nomenclator_nine_hundred_forty_fifth/PASS945_REPORT.md",
+        "line": 3,
+        "line_end": 12,
+        "quote": "## Bildlesung\n\nf88r hat drei klar getrennte Einheiten. Jede beginnt links mit einem dekorativen\nGefäß, trägt darüber oder daneben eine Reihe einzeln beschrifteter\nWurzel-/Blattformen und setzt darunter mit einem eigenen Prosablock fort. Die\ndrei `@Lc`-Etiketten sind daher Zubereitungs- oder Gefäßköpfe; die dreizehn\n`@Lf`-Gruppen sind lokale Zutatenkarten. Eine davon besteht aus zwei sichtbaren\nGruppen und bezeichnet plausibel einen zusammengesetzten oder doppelt\nadressierten Posten.\n",
+        "sha256": "a94d9ecdd87db08875d667711ffad993ac5a1035e425ad6f43b27cf63fc4408f",
+        "source_id": "LEGACY_COMPONENT:daed8fefebe4680621a4"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:daed8fefebe4680621a4",
+        "decision": "additional_addressable_assertion",
+        "card_ids": [
+          "CLEAN_GAP_BM:f88_label_types_and_compound"
+        ],
+        "counterpart_ids": [
+          "SEM:e833dbffca017f531d36"
+        ],
+        "reason": "The existing three-register bridge does not assert the @Lc/@Lf content typing or the alternative interpretation of the two-group entry. Entire statement remains a historical picture/text model."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:6695956347a4cc849720",
+      "path": "experiments/yolo/sidequest_semantic_f88r_local_nomenclator_nine_hundred_forty_fifth/PASS945_REPORT.md",
+      "line": 13,
+      "line_end": 21,
+      "pass_number": 945,
+      "title": "Bedeutungsgewinn",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_f88r_local_nomenclator_nine_hundred_forty_fifth/PASS945_REPORT.md",
+        "line": 13,
+        "line_end": 21,
+        "quote": "## Bedeutungsgewinn\n\nDie 16 Bildgruppen erhalten jetzt konkrete lokale Defaults: Gefäß/Zubereitung A,\nB oder C und visuell beschriebene Zutaten A1–C3. Diese Werte müssen nicht als\nmanuskriptweite Wörter in die 56 Kürzel eingehen. Genau hier sitzt der gelernte\nNomenklator: Die produktive Prosa sagt auswählen, messen, ansetzen, halten,\nweiterführen und abschließen; das Bildetikett sagt *welcher* Stoff oder welches\nGefäß gemeint ist.\n",
+        "sha256": "a94d9ecdd87db08875d667711ffad993ac5a1035e425ad6f43b27cf63fc4408f",
+        "source_id": "LEGACY_COMPONENT:6695956347a4cc849720"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:6695956347a4cc849720",
+        "decision": "additional_addressable_assertion",
+        "card_ids": [
+          "CLEAN_GAP_BM:f88_which_owner_vs_prosa"
+        ],
+        "counterpart_ids": [
+          "SEM:e833dbffca017f531d36",
+          "CLEAN_GAP_BK:silent_owner_four_reference_roles"
+        ],
+        "reason": "Explicit division between local label identity and prose operations; general owner roles do not automatically identify these distinct inscription functions."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:9c91eaef6960184e0e68",
+      "path": "experiments/yolo/sidequest_semantic_f75r_triangular_inset_nine_hundred_forty_eighth/PASS948_REPORT.md",
+      "line": 9,
+      "line_end": 11,
+      "pass_number": 948,
+      "title": "Pass 948 — f75r hat ein eingebettetes Mini-Register",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_f75r_triangular_inset_nine_hundred_forty_eighth/PASS948_REPORT.md",
+        "line": 9,
+        "line_end": 11,
+        "quote": "Die Korrektur stärkt die Kartenlesung, weil sie keine sieben erfundenen lokalen\nNamen mehr benötigt. Sie schwächt zugleich jede Behauptung, die zehn Gruppen seien\nunmittelbare Figurenetiketten.",
+        "sha256": "98684d51af7dd432aa488087d969696925731debfd6a6bd6bc4bc1cc353bb8a9",
+        "source_id": "LEGACY_COMPONENT:9c91eaef6960184e0e68"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:9c91eaef6960184e0e68",
+        "decision": "additional_addressable_assertion",
+        "card_ids": [
+          "CLEAN_GAP_BM:f75_sevenline_inset"
+        ],
+        "counterpart_ids": [],
+        "reason": "Actual historical scope correction retained, without claiming a fresh image observation or independently proved content."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:4e3e9d2b8c43012285eb",
+      "path": "experiments/yolo/sidequest_semantic_extended_card_retranslation_nine_hundred_fiftieth/PASS950_REPORT.md",
+      "line": 1,
+      "line_end": 9,
+      "pass_number": 950,
+      "title": "Pass 950 — vollständige Neulesung mit erweitertem Kartensatz",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_extended_card_retranslation_nine_hundred_fiftieth/PASS950_REPORT.md",
+        "line": 1,
+        "line_end": 9,
+        "quote": "# Pass 950 — vollständige Neulesung mit erweitertem Kartensatz\n\nAlle 2.010 Prosagruppen und 354 Klauseln wurden mit dem 63-Karten-Deck neu\ngelesen. **105 Prosavorkommen** wechseln dabei von einzeln aufgebauten\nKürzelfolgen zu vertrauten Ganzformeln. Die Reihenfolge, Klauselgrenzen und\noffenen beziehungsweise geschlossenen Enden bleiben erhalten.\n\nAuf f75r wird der Siebenzeiler nun als ein einziges eingesetztes Mini-Register\ngesprochen. Die falsche Zerlegung in sieben separate Figurenetiketten entfällt.",
+        "sha256": "36c744b5d37afaad7106d07637057378b03daeca2abe99af844c72be185d0134",
+        "source_id": "LEGACY_COMPONENT:4e3e9d2b8c43012285eb"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:4e3e9d2b8c43012285eb",
+        "decision": "additional_addressable_assertion",
+        "card_ids": [
+          "CLEAN_GAP_BM:f75_sevenline_inset"
+        ],
+        "counterpart_ids": [],
+        "reason": "Actual historical scope correction retained, without claiming a fresh image observation or independently proved content."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:9545a8b3528b40a37f83",
+      "path": "experiments/yolo/sidequest_semantic_complete_apprentice_codebook_nine_hundred_fifty_third/PASS953_REPORT.md",
+      "line": 3,
+      "line_end": 6,
+      "pass_number": 953,
+      "title": "Pass 953 — ein 1420er Lehrling kann das System lernen",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_complete_apprentice_codebook_nine_hundred_fifty_third/PASS953_REPORT.md",
+        "line": 3,
+        "line_end": 6,
+        "quote": "Das aktuelle Modell verlangt **135 gelernte Einträge**: 56 produktive Kürzel und\n79 Formelkarten. Die Formelvarianten werden nicht als zusätzliche Wörter gezählt.\nZehn Unterrichtsstufen führen von Bildbesitzer und Rückverweis über Menge,\nAdresse, Handlung und Grad bis zu langen Formeln und lokalen Nomenklatorwerten.",
+        "sha256": "b729382361b9aa449c88ecfa013103d6bebe7ffc3cac2b93dfa2084eed948d7b",
+        "source_id": "LEGACY_COMPONENT:9545a8b3528b40a37f83"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:9545a8b3528b40a37f83",
+        "decision": "no_additional_semantic_proposition_in_selected_span",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Teaching-inventory counts and course order, not a new content binding."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:a46d4530b0b3a3285b5c",
+      "path": "experiments/yolo/sidequest_semantic_composition_predictor_nine_hundred_fifty_fourth/PASS954_REPORT.md",
+      "line": 3,
+      "line_end": 9,
+      "pass_number": 954,
+      "title": "Pass 954 — das Wörterbuch sagt Kompositionen voraus",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_composition_predictor_nine_hundred_fifty_fourth/PASS954_REPORT.md",
+        "line": 3,
+        "line_end": 9,
+        "quote": "Die 79 Kartenfamilien erzeugen **76** beobachtete\nNichtprimärformen ohne Bedeutungswechsel. Daneben liefert die produktive\nKürzelgrammatik **27** vorab formulierte Kartenpaare; 26\ndavon sind auf den 14 Seiten in keiner der beiden vorgeschlagenen Oberflächen\nbelegt und bleiben echte Schreibervorhersagen. 1 Oberfläche ist als\nHomograph mit anderer Zerlegung belegt; 0 stimmen bereits in Form und\nKomponentenfolge überein.",
+        "sha256": "94789abfbe48db5ebbe2327414f51bceeaa1613c1e5176ecdf3c289885c12950",
+        "source_id": "LEGACY_COMPONENT:a46d4530b0b3a3285b5c"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:a46d4530b0b3a3285b5c",
+        "decision": "no_additional_semantic_proposition_in_selected_span",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Observed/predicted surface inventory result; preserves zero matchingrecipe occurrences, no new meaning by itself."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:7f24e08be634670324f7",
+      "path": "experiments/yolo/sidequest_semantic_composition_predictor_nine_hundred_fifty_fourth/PASS954_REPORT.md",
+      "line": 11,
+      "line_end": 14,
+      "pass_number": 954,
+      "title": "Pass 954 — das Wörterbuch sagt Kompositionen voraus",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_composition_predictor_nine_hundred_fifty_fourth/PASS954_REPORT.md",
+        "line": 11,
+        "line_end": 14,
+        "quote": "Die Vorhersage betrifft den internen Werkstattwert, nicht ein lateinisches oder\ndeutsches Lautwort. So kann `SOLK+EEE+DY` schon jetzt „vollständig auffangen;\nEnde“ bedeuten, selbst wenn die konkrete Oberfläche erst auf einer anderen Seite\ngeschrieben würde.",
+        "sha256": "94789abfbe48db5ebbe2327414f51bceeaa1613c1e5176ecdf3c289885c12950",
+        "source_id": "LEGACY_COMPONENT:7f24e08be634670324f7"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:7f24e08be634670324f7",
+        "decision": "additional_addressable_assertion",
+        "card_ids": [
+          "CLEAN_GAP_BM:solk_full_close_prediction"
+        ],
+        "counterpart_ids": [],
+        "reason": "Explicit full formula with missing surface; not an attested new translation."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:328f02608b111bf45a64",
+      "path": "experiments/yolo/sidequest_semantic_concrete_root_lemmas_nine_hundred_fifty_fifth/PASS955_REPORT.md",
+      "line": 7,
+      "line_end": 9,
+      "pass_number": 955,
+      "title": "Pass 955 — kein Stamm trägt mehr einen ganzen Satz",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_concrete_root_lemmas_nine_hundred_fifty_fifth/PASS955_REPORT.md",
+        "line": 7,
+        "line_end": 9,
+        "quote": "Damit sind alte Überladungen wie „bis die Flüssigkeit klar abläuft“ auf\nStammebene ausgeschlossen. Ein Wert wie `E=KURZ`, `SH=HALTEN` oder `DY=SCHLIESSEN`\nbleibt klein; erst `SH+E+DY` ergibt „kurz halten; Ende“.",
+        "sha256": "c7c9f1d7b2fc84570344480b63615b7a4b429c8563cf1875ea559593ea82d723",
+        "source_id": "LEGACY_COMPONENT:328f02608b111bf45a64"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:328f02608b111bf45a64",
+        "decision": "no_additional_semantic_proposition_in_selected_span",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Old overload prohibition plus known short SH+E+DY illustration; no claim that historical long reading never existed."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:8f89f63b488ed22d2d4a",
+      "path": "experiments/yolo/sidequest_semantic_simple_full_translation_nine_hundred_fifty_sixth/PASS956_REPORT.md",
+      "line": 1,
+      "line_end": 11,
+      "pass_number": 956,
+      "title": "Pass 956 — die Vollübersetzung spricht jetzt in kurzen Werten",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_simple_full_translation_nine_hundred_fifty_sixth/PASS956_REPORT.md",
+        "line": 1,
+        "line_end": 11,
+        "quote": "# Pass 956 — die Vollübersetzung spricht jetzt in kurzen Werten\n\nAlle 2.010 Prosakarten und 354 Klauseln sind neu gesetzt. Innerhalb einer Karte\nsteht kein versteckter deutscher Satz mehr: produktive Karten zeigen nur die\nFolge ihrer Einwortlemmata; gelernte Formeln tragen einen ausdrücklich\nmemorierten Werkstattwert.\n\nIn der Prosa entfallen 1165 Ereignisse auf\nFormelkarten und 845 auf freie\nStammkompositionen. Die Bild-/Adressschicht bleibt außerhalb der Prosaklauseln\nan ihren sichtbaren Besitzern.",
+        "sha256": "94ee6ea495537a3f5df66ace305e36895276b5a5bb9db84e561e97a77f0456e6",
+        "source_id": "LEGACY_COMPONENT:8f89f63b488ed22d2d4a"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:8f89f63b488ed22d2d4a",
+        "decision": "scope_comparison_unresolved",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Mixed free-stem/learned-formula reading contract may match existing complete models; counts not adequate identity."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:88d99b3f81b790248904",
+      "path": "experiments/yolo/sidequest_semantic_historical_122_entry_analogue_nine_hundred_fifty_ninth/PASS959_REPORT.md",
+      "line": 21,
+      "line_end": 33,
+      "pass_number": 959,
+      "title": "Was das für unsere Karten bedeutet",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_historical_122_entry_analogue_nine_hundred_fifty_ninth/PASS959_REPORT.md",
+        "line": 21,
+        "line_end": 33,
+        "quote": "## Was das für unsere Karten bedeutet\n\n- Die **56 Stämme** verhalten sich wie ein kleines technisches Kürzel- und\n  Adressalphabet. Sie müssen nicht 56 Wörter einer gesprochenen Sprache sein.\n- Die **66 Mehrteilkarten** verhalten sich wie Nomenklator- oder\n  Formulareinträge: ihre Teile helfen beim Erkennen, die Karte wird dennoch als\n  ganzer Werkstattwert gelernt.\n- Pflanzen, Becken, Figuren und Sternplätze liefern stille Besitzer. Deshalb\n  kann dieselbe Adresskarte im Kräuterartikel, Badregister und Himmelsrad\n  vorkommen, ohne dort dasselbe Substantiv zu bedeuten.\n- Mehrere Hände lernen 122 Einträge plausibel aus einer Meistertafel: zuerst\n  die produktiven Stämme, danach häufige Ganzkarten, zuletzt lokale Bildkarten.\n",
+        "sha256": "3a94c17b71eb3e27c11a2f85d0e5f88e14506ee9fedc93e069fb7f2110ef3245",
+        "source_id": "LEGACY_COMPONENT:88d99b3f81b790248904"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:88d99b3f81b790248904",
+        "decision": "scope_comparison_unresolved",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "56stem/66whole architecture with cross-register address reuse has unresolved complete counterpart scope."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:0cd0a4deaf65e231b5d6",
+      "path": "experiments/yolo/sidequest_semantic_historical_122_entry_analogue_nine_hundred_fifty_ninth/PASS959_REPORT.md",
+      "line": 40,
+      "line_end": 46,
+      "pass_number": 959,
+      "title": "Ergebnis",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_historical_122_entry_analogue_nine_hundred_fifty_ninth/PASS959_REPORT.md",
+        "line": 40,
+        "line_end": 46,
+        "quote": "Die stärkste Arbeitstheorie ist jetzt kein gewöhnlicher Geheimtext und auch\nkeine reine natürliche Wortschrift. Sie ist ein **bildadressiertes\nWerkstattregister mit Fachbrevigrafen und gelerntem Nomenklator**. Das erklärt\nzugleich Komposition, memorierte Ausnahmen, mehrere Hände und den Wechsel von\nPflanzen über Bade-/Stationsbilder zu Himmelsrädern. Es bestätigt nicht jedes\ndeutsche Lemma; es liefert aber genau den historischen Mechanismus, mit dem\nunsere Lemmas und Formelkarten erzeugt und gelehrt werden können.",
+        "sha256": "3a94c17b71eb3e27c11a2f85d0e5f88e14506ee9fedc93e069fb7f2110ef3245",
+        "source_id": "LEGACY_COMPONENT:0cd0a4deaf65e231b5d6"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:0cd0a4deaf65e231b5d6",
+        "decision": "scope_comparison_unresolved",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Mixed learned-nomenclator/brevigraph mechanism is genuine but not automatically new versus existing compendium claims."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:b052bcebb9082c514eb1",
+      "path": "experiments/yolo/sidequest_semantic_four_page_codebook_bridge_nine_hundred_sixty_first/PASS961_REPORT.md",
+      "line": 16,
+      "line_end": 20,
+      "pass_number": 961,
+      "title": "Pass 961 — die vier neuen Seiten tragen dasselbe Codebuch",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_four_page_codebook_bridge_nine_hundred_sixty_first/PASS961_REPORT.md",
+        "line": 16,
+        "line_end": 20,
+        "quote": "Die produktive Schicht ist erwartungsgemäß freier: 200 von 345 Ereignissen der\nneuen Seiten haben sogar dieselbe vollständige Komponentenfolge auf den alten\nSeiten; die übrigen setzen bekannte Stämme neu zusammen. Lokale Nomenklator-\nund Bildkarten bleiben stärker seitengebunden, wie das Werkstattmodell\nvorhersagt.",
+        "sha256": "97cab168f66e5616ae3adff40d18fee47ba0b387cb31a4b4fab8f0f5c445ace1",
+        "source_id": "LEGACY_COMPONENT:b052bcebb9082c514eb1"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:b052bcebb9082c514eb1",
+        "decision": "no_additional_semantic_proposition_in_selected_span",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Whole-recipe overlap counts, not new independent semantic transfer evidence."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:39f828404558ede8c295",
+      "path": "experiments/yolo/sidequest_semantic_four_page_codebook_bridge_nine_hundred_sixty_first/PASS961_REPORT.md",
+      "line": 24,
+      "line_end": 28,
+      "pass_number": 961,
+      "title": "Was sich dadurch ändert",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_four_page_codebook_bridge_nine_hundred_sixty_first/PASS961_REPORT.md",
+        "line": 24,
+        "line_end": 28,
+        "quote": "Das 66er-Deck ist nicht länger nur eine nachträgliche Zusammenfassung des\nGesamtmaterials. Es ist eine **portable gemeinsame Kartenlage** zwischen zwei\nunterschiedlichen Seitenpaketen. Besonders auf dem großen f75r-Stationsblatt\nund den f70v-Himmelsringen bleiben dieselben Karten erkennbar, obwohl ihre\nBildbesitzer wechseln. Damit wird die Mischlesung konkreter:",
+        "sha256": "97cab168f66e5616ae3adff40d18fee47ba0b387cb31a4b4fab8f0f5c445ace1",
+        "source_id": "LEGACY_COMPONENT:39f828404558ede8c295"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:39f828404558ede8c295",
+        "decision": "scope_comparison_unresolved",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Claim of portable66-card layer is stronger than descriptive counts; source-held/meaning scope not evaluated in this recovery."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:462dd3984f5cbdc4d69d",
+      "path": "experiments/yolo/sidequest_semantic_cross_register_core_normalization_nine_hundred_sixty_second/PASS962_REPORT.md",
+      "line": 1,
+      "line_end": 7,
+      "pass_number": 962,
+      "title": "Pass 962 — ein Kernwert pro Stamm, drei nur lokale Lesarten",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_cross_register_core_normalization_nine_hundred_sixty_second/PASS962_REPORT.md",
+        "line": 1,
+        "line_end": 7,
+        "quote": "# Pass 962 — ein Kernwert pro Stamm, drei nur lokale Lesarten\n\nDie gemeinsamen Karten scheiterten bisher nicht an ihrer Form, sondern an zu\nengen deutschen Wörtern. `OK` konnte in einem Kräutertext „ansetzen“, im\nHimmelsrad aber nur „aktivieren“; `AIN` war einmal Portion und einmal Index.\nDas ist jetzt bereinigt.\n",
+        "sha256": "aeb734b3d234016ec5fc66d2131f8d68f70f03d31f8daeddd0d11b750d611888",
+        "source_id": "LEGACY_COMPONENT:462dd3984f5cbdc4d69d"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:462dd3984f5cbdc4d69d",
+        "decision": "scope_comparison_unresolved",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Replacing too-narrow register words is source revision history; broad proposition comparison unresolved beyond six local realization instances."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:875bcc163671a176d19a",
+      "path": "experiments/yolo/sidequest_semantic_cross_register_core_normalization_nine_hundred_sixty_second/PASS962_REPORT.md",
+      "line": 10,
+      "line_end": 10,
+      "pass_number": 962,
+      "title": "Sechs echte Kürzungen",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_cross_register_core_normalization_nine_hundred_sixty_second/PASS962_REPORT.md",
+        "line": 10,
+        "line_end": 10,
+        "quote": "- `OK = SETZEN` — lokal: Ansatz setzen, Stationsposten setzen, Sternstelle aktivieren.",
+        "sha256": "aeb734b3d234016ec5fc66d2131f8d68f70f03d31f8daeddd0d11b750d611888",
+        "source_id": "LEGACY_COMPONENT:875bcc163671a176d19a"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:875bcc163671a176d19a",
+        "decision": "local_scope_instance",
+        "card_ids": [
+          "CLEAN_GAP_BM:six_core_register_realizations"
+        ],
+        "counterpart_ids": [
+          "SEM:00e23948b4d66b561e01"
+        ],
+        "reason": "Keep the six explicit source-local triplets as an instantiation of the register-realization architecture, not six new independent core meanings. Current bare component cards remain untouched."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:11d989840497d60f5c23",
+      "path": "experiments/yolo/sidequest_semantic_cross_register_core_normalization_nine_hundred_sixty_second/PASS962_REPORT.md",
+      "line": 11,
+      "line_end": 11,
+      "pass_number": 962,
+      "title": "Sechs echte Kürzungen",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_cross_register_core_normalization_nine_hundred_sixty_second/PASS962_REPORT.md",
+        "line": 11,
+        "line_end": 11,
+        "quote": "- `CH = NEHMEN` — lokal: Stoff entnehmen, aus einer Station nehmen, Tabellenwert nehmen.",
+        "sha256": "aeb734b3d234016ec5fc66d2131f8d68f70f03d31f8daeddd0d11b750d611888",
+        "source_id": "LEGACY_COMPONENT:11d989840497d60f5c23"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:11d989840497d60f5c23",
+        "decision": "local_scope_instance",
+        "card_ids": [
+          "CLEAN_GAP_BM:six_core_register_realizations"
+        ],
+        "counterpart_ids": [
+          "SEM:00e23948b4d66b561e01"
+        ],
+        "reason": "Keep the six explicit source-local triplets as an instantiation of the register-realization architecture, not six new independent core meanings. Current bare component cards remain untouched."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:38aac0f5a9fe0864948c",
+      "path": "experiments/yolo/sidequest_semantic_cross_register_core_normalization_nine_hundred_sixty_second/PASS962_REPORT.md",
+      "line": 12,
+      "line_end": 12,
+      "pass_number": 962,
+      "title": "Sechs echte Kürzungen",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_cross_register_core_normalization_nine_hundred_sixty_second/PASS962_REPORT.md",
+        "line": 12,
+        "line_end": 12,
+        "quote": "- `K = GEBEN` — lokal: Zutat zugeben, in eine Station geben, Wert zuordnen.",
+        "sha256": "aeb734b3d234016ec5fc66d2131f8d68f70f03d31f8daeddd0d11b750d611888",
+        "source_id": "LEGACY_COMPONENT:38aac0f5a9fe0864948c"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:38aac0f5a9fe0864948c",
+        "decision": "local_scope_instance",
+        "card_ids": [
+          "CLEAN_GAP_BM:six_core_register_realizations"
+        ],
+        "counterpart_ids": [
+          "SEM:00e23948b4d66b561e01"
+        ],
+        "reason": "Keep the six explicit source-local triplets as an instantiation of the register-realization architecture, not six new independent core meanings. Current bare component cards remain untouched."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:6e3c0f2f9ae5f9ca9a4a",
+      "path": "experiments/yolo/sidequest_semantic_cross_register_core_normalization_nine_hundred_sixty_second/PASS962_REPORT.md",
+      "line": 13,
+      "line_end": 13,
+      "pass_number": 962,
+      "title": "Sechs echte Kürzungen",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_cross_register_core_normalization_nine_hundred_sixty_second/PASS962_REPORT.md",
+        "line": 13,
+        "line_end": 13,
+        "quote": "- `AIIN = SOLLWERT` — lokal: Sollmaß, Stationswert, Tafelwert.",
+        "sha256": "aeb734b3d234016ec5fc66d2131f8d68f70f03d31f8daeddd0d11b750d611888",
+        "source_id": "LEGACY_COMPONENT:6e3c0f2f9ae5f9ca9a4a"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:6e3c0f2f9ae5f9ca9a4a",
+        "decision": "local_scope_instance",
+        "card_ids": [
+          "CLEAN_GAP_BM:six_core_register_realizations"
+        ],
+        "counterpart_ids": [
+          "SEM:00e23948b4d66b561e01"
+        ],
+        "reason": "Keep the six explicit source-local triplets as an instantiation of the register-realization architecture, not six new independent core meanings. Current bare component cards remain untouched."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:94dae2f01fada5635ad6",
+      "path": "experiments/yolo/sidequest_semantic_cross_register_core_normalization_nine_hundred_sixty_second/PASS962_REPORT.md",
+      "line": 14,
+      "line_end": 14,
+      "pass_number": 962,
+      "title": "Sechs echte Kürzungen",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_cross_register_core_normalization_nine_hundred_sixty_second/PASS962_REPORT.md",
+        "line": 14,
+        "line_end": 14,
+        "quote": "- `AIN = EINHEIT` — lokal: Portion, Teilmenge, Index.",
+        "sha256": "aeb734b3d234016ec5fc66d2131f8d68f70f03d31f8daeddd0d11b750d611888",
+        "source_id": "LEGACY_COMPONENT:94dae2f01fada5635ad6"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:94dae2f01fada5635ad6",
+        "decision": "local_scope_instance",
+        "card_ids": [
+          "CLEAN_GAP_BM:six_core_register_realizations"
+        ],
+        "counterpart_ids": [
+          "SEM:00e23948b4d66b561e01"
+        ],
+        "reason": "Keep the six explicit source-local triplets as an instantiation of the register-realization architecture, not six new independent core meanings. Current bare component cards remain untouched."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:89204da73c2ff0d9a9c7",
+      "path": "experiments/yolo/sidequest_semantic_cross_register_core_normalization_nine_hundred_sixty_second/PASS962_REPORT.md",
+      "line": 15,
+      "line_end": 15,
+      "pass_number": 962,
+      "title": "Sechs echte Kürzungen",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_cross_register_core_normalization_nine_hundred_sixty_second/PASS962_REPORT.md",
+        "line": 15,
+        "line_end": 15,
+        "quote": "- `OR = SATZ` — lokal: Ansatz, Arbeitssatz, Eintragssatz.",
+        "sha256": "aeb734b3d234016ec5fc66d2131f8d68f70f03d31f8daeddd0d11b750d611888",
+        "source_id": "LEGACY_COMPONENT:89204da73c2ff0d9a9c7"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:89204da73c2ff0d9a9c7",
+        "decision": "local_scope_instance",
+        "card_ids": [
+          "CLEAN_GAP_BM:six_core_register_realizations"
+        ],
+        "counterpart_ids": [
+          "SEM:00e23948b4d66b561e01"
+        ],
+        "reason": "Keep the six explicit source-local triplets as an instantiation of the register-realization architecture, not six new independent core meanings. Current bare component cards remain untouched."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:7eaf42294e8d0ad9a18f",
+      "path": "experiments/yolo/sidequest_semantic_cross_register_core_normalization_nine_hundred_sixty_second/PASS962_REPORT.md",
+      "line": 17,
+      "line_end": 22,
+      "pass_number": 962,
+      "title": "Sechs echte Kürzungen",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_cross_register_core_normalization_nine_hundred_sixty_second/PASS962_REPORT.md",
+        "line": 17,
+        "line_end": 22,
+        "quote": "Alle übrigen 50 Stammwerte bleiben unverändert. Damit besitzt jeder Stamm\ngenau **einen kurzen Kern**, und die konkrete Sache stammt weiterhin aus dem\nBildregister. Die Formelkarte `OK+AIN` heißt kernsprachlich `SETZEN · EINHEIT`;\nim Pflanzenartikel „eine Portion ansetzen“, am Becken „eine Teilmenge an der\nStation setzen“, im Rad „einen Index aktivieren“. Die Karte hat also nicht drei\nBedeutungen, sondern einen Befehl mit drei sichtbaren Besitzern.",
+        "sha256": "aeb734b3d234016ec5fc66d2131f8d68f70f03d31f8daeddd0d11b750d611888",
+        "source_id": "LEGACY_COMPONENT:7eaf42294e8d0ad9a18f"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:7eaf42294e8d0ad9a18f",
+        "decision": "additional_addressable_assertion",
+        "card_ids": [
+          "CLEAN_GAP_BM:okain_three_owners"
+        ],
+        "counterpart_ids": [
+          "SEM:e5c05690c6d132fc1a1f",
+          "SEM:f4df336630af7bd91b12"
+        ],
+        "reason": "The existing prose portion glosses do not contain the wheel-index and station-subset realizations or asserted one-command scope."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:b85ebd90bdec87a0b380",
+      "path": "experiments/yolo/sidequest_semantic_portable_core_full_edition_nine_hundred_sixty_third/PASS963_REPORT.md",
+      "line": 7,
+      "line_end": 7,
+      "pass_number": 963,
+      "title": "Pass 963 — alle Aussagen in einer einzigen Kernsprache",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_portable_core_full_edition_nine_hundred_sixty_third/PASS963_REPORT.md",
+        "line": 7,
+        "line_end": 7,
+        "quote": "2. als Lesung mit dem sichtbaren Pflanzen-, Stations- oder Himmelsbesitzer.",
+        "sha256": "5fdb4554396e91813b4fc896ea4bb7aeaf34c2e929501e6c4102711f047af6c9",
+        "source_id": "LEGACY_COMPONENT:b85ebd90bdec87a0b380"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:b85ebd90bdec87a0b380",
+        "decision": "no_additional_semantic_proposition_in_selected_span",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Fragment of edition-format list."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:c9e55242da46be4d9573",
+      "path": "experiments/yolo/sidequest_semantic_compact_30_card_deck_nine_hundred_sixty_fifth/PASS965_REPORT.md",
+      "line": 3,
+      "line_end": 7,
+      "pass_number": 965,
+      "title": "Pass 965 — nur 30 echte gelernte Ganzkarten",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_compact_30_card_deck_nine_hundred_sixty_fifth/PASS965_REPORT.md",
+        "line": 3,
+        "line_end": 7,
+        "quote": "Die 66er-Formelliste war noch zu großzügig. Eine Mehrteilfolge wird jetzt nur\nals gemeinsame gelernte Karte behandelt, wenn sie mindestens zehnmal und auf\nmindestens drei physischen Seiten vorkommt. Das lässt **30 häufige Karten**\nübrig. Die übrigen **36 Folgen** verlieren keine Bedeutung; sie werden einfach\naus ihren sichtbaren Stämmen gelesen.",
+        "sha256": "9f82b8102c9880c006f50dc22d3506e7a8dd4bdf3ebf719efe4f1308ad3183dd",
+        "source_id": "LEGACY_COMPONENT:c9e55242da46be4d9573"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:c9e55242da46be4d9573",
+        "decision": "no_additional_semantic_proposition_in_selected_span",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Frequency threshold defining learned cards is a method criterion, not proof these are historically memorized."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:5f6345f3b1f0b806e86d",
+      "path": "experiments/yolo/sidequest_semantic_surface_invariant_dictionary_nine_hundred_sixty_sixth/PASS966_REPORT.md",
+      "line": 6,
+      "line_end": 10,
+      "pass_number": 966,
+      "title": "Pass 966 — ein sichtbarer Typ, ein Kernwert",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_surface_invariant_dictionary_nine_hundred_sixty_sixth/PASS966_REPORT.md",
+        "line": 6,
+        "line_end": 10,
+        "quote": "**107 Formen** erscheinen sowohl als Prosakarte als auch als Bild-/Adresskarte\nund decken zusammen 814 Ereignisse. Ihre Rolle wechselt, ihre innere Lesung\nnicht: `daiin` bleibt `AIIN = SOLLWERT`, `chedy` bleibt `CHD+Y = UMSETZEN ·\nDIES`, `dy/chey/chy/y` bleiben Renderer derselben `Y = DIES`-Karte. Das Bild\nentscheidet nur, wessen Sollwert, Posten oder Ziel gemeint ist.",
+        "sha256": "23cf4d09d56e04514fc1a9d3d94783c937a68a2dc2aec5d79620b32a9de8c314",
+        "source_id": "LEGACY_COMPONENT:5f6345f3b1f0b806e86d"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:5f6345f3b1f0b806e86d",
+        "decision": "scope_comparison_unresolved",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Three cross-register whole-card invariants include Y renderer identity; not automatically proven by core-word equality."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:42c6014cd1d37efd4843",
+      "path": "experiments/yolo/sidequest_semantic_renderer_allograph_handbook_nine_hundred_sixty_seventh/PASS967_REPORT.md",
+      "line": 28,
+      "line_end": 31,
+      "pass_number": 967,
+      "title": "Schreibregel",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_renderer_allograph_handbook_nine_hundred_sixty_seventh/PASS967_REPORT.md",
+        "line": 28,
+        "line_end": 31,
+        "quote": "Damit ist das Modell nun bidirektional genug für die Werkstatt: Eine sichtbare\nForm führt eindeutig zum Kern, und für 97 häufige Kerne gibt es eine konkrete\nListe zulässiger Schreibvarianten. Nicht belegte Varianten werden weiterhin\nnicht frei erfunden.",
+        "sha256": "56f9f44e3a6a7f8e02c48f05d60ce739cf1d74959a55d75571e84b83c1743ad4",
+        "source_id": "LEGACY_COMPONENT:42c6014cd1d37efd4843"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:42c6014cd1d37efd4843",
+        "decision": "scope_comparison_unresolved",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Registered bidirectionality is a writing contract; exact overlap with compiler/master-table claims needs scope comparison."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:ff7bce97dce54e253692",
+      "path": "experiments/yolo/sidequest_semantic_bidirectional_workshop_compiler_nine_hundred_seventieth/PASS970_REPORT.md",
+      "line": 5,
+      "line_end": 6,
+      "pass_number": 970,
+      "title": "Pass 970 — der ausführbare Werkstattcompiler",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_bidirectional_workshop_compiler_nine_hundred_seventieth/PASS970_REPORT.md",
+        "line": 5,
+        "line_end": 6,
+        "quote": "1. **Lesen:** Jede der 1.078 beobachteten Oberflächen führt eindeutig zu einer\n   Komponentenfolge und einer portablen Kernbedeutung.",
+        "sha256": "2a46221745ed0893fa932b014b6068744c4b39ff9a93550e4d80474a3e38b3db",
+        "source_id": "LEGACY_COMPONENT:ff7bce97dce54e253692"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:ff7bce97dce54e253692",
+        "decision": "scope_comparison_unresolved",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "All1078surfaces map uniquely to a core: deterministic source model assertion, not an independently validated manuscript claim; no lexical proof."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:c29a61f5a81553242548",
+      "path": "experiments/yolo/sidequest_semantic_bidirectional_workshop_compiler_nine_hundred_seventieth/PASS970_REPORT.md",
+      "line": 21,
+      "line_end": 24,
+      "pass_number": 970,
+      "title": "Pass 970 — der ausführbare Werkstattcompiler",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_bidirectional_workshop_compiler_nine_hundred_seventieth/PASS970_REPORT.md",
+        "line": 21,
+        "line_end": 24,
+        "quote": "Der Compiler erfindet keine unbekannte Oberfläche. Wenn eine gewünschte\nStammfolge unter den 948 beobachteten Rezepten fehlt, meldet er `UNSEEN_RECIPE`\nund verlangt die Form aus dem Meisterexemplar. Das hält die kreative Theorie\nschreibbar, ohne beliebige Voynich-ähnliche Wörter zu produzieren.",
+        "sha256": "2a46221745ed0893fa932b014b6068744c4b39ff9a93550e4d80474a3e38b3db",
+        "source_id": "LEGACY_COMPONENT:c29a61f5a81553242548"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:c29a61f5a81553242548",
+        "decision": "existing_full_assertion_or_instance",
+        "card_ids": [],
+        "counterpart_ids": [
+          "SEM:f3d346c751338626c4c0"
+        ],
+        "reason": "Current authoring model explicitly requires master-table surface when the intended semantic recipe lacks one; no fresh semantic assertion from compiler error name."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:9fa6e541fc8275459c2a",
+      "path": "experiments/yolo/sidequest_semantic_canonical_compact_workshop_edition_nine_hundred_seventy_first/PASS971_CURRENT_WORKING_THEORY.md",
+      "line": 1,
+      "line_end": 2,
+      "pass_number": 971,
+      "title": "Aktuelle kreative Arbeitstheorie — Pass 971",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_canonical_compact_workshop_edition_nine_hundred_seventy_first/PASS971_CURRENT_WORKING_THEORY.md",
+        "line": 1,
+        "line_end": 2,
+        "quote": "# Aktuelle kreative Arbeitstheorie — Pass 971\n",
+        "sha256": "3e220db98e8a8ddecf2cc919732f109bccfc4b1a23a32497182932251685c655",
+        "source_id": "LEGACY_COMPONENT:9fa6e541fc8275459c2a"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:9fa6e541fc8275459c2a",
+        "decision": "no_additional_semantic_proposition_in_selected_span",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Heading only."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:75aba9ee75b114045372",
+      "path": "experiments/yolo/sidequest_semantic_canonical_compact_workshop_edition_nine_hundred_seventy_first/PASS971_CURRENT_WORKING_THEORY.md",
+      "line": 5,
+      "line_end": 5,
+      "pass_number": 971,
+      "title": "Was für ein Buch das wahrscheinlich ist",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_canonical_compact_workshop_edition_nine_hundred_seventy_first/PASS971_CURRENT_WORKING_THEORY.md",
+        "line": 5,
+        "line_end": 5,
+        "quote": "Ein **bildadressiertes praktisches Fachkompendium**: Pflanzen und Stoffe werden ausgewählt und zubereitet; Bade-, Gefäß- und Stationsbilder geben Anwendungen oder Arbeitsplätze vor; Himmelsräder liefern getrennte Zeit-, Klassen- und Stellenregister. Der engste historische Mechanismus ist die Verbindung aus praktischem Rezeptbuch, medizinisch-astrologischem Almanach und kleinem Werkstattcodebuch.",
+        "sha256": "3e220db98e8a8ddecf2cc919732f109bccfc4b1a23a32497182932251685c655",
+        "source_id": "LEGACY_COMPONENT:75aba9ee75b114045372"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:75aba9ee75b114045372",
+        "decision": "scope_comparison_unresolved",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Current purpose theory is close to existing full compendium model, but exact time/class/place conjunction comparison remains open."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:bdca6b6349d5c77c0410",
+      "path": "experiments/yolo/sidequest_semantic_canonical_compact_workshop_edition_nine_hundred_seventy_first/PASS971_CURRENT_WORKING_THEORY.md",
+      "line": 18,
+      "line_end": 18,
+      "pass_number": 971,
+      "title": "Portable Kernwerte",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_canonical_compact_workshop_edition_nine_hundred_seventy_first/PASS971_CURRENT_WORKING_THEORY.md",
+        "line": 18,
+        "line_end": 18,
+        "quote": "`OK=SETZEN`, `CH=NEHMEN`, `K=GEBEN`, `AIIN=SOLLWERT`, `AIN=EINHEIT`, `OR=SATZ`, `AL=ZIEL`, `AR=QUELLE`, `E=KURZ`, `EE=LÄNGER`, `EEE=VOLL`, `Y=DIES`, `DY=SCHLIESSEN`. Im Pflanzenregister werden daraus Ansatz, Portion und Sollmaß; im Himmelsregister Stelle, Index und Tafelwert. Der Stamm selbst wechselt nicht.",
+        "sha256": "3e220db98e8a8ddecf2cc919732f109bccfc4b1a23a32497182932251685c655",
+        "source_id": "LEGACY_COMPONENT:bdca6b6349d5c77c0410"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:bdca6b6349d5c77c0410",
+        "decision": "scope_comparison_unresolved",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Primitive values already exist; register-wide invariant assertion stronger than those separate glosses and not silently counted covered."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:f9518d4c280cff78d854",
+      "path": "experiments/yolo/sidequest_semantic_canonical_compact_workshop_edition_nine_hundred_seventy_first/PASS971_CURRENT_WORKING_THEORY.md",
+      "line": 37,
+      "line_end": 39,
+      "pass_number": 971,
+      "title": "Kürzeste Übersetzung des Systems",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_canonical_compact_workshop_edition_nine_hundred_seventy_first/PASS971_CURRENT_WORKING_THEORY.md",
+        "line": 37,
+        "line_end": 39,
+        "quote": "## Kürzeste Übersetzung des Systems\n\nWähle am Bild den Posten. Nimm aus Quelle oder Teil, setze den Arbeitssatz, gib Einheit oder Sollwert, halte ihn kurz/länger/voll, leite ihn zu Ziel oder Durchlass und schließe den Teilgang. Im Himmelsbild werden dieselben Karten als Platz-, Reihen-, Grad- und Wertbefehle gelesen.",
+        "sha256": "3e220db98e8a8ddecf2cc919732f109bccfc4b1a23a32497182932251685c655",
+        "source_id": "LEGACY_COMPONENT:f9518d4c280cff78d854"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:f9518d4c280cff78d854",
+        "decision": "scope_comparison_unresolved",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Full generic procedural sentence may be a model instance; counterpart predicate/order comparison still open."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:3c6f2296a8664bbb876f",
+      "path": "experiments/yolo/sidequest_semantic_canonical_compact_workshop_edition_nine_hundred_seventy_first/PASS971_REPORT.md",
+      "line": 3,
+      "line_end": 6,
+      "pass_number": 971,
+      "title": "Pass 971 — konsolidierte kompakte Werkstattausgabe",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_canonical_compact_workshop_edition_nine_hundred_seventy_first/PASS971_REPORT.md",
+        "line": 3,
+        "line_end": 6,
+        "quote": "Diese Ausgabe ersetzt die Zwischenstände 958–970 als kreative Arbeitsbasis.\nSie enthält 86 Lehreinträge, 1.078 Oberflächen, 948 beobachtete\nKomponentenrezepte, 2.511 Ereignisse, 2.010 Prosakarten, 354 Aussagen, 501\nBild-/Adresskarten und 14 Seitenlesungen.",
+        "sha256": "c20572005a70426be2d84e49f958ae292797dd7bf46109d3fe9c3cbbe86895fd",
+        "source_id": "LEGACY_COMPONENT:3c6f2296a8664bbb876f"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:3c6f2296a8664bbb876f",
+        "decision": "no_additional_semantic_proposition_in_selected_span",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Edition scope/counters and replacement note."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:97575f6c50078d7d4e0e",
+      "path": "experiments/yolo/sidequest_semantic_canonical_compact_workshop_edition_nine_hundred_seventy_first/PASS971_REPORT.md",
+      "line": 8,
+      "line_end": 11,
+      "pass_number": 971,
+      "title": "Pass 971 — konsolidierte kompakte Werkstattausgabe",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_canonical_compact_workshop_edition_nine_hundred_seventy_first/PASS971_REPORT.md",
+        "line": 8,
+        "line_end": 11,
+        "quote": "Die Ereignisschichten sind {'PRODUCTIVE_ABBREVIATION_COMPOSITION': 1397, 'LEARNED_FORMULA_CARD': 613, 'LOCAL_NOMENCLATOR_OR_ADDRESS': 501}. Die f75r-Loci 47–53 sind nun überall\nan die eine dreieckige Insel gebunden. Die f70v-Lesung trennt Widder- und\nFischring ohne doppelte Standardformel. Alle Ganzkartenwerte sind portable\nKernfolgen, keine registerabhängigen Satzglossen.",
+        "sha256": "c20572005a70426be2d84e49f958ae292797dd7bf46109d3fe9c3cbbe86895fd",
+        "source_id": "LEGACY_COMPONENT:97575f6c50078d7d4e0e"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:97575f6c50078d7d4e0e",
+        "decision": "scope_comparison_unresolved",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "f75 inset plus separateAries/Pisces wording and portable-core formulas are substantive, not just edition counters; reconcile exact current clauses before recovery."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:3580df0c71b56d829029",
+      "path": "experiments/yolo/sidequest_semantic_visual_material_owner_revision_nine_hundred_seventy_second/PASS972_VISUAL_MATERIAL_OWNER_REPORT.md",
+      "line": 16,
+      "line_end": 19,
+      "pass_number": 972,
+      "title": "Ergebnis",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_visual_material_owner_revision_nine_hundred_seventy_second/PASS972_VISUAL_MATERIAL_OWNER_REPORT.md",
+        "line": 16,
+        "line_end": 19,
+        "quote": "Damit bekommen mehrere kurze Kartenwerte eine anschauliche Rücklesung. TEIL\nund TRENNEN können auf f11r Kronen teilen; STUFE kann auf f56r Reifestufen\nunterscheiden; QUELLE/VORRAT kann auf f10r/f13r/f55v den Wurzelstock meinen;\nSETZEN, SOLLWERT und SCHLIESSEN bleiben die gemeinsame Werkstattgrammatik.",
+        "sha256": "55ed86e11d7da99ac7814baf1d00616fe899ce5bc798461f835cc99fd8582de2",
+        "source_id": "LEGACY_COMPONENT:3580df0c71b56d829029"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:3580df0c71b56d829029",
+        "decision": "local_scope_instance",
+        "card_ids": [
+          "CLEAN_GAP_BM:material_owner_local_values"
+        ],
+        "counterpart_ids": [
+          "CLEAN_GAP_BK:silent_owner_four_reference_roles"
+        ],
+        "reason": "Explicit can-statements and local owner possibilities, not confirmed botanical meanings or three new general rules."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:9df00c904f1c2de5f48b",
+      "path": "experiments/yolo/sidequest_semantic_visual_material_owner_revision_nine_hundred_seventy_second/PASS972_VISUAL_MATERIAL_OWNER_REPORT.md",
+      "line": 36,
+      "line_end": 41,
+      "pass_number": 972,
+      "title": "Wasserfrage",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_visual_material_owner_revision_nine_hundred_seventy_second/PASS972_VISUAL_MATERIAL_OWNER_REPORT.md",
+        "line": 36,
+        "line_end": 41,
+        "quote": "Keines der fünf Herbal-Bilder zeigt sicher Wasser, einen Bach oder ein Gefäß.\nDas heißt ausdrücklich **nicht**, dass die Anweisungen kein Wasser verwenden.\nEs bedeutet nur: Wasser ist dort ein mögliches stilles Medium der\nZubereitung, nicht der sichtbare Pflanzenbesitzer. Auf f88r sind dagegen echte\nGefäße sichtbar; dort ist eine Flüssigkeits-/Ansatzlesung bildlich deutlich\nleichter.",
+        "sha256": "55ed86e11d7da99ac7814baf1d00616fe899ce5bc798461f835cc99fd8582de2",
+        "source_id": "LEGACY_COMPONENT:9df00c904f1c2de5f48b"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:9df00c904f1c2de5f48b",
+        "decision": "scope_comparison_unresolved",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Water as possible unpictured medium versus visible owner is a source-level scope qualification; related general model cannot alone establish full coverage."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:9e5daa6d58d24b50a25e",
+      "path": "experiments/yolo/sidequest_semantic_visual_material_owner_revision_nine_hundred_seventy_second/PASS972_VISUAL_MATERIAL_OWNER_REPORT.md",
+      "line": 53,
+      "line_end": 62,
+      "pass_number": 972,
+      "title": "Kompakte Arbeitsübersetzung",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_visual_material_owner_revision_nine_hundred_seventy_second/PASS972_VISUAL_MATERIAL_OWNER_REPORT.md",
+        "line": 53,
+        "line_end": 62,
+        "quote": "## Kompakte Arbeitsübersetzung\n\n> Nimm vom im Bild bezeichneten Wurzel-, Blatt-, Blüten- oder Fruchtposten.\n> Teile ihn nach dem sichtbaren Körper oder Reifestadium, gib die notierte\n> Menge in den Ansatz, halte oder leite den Gang und schließe ihn. Auf f88r\n> wähle dazu den etikettierten Drogenposten und das zugehörige Gefäß.\n\nDie Artnamen bleiben Wetten. Die funktionalen Besitzer — Speicherwurzel,\nMehrkronenstock, Doldenpflanze, Reifestufenköpfe und Zutatenregister — sind die\nneue konkrete Arbeitsbasis.",
+        "sha256": "55ed86e11d7da99ac7814baf1d00616fe899ce5bc798461f835cc99fd8582de2",
+        "source_id": "LEGACY_COMPONENT:9e5daa6d58d24b50a25e"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:9e5daa6d58d24b50a25e",
+        "decision": "additional_addressable_assertion",
+        "card_ids": [
+          "CLEAN_GAP_BM:material_process_full_reading"
+        ],
+        "counterpart_ids": [
+          "CLEAN_GAP_BJ:f13r_local_processing"
+        ],
+        "reason": "The complete material/maturity/labelled-vessel procedure adds specific predicates to the earlier general f13r processing scenario. Species remain speculative, as the source says."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:94e7b2055646a9165362",
+      "path": "experiments/yolo/sidequest_semantic_historical_herbal_workshop_match_nine_hundred_seventy_third/PASS973_HISTORICAL_HERBAL_WORKSHOP_REPORT.md",
+      "line": 9,
+      "line_end": 10,
+      "pass_number": 973,
+      "title": "Beste Gesamtentsprechung",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_historical_herbal_workshop_match_nine_hundred_seventy_third/PASS973_HISTORICAL_HERBAL_WORKSHOP_REPORT.md",
+        "line": 9,
+        "line_end": 10,
+        "quote": "2. ein Antidotarium/Rezeptbuch mit Glossar und gelernten Drogennamen wie\n   **Harley 2374**;",
+        "sha256": "b54d180e32dc469ef4e22ac409462c0b27ca3be1cd3cd8e7be39a9e1780534b0",
+        "source_id": "LEGACY_COMPONENT:94e7b2055646a9165362"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:94e7b2055646a9165362",
+        "decision": "no_additional_semantic_proposition_in_selected_span",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "External book-type analogue list item; no direct target semantic assignment."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:52b197b84ef4b6105612",
+      "path": "experiments/yolo/sidequest_semantic_historical_herbal_workshop_match_nine_hundred_seventy_third/PASS973_HISTORICAL_HERBAL_WORKSHOP_REPORT.md",
+      "line": 14,
+      "line_end": 14,
+      "pass_number": 973,
+      "title": "Beste Gesamtentsprechung",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_historical_herbal_workshop_match_nine_hundred_seventy_third/PASS973_HISTORICAL_HERBAL_WORKSHOP_REPORT.md",
+        "line": 14,
+        "line_end": 14,
+        "quote": "Das ergibt genau den Mechanismus, den unsere vierzehn Seiten brauchen:",
+        "sha256": "b54d180e32dc469ef4e22ac409462c0b27ca3be1cd3cd8e7be39a9e1780534b0",
+        "source_id": "LEGACY_COMPONENT:52b197b84ef4b6105612"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:52b197b84ef4b6105612",
+        "decision": "no_additional_semantic_proposition_in_selected_span",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Introductory sentence only."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:ed31a942cb4bc91f3b7f",
+      "path": "experiments/yolo/sidequest_semantic_historical_herbal_workshop_match_nine_hundred_seventy_third/PASS973_HISTORICAL_HERBAL_WORKSHOP_REPORT.md",
+      "line": 44,
+      "line_end": 49,
+      "pass_number": 973,
+      "title": "Wasser ohne Wasserbild",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_historical_herbal_workshop_match_nine_hundred_seventy_third/PASS973_HISTORICAL_HERBAL_WORKSHOP_REPORT.md",
+        "line": 44,
+        "line_end": 49,
+        "quote": "Wellcome MS.418 enthält Pflanzenwässer, einen vorangestellten Index und\nRezepte, die mit *Recype* beginnen. Das ist die direkte Antwort auf die\nWasserfrage: Ein Pflanzenbild kann eine Wasserzubereitung besitzen, ohne dass\nim Bild ein Bach oder Gefäß erscheinen muss. Deshalb bleibt Wasser als Medium\nin unseren Herbal-Lesungen offen; es wird nur nicht aus der Pflanzenform\nselbst abgeleitet.",
+        "sha256": "b54d180e32dc469ef4e22ac409462c0b27ca3be1cd3cd8e7be39a9e1780534b0",
+        "source_id": "LEGACY_COMPONENT:ed31a942cb4bc91f3b7f"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:ed31a942cb4bc91f3b7f",
+        "decision": "scope_comparison_unresolved",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "External-example paragraph supports a possible silent-water-medium argument; no external page read and no forced new theory."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:3ec3268296f2d0212b82",
+      "path": "experiments/yolo/sidequest_semantic_historical_herbal_workshop_match_nine_hundred_seventy_third/PASS973_HISTORICAL_HERBAL_WORKSHOP_REPORT.md",
+      "line": 53,
+      "line_end": 58,
+      "pass_number": 973,
+      "title": "f88r wird historisch verständlich",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_historical_herbal_workshop_match_nine_hundred_seventy_third/PASS973_HISTORICAL_HERBAL_WORKSHOP_REPORT.md",
+        "line": 53,
+        "line_end": 58,
+        "quote": "Harley 2374 verbindet ein lateinisch-englisches Pflanzenglossar mit\nAntidotarium und Rezepten. Spätmittelalterliche Apotheken hielten verarbeitete\nBestandteile in Vorratsgefäßen und arbeiteten mit Rezept- und Dosierbüchern.\nf88r sieht genau wie eine private Kurzfassung dieses Arbeitsganges aus:\nsechzehn sichtbare Drogen, sechzehn gelernte Etiketten, drei Gefäße und drei\nproduktive Arbeitsblöcke.",
+        "sha256": "b54d180e32dc469ef4e22ac409462c0b27ca3be1cd3cd8e7be39a9e1780534b0",
+        "source_id": "LEGACY_COMPONENT:3ec3268296f2d0212b82"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:3ec3268296f2d0212b82",
+        "decision": "scope_comparison_unresolved",
+        "card_ids": [],
+        "counterpart_ids": [],
+        "reason": "Historical private pharmacy reading of f88r contains16drug/label counts differing from other local accounts; preserve audit-only until exact entity unit comparison, not silently harmonize."
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:69c5fa88e535299a5e49",
+      "path": "experiments/yolo/sidequest_semantic_historical_herbal_workshop_match_nine_hundred_seventy_third/PASS973_HISTORICAL_HERBAL_WORKSHOP_REPORT.md",
+      "line": 60,
+      "line_end": 73,
+      "pass_number": 973,
+      "title": "Neue Zwecktheorie",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_historical_herbal_workshop_match_nine_hundred_seventy_third/PASS973_HISTORICAL_HERBAL_WORKSHOP_REPORT.md",
+        "line": 60,
+        "line_end": 73,
+        "quote": "## Neue Zwecktheorie\n\nDie derzeit beste konkrete Arbeitstheorie lautet:\n\n**Ein bildadressiertes Werkstattkompendium für Simple, Ansätze, Bäder bzw.\nAnwendungsstationen und Himmelswahl.** Es ist näher an einem privaten\nMateria-medica-/Antidotarium-/Almanach-Mischbuch als an einem fortlaufenden\nLehrtext. Die Kürzelschicht ist produktiv; seltene Pflanzen- und\nStationsnamen werden als Ganzkarten gelernt.\n\nDiese Theorie sagt mehr als „technisches Register“, aber weniger als eine\nerfundene Krankheit pro Seite. Sie erklärt zugleich das Bild zuerst, den Text\nin der Restfläche, mehrere Schreiber, f88r-Etiketten und die separaten\nHimmelsräder.",
+        "sha256": "b54d180e32dc469ef4e22ac409462c0b27ca3be1cd3cd8e7be39a9e1780534b0",
+        "source_id": "LEGACY_COMPONENT:69c5fa88e535299a5e49"
+      },
+      "full_selected_span_read": true,
+      "disposition": {
+        "source_id": "LEGACY_COMPONENT:69c5fa88e535299a5e49",
+        "decision": "existing_full_assertion_or_instance",
+        "card_ids": [],
+        "counterpart_ids": [
+          "SEM:3c1326c24619dbd3255a"
+        ],
+        "reason": "Exact full purpose theory already present; not merely matching genre words."
+      }
+    }
+  ],
+  "source_reassessments": [
+    {
+      "source_id": "LEGACY_COMPONENT:ed5b05bca87c6bd55301",
+      "decision": "retain_original_primitive_card_separate_full_register_assertion",
+      "card_ids": [
+        "CLEAN_GAP_BM:o_work_image_pair"
+      ],
+      "reason": "No repeat initial extraction; this source span contributes an additional paired realization or local instance."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:1855dee9b63822090cb1",
+      "decision": "retain_original_primitive_card_separate_full_register_assertion",
+      "card_ids": [
+        "CLEAN_GAP_BM:ch_work_image_pair"
+      ],
+      "reason": "No repeat initial extraction; this source span contributes an additional paired realization or local instance."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:33cf3642a25ead3dc1f5",
+      "decision": "retain_original_primitive_card_separate_full_register_assertion",
+      "card_ids": [
+        "CLEAN_GAP_BM:k_work_image_pair"
+      ],
+      "reason": "No repeat initial extraction; this source span contributes an additional paired realization or local instance."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:66410e69c31efd0cc077",
+      "decision": "retain_original_primitive_card_separate_full_register_assertion",
+      "card_ids": [
+        "CLEAN_GAP_BM:chedy_item_place_switch"
+      ],
+      "reason": "No repeat initial extraction; this source span contributes an additional paired realization or local instance."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:875bcc163671a176d19a",
+      "decision": "retain_original_primitive_card_separate_full_register_assertion",
+      "card_ids": [
+        "CLEAN_GAP_BM:six_core_register_realizations"
+      ],
+      "reason": "No repeat initial extraction; this source span contributes an additional paired realization or local instance."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:11d989840497d60f5c23",
+      "decision": "retain_original_primitive_card_separate_full_register_assertion",
+      "card_ids": [
+        "CLEAN_GAP_BM:six_core_register_realizations"
+      ],
+      "reason": "No repeat initial extraction; this source span contributes an additional paired realization or local instance."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:38aac0f5a9fe0864948c",
+      "decision": "retain_original_primitive_card_separate_full_register_assertion",
+      "card_ids": [
+        "CLEAN_GAP_BM:six_core_register_realizations"
+      ],
+      "reason": "No repeat initial extraction; this source span contributes an additional paired realization or local instance."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:6e3c0f2f9ae5f9ca9a4a",
+      "decision": "retain_original_primitive_card_separate_full_register_assertion",
+      "card_ids": [
+        "CLEAN_GAP_BM:six_core_register_realizations"
+      ],
+      "reason": "No repeat initial extraction; this source span contributes an additional paired realization or local instance."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:94dae2f01fada5635ad6",
+      "decision": "retain_original_primitive_card_separate_full_register_assertion",
+      "card_ids": [
+        "CLEAN_GAP_BM:six_core_register_realizations"
+      ],
+      "reason": "No repeat initial extraction; this source span contributes an additional paired realization or local instance."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:89204da73c2ff0d9a9c7",
+      "decision": "retain_original_primitive_card_separate_full_register_assertion",
+      "card_ids": [
+        "CLEAN_GAP_BM:six_core_register_realizations"
+      ],
+      "reason": "No repeat initial extraction; this source span contributes an additional paired realization or local instance."
+    }
+  ],
+  "validation": {
+    "all_cards_validate": true,
+    "unique_ids_and_disjoint_intervals": true,
+    "exact_quote_checks": 125
+  }
+}

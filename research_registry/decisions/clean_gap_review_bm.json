@@ -1,0 +1,1486 @@
+{
+  "schema": "semantic_source_coverage_v1",
+  "review_id": "BM",
+  "input_sha256": {
+    "research_registry/decisions/clean_gap_review_bb.json": "f09eae60284584c168727cf974269b2c19c93cec2490faf974d2ead16b5cce13",
+    "research_registry/decisions/clean_gap_review_bd.json": "d354778abd69802fc261a06a59ad57c33448df85ef79e7c015f77fcde0934901",
+    "research_registry/decisions/clean_gap_review_be.json": "0e1acad7a8a292917fa85c7dbbb8a6407ff68af0966adc6791cee6d8e1c9b0f4",
+    "research_registry/decisions/clean_gap_review_bh.json": "bdbd3a984fc6cddaffb2d18f58a77f496a428bd2dddfa0adaea6085002a840ec",
+    "research_registry/decisions/clean_gap_review_bi.json": "c24ba02600efcc445b00cb87d8b2bb564899445417ea8a8665717dfed5423833",
+    "research_registry/decisions/clean_gap_review_bj.json": "600fc9ca054ae359a3b653838ace248299a62ef50ac5c6ae3f14b57d7a987a5a",
+    "research_registry/decisions/clean_gap_review_bk.json": "ff81fc29b1878c923aac8172b64ee2f6069a9fbe0eb108b2ce39f1534fe86468"
+  },
+  "counts": {
+    "selected_spans_fully_read": 100,
+    "unique_source_ids": 100,
+    "cards": 17,
+    "coverage_classes": {
+      "additional_addressable_assertion": 15,
+      "local_scope_instance": 2
+    },
+    "dispositions": {
+      "additional_addressable_assertion": 17,
+      "local_scope_instance": 7,
+      "existing_full_assertion_or_instance": 12,
+      "scope_comparison_unresolved": 28,
+      "no_additional_semantic_proposition_in_selected_span": 36
+    }
+  },
+  "limits": [
+    "100 selected short spans read in full, not100 entire reports. Five short contextual reports additionally read to resolve local scope.",
+    "Only tracked public prose/metadata. No raw manuscript, images, external links or operative files accessed.",
+    "Pending BB/BD/BE/BH/BI/BJ/BK full claims and targeted current counterparts compared. Search remains navigation, not global identity adjudication.",
+    "Unresolved comparisons remain audit-only, never placeholder cards.",
+    "Historical source-described visible scenes are not new observations and do not confirm content."
+  ],
+  "cards": [
+    {
+      "id": "CLEAN_GAP_BM:owner_label_classifier_limit",
+      "claim": "Pass911–913 reads owner-bound picture labels as names or classes whose address/grade/reference parts can act as classifiers without translating the particular name; local class/address reading is supplied over the visible owner while the proper name remains workshop knowledge.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:670a5322321c4f433edf",
+        "LEGACY_COMPONENT:6d81b11815b8f1a673d0"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_local_drawer_ordering_nine_hundred_eleventh/PASS911_REPORT.md",
+          "line": 11,
+          "line_end": 15,
+          "quote": "Die 183 Bildetiketten bleiben Besitzer-gebundene Namen oder Klassen. Ihre sichtbare\nForm lässt sich zwar in Adress-, Grad- und Bezugsteile zerlegen; das übersetzt den\nkonkreten Namen aber nicht. Besonders bei den f88r-Zutaten gilt: Bildreferent zuerst,\nKomponenten nur als mögliche Klassifikatoren. Nur auf der Formebene bleibt keine\nunsegmentierte Ganzkarte übrig.",
+          "sha256": "8bae98dd0a9b088ec095b97e34b31c0870b569277eb6b1ac8da1367e34f6dfa0",
+          "source_id": "LEGACY_COMPONENT:670a5322321c4f433edf"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_owner_address_syntax_nine_hundred_thirteenth/PASS913_REPORT.md",
+          "line": 55,
+          "line_end": 57,
+          "quote": "Die Etiketten nennen weiterhin keine identifizierte Pflanze, Zutat, Sternfigur oder\nhistorische Himmelsstation. Pass 913 liefert eine brauchbare Klassen-/Adresslesung\nüber dem sichtbaren Besitzer; der eigentliche Eigenname bleibt Werkstattwissen.",
+          "sha256": "8d77f6fa35d3219bd03b87ebfeaebd45abd360907948bd38616bfb998a75ddf7",
+          "source_id": "LEGACY_COMPONENT:6d81b11815b8f1a673d0"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "source": "experiments/yolo/sidequest_semantic_local_drawer_ordering_nine_hundred_eleventh/PASS911_REPORT.md",
+        "kind": "historical_source_bound_reading",
+        "limits": "Historical model wording only. Source-described pictures are not new native observations; no meaning confirmation, new data or reopening."
+      },
+      "coverage_class": "additional_addressable_assertion",
+      "independent_new_idea": true,
+      "comparison": {
+        "counterpart_ids": [
+          "CLEAN_GAP_BI:astro_prefix_local_item_address",
+          "SEM:e833dbffca017f531d36"
+        ],
+        "reason": "The explicit split between composable classifier/address information and still-untranslated proper name is narrower than a generic picture-owned register; no identified ingredient or celestial name is inferred."
+      }
+    },
+    {
+      "id": "CLEAN_GAP_BM:action_static_label_modes",
+      "claim": "Pass914 gives seven frequent components two related uses: an active prose action and a static label classifier. In particular OK sets up or activates in prose but marks a selected active place on a label, preventing an ingredient label from becoming a command.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "LEGACY_COMPONENT:3d3734cfd07793e5aab7",
+        "LEGACY_COMPONENT:3e2459d6bd8993f9dc27"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_classifier_action_split_nine_hundred_fourteenth/PASS914_REPORT.md",
+          "line": 5,
+          "line_end": 8,
+          "quote": "Sieben häufige Komponenten betreffen 1286 der 2511 Gruppen. Jede hat jetzt\nzwei kurze, verwandte Lesungen: eine aktive Prosahandlung und einen statischen\nEtikettenklassifikator. Dadurch liest sich ein Zutatenname nicht mehr als Befehl,\nwährend dieselbe Kartenfamilie im Werkstatttext weiterhin ausführbar bleibt.",
+          "sha256": "d5fc462afe262fa0ab8788d886fda3f7b9d515115726fe2332a3777041667af3",
+          "source_id": "LEGACY_COMPONENT:3d3734cfd07793e5aab7"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_classifier_action_split_nine_hundred_fourteenth/PASS914_REPORT.md",
+          "line": 10,
+          "line_end": 13,
+          "quote": "Die Trennung ist besonders wichtig für `OK`: 410 Prosaereignisse bedeuten ansetzen/\naktivieren, 36 Etikettenereignisse markieren einen ausgewählten aktiven Platz. `CH`\nhat 194 Prosa- und 19 Etikettenereignisse; `K` 169 und 23. Das sind keine seltenen\nAusnahmen, sondern ein zentraler Schreibmechanismus.",
+          "sha256": "d5fc462afe262fa0ab8788d886fda3f7b9d515115726fe2332a3777041667af3",
+          "source_id": "LEGACY_COMPONENT:3e2459d6bd8993f9dc27"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "source": "experiments/yolo/sidequest_semantic_classifier_action_split_nine_hundred_fourteenth/PASS914_REPORT.md",
+        "kind": "historical_source_bound_reading",
+        "limits": "Historical model wording only. Source-described pictures are not new native observations; no meaning confirmation, new data or reopening."
+      },
+      "coverage_class": "additional_addressable_assertion",
+      "independent_new_idea": true,
+      "comparison": {
+        "counterpart_ids": [
+          "SEM:00e23948b4d66b561e01",
+          "CLEAN_GAP_BK:strict_two_mode_ten_page_book"
+        ],
+        "reason": "The active-action/static-classifier distinction is explicitly asserted. BK instead prohibits importing prose roots into Astro; keep historical alternatives rather than silently treating them as one model."
+      }
+    },
+    {
+      "id": "CLEAN_GAP_BM:o_work_image_pair",
+      "claim": "Pass931 reads O=LAUF as executing a work operation in the workshop and calling up an image row in the picture register.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:ed5b05bca87c6bd55301"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_bilevel_component_dictionary_nine_hundred_thirty_first/PASS931_REPORT.md",
+          "line": 12,
+          "line_end": 12,
+          "quote": "- `O = LAUF`: Werkstattgang ausführen / Bildreihe aufrufen;",
+          "sha256": "364f27fd6782f9fe09974205d9852b625abd8d0a92b99d69b9cddd2399050b38",
+          "source_id": "LEGACY_COMPONENT:ed5b05bca87c6bd55301"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "source": "experiments/yolo/sidequest_semantic_bilevel_component_dictionary_nine_hundred_thirty_first/PASS931_REPORT.md",
+        "kind": "historical_source_bound_reading",
+        "limits": "Historical model wording only. Source-described pictures are not new native observations; no meaning confirmation, new data or reopening."
+      },
+      "coverage_class": "additional_addressable_assertion",
+      "independent_new_idea": true,
+      "comparison": {
+        "counterpart_ids": [
+          "SEM:2c5a2199eb452d680104"
+        ],
+        "reason": "The bare O=LAUF core does not itself assert this specific paired realization."
+      }
+    },
+    {
+      "id": "CLEAN_GAP_BM:ch_work_image_pair",
+      "claim": "Pass931 reads CH=AUSWAHL_ENTNAHME as taking a portion in the workshop and marking a class in the picture register.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:1855dee9b63822090cb1"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_bilevel_component_dictionary_nine_hundred_thirty_first/PASS931_REPORT.md",
+          "line": 14,
+          "line_end": 14,
+          "quote": "- `CH = AUSWAHL_ENTNAHME`: Anteil entnehmen / Klasse kennzeichnen;",
+          "sha256": "364f27fd6782f9fe09974205d9852b625abd8d0a92b99d69b9cddd2399050b38",
+          "source_id": "LEGACY_COMPONENT:1855dee9b63822090cb1"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "source": "experiments/yolo/sidequest_semantic_bilevel_component_dictionary_nine_hundred_thirty_first/PASS931_REPORT.md",
+        "kind": "historical_source_bound_reading",
+        "limits": "Historical model wording only. Source-described pictures are not new native observations; no meaning confirmation, new data or reopening."
+      },
+      "coverage_class": "additional_addressable_assertion",
+      "independent_new_idea": true,
+      "comparison": {
+        "counterpart_ids": [
+          "SEM:c28402730df27e051162"
+        ],
+        "reason": "Paired action/classification roles, not a second free lexical gloss."
+      }
+    },
+    {
+      "id": "CLEAN_GAP_BM:k_work_image_pair",
+      "claim": "Pass931 reads K=ZUORDNUNG as adding material in the workshop and assigning a value in the picture register.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:33cf3642a25ead3dc1f5"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_bilevel_component_dictionary_nine_hundred_thirty_first/PASS931_REPORT.md",
+          "line": 15,
+          "line_end": 15,
+          "quote": "- `K = ZUORDNUNG`: Material zugeben / Wert zuordnen;",
+          "sha256": "364f27fd6782f9fe09974205d9852b625abd8d0a92b99d69b9cddd2399050b38",
+          "source_id": "LEGACY_COMPONENT:33cf3642a25ead3dc1f5"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "source": "experiments/yolo/sidequest_semantic_bilevel_component_dictionary_nine_hundred_thirty_first/PASS931_REPORT.md",
+        "kind": "historical_source_bound_reading",
+        "limits": "Historical model wording only. Source-described pictures are not new native observations; no meaning confirmation, new data or reopening."
+      },
+      "coverage_class": "additional_addressable_assertion",
+      "independent_new_idea": true,
+      "comparison": {
+        "counterpart_ids": [
+          "SEM:67288c0cbe6c0423ed11"
+        ],
+        "reason": "The complete paired content roles add scope beyond the bare association core."
+      }
+    },
+    {
+      "id": "CLEAN_GAP_BM:chedy_item_place_switch",
+      "claim": "Pass934 reads chedy=CHD+Y as moving this item in the work register and switching to this image place in the picture register.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:66410e69c31efd0cc077"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_apprentice_bichannel_manual_nine_hundred_thirty_fourth/PASS934_REPORT.md",
+          "line": 13,
+          "line_end": 13,
+          "quote": "- `chedy = CHD+Y`: diesen Posten umsetzen / zu diesem Bildplatz wechseln;",
+          "sha256": "6c68da711993c3c6aa809b8ff392657afe6962c3a1d08c892f81d8ee9c2ef287",
+          "source_id": "LEGACY_COMPONENT:66410e69c31efd0cc077"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "source": "experiments/yolo/sidequest_semantic_apprentice_bichannel_manual_nine_hundred_thirty_fourth/PASS934_REPORT.md",
+        "kind": "historical_source_bound_reading",
+        "limits": "Historical model wording only. Source-described pictures are not new native observations; no meaning confirmation, new data or reopening."
+      },
+      "coverage_class": "additional_addressable_assertion",
+      "independent_new_idea": true,
+      "comparison": {
+        "counterpart_ids": [
+          "SEM:fd8bcd16a4c929d88956",
+          "CLEAN_GAP_BH:chd_transfer_valency"
+        ],
+        "reason": "Existing chedy parse and prose valency model do not state the image-place realization."
+      }
+    },
+    {
+      "id": "CLEAN_GAP_BM:local_sign_role_dictionary",
+      "claim": "Pass938 assigns its eleven local signs the working roles F=NEBENPFAD, G-check-sign=PRUEFMARKE, local g=EINMAL, i=UNTERINDEX, d=RAND, s=RAHMEN, b=PAAR, m=MITTE, Z-address=AUSSEN, j=VERBUND and local z=ZWISCHEN, within its44 atoms in43 card events.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "LEGACY_COMPONENT:14f12b2efb4ebc1255a4"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_local_sign_meanings_nine_hundred_thirty_eighth/PASS938_REPORT.md",
+          "line": 5,
+          "line_end": 9,
+          "quote": "Elf bisher nur benannte lokale Zeichen erhalten kurze Arbeitswerte in 44\nAtomen innerhalb von 43 Kartenereignissen: F=NEBENPFAD,\nG-Prüfzeichen=PRUEFMARKE, lokales g=EINMAL,\ni=UNTERINDEX, d=RAND, s=RAHMEN, b=PAAR, m=MITTE, Z-Adresse=AUSSEN,\nj=VERBUND und lokales z=ZWISCHEN.",
+          "sha256": "251f853516f3317967df8e8ad6fa875035570a30dadae49b9a10e5cbb46b92f2",
+          "source_id": "LEGACY_COMPONENT:14f12b2efb4ebc1255a4"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "source": "experiments/yolo/sidequest_semantic_local_sign_meanings_nine_hundred_thirty_eighth/PASS938_REPORT.md",
+        "kind": "historical_source_bound_reading",
+        "limits": "Historical model wording only. Source-described pictures are not new native observations; no meaning confirmation, new data or reopening."
+      },
+      "coverage_class": "additional_addressable_assertion",
+      "independent_new_idea": true,
+      "comparison": {
+        "counterpart_ids": [],
+        "reason": "A source-local sign-role table; case distinctions and special G/Z roles are preserved. No global F/g/i/d/s/b/m/j/z alphabet values are inferred."
+      }
+    },
+    {
+      "id": "CLEAN_GAP_BM:chk_short_close_prediction",
+      "claim": "Pass943 predicts CHK+E+DY as kurz behandeln; Schritt schließen, with chekedy or qchekedy as possible spellings; it does not report these as newly observed matching cards.",
+      "claim_type": "lexical_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:c4594069d64570969195"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_ca1420_hybrid_teaching_book_nine_hundred_forty_third/PASS943_REPORT.md",
+          "line": 13,
+          "line_end": 18,
+          "quote": "Die Regel erzeugt 27 derzeit fehlende, aber lesbare\nKompositionen. Beispielsweise ergibt `CHK+E+DY` schon vor einer Oberfläche\n„kurz behandeln; Schritt schließen“; mögliche Schreibungen wären `chekedy`\noder `qchekedy`. Ebenso ergibt `SH+EEE+Y` „diesen Posten vollständig halten“.\nDamit ist die Theorie nicht mehr nur ein rückwärts erfundenes Wörterbuch: Sie\nkann neue Formelkarten bilden und lesen.",
+          "sha256": "5154479b97ea783402b8d960728dc272cc9260af08913584764b76e29b684509",
+          "source_id": "LEGACY_COMPONENT:c4594069d64570969195"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "source": "experiments/yolo/sidequest_semantic_ca1420_hybrid_teaching_book_nine_hundred_forty_third/PASS943_REPORT.md",
+        "kind": "historical_source_bound_reading",
+        "limits": "Historical model wording only. Source-described pictures are not new native observations; no meaning confirmation, new data or reopening."
+      },
+      "coverage_class": "additional_addressable_assertion",
+      "independent_new_idea": true,
+      "comparison": {
+        "counterpart_ids": [],
+        "reason": "Concrete prospective full formula, separate from existing CHK=warm treatment defaults. Prediction status, rather than occurrence, is retained."
+      }
+    },
+    {
+      "id": "CLEAN_GAP_BM:sh_full_item_prediction",
+      "claim": "Pass943 predicts SH+EEE+Y as diesen Posten vollständig halten before a corresponding surface is obtained.",
+      "claim_type": "lexical_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:c4594069d64570969195"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_ca1420_hybrid_teaching_book_nine_hundred_forty_third/PASS943_REPORT.md",
+          "line": 13,
+          "line_end": 18,
+          "quote": "Die Regel erzeugt 27 derzeit fehlende, aber lesbare\nKompositionen. Beispielsweise ergibt `CHK+E+DY` schon vor einer Oberfläche\n„kurz behandeln; Schritt schließen“; mögliche Schreibungen wären `chekedy`\noder `qchekedy`. Ebenso ergibt `SH+EEE+Y` „diesen Posten vollständig halten“.\nDamit ist die Theorie nicht mehr nur ein rückwärts erfundenes Wörterbuch: Sie\nkann neue Formelkarten bilden und lesen.",
+          "sha256": "5154479b97ea783402b8d960728dc272cc9260af08913584764b76e29b684509",
+          "source_id": "LEGACY_COMPONENT:c4594069d64570969195"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "source": "experiments/yolo/sidequest_semantic_ca1420_hybrid_teaching_book_nine_hundred_forty_third/PASS943_REPORT.md",
+        "kind": "historical_source_bound_reading",
+        "limits": "Historical model wording only. Source-described pictures are not new native observations; no meaning confirmation, new data or reopening."
+      },
+      "coverage_class": "additional_addressable_assertion",
+      "independent_new_idea": true,
+      "comparison": {
+        "counterpart_ids": [],
+        "reason": "A complete predicted composition; no invented witnessed token or contrast."
+      }
+    },
+    {
+      "id": "CLEAN_GAP_BM:f88_label_types_and_compound",
+      "claim": "Pass945 assigns the three f88r @Lc labels to preparation/vessel heads and thirteen @Lf entries to local ingredients; one two-group ingredient entry is provisionally a compound or doubly addressed item.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:daed8fefebe4680621a4"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_f88r_local_nomenclator_nine_hundred_forty_fifth/PASS945_REPORT.md",
+          "line": 3,
+          "line_end": 12,
+          "quote": "## Bildlesung\n\nf88r hat drei klar getrennte Einheiten. Jede beginnt links mit einem dekorativen\nGefäß, trägt darüber oder daneben eine Reihe einzeln beschrifteter\nWurzel-/Blattformen und setzt darunter mit einem eigenen Prosablock fort. Die\ndrei `@Lc`-Etiketten sind daher Zubereitungs- oder Gefäßköpfe; die dreizehn\n`@Lf`-Gruppen sind lokale Zutatenkarten. Eine davon besteht aus zwei sichtbaren\nGruppen und bezeichnet plausibel einen zusammengesetzten oder doppelt\nadressierten Posten.\n",
+          "sha256": "a94d9ecdd87db08875d667711ffad993ac5a1035e425ad6f43b27cf63fc4408f",
+          "source_id": "LEGACY_COMPONENT:daed8fefebe4680621a4"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "source": "experiments/yolo/sidequest_semantic_f88r_local_nomenclator_nine_hundred_forty_fifth/PASS945_REPORT.md",
+        "kind": "historical_source_bound_reading",
+        "limits": "Historical model wording only. Source-described pictures are not new native observations; no meaning confirmation, new data or reopening."
+      },
+      "coverage_class": "additional_addressable_assertion",
+      "independent_new_idea": true,
+      "comparison": {
+        "counterpart_ids": [
+          "SEM:e833dbffca017f531d36"
+        ],
+        "reason": "The existing three-register bridge does not assert the @Lc/@Lf content typing or the alternative interpretation of the two-group entry. Entire statement remains a historical picture/text model."
+      }
+    },
+    {
+      "id": "CLEAN_GAP_BM:f88_which_owner_vs_prosa",
+      "claim": "Pass945 assigns selection, measuring, setup, holding, continuation and closure to productive prose, while the picture label supplies which substance or vessel is meant; local A/B/C preparation and A1–C3 ingredient defaults need not become manuscript-wide lexical values.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:6695956347a4cc849720"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_f88r_local_nomenclator_nine_hundred_forty_fifth/PASS945_REPORT.md",
+          "line": 13,
+          "line_end": 21,
+          "quote": "## Bedeutungsgewinn\n\nDie 16 Bildgruppen erhalten jetzt konkrete lokale Defaults: Gefäß/Zubereitung A,\nB oder C und visuell beschriebene Zutaten A1–C3. Diese Werte müssen nicht als\nmanuskriptweite Wörter in die 56 Kürzel eingehen. Genau hier sitzt der gelernte\nNomenklator: Die produktive Prosa sagt auswählen, messen, ansetzen, halten,\nweiterführen und abschließen; das Bildetikett sagt *welcher* Stoff oder welches\nGefäß gemeint ist.\n",
+          "sha256": "a94d9ecdd87db08875d667711ffad993ac5a1035e425ad6f43b27cf63fc4408f",
+          "source_id": "LEGACY_COMPONENT:6695956347a4cc849720"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "source": "experiments/yolo/sidequest_semantic_f88r_local_nomenclator_nine_hundred_forty_fifth/PASS945_REPORT.md",
+        "kind": "historical_source_bound_reading",
+        "limits": "Historical model wording only. Source-described pictures are not new native observations; no meaning confirmation, new data or reopening."
+      },
+      "coverage_class": "additional_addressable_assertion",
+      "independent_new_idea": true,
+      "comparison": {
+        "counterpart_ids": [
+          "SEM:e833dbffca017f531d36",
+          "CLEAN_GAP_BK:silent_owner_four_reference_roles"
+        ],
+        "reason": "Explicit division between local label identity and prose operations; general owner roles do not automatically identify these distinct inscription functions."
+      }
+    },
+    {
+      "id": "CLEAN_GAP_BM:f75_sevenline_inset",
+      "claim": "Pass948–950 replaces the seven-separate-label treatment on f75r with one inserted seven-line mini-register; its ten groups are not treated as direct figure labels or seven new local names.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:9c91eaef6960184e0e68",
+        "LEGACY_COMPONENT:4e3e9d2b8c43012285eb"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_f75r_triangular_inset_nine_hundred_forty_eighth/PASS948_REPORT.md",
+          "line": 9,
+          "line_end": 11,
+          "quote": "Die Korrektur stärkt die Kartenlesung, weil sie keine sieben erfundenen lokalen\nNamen mehr benötigt. Sie schwächt zugleich jede Behauptung, die zehn Gruppen seien\nunmittelbare Figurenetiketten.",
+          "sha256": "98684d51af7dd432aa488087d969696925731debfd6a6bd6bc4bc1cc353bb8a9",
+          "source_id": "LEGACY_COMPONENT:9c91eaef6960184e0e68"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_extended_card_retranslation_nine_hundred_fiftieth/PASS950_REPORT.md",
+          "line": 1,
+          "line_end": 9,
+          "quote": "# Pass 950 — vollständige Neulesung mit erweitertem Kartensatz\n\nAlle 2.010 Prosagruppen und 354 Klauseln wurden mit dem 63-Karten-Deck neu\ngelesen. **105 Prosavorkommen** wechseln dabei von einzeln aufgebauten\nKürzelfolgen zu vertrauten Ganzformeln. Die Reihenfolge, Klauselgrenzen und\noffenen beziehungsweise geschlossenen Enden bleiben erhalten.\n\nAuf f75r wird der Siebenzeiler nun als ein einziges eingesetztes Mini-Register\ngesprochen. Die falsche Zerlegung in sieben separate Figurenetiketten entfällt.",
+          "sha256": "36c744b5d37afaad7106d07637057378b03daeca2abe99af844c72be185d0134",
+          "source_id": "LEGACY_COMPONENT:4e3e9d2b8c43012285eb"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "source": "experiments/yolo/sidequest_semantic_f75r_triangular_inset_nine_hundred_forty_eighth/PASS948_REPORT.md",
+        "kind": "historical_source_bound_reading",
+        "limits": "Historical model wording only. Source-described pictures are not new native observations; no meaning confirmation, new data or reopening."
+      },
+      "coverage_class": "additional_addressable_assertion",
+      "independent_new_idea": true,
+      "comparison": {
+        "counterpart_ids": [],
+        "reason": "Actual historical scope correction retained, without claiming a fresh image observation or independently proved content."
+      }
+    },
+    {
+      "id": "CLEAN_GAP_BM:solk_full_close_prediction",
+      "claim": "Pass954 predicts SOLK+EEE+DY as vollständig auffangen; Ende as an internal workshop value even if its concrete surface would only be supplied on another page.",
+      "claim_type": "lexical_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:7f24e08be634670324f7"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_composition_predictor_nine_hundred_fifty_fourth/PASS954_REPORT.md",
+          "line": 11,
+          "line_end": 14,
+          "quote": "Die Vorhersage betrifft den internen Werkstattwert, nicht ein lateinisches oder\ndeutsches Lautwort. So kann `SOLK+EEE+DY` schon jetzt „vollständig auffangen;\nEnde“ bedeuten, selbst wenn die konkrete Oberfläche erst auf einer anderen Seite\ngeschrieben würde.",
+          "sha256": "94789abfbe48db5ebbe2327414f51bceeaa1613c1e5176ecdf3c289885c12950",
+          "source_id": "LEGACY_COMPONENT:7f24e08be634670324f7"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "source": "experiments/yolo/sidequest_semantic_composition_predictor_nine_hundred_fifty_fourth/PASS954_REPORT.md",
+        "kind": "historical_source_bound_reading",
+        "limits": "Historical model wording only. Source-described pictures are not new native observations; no meaning confirmation, new data or reopening."
+      },
+      "coverage_class": "additional_addressable_assertion",
+      "independent_new_idea": true,
+      "comparison": {
+        "counterpart_ids": [],
+        "reason": "Explicit full formula with missing surface; not an attested new translation."
+      }
+    },
+    {
+      "id": "CLEAN_GAP_BM:six_core_register_realizations",
+      "claim": "Pass962 realizes six invariant cores in three domains: OK=SETZEN as preparation/station setup or stellar-place activation; CH=NEHMEN as substance/station taking or table-value taking; K=GEBEN as ingredient/station giving or value assignment; AIIN=SOLLWERT as prescribed amount/station/table value; AIN=EINHEIT as portion/subset/index; OR=SATZ as preparation/work/entry set.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "LEGACY_COMPONENT:875bcc163671a176d19a",
+        "LEGACY_COMPONENT:11d989840497d60f5c23",
+        "LEGACY_COMPONENT:38aac0f5a9fe0864948c",
+        "LEGACY_COMPONENT:6e3c0f2f9ae5f9ca9a4a",
+        "LEGACY_COMPONENT:94dae2f01fada5635ad6",
+        "LEGACY_COMPONENT:89204da73c2ff0d9a9c7"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_cross_register_core_normalization_nine_hundred_sixty_second/PASS962_REPORT.md",
+          "line": 10,
+          "line_end": 10,
+          "quote": "- `OK = SETZEN` — lokal: Ansatz setzen, Stationsposten setzen, Sternstelle aktivieren.",
+          "sha256": "aeb734b3d234016ec5fc66d2131f8d68f70f03d31f8daeddd0d11b750d611888",
+          "source_id": "LEGACY_COMPONENT:875bcc163671a176d19a"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_cross_register_core_normalization_nine_hundred_sixty_second/PASS962_REPORT.md",
+          "line": 11,
+          "line_end": 11,
+          "quote": "- `CH = NEHMEN` — lokal: Stoff entnehmen, aus einer Station nehmen, Tabellenwert nehmen.",
+          "sha256": "aeb734b3d234016ec5fc66d2131f8d68f70f03d31f8daeddd0d11b750d611888",
+          "source_id": "LEGACY_COMPONENT:11d989840497d60f5c23"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_cross_register_core_normalization_nine_hundred_sixty_second/PASS962_REPORT.md",
+          "line": 12,
+          "line_end": 12,
+          "quote": "- `K = GEBEN` — lokal: Zutat zugeben, in eine Station geben, Wert zuordnen.",
+          "sha256": "aeb734b3d234016ec5fc66d2131f8d68f70f03d31f8daeddd0d11b750d611888",
+          "source_id": "LEGACY_COMPONENT:38aac0f5a9fe0864948c"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_cross_register_core_normalization_nine_hundred_sixty_second/PASS962_REPORT.md",
+          "line": 13,
+          "line_end": 13,
+          "quote": "- `AIIN = SOLLWERT` — lokal: Sollmaß, Stationswert, Tafelwert.",
+          "sha256": "aeb734b3d234016ec5fc66d2131f8d68f70f03d31f8daeddd0d11b750d611888",
+          "source_id": "LEGACY_COMPONENT:6e3c0f2f9ae5f9ca9a4a"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_cross_register_core_normalization_nine_hundred_sixty_second/PASS962_REPORT.md",
+          "line": 14,
+          "line_end": 14,
+          "quote": "- `AIN = EINHEIT` — lokal: Portion, Teilmenge, Index.",
+          "sha256": "aeb734b3d234016ec5fc66d2131f8d68f70f03d31f8daeddd0d11b750d611888",
+          "source_id": "LEGACY_COMPONENT:94dae2f01fada5635ad6"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_cross_register_core_normalization_nine_hundred_sixty_second/PASS962_REPORT.md",
+          "line": 15,
+          "line_end": 15,
+          "quote": "- `OR = SATZ` — lokal: Ansatz, Arbeitssatz, Eintragssatz.",
+          "sha256": "aeb734b3d234016ec5fc66d2131f8d68f70f03d31f8daeddd0d11b750d611888",
+          "source_id": "LEGACY_COMPONENT:89204da73c2ff0d9a9c7"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "source": "experiments/yolo/sidequest_semantic_cross_register_core_normalization_nine_hundred_sixty_second/PASS962_REPORT.md",
+        "kind": "historical_source_bound_reading",
+        "limits": "Historical model wording only. Source-described pictures are not new native observations; no meaning confirmation, new data or reopening."
+      },
+      "coverage_class": "local_scope_instance",
+      "independent_new_idea": false,
+      "comparison": {
+        "counterpart_ids": [
+          "SEM:00e23948b4d66b561e01"
+        ],
+        "reason": "Keep the six explicit source-local triplets as an instantiation of the register-realization architecture, not six new independent core meanings. Current bare component cards remain untouched."
+      }
+    },
+    {
+      "id": "CLEAN_GAP_BM:okain_three_owners",
+      "claim": "Pass962 reads the same OK+AIN command SETZEN · EINHEIT as setting up a portion in a plant article, setting a subset at a basin station, and activating an index in a wheel; the source treats these as one command with three owners.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:7eaf42294e8d0ad9a18f"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_cross_register_core_normalization_nine_hundred_sixty_second/PASS962_REPORT.md",
+          "line": 17,
+          "line_end": 22,
+          "quote": "Alle übrigen 50 Stammwerte bleiben unverändert. Damit besitzt jeder Stamm\ngenau **einen kurzen Kern**, und die konkrete Sache stammt weiterhin aus dem\nBildregister. Die Formelkarte `OK+AIN` heißt kernsprachlich `SETZEN · EINHEIT`;\nim Pflanzenartikel „eine Portion ansetzen“, am Becken „eine Teilmenge an der\nStation setzen“, im Rad „einen Index aktivieren“. Die Karte hat also nicht drei\nBedeutungen, sondern einen Befehl mit drei sichtbaren Besitzern.",
+          "sha256": "aeb734b3d234016ec5fc66d2131f8d68f70f03d31f8daeddd0d11b750d611888",
+          "source_id": "LEGACY_COMPONENT:7eaf42294e8d0ad9a18f"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "source": "experiments/yolo/sidequest_semantic_cross_register_core_normalization_nine_hundred_sixty_second/PASS962_REPORT.md",
+        "kind": "historical_source_bound_reading",
+        "limits": "Historical model wording only. Source-described pictures are not new native observations; no meaning confirmation, new data or reopening."
+      },
+      "coverage_class": "additional_addressable_assertion",
+      "independent_new_idea": true,
+      "comparison": {
+        "counterpart_ids": [
+          "SEM:e5c05690c6d132fc1a1f",
+          "SEM:f4df336630af7bd91b12"
+        ],
+        "reason": "The existing prose portion glosses do not contain the wheel-index and station-subset realizations or asserted one-command scope."
+      }
+    },
+    {
+      "id": "CLEAN_GAP_BM:material_owner_local_values",
+      "claim": "Pass972 proposes local material expansions: TEIL/TRENNEN can divide crowns on f11r, STUFE can distinguish maturity stages on f56r, and QUELLE/VORRAT can denote rootstock on f10r/f13r/f55v, while SETZEN/SOLLWERT/SCHLIESSEN remain common operations.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:3580df0c71b56d829029"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_visual_material_owner_revision_nine_hundred_seventy_second/PASS972_VISUAL_MATERIAL_OWNER_REPORT.md",
+          "line": 16,
+          "line_end": 19,
+          "quote": "Damit bekommen mehrere kurze Kartenwerte eine anschauliche Rücklesung. TEIL\nund TRENNEN können auf f11r Kronen teilen; STUFE kann auf f56r Reifestufen\nunterscheiden; QUELLE/VORRAT kann auf f10r/f13r/f55v den Wurzelstock meinen;\nSETZEN, SOLLWERT und SCHLIESSEN bleiben die gemeinsame Werkstattgrammatik.",
+          "sha256": "55ed86e11d7da99ac7814baf1d00616fe899ce5bc798461f835cc99fd8582de2",
+          "source_id": "LEGACY_COMPONENT:3580df0c71b56d829029"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "source": "experiments/yolo/sidequest_semantic_visual_material_owner_revision_nine_hundred_seventy_second/PASS972_VISUAL_MATERIAL_OWNER_REPORT.md",
+        "kind": "historical_source_bound_reading",
+        "limits": "Historical model wording only. Source-described pictures are not new native observations; no meaning confirmation, new data or reopening."
+      },
+      "coverage_class": "local_scope_instance",
+      "independent_new_idea": false,
+      "comparison": {
+        "counterpart_ids": [
+          "CLEAN_GAP_BK:silent_owner_four_reference_roles"
+        ],
+        "reason": "Explicit can-statements and local owner possibilities, not confirmed botanical meanings or three new general rules."
+      }
+    },
+    {
+      "id": "CLEAN_GAP_BM:material_process_full_reading",
+      "claim": "Pass972 reads its compact material procedure as taking the pictured root/leaf/flower/fruit item, dividing it by visible body or maturity stage, giving the noted amount to the preparation, holding or routing the operation and closing; f88r additionally selects the labelled drug item and its vessel.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "LEGACY_COMPONENT:9e5daa6d58d24b50a25e"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_visual_material_owner_revision_nine_hundred_seventy_second/PASS972_VISUAL_MATERIAL_OWNER_REPORT.md",
+          "line": 53,
+          "line_end": 62,
+          "quote": "## Kompakte Arbeitsübersetzung\n\n> Nimm vom im Bild bezeichneten Wurzel-, Blatt-, Blüten- oder Fruchtposten.\n> Teile ihn nach dem sichtbaren Körper oder Reifestadium, gib die notierte\n> Menge in den Ansatz, halte oder leite den Gang und schließe ihn. Auf f88r\n> wähle dazu den etikettierten Drogenposten und das zugehörige Gefäß.\n\nDie Artnamen bleiben Wetten. Die funktionalen Besitzer — Speicherwurzel,\nMehrkronenstock, Doldenpflanze, Reifestufenköpfe und Zutatenregister — sind die\nneue konkrete Arbeitsbasis.",
+          "sha256": "55ed86e11d7da99ac7814baf1d00616fe899ce5bc798461f835cc99fd8582de2",
+          "source_id": "LEGACY_COMPONENT:9e5daa6d58d24b50a25e"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "source": "experiments/yolo/sidequest_semantic_visual_material_owner_revision_nine_hundred_seventy_second/PASS972_VISUAL_MATERIAL_OWNER_REPORT.md",
+        "kind": "historical_source_bound_reading",
+        "limits": "Historical model wording only. Source-described pictures are not new native observations; no meaning confirmation, new data or reopening."
+      },
+      "coverage_class": "additional_addressable_assertion",
+      "independent_new_idea": true,
+      "comparison": {
+        "counterpart_ids": [
+          "CLEAN_GAP_BJ:f13r_local_processing"
+        ],
+        "reason": "The complete material/maturity/labelled-vessel procedure adds specific predicates to the earlier general f13r processing scenario. Species remain speculative, as the source says."
+      }
+    }
+  ],
+  "dispositions": [
+    {
+      "source_id": "LEGACY_COMPONENT:11f4dd2d390dc284e0f4",
+      "decision": "no_additional_semantic_proposition_in_selected_span",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Edition inventory counts and completion claim; no distinct meaning assignment."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:34691c84817f01ceceb2",
+      "decision": "existing_full_assertion_or_instance",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:3c1326c24619dbd3255a"
+      ],
+      "reason": "Four practical registers plus copied names already explicitly in the full compendium model."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:557fcf36eae9a5e5ebca",
+      "decision": "no_additional_semantic_proposition_in_selected_span",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Artifact filename/schema pointer."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:670a5322321c4f433edf",
+      "decision": "additional_addressable_assertion",
+      "card_ids": [
+        "CLEAN_GAP_BM:owner_label_classifier_limit"
+      ],
+      "counterpart_ids": [
+        "CLEAN_GAP_BI:astro_prefix_local_item_address",
+        "SEM:e833dbffca017f531d36"
+      ],
+      "reason": "The explicit split between composable classifier/address information and still-untranslated proper name is narrower than a generic picture-owned register; no identified ingredient or celestial name is inferred."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:6d81b11815b8f1a673d0",
+      "decision": "additional_addressable_assertion",
+      "card_ids": [
+        "CLEAN_GAP_BM:owner_label_classifier_limit"
+      ],
+      "counterpart_ids": [
+        "CLEAN_GAP_BI:astro_prefix_local_item_address",
+        "SEM:e833dbffca017f531d36"
+      ],
+      "reason": "The explicit split between composable classifier/address information and still-untranslated proper name is narrower than a generic picture-owned register; no identified ingredient or celestial name is inferred."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:3d3734cfd07793e5aab7",
+      "decision": "additional_addressable_assertion",
+      "card_ids": [
+        "CLEAN_GAP_BM:action_static_label_modes"
+      ],
+      "counterpart_ids": [
+        "SEM:00e23948b4d66b561e01",
+        "CLEAN_GAP_BK:strict_two_mode_ten_page_book"
+      ],
+      "reason": "The active-action/static-classifier distinction is explicitly asserted. BK instead prohibits importing prose roots into Astro; keep historical alternatives rather than silently treating them as one model."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:3e2459d6bd8993f9dc27",
+      "decision": "additional_addressable_assertion",
+      "card_ids": [
+        "CLEAN_GAP_BM:action_static_label_modes"
+      ],
+      "counterpart_ids": [
+        "SEM:00e23948b4d66b561e01",
+        "CLEAN_GAP_BK:strict_two_mode_ten_page_book"
+      ],
+      "reason": "The active-action/static-classifier distinction is explicitly asserted. BK instead prohibits importing prose roots into Astro; keep historical alternatives rather than silently treating them as one model."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:bc6524e239bcce62d426",
+      "decision": "no_additional_semantic_proposition_in_selected_span",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Future phrase-compaction task; generic examples are not bound to a whole source card here."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:bc4475ec20b208806c2d",
+      "decision": "existing_full_assertion_or_instance",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:33b2c20ec73cae22459e"
+      ],
+      "reason": "Hierarchical learned movements plus decomposable rare combinations instantiate the existing stem→handgrip→recipe-block model; numeric53/44 teaching inventory adds no new semantic rule."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:14c7fd2cce073863ffb8",
+      "decision": "no_additional_semantic_proposition_in_selected_span",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Edition scope and next editorial comparison; no new specific assignment."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:3c919f7daf0b4f9591b0",
+      "decision": "no_additional_semantic_proposition_in_selected_span",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Implementation propagation and next use of existing verbs."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:145c312612088042c898",
+      "decision": "no_additional_semantic_proposition_in_selected_span",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Page/locus/reader counts, not a meaning relation."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:94e79dded76357569742",
+      "decision": "no_additional_semantic_proposition_in_selected_span",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Composition inventory counts and no new long gloss."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:1a996b67825bfc180a2c",
+      "decision": "existing_full_assertion_or_instance",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:2df7068e5e0369b03245"
+      ],
+      "reason": "Exact same full assertion and source."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:ead805041a0ede02c9ea",
+      "decision": "no_additional_semantic_proposition_in_selected_span",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Proposed synthetic variations; axes listed but no concrete word assignment in this span."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:2b91f20b68915a66cf02",
+      "decision": "no_additional_semantic_proposition_in_selected_span",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Heading only."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:bbd1abcb9eedb10f5a9f",
+      "decision": "scope_comparison_unresolved",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "q-pairs/no-meaning-change versus field entry; exact source-conditioned card identity and earlier frame rules not fully reconciled."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:efaab026fb19ebca2816",
+      "decision": "no_additional_semantic_proposition_in_selected_span",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Sentence introducing omitted following examples; no complete new assertion in this selected span."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:f6d68d4934d47caa039a",
+      "decision": "no_additional_semantic_proposition_in_selected_span",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Next audit selection heuristic, not a historical meaning binding."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:06bd37a82410aabff7d2",
+      "decision": "no_additional_semantic_proposition_in_selected_span",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Productive-core count only."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:5098a4b6e103c3877a31",
+      "decision": "no_additional_semantic_proposition_in_selected_span",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Learned-root count only."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:d1e96be92409086da2d9",
+      "decision": "no_additional_semantic_proposition_in_selected_span",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Names contrast families without new values or specified relation."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:980c65539e00a6ef0559",
+      "decision": "no_additional_semantic_proposition_in_selected_span",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Confidence comparison of known cores, no new assignment."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:92f29c7e7d1d532ccf9d",
+      "decision": "no_additional_semantic_proposition_in_selected_span",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Next rereading task."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:21ee2a08fead5656eb3b",
+      "decision": "scope_comparison_unresolved",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Medicine versus practical nature/bath-workshop scope remains a real rival; full model comparison not resolved here."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:fef4de76786bb9b33a9f",
+      "decision": "no_additional_semantic_proposition_in_selected_span",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Next prose editing task."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:a0c02fc69f0b96c00fbe",
+      "decision": "existing_full_assertion_or_instance",
+      "card_ids": [],
+      "counterpart_ids": [
+        "CLEAN_GAP_BH:bidirectional_set_transfer_cycle"
+      ],
+      "reason": "BH explicitly covers both OK→CHD and CHD→OK plus longer cycles; new abbreviated presentation is not a new cycle hypothesis."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:86c83167506c22a263ea",
+      "decision": "no_additional_semantic_proposition_in_selected_span",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Next longer-recipe construction task."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:e3bbdaabc05cc89229e9",
+      "decision": "existing_full_assertion_or_instance",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:33b2c20ec73cae22459e"
+      ],
+      "reason": "Exact complete hierarchy and examples already current."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:74002b0adc0d8c914378",
+      "decision": "scope_comparison_unresolved",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Complete twelve-page genre conjunction has closely related full four-register models; exact conjunction identity not yet adjudicated."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:53d19f20bb0d7e3e2c2b",
+      "decision": "scope_comparison_unresolved",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Bath/application versus technical-waterworks content preference needs comparison with complete previous genre variants."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:cb203b61d802d64a5deb",
+      "decision": "existing_full_assertion_or_instance",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:00e23948b4d66b561e01"
+      ],
+      "reason": "Current full model explicitly contrasts fluid/station versus ring AIR with invariant address/operation cores."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:f78a347e658d46f46bdb",
+      "decision": "scope_comparison_unresolved",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Single abstract core with two readings across56components: a full-registry assertion beyond bare glosses; equivalence to existing cross-register model unresolved."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:ed5b05bca87c6bd55301",
+      "decision": "additional_addressable_assertion",
+      "card_ids": [
+        "CLEAN_GAP_BM:o_work_image_pair"
+      ],
+      "counterpart_ids": [
+        "SEM:2c5a2199eb452d680104"
+      ],
+      "reason": "The bare O=LAUF core does not itself assert this specific paired realization."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:ed1675e1ea15646d1178",
+      "decision": "existing_full_assertion_or_instance",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:00e23948b4d66b561e01"
+      ],
+      "reason": "Its complete model already gives OK work setup versus diagram place activation."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:1855dee9b63822090cb1",
+      "decision": "additional_addressable_assertion",
+      "card_ids": [
+        "CLEAN_GAP_BM:ch_work_image_pair"
+      ],
+      "counterpart_ids": [
+        "SEM:c28402730df27e051162"
+      ],
+      "reason": "Paired action/classification roles, not a second free lexical gloss."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:33cf3642a25ead3dc1f5",
+      "decision": "additional_addressable_assertion",
+      "card_ids": [
+        "CLEAN_GAP_BM:k_work_image_pair"
+      ],
+      "counterpart_ids": [
+        "SEM:67288c0cbe6c0423ed11"
+      ],
+      "reason": "The complete paired content roles add scope beyond the bare association core."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:1b8f1f04321674d03401",
+      "decision": "existing_full_assertion_or_instance",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:00e23948b4d66b561e01"
+      ],
+      "reason": "Exact AIR fluid/ring abstraction already stated."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:a1343fa8779cf41aced8",
+      "decision": "scope_comparison_unresolved",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "The cross-register AL/AR/Y near-literal invariance needs exact scope comparison, not three bare gloss matches."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:b1eff71167ba5e390fac",
+      "decision": "scope_comparison_unresolved",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "General two-language rejection and local-concretization mixed model may already be full-model coverage; no forced equivalence."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:c630a0dc03561a9749cd",
+      "decision": "no_additional_semantic_proposition_in_selected_span",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Mechanical edition rebuild counts; full register model considered separately."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:52ab82c90245e3fcd269",
+      "decision": "existing_full_assertion_or_instance",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:80689182e7e9aa6ca775"
+      ],
+      "reason": "Current whole OKEDY card already preserves brief setup/close versus first-grade-place activation/entry close."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:2d11ac5b7b8e2ced7f9f",
+      "decision": "scope_comparison_unresolved",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Collision repair using q/wrapper/allograph is a writing-model assertion, not a meaning failure; prior control/identity scope not fully compared."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:66410e69c31efd0cc077",
+      "decision": "additional_addressable_assertion",
+      "card_ids": [
+        "CLEAN_GAP_BM:chedy_item_place_switch"
+      ],
+      "counterpart_ids": [
+        "SEM:fd8bcd16a4c929d88956",
+        "CLEAN_GAP_BH:chd_transfer_valency"
+      ],
+      "reason": "Existing chedy parse and prose valency model do not state the image-place realization."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:2fea668edc892bc37246",
+      "decision": "no_additional_semantic_proposition_in_selected_span",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Heading only."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:af310aea7e46b45f84f2",
+      "decision": "no_additional_semantic_proposition_in_selected_span",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Existing primitive glossary inventory; no additional complete combination asserted."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:dc1c1abfd79f8778a00b",
+      "decision": "scope_comparison_unresolved",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Full modern-fluid sentence generated from four roles is a local illustration; no exact combined earlier formula counterpart established."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:84ee8d98358028089566",
+      "decision": "scope_comparison_unresolved",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Five-stage surface→recipe→atomic→workshop→image interpretation chain requires full pipeline comparison."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:080f171dae672c2d78cb",
+      "decision": "existing_full_assertion_or_instance",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:80689182e7e9aa6ca775"
+      ],
+      "reason": "Same complete OKEDY register realizations, additional recipe-storage explanation."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:09f1078aebc26c128aae",
+      "decision": "no_additional_semantic_proposition_in_selected_span",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Heading only."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:c7a9ea990ce495400cdc",
+      "decision": "no_additional_semantic_proposition_in_selected_span",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Atom/segment coverage statistics."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:14f12b2efb4ebc1255a4",
+      "decision": "additional_addressable_assertion",
+      "card_ids": [
+        "CLEAN_GAP_BM:local_sign_role_dictionary"
+      ],
+      "counterpart_ids": [],
+      "reason": "A source-local sign-role table; case distinctions and special G/Z roles are preserved. No global F/g/i/d/s/b/m/j/z alphabet values are inferred."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:11a4e9c8237cb800af05",
+      "decision": "no_additional_semantic_proposition_in_selected_span",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Rebuild statistics following local-sign assignments."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:5e4791e4b33259f1a1e9",
+      "decision": "scope_comparison_unresolved",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Practical-compendium genre close to existing full models; different14-page scope cannot be dismissed by a broad label match."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:565b2da53a8ad463a3d6",
+      "decision": "no_additional_semantic_proposition_in_selected_span",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Heading only."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:40f20b6ac30f54c01efe",
+      "decision": "scope_comparison_unresolved",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Whole renderer-equivalence families include Y and OL realizations; registered units must be audited before claiming identical semantic propositions."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:f37de68f4546bab67b4f",
+      "decision": "scope_comparison_unresolved",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Brevigraph/formula/local-name model is genuine but may be already covered;20-rule inventory alone does not prove new proposition."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:c4594069d64570969195",
+      "decision": "additional_addressable_assertion",
+      "card_ids": [
+        "CLEAN_GAP_BM:chk_short_close_prediction",
+        "CLEAN_GAP_BM:sh_full_item_prediction"
+      ],
+      "counterpart_ids": [],
+      "reason": "A complete predicted composition; no invented witnessed token or contrast."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:8adadce9f7cdf387c4ad",
+      "decision": "no_additional_semantic_proposition_in_selected_span",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Heading only."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:daed8fefebe4680621a4",
+      "decision": "additional_addressable_assertion",
+      "card_ids": [
+        "CLEAN_GAP_BM:f88_label_types_and_compound"
+      ],
+      "counterpart_ids": [
+        "SEM:e833dbffca017f531d36"
+      ],
+      "reason": "The existing three-register bridge does not assert the @Lc/@Lf content typing or the alternative interpretation of the two-group entry. Entire statement remains a historical picture/text model."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:6695956347a4cc849720",
+      "decision": "additional_addressable_assertion",
+      "card_ids": [
+        "CLEAN_GAP_BM:f88_which_owner_vs_prosa"
+      ],
+      "counterpart_ids": [
+        "SEM:e833dbffca017f531d36",
+        "CLEAN_GAP_BK:silent_owner_four_reference_roles"
+      ],
+      "reason": "Explicit division between local label identity and prose operations; general owner roles do not automatically identify these distinct inscription functions."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:9c91eaef6960184e0e68",
+      "decision": "additional_addressable_assertion",
+      "card_ids": [
+        "CLEAN_GAP_BM:f75_sevenline_inset"
+      ],
+      "counterpart_ids": [],
+      "reason": "Actual historical scope correction retained, without claiming a fresh image observation or independently proved content."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:4e3e9d2b8c43012285eb",
+      "decision": "additional_addressable_assertion",
+      "card_ids": [
+        "CLEAN_GAP_BM:f75_sevenline_inset"
+      ],
+      "counterpart_ids": [],
+      "reason": "Actual historical scope correction retained, without claiming a fresh image observation or independently proved content."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:9545a8b3528b40a37f83",
+      "decision": "no_additional_semantic_proposition_in_selected_span",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Teaching-inventory counts and course order, not a new content binding."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:a46d4530b0b3a3285b5c",
+      "decision": "no_additional_semantic_proposition_in_selected_span",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Observed/predicted surface inventory result; preserves zero matchingrecipe occurrences, no new meaning by itself."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:7f24e08be634670324f7",
+      "decision": "additional_addressable_assertion",
+      "card_ids": [
+        "CLEAN_GAP_BM:solk_full_close_prediction"
+      ],
+      "counterpart_ids": [],
+      "reason": "Explicit full formula with missing surface; not an attested new translation."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:328f02608b111bf45a64",
+      "decision": "no_additional_semantic_proposition_in_selected_span",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Old overload prohibition plus known short SH+E+DY illustration; no claim that historical long reading never existed."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:8f89f63b488ed22d2d4a",
+      "decision": "scope_comparison_unresolved",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Mixed free-stem/learned-formula reading contract may match existing complete models; counts not adequate identity."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:88d99b3f81b790248904",
+      "decision": "scope_comparison_unresolved",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "56stem/66whole architecture with cross-register address reuse has unresolved complete counterpart scope."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:0cd0a4deaf65e231b5d6",
+      "decision": "scope_comparison_unresolved",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Mixed learned-nomenclator/brevigraph mechanism is genuine but not automatically new versus existing compendium claims."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:b052bcebb9082c514eb1",
+      "decision": "no_additional_semantic_proposition_in_selected_span",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Whole-recipe overlap counts, not new independent semantic transfer evidence."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:39f828404558ede8c295",
+      "decision": "scope_comparison_unresolved",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Claim of portable66-card layer is stronger than descriptive counts; source-held/meaning scope not evaluated in this recovery."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:462dd3984f5cbdc4d69d",
+      "decision": "scope_comparison_unresolved",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Replacing too-narrow register words is source revision history; broad proposition comparison unresolved beyond six local realization instances."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:875bcc163671a176d19a",
+      "decision": "local_scope_instance",
+      "card_ids": [
+        "CLEAN_GAP_BM:six_core_register_realizations"
+      ],
+      "counterpart_ids": [
+        "SEM:00e23948b4d66b561e01"
+      ],
+      "reason": "Keep the six explicit source-local triplets as an instantiation of the register-realization architecture, not six new independent core meanings. Current bare component cards remain untouched."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:11d989840497d60f5c23",
+      "decision": "local_scope_instance",
+      "card_ids": [
+        "CLEAN_GAP_BM:six_core_register_realizations"
+      ],
+      "counterpart_ids": [
+        "SEM:00e23948b4d66b561e01"
+      ],
+      "reason": "Keep the six explicit source-local triplets as an instantiation of the register-realization architecture, not six new independent core meanings. Current bare component cards remain untouched."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:38aac0f5a9fe0864948c",
+      "decision": "local_scope_instance",
+      "card_ids": [
+        "CLEAN_GAP_BM:six_core_register_realizations"
+      ],
+      "counterpart_ids": [
+        "SEM:00e23948b4d66b561e01"
+      ],
+      "reason": "Keep the six explicit source-local triplets as an instantiation of the register-realization architecture, not six new independent core meanings. Current bare component cards remain untouched."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:6e3c0f2f9ae5f9ca9a4a",
+      "decision": "local_scope_instance",
+      "card_ids": [
+        "CLEAN_GAP_BM:six_core_register_realizations"
+      ],
+      "counterpart_ids": [
+        "SEM:00e23948b4d66b561e01"
+      ],
+      "reason": "Keep the six explicit source-local triplets as an instantiation of the register-realization architecture, not six new independent core meanings. Current bare component cards remain untouched."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:94dae2f01fada5635ad6",
+      "decision": "local_scope_instance",
+      "card_ids": [
+        "CLEAN_GAP_BM:six_core_register_realizations"
+      ],
+      "counterpart_ids": [
+        "SEM:00e23948b4d66b561e01"
+      ],
+      "reason": "Keep the six explicit source-local triplets as an instantiation of the register-realization architecture, not six new independent core meanings. Current bare component cards remain untouched."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:89204da73c2ff0d9a9c7",
+      "decision": "local_scope_instance",
+      "card_ids": [
+        "CLEAN_GAP_BM:six_core_register_realizations"
+      ],
+      "counterpart_ids": [
+        "SEM:00e23948b4d66b561e01"
+      ],
+      "reason": "Keep the six explicit source-local triplets as an instantiation of the register-realization architecture, not six new independent core meanings. Current bare component cards remain untouched."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:7eaf42294e8d0ad9a18f",
+      "decision": "additional_addressable_assertion",
+      "card_ids": [
+        "CLEAN_GAP_BM:okain_three_owners"
+      ],
+      "counterpart_ids": [
+        "SEM:e5c05690c6d132fc1a1f",
+        "SEM:f4df336630af7bd91b12"
+      ],
+      "reason": "The existing prose portion glosses do not contain the wheel-index and station-subset realizations or asserted one-command scope."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:b85ebd90bdec87a0b380",
+      "decision": "no_additional_semantic_proposition_in_selected_span",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Fragment of edition-format list."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:c9e55242da46be4d9573",
+      "decision": "no_additional_semantic_proposition_in_selected_span",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Frequency threshold defining learned cards is a method criterion, not proof these are historically memorized."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:5f6345f3b1f0b806e86d",
+      "decision": "scope_comparison_unresolved",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Three cross-register whole-card invariants include Y renderer identity; not automatically proven by core-word equality."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:42c6014cd1d37efd4843",
+      "decision": "scope_comparison_unresolved",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Registered bidirectionality is a writing contract; exact overlap with compiler/master-table claims needs scope comparison."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:ff7bce97dce54e253692",
+      "decision": "scope_comparison_unresolved",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "All1078surfaces map uniquely to a core: deterministic source model assertion, not an independently validated manuscript claim; no lexical proof."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:c29a61f5a81553242548",
+      "decision": "existing_full_assertion_or_instance",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:f3d346c751338626c4c0"
+      ],
+      "reason": "Current authoring model explicitly requires master-table surface when the intended semantic recipe lacks one; no fresh semantic assertion from compiler error name."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:9fa6e541fc8275459c2a",
+      "decision": "no_additional_semantic_proposition_in_selected_span",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Heading only."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:75aba9ee75b114045372",
+      "decision": "scope_comparison_unresolved",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Current purpose theory is close to existing full compendium model, but exact time/class/place conjunction comparison remains open."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:bdca6b6349d5c77c0410",
+      "decision": "scope_comparison_unresolved",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Primitive values already exist; register-wide invariant assertion stronger than those separate glosses and not silently counted covered."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:f9518d4c280cff78d854",
+      "decision": "scope_comparison_unresolved",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Full generic procedural sentence may be a model instance; counterpart predicate/order comparison still open."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:3c6f2296a8664bbb876f",
+      "decision": "no_additional_semantic_proposition_in_selected_span",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Edition scope/counters and replacement note."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:97575f6c50078d7d4e0e",
+      "decision": "scope_comparison_unresolved",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "f75 inset plus separateAries/Pisces wording and portable-core formulas are substantive, not just edition counters; reconcile exact current clauses before recovery."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:3580df0c71b56d829029",
+      "decision": "local_scope_instance",
+      "card_ids": [
+        "CLEAN_GAP_BM:material_owner_local_values"
+      ],
+      "counterpart_ids": [
+        "CLEAN_GAP_BK:silent_owner_four_reference_roles"
+      ],
+      "reason": "Explicit can-statements and local owner possibilities, not confirmed botanical meanings or three new general rules."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:9df00c904f1c2de5f48b",
+      "decision": "scope_comparison_unresolved",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Water as possible unpictured medium versus visible owner is a source-level scope qualification; related general model cannot alone establish full coverage."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:9e5daa6d58d24b50a25e",
+      "decision": "additional_addressable_assertion",
+      "card_ids": [
+        "CLEAN_GAP_BM:material_process_full_reading"
+      ],
+      "counterpart_ids": [
+        "CLEAN_GAP_BJ:f13r_local_processing"
+      ],
+      "reason": "The complete material/maturity/labelled-vessel procedure adds specific predicates to the earlier general f13r processing scenario. Species remain speculative, as the source says."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:94e7b2055646a9165362",
+      "decision": "no_additional_semantic_proposition_in_selected_span",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "External book-type analogue list item; no direct target semantic assignment."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:52b197b84ef4b6105612",
+      "decision": "no_additional_semantic_proposition_in_selected_span",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Introductory sentence only."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:ed31a942cb4bc91f3b7f",
+      "decision": "scope_comparison_unresolved",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "External-example paragraph supports a possible silent-water-medium argument; no external page read and no forced new theory."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:3ec3268296f2d0212b82",
+      "decision": "scope_comparison_unresolved",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Historical private pharmacy reading of f88r contains16drug/label counts differing from other local accounts; preserve audit-only until exact entity unit comparison, not silently harmonize."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:69c5fa88e535299a5e49",
+      "decision": "existing_full_assertion_or_instance",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:3c1326c24619dbd3255a"
+      ],
+      "reason": "Exact full purpose theory already present; not merely matching genre words."
+    }
+  ]
+}

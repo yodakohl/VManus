@@ -1,0 +1,245 @@
+{
+  "schema": "source_semantic_coverage_review_v1",
+  "review_id": "BO",
+  "cards": [
+    {
+      "id": "CLEAN_GAP_BO:nonsh_constrained_reference",
+      "claim": "GDT597 separates action participants from parameters when supplying objects to its non-SH actions: a condition or one measure can be skipped without becoming the patient, but E3200 blocks a distant station-preparation antecedent after two consecutive measures while E3707 resumes it after one. E2585’s new-start marker blocks the older body reading and selects a new bath/station preparation; the station-heavy defaults are explicitly revisable working objects, not global word identifications.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "LEGACY_COMPONENT:c2dc21889758e93bccba"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt597_nonsh_action_object_reference_phrasebook/REPORT.md",
+          "line": 40,
+          "line_end": 80,
+          "quote": "## Konkrete Werkstattlesungen\n\nDirekte Badfortsetzungen:\n\n> Halte den Stationsansatz im Bad an der Stations-Hauptstelle. Lass denselben\n> Stationsansatz anschließend auf Grad II und an der Stations-Arbeitsstelle\n> abkühlen.\n\n> Halte denselben Stationsansatz im Bad auf Grad I. Reguliere denselben\n> Stationsansatz anschließend von der Ausgangsstation oder aus dem\n> Ausgangsbecken.\n\nPortion und Strom bleiben dort reale Arbeitspatienten, wo der lokale Ablauf sie\nträgt:\n\n> Temperiere dieselbe Anwendungsportion auf Grad I.\n\n> Temperiere denselben Strom auf Grad I und an der Stations-Arbeitsstelle.\n\n> Behandle denselben Strom entlang des Stationswegs oder Kanals.\n\nAber sie werden nicht grenzenlos weitergereicht:\n\n> E2765: Behandle den Stationsansatz.\n\n> E3147: Behandle den Stationsansatz.\n\n> E3749: Wähle die Stationseinheit aus.\n\nE2585 blockiert wegen des sichtbaren Neuansatzmarkers die ältere Körperlesung:\n\n> Temperiere den Stationsansatz auf der Anwendungsstufe, auf Grad I und als\n> neuer Bad- oder Stationsansatz.\n\nE3200 blockiert nach zwei Maßparametern die ferne Anapher, während E3707 nach\nnur einem Maß noch natürlich zurückgreift:\n\n> Temperiere den Stationsansatz.\n\n> Temperiere denselben Stationsansatz auf Grad I.\n",
+          "sha256": "3225dacf58677975c09c8d11f74c2857b9304a180c817d4f4f42156eeb331f6a"
+        },
+        {
+          "path": "experiments/yolo/gdt597_nonsh_action_object_reference_phrasebook/REPORT.md",
+          "line": 23,
+          "line_end": 38,
+          "quote": "## Was sich gegenüber mechanischer Nähe verbessert\n\nEin linearer „letztes Nomen gewinnt“-Puffer vermischt Teilnehmer und\nParameter. GDT597 hält beide Kanäle auseinander:\n\n- 24/24 trägerlose `S_BIO_DIVERT` lesen `Leite den Strom … um`.\n- 16/16 trägerlose `T_BIO_STATION_REGULATE` lesen `Reguliere die\n  Stationsbedingung …`.\n- Eine Stationsbedingung oder ein Maß darf übersprungen werden, ohne selbst\n  zum Patienten zu werden.\n- Zwei aufeinanderfolgende Maße bilden bei E3200 eine Reichweitengrenze; der\n  weit ältere Stationsansatz wird nicht künstlich anaphorisch gemacht.\n\nDie vier rechten Bindungen sind E1628 (Körper) sowie E2755, E3243 und E3341\n(Stationsansatz). Damit gewinnt ein passender gleichereigniger Träger auch dann,\nwenn links nur ein älteres oder aktionsintern erzeugtes Objekt steht.",
+          "sha256": "3225dacf58677975c09c8d11f74c2857b9304a180c817d4f4f42156eeb331f6a"
+        },
+        {
+          "path": "experiments/yolo/gdt597_nonsh_action_object_reference_phrasebook/REPORT.md",
+          "line": 81,
+          "line_end": 92,
+          "quote": "## Bedeutungsraum\n\nDie 396 Primärobjekte verteilen sich auf 277 Stationen, 34 Flüsse, 24 Maße, 19\nPortionen, 16 Bedingungen, 13 Körper, zehn Einheiten und drei Körperteile.\n77 Klauseln sind anaphorisch, 319 definit; alle sechs deutschen\nDeterminerzellen und 18 konkrete Objektformen sind tatsächlich belegt.\n\nDie hohe Stationszahl ist ein Arbeitsdefault, kein globaler\nOberflächenwortbeweis. Das Review-Deck bewahrt 17 schwierige Entscheidungen und\nihre Rivalen. So ist die Ausgabe vollständig genug zum Lesen, bleibt aber an\ngenau den Stellen austauschbar, an denen eine spätere Seite eine bessere\nkonkrete Bedeutung liefert.",
+          "sha256": "3225dacf58677975c09c8d11f74c2857b9304a180c817d4f4f42156eeb331f6a"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "kind": "historical_source_bound_proposition",
+        "source": "experiments/yolo/gdt597_nonsh_action_object_reference_phrasebook/REPORT.md",
+        "unit": "The GDT597 non-SH action-object model and its named local contrast cases. The two-measure boundary is asserted at E3200, not generalized here to every occurrence or every register.",
+        "limits": "Historical working interpretation only. No new independent manuscript meaning, image observation, score, experiment or reopening. Specific lexical defaults remain revisable."
+      },
+      "coverage_class": "additional_addressable_source_model",
+      "independent_new_idea": false,
+      "identity_status": "no_equivalent_full_claim_found_in_bounded_comparison_not_global_novelty",
+      "comparison": {
+        "counterpart_ids": [
+          "SEM:1dbffea9fbf0e159c5f3",
+          "CLEAN_GAP_BD:dies_dort_active_item",
+          "CLEAN_GAP_BK:silent_owner_four_reference_roles"
+        ],
+        "reason": "Bare active-item reference, picture-role assignment and the different withdrawn S-AIIN packet-boundary model do not contain these action-patient/parameter distinctions and named blocked-versus-retained references. Individual output phrases are examples of the one source-defined reference model, not independent gloss cards."
+      }
+    },
+    {
+      "id": "CLEAN_GAP_BO:cth_material_grade_two_axes",
+      "claim": "GDT631 combines candidate dry/moist CTH material forms with independent thermal and degree descriptions: chcthy qokain is dry CTH material, hot degree II; qokaiin shcthy is moist material, hot degree III; qotain shcthy is moist material, cold degree II. On f45r.3 it keeps the hot-dry degree-III material bracket separate from the dry degree-III bracket rather than joining them into a sentence. Dry/moist remains a provisional interpretation, with adverse neighbors leaving a technical-class reading open.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "LEGACY_COMPONENT:7f0ae995a061fbbcf392"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/REPORT.md",
+          "line": 62,
+          "line_end": 95,
+          "quote": "## Konkrete Lesungen\n\nDie sieben wiederholten Gradframes enthalten unter anderem:\n\n| Voynich | Vorkommen | Arbeitsübersetzung |\n|---|---:|---|\n| `chcthy qokain` | 4/4 stabil | trockene CTH-Materialform: heiß, Grad II |\n| `qokain chcthy` | 4, davon 3 stabil | dieselbe Zelle in umgekehrter Oberflächenreihenfolge |\n| `qokaiin shcthy` | 3/3 stabil | feuchte CTH-Materialform: heiß, Grad III |\n| `qotain shcthy` | 3/3 stabil | feuchte CTH-Materialform: kalt, Grad II |\n| `chaiin chcthy` | 2/2 stabil | trocken, Grad III: trockenes Blatt-/Krautgut |\n\nDie stärkste längere Klammer ist f45r.3:\n\n```text\nqo | chcthy kchol daiin | qoaiin | cthy chaiin | ykeey | cthom\n```\n\nArbeitslesung:\n\n```text\nOPEN | trockenes Blatt-/Krautgut: heiß-trocken, Grad III |\nOPEN-Wert III | Blattgut: trocken, Grad III | OPEN | weitere CTH-Form\n```\n\nDie beiden gelesenen Klammern werden nicht zu einem erfundenen langen Satz\nverklebt. Auf f93r.21 ergibt `shol daiin shcthy` entsprechend **„feucht,\nGrad III: feuchte CTH-Materialform“**.\n\nUnter den Gradkonstruktionen gibt es vier unmittelbare Kontakte, die dieselbe\nTrocken-/Feuchtachse prüfen: alle vier stimmen mit dem Präfix überein, keiner\nwiderspricht. Die meisten übrigen unmittelbaren Grade sind heiß/kalt und damit\northogonal; genau das erwartet eine zweiachsige Materialbeschreibung.\n",
+          "sha256": "22647ec417eef0781712527fc1aa17175959756c414a5c5687a482e89333f405"
+        },
+        {
+          "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/REPORT.md",
+          "line": 5,
+          "line_end": 15,
+          "quote": "`chcthy` ist kein guter isolierter Wörterbucheintrag mehr. Die sparsamste\nArbeitsanalyse ist:\n\n- `chcthy = ch + cth + y` → global **trockene CTH-Materialform**, im Herbal\n  **trockenes Blatt-/Krautgut**;\n- `shcthy = sh + cth + y` → global **feuchte CTH-Materialform**, im Herbal\n  **feuchtes Blatt-/Krautgut**.\n\nDie Komposition ist strukturell stark. Die genaue Zuordnung trocken/feucht ist\nder beste Default, aber noch kein Zwang: zwei klare `chcthy shol`-Nachbarschaften\nhalten eine alternative technische Klassenlesung offen.",
+          "sha256": "22647ec417eef0781712527fc1aa17175959756c414a5c5687a482e89333f405"
+        },
+        {
+          "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/REPORT.md",
+          "line": 96,
+          "line_end": 117,
+          "quote": "## Gegenprobe und Reichweite\n\nDer breitere Nachbarschaftstest ist absichtlich weniger freundlich: 24 direkte\nNachbarn aus terminalen Qualitätsformen oder nackten OL-Qualitätsköpfen teilen\nsich in 14 passende, sechs gegensinnige und vier orthogonale Kontakte.\n\nDie schärfste Warnung ist f24v.8:\n\n```text\nkochky chcthy shol sain\n```\n\nHier steht die trockene Kandidatenform unmittelbar vor dem feuchten `shol`;\nf20v.3 wiederholt `shol chcthy`. Das kann zwei benachbarte technische Zellen\ndarstellen. Falls spätere Seiten zwingend zeigen, dass die Nachbarn denselben\nTräger beschreiben, muss `ch=trocken` an dieser Stelle umgedeutet werden. Das\nformale `ch/sh + CTH`-Paradigma bliebe trotzdem bestehen.\n\nAuch die Registerverteilung begrenzt die enge Blattlesung: nacktes `cthy` ist\n90/92-mal Herbal, die präfigierten Formen sind dagegen sektionenübergreifend.\nDeshalb gilt „Blatt-/Krautgut“ nur im Herbal; global heißt der Kopf\nPflanzen-/Drogenmaterial.",
+          "sha256": "22647ec417eef0781712527fc1aa17175959756c414a5c5687a482e89333f405"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "kind": "historical_source_bound_proposition",
+        "source": "experiments/yolo/gdt631_prefixed_cth_quality_parts/REPORT.md",
+        "unit": "Source-local two-axis material/quality-and-grade construction, not an identification of all CTH tokens or an imported interpretation of prefix letters. Blatt/Kraut expansion is Herbal-only. The source’s positive direct-grade contacts and broader adverse contacts are not independent meaning gold.",
+        "limits": "Historical working interpretation only. No new independent manuscript meaning, image observation, score, experiment or reopening. Specific lexical defaults remain revisable."
+      },
+      "coverage_class": "additional_addressable_source_model",
+      "independent_new_idea": false,
+      "identity_status": "no_equivalent_full_claim_found_in_bounded_comparison_not_global_novelty",
+      "comparison": {
+        "counterpart_ids": [
+          "SEM:26382e77d45d46274be9",
+          "SEM:b7302efe039f1d878a9b",
+          "SEM:324608bedf828f1ae091"
+        ],
+        "reason": "The existing shcthy/chcthy material defaults and dry-prefix assignment do not express this joint material/thermal/degree model or its separated brackets. The concrete pairs remain worked cases of one model, not three new mechanisms. Broad historical hot/dry glosses elsewhere do not establish identical full scope."
+      }
+    }
+  ],
+  "dispositions": [],
+  "source_reassessments": [
+    {
+      "source_id": "LEGACY_COMPONENT:51d89da6fad808e3dabc",
+      "decision": "grammatical_rendering_examples_no_new_semantic_card",
+      "reason": "The selected old/new pairs replace infinitival German continuations with finite imperatives while preserving the same actions/objects/order. The examples illustrate the existing operator-slot renderer; no independently new content reading is asserted by this selected span.",
+      "card_ids": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt571_three_operator_two_slot_outer_voice/REPORT.md",
+          "line": 53,
+          "line_end": 82,
+          "quote": "## Konkrete neue Lesungen\n\n```text\nOT+OL\nalt: Danach: entnimm denselben laufenden Eintrag; weiterführen.\nneu: Danach: entnimm denselben laufenden Eintrag; führe den Gang weiter.\n\nOL+OL\nalt: Weiter im laufenden Gang: wähle denselben Positionswert;\n     nochmals weiterführen.\nneu: Weiter im laufenden Gang: wähle denselben Positionswert;\n     führe den Gang weiter.\n\nOL+OT\nalt: Weiter: kennzeichne den laufenden Eintrag;\n     danach nächsten Gang eröffnen.\nneu: Weiter: kennzeichne den laufenden Eintrag;\n     eröffne danach den nächsten Gang.\n\nDY+OL\nalt: Setze denselben Stationswert im Stationsgang an; auf Grad II;\n     schließe den Schritt; danach weiterführen.\nneu: Setze denselben Stationswert im Stationsgang an; auf Grad II;\n     schließe den Schritt; führe den Gang weiter.\n```\n\nDie beiden seltenen Umkehrungen werden also nicht wegerklärt. Sie sind gerade\ndie klarsten Demonstrationen dafür, dass der Nachläufer-Slot die Schriftfolge\nwirklich ausspricht.\n",
+          "sha256": "5484c385aff9287a373d9d8d9124891d97d670a121ee30d267c44b7a67087c2c"
+        }
+      ],
+      "reviewed_full_selected_span": true
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:c2dc21889758e93bccba",
+      "decision": "recover_source_bound_complete_model",
+      "reason": "Bare active-item reference, picture-role assignment and the different withdrawn S-AIIN packet-boundary model do not contain these action-patient/parameter distinctions and named blocked-versus-retained references. Individual output phrases are examples of the one source-defined reference model, not independent gloss cards.",
+      "card_ids": [
+        "CLEAN_GAP_BO:nonsh_constrained_reference"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt597_nonsh_action_object_reference_phrasebook/REPORT.md",
+          "line": 40,
+          "line_end": 80,
+          "quote": "## Konkrete Werkstattlesungen\n\nDirekte Badfortsetzungen:\n\n> Halte den Stationsansatz im Bad an der Stations-Hauptstelle. Lass denselben\n> Stationsansatz anschließend auf Grad II und an der Stations-Arbeitsstelle\n> abkühlen.\n\n> Halte denselben Stationsansatz im Bad auf Grad I. Reguliere denselben\n> Stationsansatz anschließend von der Ausgangsstation oder aus dem\n> Ausgangsbecken.\n\nPortion und Strom bleiben dort reale Arbeitspatienten, wo der lokale Ablauf sie\nträgt:\n\n> Temperiere dieselbe Anwendungsportion auf Grad I.\n\n> Temperiere denselben Strom auf Grad I und an der Stations-Arbeitsstelle.\n\n> Behandle denselben Strom entlang des Stationswegs oder Kanals.\n\nAber sie werden nicht grenzenlos weitergereicht:\n\n> E2765: Behandle den Stationsansatz.\n\n> E3147: Behandle den Stationsansatz.\n\n> E3749: Wähle die Stationseinheit aus.\n\nE2585 blockiert wegen des sichtbaren Neuansatzmarkers die ältere Körperlesung:\n\n> Temperiere den Stationsansatz auf der Anwendungsstufe, auf Grad I und als\n> neuer Bad- oder Stationsansatz.\n\nE3200 blockiert nach zwei Maßparametern die ferne Anapher, während E3707 nach\nnur einem Maß noch natürlich zurückgreift:\n\n> Temperiere den Stationsansatz.\n\n> Temperiere denselben Stationsansatz auf Grad I.\n",
+          "sha256": "3225dacf58677975c09c8d11f74c2857b9304a180c817d4f4f42156eeb331f6a"
+        }
+      ],
+      "reviewed_full_selected_span": true
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:7f0ae995a061fbbcf392",
+      "decision": "recover_source_bound_complete_model",
+      "reason": "The existing shcthy/chcthy material defaults and dry-prefix assignment do not express this joint material/thermal/degree model or its separated brackets. The concrete pairs remain worked cases of one model, not three new mechanisms. Broad historical hot/dry glosses elsewhere do not establish identical full scope.",
+      "card_ids": [
+        "CLEAN_GAP_BO:cth_material_grade_two_axes"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/REPORT.md",
+          "line": 62,
+          "line_end": 95,
+          "quote": "## Konkrete Lesungen\n\nDie sieben wiederholten Gradframes enthalten unter anderem:\n\n| Voynich | Vorkommen | Arbeitsübersetzung |\n|---|---:|---|\n| `chcthy qokain` | 4/4 stabil | trockene CTH-Materialform: heiß, Grad II |\n| `qokain chcthy` | 4, davon 3 stabil | dieselbe Zelle in umgekehrter Oberflächenreihenfolge |\n| `qokaiin shcthy` | 3/3 stabil | feuchte CTH-Materialform: heiß, Grad III |\n| `qotain shcthy` | 3/3 stabil | feuchte CTH-Materialform: kalt, Grad II |\n| `chaiin chcthy` | 2/2 stabil | trocken, Grad III: trockenes Blatt-/Krautgut |\n\nDie stärkste längere Klammer ist f45r.3:\n\n```text\nqo | chcthy kchol daiin | qoaiin | cthy chaiin | ykeey | cthom\n```\n\nArbeitslesung:\n\n```text\nOPEN | trockenes Blatt-/Krautgut: heiß-trocken, Grad III |\nOPEN-Wert III | Blattgut: trocken, Grad III | OPEN | weitere CTH-Form\n```\n\nDie beiden gelesenen Klammern werden nicht zu einem erfundenen langen Satz\nverklebt. Auf f93r.21 ergibt `shol daiin shcthy` entsprechend **„feucht,\nGrad III: feuchte CTH-Materialform“**.\n\nUnter den Gradkonstruktionen gibt es vier unmittelbare Kontakte, die dieselbe\nTrocken-/Feuchtachse prüfen: alle vier stimmen mit dem Präfix überein, keiner\nwiderspricht. Die meisten übrigen unmittelbaren Grade sind heiß/kalt und damit\northogonal; genau das erwartet eine zweiachsige Materialbeschreibung.\n",
+          "sha256": "22647ec417eef0781712527fc1aa17175959756c414a5c5687a482e89333f405"
+        }
+      ],
+      "reviewed_full_selected_span": true
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:1c954010e2cbd3df3342",
+      "decision": "statistical_and_selection_limits_no_new_semantic_card",
+      "reason": "The selected GDT775 span qualifies a position-confounded nominal-slot lean, nonindependent readings/decks, selection effects, drop-test fragility and adjacent-OL countercases. These are source-model/result constraints, not concrete meanings or decoder word outputs to export.",
+      "card_ids": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt775_ol_right_complement_slot_test/REPORT.md",
+          "line": 22,
+          "line_end": 72,
+          "quote": "## Was die Lesung trägt — und was nicht\n\nUnter 203 sauberen exakt-rechten Fallbacks ähnelt die\nRechtsfolgerverteilung der autorisierten Mischgruppe aus Inhalts-/Recordköpfen,\nMessfeld und Überschriften stärker als vollständigen Feld-/Formeloperatoren.\n`NOMINAL_HEAD` ist dabei nur ein interner Kurzname, keine upstream bestätigte\nGoldklasse. Im nur nach Oberflächenzahl balancierten 6+6-Deck\nlauten die Cosinuswerte\n0.391936 gegen 0.157614; im\n8+8-Deck 0.404435 gegen\n0.162711. Das 8+8-Deck erweitert das 6+6-Deck\nund ist keine unabhängige Replikation. Eine zweite Rechnung gewichtet jede\nAnkeroberfläche gleich, damit das häufige `chor` nicht allein entscheidet.\n\nDieser Vorsprung ist ein **positionskonfundierter Lean**, keine Rollenlösung:\n183/203 Zielkanten und\n263/297 nominale\nKernkanten sind medial, aber nur 4/\n42 Operatorkanten. Die 110 Leave-one-folio-Zeilen\nsind 55 physische Folios mal zwei verschachtelte Decks und daher\nStabilitätssensitivitäten, keine 110 unabhängigen oder prädiktiven Holdouts.\n\nDie 13 Ganzwörter erscheinen reader-exakt 77 Mal rechts\nvon `ol`, aber nur 27 Mal links davon. Weil die Familie als\nrechte Komplementfamilie zusammengestellt wurde, ist dieses Verhältnis nur\nselektionsbewusste Beschreibung, keine unabhängige Evidenz. Bei `cheey`, `kaiin`\nund `oiin` zeigen 3 von 19\nStellen eine einseitige fusionierte Alternativlesung (`olX`). Alle drei liegen\njedoch außerhalb der reader-exakten ausgewählten Spannen; die\n14 ausgewählten Auditfälle bleiben in allen\ndrei Lesungen getrennt. Die Fusionen zeigen daher nur lokale\nSegmentierungsunsicherheit und **keine** positive Bindungsevidenz. ZL3b, IT2a\nund RF1b sind drei Lesungen desselben Manuskripts, keine unabhängigen Zeugen.\n\nAuch der gepoolte nominale Vorsprung lizenziert nicht alle 66 Fälle: nur\n33 Tokens aus\n6 Ganzwörtern haben individuell einen\nstabilen nominalen Slot-Lead; 28 Tokens\nsind uninformativ und die 5 `kaiin`-Tokens\nlehnen operatorartig. Noch deutlicher ist der Drop-Test: ohne `daiin` kippt\ndas equalized 6+6-Deck zum Operator und das 8+8-Deck schrumpft auf fast Gleichstand;\nohne die ganze 13er-Familie kippen beide Decks. Der globale Lean ist damit eine\nDiagnostik, keine Lizenzquelle für den Renderer.\n\nDrei ausgewählte Spannen stehen unmittelbar nach einem weiteren `ol`. Sie\nbleiben für den explorativen Durchsatz sichtbar, tragen aber occurrence-lokal\n`C0_ADJACENT_OL_COLLISION`; insbesondere `ol ol olaiin` ist Gegenbeleg und\nnicht Bestätigung. `daiin` (fünf Familienspannen) und `dain` (zwei\nDurchsatzspannen) sind ausdrücklich neue Scope-Extrapolationen, nicht der\nExport bereits global erlaubter Karten.\n",
+          "sha256": "480697b2cb29f277a8f8db88efb1ae6d80b4da42033d9dbf0afc0030e80b2283"
+        }
+      ],
+      "reviewed_full_selected_span": true
+    }
+  ],
+  "counts": {
+    "selected_spans": 4,
+    "fully_read_selected_spans": 4,
+    "recovered_source_model_cards": 2,
+    "grammar_or_statistical_context_no_card": 2,
+    "unresolved_selected_spans": 0
+  },
+  "limits": [
+    "Metadata title ranking is navigation only. Original intake archives were not treated as substantive follow-up audits. Exclusions include prior gap/scope/recovery/type/polarity review IDs and source intervals.",
+    "Historical working interpretation only. No new independent manuscript meaning, image observation, score, experiment or reopening. Specific lexical defaults remain revisable.",
+    "Only four spans met the requested untouched-size-heading selection; no claim that excluded source presence establishes full proposition coverage."
+  ],
+  "validation": {
+    "known_source_ids": 4,
+    "validate_card_pass": 2,
+    "exact_quote_hash_checks": 8,
+    "source_hashes_match": true
+  },
+  "input_sha256": {
+    "experiments/yolo/gdt571_three_operator_two_slot_outer_voice/REPORT.md": "5484c385aff9287a373d9d8d9124891d97d670a121ee30d267c44b7a67087c2c",
+    "experiments/yolo/gdt597_nonsh_action_object_reference_phrasebook/REPORT.md": "3225dacf58677975c09c8d11f74c2857b9304a180c817d4f4f42156eeb331f6a",
+    "experiments/yolo/gdt631_prefixed_cth_quality_parts/REPORT.md": "22647ec417eef0781712527fc1aa17175959756c414a5c5687a482e89333f405",
+    "experiments/yolo/gdt775_ol_right_complement_slot_test/REPORT.md": "480697b2cb29f277a8f8db88efb1ae6d80b4da42033d9dbf0afc0030e80b2283"
+  },
+  "pending_comparison": {
+    "BB": {
+      "path": "research_registry/decisions/clean_gap_review_bb.json",
+      "sha256": "f09eae60284584c168727cf974269b2c19c93cec2490faf974d2ead16b5cce13",
+      "cards": 16,
+      "comparison_basis": "Bounded full-claim comparison from this and preceding assigned peer/recovery passes; no assertion of global deduplication."
+    },
+    "BD": {
+      "path": "research_registry/decisions/clean_gap_review_bd.json",
+      "sha256": "d354778abd69802fc261a06a59ad57c33448df85ef79e7c015f77fcde0934901",
+      "cards": 22,
+      "comparison_basis": "Bounded full-claim comparison from this and preceding assigned peer/recovery passes; no assertion of global deduplication."
+    },
+    "BE": {
+      "path": "research_registry/decisions/clean_gap_review_be.json",
+      "sha256": "0e1acad7a8a292917fa85c7dbbb8a6407ff68af0966adc6791cee6d8e1c9b0f4",
+      "cards": 11,
+      "comparison_basis": "Bounded full-claim comparison from this and preceding assigned peer/recovery passes; no assertion of global deduplication."
+    },
+    "BH": {
+      "path": "research_registry/decisions/clean_gap_review_bh.json",
+      "sha256": "bdbd3a984fc6cddaffb2d18f58a77f496a428bd2dddfa0adaea6085002a840ec",
+      "cards": 5,
+      "comparison_basis": "Bounded full-claim comparison from this and preceding assigned peer/recovery passes; no assertion of global deduplication."
+    },
+    "BI": {
+      "path": "research_registry/decisions/clean_gap_review_bi.json",
+      "sha256": "c24ba02600efcc445b00cb87d8b2bb564899445417ea8a8665717dfed5423833",
+      "cards": 25,
+      "comparison_basis": "Bounded full-claim comparison from this and preceding assigned peer/recovery passes; no assertion of global deduplication."
+    },
+    "BJ": {
+      "path": "research_registry/decisions/clean_gap_review_bj.json",
+      "sha256": "600fc9ca054ae359a3b653838ace248299a62ef50ac5c6ae3f14b57d7a987a5a",
+      "cards": 5,
+      "comparison_basis": "Bounded full-claim comparison from this and preceding assigned peer/recovery passes; no assertion of global deduplication."
+    },
+    "BK": {
+      "path": "research_registry/decisions/clean_gap_review_bk.json",
+      "sha256": "ff81fc29b1878c923aac8172b64ee2f6069a9fbe0eb108b2ce39f1534fe86468",
+      "cards": 9,
+      "comparison_basis": "Bounded full-claim comparison from this and preceding assigned peer/recovery passes; no assertion of global deduplication."
+    }
+  }
+}

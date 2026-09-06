@@ -5,8 +5,8 @@ headings, experiment methods, result rows without a proposition and pending
 extraction work are excluded. Their original records remain in the source archive.
 This is curation of historical hypotheses, not decipherment progress.
 
-The public snapshot contains **3,464 concrete semantic hypothesis variants** and
-**252 separate formal-role cards**. Active cards and the correction archive retain all **4,237 reviewed source cases**;
+The public snapshot contains **3,573 concrete semantic hypothesis variants** and
+**252 separate formal-role cards**. Active cards and the correction archive retain all **4,346 reviewed source cases**;
 **475 repetitions of identical normalized assertions** are grouped for display.
 All **5,370 proposal fragments**, **3,788 component excerpts** and **82 IP entries**
 have explicit dispositions. This is not a count of independently distinct theories.
@@ -80,9 +80,9 @@ audit is bounded and does not establish error-free global extraction.
 
 ## Reviewed identity and scoped failure memory
 
-The default public view currently has **3,416 semantic display entries** from
-3,464 active semantic variants. `semantic_identity_decisions.jsonl` records39
-approved equivalence groups, two related-but-distinct links,28 explicit rival
+The default public view currently has **3,525 semantic display entries** from
+3,573 active semantic variants. `semantic_identity_decisions.jsonl` records39
+approved equivalence groups, four related-but-distinct links,28 explicit rival
 links and two specializations. Whole-card V51/V60 continuity is backed by shared
 source-deck IDs, not merely matching names or occurrence counts. These are
 source-scoped propositions; shared subject words alone never establish identity.
@@ -190,3 +190,12 @@ Local source corrections use an ignored append-only overlay. One local B3
 completion rendering is now formal, leaving95 local semantic cards. Original
 local hypotheses and correction histories remain retrievable; no local source
 file or local source quote is included in the public correction packet.
+
+BM/BN review160 further short spans and BO four selected longer spans; BP/BS
+revisit long paragraphs already partially quoted. BQ/BR resolve the parent scope
+questions. Their109 new source cases include29 exact whole values and marked
+local relations, not109 independent mechanisms. Complete recipe wording keeps
+all token contributions; the AIR dry-workpiece falsifier remains limited to the
+same paradigm. BV restores two exact alias-table readings. BT distinguishes an
+entire process ladder from one default and a cloth-specific reading from an
+explicitly broadened one; five short/long comparisons remain unresolved.

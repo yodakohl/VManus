@@ -112,3 +112,11 @@ BL distinguishes two false assignments, five genuine historical rejections and
 eleven qualified controls. Next20minute cohorts BM/BN/BO and targeted BP long-
 paragraph revisits continue source recovery; peer findings are resolved in BQ/BR.
 A quote already present in another card is not full proposition coverage.
+
+BM–BV checkpoint:109 additional source cases retain4346 total cases;3573semantic
+and252formal variants remain. Two reviewed nonidentities add no forced unions;
+39equivalencegroups still reduce48displayvariants. Parent scope dispositions
+retain original reviews and concrete peer corrections. Next20minute packets
+audit literal-alias table recovery and held/rejected neighbors, while two scoped
+revision dossiers distinguish editorial choices from actual counterevidence.
+No new manuscript experiment or semantic confirmation is implied.
