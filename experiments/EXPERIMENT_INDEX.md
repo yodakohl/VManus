@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **849**
-- Experiment-associated tracked files: **15,901** (1.4 GiB)
-- Structured GDT337+ experiments: **514**
+- Experiments indexed: **850**
+- Experiment-associated tracked files: **15,921** (1.4 GiB)
+- Structured GDT337+ experiments: **515**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,7 +20,8 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT850 | Complete literal qolchedy joined split context inventory | `REGISTERED_UNSCORED` | — | 11 | 23.0 KiB | 4 | STRUCTURED_YOLO |
+| GDT851 | primitive tandem raw group discovery | `REGISTERED_UNSCORED` | — | 9 | 7.8 KiB | 0 | STRUCTURED_YOLO |
+| GDT850 | GDT850 | `COMPLETE_LITERAL_JOIN_SPLIT_DISCOVERY_NO_SEMANTIC_TEST` | [report](../experiments/yolo/gdt850_qolchedy_join_split_context_inventory/REPORT.md) | 22 | 1.5 MiB | 4 | STRUCTURED_YOLO |
 | GDT849 | GDT849 | `DESCRIPTIVE_GRID_COMPLETE_NO_CONFIRMATORY_TEST` | [report](../experiments/yolo/gdt849_two_e_run_grid_discovery/REPORT.md) | 18 | 559.5 KiB | 6 | STRUCTURED_YOLO |
 | GDT848 | GDT848 | `LOCAL_C_ANCHOR_SUPPORTED_CONTROLS_NOT_FULLY_REPLICATED` | [report](../experiments/yolo/gdt848_f104_visual_e_run_audit/REPORT.md) | 23 | 73.6 KiB | 3 | STRUCTURED_YOLO |
 | GDT847 | GDT847 | `COUNT_DIFFERENCE_FULLY_RECONCILED` | [report](../experiments/yolo/gdt847_source_count_contract_reconciliation/REPORT.md) | 16 | 30.7 KiB | 3 | STRUCTURED_YOLO |
@@ -63,7 +64,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT810 | GDT810_quality_arity_value_run | `NO_EXTERNAL_PAIRED_QUALITY_MULTIPLE_VALUE_SUPPORT` | [report](../experiments/yolo/gdt810_quality_arity_value_run/REPORT.md) | 17 | 289.5 KiB | 9 | STRUCTURED_YOLO |
 | GDT809 | GDT809_repaired_context_and_joint_paragraphs | `COMPLETE_REPAIR_AND_JOINT_EXPLORATION__TWO_FORMAL_ASSOCIATIONS__FOUR_COMPLETE_PARAGRAPHS__MEANINGS_UNRESOLVED` | [report](../experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/REPORT.md) | 53 | 2.5 MiB | 14 | STRUCTURED_YOLO |
 | GDT808 | GDT808_exact_relation_slot_residual_bridge | `COMPLETE__L_AND_DY_PORTABLE_RECORD_OR_FORM__TWO_DISTINCT_OR_AXIS_BOUND_RELATIONS__R06_RECORD_CHANNEL_LEADS__ZERO_LEXEMES` | [report](../experiments/yolo/gdt808_exact_relation_slot_residual_bridge/REPORT.md) | 45 | 5.2 MiB | 14 | STRUCTURED_YOLO |
-| GDT807 | GDT807_target_masked_paragraph_exchange_codebook | `COMPLETE__0_ROBUST__3_PROVISIONAL__0_NO_SPLIT__ZERO_SEMANTIC_PROMOTION` | [report](../experiments/yolo/gdt807_target_masked_paragraph_exchange_codebook/REPORT.md) | 36 | 2.3 MiB | 8 | STRUCTURED_YOLO |
+| GDT807 | GDT807_gate_failure_interpretation_correction | `SOLE_ERROR_NOT_ALL_OTHER_GATES_PASS` | [report](../docs/RELATION_GATE_SCOPE_CORRECTION.md) | 36 | 2.3 MiB | 8 | STRUCTURED_YOLO |
 | GDT806 | GDT806_three_channel_whole_context_replication | `PASS__652_GLOBAL__577_RESIDUAL__967_TARGET_EVENTS__0_CONDITIONAL__0_CROSS_DENOMINATOR__6_UNRESOLVED__0_NEW_ROLES__ZERO_LEXEMES` | [report](../experiments/yolo/gdt806_three_channel_whole_context_replication/REPORT.md) | 32 | 1.7 MiB | 12 | STRUCTURED_YOLO |
 | GDT805 | GDT805_eleven_whole_context_role_discriminator | `PARTIAL__1086_EXTERNAL_EVENTS__916_TARGET_TOKEN_STABLE__131_GDT739_SURFACES_AUDITED__75_PRIMARY_SURFACE_PROJECTIONS__21_K12_PROFILE_LEADS__2_DOMINATE_ALL_K12__7_REAL_TWO_SIDED_MULTIFOLIO_FRAMES__0_NEW_ROLE_SELECTIONS__2_PRIORS_RETAINED__ZERO_LEXEMES` | [report](../experiments/yolo/gdt805_eleven_whole_context_role_discriminator/REPORT.md) | 27 | 867.8 KiB | 14 | STRUCTURED_YOLO |
 | GDT804 | GDT804_bracket_middle_independent_field_bridge | `PARTIAL__11_BRACKET_MIDDLES__0_OPEN_SLOT_INTERSECTION__72_COMMON_MASK_FIELDS__18_OF_45_FIELD_CELLS__15_POSITIONAL_AMOUNT_NEIGHBOURS__0_GDT760_CLEAN_CONTENT_CONTACTS__FIELD_ASSOCIATION_MATCH_SENSITIVE__CONTENT_SLOT_UNRESOLVED__41_ZL3B_QUALITY_VALUE_SPANS__33_CROSS_READER_SEQUENCES__CHEOL_SPECIFICITY_UNRESOLVED__ZERO_LEXEMES` | [report](../experiments/yolo/gdt804_bracket_middle_independent_field_bridge/REPORT.md) | 31 | 994.4 KiB | 17 | STRUCTURED_YOLO |

@@ -7,23 +7,22 @@ Latest mandate: at least10h active research, start2026-09-06 03:40:45UTC;
 not complete before13:40:45UTC unless user interrupts/changes the mandate.
 Active goal/session record: `docs/RESEARCH_SESSION_2026-09-06.md`.
 
-GDT846: GDT845 ee+d direction survives section/hand conditioning descriptively,
-but exact paired folio support is only1qo/bare and1qo/o stratum. f113qo/bare
-has no ee+d hits; f104qo/o has [1,0,6,5] vs[0,1,1,1]. No general prefix rule.
-GDT848: both native viewers support two arcs plus loop at f104r.33#2;
-A count uncertain, B count disagrees, D unlocalized by second viewer.
-Retain local C anchor; full0/1/2and cross-prefix claims remain text-level.
-No additional regression/subgroup test selected. Keep845raw contract fixed.
-GDT847 resolves829=816+10bracket alternatives+2brace removals+1inline metadata.
-The metadata-bearing tchedy case is not an uncertain glyph reading. No change
-to old bytes,48-cell occupancy or meaning. Primary reports via lookup846/847.
+GDT850 inventories joined qolchedy versus definite qol chedy:28loci,16outside
+824's12target loci. f75v.44 has both forms in one line in ZL/IT; no uniform
+page/hand-only spelling rule. No shared four-neighbor frame or meaning.
+IT split+qokain f75r.33 was already explicit in823, not a new counterexample.
+Next: GDT851 bounded primitive tandem-block inventory, prereg pending;
+no copy/meaning inference or automatic scope expansion.39idea sketches retained.
 
-GDT849 finds20/36two-e-run cells in each reading, all0/1corners in four strata;
-only five primary e2hits, no2/2exposure. No coupling rule or semantic credit.
-Producer keeps39sketches including IP045(tandem periods) and IP046(join/split
-contexts); primary review precedes selection. Seven prior abstract priorities remain deferred; details in backlog.
-GDT844 stays stopped; GDT841/842 readability and GDT843 context-only deck remain.
-No unowned caption scores, new same-photo counts, unavailable f67r2 MSI reruns.
+GDT845/846: ee+d prefix direction persists descriptively under section/hand,
+but paired folio support is only f113qo/bare and f104qo/o; no general rule.
+GDT848: both viewers support two arcs plus loop f104r.33#2; controls disagree
+or remain uncertain. Full0/1/2and cross-prefix claims remain text-level.
+GDT849:20/36two-e-run cells per reading, all0/1corners in four strata;
+five primary e2hits, zero2/2exposure. No coupling rule or semantic credit.
+GDT847 resolves829=816+10bracket choices+2brace removals+1inline metadata;
+metadata-bearing tchedy is not glyph uncertainty. Old bytes remain unchanged.
+GDT844/stars remain stopped; no unowned caption scores or same-photo recounts.
 
 Goal: transferable translation. Confirmed English lexemes: **0**;
 confirmed German lexemes/clauses: **0**. No new fit selected.
@@ -121,6 +120,9 @@ run `./vmanus-exp route-check QUERY`; lexical ranking is navigation, not validat
 Keep GDT001–336 byte-frozen; GDT336 is only a weak placement prior. GDT337+ require
 scaffold/manifests; GDT394+ explicitly seal f84/f84r. New relation packets require
 `check-edge-packet` capacity/provenance/held/mobile-null gates before scoring.
+GDT388 endpoint/failure interpretation: `docs/RELATION_GATE_SCOPE_CORRECTION.md`.
+Local visual observations are distinct from ordered inscription edges; one
+emitted gate error does not establish passage of the other scientific gates.
 Record material corrections in `experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv`;
 `VOYNICH_ACTIVE_STATE.md` holds full claims. Old logs/handoff are recovery archives.
 Publish authorized work after exact staged privacy/scope checks, preserve unrelated

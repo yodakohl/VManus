@@ -721,7 +721,7 @@ Nachjustierung anhand der GDT838-/GDT829-Ergebnisse. Gesamtziel 8–10 Minuten.
 
 ### IP046 — Getrennte und fusionierte Ausdrucksform: tragen sie dieselben Anschlüsse?
 
-Status: `REVIEWED_DISCOVERY_CANDIDATE`, Auswahlpriorität 2.
+Status: `IN_PROGRESS` — root hat IP046 für GDT850 ausgewählt; Registrierung und Ausführung bei root.
 **Konkrete Anker:** [GDT824](../experiments/yolo/gdt824_qolchedy_fixed_composition/WORKING_THEORY.md)
 belegt die fusionierte Ganzgruppe `qolchedy` neben `qokain` auf f81v.17 und
 f82r.2; f77r.34 ist dagegen ein bekannter ZL-joined/IT-split-Leserwechsel.
@@ -777,3 +777,77 @@ Qualitätswerte wäre dieselbe Sackgasse. Ebenso liefert `s aiin` aus GDT758
 allein keine unabhängige Mehrfachargumentbindung für eine neue ana-Behauptung.
 Stand: 39 Skizzen IP008–IP046; keine Daten-/Bild-/Weböffnung und kein Experiment
 in dieser Producer-Runde. Schreibzuständigkeit an root zurückgegeben.
+
+
+## Auswahlprüfung: Was IP045 tatsächlich entscheiden könnte
+
+**IP046 ist als GDT850 ausgewählt; IP045 bleibt
+`REVIEWED_DISCOVERY_CANDIDATE`, aber nicht mehr pauschal Priorität 1.**
+Die bisherige Reihenfolge wird durch diese Entscheidungsprüfung ersetzt.
+GDT848/GDT849 liefern inzwischen einen lokal visuell bestätigten Zwei-Bogen-Anker
+auf f104r.33#2, jedoch keine replizierte vollständige Kontrollreihe; daraus wird
+hier keine zusätzliche semantische oder kodierungstechnische Evidenz abgeleitet.
+
+**Verfügbare Fundstelle:** [GDT651, „Vier neu vollständige Zeilen“](../experiments/yolo/gdt651_ckh_four_shell_family_migration/REPORT.md)
+zeigt f83r.27 `dain chedy qokeedy shckhedy shckhedy`, dort ausdrücklich
+als dreileser-strikt bezeichnet. Das ist ein wirklicher Ganzgruppen-Doublet,
+kein nur aus Arbeitstags erzeugtes Doppelereignis. [GDT820 METHOD](../experiments/yolo/gdt820_grouped_predicate_repetition_context/METHOD.md)
+untersucht rohe adjazente Paare in 174 Records/14 Selektoren; sein Vertrag
+enthält keinen primitiven Perioden-2/3-Zensus. Der verfügbare Anker belegt
+also Periode 1; eine konkrete Periode 2 oder 3 ist in diesen gelesenen Quellen
+weiterhin nicht belegt.
+
+**Expliziter Mechanismengegensatz — derzeit nicht entscheidbar:** Eine unmittelbare
+Mehrgruppen-Wiederholung `XYXY` wäre mit einem Kopierer ganzer Blöcke vereinbar.
+Sie widerlegt aber weder gewöhnliche lexikalische/syntaktische Wiederholung noch
+einen Wortgenerator, der die Folge zufällig oder kontextabhängig erzeugt.
+Ebenso widerlegt ihr Ausbleiben keinen seltenen oder anders dimensionierten
+Blockkopierer. „Nur wortweises Kopieren“ ist ohne spezifizierten übrigen Generator
+keine Wahrscheinlichkeitsverteilung und liefert keinen belastbaren Falsifier.
+Der Zensus darf daher nicht als Entscheidung zwischen Chiffre und Sprache,
+als Beweis einer Phrase oder als Schätzung der Informationsmenge verkauft werden.
+
+**Was der kleinste Test sinnvoll ändert:** Der unveränderte 8–10-Minuten-Zensus
+kann die engere *beobachtbare* Behauptung prüfen, dass sichere unmittelbare
+identische Wiederholungen innerhalb einer physischen P-Zeile im zugelassenen
+Korpus ausschließlich primitive Periode 1 besitzen. Eine einzige sicher
+zurückgeführte Periode 2/3 falsifiziert diese endliche Korpusbehauptung und
+liefert eine konkrete ganze Passage als neuen Discoverygegenstand. Keine Treffer
+beendet genau diesen Zensus. Das ist ein möglicher Datenfund, aber gegenüber
+GDT850 nachrangig, solange kein Folgetest aus dem Fund eine eigenständige
+Manuskriptentscheidung macht. Keine automatische Kontrollmodell-Baustelle.
+
+**Neuheitsrisiko und geschlossene Nachbarroute:** route-check
+`whole word primitive tandem block copying first order transition preserving Euler shuffle`
+führt auch zur geschlossenen Familie
+`PAIRWISE_PRESERVING_HIGHER_ORDER_LINE_ASSEMBLY`. Deren Registry-Kurzfassung
+nennt IL026s gescheiterte Powerkalibrierung; der dort verlinkte Primärbericht
+`results/il026_higher_order_power_calibration.md` war im Arbeitsbaum nicht verfügbar
+(auch kein entsprechender Dateiname im gezielten rg-Dateiscreen). Das ist
+explizit **keine gelesene Primärquelle** und keine Freigabe für eine Variante
+mit neuem Euler-/Markov-Nullmodell. Vor einem solchen Wechsel müssten der
+Primärvertrag wiederbeschafft und die geschlossene Route eingehalten werden.
+[GDT344 REPORT](../experiments/yolo/gdt344_grammar_transition_paths/REPORT.md)
+wurde direkt gelesen: 2.694 atomare GDT327-Gruppen und 2.660 Übergänge auf
+17 Folios, kein übertragbarer Gewinn oberhalb des exakten Vorgängers.
+Das ist kein bereits durchgeführter Ganzgruppen-Tandemzensus, erlaubt aber
+auch keine Behauptung, ein neuer höherer Ordnungstest sei automatisch neu.
+
+**Ergebnis dieser Producer-Prüfung:** In den hierfür gelesenen Primärquellen
+ist kein zusätzlicher bereits verfügbarer unabhängiger Kontrast identifiziert,
+der einen bestimmten Kodiermechanismus gegen gewöhnliche Wortvariation
+entscheidet oder ein Textmerkmal an eine neue nichtsprachliche Beobachtung
+bindet. Kein neuer READY-Kandidat und keine neue ID. IP045 ist allenfalls eine
+kleine, konkrete Suche nach bisher nicht vorliegenden Beispielen; IP046/GDT850
+hat den unmittelbaren Vorrang. Alle bisherigen Skizzen bleiben erhalten.
+Keine Rohdaten-/Bild-/Webzugriffe und kein Experiment. Schreibzuständigkeit
+an root zurückgegeben.
+
+### Root decision after GDT850
+
+IP046 completed: full179selector census has28target loci,16outside824s target
+list. f75v.44 has both joined/split forms in ZL/IT within one line; no uniform
+page/hand-only rule. No shared four-neighbor frame or semantic equivalence.
+The IT split+qokain75r.33 was already known823. Primary GDT850 REPORT governs.
+IP045 selected for GDT851 bounded primitive-period census only; no copying
+mechanism test, no new null/IL026 reopening, no automatic enlargement.

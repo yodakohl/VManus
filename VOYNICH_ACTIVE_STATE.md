@@ -22202,9 +22202,13 @@ families.  Only then may historical NAME/PART/QUALITY/DEGREE or
 COMMAND/INGREDIENT/UNIT/VALUE topologies orient a role-class rival.
 
 The independent validator passes 24 full reconstruction blocks and a
-byte-identical builder replay.  All 537 GDT388 rows fail closed solely because
-formal access was not sealed.  There are zero lexemes, plaintexts, component
-exports, renderer licences or semantic promotions.
+byte-identical builder replay. The537GDT388 rows are explicitly ineligible
+text-context relations, not almost-score-ready authorial edges. Correction
+2026-09-06: the sole emitted formal-access error does not prove other gates
+passed; several checks run only for ELIGIBLE rows. Geometry, direction,
+ownership, folds and source hashes were not supplied in eligible form.
+See `docs/RELATION_GATE_SCOPE_CORRECTION.md`. There are zero lexemes, plaintexts,
+component exports, renderer licences or semantic promotions.
 
 Primary report:
 `experiments/yolo/gdt807_target_masked_paragraph_exchange_codebook/REPORT.md`.
@@ -23042,3 +23046,13 @@ at f104r.33 group2. A count is uncertain for B, target B count disagrees1/2,
 and D is unlocalized by B. The full0/1/2sequence and qo/o contrast remain
 transcription-level. One local visual anchor, no segmentation or meaning.
 Source URLs and unaltered judgments: `experiments/yolo/gdt848_f104_visual_e_run_audit/REPORT.md`.
+
+## GDT850 joined/split source inventory, 2026-09-06
+
+All179selectors supply28target loci,16outside GDT824s12target inventory.
+ZL3b11joined/13split, IT2a10/19, RF1b7/12. On f75v.44 ZL/IT retain both
+forms in one line; page/hand-only uniform spelling is insufficient. No
+shared four-neighbor context or meaning follows. IT split+qokain f75r.33
+was already in823; retain it without new-discovery credit. Primary report:
+`experiments/yolo/gdt850_qolchedy_join_split_context_inventory/REPORT.md`.
+Next851 is only a bounded primitive tandem inventory, not a copy detector.
