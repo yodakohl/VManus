@@ -291,3 +291,35 @@ preserved for the three scoped restorations.190 restatements,48 equivalence
 groups/57 display reductions and37 other relations;35 scoped dossiers and9
 unready priorities. Identity input snapshot extends30 to32 reviewed files.
 No manuscript finding or automatic scientific status change.
+
+EE/EF/EG/EH/EI integration decision: eight retained real source hypotheses,
+seven full construction/revision cases, one substantive-role type correction,
+and one narrow pcheey model-revision dossier are ready for integration. EI
+checks two previously unreviewed pairs and awaits its independent final receipt.
+Missing questions concern complete source contracts and conditional donor/meaning
+assumptions, not additional manuscript computation. EG includes one documented
+repeat of an explicit DE type judgment; keep that selection error visible and
+follow current case review/peer before future type selection. Smallest adequate
+work is applying reviewed scope corrections and current-basis checks, then
+publication. Budget25minutes including preparation, checks and push. No new
+experiment, raw event access or meaning confirmation.
+
+EJ/EL bounded follow-up decision: the 28 named GDT767 defaults are available
+in authored lexicon specifications. EJ resolves eight missing full readings and
+three existing counterparts; the exact remaining17 require complete-card
+comparison, not new source gathering. EL gets25minutes to close that named set;
+a separate peer checks resulting claims. Do not invent missing-data blockers or
+force new cards where the complete proposition already exists.
+
+Validation-summary correction: the local aggregation command had refreshed
+the separate operational and clean-source audit files but left two embedded
+VALIDATION.json summary objects at the DK–DP snapshot. Refresh those objects
+from the actually passed current audits and point the correction summary to
+clean_semantic_ideas_validation.json. No source claim, primary evidence or
+operative decision changed; this is a reporting freshness repair.
+
+EE–EI checkpoint:4068 active=3803 semantic+265 formal;4589 source cases;
+44 archived exports;191 scope restatements.49 equivalence groups reduce58
+display variants,37 other relations;36 scoped dossiers and9 unready priorities.
+No default representative override, new manuscript observation or meaning
+confirmation. EJ/EL/EK and EM remain pending review/integration.

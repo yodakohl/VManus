@@ -1,0 +1,348 @@
+{
+  "review_id": "SEMANTIC_TYPE_PEER_EG",
+  "status": "APPROVE_EIGHT_TYPE_DECISIONS_WITH_SELECTION_RECEIPT_CORRECTION",
+  "input": {
+    "path": "research_registry/decisions/semantic_type_review_eg.json",
+    "sha256": "bdefe378af3707bbab02d67db55e45237d00a3e20f694931f48c9665ddf8b950"
+  },
+  "reviews": [
+    {
+      "target": "SEM:fce8a5be7bcd1f60dea3",
+      "claim": "qokeol → Behandlungs- oder Prozessfeld",
+      "current_type": "formal_role",
+      "decision": "approve",
+      "approved_action": "restate_scope",
+      "recommended_type": "functional_hypothesis",
+      "card_basis": "5cfd324205e9c659e8171018f3b1e792c0648ed3df8ebe2f21bc965672e91068",
+      "effective_basis": "9ebff5008c395158bc4c364a4eca2f713cd19e8fb8df429673f2b036617b7f65",
+      "all_cases_reviewed": true,
+      "case_ids": [
+        "REPORT_PROPOSAL:4c341a590cfd5b0918c6"
+      ],
+      "reason": "The treatment/process field is an explicit content-role alternative in the Gegenrivale column, contrasted with preparation/material. It is not the adjacent HOT_VALUE decision tag or a discovered treatment action. Functional_hypothesis correctly brings this real but unresolved hypothesis into the semantic list without narrowing the disjunction.",
+      "evidence": [
+        {
+          "line": 79,
+          "path": "experiments/yolo/gdt805_eleven_whole_context_role_discriminator/REPORT.md",
+          "quote": "| `qokeol` | 38/25 | Zubereitungs- oder Stofffeld | Behandlungs- oder Prozessfeld | `HOT_VALUE_CONTEXT_FIELD__PROCESS_PREPARATION_QUALITY_UNRESOLVED` |",
+          "sha256": "a7d1149d3341973909288cd531d863d446fd7acefadff98844db55eac56625f5"
+        },
+        {
+          "path": "experiments/yolo/gdt805_eleven_whole_context_role_discriminator/REPORT.md",
+          "sha256": "a7d1149d3341973909288cd531d863d446fd7acefadff98844db55eac56625f5",
+          "line": 69,
+          "line_end": 88,
+          "quote": "\n| Form | Außenstellen/Folios | führender konkreter Rivale | Gegenrivale | Entscheidung |\n|---|---:|---|---|---|\n| `chal` | 41/26 | Stoff- oder Zubereitungseintrag | Qualitäts- oder Zustandsfeld | `PROJECTED_MATERIAL_OR_QUALITY_CONTEXT_PROFILE__NO_DIRECT_SLOT` |\n| `chedal` | 21/15 | Material-/Mengenfeld | Material-/Mengenartikel oder Rohstoff | `MATERIAL_OR_AMOUNT_RIVALS_UNRESOLVED__NO_DIRECT_SLOT` |\n| `cheol` | 141/70 | Stoff- oder Zubereitungseintrag | Qualitäts- oder Zustandsfeld | `DRY_VALUE_CONTEXT_PROFILE__MATERIAL_OR_QUALITY_UNRESOLVED__NO_DIRECT_SLOT` |\n| `okail` | 0/0 | uninterpretierter Eintrag | Material- oder Zustandsfeld | `NO_EXTERNAL_CAPACITY` |\n| `okal` | 122/62 | Kennstellen-/Systemcode | Ansatz- oder Materialeintrag | `RETAIN_GDT793_OPAQUE_ENTRY_PRIOR__MATERIAL_CONTEXT_RIVAL` |\n| `ol` | 462/104 | Ansatz-/Zubereitungsträger | bestimmtes Medium: Öl, Wasser oder Wein | `RETAIN_GDT762_GENERAL_CARRIER_PRIOR__SPECIFIC_MEDIUM_UNSUPPORTED` |\n| `otal` | 117/56 | Ausgangsansatz oder Stoffzubereitung | Qualitäts- oder Zustandsfeld | `PREPARATION_OR_QUALITY_CONTEXT_PROFILE__NO_DIRECT_SLOT` |\n| `qokeol` | 38/25 | Zubereitungs- oder Stofffeld | Behandlungs- oder Prozessfeld | `HOT_VALUE_CONTEXT_FIELD__PROCESS_PREPARATION_QUALITY_UNRESOLVED` |\n| `qokol` | 87/51 | Zubereitungs- oder Stofffeld | Behandlungs- oder Prozessfeld | `VALUE_CONTEXT_FIELD__PROCESS_PREPARATION_UNRESOLVED` |\n| `qotal` | 56/34 | Stoff- oder Zubereitungsfeld | Qualitäts- oder Zustandsfeld | `MATERIAL_OR_QUALITY_RIVALS_UNRESOLVED__NO_ROLE_LEAD` |\n| `sail` | 1/1 | uninterpretierter Eintrag | Stoffart oder Mengenfeld | `NO_EXTERNAL_CAPACITY` |\n\nNeu ausgewählt wird keine Rolle. Beibehalten werden nur zwei ältere\nBasismodelle: `okal` als Kennstellen-/Systemeintrag mit Materialkontext-Rivale\nund `ol` als allgemeiner mengenfähiger Inhaltsträger. Insbesondere bleibt offen,\nob `ol` Öl, Wasser, Wein oder überhaupt ein konkretes Medium bezeichnet.\n"
+        }
+      ],
+      "semantic_status_change": false
+    },
+    {
+      "target": "SEM:8966b3eec7bc1a705e2f",
+      "claim": "The initial Pass1021 technical candidate interprets all 40 doubled-core cases as an outer/inner nested frame; the report rejects that universal scope because free dalal=AL+AL and ychey=Y+Y lack the internal complement needed for level descent.",
+      "current_type": "formal_role",
+      "decision": "approve",
+      "approved_action": "retain",
+      "recommended_type": "formal_role",
+      "card_basis": "faa94111afc58750952525d3bfb0e3f993d3995a052da7c56f9313c457144af4",
+      "effective_basis": "715689422152ca850edb991fe7012bb99a1bdf890356c3c81b6ec4702a71a545",
+      "all_cases_reviewed": true,
+      "case_ids": [
+        "CLEAN_GAP_AZ:all_doubles_nested_rival"
+      ],
+      "reason": "The assertion evaluates universal nesting of doubled packages. The rejected scope and the free-pair counterexamples are part of its historical structural rule. The alternative two-target reading in surrounding prose does not turn the universal nesting claim itself into an additional lexical assignment.",
+      "evidence": [
+        {
+          "line": 49,
+          "line_end": 57,
+          "path": "experiments/yolo/sidequest_semantic_repeated_core_operator_one_thousand_twenty_first/PASS1021_REPORT.md",
+          "quote": "Die erste technische Kandidatur wollte alle 40 Fälle als äußeren/inneren\nDoppelrahmen lesen. Das trägt `CH+CH` und `OR+OR` gut, aber ein freies\n`dalal = AL+AL` oder `ychey = Y+Y` hat rechts keine innere Ergänzung, die einen\nStufenabstieg sichtbar macht. Dort ist „zwei Ziele/Posten“ die einfachere\nLehrregel. Umgekehrt wäre bloße Wiederholung für `CH+CH+T/K/P` zu flach, weil\ndie Doppelung gerade an einer geöffneten Paketgrenze entsteht.\n\nDie Zweiteilung ist deshalb nicht ein Kompromiss, sondern folgt der graphischen\nStellung.",
+          "sha256": "84affc6bc0549129ba953cac240822bfdc475a458088933a6fa944aa0306c38d"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_repeated_core_operator_one_thousand_twenty_first/PASS1021_REPORT.md",
+          "sha256": "84affc6bc0549129ba953cac240822bfdc475a458088933a6fa944aa0306c38d",
+          "line": 8,
+          "line_end": 16,
+          "quote": "Ein einziger universeller Wert wäre verführerisch, aber zu grob. Die 40 Fälle\nteilen sich sauber in zwei Werkstattregeln:\n\n```text\nPAKETGRENZE:  X + X + Z  -> äußeres X [inneres X [Z]]\nFREI:         X + X      -> zwei X bei Dingen / X nochmals bei Handlungen\n```\n\nBeide Regeln lesen jeden Kern zweimal und geben ihm keinen neuen Wert."
+        }
+      ],
+      "semantic_status_change": false
+    },
+    {
+      "target": "SEM:c49bf9b6721079e12689",
+      "claim": "Pass1023 resolves its equal-distance attachment cases by first opening a doubled core as a package or free pair and reading inside that package left to right: a supplement after an open action head closes on that head before a later action opens its inner frame; L/AIR instead open a forward frame on the right head. AIR and doubled-package branches are stipulated here: neither occurs in that 120-case tie pool.",
+      "current_type": "formal_role",
+      "decision": "approve",
+      "approved_action": "retain",
+      "recommended_type": "formal_role",
+      "card_basis": "25507b69f7d9218fe11450df264923ab7d1d613fc85a3c74a764697b1c5aa837",
+      "effective_basis": "23298cdfb29f24167a90404dd0c087952e36ac35a031a4477d42f950a8dfe52d",
+      "all_cases_reviewed": true,
+      "case_ids": [
+        "CLEAN_GAP_CG:equal_distance_package_rule"
+      ],
+      "reason": "The equal-distance rule decides which already interpreted head receives a supplement. Its AIR and double-package clauses are stipulations absent from the120cases. Keep the structural rule and do not inherit a new meaning, the failure of the broader unequal-distance extension, or an independently validated syntax claim.",
+      "evidence": [
+        {
+          "line": 16,
+          "line_end": 18,
+          "path": "experiments/yolo/sidequest_semantic_scope_ambiguity_resolution_one_thousand_twenty_third/EQUAL_DISTANCE_REPORT.md",
+          "quote": "Die geometrische Gleichnähe muss also nicht durch eine neue Bedeutung\naufgelöst werden. Entscheidend ist, ob der Kern den offenen Kopf schließt oder\nselbst einen vorwärts gerichteten Rahmen eröffnet.",
+          "sha256": "a4c1adec41826f4df1e4e270f45246cc30ecd4bebe39cf0298f28ed752d04ea6"
+        },
+        {
+          "line": 5,
+          "line_end": 18,
+          "path": "experiments/yolo/sidequest_semantic_scope_ambiguity_resolution_one_thousand_twenty_third/EQUAL_DISTANCE_REPORT.md",
+          "quote": "Alle 120 Gleichabstandsstellen sind mit einer einzigen kleinen Paketregel\nentscheidbar:\n\n```text\n1. Eine Pass-1021-Doppelung zuerst als Paket oder freies Paar öffnen.\n2. Innerhalb des geöffneten Pakets von links nach rechts lesen.\n3. Ein Zusatz nach einem offenen Handlungskopf schließt an diesen linken Kopf,\n   bevor ein späteres Handlungssymbol seinen neuen Innenrahmen eröffnet.\n4. Nur L/AIR sind Vorwärtsrahmen und greifen auf den rechten Kopf.\n```\n\nDie geometrische Gleichnähe muss also nicht durch eine neue Bedeutung\naufgelöst werden. Entscheidend ist, ob der Kern den offenen Kopf schließt oder\nselbst einen vorwärts gerichteten Rahmen eröffnet.",
+          "sha256": "a4c1adec41826f4df1e4e270f45246cc30ecd4bebe39cf0298f28ed752d04ea6"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_scope_ambiguity_resolution_one_thousand_twenty_third/EQUAL_DISTANCE_REPORT.md",
+          "sha256": "a4c1adec41826f4df1e4e270f45246cc30ecd4bebe39cf0298f28ed752d04ea6",
+          "line": 102,
+          "line_end": 128,
+          "quote": "Der einzige Rechtsfall ist:\n\n```text\nf77r · P1003-E0393\nCH + L + CH + P + SH + EE + Y\n→ CH[(VERBINDUNG → CH)[P[SH[GRAD II; POSTEN]]]]\n```\n\n`L=VERBINDUNG` eröffnet den folgenden `CH`-Rahmen. `AIR=LAUF` hätte dieselbe\nRichtung, erscheint aber in keiner der 120 Gleichabstandsstellen.\n\n## Mehrkopfkarte und Doppelregel\n\nAlle Stellen liegen definitionsgemäß zwischen zwei Handlungsköpfen. Der\ndirekte Anschluss des Fokus und die Klammerung der ganzen Karte sind zwei\nverschiedene Fragen:\n\n- `LEFT` bedeutet: Fokus direkt am linken Kopf; der rechte Kopf bleibt darin\n  als folgende innere Handlung verschachtelt.\n- `RIGHT` bedeutet: Fokus rahmt direkt den rechten inneren Kopf.\n- `NESTED` wäre nötig, wenn der Fokus selbst eine äußere/innere Doppelstufe\n  bildet.\n\nKeine der 120 Ereigniskarten überschneidet sich mit den 40 in Pass 1021\nentschiedenen Doppelereignissen. Die Doppelregel wird deshalb weder geändert\nnoch erneut ausgelegt. Ihr Vorrang bleibt trotzdem der erste Handgriff: erst\nPaket öffnen, danach Seite binden."
+        }
+      ],
+      "semantic_status_change": false
+    },
+    {
+      "target": "SEM:357fb5f1d1f842ae8619",
+      "claim": "Pass338 distinguishes three learning layers: productive cards with one recorded surface form a fixed teaching script; cards with several registered surfaces permit hand-dependent choice; and indivisible technical cards with one form are memorized from the master exemplar. Compositionality and graphic variability are separate axes: the learned whole cards chety/chty=crushing and cheey/shey=clear extract are nevertheless variable in form.",
+      "current_type": "formal_role",
+      "decision": "approve",
+      "approved_action": "retain",
+      "recommended_type": "formal_role",
+      "card_basis": "4144a19818840f73f83bf2e965bc9db6998e5088b38d0382599a6ddce1cca098",
+      "effective_basis": "84cac6bded185c0e688db517c94ecab8271d226bc13bf76e053e7837d80f3374",
+      "all_cases_reviewed": true,
+      "case_ids": [
+        "CLEAN_GAP_DE:learning_layers_and_variation_axes"
+      ],
+      "reason": "The proposition classifies productive/learned cards independently of orthographic variability. Crushing and clear-extract identify already named examples in that taxonomy. The present claim is not a new assignment of those meanings; source-specific examples must remain visible without forcing a semantic type.",
+      "evidence": [
+        {
+          "line": 3,
+          "line_end": 13,
+          "path": "experiments/yolo/sidequest_semantic_multiscribe_teaching_chart_three_hundred_thirty_eighth/THREE_HUNDRED_THIRTY_EIGHTH_REPORT.md",
+          "quote": "Das 173-Karten-Deck teilt sich praktisch in drei Lernschichten. 125 produktive\nKarten mit 163 Ereignissen besitzen auf den zehn Seiten nur eine Oberfläche und\nbilden die feste Lehrschrift. 34 Karten mit 202 Ereignissen besitzen mehrere\nregistrierte Oberflächen und erlauben eine handabhängige Wahl. 14 unteilbare\ntechnische Karten mit 16 Ereignissen besitzen nur eine Form und werden aus dem\nMeisterexemplar memoriert.\n\nZwei gelernte Ganzkarten sind zugleich allographisch variabel:\n`chety|chty=Zerkleinern` und `cheey|shey=Klarauszug`. Das trennt sinnvoll die\nFragen „ist die Karte kompositionell?“ und „darf die Hand sie verschieden\nschreiben?“.",
+          "sha256": "2f2a0ab42bb300bc92578a065ec579e42d94a32156930113b9604d366fee602e"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_multiscribe_teaching_chart_three_hundred_thirty_eighth/THREE_HUNDRED_THIRTY_EIGHTH_REPORT.md",
+          "sha256": "2f2a0ab42bb300bc92578a065ec579e42d94a32156930113b9604d366fee602e",
+          "line": 1,
+          "line_end": 17,
+          "quote": "# Pass 338 — gemeinsame Mehrschreiber-Lehrtafel\n\nDas 173-Karten-Deck teilt sich praktisch in drei Lernschichten. 125 produktive\nKarten mit 163 Ereignissen besitzen auf den zehn Seiten nur eine Oberfläche und\nbilden die feste Lehrschrift. 34 Karten mit 202 Ereignissen besitzen mehrere\nregistrierte Oberflächen und erlauben eine handabhängige Wahl. 14 unteilbare\ntechnische Karten mit 16 Ereignissen besitzen nur eine Form und werden aus dem\nMeisterexemplar memoriert.\n\nZwei gelernte Ganzkarten sind zugleich allographisch variabel:\n`chety|chty=Zerkleinern` und `cheey|shey=Klarauszug`. Das trennt sinnvoll die\nFragen „ist die Karte kompositionell?“ und „darf die Hand sie verschieden\nschreiben?“.\n\nAls nächstes werden die 34 variablen Karten benutzt, um vier vollständige\nSchreiberprofile über alle 381 Ereignisse zu erzeugen. Gesucht wird, ob jede Hand\neinen deutlich erkennbaren Stil erhält, ohne eine Kartenidentität zu verlieren."
+        }
+      ],
+      "semantic_status_change": false,
+      "prior_type_review": "clean_gap_peer_de_dj.json:132–137; reconfirmation only"
+    },
+    {
+      "target": "SEM:a1d318067cc60b459715",
+      "claim": "Pass1022 treats within-card right binding, inherited last-action binding across cards and visible-boundary reset as an incomplete default. Initial arguments require short forward binding; CARRIER_Q/OT/VORBEZUG open, switch or restore frames rather than attach as ordinary arguments; multiple heads require nested packages; owner boundaries constrain scope, whereas a bare line break or picture-forced text gap does not reset it.",
+      "current_type": "formal_role",
+      "decision": "approve",
+      "approved_action": "retain",
+      "recommended_type": "formal_role",
+      "card_basis": "c4a00a6f753dfb7584f79be340648b3fbe512c998d6269400ef7c4171f4823e4",
+      "effective_basis": "949b218784566588f5f265a092c288485e2aac10aad522b0fcc820a3961275b2",
+      "all_cases_reviewed": true,
+      "case_ids": [
+        "CLEAN_GAP_CG:scope_default_four_limits"
+      ],
+      "reason": "The core assertion is a repair to scope inheritance, control-frame treatment and reset rules under preassigned heads. The owner and picture-gap conditions limit that algorithm; they do not identify a new material or depicted referent. No new core values is explicit in the primary source.",
+      "evidence": [
+        {
+          "line": 25,
+          "line_end": 28,
+          "path": "experiments/yolo/sidequest_semantic_argument_scope_stack_one_thousand_twenty_second/MANUAL_SCOPE_REPORT.md",
+          "quote": "Die Regel ist ein guter **Default**, aber kein vollständiger Scope-Mechanismus.\nSie funktioniert bei einfachen Karten wie `OK+AIN`, `S+AIIN`, `SH+E+Y` und\nbei einem unmittelbar nachfolgenden nackten `WERT`, `ANTEIL` oder `EINHEIT`.\nSie scheitert an vier klar sichtbaren Situationen:",
+          "sha256": "9f3764c59cdbf50bcae6c6edf54caca1ba08a5a496ac083fd4c463cb6e53f1bc"
+        },
+        {
+          "line": 5,
+          "line_end": 11,
+          "path": "experiments/yolo/sidequest_semantic_argument_scope_stack_one_thousand_twenty_second/MANUAL_SCOPE_REPORT.md",
+          "quote": "Zwölf lange oder mehrfach referierende Aussagen wurden auf den bereits\nfreigegebenen Seiten f75r, f67r2 und f88r von Hand gegen diese einfache Regel\ngelesen:\n\n1. innerhalb einer Karte nach rechts binden;\n2. über Karten hinweg den letzten aktiven Handlungskopf erben;\n3. an einer sichtbaren Grenze zurücksetzen.",
+          "sha256": "9f3764c59cdbf50bcae6c6edf54caca1ba08a5a496ac083fd4c463cb6e53f1bc"
+        },
+        {
+          "line": 25,
+          "line_end": 45,
+          "path": "experiments/yolo/sidequest_semantic_argument_scope_stack_one_thousand_twenty_second/MANUAL_SCOPE_REPORT.md",
+          "quote": "Die Regel ist ein guter **Default**, aber kein vollständiger Scope-Mechanismus.\nSie funktioniert bei einfachen Karten wie `OK+AIN`, `S+AIIN`, `SH+E+Y` und\nbei einem unmittelbar nachfolgenden nackten `WERT`, `ANTEIL` oder `EINHEIT`.\nSie scheitert an vier klar sichtbaren Situationen:\n\n- Ein Statement oder lokaler Abschnitt beginnt mit Steuerung oder Argumenten,\n  bevor ein Handlungskopf erscheint. Dann ist kurze Vorwärtsbindung nötig.\n- `CARRIER_Q`, `OT` und `VORBEZUG` dürfen nicht als gewöhnliche Argumente des\n  letzten Kopfes gelesen werden. Sie öffnen, wechseln oder restaurieren einen\n  lokalen Rahmen.\n- Mehrköpfige Karten wie `CH+K+Y`, `SH+EE+K+Y` oder `OR+CH+OR` brauchen\n  Paketverschachtelung; ein einziges globales „letzter Kopf“-Register verliert\n  den äußeren Kopf.\n- Der Bildbesitzer begrenzt den Rahmen. Ein bloßer Zeilenbruch oder eine durch\n  das vorher gezeichnete Bild erzwungene Textlücke ist dagegen **kein** Reset.\n\nVon den zwölf Aussagen ist nur f88r S591 unmittelbar mit der einfachen Regel\nlesbar, sofern „rechts binden“ ausdrücklich als verschachteltes Paket und\nnicht als flache Kette verstanden wird. Elf Aussagen benötigen mindestens\neine begrenzte Ergänzung durch nächste passende Bindung, Besitzerrahmen oder\nPaketstapel. Keine benötigt einen neuen Kernwert.",
+          "sha256": "9f3764c59cdbf50bcae6c6edf54caca1ba08a5a496ac083fd4c463cb6e53f1bc"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_argument_scope_stack_one_thousand_twenty_second/MANUAL_SCOPE_REPORT.md",
+          "sha256": "9f3764c59cdbf50bcae6c6edf54caca1ba08a5a496ac083fd4c463cb6e53f1bc",
+          "line": 148,
+          "line_end": 170,
+          "quote": "## Kleinste tragfähige Reparatur\n\nDie drei Defaultregeln bleiben erhalten, bekommen aber einen kleinen Stapel:\n\n1. **Besitzerrahmen setzen.** Klare Rad-, Sektor-, Drogenreihen-, Gefäß- oder\n   Textblockgrenzen setzen zurück. Bildbedingte Zeilenlücken tun es nicht.\n2. **Nächsten passenden Kopf nehmen.** Innerhalb einer Karte und eines lokalen\n   Segments binden Grad, Wert, Anteil, Einheit, Ort und Posten an den nächsten\n   kompatiblen Handlungskopf. Fehlt links ein Kopf, ist kurze Vorwärtsbindung\n   bis zum nächsten Kopf erlaubt.\n3. **Paket pushen.** Mehrköpfige Karten behalten äußeren und inneren Kopf.\n   Das innere Paket endet mit der Karte; der äußere Rahmen bleibt verfügbar.\n4. **Steuerung behandeln.** `CARRIER_Q` pusht einen Beginnrahmen, `OT` wechselt\n   in den nächsten Geschwistergang, `VORBEZUG` restauriert den vorherigen\n   Besitzerrahmen und `OL` setzt den obersten offenen Gang fort.\n5. **Wirklich schließen.** `DY` schließt den aktuellen Gang. Eine eindeutige\n   Besitzer-/Proseblockgrenze leert den lokalen Stapel; ein offenes Seitenende\n   wie S041 oder S594 tut das nicht automatisch.\n\nDas Ergebnis ist keine neue Grammatik und kein neues Wörterbuch. Es ist nur\ndie kleinste Scope-Ergänzung, die die zwölf manuellen Gegenbeispiele lesbar\nhält: **nearest attachment innerhalb des Besitzerrahmens, ein kleiner\nPaketstapel und echte statt bloß typographische Grenzen.**"
+        }
+      ],
+      "semantic_status_change": false
+    },
+    {
+      "target": "SEM:ca1f58fa7004efe95240",
+      "claim": "Pass1005 classifies twenty-nine of thirty-four near forms as longer combinations of inherited roots and the remaining five as registered writing variants. It removes two false closing analyses, ods=O+D+S instead of O+DY and cphey=CPH+E+Y instead of CPH+E+DY, joining the affected old sections. In that historical edition open sequences terminate at owner/ring changes or page ends without an inserted invisible closing card.",
+      "current_type": "formal_role",
+      "decision": "approve",
+      "approved_action": "retain",
+      "recommended_type": "formal_role",
+      "card_basis": "98eb48ce368aafb234ba9c213f13dd38a9e23b8c25f17e61737ddc5647a9b0fe",
+      "effective_basis": "cdb57a2b381c5ff6bfadcc899358ac9a59d88e2827293cfda10bd0b05fd54b1d",
+      "all_cases_reviewed": true,
+      "case_ids": [
+        "CLEAN_GAP_CE:nearform_closure_contract"
+      ],
+      "reason": "The rule concerns composition versus writing variants and corrects two closing parses, with consequences for section boundaries. Retain its historical page-end convention without equating it to later rules or treating derived statement counts as decoded discourse.",
+      "evidence": [
+        {
+          "line": 1,
+          "line_end": 9,
+          "path": "experiments/yolo/sidequest_semantic_allograph_and_open_tail_consolidation_one_thousand_fifth/PASS1005_REPORT.md",
+          "quote": "# Pass 1005 — Nahformen und offene Enden konsolidiert\n\nDie 34 bisherigen Ein-Zeichen-Nahformen sind jetzt entschieden. 29 lesen sich direkt als längere Kombinationen bereits bekannter Wurzeln. Fünf bleiben einfache Werkstattschreibungen: die umhüllte Y-Form, line-finales m für einen r-Ausgang, die kurze/lange IIN-Stufe und die CHD/CHED-Erweiterung. Keine Nahform bleibt unentschieden.\n\nZwei wichtige alte Schlüsse fallen weg: ods enthält sichtbar O+D+S statt O+DY, und cphey enthält CPH+E+Y statt CPH+E+DY. Dadurch verbinden sich je zwei alte Abschnitte. Die 608 laufenden Gruppen ergeben nun 108 Aussagen: 101 mit Schlusskarte und sieben mit explizitem Bild-/Besitzerende; 39 Aussagen überschreiten Zeilen.\n\nDie sieben offenen Enden sind nicht mehr pauschal offen: fünf enden an sichtbaren Besitzer- oder Ringwechseln und zwei bleiben echte Seitenenden. Nirgends wird eine unsichtbare Schlusskarte ergänzt.\n\nSeitenbilanz: f17r 8, f77r 82, f88v 13, f71v 5 Aussagen. Die vollständige flüssige Ausgabe hält denselben Stammwert überall fest; Bildbesitzer liefern weiterhin nur den lokalen Gegenstand.",
+          "sha256": "f19b28607b568d0ce23f7ecc1a1660be0245d2a81ee241d024901aeb6847796e"
+        }
+      ],
+      "semantic_status_change": false
+    },
+    {
+      "target": "SEM:f0f38d0e7db026169b71",
+      "claim": "Pass1023 keeps R = MARKIEREN but chooses scope by package position: first head with a right member or a lone R card before a short member is a head; R after an outer action without its own right member marks that outer action as a tail; between an outer head and its own right member it is an inner head.",
+      "current_type": "formal_role",
+      "decision": "approve",
+      "approved_action": "retain",
+      "recommended_type": "formal_role",
+      "card_basis": "53aa577ea91d01a42a9bacd9aa2692cce47e61409dd0bdf3c4a57b815f2b0522",
+      "effective_basis": "e0aa2c922940457029c78b31543d45fe2d2a1cb2208b9ecc76be433f9a5d77f2",
+      "all_cases_reviewed": true,
+      "case_ids": [
+        "CLEAN_GAP_CG:r_position_refinement"
+      ],
+      "reason": "R retains its historical MARKIEREN interpretation while head/tail/inner-head scope changes. These are different placements of an inherited action, not a second meaning. Preserve the later source caveat about the isolated f18r fine-pattern example; formal type is not an empirical transfer endorsement.",
+      "evidence": [
+        {
+          "line": 118,
+          "line_end": 119,
+          "path": "experiments/yolo/sidequest_semantic_scope_ambiguity_resolution_one_thousand_twenty_third/PASS1023_REPORT.md",
+          "quote": "Damit wechseln 16 zuvor an `R` gehängte Zusätze zurück zum äußeren Kopf. Das\nist eine Scope-Korrektur, keine Umdeutung von `R`.",
+          "sha256": "61cb6dbaf14e1d61ca3a73afb0886370eb60e4e48a5bd5c24175df6a9b42b828"
+        },
+        {
+          "line": 98,
+          "line_end": 119,
+          "path": "experiments/yolo/sidequest_semantic_scope_ambiguity_resolution_one_thousand_twenty_third/PASS1023_REPORT.md",
+          "quote": "## Griff 4 — `R` bleibt MARKIEREN, ändert aber seine Stellung\n\n`R` braucht keinen zweiten Sinn. Seine Paketposition genügt:\n\n- erster Kopf mit rechtem Glied: `R` eröffnet `MARKIEREN[...]`;\n- alleinige `R`-Karte vor einem kurzen Glied: ebenfalls Kopf;\n- nach einer äußeren Handlung und ohne eigenes rechtes Glied: Schwanz, der\n  den äußeren Gang markiert;\n- zwischen äußerem Kopf und eigenem Rechtsglied: innerer Kopf.\n\nBeispiele:\n\n```text\nR + AIIN        → MARKIEREN[WERT]\nCH + O + E + R  |  AIIN\n                → NEHMEN[AUSFÜHRUNG; GRAD I; MARKIEREN]; WERT bleibt bei NEHMEN\nP + HIER + R + AIR + DY\n                → EINSETZEN[MARKIEREN[LAUF]]; SCHLUSS\n```\n\nDamit wechseln 16 zuvor an `R` gehängte Zusätze zurück zum äußeren Kopf. Das\nist eine Scope-Korrektur, keine Umdeutung von `R`.",
+          "sha256": "61cb6dbaf14e1d61ca3a73afb0886370eb60e4e48a5bd5c24175df6a9b42b828"
+        }
+      ],
+      "semantic_status_change": false
+    },
+    {
+      "target": "SEM:fd8bcd16a4c929d88956",
+      "claim": "chedy → CHD+Y",
+      "current_type": "formal_role",
+      "decision": "approve",
+      "approved_action": "retain",
+      "recommended_type": "formal_role",
+      "card_basis": "e8443cb62919f085f80caa05244ec86f44fde72562455be1e35ac8ff3a6bbeaf",
+      "effective_basis": "7a01d50e2960001a0d06114ea4bcc083153335c7de2a24aea9628750d2a9bcef",
+      "all_cases_reviewed": true,
+      "case_ids": [
+        "CLEAN_COMPONENT:a3906c336131cd1abdf6"
+      ],
+      "reason": "The actual claim is only chedy=CHD+Y. The same source separately gives work-field and image-place readings; those are genuine adjacent semantic propositions but not asserted by this bare parse card. Retain formal_role and do not treat the quote alone as completed recovery coverage for the separate readings.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 13,
+          "line_end": 13,
+          "path": "experiments/yolo/sidequest_semantic_apprentice_bichannel_manual_nine_hundred_thirty_fourth/PASS934_REPORT.md",
+          "quote": "- `chedy = CHD+Y`: diesen Posten umsetzen / zu diesem Bildplatz wechseln;",
+          "sha256": "6c68da711993c3c6aa809b8ff392657afe6962c3a1d08c892f81d8ee9c2ef287",
+          "source_id": "LEGACY_COMPONENT:66410e69c31efd0cc077",
+          "source_section": "Ergebnis",
+          "table_header": null
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_apprentice_bichannel_manual_nine_hundred_thirty_fourth/PASS934_REPORT.md",
+          "sha256": "6c68da711993c3c6aa809b8ff392657afe6962c3a1d08c892f81d8ee9c2ef287",
+          "line": 5,
+          "line_end": 23,
+          "quote": "Sechzehn kurze Regeln und dreißig Doppelübungen genügen, um die zentrale\nRegisterumschaltung praktisch zu lehren. Jede Übung benutzt eine wirklich in\nbeiden Kanälen sichtbare Oberfläche mit demselben Komponentenrezept.\n\nBeispiele:\n\n- `daiin = AIIN`: Sollmaß im Arbeitsfeld, verzeichneter Sollwert am Bild;\n- `dal = AL`: Ziel-/Anschlussstelle im Arbeitsfeld, Zielplatz am Bild;\n- `chedy = CHD+Y`: diesen Posten umsetzen / zu diesem Bildplatz wechseln;\n- `okedy = OK+E+DY`: kurz ansetzen und schließen / Platz ersten Grades\n  aktivieren und Eintrag schließen.\n\n## Werkstattplausibilität\n\nDer Lehrling braucht keine unbekannte Lautsprache zu entziffern. Er lernt ein\nkleines Kartenrepertoire, eine feste Komponentenreihenfolge, einige\nPositionsallographe und die Regel „Bild bestimmt das Sachgebiet“. Neue lokale\nNamen werden aus dem Exemplar kopiert; produktive Arbeitskarten kann er selbst\nzusammensetzen."
+        }
+      ],
+      "semantic_status_change": false
+    }
+  ],
+  "classification_rule": "Type the full asserted proposition under its original scope. New content/referential assignments are semantic even when unresolved. Existing semantic head labels inside a newly asserted parse, attachment or variability rule do not by themselves change the rule to semantic.",
+  "consistency_counterpart": {
+    "id": "SEM:96b51c2e084e33cecca9",
+    "claim": "qokol → Behandlungs- oder Prozessfeld",
+    "claim_type": "functional_hypothesis",
+    "card_basis": "e66a45a86676a2b1271305a16484578df0e6cbc54ed1a1d37fb3c8ceaba411a3",
+    "effective_basis": "08a60ebb44ceec82ca410a1a024d301ec8fde4faf4dcd3dedf1b841988d58a37",
+    "limit": "Parallel GDT805 row is navigation/type-consistency context only; no qokeol/qokol identity proposed.",
+    "all_cases_reviewed": true,
+    "case_count": 1,
+    "decision": "same_type_criterion_not_word_identity",
+    "reason": "Qokol treatment/process is the same kind of unresolved content-role proposal as qokeol in the same primary table; neither surface nor full event scope is equated."
+  },
+  "counts": {
+    "targets": 8,
+    "cases": 8,
+    "approved_formal_retains": 7,
+    "approved_functional_reclassification": 1,
+    "exact_quote_sha_checks": 34,
+    "positively_documented_repeat_type_reviews": 1
+  },
+  "validation": {
+    "status": "PASS",
+    "current_card_and_effective_bases": true,
+    "all_cases_current": true,
+    "all_evidence_bytes_and_quotes": true,
+    "exact_selection_receipts_checked": 2
+  },
+  "operative_mutation": false,
+  "limits": [
+    "No new manuscript/event/image reading or experiment.",
+    "Type correction does not promote confirmed meanings, alter scientific status, establish a word identity or authorize reruns.",
+    "Historical rejected nesting remains represented; structural type does not erase its rejection or imply that an adjacent semantic alternative was absent.",
+    "This peer does not claim exhaustive recovery of every semantic proposition in the inspected source paragraphs."
+  ],
+  "selection_peer_check": {
+    "decision": "fix_prior_review_coverage_claim",
+    "target": "SEM:357fb5f1d1f842ae8619",
+    "current_source_case_id": "CLEAN_GAP_DE:learning_layers_and_variation_axes",
+    "finding": "The DE/DJ peer already explicitly approved formal_role for this exact source-reviewed proposition. The integrated DE card carries the same claim and source-member ID, which is the current SEM card case. EG confirms an earlier type decision rather than first reviewing this target. The earlier receipt uses CLEAN_GAP_DE, so screening only SEM target IDs or type-review filenames misses it.",
+    "evidence": [
+      {
+        "path": "research_registry/decisions/clean_gap_peer_de_dj.json",
+        "line": 132,
+        "line_end": 137,
+        "quote": "      \"target\": \"CLEAN_GAP_DE:learning_layers_and_variation_axes\",\n      \"decision\": \"approve\",\n      \"claim_unchanged\": true,\n      \"claim_type_before\": \"formal_role\",\n      \"claim_type_recommended\": \"formal_role\",\n      \"reason\": \"Retain formal_role: its actual new distinction is productive versus memorized and single versus multiple registered forms. Crushing/clear-extract values exemplify already learned whole cards rather than supplying a new referent/function assignment. Neither uncertainty nor synthetic status alone is the reason for this type.\",",
+        "sha256": "3ef6048e185b63a17c9c7ece0d4826d4522a7b127292b72604a9a1a313a905f6"
+      },
+      {
+        "path": "research_registry/decisions/clean_gap_review_de_integrated.json",
+        "line": 203,
+        "line_end": 209,
+        "quote": "      \"id\": \"CLEAN_GAP_DE:learning_layers_and_variation_axes\",\n      \"claim\": \"Pass338 distinguishes three learning layers: productive cards with one recorded surface form a fixed teaching script; cards with several registered surfaces permit hand-dependent choice; and indivisible technical cards with one form are memorized from the master exemplar. Compositionality and graphic variability are separate axes: the learned whole cards chety/chty=crushing and cheey/shey=clear extract are nevertheless variable in form.\",\n      \"claim_type\": \"formal_role\",\n      \"member_ids\": [\n        \"LEGACY_COMPONENT:868d487c9d0c2e4c3c21\"\n      ],\n      \"evidence\": [",
+        "sha256": "043202f15fa069787d3256c2b336082bab786f8a05c93ffa60ce005ed2d2762d"
+      }
+    ],
+    "required_reporting": "Report eight current confirmations/decisions with at least one positively documented prior type review; do not report eight first-time type reviews. No claim that the other seven have never been informally reviewed.",
+    "qokeol_change_unaffected": true,
+    "raw_eg_unchanged": true
+  }
+}

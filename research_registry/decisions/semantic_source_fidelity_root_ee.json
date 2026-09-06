@@ -1,0 +1,210 @@
+{
+  "review_id": "SEMANTIC_SOURCE_FIDELITY_ROOT_EE",
+  "input": {
+    "path": "research_registry/decisions/semantic_source_fidelity_review_ee.json",
+    "sha256": "dd42197d22b2ca62518b6aa4d66bac6ac938b5e8379918d4f06502fcac18e431"
+  },
+  "status": "APPROVE_EIGHT_HISTORICAL_HYPOTHESES_WITH_SOURCE_LIMITS",
+  "decisions": [
+    {
+      "target": "SEM:64ae2be78ead81c837bd",
+      "card_basis": "3563333a505a8b967a298fe6d731e977f0d80d6e9081d119bc95fbd482b5991f",
+      "effective_basis": "f10b8f230f1b67bfa78def0d4cba586f0d8429e22c9eabe0a2aed705aea788c2",
+      "decision": "retain_as_hypothesis",
+      "reason": "The preregistration explicitly names mixing as a recipe-final process rival for ckhy. The report preserves this as a contextual final-process rendering, alongside medial mixture/compositum, with global role open. This is a considered semantic alternative rather than a denied or invented verb export.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/PREREGISTRATION.md",
+          "line": 23,
+          "line_end": 34,
+          "quote": "## Vorab sichtbare Rivalen\n\n- `ol`: Feldrelation oder Mengenanschluss; allgemeine Zubereitungsbasis;\n  Pflanzensaft/Auszug/Dekokt; Öl; Arzneiwasser; Wein; Essig.\n- `ckhy`: Mischung/Kompositum; `mischen/vermengen` als rezeptfinaler Vorgang;\n  Infusion/Dekokt; Wasser-/Wein-/Essigmedium; Einweichen/Mazerieren.\n- `pcheey`: gebundenes Zubereitungs-/Form-II-Feld; Paste, Salben- oder\n  Mischform II; Pulver/Trockendroge; Rückstand nach Einweichen.\n- `ols`: fertige Flüssigzubereitung; Filtrat/Colatur; Saft/Auszug/Dekokt;\n  ölige Zubereitung; Abseihen als Vorgang.\n- `otar`: Folgen-/Feldverbinder; `dann/danach`; `bis`; Trocknen als Vorgang;\n  nominales Zubereitungsfeld; Arzneiwasser/Auszug; Öl; Wein; Essig; Pulver.",
+          "sha256": "5046a218f2d04e86aad0f3174776793c6ada1f5ab50b07c8f7534235ea2a4751"
+        },
+        {
+          "path": "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/REPORT.md",
+          "line": 15,
+          "line_end": 19,
+          "quote": "| `pcheey` | R04 bounded record/form field | `gebundenes Zubereitungs-/Form-II-Feld` | C1 replicated role globally; C2 in the specified line readers; C0 form identity | paste, salve, mixed form, or residue remain candidates; dry/powder has no positive frame |\n| `ols` | R04 selected only by specificity priority over an equally passing R01 role | before a value: `Maß-/Dosisposten`; line-final: `Endportion`; otherwise `Maß-/Produktposten` | C0 role tiebreak and concrete identity; individual line readers carry C1–C2 local frame evidence | supported R01 substance/preparation role; the measured preparation or product cannot be identified |\n| `ckhy` | global role open between R02 operation and R01 nominal preparation | line-final process frame: `mischen/verrühren`; medial content frame: `Mischung/Kompositum` | globally `C0_RIVAL_ONLY`; specified medial readers carry C1 contextual support | no single global process or substance role has won; mediality alone does not make it a linker |\n\nThe C-levels are internal working-confidence labels, not probabilities. In particular, C1 or C2 at role level does not promote an English, German, Latin, or Middle English word identity above C0.",
+          "sha256": "a00ca7b7fd36013a78b8118395e88e5e091f087515d0def577ba25af7623e346"
+        },
+        {
+          "path": "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/REPORT.md",
+          "line": 47,
+          "line_end": 51,
+          "quote": "### `ckhy`: contextual mixture/operation dispatch, global role open\n\nThere are 25 exact occurrences on 24 pages and 24 loci. Six are line-final and none is line-initial, so an operation such as `mischen/verrühren` is a useful contextual default in a closing process frame. Nineteen are medial, however. At `f32r.2`, `ckhy` follows an independent moist part and behaves as a content item; at `f10v.2`, it lies between a value sequence and a content/state series. Those positions are more naturally rendered `Mischung/Kompositum` than as an imperative.\n\nThe experiment therefore does not force one global R01 or R02 role. It dispatches reader wording by local geometry and keeps the global role open. It also does not assign R05: ordinary medial two-sided placement is the common F14 background and does not by itself establish a linker.",
+          "sha256": "a00ca7b7fd36013a78b8118395e88e5e091f087515d0def577ba25af7623e346"
+        }
+      ]
+    },
+    {
+      "target": "SEM:66e6f5e8da93dc21a0d6",
+      "card_basis": "c5efb98e4a3c297fdfbfc9455ac2f2ec8f92961a6324c6cadde8f16d50d89e32",
+      "effective_basis": "c3b94c75ae56bf3cbf1ce0d0768742e409b3804a2270add250d7713768fc81fc",
+      "decision": "retain_as_hypothesis",
+      "reason": "GDT762 predeclares dry source/complement distinctly from record-field and result rivals, and retains a concrete with/from dry material reading at exactly three spans. Later GDT769 states zero dry-frame support and chooses a bounded preparation/form-II field. That later limitation does not make the earlier dry-source hypothesis an invented extraction; preserve it as historical, without carrying dryness forward as established or treating missing support as independent semantic falsification.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt762_moist_medium_candidate_discrimination/PREREGISTRATION.md",
+          "line": 3,
+          "line_end": 19,
+          "quote": "Status: exploratory continuation of the GDT761 lead deck; not a blinded\nconfirmatory test.\n\n## Fixed targets and rivals\n\n- `ckhy`: specific aqueous/wine medium; oil/oleaginous base; nominal\n  preparation/compositum at a beginning stage; open relay/other.\n- `pcheey`: specific medium; dry source/complement; post-moist result;\n  record/Form-II field; opaque or bound-shell form.\n- `ol`: aqueous/wine medium; oil/oleaginous base; general preparation/carrier;\n  material/property head; opaque/other.\n\nThe eleven state pairs, three candidates, fourteen role hypotheses, exact\nwhole requirement, two distances, outer/discovery split, and zero component\nexport are fixed in the three source TSV decks. The two `sheo pcheey` cases are\nknown discovery observations. Any `sho pcheey` case belongs to the outer\ncontrol and is the only possible new replication within this run.",
+          "sha256": "e35028290ae780f18960f3fe17fa51ae820fa056be18207611d50915b50b13f4"
+        },
+        {
+          "path": "experiments/yolo/gdt762_moist_medium_candidate_discrimination/REPORT.md",
+          "line": 45,
+          "line_end": 69,
+          "quote": "### Warum Recordfeld vor Stoffquelle steht\n\nAlle drei Treffer liegen medial auf Absatzanfangszeilen, und jede dieser Zeilen\nenthält mehrere H1-Recordformen:\n\n- f10v.1: `paiin | pcheey`;\n- f105r.24: `pcheor | paiin | pcheey`;\n- f8r.9: `pcheey | pchey`.\n\nDamit ist die sparsamste portable Bedeutung:\n\n> `pcheey` = Trockenzubereitungs-/Form-II-Eintrag; Identität offen.\n\nAn genau den drei beobachteten Spans bleibt die konkretere Lesung\n„Feuchtzubereitung mit/aus Trockengut, Form II“ als C1-Arbeitstheorie aktiv.\nEin zeitlicher Pfeil wäre zu viel: Die Folge kann eine Quellenrelation, eine\nFeldfolge oder eine Listenstruktur ausdrücken. „Trockenmasse/Rückstand nach\nFeuchtverarbeitung“ ist schwächer, weil ein Trenn-, Trocknungs-, Ergebnis- oder\nAbschlusssignal fehlt.\n\nWasser, Wein und Öl sind für `pcheey` schlechte Kandidaten. Die Form hat keine\nunabhängige Flüssigkeits-, Gefäß- oder Prozesssignatur. Die alte Hauptlesung\n„Pulver“ wird entfernt: Sie stammte allein aus der unzulässigen Gleichung EVA\n`p` = lateinisch *pulvis*. Logisch könnte die komplette Ganzform später wieder\nals Pulver-Kandidat auftauchen, aber nur mit neuer unabhängiger Evidenz.",
+          "sha256": "66c48146f7a04eb4af39f5c9a51f1b6675bdf2c230f8f02bd949c8eedf640076"
+        },
+        {
+          "path": "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/REPORT.md",
+          "line": 35,
+          "line_end": 39,
+          "quote": "### `pcheey`: R04 preparation/form-II field, with zero dry evidence\n\nThere are only three exact occurrences, but all three immediately follow `sho` or `sheo`, and two form a `pcheey-X-daiin` construction. All three are medial in paragraph-opening lines. This repeated bounded-field geometry supports R04 and the neutral reader phrase `gebundenes Zubereitungs-/Form-II-Feld`.\n\nThe dry frame F03 has zero support. There is also no independent vessel, operation, passage/straining, or closing signal. A previous powder-like reading inherited from the shape of EVA `p` is therefore excluded from the default. Paste, salve, mixed form, or residue after soaking remain possible identities, but none is selected.",
+          "sha256": "a00ca7b7fd36013a78b8118395e88e5e091f087515d0def577ba25af7623e346"
+        }
+      ]
+    },
+    {
+      "target": "SEM:a3a756341f9709436ecc",
+      "card_basis": "dc4e43556251fae7cc5825c711d78a70d8154c966d90f6d70ca9b410ee7e73f4",
+      "effective_basis": "17b4566f9b7a7fd1f8dd08eb03f01d58c668dbe7af94dabf614a38fe8f4398e5",
+      "decision": "retain_as_hypothesis",
+      "reason": "GDT769 really adopts dann/anschließend/weiter as the useful reader default, but R05 and nominal R01 both pass with the same score. Specificity priority selects R05; bis remains the primary identity rival. The current case quotes the exact tiebreak and rival and remains unconfirmed. Retain the claim with those limitations; do not convert it to an empirical role win.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/REPORT.md",
+          "line": 5,
+          "line_end": 19,
+          "quote": "## Result in one paragraph\n\nThe current working model dispatches `ol` to R05 as a contextual field relation, `ols` to R04 as a measure/product field, and `otar` to R05 as a step or field transition. None of those three is an evidence winner: each was chosen by `SPECIFICITY_DISPATCH_PRIORITY_AMONG_EQUAL_GATE_SCORES`. `ol` also has supported R01 nominal-preparation and R03 product/result roles; `ols` has a supported R01 rival; and `otar` has a supported R01 rival. Only `pcheey` has one clearly passing role, R04 bounded preparation/form-II field. `ckhy` remains globally open. The working defaults remain contextual `und/mit/von/aus` for `ol`, `Maß-/Produktposten` for `ols`, and `weiter/dann` for `otar`. These are renderer choices, not confirmed translations or role proofs.\n\n## Provisional dispatch\n\n| Target | Current role decision | Reader default | Confidence carried by the specification | Live rival or limit |\n| --- | --- | --- | --- | --- |\n| `ol` | R05 selected only by specificity priority among equal passing R05, R01, and R03 scores | `und/mit`; after a quantity, context may instead require `von/aus` | `C1_LOCAL_FRAME__C0_ROLE_TIEBREAK`; C0 lexeme | supported R01 *Ansatz/Zubereitungsbasis* and R03 product/result roles; no liquid identity follows |\n| `otar` | R05 selected only by specificity priority over an equally passing R01 role | `dann/anschließend/weiter` | `C1_LOCAL_FRAME__C0_ROLE_TIEBREAK`; C0 lexeme | `bis` is the primary identity rival; nominal preparation/record field is the principal role rival |\n| `pcheey` | R04 bounded record/form field | `gebundenes Zubereitungs-/Form-II-Feld` | C1 replicated role globally; C2 in the specified line readers; C0 form identity | paste, salve, mixed form, or residue remain candidates; dry/powder has no positive frame |\n| `ols` | R04 selected only by specificity priority over an equally passing R01 role | before a value: `Maß-/Dosisposten`; line-final: `Endportion`; otherwise `Maß-/Produktposten` | C0 role tiebreak and concrete identity; individual line readers carry C1–C2 local frame evidence | supported R01 substance/preparation role; the measured preparation or product cannot be identified |\n| `ckhy` | global role open between R02 operation and R01 nominal preparation | line-final process frame: `mischen/verrühren`; medial content frame: `Mischung/Kompositum` | globally `C0_RIVAL_ONLY`; specified medial readers carry C1 contextual support | no single global process or substance role has won; mediality alone does not make it a linker |\n\nThe C-levels are internal working-confidence labels, not probabilities. In particular, C1 or C2 at role level does not promote an English, German, Latin, or Middle English word identity above C0.",
+          "sha256": "a00ca7b7fd36013a78b8118395e88e5e091f087515d0def577ba25af7623e346"
+        },
+        {
+          "path": "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/REPORT.md",
+          "line": 29,
+          "line_end": 33,
+          "quote": "### `otar`: R05 step transition, not `bis`\n\nOf 110 exact `otar` occurrences on 55 pages, 105 are medial. Four clean state bridges run in mixed directions rather than repeatedly pointing toward one endpoint. In `f86v5.13`, `otar` follows a complete amount expression and opens the next value field; in `f75r.43`, it sits between a state block and a repeated close/result form; in `f115v.5`, it directly precedes an independent process word. A general `dann/anschließend/weiter` survives all three uses better than a specific material or process term.\n\nThe local frames make `weiter/dann` a useful reader default, but R05 and R01 both pass with the same score of 1.0. R05 is selected only by specificity priority, so the nominal preparation/record field remains the principal supported role rival. Confidence is `C1_LOCAL_FRAME__C0_ROLE_TIEBREAK`. At identity level, `bis` is now the primary rival: mixed transition directions make it less portable than a general continuation marker, but do not eliminate it. No lexical identity is confirmed.",
+          "sha256": "a00ca7b7fd36013a78b8118395e88e5e091f087515d0def577ba25af7623e346"
+        }
+      ]
+    },
+    {
+      "target": "SEM:b044c6139fb4bee2c343",
+      "card_basis": "38201289db205062f75d1ae43518f23a359275286d32f607035f6997399343e6",
+      "effective_basis": "9933873ba730287b3c821214bcc7148da7646c25fdc630234799378454c12e50",
+      "decision": "retain_as_hypothesis",
+      "reason": "GDT755 explicitly retains cthody=Salbe as a deliberately concrete C0 whole-form default despite the absent OINTMENT-specific axis. Preparatio and electuarium are live alternatives. The absence of identity evidence is not a negation of having proposed Salbe.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt755_top24_historical_register_crosswalk/REPORT.md",
+          "line": 64,
+          "line_end": 78,
+          "quote": "## Wo Wasser, Wein, Wurzel und Gefäß bleiben\n\nDie Slotprüfung umfasst 26 gewünschte Begriffe beziehungsweise Prozesse. Für 18 wirklich inhaltsspezifische Kandidaten—darunter Wasser, Wein, Öl, Salz, Wurzel, Blatt, Samen, Holz, Pulver, Honig, Gefäß, Frau, Krankheit, Heilmittel, Salbe, Latwerge und Bad—besitzt keine Top-24-Form eine unabhängige literal-spezifische Achse.\n\nDas heißt nicht, dass diese Wörter im Manuskript fehlen. Es heißt: **Die Top 24 sind vor allem ein Operator-, Grad-, Teil- und Zustandsdeck.** Konkrete Stoff-, Pflanzen-, Patienten- und Gefäßwörter müssen überwiegend unter anderen wiederkehrenden gelernten Ganzformen gesucht werden.\n\nEinige praktische Vorgangsslots sind dagegen bereits vorhanden:\n\n- neun Formen passen strukturell zu `sicca`/trocknen;\n- sieben zu `misce`/mischen;\n- elf zu `tere`/zerreiben, ohne das genaue Verb schon unterscheiden zu können;\n- eine zu heiß+Prozess, eine zu kalt+Prozess und eine zu aufbewahren;\n- keine Top-24-Form besitzt derzeit gemeinsam MOIST+PROCESS für einweichen oder BATH+PROCESS für baden.\n\n`cthody=Salbe` bleibt trotzdem als absichtlich mutiger C0-Default stehen. Die breite Zubereitungsnomen-Rolle passt, die spezifische OINTMENT-Achse fehlt. Der Rival `preparatio=Zubereitung` ist sicherer, aber weniger konkret; `electuarium=Latwerge` ist gleichfalls möglich.",
+          "sha256": "904f109bf9610bd03e6c33f4a9e34371c64ae4b7f6a6b9adfeb178b7b4bff34e"
+        },
+        {
+          "path": "experiments/yolo/gdt755_top24_historical_register_crosswalk/REPORT.md",
+          "line": 95,
+          "line_end": 97,
+          "quote": "## Claim-Grenze\n\nGDT755 liefert 24 konkrete Arbeitsdefaults, aber weiterhin null bestätigte Lexeme, null grafische Lateinmatches und null Klartextsätze. Keine Bedeutung wird auf einen Buchstaben oder Teilstring exportiert. Kein neues Voynich-Blatt, Bild oder Transkript wurde geöffnet; f84 und f84r blieben gesperrt.",
+          "sha256": "904f109bf9610bd03e6c33f4a9e34371c64ae4b7f6a6b9adfeb178b7b4bff34e"
+        }
+      ]
+    },
+    {
+      "target": "SEM:cfd39b0b539a4bcfeaf3",
+      "card_basis": "8741da5e554bbdb357b2e206a79f78683292d45b990b0b60f74d47f64f48e75c",
+      "effective_basis": "c52663e0fbe56b46449840e790093955e3cb06c6a4b86a016424d4001220cf9c",
+      "decision": "retain_as_hypothesis",
+      "reason": "The existing quotation is a prospective if-condition, but the same report explicitly proposes cthy→Wurzel with Blätter/Kraut rivals at lines89–101. Thus this is not a hypothetical parser fabrication. The outside-occurrence requirement at127–131 is a future evaluation condition, not a completed confirmation or failure.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt756_ychor_line_frame_content_slots/REPORT.md",
+          "line": 85,
+          "line_end": 102,
+          "quote": "## Welche konkreten Wörter jetzt Kandidaten sind\n\nDie unmittelbaren Folger liefern erste inhaltliche Slots:\n\n- `chor → Blätter` mit `Wurzel/Samen` als Rivalen;\n- `cthy → Wurzel` mit `Blätter/Kraut` als Rivalen;\n- `s → Samen` mit `Salz/Blätter` als Rivalen;\n- `sheol → eingeweichtes Kraut` mit `Wasser/Wein` als Rivalen;\n- `ols → Heilmittel` mit `Arzneistoff/Öl` als Rivalen;\n- `chshoty → weiche ein` mit `trockne/kühle ab` als Rivalen;\n- `odol → miss den Arzneistoff ab`;\n- `qokchol → heiß getrocknetes Kraut` mit `Pulver/Wurzel` als Rivalen.\n\nDiese spezifischen Substantive sind bewusst explorativ. Besonders\n`Blätter`, `Wurzel`, `Samen`, `Wein`, `Holz` und `Pulver` sind noch keine\nIdentifikationen; ihre Funktion ist, vollständige vorhersagbare Lesungen zu\nerzeugen, die an weiteren Vorkommen verbessert oder verdrängt werden können.\nKein Kandidat wurde aus dem ersten EVA-Zeichen gewonnen.",
+          "sha256": "213dde6e8bf39a95ab785978752a5685c192011e29b2ce4cab243e7380ca4f75"
+        },
+        {
+          "path": "experiments/yolo/gdt756_ychor_line_frame_content_slots/REPORT.md",
+          "line": 127,
+          "line_end": 139,
+          "quote": "2. Die elf direkten `ychor`-Folger werden an allen ihren Vorkommen geprüft.\n   Wenn `chor=Blätter`, `cthy=Wurzel` oder `s=Samen` brauchbar ist, muss die\n   jeweilige Ganzform außerhalb dieser dreizehn Linien weiterhin überwiegend\n   einen konkreten Pflanzen-/Zutatenslot tragen. Schlechtere Kandidaten werden\n   nicht gelöscht, sondern durch den besseren Rivalen ersetzt.\n\n## Grenze\n\nGDT756 bestätigt kein lateinisches Wort, kein deutsches Klartextwort und keine\nvollständige Übersetzung. Es verbessert die Arbeitstheorie auf Ebene ganzer\nFormen und ganzer Linien. Kein EVA-Zeichen oder Teilstring erhält Bedeutung;\nkeine neue Seite oder Transkription wurde geöffnet, f84 und f84r blieben\ngesperrt.",
+          "sha256": "213dde6e8bf39a95ab785978752a5685c192011e29b2ce4cab243e7380ca4f75"
+        }
+      ]
+    },
+    {
+      "target": "SEM:dedccc5aecbe1a19e036",
+      "card_basis": "5aba7c53a2d21a710f471c7da27e5fc60ffc5893736b34a8e02ffdc18dc6d0aa",
+      "effective_basis": "884e033764ed88eeb002d7e71e580c1eef670502709b84b07c09b655ade841ab",
+      "decision": "retain_as_hypothesis",
+      "reason": "GDT756 explicitly proposes chor→Blätter, with Wurzel/Samen as rivals. The later conditional sentence is not its sole semantic source. Preserve this historical proposal rather than erase it because a subsequent register uses a different plant-part default.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt756_ychor_line_frame_content_slots/REPORT.md",
+          "line": 85,
+          "line_end": 102,
+          "quote": "## Welche konkreten Wörter jetzt Kandidaten sind\n\nDie unmittelbaren Folger liefern erste inhaltliche Slots:\n\n- `chor → Blätter` mit `Wurzel/Samen` als Rivalen;\n- `cthy → Wurzel` mit `Blätter/Kraut` als Rivalen;\n- `s → Samen` mit `Salz/Blätter` als Rivalen;\n- `sheol → eingeweichtes Kraut` mit `Wasser/Wein` als Rivalen;\n- `ols → Heilmittel` mit `Arzneistoff/Öl` als Rivalen;\n- `chshoty → weiche ein` mit `trockne/kühle ab` als Rivalen;\n- `odol → miss den Arzneistoff ab`;\n- `qokchol → heiß getrocknetes Kraut` mit `Pulver/Wurzel` als Rivalen.\n\nDiese spezifischen Substantive sind bewusst explorativ. Besonders\n`Blätter`, `Wurzel`, `Samen`, `Wein`, `Holz` und `Pulver` sind noch keine\nIdentifikationen; ihre Funktion ist, vollständige vorhersagbare Lesungen zu\nerzeugen, die an weiteren Vorkommen verbessert oder verdrängt werden können.\nKein Kandidat wurde aus dem ersten EVA-Zeichen gewonnen.",
+          "sha256": "213dde6e8bf39a95ab785978752a5685c192011e29b2ce4cab243e7380ca4f75"
+        },
+        {
+          "path": "experiments/yolo/gdt756_ychor_line_frame_content_slots/REPORT.md",
+          "line": 127,
+          "line_end": 139,
+          "quote": "2. Die elf direkten `ychor`-Folger werden an allen ihren Vorkommen geprüft.\n   Wenn `chor=Blätter`, `cthy=Wurzel` oder `s=Samen` brauchbar ist, muss die\n   jeweilige Ganzform außerhalb dieser dreizehn Linien weiterhin überwiegend\n   einen konkreten Pflanzen-/Zutatenslot tragen. Schlechtere Kandidaten werden\n   nicht gelöscht, sondern durch den besseren Rivalen ersetzt.\n\n## Grenze\n\nGDT756 bestätigt kein lateinisches Wort, kein deutsches Klartextwort und keine\nvollständige Übersetzung. Es verbessert die Arbeitstheorie auf Ebene ganzer\nFormen und ganzer Linien. Kein EVA-Zeichen oder Teilstring erhält Bedeutung;\nkeine neue Seite oder Transkription wurde geöffnet, f84 und f84r blieben\ngesperrt.",
+          "sha256": "213dde6e8bf39a95ab785978752a5685c192011e29b2ce4cab243e7380ca4f75"
+        },
+        {
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/REPORT.md",
+          "line": 8,
+          "line_end": 15,
+          "quote": "> `chor` and `shor` are parallel nominal plant-part or content wholes in the\n> same technical register. One may be rendered as flower and the other as\n> seed/fruit, but the admitted evidence does not say which is which.\n\nM02 and its exact reverse M03 tie at **0.820437**. Their shared two-part family\nwins; neither individual direction passes its replacement rule. The concrete\nreader therefore keeps `chor=Blütenstand` and `shor=Fruchtstand` as visible,\nreplaceable defaults while preserving the reverse as an equal rival.",
+          "sha256": "bf02e42ce7b03daf319eca7d9d572ccd45ac9d87212530fe8ed46e44e1aa2b7e"
+        }
+      ]
+    },
+    {
+      "target": "SEM:eb456263270d72f4d307",
+      "card_basis": "6c6487e0a86ca05e8a5457ce42e8156f820b9662494aa7c4bc80e9ff6149ecb1",
+      "effective_basis": "8ebf164e7b606837e07658c318e26268870ab6081e76ab221e0da522a75b1db0",
+      "decision": "retain_as_hypothesis",
+      "reason": "Both current cases name the same genuine main candidate. Three parts/third amount is the meaning-column value, not the neighboring 2/5 or1/5 metadata. The report expressly says C0 and prohibits exporting aiin=3. Neither sparse support nor the absence of confirmation makes the proposal an extraction error.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt757_initial_formula_role_atlas/REPORT.md",
+          "line": 10,
+          "line_end": 26,
+          "quote": "| Ganzform | jetziger Hauptkandidat | beobachtete Stellung | Sicherheit |\n|---|---|---|---|\n| `pchor` | **nimm** | 6/7 Absatzanfang; 3/7 Rezeptdreier | C1 |\n| `ychor` | **ferner / ebenso** | 0/13 Absatzanfang; 3/13 Absatzende | C2 |\n| `polaiin` | **Zubereitung / Rezept** | 7/7 Absatzanfang | C2 |\n| `pol` | **Zubereitung / Eintrag** | 7/11 Absatzanfang; 2/11 Ende | C1 |\n| `ycheol` | **danach** | 0/8 Anfang; 2/8 Ende | C2 |\n| `ychol` | **danach / als Nächstes** | 0/8 Anfang; 3/8 Ende | C2 |\n| `dcheol` | **danach / darauf** | 0/5 Anfang; 1/5 Ende | C1 |\n| `paiin` | **drei Teile / dritte Menge** | 2/5 Anfang; Mengenachse nur 1/5 | C0 |\n| `qokchor` | **mische hinein** | 0/5 Anfang; Inhalt folgt 5/5 | C1 |\n| `tshol` | **für / gegen** | 4/5 Anfang; alle fünf Herbal | C2 |\n| `ycheor` | **zum Schluss** | 3/5 Absatzende | C2 |\n\n`C2` bedeutet hier starke Stellungsgeometrie für die Rollenfamilie, nicht ein\nentziffertes Wort. Die vollständige Evidenz, Gegenargumente und jeweils zwei\nRivalen stehen im Ganzwortatlas.",
+          "sha256": "564eb45ebf78278340bd973bf3c9f58956c9eb790d2ecf444760a2fcac1751c4"
+        },
+        {
+          "path": "experiments/yolo/gdt757_initial_formula_role_atlas/REPORT.md",
+          "line": 77,
+          "line_end": 82,
+          "quote": "- `qokchor` beginnt keine seiner fünf initialen Linien als neuen Absatz; nach\n  ihm folgt 5/5 ein Inhaltsslot und 4/5 ein Qualitäts-/Stufenslot. Der konkrete\n  Arbeitskandidat ist deshalb **mische hinein**, vor `ferner` und `nimm`.\n- `paiin = drei Teile / dritte Menge` bleibt bewusst C0: nur eine von fünf\n  Linien besitzt eine unabhängige Mengenachse. Die Lesung gilt ausschließlich\n  für das Ganzwort und exportiert kein `aiin=3`.",
+          "sha256": "564eb45ebf78278340bd973bf3c9f58956c9eb790d2ecf444760a2fcac1751c4"
+        }
+      ]
+    },
+    {
+      "target": "SEM:f54242a2a85a4e45b881",
+      "card_basis": "a4cdc0a88f3481b4a3f68a1e1338901f9b33edaf9473c3f4bcf857aa6c25d81e",
+      "effective_basis": "6ef03ceb73801206fdac8ed1812684ed24e856bd51acaf35cc1e016950297fa0",
+      "decision": "retain_as_hypothesis",
+      "reason": "The exact table assigns the local Herbal root-part rival to dair, while measured fraction/portion II is the portable reading. The card already states local Herbal and rival; it does not assert a globally preferred root identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/REPORT.md",
+          "line": 30,
+          "line_end": 44,
+          "quote": "The useful information is the record structure: `cthy chor shor` gives three\nconsecutive nominal content cells, followed by dose/fraction/preparation\nfields. This is far more specific than “take the work item and process it”. It\nstill is a working reconstruction, not a plaintext claim.\n\nThe six anchor defaults used by the renderer are:\n\n| complete EVA form | portable reading | displayed concrete default | main rival |\n|---|---|---|---|\n| `chor` | non-leaf plant-part item; reproductive role possible | Blütenstand | Samen- oder Fruchtstand |\n| `shor` | reproductive plant-part item; organ open | Fruchtstand | Blütenstand |\n| `cthy` | leaf material or aerial herb drug | Blattgut | oberirdisches Kraut |\n| `dair` | measured fraction/portion, level II | Anteil II | local Herbal root-part rival |\n| `kooiin` | underground/rootstock drug head | thick or creeping root drug | general Herbal class head |\n| `koaiin` | sibling underground/rootstock head | creeping root drug | general Herbal page head |",
+          "sha256": "bf02e42ce7b03daf319eca7d9d572ccd45ac9d87212530fe8ed46e44e1aa2b7e"
+        }
+      ]
+    }
+  ],
+  "validation_scope": "Complete card/case and exact evidence binding reviewed; explicit source proposal does not establish meaning truth.",
+  "operative_mutation": false
+}

@@ -9,17 +9,17 @@ They remain in the source archive. No hypothesis becomes executable by inclusion
 
 | Unit | Count |
 |---|---:|
-| Active semantic hypothesis variants | 3,795 |
-| Separately typed formal-role cards | 266 |
-| Reviewed source cases, including the correction archive | 4,582 |
+| Active semantic hypothesis variants | 3,803 |
+| Separately typed formal-role cards | 265 |
+| Reviewed source cases, including the correction archive | 4,589 |
 | Archived source-extraction errors | 44 |
 | Exact normalized assertion repetitions grouped | 477 |
-| Reviewed equivalence groups / display reduction | 48 / 57 |
-| Public semantic display entries | 3,738 |
+| Reviewed equivalence groups / display reduction | 49 / 58 |
+| Public semantic display entries | 3,745 |
 
 These are different units, not a deduplicated total of independent theories.
 A local ignored supplement contributes95 semantic cards and one formal card;
-the ordinary local default therefore displays3,833 semantic entries. A fresh
+the ordinary local default therefore displays3,840 semantic entries. A fresh
 public clone has the public view only. Local source files and quotes are not
 published or silently folded into public counts.
 
@@ -55,14 +55,14 @@ paragraph does not automatically make every subclaim independently addressable;
 an atomic gloss does not cover a complete multi-card model.
 
 Whitespace and backtick typography alone are normalized for exact assertions.
-Explicit equivalence decisions add48 groups without deleting any original ID.
+Explicit equivalence decisions add49 groups without deleting any original ID.
 The identity log also retains six related-but-distinct links,29 rival links and
 two specializations. Conflicting nonidentity blocks transitive merging; changed
 claim or case bindings require a new review. Shared spelling, shortened wording
 or a matching source title alone proves neither identity nor nonidentity.
 
 Before selecting another identity comparison, consult `IDENTITY_REVIEW_INPUTS.json`
-and the current operative identity log. The manifest records thirty-two hashed review
+and the current operative identity log. The manifest records thirty-four hashed review
 inputs, including earlier proposal and peer formats missed by the narrower DO
 selection list. It is a bounded coverage receipt, not an automatic pair verdict.
 Update it when new identity reviews are added; distinguish an old recommendation
@@ -73,7 +73,7 @@ source/case counts belong to that representative; `group_scope_cases` counts all
 member cases. Open `--field equivalents` or `--field relations` for the others.
 No failure, success or execution permission propagates across an identity link.
 
-The append-only correction log currently archives44 erroneous exports and restates190
+The append-only correction log currently archives44 erroneous exports and restates191
 source assertions. Every original claim, case and quote remains retrievable,
 including via `--show ID` for archived cards. Numeric columns, alias-column
 misparses, unlicensed constituent exports and metadata are extraction errors;
@@ -83,7 +83,7 @@ not mean rejected, and an old source PASS does not confirm a meaning.
 
 ## Failure memory and conditional priorities
 
-Thirty-five scoped question dossiers distinguish empirical failure, invalid test,
+Thirty-six scoped question dossiers distinguish empirical failure, invalid test,
 insufficient capacity, missing meaning binding, proposal-only status and historical
 model revision. They appear before inherited experiment context under assessments.
 They state the actual compared subclaim, primary evidence, scope and changed-input
@@ -116,19 +116,21 @@ Later full-scope reviews and audit-only source comparisons live in the bounded
 `decisions/clean_gap_review_*.json` artifacts. An audit pointer does not add a
 source-case payload. Quote overlap alone never certifies complete review.
 
-Latest integrated packet: EB/EC/ED preserves six full source cases, including
-ychor's explicit imperative rival and the four fused S-form revisions. The
-three-parts/three-ounces alternatives stay bound to saiin/s aiin. EB restores
-two genuine historical semantic propositions and a separately typed formal
-closure rule; it preserves every earlier withdrawal of their bare positive
-word equations. Two checked false exports remain archived. ED adopts the
-already proposed V80 purpose rivalry, leaving complete OR/CTHY identity open.
-Different source units or local expansions prevent a blanket card relation.
+Latest integrated packet: EE–EI retains seven full construction/revision cases
+and eight genuine historical hypotheses. EF keeps exact span owners, the two
+Biology lchor cases, all fifteen ol calibration cases and the local ol+ols C0
+application. EH distinguishes computed working-signature comparisons from
+independent support for the pcheey dry-source rival; record organization and
+source relation can coexist. New whole/span questions do not automatically
+inherit every old signature gate. EG corrects qokeol's substantive rival type.
+EI groups two exports of the same expressly unchanged GDT813 daiiin assumption;
+cholkar's main/rival identity remains open. The default representative follows
+the existing deterministic ordering; the longer variant remains an equivalent.
 
 A073/A004 still lack a completed comparison of their earlier whole readings:
 artifact pointers exist, but their payloads were not inspected in DV/EA.
-This is not missing data. DR retains DAL as a live whole-word rival and separates
-referential content, internal composition and free component export questions.
+This is not missing data. EJ/EL's named flower-default comparison is pending
+independent final review and is not included in the current counts.
 
 Four append-only type alignments preserve the original claims and IDs. Pure
 ordering/reset over predefined roles is formal, including the corrected DE335
@@ -137,6 +139,9 @@ case. Supplying or interrupting interpreted content through context is functiona
 core readings and local designations is a semantic model. Same-source DY types
 were aligned before identity; the same-type grouping check remains in force.
 Classification changes scientific support neither upward nor downward.
+Before a new type audit, follow the current case’s source review and its bound
+peer as well as dedicated type-audit files. EG’s Pass338 selection repeated an
+explicit DE peer judgment; that is a repeated check, not first-time coverage.
 
 Use `./vmanus-work source-reviews --review REVIEW.json --source-id ID` with an
 explicit public decisions file, optionally adding `--path PATH --line N
