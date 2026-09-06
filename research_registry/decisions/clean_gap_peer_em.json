@@ -1,0 +1,515 @@
+{
+  "schema_version": 1,
+  "peer_review_id": "EM",
+  "reviewed_files": {
+    "research_registry/decisions/clean_gap_review_em.json": "9147adabc51385702eb876ca6ecbfffe0879a592270f2ca411c3990267da0525",
+    "research_registry/decisions/source_coverage_gap_batch_em.json": "9ff277fdd2eac941671537efdfb1c74e3e640c05302540947c2f568ed263506c"
+  },
+  "card_reviews": [
+    {
+      "card_id": "CLEAN_GAP_EM:shared_property_cross_genre_rival",
+      "decision": "approve_with_visible_provenance_limit",
+      "claim_type": "semantic_model",
+      "reason": "Both are genuine content/reference architecture hypotheses, distinct from a broad subject-area claim. The later f72r wrong-side image binding is evidence-attached but not visible in the proposed claim. Preserve historical hypothesis while explicitly denying validation through that chain.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt811_four_page_content_synthesis/REPORT.md",
+          "line": 86,
+          "line_end": 104,
+          "quote": "## Joint content interpretation\n\nThe working comparison joins a botanical material register on f88r, botanical\ndescription on f17r, differentiated water applications or bodily powers on\nf77r, and member/status inscriptions on f72r. A common property vocabulary\ncould connect them without turning every plant into an ingredient or every\nstar-holder into a literal patient. A compendium with different genres remains\na serious alternative to one shared explanatory system.\n\nThis historical architecture is not a new codebook identification. The\n[source notes](src/F77_HISTORICAL_READING.md) distinguish the actual dates and\nlayers of the medicinal-water, Wellcome MS510 and Parker MS395 comparators.\nThey support plausible kinds of content, not an EVA-to-Latin mapping.\n\nThe complete-page comparison sharpens possible referents and interpretation\nburdens. It supplies zero confirmed lexemes, free components or plaintext\nclauses. Smooth German would still require unsupported choices; the dictionary\nand existing renderer therefore remain unchanged.\n",
+          "sha256": "b5277bce41201d1146d398b95e59d864ad08f59a92e23d262b1de20c3dcc6e8c"
+        },
+        {
+          "path": "experiments/yolo/gdt811_four_page_content_synthesis/WORKING_THEORY.md",
+          "line": 8,
+          "line_end": 16,
+          "quote": "## The most useful joint interpretation\n\nTry a collection describing **natural substances, their properties and bodily\neffects, together with celestial correspondences or timing**. Some entries\nmay prescribe preparations, but not every line or inscription is an action.\nThe same written vocabulary can serve different subjects without changing a\nproperty's meaning: a plant, a celestial figure and a bodily condition could\nall carry an attribute such as hot or moist. That is a possibility, not an\nidentification of a particular Voynich form with those attributes.",
+          "sha256": "706bb1aa3b6782fcc67d43348a6ac4c54f95e25cb409ccc5440455bb4f8b18ea"
+        },
+        {
+          "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/src/F72R_SOURCE_CORRECTION.md",
+          "line": 32,
+          "line_end": 51,
+          "quote": "  `artifacts/GDT791_30_PAGE_EVIDENCE_REGISTRY.tsv` confirms the same source.\n- `experiments/yolo/gdt811_four_page_content_synthesis/src/VISUAL_SOURCES.tsv`\n  again identifies f72r with `1006204`, marked previously released/personally\n  viewed. Its `REPORT.md` calls all four physical pages inspected and combines\n  f72r member/status inscriptions with other content. `WORKING_THEORY.md`,\n  section \"f72r: members of a diagram, not literal treatment subjects\", also\n  discusses repeated star-bearing figures and their local label contexts.\n\nQuarantine f72r visual authentication through this specific chain, including\nits whole-foldout review claim and absence-of-start/direction claims. A correct\nhash of the wrong-side image does not repair the binding. Broad radial/member\ndescriptions can remain hypotheses or be supported by a separately correct\nsource; they must not cite 1006204 as f72r evidence.\n\nDo **not** discard the separately selector-bound f72r1/f72r2/f72r3 text,\nall-reader strings, C/L distinctions, or exact text-identity counts. GDT811's\n10 circular-text loci/288 tokens and 74 local loci/96 tokens are text counts,\nnot observations of 1006204. Its f72r2.22 spelling edges likewise do not\nbecome false merely because this visual binding is wrong; their graphical\nattachment was not established by string identity in the first place.",
+          "sha256": "bdd7b13c8a6af191cec59791979dc3e0849c172a9fdf1bb551e6ca0359d42e7e"
+        }
+      ],
+      "counterpart_ids": [
+        "SEM:bf4f6af3df6cc7666063",
+        "SEM:1d021f0fd9a579c17305",
+        "SEM:ba93611fc08701032061"
+      ],
+      "proposed_claim": "GDT811 compares one shared property vocabulary across a botanical-material register, botanical description, differentiated water applications or bodily powers, and diagram-member/status inscriptions with a compendium whose genres remain separately explained. In the shared model, the same property meaning may apply to plants, celestial figures and bodily conditions; not every botanical entry is an ingredient and not every star-holder a patient. This is a historical architectural possibility, not a named property or identified form. GDT812 later quarantined the GDT811/PASS1008 f72r visual-authentication chain because canvas1006204 depicts the wrong side; these f72r architectural descriptions remain hypotheses, not authenticated observations from that image. Separately selector-bound f72r text counts and spelling identities remain valid as text, without proven graphical ownership."
+    },
+    {
+      "card_id": "CLEAN_GAP_EM:referent_label_running_explanation_levels",
+      "decision": "approve_with_visible_provenance_limit",
+      "claim_type": "semantic_model",
+      "reason": "Both are genuine content/reference architecture hypotheses, distinct from a broad subject-area claim. The later f72r wrong-side image binding is evidence-attached but not visible in the proposed claim. Preserve historical hypothesis while explicitly denying validation through that chain.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt811_four_page_content_synthesis/WORKING_THEORY.md",
+          "line": 18,
+          "line_end": 29,
+          "quote": "The important separation is:\n\n| Level | Concrete possible content | What cannot be assumed |\n|---|---|---|\n| Illustrated referent | a plant, rootstock, celestial entry, bodily configuration | the nearest word is its species or organ name |\n| Label | name, category, condition or correspondence | every label is an ingredient; every star-holder is a patient |\n| Running explanation | properties, usable parts, effects, timing, or preparation | a universal sequence of take, heat, separate and finish |\n\nThis is not a newly discovered subject area. The old pharmaceutical and\nastrological comparisons already made it plausible. The new work specifies\nwhich text/image contacts a shared interpretation must actually explain.\n",
+          "sha256": "706bb1aa3b6782fcc67d43348a6ac4c54f95e25cb409ccc5440455bb4f8b18ea"
+        },
+        {
+          "path": "experiments/yolo/gdt811_four_page_content_synthesis/WORKING_THEORY.md",
+          "line": 115,
+          "line_end": 119,
+          "quote": "Learned member names and recurring status/property material remain possible.\nThe common-property reading is useful because it allows repeated labels at\ndifferent objects. It does not select hot, cold, a planet, a lunar phase,\nan organ or a temporal unit. Repeating the failed coordinate search would\nnot supply those meanings.",
+          "sha256": "706bb1aa3b6782fcc67d43348a6ac4c54f95e25cb409ccc5440455bb4f8b18ea"
+        },
+        {
+          "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/src/F72R_SOURCE_CORRECTION.md",
+          "line": 32,
+          "line_end": 51,
+          "quote": "  `artifacts/GDT791_30_PAGE_EVIDENCE_REGISTRY.tsv` confirms the same source.\n- `experiments/yolo/gdt811_four_page_content_synthesis/src/VISUAL_SOURCES.tsv`\n  again identifies f72r with `1006204`, marked previously released/personally\n  viewed. Its `REPORT.md` calls all four physical pages inspected and combines\n  f72r member/status inscriptions with other content. `WORKING_THEORY.md`,\n  section \"f72r: members of a diagram, not literal treatment subjects\", also\n  discusses repeated star-bearing figures and their local label contexts.\n\nQuarantine f72r visual authentication through this specific chain, including\nits whole-foldout review claim and absence-of-start/direction claims. A correct\nhash of the wrong-side image does not repair the binding. Broad radial/member\ndescriptions can remain hypotheses or be supported by a separately correct\nsource; they must not cite 1006204 as f72r evidence.\n\nDo **not** discard the separately selector-bound f72r1/f72r2/f72r3 text,\nall-reader strings, C/L distinctions, or exact text-identity counts. GDT811's\n10 circular-text loci/288 tokens and 74 local loci/96 tokens are text counts,\nnot observations of 1006204. Its f72r2.22 spelling edges likewise do not\nbecome false merely because this visual binding is wrong; their graphical\nattachment was not established by string identity in the first place.",
+          "sha256": "bdd7b13c8a6af191cec59791979dc3e0849c172a9fdf1bb551e6ca0359d42e7e"
+        }
+      ],
+      "counterpart_ids": [
+        "SEM:bf4f6af3df6cc7666063"
+      ],
+      "proposed_claim": "GDT811 separates three possible content levels: an illustrated referent such as plant, rootstock, celestial entry or bodily configuration; a label naming a member, category, condition or correspondence; and running explanation about properties, useful parts, effects, timing or preparation. Learned member names and recurring property/status matter can coexist, allowing repeated labels at different objects. This does not identify the nearest word as a species/organ name, every label as an ingredient, or every text as a take-heat-separate-finish sequence. GDT812 later quarantined the GDT811/PASS1008 f72r visual-authentication chain because canvas1006204 depicts the wrong side; these f72r architectural descriptions remain hypotheses, not authenticated observations from that image. Separately selector-bound f72r text counts and spelling identities remain valid as text, without proven graphical ownership."
+    },
+    {
+      "card_id": "CLEAN_GAP_EM:okol_broad_role_vs_specific_drug",
+      "decision": "approve",
+      "claim_type": "semantic_model",
+      "reason": "Full historical contract supported by inspected primary prose. Named counterpart assertions do not state this complete relational/model contract; their evidence overlap is not full proposition identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt811_four_page_content_synthesis/WORKING_THEORY.md",
+          "line": 60,
+          "line_end": 67,
+          "quote": "The wider inventory corrects the tempting specific-plant identification:\nokol occurs58 times on45 page/group keys and in seven source sections;\nqokol occurs90 times on52 keys and in five sections. The released f71v ring\ntext contains exact okol, and f68r1 has an exact okoldy label. This leaves\na broadly usable category, property, ordinary nominal or reference rival at\nleast as serious as one particular botanical drug. A widespread drug name\nis not logically impossible, and different similar wholes need not share a\nmeaning. No new gloss follows automatically from those distributions.",
+          "sha256": "706bb1aa3b6782fcc67d43348a6ac4c54f95e25cb409ccc5440455bb4f8b18ea"
+        }
+      ],
+      "counterpart_ids": [
+        "SEM:ba93611fc08701032061",
+        "SEM:ea106c14f18b05720249",
+        "SEM:1fa1eaf3b976f2e628a1"
+      ]
+    },
+    {
+      "card_id": "CLEAN_GAP_EM:written_head_property_genitive_contrast",
+      "decision": "correct_later_reader_assignment",
+      "claim_type": "semantic_model",
+      "reason": "GDT814 originally described chcthy as shared by ZL/IT. GDT815 explicitly corrects that prose: IT and RF have chckhy, while only ZL has chcthy. Preserve written-head possibility, not reader-exact head identity. This is a later explicit primary correction, not a new transcription query.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt814_okaiin_quality_reference_construction/REPORT.md",
+          "line": 24,
+          "line_end": 42,
+          "quote": "Q is property, not heating, heated state or a hidden III. Its final scalar\nmodifies dry, not both qualities. R is an anaphoric possessive genitive\nfollowing a written nominal head. It is not partitive davon, origin daraus\nor a flexible reference placeholder. Its owner remains unidentified. R keeps\nBOTH the demonstrative and possession in f17r, not just a fluent 'its root'.\nPunctuation and German agreement express trial syntax, not decoded tokens.\n\n## The paragraph really changes a construction possibility\n\nAt f81v.4/.5, ZL3b and IT2a retain this contiguous prose transition:\n\n`... chcthy / okaiin daiin ...`\n\nQ can read `[chcthy]: very warm?`; R can read `[chcthy dessen]: much?`.\nThe second account has a WRITTEN potential nominal head; it need not invent\none just because a physical line ended. The head category and antecedent\nare still unknown. RF1b instead has `kaiin aiin` in .5 and receives no\nokaiin/daiin translation there. The full .1–9 paragraph retains all readings,\nincluding two other okaiin occurrences and distinct okain/qokain/qokaiin.",
+          "sha256": "489c0f3098cec06e0cafa17e6dccf004b127e415bc332f070f752da18a2c7637"
+        },
+        {
+          "path": "experiments/yolo/gdt814_okaiin_quality_reference_construction/WORKING_THEORY.md",
+          "line": 32,
+          "line_end": 38,
+          "quote": "Die Gegenlesart okaiin=dessen? ist nicht erledigt. Gerade derselbe Anschluss\nauf f81v kann auch „[chcthy dessen]: viel“ heißen, wenn chcthy ein Nomen ist.\nDas benutzt einen geschriebenen Kopf, keinen erfundenen. Beim alleinigen\nokaiin und dem vollständigen okaiin dan fehlt dagegen ein geschriebener Kopf;\n„davon sehr wenig“ wäre ein anderer Referenzsinn, keine Rettung dieses Genitivs.\nBesitzer und Antezedent bleiben unbekannt. Pulver? und ist? bleiben ebenfalls\nRivalen; f88r.22 lässt die Kopulalesart weiterhin gut zu.",
+          "sha256": "032119a339380d21512b6f1fa80065ec1e6e2bea822f6b0c72ba5b4f9f840fd9"
+        },
+        {
+          "path": "experiments/yolo/gdt815_referent_property_discrimination/REPORT.md",
+          "line": 74,
+          "line_end": 78,
+          "quote": "GDT814's data preserved f81v correctly, but its prose described the chcthy\ntransition as shared by ZL and IT. Correct: ZL chcthy / okaiin daiin; IT\nchckhy / okaiin daiin; RF chckhy / kaiin aiin. A preceding written form\nsurvives, not a reader-exact identified head. Prior bound artifacts are unchanged;\nthe current claim registry and route now distinguish the readings.",
+          "sha256": "699a06fccd9298c304e76c38b7d743a8282d4b6a521e59f4c6ee8008bc852144"
+        }
+      ],
+      "counterpart_ids": [
+        "SEM:410a91ac795ca7e8d8d7",
+        "SEM:68bc18a11280daffc086",
+        "SEM:706b7f5df396ecac1dab"
+      ],
+      "proposed_claim": "GDT814 compares Q property and R fixed possessive-genitive readings across f81v.4/.5. Its later GDT815 correction gives ZL chcthy / okaiin daiin, IT chckhy / okaiin daiin, and RF chckhy / kaiin aiin. A written potential nominal head therefore remains, but not one reader-exact identified head: in ZL, Q can try [chcthy]: very warm? and R [chcthy dessen]: much?; IT must preserve its different head, and RF receives no okaiin/daiin translation. Head category and antecedent stay unknown. Standalone okaiin and complete okaiin dan lack a written head in their inscriptions; changing dessen into partitive davon changes this fixed model. Powder and copula remain rivals."
+    },
+    {
+      "card_id": "CLEAN_GAP_EM:three_written_carrier_qr_chains",
+      "decision": "approve",
+      "claim_type": "functional_hypothesis",
+      "reason": "All three chains are explicitly listed with the same exact surface roles. The claims are conditional written antecedent/property accounts, not established owner chains. Crucially otedy heads the next paragraph rather than the nearest label paragraph; the card preserves unknown meanings and competing antecedents. No fluent invented clause or borrowed noun is introduced.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt815_referent_property_discrimination/REPORT.md",
+          "line": 10,
+          "line_end": 32,
+          "quote": "## Concrete chains for property versus possession\n\nThe known whole-label identities are not new discoveries. Their combination\nwith fixed Q/R consequences is the new comparison:\n\n- okol is the entire f88r.15 label and reappears at .19 in the complete .18–22\n  paragraph. Its last line contains ychey okaiin chol. R can therefore propose\n  a PARTICULAR written antecedent for dessen: the earlier okol. Q instead\n  predicates a property of ychey. On f24v.4 the unchanged pair okol okaiin\n  also makes okol itself a possible property carrier or possessed head.\n- otedy is the entire f77r.3 label and the opening word of the NEXT prose\n  paragraph, .25–37. That paragraph contains qokain okaiin and solkeey okaiin.\n  R can try the same written otedy as owner of both putative heads; Q can\n  describe their properties. f75r.45 supplies a separate otedy okaiin pair.\n- oty is an entire f70v2 label and immediately precedes okaiin over the\n  f21r.8/.9 line break. That gives a written carrier, not its meaning.\n\nNeither okol nor otedy is semantically named. Neither a same-paragraph sequence\nnor proximity establishes reference, a part-whole relation or picture ownership.\nThere are other possible antecedents. qokain, solkeey and ychey remain unknown,\nnot conveniently supplied root/leaf/seed nouns. GDT811 already documented the\nfirst two label/prose identities. The f77r target is not the nearest paragraph\nto the upper labels. Full context and variants: src/TEXT_REFERENT_AUDIT.md.",
+          "sha256": "699a06fccd9298c304e76c38b7d743a8282d4b6a521e59f4c6ee8008bc852144"
+        }
+      ],
+      "counterpart_ids": [
+        "SEM:68bc18a11280daffc086",
+        "SEM:410a91ac795ca7e8d8d7",
+        "SEM:16548455675289dcae5f"
+      ]
+    },
+    {
+      "card_id": "CLEAN_GAP_EM:fixed_named_qr_content_worlds",
+      "decision": "approve",
+      "claim_type": "semantic_model",
+      "reason": "The complete Q/R table and shared scalar/this/root/dry values are explicit, including Q/R also differing on okol. The post-inspection humoral refinement is correctly disclosed; no new independent Q winner follows from it. Short lexical cards do not assert the full paired world and its paragraph consequences.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt816_paragraph_content_models/WORKING_THEORY.md",
+          "line": 5,
+          "line_end": 31,
+          "quote": "\nDie Texte könnten Stoffe mit Teilen/Produkten und Eigenschaften beschreiben.\nZwei feste Inhaltswelten, alle Werte C0:\n\n| Ganzwort | Q | R |\n|---|---|---|\n| okol | pflanzliches Arzneimaterial? | ganze Pflanze? |\n| chor | Blätter? | Blätter? |\n| ychey | Pflanzensaft? | Pflanzensaft? |\n| otedy | Wasserquelle? | Wasserquelle? |\n| qokain | Wasser? | Wasser? |\n| solkeey | Wasserdampf? | Wasserdampf? |\n| okaiin | humoral warm? | dessen? |\n\nGemeinsam: otchol=dieses?, cthar=Wurzel?, chol=humoral trocken?, dan=sehr wenig?,\ndain=wenig?, daiin=viel?, daiiin=sehr viel?. Ganze Wörter, keine EVA-Stämme.\nDie gemeinsame humoralmedizinische Präzisierung erfolgte nach der externen\nSichtung; der ursprüngliche Arzt-Q war physisch warm und ist keine Bestätigung\ndieser gemeinsamen Variante. N/G/K/B und alternative Skalarlesungen bleiben.\n\nF88r: Pflanze/Kraut .19, wiederholte Blätter .20/.21, Saft .22.\nQ: Saft warm/trocken. R: Saft der vorher geschriebenen Pflanze, trocken.\nBeide schulden den noch unbekannten Aussageninhalt zwischen den Substantiven.\nF77r: Quelle .25, mehrfach Wasser, Dampf .35; R nennt die Quelle als Besitzer.\nF24v: R Pflanze dessen braucht einen anderen Besitzer. F75r: R Quelle dessen\nversucht Wasser .43#4 als Besitzer, über nähere Quellennennungen hinweg.\nKeine Besitzbindung ist bewiesen. Kein Pressen, Erwärmen oder Verabreichen gelesen.",
+          "sha256": "c8a692cec2601f2078ed9579d56c85a5ed5bf2f95db5cae9e7648c0500b7d830"
+        }
+      ],
+      "counterpart_ids": [
+        "SEM:1fa1eaf3b976f2e628a1",
+        "SEM:ea106c14f18b05720249",
+        "SEM:7be1e4f37215895ddc58",
+        "SEM:08a05de29068958d3f58",
+        "SEM:7f8a073a7d5f05b6e0e5",
+        "SEM:7f719c305bb9b239cb4f",
+        "SEM:8dda98a48e39b5c7d776",
+        "SEM:9ec2c660808ce4a99903"
+      ]
+    },
+    {
+      "card_id": "CLEAN_GAP_EM:steam_basin_becomes_contains_matrix",
+      "decision": "approve",
+      "claim_type": "semantic_model",
+      "reason": "WORKING_THEORY explicitly crosses Dampf/Becken with wird/enthält and prints the f77r.35 eight-word scaffold. The card correctly distinguishes physical contents from filling and explicitly preserves guessed closing values/syntax and incomplete RF. This is one four-way contract, not four validated sentences.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt818_fixed_material_container_relation/WORKING_THEORY.md",
+          "line": 5,
+          "line_end": 21,
+          "quote": "Vollständiger lokaler ZL/IT-Zeilenversuch f77r.35:\n\n```text\nsolkeey okaiin chedy qokain sheedy qokaiin chedaiin chealy\nDampf?  dessen? wird? Wasser? wenn? Luft?  ist?     kalt?\n```\n\n„Dessen Dampf wird Wasser, wenn die Luft kalt ist.“ Die vier Schlusswerte\nwurden zur Vervollständigung geraten; weder Wortbedeutung noch Syntax belegt.\nRF: wenn? [qotaiin] [che] [aiin] kalt? bleibt unvollständig.\n\nHauptvergleich4fest: solkeey=Dampf/Becken × chedy=wird/enthält. R sonst gleich,\nol unbekannt; alte Q/humorale und andere Rivalen bleiben separat bestehen.\nEnthält meint physischen Inhalt, nie Füllen oder bloße Elementpotenz. Wasser\nkann schon enthalten sein oder erst entstehen; das trennt die Sachmodelle.\nBecken enthält Wasser plausibel, Becken wird Wasser keine normale Füllung.\nDampf enthält Wasser braucht einen präzisen Stoffbegriff, nicht pauschal unmöglich.",
+          "sha256": "d4b0b29c93112d4ec99c2a9aab88a70abc73057f8b610969aa5bccb0edaae0e8"
+        }
+      ],
+      "counterpart_ids": [
+        "SEM:9ec2c660808ce4a99903",
+        "SEM:21553d9a0e1b93930307",
+        "SEM:8405334bbfda05096cc0",
+        "SEM:cab5fef0abc32ba022cb",
+        "SEM:79a8f90fa23769bd2dc4"
+      ]
+    }
+  ],
+  "source_disposition_reviews": [
+    {
+      "source_id": "LEGACY_COMPONENT:22d9cf161b7e5021f6ed",
+      "selection_index": 1,
+      "decision": "approve_bounded_disposition",
+      "reason": "Learned whole/stem plus terminal realization is explicitly a structural renderer field, not a word interpretation; no semantic card created.",
+      "scope_limit": "Only selected full prose contract; no whole-path or full-history semantic coverage."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:3c4eef5814adbd25dc61",
+      "selection_index": 2,
+      "decision": "approve_bounded_disposition",
+      "reason": "Statement segmentation is an analyst axis and old DY is not revalidated. Statistical uncertainty adds no complete content claim.",
+      "scope_limit": "Only selected full prose contract; no whole-path or full-history semantic coverage."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:1bdde0192f0104df1ccf",
+      "selection_index": 3,
+      "decision": "approve_bounded_disposition",
+      "reason": "The special daiin→m contextual bridge is retired as nonportable; the source explicitly assigns no daiin meaning. Preserve the narrow failure without a lexical card.",
+      "scope_limit": "Only selected full prose contract; no whole-path or full-history semantic coverage."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:44d3e379500cadf9ed59",
+      "selection_index": 4,
+      "decision": "approve_bounded_disposition",
+      "reason": "Control-dependent field counts and a neighbourhood lead do not supply an ingredient or lemma claim; no result-number card.",
+      "scope_limit": "Only selected full prose contract; no whole-path or full-history semantic coverage."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:a55d96a44d51c82d81d7",
+      "selection_index": 5,
+      "decision": "approve_bounded_disposition",
+      "reason": "The selected lines are pointers/accounting. The REPORT adjacent table reiterates three exact contrasts already separately captured; complete paragraph-artifact payload was not opened in this bounded prose pass. No claim that all four paragraphs are semantically exhausted.",
+      "scope_limit": "Only selected full prose contract; no whole-path or full-history semantic coverage."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:903c1693f08232d2d4a4",
+      "selection_index": 6,
+      "decision": "approve_with_visible_f72r_provenance_limit",
+      "reason": "Recovered cross-register property mechanism and independent-genres rival; later image-key quarantine retained.",
+      "scope_limit": "Only selected full prose contract; no whole-path or full-history semantic coverage."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:dfc1b1a4d2fb6775d187",
+      "selection_index": 7,
+      "decision": "approve_with_visible_f72r_provenance_limit",
+      "reason": "Shared-property cross-subject mechanism and referent/label/explanation separation are distinct complete assertions beyond the broad subject-area card; their common evidence does not itself prove identity.",
+      "scope_limit": "Only selected full prose contract; no whole-path or full-history semantic coverage."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:af2598177de9152fff0c",
+      "selection_index": 8,
+      "decision": "approve_bounded_disposition",
+      "reason": "Recovered role-versus-specific-drug contrast; old broader card quoting this paragraph is not full proposition coverage.",
+      "scope_limit": "Only selected full prose contract; no whole-path or full-history semantic coverage."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:b6f1fb2c980918517350",
+      "selection_index": 9,
+      "decision": "approve_bounded_disposition",
+      "reason": "The dated comparator layers provide no Voynich word identity. No new content model or recovered gloss in this selected span.",
+      "scope_limit": "Only selected full prose contract; no whole-path or full-history semantic coverage."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:96afd1fe775c40b83115",
+      "selection_index": 10,
+      "decision": "approve_with_visible_f72r_provenance_limit",
+      "reason": "Paired with the explicit three-level table; no planet, organ, thermal value or time unit named.",
+      "scope_limit": "Only selected full prose contract; no whole-path or full-history semantic coverage."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:9944c4013fee55c95345",
+      "selection_index": 11,
+      "decision": "approve_after_gdt815_reader_correction",
+      "reason": "Preserve Q/R complete local syntax, unknown head and alternate-reader limits.",
+      "scope_limit": "Only selected full prose contract; no whole-path or full-history semantic coverage."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:0d13b19ca0eb9a5af06f",
+      "selection_index": 12,
+      "decision": "approve_after_gdt815_reader_correction",
+      "reason": "Written-head evidence and standalone counterpressure belong to the same fixed genitive-vs-property construction card; no flexible partitive rescue.",
+      "scope_limit": "Only selected full prose contract; no whole-path or full-history semantic coverage."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:38a58837962a25c2e2cf",
+      "selection_index": 13,
+      "decision": "approve_bounded_disposition",
+      "reason": "Recover the chain-conditioned Q/R assertions with unknown referents, not old label identity as new observation.",
+      "scope_limit": "Only selected full prose contract; no whole-path or full-history semantic coverage."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:a830344e16258cdc84a5",
+      "selection_index": 14,
+      "decision": "approve_bounded_disposition",
+      "reason": "Recover full shared dictionary and paired changes with post-hoc humoral limit; no repetition of isolated gloss cards.",
+      "scope_limit": "Only selected full prose contract; no whole-path or full-history semantic coverage."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:3989cfd0f0f0d5f5f22f",
+      "selection_index": 15,
+      "decision": "approve_bounded_disposition",
+      "reason": "Seven P paragraphs plus one C record and f76r label/prose distinction are scope accounting, not a new semantic hypothesis.",
+      "scope_limit": "Only selected full prose contract; no whole-path or full-history semantic coverage."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:06e14c0518731a8e18f7",
+      "selection_index": 16,
+      "decision": "approve_bounded_disposition",
+      "reason": "One material/transformation/containment matrix under a fixed local sentence scaffold; no four independently confirmed meanings.",
+      "scope_limit": "Only selected full prose contract; no whole-path or full-history semantic coverage."
+    }
+  ],
+  "counterpart_bindings": [
+    {
+      "id": "SEM:08a05de29068958d3f58",
+      "claim": "okaiin → dessen?",
+      "card_basis": "3f51f711960dc4880b28ffa17a4466a1d5362286c5c018f4154859ec046f140a",
+      "effective_basis": "06cdadd4a5a3585922f40d9be7ef55c77f05cd55cdd54dadc083fd5949241f0a",
+      "case_ids": [
+        "REPORT_PROPOSAL:3f3d1eecb2752df7694d"
+      ]
+    },
+    {
+      "id": "SEM:16548455675289dcae5f",
+      "claim": "okaiin → bitter?",
+      "card_basis": "936013e8a6b1d03bee507761803925922c57c540d5775b64d51018bafbde8f40",
+      "effective_basis": "375e3e878578c0f636761dea4f37ca74a08cf64aef1def4ee49c19ca2840bc06",
+      "case_ids": [
+        "REPORT_PROPOSAL:e92fa6db06bda6456633"
+      ]
+    },
+    {
+      "id": "SEM:1d021f0fd9a579c17305",
+      "claim": "Pictured botanical entries distinguish useful substances, their forms, properties or applications.",
+      "card_basis": "c89f5e3ef58a7f46d91ca736d1c26acca85f72d2158fd57c340e621f49e71a0b",
+      "effective_basis": "41bc82276f2500aaab5c393fff9381bfb64ac590e655ba3bea6726664cbd51c1",
+      "case_ids": [
+        "REPORT_PROPOSAL:af868bd0baf1763a6146"
+      ]
+    },
+    {
+      "id": "SEM:1fa1eaf3b976f2e628a1",
+      "claim": "okol → Kraut, pflanzliches Arzneimaterial?",
+      "card_basis": "41fa71d699e3175c6a5ca030c9fc56baf1006142640180b00319e28fa8b3ff44",
+      "effective_basis": "acba82d4cd0e5f125539aac10cdeca6d1d53ec22dad6adcac807a6322c3d8e0c",
+      "case_ids": [
+        "REPORT_PROPOSAL:af3e140585440fe81677"
+      ]
+    },
+    {
+      "id": "SEM:21553d9a0e1b93930307",
+      "claim": "solkeey → Becken?",
+      "card_basis": "40afd3919cf84090550cc71e10ae6a3d2d011421324abc7569d951adb9e4254e",
+      "effective_basis": "74e13a0d2ae965315c3eebf4c3f937a55cd12681b5c88dafe974dd15acc8a27c",
+      "case_ids": [
+        "CLEAN_COMPONENT:f6075f3b7069b13ac505"
+      ]
+    },
+    {
+      "id": "SEM:410a91ac795ca7e8d8d7",
+      "claim": "okaiin (Q) → warm?",
+      "card_basis": "8743154614a035fbfb50f2710dd12ff000cf53ba438f420fe066dc9bd3d983f3",
+      "effective_basis": "3be168609a45facf536bcac0a387b5ed912253957c8c4040fc74a34a3419abb2",
+      "case_ids": [
+        "REPORT_PROPOSAL:0bf56898182d866e7d50"
+      ]
+    },
+    {
+      "id": "SEM:68bc18a11280daffc086",
+      "claim": "okaiin (R) → dessen?",
+      "card_basis": "34ef2f5ece15d3a9008374c1be3ad1a9d2cdd2d51c55585ad69f031085c31424",
+      "effective_basis": "046dfc171947f7a3257b72957d51b54b586985ca139bfd156ac995238e602675",
+      "case_ids": [
+        "REPORT_PROPOSAL:7016863988745ed2b19d"
+      ]
+    },
+    {
+      "id": "SEM:706b7f5df396ecac1dab",
+      "claim": "okaiin (R, neu) → dessen?",
+      "card_basis": "58ea70840af9f3e563568317ea10bf5fa1dbe2f86d29b141b1c674f493abb3ae",
+      "effective_basis": "fe0694b3a456c6d647ec6e05a996f62cc1c911e2e526302cd2a64c7ce63b8e59",
+      "case_ids": [
+        "REPORT_PROPOSAL:bfeb263833498356871f"
+      ]
+    },
+    {
+      "id": "SEM:79a8f90fa23769bd2dc4",
+      "claim": "sheedy → mit?",
+      "card_basis": "30e90ea6581f9682dd2a2d2e980bf2dec9780ec16cb6fed40c88ccacc8b6ccd0",
+      "effective_basis": "be8fbd72c63533cd22f46090bb18e6162d3379ed68eb431d9e5247176924354e",
+      "case_ids": [
+        "CLEAN_COMPONENT:588eec2a8df842cfa25c"
+      ]
+    },
+    {
+      "id": "SEM:7be1e4f37215895ddc58",
+      "claim": "okaiin → warm?",
+      "card_basis": "3cd3fd7a4efd1b7b62a54ec433921fdffdb4919ba5c3b68a37c5d6fb1dc5db6f",
+      "effective_basis": "924fad8060087b11a3b7bdf7fdbb8560c4a0be429dbdc968464f26418babee2c",
+      "case_ids": [
+        "REPORT_PROPOSAL:96b9968ba255b1094395"
+      ]
+    },
+    {
+      "id": "SEM:7f719c305bb9b239cb4f",
+      "claim": "otedy → Wasserquelle?",
+      "card_basis": "92ebf0f0d5d63a7b29d7007c0849b851badf5083cfeb4f8145e55ae2a95fba61",
+      "effective_basis": "0bdd1767b4ecf92971023b3d5723e8834f603ac3c60e7d12a72ddcc0b3c9023e",
+      "case_ids": [
+        "REPORT_PROPOSAL:3fd66208ee5ba04b909d",
+        "REPORT_PROPOSAL:16ba99d3dc203eae7ffe"
+      ]
+    },
+    {
+      "id": "SEM:7f8a073a7d5f05b6e0e5",
+      "claim": "ychey → Pflanzensaft?",
+      "card_basis": "84bab5deba795fe14aa8183c71b361264b744b6dd52bd010fa3ca427e7ec428b",
+      "effective_basis": "18bbc57e1054788a3de762e6bb0a8023f90ca14726437a200cced3e6bb115935",
+      "case_ids": [
+        "REPORT_PROPOSAL:e07f7e6571fe30478c3a",
+        "REPORT_PROPOSAL:c665ad5decfb622e848b"
+      ]
+    },
+    {
+      "id": "SEM:8405334bbfda05096cc0",
+      "claim": "chedaiin → ist",
+      "card_basis": "9f4bae97e0d7b7860bb54a2036364e08286afee2ba8c3d643865f1c8047340c4",
+      "effective_basis": "aba33ba1c6384d70c5cc23b13005283494c4108604cbd86c4e7c104a71e76696",
+      "case_ids": [
+        "CLEAN_COMPONENT:8e187bbbc22ef6c163f7"
+      ]
+    },
+    {
+      "id": "SEM:8dda98a48e39b5c7d776",
+      "claim": "qokain → Wasser?",
+      "card_basis": "c1ed2219fdaece78f4c1bdea412eb7b13e075db65a070e4b43f3a1429a70be1e",
+      "effective_basis": "0d3b40604d9bb0e4e5185da295d2b970db49c5dc4c47a9f0709cae99d5de4f00",
+      "case_ids": [
+        "REPORT_PROPOSAL:a3e67193fe3ae83aaecc",
+        "REPORT_PROPOSAL:0ecf1cc319e1b18c9b79"
+      ]
+    },
+    {
+      "id": "SEM:9ec2c660808ce4a99903",
+      "claim": "solkeey → Wasserdampf?",
+      "card_basis": "55558ed758d31f4b3e7d9725719179a07f8faf730aa9d2b80545c03eb8669e6f",
+      "effective_basis": "72031306085f01c2e0ee9836fa8af1ba8e4a9efa30d757d4d1ae4567fc7e2217",
+      "case_ids": [
+        "REPORT_PROPOSAL:597dbe0df60b4a4ed33e",
+        "REPORT_PROPOSAL:3e79d5e928c0d5f0e65e"
+      ]
+    },
+    {
+      "id": "SEM:ba93611fc08701032061",
+      "claim": "The vessel-like objects represent three compound medicines, adjacent plants their ingredients, and the paragraph their preparation or use.",
+      "card_basis": "af3e430f3bc06f03fb5bc82d48567c83d30592a1fb7bc12ec0dc4df2e147f3b9",
+      "effective_basis": "49b62ef9d0bba34c00a1fa56c2d58d137ecbafa12a53df970f923c95c0dd3f7f",
+      "case_ids": [
+        "REPORT_PROPOSAL:99f13fc026af64dbeab2"
+      ]
+    },
+    {
+      "id": "SEM:bf4f6af3df6cc7666063",
+      "claim": "The manuscript describes natural substances, their properties and bodily effects together with celestial material.",
+      "card_basis": "59a96ab206da5f7b144543bfe715d7f2730652f32d73ac33c9c9e39634436ddf",
+      "effective_basis": "f9cfee08c4a99c8aad3db16540f9907fa410ae45a5a49b57bbc377c52e9b30c9",
+      "case_ids": [
+        "REPORT_PROPOSAL:a77c85acb8e3f53edb0b"
+      ]
+    },
+    {
+      "id": "SEM:cab5fef0abc32ba022cb",
+      "claim": "chealy → kalt",
+      "card_basis": "97e20b5ae9bdbe692453d884c6e885dd367723d510d88172dc2a76cf000ea14f",
+      "effective_basis": "e31758a0873d37983401d67faea008448f282a4acb9eb0e71f5b0fe60f104cee",
+      "case_ids": [
+        "CLEAN_COMPONENT:d9e0af2c6edfa99d782c"
+      ]
+    },
+    {
+      "id": "SEM:ea106c14f18b05720249",
+      "claim": "okol → ganze Pflanze?",
+      "card_basis": "5772525a4e266d86bf9499df9347941539c3d737030252e918c08a56dae34e18",
+      "effective_basis": "632e9d3e75b2197edb81a31a1041c32261da7bf27dc9e82f723b20e9d7726ae7",
+      "case_ids": [
+        "REPORT_PROPOSAL:acc668f7351211b537bf"
+      ]
+    }
+  ],
+  "counts": {
+    "cards": 7,
+    "approve_unchanged": 4,
+    "visible_provenance_limits": 2,
+    "reader_scope_correction": 1,
+    "rejected_cards": 0,
+    "selected_spans": 16,
+    "counterpart_cards": 19,
+    "counterpart_cases": 23
+  },
+  "overall": "Retain seven actual historical contracts after one later-reader correction and two visible provenance limits. None is independent semantic confirmation.",
+  "open_source_pointer": {
+    "source_id": "LEGACY_COMPONENT:a55d96a44d51c82d81d7",
+    "status": "available_artifact_not_inspected",
+    "path": "experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/artifacts/JOINT_COMPETING_PARAGRAPH_READINGS.md",
+    "limit": "This peer reads the public report pointer and repeated example table only; four complete paragraph payloads remain uninspected here, not missing data or semantically exhausted."
+  },
+  "operational_mutation": false,
+  "raw_or_event_data_read": false,
+  "images_read": false,
+  "validation": {
+    "fresh_snapshot_counterpart_bases_verified": 19,
+    "all_quote_hash_checks": true
+  }
+}

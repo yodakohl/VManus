@@ -9,17 +9,17 @@ They remain in the source archive. No hypothesis becomes executable by inclusion
 
 | Unit | Count |
 |---|---:|
-| Active semantic hypothesis variants | 3,836 |
+| Active semantic hypothesis variants | 3,843 |
 | Separately typed formal-role cards | 265 |
-| Reviewed source cases, including the correction archive | 4,622 |
+| Reviewed source cases, including the correction archive | 4,629 |
 | Archived source-extraction errors | 44 |
 | Exact normalized assertion repetitions grouped | 477 |
 | Reviewed equivalence groups / display reduction | 49 / 58 |
-| Public semantic display entries | 3,778 |
+| Public semantic display entries | 3,785 |
 
 These are different units, not a deduplicated total of independent theories.
 A local ignored supplement contributes95 semantic cards and one formal card;
-the ordinary local default therefore displays3,873 semantic entries. A fresh
+the ordinary local default therefore displays3,880 semantic entries. A fresh
 public clone has the public view only. Local source files and quotes are not
 published or silently folded into public counts.
 
@@ -83,7 +83,7 @@ not mean rejected, and an old source PASS does not confirm a meaning.
 
 ## Failure memory and conditional priorities
 
-Thirty-six scoped question dossiers distinguish empirical failure, invalid test,
+Thirty-eight scoped question dossiers distinguish empirical failure, invalid test,
 insufficient capacity, missing meaning binding, proposal-only status and historical
 model revision. They appear before inherited experiment context under assessments.
 They state the actual compared subclaim, primary evidence, scope and changed-input
@@ -116,18 +116,20 @@ Later full-scope reviews and audit-only source comparisons live in the bounded
 `decisions/clean_gap_review_*.json` artifacts. An audit pointer does not add a
 source-case payload. Quote overlap alone never certifies complete review.
 
-Latest integrated packet: EJ/EL/EK adds thirty-three complete historical source
-cases. The specifically enumerated GDT767 list is reconciled through twenty-five
-full variants and three already addressed default assertions; those assertions
-are not three necessarily distinct cards. Extract-to-less-specific-preparation
-revisions preserve the earlier rivals. The older ofchedy Ansatz and later Masse
-variant are not silently equated. This completes the named default-list check,
-not every rival or proposition in the report.
+Latest integrated packet: EM preserves seven complete historical models, including
+shared-property versus genre-specific explanations, written-head and possessive
+contrasts, named property/genitive worlds, and four steam/basin interpretations.
+The GDT811 f72r canvas descriptions stay quarantined by the GDT812 correction;
+textual observations are not graphical ownership. The later humoral refinement
+is not confirmation of the earlier physical-warm model.
 
-EK retains eight whole-word or label/role contracts with their original limits:
-GDT787's displayed values are C0 family priors granting no new renderer license;
-GDT796 leaves graphical/status content open. Earlier pcheey source/record scope,
-unchanged daiiin identity, and cholkar's unresolved rival comparison remain.
+EN records two organ-default revision dossiers. GDT756's cthy/root and chor/leaf
+proposals were real hypotheses. The later cthy/leaf control is an assumption,
+not an independent organ discriminator; derived chor contrasts remain conditional.
+EO and EP reconfirm nineteen existing extraction archives under this source-
+polarity distinction, with no new archives or empirical meaning rejections.
+EP classifies its exact twenty-item remainder, but only nine received new primary
+review; eight are metadata-only and three retain explicit earlier reviews.
 A073/A004 still have available but uninspected earlier whole-reading mappings.
 That is unfinished source comparison, not missing data or semantic failure.
 

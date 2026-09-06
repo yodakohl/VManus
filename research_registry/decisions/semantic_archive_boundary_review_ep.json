@@ -1,0 +1,764 @@
+{
+  "schema_version": 1,
+  "review_id": "ARCHIVE_BOUNDARY_EP",
+  "status": "EXACT20_CLASSIFIED_NINE_PRIMARY_REVIEWS_NO_RESTORE",
+  "operational_mutation": false,
+  "event_data_read": false,
+  "selection": {
+    "source": {
+      "path": "research_registry/decisions/semantic_archive_boundary_review_eo.json",
+      "sha256": "ee3f8c6bbda2880beab1ba3fd4d52f8694f5f27505a0978deab7623c574a3517"
+    },
+    "exact_ids": [
+      "SEM:09ae79a9a370f8e5af5e",
+      "SEM:1a301ad13228509f1c9f",
+      "SEM:3953e3f0de6f0c7c3e4f",
+      "SEM:4836f02a3b17e7505eba",
+      "SEM:5014d9ffefcecbe645ec",
+      "SEM:5615927497524c00218e",
+      "SEM:7a949abe1bed564feafc",
+      "SEM:83d0ffcb62f84e87a96d",
+      "SEM:868efe18d8a44bdee040",
+      "SEM:8a74f7ba9ba08754a6c3",
+      "SEM:b6d66beda85fccb3d1ac",
+      "SEM:baa8aea811155f943e30",
+      "SEM:cbb3fcd944576e77da61",
+      "SEM:cd461a877353a563741c",
+      "SEM:d9d1658273d97f0d2dae",
+      "SEM:de51146d887250b790af",
+      "SEM:df3b990091fd0da0d0f6",
+      "SEM:e0d055fff65c53379d2e",
+      "SEM:e5aa9cdd2a27bd11e217",
+      "SEM:e9023262b3594803313e"
+    ],
+    "all20_metadata_classified": true,
+    "prior_review_boundaries": "BACA AD, Y Station BG and AL apprentice error AK explicitly excluded from new primary decisions; EB/EO/BL/AV selected targets are not reprocessed. AL contextual prose was inspected during triage but is not counted as a new boundary result.",
+    "no_replacement_targets": true
+  },
+  "counts": {
+    "existing_technical_extraction_error_metadata_only": 4,
+    "existing_unbound_dictionary_example_metadata_only": 4,
+    "non_numeric_boundary_primary_review": 9,
+    "prior_explicit_boundary_review_not_repeated": 3
+  },
+  "records": [
+    {
+      "target": "SEM:09ae79a9a370f8e5af5e",
+      "claim": "O → WASSER",
+      "card_basis": "db57e68ef90624d577f80a871a356d909dd1af3e63cb0c62043096b79dee43da",
+      "effective_basis": "8958fb52d7f3aea2bbf6d770cc76b252e778928aeaabc88e4ff763a98eedbad8",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:26307b2caf3f0ba07eae"
+      ],
+      "original_correction_ids": [
+        "SCR:d44bda3269d736691546"
+      ],
+      "original_correction_reasons": [
+        "The source permits whole CHOY=WASCHEN but explicitly says neither O=WASSER nor Y=WASSER follows. This freestanding constituent inference reverses the quoted boundary."
+      ],
+      "classification": "non_numeric_boundary_primary_review",
+      "primary_reaudited": true,
+      "decision": "retain_archive",
+      "reason": "Source assigns whole CHOY=WASCHEN with water only in the H5 local realization. It explicitly refuses O=WASSER; no free-O proposal or tested O-water rival is supplied.",
+      "restore_positive_card": false,
+      "empirical_meaning_refutation": false,
+      "claim_ceiling": "This exact source case only; no claim that another whole/tuple or another historical source could never carry the meaning.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_application_completion/SELECTED_APPLICATION_COMPLETION_REPORT.md",
+          "line": 60,
+          "line_end": 78,
+          "quote": "## Gelernte Anwendungs-Fachkarten\n\nDie seltenen Handgriffe bleiben ein kleiner Nomenklator:\n\n| Karte | kurzer Default | lokale Hauptlesung |\n|---|---|---|\n| `QOLKY` | **BEHANDLUNGSSTELLE** | behandelte Körper- oder Arbeitsstelle |\n| `LCHEEY` | **BENETZTE STELLE** | feuchte Stelle, Tuch oder Einsatz |\n| `CHOY` | **WASCHEN** | H5: Stelle mit Wasser waschen |\n| `DSHEOL` | **EINREIBEN** | Mittel oder Beschichtung einreiben |\n| `SHECTHEDCHY` | **AUFSTREICHEN** | Masse flächig aufstreichen |\n| `KCHOL` | **AUFLEGEN** | offene Auflage-/Einsetzhandlung |\n| `RSHEDY` | **WASCHUNG; SCHLUSS** | geschlossener Waschgang |\n| `CHEECKHODY` | **AUFTRAGEN; SCHLUSS** | allgemeiner Auftragsabschluss |\n| `QOKYLDDY` | **POSTEN BEFESTIGEN; SCHLUSS** | Auflage festbinden oder Einsatz befestigen |\n\nDiese Karten teilen eine praktische Schublade, aber nicht notwendig eine\nsichtbare Wurzel. Insbesondere wird aus `CHOY=WASCHEN` weder `O=WASSER` noch\n`Y=WASSER`. Wasser ist die lokale H5-Ausführung.",
+          "sha256": "0dc5a20cabf4ef190522de94f7458a2dfbb3448d61a71d4617d2899e7015ed6d"
+        }
+      ]
+    },
+    {
+      "target": "SEM:1a301ad13228509f1c9f",
+      "claim": "ol → R05 selected only by specificity priority among equal passing R05, R01, and R03 scores",
+      "card_basis": "021465888e58ac9d4203b211f879a98148e86a12ca5a0ed22ef73b9a13486488",
+      "effective_basis": "08711fc6f4380a1cf0db8fe91223a92c4160cac0a36b9a9c1b03959317af3b61",
+      "source_case_ids": [
+        "REPORT_PROPOSAL:cfac19a91c72acb97419"
+      ],
+      "original_correction_ids": [
+        "SCR:358cc016a9dfec231bd8"
+      ],
+      "original_correction_reasons": [
+        "The parser selected Current role decision rather than Reader default. R05 and equal score tie-breaking are dispatch metadata, not an ol meaning."
+      ],
+      "classification": "existing_technical_extraction_error_metadata_only",
+      "technical_error": "status/role-priority column",
+      "primary_reaudited": false,
+      "decision": "No new scientific review; preserve existing archive.",
+      "evidence": [
+        {
+          "path": "research_registry/semantic_ideas_excluded.jsonl",
+          "sha256": "3de5fafdb3ef63fbbc797679b9ff0baf1f695c7538dbd11fb13a69a42dfa3f38",
+          "record_id": "SEM:1a301ad13228509f1c9f"
+        }
+      ]
+    },
+    {
+      "target": "SEM:3953e3f0de6f0c7c3e4f",
+      "claim": "l → liquid",
+      "card_basis": "4e5bae8d910372f7f1c4b444dc3cc8ddd3056ccabdd827079f07a76590b85c3d",
+      "effective_basis": "7c81eb4bce71e31c1d41a78075af1169f98fa109cd42b69c3a88bec68a3a2846",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:e85038c49ef1d9ee92b1"
+      ],
+      "original_correction_ids": [
+        "SCR:7989f9186d0ca9cf7f5e"
+      ],
+      "original_correction_reasons": [
+        "The sole source declares this future bare-substring dictionary line invalid unless it names a full licensed cell. No such cell is supplied by this l=liquid card."
+      ],
+      "classification": "existing_unbound_dictionary_example_metadata_only",
+      "primary_reaudited": false,
+      "decision": "Prior correction identifies a deliberately invalid future bare-substring dictionary example with no licensed full cell. No new meaning hypothesis or new failure assigned. This metadata classification is not a fresh full-prose validation.",
+      "source_pointer": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v44/V44_R3_TECHNICAL_NOTATION_STEM_THEORY.md",
+          "line": 221,
+          "sha256": "b76bbac8226212b4f73d9851459249f60b2eaef883fa1ba258990e56e3283202"
+        }
+      ]
+    },
+    {
+      "target": "SEM:4836f02a3b17e7505eba",
+      "claim": "y → schließen",
+      "card_basis": "e2d3e8e5146844de294fa8698ddeb0f450abebc9b9a6f370106ca292aaa8618a",
+      "effective_basis": "2fef147bbe0bab5d86d9d832fbabc97b514dcea11fc47e7dbf3fa8e97772c609",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:2ba69111548dd1495c82"
+      ],
+      "original_correction_ids": [
+        "SCR:4c9e7d89dcf9e0326651"
+      ],
+      "original_correction_reasons": [
+        "The source forbids deriving free y=close from action-bearing whole-word defaults; no free-sign assignment is made."
+      ],
+      "classification": "non_numeric_boundary_primary_review",
+      "primary_reaudited": true,
+      "decision": "retain_archive",
+      "reason": "GDT725 keeps action-bearing whole aiijy/ypchesy defaults but forbids exporting y=schließen. Separately it assigns positional naked y#1/y#2 structural punctuation/continuation functions, not a spoken global close word. Preserve those genuine formal roles; they do not rescue the archived lexical export.",
+      "restore_positive_card": false,
+      "empirical_meaning_refutation": false,
+      "claim_ceiling": "This exact source case only; no claim that another whole/tuple or another historical source could never carry the meaning.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt725_v98_final_low_hardcap_dictionary_dispatch/REPORT.md",
+          "line": 11,
+          "line_end": 54,
+          "quote": "\n| Form | V98-Wörterbuchdefault | lokale Ausgabe | Entscheidung |\n|---|---|---|---|\n| aiijy | in drei Bündel abfüllen und schließen | den vorstehenden Anteil in drei Bündel abfüllen und schließen | bestätigt |\n| chpcheey | nachgetrocknetes Pulver, Form II | gleich | bestätigt |\n| cpheesy | vollständig bereitetes und abgeschlossenes Kompositum | vollständig bereitetes und abgeschlossenes Arzneikompositum | revidiert |\n| da | eine Teilmenge abmessen | vom vorstehenden heißen Material eine Teilmenge abmessen | bestätigt |\n| dy#1 | [STRUKTUR: SATZSCHLUSS] | `.` | revidiert |\n| dy#2 | [STRUKTUR: ARBEITSSCHRITT-TRENNER] | `;` | revidiert |\n| kodeey | vollständig erhitzte und abgeschlossene Dosis | vollständig erhitzte und abgeschlossene Zubereitungsdosis | revidiert |\n| oror | zwei Portionen | gleich an drei Stellen | bestätigt |\n| otytchol | nachgekühlter Trockenstoff | nachgekühlter Trockenstoff im Ansatz | revidiert |\n| qy | hiervon nehmen | gleich | bestätigt |\n| taiky | kalt angesetzte Charge, leicht angewärmt | gleich | bestätigt |\n| tail | kaltgestellter Materialanteil II | kaltgestellte Rohdroge II | revidiert |\n| y#1 | [STRUKTUR: SATZSCHLUSS] | `.` | revidiert |\n| y#2 | [STRUKTUR: ANSCHLUSS AN FOLGENDEN POSTEN] | `Hierzu:` bei Zugabe, `Anschließend:` vor einem Folgezustand | revidiert |\n| yey | [STRUKTUR: FORTSETZUNG DES VORSTEHENDEN POSTENS] | `anschließend:` | revidiert |\n| ypchesy | hiervon Samenpulver bis zur Mittelstufe trocknen | gleich | bestätigt |\n\n## Warum die vier Aktionswerte nicht entleert wurden\n\nEin pauschales Kürzen aller Verben wäre hier falsch gewesen. `da` stammt aus\neiner elf Kontexte umfassenden Teilungs-/Dosisfunktion, `qy` aus vier\nEntnahme-/Referenzkontexten. `aiijy` und `ypchesy` sind zwar Einzelbelege, ihre\nGDT681-Ganzkarten sind aber ausdrücklich aktionslizenziert. Deshalb bleiben\ndie konkreten Verben im exakten Ganzwortdefault. Verboten bleibt nur der\nSchritt von diesen Ganzwörtern zu freien Werten wie `q = nehmen` oder\n`y = schließen`.\n\n## Was bei y und dy jetzt wirklich im Wörterbuch steht\n\nPunkt und Semikolon sind Renderer, nicht angeblich gesprochene Wörter. V98\nspeichert darum eine eigene Funktionsebene:\n\n- `dy#1` und `y#1`: `[STRUKTUR: SATZSCHLUSS]`, Ausgabe `.`\n- `dy#2`: `[STRUKTUR: ARBEITSSCHRITT-TRENNER]`, Ausgabe `;`\n- `y#2`: `[STRUKTUR: ANSCHLUSS AN FOLGENDEN POSTEN]`, Ausgabe `Hierzu:` oder\n  vor einem reinen Folgezustand `Anschließend:`\n- `yey`: `[STRUKTUR: FORTSETZUNG DES VORSTEHENDEN POSTENS]`, Ausgabe\n  `anschließend:`\n\nDamit erhält jede Sequenz einen Default, ohne Satzzeichen als deutsche\nLexeme zu verkaufen. Die fünf Werte bleiben W0 und positionsgebunden.",
+          "sha256": "c17950752bdaef469daad3c46d55bbee844d3a51e1cfa9fcee3e2124fe450631"
+        }
+      ]
+    },
+    {
+      "target": "SEM:5014d9ffefcecbe645ec",
+      "claim": "BACA → Wasser/Fluss",
+      "card_basis": "c0862479bd6670a3d4394d4c40b7bc0c0cf421e17758ae72e34d942195ede4e5",
+      "effective_basis": "aec2e8baeb2c647ee08d4ffa25cae6ea84541fa59632ae037d2a55fdb01418c6",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:4070842889b38d2af10b"
+      ],
+      "original_correction_ids": [
+        "SOURCE_CORRECTION_AD:5014d9ffefcecbe645ec:v1"
+      ],
+      "original_correction_reasons": [
+        "The sole V54 source explicitly rejects BACA=Wasser/Fluss. It is not a positive assignment made by that source. Preserve the negative statement and historical rejected-reading archive; no proposition history is erased."
+      ],
+      "classification": "prior_explicit_boundary_review_not_repeated",
+      "primary_reaudited": false,
+      "decision": "Preserve existing scoped decision; no duplicate scientific audit.",
+      "prior_review_receipt": {
+        "path": "research_registry/decisions/semantic_failure_peer_review_ad.json",
+        "line": 135,
+        "line_end": 156,
+        "quote": "  \"positive_assignment_archive_review\": {\n    \"target\": \"SEM:5014d9ffefcecbe645ec\",\n    \"verdict\": \"approve_source_exclusion\",\n    \"reason\": \"Its sole V54 source explicitly rejects BACA=Wasser/Fluss. The extraction reverses source polarity when shown as a positive assignment. Archive this source-extraction error while retaining the quoted negative history; this does not newly falsify a once-declared positive BACA hypothesis.\",\n    \"evidence\": [\n      {\n        \"inherited_status_not_adopted\": [\n          {\n            \"text\": \"not_explicitly_declared_in_first_50_lines\"\n          }\n        ],\n        \"line\": 70,\n        \"line_end\": 74,\n        \"path\": \"experiments/yolo/sidequest_theory_candidates_v54/V54_R2_HISTORICAL_BIOLOGICAL_REPORT.md\",\n        \"quote\": \"- **f82r:** GDT239 beschreibt zwei obere Figurenpaare mit verbindenden\\n  Linien/Röhren, eine grün begrenzte Zone mit mehreren Figuren und eine\\n  getrennte blaue Zone mit einer Figur. Von 13 Labels ist nur f82r.10 sicher\\n  *auf* einem kreuzförmigen Bauteil; zwölf sind lediglich nahe einem Objekt.\\n  Das Dossier weist ausdrücklich jede Lesung `BACA = Wasser/Fluss` zurück.\",\n        \"sha256\": \"6c28cb1ebc37d9f59e87f981b72eda1ef23e7d00e19702dfd10531904f9a43f1\",\n        \"source_id\": \"LEGACY_COMPONENT:be7fb96b7ccabe4c04c0\",\n        \"source_section\": \"Bildbefund: Frauen oder Apparateschema?\",\n        \"table_header\": null\n      }\n    ],\n    \"keep_separate\": [",
+        "sha256": "5fc936f6b1b63bbba26c696be89e8ef5cf7c823b0f2e10d1dbf627dab4285f18"
+      }
+    },
+    {
+      "target": "SEM:5615927497524c00218e",
+      "claim": "y → ferner",
+      "card_basis": "0d084dbca0ade4442703895b89c5e7a12c5fc8b50fc288d3ba0844a04be6aff3",
+      "effective_basis": "6e82f9f7589a495eedb14e518148ee2bf8b6d73a280ad274741368e10a6d05b7",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:ee4321d97e1d72e879d2"
+      ],
+      "original_correction_ids": [
+        "SCR:eff76d7b68f2540e5894"
+      ],
+      "original_correction_reasons": [
+        "The source explicitly assigns no free meaning y=ferner; it predicts roles for whole ychor/pchor forms instead."
+      ],
+      "classification": "non_numeric_boundary_primary_review",
+      "primary_reaudited": true,
+      "decision": "retain_archive",
+      "reason": "The source contrasts learned whole pchor/ychor beginning/continuation defaults and predicts their paragraph positions. It explicitly assigns no free p=nimm or y=ferner; the structural one-character difference is not a component meaning trial.",
+      "restore_positive_card": false,
+      "empirical_meaning_refutation": false,
+      "claim_ceiling": "This exact source case only; no claim that another whole/tuple or another historical source could never carry the meaning.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt757_initial_formula_role_atlas/REPORT.md",
+          "line": 27,
+          "line_end": 49,
+          "quote": "\n## Der bislang sauberste Formelkontrast\n\n`pchor` und `ychor` unterscheiden sich in der EVA-Schreibfolge um genau eine\nStelle, besetzen aber gegensätzliche Rahmen:\n\n```text\npchor:  6/7 initiale Linien beginnen einen Absatz\nychor:  0/13 initiale Linien beginnen einen Absatz\n```\n\nBeide haben ungewöhnlich oft einen Körper mit Inhalt, Menge und Vorgang.\nDeshalb ist die gegenwärtig beste praktische Lesung:\n\n```text\npchor  →  NIMM: ...                  neuer Rezept-/Eintragsanfang\nychor  →  FERNER / EBENSO: ...       weiterer Eintrag im laufenden Absatz\n```\n\nDas weist dem Unterschied **keine** freie Bedeutung wie `p=nimm` oder\n`y=ferner` zu. Es ist zunächst ein Paar gelernter Ganzformen. Trotzdem ist es\neine echte Vorhersage: An einer neuen zugelassenen Stelle sollte `pchor` eher\neinen Absatz eröffnen, `ychor` eher innerhalb eines Absatzes fortsetzen.",
+          "sha256": "564eb45ebf78278340bd973bf3c9f58956c9eb790d2ecf444760a2fcac1751c4"
+        }
+      ]
+    },
+    {
+      "target": "SEM:7a949abe1bed564feafc",
+      "claim": "EY → WASSER",
+      "card_basis": "c2d017c8c85fba4f67017333a21d478478566e99de937ad89227f752555813a6",
+      "effective_basis": "5b70a81e287719ec682ca797d9e70d980fc045ce3cec5ed53956c332310d6574",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:8ba0fa74951111f368d1"
+      ],
+      "original_correction_ids": [
+        "SCR:f9c252f7c98ad780d4e5"
+      ],
+      "original_correction_reasons": [
+        "The source says a complete CHEEY/SHEY clear-extract card does not entail EY=WASSER in other cards. Preserve that scope warning, not a universal word equation."
+      ],
+      "classification": "non_numeric_boundary_primary_review",
+      "primary_reaudited": true,
+      "decision": "retain_archive",
+      "reason": "The selected synthesis retains exact CHEEY|SHEY=KLARAUSZUG and disallows EY=WASSER in OTHER cards. This does not erase the earlier exact-tuple EY=Flüssigkeit/Wasser hypothesis; that is already active and source-bound. The archived unrestricted positive export remains wrong.",
+      "restore_positive_card": false,
+      "empirical_meaning_refutation": false,
+      "claim_ceiling": "This exact source case only; no claim that another whole/tuple or another historical source could never carry the meaning.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_filtration_separation_completion/SELECTED_FILTRATION_SEPARATION_REPORT.md",
+          "line": 219,
+          "line_end": 238,
+          "quote": "## Harte Grenzen der kreativen Zerlegung\n\n- `CKH=DURCHLAUF` gilt für die exakte wiederkehrende\n  `CHCKHY|SHCKHY`-Karte. `SHECKHY`, `QOCKHEY`, `LCHECKHY` und\n  `CHEECKHODY` bleiben andere gelernte Karten.\n- `CKHE=SEIHEN` gilt für `SHCKHEDY` und die lokale Erweiterung\n  `LCHECKHEDY`; es ist nicht automatisch freies `CKH + E`.\n- `CHK` bleibt die ausgewählte Wärmefamilie. `CKH` und `CHK` sind wegen der\n  umgekehrten Reihenfolge nicht dasselbe.\n- `CHEEY|SHEY=KLARAUSZUG` ist eine exakte Ganzkarte. Daraus folgt weder\n  `EY=WASSER` noch `SH=KLAR` in anderen Karten.\n- `SHEEY` bleibt die andere exakte Karte „erste Öffnung“.\n- `LSH` ist nur in `LSHO/LSHEDY` waschen. Die SHED-Familie heißt weiterhin\n  ruhen/absetzen, und `TSHOL` bleibt Blütenkraut.\n- `DAIN=TUCH` überstimmt in dieser exakten Karte die sichtbare Nähe zu\n  `AIIN=MAẞ`.\n- `CFHY` und `CPHY` sind geordnete Ganzkarten; es wird kein freies\n  `F=AUSWRINGEN` oder `P=WIEDERHOLEN` erfunden.\n\nDiese Ausnahmen sind kein Scheitern des Modells. Sie sind die gelernte",
+          "sha256": "40056f6e7ef9c9d09874bc9e9f3282eb595cb5e87bfd1336618fa2c722f8db67"
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 3,
+              "text": "Status: ausdrücklich kreative Werkstattrekonstruktion auf den festen zehn"
+            }
+          ],
+          "line": 174,
+          "line_end": 176,
+          "path": "experiments/yolo/sidequest_semantic_filtration_separation_completion/DRAUGHTSMAN_FILTRATION_REPORT.md",
+          "quote": "Innerhalb dieser **exakten Karte** darf man kreativ `CH/SH = klar` und\n`EY = Flüssigkeit/Wasser` lesen. Das wird nicht auf alle EY-Formen übertragen:\nim OK-Zustandsraster ist E+Y weiterhin Grad plus laufender Posten.",
+          "sha256": "15cc55baf8430628aad31c01dec2c34a3fd664f222906ec8239bc6f603f65c49",
+          "source_id": "LEGACY_COMPONENT:4fec927ec6011d861db0",
+          "source_section": "CHEEY/SHEY — Klarflüssigkeit",
+          "table_header": null
+        }
+      ],
+      "positive_counterpart": {
+        "id": "SEM:0cbcfed025d3ce87917d",
+        "claim": "EY → Flüssigkeit/Wasser",
+        "card_basis": "59808b2a6227f2475e111457df0342962c2381d4847108429e962bd3abc2135d",
+        "effective_basis": "c95f9eb9b98a39d89a069d81140467e54a6046fb406158a8b6f63a5eb026a08e",
+        "source_cases": [
+          {
+            "claim_type": "lexical_hypothesis",
+            "form_or_model": "EY",
+            "id": "CLEAN_COMPONENT:08dc293f9e7ae314b892",
+            "limitations": "Original alternatives, negation and limits remain in the evidence quote. No software PASS or inherited working vocabulary establishes a confirmed meaning.",
+            "member_ids": [
+              "LEGACY_COMPONENT:4fec927ec6011d861db0"
+            ],
+            "proposed_value_or_model": "Flüssigkeit/Wasser",
+            "registry_context_ids": [],
+            "review_basis": "conservative_assignment_rule_with_manual_pattern_audit",
+            "review_file": "research_registry/decisions/clean_component_review.json",
+            "scope": {
+              "kind": "source_bound_working_hypothesis",
+              "parent_gdt": null,
+              "section": "CHEEY/SHEY — Klarflüssigkeit",
+              "semantic_column": null,
+              "source": "experiments/yolo/sidequest_semantic_filtration_separation_completion/DRAUGHTSMAN_FILTRATION_REPORT.md"
+            },
+            "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+            "status": "unconfirmed"
+          }
+        ],
+        "evidence": [
+          {
+            "inherited_status_not_adopted": [
+              {
+                "line": 3,
+                "text": "Status: ausdrücklich kreative Werkstattrekonstruktion auf den festen zehn"
+              }
+            ],
+            "line": 174,
+            "line_end": 176,
+            "path": "experiments/yolo/sidequest_semantic_filtration_separation_completion/DRAUGHTSMAN_FILTRATION_REPORT.md",
+            "quote": "Innerhalb dieser **exakten Karte** darf man kreativ `CH/SH = klar` und\n`EY = Flüssigkeit/Wasser` lesen. Das wird nicht auf alle EY-Formen übertragen:\nim OK-Zustandsraster ist E+Y weiterhin Grad plus laufender Posten.",
+            "sha256": "15cc55baf8430628aad31c01dec2c34a3fd664f222906ec8239bc6f603f65c49",
+            "source_id": "LEGACY_COMPONENT:4fec927ec6011d861db0",
+            "source_section": "CHEEY/SHEY — Klarflüssigkeit",
+            "table_header": null
+          }
+        ],
+        "scope_limit": "Only the exact card/CHO-family scope in these source cases; not a portable free sign."
+      }
+    },
+    {
+      "target": "SEM:83d0ffcb62f84e87a96d",
+      "claim": "y → portion",
+      "card_basis": "0fe55d1bbde4006bd428f6ff1cf324ea42830fb85105636433f436620ec32617",
+      "effective_basis": "d2a3424ded3bfac994c96be512dd23433a06d72b5ea931bea62c4cb6c4f7dbe1",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:fba3e1cb4b0bf2419dde"
+      ],
+      "original_correction_ids": [
+        "SCR:880ca80d7b4133924457"
+      ],
+      "original_correction_reasons": [
+        "The quoted future dictionary example y=portion is declared invalid without a full licensed cell; the card omits that indispensable unit scope."
+      ],
+      "classification": "existing_unbound_dictionary_example_metadata_only",
+      "primary_reaudited": false,
+      "decision": "Prior correction identifies a deliberately invalid future bare-substring dictionary example with no licensed full cell. No new meaning hypothesis or new failure assigned. This metadata classification is not a fresh full-prose validation.",
+      "source_pointer": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v44/V44_R3_TECHNICAL_NOTATION_STEM_THEORY.md",
+          "line": 221,
+          "sha256": "b76bbac8226212b4f73d9851459249f60b2eaef883fa1ba258990e56e3283202"
+        }
+      ]
+    },
+    {
+      "target": "SEM:868efe18d8a44bdee040",
+      "claim": "dsholdaiir → shol",
+      "card_basis": "bf53db2ced7b6b23041168c858d34093282d83197256bc3868f6db9e72919c02",
+      "effective_basis": "136142771b32d1b3d40e4adbfbf6288f1a5b93a1069eb443730096c76dcdc4a0",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:cf401d9db5ece7d32f72"
+      ],
+      "original_correction_ids": [
+        "SOURCE_CORRECTION_AT:868efe18d8a44bdee040:v1"
+      ],
+      "original_correction_reasons": [
+        "The actual table columns are Oberfläche / Endrezept / Rang / Route / Arbeitslesung. The route contains d|shol|daiir; shol is merely its middle segment. The source does not equate dsholdaiir with shol. Archive the malformed extraction while preserving the full source and genuine full-card reading. Curation does not establish meaning or authorize a rerun."
+      ],
+      "classification": "existing_technical_extraction_error_metadata_only",
+      "technical_error": "middle route segment instead of meaning",
+      "primary_reaudited": false,
+      "decision": "No new scientific review; preserve existing archive.",
+      "evidence": [
+        {
+          "path": "research_registry/semantic_ideas_excluded.jsonl",
+          "sha256": "3de5fafdb3ef63fbbc797679b9ff0baf1f695c7538dbd11fb13a69a42dfa3f38",
+          "record_id": "SEM:868efe18d8a44bdee040"
+        }
+      ]
+    },
+    {
+      "target": "SEM:8a74f7ba9ba08754a6c3",
+      "claim": "ey → clear",
+      "card_basis": "6fa5b84b7180b7263807a95817ff0ca939f6adebb2c8a731966f6e41bf4d167b",
+      "effective_basis": "844c11207b06f4ac0326d78d2651d837e7abe6b570a65d657c5511ab2b74e4da",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:1bf04af318a8690d6f90"
+      ],
+      "original_correction_ids": [
+        "SCR:30c20e7e834e26b701d3"
+      ],
+      "original_correction_reasons": [
+        "The sole source declares this future bare-substring dictionary line invalid unless it names a full licensed cell. No such cell is supplied by this ey=clear card."
+      ],
+      "classification": "existing_unbound_dictionary_example_metadata_only",
+      "primary_reaudited": false,
+      "decision": "Prior correction identifies a deliberately invalid future bare-substring dictionary example with no licensed full cell. No new meaning hypothesis or new failure assigned. This metadata classification is not a fresh full-prose validation.",
+      "source_pointer": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v44/V44_R3_TECHNICAL_NOTATION_STEM_THEORY.md",
+          "line": 221,
+          "sha256": "b76bbac8226212b4f73d9851459249f60b2eaef883fa1ba258990e56e3283202"
+        }
+      ]
+    },
+    {
+      "target": "SEM:b6d66beda85fccb3d1ac",
+      "claim": "ols → R04 selected only by specificity priority over an equally passing R01 role",
+      "card_basis": "9d1c3bb97f2a77de5efcd3928ef576a0f283df52e483e263952d12eb8e94101d",
+      "effective_basis": "6dab9c8d22844abd14baf0d709cfc3db9e8575bab2bf3177caf77d258772185b",
+      "source_case_ids": [
+        "REPORT_PROPOSAL:32286e8d606cafd13138"
+      ],
+      "original_correction_ids": [
+        "SOURCE_CORRECTION_AT:b6d66beda85fccb3d1ac:v1"
+      ],
+      "original_correction_reasons": [
+        "The current assertion reports a specificity-priority tie-break outcome between R04 and R01. It states how a choice was made, not a concrete role or meaning. Archive as method/result, preserving the real preparation/record-field alternatives and their source. Curation does not establish meaning or authorize a rerun."
+      ],
+      "classification": "existing_technical_extraction_error_metadata_only",
+      "technical_error": "status/role-priority column",
+      "primary_reaudited": false,
+      "decision": "No new scientific review; preserve existing archive.",
+      "evidence": [
+        {
+          "path": "research_registry/semantic_ideas_excluded.jsonl",
+          "sha256": "3de5fafdb3ef63fbbc797679b9ff0baf1f695c7538dbd11fb13a69a42dfa3f38",
+          "record_id": "SEM:b6d66beda85fccb3d1ac"
+        }
+      ]
+    },
+    {
+      "target": "SEM:baa8aea811155f943e30",
+      "claim": "aiin → daiin",
+      "card_basis": "e65d98e607bd9c4c12901c1b7c305846003c51cddf87b24a3ddce8f20f2d9ed0",
+      "effective_basis": "b407bb92a41b723b2551d44d292afaad9d70bb8a5cf95d90524e6dfb7decfa85",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:5969c134bdc8bd1ad9b7"
+      ],
+      "original_correction_ids": [
+        "CORRECTION_BW:ALIAS_COLUMN_AIIN"
+      ],
+      "original_correction_reasons": [
+        "The first table column lists aiin|chaiin|daiin|saiin|taiin; daiin is an alias, not the meaning column. The actual selected value is vorgeschriebenes Maß. This is an extraction correction, not refutation of a historical meaning hypothesis."
+      ],
+      "classification": "existing_technical_extraction_error_metadata_only",
+      "technical_error": "alias-column member instead of meaning",
+      "primary_reaudited": false,
+      "decision": "No new scientific review; preserve existing archive.",
+      "evidence": [
+        {
+          "path": "research_registry/semantic_ideas_excluded.jsonl",
+          "sha256": "3de5fafdb3ef63fbbc797679b9ff0baf1f695c7538dbd11fb13a69a42dfa3f38",
+          "record_id": "SEM:baa8aea811155f943e30"
+        }
+      ]
+    },
+    {
+      "target": "SEM:cbb3fcd944576e77da61",
+      "claim": "ok → measure",
+      "card_basis": "4d2add773550cc5b6299743bc9c271de1307ffcb42f7505a9b7b650884ae48e9",
+      "effective_basis": "cf1eea162ca867cc4efad74f0ac58f4f3391c847f42c3b3f72bde26ba2e8b0d1",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:eedfd8052b695583f61d"
+      ],
+      "original_correction_ids": [
+        "SCR:62b4490f4e2869d4ea44"
+      ],
+      "original_correction_reasons": [
+        "The sole source declares this future bare-substring dictionary line invalid unless it names a full licensed cell. No such cell is supplied by this ok=measure card."
+      ],
+      "classification": "existing_unbound_dictionary_example_metadata_only",
+      "primary_reaudited": false,
+      "decision": "Prior correction identifies a deliberately invalid future bare-substring dictionary example with no licensed full cell. No new meaning hypothesis or new failure assigned. This metadata classification is not a fresh full-prose validation.",
+      "source_pointer": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v44/V44_R3_TECHNICAL_NOTATION_STEM_THEORY.md",
+          "line": 221,
+          "sha256": "b76bbac8226212b4f73d9851459249f60b2eaef883fa1ba258990e56e3283202"
+        }
+      ]
+    },
+    {
+      "target": "SEM:cd461a877353a563741c",
+      "claim": "Y → Station",
+      "card_basis": "7f40c4e2196388db383ba96101f9012959f6d53c7d0cf730008eb6d883051099",
+      "effective_basis": "b6e86896814f8fbbf2f67aed77a22d6cba30de3bad174d4fb70dc3cc187c59ac",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:1816f04eceda158c426c"
+      ],
+      "original_correction_ids": [
+        "SOURCE_CORRECTION_BG:cd461a877353a563741c:v1"
+      ],
+      "original_correction_reasons": [
+        "The only extracted case cites143–145, a non-confirmation sentence rather than an assignment. The positive-looking bare Y→Station contradicts46–47 as a global word claim. This is an extraction-scope error, not a historical experiment proving that every local Y station reading fails. Root independently read the whole decisive GDT595 paragraphs; this changes source scope, not scientific meaning status."
+      ],
+      "classification": "prior_explicit_boundary_review_not_repeated",
+      "primary_reaudited": false,
+      "decision": "Preserve existing scoped decision; no duplicate scientific audit.",
+      "prior_review_receipt": {
+        "path": "research_registry/decisions/semantic_scope_review_bg.json",
+        "line": 1,
+        "line_end": 29,
+        "quote": "{\n  \"schema\": \"semantic_source_scope_review_v1\",\n  \"review_id\": \"BG\",\n  \"scope\": \"Two complete current card histories and their one shared full GDT595 report, plus current c556 whole case and source-correction history. No raw artifacts or external historical links accessed.\",\n  \"reviews\": [\n    {\n      \"target\": \"SEM:cd461a877353a563741c\",\n      \"target_basis_sha256\": \"7f40c4e2196388db383ba96101f9012959f6d53c7d0cf730008eb6d883051099\",\n      \"effective_basis_sha256\": \"b6e86896814f8fbbf2f67aed77a22d6cba30de3bad174d4fb70dc3cc187c59ac\",\n      \"original_claim\": \"Y → Station\",\n      \"effective_claim\": \"Y → Station\",\n      \"case_ids\": [\n        \"CLEAN_COMPONENT:1816f04eceda158c426c\"\n      ],\n      \"member_ids\": [\n        \"LEGACY_COMPONENT:437ab60710e5d4946a02\"\n      ],\n      \"recommendation\": \"archive_false_global_assignment_extraction\",\n      \"source_status\": \"explicitly_not_global_station_word_with_local_station_assignment\",\n      \"reason\": \"The only extracted case cites143–145, a non-confirmation sentence rather than an assignment. The positive-looking bare Y→Station contradicts46–47 as a global word claim. This is an extraction-scope error, not a historical experiment proving that every local Y station reading fails.\",\n      \"evidence\": [\n        {\n          \"path\": \"experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md\",\n          \"line\": 46,\n          \"line_end\": 47,\n          \"quote\": \"Das ist keine Objektzuweisung. AIIN bleibt Füllung oder Medium und kann Körper,\\nStation oder Portion begleiten. Auch Y ist kein globales Stationswort.\",\n          \"sha256\": \"92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56\"\n        },\n        {",
+        "sha256": "29f00c96832af029208074ce19c35151b5364e5c300fd93472d198bd1144df97"
+      }
+    },
+    {
+      "target": "SEM:d9d1658273d97f0d2dae",
+      "claim": "S → species",
+      "card_basis": "80fdc50262d7e09307d21a99389648e53c9c6d5455f0106a90294189b4ce02a0",
+      "effective_basis": "717e001732a9cc84eed096cd855e3d730756d5e9073946084fbc3db43e34ff56",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:e45b17378c65d66e7d27"
+      ],
+      "original_correction_ids": [
+        "SCR:3b7dc0babf0c67b2505b"
+      ],
+      "original_correction_reasons": [
+        "The report offers a historical terminal-drug/type role analogy and explicitly does not identify a Latin letter equation. This sole-source card incorrectly turns that analogy into the literal lexical assignment S=species; the separate role hypothesis is retained."
+      ],
+      "classification": "non_numeric_boundary_primary_review",
+      "primary_reaudited": true,
+      "decision": "retain_archive",
+      "reason": "GDT658 proposes terminal S as a species-like drug/type carrier only in its local CHO family and retains Form/Sorte. Its Latin species/specie citations are explicitly architectural/role analogies, not a decoded Latin letter equation. The phrase not proof is not itself a refutation; the full paragraph and separate positive role specify the actual claim. Preserve that role, not an unscoped Latin S=species decoding.",
+      "restore_positive_card": false,
+      "empirical_meaning_refutation": false,
+      "claim_ceiling": "This exact source case only; no claim that another whole/tuple or another historical source could never carry the meaning.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt658_four_residual_concrete_completion/REPORT.md",
+          "line": 10,
+          "line_end": 20,
+          "quote": "\n| Form | Positionen / exakt | sichtbare Architektur | konkrete V35-Arbeitslesung | stärkster Rivale |\n|---|---:|---|---|---|\n| `otam` | 44 / 39 | `O + T + AM` | ein Maß des kalten Ansatzes | gelernte Einheitsform oder kalte Zubereitung der Form I |\n| `shedefam` | 1 / 0 | `SHEDE + F + AM` | ein Maß eingeweichter Blütendroge | Frucht-, Blatt- oder opaker F-Materia-Kopf |\n| `schos` | 1 / 1 | `S + CHO + S` | trockene Arzneimischung aus Samen | Salz statt Samen; finales S als bloße Form-/Sortenklasse |\n| `chokcheo` | 1 / 1 | `CHO + K + CHEO` | Trockenansatz aus einem heißen, bereits trocken aufbereiteten Präparat | gelernte Ganzform oder anders gebundener innerer Präparationskopf |\n\nDie Karten sind bewusst ganze technische Ausdrücke. `F=Blüte` und finales\n`S=Arzneistoff-/Drogenart-Träger` gelten nicht als frei einsetzbare\nZeichenwerte.",
+          "sha256": "71dac0d8656909f655821a1ca3f0c6b8cb47e69d06388857d96ca465ba6a343c"
+        },
+        {
+          "path": "experiments/yolo/gdt658_four_residual_concrete_completion/REPORT.md",
+          "line": 56,
+          "line_end": 78,
+          "quote": "\n## Warum die beiden S in `schos` nicht dasselbe bedeuten\n\nAuf f93r.6 steht in allen drei Transkriptionen die sichtbare Grenze\n`s | cho | s`. Das erste S passt zum bereits lokal kalibrierten Samen-Kopf;\n`CHO` ist der gebundene Trockenansatz. Das letzte S kann dagegen kein bloßer\nZeilenabschluss sein: Von725 tokenfinalen S-Belegen stehen nur103 am\nZeilenende oder allein,622 haben noch ein Folgetoken.\n\nDie lokale Reihe ist aussagekräftiger als ein globaler S-Wert:\n\n```text\nschos   1 Position     trockene Arzneimischung aus Samen\nschor   3 Positionen   Portion des trockenen Samenansatzes\nschol   3 Positionen   Stoff des trockenen Samenansatzes\nrchos   1 Position     entsprechende Wurzel-Kopf-Schwester\n```\n\nDamit bleibt initiales S ein Materia-Kopf, während terminales S nur in dieser\nCHO-Reihe einen *species*-artigen Arzneistoff-/Drogenart-Träger besetzt. Die\ndeutsche „Arzneimischung“ macht diese letzte Stelle hörbar; „Form/Sorte“ bleibt\ndie engste vorsichtigere Alternative.\n",
+          "sha256": "71dac0d8656909f655821a1ca3f0c6b8cb47e69d06388857d96ca465ba6a343c"
+        },
+        {
+          "path": "experiments/yolo/gdt658_four_residual_concrete_completion/REPORT.md",
+          "line": 154,
+          "line_end": 181,
+          "quote": "## Historische Passform und Grenze\n\nDer verwendete Bauplan — abgekürzte Stoffköpfe, Zustands-/Qualitätsangaben,\nPortions- oder Formklassen und daneben gelernte Ganznamen — ist in\nspätmittelalterlichen Rezept- und Materia-medica-Registern zeitgemäß. Die\nhistorischen Vergleiche begründen die Architektur und die Auswahl eines\npraktischen Defaults; sie beweisen keine lateinische Lautung der Voynich-\nZeichen.\n\n- [BAV Pal. lat. 1234](https://digi.vatlib.it/iiif/MSS_Pal.lat.1234/manifest.json),\n  katalogisiert um1400, führt Samen, Blüten, Blätter, Früchte, Wurzeln und Holz\n  als getrennte Materia-Rubriken. Das zeigt genau die historische Lücke, die\n  ein fünfter F-Kopf neben P/S/R/L füllen kann.\n- Tadhg Ó Cuinns 1415 entstandene *Materia Medica* trennt im\n  [Rosmarinus-Eintrag](https://celt.ucc.ie/published/G600006/text554.html)\n  Blätter und Blüten als verarbeitbare Arzneimaterialien. Der\n  [Papaver-Eintrag](https://celt.ucc.ie/published/G600006/text397.html) führt\n  *species*, Blüte, Samen, Blatt und Samenpulver auf verschiedenen Ebenen.\n  Damit ist Blüte ein Stoffkopf, während *species* als Arzneistoff-/Artträger\n  daneben bestehen kann.\n- [Wellcome MS.542](https://wellcomecollection.org/works/n674z2xd), frühes\n  15.Jahrhundert, verbindet Materia-Köpfe mit Qualitäten und Graden und zeigt\n  echte Einbuchstaben-Fachkürzel. Das stützt die Hybridarchitektur, macht aber\n  aus dem Voynich-S noch keine lateinische Buchstabengleichung.\n- [Wellcome MS.307](https://wellcomecollection.org/works/rexwctzt), spätes\n  14.Jahrhundert, verwendet *specie* für Arzneistoffe einer Zubereitung neben\n  knappen Mengenangaben. Das ist die nächste historische Rollenanalogie für\n  das terminale S, nicht der Beweis `S=species`.",
+          "sha256": "71dac0d8656909f655821a1ca3f0c6b8cb47e69d06388857d96ca465ba6a343c"
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 18,
+          "line_end": 20,
+          "path": "experiments/yolo/gdt658_four_residual_concrete_completion/REPORT.md",
+          "quote": "Die Karten sind bewusst ganze technische Ausdrücke. `F=Blüte` und finales\n`S=Arzneistoff-/Drogenart-Träger` gelten nicht als frei einsetzbare\nZeichenwerte.",
+          "sha256": "71dac0d8656909f655821a1ca3f0c6b8cb47e69d06388857d96ca465ba6a343c",
+          "source_id": "LEGACY_COMPONENT:13ab83351505fc691a00",
+          "source_section": "Ergebnis",
+          "table_header": null
+        }
+      ],
+      "positive_counterpart": {
+        "id": "SEM:da0e93a59da09358b721",
+        "claim": "S → Arzneistoff-/Drogenart-Träger",
+        "card_basis": "e1ea43a95471b7fba8baf37e64b0887d87540a5030f520de951aa4eef89126c8",
+        "effective_basis": "2530e486f42e1b3a48eb47a82f199a2a4d0bb9c18bb80709a85cee4fd961a741",
+        "source_cases": [
+          {
+            "claim_type": "lexical_hypothesis",
+            "form_or_model": "S",
+            "id": "CLEAN_COMPONENT:aaa4183ca64ea6138a70",
+            "limitations": "Original alternatives, negation and limits remain in the evidence quote. No software PASS or inherited working vocabulary establishes a confirmed meaning.",
+            "member_ids": [
+              "LEGACY_COMPONENT:13ab83351505fc691a00"
+            ],
+            "proposed_value_or_model": "Arzneistoff-/Drogenart-Träger",
+            "registry_context_ids": [
+              "GDT658"
+            ],
+            "review_basis": "conservative_assignment_rule_with_manual_pattern_audit",
+            "review_file": "research_registry/decisions/clean_component_review.json",
+            "scope": {
+              "kind": "source_bound_working_hypothesis",
+              "parent_gdt": "GDT658",
+              "section": "Ergebnis",
+              "semantic_column": null,
+              "source": "experiments/yolo/gdt658_four_residual_concrete_completion/REPORT.md"
+            },
+            "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+            "status": "unconfirmed"
+          }
+        ],
+        "evidence": [
+          {
+            "inherited_status_not_adopted": [
+              {
+                "text": "not_explicitly_declared_in_first_50_lines"
+              }
+            ],
+            "line": 18,
+            "line_end": 20,
+            "path": "experiments/yolo/gdt658_four_residual_concrete_completion/REPORT.md",
+            "quote": "Die Karten sind bewusst ganze technische Ausdrücke. `F=Blüte` und finales\n`S=Arzneistoff-/Drogenart-Träger` gelten nicht als frei einsetzbare\nZeichenwerte.",
+            "sha256": "71dac0d8656909f655821a1ca3f0c6b8cb47e69d06388857d96ca465ba6a343c",
+            "source_id": "LEGACY_COMPONENT:13ab83351505fc691a00",
+            "source_section": "Ergebnis",
+            "table_header": null
+          }
+        ],
+        "scope_limit": "Only the exact card/CHO-family scope in these source cases; not a portable free sign."
+      }
+    },
+    {
+      "target": "SEM:de51146d887250b790af",
+      "claim": "q → nehmen",
+      "card_basis": "a5b7b22723e323673843b4c8c4958503c2d2d281367b23dfe06a4791e4cfb24f",
+      "effective_basis": "bc85cb6bc513256782511825cd070bb27603c383ce136b525a7ac8af3f7c18ae",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:0fc50216efba604bc45e"
+      ],
+      "original_correction_ids": [
+        "SCR:65b5eebd88f8b9a444dc"
+      ],
+      "original_correction_reasons": [
+        "GDT725 explicitly forbids exporting exact whole-word action defaults as a free q=nehmen value. Sole evidence is the forbidden inference, not a positive q lexeme proposal."
+      ],
+      "classification": "non_numeric_boundary_primary_review",
+      "primary_reaudited": true,
+      "decision": "retain_archive",
+      "reason": "The genuine qy=hiervon nehmen whole has four source contexts. The same report refuses free q=nehmen. A whole-word action is not an actually proposed meaning for its initial q.",
+      "restore_positive_card": false,
+      "empirical_meaning_refutation": false,
+      "claim_ceiling": "This exact source case only; no claim that another whole/tuple or another historical source could never carry the meaning.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt725_v98_final_low_hardcap_dictionary_dispatch/REPORT.md",
+          "line": 11,
+          "line_end": 39,
+          "quote": "\n| Form | V98-Wörterbuchdefault | lokale Ausgabe | Entscheidung |\n|---|---|---|---|\n| aiijy | in drei Bündel abfüllen und schließen | den vorstehenden Anteil in drei Bündel abfüllen und schließen | bestätigt |\n| chpcheey | nachgetrocknetes Pulver, Form II | gleich | bestätigt |\n| cpheesy | vollständig bereitetes und abgeschlossenes Kompositum | vollständig bereitetes und abgeschlossenes Arzneikompositum | revidiert |\n| da | eine Teilmenge abmessen | vom vorstehenden heißen Material eine Teilmenge abmessen | bestätigt |\n| dy#1 | [STRUKTUR: SATZSCHLUSS] | `.` | revidiert |\n| dy#2 | [STRUKTUR: ARBEITSSCHRITT-TRENNER] | `;` | revidiert |\n| kodeey | vollständig erhitzte und abgeschlossene Dosis | vollständig erhitzte und abgeschlossene Zubereitungsdosis | revidiert |\n| oror | zwei Portionen | gleich an drei Stellen | bestätigt |\n| otytchol | nachgekühlter Trockenstoff | nachgekühlter Trockenstoff im Ansatz | revidiert |\n| qy | hiervon nehmen | gleich | bestätigt |\n| taiky | kalt angesetzte Charge, leicht angewärmt | gleich | bestätigt |\n| tail | kaltgestellter Materialanteil II | kaltgestellte Rohdroge II | revidiert |\n| y#1 | [STRUKTUR: SATZSCHLUSS] | `.` | revidiert |\n| y#2 | [STRUKTUR: ANSCHLUSS AN FOLGENDEN POSTEN] | `Hierzu:` bei Zugabe, `Anschließend:` vor einem Folgezustand | revidiert |\n| yey | [STRUKTUR: FORTSETZUNG DES VORSTEHENDEN POSTENS] | `anschließend:` | revidiert |\n| ypchesy | hiervon Samenpulver bis zur Mittelstufe trocknen | gleich | bestätigt |\n\n## Warum die vier Aktionswerte nicht entleert wurden\n\nEin pauschales Kürzen aller Verben wäre hier falsch gewesen. `da` stammt aus\neiner elf Kontexte umfassenden Teilungs-/Dosisfunktion, `qy` aus vier\nEntnahme-/Referenzkontexten. `aiijy` und `ypchesy` sind zwar Einzelbelege, ihre\nGDT681-Ganzkarten sind aber ausdrücklich aktionslizenziert. Deshalb bleiben\ndie konkreten Verben im exakten Ganzwortdefault. Verboten bleibt nur der\nSchritt von diesen Ganzwörtern zu freien Werten wie `q = nehmen` oder\n`y = schließen`.",
+          "sha256": "c17950752bdaef469daad3c46d55bbee844d3a51e1cfa9fcee3e2124fe450631"
+        }
+      ]
+    },
+    {
+      "target": "SEM:df3b990091fd0da0d0f6",
+      "claim": "AL → dorthin + Becken",
+      "card_basis": "62bf854d1fbb29826bead2440e0b5b78b03c93327ad67fca0763f3fac989cf0b",
+      "effective_basis": "b5f5b27d6a3ebd7398e83ce8de0454ee86c3e5b910aa5369ac0f71cd1cbc52d0",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:05958420c1930936796b"
+      ],
+      "original_correction_ids": [
+        "SOURCE_CORRECTION_AK:df3b990091fd0da0d0f6:v1"
+      ],
+      "original_correction_reasons": [
+        "The sole source calls AL=dorthin+Becken a typical apprentice error and says objects must return to local exemplar expansion. It does not nominate this as an actual tested rival. Flag a source-extraction archival correction rather than changing it into a positive lexical card."
+      ],
+      "classification": "prior_explicit_boundary_review_not_repeated",
+      "primary_reaudited": false,
+      "decision": "Preserve existing scoped decision; no duplicate scientific audit.",
+      "prior_review_receipt": {
+        "path": "research_registry/decisions/semantic_type_review_ak.json",
+        "line": 1282,
+        "line_end": 1314,
+        "quote": "    {\n      \"target\": \"SEM:df3b990091fd0da0d0f6\",\n      \"original_claim\": \"AL → dorthin + Becken\",\n      \"original_claim_type\": \"formal_role\",\n      \"target_basis_sha256\": \"62bf854d1fbb29826bead2440e0b5b78b03c93327ad67fca0763f3fac989cf0b\",\n      \"effective_basis_sha256\": \"b5f5b27d6a3ebd7398e83ce8de0454ee86c3e5b910aa5369ac0f71cd1cbc52d0\",\n      \"source_case_ids\": [\n        \"CLEAN_COMPONENT:05958420c1930936796b\"\n      ],\n      \"decision\": \"recommend_archive_source_extraction_error\",\n      \"recommended_claim_type\": null,\n      \"reason\": \"The sole source calls AL=dorthin+Becken a typical apprentice error and says objects must return to local exemplar expansion. It does not nominate this as an actual tested rival. Flag a source-extraction archival correction rather than changing it into a positive lexical card.\",\n      \"source_polarity\": \"pedagogical_error_not_positive_assignment\",\n      \"evidence\": [\n        {\n          \"inherited_status_not_adopted\": [\n            {\n              \"line\": 3,\n              \"text\": \"Status: vollständiger kreativer Werkstattaudit, keine Entzifferung. Bestätigte\"\n            }\n          ],\n          \"line\": 121,\n          \"line_end\": 125,\n          \"path\": \"experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md\",\n          \"quote\": \"Typische Lehrlingsfehler sind `AL = dorthin + Becken`, `OTCHEY = nimm Anteil`,\\n`OKEEY = warm halten`, das Sprechen von CLOSE bei OKE/LCHE und die Übertragung\\neines Mnemonics auf eine ähnlich aussehende andere Karte. Die Reparatur ist\\nimmer dieselbe: zum Exact-Tuple zurückkehren, nur den kurzen Default sprechen\\nund alle Gegenstände oder Handlungen in die lokale Exemplarzeile zurücklegen.\",\n          \"sha256\": \"65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba\",\n          \"source_id\": \"LEGACY_COMPONENT:c676ebf7de6de8a47684\",\n          \"source_section\": \"Lehr- und Korrekturverfahren\",\n          \"table_header\": null\n        }\n      ],\n      \"scope\": \"Classification of this exact existing proposition and its cited source cases only. No identity merge, support upgrade or standalone component export.\",\n      \"ready_after_correction\": false,",
+        "sha256": "ab34ce759b37c680e472f6ca4ab66a0401308a2843877f007e233f22b622c809"
+      }
+    },
+    {
+      "target": "SEM:e0d055fff65c53379d2e",
+      "claim": "OL+OL → WEITER·WEITER",
+      "card_basis": "f126fa58f69ad96fca2be48aa7d4ab0a9b22f5384c0b2b1407f04593c41231cd",
+      "effective_basis": "acdc187a0d86e73c9d12f52ba7122fac9d0068bc2865777ad284563c8760f9ed",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:d65760f6a61e1b684ad3"
+      ],
+      "original_correction_ids": [
+        "SCR:7b34fd4a39001d5972a9"
+      ],
+      "original_correction_reasons": [
+        "The sole source explicitly declines to generate OL+OL as a new card and requires a separate repetition pattern. This non-generated formal combination is not a new observed lexical mapping."
+      ],
+      "classification": "non_numeric_boundary_primary_review",
+      "primary_reaudited": true,
+      "decision": "retain_archive",
+      "reason": "Pass795 proposes eight nonrecursive missing control cards but explicitly does not generate OL+OL=WEITER·WEITER. This is a withheld recursive formal combination needing another pattern, not an observed lexical card or historically fitted repetition hypothesis. The existing OL continuation model is unaffected.",
+      "restore_positive_card": false,
+      "empirical_meaning_refutation": false,
+      "claim_ceiling": "This exact source case only; no claim that another whole/tuple or another historical source could never carry the meaning.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_control_axis_seven_hundred_ninety_fifth/SEVEN_HUNDRED_NINETY_FIFTH_REPORT.md",
+          "line": 1,
+          "line_end": 14,
+          "quote": "# Pass 795 — OK, OT und OL bilden die linke Steuerachse\n\n138 Ereignisse beginnen rezeptseitig mit einem der drei Steuerkerne: 79× OK, 26× OT, 33× OL. In sämtlichen 138 Fällen bleibt der erste Arbeitswert gleich: OK=ANSETZEN, OT=DANACH/FOLGE, OL=WEITER/FORTSETZEN. 137 Oberflächen zeigen den Kern sichtbar; nur `ls` ist eine gelernte OL-Ganzform.\n\nElf identische Rezeptenden erscheinen unter mindestens zwei Steuerkernen und decken 89 Ereignisse. Zwei Enden sind vollständig dreifach:\n\n- `Y`: OK+Y / OT+Y / OL+Y = ansetzen / danach / weiter, jeweils den laufenden Posten;\n- `CHD+DY`: denselben Umsetzungsschritt ansetzen / danach ausführen / fortsetzen und schließen.\n\nWeitere gemeinsame Enden sind AIIN, AL, AR, E+DY, EE+Y, EE+DY, AL+Y, SH+E+DY und OL. Aus acht nichtrekursiven Lücken entstehen konkrete neue Karten: `qolaiin`, `qolal`, `qoledy`, `qolar`, `qoleey`, `qoleedy`, `qotaly`, `qotshedy`. Keine kollidiert mit einer vorhandenen Oberfläche. `OL+OL=WEITER·WEITER` wird nicht als neue Karte erzeugt; Wiederholung braucht ein eigenes Muster.\n\nDamit ist auch der linke Rand nicht bloß Ornament. Er wählt die Art, wie derselbe Rest in den Arbeitsablauf eintritt: ausführen, als nächsten Schritt setzen oder vom Vorigen her fortführen.\n\nAls nächstes setzen wir die acht neuen Steuerkarten in vollständige Aussagen ein und prüfen, ob der Austausch tatsächlich nur den Diskurs-/Ablaufmodus ändert. Danach nehmen wir K/L/CHD als eigentliche Transferhandlung auseinander.",
+          "sha256": "1364abe156cbfeb19eb6712e4371b8315da88bbb40e2c8611cc3e6f11d62e496"
+        }
+      ]
+    },
+    {
+      "target": "SEM:e5aa9cdd2a27bd11e217",
+      "claim": "ey → warm",
+      "card_basis": "54ceab2952570b4c9e459acc829a5fedd8e4604efb94dbbc7b4baf4932015a89",
+      "effective_basis": "f944440ded1a7e95b5d2539c9576bdf506f2656edda20cb0b6ed1bed427f9ce8",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:59e61c868f2210000df1"
+      ],
+      "original_correction_ids": [
+        "SCR:de4f9696137b764a8967"
+      ],
+      "original_correction_reasons": [
+        "The source positively assigns a whole okeey mnemonic and explicitly denies deriving ey=warm from it. This is the forbidden component inference."
+      ],
+      "classification": "non_numeric_boundary_primary_review",
+      "primary_reaudited": true,
+      "decision": "retain_archive",
+      "reason": "V49 positively assigns the exact okeey card LAUWARM and the exact ey card ENDZUSTAND; it forbids the decomposition okeey→ok+e+ey and inferred ey=warm. No bare-ey warmth proposal is made by this source case.",
+      "restore_positive_card": false,
+      "empirical_meaning_refutation": false,
+      "claim_ceiling": "This exact source case only; no claim that another whole/tuple or another historical source could never carry the meaning.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v49/V49_R1_ATOMIC_MINIMAL_LEXICON_REPORT.md",
+          "line": 54,
+          "line_end": 69,
+          "quote": "\n| Ganzkarte | atomarer Werkstattname | Status |\n|---|---|---|\n| `aiin` | `MASS` | wiederkehrende Karte, kein Stammparadigma |\n| `ey` | `ENDZUSTAND` | wiederkehrende Karte, kein produktives `-ey` |\n| `oky` | `VERWENDUNG` | wiederkehrende Karte |\n| `lche` | `ABLAUF` | wiederkehrende Karte |\n| `oke` | `SPÜLUNG` | wiederkehrende Karte |\n| `cthy` | `BEREIT` | wiederkehrende Karte |\n| `okeey` | `LAUWARM` | wiederkehrende Karte |\n| `ckhy` | `KANAL` | wiederkehrende Karte |\n| `olor` | `VORHERIGES` | wiederkehrende Karte |\n\nDiese Namen sind Merkzettel für jeweils **einen exakten Kartentyp**. Aus\n`okeey = LAUWARM` folgt weder `ok + e + ey` noch `ey = warm`. Aus\n`olor = VORHERIGES` folgt keine Zerlegung in `ol + or`.",
+          "sha256": "16b314937037fd559cc887d7f51cbcd0b0bc4c009bbe0ff82f74168af211c78d"
+        }
+      ]
+    },
+    {
+      "target": "SEM:e9023262b3594803313e",
+      "claim": "Y → WASSER",
+      "card_basis": "8f916873209e53b174e1495526778de8b74b6c84a48981c22d188d3f82a285f5",
+      "effective_basis": "1caa550cc5247bd064fee9e7dc08c0b3e2c16f2bb2c8826c554f86d281e2148d",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:8efbf749e7fad3a31f15"
+      ],
+      "original_correction_ids": [
+        "SCR:5083f3080a5d72578ff7"
+      ],
+      "original_correction_reasons": [
+        "The source explicitly says CHOY=WASCHEN entails neither O=WASSER nor Y=WASSER. Water belongs to a local H5 realization, not the Y primitive."
+      ],
+      "classification": "non_numeric_boundary_primary_review",
+      "primary_reaudited": true,
+      "decision": "retain_archive",
+      "reason": "Same source separates the local H5 water realization from the whole CHOY action; Y=WASSER is an explicitly prohibited component inference, not a proposed rejected Y meaning.",
+      "restore_positive_card": false,
+      "empirical_meaning_refutation": false,
+      "claim_ceiling": "This exact source case only; no claim that another whole/tuple or another historical source could never carry the meaning.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_application_completion/SELECTED_APPLICATION_COMPLETION_REPORT.md",
+          "line": 60,
+          "line_end": 78,
+          "quote": "## Gelernte Anwendungs-Fachkarten\n\nDie seltenen Handgriffe bleiben ein kleiner Nomenklator:\n\n| Karte | kurzer Default | lokale Hauptlesung |\n|---|---|---|\n| `QOLKY` | **BEHANDLUNGSSTELLE** | behandelte Körper- oder Arbeitsstelle |\n| `LCHEEY` | **BENETZTE STELLE** | feuchte Stelle, Tuch oder Einsatz |\n| `CHOY` | **WASCHEN** | H5: Stelle mit Wasser waschen |\n| `DSHEOL` | **EINREIBEN** | Mittel oder Beschichtung einreiben |\n| `SHECTHEDCHY` | **AUFSTREICHEN** | Masse flächig aufstreichen |\n| `KCHOL` | **AUFLEGEN** | offene Auflage-/Einsetzhandlung |\n| `RSHEDY` | **WASCHUNG; SCHLUSS** | geschlossener Waschgang |\n| `CHEECKHODY` | **AUFTRAGEN; SCHLUSS** | allgemeiner Auftragsabschluss |\n| `QOKYLDDY` | **POSTEN BEFESTIGEN; SCHLUSS** | Auflage festbinden oder Einsatz befestigen |\n\nDiese Karten teilen eine praktische Schublade, aber nicht notwendig eine\nsichtbare Wurzel. Insbesondere wird aus `CHOY=WASCHEN` weder `O=WASSER` noch\n`Y=WASSER`. Wasser ist die lokale H5-Ausführung.",
+          "sha256": "0dc5a20cabf4ef190522de94f7458a2dfbb3448d61a71d4617d2899e7015ed6d"
+        }
+      ]
+    }
+  ],
+  "remaining_limits": {
+    "new_primary_decisions": 9,
+    "newly_revalidated_all20": false,
+    "unbound_example_count_not_revalidated_in_full_prose": 4,
+    "new_scientific_rejections": 0,
+    "restores": 0,
+    "scope": "All exact twenty have an explicit disposition, but metadata-only dispositions do not establish a new scientific full-history review. No claim that all archived propositions or narrower positive readings are globally covered."
+  },
+  "validation": {
+    "status": "PASS",
+    "archive_input_sha256": "3de5fafdb3ef63fbbc797679b9ff0baf1f695c7538dbd11fb13a69a42dfa3f38",
+    "current_bases_checked": 20,
+    "whole_primary_cases_checked": 9,
+    "exact_primary_quote_sha_checks": 22,
+    "current_positive_counterparts_checked": 2
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "schema_version": 1,
+  "review_id": "SOURCE_POLARITY_PEER_EN",
+  "reviewed_proposal": {
+    "path": "research_registry/decisions/semantic_source_polarity_review_en.json",
+    "sha256": "b2d0d6af7cbcc60ef3f53c1941dc5c30eb346806dace675a079d1e4a91362f54"
+  },
+  "decision": "approve_with_nonblocking_scope_clarification",
+  "operational_mutation": false,
+  "new_experiment": false,
+  "raw_event_or_image_access": false,
+  "scope": {
+    "dossiers": 2,
+    "active_cards": 2,
+    "source_cases": 2,
+    "proposal_evidence_entries_verified": 22,
+    "additional_authored_code_evidence_entries": 1,
+    "limits": "Public report/method prose and authored control/scoring declarations only; no rerun or independent manuscript observation."
+  },
+  "reviews": [
+    {
+      "dossier_id": "SOURCE_POLARITY_EN:CTHY_GDT756_ORGAN_DEFAULT",
+      "targets": [
+        "SEM:cfd39b0b539a4bcfeaf3"
+      ],
+      "decision": "approve_scoped_historical_revision_assessment",
+      "card_basis": {
+        "SEM:cfd39b0b539a4bcfeaf3": "8741da5e554bbdb357b2e206a79f78683292d45b990b0b60f74d47f64f48e75c"
+      },
+      "effective_basis": {
+        "SEM:cfd39b0b539a4bcfeaf3": "c52663e0fbe56b46449840e790093955e3cb06c6a4b86a016424d4001220cf9c"
+      },
+      "source_case_ids": [
+        "CLEAN_COMPONENT:4bd97f599815a8accb9a"
+      ],
+      "findings": [
+        "The GDT756 assignment is an actual explicitly replaceable C0 whole-form proposal, not a negated example or a mistranscribed table field. Retain its historical claim and uncertainty.",
+        "GDT768 declares cthy as a leaf/aerial-herb comparison control before scoring. Its authored output explicitly says CONTROL_DEFAULT_RETAINED. This records a different working default; it is not a root-versus-leaf tournament or an empirical rejection of the GDT756 root proposal.",
+        "The GDT756 broad plant/ingredient-slot retention condition is not a discriminator among root, leaf and other botanical-part interpretations. GDT768 does not report adjudicating that exact older proposal as an organ rival.",
+        "No status is inherited by other cases, substrings, controls, or broader semantic models."
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt756_ychor_line_frame_content_slots/REPORT.md",
+          "line": 85,
+          "line_end": 102,
+          "quote": "## Welche konkreten Wörter jetzt Kandidaten sind\n\nDie unmittelbaren Folger liefern erste inhaltliche Slots:\n\n- `chor → Blätter` mit `Wurzel/Samen` als Rivalen;\n- `cthy → Wurzel` mit `Blätter/Kraut` als Rivalen;\n- `s → Samen` mit `Salz/Blätter` als Rivalen;\n- `sheol → eingeweichtes Kraut` mit `Wasser/Wein` als Rivalen;\n- `ols → Heilmittel` mit `Arzneistoff/Öl` als Rivalen;\n- `chshoty → weiche ein` mit `trockne/kühle ab` als Rivalen;\n- `odol → miss den Arzneistoff ab`;\n- `qokchol → heiß getrocknetes Kraut` mit `Pulver/Wurzel` als Rivalen.\n\nDiese spezifischen Substantive sind bewusst explorativ. Besonders\n`Blätter`, `Wurzel`, `Samen`, `Wein`, `Holz` und `Pulver` sind noch keine\nIdentifikationen; ihre Funktion ist, vollständige vorhersagbare Lesungen zu\nerzeugen, die an weiteren Vorkommen verbessert oder verdrängt werden können.\nKein Kandidat wurde aus dem ersten EVA-Zeichen gewonnen.",
+          "sha256": "213dde6e8bf39a95ab785978752a5685c192011e29b2ce4cab243e7380ca4f75"
+        },
+        {
+          "path": "experiments/yolo/gdt756_ychor_line_frame_content_slots/REPORT.md",
+          "line": 127,
+          "line_end": 139,
+          "quote": "2. Die elf direkten `ychor`-Folger werden an allen ihren Vorkommen geprüft.\n   Wenn `chor=Blätter`, `cthy=Wurzel` oder `s=Samen` brauchbar ist, muss die\n   jeweilige Ganzform außerhalb dieser dreizehn Linien weiterhin überwiegend\n   einen konkreten Pflanzen-/Zutatenslot tragen. Schlechtere Kandidaten werden\n   nicht gelöscht, sondern durch den besseren Rivalen ersetzt.\n\n## Grenze\n\nGDT756 bestätigt kein lateinisches Wort, kein deutsches Klartextwort und keine\nvollständige Übersetzung. Es verbessert die Arbeitstheorie auf Ebene ganzer\nFormen und ganzer Linien. Kein EVA-Zeichen oder Teilstring erhält Bedeutung;\nkeine neue Seite oder Transkription wurde geöffnet, f84 und f84r blieben\ngesperrt.",
+          "sha256": "213dde6e8bf39a95ab785978752a5685c192011e29b2ce4cab243e7380ca4f75"
+        },
+        {
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/REPORT.md",
+          "line": 35,
+          "line_end": 44,
+          "quote": "The six anchor defaults used by the renderer are:\n\n| complete EVA form | portable reading | displayed concrete default | main rival |\n|---|---|---|---|\n| `chor` | non-leaf plant-part item; reproductive role possible | Blütenstand | Samen- oder Fruchtstand |\n| `shor` | reproductive plant-part item; organ open | Fruchtstand | Blütenstand |\n| `cthy` | leaf material or aerial herb drug | Blattgut | oberirdisches Kraut |\n| `dair` | measured fraction/portion, level II | Anteil II | local Herbal root-part rival |\n| `kooiin` | underground/rootstock drug head | thick or creeping root drug | general Herbal class head |\n| `koaiin` | sibling underground/rootstock head | creeping root drug | general Herbal page head |",
+          "sha256": "bf02e42ce7b03daf319eca7d9d572ccd45ac9d87212530fe8ed46e44e1aa2b7e"
+        },
+        {
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/METHOD.md",
+          "line": 16,
+          "line_end": 29,
+          "quote": "image, or transcription and explicitly excludes `f84` and `f84r`. The six\nreader-exact complete-form anchors are:\n\n| target | role in this experiment |\n|---|---|\n| `chor`, `shor` | target nominal wholes |\n| `cthy` | leaf/aerial-herb comparison |\n| `dair` | measured-fraction comparison with an old local root rival |\n| `kooiin`, `koaiin` | weak rootstock-class visual comparisons |\n\nThe route and priors come from GDT625, GDT631, GDT735, GDT737, GDT759,\nGDT762, and GDT767. Exact model, anchor, comparison, historical, and line\ndefaults live in `src/*.tsv`. Historical rows carry source IDs and expected\nregister patterns; they never carry Voynich identity credit.",
+          "sha256": "fced688d624a763d7149183f6b8f7681e6747c0f88610f1e626e829f9c1be19f"
+        },
+        {
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/src/run.py",
+          "line": 328,
+          "line_end": 395,
+          "quote": "    anchor_specs: Sequence[Mapping[str, str]],\n    scoreboard: Sequence[Mapping[str, object]],\n) -> list[dict[str, object]]:\n    ranks = {str(row[\"model_id\"]): int(row[\"rank\"]) for row in scoreboard}\n    scores = {str(row[\"model_id\"]): str(row[\"score_0_1\"]) for row in scoreboard}\n    direction_gap = abs(float(scores[\"M02\"]) - float(scores[\"M03\"]))\n    assert direction_gap < 0.10, \"directional part models unexpectedly separated\"\n\n    concrete_overrides = {\n        \"chor\": \"Blütenstand\",\n        \"shor\": \"Fruchtstand\",\n        \"cthy\": \"Blattgut\",\n        \"dair\": \"Anteil II\",\n        \"kooiin\": \"dicke oder kriechende Wurzeldroge\",\n        \"koaiin\": \"kriechende Wurzeldroge\",\n    }\n    portable_overrides = {\n        \"chor\": \"nicht-Blatt-Pflanzenteilposten; reproduktive Rolle möglich\",\n        \"shor\": \"reproduktiver Pflanzenteilposten; genaue Organart offen\",\n        \"cthy\": \"Blattgut oder oberirdische Blattdroge\",\n        \"dair\": \"abgemessene Fraktion oder Anteil, Stufe II\",\n        \"kooiin\": \"Untergrund- oder Wurzelstock-Drogenkopf; genaue Identität offen\",\n        \"koaiin\": \"Schwesterform eines Untergrund- oder Wurzelstockkopfs; genaue Identität offen\",\n    }\n    confidence_overrides = {\n        \"chor\": \"C2_NOMINAL_PART_ROLE__C0_FLOWER_DIRECTION\",\n        \"shor\": \"C2_NOMINAL_PART_ROLE__C0_FRUIT_DIRECTION\",\n        \"cthy\": \"C2_HERBAL_LEAF_CLASS__C1_LEAF_IDENTITY\",\n        \"dair\": \"C2_FRACTION_FAMILY__C0_SUBSTANCE_IDENTITY\",\n        \"kooiin\": \"C1_VISUAL_ROOTSTOCK_CLASS__N2\",\n        \"koaiin\": \"C0_C1_VISUAL_ROOTSTOCK_CLASS__N1\",\n    }\n    rival_overrides = {\n        \"chor\": (\"Samen- oder Fruchtstand\", \"allgemeiner Kraut- oder Pflanzenteil\"),\n        \"shor\": (\"Blütenstand\", \"Samenstand\"),\n    }\n    output: list[dict[str, object]] = []\n    for row in anchor_specs:\n        surface = row[\"surface\"]\n        output.append(\n            {\n                \"anchor_id\": row[\"anchor_id\"],\n                \"surface\": surface,\n                \"anchor_class\": row[\"anchor_class\"],\n                \"portable_default_de\": portable_overrides[surface],\n                \"concrete_default_de\": concrete_overrides[surface],\n                \"working_confidence\": confidence_overrides[surface],\n                \"primary_rival_de\": rival_overrides.get(\n                    surface, (row[\"rival_1_de\"], row[\"rival_2_de\"])\n                )[0],\n                \"secondary_rival_de\": rival_overrides.get(\n                    surface, (row[\"rival_1_de\"], row[\"rival_2_de\"])\n                )[1],\n                \"positive_evidence_de\": row[\"positive_evidence_de\"],\n                \"counterevidence_de\": row[\"counterevidence_de\"],\n                \"register_scope\": row[\"register_scope\"],\n                \"tournament_result\": (\n                    \"PARALLEL_NOMINAL_PART_WHOLES__BOTANICAL_DIRECTION_UNRESOLVED\"\n                    if surface in {\"chor\", \"shor\"}\n                    else \"CONTROL_DEFAULT_RETAINED\"\n                ),\n                \"model_rank_context\": json_cell(ranks),\n                \"directional_model_gap\": f\"{direction_gap:.6f}\",\n                \"replacement_guard\": row[\"replacement_guard\"],\n                \"default_is_translation\": 0,\n                \"confirmed_lexeme\": 0,\n                \"component_export_credit\": 0,\n            }",
+          "sha256": "719d3b246b5c82fbd9590552fdbb7230ffcab1dfc8c8a83acae4c53754efd0fb"
+        },
+        {
+          "path": "experiments/yolo/gdt756_ychor_line_frame_content_slots/src/YCHOR_BODY_CANDIDATE_PRIORS.tsv",
+          "line": 1,
+          "line_end": 1,
+          "quote": "surface\tworking_candidate_de\talternate_1_de\talternate_2_de\tconfidence\tsemantic_role\tselection_basis",
+          "sha256": "cb26336e69b5e9c33dcf5f4933720386eb398ed863f273dcccce26c8ca59b5b1"
+        },
+        {
+          "path": "experiments/yolo/gdt756_ychor_line_frame_content_slots/src/YCHOR_BODY_CANDIDATE_PRIORS.tsv",
+          "line": 13,
+          "line_end": 13,
+          "quote": "cthy\tWurzel\tBlätter\tKraut\tC0_FORCED_CONTEXT\tCONTENT_NOUN\tzweimal direkter ychor-Folger mit MATERIAL-Achse und fast ausschließlich Herbal-Verteilung",
+          "sha256": "cb26336e69b5e9c33dcf5f4933720386eb398ed863f273dcccce26c8ca59b5b1"
+        },
+        {
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/src/ANCHOR_6_DEFAULT_SPECS.tsv",
+          "line": 1,
+          "line_end": 1,
+          "quote": "anchor_id\tsurface\tanchor_class\tportable_default_de\tbold_default_de\trival_1_de\trival_2_de\tworking_confidence\tprovenance_gdts\tpositive_evidence_de\tcounterevidence_de\tregister_scope\ttournament_use\treplacement_guard\tconfirmed_lexeme\tcomponent_export_credit",
+          "sha256": "1eaf502e85b35eec852033194cda3a815a504fe50f8412f52259e2ab796d06e4"
+        },
+        {
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/src/ANCHOR_6_DEFAULT_SPECS.tsv",
+          "line": 4,
+          "line_end": 4,
+          "quote": "A03\tcthy\tLEAF_OR_AERIAL_HERB_CONTROL\tBlattgut oder Blattdroge\tBlattgut\toberirdisches Kraut\tallgemeiner Pflanzenteil\tC2_CROSS_PASS_ROLE__C1_SPECIFIC_IDENTITY\tGDT625|GDT631|GDT758|GDT767\t85 reader-exakte Vorkommen, davon 83 Herbal; im Altpanel 92 Vorkommen, davon 90 Herbal; wiederholte direkte Teil- und Zustandskontakte; 15 exakte chor-Parallelpositionen und mehrere shor-Kontakte; bereits geöffnete Bilder stützen Blatt- oder oberirdisches Krautgut\tBildzuordnung ist regional und nicht wortgenau; herba bleibt ein starker Rivale; die Bedeutung darf nicht aus dem sichtbaren cth-String auf andere Wörter exportiert werden\tHERBAL_DOMINANT\tLEAF_CONTROL_AND_MUTUAL_PART_PARALLELISM\tBlattgut bleibt der Kontrollwert, solange kein neuer Kandidat sowohl die starke Herbal-Konzentration als auch die Bild- und Teilzustandskontakte besser erklärt\t0\t0",
+          "sha256": "1eaf502e85b35eec852033194cda3a815a504fe50f8412f52259e2ab796d06e4"
+        },
+        {
+          "path": "experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/REPORT.md",
+          "line": 65,
+          "line_end": 81,
+          "quote": "The previous unfinished design favoured leaf by treating broad botanical\npage context as a leaf-specific word-owner association. It also omitted\nherba, mixed inherited semantic priors into evidence scores, and lacked\nproducers for several candidate-specific distinctions.\n\nThere are now 20 profiles and 700 head/candidate rows. For `cthy`, folium,\nherba and an unnamed botanical head each receive the same contextual score\n11. The inherited-prior score 2 is separate and adds no discriminatory\ncredit. Leaf no longer wins merely because leaves are drawn on a plant page.\n\nAll 735 candidate-specific requirement rows are UNOBSERVED with the current\ninputs. That is a statement about this comparison's missing measurements,\nnot 735 negative findings or a rejection of every proposed meaning.\nUnmeasured requirements do not count as counterevidence. Ties share rank,\nsingleton family margins are NA, and automatic literal promotion is disabled.\nWater, wine, oil, salt and other candidates remain hypotheses, not successful\ndecodings just because they appear in a ranked list.",
+          "sha256": "4ba0b56b633b85771f533c1ec00737f6a71109d91086c9d1ac7701e06529d86f"
+        }
+      ]
+    },
+    {
+      "dossier_id": "SOURCE_POLARITY_EN:CHOR_GDT756_ORGAN_DEFAULT",
+      "targets": [
+        "SEM:dedccc5aecbe1a19e036"
+      ],
+      "decision": "approve_scoped_historical_revision_assessment",
+      "card_basis": {
+        "SEM:dedccc5aecbe1a19e036": "5aba7c53a2d21a710f471c7da27e5fc60ffc5893736b34a8e02ffdc18dc6d0aa"
+      },
+      "effective_basis": {
+        "SEM:dedccc5aecbe1a19e036": "884e033764ed88eeb002d7e71e580c1eef670502709b84b07c09b655ade841ab"
+      },
+      "source_case_ids": [
+        "CLEAN_COMPONENT:7ec8c521850275ae5cdc"
+      ],
+      "findings": [
+        "The GDT756 assignment is an actual explicitly replaceable C0 whole-form proposal, not a negated example or a mistranscribed table field. Retain its historical claim and uncertainty.",
+        "GDT768 changes the chor display to Blütenstand with a non-leaf portable role. Nominal parallelism and cofields are measured, but the exclusion of leaf identity relies on the stipulated cthy leaf control; distinct co-occurring forms need not denote mutually exclusive organs.",
+        "The GDT756 broad plant/ingredient-slot retention condition is not a discriminator among root, leaf and other botanical-part interpretations. GDT768 does not report adjudicating that exact older proposal as an organ rival.",
+        "No status is inherited by other cases, substrings, controls, or broader semantic models."
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt756_ychor_line_frame_content_slots/REPORT.md",
+          "line": 85,
+          "line_end": 102,
+          "quote": "## Welche konkreten Wörter jetzt Kandidaten sind\n\nDie unmittelbaren Folger liefern erste inhaltliche Slots:\n\n- `chor → Blätter` mit `Wurzel/Samen` als Rivalen;\n- `cthy → Wurzel` mit `Blätter/Kraut` als Rivalen;\n- `s → Samen` mit `Salz/Blätter` als Rivalen;\n- `sheol → eingeweichtes Kraut` mit `Wasser/Wein` als Rivalen;\n- `ols → Heilmittel` mit `Arzneistoff/Öl` als Rivalen;\n- `chshoty → weiche ein` mit `trockne/kühle ab` als Rivalen;\n- `odol → miss den Arzneistoff ab`;\n- `qokchol → heiß getrocknetes Kraut` mit `Pulver/Wurzel` als Rivalen.\n\nDiese spezifischen Substantive sind bewusst explorativ. Besonders\n`Blätter`, `Wurzel`, `Samen`, `Wein`, `Holz` und `Pulver` sind noch keine\nIdentifikationen; ihre Funktion ist, vollständige vorhersagbare Lesungen zu\nerzeugen, die an weiteren Vorkommen verbessert oder verdrängt werden können.\nKein Kandidat wurde aus dem ersten EVA-Zeichen gewonnen.",
+          "sha256": "213dde6e8bf39a95ab785978752a5685c192011e29b2ce4cab243e7380ca4f75"
+        },
+        {
+          "path": "experiments/yolo/gdt756_ychor_line_frame_content_slots/REPORT.md",
+          "line": 127,
+          "line_end": 139,
+          "quote": "2. Die elf direkten `ychor`-Folger werden an allen ihren Vorkommen geprüft.\n   Wenn `chor=Blätter`, `cthy=Wurzel` oder `s=Samen` brauchbar ist, muss die\n   jeweilige Ganzform außerhalb dieser dreizehn Linien weiterhin überwiegend\n   einen konkreten Pflanzen-/Zutatenslot tragen. Schlechtere Kandidaten werden\n   nicht gelöscht, sondern durch den besseren Rivalen ersetzt.\n\n## Grenze\n\nGDT756 bestätigt kein lateinisches Wort, kein deutsches Klartextwort und keine\nvollständige Übersetzung. Es verbessert die Arbeitstheorie auf Ebene ganzer\nFormen und ganzer Linien. Kein EVA-Zeichen oder Teilstring erhält Bedeutung;\nkeine neue Seite oder Transkription wurde geöffnet, f84 und f84r blieben\ngesperrt.",
+          "sha256": "213dde6e8bf39a95ab785978752a5685c192011e29b2ce4cab243e7380ca4f75"
+        },
+        {
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/REPORT.md",
+          "line": 35,
+          "line_end": 44,
+          "quote": "The six anchor defaults used by the renderer are:\n\n| complete EVA form | portable reading | displayed concrete default | main rival |\n|---|---|---|---|\n| `chor` | non-leaf plant-part item; reproductive role possible | Blütenstand | Samen- oder Fruchtstand |\n| `shor` | reproductive plant-part item; organ open | Fruchtstand | Blütenstand |\n| `cthy` | leaf material or aerial herb drug | Blattgut | oberirdisches Kraut |\n| `dair` | measured fraction/portion, level II | Anteil II | local Herbal root-part rival |\n| `kooiin` | underground/rootstock drug head | thick or creeping root drug | general Herbal class head |\n| `koaiin` | sibling underground/rootstock head | creeping root drug | general Herbal page head |",
+          "sha256": "bf02e42ce7b03daf319eca7d9d572ccd45ac9d87212530fe8ed46e44e1aa2b7e"
+        },
+        {
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/METHOD.md",
+          "line": 16,
+          "line_end": 29,
+          "quote": "image, or transcription and explicitly excludes `f84` and `f84r`. The six\nreader-exact complete-form anchors are:\n\n| target | role in this experiment |\n|---|---|\n| `chor`, `shor` | target nominal wholes |\n| `cthy` | leaf/aerial-herb comparison |\n| `dair` | measured-fraction comparison with an old local root rival |\n| `kooiin`, `koaiin` | weak rootstock-class visual comparisons |\n\nThe route and priors come from GDT625, GDT631, GDT735, GDT737, GDT759,\nGDT762, and GDT767. Exact model, anchor, comparison, historical, and line\ndefaults live in `src/*.tsv`. Historical rows carry source IDs and expected\nregister patterns; they never carry Voynich identity credit.",
+          "sha256": "fced688d624a763d7149183f6b8f7681e6747c0f88610f1e626e829f9c1be19f"
+        },
+        {
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/src/run.py",
+          "line": 328,
+          "line_end": 395,
+          "quote": "    anchor_specs: Sequence[Mapping[str, str]],\n    scoreboard: Sequence[Mapping[str, object]],\n) -> list[dict[str, object]]:\n    ranks = {str(row[\"model_id\"]): int(row[\"rank\"]) for row in scoreboard}\n    scores = {str(row[\"model_id\"]): str(row[\"score_0_1\"]) for row in scoreboard}\n    direction_gap = abs(float(scores[\"M02\"]) - float(scores[\"M03\"]))\n    assert direction_gap < 0.10, \"directional part models unexpectedly separated\"\n\n    concrete_overrides = {\n        \"chor\": \"Blütenstand\",\n        \"shor\": \"Fruchtstand\",\n        \"cthy\": \"Blattgut\",\n        \"dair\": \"Anteil II\",\n        \"kooiin\": \"dicke oder kriechende Wurzeldroge\",\n        \"koaiin\": \"kriechende Wurzeldroge\",\n    }\n    portable_overrides = {\n        \"chor\": \"nicht-Blatt-Pflanzenteilposten; reproduktive Rolle möglich\",\n        \"shor\": \"reproduktiver Pflanzenteilposten; genaue Organart offen\",\n        \"cthy\": \"Blattgut oder oberirdische Blattdroge\",\n        \"dair\": \"abgemessene Fraktion oder Anteil, Stufe II\",\n        \"kooiin\": \"Untergrund- oder Wurzelstock-Drogenkopf; genaue Identität offen\",\n        \"koaiin\": \"Schwesterform eines Untergrund- oder Wurzelstockkopfs; genaue Identität offen\",\n    }\n    confidence_overrides = {\n        \"chor\": \"C2_NOMINAL_PART_ROLE__C0_FLOWER_DIRECTION\",\n        \"shor\": \"C2_NOMINAL_PART_ROLE__C0_FRUIT_DIRECTION\",\n        \"cthy\": \"C2_HERBAL_LEAF_CLASS__C1_LEAF_IDENTITY\",\n        \"dair\": \"C2_FRACTION_FAMILY__C0_SUBSTANCE_IDENTITY\",\n        \"kooiin\": \"C1_VISUAL_ROOTSTOCK_CLASS__N2\",\n        \"koaiin\": \"C0_C1_VISUAL_ROOTSTOCK_CLASS__N1\",\n    }\n    rival_overrides = {\n        \"chor\": (\"Samen- oder Fruchtstand\", \"allgemeiner Kraut- oder Pflanzenteil\"),\n        \"shor\": (\"Blütenstand\", \"Samenstand\"),\n    }\n    output: list[dict[str, object]] = []\n    for row in anchor_specs:\n        surface = row[\"surface\"]\n        output.append(\n            {\n                \"anchor_id\": row[\"anchor_id\"],\n                \"surface\": surface,\n                \"anchor_class\": row[\"anchor_class\"],\n                \"portable_default_de\": portable_overrides[surface],\n                \"concrete_default_de\": concrete_overrides[surface],\n                \"working_confidence\": confidence_overrides[surface],\n                \"primary_rival_de\": rival_overrides.get(\n                    surface, (row[\"rival_1_de\"], row[\"rival_2_de\"])\n                )[0],\n                \"secondary_rival_de\": rival_overrides.get(\n                    surface, (row[\"rival_1_de\"], row[\"rival_2_de\"])\n                )[1],\n                \"positive_evidence_de\": row[\"positive_evidence_de\"],\n                \"counterevidence_de\": row[\"counterevidence_de\"],\n                \"register_scope\": row[\"register_scope\"],\n                \"tournament_result\": (\n                    \"PARALLEL_NOMINAL_PART_WHOLES__BOTANICAL_DIRECTION_UNRESOLVED\"\n                    if surface in {\"chor\", \"shor\"}\n                    else \"CONTROL_DEFAULT_RETAINED\"\n                ),\n                \"model_rank_context\": json_cell(ranks),\n                \"directional_model_gap\": f\"{direction_gap:.6f}\",\n                \"replacement_guard\": row[\"replacement_guard\"],\n                \"default_is_translation\": 0,\n                \"confirmed_lexeme\": 0,\n                \"component_export_credit\": 0,\n            }",
+          "sha256": "719d3b246b5c82fbd9590552fdbb7230ffcab1dfc8c8a83acae4c53754efd0fb"
+        },
+        {
+          "path": "experiments/yolo/gdt756_ychor_line_frame_content_slots/src/YCHOR_BODY_CANDIDATE_PRIORS.tsv",
+          "line": 1,
+          "line_end": 1,
+          "quote": "surface\tworking_candidate_de\talternate_1_de\talternate_2_de\tconfidence\tsemantic_role\tselection_basis",
+          "sha256": "cb26336e69b5e9c33dcf5f4933720386eb398ed863f273dcccce26c8ca59b5b1"
+        },
+        {
+          "path": "experiments/yolo/gdt756_ychor_line_frame_content_slots/src/YCHOR_BODY_CANDIDATE_PRIORS.tsv",
+          "line": 10,
+          "line_end": 10,
+          "quote": "chor\tBlätter\tWurzel\tSamen\tC0_FORCED_CONTEXT\tPLANT_PART\tzweimal direkter ychor-Folger und starke Herbal-Konzentration; Auswahl Blatt bleibt austauschbar",
+          "sha256": "cb26336e69b5e9c33dcf5f4933720386eb398ed863f273dcccce26c8ca59b5b1"
+        },
+        {
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/src/ANCHOR_6_DEFAULT_SPECS.tsv",
+          "line": 1,
+          "line_end": 2,
+          "quote": "anchor_id\tsurface\tanchor_class\tportable_default_de\tbold_default_de\trival_1_de\trival_2_de\tworking_confidence\tprovenance_gdts\tpositive_evidence_de\tcounterevidence_de\tregister_scope\ttournament_use\treplacement_guard\tconfirmed_lexeme\tcomponent_export_credit\nA01\tchor\tREPRODUCTIVE_OR_OTHER_PART_HEAD\tanderer oder reproduktiver Pflanzenteilposten; nicht Blattgut\tBlütenstand\tSamen- oder Fruchtstand\tallgemeiner Kraut- oder Pflanzenteil\tC2_PART_ROLE__C0_SPECIFIC_IDENTITY\tGDT625|GDT759|GDT762|GDT767|GDT768\t176 reader-exakte Vorkommen; 15 exakte chor-cthy-Parallelpositionen auf 14 loci, davon 5 direkt und in beiden Reihenfolgen; im bereinigten Kern fallen direkte DRY/MOIST-Vorkommen von 45/9 bei ED0 auf 12/7 bei ED2; im exakten Sechs-Zustandsformen-Deck bleiben 2 qokchol-Geber bei ED2\tParallelität zu cthy trennt chor von Blattgut, aber nicht Blüte von Samen oder Frucht; kein unabhängiger Blütenanker; starke Trockenaffinität schrumpft unter Formfamilienabzug und kann Zustandsumfeld statt Teilidentität sein\tGLOBAL_WITH_HERBAL_MAJORITY\tPRIMARY_TARGET_AND_NONLEAF_PART_CONTROL\tBlütenstand bleibt ersetzbarer C0-Default, bis ein anderes Modell mindestens zwei voneinander unabhängige zielwortfreie Kontraste besser erklärt\t0\t0",
+          "sha256": "1eaf502e85b35eec852033194cda3a815a504fe50f8412f52259e2ab796d06e4"
+        },
+        {
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/src/model_scoring.py",
+          "line": 512,
+          "line_end": 553,
+          "quote": "def _observed_pair_metrics(\n    lookups: Mapping[str, object], role_rows: Mapping[str, Mapping[str, object]]\n) -> tuple[list[dict[str, object]], dict[str, object]]:\n    rows: list[dict[str, object]] = []\n    pair_rates: dict[tuple[str, str], float] = {}\n    target_totals = {\n        target: int(role_rows[target][\"reader_exact_occurrences\"]) for target in TARGETS\n    }\n\n    pair_specs = (\n        (\"CF05\", \"chor\", \"cthy\"),\n        (\"CF05\", \"shor\", \"cthy\"),\n        (\"CF11\", \"chor\", \"shor\"),\n        *(('CF06', target, control) for target in TARGETS for control in ROOT_CONTROLS),\n    )\n    for feature_id, first, second in pair_specs:\n        pair = _pair_row(lookups, first, second)\n        target = first if first in TARGETS else second\n        total = target_totals[target]\n        line_count = int(pair[\"line_count\"])\n        direct_count = int(pair[\"direct_pair_count\"])\n        line_rate = _safe_rate(line_count, total)\n        pair_rates[first, second] = line_rate\n        rows.append(\n            _metric_row(\n                f\"{feature_id}_{first.upper()}_{second.upper()}_LINE_RATE\",\n                feature_id,\n                \"EXACT_ANCHOR_PAIRING\",\n                f\"{first}|{second}\",\n                \"LINE\",\n                \"NA\",\n                line_count,\n                total,\n                line_rate,\n                (\n                    f\"{line_count} lines / {int(pair['page_count'])} pages / \"\n                    f\"{direct_count} direct pairs; target-normalised line rate {line_rate:.6f}\"\n                ),\n                \"Parallel occurrence supports a shared register or part list, not a specific identity.\",\n                \"GDT768_CORE_PAIR_SUMMARY\",\n            )\n        )",
+          "sha256": "eb014c935ed8d90e757870e4d18188e9fe20a3ac6072a2d3858743e5b14feb33"
+        },
+        {
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/src/model_scoring.py",
+          "line": 983,
+          "line_end": 1003,
+          "quote": "    elif model_id in {\"M02\", \"M03\"}:\n        direction = \"chor=flower, shor=seed/fruit\" if model_id == \"M02\" else \"chor=seed/fruit, shor=flower\"\n        table = {\n            \"CF04\": (\n                nominal_state_compatibility,\n                \"At ED2 both complete wholes retain a measured, target-normalised named-state-whole profile.\",\n                \"Only qokchol survives in this deck, and the symmetric compatibility cannot select either flower/seed direction.\",\n                0,\n            ),\n            \"CF05\": (\n                (1.0 + cthy_similarity) / 2.0,\n                \"Both targets repeatedly stand apart from the cthy leaf control.\",\n                \"Leaf contrast identifies only a non-leaf or broader part class.\",\n                0,\n            ),\n            \"CF07\": (\n                0.5,\n                \"The broad amount profile is measured and reported for both targets.\",\n                f\"Amount ecology cannot choose {direction}; flower-versus-seed identity credit is fixed to zero.\",\n                0,\n            ),",
+          "sha256": "eb014c935ed8d90e757870e4d18188e9fe20a3ac6072a2d3858743e5b14feb33"
+        },
+        {
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/src/model_scoring.py",
+          "line": 1175,
+          "line_end": 1178,
+          "quote": "    if model_id in {\"M02\", \"M03\"}:\n        return False, (\n            \"Directional minimum failed; shared two-part relation supported.\"\n        )",
+          "sha256": "eb014c935ed8d90e757870e4d18188e9fe20a3ac6072a2d3858743e5b14feb33"
+        },
+        {
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/REPORT.md",
+          "line": 121,
+          "line_end": 157,
+          "quote": "The same survivors yield a symmetric target-normalised weighted Jaccard of\n**0.875000**. This supports form-conditioned compatibility for two nominal\nitems, but it contains no direction telling us which item is flower.\n\n## Why a shared two-part family survived\n\nThree independent observations converge on parallel record roles:\n\n- After ED2 removal, the outward non-anchor 12D cosine remains **0.966080** at\n  D1, **0.984115** at R3, and **0.990899** over the line.\n- `chor` and `shor` occur together on **8 lines / 8 pages**, with **3 direct\n  pairs** and both orders (5 versus 3).\n- Both parallel the `cthy` control: `chor` on 14 lines/11 pages with 5 direct\n  pairs, and `shor` on 8 lines/7 pages with 3 direct pairs.\n\nTheir position similarity is **0.969525** and section-profile similarity is\n**0.950704**. Both have zero true paragraph-opener events. The profiles are too\nsimilar for M05's unrelated learned roles and do not give M04 the required\ngeneral-herb hierarchy.\n\nCF07 is only a `BROAD_VALUE_AMOUNT_PROXY`. It is reported as register ecology,\nnot a demonstrated bound dose formula and not a seed/fruit discriminator.\n\n## Model result\n\n| rank | model | score | minimum support | disposition |\n|---:|---|---:|---:|---|\n| 1 | M02 `chor` flower / `shor` seed-fruit | 0.820437 | 0 | tied direction; no replacement |\n| 1 | M03 reverse direction | 0.820437 | 0 | tied direction; no replacement |\n| 3 | M01 same part, dry/moist | 0.644178 | 0 | live rival; persistence failed |\n| 4 | M04 general herb / reproductive | 0.631987 | 0 | live rival; breadth failed |\n| 5 | M05 role-distinct learned wholes | 0.132523 | 0 | disfavored; divergence failed |\n\nEvery feature-by-model row contains its score, evidence, and counterevidence.\nThe two leaders have identical weighted sums (9.024812/11) because flower and\nseed/fruit identity credit is fixed to zero. Their high tied score supports the\nshared two-part architecture; it does not satisfy either directional minimum.",
+          "sha256": "bf02e42ce7b03daf319eca7d9d572ccd45ac9d87212530fe8ed46e44e1aa2b7e"
+        }
+      ]
+    }
+  ],
+  "shared_checks": {
+    "direction_gate": {
+      "decision": "correctly_preserved_as_missing_directional_support",
+      "reason": "M02/M03 minimum support returns False explicitly in authored code. Their equal scores and zero organ-identity credit do not constitute an observed flower/seed or leaf-organ falsification. The conditional common architecture is not a decoded organ identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/src/model_scoring.py",
+          "line": 1159,
+          "line_end": 1190,
+          "quote": "\ndef _minimum_support(\n    model_id: str, summary: Mapping[str, float], score: float\n) -> tuple[bool, str]:\n    if model_id == \"M01\":\n        passed = (\n            summary[\"opposite_state_sign_fraction\"] >= 2.0 / 3.0\n            and summary[\"shor_moist_persistence_match\"] >= 0.6\n            and (\n                summary[\"radius_two_cofield_similarity\"] >= 0.8\n                or summary[\"mutual_pair_replication\"] >= 0.7\n            )\n        )\n        return passed, (\n            \"Requires opposite polarity through at least two ablation radii and a persistent shor-moist match.\"\n        )\n    if model_id in {\"M02\", \"M03\"}:\n        return False, (\n            \"Directional minimum failed; shared two-part relation supported.\"\n        )\n    if model_id == \"M04\":\n        passed = (\n            summary[\"chor_breadth_advantage\"] > 0.5\n            and summary[\"chor_register_breadth_advantage\"] > 0.55\n        )\n        return passed, \"Requires exposure-controlled chor breadth on both part and register axes.\"\n    if model_id == \"M05\":\n        passed = (\n            summary[\"position_divergence\"] >= 0.35\n            and summary[\"radius_two_cofield_divergence\"] >= 0.35\n        )\n        return passed, \"Requires two observed divergence channels; unknown identity itself contributes nothing.\"",
+          "sha256": "eb014c935ed8d90e757870e4d18188e9fe20a3ac6072a2d3858743e5b14feb33"
+        }
+      ]
+    },
+    "m01_boundary": {
+      "decision": "separate_conditional_model_failure",
+      "reason": "M01 has a distinct state-persistence predicate using inherited state-label summaries. Its failed requirement is neither the M02/M03 direction gate nor a refutation of chor=Blätter or cthy=Wurzel. No new test or donor-label validation was performed here."
+    },
+    "existing_dossier_priority_boundary": {
+      "decision": "no_duplicate_whole_claim_disposition",
+      "records": [
+        "FAILURE_F:CTHY_LEAF_SPECIFIC:v1",
+        "FAILURE_F:FLOWER_SEED_DIRECTION:v1",
+        "FAILURE_F:CHOR_SHOR_DRY_MOIST:v1",
+        "K02",
+        "K03"
+      ],
+      "reason": "K02/leaf-specific failure concerns GDT809 discriminative-design inadequacy; K03/direction concerns GDT768 M02/M03; M01 concerns conditional dry/moist persistence. These are useful related records, not a prior organ-refutation dossier for these two GDT756 source cases."
+    },
+    "reopening": {
+      "decision": "appropriate_as_prospective_guidance_only",
+      "reason": "The proposal explicitly permits shared or ambiguous predictions and material containing multiple organs. It does not force organ/material categories to be exclusive. Exact-source/quarantine/ablation requirements apply only to reuse of the old architecture, not every new whole/span question. Independent participant-role evidence is offered as an alternative to a direct organ observation. Existing requirements are not silently replaced or deemed fulfilled."
+    }
+  },
+  "clarifications": [
+    {
+      "severity": "nonblocking",
+      "location": "dossiers[*].reopening.pathways[kind=reuse_existing_768_architecture].requirements[1]",
+      "suggested_wording": "If a comparison control is used to distinguish organ meanings, independently justify the organ interpretation needed for that contrast; unchanged co-occurrence rates and authored labels supply no new organ binding.",
+      "reason": "This makes explicit that a control used only for structural comparison need not first acquire an organ translation. The surrounding proposal already limits this pathway to reuse and does not impose a universal gate."
+    }
+  ],
+  "validation": {
+    "exact_quote_and_source_sha256": "PASS",
+    "active_card_and_effective_bases": "PASS",
+    "case_ids_present": "PASS",
+    "scientific_meaning_validation": false
+  }
+}

@@ -1,0 +1,345 @@
+{
+  "schema_version": 1,
+  "review_id": "ARCHIVE_BOUNDARY_PEER_EO",
+  "reviewed_proposal": {
+    "path": "research_registry/decisions/semantic_archive_boundary_review_eo.json",
+    "sha256": "ee3f8c6bbda2880beab1ba3fd4d52f8694f5f27505a0978deab7623c574a3517"
+  },
+  "decision": "approve_ten_scoped_archive_retentions",
+  "operational_mutation": false,
+  "raw_event_or_image_access": false,
+  "reviews": [
+    {
+      "target": "SEM:1b8ae71bfb2d2f6c32d0",
+      "decision": "approve_retain_archive_for_this_extracted_source_case",
+      "claim": "E → Hitze",
+      "card_basis": "e676b366080ff8380d291731290faa01e497ac2cb13f0f66ca51b5557752e672",
+      "effective_basis": "5508ed4aa611762c1b30785327cfa315b81ad7cd601d0202ddbbc0d2c6349ecd",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:090df226d8261833701e"
+      ],
+      "reason": "The paragraph derives opposite temperature directions from different action sequences and calls the free E=Hitze equation retrospectively invented. Its positive object is sequence-conditioned T/SH/CHD readings; it does not present an E-only heat rival evaluated against those sequences.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt583_object_conditioned_verb_refinement/REPORT.md",
+          "line": 40,
+          "line_end": 59,
+          "quote": "## Der wichtigste Fortschritt: Reihenfolge erzeugt Richtung\n\nVor GDT583 blieb `T` fast überall bei „einstellen oder temperieren“. Ein Grad\nallein kann nicht sagen, ob etwas wärmer, kälter oder trockener werden soll.\nDie Aktionsfolge kann es als Arbeitstheorie dagegen unterscheiden:\n\n| feste Folge | Arbeitslesung | Slots | Reichweite |\n|---|---|---:|---|\n| Herbal/Pharma `T→SH` | erwärmen, danach ziehen/halten | 10 | 6 Seiten / 6 Owner |\n| Physical `SH→T` | nach dem Halten/Badgang abkühlen | 12 | 7 Seiten / 7 Owner |\n| Herbal/Pharma `T→CHD` | vor dem Aufarbeiten trocknen | 3 | nur f95v; mutig lokal |\n\nSo wird `G407-E4496` zu „Erwärme die Pflanzencharge; halte sie auf Grad I“,\n`G407-E1758` zu „Halte im Bad auf Grad II; kühle den Stationsansatz ab“ und\n`G407-E4476` zu „Trockne die Pflanzencharge; zerreibe sie“.\n\nDie Gegenprobe ist wichtig: `G407-E3036 = Y+T+E` wird nur „temperiere auf Grad\nI“, nicht „kühle“. `G407-E0297 = Y+T+O+IIN` wird „stelle Form oder Stufe ein“,\nnicht „trockne“. Die Richtung stammt aus der Aktionsnachbarschaft, nicht aus\neiner nachträglich erfundenen Gleichung `E=Hitze`.",
+          "sha256": "788f0fec9887e862a6d63274457af460ba6fcb99e21b04abfbcdbcbfdcebb261"
+        }
+      ],
+      "historical_meaning_refuted": false,
+      "all_history_search_completed": false
+    },
+    {
+      "target": "SEM:4698f76fe67f68f845b1",
+      "decision": "approve_retain_archive_for_this_extracted_source_case",
+      "claim": "CHEY → nimm die Wurzel",
+      "card_basis": "70f799c72c6da2bae1e8e97e7e61c6476b4a88fbaeac63a74186345a876a6102",
+      "effective_basis": "507691dc990ee45bddb7dc4a4d81c8c86fa8607365e09a866cb965f2e6329eaa",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:81d1bf7bc8b568eb8b92"
+      ],
+      "reason": "The source tests TEIL against ANTEIL/STÜCK and reports one root versus two portion realizations. It explicitly keeps root, fibre, location and taking outside the CHEY value. A historical local root realization is not the compound lexical command nimm die Wurzel.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v50/V50_R2_HISTORICAL_PRESSURE_REPORT.md",
+          "line": 28,
+          "line_end": 43,
+          "quote": "## Urteil\n\n| Host | R2-Entscheidung | V50-R2-Wert | Geltung | zwei atomare Rivalen |\n|---|---|---|---|---|\n| `OK` | **BEHALTEN** | `SETZEN` | nur editorischer Formaloperator | `GEBEN`, `STELLEN` |\n| `OT` | **ERSETZEN** | `MERKEN` | historischerer Name für den Formaloperator | `ZEICHNEN`, `BEZEICHNEN` |\n| `L` | **BEHALTEN** | `VERKNÜPFEN` | nur editorischer Formaloperator | `WEITER`, `FOLGEN` |\n| `AL` | **ERSETZEN** | `AN` | schwache Relation, ohne Zielinhalt | `ZU`, `BEI` |\n| `E` | **BEHALTEN** | `BIS` | schwacher Grenzoperator, ohne Endzustand | `ENDE`, `SOLANGE` |\n| `OR` | **ERSETZEN** | `BEREITUNG` | schwaches neutrales Stoff-/Arbeitsnomen | `MISCHUNG`, `ARZNEI` |\n| `CHEY` | **ERSETZEN** | `TEIL` | schwaches Teil-/Mengenwort | `ANTEIL`, `STÜCK` |\n\nKein Wert erhält ein stilles Gefäß, eine Flüssigkeit, eine Pflanze, eine\nKörperstelle, ein Ziel oder einen Endzustand. Insbesondere bedeuten die\nEntscheidungen nicht `OK = gib etwas in ein Gefäß`, `E = bis es bereit ist`\noder `CHEY = nimm die Wurzel`.",
+          "sha256": "ee882fb147f87f9d6a23335fdce8e374dadb700360e959164d9c71e3dca1b37d"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v50/V50_R2_HISTORICAL_PRESSURE_REPORT.md",
+          "line": 165,
+          "line_end": 178,
+          "quote": "### `CHEY`: `ANTEIL` wird zu `TEIL`\n\nEin Ereignis expandiert als faserige untere Wurzel, zwei als bezeichneter\nAnteil. `ANTEIL` zieht die Lesung zur abstrakten Quote; `TEIL` kann dagegen\neinen konkreten Pflanzenteil und eine abgemessene Teilmenge bezeichnen, ohne\nWurzel, Faser, Lage oder Nehmen einzubauen. Besonders passend für die\nhistorische Größenordnung ist ein chirurgisches Rezept von 1446/48 mit\n`nym ein teÿl ...`; das FWB führt sowohl den Teil eines Ganzen als auch den\nAnteilssinn\n([FWB, „teil“](https://www.fwb-online.de/lemma/teil.s.0mn)).\n\n`STÜCK` würde eine abgegrenzte feste Einheit nahelegen. `ANTEIL` bleibt für\ndie zwei Mengenfälle brauchbar, ist aber für den konkreten Pflanzenteil enger\nund abstrakter als nötig.",
+          "sha256": "ee882fb147f87f9d6a23335fdce8e374dadb700360e959164d9c71e3dca1b37d"
+        }
+      ],
+      "historical_meaning_refuted": false,
+      "all_history_search_completed": false
+    },
+    {
+      "target": "SEM:54d1048f8a03f43fb051",
+      "decision": "approve_retain_archive_for_this_extracted_source_case",
+      "claim": "okeey → Ende",
+      "card_basis": "fd8abf52412d512261a5cbf5a26212b9a0faffc219514372e289eda3ae3697d5",
+      "effective_basis": "4e613e4d67af2b64e0a9526ee0d2edd1a402337d847b1a2c734e0833f0fa71d2",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:d28f0b031006310571c7"
+      ],
+      "reason": "The source retains fourteen occurrence-conditioned state slots, including twelve HOT+END, one HOT and one END. It expressly declines the global word equation; no isolated Ende meaning is selected as a rival or tested here. This matches the scoped EB treatment of okeey=heiß.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt750_form_gated_direct_host_dispatch/REPORT.md",
+          "line": 35,
+          "line_end": 65,
+          "quote": "Von 1.684 Zielvorkommen sind 1.311 reader-exakte Stellen außerhalb der 57\nGDT748-Entdeckungspositionen.  Der aktive Filter lizenziert davon neunzehn\nStellen, fünf Ganzformen und insgesamt 32 Achsen:\n\n| Form | aktive Stellen/Seiten | lokale Achsen | praktische Lesart |\n|---|---:|---|---|\n| `okeey` | 14/10 | HOT 13; END 13 | 12× heißer Endzustand, 1× heiß, 1× Endstufe |\n| `cheol` | 2/2 | DRY 2 | zweimal trockener Zustand |\n| `cheey` | 1/1 | END 1 | einmal End-/Vollstufe |\n| `cheky` | 1/1 | DRY 1 | einmal trockener Zustand |\n| `sheey` | 1/1 | MOIST 1; END 1 | einmal feuchter/eingeweichter Endzustand |\n\nDer stärkste neue Arbeitsbefund ist `okeey`.  Seine vollständige Form erhält\naus den bekannten edit-distance-one Nachbarn `okeedy` und `ykeey` unabhängig\ndie Karte HOT+END.  An zwölf Außenstellen steht unmittelbar `qokeey` oder\n`ykeey` mit derselben Doppelachse; an einer weiteren Stelle trägt `okey` HOT,\nan einer `oteey` nur die vereinbare END-Achse.  Deshalb darf der Renderer an\ndiesen konkreten Stellen sagen:\n\n```text\nf103v.4  y cheey qokeey [okeey] lkees ol qoteedy ykeedy\n          … qokeey — heißer Zustand an der End-/Vollstufe — …\n\nf17v.20  ykeey [okeey] cheor chol sho odaiin\n          ykeey — heißer Zustand an der End-/Vollstufe — …\n```\n\nDas ist noch nicht `okeey = heiß` und auch nicht `okeey = Ende`.  Es ist die\nengere Aussage, dass diese vierzehn Vorkommen einen heißen/endstufigen\nZustandsslot besetzen.  Gerade diese Trennung verhindert, dass eine lokale\nRolle wieder zu einem erfundenen Wörterbucheintrag wird.",
+          "sha256": "2245c80b399f6fece7741fda6ab396eae19c3a16c1d74d39753a14c05c2955df"
+        }
+      ],
+      "historical_meaning_refuted": false,
+      "all_history_search_completed": false
+    },
+    {
+      "target": "SEM:66d109cd5f4a21f129fd",
+      "decision": "approve_retain_archive_for_this_extracted_source_case",
+      "claim": "AIIN → ZEIT",
+      "card_basis": "10d20eeff5c0a560da10bbc3ff4e73512849549d0ea56f15cfe5b0364c52d1f8",
+      "effective_basis": "355b80048c6c3beb8b4fd94c26aed0dfb710f12324087bacaf88684bcc92cd37",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:3f1ae276a26658abcc1f"
+      ],
+      "reason": "Exact AIIN prescribed measure is distinguished from IIN grade and from two learned temporal compounds. The passage denies productive AIIN=time export. It does not supply a concrete conflict test of a previously proposed general time rule. Preserve the actual temporal wholes without replacing their scope by their substring.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_thermal_temporal_completion/R2_REPORT.md",
+          "line": 103,
+          "line_end": 117,
+          "quote": "\nDie drei IIN-Karten bilden eine kleine Zieltabelle:\n\n| Form | Komposition | Default |\n|---|---|---|\n| `oiiin|soiiin` | IIN | Sollgrad |\n| `kaiiin` | K + IIN | Weichgrad |\n| `daiiin` | DA + IIN | Öffnungsgrad II |\n\n`IIN=GRAD` ist nicht `AIIN=ZEIT`. Die exakte AIIN-Karte `aiin|chaiin|daiin|saiin|taiin` bleibt in 20 Ereignissen **VORGESCHRIEBENES MASS**. Zwei gelernte Ganzkarten können AIIN dennoch lokal in einen zeit-/standähnlichen Fachnamen aufnehmen:\n\n- `SHFYDAIIN = STANDZEIT`;\n- `CHLDAIIN = ABSETZSTAND`.\n\nDas exportiert keine produktive Regel `AIIN=Zeit`. Gerade die ähnlich aussehenden `daiin` und `daiiin` müssen als verschiedene exakte Karten behandelt werden.",
+          "sha256": "3938eafaba2acf826e87f2e22a7ba993dcecf2a14a6e8b896ce405b20bdcab14"
+        }
+      ],
+      "historical_meaning_refuted": false,
+      "all_history_search_completed": false
+    },
+    {
+      "target": "SEM:69600e5edc7f766e88cf",
+      "decision": "approve_retain_archive_for_this_extracted_source_case",
+      "claim": "EY → Wasser",
+      "card_basis": "298335364fee42934bbc2bcde5aabeb4981b7c40963841c4a7a5503582852f61",
+      "effective_basis": "5259d49facca4f48c6ddd4ab07a93d768ca413e3d1f4465bd1cef4d42ffcef2c",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:0ff17c7e8dd006cdae27"
+      ],
+      "reason": "The R3 case denies that clear-extract whole meanings entail EY=water. The earlier filtration source explicitly allows EY=Flüssigkeit/Wasser inside one exact CHEEY/SHEY tuple. These are different propositions: neither archive the earlier scoped proposal nor restore the later forbidden free inference. The existing positive card and source case preserve the earlier tuple restriction.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R3_MEDIUM_SUBSTANCE_REPORT.md",
+          "line": 64,
+          "line_end": 90,
+          "quote": "## 2. CHEO — Auszug als wiederverwendbares Zwischenprodukt\n\n`CHEO` hat zwei genau zusammenpassende Werkstattrollen:\n\n| Karte / ID | Ereignis | Aussage | Lesung |\n|---|---|---|---|\n| `CHEOAR` / `807591efc3d3f7ddbfab` | `E065` | `H4-S003` | Auszug daraus nehmen |\n| `CHOKCHEO` / `087a47b5423438cd6b6a` | `E092` | `H5-S004` | Auszug zugeben |\n\nIn `H4-S003` wird der Auszug gewonnen und länger warm gehalten; in `H5-S004`\nwird derselbe Produkttyp einem laufenden Posten wieder zugegeben und danach\nabgeseiht. Das ist kein Bedeutungswechsel, sondern die gewöhnliche\nWerkstattlaufbahn eines Zwischenprodukts: **aus einem Ansatz entnehmen → als\nZutat in einem späteren Arbeitsschritt einsetzen**. Ob dieser Auszug wässrig,\nweinig oder ölig ist, bleibt lokal offen.\n\nDer präziseste kurze Wert ist `AUSZUG`, nicht `AUSZUGSMEDIUM`: Das deutsche\n„Auszugsmedium“ würde gewöhnlich den rohen Träger oder das Lösungsmittel\nbezeichnen, während `CHEOAR` gerade das gewonnene Produkt aus dem Posten nimmt.\nDieses Produkt kann anschließend selbstverständlich als Medium eines neuen\nArbeitsschritts dienen.\n\n`SHEY/CHEEY = KLARAUSZUG` ist die speziellere wiederkehrende Ergebnisform\n(`E044`, `E197`, `E203`, `E353`). Daraus folgt weder `EY = Wasser` noch, dass\njede `CHEO`-Form bereits klar ist. `KCHOAR` wird nur als kurzer gelernter\nGanzwert `TRANK` behalten; die frühere Körperdiagnose war in dieser Karte nicht\ngetragen.",
+          "sha256": "f9b702a835beba25625fdf9e83efef08497689d42a7ed6048880ddf9db4481f0"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_filtration_separation_completion/DRAUGHTSMAN_FILTRATION_REPORT.md",
+          "line": 158,
+          "line_end": 176,
+          "quote": "buchstabenweise verwandt zu sein.\n\n### CHEEY/SHEY — Klarflüssigkeit\n\nDie eine exakte Tuple-ID `b5df9126607030b95175` erscheint als `cheey` oder\n`shey` in `E044,E197,E203,E353`. Der gewählte Ganzwert ist:\n\n```text\nCHEEY/SHEY = KLARE FLÜSSIGKEIT; KLARER ABLAUF\n```\n\nIn H3 folgt SHEY unmittelbar auf das zweite Seihen. In B2/B4 wirkt dieselbe\nKarte eher wie eine Prüfkarte für die klare Charge. Beide Ausführungen passen\nzu „Klarflüssigkeit“. Der alte Rivale „reines Wasser“ bleibt möglich, ist aber\nzu eng; der Rivale „nur fertig/bereit“ verliert die sichtbare Flüssigkeitskette.\n\nInnerhalb dieser **exakten Karte** darf man kreativ `CH/SH = klar` und\n`EY = Flüssigkeit/Wasser` lesen. Das wird nicht auf alle EY-Formen übertragen:\nim OK-Zustandsraster ist E+Y weiterhin Grad plus laufender Posten.",
+          "sha256": "15cc55baf8430628aad31c01dec2c34a3fd664f222906ec8239bc6f603f65c49"
+        }
+      ],
+      "historical_meaning_refuted": false,
+      "all_history_search_completed": false
+    },
+    {
+      "target": "SEM:6b38d05aa7c305f91e8e",
+      "decision": "approve_retain_archive_for_this_extracted_source_case",
+      "claim": "E → mehr",
+      "card_basis": "858af14c265a51c4c7705e264872137968cbecfcfe872c3c025a79654ee2e351",
+      "effective_basis": "5367247297fcc9784646918d9212dd05c780a86f88ff8f6833a9493340901422",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:c0f51c6c11721b91cc09"
+      ],
+      "reason": "The narrow rinsing/bathing/saturation ordering is explicitly retained; cross-base transfer is a condition on future grade/duration/contact interpretation. The source does not expand this to universal E=mehr. Preserve the ordering and conditional generalization, not a newly asserted bare quantity word.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_historical_compositional_analogue_search/SELECTED_HISTORICAL_ANALOGUE_REPORT.md",
+          "line": 151,
+          "line_end": 162,
+          "quote": "### Regel 5 — Grad nur bei Übertragung\n\n`E/EE/EEE` darf erst als Grad, Dauer oder Kontaktlänge gelten, wenn die gleiche\nRichtung außerhalb einer einzigen Basis wiederkehrt. Die enge Reihe\n\n```text\nqokedy < qokeedy < qokeeedy\nspülen  < baden     < durchtränken\n```\n\nbleibt als nützliche Arbeitshypothese stehen, wird aber nicht zu einem globalen\n`E = mehr` ausgedehnt.",
+          "sha256": "37bf9d6445555ff6401d3d99025f15e0d2df7c826a49c28f55eebe1865b7daab"
+        }
+      ],
+      "historical_meaning_refuted": false,
+      "all_history_search_completed": false
+    },
+    {
+      "target": "SEM:6dbb9492a8474b0eb19f",
+      "decision": "approve_retain_archive_for_this_extracted_source_case",
+      "claim": "E → Wasser",
+      "card_basis": "a8a59155749e30660fccbd7d9fe1abd043a242a16ec8096e847018e2ae8134e8",
+      "effective_basis": "19dbdf79140cefd625f0f5b82ee79b428fdc3a8d84729355cbe5c11108378b77",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:6fc5da24d6e4be15819e"
+      ],
+      "reason": "The genuine revisions here concern complete okey/qokey Wasser and okeey/qokeey Wärme geben readings, replaced by contact operations. The same report expressly excludes global E=Wasser. Whole-word historical revision is not evidence for a bare E water hypothesis.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_paradigm_closure/E_GRADE_REPORT.md",
+          "line": 9,
+          "line_end": 37,
+          "quote": "## Ergebnis\n\n`E`, `EE` und `EEE` sind **kein globales Morphem**. Insbesondere gilt nicht\n`E = warm`, `E = Wasser`, `EE = zweimal` oder allgemein `mehr E = mehr von\nder jeweiligen Wortbedeutung`.\n\nDie beste Arbeitsregel ist enger und positionsgebunden:\n\n```text\n[lizenzierter Operationskern] + E-GRAD + [Y oder DY]\n\nE     = kurzer/direkter Kontakt oder gewöhnliche Haltephase\nEE    = anhaltender Kontakt oder verlängerte Haltephase\nEEE   = vollständiger/durchgehender Kontakt\n\nY     = der Arbeitszustand bleibt offen/aktiv\nDY    = derselbe lokale Schritt wird abgeschlossen\n```\n\nDer Grad ordnet vor allem **Kontakt- bzw. Haltedauer und Reichweite**. Er gibt\nkeine genaue Zahl von Wiederholungen, keine Temperatur und keine feste\nZeitspanne an. Bei einem Flüssigkeitsvorgang kann derselbe Unterschied als\n`kurz benetzen/spülen < eintauchen/einweichen < vollständig durchtränken`\nrealisiert werden. Bei einer Zustandsoperation lautet er eher\n`kurz halten < länger halten`.\n\nDiese Regel ist im `OK`-Paradigma stark genug, um die Arbeitsübersetzung zu\nändern. Die Übertragung auf `OT`, `SH` und `CHK` bleibt eine ausdrücklich\nprovisorische Prognose. Außerhalb dieser lizenzierten Rahmen gehört `e` häufig",
+          "sha256": "a982d2c7b8613c758aa4f0d27a9f569861a7adecc3e9c452a9ebe73fbacf4411"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_paradigm_closure/E_GRADE_REPORT.md",
+          "line": 57,
+          "line_end": 74,
+          "quote": "\nDie Reihe korrigiert zwei besonders schlechte Altglossen:\n\n- `okey/qokey` heißt nicht mehr als Wort **Wasser**. Minimal heißt es\n  „den aktiven Ansatz kurz anlegen/benetzen“.\n- `okeey/qokeey` heißt nicht mehr isoliert **Wärme geben**. Minimal heißt es\n  „den aktiven Ansatz anhaltend in Kontakt halten“; Temperieren ist nur eine\n  mögliche lokale Ausführung.\n\nDie geschlossenen Formen behalten die anschaulichen Werkstattwerte:\n\n```text\nqokedy     kurz spülen oder benetzen; Schritt abschließen\nqokeedy    eintauchen oder einweichen; Schritt abschließen\nqokeeedy   vollständig durchtränken; Schritt abschließen\n```\n\n`EEE` bleibt wegen seines Einzelbelegs die schwächste Stufe. Es ist eine",
+          "sha256": "a982d2c7b8613c758aa4f0d27a9f569861a7adecc3e9c452a9ebe73fbacf4411"
+        }
+      ],
+      "historical_meaning_refuted": false,
+      "all_history_search_completed": false
+    },
+    {
+      "target": "SEM:8622fb2508d74ef8a4e2",
+      "decision": "approve_retain_archive_for_this_extracted_source_case",
+      "claim": "OK → gib etwas in ein Gefäß",
+      "card_basis": "a8cd47d6a622659f0d3b040a5d8b40823bdf01c82ba651928a63ae794c1e9328",
+      "effective_basis": "02fce621322cd62cf4928c5bd9821f31abdab829e6467ed1fb00a5429b11789b",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:478eb3e6cd4b0ddb8d34"
+      ],
+      "reason": "The seven vessel-giving realizations belong to full local event expansions among five different OK event types. The actual atom-level competitors are SETZEN/GEBEN/STELLEN, with SETZEN retained only as editorial operation. Do not promote the vessel argument to the OK atom or erase the actual local full readings.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v50/V50_R2_HISTORICAL_PRESSURE_REPORT.md",
+          "line": 28,
+          "line_end": 43,
+          "quote": "## Urteil\n\n| Host | R2-Entscheidung | V50-R2-Wert | Geltung | zwei atomare Rivalen |\n|---|---|---|---|---|\n| `OK` | **BEHALTEN** | `SETZEN` | nur editorischer Formaloperator | `GEBEN`, `STELLEN` |\n| `OT` | **ERSETZEN** | `MERKEN` | historischerer Name für den Formaloperator | `ZEICHNEN`, `BEZEICHNEN` |\n| `L` | **BEHALTEN** | `VERKNÜPFEN` | nur editorischer Formaloperator | `WEITER`, `FOLGEN` |\n| `AL` | **ERSETZEN** | `AN` | schwache Relation, ohne Zielinhalt | `ZU`, `BEI` |\n| `E` | **BEHALTEN** | `BIS` | schwacher Grenzoperator, ohne Endzustand | `ENDE`, `SOLANGE` |\n| `OR` | **ERSETZEN** | `BEREITUNG` | schwaches neutrales Stoff-/Arbeitsnomen | `MISCHUNG`, `ARZNEI` |\n| `CHEY` | **ERSETZEN** | `TEIL` | schwaches Teil-/Mengenwort | `ANTEIL`, `STÜCK` |\n\nKein Wert erhält ein stilles Gefäß, eine Flüssigkeit, eine Pflanze, eine\nKörperstelle, ein Ziel oder einen Endzustand. Insbesondere bedeuten die\nEntscheidungen nicht `OK = gib etwas in ein Gefäß`, `E = bis es bereit ist`\noder `CHEY = nimm die Wurzel`.",
+          "sha256": "ee882fb147f87f9d6a23335fdce8e374dadb700360e959164d9c71e3dca1b37d"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v50/V50_R2_HISTORICAL_PRESSURE_REPORT.md",
+          "line": 78,
+          "line_end": 89,
+          "quote": "Die 24 Ereignisse teilen sich in fünf feste Typen: neunmal „beginne den\nnächsten abgemessenen Posten“, siebenmal „gib einen abgemessenen Anteil in das\nGefäß“, sechsmal „mische beide Anteile“, einmal eine bloße Ortsangabe und\neinmal „öffne den oberen Lauf“. Kein historisches Rezeptverb *setzen* kann all\ndiese lokalen Sätze wörtlich tragen. Die V49-Formeln sind jedoch in allen fünf\nTypen einheitlich `SET(<ARG_...>)`. Deshalb bleibt `SETZEN` als deutscher Name\ndieser **editorischen** Operation, nicht als expandierte Quellform.\n\n`GEBEN` passt am ehesten zu sieben Ereignissen, scheitert aber an Beginn,\nMischen, Öffnen und Ortsangabe. `STELLEN` ist historisch als Platzierungsverb\nkleiner als die V49-Satzexpansion, deckt aber dieselben Abweichungen nicht.\n",
+          "sha256": "ee882fb147f87f9d6a23335fdce8e374dadb700360e959164d9c71e3dca1b37d"
+        }
+      ],
+      "historical_meaning_refuted": false,
+      "all_history_search_completed": false
+    },
+    {
+      "target": "SEM:a5f40072b1d4b311b2ba",
+      "decision": "approve_retain_archive_for_this_extracted_source_case",
+      "claim": "E → warm",
+      "card_basis": "86c5fe88d5d5ee99b1ccddd8c752e3f76574dce7ae32c4a42606951ce2222de5",
+      "effective_basis": "efd9c707a08301293d9792304c23d75dd9769a4251b5417f3699da5abf186d26",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:3b8fd59853b859382e10"
+      ],
+      "reason": "The contact paradigm revises whole okeey/qokeey Wärme geben while allowing tempering as local execution. It expressly rejects temperature as the value of the E grade. This supports withholding the free E=warm export, without a claim that every historical warming hypothesis is false.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_paradigm_closure/E_GRADE_REPORT.md",
+          "line": 9,
+          "line_end": 37,
+          "quote": "## Ergebnis\n\n`E`, `EE` und `EEE` sind **kein globales Morphem**. Insbesondere gilt nicht\n`E = warm`, `E = Wasser`, `EE = zweimal` oder allgemein `mehr E = mehr von\nder jeweiligen Wortbedeutung`.\n\nDie beste Arbeitsregel ist enger und positionsgebunden:\n\n```text\n[lizenzierter Operationskern] + E-GRAD + [Y oder DY]\n\nE     = kurzer/direkter Kontakt oder gewöhnliche Haltephase\nEE    = anhaltender Kontakt oder verlängerte Haltephase\nEEE   = vollständiger/durchgehender Kontakt\n\nY     = der Arbeitszustand bleibt offen/aktiv\nDY    = derselbe lokale Schritt wird abgeschlossen\n```\n\nDer Grad ordnet vor allem **Kontakt- bzw. Haltedauer und Reichweite**. Er gibt\nkeine genaue Zahl von Wiederholungen, keine Temperatur und keine feste\nZeitspanne an. Bei einem Flüssigkeitsvorgang kann derselbe Unterschied als\n`kurz benetzen/spülen < eintauchen/einweichen < vollständig durchtränken`\nrealisiert werden. Bei einer Zustandsoperation lautet er eher\n`kurz halten < länger halten`.\n\nDiese Regel ist im `OK`-Paradigma stark genug, um die Arbeitsübersetzung zu\nändern. Die Übertragung auf `OT`, `SH` und `CHK` bleibt eine ausdrücklich\nprovisorische Prognose. Außerhalb dieser lizenzierten Rahmen gehört `e` häufig",
+          "sha256": "a982d2c7b8613c758aa4f0d27a9f569861a7adecc3e9c452a9ebe73fbacf4411"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_paradigm_closure/E_GRADE_REPORT.md",
+          "line": 57,
+          "line_end": 74,
+          "quote": "\nDie Reihe korrigiert zwei besonders schlechte Altglossen:\n\n- `okey/qokey` heißt nicht mehr als Wort **Wasser**. Minimal heißt es\n  „den aktiven Ansatz kurz anlegen/benetzen“.\n- `okeey/qokeey` heißt nicht mehr isoliert **Wärme geben**. Minimal heißt es\n  „den aktiven Ansatz anhaltend in Kontakt halten“; Temperieren ist nur eine\n  mögliche lokale Ausführung.\n\nDie geschlossenen Formen behalten die anschaulichen Werkstattwerte:\n\n```text\nqokedy     kurz spülen oder benetzen; Schritt abschließen\nqokeedy    eintauchen oder einweichen; Schritt abschließen\nqokeeedy   vollständig durchtränken; Schritt abschließen\n```\n\n`EEE` bleibt wegen seines Einzelbelegs die schwächste Stufe. Es ist eine",
+          "sha256": "a982d2c7b8613c758aa4f0d27a9f569861a7adecc3e9c452a9ebe73fbacf4411"
+        }
+      ],
+      "historical_meaning_refuted": false,
+      "all_history_search_completed": false
+    },
+    {
+      "target": "SEM:b73f762d9526a1744ffa",
+      "decision": "approve_retain_archive_for_this_extracted_source_case",
+      "claim": "F → pressen",
+      "card_basis": "55c1c45ecb07736f3d2e79c1f65def4d6554fa8ae5420ea2bf104789eb7dc299",
+      "effective_basis": "45549cf7d49335c3f89e602ac6b91d2d6ec823abd05b4cad807e70023fe6f089",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:7aa0b9a21f0f450d72aa"
+      ],
+      "reason": "The CFHY/CPHY paragraph supplies two learned whole readings and says their small sample does not construct F=pressen/P=wiederholen. Unlike TSH, it supplies no competing F-bearing whole whose retained meaning conflicts with the generalization. This is an insufficiency/non-export statement, not the concrete model-relative rejected rule established for TSH.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_filtration_separation_completion/DRAUGHTSMAN_FILTRATION_REPORT.md",
+          "line": 158,
+          "line_end": 183,
+          "quote": "buchstabenweise verwandt zu sein.\n\n### CHEEY/SHEY — Klarflüssigkeit\n\nDie eine exakte Tuple-ID `b5df9126607030b95175` erscheint als `cheey` oder\n`shey` in `E044,E197,E203,E353`. Der gewählte Ganzwert ist:\n\n```text\nCHEEY/SHEY = KLARE FLÜSSIGKEIT; KLARER ABLAUF\n```\n\nIn H3 folgt SHEY unmittelbar auf das zweite Seihen. In B2/B4 wirkt dieselbe\nKarte eher wie eine Prüfkarte für die klare Charge. Beide Ausführungen passen\nzu „Klarflüssigkeit“. Der alte Rivale „reines Wasser“ bleibt möglich, ist aber\nzu eng; der Rivale „nur fertig/bereit“ verliert die sichtbare Flüssigkeitskette.\n\nInnerhalb dieser **exakten Karte** darf man kreativ `CH/SH = klar` und\n`EY = Flüssigkeit/Wasser` lesen. Das wird nicht auf alle EY-Formen übertragen:\nim OK-Zustandsraster ist E+Y weiterhin Grad plus laufender Posten.\n\n### CFHY und CPHY — Pressen gegen Nachseihen\n\n`CFHY` (`bdad9f9ea8b80f141496`, E041) ist das kräftige Auswringen durch Tuch;\n`CPHY` (`deb377381ceaf55ea310`, E043) der zweite, feinere Seihgang. Die\nH3-Abfolge entscheidet die einfachen Defaults, aber ein allgemeines\n`F = pressen` oder `P = wiederholen` wird aus zwei Einzelkarten nicht gebaut.",
+          "sha256": "15cc55baf8430628aad31c01dec2c34a3fd664f222906ec8239bc6f603f65c49"
+        }
+      ],
+      "historical_meaning_refuted": false,
+      "all_history_search_completed": false
+    }
+  ],
+  "positive_counterparts_checked": [
+    {
+      "id": "SEM:33c3ac5128cbf2c08080",
+      "claim": "SHFYDAIIN → STANDZEIT",
+      "card_basis": "2b8afa54ab7409cfc88f3f487d2a8d547ecce9eb70ec13eb6486420e362a96ff",
+      "effective_basis": "27d08bf9b006cdd553bf05c959d47dcf9b223f8ba021d639a029f24fd87ed5fa",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:092daced6f85d9a4c595"
+      ],
+      "restriction": "Learned SHFYDAIIN whole; not productive AIIN time."
+    },
+    {
+      "id": "SEM:0cbcfed025d3ce87917d",
+      "claim": "EY → Flüssigkeit/Wasser",
+      "card_basis": "59808b2a6227f2475e111457df0342962c2381d4847108429e962bd3abc2135d",
+      "effective_basis": "c95f9eb9b98a39d89a069d81140467e54a6046fb406158a8b6f63a5eb026a08e",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:08dc293f9e7ae314b892"
+      ],
+      "restriction": "Exact CHEEY/SHEY tuple b5df9126607030b95175 only; not portable EY water."
+    }
+  ],
+  "eb_tsh_comparison": {
+    "prior_review": "research_registry/decisions/semantic_archive_boundary_root_eb.json",
+    "target": "SEM:12245693b1f6e69bbc60",
+    "reason": "TSH has an explicit common-stem subsection and a concrete incompatibility: imposing washing on retained TSHOL=Blütenkraut conflicts with the H3 reading while TSHEY remains Spülung beginnen. No prior adoption or independent manuscript falsification is needed to preserve that evaluated model-relative negative generalization. The EO archive retentions must not be read as a general policy excluding all negated rules; they concern the ten source-bound positive exports examined here.",
+    "evidence": [
+      {
+        "path": "experiments/yolo/sidequest_semantic_filtration_separation_completion/DRAUGHTSMAN_FILTRATION_REPORT.md",
+        "line": 135,
+        "line_end": 140,
+        "quote": "### TSH — kein gemeinsamer Stamm\n\n`TSHEY` (`d4a31dbcf1ed6d9e5aa9`, E212) heißt weiterhin „Spülung beginnen“.\nAber `TSHOL` (`953ad19b79517fc8a211`, E039) ist im starken H3-Rezept die\ngelernte Pflanzenkarte „Blütenkraut“. Ein allgemeines `TSH = waschen` würde\ndiese Passage zerstören. Beide Werte bleiben konkrete Ganzkarten.",
+        "sha256": "15cc55baf8430628aad31c01dec2c34a3fd664f222906ec8239bc6f603f65c49"
+      }
+    ]
+  },
+  "selection_limits": {
+    "selected_archived_cards": 10,
+    "selected_source_cases": 10,
+    "non_numeric_selection": true,
+    "proposal_evidence_entries_exact": 15,
+    "unique_proposal_evidence_intervals": 12,
+    "source_reuse": "V50, filtration and GDT750 overlap earlier preparation; ten cards are not ten disjoint primary reports.",
+    "remaining_unselected_ids": [
+      "SEM:09ae79a9a370f8e5af5e",
+      "SEM:1a301ad13228509f1c9f",
+      "SEM:3953e3f0de6f0c7c3e4f",
+      "SEM:4836f02a3b17e7505eba",
+      "SEM:5014d9ffefcecbe645ec",
+      "SEM:5615927497524c00218e",
+      "SEM:7a949abe1bed564feafc",
+      "SEM:83d0ffcb62f84e87a96d",
+      "SEM:868efe18d8a44bdee040",
+      "SEM:8a74f7ba9ba08754a6c3",
+      "SEM:b6d66beda85fccb3d1ac",
+      "SEM:baa8aea811155f943e30",
+      "SEM:cbb3fcd944576e77da61",
+      "SEM:cd461a877353a563741c",
+      "SEM:d9d1658273d97f0d2dae",
+      "SEM:de51146d887250b790af",
+      "SEM:df3b990091fd0da0d0f6",
+      "SEM:e0d055fff65c53379d2e",
+      "SEM:e5aa9cdd2a27bd11e217",
+      "SEM:e9023262b3594803313e"
+    ],
+    "remaining_twenty_semantically_reviewed_here": false,
+    "exclusion_bucket_full_history_audit": false,
+    "no_global_absence_claim": "No assertion that any bare reading was never proposed elsewhere. This peer checks each selected archived case and its cited local revision/export argument. Positive local ordering/action/compound propositions have not all received a new exhaustive current-card counterpart search; retaining them in source context is not certified full registry coverage."
+  },
+  "validation": {
+    "ten_archive_bases_and_effective_bases": "PASS",
+    "ten_single_case_bindings": "PASS",
+    "fifteen_primary_evidence_entries_sha_and_exact_text": "PASS",
+    "two_named_positive_counterparts_current": "PASS",
+    "meaning_validation": false
+  },
+  "required_fixes": []
+}

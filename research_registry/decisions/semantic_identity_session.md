@@ -340,3 +340,31 @@ reductions,37 other relations;36 scoped dossiers and9 unready priorities.
 The named28-default remainder is reconciled, while other report propositions
 and ofchedy old/new identity are not declared closed. All current source and
 operative audits plus158repository tests PASS. EM/EN remain pending.
+
+EO archive-boundary decision: EB demonstrated that a positive export can be
+wrong while an explicitly considered, model-relative alternative is worth
+preserving in corrected form. Check at most10 remaining nonnumeric archive
+cards under that now explicit criterion, excluding the five EB cases and
+already equivalent reviews. Each outcome changes whether a real historical
+semantic proposal remains addressable. Smallest adequate check: all cases,
+old correction reason and exact primary statement; no numeric re-audit or
+blanket restoration. Budget25minutes review plus15minutes peer/integration.
+
+EM/EN/EO integration decision: seven peer-checked full historical models, two
+organ-default revision dossiers and ten scoped archive reconfirmations resolve
+source-contract and rejection-reason ambiguity. Outcomes determine addressable
+hypotheses and reopening conditions, not new manuscript interpretation.
+Smallest adequate work: validate exact quotes and current bases, append the
+qualified decisions, rebuild and publish. Budget25minutes including checks and
+publication. EP separately accounts for the remaining20 archive candidates;
+only its nine new primary checks require fresh semantic peer review.
+
+EM/EN/EO/EP checkpoint:4108 active=3843 semantic+265 formal;4629 source
+cases;44 archived cards unchanged;191 scope restatements.19 append-only archive
+reconfirmations are not new extraction errors.49 equivalence groups/58 display
+reductions,37 other relations;38 scoped dossiers and9 unready priorities.
+Root corrected four declared quote ends in derived operative artifacts, leaving
+producer and peer receipts unchanged. EP mixed22-check counter is decomposed
+into13 direct primary entries,2 counterpart entries,3 review receipts and4
+metadata hashes; only nine new primary cases, not20. All current source and
+operative audits plus158repository tests PASS. EQ/ER/ES remain pending.
