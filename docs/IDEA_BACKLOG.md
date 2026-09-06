@@ -1848,3 +1848,44 @@ raw data, native images or network access. No files changed by producer.
 
 No candidate promoted merely because it has not been tested. This screen
 does not require exhausting every RAW idea before useful new-source work.
+
+
+## Rangfolge nach unabhängiger Beobachtung — keine neue Modellrunde
+
+Nach Root-Korrektur bleibt diese kompakte Liste im bestehenden Backlog.
+**Kein semantisch ausführungsreifer Kandidat gefunden.** Eine begrenzte
+Quellenexploration könnte vorhandene Daten innerhalb der verbleibenden2h40
+nutzen; sie ist ausdrücklich nicht als fertiger Bedeutungs-/Chiffrentest
+etikettiert. Keine neue ID-Quote und keine Wiederholung der langen Altliste.
+
+| Rang | Konkreter möglicher Unterschied | Bestehende positive Quelle / Verfügbarkeit | Was tatsächlich unterscheiden würde; Stop |
+|---|---|---|---|
+| **1 — AVAILABLE_EXPLORATION, keine Bestätigungsbereitschaft** | **Lokale Beschriftung versus explizite schriftliche Bezugnahme** innerhalb einer vollständigen pharmazeutischen Bildeinheit. | GDT391 erhält `f100r.10` als singulären CONTACT_OR_OVERLAP-Fall in der gemischten Einheit `f100r:L2`, samt gleichtopologischem Vergleich. Das Originalf100r ist inzwischen für861 zugelassen; kompletter Quelltext ist grundsätzlich verfügbar. Geometrie wurde391 ohne formale Identitäten beurteilt. Ob genau diese Quelle vollständige aktuelle Beschriftungen/Prosa in brauchbarer Zuordnung liefert, ist vor Zugriff festzustellen. | Eine echte Bezugnahme müsste einen **unabhängig markierten** Bezug zwischen zwei konkret getrennten Text-/Objektstellen liefern, nicht allein denselben String in deren Nähe. Kleinste Exploration: genau diese vollständige Einheit mit erhaltenen Rohgruppen und Originalansicht zusammen lesen; danach maximal einen vor Ort motivierten Gegenvertrag formulieren.20min Gesamtbudget, Stop bei ausschließlich Kontakt/Nähe oder frei angesetztem Teilnehmer. Kein B02-Score, keine Wiederholung des50-Positive-Gates mit kleinerem Panel, kein Traitmodell. Die Quelle ist vorhanden; der entscheidende Bezug ist **nicht** bereits belegt. |
+| **2 — MISSING_SOURCE** | **Adressverschiebung nach Einschub versus stabile Objektbezeichnung** (IP062). | Wiederkehrende vollständige Beschriftungen790/791 sind real. Es gibt jedoch kein identifiziertes Dossier mit sicherem Einschub und mehreren vollständig wiederhergestellten früheren/späteren Kennungen. | Gleiche Objekt-/Textkörper plus einseitig hinter einem Einschub systematisch revidierte Kennungen, mit unabhängiger Chronologie; eine allgemeine Schreibweisenrevision bleibt Rivale. Ohne dieses Material kein Indexfit, keine RBR/MSI-Wiederholung. |
+| **3 — MISSING_SOURCE** | **Lineare Einfügung versus eigenständige Randannotation** (IP061). | Die bekannte f76r-Neunerspalte ist tatsächlich beschrieben; ihr vollständiger Primäraudit liefert keinen internen Einfügepunkt. | Ein eindeutig gepaarter Innen-/Rand-Verweis an zwei vollständig erhaltenen Textstücken würde eine konkrete Leseoperation liefern. Drei wiederholte `s` und ungefähre Zeilenhöhe sind keine solche Paarung. Keine neue Ausrichtungszählung oder Wörterbuchdeutung. |
+| **4 — MISSING_SOURCE** | **Überlappende schriftlich bezeichnete Beziehungen versus exklusive Kennung** (IP063). | Die61geometrischen Positivfälle391 sind reale quellenbewusste Beobachtungen; daraus folgt noch keine autorielle Kennungs- oder Eigenschaftsrelation. | Zwei explizit gezeichnete Beschriftungszuordnungen mit sicherer teilweiser Überschneidung auf demselben Objektlevel würden eine mehrstellige Relation begrenzen. Kein vorhandenes Beispiel dieses Typs belegt; Kontakt/Nähe und Panel-Overlays dürfen die fehlenden Linien/Klammern nicht ersetzen. |
+
+**Verworfene neue Priorisierung:** Ein Ganzwort-Anagrammtest am bekannten fünften
+Pflanzenpaar wäre mathematisch eine andere Invariante als FPR001s Wurzel-LCS.
+Es fehlt aber ein positiver Hinweis auf tatsächliche Transposition; außerdem
+wäre „dieselbe unveränderte Namensform steht irgendwo im Herbal-Text“ erst eine
+Zusatzannahme. Ein weiteres negatives Resultat würde plausiblen Alternativen
+wenig nehmen. Deshalb **nicht auswählen**. Family40s Ausnahme für eine andere
+Invariante setzt die breitere CROSS_SECTION_CATCHWORDS-Schließung nicht still
+außer Kraft. Kein Zielstring geöffnet oder neue Prüfung gestartet.
+
+**Quellen-/Kapazitätsgrenze:** [GDT391](../experiments/yolo/gdt391_local_object_relation_normalization/REPORT.md)
+hat61singuläre Positive, davon48in zwei allpositiven f68-Arrays; nur vier
+passend vergleichbare Einheiten auf vier Blättern. Es war eine einzelne
+quellenbewusste AI-Review, keine unabhängige zweite menschliche Begutachtung.
+868s1777Positionsbindungen schaffen keine zusätzlichen Objektbindungen.
+[FPR001](../experiments/semantic_assumptions/results/fpr001_f37v_one_shot_target_report.md)
+und der [Restquellenbericht](../experiments/semantic_assumptions/results/remaining_repeated_plant_relation_ownership_report.md)
+bleiben negative Vorläufer. Direkte Primärquellen und gezielte route-checks
+wurden gelesen; keine Roh-/Bild-/Netzwerkdaten oder Modelle geöffnet.
+
+Die vier Ränge sind eine ehrliche Auswahl nach möglichem unabhängigen
+Informationsgewinn, keine vier neuen ausführbaren Routen. Rang1 ist ein
+zeitlich begrenzbarer **Entdeckungsauftrag**, dessen Ergebnis auch „kein neuer
+Bezug“ sein kann; vor Ausführung muss root entscheiden, ob diese konkrete
+Quellenkopplung wissenschaftlich neu genug ist. Schreibzuständigkeit zurück.

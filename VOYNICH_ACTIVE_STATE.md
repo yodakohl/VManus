@@ -23303,3 +23303,17 @@ the broader cleaner problem; feature-corpus fidelity remains untested.
 808/865scores unchanged, no refit/wordhood/glyph/meaning. V1zero-row CLIerror
 was corrected publicly before nonempty target projection; no scientificstop.
 Primary: experiments/yolo/gdt868_core13_raw_group_fidelity/REPORT.md.
+
+
+## GDT869 additional capture metadata, 2026-09-06
+
+Three authenticated f17rUV TIFFs contain48tags each in2directories; independent
+144descriptor parityPASS. EXIF34852 records two identical7.450sMB365UV entries
+for007, one10.000s entry for029/037; all100.0w as literal labels. IPTC33723
+record2/dataset120 is the same generic Main banks/Transmissive caption in all.
+No direction assignment; repeated entry does not establish two lamps. Vendor
+37407/37408remain partly opaque, so statusUNRESOLVED_OPAQUE_METADATA, not an
+exhaustive absence claim. No pixeldecode/nativeview/f116v/source reinterpretation.
+EBA001 trace persistence and unresolved material mechanism unchanged. Stop this
+metadata route pending authoritative vendor interpretation or capture-light map.
+Primary: experiments/yolo/gdt869_f17r_capture_metadata_inventory/REPORT.md.

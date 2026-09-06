@@ -450,3 +450,11 @@ protocol while separate agents implement and validate metadata extraction.
 Stop by11:15UTC including publication; meaningful outcome is documented lighting
 or a precisely bounded absence/opaque-source limitation, not another trace view.
 README summary and source hash are retained without mirroring the source PDF.
+
+GDT869 prereg0374dd55 public10:59:57UTC, then three originals authenticated and
+metadata read; no raster decode. Independent144descriptor parityPASS. Previously
+unexported spectral field records007two7.450sentries versus029/037one10sentry;
+all sharegeneric Main banks/Transmissive IPTCcaption. No direction assignment;
+37407/37408vendor data remain partly opaque. Explicitpost-extraction readable
+projection added without changing frozen source scanner/validator. Stop metadata
+route pending authoritative mapping, not another native or processedimagepass.
