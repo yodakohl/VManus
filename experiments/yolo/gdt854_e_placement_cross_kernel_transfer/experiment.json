@@ -1,0 +1,101 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Written-context directional transfer under folio sign-exchangeability only; no causal, unique-function, language, physical-glyph or meaning claim.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt854_e_placement_cross_kernel_transfer/src/run.py",
+    "validate": "python3 experiments/yolo/gdt854_e_placement_cross_kernel_transfer/src/validate.py"
+  },
+  "created": "2026-09-06",
+  "dependencies": [
+    "GDT849",
+    "GDT851",
+    "GDT853"
+  ],
+  "experiment_id": "GDT854",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt851_primitive_tandem_raw_group_discovery/experiment.json",
+      "role": "frozen_source_or_extractor",
+      "sha256": "059d30f4374cd0f50cb0d3ed665d3f4f53e4259300a683477592a829c154ac55"
+    },
+    {
+      "path": "experiments/yolo/gdt851_primitive_tandem_raw_group_discovery/src/SPEC.json",
+      "role": "frozen_source_or_extractor",
+      "sha256": "192674c513a6b633f88a5bdd4d4394bf5463139d062a1ae19abc167d2007a241"
+    },
+    {
+      "path": "experiments/yolo/gdt851_primitive_tandem_raw_group_discovery/artifacts/SOURCE_ZL3b.json",
+      "role": "published_source_hash_from_GDT851_manifest_checked_on_GO",
+      "sha256": "73d3a80095d76876da91e67a6c9bd0d46284fdfe62250fccfb7d9dee3c038329"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt854_e_placement_cross_kernel_transfer/.gitignore",
+      "role": "source_or_artifact",
+      "sha256": "9b9dc66af90f9ff99fa79101a6e3eb357e4d8b53cafcf51e9a8d2e2e32ca7dbb"
+    },
+    {
+      "path": "experiments/yolo/gdt854_e_placement_cross_kernel_transfer/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "43d5701cabb5979fb9f03fabc8b163aefc05fac37dd91c3208e5b2b09e6c102f"
+    },
+    {
+      "path": "experiments/yolo/gdt854_e_placement_cross_kernel_transfer/PREREGISTRATION.md",
+      "role": "source_or_artifact",
+      "sha256": "5e52fe4f28eecc4531d65a5de95ca7e955324ac0c6645b9088e9badd58a562c2"
+    },
+    {
+      "path": "experiments/yolo/gdt854_e_placement_cross_kernel_transfer/README.md",
+      "role": "source_or_artifact",
+      "sha256": "36cb6a14f5dc7b73910050b627355bec0deb0dbeea145ce64fb788fc0e42513e"
+    },
+    {
+      "path": "experiments/yolo/gdt854_e_placement_cross_kernel_transfer/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "a96ef1a3f7b506f2243d355c4fe5ad006caddcfbe05172eae46fbe2152b4c60a"
+    },
+    {
+      "path": "experiments/yolo/gdt854_e_placement_cross_kernel_transfer/src/PREREG_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "9618973955d47561a90e63192f5b5317d942cff03c4b28a763879b1012caad1f"
+    },
+    {
+      "path": "experiments/yolo/gdt854_e_placement_cross_kernel_transfer/src/SPEC.json",
+      "role": "source_or_artifact",
+      "sha256": "0493866a447ba1a65e5119e8a27c8464472ef38bb86a12211f88ab6e1c796b10"
+    },
+    {
+      "path": "experiments/yolo/gdt854_e_placement_cross_kernel_transfer/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "f5e27008e227ddbd3e6d116bc8d2f71bcc43c285ee1e27f99bc7544247f1aa6e"
+    },
+    {
+      "path": "experiments/yolo/gdt854_e_placement_cross_kernel_transfer/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "7a712b547c8deebacadc32967b69a03a0f9d2590a1763d989cff5d12f41489b1"
+    },
+    {
+      "path": "experiments/yolo/gdt854_e_placement_cross_kernel_transfer/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "2c95fd36e49d69977c77bb5ad170b3417212555a167adf6bc5183e7923902fb1"
+    }
+  ],
+  "question": "Does one-e placement predict written neighbors across the other kernel and other physical folios beyond a whole-folio polarity null?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "e_placement_cross_kernel_transfer",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Single-e placement cross-kernel context transfer",
+  "updated": "2026-09-06",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

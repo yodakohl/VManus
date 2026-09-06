@@ -1012,3 +1012,138 @@ behauptet; vor einer neuen Atlas-/Transferstudie wäre dessen Vertrag nötig.
 Eine konkret vorbereitbare Beobachtung, null neue READY-Kandidaten; keine
 weitere Quote ergänzt. Alle früheren STOP-/Quellenhinweise bleiben erhalten.
 Schreibzuständigkeit an root zurückgegeben.
+
+### IP048 — Dasselbe einzelne e an zwei Stellen: Gesamtwert, Stellenfunktion oder Ganzwort?
+
+Status: `REVIEW_PRIORITY_NOT_READY`. Ein Kandidat mit drei konkurrierenden
+Vorhersagen; keine drei künstlich getrennten Experimente. IP012 ist von root
+als nächste Priorität verworfen: der obligatorische Umbau besitzt keinen
+empirisch motivierten Rivalen, bloße Quellensicherheit genügt hier nicht.
+
+**Beobachteter Anker:** [GDT849 REPORT](../experiments/yolo/gdt849_two_e_run_grid_discovery/REPORT.md)
+belegt in jeder Lesung beide Ein-e-Zellen aller vier festen Familien:
+
+| Familie | äußeres e | inneres e | ZL-Vorkommen außen / innen |
+|---|---|---|---:|
+| ch×cth | `checthy` | `chcthey` |26 /7|
+| ch×ckh | `checkhy` | `chckhey` |46 /29|
+| sh×cth | `shecthy` | `shcthey` |18 /4|
+| sh×ckh | `sheckhy` | `shckhey` |33 /10|
+
+Jedes Paar besitzt exakt dieselbe Zeichenmultimenge, Länge und e-Gesamtzahl;
+nur die Lage eines e relativ zum Kern wechselt. Das ist aus dem publizierten
+Raster ablesbar, kein neuer Manuskriptbefund. Konkrete ältere Zeilenanker sind
+[GDT633](../experiments/yolo/gdt633_cth_interfix_semantic_contrasts/REPORT.md)
+f80r.18 `... qokar shcthy qotol shecthy qokain ...` für `shecthy` sowie
+[GDT651](../experiments/yolo/gdt651_ckh_four_shell_family_migration/REPORT.md)
+f80r.43 `sor sheckhy qokar checkhy okain sheckhy qokeey ly` für zwei weitere
+Zielganze. Ein exakt gleicher Kontext für Außen-/Innenform wird nicht behauptet.
+
+**Drei präzise Rivalen und Vorhersagen:**
+
+1. **Gesamt-e-Code mit konventioneller Platzwahl.** In diesem eng begrenzten
+   Modell trägt nur die Anzahl der e einen inhaltlichen Wert; bei festem
+   Präfix/Kern regeln Hand, Register und physische Position die Platzwahl.
+   Nach diesen Kontrollen darf geschriebener Außenkontext keinen zusätzlichen
+   reproduzierbaren Unterschied zwischen den beiden Ein-e-Formen liefern.
+   Das Modell ist durch die beobachtete unabhängige Platzvariation motiviert,
+   nicht durch eine behauptete Zahlübersetzung. Eine Erweiterung, die selbst
+   kontextabhängige Platzwahl zulässt, entzieht sich ausdrücklich diesem Test.
+2. **Übertragbare Stellenfunktion.** Die äußere/innere Stellung trägt eine
+   wiederverwendbare Anschlussinformation. Ein aus vollständigen linken/rechten
+   Nachbargruppen gelernter Unterschied muss bei ausgelassener anderer
+   Präfix-/Kernfamilie in gleicher Richtung tragen. Die Gesamtsumme genügt dann
+   nicht als verlustfreie Darstellung der geprüften Anschlussinformation.
+3. **Familiengebundene Ganzwörter oder Allomorphie.** Unterschiedliche Außen-
+   kontexte sind innerhalb einzelner Familien möglich, doch der Unterschied
+   kann zwischen Familien umkehren oder ausbleiben. Ein nur lokal besseres
+   Modell bei erfolglosem gemeinsamen Transfer bevorzugt diese Erklärung
+   gegenüber einer universellen Stellenfunktion; es entscheidet nicht zwischen
+   Lexikalisierung und sprachabhängiger Allomorphie.
+
+**Kleinster aussagekräftiger Test:** Nur diese acht vollständigen Formen und
+beide Ein-e-Lagen einfrieren; keine ee-Erweiterung, keine Suffixsuche. Vor einer
+Auswertung muss ein kurzer Vertrag einen physisch-folio-getrennten Vergleich
+von Metadatenbasis, gemeinsamem Nachbareffekt und familiengebundenem Nachbareffekt
+festlegen. Vorhersageziel ist Außen-/Innenlage. Der konkrete mögliche Kontextkanal ist
+je eine vollständige rohe linke und rechte Nachbargruppe, mit separat festen
+Gewichten nach Seite: Welche Nachbarn erhöhen im Lernkern die Chance auf äußeres
+e? Diese dort gelernten Gewichte werden unverändert auf den anderen Kern
+angewandt; zugleich bleibt das jeweilige Zielfolio vollständig aus dem Lernen.
+Die spezifische Vorhersage ist also **gleichgerichteter Außenkontext-Effekt
+über cth↔ckh hinweg**, nicht bloß vorhandene e-Stellen oder Zellenzählung.
+Innerhalb eines Zielfolio×Präfix×Kern-Stratums müssen beide e-Lagen vertreten
+sein, damit dessen Vergleich nicht allein das Inventar der Seite spiegelt.
+Keine exakte Paarung nach demselben Startindex; relative Zeilenposition und
+Randstatus brauchen einen vorab festgelegten Basisterm. Das ist ein Designvorschlag,
+noch kein validierter oder gepowerter Schätzer. Keine alten Qualitätstags,
+Arbeitsübersetzungen oder aus dem Ziel abgeleiteten Rollen. Zieltyp, Hand/Register, physische Position und Quellgrenzen
+müssen berücksichtigt werden. Zusätzlich muss der gemeinsame Effekt eine
+vollständig ausgelassene Familie erreichen. Vier Familien sind wenig; Tokens
+oder drei Lesungen dürfen ihre Zahl nicht künstlich vergrößern.
+
+Die bestehende849-Matrix beweist **nicht**, dass die erforderliche Folio-
+und Kontextkapazität vorhanden ist. Vorab Mindestdeckung und Stop festlegen;
+kein nachträgliches Lockern von Paarungen. Keine Wiederholung der gescheiterten
+853-W/Grenzverschiebung: hier weder Zwischenräume ändern noch unspacedW-Paare
+suchen. Nach dieser Designprüfung Zielbudget20Minuten für gebundene Erhebung,
+kleine feste Modelle, unabhängige Prüfung und Bericht; bei fehlender Kapazität
+stoppen. Noch kein genehmigter Implementierungsauftrag.
+
+**Was jede Entscheidung ändert:** Zusatzsignal mit Familienübertragung bedeutet,
+dass e-Gesamtzahl plus die geprüften Konventionen nicht alle beobachtbare
+Anschlussinformation bewahrt; die e-Lage muss im weiteren Strukturmodell erhalten
+bleiben. Nur lokale Zusatzinformation spricht gegen freie Übertragung dieser
+Stellenfunktion. Kein verlässlich messbarer Zusatz lässt Gesamtzahl als kompakte
+Beschreibung dieser begrenzten Aufgabe offen, beweist aber keine Synonymie.
+Keines der Ergebnisse identifiziert e als Laut, Zahl, Morphem oder Wortbedeutung;
+auch übertragbare kontextabhängige Allographie bleibt als Erklärung möglich.
+
+**Primärvorgänger/Neuheitsrisiko:** route-check `two e positions context exchange
+modular operators transfer outer inner independent suffix`, `held whole form
+factorial four corners context additive morphology unseen combination` und
+`same multiset anagram total e count placement outside context position`.
+[GDT345 REPORT](../experiments/yolo/gdt345_productive_operator_transfer/REPORT.md)
+prüft nächste atomare Sechskoordinatenzustände, nicht diese geschriebenen
+Ein-e-Anagrammpaare. [GDT787 REPORT](../experiments/yolo/gdt787_keedy_remainder_cross_family_transfer/REPORT.md)
+hat bereits die additive Vorhersage der vierten Xkeedy-Rasterzelle geprüft:
+gegen beide Vergleichsmodelle nur3/9, WHOLE_ONLY bleibt gültig. Ein erneuter
+additiver Bedeutungsrest-Test wäre darum keine neue Route. IP048s möglicher
+Unterschied ist **positionsveränderte Ein-e-Form bei vollständig erhaltener
+Zeichenmultimenge**, mit rein geschriebenem Außenkontext als Vorhersagequelle.
+GDT849 prüfte nur das gemeinsame Vorkommen der Stellen; seine Häufigkeiten
+werden nicht als Test dieser drei Außenkontextvorhersagen wiederverwendet.
+GDT802s Nachbartransfer und weitere Distributionsvorgänger müssen vor Auswahl
+noch exakt gegen den endgültigen Vertrag geprüft werden. Kein allgemeiner
+Neuigkeitsbeweis, kein Wiederöffnen einer geschlossenen Transfer-/Decoderroute.
+
+Producer-Ergebnis: ein neuer konkret begründeter Kandidat mit drei
+Gegenvorhersagen, null READY; keine Rohdaten/Bilder/Web oder Experimente.
+Schreibzuständigkeit an root zurückgegeben.
+
+
+### Geparkte Alternativen nach Root-Primärreview
+
+RBR001s positiver Unterstrichbefund hat bereits den vollständigen RBR002-Stop
+(2/12, null unter neun neuen Stellen) als Nachfolger. Der frühere MSI-
+Verfügbarkeitscheck ist dokumentiert; keine Wiederholung dieses Audits.
+
+LM002s Neudaten-Ausnahme bleibt prinzipiell möglich. Root stellt klar:
+42 gescorte/44 Panelstellen sind nicht sämtliche bereits betrachteten Stellen;
+LM00132 (16 Kalibrierung+16 held) plus X19 plus Y9 ergeben60 physisch beurteilte
+Stellen. LM001Y erschöpfte A außerhalb q05. Ein möglicher neuer Pool beschränkt
+sich deshalb auf restliches q05-A beziehungsweise restliches B, deren
+Verfügbarkeit hier unbekannt ist. Eine neue Erhebungsphase darf keine alten
+Zellen nachfüllen. Geparkt, keine Behauptung fehlender verfügbarer Daten und
+keine neue Metadaten-/Bildabfrage. IP012 bleibt nachrangig, weil der zwingende
+Umbau-Rivale empirisch nicht motiviert ist. Schreibzuständigkeit zurück.
+
+### IP048 root selection: GDT854
+
+IN_PREPARATION. Select only the shared cross-kernel raw-neighbor channel,
+with each target physical folio excluded from training. Source/line-half
+cells, frozen capacity and whole-folio polarity randomization replace the
+proposal's unspecified baseline/model suite. No within-family rival model is
+fit, so failure cannot prefer learned wholes over conventional placement.
+Exact protocol: experiments/yolo/gdt854_e_placement_cross_kernel_transfer/METHOD.md.
+Budget25min including publication, starting05:14UTC. No source loaded yet.

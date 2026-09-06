@@ -18,17 +18,16 @@ at f75v.44 groups7–8 vs11. Qualitative contrast, not authorial word boundaries
 or meaning. GDT853 stops before context scoring:25W qualify in discovery,
 but zero held pairs satisfy fixed selector/kind/section/hand/start-index
 matching.32127eligible spans; no predictor executed. No information-loss
-answer or automatic looser pairing.40idea sketches retained; select a new
-grounded discriminator. IP012 f20v.7 visual assembly is only a candidate.
+answer or automatic looser pairing. GDT854 in preparation: the eight one-e
+forms from849 preserve letter counts/length while moving e across cth/ckh.
+Test shared raw-neighbor direction across kernels with whole-folio exclusion;
+folio-polarity null, fixed capacity, no meanings. IP012 assembly deferred:
+no empirically motivated remodeling rival.40idea sketches remain available.
 
-GDT845/846: ee+d prefix direction persists descriptively under section/hand,
-but paired folio support is only f113qo/bare and f104qo/o; no general rule.
-GDT848: both viewers support two arcs plus loop f104r.33#2; controls disagree
-or remain uncertain. Full0/1/2and cross-prefix claims remain text-level.
-GDT849:20/36two-e-run cells per reading, all0/1corners in four strata;
-five primary e2hits, zero2/2exposure. No coupling rule or semantic credit.
-GDT847 resolves829=816+10bracket choices+2brace removals+1inline metadata;
-metadata-bearing tchedy is not glyph uncertainty. Old bytes remain unchanged.
+GDT845–849 primary reports via lookup: paired prefix evidence remains sparse;
+848 supports one native two-arc/loop anchor, not all controls.849 has all0/1
+corners in four two-e-slot strata, no coupling/meaning.847 reconciles legacy
+829=816raw+10bracket+2brace+1metadata; old bytes remain unchanged.
 GDT844/stars remain stopped; no unowned caption scores or same-photo recounts.
 
 Goal: transferable translation. Confirmed English lexemes: **0**;

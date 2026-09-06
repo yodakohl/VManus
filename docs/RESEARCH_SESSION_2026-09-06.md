@@ -61,3 +61,18 @@ publication took about8minutes, below20min, rather than using the full budget.
 IP012 retains a specific f20v.7 native component-assembly candidate but no
 observation contract or new image work. The ten-hour goal remains ACTIVE;
 about8h39remain to the minimum duration. No confirmed meaning.
+
+05:15UTC decision: select GDT854s eight literal one-e forms from849. Moving
+e across cth/ckh preserves the entire within-pair letter multiset and length.
+The new discriminator is a raw-neighbor direction learned on the other kernel
+and other physical folios, not another cell census or working semantic profile.
+787tests a semantic remainder;802tests terminal-l/m context;853tested joined
+versus split exactW. Fixed within-folio source/line-half contrasts remove
+whole-page inventory as an explanation; whole-folio label-polarity null retains
+local dependence. It assumes folio-sign exchangeability, not causal assignment.
+Success supports this transferable context channel; failure leaves convention
+and wholeword explanations unresolved; capacity stop ends the comparison.
+Budget25min including publication from05:14UTC; no new image/LMtarget access.
+RBR002 already closes the apparent RBR001 successor. LM002 extension needs
+new data outside60previously graded physical folios, not merely outside44.
+Those triage results and IP012s low priority are recorded in the idea backlog.
