@@ -23076,3 +23076,15 @@ as a sufficient qualitative account, not authorial segmentation or meaning.
 A was sealed before B received neutral locations and original image only.
 Newly admitted f75v gives39visual keys/44selectors,11remaining admissions.
 Primary: `experiments/yolo/gdt852_f75v_native_join_split_spacing/REPORT.md`.
+
+## GDT853 exact-string spacing-context capacity, 2026-09-06
+
+CAPACITY_STOP_NO_PREDICTOR_SCORE. Among32127eligible interior raw spans,
+25complete W strings have both joined and one-cut split discovery support
+on at least two even physical folios per class. Zero odd-folio pairs satisfy
+the frozen same-W, selector, kind, section, hand and exact start-index match.
+No neighbor model or held score was computed. This is a capacity failure of
+this strict comparator, not evidence that spacing lacks contextual information.
+Do not relax matching, change the fold split or tune a predictor after this stop.
+Source851cache,179selectors; no images or alternate-reading pooling.
+Primary: experiments/yolo/gdt853_spacing_context_transfer/REPORT.md.

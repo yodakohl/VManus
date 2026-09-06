@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **852**
-- Experiment-associated tracked files: **15,966** (1.4 GiB)
+- Experiment-associated tracked files: **15,972** (1.4 GiB)
 - Structured GDT337+ experiments: **517**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT853 | Exact-unspaced-whole spacing context transfer | `REGISTERED_UNSCORED` | — | 11 | 26.8 KiB | 1 | STRUCTURED_YOLO |
+| GDT853 | GDT853 | `CAPACITY_STOP_NO_PREDICTOR_SCORE` | [report](../experiments/yolo/gdt853_spacing_context_transfer/REPORT.md) | 17 | 644.2 KiB | 1 | STRUCTURED_YOLO |
 | GDT852 | GDT852 | `LOCAL_SPACING_CONTRAST_SUPPORTED_BY_TWO_NATIVE_JUDGMENTS` | [report](../experiments/yolo/gdt852_f75v_native_join_split_spacing/REPORT.md) | 20 | 141.7 KiB | 2 | STRUCTURED_YOLO |
 | GDT851 | GDT851 | `COMPLETE_PRIMITIVE_TANDEM_DISCOVERY_NO_MECHANISM_TEST` | [report](../experiments/yolo/gdt851_primitive_tandem_raw_group_discovery/REPORT.md) | 23 | 12.1 MiB | 5 | STRUCTURED_YOLO |
 | GDT850 | GDT850 | `COMPLETE_LITERAL_JOIN_SPLIT_DISCOVERY_NO_SEMANTIC_TEST` | [report](../experiments/yolo/gdt850_qolchedy_join_split_context_inventory/REPORT.md) | 22 | 1.5 MiB | 4 | STRUCTURED_YOLO |

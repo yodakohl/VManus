@@ -51,3 +51,13 @@ would stop this fixed predictor, and insufficient capacity stops the route
 without relaxing matching. Previously exposed pages make this exploratory
 transfer, not an untouched confirmation. Budget20minutes including publication;
 review protocol before first new data execution. No semantic inference.
+
+05:02UTC checkpoint, about1h21elapsed: GDT853 has25discovery-qualified
+joined/split W families but zero complete held metadata/start-index pairs.
+The predictor was not executed; this is no answer to spacing-information
+independence. Preregistration827fee51 and fixed-source reconstruction are
+public/reproducible; no threshold repair follows. Preparation through result
+publication took about8minutes, below20min, rather than using the full budget.
+IP012 retains a specific f20v.7 native component-assembly candidate but no
+observation contract or new image work. The ten-hour goal remains ACTIVE;
+about8h39remain to the minimum duration. No confirmed meaning.

@@ -1,3 +1,3 @@
 # GDT853 — spacing context transfer
 
-Registered source and prediction contract; awaiting GO. See METHOD.md.
+Completed: capacity stop, no predictor score. See REPORT.md and METHOD.md.
