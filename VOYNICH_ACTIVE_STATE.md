@@ -23277,3 +23277,15 @@ no mixed cell. Thus this reserve cannot improve conditional mobility under
 the unchanged panel/quire/phase rules. All27hypothetical leaf-state assignments
 checked; not a registered outcome or an assertion about actual leaf margins.
 Primary: experiments/yolo/gdt855_leaf_margin_source_availability/REPORT.md.
+
+## GDT867 source scope and personal orientation, 2026-09-06
+
+Root personally viewed the complete original Yale1006199 after public
+registration932c1077. The joint f69v/f70r1/f70r2 canvas is not f69v alone.
+Explicit f70r admission adds one key/two selectors: current42keys48selectors,
+eight discretionary keys remain. No f84/f84r or reserved panel opened.
+The three circular compositions and different curved/radial/horizontal writing
+arrangements are known source appearance, not a new diagram-function discovery.
+No exact f70r1/f70r2 spatial assignment, slot count, start/direction regrade,
+glyph, owned relation or meaning. F69VSD001 remains closed. Software validates
+source metadata/declarations only. Primary: experiments/yolo/gdt867_shared_canvas_native_orientation/REPORT.md.

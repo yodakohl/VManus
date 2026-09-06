@@ -1,6 +1,6 @@
 {
   "artifact_policy": {
-    "large_artifact_justification": "",
+    "large_artifact_justification": "The 7504623-byte official full original JPEG is required for native full-canvas viewing without cropping or resampling. It is reproducibly fetched from the registered Yale URL, hash-checked against IMAGE_METADATA and stored only in ignored runtime, never published as a repository artifact.",
     "max_inline_bytes": 5000000
   },
   "claim_ceiling": "Personal orientation and source scope only; no count, direction, glyph, ownership or meaning",
@@ -54,7 +54,7 @@
     {
       "path": "experiments/yolo/gdt867_shared_canvas_native_orientation/REPORT.md",
       "role": "primary_report",
-      "sha256": "700e2e1b92a6a1f2b8cbbd390e8041e55d6ae769920d93bfee8d2cea7243be07"
+      "sha256": "db5de0b5e5f992d72c22d2c2c7b56bb2acabc45c64af1cc8758ad7d37fcf1c1c"
     },
     {
       "path": "experiments/yolo/gdt867_shared_canvas_native_orientation/SOURCES.json",
@@ -67,9 +67,29 @@
       "sha256": "f044886ab438dbd71133087a60d58555df49ad4326bf7653bf927a53e7dfe314"
     },
     {
+      "path": "experiments/yolo/gdt867_shared_canvas_native_orientation/artifacts/IMAGE_METADATA.json",
+      "role": "source_or_artifact",
+      "sha256": "aa60cbaac7a2aa0d92a020f0203a27fc4f5a5d0ea9b09226aed8a6413068486c"
+    },
+    {
+      "path": "experiments/yolo/gdt867_shared_canvas_native_orientation/artifacts/OBSERVATION.json",
+      "role": "source_or_artifact",
+      "sha256": "61b52af22aeaa5950a8a3ff742a2b5887091f2d4941d41505ff01688148339a9"
+    },
+    {
       "path": "experiments/yolo/gdt867_shared_canvas_native_orientation/artifacts/README.md",
       "role": "source_or_artifact",
       "sha256": "1be3ccabf8b6dc2b1390c9f4cb24142a6e628e0c27e115818d70a3f68e73342d"
+    },
+    {
+      "path": "experiments/yolo/gdt867_shared_canvas_native_orientation/artifacts/RESULT.json",
+      "role": "source_or_artifact",
+      "sha256": "c6e5e95bdd2294afe2f937a2174bf15de2522242405c445ac2ba7fe9f7f1efff"
+    },
+    {
+      "path": "experiments/yolo/gdt867_shared_canvas_native_orientation/artifacts/VALIDATION.json",
+      "role": "source_or_artifact",
+      "sha256": "00eb8f494ed110dbc8c48333101d83fa07bea9bfa7331f449bf69e97ff9e103f"
     },
     {
       "path": "experiments/yolo/gdt867_shared_canvas_native_orientation/src/PAGE_ADMISSIONS.tsv",
@@ -109,11 +129,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "shared_canvas_native_orientation",
-  "status": "REGISTERED_UNSCORED",
+  "status": "COMPLETE_PERSONAL_ORIENTATION_SOURCE_BOUNDARY",
   "title": "Joint f69v and f70r original personal orientation",
   "updated": "2026-09-06",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "artifact": "experiments/yolo/gdt867_shared_canvas_native_orientation/artifacts/VALIDATION.json",
+    "status": "PASS"
   }
 }

@@ -15,7 +15,7 @@ Independent four-deck refitPASS. Local addedgain shrinks to .001067L/.013356DY.
 Retrospective primary robustness only; no old fullverdict/null/meaning reuse.
 865complete; no refit.809face keys unchanged.
 866:f95v2 first-line upperlink seenby2viewers,0interveninggroups; no selective-scope anchor. Stop.
-867registered: native whole Yale1006199=f69v+f70r1/f70r2 orientation only; no counts/direction regrade.
+867complete: root natively viewed shared Yale1006199=f69v+f70r1/f70r2. Orientation only; no count/direction regrade.
 
 GDT859:f56r.1 upperlink seenby2viewers; firstgroupseam definitein3readings.
 ZL/RF@167/@168 versus ITt retained; rootonly alignment, no glyph/meaning.
@@ -61,7 +61,7 @@ score issue already known834. No automatic control-decoder successor.
 
 ## Visual understanding and earlier routes
 
-Five orientations:31renderings/30canvases/31keys.
+Six orientations:32renderings/31canvases/33keys.
 Sources: `docs/visual_overview/README.md`.
 f76r offset signs are a known functionally unresolved column; f4r rot is an
 ordinary-alphabet note. No decipherment/admission.95v images stay distinct.

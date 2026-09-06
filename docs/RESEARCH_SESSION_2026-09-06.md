@@ -392,3 +392,12 @@ Explicitly register one new key f70r/two selectors before image acquisition;
 Root has read V70 and F69VSD001; not blind. Public preregistration precedes
 download, expected dimensions fixed; actual image hash recorded after retrieval.
 Budget to10:18UTC. Agent prepares independent metadata validator only.
+
+GDT867 preregistration932c1077 public10:05:06UTC. Official original acquired
+afterward,7504623bytes/8886×3876; root actually viewed it natively by10:06:40UTC.
+No other viewer claimed. Three circular compositions with radial and enclosing
+writing, and an upper-right horizontal text block, match known broad V70
+appearance. Source scope distinguishes whole canvas from f69v-only; exact
+f70r1/f70r2 spatial mapping remains unassigned. Independent metadata validator
+PASS; no software claim to validate perception. Preparing result publication.
+IP055/IP061/IP064 producer review also recorded: none promoted toready.

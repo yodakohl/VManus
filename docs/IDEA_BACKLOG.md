@@ -1826,3 +1826,25 @@ Quellenanker790/791 über den Index; direkte vorher gelesene790-Quelle:
 Die fehlenden Befunde sind Datenanforderungen, nicht behauptete neue Funde oder
 Beschaffungsaufträge. Nur vier Einträge, keine Auffüllung auf acht. Kein neuer
 Rohtext-, Bild-, Modell- oder externer Zugriff. Schreibzuständigkeit zurück.
+
+
+### Bounded producer review: IP055 / IP061 / IP064
+
+REVIEWED_NOT_READY,2026-09-06. Three route-check/direct-primary reviews, no
+raw data, native images or network access. No files changed by producer.
+
+- IP061: `experiments/semantic_assumptions/results/f76r_keylike_sequence_source_audit.md`
+  has no authorial inner/marginal assignment; s occurs three times among nine
+  signs. Still needs an unambiguous marked internal insertion and matching
+  marginal span, not same-height or same-character pairing. GDT219 stays closed.
+- IP064: `GDT206_ARCHED_CHANNEL_REFERENT_AUDIT_REPORT.md` describes two separate
+  arches on f82v versus one continuous arch on f83r, with no singular label
+  ownership. This particular source pair is not the required mirrored motif
+  with attached caption; no general claim that none exists in the manuscript.
+- IP055: GDT851 supplies the complete f8r.19 ABAB span, while all readers treat
+  it as one source line. No positive two-track layout observation was found.
+  At most note this question during an independently justified future orientation;
+  no dedicated interleaving mechanism test or new-page acquisition selected.
+
+No candidate promoted merely because it has not been tested. This screen
+does not require exhausting every RAW idea before useful new-source work.

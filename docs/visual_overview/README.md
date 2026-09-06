@@ -105,3 +105,8 @@ Zwei native Beobachtungen stützen ähnlichen Aufbau und Trennung; feine Zeichen
 
 Drei weitere bereits freigegebene Pflanzenblätter: [fünfter persönlicher Durchgang](REMAINING_PLANTS_2026-09-06.md).
 Damit31Darstellungen/30Yale-Aufnahmen/31Seitenschlüssel in den fünf Orientierungsdossiers.
+
+Gemeinsame Aufnahme f69v/f70r: [sechster persönlicher Durchgang](SHARED_CIRCLES_2026-09-06.md),
+GDT867. Ein Original, zwei Seitenschlüssel, drei Textselektoren; damit
+32Darstellungen/31Yale-Aufnahmen/33Seitenschlüssel in sechs Orientierungen.
+Keine neue Kreisanzahl- oder Leserichtungsbehauptung.
