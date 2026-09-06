@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **843**
-- Experiment-associated tracked files: **15,801** (1.4 GiB)
-- Structured GDT337+ experiments: **508**
+- Experiments indexed: **844**
+- Experiment-associated tracked files: **15,812** (1.4 GiB)
+- Structured GDT337+ experiments: **509**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT845 | Extended72-cell form grid discovery | `REGISTERED_UNSCORED` | — | 11 | 16.8 KiB | 3 | STRUCTURED_YOLO |
 | GDT844 | GDT844 | `NO_COMMON_VISIBLE_SUBENTRY_CUE_IN_TWO_TARGETS` | [report](../experiments/yolo/gdt844_ychor_visual_subentry/REPORT.md) | 17 | 17.6 KiB | 2 | STRUCTURED_YOLO |
 | GDT843 | GDT843_source_intake_result | `PROVENANCE_INTAKE_ONLY_NO_AUTHORIAL_EDGE` | [report](../experiments/yolo/gdt843_star_caption_provenance_intake/REPORT.md) | 19 | 43.0 KiB | 3 | STRUCTURED_YOLO |
 | GDT842 | GDT842_outer_star_result | `VISUAL_RING_EXTENSION_PASS` | [report](../experiments/yolo/gdt842_star_outer_ring_extension/REPORT.md) | 16 | 22.6 KiB | 1 | STRUCTURED_YOLO |
