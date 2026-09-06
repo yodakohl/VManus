@@ -12,8 +12,9 @@ GDT865 whole-leaf correction retains both primary thresholds: nuisance macroAUC
 L .611534→.616364(10/13>.5),DY .753049→.750323(11/13>.5).
 1777oldpredictions/features exactparity;963capacityPASS;108unaffected exact.
 Independent four-deck refitPASS. Local addedgain shrinks to .001067L/.013356DY.
-Retrospective primary robustness only; no old fullverdict/null/meaning reuse.
+Retrospective primary robustness only; no old null/verdict/meaning reuse.
 865complete; no refit.809face keys unchanged.
+868registered: fixed1777event raw-group fidelity in3readings; full-line parity before mapping; no refit.
 866:f95v2 first-line upperlink seenby2viewers,0interveninggroups; no selective-scope anchor. Stop.
 867complete: root natively viewed shared Yale1006199=f69v+f70r1/f70r2. Orientation only; no count/direction regrade.
 
@@ -56,8 +57,7 @@ Yale1006201: inner4/5agreement,outer9/10,O6disagrees.843:9links,1missing.
 GDT840:only knownofal; do extension stops.839:0shifted-split conserved strings
 among4169pairs.838:0fixed16-group recodings;14eligible on5folios.
 Narrow capacity stops, not general boundary/cipher rejection.
-GDT837:STRICT_RECOVERY_FAIL; wholeword-constraint gain0, wrong suffix,
-score issue already known834. No automatic control-decoder successor.
+GDT837:strict recovery failed;834score issue known. No control-decoder successor.
 
 ## Visual understanding and earlier routes
 
@@ -65,11 +65,9 @@ Six orientations:32renderings/31canvases/33keys.
 Sources: `docs/visual_overview/README.md`.
 f76r offset signs are a known functionally unresolved column; f4r rot is an
 ordinary-alphabet note. No decipherment/admission.95v images stay distinct.
-GDT829 exact repeated-flank route and GDT830 pen-state control stop; do not relax
-or retune them. GDT830 marks64.6757% of a visibly blank patch foreground: observation
-failure, not evidence against pen-state information. GDT831 adds192 clear-point
-labels but fails f81r paper specificity22/24 versus required23/24; independent
-replay passes, scientific control fails. Primary reports via compact lookup.
+829repeated-flank/830pen-state routes closed.830blank foreground64.6757% is
+instrument failure.831paper specificity22/24<23/24; replayPASS isnot scientific
+controlPASS. No relaxation/retuning; primary reports via lookup.
 `docs/internal_parallel_passages/PROPOSAL.md`: GDT838 capacity screen stops; no map.
 `docs/visual_overview/NEXT_STEP.md`: l/m-width rank1 withdrawn; optional, untested.
 

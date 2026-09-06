@@ -1,0 +1,121 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "Complete selector-guarded input projections may exceed 5 MB in ignored runtime. They are required to verify complete source-line parity before mapping targets, are reproducible through fixed guard requests, and are not published. Compact focal source rows and projection hashes/statistics provide the public evidence.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Descriptive source fidelity only; no feature fidelity, model refit, wordhood or meaning",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt868_core13_raw_group_fidelity/src/run.py",
+    "validate": "python3 experiments/yolo/gdt868_core13_raw_group_fidelity/src/validate.py"
+  },
+  "created": "2026-09-06",
+  "dependencies": [
+    "GDT808",
+    "GDT819",
+    "GDT865"
+  ],
+  "experiment_id": "GDT868",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt808_exact_relation_slot_residual_bridge/REPORT.md",
+      "role": "frozen_source_or_extractor",
+      "sha256": "7dcf23794cf134702ebea986eb8210c9ed59d517f8f432392c7b4157f9ab5e4c"
+    },
+    {
+      "path": "experiments/yolo/gdt808_exact_relation_slot_residual_bridge/src/run.py",
+      "role": "frozen_source_or_extractor",
+      "sha256": "0c1ed0ffb44ec46a6cceafb57352715d7cbb218a5a99829b2155e8cc94b0ff61"
+    },
+    {
+      "path": "experiments/yolo/gdt819_written_predicate_boundary_review/src/run.py",
+      "role": "frozen_source_or_extractor",
+      "sha256": "e518a340edf025db0958c81ee106d3dc67b5c05d8606b0ef9c75fd07e854b450"
+    },
+    {
+      "path": "experiments/semantic_assumptions/build_source_separator_transcription.py",
+      "role": "frozen_source_or_extractor",
+      "sha256": "dd93f78547a4917334b3bbf3d10e6af075b2ef2d2870e25bcfcdab5cd41aee51"
+    },
+    {
+      "path": "experiments/yolo/gdt865_whole_leaf_primary_robustness/artifacts/EVENT_METADATA.json",
+      "role": "frozen_source_or_extractor",
+      "sha256": "4d5989b0ce8a997e36ffdcdc7846114b3cd55edb9acae65de697ce809f3b7607"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "role": "frozen_source_or_extractor",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt868_core13_raw_group_fidelity/.gitignore",
+      "role": "source_or_artifact",
+      "sha256": "429a7ff8e3befe5ac528bb832881840115d63940883b125526b582eedcdcb7a9"
+    },
+    {
+      "path": "experiments/yolo/gdt868_core13_raw_group_fidelity/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "ec484883cf1f5cfaa2cc0eebe12c0ce3c5e32f2ea1f8725f6bdc9b6d676a320a"
+    },
+    {
+      "path": "experiments/yolo/gdt868_core13_raw_group_fidelity/PREREGISTRATION.md",
+      "role": "source_or_artifact",
+      "sha256": "741739c4960c333fb04aa63dac4fafdb9e518bb1b90257800d890ba47bcfba50"
+    },
+    {
+      "path": "experiments/yolo/gdt868_core13_raw_group_fidelity/README.md",
+      "role": "source_or_artifact",
+      "sha256": "e15c6ee397307bf8ab097a1521cbf3eee33cfdf6b9af102e9f9d66689dba37e0"
+    },
+    {
+      "path": "experiments/yolo/gdt868_core13_raw_group_fidelity/REPORT.md",
+      "role": "primary_report",
+      "sha256": "484b94965ffd1690af0c851b92c7e6084a63401619784cf56fefa04e22161fe7"
+    },
+    {
+      "path": "experiments/yolo/gdt868_core13_raw_group_fidelity/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "bdded140d69b0b2631a4d802f9823596ed26524c8fcf59f31af4dfcf3f7d30c5"
+    },
+    {
+      "path": "experiments/yolo/gdt868_core13_raw_group_fidelity/src/PREREG_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "c4322e5c53ee286a9bb1533c9a6b8cb7125cfd671899158e01c581127b294c80"
+    },
+    {
+      "path": "experiments/yolo/gdt868_core13_raw_group_fidelity/src/SPEC.json",
+      "role": "source_or_artifact",
+      "sha256": "4b695319326aa3ddcf732eacb499ebd6db043c1deff7472e04bc7adf0baac2ed"
+    },
+    {
+      "path": "experiments/yolo/gdt868_core13_raw_group_fidelity/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "f5843db471faa0c8b0c2b6a3f289737b5429df52bc223296acf42684dfd8db11"
+    },
+    {
+      "path": "experiments/yolo/gdt868_core13_raw_group_fidelity/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "cbb1e2c0a14cb0270f407afa5facc0274682cc557328415a55b2ca1c513e6434"
+    },
+    {
+      "path": "experiments/yolo/gdt868_core13_raw_group_fidelity/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "9167ba6dcdadce1300ef14eae9c7e6b65c49cebc23f0be83771edd54df106080"
+    }
+  ],
+  "question": "Do the unchanged1777CORE13event positions map to exact raw whole groups in each reading?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "core13_raw_group_fidelity",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Fixed CORE13 raw source-group fidelity",
+  "updated": "2026-09-06",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

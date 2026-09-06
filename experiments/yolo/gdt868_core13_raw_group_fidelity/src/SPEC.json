@@ -1,0 +1,80 @@
+{
+  "allowlist": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+  "baseline_metadata": "experiments/yolo/gdt865_whole_leaf_primary_robustness/artifacts/EVENT_METADATA.json",
+  "categories": [
+    "EXACT_RAW_WHOLE",
+    "NORMALIZED_WHOLE",
+    "CLEANER_FRAGMENT"
+  ],
+  "claim_ceiling": "Fixed-event transcription fidelity census only; no feature fidelity, native wordhood, glyph identity, model refit, statistical significance or meaning.",
+  "editions": {
+    "IT2a": {
+      "clean": "it2a_clean",
+      "position": "it2a_unique_forced_exact_ordinal"
+    },
+    "RF1b": {
+      "clean": "rf1b_clean",
+      "position": "rf1b_unique_forced_exact_ordinal"
+    },
+    "ZL3b": {
+      "clean": "zl3b_clean",
+      "position": "token_index"
+    }
+  },
+  "expected_events": 1777,
+  "expected_selectors": 179,
+  "experiment_id": "GDT868",
+  "no_refit": true,
+  "sealed_data": [
+    "f84",
+    "f84r"
+  ],
+  "sources": {
+    "ATLAS": {
+      "columns": [
+        "source_group_id",
+        "edition",
+        "page",
+        "locus",
+        "source_group_index",
+        "source_group_count",
+        "left_separator",
+        "right_separator",
+        "ivtff_group_raw",
+        "clean_ascii_fragments",
+        "clean_ascii_fragment_count",
+        "legacy_surface_positions_1based",
+        "legacy_mapping_status"
+      ],
+      "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "selector": "page"
+    },
+    "CROSS": {
+      "columns": [
+        "page",
+        "locus",
+        "zl3b_clean",
+        "it2a_clean",
+        "rf1b_clean"
+      ],
+      "path": "transcription/voynich_cross_transcription_lines.tsv",
+      "selector": "page"
+    },
+    "EVENTS": {
+      "columns": [
+        "event_id",
+        "carrier",
+        "tail",
+        "axis",
+        "surface",
+        "page",
+        "locus",
+        "token_index",
+        "it2a_unique_forced_exact_ordinal",
+        "rf1b_unique_forced_exact_ordinal"
+      ],
+      "path": "experiments/yolo/gdt808_exact_relation_slot_residual_bridge/artifacts/GDT808_1777_CORE_EVENT_ATLAS.tsv",
+      "selector": "page"
+    }
+  }
+}

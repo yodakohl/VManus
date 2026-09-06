@@ -408,3 +408,11 @@ original; added before publication. A follow-up index size refresh is needed
 because that manifest text changed after index rendering. No source or result
 changed. Targeted checks pass; unrelated GDT600/hash and historical TSV debt
 remain. Goal ACTIVE; earliestcompletion13:40:45UTC, not reached.
+
+GDT868 selection10:14:01UTC: GDT808 calls cleaned surfaces raw/complete while
+LCS uses clean token vectors. Known general source-separator correction and
+819local parity audit do not establish fixed1777-event raw fidelity. Register
+allthree readers and require complete focal line parity before any mapped
+category; no model refit. Agent independently authors validator, targetsource
+projections not yet computed. One illustrative865metadata row was printed
+during source navigation, disclosed. Budget through10:35UTC.
