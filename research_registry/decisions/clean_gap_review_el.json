@@ -1,0 +1,1608 @@
+{
+  "schema": "clean_semantic_gap_review_v1",
+  "review_id": "EL",
+  "cards": [
+    {
+      "id": "CLEAN_GAP_EL:chofchdy_gdt767_c0_whole",
+      "claim": "GDT767 retains the complete word chofchdy as the replaceable C0 reading „Blütenmischung im Zwischenzustand“; its inherited complete-word rivals are „gemischte Kräuterzubereitung“ and „Zubereitungsfeld ohne Stoffidentität“. This is an authored historical reader default, not independent identification of flowers, material state or a free ofch component.",
+      "claim_type": "lexical_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:b0a3f0f3751d2b8d8c97"
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "independent_new_idea": false,
+      "scope": {
+        "kind": "historical_complete_word_default",
+        "source_model": "GDT767 retains or narrows GDT766 concrete whole lexicon",
+        "surface": "chofchdy",
+        "portable_prior": "zusammengesetzte Arzneizubereitung im Zwischenzustand",
+        "concrete_default": "Blütenmischung im Zwischenzustand",
+        "identity_confidence": "C0_REPLACEABLE_DEFAULT",
+        "original_local_evidence": "ein exakter medialer T-Kontext enthält Feucht- und Kaltzustände",
+        "original_counterevidence": "nur ein Vorkommen; unmittelbare Nachbarn sind nicht exakt semantisch bestimmt",
+        "primary_rival": "gemischte Kräuterzubereitung",
+        "secondary_rival": "Zubereitungsfeld ohne Stoffidentität",
+        "limits": "No semantic PASS inferred from source scores, donor checks, fixed rendering or analogy. No component export or unseen forms. Nominal defaults do not create imperative actions."
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/src/OFCH_25_FORM_SPECS.tsv",
+          "line": 1,
+          "line_end": 1,
+          "quote": "surface\tfamily_layer\tpredicted_channel\tportable_default_de\tbold_default_de\trole_confidence\tidentity_confidence\tidentity_score_100\tstrongest_evidence\tstrongest_counterevidence\tprimary_rival_de\tsecondary_rival_de\tfamily_analogy_scope\tglobal_component_export",
+          "sha256": "6f6f7845e01de0539d2c61737b88d0f1ff1225c87d2873045383f9671eac8502"
+        },
+        {
+          "path": "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/src/OFCH_25_FORM_SPECS.tsv",
+          "line": 2,
+          "line_end": 2,
+          "quote": "chofchdy\tOUTER_SHELL\tCOMPOUND_PREPARATION\tzusammengesetzte Arzneizubereitung im Zwischenzustand\tBlütenmischung im Zwischenzustand\tC0_CONTEXT_COMPATIBLE\tC0_BOLD_ROOT_PROJECTION\t18\tein exakter medialer T-Kontext enthält Feucht- und Kaltzustände\tnur ein Vorkommen; unmittelbare Nachbarn sind nicht exakt semantisch bestimmt\tgemischte Kräuterzubereitung\tZubereitungsfeld ohne Stoffidentität\t1\t0",
+          "sha256": "6f6f7845e01de0539d2c61737b88d0f1ff1225c87d2873045383f9671eac8502"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/REPORT.md",
+          "line": 134,
+          "line_end": 154,
+          "quote": "Ein exploratives Wörterbuch ist nur dann nützlich, wenn es konkrete, ersetzbare\nLesungen ausgibt. Deshalb werden die bisherigen Blütenwerte nicht durch\n„Material X“ ersetzt. Alle 28 Zielwörter erhalten weiterhin einen konkreten\nDefault, aber ihre Stoffidentität steht ausdrücklich auf\n`C0_REPLACEABLE_DEFAULT`.\n\nDas ist eine bewusste Zweiteilung:\n\n- **portable Ebene:** Drogenkopf, Rohdroge, Trockenmaterial, Zubereitung,\n  Anteil oder Endprodukt;\n- **mutige Leseschicht:** Blütenmasse, Blütenanteil, Blütenzubereitung,\n  Blütenstand und verwandte konkrete Varianten.\n\nDie mutige Schicht bleibt stehen, bis sie widersprochen oder durch eine bessere\nIdentität ersetzt wird. Sie erhält aus GDT767 keinen zusätzlichen\nLexemkredit.\n\nZwei Defaults werden enger statt blumiger: `ofcheol` und `qofcheol` heißen nun\n**Blütenzubereitung**, nicht mehr **Blütenauszug**. Auszug, Öl, Wasser, Wein und\nEssig bleiben sichtbare C0-Rivalen. Beide Wörter besitzen keine unabhängige\nFlüssigkeits- oder Auszugsachse; `qofcheol` besitzt sogar überhaupt kein",
+          "sha256": "ea39b855a34e2a6c560bd5f68794dd4b0e52f9d79c5aeac23579f3f7f900a0d5"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 255,
+          "line_end": 284,
+          "quote": "def target_info() -> dict[str, dict[str, str]]:\n    output: dict[str, dict[str, str]] = {}\n    for row in read_tsv(OFCH_SPECS):\n        output[row[\"surface\"]] = {\n            \"surface\": row[\"surface\"],\n            \"target_family\": \"OFCH_CONTAINING\",\n            \"predicted_channel\": row[\"predicted_channel\"],\n            \"prior_portable_default_de\": row[\"portable_default_de\"],\n            \"prior_bold_default_de\": row[\"bold_default_de\"],\n            \"prior_role_confidence\": row[\"role_confidence\"],\n            \"prior_identity_confidence\": row[\"identity_confidence\"],\n            \"primary_rival_de\": row[\"primary_rival_de\"],\n            \"secondary_rival_de\": row[\"secondary_rival_de\"],\n        }\n    for row in read_tsv(CHOR_SPECS):\n        if row[\"surface\"] == \"pchor\":\n            continue\n        output[row[\"surface\"]] = {\n            \"surface\": row[\"surface\"],\n            \"target_family\": \"CHOR_SCHOR_LCHOR\",\n            \"predicted_channel\": CHOR_CHANNELS[row[\"surface\"]],\n            \"prior_portable_default_de\": row[\"portable_default_de\"],\n            \"prior_bold_default_de\": row[\"bold_default_de\"],\n            \"prior_role_confidence\": row[\"role_confidence\"],\n            \"prior_identity_confidence\": row[\"identity_confidence\"],\n            \"primary_rival_de\": row[\"primary_rival_de\"],\n            \"secondary_rival_de\": row[\"secondary_rival_de\"],\n        }\n    assert len(output) == 28\n    return output",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 483,
+          "line_end": 486,
+          "quote": "def concrete_revision(surface: str, prior: str) -> tuple[str, str]:\n    if surface in {\"ofcheol\", \"qofcheol\"}:\n        return \"Blütenzubereitung\", \"Auszug, Oel, Wasser, Wein oder Essig bleiben C0-Rivalen\"\n    return prior, \"legacy concrete default retained until contradicted or replaced\"",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 527,
+          "line_end": 532,
+          "quote": "        target = info[surface]\n        stats = matrix_by_surface[surface]\n        revised, disposition = concrete_revision(surface, str(target[\"prior_bold_default_de\"]))\n        form_level = int(form[\"evidence_level_0_4\"])\n        form_confidence = (\n            \"C2_REPEATED_TARGET_FREE_FORM_GATE\" if form_level >= 4 else",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 560,
+          "line_end": 568,
+          "quote": "            \"portable_working_class_de\": portable,\n            \"forced_concrete_default_de\": revised,\n            \"forced_concrete_identity_confidence\": \"C0_REPLACEABLE_DEFAULT\",\n            \"form_confidence\": form_confidence,\n            \"prior_concrete_default_de\": target[\"prior_bold_default_de\"],\n            \"gdt767_default_disposition\": disposition,\n            \"primary_rival_de\": target[\"primary_rival_de\"],\n            \"secondary_rival_de\": target[\"secondary_rival_de\"],\n            \"dry_d1_r3_line\": stats[\"dry_d1_r3_line\"],",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        }
+      ],
+      "comparison": {
+        "counterpart_ids": [],
+        "reason": "Read the complete authored lexicon row including portable class, concrete default, local evidence/counterevidence and both rivals. Exact whole-form navigation over current active complete claims found no counterpart; EJ/EF do not assert this whole value. Recovery is bounded, not a global proof of novelty.",
+        "global_identity": "not_established_by_lexical_navigation"
+      }
+    },
+    {
+      "id": "CLEAN_GAP_EL:chofchol_gdt767_c0_whole",
+      "claim": "GDT767 retains the complete word chofchol as the replaceable C0 reading „getrocknete Blütenmischung“; its inherited complete-word rivals are „getrocknete Kräutermischung“ and „Trockenmaterial ohne Stoffidentität“. This is an authored historical reader default, not independent identification of flowers, material state or a free ofch component.",
+      "claim_type": "lexical_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:b0a3f0f3751d2b8d8c97"
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "independent_new_idea": false,
+      "scope": {
+        "kind": "historical_complete_word_default",
+        "source_model": "GDT767 retains or narrows GDT766 concrete whole lexicon",
+        "surface": "chofchol",
+        "portable_prior": "getrocknete zusammengesetzte Arzneidroge",
+        "concrete_default": "getrocknete Blütenmischung",
+        "identity_confidence": "C0_REPLACEABLE_DEFAULT",
+        "original_local_evidence": "ein exakter Kontext steht in einem Trocken-/Feucht- und Materialrahmen",
+        "original_counterevidence": "nur ein Vorkommen; kein direkt lizenzierter Zustand am Ziel",
+        "primary_rival": "getrocknete Kräutermischung",
+        "secondary_rival": "Trockenmaterial ohne Stoffidentität",
+        "limits": "No semantic PASS inferred from source scores, donor checks, fixed rendering or analogy. No component export or unseen forms. Nominal defaults do not create imperative actions."
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/src/OFCH_25_FORM_SPECS.tsv",
+          "line": 1,
+          "line_end": 1,
+          "quote": "surface\tfamily_layer\tpredicted_channel\tportable_default_de\tbold_default_de\trole_confidence\tidentity_confidence\tidentity_score_100\tstrongest_evidence\tstrongest_counterevidence\tprimary_rival_de\tsecondary_rival_de\tfamily_analogy_scope\tglobal_component_export",
+          "sha256": "6f6f7845e01de0539d2c61737b88d0f1ff1225c87d2873045383f9671eac8502"
+        },
+        {
+          "path": "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/src/OFCH_25_FORM_SPECS.tsv",
+          "line": 3,
+          "line_end": 3,
+          "quote": "chofchol\tOUTER_SHELL\tDRY_RESULT\tgetrocknete zusammengesetzte Arzneidroge\tgetrocknete Blütenmischung\tC0_CONTEXT_COMPATIBLE\tC0_BOLD_ROOT_PROJECTION\t22\tein exakter Kontext steht in einem Trocken-/Feucht- und Materialrahmen\tnur ein Vorkommen; kein direkt lizenzierter Zustand am Ziel\tgetrocknete Kräutermischung\tTrockenmaterial ohne Stoffidentität\t1\t0",
+          "sha256": "6f6f7845e01de0539d2c61737b88d0f1ff1225c87d2873045383f9671eac8502"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/REPORT.md",
+          "line": 134,
+          "line_end": 154,
+          "quote": "Ein exploratives Wörterbuch ist nur dann nützlich, wenn es konkrete, ersetzbare\nLesungen ausgibt. Deshalb werden die bisherigen Blütenwerte nicht durch\n„Material X“ ersetzt. Alle 28 Zielwörter erhalten weiterhin einen konkreten\nDefault, aber ihre Stoffidentität steht ausdrücklich auf\n`C0_REPLACEABLE_DEFAULT`.\n\nDas ist eine bewusste Zweiteilung:\n\n- **portable Ebene:** Drogenkopf, Rohdroge, Trockenmaterial, Zubereitung,\n  Anteil oder Endprodukt;\n- **mutige Leseschicht:** Blütenmasse, Blütenanteil, Blütenzubereitung,\n  Blütenstand und verwandte konkrete Varianten.\n\nDie mutige Schicht bleibt stehen, bis sie widersprochen oder durch eine bessere\nIdentität ersetzt wird. Sie erhält aus GDT767 keinen zusätzlichen\nLexemkredit.\n\nZwei Defaults werden enger statt blumiger: `ofcheol` und `qofcheol` heißen nun\n**Blütenzubereitung**, nicht mehr **Blütenauszug**. Auszug, Öl, Wasser, Wein und\nEssig bleiben sichtbare C0-Rivalen. Beide Wörter besitzen keine unabhängige\nFlüssigkeits- oder Auszugsachse; `qofcheol` besitzt sogar überhaupt kein",
+          "sha256": "ea39b855a34e2a6c560bd5f68794dd4b0e52f9d79c5aeac23579f3f7f900a0d5"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 255,
+          "line_end": 284,
+          "quote": "def target_info() -> dict[str, dict[str, str]]:\n    output: dict[str, dict[str, str]] = {}\n    for row in read_tsv(OFCH_SPECS):\n        output[row[\"surface\"]] = {\n            \"surface\": row[\"surface\"],\n            \"target_family\": \"OFCH_CONTAINING\",\n            \"predicted_channel\": row[\"predicted_channel\"],\n            \"prior_portable_default_de\": row[\"portable_default_de\"],\n            \"prior_bold_default_de\": row[\"bold_default_de\"],\n            \"prior_role_confidence\": row[\"role_confidence\"],\n            \"prior_identity_confidence\": row[\"identity_confidence\"],\n            \"primary_rival_de\": row[\"primary_rival_de\"],\n            \"secondary_rival_de\": row[\"secondary_rival_de\"],\n        }\n    for row in read_tsv(CHOR_SPECS):\n        if row[\"surface\"] == \"pchor\":\n            continue\n        output[row[\"surface\"]] = {\n            \"surface\": row[\"surface\"],\n            \"target_family\": \"CHOR_SCHOR_LCHOR\",\n            \"predicted_channel\": CHOR_CHANNELS[row[\"surface\"]],\n            \"prior_portable_default_de\": row[\"portable_default_de\"],\n            \"prior_bold_default_de\": row[\"bold_default_de\"],\n            \"prior_role_confidence\": row[\"role_confidence\"],\n            \"prior_identity_confidence\": row[\"identity_confidence\"],\n            \"primary_rival_de\": row[\"primary_rival_de\"],\n            \"secondary_rival_de\": row[\"secondary_rival_de\"],\n        }\n    assert len(output) == 28\n    return output",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 483,
+          "line_end": 486,
+          "quote": "def concrete_revision(surface: str, prior: str) -> tuple[str, str]:\n    if surface in {\"ofcheol\", \"qofcheol\"}:\n        return \"Blütenzubereitung\", \"Auszug, Oel, Wasser, Wein oder Essig bleiben C0-Rivalen\"\n    return prior, \"legacy concrete default retained until contradicted or replaced\"",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 527,
+          "line_end": 532,
+          "quote": "        target = info[surface]\n        stats = matrix_by_surface[surface]\n        revised, disposition = concrete_revision(surface, str(target[\"prior_bold_default_de\"]))\n        form_level = int(form[\"evidence_level_0_4\"])\n        form_confidence = (\n            \"C2_REPEATED_TARGET_FREE_FORM_GATE\" if form_level >= 4 else",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 560,
+          "line_end": 568,
+          "quote": "            \"portable_working_class_de\": portable,\n            \"forced_concrete_default_de\": revised,\n            \"forced_concrete_identity_confidence\": \"C0_REPLACEABLE_DEFAULT\",\n            \"form_confidence\": form_confidence,\n            \"prior_concrete_default_de\": target[\"prior_bold_default_de\"],\n            \"gdt767_default_disposition\": disposition,\n            \"primary_rival_de\": target[\"primary_rival_de\"],\n            \"secondary_rival_de\": target[\"secondary_rival_de\"],\n            \"dry_d1_r3_line\": stats[\"dry_d1_r3_line\"],",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        }
+      ],
+      "comparison": {
+        "counterpart_ids": [],
+        "reason": "Read the complete authored lexicon row including portable class, concrete default, local evidence/counterevidence and both rivals. Exact whole-form navigation over current active complete claims found no counterpart; EJ/EF do not assert this whole value. Recovery is bounded, not a global proof of novelty.",
+        "global_identity": "not_established_by_lexical_navigation"
+      }
+    },
+    {
+      "id": "CLEAN_GAP_EL:chofchy_gdt767_c0_whole",
+      "claim": "GDT767 retains the complete word chofchy as the replaceable C0 reading „Blütenmischung“; its inherited complete-word rivals are „Kräutermischung“ and „Zubereitung ohne Stoffidentität“. This is an authored historical reader default, not independent identification of flowers, material state or a free ofch component.",
+      "claim_type": "lexical_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:b0a3f0f3751d2b8d8c97"
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "independent_new_idea": false,
+      "scope": {
+        "kind": "historical_complete_word_default",
+        "source_model": "GDT767 retains or narrows GDT766 concrete whole lexicon",
+        "surface": "chofchy",
+        "portable_prior": "zusammengesetzte Arzneizubereitung in Grundform",
+        "concrete_default": "Blütenmischung",
+        "identity_confidence": "C0_REPLACEABLE_DEFAULT",
+        "original_local_evidence": "ein exakter Herbal-Kontext enthält nachfolgend Feucht- und Wertfelder",
+        "original_counterevidence": "nur ein Vorkommen und beide unmittelbaren Nachbarn sind offen",
+        "primary_rival": "Kräutermischung",
+        "secondary_rival": "Zubereitung ohne Stoffidentität",
+        "limits": "No semantic PASS inferred from source scores, donor checks, fixed rendering or analogy. No component export or unseen forms. Nominal defaults do not create imperative actions."
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/src/OFCH_25_FORM_SPECS.tsv",
+          "line": 1,
+          "line_end": 1,
+          "quote": "surface\tfamily_layer\tpredicted_channel\tportable_default_de\tbold_default_de\trole_confidence\tidentity_confidence\tidentity_score_100\tstrongest_evidence\tstrongest_counterevidence\tprimary_rival_de\tsecondary_rival_de\tfamily_analogy_scope\tglobal_component_export",
+          "sha256": "6f6f7845e01de0539d2c61737b88d0f1ff1225c87d2873045383f9671eac8502"
+        },
+        {
+          "path": "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/src/OFCH_25_FORM_SPECS.tsv",
+          "line": 4,
+          "line_end": 4,
+          "quote": "chofchy\tOUTER_SHELL\tCOMPOUND_PREPARATION\tzusammengesetzte Arzneizubereitung in Grundform\tBlütenmischung\tC0_CONTEXT_COMPATIBLE\tC0_BOLD_ROOT_PROJECTION\t20\tein exakter Herbal-Kontext enthält nachfolgend Feucht- und Wertfelder\tnur ein Vorkommen und beide unmittelbaren Nachbarn sind offen\tKräutermischung\tZubereitung ohne Stoffidentität\t1\t0",
+          "sha256": "6f6f7845e01de0539d2c61737b88d0f1ff1225c87d2873045383f9671eac8502"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/REPORT.md",
+          "line": 134,
+          "line_end": 154,
+          "quote": "Ein exploratives Wörterbuch ist nur dann nützlich, wenn es konkrete, ersetzbare\nLesungen ausgibt. Deshalb werden die bisherigen Blütenwerte nicht durch\n„Material X“ ersetzt. Alle 28 Zielwörter erhalten weiterhin einen konkreten\nDefault, aber ihre Stoffidentität steht ausdrücklich auf\n`C0_REPLACEABLE_DEFAULT`.\n\nDas ist eine bewusste Zweiteilung:\n\n- **portable Ebene:** Drogenkopf, Rohdroge, Trockenmaterial, Zubereitung,\n  Anteil oder Endprodukt;\n- **mutige Leseschicht:** Blütenmasse, Blütenanteil, Blütenzubereitung,\n  Blütenstand und verwandte konkrete Varianten.\n\nDie mutige Schicht bleibt stehen, bis sie widersprochen oder durch eine bessere\nIdentität ersetzt wird. Sie erhält aus GDT767 keinen zusätzlichen\nLexemkredit.\n\nZwei Defaults werden enger statt blumiger: `ofcheol` und `qofcheol` heißen nun\n**Blütenzubereitung**, nicht mehr **Blütenauszug**. Auszug, Öl, Wasser, Wein und\nEssig bleiben sichtbare C0-Rivalen. Beide Wörter besitzen keine unabhängige\nFlüssigkeits- oder Auszugsachse; `qofcheol` besitzt sogar überhaupt kein",
+          "sha256": "ea39b855a34e2a6c560bd5f68794dd4b0e52f9d79c5aeac23579f3f7f900a0d5"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 255,
+          "line_end": 284,
+          "quote": "def target_info() -> dict[str, dict[str, str]]:\n    output: dict[str, dict[str, str]] = {}\n    for row in read_tsv(OFCH_SPECS):\n        output[row[\"surface\"]] = {\n            \"surface\": row[\"surface\"],\n            \"target_family\": \"OFCH_CONTAINING\",\n            \"predicted_channel\": row[\"predicted_channel\"],\n            \"prior_portable_default_de\": row[\"portable_default_de\"],\n            \"prior_bold_default_de\": row[\"bold_default_de\"],\n            \"prior_role_confidence\": row[\"role_confidence\"],\n            \"prior_identity_confidence\": row[\"identity_confidence\"],\n            \"primary_rival_de\": row[\"primary_rival_de\"],\n            \"secondary_rival_de\": row[\"secondary_rival_de\"],\n        }\n    for row in read_tsv(CHOR_SPECS):\n        if row[\"surface\"] == \"pchor\":\n            continue\n        output[row[\"surface\"]] = {\n            \"surface\": row[\"surface\"],\n            \"target_family\": \"CHOR_SCHOR_LCHOR\",\n            \"predicted_channel\": CHOR_CHANNELS[row[\"surface\"]],\n            \"prior_portable_default_de\": row[\"portable_default_de\"],\n            \"prior_bold_default_de\": row[\"bold_default_de\"],\n            \"prior_role_confidence\": row[\"role_confidence\"],\n            \"prior_identity_confidence\": row[\"identity_confidence\"],\n            \"primary_rival_de\": row[\"primary_rival_de\"],\n            \"secondary_rival_de\": row[\"secondary_rival_de\"],\n        }\n    assert len(output) == 28\n    return output",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 483,
+          "line_end": 486,
+          "quote": "def concrete_revision(surface: str, prior: str) -> tuple[str, str]:\n    if surface in {\"ofcheol\", \"qofcheol\"}:\n        return \"Blütenzubereitung\", \"Auszug, Oel, Wasser, Wein oder Essig bleiben C0-Rivalen\"\n    return prior, \"legacy concrete default retained until contradicted or replaced\"",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 527,
+          "line_end": 532,
+          "quote": "        target = info[surface]\n        stats = matrix_by_surface[surface]\n        revised, disposition = concrete_revision(surface, str(target[\"prior_bold_default_de\"]))\n        form_level = int(form[\"evidence_level_0_4\"])\n        form_confidence = (\n            \"C2_REPEATED_TARGET_FREE_FORM_GATE\" if form_level >= 4 else",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 560,
+          "line_end": 568,
+          "quote": "            \"portable_working_class_de\": portable,\n            \"forced_concrete_default_de\": revised,\n            \"forced_concrete_identity_confidence\": \"C0_REPLACEABLE_DEFAULT\",\n            \"form_confidence\": form_confidence,\n            \"prior_concrete_default_de\": target[\"prior_bold_default_de\"],\n            \"gdt767_default_disposition\": disposition,\n            \"primary_rival_de\": target[\"primary_rival_de\"],\n            \"secondary_rival_de\": target[\"secondary_rival_de\"],\n            \"dry_d1_r3_line\": stats[\"dry_d1_r3_line\"],",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        }
+      ],
+      "comparison": {
+        "counterpart_ids": [],
+        "reason": "Read the complete authored lexicon row including portable class, concrete default, local evidence/counterevidence and both rivals. Exact whole-form navigation over current active complete claims found no counterpart; EJ/EF do not assert this whole value. Recovery is bounded, not a global proof of novelty.",
+        "global_identity": "not_established_by_lexical_navigation"
+      }
+    },
+    {
+      "id": "CLEAN_GAP_EL:ofcheds_gdt767_c0_whole",
+      "claim": "GDT767 retains the complete word ofcheds as the replaceable C0 reading „fertige Blütenzubereitung“; its inherited complete-word rivals are „abgeschlossene Blütendroge“ and „fertige Zubereitung ohne Stoffidentität“. This is an authored historical reader default, not independent identification of flowers, material state or a free ofch component.",
+      "claim_type": "lexical_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:b0a3f0f3751d2b8d8c97"
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "independent_new_idea": false,
+      "scope": {
+        "kind": "historical_complete_word_default",
+        "source_model": "GDT767 retains or narrows GDT766 concrete whole lexicon",
+        "surface": "ofcheds",
+        "portable_prior": "fertige benannte Arzneizubereitung",
+        "concrete_default": "fertige Blütenzubereitung",
+        "identity_confidence": "C0_REPLACEABLE_DEFAULT",
+        "original_local_evidence": "die einzige exakte Stelle ist zeilenfinal nach heiß-trockenem, feuchtem und kaltem Zustandsblock",
+        "original_counterevidence": "Singleton; Zeilenende allein identifiziert kein Ergebnis",
+        "primary_rival": "abgeschlossene Blütendroge",
+        "secondary_rival": "fertige Zubereitung ohne Stoffidentität",
+        "limits": "No semantic PASS inferred from source scores, donor checks, fixed rendering or analogy. No component export or unseen forms. Nominal defaults do not create imperative actions."
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/src/OFCH_25_FORM_SPECS.tsv",
+          "line": 1,
+          "line_end": 1,
+          "quote": "surface\tfamily_layer\tpredicted_channel\tportable_default_de\tbold_default_de\trole_confidence\tidentity_confidence\tidentity_score_100\tstrongest_evidence\tstrongest_counterevidence\tprimary_rival_de\tsecondary_rival_de\tfamily_analogy_scope\tglobal_component_export",
+          "sha256": "6f6f7845e01de0539d2c61737b88d0f1ff1225c87d2873045383f9671eac8502"
+        },
+        {
+          "path": "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/src/OFCH_25_FORM_SPECS.tsv",
+          "line": 7,
+          "line_end": 7,
+          "quote": "ofcheds\tBASE_PREFIX\tTERMINAL_RESULT\tfertige benannte Arzneizubereitung\tfertige Blütenzubereitung\tC0_SINGLETON_TERMINAL\tC0_BOLD_ROOT_PROJECTION\t23\tdie einzige exakte Stelle ist zeilenfinal nach heiß-trockenem, feuchtem und kaltem Zustandsblock\tSingleton; Zeilenende allein identifiziert kein Ergebnis\tabgeschlossene Blütendroge\tfertige Zubereitung ohne Stoffidentität\t1\t0",
+          "sha256": "6f6f7845e01de0539d2c61737b88d0f1ff1225c87d2873045383f9671eac8502"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/REPORT.md",
+          "line": 134,
+          "line_end": 154,
+          "quote": "Ein exploratives Wörterbuch ist nur dann nützlich, wenn es konkrete, ersetzbare\nLesungen ausgibt. Deshalb werden die bisherigen Blütenwerte nicht durch\n„Material X“ ersetzt. Alle 28 Zielwörter erhalten weiterhin einen konkreten\nDefault, aber ihre Stoffidentität steht ausdrücklich auf\n`C0_REPLACEABLE_DEFAULT`.\n\nDas ist eine bewusste Zweiteilung:\n\n- **portable Ebene:** Drogenkopf, Rohdroge, Trockenmaterial, Zubereitung,\n  Anteil oder Endprodukt;\n- **mutige Leseschicht:** Blütenmasse, Blütenanteil, Blütenzubereitung,\n  Blütenstand und verwandte konkrete Varianten.\n\nDie mutige Schicht bleibt stehen, bis sie widersprochen oder durch eine bessere\nIdentität ersetzt wird. Sie erhält aus GDT767 keinen zusätzlichen\nLexemkredit.\n\nZwei Defaults werden enger statt blumiger: `ofcheol` und `qofcheol` heißen nun\n**Blütenzubereitung**, nicht mehr **Blütenauszug**. Auszug, Öl, Wasser, Wein und\nEssig bleiben sichtbare C0-Rivalen. Beide Wörter besitzen keine unabhängige\nFlüssigkeits- oder Auszugsachse; `qofcheol` besitzt sogar überhaupt kein",
+          "sha256": "ea39b855a34e2a6c560bd5f68794dd4b0e52f9d79c5aeac23579f3f7f900a0d5"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 255,
+          "line_end": 284,
+          "quote": "def target_info() -> dict[str, dict[str, str]]:\n    output: dict[str, dict[str, str]] = {}\n    for row in read_tsv(OFCH_SPECS):\n        output[row[\"surface\"]] = {\n            \"surface\": row[\"surface\"],\n            \"target_family\": \"OFCH_CONTAINING\",\n            \"predicted_channel\": row[\"predicted_channel\"],\n            \"prior_portable_default_de\": row[\"portable_default_de\"],\n            \"prior_bold_default_de\": row[\"bold_default_de\"],\n            \"prior_role_confidence\": row[\"role_confidence\"],\n            \"prior_identity_confidence\": row[\"identity_confidence\"],\n            \"primary_rival_de\": row[\"primary_rival_de\"],\n            \"secondary_rival_de\": row[\"secondary_rival_de\"],\n        }\n    for row in read_tsv(CHOR_SPECS):\n        if row[\"surface\"] == \"pchor\":\n            continue\n        output[row[\"surface\"]] = {\n            \"surface\": row[\"surface\"],\n            \"target_family\": \"CHOR_SCHOR_LCHOR\",\n            \"predicted_channel\": CHOR_CHANNELS[row[\"surface\"]],\n            \"prior_portable_default_de\": row[\"portable_default_de\"],\n            \"prior_bold_default_de\": row[\"bold_default_de\"],\n            \"prior_role_confidence\": row[\"role_confidence\"],\n            \"prior_identity_confidence\": row[\"identity_confidence\"],\n            \"primary_rival_de\": row[\"primary_rival_de\"],\n            \"secondary_rival_de\": row[\"secondary_rival_de\"],\n        }\n    assert len(output) == 28\n    return output",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 483,
+          "line_end": 486,
+          "quote": "def concrete_revision(surface: str, prior: str) -> tuple[str, str]:\n    if surface in {\"ofcheol\", \"qofcheol\"}:\n        return \"Blütenzubereitung\", \"Auszug, Oel, Wasser, Wein oder Essig bleiben C0-Rivalen\"\n    return prior, \"legacy concrete default retained until contradicted or replaced\"",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 527,
+          "line_end": 532,
+          "quote": "        target = info[surface]\n        stats = matrix_by_surface[surface]\n        revised, disposition = concrete_revision(surface, str(target[\"prior_bold_default_de\"]))\n        form_level = int(form[\"evidence_level_0_4\"])\n        form_confidence = (\n            \"C2_REPEATED_TARGET_FREE_FORM_GATE\" if form_level >= 4 else",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 560,
+          "line_end": 568,
+          "quote": "            \"portable_working_class_de\": portable,\n            \"forced_concrete_default_de\": revised,\n            \"forced_concrete_identity_confidence\": \"C0_REPLACEABLE_DEFAULT\",\n            \"form_confidence\": form_confidence,\n            \"prior_concrete_default_de\": target[\"prior_bold_default_de\"],\n            \"gdt767_default_disposition\": disposition,\n            \"primary_rival_de\": target[\"primary_rival_de\"],\n            \"secondary_rival_de\": target[\"secondary_rival_de\"],\n            \"dry_d1_r3_line\": stats[\"dry_d1_r3_line\"],",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        }
+      ],
+      "comparison": {
+        "counterpart_ids": [],
+        "reason": "Read the complete authored lexicon row including portable class, concrete default, local evidence/counterevidence and both rivals. Exact whole-form navigation over current active complete claims found no counterpart; EJ/EF do not assert this whole value. Recovery is bounded, not a global proof of novelty.",
+        "global_identity": "not_established_by_lexical_navigation"
+      }
+    },
+    {
+      "id": "CLEAN_GAP_EL:ofchedy_gdt767_c0_whole",
+      "claim": "GDT767 retains whole ofchedy as „vollständig getrocknete Blütenmasse“, with „vollständig getrocknete Fruchtmasse“ and „vollständig getrocknete sonstige Droge“ as whole-word rivals. Its flower identity is C0_REPLACEABLE_DEFAULT despite the inherited GDT766 whole-anchor label. GDT723 had separated portable Blütenmaterial; vollständig getrocknet from local fertig getrocknete Blütenmasse; this later concrete reader choice is not a confirmed material identity.",
+      "claim_type": "lexical_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:b0a3f0f3751d2b8d8c97"
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "independent_new_idea": false,
+      "scope": {
+        "kind": "historical_complete_word_default",
+        "source_model": "GDT767 retains or narrows GDT766 concrete whole lexicon",
+        "surface": "ofchedy",
+        "portable_prior": "vollständig getrocknetes benanntes Drogenmaterial",
+        "concrete_default": "vollständig getrocknete Blütenmasse",
+        "identity_confidence": "C0_REPLACEABLE_DEFAULT",
+        "original_local_evidence": "fünf exakte Stellen liegen in dichten Trocken-, Wärme- und Ergebnisfeldern; GDT723 bewahrt einen gebundenen Ganzwortwert",
+        "original_counterevidence": "der Blütenanteil der älteren Karte ist nicht unabhängig vom früheren semantischen Modell",
+        "primary_rival": "vollständig getrocknete Fruchtmasse",
+        "secondary_rival": "vollständig getrocknete sonstige Droge",
+        "limits": "No semantic PASS inferred from source scores, donor checks, fixed rendering or analogy. No component export or unseen forms. Nominal defaults do not create imperative actions."
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/src/OFCH_25_FORM_SPECS.tsv",
+          "line": 1,
+          "line_end": 1,
+          "quote": "surface\tfamily_layer\tpredicted_channel\tportable_default_de\tbold_default_de\trole_confidence\tidentity_confidence\tidentity_score_100\tstrongest_evidence\tstrongest_counterevidence\tprimary_rival_de\tsecondary_rival_de\tfamily_analogy_scope\tglobal_component_export",
+          "sha256": "6f6f7845e01de0539d2c61737b88d0f1ff1225c87d2873045383f9671eac8502"
+        },
+        {
+          "path": "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/src/OFCH_25_FORM_SPECS.tsv",
+          "line": 8,
+          "line_end": 8,
+          "quote": "ofchedy\tBASE_PREFIX\tDRY_RESULT\tvollständig getrocknetes benanntes Drogenmaterial\tvollständig getrocknete Blütenmasse\tC2_FIVE_CONTEXTS_AND_PRIOR_WHOLE\tC1_LEGACY_WHOLE_ANCHOR\t42\tfünf exakte Stellen liegen in dichten Trocken-, Wärme- und Ergebnisfeldern; GDT723 bewahrt einen gebundenen Ganzwortwert\tder Blütenanteil der älteren Karte ist nicht unabhängig vom früheren semantischen Modell\tvollständig getrocknete Fruchtmasse\tvollständig getrocknete sonstige Droge\t1\t0",
+          "sha256": "6f6f7845e01de0539d2c61737b88d0f1ff1225c87d2873045383f9671eac8502"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/REPORT.md",
+          "line": 134,
+          "line_end": 154,
+          "quote": "Ein exploratives Wörterbuch ist nur dann nützlich, wenn es konkrete, ersetzbare\nLesungen ausgibt. Deshalb werden die bisherigen Blütenwerte nicht durch\n„Material X“ ersetzt. Alle 28 Zielwörter erhalten weiterhin einen konkreten\nDefault, aber ihre Stoffidentität steht ausdrücklich auf\n`C0_REPLACEABLE_DEFAULT`.\n\nDas ist eine bewusste Zweiteilung:\n\n- **portable Ebene:** Drogenkopf, Rohdroge, Trockenmaterial, Zubereitung,\n  Anteil oder Endprodukt;\n- **mutige Leseschicht:** Blütenmasse, Blütenanteil, Blütenzubereitung,\n  Blütenstand und verwandte konkrete Varianten.\n\nDie mutige Schicht bleibt stehen, bis sie widersprochen oder durch eine bessere\nIdentität ersetzt wird. Sie erhält aus GDT767 keinen zusätzlichen\nLexemkredit.\n\nZwei Defaults werden enger statt blumiger: `ofcheol` und `qofcheol` heißen nun\n**Blütenzubereitung**, nicht mehr **Blütenauszug**. Auszug, Öl, Wasser, Wein und\nEssig bleiben sichtbare C0-Rivalen. Beide Wörter besitzen keine unabhängige\nFlüssigkeits- oder Auszugsachse; `qofcheol` besitzt sogar überhaupt kein",
+          "sha256": "ea39b855a34e2a6c560bd5f68794dd4b0e52f9d79c5aeac23579f3f7f900a0d5"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 255,
+          "line_end": 284,
+          "quote": "def target_info() -> dict[str, dict[str, str]]:\n    output: dict[str, dict[str, str]] = {}\n    for row in read_tsv(OFCH_SPECS):\n        output[row[\"surface\"]] = {\n            \"surface\": row[\"surface\"],\n            \"target_family\": \"OFCH_CONTAINING\",\n            \"predicted_channel\": row[\"predicted_channel\"],\n            \"prior_portable_default_de\": row[\"portable_default_de\"],\n            \"prior_bold_default_de\": row[\"bold_default_de\"],\n            \"prior_role_confidence\": row[\"role_confidence\"],\n            \"prior_identity_confidence\": row[\"identity_confidence\"],\n            \"primary_rival_de\": row[\"primary_rival_de\"],\n            \"secondary_rival_de\": row[\"secondary_rival_de\"],\n        }\n    for row in read_tsv(CHOR_SPECS):\n        if row[\"surface\"] == \"pchor\":\n            continue\n        output[row[\"surface\"]] = {\n            \"surface\": row[\"surface\"],\n            \"target_family\": \"CHOR_SCHOR_LCHOR\",\n            \"predicted_channel\": CHOR_CHANNELS[row[\"surface\"]],\n            \"prior_portable_default_de\": row[\"portable_default_de\"],\n            \"prior_bold_default_de\": row[\"bold_default_de\"],\n            \"prior_role_confidence\": row[\"role_confidence\"],\n            \"prior_identity_confidence\": row[\"identity_confidence\"],\n            \"primary_rival_de\": row[\"primary_rival_de\"],\n            \"secondary_rival_de\": row[\"secondary_rival_de\"],\n        }\n    assert len(output) == 28\n    return output",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 483,
+          "line_end": 486,
+          "quote": "def concrete_revision(surface: str, prior: str) -> tuple[str, str]:\n    if surface in {\"ofcheol\", \"qofcheol\"}:\n        return \"Blütenzubereitung\", \"Auszug, Oel, Wasser, Wein oder Essig bleiben C0-Rivalen\"\n    return prior, \"legacy concrete default retained until contradicted or replaced\"",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 527,
+          "line_end": 532,
+          "quote": "        target = info[surface]\n        stats = matrix_by_surface[surface]\n        revised, disposition = concrete_revision(surface, str(target[\"prior_bold_default_de\"]))\n        form_level = int(form[\"evidence_level_0_4\"])\n        form_confidence = (\n            \"C2_REPEATED_TARGET_FREE_FORM_GATE\" if form_level >= 4 else",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 560,
+          "line_end": 568,
+          "quote": "            \"portable_working_class_de\": portable,\n            \"forced_concrete_default_de\": revised,\n            \"forced_concrete_identity_confidence\": \"C0_REPLACEABLE_DEFAULT\",\n            \"form_confidence\": form_confidence,\n            \"prior_concrete_default_de\": target[\"prior_bold_default_de\"],\n            \"gdt767_default_disposition\": disposition,\n            \"primary_rival_de\": target[\"primary_rival_de\"],\n            \"secondary_rival_de\": target[\"secondary_rival_de\"],\n            \"dry_d1_r3_line\": stats[\"dry_d1_r3_line\"],",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt723_v96_twelve_preparation_bound_core_context_repair/REPORT.md",
+          "line": 7,
+          "line_end": 15,
+          "quote": "V96 replaces twelve overloaded dictionary phrases with smaller but still\nconcrete portable meanings. The full practical translation is not discarded:\nit remains beside the core as the exact-position renderer.\n\n| Form | portabler Wörterbuchkern | konkrete Fundstellenausgabe | Score |\n|---|---|---|---:|\n| `adeeody` | gleich großer, abgemessener Fertiganteil | gleich großer abgemessener Teil der fertigen Zubereitung | 30 |\n| `chockhy` | trockene Mischung, Anfangsstufe | trockene Arzneizubereitung am Gradanfang | 30 |\n| `ofchedy` | Blütenmaterial; vollständig getrocknet | fertig getrocknete Blütenmasse | 30 |",
+          "sha256": "dfefc75c5ea7594fd2197a4e7e784f1da104d4c81f0b0dbf02d1c7af93f762d7"
+        },
+        {
+          "path": "experiments/yolo/gdt723_v96_twelve_preparation_bound_core_context_repair/REPORT.md",
+          "line": 74,
+          "line_end": 84,
+          "quote": "\nAll twelve remain W1. The round adds no confidence points merely for cleaner\nwording. It allows all twelve exact surfaces to retain a default, but exports\nzero components and predicts zero new surfaces.\n\n## Complete dictionary and renderer\n\nV96 preserves 312 non-target lexical rows, 467 non-target positions, five\nbound spans, two one-shot directives and eight f7r.2 output units. The active\nedition remains 324 readings and 479 positions with confidence distribution\n7 W0, 135 W1, 163 W2 and 19 W3.",
+          "sha256": "dfefc75c5ea7594fd2197a4e7e784f1da104d4c81f0b0dbf02d1c7af93f762d7"
+        }
+      ],
+      "comparison": {
+        "counterpart_ids": [
+          "SEM:5354d79ebd57dcb451a6"
+        ],
+        "reason": "Entire current card/case is GDT680 ofchedy=fertig getrockneter Blütenansatz, with its direct dictionary row and historical family qualification. GDT723 expressly moves replaceable product wording out of the portable core, and GDT767 keeps mass as a C0 display with fruit/other-drug rivals. Preserve this specific later version and rival contract; do not append as an identical source case or infer non-equivalence merely from Ansatz versus Masse.",
+        "identity_status": "unresolved_full_proposition_equivalence; historical_variant_retained",
+        "current_case_ids": [
+          "CLEAN_COMPONENT:8ce118a598cd8c6c9409"
+        ],
+        "counterpart_evidence": [
+          {
+            "path": "experiments/yolo/gdt680_eight_four_hole_family_completion/REPORT.md",
+            "line": 66,
+            "line_end": 66,
+            "quote": "| `ofchedy` | fertig getrockneter Blütenansatz | 6 |",
+            "sha256": "27d4d039aa70290e78912af44c1676b54dbc355f220845a5899d188fd9b5cef4"
+          },
+          {
+            "path": "experiments/yolo/gdt680_eight_four_hole_family_completion/REPORT.md",
+            "line": 84,
+            "line_end": 89,
+            "quote": "Die praktische Heilkundige korrigierte vier zunächst falsche oder unnötig\nstarke Root-Werte. `ofchedy` bleibt in der bereits belegten `fchedy`-\nBlütenfamilie und ist kein Pulver. RF1b `ar aram` stützt ein Maß der ersten\nFraktion, kein Doppelmaß. `qopaiin` bewahrt den QOP-Entnahmebefehl statt einer\nlokal erfundenen Zugabe. `oidal` bewahrt bekanntes `odal`, die abgemessene\nRohstoffmenge I im Ansatz, statt fälschlich die AIR-Fraktionsleiter zu benutzen.",
+            "sha256": "27d4d039aa70290e78912af44c1676b54dbc355f220845a5899d188fd9b5cef4"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CLEAN_GAP_EL:ofcheefar_gdt767_c0_whole",
+      "claim": "GDT767 retains the complete word ofcheefar as the replaceable C0 reading „abgemessene Blütendosis“; its inherited complete-word rivals are „dritte Blütenportion“ and „Dosis einer anderen Arzneidroge“. This is an authored historical reader default, not independent identification of flowers, material state or a free ofch component.",
+      "claim_type": "lexical_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:b0a3f0f3751d2b8d8c97"
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "independent_new_idea": false,
+      "scope": {
+        "kind": "historical_complete_word_default",
+        "source_model": "GDT767 retains or narrows GDT766 concrete whole lexicon",
+        "surface": "ofcheefar",
+        "portable_prior": "abgemessene Dosis einer benannten Arzneidroge",
+        "concrete_default": "abgemessene Blütendosis",
+        "identity_confidence": "C0_REPLACEABLE_DEFAULT",
+        "original_local_evidence": "die einzige exakte Stelle ist zeilenfinal direkt nach Menge III",
+        "original_counterevidence": "Singleton; umgekehrte Reihenfolge kann auch einen neuen Posten anzeigen",
+        "primary_rival": "dritte Blütenportion",
+        "secondary_rival": "Dosis einer anderen Arzneidroge",
+        "limits": "No semantic PASS inferred from source scores, donor checks, fixed rendering or analogy. No component export or unseen forms. Nominal defaults do not create imperative actions."
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/src/OFCH_25_FORM_SPECS.tsv",
+          "line": 1,
+          "line_end": 1,
+          "quote": "surface\tfamily_layer\tpredicted_channel\tportable_default_de\tbold_default_de\trole_confidence\tidentity_confidence\tidentity_score_100\tstrongest_evidence\tstrongest_counterevidence\tprimary_rival_de\tsecondary_rival_de\tfamily_analogy_scope\tglobal_component_export",
+          "sha256": "6f6f7845e01de0539d2c61737b88d0f1ff1225c87d2873045383f9671eac8502"
+        },
+        {
+          "path": "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/src/OFCH_25_FORM_SPECS.tsv",
+          "line": 9,
+          "line_end": 9,
+          "quote": "ofcheefar\tBASE_PREFIX\tPART_AMOUNT\tabgemessene Dosis einer benannten Arzneidroge\tabgemessene Blütendosis\tC0_SINGLETON_AMOUNT\tC0_BOLD_ROOT_PROJECTION\t18\tdie einzige exakte Stelle ist zeilenfinal direkt nach Menge III\tSingleton; umgekehrte Reihenfolge kann auch einen neuen Posten anzeigen\tdritte Blütenportion\tDosis einer anderen Arzneidroge\t1\t0",
+          "sha256": "6f6f7845e01de0539d2c61737b88d0f1ff1225c87d2873045383f9671eac8502"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/REPORT.md",
+          "line": 134,
+          "line_end": 154,
+          "quote": "Ein exploratives Wörterbuch ist nur dann nützlich, wenn es konkrete, ersetzbare\nLesungen ausgibt. Deshalb werden die bisherigen Blütenwerte nicht durch\n„Material X“ ersetzt. Alle 28 Zielwörter erhalten weiterhin einen konkreten\nDefault, aber ihre Stoffidentität steht ausdrücklich auf\n`C0_REPLACEABLE_DEFAULT`.\n\nDas ist eine bewusste Zweiteilung:\n\n- **portable Ebene:** Drogenkopf, Rohdroge, Trockenmaterial, Zubereitung,\n  Anteil oder Endprodukt;\n- **mutige Leseschicht:** Blütenmasse, Blütenanteil, Blütenzubereitung,\n  Blütenstand und verwandte konkrete Varianten.\n\nDie mutige Schicht bleibt stehen, bis sie widersprochen oder durch eine bessere\nIdentität ersetzt wird. Sie erhält aus GDT767 keinen zusätzlichen\nLexemkredit.\n\nZwei Defaults werden enger statt blumiger: `ofcheol` und `qofcheol` heißen nun\n**Blütenzubereitung**, nicht mehr **Blütenauszug**. Auszug, Öl, Wasser, Wein und\nEssig bleiben sichtbare C0-Rivalen. Beide Wörter besitzen keine unabhängige\nFlüssigkeits- oder Auszugsachse; `qofcheol` besitzt sogar überhaupt kein",
+          "sha256": "ea39b855a34e2a6c560bd5f68794dd4b0e52f9d79c5aeac23579f3f7f900a0d5"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 255,
+          "line_end": 284,
+          "quote": "def target_info() -> dict[str, dict[str, str]]:\n    output: dict[str, dict[str, str]] = {}\n    for row in read_tsv(OFCH_SPECS):\n        output[row[\"surface\"]] = {\n            \"surface\": row[\"surface\"],\n            \"target_family\": \"OFCH_CONTAINING\",\n            \"predicted_channel\": row[\"predicted_channel\"],\n            \"prior_portable_default_de\": row[\"portable_default_de\"],\n            \"prior_bold_default_de\": row[\"bold_default_de\"],\n            \"prior_role_confidence\": row[\"role_confidence\"],\n            \"prior_identity_confidence\": row[\"identity_confidence\"],\n            \"primary_rival_de\": row[\"primary_rival_de\"],\n            \"secondary_rival_de\": row[\"secondary_rival_de\"],\n        }\n    for row in read_tsv(CHOR_SPECS):\n        if row[\"surface\"] == \"pchor\":\n            continue\n        output[row[\"surface\"]] = {\n            \"surface\": row[\"surface\"],\n            \"target_family\": \"CHOR_SCHOR_LCHOR\",\n            \"predicted_channel\": CHOR_CHANNELS[row[\"surface\"]],\n            \"prior_portable_default_de\": row[\"portable_default_de\"],\n            \"prior_bold_default_de\": row[\"bold_default_de\"],\n            \"prior_role_confidence\": row[\"role_confidence\"],\n            \"prior_identity_confidence\": row[\"identity_confidence\"],\n            \"primary_rival_de\": row[\"primary_rival_de\"],\n            \"secondary_rival_de\": row[\"secondary_rival_de\"],\n        }\n    assert len(output) == 28\n    return output",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 483,
+          "line_end": 486,
+          "quote": "def concrete_revision(surface: str, prior: str) -> tuple[str, str]:\n    if surface in {\"ofcheol\", \"qofcheol\"}:\n        return \"Blütenzubereitung\", \"Auszug, Oel, Wasser, Wein oder Essig bleiben C0-Rivalen\"\n    return prior, \"legacy concrete default retained until contradicted or replaced\"",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 527,
+          "line_end": 532,
+          "quote": "        target = info[surface]\n        stats = matrix_by_surface[surface]\n        revised, disposition = concrete_revision(surface, str(target[\"prior_bold_default_de\"]))\n        form_level = int(form[\"evidence_level_0_4\"])\n        form_confidence = (\n            \"C2_REPEATED_TARGET_FREE_FORM_GATE\" if form_level >= 4 else",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 560,
+          "line_end": 568,
+          "quote": "            \"portable_working_class_de\": portable,\n            \"forced_concrete_default_de\": revised,\n            \"forced_concrete_identity_confidence\": \"C0_REPLACEABLE_DEFAULT\",\n            \"form_confidence\": form_confidence,\n            \"prior_concrete_default_de\": target[\"prior_bold_default_de\"],\n            \"gdt767_default_disposition\": disposition,\n            \"primary_rival_de\": target[\"primary_rival_de\"],\n            \"secondary_rival_de\": target[\"secondary_rival_de\"],\n            \"dry_d1_r3_line\": stats[\"dry_d1_r3_line\"],",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        }
+      ],
+      "comparison": {
+        "counterpart_ids": [],
+        "reason": "Read the complete authored lexicon row including portable class, concrete default, local evidence/counterevidence and both rivals. Exact whole-form navigation over current active complete claims found no counterpart; EJ/EF do not assert this whole value. Recovery is bounded, not a global proof of novelty.",
+        "global_identity": "not_established_by_lexical_navigation"
+      }
+    },
+    {
+      "id": "CLEAN_GAP_EL:ofchol_gdt767_c0_whole",
+      "claim": "GDT767 retains the complete word ofchol as the replaceable C0 reading „getrocknete Blütendroge“; its inherited complete-word rivals are „Blütendroge zweiten Grades“ and „getrocknete sonstige Droge“. This is an authored historical reader default, not independent identification of flowers, material state or a free ofch component.",
+      "claim_type": "lexical_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:b0a3f0f3751d2b8d8c97"
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "independent_new_idea": false,
+      "scope": {
+        "kind": "historical_complete_word_default",
+        "source_model": "GDT767 retains or narrows GDT766 concrete whole lexicon",
+        "surface": "ofchol",
+        "portable_prior": "getrocknete benannte Arzneidroge",
+        "concrete_default": "getrocknete Blütendroge",
+        "identity_confidence": "C0_REPLACEABLE_DEFAULT",
+        "original_local_evidence": "die exakte Herbal-Stelle folgt einem heißen Endfeld und trägt direkt Wert II",
+        "original_counterevidence": "Singleton; der Trockenwert wäre eine familieninterne Projektion",
+        "primary_rival": "Blütendroge zweiten Grades",
+        "secondary_rival": "getrocknete sonstige Droge",
+        "limits": "No semantic PASS inferred from source scores, donor checks, fixed rendering or analogy. No component export or unseen forms. Nominal defaults do not create imperative actions."
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/src/OFCH_25_FORM_SPECS.tsv",
+          "line": 1,
+          "line_end": 1,
+          "quote": "surface\tfamily_layer\tpredicted_channel\tportable_default_de\tbold_default_de\trole_confidence\tidentity_confidence\tidentity_score_100\tstrongest_evidence\tstrongest_counterevidence\tprimary_rival_de\tsecondary_rival_de\tfamily_analogy_scope\tglobal_component_export",
+          "sha256": "6f6f7845e01de0539d2c61737b88d0f1ff1225c87d2873045383f9671eac8502"
+        },
+        {
+          "path": "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/src/OFCH_25_FORM_SPECS.tsv",
+          "line": 12,
+          "line_end": 12,
+          "quote": "ofchol\tBASE_PREFIX\tDRY_RESULT\tgetrocknete benannte Arzneidroge\tgetrocknete Blütendroge\tC0_SINGLETON_VALUE\tC0_BOLD_ROOT_PROJECTION\t28\tdie exakte Herbal-Stelle folgt einem heißen Endfeld und trägt direkt Wert II\tSingleton; der Trockenwert wäre eine familieninterne Projektion\tBlütendroge zweiten Grades\tgetrocknete sonstige Droge\t1\t0",
+          "sha256": "6f6f7845e01de0539d2c61737b88d0f1ff1225c87d2873045383f9671eac8502"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/REPORT.md",
+          "line": 134,
+          "line_end": 154,
+          "quote": "Ein exploratives Wörterbuch ist nur dann nützlich, wenn es konkrete, ersetzbare\nLesungen ausgibt. Deshalb werden die bisherigen Blütenwerte nicht durch\n„Material X“ ersetzt. Alle 28 Zielwörter erhalten weiterhin einen konkreten\nDefault, aber ihre Stoffidentität steht ausdrücklich auf\n`C0_REPLACEABLE_DEFAULT`.\n\nDas ist eine bewusste Zweiteilung:\n\n- **portable Ebene:** Drogenkopf, Rohdroge, Trockenmaterial, Zubereitung,\n  Anteil oder Endprodukt;\n- **mutige Leseschicht:** Blütenmasse, Blütenanteil, Blütenzubereitung,\n  Blütenstand und verwandte konkrete Varianten.\n\nDie mutige Schicht bleibt stehen, bis sie widersprochen oder durch eine bessere\nIdentität ersetzt wird. Sie erhält aus GDT767 keinen zusätzlichen\nLexemkredit.\n\nZwei Defaults werden enger statt blumiger: `ofcheol` und `qofcheol` heißen nun\n**Blütenzubereitung**, nicht mehr **Blütenauszug**. Auszug, Öl, Wasser, Wein und\nEssig bleiben sichtbare C0-Rivalen. Beide Wörter besitzen keine unabhängige\nFlüssigkeits- oder Auszugsachse; `qofcheol` besitzt sogar überhaupt kein",
+          "sha256": "ea39b855a34e2a6c560bd5f68794dd4b0e52f9d79c5aeac23579f3f7f900a0d5"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 255,
+          "line_end": 284,
+          "quote": "def target_info() -> dict[str, dict[str, str]]:\n    output: dict[str, dict[str, str]] = {}\n    for row in read_tsv(OFCH_SPECS):\n        output[row[\"surface\"]] = {\n            \"surface\": row[\"surface\"],\n            \"target_family\": \"OFCH_CONTAINING\",\n            \"predicted_channel\": row[\"predicted_channel\"],\n            \"prior_portable_default_de\": row[\"portable_default_de\"],\n            \"prior_bold_default_de\": row[\"bold_default_de\"],\n            \"prior_role_confidence\": row[\"role_confidence\"],\n            \"prior_identity_confidence\": row[\"identity_confidence\"],\n            \"primary_rival_de\": row[\"primary_rival_de\"],\n            \"secondary_rival_de\": row[\"secondary_rival_de\"],\n        }\n    for row in read_tsv(CHOR_SPECS):\n        if row[\"surface\"] == \"pchor\":\n            continue\n        output[row[\"surface\"]] = {\n            \"surface\": row[\"surface\"],\n            \"target_family\": \"CHOR_SCHOR_LCHOR\",\n            \"predicted_channel\": CHOR_CHANNELS[row[\"surface\"]],\n            \"prior_portable_default_de\": row[\"portable_default_de\"],\n            \"prior_bold_default_de\": row[\"bold_default_de\"],\n            \"prior_role_confidence\": row[\"role_confidence\"],\n            \"prior_identity_confidence\": row[\"identity_confidence\"],\n            \"primary_rival_de\": row[\"primary_rival_de\"],\n            \"secondary_rival_de\": row[\"secondary_rival_de\"],\n        }\n    assert len(output) == 28\n    return output",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 483,
+          "line_end": 486,
+          "quote": "def concrete_revision(surface: str, prior: str) -> tuple[str, str]:\n    if surface in {\"ofcheol\", \"qofcheol\"}:\n        return \"Blütenzubereitung\", \"Auszug, Oel, Wasser, Wein oder Essig bleiben C0-Rivalen\"\n    return prior, \"legacy concrete default retained until contradicted or replaced\"",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 527,
+          "line_end": 532,
+          "quote": "        target = info[surface]\n        stats = matrix_by_surface[surface]\n        revised, disposition = concrete_revision(surface, str(target[\"prior_bold_default_de\"]))\n        form_level = int(form[\"evidence_level_0_4\"])\n        form_confidence = (\n            \"C2_REPEATED_TARGET_FREE_FORM_GATE\" if form_level >= 4 else",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 560,
+          "line_end": 568,
+          "quote": "            \"portable_working_class_de\": portable,\n            \"forced_concrete_default_de\": revised,\n            \"forced_concrete_identity_confidence\": \"C0_REPLACEABLE_DEFAULT\",\n            \"form_confidence\": form_confidence,\n            \"prior_concrete_default_de\": target[\"prior_bold_default_de\"],\n            \"gdt767_default_disposition\": disposition,\n            \"primary_rival_de\": target[\"primary_rival_de\"],\n            \"secondary_rival_de\": target[\"secondary_rival_de\"],\n            \"dry_d1_r3_line\": stats[\"dry_d1_r3_line\"],",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        }
+      ],
+      "comparison": {
+        "counterpart_ids": [],
+        "reason": "Read the complete authored lexicon row including portable class, concrete default, local evidence/counterevidence and both rivals. Exact whole-form navigation over current active complete claims found no counterpart; EJ/EF do not assert this whole value. Recovery is bounded, not a global proof of novelty.",
+        "global_identity": "not_established_by_lexical_navigation"
+      }
+    },
+    {
+      "id": "CLEAN_GAP_EL:ofchoshy_gdt767_c0_whole",
+      "claim": "GDT767 retains the complete word ofchoshy as the replaceable C0 reading „eingeweichte Blütenmasse“; its inherited complete-word rivals are „feuchte Blütenzubereitung“ and „angefeuchtete sonstige Droge“. This is an authored historical reader default, not independent identification of flowers, material state or a free ofch component.",
+      "claim_type": "lexical_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:b0a3f0f3751d2b8d8c97"
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "independent_new_idea": false,
+      "scope": {
+        "kind": "historical_complete_word_default",
+        "source_model": "GDT767 retains or narrows GDT766 concrete whole lexicon",
+        "surface": "ofchoshy",
+        "portable_prior": "angefeuchtete Zubereitung einer benannten Arzneidroge",
+        "concrete_default": "eingeweichte Blütenmasse",
+        "identity_confidence": "C0_REPLACEABLE_DEFAULT",
+        "original_local_evidence": "die exakte Herbal-Stelle liegt in einer vollständig exakten Feuchtzeile mit sheo und drei Mengenmarkern",
+        "original_counterevidence": "Singleton; kein spezifisches Wasser, Wein oder Einweichen ist identifiziert",
+        "primary_rival": "feuchte Blütenzubereitung",
+        "secondary_rival": "angefeuchtete sonstige Droge",
+        "limits": "No semantic PASS inferred from source scores, donor checks, fixed rendering or analogy. No component export or unseen forms. Nominal defaults do not create imperative actions."
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/src/OFCH_25_FORM_SPECS.tsv",
+          "line": 1,
+          "line_end": 1,
+          "quote": "surface\tfamily_layer\tpredicted_channel\tportable_default_de\tbold_default_de\trole_confidence\tidentity_confidence\tidentity_score_100\tstrongest_evidence\tstrongest_counterevidence\tprimary_rival_de\tsecondary_rival_de\tfamily_analogy_scope\tglobal_component_export",
+          "sha256": "6f6f7845e01de0539d2c61737b88d0f1ff1225c87d2873045383f9671eac8502"
+        },
+        {
+          "path": "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/src/OFCH_25_FORM_SPECS.tsv",
+          "line": 14,
+          "line_end": 14,
+          "quote": "ofchoshy\tBASE_PREFIX\tMOIST_PREPARATION\tangefeuchtete Zubereitung einer benannten Arzneidroge\teingeweichte Blütenmasse\tC0_SINGLETON_MOIST\tC0_BOLD_ROOT_PROJECTION\t28\tdie exakte Herbal-Stelle liegt in einer vollständig exakten Feuchtzeile mit sheo und drei Mengenmarkern\tSingleton; kein spezifisches Wasser, Wein oder Einweichen ist identifiziert\tfeuchte Blütenzubereitung\tangefeuchtete sonstige Droge\t1\t0",
+          "sha256": "6f6f7845e01de0539d2c61737b88d0f1ff1225c87d2873045383f9671eac8502"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/REPORT.md",
+          "line": 134,
+          "line_end": 154,
+          "quote": "Ein exploratives Wörterbuch ist nur dann nützlich, wenn es konkrete, ersetzbare\nLesungen ausgibt. Deshalb werden die bisherigen Blütenwerte nicht durch\n„Material X“ ersetzt. Alle 28 Zielwörter erhalten weiterhin einen konkreten\nDefault, aber ihre Stoffidentität steht ausdrücklich auf\n`C0_REPLACEABLE_DEFAULT`.\n\nDas ist eine bewusste Zweiteilung:\n\n- **portable Ebene:** Drogenkopf, Rohdroge, Trockenmaterial, Zubereitung,\n  Anteil oder Endprodukt;\n- **mutige Leseschicht:** Blütenmasse, Blütenanteil, Blütenzubereitung,\n  Blütenstand und verwandte konkrete Varianten.\n\nDie mutige Schicht bleibt stehen, bis sie widersprochen oder durch eine bessere\nIdentität ersetzt wird. Sie erhält aus GDT767 keinen zusätzlichen\nLexemkredit.\n\nZwei Defaults werden enger statt blumiger: `ofcheol` und `qofcheol` heißen nun\n**Blütenzubereitung**, nicht mehr **Blütenauszug**. Auszug, Öl, Wasser, Wein und\nEssig bleiben sichtbare C0-Rivalen. Beide Wörter besitzen keine unabhängige\nFlüssigkeits- oder Auszugsachse; `qofcheol` besitzt sogar überhaupt kein",
+          "sha256": "ea39b855a34e2a6c560bd5f68794dd4b0e52f9d79c5aeac23579f3f7f900a0d5"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 255,
+          "line_end": 284,
+          "quote": "def target_info() -> dict[str, dict[str, str]]:\n    output: dict[str, dict[str, str]] = {}\n    for row in read_tsv(OFCH_SPECS):\n        output[row[\"surface\"]] = {\n            \"surface\": row[\"surface\"],\n            \"target_family\": \"OFCH_CONTAINING\",\n            \"predicted_channel\": row[\"predicted_channel\"],\n            \"prior_portable_default_de\": row[\"portable_default_de\"],\n            \"prior_bold_default_de\": row[\"bold_default_de\"],\n            \"prior_role_confidence\": row[\"role_confidence\"],\n            \"prior_identity_confidence\": row[\"identity_confidence\"],\n            \"primary_rival_de\": row[\"primary_rival_de\"],\n            \"secondary_rival_de\": row[\"secondary_rival_de\"],\n        }\n    for row in read_tsv(CHOR_SPECS):\n        if row[\"surface\"] == \"pchor\":\n            continue\n        output[row[\"surface\"]] = {\n            \"surface\": row[\"surface\"],\n            \"target_family\": \"CHOR_SCHOR_LCHOR\",\n            \"predicted_channel\": CHOR_CHANNELS[row[\"surface\"]],\n            \"prior_portable_default_de\": row[\"portable_default_de\"],\n            \"prior_bold_default_de\": row[\"bold_default_de\"],\n            \"prior_role_confidence\": row[\"role_confidence\"],\n            \"prior_identity_confidence\": row[\"identity_confidence\"],\n            \"primary_rival_de\": row[\"primary_rival_de\"],\n            \"secondary_rival_de\": row[\"secondary_rival_de\"],\n        }\n    assert len(output) == 28\n    return output",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 483,
+          "line_end": 486,
+          "quote": "def concrete_revision(surface: str, prior: str) -> tuple[str, str]:\n    if surface in {\"ofcheol\", \"qofcheol\"}:\n        return \"Blütenzubereitung\", \"Auszug, Oel, Wasser, Wein oder Essig bleiben C0-Rivalen\"\n    return prior, \"legacy concrete default retained until contradicted or replaced\"",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 527,
+          "line_end": 532,
+          "quote": "        target = info[surface]\n        stats = matrix_by_surface[surface]\n        revised, disposition = concrete_revision(surface, str(target[\"prior_bold_default_de\"]))\n        form_level = int(form[\"evidence_level_0_4\"])\n        form_confidence = (\n            \"C2_REPEATED_TARGET_FREE_FORM_GATE\" if form_level >= 4 else",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 560,
+          "line_end": 568,
+          "quote": "            \"portable_working_class_de\": portable,\n            \"forced_concrete_default_de\": revised,\n            \"forced_concrete_identity_confidence\": \"C0_REPLACEABLE_DEFAULT\",\n            \"form_confidence\": form_confidence,\n            \"prior_concrete_default_de\": target[\"prior_bold_default_de\"],\n            \"gdt767_default_disposition\": disposition,\n            \"primary_rival_de\": target[\"primary_rival_de\"],\n            \"secondary_rival_de\": target[\"secondary_rival_de\"],\n            \"dry_d1_r3_line\": stats[\"dry_d1_r3_line\"],",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        }
+      ],
+      "comparison": {
+        "counterpart_ids": [],
+        "reason": "Read the complete authored lexicon row including portable class, concrete default, local evidence/counterevidence and both rivals. Exact whole-form navigation over current active complete claims found no counterpart; EJ/EF do not assert this whole value. Recovery is bounded, not a global proof of novelty.",
+        "global_identity": "not_established_by_lexical_navigation"
+      }
+    },
+    {
+      "id": "CLEAN_GAP_EL:ofchr_gdt767_c0_whole",
+      "claim": "GDT767 retains the complete word ofchr as the replaceable C0 reading „Blütenrückstand“; its inherited complete-word rivals are „Blütenendprodukt“ and „Drogenrückstand ohne Stoffidentität“. This is an authored historical reader default, not independent identification of flowers, material state or a free ofch component.",
+      "claim_type": "lexical_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:b0a3f0f3751d2b8d8c97"
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "independent_new_idea": false,
+      "scope": {
+        "kind": "historical_complete_word_default",
+        "source_model": "GDT767 retains or narrows GDT766 concrete whole lexicon",
+        "surface": "ofchr",
+        "portable_prior": "Rückstand oder Endprodukt einer benannten Arzneidroge",
+        "concrete_default": "Blütenrückstand",
+        "identity_confidence": "C0_REPLACEABLE_DEFAULT",
+        "original_local_evidence": "die einzige exakte Stelle ist zeilenfinal nach einem warmen Rohstoff-/Zubereitungsfeld",
+        "original_counterevidence": "Singleton; Zeilenende kann auch bloße Aufzählung sein",
+        "primary_rival": "Blütenendprodukt",
+        "secondary_rival": "Drogenrückstand ohne Stoffidentität",
+        "limits": "No semantic PASS inferred from source scores, donor checks, fixed rendering or analogy. No component export or unseen forms. Nominal defaults do not create imperative actions."
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/src/OFCH_25_FORM_SPECS.tsv",
+          "line": 1,
+          "line_end": 1,
+          "quote": "surface\tfamily_layer\tpredicted_channel\tportable_default_de\tbold_default_de\trole_confidence\tidentity_confidence\tidentity_score_100\tstrongest_evidence\tstrongest_counterevidence\tprimary_rival_de\tsecondary_rival_de\tfamily_analogy_scope\tglobal_component_export",
+          "sha256": "6f6f7845e01de0539d2c61737b88d0f1ff1225c87d2873045383f9671eac8502"
+        },
+        {
+          "path": "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/src/OFCH_25_FORM_SPECS.tsv",
+          "line": 15,
+          "line_end": 15,
+          "quote": "ofchr\tBASE_PREFIX\tTERMINAL_RESULT\tRückstand oder Endprodukt einer benannten Arzneidroge\tBlütenrückstand\tC0_SINGLETON_TERMINAL\tC0_BOLD_ROOT_PROJECTION\t17\tdie einzige exakte Stelle ist zeilenfinal nach einem warmen Rohstoff-/Zubereitungsfeld\tSingleton; Zeilenende kann auch bloße Aufzählung sein\tBlütenendprodukt\tDrogenrückstand ohne Stoffidentität\t1\t0",
+          "sha256": "6f6f7845e01de0539d2c61737b88d0f1ff1225c87d2873045383f9671eac8502"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/REPORT.md",
+          "line": 134,
+          "line_end": 154,
+          "quote": "Ein exploratives Wörterbuch ist nur dann nützlich, wenn es konkrete, ersetzbare\nLesungen ausgibt. Deshalb werden die bisherigen Blütenwerte nicht durch\n„Material X“ ersetzt. Alle 28 Zielwörter erhalten weiterhin einen konkreten\nDefault, aber ihre Stoffidentität steht ausdrücklich auf\n`C0_REPLACEABLE_DEFAULT`.\n\nDas ist eine bewusste Zweiteilung:\n\n- **portable Ebene:** Drogenkopf, Rohdroge, Trockenmaterial, Zubereitung,\n  Anteil oder Endprodukt;\n- **mutige Leseschicht:** Blütenmasse, Blütenanteil, Blütenzubereitung,\n  Blütenstand und verwandte konkrete Varianten.\n\nDie mutige Schicht bleibt stehen, bis sie widersprochen oder durch eine bessere\nIdentität ersetzt wird. Sie erhält aus GDT767 keinen zusätzlichen\nLexemkredit.\n\nZwei Defaults werden enger statt blumiger: `ofcheol` und `qofcheol` heißen nun\n**Blütenzubereitung**, nicht mehr **Blütenauszug**. Auszug, Öl, Wasser, Wein und\nEssig bleiben sichtbare C0-Rivalen. Beide Wörter besitzen keine unabhängige\nFlüssigkeits- oder Auszugsachse; `qofcheol` besitzt sogar überhaupt kein",
+          "sha256": "ea39b855a34e2a6c560bd5f68794dd4b0e52f9d79c5aeac23579f3f7f900a0d5"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 255,
+          "line_end": 284,
+          "quote": "def target_info() -> dict[str, dict[str, str]]:\n    output: dict[str, dict[str, str]] = {}\n    for row in read_tsv(OFCH_SPECS):\n        output[row[\"surface\"]] = {\n            \"surface\": row[\"surface\"],\n            \"target_family\": \"OFCH_CONTAINING\",\n            \"predicted_channel\": row[\"predicted_channel\"],\n            \"prior_portable_default_de\": row[\"portable_default_de\"],\n            \"prior_bold_default_de\": row[\"bold_default_de\"],\n            \"prior_role_confidence\": row[\"role_confidence\"],\n            \"prior_identity_confidence\": row[\"identity_confidence\"],\n            \"primary_rival_de\": row[\"primary_rival_de\"],\n            \"secondary_rival_de\": row[\"secondary_rival_de\"],\n        }\n    for row in read_tsv(CHOR_SPECS):\n        if row[\"surface\"] == \"pchor\":\n            continue\n        output[row[\"surface\"]] = {\n            \"surface\": row[\"surface\"],\n            \"target_family\": \"CHOR_SCHOR_LCHOR\",\n            \"predicted_channel\": CHOR_CHANNELS[row[\"surface\"]],\n            \"prior_portable_default_de\": row[\"portable_default_de\"],\n            \"prior_bold_default_de\": row[\"bold_default_de\"],\n            \"prior_role_confidence\": row[\"role_confidence\"],\n            \"prior_identity_confidence\": row[\"identity_confidence\"],\n            \"primary_rival_de\": row[\"primary_rival_de\"],\n            \"secondary_rival_de\": row[\"secondary_rival_de\"],\n        }\n    assert len(output) == 28\n    return output",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 483,
+          "line_end": 486,
+          "quote": "def concrete_revision(surface: str, prior: str) -> tuple[str, str]:\n    if surface in {\"ofcheol\", \"qofcheol\"}:\n        return \"Blütenzubereitung\", \"Auszug, Oel, Wasser, Wein oder Essig bleiben C0-Rivalen\"\n    return prior, \"legacy concrete default retained until contradicted or replaced\"",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 527,
+          "line_end": 532,
+          "quote": "        target = info[surface]\n        stats = matrix_by_surface[surface]\n        revised, disposition = concrete_revision(surface, str(target[\"prior_bold_default_de\"]))\n        form_level = int(form[\"evidence_level_0_4\"])\n        form_confidence = (\n            \"C2_REPEATED_TARGET_FREE_FORM_GATE\" if form_level >= 4 else",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 560,
+          "line_end": 568,
+          "quote": "            \"portable_working_class_de\": portable,\n            \"forced_concrete_default_de\": revised,\n            \"forced_concrete_identity_confidence\": \"C0_REPLACEABLE_DEFAULT\",\n            \"form_confidence\": form_confidence,\n            \"prior_concrete_default_de\": target[\"prior_bold_default_de\"],\n            \"gdt767_default_disposition\": disposition,\n            \"primary_rival_de\": target[\"primary_rival_de\"],\n            \"secondary_rival_de\": target[\"secondary_rival_de\"],\n            \"dry_d1_r3_line\": stats[\"dry_d1_r3_line\"],",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        }
+      ],
+      "comparison": {
+        "counterpart_ids": [],
+        "reason": "Read the complete authored lexicon row including portable class, concrete default, local evidence/counterevidence and both rivals. Exact whole-form navigation over current active complete claims found no counterpart; EJ/EF do not assert this whole value. Recovery is bounded, not a global proof of novelty.",
+        "global_identity": "not_established_by_lexical_navigation"
+      }
+    },
+    {
+      "id": "CLEAN_GAP_EL:ofchtar_gdt767_c0_whole",
+      "claim": "GDT767 retains the complete word ofchtar as the replaceable C0 reading „abgemessener Blütenanteil“; its inherited complete-word rivals are „feuchter Blütenanteil“ and „Anteil einer anderen Arzneidroge“. This is an authored historical reader default, not independent identification of flowers, material state or a free ofch component.",
+      "claim_type": "lexical_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:b0a3f0f3751d2b8d8c97"
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "independent_new_idea": false,
+      "scope": {
+        "kind": "historical_complete_word_default",
+        "source_model": "GDT767 retains or narrows GDT766 concrete whole lexicon",
+        "surface": "ofchtar",
+        "portable_prior": "abgemessener Anteil einer benannten Arzneidroge",
+        "concrete_default": "abgemessener Blütenanteil",
+        "identity_confidence": "C0_REPLACEABLE_DEFAULT",
+        "original_local_evidence": "die einzige exakte Herbal-Stelle teilt eine Zeile mit feuchtem Feld, Menge III und abgemessenem Anteil I",
+        "original_counterevidence": "Singleton; keine direkte Bindung an die Mengenfelder",
+        "primary_rival": "feuchter Blütenanteil",
+        "secondary_rival": "Anteil einer anderen Arzneidroge",
+        "limits": "No semantic PASS inferred from source scores, donor checks, fixed rendering or analogy. No component export or unseen forms. Nominal defaults do not create imperative actions."
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/src/OFCH_25_FORM_SPECS.tsv",
+          "line": 1,
+          "line_end": 1,
+          "quote": "surface\tfamily_layer\tpredicted_channel\tportable_default_de\tbold_default_de\trole_confidence\tidentity_confidence\tidentity_score_100\tstrongest_evidence\tstrongest_counterevidence\tprimary_rival_de\tsecondary_rival_de\tfamily_analogy_scope\tglobal_component_export",
+          "sha256": "6f6f7845e01de0539d2c61737b88d0f1ff1225c87d2873045383f9671eac8502"
+        },
+        {
+          "path": "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/src/OFCH_25_FORM_SPECS.tsv",
+          "line": 16,
+          "line_end": 16,
+          "quote": "ofchtar\tBASE_PREFIX\tPART_AMOUNT\tabgemessener Anteil einer benannten Arzneidroge\tabgemessener Blütenanteil\tC0_SINGLETON_AMOUNT\tC0_BOLD_ROOT_PROJECTION\t22\tdie einzige exakte Herbal-Stelle teilt eine Zeile mit feuchtem Feld, Menge III und abgemessenem Anteil I\tSingleton; keine direkte Bindung an die Mengenfelder\tfeuchter Blütenanteil\tAnteil einer anderen Arzneidroge\t1\t0",
+          "sha256": "6f6f7845e01de0539d2c61737b88d0f1ff1225c87d2873045383f9671eac8502"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/REPORT.md",
+          "line": 134,
+          "line_end": 154,
+          "quote": "Ein exploratives Wörterbuch ist nur dann nützlich, wenn es konkrete, ersetzbare\nLesungen ausgibt. Deshalb werden die bisherigen Blütenwerte nicht durch\n„Material X“ ersetzt. Alle 28 Zielwörter erhalten weiterhin einen konkreten\nDefault, aber ihre Stoffidentität steht ausdrücklich auf\n`C0_REPLACEABLE_DEFAULT`.\n\nDas ist eine bewusste Zweiteilung:\n\n- **portable Ebene:** Drogenkopf, Rohdroge, Trockenmaterial, Zubereitung,\n  Anteil oder Endprodukt;\n- **mutige Leseschicht:** Blütenmasse, Blütenanteil, Blütenzubereitung,\n  Blütenstand und verwandte konkrete Varianten.\n\nDie mutige Schicht bleibt stehen, bis sie widersprochen oder durch eine bessere\nIdentität ersetzt wird. Sie erhält aus GDT767 keinen zusätzlichen\nLexemkredit.\n\nZwei Defaults werden enger statt blumiger: `ofcheol` und `qofcheol` heißen nun\n**Blütenzubereitung**, nicht mehr **Blütenauszug**. Auszug, Öl, Wasser, Wein und\nEssig bleiben sichtbare C0-Rivalen. Beide Wörter besitzen keine unabhängige\nFlüssigkeits- oder Auszugsachse; `qofcheol` besitzt sogar überhaupt kein",
+          "sha256": "ea39b855a34e2a6c560bd5f68794dd4b0e52f9d79c5aeac23579f3f7f900a0d5"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 255,
+          "line_end": 284,
+          "quote": "def target_info() -> dict[str, dict[str, str]]:\n    output: dict[str, dict[str, str]] = {}\n    for row in read_tsv(OFCH_SPECS):\n        output[row[\"surface\"]] = {\n            \"surface\": row[\"surface\"],\n            \"target_family\": \"OFCH_CONTAINING\",\n            \"predicted_channel\": row[\"predicted_channel\"],\n            \"prior_portable_default_de\": row[\"portable_default_de\"],\n            \"prior_bold_default_de\": row[\"bold_default_de\"],\n            \"prior_role_confidence\": row[\"role_confidence\"],\n            \"prior_identity_confidence\": row[\"identity_confidence\"],\n            \"primary_rival_de\": row[\"primary_rival_de\"],\n            \"secondary_rival_de\": row[\"secondary_rival_de\"],\n        }\n    for row in read_tsv(CHOR_SPECS):\n        if row[\"surface\"] == \"pchor\":\n            continue\n        output[row[\"surface\"]] = {\n            \"surface\": row[\"surface\"],\n            \"target_family\": \"CHOR_SCHOR_LCHOR\",\n            \"predicted_channel\": CHOR_CHANNELS[row[\"surface\"]],\n            \"prior_portable_default_de\": row[\"portable_default_de\"],\n            \"prior_bold_default_de\": row[\"bold_default_de\"],\n            \"prior_role_confidence\": row[\"role_confidence\"],\n            \"prior_identity_confidence\": row[\"identity_confidence\"],\n            \"primary_rival_de\": row[\"primary_rival_de\"],\n            \"secondary_rival_de\": row[\"secondary_rival_de\"],\n        }\n    assert len(output) == 28\n    return output",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 483,
+          "line_end": 486,
+          "quote": "def concrete_revision(surface: str, prior: str) -> tuple[str, str]:\n    if surface in {\"ofcheol\", \"qofcheol\"}:\n        return \"Blütenzubereitung\", \"Auszug, Oel, Wasser, Wein oder Essig bleiben C0-Rivalen\"\n    return prior, \"legacy concrete default retained until contradicted or replaced\"",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 527,
+          "line_end": 532,
+          "quote": "        target = info[surface]\n        stats = matrix_by_surface[surface]\n        revised, disposition = concrete_revision(surface, str(target[\"prior_bold_default_de\"]))\n        form_level = int(form[\"evidence_level_0_4\"])\n        form_confidence = (\n            \"C2_REPEATED_TARGET_FREE_FORM_GATE\" if form_level >= 4 else",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 560,
+          "line_end": 568,
+          "quote": "            \"portable_working_class_de\": portable,\n            \"forced_concrete_default_de\": revised,\n            \"forced_concrete_identity_confidence\": \"C0_REPLACEABLE_DEFAULT\",\n            \"form_confidence\": form_confidence,\n            \"prior_concrete_default_de\": target[\"prior_bold_default_de\"],\n            \"gdt767_default_disposition\": disposition,\n            \"primary_rival_de\": target[\"primary_rival_de\"],\n            \"secondary_rival_de\": target[\"secondary_rival_de\"],\n            \"dry_d1_r3_line\": stats[\"dry_d1_r3_line\"],",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        }
+      ],
+      "comparison": {
+        "counterpart_ids": [],
+        "reason": "Read the complete authored lexicon row including portable class, concrete default, local evidence/counterevidence and both rivals. Exact whole-form navigation over current active complete claims found no counterpart; EJ/EF do not assert this whole value. Recovery is bounded, not a global proof of novelty.",
+        "global_identity": "not_established_by_lexical_navigation"
+      }
+    },
+    {
+      "id": "CLEAN_GAP_EL:qofchal_gdt767_c0_whole",
+      "claim": "GDT767 retains the complete word qofchal as the replaceable C0 reading „heiß-trockener Blütenrohstoff“; its inherited complete-word rivals are „getrocknete Blütenzubereitung“ and „qualifizierter Rohstoff ohne Stoffidentität“. This is an authored historical reader default, not independent identification of flowers, material state or a free ofch component.",
+      "claim_type": "lexical_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:b0a3f0f3751d2b8d8c97"
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "independent_new_idea": false,
+      "scope": {
+        "kind": "historical_complete_word_default",
+        "source_model": "GDT767 retains or narrows GDT766 concrete whole lexicon",
+        "surface": "qofchal",
+        "portable_prior": "qualifizierter trockener Arzneirohstoff",
+        "concrete_default": "heiß-trockener Blütenrohstoff",
+        "identity_confidence": "C0_REPLACEABLE_DEFAULT",
+        "original_local_evidence": "die einzige exakte Herbal-Stelle ist zeilenfinal unmittelbar nach heiß-trockenem Gradanfang",
+        "original_counterevidence": "Singleton; die Wärme kann vollständig im linken Nachbarwort liegen",
+        "primary_rival": "getrocknete Blütenzubereitung",
+        "secondary_rival": "qualifizierter Rohstoff ohne Stoffidentität",
+        "limits": "No semantic PASS inferred from source scores, donor checks, fixed rendering or analogy. No component export or unseen forms. Nominal defaults do not create imperative actions."
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/src/OFCH_25_FORM_SPECS.tsv",
+          "line": 1,
+          "line_end": 1,
+          "quote": "surface\tfamily_layer\tpredicted_channel\tportable_default_de\tbold_default_de\trole_confidence\tidentity_confidence\tidentity_score_100\tstrongest_evidence\tstrongest_counterevidence\tprimary_rival_de\tsecondary_rival_de\tfamily_analogy_scope\tglobal_component_export",
+          "sha256": "6f6f7845e01de0539d2c61737b88d0f1ff1225c87d2873045383f9671eac8502"
+        },
+        {
+          "path": "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/src/OFCH_25_FORM_SPECS.tsv",
+          "line": 18,
+          "line_end": 18,
+          "quote": "qofchal\tOUTER_SHELL\tDRY_RESULT\tqualifizierter trockener Arzneirohstoff\theiß-trockener Blütenrohstoff\tC0_SINGLETON_STATE\tC0_BOLD_ROOT_PROJECTION\t21\tdie einzige exakte Herbal-Stelle ist zeilenfinal unmittelbar nach heiß-trockenem Gradanfang\tSingleton; die Wärme kann vollständig im linken Nachbarwort liegen\tgetrocknete Blütenzubereitung\tqualifizierter Rohstoff ohne Stoffidentität\t1\t0",
+          "sha256": "6f6f7845e01de0539d2c61737b88d0f1ff1225c87d2873045383f9671eac8502"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/REPORT.md",
+          "line": 134,
+          "line_end": 154,
+          "quote": "Ein exploratives Wörterbuch ist nur dann nützlich, wenn es konkrete, ersetzbare\nLesungen ausgibt. Deshalb werden die bisherigen Blütenwerte nicht durch\n„Material X“ ersetzt. Alle 28 Zielwörter erhalten weiterhin einen konkreten\nDefault, aber ihre Stoffidentität steht ausdrücklich auf\n`C0_REPLACEABLE_DEFAULT`.\n\nDas ist eine bewusste Zweiteilung:\n\n- **portable Ebene:** Drogenkopf, Rohdroge, Trockenmaterial, Zubereitung,\n  Anteil oder Endprodukt;\n- **mutige Leseschicht:** Blütenmasse, Blütenanteil, Blütenzubereitung,\n  Blütenstand und verwandte konkrete Varianten.\n\nDie mutige Schicht bleibt stehen, bis sie widersprochen oder durch eine bessere\nIdentität ersetzt wird. Sie erhält aus GDT767 keinen zusätzlichen\nLexemkredit.\n\nZwei Defaults werden enger statt blumiger: `ofcheol` und `qofcheol` heißen nun\n**Blütenzubereitung**, nicht mehr **Blütenauszug**. Auszug, Öl, Wasser, Wein und\nEssig bleiben sichtbare C0-Rivalen. Beide Wörter besitzen keine unabhängige\nFlüssigkeits- oder Auszugsachse; `qofcheol` besitzt sogar überhaupt kein",
+          "sha256": "ea39b855a34e2a6c560bd5f68794dd4b0e52f9d79c5aeac23579f3f7f900a0d5"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 255,
+          "line_end": 284,
+          "quote": "def target_info() -> dict[str, dict[str, str]]:\n    output: dict[str, dict[str, str]] = {}\n    for row in read_tsv(OFCH_SPECS):\n        output[row[\"surface\"]] = {\n            \"surface\": row[\"surface\"],\n            \"target_family\": \"OFCH_CONTAINING\",\n            \"predicted_channel\": row[\"predicted_channel\"],\n            \"prior_portable_default_de\": row[\"portable_default_de\"],\n            \"prior_bold_default_de\": row[\"bold_default_de\"],\n            \"prior_role_confidence\": row[\"role_confidence\"],\n            \"prior_identity_confidence\": row[\"identity_confidence\"],\n            \"primary_rival_de\": row[\"primary_rival_de\"],\n            \"secondary_rival_de\": row[\"secondary_rival_de\"],\n        }\n    for row in read_tsv(CHOR_SPECS):\n        if row[\"surface\"] == \"pchor\":\n            continue\n        output[row[\"surface\"]] = {\n            \"surface\": row[\"surface\"],\n            \"target_family\": \"CHOR_SCHOR_LCHOR\",\n            \"predicted_channel\": CHOR_CHANNELS[row[\"surface\"]],\n            \"prior_portable_default_de\": row[\"portable_default_de\"],\n            \"prior_bold_default_de\": row[\"bold_default_de\"],\n            \"prior_role_confidence\": row[\"role_confidence\"],\n            \"prior_identity_confidence\": row[\"identity_confidence\"],\n            \"primary_rival_de\": row[\"primary_rival_de\"],\n            \"secondary_rival_de\": row[\"secondary_rival_de\"],\n        }\n    assert len(output) == 28\n    return output",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 483,
+          "line_end": 486,
+          "quote": "def concrete_revision(surface: str, prior: str) -> tuple[str, str]:\n    if surface in {\"ofcheol\", \"qofcheol\"}:\n        return \"Blütenzubereitung\", \"Auszug, Oel, Wasser, Wein oder Essig bleiben C0-Rivalen\"\n    return prior, \"legacy concrete default retained until contradicted or replaced\"",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 527,
+          "line_end": 532,
+          "quote": "        target = info[surface]\n        stats = matrix_by_surface[surface]\n        revised, disposition = concrete_revision(surface, str(target[\"prior_bold_default_de\"]))\n        form_level = int(form[\"evidence_level_0_4\"])\n        form_confidence = (\n            \"C2_REPEATED_TARGET_FREE_FORM_GATE\" if form_level >= 4 else",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 560,
+          "line_end": 568,
+          "quote": "            \"portable_working_class_de\": portable,\n            \"forced_concrete_default_de\": revised,\n            \"forced_concrete_identity_confidence\": \"C0_REPLACEABLE_DEFAULT\",\n            \"form_confidence\": form_confidence,\n            \"prior_concrete_default_de\": target[\"prior_bold_default_de\"],\n            \"gdt767_default_disposition\": disposition,\n            \"primary_rival_de\": target[\"primary_rival_de\"],\n            \"secondary_rival_de\": target[\"secondary_rival_de\"],\n            \"dry_d1_r3_line\": stats[\"dry_d1_r3_line\"],",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        }
+      ],
+      "comparison": {
+        "counterpart_ids": [],
+        "reason": "Read the complete authored lexicon row including portable class, concrete default, local evidence/counterevidence and both rivals. Exact whole-form navigation over current active complete claims found no counterpart; EJ/EF do not assert this whole value. Recovery is bounded, not a global proof of novelty.",
+        "global_identity": "not_established_by_lexical_navigation"
+      }
+    },
+    {
+      "id": "CLEAN_GAP_EL:qofchdar_gdt767_c0_whole",
+      "claim": "GDT767 retains the complete word qofchdar as the replaceable C0 reading „abgemessener Blütenanteil“; its inherited complete-word rivals are „Blütendosis“ and „abgemessener Anteil einer anderen Droge“. This is an authored historical reader default, not independent identification of flowers, material state or a free ofch component.",
+      "claim_type": "lexical_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:b0a3f0f3751d2b8d8c97"
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "independent_new_idea": false,
+      "scope": {
+        "kind": "historical_complete_word_default",
+        "source_model": "GDT767 retains or narrows GDT766 concrete whole lexicon",
+        "surface": "qofchdar",
+        "portable_prior": "abgemessener Anteil einer benannten Arzneidroge",
+        "concrete_default": "abgemessener Blütenanteil",
+        "identity_confidence": "C0_REPLACEABLE_DEFAULT",
+        "original_local_evidence": "die einzige exakte S-Stelle steht direkt nach Wert III und vor einer abgemessenen Portion Trockendroge",
+        "original_counterevidence": "Singleton; Ziel kann auch ein Übergangs- oder Relationselement sein",
+        "primary_rival": "Blütendosis",
+        "secondary_rival": "abgemessener Anteil einer anderen Droge",
+        "limits": "No semantic PASS inferred from source scores, donor checks, fixed rendering or analogy. No component export or unseen forms. Nominal defaults do not create imperative actions."
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/src/OFCH_25_FORM_SPECS.tsv",
+          "line": 1,
+          "line_end": 1,
+          "quote": "surface\tfamily_layer\tpredicted_channel\tportable_default_de\tbold_default_de\trole_confidence\tidentity_confidence\tidentity_score_100\tstrongest_evidence\tstrongest_counterevidence\tprimary_rival_de\tsecondary_rival_de\tfamily_analogy_scope\tglobal_component_export",
+          "sha256": "6f6f7845e01de0539d2c61737b88d0f1ff1225c87d2873045383f9671eac8502"
+        },
+        {
+          "path": "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/src/OFCH_25_FORM_SPECS.tsv",
+          "line": 19,
+          "line_end": 19,
+          "quote": "qofchdar\tOUTER_SHELL\tPART_AMOUNT\tabgemessener Anteil einer benannten Arzneidroge\tabgemessener Blütenanteil\tC0_SINGLETON_AMOUNT\tC0_BOLD_ROOT_PROJECTION\t27\tdie einzige exakte S-Stelle steht direkt nach Wert III und vor einer abgemessenen Portion Trockendroge\tSingleton; Ziel kann auch ein Übergangs- oder Relationselement sein\tBlütendosis\tabgemessener Anteil einer anderen Droge\t1\t0",
+          "sha256": "6f6f7845e01de0539d2c61737b88d0f1ff1225c87d2873045383f9671eac8502"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/REPORT.md",
+          "line": 134,
+          "line_end": 154,
+          "quote": "Ein exploratives Wörterbuch ist nur dann nützlich, wenn es konkrete, ersetzbare\nLesungen ausgibt. Deshalb werden die bisherigen Blütenwerte nicht durch\n„Material X“ ersetzt. Alle 28 Zielwörter erhalten weiterhin einen konkreten\nDefault, aber ihre Stoffidentität steht ausdrücklich auf\n`C0_REPLACEABLE_DEFAULT`.\n\nDas ist eine bewusste Zweiteilung:\n\n- **portable Ebene:** Drogenkopf, Rohdroge, Trockenmaterial, Zubereitung,\n  Anteil oder Endprodukt;\n- **mutige Leseschicht:** Blütenmasse, Blütenanteil, Blütenzubereitung,\n  Blütenstand und verwandte konkrete Varianten.\n\nDie mutige Schicht bleibt stehen, bis sie widersprochen oder durch eine bessere\nIdentität ersetzt wird. Sie erhält aus GDT767 keinen zusätzlichen\nLexemkredit.\n\nZwei Defaults werden enger statt blumiger: `ofcheol` und `qofcheol` heißen nun\n**Blütenzubereitung**, nicht mehr **Blütenauszug**. Auszug, Öl, Wasser, Wein und\nEssig bleiben sichtbare C0-Rivalen. Beide Wörter besitzen keine unabhängige\nFlüssigkeits- oder Auszugsachse; `qofcheol` besitzt sogar überhaupt kein",
+          "sha256": "ea39b855a34e2a6c560bd5f68794dd4b0e52f9d79c5aeac23579f3f7f900a0d5"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 255,
+          "line_end": 284,
+          "quote": "def target_info() -> dict[str, dict[str, str]]:\n    output: dict[str, dict[str, str]] = {}\n    for row in read_tsv(OFCH_SPECS):\n        output[row[\"surface\"]] = {\n            \"surface\": row[\"surface\"],\n            \"target_family\": \"OFCH_CONTAINING\",\n            \"predicted_channel\": row[\"predicted_channel\"],\n            \"prior_portable_default_de\": row[\"portable_default_de\"],\n            \"prior_bold_default_de\": row[\"bold_default_de\"],\n            \"prior_role_confidence\": row[\"role_confidence\"],\n            \"prior_identity_confidence\": row[\"identity_confidence\"],\n            \"primary_rival_de\": row[\"primary_rival_de\"],\n            \"secondary_rival_de\": row[\"secondary_rival_de\"],\n        }\n    for row in read_tsv(CHOR_SPECS):\n        if row[\"surface\"] == \"pchor\":\n            continue\n        output[row[\"surface\"]] = {\n            \"surface\": row[\"surface\"],\n            \"target_family\": \"CHOR_SCHOR_LCHOR\",\n            \"predicted_channel\": CHOR_CHANNELS[row[\"surface\"]],\n            \"prior_portable_default_de\": row[\"portable_default_de\"],\n            \"prior_bold_default_de\": row[\"bold_default_de\"],\n            \"prior_role_confidence\": row[\"role_confidence\"],\n            \"prior_identity_confidence\": row[\"identity_confidence\"],\n            \"primary_rival_de\": row[\"primary_rival_de\"],\n            \"secondary_rival_de\": row[\"secondary_rival_de\"],\n        }\n    assert len(output) == 28\n    return output",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 483,
+          "line_end": 486,
+          "quote": "def concrete_revision(surface: str, prior: str) -> tuple[str, str]:\n    if surface in {\"ofcheol\", \"qofcheol\"}:\n        return \"Blütenzubereitung\", \"Auszug, Oel, Wasser, Wein oder Essig bleiben C0-Rivalen\"\n    return prior, \"legacy concrete default retained until contradicted or replaced\"",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 527,
+          "line_end": 532,
+          "quote": "        target = info[surface]\n        stats = matrix_by_surface[surface]\n        revised, disposition = concrete_revision(surface, str(target[\"prior_bold_default_de\"]))\n        form_level = int(form[\"evidence_level_0_4\"])\n        form_confidence = (\n            \"C2_REPEATED_TARGET_FREE_FORM_GATE\" if form_level >= 4 else",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 560,
+          "line_end": 568,
+          "quote": "            \"portable_working_class_de\": portable,\n            \"forced_concrete_default_de\": revised,\n            \"forced_concrete_identity_confidence\": \"C0_REPLACEABLE_DEFAULT\",\n            \"form_confidence\": form_confidence,\n            \"prior_concrete_default_de\": target[\"prior_bold_default_de\"],\n            \"gdt767_default_disposition\": disposition,\n            \"primary_rival_de\": target[\"primary_rival_de\"],\n            \"secondary_rival_de\": target[\"secondary_rival_de\"],\n            \"dry_d1_r3_line\": stats[\"dry_d1_r3_line\"],",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        }
+      ],
+      "comparison": {
+        "counterpart_ids": [],
+        "reason": "Read the complete authored lexicon row including portable class, concrete default, local evidence/counterevidence and both rivals. Exact whole-form navigation over current active complete claims found no counterpart; EJ/EF do not assert this whole value. Recovery is bounded, not a global proof of novelty.",
+        "global_identity": "not_established_by_lexical_navigation"
+      }
+    },
+    {
+      "id": "CLEAN_GAP_EL:qofchdy_gdt767_c0_whole",
+      "claim": "GDT767 retains the complete word qofchdy as the replaceable C0 reading „angefeuchtete Blütenzubereitung“; its inherited complete-word rivals are „Blütenmazerat“ and „angefeuchtete sonstige Zubereitung“. This is an authored historical reader default, not independent identification of flowers, material state or a free ofch component.",
+      "claim_type": "lexical_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:b0a3f0f3751d2b8d8c97"
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "independent_new_idea": false,
+      "scope": {
+        "kind": "historical_complete_word_default",
+        "source_model": "GDT767 retains or narrows GDT766 concrete whole lexicon",
+        "surface": "qofchdy",
+        "portable_prior": "angefeuchtete Zubereitung einer benannten Arzneidroge",
+        "concrete_default": "angefeuchtete Blütenzubereitung",
+        "identity_confidence": "C0_REPLACEABLE_DEFAULT",
+        "original_local_evidence": "die einzige exakte S-Stelle folgt unmittelbar auf mittlere Feuchtstufe erreicht",
+        "original_counterevidence": "Singleton; Feuchtigkeit kann nur das linke Feld abschließen",
+        "primary_rival": "Blütenmazerat",
+        "secondary_rival": "angefeuchtete sonstige Zubereitung",
+        "limits": "No semantic PASS inferred from source scores, donor checks, fixed rendering or analogy. No component export or unseen forms. Nominal defaults do not create imperative actions."
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/src/OFCH_25_FORM_SPECS.tsv",
+          "line": 1,
+          "line_end": 1,
+          "quote": "surface\tfamily_layer\tpredicted_channel\tportable_default_de\tbold_default_de\trole_confidence\tidentity_confidence\tidentity_score_100\tstrongest_evidence\tstrongest_counterevidence\tprimary_rival_de\tsecondary_rival_de\tfamily_analogy_scope\tglobal_component_export",
+          "sha256": "6f6f7845e01de0539d2c61737b88d0f1ff1225c87d2873045383f9671eac8502"
+        },
+        {
+          "path": "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/src/OFCH_25_FORM_SPECS.tsv",
+          "line": 20,
+          "line_end": 20,
+          "quote": "qofchdy\tOUTER_SHELL\tMOIST_PREPARATION\tangefeuchtete Zubereitung einer benannten Arzneidroge\tangefeuchtete Blütenzubereitung\tC0_SINGLETON_MOIST\tC0_BOLD_ROOT_PROJECTION\t22\tdie einzige exakte S-Stelle folgt unmittelbar auf mittlere Feuchtstufe erreicht\tSingleton; Feuchtigkeit kann nur das linke Feld abschließen\tBlütenmazerat\tangefeuchtete sonstige Zubereitung\t1\t0",
+          "sha256": "6f6f7845e01de0539d2c61737b88d0f1ff1225c87d2873045383f9671eac8502"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/REPORT.md",
+          "line": 134,
+          "line_end": 154,
+          "quote": "Ein exploratives Wörterbuch ist nur dann nützlich, wenn es konkrete, ersetzbare\nLesungen ausgibt. Deshalb werden die bisherigen Blütenwerte nicht durch\n„Material X“ ersetzt. Alle 28 Zielwörter erhalten weiterhin einen konkreten\nDefault, aber ihre Stoffidentität steht ausdrücklich auf\n`C0_REPLACEABLE_DEFAULT`.\n\nDas ist eine bewusste Zweiteilung:\n\n- **portable Ebene:** Drogenkopf, Rohdroge, Trockenmaterial, Zubereitung,\n  Anteil oder Endprodukt;\n- **mutige Leseschicht:** Blütenmasse, Blütenanteil, Blütenzubereitung,\n  Blütenstand und verwandte konkrete Varianten.\n\nDie mutige Schicht bleibt stehen, bis sie widersprochen oder durch eine bessere\nIdentität ersetzt wird. Sie erhält aus GDT767 keinen zusätzlichen\nLexemkredit.\n\nZwei Defaults werden enger statt blumiger: `ofcheol` und `qofcheol` heißen nun\n**Blütenzubereitung**, nicht mehr **Blütenauszug**. Auszug, Öl, Wasser, Wein und\nEssig bleiben sichtbare C0-Rivalen. Beide Wörter besitzen keine unabhängige\nFlüssigkeits- oder Auszugsachse; `qofcheol` besitzt sogar überhaupt kein",
+          "sha256": "ea39b855a34e2a6c560bd5f68794dd4b0e52f9d79c5aeac23579f3f7f900a0d5"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 255,
+          "line_end": 284,
+          "quote": "def target_info() -> dict[str, dict[str, str]]:\n    output: dict[str, dict[str, str]] = {}\n    for row in read_tsv(OFCH_SPECS):\n        output[row[\"surface\"]] = {\n            \"surface\": row[\"surface\"],\n            \"target_family\": \"OFCH_CONTAINING\",\n            \"predicted_channel\": row[\"predicted_channel\"],\n            \"prior_portable_default_de\": row[\"portable_default_de\"],\n            \"prior_bold_default_de\": row[\"bold_default_de\"],\n            \"prior_role_confidence\": row[\"role_confidence\"],\n            \"prior_identity_confidence\": row[\"identity_confidence\"],\n            \"primary_rival_de\": row[\"primary_rival_de\"],\n            \"secondary_rival_de\": row[\"secondary_rival_de\"],\n        }\n    for row in read_tsv(CHOR_SPECS):\n        if row[\"surface\"] == \"pchor\":\n            continue\n        output[row[\"surface\"]] = {\n            \"surface\": row[\"surface\"],\n            \"target_family\": \"CHOR_SCHOR_LCHOR\",\n            \"predicted_channel\": CHOR_CHANNELS[row[\"surface\"]],\n            \"prior_portable_default_de\": row[\"portable_default_de\"],\n            \"prior_bold_default_de\": row[\"bold_default_de\"],\n            \"prior_role_confidence\": row[\"role_confidence\"],\n            \"prior_identity_confidence\": row[\"identity_confidence\"],\n            \"primary_rival_de\": row[\"primary_rival_de\"],\n            \"secondary_rival_de\": row[\"secondary_rival_de\"],\n        }\n    assert len(output) == 28\n    return output",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 483,
+          "line_end": 486,
+          "quote": "def concrete_revision(surface: str, prior: str) -> tuple[str, str]:\n    if surface in {\"ofcheol\", \"qofcheol\"}:\n        return \"Blütenzubereitung\", \"Auszug, Oel, Wasser, Wein oder Essig bleiben C0-Rivalen\"\n    return prior, \"legacy concrete default retained until contradicted or replaced\"",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 527,
+          "line_end": 532,
+          "quote": "        target = info[surface]\n        stats = matrix_by_surface[surface]\n        revised, disposition = concrete_revision(surface, str(target[\"prior_bold_default_de\"]))\n        form_level = int(form[\"evidence_level_0_4\"])\n        form_confidence = (\n            \"C2_REPEATED_TARGET_FREE_FORM_GATE\" if form_level >= 4 else",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 560,
+          "line_end": 568,
+          "quote": "            \"portable_working_class_de\": portable,\n            \"forced_concrete_default_de\": revised,\n            \"forced_concrete_identity_confidence\": \"C0_REPLACEABLE_DEFAULT\",\n            \"form_confidence\": form_confidence,\n            \"prior_concrete_default_de\": target[\"prior_bold_default_de\"],\n            \"gdt767_default_disposition\": disposition,\n            \"primary_rival_de\": target[\"primary_rival_de\"],\n            \"secondary_rival_de\": target[\"secondary_rival_de\"],\n            \"dry_d1_r3_line\": stats[\"dry_d1_r3_line\"],",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        }
+      ],
+      "comparison": {
+        "counterpart_ids": [],
+        "reason": "Read the complete authored lexicon row including portable class, concrete default, local evidence/counterevidence and both rivals. Exact whole-form navigation over current active complete claims found no counterpart; EJ/EF do not assert this whole value. Recovery is bounded, not a global proof of novelty.",
+        "global_identity": "not_established_by_lexical_navigation"
+      }
+    },
+    {
+      "id": "CLEAN_GAP_EL:qofcheepy_gdt767_c0_whole",
+      "claim": "GDT767 retains the complete word qofcheepy as the replaceable C0 reading „feine Blütenzubereitung“; its inherited complete-word rivals are „Blütenzubereitung Form II“ and „Zubereitung ohne Stoffidentität“. This is an authored historical reader default, not independent identification of flowers, material state or a free ofch component.",
+      "claim_type": "lexical_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:b0a3f0f3751d2b8d8c97"
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "independent_new_idea": false,
+      "scope": {
+        "kind": "historical_complete_word_default",
+        "source_model": "GDT767 retains or narrows GDT766 concrete whole lexicon",
+        "surface": "qofcheepy",
+        "portable_prior": "feine oder Form-II-Zubereitung einer benannten Droge",
+        "concrete_default": "feine Blütenzubereitung",
+        "identity_confidence": "C0_REPLACEABLE_DEFAULT",
+        "original_local_evidence": "die einzige exakte Herbal-Stelle folgt einem H1-Kopf und steht direkt vor ofchdy",
+        "original_counterevidence": "Singleton; fein und Form II sind bloße konkrete Rivalen",
+        "primary_rival": "Blütenzubereitung Form II",
+        "secondary_rival": "Zubereitung ohne Stoffidentität",
+        "limits": "No semantic PASS inferred from source scores, donor checks, fixed rendering or analogy. No component export or unseen forms. Nominal defaults do not create imperative actions."
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/src/OFCH_25_FORM_SPECS.tsv",
+          "line": 1,
+          "line_end": 1,
+          "quote": "surface\tfamily_layer\tpredicted_channel\tportable_default_de\tbold_default_de\trole_confidence\tidentity_confidence\tidentity_score_100\tstrongest_evidence\tstrongest_counterevidence\tprimary_rival_de\tsecondary_rival_de\tfamily_analogy_scope\tglobal_component_export",
+          "sha256": "6f6f7845e01de0539d2c61737b88d0f1ff1225c87d2873045383f9671eac8502"
+        },
+        {
+          "path": "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/src/OFCH_25_FORM_SPECS.tsv",
+          "line": 22,
+          "line_end": 22,
+          "quote": "qofcheepy\tOUTER_SHELL\tPREPARATION\tfeine oder Form-II-Zubereitung einer benannten Droge\tfeine Blütenzubereitung\tC0_SINGLETON_RECORD\tC0_BOLD_ROOT_PROJECTION\t15\tdie einzige exakte Herbal-Stelle folgt einem H1-Kopf und steht direkt vor ofchdy\tSingleton; fein und Form II sind bloße konkrete Rivalen\tBlütenzubereitung Form II\tZubereitung ohne Stoffidentität\t1\t0",
+          "sha256": "6f6f7845e01de0539d2c61737b88d0f1ff1225c87d2873045383f9671eac8502"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/REPORT.md",
+          "line": 134,
+          "line_end": 154,
+          "quote": "Ein exploratives Wörterbuch ist nur dann nützlich, wenn es konkrete, ersetzbare\nLesungen ausgibt. Deshalb werden die bisherigen Blütenwerte nicht durch\n„Material X“ ersetzt. Alle 28 Zielwörter erhalten weiterhin einen konkreten\nDefault, aber ihre Stoffidentität steht ausdrücklich auf\n`C0_REPLACEABLE_DEFAULT`.\n\nDas ist eine bewusste Zweiteilung:\n\n- **portable Ebene:** Drogenkopf, Rohdroge, Trockenmaterial, Zubereitung,\n  Anteil oder Endprodukt;\n- **mutige Leseschicht:** Blütenmasse, Blütenanteil, Blütenzubereitung,\n  Blütenstand und verwandte konkrete Varianten.\n\nDie mutige Schicht bleibt stehen, bis sie widersprochen oder durch eine bessere\nIdentität ersetzt wird. Sie erhält aus GDT767 keinen zusätzlichen\nLexemkredit.\n\nZwei Defaults werden enger statt blumiger: `ofcheol` und `qofcheol` heißen nun\n**Blütenzubereitung**, nicht mehr **Blütenauszug**. Auszug, Öl, Wasser, Wein und\nEssig bleiben sichtbare C0-Rivalen. Beide Wörter besitzen keine unabhängige\nFlüssigkeits- oder Auszugsachse; `qofcheol` besitzt sogar überhaupt kein",
+          "sha256": "ea39b855a34e2a6c560bd5f68794dd4b0e52f9d79c5aeac23579f3f7f900a0d5"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 255,
+          "line_end": 284,
+          "quote": "def target_info() -> dict[str, dict[str, str]]:\n    output: dict[str, dict[str, str]] = {}\n    for row in read_tsv(OFCH_SPECS):\n        output[row[\"surface\"]] = {\n            \"surface\": row[\"surface\"],\n            \"target_family\": \"OFCH_CONTAINING\",\n            \"predicted_channel\": row[\"predicted_channel\"],\n            \"prior_portable_default_de\": row[\"portable_default_de\"],\n            \"prior_bold_default_de\": row[\"bold_default_de\"],\n            \"prior_role_confidence\": row[\"role_confidence\"],\n            \"prior_identity_confidence\": row[\"identity_confidence\"],\n            \"primary_rival_de\": row[\"primary_rival_de\"],\n            \"secondary_rival_de\": row[\"secondary_rival_de\"],\n        }\n    for row in read_tsv(CHOR_SPECS):\n        if row[\"surface\"] == \"pchor\":\n            continue\n        output[row[\"surface\"]] = {\n            \"surface\": row[\"surface\"],\n            \"target_family\": \"CHOR_SCHOR_LCHOR\",\n            \"predicted_channel\": CHOR_CHANNELS[row[\"surface\"]],\n            \"prior_portable_default_de\": row[\"portable_default_de\"],\n            \"prior_bold_default_de\": row[\"bold_default_de\"],\n            \"prior_role_confidence\": row[\"role_confidence\"],\n            \"prior_identity_confidence\": row[\"identity_confidence\"],\n            \"primary_rival_de\": row[\"primary_rival_de\"],\n            \"secondary_rival_de\": row[\"secondary_rival_de\"],\n        }\n    assert len(output) == 28\n    return output",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 483,
+          "line_end": 486,
+          "quote": "def concrete_revision(surface: str, prior: str) -> tuple[str, str]:\n    if surface in {\"ofcheol\", \"qofcheol\"}:\n        return \"Blütenzubereitung\", \"Auszug, Oel, Wasser, Wein oder Essig bleiben C0-Rivalen\"\n    return prior, \"legacy concrete default retained until contradicted or replaced\"",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 527,
+          "line_end": 532,
+          "quote": "        target = info[surface]\n        stats = matrix_by_surface[surface]\n        revised, disposition = concrete_revision(surface, str(target[\"prior_bold_default_de\"]))\n        form_level = int(form[\"evidence_level_0_4\"])\n        form_confidence = (\n            \"C2_REPEATED_TARGET_FREE_FORM_GATE\" if form_level >= 4 else",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 560,
+          "line_end": 568,
+          "quote": "            \"portable_working_class_de\": portable,\n            \"forced_concrete_default_de\": revised,\n            \"forced_concrete_identity_confidence\": \"C0_REPLACEABLE_DEFAULT\",\n            \"form_confidence\": form_confidence,\n            \"prior_concrete_default_de\": target[\"prior_bold_default_de\"],\n            \"gdt767_default_disposition\": disposition,\n            \"primary_rival_de\": target[\"primary_rival_de\"],\n            \"secondary_rival_de\": target[\"secondary_rival_de\"],\n            \"dry_d1_r3_line\": stats[\"dry_d1_r3_line\"],",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        }
+      ],
+      "comparison": {
+        "counterpart_ids": [],
+        "reason": "Read the complete authored lexicon row including portable class, concrete default, local evidence/counterevidence and both rivals. Exact whole-form navigation over current active complete claims found no counterpart; EJ/EF do not assert this whole value. Recovery is bounded, not a global proof of novelty.",
+        "global_identity": "not_established_by_lexical_navigation"
+      }
+    },
+    {
+      "id": "CLEAN_GAP_EL:qofchey_gdt767_c0_whole",
+      "claim": "GDT767 retains the complete word qofchey as the replaceable C0 reading „angefeuchtete Blütenzubereitung“; its inherited complete-word rivals are „Blütenmazerat“ and „angefeuchtete sonstige Zubereitung“. This is an authored historical reader default, not independent identification of flowers, material state or a free ofch component.",
+      "claim_type": "lexical_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:b0a3f0f3751d2b8d8c97"
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "independent_new_idea": false,
+      "scope": {
+        "kind": "historical_complete_word_default",
+        "source_model": "GDT767 retains or narrows GDT766 concrete whole lexicon",
+        "surface": "qofchey",
+        "portable_prior": "angefeuchtete Zubereitung einer benannten Droge",
+        "concrete_default": "angefeuchtete Blütenzubereitung",
+        "identity_confidence": "C0_REPLACEABLE_DEFAULT",
+        "original_local_evidence": "die einzige exakte B-Stelle folgt mittlerem Feuchtzustand und steht vor einem Ansatz-/Trägerfeld",
+        "original_counterevidence": "Singleton; keine direkte Prozessbindung",
+        "primary_rival": "Blütenmazerat",
+        "secondary_rival": "angefeuchtete sonstige Zubereitung",
+        "limits": "No semantic PASS inferred from source scores, donor checks, fixed rendering or analogy. No component export or unseen forms. Nominal defaults do not create imperative actions."
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/src/OFCH_25_FORM_SPECS.tsv",
+          "line": 1,
+          "line_end": 1,
+          "quote": "surface\tfamily_layer\tpredicted_channel\tportable_default_de\tbold_default_de\trole_confidence\tidentity_confidence\tidentity_score_100\tstrongest_evidence\tstrongest_counterevidence\tprimary_rival_de\tsecondary_rival_de\tfamily_analogy_scope\tglobal_component_export",
+          "sha256": "6f6f7845e01de0539d2c61737b88d0f1ff1225c87d2873045383f9671eac8502"
+        },
+        {
+          "path": "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/src/OFCH_25_FORM_SPECS.tsv",
+          "line": 24,
+          "line_end": 24,
+          "quote": "qofchey\tOUTER_SHELL\tMOIST_PREPARATION\tangefeuchtete Zubereitung einer benannten Droge\tangefeuchtete Blütenzubereitung\tC0_SINGLETON_MOIST\tC0_BOLD_ROOT_PROJECTION\t24\tdie einzige exakte B-Stelle folgt mittlerem Feuchtzustand und steht vor einem Ansatz-/Trägerfeld\tSingleton; keine direkte Prozessbindung\tBlütenmazerat\tangefeuchtete sonstige Zubereitung\t1\t0",
+          "sha256": "6f6f7845e01de0539d2c61737b88d0f1ff1225c87d2873045383f9671eac8502"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/REPORT.md",
+          "line": 134,
+          "line_end": 154,
+          "quote": "Ein exploratives Wörterbuch ist nur dann nützlich, wenn es konkrete, ersetzbare\nLesungen ausgibt. Deshalb werden die bisherigen Blütenwerte nicht durch\n„Material X“ ersetzt. Alle 28 Zielwörter erhalten weiterhin einen konkreten\nDefault, aber ihre Stoffidentität steht ausdrücklich auf\n`C0_REPLACEABLE_DEFAULT`.\n\nDas ist eine bewusste Zweiteilung:\n\n- **portable Ebene:** Drogenkopf, Rohdroge, Trockenmaterial, Zubereitung,\n  Anteil oder Endprodukt;\n- **mutige Leseschicht:** Blütenmasse, Blütenanteil, Blütenzubereitung,\n  Blütenstand und verwandte konkrete Varianten.\n\nDie mutige Schicht bleibt stehen, bis sie widersprochen oder durch eine bessere\nIdentität ersetzt wird. Sie erhält aus GDT767 keinen zusätzlichen\nLexemkredit.\n\nZwei Defaults werden enger statt blumiger: `ofcheol` und `qofcheol` heißen nun\n**Blütenzubereitung**, nicht mehr **Blütenauszug**. Auszug, Öl, Wasser, Wein und\nEssig bleiben sichtbare C0-Rivalen. Beide Wörter besitzen keine unabhängige\nFlüssigkeits- oder Auszugsachse; `qofcheol` besitzt sogar überhaupt kein",
+          "sha256": "ea39b855a34e2a6c560bd5f68794dd4b0e52f9d79c5aeac23579f3f7f900a0d5"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 255,
+          "line_end": 284,
+          "quote": "def target_info() -> dict[str, dict[str, str]]:\n    output: dict[str, dict[str, str]] = {}\n    for row in read_tsv(OFCH_SPECS):\n        output[row[\"surface\"]] = {\n            \"surface\": row[\"surface\"],\n            \"target_family\": \"OFCH_CONTAINING\",\n            \"predicted_channel\": row[\"predicted_channel\"],\n            \"prior_portable_default_de\": row[\"portable_default_de\"],\n            \"prior_bold_default_de\": row[\"bold_default_de\"],\n            \"prior_role_confidence\": row[\"role_confidence\"],\n            \"prior_identity_confidence\": row[\"identity_confidence\"],\n            \"primary_rival_de\": row[\"primary_rival_de\"],\n            \"secondary_rival_de\": row[\"secondary_rival_de\"],\n        }\n    for row in read_tsv(CHOR_SPECS):\n        if row[\"surface\"] == \"pchor\":\n            continue\n        output[row[\"surface\"]] = {\n            \"surface\": row[\"surface\"],\n            \"target_family\": \"CHOR_SCHOR_LCHOR\",\n            \"predicted_channel\": CHOR_CHANNELS[row[\"surface\"]],\n            \"prior_portable_default_de\": row[\"portable_default_de\"],\n            \"prior_bold_default_de\": row[\"bold_default_de\"],\n            \"prior_role_confidence\": row[\"role_confidence\"],\n            \"prior_identity_confidence\": row[\"identity_confidence\"],\n            \"primary_rival_de\": row[\"primary_rival_de\"],\n            \"secondary_rival_de\": row[\"secondary_rival_de\"],\n        }\n    assert len(output) == 28\n    return output",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 483,
+          "line_end": 486,
+          "quote": "def concrete_revision(surface: str, prior: str) -> tuple[str, str]:\n    if surface in {\"ofcheol\", \"qofcheol\"}:\n        return \"Blütenzubereitung\", \"Auszug, Oel, Wasser, Wein oder Essig bleiben C0-Rivalen\"\n    return prior, \"legacy concrete default retained until contradicted or replaced\"",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 527,
+          "line_end": 532,
+          "quote": "        target = info[surface]\n        stats = matrix_by_surface[surface]\n        revised, disposition = concrete_revision(surface, str(target[\"prior_bold_default_de\"]))\n        form_level = int(form[\"evidence_level_0_4\"])\n        form_confidence = (\n            \"C2_REPEATED_TARGET_FREE_FORM_GATE\" if form_level >= 4 else",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 560,
+          "line_end": 568,
+          "quote": "            \"portable_working_class_de\": portable,\n            \"forced_concrete_default_de\": revised,\n            \"forced_concrete_identity_confidence\": \"C0_REPLACEABLE_DEFAULT\",\n            \"form_confidence\": form_confidence,\n            \"prior_concrete_default_de\": target[\"prior_bold_default_de\"],\n            \"gdt767_default_disposition\": disposition,\n            \"primary_rival_de\": target[\"primary_rival_de\"],\n            \"secondary_rival_de\": target[\"secondary_rival_de\"],\n            \"dry_d1_r3_line\": stats[\"dry_d1_r3_line\"],",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        }
+      ],
+      "comparison": {
+        "counterpart_ids": [],
+        "reason": "Read the complete authored lexicon row including portable class, concrete default, local evidence/counterevidence and both rivals. Exact whole-form navigation over current active complete claims found no counterpart; EJ/EF do not assert this whole value. Recovery is bounded, not a global proof of novelty.",
+        "global_identity": "not_established_by_lexical_navigation"
+      }
+    },
+    {
+      "id": "CLEAN_GAP_EL:qofchol_gdt767_c0_whole",
+      "claim": "GDT767 retains the complete word qofchol as the replaceable C0 reading „getrocknete Blütenzubereitung“; its inherited complete-word rivals are „getrocknete Blütendroge“ and „qualifizierte Trockenbereitung ohne Stoffidentität“. This is an authored historical reader default, not independent identification of flowers, material state or a free ofch component.",
+      "claim_type": "lexical_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:b0a3f0f3751d2b8d8c97"
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "independent_new_idea": false,
+      "scope": {
+        "kind": "historical_complete_word_default",
+        "source_model": "GDT767 retains or narrows GDT766 concrete whole lexicon",
+        "surface": "qofchol",
+        "portable_prior": "qualifizierte getrocknete Arzneizubereitung",
+        "concrete_default": "getrocknete Blütenzubereitung",
+        "identity_confidence": "C0_REPLACEABLE_DEFAULT",
+        "original_local_evidence": "zwei exakte Stellen stehen vor heiß-trockenem Grad III beziehungsweise zeilenfinal nach einem Zubereitungsblock",
+        "original_counterevidence": "nur zwei verschiedene Kontexte; kein direkter Trockenwert am Ziel",
+        "primary_rival": "getrocknete Blütendroge",
+        "secondary_rival": "qualifizierte Trockenbereitung ohne Stoffidentität",
+        "limits": "No semantic PASS inferred from source scores, donor checks, fixed rendering or analogy. No component export or unseen forms. Nominal defaults do not create imperative actions."
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/src/OFCH_25_FORM_SPECS.tsv",
+          "line": 1,
+          "line_end": 1,
+          "quote": "surface\tfamily_layer\tpredicted_channel\tportable_default_de\tbold_default_de\trole_confidence\tidentity_confidence\tidentity_score_100\tstrongest_evidence\tstrongest_counterevidence\tprimary_rival_de\tsecondary_rival_de\tfamily_analogy_scope\tglobal_component_export",
+          "sha256": "6f6f7845e01de0539d2c61737b88d0f1ff1225c87d2873045383f9671eac8502"
+        },
+        {
+          "path": "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/src/OFCH_25_FORM_SPECS.tsv",
+          "line": 25,
+          "line_end": 25,
+          "quote": "qofchol\tOUTER_SHELL\tDRY_RESULT\tqualifizierte getrocknete Arzneizubereitung\tgetrocknete Blütenzubereitung\tC0_TWO_CONTEXTS\tC0_BOLD_ROOT_PROJECTION\t26\tzwei exakte Stellen stehen vor heiß-trockenem Grad III beziehungsweise zeilenfinal nach einem Zubereitungsblock\tnur zwei verschiedene Kontexte; kein direkter Trockenwert am Ziel\tgetrocknete Blütendroge\tqualifizierte Trockenbereitung ohne Stoffidentität\t1\t0",
+          "sha256": "6f6f7845e01de0539d2c61737b88d0f1ff1225c87d2873045383f9671eac8502"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/REPORT.md",
+          "line": 134,
+          "line_end": 154,
+          "quote": "Ein exploratives Wörterbuch ist nur dann nützlich, wenn es konkrete, ersetzbare\nLesungen ausgibt. Deshalb werden die bisherigen Blütenwerte nicht durch\n„Material X“ ersetzt. Alle 28 Zielwörter erhalten weiterhin einen konkreten\nDefault, aber ihre Stoffidentität steht ausdrücklich auf\n`C0_REPLACEABLE_DEFAULT`.\n\nDas ist eine bewusste Zweiteilung:\n\n- **portable Ebene:** Drogenkopf, Rohdroge, Trockenmaterial, Zubereitung,\n  Anteil oder Endprodukt;\n- **mutige Leseschicht:** Blütenmasse, Blütenanteil, Blütenzubereitung,\n  Blütenstand und verwandte konkrete Varianten.\n\nDie mutige Schicht bleibt stehen, bis sie widersprochen oder durch eine bessere\nIdentität ersetzt wird. Sie erhält aus GDT767 keinen zusätzlichen\nLexemkredit.\n\nZwei Defaults werden enger statt blumiger: `ofcheol` und `qofcheol` heißen nun\n**Blütenzubereitung**, nicht mehr **Blütenauszug**. Auszug, Öl, Wasser, Wein und\nEssig bleiben sichtbare C0-Rivalen. Beide Wörter besitzen keine unabhängige\nFlüssigkeits- oder Auszugsachse; `qofcheol` besitzt sogar überhaupt kein",
+          "sha256": "ea39b855a34e2a6c560bd5f68794dd4b0e52f9d79c5aeac23579f3f7f900a0d5"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 255,
+          "line_end": 284,
+          "quote": "def target_info() -> dict[str, dict[str, str]]:\n    output: dict[str, dict[str, str]] = {}\n    for row in read_tsv(OFCH_SPECS):\n        output[row[\"surface\"]] = {\n            \"surface\": row[\"surface\"],\n            \"target_family\": \"OFCH_CONTAINING\",\n            \"predicted_channel\": row[\"predicted_channel\"],\n            \"prior_portable_default_de\": row[\"portable_default_de\"],\n            \"prior_bold_default_de\": row[\"bold_default_de\"],\n            \"prior_role_confidence\": row[\"role_confidence\"],\n            \"prior_identity_confidence\": row[\"identity_confidence\"],\n            \"primary_rival_de\": row[\"primary_rival_de\"],\n            \"secondary_rival_de\": row[\"secondary_rival_de\"],\n        }\n    for row in read_tsv(CHOR_SPECS):\n        if row[\"surface\"] == \"pchor\":\n            continue\n        output[row[\"surface\"]] = {\n            \"surface\": row[\"surface\"],\n            \"target_family\": \"CHOR_SCHOR_LCHOR\",\n            \"predicted_channel\": CHOR_CHANNELS[row[\"surface\"]],\n            \"prior_portable_default_de\": row[\"portable_default_de\"],\n            \"prior_bold_default_de\": row[\"bold_default_de\"],\n            \"prior_role_confidence\": row[\"role_confidence\"],\n            \"prior_identity_confidence\": row[\"identity_confidence\"],\n            \"primary_rival_de\": row[\"primary_rival_de\"],\n            \"secondary_rival_de\": row[\"secondary_rival_de\"],\n        }\n    assert len(output) == 28\n    return output",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 483,
+          "line_end": 486,
+          "quote": "def concrete_revision(surface: str, prior: str) -> tuple[str, str]:\n    if surface in {\"ofcheol\", \"qofcheol\"}:\n        return \"Blütenzubereitung\", \"Auszug, Oel, Wasser, Wein oder Essig bleiben C0-Rivalen\"\n    return prior, \"legacy concrete default retained until contradicted or replaced\"",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 527,
+          "line_end": 532,
+          "quote": "        target = info[surface]\n        stats = matrix_by_surface[surface]\n        revised, disposition = concrete_revision(surface, str(target[\"prior_bold_default_de\"]))\n        form_level = int(form[\"evidence_level_0_4\"])\n        form_confidence = (\n            \"C2_REPEATED_TARGET_FREE_FORM_GATE\" if form_level >= 4 else",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 560,
+          "line_end": 568,
+          "quote": "            \"portable_working_class_de\": portable,\n            \"forced_concrete_default_de\": revised,\n            \"forced_concrete_identity_confidence\": \"C0_REPLACEABLE_DEFAULT\",\n            \"form_confidence\": form_confidence,\n            \"prior_concrete_default_de\": target[\"prior_bold_default_de\"],\n            \"gdt767_default_disposition\": disposition,\n            \"primary_rival_de\": target[\"primary_rival_de\"],\n            \"secondary_rival_de\": target[\"secondary_rival_de\"],\n            \"dry_d1_r3_line\": stats[\"dry_d1_r3_line\"],",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        }
+      ],
+      "comparison": {
+        "counterpart_ids": [],
+        "reason": "Read the complete authored lexicon row including portable class, concrete default, local evidence/counterevidence and both rivals. Exact whole-form navigation over current active complete claims found no counterpart; EJ/EF do not assert this whole value. Recovery is bounded, not a global proof of novelty.",
+        "global_identity": "not_established_by_lexical_navigation"
+      }
+    },
+    {
+      "id": "CLEAN_GAP_EL:qofchor_gdt767_c0_whole",
+      "claim": "GDT767 retains the complete word qofchor as the replaceable C0 reading „Blütenportion“; its inherited complete-word rivals are „Blütenstandsposten“ and „qualifizierter Drogenposten ohne Stoffidentität“. This is an authored historical reader default, not independent identification of flowers, material state or a free ofch component.",
+      "claim_type": "lexical_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:b0a3f0f3751d2b8d8c97"
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "independent_new_idea": false,
+      "scope": {
+        "kind": "historical_complete_word_default",
+        "source_model": "GDT767 retains or narrows GDT766 concrete whole lexicon",
+        "surface": "qofchor",
+        "portable_prior": "qualifizierter Pflanzenteil- oder Drogenposten",
+        "concrete_default": "Blütenportion",
+        "identity_confidence": "C0_REPLACEABLE_DEFAULT",
+        "original_local_evidence": "die einzige exakte Herbal-Stelle folgt kalt-trockener Mittelstufe und steht vor einem H2-Posten",
+        "original_counterevidence": "Singleton; Portion gegen Pflanzenteil und Übergang offen",
+        "primary_rival": "Blütenstandsposten",
+        "secondary_rival": "qualifizierter Drogenposten ohne Stoffidentität",
+        "limits": "No semantic PASS inferred from source scores, donor checks, fixed rendering or analogy. No component export or unseen forms. Nominal defaults do not create imperative actions."
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/src/OFCH_25_FORM_SPECS.tsv",
+          "line": 1,
+          "line_end": 1,
+          "quote": "surface\tfamily_layer\tpredicted_channel\tportable_default_de\tbold_default_de\trole_confidence\tidentity_confidence\tidentity_score_100\tstrongest_evidence\tstrongest_counterevidence\tprimary_rival_de\tsecondary_rival_de\tfamily_analogy_scope\tglobal_component_export",
+          "sha256": "6f6f7845e01de0539d2c61737b88d0f1ff1225c87d2873045383f9671eac8502"
+        },
+        {
+          "path": "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/src/OFCH_25_FORM_SPECS.tsv",
+          "line": 26,
+          "line_end": 26,
+          "quote": "qofchor\tOUTER_SHELL\tPART_AMOUNT\tqualifizierter Pflanzenteil- oder Drogenposten\tBlütenportion\tC0_SINGLETON_ITEM\tC0_BOLD_ROOT_PROJECTION\t24\tdie einzige exakte Herbal-Stelle folgt kalt-trockener Mittelstufe und steht vor einem H2-Posten\tSingleton; Portion gegen Pflanzenteil und Übergang offen\tBlütenstandsposten\tqualifizierter Drogenposten ohne Stoffidentität\t1\t0",
+          "sha256": "6f6f7845e01de0539d2c61737b88d0f1ff1225c87d2873045383f9671eac8502"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/REPORT.md",
+          "line": 134,
+          "line_end": 154,
+          "quote": "Ein exploratives Wörterbuch ist nur dann nützlich, wenn es konkrete, ersetzbare\nLesungen ausgibt. Deshalb werden die bisherigen Blütenwerte nicht durch\n„Material X“ ersetzt. Alle 28 Zielwörter erhalten weiterhin einen konkreten\nDefault, aber ihre Stoffidentität steht ausdrücklich auf\n`C0_REPLACEABLE_DEFAULT`.\n\nDas ist eine bewusste Zweiteilung:\n\n- **portable Ebene:** Drogenkopf, Rohdroge, Trockenmaterial, Zubereitung,\n  Anteil oder Endprodukt;\n- **mutige Leseschicht:** Blütenmasse, Blütenanteil, Blütenzubereitung,\n  Blütenstand und verwandte konkrete Varianten.\n\nDie mutige Schicht bleibt stehen, bis sie widersprochen oder durch eine bessere\nIdentität ersetzt wird. Sie erhält aus GDT767 keinen zusätzlichen\nLexemkredit.\n\nZwei Defaults werden enger statt blumiger: `ofcheol` und `qofcheol` heißen nun\n**Blütenzubereitung**, nicht mehr **Blütenauszug**. Auszug, Öl, Wasser, Wein und\nEssig bleiben sichtbare C0-Rivalen. Beide Wörter besitzen keine unabhängige\nFlüssigkeits- oder Auszugsachse; `qofcheol` besitzt sogar überhaupt kein",
+          "sha256": "ea39b855a34e2a6c560bd5f68794dd4b0e52f9d79c5aeac23579f3f7f900a0d5"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 255,
+          "line_end": 284,
+          "quote": "def target_info() -> dict[str, dict[str, str]]:\n    output: dict[str, dict[str, str]] = {}\n    for row in read_tsv(OFCH_SPECS):\n        output[row[\"surface\"]] = {\n            \"surface\": row[\"surface\"],\n            \"target_family\": \"OFCH_CONTAINING\",\n            \"predicted_channel\": row[\"predicted_channel\"],\n            \"prior_portable_default_de\": row[\"portable_default_de\"],\n            \"prior_bold_default_de\": row[\"bold_default_de\"],\n            \"prior_role_confidence\": row[\"role_confidence\"],\n            \"prior_identity_confidence\": row[\"identity_confidence\"],\n            \"primary_rival_de\": row[\"primary_rival_de\"],\n            \"secondary_rival_de\": row[\"secondary_rival_de\"],\n        }\n    for row in read_tsv(CHOR_SPECS):\n        if row[\"surface\"] == \"pchor\":\n            continue\n        output[row[\"surface\"]] = {\n            \"surface\": row[\"surface\"],\n            \"target_family\": \"CHOR_SCHOR_LCHOR\",\n            \"predicted_channel\": CHOR_CHANNELS[row[\"surface\"]],\n            \"prior_portable_default_de\": row[\"portable_default_de\"],\n            \"prior_bold_default_de\": row[\"bold_default_de\"],\n            \"prior_role_confidence\": row[\"role_confidence\"],\n            \"prior_identity_confidence\": row[\"identity_confidence\"],\n            \"primary_rival_de\": row[\"primary_rival_de\"],\n            \"secondary_rival_de\": row[\"secondary_rival_de\"],\n        }\n    assert len(output) == 28\n    return output",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 483,
+          "line_end": 486,
+          "quote": "def concrete_revision(surface: str, prior: str) -> tuple[str, str]:\n    if surface in {\"ofcheol\", \"qofcheol\"}:\n        return \"Blütenzubereitung\", \"Auszug, Oel, Wasser, Wein oder Essig bleiben C0-Rivalen\"\n    return prior, \"legacy concrete default retained until contradicted or replaced\"",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 527,
+          "line_end": 532,
+          "quote": "        target = info[surface]\n        stats = matrix_by_surface[surface]\n        revised, disposition = concrete_revision(surface, str(target[\"prior_bold_default_de\"]))\n        form_level = int(form[\"evidence_level_0_4\"])\n        form_confidence = (\n            \"C2_REPEATED_TARGET_FREE_FORM_GATE\" if form_level >= 4 else",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        },
+        {
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+          "line": 560,
+          "line_end": 568,
+          "quote": "            \"portable_working_class_de\": portable,\n            \"forced_concrete_default_de\": revised,\n            \"forced_concrete_identity_confidence\": \"C0_REPLACEABLE_DEFAULT\",\n            \"form_confidence\": form_confidence,\n            \"prior_concrete_default_de\": target[\"prior_bold_default_de\"],\n            \"gdt767_default_disposition\": disposition,\n            \"primary_rival_de\": target[\"primary_rival_de\"],\n            \"secondary_rival_de\": target[\"secondary_rival_de\"],\n            \"dry_d1_r3_line\": stats[\"dry_d1_r3_line\"],",
+          "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed"
+        }
+      ],
+      "comparison": {
+        "counterpart_ids": [],
+        "reason": "Read the complete authored lexicon row including portable class, concrete default, local evidence/counterevidence and both rivals. Exact whole-form navigation over current active complete claims found no counterpart; EJ/EF do not assert this whole value. Recovery is bounded, not a global proof of novelty.",
+        "global_identity": "not_established_by_lexical_navigation"
+      }
+    }
+  ],
+  "dispositions": [],
+  "source_reassessments": [
+    {
+      "source_id": "LEGACY_COMPONENT:b0a3f0f3751d2b8d8c97",
+      "original_decision": "retained_defaults_not_independent_identification",
+      "previous_review": "EJ",
+      "previous_decision": "scope_comparison_open",
+      "decision": "named_whole_default_remainder_addressed",
+      "reason": "All seventeen explicitly named EJ remaining values compared at complete assertion level. Sixteen whole defaults recovered without a current exact-form counterpart; one later ofchedy version/rival contract retained beside its GDT680 counterpart without forced identity. EJ eight recovered plus three audit-only entries remain unchanged. This closes this enumerated 28-default source inventory, not all GDT767 propositions or semantic validity.",
+      "card_ids": [
+        "CLEAN_GAP_EL:chofchdy_gdt767_c0_whole",
+        "CLEAN_GAP_EL:chofchol_gdt767_c0_whole",
+        "CLEAN_GAP_EL:chofchy_gdt767_c0_whole",
+        "CLEAN_GAP_EL:ofcheds_gdt767_c0_whole",
+        "CLEAN_GAP_EL:ofchedy_gdt767_c0_whole",
+        "CLEAN_GAP_EL:ofcheefar_gdt767_c0_whole",
+        "CLEAN_GAP_EL:ofchol_gdt767_c0_whole",
+        "CLEAN_GAP_EL:ofchoshy_gdt767_c0_whole",
+        "CLEAN_GAP_EL:ofchr_gdt767_c0_whole",
+        "CLEAN_GAP_EL:ofchtar_gdt767_c0_whole",
+        "CLEAN_GAP_EL:qofchal_gdt767_c0_whole",
+        "CLEAN_GAP_EL:qofchdar_gdt767_c0_whole",
+        "CLEAN_GAP_EL:qofchdy_gdt767_c0_whole",
+        "CLEAN_GAP_EL:qofcheepy_gdt767_c0_whole",
+        "CLEAN_GAP_EL:qofchey_gdt767_c0_whole",
+        "CLEAN_GAP_EL:qofchol_gdt767_c0_whole",
+        "CLEAN_GAP_EL:qofchor_gdt767_c0_whole"
+      ]
+    }
+  ],
+  "whole_form_dispositions": [
+    {
+      "surface": "chofchdy",
+      "decision": "historical_whole_default_recovered",
+      "card_ids": [
+        "CLEAN_GAP_EL:chofchdy_gdt767_c0_whole"
+      ],
+      "counterpart_ids": [],
+      "reason": "Read the complete authored lexicon row including portable class, concrete default, local evidence/counterevidence and both rivals. Exact whole-form navigation over current active complete claims found no counterpart; EJ/EF do not assert this whole value. Recovery is bounded, not a global proof of novelty."
+    },
+    {
+      "surface": "chofchol",
+      "decision": "historical_whole_default_recovered",
+      "card_ids": [
+        "CLEAN_GAP_EL:chofchol_gdt767_c0_whole"
+      ],
+      "counterpart_ids": [],
+      "reason": "Read the complete authored lexicon row including portable class, concrete default, local evidence/counterevidence and both rivals. Exact whole-form navigation over current active complete claims found no counterpart; EJ/EF do not assert this whole value. Recovery is bounded, not a global proof of novelty."
+    },
+    {
+      "surface": "chofchy",
+      "decision": "historical_whole_default_recovered",
+      "card_ids": [
+        "CLEAN_GAP_EL:chofchy_gdt767_c0_whole"
+      ],
+      "counterpart_ids": [],
+      "reason": "Read the complete authored lexicon row including portable class, concrete default, local evidence/counterevidence and both rivals. Exact whole-form navigation over current active complete claims found no counterpart; EJ/EF do not assert this whole value. Recovery is bounded, not a global proof of novelty."
+    },
+    {
+      "surface": "ofcheds",
+      "decision": "historical_whole_default_recovered",
+      "card_ids": [
+        "CLEAN_GAP_EL:ofcheds_gdt767_c0_whole"
+      ],
+      "counterpart_ids": [],
+      "reason": "Read the complete authored lexicon row including portable class, concrete default, local evidence/counterevidence and both rivals. Exact whole-form navigation over current active complete claims found no counterpart; EJ/EF do not assert this whole value. Recovery is bounded, not a global proof of novelty."
+    },
+    {
+      "surface": "ofchedy",
+      "decision": "historical_scoped_variant_recovered",
+      "card_ids": [
+        "CLEAN_GAP_EL:ofchedy_gdt767_c0_whole"
+      ],
+      "counterpart_ids": [
+        "SEM:5354d79ebd57dcb451a6"
+      ],
+      "reason": "Entire current card/case is GDT680 ofchedy=fertig getrockneter Blütenansatz, with its direct dictionary row and historical family qualification. GDT723 expressly moves replaceable product wording out of the portable core, and GDT767 keeps mass as a C0 display with fruit/other-drug rivals. Preserve this specific later version and rival contract; do not append as an identical source case or infer non-equivalence merely from Ansatz versus Masse."
+    },
+    {
+      "surface": "ofcheefar",
+      "decision": "historical_whole_default_recovered",
+      "card_ids": [
+        "CLEAN_GAP_EL:ofcheefar_gdt767_c0_whole"
+      ],
+      "counterpart_ids": [],
+      "reason": "Read the complete authored lexicon row including portable class, concrete default, local evidence/counterevidence and both rivals. Exact whole-form navigation over current active complete claims found no counterpart; EJ/EF do not assert this whole value. Recovery is bounded, not a global proof of novelty."
+    },
+    {
+      "surface": "ofchol",
+      "decision": "historical_whole_default_recovered",
+      "card_ids": [
+        "CLEAN_GAP_EL:ofchol_gdt767_c0_whole"
+      ],
+      "counterpart_ids": [],
+      "reason": "Read the complete authored lexicon row including portable class, concrete default, local evidence/counterevidence and both rivals. Exact whole-form navigation over current active complete claims found no counterpart; EJ/EF do not assert this whole value. Recovery is bounded, not a global proof of novelty."
+    },
+    {
+      "surface": "ofchoshy",
+      "decision": "historical_whole_default_recovered",
+      "card_ids": [
+        "CLEAN_GAP_EL:ofchoshy_gdt767_c0_whole"
+      ],
+      "counterpart_ids": [],
+      "reason": "Read the complete authored lexicon row including portable class, concrete default, local evidence/counterevidence and both rivals. Exact whole-form navigation over current active complete claims found no counterpart; EJ/EF do not assert this whole value. Recovery is bounded, not a global proof of novelty."
+    },
+    {
+      "surface": "ofchr",
+      "decision": "historical_whole_default_recovered",
+      "card_ids": [
+        "CLEAN_GAP_EL:ofchr_gdt767_c0_whole"
+      ],
+      "counterpart_ids": [],
+      "reason": "Read the complete authored lexicon row including portable class, concrete default, local evidence/counterevidence and both rivals. Exact whole-form navigation over current active complete claims found no counterpart; EJ/EF do not assert this whole value. Recovery is bounded, not a global proof of novelty."
+    },
+    {
+      "surface": "ofchtar",
+      "decision": "historical_whole_default_recovered",
+      "card_ids": [
+        "CLEAN_GAP_EL:ofchtar_gdt767_c0_whole"
+      ],
+      "counterpart_ids": [],
+      "reason": "Read the complete authored lexicon row including portable class, concrete default, local evidence/counterevidence and both rivals. Exact whole-form navigation over current active complete claims found no counterpart; EJ/EF do not assert this whole value. Recovery is bounded, not a global proof of novelty."
+    },
+    {
+      "surface": "qofchal",
+      "decision": "historical_whole_default_recovered",
+      "card_ids": [
+        "CLEAN_GAP_EL:qofchal_gdt767_c0_whole"
+      ],
+      "counterpart_ids": [],
+      "reason": "Read the complete authored lexicon row including portable class, concrete default, local evidence/counterevidence and both rivals. Exact whole-form navigation over current active complete claims found no counterpart; EJ/EF do not assert this whole value. Recovery is bounded, not a global proof of novelty."
+    },
+    {
+      "surface": "qofchdar",
+      "decision": "historical_whole_default_recovered",
+      "card_ids": [
+        "CLEAN_GAP_EL:qofchdar_gdt767_c0_whole"
+      ],
+      "counterpart_ids": [],
+      "reason": "Read the complete authored lexicon row including portable class, concrete default, local evidence/counterevidence and both rivals. Exact whole-form navigation over current active complete claims found no counterpart; EJ/EF do not assert this whole value. Recovery is bounded, not a global proof of novelty."
+    },
+    {
+      "surface": "qofchdy",
+      "decision": "historical_whole_default_recovered",
+      "card_ids": [
+        "CLEAN_GAP_EL:qofchdy_gdt767_c0_whole"
+      ],
+      "counterpart_ids": [],
+      "reason": "Read the complete authored lexicon row including portable class, concrete default, local evidence/counterevidence and both rivals. Exact whole-form navigation over current active complete claims found no counterpart; EJ/EF do not assert this whole value. Recovery is bounded, not a global proof of novelty."
+    },
+    {
+      "surface": "qofcheepy",
+      "decision": "historical_whole_default_recovered",
+      "card_ids": [
+        "CLEAN_GAP_EL:qofcheepy_gdt767_c0_whole"
+      ],
+      "counterpart_ids": [],
+      "reason": "Read the complete authored lexicon row including portable class, concrete default, local evidence/counterevidence and both rivals. Exact whole-form navigation over current active complete claims found no counterpart; EJ/EF do not assert this whole value. Recovery is bounded, not a global proof of novelty."
+    },
+    {
+      "surface": "qofchey",
+      "decision": "historical_whole_default_recovered",
+      "card_ids": [
+        "CLEAN_GAP_EL:qofchey_gdt767_c0_whole"
+      ],
+      "counterpart_ids": [],
+      "reason": "Read the complete authored lexicon row including portable class, concrete default, local evidence/counterevidence and both rivals. Exact whole-form navigation over current active complete claims found no counterpart; EJ/EF do not assert this whole value. Recovery is bounded, not a global proof of novelty."
+    },
+    {
+      "surface": "qofchol",
+      "decision": "historical_whole_default_recovered",
+      "card_ids": [
+        "CLEAN_GAP_EL:qofchol_gdt767_c0_whole"
+      ],
+      "counterpart_ids": [],
+      "reason": "Read the complete authored lexicon row including portable class, concrete default, local evidence/counterevidence and both rivals. Exact whole-form navigation over current active complete claims found no counterpart; EJ/EF do not assert this whole value. Recovery is bounded, not a global proof of novelty."
+    },
+    {
+      "surface": "qofchor",
+      "decision": "historical_whole_default_recovered",
+      "card_ids": [
+        "CLEAN_GAP_EL:qofchor_gdt767_c0_whole"
+      ],
+      "counterpart_ids": [],
+      "reason": "Read the complete authored lexicon row including portable class, concrete default, local evidence/counterevidence and both rivals. Exact whole-form navigation over current active complete claims found no counterpart; EJ/EF do not assert this whole value. Recovery is bounded, not a global proof of novelty."
+    }
+  ],
+  "counts": {
+    "reviewed_named_remainder": 17,
+    "cards": 17,
+    "new_source_cases_added_to_existing_cards": 0,
+    "source_values_unaddressed": 0,
+    "identity_comparisons_open": 1,
+    "independent_new_mechanisms": 0
+  },
+  "validation": {
+    "cards_exact_quote_sha_pass": 17,
+    "parent_raw_files_preserved": true,
+    "event_data_read": false,
+    "runner_executed": false
+  },
+  "operational_mutation": false,
+  "source_inventory_hashes": {
+    "research_registry/decisions/clean_gap_review_ej.json": "05d81c3507f91d71ed46743325e02f88e79bb773db25e50454e2aaae36ba248e",
+    "research_registry/decisions/source_coverage_scope_batch_ej.json": "97302aeac2ff1db5c06ef71958b81ffcac202c7d1cb5a51192671661abdd1092",
+    "research_registry/decisions/clean_gap_review_ef.json": "c81641f1aadf2f851519f67c708b5f8d3c61688e3ddb24edbea2cff8594f7ae7"
+  }
+}

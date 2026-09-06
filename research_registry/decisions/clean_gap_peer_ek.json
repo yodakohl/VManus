@@ -1,0 +1,448 @@
+{
+  "schema_version": 1,
+  "peer_review_id": "EK",
+  "reviewed_files": {
+    "research_registry/decisions/clean_gap_review_ek.json": "8823ffbe92bd7fc304b7b53cc9f67675072cb294fadfa0e6fb496e2124d90653",
+    "research_registry/decisions/source_coverage_gap_batch_ek.json": "8196ef55ee1e9eb6b9320b5190915b6a82a122618c47c59428d380f0ee1b3bf5"
+  },
+  "card_reviews": [
+    {
+      "card_id": "CLEAN_GAP_EK:local_label_status_layout_contract",
+      "decision": "approve_with_scope_clarification",
+      "claim_type": "semantic_model",
+      "reason": "GDT796 expressly proposes a learned individual designation plus locally copied graphical OR status field. The reference/designation architecture supports functional_hypothesis; it is not merely a glyph parse. But the status/quality interpretation is not selected over a nonsemantic copied graphical convention. Do not imply that the residual graphical field is known to encode status.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt796_outer_ring_mirror_status_facies_bridge/REPORT.md",
+          "line": 172,
+          "line_end": 188,
+          "quote": "## What changes in the working theory\n\nGDT795's “smaller local status/quality field” survives, but it is now narrower:\n\n- it is not one general visible barrel/clothing/facing vocabulary;\n- it is not yet one fixed planetary-status vocabulary;\n- it may be a copied layout convention whose realization is conditioned by\n  sign, page, ring and local template;\n- the rest of the label behaves more like a learned entry than a composition\n  of freely translatable roots.\n\nThe best next bridge is therefore not another global substring dictionary.\nIt is to take `AQABBA`, the three complete-family visual rivals and recurrent\nlearned entries into their already admitted running paragraphs, mask every\ninherited generic gloss, and ask whether an entire paragraph or record selects\none concrete domain interpretation better than its rivals. The F9 result can\nbe used as a fixed layout sensitivity, never as a result-chosen semantic key.",
+          "sha256": "72d0338d8082b898be1dc89094d184f325db90c6aba0d1e8826efeafdf74e7b2"
+        },
+        {
+          "path": "experiments/yolo/gdt796_outer_ring_mirror_status_facies_bridge/REPORT.md",
+          "line": 8,
+          "line_end": 24,
+          "quote": "GDT796 asks what the smaller local graphical field selected by GDT795 could\nactually mean. It tests three deliberately different bridges over the same 101\nalready admitted Kluge-A labels:\n\n1. a relative reflection in the f71 outer ten;\n2. complete label families naming visible barrel, clothing or facing states;\n3. complete label families naming a historical planetary facies status.\n\nThe first reproduces an uneven formal clue. The second produces three\nconcrete rivals below the selection gate but no portable dictionary. The third rejects the precise\n`AQABAC = favorable/benefic facies` reading that GDT795 left open. The selected\nworking architecture therefore remains:\n\n```text\nlearned individual entry/designation\n+ locally copied graphical or status field whose concrete value is still open\n```",
+          "sha256": "72d0338d8082b898be1dc89094d184f325db90c6aba0d1e8826efeafdf74e7b2"
+        }
+      ],
+      "counterpart_ids": [
+        "SEM:adb7d63d861cba56d41b"
+      ],
+      "recommended_claim": "GDT796 retains as a C0 working architecture a learned individual label/entry plus a locally copied graphical or status field whose concrete value remains open. Its realization may depend on sign, page, ring and template; a nonsemantic copying/layout convention remains possible. Neither a general barrel/clothing/facing vocabulary nor fixed planetary-status vocabulary is established, and the remainder is not treated as freely translatable roots."
+    },
+    {
+      "card_id": "CLEAN_GAP_EK:chsky_quality_rival_contract",
+      "decision": "approve",
+      "claim_type": "semantic_model",
+      "reason": "Complete proposed claim is supported by the quoted primary scope and is not fully asserted by the named counterpart cards. Historical conditional meaning, alternatives and limits are preserved.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt783_chsky_majority_variant_external_field/REPORT.md",
+          "line": 5,
+          "line_end": 19,
+          "quote": "## Working result\n\nThe practical GDT781 whole default **`chsky=heiß und trocken`** remains\nstanding, now explicitly as a quality/state label with split confidence:\nHOT is the portable C1 role; DRY is a C0 standing extension. At the one\nalready licensed target span the carrier is made explicit as\n**`ol chsky=heiß-trockener Ansatz`**. None of these is a recovered lexeme.\n\nThe deliberately published dissent is important: the sparse deterministic\nfield score ranks **HOT-only / `heiß`** first. We do not suppress that result.\nBut three independently GDT754-clean edit-neighbor wholes still agree on\nHOT|DRY, the strong external field supplies DRY, and historical pharmacy\nregisters make paired hot/dry labels ordinary. Under the exploratory retention\nrule, DRY is therefore not discarded before a better card makes it impossible;\ninstead HOT-only becomes the portable minimum core and first rival.",
+          "sha256": "245d1f162404120ea4ee0912500db5d89e3461ca11c7b1f51a9c7cd68409ea0a"
+        },
+        {
+          "path": "experiments/yolo/gdt783_chsky_majority_variant_external_field/REPORT.md",
+          "line": 62,
+          "line_end": 77,
+          "quote": "## Six explicit candidates and the unresolved dissent\n\n| rank | id | default | axes | clean analogs | external full fields | score | practical spec |\n|---:|---|---|---|---:|---:|---:|---:|\n| 1 | C01_HOT_QUALITY | heiß | `HOT` | 3 | 1 | 10.000000 | 0 |\n| 2 | C02_HOT_DRY_QUALITY | heiß und trocken | `HOT|DRY` | 3 | 0 | 4.500000 | 1 |\n| 3 | C05_DRY_PREPARATION | Trockenzubereitung | `DRY|PREPARATION` | 1 | 1 | 4.250000 | 0 |\n| 4 | C04_HOT_PREPARATION_STAGE | Heißstufe der Zubereitung | `HOT|PREPARATION|STAGE` | 1 | 0 | 2.166667 | 0 |\n| 5 | C06_HEATING_PROCESS | Erwärmungsvorgang | `HOT|PROCESS` | 1 | 0 | 1.000000 | 0 |\n| 6 | C03_HOT_DRY_MATERIAL | heißgetrocknetes Arzneigut | `HOT|DRY|MATERIAL` | 0 | 0 | -2.166667 | 0 |\n\nThe diagnostic score is not a lexical probability. It favors minimum complete\naxis coverage and therefore chooses HOT-only. The separate frozen practical\nselection retains the still-possible parent HOT|DRY card with split confidence.\nMaterial, preparation-stage and process readings remain published rivals;\n`erhitzt` would overstate a process absent from the primary fields.",
+          "sha256": "245d1f162404120ea4ee0912500db5d89e3461ca11c7b1f51a9c7cd68409ea0a"
+        }
+      ],
+      "counterpart_ids": []
+    },
+    {
+      "card_id": "CLEAN_GAP_EK:okal_owner_conditioned_system_entry",
+      "decision": "approve",
+      "claim_type": "functional_hypothesis",
+      "reason": "A concrete local text/diagram co-reference and twenty-occurrence owner-conditioned display contract is asserted beyond the GDT805 short code gloss. Keep as one model/application case, not twenty findings. The earlier four/grade-I source cards are nonusable tested candidates, not independent evidence for this proposal.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt793_okal_whole_record_candidate_discriminator/REPORT.md",
+          "line": 143,
+          "line_end": 156,
+          "quote": "Only the exact target changes:\n\n```text\n... dalchdy eteeey ⟦okal:Ring-/Systemeintragscode⟧ shey qoteeody ...\n```\n\nThe surrounding paragraph remains untranslated. This avoids converting an\nunknown sentence into fluent but content-free instructions. The practical\nclaim is only: at this position the manuscript most likely invokes the same\nclass/slot code that can also stand alone beside multiple diagram members.\n\nAll twenty exact occurrences receive an owner-conditioned version of this C0\ndisplay. Every row contains confidence, evidence, counterevidence, exact\nscope, lexeme status and zero component-export credit.",
+          "sha256": "e748c61ae6039437a6640d918bb475fe87053e5b2345870af97043e90b705b2e"
+        }
+      ],
+      "counterpart_ids": [
+        "SEM:20d9910fbae461031cca",
+        "SEM:640ae5b083ca77e23719",
+        "SEM:c0f047b2df909590a51a"
+      ]
+    },
+    {
+      "card_id": "CLEAN_GAP_EK:otody_upper_right_coordinate_rival",
+      "decision": "approve",
+      "claim_type": "lexical_hypothesis",
+      "reason": "Complete proposed claim is supported by the quoted primary scope and is not fully asserted by the named counterpart cards. Historical conditional meaning, alternatives and limits are preserved.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt794_complete_label_multiform_slot_transfer/REPORT.md",
+          "line": 81,
+          "line_end": 93,
+          "quote": "## Concrete whole-form candidates retained\n\n`otody` is the sharpest individual exception to the failed joint model. Its two\nstandalone circle labels lie at 01:00 on f69 and 01:15 on f70. It also has two\nreleased running uses, on f75 and f95. GDT794 retains the replaceable C0 card:\n\n```text\notody = oberes rechtes Zeit-/Gradfeld, sichtbar ungefähr 1 Uhr\n```\n\nThis is a **position rival**, not an established clock word. The two prose uses\ndo not yet show that the coordinate reading belongs there, so the card is not\ninstalled in the integrated prose cache.",
+          "sha256": "f8adcdeba41b96ec27d031a4ad1a0515a1825f8d5bad06e3b6111ec3ff42878b"
+        }
+      ],
+      "counterpart_ids": []
+    },
+    {
+      "card_id": "CLEAN_GAP_EK:keedy_hot_end_state",
+      "decision": "approve_with_scope_attachment",
+      "claim_type": "lexical_hypothesis",
+      "reason": "Exact three whole values are stated. Full REPORT adds a material limit absent from the short card: HOT+END displays are deliberately common C0 family priors, not independently supported meanings, and GDT787 grants zero new renderer licenses. No historical scope is transferred from older local action cards.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt787_keedy_remainder_cross_family_transfer/REPORT.md",
+          "line": 92,
+          "line_end": 114,
+          "quote": "## Welche Teile der alten Bedeutung noch tragen\n\nDie drei Bestandteile wurden getrennt geprüft:\n\n- **END** ist der beste, aber noch nicht allein exportfähige Lead. Der streng\n  bereinigte Außenkontext ist bei Radius 1 nur in 6/9 Typen informativ: fünf\n  positiv, einer negativ, drei `NA` (exakter Vorzeichenflip p=.09375). Bei\n  Radius 3 sind 8/9 informativ: fünf positiv und drei negativ. In der sauberen\n  Schwestersemantik ist END nur viermal messbar, dort aber viermal\n  gleichgerichtet.\n- **HOT** bleibt für die bereits etablierten Qualitäts- und\n  Zubereitungsganzwörter plausibel. Gegen `Xteedy` ist die Richtung jedoch\n  nicht stabil genug, um alle linken Familien zu erfassen.\n- **CLOSED** scheitert. Bei Radius 1 sind nur 2/16 und bei Radius 3 nur 3/16\n  Typen überhaupt informativ; die übrigen Fälle sind korrekt `NA`, nicht\n  scheinbare Gleichstände. Diese winzige Restdeckung exportiert keinen Wert.\n  Das passt zu GDT689: Ein bereits terminaler Schwesterwert muss nicht ein\n  zweites Mal „abgeschlossen“ sprechen.\n\nDarum wird `keedy` selbst knapp zu **heißer Endzustand**. `okeedy` bleibt\n**heißer Ansatz an der Endstufe**, `qokeedy` **heiß am Gradende**. Das sind\nGanzwortkarten mit eigener Familiengeschichte, kein jetzt freigesetztes\nSuffixwörterbuch.",
+          "sha256": "688930f843bccfe12d957207ef7e398dfb80856fee25a37208b7c1cedb79a11f"
+        },
+        {
+          "path": "experiments/yolo/gdt787_keedy_remainder_cross_family_transfer/REPORT.md",
+          "line": 32,
+          "line_end": 40,
+          "quote": "Das ist kein Rückfall zu leerem Text. Im Gegenteil: 38 kurze\nGanzwortanzeigen ersetzen die falsche Universalzerlegung. Sie verwenden\nbewusst denselben HOT+END-**C0-Familienprior**, damit keine beobachtete Form\nleer bleibt. Das sind nicht 38 unabhängig gestützte Bedeutungen und keine\nverdeckte `keedy`-Kompositionsregel. GDT787 erteilt **null neue\nRenderer-Lizenzen**; ältere Lizenzen behalten ausschließlich ihren früheren\nScope. Die alten, aus modernen EVA-Initialen abgeleiteten Patienten **Holz,\nWurzel, Samen und Saat** sowie der automatische q-Imperativ werden aus den\nbetroffenen Hauptwerten entfernt.",
+          "sha256": "688930f843bccfe12d957207ef7e398dfb80856fee25a37208b7c1cedb79a11f"
+        }
+      ],
+      "counterpart_ids": [
+        "SEM:0152bad8d1ae903b5d84"
+      ],
+      "required_scope_addition": "GDT787 uses HOT+END as a C0 family prior for short whole displays and grants zero new renderer licenses; any older license retains only its old scope. This card is an editorial whole default, not independently established HOT/END semantics."
+    },
+    {
+      "card_id": "CLEAN_GAP_EK:okeedy_hot_preparation_end",
+      "decision": "approve_with_scope_attachment",
+      "claim_type": "lexical_hypothesis",
+      "reason": "Exact three whole values are stated. Full REPORT adds a material limit absent from the short card: HOT+END displays are deliberately common C0 family priors, not independently supported meanings, and GDT787 grants zero new renderer licenses. No historical scope is transferred from older local action cards.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt787_keedy_remainder_cross_family_transfer/REPORT.md",
+          "line": 92,
+          "line_end": 114,
+          "quote": "## Welche Teile der alten Bedeutung noch tragen\n\nDie drei Bestandteile wurden getrennt geprüft:\n\n- **END** ist der beste, aber noch nicht allein exportfähige Lead. Der streng\n  bereinigte Außenkontext ist bei Radius 1 nur in 6/9 Typen informativ: fünf\n  positiv, einer negativ, drei `NA` (exakter Vorzeichenflip p=.09375). Bei\n  Radius 3 sind 8/9 informativ: fünf positiv und drei negativ. In der sauberen\n  Schwestersemantik ist END nur viermal messbar, dort aber viermal\n  gleichgerichtet.\n- **HOT** bleibt für die bereits etablierten Qualitäts- und\n  Zubereitungsganzwörter plausibel. Gegen `Xteedy` ist die Richtung jedoch\n  nicht stabil genug, um alle linken Familien zu erfassen.\n- **CLOSED** scheitert. Bei Radius 1 sind nur 2/16 und bei Radius 3 nur 3/16\n  Typen überhaupt informativ; die übrigen Fälle sind korrekt `NA`, nicht\n  scheinbare Gleichstände. Diese winzige Restdeckung exportiert keinen Wert.\n  Das passt zu GDT689: Ein bereits terminaler Schwesterwert muss nicht ein\n  zweites Mal „abgeschlossen“ sprechen.\n\nDarum wird `keedy` selbst knapp zu **heißer Endzustand**. `okeedy` bleibt\n**heißer Ansatz an der Endstufe**, `qokeedy` **heiß am Gradende**. Das sind\nGanzwortkarten mit eigener Familiengeschichte, kein jetzt freigesetztes\nSuffixwörterbuch.",
+          "sha256": "688930f843bccfe12d957207ef7e398dfb80856fee25a37208b7c1cedb79a11f"
+        },
+        {
+          "path": "experiments/yolo/gdt787_keedy_remainder_cross_family_transfer/REPORT.md",
+          "line": 32,
+          "line_end": 40,
+          "quote": "Das ist kein Rückfall zu leerem Text. Im Gegenteil: 38 kurze\nGanzwortanzeigen ersetzen die falsche Universalzerlegung. Sie verwenden\nbewusst denselben HOT+END-**C0-Familienprior**, damit keine beobachtete Form\nleer bleibt. Das sind nicht 38 unabhängig gestützte Bedeutungen und keine\nverdeckte `keedy`-Kompositionsregel. GDT787 erteilt **null neue\nRenderer-Lizenzen**; ältere Lizenzen behalten ausschließlich ihren früheren\nScope. Die alten, aus modernen EVA-Initialen abgeleiteten Patienten **Holz,\nWurzel, Samen und Saat** sowie der automatische q-Imperativ werden aus den\nbetroffenen Hauptwerten entfernt.",
+          "sha256": "688930f843bccfe12d957207ef7e398dfb80856fee25a37208b7c1cedb79a11f"
+        }
+      ],
+      "counterpart_ids": [
+        "SEM:a3644c560736cf3cebdf",
+        "SEM:de8e1747652ee88282dd",
+        "SEM:eea75cd4061670310030"
+      ],
+      "required_scope_addition": "GDT787 uses HOT+END as a C0 family prior for short whole displays and grants zero new renderer licenses; any older license retains only its old scope. This card is an editorial whole default, not independently established HOT/END semantics."
+    },
+    {
+      "card_id": "CLEAN_GAP_EK:qokeedy_hot_grade_end",
+      "decision": "approve_with_scope_attachment",
+      "claim_type": "lexical_hypothesis",
+      "reason": "Exact three whole values are stated. Full REPORT adds a material limit absent from the short card: HOT+END displays are deliberately common C0 family priors, not independently supported meanings, and GDT787 grants zero new renderer licenses. No historical scope is transferred from older local action cards.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt787_keedy_remainder_cross_family_transfer/REPORT.md",
+          "line": 92,
+          "line_end": 114,
+          "quote": "## Welche Teile der alten Bedeutung noch tragen\n\nDie drei Bestandteile wurden getrennt geprüft:\n\n- **END** ist der beste, aber noch nicht allein exportfähige Lead. Der streng\n  bereinigte Außenkontext ist bei Radius 1 nur in 6/9 Typen informativ: fünf\n  positiv, einer negativ, drei `NA` (exakter Vorzeichenflip p=.09375). Bei\n  Radius 3 sind 8/9 informativ: fünf positiv und drei negativ. In der sauberen\n  Schwestersemantik ist END nur viermal messbar, dort aber viermal\n  gleichgerichtet.\n- **HOT** bleibt für die bereits etablierten Qualitäts- und\n  Zubereitungsganzwörter plausibel. Gegen `Xteedy` ist die Richtung jedoch\n  nicht stabil genug, um alle linken Familien zu erfassen.\n- **CLOSED** scheitert. Bei Radius 1 sind nur 2/16 und bei Radius 3 nur 3/16\n  Typen überhaupt informativ; die übrigen Fälle sind korrekt `NA`, nicht\n  scheinbare Gleichstände. Diese winzige Restdeckung exportiert keinen Wert.\n  Das passt zu GDT689: Ein bereits terminaler Schwesterwert muss nicht ein\n  zweites Mal „abgeschlossen“ sprechen.\n\nDarum wird `keedy` selbst knapp zu **heißer Endzustand**. `okeedy` bleibt\n**heißer Ansatz an der Endstufe**, `qokeedy` **heiß am Gradende**. Das sind\nGanzwortkarten mit eigener Familiengeschichte, kein jetzt freigesetztes\nSuffixwörterbuch.",
+          "sha256": "688930f843bccfe12d957207ef7e398dfb80856fee25a37208b7c1cedb79a11f"
+        },
+        {
+          "path": "experiments/yolo/gdt787_keedy_remainder_cross_family_transfer/REPORT.md",
+          "line": 32,
+          "line_end": 40,
+          "quote": "Das ist kein Rückfall zu leerem Text. Im Gegenteil: 38 kurze\nGanzwortanzeigen ersetzen die falsche Universalzerlegung. Sie verwenden\nbewusst denselben HOT+END-**C0-Familienprior**, damit keine beobachtete Form\nleer bleibt. Das sind nicht 38 unabhängig gestützte Bedeutungen und keine\nverdeckte `keedy`-Kompositionsregel. GDT787 erteilt **null neue\nRenderer-Lizenzen**; ältere Lizenzen behalten ausschließlich ihren früheren\nScope. Die alten, aus modernen EVA-Initialen abgeleiteten Patienten **Holz,\nWurzel, Samen und Saat** sowie der automatische q-Imperativ werden aus den\nbetroffenen Hauptwerten entfernt.",
+          "sha256": "688930f843bccfe12d957207ef7e398dfb80856fee25a37208b7c1cedb79a11f"
+        }
+      ],
+      "counterpart_ids": [
+        "SEM:01030ae7485b63b0cc06",
+        "SEM:befd4e6aeb4f7744cfb2"
+      ],
+      "required_scope_addition": "GDT787 uses HOT+END as a C0 family prior for short whole displays and grants zero new renderer licenses; any older license retains only its old scope. This card is an editorial whole default, not independently established HOT/END semantics."
+    },
+    {
+      "card_id": "CLEAN_GAP_EK:ar_or_relative_nesting_rival",
+      "decision": "approve",
+      "claim_type": "semantic_model",
+      "reason": "This is an actual proposed relative semantic relation, not just ar/or frequency. The text gives share-of-portion/portion-of-share as examples without assigning one exact order to one gloss; EK correctly preserves that ambiguity and does not equate fused/separate instances or export roots. Bare ar=Anteil, its value/material rivals, and local otarar do not express the whole reciprocal account.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt789_ar_remainder_cross_family_transfer/REPORT.md",
+          "line": 123,
+          "line_end": 141,
+          "quote": "Somit trägt `ar + Wert` 27 strikte Stellen.  Es ist aber weder der einzige\nsolche Kopf noch ein identifiziertes Maßzeichen.  `ar aiin` darf explorativ\n„drei Anteile“ heißen; ebenso sichtbar bleiben „Anteil, Wert III“ und „drei\nTeilwerte“.\n\nDie vier Verschachtelungen sind ebenfalls real: `ar ar` 6-mal, `ar or` 8-mal,\n`or ar` 5-mal und `or or` 3-mal reader-exakt.  Dazu kommen die fusionierten\nGanzen `arar` einmal, `aror` fünfmal, `orar` fünfmal und `oror` zweimal.  Das\nmacht eine relative Lesung wie **Anteil einer Portion** oder **Portion eines\nAnteils** praktisch plausibler als zwei perfekte Synonyme, beweist die\ndeutschen Wörter jedoch nicht.\n\nDie direkten Außenachsen helfen nur wenig.  Im 31er-Stützdeck liegt PART bei\nRadius 1 in sechs AR-Typen höher und nur in einem OR-Typ höher, aber 24 Typen\nbinden gar keinen Unterschied; der mittlere Abstand ist nur +.008.  AMOUNT ist\n6:4 bei 21 Bindungen und +.017.  Bei Radius 3 werden beide Bilder gemischter.\nMATERIAL liegt sogar überwiegend auf der OR-Seite.  Es gibt daher keinen\nkonkreten Stoff, der `ar` identifiziert.\n",
+          "sha256": "a6907da93ddcf1296d5340914303de3ccb16d2e54a97049f3565c9f7516f7765"
+        }
+      ],
+      "counterpart_ids": [
+        "SEM:963ef4738ed6489e91db",
+        "SEM:6647ad1f69c64ca26b8a",
+        "SEM:635ccb65962c8f41df9a"
+      ]
+    }
+  ],
+  "source_disposition_reviews": [
+    {
+      "source_id": "LEGACY_COMPONENT:7bf43298785e26d6528d",
+      "selection_index": 1,
+      "decision": "approve_scoped_disposition",
+      "reason": "Local template-conditioned label architecture recovered, not a new visual result.",
+      "limit": "Only this selected assertion/assessment reviewed; no report-path or GDT788 global completion."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:dae6326f717fe6d42e8f",
+      "selection_index": 2,
+      "decision": "approve_scoped_disposition",
+      "reason": "One whole-form competition with six explicit alternatives and different practical/diagnostic criteria; no six independent discoveries.",
+      "limit": "Only this selected assertion/assessment reviewed; no report-path or GDT788 global completion."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:a2bb965e9d03fdb99fba",
+      "selection_index": 3,
+      "decision": "approve_scoped_disposition",
+      "reason": "Historical paired/single quality examples confer zero chsky form or lexeme credit. This supports the limitation of the recovered contest, not an additional target hypothesis.",
+      "limit": "Only this selected assertion/assessment reviewed; no report-path or GDT788 global completion."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:7f87d1484ab2b888f121",
+      "selection_index": 4,
+      "decision": "approve_scoped_disposition",
+      "reason": "Recovered the complete local text/label and twenty-occurrence display contract, not just the isolated system-code gloss.",
+      "limit": "Only this selected assertion/assessment reviewed; no report-path or GDT788 global completion."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:3cc5e3dd5d0526eff681",
+      "selection_index": 5,
+      "decision": "approve_scoped_disposition",
+      "reason": "Recovered otody position proposal with explicit unlicensed prose extension.",
+      "limit": "Only this selected assertion/assessment reviewed; no report-path or GDT788 global completion."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:f53027ae5a6f338eba8d",
+      "selection_index": 6,
+      "decision": "approve_scoped_disposition",
+      "reason": "SEM:8fccb8d3f3840b8c2432 already states the precise benefic-facies hypothesis. The selected paragraph supplies a withheld-alignment failure of that interpretation; it is a source assessment, not another meaning card or universal facies refutation.",
+      "limit": "Only this selected assertion/assessment reviewed; no report-path or GDT788 global completion."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:1e21d39555d27910a6e9",
+      "selection_index": 7,
+      "decision": "approve_scoped_disposition",
+      "reason": "The complete qokaldy davon and Heilmittel alternatives already exist as SEM:c34235949c66bfcac928 and SEM:9cda2d291145b78bdfe2. This paragraph adds historical possibility and insufficient discriminating evidence, not another proposition or an empirical winner.",
+      "limit": "Only this selected assertion/assessment reviewed; no report-path or GDT788 global completion."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:dcc36cc18837f497fffa",
+      "selection_index": 8,
+      "decision": "approve_scoped_disposition",
+      "reason": "A09 contradicts a portable covered/uncovered interpretation of the AQABAB family in the source model. It does not assign the final glyph a meaning; no imaginary positive word assignment or two new lexical cards are produced. Historical visual calls are quoted, not reobserved.",
+      "limit": "Only this selected assertion/assessment reviewed; no report-path or GDT788 global completion."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:a0c7f758663609ebbec6",
+      "selection_index": 9,
+      "decision": "approve_scoped_disposition",
+      "reason": "The source explicitly maintains three complete whole-word readings while declining general suffix/closure export. Internal END/HOT/CLOSED scores are not separate semantic cards.",
+      "limit": "Only this selected assertion/assessment reviewed; no report-path or GDT788 global completion."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:8d4f2720a17bc1e73f3a",
+      "selection_index": 10,
+      "decision": "approve_scoped_disposition",
+      "reason": "CORE mean and row/NA inconsistency concern portability of an existing model; no exact missing meaning assignment occurs in the selected span. GDT788 is not marked semantically exhausted.",
+      "limit": "Only this selected assertion/assessment reviewed; no report-path or GDT788 global completion."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:b77e388d47fe537bf933",
+      "selection_index": 11,
+      "decision": "approve_scoped_disposition",
+      "reason": "Standalone-word usefulness, a formal lattice and partly retained displays are distinguished. No lexeme or substance is confirmed, and this passage contains no new exact word value.",
+      "limit": "Only this selected assertion/assessment reviewed; no report-path or GDT788 global completion."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:de7f1facd584f63f54b0",
+      "selection_index": 12,
+      "decision": "approve_scoped_disposition",
+      "reason": "The reciprocal share/portion nesting proposal is retained as one model, not inferred from the bare noun cards or counted as four independent discoveries.",
+      "limit": "Only this selected assertion/assessment reviewed; no report-path or GDT788 global completion."
+    }
+  ],
+  "counterpart_bindings": [
+    {
+      "id": "SEM:01030ae7485b63b0cc06",
+      "claim": "qokeedy → set for longer; close",
+      "card_basis": "d45f8a1618bdef6554ba8ef30a2e6d2dbd5e472b154fd6037176d55a44dd8ad5",
+      "effective_basis": "7dbf0e9a9c086b848d0988c5d6f303c0c2b7cb39826cd18c137d19d04453a0c6",
+      "case_ids": [
+        "CLEAN_COMPONENT:1b92036b95e0cd341814"
+      ]
+    },
+    {
+      "id": "SEM:0152bad8d1ae903b5d84",
+      "claim": "The GDT635 working reading of f75r.13 pchedy keedy is dried powder, heated to stage II.",
+      "card_basis": "3878c72bd3290ed70f4d3a959e301a56d359a73cc3d1e10ba9540dba5b4132e1",
+      "effective_basis": "cb047794ed45499d67c4d71e1a51d2d0a701cb93fa38d4253edaf50362207c35",
+      "case_ids": [
+        "CLEAN_GAP_AG:powder_heat_ii"
+      ]
+    },
+    {
+      "id": "SEM:20d9910fbae461031cca",
+      "claim": "okal → Kennstellen-/Systemcode",
+      "card_basis": "32eb84d117ee0952db666593929f76938ed1e2d0f07e4ee43733d05546474a35",
+      "effective_basis": "70b71215b25a939c117a7c6c2289e4fb28ad800f0505d086dbee4d616985194a",
+      "case_ids": [
+        "REPORT_PROPOSAL:cfc857993c6a2ac4f9ca"
+      ]
+    },
+    {
+      "id": "SEM:635ccb65962c8f41df9a",
+      "claim": "otarar → Unteranteil des kalten Ansatzes",
+      "card_basis": "c9fd23b2c30022ac2946866ff4eba933ba4b127acda7d2266b55ab5ab0a75236",
+      "effective_basis": "6083397e27982e2c7eef66ffc02c84b814801707c547741cdf51f05c03fb8dd3",
+      "case_ids": [
+        "REPORT_PROPOSAL:da88695c57974a811a36"
+      ]
+    },
+    {
+      "id": "SEM:640ae5b083ca77e23719",
+      "claim": "okal → four",
+      "card_basis": "8bfc39e5554860dc23ef40ef1fdb7beeb5a3a4b4b3bccc0cdf9a332e06e7a9d5",
+      "effective_basis": "603ff59fe62f6c0de90580d914acd4b67a68e6a3923137917d07044fe6ae36d1",
+      "case_ids": [
+        "CLEAN_COMPONENT:b84da1e7df8b390cb5ca"
+      ]
+    },
+    {
+      "id": "SEM:6647ad1f69c64ca26b8a",
+      "claim": "ar → Portion/Teilmenge · Stoffklasse · Wertfeld",
+      "card_basis": "8ad6d45a68f7a46940e412288fe650679ee892d457fe5a0fee2a1aee8ceb638a",
+      "effective_basis": "34d4eaa8fb7df2d9627b7c6d482b37a8c66970a5f339d7fedee53df6acc47fbb",
+      "case_ids": [
+        "REPORT_PROPOSAL:6bf2dbb422c9764b4e0d"
+      ]
+    },
+    {
+      "id": "SEM:8fccb8d3f3840b8c2432",
+      "claim": "AQABAC → favorable/benefic facies",
+      "card_basis": "a0ed1611bd8493068107a8d52434b6d2f38c7c299dcfc39e08b540dce8e80db8",
+      "effective_basis": "f3c1c4c37f87c69c800d67ad19c220cdf2e719d97e2d77e27b18bc81b2bd5cdf",
+      "case_ids": [
+        "CLEAN_COMPONENT:8c10aaeb4518a8c448fa",
+        "CLEAN_COMPONENT:4086d777f817fed60377"
+      ]
+    },
+    {
+      "id": "SEM:963ef4738ed6489e91db",
+      "claim": "ar → Anteil",
+      "card_basis": "39b84b20d2ca5c5442555dd956c0b12c8828a42da16a44fd3c8062ec9106349e",
+      "effective_basis": "24a4991fb0c190604e740d2b922db97c5942dbed6bea8eecf790ca986617a330",
+      "case_ids": [
+        "REPORT_PROPOSAL:39a70d1b537780fc5bcd"
+      ]
+    },
+    {
+      "id": "SEM:9cda2d291145b78bdfe2",
+      "claim": "Complete qokaldy denotes a remedy (Heilmittel).",
+      "card_basis": "e3c20cbcdc04f03e6602598d3735b4c5f0e4e846e7a423b634178ed6e269e82f",
+      "effective_basis": "a6e9549cb6f7ce245b769512b413793e9f45dffe4eb2e4437af111e36046d10c",
+      "case_ids": [
+        "CLEAN_HYP:f2e1236c63929b0322c5"
+      ]
+    },
+    {
+      "id": "SEM:a3644c560736cf3cebdf",
+      "claim": "OKEEDY → LÄNGER EINWEICHEN; SCHLUSS",
+      "card_basis": "4ecee17207d479cceca22e372b08d4417868bb60fce19c64f4844db77c2875b4",
+      "effective_basis": "7ddb44c1ea22645860dd043d7452f65e6889b4483e42d5667bb3bae1db642881",
+      "case_ids": [
+        "CLEAN_COMPONENT:2a31c3006838ca1b1537"
+      ]
+    },
+    {
+      "id": "SEM:adb7d63d861cba56d41b",
+      "claim": "AQABAC → one marked facies/quality class, polarity open",
+      "card_basis": "0bb5126dcd0874e0a900209468778818c26d0f64aad803fef058e07d6c43983b",
+      "effective_basis": "aefb8e3791483544db81eb8a5986767a608061a7c4a99eff246620c07e1713ef",
+      "case_ids": [
+        "CLEAN_COMPONENT:e070ff8fdfd8911a581b"
+      ]
+    },
+    {
+      "id": "SEM:befd4e6aeb4f7744cfb2",
+      "claim": "qokeedy → Eintauchen oder einweichen und den Schritt abschließen",
+      "card_basis": "8db95fbb73aec4884cbaaa8e711d60ec5d013c034d4b172163bc49b6c5d412b1",
+      "effective_basis": "0e335571dd0f273e1b6d583779794e19feed9cc037b2f7381b1606077322ed11",
+      "case_ids": [
+        "CLEAN_COMPONENT:16a87ad2670444d41c8d",
+        "CLEAN_COMPONENT:84b0840985413f67eff1"
+      ]
+    },
+    {
+      "id": "SEM:c0f047b2df909590a51a",
+      "claim": "okal → grade I",
+      "card_basis": "debfc84028ec811ce2b059de47fee6861e814dc67faab478550b14fd37260832",
+      "effective_basis": "6f242fbdff86321204199a5647f169841fc59cf3bc46f03f2edd67971d4057c6",
+      "case_ids": [
+        "CLEAN_COMPONENT:c48461ba9dadcda0f497"
+      ]
+    },
+    {
+      "id": "SEM:c34235949c66bfcac928",
+      "claim": "Complete qokaldy is a text-internal back-reference (davon).",
+      "card_basis": "c71296dc2bb1d7679509cc7d8d320074383b6fc34e28906ef430c65d01072d59",
+      "effective_basis": "3b0cb2c6c1236cb84bf2244f7f3b820470400d94eeaea3c04af83812cf0f21ad",
+      "case_ids": [
+        "CLEAN_HYP:ebf6f1cd89c94a20c8f8"
+      ]
+    },
+    {
+      "id": "SEM:de8e1747652ee88282dd",
+      "claim": "OKEEDY → LÄNGER EINWEICHEN",
+      "card_basis": "97cc79bd6de982fbb9a418cbe2c580fb932d4e034b4709b262a4a5ff004201d2",
+      "effective_basis": "d1848d55e6a8a66beaf889641fe8cb6c22eff434b382ce30ca24f95b20d3a854",
+      "case_ids": [
+        "CLEAN_COMPONENT:ff65f222414000fe838e"
+      ]
+    },
+    {
+      "id": "SEM:eea75cd4061670310030",
+      "claim": "OKEEDY → länger einweichen",
+      "card_basis": "2ec8bbe5f570c817a3a80a42770ec5a02fdbf31abf292f14bf40649b8fd3d012",
+      "effective_basis": "d45422a4d5baa40ef5a8d8772cff4025b118f13c4b14f83dbb70b4234ddcd367",
+      "case_ids": [
+        "CLEAN_COMPONENT:a770a4f9683bf16669dd"
+      ]
+    }
+  ],
+  "counts": {
+    "cards": 8,
+    "approve_unchanged": 4,
+    "approve_with_scope_clarification": 1,
+    "approve_with_scope_attachment": 3,
+    "reject": 0,
+    "selected_spans": 12,
+    "named_current_counterparts": 16
+  },
+  "overall": "Eight genuine historical propositions retained; sharpen one architecture alternative and three explicit C0/no-new-license limits before integration. No forced identities or scientific confirmations.",
+  "source_assessment_limits": [
+    "GDT796 AQABAC favorable alignment fails its withheld-transform comparison; this is not a universal facies or local-status refutation.",
+    "GDT798 note supplies no evidence winner for davon versus Heilmittel.",
+    "GDT799 selected A09 contrast excludes the stated portable covered/uncovered family reading, not all whole-label alternatives.",
+    "GDT788 two selected paragraphs are transfer diagnostics/claim ceilings; other report propositions remain outside this peer scope."
+  ],
+  "operational_mutation": false,
+  "raw_event_data_read": false
+}

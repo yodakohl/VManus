@@ -323,3 +323,20 @@ EE–EI checkpoint:4068 active=3803 semantic+265 formal;4589 source cases;
 display variants,37 other relations;36 scoped dossiers and9 unready priorities.
 No default representative override, new manuscript observation or meaning
 confirmation. EJ/EL/EK and EM remain pending review/integration.
+
+EJ/EL/EK integration decision: close the specifically enumerated28-default
+source-comparison remainder through25 reviewed full variants and3 already
+addressed default assertions; existing card count and assertion count differ.
+Preserve extract-to-less-specific-preparation revisions and the older rivals.
+EK adds8 scoped historical contracts with explicit C0/no-new-license limits.
+The source unknown is complete proposition coverage, not new botanic identity.
+Smallest adequate work: activate jointly reviewed inputs, validate quotes,
+parent reassessments/current bindings, refresh once after ledger and publish.
+Budget20minutes including publication; no source experiment or event data.
+
+EJ/EL/EK checkpoint:4101 active=3836 semantic+265 formal;4622 sourcecases;
+44 archived exports;191 scope restatements.49 equivalence groups/58 display
+reductions,37 other relations;36 scoped dossiers and9 unready priorities.
+The named28-default remainder is reconciled, while other report propositions
+and ofchedy old/new identity are not declared closed. All current source and
+operative audits plus158repository tests PASS. EM/EN remain pending.

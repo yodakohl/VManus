@@ -9,17 +9,17 @@ They remain in the source archive. No hypothesis becomes executable by inclusion
 
 | Unit | Count |
 |---|---:|
-| Active semantic hypothesis variants | 3,803 |
+| Active semantic hypothesis variants | 3,836 |
 | Separately typed formal-role cards | 265 |
-| Reviewed source cases, including the correction archive | 4,589 |
+| Reviewed source cases, including the correction archive | 4,622 |
 | Archived source-extraction errors | 44 |
 | Exact normalized assertion repetitions grouped | 477 |
 | Reviewed equivalence groups / display reduction | 49 / 58 |
-| Public semantic display entries | 3,745 |
+| Public semantic display entries | 3,778 |
 
 These are different units, not a deduplicated total of independent theories.
 A local ignored supplement contributes95 semantic cards and one formal card;
-the ordinary local default therefore displays3,840 semantic entries. A fresh
+the ordinary local default therefore displays3,873 semantic entries. A fresh
 public clone has the public view only. Local source files and quotes are not
 published or silently folded into public counts.
 
@@ -116,21 +116,20 @@ Later full-scope reviews and audit-only source comparisons live in the bounded
 `decisions/clean_gap_review_*.json` artifacts. An audit pointer does not add a
 source-case payload. Quote overlap alone never certifies complete review.
 
-Latest integrated packet: EE–EI retains seven full construction/revision cases
-and eight genuine historical hypotheses. EF keeps exact span owners, the two
-Biology lchor cases, all fifteen ol calibration cases and the local ol+ols C0
-application. EH distinguishes computed working-signature comparisons from
-independent support for the pcheey dry-source rival; record organization and
-source relation can coexist. New whole/span questions do not automatically
-inherit every old signature gate. EG corrects qokeol's substantive rival type.
-EI groups two exports of the same expressly unchanged GDT813 daiiin assumption;
-cholkar's main/rival identity remains open. The default representative follows
-the existing deterministic ordering; the longer variant remains an equivalent.
+Latest integrated packet: EJ/EL/EK adds thirty-three complete historical source
+cases. The specifically enumerated GDT767 list is reconciled through twenty-five
+full variants and three already addressed default assertions; those assertions
+are not three necessarily distinct cards. Extract-to-less-specific-preparation
+revisions preserve the earlier rivals. The older ofchedy Ansatz and later Masse
+variant are not silently equated. This completes the named default-list check,
+not every rival or proposition in the report.
 
-A073/A004 still lack a completed comparison of their earlier whole readings:
-artifact pointers exist, but their payloads were not inspected in DV/EA.
-This is not missing data. EJ/EL's named flower-default comparison is pending
-independent final review and is not included in the current counts.
+EK retains eight whole-word or label/role contracts with their original limits:
+GDT787's displayed values are C0 family priors granting no new renderer license;
+GDT796 leaves graphical/status content open. Earlier pcheey source/record scope,
+unchanged daiiin identity, and cholkar's unresolved rival comparison remain.
+A073/A004 still have available but uninspected earlier whole-reading mappings.
+That is unfinished source comparison, not missing data or semantic failure.
 
 Four append-only type alignments preserve the original claims and IDs. Pure
 ordering/reset over predefined roles is formal, including the corrected DE335
