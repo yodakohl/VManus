@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **865**
-- Experiment-associated tracked files: **16,218** (1.4 GiB)
-- Structured GDT337+ experiments: **530**
+- Experiments indexed: **866**
+- Experiment-associated tracked files: **16,233** (1.4 GiB)
+- Structured GDT337+ experiments: **531**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT867 | GDT867 | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt867_shared_canvas_native_orientation/REPORT.md) | 15 | 23.8 KiB | 1 | STRUCTURED_YOLO |
 | GDT866 | GDT866 | `BOTH_VIEWERS_NO_COMPLETE_INTERVENING_GROUP` | [report](../experiments/yolo/gdt866_f95v2_upper_span_topology/REPORT.md) | 19 | 32.4 KiB | 2 | STRUCTURED_YOLO |
 | GDT865 | GDT865 | `COMPLETE_PRIMARY_WHOLE_LEAF_ROBUSTNESS_AUDIT` | [report](../experiments/yolo/gdt865_whole_leaf_primary_robustness/REPORT.md) | 25 | 6.4 MiB | 4 | STRUCTURED_YOLO |
 | GDT864 | GDT864 | `BOTH_FIXED_SEAMS_LOCAL_SPACING_SUPPORTED` | [report](../experiments/yolo/gdt864_f76r_standalone_qo_native_seams/REPORT.md) | 20 | 44.3 KiB | 1 | STRUCTURED_YOLO |

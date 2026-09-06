@@ -14,7 +14,8 @@ L .611534→.616364(10/13>.5),DY .753049→.750323(11/13>.5).
 Independent four-deck refitPASS. Local addedgain shrinks to .001067L/.013356DY.
 Retrospective primary robustness only; no old fullverdict/null/meaning reuse.
 865complete; no refit.809face keys unchanged.
-866:f95v2 first-line upperlink seenby2viewers,0completeinterveninggroups. No selective-scope/abbreviation anchor; stop.
+866:f95v2 first-line upperlink seenby2viewers,0interveninggroups; no selective-scope anchor. Stop.
+867registered: native whole Yale1006199=f69v+f70r1/f70r2 orientation only; no counts/direction regrade.
 
 GDT859:f56r.1 upperlink seenby2viewers; firstgroupseam definitein3readings.
 ZL/RF@167/@168 versus ITt retained; rootonly alignment, no glyph/meaning.
@@ -52,11 +53,9 @@ Yale1006201: inner4/5agreement,outer9/10,O6disagrees.843:9links,1missing.
 
 ## Earlier screens and control
 
-GDT840: only knownofal forward Xdo-label/X-prose; no additional base. Stop do
-extension; do not reject the local relation or infer names. GDT839:4169eligible
-adjacent pairs,zero cross-folio conserved strings with shifted1–3atom splits.
-GDT838:8490windows,14eligible on5folios,zero fixed16-group recoding patterns.
-These narrow capacity stops do not generally reject word boundaries or ciphers.
+GDT840:only knownofal; do extension stops.839:0shifted-split conserved strings
+among4169pairs.838:0fixed16-group recodings;14eligible on5folios.
+Narrow capacity stops, not general boundary/cipher rejection.
 GDT837:STRICT_RECOVERY_FAIL; wholeword-constraint gain0, wrong suffix,
 score issue already known834. No automatic control-decoder successor.
 
@@ -95,11 +94,12 @@ Understanding dossier: `docs/VOYNICH_UNDERSTANDING.md`;
 - Visual: original30 keys/35 selectors in `experiments/yolo/gdt791_thirty_page_visual_owner_spine/src/PAGE_SELECTOR_SPECS.tsv`,
   plus f21r/f32v/f100v/f101r in `experiments/yolo/gdt812_additional_page_semantic_bridge/src/PAGE_ADMISSIONS.tsv`:34 keys/39 selectors,
   plus GDT844 f6v/f9v, GDT848 f104r/f104v, GDT852 f75v:39 keys/44 selectors.
-  GDT861 adds f100r/f114r:41 keys/46 selectors,9 admissions remain.
+  GDT861 adds f100r/f114r;867 registers f70r with2selectors:42 keys/48 selectors,8 remain.
   GDT844 admission source: `experiments/yolo/gdt844_ychor_visual_subentry/src/PAGE_ADMISSIONS.tsv`.
   GDT848 source: `experiments/yolo/gdt848_f104_visual_e_run_audit/src/PAGE_ADMISSIONS.tsv`.
   GDT852 source: `experiments/yolo/gdt852_f75v_native_join_split_spacing/src/PAGE_ADMISSIONS.tsv`.
   GDT861 source: `experiments/yolo/gdt861_extended_entity_native_comparison/src/PAGE_ADMISSIONS.tsv`.
+  GDT867: `experiments/yolo/gdt867_shared_canvas_native_orientation/src/PAGE_ADMISSIONS.tsv`.
   Register before any new page access.
 - Cached NVA002/EBA001: ten MSI folios already routed; repeated UV traces leave material role unresolved. No new layer located.
 - Text:179 selectors in `experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv`, not179 visually

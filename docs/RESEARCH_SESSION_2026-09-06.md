@@ -382,3 +382,13 @@ RFH001targets. This is existing evidence, not a new physical-layer acquisition.
 Producer added IP061–064 RAW acrossfourmechanismfamilies; allretain concrete
 missing-source prerequisites and none is approved asready. No new statistical
 run follows the transfer review. Goal remainsACTIVE.
+
+Source/ideas review published e7a669ed at approximately09:57UTC. Next bounded
+pass GDT867 starts10:01:29UTC: personal native orientation of shared Yale1006199,
+which includes f69v and f70r1/f70r2. The source metadata makes the older V70
+three-wheel description a whole-canvas description, not an exact f69v-only scope.
+Explicitly register one new key f70r/two selectors before image acquisition;
+42keys48selectors/eight remain. No slot counts, traversal or semantic regrading.
+Root has read V70 and F69VSD001; not blind. Public preregistration precedes
+download, expected dimensions fixed; actual image hash recorded after retrieval.
+Budget to10:18UTC. Agent prepares independent metadata validator only.
