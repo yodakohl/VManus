@@ -1,15 +1,17 @@
-# Alle dokumentierten Bedeutungsansätze in derselben Arbeitsliste
+<!-- Source archive; concrete ideas are now the default priorities view. -->
+# Quellenarchiv der Bedeutungsansätze
 
-Die operative Liste ist nicht mehr auf IP001–IP082 beschränkt. Sie enthält jetzt
-die vollständige erhaltene Registergeschichte und zusätzlich die aus älteren
+Dieses Archiv enthält die erhaltene Registergeschichte und die aus älteren
 Vorschlagssammlungen, Arbeitsmodellen und Berichten gewonnenen Quellenstellen.
+Die bereinigte Ideenliste ist jetzt die Standardansicht von `priorities`;
+siehe [SEMANTIC_IDEAS.md](SEMANTIC_IDEAS.md). Quellenreste sind keine Ideenkarten.
 
 ```bash
-./vmanus-work priorities --queue
-./vmanus-work priorities --queue "iatromathematical"
-./vmanus-work priorities --queue --item-type hypothesis_proposal
-./vmanus-work priorities --queue --item-type hypothesis_component
-./vmanus-work priorities --queue --show GDT815
+./vmanus-work priorities --sources
+./vmanus-work priorities --sources "iatromathematical"
+./vmanus-work priorities --sources --item-type hypothesis_proposal
+./vmanus-work priorities --sources --item-type hypothesis_component
+./vmanus-work priorities --sources --show GDT815
 ```
 
 Acht Treffer pro Seite, höchstens zwanzig; mit `--offset` weiterblättern. Jede
@@ -23,18 +25,18 @@ als Quellentreffer gekennzeichnet. Ganze Archive werden nicht in den Kontext gel
 
 | Bestandteil des veröffentlichten Bestands | Anzahl | Bedeutung |
 |---|---:|---|
-| Vollständig erhaltene Registerdatensätze | 5.058 | 82 IP-Vorschläge, 870 Versuche, 4.036 historische Einträge, 59 Familien, 11 Anker |
+| Vollständig erhaltene Registerdatensätze | 5.059 | 82 IP-Vorschläge, 870 Versuche, 4.037 historische Einträge, 59 Familien, 11 Anker |
 | Fundstellen aus expliziten Vorschlagskontexten | 427 | Automatisch erkannte Kandidaten, noch keine 427 unabhängig geprüften Ideen |
 | Zuordnungen, Hypothesentabellen und Deutungsauszüge | 3.788 | Historische Wort-/Rollenhypothesen einschließlich geänderter und verworfener Varianten |
 | Weitere erhaltene Quellenauszüge | 4.943 | Nicht automatisch als Idee klassifizierte Prosa, etwa Methoden- oder Ergebnistext |
 | Ungeklärte Blöcke und Quellenreste | 15.478 | Noch nicht einzeln erschlossene Inhalte; verbleiben sichtbar und suchbar, soweit sichere Prosa vorliegt |
-| Gesamte öffentliche Arbeitsliste | 29.694 | Unterschiedliche Datensatzeinheiten, ausdrücklich keine Gesamtzahl unabhängiger Ideen |
+| Gesamtes öffentliches Quellenarchiv | 29.695 | Unterschiedliche Datensatzeinheiten, ausdrücklich keine Gesamtzahl unabhängiger Ideen |
 
 Zusätzlich erscheinen in dieser lokalen Arbeitskopie **82 Auszüge aus 14 bislang
 ungetrackten V81-Protokollen und Theorieberichten**, darunter fünf als Vorschlagskontext
 erkannte Stellen. Sie werden beim Öffnen derselben Liste hinzugenommen. Ihre
 Originaldateien bleiben unverändert; dieses lokale Supplement wurde nicht veröffentlicht.
-Die lokale Ansicht umfasst damit 29.776 Einträge. Eine frische öffentliche Kopie
+Die lokale Ansicht umfasst damit 29.777 Einträge. Eine frische öffentliche Kopie
 enthält den öffentlichen Bestand; sie benötigt das lokale Supplement nicht.
 
 Beispiele wieder aufgenommener Ansätze sind die abgekürzte natürliche Sprache,
@@ -51,10 +53,12 @@ Der Vorschlagslauf erfasst 5.268 ausgewählte getrackte Prosa-/Vorschlagsdateien
 einschließlich erhaltener Wurzelverzeichnis-Archive. Der Berichtslauf inventarisiert
 2.739 Berichts-/Theoriedateien und liest 2.711 sichere Markdownquellen. Die Mengen
 überlappen. Jede ausgewertete Quelle behält zusätzlich einen Verweis auf ihren
-noch nicht vollständig erschlossenen Rest. Alle 4.110 Ledger-Ereignisse und auch
+noch nicht vollständig erschlossenen Rest. Alle 4.111 Ledger-Ereignisse und auch
 336 Datensätze ohne Zusammenfassung bleiben erhalten.
 
-Die Klassifikation ist bewusst vorläufig: eine Tabelle unter „Kandidaten“ kann
+Die automatische Quellenklassifikation bleibt als Importbefund erhalten; die
+separate inhaltliche Durchsicht aller 5.370 Vorschlagsfragmente und 3.788
+Komponenten liegt in den `clean_*_review.json`-Dateien. Beim Import galt: eine Tabelle unter „Kandidaten“ kann
 auch ein Ergebnis enthalten; derselbe Ansatz kann in mehreren Berichten vorkommen.
 Quellenauszüge werden deshalb weder stillschweigend verschmolzen noch als neue
 Bestätigungen gezählt. Vollständige inhaltliche Deduplikation und Priorisierung
@@ -74,7 +78,7 @@ bleibt eine zusätzliche Suche in Registerkarten; sie allein deckt die neu
 erschlossenen Quellenauszüge nicht ab.
 
 ```bash
-./vmanus-work priorities --queue "okaiin"
+./vmanus-work priorities --sources "okaiin"
 ./vmanus-work ideas duplicates "okaiin"
 ./vmanus-work ideas show GDT815
 ```

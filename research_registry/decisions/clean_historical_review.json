@@ -1,0 +1,516 @@
+{
+  "cards": [
+    {
+      "id": "SEM-HIST-HERBAL-MEDICINAL",
+      "claim": "The Voynich text expresses medicinal-use categories externally indexed under the permitted human-proposed plant-name assignments.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "FAMILY:BOTANICAL_TRAITS_AND_NAMES"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv",
+          "line": 3,
+          "quote": "BOTANICAL_TRAITS_AND_NAMES\tHUMAN_NAME_SEMANTIC_BRIDGE_NONCONFIRMING\tAI/machine identities are invalid; the permitted human-name branch also failed to predict ten independently indexed medicinal-use axes on 84 held-block pages\ta genuinely authorial source entry/text relation or new independent evidence, not another trait, medicinal axis, name subset, model, or threshold\tresults/il017_dioscorides_medicinal_semantic_bridge_report.md"
+        }
+      ],
+      "status": "unconfirmed",
+      "assessment_basis": "historical_registry_claim_review_not_primary_validation",
+      "scope": "The historical ten-axis human-name medicinal bridge, not proven botanical identification or all possible medicinal content.",
+      "ready": false,
+      "scientific_limit": "The cited legacy summary preserves the hypothesis and reported outcome; it does not independently establish the claim or a family-wide refutation.",
+      "reported_history": [
+        {
+          "record_id": "FAMILY:BOTANICAL_TRAITS_AND_NAMES",
+          "summary": "AI/machine identities are invalid; the permitted human-name branch also failed to predict ten independently indexed medicinal-use axes on 84 held-block pages",
+          "source_status": "HUMAN_NAME_SEMANTIC_BRIDGE_NONCONFIRMING",
+          "reopen": {
+            "all_of": [
+              {
+                "change": "source_correction",
+                "detail": "Recover and verify the cited primary report before making a stronger family-wide verdict.",
+                "evidence": [
+                  "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+                ],
+                "id": "recover_primary"
+              },
+              {
+                "change": "new_binding",
+                "detail": "Provide a genuinely authorial source-entry/text relation or independent semantic evidence that addresses the inherited blocker.",
+                "evidence": [
+                  "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+                ],
+                "id": "authorial_lexical_bridge"
+              }
+            ],
+            "not_sufficient": [
+              "Another trait or medicinal axis",
+              "A name subset, threshold or model change alone",
+              "Machine-generated botanical identity"
+            ],
+            "policy": "conditional"
+          }
+        }
+      ]
+    },
+    {
+      "id": "SEM-HIST-HERBAL-ORDER",
+      "claim": "The sequence of human-proposed plant identities in the manuscript follows a historical herbal entry order.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "FAMILY:HISTORICAL_HERBAL_IMAGE_MATCHING"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv",
+          "line": 4,
+          "quote": "HISTORICAL_HERBAL_IMAGE_MATCHING\tIMAGE_INVALID_ORDER_AND_BROAD_SEMANTICS_NONCONFIRMING\timage-model branches are invalid; global human-name order failed and the independent Dioscorides medicinal-index bridge was block-inconsistent with p=.302335\ta new authorial source entry/text relation, not another witness, order, derived source property, name set, subgroup, root subset, or threshold\tresults/il017_dioscorides_medicinal_semantic_bridge_report.md"
+        }
+      ],
+      "status": "unconfirmed",
+      "assessment_basis": "historical_registry_claim_review_not_primary_validation",
+      "scope": "Historical global human-name order hypothesis; the family row does not name an independently proven source herbal.",
+      "ready": false,
+      "scientific_limit": "The cited legacy summary preserves the hypothesis and reported outcome; it does not independently establish the claim or a family-wide refutation.",
+      "reported_history": [
+        {
+          "record_id": "FAMILY:HISTORICAL_HERBAL_IMAGE_MATCHING",
+          "summary": "image-model branches are invalid; global human-name order failed and the independent Dioscorides medicinal-index bridge was block-inconsistent with p=.302335",
+          "source_status": "IMAGE_INVALID_ORDER_AND_BROAD_SEMANTICS_NONCONFIRMING",
+          "reopen": {
+            "all_of": [
+              {
+                "change": "new_binding",
+                "detail": "a new authorial source entry/text relation, not another witness, order, derived source property, name set, subgroup, root subset, or threshold",
+                "evidence": [
+                  "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+                ],
+                "id": "source_reopening_requirement",
+                "interpretation": "Verbatim source condition, including any alternatives; change types are navigation facets, not executable sufficiency or AND/OR logic."
+              }
+            ],
+            "not_sufficient": [
+              "not another witness, order, derived source property, name set, subgroup, root subset, or threshold"
+            ],
+            "policy": "conditional"
+          }
+        }
+      ]
+    },
+    {
+      "id": "SEM-HIST-MANSION-ROSTER",
+      "claim": "The fixed Agrippa lunar-mansion roster explains the ordered 28-slot f69v labels and their prefix topology.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "FAMILY:NUMBER_CALENDAR_AND_COUNTING"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv",
+          "line": 7,
+          "quote": "NUMBER_CALENDAR_AND_COUNTING\tCLOSED_AFTER_F69M001_PREFIX_NONCONFIRMATION\tokshy daldy mAii month-length and 30-day routes fail; public f69v X1.1--28 supplied an explicit coordinate but the fixed Agrippa mansion roster matched only shallow prefixes and failed full-null deeper-topology and alignment-margin gates\tindependent repeated arithmetic equality or a different explicit authorial coordinate and independently licensed roster; not another mansion spelling roster rotation depth threshold or inference from cardinality\tresults/f69m001_target_validation.md"
+        }
+      ],
+      "status": "unconfirmed",
+      "assessment_basis": "historical_registry_claim_review_not_primary_validation",
+      "scope": "historical model as stated in the cited family records",
+      "ready": false,
+      "scientific_limit": "The cited legacy summary preserves the hypothesis and reported outcome; it does not independently establish the claim or a family-wide refutation.",
+      "reported_history": [
+        {
+          "record_id": "FAMILY:NUMBER_CALENDAR_AND_COUNTING",
+          "summary": "okshy daldy mAii month-length and 30-day routes fail; public f69v X1.1--28 supplied an explicit coordinate but the fixed Agrippa mansion roster matched only shallow prefixes and failed full-null deeper-topology and alignment-margin gates",
+          "source_status": "CLOSED_AFTER_F69M001_PREFIX_NONCONFIRMATION",
+          "reopen": {
+            "all_of": [
+              {
+                "change": "new_binding",
+                "detail": "independent repeated arithmetic equality or a different explicit authorial coordinate and independently licensed roster; not another mansion spelling roster rotation depth threshold or inference from cardinality",
+                "evidence": [
+                  "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+                ],
+                "id": "source_reopening_requirement",
+                "interpretation": "Verbatim source condition, including any alternatives; change types are navigation facets, not executable sufficiency or AND/OR logic."
+              }
+            ],
+            "not_sufficient": [
+              "not another mansion spelling roster rotation depth threshold or inference from cardinality"
+            ],
+            "policy": "conditional"
+          }
+        }
+      ]
+    },
+    {
+      "id": "SEM-HIST-F57-QUALITY",
+      "claim": "The fixed four-position N1-to-D1 correspondence on f57v pairs labels of the same hypothesized quality.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "FAMILY:F57V_CROSS_REGISTER_SAME_QUALITY_IDENTITY"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv",
+          "line": 57,
+          "quote": "F57V_CROSS_REGISTER_SAME_QUALITY_IDENTITY\tPOSTHOC_LOCAL_OPTIMUM_EXPLAINED_BY_KNOWN_BITS\tthe physical four-position N1-to-D1 assignment is uniquely best under the inherited raw surface metric and all four deletions but drops to rank 9/24 without terminal y and 3/24 without the known ot-ok-y bits\tan independently owned repeated two-register system frozen before its strings, not another f57 metric feature ablation phase or selected substring\tresults/f57_cross_register_quality_identity_worth_validation.json"
+        }
+      ],
+      "status": "unconfirmed",
+      "assessment_basis": "historical_registry_claim_review_not_primary_validation",
+      "scope": "Equality-of-quality hypothesis for one stated positional assignment; no quality names or meanings of ot/ok/y are established.",
+      "ready": false,
+      "scientific_limit": "The cited legacy summary preserves the hypothesis and reported outcome; it does not independently establish the claim or a family-wide refutation. The reported feature ablation tests support for the mapping; it is not part of the semantic proposition itself.",
+      "reported_history": [
+        {
+          "record_id": "FAMILY:F57V_CROSS_REGISTER_SAME_QUALITY_IDENTITY",
+          "summary": "the physical four-position N1-to-D1 assignment is uniquely best under the inherited raw surface metric and all four deletions but drops to rank 9/24 without terminal y and 3/24 without the known ot-ok-y bits",
+          "source_status": "POSTHOC_LOCAL_OPTIMUM_EXPLAINED_BY_KNOWN_BITS",
+          "reopen": {
+            "all_of": [
+              {
+                "change": "new_binding",
+                "detail": "an independently owned repeated two-register system frozen before its strings, not another f57 metric feature ablation phase or selected substring",
+                "evidence": [
+                  "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+                ],
+                "id": "source_reopening_requirement",
+                "interpretation": "Verbatim source condition, including any alternatives; change types are navigation facets, not executable sufficiency or AND/OR logic."
+              }
+            ],
+            "not_sufficient": [
+              "not another f57 metric feature ablation phase or selected substring"
+            ],
+            "policy": "conditional"
+          }
+        }
+      ]
+    },
+    {
+      "id": "SEM-HIST-PLANT-CATCHWORDS",
+      "claim": "Human-documented same-plant correspondences across manuscript sections preserve recurring textual names or catchwords.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "FAMILY:CROSS_SECTION_CATCHWORDS"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv",
+          "line": 10,
+          "quote": "CROSS_SECTION_CATCHWORDS\tCLOSED_AFTER_FIVE_PAIR_PARSER_STOP_AND_TABLE_EXHAUSTION\tS98 and S99 failed; the fifth relation fixes the assignment floor but RF1b f102r2.22 is parser-uncovered, and the four unused good relations in the recovered 2025 table have no sixth singularly owned label\ta new externally documented relation outside the exhausted table with singular ownership and complete all-reading formal coverage, or a new provenance-complete parser; never drop RF1b or promote paragraph/proximity text\tresults/remaining_repeated_plant_relation_ownership_validation_report.md"
+        }
+      ],
+      "status": "unconfirmed",
+      "assessment_basis": "historical_registry_claim_review_not_primary_validation",
+      "scope": "The source-bound repeated-plant name/catchword hypothesis, not a new independent validation of plant identities.",
+      "ready": false,
+      "scientific_limit": "The cited legacy summary preserves the hypothesis and reported outcome; it does not independently establish the claim or a family-wide refutation.",
+      "reported_history": [
+        {
+          "record_id": "FAMILY:CROSS_SECTION_CATCHWORDS",
+          "summary": "S98 and S99 failed; the fifth relation fixes the assignment floor but RF1b f102r2.22 is parser-uncovered, and the four unused good relations in the recovered 2025 table have no sixth singularly owned label",
+          "source_status": "CLOSED_AFTER_FIVE_PAIR_PARSER_STOP_AND_TABLE_EXHAUSTION",
+          "reopen": {
+            "all_of": [
+              {
+                "change": "new_binding",
+                "detail": "a new externally documented relation outside the exhausted table with singular ownership and complete all-reading formal coverage, or a new provenance-complete parser; never drop RF1b or promote paragraph/proximity text",
+                "evidence": [
+                  "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+                ],
+                "id": "source_reopening_requirement",
+                "interpretation": "Verbatim source condition, including any alternatives; change types are navigation facets, not executable sufficiency or AND/OR logic."
+              }
+            ],
+            "not_sufficient": [
+              "never drop RF1b or promote paragraph/proximity text"
+            ],
+            "policy": "conditional"
+          }
+        }
+      ]
+    }
+  ],
+  "dispositions": [
+    {
+      "source_id": "FAMILY:BATHING_IMAGE_SEMANTICS",
+      "decision": "umbrella_or_unspecified_assignment_excluded",
+      "card_ids": [],
+      "reason": "The row reports proximity/topology failures and a source-book failure without specifying a particular authored text relation. The proposed card restates the family rather than an atomic semantic hypothesis."
+    },
+    {
+      "source_id": "FAMILY:BOTANICAL_TRAITS_AND_NAMES",
+      "decision": "accepted_concrete_historical_hypothesis",
+      "card_ids": [
+        "SEM-HIST-HERBAL-MEDICINAL"
+      ],
+      "reason": "Concrete source-stated interpretation retained with inherited evidence limits."
+    },
+    {
+      "source_id": "FAMILY:CACHED_DATA_TRANSLATION_SUCCESSOR",
+      "decision": "umbrella_or_method_not_an_atomic_semantic_claim",
+      "card_ids": [],
+      "reason": "A broad family name, generic decoder successor or unassigned role vocabulary is not a new concrete meaning hypothesis; detailed source components remain separately reviewed."
+    },
+    {
+      "source_id": "FAMILY:CROSS_SECTION_CATCHWORDS",
+      "decision": "accepted_concrete_historical_hypothesis",
+      "card_ids": [
+        "SEM-HIST-PLANT-CATCHWORDS"
+      ],
+      "reason": "Concrete source-stated interpretation retained with inherited evidence limits."
+    },
+    {
+      "source_id": "FAMILY:F57V_CROSS_REGISTER_SAME_QUALITY_IDENTITY",
+      "decision": "accepted_concrete_historical_hypothesis",
+      "card_ids": [
+        "SEM-HIST-F57-QUALITY"
+      ],
+      "reason": "Concrete source-stated interpretation retained with inherited evidence limits."
+    },
+    {
+      "source_id": "FAMILY:HISTORICAL_HERBAL_IMAGE_MATCHING",
+      "decision": "accepted_concrete_historical_hypothesis",
+      "card_ids": [
+        "SEM-HIST-HERBAL-ORDER"
+      ],
+      "reason": "Concrete source-stated interpretation retained with inherited evidence limits."
+    },
+    {
+      "source_id": "FAMILY:KNOWN_LANGUAGE_POS_AND_WORD_ORDER",
+      "decision": "umbrella_or_method_not_an_atomic_semantic_claim",
+      "card_ids": [],
+      "reason": "A broad family name, generic decoder successor or unassigned role vocabulary is not a new concrete meaning hypothesis; detailed source components remain separately reviewed."
+    },
+    {
+      "source_id": "FAMILY:LEXICAL_GLOSSES_FROM_FORMAL_ROLES",
+      "decision": "umbrella_or_method_not_an_atomic_semantic_claim",
+      "card_ids": [],
+      "reason": "A broad family name, generic decoder successor or unassigned role vocabulary is not a new concrete meaning hypothesis; detailed source components remain separately reviewed."
+    },
+    {
+      "source_id": "FAMILY:MINIMAL_PAIRS_ALLOGRAPHY_AND_SYNONYMS",
+      "decision": "umbrella_or_method_not_an_atomic_semantic_claim",
+      "card_ids": [],
+      "reason": "A broad family name, generic decoder successor or unassigned role vocabulary is not a new concrete meaning hypothesis; detailed source components remain separately reviewed."
+    },
+    {
+      "source_id": "FAMILY:NUMBER_CALENDAR_AND_COUNTING",
+      "decision": "partially_retained_exact_hypothesis",
+      "card_ids": [
+        "SEM-HIST-MANSION-ROSTER"
+      ],
+      "reason": "The family row lists okshy, daldy, mAii, month-length and thirty-day routes together but does not assign any specified calendar value to those three forms. The combined lexical proposition was invented by compressing separate routes. The separately stated fixed Agrippa roster hypothesis remains retained."
+    },
+    {
+      "source_id": "FAMILY:VISIBLE_IMAGE_TO_WORD",
+      "decision": "umbrella_or_unspecified_assignment_excluded",
+      "card_ids": [],
+      "reason": "Names or properties inferred from images is an umbrella over decoder routes, not a specified label-to-meaning proposition. No independently identified object/label assignment is stated in the family row."
+    },
+    {
+      "source_id": "FAMILY:ZODIAC_AND_ASTRONOMICAL_DICTIONARIES",
+      "decision": "umbrella_or_unspecified_assignment_excluded",
+      "card_ids": [],
+      "reason": "Elements, seasons, polarity, planets, fate and Oresme are distinct candidate systems. The summary does not state their exact label assignments or coordinate maps; bundling them into one proposition loses the distinctions."
+    }
+  ],
+  "reviewer": "root",
+  "coverage": "All12 currentlysemantic family dossiers; no fabricated missing original hypotheses.",
+  "excluded_cards": [
+    {
+      "original_card": {
+        "id": "SEM-HIST-VISIBLE-NAMES",
+        "claim": "Labels associated with depicted objects encode reusable names or properties of those objects.",
+        "claim_type": "semantic_model",
+        "member_ids": [
+          "FAMILY:VISIBLE_IMAGE_TO_WORD"
+        ],
+        "evidence": [
+          {
+            "path": "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv",
+            "line": 2,
+            "quote": "VISIBLE_IMAGE_TO_WORD\tCLOSED\theld global and local human-tag decoders fail; same-looking labels do not yield reusable vocabulary\tnew authorial caption relation or independently translated label, not proximity or a stronger encoder\tsemantic_assumptions/results/manual_label_joint_semantic_channel_report.md"
+          }
+        ],
+        "status": "unconfirmed",
+        "assessment_basis": "historical_registry_claim_review_not_primary_validation",
+        "scope": "historical model as stated in the cited family records",
+        "ready": false,
+        "scientific_limit": "The cited legacy summary preserves the hypothesis and reported outcome; it does not independently establish the claim or a family-wide refutation.",
+        "reported_history": [
+          {
+            "record_id": "FAMILY:VISIBLE_IMAGE_TO_WORD",
+            "summary": "held global and local human-tag decoders fail; same-looking labels do not yield reusable vocabulary",
+            "source_status": "CLOSED",
+            "reopen": {
+              "all_of": [
+                {
+                  "change": "new_binding",
+                  "detail": "new authorial caption relation or independently translated label, not proximity or a stronger encoder",
+                  "evidence": [
+                    "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+                  ],
+                  "id": "source_reopening_requirement",
+                  "interpretation": "Verbatim source condition, including any alternatives; change types are navigation facets, not executable sufficiency or AND/OR logic."
+                }
+              ],
+              "not_sufficient": [
+                "not proximity or a stronger encoder"
+              ],
+              "policy": "conditional"
+            }
+          }
+        ]
+      },
+      "reason": "Names or properties inferred from images is an umbrella over decoder routes, not a specified label-to-meaning proposition. No independently identified object/label assignment is stated in the family row.",
+      "disposition": "source_archive_only_no_clean_idea"
+    },
+    {
+      "original_card": {
+        "id": "SEM-HIST-BATH-TOPOLOGY",
+        "claim": "Bathing-scene connections and topology correspond to semantic relations expressed by the associated text.",
+        "claim_type": "semantic_model",
+        "member_ids": [
+          "FAMILY:BATHING_IMAGE_SEMANTICS"
+        ],
+        "evidence": [
+          {
+            "path": "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv",
+            "line": 5,
+            "quote": "BATHING_IMAGE_SEMANTICS\tCLOSED\tproximity ownership and whole-page topology fail; De balneis sourcing supplies no lexeme\texplicit authorial cross-reference or repeated caption relation independent of spatial nearness\tsemantic_assumptions/results/bath_page_topology_grammar_repair_v2_report.md"
+          }
+        ],
+        "status": "unconfirmed",
+        "assessment_basis": "historical_registry_claim_review_not_primary_validation",
+        "scope": "historical model as stated in the cited family records",
+        "ready": false,
+        "scientific_limit": "The cited legacy summary preserves the hypothesis and reported outcome; it does not independently establish the claim or a family-wide refutation.",
+        "reported_history": [
+          {
+            "record_id": "FAMILY:BATHING_IMAGE_SEMANTICS",
+            "summary": "proximity ownership and whole-page topology fail; De balneis sourcing supplies no lexeme",
+            "source_status": "CLOSED",
+            "reopen": {
+              "all_of": [
+                {
+                  "change": "new_binding",
+                  "detail": "explicit authorial cross-reference or repeated caption relation independent of spatial nearness",
+                  "evidence": [
+                    "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+                  ],
+                  "id": "source_reopening_requirement",
+                  "interpretation": "Verbatim source condition, including any alternatives; change types are navigation facets, not executable sufficiency or AND/OR logic."
+                }
+              ],
+              "not_sufficient": [],
+              "policy": "conditional"
+            }
+          }
+        ]
+      },
+      "reason": "The row reports proximity/topology failures and a source-book failure without specifying a particular authored text relation. The proposed card restates the family rather than an atomic semantic hypothesis.",
+      "disposition": "source_archive_only_no_clean_idea"
+    },
+    {
+      "original_card": {
+        "id": "SEM-HIST-CALENDAR-VALUES",
+        "claim": "The proposed forms okshy, daldy and mAii encode calendar or month-length values.",
+        "claim_type": "functional_hypothesis",
+        "member_ids": [
+          "FAMILY:NUMBER_CALENDAR_AND_COUNTING"
+        ],
+        "evidence": [
+          {
+            "path": "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv",
+            "line": 7,
+            "quote": "NUMBER_CALENDAR_AND_COUNTING\tCLOSED_AFTER_F69M001_PREFIX_NONCONFIRMATION\tokshy daldy mAii month-length and 30-day routes fail; public f69v X1.1--28 supplied an explicit coordinate but the fixed Agrippa mansion roster matched only shallow prefixes and failed full-null deeper-topology and alignment-margin gates\tindependent repeated arithmetic equality or a different explicit authorial coordinate and independently licensed roster; not another mansion spelling roster rotation depth threshold or inference from cardinality\tresults/f69m001_target_validation.md"
+          }
+        ],
+        "status": "unconfirmed",
+        "assessment_basis": "historical_registry_claim_review_not_primary_validation",
+        "scope": "historical model as stated in the cited family records",
+        "ready": false,
+        "scientific_limit": "The cited legacy summary preserves the hypothesis and reported outcome; it does not independently establish the claim or a family-wide refutation.",
+        "reported_history": [
+          {
+            "record_id": "FAMILY:NUMBER_CALENDAR_AND_COUNTING",
+            "summary": "okshy daldy mAii month-length and 30-day routes fail; public f69v X1.1--28 supplied an explicit coordinate but the fixed Agrippa mansion roster matched only shallow prefixes and failed full-null deeper-topology and alignment-margin gates",
+            "source_status": "CLOSED_AFTER_F69M001_PREFIX_NONCONFIRMATION",
+            "reopen": {
+              "all_of": [
+                {
+                  "change": "new_binding",
+                  "detail": "independent repeated arithmetic equality or a different explicit authorial coordinate and independently licensed roster; not another mansion spelling roster rotation depth threshold or inference from cardinality",
+                  "evidence": [
+                    "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+                  ],
+                  "id": "source_reopening_requirement",
+                  "interpretation": "Verbatim source condition, including any alternatives; change types are navigation facets, not executable sufficiency or AND/OR logic."
+                }
+              ],
+              "not_sufficient": [
+                "not another mansion spelling roster rotation depth threshold or inference from cardinality"
+              ],
+              "policy": "conditional"
+            }
+          }
+        ]
+      },
+      "reason": "The family row lists okshy, daldy, mAii, month-length and thirty-day routes together but does not assign any specified calendar value to those three forms. The combined lexical proposition was invented by compressing separate routes.",
+      "disposition": "source_archive_only_no_clean_idea"
+    },
+    {
+      "original_card": {
+        "id": "SEM-HIST-ASTRO-VALUES",
+        "claim": "The zodiac or astronomical label sequences encode externally specified elemental, seasonal, planetary or fate categories.",
+        "claim_type": "semantic_model",
+        "member_ids": [
+          "FAMILY:ZODIAC_AND_ASTRONOMICAL_DICTIONARIES"
+        ],
+        "evidence": [
+          {
+            "path": "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv",
+            "line": 6,
+            "quote": "ZODIAC_AND_ASTRONOMICAL_DICTIONARIES\tCLOSED\telement season polarity planet fate Oresme and serialized visual-order mappings fail held controls\tan authorial coordinate or duplicated labeled sequence with fixed external start/order\tsemantic_assumptions/results/oresme_source_family_feature_test_v2_report.md"
+          }
+        ],
+        "status": "unconfirmed",
+        "assessment_basis": "historical_registry_claim_review_not_primary_validation",
+        "scope": "historical model as stated in the cited family records",
+        "ready": false,
+        "scientific_limit": "The cited legacy summary preserves the hypothesis and reported outcome; it does not independently establish the claim or a family-wide refutation.",
+        "reported_history": [
+          {
+            "record_id": "FAMILY:ZODIAC_AND_ASTRONOMICAL_DICTIONARIES",
+            "summary": "element season polarity planet fate Oresme and serialized visual-order mappings fail held controls",
+            "source_status": "CLOSED",
+            "reopen": {
+              "all_of": [
+                {
+                  "change": "new_binding",
+                  "detail": "an authorial coordinate or duplicated labeled sequence with fixed external start/order",
+                  "evidence": [
+                    "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+                  ],
+                  "id": "source_reopening_requirement",
+                  "interpretation": "Verbatim source condition, including any alternatives; change types are navigation facets, not executable sufficiency or AND/OR logic."
+                }
+              ],
+              "not_sufficient": [],
+              "policy": "conditional"
+            }
+          }
+        ]
+      },
+      "reason": "Elements, seasons, polarity, planets, fate and Oresme are distinct candidate systems. The summary does not state their exact label assignments or coordinate maps; bundling them into one proposition loses the distinctions.",
+      "disposition": "source_archive_only_no_clean_idea"
+    }
+  ],
+  "independent_review": {
+    "reviewer": "idea_pipeline",
+    "basis": "Exact cited closed-family rows only; no primary revalidation.",
+    "retained_cards": 5,
+    "excluded_cards": 4,
+    "changes": "Removed invented calendar word-assignment bundle and three umbrella placeholders; qualified human botanical identities; separated f57 equality hypothesis from feature-ablation evidence."
+  }
+}

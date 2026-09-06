@@ -1,0 +1,2608 @@
+{
+  "cards": [
+    {
+      "claim": "Eine geschriebene Referenzmarkierung unterscheidet die Fortsetzung desselben Teilnehmers von der Einführung eines neuen Teilnehmers.",
+      "claim_type": "functional_hypothesis",
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line": 84,
+          "path": "docs/IDEA_BACKLOG.md",
+          "quote": "### IP003 — Gleicher Teilnehmer oder nur gleiches Wort in einer Kette?\n\nStatus: `NEEDS_DISCRIMINATOR` nach direktem Vorgängeraudit; nicht ausführen.\nAusgangspunkt: [GDT704](../experiments/yolo/gdt704_v77_repeated_written_material_continuation/REPORT.md)\nführt f26r.2 #4/#5/#6/#8 als lokale Kette C011/C013/C015; drei andere exakte\nKopf-Wiederholungen (f80v.35 und zweimal f88r.19) gelten als Zutatenwechsel.\nNeue Frage: Trägt eine ausschließlich geschriebene, nicht übersetzte\nReferenzmarkierung den Unterschied zwischen fortgesetztem und neuem Teilnehmer?\nKleinster Test: vorhandene vier Gegenüberstellungskarten nebeneinander prüfen;\nalle deutschen Material-/Operationswörter entfernen; exakte Quellgruppen,\nexplizite Wiederholung und dokumentierte deiktische Markierungen stehenlassen.\nPrüfen, ob die behauptete Teilnehmerfortsetzung dann noch ein unterschiedliches\nQuellsignal besitzt. Keine neue Referenzkante vergeben. Gesamtbudget 5 Minuten.\nEntscheidung: ein unabhängiges geschriebenes Signal liefert einen konkreten\nKandidaten für einen späteren Transfer-Test; fehlt es, ist die Kette weiterhin"
+        }
+      ],
+      "id": "SEM-IP003",
+      "member_ids": [
+        "IP003"
+      ],
+      "ready": false,
+      "scope": "semantic",
+      "status": "unconfirmed"
+    },
+    {
+      "claim": "daiin bezeichnet einen variablen Feldwert statt eines obligatorischen Feldabschlusses; die konkrete Zahl III ist dadurch noch nicht begründet.",
+      "claim_type": "functional_hypothesis",
+      "disposition": "archived",
+      "evidence": [
+        {
+          "line": 127,
+          "path": "docs/IDEA_BACKLOG.md",
+          "quote": "### IP004 — Wiederholtes Feldende oder konkreter Zahlenwert?\n\nStatus: `DUPLICATE` nach vertieftem Vorgängerabgleich; nicht übernehmen.\nAusgangspunkt: [GDT764](../experiments/yolo/gdt764_bounded_value_field_dispatch/REPORT.md)\nbelegt fünf vollständige H1-X-daiin-Tripel; drei Linien enthalten ein zweites\nY-daiin-Feld, z.B. `pchedal | qopchdy daiin | chedy daiin`.\nNeue Vorhersage: Ein obligatorischer Feldabschluss muss an mehreren Feldenden\ndesselben Records gleich sein; ein konkreter Wert darf unabhängig variieren.\nKleinster Test: nur die drei bereits veröffentlichten Mehrfeld-Linien vollständig\nrekonstruieren und die Feldabgrenzung ohne `daiin` bzw. numerische Arbeitswerte\nbegründen. Bereits vorhandene anders endende Schwesterfelder in denselben\nRecords würden die obligatorische Abschlusslesung direkt einschränken.\nGesamtbudget 5 Minuten; keine neue Ganzkorpus-Familiensuche.\nEntscheidung: unabhängig abgegrenzte Felder mit variierendem Ende rechtfertigen\nParameter- statt Pflichttrenner-Modell; fehlen unabhängige Feldgrenzen, kann das"
+        }
+      ],
+      "id": "SEM-IP004",
+      "member_ids": [
+        "IP004"
+      ],
+      "ready": false,
+      "scope": "semantic",
+      "status": "unconfirmed"
+    },
+    {
+      "claim": "Ein Wiederaufnahmemarker verweist selektiv auf einen von mehreren zuvor eingeführten Teilnehmern.",
+      "claim_type": "functional_hypothesis",
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line": 347,
+          "path": "docs/IDEA_BACKLOG.md",
+          "quote": "| IP023 | Ein textlicher Wiederaufnahmemarker erhält eine **selektive Vorgeschichte**: nach zwei unterschiedlichen eingeführten Ganzformen sollte seine Umgebung eine von ihnen, nicht beliebig beide, wieder aktivieren. | Vorhandene Referenzkarten GDT696/700 und qokaldy-Audit798. Ein bereits publiziertes echtes Zwei-Kandidaten-Beispiel auf ein noch ungenutztes geschriebenes Unterscheidungssignal prüfen, 5 Minuten. | IP003 und GDT798 zeigen gerade die bekannte Unterbestimmtheit; ohne zusätzliches unabhängiges Signal ist dieser Rohentwurf ein Duplikat und wird verworfen. |"
+        }
+      ],
+      "id": "SEM-IP023",
+      "member_ids": [
+        "IP023"
+      ],
+      "ready": false,
+      "scope": "semantic",
+      "status": "unconfirmed"
+    },
+    {
+      "claim": "Teiltexte einer zusammengesetzten Bildbeschriftung benennen einzelne dargestellte Teilobjekte.",
+      "claim_type": "functional_hypothesis",
+      "disposition": "source_review",
+      "evidence": [
+        {
+          "line": 353,
+          "path": "docs/IDEA_BACKLOG.md",
+          "quote": "| IP024 | Bei kompositionalen Bildbeschriftungen übernimmt ein **zeichnerisch ausgetauschtes Teilobjekt** nur einen Textteil, während unveränderte Teile ihre Textbeiträge bewahren. | Native Pharma-Übersicht, vorhandene vollständige Objektkarten; erst ein unabhängig begründetes Bildpaar nominieren. Zwei gesamte Zeichnungen samt eindeutig zugeordneten vollständigen Beschriftungen vergleichen, 5 Minuten Kapazitätsprüfung. | Visuelle Teilähnlichkeit ist keine gesicherte Objektidentität; Pflanzenfragment-/Owner-Routen sind bereits stark vorgeprüft. Keine Teilwortähnlichkeit zur Auswahl verwenden. |"
+        }
+      ],
+      "id": "SEM-IP024",
+      "member_ids": [
+        "IP024"
+      ],
+      "ready": false,
+      "scope": "semantic",
+      "status": "unconfirmed"
+    },
+    {
+      "claim": "Wiederkehrende Beschriftungen bezeichnen einen Eintragstyp beziehungsweise eine Funktion statt einen individuellen Gegenstand.",
+      "claim_type": "functional_hypothesis",
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line": 354,
+          "path": "docs/IDEA_BACKLOG.md",
+          "quote": "| IP025 | Ein gleicher Beschriftungstext kann einen **Recordtyp statt ein Objekt** benennen: dann bleibt er bei unterschiedlichen Objekten, aber gleicher unabhängig sichtbarer Recordfunktion bestehen. | GDT792/811-positive Ganzformwiederverwendung und native vollständige Seiten. Eine veröffentlichte Wiederholung auf einen sichtbaren Funktionskontrast prüfen, der bisher nicht nur durch Lage definiert wurde, 5 Minuten. | Die aktuelle Bilddokumentation kann solche Funktionen nicht unabhängig bestimmen; dann bloß bekanntes Name/Klasse-Unentschieden. |"
+        }
+      ],
+      "id": "SEM-IP025",
+      "member_ids": [
+        "IP025"
+      ],
+      "ready": false,
+      "scope": "semantic",
+      "status": "unconfirmed"
+    },
+    {
+      "claim": "Verschachtelte graphische Umrandungen bestimmen, auf welchen dargestellten Gegenstand ein Textfeld Bezug nimmt.",
+      "claim_type": "functional_hypothesis",
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line": 355,
+          "path": "docs/IDEA_BACKLOG.md",
+          "quote": "| IP026 | Ein graphischer Einschluss grenzt den Text semantisch nur dann mit ab, wenn **Textfelder bei verschachtelten Umrandungen** systematisch dieselbe eindeutige Eigentümerschaft besitzen; bloße Nachbarschaft ist weniger strikt. | GDT790/791s Panelhierarchie, originale bereits zugelassene Figuren-/Beckenbilder. Einen Record mit echter Verschachtelung und zwei plausiblen Ebenen vollständig auditieren, 5 Minuten. | Umrandungen können dekorativ sein; die geschlossene Bad-/Owner-Topologieroute könnte den ganzen Vorschlag bereits abdecken. Keine GDT388-Kante allein aus Einschluss. |"
+        }
+      ],
+      "id": "SEM-IP026",
+      "member_ids": [
+        "IP026"
+      ],
+      "ready": false,
+      "scope": "semantic",
+      "status": "unconfirmed"
+    },
+    {
+      "claim": "Das Fehlen eines unabhängig identifizierten Bildbestandteils führt zum Wegfall seines Textbeitrags bei sonst erhaltener Beschriftung.",
+      "claim_type": "functional_hypothesis",
+      "disposition": "raw_unreviewed",
+      "evidence": [
+        {
+          "line": 356,
+          "path": "docs/IDEA_BACKLOG.md",
+          "quote": "| IP027 | Bei unabhängig dokumentiertem **Fehlen** eines grafischen Teils entfällt dessen behaupteter Textbeitrag, während andere Beiträge bestehen bleiben; das unterscheidet komponentielle Beschriftung von pauschalem Eintragsnamen. | Paar aus vollständigen, unbeschädigten Objektzeichnungen mit gesicherter Zuordnung und gleicher Vorlage, noch nicht nachgewiesen. Kleiner erster Schritt: existierende Karten auf ein solches negatives Gegenstück prüfen, 5 Minuten. | Auslassung, Beschädigung und andere Art sind leicht zu verwechseln. Ohne unabhängig gesichertes Gegenstück kein Test; keine alte Blütenzählung neu etikettieren. |"
+        }
+      ],
+      "id": "SEM-IP027",
+      "member_ids": [
+        "IP027"
+      ],
+      "ready": false,
+      "scope": "semantic",
+      "status": "unconfirmed"
+    },
+    {
+      "claim": "Geschriebene Gesamt- und Teilwerte folgen einer additiven Zahlenrelation.",
+      "claim_type": "semantic_model",
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line": 362,
+          "path": "docs/IDEA_BACKLOG.md",
+          "quote": "| IP028 | Ein additives Zahlensystem sollte einen geschriebenen **Gesamtwert und Teilwerte** durch dieselbe arithmetische Beziehung verbinden; bloße Stufen-/Klassenzeichen müssen das nicht. | GDT686/764 bekannte Wertfelder als Start, dazu unabhängig erkennbare Gesamt-/Teilrelation noch benötigt. Eine bereits publizierte Mehrfeldstelle auf einen tatsächlichen Totalmarker prüfen, 5 Minuten, keine Zahlen aus Strichzahl setzen. | Keine gesicherte Totalrelation vorhanden; ohne sie lässt sich jede kleine Reihe nachträglich passend rechnen. |"
+        }
+      ],
+      "id": "SEM-IP028",
+      "member_ids": [
+        "IP028"
+      ],
+      "ready": false,
+      "scope": "semantic",
+      "status": "unconfirmed"
+    },
+    {
+      "claim": "Ein geschriebener Wert bezeichnet ein Verhältnis und bleibt bei gemeinsamer Skalierung der zugehörigen Mengen unverändert.",
+      "claim_type": "semantic_model",
+      "disposition": "raw_unreviewed",
+      "evidence": [
+        {
+          "line": 363,
+          "path": "docs/IDEA_BACKLOG.md",
+          "quote": "| IP029 | Ein Verhältnis statt einer Menge bleibt bei **gemeinsamer Skalierung** mehrerer Nachbarwerte unverändert; ein absoluter Betrag verändert sich. | Zwei unabhängig als dieselbe Rezept-/Mischungsrelation gebundene Records mit verschiedenen Werten, bisher nicht festgestellt. Kapazitätsprüfung nur an publizierten vollständigen Parallelrecords, 5 Minuten. | Gleiche Rezeptidentität ist nicht gesichert; beliebige proportionale Lesungen liefern keine Evidenz. |"
+        }
+      ],
+      "id": "SEM-IP029",
+      "member_ids": [
+        "IP029"
+      ],
+      "ready": false,
+      "scope": "semantic",
+      "status": "unconfirmed"
+    },
+    {
+      "claim": "Eine Wertform bezeichnet einen geordneten Grad statt einer bloßen Kategorie; unabhängig bekannte Zwischenzustände erhalten Zwischenwerte.",
+      "claim_type": "semantic_model",
+      "disposition": "raw_unreviewed",
+      "evidence": [
+        {
+          "line": 364,
+          "path": "docs/IDEA_BACKLOG.md",
+          "quote": "| IP030 | Eine Rangangabe verträgt geordnete Zwischenwerte, ein Kategorienindex dagegen nicht notwendig: ein unabhängiger **zwischen zwei Endzuständen gezeichneter Zustand** sollte schriftlich zwischen den beiden Werten liegen. | Vollständige visuelle Dreierreihe mit unabhängig lesbarer gradueller Eigenschaft; GDT812s skalare Rivalen als Vorgänger. Erst Eignung eines publizierten Dreiers prüfen, 5 Minuten. | Physische Reihenfolge ist keine Wertordnung; kalender-/ordinalbezogene geschlossene Routen unbedingt prüfen. Keine neue Zahlenbedeutung aus bloßer Platzfolge. |"
+        }
+      ],
+      "id": "SEM-IP030",
+      "member_ids": [
+        "IP030"
+      ],
+      "ready": false,
+      "scope": "semantic",
+      "status": "unconfirmed"
+    },
+    {
+      "claim": "Ein wiederkehrender Ausdruck bezeichnet eine Maßeinheit und erlaubt eine konstante Umrechnung gegenüber einer zweiten unabhängig bestimmten Einheit.",
+      "claim_type": "functional_hypothesis",
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line": 365,
+          "path": "docs/IDEA_BACKLOG.md",
+          "quote": "| IP031 | Ein Maßeinheitenwort müsste bei einem Wechsel zwischen zwei unabhängig erkennbaren Maßarten eine **wiederkehrende Umrechnung** zulassen; ein Stoffname verlangt keine konstante Umrechnung. | Dokumentierte doppelte Wertangabe desselben Gegenstands mit unabhängig verankerten Einheiten; noch keine Quelle bekannt. Zuerst vorhandene Mengenberichte auf ein echtes Doppelmaß prüfen, 5 Minuten. | Aktuell hoher Datenbedarf; historische Umrechnungszahlen dürfen nicht zur Suche passender Voynich-Zahlen missbraucht werden. |"
+        }
+      ],
+      "id": "SEM-IP031",
+      "member_ids": [
+        "IP031"
+      ],
+      "ready": false,
+      "scope": "semantic",
+      "status": "unconfirmed"
+    },
+    {
+      "claim": "Ein bestimmter Abkürzungsträger ersetzt in verschiedenen vollständig ausgeschriebenen Wörtern dieselbe Buchstabenfolge.",
+      "claim_type": "functional_hypothesis",
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line": 449,
+          "path": "docs/IDEA_BACKLOG.md",
+          "quote": "| IP039 | **Obligatorische ausgeschriebene Abkürzungskonvention:** Ein unabhängig identifizierter Abkürzungsträger ersetzt in mehreren vollständigen Wörtern immer dieselbe fehlende Folge; die Expansion muss auch in einer bisher nicht benutzten Wortumgebung passen. Eine bedeutungstragende Endung verlangt keine solche wörtliche Expansion. | Wirklich dokumentierte ausgeschriebene/verkürzte Paarung, nicht `ofaldo/ofal` oder bloße l/m-Ähnlichkeit. Ausgangsprüfung: GDT835s fehlender vollständiger Suffixinverse-Test und geschlossene Korrektur-/Minimalpaarrouten; 5 Minuten Kapazitätsprüfung vorhandener expliziter Paarungen. | Aktuell fehlt ein solcher unabhängiger Expansionsanker. Diese Idee erlaubt weder neue Suffixzählung noch Wiederöffnung von GDT840 oder eine weitere synthetische Decoderreparatur. |"
+        }
+      ],
+      "id": "SEM-IP039",
+      "member_ids": [
+        "IP039"
+      ],
+      "ready": false,
+      "scope": "semantic",
+      "status": "unconfirmed"
+    },
+    {
+      "claim": "Eine Wertschreibung verwendet Stellenwerte mit einem gekoppelten Übertrag bei unabhängig gesichertem Zählschritt.",
+      "claim_type": "semantic_model",
+      "disposition": "raw_unreviewed",
+      "evidence": [
+        {
+          "line": 451,
+          "path": "docs/IDEA_BACKLOG.md",
+          "quote": "| IP041 | **Stellenwertnotation mit Übertrag:** Bei unabhängig gesicherter Erhöhung um eins wechselt an einer bestimmten Stelle ein Zeichen zurück und die nächste Stelle steigt — ein gekoppelter Übertrag. Additive Strichzahlen oder bloße geordnete Klassen besitzen diese spezielle Wechselregel nicht. | Eine explizit gebundene vollständige Zählfolge beziehungsweise ein sichtbarer unabhängiger Nachfolgerbezug, bislang nicht nachgewiesen; GDT686-Wertinventar als Navigationsquelle. Zunächst nach einem schon publizierten echten Übertragskontrast fragen, 5 Minuten; keine Kreisordnung als Zählfolge voraussetzen. | Die Nachfolgerrelation darf nicht aus den vermeintlichen Ziffern entstehen. Ohne unabhängig gesicherte Folge bleibt das ein Datenbedarf, keine Erweiterung der III-Arbeitslesung. |"
+        }
+      ],
+      "id": "SEM-IP041",
+      "member_ids": [
+        "IP041"
+      ],
+      "ready": false,
+      "scope": "semantic",
+      "status": "unconfirmed"
+    },
+    {
+      "claim": "Ein kurzer Rückverweis bezeichnet einen zuvor geschriebenen Abschnitt und codiert dessen Umfang.",
+      "claim_type": "functional_hypothesis",
+      "disposition": "raw_unreviewed",
+      "evidence": [
+        {
+          "line": 453,
+          "path": "docs/IDEA_BACKLOG.md",
+          "quote": "| IP043 | **Rückverweis mit codierter Länge:** Ein kurzer Ausdruck steht für einen zuvor vollständig geschriebenen Abschnitt und gibt dessen Umfang an; bei unabhängig gebundenen Wiederaufnahmen muss derselbe Längencode denselben Umfang vorhersagen, auch bei anderem Inhalt. Bloßes Kopieren ähnlich aussehender Wörter wie in IP016 verlangt keinen expliziten Umfangscode. | Bereits vollständig dokumentierte längere Wiederaufnahme mit unabhängig gesichertem Ziel, derzeit offen; GDT696/700/798 und GDT838/829 zuerst prüfen. Kleinster Test: an einer vorhandenen expliziten Doppelung prüfen, ob überhaupt ein separat geschriebener Umfangskandidat existiert, 5 Minuten, ohne die Abschnittslänge an den Code anzupassen. | Bezug und Umfang könnten frei gewählt sein; dann erklärt der Mechanismus alles und nichts. Ohne unabhängig bestimmte Abschnittsgrenzen keine weitere Suche nach passenden kleinen Werten. |"
+        }
+      ],
+      "id": "SEM-IP043",
+      "member_ids": [
+        "IP043"
+      ],
+      "ready": false,
+      "scope": "semantic",
+      "status": "unconfirmed"
+    },
+    {
+      "claim": "Ein Wiederholungsoperator bezieht ein einmal geschriebenes Argument auf mehrere wiederholte Operationen.",
+      "claim_type": "functional_hypothesis",
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line": 1529,
+          "path": "docs/IDEA_BACKLOG.md",
+          "quote": "| **IP049 — Wiederholung mit gemeinsamem Argument** | GDT851 belegt f30r.11 `cheor chey cheor chey`, GDT857 f47r.7 `chol chol chol`. Ein produktiver Wiederholungsoperator könnte einen nachfolgenden vollständigen Argumentausdruck einmal auf die ganze Wiederholung beziehen; mehrere separat geschriebene Records müssten ihre jeweils obligatorischen Argumente einzeln realisieren. | Zuerst genau einen bereits wiederkehrenden, unabhängig über Oberflächen begrenzbaren Anschluss für eine dieser Formen suchen und den vollständigen Einfach-/Wiederholungsfall gegenüberstellen. Minimaler Unterschied: Anschluss nur einmal außerhalb gegen Anschluss nach jeder Kopie; vorhandener851/857-Kontext nach eigenem Freeze, ca10min einschließlich Quellen-/Kapazitätsprüfung. | Obligatorische Argumente sind bisher nicht festgestellt; Ellipse kann beide Mechanismen vereinbaren. Kein nachträgliches Satzzerlegen, keine bloße weitere Runzählung und kein Poolnachfolger. |"
+        }
+      ],
+      "id": "SEM-IP049",
+      "member_ids": [
+        "IP049"
+      ],
+      "ready": false,
+      "scope": "semantic",
+      "status": "unconfirmed"
+    },
+    {
+      "claim": "Beschriftungen sind lokale Bezeichner; Zugriffe aus anderen Eintragsbereichen benötigen einen unterscheidenden Qualifikator.",
+      "claim_type": "functional_hypothesis",
+      "disposition": "raw_unreviewed",
+      "evidence": [
+        {
+          "line": 1531,
+          "path": "docs/IDEA_BACKLOG.md",
+          "quote": "| **IP051 — Beschriftungen als lokale Bezeichner mit Namensraum** | GDT790 nennt `okal` als Label im unteren f82r-Pool und als Ganzform in zwei früheren Prosa-Records;791 korrigiert die Kontakte als panelübergreifend. Ein lokaler Namensraum erlaubt dieselbe Zeichenfolge für verschiedene Einträge, verlangt bei Zugriff außerhalb dieses Raums aber einen unterscheidenden Qualifikator; ein globales Klassenwort verlangt diesen Zusatz nicht. | Ein schon publiziertes Beispiel mit zweimal derselben kompletten Beschriftung in verschiedenen sichtbaren Records und einem eindeutig schriftlich qualifizierten Rückgriff auswählen. Minimal: derselbe Zusatz trennt die beiden Zielrecords auch in einem zweiten Rückgriff; vorhandene790/791-Karten, erst10min Quellenkapazität. | Record-Overlay ist keine autorielle Eigentümerschaft, Qualifikator und Referenz sind noch unbelegt. Nicht die bereits erfolglosen Namens-/Panelzählungen oder nahe Figuren erneut werten. |"
+        }
+      ],
+      "id": "SEM-IP051",
+      "member_ids": [
+        "IP051"
+      ],
+      "ready": false,
+      "scope": "semantic",
+      "status": "unconfirmed"
+    },
+    {
+      "claim": "Kurze Etiketten bilden die Initialenfolge einer vollständig ausgeschriebenen zugehörigen Überschrift ab.",
+      "claim_type": "functional_hypothesis",
+      "disposition": "source_review",
+      "evidence": [
+        {
+          "line": 1532,
+          "path": "docs/IDEA_BACKLOG.md",
+          "quote": "| **IP052 — Etikett als Abkürzung einer ausgeschriebenen Überschrift** | GDT790 berichtet `otedy` als Label und als erstes Wort f77r.25; volle Formwiederverwendung ist gesichert, Abkürzung nicht. Eine Etikettenkonvention könnte zusätzlich andere kurze Labels als feste Initialenfolge der **vollständigen** zugehörigen Überschrift bilden; bloße wiederholte Namen müssen keine Initialenbeziehung zeigen. | Vor jeder Suche genau eine Zeicheneinheit und eine unabhängig sichtbare Überschriftengrenze festlegen; dann an einem publizierten Label/Überschrift-Paar mit mehr als einer Gruppe auf buchstäbliches Akrostichon prüfen, danach ein zweites bereits gebundenes Paar verlangen.790/791 als Quellenanker;5min Zulässigkeitsprüfung, kein globales Initialenmining. | Noch kein solches mehrgliedriges Paar belegt; das bekannte Einwortpaar ist trivial und zählt nicht. GDT262/263 sowie Abkürzungs-/Catchword-Stopps müssen vor Zulassung geprüft werden; keine Labelnähe als Bindung. |"
+        }
+      ],
+      "id": "SEM-IP052",
+      "member_ids": [
+        "IP052"
+      ],
+      "ready": false,
+      "scope": "semantic",
+      "status": "unconfirmed"
+    },
+    {
+      "claim": "Kennungen sind nachträglich verwaltete Adressen und ändern sich hinter einem eingeschobenen Eintrag gemeinsam, anders als stabile Objektnamen.",
+      "claim_type": "functional_hypothesis",
+      "disposition": "raw_unreviewed",
+      "evidence": [
+        {
+          "line": 1759,
+          "path": "docs/IDEA_BACKLOG.md",
+          "quote": "### IP062 — Nachträglich verwaltete Adressen statt stabiler Namen\n\n**Anker:** 790/791 zeigen echte Ganzformwiederverwendungen zwischen Beschriftung\nund Prosa (`otedy`, `okal`, `otchdy`, `olaiin`); sie beweisen keine Adresse.\n**Hypothese:** Ein laufendes Adresssystem könnte bei Einschub eines neuen\nRecords mehrere nachfolgende Kennungen systematisch ändern. Stabile\nObjektnamen müssen wegen eines solchen Einschubs nicht gemeinsam geändert\nwerden. **Discriminator:** Ein unabhängig erkennbarer Einschub plus mehrere\nchronologisch gesicherte alte/neue Kennungspaare: unveränderte Objekt-/Textkörper,\neine gemeinsame gerichtete Kennungsänderung hinter dem Einschub, davor keine\nentsprechende Revision. **Kleinster Schritt:** Ein vorhandenes publiziertes\nRevisionsdossier auf genau diesen Verbund prüfen, höchstens10min; erst bei\nvollständig belegtem Vorher/Nachher eine Transformation formulieren. Ein\nsolches Dossier ist aktuell **nicht identifiziert**. **Rivale:** Einheitliche\northographische Revision oder Schreibersystemwechsel; deshalb genügt die"
+        }
+      ],
+      "id": "SEM-IP062",
+      "member_ids": [
+        "IP062"
+      ],
+      "ready": false,
+      "scope": "semantic",
+      "status": "unconfirmed"
+    },
+    {
+      "claim": "Beschriftungen bezeichnen überlappende Eigenschaften mehrerer Gegenstände statt exklusiver Objektkennungen.",
+      "claim_type": "functional_hypothesis",
+      "disposition": "raw_unreviewed",
+      "evidence": [
+        {
+          "line": 1778,
+          "path": "docs/IDEA_BACKLOG.md",
+          "quote": "### IP063 — Kreuzende Merkmalszuordnungen statt exklusiver Objektkennungen\n\n**Anker:** GDT790s f82r-Becken besitzt zahlreiche getrennte Figuren-/Stationsbereiche\nund Beschriftungen;791 hält die Prosaübernahmen als panelübergreifend fest.\nDie dortige Nähe ersetzt keine autorielle Relation.\n**Hypothese:** Beschreibende Eigenschaften können mehrere Objekte in sich\nüberschneidende Mengen ordnen. Ein exklusives Kennungs-/Aliasregister desselben\nObjektlevels ordnet jedes Objekt dagegen genau einer Kennung zu.\n**Discriminator:** Zwei vollständige Beschriftungen mit **autorsichtbaren**\nVerbindungslinien oder Klammern zu mindestens drei separat abgegrenzten\nGegenständen, sodass die Zuordnungen `A→{x,y}` und `B→{y,z}` tatsächlich\nüberlappen und nicht bloß verschiedene Hierarchieebenen benennen.\n**Kleinster Schritt:** Ein einziges bereits publiziertes vollständiges\nFanout-Beispiel mit dieser Kreuzung nominieren; dann die Linienenden ohne\nWortdeutung prüfen,10min. Ein solches Beispiel ist derzeit nicht belegt."
+        }
+      ],
+      "id": "SEM-IP063",
+      "member_ids": [
+        "IP063"
+      ],
+      "ready": false,
+      "scope": "semantic",
+      "status": "unconfirmed"
+    },
+    {
+      "claim": "Eine schriftliche Konstruktion bezeichnet die Rücknahme einer Operation und führt zum ursprünglichen Zustand zurück.",
+      "claim_type": "functional_hypothesis",
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line": 1925,
+          "path": "docs/IDEA_BACKLOG.md",
+          "quote": "**IP067 — Geschriebene Rücknahme einer Operation.** Eine technische\nHandlungsnotation könnte eine Operation und ihre ausdrücklich markierte\nRücknahme enthalten: der dargestellte Endzustand entspricht dann wieder dem\nAnfangszustand, während der Zwischenzustand abweicht. Eine reine Zustandsliste\nbraucht keine wiederverwendbare Rücknahmekonstruktion. Kleinster Test: zwei\nunabhängig gebundene Drei-Zustandsfolgen mit unterschiedlichen Operationen.\n**UNKNOWN:** solche gerichteten Folgen im vorhandenen Bildbestand. Rivale:\nzyklische Illustration ohne geschriebene Operation. Keine Beckenrichtung aus\nNähe oder vermeintlichen Übersetzungen ableiten.\n"
+        }
+      ],
+      "id": "SEM-IP067",
+      "member_ids": [
+        "IP067"
+      ],
+      "ready": false,
+      "scope": "semantic",
+      "status": "unconfirmed"
+    },
+    {
+      "claim": "Die betreffenden Einträge bezeichnen eine ungeordnete Zusammenstellung von Bestandteilen statt einer ergebnisrelevanten Schrittfolge.",
+      "claim_type": "functional_hypothesis",
+      "disposition": "raw_unreviewed",
+      "evidence": [
+        {
+          "line": 1935,
+          "path": "docs/IDEA_BACKLOG.md",
+          "quote": "**IP068 — Reihenfolge austauschbarer Zutaten oder geordneter Schritte.** Zwei\nschriftlich verschiedene Abfolgen könnten dieselben vollständig gebundenen\nBestandteile und dasselbe ausdrücklich ausgewiesene Ergebnis haben.\nDas stützt eine ungeordnete Zusammenstellung stärker als einen für das Ergebnis\nrelevanten Prozessablauf. Kleinster Test: ein unabhängig zugeordnetes\nReihenfolgenpaar einschließlich Ergebnis, ohne Zahlenwerte. **MISSING:** diese\nZuordnung; bisherige Rezeptglossen sind kein Beleg. Rivale: zwei tatsächlich\nkommutierende Prozessschritte. Keine allgemeine Wortordnungszählung.\n"
+        }
+      ],
+      "id": "SEM-IP068",
+      "member_ids": [
+        "IP068"
+      ],
+      "ready": false,
+      "scope": "semantic",
+      "status": "unconfirmed"
+    },
+    {
+      "claim": "Eigennamen werden innerhalb einer unabhängig gebundenen Übersetzung regelhaft lautangepasst statt unverändert kopiert.",
+      "claim_type": "semantic_model",
+      "disposition": "raw_unreviewed",
+      "evidence": [
+        {
+          "line": 1946,
+          "path": "docs/IDEA_BACKLOG.md",
+          "quote": "**IP069 — Namensübernahme gegenüber Lautanpassung.** In unabhängig als\nÜbersetzung gebundenen Texten könnten mehrere extern identifizierte Eigennamen\neine gemeinsame regelhafte Lautanpassung zeigen, während übrige Wörter frei\nübersetzt werden. Unverändert kopierte Signaturen verlangen diese Anpassung\nnicht. Kleinster Kontrast: mehrere Namen im selben gebundenen Textpaar,\neinschließlich eines unbenutzten Namens. **MISSING:** Übersetzungspaar und\nunabhängige Namensidentitäten. Rivale: konventionelle Schreibvarianten.\nGewöhnliche Alphabetnotizen allein liefern keinen bilingualen Schlüssel.\n"
+        }
+      ],
+      "id": "SEM-IP069",
+      "member_ids": [
+        "IP069"
+      ],
+      "ready": false,
+      "scope": "semantic",
+      "status": "unconfirmed"
+    },
+    {
+      "claim": "Eine chronologisch erkennbare Ersetzung einer Fremdform durch eine ausführlichere Zielsprachenform zeigt die Bearbeitungsrichtung einer Übersetzung.",
+      "claim_type": "semantic_model",
+      "disposition": "raw_unreviewed",
+      "evidence": [
+        {
+          "line": 1955,
+          "path": "docs/IDEA_BACKLOG.md",
+          "quote": "**IP070 — Übersetzungsrichtung durch stehengebliebene Fremdform.** Eine\nvollständige Passage könnte erst eine fremde Schreibform einsetzen und sie\ndann durch eine längere zielsprachliche Erläuterung ersetzen; umgekehrte\nBearbeitungsrichtung sagt das Gegenteil voraus. Kleinster Test: ein sicher\nchronologischer Austausch mit unabhängig identifizierten Schrift-/Sprachformen.\n**MISSING:** vollständiger Austausch und Chronologie. Rivale: spätere\nLeserannotation. Keine RBR-Schicht als Übersetzung behandeln; selbst ein\npositiver Fall würde nur diese Bearbeitungsrichtung bestimmen.\n"
+        }
+      ],
+      "id": "SEM-IP070",
+      "member_ids": [
+        "IP070"
+      ],
+      "ready": false,
+      "scope": "semantic",
+      "status": "unconfirmed"
+    },
+    {
+      "claim": "Ein Ditto-Zeichen übernimmt den Inhalt des vorherigen Feldes statt eine feste kontextunabhängige Expansion zu besitzen.",
+      "claim_type": "functional_hypothesis",
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line": 1966,
+          "path": "docs/IDEA_BACKLOG.md",
+          "quote": "**IP071 — Ditto-Zeichen mit rückwärts bestimmtem Inhalt.** Ein wiederkehrendes\nkurzes Zeichen könnte den Inhalt des vorherigen Feldes übernehmen. Bei einem\nsichtbar korrigierten Vorgänger müsste eine ausgeschriebene Kontrollfassung\nauch den übernommenen Inhalt ändern; ein festes Kürzel hätte diese Abhängigkeit\nnicht. Kleinster Test: ein gebundenes Paar aus Ditto- und Vollfassung.\n**UNKNOWN:** solche Paare in den Quellen. Rivale: Auslassungszeichen ohne\neindeutiges Ziel. Kein weiterer Test bloßer Randzeichenausrichtung.\n"
+        }
+      ],
+      "id": "SEM-IP071",
+      "member_ids": [
+        "IP071"
+      ],
+      "ready": false,
+      "scope": "semantic",
+      "status": "unconfirmed"
+    }
+  ],
+  "counts": {
+    "excluded_nonsemantic": 58,
+    "semantic_claims": 24,
+    "total": 82
+  },
+  "dispositions": [
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP001"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP002"
+    },
+    {
+      "disposition": "semantic_card",
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_id": "IP003"
+    },
+    {
+      "disposition": "semantic_card",
+      "reason": "Corrects prior structural triage for the explicit field-value rival; source already marks this proposed discriminator duplicate. Retain archived semantic claim, not a new test or confirmed numeral.",
+      "source_id": "IP004"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP005"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP006"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP007"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP008"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP009"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP010"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP011"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP012"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP013"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP014"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP015"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP016"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP017"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP018"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP019"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP020"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP021"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Tests formal scope/field attachment without independently specified semantic values; retained structural archive. Distinct from explicit participant-reference hypotheses IP003/IP023.",
+      "source_id": "IP022"
+    },
+    {
+      "disposition": "semantic_card",
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_id": "IP023"
+    },
+    {
+      "disposition": "semantic_card",
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_id": "IP024"
+    },
+    {
+      "disposition": "semantic_card",
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_id": "IP025"
+    },
+    {
+      "disposition": "semantic_card",
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_id": "IP026"
+    },
+    {
+      "disposition": "semantic_card",
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_id": "IP027"
+    },
+    {
+      "disposition": "semantic_card",
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_id": "IP028"
+    },
+    {
+      "disposition": "semantic_card",
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_id": "IP029"
+    },
+    {
+      "disposition": "semantic_card",
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_id": "IP030"
+    },
+    {
+      "disposition": "semantic_card",
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_id": "IP031"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP032"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP033"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP034"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP035"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP036"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP037"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP038"
+    },
+    {
+      "disposition": "semantic_card",
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_id": "IP039"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP040"
+    },
+    {
+      "disposition": "semantic_card",
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_id": "IP041"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP042"
+    },
+    {
+      "disposition": "semantic_card",
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_id": "IP043"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP044"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP045"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP046"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP047"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Compares written positional information and context transfer without an identified meaning; retain in structural archive, not semantic IDEA list.",
+      "source_id": "IP048"
+    },
+    {
+      "disposition": "semantic_card",
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_id": "IP049"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP050"
+    },
+    {
+      "disposition": "semantic_card",
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_id": "IP051"
+    },
+    {
+      "disposition": "semantic_card",
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_id": "IP052"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP053"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP054"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP055"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP056"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP057"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP058"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP059"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP060"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP061"
+    },
+    {
+      "disposition": "semantic_card",
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_id": "IP062"
+    },
+    {
+      "disposition": "semantic_card",
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_id": "IP063"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP064"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP065"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP066"
+    },
+    {
+      "disposition": "semantic_card",
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_id": "IP067"
+    },
+    {
+      "disposition": "semantic_card",
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_id": "IP068"
+    },
+    {
+      "disposition": "semantic_card",
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_id": "IP069"
+    },
+    {
+      "disposition": "semantic_card",
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_id": "IP070"
+    },
+    {
+      "disposition": "semantic_card",
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_id": "IP071"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP072"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP073"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP074"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP075"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP076"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP077"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP078"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP079"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP080"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP081"
+    },
+    {
+      "disposition": "excluded_nonsemantic",
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_id": "IP082"
+    }
+  ],
+  "entries": [
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "acquisition",
+      "concrete_claim": null,
+      "disposition": "archived",
+      "evidence": [
+        {
+          "line_end": 41,
+          "line_start": 29,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP001",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP001"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "acquisition",
+      "concrete_claim": null,
+      "disposition": "archived",
+      "evidence": [
+        {
+          "line_end": 58,
+          "line_start": 44,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP002",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP002"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "semantic_function_hypothesis",
+      "concrete_claim": "Eine geschriebene Referenzmarkierung unterscheidet die Fortsetzung desselben Teilnehmers von der Einführung eines neuen Teilnehmers.",
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line_end": 98,
+          "line_start": 84,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP003",
+      "include_in_semantic_idea_list": true,
+      "ready": false,
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_ids": [
+        "IP003"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "semantic_function_hypothesis",
+      "concrete_claim": "daiin bezeichnet einen variablen Feldwert statt eines obligatorischen Feldabschlusses; die konkrete Zahl III ist dadurch noch nicht begründet.",
+      "disposition": "archived",
+      "evidence": [
+        {
+          "line_end": 141,
+          "line_start": 127,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP004",
+      "include_in_semantic_idea_list": true,
+      "ready": false,
+      "reason": "Corrects prior structural triage for the explicit field-value rival; source already marks this proposed discriminator duplicate. Retain archived semantic claim, not a new test or confirmed numeral.",
+      "source_ids": [
+        "IP004"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "acquisition",
+      "concrete_claim": null,
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line_end": 170,
+          "line_start": 156,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP005",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP005"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "acquisition",
+      "concrete_claim": null,
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line_end": 188,
+          "line_start": 174,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP006",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP006"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "acquisition",
+      "concrete_claim": null,
+      "disposition": "archived",
+      "evidence": [
+        {
+          "line_end": 203,
+          "line_start": 189,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP007",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP007"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "acquisition",
+      "concrete_claim": null,
+      "disposition": "source_review",
+      "evidence": [
+        {
+          "line_end": 317,
+          "line_start": 317,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP008",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP008"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "acquisition",
+      "concrete_claim": null,
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line_end": 318,
+          "line_start": 318,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP009",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP009"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "structural",
+      "concrete_claim": null,
+      "disposition": "source_review",
+      "evidence": [
+        {
+          "line_end": 319,
+          "line_start": 319,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP010",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP010"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "acquisition",
+      "concrete_claim": null,
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line_end": 320,
+          "line_start": 320,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP011",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP011"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "structural",
+      "concrete_claim": null,
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line_end": 326,
+          "line_start": 326,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP012",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP012"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "structural",
+      "concrete_claim": null,
+      "disposition": "raw_unreviewed",
+      "evidence": [
+        {
+          "line_end": 327,
+          "line_start": 327,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP013",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP013"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "method",
+      "concrete_claim": null,
+      "disposition": "archived",
+      "evidence": [
+        {
+          "line_end": 328,
+          "line_start": 328,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP014",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP014"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "method",
+      "concrete_claim": null,
+      "disposition": "archived",
+      "evidence": [
+        {
+          "line_end": 329,
+          "line_start": 329,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP015",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP015"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "structural",
+      "concrete_claim": null,
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line_end": 335,
+          "line_start": 335,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP016",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP016"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "structural",
+      "concrete_claim": null,
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line_end": 336,
+          "line_start": 336,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP017",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP017"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "structural",
+      "concrete_claim": null,
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line_end": 337,
+          "line_start": 337,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP018",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP018"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "structural",
+      "concrete_claim": null,
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line_end": 338,
+          "line_start": 338,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP019",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP019"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "structural",
+      "concrete_claim": null,
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line_end": 344,
+          "line_start": 344,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP020",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP020"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "structural",
+      "concrete_claim": null,
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line_end": 345,
+          "line_start": 345,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP021",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP021"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "structural",
+      "concrete_claim": null,
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line_end": 346,
+          "line_start": 346,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP022",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Tests formal scope/field attachment without independently specified semantic values; retained structural archive. Distinct from explicit participant-reference hypotheses IP003/IP023.",
+      "source_ids": [
+        "IP022"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "semantic_function_hypothesis",
+      "concrete_claim": "Ein Wiederaufnahmemarker verweist selektiv auf einen von mehreren zuvor eingeführten Teilnehmern.",
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line_end": 347,
+          "line_start": 347,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP023",
+      "include_in_semantic_idea_list": true,
+      "ready": false,
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_ids": [
+        "IP023"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "semantic_function_hypothesis",
+      "concrete_claim": "Teiltexte einer zusammengesetzten Bildbeschriftung benennen einzelne dargestellte Teilobjekte.",
+      "disposition": "source_review",
+      "evidence": [
+        {
+          "line_end": 353,
+          "line_start": 353,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP024",
+      "include_in_semantic_idea_list": true,
+      "ready": false,
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_ids": [
+        "IP024"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "semantic_function_hypothesis",
+      "concrete_claim": "Wiederkehrende Beschriftungen bezeichnen einen Eintragstyp beziehungsweise eine Funktion statt einen individuellen Gegenstand.",
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line_end": 354,
+          "line_start": 354,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP025",
+      "include_in_semantic_idea_list": true,
+      "ready": false,
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_ids": [
+        "IP025"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "semantic_function_hypothesis",
+      "concrete_claim": "Verschachtelte graphische Umrandungen bestimmen, auf welchen dargestellten Gegenstand ein Textfeld Bezug nimmt.",
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line_end": 355,
+          "line_start": 355,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP026",
+      "include_in_semantic_idea_list": true,
+      "ready": false,
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_ids": [
+        "IP026"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "semantic_function_hypothesis",
+      "concrete_claim": "Das Fehlen eines unabhängig identifizierten Bildbestandteils führt zum Wegfall seines Textbeitrags bei sonst erhaltener Beschriftung.",
+      "disposition": "raw_unreviewed",
+      "evidence": [
+        {
+          "line_end": 356,
+          "line_start": 356,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP027",
+      "include_in_semantic_idea_list": true,
+      "ready": false,
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_ids": [
+        "IP027"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "semantic_function_hypothesis",
+      "concrete_claim": "Geschriebene Gesamt- und Teilwerte folgen einer additiven Zahlenrelation.",
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line_end": 362,
+          "line_start": 362,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP028",
+      "include_in_semantic_idea_list": true,
+      "ready": false,
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_ids": [
+        "IP028"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "semantic_function_hypothesis",
+      "concrete_claim": "Ein geschriebener Wert bezeichnet ein Verhältnis und bleibt bei gemeinsamer Skalierung der zugehörigen Mengen unverändert.",
+      "disposition": "raw_unreviewed",
+      "evidence": [
+        {
+          "line_end": 363,
+          "line_start": 363,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP029",
+      "include_in_semantic_idea_list": true,
+      "ready": false,
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_ids": [
+        "IP029"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "semantic_function_hypothesis",
+      "concrete_claim": "Eine Wertform bezeichnet einen geordneten Grad statt einer bloßen Kategorie; unabhängig bekannte Zwischenzustände erhalten Zwischenwerte.",
+      "disposition": "raw_unreviewed",
+      "evidence": [
+        {
+          "line_end": 364,
+          "line_start": 364,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP030",
+      "include_in_semantic_idea_list": true,
+      "ready": false,
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_ids": [
+        "IP030"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "semantic_function_hypothesis",
+      "concrete_claim": "Ein wiederkehrender Ausdruck bezeichnet eine Maßeinheit und erlaubt eine konstante Umrechnung gegenüber einer zweiten unabhängig bestimmten Einheit.",
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line_end": 365,
+          "line_start": 365,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP031",
+      "include_in_semantic_idea_list": true,
+      "ready": false,
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_ids": [
+        "IP031"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "structural",
+      "concrete_claim": null,
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line_end": 371,
+          "line_start": 371,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP032",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP032"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "structural",
+      "concrete_claim": null,
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line_end": 372,
+          "line_start": 372,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP033",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP033"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "structural",
+      "concrete_claim": null,
+      "disposition": "raw_unreviewed",
+      "evidence": [
+        {
+          "line_end": 373,
+          "line_start": 373,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP034",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP034"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "structural",
+      "concrete_claim": null,
+      "disposition": "source_review",
+      "evidence": [
+        {
+          "line_end": 374,
+          "line_start": 374,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP035",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP035"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "method",
+      "concrete_claim": null,
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line_end": 446,
+          "line_start": 446,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP036",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP036"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "method",
+      "concrete_claim": null,
+      "disposition": "raw_unreviewed",
+      "evidence": [
+        {
+          "line_end": 447,
+          "line_start": 447,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP037",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP037"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "method",
+      "concrete_claim": null,
+      "disposition": "archived",
+      "evidence": [
+        {
+          "line_end": 448,
+          "line_start": 448,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP038",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP038"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "semantic_function_hypothesis",
+      "concrete_claim": "Ein bestimmter Abkürzungsträger ersetzt in verschiedenen vollständig ausgeschriebenen Wörtern dieselbe Buchstabenfolge.",
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line_end": 449,
+          "line_start": 449,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP039",
+      "include_in_semantic_idea_list": true,
+      "ready": false,
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_ids": [
+        "IP039"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "structural",
+      "concrete_claim": null,
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line_end": 450,
+          "line_start": 450,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP040",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP040"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "semantic_function_hypothesis",
+      "concrete_claim": "Eine Wertschreibung verwendet Stellenwerte mit einem gekoppelten Übertrag bei unabhängig gesichertem Zählschritt.",
+      "disposition": "raw_unreviewed",
+      "evidence": [
+        {
+          "line_end": 451,
+          "line_start": 451,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP041",
+      "include_in_semantic_idea_list": true,
+      "ready": false,
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_ids": [
+        "IP041"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "structural",
+      "concrete_claim": null,
+      "disposition": "archived",
+      "evidence": [
+        {
+          "line_end": 452,
+          "line_start": 452,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP042",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP042"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "semantic_function_hypothesis",
+      "concrete_claim": "Ein kurzer Rückverweis bezeichnet einen zuvor geschriebenen Abschnitt und codiert dessen Umfang.",
+      "disposition": "raw_unreviewed",
+      "evidence": [
+        {
+          "line_end": 453,
+          "line_start": 453,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP043",
+      "include_in_semantic_idea_list": true,
+      "ready": false,
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_ids": [
+        "IP043"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "structural",
+      "concrete_claim": null,
+      "disposition": "archived",
+      "evidence": [
+        {
+          "line_end": 620,
+          "line_start": 606,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP044",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP044"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "structural",
+      "concrete_claim": null,
+      "disposition": "archived",
+      "evidence": [
+        {
+          "line_end": 665,
+          "line_start": 651,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP045",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP045"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "structural",
+      "concrete_claim": null,
+      "disposition": "archived",
+      "evidence": [
+        {
+          "line_end": 736,
+          "line_start": 722,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP046",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP046"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "acquisition",
+      "concrete_claim": null,
+      "disposition": "archived",
+      "evidence": [
+        {
+          "line_end": 876,
+          "line_start": 862,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP047",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP047"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "structural",
+      "concrete_claim": null,
+      "disposition": "archived",
+      "evidence": [
+        {
+          "line_end": 1030,
+          "line_start": 1016,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP048",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Compares written positional information and context transfer without an identified meaning; retain in structural archive, not semantic IDEA list.",
+      "source_ids": [
+        "IP048"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "semantic_function_hypothesis",
+      "concrete_claim": "Ein Wiederholungsoperator bezieht ein einmal geschriebenes Argument auf mehrere wiederholte Operationen.",
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line_end": 1529,
+          "line_start": 1529,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP049",
+      "include_in_semantic_idea_list": true,
+      "ready": false,
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_ids": [
+        "IP049"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "structural",
+      "concrete_claim": null,
+      "disposition": "raw_unreviewed",
+      "evidence": [
+        {
+          "line_end": 1530,
+          "line_start": 1530,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP050",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP050"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "semantic_function_hypothesis",
+      "concrete_claim": "Beschriftungen sind lokale Bezeichner; Zugriffe aus anderen Eintragsbereichen benötigen einen unterscheidenden Qualifikator.",
+      "disposition": "raw_unreviewed",
+      "evidence": [
+        {
+          "line_end": 1531,
+          "line_start": 1531,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP051",
+      "include_in_semantic_idea_list": true,
+      "ready": false,
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_ids": [
+        "IP051"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "semantic_function_hypothesis",
+      "concrete_claim": "Kurze Etiketten bilden die Initialenfolge einer vollständig ausgeschriebenen zugehörigen Überschrift ab.",
+      "disposition": "source_review",
+      "evidence": [
+        {
+          "line_end": 1532,
+          "line_start": 1532,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP052",
+      "include_in_semantic_idea_list": true,
+      "ready": false,
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_ids": [
+        "IP052"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "acquisition",
+      "concrete_claim": null,
+      "disposition": "archived",
+      "evidence": [
+        {
+          "line_end": 1533,
+          "line_start": 1533,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP053",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP053"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "acquisition",
+      "concrete_claim": null,
+      "disposition": "raw_unreviewed",
+      "evidence": [
+        {
+          "line_end": 1534,
+          "line_start": 1534,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP054",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP054"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "acquisition",
+      "concrete_claim": null,
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line_end": 1679,
+          "line_start": 1679,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP055",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP055"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "method",
+      "concrete_claim": null,
+      "disposition": "archived",
+      "evidence": [
+        {
+          "line_end": 1680,
+          "line_start": 1680,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP056",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP056"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "method",
+      "concrete_claim": null,
+      "disposition": "archived",
+      "evidence": [
+        {
+          "line_end": 1681,
+          "line_start": 1681,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP057",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP057"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "structural",
+      "concrete_claim": null,
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line_end": 1682,
+          "line_start": 1682,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP058",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP058"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "method",
+      "concrete_claim": null,
+      "disposition": "archived",
+      "evidence": [
+        {
+          "line_end": 1683,
+          "line_start": 1683,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP059",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP059"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "acquisition",
+      "concrete_claim": null,
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line_end": 1684,
+          "line_start": 1684,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP060",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP060"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "acquisition",
+      "concrete_claim": null,
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line_end": 1753,
+          "line_start": 1739,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP061",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP061"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "semantic_function_hypothesis",
+      "concrete_claim": "Kennungen sind nachträglich verwaltete Adressen und ändern sich hinter einem eingeschobenen Eintrag gemeinsam, anders als stabile Objektnamen.",
+      "disposition": "raw_unreviewed",
+      "evidence": [
+        {
+          "line_end": 1773,
+          "line_start": 1759,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP062",
+      "include_in_semantic_idea_list": true,
+      "ready": false,
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_ids": [
+        "IP062"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "semantic_function_hypothesis",
+      "concrete_claim": "Beschriftungen bezeichnen überlappende Eigenschaften mehrerer Gegenstände statt exklusiver Objektkennungen.",
+      "disposition": "raw_unreviewed",
+      "evidence": [
+        {
+          "line_end": 1792,
+          "line_start": 1778,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP063",
+      "include_in_semantic_idea_list": true,
+      "ready": false,
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_ids": [
+        "IP063"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "acquisition",
+      "concrete_claim": null,
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line_end": 1813,
+          "line_start": 1799,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP064",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP064"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "method",
+      "concrete_claim": null,
+      "disposition": "raw_unreviewed",
+      "evidence": [
+        {
+          "line_end": 1913,
+          "line_start": 1905,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP065",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP065"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "method",
+      "concrete_claim": null,
+      "disposition": "raw_unreviewed",
+      "evidence": [
+        {
+          "line_end": 1922,
+          "line_start": 1914,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP066",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP066"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "semantic_function_hypothesis",
+      "concrete_claim": "Eine schriftliche Konstruktion bezeichnet die Rücknahme einer Operation und führt zum ursprünglichen Zustand zurück.",
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line_end": 1934,
+          "line_start": 1925,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP067",
+      "include_in_semantic_idea_list": true,
+      "ready": false,
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_ids": [
+        "IP067"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "semantic_function_hypothesis",
+      "concrete_claim": "Die betreffenden Einträge bezeichnen eine ungeordnete Zusammenstellung von Bestandteilen statt einer ergebnisrelevanten Schrittfolge.",
+      "disposition": "raw_unreviewed",
+      "evidence": [
+        {
+          "line_end": 1943,
+          "line_start": 1935,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP068",
+      "include_in_semantic_idea_list": true,
+      "ready": false,
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_ids": [
+        "IP068"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "semantic_function_hypothesis",
+      "concrete_claim": "Eigennamen werden innerhalb einer unabhängig gebundenen Übersetzung regelhaft lautangepasst statt unverändert kopiert.",
+      "disposition": "raw_unreviewed",
+      "evidence": [
+        {
+          "line_end": 1954,
+          "line_start": 1946,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP069",
+      "include_in_semantic_idea_list": true,
+      "ready": false,
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_ids": [
+        "IP069"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "semantic_function_hypothesis",
+      "concrete_claim": "Eine chronologisch erkennbare Ersetzung einer Fremdform durch eine ausführlichere Zielsprachenform zeigt die Bearbeitungsrichtung einer Übersetzung.",
+      "disposition": "raw_unreviewed",
+      "evidence": [
+        {
+          "line_end": 1963,
+          "line_start": 1955,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP070",
+      "include_in_semantic_idea_list": true,
+      "ready": false,
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_ids": [
+        "IP070"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "semantic_function_hypothesis",
+      "concrete_claim": "Ein Ditto-Zeichen übernimmt den Inhalt des vorherigen Feldes statt eine feste kontextunabhängige Expansion zu besitzen.",
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line_end": 1973,
+          "line_start": 1966,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP071",
+      "include_in_semantic_idea_list": true,
+      "ready": false,
+      "reason": "Concrete proposed referent, numerical meaning, lexical expansion or reference/operation function; prerequisite absence is not the claim.",
+      "source_ids": [
+        "IP071"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "acquisition",
+      "concrete_claim": null,
+      "disposition": "source_review",
+      "evidence": [
+        {
+          "line_end": 1984,
+          "line_start": 1976,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP072",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP072"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "acquisition",
+      "concrete_claim": null,
+      "disposition": "source_review",
+      "evidence": [
+        {
+          "line_end": 1993,
+          "line_start": 1985,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP073",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP073"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "method",
+      "concrete_claim": null,
+      "disposition": "conditional",
+      "evidence": [
+        {
+          "line_end": 2009,
+          "line_start": 1996,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP074",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP074"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "method",
+      "concrete_claim": null,
+      "disposition": "raw_unreviewed",
+      "evidence": [
+        {
+          "line_end": 2047,
+          "line_start": 2047,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP075",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP075"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "method",
+      "concrete_claim": null,
+      "disposition": "raw_unreviewed",
+      "evidence": [
+        {
+          "line_end": 2048,
+          "line_start": 2048,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP076",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP076"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "method",
+      "concrete_claim": null,
+      "disposition": "raw_unreviewed",
+      "evidence": [
+        {
+          "line_end": 2049,
+          "line_start": 2049,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP077",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP077"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "method",
+      "concrete_claim": null,
+      "disposition": "raw_unreviewed",
+      "evidence": [
+        {
+          "line_end": 2050,
+          "line_start": 2050,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP078",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP078"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "structural",
+      "concrete_claim": null,
+      "disposition": "raw_unreviewed",
+      "evidence": [
+        {
+          "line_end": 2051,
+          "line_start": 2051,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP079",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP079"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "structural",
+      "concrete_claim": null,
+      "disposition": "raw_unreviewed",
+      "evidence": [
+        {
+          "line_end": 2052,
+          "line_start": 2052,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP080",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP080"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "method",
+      "concrete_claim": null,
+      "disposition": "raw_unreviewed",
+      "evidence": [
+        {
+          "line_end": 2053,
+          "line_start": 2053,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP081",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP081"
+      ]
+    },
+    {
+      "assessment_basis": "direct_proposal_claim_review_not_primary_scientific_validation",
+      "classification": "structural",
+      "concrete_claim": null,
+      "disposition": "raw_unreviewed",
+      "evidence": [
+        {
+          "line_end": 2054,
+          "line_start": 2054,
+          "path": "docs/IDEA_BACKLOG.md",
+          "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+        }
+      ],
+      "id": "IP082",
+      "include_in_semantic_idea_list": false,
+      "ready": false,
+      "reason": "Production, written structure, imaging, acquisition or test-method proposal; not a concrete meaning hypothesis for this semantic-only list.",
+      "source_ids": [
+        "IP082"
+      ]
+    }
+  ],
+  "limitations": [
+    "Proposal-level meaning/function hypotheses are not established translations or scientifically distinct ideas.",
+    "No raw source pointer, metric, procedure or missing prerequisite is emitted as an idea.",
+    "Source-ID associations preserve original hypotheses and past dispositions; no semantic duplicate merging was performed."
+  ],
+  "schema_version": 1,
+  "scope": "All82IP proposals reviewed for concrete semantic/function claims; no placeholder promotion."
+}

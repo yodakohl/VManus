@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "cards": 3412,
+  "default_semantic_cards": 3013,
+  "local_overlay_semantic_cards": 96,
+  "operational_default_cards": 3109,
+  "formal_role_cards": 399,
+  "review_cases_preserved": 3865,
+  "member_ids_existing": true,
+  "exact_source_quotes_and_hashes": true,
+  "ready_entries": 0,
+  "source_disposition_coverage": {
+    "proposal": {
+      "expected": 5370,
+      "dispositions": 5370,
+      "missing": 0,
+      "overlap": 0
+    },
+    "component": {
+      "expected": 3788,
+      "dispositions": 3788,
+      "missing": 0,
+      "overlap": 0
+    },
+    "ip": {
+      "expected": 82,
+      "dispositions": 82,
+      "missing": 0,
+      "overlap": 0
+    }
+  },
+  "disposition_card_references_checked": 4195,
+  "accepted_item_types": {
+    "lexical_hypothesis": 1875,
+    "semantic_model": 893,
+    "functional_hypothesis": 245,
+    "formal_role": 399
+  },
+  "disposition_rows_by_review": {
+    "research_registry/decisions/clean_proposal_review.json": 1049,
+    "research_registry/decisions/clean_component_review.json": 3788,
+    "research_registry/decisions/clean_ip_review.json": 82,
+    "research_registry/decisions/clean_historical_review.json": 12,
+    "research_registry/decisions/clean_prereg_candidate_review.json": 270,
+    "research_registry/decisions/clean_report_proposals_review.json": 988,
+    "research_registry/decisions/clean_middle_sidequest_review.json": 701,
+    "research_registry/decisions/clean_late_sidequest_review.json": 1318,
+    "research_registry/decisions/clean_root_early_review.json": 400,
+    "research_registry/decisions/clean_final_sidequest_review.json": 644
+  },
+  "synthetic_tests": 9,
+  "validator_source": "tests/test_semantic_ideas.py",
+  "input_sha256": {
+    "research_registry/semantic_ideas.jsonl": "d155ec2113af2ebbbd6f09490c4cbdd0a9490a885846778d996f16f3576e67ad",
+    "tools/semantic_ideas.py": "533d2a33cb1618473cd9358eb1aae337b3b746aca74c6b909aa22811df4d530a",
+    "tests/test_semantic_ideas.py": "7f4bb1fca380f965ca0e8a65f3e1fe6f846e0687d24c3fe6758a1d4e8a9dd517"
+  },
+  "limitation": "Checks concrete-card schema, source evidence and case preservation. Does not independently establish every semantic classification, logical equivalence, historical meaning, truth, or scientific novelty."
+}

@@ -69,9 +69,9 @@ von ihrem Inhalt abhängt. Keine weitere allgemeine Archiv-, Metadaten- oder Dec
 ## Benutzung ohne Kontextüberladung
 
 ```bash
-./vmanus-work priorities --limit 8
-./vmanus-work priorities --queue --disposition raw_unreviewed --limit 8
-./vmanus-work priorities --show WH_PROPERTY_ARCHITECTURE
+./vmanus-work priorities --groups --limit 8
+./vmanus-work priorities --groups --queue --disposition raw_unreviewed --limit 8
+./vmanus-work priorities --groups --show WH_PROPERTY_ARCHITECTURE
 ./vmanus-work priorities okaiin
 ./vmanus-work ideas relations GDT813 --limit 6
 ./vmanus-work ideas reconsider GDT855 --change new_data

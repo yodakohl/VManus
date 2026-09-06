@@ -10,8 +10,18 @@ from tools.experiment_lookup import lookup_experiments, render_lookup
 def main(argv: list[str] | None = None) -> int:
     arguments = list(sys.argv[1:] if argv is None else argv)
     if arguments and arguments[0] == 'priorities':
-        from tools.semantic_catalog import main as priorities_main
-        return priorities_main(arguments[1:])
+        remaining = arguments[1:]
+        if '--sources' in remaining:
+            from tools.semantic_inventory import main as priorities_main
+            remaining.remove('--sources')
+        elif '--groups' in remaining:
+            from tools.semantic_catalog import main as priorities_main
+            remaining.remove('--groups')
+        else:
+            from tools.semantic_ideas import main as priorities_main
+            if '--queue' in remaining:
+                remaining.remove('--queue')
+        return priorities_main(remaining)
     if arguments and arguments[0] == 'ideas':
         from tools.research_registry import main as ideas_main
         return ideas_main(arguments[1:])

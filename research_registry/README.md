@@ -7,17 +7,20 @@ FAIL does not endorse its scientific interpretation.
 
 ## All historical semantic ideas in the operational list
 
-Use `./vmanus-work priorities --queue QUERY` for the full historical source list,
-including older proposals and meaning components outside IP001–IP082. Default
-output is eight cards. `--show ID` opens one dossier; `--item-type` separates
-proposal candidates, hypothesis components, source excerpts and unresolved blocks.
-See [SEMANTIC_INVENTORY.md](SEMANTIC_INVENTORY.md) for counts and exact coverage.
-Unknown scope stays visible. Source records are not independent idea counts.
+Use `./vmanus-work priorities QUERY` (also `--queue`) for concrete, source-attested
+semantic hypotheses. Eight cards are shown by default. Source pointers, methods,
+results and unresolved intake are not idea cards. `--include-formal` additionally
+shows explicitly separated formal-role hypotheses. `--show ID --field cases`
+opens retained source-specific interpretations; `--field evidence` opens exact quotes.
 
-[SEMANTIC_PRIORITY.md](SEMANTIC_PRIORITY.md) preserves the first assessed component
-comparisons and conditional priorities. The 82-IP triage remains a subset, not
-the full queue. Search the full queue before the older `ideas duplicates` cards;
-source and hypothesis deduplication remain distinct and never approve reruns.
+The complete source archive remains available through `priorities --sources QUERY`.
+The older assessed groups are available through `priorities --groups`.
+See [SEMANTIC_IDEAS.md](SEMANTIC_IDEAS.md) for curation coverage and limitations;
+[SEMANTIC_INVENTORY.md](SEMANTIC_INVENTORY.md) describes the source archive.
+Matching assertion wording groups display only; competing meanings and distinct
+experimental scopes remain separate. Historical proposals are not confirmed meanings
+or permission to rerun failed experiments. Use linked registry dossiers for assessed
+failures, changed-input review and reopening conditions.
 
 ## Normal work: load a shortlist, then one dossier
 
