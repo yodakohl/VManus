@@ -94,6 +94,15 @@ parallel and saving a list, so root does not restart ideation after each test.
   shortlist; include ambitious data-dependent proposals but separate them from
   executable tests. Ease, a likely positive result and lexical search rank are
   not evidence of research value. No invented numerical success probabilities.
+- Selection correction after IP014/009/018/021/022/033/036: seven preferred
+  sketches produced no executable contrast in the cited-source reviews. Keep
+  the broad raw pool, but select consumer work from a concrete source example
+  plus a proposed discriminator, not from a mechanism name and generic report
+  pointer. Producer should seek that starting observation before more sketches.
+  This is not a demand for an already proven semantic anchor: a preregistered
+  exploratory observation may discover structure and generate a hypothesis.
+  Do not spend successive turns restating missing prerequisites or repeatedly
+  auditing the same dependency. Batch cheap reviews; retain source-specific stops.
 - Root chooses at most one next experiment after checking the candidate. Hand
   off queue edits explicitly: producer lists proposals; root supplies acceptance,
   IN_PROGRESS and result decisions. Keep rejected and completed entries with a

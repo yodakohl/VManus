@@ -299,7 +299,7 @@ weltweit/projektintern neu erwiesen. Die Quellen sind Ausgangspunkte für die
 spätere Prüfung, nicht bereits vorhandene Belege für die jeweilige Vorhersage.
 Einige Ideen können nach Prüfung Duplikate sein oder neue Daten brauchen.
 
-**Verbleibende erste Prüfauswahl: IP033 (`RAW_UNSCREENED`, nicht ausführbar bestätigt).**
+**Aktueller Datenbefund: IP042/GDT845; kein weiterer Versuch ausgewählt.**
 Die frühere Fünferauswahl wurde gebündelt geprüft: IP009/IP021/IP022/IP036
 brauchen zunächst einen belastbaren Beobachtungsträger; Einzelbefunde unten.
 IP014 und IP018 sind nach root-Vorgängerprüfung zurückgestellt; die begrenzten
@@ -525,3 +525,72 @@ neuer Chiffrenfit. Die frühere Prüfpriorität ist zurückgestellt.
 Die gebündelte Runde prüft vier Vorschläge vor Umsetzung; kein neuer
 Manuskriptbefund und kein neues Experiment. IP033 bleibt der nächste
 Kandidat zur Quellenprüfung, nicht der nächste bereits freigegebene Versuch.
+
+### IP042 — konkreter Entdeckungsauftrag statt Codebuchbehauptung
+
+`DISCOVERY_COMPLETED_GDT845`: [Bericht](../experiments/yolo/gdt845_extended_form_grid_discovery/REPORT.md).
+72Zellen erfasst: ZL3b61belegt; alle48altenZellen jeLeser vorhanden.
+`ee+d` ist mit qo6-mal vorhanden gegenüber4,020deskriptiv erwartet; leer1/5,889,
+o1/3,891. Vier in allenLesern gleiche qo-Loci auf3Folios. Kein durchgängiges
+Verbot, keine bestätigte Präfixregel: Seltenheit/Abschnitt/Hand bleiben offen.
+Der ursprüngliche Entwurf folgt als Herkunft, nicht als noch offener Auftrag. Der
+Codebuchgedanke wird zunächst auf eine rein geschriebene, unterscheidbare Frage
+reduziert: **Sind die beobachteten Kombinationslücken durch Seltenheit erklärbar,
+oder koppeln sich zwei nominell unabhängig kombinierbare Stellen?**
+
+Konkrete Ausgangsbelege: [GDT624](../experiments/yolo/gdt624_productive_quality_shell_grid/REPORT.md)
+belegt alle 48 Zellen von `{leer,o,qo} × {k,t} × {ch,sh} × {leer,e} × {leer,d} × y`;
+auf f13r und f22r stehen jeweils `kchy`, `okchy`, `qokchy`.
+[GDT646](../experiments/yolo/gdt646_tcheey_surface_completion/REPORT.md)
+erweitert dagegen nur den nackten Arm auf zwei e: `kcheey/tcheey/ksheey/tsheey`
+sind belegt, während drei zugehörige `eedy`-Zellen fehlen und `kcheedy` nur eine
+Leservariante besitzt. Das sind bekannte positive Formen und bekannte Lücken;
+der neue Auftrag wäre ihre **gemeinsame vollständige, semantikfreie Darstellung**,
+nicht ihre erneute Entdeckung oder eine Grad-/Abschlussübersetzung.
+
+Kleinster tatsächlicher Datenauftrag: vorab genau das 72-Zellen-Raster
+`{leer,o,qo} × {k,t} × {ch,sh} × {leer,e,ee} × {leer,d} × y` festlegen;
+über den bestehenden bewachten Leser alle vollständigen Gruppen dieses Rasters
+in den 179 erlaubten Textselektoren holen. Je Zelle vollständige Rohformen,
+Leserstabilität und physische Folios ausgeben; keine weiteren Endungen ergänzen.
+Dies erzeugt ein beobachtbares gemeinsames Raster über die drei Wrapper, ohne
+vorher bereits eine semantische oder Bildreferenz vorauszusetzen.
+
+Gegenvorhersagen: eine unabhängig kombinierbare Darstellung erklärt fehlende
+Zellen durch ihre niedrigen Randhäufigkeiten; eine bedingte Schreibbeschränkung
+sagt eine wiederkehrende `ee`-mit-`d`-Unterbesetzung auch in ausreichend exponierten
+Wrappern voraus. Erster Pass ist ausdrücklich **Discovery**: Rohcounts und
+expositionsabhängige Erwartungswerte, keine nachträglich optimierte Schranke,
+kein bestätigendes p und kein Codebuchbeweis. Ein tragfähiger Kontrast würde eine
+spätere Kombinationsexklusions-Hypothese motivieren; dünne Exposition beendet
+nur diesen Entdeckungsauftrag. Gesamtziel 5 Minuten mit vorhandenem Leser,
+Checkpoint nach Extraktion; keine generative Decoderimplementation.
+
+Neuheitsabgleich: route-check `coordinate grid complete factorial independent
+combinations pcheey pchedy four heads` und `grid missing cells eedy length d closure
+factorial structural zeros occupancy`; Primärberichte GDT624, GDT646 und GDT651
+gelesen. GDT651 behandelt ein anderes CKH-Schalenraster. Die gelesenen Berichte
+liefern weder diese gemeinsame 72-Zellen-Auswertung noch einen konditionalen
+Lückentest; das ist keine Garantie vollständiger Archivneuheit. Vor Umsetzung
+insbesondere spätere GDT646-Fortsetzungen gezielt prüfen. Risiko: bereits bekannte
+Binnenlaut-/Schreibgrammatik statt unabhängiger Koordinaten; Gruppenatomisierung,
+Transkriptionsvarianz und ungesehene Kombinationszahl dürfen nicht verschwinden.
+Es wurde kein Rohdatensatz geöffnet oder Test ausgeführt. Ownership an root frei.
+
+### IP033 — begrenzte Quellenprüfung
+
+`NEEDS_INDEPENDENT_SHARED_TEMPLATE_PAIR`. Route-check `same task different
+scribal hands crossed record comparison`, dann `CROSS_STRATUM_DIRECTION_SECTION_HAND
+same scribal hand template`. IL010-Primärbericht und Ergebnis-/Scopeabschnitte
+von GDT737/GDT791 gelesen. IL010 bestätigt nur Currier-Richtung, nicht den
+Handtransfer; GDT737 überträgt eine Positionsachse auf neue Restkörper; GDT791
+bietet fünf sichtbare Topologiefamilien und drei tief annotierte Seiten. Das
+liefert noch kein nominiertes, unabhängig als gleiche Vorlage gebundenes
+Recordpaar unterschiedlicher Hände. Keine neue Statistik, kein Rohdatenzugriff
+für diese Vorprüfung und keine allgemeine Widerlegung gemeinsamer Vorlagen.
+
+Sieben frühere Prioritäten lieferten im begrenzten Vorgängeraudit keinen
+ausführbaren Kontrast. IP042 hat anschließend mit einem konkreten bekannten
+Formraster einen tatsächlich ausgeführten Discovery-Pass ermöglicht. Der
+Ideenvorrat bleibt bestehen; keine weitere abstrakte Vorzugsroute automatisch
+ausführen. Neue Auswahl startet bei konkretem Quellbeispiel plus Vorhersage.

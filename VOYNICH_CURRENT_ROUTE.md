@@ -3,27 +3,25 @@ Updated: 2026-09-06. Read first.
 
 ## Current mandate and effort limit
 
-Latest request: continue. GDT844 natively views newly admitted f6v/f9v:
-ychor targets8/11 show no conspicuous indent or enlarged gap above.33principal
-lines recorded; exploratory, target-aware, no translation. Stop this two-page
-visual subentry lead; do not automatically add a third page or change features.
-Primary: `experiments/yolo/gdt844_ychor_visual_subentry/REPORT.md`.
-Preserve GDT841/842 visual positives and GDT843 context deck, which still lacks
-authorial star-label ownership. No caption scoring or further same-photo counts.
-Local f67r2 MSI metadata audit found no additional capture in checked inventories.
-User requests a large idea surplus: producer maintains20–30 diverse raw sketches
-in `docs/IDEA_BACKLOG.md`, with five review priorities. Unscreened ideas are not
-selected experiments; primary predecessor review remains required before use.
-36idea sketches recorded. Batch review IP009/IP021/IP022/IP036: no executable
-contrast established; see precise examples and limitations in the backlog.
-IP009 photo connectivity does not identify a single pen movement; IP021 has only
-one-side variation; IP022 serial fields; IP036 cited reports supply no bound
-raw transposition pair. Next review IP033 source anchor; not a selected test.
-IP014 review: GDT800 okalal/okalam contradict last-visible-symbol=F(exact-rest).
-This rejects that context-free surface function only, not latent checksum values.
-No fitting needed; broader IP014 lacks a specified carrier/function.
-IP018 primary747/748 do not yet supply two independent coupled written features.
-No next scientific test selected; update review priorities in the backlog.
+Latest request: continue. IP042/GDT845 completed a fixed72-cell exact raw grid
+{empty,o,qo}×{k,t}×{ch,sh}×e{0,1,2}×d{0,1}×y over179selectors.
+ZL3b847hits61occupied cells; all48old e0/1cells in each alternate reading.
+ee+d observed/conditional expected: bare1/5.889, o1/3.891, qo6/4.020.
+Four exact all-reader qo loci on3physicalfolios; no across-prefix exclusion.
+All8ZL3b ee+d hits in sectionS: no causal prefix, morphology or semantic claim.
+Discovery only, no p or held confirmation. Old624count829 vs current816e0/1
+is unreconciled; occupancy reproduced, old count contract not reproduced.
+Primary: `experiments/yolo/gdt845_extended_form_grid_discovery/REPORT.md`.
+Next decision needs sufficient within-section/hand contrast before interpreting
+prefix dependence; no subgroup test selected or already performed.
+
+IP033 remains without a bound cross-hand shared-template pair in the checked
+IL010/GDT737/GDT791 reports. Seven earlier prioritized sketches had no executable
+contrast. Producer then found the concrete IP042 grid; retain36sketches in
+`docs/IDEA_BACKLOG.md`, select from source examples plus a discriminator.
+Discovery may generate hypotheses; no prior semantic gold is required.
+GDT844 stays stopped; GDT841/842 readability and GDT843 context-only deck remain.
+No unowned caption scores, new same-photo counts, unavailable f67r2 MSI reruns.
 
 Goal: transferable translation. Confirmed English lexemes: **0**;
 confirmed German lexemes/clauses: **0**. No new fit or further page admission selected.

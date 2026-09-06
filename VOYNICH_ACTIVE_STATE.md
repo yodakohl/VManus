@@ -22993,3 +22993,24 @@ binding respectively remain unestablished in the cited evidence. This is a
 selection audit, not a new manuscript result or general mechanism rejection.
 Next review is IP033 source availability; no experiment selected. Precise
 examples and source/report limits: `docs/IDEA_BACKLOG.md`.
+
+## IP033 and source-first shortlist correction (2026-09-06)
+
+IL010/GDT737/GDT791 do not provide the independently bound cross-hand
+shared-template record pair required by IP033. Limited primary-report audit,
+not an exhaustive absence claim or mechanism rejection. Seven preferred raw
+sketches have supplied no executable contrast. Keep the broad idea pool but
+prioritize concrete source examples plus a discriminator; exploratory discovery
+may generate hypotheses and does not require previously established semantics.
+No new scientific experiment or data access. Details: `docs/IDEA_BACKLOG.md`.
+
+## GDT845 — extended form grid discovery (2026-09-06)
+
+Fixed72raw cells; ZL3b847hits61occupied, all48e0/1cells retained per reading.
+Bare/o ee+d scarcity does not recur under qo: observed/expected ZL3b1/5.889,
+1/3.891,6/4.020. Four exact all-reader qo loci on3physicalfolios. All8ZL3b
+ee+d hits are sectionS; prefix interpretation confounded and unconfirmed.
+Old624count829 vs current816e0/1unreconciled; occupancy only replicated.
+No semantic value or p claim. Next consider available within-section/hand
+contrast before any further test. Primary:
+`experiments/yolo/gdt845_extended_form_grid_discovery/REPORT.md`.
