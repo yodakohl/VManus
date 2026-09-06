@@ -1,0 +1,271 @@
+{
+  "review_id": "CLEAN_GAP_PEER_REVIEW_DC",
+  "status": "APPROVE_ALL_SCOPED_SOURCE_RECOVERIES",
+  "reviewed_inputs": {
+    "semantic_scope_resolution_dc.json": "a6b356ee820300e8eb315def517d6f6501efdd72bbf37051dab77aa209857d4f",
+    "clean_gap_review_dc.json": "4f6aac214e3d235ddaa26a9413096320079c395a419977cc2120268fc6eaba09"
+  },
+  "card_reviews": [
+    {
+      "id": "CLEAN_GAP_DC:five_left_resumption_cases",
+      "decision": "approve",
+      "reason": "Every listed event ID preserves its entire primary German clause, including participant type, grade and stated filling where present. The source identifies left-resumption or default/episode categories explicitly. The nine local realizations are not nine independent mechanisms, full physical-line translations, or proven patient bindings.",
+      "required_fixes": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 46,
+          "line_end": 64,
+          "quote": "Das ist keine Objektzuweisung. AIIN bleibt Füllung oder Medium und kann Körper,\nStation oder Portion begleiten. Auch Y ist kein globales Stationswort.\n\nDie eigentliche Objektquelle lautet:\n\n- 21 linke, sichtbare Teilnehmer werden mit `denselben/dieselbe`\n  wiederaufgenommen;\n- 8 gleichereignisige Endträger schließen als definite gemeinsame Komplemente\n  eine kurze Verbkette ab;\n- E2952 bleibt eine Station/Portion-Gabel, die durch die nachfolgende\n  Stationsbehandlung zugunsten Station entschieden wird;\n- 14 resetgebundene Stellen ohne hinreichenden nicht-mediumhaften Teilnehmer\n  erhalten Körper als ersten definiten Default.\n\nDamit wird aus `AIIN → Körper` die sinnvollere Konstruktion:\n\n```text\nSH-Aktion + AIIN-Füllung + separat bestimmter Patient\n```",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        },
+        {
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 96,
+          "line_end": 104,
+          "quote": "Starke linke Wiederaufnahmen:\n\n```text\nE1445  Führe die Anwendungsportion zu. Halte dieselbe Anwendungsportion im Bad auf Grad II.\nE1523  Wähle die Einheit aus. Halte dieselbe Becken- oder Körpereinheit im Bad auf Grad I.\nE2426  Behandle den Stationsansatz. Halte denselben Stationsansatz bei der angegebenen Füllung im Bad auf Grad I.\nE2552  Bereite die Anwendungsportion und das Badmaß vor. Halte dieselbe Anwendungsportion im Bad auf Grad I.\nE2988  Verwende die Becken- oder Körpereinheit. Halte dieselbe Becken- oder Körpereinheit im Bad auf Grad I.\n```",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        }
+      ]
+    },
+    {
+      "id": "CLEAN_GAP_DC:four_default_episode_cases",
+      "decision": "approve",
+      "reason": "Every listed event ID preserves its entire primary German clause, including participant type, grade and stated filling where present. The source identifies left-resumption or default/episode categories explicitly. The nine local realizations are not nine independent mechanisms, full physical-line translations, or proven patient bindings. GDT595 lines7–10 and21 explicitly support the two dependent carries E3219/body and E3489/station; no further event linkage is invented.",
+      "required_fixes": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 7,
+          "line_end": 10,
+          "quote": "Der 254-Aktionen-Badeleser enthält erstmals kein generisches `Badegut` mehr.\nDie letzten 44 kalten Defaults werden direkt konkretisiert; zwei bereits\nbestehende Episodenverweise übernehmen anschließend den neu bestimmten Typ\nihrer Quelle.",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        },
+        {
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 21,
+          "line_end": 21,
+          "quote": "Nach E3219→Körper und E3489→Stationsansatz lautet das vollständige Profil:",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        },
+        {
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 46,
+          "line_end": 64,
+          "quote": "Das ist keine Objektzuweisung. AIIN bleibt Füllung oder Medium und kann Körper,\nStation oder Portion begleiten. Auch Y ist kein globales Stationswort.\n\nDie eigentliche Objektquelle lautet:\n\n- 21 linke, sichtbare Teilnehmer werden mit `denselben/dieselbe`\n  wiederaufgenommen;\n- 8 gleichereignisige Endträger schließen als definite gemeinsame Komplemente\n  eine kurze Verbkette ab;\n- E2952 bleibt eine Station/Portion-Gabel, die durch die nachfolgende\n  Stationsbehandlung zugunsten Station entschieden wird;\n- 14 resetgebundene Stellen ohne hinreichenden nicht-mediumhaften Teilnehmer\n  erhalten Körper als ersten definiten Default.\n\nDamit wird aus `AIIN → Körper` die sinnvollere Konstruktion:\n\n```text\nSH-Aktion + AIIN-Füllung + separat bestimmter Patient\n```",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        },
+        {
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 115,
+          "line_end": 122,
+          "quote": "Definite Defaults und Episodenfortsetzung:\n\n```text\nE3218  Halte den Körper im Bad bei der angegebenen Füllung auf Grad I.\nE3219  Halte denselben Körper im Bad auf Grad I.\nE3488  Halte denselben Stationsansatz im Bad auf Grad I.\nE3489  Halte denselben Stationsansatz im Bad auf Grad I.\n```",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        }
+      ]
+    },
+    {
+      "id": "CLEAN_GAP_DC:dararda_root_of_da",
+      "decision": "approve",
+      "reason": "The published book distinguishes grammatical primary reading, added composition hypothesis and older-workshop rival. Both complete clause and rival exactly match the static authored override; the recovery keeps the primary slots and the additional organ/plant relation separate.",
+      "required_fixes": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt585_learned_name_compound_atlas/REPORT.md",
+          "line": 33,
+          "line_end": 38,
+          "quote": "Die 38 pharmazeutischen Slots verteilen sich auf 29 Pflanzenfragment-, sieben\nGefäß- und zwei Grenzlabelpositionen. Entsprechend lauten die Primärwerte nun\nWurzel, Blatt/Kraut, Blütenstand, Wurzelstock, gelernte Mutterpflanze,\nWurzelvariante oder neutraler Arzneivorrat. Der alte Stoff bleibt in derselben\nZeile erhalten und kann jederzeit wieder Primärwert werden, wenn eine ganze\nPassage ihn besser trägt.",
+          "sha256": "64c22c0d024fcde4abea03d857fa6db809264b340eaa02f098b7e3c1e8d36a1f"
+        },
+        {
+          "path": "experiments/yolo/gdt585_learned_name_compound_atlas/REPORT.md",
+          "line": 106,
+          "line_end": 110,
+          "quote": "Die sieben pharmazeutischen Mehrkernlabels werden nicht pauschal zu\nMischrezepten. Wo GDT474/GDT476 eine Kataloglesung wählt, bleibt sie die\nPrimärlesung; wo `SH+OL` bereits eine Anweisung bildet, bleibt die Anweisung\nerhalten. `d+da`, `sy+y`, `s+oiin+e` und `yt+em` stehen zusätzlich als kreative\nOrgan-plus-Pflanzenreferent-Hypothesen daneben.",
+          "sha256": "64c22c0d024fcde4abea03d857fa6db809264b340eaa02f098b7e3c1e8d36a1f"
+        },
+        {
+          "path": "experiments/yolo/gdt585_learned_name_compound_atlas/artifacts/GDT585_CONCRETE_NAME_BOOK.md",
+          "line": 219,
+          "line_end": 225,
+          "quote": "### GDT585-C014 — dararda\n\nGrammatische Primärlesung: Droge »Wurzeldroge [d]« / Droge »langblättrige Mutterpflanze DA [da]« — Ausgangszuordnung, Ausgangszuordnung.\n\nKompositionshypothese: Wurzel d der langblättrigen Mutterpflanze oder Art DA.\n\nStärkster Rivale: Wasser-Mehl-Paste nach der alten Werkstattpalette",
+          "sha256": "ac72a077eda7801ae708aed84729669485d269bebe22c769973c0d2372313651"
+        }
+      ]
+    },
+    {
+      "id": "CLEAN_GAP_DC:sydarary_inflorescence_of_y",
+      "decision": "approve",
+      "reason": "The published book distinguishes grammatical primary reading, added composition hypothesis and older-workshop rival. Both complete clause and rival exactly match the static authored override; the recovery keeps the primary slots and the additional organ/plant relation separate.",
+      "required_fixes": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt585_learned_name_compound_atlas/REPORT.md",
+          "line": 33,
+          "line_end": 38,
+          "quote": "Die 38 pharmazeutischen Slots verteilen sich auf 29 Pflanzenfragment-, sieben\nGefäß- und zwei Grenzlabelpositionen. Entsprechend lauten die Primärwerte nun\nWurzel, Blatt/Kraut, Blütenstand, Wurzelstock, gelernte Mutterpflanze,\nWurzelvariante oder neutraler Arzneivorrat. Der alte Stoff bleibt in derselben\nZeile erhalten und kann jederzeit wieder Primärwert werden, wenn eine ganze\nPassage ihn besser trägt.",
+          "sha256": "64c22c0d024fcde4abea03d857fa6db809264b340eaa02f098b7e3c1e8d36a1f"
+        },
+        {
+          "path": "experiments/yolo/gdt585_learned_name_compound_atlas/REPORT.md",
+          "line": 106,
+          "line_end": 110,
+          "quote": "Die sieben pharmazeutischen Mehrkernlabels werden nicht pauschal zu\nMischrezepten. Wo GDT474/GDT476 eine Kataloglesung wählt, bleibt sie die\nPrimärlesung; wo `SH+OL` bereits eine Anweisung bildet, bleibt die Anweisung\nerhalten. `d+da`, `sy+y`, `s+oiin+e` und `yt+em` stehen zusätzlich als kreative\nOrgan-plus-Pflanzenreferent-Hypothesen daneben.",
+          "sha256": "64c22c0d024fcde4abea03d857fa6db809264b340eaa02f098b7e3c1e8d36a1f"
+        },
+        {
+          "path": "experiments/yolo/gdt585_learned_name_compound_atlas/artifacts/GDT585_CONCRETE_NAME_BOOK.md",
+          "line": 235,
+          "line_end": 241,
+          "quote": "### GDT585-C016 — sydarary\n\nGrammatische Primärlesung: Droge »Blütenstand [sy]« / Droge »Krautdroge [y]« — Hier-Vermerk, Ausgangszuordnung, Ausgangszuordnung.\n\nKompositionshypothese: Blüten- oder Fruchtstand sy der Kraut- oder Pflanzenform y.\n\nStärkster Rivale: vitriolhaltige Weinlösung nach der alten Werkstattpalette",
+          "sha256": "ac72a077eda7801ae708aed84729669485d269bebe22c769973c0d2372313651"
+        }
+      ]
+    },
+    {
+      "id": "CLEAN_GAP_DC:saloiinsheol_three_part_instruction",
+      "decision": "approve",
+      "reason": "The published book distinguishes grammatical primary reading, added composition hypothesis and older-workshop rival. Both complete clause and rival exactly match the static authored override; the recovery keeps the primary slots and the additional organ/plant relation separate. In this case the existing SH+OL instruction is retained with all three plant-role arguments, target vessel and continuation; it is not reduced to a three-noun catalogue.",
+      "required_fixes": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt585_learned_name_compound_atlas/REPORT.md",
+          "line": 33,
+          "line_end": 38,
+          "quote": "Die 38 pharmazeutischen Slots verteilen sich auf 29 Pflanzenfragment-, sieben\nGefäß- und zwei Grenzlabelpositionen. Entsprechend lauten die Primärwerte nun\nWurzel, Blatt/Kraut, Blütenstand, Wurzelstock, gelernte Mutterpflanze,\nWurzelvariante oder neutraler Arzneivorrat. Der alte Stoff bleibt in derselben\nZeile erhalten und kann jederzeit wieder Primärwert werden, wenn eine ganze\nPassage ihn besser trägt.",
+          "sha256": "64c22c0d024fcde4abea03d857fa6db809264b340eaa02f098b7e3c1e8d36a1f"
+        },
+        {
+          "path": "experiments/yolo/gdt585_learned_name_compound_atlas/REPORT.md",
+          "line": 106,
+          "line_end": 110,
+          "quote": "Die sieben pharmazeutischen Mehrkernlabels werden nicht pauschal zu\nMischrezepten. Wo GDT474/GDT476 eine Kataloglesung wählt, bleibt sie die\nPrimärlesung; wo `SH+OL` bereits eine Anweisung bildet, bleibt die Anweisung\nerhalten. `d+da`, `sy+y`, `s+oiin+e` und `yt+em` stehen zusätzlich als kreative\nOrgan-plus-Pflanzenreferent-Hypothesen daneben.",
+          "sha256": "64c22c0d024fcde4abea03d857fa6db809264b340eaa02f098b7e3c1e8d36a1f"
+        },
+        {
+          "path": "experiments/yolo/gdt585_learned_name_compound_atlas/artifacts/GDT585_CONCRETE_NAME_BOOK.md",
+          "line": 243,
+          "line_end": 249,
+          "quote": "### GDT585-C017 — saloiinsheol\n\nGrammatische Primärlesung: Weiter halte den Drogeneintrag »Blattdroge [s]«, den Drogeneintrag »Wurzelstock [oiin]« und den Drogeneintrag »breitblättrige Mutterpflanze E [e]« zum Zielgefäß.\n\nKompositionshypothese: Halte Blattdroge s, Wurzelstock oiin und Pflanzenkern e desselben Pflanzenfragments zum Zielgefäß und fahre fort.\n\nStärkster Rivale: Salz, Myrrhe und Weihrauch als dreiteilige Arzneimischung",
+          "sha256": "ac72a077eda7801ae708aed84729669485d269bebe22c769973c0d2372313651"
+        }
+      ]
+    },
+    {
+      "id": "CLEAN_GAP_DC:ytarem_leaf_of_em",
+      "decision": "approve",
+      "reason": "The published book distinguishes grammatical primary reading, added composition hypothesis and older-workshop rival. Both complete clause and rival exactly match the static authored override; the recovery keeps the primary slots and the additional organ/plant relation separate.",
+      "required_fixes": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt585_learned_name_compound_atlas/REPORT.md",
+          "line": 33,
+          "line_end": 38,
+          "quote": "Die 38 pharmazeutischen Slots verteilen sich auf 29 Pflanzenfragment-, sieben\nGefäß- und zwei Grenzlabelpositionen. Entsprechend lauten die Primärwerte nun\nWurzel, Blatt/Kraut, Blütenstand, Wurzelstock, gelernte Mutterpflanze,\nWurzelvariante oder neutraler Arzneivorrat. Der alte Stoff bleibt in derselben\nZeile erhalten und kann jederzeit wieder Primärwert werden, wenn eine ganze\nPassage ihn besser trägt.",
+          "sha256": "64c22c0d024fcde4abea03d857fa6db809264b340eaa02f098b7e3c1e8d36a1f"
+        },
+        {
+          "path": "experiments/yolo/gdt585_learned_name_compound_atlas/REPORT.md",
+          "line": 106,
+          "line_end": 110,
+          "quote": "Die sieben pharmazeutischen Mehrkernlabels werden nicht pauschal zu\nMischrezepten. Wo GDT474/GDT476 eine Kataloglesung wählt, bleibt sie die\nPrimärlesung; wo `SH+OL` bereits eine Anweisung bildet, bleibt die Anweisung\nerhalten. `d+da`, `sy+y`, `s+oiin+e` und `yt+em` stehen zusätzlich als kreative\nOrgan-plus-Pflanzenreferent-Hypothesen daneben.",
+          "sha256": "64c22c0d024fcde4abea03d857fa6db809264b340eaa02f098b7e3c1e8d36a1f"
+        },
+        {
+          "path": "experiments/yolo/gdt585_learned_name_compound_atlas/artifacts/GDT585_CONCRETE_NAME_BOOK.md",
+          "line": 251,
+          "line_end": 257,
+          "quote": "### GDT585-C018 — ytarem\n\nGrammatische Primärlesung: Droge »Blattdroge [yt]« / Droge »grauwurzelige Mutterpflanze EM [em]« — Ausgangszuordnung.\n\nKompositionshypothese: Blattdroge yt der grauwurzligen Mutterpflanze oder Art EM.\n\nStärkster Rivale: Salbei- und Rautenblatt als Kräutermischung",
+          "sha256": "ac72a077eda7801ae708aed84729669485d269bebe22c769973c0d2372313651"
+        }
+      ]
+    }
+  ],
+  "source_decision_reviews": [
+    {
+      "source_id": "LEGACY_COMPONENT:2fd49cd9ac679b2ab614",
+      "decision": "approve",
+      "reason": "The previously missing complete clauses/compositions are now retained as source-bound cases with exact evidence and named scope; append reassessment rather than rewrite initial intake."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:f84cb9dee631118675a4",
+      "decision": "approve",
+      "reason": "The previously missing complete clauses/compositions are now retained as source-bound cases with exact evidence and named scope; append reassessment rather than rewrite initial intake."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:6950a676bdec65ae46b3",
+      "decision": "approve",
+      "reason": "The f25r.4 passage contains an expressly tentative second-technical-cell structural explanation and a warning against counting the contact as confirmation. It supplies no further specified semantic relation, patient, direction or action. Resolving semantic recovery to no additional meaning card is justified while preserving that structural uncertainty; this is not a claim that no future interpretation could exist."
+    }
+  ],
+  "static_ast_check": {
+    "method": "ast.parse plus ast.literal_eval of COMPOUND_OVERRIDES only; no import, runner call or TSV read",
+    "source_path": "experiments/yolo/gdt585_learned_name_compound_atlas/src/model.py",
+    "sha256": "018d6a1831395c98e9d6077ec4ef1a26eb14a6201c60bb9c6bf6eab933de6c63",
+    "cases": [
+      {
+        "override_id": "P1003-E0557",
+        "book_id": "GDT585-C014",
+        "whole_form": "dararda",
+        "semantic_mode": "ROOT_PART_OF_NAMED_PLANT",
+        "literal_primary_matches": true,
+        "literal_rival_matches": true
+      },
+      {
+        "override_id": "P1008-E1177",
+        "book_id": "GDT585-C016",
+        "whole_form": "sydarary",
+        "semantic_mode": "INFLORESCENCE_OF_HERB_PACKAGE",
+        "literal_primary_matches": true,
+        "literal_rival_matches": true
+      },
+      {
+        "override_id": "P1008-E1182",
+        "book_id": "GDT585-C017",
+        "whole_form": "saloiinsheol",
+        "semantic_mode": "THREE_PART_PLANT_INSTRUCTION",
+        "literal_primary_matches": true,
+        "literal_rival_matches": true
+      },
+      {
+        "override_id": "P1008-E1412",
+        "book_id": "GDT585-C018",
+        "whole_form": "ytarem",
+        "semantic_mode": "LEAF_PART_OF_NAMED_PLANT",
+        "literal_primary_matches": true,
+        "literal_rival_matches": true
+      }
+    ],
+    "code_dispatch_review": {
+      "path": "experiments/yolo/gdt585_learned_name_compound_atlas/src/run.py",
+      "sha256": "753e12c7c022d89dcd89bdd5a28c9d021e82a83c0031654cf9cbf110c667f587",
+      "lines": [
+        [
+          550,
+          613
+        ],
+        [
+          793,
+          803
+        ]
+      ],
+      "conclusion": "Runner statically selects overrides by source event ID, assigns hypothesis/rival separately from grammar, and prints those separate book fields. The book supplies whole-form and C014/C016/C017/C018 linkage; no source-event rows were read."
+    }
+  },
+  "validation": {
+    "status": "PASS",
+    "cards": 6,
+    "bath_local_clauses": 9,
+    "organ_label_cases": 4,
+    "source_reassessments": 3,
+    "current_counterparts_bound": 7,
+    "exact_quote_hash_checks": 46,
+    "all_validate_card": true
+  },
+  "limits": [
+    "Independent review of source/model declarations only, not validation of the original manuscript or its semantic assignments.",
+    "Learned DA/Y/E/EM identifiers are not identified plant species. Older substance rivals remain historical alternatives.",
+    "No claim of six independent new mechanisms, new relation evidence, fulfilled gates or corpus-wide uniqueness.",
+    "Original cards, reports, registry, and ledger unchanged."
+  ]
+}

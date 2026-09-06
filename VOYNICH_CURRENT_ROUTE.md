@@ -3,8 +3,8 @@ Updated: 2026-09-06. Read first.
 
 ## Current mandate and effort limit
 
-New mandate:10h from2026-09-06 16:41:44UTC to2026-09-07 02:41:44UTC unless interrupted.
-Continue semantic source recovery, scoped identity and failure/priorities.
+10h from2026-09-06 16:41:44UTC to2026-09-07 02:41:44UTC unless interrupted.
+Semantic source recovery, scoped identity and failure/priorities.
 Session: `research_registry/decisions/semantic_identity_session.md`.
 
 GDT858:855/963primary808folds retained opposite-face training;169faces/90leaves.
@@ -50,10 +50,10 @@ manuscript appearance before fixing a route; use primary internal evidence.
 
 841–843 stopped; lookup for native star observations. No meaning or regrading.
 
-## Earlier control
+## Controls
 
-837–840closed: primary reports via lookup; no control-decoder successor.
-No general boundary/cipher rejection.
+837–840 closed; no decoder successor or general boundary/cipher rejection.
+685 fixed semantic roles/verdicts/ranks are not independent evidence; see DF.
 
 ## Visual understanding and earlier routes
 
@@ -116,7 +116,7 @@ Memory: `research_registry/README.md`; `vmanus-work ideas search QUERY`.
 Use ideas duplicates/show/reconsider;8cards default,20max. Never load whole JSONL.
 Concrete claims: `vmanus-work priorities`; `research_registry/SEMANTIC_IDEAS.md`.
 Source archive: priorities --sources; old groups: --groups. No source pointers in idea view.
-Imported claims unreviewed; new data does not itself reopen tests.
+Imports unreviewed; new data alone never reopens tests.
 Use lookup ID for primaries; retain vmanus-exp route-check before new routes.
 GDT001–336 byte-frozen;GDT336 weak placement prior. GDT337+ require
 scaffold/manifests; GDT394+ explicitly seal f84/f84r. New relation packets require

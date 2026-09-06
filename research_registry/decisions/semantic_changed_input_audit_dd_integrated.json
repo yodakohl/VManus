@@ -1,0 +1,253 @@
+{
+  "review_id": "SEMANTIC_CHANGED_INPUT_AUDIT_DD",
+  "status": "reviewed_source_transitions_with_static_method_limits",
+  "cases": [
+    {
+      "id": "DD:odaiin_remainder_to_exact_whole",
+      "primary_predecessors": [
+        "GDT636"
+      ],
+      "primary_successors": [
+        "GDT648"
+      ],
+      "claim_ids": [
+        "SEM:cc27807d7fa798230ec3",
+        "SEM:f1a5d4569d1313e8c04d"
+      ],
+      "old_assertion_and_condition": "GDT636 assigns odaiin a head-bound remainder value within podaiin/sodaiin/rodaiin/lodaiin. Its slots and dictionary additions remain explicitly scoped; they do not license a naked whole form merely by stripping the head. GDT648 explicitly recalls the requirement for a dedicated naked-form run.",
+      "exact_demonstrated_change": "GDT648 reports that dedicated run over 55 naked odaiin occurrences, 42 all-reader-exact and three newly completed lines. It leaves odaiin@GDT636_REMAINDER unchanged and adds odaiin@GDT648_EXACT_WHOLE.",
+      "change_class": "new_exact_whole_scope_with_executed_dedicated_source_pass",
+      "followup_actually_executed": {
+        "experiment": "GDT648",
+        "operation": "Exact whole-form census and context/default integration for the naked form, within the existing admitted source selection.",
+        "reported_result": "Zubereitungsdosis III working whole default; Zubereitungscharge III remains a serious rival because 17 lines also contain another value field."
+      },
+      "gate_assessment": "The named no-automatic-export restriction is respected by performing a separate scoped whole-form pass; this is not revival or identity merger of the old remainder entry. It does not establish dose against batch semantics.",
+      "not_changed": "No independently identified substance, dose, grade, or count unit is supplied by three-reader spelling agreement or line completion. No global remainder-export rule is authorized.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt636_residual_four_head_semantics/REPORT.md",
+          "line": 23,
+          "line_end": 39,
+          "quote": "\n| Rest | Zerlegung | kurzer Default | konkrete Vierkopflesung |\n|---|---|---|---|\n| `ar` | `a+R` | Fraktionsklasse I | Pulver-/Samen-/Wurzel-/Holzfraktion I |\n| `chey` | `ch+e+y` | Trockenform I | jeweiliger Kopfstoff, trocken gebunden, Form I |\n| `al` | `a+L` | Rohstoffform I | Pulver-, Saat-, Wurzel- oder Holzrohstoff I |\n| `y` | `y` | unmarkierte Grundform | Kopfstoff in Grundform |\n| `air` | `a+i+R` | Fraktionsklasse II | Pulver-/Samen-/Wurzel-/Holzfraktion II |\n| `chdy` | `ch+d+y` | getrocknete Kurz-/Kompaktform | jeweiliger Kopfstoff, durchgetrocknet |\n| `oiin` | `o+iin` | Zubereitungsform III | Pulver-/Samen-/Wurzel-/Holzzubereitung III |\n| `shey` | `sh+e+y` | Feucht-/Einweichform I | angefeuchteter oder eingeweichter Kopfstoff I |\n| `am` | `a+m` | Maßform I; nur zeilenfinal zusätzlich Abschluss | ein Maß des Kopfstoffs; in Endstellung zusätzlich Eintrag abgeschlossen |\n| `cheey` | `ch+ee+y` | Trockenform II | jeweiliger Kopfstoff, trocken gebunden, Form II |\n| `chy` | `ch+y` | Trocken-Grundform | trockener Kopfstoff in Grundform |\n| `olchedy` | `ol+chedy` | getrockneter Zubereitungsstoff | getrockneter Pulver-/Saat-/Wurzel-/Holzansatz |\n| `chol` | `ch+ol` | trockener Stoff/Trockengut | trockenes Gut des jeweiligen Kopfstoffs |\n| `odaiin` | `o+d+a+III` | Zubereitungsdosis III | Kopfstoffzubereitung, Dosis III |",
+          "sha256": "cd031640976c12d169cb0058873d06f076a6abd1143a70e39ab1a56b46319a67"
+        },
+        {
+          "path": "experiments/yolo/gdt636_residual_four_head_semantics/METHOD.md",
+          "line": 53,
+          "line_end": 54,
+          "quote": "Diese Slots gelten nur in den registrierten Kompositionen. Ein nacktes `ar`,\n`al` oder `oiin` wird nicht automatisch global übersetzt.",
+          "sha256": "cac3d48aeaeeb326deebe50f7bb57f9438f0c5aa19848ea370840e09d168dc4e"
+        },
+        {
+          "path": "experiments/yolo/gdt636_residual_four_head_semantics/src/validate.py",
+          "line": 170,
+          "line_end": 174,
+          "quote": "        check(int(row[\"bare_body_occurrences\"]) == bare, f\"bare count {body}\")\n        check(row[\"components\"] and row[\"working_default_de\"] and row[\"semantic_family\"], f\"concrete fields {body}\")\n        check(not GENERIC_FILLER.search(row[\"working_default_de\"]), f\"no generic filler {body}\")\n        check(\"bare body is not globalized\" in row[\"scope_rule\"], f\"scoped body {body}\")\n",
+          "sha256": "a132cea5ec81b2bc4f2b9f6f307eb596a8373ae3fd9d4bae0e3cb7be932e5412"
+        },
+        {
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/REPORT.md",
+          "line": 58,
+          "line_end": 70,
+          "quote": "### `odaiin`: ein alter Rest wird zum echten Ganzwort\n\nGDT636 kannte `odaiin` bereits als Körper in `podaiin`, `sodaiin`, `rodaiin`\nund `lodaiin`: Pulver-, Saat-, Wurzel- und Holzzubereitung, jeweils Dosis III.\nDer damalige Schutzwall verbot, daraus ohne eigenen Lauf ein nacktes Wort zu\nmachen. GDT648 führt nun genau diesen fehlenden Lauf aus: 55 nackte Belege,\n42 dreileser-exakt und drei neu geschlossene Zeilen.\n\nDer alte Wörterbucheintrag `odaiin@GDT636_REMAINDER` bleibt unverändert; neu\nkommt `odaiin@GDT648_EXACT_WHOLE` hinzu. Das ist keine globale Restregel.\n„Zubereitungscharge III“ bleibt ernst, weil `odaiin` in 17 Zeilen neben einem\nweiteren Zahlenfeld steht. Dosis und Qualitätsgrad können aber auch gemeinsam\nauftreten und sind daher nicht automatisch doppelt.",
+          "sha256": "86faa123f0f26671e5815e4bd63db78dca3047c4947959805260853f18c8761f"
+        }
+      ]
+    },
+    {
+      "id": "DD:chol_shol_tol_universal_head_to_state_dispatch",
+      "primary_predecessors": [
+        "GDT684"
+      ],
+      "primary_successors": [
+        "GDT685"
+      ],
+      "claim_ids": [
+        "SEM:b0091a43c32504d9857f"
+      ],
+      "old_assertion_and_condition": "GDT684 proposed chol=Trockenansatz, shol=Feuchtansatz and tol=Kaltansatz, conditional on inspecting all admitted exact occurrences and their local heads and explaining contexts better/more compactly than bare quality plus material. It prohibited inventing the local carrier globally.",
+      "exact_demonstrated_change": "GDT685 expanded the comparison from the eight V57 output positions to all 540 admitted exact forms on 151 pages, retaining 64 reading disagreements. It inspected quality-grade positions, visible plant-part heads, explicitly headed E+OL forms and adjacent free ol; it replaced eight generic head nouns in seven lines with state-only/local-head realizations.",
+      "change_class": "executed_context_and_renderer_revision_with_author_fixed_semantic_verdicts",
+      "followup_actually_executed": {
+        "experiment": "GDT685",
+        "operation": "Full admitted-form context audit and eight-position renderer repair.",
+        "reported_result": "REJECT_UNIVERSAL_ANSATZ_HEAD; the quality state remains a working reading, with explicit local carrier binding or no carrier when absent."
+      },
+      "gate_assessment": "The proposed context circuit was executed and eight outputs repaired. Inherited QUALITY_STATE_CARRIER roles, constant row REJECT labels and five fixed model ranks mean this does not independently select a semantic winner. It is a historical model-dependent default revision; the newly recovered GDT684 conditional family remains its own addressable source proposition.",
+      "not_changed": "No new page, independently identified material or historical codebook. The local CHO|L/SHO|L boundary rival remains possible; this is no global refutation of all preparation nouns.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt684_v57_complete_semantic_debt_census/REPORT.md",
+          "line": 152,
+          "line_end": 169,
+          "quote": "## Nächster Zug\n\nDer kleinste produktive Bedeutungsversuch ist die vollständige\n`CH/SH/T + OL`-Familie. In V57 stehen sechs `chol`, ein `shol` und ein `tol`.\nDie Arbeitsvorhersagen lauten:\n\n```text\nchol -> Trockenansatz\nshol -> Feuchtansatz\ntol  -> Kaltansatz\n```\n\nDer nächste Versuch soll alle bereits zugelassenen exakten Vorkommen dieser drei Oberflächen\nund ihre lokalen Stoff-/Aktionsköpfe durchgehen. Die Karte darf übernommen\nwerden, wenn dieselbe Komposition die Kontexte besser und kürzer erklärt als\n„trocken/feucht/kalt; Gut/Material“. Ein lokaler Kopf darf den Träger\nkonkretisieren; er darf nicht global erfunden werden.\n",
+          "sha256": "036ce8a40cad923e61ff2b42cb6260a590553c45e3f309b75061c94832f5efbb"
+        },
+        {
+          "path": "experiments/yolo/gdt685_v58_ch_sh_t_ol_ansatz_dispatch/REPORT.md",
+          "line": 7,
+          "line_end": 30,
+          "quote": "Die von GDT684 vorgeschlagene nächste Konkretisierung war zu groß:\n\n```text\nchol = Trockenansatz\nshol = Feuchtansatz\ntol  = Kaltansatz\n```\n\nDie vollständige Prüfung trägt den Zustand, aber nicht das gemeinsame\nSubstantiv. Die beste Arbeitsregel ist:\n\n```text\nchol -> trocken; Kopf sichtbar oder lokal geerbt\nshol -> feucht; Kopf sichtbar oder lokal geerbt\ntol  -> kalt; Kopf sichtbar oder lokal geerbt\n```\n\nSteht ein Pflanzenteil, Pulverstoff, Holzstoff oder Ansatz tatsächlich im\nlokalen Block, bindet die Qualität daran. Fehlt der Kopf, bleibt er offen.\n`Trockengut`, `Feuchtgut`, `Kaltgut` und die drei `-Ansatz`-Formen sind keine\nDefaultwörter mehr.\n\nDas ist keine Rückkehr zum generischen Renderer. Im Gegenteil: V58 entfernt\nacht erfundene Sammelnomen und lässt genau die Information stehen, die das",
+          "sha256": "b4fc6d1fdfd393e2b42fb082c1f4dc8b0f0d6875799b7b208523c873f3d922c9"
+        },
+        {
+          "path": "experiments/yolo/gdt685_v58_ch_sh_t_ol_ansatz_dispatch/REPORT.md",
+          "line": 33,
+          "line_end": 69,
+          "quote": "## Vollständiger Bestand\n\n| Form | Vorkommen | Seiten | dreifach reader-exakt | Gradformen | V58-Reparaturen |\n|---|---:|---:|---:|---:|---:|\n| `chol` | 343 | 125 | 303 | 43 | 6 |\n| `shol` | 163 | 86 | 146 | 13 | 1 |\n| `tol` | 34 | 25 | 27 | 1 | 1 |\n| gesamt | 540 | 151 | 476 | 57 | 8 |\n\nAlle 540 Quellrollen sind `QUALITY_STATE_CARRIER`; keine einzige ist als\nZubereitungsnomen oder Aktion registriert. Das größere kernhaltige OL-Gitter\numfasst 935 Token auf 167 Seiten, davon 833 dreifach reader-exakt. 23 der 24\nerwarteten Qualitätszellen sind belegt. Diese Produktivität ist der Grund,\nwarum drei separat gelernte Ganzwörter unnötig werden.\n\n## Warum `-Ansatz` nicht mitkomponiert\n\nVier voneinander unabhängige Beobachtungen zeigen dieselbe Richtung:\n\n1. 57 Ausdrücke realisieren `chol/shol/tol` mit einem Wert I–IV. Darunter sind\n   49 exakte getrennte Basistoken. Die Zieloberfläche besetzt dort den\n   Qualitätsslot, nicht einen neuen Stoffslot.\n2. Sieben Ausdrücke besitzen einen sichtbaren Pflanzenteilkopf. Lesungen wie\n   `chor chol daiin` ergeben `Pflanzenteil: trocken, Grad III`; ein zusätzliches\n   `Trockenansatz` würde den geschriebenen Kopf verdrängen.\n3. Exakte `E+OL`-Ganzwörter tragen den Nomenkopf ausdrücklich:\n   `cheol = trockener Drogenstoff` (142), `cheor = trockener Drogenteil` (71)\n   und `tcheol = kalt-trockener Drogenstoff` (6). Ihre publizierte Lizenz\n   verbietet gerade die Rückübertragung eines nackten OL-Kopfes.\n4. Zehn Zieltoken berühren sichtbar ein weiteres `ol`. Acht davon sind echte\n   freie Kontakte, zwei werden von einem Alternativleser gebunden. Folgen wie\n   `chol | ol` und `ol | shol` sind mit `trocken | Grundansatz` beziehungsweise\n   `Grundansatz | feucht` lesbar. Ein universal eingebauter Ansatzkopf würde\n   hier zwei Ansatzkarten erzeugen.\n\nGDT628 hatte bereits festgestellt, dass OL unter einem sichtbaren\nQualitätskern im Deutschen meistens keinen eigenen Beitrag braucht. GDT685",
+          "sha256": "b4fc6d1fdfd393e2b42fb082c1f4dc8b0f0d6875799b7b208523c873f3d922c9"
+        },
+        {
+          "path": "experiments/yolo/gdt685_v58_ch_sh_t_ol_ansatz_dispatch/REPORT.md",
+          "line": 71,
+          "line_end": 91,
+          "quote": "\n## Der verbleibende Grenzrivale\n\nEine lokale Segmentierung `CHO|L` oder `SHO|L` bleibt formal denkbar, weil\n`cho/sho` als Zubereitungsschalen und gebundenes `l` in anderen Ganzwörtern\nexistieren. Sie ist kein gemeinsames Modell für die drei Ziele: `tol` bräuchte\neine neue `TO|L`-Karte, und in den sichtbaren Teil–Qualität–Grad-Klauseln würde\nein pauschales Holz- oder Ansatznomen übervorhersagen. Darum bleibt sie ein\nlokaler Grenzrivale, nicht der Rendererdefault.\n\n## Was V58 tatsächlich ändert\n\nSieben Zeilen und acht Positionen werden neu gerendert:\n\n| Stelle | V58-Lesung |\n|---|---|\n| f27r.9#4 `chol` | `trocken`; Kopf zwischen Feucht- und Kaltansatzzelle offen |\n| f30r.9#3 `chol` | erste Trockenfraktion: `trocken` |\n| f80v.35#1 `tol` | `kalt`; das folgende Wort benennt den Holzdrogenansatz bereits |\n| f86v3.18#5 `shol` | vorheriger Pulverstoff: `feucht` |\n| f86v3.19#5/#7 `chol` | zwei getrennte Zustandszellen: jeweils `trocken` |",
+          "sha256": "b4fc6d1fdfd393e2b42fb082c1f4dc8b0f0d6875799b7b208523c873f3d922c9"
+        },
+        {
+          "path": "experiments/yolo/gdt685_v58_ch_sh_t_ol_ansatz_dispatch/REPORT.md",
+          "line": 141,
+          "line_end": 148,
+          "quote": "## Claim ceiling\n\nGDT685 ist eine vollständige, reproduzierbare Arbeitslesung der 540 bereits\nzugelassenen Zielvorkommen und ein konkretes V58-Rendererupdate. Es öffnet\nkeine neue Seite. Es identifiziert keine Pflanze, Zutat, Flüssigkeit,\nKrankheit, Person, Heilung, Sprache, Lautung oder historisches Codebuch.\n`tol = kalt` bleibt ein Arbeitsdefault; 64 Zielpositionen besitzen weiterhin\nAlternativleser-Varianten.",
+          "sha256": "b4fc6d1fdfd393e2b42fb082c1f4dc8b0f0d6875799b7b208523c873f3d922c9"
+        }
+      ],
+      "original_claim_ids": [],
+      "original_gate_assessment": "A real proposed comparison was executed; its outcome did not pass the old universal noun claim. A narrower quality-plus-local-head contract replaced it. Registered role labels and inherited German readings are not independent translated gold.",
+      "original_change_class": "executed_original_rival_comparison_rejects_universal_head_selects_narrower_dispatch",
+      "method_evidence_artifact": "research_registry/decisions/semantic_changed_input_peer_dd.json"
+    },
+    {
+      "id": "DD:dain_daiin_local_senses_to_lexical_core",
+      "primary_predecessors": [
+        "GDT710"
+      ],
+      "primary_successors": [
+        "GDT711"
+      ],
+      "claim_ids": [],
+      "old_assertion_and_condition": "GDT710 explicitly separated polysemous daiin/dain sense rows and rated abstract value cells as more stable than concrete local grade/quantity bindings. All remained H0_NONE. This is a source-assessment limitation, not a reported preregistered reopening gate.",
+      "exact_demonstrated_change": "GDT711 audits 181 weak active readings and repairs the first 30 across 49 unchanged positions. Seven active daiin senses are stored under Wert III and three dain senses under Wert II; grade/count realizations move to the occurrence layer. qodaiin remains a separate W1 reading with unresolved qod|aiin versus qo|daiin parse.",
+      "change_class": "changed_assertion_unit_and_storage_contract_without_new_semantic_evidence",
+      "followup_actually_executed": {
+        "experiment": "GDT711",
+        "operation": "Weak-source audit and dictionary/occurrence separation; active readings 332→324, complete readings1594→1586.",
+        "reported_result": "30 source readings repaired, all479 positions unchanged, all19 W3 readings preserved, all H0_NONE. No new spelling, segmentation, page or plaintext identification."
+      },
+      "gate_assessment": "This is an actual constrained source-model repair, not evidence satisfying missing quantity/grade identification. Shared lexical-core storage is not proof that the earlier whole contextual propositions were equivalent.",
+      "not_changed": "The II/III values themselves remain historical working interpretations. Local quantity-versus-grade ownership and qodaiin decomposition remain open; no universal QO meaning follows.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt710_v83_complete_dictionary_confidence_evidence/REPORT.md",
+          "line": 7,
+          "line_end": 13,
+          "quote": "Die primäre Worttabelle enthält 1.582 verschiedene Oberflächenformen und 1.594 Lesarten. Sie verwendet für jede der 320 aktiven Formen den neueren V68-Sinnbestand und für die übrigen Formen den globalen V48-Default. Polyseme Formen werden nicht zusammengemittelt.\n\nDie 2.115 Zeilen des Master-Wörterbuchs sind separat bewertet, weil darunter Regeln und 563 praktische Renderer-Karten stehen. Eine Renderer-Karte ist kein zusätzliches Voynich-Wort.\n\nJede Zeile nennt positive Evidenz, Gegenbeleg, Formniveau, sechs Scorekomponenten, Abzüge/Caps und den letzten semantischen Writer. Der Zahlenwert ist ein Auditindex innerhalb der Arbeitstheorie, keine Wahrscheinlichkeit.\n\nNur 127/479 aktive Positionen stimmen zugleich in Surface und Gloss mit V48 überein. Weitere 152 haben dieselbe Surface, aber einen später revidierten Gloss; 200 besitzen keine V48-Surfacekarte. Alte V48-Glossen sind dann superseded prior, nicht Evidenz der neuen Bedeutung.",
+          "sha256": "eed57051bea0f97722a7c788a3c450ba781e63e07afaff9313defbbbc36b1d9f"
+        },
+        {
+          "path": "experiments/yolo/gdt710_v83_complete_dictionary_confidence_evidence/REPORT.md",
+          "line": 33,
+          "line_end": 33,
+          "quote": "Sechs Formen sind polysem und besitzen eigene Sinnzeilen: `daiin`, `dain`, `dchey`, `dy`, `ol`, `y`. Die abstrakten globalen Wertzellen `daiin/dain` sind stabiler als jede konkrete lokale Grad-/Mengenbindung; `dchey` erreicht W3 nur innerhalb seines benannten Action/Result-Scopes; `dy/y` können formal brauchbar sein, bleiben semantisch strukturell.",
+          "sha256": "eed57051bea0f97722a7c788a3c450ba781e63e07afaff9313defbbbc36b1d9f"
+        },
+        {
+          "path": "experiments/yolo/gdt710_v83_complete_dictionary_confidence_evidence/REPORT.md",
+          "line": 51,
+          "line_end": 57,
+          "quote": "## Historische Grenze\n\nAlle 1594 aktuellen Wortlesarten und alle 2.115 Masterkarten stehen auf `H0_NONE`. Zeitnahe Fachbuch- oder Kürzelanalogien wären Kategorienvergleiche, keine Bestätigung einer Voynich-Klartextzuordnung.\n\n## Nullbeitrag der Relationsrunden\n\nGDT696 bis GDT709 sind `ZERO_WORD_DELTA`. C019, C021, A048 und alle anderen Relationskanten geben daher exakt null Punkte zur Wortconfidence.",
+          "sha256": "eed57051bea0f97722a7c788a3c450ba781e63e07afaff9313defbbbc36b1d9f"
+        },
+        {
+          "path": "experiments/yolo/gdt711_v84_active_weak_family_repair/REPORT.md",
+          "line": 5,
+          "line_end": 21,
+          "quote": "## Outcome\n\nV84 audits all 181 active W0/W1 readings and repairs the first 30 source readings (49 unchanged token positions on 25 pages). The central correction is architectural: the dictionary now stores a compact lexical core, while the occurrence table stores the practical local realization. Thus the seven active `daiin` senses collapse to one lexical core `Wert III`, with `Grad III` or `drei` retained only as context realizations; the three `dain` senses analogously collapse to `Wert II`.\n\nThe active dictionary contracts from 332 to 324 lexical readings without deleting or resegmenting any of the 479 token positions. The complete dictionary contracts from 1,594 to 1,586 readings while retaining 1,582 surfaces. Active levels are 11 W0, 149 W1, 145 W2 and 19 W3. Every historical confirmation remains `H0_NONE`, and GDT696–GDT709 still contribute zero word-confidence points.\n\n## Material repairs\n\n- Value family: `dain/daiin` become abstract values II/III; local grade-versus-count rendering is separate. `qodaiin` remains a distinct W1 `Wert III` reading; its decomposition field keeps `qod|aiin` versus `qo|daiin` open and QO receives no free semantic credit.\n- Unsupported nouns and units are deleted: no automatic Gummi, Gran, Handvoll, Dosis, Mazerat, Absud or Auszug identity survives merely because a fluent renderer used it.\n- `am/dam/dal/oidal` retain only visible measure/material structure; no historical unit is claimed.\n- CKH forms retain exact-family `Mischgut/Mischung`, never a free universal CKH word or an identified medicine.\n- `olkar` retains the intersection shared by both live rivals—hot, wood, share I—while Ansatz versus Auszug is removed. Free `ol` stays W1; bound `ol#2` stays W0 and nonportable.\n\n## Guardrails\n\nExact normalized master-card matches are published as navigation links only and always receive automatic score credit 0. All 19 prior W3 readings and their 77 positions preserve meaning, score, semantic scope, applicability, export boundary, bound spans, writer and provenance. Structural readings remain structural; the compound-only `ol#2` is explicitly non-exportable. No new page, spelling, segmentation, historical analogue, plaintext identification, `f84`, or `f84r` is used.",
+          "sha256": "a74950a653c731e4cf569f88ae460508acdb87539efa0cb10aa27e119d2f4fd0"
+        }
+      ]
+    },
+    {
+      "id": "DD:a048_following_confidence_audit_is_not_gate_execution",
+      "primary_predecessors": [
+        "GDT709"
+      ],
+      "primary_successors": [
+        "GDT710"
+      ],
+      "claim_ids": [
+        "SEM:14f954b4c260354e1a3a"
+      ],
+      "old_assertion_and_condition": "GDT709 retained A048 as HIGH_HOLD_NO_EDGE because the addition action did not license drying/closure, gradeIII shifted to middle stage and qoeedy was singleton. It proposed a subsequent executable preterminal-reset comparison over25 broad first hits, requiring exact action-material/degree recurrence and productive terminal-state licensing.",
+      "exact_demonstrated_change": "GDT710 adds explicit dictionary confidence/provenance assessment and assigns C019/C021/A048 and all GDT696–709 relations zero word-confidence credit. That is changed assessment metadata, not new action/material evidence or an executed reset gate.",
+      "change_class": "following_metadata_audit_does_not_demonstrate_proposed_reopening_test",
+      "followup_actually_executed": {
+        "experiment": "GDT710",
+        "operation": "Complete dictionary confidence/evidence audit; 1582 surfaces/1594 readings and2115 separate master cards.",
+        "reported_result": "All H0_NONE; relations contribute zero word-confidence points. The examined report does not report execution/results of the proposed25-case preterminal gate."
+      },
+      "gate_assessment": "The proposed GDT709 test remains unproved by this successor. No matched reference, confidence score or file existence establishes path eligibility. A048 remains a locally readable held scenario, not a failed word hypothesis or newly accepted edge.",
+      "not_changed": "No independent action/material/degree binding is documented in GDT710. This is a bounded predecessor/successor audit, not a global claim that no later file anywhere executed such a test.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt709_v82_complete_first_terminal_product_census/REPORT.md",
+          "line": 26,
+          "line_end": 39,
+          "quote": "## Best new working reading\n\n> **A048 / f77r.38#3-5:** Endportion hinzugeben. Danach steht: heiß, Grad III.\n> Mögliches terminales Produkt: abgeschlossenes, bis zur Mittelstufe\n> getrocknetes Arzneikompositum.\n\nThis is not generic renderer filler. It names an input portion, a thermal and\ndegree attribute, and a material-bearing terminal product. It is the strongest\nnew exploratory hold because the block is short and ends exactly at #5.\n\nIt is not yet an edge. `Hinzunehmen` does not itself produce drying or closure;\nGrad III changes to Mittelstufe; and the action surface `qoeedy` is a singleton\nin the frozen 479-token layer. The useful conclusion is therefore\n`HIGH_HOLD_NO_EDGE`, not rejection and not a word default.",
+          "sha256": "8ebf1d0a20ad1f50d0ed8185b8d65637936626e43fe09f1b0fc2147ba64a5e0d"
+        },
+        {
+          "path": "experiments/yolo/gdt709_v82_complete_first_terminal_product_census/REPORT.md",
+          "line": 57,
+          "line_end": 68,
+          "quote": "Likewise, “nine endpoints” does not mean nine blocker-free causal paths. A005,\nA014, A041 and A048 have their first unresolved operation or degree mismatch\nin the selected terminal field itself. They remain visible because the local\nproduct phrase is readable; the mismatch is precisely why they stay holds or\nSTOPs.\n\n## Graph and dictionary effect\n\nNone. The V81 graph remains 20 edges, 14 components, 37 unique edge nodes, 43\nincidences, 45 hull positions and 45 render positions. All 479 token glosses,\n51 line translations and three bound spans remain inherited unchanged. No\nGDT388 packet is needed because this pass adds no relation evidence.",
+          "sha256": "8ebf1d0a20ad1f50d0ed8185b8d65637936626e43fe09f1b0fc2147ba64a5e0d"
+        },
+        {
+          "path": "experiments/yolo/gdt709_v82_complete_first_terminal_product_census/REPORT.md",
+          "line": 70,
+          "line_end": 79,
+          "quote": "## Next useful move\n\nRun a single executable preterminal-reset gate over the 25 broad first hits.\nBefore or at the terminal field it must reject the first material, operation or\ndegree reset and require exact action-material and degree recurrence plus an\naction that productively licenses the new terminal state. C021 is the positive\nanchor; C019 is the inherited carrier-bundle special case; A048 is the named\nnegative/high-hold anchor. This tests a prediction about all 25 cases without\nopening a page or changing a word meaning.",
+          "sha256": "8ebf1d0a20ad1f50d0ed8185b8d65637936626e43fe09f1b0fc2147ba64a5e0d"
+        },
+        {
+          "path": "experiments/yolo/gdt710_v83_complete_dictionary_confidence_evidence/REPORT.md",
+          "line": 7,
+          "line_end": 13,
+          "quote": "Die primäre Worttabelle enthält 1.582 verschiedene Oberflächenformen und 1.594 Lesarten. Sie verwendet für jede der 320 aktiven Formen den neueren V68-Sinnbestand und für die übrigen Formen den globalen V48-Default. Polyseme Formen werden nicht zusammengemittelt.\n\nDie 2.115 Zeilen des Master-Wörterbuchs sind separat bewertet, weil darunter Regeln und 563 praktische Renderer-Karten stehen. Eine Renderer-Karte ist kein zusätzliches Voynich-Wort.\n\nJede Zeile nennt positive Evidenz, Gegenbeleg, Formniveau, sechs Scorekomponenten, Abzüge/Caps und den letzten semantischen Writer. Der Zahlenwert ist ein Auditindex innerhalb der Arbeitstheorie, keine Wahrscheinlichkeit.\n\nNur 127/479 aktive Positionen stimmen zugleich in Surface und Gloss mit V48 überein. Weitere 152 haben dieselbe Surface, aber einen später revidierten Gloss; 200 besitzen keine V48-Surfacekarte. Alte V48-Glossen sind dann superseded prior, nicht Evidenz der neuen Bedeutung.",
+          "sha256": "eed57051bea0f97722a7c788a3c450ba781e63e07afaff9313defbbbc36b1d9f"
+        },
+        {
+          "path": "experiments/yolo/gdt710_v83_complete_dictionary_confidence_evidence/REPORT.md",
+          "line": 51,
+          "line_end": 57,
+          "quote": "## Historische Grenze\n\nAlle 1594 aktuellen Wortlesarten und alle 2.115 Masterkarten stehen auf `H0_NONE`. Zeitnahe Fachbuch- oder Kürzelanalogien wären Kategorienvergleiche, keine Bestätigung einer Voynich-Klartextzuordnung.\n\n## Nullbeitrag der Relationsrunden\n\nGDT696 bis GDT709 sind `ZERO_WORD_DELTA`. C019, C021, A048 und alle anderen Relationskanten geben daher exakt null Punkte zur Wortconfidence.",
+          "sha256": "eed57051bea0f97722a7c788a3c450ba781e63e07afaff9313defbbbc36b1d9f"
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "transitions": 4,
+    "dedicated_new_scope_pass": 1,
+    "original_proposed_rival_comparison_executed": 1,
+    "representation_repair_without_new_binding": 1,
+    "successor_does_not_establish_proposed_gate_execution": 1,
+    "meaning_confirmations": 0,
+    "rerun_authorizations": 0
+  },
+  "limits": [
+    "Only source reports/method/validator prose read; no underlying manuscript rows, images, experiment execution or operational mutations.",
+    "Explicitly distinguish original published next-test conditions from current audit interpretation; no prospective condition is mislabelled an old preregistration.",
+    "Claim IDs provided only where exact counterpart was already established; report-defined full assertions are stated explicitly elsewhere, not filled with invented IDs.",
+    "A source-level executed audit may change model behavior without independently identifying meaning. No generic change-type eligibility is inferred."
+  ],
+  "integration_provenance": {
+    "reviewer": "root",
+    "raw_review": "research_registry/decisions/semantic_changed_input_audit_dd.json",
+    "raw_sha256": "978b1e83a3c6495281737a2653730f3dc0e41a48f25ae21152749a92ff29c418",
+    "peer_review": "research_registry/decisions/semantic_changed_input_peer_dd.json",
+    "peer_sha256": "c044fbfbb91db5516de1ffa7055df032afcf55c543f3aa620e91f9a0f29ddd3d"
+  }
+}

@@ -1,0 +1,548 @@
+{
+  "review_id": "CLEAN_GAP_REVIEW_DC",
+  "cards": [
+    {
+      "id": "CLEAN_GAP_DC:five_left_resumption_cases",
+      "claim": "GDT595 gives five local left-resumption readings in which the previously named participant remains the patient of the following bath action: E1445: Führe die Anwendungsportion zu. Halte dieselbe Anwendungsportion im Bad auf Grad II.; E1523: Wähle die Einheit aus. Halte dieselbe Becken- oder Körpereinheit im Bad auf Grad I.; E2426: Behandle den Stationsansatz. Halte denselben Stationsansatz bei der angegebenen Füllung im Bad auf Grad I.; E2552: Bereite die Anwendungsportion und das Badmaß vor. Halte dieselbe Anwendungsportion im Bad auf Grad I.; E2988: Verwende die Becken- oder Körpereinheit. Halte dieselbe Becken- oder Körpereinheit im Bad auf Grad I. These are five specified realizations of participant continuation, not five distinct semantic mechanisms.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:2fd49cd9ac679b2ab614"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 46,
+          "line_end": 64,
+          "quote": "Das ist keine Objektzuweisung. AIIN bleibt Füllung oder Medium und kann Körper,\nStation oder Portion begleiten. Auch Y ist kein globales Stationswort.\n\nDie eigentliche Objektquelle lautet:\n\n- 21 linke, sichtbare Teilnehmer werden mit `denselben/dieselbe`\n  wiederaufgenommen;\n- 8 gleichereignisige Endträger schließen als definite gemeinsame Komplemente\n  eine kurze Verbkette ab;\n- E2952 bleibt eine Station/Portion-Gabel, die durch die nachfolgende\n  Stationsbehandlung zugunsten Station entschieden wird;\n- 14 resetgebundene Stellen ohne hinreichenden nicht-mediumhaften Teilnehmer\n  erhalten Körper als ersten definiten Default.\n\nDamit wird aus `AIIN → Körper` die sinnvollere Konstruktion:\n\n```text\nSH-Aktion + AIIN-Füllung + separat bestimmter Patient\n```",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        },
+        {
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 96,
+          "line_end": 104,
+          "quote": "Starke linke Wiederaufnahmen:\n\n```text\nE1445  Führe die Anwendungsportion zu. Halte dieselbe Anwendungsportion im Bad auf Grad II.\nE1523  Wähle die Einheit aus. Halte dieselbe Becken- oder Körpereinheit im Bad auf Grad I.\nE2426  Behandle den Stationsansatz. Halte denselben Stationsansatz bei der angegebenen Füllung im Bad auf Grad I.\nE2552  Bereite die Anwendungsportion und das Badmaß vor. Halte dieselbe Anwendungsportion im Bad auf Grad I.\nE2988  Verwende die Becken- oder Körpereinheit. Halte dieselbe Becken- oder Körpereinheit im Bad auf Grad I.\n```",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "independent_new_idea": false,
+      "scope": {
+        "kind": "historical_five_case_bundle",
+        "experiment": "GDT595",
+        "event_ids": [
+          "E1445",
+          "E1523",
+          "E2426",
+          "E2552",
+          "E2988"
+        ],
+        "limit": "The report's German working clauses only; no manuscript event rows or independent patient-binding evidence were reviewed."
+      },
+      "comparison": {
+        "counterpart_ids": [
+          "SEM:461a868f7ba93fe48b5a",
+          "SEM:c556c887cc61fc10debe",
+          "SEM:2528020ed11068328a3e"
+        ],
+        "decision": "additional_exact_local_source_cases",
+        "reason": "Same-event right-edge extension does not specify these five left-resumption patients, actions or grades. A bare Anwendungsportion gloss does not assert any full event instruction. No exact named-case counterpart located in bounded current claims."
+      },
+      "local_cases": [
+        {
+          "case_id": "E1445",
+          "historical_full_clause": "Führe die Anwendungsportion zu. Halte dieselbe Anwendungsportion im Bad auf Grad II.",
+          "evidence": [
+            {
+              "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+              "line": 99,
+              "line_end": 99,
+              "quote": "E1445  Führe die Anwendungsportion zu. Halte dieselbe Anwendungsportion im Bad auf Grad II.",
+              "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+            }
+          ],
+          "status": "historically_rendered_unconfirmed",
+          "independent_new_idea": false
+        },
+        {
+          "case_id": "E1523",
+          "historical_full_clause": "Wähle die Einheit aus. Halte dieselbe Becken- oder Körpereinheit im Bad auf Grad I.",
+          "evidence": [
+            {
+              "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+              "line": 100,
+              "line_end": 100,
+              "quote": "E1523  Wähle die Einheit aus. Halte dieselbe Becken- oder Körpereinheit im Bad auf Grad I.",
+              "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+            }
+          ],
+          "status": "historically_rendered_unconfirmed",
+          "independent_new_idea": false
+        },
+        {
+          "case_id": "E2426",
+          "historical_full_clause": "Behandle den Stationsansatz. Halte denselben Stationsansatz bei der angegebenen Füllung im Bad auf Grad I.",
+          "evidence": [
+            {
+              "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+              "line": 101,
+              "line_end": 101,
+              "quote": "E2426  Behandle den Stationsansatz. Halte denselben Stationsansatz bei der angegebenen Füllung im Bad auf Grad I.",
+              "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+            }
+          ],
+          "status": "historically_rendered_unconfirmed",
+          "independent_new_idea": false
+        },
+        {
+          "case_id": "E2552",
+          "historical_full_clause": "Bereite die Anwendungsportion und das Badmaß vor. Halte dieselbe Anwendungsportion im Bad auf Grad I.",
+          "evidence": [
+            {
+              "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+              "line": 102,
+              "line_end": 102,
+              "quote": "E2552  Bereite die Anwendungsportion und das Badmaß vor. Halte dieselbe Anwendungsportion im Bad auf Grad I.",
+              "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+            }
+          ],
+          "status": "historically_rendered_unconfirmed",
+          "independent_new_idea": false
+        },
+        {
+          "case_id": "E2988",
+          "historical_full_clause": "Verwende die Becken- oder Körpereinheit. Halte dieselbe Becken- oder Körpereinheit im Bad auf Grad I.",
+          "evidence": [
+            {
+              "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+              "line": 103,
+              "line_end": 103,
+              "quote": "E2988  Verwende die Becken- oder Körpereinheit. Halte dieselbe Becken- oder Körpereinheit im Bad auf Grad I.",
+              "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+            }
+          ],
+          "status": "historically_rendered_unconfirmed",
+          "independent_new_idea": false
+        }
+      ]
+    },
+    {
+      "id": "CLEAN_GAP_DC:four_default_episode_cases",
+      "claim": "GDT595 gives the definite-default and episode-continuation readings E3218: Halte den Körper im Bad bei der angegebenen Füllung auf Grad I.; E3219: Halte denselben Körper im Bad auf Grad I.; E3488: Halte denselben Stationsansatz im Bad auf Grad I.; E3489: Halte denselben Stationsansatz im Bad auf Grad I.. E3219 carries the newly specified body type and E3489 the station-batch type of their respective sources; these are local continuations of the selected patient, not a global AIIN-to-body or Y-to-station rule.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:2fd49cd9ac679b2ab614"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 7,
+          "line_end": 10,
+          "quote": "Der 254-Aktionen-Badeleser enthält erstmals kein generisches `Badegut` mehr.\nDie letzten 44 kalten Defaults werden direkt konkretisiert; zwei bereits\nbestehende Episodenverweise übernehmen anschließend den neu bestimmten Typ\nihrer Quelle.",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        },
+        {
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 21,
+          "line_end": 21,
+          "quote": "Nach E3219→Körper und E3489→Stationsansatz lautet das vollständige Profil:",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        },
+        {
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 46,
+          "line_end": 64,
+          "quote": "Das ist keine Objektzuweisung. AIIN bleibt Füllung oder Medium und kann Körper,\nStation oder Portion begleiten. Auch Y ist kein globales Stationswort.\n\nDie eigentliche Objektquelle lautet:\n\n- 21 linke, sichtbare Teilnehmer werden mit `denselben/dieselbe`\n  wiederaufgenommen;\n- 8 gleichereignisige Endträger schließen als definite gemeinsame Komplemente\n  eine kurze Verbkette ab;\n- E2952 bleibt eine Station/Portion-Gabel, die durch die nachfolgende\n  Stationsbehandlung zugunsten Station entschieden wird;\n- 14 resetgebundene Stellen ohne hinreichenden nicht-mediumhaften Teilnehmer\n  erhalten Körper als ersten definiten Default.\n\nDamit wird aus `AIIN → Körper` die sinnvollere Konstruktion:\n\n```text\nSH-Aktion + AIIN-Füllung + separat bestimmter Patient\n```",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        },
+        {
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 115,
+          "line_end": 122,
+          "quote": "Definite Defaults und Episodenfortsetzung:\n\n```text\nE3218  Halte den Körper im Bad bei der angegebenen Füllung auf Grad I.\nE3219  Halte denselben Körper im Bad auf Grad I.\nE3488  Halte denselben Stationsansatz im Bad auf Grad I.\nE3489  Halte denselben Stationsansatz im Bad auf Grad I.\n```",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "independent_new_idea": false,
+      "scope": {
+        "kind": "historical_four_case_bundle",
+        "experiment": "GDT595",
+        "event_ids": [
+          "E3218",
+          "E3219",
+          "E3488",
+          "E3489"
+        ],
+        "limit": "Two dependent carries and the exact four reported clauses are preserved; no additional source-event linkage or raw form is inferred."
+      },
+      "comparison": {
+        "counterpart_ids": [
+          "SEM:461a868f7ba93fe48b5a",
+          "SEM:c556c887cc61fc10debe"
+        ],
+        "decision": "additional_exact_local_source_cases",
+        "reason": "The existing right-edge/hybrid proposition does not give these four default/continuation readings. The report explicitly disallows deriving the patient from AIIN alone."
+      },
+      "local_cases": [
+        {
+          "case_id": "E3218",
+          "historical_full_clause": "Halte den Körper im Bad bei der angegebenen Füllung auf Grad I.",
+          "evidence": [
+            {
+              "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+              "line": 118,
+              "line_end": 118,
+              "quote": "E3218  Halte den Körper im Bad bei der angegebenen Füllung auf Grad I.",
+              "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+            }
+          ],
+          "status": "historically_rendered_unconfirmed",
+          "independent_new_idea": false
+        },
+        {
+          "case_id": "E3219",
+          "historical_full_clause": "Halte denselben Körper im Bad auf Grad I.",
+          "evidence": [
+            {
+              "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+              "line": 119,
+              "line_end": 119,
+              "quote": "E3219  Halte denselben Körper im Bad auf Grad I.",
+              "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+            }
+          ],
+          "status": "historically_rendered_unconfirmed",
+          "independent_new_idea": false
+        },
+        {
+          "case_id": "E3488",
+          "historical_full_clause": "Halte denselben Stationsansatz im Bad auf Grad I.",
+          "evidence": [
+            {
+              "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+              "line": 120,
+              "line_end": 120,
+              "quote": "E3488  Halte denselben Stationsansatz im Bad auf Grad I.",
+              "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+            }
+          ],
+          "status": "historically_rendered_unconfirmed",
+          "independent_new_idea": false
+        },
+        {
+          "case_id": "E3489",
+          "historical_full_clause": "Halte denselben Stationsansatz im Bad auf Grad I.",
+          "evidence": [
+            {
+              "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+              "line": 121,
+              "line_end": 121,
+              "quote": "E3489  Halte denselben Stationsansatz im Bad auf Grad I.",
+              "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+            }
+          ],
+          "status": "historically_rendered_unconfirmed",
+          "independent_new_idea": false
+        }
+      ]
+    },
+    {
+      "id": "CLEAN_GAP_DC:dararda_root_of_da",
+      "claim": "GDT585 GDT585-C014 proposes the whole-label composition for dararda: \"Wurzel d der langblättrigen Mutterpflanze oder Art DA.\" Its explicitly retained older-workshop rival is \"Wasser-Mehl-Paste nach der alten Werkstattpalette\". This organ-to-plant composition is an additional hypothesis beside the catalogued drug/name slots and their technical relations, not a replacement of those slots by an independently identified species.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:f84cb9dee631118675a4"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt585_learned_name_compound_atlas/REPORT.md",
+          "line": 33,
+          "line_end": 38,
+          "quote": "Die 38 pharmazeutischen Slots verteilen sich auf 29 Pflanzenfragment-, sieben\nGefäß- und zwei Grenzlabelpositionen. Entsprechend lauten die Primärwerte nun\nWurzel, Blatt/Kraut, Blütenstand, Wurzelstock, gelernte Mutterpflanze,\nWurzelvariante oder neutraler Arzneivorrat. Der alte Stoff bleibt in derselben\nZeile erhalten und kann jederzeit wieder Primärwert werden, wenn eine ganze\nPassage ihn besser trägt.",
+          "sha256": "64c22c0d024fcde4abea03d857fa6db809264b340eaa02f098b7e3c1e8d36a1f"
+        },
+        {
+          "path": "experiments/yolo/gdt585_learned_name_compound_atlas/REPORT.md",
+          "line": 106,
+          "line_end": 110,
+          "quote": "Die sieben pharmazeutischen Mehrkernlabels werden nicht pauschal zu\nMischrezepten. Wo GDT474/GDT476 eine Kataloglesung wählt, bleibt sie die\nPrimärlesung; wo `SH+OL` bereits eine Anweisung bildet, bleibt die Anweisung\nerhalten. `d+da`, `sy+y`, `s+oiin+e` und `yt+em` stehen zusätzlich als kreative\nOrgan-plus-Pflanzenreferent-Hypothesen daneben.",
+          "sha256": "64c22c0d024fcde4abea03d857fa6db809264b340eaa02f098b7e3c1e8d36a1f"
+        },
+        {
+          "path": "experiments/yolo/gdt585_learned_name_compound_atlas/artifacts/GDT585_CONCRETE_NAME_BOOK.md",
+          "line": 219,
+          "line_end": 225,
+          "quote": "### GDT585-C014 — dararda\n\nGrammatische Primärlesung: Droge »Wurzeldroge [d]« / Droge »langblättrige Mutterpflanze DA [da]« — Ausgangszuordnung, Ausgangszuordnung.\n\nKompositionshypothese: Wurzel d der langblättrigen Mutterpflanze oder Art DA.\n\nStärkster Rivale: Wasser-Mehl-Paste nach der alten Werkstattpalette",
+          "sha256": "ac72a077eda7801ae708aed84729669485d269bebe22c769973c0d2372313651"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "independent_new_idea": false,
+      "scope": {
+        "kind": "historical_local_whole_label_composition_and_rival",
+        "experiment": "GDT585",
+        "whole_form": "dararda",
+        "exact_named_package": "d+da",
+        "book_card_id": "GDT585-C014",
+        "authored_override_id": "P1003-E0557",
+        "limit": "Historical source inference; no fresh image observation. Learned plant identifiers DA/Y/E/EM are not decoded species names. Old alias rival is retained, not globally refuted."
+      },
+      "comparison": {
+        "counterpart_ids": [
+          "SEM:954db753c348c96e45ef",
+          "SEM:5ccb843fca1fff37febd",
+          "SEM:f2a3eec927e85c648851"
+        ],
+        "decision": "additional_complete_composition_source_case",
+        "reason": "Individual mother-plant and rhizome glosses do not assert these organ-of-plant relations or the complete hold-to-target/continue instruction. No complete same-form counterpart found in bounded current claims."
+      }
+    },
+    {
+      "id": "CLEAN_GAP_DC:sydarary_inflorescence_of_y",
+      "claim": "GDT585 GDT585-C016 proposes the whole-label composition for sydarary: \"Blüten- oder Fruchtstand sy der Kraut- oder Pflanzenform y.\" Its explicitly retained older-workshop rival is \"vitriolhaltige Weinlösung nach der alten Werkstattpalette\". This organ-to-plant composition is an additional hypothesis beside the catalogued drug/name slots and their technical relations, not a replacement of those slots by an independently identified species.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:f84cb9dee631118675a4"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt585_learned_name_compound_atlas/REPORT.md",
+          "line": 33,
+          "line_end": 38,
+          "quote": "Die 38 pharmazeutischen Slots verteilen sich auf 29 Pflanzenfragment-, sieben\nGefäß- und zwei Grenzlabelpositionen. Entsprechend lauten die Primärwerte nun\nWurzel, Blatt/Kraut, Blütenstand, Wurzelstock, gelernte Mutterpflanze,\nWurzelvariante oder neutraler Arzneivorrat. Der alte Stoff bleibt in derselben\nZeile erhalten und kann jederzeit wieder Primärwert werden, wenn eine ganze\nPassage ihn besser trägt.",
+          "sha256": "64c22c0d024fcde4abea03d857fa6db809264b340eaa02f098b7e3c1e8d36a1f"
+        },
+        {
+          "path": "experiments/yolo/gdt585_learned_name_compound_atlas/REPORT.md",
+          "line": 106,
+          "line_end": 110,
+          "quote": "Die sieben pharmazeutischen Mehrkernlabels werden nicht pauschal zu\nMischrezepten. Wo GDT474/GDT476 eine Kataloglesung wählt, bleibt sie die\nPrimärlesung; wo `SH+OL` bereits eine Anweisung bildet, bleibt die Anweisung\nerhalten. `d+da`, `sy+y`, `s+oiin+e` und `yt+em` stehen zusätzlich als kreative\nOrgan-plus-Pflanzenreferent-Hypothesen daneben.",
+          "sha256": "64c22c0d024fcde4abea03d857fa6db809264b340eaa02f098b7e3c1e8d36a1f"
+        },
+        {
+          "path": "experiments/yolo/gdt585_learned_name_compound_atlas/artifacts/GDT585_CONCRETE_NAME_BOOK.md",
+          "line": 235,
+          "line_end": 241,
+          "quote": "### GDT585-C016 — sydarary\n\nGrammatische Primärlesung: Droge »Blütenstand [sy]« / Droge »Krautdroge [y]« — Hier-Vermerk, Ausgangszuordnung, Ausgangszuordnung.\n\nKompositionshypothese: Blüten- oder Fruchtstand sy der Kraut- oder Pflanzenform y.\n\nStärkster Rivale: vitriolhaltige Weinlösung nach der alten Werkstattpalette",
+          "sha256": "ac72a077eda7801ae708aed84729669485d269bebe22c769973c0d2372313651"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "independent_new_idea": false,
+      "scope": {
+        "kind": "historical_local_whole_label_composition_and_rival",
+        "experiment": "GDT585",
+        "whole_form": "sydarary",
+        "exact_named_package": "sy+y",
+        "book_card_id": "GDT585-C016",
+        "authored_override_id": "P1008-E1177",
+        "limit": "Historical source inference; no fresh image observation. Learned plant identifiers DA/Y/E/EM are not decoded species names. Old alias rival is retained, not globally refuted."
+      },
+      "comparison": {
+        "counterpart_ids": [
+          "SEM:954db753c348c96e45ef",
+          "SEM:5ccb843fca1fff37febd",
+          "SEM:f2a3eec927e85c648851"
+        ],
+        "decision": "additional_complete_composition_source_case",
+        "reason": "Individual mother-plant and rhizome glosses do not assert these organ-of-plant relations or the complete hold-to-target/continue instruction. No complete same-form counterpart found in bounded current claims."
+      }
+    },
+    {
+      "id": "CLEAN_GAP_DC:saloiinsheol_three_part_instruction",
+      "claim": "GDT585 GDT585-C017 proposes the whole-label composition for saloiinsheol: \"Halte Blattdroge s, Wurzelstock oiin und Pflanzenkern e desselben Pflanzenfragments zum Zielgefäß und fahre fort.\" Its explicitly retained older-workshop rival is \"Salz, Myrrhe und Weihrauch als dreiteilige Arzneimischung\". The existing SH+OL instruction remains an instruction; this composition identifies its three plant-role arguments rather than turning the label into a noun catalogue.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:f84cb9dee631118675a4"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt585_learned_name_compound_atlas/REPORT.md",
+          "line": 33,
+          "line_end": 38,
+          "quote": "Die 38 pharmazeutischen Slots verteilen sich auf 29 Pflanzenfragment-, sieben\nGefäß- und zwei Grenzlabelpositionen. Entsprechend lauten die Primärwerte nun\nWurzel, Blatt/Kraut, Blütenstand, Wurzelstock, gelernte Mutterpflanze,\nWurzelvariante oder neutraler Arzneivorrat. Der alte Stoff bleibt in derselben\nZeile erhalten und kann jederzeit wieder Primärwert werden, wenn eine ganze\nPassage ihn besser trägt.",
+          "sha256": "64c22c0d024fcde4abea03d857fa6db809264b340eaa02f098b7e3c1e8d36a1f"
+        },
+        {
+          "path": "experiments/yolo/gdt585_learned_name_compound_atlas/REPORT.md",
+          "line": 106,
+          "line_end": 110,
+          "quote": "Die sieben pharmazeutischen Mehrkernlabels werden nicht pauschal zu\nMischrezepten. Wo GDT474/GDT476 eine Kataloglesung wählt, bleibt sie die\nPrimärlesung; wo `SH+OL` bereits eine Anweisung bildet, bleibt die Anweisung\nerhalten. `d+da`, `sy+y`, `s+oiin+e` und `yt+em` stehen zusätzlich als kreative\nOrgan-plus-Pflanzenreferent-Hypothesen daneben.",
+          "sha256": "64c22c0d024fcde4abea03d857fa6db809264b340eaa02f098b7e3c1e8d36a1f"
+        },
+        {
+          "path": "experiments/yolo/gdt585_learned_name_compound_atlas/artifacts/GDT585_CONCRETE_NAME_BOOK.md",
+          "line": 243,
+          "line_end": 249,
+          "quote": "### GDT585-C017 — saloiinsheol\n\nGrammatische Primärlesung: Weiter halte den Drogeneintrag »Blattdroge [s]«, den Drogeneintrag »Wurzelstock [oiin]« und den Drogeneintrag »breitblättrige Mutterpflanze E [e]« zum Zielgefäß.\n\nKompositionshypothese: Halte Blattdroge s, Wurzelstock oiin und Pflanzenkern e desselben Pflanzenfragments zum Zielgefäß und fahre fort.\n\nStärkster Rivale: Salz, Myrrhe und Weihrauch als dreiteilige Arzneimischung",
+          "sha256": "ac72a077eda7801ae708aed84729669485d269bebe22c769973c0d2372313651"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "independent_new_idea": false,
+      "scope": {
+        "kind": "historical_local_whole_label_composition_and_rival",
+        "experiment": "GDT585",
+        "whole_form": "saloiinsheol",
+        "exact_named_package": "s+oiin+e",
+        "book_card_id": "GDT585-C017",
+        "authored_override_id": "P1008-E1182",
+        "limit": "Historical source inference; no fresh image observation. Learned plant identifiers DA/Y/E/EM are not decoded species names. Old alias rival is retained, not globally refuted."
+      },
+      "comparison": {
+        "counterpart_ids": [
+          "SEM:954db753c348c96e45ef",
+          "SEM:5ccb843fca1fff37febd",
+          "SEM:f2a3eec927e85c648851"
+        ],
+        "decision": "additional_complete_composition_source_case",
+        "reason": "Individual mother-plant and rhizome glosses do not assert these organ-of-plant relations or the complete hold-to-target/continue instruction. No complete same-form counterpart found in bounded current claims."
+      }
+    },
+    {
+      "id": "CLEAN_GAP_DC:ytarem_leaf_of_em",
+      "claim": "GDT585 GDT585-C018 proposes the whole-label composition for ytarem: \"Blattdroge yt der grauwurzligen Mutterpflanze oder Art EM.\" Its explicitly retained older-workshop rival is \"Salbei- und Rautenblatt als Kräutermischung\". This organ-to-plant composition is an additional hypothesis beside the catalogued drug/name slots and their technical relations, not a replacement of those slots by an independently identified species.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:f84cb9dee631118675a4"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt585_learned_name_compound_atlas/REPORT.md",
+          "line": 33,
+          "line_end": 38,
+          "quote": "Die 38 pharmazeutischen Slots verteilen sich auf 29 Pflanzenfragment-, sieben\nGefäß- und zwei Grenzlabelpositionen. Entsprechend lauten die Primärwerte nun\nWurzel, Blatt/Kraut, Blütenstand, Wurzelstock, gelernte Mutterpflanze,\nWurzelvariante oder neutraler Arzneivorrat. Der alte Stoff bleibt in derselben\nZeile erhalten und kann jederzeit wieder Primärwert werden, wenn eine ganze\nPassage ihn besser trägt.",
+          "sha256": "64c22c0d024fcde4abea03d857fa6db809264b340eaa02f098b7e3c1e8d36a1f"
+        },
+        {
+          "path": "experiments/yolo/gdt585_learned_name_compound_atlas/REPORT.md",
+          "line": 106,
+          "line_end": 110,
+          "quote": "Die sieben pharmazeutischen Mehrkernlabels werden nicht pauschal zu\nMischrezepten. Wo GDT474/GDT476 eine Kataloglesung wählt, bleibt sie die\nPrimärlesung; wo `SH+OL` bereits eine Anweisung bildet, bleibt die Anweisung\nerhalten. `d+da`, `sy+y`, `s+oiin+e` und `yt+em` stehen zusätzlich als kreative\nOrgan-plus-Pflanzenreferent-Hypothesen daneben.",
+          "sha256": "64c22c0d024fcde4abea03d857fa6db809264b340eaa02f098b7e3c1e8d36a1f"
+        },
+        {
+          "path": "experiments/yolo/gdt585_learned_name_compound_atlas/artifacts/GDT585_CONCRETE_NAME_BOOK.md",
+          "line": 251,
+          "line_end": 257,
+          "quote": "### GDT585-C018 — ytarem\n\nGrammatische Primärlesung: Droge »Blattdroge [yt]« / Droge »grauwurzelige Mutterpflanze EM [em]« — Ausgangszuordnung.\n\nKompositionshypothese: Blattdroge yt der grauwurzligen Mutterpflanze oder Art EM.\n\nStärkster Rivale: Salbei- und Rautenblatt als Kräutermischung",
+          "sha256": "ac72a077eda7801ae708aed84729669485d269bebe22c769973c0d2372313651"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "independent_new_idea": false,
+      "scope": {
+        "kind": "historical_local_whole_label_composition_and_rival",
+        "experiment": "GDT585",
+        "whole_form": "ytarem",
+        "exact_named_package": "yt+em",
+        "book_card_id": "GDT585-C018",
+        "authored_override_id": "P1008-E1412",
+        "limit": "Historical source inference; no fresh image observation. Learned plant identifiers DA/Y/E/EM are not decoded species names. Old alias rival is retained, not globally refuted."
+      },
+      "comparison": {
+        "counterpart_ids": [
+          "SEM:954db753c348c96e45ef",
+          "SEM:5ccb843fca1fff37febd",
+          "SEM:f2a3eec927e85c648851"
+        ],
+        "decision": "additional_complete_composition_source_case",
+        "reason": "Individual mother-plant and rhizome glosses do not assert these organ-of-plant relations or the complete hold-to-target/continue instruction. No complete same-form counterpart found in bounded current claims."
+      }
+    }
+  ],
+  "dispositions": [],
+  "source_reassessments": [
+    {
+      "source_id": "LEGACY_COMPONENT:2fd49cd9ac679b2ab614",
+      "selection_index": 5,
+      "decision": "nine_cases_recovered_as_two_local_bundles",
+      "card_ids": [
+        "CLEAN_GAP_DC:five_left_resumption_cases",
+        "CLEAN_GAP_DC:four_default_episode_cases"
+      ],
+      "reason": "Five left and four default/episode readings now have exact complete source-bound clauses. Existing right-edge rule remains distinct; the other four right-edge cases are not newly claimed mechanisms.",
+      "local_case_ids": [
+        "E1445",
+        "E1523",
+        "E2426",
+        "E2552",
+        "E2988",
+        "E3218",
+        "E3219",
+        "E3488",
+        "E3489"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 94,
+          "line_end": 123,
+          "quote": "## Konkrete Lesungen\n\nStarke linke Wiederaufnahmen:\n\n```text\nE1445  Führe die Anwendungsportion zu. Halte dieselbe Anwendungsportion im Bad auf Grad II.\nE1523  Wähle die Einheit aus. Halte dieselbe Becken- oder Körpereinheit im Bad auf Grad I.\nE2426  Behandle den Stationsansatz. Halte denselben Stationsansatz bei der angegebenen Füllung im Bad auf Grad I.\nE2552  Bereite die Anwendungsportion und das Badmaß vor. Halte dieselbe Anwendungsportion im Bad auf Grad I.\nE2988  Verwende die Becken- oder Körpereinheit. Halte dieselbe Becken- oder Körpereinheit im Bad auf Grad I.\n```\n\nRechtsabschließende gemeinsame Komplemente:\n\n```text\nE1742  Halte den Körper im Bad auf Grad II. Lass den Körper anschließend abkühlen.\nE2863  Halte den Stationsansatz im Bad auf Grad I. Entnimm oder lass ab. Wende den Stationsansatz an.\nE3523  Halte den Stationsansatz im Bad auf Grad I. Entnimm oder lass ab. Behandle den Stationsansatz.\nE3664  Halte den Stationsansatz im Bad auf Grad I. Temperiere den Stationsansatz. Halte denselben Stationsansatz erneut im Bad.\n```\n\nDefinite Defaults und Episodenfortsetzung:\n\n```text\nE3218  Halte den Körper im Bad bei der angegebenen Füllung auf Grad I.\nE3219  Halte denselben Körper im Bad auf Grad I.\nE3488  Halte denselben Stationsansatz im Bad auf Grad I.\nE3489  Halte denselben Stationsansatz im Bad auf Grad I.\n```\n",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:f84cb9dee631118675a4",
+      "selection_index": 3,
+      "decision": "four_complete_organ_package_cases_recovered",
+      "card_ids": [
+        "CLEAN_GAP_DC:dararda_root_of_da",
+        "CLEAN_GAP_DC:sydarary_inflorescence_of_y",
+        "CLEAN_GAP_DC:saloiinsheol_three_part_instruction",
+        "CLEAN_GAP_DC:ytarem_leaf_of_em"
+      ],
+      "reason": "Published concrete name book plus independent AST literal check gives complete form, package, composition and rival for all four report-named packages; no raw data needed.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt585_learned_name_compound_atlas/REPORT.md",
+          "line": 106,
+          "line_end": 110,
+          "quote": "Die sieben pharmazeutischen Mehrkernlabels werden nicht pauschal zu\nMischrezepten. Wo GDT474/GDT476 eine Kataloglesung wählt, bleibt sie die\nPrimärlesung; wo `SH+OL` bereits eine Anweisung bildet, bleibt die Anweisung\nerhalten. `d+da`, `sy+y`, `s+oiin+e` und `yt+em` stehen zusätzlich als kreative\nOrgan-plus-Pflanzenreferent-Hypothesen daneben.",
+          "sha256": "64c22c0d024fcde4abea03d857fa6db809264b340eaa02f098b7e3c1e8d36a1f"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:6950a676bdec65ae46b3",
+      "selection_index": 9,
+      "decision": "nonsemantic_relation_limit_no_card",
+      "card_ids": [],
+      "reason": "The prose supplies a warning about juxtaposed candidate qualities and only suggests a possible second technical cell. It does not assert an additional complete semantic relation, action, shared patient, or inter-cell direction. Thus there is no missing complete meaning card to recover. The structural alternative remains scientifically unresolved, and the juxtaposition is expressly not confirmation of the dry/moist hypothesis.",
+      "counterpart_ids": [
+        "SEM:61c1204e2a340bbc2ff1"
+      ],
+      "scientific_structure_status": "unresolved_possible_second_technical_cell",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt632_cth_interfix_lattice/REPORT.md",
+          "line": 181,
+          "line_end": 192,
+          "quote": "Die Qualitätskontakte begrenzen zugleich die Sicherheit. Von 97 Kontakten bis\nDistanz drei sind 55 unmittelbar; sieben folgen derselben Trocken-/Feuchtachse,\neiner steht ihr entgegen und 89 liegen auf der orthogonalen Heiß-/Kaltachse.\nUnmittelbare Unterstützung derselben Achse liegt in `CH-∅` dreimal, `CH-O`\neinmal und `SH-∅` einmal vor. Für die E- und EO-Zellen gibt es noch keinen\nsolchen Direktkontakt. Deshalb wird trocken/feucht dort kompositionell geerbt,\nnicht neu bewiesen.\n\nEin reales Warnbeispiel bleibt f25r.4: `shocthy ytchey` stellt die feuchte\nO-Kandidatenform direkt neben eine kalt-trockene Qualitätsform. Das kann eine\nzweite technische Zelle sein; es darf nicht stillschweigend als Bestätigung\ngezählt werden.",
+          "sha256": "f2fdebfaa317cd0848cc2bcdf9308c0ec625b80e068b0f0ed8e6cb7423a6a1a8"
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "source_ids": 3,
+    "cards": 6,
+    "bath_local_case_bundles": 2,
+    "bath_case_clauses": 9,
+    "organ_package_cases": 4,
+    "nonsemantic_source_limits": 1,
+    "independent_new_ideas_claimed": 0
+  },
+  "limits": [
+    "Prior intake remains unchanged; append source reassessments only.",
+    "No raw transcription/event tables, images or scientific experiment.",
+    "Bounded counterpart comparison does not prove global semantic novelty."
+  ]
+}

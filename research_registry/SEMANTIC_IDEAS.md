@@ -9,17 +9,17 @@ They remain in the source archive. No hypothesis becomes executable by inclusion
 
 | Unit | Count |
 |---|---:|
-| Active semantic hypothesis variants | 3,687 |
-| Separately typed formal-role cards | 263 |
-| Reviewed source cases, including the correction archive | 4,473 |
+| Active semantic hypothesis variants | 3,719 |
+| Separately typed formal-role cards | 265 |
+| Reviewed source cases, including the correction archive | 4,507 |
 | Archived source-extraction errors | 47 |
 | Exact normalized assertion repetitions grouped | 476 |
-| Reviewed equivalence groups / display reduction | 42 / 51 |
-| Public semantic display entries | 3,636 |
+| Reviewed equivalence groups / display reduction | 43 / 52 |
+| Public semantic display entries | 3,667 |
 
 These are different units, not a deduplicated total of independent theories.
 A local ignored supplement contributes95 semantic cards and one formal card;
-the ordinary local default therefore displays3,731 semantic entries. A fresh
+the ordinary local default therefore displays3,762 semantic entries. A fresh
 public clone has the public view only. Local source files and quotes are not
 published or silently folded into public counts.
 
@@ -55,7 +55,7 @@ paragraph does not automatically make every subclaim independently addressable;
 an atomic gloss does not cover a complete multi-card model.
 
 Whitespace and backtick typography alone are normalized for exact assertions.
-Explicit equivalence decisions add42 groups without deleting any original ID.
+Explicit equivalence decisions add43 groups without deleting any original ID.
 The identity log also retains five related-but-distinct links,28 rival links and
 two specializations. Conflicting nonidentity blocks transitive merging; changed
 claim or case bindings require a new review. Shared spelling, shortened wording
@@ -76,7 +76,7 @@ not mean rejected, and an old source PASS does not confirm a meaning.
 
 ## Failure memory and conditional priorities
 
-Twenty-four scoped question dossiers distinguish empirical failure, invalid test,
+Thirty-two scoped question dossiers distinguish empirical failure, invalid test,
 insufficient capacity, missing meaning binding, proposal-only status and historical
 model revision. They appear before inherited experiment context under assessments.
 They state the actual compared subclaim, primary evidence, scope and changed-input
@@ -109,15 +109,16 @@ Later full-scope reviews and audit-only source comparisons live in the bounded
 `decisions/clean_gap_review_*.json` artifacts. An audit pointer does not add a
 source-case payload. Quote overlap alone never certifies complete review.
 
-Latest integrated packet: CO/CP/CR/CS/CU retains seven source cases, including
-one expressly prospective formal slot order. All125 original CC overlap IDs
-were individually selected once across CH/CK/CM/CO/CR/CS; that is a source-selection
-accounting result, not125 distinct theories or independently supported meanings.
-The CL ten-contrast and CU provisional shared-value source additions remain
-necessary alongside older full-model counterparts. CQ adds three lexical
-identity decisions using exact tuple and unchanged dictionary provenance; three
-other pairs remain open. CT records CHK/DY abstraction and ODY contextual-execution
-revisions without inventing empirical counterexamples or old preregistrations.
+Latest integrated packet: CW/CX/DA/DC/DF retains34 source cases, including two
+formal contracts. Ten Pass304 MC/form/clause assignments use a reproducible,
+selective four-column lexicon projection; no event data was reopened. Nine bath
+readings stay in two local bundles and four organ-label compositions preserve
+their rival readings. CV adds one exact lexical equivalence. CY/DB/DF add eight
+scoped reason dossiers. GDT685 executed context joins and renderer repairs, but
+inherited roles and fixed verdict/rank fields are not independent meaning tests.
+The original source bytes remain intact; the current route and DF dossier qualify
+the old strong wording. DD separates actual source transitions from renamed or
+still-unexecuted tests. No new mechanism is inferred from a local clause count.
 The source-polarity and identity audits are bounded, not global error-free claims.
 
 `SEMANTIC_IDEAS_MANIFEST.json` records exact counts and bound inputs. Rebuild after

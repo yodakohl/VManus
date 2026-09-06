@@ -1,0 +1,934 @@
+{
+  "review_id": "SEMANTIC_IDENTITY_PROPOSAL_CV",
+  "status": "COMPLETE_BOUNDED_REVIEW_NO_OPERATIONAL_CHANGE",
+  "selection": "Six public short-claim pairs selected by bounded metadata navigation. All source cases inspected. CQ/CJ and previously found identity-proposal pairs excluded during navigation; current operative pair and transitive group checks repeated. Case-insensitive textual equality was only candidate navigation.",
+  "scope_ids": [
+    "SEM:32b591a6c0061879f8b2",
+    "SEM:4fe5696f6669ede4a622",
+    "SEM:5ae014945ae771dcc8ac",
+    "SEM:7a02cdec609a6d137bfb",
+    "SEM:b53e4d0af2e43ef404bd",
+    "SEM:bacb7fa7f0c654fd4850",
+    "SEM:d101452164975ecf7568",
+    "SEM:d970dce11399911ad67b",
+    "SEM:de8e1747652ee88282dd",
+    "SEM:e7716c17caa2b1831992",
+    "SEM:eb786476b968e6e13f7b",
+    "SEM:eea75cd4061670310030"
+  ],
+  "pairs": [
+    {
+      "id": "IDENTITY_CV:chokcheo",
+      "member_ids": [
+        "SEM:b53e4d0af2e43ef404bd",
+        "SEM:d970dce11399911ad67b"
+      ],
+      "decision": "proposed_equivalent",
+      "identity_reason": "Both reports assign Auszug zugeben to the exact E092 CHOKCHEO event. More decisively, both R1 and R3 builders read the same SELECTED_173_APPLICATION_DICTIONARY and SELECTED_381_APPLICATION_INTERLINEAR sources and explicitly bind the same tuple 087a47b5423438cd6b6a to the same full lexical instruction, with OK addition and CHEO extract. This is positive tuple-and-input identity, not inference from capitalization or a matching event count.",
+      "source_question_or_scope_limit": "Only the exact CHOKCHEO card instruction at the shared E092 source unit. R1 and R3 differ on other AIR/product hypotheses; those differences are not merged. The extract is a reusable product type, not necessarily the identical physical fluid/batch in both CHEO contexts.",
+      "claims": {
+        "SEM:b53e4d0af2e43ef404bd": "CHOKCHEO → Auszug zugeben",
+        "SEM:d970dce11399911ad67b": "chokcheo → Auszug zugeben"
+      },
+      "card_basis": {
+        "SEM:b53e4d0af2e43ef404bd": "6811167f54b3fc9d67161e269510614ed368b23db9025f487bfeb25508f2d316",
+        "SEM:d970dce11399911ad67b": "efca8d829e7dc1d4f70684338eb649fce86528bed9f80a455648ff8d0c89bec2"
+      },
+      "effective_basis": {
+        "SEM:b53e4d0af2e43ef404bd": "441501c45b4a9c1dec09cb2bf6483ec1a658007c2793a19b976b62ff54d8be58",
+        "SEM:d970dce11399911ad67b": "1c177b1dd3c7f57d04563f79b77687342b673e0c6bd73938ec7c2b7333a4e0d0"
+      },
+      "source_cases": {
+        "SEM:b53e4d0af2e43ef404bd": [
+          {
+            "claim_type": "lexical_hypothesis",
+            "form_or_model": "CHOKCHEO",
+            "id": "CLEAN_COMPONENT:6a9e7ee1a0cea26e38de",
+            "limitations": "Original alternatives, negation and limits remain in the evidence quote. No software PASS or inherited working vocabulary establishes a confirmed meaning.",
+            "member_ids": [
+              "LEGACY_COMPONENT:c890a51a7df3daa5dc2f"
+            ],
+            "proposed_value_or_model": "Auszug zugeben",
+            "registry_context_ids": [],
+            "review_basis": "conservative_assignment_rule_with_manual_pattern_audit",
+            "review_file": "research_registry/decisions/clean_component_review.json",
+            "scope": {
+              "kind": "source_bound_working_hypothesis",
+              "parent_gdt": null,
+              "section": "2. CHEO — Auszug als wiederverwendbares Zwischenprodukt",
+              "semantic_column": "Lesung",
+              "source": "experiments/yolo/sidequest_semantic_medium_substance_completion/R3_MEDIUM_SUBSTANCE_REPORT.md"
+            },
+            "source_label_before_cleanup": "CHOKCHEO / 087a47b5423438cd6b6a",
+            "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+            "status": "unconfirmed"
+          }
+        ],
+        "SEM:d970dce11399911ad67b": [
+          {
+            "claim_type": "lexical_hypothesis",
+            "form_or_model": "chokcheo",
+            "id": "CLEAN_COMPONENT:a7cddc7bc08ca68bebae",
+            "limitations": "Original alternatives, negation and limits remain in the evidence quote. No software PASS or inherited working vocabulary establishes a confirmed meaning.",
+            "member_ids": [
+              "LEGACY_COMPONENT:87050ab7f05b328cb79a"
+            ],
+            "proposed_value_or_model": "Auszug zugeben",
+            "registry_context_ids": [],
+            "review_basis": "conservative_assignment_rule_with_manual_pattern_audit",
+            "review_file": "research_registry/decisions/clean_component_review.json",
+            "scope": {
+              "kind": "source_bound_working_hypothesis",
+              "parent_gdt": null,
+              "section": "2. CHEO: AUSZUG, nicht unbestimmte „Trägerflüssigkeit“",
+              "semantic_column": "Lesung",
+              "source": "experiments/yolo/sidequest_semantic_medium_substance_completion/R1_MEDIUM_SUBSTANCE_REPORT.md"
+            },
+            "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+            "status": "unconfirmed"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 71,
+          "line_end": 71,
+          "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R3_MEDIUM_SUBSTANCE_REPORT.md",
+          "quote": "| `CHOKCHEO` / `087a47b5423438cd6b6a` | `E092` | `H5-S004` | Auszug zugeben |",
+          "sha256": "f9b702a835beba25625fdf9e83efef08497689d42a7ed6048880ddf9db4481f0",
+          "source_id": "LEGACY_COMPONENT:c890a51a7df3daa5dc2f",
+          "source_section": "2. CHEO — Auszug als wiederverwendbares Zwischenprodukt",
+          "table_header": "| Karte / ID | Ereignis | Aussage | Lesung |"
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 60,
+          "line_end": 60,
+          "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R1_MEDIUM_SUBSTANCE_REPORT.md",
+          "quote": "| E092 | `chokcheo` | f56r | OK + CHEO | Auszug zugeben |",
+          "sha256": "5f36716813e3e12341b606e7334884c4514751adc61ee63d440a105204305631",
+          "source_id": "LEGACY_COMPONENT:87050ab7f05b328cb79a",
+          "source_section": "2. CHEO: AUSZUG, nicht unbestimmte „Trägerflüssigkeit“",
+          "table_header": "| Event | Form | Seite | Komposition | Lesung |"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R1_MEDIUM_SUBSTANCE_REPORT.md",
+          "line": 56,
+          "line_end": 69,
+          "quote": "\n| Event | Form | Seite | Komposition | Lesung |\n|---|---|---|---|---|\n| E065 | `cheoar` | f55v | CHEO + AR | Auszug daraus entnehmen |\n| E092 | `chokcheo` | f56r | OK + CHEO | Auszug zugeben |\n\nDer Stoffkern ist in beiden Fällen schlicht `AUSZUG`. Das erste Umfeld nimmt ihn aus einem Vorrat, das zweite gibt ihn in den laufenden Posten. Damit ist CHEO konkreter als „Medium“, ohne behaupten zu müssen, beide Ereignisse bezeichneten dieselbe Flüssigkeit.\n\n`CHEO` und `SHEY` werden nicht zusammengelegt:\n\n- CHEO = der entnommene oder zugegebene Auszug;\n- SHEY = das klare Ergebnis nach Auswringen, Ruhen und Nachseihen.\n\nDie Unterscheidung entspricht dem Werkstattablauf **Auszug einsetzen → trennen → Klarauszug erhalten**, nicht zwei synonymen Wörterbuchkarten.",
+          "sha256": "5f36716813e3e12341b606e7334884c4514751adc61ee63d440a105204305631"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R3_MEDIUM_SUBSTANCE_REPORT.md",
+          "line": 65,
+          "line_end": 88,
+          "quote": "\n`CHEO` hat zwei genau zusammenpassende Werkstattrollen:\n\n| Karte / ID | Ereignis | Aussage | Lesung |\n|---|---|---|---|\n| `CHEOAR` / `807591efc3d3f7ddbfab` | `E065` | `H4-S003` | Auszug daraus nehmen |\n| `CHOKCHEO` / `087a47b5423438cd6b6a` | `E092` | `H5-S004` | Auszug zugeben |\n\nIn `H4-S003` wird der Auszug gewonnen und länger warm gehalten; in `H5-S004`\nwird derselbe Produkttyp einem laufenden Posten wieder zugegeben und danach\nabgeseiht. Das ist kein Bedeutungswechsel, sondern die gewöhnliche\nWerkstattlaufbahn eines Zwischenprodukts: **aus einem Ansatz entnehmen → als\nZutat in einem späteren Arbeitsschritt einsetzen**. Ob dieser Auszug wässrig,\nweinig oder ölig ist, bleibt lokal offen.\n\nDer präziseste kurze Wert ist `AUSZUG`, nicht `AUSZUGSMEDIUM`: Das deutsche\n„Auszugsmedium“ würde gewöhnlich den rohen Träger oder das Lösungsmittel\nbezeichnen, während `CHEOAR` gerade das gewonnene Produkt aus dem Posten nimmt.\nDieses Produkt kann anschließend selbstverständlich als Medium eines neuen\nArbeitsschritts dienen.\n\n`SHEY/CHEEY = KLARAUSZUG` ist die speziellere wiederkehrende Ergebnisform\n(`E044`, `E197`, `E203`, `E353`). Daraus folgt weder `EY = Wasser` noch, dass\njede `CHEO`-Form bereits klar ist. `KCHOAR` wird nur als kurzer gelernter",
+          "sha256": "f9b702a835beba25625fdf9e83efef08497689d42a7ed6048880ddf9db4481f0"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R1_BUILD_MEDIUM_SUBSTANCE.py",
+          "line": 17,
+          "line_end": 23,
+          "quote": "HERE = Path(__file__).resolve().parent\nROOT = HERE.parents[2]\nSOURCE = ROOT / \"experiments/yolo/sidequest_semantic_application_completion\"\n\nDICT_IN = SOURCE / \"SELECTED_173_APPLICATION_DICTIONARY.tsv\"\nEVENT_IN = SOURCE / \"SELECTED_381_APPLICATION_INTERLINEAR.tsv\"\n",
+          "sha256": "cad023b0b676f768d66b794d0d778653376647b57e2f3c7ac6d836f42b967d0e"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R1_BUILD_MEDIUM_SUBSTANCE.py",
+          "line": 83,
+          "line_end": 86,
+          "quote": "    # CHEO: the prior 'carrier/extraction liquid' wording is shortened to the\n    # reusable material noun AUSZUG.\n    \"087a47b5423438cd6b6a\": ov(\"CH_RENDERER+OK_ADD+CHEO_EXTRACT\", \"OK=zugeben; CHEO=Auszug\", \"Auszug zugeben\", \"CHEO_EXTRACT\", \"R1_RECURRENT_COMPONENT\", \"MEDIUM+OPERATION\", \"CHEO supplies Auszug in both cards; OK supplies addition.\"),\n    \"807591efc3d3f7ddbfab\": ov(\"CHEO_EXTRACT+AR_SOURCE\", \"CHEO=Auszug; AR=aus\", \"Auszug entnehmen\", \"CHEO_EXTRACT\", \"R1_RECURRENT_COMPONENT\", \"MEDIUM+SOURCE+OPERATION\", \"CHEO remains Auszug while AR supplies source direction.\"),",
+          "sha256": "cad023b0b676f768d66b794d0d778653376647b57e2f3c7ac6d836f42b967d0e"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R3_BUILD_MEDIUM_SUBSTANCE.py",
+          "line": 13,
+          "line_end": 19,
+          "quote": "HERE = Path(__file__).resolve().parent\nROOT = HERE.parents[2]\nSOURCE = ROOT / \"experiments/yolo/sidequest_semantic_application_completion\"\n\nDICT_IN = SOURCE / \"SELECTED_173_APPLICATION_DICTIONARY.tsv\"\nEVENT_IN = SOURCE / \"SELECTED_381_APPLICATION_INTERLINEAR.tsv\"\nSENTENCE_IN = SOURCE / \"SELECTED_116_APPLICATION_SENTENCES.tsv\"",
+          "sha256": "137b194978720ef901634febf5511e65b9846fc2a7860ffb11c6f29086a73244"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R3_BUILD_MEDIUM_SUBSTANCE.py",
+          "line": 137,
+          "line_end": 146,
+          "quote": "    # CHEO: intermediate extract.  The same extract is a product in H4 and an\n    # input in H5; this is reuse, not two meanings.\n    \"807591efc3d3f7ddbfab\": ov(\n        \"CHEO_EXTRACT+AR_SOURCE\", \"CHEO=Auszug; AR=aus\", \"Auszug daraus nehmen\", \"CHEO_EXTRACT\",\n        \"SELECTED_TWO_CARD_CORE\", \"SOURCE+PREPARATION+OPERATION\", \"H4 takes the extract from the current batch before warming it.\",\n    ),\n    \"087a47b5423438cd6b6a\": ov(\n        \"CH_RENDERER+OK+CHEO_EXTRACT\", \"OK=zugeben; CHEO=Auszug\", \"Auszug zugeben\", \"CHEO_EXTRACT\",\n        \"SELECTED_TWO_CARD_CORE\", \"PREPARATION+OPERATION+FLOW_TRANSFER\", \"H5 reuses an extract as input immediately before straining.\",\n    ),",
+          "sha256": "137b194978720ef901634febf5511e65b9846fc2a7860ffb11c6f29086a73244"
+        }
+      ],
+      "status": "proposal_only"
+    },
+    {
+      "id": "IDENTITY_CV:qotedaiin",
+      "member_ids": [
+        "SEM:d101452164975ecf7568",
+        "SEM:eb786476b968e6e13f7b"
+      ],
+      "decision": "unresolved",
+      "identity_reason": "Vessel/tool assigns the learned vat whole card to tuple 1779decef17481ec2853. Singleton rescue expressly lists Wanne as the old reading, replaced by OT+E+AIIN short follow-up measure. Its inspected input is the resolved apprentice word deck and its replacement is surface-keyed; an explicit tuple bridge from that deck to the vessel whole card was not established.",
+      "source_question_or_scope_limit": "A historical withdrawn hypothesis can be identical to its earlier proposed version. Withdrawal itself is not a nonidentity argument. Need the exact source-unit bridge, rather than same spelling plus old gloss; never equate Wanne with kurzes Folgemass.",
+      "claims": {
+        "SEM:d101452164975ecf7568": "QOTEDAIIN → WANNE",
+        "SEM:eb786476b968e6e13f7b": "qotedaiin → Wanne"
+      },
+      "card_basis": {
+        "SEM:d101452164975ecf7568": "e9afaf9920720a6d62f5b55364b04af7f05b7a6d2a3d45642f362d4b95ac60d2",
+        "SEM:eb786476b968e6e13f7b": "5f10a11607f98720b82c6c7153afe4bb4c49b0104de872d9601306c8612aa82e"
+      },
+      "effective_basis": {
+        "SEM:d101452164975ecf7568": "b02573c9d73133723e62dfbf92294b3788342e314fabdb3b96fa19e17f938864",
+        "SEM:eb786476b968e6e13f7b": "3a0198e92c79c7008655bf7e7af2bc8f405e605ddb4c392ff328f01c83bb02ee"
+      },
+      "source_cases": {
+        "SEM:d101452164975ecf7568": [
+          {
+            "claim_type": "lexical_hypothesis",
+            "form_or_model": "QOTEDAIIN",
+            "id": "CLEAN_COMPONENT:a85a104d6c48d758f1de",
+            "limitations": "Original alternatives, negation and limits remain in the evidence quote. No software PASS or inherited working vocabulary establishes a confirmed meaning.",
+            "member_ids": [
+              "LEGACY_COMPONENT:a31d6b2a44fe364a39ff"
+            ],
+            "proposed_value_or_model": "WANNE",
+            "registry_context_ids": [],
+            "review_basis": "conservative_assignment_rule_with_manual_pattern_audit",
+            "review_file": "research_registry/decisions/clean_component_review.json",
+            "scope": {
+              "kind": "source_bound_working_hypothesis",
+              "parent_gdt": null,
+              "section": "B3 · Randgefäße und Wanne",
+              "semantic_column": null,
+              "source": "experiments/yolo/sidequest_semantic_vessel_tool_station_completion/VESSEL_TOOL_STATION_REPORT.md"
+            },
+            "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+            "status": "unconfirmed"
+          }
+        ],
+        "SEM:eb786476b968e6e13f7b": [
+          {
+            "claim_type": "lexical_hypothesis",
+            "form_or_model": "qotedaiin",
+            "id": "CLEAN_COMPONENT:1313595e4c2e2ba5cdc0",
+            "limitations": "Original alternatives, negation and limits remain in the evidence quote. No software PASS or inherited working vocabulary establishes a confirmed meaning.",
+            "member_ids": [
+              "LEGACY_COMPONENT:f53014a7f1e570433603"
+            ],
+            "proposed_value_or_model": "Wanne",
+            "registry_context_ids": [],
+            "review_basis": "conservative_assignment_rule_with_manual_pattern_audit",
+            "review_file": "research_registry/decisions/clean_component_review.json",
+            "scope": {
+              "kind": "source_bound_working_hypothesis",
+              "parent_gdt": null,
+              "section": "Die staerksten Reparaturen",
+              "semantic_column": "alte Lesung",
+              "source": "experiments/yolo/sidequest_semantic_singleton_composition_rescue/SINGLETON_COMPOSITION_REPORT.md"
+            },
+            "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+            "status": "unconfirmed"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 209,
+          "line_end": 210,
+          "path": "experiments/yolo/sidequest_semantic_vessel_tool_station_completion/VESSEL_TOOL_STATION_REPORT.md",
+          "quote": "`CHEEDAR=SAMMELBECKEN` und `QOTEDAIIN=WANNE` sind zwei gelernte Gerätetypen;\nsie müssen nicht aus ihren sichtbaren Teilstücken abgeleitet werden.",
+          "sha256": "09c6dedcd2836d6f3ecce12880f2fcf5c38150e0910b81a6fe9ec98399c507ce",
+          "source_id": "LEGACY_COMPONENT:a31d6b2a44fe364a39ff",
+          "source_section": "B3 · Randgefäße und Wanne",
+          "table_header": null
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 41,
+          "line_end": 41,
+          "path": "experiments/yolo/sidequest_semantic_singleton_composition_rescue/SINGLETON_COMPOSITION_REPORT.md",
+          "quote": "| `qotedaiin` | Wanne | `OT + E + AIIN` | kurzes Folgemass |",
+          "sha256": "997aad4c958c4eb1bc640983d723f694098fbf7e289fb983dd735914af736395",
+          "source_id": "LEGACY_COMPONENT:f53014a7f1e570433603",
+          "source_section": "Die staerksten Reparaturen",
+          "table_header": "| Karte | alte Lesung | neue Zerlegung | neue kurze Lesung |"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_vessel_tool_station_completion/build_vessel_tool_station_edition.py",
+          "line": 106,
+          "line_end": 106,
+          "quote": "    \"1779decef17481ec2853\": rev(\"QOTEDAIIN_VAT_WHOLE\", \"QOTEDAIIN=Wanne\", \"Wanne\", \"Die Wanne verwenden\", \"VESSEL_NOMENCLATOR\", \"TINA\", \"Replace the descriptive phrase 'breites Gefäß' with one vessel class.\"),",
+          "sha256": "10e1b392a9b66d1d3cc0f4c26fa1d052ab49000124a6233fcefa3079e4ee361f"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_vessel_tool_station_completion/VESSEL_TOOL_STATION_REPORT.md",
+          "line": 201,
+          "line_end": 210,
+          "quote": "### B3 · Randgefäße und Wanne\n\n> Sammle den ersten Posten länger. Gehe danach zur nächsten Stelle, wärme ihn\n> und schließe den Schritt. Führe die folgenden Posten jeweils ab. Am Einlass\n> fülle den nächsten Arbeitsschritt. Stelle später das Sammelbecken bereit,\n> warte bis zum Absetzstand und sammle den klaren Posten. Setze die folgende\n> Portion in der Wanne um.\n\n`CHEEDAR=SAMMELBECKEN` und `QOTEDAIIN=WANNE` sind zwei gelernte Gerätetypen;\nsie müssen nicht aus ihren sichtbaren Teilstücken abgeleitet werden.",
+          "sha256": "09c6dedcd2836d6f3ecce12880f2fcf5c38150e0910b81a6fe9ec98399c507ce"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_singleton_composition_rescue/SINGLETON_COMPOSITION_REPORT.md",
+          "line": 27,
+          "line_end": 48,
+          "quote": "## Die staerksten Reparaturen\n\n| Karte | alte Lesung | neue Zerlegung | neue kurze Lesung |\n|---|---|---|---|\n| `solkaiin` | Seihtuch | `SOLK + AIIN` | bis Sollmass sammeln |\n| `sheckhy` | Ueberlauf | `CKH + E + Y` | kurz durchleiten |\n| `qockhey` | Ueberlauf | `OK + CKH + E + Y` | kurzen Durchlauf ansetzen |\n| `chary` | antrocknen | `AR + Y` | daraus |\n| `raly` | Seitenarm | `AL + Y` | diesen Posten dorthin |\n| `choy` | abwaschen | `HO + Y` | diese Zutat |\n| `lcheey` | Koerperstelle | `L + CHEEY` | Klarlauf abfuehren |\n| `shecthy` | handwarm | `CTH + E + Y` | kurz bereit halten |\n| `chckhal` | Haltezeit | `CKH + AL` | zur Zielstelle durchleiten |\n| `sheckhal` | Mittelmass | `CKH + E + AL` | kurz zur Zielstelle durchleiten |\n| `qotedaiin` | Wanne | `OT + E + AIIN` | kurzes Folgemass |\n| `cheedar` | Auffangbecken | `CHED + AR` | von dort umsetzen |\n| `qolchey` | Arbeitsbecken | `OL + Y` | diesen Posten weiterfuehren |\n\nVier besonders teure Bildwoerter verschwinden damit gemeinsam: zwei\nverschiedene UEberlaufkarten, ein Seihtuch und eine Wanne. Die Bilder duerfen\nweiterhin einen Durchlauf, ein Tuch oder ein Becken zeigen; diese Dinge stecken\naber nicht mehr unnoetig als Substantive in der einzelnen Karte.",
+          "sha256": "997aad4c958c4eb1bc640983d723f694098fbf7e289fb983dd735914af736395"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_singleton_composition_rescue/build_singleton_composition_rescue.py",
+          "line": 13,
+          "line_end": 20,
+          "quote": "HERE = Path(__file__).resolve().parent\nPARENT = HERE.parent\nSOURCE = PARENT / \"sidequest_semantic_shared_headword_resolution\"\nLEXICON = PARENT / \"sidequest_semantic_open_middle_lexicon\"\n\nWORDS_IN = SOURCE / \"APPRENTICE_68_RESOLVED_WORD_DECK.tsv\"\nPHRASES_IN = SOURCE / \"APPRENTICE_116_RESOLVED_PHRASES.tsv\"\nEVENTS_IN = LEXICON / \"SELECTED_381_OPEN_MIDDLE_INTERLINEAR.tsv\"",
+          "sha256": "3b8970e6b0f18cf62e7c378e726ec2e751f54ff8276ea145aa5657933cf5ad67"
+        }
+      ],
+      "status": "proposal_only"
+    },
+    {
+      "id": "IDENTITY_CV:okeedy",
+      "member_ids": [
+        "SEM:de8e1747652ee88282dd",
+        "SEM:eea75cd4061670310030"
+      ],
+      "decision": "unresolved",
+      "identity_reason": "The workshop contact table assigns longer soaking to its OKEEDY row with a separate licensed closure output. Historical application instead retains this as a locally appropriate bath/rinse expansion while choosing the broader card value longer action plus closure. Thus the extracted short claims omit a meaningful general-versus-local domain qualification.",
+      "source_question_or_scope_limit": "Need a case-level comparison of the workshop target family and the explicitly restricted bath/rinse subset before equality. Do not silently transfer the local qualification to every workshop occurrence, merge the broader einwirken default, or drop the closure contract. Source-level subset relation is plausible but no operational subset/identity edge is proposed.",
+      "claims": {
+        "SEM:de8e1747652ee88282dd": "OKEEDY → LÄNGER EINWEICHEN",
+        "SEM:eea75cd4061670310030": "OKEEDY → länger einweichen"
+      },
+      "card_basis": {
+        "SEM:de8e1747652ee88282dd": "97cc79bd6de982fbb9a418cbe2c580fb932d4e034b4709b262a4a5ff004201d2",
+        "SEM:eea75cd4061670310030": "2ec8bbe5f570c817a3a80a42770ec5a02fdbf31abf292f14bf40649b8fd3d012"
+      },
+      "effective_basis": {
+        "SEM:de8e1747652ee88282dd": "d1848d55e6a8a66beaf889641fe8cb6c22eff434b382ce30ca24f95b20d3a854",
+        "SEM:eea75cd4061670310030": "d45422a4d5baa40ef5a8d8772cff4025b118f13c4b14f83dbb70b4234ddcd367"
+      },
+      "source_cases": {
+        "SEM:de8e1747652ee88282dd": [
+          {
+            "claim_type": "lexical_hypothesis",
+            "form_or_model": "OKEEDY",
+            "id": "CLEAN_COMPONENT:ff65f222414000fe838e",
+            "limitations": "Original alternatives, negation and limits remain in the evidence quote. No software PASS or inherited working vocabulary establishes a confirmed meaning.",
+            "member_ids": [
+              "LEGACY_COMPONENT:b1caeabdc0a8bee32d0a"
+            ],
+            "proposed_value_or_model": "LÄNGER EINWEICHEN",
+            "registry_context_ids": [],
+            "review_basis": "conservative_assignment_rule_with_manual_pattern_audit",
+            "review_file": "research_registry/decisions/clean_component_review.json",
+            "scope": {
+              "kind": "source_bound_working_hypothesis",
+              "parent_gdt": null,
+              "section": "Rivalen, die bewusst stehen bleiben",
+              "semantic_column": null,
+              "source": "experiments/yolo/sidequest_semantic_application_completion/APPLICATION_HISTORICAL_REPORT.md"
+            },
+            "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+            "status": "unconfirmed"
+          }
+        ],
+        "SEM:eea75cd4061670310030": [
+          {
+            "claim_type": "lexical_hypothesis",
+            "form_or_model": "OKEEDY",
+            "id": "CLEAN_COMPONENT:a770a4f9683bf16669dd",
+            "limitations": "Original alternatives, negation and limits remain in the evidence quote. No software PASS or inherited working vocabulary establishes a confirmed meaning.",
+            "member_ids": [
+              "LEGACY_COMPONENT:ae90788f4e5350be36d1"
+            ],
+            "proposed_value_or_model": "länger einweichen",
+            "registry_context_ids": [],
+            "review_basis": "conservative_assignment_rule_with_manual_pattern_audit",
+            "review_file": "research_registry/decisions/clean_component_review.json",
+            "scope": {
+              "kind": "source_bound_working_hypothesis",
+              "parent_gdt": null,
+              "section": "Das Kontaktraster",
+              "semantic_column": "kurze Lesung",
+              "source": "experiments/yolo/sidequest_semantic_application_completion/APPLICATION_WORKSHOP_REPORT.md"
+            },
+            "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+            "status": "unconfirmed"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 284,
+          "line_end": 284,
+          "path": "experiments/yolo/sidequest_semantic_application_completion/APPLICATION_HISTORICAL_REPORT.md",
+          "quote": "- `OKEEDY=LÄNGER EINWEICHEN` bleibt in Bad-/Spülzellen lokal richtig; als Kartenwert ist **LÄNGER EINWIRKEN; SCHLUSS** breiter und wiederverwendbarer.",
+          "sha256": "c69b192b19b5d4537e5c8736d02aadefd17a103a242f7c6851594df467657087",
+          "source_id": "LEGACY_COMPONENT:b1caeabdc0a8bee32d0a",
+          "source_section": "Rivalen, die bewusst stehen bleiben",
+          "table_header": null
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 102,
+          "line_end": 102,
+          "path": "experiments/yolo/sidequest_semantic_application_completion/APPLICATION_WORKSHOP_REPORT.md",
+          "quote": "| `OKEEDY` | 10 | länger einweichen | `DY`: schließen |",
+          "sha256": "fdf5941da011e0af7331fef3b3554379cb3a998d15f211b7351c19be31e0d3c8",
+          "source_id": "LEGACY_COMPONENT:ae90788f4e5350be36d1",
+          "source_section": "Das Kontaktraster",
+          "table_header": "| Form | Ereignisse | kurze Lesung | Ausgang |"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_application_completion/APPLICATION_WORKSHOP_REPORT.md",
+          "line": 94,
+          "line_end": 118,
+          "quote": "\n## Das Kontaktraster\n\n| Form | Ereignisse | kurze Lesung | Ausgang |\n|---|---:|---|---|\n| `OKEY` | 2 | kurz anlegen | `Y`: laufender Posten bleibt verfügbar |\n| `OKEEY` | 7 | länger einwirken lassen | `Y`: laufender Posten bleibt verfügbar |\n| `OKEDY` | 8 | kurz benetzen | `DY`: schließen |\n| `OKEEDY` | 10 | länger einweichen | `DY`: schließen |\n| `OKEEEDY` | 1 | vollständig durchtränken | `DY`: schließen |\n| `OKEEDAL` | 1 | länger an der Stelle einwirken | `AL`: Ziel statt Referenz/Schluss |\n\nDie wichtige Dreierreihe ist somit beim langen Grad bereits sichtbar:\n\n```text\nOK + EE + Y       länger am laufenden Posten wirken\nOK + EE + AL      länger an der Zielstelle wirken\nOK + EE + DY      länger wirken und schließen\n```\n\n`Y` bedeutet weiterhin nur „dieser Posten“. Die Karte ist offen, weil kein\nlizenzierter Schluss vorkommt, nicht weil Y selbst „offen“ heißt. `DY` ist\nweiterhin nur in der gelernten exakten Endkarte terminal.\n\n## Gelernte Fachhandlungen",
+          "sha256": "fdf5941da011e0af7331fef3b3554379cb3a998d15f211b7351c19be31e0d3c8"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_application_completion/APPLICATION_HISTORICAL_REPORT.md",
+          "line": 277,
+          "line_end": 289,
+          "quote": "## Rivalen, die bewusst stehen bleiben\n\n- `AL=ZIELSTELLE` bleibt gleichwertig, ist aber länger als der ausgewählte Kern **STELLE**.\n- `OKAL=IN EIN GEFÄSS GEBEN` passt zu technischen Stellen, verliert aber in H5/B2 die topische Lesbarkeit.\n- `DSHEOL/SHECTHEDCHY=BESTREICHEN` als gemeinsame Rolle bleibt möglich; die feinere Teilung **EINREIBEN/AUFSTREICHEN** erklärt zwei historische Handgriffe.\n- `KCHOL=ZUGEBEN` ist möglich, macht die anschließende H5-Anwendung jedoch unnötig abstrakt.\n- `LDDY=WARMES TUCH AUFLEGEN` ist die stärkste konkrete Ganzkartenalternative. Sie verliert nur deshalb, weil **FESTBINDEN; SCHLUSS** kürzer ist und keine unbezeichnete Wärme einführt.\n- `OKEEDY=LÄNGER EINWEICHEN` bleibt in Bad-/Spülzellen lokal richtig; als Kartenwert ist **LÄNGER EINWIRKEN; SCHLUSS** breiter und wiederverwendbarer.\n- `RSHEDY=TEIL ALS WASCHUNG` bleibt möglich; der ausgewählte Default **WASCHUNG; SCHLUSS** benötigt keinen unbelegten Teilwert.\n\n## Geltungsbereich\n\nDie 58 Zielereignisse liegen in der aktuellen Prosaedition auf f55v, f56r, f81v, f82r und f83r; die ebenfalls erlaubten f10r und f11r liefern die Zubereitungs-/Klarauszug-Vorstufe. Die festen Astro-Seiten f67r2, f68r1 und f69v bleiben eigene lokale Diagrammnamensräume. Ihnen wird kein Prosa-Anwendungswert aufgezwungen, auch wenn eine Oberfläche ähnlich aussehen sollte.",
+          "sha256": "c69b192b19b5d4537e5c8736d02aadefd17a103a242f7c6851594df467657087"
+        }
+      ],
+      "status": "proposal_only"
+    },
+    {
+      "id": "IDENTITY_CV:dan",
+      "member_ids": [
+        "SEM:4fe5696f6669ede4a622",
+        "SEM:7a02cdec609a6d137bfb"
+      ],
+      "decision": "unresolved",
+      "identity_reason": "Bound-carrier closure teaches DAN=apply through the sotodan=afterwards apply composition in its fixed prose deck. The ten-page bridge retains prose instructions but explicitly adds application of a condition/value in the diagram register. Its combined source card therefore makes a broader cross-register commitment.",
+      "source_question_or_scope_limit": "The prose component overlap is real; whole-card equivalence still requires a bridge between the original literal core domain and the later diagram extension. Unchanged prose is not proof of unchanged total domain, and same root wording is insufficient.",
+      "claims": {
+        "SEM:4fe5696f6669ede4a622": "DAN → ANWENDEN",
+        "SEM:7a02cdec609a6d137bfb": "dan → ANWENDEN"
+      },
+      "card_basis": {
+        "SEM:4fe5696f6669ede4a622": "3d4536966a03762bc11da6efdbc6ac46b8f2199e72d8a8dc76cacf26ef669772",
+        "SEM:7a02cdec609a6d137bfb": "f08e4db04d600b7d1ac9edcba8c0e83141c4621630b61cf96c620785053a0704"
+      },
+      "effective_basis": {
+        "SEM:4fe5696f6669ede4a622": "9a0245665eea64757ef1f6c792ac6ec5ba7d0a77e90b21cda732aec31f479e5f",
+        "SEM:7a02cdec609a6d137bfb": "c67b5f5640308083de0fbe2f70d5ab2c9e09f42214160828961d905fe6218bf8"
+      },
+      "source_cases": {
+        "SEM:4fe5696f6669ede4a622": [
+          {
+            "claim_type": "lexical_hypothesis",
+            "form_or_model": "DAN",
+            "id": "CLEAN_COMPONENT:7fb3f416ce86cb4501ac",
+            "limitations": "Original alternatives, negation and limits remain in the evidence quote. No software PASS or inherited working vocabulary establishes a confirmed meaning.",
+            "member_ids": [
+              "LEGACY_COMPONENT:0323b67498285d2d7c15"
+            ],
+            "proposed_value_or_model": "ANWENDEN",
+            "registry_context_ids": [],
+            "review_basis": "conservative_assignment_rule_with_manual_pattern_audit",
+            "review_file": "research_registry/decisions/clean_component_review.json",
+            "scope": {
+              "kind": "literal_core_declaration_without_portability_claim"
+            },
+            "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+            "status": "unconfirmed"
+          }
+        ],
+        "SEM:7a02cdec609a6d137bfb": [
+          {
+            "claim_type": "lexical_hypothesis",
+            "form_or_model": "dan",
+            "id": "CLEAN_COMPONENT:8ca17bb3c65fc8ca4516",
+            "limitations": "Original alternatives, negation and limits remain in the evidence quote. No software PASS or inherited working vocabulary establishes a confirmed meaning.",
+            "member_ids": [
+              "LEGACY_COMPONENT:bfcf57e27866bea0af34"
+            ],
+            "proposed_value_or_model": "ANWENDEN",
+            "registry_context_ids": [],
+            "review_basis": "conservative_assignment_rule_with_manual_pattern_audit",
+            "review_file": "research_registry/decisions/clean_component_review.json",
+            "scope": {
+              "kind": "source_bound_working_hypothesis",
+              "parent_gdt": null,
+              "section": "Die 22 gemeinsamen Werkstattkerne",
+              "semantic_column": "gemeinsame Lesung",
+              "source": "experiments/yolo/sidequest_semantic_ten_page_register_bridge/TEN_PAGE_REGISTER_BRIDGE_REPORT.md"
+            },
+            "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+            "status": "unconfirmed"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 62,
+          "line_end": 62,
+          "path": "experiments/yolo/sidequest_semantic_bound_carrier_closure/BOUND_CARRIER_CLOSURE_REPORT.md",
+          "quote": "6. `DAN = ANWENDEN`",
+          "sha256": "31eae5865b2b4092b2f83cd52963482dfafb75eecd78af312aac00f7b7eeba48",
+          "source_id": "LEGACY_COMPONENT:0323b67498285d2d7c15",
+          "source_section": "Drei wirkliche Fachkerne",
+          "table_header": null
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 69,
+          "line_end": 69,
+          "path": "experiments/yolo/sidequest_semantic_ten_page_register_bridge/TEN_PAGE_REGISTER_BRIDGE_REPORT.md",
+          "quote": "| `dan` | ANWENDEN | Zubereitung anwenden | Bedingung/Wert anwenden |",
+          "sha256": "e08b787098c59969607cd7662b2cba83ba11cb7007589e9a6d38951a13d1d2c9",
+          "source_id": "LEGACY_COMPONENT:bfcf57e27866bea0af34",
+          "source_section": "Die 22 gemeinsamen Werkstattkerne",
+          "table_header": "| sichtbarer Kern | gemeinsame Lesung | Prosa | Kreis-/Sternregister |"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_bound_carrier_closure/BOUND_CARRIER_CLOSURE_REPORT.md",
+          "line": 60,
+          "line_end": 76,
+          "quote": "### Drei wirkliche Fachkerne\n\n6. `DAN = ANWENDEN`\n7. `SK = AUSGIESSEN`\n8. `T...AM = VERWAHREN`\n\nSie ergeben die drei besonders klaren Karten:\n\n```text\nsotodan   OT + DAN       danach anwenden\nskar      SK + AR        von dort ausgiessen\ntalam     T + AL + AM    am Ziel verwahren\n```\n\n`T...AM` wird dabei wie ein kleiner Speicherrahmen behandelt, in dessen Mitte\n`AL=ZIEL` eingesetzt wird. Das passt besser zu einer technischen\nWerkstattkuerzung als ein unzerlegtes langes Wort TALAM.",
+          "sha256": "31eae5865b2b4092b2f83cd52963482dfafb75eecd78af312aac00f7b7eeba48"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_ten_page_register_bridge/TEN_PAGE_REGISTER_BRIDGE_REPORT.md",
+          "line": 5,
+          "line_end": 34,
+          "quote": "Die Prosa- und Kreisseiten benutzen sehr wahrscheinlich nicht zwei völlig\nverschiedene Schriftsysteme. Sie benutzen denselben kleinen Satz von\nWerkstattkürzeln, aber jedes Seitenregister konkretisiert ihn anders.\n\nDas ist der bisher einfachste Weg, alle zehn Seiten gemeinsam zu lesen:\n\n- Im Pflanzen- und Baderegister bezeichnet `AIR` einen Lauf von Flüssigkeit.\n- Im Kreisregister bezeichnet derselbe Kern einen Lauf entlang eines Rings,\n  Bandes oder Zeigers.\n- `AL` bleibt in beiden Registern ein Ziel.\n- `AR` bleibt in beiden Registern ein Ausgang oder Bezugspunkt.\n- `AIIN` bleibt ein vorgegebener Wert: in der Prosa ein Sollmaß, im Diagramm\n  ein Grad oder Platzwert.\n- `OK` setzt etwas in den laufenden Arbeitsgang; im Diagramm setzt oder\n  aktiviert es einen Platz.\n- `OT` geht zum nächsten Posten, `OL` führt denselben Satz weiter.\n\nDas ist keine wörtliche Übersetzung von „Wasser“ in den Himmel. Es ist eine\ngemeinsame technische Abstraktion. Ein Schreiber lernt den kurzen Kern\n`LAUF`; das aktive Register sagt ihm, ob damit Wasserlauf oder Kreisverlauf\ngemeint ist.\n\n## Ergebnis des Brückenpasses\n\nDie 381 Prosakarten bleiben unverändert in ihrer abgeschlossenen\nWerkstattlesung. Von den 395 sichtbaren Diagrammgruppen erhalten:\n\n- 89 eine exakte bereits bekannte Prosaform;\n- 78 eine Zusammensetzung aus mindestens zwei gemeinsamen Komponenten;\n- 165 einen einzelnen gemeinsamen Werkstattkern;",
+          "sha256": "e08b787098c59969607cd7662b2cba83ba11cb7007589e9a6d38951a13d1d2c9"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_ten_page_register_bridge/TEN_PAGE_REGISTER_BRIDGE_REPORT.md",
+          "line": 64,
+          "line_end": 72,
+          "quote": "| `shed/sh` | HALTEN | ruhen/absetzen | Position/Bedingung halten |\n| `ched/chd` | ÜBERTRAGEN | Posten umsetzen | Wert/Platzbezug übertragen |\n| `ckhe/ckh` | DURCHGANG | Leitung/Seihweg | Sektor-/Ring-/Prüfweg |\n| `chk` | JUSTIEREN | wärmen/temperieren | Grad/Zustand justieren |\n| `kch` | BEARBEITEN | Arbeitsstoff bearbeiten | Diagrammplatz bearbeiten |\n| `dan` | ANWENDEN | Zubereitung anwenden | Bedingung/Wert anwenden |\n| `solk` | SAMMELPUNKT | Auffangstelle | Schnitt-/Bezugs-/Sammelpunkt |\n| `sk` | AUSGEBEN | ausgießen | Wert oder Bezug ausgeben |\n",
+          "sha256": "e08b787098c59969607cd7662b2cba83ba11cb7007589e9a6d38951a13d1d2c9"
+        }
+      ],
+      "status": "proposal_only"
+    },
+    {
+      "id": "IDENTITY_CV:cho",
+      "member_ids": [
+        "SEM:32b591a6c0061879f8b2",
+        "SEM:5ae014945ae771dcc8ac"
+      ],
+      "decision": "unresolved",
+      "identity_reason": "GDT650 uses CHO=Trockenansatz as a populated CH/SH–E–O sister-family entry while resolving SHEO. GDT661 explicitly introduces an exact CHO whole card at 75 positions and bars exporting a free ch+o claim. The exact dry-preparation value overlaps, but the inspected sources do not establish an unchanged exact scope/registration bridge from the GDT650 family assertion to the GDT661 surface-wide card.",
+      "source_question_or_scope_limit": "Need explicit continuity of the full licensed CHO unit and domain, not just matching Trockenansatz or the same component alphabet. Neither the later version number nor different test coverage by itself proves nonidentity. Old experiment PASS statuses are not semantic confirmation.",
+      "claims": {
+        "SEM:32b591a6c0061879f8b2": "CHO → Trockenansatz",
+        "SEM:5ae014945ae771dcc8ac": "cho → Trockenansatz"
+      },
+      "card_basis": {
+        "SEM:32b591a6c0061879f8b2": "8133756d6fedb74229087eb62f57cecc8e33a497aa04daa9e025e134450ce29c",
+        "SEM:5ae014945ae771dcc8ac": "9fb2260e95b7760220e93f3d8009713c23e4c359bfe38a6832b21a15ae78d86c"
+      },
+      "effective_basis": {
+        "SEM:32b591a6c0061879f8b2": "cb125f66aeb0397c07fdd3fe4217e0035424bf5ddb46316be30f7bdedd312509",
+        "SEM:5ae014945ae771dcc8ac": "c7a28a0f7b6ef434b16f3f9e2ce7674e64f3b84bd2f3e599a78735f869adf16f"
+      },
+      "source_cases": {
+        "SEM:32b591a6c0061879f8b2": [
+          {
+            "assessment_basis": "manually_expanded_complete_explicit_rival_block",
+            "claim_type": "lexical_hypothesis",
+            "id": "REPORT_PROPOSAL:4ad74c6c2e2fe6e6ec29",
+            "limits": "Each alternative is a fixed historical rival in this source scope, not a selected or confirmed word meaning.",
+            "member_ids": [
+              "LEGACY_PROPOSAL:084dd90d2028fc8a3a20792b"
+            ],
+            "registry_context_ids": [
+              "GDT650"
+            ],
+            "review_file": "research_registry/decisions/clean_report_proposals_review.json",
+            "scope": {
+              "section": "SHEO: ein Sachwort mit echtem Positionsrivalen",
+              "source": "experiments/yolo/gdt650_v26_strict_family_completion/REPORT.md"
+            },
+            "status": "unconfirmed"
+          }
+        ],
+        "SEM:5ae014945ae771dcc8ac": [
+          {
+            "claim_type": "lexical_hypothesis",
+            "form_or_model": "cho",
+            "id": "CLEAN_COMPONENT:2ac90f2bb16027035c12",
+            "limitations": "Original alternatives, negation and limits remain in the evidence quote. No software PASS or inherited working vocabulary establishes a confirmed meaning.",
+            "member_ids": [
+              "LEGACY_COMPONENT:695dcac96e2486d9959a"
+            ],
+            "proposed_value_or_model": "Trockenansatz",
+            "registry_context_ids": [
+              "GDT661"
+            ],
+            "review_basis": "conservative_assignment_rule_with_manual_pattern_audit",
+            "review_file": "research_registry/decisions/clean_component_review.json",
+            "scope": {
+              "kind": "source_bound_working_hypothesis",
+              "parent_gdt": "GDT661",
+              "section": "Das vollständige 48-Wörter-Deck",
+              "semantic_column": "konkrete V38-Arbeitslesung",
+              "source": "experiments/yolo/gdt661_forty_eight_residual_family_completion/REPORT.md"
+            },
+            "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+            "status": "unconfirmed"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "line": 47,
+          "path": "experiments/yolo/gdt650_v26_strict_family_completion/REPORT.md",
+          "quote": "## SHEO: ein Sachwort mit echtem Positionsrivalen",
+          "sha256": "5555267980a648d017ba1b4f56d5ff0306d6e7d046aa14b88bb826d0c5af5846"
+        },
+        {
+          "line": 49,
+          "path": "experiments/yolo/gdt650_v26_strict_family_completion/REPORT.md",
+          "quote": "Die Schale ist vollständig:",
+          "sha256": "5555267980a648d017ba1b4f56d5ff0306d6e7d046aa14b88bb826d0c5af5846"
+        },
+        {
+          "line": 51,
+          "path": "experiments/yolo/gdt650_v26_strict_family_completion/REPORT.md",
+          "quote": "    CHO    Trockenansatz          CHEO   trocken gebundene Zubereitung\n    SHO    Feuchtansatz           SHEO   Feuchtzubereitung",
+          "sha256": "5555267980a648d017ba1b4f56d5ff0306d6e7d046aa14b88bb826d0c5af5846"
+        },
+        {
+          "line": 54,
+          "path": "experiments/yolo/gdt650_v26_strict_family_completion/REPORT.md",
+          "quote": "Dasselbe CH/SH–E–O-Muster ist mit gemeinsamen CTH-Körpern produktiv, und\nGDT633 hält die Grenze SHEO | CTHODY fest. SHEO erscheint allerdings 36-mal\nmedial und nur einmal initial. Ein Listenfortsetzungsmarker bleibt daher ein\nechter Rivale; die vollständige Komposition macht die Sachlesung im jetzigen\nWörterbuch dennoch sparsamer.",
+          "sha256": "5555267980a648d017ba1b4f56d5ff0306d6e7d046aa14b88bb826d0c5af5846"
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 57,
+          "line_end": 57,
+          "path": "experiments/yolo/gdt661_forty_eight_residual_family_completion/REPORT.md",
+          "quote": "| `cho` | 75 / 45 | Trockenansatz | Kontext stark |",
+          "sha256": "bc59ad9ee2aa88549f5d19ced3f086580de7e8e2215d0bf17b10959c678c9880",
+          "source_id": "LEGACY_COMPONENT:695dcac96e2486d9959a",
+          "source_section": "Das vollständige 48-Wörter-Deck",
+          "table_header": "| Form | n / exakt | konkrete V38-Arbeitslesung | Stärke |"
+        },
+        {
+          "path": "experiments/yolo/gdt650_v26_strict_family_completion/REPORT.md",
+          "line": 47,
+          "line_end": 58,
+          "quote": "## SHEO: ein Sachwort mit echtem Positionsrivalen\n\nDie Schale ist vollständig:\n\n    CHO    Trockenansatz          CHEO   trocken gebundene Zubereitung\n    SHO    Feuchtansatz           SHEO   Feuchtzubereitung\n\nDasselbe CH/SH–E–O-Muster ist mit gemeinsamen CTH-Körpern produktiv, und\nGDT633 hält die Grenze SHEO | CTHODY fest. SHEO erscheint allerdings 36-mal\nmedial und nur einmal initial. Ein Listenfortsetzungsmarker bleibt daher ein\nechter Rivale; die vollständige Komposition macht die Sachlesung im jetzigen\nWörterbuch dennoch sparsamer.",
+          "sha256": "5555267980a648d017ba1b4f56d5ff0306d6e7d046aa14b88bb826d0c5af5846"
+        },
+        {
+          "path": "experiments/yolo/gdt661_forty_eight_residual_family_completion/REPORT.md",
+          "line": 3,
+          "line_end": 20,
+          "quote": "## Ergebnis\n\nV38 füllt alle 48 von GDT660 offengelegten Restwörter. Das betrifft 872\nTokenpositionen in 786 Zeilen auf 168 Seiten. Keine Zielposition bleibt als\n`[wort:?]` stehen. 46 Wörter erhalten exakte Ganzwortkarten; `r` und `d`\nwerden an jeder Stelle konkret gelesen, bleiben wegen ihrer Labeltoken aber\naus dem globalen Oberflächenglossar heraus.\n\nDie Runde bringt erstmals einige sehr kurze, praktisch nützliche Wörter in die\nArbeitsübersetzung:\n\n- `r` = im Text **Wurzel/Wurzeldroge**, im Label `[Wurzelzeichen]`;\n- `d` = im Text **Dosis/Maß**, vor einem Zahlenwert „davon/Dosis:“, im Label\n  `[Dosis-/Maßzeichen]`;\n- `cho` = **Trockenansatz**;\n- `am` = **Maßeinheit I**;\n- `dam` = **Dosis I**;\n- `sain` = **Saatgut, Typ/Charge II**.",
+          "sha256": "bc59ad9ee2aa88549f5d19ced3f086580de7e8e2215d0bf17b10959c678c9880"
+        },
+        {
+          "path": "experiments/yolo/gdt661_forty_eight_residual_family_completion/REPORT.md",
+          "line": 104,
+          "line_end": 106,
+          "quote": "`cho` ist keine freie Behauptung `ch + o`. Es bleibt eine exakte Kurzkarte.\nSeine 75 Vorkommen und die gebundenen Familien `lcho`, `pcho`, `scho`,\n`chotol` und `okchol` machen „Trockenansatz“ zur sparsamsten konkreten Lesung.",
+          "sha256": "bc59ad9ee2aa88549f5d19ced3f086580de7e8e2215d0bf17b10959c678c9880"
+        }
+      ],
+      "status": "proposal_only"
+    },
+    {
+      "id": "IDENTITY_CV:ckhe",
+      "member_ids": [
+        "SEM:bacb7fa7f0c654fd4850",
+        "SEM:e7716c17caa2b1831992"
+      ],
+      "decision": "unresolved",
+      "identity_reason": "Selected filtration limits CKHE=seihen to SHCKHEDY and its local LCHECKHEDY extension, not freely CKH+E. Workshop macro grammar names CKHE=seihen among its shared values but reads the later CLOSED_173_CARD_DICTIONARY and copies its atomic meanings into a macro layer. The inspected code does not directly bind that abbreviated statement to exactly the same two-card licensing domain.",
+      "source_question_or_scope_limit": "Need the explicit tuple/closed-parse bridge through the later nomenclator and bound-carrier inputs, including any additional CKHE-bearing forms. Shared vocabulary and 173-card totals do not prove identical component scope; no generalized straining meaning is licensed here.",
+      "claims": {
+        "SEM:bacb7fa7f0c654fd4850": "CKHE → SEIHEN",
+        "SEM:e7716c17caa2b1831992": "CKHE → seihen"
+      },
+      "card_basis": {
+        "SEM:bacb7fa7f0c654fd4850": "0159337a344a8e365c1577cd759ac62fbe57edc7f40da67f715cb71701c134c5",
+        "SEM:e7716c17caa2b1831992": "577270f0f9be4384d5dd2249f7df382e30bf9a0602d08bc3d6f0cb7d1de07720"
+      },
+      "effective_basis": {
+        "SEM:bacb7fa7f0c654fd4850": "4badf878882befcde0119f19146f92ff47bee99f9c0038cb40dfc97c2f1573b4",
+        "SEM:e7716c17caa2b1831992": "1f0f68d5831c373b8dcdbfb57b405fb367865fa35a74e6690cd6f0144818e4c1"
+      },
+      "source_cases": {
+        "SEM:bacb7fa7f0c654fd4850": [
+          {
+            "claim_type": "lexical_hypothesis",
+            "form_or_model": "CKHE",
+            "id": "CLEAN_COMPONENT:cb3ca226d92e04caa0e0",
+            "limitations": "Original alternatives, negation and limits remain in the evidence quote. No software PASS or inherited working vocabulary establishes a confirmed meaning.",
+            "member_ids": [
+              "LEGACY_COMPONENT:4cf4d97b4fdb599c77db",
+              "LEGACY_COMPONENT:7e035a4043078e2dcc6b"
+            ],
+            "proposed_value_or_model": "SEIHEN",
+            "registry_context_ids": [],
+            "review_basis": "conservative_assignment_rule_with_manual_pattern_audit",
+            "review_file": "research_registry/decisions/clean_component_review.json",
+            "scope": {
+              "kind": "literal_core_declaration_without_portability_claim"
+            },
+            "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+            "status": "unconfirmed"
+          }
+        ],
+        "SEM:e7716c17caa2b1831992": [
+          {
+            "claim_type": "lexical_hypothesis",
+            "form_or_model": "CKHE",
+            "id": "CLEAN_COMPONENT:0692fadd134a4887a785",
+            "limitations": "Original alternatives, negation and limits remain in the evidence quote. No software PASS or inherited working vocabulary establishes a confirmed meaning.",
+            "member_ids": [
+              "LEGACY_COMPONENT:cdc84ff51a86594bfdb7"
+            ],
+            "proposed_value_or_model": "seihen",
+            "registry_context_ids": [],
+            "review_basis": "conservative_assignment_rule_with_manual_pattern_audit",
+            "review_file": "research_registry/decisions/clean_component_review.json",
+            "scope": {
+              "kind": "source_bound_working_hypothesis",
+              "parent_gdt": null,
+              "section": "Gemeinsamer Kern",
+              "semantic_column": null,
+              "source": "experiments/yolo/sidequest_semantic_workshop_macro_grammar/WORKSHOP_MACRO_GRAMMAR_REPORT.md"
+            },
+            "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+            "status": "unconfirmed"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 219,
+          "line_end": 219,
+          "path": "experiments/yolo/sidequest_semantic_filtration_separation_completion/HISTORICAL_FILTRATION_REPORT.md",
+          "quote": "> `CFHY=AUSWRINGEN`, `SHFY=STEHEN LASSEN`, `CPHY=NACHSEIHEN`, `CHEEY/SHEY=KLARAUSZUG`, `DAIN=TUCH`, `SOLKAIIN=SEIHTUCH`, `QOCTHOLY=ABPRESSEN`, `KCHAL=ABSEIHEN`, `CKH=DURCHLAUF`, `CKHE=SEIHEN`, `LSH=WASCHEN`, `SOLK=AUFFANGSTELLE`.",
+          "sha256": "255e6bfaca13343e66ff182c1cc3b2fefa9a8460348384fc2c5502a8dd7d0480",
+          "source_id": "LEGACY_COMPONENT:7e035a4043078e2dcc6b",
+          "source_section": "Arbeitsentscheidung",
+          "table_header": null
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 3,
+              "text": "Status: **kreative Zehnseiten-Werkstattrekonstruktion**. Dies ist keine"
+            }
+          ],
+          "line": 224,
+          "line_end": 225,
+          "path": "experiments/yolo/sidequest_semantic_filtration_separation_completion/SELECTED_FILTRATION_SEPARATION_REPORT.md",
+          "quote": "- `CKHE=SEIHEN` gilt für `SHCKHEDY` und die lokale Erweiterung\n  `LCHECKHEDY`; es ist nicht automatisch freies `CKH + E`.",
+          "sha256": "40056f6e7ef9c9d09874bc9e9f3282eb595cb5e87bfd1336618fa2c722f8db67",
+          "source_id": "LEGACY_COMPONENT:4cf4d97b4fdb599c77db",
+          "source_section": "Harte Grenzen der kreativen Zerlegung",
+          "table_header": null
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 16,
+          "line_end": 16,
+          "path": "experiments/yolo/sidequest_semantic_workshop_macro_grammar/WORKSHOP_MACRO_GRAMMAR_REPORT.md",
+          "quote": "Von 173 exakten Prosakarten sind 41 in mindestens zwei der vier Dossiers zu Hause. Die häufigsten tragenden Werte bleiben kurz: `AIIN=Sollmaß`, `Y=dieser Posten`, `OL=fortsetzen`, `OT=Folge`, `AR=daraus`, `AL=dorthin`, `OR=Ansatz`, `CHED=umsetzen`, `OK=ansetzen`, `SHED=absetzen`, `CHK=wärmen`, `CKHE=seihen` und die gelernte ganze Endkarte als Schrittabschluss.",
+          "sha256": "cc08aa98064c0da76e2b994ab9c07c0dead9a0b7341432ae8b8195f219cca157",
+          "source_id": "LEGACY_COMPONENT:cdc84ff51a86594bfdb7",
+          "source_section": "Gemeinsamer Kern",
+          "table_header": null
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_filtration_separation_completion/SELECTED_FILTRATION_SEPARATION_REPORT.md",
+          "line": 219,
+          "line_end": 229,
+          "quote": "## Harte Grenzen der kreativen Zerlegung\n\n- `CKH=DURCHLAUF` gilt für die exakte wiederkehrende\n  `CHCKHY|SHCKHY`-Karte. `SHECKHY`, `QOCKHEY`, `LCHECKHY` und\n  `CHEECKHODY` bleiben andere gelernte Karten.\n- `CKHE=SEIHEN` gilt für `SHCKHEDY` und die lokale Erweiterung\n  `LCHECKHEDY`; es ist nicht automatisch freies `CKH + E`.\n- `CHK` bleibt die ausgewählte Wärmefamilie. `CKH` und `CHK` sind wegen der\n  umgekehrten Reihenfolge nicht dasselbe.\n- `CHEEY|SHEY=KLARAUSZUG` ist eine exakte Ganzkarte. Daraus folgt weder\n  `EY=WASSER` noch `SH=KLAR` in anderen Karten.",
+          "sha256": "40056f6e7ef9c9d09874bc9e9f3282eb595cb5e87bfd1336618fa2c722f8db67"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_workshop_macro_grammar/WORKSHOP_MACRO_GRAMMAR_REPORT.md",
+          "line": 3,
+          "line_end": 16,
+          "quote": "## Neue Arbeitstheorie\n\nDie vier Dossiers teilen nicht bloß Einzelwörter, sondern eine kleine Satzmaschine. Zehn Meisterfragen reichen aus: Bedingung, Material, laufender Posten, Ansatz/Produkt, Menge/Stufe, Quelle/Ziel/Werkzeug, Transfer, Arbeitsgang, Zustand und Abschluss/Übergabe.\n\nDie wichtigste Korrektur ist die Trennung zweier Ordnungen:\n\n- **Buchordnung:** WAS (Herbal) -> WIE (Biological) -> WANN (Astro).\n- **Arbeitsordnung:** WANN nachschlagen -> WAS bereiten -> WIE ausführen.\n\nDas macht die räumlich getrennten Seiten praktisch benutzbar, ohne einen geschriebenen Seitenschlüssel zu erfinden.\n\n## Gemeinsamer Kern\n\nVon 173 exakten Prosakarten sind 41 in mindestens zwei der vier Dossiers zu Hause. Die häufigsten tragenden Werte bleiben kurz: `AIIN=Sollmaß`, `Y=dieser Posten`, `OL=fortsetzen`, `OT=Folge`, `AR=daraus`, `AL=dorthin`, `OR=Ansatz`, `CHED=umsetzen`, `OK=ansetzen`, `SHED=absetzen`, `CHK=wärmen`, `CKHE=seihen` und die gelernte ganze Endkarte als Schrittabschluss.",
+          "sha256": "cc08aa98064c0da76e2b994ab9c07c0dead9a0b7341432ae8b8195f219cca157"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_workshop_macro_grammar/build_workshop_macro_grammar.py",
+          "line": 13,
+          "line_end": 16,
+          "quote": "ROOT = Path(__file__).resolve().parents[3]\nOUT = Path(__file__).resolve().parent\nPROSE = ROOT / \"experiments/yolo/sidequest_semantic_bound_carrier_closure\"\nCASEBOOK = ROOT / \"experiments/yolo/sidequest_semantic_integrated_workshop_casebook\"",
+          "sha256": "7919aa580bec550a5326500eca382a511fde76e5e46fcd09c1965802f483f30c"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_workshop_macro_grammar/build_workshop_macro_grammar.py",
+          "line": 119,
+          "line_end": 129,
+          "quote": "def main() -> None:\n    dictionary = read_tsv(PROSE / \"CLOSED_173_CARD_DICTIONARY.tsv\")\n    events = read_tsv(PROSE / \"CLOSED_381_EVENT_INTERLINEAR.tsv\")\n    phrases = read_tsv(PROSE / \"CLOSED_116_PHRASES.tsv\")\n    dossiers = read_tsv(CASEBOOK / \"FOUR_WORKSHOP_DOSSIERS.tsv\")\n    case_context = read_tsv(CASEBOOK / \"TEN_PAGE_776_CASE_CONTEXT.tsv\")\n    workflow_steps = read_tsv(CASEBOOK / \"WORKFLOW_STEPS.tsv\")\n\n    context_by_event = {row[\"local_unit_id\"]: row for row in case_context if row[\"register\"] == \"PROSE_WORKSHOP\"}\n    card_by_tuple = {row[\"joint_tuple_id\"]: row for row in dictionary}\n    phrase_by_id = {row[\"statement_id\"]: row for row in phrases}",
+          "sha256": "7919aa580bec550a5326500eca382a511fde76e5e46fcd09c1965802f483f30c"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_workshop_macro_grammar/build_workshop_macro_grammar.py",
+          "line": 147,
+          "line_end": 159,
+          "quote": "        primary, tags, closes = card_macros(card[\"closed_parse\"], card[\"closed_reading_de\"])\n        tuple_macro[card[\"joint_tuple_id\"]] = (primary, tags, closes)\n        occurrences = events_by_tuple[card[\"joint_tuple_id\"]]\n        dossier_ids = sorted({context_by_event[e[\"event_id\"]][\"dossier_id\"] for e in occurrences})\n        phases = sorted({context_by_event[e[\"event_id\"]][\"case_phase\"] for e in occurrences})\n        card_rows.append({\n            \"joint_tuple_id\": card[\"joint_tuple_id\"], \"surface_family\": card[\"surface_family\"],\n            \"occurrences\": card[\"occurrences\"], \"closed_parse\": card[\"closed_parse\"],\n            \"atomic_default_de\": card[\"closed_reading_de\"], \"primary_macro\": primary,\n            \"primary_macro_name_de\": MACRO_INFO[primary][1], \"all_macros\": \";\".join(tags),\n            \"closes_local_step\": \"YES\" if closes else \"NO\", \"dossier_count\": len(dossier_ids),\n            \"dossiers\": \";\".join(dossier_ids), \"case_phases\": \";\".join(phases),\n            \"portable_status\": \"PORTABLE_CORE\" if len(dossier_ids) >= 3 else (\"CROSS_DOSSIER\" if len(dossier_ids) == 2 else \"LOCAL_OR_SINGLE_DOSSIER\"),",
+          "sha256": "7919aa580bec550a5326500eca382a511fde76e5e46fcd09c1965802f483f30c"
+        }
+      ],
+      "status": "proposal_only"
+    }
+  ],
+  "groups": [
+    {
+      "id": "IDENTITY_CV:chokcheo",
+      "representative": "SEM:b53e4d0af2e43ef404bd",
+      "member_ids": [
+        "SEM:b53e4d0af2e43ef404bd",
+        "SEM:d970dce11399911ad67b"
+      ],
+      "identity_reason": "Both reports assign Auszug zugeben to the exact E092 CHOKCHEO event. More decisively, both R1 and R3 builders read the same SELECTED_173_APPLICATION_DICTIONARY and SELECTED_381_APPLICATION_INTERLINEAR sources and explicitly bind the same tuple 087a47b5423438cd6b6a to the same full lexical instruction, with OK addition and CHEO extract. This is positive tuple-and-input identity, not inference from capitalization or a matching event count.",
+      "scope_limits": "Only the exact CHOKCHEO card instruction at the shared E092 source unit. R1 and R3 differ on other AIR/product hypotheses; those differences are not merged. The extract is a reusable product type, not necessarily the identical physical fluid/batch in both CHEO contexts.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 71,
+          "line_end": 71,
+          "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R3_MEDIUM_SUBSTANCE_REPORT.md",
+          "quote": "| `CHOKCHEO` / `087a47b5423438cd6b6a` | `E092` | `H5-S004` | Auszug zugeben |",
+          "sha256": "f9b702a835beba25625fdf9e83efef08497689d42a7ed6048880ddf9db4481f0",
+          "source_id": "LEGACY_COMPONENT:c890a51a7df3daa5dc2f",
+          "source_section": "2. CHEO — Auszug als wiederverwendbares Zwischenprodukt",
+          "table_header": "| Karte / ID | Ereignis | Aussage | Lesung |"
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 60,
+          "line_end": 60,
+          "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R1_MEDIUM_SUBSTANCE_REPORT.md",
+          "quote": "| E092 | `chokcheo` | f56r | OK + CHEO | Auszug zugeben |",
+          "sha256": "5f36716813e3e12341b606e7334884c4514751adc61ee63d440a105204305631",
+          "source_id": "LEGACY_COMPONENT:87050ab7f05b328cb79a",
+          "source_section": "2. CHEO: AUSZUG, nicht unbestimmte „Trägerflüssigkeit“",
+          "table_header": "| Event | Form | Seite | Komposition | Lesung |"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R1_MEDIUM_SUBSTANCE_REPORT.md",
+          "line": 56,
+          "line_end": 69,
+          "quote": "\n| Event | Form | Seite | Komposition | Lesung |\n|---|---|---|---|---|\n| E065 | `cheoar` | f55v | CHEO + AR | Auszug daraus entnehmen |\n| E092 | `chokcheo` | f56r | OK + CHEO | Auszug zugeben |\n\nDer Stoffkern ist in beiden Fällen schlicht `AUSZUG`. Das erste Umfeld nimmt ihn aus einem Vorrat, das zweite gibt ihn in den laufenden Posten. Damit ist CHEO konkreter als „Medium“, ohne behaupten zu müssen, beide Ereignisse bezeichneten dieselbe Flüssigkeit.\n\n`CHEO` und `SHEY` werden nicht zusammengelegt:\n\n- CHEO = der entnommene oder zugegebene Auszug;\n- SHEY = das klare Ergebnis nach Auswringen, Ruhen und Nachseihen.\n\nDie Unterscheidung entspricht dem Werkstattablauf **Auszug einsetzen → trennen → Klarauszug erhalten**, nicht zwei synonymen Wörterbuchkarten.",
+          "sha256": "5f36716813e3e12341b606e7334884c4514751adc61ee63d440a105204305631"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R3_MEDIUM_SUBSTANCE_REPORT.md",
+          "line": 65,
+          "line_end": 88,
+          "quote": "\n`CHEO` hat zwei genau zusammenpassende Werkstattrollen:\n\n| Karte / ID | Ereignis | Aussage | Lesung |\n|---|---|---|---|\n| `CHEOAR` / `807591efc3d3f7ddbfab` | `E065` | `H4-S003` | Auszug daraus nehmen |\n| `CHOKCHEO` / `087a47b5423438cd6b6a` | `E092` | `H5-S004` | Auszug zugeben |\n\nIn `H4-S003` wird der Auszug gewonnen und länger warm gehalten; in `H5-S004`\nwird derselbe Produkttyp einem laufenden Posten wieder zugegeben und danach\nabgeseiht. Das ist kein Bedeutungswechsel, sondern die gewöhnliche\nWerkstattlaufbahn eines Zwischenprodukts: **aus einem Ansatz entnehmen → als\nZutat in einem späteren Arbeitsschritt einsetzen**. Ob dieser Auszug wässrig,\nweinig oder ölig ist, bleibt lokal offen.\n\nDer präziseste kurze Wert ist `AUSZUG`, nicht `AUSZUGSMEDIUM`: Das deutsche\n„Auszugsmedium“ würde gewöhnlich den rohen Träger oder das Lösungsmittel\nbezeichnen, während `CHEOAR` gerade das gewonnene Produkt aus dem Posten nimmt.\nDieses Produkt kann anschließend selbstverständlich als Medium eines neuen\nArbeitsschritts dienen.\n\n`SHEY/CHEEY = KLARAUSZUG` ist die speziellere wiederkehrende Ergebnisform\n(`E044`, `E197`, `E203`, `E353`). Daraus folgt weder `EY = Wasser` noch, dass\njede `CHEO`-Form bereits klar ist. `KCHOAR` wird nur als kurzer gelernter",
+          "sha256": "f9b702a835beba25625fdf9e83efef08497689d42a7ed6048880ddf9db4481f0"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R1_BUILD_MEDIUM_SUBSTANCE.py",
+          "line": 17,
+          "line_end": 23,
+          "quote": "HERE = Path(__file__).resolve().parent\nROOT = HERE.parents[2]\nSOURCE = ROOT / \"experiments/yolo/sidequest_semantic_application_completion\"\n\nDICT_IN = SOURCE / \"SELECTED_173_APPLICATION_DICTIONARY.tsv\"\nEVENT_IN = SOURCE / \"SELECTED_381_APPLICATION_INTERLINEAR.tsv\"\n",
+          "sha256": "cad023b0b676f768d66b794d0d778653376647b57e2f3c7ac6d836f42b967d0e"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R1_BUILD_MEDIUM_SUBSTANCE.py",
+          "line": 83,
+          "line_end": 86,
+          "quote": "    # CHEO: the prior 'carrier/extraction liquid' wording is shortened to the\n    # reusable material noun AUSZUG.\n    \"087a47b5423438cd6b6a\": ov(\"CH_RENDERER+OK_ADD+CHEO_EXTRACT\", \"OK=zugeben; CHEO=Auszug\", \"Auszug zugeben\", \"CHEO_EXTRACT\", \"R1_RECURRENT_COMPONENT\", \"MEDIUM+OPERATION\", \"CHEO supplies Auszug in both cards; OK supplies addition.\"),\n    \"807591efc3d3f7ddbfab\": ov(\"CHEO_EXTRACT+AR_SOURCE\", \"CHEO=Auszug; AR=aus\", \"Auszug entnehmen\", \"CHEO_EXTRACT\", \"R1_RECURRENT_COMPONENT\", \"MEDIUM+SOURCE+OPERATION\", \"CHEO remains Auszug while AR supplies source direction.\"),",
+          "sha256": "cad023b0b676f768d66b794d0d778653376647b57e2f3c7ac6d836f42b967d0e"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R3_BUILD_MEDIUM_SUBSTANCE.py",
+          "line": 13,
+          "line_end": 19,
+          "quote": "HERE = Path(__file__).resolve().parent\nROOT = HERE.parents[2]\nSOURCE = ROOT / \"experiments/yolo/sidequest_semantic_application_completion\"\n\nDICT_IN = SOURCE / \"SELECTED_173_APPLICATION_DICTIONARY.tsv\"\nEVENT_IN = SOURCE / \"SELECTED_381_APPLICATION_INTERLINEAR.tsv\"\nSENTENCE_IN = SOURCE / \"SELECTED_116_APPLICATION_SENTENCES.tsv\"",
+          "sha256": "137b194978720ef901634febf5511e65b9846fc2a7860ffb11c6f29086a73244"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R3_BUILD_MEDIUM_SUBSTANCE.py",
+          "line": 137,
+          "line_end": 146,
+          "quote": "    # CHEO: intermediate extract.  The same extract is a product in H4 and an\n    # input in H5; this is reuse, not two meanings.\n    \"807591efc3d3f7ddbfab\": ov(\n        \"CHEO_EXTRACT+AR_SOURCE\", \"CHEO=Auszug; AR=aus\", \"Auszug daraus nehmen\", \"CHEO_EXTRACT\",\n        \"SELECTED_TWO_CARD_CORE\", \"SOURCE+PREPARATION+OPERATION\", \"H4 takes the extract from the current batch before warming it.\",\n    ),\n    \"087a47b5423438cd6b6a\": ov(\n        \"CH_RENDERER+OK+CHEO_EXTRACT\", \"OK=zugeben; CHEO=Auszug\", \"Auszug zugeben\", \"CHEO_EXTRACT\",\n        \"SELECTED_TWO_CARD_CORE\", \"PREPARATION+OPERATION+FLOW_TRANSFER\", \"H5 reuses an extract as input immediately before straining.\",\n    ),",
+          "sha256": "137b194978720ef901634febf5511e65b9846fc2a7860ffb11c6f29086a73244"
+        }
+      ]
+    }
+  ],
+  "links": [],
+  "validation": {
+    "status": "PASS",
+    "public_active_count": 3950,
+    "active_target_cards": 12,
+    "pairs": 6,
+    "proposed_equivalence_groups": 1,
+    "unresolved_pairs": 5,
+    "quote_and_sha_checks": 39,
+    "no_prior_operative_pair_or_group": true,
+    "no_transitive_conflict_for_proposed_group": true,
+    "identity_log_sha256": "747b558b8cd03ca776187a0eac908809f6ec87824df1da548af4b13fdaf07283"
+  },
+  "limits": [
+    "One identity proposal concerns an exact historical lexical instruction, not model correctness or new manuscript evidence.",
+    "The five unresolved pairs are not five nonidentity decisions. No operational specialization or alternative link is proposed.",
+    "No raw TSV, image, historical model execution or operational mutation.",
+    "Source polarity retained: QOTEDAIIN is explicitly an old revised reading; OKEEDY is a locally retained expansion. No invented empirical refutation."
+  ]
+}

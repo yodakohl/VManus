@@ -1,0 +1,595 @@
+{
+  "review_id": "DA",
+  "status": "COMPLETE_TEN_EXACT_AUTHORED_FORM_BRIDGES",
+  "corrects": {
+    "file": "research_registry/decisions/source_coverage_gap_batch_cx.json",
+    "selection_index": 6,
+    "source_id": "LEGACY_COMPONENT:3566deb24f26b61c89e6",
+    "previous_decision": "scope_unresolved_form_assignment",
+    "replacement": {
+      "source_id": "LEGACY_COMPONENT:3566deb24f26b61c89e6",
+      "decision": "resolved_through_literal_build_overrides_and_exact_authored_lexicon_metadata",
+      "card_ids": [
+        "CLEAN_GAP_DA:mc024_context_imperative",
+        "CLEAN_GAP_DA:mc063_context_imperative",
+        "CLEAN_GAP_DA:mc089_context_imperative",
+        "CLEAN_GAP_DA:mc102_context_imperative",
+        "CLEAN_GAP_DA:mc112_context_imperative",
+        "CLEAN_GAP_DA:mc135_context_imperative",
+        "CLEAN_GAP_DA:mc138_context_imperative",
+        "CLEAN_GAP_DA:mc144_context_imperative",
+        "CLEAN_GAP_DA:mc146_context_imperative",
+        "CLEAN_GAP_DA:mc162_context_imperative"
+      ],
+      "reason": "All ten source meanings now have exact MC IDs and master-form bridges. No form assignment was guessed from report ordering or from neighboring events.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_ten_weak_cards_three_hundred_fourth/THREE_HUNDRED_FOURTH_REPORT.md",
+          "line": 3,
+          "line_end": 5,
+          "quote": "Die zehn Karten aus der Restklasse NAMED_WORKSTEP_IMPERATIVE sind anhand sämtlicher zwölf Vorkommen konkretisiert. Die stärksten neuen Kurzwerte sind: nächsten Durchgang ansetzen, länger im Folgegang weiterführen, frische Spülflüssigkeit einlassen, kurz am Ziel halten, kurz zum Folgeschritt weiterführen, bis Sollstand absetzen, am Zielgefäß bereitstellen, nächsten Einsatzposten nehmen, verbleibenden Posten erneut einsetzen und von der Quellseite zugießen.\n\nDamit enthält das 173-Karten-Imperativlexikon keine generische benannte Restoperation mehr. Der nächste Pass kann nun wiederkehrende Mehrkartenketten als gelernte Rezeptformeln erkennen, ohne die Einzelwörter umzudeuten.",
+          "sha256": "72c6013de909ab37e23152a2b6258bda928a26dcef5fd2f36df5a08eef7114ad"
+        }
+      ]
+    }
+  },
+  "cases": [
+    {
+      "master_card_id": "MC024",
+      "master_form": "qokol",
+      "decision": "concrete_source_bound_clause_recovered",
+      "card_id": "CLEAN_GAP_DA:mc024_context_imperative",
+      "full_selected_clause": "Setze den verbleibenden Posten erneut ein",
+      "short_action": "setze erneut ein",
+      "source_rival": "nur 'weiter einsetzen'",
+      "source_reason": "folgt auf Weiterabzug und Abführung, vor Absetzen",
+      "counterpart_ids": [
+        "SEM:3f6fcb1fe021b347e579",
+        "SEM:46657d612c63a5952efc",
+        "SEM:96b51c2e084e33cecca9",
+        "SEM:b80aa5362d4d5577ac5b",
+        "SEM:ed32493afa573a6e41bf"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_ten_weak_cards_three_hundred_fourth/build_three_hundred_fourth.py",
+          "line": 23,
+          "line_end": 23,
+          "quote": "    \"MC024\": (\"Setze den verbleibenden Posten erneut ein\", \"setze erneut ein\", \"nur 'weiter einsetzen'\", \"folgt auf Weiterabzug und Abführung, vor Absetzen\"),",
+          "sha256": "cf8b7d42a5bbb1471e5fb7eaadf38207f0da2606823482e91af288d75e3f01e7"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_ten_weak_cards_three_hundred_fourth/THREE_HUNDRED_FOURTH_REPORT.md",
+          "line": 3,
+          "line_end": 5,
+          "quote": "Die zehn Karten aus der Restklasse NAMED_WORKSTEP_IMPERATIVE sind anhand sämtlicher zwölf Vorkommen konkretisiert. Die stärksten neuen Kurzwerte sind: nächsten Durchgang ansetzen, länger im Folgegang weiterführen, frische Spülflüssigkeit einlassen, kurz am Ziel halten, kurz zum Folgeschritt weiterführen, bis Sollstand absetzen, am Zielgefäß bereitstellen, nächsten Einsatzposten nehmen, verbleibenden Posten erneut einsetzen und von der Quellseite zugießen.\n\nDamit enthält das 173-Karten-Imperativlexikon keine generische benannte Restoperation mehr. Der nächste Pass kann nun wiederkehrende Mehrkartenketten als gelernte Rezeptformeln erkennen, ohne die Einzelwörter umzudeuten.",
+          "sha256": "72c6013de909ab37e23152a2b6258bda928a26dcef5fd2f36df5a08eef7114ad"
+        }
+      ]
+    },
+    {
+      "master_card_id": "MC063",
+      "master_form": "oteey",
+      "decision": "concrete_source_bound_clause_recovered",
+      "card_id": "CLEAN_GAP_DA:mc063_context_imperative",
+      "full_selected_clause": "Führe ihn länger im Folgegang weiter",
+      "short_action": "führe länger weiter",
+      "source_rival": "beliebige lange Folge",
+      "source_reason": "beide Belege stehen zwischen Voroperation und neuer Ziel-/Zuführungsphase",
+      "counterpart_ids": [
+        "SEM:14e2e378a9c1b3623733",
+        "SEM:fe20fd346650ce49ad46"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_ten_weak_cards_three_hundred_fourth/build_three_hundred_fourth.py",
+          "line": 24,
+          "line_end": 24,
+          "quote": "    \"MC063\": (\"Führe ihn länger im Folgegang weiter\", \"führe länger weiter\", \"beliebige lange Folge\", \"beide Belege stehen zwischen Voroperation und neuer Ziel-/Zuführungsphase\"),",
+          "sha256": "cf8b7d42a5bbb1471e5fb7eaadf38207f0da2606823482e91af288d75e3f01e7"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_ten_weak_cards_three_hundred_fourth/THREE_HUNDRED_FOURTH_REPORT.md",
+          "line": 3,
+          "line_end": 5,
+          "quote": "Die zehn Karten aus der Restklasse NAMED_WORKSTEP_IMPERATIVE sind anhand sämtlicher zwölf Vorkommen konkretisiert. Die stärksten neuen Kurzwerte sind: nächsten Durchgang ansetzen, länger im Folgegang weiterführen, frische Spülflüssigkeit einlassen, kurz am Ziel halten, kurz zum Folgeschritt weiterführen, bis Sollstand absetzen, am Zielgefäß bereitstellen, nächsten Einsatzposten nehmen, verbleibenden Posten erneut einsetzen und von der Quellseite zugießen.\n\nDamit enthält das 173-Karten-Imperativlexikon keine generische benannte Restoperation mehr. Der nächste Pass kann nun wiederkehrende Mehrkartenketten als gelernte Rezeptformeln erkennen, ohne die Einzelwörter umzudeuten.",
+          "sha256": "72c6013de909ab37e23152a2b6258bda928a26dcef5fd2f36df5a08eef7114ad"
+        }
+      ]
+    },
+    {
+      "master_card_id": "MC089",
+      "master_form": "skar",
+      "decision": "concrete_source_bound_clause_recovered",
+      "card_id": "CLEAN_GAP_DA:mc089_context_imperative",
+      "full_selected_clause": "Gieße ihn von der Quellseite zu",
+      "short_action": "gieße von der Quelle zu",
+      "source_rival": "Quellausguss als Nomen",
+      "source_reason": "steht nach Zieladresse und vor Absetzen/Nachtransfer",
+      "counterpart_ids": [
+        "SEM:c7cb60289bece8212c30",
+        "SEM:edc2b120b820eb641a52",
+        "SEM:f1d05f1091f10f6a0aee"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_ten_weak_cards_three_hundred_fourth/build_three_hundred_fourth.py",
+          "line": 25,
+          "line_end": 25,
+          "quote": "    \"MC089\": (\"Gieße ihn von der Quellseite zu\", \"gieße von der Quelle zu\", \"Quellausguss als Nomen\", \"steht nach Zieladresse und vor Absetzen/Nachtransfer\"),",
+          "sha256": "cf8b7d42a5bbb1471e5fb7eaadf38207f0da2606823482e91af288d75e3f01e7"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_ten_weak_cards_three_hundred_fourth/THREE_HUNDRED_FOURTH_REPORT.md",
+          "line": 3,
+          "line_end": 5,
+          "quote": "Die zehn Karten aus der Restklasse NAMED_WORKSTEP_IMPERATIVE sind anhand sämtlicher zwölf Vorkommen konkretisiert. Die stärksten neuen Kurzwerte sind: nächsten Durchgang ansetzen, länger im Folgegang weiterführen, frische Spülflüssigkeit einlassen, kurz am Ziel halten, kurz zum Folgeschritt weiterführen, bis Sollstand absetzen, am Zielgefäß bereitstellen, nächsten Einsatzposten nehmen, verbleibenden Posten erneut einsetzen und von der Quellseite zugießen.\n\nDamit enthält das 173-Karten-Imperativlexikon keine generische benannte Restoperation mehr. Der nächste Pass kann nun wiederkehrende Mehrkartenketten als gelernte Rezeptformeln erkennen, ohne die Einzelwörter umzudeuten.",
+          "sha256": "72c6013de909ab37e23152a2b6258bda928a26dcef5fd2f36df5a08eef7114ad"
+        }
+      ]
+    },
+    {
+      "master_card_id": "MC102",
+      "master_form": "rsheal",
+      "decision": "concrete_source_bound_clause_recovered",
+      "card_id": "CLEAN_GAP_DA:mc102_context_imperative",
+      "full_selected_clause": "Halte den zugeführten Posten kurz am Ziel",
+      "short_action": "halte kurz am Ziel",
+      "source_rival": "beliebiger Kurzhalt",
+      "source_reason": "steht genau zwischen Zuführung und Zielschluss",
+      "counterpart_ids": [
+        "SEM:8d00d8d19dcdd9c0586c",
+        "SEM:91384e413e4b633c2e9e",
+        "SEM:bc759eb8ba835066963d",
+        "SEM:c5274835330845ff6c65"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_ten_weak_cards_three_hundred_fourth/build_three_hundred_fourth.py",
+          "line": 26,
+          "line_end": 26,
+          "quote": "    \"MC102\": (\"Halte den zugeführten Posten kurz am Ziel\", \"halte kurz am Ziel\", \"beliebiger Kurzhalt\", \"steht genau zwischen Zuführung und Zielschluss\"),",
+          "sha256": "cf8b7d42a5bbb1471e5fb7eaadf38207f0da2606823482e91af288d75e3f01e7"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_ten_weak_cards_three_hundred_fourth/THREE_HUNDRED_FOURTH_REPORT.md",
+          "line": 3,
+          "line_end": 5,
+          "quote": "Die zehn Karten aus der Restklasse NAMED_WORKSTEP_IMPERATIVE sind anhand sämtlicher zwölf Vorkommen konkretisiert. Die stärksten neuen Kurzwerte sind: nächsten Durchgang ansetzen, länger im Folgegang weiterführen, frische Spülflüssigkeit einlassen, kurz am Ziel halten, kurz zum Folgeschritt weiterführen, bis Sollstand absetzen, am Zielgefäß bereitstellen, nächsten Einsatzposten nehmen, verbleibenden Posten erneut einsetzen und von der Quellseite zugießen.\n\nDamit enthält das 173-Karten-Imperativlexikon keine generische benannte Restoperation mehr. Der nächste Pass kann nun wiederkehrende Mehrkartenketten als gelernte Rezeptformeln erkennen, ohne die Einzelwörter umzudeuten.",
+          "sha256": "72c6013de909ab37e23152a2b6258bda928a26dcef5fd2f36df5a08eef7114ad"
+        }
+      ]
+    },
+    {
+      "master_card_id": "MC112",
+      "master_form": "octheol",
+      "decision": "concrete_source_bound_clause_recovered",
+      "card_id": "CLEAN_GAP_DA:mc112_context_imperative",
+      "full_selected_clause": "Setze den nächsten Durchgang an",
+      "short_action": "setze nächsten Durchgang an",
+      "source_rival": "Fortsetzung vorbereiten",
+      "source_reason": "folgt auf Durchleiten plus Maß und eröffnet Wärme-Abzug-Folge",
+      "counterpart_ids": [
+        "SEM:fe3d1a40664010dfd099"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_ten_weak_cards_three_hundred_fourth/build_three_hundred_fourth.py",
+          "line": 27,
+          "line_end": 27,
+          "quote": "    \"MC112\": (\"Setze den nächsten Durchgang an\", \"setze nächsten Durchgang an\", \"Fortsetzung vorbereiten\", \"folgt auf Durchleiten plus Maß und eröffnet Wärme-Abzug-Folge\"),",
+          "sha256": "cf8b7d42a5bbb1471e5fb7eaadf38207f0da2606823482e91af288d75e3f01e7"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_ten_weak_cards_three_hundred_fourth/THREE_HUNDRED_FOURTH_REPORT.md",
+          "line": 3,
+          "line_end": 5,
+          "quote": "Die zehn Karten aus der Restklasse NAMED_WORKSTEP_IMPERATIVE sind anhand sämtlicher zwölf Vorkommen konkretisiert. Die stärksten neuen Kurzwerte sind: nächsten Durchgang ansetzen, länger im Folgegang weiterführen, frische Spülflüssigkeit einlassen, kurz am Ziel halten, kurz zum Folgeschritt weiterführen, bis Sollstand absetzen, am Zielgefäß bereitstellen, nächsten Einsatzposten nehmen, verbleibenden Posten erneut einsetzen und von der Quellseite zugießen.\n\nDamit enthält das 173-Karten-Imperativlexikon keine generische benannte Restoperation mehr. Der nächste Pass kann nun wiederkehrende Mehrkartenketten als gelernte Rezeptformeln erkennen, ohne die Einzelwörter umzudeuten.",
+          "sha256": "72c6013de909ab37e23152a2b6258bda928a26dcef5fd2f36df5a08eef7114ad"
+        }
+      ]
+    },
+    {
+      "master_card_id": "MC135",
+      "master_form": "otedy",
+      "decision": "concrete_source_bound_clause_recovered",
+      "card_id": "CLEAN_GAP_DA:mc135_context_imperative",
+      "full_selected_clause": "Führe ihn kurz zum Folgeschritt weiter",
+      "short_action": "führe kurz zum Folgeschritt",
+      "source_rival": "beliebige Kurzfolge",
+      "source_reason": "beide Belege verbinden eine Ziel-/Maßphase mit dem nächsten Transfer oder Abzug",
+      "counterpart_ids": [
+        "SEM:7f719c305bb9b239cb4f",
+        "SEM:801c86ad701f4da47c03"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_ten_weak_cards_three_hundred_fourth/build_three_hundred_fourth.py",
+          "line": 28,
+          "line_end": 28,
+          "quote": "    \"MC135\": (\"Führe ihn kurz zum Folgeschritt weiter\", \"führe kurz zum Folgeschritt\", \"beliebige Kurzfolge\", \"beide Belege verbinden eine Ziel-/Maßphase mit dem nächsten Transfer oder Abzug\"),",
+          "sha256": "cf8b7d42a5bbb1471e5fb7eaadf38207f0da2606823482e91af288d75e3f01e7"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_ten_weak_cards_three_hundred_fourth/THREE_HUNDRED_FOURTH_REPORT.md",
+          "line": 3,
+          "line_end": 5,
+          "quote": "Die zehn Karten aus der Restklasse NAMED_WORKSTEP_IMPERATIVE sind anhand sämtlicher zwölf Vorkommen konkretisiert. Die stärksten neuen Kurzwerte sind: nächsten Durchgang ansetzen, länger im Folgegang weiterführen, frische Spülflüssigkeit einlassen, kurz am Ziel halten, kurz zum Folgeschritt weiterführen, bis Sollstand absetzen, am Zielgefäß bereitstellen, nächsten Einsatzposten nehmen, verbleibenden Posten erneut einsetzen und von der Quellseite zugießen.\n\nDamit enthält das 173-Karten-Imperativlexikon keine generische benannte Restoperation mehr. Der nächste Pass kann nun wiederkehrende Mehrkartenketten als gelernte Rezeptformeln erkennen, ohne die Einzelwörter umzudeuten.",
+          "sha256": "72c6013de909ab37e23152a2b6258bda928a26dcef5fd2f36df5a08eef7114ad"
+        }
+      ]
+    },
+    {
+      "master_card_id": "MC138",
+      "master_form": "dshedy",
+      "decision": "concrete_source_bound_clause_recovered",
+      "card_id": "CLEAN_GAP_DA:mc138_context_imperative",
+      "full_selected_clause": "Lass frische Spülflüssigkeit ein",
+      "short_action": "lass frische Spülflüssigkeit ein",
+      "source_rival": "Frischwasser zugeben",
+      "source_reason": "beginnt nach sichtbarem Stationswechsel eine neue Inline-Spülphase",
+      "counterpart_ids": [
+        "SEM:4fda516189260f87b030",
+        "SEM:51060534a6ef2e618bea",
+        "SEM:64b4255e40d14911ace1",
+        "SEM:813f7d0d662e99c2ce93",
+        "SEM:9cd9290a085bc457a7d2",
+        "SEM:b5d2db22a7e64cfcbd91",
+        "SEM:dcf5b2c268a54ff4c19d"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_ten_weak_cards_three_hundred_fourth/build_three_hundred_fourth.py",
+          "line": 29,
+          "line_end": 29,
+          "quote": "    \"MC138\": (\"Lass frische Spülflüssigkeit ein\", \"lass frische Spülflüssigkeit ein\", \"Frischwasser zugeben\", \"beginnt nach sichtbarem Stationswechsel eine neue Inline-Spülphase\"),",
+          "sha256": "cf8b7d42a5bbb1471e5fb7eaadf38207f0da2606823482e91af288d75e3f01e7"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_ten_weak_cards_three_hundred_fourth/THREE_HUNDRED_FOURTH_REPORT.md",
+          "line": 3,
+          "line_end": 5,
+          "quote": "Die zehn Karten aus der Restklasse NAMED_WORKSTEP_IMPERATIVE sind anhand sämtlicher zwölf Vorkommen konkretisiert. Die stärksten neuen Kurzwerte sind: nächsten Durchgang ansetzen, länger im Folgegang weiterführen, frische Spülflüssigkeit einlassen, kurz am Ziel halten, kurz zum Folgeschritt weiterführen, bis Sollstand absetzen, am Zielgefäß bereitstellen, nächsten Einsatzposten nehmen, verbleibenden Posten erneut einsetzen und von der Quellseite zugießen.\n\nDamit enthält das 173-Karten-Imperativlexikon keine generische benannte Restoperation mehr. Der nächste Pass kann nun wiederkehrende Mehrkartenketten als gelernte Rezeptformeln erkennen, ohne die Einzelwörter umzudeuten.",
+          "sha256": "72c6013de909ab37e23152a2b6258bda928a26dcef5fd2f36df5a08eef7114ad"
+        }
+      ]
+    },
+    {
+      "master_card_id": "MC144",
+      "master_form": "chldaiin",
+      "decision": "concrete_source_bound_clause_recovered",
+      "card_id": "CLEAN_GAP_DA:mc144_context_imperative",
+      "full_selected_clause": "Lass ihn bis zum Sollstand absetzen",
+      "short_action": "lass bis Sollstand absetzen",
+      "source_rival": "Sollabsetzung als Nomen",
+      "source_reason": "steht zwischen Quelltransfer und weiterem Überführen/Zugeben/Bereit",
+      "counterpart_ids": [
+        "SEM:c9357c951b474852f70d",
+        "SEM:d61fb23426811f45f8e6"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_ten_weak_cards_three_hundred_fourth/build_three_hundred_fourth.py",
+          "line": 30,
+          "line_end": 30,
+          "quote": "    \"MC144\": (\"Lass ihn bis zum Sollstand absetzen\", \"lass bis Sollstand absetzen\", \"Sollabsetzung als Nomen\", \"steht zwischen Quelltransfer und weiterem Überführen/Zugeben/Bereit\"),",
+          "sha256": "cf8b7d42a5bbb1471e5fb7eaadf38207f0da2606823482e91af288d75e3f01e7"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_ten_weak_cards_three_hundred_fourth/THREE_HUNDRED_FOURTH_REPORT.md",
+          "line": 3,
+          "line_end": 5,
+          "quote": "Die zehn Karten aus der Restklasse NAMED_WORKSTEP_IMPERATIVE sind anhand sämtlicher zwölf Vorkommen konkretisiert. Die stärksten neuen Kurzwerte sind: nächsten Durchgang ansetzen, länger im Folgegang weiterführen, frische Spülflüssigkeit einlassen, kurz am Ziel halten, kurz zum Folgeschritt weiterführen, bis Sollstand absetzen, am Zielgefäß bereitstellen, nächsten Einsatzposten nehmen, verbleibenden Posten erneut einsetzen und von der Quellseite zugießen.\n\nDamit enthält das 173-Karten-Imperativlexikon keine generische benannte Restoperation mehr. Der nächste Pass kann nun wiederkehrende Mehrkartenketten als gelernte Rezeptformeln erkennen, ohne die Einzelwörter umzudeuten.",
+          "sha256": "72c6013de909ab37e23152a2b6258bda928a26dcef5fd2f36df5a08eef7114ad"
+        }
+      ]
+    },
+    {
+      "master_card_id": "MC146",
+      "master_form": "chealror",
+      "decision": "concrete_source_bound_clause_recovered",
+      "card_id": "CLEAN_GAP_DA:mc146_context_imperative",
+      "full_selected_clause": "Stelle ihn am Zielgefäß bereit",
+      "short_action": "stelle am Zielgefäß bereit",
+      "source_rival": "Zielbereitung",
+      "source_reason": "folgt auf Bereitkarte und geht langer Sammlung voraus",
+      "counterpart_ids": [
+        "SEM:04d6638d0d80a1e46987",
+        "SEM:0fd0dbf347020ff17973",
+        "SEM:93be5198c8d1754a33d4",
+        "SEM:965854d9da73b34ea2aa"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_ten_weak_cards_three_hundred_fourth/build_three_hundred_fourth.py",
+          "line": 31,
+          "line_end": 31,
+          "quote": "    \"MC146\": (\"Stelle ihn am Zielgefäß bereit\", \"stelle am Zielgefäß bereit\", \"Zielbereitung\", \"folgt auf Bereitkarte und geht langer Sammlung voraus\"),",
+          "sha256": "cf8b7d42a5bbb1471e5fb7eaadf38207f0da2606823482e91af288d75e3f01e7"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_ten_weak_cards_three_hundred_fourth/THREE_HUNDRED_FOURTH_REPORT.md",
+          "line": 3,
+          "line_end": 5,
+          "quote": "Die zehn Karten aus der Restklasse NAMED_WORKSTEP_IMPERATIVE sind anhand sämtlicher zwölf Vorkommen konkretisiert. Die stärksten neuen Kurzwerte sind: nächsten Durchgang ansetzen, länger im Folgegang weiterführen, frische Spülflüssigkeit einlassen, kurz am Ziel halten, kurz zum Folgeschritt weiterführen, bis Sollstand absetzen, am Zielgefäß bereitstellen, nächsten Einsatzposten nehmen, verbleibenden Posten erneut einsetzen und von der Quellseite zugießen.\n\nDamit enthält das 173-Karten-Imperativlexikon keine generische benannte Restoperation mehr. Der nächste Pass kann nun wiederkehrende Mehrkartenketten als gelernte Rezeptformeln erkennen, ohne die Einzelwörter umzudeuten.",
+          "sha256": "72c6013de909ab37e23152a2b6258bda928a26dcef5fd2f36df5a08eef7114ad"
+        }
+      ]
+    },
+    {
+      "master_card_id": "MC162",
+      "master_form": "qolchey",
+      "decision": "concrete_source_bound_clause_recovered",
+      "card_id": "CLEAN_GAP_DA:mc162_context_imperative",
+      "full_selected_clause": "Nimm den nächsten Einsatzposten",
+      "short_action": "nimm nächsten Einsatzposten",
+      "source_rival": "Weiterposten",
+      "source_reason": "steht nach langem Einwirken und vor einer neuen langen/kurzen Einwirkungsfolge",
+      "counterpart_ids": [
+        "SEM:295e027ecb166fda4341",
+        "SEM:6f08f06f4b13ecbdc2a9",
+        "SEM:7688a10102c28b8ac374"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_ten_weak_cards_three_hundred_fourth/build_three_hundred_fourth.py",
+          "line": 32,
+          "line_end": 32,
+          "quote": "    \"MC162\": (\"Nimm den nächsten Einsatzposten\", \"nimm nächsten Einsatzposten\", \"Weiterposten\", \"steht nach langem Einwirken und vor einer neuen langen/kurzen Einwirkungsfolge\"),",
+          "sha256": "cf8b7d42a5bbb1471e5fb7eaadf38207f0da2606823482e91af288d75e3f01e7"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_ten_weak_cards_three_hundred_fourth/THREE_HUNDRED_FOURTH_REPORT.md",
+          "line": 3,
+          "line_end": 5,
+          "quote": "Die zehn Karten aus der Restklasse NAMED_WORKSTEP_IMPERATIVE sind anhand sämtlicher zwölf Vorkommen konkretisiert. Die stärksten neuen Kurzwerte sind: nächsten Durchgang ansetzen, länger im Folgegang weiterführen, frische Spülflüssigkeit einlassen, kurz am Ziel halten, kurz zum Folgeschritt weiterführen, bis Sollstand absetzen, am Zielgefäß bereitstellen, nächsten Einsatzposten nehmen, verbleibenden Posten erneut einsetzen und von der Quellseite zugießen.\n\nDamit enthält das 173-Karten-Imperativlexikon keine generische benannte Restoperation mehr. Der nächste Pass kann nun wiederkehrende Mehrkartenketten als gelernte Rezeptformeln erkennen, ohne die Einzelwörter umzudeuten.",
+          "sha256": "72c6013de909ab37e23152a2b6258bda928a26dcef5fd2f36df5a08eef7114ad"
+        }
+      ]
+    }
+  ],
+  "source_code_ast": {
+    "path": "experiments/yolo/sidequest_semantic_ten_weak_cards_three_hundred_fourth/build_three_hundred_fourth.py",
+    "sha256": "cf8b7d42a5bbb1471e5fb7eaadf38207f0da2606823482e91af288d75e3f01e7",
+    "assignment": "OVERRIDES",
+    "literal_entries": 10,
+    "tuple_schema": [
+      "new_imperative_de",
+      "selected_atomic_action_de",
+      "strongest_rival_de",
+      "context_reason_de"
+    ],
+    "schema_evidence": [
+      {
+        "path": "experiments/yolo/sidequest_semantic_ten_weak_cards_three_hundred_fourth/build_three_hundred_fourth.py",
+        "line": 67,
+        "line_end": 93,
+        "quote": "    for card_id, (clause, *_rest) in OVERRIDES.items():\n        clause_by_card[card_id] = clause\n\n    decisions = []\n    for card_id, (clause, atomic, rival, reason) in OVERRIDES.items():\n        occurrences = [r for r in raw if r[\"master_card_id\"] == card_id]\n        contexts = []\n        for event in occurrences:\n            selected = by_statement[event[\"statement_id\"]]\n            index = selected.index(event)\n            before = selected[index - 1][\"visible_surface\"] if index else \"<START>\"\n            after = selected[index + 1][\"visible_surface\"] if index + 1 < len(selected) else \"<END>\"\n            contexts.append(f\"{event['event_id']}:{event['record_unit_id']}/{event['statement_id']}:{before}>{event['visible_surface']}>{after}\")\n        source = next(r for r in lexicon if r[\"master_card_id\"] == card_id)\n        decisions.append({\n            \"master_card_id\": card_id,\n            \"master_form\": source[\"master_form\"],\n            \"source_short_value_de\": source[\"source_short_value_de\"],\n            \"old_imperative_de\": source[\"imperative_clause_de\"],\n            \"selected_atomic_action_de\": atomic,\n            \"new_imperative_de\": clause,\n            \"strongest_rival_de\": rival,\n            \"context_reason_de\": reason,\n            \"occurrence_count\": len(occurrences),\n            \"occurrence_contexts\": \" | \".join(contexts),\n        })\n    decision_path = HERE / \"THREE_HUNDRED_FOURTH_TEN_CARD_DECISIONS.tsv\"",
+        "sha256": "cf8b7d42a5bbb1471e5fb7eaadf38207f0da2606823482e91af288d75e3f01e7"
+      }
+    ],
+    "execution": "AST literal_eval only; no legacy runner execution"
+  },
+  "metadata_query": {
+    "command": [
+      "./vmanus-exp",
+      "query-tsv",
+      "experiments/yolo/sidequest_semantic_ten_weak_cards_three_hundred_fourth/THREE_HUNDRED_FOURTH_173_REVISED_IMPERATIVE_LEXICON.tsv",
+      "--selector",
+      "master_card_id",
+      "--allow",
+      "MC024",
+      "--allow",
+      "MC063",
+      "--allow",
+      "MC089",
+      "--allow",
+      "MC102",
+      "--allow",
+      "MC112",
+      "--allow",
+      "MC135",
+      "--allow",
+      "MC138",
+      "--allow",
+      "MC144",
+      "--allow",
+      "MC146",
+      "--allow",
+      "MC162",
+      "--columns",
+      "master_card_id,master_form,imperative_clause_de,conversion_method"
+    ],
+    "stdout": "master_card_id\tmaster_form\timperative_clause_de\tconversion_method\nMC024\tqokol\tSetze den verbleibenden Posten erneut ein\tCONTEXT_NARROWED_VERB\nMC063\toteey\tFühre ihn länger im Folgegang weiter\tCONTEXT_NARROWED_VERB\nMC089\tskar\tGieße ihn von der Quellseite zu\tCONTEXT_NARROWED_VERB\nMC102\trsheal\tHalte den zugeführten Posten kurz am Ziel\tCONTEXT_NARROWED_VERB\nMC112\toctheol\tSetze den nächsten Durchgang an\tCONTEXT_NARROWED_VERB\nMC135\totedy\tFühre ihn kurz zum Folgeschritt weiter\tCONTEXT_NARROWED_VERB\nMC138\tdshedy\tLass frische Spülflüssigkeit ein\tCONTEXT_NARROWED_VERB\nMC144\tchldaiin\tLass ihn bis zum Sollstand absetzen\tCONTEXT_NARROWED_VERB\nMC146\tchealror\tStelle ihn am Zielgefäß bereit\tCONTEXT_NARROWED_VERB\nMC162\tqolchey\tNimm den nächsten Einsatzposten\tCONTEXT_NARROWED_VERB\n",
+    "stderr": "GUARD_STATS {\"selected\": 10, \"skipped_forbidden\": 0, \"skipped_not_allowed\": 163}\n",
+    "source_sha256": "c5ea0a60651aa754430de7702874b1634eb91b08e4730529b0fe016c596b39b0",
+    "projection_sha256": "9b095eb265ed1ef6a0eea143425738eaf6b2ede5e26da16aaa23c4739d20b676",
+    "selected": 10,
+    "columns": [
+      "master_card_id",
+      "master_form",
+      "imperative_clause_de",
+      "conversion_method"
+    ],
+    "raw_event_access": false
+  },
+  "counterpart_bindings": [
+    {
+      "id": "SEM:3f6fcb1fe021b347e579",
+      "card_basis": "08364f423fdedf25a8ae034994cdc08be3c4b06bc51aa26ba96eb0bfc858de99",
+      "effective_basis": "2b1aa1aebb30d4a78b2753f34868ab665f6a74983d48a344405d09299028444b"
+    },
+    {
+      "id": "SEM:46657d612c63a5952efc",
+      "card_basis": "7a7724a5658009c106a22d1b731c2b13cf474acebf49475f21b2a437462dd11a",
+      "effective_basis": "d8268ee5cf1ddd57cd62d127a012962a443a3e8205754a0ae9cde3fc1968c267"
+    },
+    {
+      "id": "SEM:96b51c2e084e33cecca9",
+      "card_basis": "e66a45a86676a2b1271305a16484578df0e6cbc54ed1a1d37fb3c8ceaba411a3",
+      "effective_basis": "08a60ebb44ceec82ca410a1a024d301ec8fde4faf4dcd3dedf1b841988d58a37"
+    },
+    {
+      "id": "SEM:b80aa5362d4d5577ac5b",
+      "card_basis": "00f73478616b2747182bff9ca8247d340b33544b2e7110ee3be6c9aba62e066e",
+      "effective_basis": "ce389b75df5b326262c8ac37945ff7ea6a75662bf81f3473b1d2ab154ca3a5d3"
+    },
+    {
+      "id": "SEM:ed32493afa573a6e41bf",
+      "card_basis": "4e3306fd455fe2e5cf619a586ebe2b87fb16f7864d508a66014a6fbd1feee2d0",
+      "effective_basis": "52c2b4519dcf2173accfc5fdb6c03c8e887f2538ab072b2039276004f6f06280"
+    },
+    {
+      "id": "SEM:14e2e378a9c1b3623733",
+      "card_basis": "45f509449c022899fc3523cfb970ccae76c36926ec12679b4692706aae3e5c9b",
+      "effective_basis": "4dd1401838b054baefce8cf63fe440e4b7dbf379777de7b5a13576e9c9fb2e6c"
+    },
+    {
+      "id": "SEM:fe20fd346650ce49ad46",
+      "card_basis": "ab3854e89e59d27b2a7695eeda415effff73b51b317ac8805546b41f13ffb118",
+      "effective_basis": "f78b591d8c09765d6bf87203227928a1ce68ecda2c6b53d099e7484c42ddecf4"
+    },
+    {
+      "id": "SEM:c7cb60289bece8212c30",
+      "card_basis": "441dd961b97bfd6df0af54607d7432d08dfaed345118347beb71dc355f8a616b",
+      "effective_basis": "9f3e509b0b3382ea4f008fcc707d44a94bbbe31af80cbed191149acaeadaf73f"
+    },
+    {
+      "id": "SEM:edc2b120b820eb641a52",
+      "card_basis": "2c2de3d6a36f60a5de6cd7971fe3c4420fe149201d0c58b2830282ac63eb28b0",
+      "effective_basis": "fe8c38194e7aa10290af577c3223c3c9a614f74bbe43496b6da56e2ef72a3eb3"
+    },
+    {
+      "id": "SEM:f1d05f1091f10f6a0aee",
+      "card_basis": "3593efa8ea6a3f959f9ae9f0678c1806c9a839378a23114c873bcb8d989befb8",
+      "effective_basis": "21ac2807c5227b6e9a6b34a52be43c790852010875c0773554b6137d887d4dc4"
+    },
+    {
+      "id": "SEM:8d00d8d19dcdd9c0586c",
+      "card_basis": "2e35a3a1a1f530228f479ad05957a4bb6b29f9ffe8f8cbb268215b653f9559b8",
+      "effective_basis": "bf7dfbd89b382f0b34ccd4c0cf3339bd7cbc6b8717a5a4aad9da40c16f1fcbd6"
+    },
+    {
+      "id": "SEM:91384e413e4b633c2e9e",
+      "card_basis": "954d5310845994721ba97bcc8ddab48df373a33ccd8d0667f3a0bdb019476d79",
+      "effective_basis": "fc389387c26258cdfa7f695e12d315ae4a6295c4ee890b317cb505b6611fd35b"
+    },
+    {
+      "id": "SEM:bc759eb8ba835066963d",
+      "card_basis": "502bebd2823eb1f82c9391bb74ac3e67ff4173d09d54bac8390e55b749bf6f40",
+      "effective_basis": "eb53206a4d2758120cd99cbc726872088e11916d37b008cd611660efeadf9f4b"
+    },
+    {
+      "id": "SEM:c5274835330845ff6c65",
+      "card_basis": "5c5d0cd86a4eec1c56d70ade172ae0a873c2d4d8dac065e1e8c40ad576291549",
+      "effective_basis": "c0ee676cbc74caef65aa08de6f1704db8989a462fde7468b38b86171855f7e90"
+    },
+    {
+      "id": "SEM:fe3d1a40664010dfd099",
+      "card_basis": "b72b6bf7f9e1f57ec1bca916cfd0b0c0c747c25021baf4c495be2f275ffcedfa",
+      "effective_basis": "53f3208dc560cf3e7416707fd60b08a826cedd0276d36500575ffc2217cd1419"
+    },
+    {
+      "id": "SEM:7f719c305bb9b239cb4f",
+      "card_basis": "92ebf0f0d5d63a7b29d7007c0849b851badf5083cfeb4f8145e55ae2a95fba61",
+      "effective_basis": "0bdd1767b4ecf92971023b3d5723e8834f603ac3c60e7d12a72ddcc0b3c9023e"
+    },
+    {
+      "id": "SEM:801c86ad701f4da47c03",
+      "card_basis": "cfc49b0ccf10e3e02d0466095869d2b08ffe32d578a28bdd844dfdbbb2b71d20",
+      "effective_basis": "bed0e910d4ad1f439b1bee480b46d3e204cb94c9767aee929b81af9322fb89da"
+    },
+    {
+      "id": "SEM:4fda516189260f87b030",
+      "card_basis": "d6dd09ad367bbb6c9009e07ab7bb4ed58c43a341e348887924b4b767c46dde3b",
+      "effective_basis": "6b53c4950a8d2e7713632f9e21e57b92cdf56b7f022c3e8f9fde90a666c212b1"
+    },
+    {
+      "id": "SEM:51060534a6ef2e618bea",
+      "card_basis": "d0046a077d0a88b6a129ca74b03138485a113fddaa5ba98746cc1df48081a182",
+      "effective_basis": "1cf71392612d29906ed94b174b0201f9ac051f0ab5a551505a096802b2c2d8c8"
+    },
+    {
+      "id": "SEM:64b4255e40d14911ace1",
+      "card_basis": "2ad12793301082369923b988cb8b59dfe12b12902a3ad223dca156c03e239d8e",
+      "effective_basis": "279a774e85f5da4ea3b7ff73ffc487c0d71395522c2447a4bdeb5704f7cacaf8"
+    },
+    {
+      "id": "SEM:813f7d0d662e99c2ce93",
+      "card_basis": "7d3de8e86a6e882796bc49b2a1673a249c4661cd93db5d6c3be792b001965487",
+      "effective_basis": "94de475e5974359503d122f02d48429a0bec864139fdea26434b3fe19ea719f9"
+    },
+    {
+      "id": "SEM:9cd9290a085bc457a7d2",
+      "card_basis": "36f6ed18ea29835f8f1f931cad354ba50962e1028b0394b1dfbc6abaf8c1f3bf",
+      "effective_basis": "d3b509248fad19f2c599e4739d23020905133f8b4f6e05b84e43cd0a7b887bb2"
+    },
+    {
+      "id": "SEM:b5d2db22a7e64cfcbd91",
+      "card_basis": "9c679de589a235e75101d4a1cce0a48f4a1c34bb3c3b339ddff0b85407f21b02",
+      "effective_basis": "3df5999388cd0a66ce6903b29da547f41db5ecb2e10df7cc93d8c68c5fd2e00d"
+    },
+    {
+      "id": "SEM:dcf5b2c268a54ff4c19d",
+      "card_basis": "e927385790cfa98a69d1a0db432a6a54a88568e6f0063082ca92f32b5d0e0e73",
+      "effective_basis": "d8749c7c11bb7be403d885bba584a159a7c6e5db6c6c1af7c19c30891eed6e82"
+    },
+    {
+      "id": "SEM:c9357c951b474852f70d",
+      "card_basis": "168c15ce973e7093ba7d57c9a24b9c257af655f18717d794cb65888407333566",
+      "effective_basis": "8ed9f1f3777f79bc8ab960d2502e49443f81f6a9ae6192c389a4fb3cd77067e9"
+    },
+    {
+      "id": "SEM:d61fb23426811f45f8e6",
+      "card_basis": "86bc2ea2719493ebe0be23fa544b5b6ed6db4caf107d1b27cea01e62d942c4fc",
+      "effective_basis": "21fdfe48028a2acd6f259bc0bfcae42bccf133a1066d4342908f25e5f9a6633d"
+    },
+    {
+      "id": "SEM:04d6638d0d80a1e46987",
+      "card_basis": "a6e8ff24c147e40980cdcd90e6bd0dd773ceafd3eb9a6232aad041812894da1b",
+      "effective_basis": "d96e6cabe1988b177605b792f51a292a1f3f7df08f2858482737f984f07802d6"
+    },
+    {
+      "id": "SEM:0fd0dbf347020ff17973",
+      "card_basis": "8fa7e86d2fe60a1b447ba2671e8ed349635315939cf37a9ee1f837f33fbac1e3",
+      "effective_basis": "44b2a7c5b5c03513ea1206ed537c75c19efe217b28d35b6034d0bc7c14f9c429"
+    },
+    {
+      "id": "SEM:93be5198c8d1754a33d4",
+      "card_basis": "a026655452b876770486884751ceb907ecd3e487e380f7e6ce5c82e6ac3d801d",
+      "effective_basis": "664a602479f538aa85446bf4b172018e7b6e2ba68a0e1c4e27a6a787fdb99684"
+    },
+    {
+      "id": "SEM:965854d9da73b34ea2aa",
+      "card_basis": "fdf5538e6d39573f5910dfc70aae15609c34ca9b5086c6f52f94567be153449e",
+      "effective_basis": "1ef03b27cb03505bff3301b2be2226c1fff0587998e81bf3b58055647a96ac7a"
+    },
+    {
+      "id": "SEM:295e027ecb166fda4341",
+      "card_basis": "68cbdc3f95dfb0fe57ad21f7408280b7ff801d8519ff7568789a2743ded53a8c",
+      "effective_basis": "69b85e6eab2b5f3eb107c58b93b26eeb88ac73231ce70698eb7bde51712dba10"
+    },
+    {
+      "id": "SEM:6f08f06f4b13ecbdc2a9",
+      "card_basis": "1d0cdc7d86a8aef6eda66501bb309bebc2839c75fafe5d6a741b75eb00ecffeb",
+      "effective_basis": "c54327527a13dc4907bea90eb0a035cd6f0078138a70f8d14bd77bed21680720"
+    },
+    {
+      "id": "SEM:7688a10102c28b8ac374",
+      "card_basis": "c6f334be8c7b04bb25ec3c7a41146dabb738bce6e376691d2255efb9eafb3604",
+      "effective_basis": "776d92954cdaed47d7eea28b11373952207279c1cc092f05411ec573e3a4fbce"
+    }
+  ],
+  "validation": {
+    "known_source_id": "LEGACY_COMPONENT:3566deb24f26b61c89e6",
+    "all_ten_literal_clauses_match_projected_lexicon": true,
+    "ten_conversion_methods_match": true,
+    "cards_validate": "PASS",
+    "safe_source_paths_tracked": true
+  },
+  "limits": [
+    "No event, statement, transcription or raw manuscript TSV was read. No build was imported or executed.",
+    "Only four authored lexicon metadata columns were guard-projected for the ten declared MC IDs.",
+    "Ten exact historical clauses are not ten independent decipherment mechanisms or confirmed whole-word translations."
+  ]
+}

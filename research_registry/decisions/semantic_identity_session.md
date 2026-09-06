@@ -172,3 +172,38 @@ CQ3positive exact lexical equivalences produce42groups/51displayreductions;
 35nonidentity/rival/specializationlinks unchanged. CT2historical revisions yield
 24scoped dossiers,9conditional questions remain unready. New CV identities,
 CW581–640 and CX301–393 bounded recovery reviews continue independently.
+
+CY reason-memory decision: seven existing historical cards lack a precise
+source-scoped explanation despite explicit primary holds/revisions. Six bounded
+source comparisons separate living rivals, internal consistency, missing material
+binding, witness/unit ambiguity and an unlicensed causal path. Either outcome
+changes reconsideration routing, not decipherment status. Smallest adequate
+work: six current-bound context dossiers with exact quotes, independent peer
+and existing validation. Budget20minutes including publication; no new tests,
+raw images, material identification or rerun.
+
+CW–DC integration decision:33 primary-backed cases resolve two incomplete
+report cohorts, including Pass304 MC/form/clause mappings and nine bath cases
+as two bundles. The remaining uncertainty is scoped meaning/identity, not a
+missing renderer implementation. Distinct recovered propositions do not prove
+independent mechanisms. Integrate peer-approved scope fixes, one CV lexical
+equivalence, six CY source-reason dossiers and the DB historical referent
+revision after binding its actual new card. Budget25minutes including final
+bindings, existing source/unit/privacy checks and publication; no experiment,
+raw event access or semantic confirmation. DD changed-input review remains a
+separate bounded comparison, not automatic reopening.
+
+DF interpretation correction: the compact authoritative route now qualifies
+GDT685 fixed semantic roles/verdicts/ranks as non-independent. The old active-
+state prose is itself bound as a historical registry source, so its original
+bytes are preserved; the append-only DF dossier supplies current interpretation.
+No global noun/cipher/language rejection or new experiment follows.
+
+CW–DF checkpoint:34sourcecases yield3719semantic265formalvariants and4507cases.
+43equivalencegroups reduce52displayvariants;35otherrelations unchanged.
+32scoped dossiers and9conditional questions validate; no ready experiment.
+Exact Pass304 metadata bridges and DC bundles close selected source gaps.
+GDT685 interpretation corrected through authoritative route/DF; all bound
+historical source bytes preserved. DD source-transition method caveat integrated.
+DE/DG remain separate: previous source interval is not automatic proposition
+coverage, and open-status variants must not be silently excluded.

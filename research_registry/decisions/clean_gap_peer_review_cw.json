@@ -1,0 +1,438 @@
+{
+  "review_id": "CLEAN_GAP_PEER_REVIEW_CW",
+  "status": "CLAIMS_APPROVED_WITH_TWO_METADATA_FIXES_AND_ONE_COVERAGE_FIX",
+  "reviewed_inputs": {
+    "clean_gap_review_cw.json": "5a9714073c5d0ee6dad48b4b9003ca670df931794bf5f4597c512bace51cfcce",
+    "source_coverage_gap_batch_cw.json": "46aa5c194338a7cf38cba191a51bfd7c0c32b1885dafd9521eb1cc78586dd1f2"
+  },
+  "card_reviews": [
+    {
+      "id": "CLEAN_GAP_CW:vessel_relational_register_model",
+      "decision": "approve_claim_fix_metadata",
+      "reason": "The primary assigns the four Pharma roles and the Biological basin/conduit realizations as one register-dependent relational vessel model. Four atomic role cards preserve its quotation but not the full register proposition. No universal vessel stem or confirmed semantic binding is inferred.",
+      "required_metadata_fixes": [
+        "Set independent_new_idea to false or replace this ambiguous flag with distinct_recovered_proposition=true. Bounded recovery establishes an addressable full assertion, not scientific independence or global novelty of its mechanism."
+      ],
+      "required_claim_fixes": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt582_concrete_stem_default_fill/REPORT.md",
+          "line": 114,
+          "line_end": 118,
+          "quote": "Gefäß ist ebenfalls kein einzelner universeller Stamm. Es erscheint konkret\nin Pharma als `AL=Aufnahme-/Zielgefäß`, `AR=Ausgangsgefäß`,\n`L=Gefäßkontakt` und `OR=Gefäß- oder Arbeitseinheit`; in Biological werden\ndieselben Relationskerne zu Zielbecken, Ausgangsbecken und Leitung. So sagt die\nKomposition, welche Rolle das Gefäß spielt.",
+          "sha256": "19036c35d8aba35b3605fc9aa60b752584194bef4c01a570a5b701e1587d5adb"
+        }
+      ]
+    },
+    {
+      "id": "CLEAN_GAP_CW:aiin_register_measure_model",
+      "decision": "approve_claim_fix_metadata",
+      "reason": "The primary explicitly supplies the common measure/characteristic-value umbrella and all four local domains, including the tentative plant-extract realization. This is the historical GDT582 model, not a modern global AIIN truth. The subsequent truncated CHD/T evidence is unnecessary to this claim.",
+      "required_metadata_fixes": [
+        "Set independent_new_idea to false or replace this ambiguous flag with distinct_recovered_proposition=true. Bounded recovery establishes an addressable full assertion, not scientific independence or global novelty of its mechanism."
+      ],
+      "required_claim_fixes": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt582_concrete_stem_default_fill/REPORT.md",
+          "line": 38,
+          "line_end": 46,
+          "quote": "Ein Beispiel ist `AIIN`. Global ist es nur `Maß oder Kennwert`; im Herbal-\nRegister wird es `Pflanzenauszug oder Arbeitsmaß`, am Ring `Positionswert`, im\nBad `Stations- oder Badmaß` und im Pharma-Register `Dosis- oder Mengenmaß`.\nDamit kann eine lokale Wasser- oder Weinlesung bestehen, ohne dass eine\nSternpassage Wasser auswählen, halten oder markieren muss.\n\nDasselbe gilt für Handlungen. `CHD` bleibt kurz `bearbeiten/behandeln`; bei\nPflanzen oder Drogen darf es zerreiben heißen, am Ring berechnen und im Bad\nbehandeln. `T` bleibt `einstellen/temperieren`; erwärmen, kühlen oder trocknen",
+          "sha256": "19036c35d8aba35b3605fc9aa60b752584194bef4c01a570a5b701e1587d5adb"
+        }
+      ]
+    },
+    {
+      "id": "CLEAN_GAP_CW:cth_heating_rival_pair",
+      "decision": "approve",
+      "reason": "The two exact whole-form heated-leaf hypotheses are explicit historical alternatives. The primary says they do not win and gives register/selection as competing explanations; a later same-carrier transition is a proposed discriminator, not a satisfied gate. The bare e rival does not fully preserve both whole-form payloads.",
+      "required_metadata_fixes": [],
+      "required_claim_fixes": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt633_cth_interfix_semantic_contrasts/REPORT.md",
+          "line": 129,
+          "line_end": 141,
+          "quote": "Auffällig bleibt die Gegenrichtung: Unter den 55 no-O-E-Vorkommen gibt es nur\neinen kalten und keinen unmittelbar kalten Kontakt. Das erlaubt weiterhin die\nRivalenlesung:\n\n```text\nchecthy  erhitztes trockenes Blattgut\nshecthy  erhitztes feuchtes Blattgut\n```\n\nSie gewinnt nicht. Der Kältemangel kann Register oder lokale Auswahl sein und\nbeweist kein in `e` verstecktes Kochverb. Erst ein wiederholter sichtbarer\nungeheizt→erhitzt-Wechsel desselben Trägers würde diese Lesung vor die Bindung\nsetzen.",
+          "sha256": "9e1b792cd3344a6eccfd05b390676bc00b27aa129f3d852a06b2785e97eb6a02"
+        }
+      ]
+    },
+    {
+      "id": "CLEAN_GAP_CW:qotor_nominal_carrier_rival",
+      "decision": "approve",
+      "reason": "The weaker cold part/nominal-carrier reading is explicitly allowed, distinct from the selected drug-portion specificity. It is neither a dose nor a named plant-part identification. Rival quotation within the preferred card is not automatically an independently addressable rival proposition.",
+      "required_metadata_fixes": [],
+      "required_claim_fixes": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt640_downstream_component_prediction/REPORT.md",
+          "line": 67,
+          "line_end": 74,
+          "quote": "`qotor = kalte Drogenportion` ist dadurch keine isolierte Wortassoziation,\nsondern die kurze Lesung eines vollständig belegten Kreuzfelds. Der\nvorsichtigere Rivale „kalter Teil-/Nominalträger“ bleibt möglich; „Dosis“ oder\nein bestimmter Pflanzenteil wäre schon zu eng.\n\nVon 26 Vorkommen sind 22 reader-exakt. Elf stehen am Zeilenanfang, vierzehn im\nInneren und eines am Ende. Das schließt eine nominale Portion nicht ein, aber\nes widerspricht ihr an keiner Stelle.",
+          "sha256": "68d7a1089e298c0050f40a68a00fdb67507a0902691b516be00e532bf96aeb41"
+        }
+      ]
+    },
+    {
+      "id": "CLEAN_GAP_CW:hot_raw_cold_prepared_inventory",
+      "decision": "approve",
+      "reason": "The complete two-form f25r.6 example and its inventory/recipe juxtaposition are explicitly stated. The claim retains both hot raw-material classification and cold-dry prepared expression; it does not assign simultaneous contradictory heat/cool commands. This is one local scenario, not a new generalized mechanism.",
+      "required_metadata_fixes": [],
+      "required_claim_fixes": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt640_downstream_component_prediction/REPORT.md",
+          "line": 116,
+          "line_end": 138,
+          "quote": "## Drei neue vollständige Arbeitslesungen\n\n1. `f37v.16  qotor daiin chotaiin`\n\n   **Kalte Drogenportion; Menge/Portion III; trockene Zubereitung: kalt,\n   Grad III.**\n\n2. `f25r.6  okal chotaiin`\n\n   **Ansatz aus heißem Rohstoff, Form I; trockene Zubereitung: kalt,\n   Grad III.**\n\n   Als knappe Inventar- oder Rezeptzeile ist das eine Gegenüberstellung von\n   heiß klassifiziertem Rohstoff und kalt-trockener bereiteter Form, keine\n   widersprüchliche lineare Anweisung „erhitze und kühle gleichzeitig“.\n\n3. `f49r.11  chotcheol dchol`\n\n   **Trockenansatz aus kalt-trockenem Drogenstoff; Maß trockenen Materials.**\n\nAlle drei Zeilen sind in ZL3b, IT2a und RF1b vollständig vorhanden, an jeder\nPosition exakt und ohne aktiven Trägerrivalen.\n",
+          "sha256": "68d7a1089e298c0050f40a68a00fdb67507a0902691b516be00e532bf96aeb41"
+        }
+      ]
+    },
+    {
+      "id": "CLEAN_GAP_CW:e3512_temporal_scope",
+      "decision": "approve",
+      "reason": "The primary expressly proposes initially gradeII then gradeIII without changing E3512 object choice. Event ID and ellipsis are preserved; no unquoted full line, universal chronology, or empirical temporal confirmation is invented.",
+      "required_metadata_fixes": [],
+      "required_claim_fixes": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt596_bath_object_compound_scope_phrasebook/REPORT.md",
+          "line": 113,
+          "line_end": 139,
+          "quote": "## Was exakt bedeutet — und was nicht\n\n`254/254 exakt` heißt: Das kleine Phrasebook kann unsere vollständige aktuelle\nArbeitslesart aus ihren sichtbaren Typ-, Bezugs- und Modifikatorentscheidungen\nreproduzieren. Es heißt nicht, dass jede deutsche Langform natürlich oder jede\nObjektbindung endgültig ist. Die sechs GDT595-Hostbindungsrivalen E2863, E3224,\nE3523, E3533, E3563 und E3664 bleiben ausdrücklich markiert und behalten\ntrotzdem jeweils einen Primärdefault.\n\nEine vollständige manuelle Werkstattlektüre aller 254 Slots und ihres\n793-Aussagen-Kontexts markiert deshalb ein zweites, bewusst nicht destruktives\nDeck:\n\n- 16 Stellen brauchen vor allem flüssigere Scope-, Orts- oder Trägergliederung;\n- 6 Stellen behalten einen Objektrivalen;\n- E3523 behält zusätzlich eine Gabel zwischen rechtem Gemeinkomplement und\n  diskontinuierlicher Diskursanaphora;\n- nur E2952 (Station/Portion) und E3224 (Körper/Station) sind unmittelbare\n  starke Objektgabeln.\n\nKein Fall wird gestoppt oder aus der Übersetzung entfernt. Beispielsweise wird\nE3512 natürlicher zeitlich gesprochen—„zunächst Grad II, anschließend … Grad\nIII“—ohne seine Objektwahl zu ändern. E3020 verbindet Haupt-, Neben- und\nArbeitsstelle als Weg statt als drei simultane Orte. Bei E1599 werden\nBadeinheit und Portion zu Begleitträgern des Stationsansatzes statt zu drei\ngleichrangigen Badepatienten. Das vollständige 23-Karten-Deck steht im\nreproduzierbaren Artefakt.",
+          "sha256": "28303de8073bc0a5f6ac2925e8ddae77ec104dd3dc0b2556d9419e3f32cdb3b4"
+        }
+      ]
+    },
+    {
+      "id": "CLEAN_GAP_CW:e3020_path_scope",
+      "decision": "approve",
+      "reason": "The primary assigns the three local sites a path relation rather than three simultaneous sites. This is exactly E3020, not a generalized spatial syntax or independent place-name mapping.",
+      "required_metadata_fixes": [],
+      "required_claim_fixes": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt596_bath_object_compound_scope_phrasebook/REPORT.md",
+          "line": 133,
+          "line_end": 139,
+          "quote": "Kein Fall wird gestoppt oder aus der Übersetzung entfernt. Beispielsweise wird\nE3512 natürlicher zeitlich gesprochen—„zunächst Grad II, anschließend … Grad\nIII“—ohne seine Objektwahl zu ändern. E3020 verbindet Haupt-, Neben- und\nArbeitsstelle als Weg statt als drei simultane Orte. Bei E1599 werden\nBadeinheit und Portion zu Begleitträgern des Stationsansatzes statt zu drei\ngleichrangigen Badepatienten. Das vollständige 23-Karten-Deck steht im\nreproduzierbaren Artefakt.",
+          "sha256": "28303de8073bc0a5f6ac2925e8ddae77ec104dd3dc0b2556d9419e3f32cdb3b4"
+        }
+      ]
+    },
+    {
+      "id": "CLEAN_GAP_CW:e1599_accompanying_carriers",
+      "decision": "approve",
+      "reason": "The primary makes the bathing unit and portion accompanying carriers of the station preparation, not three equal bath patients. This is a scoped participant-hierarchy reading and not a global reinterpretation of those object words.",
+      "required_metadata_fixes": [],
+      "required_claim_fixes": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt596_bath_object_compound_scope_phrasebook/REPORT.md",
+          "line": 133,
+          "line_end": 139,
+          "quote": "Kein Fall wird gestoppt oder aus der Übersetzung entfernt. Beispielsweise wird\nE3512 natürlicher zeitlich gesprochen—„zunächst Grad II, anschließend … Grad\nIII“—ohne seine Objektwahl zu ändern. E3020 verbindet Haupt-, Neben- und\nArbeitsstelle als Weg statt als drei simultane Orte. Bei E1599 werden\nBadeinheit und Portion zu Begleitträgern des Stationsansatzes statt zu drei\ngleichrangigen Badepatienten. Das vollständige 23-Karten-Deck steht im\nreproduzierbaren Artefakt.",
+          "sha256": "28303de8073bc0a5f6ac2925e8ddae77ec104dd3dc0b2556d9419e3f32cdb3b4"
+        }
+      ]
+    }
+  ],
+  "source_disposition_reviews": [
+    {
+      "selection_index": 0,
+      "source_id": "LEGACY_COMPONENT:3084320934b9929c9c52",
+      "decision": "approve",
+      "original_decision": "historical_full_assertion_recovered",
+      "reason": "Recover the explicitly stated complete model, rival or local relation without promoting its historical status."
+    },
+    {
+      "selection_index": 1,
+      "source_id": "LEGACY_COMPONENT:3ef613564a92d59b1060",
+      "decision": "approve",
+      "original_decision": "method_future_candidate_queue",
+      "reason": "Lists six desired fine operation distinctions but does not assert an implemented object-by-grade mapping; do not invent six translations."
+    },
+    {
+      "selection_index": 2,
+      "source_id": "LEGACY_COMPONENT:ec3dbf075501c0260dbb",
+      "decision": "approve",
+      "original_decision": "historical_model_assessment",
+      "reason": "Only the hybrid was fully rendered; three rivals have heuristic costs. These are model-internal context conflicts, not independent refutations of global water/heat/strain/grind/vessel/plantpart meanings."
+    },
+    {
+      "selection_index": 3,
+      "source_id": "LEGACY_COMPONENT:f84cb9dee631118675a4",
+      "decision": "approve_explicit_unresolved",
+      "original_decision": "unresolved_full_scope",
+      "reason": "Four organ-plus-plant-referent alternatives are named, but the selected prose does not give complete organ/referent values for all four. Existing individual organ and plant glosses do not establish the full packages; retained as unresolved audit, not a placeholder card. No placeholder card or full-coverage claim should be generated."
+    },
+    {
+      "selection_index": 4,
+      "source_id": "LEGACY_COMPONENT:a147ae545abd397738b7",
+      "decision": "approve",
+      "original_decision": "method_artifact_pointer",
+      "reason": "Artifact pointer only, not a substantive proposition."
+    },
+    {
+      "selection_index": 5,
+      "source_id": "LEGACY_COMPONENT:2fd49cd9ac679b2ab614",
+      "decision": "fix_coverage_scope",
+      "original_decision": "existing_model_instances",
+      "reason": "The two named counterparts explicitly cover the hybrid same-event right-edge extension. They do not by themselves assert the five left-resumption cases or four definite-default/episode cases. The event-specific instructions need either an exact scoped counterpart or preservation as historical cases; do not mark all thirteen fully covered by a right-edge rule.",
+      "right_edge_group": [
+        "E1742",
+        "E2863",
+        "E3523",
+        "E3664"
+      ],
+      "left_group_not_proved_by_cited_rule": [
+        "E1445",
+        "E1523",
+        "E2426",
+        "E2552",
+        "E2988"
+      ],
+      "default_episode_group_not_proved_by_cited_rule": [
+        "E3218",
+        "E3219",
+        "E3488",
+        "E3489"
+      ],
+      "required_action": "Keep the source span and nine named cases as source_present_scope_not_yet_matched pending exact case/rule comparison. Even the four right-group cases should not become four independent mechanisms. Preserve initial intake; append a scoped reassessment only.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 94,
+          "line_end": 123,
+          "quote": "## Konkrete Lesungen\n\nStarke linke Wiederaufnahmen:\n\n```text\nE1445  Führe die Anwendungsportion zu. Halte dieselbe Anwendungsportion im Bad auf Grad II.\nE1523  Wähle die Einheit aus. Halte dieselbe Becken- oder Körpereinheit im Bad auf Grad I.\nE2426  Behandle den Stationsansatz. Halte denselben Stationsansatz bei der angegebenen Füllung im Bad auf Grad I.\nE2552  Bereite die Anwendungsportion und das Badmaß vor. Halte dieselbe Anwendungsportion im Bad auf Grad I.\nE2988  Verwende die Becken- oder Körpereinheit. Halte dieselbe Becken- oder Körpereinheit im Bad auf Grad I.\n```\n\nRechtsabschließende gemeinsame Komplemente:\n\n```text\nE1742  Halte den Körper im Bad auf Grad II. Lass den Körper anschließend abkühlen.\nE2863  Halte den Stationsansatz im Bad auf Grad I. Entnimm oder lass ab. Wende den Stationsansatz an.\nE3523  Halte den Stationsansatz im Bad auf Grad I. Entnimm oder lass ab. Behandle den Stationsansatz.\nE3664  Halte den Stationsansatz im Bad auf Grad I. Temperiere den Stationsansatz. Halte denselben Stationsansatz erneut im Bad.\n```\n\nDefinite Defaults und Episodenfortsetzung:\n\n```text\nE3218  Halte den Körper im Bad bei der angegebenen Füllung auf Grad I.\nE3219  Halte denselben Körper im Bad auf Grad I.\nE3488  Halte denselben Stationsansatz im Bad auf Grad I.\nE3489  Halte denselben Stationsansatz im Bad auf Grad I.\n```\n",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        }
+      ]
+    },
+    {
+      "selection_index": 6,
+      "source_id": "LEGACY_COMPONENT:d090c5a21f900d483df5",
+      "decision": "approve",
+      "original_decision": "historical_full_assertion_recovered",
+      "reason": "Recover the explicitly stated complete model, rival or local relation without promoting its historical status."
+    },
+    {
+      "selection_index": 7,
+      "source_id": "LEGACY_COMPONENT:d31985af919cc6c7cc7c",
+      "decision": "approve",
+      "original_decision": "historical_rival_context",
+      "reason": "The selected one-sentence dose-rival heading is expanded in lines81–102: plantpart/drymaterial plus three portions remains a secondary local reading, not rejected. This batch does not invent a distinct theory from the heading."
+    },
+    {
+      "selection_index": 8,
+      "source_id": "LEGACY_COMPONENT:87ef54b61cf984a72891",
+      "decision": "approve",
+      "original_decision": "result",
+      "reason": "Alternate-reader stability counts for existing expressions, not a semantic hypothesis or independent manuscript copies."
+    },
+    {
+      "selection_index": 9,
+      "source_id": "LEGACY_COMPONENT:6950a676bdec65ae46b3",
+      "decision": "approve_explicit_unresolved",
+      "original_decision": "unresolved_local_observation",
+      "reason": "The source reports shocthy beside ytchey and calls a second technical cell possible; it supplies no additional complete relation reading. Existing shocthy value remains distinct from an unspecified relation. No placeholder card or full-coverage claim should be generated."
+    },
+    {
+      "selection_index": 10,
+      "source_id": "LEGACY_COMPONENT:0aedd5ef07a513f2a7c8",
+      "decision": "approve",
+      "original_decision": "historical_full_assertion_recovered",
+      "reason": "Recover the explicitly stated complete model, rival or local relation without promoting its historical status."
+    },
+    {
+      "selection_index": 11,
+      "source_id": "LEGACY_COMPONENT:a8e71276d1726964249a",
+      "decision": "approve",
+      "original_decision": "rival_limit_and_prospective_gate",
+      "reason": "Limits the heating rival retained in the preceding recovery; repeated same-carrier state transitions are a prospective data requirement, not an old successful test."
+    },
+    {
+      "selection_index": 12,
+      "source_id": "LEGACY_COMPONENT:e885b7d99e14cdcf4924",
+      "decision": "approve",
+      "original_decision": "incomplete_heading",
+      "reason": "Section heading only; no proposition."
+    },
+    {
+      "selection_index": 13,
+      "source_id": "LEGACY_COMPONENT:dadfcecb0b175eb54944",
+      "decision": "approve",
+      "original_decision": "existing_whole_reading",
+      "reason": "The chotcheol full reading and composite cold-dry block already have an addressable whole-form card; this source decomposition is supporting context, not an additional independent theory."
+    },
+    {
+      "selection_index": 14,
+      "source_id": "LEGACY_COMPONENT:2e0353d03dab0f06c6da",
+      "decision": "approve",
+      "original_decision": "scope_limit",
+      "reason": "No free export of or/al/m/cheol is allowed by the whole-form test; a licensing restriction, not a new meaning."
+    },
+    {
+      "selection_index": 15,
+      "source_id": "LEGACY_COMPONENT:f6477c2a9ba7adda9599",
+      "decision": "approve",
+      "original_decision": "historical_full_assertion_recovered",
+      "reason": "Recover the explicitly stated complete model, rival or local relation without promoting its historical status."
+    },
+    {
+      "selection_index": 16,
+      "source_id": "LEGACY_COMPONENT:ea4b816dce6aed0f8200",
+      "decision": "approve",
+      "original_decision": "historical_full_assertion_recovered",
+      "reason": "Recover the explicitly stated complete model, rival or local relation without promoting its historical status."
+    },
+    {
+      "selection_index": 17,
+      "source_id": "LEGACY_COMPONENT:d8897fcbc5dc8930f38b",
+      "decision": "approve",
+      "original_decision": "method_scope_limit",
+      "reason": "Complete formal hosts do not imply known meanings."
+    },
+    {
+      "selection_index": 18,
+      "source_id": "LEGACY_COMPONENT:57782cddaf76cf24c2cd",
+      "decision": "approve",
+      "original_decision": "method_content_slot_licensing",
+      "reason": "Permitted content slots versus control places; no assigned referent or complete semantic model."
+    },
+    {
+      "selection_index": 19,
+      "source_id": "LEGACY_COMPONENT:75daa2124d8eaf83de32",
+      "decision": "approve",
+      "original_decision": "result",
+      "reason": "Voice-position counts, not a semantic reading."
+    },
+    {
+      "selection_index": 20,
+      "source_id": "LEGACY_COMPONENT:e185f27cd7365d41ccc3",
+      "decision": "approve",
+      "original_decision": "method_scope_limit",
+      "reason": "Owner-derived content classes explicitly are not deciphered names."
+    },
+    {
+      "selection_index": 21,
+      "source_id": "LEGACY_COMPONENT:0ed6a5f14e27e999191f",
+      "decision": "approve",
+      "original_decision": "method_scope_limit",
+      "reason": "Roundtrip consistency explicitly does not establish meanings."
+    },
+    {
+      "selection_index": 22,
+      "source_id": "LEGACY_COMPONENT:c1fdcb570eb83d126629",
+      "decision": "approve",
+      "original_decision": "incomplete_future_introduction",
+      "reason": "Future-work introduction without a full proposition."
+    },
+    {
+      "selection_index": 23,
+      "source_id": "LEGACY_COMPONENT:dcd0dee4ba771fa952d4",
+      "decision": "approve",
+      "original_decision": "method_scope_limit",
+      "reason": "Grammar not proved; scope ceiling, not an extra hypothesis."
+    },
+    {
+      "selection_index": 24,
+      "source_id": "LEGACY_COMPONENT:f4ad2e7a16c72f994b65",
+      "decision": "approve",
+      "original_decision": "historical_full_assertion_recovered",
+      "reason": "Recover the explicitly stated complete model, rival or local relation without promoting its historical status."
+    }
+  ],
+  "counterpart_bindings": [
+    {
+      "id": "SEM:24cb22f095dc91997d82",
+      "claim": "AR → Ausgangsgefäß",
+      "card_basis": "d95239e8fd9952c57ae04cea91907aa7bf5fcde0e12bc1c9bd1659087bf2c1b3",
+      "effective_basis": "36cd04d4215086a24eb3d2d8ac7b7e2c388a77864c6181d22390a094ec4c749d"
+    },
+    {
+      "id": "SEM:312a9440c2f5e6b25f35",
+      "claim": "AL → Aufnahme-/Zielgefäß",
+      "card_basis": "788fac1b1d847909e5aa5699ff874a33a93eda412e887852e97e324813b6ece7",
+      "effective_basis": "dfe536cf64f2277e9e7343bbbced6bc0c1efd79e7db04df3bebe6fe58b852b3e"
+    },
+    {
+      "id": "SEM:461a868f7ba93fe48b5a",
+      "claim": "GDT595’s selected hybrid retains the richer body/station/portion/unit workshop typing and changes only E2863,E3523,E3533,E3664 from body to station by allowing a same-event right-edge participant to scope over the preceding short verb chain without becoming a direct SH slot.",
+      "card_basis": "1e624c0a95a42e06d32f19fd32558a20c816348c49df2282849906b39e811b6c",
+      "effective_basis": "e7000f0dc6d83fcb9567ba42d4df871593c4646e9a8a9c11115e1d0ca5ddb3e1"
+    },
+    {
+      "id": "SEM:4e095b3ca6e5dc69fec9",
+      "claim": "okal → Ansatz aus heißem Rohstoff, Form I",
+      "card_basis": "b9973ea01331d9e1724a010aa64eb3764e82cb7e99b6bc756588d3ea36a9dd89",
+      "effective_basis": "7f67e673814a6653a6b8e878b69be97cc1b1ffc6a0781edc39ce0126f12ab5dd"
+    },
+    {
+      "id": "SEM:61c1204e2a340bbc2ff1",
+      "claim": "shocthy → feuchtes CTH-Material der O-Reihe",
+      "card_basis": "283a1c4c415659d5747f5863760de8c9043604bebb822df5fada4eee9954b766",
+      "effective_basis": "46144a363d0e2a1a4adaad703d434efc6cb58c1cfc7b3861a946fdbe1a20d04f"
+    },
+    {
+      "id": "SEM:69dd203e1ce327124e9b",
+      "claim": "OR → Gefäß- oder Arbeitseinheit",
+      "card_basis": "c640db345a77e69e42573aeadda97686f9eabab9c32bd0a400b40d87fbe1df8e",
+      "effective_basis": "002af1f1c94446cc86997e5253bbc22a13abb631c3acc42c920d15acd8e9b2ee"
+    },
+    {
+      "id": "SEM:7742fddbe0ebd4fcb27f",
+      "claim": "qotor → kalte Drogenportion",
+      "card_basis": "480c1c9231be9e693344153595c12ef541ed18ef725ef213b9c1589abe3ded83",
+      "effective_basis": "f9ee837b896432857171e543610730f85ee4d008f9eeb246f7eb134eb52daee8"
+    },
+    {
+      "id": "SEM:7d549e696755a8fafb8a",
+      "claim": "chotcheol → Trockenansatz aus kalt-trockenem Drogenstoff",
+      "card_basis": "27795f2b048d62a9318dc8c59c84ede81a3d06fdcb2ef69134317ecf9e7084b4",
+      "effective_basis": "4d41ad55be61da9d9d692e1c94d7e6a248e73395c1a0593bd9867c0e1798f953"
+    },
+    {
+      "id": "SEM:b997506b781ea8f35aed",
+      "claim": "e → erhitzt/gekocht",
+      "card_basis": "1341c71763e2bcfc96a50095d6daa9573d9e10e15d1295bca068b328465880a7",
+      "effective_basis": "7d7e372a2704714eff98586e1fdee02f2916c3103e2d4834f77059de2bd7ef79"
+    },
+    {
+      "id": "SEM:baa92c823d2c6bb5878e",
+      "claim": "L → Gefäßkontakt",
+      "card_basis": "5b9e988d579ded73ff8ba2d8e7b23a2bc625baaa1f6ca03ab62529e5d63634ad",
+      "effective_basis": "8cedd45c10286528492450f62cda984d7b7b3d67b39b238602fa65e31d032927"
+    },
+    {
+      "id": "SEM:c556c887cc61fc10debe",
+      "claim": "A right-edge object in the same written event may take scope over the immediately preceding short verb chain, without becoming a direct SH slot.",
+      "card_basis": "42f5d95dfb0a598e93f4368d67805a55c63194d311394fbfaa80993127f252e5",
+      "effective_basis": "43873fe2a80564ab903be0317f5ae236e3ffae4524f024a89e35f7fa012b2cd5"
+    }
+  ],
+  "counts": {
+    "cards": 8,
+    "claims_approved": 8,
+    "metadata_flags_requiring_clarification": 2,
+    "selected_spans_fully_read": 25,
+    "dispositions_with_coverage_fix": 1,
+    "preexisting_scope_questions_preserved": 2,
+    "exact_evidence_checks": 52,
+    "current_counterparts_bound": 11
+  },
+  "validation": {
+    "status": "PASS_SOURCE_AND_CARD_SCHEMA",
+    "all_8_validate_card": true,
+    "all_source_quotes_and_hashes": true
+  },
+  "scope_limits": [
+    "Eight recovered claims are two complete register proposals, two explicitly limited rivals, and four local relation cases. These are not eight independent scientific mechanisms or successes.",
+    "No meaning or gate is established by old reproducibility counts or three alternate transcriptions of one manuscript.",
+    "Review of all selected spans is complete; full report or corpus completeness is not claimed.",
+    "GDT585 organ/referent packages and GDT632 local adjacency question remain audit-only; no new placeholder ideas.",
+    "No operational mutation, raw manuscript, image or new experiment."
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "review_id": "SEMANTIC_SOURCE_POLARITY_PEER_CY",
+  "input": {
+    "path": "research_registry/decisions/semantic_source_polarity_review_cy.json",
+    "sha256": "364d5b1dd582495e4aa845115b9d7ba78ca27235d69af8a82bf0fd3c74a2ce2a"
+  },
+  "dossier_reviews": [
+    {
+      "dossier_id": "CY:qeeey_terminal_portion",
+      "decision": "approve_scoped_cause_only",
+      "targets": [
+        "SEM:cb5e52af94982808487a"
+      ],
+      "reason": "The primary explicitly reports an initially preferred portion interpretation and then a model-based left-bound completion preference; Schlussportion remains a named rival. This is a genuine historical hypothesis, neither an extraction false positive nor an empirical portion refutation.",
+      "binding_checks": [
+        {
+          "target": "SEM:cb5e52af94982808487a",
+          "original_basis_matches": true,
+          "effective_basis_matches": true,
+          "claim_scope_preserved": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt679_eight_three_hole_family_completion/REPORT.md",
+          "line": 88,
+          "line_end": 93,
+          "quote": "Der Werkstatt-Lehrmeister und die praktische Heilkundige lasen `qeeey`\nzunächst als Schlussportion. Der Schreiber/Glossator bemerkte jedoch ein\nstärkeres Verteilungsmuster: Alle drei Vorkommen folgen unmittelbar auf einen\nFeucht-, Kalt- oder Trockenprozess. Deshalb gewinnt die linksgebundene Lesung\n„vorstehende Behandlung bis zur letzten Stufe führen und abschließen“. Die\nSchlussportion bleibt als formnaher Rivale dokumentiert.",
+          "sha256": "6cc09c2ebd3ac8b4b804505d4fc9e36dd4426f589eadb159ea5f2251eabf42bd"
+        }
+      ],
+      "source_classification": {
+        "real_historical_hypothesis": true,
+        "extraction_error": false,
+        "source_polarity": "depreferred_live_rival",
+        "reason_class": "historical_model_revision",
+        "empirical_meaning_refutation": false
+      },
+      "prospective_requirements_review": "All proposed changed-evidence conditions are curator relevance criteria, explicitly not historical preregistration, satisfied gates or permission to rerun. More-page caveats preserve the need for the specified binding rather than claiming sample count alone suffices.",
+      "required_corrections": []
+    },
+    {
+      "dossier_id": "CY:sol_seed_family_revision",
+      "decision": "approve_scoped_cause_only",
+      "targets": [
+        "SEM:aa5cf61db710fc3e786d",
+        "SEM:4c49ed552dbfa49074cd"
+      ],
+      "reason": "The two named whole forms are expressly reassigned from salt to seed preparation to harmonize the source SOL family. The stated 57 seed assignments are inherited labels, not 57 independent plant identifications. Retaining salt as rival and counting one revision cause for both cards is correct.",
+      "binding_checks": [
+        {
+          "target": "SEM:aa5cf61db710fc3e786d",
+          "original_basis_matches": true,
+          "effective_basis_matches": true,
+          "claim_scope_preserved": true
+        },
+        {
+          "target": "SEM:4c49ed552dbfa49074cd",
+          "original_basis_matches": true,
+          "effective_basis_matches": true,
+          "claim_scope_preserved": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt664_one_hundred_forty_residual_family_completion/REPORT.md",
+          "line": 48,
+          "line_end": 53,
+          "quote": "Der manuelle Passagenaudit fand außerdem einen alten Widerspruch: `sol` war 57\nMal Saatgut, aber `solaiin` und `sols` waren als Salz übersetzt. V41 vereinigt\ndie Familie als Saatgutansatz (`solaiin=drei Teile Saatgutansatz`,\n`sols=fertiger Saatgutansatz`, `solor=eine Portion Saatgutansatz`,\n`solkeedy=Saatgutansatz vollständig erhitzt`). Salz bleibt nur der sichtbare\nRivale.",
+          "sha256": "5b61c293e7cd0216b42da9c2ae59637f64cd7738a43a539afb762e86bbde0d2e"
+        }
+      ],
+      "source_classification": {
+        "real_historical_hypothesis": true,
+        "extraction_error": false,
+        "source_polarity": "selected_revision_with_salt_rival_retained",
+        "reason_class": "historical_model_revision",
+        "empirical_meaning_refutation": false
+      },
+      "prospective_requirements_review": "All proposed changed-evidence conditions are curator relevance criteria, explicitly not historical preregistration, satisfied gates or permission to rerun. More-page caveats preserve the need for the specified binding rather than claiming sample count alone suffices.",
+      "required_corrections": []
+    },
+    {
+      "dossier_id": "CY:shx_gum_resin",
+      "decision": "approve_scoped_cause_only",
+      "targets": [
+        "SEM:9db69b9ff18a7e13a93e"
+      ],
+      "reason": "GDT681 separates a material-role inference from exploratory gum-resin identity; GDT684 explicitly does not discard the weak reading. GDT690 moves gum-resin to apparatus while choosing gum for fluent output, and GDT710 leaves gum independently unbound. These sources support weakness/apparatus revision, not a failed chemical identification.",
+      "binding_checks": [
+        {
+          "target": "SEM:9db69b9ff18a7e13a93e",
+          "original_basis_matches": true,
+          "effective_basis_matches": true,
+          "claim_scope_preserved": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt681_six_five_hole_family_completion/REPORT.md",
+          "line": 89,
+          "line_end": 93,
+          "quote": "Die praktische Heilkundige erkannte, dass `shx` bei allen drei Lesern exakt ist\nund zu einer kleinen `x`-Stofffamilie gehört. `xol`, `xor`, `xar`, `xoy`,\n`xoiin`, `shxam` und `chxar` tragen Material-, Portions-, Fraktions-, Ansatz-,\nMaß- und Behandlungsfelder. Die Stoffrolle ist deshalb belastbarer als die\nexplorative Identität „Gummiharz“. Außerdem machte sie aus `aiijy` eine echte",
+          "sha256": "8a1f39314bd36593d8341a510cec3c6a2f37ed68a89b208c3570aefcf69bdda8"
+        },
+        {
+          "path": "experiments/yolo/gdt684_v57_complete_semantic_debt_census/REPORT.md",
+          "line": 99,
+          "line_end": 112,
+          "quote": "## Schwache Karten, die bisher stark klangen\n\nEin exakter Join von aktuellem Surface plus aktuellem Literalgloss gegen die\npublizierten Kartenquellen findet 30 Positionen / 28 Karten mit `LOW`,\n`LOW_EXPLORATORY` oder einer anderen ausdrücklich explorativen Stärke. Zehn\ndavon waren in den drei inhaltlichen Schuldebenen unauffällig und klangen daher\nfälschlich „fertig“.\n\nDazu gehören unter anderem `shx = eingeweichtes Gummiharz`,\n`qoeeo = zweiter Mazerationsansatz`, `solky = Saatgutansatz, leicht erhitzt`,\n`tolg = ein Gran kalten Drogenmaterials`, `ypchesy = hiervon Samenpulver ...`\nund `lchl = getrocknetes Drogenholz`. Diese Bedeutungen werden nicht verworfen.\nIhre schwache Herkunft bleibt jetzt neben jeder Position sichtbar. Der lokal\nneu gerenderte Compoundteil f115r.1#5 `cheop` wird bewusst nicht fälschlich an",
+          "sha256": "036ce8a40cad923e61ff2b42cb6260a590553c45e3f309b75061c94832f5efbb"
+        },
+        {
+          "path": "experiments/yolo/gdt690_noun_ordinal_provenance_main_apparatus/REPORT.md",
+          "line": 24,
+          "line_end": 34,
+          "quote": "This removes atomic values such as “fertig aufbereitetes Drogenholz.” For example, `ldy` now reads “fertig aufbereitetes Holz”: the noun head is `Holz`; the remainder supplies the result state.\n\nThe six requested problem areas receive these working choices:\n\n| family | main text | apparatus |\n|---|---|---|\n| `shx` | eingeweichtes Gummi | Harz, Gummiharz, Pech |\n| `shor` | Blüte | Fruchtstand, Samenstand, reproduktiver Pflanzenteil |\n| `r/rr/raiin/ram` | Wurzel | Wurzeldroge, Harz |\n| `checthy` and CTH family | Kraut | Blatt, Krautdroge |\n| `qotain` and frame sisters | kalter/heißer Ansatz, Grad II/III | Zubereitung; q/Frame only as apparatus |",
+          "sha256": "638d21c8155cb03a5b8120a8bc26f0f826505bd0a94cd9227dc001d03bcaaf50"
+        },
+        {
+          "path": "experiments/yolo/gdt690_noun_ordinal_provenance_main_apparatus/REPORT.md",
+          "line": 43,
+          "line_end": 48,
+          "quote": "Twenty-one token positions previously contained a slash or an “oder” alternative. V63 contains zero. Each position receives one main choice; all live alternatives remain recoverable in the apparatus.\n\nExamples:\n\n- `shx`: “eingeweichtes Gummi,” not “eingeweichtes Gummiharz.”\n- `shor`: “Blüte,” not “Blüten-/Fruchtstand; reproduktiver Teil.”",
+          "sha256": "638d21c8155cb03a5b8120a8bc26f0f826505bd0a94cd9227dc001d03bcaaf50"
+        },
+        {
+          "path": "experiments/yolo/gdt710_v83_complete_dictionary_confidence_evidence/REPORT.md",
+          "line": 43,
+          "line_end": 46,
+          "quote": "| `pchedaiin` | 59 / W2 | zwei konsistente Kompositionsbelege, aber offene Achse und Identität |\n| `olkar` | 39 / W1 | häufig, jedoch weiterhin lokale provisorische Holzbindung |\n| `shx = eingeweichtes Gummi` | 19 / W0 | LOW-Singleton; Feuchte sichtbar, Gummi nicht unabhängig belegt |\n| konkrete `daiin/dain`-Bindungen | 26–30 / W1 | jeweils lokaler Grad-/Mengenentscheid mit lebendem Rivalen |",
+          "sha256": "eed57051bea0f97722a7c788a3c450ba781e63e07afaff9313defbbbc36b1d9f"
+        }
+      ],
+      "source_classification": {
+        "real_historical_hypothesis": true,
+        "extraction_error": false,
+        "source_polarity": "exploratory_value_later_moved_to_apparatus",
+        "reason_class": "missing_meaning_binding",
+        "empirical_meaning_refutation": false
+      },
+      "prospective_requirements_review": "All proposed changed-evidence conditions are curator relevance criteria, explicitly not historical preregistration, satisfied gates or permission to rerun. More-page caveats preserve the need for the specified binding rather than claiming sample count alone suffices.",
+      "required_corrections": []
+    },
+    {
+      "dossier_id": "CY:tolg_grain",
+      "decision": "approve_scoped_cause_only",
+      "targets": [
+        "SEM:20477cd200ca5f19e28b"
+      ],
+      "reason": "The source distinguishes g/tolm and the RF joined chotolg unit, explicitly withholds universal g semantics, and retains the grain/handful rival. GDT684 weakness is not withdrawal. No independently calibrated measure or visual unit adjudication is reported in these cited sources.",
+      "binding_checks": [
+        {
+          "target": "SEM:20477cd200ca5f19e28b",
+          "original_basis_matches": true,
+          "effective_basis_matches": true,
+          "claim_scope_preserved": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt679_eight_three_hole_family_completion/REPORT.md",
+          "line": 95,
+          "line_end": 99,
+          "quote": "Die drei Leser stimmen dagegen darin überein, dass `tolg` die schwächste Karte\nist. ZL3b und die RF1b-Endung stützen `g` und damit versuchsweise „ein Gran“;\nIT2a `tolm` bietet „eine Handvoll“, RF1b verbindet den Bereich zu `chotolg`.\nDer Renderer setzt einen konkreten Default, versteckt den Einheitenrivalen aber\nnicht und exportiert keine allgemeine g-Regel.",
+          "sha256": "6cc09c2ebd3ac8b4b804505d4fc9e36dd4426f589eadb159ea5f2251eabf42bd"
+        },
+        {
+          "path": "experiments/yolo/gdt684_v57_complete_semantic_debt_census/REPORT.md",
+          "line": 99,
+          "line_end": 112,
+          "quote": "## Schwache Karten, die bisher stark klangen\n\nEin exakter Join von aktuellem Surface plus aktuellem Literalgloss gegen die\npublizierten Kartenquellen findet 30 Positionen / 28 Karten mit `LOW`,\n`LOW_EXPLORATORY` oder einer anderen ausdrücklich explorativen Stärke. Zehn\ndavon waren in den drei inhaltlichen Schuldebenen unauffällig und klangen daher\nfälschlich „fertig“.\n\nDazu gehören unter anderem `shx = eingeweichtes Gummiharz`,\n`qoeeo = zweiter Mazerationsansatz`, `solky = Saatgutansatz, leicht erhitzt`,\n`tolg = ein Gran kalten Drogenmaterials`, `ypchesy = hiervon Samenpulver ...`\nund `lchl = getrocknetes Drogenholz`. Diese Bedeutungen werden nicht verworfen.\nIhre schwache Herkunft bleibt jetzt neben jeder Position sichtbar. Der lokal\nneu gerenderte Compoundteil f115r.1#5 `cheop` wird bewusst nicht fälschlich an",
+          "sha256": "036ce8a40cad923e61ff2b42cb6260a590553c45e3f309b75061c94832f5efbb"
+        }
+      ],
+      "source_classification": {
+        "real_historical_hypothesis": true,
+        "extraction_error": false,
+        "source_polarity": "weak_default_with_live_unit_and_boundary_rivals",
+        "reason_class": "source_ambiguity_and_missing_meaning_binding",
+        "empirical_meaning_refutation": false
+      },
+      "prospective_requirements_review": "All proposed changed-evidence conditions are curator relevance criteria, explicitly not historical preregistration, satisfied gates or permission to rerun. More-page caveats preserve the need for the specified binding rather than claiming sample count alone suffices.",
+      "required_corrections": []
+    },
+    {
+      "dossier_id": "CY:a048_terminal_product_hold",
+      "decision": "approve_scoped_cause_only",
+      "targets": [
+        "SEM:14f954b4c260354e1a3a"
+      ],
+      "reason": "GDT709 explicitly labels the candidate HIGH_HOLD_NO_EDGE and retains the locally readable product phrase. The action/state, degree and singleton problems prevent treating it as a licensed continuous path. This is not a rejected lexical reading and no new GDT388 relation packet was evaluated by that pass.",
+      "binding_checks": [
+        {
+          "target": "SEM:14f954b4c260354e1a3a",
+          "original_basis_matches": true,
+          "effective_basis_matches": true,
+          "claim_scope_preserved": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt709_v82_complete_first_terminal_product_census/REPORT.md",
+          "line": 26,
+          "line_end": 40,
+          "quote": "## Best new working reading\n\n> **A048 / f77r.38#3-5:** Endportion hinzugeben. Danach steht: heiß, Grad III.\n> Mögliches terminales Produkt: abgeschlossenes, bis zur Mittelstufe\n> getrocknetes Arzneikompositum.\n\nThis is not generic renderer filler. It names an input portion, a thermal and\ndegree attribute, and a material-bearing terminal product. It is the strongest\nnew exploratory hold because the block is short and ends exactly at #5.\n\nIt is not yet an edge. `Hinzunehmen` does not itself produce drying or closure;\nGrad III changes to Mittelstufe; and the action surface `qoeedy` is a singleton\nin the frozen 479-token layer. The useful conclusion is therefore\n`HIGH_HOLD_NO_EDGE`, not rejection and not a word default.\n",
+          "sha256": "8ebf1d0a20ad1f50d0ed8185b8d65637936626e43fe09f1b0fc2147ba64a5e0d"
+        },
+        {
+          "path": "experiments/yolo/gdt709_v82_complete_first_terminal_product_census/REPORT.md",
+          "line": 57,
+          "line_end": 61,
+          "quote": "Likewise, “nine endpoints” does not mean nine blocker-free causal paths. A005,\nA014, A041 and A048 have their first unresolved operation or degree mismatch\nin the selected terminal field itself. They remain visible because the local\nproduct phrase is readable; the mismatch is precisely why they stay holds or\nSTOPs.",
+          "sha256": "8ebf1d0a20ad1f50d0ed8185b8d65637936626e43fe09f1b0fc2147ba64a5e0d"
+        },
+        {
+          "path": "experiments/yolo/gdt709_v82_complete_first_terminal_product_census/REPORT.md",
+          "line": 65,
+          "line_end": 68,
+          "quote": "None. The V81 graph remains 20 edges, 14 components, 37 unique edge nodes, 43\nincidences, 45 hull positions and 45 render positions. All 479 token glosses,\n51 line translations and three bound spans remain inherited unchanged. No\nGDT388 packet is needed because this pass adds no relation evidence.",
+          "sha256": "8ebf1d0a20ad1f50d0ed8185b8d65637936626e43fe09f1b0fc2147ba64a5e0d"
+        }
+      ],
+      "source_classification": {
+        "real_historical_hypothesis": true,
+        "extraction_error": false,
+        "source_polarity": "HIGH_HOLD_NO_EDGE_not_rejected",
+        "reason_class": "scoped_path_gate_not_met",
+        "empirical_meaning_refutation": false
+      },
+      "prospective_requirements_review": "All proposed changed-evidence conditions are curator relevance criteria, explicitly not historical preregistration, satisfied gates or permission to rerun. More-page caveats preserve the need for the specified binding rather than claiming sample count alone suffices.",
+      "required_corrections": [],
+      "optional_wording_clarification": {
+        "field": "classification.reason_class",
+        "current": "scoped_path_gate_not_met",
+        "suggested": "unresolved_path_binding_no_edge",
+        "reason": "Avoid a machine consumer confusing this descriptive gate shortfall with an executed GDT388 failure. The surrounding source_polarity and prose already make the distinction correctly; no scientific claim correction is required."
+      }
+    },
+    {
+      "dossier_id": "CY:free_g_gutta",
+      "decision": "approve_scoped_cause_only",
+      "targets": [
+        "SEM:c458a3ad2df97692ec6c"
+      ],
+      "reason": "GDT666 explicitly retains gutta as a weaker standalone-g rival under its distributional source grammar. The learned closure preference and the separately scoped three compound grain sigla do not establish a universal g meaning or falsify drops.",
+      "binding_checks": [
+        {
+          "target": "SEM:c458a3ad2df97692ec6c",
+          "original_basis_matches": true,
+          "effective_basis_matches": true,
+          "claim_scope_preserved": true
+        }
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt666_one_hundred_fifty_one_residual_family_completion/REPORT.md",
+          "line": 79,
+          "line_end": 86,
+          "quote": "First, free `g` occurs at the end of nine of its eleven lines; both medial\noccurrences sit exactly between two work blocks. `dain g` and `daiin g` keep\n“ein Gran” as a serious rival, but five other lines already end in a heat,\ncool, or closing state and would require a quantity to reach backward over the\nprocess. V43 therefore uses the learned whole “vorstehenden Rezeptposten\nabschließen.” The historically plausible `G=gutta`, a drop, remains a weaker\nrival. The separately scoped grain siglum stays confined to its three named\ncompound cards and cannot leak into free or arbitrary `g`-ending forms.",
+          "sha256": "08f8a628c0c00044fa5793d125126671f8e566a8f1ccd018fbb7d47807514e2d"
+        }
+      ],
+      "source_classification": {
+        "real_historical_hypothesis": true,
+        "extraction_error": false,
+        "source_polarity": "weaker_live_rival",
+        "reason_class": "historical_distributional_model_preference",
+        "empirical_meaning_refutation": false
+      },
+      "prospective_requirements_review": "All proposed changed-evidence conditions are curator relevance criteria, explicitly not historical preregistration, satisfied gates or permission to rerun. More-page caveats preserve the need for the specified binding rather than claiming sample count alone suffices.",
+      "required_corrections": []
+    }
+  ],
+  "counts": {
+    "dossiers_reviewed": 6,
+    "cards_bound": 7,
+    "approved_scoped_causes": 6,
+    "required_corrections": 0,
+    "extraction_errors": 0,
+    "empirical_meaning_refutations": 0,
+    "executed_test_failures_identified": 0,
+    "optional_wording_clarifications": 1
+  },
+  "limits": [
+    "This peer approves cause documentation for the exact seven claims and named historical source cases only, not global status propagation.",
+    "No historical hypothesis is recommended for archival merely because it is weak, depreferred, held or internally revised.",
+    "The bounded prior-dossier search is acknowledged as bounded; this peer does not claim exhaustive absence of an equivalent existing failure case.",
+    "No new research, manuscript data, native inspection, operative mutation, or old gate repair."
+  ],
+  "validation": {
+    "exact_source_quotes_and_hashes": 13,
+    "current_original_and_effective_bases": 7
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "review_id": "SEMANTIC_FAILURE_PEER_DF_ROOT",
+  "status": "APPROVE_SOURCE_FAMILY_AND_MODEL_DEPENDENT_REVISION",
+  "reviewer": "root independent source and static-code review",
+  "inputs": {
+    "research_registry/decisions/clean_gap_review_df.json": "9bb6d4609993fcd62758dd31090703a4192476d7e9b2ae9f5995de028be24386",
+    "research_registry/decisions/semantic_failure_proposal_df.json": "0f2ac70674929288d0657167ac67292a6d4f0480e401b1086acdd610254f9384",
+    "research_registry/decisions/semantic_changed_input_peer_dd.json": "c044fbfbb91db5516de1ffa7055df032afcf55c543f3aa620e91f9a0f29ddd3d"
+  },
+  "reason": "The GDT684 report explicitly proposes all three conditional assignments. GDT685 computes contextual joins and changes eight outputs, while inherited quality roles, constant row verdicts and fixed model ranks cannot independently decide the semantic rivalry. Preserve a historical model revision, not an empirical language verdict.",
+  "validation": {
+    "source_card_validated": 1,
+    "subassignments": 3,
+    "dossier_exact_evidence_checked": 10
+  },
+  "limits": [
+    "Actual card and effective bases must be bound after integration.",
+    "Neither more occurrence counts nor a successful reproduction of constant verdict fields repairs independent meaning binding."
+  ]
+}
