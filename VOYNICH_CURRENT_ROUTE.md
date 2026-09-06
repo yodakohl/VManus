@@ -11,7 +11,11 @@ Primary: `experiments/yolo/gdt844_ychor_visual_subentry/REPORT.md`.
 Preserve GDT841/842 visual positives and GDT843 context deck, which still lacks
 authorial star-label ownership. No caption scoring or further same-photo counts.
 Local f67r2 MSI metadata audit found no additional capture in checked inventories.
-Producer maintains `docs/IDEA_BACKLOG.md`; no next scientific test selected.
+User requests a large idea surplus: producer maintains20–30 diverse raw sketches
+in `docs/IDEA_BACKLOG.md`, with five review priorities. Unscreened ideas are not
+selected experiments; primary predecessor review remains required before use.
+28raw ideas in7families now recorded; review priorities IP014/IP009/IP018/IP022/IP033.
+First review IP014 definitions/predecessors; no checksum search or experiment selected.
 
 Goal: transferable translation. Confirmed English lexemes: **0**;
 confirmed German lexemes/clauses: **0**. No new fit or further page admission selected.

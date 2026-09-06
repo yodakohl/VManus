@@ -21,7 +21,11 @@ outside hash-bound legacy tools so past experiments remain reproducible.
 - The user explicitly requests a pipelined idea producer during active research.
   Keep one bounded subagent maintaining `docs/IDEA_BACKLOG.md` while root tests
   the current candidate; do not wait for each test to finish before replenishing.
-  Preserve ownership and blinding; this is not unattended between-turn execution.
+  Maintain a surplus of diverse raw ideas (rough target20–30), then shortlist
+  for evidence/novelty review; do not require every raw idea to pass review before
+  retaining it. Mark unreviewed ideas explicitly; route-check and primary-source
+  checks remain required before experimental selection. Preserve ownership and
+  blinding; this is not unattended between-turn execution.
 - Publish every material finding promptly to the public GitHub repository,
   together with the experiment source, preregistration, validator, and compact
   result artifacts needed to reproduce it. Direct pushes to `main` are

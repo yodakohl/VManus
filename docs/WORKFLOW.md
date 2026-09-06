@@ -76,11 +76,24 @@ parallel and saving a list, so root does not restart ideation after each test.
 
 - One producer owns `docs/IDEA_BACKLOG.md`; root continues the current scientific
   task. On active turns, resume the producer with a bounded replenishment task
-  when the queue is thin. Aim for three reviewed candidates, not a quota of
-  claimed discoveries. Producer work must not block the consumer's current test.
-- Each idea has a stable ID, status, observed starting point/primary source,
-  distinct prediction, available inputs, smallest test/total budget, decision
-  consequence and principal risk. Duplicate-screen before marking it ready.
+  when the queue is thin. User update: maintain substantially more ideas than we
+  execute, roughly20–30 raw candidates spanning at least six mechanism families.
+  This is a replenishment target, not a quota of scientific novelty. Keep a
+  shortlist of about five for review; producer work must not block a current test.
+- Raw ideas may be speculative and unreviewed: mark them RAW_UNSCREENED, identify
+  the proposed discriminator, required source, smallest test and principal risk.
+  REVIEW_PRIORITY means selected for scrutiny, not ready to run. Keep these
+  compact; do not turn every sketch into an experiment or a long provenance audit.
+- Before experimental selection, review primary predecessors and duplicate-screen.
+  Record the new discriminator, actual data availability, total wall-time budget
+  and which research decision each outcome changes. Known failed routes stay
+  closed unless their stated new-evidence condition is met.
+- Rank candidates by how sharply outcomes separate plausible mechanisms, whether
+  needed observations are available independently of our working translations,
+  and expected information gain per total effort. Preserve diversity in the
+  shortlist; include ambitious data-dependent proposals but separate them from
+  executable tests. Ease, a likely positive result and lexical search rank are
+  not evidence of research value. No invented numerical success probabilities.
 - Root chooses at most one next experiment after checking the candidate. Hand
   off queue edits explicitly: producer lists proposals; root supplies acceptance,
   IN_PROGRESS and result decisions. Keep rejected and completed entries with a

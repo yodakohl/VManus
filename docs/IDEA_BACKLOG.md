@@ -9,6 +9,15 @@ im Eintrag. Der Agent läuft nur während zugewiesener aktiver Aufgaben, nicht d
 zwischen Nutzerturns. Root publiziert; Schreibzuständigkeit dieser ersten Fassung ist an root zurückgegeben. Bei einer
 neuen Aufgabe erhält der Ideenagent wieder alleinige Zuständigkeit für diese Datei.
 
+Die älteren Einträge IP001–IP007 behalten ihre differenzierten Prüfstatus.
+Der neue Rohvorrat weiter unten verwendet zwei getrennte Reifestufen:
+`RAW_UNSCREENED` = noch keine Neuheits-/Machbarkeitsprüfung; `REVIEWED` =
+route-check plus direkte Primärquelle dokumentiert. `REVIEW_PRIORITY` ist nur
+ein Auswahlhinweis innerhalb RAW, weder Freigabe noch behauptete Neuheit.
+Root prüft zunächst die fünf Prioritäten, übernimmt höchstens einen Versuch und
+lässt die übrigen Ideen liegen. Bekannte Schließbedingungen bleiben verbindlich;
+ein Rohvorschlag darf sie nicht durch Umbenennung umgehen.
+
 Alle folgenden Vorschläge betreffen vorhandene interne Quellen. Keine neue
 Bild-/Rohdatenöffnung durch den Ideenagenten, keine Websuche, kein Experiment.
 f84/f84r bleiben versiegelt; Transkriptionen sind keine unabhängigen Manuskripte.
@@ -279,3 +288,114 @@ wäre ein konkret nachgewiesener neuer f67r2-Spektraldatensatz; ein solcher wird
 hier weder bestellt noch als verfügbar ausgegeben. Die NVA002-Metadaten sind
 historisch gespeichert und wurden jetzt nicht online aktualisiert.
 Schreibzuständigkeit nach diesem begrenzten Check an root zurückgegeben.
+
+
+## Breiter Rohvorrat — 28 Hypothesen in sieben Mechanismusfamilien
+
+Nutzerkorrektur: mehr Ideen erzeugen, als unmittelbar bearbeitet werden können;
+erst die besten prüfen. **Alle IP008–IP035 sind `RAW_UNSCREENED`.** Keine dieser
+Ideen wurde vom Produzenten mit route-check geprüft, an Daten getestet oder als
+weltweit/projektintern neu erwiesen. Die Quellen sind Ausgangspunkte für die
+spätere Prüfung, nicht bereits vorhandene Belege für die jeweilige Vorhersage.
+Einige Ideen können nach Prüfung Duplikate sein oder neue Daten brauchen.
+
+**Top 5 zur Prüfung (`REVIEW_PRIORITY`): IP014, IP009, IP018, IP022, IP033.**
+Reihenfolge: konkrete mechanistische Unterscheidung, möglichst vorhandene Quellen,
+Begrenzbarkeit des ersten Tests. Keine Erfolgswahrscheinlichkeit geschätzt.
+Für die Übernahme sind Quelle, Admission, Vorgänger, kleinster informativer Test
+und Gesamtbudget zu klären; die untenstehenden Minuten sind grobe Gesamtziele,
+keine Zusage ausreichender Daten oder abgeschlossener Bestätigung.
+
+### A — Physische Herstellung der Schrift
+
+| ID | Konkrete Vorhersage | Nötige Quelle und kleinster Test | Hauptrisiko |
+|---|---|---|---|
+| IP008 | Wenn hohe Zeichen Platzkonventionen ausdrücken, weicht ihre obere Form bei geringer **vorher vorhandener** freier Höhe systematisch aus; ein rein positionsgebundenes Zeichen verlangt diese örtliche Anpassung nicht. | Native Orientierung in `visual_overview/README.md` als Startpunkt; konkrete hohe Zeichen neben gezeichneten Hindernissen müssen erst lokalisiert werden. Zwei eindeutig begrenzte Situationen auf zugelassenen Seiten nativ gegenüberstellen, 5 Minuten. | Gezeichnetes Hindernis kann später entstanden sein; ohne unabhängige Herstellungsfolge keine kausale Platzbehauptung. Nicht l/m-Breite nochmals messen. |
+| IP009 **REVIEW_PRIORITY** | Wenn Teile zweier geschriebener Gruppen gemeinsam ausgeführt wurden, können **durchgehende, beiden zugehörige Striche** die sichtbare Gruppengrenze kreuzen; separat geschriebene Einheiten können nur überlappen. | Ganze hochaufgelöste Gruppen auf zugelassenen Seiten, Ausgangspunkt sichtbare Haken-/Bogenformen im nativen Dossier; konkrete Fundstelle noch unbestimmt. Maximal eine vorab begrenzte Textregion auf eindeutige gemeinsame Strichführung prüfen, 5 Minuten, unauflösbare Überlagerungen ausschließen. | Aus einem statischen Bild lässt sich eine Federbewegung oft nicht nachweisen; eine Ligatur beweist weder gemeinsame Bedeutung noch Lautwert. |
+| IP010 | Eine vorgeplante Zeilenfüllung verändert bereits die **frühen** Gruppenbreiten in Abhängigkeit von der später benötigten Gesamtbreite; bloße Reaktion am rechten Rand setzt erst spät ein. | Bereits zugelassene Textblöcke und verlustlose Gruppen, bekannte variierende Schriftflächen aus `visual_writing_order/PROPOSAL.md`. Zuerst wenige Linien mit wiederholten Anfangsformen auf geometrische Vergleichbarkeit prüfen, 5 Minuten; erst danach unabhängige Breitenregel einfrieren. | Textlänge und Breite sind gemeinsam erzeugt; ohne unabhängige Sollbreite kann der Vergleich zirkulär sein. GDT829s fehlende Langparallelstellen nicht durch gelockerte Flanken ersetzen. |
+| IP011 | Wenn ein Schreiber eine zeichnerische Vorlage nachzieht, bleibt bei einer Abweichung die **Reihenfolge mehrerer markanter Kurven entlang des ganzen Wortes** eher erhalten als ihr Abstand; eine inhaltliche Neufassung braucht dies nicht. | Positive physische Zustände RBR001, vollständige Grenze RBR002. Benötigt tatsächlich neue spektrale Daten; an einem vollständig recoverierbaren Wort beide Strichpfade ohne Zeichenbenennung vergleichen, 10 Minuten nach Aufnahmeverfügbarkeit. | Aktuell fehlt der benötigte neue Datensatz; zwei alte Teilformen erlauben keine Wiederöffnung der geschlossenen korrigierten-Ring-Route. |
+
+### B — Graphem- und Codierungseinheiten
+
+| ID | Konkrete Vorhersage | Nötige Quelle und kleinster Test | Hauptrisiko |
+|---|---|---|---|
+| IP012 | Wenn komplexe Zeichen räumlich montierte Einheiten sind, bewahren wiederkehrende Komponenten ihre **Anschlussstellen** auch dort, wo ihre lineare EVA-Reihenfolge schwer darstellbar ist. | GDT605s rein transkriptionsbasierte Einheiten als Vorgänger, Originalbilder für einen vorher ausgewählten komplexen Zeichentyp. Zunächst zwei vollständige Bildvorkommen topologisch beschreiben, 5 Minuten; keine neue EVA-Lesung erzwingen. | Ein wiederkehrender Schreibstil kann dieselbe Geometrie erzeugen; die bekannte IGR002-Grenze gegen weitere grobe Zeichenklassifikation muss vorab geprüft werden. |
+| IP013 | Bei einem graphischen Positionscode bleibt die Orientierung einer Teilform relativ zur **Wortgrundlinie** fest; bei seitenfestem Zusatzcode bleibt sie relativ zur Seite fest, auch in gedrehter Kreisschrift. | Native Kreisschriftbeobachtung in `visual_overview/README.md`, vollständig lokalisierte wiederholte Ganzformen. Nur zwei deutlich verschieden orientierte Stellen desselben Typs prüfen, 5 Minuten. | Schreibergonomie erklärt ebenfalls Unterschiede; kein Stern-/Kalenderwert folgt. Wiederholungs- und Zuordnungskapazität ist unbekannt. |
+| IP014 **REVIEW_PRIORITY** | Falls eine Gruppenkomponente ein Kontrollzeichen ist, bestimmt eine **feste, reihenfolgeunempfindliche Prüffunktion** des restlichen Inhalts sie auch bei neuen Inhaltskombinationen; reine Anschlussgrammatik benötigt diese Invarianz nicht. | Bekannte Binnenstruktur aus `STRUCTURAL_KNOWLEDGE.md`, zugelassene rohe Gruppen erst nach Freeze. Eine kleine vorab bestimmte Familie von Paritäts-/Restklassenregeln an einem festen Entwicklungsanteil prüfen und gesamte Auswahlkosten offenhalten; 10 Minuten für eine Kapazitätsentscheidung. | Nahezu jede kleine Zeichenmenge lässt nachträgliche Scheinkorrelationen zu. Ohne explizit begrenzte Regelklasse und spätere zurückgehaltene Kombinationen kein positiver Codierungsbefund. |
+| IP015 | Ein Code aus variabel langen Einheiten kann trotz fehlender Trennzeichen **eindeutig zerlegbar** sein; konkurrierende Grenzen müssen dann durch denselben festen Einheitenvorrat ausgeschlossen werden. | GDT605s veröffentlichter Einheitenvorrat und Rohdarstellung; vorab prüfen, welche Grenzen der Lerner schon geliefert bekam. Kleinster Test ist eine exakte Mehrdeutigkeitsanalyse des eingefrorenen Vorrats, 5 Minuten. | Zeigt möglicherweise nur eine vom Algorithmus erzeugte Eigenschaft. Der gescheiterte Ein-Buchstaben-Code wird dadurch nicht wiederbelebt, kein neuer Decoderlauf. |
+
+### C — Kopieren, Gedächtnis und lokale Erzeugung
+
+| ID | Konkrete Vorhersage | Nötige Quelle und kleinster Test | Hauptrisiko |
+|---|---|---|---|
+| IP016 | Bei Kopieren aus dem **sichtbaren schon geschriebenen** Text sollten seltene Kombinationen eher rückwärts erreichbare Vorlagen besitzen; ein zeitlich symmetrischer thematischer Zusammenhang muss diese Richtung nicht zeigen. | Vorhandene rohe Textquellen plus dokumentierte räumliche Ordnung; GDT001s Copy/Modify-Kontrollen als Vorgänger. Zuerst an einem fest begrenzten Block die definierten rückwärts/vorwärts erreichbaren Vorlagen darstellen, 5 Minuten, keine Sprachbewertung. | Abfolge ist oft nicht sicher und Neuheit nimmt auch in echter Sprache gerichtet ab. Alte lokale Ähnlichkeits-/Kopierrouten könnten dies bereits abdecken. |
+| IP017 | Eine mitkopierte lokale Abweichung bildet eine **verzweigte Vererbung**: spätere vollständige Passagen teilen mehrere gekoppelte Besonderheiten, nicht bloß häufige Einzelgruppen. | Bereits dokumentierte Wiederholungen; GDT838/829 als harte Kapazitätsvorgänger. Zuerst nur publizierte Wiederholungsbeispiele auf mindestens zwei gekoppelte unterscheidbare Merkmale prüfen, 5 Minuten. | Ausreichende Passagen könnten fehlen; keine Wiederholung der erfolglosen Suche mit kürzeren Flanken oder kleinerem Fenster. Ohne neuen Anker stoppt die Idee. |
+| IP018 **REVIEW_PRIORITY** | Wenn mehrere benachbarte Varianten in einem gemeinsamen Herstellungsschritt erzeugt wurden, wechseln **zwei voneinander getrennte Formmerkmale synchron**; unabhängige Einzelersetzungen sagen solche gebundenen Wechsel nicht voraus. | Quelle: etablierte komplette lokale Paradigmen, zunächst GDT747/GDT748-Berichte. An genau einem schon publizierten mehrteiligen Paradigma prüfen, ob die Kopplung gegenüber unabhängigen Austauschmöglichkeiten überhaupt beobachtbar ist, 5 Minuten. | Die Merkmale können bereits dieselbe formale Klasse codieren oder durch Auswahl gekoppelt sein. Keine alte Rollenmaskierung, keine neue Bedeutungszuweisung aus Ähnlichkeit. |
+| IP019 | Ein begrenzter Zwischenpuffer erzeugt einen **Abstandseffekt nach geschriebenen Einheiten**, auch wenn physische Zeilen unterschiedlich lang sind; eine Blicksprungquelle folgt eher der räumlichen Distanz. | GDT001-Kontextmodelle, dokumentierte ungleich breite Layouts, genaue Gruppenkoordinaten noch erforderlich. Zunächst nach einem vorhandenen Block suchen, in dem Einheitendistanz und Bilddistanz auseinanderfallen, 5 Minuten Metadaten-/Kapazitätsprüfung. | Ein hinreichender Koordinatensatz könnte fehlen; Federzustandsroute830/831 nicht reparieren. Gedächtnis und Sprache können dieselbe Distanzstruktur tragen. |
+
+### D — Grammatische Abhängigkeiten ohne Wortübersetzung
+
+| ID | Konkrete Vorhersage | Nötige Quelle und kleinster Test | Hauptrisiko |
+|---|---|---|---|
+| IP020 | Ein lokaler Einbettungsmechanismus erlaubt **Klammerung**: dieselbe äußere Konstruktion umschließt unterschiedlich lange vollständige innere Folgen, deren Randverträglichkeit erhalten bleibt. | GDT581s strukturierte Edition als Hypothesengeber, Rohgruppen zur späteren Kontrolle. Ein publiziertes Paar mit verschieden langer Mitte suchen und die behaupteten Grenzen ohne semantische Tags begründen, 5 Minuten. | Parserklammern können genau die gesuchte Struktur hineingetragen haben. IL026s geschlossene höhere-Ordnung-Route vor jedem Test prüfen. |
+| IP021 | Bei positionsübergreifender Kongruenz koppeln Merkmale zweier wiederkehrender Ganzformen auch dann, wenn **unterschiedliche Zwischenfolgen** auftreten; eine feste lokale Formel verlangt die Zwischenvariation nicht. | Vorhandene komplette Kontextkarten, GDT803/804 als Vorgänger. Nur publizierte Beispiele auf einen konstanten Zweierbezug bei mindestens zwei verschiedenen Mittelfolgen prüfen, 5 Minuten. | Kann lediglich Topic-/Schreiberkonfundierung sein; keine Buchstabensuffixe als Grammatikwerte voraussetzen und keine fehlende Kapazität durch größere Radien retten. |
+| IP022 **REVIEW_PRIORITY** | Wenn eine Konstruktion wirklich einen Geltungsbereich eröffnet, verändert ihre Wiederholung **nicht bloß die Häufigkeit**, sondern welcher der folgenden gleichartigen Einträge zu welchem früheren Eintrag gehört; ein einfacher Reihenmarker sagt diese verschachtelte Konkurrenz nicht voraus. | Vorhandene vollständig erhaltene Mehrfeld-Records, zunächst GDT763/764/769 als Primärvorgänger. Eine konkrete geschriebene Folge mit zwei konkurrierenden offenen Feldern nominieren und prüfen, ob beide Modelle verschiedene nächste zulässige Formen vorhersagen, 5 Minuten. | Ohne unabhängige Randmarkierung bleibt die Zuordnung unentscheidbar; keine neuen Teilnehmer über alte Arbeitsübersetzungen erfinden. |
+| IP023 | Ein textlicher Wiederaufnahmemarker erhält eine **selektive Vorgeschichte**: nach zwei unterschiedlichen eingeführten Ganzformen sollte seine Umgebung eine von ihnen, nicht beliebig beide, wieder aktivieren. | Vorhandene Referenzkarten GDT696/700 und qokaldy-Audit798. Ein bereits publiziertes echtes Zwei-Kandidaten-Beispiel auf ein noch ungenutztes geschriebenes Unterscheidungssignal prüfen, 5 Minuten. | IP003 und GDT798 zeigen gerade die bekannte Unterbestimmtheit; ohne zusätzliches unabhängiges Signal ist dieser Rohentwurf ein Duplikat und wird verworfen. |
+
+### E — Beziehungen zwischen Bild und Text
+
+| ID | Konkrete Vorhersage | Nötige Quelle und kleinster Test | Hauptrisiko |
+|---|---|---|---|
+| IP024 | Bei kompositionalen Bildbeschriftungen übernimmt ein **zeichnerisch ausgetauschtes Teilobjekt** nur einen Textteil, während unveränderte Teile ihre Textbeiträge bewahren. | Native Pharma-Übersicht, vorhandene vollständige Objektkarten; erst ein unabhängig begründetes Bildpaar nominieren. Zwei gesamte Zeichnungen samt eindeutig zugeordneten vollständigen Beschriftungen vergleichen, 5 Minuten Kapazitätsprüfung. | Visuelle Teilähnlichkeit ist keine gesicherte Objektidentität; Pflanzenfragment-/Owner-Routen sind bereits stark vorgeprüft. Keine Teilwortähnlichkeit zur Auswahl verwenden. |
+| IP025 | Ein gleicher Beschriftungstext kann einen **Recordtyp statt ein Objekt** benennen: dann bleibt er bei unterschiedlichen Objekten, aber gleicher unabhängig sichtbarer Recordfunktion bestehen. | GDT792/811-positive Ganzformwiederverwendung und native vollständige Seiten. Eine veröffentlichte Wiederholung auf einen sichtbaren Funktionskontrast prüfen, der bisher nicht nur durch Lage definiert wurde, 5 Minuten. | Die aktuelle Bilddokumentation kann solche Funktionen nicht unabhängig bestimmen; dann bloß bekanntes Name/Klasse-Unentschieden. |
+| IP026 | Ein graphischer Einschluss grenzt den Text semantisch nur dann mit ab, wenn **Textfelder bei verschachtelten Umrandungen** systematisch dieselbe eindeutige Eigentümerschaft besitzen; bloße Nachbarschaft ist weniger strikt. | GDT790/791s Panelhierarchie, originale bereits zugelassene Figuren-/Beckenbilder. Einen Record mit echter Verschachtelung und zwei plausiblen Ebenen vollständig auditieren, 5 Minuten. | Umrandungen können dekorativ sein; die geschlossene Bad-/Owner-Topologieroute könnte den ganzen Vorschlag bereits abdecken. Keine GDT388-Kante allein aus Einschluss. |
+| IP027 | Bei unabhängig dokumentiertem **Fehlen** eines grafischen Teils entfällt dessen behaupteter Textbeitrag, während andere Beiträge bestehen bleiben; das unterscheidet komponentielle Beschriftung von pauschalem Eintragsnamen. | Paar aus vollständigen, unbeschädigten Objektzeichnungen mit gesicherter Zuordnung und gleicher Vorlage, noch nicht nachgewiesen. Kleiner erster Schritt: existierende Karten auf ein solches negatives Gegenstück prüfen, 5 Minuten. | Auslassung, Beschädigung und andere Art sind leicht zu verwechseln. Ohne unabhängig gesichertes Gegenstück kein Test; keine alte Blütenzählung neu etikettieren. |
+
+### F — Werte, Maße und Rechenrelationen
+
+| ID | Konkrete Vorhersage | Nötige Quelle und kleinster Test | Hauptrisiko |
+|---|---|---|---|
+| IP028 | Ein additives Zahlensystem sollte einen geschriebenen **Gesamtwert und Teilwerte** durch dieselbe arithmetische Beziehung verbinden; bloße Stufen-/Klassenzeichen müssen das nicht. | GDT686/764 bekannte Wertfelder als Start, dazu unabhängig erkennbare Gesamt-/Teilrelation noch benötigt. Eine bereits publizierte Mehrfeldstelle auf einen tatsächlichen Totalmarker prüfen, 5 Minuten, keine Zahlen aus Strichzahl setzen. | Keine gesicherte Totalrelation vorhanden; ohne sie lässt sich jede kleine Reihe nachträglich passend rechnen. |
+| IP029 | Ein Verhältnis statt einer Menge bleibt bei **gemeinsamer Skalierung** mehrerer Nachbarwerte unverändert; ein absoluter Betrag verändert sich. | Zwei unabhängig als dieselbe Rezept-/Mischungsrelation gebundene Records mit verschiedenen Werten, bisher nicht festgestellt. Kapazitätsprüfung nur an publizierten vollständigen Parallelrecords, 5 Minuten. | Gleiche Rezeptidentität ist nicht gesichert; beliebige proportionale Lesungen liefern keine Evidenz. |
+| IP030 | Eine Rangangabe verträgt geordnete Zwischenwerte, ein Kategorienindex dagegen nicht notwendig: ein unabhängiger **zwischen zwei Endzuständen gezeichneter Zustand** sollte schriftlich zwischen den beiden Werten liegen. | Vollständige visuelle Dreierreihe mit unabhängig lesbarer gradueller Eigenschaft; GDT812s skalare Rivalen als Vorgänger. Erst Eignung eines publizierten Dreiers prüfen, 5 Minuten. | Physische Reihenfolge ist keine Wertordnung; kalender-/ordinalbezogene geschlossene Routen unbedingt prüfen. Keine neue Zahlenbedeutung aus bloßer Platzfolge. |
+| IP031 | Ein Maßeinheitenwort müsste bei einem Wechsel zwischen zwei unabhängig erkennbaren Maßarten eine **wiederkehrende Umrechnung** zulassen; ein Stoffname verlangt keine konstante Umrechnung. | Dokumentierte doppelte Wertangabe desselben Gegenstands mit unabhängig verankerten Einheiten; noch keine Quelle bekannt. Zuerst vorhandene Mengenberichte auf ein echtes Doppelmaß prüfen, 5 Minuten. | Aktuell hoher Datenbedarf; historische Umrechnungszahlen dürfen nicht zur Suche passender Voynich-Zahlen missbraucht werden. |
+
+### G — Aufbau des Dokuments und gemeinsame Textvorlage
+
+| ID | Konkrete Vorhersage | Nötige Quelle und kleinster Test | Hauptrisiko |
+|---|---|---|---|
+| IP032 | Wenn getrennte Schriftbereiche eine gemeinsame Vorlage zeilenweise umsetzen, bewahren **seltene vollständige Mehrgruppenmotive** ihre relative Abfolge auch bei anderem Layout; unabhängige Textzusammenstellungen müssen das nicht. | Vorhandene vollständige Seiten und veröffentlichte Wiederholungen; GDT838/829 als Kapazitätsgrenze. Nur bereits bekannte Motivkontakte auf eine zweite unabhängig gebundene Reihenbeziehung prüfen, 5 Minuten. | Wahrscheinlich Wiederaufnahme der geschlossenen Parallelstellenkapazität; ohne neuen unabhängigen Motivanker kein Suchlauf mit gelockerten Regeln. |
+| IP033 **REVIEW_PRIORITY** | Wenn zwei Schreiber dieselbe Vorlage in unterschiedlichen Schriftkonventionen wiedergeben, bleiben **vollständige mehrteilige Relationstypen** über Handwechsel erhalten, während grafische Realisierungen gemeinsam wechseln; bloßer Themenwechsel verändert auch die Relationen. | Bestehende Handmetadaten, unabhängige Recordgrenzen und positive Binnen-/Gruppenstruktur aus `STRUCTURAL_KNOWLEDGE.md`. Zuerst ein publiziertes Recordpaar mit gleicher unabhängig sichtbarer Aufgabe und verschiedenen Händen auf einen vorab beschreibbaren Unterschied prüfen, 5 Minuten. | Schreiber, Sektion und Aufgabe können untrennbar gekoppelt sein; ohne echten gekreuzten Kontrast keine neue Multihand-Statistik. |
+| IP034 | Ein ursprünglicher Anschluss zwischen zwei Blättern könnte durch **unvollständige Endkonstruktion plus eindeutige Anfangsergänzung** erkennbar sein, selbst wenn heutige Reihenfolge anders ist. | Kodikologische Lagenmetadaten und vollständige End-/Anfangsrecords; kein Kandidat vorausgesetzt. Eine bereits dokumentierte Unterbrechung auf genau eine erlaubte Ergänzung prüfen, 5 Minuten, keine global beste Umordnung suchen. | Konstruktionsgrenzen sind nicht Goldstandard; Seitenreihenfolgeoptimierung kann scheinbare Kohärenz erzeugen. Beschädigte/versiegelte Seiten bleiben ausgeschlossen. |
+| IP035 | Ein tabellarisches Arbeitsschema bewahrt **Spaltenrollen bei variabler Reihenfolge der Records**; narrative Fortsetzung bewahrt eher die Reihenbeziehungen als starre Felder. | Native Pharma-Records und GDT791s dokumentierte Recordgrenzen, Rollen zunächst nur geometrisch. Zwei klar vergleichbare vollständige Records auf dieselben unabhängig abgegrenzten Felder und unterschiedliche Feldbelegung prüfen, 5 Minuten. | Layoutgrammatik wurde bereits weit untersucht; neue Erkenntnis nur bei einem konkret noch offenen Modellkontrast. Keine Stellungsregel als Übersetzung ausgeben. |
+
+Quellenkürzel GDTNNN sind mit `./vmanus-work lookup GDTNNN` aufzulösen, bevor eine
+Idee `REVIEWED` erhält. Genannte Docs sind relativ zu `docs/`; keine neue Aufnahme
+oder Textzulassung folgt aus einem Quellenhinweis. Es wurden **28 Rohideen in
+7 Familien**, davon **5 REVIEW_PRIORITY**, abgelegt; **0 neue REVIEWED-Ideen**.
+Schreibzuständigkeit dieser Fassung an root zurückgegeben.
+
+### Root-Auswahl und begrenzte Vorgängerhinweise
+
+Die fünf Prioritäten bleiben eine Prüfauswahl, kein Versuchsauftrag. IP014 ist
+der erste Kandidat für eine vertiefte Vorgänger-/Definitionsprüfung: Welche
+konkrete beobachtbare Stelle und welche vorab begrenzte Prüffunktion wären
+gemeint? Ohne diese Festlegung kein Suchlauf über frei gewählte Zeichenwerte.
+Der erste route-check `checksum parity modular order invariant check symbol
+content multiset` liefert keinen direkten Beleg für Neuheit; ebenso wenig die
+Dateinamensuche nach checksum/parity/check_digit. Der vollständige Vorgängerabgleich
+ist offen. IP014 bleibt RAW_UNSCREENED, kein Prüfsummenbefund.
+
+Für IP021 hat root GDT273/GDT344-Primärberichte, GDT802s Bericht sowie Teile von
+GDT608 gelesen: grobe q13-Feldzustände, atomare Tupelübergänge, unmittelbare
+l/m-Nachbarn und BPE-Außenkanten sind unterschiedliche bereits geprüfte Ebenen.
+Daraus folgt weder Erfolg noch Neuheit einer nichtlokalen Ganzgruppenkopplung;
+GDT803/804 und die Kapazitätsvorgänger bleiben vor einem Test zu prüfen.
+Für IP016/017 nennt der unabhängige Reviewer zusätzlich
+`experiments/semantic_assumptions/results/il011_timm_direction_control_report.md`:
+der dortige feste Generator ist bereits verworfen; ein bloßer neuer Fit wäre
+keine neue Beobachtung. Zeitlich geordnete Korrekturen brauchen weiterhin eine
+unabhängig gesicherte Chronologie, die RCD001 nicht liefert.
+
+Diese Hinweise sind Navigation für die nächste Auswahl. Keine neue Manuskript-
+auswertung, kein Reifegrad auf REVIEWED angehoben und keine Seite zugelassen.
