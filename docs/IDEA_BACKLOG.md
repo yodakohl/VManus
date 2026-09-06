@@ -1346,3 +1346,85 @@ Keine drei vermeintlich neuen Beispiele aus diesen Altfällen abgeleitet.
 **Kein guter neuer Anker in diesem Suchblock**, keine neue ID oder Auswertung;
 keine Rohdaten/Bilder/Web. IP021-Status nach dem unabhängigen Root-Review
 aktualisiert, seine tatsächlichen Passagen bewahrt. Schreibzuständigkeit zurück.
+
+
+### IP038 — Doppelung ist noch kein Verstoß gegen Ziehen ohne Zurücklegen
+
+Status: `REVIEWED_EXACT_PASSAGE_BUT_NO_IDENTIFYING_CONTRAST`.
+Genau dieser bislang ungeprüfte Mechanismus wurde ausgewählt, keine neue ID.
+Der direkte [GDT651-Bericht](../experiments/yolo/gdt651_ckh_four_shell_family_migration/REPORT.md),
+Abschnitt „Vier neu vollständige Zeilen“, belegt die vollständige, dort als
+„dreileser-strikt“ ausgewiesene Passage:
+
+```text
+f83r.27 dain chedy qokeedy shckhedy shckhedy
+```
+
+**Vorhersagevertrag und Gegenprüfung:** Ein fester Homophonenvorrat mit mindestens
+zwei verschiedenen Ausgaben pro Klartexteinheit und Ziehen ohne Zurücklegen
+verbietet die Wiederverwendung derselben Ausgabe **innerhalb desselben Zyklus**.
+Unabhängige Auswahl mit Zurücklegen verbietet sie nicht. Die vorhandene Doppelung
+ist trotzdem kein identifizierender Gegenbeweis: Schon bei dem Vorrat `{A,B}`
+kann `B A | A B` über eine reguläre Erschöpfungsgrenze hinweg entstehen. Weder
+Zyklusgrenze noch nichttriviale Homophonklasse sind hier unabhängig bestimmt;
+auch eine Singletonklasse bleibt möglich. Die alten Sach-/Gradglossen tragen
+keine dieser Voraussetzungen. Eine weitere Doppelungszählung würde das nicht ändern.
+
+**Vorgänger/Neuheitsgrenze:** Route-check `homophone without replacement repeated
+word shckhedy` und `homophonic exhaustion urn cyclic alternation`; ergänzend
+gezielte Indexnavigation zu GDT194. Der direkte
+[GDT194-Bericht](../GDT194_CONSONANTAL_HOMOPHONY_REPORT.md) verwirft seinen festen
+PAGE_HOST-Konsonantenfit, nicht einen solchen zyklischen Ganzformvorrat.
+[GDT820](../experiments/yolo/gdt820_grouped_predicate_repetition_context/REPORT.md)
+hat die Wiederholungen und A–A–B–B–A bereits diskutiert; die Passage ist kein neuer
+Manuskriptbefund. Ohne unabhängig begrenzten Vorrat beziehungsweise beobachtbare
+Zyklusbedingungen folgt kein neuer ausführbarer Test. Keine Klasse aus
+Wiederholungsarmut konstruieren, keine Decoderrettung. Quellenprüfung beendet;
+keine Rohdaten, Bilder, Websuche, Zählung oder Experimente. Schreibzuständigkeit
+wieder bei root.
+
+
+### IP038 — Stärkerer Vertrag: drei identische Rohgruppen
+
+Statuspräzisierung: `REVIEWED_TRIPLE_INVARIANT_SOURCE_OCCURRENCE_OPEN`.
+Roots Nachgedanke schärft den vorigen Stopp: **AAA ist unmöglich**, wenn jede
+vollständige Rohgruppe genau eine Ausgabe ist, Ausgabenpötte fest und disjunkt
+sind, der betreffende Pott mindestens zwei verschiedene Ausgaben enthält,
+jeder Zyklus jede Ausgabe genau einmal zieht und kein vorzeitiger Reset erfolgt.
+Beweis: Das zweite A muss im nächsten Zyklus liegen, das dritte nochmals im
+nächsten. Der dazwischen vollständig durchlaufene Zyklus enthält dann nur A —
+ein Widerspruch zur Mindestgröße zwei. Unbekannte Startphase schadet diesem
+Argument nicht. Mit Zurücklegen besitzt AAA dagegen keinen solchen harten
+Ausschluss. Singletonpötte, überlappende Pötte, andere Codeeinheiten und Resets
+bleiben ausdrücklich außerhalb des Ausschlusses.
+
+**Quellenlage vor einem neuen Freeze:** Der direkte
+[GDT851-Bericht](../experiments/yolo/gdt851_primitive_tandem_raw_group_discovery/REPORT.md)
+veröffentlicht keinen konkreten AAA-Lokus. Seine p1-Fenster umfassen zwei Gruppen,
+p3 umfasst sechs Gruppen; die dortigen Nullwerte sind keine Prüfung auf AAA.
+Auch der gezielte Prosa-Screen von GDT820 REPORT/COORDINATOR_CONTENT und GDT574
+REPORT liefert hier keinen zitierten Dreifachanker. Das ist keine Behauptung,
+dass im zugelassenen Bestand keiner existiert. Kein Rohcache, TSV oder
+Experimentartefakt geöffnet.
+
+**GDT001-Abgrenzung:** [METHOD](../GDT001_METHOD.md), Abschnitt „Systems“, und
+[gdt001_language_models.py](../gdt001_language_models.py), Funktionen
+`homophone_reverse_bits` / `path_homophone_reverse_bits`, verwenden feste
+Zuordnungen und Reverse-Dirichlet-/geglättete Häufigkeitskosten. Die geprüften
+Funktionen führen keinen erschöpften Ziehvorrat; dieser konkrete harte
+AAA-Vertrag ist dadurch nicht geprüft. Das ist eine Aussage über diese
+Primärimplementierung, kein Vollständigkeitsbeweis über sämtliche GDT001-Zweige.
+Route-check: `triple identical group repetition without replacement`.
+Ein kleinster nächster Schritt wäre erst nach Root-Freeze eine exakt begrenzte
+AAA-Beobachtung mit sicheren Rohgruppengrenzen, ohne Runlängenpanel oder
+Decoderfit. Ein Treffer würde nur den genannten nichttrivialen Ganzgruppen-Pott
+für seine wiederholte Ausgabe ausschließen; kein Treffer bestätigt ihn nicht.
+Schreibzuständigkeit zurück bei root.
+
+Root selects the stronger IP038 contract as **GDT857 IN_PROGRESS**, public
+freeze before cache access. Exact kind-P plain-raw AAA windows with definite
+internal seams and complete outer boundaries; all three alternate readings,
+strict coordinate concordance reported separately. No null/model/translation.
+Independent proof review supports the singleton implication under faithful
+emission, fixed disjoint pools and no intra-line resets.15min total budget
+from06:52:08UTC to07:07:08UTC. Zero triples will not be a model-PASS.

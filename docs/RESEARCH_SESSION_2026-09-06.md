@@ -158,3 +158,16 @@ show text enclosures and figure/channel arrangements without proven referents.
 Fourth dossier:28renderings/27canvases/28admittedkeys across orientation passes,
 not all visual experiments. No admission or scored test.15min block began
 06:43:34UTC, publication due06:58:34UTC. GoalACTIVE, about3h06elapsed.
+
+06:52:08UTC decision: GDT857 will inspect exact raw AAA windows in the three
+GDT851 safe179 caches, after public protocol/source freeze. A fixed disjoint
+pool mechanism that emits each distinct member once per exhaustive cycle
+requires an AAA codeword to have a singleton pool, regardless of initialphase.
+This is a new three-emission discriminator; the motivating known f83r.27
+double is allowed across cycles.851tested two-group p1 tandems, not this
+contract.001's reviewed reverse-Dirichlet homophony functions lack suchcycles.
+One valid triple would reject only the all-pools-nontrivial whole-group model;
+none would leave it unresolved. No language/meaning/key claim or model fit.
+Independent proof review supports the exact conditional statement, including
+faithful emission/no resets/no surface aliases. Cache reading remains pending.
+Total budget15min to07:07:08UTC; checkpoint before target access by07:00UTC.

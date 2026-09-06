@@ -1,0 +1,119 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Conditional deterministic cipher-class counterexample only; transcription-bound whole-group codeword assumption, not homophony generally.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt857_cyclic_inventory_triple_bound/src/run.py",
+    "validate": "python3 experiments/yolo/gdt857_cyclic_inventory_triple_bound/src/validate.py"
+  },
+  "created": "2026-09-06",
+  "dependencies": [
+    "GDT851"
+  ],
+  "experiment_id": "GDT857",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt851_primitive_tandem_raw_group_discovery/experiment.json",
+      "role": "frozen_source_or_extractor",
+      "sha256": "059d30f4374cd0f50cb0d3ed665d3f4f53e4259300a683477592a829c154ac55"
+    },
+    {
+      "path": "experiments/yolo/gdt851_primitive_tandem_raw_group_discovery/src/SPEC.json",
+      "role": "frozen_source_or_extractor",
+      "sha256": "192674c513a6b633f88a5bdd4d4394bf5463139d062a1ae19abc167d2007a241"
+    },
+    {
+      "path": "experiments/yolo/gdt851_primitive_tandem_raw_group_discovery/artifacts/SOURCE_ZL3b.json",
+      "role": "published_safe_cache_hash_checked_on_GO",
+      "sha256": "73d3a80095d76876da91e67a6c9bd0d46284fdfe62250fccfb7d9dee3c038329"
+    },
+    {
+      "path": "experiments/yolo/gdt851_primitive_tandem_raw_group_discovery/artifacts/SOURCE_IT2a.json",
+      "role": "published_safe_cache_hash_checked_on_GO",
+      "sha256": "333a76f0f8ec4904accf8f56cd947cb81cc6a05e2a53b1de3674659a04c83e03"
+    },
+    {
+      "path": "experiments/yolo/gdt851_primitive_tandem_raw_group_discovery/artifacts/SOURCE_RF1b.json",
+      "role": "published_safe_cache_hash_checked_on_GO",
+      "sha256": "e9998f013dd1ae4608a13bc4e67bea1f9bfb3859cb4f4b60b84c404b2c7e0101"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt857_cyclic_inventory_triple_bound/.gitignore",
+      "role": "source_or_artifact",
+      "sha256": "9b9dc66af90f9ff99fa79101a6e3eb357e4d8b53cafcf51e9a8d2e2e32ca7dbb"
+    },
+    {
+      "path": "experiments/yolo/gdt857_cyclic_inventory_triple_bound/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "0e7157553d8744bcf4eb5e32885318f33abdaf8fab400171f1d7619a03405a1e"
+    },
+    {
+      "path": "experiments/yolo/gdt857_cyclic_inventory_triple_bound/PREREGISTRATION.md",
+      "role": "source_or_artifact",
+      "sha256": "74a80288b92ca4dbf6f20fe9c3e4a9351966ba1280251ac46a856c1547e9f52b"
+    },
+    {
+      "path": "experiments/yolo/gdt857_cyclic_inventory_triple_bound/README.md",
+      "role": "source_or_artifact",
+      "sha256": "001d0d083eb1e138d84d9c086f21e1385c40a50be29698eafaa2e172619a1386"
+    },
+    {
+      "path": "experiments/yolo/gdt857_cyclic_inventory_triple_bound/REPORT.md",
+      "role": "primary_report",
+      "sha256": "db39af24d0f45f5e17b05cbf2343a04cf2a21b2d0343d0991f74437ca82f8b4f"
+    },
+    {
+      "path": "experiments/yolo/gdt857_cyclic_inventory_triple_bound/artifacts/CONTROLS.json",
+      "role": "source_or_artifact",
+      "sha256": "b3a3334cee797d6f16639be397c9eb0e245137cdfa7b96b66e826ad58ead8a80"
+    },
+    {
+      "path": "experiments/yolo/gdt857_cyclic_inventory_triple_bound/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "ce1cf9eb64dfc35b7158d4d40cd52e4ab325256dd92d300b699789f383185d5c"
+    },
+    {
+      "path": "experiments/yolo/gdt857_cyclic_inventory_triple_bound/src/PREREG_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "daba362f1d16e5ed495d8112e062f06e988827002bd38ef239996aed961dc9c1"
+    },
+    {
+      "path": "experiments/yolo/gdt857_cyclic_inventory_triple_bound/src/SPEC.json",
+      "role": "source_or_artifact",
+      "sha256": "a8243fd4a6d251e1f3a4ce5027db9c21ec8fb9baa9e1c58b73359823491b2db1"
+    },
+    {
+      "path": "experiments/yolo/gdt857_cyclic_inventory_triple_bound/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "0f54b1dd788492b537df4f5f9cf379ad2a3a07eb9aef8cddac864aa0988f7d30"
+    },
+    {
+      "path": "experiments/yolo/gdt857_cyclic_inventory_triple_bound/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "80353b0a890657dcb781245a63d1ed5af3a8e105016173c8a24ca93ecb5e7300"
+    },
+    {
+      "path": "experiments/yolo/gdt857_cyclic_inventory_triple_bound/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "633bd519919fff29509bc8e20471395ec91eda6630b22a4e022af6e391e2bee2"
+    }
+  ],
+  "question": "Do exact raw prose triples contradict the fixed nonsingleton without-replacement cyclic-pool contract?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "cyclic_inventory_triple_bound",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Literal triple bound for nonsingleton cyclic codeword pools",
+  "updated": "2026-09-06",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}
