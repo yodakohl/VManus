@@ -3,16 +3,14 @@ Updated: 2026-09-06. Read first.
 
 ## Current mandate and effort limit
 
-Latest request: record the poor return of the six-hour GDT837 work so it does
-not recur. Duration is user-reported. No new manuscript reading resulted;
-wrong candidates outranking truth was already known from GDT834. The assistant accepts excessive scope and overstated novelty.
-Before substantial work, write a short note: genuinely unresolved question,
-what each outcome changes in our Voynich research decision, smallest adequate
-test, total wall-time budget and stop checkpoint. Include preparation, code,
-validation and publication. If no decision changes, do not build a large control.
-No automatic suffix repair, new control corpus or enlarged restart panel after
-GDT837. Reassess at the checkpoint; preserve scientific gates and existing
-permissions. Durable rules and case: `docs/WORKFLOW.md` and `AGENTS.md`.
+Latest request: next idea with a ten-minute total budget. GDT838 now stops at
+capacity: no cross-folio candidates for the fixed raw-group recoding screen.
+No decoder, threshold repair, held prediction or new page is selected.
+Effort rule after the user-reported six-hour GDT837 detour: before substantial
+work record novelty, outcome-dependent Voynich decision, smallest adequate test,
+total wall-time budget and stop checkpoint, including preparation and publishing.
+Do not automatically repair the next decoder or change corpora. Preserve gates
+and existing permissions. Durable rules: `docs/WORKFLOW.md` and `AGENTS.md`.
 
 Goal: transferable translation. Confirmed English lexemes: **0**;
 confirmed German lexemes/clauses: **0**. No new fit or page admission selected.
@@ -20,32 +18,37 @@ GPU/subagents authorized; no other LLM API keys. No public decipherment-approach
 searches: the user says these are exhausted. Understand project history and
 manuscript appearance before fixing a route; use primary internal evidence.
 
-## Completed control — GDT837
+## Latest manuscript screen — GDT838
+
+`experiments/yolo/gdt838_recoded_passage_capacity/REPORT.md`.
+Public bba4741d precedes extraction. Odd admitted folios only (88 selectors),
+ZL3b; even folios excluded before payload. Fixed16-group windows, at least6types
+and4repeated types, cross-folio bijection with6nonidentity types. Of8490 windows,
+5392 have uncertain small-space boundaries;14 meet the repetition criteria on
+five physical folios. Zero cross-folio matching patterns: CAPACITY_STOP.
+No candidate for a larger fixed-map/held-prediction pipeline. No threshold repair.
+Independent direct-map pair census and byte-exact guarded extraction replay pass;
+source extraction is shared with GDT829. This is not a calibrated null, general
+rejection of parallel passages or new meaning. No held evaluation or image access.
+The older internal-parallel proposal now has this narrow capacity failure only.
+
+## Previous control — GDT837
 
 `experiments/yolo/gdt837_scg_integrated_wholeword_control/REPORT.md`.
-Public 60e0d84b precedes 48 fits and six locked selections. Fixed SCG Books I–II /
-III–IV: 129120 discovery / 192991 held words in 9859 / 13828 source sentences.
-STRICT_RECOVERY_FAIL: all six selections get 189616 held words (98.2512%),
-99.6947% characters, 20292/20871 novel forms and 7979/8254 novel lemma occurrences
-exact. All plaintext floors pass. All 34 roles, 22 L and 8 W outputs correct;
-S ae→a leaves 33/34 identifiable active packages. Both arms have zero W violations
-on both splits; paired gain zero. Wrong key beats oracle by 31589.171877 nats.
-Independent 48-score / 1157946-prediction replay passes; no implementation mismatch.
-Posthoc: 45/48 have this sole S error, three STRICT have extra errors, none correct.
-Selected 2248D/3375H errors are suffix-attributed. No causal spelling claim or repair.
-SCG is new as ciphertext, previously part of GDT832 reference; native Monarchia
-remains frozen. No observed u/v error. Three keys share one split; sentence,
-word and atom boundaries and nominal capacities are supplied. Full suffix inverse
-is untested, not an automatically selected successor. GDT616/CDA001 stay closed.
+48 fits/six locked selections, fixed SCG I–II / III–IV. Both arms:98.2512% held
+words,99.6947% characters; all34 roles and22L/8W outputs correct, S ae→a leaves
+33/34 exact active packages. STRICT_RECOVERY_FAIL; W-constraint gain zero.
+Wrong key beats oracle31589.171877nats. All selected2248D/3375H errors are suffix-
+attributed;45/48 restarts have that sole error,three STRICT have extras,none exact.
+Independent replay passes. Wrong-score preference was already known from GDT834;
+no new manuscript reading. Full suffix inverse remains untested, not selected.
+Three keys share one control split with supplied boundaries/capacities.
 
 ## Primary predecessors — findings and limits remain unchanged
 
-- GDT836: integrated STRICT W checks after atomic decoded updates, before score
-  and best-state commits; includes inactive W, rollback, forced/greedy moves.
-  Paired first-compatible initialization, cap1000, separate reset search RNG;
-  nine invented tests pass. Fixed Questio 44D/44H, 2318D/2064H words stops because
-  two held-active L rules have zero D support. No keys/cipher/fits or split repair.
-  `experiments/yolo/gdt836_integrated_wholeword_precedence/REPORT.md`.
+- GDT836: integrated W constraint passes invented tests; fixed Questio control
+  stops because two held-active L rules have zero discovery support. No source
+  repair or historical fits. `experiments/yolo/gdt836_integrated_wholeword_precedence/REPORT.md`.
 - GDT835: retrospective candidate-own W priority accepts21 correct GDT834 maps,
   rejects27 wrong maps. Wrong W cum coexists with composed cum15D/44H, violating
   the mandatory encoder. No new fits, scores or rescued selections;
@@ -76,7 +79,7 @@ or retune them. GDT830 marks64.6757% of a visibly blank patch foreground: observ
 failure, not evidence against pen-state information. GDT831 adds192 clear-point
 labels but fails f81r paper specificity22/24 versus required23/24; independent
 replay passes, scientific control fails. Primary reports via compact lookup.
-`docs/internal_parallel_passages/PROPOSAL.md` remains unexecuted: no actual pair/map.
+`docs/internal_parallel_passages/PROPOSAL.md`: GDT838 capacity screen stops; no map.
 `docs/visual_overview/NEXT_STEP.md`: l/m-width rank1 withdrawn; optional, untested.
 
 ## Known structure and interpretation limits

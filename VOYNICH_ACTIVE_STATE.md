@@ -6,6 +6,19 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### GDT838 ten-minute manuscript capacity screen (2026-09-06)
+
+Primary: `experiments/yolo/gdt838_recoded_passage_capacity/REPORT.md`.
+Public bba4741d before guarded source access; odd admitted folios, ZL3b only,
+even folios excluded. Raw16-group windows with6distinct and4repeated types;
+matching cross-folio equality pattern and6nonidentity mappings required.
+8490 windows,5392 uncertain-boundary exclusions,14 repetition-eligible windows
+on5physical folios,zero cross-folio matching patterns: CAPACITY_STOP. No large
+fixed-bijection/held prediction pipeline selected; no relaxed thresholds.
+Direct-map pair audit and byte-exact source replay pass; extraction shared with
+GDT829. No held prediction, full-search null, semantic relation or general
+rejection of parallel passages. Narrow first capacity test of the prior proposal.
+
 ### Research-effort correction requested by user (2026-09-06)
 
 The user reports six hours for the work culminating in GDT837 and asks that the
