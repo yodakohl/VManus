@@ -220,3 +220,5 @@ TGC001 exact excluded-image panel queried through page-selector guard forf56r:
 zero published excluded rows onthispage; no source-family payload requested.
 
 07:53UTC GDT859 result: nativeABconnection replicated, BCunconnected; threecomplete rawlines preserve firstseam definite andZL/RF167/168 versusITt. Rootmanualalignment qualified separately, no glyph/word/penmotion claim. Independent source/image/seal checks and replayPASS. Publicfreeze f657e15c precededtargetread. Smallpass publishing before07:57:20budget; goalACTIVE at13:40:45deadline.
+
+07:58UTC localcode audit after859: Pd/Pe detailed167/168 versusbasicp/f; ITt/t is a rawreading difference, not establishedintentional simplification. Independentstatic review agrees. No manuscript census/newimage/newmeaning; source note+exactrow validator published afterchecks. Goal remainsACTIVE until13:40:45UTC.

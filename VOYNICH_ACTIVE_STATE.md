@@ -8,6 +8,11 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ### GDT859 initial upper link and separator coexistence (2026-09-06)
 
+Later local-convention audit: `docs/source_conventions/F56R_ENTITY_CONVENTIONS.md`.
+Pd/Pe map to167/168 in detail andp/f in basic conversion, not ITt/t.
+ITt is an observed reading difference, not proven intentional simplification.
+The conversion tables alone do not define a between-group connection.
+
 Primary: `experiments/yolo/gdt859_f56r_initial_bar_separator/REPORT.md`.
 Post-discovery publicfreezef657e15c before exact target source extraction.
 Both native viewers confirm first-to-second tall-form connection on f56r.1,
