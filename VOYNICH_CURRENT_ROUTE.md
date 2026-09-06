@@ -38,9 +38,8 @@ RBR002 already closed the apparent RBR001 successor.
 845–849 sparse grids,848native anchor; no meaning.847corrects829;844stopped.
 
 Goal: transferable translation. Confirmed English lexemes: **0**;
-confirmed German lexemes/clauses: **0**. GDT857 finds4coordinate-stable rawAAA
-across3readings. Under whole-group codewords and faithful disjoint exhaustive
-cycles, these forms force singleton pools; no general homophony rejection.
+confirmed German lexemes/clauses: **0**.857:4all3 rawAAA; faithful disjoint
+exhaustive whole-group cycles force singleton pools, not general homophony rejection.
 GDT856 old605freecode nonUD: [C,E]=[CE]; canonicalBPE remains deterministic.
 GPU/subagents authorized; no other LLM API keys. No public decipherment-approach
 searches: the user says these are exhausted. Understand project history and
@@ -102,6 +101,7 @@ Understanding dossier: `docs/VOYNICH_UNDERSTANDING.md`;
   GDT852 source: `experiments/yolo/gdt852_f75v_native_join_split_spacing/src/PAGE_ADMISSIONS.tsv`.
   GDT861 source: `experiments/yolo/gdt861_extended_entity_native_comparison/src/PAGE_ADMISSIONS.tsv`.
   Register before any new page access.
+- Cached NVA002/EBA001: ten MSI folios already routed; repeated UV traces leave material role unresolved. No new layer located.
 - Text:179 selectors in `experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv`, not179 visually
   inspected pages. GDT811 union190 and GDT327's91-folio edition do not enlarge scope.
 - f84 is sealed; f84r is sealed. Preserve panel keys f67r2/f68r1. Page, selector

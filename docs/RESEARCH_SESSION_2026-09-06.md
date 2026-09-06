@@ -361,3 +361,24 @@ spatialgroups. The candidate supplies another localcontact, not the proposed
 selective nonadjacent link. Independent source/seal/schema/decision checks and
 byte replayPASS; no softwarevisionproof, textquery ormeaning. Publishingwithin
 09:44budget. Ten-hour goal remainsACTIVE until13:40:45UTC.
+
+09:41:49UTC GDT866 result18f4670f public; total09:30:36→09:41:49=11m13.
+Previous goal turnPROGRESS: a preregistered native candidate topology was tested,
+recorded and published; it does not supply a selective nonadjacent-link anchor.
+
+The next source review distinguishes IL009 aggregate cross-Currier/section/hand
+adjacency from IL010 direction-specific Currier-only confirmation, GDT737 held
+bodies and GDT865 held leaves. Existing claims are consistent; no new refit or
+statistical correction warranted. Added a source-linked comparison to the
+structural dossier to prevent conflating these transfer contracts. In parallel,
+producer replenishes mechanism questions and a separate source audit checks
+whether an already documented additional physical imaging layer exists.
+
+The bounded local physical-source audit found the already documented NVA002
+2014Lazarus/RIT ten-folio MSI inventory and EBA001 sixoriginalUVcaptures.
+No currentnetworkavailability check orimagebodyaccess. RepeatedUVtrace doesnot
+identify ink/relief; no documentedcoverage ofrecentupper-link targets orRBR002/
+RFH001targets. This is existing evidence, not a new physical-layer acquisition.
+Producer added IP061–064 RAW acrossfourmechanismfamilies; allretain concrete
+missing-source prerequisites and none is approved asready. No new statistical
+run follows the transfer review. Goal remainsACTIVE.

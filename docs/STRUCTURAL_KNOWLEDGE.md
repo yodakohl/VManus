@@ -53,6 +53,24 @@ zeigt für zwei explizite Konstruktionen, dass sichere Nachbarschaft allein
 keinen nominalen Anschluss oder eine Wortart bestätigt. Diese Befunde machen
 nicht sämtliche Strukturarbeit falsch.
 
+## Welche Art von Übertragung ist jeweils geprüft?
+
+Quellenreview vom6. September; keine neue Berechnung. Diese vier positiven
+Befunde betreffen unterschiedliche Gegenstände und dürfen nicht gegeneinander
+als Ersatzbeleg verwendet werden:
+
+| Primärquelle | Was übertragen wird | Was im Training fehlt | Grenze |
+|---|---|---|---|
+| [IL009](../experiments/semantic_assumptions/results/il009_cross_stratum_adjacency_report.md) | Allgemeine Nachbarschaftsaffinität der formalen Wurzeln über die festgehaltenen Seiteninventare hinaus | Alle Seiten mit demselben Currier-Wert, Abschnitt oder derselben katalogisierten Hand wie die Zielseite, je Achse separat | Bestätigt für alle drei Achsen; keine Wortart oder Autorenidentität. |
+| [IL010](../experiments/semantic_assumptions/results/il010_cross_stratum_direction_report.md) | Zusätzliche Richtungsinformation gegenüber der über beide Orientierungen zusammengefassten Paartabelle | Jeweils derselbe Metadatenwert der Zielseite | Nur Currier bestätigt; zusätzliche Richtungsübertragung über Abschnitt und Hand nicht bestätigt. Das hebt IL009 nicht auf. |
+| [GDT737](../experiments/yolo/gdt737_held_body_record_role_transfer/REPORT.md) | Anfangspositionsunterschied der vier formalen Kopfklassen |120vorher nicht verwendete gemeinsame Restkörper waren für die Entdeckung zurückgehalten | Positionsachse übertragen; vollständige2x2Körperaffinität scheitert. Kein Nachweis derselben Bedeutungsfunktion bei einem Handwechsel. |
+| [GDT865](../experiments/yolo/gdt865_whole_leaf_primary_robustness/REPORT.md) | Zwei primäre L-/DY-Variationsschwellen der unveränderten CORE13-Modelle | Der gehaltene Körperträger und das gesamte physische Blatt, einschließlich Gegenseite | Retrospektive Blattrobustheit; die übrigen Trainingsblätter dürfen dasselbe Register haben. Keine neue Prüfung ganzer unbekannter Register oder Übernahme aller alten Nullurteile. |
+
+IL009 undIL010 verwenden ZL3b als Primärlesung; IT2a/RF1b sind alternative
+Lesungen derselben Handschrift. Die drei Metadatenachsen sind ebenfalls keine
+unabhängigen Ursachen. Ein künftiger Vorschlag muss deshalb die zu prüfende
+Übertragung benennen, bevor ein weiterer Modelllauf gerechtfertigt ist.
+
 ## Zeichnungsunterbrechungen: ein bereits geprüfter Strukturfall
 
 Ergänzung vom6. September, **kein neuer Versuch**: DIC001 hat Unterbrechungen
@@ -109,3 +127,24 @@ bewährte Strukturinformationen in ihre Vergleiche und Kontrollen einbeziehen.
 Die Grenzen und Kategorien des Arbeitsparsers dürfen dabei nicht unbesehen
 als autorielle Wahrheit gelten. Der Vorschlag bleibt unregistriert/ungetestet;
 hier werden keine neuen Filter, Paarungen oder Ergebnisse eingeführt.
+
+
+## Zusätzliche Bildschichten sind ebenfalls Teil der Vorgeschichte
+
+Quellenreview vom6. September, ohne erneuten Bild- oder Netzwerkzugriff:
+[NVA002](../experiments/semantic_assumptions/results/nva002_public_physical_layer_update_prescreen_report.md)
+verzeichnet bereits die öffentlichen Multispektralaufnahmen von zehn Folios.
+Die Roh-TIFFs sind deshalb keine pauschal neu entdeckte Quelle.
+[EBA001](../experiments/semantic_assumptions/results/eba001_raw_directional_msi_report.md)
+prüfte drei separat aufgenommene, mit`MB365UV` bezeichnete Aufnahmen jeweils von
+f17r undf116v. Die Zielspuren bleiben über diese Aufnahmen hinweg sichtbar;
+Tinte, feste Reliefspur und unbewegter Schatten sind dadurch nicht getrennt.
+Die Dateinamen belegen keine Beleuchtungsrichtung. Die historische Bearbeitung
+vonf116v erweitert nicht unseren aktuellen Bildzugriff.
+
+Im dokumentierten Bestand fehlen unter anderem die konkreten Zielef67r2 undf73v
+von RBR002/RFH001 sowie die neuen oberen Verbindungen auff56r/f95v2/f100r.
+Die aktuelle Erreichbarkeit oder Vollständigkeit weiterer Rohkanäle wurde hier
+nicht neu geprüft. Ein zusätzlicher Bildversuch braucht einen konkreten bislang
+nicht geprüften Beobachtungsvertrag und passende Aufnahmen; ein weiterer Blick
+auf bekannte verarbeitete Bilder genügt dafür nicht.

@@ -1726,3 +1726,103 @@ must change; the mechanical joining of upper strokes is not an expansion.
 No such pair is established by f56r/f100r/f114r. No qo insertion, component gloss,
 new classifier or image campaign is authorized by this sketch. Status remains
 NOT_READY_MISSING_WRITTEN_COMPLEMENT, not a new abbreviation finding.
+
+
+## Vier anspruchsvollere Rohkandidaten IP061–IP064
+
+**RAW_UNSCREENED**, keine READY-Kandidaten und keine neuen Datenbefunde.
+Vier Mechanismusfamilien: Leseoperationen, Adressverwaltung, relationale
+Beschreibung, gemeinsame Übertragung von Schrift und Zeichnung. Hier wird
+kein Ergebnis einer alten Route durch eine neue Bezeichnung wieder geöffnet.
+Die jeweils fehlende entscheidende Beobachtung steht ausdrücklich dabei.
+
+### IP061 — Einfügungsverweis oder eigenständige Randnotiz?
+
+**Anker:** Die direkte [native f76r-Orientierung](visual_overview/FIGURE_ORIENTATION_2026-09-06.md)
+beschreibt vom Haupttext abgesetzte verschiedenartige Zeichen; der dort
+zitierte frühere Bericht gibt `s,d,q,s,o,l,k,r,s` mit unklarer Zuordnung an.
+Das ist keine neue Zeichenfolge und bisher kein Verweissystem.
+**Hypothese:** Ein autorieller Einfügungsverweis würde ein Randstück an eine
+bestimmte Unterbrechungsstelle des Haupttexts anschließen; eine Randnotiz oder
+Recordkennung steht neben dem Haupttext, ohne selbst in dessen lineare
+Lesefolge eingesetzt zu werden. **Discriminator:** Dasselbe individuell
+unterscheidbare Verweiszeichen muss an einer tatsächlich markierten
+Binnenstelle und am Randstück stehen, mit eindeutiger Zweierzuordnung;
+idealerweise liefert ein zweites Zeichenpaar dieselbe Operation. Bloße
+Höhenausrichtung zählt nicht. **Kleinster Schritt:** Erst einen schon
+publizierten expliziten Innen-/Rand-Zeichenkontakt nominieren, danach dessen
+beide vollständigen Textstücke und Zeichenanbindung prüfen,10min. Ein solcher
+Kontakt ist für f76r bisher nicht belegt. **Rivale:** Wiederholtes Alphabet- oder
+Listenzeichen; ohne Kontakt kein Anschlussfit nach Sprachplausibilität und
+keine Wiederaufnahme der alten f66r/f76r-Ausrichtungsprüfungen.
+
+### IP062 — Nachträglich verwaltete Adressen statt stabiler Namen
+
+**Anker:** 790/791 zeigen echte Ganzformwiederverwendungen zwischen Beschriftung
+und Prosa (`otedy`, `okal`, `otchdy`, `olaiin`); sie beweisen keine Adresse.
+**Hypothese:** Ein laufendes Adresssystem könnte bei Einschub eines neuen
+Records mehrere nachfolgende Kennungen systematisch ändern. Stabile
+Objektnamen müssen wegen eines solchen Einschubs nicht gemeinsam geändert
+werden. **Discriminator:** Ein unabhängig erkennbarer Einschub plus mehrere
+chronologisch gesicherte alte/neue Kennungspaare: unveränderte Objekt-/Textkörper,
+eine gemeinsame gerichtete Kennungsänderung hinter dem Einschub, davor keine
+entsprechende Revision. **Kleinster Schritt:** Ein vorhandenes publiziertes
+Revisionsdossier auf genau diesen Verbund prüfen, höchstens10min; erst bei
+vollständig belegtem Vorher/Nachher eine Transformation formulieren. Ein
+solches Dossier ist aktuell **nicht identifiziert**. **Rivale:** Einheitliche
+orthographische Revision oder Schreibersystemwechsel; deshalb genügt die
+Kennungsänderung allein nicht. Die alten unaufgelösten Übermalungen liefern
+weder die Chronologie noch eine Erlaubnis für weitere RBR-Bildbewertungen.
+Keine frei gesetzten Zahlenwerte oder nachträgliche Indexsortierung.
+
+### IP063 — Kreuzende Merkmalszuordnungen statt exklusiver Objektkennungen
+
+**Anker:** GDT790s f82r-Becken besitzt zahlreiche getrennte Figuren-/Stationsbereiche
+und Beschriftungen;791 hält die Prosaübernahmen als panelübergreifend fest.
+Die dortige Nähe ersetzt keine autorielle Relation.
+**Hypothese:** Beschreibende Eigenschaften können mehrere Objekte in sich
+überschneidende Mengen ordnen. Ein exklusives Kennungs-/Aliasregister desselben
+Objektlevels ordnet jedes Objekt dagegen genau einer Kennung zu.
+**Discriminator:** Zwei vollständige Beschriftungen mit **autorsichtbaren**
+Verbindungslinien oder Klammern zu mindestens drei separat abgegrenzten
+Gegenständen, sodass die Zuordnungen `A→{x,y}` und `B→{y,z}` tatsächlich
+überlappen und nicht bloß verschiedene Hierarchieebenen benennen.
+**Kleinster Schritt:** Ein einziges bereits publiziertes vollständiges
+Fanout-Beispiel mit dieser Kreuzung nominieren; dann die Linienenden ohne
+Wortdeutung prüfen,10min. Ein solches Beispiel ist derzeit nicht belegt.
+**Rivale:** Sammelnamen, Besitzgruppen oder Prozessbeteiligung erlauben ebenfalls
+Überlappung; ein Erfolg wäre zunächst eine mehrstellige schriftliche Relation,
+keine Eigenschaftsübersetzung. GDT389s fehlende singularisierte Zuordnung bleibt
+maßgeblich; keine Nähe-Kanten, neue Merkmalsklassifikatoren oder Umbenennung
+von IP026s Panelhierarchie.
+
+### IP064 — Beschriftetes Bild als gemeinsame Vorlage oder getrennte Neuschrift
+
+**Anker:** 790 nennt wiederkehrende vollständige Label-/Prosaformen, während das
+Verständnisdossier verschiedene Bild- und Schriftorientierungen beschreibt.
+Ein unabhängig gebundenes gespiegeltes Bildpaar mit zugehörigem gleichen Label
+ist damit **noch nicht** belegt.
+**Hypothese:** Wird ein beschriftetes Motiv als ein grafisches Ganzes übertragen,
+könnte eine Spiegelung des Motivs auch die innere Orientierung seiner
+Schriftzeichen spiegeln. Wird die Beschriftung nach dem Zeichnen als Text neu
+geschrieben, kann das Motiv gespiegelt sein, während die Zeichen relativ zur
+eigenen Grundlinie gewöhnlich orientiert bleiben.
+**Discriminator:** Ein unabhängig identifiziertes spiegelverkehrtes Motivpaar,
+in beiden Fällen eindeutig befestigte gleiche vollständige Beschriftung,
+und mindestens ein asymmetrischer Zeichenbestandteil, dessen Spiegelung nicht
+mit bloßer Drehung der Grundlinie verwechselt werden kann. **Kleinster Schritt:**
+Nur vorhandene publizierte Motiv-/Beschriftungskarten nach einem solchen
+gebundenen Paar prüfen;10min, ohne Auswahl über Zeichenähnlichkeit. Erst mit
+Paar und asymmetrischem Bestandteil wäre ein nativer Vergleich sinnvoll.
+**Rivale:** Bewusst dekorative Spiegelschrift oder erneutes grafisches
+Nachzeichnen; die Beobachtung bewiese keine mechanische Kopiertechnik oder
+Bedeutung. Anders als IP013 geht es um gemeinsame **Spiegelung** eines
+beschrifteten Objekts, nicht um mitgedrehte Kreisschrift. Keine Gegenseiten-
+Registrierung, kein862-/830-Nachfolger und keine Herstellungschronologie aus
+Dunkelheit.
+
+Quellenanker790/791 über den Index; direkte vorher gelesene790-Quelle:
+[REPORT](../experiments/yolo/gdt790_panel_owner_image_grammar_overlay/REPORT.md).
+Die fehlenden Befunde sind Datenanforderungen, nicht behauptete neue Funde oder
+Beschaffungsaufträge. Nur vier Einträge, keine Auffüllung auf acht. Kein neuer
+Rohtext-, Bild-, Modell- oder externer Zugriff. Schreibzuständigkeit zurück.
