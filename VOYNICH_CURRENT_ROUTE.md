@@ -63,11 +63,11 @@ They supply no Voynich meaning or authorization for automatic decoder repairs.
 
 ## Visual understanding and earlier routes
 
-Root's three orientation passes:24renderings/23canvases/24admittedkeys.
+Root's four orientation passes:28renderings/27canvases/28admittedkeys.
 Dossier and exact sources: `docs/visual_overview/README.md`.
-Latest: `docs/visual_overview/PLANT_ORIENTATION_2026-09-06.md`.
-f4r axial marks point to COL001's known ordinary-alphabet rot note;
-no Voynich decipherment, new test or admission.95v's two images stay distinct.
+Latest: `docs/visual_overview/FIGURE_ORIENTATION_2026-09-06.md`.
+f76r offset signs are a known functionally unresolved column; f4r rot is an
+ordinary-alphabet note. No decipherment/admission.95v images stay distinct.
 GDT829 exact repeated-flank route and GDT830 pen-state control stop; do not relax
 or retune them. GDT830 marks64.6757% of a visibly blank patch foreground: observation
 failure, not evidence against pen-state information. GDT831 adds192 clear-point

@@ -149,3 +149,12 @@ examples, predecessor627 and the exact algebra are in
 The broader possibility of order-sensitive dependencies stays open.
 GoalACTIVE; about2h54elapsed, at least7h05to13:40:45UTC. This checkpoint adds
 a design exclusion, not a manuscript reading; candidate producer continues.
+
+06:46:31UTC native checkpoint: root viewed the four selected originals
+f75r/f76r/f81v/f83r. The preliminary figure-page grouping was too broad:
+f76r is text-only. Its offset marginal signs led to the existing f76r source
+audit; column and unresolved ownership are known, no new key. Other pages
+show text enclosures and figure/channel arrangements without proven referents.
+Fourth dossier:28renderings/27canvases/28admittedkeys across orientation passes,
+not all visual experiments. No admission or scored test.15min block began
+06:43:34UTC, publication due06:58:34UTC. GoalACTIVE, about3h06elapsed.
