@@ -1,0 +1,87 @@
+{
+  "encoder_spec_sha256": "c44a39e840ce9270a6df55657dbd72aba57ec934124609002c1c556e3d26d3d1",
+  "excluded_whole_paragraphs": [],
+  "failed_gates": [
+    "held_active_L_1D"
+  ],
+  "gates": {
+    "D_runs": true,
+    "H_new_composed_forms_100": true,
+    "H_new_unambiguous_composed_lemmas_30": true,
+    "H_runs": true,
+    "active_S_8D": true,
+    "active_W_8D": true,
+    "all_true_W_in_frozen_candidates": true,
+    "held_active_L_1D": false,
+    "reference_exact20_overlap_zero": true
+  },
+  "historical_fit_allowed": false,
+  "keys_generated": false,
+  "missing_W_candidate_count": 0,
+  "original_initial_snapshot_sha256": "f92960e81c7d00df316ad55c2f8c27c9579e88f8d79e556924a5e4d4da61f213",
+  "paragraph_metadata_sha256": "68023d0f82c4fa70f67523c0358c2c618c4623323a247eb20d522cf8eba3dcd5",
+  "partitions": {
+    "discovery": {
+      "annotation_status_counts": {
+        "EXACT_SINGLE_TOKEN_JOIN": 2315,
+        "UNKNOWN_MULTIWORD_TOKEN": 2,
+        "UNKNOWN_NONUNIQUE_OR_MISSING_ANNOTATION": 1
+      },
+      "novel_composed_forms": 0,
+      "paragraphs": 44,
+      "sentences": 70,
+      "types": 794,
+      "unambiguous_novel_composed_lemmas": 0,
+      "words": 2318
+    },
+    "held": {
+      "annotation_status_counts": {
+        "EXACT_SINGLE_TOKEN_JOIN": 2059,
+        "UNKNOWN_MULTIWORD_TOKEN": 4,
+        "UNKNOWN_NONUNIQUE_OR_MISSING_ANNOTATION": 1
+      },
+      "novel_composed_forms": 746,
+      "paragraphs": 44,
+      "sentences": 63,
+      "types": 870,
+      "unambiguous_novel_composed_lemmas": 471,
+      "words": 2064
+    }
+  },
+  "reference_exact20_overlap_sentences": 0,
+  "reproduction": "Initial snapshot reproduced byte-for-byte; no source/deck/partition/threshold changes",
+  "reused_citation_events": 0,
+  "rules": {
+    "L": {
+      "active": 25,
+      "active_rules_below_8_D": 4,
+      "held_only_rules": 2,
+      "inactive": 1,
+      "minimum_D_active_occurrences": 0,
+      "minimum_D_held_active_occurrences": 0,
+      "nominal": 26
+    },
+    "S": {
+      "active": 3,
+      "active_rules_below_8_D": 0,
+      "held_only_rules": 0,
+      "inactive": 1,
+      "minimum_D_active_occurrences": 85,
+      "minimum_D_held_active_occurrences": 85,
+      "nominal": 4
+    },
+    "W": {
+      "active": 8,
+      "active_rules_below_8_D": 0,
+      "held_only_rules": 0,
+      "inactive": 0,
+      "minimum_D_active_occurrences": 27,
+      "minimum_D_held_active_occurrences": 27,
+      "nominal": 8
+    }
+  },
+  "schema": "GDT836_SOURCE_CAPACITY_V1",
+  "source_manifest_sha256": "ae3f2009fb7035863461cf1717a22df15d79146ac3f1cd250221d6bef02a8465",
+  "split": "Que citation1-44 discovery/45-88 held, fixed before word/rule counts",
+  "status": "SOURCE_CAPACITY_STOP"
+}

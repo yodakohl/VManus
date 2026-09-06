@@ -1,0 +1,18 @@
+{
+  "schema": "GDT836_ENGINE_SPEC_V1",
+  "mode": "Engineering implementation; source gate stopped before historical keys or fits",
+  "arms": ["RELAXED", "STRICT"],
+  "supplied_structure": "Atomic word/paragraph boundaries, nominal26L4S8W roles, positional restrictions; individual symbol roles unknown",
+  "language_objective": "Unchanged GDT834 OFF / GDT832 proper language probabilities",
+  "strict_constraint": "Candidate-own mandatory W-output to carrier dictionary, including inactive W entries; every matching decoded word must be its singleton W carrier",
+  "constraint_timing": "After simultaneous key edits and all affected decoded-word updates, before transition/family value, score, or best-key commit",
+  "constraint_scope": "Scan ALL cached decoded word types against ALL current W entries; never only changed words or legacy Word.W",
+  "rollback": "Restore all changed packages and every tentative decoded word when priority fails; edge/score/best caches have not yet changed",
+  "initialization": "Identical first strict-compatible package set for both arms; up to1000 candidates from declared initial RNG stream; direct decoding before any language score or best update",
+  "initialization_candidate_distribution": "Inherited GDT834 feasible role matching/frequency literals andW, seeded suffixes and restart perturbations; W value set initially first8reference candidates, not a completeness guarantee",
+  "initialization_stop": "INITIALIZATION_STOP at cap; no fallback, repair, best-of-retries, or claimed infeasibility proof",
+  "random_streams": "Separate explicit initialization and search seeds; search RNG reset after acceptance. Identical starts/seeds do not imply identical proposals after different rejections",
+  "candidate_search": "Inherited60k annealing proposal option and4greedy sweeps; caller passes exact counts; no such historical run executed inGDT836",
+  "forbidden_claims": ["fresh historical recovery", "improvement over relaxed arm", "full suffix/canonical inversion", "optional abbreviation constraint", "Voynich reading"],
+  "sealed_data": {"f84":"FORBIDDEN", "f84r":"FORBIDDEN"}
+}

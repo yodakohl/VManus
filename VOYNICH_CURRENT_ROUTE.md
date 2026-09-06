@@ -3,9 +3,9 @@ Updated: 2026-09-06. Read first.
 
 ## Current mandate
 
-Latest request (2026-09-06): continue after GDT834. GDT835 completes the
-mandatory wholeword-priority audit: all21correctexistingkeys pass,27wrongkeys
-fail. This localizes an omitted forward-writing constraint; see below.
+Latest request (2026-09-06): continue after GDT835. GDT836 integrates mandatory
+W priority and passes9invented-fixture tests. The fixedfreshQuestio source
+stops beforekeys/fits: twoheld-active literalrules havezero discoverysupport.
 No manuscript fit is selected. Root's personal whole-page orientation remains
 completed; subagents help with source metadata, root interprets images.
 
@@ -40,23 +40,28 @@ layouts. Source logistics alone were delegated. The observational dossier is
 No new experimental or semantic claim, no new page admission. User's required
 visual understanding remains part of future work; no experiment executed; see the new proposed candidate below.
 
-## Completed — GDT835 omitted W-priority constraint separates fixed keys
+## Completed implementation — GDT836; historical source capacity stop
+
+`experiments/yolo/gdt836_integrated_wholeword_precedence/REPORT.md`.
+STRICTengine nowchecksALLcachedwordtypes againstALLcandidateWentries after
+atomicupdates,beforeedge/score/bestcommit; includesinactiveW,fullrollback,
+forced/greedymoves andfinalbest. Pairedmodes sharefirstcompatibleinit(max1000),
+noinvalidretry scoring/bestupdates, thenresetseparatesearchRNG. Nineinvented
+fixturetests andindependentcanonicaloracle pass; nofreshhistoricalrecovery.
+Questiofixed1–44/45–88:44D/44Hruns,2318D/2064Hwords. SOURCE_CAPACITY_STOP:
+twoheld-activeLruleszeroD; allothergatespass. InitialSTOPbytepreserved. No
+keys,ciphertext orfits; --fitguardstatus2. Independent88run/133sentence/4382word
+replayPASS. No source/deck/split/thresholdrepair. Enginevalidatedonly; future
+comparisonrequiresdifferentdeclaredsourcewithcapacityPASS. GDT616/CDA001closed.
+
+## Predecessor — GDT835 identifies the missing constraint
 
 `experiments/yolo/gdt835_wholeword_precedence_audit/REPORT.md`.
-Publica71f0f2b precedes48discoveryclassifications,lockedbeforetruthjoin/held.
-CandidateownmandatoryWdictionary (includingevenunusedW) requires everymatching
-word tobeitsoneWcarrier. All21correctobservedmaps pass; all27wrongmaps fail.
-Wrongkeysdecodecum asbothW(17D/109H) andcomposed(15D/44H): thecomposedforms
-violatecandidateWpriority, although theirplaintextitselfiscorrect. Theseare
-not834's42D/168Hwrongwordcounts. Everypassingkeyhas6511/6511heldwords,
-172/172paragraphs andzeroheldviolations. RETROSPECTIVE_PRECEDENCE_SEPARATION_PASS.
-Independent48Dgates/48Hconfirmations (152640D/312528Hcandidatewords) replayPASS.
-No newfit,LMscore,keyselection or834repair. Thepreviousdiagnosis isrefined:
-834allowedwrongkeys outsideitsdeclaredmandatoryencoder. NecessaryWcondition
-only; notfullsuffixinverse or optionalabbreviation/Voynichrule. Sourcegrammar
-censusremains exploratory; likelihooddecomposition andQue/Eglcontrolunrun.
-Nextboundedquestion: enforceforward-writingcompatibility duringinference and
-checkfreshcontrol; noimplementation/fitselectedyet. GDT616/CDA001remainclosed.
+RetrospectivecandidateownWpriority auditaccepts21correctexisting834maps,
+rejects27wrongmaps. WrongWcum coexistswithcomposedcum15D/44H, contradictingthe
+mandatorycontrolencoder. No newfit,score,keyselection or834repair. Necessary
+Wconditiononly, notfullsuffixinverse or optionalVoynichabbreviationevidence.
+The separategrammarcensus isexploratory; likelihooddecomposition/Eglcontrolunrun.
 
 ## Completed — GDT834 roles correct; word-value selection defeats control
 

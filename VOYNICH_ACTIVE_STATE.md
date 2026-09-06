@@ -6,6 +6,20 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### GDT836 engine integrated; fixed fresh source stops (2026-09-06)
+
+ScientificSOURCE_CAPACITY_STOP. Questio1–44/45–88 fixedbeforecounts has44/44runs,
+2318/2064words; twoheld-activeLrules absentfromD, allothergatespass. FirstSTOP
+bytepreserved; no source/deck/split/thresholdchange, no historicalkey/cipher/fit.
+Independent88paragraph/133sentence/4382wordsource replayPASS; --fitexits2.
+ImplementedSTRICTWpriority scansALLcachedwords againstALLcurrentWowners after
+atomicrefresh andbeforeedge/score/bestcommit, withfullrollback. IncludesinactiveW,
+forced/greedy/finalbest; commonfirstcompatibleinit1000cap thenindependentsearchRNG.
+Nineinventedfixturetests/canonical835oracle pass. Thisisengineeringvalidation,
+notfreshrecovery ormeasuredgainoverRELAXED. Newdeclaredusablecontrolsource needed;
+no mandatoryVoynichWrule orlanguage, no targetfit. GDT616/CDA001remainclosed.
+Primary: `experiments/yolo/gdt836_integrated_wholeword_precedence/REPORT.md`.
+
 ### GDT835 complete: omitted mandatory-W inverse condition (2026-09-06)
 
 RETROSPECTIVE_PRECEDENCE_SEPARATION_PASS. Publica71f0f2b precedesall48gates;
