@@ -493,4 +493,15 @@ sourcehash/header/recordPASS. No oldcounts/underlayersregraded. Sevenorientation
 now34renderings/33canvases/38keys;7targetnativecontextscompletecurrent45keys.
 This is personalunderstanding andscope completion, not manuscript-wide fineglyph
 verification. Producer addedIP065–074 tenRAWideas insixfamilies, publicwithprereg;
-none is a newtestedclaim or selectedexperiment. Preparingpublicationbefore11:45.
+none is a newtestedclaim or selectedexperiment. Publication target was11:45.
+
+GDT871 resultf8a775cf pushed after11:45:34UTC, confirmed by11:46:55;
+publication missed the11:45target. Scientific/native acquisition completed
+11:34:54; final audit/context recovery and publication used the remaining time.
+Focused staged privacy/scope checks passed; global audit retains the same eight
+pre-existing GDT600/index errors. No new scientific claim from the overrun.
+Source-only rim-scale review finds known hatching but no independently calibrated
+scale in the located primary reports; no new count or underlayer regrade.
+IP067/071 feasibility likewise lacks independent operation/ditto bindings;
+formal A–B–A or repetition alone does not discriminate the proposed mechanisms.
+Goal remains ACTIVE; earliest completion13:40:45UTC.
