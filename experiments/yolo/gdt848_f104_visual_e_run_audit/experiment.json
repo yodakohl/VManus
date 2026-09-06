@@ -1,0 +1,106 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exploratory native layout only; no word meaning or independently verified semantic relation.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt848_f104_visual_e_run_audit/src/run.py",
+    "validate": "python3 experiments/yolo/gdt848_f104_visual_e_run_audit/src/validate.py"
+  },
+  "created": "2026-09-06",
+  "dependencies": [
+    "GDT845",
+    "GDT846",
+    "GDT829"
+  ],
+  "experiment_id": "GDT848",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt845_extended_form_grid_discovery/artifacts/HITS.json",
+      "role": "frozen_source_or_extractor",
+      "sha256": "8f77d48234089417a597cdde55627cf5f6180919c0972fe9c5168180bd278d64"
+    },
+    {
+      "path": "experiments/yolo/gdt846_grid_prefix_confound_audit/REPORT.md",
+      "role": "frozen_source_or_extractor",
+      "sha256": "df9d7d611473b90e7aadf3ac1d286a05fa3babe90967fe0697c3eddfc233b11a"
+    },
+    {
+      "path": "experiments/yolo/gdt829_repeated_passage_reflow_capacity/src/run.py",
+      "role": "frozen_source_or_extractor",
+      "sha256": "49313d7787d74099f7ff8983e379acab091b7d464ce3156b767072a515c5516b"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt848_f104_visual_e_run_audit/.gitignore",
+      "role": "source_or_artifact",
+      "sha256": "9b9dc66af90f9ff99fa79101a6e3eb357e4d8b53cafcf51e9a8d2e2e32ca7dbb"
+    },
+    {
+      "path": "experiments/yolo/gdt848_f104_visual_e_run_audit/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "9fcd85a4aede1dc97bc8f5ec1043f8c413fa6ab6b10353efc10e261ab731c52d"
+    },
+    {
+      "path": "experiments/yolo/gdt848_f104_visual_e_run_audit/PREREGISTRATION.md",
+      "role": "source_or_artifact",
+      "sha256": "785e2af5108c0fc526eecf3295826701f9f33060bbe6dedcee0db28b3f5dbe9c"
+    },
+    {
+      "path": "experiments/yolo/gdt848_f104_visual_e_run_audit/README.md",
+      "role": "source_or_artifact",
+      "sha256": "df6f3f925c004cfb5f4055f915752287a1ac1f18066cc850d26734edf9385816"
+    },
+    {
+      "path": "experiments/yolo/gdt848_f104_visual_e_run_audit/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt848_f104_visual_e_run_audit/src/PAGE_ADMISSIONS.tsv",
+      "role": "source_or_artifact",
+      "sha256": "9e1e364483310c700690569692ad742f2c24ab34eb7fa4a6456d0455620aa86e"
+    },
+    {
+      "path": "experiments/yolo/gdt848_f104_visual_e_run_audit/src/PREREG_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "14cd3a0dcca7aa73aecc4713c3718aa25123472a9dba478f673169b5cedaafee"
+    },
+    {
+      "path": "experiments/yolo/gdt848_f104_visual_e_run_audit/src/SPEC.json",
+      "role": "source_or_artifact",
+      "sha256": "1756040344744a6351d4f5c88b458dc33215e7cfa4d81e15fa05bbf58aa68dbc"
+    },
+    {
+      "path": "experiments/yolo/gdt848_f104_visual_e_run_audit/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "55063715190edad1c3fac7c231b538b5b8a4af43df21e9d2918bf34827b34a61"
+    },
+    {
+      "path": "experiments/yolo/gdt848_f104_visual_e_run_audit/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "e9a79a7accf745f10ca1c26ce8728f100070c8306502b77ed31c0d7bd9730c6d"
+    },
+    {
+      "path": "experiments/yolo/gdt848_f104_visual_e_run_audit/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "0cdcb7e82b03538e3f8c2a12fe7f03280411668ed872b29e86763d1d6cffe0b9"
+    }
+  ],
+  "question": "Do four fixed f104 source targets visibly support the transcribed e-run contrast?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "f104_visual_e_run_audit",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Native f104 e-run source audit",
+  "updated": "2026-09-06",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

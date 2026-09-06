@@ -1,0 +1,1 @@
+After registration: HITS, GUARD, CELLS, RESULT and VALIDATION JSON.
