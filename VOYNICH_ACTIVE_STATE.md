@@ -6,6 +6,16 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### GDT842 complete outer-star ring extension (2026-09-06)
+
+Primary: `experiments/yolo/gdt842_star_outer_ring_extension/REPORT.md`.
+Public1cfab81b; completeouter10samephoto, unchanged classes. 9/10agree:
+3pigment4outline2uncertain; O6Auncertain/Bpigment. Seven clear binary examples.
+VISUAL_RING_EXTENSION_PASS; fixed8/10+2ofeachclearclass without innerpooling.
+Source/matrix/replay pass. Same photograph, no new folio, label association,
+original pigment absence, authorial binary state or meaning. Next source-owner
+check must respect prior singular-assignment limits; no automatic text scoring.
+
 ### GDT841 star-centre visual pilot (2026-09-06)
 
 Primary: `experiments/yolo/gdt841_star_centre_visual_reliability/REPORT.md`.

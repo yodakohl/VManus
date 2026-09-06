@@ -3,18 +3,27 @@ Updated: 2026-09-06. Read first.
 
 ## Current mandate and effort limit
 
-Latest request: continue with pipelined ideas. IP001/GDT841 visual pilot passes:
-4/5 agreement,3pigmented+1outline centres,1uncertain disagreement; one ring/photo.
-No text correlation, pigment-history inference or star-label ownership established.
-Producer maintains `docs/IDEA_BACKLOG.md`; IP002 needs visual admission,
-IP007 duplicates known f66r alignment. No unattended between-turn work.
-Next decision: broader predeclared visual panel, not word scoring or promotion.
+Latest request: continue. IP001/GDT842 outer-ring extension passes9/10agreement:
+3pigmented,4outline,2bothuncertain,1disagreement; seven clear cases, one photo.
+Same-photo visual capacity now covers both rings; do not keep growing colourcounts.
+Next check is source-native figure-star/inscription assignment, before text scoring;
+no star-name inference from proximity. IP003 lacks a new discriminator.
+Producer maintains `docs/IDEA_BACKLOG.md` during active work, no background daemon.
 
 Goal: transferable translation. Confirmed English lexemes: **0**;
 confirmed German lexemes/clauses: **0**. No new fit or page admission selected.
 GPU/subagents authorized; no other LLM API keys. No public decipherment-approach
 searches: the user says these are exhausted. Understand project history and
 manuscript appearance before fixing a route; use primary internal evidence.
+
+## Latest visual extension — GDT842
+
+`experiments/yolo/gdt842_star_outer_ring_extension/REPORT.md`.
+Public1cfab81b before separate native outer10judgments on sameYale1006201photo.
+9/10agree:3pigment,4outline,2uncertain; O6Auncertain/Bpigment. Seven clear cases.
+VISUAL_RING_EXTENSION_PASS on outer ring alone; fixed8/10 and2ofeachclearclass.
+No inner-ring pooling, new folio, labels, pigment-history or semantic claim.
+Frozen source, independent matrix and result replay pass; no regrading.
 
 ## Latest visual pilot — GDT841
 

@@ -19,13 +19,15 @@ eine erwünschte Übersetzung zu erhalten. Zeitbudgets umfassen Prüfung und Pub
 
 ### IP001 — Füllung getragener Sterne innerhalb eines Ringes
 
-Status: `PILOT_PASS` — root, GDT841 abgeschlossen.
-[Ergebnis](../experiments/yolo/gdt841_star_centre_visual_reliability/REPORT.md):
-4/5 getrennte native Urteile stimmen überein:3gefärbte Zentren,1Umrandung;
-ein Fall bleibt Aunklar/Bgefärbt. Fünf Sterne im selben Ring derselben Aufnahme.
-Keine Beschriftungsabfrage, semantische Verbindung oder historische Farbklasse
-bewiesen. Nächster Schritt wäre ein breiterer vorab festgelegter visueller
-Beobachtungssatz; ein Texttest ist noch nicht vorbereitet.
+Status: `VISUAL_EXTENSION_PASS` — GDT841/GDT842 abgeschlossen.
+[Äußerer Ring](../experiments/yolo/gdt842_star_outer_ring_extension/REPORT.md):
+9/10getrennteUrteile stimmen überein, darunter3gefärbt4umrandet2unklar;
+ein Fall Aunklar/Bgefärbt. Sieben klare Fälle im äußeren Ring.
+[Innerer Pilot](../experiments/yolo/gdt841_star_centre_visual_reliability/REPORT.md):
+4/5Übereinstimmung. Beide Ringe derselben Aufnahme, keine unabhängigen Folios.
+Nächster Schritt: vorhandene quellennahe Figur-Stern-/Beschriftungszuordnung
+prüfen, keine Sternnamen aus Nähe und kein weiterer gleichartiger Farbzensus.
+Noch keine Textkorrelation, keine historische Farbklasse und keine Wortbedeutung.
 
 ## Priorisierte Warteschlange
 
@@ -65,7 +67,7 @@ Primärberichte GDT756/757 gelesen. Keine Behauptung einer vollständigen Negati
 
 ### IP003 — Gleicher Teilnehmer oder nur gleiches Wort in einer Kette?
 
-Priorität: 1. Status: `READY_FOR_REVIEW`.
+Status: `NEEDS_DISCRIMINATOR` nach direktem Vorgängeraudit; nicht ausführen.
 Ausgangspunkt: [GDT704](../experiments/yolo/gdt704_v77_repeated_written_material_continuation/REPORT.md)
 führt f26r.2 #4/#5/#6/#8 als lokale Kette C011/C013/C015; drei andere exakte
 Kopf-Wiederholungen (f80v.35 und zweimal f88r.19) gelten als Zutatenwechsel.
@@ -81,8 +83,28 @@ Kandidaten für einen späteren Transfer-Test; fehlt es, ist die Kette weiterhin
 an die Arbeitsübersetzung gebunden und kein unabhängiger Bedeutungsanker.
 Einwand: Die abstrakten Tags können selbst aus der alten Deutung stammen;
 auch sie müssen auf die geschriebenen Gruppen zurückgeführt werden.
-Nächster Schritt: die vier vorhandenen Karten lokalisieren, erst dann fragen,
-ob eine neue Unterscheidung über GDT704s bereits bekannte lokale Rivalität hinausgeht.
+Vorgängeraudit Runde 3: GDT704 METHOD trennt bereits exakte Kopf-Wiederholung,
+deiktisches Ziel, verwandten/anderen Kopf und fehlenden Kopf. Seine C015-Auswahl
+setzt die GDT700-C011-Teilnehmerfortsetzung voraus und unterscheidet die anderen
+Wiederholungen über die Arbeitsbedeutung der jeweiligen Operation. Das Entfernen
+der deutschen Wörter würde diese bekannte Abhängigkeit erneut vorführen;
+ein neues unterscheidendes geschriebenes Signal wurde im Entwurf nicht benannt.
+[GDT700 REPORT/METHOD](../experiments/yolo/gdt700_v73_action_output_state_checkpoint_carry/REPORT.md)
+sagt ausdrücklich: #4 hat keinen separat geschriebenen Ergebnisnamen; die
+Fortdauer als erhitzte Krautdroge ist die Hypothese selbst. Die Kombination
+`ykecthey → chedy → ytedy` nominiert eine lokale Beziehung, verifiziert aber
+keine Teilnehmeridentität. Der Gegenfall f77v.7 besitzt mit `rr` einen
+konkurrierenden Arbeitsmaterialträger, dessen Auswahl bereits offen blieb.
+[GDT703](../experiments/yolo/gdt703_v76_all_action_finished_result_census/REPORT.md)
+registriert den bekannten Zustandszweig #4→#5, ohne daraus #5→#6 zu machen.
+[GDT695](../experiments/yolo/gdt695_fixed_v67_clause_realization/REPORT.md)
+legt zudem offen, dass Aktion/nominaler Block aus dem bestehenden Arbeitsinventar
+kommen; #6 `ytedy` und #8 `checthedy` behalten schwesterabgeleitete Verben.
+Ein lokaler unabhängiger Dispatch ist keine externe Bestätigung dieser Semantik.
+Nächster Schritt: keiner mit den bisherigen vier Karten. Erst ein konkret
+benanntes zusätzliches Quellsignal mit unterschiedlicher Vorhersage für gleiche
+und neue Teilnehmer rechtfertigt erneute Prüfung. Keine erneute Maskierung,
+kein Kontrolllauf und keine Herabstufung als angeblich neuer Manuskriptbefund.
 Duplikatsuche: `C015 repeated material batch identity cooling drying f26r`;
 GDT704 gelesen. Kein Wiederholen der bereits geprüften Kopf-Wiederholungsregel.
 
@@ -184,3 +206,10 @@ vollständig lesbar lokalisiert ist; keine erneute Prüfung der unteren Randglos
 
 Runde 2: IP002-Datenprüfung abgeschlossen und Status vor Bildzugriff korrigiert;
 ein neuer Vorschlag IP007 ergänzt. Schreibzuständigkeit an root zurückgegeben.
+
+Runde 3: IP003s direkte Vorgänger GDT704 METHOD/REPORT, GDT700 METHOD/REPORT,
+GDT703 REPORT und GDT695 REPORT gelesen; die vorgeschlagene Abhängigkeitsprüfung
+würde bekannte Grenzen wiederholen. IP003 ist `NEEDS_DISCRIMINATOR`.
+Auch die kompakte NEXT_STEP-Vorarbeit wurde erneut berücksichtigt. Keine neue
+Idee ohne konkreten neuen Discriminator eingetragen. Keine Roh-TSV, Bilder,
+Programme oder Experimente geöffnet/ausgeführt. Schreibzuständigkeit an root frei.
