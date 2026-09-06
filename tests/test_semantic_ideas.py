@@ -212,7 +212,14 @@ def audit_actual(root):
     public_semantic=sum(c['claim_type']!='formal_role' for c in cards)
     local=ideas.local_cards(root) if hasattr(ideas,'local_cards') else []
     local_semantic=sum(c['claim_type']!='formal_role' for c in local)
-    assert default['matched']==public_semantic+local_semantic
+    from tools import semantic_identity as identity
+    identity_index=identity.build_index(cards+local,identity.read_decisions(root/ideas.IDENTITIES),root,archived_ids=[c['id'] for c in archived])
+    all_by_id={c['id']:c for c in cards+local};semantic_groups=0
+    for start in range(0,identity_index.counts['groups'],100):
+        for group in identity_index.page_groups(start,100):
+            representative=identity_index.get_group(group['id'],limit=1)['member_ids'][0]
+            semantic_groups+=all_by_id[representative]['claim_type']!='formal_role'
+    assert default['matched']==semantic_groups
     assert all(c['claim_type']!='formal_role' for c in default['results'])
     inventory=[json.loads(x) for x in (root/'research_registry/semantic_inventory.jsonl').read_text().splitlines() if x]
     review_files=ideas.REVIEWS+[p for p in getattr(ideas,'EXTRA_REVIEWS',[]) if (root/p).exists()]

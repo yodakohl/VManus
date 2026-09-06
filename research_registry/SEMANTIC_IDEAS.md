@@ -5,8 +5,8 @@ headings, experiment methods, result rows without a proposition and pending
 extraction work are excluded. Their original records remain in the source archive.
 This is curation of historical hypotheses, not decipherment progress.
 
-The public snapshot contains **2,983 concrete semantic hypothesis variants** and
-**404 separate formal-role cards**. Active cards and the correction archive retain all **3,865 reviewed source cases**;
+The public snapshot contains **2,974 concrete semantic hypothesis variants** and
+**405 separate formal-role cards**. Active cards and the correction archive retain all **3,865 reviewed source cases**;
 **453 repetitions of identical normalized assertions** are grouped for display.
 All **5,370 proposal fragments**, **3,788 component excerpts** and **82 IP entries**
 have explicit dispositions. This is not a count of independently distinct theories.
@@ -64,7 +64,7 @@ and source cases when recording corrections; never erase a failure to reopen a r
 ## Source correction pass
 
 An append-only correction log, `semantic_claim_corrections.jsonl`, currently
-archives 25 source-extraction errors and restates five local occurrence-role
+archives 33 source-extraction errors and restates six local or structural-role
 summaries as formal roles. Numeric table ratios, denied constituent inferences
 and dispatch metadata had incorrectly entered the hypothesis list. Every original
 card, source case and exact quote remains in `semantic_ideas_excluded.jsonl` or
@@ -74,6 +74,38 @@ hypotheses remain active historical records.
 
 Correction revisions must name their predecessor and bind the original claim,
 cases and evidence. Changed source scope requires explicit review; a rebuild
-cannot silently renew an old decision. Independent semantic-equivalence reviews
-are in progress and are not yet applied to the default view. The source-polarity
+cannot silently renew an old decision. Independent semantic-equivalence reviews now support 25 display groups,
+reducing 33 paraphrase variants while keeping every original card accessible. The source-polarity
 audit is bounded and does not establish error-free global extraction.
+
+## Reviewed identity and scoped failure memory
+
+The default public view currently has **2,941 semantic display entries** from
+2,974 active semantic variants. `semantic_identity_decisions.jsonl` records25
+approved equivalence groups and two explicit nonidentity relations. These are
+source-scoped propositions; shared subject words alone never establish identity.
+An independent operational review checked62 member cards and83 source cases.
+Conflicting nonidentity links block transitive merging; changed source scope or
+assertion wording invalidates an old judgment. Local cards remain separate.
+
+```bash
+./vmanus-work priorities --show SEM:31fd25d0bdce9a8d12ed --field equivalents
+./vmanus-work priorities --show SEM:31fd25d0bdce9a8d12ed --field relations
+./vmanus-work priorities --show SEM:08a05de29068958d3f58 --field assessments
+```
+
+The display shows one original representative and the number of equivalent
+variants. Its status and ordinary source/case counts belong to that representative;
+`group_scope_cases` counts all member cases. Open each equivalent ID for its own
+case history. No rejection, success or reopening permission crosses an identity
+link. Search covers every member wording. Cached pages do not deserialize the
+complete card snapshot, including the10k-card regression.
+
+Seven reviewed question dossiers in `semantic_failure_decisions.jsonl` distinguish
+empirical failure, invalid test, insufficient capacity, missing meaning binding
+and proposal-only status. They appear before inherited experiment context under
+`--field assessments`. They name the actual tested subclaim, primary evidence,
+limits and prospective changed-input conditions. These reviewer conditions are
+not original preregistered gates or approval to rerun. A narrower failed
+antecedent binding never automatically rejects a broader possessive hypothesis.
+Only the latest linked revision acts; all original decisions remain in the log.

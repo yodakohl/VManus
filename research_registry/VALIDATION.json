@@ -16,7 +16,7 @@
     "status": "FAIL_PRE_EXISTING"
   },
   "idea_ids_and_mention_lines_exact": 82,
-  "imported_records": 5060,
+  "imported_records": 5061,
   "importer_invoked": false,
   "index_rows_exact": 870,
   "initial_import_report_bodies_opened": false,
@@ -24,10 +24,10 @@
     "anchor": 11,
     "attempt": 870,
     "family": 59,
-    "history": 4038,
+    "history": 4039,
     "idea": 82
   },
-  "ledger_events_exact": 4112,
+  "ledger_events_exact": 4113,
   "ledger_fields": [
     "date",
     "status",
@@ -47,27 +47,48 @@
   "registry_check": {
     "coverage": "schema, identities, relation consistency, source/review freshness; not semantic truth",
     "errors": [],
-    "records": 5060,
+    "records": 5061,
     "status": "PASS"
   },
   "report_bodies_opened": false,
   "repository_unit_tests": {
     "command": "python -m unittest discover -s tests",
-    "count": 131,
+    "count": 146,
     "status": "PASS"
   },
   "review_revisions": 96,
   "semantic_component_pass": "SEMANTIC_PRIORITY.md",
   "semantic_ideas_pass": "SEMANTIC_IDEAS.md",
   "semantic_inventory_pass": "SEMANTIC_INVENTORY.md",
+  "semantic_operational_pass": {
+    "active_source_cards": 3379,
+    "display_reduction": 33,
+    "identity_counts": {
+      "cards": 3379,
+      "groups": 3346,
+      "multi_member_groups": 25,
+      "relations": 2
+    },
+    "input_sha256": {
+      "research_registry/semantic_failure_decisions.jsonl": "8a7faab454f2ac3eeb3ffec9db23046220a0a89408375565724d910133fc7507",
+      "research_registry/semantic_identity_decisions.jsonl": "3d6ad17b64989fcff91e2809d1e20fa7dc310817d4ce2ef6dfe0ac87e1cb91c8",
+      "tools/semantic_ideas.py": "b68f2235d45b52269844b28cb29a5312d78d0905bc6e6dee198b412be334a892",
+      "tools/semantic_identity.py": "ad2e4da44b795dcece2a3e8334587751e2d929f45b463d27d728e4cfc20a6272"
+    },
+    "scope_status_inheritance": false,
+    "scoped_failure_dossiers": 7,
+    "source_binding_checked": true,
+    "status": "PASS",
+    "validation_scope": "Source-bound navigation and exact evidence; semantic equivalence assessed independently in identity_operational_review.json, not inferred by software."
+  },
   "semantic_source_correction_pass": {
-    "active_cards": 3387,
-    "archived_source_errors": 25,
-    "formal_cards": 404,
+    "active_cards": 3379,
+    "archived_source_errors": 33,
+    "formal_cards": 405,
     "independent_audit": "decisions/semantic_ideas_validation.json",
     "review_cases_preserved": 3865,
-    "scope_restatements": 5,
-    "semantic_cards": 2983
+    "scope_restatements": 6,
+    "semantic_cards": 2974
   },
   "source_files": 5,
   "source_hashes_match": true,

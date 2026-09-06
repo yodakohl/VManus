@@ -38,3 +38,15 @@ before applying identity groups: 25 extraction errors archived, five local role
 summaries scoped explicitly. This changes which records are genuine hypotheses;
 it supplies no manuscript meaning. Peer review rejected unsafe full-card unions
 where primitive and whole-card cases or composite rivals had been bundled.
+
+First45minute reassessment: the source correction pass was published as401928ab
+within budget. The next bounded pass finishes operational identity and scoped
+failure retrieval, then reviews further lexical cohorts. Unknown: whether the
+remaining shared labels denote identical source units, and whether failure
+conditions apply to a whole claim or only a narrower attachment. Outcomes change
+which records collapse and which apparent reruns remain barred; they do not
+change manuscript meanings. Smallest test: independently reviewed25 equivalence
+groups, seven scoped dossiers, preserved originals and10k cached paging. Budget
+45minutes including implementation, independent verification and publication.
+The additional E source pass found8 more false assignments and one actual
+segmentation rival that belongs in formal roles. No new experiment selected.
