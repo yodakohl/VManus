@@ -123,3 +123,11 @@ synchronisation study. Old605aggregate scope is not current179selector scope.
 Budget15min including publication, deadline06:13:40UTC; no inventory analysed
 before public preregistration. The script uses a terminating residual-state
 search and independent verification, not a tuned statistical model.
+
+06:05UTC checkpoint: GDT856 finds the direct finite-code collision
+[C,E]=[CE], with allthreeunits in the published98inventory. Independent
+closure/witness checks and byte replay pass; root directly checked membership
+and exact concatenation. Model property only; BPE determinism unaffected,
+no manuscript ambiguity or decipherment claim. About7min fromdecisionto
+publication preparation, inside15min. GoalACTIVE, about2h24elapsed;
+at least7h35remain until13:40:45UTC. No automatic code/decoder follow-up.

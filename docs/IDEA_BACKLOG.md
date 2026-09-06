@@ -1230,3 +1230,13 @@ höchstens zwei Primärberichte gelesen; keine Rohdaten/Bilder/Web geöffnet.
 **Kein neuer ausführbarer Kandidat**, kein neuer Titel im Ideenbestand und
 keine Forderung nach bereits übersetzten Goldbedeutungen: Es fehlt die neue
 unterschiedlich vorhergesagte Beobachtung. Schreibzuständigkeit zurück.
+
+### IP015 result: GDT856 finite-code ambiguity
+
+COMPLETED_NON_UD_MODEL_PROPERTY. The published98-unit GDT605 inventory
+contains C,E,CE: [C,E] and [CE] produce the same exact collapsed-symbol
+string. Free dictionary parsing therefore needs additional restrictions;
+canonical rankedBPE remains deterministic. No manuscript occurrence or
+canonical-output reachability claimed. Primary856REPORT; independent
+residual closure/witness and replayPASS. IP037 synchronization is not answered
+or automatically selected. No decoder repair follows this model property.

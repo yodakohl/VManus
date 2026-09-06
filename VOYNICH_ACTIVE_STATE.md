@@ -6,6 +6,17 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### GDT856 finite codeword property (2026-09-06)
+
+Primary: `experiments/yolo/gdt856_codeword_unique_decodability/REPORT.md`.
+Public prereg83c43c7f; published605aggregate98finalunits only, no raw corpus.
+NON_UD_COLLISION_WITNESS: [C,E] and [CE] both concatenate to exact CE.
+Independent residual closure, explicit witness check and byte replay pass.
+The free dictionary alone cannot fix segmentation; the canonical BPE parser
+still does. Neither witness sequence is claimed to occur in manuscript or
+as a valid BPE output. Old180selector-derived model, not current179census.
+No synchronisation, authorial-unit, alphabet, meaning or decoder successor.
+
 ### GDT843 star-caption provenance intake (2026-09-06)
 
 Primary: `experiments/yolo/gdt843_star_caption_provenance_intake/REPORT.md`.
