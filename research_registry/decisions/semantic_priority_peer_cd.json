@@ -1,0 +1,216 @@
+{
+  "schema": "semantic_priority_peer_review_v1",
+  "review_id": "CD",
+  "status": "APPROVE_AFTER_SCOPED_WORDING_AND_BINDING_FIXES",
+  "ready": false,
+  "automatic_reopening": false,
+  "scope": "Two CD conditional historical questions; CF ODAIIN card only. No independent observation, image or manuscript sequence was obtained.",
+  "decisions": [
+    {
+      "target": "CD01_AIR_FLUID_VERSUS_OWNER_SUPPLIED_COURSE",
+      "decision": "fix",
+      "source_claim_supported": true,
+      "reason": "R2 explicitly states both alternatives and its dry-workpiece prediction, but dry status of another patient alone does not contradict a fluid transport medium. This is a prospective discriminator clarification, not a replacement of the historical R2 wording.",
+      "required_change": "Require independent evidence and argument binding that identify the contribution or carrier role attributed to AIR and exclude necessary fluid in that role. A dry workpiece merely transported in fluid is not decisive. Same construction membership must be source-bound; no raw-air or indexed-share scope transfer.",
+      "asymmetric_outcomes": {
+        "independently_nonfluid_AIR_role": "Challenges the required-fluid reading only in that bound construction; does not establish a universal PATH translation.",
+        "dry_other_patient": "No discrimination without AIR-role binding.",
+        "wet_or_uncertain": "Compatible with both alternatives; no confirmation."
+      },
+      "prospective_criteria_assessed_by": "curation_review",
+      "historical_prediction_preserved": true,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R2_MEDIUM_SUBSTANCE_REPORT.md",
+          "line": 121,
+          "line_end": 125,
+          "quote": "Das ist die sauberste nichtmedizinische Lesung. Sie erklärt Zulauf, laufendes\nBad, Einsetzen in den Lauf, Durchführung und Schluss, ohne einen gezeichneten\nPfeil oder reines Wasser zu erfinden. Der starke Rivale bleibt: `AIR` könnte\nnur eine formale Lauf-/Wegekarte sein, der Flüssigkeitswert käme dann ganz aus\ndem Besitzer. Ein trockener Gegenbeleg würde die Stofflesung sofort brechen.",
+          "sha256": "68949b4eee286dacccff866cafaf241cf88ff8bb797139c8d4691129f3be3a42"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R2_MEDIUM_SUBSTANCE_REPORT.md",
+          "line": 202,
+          "line_end": 209,
+          "quote": "1. **`SHECTHY`** ist der gefährlichste Wert: nur ein Ereignis, kein benachbarter\n   Heizbefehl, und fast dieselbe Oberfläche wie `SHCTHY=gebrauchsfertig`.\n   Wiederholte trockene oder untemperierte Kontexte würden *warme\n   Arbeitsflüssigkeit* streichen.\n2. **`CHEO`** hat nur zwei Ereignisse. Wenn eines davon statt eines Mediums\n   eine reine Operation trägt, fällt der gemeinsame Kern weg.\n3. **`AIR`** hat fünf verschiedene, jeweils einmalige Karten. Ein trockenes\n   Werkstück im selben Paradigma würde AIR auf eine bloße Laufrolle reduzieren.",
+          "sha256": "68949b4eee286dacccff866cafaf241cf88ff8bb797139c8d4691129f3be3a42"
+        }
+      ]
+    },
+    {
+      "target": "CD02_ODAIIN_DOSE_BATCH_OR_OPEN_VALUE",
+      "decision": "fix",
+      "source_claim_supported": true,
+      "required_changes": [
+        {
+          "field": "pending_source_card / existing_assertion_ids",
+          "change": "Replace stale pending BX reference with active SEM:d86c72033a7277baab26; retain the dose card."
+        },
+        {
+          "field": "smallest_sensible_discriminator and outcome_decisions",
+          "change": "Replace nonquantitative value by open preparation-value level whose substantive axis remains unidentified. GDT728 excludes an automatic portion/amount interpretation, not every possible quantified or ordered value."
+        },
+        {
+          "field": "alternative inventory",
+          "change": "Keep all three historical formulations, including the CF exact-whole inherited-dictionary wording, but do not present them as mutually exclusive alternatives. An open value level can intentionally leave its axis unspecified and later be specialized to an independently licensed amount or batch role. Bind its operative ID only after intake; do not infer cross-version unit equivalence from identical spelling alone."
+        }
+      ],
+      "scope_limits": [
+        "GDT648 naked exact whole form differs from GDT636 headed remainder.",
+        "A second number field does not refute dose: dose and quality degree can coexist.",
+        "GDT728 changes inherited terminology and dispatch, with active readings and score/evidence unchanged; this is not a new semantic success.",
+        "No global number assignment or free d/AIIN export.",
+        "An amount observation can specify an open value-level formulation rather than refute it. Compare dose and batch as conflicting predictions only if their complete source-bound role contracts actually conflict; label all other comparisons underspecified."
+      ],
+      "prospective_criteria_assessed_by": "curation_review",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/REPORT.md",
+          "line": 58,
+          "line_end": 70,
+          "quote": "### `odaiin`: ein alter Rest wird zum echten Ganzwort\n\nGDT636 kannte `odaiin` bereits als Körper in `podaiin`, `sodaiin`, `rodaiin`\nund `lodaiin`: Pulver-, Saat-, Wurzel- und Holzzubereitung, jeweils Dosis III.\nDer damalige Schutzwall verbot, daraus ohne eigenen Lauf ein nacktes Wort zu\nmachen. GDT648 führt nun genau diesen fehlenden Lauf aus: 55 nackte Belege,\n42 dreileser-exakt und drei neu geschlossene Zeilen.\n\nDer alte Wörterbucheintrag `odaiin@GDT636_REMAINDER` bleibt unverändert; neu\nkommt `odaiin@GDT648_EXACT_WHOLE` hinzu. Das ist keine globale Restregel.\n„Zubereitungscharge III“ bleibt ernst, weil `odaiin` in 17 Zeilen neben einem\nweiteren Zahlenfeld steht. Dosis und Qualitätsgrad können aber auch gemeinsam\nauftreten und sind daher nicht automatisch doppelt.",
+          "sha256": "86faa123f0f26671e5815e4bd63db78dca3047c4947959805260853f18c8761f"
+        },
+        {
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/REPORT.md",
+          "line": 152,
+          "line_end": 154,
+          "quote": "f10r.12 enthält Dosis III neben einem weiteren Grad-/Maßwert III und bleibt\ndeshalb ein sichtbarer Bedeutungsrivale, kein verschwiegener Erfolg. f75r.46\nist in der Lesergrenze instabil. Beide stehen vollständig im Artefakt.",
+          "sha256": "86faa123f0f26671e5815e4bd63db78dca3047c4947959805260853f18c8761f"
+        },
+        {
+          "path": "experiments/yolo/gdt728_v99r2_inherited_unit_term_dispatch/REPORT.md",
+          "line": 5,
+          "line_end": 19,
+          "quote": "GDT728 besteht. Das vollständige Wörterbuch enthält 60 geerbte globale\nGanzwortreadings mit Dosiswortlaut an zusammen 293 Vorkommen. Der explizite\nDispatch ergibt:\n\n| Rolle | Ganzformen | Vorkommen | Arbeitsbedeutung |\n|---|---:|---:|---|\n| `PORTION` | 55 | 217 | zählbare oder bearbeitete Arbeitsmenge |\n| `TEIL` | 1 | 1 | relativer Anteil (`dolas`) |\n| `MASS` | 1 | 4 | exakte Abguss-Messform (`doly`) |\n| `WERT` | 3 | 71 | offene Zubereitungswertstufe (`odan/odain/odaiin`) |\n| `HOLD` | 0 | 0 | in dieser explorativen Runde nicht nötig |\n\nIn beiden semantischen Wörterbuchfeldern verschwinden je 61 Dosis-Tokens.\nDie Evidenzprosa wird nicht bereinigt, weil dort die frühere Hypothese als\nGegenbeleg oder Lineageinformation stehen darf.",
+          "sha256": "e0ddeca990cd902e840527713dffc584c9263cdc8d94e7da76327f7c8cb0f868"
+        },
+        {
+          "path": "experiments/yolo/gdt728_v99r2_inherited_unit_term_dispatch/REPORT.md",
+          "line": 25,
+          "line_end": 48,
+          "quote": "```text\nchedain       zwei Portionen bis zur Mittelstufe getrockneter Droge\nchdain        zwei Portionen Trockendroge\nddor          eine Portion abmessen\ndolas         Drogenstoff anteilig abmessen\ndoly          ein Maß Abguss\nodaiin        Zubereitung, Wertstufe III\nkodaiin       drei Portionen erhitzter Zubereitung\ndeey          die letzte Portion abmessen\n```\n\nDamit wird der Unterschied sichtbar, den `Dosis` zuvor verdeckt hat: ein\nArbeitsanteil ist nicht automatisch eine therapeutische Gabe, ein relativer\nTeil ist keine Portion, ein ausdrücklich lizenzierter Messkopf darf `Maß`\nheißen, und ein offener Wertkopf darf nicht zur Menge umgedeutet werden.\n\n## Warum das kein globaler Wortstammexport ist\n\nDie 60 Entscheidungen sind exakte Ganzwortkarten. GDT627s freie `d`-Reihe\nbleibt eine Wertreihe, deren Sachachse der sichtbare Kopf auswählt. Besonders\n`odan/odain/odaiin` werden deshalb gerade nicht zu ein/zwei/drei Portionen.\nAuch `doly=Maß` und `dolas=Teil` gelten nur für diese vollständigen\nWhitespace-Formen. `d`, `dain`, `daiin`, `dol` oder `a` gewinnen null neue\nRelation- oder Komponentenpunkte.",
+          "sha256": "e0ddeca990cd902e840527713dffc584c9263cdc8d94e7da76327f7c8cb0f868"
+        }
+      ]
+    }
+  ],
+  "cf_card_review": {
+    "target": "CLEAN_GAP_CF:gdt728_odaiin_whole",
+    "decision": "approve",
+    "claim": "GDT728 assigns the exact whole form odaiin the V99R2 inherited-dictionary wording Zubereitung, Wertstufe III.",
+    "claim_type": "lexical_hypothesis",
+    "proposal_sha256": "ce35280fb01e3e27d18ff2bc56ede6efeae00b97bc02a8f27963bcd1b1c27a8a",
+    "source_member_ids": [
+      "GDT728"
+    ],
+    "reason": "The exact example at REPORT line31 supplies the full preparation/value-level wording. Lines36–48 retain whole-form limits and lines65–72 explicitly preserve active readings and evidence. This historical lexical hypothesis is eligible for source recovery, not confirmed meaning.",
+    "evidence": [
+      {
+        "path": "experiments/yolo/gdt728_v99r2_inherited_unit_term_dispatch/REPORT.md",
+        "line": 31,
+        "line_end": 31,
+        "quote": "odaiin        Zubereitung, Wertstufe III",
+        "sha256": "e0ddeca990cd902e840527713dffc584c9263cdc8d94e7da76327f7c8cb0f868"
+      },
+      {
+        "path": "experiments/yolo/gdt728_v99r2_inherited_unit_term_dispatch/REPORT.md",
+        "line": 36,
+        "line_end": 48,
+        "quote": "Damit wird der Unterschied sichtbar, den `Dosis` zuvor verdeckt hat: ein\nArbeitsanteil ist nicht automatisch eine therapeutische Gabe, ein relativer\nTeil ist keine Portion, ein ausdrücklich lizenzierter Messkopf darf `Maß`\nheißen, und ein offener Wertkopf darf nicht zur Menge umgedeutet werden.\n\n## Warum das kein globaler Wortstammexport ist\n\nDie 60 Entscheidungen sind exakte Ganzwortkarten. GDT627s freie `d`-Reihe\nbleibt eine Wertreihe, deren Sachachse der sichtbare Kopf auswählt. Besonders\n`odan/odain/odaiin` werden deshalb gerade nicht zu ein/zwei/drei Portionen.\nAuch `doly=Maß` und `dolas=Teil` gelten nur für diese vollständigen\nWhitespace-Formen. `d`, `dain`, `daiin`, `dol` oder `a` gewinnen null neue\nRelation- oder Komponentenpunkte.",
+        "sha256": "e0ddeca990cd902e840527713dffc584c9263cdc8d94e7da76327f7c8cb0f868"
+      },
+      {
+        "path": "experiments/yolo/gdt728_v99r2_inherited_unit_term_dispatch/REPORT.md",
+        "line": 65,
+        "line_end": 72,
+        "quote": "## Stabilität\n\n- alle 1.586 Wörterbuchreadings behalten Score, Confidence, positive Evidenz\n  und Gegenbeleg;\n- alle 324 aktiven V99-Readings sind vollständig bytegleich;\n- alle 1.202 nicht betroffenen globalen Readings sind vollständig bytegleich;\n- der 51-Zeilen-Reader und vier weitere aktive Reader-Artefakte sind bytegleich;\n- Scope, Exportrechte, Struktur-Tags und Komponentenwerte ändern sich nicht.",
+        "sha256": "e0ddeca990cd902e840527713dffc584c9263cdc8d94e7da76327f7c8cb0f868"
+      }
+    ],
+    "other_cf_cards_reviewed": false
+  },
+  "current_card_bindings": [
+    {
+      "id": "SEM:28f18f24bb412dfb6a64",
+      "claim": "R2_MEDIUM_SUBSTANCE retains a rival in which AIR contributes only a formal course/path relation and the owner supplies all fluid content, against a working-fluid substance reading. It proposes a dry workpiece in the same AIR paradigm as a falsifier of that substance reading; it does not report that such a counterexample was observed.",
+      "claim_type": "functional_hypothesis",
+      "basis_sha256": "0b0600bee71b5ed7f3e642f8e766c872cab283e491103a0c480ae0ca923dc9cd",
+      "effective_basis_sha256": "2681d7ba324a1672e20ceac664034627e5c67810a4a21d0370d536128850f55f"
+    },
+    {
+      "id": "SEM:d86c72033a7277baab26",
+      "claim": "GDT648 retains the explicit whole-word rival odaiin = Zubereitungscharge III.",
+      "claim_type": "lexical_hypothesis",
+      "basis_sha256": "2509b3d10a928616997c94e9f699b8719af97bc28804d31af5bf4142625de812",
+      "effective_basis_sha256": "f1f58f99fe57f9440799f3eccbd240237dc3aff20dac030c7ae50cd05fd5ae6f"
+    },
+    {
+      "id": "SEM:f1a5d4569d1313e8c04d",
+      "claim": "GDT648 reads the exact whole form odaiin as Zubereitungsdosis III in its V25 working reader.",
+      "claim_type": "lexical_hypothesis",
+      "basis_sha256": "f05e78ddddb2edff6d828e974a8263bad7b7aa5f01c80bdcf585d11a6e44342a",
+      "effective_basis_sha256": "fa70a04ec9002bc822b49101f9aedea6265579e5823a36e09f2c118784e7ec11"
+    }
+  ],
+  "existing_inventory_check": {
+    "semantic_priority_decisions": {
+      "rows": 7,
+      "latest_keys": 7,
+      "keys": [
+        "K01_OKAIIN_CONTENT_CONTRAST",
+        "K02_CTHY_LEAF_VS_HERB",
+        "K03_CHOR_SHOR_DIRECTION",
+        "K04_LO_CARRY_OR_NEW_RELATION",
+        "K05_AQABAC_PHASE",
+        "K06_OKAL_GRADE_OR_REFERENCE",
+        "K07_RETAIN_FIXED_COUNTEREXAMPLES"
+      ],
+      "sha256": "f5fab3a683bcdccd5e831a196efbe4b70a462479f89c02a2f8ab5a4503e7f3df"
+    },
+    "semantic_failure_decisions": {
+      "rows": 23,
+      "latest_keys": 22,
+      "keys": [
+        "FAILURE_AD:BACA_LOCAL_PAIR_VERSUS_WATER_FLOW",
+        "FAILURE_AD:EXACT_STRICT_RESIDUAL_OBJECT_TRANSFER",
+        "FAILURE_AW:PASS1023_BLANKET_BINDING",
+        "FAILURE_BC:ALL_DOUBLES_NESTED",
+        "FAILURE_BC:CHEEKY_DRY_PREPARATION",
+        "FAILURE_BC:OKEEOL_WIDE_VESSEL",
+        "FAILURE_BU:SHECTHY_STATE_VERSUS_SUBSTANCE",
+        "FAILURE_BU:THREE_REGISTER_SOURCEWORD_REFINEMENT",
+        "FAILURE_F:CHOR_SHOR_DRY_MOIST",
+        "FAILURE_F:CTHY_LEAF_SPECIFIC",
+        "FAILURE_F:FLOWER_SEED_DIRECTION",
+        "FAILURE_F:LO_PENDING_PARTICIPANT",
+        "FAILURE_F:OKAIIN_POSSESSIVE_ANTECEDENT",
+        "FAILURE_F:OKAIIN_THERMAL",
+        "FAILURE_F:Y_OPEN_SENTENCE",
+        "FAILURE_H:AQABAC_BENEFIC_FACIES",
+        "FAILURE_H:OKAIIN_POWDER",
+        "FAILURE_H:OKAIIN_PURE_COPULA",
+        "FAILURE_H:OKAL_F82_REFERENTIAL_KEY",
+        "FAILURE_H:OKAL_FOUR_ORDINAL",
+        "FAILURE_H:OKAL_GRADE_ONE",
+        "FAILURE_X:F77_QUALITY_PROCESS_DECODER"
+      ],
+      "sha256": "0547af49a53dc1dd92b1cba6df17eb662bd34cda8b46bb4ac01b3c1b8886c15d"
+    }
+  },
+  "coverage_conclusion": "The seven current priority keys and 22 latest dossier keys do not already resolve these exact questions. Related owner-binding, OKAL and SHECTHY cautions apply without inheriting their failures or claiming different units identical.",
+  "validation": {
+    "evidence_quote_and_hash_checks": 12,
+    "cf_card_schema": "PASS",
+    "current_target_ids": "PASS",
+    "no_test_authorization": true
+  },
+  "input_sha256": {
+    "research_registry/decisions/semantic_priority_proposal_cd.json": "35f6e7b9ffb319ce67fe4599a8dcf55a172904172eef1c711777d0ef7a773a6c",
+    "research_registry/decisions/clean_gap_review_cf.json": "0e950528da084df3b5ab0c8570b1e1e2d6b48a897851bb5a3ca1024a20246564"
+  },
+  "limits": [
+    "Priority ranks and budgets are curation proposals, not empirical superiority or permission.",
+    "No qualifying independent role producer has been identified. More pages alone do not satisfy meaning-binding gates.",
+    "Exact lexical form alone does not bridge historical parser/whole-card scopes."
+  ]
+}

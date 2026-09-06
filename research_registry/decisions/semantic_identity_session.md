@@ -128,3 +128,11 @@ gap, without turning Filtern→Seihgang into a substance/operation falsification
 NextCB/CC bounded cohorts recover late and middle full models, with independent
 peers; CD compares new historical questions against existing conditional priorities
 and primary predecessors. No experiment or automatic rerun is authorized by ranking.
+
+Complete-model checkpoint:50sourcecases add48semantic and2formal variants, giving
+3652semantic253formal and4427preservedcases.9conditional questions now include
+AIR-role and ODAIIN-axis requirements; Pass268 is an explicit known predecessor,
+and open value is not presumed exclusive of amount.22dossiers unchanged.
+The working guide is consolidated instead of extending its packet chronology.
+Next CG/CH/CI/CK reviews and CJ identities remain bounded source-memory work;
+no new manuscript experiment or qualifying independent observation is claimed.
