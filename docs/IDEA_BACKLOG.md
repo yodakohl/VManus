@@ -1240,3 +1240,23 @@ canonical rankedBPE remains deterministic. No manuscript occurrence or
 canonical-output reachability claimed. Primary856REPORT; independent
 residual closure/witness and replayPASS. IP037 synchronization is not answered
 or automatically selected. No decoder repair follows this model property.
+
+### f4r-Stängelmarken: konkrete ältere Primärstelle gefunden
+
+[COL001, Eingangstabelle](../experiments/semantic_assumptions/results/col001_plain_colour_annotation_capacity_report.md)
+führt f4r ausdrücklich mit menschlicher Lesung `rot` und der physischen
+Beschreibung **„written vertically in the plant stem“**. Die dort berichtete
+Interpretation ist deutsches „rot“ in gewöhnlicher Alphabetschrift, nicht
+Voynich-Klartext. Das ist ein naheliegender älterer Quellenanker für Roots
+gerade beobachtete getrennte dunkle Marken auf Yale1006082 entlang der unteren
+Pflanzenachse. Die genaue Gleichsetzung dieser Bildregion mit dem alten Eintrag
+wurde hier **nicht** durch eigene Bildbetrachtung verifiziert; Roots Beobachtung
+bleibt ohne eigene Lesung, Funktions- oder Chronologiebehauptung erhalten.
+
+COL001 nennt als Herkunft den menschlich kuratierten Writing-Inventar-Eintrag
+und stoppt vor lexikalischem Scoring: keine zweite replizierte Voynich-Schrift-
+Farbnotiz und kein Freibrief für gemeinsame Substrings der f4r/f7r-Prosa.
+Der f4r-Hinweis ist deshalb keine neue Entzifferungsbrücke. route-check
+`f4r root stem marks annotation` plus gezielter Primärbericht-Screen nach
+f4r/Yale-ID; keine angenommene Wortlesung als Suchvorgabe, kein Web-/Bild-/
+Rohtextzugriff, keine neue Auswertung. Schreibzuständigkeit zurück.

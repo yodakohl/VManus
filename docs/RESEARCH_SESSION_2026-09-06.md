@@ -131,3 +131,10 @@ and exact concatenation. Model property only; BPE determinism unaffected,
 no manuscript ambiguity or decipherment claim. About7min fromdecisionto
 publication preparation, inside15min. GoalACTIVE, about2h24elapsed;
 at least7h35remain until13:40:45UTC. No automatic code/decoder follow-up.
+
+06:11UTC native checkpoint: six admitted plant originals personally viewed,
+f4r/f10r/f13r/f17r/f18r/f20v. Axial f4r marks led to the already documented
+COL001 ordinary-alphabet rot note; no new lexical bridge or colour route.
+Full-image sources and bounded notes retained. No leaf grading/new admission.
+Source prep06:06:24UTC; documentation/publication inside15min target to06:21:24.
+GoalACTIVE; about2h30elapsed, at least7h29stillto minimumdeadline.

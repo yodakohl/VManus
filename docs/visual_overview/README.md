@@ -93,3 +93,6 @@ abgeschlossen; die neuen Beobachtungen verändern deren Resultate nicht.
 
 Fortsetzung vom6.September: [zweiter persönlicher Durchgang](ORIENTATION_2026-09-06.md)
 mit den drei genauen Quellen in ORIENTATION_2026-09-06_SOURCES.json.
+
+Weitere sechs Pflanzenblätter: [dritter persönlicher Durchgang](PLANT_ORIENTATION_2026-09-06.md),
+mit einem wiedergefundenen COL001-Quellenverweis zu den kleinen f4r-Marken.
