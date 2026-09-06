@@ -13,9 +13,10 @@ training from the opposite face of the held leaf (L505/569,DY350/394).
 claim, refit or measured score penalty.809 contact/model keys also retainr/v.
 Primary via lookup858; old source bytes preserved. No automatic model rerun.
 
-GDT850:28joined/split qolchedy loci, same-line75v.44; IT75r.33+qokain already
-known823.851:all-reader ABAB f30r.11/f8r.19, not copying or meaning.
-852:two native viewers support local75v.44 seam contrast, not word boundaries.
+GDT859:f56r.1 upperlink seenby2viewers; firstgroupseam definitein3readings.
+ZL/RF@167/@168 versus ITt retained. Rootonly manualalignment links these;
+no sharedglyph, penmotion or meaning.850joined/split28loci;851ABAB2all-reader
+loci;852native75v.44 seamcontrast. No generalword-boundary licence.
 GDT853:25W qualify, zero held pairs meet fixed source/start-index matching;
 no predictor or automatic looser pairing. GDT854:146events,14mixed cells;
 CKH one-e positions vary within9folios, CTH onlyf83. Cross-kernel capacity
@@ -27,10 +28,9 @@ Post-count proof: any newTOOTHED breaks25%quire cap; none adds no mixed new
 phase. Thus this reserve cannot repair LM002 mobility; no images/target opened.
 RBR002 already closed the apparent RBR001 successor.
 
-GDT845–849 primary reports via lookup: paired prefix evidence remains sparse;
-848 supports one native two-arc/loop anchor, not all controls.849 has all0/1
-corners in four two-e-slot strata, no coupling/meaning.847 reconciles legacy
-829=816raw+10bracket+2brace+1metadata; old bytes remain unchanged.
+GDT845–849 via lookup: pairedprefix sparse;848one native twoarc/loop anchor.
+849all0/1corners in4strata, no coupling/meaning.847reconciles old829:
+816raw+10bracket+2brace+1metadata; oldbytes unchanged.
 GDT844/stars remain stopped; no unowned caption scores or same-photo recounts.
 
 Goal: transferable translation. Confirmed English lexemes: **0**;

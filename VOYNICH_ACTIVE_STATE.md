@@ -6,6 +6,21 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### GDT859 initial upper link and separator coexistence (2026-09-06)
+
+Primary: `experiments/yolo/gdt859_f56r_initial_bar_separator/REPORT.md`.
+Post-discovery publicfreezef657e15c before exact target source extraction.
+Both native viewers confirm first-to-second tall-form connection on f56r.1,
+with no second-to-third upper connection. All3rawlines complete; ZL/RF8groups,
+IT10. Firsttwo groups have definite separation in all3; ZL/RF preserve
+`o@167;chal chchs@168;y`, IT `otchal chchsty`. Third groupall3 `oty`.
+Root's separate post-extraction manual alignment placesA/B/C in groups1/2/3;
+thus an upperlink crosses that seam under this one manual alignment. B checked
+image ordinals only; software checks source/seals, not glyph correspondence.
+No exactglyph identity, word boundary, single pen motion, meaning or general
+space-normalization licence. Entity definitions not consulted; old bytes frozen.
+
+
 ### GDT858 holdout unit correction (2026-09-06)
 
 Primary: `experiments/yolo/gdt858_folio_holdout_unit_audit/REPORT.md`.
