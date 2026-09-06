@@ -299,7 +299,9 @@ weltweit/projektintern neu erwiesen. Die Quellen sind Ausgangspunkte für die
 spätere Prüfung, nicht bereits vorhandene Belege für die jeweilige Vorhersage.
 Einige Ideen können nach Prüfung Duplikate sein oder neue Daten brauchen.
 
-**Top 5 zur Prüfung (`REVIEW_PRIORITY`): IP014, IP009, IP018, IP022, IP033.**
+**Top 5 zur Prüfung (`REVIEW_PRIORITY`): IP009, IP021, IP022, IP033, IP036.**
+IP014 und IP018 sind nach root-Vorgängerprüfung zurückgestellt; die begrenzten
+Prüfergebnisse stehen unten. IP036 rückt als ungeprüfter Kandidat nach.
 Reihenfolge: konkrete mechanistische Unterscheidung, möglichst vorhandene Quellen,
 Begrenzbarkeit des ersten Tests. Keine Erfolgswahrscheinlichkeit geschätzt.
 Für die Übernahme sind Quelle, Admission, Vorgänger, kleinster informativer Test
@@ -321,7 +323,7 @@ keine Zusage ausreichender Daten oder abgeschlossener Bestätigung.
 |---|---|---|---|
 | IP012 | Wenn komplexe Zeichen räumlich montierte Einheiten sind, bewahren wiederkehrende Komponenten ihre **Anschlussstellen** auch dort, wo ihre lineare EVA-Reihenfolge schwer darstellbar ist. | GDT605s rein transkriptionsbasierte Einheiten als Vorgänger, Originalbilder für einen vorher ausgewählten komplexen Zeichentyp. Zunächst zwei vollständige Bildvorkommen topologisch beschreiben, 5 Minuten; keine neue EVA-Lesung erzwingen. | Ein wiederkehrender Schreibstil kann dieselbe Geometrie erzeugen; die bekannte IGR002-Grenze gegen weitere grobe Zeichenklassifikation muss vorab geprüft werden. |
 | IP013 | Bei einem graphischen Positionscode bleibt die Orientierung einer Teilform relativ zur **Wortgrundlinie** fest; bei seitenfestem Zusatzcode bleibt sie relativ zur Seite fest, auch in gedrehter Kreisschrift. | Native Kreisschriftbeobachtung in `visual_overview/README.md`, vollständig lokalisierte wiederholte Ganzformen. Nur zwei deutlich verschieden orientierte Stellen desselben Typs prüfen, 5 Minuten. | Schreibergonomie erklärt ebenfalls Unterschiede; kein Stern-/Kalenderwert folgt. Wiederholungs- und Zuordnungskapazität ist unbekannt. |
-| IP014 **REVIEW_PRIORITY** | Falls eine Gruppenkomponente ein Kontrollzeichen ist, bestimmt eine **feste, reihenfolgeunempfindliche Prüffunktion** des restlichen Inhalts sie auch bei neuen Inhaltskombinationen; reine Anschlussgrammatik benötigt diese Invarianz nicht. | Bekannte Binnenstruktur aus `STRUCTURAL_KNOWLEDGE.md`, zugelassene rohe Gruppen erst nach Freeze. Eine kleine vorab bestimmte Familie von Paritäts-/Restklassenregeln an einem festen Entwicklungsanteil prüfen und gesamte Auswahlkosten offenhalten; 10 Minuten für eine Kapazitätsentscheidung. | Nahezu jede kleine Zeichenmenge lässt nachträgliche Scheinkorrelationen zu. Ohne explizit begrenzte Regelklasse und spätere zurückgehaltene Kombinationen kein positiver Codierungsbefund. |
+| IP014 | Falls eine Gruppenkomponente ein Kontrollzeichen ist, bestimmt eine **feste, reihenfolgeunempfindliche Prüffunktion** des restlichen Inhalts sie auch bei neuen Inhaltskombinationen; reine Anschlussgrammatik benötigt diese Invarianz nicht. | Bekannte Binnenstruktur aus `STRUCTURAL_KNOWLEDGE.md`, zugelassene rohe Gruppen erst nach Freeze. Eine kleine vorab bestimmte Familie von Paritäts-/Restklassenregeln an einem festen Entwicklungsanteil prüfen und gesamte Auswahlkosten offenhalten; 10 Minuten für eine Kapazitätsentscheidung. | Nahezu jede kleine Zeichenmenge lässt nachträgliche Scheinkorrelationen zu. Ohne explizit begrenzte Regelklasse und spätere zurückgehaltene Kombinationen kein positiver Codierungsbefund. |
 | IP015 | Ein Code aus variabel langen Einheiten kann trotz fehlender Trennzeichen **eindeutig zerlegbar** sein; konkurrierende Grenzen müssen dann durch denselben festen Einheitenvorrat ausgeschlossen werden. | GDT605s veröffentlichter Einheitenvorrat und Rohdarstellung; vorab prüfen, welche Grenzen der Lerner schon geliefert bekam. Kleinster Test ist eine exakte Mehrdeutigkeitsanalyse des eingefrorenen Vorrats, 5 Minuten. | Zeigt möglicherweise nur eine vom Algorithmus erzeugte Eigenschaft. Der gescheiterte Ein-Buchstaben-Code wird dadurch nicht wiederbelebt, kein neuer Decoderlauf. |
 
 ### C — Kopieren, Gedächtnis und lokale Erzeugung
@@ -330,7 +332,7 @@ keine Zusage ausreichender Daten oder abgeschlossener Bestätigung.
 |---|---|---|---|
 | IP016 | Bei Kopieren aus dem **sichtbaren schon geschriebenen** Text sollten seltene Kombinationen eher rückwärts erreichbare Vorlagen besitzen; ein zeitlich symmetrischer thematischer Zusammenhang muss diese Richtung nicht zeigen. | Vorhandene rohe Textquellen plus dokumentierte räumliche Ordnung; GDT001s Copy/Modify-Kontrollen als Vorgänger. Zuerst an einem fest begrenzten Block die definierten rückwärts/vorwärts erreichbaren Vorlagen darstellen, 5 Minuten, keine Sprachbewertung. | Abfolge ist oft nicht sicher und Neuheit nimmt auch in echter Sprache gerichtet ab. Alte lokale Ähnlichkeits-/Kopierrouten könnten dies bereits abdecken. |
 | IP017 | Eine mitkopierte lokale Abweichung bildet eine **verzweigte Vererbung**: spätere vollständige Passagen teilen mehrere gekoppelte Besonderheiten, nicht bloß häufige Einzelgruppen. | Bereits dokumentierte Wiederholungen; GDT838/829 als harte Kapazitätsvorgänger. Zuerst nur publizierte Wiederholungsbeispiele auf mindestens zwei gekoppelte unterscheidbare Merkmale prüfen, 5 Minuten. | Ausreichende Passagen könnten fehlen; keine Wiederholung der erfolglosen Suche mit kürzeren Flanken oder kleinerem Fenster. Ohne neuen Anker stoppt die Idee. |
-| IP018 **REVIEW_PRIORITY** | Wenn mehrere benachbarte Varianten in einem gemeinsamen Herstellungsschritt erzeugt wurden, wechseln **zwei voneinander getrennte Formmerkmale synchron**; unabhängige Einzelersetzungen sagen solche gebundenen Wechsel nicht voraus. | Quelle: etablierte komplette lokale Paradigmen, zunächst GDT747/GDT748-Berichte. An genau einem schon publizierten mehrteiligen Paradigma prüfen, ob die Kopplung gegenüber unabhängigen Austauschmöglichkeiten überhaupt beobachtbar ist, 5 Minuten. | Die Merkmale können bereits dieselbe formale Klasse codieren oder durch Auswahl gekoppelt sein. Keine alte Rollenmaskierung, keine neue Bedeutungszuweisung aus Ähnlichkeit. |
+| IP018 | Wenn mehrere benachbarte Varianten in einem gemeinsamen Herstellungsschritt erzeugt wurden, wechseln **zwei voneinander getrennte Formmerkmale synchron**; unabhängige Einzelersetzungen sagen solche gebundenen Wechsel nicht voraus. | Quelle: etablierte komplette lokale Paradigmen, zunächst GDT747/GDT748-Berichte. An genau einem schon publizierten mehrteiligen Paradigma prüfen, ob die Kopplung gegenüber unabhängigen Austauschmöglichkeiten überhaupt beobachtbar ist, 5 Minuten. | Die Merkmale können bereits dieselbe formale Klasse codieren oder durch Auswahl gekoppelt sein. Keine alte Rollenmaskierung, keine neue Bedeutungszuweisung aus Ähnlichkeit. |
 | IP019 | Ein begrenzter Zwischenpuffer erzeugt einen **Abstandseffekt nach geschriebenen Einheiten**, auch wenn physische Zeilen unterschiedlich lang sind; eine Blicksprungquelle folgt eher der räumlichen Distanz. | GDT001-Kontextmodelle, dokumentierte ungleich breite Layouts, genaue Gruppenkoordinaten noch erforderlich. Zunächst nach einem vorhandenen Block suchen, in dem Einheitendistanz und Bilddistanz auseinanderfallen, 5 Minuten Metadaten-/Kapazitätsprüfung. | Ein hinreichender Koordinatensatz könnte fehlen; Federzustandsroute830/831 nicht reparieren. Gedächtnis und Sprache können dieselbe Distanzstruktur tragen. |
 
 ### D — Grammatische Abhängigkeiten ohne Wortübersetzung
@@ -338,7 +340,7 @@ keine Zusage ausreichender Daten oder abgeschlossener Bestätigung.
 | ID | Konkrete Vorhersage | Nötige Quelle und kleinster Test | Hauptrisiko |
 |---|---|---|---|
 | IP020 | Ein lokaler Einbettungsmechanismus erlaubt **Klammerung**: dieselbe äußere Konstruktion umschließt unterschiedlich lange vollständige innere Folgen, deren Randverträglichkeit erhalten bleibt. | GDT581s strukturierte Edition als Hypothesengeber, Rohgruppen zur späteren Kontrolle. Ein publiziertes Paar mit verschieden langer Mitte suchen und die behaupteten Grenzen ohne semantische Tags begründen, 5 Minuten. | Parserklammern können genau die gesuchte Struktur hineingetragen haben. IL026s geschlossene höhere-Ordnung-Route vor jedem Test prüfen. |
-| IP021 | Bei positionsübergreifender Kongruenz koppeln Merkmale zweier wiederkehrender Ganzformen auch dann, wenn **unterschiedliche Zwischenfolgen** auftreten; eine feste lokale Formel verlangt die Zwischenvariation nicht. | Vorhandene komplette Kontextkarten, GDT803/804 als Vorgänger. Nur publizierte Beispiele auf einen konstanten Zweierbezug bei mindestens zwei verschiedenen Mittelfolgen prüfen, 5 Minuten. | Kann lediglich Topic-/Schreiberkonfundierung sein; keine Buchstabensuffixe als Grammatikwerte voraussetzen und keine fehlende Kapazität durch größere Radien retten. |
+| IP021 **REVIEW_PRIORITY** | Bei positionsübergreifender Kongruenz koppeln Merkmale zweier wiederkehrender Ganzformen auch dann, wenn **unterschiedliche Zwischenfolgen** auftreten; eine feste lokale Formel verlangt die Zwischenvariation nicht. | Vorhandene komplette Kontextkarten, GDT803/804 als Vorgänger. Nur publizierte Beispiele auf einen konstanten Zweierbezug bei mindestens zwei verschiedenen Mittelfolgen prüfen, 5 Minuten. | Kann lediglich Topic-/Schreiberkonfundierung sein; keine Buchstabensuffixe als Grammatikwerte voraussetzen und keine fehlende Kapazität durch größere Radien retten. |
 | IP022 **REVIEW_PRIORITY** | Wenn eine Konstruktion wirklich einen Geltungsbereich eröffnet, verändert ihre Wiederholung **nicht bloß die Häufigkeit**, sondern welcher der folgenden gleichartigen Einträge zu welchem früheren Eintrag gehört; ein einfacher Reihenmarker sagt diese verschachtelte Konkurrenz nicht voraus. | Vorhandene vollständig erhaltene Mehrfeld-Records, zunächst GDT763/764/769 als Primärvorgänger. Eine konkrete geschriebene Folge mit zwei konkurrierenden offenen Feldern nominieren und prüfen, ob beide Modelle verschiedene nächste zulässige Formen vorhersagen, 5 Minuten. | Ohne unabhängige Randmarkierung bleibt die Zuordnung unentscheidbar; keine neuen Teilnehmer über alte Arbeitsübersetzungen erfinden. |
 | IP023 | Ein textlicher Wiederaufnahmemarker erhält eine **selektive Vorgeschichte**: nach zwei unterschiedlichen eingeführten Ganzformen sollte seine Umgebung eine von ihnen, nicht beliebig beide, wieder aktivieren. | Vorhandene Referenzkarten GDT696/700 und qokaldy-Audit798. Ein bereits publiziertes echtes Zwei-Kandidaten-Beispiel auf ein noch ungenutztes geschriebenes Unterscheidungssignal prüfen, 5 Minuten. | IP003 und GDT798 zeigen gerade die bekannte Unterbestimmtheit; ohne zusätzliches unabhängiges Signal ist dieser Rohentwurf ein Duplikat und wird verworfen. |
 
@@ -377,14 +379,40 @@ Schreibzuständigkeit dieser Fassung an root zurückgegeben.
 
 ### Root-Auswahl und begrenzte Vorgängerhinweise
 
-Die fünf Prioritäten bleiben eine Prüfauswahl, kein Versuchsauftrag. IP014 ist
-der erste Kandidat für eine vertiefte Vorgänger-/Definitionsprüfung: Welche
-konkrete beobachtbare Stelle und welche vorab begrenzte Prüffunktion wären
-gemeint? Ohne diese Festlegung kein Suchlauf über frei gewählte Zeichenwerte.
-Der erste route-check `checksum parity modular order invariant check symbol
-content multiset` liefert keinen direkten Beleg für Neuheit; ebenso wenig die
-Dateinamensuche nach checksum/parity/check_digit. Der vollständige Vorgängerabgleich
-ist offen. IP014 bleibt RAW_UNSCREENED, kein Prüfsummenbefund.
+Die fünf Prioritäten bleiben eine Prüfauswahl, kein Versuchsauftrag.
+
+**IP014: enge deterministische Endzeichenvariante durch vorhandene Evidenz
+widersprochen; allgemeiner Entwurf braucht einen konkreten Träger.**
+Primär gelesen: [GDT800](../experiments/yolo/gdt800_terminal_b2_b3_line_final_bridge/REPORT.md)
+und GDT217s Ergebnis. GDT217 betrifft Querverweisschlüssel, nicht Prüfsummen.
+GDT800 dokumentiert `okalal` und `okalam` mit visuell verschiedenen Endformen,
+bestätigt in allen drei alternativen Lesungen desselben Manuskripts.
+Für die ausdrücklich eingeschränkte Regel `letztes sichtbares Zeichen = F(Rest)`
+folgt zugleich `F(okala)=l` und `F(okala)=m`: keine Funktion erfüllt beides.
+Das gilt sogar für eine reihenfolgeabhängige Funktion; Gewichte oder Moduli
+müssen dafür nicht gesucht werden. Die Vorhersage muss den exakten sichtbaren
+Wert determinieren, sonst greift dieser Widerspruch nicht.
+
+Dies ist eine logische Folgerung aus einem alten Befund, keine neue Beobachtung
+und keine allgemeine Widerlegung von Prüfsummen. Gleiche latente Werte mit
+verschiedenen Schreibungen, Positions-/Zustandsabhängigkeit, Fehler oder andere
+Kontrollzeichenträger bleiben außerhalb dieses eng definierten Modells.
+Solche Erweiterungen benötigen einen eigenen motivierten Beobachtungsvertrag,
+keinen nachträglichen Fit zur Rettung dieser Endzeichenfunktion. IP014 verliert
+seine Prüfpriorität; keine neue Auswertung oder Quelle wurde dafür benötigt.
+Route-check dieser Prüfung: `checksum parity modular check digit permutation
+invariant terminal character`. Die Gesamthistorie wurde nicht erschöpfend geprüft.
+
+**IP018: zwei unabhängige schriftliche Änderungsmerkmale noch nicht benannt.**
+GDT747s konkretes Paradigma `tchey qokchey qochey` zeigt einen gemeinsamen
+sichtbaren Ausklang; die dort gekoppelten Temperatur-/Stufenachsen sind
+Arbeitsdeutungen. GDT748 nominiert über bestehende Achsenkarten und Ganzformnähe.
+Die gelesenen Ergebnisabschnitte beider Primärberichte liefern deshalb noch
+keinen ausgewählten Fall mit zwei separat definierten schriftlichen Merkmalen,
+deren Kopplung geprüft werden könnte. Keine Behauptung, alle Artefakte enthielten
+keinen solchen Fall. IP018 bleibt ohne diesen Träger zurückgestellt, nicht READY.
+Route-check: `paradigm coupled simultaneous independent two feature change
+GDT747 GDT748`. Keine erneute Prüfung der bekannten Bedeutungsabhängigkeit.
 
 Für IP021 hat root GDT273/GDT344-Primärberichte, GDT802s Bericht sowie Teile von
 GDT608 gelesen: grobe q13-Feldzustände, atomare Tupelübergänge, unmittelbare
@@ -399,3 +427,29 @@ unabhängig gesicherte Chronologie, die RCD001 nicht liefert.
 
 Diese Hinweise sind Navigation für die nächste Auswahl. Keine neue Manuskript-
 auswertung, kein Reifegrad auf REVIEWED angehoben und keine Seite zugelassen.
+
+## Ergänzender Rohvorrat — acht andere Codierungsmechanismen
+
+**IP036–IP043 sind sämtlich `RAW_UNSCREENED`.** Sie ergänzen den bisherigen
+Vorrat um unterscheidbare mechanistische Vorhersagen; weder ihre Neuheit noch
+Quellenkapazität ist geprüft. IP014 wurde auf root-Hinweis aus der Top-5-Auswahl genommen; IP021 rückt als
+weiterhin ungeprüfte Hypothese nach. Root hat anschließend auch IP018 aus der
+Prüfauswahl genommen; IP036 rückt nach. IP018 bleibt ausdrücklich nicht READY.
+Die Ideen setzen keine neue Bildnähe, Textposition oder bereits übersetzte Rolle
+als Erklärung ein. Quellenhinweise nennen spätere Prüfstellen, keine positiven
+Belege für den neuen Mechanismus. Tests erst nach Vorgängerprüfung und Freeze.
+
+| ID | Mechanismus und unterscheidende Vorhersage | Nötige Quelle und kleinster Test | Hauptrisiko |
+|---|---|---|---|
+| IP036 **REVIEW_PRIORITY** | **Umstellung innerhalb einer vollständigen Einheit:** Zwei Realisierungen derselben unabhängig gebundenen Einheit unterscheiden sich in der Reihenfolge, bewahren aber exakt dieselbe **Multimenge** geschriebener Atome; eine Ersetzung muss das nicht. Eine einzige unveränderte Umstellungsregel muss auch eine weitere unabhängige Einheit vorhersagen. | Vollständige, bereits belegte Alternativrealisierungen mit unabhängig begründeter Zusammengehörigkeit; zuerst GDT338/345 und geschlossene Minimalpaarrouten prüfen. Kleinster Test: an einem schon publizierten gebundenen Paar entscheiden, ob eine feste Umstellung überhaupt möglich ist, 5 Minuten; kein freies Anagrammsuchen im Korpus. | Zusammenhang zweier Formen darf nicht aus ihrer Multimengengleichheit abgeleitet werden. GDT839s Grenzverschiebung prüfte eine andere Erhaltung, rechtfertigt aber keinen automatisch neuen Weg. |
+| IP037 | **Selbstsynchronisierender Code:** Nach einer Einfügung oder Auslassung kehrt eine gültige Zerlegung innerhalb einer festen kurzen Distanz zur ursprünglichen Phase zurück; ein gewöhnlicher variabler Code ohne Synchronisation kann dauerhaft verschoben bleiben. Das ist eine Eigenschaft ganzer Codesequenzen, nicht nur eindeutiger Einzelwortzerlegung wie IP015. | Ein vorab begründeter Einheitenvorrat aus GDT605 als möglicher Ausgangspunkt; Grenzen und Eignung erst prüfen. Kleinster Test: eine deterministische Einfügungs-/Löschungsanalyse des unveränderten Vorrats mit vollständigen Gegenbeispielen, 5 Minuten. | Ein algorithmisch gelernter Vorrat kann die Eigenschaft künstlich erzeugen. Das wäre zunächst nur Codekapazität, keine Behauptung tatsächlicher Schreibfehler oder Voynich-Codierung. |
+| IP038 | **Homophone aus einem Vorrat ohne Zurücklegen:** Mehrere Zeichen für dieselbe Einheit werden ausgewählt, bis der Vorrat erschöpft ist; dadurch entstehen Wiederverwendungsverbote und eine Wiederkehr nach Erschöpfung, die unabhängige zufällige Homophonie nicht verlangt. | Unabhängig vorgeschlagene Äquivalenzklassen vollständiger Zeichen, noch nicht vorhanden; GDT001-Homophonieversuche und GDT338 als Vorgänger. Zunächst nur prüfen, ob eine vorhandene Klassenhypothese genügend vollständige Folgen für einen eindeutig festgelegten Wiederverwendungswiderspruch liefert, 5 Minuten. | Die Klassen nach Wiederholungsarmut zu bilden wäre zirkulär. Ohne externe Klassenbegründung kein neues Fitten versteckter Alphabete; kein pauschaler Rückschluss aus geringer Wiederholung. |
+| IP039 | **Obligatorische ausgeschriebene Abkürzungskonvention:** Ein unabhängig identifizierter Abkürzungsträger ersetzt in mehreren vollständigen Wörtern immer dieselbe fehlende Folge; die Expansion muss auch in einer bisher nicht benutzten Wortumgebung passen. Eine bedeutungstragende Endung verlangt keine solche wörtliche Expansion. | Wirklich dokumentierte ausgeschriebene/verkürzte Paarung, nicht `ofaldo/ofal` oder bloße l/m-Ähnlichkeit. Ausgangsprüfung: GDT835s fehlender vollständiger Suffixinverse-Test und geschlossene Korrektur-/Minimalpaarrouten; 5 Minuten Kapazitätsprüfung vorhandener expliziter Paarungen. | Aktuell fehlt ein solcher unabhängiger Expansionsanker. Diese Idee erlaubt weder neue Suffixzählung noch Wiederöffnung von GDT840 oder eine weitere synthetische Decoderreparatur. |
+| IP040 | **Harmonische Lautklassen:** Eine wortweite phonologische Eigenschaft bindet getrennte vokalartige Stellen an dieselbe Klasse, bleibt aber bei variierenden dazwischenliegenden konsonantartigen Teilen erhalten; bloße feste Silbenschablonen verlangen diese entfernungsunabhängige Kopplung nicht. | Produktive Binnenstruktur aus `STRUCTURAL_KNOWLEDGE.md`; GDT001s phonologische/konsonantische Modelle als wichtige Vorgänger. Kleinster Test: prüfen, ob eine einzige vorab begründete Zweiteilung von Stellen und Klassen konkrete bisher veröffentlichte Ganzformkontraste unterschiedlich vorhersagt, 5 Minuten. | Weder EVA-Zeichen noch gelernte Klassen sind etablierte Laute. Nachträgliches Suchen beliebiger Partitionen produziert Scheinharmonie; ohne begrenzte Hypothese kein Modellpanel. |
+| IP041 | **Stellenwertnotation mit Übertrag:** Bei unabhängig gesicherter Erhöhung um eins wechselt an einer bestimmten Stelle ein Zeichen zurück und die nächste Stelle steigt — ein gekoppelter Übertrag. Additive Strichzahlen oder bloße geordnete Klassen besitzen diese spezielle Wechselregel nicht. | Eine explizit gebundene vollständige Zählfolge beziehungsweise ein sichtbarer unabhängiger Nachfolgerbezug, bislang nicht nachgewiesen; GDT686-Wertinventar als Navigationsquelle. Zunächst nach einem schon publizierten echten Übertragskontrast fragen, 5 Minuten; keine Kreisordnung als Zählfolge voraussetzen. | Die Nachfolgerrelation darf nicht aus den vermeintlichen Ziffern entstehen. Ohne unabhängig gesicherte Folge bleibt das ein Datenbedarf, keine Erweiterung der III-Arbeitslesung. |
+| IP042 | **Tabellenkoordinaten statt laufender Buchstaben:** Zwei getrennt variierende Zeichenteile wählen Zeile und Spalte eines festen Codebuchs; wenn beide Koordinaten über mehrere Kontexte produktiv sind, müssen dieselben Koordinatenkombinationen konsistent dieselbe vollständige Einheit bezeichnen. Das verlangt eine wiederverwendbare zweidimensionale Zuordnung, nicht bloß viele ähnliche Wörter. | Vorhandene vollständige kombinatorische Paradigmen, zunächst GDT635/736/747 sowie GDT603/604-Codebuchvorgänger prüfen. Kleinster Test: ein publiziertes Viererrechteck auf wirklich unabhängig variierende Teile und eine zusätzliche überprüfbare Kombination untersuchen, 5 Minuten. | Morphologie erzeugt ebenfalls kombinatorische Rechtecke; ohne unabhängige Einheitengleichheit kann der Test höchstens die Architektur, nie konkrete Codebuchwerte begründen. |
+| IP043 | **Rückverweis mit codierter Länge:** Ein kurzer Ausdruck steht für einen zuvor vollständig geschriebenen Abschnitt und gibt dessen Umfang an; bei unabhängig gebundenen Wiederaufnahmen muss derselbe Längencode denselben Umfang vorhersagen, auch bei anderem Inhalt. Bloßes Kopieren ähnlich aussehender Wörter wie in IP016 verlangt keinen expliziten Umfangscode. | Bereits vollständig dokumentierte längere Wiederaufnahme mit unabhängig gesichertem Ziel, derzeit offen; GDT696/700/798 und GDT838/829 zuerst prüfen. Kleinster Test: an einer vorhandenen expliziten Doppelung prüfen, ob überhaupt ein separat geschriebener Umfangskandidat existiert, 5 Minuten, ohne die Abschnittslänge an den Code anzupassen. | Bezug und Umfang könnten frei gewählt sein; dann erklärt der Mechanismus alles und nichts. Ohne unabhängig bestimmte Abschnittsgrenzen keine weitere Suche nach passenden kleinen Werten. |
+
+Stand dieser Ergänzung: **36 Rohideen IP008–IP043** im Vorrat, zusätzlich die
+alten IP001–IP007. Acht hinzugefügt, null geprüft oder getestet, null als neu
+bestätigt. Schreibzuständigkeit an root zurückgegeben.

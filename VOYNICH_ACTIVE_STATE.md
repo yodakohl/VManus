@@ -22971,3 +22971,16 @@ vision, known targets, approximate geometry. No common graphic subentry cue;
 stop this two-page lead without rejecting an unmarked discourse function.
 Visual scope36keys/41selectors;14 discretionary admissions remain.
 Primary: `experiments/yolo/gdt844_ychor_visual_subentry/REPORT.md`.
+
+## IP014 — checksum candidate review (2026-09-06)
+
+The existing GDT800 source pair okalal/okalam has identical prefix okala and
+distinct visible terminal forms, corroborated in three alternate readings and
+old native inspection. Therefore the exact context-free surface rule
+last_symbol=F(remaining_written_group) cannot cover both. This is a logical
+consequence of existing evidence, not a new manuscript observation or general
+rejection of checksums, homophonic check values, errors or context dependence.
+Do not fit checksum weights for that deterministic surface variant. The broader
+IP014 needs a separately motivated carrier and falsifiable observation rule.
+Primary evidence: `experiments/yolo/gdt800_terminal_b2_b3_line_final_bridge/REPORT.md`.
+Selection audit: `docs/IDEA_BACKLOG.md`.

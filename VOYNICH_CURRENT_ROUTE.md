@@ -14,8 +14,12 @@ Local f67r2 MSI metadata audit found no additional capture in checked inventorie
 User requests a large idea surplus: producer maintains20–30 diverse raw sketches
 in `docs/IDEA_BACKLOG.md`, with five review priorities. Unscreened ideas are not
 selected experiments; primary predecessor review remains required before use.
-28raw ideas in7families now recorded; review priorities IP014/IP009/IP018/IP022/IP033.
-First review IP014 definitions/predecessors; no checksum search or experiment selected.
+36idea sketches now recorded; review priorities IP009/IP021/IP022/IP033/IP036.
+IP014 review: GDT800 okalal/okalam contradict last-visible-symbol=F(exact-rest).
+This rejects that context-free surface function only, not latent checksum values.
+No fitting needed; broader IP014 lacks a specified carrier/function.
+IP018 primary747/748 do not yet supply two independent coupled written features.
+No next scientific test selected; update review priorities in the backlog.
 
 Goal: transferable translation. Confirmed English lexemes: **0**;
 confirmed German lexemes/clauses: **0**. No new fit or further page admission selected.
@@ -31,23 +35,16 @@ Publicf3a16cf3 after metadata inspection, before raw-caption query/joins.
 no collapsing the2/4-group captions or reader variants. Source/reverse-geometry
 checks pass; PROVENANCE_INTAKE_ONLY_NO_AUTHORIAL_EDGE. No semantic edge/score.
 
-## Latest visual extension — GDT842
+## Preserved visual positives — GDT841/842
 
-`experiments/yolo/gdt842_star_outer_ring_extension/REPORT.md`.
-Public1cfab81b before separate native outer10judgments on sameYale1006201photo.
-9/10agree:3pigment,4outline,2uncertain; O6Auncertain/Bpigment. Seven clear cases.
-VISUAL_RING_EXTENSION_PASS on outer ring alone; fixed8/10 and2ofeachclearclass.
-No inner-ring pooling, new folio, labels, pigment-history or semantic claim.
-Frozen source, independent matrix and result replay pass; no regrading.
-
-## Latest visual pilot — GDT841
-
-`experiments/yolo/gdt841_star_centre_visual_reliability/REPORT.md`.
-Public4ed51a18 before separate native judgments on5fixed inner-ring stars,
-Yale1006201/admittedf70v. 4/5agree:3pigment,1outline; fifthAuncertain/Bpigment.
-VISUAL_PILOT_CAPACITY_PASS; only local appearance readability. Same photograph,
-not independent witnesses. No new image/selector, label query, score or meaning.
-Recorded judgments unchanged; source-lock and independent matrix arithmetic pass.
+Primary reports via `./vmanus-work lookup GDT841 GDT842`.
+Same Yale1006201 photograph, separate native judgments. Inner5:4/5agree,
+3pigment/1outline clear; outer10:9/10agree,3pigment/4outline/2uncertain,
+O6disagrees. Seven outer clear cases; agreed uncertainty is not a clear case.
+Local visual readability only: no independent physical witnesses, pigment history,
+held-folio transfer, authorial label ownership or word meaning. Preregistered
+criteria passed; source-lock, matrix arithmetic and replay checks passed.
+No regrading or further same-photo counts.
 
 ## Earlier screens and control
 
