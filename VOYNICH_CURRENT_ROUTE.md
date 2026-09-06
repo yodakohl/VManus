@@ -3,9 +3,9 @@ Updated: 2026-09-06. Read first.
 
 ## Current mandate
 
-Latest request (2026-09-06): continue after GDT834. GDT835 registers a
-necessary wholeword-priority inverse check on all48frozenkeys. Its actual
-compatibility counts are unscored. No new optimizer or language model selected.
+Latest request (2026-09-06): continue after GDT834. GDT835 completes the
+mandatory wholeword-priority audit: all21correctexistingkeys pass,27wrongkeys
+fail. This localizes an omitted forward-writing constraint; see below.
 No manuscript fit is selected. Root's personal whole-page orientation remains
 completed; subagents help with source metadata, root interprets images.
 
@@ -40,18 +40,23 @@ layouts. Source logistics alone were delegated. The observational dossier is
 No new experimental or semantic claim, no new page admission. User's required
 visual understanding remains part of future work; no experiment executed; see the new proposed candidate below.
 
-## Registered — GDT835 necessary mandatory-wholeword priority
+## Completed — GDT835 omitted W-priority constraint separates fixed keys
 
 `experiments/yolo/gdt835_wholeword_precedence_audit/REPORT.md`.
-The controlgenerator mandatesWbeforecomposedspelling;834legal() checksroles,
-positions,injection butomits thisinversecondition. CandidateownWdictionary
-(includingunusedW) mustforceeverymatchingdecodedword toitsoneWcarrier.
-All48discovery gates lockbeforeknowntruthjoin andheldconfirmation; no new
-fit,LMscore,keychoice or repaired834result. Existingcontroltruth ispublic:
-retrospectivediagnostic, notfreshblindvalidation. Counts notyetcomputed.
-TeninventedfixturetestsPASS. Separate42-wordsourcegrammarcensus isexploratory;
-no grammar scorer selected. Wpriority isnecessaryonlyforthefixedmandatory
-encoder, notfullsuffixinversion or optionalVoynichabbreviationevidence.
+Publica71f0f2b precedes48discoveryclassifications,lockedbeforetruthjoin/held.
+CandidateownmandatoryWdictionary (includingevenunusedW) requires everymatching
+word tobeitsoneWcarrier. All21correctobservedmaps pass; all27wrongmaps fail.
+Wrongkeysdecodecum asbothW(17D/109H) andcomposed(15D/44H): thecomposedforms
+violatecandidateWpriority, although theirplaintextitselfiscorrect. Theseare
+not834's42D/168Hwrongwordcounts. Everypassingkeyhas6511/6511heldwords,
+172/172paragraphs andzeroheldviolations. RETROSPECTIVE_PRECEDENCE_SEPARATION_PASS.
+Independent48Dgates/48Hconfirmations (152640D/312528Hcandidatewords) replayPASS.
+No newfit,LMscore,keyselection or834repair. Thepreviousdiagnosis isrefined:
+834allowedwrongkeys outsideitsdeclaredmandatoryencoder. NecessaryWcondition
+only; notfullsuffixinverse or optionalabbreviation/Voynichrule. Sourcegrammar
+censusremains exploratory; likelihooddecomposition andQue/Eglcontrolunrun.
+Nextboundedquestion: enforceforward-writingcompatibility duringinference and
+checkfreshcontrol; noimplementation/fitselectedyet. GDT616/CDA001remainclosed.
 
 ## Completed — GDT834 roles correct; word-value selection defeats control
 
@@ -63,57 +68,31 @@ BLIND identifiesall35activeroles;24L/3Soutputs correct; W ut→quod(59H),
 quod→cum(109H) explainall168wrongwords. Wrongkey beatsoracle3.50047366nats.
 Explicitposthoc census:21/48existingrestarts alreadyhaveallobservedtruevalues;
 27have theselectedwrongmap,0otherclasses. Searchfoundtruth; objectivepreferred
-wrongvalues. Do notposthocpickcorrectrestarts, rerununchangedobjective, or
+wrongvalues inarelaxedkeyspace; GDT835 identifiesomittedmandatoryWpriority.
+Do notposthocpickcorrectrestarts, rerununchangedobjective, or
 retune thresholds. Independent48objective/39066prediction/6oracle replayPASS.
 Knownboundaries,atomicunits and26L/4S/8Wnominalcounts remain supplied; only
 67observablepartitions were ambiguous. Threekeys shareoneEpistolaesplit.
 No Voynichfit/language/word or nextfit selected. A successor needs a genuinely
 differentpredeclaredword-value discriminator; GDT616/CDA001 remainclosed.
 
-## Completed — GDT833 reference effect and exact control recovery pass
+## Relevant predecessor controls — unchanged
 
-`experiments/yolo/gdt833_reference_orthography_intervention/REPORT.md`.
-Public registrationefa4aad8 precedes48fits;48restarts/6selections locked before
-truth. FreshDVEBookII held: NATIVE gets5519/5519words,32212/32212characters,
-122/122paragraphs,all2138newform/1270newlemmaoccurrences and24L/3S/8Wvalues
-exactly right in all3keys. ORTHOGRAPHY_EFFECT_AND_RECOVERY_PASS.
-SameMonarchiareference withonlyv→u gives5062/5519words(91.72%),0/457vwords;
-all5062nonvwords staycorrect. Optimizedcollapsedmapsv→k. The separatepredeclared
-legalv/z-swap oracle flips: truth-minus-rival+5470.2261native/−535.7301collapsed.
-No metric/goldnormalization,decoderchange or GDT832score repair.
-Independent rawsource+48objectives+33114predictions+12oracles replayPASS.
+- GDT833: ORTHOGRAPHY_EFFECT_AND_RECOVERY_PASS. FreshDVE native reference:
+  all5519heldwords/122paragraphs/35activevalues exact. Referenceonlyv→u loses
+  all457vwords; nonvwords unchanged. Pairedlegalv/zoracle reversesdirection.
+  Knownroles/boundaries; threekeysonecontentsplit. No Voynichfit.
+  `experiments/yolo/gdt833_reference_orthography_intervention/REPORT.md`.
+- GDT832: CONTROL_RECOVERY_FAIL. Continuouscontext identifies8/8W, but
+  93.33–93.35%words/98.81%chars missfloors; CUT0/8W. Addedco-lemmafactor gain0.
+  Wrongkeys beattrueobjective184.4667nats; referencev/kabsence auditedposthoc.
+  Initialfour-suffixcapacitySTOP remains; disclosedpre-fitactive-rulecorrection.
+  `experiments/yolo/gdt832_joint_family_context_control/REPORT.md`.
 
-Known roles/boundaries and one fixedmixedarchitecture are supplied. Threekeys
-shareonehistoricalcontentsplit; no fullparadigm or hiddensegmentation inference.
-FamilytermOFF; GDT832's zero-added-family-benefit result remains. No Voynich
-fit/word/language and no automatic target/successor selection. GDT616/CDA001 stayclosed.
-
-## Completed control — GDT832 recovery fails; context identifies W values
-
-`experiments/yolo/gdt832_joint_family_context_control/REPORT.md`.
-Public preregistration8beefeec precedes120 fits;120 restarts/15 selected keys
-locked before evaluation. On325 held Monarchia paragraphs/13826words, FULL
-recovers8/8W and3/3activeS, but21–22/24L. Words93.33–93.35%,chars98.81%,newforms
-88.88–88.92%,newlemmas88.62% miss all registered floors: CONTROL_RECOVERY_FAIL.
-CUT gets0/8W and77.60–77.61%words; FULL adds25.561pp on fixedmacro/novelform
-subset. OFF/REWIRED have identical recovery toFULL: no added family benefit.
-Real orderp=.001; pseudo.311/.559/.219. WrongFULLkeys score184.4667nats above
-truth; more optimization cannot make truth preferred under this objective.
-Independent replay of120objectives/207390predictions/5994nullscores PASS.
-Post-result aggregate audit: reference has0v/0k, while held has899v occurrences;
-allFULLmapsv→z.890of920–922wrongwordtokens involvev. Consistent with reference
-orthography mismatch, not a tested normalization fix; no rescore or rerun.
-
-Known boundaries and roles are control information. Only partial attested
-co-lemma relations were tested; no full paradigm generator/unknown segmentation.
-Three keys share one historical content split. Initial pre-key four-mandatory-
-suffix capacity STOP remains unchanged; disclosed pre-fit correction assesses
-observable24L/3S/8W only, keeping source/deck/thresholds fixed. No post-fit rescue.
-Its disclosed successor GDT833 uses fresh control data and a paired reference
-intervention; the GDT832 failure stays unchanged. Proposal: `docs/joint_reading/PROPOSAL.md`.
-
-GDT616 remains closed. A control pass cannot supply CDA001's missing independent
-text/value evidence or authorize a cached Voynich translation fit. No new page.
+The original jointreading proposal is `docs/joint_reading/PROPOSAL.md`.
+No fullhistoricalparadigm generator tested; only partialattestedco-lemmafactor.
+Neither controlpasses nor source-modelcorrections supply CDA001's missing
+independenttext/value evidence. GDT616 remainsclosed; no targetfit ornewpage.
 
 ## Earlier proposals remain unexecuted
 

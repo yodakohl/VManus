@@ -6,6 +6,21 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### GDT835 complete: omitted mandatory-W inverse condition (2026-09-06)
+
+RETROSPECTIVE_PRECEDENCE_SEPARATION_PASS. Publica71f0f2b precedesall48gates;
+lockbeforetruthjoin/held. OwncandidateWdictionary rejects27wrongkeys, accepts
+21correctobservedmaps,0offdiagonals. WrongWcum coexistswithcomposedcum at15D/44H
+occurrences versusW17D/109H. Composedwordsareplaintext-correct butcontradict
+mandatoryWpriority; distinctfrom834's42D/168Hwrongwords. All21passkeys have
+6511heldwords/172paragraphs exact andzeroWviolations. Independent48D/48Hreplay
+152640/312528candidatewordsPASS; old834hashesunchanged. No newfit,score,
+keyselection orretrospective834rescue. Correctiontodiagnosis: languageobjective
+preferredwrongkeys admittedbya fitterthatomittedthedeclaredencoderconstraint.
+OnlynecessarymandatoryWcompatibility; nofullsuffixinverse oroptionalVoynichrule.
+Freshintegratedinferencecontrolremainsunperformed; GDT616/CDA001closed.
+Primary: `experiments/yolo/gdt835_wholeword_precedence_audit/REPORT.md`.
+
 ### GDT835 mandatory-W inverse audit registered (2026-09-06; unscored)
 
 Controlsourcewholeword-first precedence is absent from834fitterlegal().

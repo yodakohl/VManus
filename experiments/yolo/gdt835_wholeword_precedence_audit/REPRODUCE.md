@@ -10,7 +10,7 @@ python3 experiments/yolo/gdt835_wholeword_precedence_audit/src/run.py --evaluate
 python3 experiments/yolo/gdt835_wholeword_precedence_audit/src/validate.py --check
 ```
 
-For first execution from the public registration commit, omit --check and run
+For first execution from public registration commit `a71f0f2b`, omit --check and run
 --gate before --evaluate. The gate refuses to overwrite an existing lock.
 Neither stage creates or selects a key or changes GDT834. The independent
 validator can use --gate-only before confirmation artifacts exist.
