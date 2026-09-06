@@ -104,3 +104,10 @@ all60oldleaf-margin-gradedfolios. Allareq05. The explicitly post-count
 the25%quirecap andaddmixednewphasecells. No imagesorLM002targetneeded;
 this reserve cannot repair the old test. About9min fromselectiontopublication,
 within10min. Goal remainsACTIVE; roughly8h05to minimumduration.
+
+05:48UTC image checkpoint: root has personally viewed three additional
+originals for admitted88v/89r/95v. The two95v-labelled images depict different
+plants; exact image IDs retained. Orientation only, no new falsifier or leaf
+grading. Documentation/publication exceeds the10min orientation budget after
+05:38checkpoint; admission/source mapping and continuity caused overhead.
+About2h07elapsed; ten-hour goal remainsACTIVE, deadline13:40:45UTC.

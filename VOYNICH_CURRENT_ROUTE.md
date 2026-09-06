@@ -66,7 +66,8 @@ They supply no Voynich meaning or authorization for automatic decoder repairs.
 Root natively viewed15 renderings of14 Yale canvases covering15 admitted keys:
 whole-plant, figure/becken, circular, small-object and text-heavy layouts.
 Dossier: `docs/visual_overview/README.md`; images: `docs/visual_overview/SOURCES.json`.
-No new semantic claim or page admission.
+Second orientation: `docs/visual_overview/ORIENTATION_2026-09-06.md` adds
+f88v/f89r and distinct95v views; no new test, semantic claim or page admission.
 GDT829 exact repeated-flank route and GDT830 pen-state control stop; do not relax
 or retune them. GDT830 marks64.6757% of a visibly blank patch foreground: observation
 failure, not evidence against pen-state information. GDT831 adds192 clear-point

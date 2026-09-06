@@ -90,3 +90,6 @@ auch kein Anspruch, die beschriebenen Erscheinungen erstmals entdeckt zu haben.
 Der Fortschritt dieses Durchgangs liegt in meinem eigenen, quellengebundenen
 visuellen Verständnis des Arbeitsgegenstands. GDT830 und GDT831 bleiben
 abgeschlossen; die neuen Beobachtungen verändern deren Resultate nicht.
+
+Fortsetzung vom6.September: [zweiter persönlicher Durchgang](ORIENTATION_2026-09-06.md)
+mit den drei genauen Quellen in ORIENTATION_2026-09-06_SOURCES.json.
