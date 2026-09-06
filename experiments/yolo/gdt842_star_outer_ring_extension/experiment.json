@@ -1,0 +1,104 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Visual readability capacity on one photograph only; no held label prediction, original pigment absence or semantics.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt842_star_outer_ring_extension/src/run.py",
+    "validate": "python3 experiments/yolo/gdt842_star_outer_ring_extension/src/validate.py"
+  },
+  "created": "2026-09-06",
+  "dependencies": [
+    "GDT841"
+  ],
+  "experiment_id": "GDT842",
+  "inputs": [
+    {
+      "path": "docs/visual_overview/SOURCES.json",
+      "role": "frozen_source_or_extractor",
+      "sha256": "63c198f411134c6045caca357a6eacf8d9c908f60ee8dea70d9029114c6a5795"
+    },
+    {
+      "path": "experiments/yolo/gdt841_star_centre_visual_reliability/PREREGISTRATION.md",
+      "role": "frozen_source_or_extractor",
+      "sha256": "5883798a080d1060b72a8f2c9a1437963ae3fa201a33539293e59939e976a524"
+    },
+    {
+      "path": "experiments/yolo/gdt841_star_centre_visual_reliability/src/run.py",
+      "role": "frozen_source_or_extractor",
+      "sha256": "5255b5f4061cc08b9f0453a0dca4d00ba914677137a0fec769cc36ef58718179"
+    },
+    {
+      "path": "experiments/yolo/gdt841_star_centre_visual_reliability/src/validate.py",
+      "role": "frozen_source_or_extractor",
+      "sha256": "60200ec94d437dec07ea8589e9d8d6b7e716eb0cbd8ce8a2db291a1bc349ffa3"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt842_star_outer_ring_extension/.gitignore",
+      "role": "source_or_artifact",
+      "sha256": "9b9dc66af90f9ff99fa79101a6e3eb357e4d8b53cafcf51e9a8d2e2e32ca7dbb"
+    },
+    {
+      "path": "experiments/yolo/gdt842_star_outer_ring_extension/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "7f9e70812366880b0c3b843ebe486d5b66020e84113ef0bd7753fdc971542112"
+    },
+    {
+      "path": "experiments/yolo/gdt842_star_outer_ring_extension/PREREGISTRATION.md",
+      "role": "source_or_artifact",
+      "sha256": "1a454e2e0956ce4ab5c23a73a9fa3c08a8a4471e532ff22b9cb43a969d2bda7e"
+    },
+    {
+      "path": "experiments/yolo/gdt842_star_outer_ring_extension/README.md",
+      "role": "source_or_artifact",
+      "sha256": "de600fd75497bf9808328b478050ad51fbc049c82907f5e3eb007c3abddb1be2"
+    },
+    {
+      "path": "experiments/yolo/gdt842_star_outer_ring_extension/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt842_star_outer_ring_extension/src/PREREG_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "a1c090f8a6ade169a16ec9f9848a84c03e545f5a5b65a847e85b00bb7207c0fe"
+    },
+    {
+      "path": "experiments/yolo/gdt842_star_outer_ring_extension/src/SPEC.json",
+      "role": "source_or_artifact",
+      "sha256": "2a7a38b0ac2bacdf0cd44b52796a400b494951ee201c983f9b0318e86245109c"
+    },
+    {
+      "path": "experiments/yolo/gdt842_star_outer_ring_extension/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "77d0dce40a7c8f65b5ff763ac6ac7e23d19cffbe7ac874aa4750ae966c371fa9"
+    },
+    {
+      "path": "experiments/yolo/gdt842_star_outer_ring_extension/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "13cb43e8257151a7d5c185755b408a2029340a2af9b4a1675491b010d290e1d7"
+    },
+    {
+      "path": "experiments/yolo/gdt842_star_outer_ring_extension/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "e5c480a14ed4a17f42d0370b765e3d157ec4d83234dd48eacbef1bee97b792f2"
+    }
+  ],
+  "question": "Does the fixed star-centre distinction transfer to the complete outer ten on the same photograph?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "star_outer_ring_extension",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Complete outer-ring star-centre extension",
+  "updated": "2026-09-06",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}
