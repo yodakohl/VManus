@@ -7,18 +7,20 @@ Latest mandate: at least10h active research, start2026-09-06 03:40:45UTC;
 not complete before13:40:45UTC unless user interrupts/changes the mandate.
 Active goal/session record: `docs/RESEARCH_SESSION_2026-09-06.md`.
 
+GDT858 corrects808 holdout:963primary folds reconstruct exactly,855 retain
+training from the opposite face of the held leaf (L505/569,DY350/394).
+169old physical-folio keys are page faces on90leaves. No whole-leaf transfer
+claim, refit or measured score penalty.809 contact/model keys also retainr/v.
+Primary via lookup858; old source bytes preserved. No automatic model rerun.
+
 GDT850:28joined/split qolchedy loci, same-line75v.44; IT75r.33+qokain already
 known823.851:all-reader ABAB f30r.11/f8r.19, not copying or meaning.
 852:two native viewers support local75v.44 seam contrast, not word boundaries.
-GDT853 stops before context scoring:25W qualify in discovery,
-but zero held pairs satisfy fixed selector/kind/section/hand/start-index
-matching.32127eligible spans; no predictor executed. No information-loss
-answer or automatic looser pairing. GDT854:146events,14mixed sourcecells;
-CKH has both one-e positions within fixed sourcecells on9folios, CTH onlyf83.
-No page/cell-only placement rule forCKH; cross-kernel capacity fails, no model
-or null executed. Raw character counts/length equal, not physical glyphs or
-meaning. No within-kernel rescue. IP012 assembly deferred:
-no empirically motivated remodeling rival.40idea sketches remain available.
+GDT853:25W qualify, zero held pairs meet fixed source/start-index matching;
+no predictor or automatic looser pairing. GDT854:146events,14mixed cells;
+CKH one-e positions vary within9folios, CTH onlyf83. Cross-kernel capacity
+fails; no model/null/meaning or within-kernel rescue. IP012 deferred:
+no empirically motivated remodeling rival.Ideas: see backlog.
 
 GDT855:outside ALL60LM-graded folios, onlyf35/f36/f37 remain, allq05.
 Post-count proof: any newTOOTHED breaks25%quire cap; none adds no mixed new

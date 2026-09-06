@@ -71,12 +71,12 @@
     {
       "path": "experiments/yolo/gdt858_folio_holdout_unit_audit/README.md",
       "role": "source_or_artifact",
-      "sha256": "d2581ccfa318f3c8b6f49870d57dcf4960bfefa66de479db1334903343466ca2"
+      "sha256": "f4bbad9fce6898271e32a3e9d7befcb1b3675b1472c5a8bd999c45977d498881"
     },
     {
       "path": "experiments/yolo/gdt858_folio_holdout_unit_audit/REPORT.md",
       "role": "primary_report",
-      "sha256": "41596c3789e30180cb275dbe12a67b70a96fd6555fe11d36eaed06c10f2bf9d6"
+      "sha256": "730d4f4b9877e84d929596a41a7b314733a1670b01590c8a3ad309883d2ba9d5"
     },
     {
       "path": "experiments/yolo/gdt858_folio_holdout_unit_audit/artifacts/CONTROLS.json",
@@ -84,9 +84,34 @@
       "sha256": "e25b471012cfa91abba45a096706b08c49650d793273d971caac55ef0ee42b50"
     },
     {
+      "path": "experiments/yolo/gdt858_folio_holdout_unit_audit/artifacts/GUARD.json",
+      "role": "source_or_artifact",
+      "sha256": "72bb7819f942f6c141c3f0e4d2dd8517e6a0b10f4be5d97b66a8e5055b817a91"
+    },
+    {
+      "path": "experiments/yolo/gdt858_folio_holdout_unit_audit/artifacts/PRIMARY_FOLDS.json",
+      "role": "source_or_artifact",
+      "sha256": "b0e48d076bfd23d67be74f0d682f27a69efbdf640eed0853aa3726171792bfec"
+    },
+    {
+      "path": "experiments/yolo/gdt858_folio_holdout_unit_audit/artifacts/PROJECTED_METADATA.json",
+      "role": "source_or_artifact",
+      "sha256": "6c2bf5c4bb2433b02c2c3bfa2a84942f2d7ea59b7e6fd17218b5615c93751fbf"
+    },
+    {
       "path": "experiments/yolo/gdt858_folio_holdout_unit_audit/artifacts/README.md",
       "role": "source_or_artifact",
       "sha256": "a50fef8484be033b94afc2c265308de1615a783cc7ba2d38dba686bc7d71b4b7"
+    },
+    {
+      "path": "experiments/yolo/gdt858_folio_holdout_unit_audit/artifacts/RESULT.json",
+      "role": "source_or_artifact",
+      "sha256": "c50cd90c9367aeeffe636d68958530112c2e832c6576f0c182d11bb2fb340b8a"
+    },
+    {
+      "path": "experiments/yolo/gdt858_folio_holdout_unit_audit/artifacts/VALIDATION.json",
+      "role": "source_or_artifact",
+      "sha256": "305a7fb76aad9c41667d77ae7027ba2d1bab8d4e5ce2a974bdcc4d928fdeb086"
     },
     {
       "path": "experiments/yolo/gdt858_folio_holdout_unit_audit/src/PREREG_LOCK.json",
@@ -121,11 +146,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "folio_holdout_unit_audit",
-  "status": "REGISTERED_UNSCORED",
+  "status": "PRIMARY_FACE_HOLDOUT_RETAINS_OPPOSITE_LEAF_FACE",
   "title": "Folio holdout unit metadata audit",
   "updated": "2026-09-06",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "artifact": "experiments/yolo/gdt858_folio_holdout_unit_audit/artifacts/VALIDATION.json",
+    "status": "PASS"
   }
 }

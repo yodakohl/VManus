@@ -195,3 +195,5 @@ rather than whole-leaf transfer, not an assumed score reversal. Zero => bound
 the observed overlap claim, not a global clearance. Old source bytes stay
 frozen; no model refit. Public freeze before metadata-body access.
 Budget15min to07:27:15UTC including source/code/validation/publication.
+
+07:26 UTC GDT858 result: 963/963 primary folds reconstruct,855 retain opposite-face training;169face keys on90leaves. Public prereg6e3c7a93 preceded data; independent requery/reconstruction and replay PASS. Corrected808/809 unit claims without refitting or altering legacy bytes. No performance penalty or decipherment claim. Publication follows exact staged checks. Goal ACTIVE, deadline13:40:45UTC unchanged.

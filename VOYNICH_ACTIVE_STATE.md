@@ -6,6 +6,20 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### GDT858 holdout unit correction (2026-09-06)
+
+Primary: `experiments/yolo/gdt858_folio_holdout_unit_audit/REPORT.md`.
+Public prereg6e3c7a93 precedes metadata access. All963 CORE13 primary folds
+reconstruct exactly:569 L and394 DY. Opposite-face training remains in
+855 folds (505 L,350 DY), after actual axis and carrier exclusions.
+1777 events occupy175 selectors,169 page faces,90 leaf keys;79 leaves have
+both faces. Historical808 physical-folio keys retain r/v;809 uses that unit
+in contact/model code too. Model validators reproduce the same definition.
+Correct claim is carrier/page-face generalization, not whole-leaf generalization.
+No model refit, revised score, measured performance penalty, translation or
+GDT809 quantitative fold audit. Old808/809 source/report bytes stay frozen.
+
+
 ### GDT857 literal triple constraint (2026-09-06)
 
 Primary: `experiments/yolo/gdt857_cyclic_inventory_triple_bound/REPORT.md`.
@@ -22241,11 +22255,13 @@ Primary report:
 ## GDT808 exact relation rectangle
 
 GDT808 reconstructs 1,777 exact CORE13 `Xol/Xeol/Xedy/Xeody` events on 559
-strict paragraphs, 1,403 focal lines and 169 physical folios.  The eight
-models produce 7,970 predictions in 4,538 carrier-and-folio-held folds.
+strict paragraphs, 1,403 focal lines and 169 page faces. The eight
+models produce 7,970 predictions in 4,538 carrier-and-page-face-held folds.
+GDT858 corrects the historical physical-folio wording: the model key retains
+r/v, so it does not exclude the entire physical leaf.
 
-Both within-axis contrasts are portable as record/form relations, not as local
-operators.  L has nuisance/augmented carrier-macro AUC .611534/.617142,
+Both within-axis contrasts are portable under that carrier/page-face split
+as record/form relations, not as local operators or proven whole-leaf transfer.  L has nuisance/augmented carrier-macro AUC .611534/.617142,
 local gain .005609, target-null rank 4/25 and portability rank 3/13.  DY has
 .753049/.769903, gain .016854, ranks 1/25 and 1/13.  Both gains miss the fixed
 .02 local gate.  Cross-axis augmented AUC is .398734 L-to-DY and .450339
@@ -22255,22 +22271,18 @@ GDT808 licenses no shared `e`, `o`, `ol` or `edy` meaning.
 The historical working-rival ranking puts `R06_RECORD_CHANNEL` first with six
 points, ahead of `R04_PART_OR_FORM_SCOPE` and
 `R05_GROUP_DOSE_OR_UNIT_VALUE` with four each.  DY-expanded has a sparse
-positive amount contact (log OR 2.696916; four folios); L-expanded is
-depleted at the broader part/form contact (log OR -0.941325; 48 folios).
+positive amount contact (log OR 2.696916; four page-face keys); L-expanded is
+depleted at the broader part/form contact (log OR -0.941325; 48 page-face keys).
 Quality/value has zero clean contacts.  These are orientation leads, not
 lexemes.
 
 The independent validator passes 34 full reconstruction and value-comparison
 blocks, including all events, decks, scores, nulls, controls, contacts and
-artifact hashes.  All 19 GDT388 relations fail only because the accessed
-formal text is not sealed visual evidence.
+artifact hashes. All 19 GDT388 relations remain not score-ready. A reported
+formal-access failure does not establish passage of all remaining gates; see
+`docs/RELATION_GATE_SCOPE_CORRECTION.md`.
 
-The live next route is the record-conditioned exact-whole HEAD-PIVOT.  Reuse
-heads from `H daiin` and the GDT760 measured phrases across their other exact
-occurrences; keep L and DY separate; join same-head record, image/label and
-paragraph evidence; then rank concrete historical behavior profiles for
-liquids, salt/drug, plant parts, operations and vessels.  Neither EVA spelling
-nor an inherited German gloss is a feature.
+The historical HEAD-PIVOT successor was completed as GDT809 below.
 
 Primary report:
 `experiments/yolo/gdt808_exact_relation_slot_residual_bridge/REPORT.md`.
@@ -22280,8 +22292,8 @@ Primary report:
 GDT809 completes the inherited exact-whole HEAD-PIVOT pass with 35 heads,
 1,032 stable occurrences, 209 distinct links, 189 unique-head windows and
 795 strict external occurrences. cthy/L-base passes with 12:0 contacts on
-11 folios, rotation rank4/25, and retains direction under ED1. sheo/DY-expanded
-passes with 3:1 on four folios, rank3/25; ED1 excludes that head rather than
+11 page-face keys, rotation rank4/25, and retains direction under ED1. sheo/DY-expanded
+passes with 3:1 on four page-face keys, rank3/25; ED1 excludes that head rather than
 observing a reversed effect. External record compatibility overlaps training
 folios and is explicitly not unseen-folio semantic evidence.
 
