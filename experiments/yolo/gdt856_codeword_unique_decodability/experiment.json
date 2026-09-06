@@ -1,0 +1,114 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Finite aggregate-code property only; no manuscript sequence, canonical BPE legality, synchronization or semantic claim.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt856_codeword_unique_decodability/src/run.py",
+    "validate": "python3 experiments/yolo/gdt856_codeword_unique_decodability/src/validate.py"
+  },
+  "created": "2026-09-06",
+  "dependencies": [
+    "GDT605"
+  ],
+  "experiment_id": "GDT856",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt605_multisymbol_unit_alphabet/artifacts/gdt605_unit_inventory.tsv",
+      "role": "frozen_source_or_extractor",
+      "sha256": "ade74733200e941ddc66285988eb1498ac98e87ad374cad11ac412ce42893e82"
+    },
+    {
+      "path": "experiments/yolo/gdt605_multisymbol_unit_alphabet/REPORT.md",
+      "role": "frozen_source_or_extractor",
+      "sha256": "44cf08b69f9b182c413f493312eec9b6b3c1e759c6f2e6c32f7248b79174e57d"
+    },
+    {
+      "path": "experiments/yolo/gdt605_multisymbol_unit_alphabet/METHOD.md",
+      "role": "frozen_source_or_extractor",
+      "sha256": "d1ce7e298982ed6382af91bec0335e9def9e6af419a872a7625f169ed89728cd"
+    },
+    {
+      "path": "experiments/yolo/gdt605_multisymbol_unit_alphabet/src/unit_inventory.py",
+      "role": "frozen_source_or_extractor",
+      "sha256": "f444bca4adfbdb72cbaf80a68acb938d39f87dd5ad01ad545118f6ee0cc0d1c3"
+    },
+    {
+      "path": "experiments/yolo/gdt605_multisymbol_unit_alphabet/src/separator_crossing.py",
+      "role": "frozen_source_or_extractor",
+      "sha256": "921c6617615980ed41bf70c8cdf574aa2a15621832e7842dd9dd3621461bf8e8"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt856_codeword_unique_decodability/.gitignore",
+      "role": "source_or_artifact",
+      "sha256": "9b9dc66af90f9ff99fa79101a6e3eb357e4d8b53cafcf51e9a8d2e2e32ca7dbb"
+    },
+    {
+      "path": "experiments/yolo/gdt856_codeword_unique_decodability/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "6abb61f39b3d497f523b442647de4969f1dbbe262dc06d5148284e68d22b57fa"
+    },
+    {
+      "path": "experiments/yolo/gdt856_codeword_unique_decodability/PREREGISTRATION.md",
+      "role": "source_or_artifact",
+      "sha256": "760489a40cb7b9a969976e9661ba4832a3e55971358cec10be5043fae8e20266"
+    },
+    {
+      "path": "experiments/yolo/gdt856_codeword_unique_decodability/README.md",
+      "role": "source_or_artifact",
+      "sha256": "c3f72ac2baf69732a96e99ec36545958bb7fd71c7e16bfc32060f04c80a13ffa"
+    },
+    {
+      "path": "experiments/yolo/gdt856_codeword_unique_decodability/artifacts/CONTROLS.json",
+      "role": "source_or_artifact",
+      "sha256": "055695e1c904d554f5359bb9c53b429a09a5dcfbbd1015fdce3c7d1c21f8dc45"
+    },
+    {
+      "path": "experiments/yolo/gdt856_codeword_unique_decodability/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "1c2a307dab56979f91c3ddc0d38ba865acd1649b1d4bb0e1eb8c7b80adc8d9b2"
+    },
+    {
+      "path": "experiments/yolo/gdt856_codeword_unique_decodability/src/PREREG_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "cf5c7b6e8f6e05e0bcfa070652cb157ead084afc1445c59b1e319c9fa1ddddc9"
+    },
+    {
+      "path": "experiments/yolo/gdt856_codeword_unique_decodability/src/SPEC.json",
+      "role": "source_or_artifact",
+      "sha256": "b708eeba6b7c5628cf65689d7b2a16bc8f2583125a841188e85b8f814e4fbdfd"
+    },
+    {
+      "path": "experiments/yolo/gdt856_codeword_unique_decodability/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "189fc68da485bdd595c0c810f16df14851878243b328348fefe12a5487e1c0be"
+    },
+    {
+      "path": "experiments/yolo/gdt856_codeword_unique_decodability/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "87b5df2c505d923fb15055df895254d7c0af12da03593ecc5d74ff9a2859036e"
+    },
+    {
+      "path": "experiments/yolo/gdt856_codeword_unique_decodability/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "568199a63595d57f2c0467949c1006a2567d2dad543f0be1ba4b11bc41b00ac1"
+    }
+  ],
+  "question": "Is the exact published98-unit collapsed-symbol code freely uniquely decodable?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "codeword_unique_decodability",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Free unique decodability of published GDT605 codewords",
+  "updated": "2026-09-06",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

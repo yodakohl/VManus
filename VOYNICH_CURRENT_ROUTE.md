@@ -32,17 +32,17 @@ corners in four two-e-slot strata, no coupling/meaning.847 reconciles legacy
 GDT844/stars remain stopped; no unowned caption scores or same-photo recounts.
 
 Goal: transferable translation. Confirmed English lexemes: **0**;
-confirmed German lexemes/clauses: **0**. No new fit selected.
+confirmed German lexemes/clauses: **0**. No new fit selected. GDT856 prepares
+a finite98-unit codeword ambiguity check; old605model only, no manuscript score.
 GPU/subagents authorized; no other LLM API keys. No public decipherment-approach
 searches: the user says these are exhausted. Understand project history and
 manuscript appearance before fixing a route; use primary internal evidence.
 
 ## Preserved star observations — GDT841–843
 
-Primary reports via compact lookup. Same Yale1006201 photo, separate native
-judgments: inner5agree4/5; outer10agree9/10, seven clear. O6disagrees.
-No independent physical witness, pigment history, held transfer or meaning.
-GDT843 links9crops,1missing,6clear contexts;42rawgroups/27reader-loci.
+Primary reports via compact lookup. Same Yale1006201 photo: inner4/5agreement,
+outer9/10, O6disagrees. No independent witness, pigment history or meaning.
+GDT843:9crop links,1missing,6clear contexts;42rawgroups/27reader-loci.
 PROVENANCE_INTAKE_ONLY_NO_AUTHORIAL_EDGE: no authorial caption ownership/score.
 These routes stay stopped; no regrading or additional same-photo counts.
 
@@ -54,9 +54,8 @@ extension; do not reject the local relation or infer names. GDT839:4169eligible
 adjacent pairs,zero cross-folio conserved strings with shifted1–3atom splits.
 GDT838:8490windows,14eligible on5folios,zero fixed16-group recoding patterns.
 These narrow capacity stops do not generally reject word boundaries or ciphers.
-GDT837:48fits/sixselected controls,98.2512%words,wrong suffix ae→a,33/34packages;
-STRICT_RECOVERY_FAIL, wholeword-constraint gain0, score issue already known834.
-No manuscript meaning or automatic control-decoder successor follows.
+GDT837:STRICT_RECOVERY_FAIL; wholeword-constraint gain0, wrong suffix,
+score issue already known834. No automatic control-decoder successor.
 
 Earlier control details: `./vmanus-work lookup GDT832 GDT833 GDT834 GDT835 GDT836`.
 They supply no Voynich meaning or authorization for automatic decoder repairs.

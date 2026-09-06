@@ -111,3 +111,15 @@ plants; exact image IDs retained. Orientation only, no new falsifier or leaf
 grading. Documentation/publication exceeds the10min orientation budget after
 05:38checkpoint; admission/source mapping and continuity caused overhead.
 About2h07elapsed; ten-hour goal remainsACTIVE, deadline13:40:45UTC.
+
+05:58:40UTC decision: GDT856 will test free unique decodability of the
+published98-final-unit GDT605 codebook as an exact finite mathematical object.
+605already fixes a deterministic BPE parser; this does not settle whether
+arbitrary sequences of its final units can have identical collapsed-symbol
+concatenations. Counterexample => inventory alone cannot specify free parsing;
+UDcertificate => only that property, no real script/semantic inference.
+Invalid input => stop. No decoder repairs, source corpus, image, counts or
+synchronisation study. Old605aggregate scope is not current179selector scope.
+Budget15min including publication, deadline06:13:40UTC; no inventory analysed
+before public preregistration. The script uses a terminating residual-state
+search and independent verification, not a tuned statistical model.

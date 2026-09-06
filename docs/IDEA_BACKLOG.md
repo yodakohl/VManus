@@ -1195,3 +1195,38 @@ medial` und gezielter Primärbericht-Textscreen lieferten keinen einschlägigen
 physischen Vergleich. Kein erschöpfender Archiv- oder Neuigkeitsnachweis;
 IGR002/IP009/IP012 bleiben unberührt. Keine Bilder/Rohtexte geöffnet,
 keine Zählung, keine neue Idee oder Auswahl. Schreibzuständigkeit zurück.
+
+### IP020 / IP025: begrenzter Primärvergleich während GDT856
+
+**IP020 — konkretes Paar vorhanden, neuer Discriminator fehlt.**
+[GDT811 REPORT](../experiments/yolo/gdt811_four_page_content_synthesis/REPORT.md)
+belegt auf f17r `otchol qodcthy ods chol` und `otchol cthar okaiin chol`
+in allen drei Lesungen; der erste Ausdruck überschreitet eine physische Zeile.
+Das ist eine echte unterschiedliche Mitte zwischen denselben geschriebenen
+Rändern. Beide Mitten haben aber Länge zwei. GDT811 hat die Verallgemeinerung
+bereits geprüft: sechs der acht otchol auf den30 Seiten haben ein späteres chol,
+mit Breiten0/12/2/2/30/16; f4r `otchol chol` widerspricht dem obligatorischen
+Zwei-Slot-Modell bereits. Variable Spannweite ist also kein neuer Befund.
+Ein variabler Rahmen und unabhängig wiederkehrende Randwörter bleiben mit
+diesem Bericht vereinbar. Keine neue nichtlokale Bindung oder Einbettung folgt
+allein daraus. [GDT581 REPORT](../experiments/yolo/gdt581_grammar_content_boundary_audit/REPORT.md)
+liefert reparierte Host-/Slotadressen, kein zusätzliches geschriebenes Paar,
+das diese beiden Mechanismen verschieden vorhersagen ließe. Keine erneute
+Spannweitenzählung oder Lockerung alter Parallelstellen-/IL026-Grenzen.
+
+**IP025 — bekannte Formwiederverwendung, kein neuer Funktionskontrast.**
+[GDT792 REPORT](../experiments/yolo/gdt792_target_masked_image_form_host_transfer/REPORT.md)
+belegt die okal-Einzeilenlabels auf f67r/f72r/f82r und ihre Prosanutzung;
+[GDT811 REPORT](../experiments/yolo/gdt811_four_page_content_synthesis/REPORT.md)
+belegt f88r okol Label.15/Prosa.19. Beide Berichte grenzen ausdrücklich ab,
+dass diese Wiederverwendung Objektname, Eigenschaft und Referenz/Kategorie
+nicht entscheidet. Im geprüften Berichtspaar fehlt ein zusätzlicher konkreter
+Record-Funktionswechsel, der hier eine neue Gegenprognose lieferte. Kein
+weiteres Label-/Prosa-Inventar oder unzulässiger Besitzerscore.
+
+Route-checks: `otchol chol variable bracket f17r f4r scope width` und
+`okal record type unique object same page repeated label class`. Pro Ansatz
+höchstens zwei Primärberichte gelesen; keine Rohdaten/Bilder/Web geöffnet.
+**Kein neuer ausführbarer Kandidat**, kein neuer Titel im Ideenbestand und
+keine Forderung nach bereits übersetzten Goldbedeutungen: Es fehlt die neue
+unterschiedlich vorhergesagte Beobachtung. Schreibzuständigkeit zurück.
