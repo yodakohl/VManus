@@ -19,24 +19,19 @@ eine erwünschte Übersetzung zu erhalten. Zeitbudgets umfassen Prüfung und Pub
 
 ### IP001 — Füllung getragener Sterne innerhalb eines Ringes
 
-Status: `IN_PROGRESS` (root; ausschließlich visueller Vorcheck).
-Ausgangspunkt laut root: korrektes f72r3-Panel Yale1006203 nativ betrachtet;
-helle/gelbliche Zentren sichtbar, belastbare Binärklassifikation noch nicht festgestellt.
-Unterscheidung: ganze Figur-Stern-Beschriftungskarte, kein unterstellter Sternname.
-Vorgängeraudit laut root: GDT796 prüfte barrel/clothing/facing; STAR_ENTRY_MARKER_COLOR
-betrifft Absatzsterne, ZST002 Schweife, DIRECT_STAR_LABEL_RAY_COUNT scheiterte an
-singulärer Zuordnung. Das ist eine vom Koordinator übermittelte Arbeitsnotiz;
-dieser Agent hat weder Bildbefund noch jene drei Primärberichte selbst geprüft.
-[Vorcheck des root](visual_overview/STAR_FILL_PILOT.md): f72r3 und f70v wurden
-nativ betrachtet; Pigmentvariation bleibt eine zunächst ungeprüfte Beobachtung,
-kein labelspezifischer Test. Nächster Schritt: root entscheidet erst über zuverlässig
-sichtbare Variation und Zuordnung, bevor eine Textkorrelation oder ein GDT startet.
+Status: `PILOT_PASS` — root, GDT841 abgeschlossen.
+[Ergebnis](../experiments/yolo/gdt841_star_centre_visual_reliability/REPORT.md):
+4/5 getrennte native Urteile stimmen überein:3gefärbte Zentren,1Umrandung;
+ein Fall bleibt Aunklar/Bgefärbt. Fünf Sterne im selben Ring derselben Aufnahme.
+Keine Beschriftungsabfrage, semantische Verbindung oder historische Farbklasse
+bewiesen. Nächster Schritt wäre ein breiterer vorab festgelegter visueller
+Beobachtungssatz; ein Texttest ist noch nicht vorbereitet.
 
 ## Priorisierte Warteschlange
 
 ### IP002 — Sichtbare Untereinträge hinter `ychor`
 
-Priorität: 1. Status: `READY_FOR_REVIEW`.
+Status: `NEEDS_DATA` — vorhandene 13 Zielseiten sind nicht visuell zugelassen.
 Ausgangspunkt: [GDT756](../experiments/yolo/gdt756_ychor_line_frame_content_slots/REPORT.md)
 findet 13/13 Vorkommen zeileninitial, 0/13 absatzinitial;
 [GDT757](../experiments/yolo/gdt757_initial_formula_role_atlas/REPORT.md) bestätigt
@@ -53,15 +48,24 @@ Entscheidung: sichtbare unabhängige Untergliederung stärkt die strukturelle
 Eintragsmarker-Hypothese; ihr Fehlen lässt die semantische Item-Lesung weiter offen
 und beendet diesen visuellen Zusatztest. Keine Übersetzung aus Einzug ableiten.
 Einwand: Text ist bereits bekannt; Maskierung macht den Betrachter nicht blind.
-Die Bild-Schnittmenge wurde hier noch nicht geprüft; keine Kapazität zugesichert.
-Nächster Schritt: root prüft locus/Seitenzulassung und ob GDT756/757 bereits
-native Einzugsurteile enthalten. Nicht nochmals Initialitätsraten zählen.
+Metadaten-Nachprüfung (ohne Text-/Bildöffnung): Die 13 Überschriften im
+[GDT756-Reader](../experiments/yolo/gdt756_ychor_line_frame_content_slots/artifacts/GDT756_YCHOR_FRAME_READER.md)
+lauten f6v.8, f9v.11, f17v.15, f19v.9, f22v.7, f23r.5, f24r.8, f45v.9,
+f86v5.20, f93r.28, f99r.52, f102v2.35, f106r.9. Keiner dieser Selektoren steht
+in GDT791s `src/PAGE_SELECTOR_SPECS.tsv` oder GDT812s `src/PAGE_ADMISSIONS.tsv`.
+Recto und verso wurden nicht gleichgesetzt. Damit ist der vorgeschlagene Test
+mit vorhandener visueller Zulassung aktuell nicht ausführbar.
+GDT756 METHOD und GDT757 METHOD beschreiben Textposition/Kartengeometrie,
+keine native Einzugsmessung. Die Unterscheidung ist somit vorbereitet, die
+Bildzulassung fehlt. Nächster Schritt nur bei bewusster neuer Seitenpriorisierung:
+einen bisher ungesehenen Zielselektor vor Zugriff registrieren. Kein automatischer
+Seitenverbrauch und keine erneute Initialitätszählung.
 Duplikatsuche: `ychor indentation visual entry start Item continuation preceding line`;
 Primärberichte GDT756/757 gelesen. Keine Behauptung einer vollständigen Negativsuche.
 
 ### IP003 — Gleicher Teilnehmer oder nur gleiches Wort in einer Kette?
 
-Priorität: 2. Status: `READY_FOR_REVIEW`.
+Priorität: 1. Status: `READY_FOR_REVIEW`.
 Ausgangspunkt: [GDT704](../experiments/yolo/gdt704_v77_repeated_written_material_continuation/REPORT.md)
 führt f26r.2 #4/#5/#6/#8 als lokale Kette C011/C013/C015; drei andere exakte
 Kopf-Wiederholungen (f80v.35 und zweimal f88r.19) gelten als Zutatenwechsel.
@@ -143,3 +147,40 @@ Nächster Schritt: geschlossen lassen; IP001 behandelt andere beobachtbare Einhe
 und darf diesen Endpunktmangel nicht durch bloße Nähe umgehen.
 Duplikatsuche: `visual connector tube connected basin text order direction network`;
 Primärbericht GDT389 einschließlich Schließbedingung gelesen.
+
+### IP007 — Gehört die linke f66r-Zeichenspalte zeilenweise zum Haupttext?
+
+Status: `DUPLICATE` nach root-Prüfung; nicht übernehmen.
+Korrektur: [NEXT_STEP](visual_overview/NEXT_STEP.md) hält den älteren
+f66r_border_permitted_evidence_audit mit31/32räumlichzugeordneten inneren Zeichen
+fest. Der Primärbericht fehlt; seine exakten Regeln bleiben unrekonstruiert.
+Die bloße Ausrichtung ist trotzdem kein neuer Beobachtungsanker. Der unten
+aufbewahrte Entwurf übersah diesen Vorgänger; nicht erneut ausführen.
+Ausgangspunkt: [native Übersicht](visual_overview/README.md), Abschnitt
+Textflächen/Schriftbild: f66r besitzt links neben dem großen Textblock eine
+schmale Folge einzelner Zeichen und kurzer Einträge. f66r ist bereits visuell
+zugelassen. Dies ist ein publizierter Beobachtungsanker, kein neuer Bildbefund.
+Neue unterscheidende Vorhersage: Ein zeilenweises Verweissystem muss eine
+geometrisch eindeutige, monotone Eins-zu-eins-Zuordnung zwischen beiden Spalten
+zulassen; eine eigenständige Zeichenliste braucht diese Kopplung nicht.
+Kleinster Test: root betrachtet genau das vorhandene f66r-Original nativ und
+zeichnet für alle sichtbaren linken Einträge zugehörige Grundlinienintervalle
+auf, ohne Zeichenwerte zu lesen. Verglichen werden gleich hohe Haupttextzeile,
+nächsthöhere/nächsttiefere Zeile und kein singulärer Partner. Keine erzwungene
+Zuordnung durch bloße Nähe. Gesamtbudget 5 Minuten; Sichtbarkeit zuerst.
+Entscheidung: eindeutige wiederholte Zeilenbindung liefert einen konkreten
+neuen internen Relationstyp zur späteren Quellenprüfung; fehlende Eindeutigkeit
+beendet den Ansatz vor Textvergleichen. Eine feste Verbindung wäre weder
+Alphabet noch Schlüssel noch Übersetzung und noch kein GDT388-fertiges Paket.
+Wichtigster Einwand: gemeinsames Zeilenraster kann rein mechanisch sein;
+auch eine perfekte Geometrie beweist keine semantische Abhängigkeit.
+Vorgängeraudit: `f66r marginal column single character alignment adjacent text line vertical`;
+der direkte [f66r-Primärbericht](../experiments/semantic_assumptions/results/f66r_plain_script_native_visual_relation_report.md)
+wurde gelesen. Er verwirft die Äquivalenz zweier unterer Randinschriften auf
+getrennten Grundlinien, nicht die linke Spalte am großen Textblock. Das öffnet
+keine bilinguale Route erneut. Indexsuche allein belegt keine vollständige Neuheit.
+Nächster Schritt: root prüft zuerst, ob die linke Spalte im vorhandenen Canvas
+vollständig lesbar lokalisiert ist; keine erneute Prüfung der unteren Randglosse.
+
+Runde 2: IP002-Datenprüfung abgeschlossen und Status vor Bildzugriff korrigiert;
+ein neuer Vorschlag IP007 ergänzt. Schreibzuständigkeit an root zurückgegeben.

@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **840**
-- Experiment-associated tracked files: **15,744** (1.4 GiB)
+- Experiment-associated tracked files: **15,749** (1.4 GiB)
 - Structured GDT337+ experiments: **505**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT841 | Native star-centre reliability pilot | `REGISTERED_UNSCORED` | — | 11 | 12.4 KiB | 2 | STRUCTURED_YOLO |
+| GDT841 | GDT841_star_centre_result | `VISUAL_PILOT_CAPACITY_PASS` | [report](../experiments/yolo/gdt841_star_centre_visual_reliability/REPORT.md) | 16 | 19.6 KiB | 2 | STRUCTURED_YOLO |
 | GDT840 | GDT840_do_label_prose_result | `NO_ADDITIONAL_FORWARD_BASE` | [report](../experiments/yolo/gdt840_do_label_prose_discovery/REPORT.md) | 16 | 32.9 KiB | 2 | STRUCTURED_YOLO |
 | GDT839 | GDT839_boundary_conservation_result | `CAPACITY_STOP` | [report](../experiments/yolo/gdt839_boundary_conservation_screen/REPORT.md) | 17 | 1.3 MiB | 2 | STRUCTURED_YOLO |
 | GDT838 | GDT838_recoded_passage_capacity_result | `CAPACITY_STOP` | [report](../experiments/yolo/gdt838_recoded_passage_capacity/REPORT.md) | 17 | 44.0 KiB | 2 | STRUCTURED_YOLO |

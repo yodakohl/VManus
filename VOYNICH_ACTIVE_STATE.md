@@ -6,6 +6,16 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### GDT841 star-centre visual pilot (2026-09-06)
+
+Primary: `experiments/yolo/gdt841_star_centre_visual_reliability/REPORT.md`.
+Public4ed51a18 before current separate native judgments; fixed inner5stars on
+Yale1006201/admittedf70v. 4/5agreement:3pigmented,1outline; S4Auncertain/Bpigmented.
+VISUAL_PILOT_CAPACITY_PASS. One photograph, no text correlation, authorial
+binary-state assertion, original pigment absence, ownership or semantic value.
+Judgments not reconciled; source lock/replay and independent arithmetic pass.
+Only a broader visual pilot may be considered; no text score authorized here.
+
 ### ofaldo/ofal priority review (2026-09-06)
 
 `docs/visual_overview/OFAL_REVIEW.md`: root natively re-viewed admitted f88r,

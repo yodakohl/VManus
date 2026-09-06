@@ -3,12 +3,12 @@ Updated: 2026-09-06. Read first.
 
 ## Current mandate and effort limit
 
-Latest request: pipeline idea generation alongside current work.
-Producer maintains `docs/IDEA_BACKLOG.md`; root runs one selected task and
-resumes bounded queue replenishment during active turns. No background daemon.
-IP001 carried-star fill is at visual intake; reliable classes and label ownership
-remain unproved. `docs/visual_overview/STAR_FILL_PILOT.md`. No scored test yet.
-Closed ofal/do routes stay closed. Target whole small pass5min; no decoder repair.
+Latest request: continue with pipelined ideas. IP001/GDT841 visual pilot passes:
+4/5 agreement,3pigmented+1outline centres,1uncertain disagreement; one ring/photo.
+No text correlation, pigment-history inference or star-label ownership established.
+Producer maintains `docs/IDEA_BACKLOG.md`; IP002 needs visual admission,
+IP007 duplicates known f66r alignment. No unattended between-turn work.
+Next decision: broader predeclared visual panel, not word scoring or promotion.
 
 Goal: transferable translation. Confirmed English lexemes: **0**;
 confirmed German lexemes/clauses: **0**. No new fit or page admission selected.
@@ -16,14 +16,21 @@ GPU/subagents authorized; no other LLM API keys. No public decipherment-approach
 searches: the user says these are exhausted. Understand project history and
 manuscript appearance before fixing a route; use primary internal evidence.
 
-## Latest manuscript screen — GDT840
+## Latest visual pilot — GDT841
+
+`experiments/yolo/gdt841_star_centre_visual_reliability/REPORT.md`.
+Public4ed51a18 before separate native judgments on5fixed inner-ring stars,
+Yale1006201/admittedf70v. 4/5agree:3pigment,1outline; fifthAuncertain/Bpigment.
+VISUAL_PILOT_CAPACITY_PASS; only local appearance readability. Same photograph,
+not independent witnesses. No new image/selector, label query, score or meaning.
+Recorded judgments unchanged; source-lock and independent matrix arithmetic pass.
+
+## Previous manuscript screen — GDT840
 
 `experiments/yolo/gdt840_do_label_prose_discovery/REPORT.md`.
-Public41239f95 before guarded extraction. All179 admitted text selectors,
-raw singleton-L versus P, complete Xdo/X with at least2base atoms. Six cards,
-50saved reader-occurrences: only known ofal forward, sh reverse in each reader.
-NO_ADDITIONAL_FORWARD_BASE. Card reconstruction and byte replay pass; source
-extractor shared829. No new image admission, held evaluation, suffix or lexeme.
+Public41239f95;179selectors, raw singleton-L/P exactXdo/X. Only knownofal
+forward andshreverse ineachreader: NO_ADDITIONAL_FORWARD_BASE. No suffix/name.
+Sixcards/50records, source/card checks pass. This do generalization stays closed.
 
 ## Latest manuscript screens — GDT839 / GDT838
 
@@ -49,29 +56,14 @@ Wrong key beats oracle31589.171877nats;45/48 restarts sole suffix error,
 three have extras,none exact. Replay passes; score issue already known834.
 No manuscript reading. Supplied boundaries/capacities; no successor selected.
 
-## Primary predecessors — findings and limits remain unchanged
+## Earlier control claims remain unchanged
 
-- GDT836: integrated W constraint passes invented tests; fixed Questio control
-  stops because two held-active L rules have zero discovery support. No source
-  repair or historical fits. `experiments/yolo/gdt836_integrated_wholeword_precedence/REPORT.md`.
-- GDT835: retrospective candidate-own W priority accepts21 correct GDT834 maps,
-  rejects27 wrong maps. Wrong W cum coexists with composed cum15D/44H, violating
-  the mandatory encoder. No new fits, scores or rescued selections;
-  no full suffix inverse or optional Voynich abbreviation evidence.
-  `experiments/yolo/gdt835_wholeword_precedence_audit/REPORT.md`.
-- GDT834: role-blind mixed control fails. Both arms get6343/6511 held words,
-  98.6575% characters; all35 roles and24L/3S outputs exact.
-  W ut→quod and quod→cum cause168 held errors. Wrong key beats oracle3.50047nats;
-  21/48 saved restarts already correct,27 wrong. Supplied boundaries/capacities;
-  only67 observable role partitions.
-  `experiments/yolo/gdt834_role_blind_mixed_control/REPORT.md`.
-- GDT833: native-reference DVE control recovers all5519 held words/35 active values;
-  reference-only v→u loses all457 v words. Paired oracle reverses preference.
-  Known roles/boundaries; one split, no Voynich claim.
-  `experiments/yolo/gdt833_reference_orthography_intervention/REPORT.md`.
-- GDT832: context helps, recovery fails; added co-lemma factor gain0. Wrong-score
-  preference and v→z errors already known. Record via lookup.
-  `docs/joint_reading/PROPOSAL.md`: no full historical paradigm generator tested.
+Primary reports via `./vmanus-work lookup GDT836 GDT835 GDT834 GDT833 GDT832`.
+GDT836 Questio stops on two held-active rules without discovery support.
+GDT835 candidate-own wholeword priority rejects27wrong/accepts21correct834maps;
+full suffix inverse untested. GDT834 wrong score selects two wrong wholewords;
+GDT833 native reference succeeds on its known-role control. None supplies
+Voynich meaning or justifies automatic decoder repair. Full claims in active state.
 
 ## Visual understanding and earlier routes
 
