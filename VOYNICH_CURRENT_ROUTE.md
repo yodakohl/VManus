@@ -3,9 +3,9 @@ Updated: 2026-09-06. Read first.
 
 ## Current mandate and effort limit
 
-Mandate: at least10h work from2026-09-06 03:40:45UTC;
-not complete before13:40:45UTC unless user interrupts/changes the mandate.
-Active goal/session record: `docs/RESEARCH_SESSION_2026-09-06.md`.
+New mandate:10h from2026-09-06 16:41:44UTC to2026-09-07 02:41:44UTC unless interrupted.
+First curate semantic identity/failures/priorities; then select research.
+Session: `research_registry/decisions/semantic_identity_session.md`.
 
 GDT858:855/963primary808folds retained opposite-face training;169faces/90leaves.
 GDT865 whole-leaf correction retains both primary thresholds: nuisance macroAUC
@@ -50,7 +50,7 @@ manuscript appearance before fixing a route; use primary internal evidence.
 
 841–843 stopped; lookup for native star observations. No meaning or regrading.
 
-## Earlier screens and control
+## Earlier control
 
 837–840closed: primary reports via lookup; no control-decoder successor.
 No general boundary/cipher rejection.

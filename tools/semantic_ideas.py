@@ -12,6 +12,8 @@ ROOT=Path(__file__).resolve().parents[1]
 DIRECTORY='research_registry'
 DATA=DIRECTORY+'/semantic_ideas.jsonl'
 MANIFEST=DIRECTORY+'/SEMANTIC_IDEAS_MANIFEST.json'
+CORRECTIONS=DIRECTORY+'/semantic_claim_corrections.jsonl'
+ARCHIVE=DIRECTORY+'/semantic_ideas_excluded.jsonl'
 REVIEWS=[DIRECTORY+'/decisions/'+name for name in ['clean_proposal_review.json','clean_component_review.json','clean_ip_review.json','clean_historical_review.json']]
 EXTRA_REVIEWS=[DIRECTORY+'/decisions/'+name for name in ['clean_prereg_candidate_review.json','clean_report_proposals_review.json','clean_middle_sidequest_review.json','clean_late_sidequest_review.json','clean_root_early_review.json','clean_final_sidequest_review.json']]
 SEMANTIC_TYPES={'lexical_hypothesis','semantic_model','functional_hypothesis'}
@@ -22,6 +24,44 @@ TECHNICAL_ASSIGNMENT=re.compile(r'^(?:kind|status|verdict|decision|transferable|
 def canonical_claim(text):
     # Typography/whitespace only. Do not erase negation, alternative senses or word case.
     return ' '.join(text.replace('`','').split())
+
+def card_basis(card):
+    fields={k:card[k] for k in ('claim','claim_type','member_ids','evidence','cases')}
+    fields.update(card.get('source_original_assertion',{}))
+    return hashlib.sha256(registry.canonical(fields).encode()).hexdigest()
+
+def apply_corrections(rows,root,inputs,source_hashes):
+    path=root/CORRECTIONS
+    if not path.exists():return rows,[]
+    inputs[CORRECTIONS]=registry.digest(path)
+    by_id={r['id']:r for r in rows};histories={};seen=set()
+    for review in registry.read_jsonl(path):
+        target=review['target'];identifier=review['id']
+        if target not in by_id or identifier in seen:raise ValueError('invalid correction identity')
+        seen.add(identifier);history=histories.setdefault(target,[])
+        expected=history[-1]['id'] if history else None
+        if review.get('previous_revision')!=expected:raise ValueError('broken correction revision chain')
+        if review.get('action') not in ('archive_source_error','retain_as_hypothesis','restate_scope'):raise ValueError('invalid correction action')
+        if not review.get('reason','').strip():raise ValueError('correction needs source reasoning')
+        if any(not e.get('sha256') for e in review.get('evidence',[])):raise ValueError('correction evidence needs original hash')
+        validate_card(dict(by_id[target],evidence=review.get('evidence',[])),root)
+        for e in review['evidence']:source_hashes[e['path']]=registry.digest(registry.evidence_path(root,e['path']))
+        history.append(review)
+    active=[];archive=[]
+    for r in rows:
+        history=histories.get(r['id'],[])
+        if history:
+            if history[-1]['target_basis_sha256']!=card_basis(r):raise ValueError('changed corrected claim; explicit review required')
+            r['source_correction_history']=history
+            if history[-1]['action']=='restate_scope':
+                replacement=history[-1].get('replacement',{})
+                if set(replacement)!={'claim','claim_type'}:raise ValueError('scope restatement requires exactly claim and claim_type')
+                r['source_original_assertion']={k:r[k] for k in ('claim','claim_type')}
+                r.update(replacement);validate_card(r,root)
+        if history and history[-1]['action']=='archive_source_error':
+            r['original_status']=r['status'];r['status']='source_extraction_withdrawn';archive.append(r)
+        else:active.append(r)
+    return active,archive
 
 def validate_card(card,root=ROOT,source_ids=None):
     if card.get('claim_type') not in TYPES:raise ValueError('non-idea kind in clean cards')
@@ -102,13 +142,18 @@ def build(root=ROOT):
             item['cases'].append(case)
     rows=sorted(grouped.values(),key=lambda r:r['id'])
     for r in rows:validate_card(r,root,sources)
+    assertion_count=len(rows)
+    rows,archive=apply_corrections(rows,root,inputs,sources_hashes)
     registry.write_jsonl(root/DATA,rows)
+    registry.write_jsonl(root/ARCHIVE,archive)
     manifest={'schema_version':1,'status':'SOURCE_REVIEWED_CONCRETE_CLAIMS','cards':len(rows),
         'builder_sha256':registry.digest(Path(__file__)),
         'semantic_cards':sum(r['claim_type'] in SEMANTIC_TYPES for r in rows),
         'formal_role_cards':sum(r['claim_type']=='formal_role' for r in rows),
         'review_cards_before_exact_assertion_grouping':review_card_count,
-        'exact_assertion_repetitions_grouped':review_card_count-len(rows),
+        'exact_assertion_repetitions_grouped':review_card_count-assertion_count,
+        'archived_source_errors':len(archive),'archived_source_cases':sum(len(r['cases']) for r in archive),
+        'archive_sha256':registry.digest(root/ARCHIVE),
         'claim_types':dict(Counter(r['claim_type'] for r in rows)),
         'review_dispositions':disposition_counts,'reviewed_source_fragments':len(reviewed_sources),'input_sha256':inputs,
         'proposal_source_coverage':{'total':len(proposal_sources),'reviewed':len(proposal_sources & reviewed_sources),
@@ -125,6 +170,8 @@ def validate(root=ROOT):
     m=json.loads((root/MANIFEST).read_text())
     if registry.digest(Path(__file__))!=m['builder_sha256']:raise ValueError('changed clean idea builder; rebuild required')
     if registry.digest(root/DATA)!=m['data_sha256']:raise ValueError('changed clean idea snapshot')
+    if registry.digest(root/ARCHIVE)!=m['archive_sha256']:raise ValueError('changed source correction archive')
+    if (root/CORRECTIONS).exists() and CORRECTIONS not in m['input_sha256']:raise ValueError('new corrections; rebuild required')
     for path,sha in {**m['input_sha256'],**m['source_sha256']}.items():
         p=registry.evidence_path(root,path)
         if not p.is_file() or registry.digest(p)!=sha:raise ValueError('stale clean idea input: '+path)
@@ -190,7 +237,8 @@ def show(root,identifier,field=None,limit=3,offset=0):
     try:
         rows=con.execute('SELECT payload FROM ideas WHERE id=?',(identifier,)).fetchall()
         if not rows:
-            rows=[(registry.canonical(r),) for r in registry.read_jsonl(root/DATA)+local_cards(root) if identifier in r['review_ids']]
+            rows=[(registry.canonical(r),) for r in registry.read_jsonl(root/DATA)+local_cards(root)+registry.read_jsonl(root/ARCHIVE)
+                if identifier==r['id'] or identifier in r['review_ids']]
         if not rows:raise ValueError('unknown semantic idea ID')
         r=json.loads(rows[0][0])
     finally:con.close()

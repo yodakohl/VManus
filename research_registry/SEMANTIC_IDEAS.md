@@ -5,8 +5,8 @@ headings, experiment methods, result rows without a proposition and pending
 extraction work are excluded. Their original records remain in the source archive.
 This is curation of historical hypotheses, not decipherment progress.
 
-The public snapshot contains **3,013 concrete semantic hypothesis variants** and
-**399 separate formal-role cards**. It retains all **3,865 reviewed source cases**;
+The public snapshot contains **2,983 concrete semantic hypothesis variants** and
+**404 separate formal-role cards**. Active cards and the correction archive retain all **3,865 reviewed source cases**;
 **453 repetitions of identical normalized assertions** are grouped for display.
 All **5,370 proposal fragments**, **3,788 component excerpts** and **82 IP entries**
 have explicit dispositions. This is not a count of independently distinct theories.
@@ -60,3 +60,20 @@ Rebuild with `python -m tools.semantic_ideas --build` after a material source-re
 update; check with `python -m tools.semantic_ideas --check`. Rebuilding binds the
 reviewed statements, not new scientific conclusions. Preserve previous decisions
 and source cases when recording corrections; never erase a failure to reopen a route.
+
+## Source correction pass
+
+An append-only correction log, `semantic_claim_corrections.jsonl`, currently
+archives 25 source-extraction errors and restates five local occurrence-role
+summaries as formal roles. Numeric table ratios, denied constituent inferences
+and dispatch metadata had incorrectly entered the hypothesis list. Every original
+card, source case and exact quote remains in `semantic_ideas_excluded.jsonl` or
+in the restated card. `--show ID` retrieves archived cards as well. These are
+curation withdrawals, not scientific refutations. Actual proposed-and-rejected
+hypotheses remain active historical records.
+
+Correction revisions must name their predecessor and bind the original claim,
+cases and evidence. Changed source scope requires explicit review; a rebuild
+cannot silently renew an old decision. Independent semantic-equivalence reviews
+are in progress and are not yet applied to the default view. The source-polarity
+audit is bounded and does not establish error-free global extraction.

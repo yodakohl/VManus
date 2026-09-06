@@ -71,17 +71,65 @@ class SemanticIdeasTests(unittest.TestCase):
         for limit,offset in [(0,0),(21,0),(2,-1)]:
             with self.subTest(limit=limit,offset=offset),self.assertRaises(ValueError):ideas.show(self.root,'CARD1',field='evidence',limit=limit,offset=offset)
 
+    def corrected_fixture(self,action):
+        (self.root/'tools').mkdir(exist_ok=True)
+        (self.root/'tools/semantic_ideas.py').write_bytes(Path(ideas.__file__).read_bytes())
+        self.build([self.card()])
+        original=json.loads((self.root/ideas.DATA).read_text().splitlines()[0])
+        review=dict(id='REVISION1',target=original['id'],previous_revision=None,
+                    action=action,reason='Source-level interpretation correction, not a scientific result.',
+                    target_basis_sha256=ideas.card_basis(original),evidence=original['evidence'])
+        if action=='restate_scope':
+            review['replacement']={'claim':'This exact whole form has a proposed powder-related role.','claim_type':'formal_role'}
+        (self.root/ideas.CORRECTIONS).write_text(json.dumps(review)+'\n')
+        self.build([self.card()])
+        return original
+
+    def test_independent_audit_counts_archived_cases_without_scientific_rejection(self):
+        self.corrected_fixture('archive_source_error')
+        report=audit_actual(self.root)
+        self.assertEqual((report['cards'],report['archived_source_error_cards'],report['review_cases_preserved']),(0,1,1))
+        archived=json.loads((self.root/ideas.ARCHIVE).read_text())
+        archived['status']='scientifically_rejected'
+        (self.root/ideas.ARCHIVE).write_text(json.dumps(archived)+'\n')
+        import hashlib
+        manifest=json.loads((self.root/ideas.MANIFEST).read_text())
+        manifest['archive_sha256']=hashlib.sha256((self.root/ideas.ARCHIVE).read_bytes()).hexdigest()
+        (self.root/ideas.MANIFEST).write_text(json.dumps(manifest))
+        with self.assertRaises(AssertionError):audit_actual(self.root)
+
+    def test_independent_audit_scope_restatement_keeps_original_even_if_snapshot_rehashed(self):
+        original=self.corrected_fixture('restate_scope')
+        self.assertTrue(audit_actual(self.root)['original_assertions_and_case_fields_preserved'])
+        changed=json.loads((self.root/ideas.DATA).read_text())
+        self.assertEqual(changed['source_original_assertion']['claim'],original['claim'])
+        changed['source_original_assertion']['claim']='A silently different old meaning'
+        (self.root/ideas.DATA).write_text(json.dumps(changed)+'\n')
+        import hashlib
+        manifest=json.loads((self.root/ideas.MANIFEST).read_text())
+        manifest['data_sha256']=hashlib.sha256((self.root/ideas.DATA).read_bytes()).hexdigest()
+        (self.root/ideas.MANIFEST).write_text(json.dumps(manifest))
+        with self.assertRaises(AssertionError):audit_actual(self.root)
+
 def audit_actual(root):
     """Independent output/evidence preservation, not confirmation of claim meanings."""
     import hashlib,re
     from collections import Counter
+    root=root.resolve()
     data=root/'research_registry/semantic_ideas.jsonl'
     cards=[json.loads(x) for x in data.read_text().splitlines() if x]
     manifest=json.loads((root/'research_registry/SEMANTIC_IDEAS_MANIFEST.json').read_text())
+    archive_path=root/ideas.ARCHIVE
+    archived=[json.loads(x) for x in archive_path.read_text().splitlines() if x]
+    all_cards=cards+archived
+    assert len({c['id'] for c in all_cards})==len(all_cards)
+    assert len(archived)==manifest['archived_source_errors']
+    assert sum(len(c['cases']) for c in archived)==manifest['archived_source_cases']
+    assert hashlib.sha256(archive_path.read_bytes()).hexdigest()==manifest['archive_sha256']
     known={json.loads(x)['id'] for x in (root/'research_registry/semantic_inventory.jsonl').read_text().splitlines() if x}
     assert len({c['id'] for c in cards})==len(cards)==manifest['cards']
     texts={};cases=0
-    for c in cards:
+    for c in all_cards:
         assert c['claim_type'] in {'lexical_hypothesis','semantic_model','functional_hypothesis','formal_role'}
         assert isinstance(c['claim'],str) and c['claim'].strip() and c['ready'] is False
         assert c['member_ids'] and set(c['member_ids'])<=known
@@ -93,11 +141,70 @@ def audit_actual(root):
             if e['path'] not in texts:texts[e['path']]=path.read_text(encoding='utf-8-sig').splitlines()
             assert texts[e['path']][e['line']-1:e['line']-1+len(e['quote'].splitlines())]==e['quote'].splitlines()
             assert hashlib.sha256(path.read_bytes()).hexdigest()==e['sha256']
-    expected_cards=0;decisions={}
+    expected_cards=0;decisions={};originals={};links={}
     for relative in ideas.REVIEWS+[p for p in getattr(ideas,'EXTRA_REVIEWS',[]) if (root/p).exists()]:
         reviewed=json.loads((root/relative).read_text());expected_cards+=len(reviewed['cards'])
         decisions[relative]=len(reviewed.get('dispositions',[]))
+        for original in reviewed['cards']:
+            key=(relative,original['id']);assert key not in originals
+            originals[key]=original
+        for disposition in reviewed.get('dispositions',[]):
+            for target in disposition.get('card_ids',[]):
+                links.setdefault(target,set()).add(disposition['source_id'])
     assert cases==expected_cards==manifest['review_cards_before_exact_assertion_grouping']
+    actual_cases=[(case['review_file'],case['id']) for c in all_cards for case in c['cases']]
+    assert Counter(actual_cases)==Counter(originals.keys()), 'missing, repeated or invented source case'
+    corrections_path=root/ideas.CORRECTIONS
+    corrections=[json.loads(x) for x in corrections_path.read_text().splitlines() if x] if corrections_path.exists() else []
+    histories={};revision_ids=set()
+    for correction in corrections:
+        assert correction['id'] not in revision_ids;revision_ids.add(correction['id'])
+        history=histories.setdefault(correction['target'],[])
+        assert correction.get('previous_revision')==(history[-1]['id'] if history else None)
+        assert correction['action'] in ('archive_source_error','retain_as_hypothesis','restate_scope')
+        assert correction.get('reason','').strip() and correction.get('evidence')
+        for e in correction['evidence']:
+            path=Path(e['path']);assert not path.is_absolute() and '..' not in path.parts
+            source=root/path;assert source.resolve().is_relative_to(root)
+            raw=source.read_bytes();assert hashlib.sha256(raw).hexdigest()==e['sha256']
+            quote=e['quote'].splitlines();assert raw.decode('utf-8-sig').splitlines()[e['line']-1:e['line']-1+len(quote)]==quote
+        history.append(correction)
+    assert set(histories)<={c['id'] for c in all_cards}
+    archived_ids={c['id'] for c in archived}
+    for c in all_cards:
+        history=histories.get(c['id'],[])
+        assert c.get('source_correction_history',[])==history
+        original_claim=c.get('source_original_assertion',{'claim':c['claim'],'claim_type':c['claim_type']})
+        for case in c['cases']:
+            source=originals[(case['review_file'],case['id'])]
+            # Compare every original field, not just counts. Builder-added locators are separate.
+            for field,value in source.items():
+                if field in ('claim','evidence','ready','member_ids'):continue
+                assert case[field]==value, 'source case altered: '+field
+            assert set(case['member_ids'])==set(source['member_ids'])|links.get(source['id'],set())
+            normalize=lambda value:' '.join(value.replace('`','').split())
+            assert normalize(source['claim'])==normalize(original_claim['claim'])
+            assert source['claim_type']==original_claim['claim_type']
+            for e in source['evidence']:
+                assert any(all(bound.get(k)==v for k,v in e.items()) for bound in c['evidence'])
+        if history:
+            basis={k:c[k] for k in ('claim','claim_type','member_ids','evidence','cases')}
+            basis.update(original_claim)
+            canonical=json.dumps(basis,ensure_ascii=False,sort_keys=True,separators=(',',':'))
+            assert hashlib.sha256(canonical.encode()).hexdigest()==history[-1]['target_basis_sha256']
+            latest=history[-1]
+            if latest['action']=='restate_scope':
+                assert set(c['source_original_assertion'])=={'claim','claim_type'}
+                assert {k:c[k] for k in ('claim','claim_type')}==latest['replacement']
+            else:assert 'source_original_assertion' not in c
+            assert (c['id'] in archived_ids)==(latest['action']=='archive_source_error')
+        else:assert c['id'] not in archived_ids and 'source_original_assertion' not in c
+        # A source-extraction correction must never silently become a scientific rejection.
+        if c['id'] in archived_ids:
+            assert c['status']=='source_extraction_withdrawn' and c['original_status']=='unconfirmed'
+        else:assert c['status']=='unconfirmed'
+        assert c.get('verdict') not in ('refuted','rejected','model_failed','scientifically_rejected')
+
     for relative,sha in {**manifest['input_sha256'],**manifest['source_sha256']}.items():
         assert hashlib.sha256((root/relative).read_bytes()).hexdigest()==sha
     assert hashlib.sha256(data.read_bytes()).hexdigest()==manifest['data_sha256']
@@ -129,13 +236,15 @@ def audit_actual(root):
         found=observed[key]
         assert len(found)==len(set(found)) and set(found)==expected, key+' source disposition gap or overlap'
         coverage[key]=dict(expected=len(expected),dispositions=len(found),missing=0,overlap=0)
-    assert len(expected_proposals)==5370 and len(expected_components)==3788 and len(expected_ip)==82
     return dict(status='PASS',cards=len(cards),default_semantic_cards=public_semantic,local_overlay_semantic_cards=local_semantic,operational_default_cards=default['matched'],
         formal_role_cards=sum(c['claim_type']=='formal_role' for c in cards),review_cases_preserved=cases,
+        archived_source_error_cards=len(archived),archived_source_cases=sum(len(c['cases']) for c in archived),
+        correction_revisions_checked=len(corrections),original_assertions_and_case_fields_preserved=True,
+        source_corrections_are_not_scientific_rejections=True,
         member_ids_existing=True,exact_source_quotes_and_hashes=True,ready_entries=0,
         source_disposition_coverage=coverage,disposition_card_references_checked=references,
         accepted_item_types=dict(Counter(c['claim_type'] for c in cards)),disposition_rows_by_review=decisions,
-        synthetic_tests=9,validator_source='tests/test_semantic_ideas.py',
+        synthetic_tests=unittest.defaultTestLoader.loadTestsFromTestCase(SemanticIdeasTests).countTestCases(),validator_source='tests/test_semantic_ideas.py',
         input_sha256={'research_registry/semantic_ideas.jsonl':hashlib.sha256(data.read_bytes()).hexdigest(),
                       'tools/semantic_ideas.py':hashlib.sha256((root/'tools/semantic_ideas.py').read_bytes()).hexdigest()},
         limitation='Checks concrete-card schema, source evidence and case preservation. Does not independently establish every semantic classification, logical equivalence, historical meaning, truth, or scientific novelty.')

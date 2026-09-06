@@ -1,0 +1,717 @@
+{
+  "review_id": "identity_peer_review_a",
+  "reviewed_artifact": "research_registry/decisions/identity_batch_a.json",
+  "reviewed_sha256": "1d4fc5264299b96fb9130cf3f5fd235d986fc9ca37674b5f512515d1c8bca49e",
+  "review_scope": "All eleven proposed multi-member groups; full constituent SEM evidence cases checked for unit/sense mixtures. Also checked the five source-polarity exclusions. No original artifacts modified.",
+  "group_decisions": [
+    {
+      "group_id": "IDENTITY_A:9f37ccbc23b68db8",
+      "member_ids": [
+        "SEM:1a8e45ba3bdbe39bd055",
+        "SEM:dc483c2c9ce9fe6efcc1"
+      ],
+      "decision": "APPROVE",
+      "reason": "Both members are V60 exact AIIN-card rival entries meaning Vorgabe; the question mark and capitals express confidence/typography only. Neither selects a quantity, unit, prescription act or target operation.",
+      "recommended_action": "Apply this equivalence while preserving both rival-case assessments.",
+      "conditions": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R2_HISTORICAL_FUNCTION_WORD_COMPETITION_REPORT.md",
+          "line": 33,
+          "quote": "| AIIN | MASS? | Substantiv/Maßsigle | VORGABE?, MENGE? | KEEP | .58 | Keine Einheit oder Skala ist sichtbar; die breite Positionsmobilität passt ebenso zu einem bloßen Wertslot. |",
+          "sha256": "eae7d9225e61203f56f0a56100f70c813657819e06ca216390b917c515f69597"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 29,
+          "quote": "| AIIN | Maß | Parameter | Portion · Vorgabe | 9/11 | 0.78 | 0 |",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        }
+      ]
+    },
+    {
+      "group_id": "IDENTITY_A:cd3ad578e1c105a2",
+      "member_ids": [
+        "SEM:2592a167c12dd25f8d5c",
+        "SEM:35b4faded4afa4055614",
+        "SEM:57f1a048ef81f70ca78a"
+      ],
+      "decision": "DO_NOT_APPLY_WHOLE_SEM_UNION",
+      "reason": "SOLLMASS is not consistently a physical prescribed measure: SEM:35b4 contains quantity OR prescribed setting, a target value, and a quantity OR table value; SEM:57f1 is a standalone aiin card event. A core-only group caveat cannot remove these unit and meaning differences from the existing SEM payloads.",
+      "recommended_action": "Keep these SEM IDs separate. Split source cases by core/standalone-card unit and measure-versus-generic-setting sense before reconsidering a narrower union.",
+      "conditions": [],
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 6,
+          "line_end": 6,
+          "path": "experiments/yolo/sidequest_semantic_quantity_triad_four_hundred_eightieth/FOUR_HUNDRED_EIGHTIETH_REPORT.md",
+          "quote": "- **AIIN = SOLLMASS**: ein vorgeschriebener Mengen- oder Tabellenwert;",
+          "sha256": "1d682e6aa811aabc93ff2c04f2c06d8a83beb7adcd1df908fcafd25455bfb04c",
+          "source_id": "LEGACY_COMPONENT:938410617da148936af5",
+          "source_section": "Pass 480 — AIN, AIIN und IIN bilden drei verschiedene Mengenachsen",
+          "table_header": null
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 7,
+          "line_end": 7,
+          "path": "experiments/yolo/sidequest_semantic_quantity_ladder_eight_hundred_twenty_fifth/EIGHT_HUNDRED_TWENTY_FIFTH_REPORT.md",
+          "quote": "- `AIIN = SOLLMASS` — the prescribed value or setting to reach (39 events);",
+          "sha256": "b74732f59f1c45f2ed74050f58df1a353fc61e607601359d9a8118bab01012d0",
+          "source_id": "LEGACY_COMPONENT:d4e3a005fbf7579d9030",
+          "source_section": "Sidequest Pass 825: the four-level quantity ladder",
+          "table_header": null
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 3,
+          "line_end": 5,
+          "path": "experiments/yolo/sidequest_semantic_s_sample_eight_hundred_twelfth/EIGHT_HUNDRED_TWELFTH_REPORT.md",
+          "quote": "The singleton card `ches = CH+E+S` occurs at the small basin stations in f82r.\nThe next card is `aiin = SOLLMASS`, followed by a longer next item and measured\nsetting operations.",
+          "sha256": "4e0bf5f688dcc9f132f35871ad6a4e93ad920b14a8554200423c3dddd10597e3",
+          "source_id": "LEGACY_COMPONENT:27d7d99877dd8fe54a8c",
+          "source_section": "Sidequest Pass 812: S is a sample, not another portion",
+          "table_header": null
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 16,
+          "line_end": 16,
+          "path": "experiments/yolo/sidequest_semantic_workshop_macro_grammar/WORKSHOP_MACRO_GRAMMAR_REPORT.md",
+          "quote": "Von 173 exakten Prosakarten sind 41 in mindestens zwei der vier Dossiers zu Hause. Die häufigsten tragenden Werte bleiben kurz: `AIIN=Sollmaß`, `Y=dieser Posten`, `OL=fortsetzen`, `OT=Folge`, `AR=daraus`, `AL=dorthin`, `OR=Ansatz`, `CHED=umsetzen`, `OK=ansetzen`, `SHED=absetzen`, `CHK=wärmen`, `CKHE=seihen` und die gelernte ganze Endkarte als Schrittabschluss.",
+          "sha256": "cc08aa98064c0da76e2b994ab9c07c0dead9a0b7341432ae8b8195f219cca157",
+          "source_id": "LEGACY_COMPONENT:cdc84ff51a86594bfdb7",
+          "source_section": "Gemeinsamer Kern",
+          "table_header": null
+        }
+      ]
+    },
+    {
+      "group_id": "IDENTITY_A:26ce541646d73246",
+      "member_ids": [
+        "SEM:8d3434081a7f35464c3d",
+        "SEM:c04b2af734d133a04aaf",
+        "SEM:f92ede230a2c0d4ef2c5"
+      ],
+      "decision": "REQUIRES_CASE_LEVEL_SCOPE_CHECK",
+      "reason": "The passages share a prescribed-value theme, but the proposed representative combines target and reference into a new umbrella. Sollwert can be a value to reach; VORGABEWERT explicitly permits grade or position value. SEM:f92 also combines several core declarations with a surface-invariant daiin realization. The cited wording alone does not establish identical subject units and target/reference commitments across every case.",
+      "recommended_action": "Do not automatically union all three IDs. Preserve the bilingual/typographic correspondence as a candidate relation; establish the primitive identity and target/reference range per source case first.",
+      "conditions": [],
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 9,
+          "line_end": 9,
+          "path": "experiments/yolo/sidequest_semantic_y_aiin_y_context_two_hundred_twenty_third/TWO_HUNDRED_TWENTY_THIRD_REPORT.md",
+          "quote": "Die frühere Gleichmengenidee bleibt als lokale Nebenlesung bestehen, ist aber nicht mehr im Stamm `AIIN` versteckt. So bleibt das Wörterbuch kompositionell: `Y = dies`, `AIIN = Sollwert`, die symmetrische Konstruktion liefert Rückbezug oder Gleichbehandlung.",
+          "sha256": "29640f5f108afea3d054fe659884f504aeb26106ed91b3b2880c0ce42c31392f",
+          "source_id": "LEGACY_COMPONENT:742f1aac97080cf6d752",
+          "source_section": "Zweihundertdreiundzwanzigster Durchgang: Y–AIIN–Y konkret gelesen",
+          "table_header": null
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 50,
+          "line_end": 50,
+          "path": "experiments/yolo/sidequest_semantic_ten_page_register_bridge/TEN_PAGE_REGISTER_BRIDGE_REPORT.md",
+          "quote": "| `aiin` | VORGABEWERT | Sollmaß | Grad oder Platzwert |",
+          "sha256": "e08b787098c59969607cd7662b2cba83ba11cb7007589e9a6d38951a13d1d2c9",
+          "source_id": "LEGACY_COMPONENT:cf406773439a8e618534",
+          "source_section": "Die 22 gemeinsamen Werkstattkerne",
+          "table_header": "| sichtbarer Kern | gemeinsame Lesung | Prosa | Kreis-/Sternregister |"
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 6,
+          "line_end": 10,
+          "path": "experiments/yolo/sidequest_semantic_surface_invariant_dictionary_nine_hundred_sixty_sixth/PASS966_REPORT.md",
+          "quote": "**107 Formen** erscheinen sowohl als Prosakarte als auch als Bild-/Adresskarte\nund decken zusammen 814 Ereignisse. Ihre Rolle wechselt, ihre innere Lesung\nnicht: `daiin` bleibt `AIIN = SOLLWERT`, `chedy` bleibt `CHD+Y = UMSETZEN ·\nDIES`, `dy/chey/chy/y` bleiben Renderer derselben `Y = DIES`-Karte. Das Bild\nentscheidet nur, wessen Sollwert, Posten oder Ziel gemeint ist.",
+          "sha256": "23cf4d09d56e04514fc1a9d3d94783c937a68a2dc2aec5d79620b32a9de8c314",
+          "source_id": "LEGACY_COMPONENT:5f6345f3b1f0b806e86d",
+          "source_section": "Pass 966 — ein sichtbarer Typ, ein Kernwert",
+          "table_header": null
+        }
+      ]
+    },
+    {
+      "group_id": "IDENTITY_A:1a241a2b140278e0",
+      "member_ids": [
+        "SEM:021e44cf927409180be5",
+        "SEM:13fdcf59e10ff02c0e3d",
+        "SEM:15237e7eff7161f21779"
+      ],
+      "decision": "DO_NOT_APPLY_WHOLE_SEM_UNION",
+      "reason": "The selected quantity grammar defines a manageable separated piece and uses bare AIN as a complete one-portion formula. The multi-case PORTION card also preserves a Stoff-oder-Wertteil definition and a later statement that PORTION is only possible for plants/ingredients while an astronomical sector needs ANTEIL. Those local restrictions cannot be erased by calling all members the quantity core.",
+      "recommended_action": "Retain separately at SEM level; only merge source cases after distinguishing the standalone formula, material portion, and abstract value-share scope.",
+      "conditions": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_quantity_preparation/SELECTED_QUANTITY_PREPARATION_REPORT.md",
+          "line": 10,
+          "quote": "Die nächste kleine Grammatik lässt sich schließen. Drei ähnlich aussehende\nMengenformen haben jetzt drei verschiedene Aufgaben:\n\n```text\nAIN     TEIL / PORTION     das handhabbare abgeteilte Stück\nAIIN    MASS               die Vorschrift, wieviel genommen oder eingestellt wird\nIIN     GRAD / STUFE       der erreichte oder geforderte Arbeitszustand\n```",
+          "sha256": "1d742fb23f9b6c2b3f0333fa2181d7cd47e29e16e30e5503029cbff3abec7632"
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 5,
+          "line_end": 5,
+          "path": "experiments/yolo/sidequest_semantic_quantity_triad_four_hundred_eightieth/FOUR_HUNDRED_EIGHTIETH_REPORT.md",
+          "quote": "- **AIN = PORTION**: ein abgeteilter Stoff- oder Wertteil;",
+          "sha256": "1d682e6aa811aabc93ff2c04f2c06d8a83beb7adcd1df908fcafd25455bfb04c",
+          "source_id": "LEGACY_COMPONENT:d174238c39833c981261",
+          "source_section": "Pass 480 — AIN, AIIN und IIN bilden drei verschiedene Mengenachsen",
+          "table_header": null
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 16,
+          "line_end": 16,
+          "path": "experiments/yolo/sidequest_semantic_four_register_visual_core_check_one_thousand_nineteenth/PASS1019_REPORT.md",
+          "quote": "- `AIN = PORTION` ist für Pflanzen und Zutaten möglich, aber im Himmelsrad ist `ANTEIL` oder `Sektoranteil` die natürlichere gemeinsame Lesung.",
+          "sha256": "22d1d5692a29c908cc1bddf9e970eaa0424f4c684f541e4fb8f9f965ea37cf8c",
+          "source_id": "LEGACY_COMPONENT:57112b85fded021e9fb2",
+          "source_section": "Ergebnis",
+          "table_header": null
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 38,
+          "line_end": 38,
+          "path": "experiments/yolo/sidequest_semantic_quantity_preparation/SELECTED_QUANTITY_PREPARATION_REPORT.md",
+          "quote": "| `AIN` | eine Portion | 3 |",
+          "sha256": "1d742fb23f9b6c2b3f0333fa2181d7cd47e29e16e30e5503029cbff3abec7632",
+          "source_id": "LEGACY_COMPONENT:1edeab194ef3356a2fd8",
+          "source_section": "Die produktiven Reihen",
+          "table_header": "| Formel | Werkstattlesung | Vorkommen |"
+        },
+        {
+          "line": 58,
+          "path": "experiments/yolo/sidequest_semantic_paradigm_closure/SELECTED_PARADIGM_CLOSURE_REPORT.md",
+          "quote": "| `AIN` | abgegrenzte Portion | stark |",
+          "sha256": "0c051a5aca3a060eecd337ce1829faae4844489149d91e67e06d6c3921ae0ffe"
+        }
+      ]
+    },
+    {
+      "group_id": "IDENTITY_A:a8258034da263168",
+      "member_ids": [
+        "SEM:2b1ee25cb31249083c0e",
+        "SEM:d93c4c89468d01e5e7cc"
+      ],
+      "decision": "REQUIRES_CASE_LEVEL_SCOPE_CHECK",
+      "reason": "The identical Anteil wording is a real semantic overlap, but SEM:2b1e bundles GDT409 typed arguments, GDT464 suffix-package claims, and later abstract sector/entry shares. The R1 source defines concrete nuclei under its own longest-core segmentation, explicitly excluding general O/CH/K/Y primitives. Identity of the AIN unit across those schemes is not demonstrated by capitalization.",
+      "recommended_action": "Keep the full SEM IDs separate pending unit correspondence. Related-not-equivalent is the safe current edge; this is not a claim that the underlying meanings necessarily conflict.",
+      "conditions": [],
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 43,
+          "line_end": 47,
+          "path": "experiments/yolo/gdt464_residual_exact_package_bridge/REPORT.md",
+          "quote": "The suffix `ain` retains `AIN=ANTEIL` in all 53 running extensions (214 events,\n20 pages), and `y=POSTEN` is an exact recurrent card. GDT463 independently\npromoted held pharmaceutical `korainy=K+OR+AIN+Y`; the unchanged `AIN+Y`\npackage is factor-green when replayed on the celestial labels. It therefore\ngives:",
+          "sha256": "1ceca7302ec2833b9ebfdcc7cdd51afe64cf599a61b9a6341e4274af4b4479d9",
+          "source_id": "LEGACY_COMPONENT:392a48d77e2b302c5d82",
+          "source_section": "`ainy` is a two-card tail",
+          "table_header": null
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 5,
+          "line_end": 7,
+          "path": "experiments/yolo/sidequest_semantic_four_register_visual_core_check_one_thousand_nineteenth/BIO_ASTRO_REPORT.md",
+          "quote": "Ja. Auf f75r und f67r2 tragen die Bilder die breiten Kerne\n`AIIN=WERT`, `AIN=ANTEIL` und `OR=EINHEIT` besser als die alten\nUniversalwörter **MASS**, **PORTION** und **ANSATZ**.",
+          "sha256": "124308622449e8ac3170f4ec14ac238d8c25ae2e9fdf1a1a349c415f1234e3cd",
+          "source_id": "LEGACY_COMPONENT:256fd46c9c422cc3eb77",
+          "source_section": "Kurze Antwort",
+          "table_header": null
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 105,
+          "line_end": 106,
+          "path": "experiments/yolo/sidequest_semantic_stem_search/R1_SEMANTIC_MORPHEME_THEORY.md",
+          "quote": "- Geräte und Argumente: `CKH/KCH/FH/PH=Tuch/Filter/enger Lauf`,\n  `AL=Ziel`, `AIN=Anteil`, `AIIN=Maß`.",
+          "sha256": "62a407e4fd0527338b3bc6327f79661177f21bf1db68101d05db7d7f1a974c25",
+          "source_id": "LEGACY_COMPONENT:a3c92a01bf282b6ab81d",
+          "source_section": "Ausgewählte Wurzeln",
+          "table_header": null
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_stem_search/R1_SEMANTIC_MORPHEME_THEORY.md",
+          "line": 17,
+          "quote": "## Segmentierungsregel\n\n1. Von den sichtbaren Varianten einer exakten Karte wird der kürzeste Kern als\n   Ausgangspunkt genommen. Initiale Varianten wie `q-/s-/d-/t-/ch-` müssen\n   deshalb nicht jedes Mal neue Bedeutungen erzeugen.\n2. Längere, konkrete Kerne gewinnen vor kürzeren Überlappungen: `AIR` vor `AR`,\n   `LSH` vor `SHO`, `OT+CHO` vor einem zufälligen grenzüberschreitenden `TCH`.\n3. Ein bloßes Zeichenstück wird nicht allein wegen seines häufigen Auftretens\n   zum Morphem. Insbesondere werden `O`, `CH`, `K` und das allgemeine End-`Y`\n   verworfen.\n4. Jeder ausgewählte Stamm behält in jedem von ihm erfassten Wort denselben\n   konkreten Nukleus. Genauere Darreichungsart und sichtbarer Besitzer dürfen",
+          "sha256": "62a407e4fd0527338b3bc6327f79661177f21bf1db68101d05db7d7f1a974c25"
+        }
+      ]
+    },
+    {
+      "group_id": "IDENTITY_A:90f727366ec6b07e",
+      "member_ids": [
+        "SEM:1659676c07e492ee11f9",
+        "SEM:253a4d91cce662e83832",
+        "SEM:8ac27b4b3c87d6cd7c24",
+        "SEM:8ef9f1a7478330f05cc3",
+        "SEM:ae88ee579b23e7ce7650"
+      ],
+      "decision": "DO_NOT_APPLY_WHOLE_SEM_UNION",
+      "reason": "STUFE includes a current process stage, while the cross-register table includes condition or degree levels; ARBEITSSTUFE narrows this to work/process. GDT582 declares a specific inherited core within its fixed parser, whereas later source cases declare visible/productive IIN. The negated DAIN decomposition is not itself an IIN refutation, but it also cannot be the bridge proving full unit identity.",
+      "recommended_action": "Keep all five separate until scope-matched cases establish whether process phase, degree level and the different IIN formal units are actually the same proposition. Do not count shared word Stufe as sufficient.",
+      "conditions": [],
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 8,
+          "line_end": 8,
+          "path": "experiments/yolo/sidequest_semantic_quantity_ladder_eight_hundred_twenty_fifth/EIGHT_HUNDRED_TWENTY_FIFTH_REPORT.md",
+          "quote": "- `IIN = STUFE` — the current process stage (4 events).",
+          "sha256": "b74732f59f1c45f2ed74050f58df1a353fc61e607601359d9a8118bab01012d0",
+          "source_id": "LEGACY_COMPONENT:364a8be03db9275db20f",
+          "source_section": "Sidequest Pass 825: the four-level quantity ladder",
+          "table_header": null
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 53,
+          "line_end": 53,
+          "path": "experiments/yolo/sidequest_semantic_ten_page_register_bridge/TEN_PAGE_REGISTER_BRIDGE_REPORT.md",
+          "quote": "| `iin` | STUFE | Arbeitsstufe | Bedingungs- oder Gradstufe |",
+          "sha256": "e08b787098c59969607cd7662b2cba83ba11cb7007589e9a6d38951a13d1d2c9",
+          "source_id": "LEGACY_COMPONENT:4b5852fe9b450a6c3bcf",
+          "source_section": "Die 22 gemeinsamen Werkstattkerne",
+          "table_header": "| sichtbarer Kern | gemeinsame Lesung | Prosa | Kreis-/Sternregister |"
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 80,
+          "line_end": 84,
+          "path": "experiments/yolo/gdt582_concrete_stem_default_fill/REPORT.md",
+          "quote": "Die restlichen 21 Kerne sind kurze Stufen-, Form-, Adress- und Klassenkarten:\n`D_ADDR=Arbeitsstelle`, `IIN=Arbeitsstufe`, `CARRIER_Q=Neuansatz`,\n`DA=zweiter Durchgang`, `LOCAL_CHAR_F=Feinform` sowie benannte Nebenstellen\nund Varianten. Gerade `O`, `IIN`, `DA` und `D_ADDR` bleiben damit klein genug,\num bereits segmentierte Kompositionen wiederzuverwenden.",
+          "sha256": "19036c35d8aba35b3605fc9aa60b752584194bef4c01a570a5b701e1587d5adb",
+          "source_id": "LEGACY_COMPONENT:62b5c7599bb6ddcc8393",
+          "source_section": "Kompaktes Kernwörterbuch",
+          "table_header": null
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 129,
+          "line_end": 132,
+          "path": "experiments/yolo/sidequest_semantic_filtration_separation_completion/WORKSHOP_FILTRATION_REPORT.md",
+          "quote": "Sie bilden eine **gelernte Substitutionsklasse**, keine sichtbare Wortwurzel.\n`DAIN` wird insbesondere nicht zu `AIIN=Maß` oder `IIN=Stufe`. `CHEDAIN=eine\nPortion umsetzen`, `QOTEDAIIN=breites Gefäß` und `SHFYDAIIN=Stehzeit` bleiben\ndurch ihre exakten Karten getrennt.",
+          "sha256": "5ff712952a88928ba1f596a08a1951f11d9409e4182202585e07ce2d4b9ba77a",
+          "source_id": "LEGACY_COMPONENT:eef5325a379baf666dd6",
+          "source_section": "4. Tuchweg und mechanische Trennung",
+          "table_header": null
+        }
+      ]
+    },
+    {
+      "group_id": "IDENTITY_A:384850d65658bfed",
+      "member_ids": [
+        "SEM:28ffb3daf06bf4d4b2af",
+        "SEM:3dfe9566bbbe5e9aeeb6",
+        "SEM:480464180c10df400792",
+        "SEM:c0406cdc3a3a51320d46"
+      ],
+      "decision": "REQUIRES_NARROWER_PARTITION",
+      "reason": "Zielstufe and Sollstufe have a close target-state correspondence, but prescribed Grad does not by itself identify an ordinal process/table stage. The source quantity grammar explicitly allows reached OR required working states, and its local grade embodiments include softness and opening stage. Full identity requires retaining these distinctions rather than using target/reference wording as an umbrella.",
+      "recommended_action": "Keep prescribed Grad separate. The Zielstufe pair (SEM:3dfe9566bbbe5e9aeeb6, SEM:480464180c10df400792) is a plausible narrower merge because the thermal/vessel sources explicitly carry the same larger grammar; add Sollstufe only after checking its process/table range.",
+      "conditions": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_quantity_preparation/SELECTED_QUANTITY_PREPARATION_REPORT.md",
+          "line": 10,
+          "quote": "Die nächste kleine Grammatik lässt sich schließen. Drei ähnlich aussehende\nMengenformen haben jetzt drei verschiedene Aufgaben:\n\n```text\nAIN     TEIL / PORTION     das handhabbare abgeteilte Stück\nAIIN    MASS               die Vorschrift, wieviel genommen oder eingestellt wird\nIIN     GRAD / STUFE       der erreichte oder geforderte Arbeitszustand\n```",
+          "sha256": "1d742fb23f9b6c2b3f0333fa2181d7cd47e29e16e30e5503029cbff3abec7632"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_quantity_preparation/SELECTED_QUANTITY_PREPARATION_REPORT.md",
+          "line": 45,
+          "quote": "| `IIN` | vorgeschriebener Grad | 2 |",
+          "sha256": "1d742fb23f9b6c2b3f0333fa2181d7cd47e29e16e30e5503029cbff3abec7632"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_vessel_tool_station_completion/VESSEL_TOOL_STATION_REPORT.md",
+          "line": 120,
+          "quote": "Nur `DAIIIN` bleibt wirklich gradierbar, weil `IIN = Zielstufe` bereits in der\ngrößeren Grammatik arbeitet. Die Reihenfolge der Öffnungen kommt künftig aus\nder Satzfolge, nicht aus einer frei erfundenen Wortbedeutung.",
+          "sha256": "09c6dedcd2836d6f3ecce12880f2fcf5c38150e0910b81a6fe9ec98399c507ce"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_thermal_temporal_completion/SELECTED_THERMAL_TEMPORAL_REPORT.md",
+          "line": 23,
+          "quote": "| `IIN` | ZIELSTUFE | mit `K`: weiche Zielstufe; mit `DA`: zweite Öffnungsstufe |",
+          "sha256": "eb99d0fea0b322cf0ec1694f8b36021bdc8093b23b7e4fccd4d99c73c391d1a1"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_quantity_triad_four_hundred_eightieth/FOUR_HUNDRED_EIGHTIETH_REPORT.md",
+          "line": 7,
+          "quote": "- **IIN = SOLLSTUFE**: eine zu erreichende Prozess- oder Tabellenstufe.",
+          "sha256": "1d682e6aa811aabc93ff2c04f2c06d8a83beb7adcd1df908fcafd25455bfb04c"
+        }
+      ]
+    },
+    {
+      "group_id": "IDENTITY_A:fe62155ce4b437f0",
+      "member_ids": [
+        "SEM:1b421cbe8ec98b20e14b",
+        "SEM:2e716593e5633901fccf",
+        "SEM:b714b36369872346ab6b",
+        "SEM:c5dfc8133ef69ea12726",
+        "SEM:c6af65de32a76f264aac"
+      ],
+      "decision": "DO_NOT_APPLY_WHOLE_SEM_UNION",
+      "reason": "Current work carrier/current item are close referential paraphrases, but some members assert internal Y as a component (qokylddy; HO+AL+Y), while the H4 source explicitly counts Y=laufender Posten among shared exact cards. SEM:c6af also pools several dictionary versions. A current-referent-only caveat does not turn a complete card and a primitive into the same subject.",
+      "recommended_action": "Preserve the lexical resemblance but do not union all five SEM IDs. Separate exact-card cases from component hypotheses and retain any active/current versus merely deictic restrictions.",
+      "conditions": [],
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 3,
+              "text": "Status: konkrete kreative Arbeitstheorie fuer die festen zehn Sidequest-Seiten,"
+            }
+          ],
+          "line": 108,
+          "line_end": 111,
+          "path": "experiments/yolo/sidequest_semantic_component_completion/Y_CHY_REPORT.md",
+          "quote": "Die Kandidaten erscheinen am Anfang, in der Mitte und am Ende ihrer\nzusammenhaengenden Aussagen. Besonders `qokylddy` hat ein internes `Y` vor\neinem weiteren Abschlussrest. Das widerspricht `Y = Satz bleibt offen`, passt\naber zu `Y = der gegenwaertige Arbeitstraeger`.",
+          "sha256": "abbe73138d5ae2ff15b925ce69bf37ccc3a3b735836b3850dd81d8cf34db1b81",
+          "source_id": "LEGACY_COMPONENT:bd8a0c4f6bc2990f6f20",
+          "source_section": "2. `Y` steht nicht nur am offenen Satzrand",
+          "table_header": null
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 59,
+          "line_end": 60,
+          "path": "experiments/yolo/sidequest_semantic_herbal_material_action_completion/HERBAL_MATERIAL_ACTION_REPORT.md",
+          "quote": "Die Karte verbindet `HO=ZUTAT`, `AL=AN/ZU` und `Y=DIESER POSTEN`. Dadurch wird\nH5 kompositionell:",
+          "sha256": "4bab32aaea9178b8c7eeab98a17530c816e61f4f126806bec34d48851b7dd5b3",
+          "source_id": "LEGACY_COMPONENT:482826db9f744d185329",
+          "source_section": "`CHODALY`: nicht „Blütebeginn“, sondern `ZUTAT DORTHIN`",
+          "table_header": null
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 40,
+          "line_end": 41,
+          "path": "experiments/yolo/sidequest_semantic_h4_parallel_recipe_five_hundred_twenty_eighth/FIVE_HUNDRED_TWENTY_EIGHTH_REPORT.md",
+          "quote": "Außerdem teilen sie exakt die Karten `AIIN = Maß` und `Y = laufender Posten`.\nSie sind trotzdem keine Kopien voneinander:",
+          "sha256": "03d1bd13758e04086bc2675a8a0e8f4d53e4bbbea9f5b2e74e609cda9479dbcb",
+          "source_id": "LEGACY_COMPONENT:fc3c874f4340cabb7a97",
+          "source_section": "Vergleich mit H3/f11r",
+          "table_header": null
+        }
+      ]
+    },
+    {
+      "group_id": "IDENTITY_A:b03029fd7281df3b",
+      "member_ids": [
+        "SEM:59a560b9d7a88aff6ccb",
+        "SEM:bc1db78660c31182f06d"
+      ],
+      "decision": "DO_NOT_APPLY_WHOLE_SEM_UNION",
+      "reason": "SEM:59a560 combines abstract Y=DIES primitive declarations with a passage identifying Y=DIES as one of only two complete recipes across a comparison. The other ID is explicitly a compositional stem value in Y–AIIN–Y. Typography is identical, but full SEM units are mixed. The later noun revision remains a genuine alternative, not an excuse to merge.",
+      "recommended_action": "Split the whole-card/recipe and primitive source cases before joining the bare deictic declarations. Keep the two current SEM IDs separate in the meantime.",
+      "conditions": [],
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 8,
+          "line_end": 12,
+          "path": "experiments/yolo/sidequest_semantic_cross_owner_transfer_six_hundred_eighty_seventh/SIX_HUNDRED_EIGHTY_SEVENTH_REPORT.md",
+          "quote": "Sie berühren 79 der 83 Ereignisse. Dagegen sind nur zwei vollständige Rezepte\nin beiden Aufträgen identisch: `AIIN=MASS` und `Y=DIES`. Diese beiden decken\nsieben Ereignisse. 72 weitere Ereignisse kombinieren gemeinsame Wurzeln in\nverschiedenen owner-lokalen Rezepten; nur vier benutzen ausschließlich lokale\nWurzeln.",
+          "sha256": "4d791b6a3fce26a7499cec06108028ec6857632504bcd2419f095e93829086fc",
+          "source_id": "LEGACY_COMPONENT:e999f2265ad3b2ae0ef6",
+          "source_section": "Sidequest pass 687: Was überträgt sich wirklich?",
+          "table_header": null
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 9,
+          "line_end": 9,
+          "path": "experiments/yolo/sidequest_semantic_y_aiin_y_context_two_hundred_twenty_third/TWO_HUNDRED_TWENTY_THIRD_REPORT.md",
+          "quote": "Die frühere Gleichmengenidee bleibt als lokale Nebenlesung bestehen, ist aber nicht mehr im Stamm `AIIN` versteckt. So bleibt das Wörterbuch kompositionell: `Y = dies`, `AIIN = Sollwert`, die symmetrische Konstruktion liefert Rückbezug oder Gleichbehandlung.",
+          "sha256": "29640f5f108afea3d054fe659884f504aeb26106ed91b3b2880c0ce42c31392f",
+          "source_id": "LEGACY_COMPONENT:742f1aac97080cf6d752",
+          "source_section": "Zweihundertdreiundzwanzigster Durchgang: Y–AIIN–Y konkret gelesen",
+          "table_header": null
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 3,
+          "line_end": 4,
+          "path": "experiments/yolo/sidequest_semantic_eighth_workshop_grammar_eight_hundred_thirty_first/EIGHT_HUNDRED_THIRTY_FIRST_REPORT.md",
+          "quote": "The eighth edition replaces the abstract pronoun value `Y=DIES` with the noun\nalready used by the fluent edition:",
+          "sha256": "5a5c9d7d199194ad04d3debe186d08ac31c51c24b0ec8072f4f04da275cda385",
+          "source_id": "LEGACY_COMPONENT:1f4de755cef1e161bdb6",
+          "source_section": "Sidequest Pass 831: eighth compact workshop grammar",
+          "table_header": null
+        }
+      ]
+    },
+    {
+      "group_id": "IDENTITY_A:4b1bcb468f9f4797",
+      "member_ids": [
+        "SEM:34d42fba74c0b22e2dd1",
+        "SEM:401e5920467b7c0deb84"
+      ],
+      "decision": "DO_NOT_APPLY_WHOLE_SEM_UNION",
+      "reason": "One SEM bundles Y as a compositional argument across GDT414/415/561 and later dictionaries; the second explicitly names exact recurrent y as a card inside an AIN+Y package. GDT464 establishing that card does not prove every later Y component is the same unit. Bare POSTEN must also remain separate from current-item and DIES proposals.",
+      "recommended_action": "Do not apply the whole-ID union. Link as related pending a case-level primitive/card identity map; retain the source correction that POSTEN is a noun rather than the German posting verb.",
+      "conditions": [],
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 3,
+              "text": "Status:"
+            }
+          ],
+          "line": 38,
+          "line_end": 42,
+          "path": "experiments/yolo/gdt561_typed_state_card_composition_reader/REPORT.md",
+          "quote": "Die kurzen Kernwerte bleiben dieselben: etwa `CH=NEHMEN`, `SH=HALTEN`,\n`Y=POSTEN`, `AIIN=WERT`, `AL=ZIELORT`, `AR=AUSGANG`, `L=VERBINDUNG`,\n`E/EE/EEE=GRAD I/II/III`, `OT=DANACH`, `OL=FORTSETZEN` und\n`DY=ABSCHLIESSEN`. `HIER`, `VARIANTE` und `KLASSE` sind strukturelle Tags,\nnicht behauptete deutsche Wörter im Manuskript.",
+          "sha256": "6d370d4dfe53ca3ba5fc00061ae5abb26a80e5cf23d39fc4684ff83bd58491e6",
+          "source_id": "LEGACY_COMPONENT:c01b21e73d2b62afadc2",
+          "source_section": "Das Wörterbuch bleibt klein",
+          "table_header": null
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 43,
+          "line_end": 47,
+          "path": "experiments/yolo/gdt464_residual_exact_package_bridge/REPORT.md",
+          "quote": "The suffix `ain` retains `AIN=ANTEIL` in all 53 running extensions (214 events,\n20 pages), and `y=POSTEN` is an exact recurrent card. GDT463 independently\npromoted held pharmaceutical `korainy=K+OR+AIN+Y`; the unchanged `AIN+Y`\npackage is factor-green when replayed on the celestial labels. It therefore\ngives:",
+          "sha256": "1ceca7302ec2833b9ebfdcc7cdd51afe64cf599a61b9a6341e4274af4b4479d9",
+          "source_id": "LEGACY_COMPONENT:392a48d77e2b302c5d82",
+          "source_section": "`ainy` is a two-card tail",
+          "table_header": null
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 3,
+              "text": "Status: `PASS_ALL_159_HAVE_CANONICAL_PHRASES__Y_RESTORED_AS_ARGUMENT`"
+            }
+          ],
+          "line": 35,
+          "line_end": 40,
+          "path": "experiments/yolo/gdt538_final_159_phrase_consistency_edition/REPORT.md",
+          "quote": "Vier handgeschriebene Sonderphrasen hatten `Y=POSTEN` als deutsches Verb\n„posten“ verwendet: `aiicthy`, `chekchy`, `dairykodas` und `dalcheeeky`.\nUnser gemeinsames Modell führt Y jedoch durchgehend als Argumentslot. Die neue\nAusgabe stellt deshalb „Posten“ wieder als Nomen dar. Zum Beispiel wird\n`chekchy` nicht mehr „Nehmen, geben und posten“, sondern **„Den Posten nehmen\nund geben.“**",
+          "sha256": "c6fb17701b455aa9378082b64569268cf80a340631a2aea8e19505bbe6bd6a99",
+          "source_id": "LEGACY_COMPONENT:763ca0f29afa2fef1809",
+          "source_section": "Eine kleine, aber wichtige Korrektur",
+          "table_header": null
+        }
+      ]
+    },
+    {
+      "group_id": "IDENTITY_A:a74a5611c838b563",
+      "member_ids": [
+        "SEM:52dbb78d7645963491a5",
+        "SEM:a51f3290abc3f0e57c43",
+        "SEM:f77bd45d9cf83cddef64"
+      ],
+      "decision": "APPROVE_ATOMIC_WHOLE_FORM_IDENTITY",
+      "reason": "All three sources explicitly discuss the same whole qokaiin on the same fixed pages as working matrix/medium or liquid carrier. Their neighboring-word models differ, but those assumptions are not asserted by these three atomic qokaiin claims. No component stripping or specific substance identity is required for this equivalence.",
+      "recommended_action": "Apply only to these atomic whole-form claims and retain the differing rival-model context. WATER is a narrower substance hypothesis, never a synonym for generic medium. qokain and okaiin are different written forms.",
+      "conditions": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v3/CANDIDATE_V3_VISUAL_ADDRESS_TRANSLATION.md",
+          "line": 509,
+          "quote": "## Strongest alternative lexicon\n\nThe best rival is a **substance/process lexicon**:\n\n| form | rival reading |\n|---|---|\n| `qokaiin` | working matrix or liquid carrier |\n| L/O | contact/inclusion in that matrix |\n| AIIN | process exposure or quantity |\n| Y | generic material/item |\n| CTHY | processed/prepared condition |\n| closer | achieved local product/state |\n\nIt gives fluent medical-alchemical prose and explains why `qokaiin` can carry\nacross a line as continuous material. It loses because `qokaiin` is strongly\nfield-initial, has nine different right neighbors, has no singly owned liquid\nreferent, and occurs on pictured Herbal `f55v` where water is not shown. It\nalso makes the same content noun do the work that address structure already\nexplains. The rival wins if fixed-page visual ownership places `qokaiin`\nspecifically at liquid-bearing components and not at dry/solid or route-only\ncomponents.",
+          "sha256": "89fbc74d0510262b7b142f22d60f054018735e8fb9395440f78f6932016c7c12"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v3/V3_THEORY_SELECTION.md",
+          "line": 77,
+          "quote": "The adversarial model reads the same cards as a medium/process worksheet:\n\n```text\nqokaiin = working liquid or matrix\nL/O      = part/portion slot\nAIIN     = mix/apply/contact operation\nY        = current/same referent\nCTHY     = work/treat, possibly heat\n```\n\nIt explains the f82r boundary repetition as continuous material rather than a\ncatchword. It loses provisionally because qokaiin is strongly entry-biased,\nhas nine different right neighbors, and owns no independently identified\nliquid referent. Literal WATER remains only a `.24` subordinate hypothesis.\nThis rival wins if fixed-page ownership ties qokaiin specifically to liquid-\nbearing components and not to dry, solid or route-only contexts.",
+          "sha256": "9fd0ff502063c00ef596c08241ae14093282e50ee92b40963590a9bcae12f412"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_GLOBAL_LEXICON_COMPETITION.md",
+          "line": 100,
+          "quote": "### Model B — working-medium/process recipe\n\n| card/family | one role attempted globally |\n|---|---|\n| `qokaiin` | WORKING MEDIUM / liquid matrix |\n| L/O | COMBINE / IN-WITH process relation |\n| AIIN | DOSE / DEGREE of treatment |\n| Y | PORTION / station or treated item |\n| CTHY | TREATED / prepared process state |\n| terminal families | resulting preparation + process completion |",
+          "sha256": "45b87cb02b80c301c4573e58a3f3a1824249c071230fe5373a09c39d77bda4fd"
+        }
+      ]
+    }
+  ],
+  "source_exclusion_decisions": [
+    {
+      "target": "SEM:66d109cd5f4a21f129fd",
+      "decision": "APPROVE_SOURCE_POLARITY_EXCLUSION",
+      "reason": "The exact quoted clause forbids/denies this free assignment or limits it to a full cell. It does not present a positive lexical hypothesis or a universal empirical refutation.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_thermal_temporal_completion/R2_REPORT.md",
+          "line": 112,
+          "quote": "`IIN=GRAD` ist nicht `AIIN=ZEIT`. Die exakte AIIN-Karte `aiin|chaiin|daiin|saiin|taiin` bleibt in 20 Ereignissen **VORGESCHRIEBENES MASS**. Zwei gelernte Ganzkarten können AIIN dennoch lokal in einen zeit-/standähnlichen Fachnamen aufnehmen:",
+          "sha256": "3938eafaba2acf826e87f2e22a7ba993dcecf2a14a6e8b896ce405b20bdcab14"
+        }
+      ]
+    },
+    {
+      "target": "SEM:4836f02a3b17e7505eba",
+      "decision": "APPROVE_SOURCE_POLARITY_EXCLUSION",
+      "reason": "The exact quoted clause forbids/denies this free assignment or limits it to a full cell. It does not present a positive lexical hypothesis or a universal empirical refutation.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt725_v98_final_low_hardcap_dictionary_dispatch/REPORT.md",
+          "line": 33,
+          "quote": "Ein pauschales Kürzen aller Verben wäre hier falsch gewesen. `da` stammt aus\neiner elf Kontexte umfassenden Teilungs-/Dosisfunktion, `qy` aus vier\nEntnahme-/Referenzkontexten. `aiijy` und `ypchesy` sind zwar Einzelbelege, ihre\nGDT681-Ganzkarten sind aber ausdrücklich aktionslizenziert. Deshalb bleiben\ndie konkreten Verben im exakten Ganzwortdefault. Verboten bleibt nur der\nSchritt von diesen Ganzwörtern zu freien Werten wie `q = nehmen` oder\n`y = schließen`.",
+          "sha256": "c17950752bdaef469daad3c46d55bbee844d3a51e1cfa9fcee3e2124fe450631"
+        }
+      ]
+    },
+    {
+      "target": "SEM:5615927497524c00218e",
+      "decision": "APPROVE_SOURCE_POLARITY_EXCLUSION",
+      "reason": "The exact quoted clause forbids/denies this free assignment or limits it to a full cell. It does not present a positive lexical hypothesis or a universal empirical refutation.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt757_initial_formula_role_atlas/REPORT.md",
+          "line": 46,
+          "quote": "Das weist dem Unterschied **keine** freie Bedeutung wie `p=nimm` oder\n`y=ferner` zu. Es ist zunächst ein Paar gelernter Ganzformen. Trotzdem ist es\neine echte Vorhersage: An einer neuen zugelassenen Stelle sollte `pchor` eher\neinen Absatz eröffnen, `ychor` eher innerhalb eines Absatzes fortsetzen.",
+          "sha256": "564eb45ebf78278340bd973bf3c9f58956c9eb790d2ecf444760a2fcac1751c4"
+        }
+      ]
+    },
+    {
+      "target": "SEM:83d0ffcb62f84e87a96d",
+      "decision": "APPROVE_SOURCE_POLARITY_EXCLUSION",
+      "reason": "The exact quoted clause forbids/denies this free assignment or limits it to a full cell. It does not present a positive lexical hypothesis or a universal empirical refutation.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v44/V44_R3_TECHNICAL_NOTATION_STEM_THEORY.md",
+          "line": 221,
+          "quote": "Any future dictionary line like `ey = clear`, `ok = measure`, `l = liquid`, or\n`y = portion` is invalid unless it names the full licensed cell.  The complete\ncell can retain a concrete creative expansion; the bare surface substring\ncannot inherit it.",
+          "sha256": "b76bbac8226212b4f73d9851459249f60b2eaef883fa1ba258990e56e3283202"
+        }
+      ]
+    },
+    {
+      "target": "SEM:e9023262b3594803313e",
+      "decision": "APPROVE_SOURCE_POLARITY_EXCLUSION",
+      "reason": "The exact quoted clause forbids/denies this free assignment or limits it to a full cell. It does not present a positive lexical hypothesis or a universal empirical refutation.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_application_completion/SELECTED_APPLICATION_COMPLETION_REPORT.md",
+          "line": 76,
+          "quote": "Diese Karten teilen eine praktische Schublade, aber nicht notwendig eine\nsichtbare Wurzel. Insbesondere wird aus `CHOY=WASCHEN` weder `O=WASSER` noch\n`Y=WASSER`. Wasser ist die lokale H5-Ausführung.",
+          "sha256": "0dc5a20cabf4ef190522de94f7458a2dfbb3448d61a71d4617d2899e7015ed6d"
+        }
+      ]
+    }
+  ],
+  "global_limit": "A failed wholesale union is a curation finding, not evidence that either semantic hypothesis is false. Case-level equivalence may remain after the existing mixed SEM payload is split.",
+  "relation_note": "qokaiin WATER versus working medium is specialization only if both concern the same complete form and water is a literal material. A neighboring qokain water hypothesis cannot be specialized by deleting or adding a minim.",
+  "counts": {
+    "multi_member_groups_reviewed": 11,
+    "approved": 2,
+    "whole_sem_unions_not_approved": 9,
+    "source_exclusions_checked": 5
+  },
+  "validation": {
+    "status": "PASS",
+    "checks": [
+      "All eleven multi-member group IDs covered once.",
+      "Exact contiguous source quotes and current source hashes validated.",
+      "No original source/group file modified."
+    ]
+  }
+}

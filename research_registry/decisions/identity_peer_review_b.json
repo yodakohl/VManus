@@ -1,0 +1,806 @@
+{
+  "review_id": "IDENTITY_PEER_B",
+  "status": "complete_bounded_review",
+  "input": {
+    "path": "research_registry/decisions/identity_batch_b.json",
+    "sha256": "653f69e8ad61f8c1219084aa51c4306968a21060eb19ee6a209bae2d71ccf561"
+  },
+  "scope": "All twenty proposed multi-member B groups; claims and their cited source-defined units, not all source assessments or global lexical polarity. No automatic architecture-family equivalence.",
+  "group_reviews": [
+    {
+      "group_id": "IDENTITY_B:cthy_ready",
+      "decision": "approve",
+      "member_ids": [
+        "SEM:9463201c8ace50490712",
+        "SEM:9ddfeb4542378ec134ed",
+        "SEM:d28e2259195bd00aef86"
+      ],
+      "reason": "The three cited assignments concern the recurring registered CTHY whole card and the same readiness state. Bereitschaftskarte is not a command to prepare; the V60 text explicitly says Zustand, nicht Befehl. Earlier rejection of a uniform ready state remains assessment evidence, never semantic confirmation.",
+      "evidence": [
+        {
+          "line": 73,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "quote": "3. **CTHY — bereit.** Sechs von sieben Fällen stehen feldmittig, alle vor einem\n   Schluss. Lehrregel: Zustand, nicht Befehl. Widerspruch: Nur einmal folgt OR;\n   der eine offene Feldendfall trägt keine Zubereitungsfolge.",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba",
+          "member_id": "SEM:9463201c8ace50490712"
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 27,
+          "line_end": 27,
+          "path": "experiments/yolo/sidequest_theory_candidates_v52/V52_R2_HISTORICAL_FIELD_GRAMMAR_REPORT.md",
+          "quote": "Für die Klassifikation zählen als positive Host-/Rahmenwerte `OK=SET`, `OT=MARK`, `L=LINK`, `AL=AN?`, `OR=BEREITUNG?` und `CHEY=TEIL?`; `E` bleibt unbekannt. Positive exakte Ganzkarten sind `AIIN=MASS?`, `EY=KLAR?`, `OKY=VERWENDEN?`, `LCHE=ABLASSEN?`, `OKE=SPÜLEN?`, `CTHY=BEREIT?`, `OKEEY=WARM?` und `OLOR=ZUVOR?`; `CKHY` bleibt unbekannt. Die V49-Werte wurden nur zur Lokalisierung benutzt und dann durch die V50/V51-Auswahl ersetzt.",
+          "sha256": "bf73e7e5d1e122366809e198df7928f72e85583115dae7978a84968d4d373d39",
+          "source_id": "LEGACY_COMPONENT:26a15978710b00290a09",
+          "source_section": "Vollständiger Audit",
+          "table_header": null,
+          "member_id": "SEM:9ddfeb4542378ec134ed"
+        },
+        {
+          "line": 39,
+          "path": "experiments/yolo/sidequest_theory_candidates_v46/V46_CONSOLIDATED_STEM_CORRECTION.md",
+          "quote": "| `cthy` | Bereitschaftskarte | eine Karte |",
+          "sha256": "9abb8e356b726e671f8b99f2f0ea5b3551074133fd2f8f191f0f1ed96bf5ccad",
+          "member_id": "SEM:d28e2259195bd00aef86"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v46/V46_CONSOLIDATED_STEM_CORRECTION.md",
+          "line": 30,
+          "quote": "### Wiederkehrende Karten, aber keine Wortstämme\n\n| Host | lokale Kartenhypothese | Warum kein Stamm? |\n|---|---|---|\n| `aiin` | Maß-/Standardkarte | 20 Ereignisse, aber nur eine exakte Kartenart |\n| `ey` | Sollzustandskarte | 4 Ereignisse, eine exakte Karte; kein freies `-ey` |\n| `oky` | Verwendungskarte | eine Karte |\n| `lche` | Ablaufkarte | eine Karte |\n| `oke` | Spülkarte | eine Karte |\n| `cthy` | Bereitschaftskarte | eine Karte |\n| `okeey` | Temperierkarte | eine Karte |\n| `ckhy` | Verbindungswegkarte | eine Karte |\n| `olor` | Voransatz-Produktkarte | eine Karte |\n\nRekurrenz kann den Wert einer Ganzkarte interessant machen, demonstriert aber\nkeine produktive Stammvariation.",
+          "sha256": "9abb8e356b726e671f8b99f2f0ea5b3551074133fd2f8f191f0f1ed96bf5ccad"
+        }
+      ]
+    },
+    {
+      "group_id": "IDENTITY_B:cthy_finished",
+      "decision": "approve",
+      "member_ids": [
+        "SEM:14211cd150cd1cea1cff",
+        "SEM:e6b3be6b8a7b306dfa10"
+      ],
+      "reason": "The two V60 rows explicitly offer FERTIG as rival for the same whole-card deck. Case and uncertainty punctuation do not change the content. FERTIG remains separate from BEREIT and REIF.",
+      "evidence": [
+        {
+          "line": 31,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "quote": "| CTHY | bereit | Zustand | fertig · reif | 3/4 | 0.62 | 0 |",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba",
+          "member_id": "SEM:14211cd150cd1cea1cff"
+        },
+        {
+          "line": 27,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/CANDIDATE_V60_R4_CHANCERY_CORRECTOR.md",
+          "quote": "| CTHY | Zustand | `BEREIT?` | `FERTIG?` |",
+          "sha256": "913bede9f275b266efdbceb6836c822a7248a13528ea1b07362521ddb725507b",
+          "member_id": "SEM:e6b3be6b8a7b306dfa10"
+        }
+      ]
+    },
+    {
+      "group_id": "IDENTITY_B:cthy_leaf_drug",
+      "decision": "approve",
+      "member_ids": [
+        "SEM:c7d1494a671f2316e00c",
+        "SEM:edf9cb5ca78c9e588a41",
+        "SEM:d9d586ecbf77f8e96850",
+        "SEM:2e54c5efd4ef7c274e5b"
+      ],
+      "reason": "All four actual claims select leaf material/drug for complete written cthy. In GDT768 the broad portable column also permits aerial herb, but the source card being grouped explicitly extracts the narrower displayed default Blattgut. Do not extend identity to that whole disjunctive portable model or to normalized historical CTHY readiness.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 3,
+              "text": "Status:"
+            }
+          ],
+          "line": 117,
+          "line_end": 118,
+          "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/REPORT.md",
+          "quote": "Mit dem geerbten, separat begründeten Arbeitswert `cthy=Blattgut/Blattdroge`\nist die beste Lesung daher:",
+          "sha256": "ea39b855a34e2a6c560bd5f68794dd4b0e52f9d79c5aeac23579f3f7f900a0d5",
+          "source_id": "LEGACY_COMPONENT:3ac0d51f5fdcbb3416c5",
+          "source_section": "`cthy` und `chor`: zwei Pflanzenteilposten, nicht dasselbe Wort",
+          "table_header": null,
+          "member_id": "SEM:c7d1494a671f2316e00c"
+        },
+        {
+          "line": 27,
+          "path": "experiments/yolo/gdt758_ychor_follower_global_content_census/REPORT.md",
+          "quote": "| `cthy` | Blattgut / Blattdroge | C2 | 83/85 Herbal im aktuellen Cache; GDT625-Bild-/Partkontrast | oberirdisches Kraut; Pflanzenteil |",
+          "sha256": "40b91f3d147ea7ae9b3c2a9e2380b2ca697e3b5ac78f91278f24db6eba54805e",
+          "member_id": "SEM:edf9cb5ca78c9e588a41"
+        },
+        {
+          "line": 15,
+          "path": "experiments/yolo/gdt758_ychor_follower_global_content_census/PREREGISTRATION.md",
+          "quote": "| `cthy` | leaf drug | aerial herb; unspecified plant part |",
+          "sha256": "162f5cb85cdd53d6eb432a93bff50ecaa5051aa5b4a073c1404332a19b879e19",
+          "member_id": "SEM:d9d586ecbf77f8e96850"
+        },
+        {
+          "line": 41,
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/REPORT.md",
+          "quote": "| `cthy` | leaf material or aerial herb drug | Blattgut | oberirdisches Kraut |",
+          "sha256": "bf02e42ce7b03daf319eca7d9d572ccd45ac9d87212530fe8ed46e44e1aa2b7e",
+          "member_id": "SEM:2e54c5efd4ef7c274e5b"
+        },
+        {
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/REPORT.md",
+          "line": 35,
+          "quote": "The six anchor defaults used by the renderer are:\n\n| complete EVA form | portable reading | displayed concrete default | main rival |\n|---|---|---|---|\n| `chor` | non-leaf plant-part item; reproductive role possible | Blütenstand | Samen- oder Fruchtstand |\n| `shor` | reproductive plant-part item; organ open | Fruchtstand | Blütenstand |\n| `cthy` | leaf material or aerial herb drug | Blattgut | oberirdisches Kraut |\n| `dair` | measured fraction/portion, level II | Anteil II | local Herbal root-part rival |\n| `kooiin` | underground/rootstock drug head | thick or creeping root drug | general Herbal class head |",
+          "sha256": "bf02e42ce7b03daf319eca7d9d572ccd45ac9d87212530fe8ed46e44e1aa2b7e"
+        }
+      ]
+    },
+    {
+      "group_id": "IDENTITY_B:chor_leaves",
+      "decision": "approve",
+      "member_ids": [
+        "SEM:a8e21f569f14bb3b4a46",
+        "SEM:dedccc5aecbe1a19e036"
+      ],
+      "reason": "Both cards assert the complete written chor as leaves, not a component or an entire paragraph model. GDT756 states the candidate as a conditional trial; GDT816 tries it in two models. Neither source establishes leaves independently, but their authored lexical candidate is identical.",
+      "evidence": [
+        {
+          "line": 15,
+          "path": "experiments/yolo/gdt816_paragraph_content_models/REPORT.md",
+          "quote": "| chor | Blätter? | Blätter? |",
+          "sha256": "74119c1116d8dfe06133fac4ae4a1a9b91f1beb0af159dfe0e4ab48a5676b214",
+          "member_id": "SEM:a8e21f569f14bb3b4a46"
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 3,
+              "text": "Status: `PARTIAL__YCHOR_ITEM_LEAD__13_OF13_LINE_INITIAL_0_OF13_PARAGRAPH_INITIAL__4_OF13_RECIPE_TRIADS_VS22_OF247_MATCHED__RANK4_OF113_INITIAL_FRAME_FORMS__71_OF71_BODY_TOKENS_CANDIDATE_RENDERED__53_BODY_WHOLES__ZERO_CONFIRMED_LEXEMES__NO_NEW_PAGE`"
+            }
+          ],
+          "line": 127,
+          "line_end": 131,
+          "path": "experiments/yolo/gdt756_ychor_line_frame_content_slots/REPORT.md",
+          "quote": "2. Die elf direkten `ychor`-Folger werden an allen ihren Vorkommen geprüft.\n   Wenn `chor=Blätter`, `cthy=Wurzel` oder `s=Samen` brauchbar ist, muss die\n   jeweilige Ganzform außerhalb dieser dreizehn Linien weiterhin überwiegend\n   einen konkreten Pflanzen-/Zutatenslot tragen. Schlechtere Kandidaten werden\n   nicht gelöscht, sondern durch den besseren Rivalen ersetzt.",
+          "sha256": "213dde6e8bf39a95ab785978752a5685c192011e29b2ce4cab243e7380ca4f75",
+          "source_id": "LEGACY_COMPONENT:549db8b5828cd266c1a7",
+          "source_section": "Nächster Schritt",
+          "table_header": null,
+          "member_id": "SEM:dedccc5aecbe1a19e036"
+        }
+      ]
+    },
+    {
+      "group_id": "IDENTITY_B:chor_possible_reproductive",
+      "decision": "approve",
+      "member_ids": [
+        "SEM:850173118f1f738080da",
+        "SEM:d4ca2d663ce5f17700bf"
+      ],
+      "reason": "The same GDT758 report/preregistration gives a tentative reproductive-part candidate with flower/seed head unresolved. The extraction possibly versus probably changes expressed confidence, not the candidate denotation. Neither is identical to a definite flower-only assignment.",
+      "evidence": [
+        {
+          "line": 25,
+          "path": "experiments/yolo/gdt758_ychor_follower_global_content_census/REPORT.md",
+          "quote": "| `chor` | Pflanzenteil, wahrscheinlich Blüten-/Samenstand | C1 | zwei replizierte `chor chol daiin`-Partklauseln; 141/176 Herbal | unspezifisches Pflanzenteil; Trockenheitsmarker |",
+          "sha256": "40b91f3d147ea7ae9b3c2a9e2380b2ca697e3b5ac78f91278f24db6eba54805e",
+          "member_id": "SEM:850173118f1f738080da"
+        },
+        {
+          "line": 13,
+          "path": "experiments/yolo/gdt758_ychor_follower_global_content_census/PREREGISTRATION.md",
+          "quote": "| `chor` | Pflanzenteil, probably flower/seed head | unspecified plant part; dry/state marker |",
+          "sha256": "162f5cb85cdd53d6eb432a93bff50ecaa5051aa5b4a073c1404332a19b879e19",
+          "member_id": "SEM:d4ca2d663ce5f17700bf"
+        }
+      ]
+    },
+    {
+      "group_id": "IDENTITY_B:oke_rinse",
+      "decision": "reject_full_proposition_equivalence",
+      "member_ids": [
+        "SEM:08bf7e0793a6642191e8",
+        "SEM:999bee6c6e8815568351",
+        "SEM:318c57c468841a076b97",
+        "SEM:b0807664b50813902535"
+      ],
+      "reason": "REJECT full group: SEM:318c57c468841a076b97 expressly includes SPÜLEN plus the named WASCHEN and REINIGEN rivals. The other cards assert only the rinsing value. A shared positive clause is insufficient for full-card identity. The remaining three simple SPÜLEN assignments can form a subgroup under the exact-card contract.",
+      "evidence": [
+        {
+          "line": 38,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "quote": "| OKE | spülen | Verb | reinigen · beenden | 0/8 | 0.35 | 0 |",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba",
+          "member_id": "SEM:08bf7e0793a6642191e8"
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 27,
+          "line_end": 27,
+          "path": "experiments/yolo/sidequest_theory_candidates_v52/V52_R2_HISTORICAL_FIELD_GRAMMAR_REPORT.md",
+          "quote": "Für die Klassifikation zählen als positive Host-/Rahmenwerte `OK=SET`, `OT=MARK`, `L=LINK`, `AL=AN?`, `OR=BEREITUNG?` und `CHEY=TEIL?`; `E` bleibt unbekannt. Positive exakte Ganzkarten sind `AIIN=MASS?`, `EY=KLAR?`, `OKY=VERWENDEN?`, `LCHE=ABLASSEN?`, `OKE=SPÜLEN?`, `CTHY=BEREIT?`, `OKEEY=WARM?` und `OLOR=ZUVOR?`; `CKHY` bleibt unbekannt. Die V49-Werte wurden nur zur Lokalisierung benutzt und dann durch die V50/V51-Auswahl ersetzt.",
+          "sha256": "bf73e7e5d1e122366809e198df7928f72e85583115dae7978a84968d4d373d39",
+          "source_id": "LEGACY_COMPONENT:26a15978710b00290a09",
+          "source_section": "Vollständiger Audit",
+          "table_header": null,
+          "member_id": "SEM:999bee6c6e8815568351"
+        },
+        {
+          "line": 19,
+          "path": "experiments/yolo/sidequest_theory_candidates_v51/V51_R2_HISTORICAL_WHOLE_CARD_REPORT.md",
+          "quote": "| `OKE` | `7db18b2f` | 8 | f81v 3; f83r 5 | SPÜLEN | **SPÜLEN** | WASCHEN; REINIGEN | low-medium |",
+          "sha256": "3ed4b18c9f789dbf493342a53cc56173a644594967c42df92d02d478a326c0a5",
+          "member_id": "SEM:318c57c468841a076b97"
+        },
+        {
+          "line": 38,
+          "path": "experiments/yolo/sidequest_theory_candidates_v46/V46_CONSOLIDATED_STEM_CORRECTION.md",
+          "quote": "| `oke` | Spülkarte | eine Karte |",
+          "sha256": "9abb8e356b726e671f8b99f2f0ea5b3551074133fd2f8f191f0f1ed96bf5ccad",
+          "member_id": "SEM:b0807664b50813902535"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v46/V46_CONSOLIDATED_STEM_CORRECTION.md",
+          "line": 30,
+          "quote": "### Wiederkehrende Karten, aber keine Wortstämme\n\n| Host | lokale Kartenhypothese | Warum kein Stamm? |\n|---|---|---|\n| `aiin` | Maß-/Standardkarte | 20 Ereignisse, aber nur eine exakte Kartenart |\n| `ey` | Sollzustandskarte | 4 Ereignisse, eine exakte Karte; kein freies `-ey` |\n| `oky` | Verwendungskarte | eine Karte |\n| `lche` | Ablaufkarte | eine Karte |\n| `oke` | Spülkarte | eine Karte |\n| `cthy` | Bereitschaftskarte | eine Karte |\n| `okeey` | Temperierkarte | eine Karte |\n| `ckhy` | Verbindungswegkarte | eine Karte |\n| `olor` | Voransatz-Produktkarte | eine Karte |\n\nRekurrenz kann den Wert einer Ganzkarte interessant machen, demonstriert aber\nkeine produktive Stammvariation.",
+          "sha256": "9abb8e356b726e671f8b99f2f0ea5b3551074133fd2f8f191f0f1ed96bf5ccad"
+        }
+      ],
+      "approved_subgroup_member_ids": [
+        "SEM:08bf7e0793a6642191e8",
+        "SEM:999bee6c6e8815568351",
+        "SEM:b0807664b50813902535"
+      ],
+      "retained_composite_member_ids": [
+        "SEM:318c57c468841a076b97"
+      ]
+    },
+    {
+      "group_id": "IDENTITY_B:oke_clean",
+      "decision": "approve",
+      "member_ids": [
+        "SEM:256725a0de1610028db0",
+        "SEM:576377a578ed4b287af8"
+      ],
+      "reason": "Both V60 tables offer REINIGEN for the same complete OKE tuple, with no separate degree, object, or imperative endpoint added. Distinct from SPÜLEN and from free EVA substring oke.",
+      "evidence": [
+        {
+          "line": 38,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "quote": "| OKE | spülen | Verb | reinigen · beenden | 0/8 | 0.35 | 0 |",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba",
+          "member_id": "SEM:256725a0de1610028db0"
+        },
+        {
+          "line": 30,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R3_TECHNICAL_EXACT_CARD_REPORT.md",
+          "quote": "| OKE | 8 | `SPÜLEN?` | `REINIGEN?`, `UMWÄLZEN?` | Spülaktion; markiere gespült, dann formaler Commit | Alle acht Belege sind terminal; Semantik ist nicht von `CLOSE` isolierbar | 0,46 |",
+          "sha256": "6f943caad4300b135b8efd096c79c16deeaa49bff5cb323dc29d513c3793842d",
+          "member_id": "SEM:576377a578ed4b287af8"
+        }
+      ]
+    },
+    {
+      "group_id": "IDENTITY_B:okeey_lukewarm",
+      "decision": "reject_full_proposition_equivalence",
+      "member_ids": [
+        "SEM:31fd25d0bdce9a8d12ed",
+        "SEM:3c0106e86e80d0de729c",
+        "SEM:6e3bcd3e951240709e30",
+        "SEM:b64b647868bd7ce93364",
+        "SEM:997b8895111859d85448"
+      ],
+      "reason": "REJECT full group: SEM:997b8895111859d85448 includes LAU plus explicit WARM and MÄSSIG rivals; simple LAUWARM cards lack that full assertion. Source explicitly uses LAU as shortened moderate-temperature mnemonic, so its positive clause is related, but the compound card cannot be merged wholesale. Remaining four simple LAUWARM assignments are equivalent at registered-card scope.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 67,
+          "line_end": 69,
+          "path": "experiments/yolo/sidequest_theory_candidates_v49/V49_R1_ATOMIC_MINIMAL_LEXICON_REPORT.md",
+          "quote": "Diese Namen sind Merkzettel für jeweils **einen exakten Kartentyp**. Aus\n`okeey = LAUWARM` folgt weder `ok + e + ey` noch `ey = warm`. Aus\n`olor = VORHERIGES` folgt keine Zerlegung in `ol + or`.",
+          "sha256": "16b314937037fd559cc887d7f51cbcd0b0bc4c009bbe0ff82f74168af211c78d",
+          "source_id": "LEGACY_COMPONENT:d3a0242f32d3a15b1ecf",
+          "source_section": "Wiederkehrende exakte Ganzkarten",
+          "table_header": null,
+          "member_id": "SEM:31fd25d0bdce9a8d12ed"
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 168,
+          "line_end": 169,
+          "path": "experiments/yolo/sidequest_theory_candidates_v54/V54_R2_HISTORICAL_BIOLOGICAL_REPORT.md",
+          "quote": "- `EY=FERTIG` wird `KLAR?`, `OKEEY=LAUWARM` wird `WARM?`, `OKY=NUTZEN` wird\n  `VERWENDEN?`, `CHEY=ANTEIL` wird `TEIL?`.",
+          "sha256": "6c28cb1ebc37d9f59e87f981b72eda1ef23e7d00e19702dfd10531904f9a43f1",
+          "source_id": "LEGACY_COMPONENT:5ca6b8e4fe709e6f2499",
+          "source_section": "Revision gegenüber V42 und V49",
+          "table_header": null,
+          "member_id": "SEM:3c0106e86e80d0de729c"
+        },
+        {
+          "line": 37,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "quote": "| OKEEY | lauwarm | Zustand | warm · temperiert | 0/7 | 0.58 | 1 Karte + 7 Events |",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba",
+          "member_id": "SEM:6e3bcd3e951240709e30"
+        },
+        {
+          "line": 41,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R2_HISTORICAL_FUNCTION_WORD_COMPETITION_REPORT.md",
+          "quote": "| OKEEY | WARM? | Temperaturadjektiv | LAUWARM?, ERWÄRMEN? | KEEP | .52 | Nur Bio-Belege und kein unabhängiges Temperaturzeichen; technische Prozesslesungen bleiben möglich. |",
+          "sha256": "eae7d9225e61203f56f0a56100f70c813657819e06ca216390b917c515f69597",
+          "member_id": "SEM:b64b647868bd7ce93364"
+        },
+        {
+          "line": 21,
+          "path": "experiments/yolo/sidequest_theory_candidates_v51/V51_R2_HISTORICAL_WHOLE_CARD_REPORT.md",
+          "quote": "| `OKEEY` | `0275fbf1` | 7 | f81v 1; f82r 3; f83r 3 | LAUWARM | **LAU** | WARM; MÄSSIG | medium |",
+          "sha256": "3ed4b18c9f789dbf493342a53cc56173a644594967c42df92d02d478a326c0a5",
+          "member_id": "SEM:997b8895111859d85448"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v51/V51_R2_HISTORICAL_WHOLE_CARD_REPORT.md",
+          "line": 79,
+          "quote": "### `OKEEY` → LAU\n\nSeven occurrences often cluster with warming, tempering, bathing, rinsing, or immersion. A whole temperature-state sign is historically compact, and **LAU** is the smallest normalized German mnemonic with direct late-medieval support.\n\nThe strongest contradiction is f83r.20, where the card follows binding at the site without an explicit heat or liquid cue; f82r.3 also begins a record before straining. `WARM` fits the broad temperature class but loses the moderate-temperature distinction; `MÄSSIG` is too general. Replacing `LAUWARM` with **LAU** reduces semantic load but does not remove the contextual exception.",
+          "sha256": "3ed4b18c9f789dbf493342a53cc56173a644594967c42df92d02d478a326c0a5"
+        }
+      ],
+      "approved_subgroup_member_ids": [
+        "SEM:31fd25d0bdce9a8d12ed",
+        "SEM:3c0106e86e80d0de729c",
+        "SEM:6e3bcd3e951240709e30",
+        "SEM:b64b647868bd7ce93364"
+      ],
+      "retained_composite_member_ids": [
+        "SEM:997b8895111859d85448"
+      ]
+    },
+    {
+      "group_id": "IDENTITY_B:okeey_warm",
+      "decision": "approve",
+      "member_ids": [
+        "SEM:5ec8e7297f45ed3ad962",
+        "SEM:b0a35da34d3b894ab7b6"
+      ],
+      "reason": "The two claims name the same unqualified warm temperature state in the registered seven-event OKEEY deck. Neither means WÄRMEN action, LAUWARM exact moderate state, or literal unrestricted okeey across all contexts.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 27,
+          "line_end": 27,
+          "path": "experiments/yolo/sidequest_theory_candidates_v52/V52_R2_HISTORICAL_FIELD_GRAMMAR_REPORT.md",
+          "quote": "Für die Klassifikation zählen als positive Host-/Rahmenwerte `OK=SET`, `OT=MARK`, `L=LINK`, `AL=AN?`, `OR=BEREITUNG?` und `CHEY=TEIL?`; `E` bleibt unbekannt. Positive exakte Ganzkarten sind `AIIN=MASS?`, `EY=KLAR?`, `OKY=VERWENDEN?`, `LCHE=ABLASSEN?`, `OKE=SPÜLEN?`, `CTHY=BEREIT?`, `OKEEY=WARM?` und `OLOR=ZUVOR?`; `CKHY` bleibt unbekannt. Die V49-Werte wurden nur zur Lokalisierung benutzt und dann durch die V50/V51-Auswahl ersetzt.",
+          "sha256": "bf73e7e5d1e122366809e198df7928f72e85583115dae7978a84968d4d373d39",
+          "source_id": "LEGACY_COMPONENT:26a15978710b00290a09",
+          "source_section": "Vollständiger Audit",
+          "table_header": null,
+          "member_id": "SEM:5ec8e7297f45ed3ad962"
+        },
+        {
+          "line": 37,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "quote": "| OKEEY | lauwarm | Zustand | warm · temperiert | 0/7 | 0.58 | 1 Karte + 7 Events |",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba",
+          "member_id": "SEM:b0a35da34d3b894ab7b6"
+        }
+      ]
+    },
+    {
+      "group_id": "IDENTITY_B:okeey_heat",
+      "decision": "approve",
+      "member_ids": [
+        "SEM:0dbc2938a788c229ef28",
+        "SEM:5d86d14354288fe7d971"
+      ],
+      "reason": "The V51 WÄRMEN rival and V60 ERWÄRMEN rival both assign an unspecified warming action to the same complete card. No source imposes a fixed endpoint, maintenance, gentle manner, or liquid object here. Keep these narrower/different proposals separate.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 22,
+          "line_end": 22,
+          "path": "experiments/yolo/sidequest_theory_candidates_v51/V51_R4_CORRECTOR_WHOLE_CARD_REPORT.md",
+          "quote": "- `OKEEY=WÄRMEN?` entfernt die unbelegte exakte Temperatur `LAUWARM`.",
+          "sha256": "35ddc5cd1dec8988a3ad74a96673b203f754d13b6553e48ba9557b27e36709ad",
+          "source_id": "LEGACY_COMPONENT:94c7a497b2533c2d9619",
+          "source_section": "Revisionen",
+          "table_header": null,
+          "member_id": "SEM:0dbc2938a788c229ef28"
+        },
+        {
+          "line": 41,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R2_HISTORICAL_FUNCTION_WORD_COMPETITION_REPORT.md",
+          "quote": "| OKEEY | WARM? | Temperaturadjektiv | LAUWARM?, ERWÄRMEN? | KEEP | .52 | Nur Bio-Belege und kein unabhängiges Temperaturzeichen; technische Prozesslesungen bleiben möglich. |",
+          "sha256": "eae7d9225e61203f56f0a56100f70c813657819e06ca216390b917c515f69597",
+          "member_id": "SEM:5d86d14354288fe7d971"
+        }
+      ]
+    },
+    {
+      "group_id": "IDENTITY_B:okeey_temper",
+      "decision": "approve",
+      "member_ids": [
+        "SEM:7435937b89651fba48e1",
+        "SEM:fa5889dfd06c8db12886"
+      ],
+      "reason": "V46 calls the recurring whole card a Temperierkarte, and V60 spells out temperature control / set working band. At the actual claim level both propose temperature adjustment, with no specified direction or liquid. Neither is equivalent to a temperature adjective or keeping warm.",
+      "evidence": [
+        {
+          "line": 29,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R3_TECHNICAL_EXACT_CARD_REPORT.md",
+          "quote": "| OKEEY | 7 | `TEMPERIEREN?` | `WARMHALTEN?`, `NACHFÜLLEN?` | Temperaturkontrolle; setze Arbeitsband | Keine Skala oder unabhängige Wärmereferenz; nur Bio-Belege | 0,69 |",
+          "sha256": "6f943caad4300b135b8efd096c79c16deeaa49bff5cb323dc29d513c3793842d",
+          "member_id": "SEM:7435937b89651fba48e1"
+        },
+        {
+          "line": 40,
+          "path": "experiments/yolo/sidequest_theory_candidates_v46/V46_CONSOLIDATED_STEM_CORRECTION.md",
+          "quote": "| `okeey` | Temperierkarte | eine Karte |",
+          "sha256": "9abb8e356b726e671f8b99f2f0ea5b3551074133fd2f8f191f0f1ed96bf5ccad",
+          "member_id": "SEM:fa5889dfd06c8db12886"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v46/V46_CONSOLIDATED_STEM_CORRECTION.md",
+          "line": 30,
+          "quote": "### Wiederkehrende Karten, aber keine Wortstämme\n\n| Host | lokale Kartenhypothese | Warum kein Stamm? |\n|---|---|---|\n| `aiin` | Maß-/Standardkarte | 20 Ereignisse, aber nur eine exakte Kartenart |\n| `ey` | Sollzustandskarte | 4 Ereignisse, eine exakte Karte; kein freies `-ey` |\n| `oky` | Verwendungskarte | eine Karte |\n| `lche` | Ablaufkarte | eine Karte |\n| `oke` | Spülkarte | eine Karte |\n| `cthy` | Bereitschaftskarte | eine Karte |\n| `okeey` | Temperierkarte | eine Karte |\n| `ckhy` | Verbindungswegkarte | eine Karte |\n| `olor` | Voransatz-Produktkarte | eine Karte |\n\nRekurrenz kann den Wert einer Ganzkarte interessant machen, demonstriert aber\nkeine produktive Stammvariation.",
+          "sha256": "9abb8e356b726e671f8b99f2f0ea5b3551074133fd2f8f191f0f1ed96bf5ccad"
+        }
+      ]
+    },
+    {
+      "group_id": "IDENTITY_B:okeey_keep_warm",
+      "decision": "approve",
+      "member_ids": [
+        "SEM:06e898479ea7d362e7ed",
+        "SEM:d46787607d2f7ea6d4a1"
+      ],
+      "reason": "WARMHALTEN rival and the V60 apprentice-error warm halten are the same attempted maintenance assignment at the same whole-card scope. One being rejected locally does not make its proposition disappear. Preserve the explicit error judgment and do not treat the group as a current accepted meaning.",
+      "evidence": [
+        {
+          "line": 29,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R3_TECHNICAL_EXACT_CARD_REPORT.md",
+          "quote": "| OKEEY | 7 | `TEMPERIEREN?` | `WARMHALTEN?`, `NACHFÜLLEN?` | Temperaturkontrolle; setze Arbeitsband | Keine Skala oder unabhängige Wärmereferenz; nur Bio-Belege | 0,69 |",
+          "sha256": "6f943caad4300b135b8efd096c79c16deeaa49bff5cb323dc29d513c3793842d",
+          "member_id": "SEM:06e898479ea7d362e7ed"
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 3,
+              "text": "Status: vollständiger kreativer Werkstattaudit, keine Entzifferung. Bestätigte"
+            }
+          ],
+          "line": 121,
+          "line_end": 125,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "quote": "Typische Lehrlingsfehler sind `AL = dorthin + Becken`, `OTCHEY = nimm Anteil`,\n`OKEEY = warm halten`, das Sprechen von CLOSE bei OKE/LCHE und die Übertragung\neines Mnemonics auf eine ähnlich aussehende andere Karte. Die Reparatur ist\nimmer dieselbe: zum Exact-Tuple zurückkehren, nur den kurzen Default sprechen\nund alle Gegenstände oder Handlungen in die lokale Exemplarzeile zurücklegen.",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba",
+          "source_id": "LEGACY_COMPONENT:c676ebf7de6de8a47684",
+          "source_section": "Lehr- und Korrekturverfahren",
+          "table_header": null,
+          "member_id": "SEM:d46787607d2f7ea6d4a1"
+        }
+      ]
+    },
+    {
+      "group_id": "IDENTITY_B:okeey_temper_liquid_keep_lukewarm",
+      "decision": "approve",
+      "member_ids": [
+        "SEM:9689e20280c44eac8807",
+        "SEM:0542fe228cfeefe2eed3"
+      ],
+      "reason": "Both sources explicitly bind OKEEY/QOKEEY to the two-part instruction temper the working liquid AND keep it lukewarm. V51 lists exactly okeey once and qokeey six times; V18 discusses all seven cases. This is the full composite instruction itself on both sides, unlike a merge with its bare temperature-adjustment component.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 3,
+              "text": "Status: begrenzte kreative Schreibwerkstatt-Arbeit, keine Entzifferung und"
+            }
+          ],
+          "line": 81,
+          "line_end": 81,
+          "path": "experiments/yolo/sidequest_theory_candidates_v51/V51_R1_WHOLE_CARD_REPORT.md",
+          "quote": "| `OKEEY` | `okeey` 1; `qokeey` 6 | 7 | temperiere die Arbeitsflüssigkeit und halte sie lauwarm |",
+          "sha256": "d753d07ce7e5a13a19004d194635d49d87d47046a59f7dcd9597fdb41969b62a",
+          "source_id": "LEGACY_COMPONENT:4779af15beef6500bd7b",
+          "source_section": "Alle neun Karten und ihre lokalen Defaults",
+          "table_header": "| Karte | feste Oberflächen mit Zahl | n | unveränderte lokale V49-Expansion |",
+          "member_id": "SEM:9689e20280c44eac8807"
+        },
+        {
+          "line": 14,
+          "path": "experiments/yolo/sidequest_theory_candidates_v18/CANDIDATE_V18_R2_MEDICAL_PROCESS_RECONSTRUCTION.md",
+          "quote": "| `OKEEY/QOKEEY` | **Arbeitsflüssigkeit temperieren und lauwarm halten** | .68 | Mischen verdoppelt `CHEDY/OKAL`; warmes Wasser eigens zugeben erfindet es in zu vielen Belegen. |",
+          "sha256": "2421dd4cbf1324e3cdf90364739b48578e3ee5dc44433cfbe26a10514415e54c",
+          "member_id": "SEM:0542fe228cfeefe2eed3"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v18/CANDIDATE_V18_R2_MEDICAL_PROCESS_RECONSTRUCTION.md",
+          "line": 70,
+          "quote": "- f83r.20: Umschlag anlegen → **lauwarm temperieren** → spülen → nochmals\n  spülen → anwenden.\n- f83r.25: eintauchen → Gefäß füllen → **lauwarm halten** → spülen → rühren →\n  unterer Auslass.\n\n`mix thoroughly` ist hier sechs Mal eine überflüssige Doppelung von\n`CHEDY = gleichmäßig rühren` oder `OKAL = zwei Portionen mischen`. `Add warmed\nwater` passt einzelnen Ketten, muss aber in allen sieben Fällen ein nicht\ngeschriebenes neues Wasserobjekt einsetzen. Der feste Default ist daher nicht\nbloß „warm“, sondern **die bereits aktive Flüssigkeit auf lauwarmer",
+          "sha256": "2421dd4cbf1324e3cdf90364739b48578e3ee5dc44433cfbe26a10514415e54c"
+        }
+      ]
+    },
+    {
+      "group_id": "IDENTITY_B:okeey_warm_gently",
+      "decision": "approve",
+      "member_ids": [
+        "SEM:3cc2266e60fbb8cefa6c",
+        "SEM:63df42cbb7a3d449a891"
+      ],
+      "reason": "Two statements in the same V16 selection repeat the same recurrent OKEEY/QOKEEY gently-warm instruction. The pronoun it does not introduce a different fixed object; this is one source proposal repeated, not independent supporting evidence.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 5,
+              "text": "Status: **selected maximally abductive sidequest basis**, not a decipherment"
+            }
+          ],
+          "line": 54,
+          "line_end": 57,
+          "path": "experiments/yolo/sidequest_theory_candidates_v16/V16_THEORY_SELECTION.md",
+          "quote": "`OKEEY/QOKEEY = warm gently` is preferred over R2's `mix thoroughly` because\nR1 and R3 independently chose the heat reading and it yields the simpler\nrecurrent bath workflow. Both remain speculative; the rejected concrete rival\nis recorded rather than replaced by an empty structural label.",
+          "sha256": "e9c9bd8650496fbf2f86ae9fed27cbcde16649bde75f78c2c3ca6edf642f93c7",
+          "source_id": "LEGACY_COMPONENT:08b5c50ecd2e05ba56be",
+          "source_section": "Current concrete dictionary",
+          "table_header": null,
+          "member_id": "SEM:3cc2266e60fbb8cefa6c"
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 5,
+              "text": "Status: **selected maximally abductive sidequest basis**, not a decipherment"
+            }
+          ],
+          "line": 51,
+          "line_end": 51,
+          "path": "experiments/yolo/sidequest_theory_candidates_v16/V16_THEORY_SELECTION.md",
+          "quote": "| recurrent `OKEEY/QOKEEY` card | **warm it gently** | .39 |",
+          "sha256": "e9c9bd8650496fbf2f86ae9fed27cbcde16649bde75f78c2c3ca6edf642f93c7",
+          "source_id": "LEGACY_COMPONENT:3197ff1675aade3d258e",
+          "source_section": "Current concrete dictionary",
+          "table_header": "| card or formula | selected default meaning | confidence |",
+          "member_id": "SEM:63df42cbb7a3d449a891"
+        }
+      ]
+    },
+    {
+      "group_id": "IDENTITY_B:okeey_longer_exposure",
+      "decision": "approve",
+      "member_ids": [
+        "SEM:226b7aa5eb6a411afafa",
+        "SEM:c542e717d10317bbc772"
+      ],
+      "reason": "The historical source explicitly equates its portable LÄNGER HALTEN wording with letting the current item act longer. The two actual cards do not separately assert a named liquid, body part, or physical holding method. Preserve the full-sentence Y referent as context, not an extra meaning carried by OKEEY.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 100,
+          "line_end": 100,
+          "path": "experiments/yolo/sidequest_semantic_application_completion/APPLICATION_WORKSHOP_REPORT.md",
+          "quote": "| `OKEEY` | 7 | länger einwirken lassen | `Y`: laufender Posten bleibt verfügbar |",
+          "sha256": "fdf5941da011e0af7331fef3b3554379cb3a998d15f211b7351c19be31e0d3c8",
+          "source_id": "LEGACY_COMPONENT:dd1a54849079e5ac4ae4",
+          "source_section": "Das Kontaktraster",
+          "table_header": "| Form | Ereignisse | kurze Lesung | Ausgang |",
+          "member_id": "SEM:226b7aa5eb6a411afafa"
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 94,
+          "line_end": 94,
+          "path": "experiments/yolo/sidequest_semantic_application_completion/APPLICATION_HISTORICAL_REPORT.md",
+          "quote": "`OKEEY=LÄNGER HALTEN` ist entsprechend kürzer als „den laufenden Posten länger einwirken lassen“. `Y` nennt den Posten; die ausführliche deutsche Syntax gehört in den Satz, nicht ins Wörterbuch.",
+          "sha256": "c69b192b19b5d4537e5c8736d02aadefd17a103a242f7c6851594df467657087",
+          "source_id": "LEGACY_COMPONENT:e578ae37c1b57dc47084",
+          "source_section": "Reparatur der Kontaktreihe",
+          "table_header": null,
+          "member_id": "SEM:c542e717d10317bbc772"
+        }
+      ]
+    },
+    {
+      "group_id": "IDENTITY_B:gdt768_M01",
+      "decision": "approve",
+      "member_ids": [
+        "SEM:2469f26ba5b615b52f13",
+        "SEM:5d6f63cc60805193e0fc"
+      ],
+      "reason": "METHOD and PREREGISTRATION identify the same frozen M01 within one experiment. The preregistration supplies the direction chor dry / shor moist that the METHOD short name references. The same fixed model ID plus table binds that direction; generic dry/moist vocabulary alone would not suffice.",
+      "evidence": [
+        {
+          "line": 118,
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/METHOD.md",
+          "quote": "1. M01: dry and moist forms of the same reproductive part;",
+          "sha256": "fced688d624a763d7149183f6b8f7681e6747c0f88610f1e626e829f9c1be19f",
+          "member_id": "SEM:2469f26ba5b615b52f13"
+        },
+        {
+          "line": 30,
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/PREREGISTRATION.md",
+          "quote": "| ID | relation | concrete direction under test |\n|---|---|---|\n| M01 | two state forms of one reproductive part | `chor` dry, `shor` moist |\n| M02 | two distinct reproductive parts | `chor` flower, `shor` seed/fruit |\n| M03 | two distinct reproductive parts | `chor` seed/fruit, `shor` flower |\n| M04 | hierarchical general-to-specific pair | `chor` general herb, `shor` reproductive part |\n| M05 | two opaque learned record wholes | identities remain different and open |",
+          "sha256": "fd08255d615fdfe9effbe5bf9ccef03e130d3dee76f2804a0f4da2b3ba0ea7c4",
+          "member_id": "SEM:5d6f63cc60805193e0fc"
+        }
+      ]
+    },
+    {
+      "group_id": "IDENTITY_B:gdt768_M02",
+      "decision": "approve",
+      "member_ids": [
+        "SEM:3b7e0bbed92f12eb0a26",
+        "SEM:a59298de7c588bb6e701"
+      ],
+      "reason": "The same frozen M02 is named in METHOD and PREREGISTRATION with chor flower / shor seed-fruit. Preserve the joint pair assertion; neither isolated lexical assignment equals it.",
+      "evidence": [
+        {
+          "line": 119,
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/METHOD.md",
+          "quote": "2. M02: `chor` flower, `shor` seed/fruit;",
+          "sha256": "fced688d624a763d7149183f6b8f7681e6747c0f88610f1e626e829f9c1be19f",
+          "member_id": "SEM:3b7e0bbed92f12eb0a26"
+        },
+        {
+          "line": 30,
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/PREREGISTRATION.md",
+          "quote": "| ID | relation | concrete direction under test |\n|---|---|---|\n| M01 | two state forms of one reproductive part | `chor` dry, `shor` moist |\n| M02 | two distinct reproductive parts | `chor` flower, `shor` seed/fruit |\n| M03 | two distinct reproductive parts | `chor` seed/fruit, `shor` flower |\n| M04 | hierarchical general-to-specific pair | `chor` general herb, `shor` reproductive part |\n| M05 | two opaque learned record wholes | identities remain different and open |",
+          "sha256": "fd08255d615fdfe9effbe5bf9ccef03e130d3dee76f2804a0f4da2b3ba0ea7c4",
+          "member_id": "SEM:a59298de7c588bb6e701"
+        }
+      ]
+    },
+    {
+      "group_id": "IDENTITY_B:gdt768_M04",
+      "decision": "approve",
+      "member_ids": [
+        "SEM:a22b1b5d720e78b3fe62",
+        "SEM:c0ec860e3faac526ad37"
+      ],
+      "reason": "The same fixed M04 identifies chor as general herb and shor as reproductive part in both protocol documents, with the hierarchy explicitly specified in the preregistration. This is not a collapse with arbitrary part/whole models.",
+      "evidence": [
+        {
+          "line": 121,
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/METHOD.md",
+          "quote": "4. M04: `chor` general herb, `shor` reproductive part;",
+          "sha256": "fced688d624a763d7149183f6b8f7681e6747c0f88610f1e626e829f9c1be19f",
+          "member_id": "SEM:a22b1b5d720e78b3fe62"
+        },
+        {
+          "line": 30,
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/PREREGISTRATION.md",
+          "quote": "| ID | relation | concrete direction under test |\n|---|---|---|\n| M01 | two state forms of one reproductive part | `chor` dry, `shor` moist |\n| M02 | two distinct reproductive parts | `chor` flower, `shor` seed/fruit |\n| M03 | two distinct reproductive parts | `chor` seed/fruit, `shor` flower |\n| M04 | hierarchical general-to-specific pair | `chor` general herb, `shor` reproductive part |\n| M05 | two opaque learned record wholes | identities remain different and open |",
+          "sha256": "fd08255d615fdfe9effbe5bf9ccef03e130d3dee76f2804a0f4da2b3ba0ea7c4",
+          "member_id": "SEM:c0ec860e3faac526ad37"
+        }
+      ]
+    },
+    {
+      "group_id": "IDENTITY_B:gdt768_M05",
+      "decision": "approve",
+      "member_ids": [
+        "SEM:39c657e0ba2711d7df83",
+        "SEM:992aa7187bda1ff4a6d9"
+      ],
+      "reason": "The same fixed M05 is specified as role-distinct learned wholes in METHOD and opaque distinct wholes in the preregistration. These two protocol statements refer to that one model with identities open. It remains a formal architecture hypothesis rather than a confirmed lexical translation.",
+      "evidence": [
+        {
+          "line": 122,
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/METHOD.md",
+          "quote": "5. M05: two role-distinct learned wholes.",
+          "sha256": "fced688d624a763d7149183f6b8f7681e6747c0f88610f1e626e829f9c1be19f",
+          "member_id": "SEM:39c657e0ba2711d7df83"
+        },
+        {
+          "line": 30,
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/PREREGISTRATION.md",
+          "quote": "| ID | relation | concrete direction under test |\n|---|---|---|\n| M01 | two state forms of one reproductive part | `chor` dry, `shor` moist |\n| M02 | two distinct reproductive parts | `chor` flower, `shor` seed/fruit |\n| M03 | two distinct reproductive parts | `chor` seed/fruit, `shor` flower |\n| M04 | hierarchical general-to-specific pair | `chor` general herb, `shor` reproductive part |\n| M05 | two opaque learned record wholes | identities remain different and open |",
+          "sha256": "fd08255d615fdfe9effbe5bf9ccef03e130d3dee76f2804a0f4da2b3ba0ea7c4",
+          "member_id": "SEM:992aa7187bda1ff4a6d9"
+        }
+      ]
+    },
+    {
+      "group_id": "IDENTITY_B:cthy_oltchy_material",
+      "decision": "reject_full_proposition_equivalence",
+      "member_ids": [
+        "SEM:16c41ce8f9e2d2f11a16",
+        "SEM:3b3bf91ea08b84c9e1d9"
+      ],
+      "reason": "REJECT: the source labels D a descriptive model and R a recipe model. Leaf/herb material as a descriptive referent does not assert its ingredient role; the recipe wording does. Shared cold-and-dry qualification does not erase that content/function contrast. Retain the complete spans separately, with a possible one-way ingredient-to-material specialization only after preserving these model scopes.",
+      "evidence": [
+        {
+          "line": 23,
+          "path": "experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/REPORT.md",
+          "quote": "| `cthy oltchy` | leaf/herb material, cold and dry? | leaf/herb ingredient, cold and dry? |",
+          "sha256": "4ba0b56b633b85771f533c1ec00737f6a71109d91086c9d1ac7701e06529d86f",
+          "member_id": "SEM:16c41ce8f9e2d2f11a16"
+        },
+        {
+          "line": 23,
+          "path": "experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/REPORT.md",
+          "quote": "| `cthy oltchy` | leaf/herb material, cold and dry? | leaf/herb ingredient, cold and dry? |",
+          "sha256": "4ba0b56b633b85771f533c1ec00737f6a71109d91086c9d1ac7701e06529d86f",
+          "member_id": "SEM:3b3bf91ea08b84c9e1d9"
+        },
+        {
+          "path": "experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/REPORT.md",
+          "line": 19,
+          "quote": "\n| Exact source span | Descriptive working model D | Recipe working model R |\n|---|---|---|\n| `chor chol daiin` | flower head, dry in the third degree? | dried flowers, three portions? |\n| `cthy oltchy` | leaf/herb material, cold and dry? | leaf/herb ingredient, cold and dry? |\n| `otshy okaiin` | cold-moist preparation? | cold-moist preparation? |\n\nThese meanings are explicit assumptions, including the numbers. The first\nspan was already analyzed in GDT629; redisplaying it is not a discovery.\nThe new contribution is a common-dictionary comparison of its complete\nparagraphs with the awkward repetitions and unknown neighbours retained.",
+          "sha256": "4ba0b56b633b85771f533c1ec00737f6a71109d91086c9d1ac7701e06529d86f"
+        }
+      ]
+    }
+  ],
+  "unit_contract_evidence": [
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v51/V51_R1_WHOLE_CARD_REPORT.md",
+      "line": 74,
+      "quote": "|---|---|---:|---|\n| `AIIN` | `aiin` 3; `chaiin` 1; `daiin` 11; `saiin` 4; `taiin` 1 | 20 | Ein vorgeschriebenes Maß |\n| `EY` | `cheey` 2; `shey` 2 | 4 | Bis die Flüssigkeit klar abläuft |\n| `OKY` | `choky` 2; `oky` 1; `qoky` 7 | 10 | Die aktive Portion verwenden |\n| `LCHE` | `lchedy` 8 | 8 | lasse die verbrauchte Flüssigkeit in das untere Auffanggefäß ablaufen und beende den Schritt |\n| `OKE` | `qokedy` 8 | 8 | spüle die bezeichnete Stelle einmal und beende den Schritt |\n| `CTHY` | `checthy` 2; `cthy` 3; `shcthy` 2 | 7 | Sobald die Zubereitung gebrauchsfertig ist |\n| `OKEEY` | `okeey` 1; `qokeey` 6 | 7 | temperiere die Arbeitsflüssigkeit und halte sie lauwarm |\n| `CKHY` | `chckhy` 3; `shckhy` 1 | 4 | durch die verbundenen Läufe |\n| `OLOR` | `cholor` 1; `olor` 1 | 2 | Aus dem vorigen Ansatz entnehmen |\n\nDiese neun Expansionen sind Ganzkarten-Defaults. Ihre Wiederholung in allen\nEreignissen derselben Tuple-ID ist Konsistenz der Ausgabe, keine unabhängige",
+      "sha256": "d753d07ce7e5a13a19004d194635d49d87d47046a59f7dcd9597fdb41969b62a"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+      "line": 41,
+      "quote": "`H/B` zählt Herbal-/Biological-Vorkommen, nicht unabhängige Belege. Das\nWörterbuch bindet jeden Wert ausschließlich an die vollständige\n`joint_tuple_id`. Die in der Vorkommenstabelle mitgeführten Oberflächen und\nFormelbäume heißen ausdrücklich `audit_only`; weder sie noch PAGE_HOST oder\nsichtbare Komponenten dürfen einen Wert auf eine andere Tuple-ID übertragen.",
+      "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v49/V49_R1_ATOMIC_MINIMAL_LEXICON_REPORT.md",
+      "line": 55,
+      "quote": "| Ganzkarte | atomarer Werkstattname | Status |\n|---|---|---|\n| `aiin` | `MASS` | wiederkehrende Karte, kein Stammparadigma |\n| `ey` | `ENDZUSTAND` | wiederkehrende Karte, kein produktives `-ey` |\n| `oky` | `VERWENDUNG` | wiederkehrende Karte |\n| `lche` | `ABLAUF` | wiederkehrende Karte |\n| `oke` | `SPÜLUNG` | wiederkehrende Karte |\n| `cthy` | `BEREIT` | wiederkehrende Karte |\n| `okeey` | `LAUWARM` | wiederkehrende Karte |\n| `ckhy` | `KANAL` | wiederkehrende Karte |\n| `olor` | `VORHERIGES` | wiederkehrende Karte |\n\nDiese Namen sind Merkzettel für jeweils **einen exakten Kartentyp**. Aus\n`okeey = LAUWARM` folgt weder `ok + e + ey` noch `ey = warm`. Aus\n`olor = VORHERIGES` folgt keine Zerlegung in `ol + or`.",
+      "sha256": "16b314937037fd559cc887d7f51cbcd0b0bc4c009bbe0ff82f74168af211c78d"
+    }
+  ],
+  "negative_boundaries": [
+    "Warm adjective, lukewarm adjective, warm/heat action, gentle warming, temperature adjustment, warm maintenance, and the composite liquid-temper-and-maintain instruction remain different propositions.",
+    "Registered exact tuple aliases such as OKE spanning qokedy are not free raw substrings. Historical normalized CTHY spanning checthy/cthy/shcthy is not the later complete raw cthy leaf-material claim.",
+    "Explicit locally rejected apprentice readings remain tried hypotheses with their rejection. Negated non-assignments or numeric claims are not promoted by this peer review.",
+    "The compound SEM claim containing a positive gloss plus explicit rival clauses is not identical in full to the bare positive gloss; separate component links are possible."
+  ],
+  "counts": {
+    "reviewed_groups": 20,
+    "approved_groups": 17,
+    "rejected_full_groups": 3,
+    "approved_replacement_subgroups": 2
+  },
+  "limitations": [
+    "No confirmed manuscript meaning follows from an equivalence decision.",
+    "Approval preserves actual identical proposition, not a relaxed common topic or family.",
+    "No original cards or identity batches edited."
+  ],
+  "validation": {
+    "exact_source_evidence_checked": 55
+  }
+}
