@@ -23102,3 +23102,17 @@ The registered cross-kernel transfer lacks CTH training/evaluation capacity;
 no weights,AUC,null orpcomputed. Do not replace it with a within-kernel fit
 or relax cells after this stop. Equal inventory/length is literal raw ASCII.
 Primary: experiments/yolo/gdt854_e_placement_cross_kernel_transfer/REPORT.md.
+
+## GDT855 new leaf-margin source reserve, 2026-09-06
+
+Metadata-only guarded census: old LM00132+X19+Y9 are disjoint60physical
+folios, including16calibration folios absent from the final44panel. Current
+179scope contains118herbal pages on61folios;58overlap old exposure. Only
+f35r/v,f36r/v,f37r/v remain, all CurrierA/hand1 and ANNquireq05. No image
+state, new admission or LM002 protected formal target was opened.
+Post-count decision proof: retaining old13TOOTHED withq05=3, any newTOOTHED
+yields(3+t)/(13+t)>25%; withnone, the required new acquisition phase adds
+no mixed cell. Thus this reserve cannot improve conditional mobility under
+the unchanged panel/quire/phase rules. All27hypothetical leaf-state assignments
+checked; not a registered outcome or an assertion about actual leaf margins.
+Primary: experiments/yolo/gdt855_leaf_margin_source_availability/REPORT.md.

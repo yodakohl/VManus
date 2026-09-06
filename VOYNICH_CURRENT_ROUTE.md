@@ -20,9 +20,10 @@ or null executed. Raw character counts/length equal, not physical glyphs or
 meaning. No within-kernel rescue. IP012 assembly deferred:
 no empirically motivated remodeling rival.40idea sketches remain available.
 
-GDT855 in preparation: metadata-only search for admitted herbal folios outside
-ALL60LM001/X/Y-graded physical folios, not just the final44. No LM002 target,
-images or admission yet. RBR002 already closed the apparent RBR001 successor.
+GDT855:outside ALL60LM-graded folios, onlyf35/f36/f37 remain, allq05.
+Post-count proof: any newTOOTHED breaks25%quire cap; none adds no mixed new
+phase. Thus this reserve cannot repair LM002 mobility; no images/target opened.
+RBR002 already closed the apparent RBR001 successor.
 
 GDT845–849 primary reports via lookup: paired prefix evidence remains sparse;
 848 supports one native two-arc/loop anchor, not all controls.849 has all0/1

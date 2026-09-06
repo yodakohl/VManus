@@ -97,3 +97,10 @@ Output complete remainder, not a selected favorable morphology. No remainder
 closes this source reserve; a remainder permits only a later independently
 justified acquisition contract, not automatic score/admission. Budget10min
 including publication from05:28UTC.
+
+05:36UTC checkpoint, about1h55elapsed: GDT855 finds onlyf35/f36/f37 outside
+all60oldleaf-margin-gradedfolios. Allareq05. The explicitly post-count
+27-assignment proof shows that no possible added leaf states can both retain
+the25%quirecap andaddmixednewphasecells. No imagesorLM002targetneeded;
+this reserve cannot repair the old test. About9min fromselectiontopublication,
+within10min. Goal remainsACTIVE; roughly8h05to minimumduration.
