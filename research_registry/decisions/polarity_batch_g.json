@@ -1,0 +1,953 @@
+{
+  "schema": "source_polarity_review_v1",
+  "review_id": "polarity_batch_g",
+  "scope_ids": [
+    "SEM:07560a586dedcc6f155e",
+    "SEM:0c5ed985547a2ef3440b",
+    "SEM:0c9829e961fc1e03ff9f",
+    "SEM:0f7ade468e66bdbef163",
+    "SEM:10af63b4f50016e32b34",
+    "SEM:10e3511d0bf7f7ade410",
+    "SEM:12245693b1f6e69bbc60",
+    "SEM:34b8928b277aaad0e2bb",
+    "SEM:3c10438f22e3346a6b0c",
+    "SEM:4e9feba5bb2ce9ed353e",
+    "SEM:6404f5451704d66d0af8",
+    "SEM:6c8da7046281b6390029",
+    "SEM:77d98c25c0224b554f0e",
+    "SEM:8204a2996f50989c4249",
+    "SEM:a11ab4d73e36ed949f0d",
+    "SEM:cae3510c4b31d90f752e",
+    "SEM:d12c4c78e44437f8489e",
+    "SEM:f4498b6a86d2ff0ec9bd",
+    "SEM:f81d743a225a1ec5ead0"
+  ],
+  "scope": "Residual lexical datatype/polarity audit: all then-unreviewed SEMLOCAL lexical cards plus nineteen individually selected technical-coordinate, rival-column, negation and historical-withdrawal risks. Metadata navigation does not count as source review outside this explicit scope.",
+  "previous_review_inputs": {
+    "research_registry/decisions/identity_batch_i.json": "322793e1bccdf609af168e1a1cd9cfa9f4fa3214a44414c2273f54adbb10cec5",
+    "research_registry/decisions/identity_batch_c.json": "2e7149b88b49c9baeafcc8da7fba9e6d039956ab3c59107bba53e84cb84fc7d9",
+    "research_registry/decisions/identity_batch_root.json": "885f153074d8c5e91e36dc307f2a01899f6c6f86090859300a2e62fed7395237",
+    "research_registry/decisions/polarity_batch_d.json": "318bbd0789622a87db022a0b660f64204fa94dab0a8cbe5325b6fd5e3dd352e3",
+    "research_registry/decisions/polarity_batch_e.json": "51efee4e784e98977e5a652f178364f924f564480ebc1f52c84f32386ad72086",
+    "research_registry/decisions/identity_batch_a.json": "1d4fc5264299b96fb9130cf3f5fd235d986fc9ca37674b5f512515d1c8bca49e",
+    "research_registry/decisions/identity_batch_b.json": "653f69e8ad61f8c1219084aa51c4306968a21060eb19ee6a209bae2d71ccf561"
+  },
+  "decisions": [
+    {
+      "target": "SEM:07560a586dedcc6f155e",
+      "claim": "p → potio, pilula",
+      "decision": "retain_scoped_rival",
+      "reason": "The header explicitly calls potio/pilula a live rival to pulvis for the initial head p. These Latin names are proposed meanings, not incidental comparator labels or table status codes. Keep as alternatives, unconfirmed.",
+      "review_basis": "original_source_context",
+      "case_ids": [
+        "REPORT_PROPOSAL:0488bcb1300c6bb5fa53"
+      ],
+      "source_case_count": 1,
+      "evidence": [
+        {
+          "line": 9,
+          "path": "experiments/yolo/gdt635_initial_head_same_remainder_swaps/REPORT.md",
+          "quote": "| `p` | `pulvis` — Pulver/Pulverform | `potio`, `pilula` |",
+          "sha256": "31bd8ff643e7e0e651e34d4e2d711a94cab57ff7a1be50e1e1bb33555d9f90d7"
+        },
+        {
+          "path": "experiments/yolo/gdt635_initial_head_same_remainder_swaps/REPORT.md",
+          "line": 3,
+          "quote": "## Ergebnis\n\nDie beste aktuelle Wortkopf-Arbeitstheorie lautet:\n\n| initialer Kopf | Primärwert | lebender Rivale |\n|---|---|---|\n| `p` | `pulvis` — Pulver/Pulverform | `potio`, `pilula` |\n| `s` | `semen` — Samen/Saatgut | `sal`, danach `succus/species` |\n| `r` | `radix` — Wurzel/Wurzeldroge | `resina` |\n| `l` | `lignum` — Drogenholz/holziger Pflanzenteil | `liquor`, Auszug |",
+          "sha256": "31bd8ff643e7e0e651e34d4e2d711a94cab57ff7a1be50e1e1bb33555d9f90d7"
+        }
+      ]
+    },
+    {
+      "target": "SEM:0c5ed985547a2ef3440b",
+      "claim": "OL → WATER",
+      "decision": "retain_historical_withdrawn",
+      "reason": "The source explicitly lists OL=WATER among withdrawn readings. This is an actual historical hypothesis, not an accidental positive extraction of a mere no-identification warning. Retain its withdrawn source status; this review does not adjudicate water semantics anew.",
+      "review_basis": "original_source_context",
+      "case_ids": [
+        "CLEAN_COMPONENT:128bbba1c5020b4d4145"
+      ],
+      "source_case_count": 1,
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 8,
+              "text": "Status: **deliberately speculative, post-hoc, and non-confirmatory**."
+            }
+          ],
+          "line": 84,
+          "line_end": 88,
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "quote": "Explicitly withdrawn readings include `AROL = WATER`, `OL = WATER`, simultaneous\n`CHOL = HOT` versus `OL = MEDIUM`, `CTHY = DRY`, `D=ASSIGN`, `S=RESUME`,\n`Q=NEXT`, SOL as a confirmed verb, a fixed DESCRIPTION→RECIPE order for the two\nHerbal packets, line equals sentence, a universal diagram-label dictionary,\nand a direct f68↔f69 28-name list. No exact card has a confirmed English meaning.",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945",
+          "source_id": "LEGACY_COMPONENT:1ba796f4f1b2635da61f",
+          "source_section": "Current synthesis after Iteration 148",
+          "table_header": null
+        }
+      ],
+      "source_status": "historical_source_withdrawn_or_replaced",
+      "failure_reason": "The source explicitly lists OL=WATER among withdrawn readings. This is an actual historical hypothesis, not an accidental positive extraction of a mere no-identification warning. Retain its withdrawn source status; this review does not adjudicate water semantics anew."
+    },
+    {
+      "target": "SEM:0c9829e961fc1e03ff9f",
+      "claim": "l → Auszug/liquor",
+      "decision": "retain_scoped_rival",
+      "reason": "The apparatus-rivals column explicitly proposes Auszug/liquor against Holz for l. This is a real multilingual noun-head hypothesis, not the metadata heading or a count.",
+      "review_basis": "original_source_context",
+      "case_ids": [
+        "REPORT_PROPOSAL:ad477bb72c47617c3c1c"
+      ],
+      "source_case_count": 1,
+      "evidence": [
+        {
+          "line": 22,
+          "path": "experiments/yolo/gdt690_noun_ordinal_provenance_main_apparatus/REPORT.md",
+          "quote": "| `l` | Holz | Auszug/liquor |",
+          "sha256": "638d21c8155cb03a5b8120a8bc26f0f826505bd0a94cd9227dc001d03bcaaf50"
+        },
+        {
+          "path": "experiments/yolo/gdt690_noun_ordinal_provenance_main_apparatus/REPORT.md",
+          "line": 17,
+          "quote": "| head | V63 main value | apparatus rivals |\n|---|---|---|\n| `p` | Pulver | Trank, Pille |\n| `s` | Samen | Salz, Saft, Arzneispecies |\n| `r` | Wurzel | Harz/resina |\n| `l` | Holz | Auszug/liquor |\n\nThis removes atomic values such as “fertig aufbereitetes Drogenholz.” For example, `ldy` now reads “fertig aufbereitetes Holz”: the noun head is `Holz`; the remainder supplies the result state.",
+          "sha256": "638d21c8155cb03a5b8120a8bc26f0f826505bd0a94cd9227dc001d03bcaaf50"
+        }
+      ]
+    },
+    {
+      "target": "SEM:0f7ade468e66bdbef163",
+      "claim": "lchor → woody plant part",
+      "decision": "retain_historical_withdrawn",
+      "reason": "The report explicitly retires the old lchor=woody plant part composition and replaces it with flower preparation, retaining flower extract as rival. Preserve the earlier tried composition; replacement is not a proven botanical identity.",
+      "review_basis": "original_source_context",
+      "case_ids": [
+        "CLEAN_COMPONENT:69e1d9f1833cce200bc6"
+      ],
+      "source_case_count": 1,
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 108,
+          "line_end": 110,
+          "path": "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/REPORT.md",
+          "quote": "- The old `lchor = woody plant part` composition remains retired. Its current\n  bold default is the less specific **flower preparation**, with flower extract\n  retained as a rival.",
+          "sha256": "d0d18c1673a524356c8e082f6aad351f734d327912b6da26ce02d6bccdf7709e",
+          "source_id": "LEGACY_COMPONENT:f2fa4e4d4a9fc323833c",
+          "source_section": "Corrections that materially improved the renderer",
+          "table_header": null
+        }
+      ],
+      "source_status": "historical_source_withdrawn_or_replaced",
+      "failure_reason": "The report explicitly retires the old lchor=woody plant part composition and replaces it with flower preparation, retaining flower extract as rival. Preserve the earlier tried composition; replacement is not a proven botanical identity."
+    },
+    {
+      "target": "SEM:10af63b4f50016e32b34",
+      "claim": "e → anderer Stoff",
+      "decision": "retain_explicit_countermodel",
+      "reason": "The passage explicitly considers e=anderer Stoff as the rival different-material interpretation and argues against it using the same-line pair. Preserve it as a rejected hypothetical compositional alternative, not a selected atomic word. This is source-model criticism, not independent semantic refutation.",
+      "review_basis": "original_source_context",
+      "case_ids": [
+        "CLEAN_COMPONENT:6f50783487009359ac34"
+      ],
+      "source_case_count": 1,
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 108,
+          "line_end": 110,
+          "path": "experiments/yolo/gdt633_cth_interfix_semantic_contrasts/REPORT.md",
+          "quote": "E- und NONE-Form erscheinen auf derselben Zeile. Eine Gleichsetzung\n`e = anderer Stoff` würde hier zwei fast identische Materialnamen erfinden;\ndie Bindungslesung braucht nur einen Kopf und zwei grammatische Anschlüsse.",
+          "sha256": "9e1b792cd3344a6eccfd05b390676bc00b27aa129f3d852a06b2785e97eb6a02",
+          "source_id": "LEGACY_COMPONENT:3df4183e690134d1d132",
+          "source_section": "Warum `e` zunächst Bindung heißt",
+          "table_header": null
+        }
+      ]
+    },
+    {
+      "target": "SEM:10e3511d0bf7f7ade410",
+      "claim": "K → ZUDOSIEREN",
+      "decision": "retain_historical_replaced",
+      "reason": "K=ZUDOSIEREN is explicitly revised to ZUGEBEN as less modern and cumbersome. This is an editorial semantic working-theory replacement, not empirical falsification or an extraction error.",
+      "review_basis": "original_source_context",
+      "case_ids": [
+        "CLEAN_COMPONENT:ce3250f190eda902b356"
+      ],
+      "source_case_count": 1,
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 29,
+          "line_end": 30,
+          "path": "experiments/yolo/sidequest_semantic_gloss_pressure_seven_hundred_twenty_second/SEVEN_HUNDRED_TWENTY_SECOND_REPORT.md",
+          "quote": "`K=ZUDOSIEREN` ist unnötig modern und schwerfällig. `ZUGEBEN` funktioniert mit\nPortion, Maß, Zutat, Ziel und Wasser gleichermaßen.",
+          "sha256": "f4a38aa002e672c4253e7446836e975cd2d61ef39160cde9436695a64548bdd1",
+          "source_id": "LEGACY_COMPONENT:85fb9f0d5a2d78a898f5",
+          "source_section": "Warum diese drei zuerst",
+          "table_header": null
+        }
+      ],
+      "source_status": "historical_source_withdrawn_or_replaced",
+      "failure_reason": "K=ZUDOSIEREN is explicitly revised to ZUGEBEN as less modern and cumbersome. This is an editorial semantic working-theory replacement, not empirical falsification or an extraction error."
+    },
+    {
+      "target": "SEM:12245693b1f6e69bbc60",
+      "claim": "TSH → waschen",
+      "decision": "exclude_negated_nonassignment",
+      "reason": "The sole cited case is under TSH — kein gemeinsamer Stamm and denies a general TSH=waschen export from two different whole cards. The cited passage does not select or test a TSH dictionary entry. Archive this extraction while preserving the source warning and the whole-card hypotheses.",
+      "review_basis": "original_source_context",
+      "case_ids": [
+        "CLEAN_COMPONENT:6bcf7d33305838dee90c"
+      ],
+      "source_case_count": 1,
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 3,
+              "text": "Status: ausdrücklich kreative Werkstattrekonstruktion auf den festen zehn"
+            }
+          ],
+          "line": 137,
+          "line_end": 140,
+          "path": "experiments/yolo/sidequest_semantic_filtration_separation_completion/DRAUGHTSMAN_FILTRATION_REPORT.md",
+          "quote": "`TSHEY` (`d4a31dbcf1ed6d9e5aa9`, E212) heißt weiterhin „Spülung beginnen“.\nAber `TSHOL` (`953ad19b79517fc8a211`, E039) ist im starken H3-Rezept die\ngelernte Pflanzenkarte „Blütenkraut“. Ein allgemeines `TSH = waschen` würde\ndiese Passage zerstören. Beide Werte bleiben konkrete Ganzkarten.",
+          "sha256": "15cc55baf8430628aad31c01dec2c34a3fd664f222906ec8239bc6f603f65c49",
+          "source_id": "LEGACY_COMPONENT:52f09fe6a27ab06edbd3",
+          "source_section": "TSH — kein gemeinsamer Stamm",
+          "table_header": null
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_filtration_separation_completion/DRAUGHTSMAN_FILTRATION_REPORT.md",
+          "line": 135,
+          "quote": "### TSH — kein gemeinsamer Stamm\n\n`TSHEY` (`d4a31dbcf1ed6d9e5aa9`, E212) heißt weiterhin „Spülung beginnen“.\nAber `TSHOL` (`953ad19b79517fc8a211`, E039) ist im starken H3-Rezept die\ngelernte Pflanzenkarte „Blütenkraut“. Ein allgemeines `TSH = waschen` würde\ndiese Passage zerstören. Beide Werte bleiben konkrete Ganzkarten.",
+          "sha256": "15cc55baf8430628aad31c01dec2c34a3fd664f222906ec8239bc6f603f65c49"
+        }
+      ]
+    },
+    {
+      "target": "SEM:34b8928b277aaad0e2bb",
+      "claim": "s → species*- oder Sortenkürzel",
+      "decision": "retain_scoped_rival",
+      "reason": "The source gives species-/sort abbreviation as the explicit rival for s, distinct from its text seed-item and label-sign defaults. Preserve as a scoped abbreviation/function hypothesis; it does not identify a universally spoken s word.",
+      "review_basis": "original_source_context",
+      "case_ids": [
+        "REPORT_PROPOSAL:b3e86019f415131b97f6"
+      ],
+      "source_case_count": 1,
+      "evidence": [
+        {
+          "line": 24,
+          "path": "experiments/yolo/gdt660_seventeen_residual_concrete_completion/REPORT.md",
+          "quote": "| `s` | 272 / 125 | im Text Samen-/Saatgutposten; im Label Zeichen | *species*- oder Sortenkürzel |",
+          "sha256": "e12818271a98bbe1930091c126ab973b7ae14f7579011c5894d769c7df9bf417"
+        },
+        {
+          "path": "experiments/yolo/gdt660_seventeen_residual_concrete_completion/REPORT.md",
+          "line": 14,
+          "quote": "| Form | Positionen / Seiten | konkrete V37-Arbeitslesung | stärkster Rivale |\n|---|---:|---|---|\n| `cholkar` | 3 / 3 | Trockengut: heiße Fraktion I | heißes Trockengut, Fraktion I |\n| `qodain` | 10 / 6 | Qualitätsgrad II | Ansatzdosis II |\n| `lcho` | 6 / 5 | Trockenansatz aus Drogenholz | getrocknete Holzzubereitung |\n| `kchor` | 19 / 19 | Drogenportion, heiß-trocken | heiß-trockener Drogenteil |\n| `okchan` | 1 / 1 | heiß-trockener Ansatz, Grad I | Rohstoffklasse I statt Grad I |\n| `opchar` | 2 / 2 | trockene Pulverfraktion I im Ansatz | Pulveransatz aus Fraktion I |\n| `ydy` | 5 / 5 | Wertfeldwechsel bzw. Eintragsschluss | abgeschlossene Grundform |\n| `schokey` | 1 / 1 | heiß-trockener Samenansatz in der Gradmitte | gelernte Samen-*species* |\n| `s` | 272 / 125 | im Text Samen-/Saatgutposten; im Label Zeichen | *species*- oder Sortenkürzel |\n| `dy` | 229 / 117 | aktuelles Qualitäts-/Wertfeld abgeschlossen | abgeschlossene Grundform |",
+          "sha256": "e12818271a98bbe1930091c126ab973b7ae14f7579011c5894d769c7df9bf417"
+        }
+      ]
+    },
+    {
+      "target": "SEM:3c10438f22e3346a6b0c",
+      "claim": "O56 denotes a recurring page-specific operation or plant part, such as head, juice, root, powder or preparation.",
+      "decision": "retype_functional_hypothesis",
+      "reason": "O56 has two explicitly live interpretations; operation/plant-part is the second, disjunctive one. The source explicitly assigns no gloss. Preserve this as the alternative local function, not identified head/juice/root/powder words.",
+      "review_basis": "original_source_context",
+      "case_ids": [
+        "ROOT400:6cef274baf1e3981dab8"
+      ],
+      "source_case_count": 1,
+      "evidence": [
+        {
+          "line": 256,
+          "path": "experiments/yolo/sidequest_theory_candidates_v10/CANDIDATE_V10_HISTORICAL_HERBAL_PRACTICE.md",
+          "quote": "2. **one page-specific recurrent operation or part**: for example a repeatedly\n   mentioned head, juice, root, powder or preparation.",
+          "sha256": "7a4ae76e0302f26d262c719b5310bb6fd785429ff15285959c3471acc4f35bbb"
+        },
+        {
+          "line": 259,
+          "path": "experiments/yolo/sidequest_theory_candidates_v10/CANDIDATE_V10_HISTORICAL_HERBAL_PRACTICE.md",
+          "quote": "The first is preferred because `O56` occupies four changing constructions and\nalternates between line entry and middle. But it is not assigned a gloss. A\nplant name repeated four times is possible, especially in a compressed\ntechnical register.",
+          "sha256": "7a4ae76e0302f26d262c719b5310bb6fd785429ff15285959c3471acc4f35bbb"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v10/CANDIDATE_V10_HISTORICAL_HERBAL_PRACTICE.md",
+          "line": 250,
+          "quote": "### What could `O56` be?\n\n`O56` is the best new candidate, but it has two live interpretations:\n\n1. **CURRENT_SIMPLE / ITS / OF-THIS**: an owner-resumption card repeated when a\n   new virtue or preparation clause resumes the pictured plant;\n2. **one page-specific recurrent operation or part**: for example a repeatedly\n   mentioned head, juice, root, powder or preparation.\n\nThe first is preferred because `O56` occupies four changing constructions and\nalternates between line entry and middle. But it is not assigned a gloss. A\nplant name repeated four times is possible, especially in a compressed\ntechnical register.",
+          "sha256": "7a4ae76e0302f26d262c719b5310bb6fd785429ff15285959c3471acc4f35bbb"
+        }
+      ]
+    },
+    {
+      "target": "SEM:4e9feba5bb2ce9ed353e",
+      "claim": "AROL → WATER",
+      "decision": "retain_historical_withdrawn",
+      "reason": "Two source cases and three excerpts explicitly preserve an earlier rigid AROL=WATER hypothesis and narrow its reported rejection. Water/sap/conduit-related constructions remain possible; do not generalize the source criticism to all water-related meanings.",
+      "review_basis": "original_source_context",
+      "case_ids": [
+        "CLEAN_COMPONENT:52f1ecd2128cf6c4ac57",
+        "CLEAN_COMPONENT:00e7e0fa91a29d98b573"
+      ],
+      "source_case_count": 2,
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 8,
+              "text": "Status: **deliberately speculative, post-hoc, and non-confirmatory**."
+            }
+          ],
+          "line": 84,
+          "line_end": 88,
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "quote": "Explicitly withdrawn readings include `AROL = WATER`, `OL = WATER`, simultaneous\n`CHOL = HOT` versus `OL = MEDIUM`, `CTHY = DRY`, `D=ASSIGN`, `S=RESUME`,\n`Q=NEXT`, SOL as a confirmed verb, a fixed DESCRIPTION→RECIPE order for the two\nHerbal packets, line equals sentence, a universal diagram-label dictionary,\nand a direct f68↔f69 28-name list. No exact card has a confirmed English meaning.",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945",
+          "source_id": "LEGACY_COMPONENT:1ba796f4f1b2635da61f",
+          "source_section": "Current synthesis after Iteration 148",
+          "table_header": null
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 8,
+              "text": "Status: **deliberately speculative, post-hoc, and non-confirmatory**."
+            }
+          ],
+          "line": 469,
+          "line_end": 472,
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "quote": "The original wording made the plant-label counterexamples do too much work. A\nplant illustration can perfectly well be accompanied by a note about water,\nsap, juice, soaking, irrigation, root uptake, or a conduit-like stalk. The\ncounterexamples exclude only the rigid equation `AROL = WATER`.",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945",
+          "source_id": "LEGACY_COMPONENT:9d2936ea05ae67abf758",
+          "source_section": "Iteration 4 — allow water in plant records",
+          "table_header": null
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 8,
+              "text": "Status: **deliberately speculative, post-hoc, and non-confirmatory**."
+            }
+          ],
+          "line": 352,
+          "line_end": 357,
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "quote": "The second form is transcription-uncertain (`sasoldal` in ZL3b versus\n`saroldal` in IT2a/RF1b). The attractive reading is therefore only that two\nparallel structures receive two related *catalogue addresses*. Their shared\npart identifies a local class; the edges distinguish relation/entry and\nvariant. Only the rigid equation `AROL = WATER` is excluded; a water-, sap-,\nor conduit-related construction can occur beside plants as well as apparatus.",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945",
+          "source_id": "LEGACY_COMPONENT:7e13a034e9d76ea172f3",
+          "source_section": "Biological — f83r",
+          "table_header": null
+        }
+      ],
+      "source_status": "historical_source_withdrawn_or_replaced",
+      "failure_reason": "Two source cases and three excerpts explicitly preserve an earlier rigid AROL=WATER hypothesis and narrow its reported rejection. Water/sap/conduit-related constructions remain possible; do not generalize the source criticism to all water-related meanings."
+    },
+    {
+      "target": "SEM:6404f5451704d66d0af8",
+      "claim": "PAGE_HOST / exact address → local item, state, material, or diagram-node code",
+      "decision": "retype_formal_role",
+      "reason": "The LHS is the PAGE_HOST/exact-address coordinate, not a manuscript word. The deliberate workshop guess assigns a possible content-bearing role to that coordinate. Preserve the hypothesis as a formal/functional role; do not export it as a lexeme.",
+      "review_basis": "original_source_context",
+      "case_ids": [
+        "CLEAN_COMPONENT:89e31dfc995e7e112c90"
+      ],
+      "source_case_count": 1,
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 8,
+              "text": "Status: **deliberately speculative, post-hoc, and non-confirmatory**."
+            }
+          ],
+          "line": 223,
+          "line_end": 223,
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "quote": "| `PAGE_HOST` / exact address | page-conditioned opaque value | local item, state, material, or diagram-node code |",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945",
+          "source_id": "LEGACY_COMPONENT:18743fa3265bcf611fc0",
+          "source_section": "Workshop dictionary v0.3",
+          "table_header": "| Form coordinate | Best structural reading | Deliberate workshop guess |"
+        },
+        {
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "line": 217,
+          "quote": "## Workshop dictionary v0.3\n\nThe right column is an intentionally aggressive guess, not a translation.\n\n| Form coordinate | Best structural reading | Deliberate workshop guess |\n|---|---|---|\n| `PAGE_HOST` / exact address | page-conditioned opaque value | local item, state, material, or diagram-node code |",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+        }
+      ]
+    },
+    {
+      "target": "SEM:6c8da7046281b6390029",
+      "claim": "chokcheo → gelernte Ganzform oder anders gebundener innerer Präparationskopf",
+      "decision": "retype_formal_role",
+      "reason": "The strongest-rival cell proposes a learned whole form or different internal binding. It does not give chokcheo a lexical meaning. Preserve as a segmentation/composition alternative rather than a word gloss.",
+      "review_basis": "original_source_context",
+      "case_ids": [
+        "REPORT_PROPOSAL:d4786f4ac1dd400b5476"
+      ],
+      "source_case_count": 1,
+      "evidence": [
+        {
+          "line": 16,
+          "path": "experiments/yolo/gdt658_four_residual_concrete_completion/REPORT.md",
+          "quote": "| `chokcheo` | 1 / 1 | `CHO + K + CHEO` | Trockenansatz aus einem heißen, bereits trocken aufbereiteten Präparat | gelernte Ganzform oder anders gebundener innerer Präparationskopf |",
+          "sha256": "71dac0d8656909f655821a1ca3f0c6b8cb47e69d06388857d96ca465ba6a343c"
+        },
+        {
+          "path": "experiments/yolo/gdt658_four_residual_concrete_completion/REPORT.md",
+          "line": 11,
+          "quote": "| Form | Positionen / exakt | sichtbare Architektur | konkrete V35-Arbeitslesung | stärkster Rivale |\n|---|---:|---|---|---|\n| `otam` | 44 / 39 | `O + T + AM` | ein Maß des kalten Ansatzes | gelernte Einheitsform oder kalte Zubereitung der Form I |\n| `shedefam` | 1 / 0 | `SHEDE + F + AM` | ein Maß eingeweichter Blütendroge | Frucht-, Blatt- oder opaker F-Materia-Kopf |\n| `schos` | 1 / 1 | `S + CHO + S` | trockene Arzneimischung aus Samen | Salz statt Samen; finales S als bloße Form-/Sortenklasse |\n| `chokcheo` | 1 / 1 | `CHO + K + CHEO` | Trockenansatz aus einem heißen, bereits trocken aufbereiteten Präparat | gelernte Ganzform oder anders gebundener innerer Präparationskopf |\n\nDie Karten sind bewusst ganze technische Ausdrücke. `F=Blüte` und finales\n`S=Arzneistoff-/Drogenart-Träger` gelten nicht als frei einsetzbare\nZeichenwerte.",
+          "sha256": "71dac0d8656909f655821a1ca3f0c6b8cb47e69d06388857d96ca465ba6a343c"
+        }
+      ]
+    },
+    {
+      "target": "SEM:77d98c25c0224b554f0e",
+      "claim": "Complete qokaldy is an opaque learned text form rather than any of the four proposed semantic assignments.",
+      "decision": "retype_formal_role",
+      "reason": "QOPAQUE is a preregistered whole-form countermodel, not a missing-data placeholder and not a lexical assignment. Keep the competing opaque learned-form mechanism in the hypothesis history, typed separately from the four meaning alternatives.",
+      "review_basis": "original_source_context",
+      "case_ids": [
+        "CLEAN_HYP:e7daba924491a435fe92"
+      ],
+      "source_case_count": 1,
+      "evidence": [
+        {
+          "line": 12,
+          "path": "experiments/yolo/gdt798_qokaldy_complete_whole_paragraph_discriminator/PREREGISTRATION.md",
+          "quote": "## Fixed hypotheses",
+          "sha256": "e8971feb081b8d0ffdf2d370df1408b6d221df42d5257d4e0d0d983fbdef323a"
+        },
+        {
+          "line": 14,
+          "path": "experiments/yolo/gdt798_qokaldy_complete_whole_paragraph_discriminator/PREREGISTRATION.md",
+          "quote": "- QREF: complete `qokaldy` = `davon` (text-internal back-reference).\n- QREM: complete `qokaldy` = `Heilmittel`.\n- QAPP: complete `qokaldy` = `anwenden`.\n- QSAME: complete `qokaldy` = GDT797's `Bade-/Behandlungseintrag`.\n- QOPAQUE: opaque learned text form.",
+          "sha256": "e8971feb081b8d0ffdf2d370df1408b6d221df42d5257d4e0d0d983fbdef323a"
+        },
+        {
+          "line": 20,
+          "path": "experiments/yolo/gdt798_qokaldy_complete_whole_paragraph_discriminator/PREREGISTRATION.md",
+          "quote": "All are whole-form hypotheses. A visual resemblance to `okaldy`, the analyst\nhandle DAQABBA, and the modern EVA character `q` have zero component credit.",
+          "sha256": "e8971feb081b8d0ffdf2d370df1408b6d221df42d5257d4e0d0d983fbdef323a"
+        },
+        {
+          "path": "experiments/yolo/gdt798_qokaldy_complete_whole_paragraph_discriminator/PREREGISTRATION.md",
+          "line": 12,
+          "quote": "## Fixed hypotheses\n\n- QREF: complete `qokaldy` = `davon` (text-internal back-reference).\n- QREM: complete `qokaldy` = `Heilmittel`.\n- QAPP: complete `qokaldy` = `anwenden`.\n- QSAME: complete `qokaldy` = GDT797's `Bade-/Behandlungseintrag`.\n- QOPAQUE: opaque learned text form.\n\nAll are whole-form hypotheses. A visual resemblance to `okaldy`, the analyst\nhandle DAQABBA, and the modern EVA character `q` have zero component credit.",
+          "sha256": "e8971feb081b8d0ffdf2d370df1408b6d221df42d5257d4e0d0d983fbdef323a"
+        }
+      ]
+    },
+    {
+      "target": "SEM:8204a2996f50989c4249",
+      "claim": "shedefam → Frucht-, Blatt- oder opaker F-Materia-Kopf",
+      "decision": "restate_component_scope",
+      "reason": "The whole-form shedefam row lists fruit/leaf/opaque F-Materia head as a strongest rival. Those alternatives concern internal F, not a complete translation of shedefam. Preserve the real rival but restate its component scope and retain the whole-form context; no free F lexeme is licensed.",
+      "review_basis": "original_source_context",
+      "case_ids": [
+        "REPORT_PROPOSAL:aa3c222ae982c500af63"
+      ],
+      "source_case_count": 1,
+      "evidence": [
+        {
+          "line": 14,
+          "path": "experiments/yolo/gdt658_four_residual_concrete_completion/REPORT.md",
+          "quote": "| `shedefam` | 1 / 0 | `SHEDE + F + AM` | ein Maß eingeweichter Blütendroge | Frucht-, Blatt- oder opaker F-Materia-Kopf |",
+          "sha256": "71dac0d8656909f655821a1ca3f0c6b8cb47e69d06388857d96ca465ba6a343c"
+        },
+        {
+          "path": "experiments/yolo/gdt658_four_residual_concrete_completion/REPORT.md",
+          "line": 11,
+          "quote": "| Form | Positionen / exakt | sichtbare Architektur | konkrete V35-Arbeitslesung | stärkster Rivale |\n|---|---:|---|---|---|\n| `otam` | 44 / 39 | `O + T + AM` | ein Maß des kalten Ansatzes | gelernte Einheitsform oder kalte Zubereitung der Form I |\n| `shedefam` | 1 / 0 | `SHEDE + F + AM` | ein Maß eingeweichter Blütendroge | Frucht-, Blatt- oder opaker F-Materia-Kopf |\n| `schos` | 1 / 1 | `S + CHO + S` | trockene Arzneimischung aus Samen | Salz statt Samen; finales S als bloße Form-/Sortenklasse |\n| `chokcheo` | 1 / 1 | `CHO + K + CHEO` | Trockenansatz aus einem heißen, bereits trocken aufbereiteten Präparat | gelernte Ganzform oder anders gebundener innerer Präparationskopf |\n\nDie Karten sind bewusst ganze technische Ausdrücke. `F=Blüte` und finales\n`S=Arzneistoff-/Drogenart-Träger` gelten nicht als frei einsetzbare\nZeichenwerte.",
+          "sha256": "71dac0d8656909f655821a1ca3f0c6b8cb47e69d06388857d96ca465ba6a343c"
+        }
+      ]
+    },
+    {
+      "target": "SEM:a11ab4d73e36ed949f0d",
+      "claim": "OL → MEDIUM",
+      "decision": "retain_historical_withdrawn_scoped",
+      "reason": "The exact source later supplies OL=relational carrier, locally IN/WITH A MEDIUM. Its supersession concerns the simultaneous CHOL=HOT and OL=MEDIUM model. Preserve the historical proposal and record only joint-model failure, not a standalone refutation of every medium reading.",
+      "review_basis": "original_source_context",
+      "case_ids": [
+        "CLEAN_COMPONENT:f982c0fe0f5fd514d5ac"
+      ],
+      "source_case_count": 1,
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 8,
+              "text": "Status: **deliberately speculative, post-hoc, and non-confirmatory**."
+            }
+          ],
+          "line": 84,
+          "line_end": 88,
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "quote": "Explicitly withdrawn readings include `AROL = WATER`, `OL = WATER`, simultaneous\n`CHOL = HOT` versus `OL = MEDIUM`, `CTHY = DRY`, `D=ASSIGN`, `S=RESUME`,\n`Q=NEXT`, SOL as a confirmed verb, a fixed DESCRIPTION→RECIPE order for the two\nHerbal packets, line equals sentence, a universal diagram-label dictionary,\nand a direct f68↔f69 28-name list. No exact card has a confirmed English meaning.",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945",
+          "source_id": "LEGACY_COMPONENT:1ba796f4f1b2635da61f",
+          "source_section": "Current synthesis after Iteration 148",
+          "table_header": null
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 8,
+              "text": "Status: **deliberately speculative, post-hoc, and non-confirmatory**."
+            }
+          ],
+          "line": 6993,
+          "line_end": 6995,
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "quote": "**Superseded by Iteration 133.** The exercise below was useful because its\nsimultaneous `CHOL=HOT` and `OL=MEDIUM` assignments make a crisp prediction;\nthe exact joint-card audit then falsifies that prediction.",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945",
+          "source_id": "LEGACY_COMPONENT:8cde710710a1a4e2e83c",
+          "source_section": "Iteration 124 — one coherent but deliberately risky plaintext world",
+          "table_header": null
+        },
+        {
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "line": 6991,
+          "quote": "## Iteration 124 — one coherent but deliberately risky plaintext world\n\n**Superseded by Iteration 133.** The exercise below was useful because its\nsimultaneous `CHOL=HOT` and `OL=MEDIUM` assignments make a crisp prediction;\nthe exact joint-card audit then falsifies that prediction.\n\nTo avoid hiding forever behind anonymous labels, one complete content world can\nbe written down and then kept visibly below the formal theory. The most coherent\ncurrent guess is:\n\n```text\nCHOL        = first constitution/quality value, provisionally HOT\nCTHY        = paired constitution/quality value, provisionally DRY\nAIIN        = scalar setting: degree, dose, count or registered value\nD + AIIN    = enter/assign that scalar\nOL          = relational carrier, locally IN/WITH A MEDIUM\nSOL         = Bio construction/instruction head\nattached DY = commit the selected local state\nQOK...      = renderer-heavy entry family, not a translatable Q word\n```",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+        }
+      ],
+      "source_status": "historical_source_withdrawn_or_replaced",
+      "failure_reason": "The exact source later supplies OL=relational carrier, locally IN/WITH A MEDIUM. Its supersession concerns the simultaneous CHOL=HOT and OL=MEDIUM model. Preserve the historical proposal and record only joint-model failure, not a standalone refutation of every medium reading."
+    },
+    {
+      "target": "SEM:cae3510c4b31d90f752e",
+      "claim": "ylg → Drogenposten/Abschlusszeichen",
+      "decision": "retain_scoped_rival",
+      "reason": "The table explicitly labels this a serious rival to giving into a wooden vessel. It combines a drug-item interpretation and a closure-sign interpretation; preserve both alternatives with their different semantic/formal types, not as a confirmed single gloss.",
+      "review_basis": "original_source_context",
+      "case_ids": [
+        "REPORT_PROPOSAL:a090633c41d2cf1965b5"
+      ],
+      "source_case_count": 1,
+      "evidence": [
+        {
+          "line": 90,
+          "path": "experiments/yolo/gdt663_one_hundred_two_residual_family_completion/REPORT.md",
+          "quote": "| `ylg` | in ein Holzgefäß geben | Drogenposten/Abschlusszeichen |",
+          "sha256": "6d71b5873a2138f7f3385fdd8abbab1fd177fdd498bb90beff15bf1109769ec6"
+        },
+        {
+          "path": "experiments/yolo/gdt663_one_hundred_two_residual_family_completion/REPORT.md",
+          "line": 85,
+          "quote": "| Form | V40 | ernsthafter Rivale |\n|---|---|---|\n| `alkal` | Laugensalz / Alkali | heißer Rohstoff I |\n| `solaiin` | Salz, Menge III | Saatgut, Charge III |\n| `cthoj` | ein Bündel Kraut | bloßer Krautansatz |\n| `ylg` | in ein Holzgefäß geben | Drogenposten/Abschlusszeichen |\n| `deeeese` | bis zur letzten Stufe ruhen lassen | vierfach konzentrierte Species |\n| `dosg` | eine Dosis Rückstand | abgemessener Samenansatz |\n| `cthosg` | Krautrückstand | fertige Krautarzneispecies |\n\n`alkal` sieht verführerisch wie ein lesbares Lehnwort aus; gerade deshalb\nbleibt es eine LOW-Karte und erzeugt keine Buchstaben- oder Sprachbehauptung.",
+          "sha256": "6d71b5873a2138f7f3385fdd8abbab1fd177fdd498bb90beff15bf1109769ec6"
+        }
+      ]
+    },
+    {
+      "target": "SEM:d12c4c78e44437f8489e",
+      "claim": "otam → gelernte Einheitsform oder kalte Zubereitung der Form I",
+      "decision": "retain_scoped_rival",
+      "reason": "This strongest-rival cell mixes learned whole-form status with an actual semantic alternative, cold preparation of form I. Preserve the explicit rival with its disjunction; do not erase the genuine content hypothesis or export AM/form-I independently.",
+      "review_basis": "original_source_context",
+      "case_ids": [
+        "REPORT_PROPOSAL:abe62892f7330194d418"
+      ],
+      "source_case_count": 1,
+      "evidence": [
+        {
+          "line": 13,
+          "path": "experiments/yolo/gdt658_four_residual_concrete_completion/REPORT.md",
+          "quote": "| `otam` | 44 / 39 | `O + T + AM` | ein Maß des kalten Ansatzes | gelernte Einheitsform oder kalte Zubereitung der Form I |",
+          "sha256": "71dac0d8656909f655821a1ca3f0c6b8cb47e69d06388857d96ca465ba6a343c"
+        },
+        {
+          "path": "experiments/yolo/gdt658_four_residual_concrete_completion/REPORT.md",
+          "line": 11,
+          "quote": "| Form | Positionen / exakt | sichtbare Architektur | konkrete V35-Arbeitslesung | stärkster Rivale |\n|---|---:|---|---|---|\n| `otam` | 44 / 39 | `O + T + AM` | ein Maß des kalten Ansatzes | gelernte Einheitsform oder kalte Zubereitung der Form I |\n| `shedefam` | 1 / 0 | `SHEDE + F + AM` | ein Maß eingeweichter Blütendroge | Frucht-, Blatt- oder opaker F-Materia-Kopf |\n| `schos` | 1 / 1 | `S + CHO + S` | trockene Arzneimischung aus Samen | Salz statt Samen; finales S als bloße Form-/Sortenklasse |\n| `chokcheo` | 1 / 1 | `CHO + K + CHEO` | Trockenansatz aus einem heißen, bereits trocken aufbereiteten Präparat | gelernte Ganzform oder anders gebundener innerer Präparationskopf |\n\nDie Karten sind bewusst ganze technische Ausdrücke. `F=Blüte` und finales\n`S=Arzneistoff-/Drogenart-Träger` gelten nicht als frei einsetzbare\nZeichenwerte.",
+          "sha256": "71dac0d8656909f655821a1ca3f0c6b8cb47e69d06388857d96ca465ba6a343c"
+        }
+      ]
+    },
+    {
+      "target": "SEM:f4498b6a86d2ff0ec9bd",
+      "claim": "Daiin assigns a value to the anonymous N2 channel; N2 is a transcription label, not the number two.",
+      "decision": "retype_functional_hypothesis",
+      "reason": "SET VALUE N2 is an explicit historical value-assignment model. N/R/L/E are anonymous transcription channels, not spoken initials. Preserve the operation/channel claim, with portion only a Herbal paraphrase; do not treat N2 as a numeral translation.",
+      "review_basis": "original_source_context",
+      "case_ids": [
+        "CLEAN_HYP:5acd40f43db860e5abd9"
+      ],
+      "source_case_count": 1,
+      "evidence": [
+        {
+          "line": 1800,
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "quote": "### Updated value model",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+        },
+        {
+          "line": 1809,
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "quote": "The channel names are anonymous transcription labels, not sounds or initials.",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+        },
+        {
+          "line": 1811,
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "quote": "The best concrete gloss for `daiin` is now **SET VALUE N2**, with “take a\nportion” retained only as a context-specific Herbal paraphrase.",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+        },
+        {
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "line": 1800,
+          "quote": "### Updated value model\n\n```text\nN-channel  scalar quantity/index/setting\nR-channel  paired route/quality/category setting\nL-channel  another categorical endpoint/state\nE-channel  process intensity/duration grade\n```\n\nThe channel names are anonymous transcription labels, not sounds or initials.\n\nThe best concrete gloss for `daiin` is now **SET VALUE N2**, with “take a\nportion” retained only as a context-specific Herbal paraphrase.",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+        }
+      ]
+    },
+    {
+      "target": "SEM:f81d743a225a1ec5ead0",
+      "claim": "B3 → full stop / RECORD COMPLETE",
+      "decision": "retype_formal_role",
+      "reason": "B3 is a record-closure coordinate in the Form coordinate table. Full stop/RECORD COMPLETE is a proposed punctuation/closure rendering, not a lexical translation. Preserve the role hypothesis.",
+      "review_basis": "original_source_context",
+      "case_ids": [
+        "CLEAN_COMPONENT:dacc20f22158b765a25e"
+      ],
+      "source_case_count": 1,
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 8,
+              "text": "Status: **deliberately speculative, post-hoc, and non-confirmatory**."
+            }
+          ],
+          "line": 235,
+          "line_end": 235,
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "quote": "| `B3` | harder record closure | full stop / **RECORD COMPLETE** |",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945",
+          "source_id": "LEGACY_COMPONENT:af45fe48717fa18420ec",
+          "source_section": "Workshop dictionary v0.3",
+          "table_header": "| Form coordinate | Best structural reading | Deliberate workshop guess |"
+        },
+        {
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "line": 219,
+          "quote": "The right column is an intentionally aggressive guess, not a translation.\n\n| Form coordinate | Best structural reading | Deliberate workshop guess |\n|---|---|---|\n| `PAGE_HOST` / exact address | page-conditioned opaque value | local item, state, material, or diagram-node code |\n| `s-` | licensed physical-line-entry renderer | **NEW ENTRY / resume at margin** |\n| `q-` | licensed post-DY renderer; productive `q+X` | **NEXT / linked continuation** |\n| `d-` | recurrent binding wrapper | **OF / AT / WITH** relation |\n| `ch-` | broad construction wrapper | ordinary **DESCRIPTOR** |\n| `che-` | related extended wrapper | elaborated/derived descriptor |\n| `sh-` | contrasting construction wrapper | state/result descriptor |\n| `O` | local frame | default/current frame |\n| `OT` | marked frame | alternate, referenced, or derived frame |\n| right `aiin/ain` | recurrent right-side value family | count, index, or measure class |\n| right `al/ar` | recurrent paired value families | two opposed variant classes, not left/right directions |\n| `DY` | field closure | semicolon / **FIELD COMPLETE** |\n| `B3` | harder record closure | full stop / **RECORD COMPLETE** |\n| joined label | compressed record address | catalogue key with omitted field separators |",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+        }
+      ]
+    }
+  ],
+  "source_exclusions": [
+    {
+      "target": "SEM:12245693b1f6e69bbc60",
+      "claim": "TSH → waschen",
+      "decision": "exclude_negated_nonassignment",
+      "reason": "The sole cited case is under TSH — kein gemeinsamer Stamm and denies a general TSH=waschen export from two different whole cards. The cited passage does not select or test a TSH dictionary entry. Archive this extraction while preserving the source warning and the whole-card hypotheses.",
+      "review_basis": "original_source_context",
+      "case_ids": [
+        "CLEAN_COMPONENT:6bcf7d33305838dee90c"
+      ],
+      "source_case_count": 1,
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 3,
+              "text": "Status: ausdrücklich kreative Werkstattrekonstruktion auf den festen zehn"
+            }
+          ],
+          "line": 137,
+          "line_end": 140,
+          "path": "experiments/yolo/sidequest_semantic_filtration_separation_completion/DRAUGHTSMAN_FILTRATION_REPORT.md",
+          "quote": "`TSHEY` (`d4a31dbcf1ed6d9e5aa9`, E212) heißt weiterhin „Spülung beginnen“.\nAber `TSHOL` (`953ad19b79517fc8a211`, E039) ist im starken H3-Rezept die\ngelernte Pflanzenkarte „Blütenkraut“. Ein allgemeines `TSH = waschen` würde\ndiese Passage zerstören. Beide Werte bleiben konkrete Ganzkarten.",
+          "sha256": "15cc55baf8430628aad31c01dec2c34a3fd664f222906ec8239bc6f603f65c49",
+          "source_id": "LEGACY_COMPONENT:52f09fe6a27ab06edbd3",
+          "source_section": "TSH — kein gemeinsamer Stamm",
+          "table_header": null
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_filtration_separation_completion/DRAUGHTSMAN_FILTRATION_REPORT.md",
+          "line": 135,
+          "quote": "### TSH — kein gemeinsamer Stamm\n\n`TSHEY` (`d4a31dbcf1ed6d9e5aa9`, E212) heißt weiterhin „Spülung beginnen“.\nAber `TSHOL` (`953ad19b79517fc8a211`, E039) ist im starken H3-Rezept die\ngelernte Pflanzenkarte „Blütenkraut“. Ein allgemeines `TSH = waschen` würde\ndiese Passage zerstören. Beide Werte bleiben konkrete Ganzkarten.",
+          "sha256": "15cc55baf8430628aad31c01dec2c34a3fd664f222906ec8239bc6f603f65c49"
+        }
+      ]
+    }
+  ],
+  "datatype_corrections": [
+    {
+      "target": "SEM:3c10438f22e3346a6b0c",
+      "claim": "O56 denotes a recurring page-specific operation or plant part, such as head, juice, root, powder or preparation.",
+      "decision": "retype_functional_hypothesis",
+      "reason": "O56 has two explicitly live interpretations; operation/plant-part is the second, disjunctive one. The source explicitly assigns no gloss. Preserve this as the alternative local function, not identified head/juice/root/powder words.",
+      "review_basis": "original_source_context",
+      "case_ids": [
+        "ROOT400:6cef274baf1e3981dab8"
+      ],
+      "source_case_count": 1,
+      "evidence": [
+        {
+          "line": 256,
+          "path": "experiments/yolo/sidequest_theory_candidates_v10/CANDIDATE_V10_HISTORICAL_HERBAL_PRACTICE.md",
+          "quote": "2. **one page-specific recurrent operation or part**: for example a repeatedly\n   mentioned head, juice, root, powder or preparation.",
+          "sha256": "7a4ae76e0302f26d262c719b5310bb6fd785429ff15285959c3471acc4f35bbb"
+        },
+        {
+          "line": 259,
+          "path": "experiments/yolo/sidequest_theory_candidates_v10/CANDIDATE_V10_HISTORICAL_HERBAL_PRACTICE.md",
+          "quote": "The first is preferred because `O56` occupies four changing constructions and\nalternates between line entry and middle. But it is not assigned a gloss. A\nplant name repeated four times is possible, especially in a compressed\ntechnical register.",
+          "sha256": "7a4ae76e0302f26d262c719b5310bb6fd785429ff15285959c3471acc4f35bbb"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v10/CANDIDATE_V10_HISTORICAL_HERBAL_PRACTICE.md",
+          "line": 250,
+          "quote": "### What could `O56` be?\n\n`O56` is the best new candidate, but it has two live interpretations:\n\n1. **CURRENT_SIMPLE / ITS / OF-THIS**: an owner-resumption card repeated when a\n   new virtue or preparation clause resumes the pictured plant;\n2. **one page-specific recurrent operation or part**: for example a repeatedly\n   mentioned head, juice, root, powder or preparation.\n\nThe first is preferred because `O56` occupies four changing constructions and\nalternates between line entry and middle. But it is not assigned a gloss. A\nplant name repeated four times is possible, especially in a compressed\ntechnical register.",
+          "sha256": "7a4ae76e0302f26d262c719b5310bb6fd785429ff15285959c3471acc4f35bbb"
+        }
+      ]
+    },
+    {
+      "target": "SEM:6404f5451704d66d0af8",
+      "claim": "PAGE_HOST / exact address → local item, state, material, or diagram-node code",
+      "decision": "retype_formal_role",
+      "reason": "The LHS is the PAGE_HOST/exact-address coordinate, not a manuscript word. The deliberate workshop guess assigns a possible content-bearing role to that coordinate. Preserve the hypothesis as a formal/functional role; do not export it as a lexeme.",
+      "review_basis": "original_source_context",
+      "case_ids": [
+        "CLEAN_COMPONENT:89e31dfc995e7e112c90"
+      ],
+      "source_case_count": 1,
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 8,
+              "text": "Status: **deliberately speculative, post-hoc, and non-confirmatory**."
+            }
+          ],
+          "line": 223,
+          "line_end": 223,
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "quote": "| `PAGE_HOST` / exact address | page-conditioned opaque value | local item, state, material, or diagram-node code |",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945",
+          "source_id": "LEGACY_COMPONENT:18743fa3265bcf611fc0",
+          "source_section": "Workshop dictionary v0.3",
+          "table_header": "| Form coordinate | Best structural reading | Deliberate workshop guess |"
+        },
+        {
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "line": 217,
+          "quote": "## Workshop dictionary v0.3\n\nThe right column is an intentionally aggressive guess, not a translation.\n\n| Form coordinate | Best structural reading | Deliberate workshop guess |\n|---|---|---|\n| `PAGE_HOST` / exact address | page-conditioned opaque value | local item, state, material, or diagram-node code |",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+        }
+      ]
+    },
+    {
+      "target": "SEM:6c8da7046281b6390029",
+      "claim": "chokcheo → gelernte Ganzform oder anders gebundener innerer Präparationskopf",
+      "decision": "retype_formal_role",
+      "reason": "The strongest-rival cell proposes a learned whole form or different internal binding. It does not give chokcheo a lexical meaning. Preserve as a segmentation/composition alternative rather than a word gloss.",
+      "review_basis": "original_source_context",
+      "case_ids": [
+        "REPORT_PROPOSAL:d4786f4ac1dd400b5476"
+      ],
+      "source_case_count": 1,
+      "evidence": [
+        {
+          "line": 16,
+          "path": "experiments/yolo/gdt658_four_residual_concrete_completion/REPORT.md",
+          "quote": "| `chokcheo` | 1 / 1 | `CHO + K + CHEO` | Trockenansatz aus einem heißen, bereits trocken aufbereiteten Präparat | gelernte Ganzform oder anders gebundener innerer Präparationskopf |",
+          "sha256": "71dac0d8656909f655821a1ca3f0c6b8cb47e69d06388857d96ca465ba6a343c"
+        },
+        {
+          "path": "experiments/yolo/gdt658_four_residual_concrete_completion/REPORT.md",
+          "line": 11,
+          "quote": "| Form | Positionen / exakt | sichtbare Architektur | konkrete V35-Arbeitslesung | stärkster Rivale |\n|---|---:|---|---|---|\n| `otam` | 44 / 39 | `O + T + AM` | ein Maß des kalten Ansatzes | gelernte Einheitsform oder kalte Zubereitung der Form I |\n| `shedefam` | 1 / 0 | `SHEDE + F + AM` | ein Maß eingeweichter Blütendroge | Frucht-, Blatt- oder opaker F-Materia-Kopf |\n| `schos` | 1 / 1 | `S + CHO + S` | trockene Arzneimischung aus Samen | Salz statt Samen; finales S als bloße Form-/Sortenklasse |\n| `chokcheo` | 1 / 1 | `CHO + K + CHEO` | Trockenansatz aus einem heißen, bereits trocken aufbereiteten Präparat | gelernte Ganzform oder anders gebundener innerer Präparationskopf |\n\nDie Karten sind bewusst ganze technische Ausdrücke. `F=Blüte` und finales\n`S=Arzneistoff-/Drogenart-Träger` gelten nicht als frei einsetzbare\nZeichenwerte.",
+          "sha256": "71dac0d8656909f655821a1ca3f0c6b8cb47e69d06388857d96ca465ba6a343c"
+        }
+      ]
+    },
+    {
+      "target": "SEM:77d98c25c0224b554f0e",
+      "claim": "Complete qokaldy is an opaque learned text form rather than any of the four proposed semantic assignments.",
+      "decision": "retype_formal_role",
+      "reason": "QOPAQUE is a preregistered whole-form countermodel, not a missing-data placeholder and not a lexical assignment. Keep the competing opaque learned-form mechanism in the hypothesis history, typed separately from the four meaning alternatives.",
+      "review_basis": "original_source_context",
+      "case_ids": [
+        "CLEAN_HYP:e7daba924491a435fe92"
+      ],
+      "source_case_count": 1,
+      "evidence": [
+        {
+          "line": 12,
+          "path": "experiments/yolo/gdt798_qokaldy_complete_whole_paragraph_discriminator/PREREGISTRATION.md",
+          "quote": "## Fixed hypotheses",
+          "sha256": "e8971feb081b8d0ffdf2d370df1408b6d221df42d5257d4e0d0d983fbdef323a"
+        },
+        {
+          "line": 14,
+          "path": "experiments/yolo/gdt798_qokaldy_complete_whole_paragraph_discriminator/PREREGISTRATION.md",
+          "quote": "- QREF: complete `qokaldy` = `davon` (text-internal back-reference).\n- QREM: complete `qokaldy` = `Heilmittel`.\n- QAPP: complete `qokaldy` = `anwenden`.\n- QSAME: complete `qokaldy` = GDT797's `Bade-/Behandlungseintrag`.\n- QOPAQUE: opaque learned text form.",
+          "sha256": "e8971feb081b8d0ffdf2d370df1408b6d221df42d5257d4e0d0d983fbdef323a"
+        },
+        {
+          "line": 20,
+          "path": "experiments/yolo/gdt798_qokaldy_complete_whole_paragraph_discriminator/PREREGISTRATION.md",
+          "quote": "All are whole-form hypotheses. A visual resemblance to `okaldy`, the analyst\nhandle DAQABBA, and the modern EVA character `q` have zero component credit.",
+          "sha256": "e8971feb081b8d0ffdf2d370df1408b6d221df42d5257d4e0d0d983fbdef323a"
+        },
+        {
+          "path": "experiments/yolo/gdt798_qokaldy_complete_whole_paragraph_discriminator/PREREGISTRATION.md",
+          "line": 12,
+          "quote": "## Fixed hypotheses\n\n- QREF: complete `qokaldy` = `davon` (text-internal back-reference).\n- QREM: complete `qokaldy` = `Heilmittel`.\n- QAPP: complete `qokaldy` = `anwenden`.\n- QSAME: complete `qokaldy` = GDT797's `Bade-/Behandlungseintrag`.\n- QOPAQUE: opaque learned text form.\n\nAll are whole-form hypotheses. A visual resemblance to `okaldy`, the analyst\nhandle DAQABBA, and the modern EVA character `q` have zero component credit.",
+          "sha256": "e8971feb081b8d0ffdf2d370df1408b6d221df42d5257d4e0d0d983fbdef323a"
+        }
+      ]
+    },
+    {
+      "target": "SEM:8204a2996f50989c4249",
+      "claim": "shedefam → Frucht-, Blatt- oder opaker F-Materia-Kopf",
+      "decision": "restate_component_scope",
+      "reason": "The whole-form shedefam row lists fruit/leaf/opaque F-Materia head as a strongest rival. Those alternatives concern internal F, not a complete translation of shedefam. Preserve the real rival but restate its component scope and retain the whole-form context; no free F lexeme is licensed.",
+      "review_basis": "original_source_context",
+      "case_ids": [
+        "REPORT_PROPOSAL:aa3c222ae982c500af63"
+      ],
+      "source_case_count": 1,
+      "evidence": [
+        {
+          "line": 14,
+          "path": "experiments/yolo/gdt658_four_residual_concrete_completion/REPORT.md",
+          "quote": "| `shedefam` | 1 / 0 | `SHEDE + F + AM` | ein Maß eingeweichter Blütendroge | Frucht-, Blatt- oder opaker F-Materia-Kopf |",
+          "sha256": "71dac0d8656909f655821a1ca3f0c6b8cb47e69d06388857d96ca465ba6a343c"
+        },
+        {
+          "path": "experiments/yolo/gdt658_four_residual_concrete_completion/REPORT.md",
+          "line": 11,
+          "quote": "| Form | Positionen / exakt | sichtbare Architektur | konkrete V35-Arbeitslesung | stärkster Rivale |\n|---|---:|---|---|---|\n| `otam` | 44 / 39 | `O + T + AM` | ein Maß des kalten Ansatzes | gelernte Einheitsform oder kalte Zubereitung der Form I |\n| `shedefam` | 1 / 0 | `SHEDE + F + AM` | ein Maß eingeweichter Blütendroge | Frucht-, Blatt- oder opaker F-Materia-Kopf |\n| `schos` | 1 / 1 | `S + CHO + S` | trockene Arzneimischung aus Samen | Salz statt Samen; finales S als bloße Form-/Sortenklasse |\n| `chokcheo` | 1 / 1 | `CHO + K + CHEO` | Trockenansatz aus einem heißen, bereits trocken aufbereiteten Präparat | gelernte Ganzform oder anders gebundener innerer Präparationskopf |\n\nDie Karten sind bewusst ganze technische Ausdrücke. `F=Blüte` und finales\n`S=Arzneistoff-/Drogenart-Träger` gelten nicht als frei einsetzbare\nZeichenwerte.",
+          "sha256": "71dac0d8656909f655821a1ca3f0c6b8cb47e69d06388857d96ca465ba6a343c"
+        }
+      ]
+    },
+    {
+      "target": "SEM:f4498b6a86d2ff0ec9bd",
+      "claim": "Daiin assigns a value to the anonymous N2 channel; N2 is a transcription label, not the number two.",
+      "decision": "retype_functional_hypothesis",
+      "reason": "SET VALUE N2 is an explicit historical value-assignment model. N/R/L/E are anonymous transcription channels, not spoken initials. Preserve the operation/channel claim, with portion only a Herbal paraphrase; do not treat N2 as a numeral translation.",
+      "review_basis": "original_source_context",
+      "case_ids": [
+        "CLEAN_HYP:5acd40f43db860e5abd9"
+      ],
+      "source_case_count": 1,
+      "evidence": [
+        {
+          "line": 1800,
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "quote": "### Updated value model",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+        },
+        {
+          "line": 1809,
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "quote": "The channel names are anonymous transcription labels, not sounds or initials.",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+        },
+        {
+          "line": 1811,
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "quote": "The best concrete gloss for `daiin` is now **SET VALUE N2**, with “take a\nportion” retained only as a context-specific Herbal paraphrase.",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+        },
+        {
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "line": 1800,
+          "quote": "### Updated value model\n\n```text\nN-channel  scalar quantity/index/setting\nR-channel  paired route/quality/category setting\nL-channel  another categorical endpoint/state\nE-channel  process intensity/duration grade\n```\n\nThe channel names are anonymous transcription labels, not sounds or initials.\n\nThe best concrete gloss for `daiin` is now **SET VALUE N2**, with “take a\nportion” retained only as a context-specific Herbal paraphrase.",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+        }
+      ]
+    },
+    {
+      "target": "SEM:f81d743a225a1ec5ead0",
+      "claim": "B3 → full stop / RECORD COMPLETE",
+      "decision": "retype_formal_role",
+      "reason": "B3 is a record-closure coordinate in the Form coordinate table. Full stop/RECORD COMPLETE is a proposed punctuation/closure rendering, not a lexical translation. Preserve the role hypothesis.",
+      "review_basis": "original_source_context",
+      "case_ids": [
+        "CLEAN_COMPONENT:dacc20f22158b765a25e"
+      ],
+      "source_case_count": 1,
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 8,
+              "text": "Status: **deliberately speculative, post-hoc, and non-confirmatory**."
+            }
+          ],
+          "line": 235,
+          "line_end": 235,
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "quote": "| `B3` | harder record closure | full stop / **RECORD COMPLETE** |",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945",
+          "source_id": "LEGACY_COMPONENT:af45fe48717fa18420ec",
+          "source_section": "Workshop dictionary v0.3",
+          "table_header": "| Form coordinate | Best structural reading | Deliberate workshop guess |"
+        },
+        {
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "line": 219,
+          "quote": "The right column is an intentionally aggressive guess, not a translation.\n\n| Form coordinate | Best structural reading | Deliberate workshop guess |\n|---|---|---|\n| `PAGE_HOST` / exact address | page-conditioned opaque value | local item, state, material, or diagram-node code |\n| `s-` | licensed physical-line-entry renderer | **NEW ENTRY / resume at margin** |\n| `q-` | licensed post-DY renderer; productive `q+X` | **NEXT / linked continuation** |\n| `d-` | recurrent binding wrapper | **OF / AT / WITH** relation |\n| `ch-` | broad construction wrapper | ordinary **DESCRIPTOR** |\n| `che-` | related extended wrapper | elaborated/derived descriptor |\n| `sh-` | contrasting construction wrapper | state/result descriptor |\n| `O` | local frame | default/current frame |\n| `OT` | marked frame | alternate, referenced, or derived frame |\n| right `aiin/ain` | recurrent right-side value family | count, index, or measure class |\n| right `al/ar` | recurrent paired value families | two opposed variant classes, not left/right directions |\n| `DY` | field closure | semicolon / **FIELD COMPLETE** |\n| `B3` | harder record closure | full stop / **RECORD COMPLETE** |\n| joined label | compressed record address | catalogue key with omitted field separators |",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "No base cards, ledger, source bytes or experiments changed. Root reviews and applies any overlay.",
+    "All retained meanings are hypotheses; no confirmed lexical meaning follows from this source audit.",
+    "Rejected trials are retained. Source-local criticism, creative semantic coherence and formal-role evidence are not independent manuscript translations.",
+    "A complete source card is not equated with an atomic stem; anonymous addresses and technical boundary codes do not become words.",
+    "No raw manuscript, image, sealed data, metadata side route or external search accessed.",
+    "Prior A–E scopes excluded by exact ID; this is not a global completeness claim."
+  ],
+  "validation": {
+    "status": "PASS",
+    "scope_count": 19,
+    "decision_counts": {
+      "retain_scoped_rival": 5,
+      "retain_historical_withdrawn": 3,
+      "retain_explicit_countermodel": 1,
+      "retain_historical_replaced": 1,
+      "exclude_negated_nonassignment": 1,
+      "retype_functional_hypothesis": 2,
+      "retype_formal_role": 4,
+      "restate_component_scope": 1,
+      "retain_historical_withdrawn_scoped": 1
+    },
+    "source_exclusions": 1,
+    "datatype_corrections": 7,
+    "exact_quote_and_source_hash_records_checked": 62,
+    "one_disposition_per_scope_id": true,
+    "no_overlap_previous_scopes": true,
+    "public_scope_cards": 19,
+    "public_datatype_corrections": 7
+  },
+  "public_scope_note": "Nineteen public cards are represented here; seventy-three local supplement cards are reviewed separately in ignored local memory. Local source quotes are not published."
+}

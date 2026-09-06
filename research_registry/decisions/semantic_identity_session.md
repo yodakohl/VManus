@@ -50,3 +50,14 @@ groups, seven scoped dossiers, preserved originals and10k cached paging. Budget
 45minutes including implementation, independent verification and publication.
 The additional E source pass found8 more false assignments and one actual
 segmentation rival that belongs in formal roles. No new experiment selected.
+
+Source-recovery checkpoint: J/M exposed actual missing historical readings.
+The third material packet adds14 source-bound propositions and one additional
+Y source case, expands approved identity to38 groups/47 reductions and scoped
+question context to13 dossiers. Seven conditional priorities remain not ready;
+existing evidence supplies no newly justified semantic experiment. Public and
+local correction packets are separated: public34 archives/13 restatements;
+local B3 formal-role correction remains ignored with its original sources.
+Next bounded work resolves the35 open J/M scope comparisons and tests the
+colon-list extraction gap on further source blocks. No new infrastructure or
+decoder follows automatically from these memory findings.

@@ -4,7 +4,7 @@ Updated: 2026-09-06. Read first.
 ## Current mandate and effort limit
 
 New mandate:10h from2026-09-06 16:41:44UTC to2026-09-07 02:41:44UTC unless interrupted.
-First curate semantic identity/failures/priorities; then select research.
+Continue semantic source recovery, scoped identity and failure/priorities.
 Session: `research_registry/decisions/semantic_identity_session.md`.
 
 GDT858:855/963primary808folds retained opposite-face training;169faces/90leaves.

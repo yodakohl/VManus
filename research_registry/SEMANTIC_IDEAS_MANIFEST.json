@@ -1,21 +1,23 @@
 {
-  "archive_sha256": "3e8d896fbe920b434baa02215fd6ad98805e84306baaa4d9f73c8008d9c0f66c",
-  "archived_source_cases": 34,
-  "archived_source_errors": 33,
-  "builder_sha256": "b68f2235d45b52269844b28cb29a5312d78d0905bc6e6dee198b412be334a892",
-  "cards": 3379,
+  "archive_sha256": "0f69f6c5d228e3e747e573e2bea7e4970e9d4c4571da2a81b8fce0c9ffa5bf5e",
+  "archived_source_cases": 35,
+  "archived_source_errors": 34,
+  "builder_sha256": "ba932a928a257ea8874634348f352fa8eade7199d847b7b0ed636cfd78028de9",
+  "cards": 3392,
   "claim_types": {
-    "formal_role": 405,
-    "functional_hypothesis": 245,
+    "formal_role": 408,
+    "functional_hypothesis": 254,
     "lexical_hypothesis": 1836,
-    "semantic_model": 893
+    "semantic_model": 894
   },
-  "data_sha256": "4ae83210dbc0ba59044d43a75fa3e88d566f6a711dfdaffbb69fb55a21799e14",
-  "exact_assertion_repetitions_grouped": 453,
-  "formal_role_cards": 405,
+  "data_sha256": "10c550af6d09ab00abf30e074a13b46867db743981ae17cc8200c67923051b67",
+  "exact_assertion_repetitions_grouped": 454,
+  "formal_role_cards": 408,
   "input_sha256": {
     "research_registry/decisions/clean_component_review.json": "66203c3a57d8827dcdfc86ed497925d81368ebd7c3048f965367ced8d11cb24e",
     "research_registry/decisions/clean_final_sidequest_review.json": "55be386a0e1980355cb403076a0217767d587277205d112ab1ed3519c192ad11",
+    "research_registry/decisions/clean_gap_review_l.json": "9963545b58e12b14d2408dd3ffeca89e180b874bc7b2d0480a42a30b89c141a2",
+    "research_registry/decisions/clean_gap_review_o.json": "f2cdb0c902df9ef6c7827028d3f71087a5ffc7f30c9cd39307a7997ee4185edf",
     "research_registry/decisions/clean_historical_review.json": "b68bac220d14b9258467b6cf6831cf636042425e563e3f857bf53ce7d33baa1e",
     "research_registry/decisions/clean_ip_review.json": "222e28b299c639f4bedddb923399b93de530785bfd4d1438ccda5733628d4958",
     "research_registry/decisions/clean_late_sidequest_review.json": "2b2435bbf824e64048efc702e4e5e1d7a8644335808c56dd4fcaf0ba4c1d3650",
@@ -24,8 +26,8 @@
     "research_registry/decisions/clean_proposal_review.json": "b61b945b3101822932c4bcb4b5a3236e2da3d3675441357e0adf02c12b3de19f",
     "research_registry/decisions/clean_report_proposals_review.json": "17055a7e3c76fc821f9caf787d2d5d48c69072010936ddffd553f8fd1555caa1",
     "research_registry/decisions/clean_root_early_review.json": "f5d6c0297403f7ec6d173dc779c4dff8cf8e937dd0556b682cda63061a173646",
-    "research_registry/semantic_claim_corrections.jsonl": "24c56cfcb25fdc7c3558a38665a7563338a71963d273cfb1d45c1b0ff4ead638",
-    "research_registry/semantic_inventory.jsonl": "828af9c0c7dabc5730b09b170361d78c2504defecb7128ed713943b5282a87d6"
+    "research_registry/semantic_claim_corrections.jsonl": "52dbd856381994534c3a21618ba1c70fc553f8098414d4ea06af848df2fb65e7",
+    "research_registry/semantic_inventory.jsonl": "a1070b951f143a2c2f37ba5c26e208c0230cd9c246713a8f61d94389fb562993"
   },
   "limits": [
     "Source claim review, not confirmation of meanings.",
@@ -38,7 +40,7 @@
     "reviewed": 5370,
     "total": 5370
   },
-  "review_cards_before_exact_assertion_grouping": 3865,
+  "review_cards_before_exact_assertion_grouping": 3880,
   "review_dispositions": {
     "research_registry/decisions/clean_component_review.json": {
       "accepted": 1407,
@@ -54,6 +56,13 @@
       "nonidea_method_result_or_limit": 108,
       "nonidea_method_result_or_scope": 243,
       "nonidea_placeholder_paraphrase": 24
+    },
+    "research_registry/decisions/clean_gap_review_l.json": {
+      "accepted": 2,
+      "grouped": 1
+    },
+    "research_registry/decisions/clean_gap_review_o.json": {
+      "retained_semantic_proposals": 2
     },
     "research_registry/decisions/clean_historical_review.json": {
       "accepted_concrete_historical_hypothesis": 4,
@@ -103,9 +112,9 @@
       "unbound_category_list": 9
     }
   },
-  "reviewed_source_fragments": 9252,
+  "reviewed_source_fragments": 9257,
   "schema_version": 1,
-  "semantic_cards": 2974,
+  "semantic_cards": 2984,
   "source_sha256": {
     "GDT002_MORPHOLOGY_FALSIFICATION_REPORT.md": "353a9272d467c07a7b354076bbfc6f0f5f12ec067b2d1b533d1150ecc4504456",
     "GDT008_HYBRID_REGISTER_THEORY_METHOD.md": "f46828fa0afd7645d92017b5c2b8657901d3a564543697c50fab289bf1efa0cd",
@@ -206,6 +215,7 @@
     "experiments/yolo/gdt561_typed_state_card_composition_reader/REPORT.md": "6d370d4dfe53ca3ba5fc00061ae5abb26a80e5cf23d39fc4684ff83bd58491e6",
     "experiments/yolo/gdt562_thirty_page_actionless_state_role_reader/REPORT.md": "f59a6f3c02369ee862c2592d433b3559fb9c3abab9c7d3a925172f36672d2442",
     "experiments/yolo/gdt563_complete_state_microphrase_edition/REPORT.md": "35389053dc413e135807f2de6e455ca98ed931371ad9ab34bd6ddc8abf2d254f",
+    "experiments/yolo/gdt580_adjacent_relation_resumption_voice/REPORT.md": "bb733f295477878f46aeb9a6b66353bdc215ad5d3f544814c0e5ad5137cd51d7",
     "experiments/yolo/gdt582_concrete_stem_default_fill/REPORT.md": "19036c35d8aba35b3605fc9aa60b752584194bef4c01a570a5b701e1587d5adb",
     "experiments/yolo/gdt583_object_conditioned_verb_refinement/REPORT.md": "788f0fec9887e862a6d63274457af460ba6fcb99e21b04abfbcdbcbfdcebb261",
     "experiments/yolo/gdt585_learned_name_compound_atlas/REPORT.md": "64c22c0d024fcde4abea03d857fa6db809264b340eaa02f098b7e3c1e8d36a1f",
@@ -360,6 +370,7 @@
     "experiments/yolo/sidequest_semantic_astro_ambiguity_resolution_four_hundred_sixty_fourth/FOUR_HUNDRED_SIXTY_FOURTH_REPORT.md": "1a0daba4badd9ab37cac853c06a6fdd70e707f2d02f581bad42ff0a589557e62",
     "experiments/yolo/sidequest_semantic_astro_case_interface_six_hundred_fourth/SIX_HUNDRED_FOURTH_REPORT.md": "f2dbf021412c15d5a9abe924b83d3a079a7a04269d5f43a3faddbcba69529207",
     "experiments/yolo/sidequest_semantic_astro_label_frames_four_hundred_sixty_fifth/FOUR_HUNDRED_SIXTY_FIFTH_REPORT.md": "4abaa12b7758d4779d02f0481d0ad06541c33ee540f2ed5cb069aa57e62e575b",
+    "experiments/yolo/sidequest_semantic_astro_nomenclator_closure/ASTRO_NOMENCLATOR_CLOSURE_REPORT.md": "507d3e0de2a91b7ee103c154281cab7bf463e6222c20c2312376d3e8f99656c1",
     "experiments/yolo/sidequest_semantic_astro_nomenclator_closure_four_hundred_sixty_seventh/FOUR_HUNDRED_SIXTY_SEVENTH_REPORT.md": "22b3c1407f11d16908b9f5d00de717c4b83b1e407ba25a0c9addcc9671ab6568",
     "experiments/yolo/sidequest_semantic_astro_purpose_reconnection_five_hundred_forty_third/FIVE_HUNDRED_FORTY_THIRD_REPORT.md": "f44832e099c56a982d43a8628399f234e213eb53f094b907ef3a033b3903fbcd",
     "experiments/yolo/sidequest_semantic_astro_relation_suffix_two_hundred_seventy_first/TWO_HUNDRED_SEVENTY_FIRST_REPORT.md": "2de1162a21a7aa9d505d11f07ec45d86af00d0fb045ee3d3d619fbacbc1fe0e8",
@@ -493,6 +504,7 @@
     "experiments/yolo/sidequest_semantic_owner_expanded_compact_edition_six_hundred_eightieth/SIX_HUNDRED_EIGHTIETH_REPORT.md": "a3765026953c938a680db233134de46a7cf7b0985bd7b6cf2479dc1fdbe5163b",
     "experiments/yolo/sidequest_semantic_owner_filled_twenty_first_edition/TWENTY_FIRST_EDITION_REPORT.md": "f587b50bea48f9e1d97a0be24a158f95d6fc5b7be67569ef0e6fc734387f7378",
     "experiments/yolo/sidequest_semantic_p_recipient_eight_hundred_fourth/EIGHT_HUNDRED_FOURTH_REPORT.md": "7dadbfed39d62e025ed780e9b2076147e9a1d18cc136505b4dd1e81a9a47e1ef",
+    "experiments/yolo/sidequest_semantic_packing_error_taxonomy_seven_hundred_forty_fourth/SEVEN_HUNDRED_FORTY_FOURTH_REPORT.md": "1e7447044f3f7dd08de6ea50b6adc0f0083148a9c4a120480d25564135eb5af2",
     "experiments/yolo/sidequest_semantic_paradigm_closure/CHED_PARADIGM_REPORT.md": "bda7074d04a49709de1f3dffde3ce9ab32ae9f4a4235b393ad4ecef1482d770a",
     "experiments/yolo/sidequest_semantic_paradigm_closure/E_GRADE_REPORT.md": "a982d2c7b8613c758aa4f0d27a9f569861a7adecc3e9c452a9ebe73fbacf4411",
     "experiments/yolo/sidequest_semantic_paradigm_closure/OK_PARADIGM_REPORT.md": "94d88e8d751541da909fbe87b746c61639fa40156a7d2e81bdeccd1182c6a377",

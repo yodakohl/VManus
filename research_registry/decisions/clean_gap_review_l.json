@@ -1,0 +1,773 @@
+{
+  "schema": "clean_source_gap_review_v1",
+  "review_id": "clean_gap_review_l",
+  "status": "complete_pending_root_integration",
+  "input_audit": "research_registry/decisions/source_coverage_gap_batch_j.json",
+  "input_audit_sha256": "e293fc991a63f95749f03fab41870b189ddae43471199250202b17f8108f7f7c",
+  "cards": [
+    {
+      "status": "unconfirmed",
+      "ready": false,
+      "assessment_basis": "direct_original_source_review",
+      "source_polarity": "historical_working_hypothesis",
+      "failure_reason": "No independent semantic identification is supplied by this historical rendering/composition proposal. Engineering replay or fluent wording is not translation evidence.",
+      "id": "CLEAN_GAP_L:relation_resumption",
+      "claim": "In GDT580’s three fixed adjacent pairs O+O, D_ADDR+D_ADDR and AL+AL, the second slot resumes the same relation or modifier under its existing head; it does not repeat the visible action, introduce a new owner or require a numeral reading.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:1a3381d8ecab903f8f89"
+      ],
+      "scope": {
+        "source_revision": "GDT580",
+        "unit": "three fixed raw-adjacent PLAIN relation/modifier pairs, six written slots",
+        "events": [
+          "G407-E0152",
+          "G407-E1846",
+          "G515-E0379"
+        ],
+        "head_constraint": "G515-E0379 AL peers attach to prior T/Festlegen G515-E0378, not following SH",
+        "excluded": "Interrupted repetitions, outer/inner scope pairs and G407-E1755; no universal repetition law or free D_ADDR meaning."
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt580_adjacent_relation_resumption_voice/REPORT.md",
+          "line": 7,
+          "quote": "Die drei letzten roh benachbarten Relations-/Modifierpaare besitzen jetzt eine\ngemeinsame kompositionelle Stimme. Sie bedeutet nicht „führe die sichtbare\nHandlung zweimal aus“, sondern „verwende denselben Eintrag unmittelbar noch\neinmal“:\n\n| Ereignis | Rohpaar | Arbeitsstimme |\n|---|---|---|\n| G407-E0152 | O+O | `als Ausführung; dieselbe Ausführungsangabe nochmals` |\n| G407-E1846 | D_ADDR+D_ADDR | `an der D-Stelle; dieselbe Stellenangabe nochmals` |\n| G515-E0379 | AL+AL | `beim vorangehenden Festlegen: zur Zielspalte; dieselbe Zielangabe nochmals` |\n\nDas Wörterbuch wächst dabei nicht um drei Ganzwörter für OO, DD und ALAL. Eine\neinzige Wiederaufnahmeregel nimmt die bereits vorhandene Basisbedeutung und\nbenennt deren Klasse als Ausführungs-, Stellen- oder Zielangabe. Das ist\nabsichtlich expliziter als die erste Fassung mit `ebenso/dort/dorthin`: Der\nabschließende Proseaudit zeigte, dass jene Wörter noch wie eine Wiederholung der\nHandlung klingen konnten. Jeder erste Slot besitzt weiterhin den vollständigen\nBasisspan; jeder zweite Slot einen eigenen Angabe-Span und eine Expansion zurück\nzur zweiten Vollphrase.",
+          "sha256": "bb733f295477878f46aeb9a6b66353bdc215ad5d3f544814c0e5ad5137cd51d7"
+        },
+        {
+          "path": "experiments/yolo/gdt580_adjacent_relation_resumption_voice/REPORT.md",
+          "line": 27,
+          "quote": "## Warum nicht einfach „zweimal“?\n\n`zweimal an der D-Stelle` wäre verständlich. `zweimal als Ausführung` ist\nbereits hölzern, und `halte ... zweimal zur Zielspalte` würde im dritten Fall\nsogar die falsche Handlung hörbar machen. Das geschriebene Paar ist AL+AL, nicht\nSH+SH.\n\nDer feste GDT515-Anschluss entscheidet den schwierigen Fall. Beide AL-Slots in\nG515-E0379 sind `FREE_PEER_1/2`, stehen vor SH und zeigen auf die vorherige\nT/Festlegen-Handlung G515-E0378. Die neue Zeile bewahrt das:\n\n```text\nBeim vorangehenden Festlegen: zur Zielspalte;\ndieselbe Zielangabe nochmals.\nHalte denselben laufenden Eintrag fest;\nauf Grad I;\nschließe den Schritt.\n```\n\nDamit bleibt die Zielangabe nicht nur vor der sichtbaren SH-Handlung: Ihr\nvorheriger T/Festlegen-Kopf wird auch hörbar benannt. Die ältere\nAußen/Innen-Kontrollstimme für diesen Fall wird nicht wiederbelebt: GDT515\nklassifiziert beide Slots als PLAIN peers, und GDT575 führt sie ausdrücklich\naußerhalb der siebzehn Scopepaare.",
+          "sha256": "bb733f295477878f46aeb9a6b66353bdc215ad5d3f544814c0e5ad5137cd51d7"
+        },
+        {
+          "path": "experiments/yolo/gdt580_adjacent_relation_resumption_voice/REPORT.md",
+          "line": 78,
+          "quote": "## Bedeutung für die Arbeitstheorie\n\nDie Wiederholung zweier identischer Stämme muss nicht als neues Ganzwort und\nnicht automatisch als Zahlenoperator gelesen werden. Für O+O, D_ADDR+D_ADDR\nund AL+AL genügt dieselbe lokale Komposition:\n\n```text\nX + X  →  X, unmittelbare Wiederaufnahme von X\n```\n\nEntscheidend bleibt der Kopfanschluss. Derselbe Operator darf eine Basis\nwiederaufnehmen, aber keinen Besitzer erfinden. Mit diesem Pass sind alle drei\nroh benachbarten identischen Relationspaare gesprochen; die 62 unterbrochenen\nWiederholungen, alle Außen/Innen-Paare und G407-E1755 bleiben in ihren bereits\nausgearbeiteten Stimmen unangetastet.",
+          "sha256": "bb733f295477878f46aeb9a6b66353bdc215ad5d3f544814c0e5ad5137cd51d7"
+        }
+      ],
+      "coverage_result": "new_source_specific_functional_proposition",
+      "distinctions": [
+        "Different from equal-value slot occupancy.",
+        "Different from standalone L/O relation copying.",
+        "Preserves the original local head-binding constraint rather than authorizing new manuscript parsing."
+      ]
+    },
+    {
+      "status": "unconfirmed",
+      "ready": false,
+      "assessment_basis": "direct_original_source_review",
+      "source_polarity": "historical_working_hypothesis",
+      "failure_reason": "No independent semantic identification is supplied by this historical rendering/composition proposal. Engineering replay or fluent wording is not translation evidence.",
+      "id": "CLEAN_GAP_L:y_repeated_slot_source_case",
+      "claim": "Y bezeichnet den wiederholten aktiven Posten.",
+      "claim_type": "lexical_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:053e67711235dc46392b"
+      ],
+      "scope": {
+        "source_revision": "Sidequest Pass744",
+        "mechanism": "Y is a card-internal active-item slot, permitted to be set again in every Y-valent technical card even when fluent prose uses a pronoun or omits the referent.",
+        "unit": "unchanged historical 173-card working deck and its packing-error discussion",
+        "same_existing_claim": "SEM:3b606798a4d0a8d26447",
+        "classification_limit": "Retains the existing claim_type solely for normalized-assertion grouping; the additional source explains a writing/valency mechanism, not another confirmed word or a new broad lexical identity."
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_packing_error_taxonomy_seven_hundred_forty_fourth/SEVEN_HUNDRED_FORTY_FOURTH_REPORT.md",
+          "line": 16,
+          "quote": "## Bedeutungsrevision von Y\n\nY bleibt konkret **der aktuell gemeinte Arbeitsposten / dies**. Neu ist die Schreiberregel: Y wird nicht nur einmal genannt und dann sprachlich anaphorisch verstanden. Es ist ein **karteninterner Aktivposten-Slot**, der in jeder Y-valenten Fachkarte erneut gesetzt werden kann. Eine fluessige Uebersetzung sagt `ihn` oder gar nichts; die Werkstatt schreibt Y trotzdem wieder.\n\nDas erklaert zugleich, warum der Packer die richtige Bedeutungsmenge fast immer kennt, aber zu wenige Karten und zu wenige Komponenten schreibt. Die naechste Verbesserung ist somit kein neues Wort, sondern Valenz und Kopie.",
+          "sha256": "1e7447044f3f7dd08de6ea50b6adc0f0083148a9c4a120480d25564135eb5af2"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_packing_error_taxonomy_seven_hundred_forty_fourth/SEVEN_HUNDRED_FORTY_FOURTH_REPORT.md",
+          "line": 26,
+          "quote": "## Nächster Hebel\n\nBaue eine Y-Valenztabelle aus dem unveraenderten173er Deck: Welche Handlung-/Grad-/Adressrezepte tragen Y? Lass den Packer den aktiven Posten automatisch in solche Karten kopieren und pruefe danach, wie viele der30 Y-bedingten Fehler verschwinden.",
+          "sha256": "1e7447044f3f7dd08de6ea50b6adc0f0083148a9c4a120480d25564135eb5af2"
+        }
+      ],
+      "coverage_result": "additional_source_case_existing_assertion",
+      "distinctions": [
+        "Not a third new semantic claim.",
+        "Not every possible card is required to contain Y.",
+        "No numeral or obligatory global repetition rule follows."
+      ]
+    },
+    {
+      "status": "unconfirmed",
+      "ready": false,
+      "assessment_basis": "direct_original_source_review",
+      "source_polarity": "historical_working_hypothesis",
+      "failure_reason": "No independent semantic identification is supplied by this historical rendering/composition proposal. Engineering replay or fluent wording is not translation evidence.",
+      "id": "CLEAN_GAP_L:positional_ot_ol",
+      "claim": "In GDT475’s local address grammar, leading OT opens the next sibling microrecord, leading OL attaches its locus to the preceding microrecord, and internal OL continues the current card’s action or qualifier.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:144fb36310f231176f7c"
+      ],
+      "scope": {
+        "source_revision": "GDT475",
+        "unit": "the fixed GDT474/GDT475 page-locus bundles and inherited event recipes",
+        "conditional_branches": [
+          "leading OT: next sibling",
+          "leading OL: attach to prior microrecord",
+          "internal OL: continue internal action/qualifier"
+        ],
+        "ceiling": "Creative scope interpretation of that historical address edition, not confirmed authorial syntax, current sentence gold, new page admission or global OT/OL translation."
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt475_ot_ol_page_microrecord_itineraries/REPORT.md",
+          "line": 5,
+          "quote": "`OT=DANACH` and `OL=FORTSETZEN` now have different, concrete jobs in the local\naddress stream:\n\n| root | occurrences | bundle-leading | later-event-leading | event-internal |\n|---|---:|---:|---:|---:|\n| `OT` | 41 | 40 | 1 | **0** |\n| `OL` | 28 | 11 | 1 | **16** |\n\nOT never sits inside an event. It always opens one: forty times it is the first\natom of the whole locus bundle, and once it opens the second card at the same\nlocus. OL is genuinely a continuation operator: eleven occurrences continue\nthe previous locus record, one continues with a later card at the same locus,\nand sixteen hold the active relation/action inside a card.\n\nThis is exactly the distinction suggested by the older GDT429 running profile\nbut now made concrete inside the complete address edition: OT opens the next\nequal-rank unit; OL keeps the current unit going.",
+          "sha256": "43b52550e99afde2a95aa2239afd7287dd55c9378df85e6627296352a46289d2"
+        },
+        {
+          "path": "experiments/yolo/gdt475_ot_ol_page_microrecord_itineraries/REPORT.md",
+          "line": 51,
+          "quote": "## Why this helps the translation\n\nPreviously `DANACH` and `FORTSETZEN` were broad dictionary values. They now\npredict different reading operations:\n\n- leading OT says “start the next sibling microrecord”;\n- leading OL says “do not start over; attach this locus to the previous\n  microrecord”;\n- internal OL says “continue the current card's action or qualifier”.\n\nThat is much less ambiguous than translating both as a vague “then/continue”.\nIt also explains forms such as `otol...`: OT opens the next record while OL\ninside that record says the carried operation continues. The two roots are not\nsynonyms and do not compete for one slot.",
+          "sha256": "43b52550e99afde2a95aa2239afd7287dd55c9378df85e6627296352a46289d2"
+        },
+        {
+          "path": "experiments/yolo/gdt475_ot_ol_page_microrecord_itineraries/REPORT.md",
+          "line": 88,
+          "quote": "The scope interpretation is a creative working grammar, not confirmed syntax\nor plaintext. No root meaning, name, model, spelling, event, page, object,\nlanguage or lexeme is added.",
+          "sha256": "43b52550e99afde2a95aa2239afd7287dd55c9378df85e6627296352a46289d2"
+        }
+      ],
+      "coverage_result": "new_source_specific_functional_proposition",
+      "distinctions": [
+        "DANACH/FORTSETZEN abstract glosses do not specify this conjunction of branches.",
+        "List siblings under a single L/O head use a different unit.",
+        "The scope rule does not inherit confidence from compiled record counts."
+      ]
+    }
+  ],
+  "dispositions": [
+    {
+      "source_id": "LEGACY_COMPONENT:1a3381d8ecab903f8f89",
+      "decision": "accepted",
+      "reason": "Explicit local functional proposition not located in the reviewed predecessor claims or their source cases; preserve narrow scope and unconfirmed status.",
+      "card_ids": [
+        "CLEAN_GAP_L:relation_resumption"
+      ],
+      "candidate_id": "J_RELATION_RESUMPTION"
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:053e67711235dc46392b",
+      "decision": "grouped",
+      "reason": "Additional source-bound case of existing repeated active-item claim; no new distinct idea.",
+      "card_ids": [
+        "CLEAN_GAP_L:y_repeated_slot_source_case"
+      ],
+      "candidate_id": "J_Y_REPEATED_ACTIVE_SLOT"
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:144fb36310f231176f7c",
+      "decision": "accepted",
+      "reason": "Explicit local functional proposition not located in the reviewed predecessor claims or their source cases; preserve narrow scope and unconfirmed status.",
+      "card_ids": [
+        "CLEAN_GAP_L:positional_ot_ol"
+      ],
+      "candidate_id": "J_POSITIONAL_OT_OL"
+    }
+  ],
+  "duplicate_review": [
+    {
+      "candidate": "J_RELATION_RESUMPTION",
+      "comparisons": [
+        {
+          "target": "SEM:079659bb0d4334b0bc40",
+          "claim": "Immediate identical card repetition fills two adjacent slots with the same value.",
+          "claim_type": "functional_hypothesis",
+          "source_case_count": 1,
+          "comparison": "Two adjacent slots receiving the same value does not specify repeated execution of an already headed relation/modifier or constrain head attachment for the three GDT580 pairs.",
+          "evidence": [
+            {
+              "line": 6826,
+              "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+              "quote": "1. two adjacent slots legitimately receive the same value;",
+              "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+            }
+          ]
+        },
+        {
+          "target": "SEM:ec99a70ce772cae96fd3",
+          "claim": "Standalone L/O repeats the current relation and active endpoints as DITTO UNDER THIS REFERENCE.",
+          "claim_type": "functional_hypothesis",
+          "source_case_count": 1,
+          "comparison": "Standalone L/O copying an active relation and endpoints is a different trigger/unit from immediately adjacent O+O, D_ADDR+D_ADDR and AL+AL.",
+          "evidence": [
+            {
+              "line": 122,
+              "path": "experiments/yolo/sidequest_theory_candidates_v13/CANDIDATE_V13_R3_RELATION_NOTATION.md",
+              "quote": "6. Steht L/O allein, kopiere die zuletzt geltende Beziehungsschablone und ihre\n   aktiven Endpunkte in das nächste/fortgesetzte Feld: ein notationales\n   „desgleichen unter diesem Bezug“.",
+              "sha256": "8892934f5a7cf619e60d29e2632cdcef6d8a2c304b72dd51aae12047f42c8c1c"
+            }
+          ]
+        },
+        {
+          "target": "SEM:ff277857e4b786baf6cd",
+          "claim": "Standalone L/O repeats the active relation and its participants without introducing new ones.",
+          "claim_type": "functional_hypothesis",
+          "source_case_count": 1,
+          "comparison": "This also has standalone L/O as trigger, not the repeated same-root relations in GDT580.",
+          "evidence": [
+            {
+              "line": 117,
+              "path": "experiments/yolo/sidequest_theory_candidates_v13/CANDIDATE_V13_R1_WORKSHOP_LINK.md",
+              "quote": "5. Steht L/O allein, kopiere die bereits aktive Verbindung fuer diesen Slot:\n   weder neue Verbindungsart noch neue Teilnehmer werden notiert.",
+              "sha256": "9b41b26df77dea77b58eee4ae62705d1a75d774ea2a0701b5427433d432757f8"
+            }
+          ]
+        },
+        {
+          "target": "SEM:92c00e255d176de79703",
+          "claim": "dalal → AL+AL",
+          "claim_type": "formal_role",
+          "source_case_count": 1,
+          "comparison": "The later dalal=AL+AL source proposes two targets for its free pair, contrasting with a nested-frame rival; it does not preserve the GDT580 existing-head modifier-resumption rule. Do not silently unite different occurrence/model scopes.",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 49,
+              "line_end": 54,
+              "path": "experiments/yolo/sidequest_semantic_repeated_core_operator_one_thousand_twenty_first/PASS1021_REPORT.md",
+              "quote": "Die erste technische Kandidatur wollte alle 40 Fälle als äußeren/inneren\nDoppelrahmen lesen. Das trägt `CH+CH` und `OR+OR` gut, aber ein freies\n`dalal = AL+AL` oder `ychey = Y+Y` hat rechts keine innere Ergänzung, die einen\nStufenabstieg sichtbar macht. Dort ist „zwei Ziele/Posten“ die einfachere\nLehrregel. Umgekehrt wäre bloße Wiederholung für `CH+CH+T/K/P` zu flach, weil\ndie Doppelung gerade an einer geöffneten Paketgrenze entsteht.",
+              "sha256": "84affc6bc0549129ba953cac240822bfdc475a458088933a6fa944aa0306c38d",
+              "source_id": "LEGACY_COMPONENT:ff0dcec5563bb60c337f",
+              "source_section": "Warum nicht alles Verschachtelung ist",
+              "table_header": null
+            }
+          ]
+        }
+      ],
+      "review_ceiling": "Targeted original-source and claim/case comparison, not proof of global paraphrase absence or scientific novelty."
+    },
+    {
+      "candidate": "J_Y_REPEATED_ACTIVE_SLOT",
+      "comparisons": [
+        {
+          "target": "SEM:3b606798a4d0a8d26447",
+          "claim": "Y bezeichnet den wiederholten aktiven Posten.",
+          "claim_type": "lexical_hypothesis",
+          "source_case_count": 1,
+          "comparison": "Its source explicitly says Y is a repeated active-item slot. Pass744 supplies a more explicit valency/copy rule for the same historical mechanism, not another substantive meaning. Add a source case to the existing normalized claim, with its narrower qualification kept in scope.",
+          "evidence": [
+            {
+              "line": 21,
+              "path": "experiments/yolo/sidequest_semantic_multicard_formula_inventory_seven_hundred_forty_seventh/SEVEN_HUNDRED_FORTY_SEVENTH_REPORT.md",
+              "quote": "2. Y als wiederholten aktiven Postenslot;",
+              "sha256": "6c701593117c39e9f1882d2bc8809aabd666c4cf87b01e9c25286e6d9fa28ea5"
+            }
+          ]
+        },
+        {
+          "target": "SEM:1b421cbe8ec98b20e14b",
+          "claim": "Y → der gegenwaertige Arbeitstraeger",
+          "claim_type": "lexical_hypothesis",
+          "source_case_count": 1,
+          "comparison": "This other card supplies only the current-work-carrier gloss and an internal-Y example. That gloss alone would not represent the repetition/copy mechanism.",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "line": 3,
+                  "text": "Status: konkrete kreative Arbeitstheorie fuer die festen zehn Sidequest-Seiten,"
+                }
+              ],
+              "line": 108,
+              "line_end": 111,
+              "path": "experiments/yolo/sidequest_semantic_component_completion/Y_CHY_REPORT.md",
+              "quote": "Die Kandidaten erscheinen am Anfang, in der Mitte und am Ende ihrer\nzusammenhaengenden Aussagen. Besonders `qokylddy` hat ein internes `Y` vor\neinem weiteren Abschlussrest. Das widerspricht `Y = Satz bleibt offen`, passt\naber zu `Y = der gegenwaertige Arbeitstraeger`.",
+              "sha256": "abbe73138d5ae2ff15b925ce69bf37ccc3a3b735836b3850dd81d8cf34db1b81",
+              "source_id": "LEGACY_COMPONENT:bd8a0c4f6bc2990f6f20",
+              "source_section": "2. `Y` steht nicht nur am offenen Satzrand",
+              "table_header": null
+            }
+          ]
+        },
+        {
+          "target": "SEM:f618657c1e72fc1c7aee",
+          "claim": "**Pointer reuse:** a Y occurrence should preferentially reuse the formal class of a prior local item or flank the same operation class. If its local antecedent is no more recoverable than for matched frequent cards, reject CURRENT/THIS.",
+          "claim_type": "semantic_model",
+          "source_case_count": 1,
+          "comparison": "An antecedent-reuse discriminator is a different question from permitted repeated writing in each Y-valent card; not merged.",
+          "evidence": [
+            {
+              "line": 441,
+              "path": "experiments/yolo/sidequest_theory_candidates_v3/CANDIDATE_V3_ADVERSARIAL_LEXICON.md",
+              "quote": "4. **Pointer reuse:** a Y occurrence should preferentially reuse the formal\n   class of a prior local item or flank the same operation class. If its local\n   antecedent is no more recoverable than for matched frequent cards, reject\n   CURRENT/THIS.",
+              "sha256": "52f8add266f0dc1d698d9ac373dbae75bdb67c6ae0841e175a80f41a4662e84d"
+            }
+          ]
+        }
+      ],
+      "review_ceiling": "Targeted original-source and claim/case comparison, not proof of global paraphrase absence or scientific novelty."
+    },
+    {
+      "candidate": "J_POSITIONAL_OT_OL",
+      "comparisons": [
+        {
+          "target": "SEM:318cd605cb0a5fd1cb02",
+          "claim": "OT → DANACH",
+          "claim_type": "lexical_hypothesis",
+          "source_case_count": 5,
+          "comparison": "The OT=DANACH claim includes this report only at its broad opening gloss and other order-control prose; no existing source-case quote states all three locus/internal branches.",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 5,
+              "line_end": 6,
+              "path": "experiments/yolo/gdt475_ot_ol_page_microrecord_itineraries/REPORT.md",
+              "quote": "`OT=DANACH` and `OL=FORTSETZEN` now have different, concrete jobs in the local\naddress stream:",
+              "sha256": "43b52550e99afde2a95aa2239afd7287dd55c9378df85e6627296352a46289d2",
+              "source_id": "LEGACY_COMPONENT:d13cc8924ffebeedc39d",
+              "source_section": "Result",
+              "table_header": null
+            },
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 67,
+              "line_end": 71,
+              "path": "experiments/yolo/gdt477_ol_directional_scope_phrasebook/REPORT.md",
+              "quote": "Complete the order grammar by applying the same literal left/right audit to all\n41 `OT=DANACH` occurrences. The useful question is whether OT's function/name\nposition changes the way a fresh sibling is phrased, or whether it remains a\npure new-entry operator in every direction. This is a direct extension of\nGDT475 made possible by GDT477; no page, root or name should change.",
+              "sha256": "f3c3c4f1cbb43cefbebc485746153b1afe9c562c58acca70e547a6022e2b2f2c",
+              "source_id": "LEGACY_COMPONENT:710e4736029cbe6ee148",
+              "source_section": "Next route",
+              "table_header": null
+            },
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "line": 3,
+                  "text": "Status: `PASS_DY_702_OF_705_STATEMENT_FINAL__THREE_LOCAL_STEP_CLOSURES`"
+                }
+              ],
+              "line": 90,
+              "line_end": 94,
+              "path": "experiments/yolo/gdt556_dy_closure_boundary_scope/REPORT.md",
+              "quote": "`DY` braucht vorerst keine neue Bedeutung. Als Nächstes lohnt sich die\nkomplementäre Positionsprüfung von `OL=FORTSETZEN` und `OT=DANACH`: Der erste\nsteht überwiegend im Aussageinneren und oft am Kartenende, der zweite fast nie\nam Kartenende. Zusammen könnten sie mit `DY` ein kleines, vorhersagbares\nStart-/Weiter-/Schluss-System bilden.",
+              "sha256": "24a92e1464ee7be0784b9ba9e138edba6760820b1dc2174c86308f7dca2442ab",
+              "source_id": "LEGACY_COMPONENT:f8bb1ddcdb6d18896437",
+              "source_section": "Nächster Griff",
+              "table_header": null
+            },
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 34,
+              "line_end": 34,
+              "path": "experiments/yolo/sidequest_semantic_canonical_scribe_workshop_fifth_edition_nine_hundred_ninety_third/PASS993_CURRENT_WORKING_THEORY.md",
+              "quote": "- `OL=FORTSETZEN`, `OT=DANACH`, `OR=ARBEITSSATZ`;",
+              "sha256": "854440a27a70c1113da0fe0fdd507d2f904348ce1017d82197893442b644095c",
+              "source_id": "LEGACY_COMPONENT:3a56072d3993aa2d33c7",
+              "source_section": "Wörterbuchkern",
+              "table_header": null
+            },
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 20,
+              "line_end": 20,
+              "path": "experiments/yolo/sidequest_semantic_canonical_scribe_workshop_sixth_edition_nine_hundred_ninety_sixth/PASS996_CURRENT_WORKING_THEORY.md",
+              "quote": "- `OL=FORTSETZEN`, `OT=DANACH`, `OR=ANSATZ`;",
+              "sha256": "ed8810a3f66854a6d9e4f9a4ba42563a755326d5af399f02650ce96557995291",
+              "source_id": "LEGACY_COMPONENT:e55a282f49ac1250b5cd",
+              "source_section": "Kurzes Taschenwörterbuch",
+              "table_header": null
+            },
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 29,
+              "line_end": 29,
+              "path": "experiments/yolo/sidequest_semantic_cross_register_core_revision_one_thousand_eighteenth/PASS1018_REPORT.md",
+              "quote": "`Y=DIES`, `OK=SETZEN`, `OL=FORTSETZEN`, `OT=DANACH`, `AL=ZIELORT`, `CH=NEHMEN`, `SH=HALTEN`, `AR=AUSGANG`, `K=GEBEN`, `S=WÄHLEN`, `CHD=UMSETZEN`, `L=VERBINDUNG`, `T=EINSTELLEN`, `R=MARKIEREN`, `P=EINSETZEN`, `AIR=LAUF`.",
+              "sha256": "c12063509ff27206ee412a9711814200ac202404878baa2a582284f97b180951",
+              "source_id": "LEGACY_COMPONENT:06b8a5c7dfd6e2068db5",
+              "source_section": "Was unverändert bleibt",
+              "table_header": null
+            },
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 6,
+              "line_end": 6,
+              "path": "experiments/yolo/sidequest_semantic_order_words_eight_hundred_twenty_fourth/EIGHT_HUNDRED_TWENTY_FOURTH_REPORT.md",
+              "quote": "- `OT = DANACH` advances to the next operation or item (26 events);",
+              "sha256": "121b4b1597bcb75e458cbe650beb29d96836705afbdea946823c86e6dbee2007",
+              "source_id": "LEGACY_COMPONENT:581e54d4be4a0d11b4b1",
+              "source_section": "Sidequest Pass 824: weiter, danach, dazu",
+              "table_header": null
+            },
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 9,
+              "line_end": 9,
+              "path": "experiments/yolo/sidequest_semantic_workflow_memory_seven_hundred_thirty_first/SEVEN_HUNDRED_THIRTY_FIRST_REPORT.md",
+              "quote": "- **OT = DANACH:** 16 Karten / 26 Ereignisse; rückt zum nächsten Schritt.",
+              "sha256": "70d1ffbab03699889472e55e8c1ac2a1572753e5b4ed4f1513cd800b02a13cc7",
+              "source_id": "LEGACY_COMPONENT:00ca6ae60e981955f859",
+              "source_section": "Ergebnis",
+              "table_header": null
+            },
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "line": 3,
+                  "text": "Status:"
+                }
+              ],
+              "line": 38,
+              "line_end": 42,
+              "path": "experiments/yolo/gdt561_typed_state_card_composition_reader/REPORT.md",
+              "quote": "Die kurzen Kernwerte bleiben dieselben: etwa `CH=NEHMEN`, `SH=HALTEN`,\n`Y=POSTEN`, `AIIN=WERT`, `AL=ZIELORT`, `AR=AUSGANG`, `L=VERBINDUNG`,\n`E/EE/EEE=GRAD I/II/III`, `OT=DANACH`, `OL=FORTSETZEN` und\n`DY=ABSCHLIESSEN`. `HIER`, `VARIANTE` und `KLASSE` sind strukturelle Tags,\nnicht behauptete deutsche Wörter im Manuskript.",
+              "sha256": "6d370d4dfe53ca3ba5fc00061ae5abb26a80e5cf23d39fc4684ff83bd58491e6",
+              "source_id": "LEGACY_COMPONENT:c01b21e73d2b62afadc2",
+              "source_section": "Das Wörterbuch bleibt klein",
+              "table_header": null
+            },
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 39,
+              "line_end": 43,
+              "path": "experiments/yolo/sidequest_semantic_argument_scope_stack_one_thousand_twenty_second/SCOPE_STACK_REPORT.md",
+              "quote": "`O=AUSFÜHRUNG`, `OT=DANACH` und `OL=FORTSETZEN` öffnen dabei keinen neuen\nHandlungskopf. Sie führen den vorhandenen Gang aus oder weiter. Bei mehreren\nHandlungen in derselben Karte bekommt der nächste Kopf den Kern unmittelbar;\ndie ältere Handlung enthält dann die jüngere Handlungsgruppe. So braucht\n`CH+K+Y` keine Sonderregel: `CH[ K[Y] ]`.",
+              "sha256": "8db0e6aa97dcd5e5bd8891f0289945bd76eefda7368cd206cb3cfa275f35c1d9",
+              "source_id": "LEGACY_COMPONENT:7fa1958a7999ce109324",
+              "source_section": "Ergebnis",
+              "table_header": null
+            }
+          ]
+        },
+        {
+          "target": "SEM:c3ae0144488047031317",
+          "claim": "OL → FORTSETZEN",
+          "claim_type": "lexical_hypothesis",
+          "source_case_count": 6,
+          "comparison": "OL=FORTSETZEN preserves an abstract gloss across many revisions; the full three-way leading-OT/leading-OL/internal-OL dispatch is not implied by the gloss alone.",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 5,
+              "line_end": 6,
+              "path": "experiments/yolo/gdt475_ot_ol_page_microrecord_itineraries/REPORT.md",
+              "quote": "`OT=DANACH` and `OL=FORTSETZEN` now have different, concrete jobs in the local\naddress stream:",
+              "sha256": "43b52550e99afde2a95aa2239afd7287dd55c9378df85e6627296352a46289d2",
+              "source_id": "LEGACY_COMPONENT:d13cc8924ffebeedc39d",
+              "source_section": "Result",
+              "table_header": null
+            },
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 5,
+              "line_end": 6,
+              "path": "experiments/yolo/gdt477_ol_directional_scope_phrasebook/REPORT.md",
+              "quote": "`OL=FORTSETZEN` now has one meaning and three predictable positional\nrealizations across all 28 local occurrences:",
+              "sha256": "f3c3c4f1cbb43cefbebc485746153b1afe9c562c58acca70e547a6022e2b2f2c",
+              "source_id": "LEGACY_COMPONENT:e17d33a589072bb0c673",
+              "source_section": "Result",
+              "table_header": null
+            },
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "line": 3,
+                  "text": "Status: `ONE_HUNDRED_TEN_CURRENT_DEFAULTS__TWENTY_THREE_CONTEXT_GENERALIZED__THIRTY_SEVEN_OBSERVED_RETAINED`"
+                }
+              ],
+              "line": 34,
+              "line_end": 38,
+              "path": "experiments/yolo/gdt497_complete_context_safe_tr_default_deck/REPORT.md",
+              "quote": "Die fünf noch komponierten OL-Sätze sind zugleich flüssiger geworden. Aus\n„Weiter stelle den Positionsposten ... ein“ wird „Fahre fort, das zuvor\nGenannte einzustellen“; die R-Seite lautet entsprechend „Fahre fort, das zuvor\nGenannte zu markieren/zu kennzeichnen“. `OL=FORTSETZEN` bleibt dabei genau\ndieselbe Arbeitsbedeutung.",
+              "sha256": "eeb328fe90403420e13a70fdac1fca86ab720f5b4a5fc8dc681c01ca8e5e3187",
+              "source_id": "LEGACY_COMPONENT:0029aee9882e0aaa595b",
+              "source_section": "Was an den 23 Ellipsen verbessert wurde",
+              "table_header": null
+            },
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "line": 3,
+                  "text": "Status: `PASS_DY_702_OF_705_STATEMENT_FINAL__THREE_LOCAL_STEP_CLOSURES`"
+                }
+              ],
+              "line": 90,
+              "line_end": 94,
+              "path": "experiments/yolo/gdt556_dy_closure_boundary_scope/REPORT.md",
+              "quote": "`DY` braucht vorerst keine neue Bedeutung. Als Nächstes lohnt sich die\nkomplementäre Positionsprüfung von `OL=FORTSETZEN` und `OT=DANACH`: Der erste\nsteht überwiegend im Aussageinneren und oft am Kartenende, der zweite fast nie\nam Kartenende. Zusammen könnten sie mit `DY` ein kleines, vorhersagbares\nStart-/Weiter-/Schluss-System bilden.",
+              "sha256": "24a92e1464ee7be0784b9ba9e138edba6760820b1dc2174c86308f7dca2442ab",
+              "source_id": "LEGACY_COMPONENT:f8bb1ddcdb6d18896437",
+              "source_section": "Nächster Griff",
+              "table_header": null
+            },
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "line": 3,
+                  "text": "Status:"
+                }
+              ],
+              "line": 46,
+              "line_end": 47,
+              "path": "experiments/yolo/gdt562_thirty_page_actionless_state_role_reader/REPORT.md",
+              "quote": "Ein einziges geschriebenes `OL=FORTSETZEN` kann je nach aktivem Zustand eine\nvollständige Anweisung weiterführen:",
+              "sha256": "f59a6f3c02369ee862c2592d433b3559fb9c3abab9c7d3a925172f36672d2442",
+              "source_id": "LEGACY_COMPONENT:75bd5878c7190cdb7de2",
+              "source_section": "Aus `OL` wird keine zweite Wörterbuchbedeutung",
+              "table_header": null
+            },
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "line": 3,
+                  "text": "Status:"
+                }
+              ],
+              "line": 60,
+              "line_end": 63,
+              "path": "experiments/yolo/gdt563_complete_state_microphrase_edition/REPORT.md",
+              "quote": "Das variable Extrem ist das bloße `OL=FORTSETZEN`: Es trägt in den vorhandenen\nSatzkontexten 33 Mikrophrasen, weil Handlung und Argument aus dem aktiven\nSatzspeicher kommen. Das macht `OL` nicht zu 33 Wörtern. Sein stabiler Beitrag\nbleibt „weiter/fortsetzen“; die längere Anweisung entsteht kompositionell:",
+              "sha256": "35389053dc413e135807f2de6e455ca98ed931371ad9ab34bd6ddc8abf2d254f",
+              "source_id": "LEGACY_COMPONENT:8957f1bf8c355a1a9bb2",
+              "source_section": "Ein Rezept ist ein Rahmen, nicht zwingend ein ganzer Satz",
+              "table_header": null
+            },
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 6,
+              "line_end": 6,
+              "path": "experiments/yolo/sidequest_semantic_all_record_core_six_hundred_eighty_eighth/SIX_HUNDRED_EIGHTY_EIGHTH_REPORT.md",
+              "quote": "- `OL = FORTSETZEN`",
+              "sha256": "04f4dc0588aac703c73042da124a803383f5014fd2defbadce789f15faf64427",
+              "source_id": "LEGACY_COMPONENT:a30746e7808550244da6",
+              "source_section": "Sidequest pass 688: gemeinsamer Kern und Spezialkästen",
+              "table_header": null
+            },
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 34,
+              "line_end": 34,
+              "path": "experiments/yolo/sidequest_semantic_canonical_scribe_workshop_fifth_edition_nine_hundred_ninety_third/PASS993_CURRENT_WORKING_THEORY.md",
+              "quote": "- `OL=FORTSETZEN`, `OT=DANACH`, `OR=ARBEITSSATZ`;",
+              "sha256": "854440a27a70c1113da0fe0fdd507d2f904348ce1017d82197893442b644095c",
+              "source_id": "LEGACY_COMPONENT:3a56072d3993aa2d33c7",
+              "source_section": "Wörterbuchkern",
+              "table_header": null
+            },
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 20,
+              "line_end": 20,
+              "path": "experiments/yolo/sidequest_semantic_canonical_scribe_workshop_sixth_edition_nine_hundred_ninety_sixth/PASS996_CURRENT_WORKING_THEORY.md",
+              "quote": "- `OL=FORTSETZEN`, `OT=DANACH`, `OR=ANSATZ`;",
+              "sha256": "ed8810a3f66854a6d9e4f9a4ba42563a755326d5af399f02650ce96557995291",
+              "source_id": "LEGACY_COMPONENT:e55a282f49ac1250b5cd",
+              "source_section": "Kurzes Taschenwörterbuch",
+              "table_header": null
+            },
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 29,
+              "line_end": 29,
+              "path": "experiments/yolo/sidequest_semantic_cross_register_core_revision_one_thousand_eighteenth/PASS1018_REPORT.md",
+              "quote": "`Y=DIES`, `OK=SETZEN`, `OL=FORTSETZEN`, `OT=DANACH`, `AL=ZIELORT`, `CH=NEHMEN`, `SH=HALTEN`, `AR=AUSGANG`, `K=GEBEN`, `S=WÄHLEN`, `CHD=UMSETZEN`, `L=VERBINDUNG`, `T=EINSTELLEN`, `R=MARKIEREN`, `P=EINSETZEN`, `AIR=LAUF`.",
+              "sha256": "c12063509ff27206ee412a9711814200ac202404878baa2a582284f97b180951",
+              "source_id": "LEGACY_COMPONENT:06b8a5c7dfd6e2068db5",
+              "source_section": "Was unverändert bleibt",
+              "table_header": null
+            },
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 13,
+              "line_end": 18,
+              "path": "experiments/yolo/sidequest_semantic_twenty_two_page_statement_consolidation_one_thousand_ninth/PASS1009_REPORT.md",
+              "quote": "Die alte ACTION-Rolle war zu eng. Von 627 Aussagen besitzen 588\neine ausdrückliche Operationswurzel. Weitere 9\ntragen die Operation bereits im Wegkern (`L=LEITEN`, `SOLK=AUFFANGEN`), und\n3 werden durch\n`OL=FORTSETZEN` selbst prädiziert. Diese 12\nFälle sind keine Ellipsen.",
+              "sha256": "bf8e7607fb3ee0e940804a230854d91fe180aea48f39b945c6bafe39be7c1308",
+              "source_id": "LEGACY_COMPONENT:8c2013db1204e91d20cb",
+              "source_section": "Die scheinbar fehlenden Handlungen",
+              "table_header": null
+            },
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "line": 3,
+                  "text": "Status:"
+                }
+              ],
+              "line": 38,
+              "line_end": 42,
+              "path": "experiments/yolo/gdt561_typed_state_card_composition_reader/REPORT.md",
+              "quote": "Die kurzen Kernwerte bleiben dieselben: etwa `CH=NEHMEN`, `SH=HALTEN`,\n`Y=POSTEN`, `AIIN=WERT`, `AL=ZIELORT`, `AR=AUSGANG`, `L=VERBINDUNG`,\n`E/EE/EEE=GRAD I/II/III`, `OT=DANACH`, `OL=FORTSETZEN` und\n`DY=ABSCHLIESSEN`. `HIER`, `VARIANTE` und `KLASSE` sind strukturelle Tags,\nnicht behauptete deutsche Wörter im Manuskript.",
+              "sha256": "6d370d4dfe53ca3ba5fc00061ae5abb26a80e5cf23d39fc4684ff83bd58491e6",
+              "source_id": "LEGACY_COMPONENT:c01b21e73d2b62afadc2",
+              "source_section": "Das Wörterbuch bleibt klein",
+              "table_header": null
+            },
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 39,
+              "line_end": 43,
+              "path": "experiments/yolo/sidequest_semantic_argument_scope_stack_one_thousand_twenty_second/SCOPE_STACK_REPORT.md",
+              "quote": "`O=AUSFÜHRUNG`, `OT=DANACH` und `OL=FORTSETZEN` öffnen dabei keinen neuen\nHandlungskopf. Sie führen den vorhandenen Gang aus oder weiter. Bei mehreren\nHandlungen in derselben Karte bekommt der nächste Kopf den Kern unmittelbar;\ndie ältere Handlung enthält dann die jüngere Handlungsgruppe. So braucht\n`CH+K+Y` keine Sonderregel: `CH[ K[Y] ]`.",
+              "sha256": "8db0e6aa97dcd5e5bd8891f0289945bd76eefda7368cd206cb3cfa275f35c1d9",
+              "source_id": "LEGACY_COMPONENT:7fa1958a7999ce109324",
+              "source_section": "Ergebnis",
+              "table_header": null
+            }
+          ]
+        },
+        {
+          "target": "SEM:8bfed0e09b62537455e6",
+          "claim": "Repeated A–L/O–B–L/O–C attaches B and C as siblings under one head rather than a directional chain.",
+          "claim_type": "functional_hypothesis",
+          "source_case_count": 2,
+          "comparison": "Sibling list attachment in A–L/O–B–L/O–C is a different proposed unit and operation, not GDT475 locus-boundary dispatch.",
+          "evidence": [
+            {
+              "line": 293,
+              "path": "experiments/yolo/sidequest_theory_candidates_v13/CANDIDATE_V13_R4_CHANCERY_LINK_AUDIT.md",
+              "quote": "3. Repeated `A--L--B--L--C` fields should behave more like sibling lists under\n   one head than directional chains: exchanging the two added opaque members\n   should be less disruptive than reversing an independently identifiable\n   source and target. This remains a future discriminator, not a present fact.",
+              "sha256": "49371ef26c42edc7c819662ddb6398baffdc8c423615fcc9df413c1955898d11"
+            },
+            {
+              "line": 61,
+              "path": "experiments/yolo/sidequest_theory_candidates_v13/V13_THEORY_SELECTION.md",
+              "quote": "2. Repeated `A–L/O–B–L/O–C`: attach B, then continue the same relation to C;\n   B and C may be sibling entries rather than a literal binary chain.",
+              "sha256": "1edb5d04ebd31c4e104c9061b900d9cf31789942f8316f48874663e743a8978c"
+            }
+          ]
+        },
+        {
+          "target": "SEM:c568b824ea59a18b6f52",
+          "claim": "In the contextual record-field model, ol before an independent process continues as und dann.",
+          "claim_type": "functional_hypothesis",
+          "source_case_count": 1,
+          "comparison": "The GDT773 process-frame reading of ol as und dann is content-conditioned and does not specify the GDT475 leading/internal dispatch.",
+          "evidence": [
+            {
+              "line": 89,
+              "path": "experiments/yolo/gdt773_ol_capacity_equalized_composition_audit/METHOD.md",
+              "quote": "3. before an independent process it continues as `und dann` (two cases);",
+              "sha256": "d262f2a2336f3b3e7175957b037b27884d1586e5117097d579e1b2974aef2cb2"
+            }
+          ]
+        },
+        {
+          "target": "SEM:176a83e61b0dbebba8cd",
+          "claim": "In the contextual record-field model, ol between two content fields coordinates as und.",
+          "claim_type": "functional_hypothesis",
+          "source_case_count": 1,
+          "comparison": "The GDT773 und between content fields is another content-conditioned role; no next-sibling versus same-record boundary rule follows.",
+          "evidence": [
+            {
+              "line": 90,
+              "path": "experiments/yolo/gdt773_ol_capacity_equalized_composition_audit/METHOD.md",
+              "quote": "4. between two content fields it coordinates as `und` (one case);",
+              "sha256": "d262f2a2336f3b3e7175957b037b27884d1586e5117097d579e1b2974aef2cb2"
+            }
+          ]
+        }
+      ],
+      "review_ceiling": "Targeted original-source and claim/case comparison, not proof of global paraphrase absence or scientific novelty."
+    }
+  ],
+  "navigation": {
+    "searched": "Current active claim titles, original source evidence and all source cases of the named predecessor cards; targeted original reports only.",
+    "terms": [
+      "immediate resumption",
+      "unmittelbare Wiederaufnahme",
+      "O+O",
+      "D_ADDR+D_ADDR",
+      "AL+AL",
+      "Y-valent",
+      "Aktivposten",
+      "kartenintern",
+      "repeated active item",
+      "microrecord",
+      "leading OT",
+      "leading OL",
+      "internal OL",
+      "next sibling"
+    ],
+    "original_path_matches": "GDT580/Pass744 no active evidence matches; GDT475 only the opening abstract OT/OL gloss. The Pass747 repeated-slot source supplies Y mechanism coverage despite no Pass744 path overlap.",
+    "limits": "Lexical navigation cannot certify global novelty. No registry/raw data/image/model changes."
+  },
+  "validation": {
+    "status": "PASS",
+    "candidates_reviewed": 3,
+    "new_distinct_source_specific_propositions": 2,
+    "additional_case_existing_assertion": 1,
+    "existing_y_sem_id_preserved": "SEM:3b606798a4d0a8d26447",
+    "cards_validate_card_pass": 3,
+    "inventory_member_ids_checked": true,
+    "exact_quote_sha_checks": 42
+  }
+}

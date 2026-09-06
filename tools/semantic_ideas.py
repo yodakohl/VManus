@@ -17,7 +17,7 @@ ARCHIVE=DIRECTORY+'/semantic_ideas_excluded.jsonl'
 IDENTITIES=DIRECTORY+'/semantic_identity_decisions.jsonl'
 FAILURES=DIRECTORY+'/semantic_failure_decisions.jsonl'
 REVIEWS=[DIRECTORY+'/decisions/'+name for name in ['clean_proposal_review.json','clean_component_review.json','clean_ip_review.json','clean_historical_review.json']]
-EXTRA_REVIEWS=[DIRECTORY+'/decisions/'+name for name in ['clean_prereg_candidate_review.json','clean_report_proposals_review.json','clean_middle_sidequest_review.json','clean_late_sidequest_review.json','clean_root_early_review.json','clean_final_sidequest_review.json']]
+EXTRA_REVIEWS=[DIRECTORY+'/decisions/'+name for name in ['clean_prereg_candidate_review.json','clean_report_proposals_review.json','clean_middle_sidequest_review.json','clean_late_sidequest_review.json','clean_root_early_review.json','clean_final_sidequest_review.json','clean_gap_review_l.json','clean_gap_review_o.json']]
 SEMANTIC_TYPES={'lexical_hypothesis','semantic_model','functional_hypothesis'}
 TYPES=SEMANTIC_TYPES|{'formal_role'}
 PLACEHOLDER=re.compile(r'^(?:unknown|unresolved|not[_ ]assessed|needs?[_ ]review|source[_ ]requires[_ ]review|review[_ ]priority|todo|tbd|placeholder|noch zu|unbekannt|zu prüfen)(?:\b|$)',re.I)
@@ -32,10 +32,10 @@ def card_basis(card):
     fields.update(card.get('source_original_assertion',{}))
     return hashlib.sha256(registry.canonical(fields).encode()).hexdigest()
 
-def apply_corrections(rows,root,inputs,source_hashes):
-    path=root/CORRECTIONS
+def apply_corrections(rows,root,inputs,source_hashes,relative=CORRECTIONS):
+    path=root/relative
     if not path.exists():return rows,[]
-    inputs[CORRECTIONS]=registry.digest(path)
+    inputs[relative]=registry.digest(path)
     by_id={r['id']:r for r in rows};histories={};seen=set()
     for review in registry.read_jsonl(path):
         target=review['target'];identifier=review['id']
@@ -222,7 +222,7 @@ def connect(root=ROOT):
         con.execute('INSERT INTO meta VALUES(?)',(key,));con.commit()
     return con
 
-def local_cards(root=ROOT):
+def local_cards(root=ROOT,include_archived=False):
     path=root/DIRECTORY/'runtime'/'clean_local_review.json'
     if not path.exists():return []
     from tools.semantic_inventory import local_items
@@ -233,7 +233,8 @@ def local_cards(root=ROOT):
         result.append(dict(c,id='SEMLOCAL:'+hashlib.sha256(c['id'].encode()).hexdigest()[:20],
             ready=False,review_ids=[c['id']],cases=[{k:v for k,v in c.items() if k not in ('claim','evidence')}],
             local_only=True,status=c.get('status','unconfirmed')))
-    return result
+    active,archive=apply_corrections(result,root,{}, {},DIRECTORY+'/runtime/semantic_local_corrections.jsonl')
+    return active+archive if include_archived else active
 
 def get_page(root=ROOT,query='',limit=8,offset=0,include_formal=False):
     if not 1<=limit<=20 or offset<0:raise ValueError('limit 1..20, offset >=0')
@@ -290,7 +291,7 @@ def show(root,identifier,field=None,limit=3,offset=0):
     try:
         rows=con.execute('SELECT payload FROM ideas WHERE id=?',(identifier,)).fetchall()
         if not rows:
-            rows=[(registry.canonical(r),) for r in registry.read_jsonl(root/DATA)+local_cards(root)+registry.read_jsonl(root/ARCHIVE)
+            rows=[(registry.canonical(r),) for r in registry.read_jsonl(root/DATA)+local_cards(root,include_archived=True)+registry.read_jsonl(root/ARCHIVE)
                 if identifier==r['id'] or identifier in r['review_ids']]
         if not rows:raise ValueError('unknown semantic idea ID')
         r=json.loads(rows[0][0])
@@ -320,11 +321,14 @@ def show(root,identifier,field=None,limit=3,offset=0):
     return registry.bounded_view(r)
 
 def main(argv=None,root=ROOT):
-    p=argparse.ArgumentParser();p.add_argument('query',nargs='?',default='');p.add_argument('--show');p.add_argument('--field');p.add_argument('--limit',type=int,default=8);p.add_argument('--offset',type=int,default=0);p.add_argument('--include-formal',action='store_true');p.add_argument('--build',action='store_true');p.add_argument('--check',action='store_true');a=p.parse_args(argv)
+    p=argparse.ArgumentParser();p.add_argument('query',nargs='?',default='');p.add_argument('--shortlist',action='store_true');p.add_argument('--show');p.add_argument('--field');p.add_argument('--limit',type=int,default=8);p.add_argument('--offset',type=int,default=0);p.add_argument('--include-formal',action='store_true');p.add_argument('--build',action='store_true');p.add_argument('--check',action='store_true');a=p.parse_args(argv)
     if not 1<=a.limit<=20 or a.offset<0:p.error('limit 1..20, offset >=0')
     if a.build:result=build(root)
     elif a.check:
         m=validate(root);result={k:m[k] for k in ('status','cards','semantic_cards','formal_role_cards')}
+    elif a.shortlist:
+        from tools.semantic_priority_view import get_page as priority_page
+        result=priority_page(root,a.query,a.limit,a.offset)
     elif a.show:result=show(root,a.show,a.field,a.limit,a.offset)
     else:result=get_page(root,a.query,a.limit,a.offset,a.include_formal)
     print(json.dumps(result,ensure_ascii=False,indent=2))

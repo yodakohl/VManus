@@ -1,0 +1,2165 @@
+{
+  "schema": "source_coverage_gap_audit_v1",
+  "review_id": "SOURCE_COVERAGE_GAP_BATCH_J",
+  "scope": "80 actual unresolved prose blocks; not all 15478 unresolved_source_block inventory rows. No registry/card creation.",
+  "population_record_types": {
+    "unresolved_block": 9917,
+    "unresolved_source_pointer": 5561
+  },
+  "selection": {
+    "first_pass": {
+      "count": 60,
+      "risk_terms": [
+        "hypoth/theor",
+        "Bedeutung/meaning",
+        "Lesung/reading/interpretation",
+        "Übersetzung/translation",
+        "rival/alternative",
+        "konkret/concrete"
+      ],
+      "minimum_weight": 4,
+      "max_span_lines": 31,
+      "max_per_source_file": 2,
+      "ordering": "descending risk weight, source path, start line"
+    },
+    "second_pass": {
+      "count": 20,
+      "terms": [
+        "Bedeutung/meaning",
+        "rival",
+        "Übersetzung/translation"
+      ],
+      "span_lines": "5–23",
+      "ordering": "SHA256 of source record ID; one per source file; excludes first60"
+    },
+    "sample_is_not_representative": true,
+    "source_pointer_rows_not_inspected": 5561
+  },
+  "reviewed_blocks": [
+    {
+      "source_id": "LEGACY_COMPONENT:670157c8f0a282b26829",
+      "selection_index": 0,
+      "source_record_type": "unresolved_block",
+      "title": "Best current meaning theory",
+      "evidence": {
+        "path": "GDT009_SEMANTIC_BOOTSTRAP_REPORT.md",
+        "line": 5,
+        "line_end": 25,
+        "quote": "## Best current meaning theory\n\nVoynich lines most plausibly behave as **compact technical assertions about\npage-local referents**.  A line opens or continues a record, selects an item or\nvalue frame, states an association/operation, adds a grade or configuration,\nand optionally closes the result.  Labels are compressed one-field or\nmulti-field records, not necessarily names.  This is the semantic layer of the\nHPR-1 renderer.\n\nIn deliberately concrete mnemonic English:\n\n```text\nq    under the current record/frame       t    start a new record\nd    set/apply or active rendering        s    describe/state rendering\no/ot item/local frame                     che  an explicit value/reference follows\nAR   association or operation link        OL   the referent/item field\nAI/AII, TE/TEE  reduced/expanded grade    DAL/DAR configuration A/B\nSY   secondary or exception status        DY   closed/default/resolved result\n```\n\nThese are provisional functional readings, not dictionary translations.",
+        "sha256": "6b5d0f65380395ca19407b8f3979f5410b65c1303ba46b8599a4e227aca0485e"
+      },
+      "disposition": "meaning_already_represented_or_scoped_counterpart",
+      "reason": "Concrete proposition or its historical status has an existing card; this does not certify all surrounding prose or equate broader model details.",
+      "existing_exact_source_overlap": [
+        "SEM:a0527b64d6a86c83569b"
+      ],
+      "reviewed_counterpart_ids": [
+        "SEM:a0527b64d6a86c83569b"
+      ],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:d6a7fbb6588f0182dfda",
+      "selection_index": 1,
+      "source_record_type": "unresolved_block",
+      "title": "Best current meaning theory",
+      "evidence": {
+        "path": "GDT009_SEMANTIC_BOOTSTRAP_REPORT.md",
+        "line": 7,
+        "line_end": 12,
+        "quote": "Voynich lines most plausibly behave as **compact technical assertions about\npage-local referents**.  A line opens or continues a record, selects an item or\nvalue frame, states an association/operation, adds a grade or configuration,\nand optionally closes the result.  Labels are compressed one-field or\nmulti-field records, not necessarily names.  This is the semantic layer of the\nHPR-1 renderer.",
+        "sha256": "6b5d0f65380395ca19407b8f3979f5410b65c1303ba46b8599a4e227aca0485e"
+      },
+      "disposition": "meaning_already_represented_or_scoped_counterpart",
+      "reason": "Concrete proposition or its historical status has an existing card; this does not certify all surrounding prose or equate broader model details.",
+      "existing_exact_source_overlap": [
+        "SEM:a0527b64d6a86c83569b"
+      ],
+      "reviewed_counterpart_ids": [
+        "SEM:a0527b64d6a86c83569b"
+      ],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:fb1a17cd5d2883228bad",
+      "selection_index": 2,
+      "source_record_type": "unresolved_block",
+      "title": "Was das für die Arbeitstheorie bedeutet",
+      "evidence": {
+        "path": "experiments/yolo/gdt569_four_context_carry_voice_frames/REPORT.md",
+        "line": 82,
+        "line_end": 101,
+        "quote": "## Was das für die Arbeitstheorie bedeutet\n\nDie gegenwärtige Kompositionssprache hat jetzt eine sehr konkrete Form:\n\n```text\n19 kurze Wurzelwerte\n+ ownergebundene Nomen/Relationen/Verbrahmen\n+ zwei lebende Satzslots: aktive Handlung, aktives Argument\n+ OT/OL/DY als Weiter-/Danach-/Abschlusssteuerung\n```\n\nEine kurze Karte wie `OL` muss daher niemals „halte denselben Pflanzenanteil im\nlaufenden Arbeitsgang“ als Ganzwort bedeuten. `OL` liefert FORTSETZEN; Handlung,\nArgument und Register liefern den Rest. Das ist bislang die sparsamste\nvollständige Erklärung für die langen deutschen Arbeitszeilen.\n\nDie neue Ausgabe verändert1.442 Zustandszeilen,711 Aussagen und alle28\nlaufenden Seiten. Die214 vollständig lokalen Zustandszeilen und alle3.466\nNichtzustandszeilen bleiben bytegleich. Alle5.122 Ereignisse,793 Aussagen und30\nzugelassenen Seiten bleiben in derselben Reihenfolge. Alle51 Prüfungen bestehen.",
+        "sha256": "b2f71a344afab5be26e5195b34d44bd2f0b3eab13e72c76d0d3ef3f4259664fc"
+      },
+      "disposition": "meaning_already_represented_or_scoped_counterpart",
+      "reason": "Concrete proposition or its historical status has an existing card; this does not certify all surrounding prose or equate broader model details.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [
+        "SEM:c3ae0144488047031317"
+      ],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:d6532c7da2224bdfae08",
+      "selection_index": 3,
+      "source_record_type": "unresolved_block",
+      "title": "Was das für die Arbeitstheorie bedeutet",
+      "evidence": {
+        "path": "experiments/yolo/gdt569_four_context_carry_voice_frames/REPORT.md",
+        "line": 93,
+        "line_end": 96,
+        "quote": "Eine kurze Karte wie `OL` muss daher niemals „halte denselben Pflanzenanteil im\nlaufenden Arbeitsgang“ als Ganzwort bedeuten. `OL` liefert FORTSETZEN; Handlung,\nArgument und Register liefern den Rest. Das ist bislang die sparsamste\nvollständige Erklärung für die langen deutschen Arbeitszeilen.",
+        "sha256": "b2f71a344afab5be26e5195b34d44bd2f0b3eab13e72c76d0d3ef3f4259664fc"
+      },
+      "disposition": "meaning_already_represented_or_scoped_counterpart",
+      "reason": "Concrete proposition or its historical status has an existing card; this does not certify all surrounding prose or equate broader model details.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [
+        "SEM:c3ae0144488047031317"
+      ],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:f4abe7d705123e9a85ef",
+      "selection_index": 4,
+      "source_record_type": "unresolved_block",
+      "title": "Bedeutung für die Arbeitstheorie",
+      "evidence": {
+        "path": "experiments/yolo/gdt573_intra_clause_argument_pronoun_voice/REPORT.md",
+        "line": 74,
+        "line_end": 89,
+        "quote": "## Bedeutung für die Arbeitstheorie\n\nDie lange deutsche Wiederholung war kein Hinweis auf lange Voynich-Wörter. Sie\nwar ein Artefakt unseres vollständig expliziten Renderers. Die aktuelle\nLesesprache benötigt dafür nur:\n\n```text\n20 bekannte ownergebundene Argumentformen\n+ ihn/sie nach der ersten lokalen Nennung\n+ eine Pluralform für das alte Y|Y\n+ beide für drei gleichgeschlechtliche Zweierkoordinaten\n```\n\nDas ändert keine der neunzehn Arbeitswurzeln und bestätigt weiterhin keine\nhistorische Übersetzung. Es macht die bestehende vollständige Arbeitstheorie\njedoch kürzer und besser lesbar.",
+        "sha256": "b93bf9c90da208426fd4e888c54310667ad4558e1be59ce10c27690d8c62661e"
+      },
+      "disposition": "scope_comparison_unresolved_not_a_new_idea",
+      "reason": "Contains functional/model/compositional wording. No rigorous new semantic-card gap is asserted from lexical search alone; exact scope review remains needed.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:5c0e3577b956a29fe8f3",
+      "selection_index": 5,
+      "source_record_type": "unresolved_block",
+      "title": "Bedeutung für die Arbeitstheorie",
+      "evidence": {
+        "path": "experiments/yolo/gdt573_intra_clause_argument_pronoun_voice/REPORT.md",
+        "line": 87,
+        "line_end": 89,
+        "quote": "Das ändert keine der neunzehn Arbeitswurzeln und bestätigt weiterhin keine\nhistorische Übersetzung. Es macht die bestehende vollständige Arbeitstheorie\njedoch kürzer und besser lesbar.",
+        "sha256": "b93bf9c90da208426fd4e888c54310667ad4558e1be59ce10c27690d8c62661e"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:8bc4161b3b4c6ac66758",
+      "selection_index": 6,
+      "source_record_type": "unresolved_block",
+      "title": "Bedeutung für die Arbeitstheorie",
+      "evidence": {
+        "path": "experiments/yolo/gdt574_adjacent_action_count_voice/REPORT.md",
+        "line": 73,
+        "line_end": 79,
+        "quote": "## Bedeutung für die Arbeitstheorie\n\nDie alte Idee aus GDT500 trägt also über das ganze aktuelle Buch, aber nur mit\neiner wichtigen Grenze: gezählt wird rohe Nachbarschaft, nicht bloß dasselbe\nVerb irgendwo später. Dadurch bleibt die Aktionsreihenfolge weiterhin\nvorhersagbar und sichtbar. `zweimal` ist Werkstattdeutsch für zwei vorhandene\nSlots, kein vorgeschlagener Voynich-Zahlwert.",
+        "sha256": "ff51ab2fcc03c69e01d3b86b6ce478ea99b7fa0e0483ba7ff35a7310fa57f690"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:f5791225fb008d6fe675",
+      "selection_index": 7,
+      "source_record_type": "unresolved_block",
+      "title": "Bedeutung für die Arbeitstheorie",
+      "evidence": {
+        "path": "experiments/yolo/gdt579_mixed_outer_inner_scope_voice/REPORT.md",
+        "line": 99,
+        "line_end": 110,
+        "quote": "## Bedeutung für die Arbeitstheorie\n\nDer Scope verhält sich nicht wie ein frei verschiebbares deutsches Suffix.\nDirekte Zwillinge können eine Basis teilen; unterbrochene Zwillinge tragen\nlokale Köpfe und bewahren den Inhalt dazwischen. Das ist eine brauchbare\nKompositionsregel für die Arbeitsübersetzung, ohne `äußerer/innerer Zweig` zu\neinem behaupteten Voynich-Wort oder einer Konjunktion zu erklären.\n\nAls nächster enger Rest bleiben die drei wirklich roh benachbarten\nRelations-/Modifierwiederholungen aus GDT575. Sie können auf eine kleine\nZweischlitz-Zählstimme geprüft werden, ohne die jetzt geschlossenen 17\nScopepaare wieder anzufassen.",
+        "sha256": "9451f9d84dc81d14d144409865f61864d19a54a1bac6529c10d6dc1a47d0349d"
+      },
+      "disposition": "scope_comparison_unresolved_not_a_new_idea",
+      "reason": "Contains functional/model/compositional wording. No rigorous new semantic-card gap is asserted from lexical search alone; exact scope review remains needed.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:0792651eb86dd57fcbec",
+      "selection_index": 8,
+      "source_record_type": "unresolved_block",
+      "title": "Bedeutung für die Arbeitstheorie",
+      "evidence": {
+        "path": "experiments/yolo/gdt579_mixed_outer_inner_scope_voice/REPORT.md",
+        "line": 101,
+        "line_end": 105,
+        "quote": "Der Scope verhält sich nicht wie ein frei verschiebbares deutsches Suffix.\nDirekte Zwillinge können eine Basis teilen; unterbrochene Zwillinge tragen\nlokale Köpfe und bewahren den Inhalt dazwischen. Das ist eine brauchbare\nKompositionsregel für die Arbeitsübersetzung, ohne `äußerer/innerer Zweig` zu\neinem behaupteten Voynich-Wort oder einer Konjunktion zu erklären.",
+        "sha256": "9451f9d84dc81d14d144409865f61864d19a54a1bac6529c10d6dc1a47d0349d"
+      },
+      "disposition": "scope_comparison_unresolved_not_a_new_idea",
+      "reason": "Contains functional/model/compositional wording. No rigorous new semantic-card gap is asserted from lexical search alone; exact scope review remains needed.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:1a3381d8ecab903f8f89",
+      "selection_index": 9,
+      "source_record_type": "unresolved_block",
+      "title": "Bedeutung für die Arbeitstheorie",
+      "evidence": {
+        "path": "experiments/yolo/gdt580_adjacent_relation_resumption_voice/REPORT.md",
+        "line": 78,
+        "line_end": 92,
+        "quote": "## Bedeutung für die Arbeitstheorie\n\nDie Wiederholung zweier identischer Stämme muss nicht als neues Ganzwort und\nnicht automatisch als Zahlenoperator gelesen werden. Für O+O, D_ADDR+D_ADDR\nund AL+AL genügt dieselbe lokale Komposition:\n\n```text\nX + X  →  X, unmittelbare Wiederaufnahme von X\n```\n\nEntscheidend bleibt der Kopfanschluss. Derselbe Operator darf eine Basis\nwiederaufnehmen, aber keinen Besitzer erfinden. Mit diesem Pass sind alle drei\nroh benachbarten identischen Relationspaare gesprochen; die 62 unterbrochenen\nWiederholungen, alle Außen/Innen-Paare und G407-E1755 bleiben in ihren bereits\nausgearbeiteten Stimmen unangetastet.",
+        "sha256": "bb733f295477878f46aeb9a6b66353bdc215ad5d3f544814c0e5ad5137cd51d7"
+      },
+      "disposition": "concrete_functional_proposition_no_exact_representation_located",
+      "reason": "See explicit gap candidate; no new SEM card or independence/novelty claim.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": "J_RELATION_RESUMPTION"
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:e25a019b73d1ea25513d",
+      "selection_index": 10,
+      "source_record_type": "unresolved_block",
+      "title": "Bedeutung fuer die Arbeitstheorie",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_compact_surface_manual_six_hundred_twenty_eighth/SIX_HUNDRED_TWENTY_EIGHTH_REPORT.md",
+        "line": 45,
+        "line_end": 59,
+        "quote": "## Bedeutung fuer die Arbeitstheorie\n\nDie vorgeschlagene Schrift hat jetzt vier lehrbare Ebenen:\n\n```text\n39 Werkstattwoerter\n  -> 163 invariante Befehle\n  -> 173 gelernte Kartenkoerper\n  -> 8 Wrapper + 21 lokale Sonderformen\n```\n\nDas passt besser zu einer kleinen Mehrschreiberwerkstatt um 1420 als entweder\neine vollstaendig freie Buchstabenschrift oder 173 unverbundene Geheimwoerter.\nDie Schreiber teilen Bedeutung und Kartenkoerper, waehrend Position und lokale\nGewohnheit die sichtbare Huelle steuern.",
+        "sha256": "3615be32317ab956d8c06624747f752ffe65eb07248b61523b46153364fd3abc"
+      },
+      "disposition": "meaning_already_represented_or_scoped_counterpart",
+      "reason": "Concrete proposition or its historical status has an existing card; this does not certify all surrounding prose or equate broader model details.",
+      "existing_exact_source_overlap": [
+        "SEM:a2d4edf39beff71f8721"
+      ],
+      "reviewed_counterpart_ids": [
+        "SEM:a2d4edf39beff71f8721"
+      ],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:8638750dfa89c351a030",
+      "selection_index": 11,
+      "source_record_type": "unresolved_block",
+      "title": "Bedeutung fuer die Arbeitstheorie",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_compact_surface_manual_six_hundred_twenty_eighth/SIX_HUNDRED_TWENTY_EIGHTH_REPORT.md",
+        "line": 56,
+        "line_end": 59,
+        "quote": "Das passt besser zu einer kleinen Mehrschreiberwerkstatt um 1420 als entweder\neine vollstaendig freie Buchstabenschrift oder 173 unverbundene Geheimwoerter.\nDie Schreiber teilen Bedeutung und Kartenkoerper, waehrend Position und lokale\nGewohnheit die sichtbare Huelle steuern.",
+        "sha256": "3615be32317ab956d8c06624747f752ffe65eb07248b61523b46153364fd3abc"
+      },
+      "disposition": "meaning_already_represented_or_scoped_counterpart",
+      "reason": "Concrete proposition or its historical status has an existing card; this does not certify all surrounding prose or equate broader model details.",
+      "existing_exact_source_overlap": [
+        "SEM:a2d4edf39beff71f8721"
+      ],
+      "reviewed_counterpart_ids": [
+        "SEM:a2d4edf39beff71f8721"
+      ],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:e068697ddfea73fefce7",
+      "selection_index": 12,
+      "source_record_type": "unresolved_block",
+      "title": "Bedeutung fuer die Arbeitstheorie",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_novel_apprentice_order_six_hundred_thirtieth/SIX_HUNDRED_THIRTIETH_REPORT.md",
+        "line": 53,
+        "line_end": 62,
+        "quote": "## Bedeutung fuer die Arbeitstheorie\n\nDas System ist jetzt mehr als eine rueckwaerts angepasste Lesefassung. Innerhalb\nseines bestehenden Wort-, Karten- und Oberflaechendecks kann es eine neue\nArbeitsanweisung bilden, deren sichtbare Folge noch nicht im Material steht und\ndie dennoch eindeutig zuruecklesbar ist.\n\nDas beweist keine historische Uebersetzung. Fuer den Sidequest zeigt es aber,\ndass die angenommene Mischung aus produktiven Fachkuerzeln und gelernten\nGanzkarten praktisch schreibbar ist.",
+        "sha256": "afb22b918e50a0b536a62323149fcc46d69823bb027853c2aea5812b800e290b"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:fb2a539a9878bf0d0db1",
+      "selection_index": 13,
+      "source_record_type": "unresolved_block",
+      "title": "GDT181 — hybrid technical-compiler translation theory",
+      "evidence": {
+        "path": "GDT181_HYBRID_TECHNICAL_COMPILER_THEORY_METHOD.md",
+        "line": 1,
+        "line_end": 1,
+        "quote": "# GDT181 — hybrid technical-compiler translation theory",
+        "sha256": "fa1f9f3803b255438a24c045b14527a57da337a61e4941cbb05656223c0ba50f"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:f160d473e5d2a1d6906d",
+      "selection_index": 14,
+      "source_record_type": "unresolved_block",
+      "title": "Consequence for the translation theory",
+      "evidence": {
+        "path": "GDT182_F57_DECODER_MULTIPLICITY_REPORT.md",
+        "line": 50,
+        "line_end": 53,
+        "quote": "This does not show that the W.73 phase or the f57 four-quality interpretation\nis false.  The visual-historical scaffold still organizes the page, and the\nregister-conditioned coordinates remain an economical way to write it down.\nWhat changes is evidential force:",
+        "sha256": "db637313a6df7987a4cd2069e13be045a3655aa5ef41e9a35c5d6a258f805cd2"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:e1f4734a1367c60538a9",
+      "selection_index": 15,
+      "source_record_type": "unresolved_block",
+      "title": "Consequence for the translation theory",
+      "evidence": {
+        "path": "GDT182_F57_DECODER_MULTIPLICITY_REPORT.md",
+        "line": 58,
+        "line_end": 59,
+        "quote": "- the f77 5/5 relation fit inherits an exposed state assignment and is not an\n  independent semantic replication.",
+        "sha256": "db637313a6df7987a4cd2069e13be045a3655aa5ef41e9a35c5d6a258f805cd2"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:aaf8dcaac13338431a7d",
+      "selection_index": 16,
+      "source_record_type": "unresolved_block",
+      "title": "V16 selection — complete default-meaning working translation",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_theory_candidates_v16/V16_THEORY_SELECTION.md",
+        "line": 1,
+        "line_end": 6,
+        "quote": "# V16 selection — complete default-meaning working translation\n\nDate: 2026-08-21\n\nStatus: **selected maximally abductive sidequest basis**, not a decipherment\nclaim or canonical GDT result.",
+        "sha256": "e9c9bd8650496fbf2f86ae9fed27cbcde16649bde75f78c2c3ca6edf642f93c7"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:3dd613d5aec139ebeb64",
+      "selection_index": 17,
+      "source_record_type": "unresolved_block",
+      "title": "V16 selection — complete default-meaning working translation",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_theory_candidates_v16/V16_THEORY_SELECTION.md",
+        "line": 5,
+        "line_end": 6,
+        "quote": "Status: **selected maximally abductive sidequest basis**, not a decipherment\nclaim or canonical GDT result.",
+        "sha256": "e9c9bd8650496fbf2f86ae9fed27cbcde16649bde75f78c2c3ca6edf642f93c7"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:a458831709614a7b0616",
+      "selection_index": 18,
+      "source_record_type": "unresolved_block",
+      "title": "One concrete rival, explicitly after reading",
+      "evidence": {
+        "path": "experiments/yolo/gdt821_raiin_admitted_paragraph_transfer/REPORT.md",
+        "line": 77,
+        "line_end": 84,
+        "quote": "The MediManus transcription of Latin9333 f082v includes leuis among Ambra's\nselection properties; the exact physical sense is an interpretation of this\nproperty list, not an identified Voynich substance. A separate f096r side-note\nhas an editorially marked doubled grauat, showing an indicative duplicate in\nthat transcription, not proving intentional emphasis rather than dittography.\nNo original ink was collated. The agent's initial De caelo I.4.3 locator was\nchecked and corrected to I.5.5 before publication.\n[MediManus primary transcription](https://medimanus.chs.harvard.edu/app/en/pharmantica/tacuinum_sanitatis).",
+        "sha256": "85e54762b22b19bda5df98115827989ac01b6b67b527a0802247ad834893eaab"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [
+        "SEM:39853789bfcf25090fe9"
+      ],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:0fa339934162c3462061",
+      "selection_index": 19,
+      "source_record_type": "unresolved_block",
+      "title": "Leading meaning and rivals",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_theory_candidates_v13/V13_THEORY_SELECTION.md",
+        "line": 98,
+        "line_end": 110,
+        "quote": "## Leading meaning and rivals\n\nConfidence layers:\n\n- relation/continuation function: **0.74** working confidence;\n- `WITH / ALSO / LIKEWISE UNDER CURRENT HEADING`: **0.59**;\n- any specific medical relation, material, body part or action: **0.00**.\n\nThe strongest rival is a purely formal binary relation/argument-slot card.\n`AND/ALSO` is a useful fluent expansion but too weak alone: it does not explain\nthe inherited single-card and open-edge cases as well. `OF/FROM`, `IN A\nMEDIUM`, partitive share and ordinary preposition remain context-specific\npossible readings, not the general function.",
+        "sha256": "1edb5d04ebd31c4e104c9061b900d9cf31789942f8316f48874663e743a8978c"
+      },
+      "disposition": "meaning_already_represented_or_scoped_counterpart",
+      "reason": "Concrete proposition or its historical status has an existing card; this does not certify all surrounding prose or equate broader model details.",
+      "existing_exact_source_overlap": [
+        "SEM:01430638010b9776b4b2",
+        "SEM:4b6e2860fa81daa06c4d",
+        "SEM:584bf570a18488e0df6b"
+      ],
+      "reviewed_counterpart_ids": [
+        "SEM:01430638010b9776b4b2",
+        "SEM:4b6e2860fa81daa06c4d",
+        "SEM:584bf570a18488e0df6b"
+      ],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:dcde12a732a91dc44906",
+      "selection_index": 20,
+      "source_record_type": "unresolved_block",
+      "title": "Leading meaning and rivals",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_theory_candidates_v13/V13_THEORY_SELECTION.md",
+        "line": 106,
+        "line_end": 110,
+        "quote": "The strongest rival is a purely formal binary relation/argument-slot card.\n`AND/ALSO` is a useful fluent expansion but too weak alone: it does not explain\nthe inherited single-card and open-edge cases as well. `OF/FROM`, `IN A\nMEDIUM`, partitive share and ordinary preposition remain context-specific\npossible readings, not the general function.",
+        "sha256": "1edb5d04ebd31c4e104c9061b900d9cf31789942f8316f48874663e743a8978c"
+      },
+      "disposition": "meaning_already_represented_or_scoped_counterpart",
+      "reason": "Concrete proposition or its historical status has an existing card; this does not certify all surrounding prose or equate broader model details.",
+      "existing_exact_source_overlap": [
+        "SEM:01430638010b9776b4b2",
+        "SEM:4b6e2860fa81daa06c4d",
+        "SEM:584bf570a18488e0df6b"
+      ],
+      "reviewed_counterpart_ids": [
+        "SEM:01430638010b9776b4b2",
+        "SEM:4b6e2860fa81daa06c4d",
+        "SEM:584bf570a18488e0df6b"
+      ],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:9cd93636d918416fce16",
+      "selection_index": 21,
+      "source_record_type": "unresolved_block",
+      "title": "Konkrete Bedeutungsreparaturen, die jetzt fest bleiben",
+      "evidence": {
+        "path": "experiments/yolo/gdt409_nineteen_core_semantic_drift_audit/REPORT.md",
+        "line": 72,
+        "line_end": 84,
+        "quote": "## Konkrete Bedeutungsreparaturen, die jetzt fest bleiben\n\n- `AIIN` bleibt **WERT**, nicht **MASS**. Maß/Dosis darf eine lokale\n  Herbal-/Pharma-Erweiterung sein; die Himmelsregister erzwingen den breiteren\n  Wertslot.\n- `OR` bleibt **EINHEIT**, nicht **ANSATZ**. In Bio und Himmel ist „Ansatz“ zu\n  stofflich.\n- `AIN` bleibt **ANTEIL**, nicht **PORTION**. Portion ist nur eine lokale\n  Anwendung.\n- `AIR` bleibt **LAUF**, niemals allgemein **WASSER**. In Himmelskontexten wird\n  es zum Ring-/Positionslauf, in Beckenbildern lokal zum Wasserlauf.\n- `AL/AR` bleiben Ziel/Ausgang, ohne aus einer ungepfeilten Zeichnung eine\n  Flussrichtung zu erfinden.",
+        "sha256": "d9315dc142103c095dbb6fb46901dd2d93f825e8d750c8a200606461c4e732e6"
+      },
+      "disposition": "meaning_already_represented_or_scoped_counterpart",
+      "reason": "Concrete proposition or its historical status has an existing card; this does not certify all surrounding prose or equate broader model details.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [
+        "SEM:3eb0c5f5f8e9f35ff81e",
+        "SEM:2b1ee25cb31249083c0e",
+        "SEM:586bdbe04950c315e3a4",
+        "SEM:7d826a996572c0c667cb"
+      ],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:7af6ef0db0d4aef005be",
+      "selection_index": 22,
+      "source_record_type": "unresolved_block",
+      "title": "Wo die gewünschten konkreten Bedeutungen jetzt liegen",
+      "evidence": {
+        "path": "experiments/yolo/gdt582_concrete_stem_default_fill/REPORT.md",
+        "line": 120,
+        "line_end": 121,
+        "quote": "Reiben/Mahlen, Erwärmen, Kühlen, Trocknen, Einweichen und Baden sind die\nbevorzugten **nächsten Unterlesungen** der kleinen Operationsstämme:",
+        "sha256": "19036c35d8aba35b3605fc9aa60b752584194bef4c01a570a5b701e1587d5adb"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:b72f9f1147119b0af0f8",
+      "selection_index": 23,
+      "source_record_type": "unresolved_block",
+      "title": "`qotomody`: konkrete Bedeutung, noch keine Wörterbuchkarte",
+      "evidence": {
+        "path": "experiments/yolo/gdt640_downstream_component_prediction/REPORT.md",
+        "line": 139,
+        "line_end": 164,
+        "quote": "## `qotomody`: konkrete Bedeutung, noch keine Wörterbuchkarte\n\nDer Einzelbeleg lautet:\n\n```text\nf37r.6  shor shol qokchy qotomody dchol daiin\n```\n\nMit dem erhaltenen Default ergibt sich:\n\n**Blüten-/Fruchtstand; feuchtes Gut; heiß-trocken; kaltes Ansatzmaß in\nfertig aufbereiteter Grundform; Maß trockenen Materials; Qualitätsgrad III.**\n\nDiese Lesung ist praktischer und vollständiger als GDT639s flacher Vorschlag\n„kalt, fertig aufbereitete Form“, denn sie löscht weder den Ansatzrahmen noch\n`m`. Sie bleibt als Arbeitsannahme stehen. Nur die globale Ausführung wartet:\n\n- `qotom` kommt einmal mit terminalem `m` vor;\n- `qotomody` kommt einmal mit internem `m` vor;\n- es gibt kein zweites `*mody`, `otomody` oder `okomody`;\n- `qotokody` ist eine einzelne K-Nachbarform, aber reader-instabil.\n\nDer stärkste Rivale ist deshalb eine gelernte Ganzform `qotom` plus `ody`,\nnicht eine produktive freie Bedeutung des Buchstabens `m`. Der Hold verwirft\ndie Gesamtlesung nicht; er verhindert nur, dass das unklare innere Feld auf\nandere Wörter überspringt.",
+        "sha256": "68d7a1089e298c0050f40a68a00fdb67507a0902691b516be00e532bf96aeb41"
+      },
+      "disposition": "meaning_already_represented_or_scoped_counterpart",
+      "reason": "Concrete proposition or its historical status has an existing card; this does not certify all surrounding prose or equate broader model details.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [
+        "SEM:cb06cea26ef7040e80cf"
+      ],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:95062ffa74b2ba2e388d",
+      "selection_index": 24,
+      "source_record_type": "unresolved_block",
+      "title": "`qotomody`: konkrete Bedeutung, noch keine Wörterbuchkarte",
+      "evidence": {
+        "path": "experiments/yolo/gdt640_downstream_component_prediction/REPORT.md",
+        "line": 152,
+        "line_end": 154,
+        "quote": "Diese Lesung ist praktischer und vollständiger als GDT639s flacher Vorschlag\n„kalt, fertig aufbereitete Form“, denn sie löscht weder den Ansatzrahmen noch\n`m`. Sie bleibt als Arbeitsannahme stehen. Nur die globale Ausführung wartet:",
+        "sha256": "68d7a1089e298c0050f40a68a00fdb67507a0902691b516be00e532bf96aeb41"
+      },
+      "disposition": "meaning_already_represented_or_scoped_counterpart",
+      "reason": "Concrete proposition or its historical status has an existing card; this does not certify all surrounding prose or equate broader model details.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [
+        "SEM:cb06cea26ef7040e80cf"
+      ],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:d883b92f9fb21254c038",
+      "selection_index": 25,
+      "source_record_type": "unresolved_block",
+      "title": "GDT658 — vier Restformen erhalten konkrete Bedeutungen",
+      "evidence": {
+        "path": "experiments/yolo/gdt658_four_residual_concrete_completion/REPORT.md",
+        "line": 1,
+        "line_end": 1,
+        "quote": "# GDT658 — vier Restformen erhalten konkrete Bedeutungen",
+        "sha256": "71dac0d8656909f655821a1ca3f0c6b8cb47e69d06388857d96ca465ba6a343c"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:f5fe1723cd2272ce00aa",
+      "selection_index": 26,
+      "source_record_type": "unresolved_block",
+      "title": "R1 — konkrete semantische Morphemtheorie",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_stem_search/R1_SEMANTIC_MORPHEME_THEORY.md",
+        "line": 1,
+        "line_end": 1,
+        "quote": "# R1 — konkrete semantische Morphemtheorie",
+        "sha256": "62a407e4fd0527338b3bc6327f79661177f21bf1db68101d05db7d7f1a974c25"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:a5af525b52375a872d6f",
+      "selection_index": 27,
+      "source_record_type": "unresolved_block",
+      "title": "Stärkste Lesung, Rivale und Widerspruch",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_theory_candidates_v70/V70_R1_IMAGE_FIRST_WORKSHOP_REPORT.md",
+        "line": 191,
+        "line_end": 209,
+        "quote": "## Stärkste Lesung, Rivale und Widerspruch\n\n**Stärkste Lesung:** anonyme Pflanzenmonographien, menschlich benutzte\nBad-/Waschszenen und ein himmelsbezogenes Nachschlageinstrument. Eine\niatromedizinische Gesamtredaktion ist dadurch sparsamer als zuvor, weil sie die\nMenschen- und Himmelsbilder gemeinsam ernst nimmt. Der medizinische Zweck\nbleibt dennoch exemplarischer Inhalt, nicht gelesener Text.\n\n**Stärkster Rivale:** Pflanzenrohstoffartikel, praktische Badehausnutzung und\nein astronomischer Kalender zur Terminierung von Arbeit. Dieser Rivale erklärt\ndie gleichen Bilder, ohne Krankheit oder Therapie anzunehmen, muss aber die\nzahlreichen Figuren als wirkliche Benutzer statt als überschüssige Dekoration\nführen.\n\n**Härtester Widerspruch:** V69s f69v-`INDEPENDENT_ORDERED_28...`-Einheit. Ihre\nLinearität, einheitliche Arity und konkrete Regeln sind durch die drei\ngetrennten, verschieden gebauten Räder nicht haltbar. Der zweitstärkste\nWiderspruch ist das erfundene integrierte f83r-Netz mit Wärme-, Filter- und\nRücklaufbauteilen.",
+        "sha256": "cdd4de14125861fc66ec1167657e18ef9cd37236a9330612fd65c1b874c8691f"
+      },
+      "disposition": "meaning_already_represented_or_scoped_counterpart",
+      "reason": "Concrete proposition or its historical status has an existing card; this does not certify all surrounding prose or equate broader model details.",
+      "existing_exact_source_overlap": [
+        "SEM:7bffc5891c7dc2febdff"
+      ],
+      "reviewed_counterpart_ids": [
+        "SEM:7bffc5891c7dc2febdff"
+      ],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:48c0342531aef603283f",
+      "selection_index": 28,
+      "source_record_type": "unresolved_block",
+      "title": "Stärkste Lesung, Rivale und Widerspruch",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_theory_candidates_v70/V70_R1_IMAGE_FIRST_WORKSHOP_REPORT.md",
+        "line": 193,
+        "line_end": 197,
+        "quote": "**Stärkste Lesung:** anonyme Pflanzenmonographien, menschlich benutzte\nBad-/Waschszenen und ein himmelsbezogenes Nachschlageinstrument. Eine\niatromedizinische Gesamtredaktion ist dadurch sparsamer als zuvor, weil sie die\nMenschen- und Himmelsbilder gemeinsam ernst nimmt. Der medizinische Zweck\nbleibt dennoch exemplarischer Inhalt, nicht gelesener Text.",
+        "sha256": "cdd4de14125861fc66ec1167657e18ef9cd37236a9330612fd65c1b874c8691f"
+      },
+      "disposition": "meaning_already_represented_or_scoped_counterpart",
+      "reason": "Concrete proposition or its historical status has an existing card; this does not certify all surrounding prose or equate broader model details.",
+      "existing_exact_source_overlap": [
+        "SEM:7bffc5891c7dc2febdff"
+      ],
+      "reviewed_counterpart_ids": [
+        "SEM:7bffc5891c7dc2febdff"
+      ],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:5b6b68bbd5765611dac1",
+      "selection_index": 29,
+      "source_record_type": "unresolved_block",
+      "title": "Stärkste Lesung, Rivale und Widerspruch",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_theory_candidates_v70/V70_R2_HISTORICAL_IMAGE_REPORT.md",
+        "line": 267,
+        "line_end": 282,
+        "quote": "## Stärkste Lesung, Rivale und Widerspruch\n\n**Stärkste positive Lesung:**\n`ILLUSTRATED_BALNEOLOGICAL_STATION_BOOK_WITH_APPARATUS_LAYER`. f81v besitzt\neinen direkten historischen Badebildmechanismus; f82r/f83r ergänzen reale\nGefäß- und Leitungsverbindungen.\n\n**Stärkster Rivale:**\n`PRACTICAL_BATHHOUSE_OR_PROCESS_STATION_REGISTER`. Menschen zeigen Benutzer,\nKapazität oder Stationen; der Text kann Betrieb und Wartung statt Heilwirkung\nbehandeln.\n\n**Härtester Widerspruch:** f69v ist sichtbar eine Dreiergruppe getrennter\nRosetten, nicht ein einziges geordnetes 28er-Regelrad. Das ist eine echte\nRevision der V69-Bildbeschreibung, ohne die historische Möglichkeit einer\n28er-Tradition zu leugnen.",
+        "sha256": "b7ebf6deb1b0a5025a084035407fcae280660a0ee41f69043bbc02032dba9007"
+      },
+      "disposition": "meaning_already_represented_or_scoped_counterpart",
+      "reason": "Concrete proposition or its historical status has an existing card; this does not certify all surrounding prose or equate broader model details.",
+      "existing_exact_source_overlap": [
+        "SEM:474c048ce5180e535267"
+      ],
+      "reviewed_counterpart_ids": [
+        "SEM:474c048ce5180e535267"
+      ],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:db6e91a29df0cf24f0bf",
+      "selection_index": 30,
+      "source_record_type": "unresolved_block",
+      "title": "Stärkste Lesung, Rivale und Widerspruch",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_theory_candidates_v70/V70_R2_HISTORICAL_IMAGE_REPORT.md",
+        "line": 269,
+        "line_end": 272,
+        "quote": "**Stärkste positive Lesung:**\n`ILLUSTRATED_BALNEOLOGICAL_STATION_BOOK_WITH_APPARATUS_LAYER`. f81v besitzt\neinen direkten historischen Badebildmechanismus; f82r/f83r ergänzen reale\nGefäß- und Leitungsverbindungen.",
+        "sha256": "b7ebf6deb1b0a5025a084035407fcae280660a0ee41f69043bbc02032dba9007"
+      },
+      "disposition": "meaning_already_represented_or_scoped_counterpart",
+      "reason": "Concrete proposition or its historical status has an existing card; this does not certify all surrounding prose or equate broader model details.",
+      "existing_exact_source_overlap": [
+        "SEM:474c048ce5180e535267"
+      ],
+      "reviewed_counterpart_ids": [
+        "SEM:474c048ce5180e535267"
+      ],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:6e6b4ae2154942d48be2",
+      "selection_index": 31,
+      "source_record_type": "unresolved_block",
+      "title": "Strongest reading and strongest rival",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_theory_candidates_v74/V74_R4_CHANCERY_STATION_ATLAS_REPORT.md",
+        "line": 59,
+        "line_end": 65,
+        "quote": "## Strongest reading and strongest rival\n\nThe strongest conservative content is a mixed bath/application and apparatus\nregister: actual figures make a purely abstract form book needlessly thin,\nwhile actual receptacles and tubes make a purely anatomical or gynecological\ntext needlessly narrow. The strongest rival is a pattern/exemplar atlas whose\ncards teach station layouts and closure cadences without naming any operation.",
+        "sha256": "eac9ed20bef6641a238e5ad86586262ee834338fd79d4286254f939a4342798b"
+      },
+      "disposition": "meaning_already_represented_or_scoped_counterpart",
+      "reason": "Concrete proposition or its historical status has an existing card; this does not certify all surrounding prose or equate broader model details.",
+      "existing_exact_source_overlap": [
+        "SEM:49990d62bf105841b31b"
+      ],
+      "reviewed_counterpart_ids": [
+        "SEM:49990d62bf105841b31b"
+      ],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:f5bd43d0e65251a27dc2",
+      "selection_index": 32,
+      "source_record_type": "unresolved_block",
+      "title": "Ranked physical hypotheses",
+      "evidence": {
+        "path": "GDT004_EXPLORATORY_MODULE_SHAPE_REPORT.md",
+        "line": 35,
+        "line_end": 44,
+        "quote": "## Ranked physical hypotheses\n\n1. `REUSABLE_LEADING_Q_EDGE_SEQUENCE` — **WEAK**. One secure visual target.\n2. `REUSABLE_RIGHT_EDGE_DY_SEQUENCE` — **WEAK**. Two secure visual targets.\n3. `REUSABLE_RIGHT_EDGE_DAR_SEQUENCE` — **FAILED VISUAL BINDING**. Its sole\n   target box was on the wrong line.\n4. `AUTHOR_MARKED_INTERNAL_SLOT_BOUNDARIES` — **INSUFFICIENT CAPACITY**. Only\n   three cuts are securely localized.\n5. `UNIQUE_COMPOSITIONAL_FACTORISATION` — **WEAK**. The image does not choose\n   between competing formal derivations of `qoldy`.",
+        "sha256": "66e10154e204a4f7dc13fd19d1cac605fdce62908d23d449e282e6041752e3c5"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:60900883963be7e0d306",
+      "selection_index": 33,
+      "source_record_type": "unresolved_block",
+      "title": "GDT008 hybrid-register theory synthesis",
+      "evidence": {
+        "path": "GDT008_HYBRID_REGISTER_THEORY_METHOD.md",
+        "line": 1,
+        "line_end": 7,
+        "quote": "# GDT008 hybrid-register theory synthesis\n\nStatus: `YOLO_ABDUCTIVE_THEORY_GENERATION`\n\nDate: 2026-08-14\n\nBranch: `yolo/gdt002-visual-grammar-constraints`",
+        "sha256": "f46828fa0afd7645d92017b5c2b8657901d3a564543697c50fab289bf1efa0cd"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:42dc8ae4df08e2f9b5ae",
+      "selection_index": 34,
+      "source_record_type": "unresolved_block",
+      "title": "GDT008 hybrid-register theory synthesis",
+      "evidence": {
+        "path": "GDT008_HYBRID_REGISTER_THEORY_METHOD.md",
+        "line": 3,
+        "line_end": 3,
+        "quote": "Status: `YOLO_ABDUCTIVE_THEORY_GENERATION`",
+        "sha256": "f46828fa0afd7645d92017b5c2b8657901d3a564543697c50fab289bf1efa0cd"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:4d43a3432a0438ca3b2b",
+      "selection_index": 35,
+      "source_record_type": "unresolved_block",
+      "title": "GDT008 hybrid procedural-register theory",
+      "evidence": {
+        "path": "GDT008_HYBRID_REGISTER_THEORY_REPORT.md",
+        "line": 1,
+        "line_end": 3,
+        "quote": "# GDT008 hybrid procedural-register theory\n\nStatus: **SELECTED EXPLORATORY WORLD MODEL — HPR-1**",
+        "sha256": "84bd7de3711b75b5127f405f78548d66bc68d4927ae3bcb589ca2243c2c6723b"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:82fb5f35d03302baa574",
+      "selection_index": 36,
+      "source_record_type": "unresolved_block",
+      "title": "GDT008 hybrid procedural-register theory",
+      "evidence": {
+        "path": "GDT008_HYBRID_REGISTER_THEORY_REPORT.md",
+        "line": 3,
+        "line_end": 3,
+        "quote": "Status: **SELECTED EXPLORATORY WORLD MODEL — HPR-1**",
+        "sha256": "84bd7de3711b75b5127f405f78548d66bc68d4927ae3bcb589ca2243c2c6723b"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:39786b2b852da0cdec91",
+      "selection_index": 37,
+      "source_record_type": "unresolved_block",
+      "title": "Meaning update",
+      "evidence": {
+        "path": "GDT011_FIELD_LAYER_REPORT.md",
+        "line": 25,
+        "line_end": 35,
+        "quote": "## Meaning update\n\nThe best defensible functions are now:\n\n- `t/s/d`: choose an entry or continuation record state;\n- `q/ch/sh/che`: introduce or scope an early field;\n- `o/ot`: local frame material whose function remains unresolved;\n- `DY`: close or resolve the current field.\n\nThis is stronger than assigning a picture noun, because the classes were\nrecovered from attachment distributions across matched hosts and pages.",
+        "sha256": "07ef1bf0ddf9c5531bd5986ca17aabb922aa90da77b0620c797c88e3f68a6a73"
+      },
+      "disposition": "scope_comparison_unresolved_not_a_new_idea",
+      "reason": "Contains functional/model/compositional wording. No rigorous new semantic-card gap is asserted from lexical search alone; exact scope review remains needed.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:bf2682c3535c084ca39f",
+      "selection_index": 38,
+      "source_record_type": "unresolved_block",
+      "title": "Provisional meaning update",
+      "evidence": {
+        "path": "GDT014_LOCAL_REFERENCE_MICROGRAMMAR_REPORT.md",
+        "line": 45,
+        "line_end": 59,
+        "quote": "## Provisional meaning update\n\n- `AR`: local referent/association nucleus;\n- `AR+O/L` environments: adjacent or associated referent lead;\n- `OT+AR`: bounded/interior or locally qualified referent lead;\n- `OT+AL`: analogous later qualified state without a visual gloss yet;\n- `q`: outer/current field state that prefers an O/OT-framed core;\n- `DY`: alternative resolved/terminal field state, not a paired line bracket.\n\nThese functions explain visual `ARO/TAR` hints, productive prose ladders, and\nrecord position at once.  They remain an abductive microgrammar, not word\ntranslations.\n\nf84r was not retained, joined, or scored.  No word, morpheme, POS, sound,\nlanguage, plaintext, or translation is confirmed.",
+        "sha256": "276839f627a74313ba0892739e5d661d05411192ad8517330a1a59f0453a5e24"
+      },
+      "disposition": "scope_comparison_unresolved_not_a_new_idea",
+      "reason": "Contains functional/model/compositional wording. No rigorous new semantic-card gap is asserted from lexical search alone; exact scope review remains needed.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:38e3d5ab3ed488412315",
+      "selection_index": 39,
+      "source_record_type": "unresolved_block",
+      "title": "Provisional meaning update",
+      "evidence": {
+        "path": "GDT014_LOCAL_REFERENCE_MICROGRAMMAR_REPORT.md",
+        "line": 50,
+        "line_end": 50,
+        "quote": "- `OT+AL`: analogous later qualified state without a visual gloss yet;",
+        "sha256": "276839f627a74313ba0892739e5d661d05411192ad8517330a1a59f0453a5e24"
+      },
+      "disposition": "scope_comparison_unresolved_not_a_new_idea",
+      "reason": "Contains functional/model/compositional wording. No rigorous new semantic-card gap is asserted from lexical search alone; exact scope review remains needed.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:63efbe88ecdab467870b",
+      "selection_index": 40,
+      "source_record_type": "unresolved_block",
+      "title": "GDT034 CKHY semantic-hypothesis transfer",
+      "evidence": {
+        "path": "GDT034_CKHY_SEMANTIC_HYPOTHESIS_REPORT.md",
+        "line": 1,
+        "line_end": 11,
+        "quote": "# GDT034 CKHY semantic-hypothesis transfer\n\nStatus: **PASS SEMANTIC GLOSS PROVISIONAL TRANSFER**\n\nThe public pre-reveal prediction commit `6b75f1c` selected f14r from visible geometry and predicted at least one exact CKHY residual host. The frozen query returned exactly one: **`chckhy`**, f14r.7 group 3/3, prefix `ch`, residual host `ckhy`, record state `CARRIER_STATE`, with no DY closure. ZL3b, IT2a, and RF1b all give the same KUA family and `chckhy` rendering with zero alternative sites. They are alternate readings, not three hits.\n\nThis is a real prospective page-level hit for the provisional `parallel/fused leaf-or-stalk configuration descriptor` gloss. It is not strong confirmation. CKHY occurs 17 times on 17 of 95 Herbal-A pages; excluding f14r, the reference prevalence is 16/94 (0.170). A single successful prediction therefore has substantial background probability. No inscription is authorially connected to a particular leaf or stalk, so the hit cannot localize CKHY's referent within the drawing.\n\nThe test did not search another target, fuzzy CKHY match, neighboring host, alternate visual feature, or alternative CKHY meaning. A miss would have rejected only the gloss; the observed hit leaves CKHY's independent formal-core status unchanged. The correct next scientific use is to preserve this exact gloss and seek a second prospectively selected comparable page or explicit owned label—not to broaden the meaning.\n\nConclusion: **one-page provisional semantic transfer succeeded, with high residual chance and no component ownership**. No word, morpheme, POS, sound, language, plaintext, translation, authorship, or origin is established. f84r was not opened, retained, queried, joined, or scored.",
+        "sha256": "0be422409aa38a8f62e2f916061d1fb4c5bbed26c32da20f572a9e05b04859c0"
+      },
+      "disposition": "meaning_already_represented_or_scoped_counterpart",
+      "reason": "Concrete proposition or its historical status has an existing card; this does not certify all surrounding prose or equate broader model details.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [
+        "SEM:b5de9609168c0a208688"
+      ],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:576c9c481454605b9be7",
+      "selection_index": 41,
+      "source_record_type": "unresolved_block",
+      "title": "GDT034 CKHY semantic-hypothesis transfer",
+      "evidence": {
+        "path": "GDT034_CKHY_SEMANTIC_HYPOTHESIS_REPORT.md",
+        "line": 3,
+        "line_end": 3,
+        "quote": "Status: **PASS SEMANTIC GLOSS PROVISIONAL TRANSFER**",
+        "sha256": "0be422409aa38a8f62e2f916061d1fb4c5bbed26c32da20f572a9e05b04859c0"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:1e46570208a260adf87b",
+      "selection_index": 42,
+      "source_record_type": "unresolved_block",
+      "title": "GDT092 — HPR2 generative-theory synthesis",
+      "evidence": {
+        "path": "GDT092_HPR2_GENERATIVE_THEORY_METHOD.md",
+        "line": 1,
+        "line_end": 12,
+        "quote": "# GDT092 — HPR2 generative-theory synthesis\n\nThis checkpoint synthesizes GDT056–GDT091 without opening a new endpoint.  It\ncompares three abductive models—compressed natural language, pure technical\nnotation, and a hybrid page-conditioned content lexicon plus record compiler—\nagainst the bound experiment results.  It must select one leading theory.\n\nThe component inventory records formal evidence, counterevidence, and the\nmaximum permissible latent function.  Novel predictions target only future\nnon-f84r data or source-only held structures.  No component receives a sound,\nhistorical-language identity, POS, translation, or English lexical gloss.\nf84r remains entirely sealed and receives no prediction in this checkpoint.",
+        "sha256": "f591a895a700a9aa7b4d9b7943cb45d9aabf4f689bd87b7fbef36bdca42ec829"
+      },
+      "disposition": "meaning_already_represented_or_scoped_counterpart",
+      "reason": "Concrete proposition or its historical status has an existing card; this does not certify all surrounding prose or equate broader model details.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [
+        "SEM:86c77ed3b9ff2d5cc58c",
+        "SEM:db315e0b581d8bee4801",
+        "SEM:e084f81a90fe8d4c16d5"
+      ],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:596d802f5e8b6709b09d",
+      "selection_index": 43,
+      "source_record_type": "unresolved_block",
+      "title": "GDT092 — HPR2 generative-theory synthesis",
+      "evidence": {
+        "path": "GDT092_HPR2_GENERATIVE_THEORY_METHOD.md",
+        "line": 3,
+        "line_end": 6,
+        "quote": "This checkpoint synthesizes GDT056–GDT091 without opening a new endpoint.  It\ncompares three abductive models—compressed natural language, pure technical\nnotation, and a hybrid page-conditioned content lexicon plus record compiler—\nagainst the bound experiment results.  It must select one leading theory.",
+        "sha256": "f591a895a700a9aa7b4d9b7943cb45d9aabf4f689bd87b7fbef36bdca42ec829"
+      },
+      "disposition": "meaning_already_represented_or_scoped_counterpart",
+      "reason": "Concrete proposition or its historical status has an existing card; this does not certify all surrounding prose or equate broader model details.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [
+        "SEM:86c77ed3b9ff2d5cc58c",
+        "SEM:db315e0b581d8bee4801",
+        "SEM:e084f81a90fe8d4c16d5"
+      ],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:124ad4040eefd5192e03",
+      "selection_index": 44,
+      "source_record_type": "unresolved_block",
+      "title": "GDT092 — strongest current HPR2 generative theory",
+      "evidence": {
+        "path": "GDT092_HPR2_GENERATIVE_THEORY_REPORT.md",
+        "line": 1,
+        "line_end": 1,
+        "quote": "# GDT092 — strongest current HPR2 generative theory",
+        "sha256": "e77a4dacfff98e7051458932635b85a9257b5ad9433525da5962038b4a2f1ac0"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:1eb75e74e391c2ee36b2",
+      "selection_index": 45,
+      "source_record_type": "unresolved_block",
+      "title": "Leading theory",
+      "evidence": {
+        "path": "GDT092_HPR2_GENERATIVE_THEORY_REPORT.md",
+        "line": 34,
+        "line_end": 39,
+        "quote": "The theory remains awkward in three places.  GDT003 transformation completion\ndoes not beat string statistics.  Compiler-only features themselves cluster\nby page.  Exact PAGE_HOSTs do not yet preserve complete visual-property\nbundles; the strongest content seed (`os` with DARK_LEAF/LIGHT_ROOT) has only\ntwo scored loci and fails global correction.  Therefore the model is explicit\nenough to predict, but not ready to translate.",
+        "sha256": "e77a4dacfff98e7051458932635b85a9257b5ad9433525da5962038b4a2f1ac0"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [
+        "SEM:2fd4e8bffbbed966bfea"
+      ],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:44bbdb77ca4b1fe8e464",
+      "selection_index": 46,
+      "source_record_type": "unresolved_block",
+      "title": "GDT100 — HPR2 theory revision",
+      "evidence": {
+        "path": "GDT100_HPR2_THEORY_REVISION_METHOD.md",
+        "line": 1,
+        "line_end": 10,
+        "quote": "# GDT100 — HPR2 theory revision\n\nThis is abductive model synthesis, not confirmation. Bind the current GDT003,\nGDT060, GDT062, GDT073, GDT083, GDT089–GDT099 results; preserve positive,\nnegative, corrected, and postselected evidence. Compare compressed natural\nlanguage, pure notation, and hybrid accounts, then choose one leading generator.\n\nEvery component receives a formal status, evidence, and counterevidence. No\nEnglish gloss or semantic role is assigned. Predictions are restricted to new\nnon-f84 data. f84r receives no prediction and remains sealed.",
+        "sha256": "d9aa51eca5744b8105b2f50d324ea9ad7664619053114a16f2bbb1c207159f7f"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:b8a2af6ba8dc19e9b74d",
+      "selection_index": 47,
+      "source_record_type": "unresolved_block",
+      "title": "GDT100 — revised HPR2 generative theory",
+      "evidence": {
+        "path": "GDT100_HPR2_THEORY_REVISION_REPORT.md",
+        "line": 1,
+        "line_end": 1,
+        "quote": "# GDT100 — revised HPR2 generative theory",
+        "sha256": "377e1d829e7d350b7156ebd5754ab67f1b533a2f287af732713afbf8160ee862"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:bafcd57131f8266b1cb3",
+      "selection_index": 48,
+      "source_record_type": "unresolved_block",
+      "title": "GDT108 — HPR2 coupled-address theory revision",
+      "evidence": {
+        "path": "GDT108_HPR2_COUPLED_ADDRESS_THEORY_METHOD.md",
+        "line": 1,
+        "line_end": 1,
+        "quote": "# GDT108 — HPR2 coupled-address theory revision",
+        "sha256": "f25fae61640758509501252af5f66ec2f6243986cd57ac3d5a7a3ad589139bde"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:200d1d619a1f2996769f",
+      "selection_index": 49,
+      "source_record_type": "unresolved_block",
+      "title": "Compared theories",
+      "evidence": {
+        "path": "GDT108_HPR2_COUPLED_ADDRESS_THEORY_METHOD.md",
+        "line": 16,
+        "line_end": 23,
+        "quote": "## Compared theories\n\n1. compressed/abbreviated natural language;\n2. semantic/technical notation;\n3. hybrid content-address + abbreviation + record/relationship compiler.\n\nScore ten explicit abductive criteria at 0/1. The scores are transparent\ntheory bookkeeping, not probabilities.",
+        "sha256": "f25fae61640758509501252af5f66ec2f6243986cd57ac3d5a7a3ad589139bde"
+      },
+      "disposition": "meaning_already_represented_or_scoped_counterpart",
+      "reason": "Concrete proposition or its historical status has an existing card; this does not certify all surrounding prose or equate broader model details.",
+      "existing_exact_source_overlap": [
+        "SEM:86c77ed3b9ff2d5cc58c",
+        "SEM:db315e0b581d8bee4801",
+        "SEM:e084f81a90fe8d4c16d5"
+      ],
+      "reviewed_counterpart_ids": [
+        "SEM:86c77ed3b9ff2d5cc58c",
+        "SEM:db315e0b581d8bee4801",
+        "SEM:e084f81a90fe8d4c16d5"
+      ],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:35664fb02b0ac3fd1fdb",
+      "selection_index": 50,
+      "source_record_type": "unresolved_block",
+      "title": "GDT108 — HPR2 coupled-address theory revision",
+      "evidence": {
+        "path": "GDT108_HPR2_COUPLED_ADDRESS_THEORY_REPORT.md",
+        "line": 1,
+        "line_end": 1,
+        "quote": "# GDT108 — HPR2 coupled-address theory revision",
+        "sha256": "e57e47671f1731fc9f92af44571dcf544cce871db9c0fcf80e08318caf0a1c12"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:e735902d8c3b7cdb5593",
+      "selection_index": 51,
+      "source_record_type": "unresolved_block",
+      "title": "Leading theory",
+      "evidence": {
+        "path": "GDT108_HPR2_COUPLED_ADDRESS_THEORY_REPORT.md",
+        "line": 3,
+        "line_end": 11,
+        "quote": "## Leading theory\n\n**HYBRID_COUPLED_CONTENT_ADDRESS_PLUS_RELATION_RENDERER_IS_LEADING_THEORY**\n\nThe best current generator is a hybrid technical content-address system with\nabbreviation-like formal reuse and a record/relation compiler. It scores\n9/10 on the explicit abductive criteria, versus\n7 and 7 for the\nalternatives. These are transparent theory scores, not posterior probabilities.",
+        "sha256": "e57e47671f1731fc9f92af44571dcf544cce871db9c0fcf80e08318caf0a1c12"
+      },
+      "disposition": "meaning_already_represented_or_scoped_counterpart",
+      "reason": "Concrete proposition or its historical status has an existing card; this does not certify all surrounding prose or equate broader model details.",
+      "existing_exact_source_overlap": [
+        "SEM:0f79e92b74ec8c011459"
+      ],
+      "reviewed_counterpart_ids": [
+        "SEM:0f79e92b74ec8c011459"
+      ],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:bc24147afc0b84826794",
+      "selection_index": 52,
+      "source_record_type": "unresolved_block",
+      "title": "Leading theory",
+      "evidence": {
+        "path": "GDT113_PAGE_CONDITIONED_RECORD_CODE_REPORT.md",
+        "line": 3,
+        "line_end": 15,
+        "quote": "## Leading theory\n\n**PAGE_CONDITIONED_RECORD_CODE**\n\nThe strongest current generative theory is no longer “stable content-bearing\nPAGE_HOST plus detachable renderer.” It is a page/register-conditioned codebook\nwhose codeword body and final edge are jointly generated inside a record\ncompiler. Any recoverable content association is now predicted to live first\nat the **record/template and page-codebook level**, not at isolated exact hosts.\n\nThis theory scores 9/10 abductively versus compressed natural language 4/10,\nstable token notation 5/10, and the prior hybrid content-address model 5/10.\nThe score is explanatory judgment, not statistical evidence.",
+        "sha256": "69fa5f58de093ea5978f376c3381cb92dd7344a17ba6503c3c92da142988e71a"
+      },
+      "disposition": "meaning_already_represented_or_scoped_counterpart",
+      "reason": "Concrete proposition or its historical status has an existing card; this does not certify all surrounding prose or equate broader model details.",
+      "existing_exact_source_overlap": [
+        "SEM:5903bfc7ab4a348d7e00"
+      ],
+      "reviewed_counterpart_ids": [
+        "SEM:5903bfc7ab4a348d7e00"
+      ],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:0b7d113345eec4b14208",
+      "selection_index": 53,
+      "source_record_type": "unresolved_block",
+      "title": "Leading theory",
+      "evidence": {
+        "path": "GDT113_PAGE_CONDITIONED_RECORD_CODE_REPORT.md",
+        "line": 7,
+        "line_end": 11,
+        "quote": "The strongest current generative theory is no longer “stable content-bearing\nPAGE_HOST plus detachable renderer.” It is a page/register-conditioned codebook\nwhose codeword body and final edge are jointly generated inside a record\ncompiler. Any recoverable content association is now predicted to live first\nat the **record/template and page-codebook level**, not at isolated exact hosts.",
+        "sha256": "69fa5f58de093ea5978f376c3381cb92dd7344a17ba6503c3c92da142988e71a"
+      },
+      "disposition": "meaning_already_represented_or_scoped_counterpart",
+      "reason": "Concrete proposition or its historical status has an existing card; this does not certify all surrounding prose or equate broader model details.",
+      "existing_exact_source_overlap": [
+        "SEM:5903bfc7ab4a348d7e00"
+      ],
+      "reviewed_counterpart_ids": [
+        "SEM:5903bfc7ab4a348d7e00"
+      ],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:7bba5c44dbaf14895b49",
+      "selection_index": 54,
+      "source_record_type": "unresolved_block",
+      "title": "GDT181 — leading hybrid technical-compiler theory",
+      "evidence": {
+        "path": "GDT181_HYBRID_TECHNICAL_COMPILER_THEORY_REPORT.md",
+        "line": 1,
+        "line_end": 3,
+        "quote": "# GDT181 — leading hybrid technical-compiler theory\n\nStatus: **LEADING_HYBRID_TECHNICAL_COMPILER_WITH_LOCAL_F57_F77_STATE_DECODING**.",
+        "sha256": "b7b7fc7496b65ff3f61ddaf13407333f4c154f66b56dcab883e7d32eaccc4515"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:f901126e2babd5a3d7a8",
+      "selection_index": 55,
+      "source_record_type": "unresolved_block",
+      "title": "GDT181 — leading hybrid technical-compiler theory",
+      "evidence": {
+        "path": "GDT181_HYBRID_TECHNICAL_COMPILER_THEORY_REPORT.md",
+        "line": 3,
+        "line_end": 3,
+        "quote": "Status: **LEADING_HYBRID_TECHNICAL_COMPILER_WITH_LOCAL_F57_F77_STATE_DECODING**.",
+        "sha256": "b7b7fc7496b65ff3f61ddaf13407333f4c154f66b56dcab883e7d32eaccc4515"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:846e15d89ed9ccc8775c",
+      "selection_index": 56,
+      "source_record_type": "unresolved_block",
+      "title": "What this adds to the working theory",
+      "evidence": {
+        "path": "GDT183_F57_START_CONSTRUCTION_REPORT.md",
+        "line": 23,
+        "line_end": 29,
+        "quote": "## What this adds to the working theory\n\nThe f57 outside label is better modeled as a diagram-entry marker generated by\nthe same compiler layer that produces prose line entries. This is useful for a\nfuture translation architecture: diagram titles and prose entries may share a\nrecord-opening operation while carrying different opaque hosts. It also\nprevents a seductive but unsupported lexical shortcut.",
+        "sha256": "940789e64e0f8e56a27108f8bd94c603774bf1ddf73a0076ba07a6f58576b615"
+      },
+      "disposition": "meaning_already_represented_or_scoped_counterpart",
+      "reason": "Concrete proposition or its historical status has an existing card; this does not certify all surrounding prose or equate broader model details.",
+      "existing_exact_source_overlap": [
+        "SEM:e39b8a0739b6e11ff5a9"
+      ],
+      "reviewed_counterpart_ids": [
+        "SEM:e39b8a0739b6e11ff5a9"
+      ],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:8e9653d0adc94466048b",
+      "selection_index": 57,
+      "source_record_type": "unresolved_block",
+      "title": "What this adds to the working theory",
+      "evidence": {
+        "path": "GDT183_F57_START_CONSTRUCTION_REPORT.md",
+        "line": 25,
+        "line_end": 29,
+        "quote": "The f57 outside label is better modeled as a diagram-entry marker generated by\nthe same compiler layer that produces prose line entries. This is useful for a\nfuture translation architecture: diagram titles and prose entries may share a\nrecord-opening operation while carrying different opaque hosts. It also\nprevents a seductive but unsupported lexical shortcut.",
+        "sha256": "940789e64e0f8e56a27108f8bd94c603774bf1ddf73a0076ba07a6f58576b615"
+      },
+      "disposition": "meaning_already_represented_or_scoped_counterpart",
+      "reason": "Concrete proposition or its historical status has an existing card; this does not certify all surrounding prose or equate broader model details.",
+      "existing_exact_source_overlap": [
+        "SEM:e39b8a0739b6e11ff5a9"
+      ],
+      "reviewed_counterpart_ids": [
+        "SEM:e39b8a0739b6e11ff5a9"
+      ],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:90d4ad24c3e1e2263cb4",
+      "selection_index": 58,
+      "source_record_type": "unresolved_block",
+      "title": "GDT186 — a real 1408 hybrid cipher sharpens the Voynich theory",
+      "evidence": {
+        "path": "GDT186_FOXTON_HYBRID_CIPHER_COMPARATOR_REPORT.md",
+        "line": 1,
+        "line_end": 1,
+        "quote": "# GDT186 — a real 1408 hybrid cipher sharpens the Voynich theory",
+        "sha256": "b074330f6900b75761c4003dddb030ecfcbdef381207090320f46051a6936fbc"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:6279d2d01fb4076ce578",
+      "selection_index": 59,
+      "source_record_type": "unresolved_block",
+      "title": "GDT202 — hybrid-theory prediction reconciliation",
+      "evidence": {
+        "path": "GDT202_HYBRID_THEORY_RECONCILIATION_METHOD.md",
+        "line": 1,
+        "line_end": 1,
+        "quote": "# GDT202 — hybrid-theory prediction reconciliation",
+        "sha256": "e110c6c9b693485d444c71e0354efe89774b8fae1282f3a5048d408631f01fdb"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:8216b370f6715dfe78eb",
+      "selection_index": 60,
+      "source_record_type": "unresolved_block",
+      "title": "Was bedeutet `ey`?",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_theory_candidates_v43/V43_CONSOLIDATED_DICTIONARY_REPORT.md",
+        "line": 20,
+        "line_end": 24,
+        "quote": "`ey` besitzt in V42 **keine selbständige Bedeutung**. Die konkrete Karte\n`b5df9126607030b95175`, sichtbar unter anderem als `shey` oder `cheey`, erhielt\nin V42 die Expansion „bis die Flüssigkeit klar abläuft“. Diese Expansion\ngehört zur ganzen Joint-Tuple-Karte in den ausgewählten Kontexten, nicht zum\nPAGE_HOST `ey` allein.",
+        "sha256": "aa36065c8043bfc5271e6aab4cc98e0f61c87cbec7c879f8b569da884283b59b"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:8767263dba2e288bc17f",
+      "selection_index": 61,
+      "source_record_type": "unresolved_block",
+      "title": "Wichtigste Korrektur: Y bedeutet nicht offen",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_state_endpoint_completion/HISTORICAL_ENDPOINT_PARADIGM_REPORT.md",
+        "line": 59,
+        "line_end": 67,
+        "quote": "## Wichtigste Korrektur: Y bedeutet nicht offen\n\nDie früheren SOLKEY/SOLKEEY-Glossen „Sammelstelle öffnen“ werden zurückgenommen. Es gibt keine eigene OPEN-Bedeutung. In der neuen Komposition benennt Y den laufenden Posten:\n\n    SOLK + E  + Y   den laufenden Posten kurz an der Sammelstelle halten\n    SOLK + EE + Y   den laufenden Posten länger an der Sammelstelle halten\n    SOLK + EE + DY  an der Sammelstelle absetzen; Schluss\n\nDie ersten beiden Ereignisse sind offen, weil keine Schlusskarte folgt, nicht weil Y „offen“ hieße. SOLK bleibt mit fünf Ereignissen und zwei offenen Einzelkarten die schwächste Sachkernwahl; HALTESTELLE und ABSETZPLATZ bleiben ernsthafte Alternativen.",
+        "sha256": "0b5df828e2d03f67434c93f529acbe9a744c9d309616816e5b2216685b882f35"
+      },
+      "disposition": "scope_comparison_unresolved_not_a_new_idea",
+      "reason": "Contains functional/model/compositional wording. No rigorous new semantic-card gap is asserted from lexical search alone; exact scope review remains needed.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:7036000d2fe1ef6ca70b",
+      "selection_index": 62,
+      "source_record_type": "unresolved_block",
+      "title": "Was die Arbeitsübersetzung ungefähr sagt",
+      "evidence": {
+        "path": "experiments/yolo/gdt528_neighbor_certified_inner_d_null/REPORT.md",
+        "line": 54,
+        "line_end": 67,
+        "quote": "## Was die Arbeitsübersetzung ungefähr sagt\n\nDie unveränderte Atomspur lautet:\n\n```text\n[CARRIER_Q: Strukturträger] · [O: Ausführung] · CH: NEHMEN ·\nT: EINSTELLEN · [E: Grad I] · Y: POSTEN\n```\n\nAls knappe Werkstattparaphrase: „Unter q-Träger/Ausführung: nehmen, auf Grad I\neinstellen und posten.“ Das ist eine bewusst provisorische Funktionslesung,\nkein entzifferter deutscher Satz. Das sichtbare `d` erhält hier keine eigene\ndeutsche Bedeutung, weil die ganze `...y/...dy`-Variante dieselbe Rezeptkarte\nträgt.",
+        "sha256": "1ec4171189d3d4ba9ebaa55aadefc23436a4dc8cc5053b8849f8ae9bda3bc7a4"
+      },
+      "disposition": "scope_comparison_unresolved_not_a_new_idea",
+      "reason": "Contains functional/model/compositional wording. No rigorous new semantic-card gap is asserted from lexical search alone; exact scope review remains needed.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:053e67711235dc46392b",
+      "selection_index": 63,
+      "source_record_type": "unresolved_block",
+      "title": "Bedeutungsrevision von Y",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_packing_error_taxonomy_seven_hundred_forty_fourth/SEVEN_HUNDRED_FORTY_FOURTH_REPORT.md",
+        "line": 16,
+        "line_end": 20,
+        "quote": "## Bedeutungsrevision von Y\n\nY bleibt konkret **der aktuell gemeinte Arbeitsposten / dies**. Neu ist die Schreiberregel: Y wird nicht nur einmal genannt und dann sprachlich anaphorisch verstanden. Es ist ein **karteninterner Aktivposten-Slot**, der in jeder Y-valenten Fachkarte erneut gesetzt werden kann. Eine fluessige Uebersetzung sagt `ihn` oder gar nichts; die Werkstatt schreibt Y trotzdem wieder.\n\nDas erklaert zugleich, warum der Packer die richtige Bedeutungsmenge fast immer kennt, aber zu wenige Karten und zu wenige Komponenten schreibt. Die naechste Verbesserung ist somit kein neues Wort, sondern Valenz und Kopie.",
+        "sha256": "1e7447044f3f7dd08de6ea50b6adc0f0083148a9c4a120480d25564135eb5af2"
+      },
+      "disposition": "concrete_functional_proposition_no_exact_representation_located",
+      "reason": "See explicit gap candidate; no new SEM card or independence/novelty claim.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": "J_Y_REPEATED_ACTIVE_SLOT"
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:396f32d2226337c00d07",
+      "selection_index": 64,
+      "source_record_type": "unresolved_block",
+      "title": "Arbeitsbedeutung",
+      "evidence": {
+        "path": "experiments/yolo/gdt495_tier_a_future_comparison_sheet/REPORT.md",
+        "line": 46,
+        "line_end": 57,
+        "quote": "## Arbeitsbedeutung\n\nGDT495 macht aus der abstrakten Behauptung „produktive Komposition“ eine\nprüfbare Satzfamilie. Bei jeder Karte kann man nun horizontal lesen: alte\nHandlung A mit demselben Rest, alte Handlung B mit demselben Rest, dann die\nzusammengesetzte T- oder R-Lesung. Das ist die brauchbare Basis, um sprachlich\nunplausible Bedeutungen auszusortieren, ohne die formale Zerlegung erneut zu\nerfinden.\n\nKeine Karte wird als beobachteter Voynich-Ausdruck ausgegeben, kein künftiges\nVorkommen wird behauptet und keine neue Seite wurde benutzt. Der Validator\nbesteht 231 von 231 Prüfungen.",
+        "sha256": "d2bc9ae64e6248f14dc41a47ea545e0ddc4a8ea183b575349f15f9b745dfddae"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:a66d3a3cc8bc74093997",
+      "selection_index": 65,
+      "source_record_type": "unresolved_block",
+      "title": "GDT812 — four extra pages and concrete semantic rivals",
+      "evidence": {
+        "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/REPORT.md",
+        "line": 1,
+        "line_end": 14,
+        "quote": "# GDT812 — four extra pages and concrete semantic rivals\n\nStatus: C0_WHOLE_FAMILY_SCALAR_PRIORITY__RIVALS_RETAINED__NO_TRANSLATION.\n\nFour additional visual pages are now admitted and personally inspected:\nf21r, f32v, f100v and f101r. This uses4 of the user's20 discretionary pages,\nleaving16. The total visual admission is34 page keys /39 source selectors;\nthe original30-page spine is not rewritten. Yale packages f100v and f101r in\none shared image: four physical pages here correspond to three digital images.\nNo f84/f84r material was opened. This is not an unseen text experiment.\n\nThe [complete reader](artifacts/COMPLETE_ADMITTED_PAGES.md) retains every one of\n55 source loci and all three alternate readings:513 ZL3b tokens, not513 words\nwith known meanings. The inherited dictionary and renderer are unchanged.",
+        "sha256": "826a5fe21f0cc7e60cda633b72f4b475950a7d21c66f7be8126d8b4098f5cc32"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:554738655049697c2c6e",
+      "selection_index": 66,
+      "source_record_type": "unresolved_block",
+      "title": "Was `remote` tatsächlich bedeutet",
+      "evidence": {
+        "path": "experiments/yolo/gdt591_bath_episode_continuity/REPORT.md",
+        "line": 41,
+        "line_end": 51,
+        "quote": "## Was `remote` tatsächlich bedeutet\n\nDie 39 remote Carrier verteilen sich auf 27 Hosts und auf `Y×25`, `AIIN×6`,\n`AIN×4`, `OR×4`. Ihre Geometrien sind 19-mal `PREVIOUS_CARD_ACTION`, zwölfmal\n`INHERITED_ACTION` und achtmal ein begrenzter Ein-Karten-Lookahead. Alle 39\nbehalten exakt ihren GDT581-Gouverneur und überschreiten weder Owner noch\nAussage.\n\nDamit war die bisherige Kurzform „entferntes Y“ bei E2652 irreführend. Remote\nheißt hier ausschließlich: nicht im selben Quellereignis wie der\nAktionsanker geschrieben; ein anderer Slot allein genügt nicht.",
+        "sha256": "db2b32d000fa8fc93059251a2bc04a428b7ee7b9fcb58f6a913b1e9aaeb40cdd"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:15e32a66783beb0c5e74",
+      "selection_index": 67,
+      "source_record_type": "unresolved_block",
+      "title": "Praktische Bedeutung",
+      "evidence": {
+        "path": "experiments/yolo/gdt425_complete_factorized_action_portability/REPORT.md",
+        "line": 51,
+        "line_end": 57,
+        "quote": "## Praktische Bedeutung\n\nFür eine spätere neue Seite ist die Regel jetzt einfach: Die 19 Kernwerte,\ndie Einzelkopfbindungen, die fremdseitenbelegten Nachbarpaare und die\nSchlusskante werden zuerst gelesen. Nur eine exakte Wiederkehr der neun lokalen\nKarten darf deren lokalen Status aufheben. Eine zehnte lokale Karte wäre ein\nsichtbarer Zusatz, aber noch kein Grund, eine Wurzel umzudeuten.",
+        "sha256": "e2abf0539ef7a085484a628ace8a9b62beb2565e8426cfc43c824ca724c6c379"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:5e90b3c06068d5ab7876",
+      "selection_index": 68,
+      "source_record_type": "unresolved_block",
+      "title": "Consequence for translation attempts",
+      "evidence": {
+        "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+        "line": 725,
+        "line_end": 744,
+        "quote": "### Consequence for translation attempts\n\nA future line reading should first recover the record actions and only then\nguess content:\n\n```text\nsurface: qokeedy\nbad first move: identify a word stem OKEE and suffix DY\nbetter move:   identify a complete linked checkpoint cell\n               [Q_LINK, local value OKEE, FIELD_CLOSE]\n```\n\nThus the current best “translation” is two-layered:\n\n```text\nformal reading: NEXT(OKEE); CLOSE\ncontent guess:  then continue/process/circulate; checkpoint\n```\n\nThe formal reading is considerably more plausible than the content guess.",
+        "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+      },
+      "disposition": "scope_comparison_unresolved_not_a_new_idea",
+      "reason": "Contains functional/model/compositional wording. No rigorous new semantic-card gap is asserted from lexical search alone; exact scope review remains needed.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:a024dd0781189077ea21",
+      "selection_index": 69,
+      "source_record_type": "unresolved_block",
+      "title": "Was das für die Gesamtidee bedeutet",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_core_contract_one_thousand_twelfth/PASS1012_REPORT.md",
+        "line": 92,
+        "line_end": 105,
+        "quote": "## Was das für die Gesamtidee bedeutet\n\nDas Werkstattmodell wird kleiner, nicht größer. Ein Schreiber lernt:\n\n1. zwölf häufige Handlungs- und Mengenwerte;\n2. sechs Referenz- und Folgewerte;\n3. acht Steuerzeichen;\n4. einige konkrete Fachkarten;\n5. lokale Bild- und Diagrammadressen aus dem Exemplar.\n\nDas ist als System um 1420 wesentlich leichter erlernbar als 53 frei\numdeutbare Wörter. Vor allem kann es scheitern: Ein neues Kompositum muss aus\nseinen bekannten Kernen lesbar sein. Passt es nicht, darf nur die Gesamtkarte\nals Ausnahme ausgesondert werden; der Kern selbst wird nicht gerettet.",
+        "sha256": "a0733ca622c57677fc02aa68243645680f5a8f7cd4f1ace6f2c52a9a82cc0138"
+      },
+      "disposition": "scope_comparison_unresolved_not_a_new_idea",
+      "reason": "Contains functional/model/compositional wording. No rigorous new semantic-card gap is asserted from lexical search alone; exact scope review remains needed.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:482f345e02705d322b94",
+      "selection_index": 70,
+      "source_record_type": "unresolved_block",
+      "title": "Pass 946 — konsolidiertes Bedeutungsmodell",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_three_layer_codebook_nine_hundred_forty_sixth/PASS946_REPORT.md",
+        "line": 1,
+        "line_end": 13,
+        "quote": "# Pass 946 — konsolidiertes Bedeutungsmodell\n\nAlle 2.511 sichtbaren Gruppen haben jetzt genau eine von drei Aufgaben:\n\n- **1008** produktiv zusammengesetzte Fachkarten;\n- **1002** Vorkommen gelernter Formelkarten;\n- **501** lokale Bildnamen oder Adressen.\n\nDamit erklärt das Modell sowohl neue Wortkompositionen als auch Formen, die ein\nSchreiber schlicht aus dem Exemplar lernen musste. Es ist klein genug für eine\nWerkstatt und konkret genug für vollständige Rücklesung. f88r zeigt die drei\nSchichten besonders sauber nebeneinander: Gefäß/Zutat aus dem Bild, häufige\nArbeitsformeln im Text, seltene Anweisungen aus produktiven Kürzeln.",
+        "sha256": "afe72a81551fdb584cefd6bf4e528de1f992ace287ffe944a1ff7cd9f70096fb"
+      },
+      "disposition": "meaning_already_represented_or_scoped_counterpart",
+      "reason": "Concrete proposition or its historical status has an existing card; this does not certify all surrounding prose or equate broader model details.",
+      "existing_exact_source_overlap": [
+        "SEM:bb9b59706523eda2a710"
+      ],
+      "reviewed_counterpart_ids": [
+        "SEM:bb9b59706523eda2a710"
+      ],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:72483a47164577269d6f",
+      "selection_index": 71,
+      "source_record_type": "unresolved_block",
+      "title": "Aktuelle Arbeitsübersetzung",
+      "evidence": {
+        "path": "experiments/yolo/gdt498_nine_action_frame_register_matrix/REPORT.md",
+        "line": 54,
+        "line_end": 63,
+        "quote": "## Aktuelle Arbeitsübersetzung\n\nJede der 495 Zellen besitzt einen deutschen Default. Beobachtete Zellen zeigen\neine alte Klausel; komponierte Zellen verwenden den unveränderten GDT416-\nRenderer und die GDT497-Kontextregel. 115 unbeobachtete Ellipsen generalisieren\n156 geerbte Nominalstellen. Dadurch kommt keine Kombination ohne Bedeutung\ndavon, ohne dass ihre tatsächliche Vorkunft behauptet wird.\n\nDer Validator besteht 3064 von 3064 Prüfungen. Es wird keine Manuskript-\nOberfläche und kein künftiges Vorkommen vorhergesagt.",
+        "sha256": "6f52513225e6433fcb0614d34017238b3f5646db183fb2f1ddcaa38e905ed23d"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:144fb36310f231176f7c",
+      "selection_index": 72,
+      "source_record_type": "unresolved_block",
+      "title": "Why this helps the translation",
+      "evidence": {
+        "path": "experiments/yolo/gdt475_ot_ol_page_microrecord_itineraries/REPORT.md",
+        "line": 51,
+        "line_end": 64,
+        "quote": "## Why this helps the translation\n\nPreviously `DANACH` and `FORTSETZEN` were broad dictionary values. They now\npredict different reading operations:\n\n- leading OT says “start the next sibling microrecord”;\n- leading OL says “do not start over; attach this locus to the previous\n  microrecord”;\n- internal OL says “continue the current card's action or qualifier”.\n\nThat is much less ambiguous than translating both as a vague “then/continue”.\nIt also explains forms such as `otol...`: OT opens the next record while OL\ninside that record says the carried operation continues. The two roots are not\nsynonyms and do not compete for one slot.",
+        "sha256": "43b52550e99afde2a95aa2239afd7287dd55c9378df85e6627296352a46289d2"
+      },
+      "disposition": "concrete_functional_proposition_no_exact_representation_located",
+      "reason": "See explicit gap candidate; no new SEM card or independence/novelty claim.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": "J_POSITIONAL_OT_OL"
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:b871f80c31416ee2eac8",
+      "selection_index": 73,
+      "source_record_type": "unresolved_block",
+      "title": "Three cross-register meaning templates",
+      "evidence": {
+        "path": "experiments/yolo/gdt480_microrecord_template_atlas/REPORT.md",
+        "line": 20,
+        "line_end": 35,
+        "quote": "## Three cross-register meaning templates\n\nThe strongest result is small and concrete:\n\n- `CATALOGUE[DANACH · {N1}]` occurs four times on f71v, f77r, and f88v. The\n  surfaces `otchody`, `otork`, `otora`, and `otdordy` all read as a named entry\n  with a following-entry mark; OT opens the right-hand sibling.\n- `COORDINATE[DANACH · ZIELORT · POSTEN]` occurs as `otalshy` on f72r and\n  `otalsy` on f89r: “Adressspur: danach → Zielort → Posten.”\n- `CATALOGUE[{N1} · AUSGANG · {N2}]` occurs as celestial `yfary` and\n  pharmaceutical `ytarem`: two named entries joined by an Ausgang assignment.\n\nThese are the best current whole-record compositions because they preserve the\nexact model, component order, name-slot topology, and OT/OL scope across owner\nclasses. They are working predictions for how the already visible components\ncompose, not new word meanings.",
+        "sha256": "4d69a8a9d68d76a95999029383db97c5a8e34c8eb50507a3796637d008907e32"
+      },
+      "disposition": "scope_comparison_unresolved_not_a_new_idea",
+      "reason": "Contains functional/model/compositional wording. No rigorous new semantic-card gap is asserted from lexical search alone; exact scope review remains needed.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:2ac024c799b7f08bea65",
+      "selection_index": 74,
+      "source_record_type": "unresolved_block",
+      "title": "Was exakt bedeutet — und was nicht",
+      "evidence": {
+        "path": "experiments/yolo/gdt596_bath_object_compound_scope_phrasebook/REPORT.md",
+        "line": 115,
+        "line_end": 120,
+        "quote": "`254/254 exakt` heißt: Das kleine Phrasebook kann unsere vollständige aktuelle\nArbeitslesart aus ihren sichtbaren Typ-, Bezugs- und Modifikatorentscheidungen\nreproduzieren. Es heißt nicht, dass jede deutsche Langform natürlich oder jede\nObjektbindung endgültig ist. Die sechs GDT595-Hostbindungsrivalen E2863, E3224,\nE3523, E3533, E3563 und E3664 bleiben ausdrücklich markiert und behalten\ntrotzdem jeweils einen Primärdefault.",
+        "sha256": "28303de8073bc0a5f6ac2925e8ddae77ec104dd3dc0b2556d9419e3f32cdb3b4"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:34223d02db6c5e7163be",
+      "selection_index": 75,
+      "source_record_type": "unresolved_block",
+      "title": "Warum wir die bisherigen Bedeutungen nicht wegen der Doppelung verwerfen",
+      "evidence": {
+        "path": "experiments/yolo/gdt820_grouped_predicate_repetition_context/REPORT.md",
+        "line": 31,
+        "line_end": 35,
+        "quote": "Die zweite und dritte Konstruktion sind Alternativen, keine zusammengewürfelte\nErklärung. Die festen Bedeutungen wird-zu und physisch-enthält werden nicht in\nFüllen, Hilfsverben oder zwei Arbeitsvorgänge umgedeutet. In den vollständig\ngelesenen f75r.32–46/f76r.1–38 fehlt exaktes solkeey: kein bereits benannter\nBecken-/Dampfträger löst dort das Subjektproblem.",
+        "sha256": "b5594cf38b334a6f5614f65ca375fc49bd57d11326de6169c9d3a8ce44a37f81"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:0e889c9ecbe8ac1e5132",
+      "selection_index": 76,
+      "source_record_type": "unresolved_block",
+      "title": "Was das strukturell bedeutet",
+      "evidence": {
+        "path": "experiments/yolo/gdt808_exact_relation_slot_residual_bridge/REPORT.md",
+        "line": 41,
+        "line_end": 61,
+        "quote": "## Was das strukturell bedeutet\n\n`Xol/Xeol` und `Xedy/Xeody` verhalten sich am besten wie zwei getrennte\nSchreib- oder Recordkanäle, in denen derselbe Carrier in zwei Varianten\nauftreten kann. Der übrige Absatz, Topic und Formregime sagen die Variante\ndeutlich besser voraus als die unmittelbaren Wörter links und rechts.\n\nDas ist konkrete Information, aber noch kein Wörterbuch:\n\n- `e` darf nicht als universeller Operator gelesen werden;\n- L und DY dürfen nicht in eine gemeinsame Bedeutungstabelle gezwungen werden;\n- eine vollständige Form muss zusammen mit ihrem Recordkanal und ihrem\n  wiederkehrenden Ganzwortkopf interpretiert werden;\n- die DY-Achse ist wesentlich stärker und robuster als die L-Achse.\n\nDie destruktive ED1-Kontrolle bestätigt diese Asymmetrie. DY bleibt mit\nnuisance AUC 0,726426 und augmented AUC 0,736094 deutlich erhalten. L fällt\nauf 0,592049 beziehungsweise 0,567733. Auch die dünnen `Xkol/Xtal`- und die\ngelernten `cheol/otal`-Kontrollen werden hauptsächlich vom Record-/Formumfeld,\nnicht vom lokalen Slot getragen. Das stützt eine breite Kanalgrammatik und\nspricht gegen ein aus diesen Paaren direkt ablesbares Lexikon.",
+        "sha256": "7dcf23794cf134702ebea986eb8210c9ed59d517f8f432392c7b4157f9ab5e4c"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:07a6ae57e02eff0d2f53",
+      "selection_index": 77,
+      "source_record_type": "unresolved_block",
+      "title": "Was die 25 leeren Zellen bedeuten",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_layered_composition_grid_correction_nine_hundred_ninety_seventh/PASS997_REPORT.md",
+        "line": 34,
+        "line_end": 38,
+        "quote": "Sie sind keine fehlenden Übersetzungen. Jede besitzt bereits eine lesbare\nWerkstattbedeutung, zum Beispiel `P+AIIN` = **nach Maß einsetzen** oder\n`OL+AIR` = **im Lauf fortsetzen**. Zweiundzwanzig einfache Kurzformen sind noch\nfrei; drei sind durch bestehende Karten blockiert. Das liefert eine konkrete\nSchreibregel für weitere Seiten, ohne das Wörterbuch zu vergrößern.",
+        "sha256": "0d7779331dbacd72ba9c7d853aef2d228a3665db9aca1fd4b6a312205db74bbe"
+      },
+      "disposition": "scope_comparison_unresolved_not_a_new_idea",
+      "reason": "Contains functional/model/compositional wording. No rigorous new semantic-card gap is asserted from lexical search alone; exact scope review remains needed.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:a1f3947b8417b7e8ccf6",
+      "selection_index": 78,
+      "source_record_type": "unresolved_block",
+      "title": "The meaningful contrast",
+      "evidence": {
+        "path": "experiments/yolo/gdt825_qopchedy_physical_wood_trial/REPORT.md",
+        "line": 26,
+        "line_end": 30,
+        "quote": "The first fragment admits either material as a possible source, conditional\non the other guessed meanings and attachment. The second imposes the useful\nopposite obligation: explain that material as a **result** if chedy is becomes.\nIt cannot be rewritten “heat wood” or “wood burns.” RF has qopched@222; there,\nnot the exact target whole. No source substance has been decoded in .51.",
+        "sha256": "9e37a904b79869e8a06df826b05aa4ad1943548152ee3a02232923078e6c1ce0"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:dfc1f0f2005f3731f6e7",
+      "selection_index": 79,
+      "source_record_type": "unresolved_block",
+      "title": "Was „leer“ bedeutet",
+      "evidence": {
+        "path": "experiments/yolo/gdt552_interface_boundary_family_bridges/REPORT.md",
+        "line": 70,
+        "line_end": 75,
+        "quote": "Alle fünf sichtbaren Routen, Rezepte und vollständigen neutralen sowie\nkontextuellen Arbeitslesungen bleiben bytegleich. Die nun leere Restliste sagt:\nFür jede der 145 zugelassenen Prosakarten ist die bisher benannte\nStrukturstützung konkret dokumentiert. Sie sagt nicht, dass das Manuskript\nübersetzt ist oder dass ein fehlendes altes Direktpaar nun beliebig produktiv\nwäre.",
+        "sha256": "191a8fbd4ff4a551a0bd882cdab0d416d809638fa099d88b182d80e17819324a"
+      },
+      "disposition": "no_new_semantic_proposition_in_selected_block",
+      "reason": "Heading/status, method, source correction, rendering/computation consequence, or limitation only; not a new meaning candidate.",
+      "existing_exact_source_overlap": [],
+      "reviewed_counterpart_ids": [],
+      "candidate_gap_id": null
+    }
+  ],
+  "gap_candidates": [
+    {
+      "id": "J_RELATION_RESUMPTION",
+      "source_block_ids": [
+        "LEGACY_COMPONENT:1a3381d8ecab903f8f89"
+      ],
+      "claim": "Immediately repeated O+O, D_ADDR+D_ADDR and AL+AL resume the same locally headed relation rather than automatically naming a new whole or a numerical operator.",
+      "claim_type": "functional_hypothesis",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt580_adjacent_relation_resumption_voice/REPORT.md",
+          "line": 78,
+          "line_end": 92,
+          "quote": "## Bedeutung für die Arbeitstheorie\n\nDie Wiederholung zweier identischer Stämme muss nicht als neues Ganzwort und\nnicht automatisch als Zahlenoperator gelesen werden. Für O+O, D_ADDR+D_ADDR\nund AL+AL genügt dieselbe lokale Komposition:\n\n```text\nX + X  →  X, unmittelbare Wiederaufnahme von X\n```\n\nEntscheidend bleibt der Kopfanschluss. Derselbe Operator darf eine Basis\nwiederaufnehmen, aber keinen Besitzer erfinden. Mit diesem Pass sind alle drei\nroh benachbarten identischen Relationspaare gesprochen; die 62 unterbrochenen\nWiederholungen, alle Außen/Innen-Paare und G407-E1755 bleiben in ihren bereits\nausgearbeiteten Stimmen unangetastet.",
+          "sha256": "bb733f295477878f46aeb9a6b66353bdc215ad5d3f544814c0e5ad5137cd51d7"
+        }
+      ],
+      "coverage_check": {
+        "exact_source_case_overlap": [],
+        "literal_queries": [
+          "unmittelbare Wiederaufnahme",
+          "immediate resumption",
+          "O+O",
+          "D_ADDR+D_ADDR"
+        ],
+        "reviewed_nearby_cards": [
+          {
+            "target": "SEM:079659bb0d4334b0bc40",
+            "effective_claim": "Immediate identical card repetition fills two adjacent slots with the same value.",
+            "effective_claim_type": "functional_hypothesis",
+            "target_basis_sha256": "70ed7ff309a4252241cba2798c6e9afe5c36884aa676b3b992983e502bd418e1",
+            "comparison": "Two identical slots with the same value is related repetition structure, but does not specify immediate resumption of a locally headed relation.",
+            "evidence": [
+              {
+                "line": 6826,
+                "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+                "quote": "1. two adjacent slots legitimately receive the same value;",
+                "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+              }
+            ]
+          },
+          {
+            "target": "SEM:787777744b79e18c0e86",
+            "effective_claim": "Ein Wiederaufnahmemarker verweist selektiv auf einen von mehreren zuvor eingeführten Teilnehmern.",
+            "effective_claim_type": "functional_hypothesis",
+            "target_basis_sha256": "73d99527f3943c12bce5e89c972dae35aa6e5dbae59c060682683b2e9a37ef2e",
+            "comparison": "Selective resumption of one prior participant is a different proposed reference mechanism, not identical-relation repetition.",
+            "evidence": [
+              {
+                "line": 347,
+                "path": "docs/IDEA_BACKLOG.md",
+                "quote": "| IP023 | Ein textlicher Wiederaufnahmemarker erhält eine **selektive Vorgeschichte**: nach zwei unterschiedlichen eingeführten Ganzformen sollte seine Umgebung eine von ihnen, nicht beliebig beide, wieder aktivieren. | Vorhandene Referenzkarten GDT696/700 und qokaldy-Audit798. Ein bereits publiziertes echtes Zwei-Kandidaten-Beispiel auf ein noch ungenutztes geschriebenes Unterscheidungssignal prüfen, 5 Minuten. | IP003 und GDT798 zeigen gerade die bekannte Unterbestimmtheit; ohne zusätzliches unabhängiges Signal ist dieser Rohentwurf ein Duplikat und wird verworfen. |",
+                "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+              }
+            ]
+          }
+        ]
+      },
+      "scope": "Only the three source-declared adjacent relation pairs in GDT580; not a numeral, generic repetition law or proven manuscript interpretation.",
+      "status": "SOURCE_REVIEW_CANDIDATE_NO_EXACT_CARD_LOCATED",
+      "assessed_by": "curation_review",
+      "ready": false,
+      "not_claimed": "Global absence of paraphrases, independent scientific novelty, truth, or automatic admission to the clean idea list."
+    },
+    {
+      "id": "J_Y_REPEATED_ACTIVE_SLOT",
+      "source_block_ids": [
+        "LEGACY_COMPONENT:053e67711235dc46392b"
+      ],
+      "claim": "Y is a card-internal active-item slot that may be set again in every Y-valent technical card even when fluent discourse would use a pronoun or omit the referent.",
+      "claim_type": "functional_hypothesis",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_packing_error_taxonomy_seven_hundred_forty_fourth/SEVEN_HUNDRED_FORTY_FOURTH_REPORT.md",
+          "line": 16,
+          "line_end": 20,
+          "quote": "## Bedeutungsrevision von Y\n\nY bleibt konkret **der aktuell gemeinte Arbeitsposten / dies**. Neu ist die Schreiberregel: Y wird nicht nur einmal genannt und dann sprachlich anaphorisch verstanden. Es ist ein **karteninterner Aktivposten-Slot**, der in jeder Y-valenten Fachkarte erneut gesetzt werden kann. Eine fluessige Uebersetzung sagt `ihn` oder gar nichts; die Werkstatt schreibt Y trotzdem wieder.\n\nDas erklaert zugleich, warum der Packer die richtige Bedeutungsmenge fast immer kennt, aber zu wenige Karten und zu wenige Komponenten schreibt. Die naechste Verbesserung ist somit kein neues Wort, sondern Valenz und Kopie.",
+          "sha256": "1e7447044f3f7dd08de6ea50b6adc0f0083148a9c4a120480d25564135eb5af2"
+        }
+      ],
+      "coverage_check": {
+        "exact_source_case_overlap": [],
+        "literal_queries": [
+          "karteninterner Aktivposten",
+          "Y-valent",
+          "Aktivposten",
+          "valence"
+        ],
+        "reviewed_nearby_cards": [
+          {
+            "target": "SEM:1b421cbe8ec98b20e14b",
+            "effective_claim": "Y → der gegenwaertige Arbeitstraeger",
+            "effective_claim_type": "lexical_hypothesis",
+            "target_basis_sha256": "e550d87453930cf395aa9f53f689bf884086348522244def515baa1587e49544",
+            "comparison": "Current intended work item is the referent value, but does not specify obligatory/permitted re-setting inside successive Y-valent cards.",
+            "evidence": [
+              {
+                "inherited_status_not_adopted": [
+                  {
+                    "line": 3,
+                    "text": "Status: konkrete kreative Arbeitstheorie fuer die festen zehn Sidequest-Seiten,"
+                  }
+                ],
+                "line": 108,
+                "line_end": 111,
+                "path": "experiments/yolo/sidequest_semantic_component_completion/Y_CHY_REPORT.md",
+                "quote": "Die Kandidaten erscheinen am Anfang, in der Mitte und am Ende ihrer\nzusammenhaengenden Aussagen. Besonders `qokylddy` hat ein internes `Y` vor\neinem weiteren Abschlussrest. Das widerspricht `Y = Satz bleibt offen`, passt\naber zu `Y = der gegenwaertige Arbeitstraeger`.",
+                "sha256": "abbe73138d5ae2ff15b925ce69bf37ccc3a3b735836b3850dd81d8cf34db1b81",
+                "source_id": "LEGACY_COMPONENT:bd8a0c4f6bc2990f6f20",
+                "source_section": "2. `Y` steht nicht nur am offenen Satzrand",
+                "table_header": null
+              }
+            ]
+          }
+        ]
+      },
+      "scope": "Pass744 explicitly proposes a writing/valency rule beyond its retained Y current-referent gloss. This is a mechanism hypothesis, not an additional substance translation.",
+      "status": "SOURCE_REVIEW_CANDIDATE_NO_EXACT_CARD_LOCATED",
+      "assessed_by": "curation_review",
+      "ready": false,
+      "not_claimed": "Global absence of paraphrases, independent scientific novelty, truth, or automatic admission to the clean idea list."
+    },
+    {
+      "id": "J_POSITIONAL_OT_OL",
+      "source_block_ids": [
+        "LEGACY_COMPONENT:144fb36310f231176f7c"
+      ],
+      "claim": "Leading OT starts the next sibling microrecord; leading OL attaches the locus to the previous microrecord; internal OL continues the current card action or qualifier.",
+      "claim_type": "functional_hypothesis",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt475_ot_ol_page_microrecord_itineraries/REPORT.md",
+          "line": 51,
+          "line_end": 64,
+          "quote": "## Why this helps the translation\n\nPreviously `DANACH` and `FORTSETZEN` were broad dictionary values. They now\npredict different reading operations:\n\n- leading OT says “start the next sibling microrecord”;\n- leading OL says “do not start over; attach this locus to the previous\n  microrecord”;\n- internal OL says “continue the current card's action or qualifier”.\n\nThat is much less ambiguous than translating both as a vague “then/continue”.\nIt also explains forms such as `otol...`: OT opens the next record while OL\ninside that record says the carried operation continues. The two roots are not\nsynonyms and do not compete for one slot.",
+          "sha256": "43b52550e99afde2a95aa2239afd7287dd55c9378df85e6627296352a46289d2"
+        }
+      ],
+      "coverage_check": {
+        "exact_source_case_overlap": [],
+        "literal_queries": [
+          "next sibling microrecord",
+          "previous microrecord",
+          "internal OL",
+          "sibling",
+          "Mikrorecord"
+        ],
+        "reviewed_nearby_cards": [
+          {
+            "target": "SEM:318cd605cb0a5fd1cb02",
+            "effective_claim": "OT → DANACH",
+            "effective_claim_type": "lexical_hypothesis",
+            "target_basis_sha256": "899ff42fb1d320891f226bd9265ade4385817dda48056d88ca5d4d0c0551095a",
+            "comparison": "DANACH is the retained abstract OT gloss, not all three position-conditioned operations.",
+            "evidence": [
+              {
+                "inherited_status_not_adopted": [
+                  {
+                    "text": "not_explicitly_declared_in_first_50_lines"
+                  }
+                ],
+                "line": 5,
+                "line_end": 6,
+                "path": "experiments/yolo/gdt475_ot_ol_page_microrecord_itineraries/REPORT.md",
+                "quote": "`OT=DANACH` and `OL=FORTSETZEN` now have different, concrete jobs in the local\naddress stream:",
+                "sha256": "43b52550e99afde2a95aa2239afd7287dd55c9378df85e6627296352a46289d2",
+                "source_id": "LEGACY_COMPONENT:d13cc8924ffebeedc39d",
+                "source_section": "Result",
+                "table_header": null
+              },
+              {
+                "inherited_status_not_adopted": [
+                  {
+                    "text": "not_explicitly_declared_in_first_50_lines"
+                  }
+                ],
+                "line": 67,
+                "line_end": 71,
+                "path": "experiments/yolo/gdt477_ol_directional_scope_phrasebook/REPORT.md",
+                "quote": "Complete the order grammar by applying the same literal left/right audit to all\n41 `OT=DANACH` occurrences. The useful question is whether OT's function/name\nposition changes the way a fresh sibling is phrased, or whether it remains a\npure new-entry operator in every direction. This is a direct extension of\nGDT475 made possible by GDT477; no page, root or name should change.",
+                "sha256": "f3c3c4f1cbb43cefbebc485746153b1afe9c562c58acca70e547a6022e2b2f2c",
+                "source_id": "LEGACY_COMPONENT:710e4736029cbe6ee148",
+                "source_section": "Next route",
+                "table_header": null
+              },
+              {
+                "inherited_status_not_adopted": [
+                  {
+                    "line": 3,
+                    "text": "Status: `PASS_DY_702_OF_705_STATEMENT_FINAL__THREE_LOCAL_STEP_CLOSURES`"
+                  }
+                ],
+                "line": 90,
+                "line_end": 94,
+                "path": "experiments/yolo/gdt556_dy_closure_boundary_scope/REPORT.md",
+                "quote": "`DY` braucht vorerst keine neue Bedeutung. Als Nächstes lohnt sich die\nkomplementäre Positionsprüfung von `OL=FORTSETZEN` und `OT=DANACH`: Der erste\nsteht überwiegend im Aussageinneren und oft am Kartenende, der zweite fast nie\nam Kartenende. Zusammen könnten sie mit `DY` ein kleines, vorhersagbares\nStart-/Weiter-/Schluss-System bilden.",
+                "sha256": "24a92e1464ee7be0784b9ba9e138edba6760820b1dc2174c86308f7dca2442ab",
+                "source_id": "LEGACY_COMPONENT:f8bb1ddcdb6d18896437",
+                "source_section": "Nächster Griff",
+                "table_header": null
+              },
+              {
+                "inherited_status_not_adopted": [
+                  {
+                    "text": "not_explicitly_declared_in_first_50_lines"
+                  }
+                ],
+                "line": 34,
+                "line_end": 34,
+                "path": "experiments/yolo/sidequest_semantic_canonical_scribe_workshop_fifth_edition_nine_hundred_ninety_third/PASS993_CURRENT_WORKING_THEORY.md",
+                "quote": "- `OL=FORTSETZEN`, `OT=DANACH`, `OR=ARBEITSSATZ`;",
+                "sha256": "854440a27a70c1113da0fe0fdd507d2f904348ce1017d82197893442b644095c",
+                "source_id": "LEGACY_COMPONENT:3a56072d3993aa2d33c7",
+                "source_section": "Wörterbuchkern",
+                "table_header": null
+              },
+              {
+                "inherited_status_not_adopted": [
+                  {
+                    "text": "not_explicitly_declared_in_first_50_lines"
+                  }
+                ],
+                "line": 20,
+                "line_end": 20,
+                "path": "experiments/yolo/sidequest_semantic_canonical_scribe_workshop_sixth_edition_nine_hundred_ninety_sixth/PASS996_CURRENT_WORKING_THEORY.md",
+                "quote": "- `OL=FORTSETZEN`, `OT=DANACH`, `OR=ANSATZ`;",
+                "sha256": "ed8810a3f66854a6d9e4f9a4ba42563a755326d5af399f02650ce96557995291",
+                "source_id": "LEGACY_COMPONENT:e55a282f49ac1250b5cd",
+                "source_section": "Kurzes Taschenwörterbuch",
+                "table_header": null
+              },
+              {
+                "inherited_status_not_adopted": [
+                  {
+                    "text": "not_explicitly_declared_in_first_50_lines"
+                  }
+                ],
+                "line": 29,
+                "line_end": 29,
+                "path": "experiments/yolo/sidequest_semantic_cross_register_core_revision_one_thousand_eighteenth/PASS1018_REPORT.md",
+                "quote": "`Y=DIES`, `OK=SETZEN`, `OL=FORTSETZEN`, `OT=DANACH`, `AL=ZIELORT`, `CH=NEHMEN`, `SH=HALTEN`, `AR=AUSGANG`, `K=GEBEN`, `S=WÄHLEN`, `CHD=UMSETZEN`, `L=VERBINDUNG`, `T=EINSTELLEN`, `R=MARKIEREN`, `P=EINSETZEN`, `AIR=LAUF`.",
+                "sha256": "c12063509ff27206ee412a9711814200ac202404878baa2a582284f97b180951",
+                "source_id": "LEGACY_COMPONENT:06b8a5c7dfd6e2068db5",
+                "source_section": "Was unverändert bleibt",
+                "table_header": null
+              },
+              {
+                "inherited_status_not_adopted": [
+                  {
+                    "text": "not_explicitly_declared_in_first_50_lines"
+                  }
+                ],
+                "line": 6,
+                "line_end": 6,
+                "path": "experiments/yolo/sidequest_semantic_order_words_eight_hundred_twenty_fourth/EIGHT_HUNDRED_TWENTY_FOURTH_REPORT.md",
+                "quote": "- `OT = DANACH` advances to the next operation or item (26 events);",
+                "sha256": "121b4b1597bcb75e458cbe650beb29d96836705afbdea946823c86e6dbee2007",
+                "source_id": "LEGACY_COMPONENT:581e54d4be4a0d11b4b1",
+                "source_section": "Sidequest Pass 824: weiter, danach, dazu",
+                "table_header": null
+              },
+              {
+                "inherited_status_not_adopted": [
+                  {
+                    "text": "not_explicitly_declared_in_first_50_lines"
+                  }
+                ],
+                "line": 9,
+                "line_end": 9,
+                "path": "experiments/yolo/sidequest_semantic_workflow_memory_seven_hundred_thirty_first/SEVEN_HUNDRED_THIRTY_FIRST_REPORT.md",
+                "quote": "- **OT = DANACH:** 16 Karten / 26 Ereignisse; rückt zum nächsten Schritt.",
+                "sha256": "70d1ffbab03699889472e55e8c1ac2a1572753e5b4ed4f1513cd800b02a13cc7",
+                "source_id": "LEGACY_COMPONENT:00ca6ae60e981955f859",
+                "source_section": "Ergebnis",
+                "table_header": null
+              },
+              {
+                "inherited_status_not_adopted": [
+                  {
+                    "line": 3,
+                    "text": "Status:"
+                  }
+                ],
+                "line": 38,
+                "line_end": 42,
+                "path": "experiments/yolo/gdt561_typed_state_card_composition_reader/REPORT.md",
+                "quote": "Die kurzen Kernwerte bleiben dieselben: etwa `CH=NEHMEN`, `SH=HALTEN`,\n`Y=POSTEN`, `AIIN=WERT`, `AL=ZIELORT`, `AR=AUSGANG`, `L=VERBINDUNG`,\n`E/EE/EEE=GRAD I/II/III`, `OT=DANACH`, `OL=FORTSETZEN` und\n`DY=ABSCHLIESSEN`. `HIER`, `VARIANTE` und `KLASSE` sind strukturelle Tags,\nnicht behauptete deutsche Wörter im Manuskript.",
+                "sha256": "6d370d4dfe53ca3ba5fc00061ae5abb26a80e5cf23d39fc4684ff83bd58491e6",
+                "source_id": "LEGACY_COMPONENT:c01b21e73d2b62afadc2",
+                "source_section": "Das Wörterbuch bleibt klein",
+                "table_header": null
+              },
+              {
+                "inherited_status_not_adopted": [
+                  {
+                    "text": "not_explicitly_declared_in_first_50_lines"
+                  }
+                ],
+                "line": 39,
+                "line_end": 43,
+                "path": "experiments/yolo/sidequest_semantic_argument_scope_stack_one_thousand_twenty_second/SCOPE_STACK_REPORT.md",
+                "quote": "`O=AUSFÜHRUNG`, `OT=DANACH` und `OL=FORTSETZEN` öffnen dabei keinen neuen\nHandlungskopf. Sie führen den vorhandenen Gang aus oder weiter. Bei mehreren\nHandlungen in derselben Karte bekommt der nächste Kopf den Kern unmittelbar;\ndie ältere Handlung enthält dann die jüngere Handlungsgruppe. So braucht\n`CH+K+Y` keine Sonderregel: `CH[ K[Y] ]`.",
+                "sha256": "8db0e6aa97dcd5e5bd8891f0289945bd76eefda7368cd206cb3cfa275f35c1d9",
+                "source_id": "LEGACY_COMPONENT:7fa1958a7999ce109324",
+                "source_section": "Ergebnis",
+                "table_header": null
+              }
+            ]
+          },
+          {
+            "target": "SEM:c3ae0144488047031317",
+            "effective_claim": "OL → FORTSETZEN",
+            "effective_claim_type": "lexical_hypothesis",
+            "target_basis_sha256": "33bb85629f2d7cf4e8d60f4592bb92fe98c9d25e121e40d8d113e092740537d5",
+            "comparison": "FORTSETZEN is the abstract OL gloss; source evidence at lines5–6 does not contain this positional distinction.",
+            "evidence": [
+              {
+                "inherited_status_not_adopted": [
+                  {
+                    "text": "not_explicitly_declared_in_first_50_lines"
+                  }
+                ],
+                "line": 5,
+                "line_end": 6,
+                "path": "experiments/yolo/gdt475_ot_ol_page_microrecord_itineraries/REPORT.md",
+                "quote": "`OT=DANACH` and `OL=FORTSETZEN` now have different, concrete jobs in the local\naddress stream:",
+                "sha256": "43b52550e99afde2a95aa2239afd7287dd55c9378df85e6627296352a46289d2",
+                "source_id": "LEGACY_COMPONENT:d13cc8924ffebeedc39d",
+                "source_section": "Result",
+                "table_header": null
+              },
+              {
+                "inherited_status_not_adopted": [
+                  {
+                    "text": "not_explicitly_declared_in_first_50_lines"
+                  }
+                ],
+                "line": 5,
+                "line_end": 6,
+                "path": "experiments/yolo/gdt477_ol_directional_scope_phrasebook/REPORT.md",
+                "quote": "`OL=FORTSETZEN` now has one meaning and three predictable positional\nrealizations across all 28 local occurrences:",
+                "sha256": "f3c3c4f1cbb43cefbebc485746153b1afe9c562c58acca70e547a6022e2b2f2c",
+                "source_id": "LEGACY_COMPONENT:e17d33a589072bb0c673",
+                "source_section": "Result",
+                "table_header": null
+              },
+              {
+                "inherited_status_not_adopted": [
+                  {
+                    "line": 3,
+                    "text": "Status: `ONE_HUNDRED_TEN_CURRENT_DEFAULTS__TWENTY_THREE_CONTEXT_GENERALIZED__THIRTY_SEVEN_OBSERVED_RETAINED`"
+                  }
+                ],
+                "line": 34,
+                "line_end": 38,
+                "path": "experiments/yolo/gdt497_complete_context_safe_tr_default_deck/REPORT.md",
+                "quote": "Die fünf noch komponierten OL-Sätze sind zugleich flüssiger geworden. Aus\n„Weiter stelle den Positionsposten ... ein“ wird „Fahre fort, das zuvor\nGenannte einzustellen“; die R-Seite lautet entsprechend „Fahre fort, das zuvor\nGenannte zu markieren/zu kennzeichnen“. `OL=FORTSETZEN` bleibt dabei genau\ndieselbe Arbeitsbedeutung.",
+                "sha256": "eeb328fe90403420e13a70fdac1fca86ab720f5b4a5fc8dc681c01ca8e5e3187",
+                "source_id": "LEGACY_COMPONENT:0029aee9882e0aaa595b",
+                "source_section": "Was an den 23 Ellipsen verbessert wurde",
+                "table_header": null
+              },
+              {
+                "inherited_status_not_adopted": [
+                  {
+                    "line": 3,
+                    "text": "Status: `PASS_DY_702_OF_705_STATEMENT_FINAL__THREE_LOCAL_STEP_CLOSURES`"
+                  }
+                ],
+                "line": 90,
+                "line_end": 94,
+                "path": "experiments/yolo/gdt556_dy_closure_boundary_scope/REPORT.md",
+                "quote": "`DY` braucht vorerst keine neue Bedeutung. Als Nächstes lohnt sich die\nkomplementäre Positionsprüfung von `OL=FORTSETZEN` und `OT=DANACH`: Der erste\nsteht überwiegend im Aussageinneren und oft am Kartenende, der zweite fast nie\nam Kartenende. Zusammen könnten sie mit `DY` ein kleines, vorhersagbares\nStart-/Weiter-/Schluss-System bilden.",
+                "sha256": "24a92e1464ee7be0784b9ba9e138edba6760820b1dc2174c86308f7dca2442ab",
+                "source_id": "LEGACY_COMPONENT:f8bb1ddcdb6d18896437",
+                "source_section": "Nächster Griff",
+                "table_header": null
+              },
+              {
+                "inherited_status_not_adopted": [
+                  {
+                    "line": 3,
+                    "text": "Status:"
+                  }
+                ],
+                "line": 46,
+                "line_end": 47,
+                "path": "experiments/yolo/gdt562_thirty_page_actionless_state_role_reader/REPORT.md",
+                "quote": "Ein einziges geschriebenes `OL=FORTSETZEN` kann je nach aktivem Zustand eine\nvollständige Anweisung weiterführen:",
+                "sha256": "f59a6f3c02369ee862c2592d433b3559fb9c3abab9c7d3a925172f36672d2442",
+                "source_id": "LEGACY_COMPONENT:75bd5878c7190cdb7de2",
+                "source_section": "Aus `OL` wird keine zweite Wörterbuchbedeutung",
+                "table_header": null
+              },
+              {
+                "inherited_status_not_adopted": [
+                  {
+                    "line": 3,
+                    "text": "Status:"
+                  }
+                ],
+                "line": 60,
+                "line_end": 63,
+                "path": "experiments/yolo/gdt563_complete_state_microphrase_edition/REPORT.md",
+                "quote": "Das variable Extrem ist das bloße `OL=FORTSETZEN`: Es trägt in den vorhandenen\nSatzkontexten 33 Mikrophrasen, weil Handlung und Argument aus dem aktiven\nSatzspeicher kommen. Das macht `OL` nicht zu 33 Wörtern. Sein stabiler Beitrag\nbleibt „weiter/fortsetzen“; die längere Anweisung entsteht kompositionell:",
+                "sha256": "35389053dc413e135807f2de6e455ca98ed931371ad9ab34bd6ddc8abf2d254f",
+                "source_id": "LEGACY_COMPONENT:8957f1bf8c355a1a9bb2",
+                "source_section": "Ein Rezept ist ein Rahmen, nicht zwingend ein ganzer Satz",
+                "table_header": null
+              },
+              {
+                "inherited_status_not_adopted": [
+                  {
+                    "text": "not_explicitly_declared_in_first_50_lines"
+                  }
+                ],
+                "line": 6,
+                "line_end": 6,
+                "path": "experiments/yolo/sidequest_semantic_all_record_core_six_hundred_eighty_eighth/SIX_HUNDRED_EIGHTY_EIGHTH_REPORT.md",
+                "quote": "- `OL = FORTSETZEN`",
+                "sha256": "04f4dc0588aac703c73042da124a803383f5014fd2defbadce789f15faf64427",
+                "source_id": "LEGACY_COMPONENT:a30746e7808550244da6",
+                "source_section": "Sidequest pass 688: gemeinsamer Kern und Spezialkästen",
+                "table_header": null
+              },
+              {
+                "inherited_status_not_adopted": [
+                  {
+                    "text": "not_explicitly_declared_in_first_50_lines"
+                  }
+                ],
+                "line": 34,
+                "line_end": 34,
+                "path": "experiments/yolo/sidequest_semantic_canonical_scribe_workshop_fifth_edition_nine_hundred_ninety_third/PASS993_CURRENT_WORKING_THEORY.md",
+                "quote": "- `OL=FORTSETZEN`, `OT=DANACH`, `OR=ARBEITSSATZ`;",
+                "sha256": "854440a27a70c1113da0fe0fdd507d2f904348ce1017d82197893442b644095c",
+                "source_id": "LEGACY_COMPONENT:3a56072d3993aa2d33c7",
+                "source_section": "Wörterbuchkern",
+                "table_header": null
+              },
+              {
+                "inherited_status_not_adopted": [
+                  {
+                    "text": "not_explicitly_declared_in_first_50_lines"
+                  }
+                ],
+                "line": 20,
+                "line_end": 20,
+                "path": "experiments/yolo/sidequest_semantic_canonical_scribe_workshop_sixth_edition_nine_hundred_ninety_sixth/PASS996_CURRENT_WORKING_THEORY.md",
+                "quote": "- `OL=FORTSETZEN`, `OT=DANACH`, `OR=ANSATZ`;",
+                "sha256": "ed8810a3f66854a6d9e4f9a4ba42563a755326d5af399f02650ce96557995291",
+                "source_id": "LEGACY_COMPONENT:e55a282f49ac1250b5cd",
+                "source_section": "Kurzes Taschenwörterbuch",
+                "table_header": null
+              },
+              {
+                "inherited_status_not_adopted": [
+                  {
+                    "text": "not_explicitly_declared_in_first_50_lines"
+                  }
+                ],
+                "line": 29,
+                "line_end": 29,
+                "path": "experiments/yolo/sidequest_semantic_cross_register_core_revision_one_thousand_eighteenth/PASS1018_REPORT.md",
+                "quote": "`Y=DIES`, `OK=SETZEN`, `OL=FORTSETZEN`, `OT=DANACH`, `AL=ZIELORT`, `CH=NEHMEN`, `SH=HALTEN`, `AR=AUSGANG`, `K=GEBEN`, `S=WÄHLEN`, `CHD=UMSETZEN`, `L=VERBINDUNG`, `T=EINSTELLEN`, `R=MARKIEREN`, `P=EINSETZEN`, `AIR=LAUF`.",
+                "sha256": "c12063509ff27206ee412a9711814200ac202404878baa2a582284f97b180951",
+                "source_id": "LEGACY_COMPONENT:06b8a5c7dfd6e2068db5",
+                "source_section": "Was unverändert bleibt",
+                "table_header": null
+              },
+              {
+                "inherited_status_not_adopted": [
+                  {
+                    "text": "not_explicitly_declared_in_first_50_lines"
+                  }
+                ],
+                "line": 13,
+                "line_end": 18,
+                "path": "experiments/yolo/sidequest_semantic_twenty_two_page_statement_consolidation_one_thousand_ninth/PASS1009_REPORT.md",
+                "quote": "Die alte ACTION-Rolle war zu eng. Von 627 Aussagen besitzen 588\neine ausdrückliche Operationswurzel. Weitere 9\ntragen die Operation bereits im Wegkern (`L=LEITEN`, `SOLK=AUFFANGEN`), und\n3 werden durch\n`OL=FORTSETZEN` selbst prädiziert. Diese 12\nFälle sind keine Ellipsen.",
+                "sha256": "bf8e7607fb3ee0e940804a230854d91fe180aea48f39b945c6bafe39be7c1308",
+                "source_id": "LEGACY_COMPONENT:8c2013db1204e91d20cb",
+                "source_section": "Die scheinbar fehlenden Handlungen",
+                "table_header": null
+              },
+              {
+                "inherited_status_not_adopted": [
+                  {
+                    "line": 3,
+                    "text": "Status:"
+                  }
+                ],
+                "line": 38,
+                "line_end": 42,
+                "path": "experiments/yolo/gdt561_typed_state_card_composition_reader/REPORT.md",
+                "quote": "Die kurzen Kernwerte bleiben dieselben: etwa `CH=NEHMEN`, `SH=HALTEN`,\n`Y=POSTEN`, `AIIN=WERT`, `AL=ZIELORT`, `AR=AUSGANG`, `L=VERBINDUNG`,\n`E/EE/EEE=GRAD I/II/III`, `OT=DANACH`, `OL=FORTSETZEN` und\n`DY=ABSCHLIESSEN`. `HIER`, `VARIANTE` und `KLASSE` sind strukturelle Tags,\nnicht behauptete deutsche Wörter im Manuskript.",
+                "sha256": "6d370d4dfe53ca3ba5fc00061ae5abb26a80e5cf23d39fc4684ff83bd58491e6",
+                "source_id": "LEGACY_COMPONENT:c01b21e73d2b62afadc2",
+                "source_section": "Das Wörterbuch bleibt klein",
+                "table_header": null
+              },
+              {
+                "inherited_status_not_adopted": [
+                  {
+                    "text": "not_explicitly_declared_in_first_50_lines"
+                  }
+                ],
+                "line": 39,
+                "line_end": 43,
+                "path": "experiments/yolo/sidequest_semantic_argument_scope_stack_one_thousand_twenty_second/SCOPE_STACK_REPORT.md",
+                "quote": "`O=AUSFÜHRUNG`, `OT=DANACH` und `OL=FORTSETZEN` öffnen dabei keinen neuen\nHandlungskopf. Sie führen den vorhandenen Gang aus oder weiter. Bei mehreren\nHandlungen in derselben Karte bekommt der nächste Kopf den Kern unmittelbar;\ndie ältere Handlung enthält dann die jüngere Handlungsgruppe. So braucht\n`CH+K+Y` keine Sonderregel: `CH[ K[Y] ]`.",
+                "sha256": "8db0e6aa97dcd5e5bd8891f0289945bd76eefda7368cd206cb3cfa275f35c1d9",
+                "source_id": "LEGACY_COMPONENT:7fa1958a7999ce109324",
+                "source_section": "Ergebnis",
+                "table_header": null
+              }
+            ]
+          },
+          {
+            "target": "SEM:8bfed0e09b62537455e6",
+            "effective_claim": "Repeated A–L/O–B–L/O–C attaches B and C as siblings under one head rather than a directional chain.",
+            "effective_claim_type": "functional_hypothesis",
+            "target_basis_sha256": "3f34b2c8074b088813d8bd9790f22b3658896be96359d4193bd681e0ecd980e7",
+            "comparison": "Siblings under one head concerns A–L/O–B–L/O–C and differs from source-locus boundary versus internal OL dispatch.",
+            "evidence": [
+              {
+                "line": 293,
+                "path": "experiments/yolo/sidequest_theory_candidates_v13/CANDIDATE_V13_R4_CHANCERY_LINK_AUDIT.md",
+                "quote": "3. Repeated `A--L--B--L--C` fields should behave more like sibling lists under\n   one head than directional chains: exchanging the two added opaque members\n   should be less disruptive than reversing an independently identifiable\n   source and target. This remains a future discriminator, not a present fact.",
+                "sha256": "49371ef26c42edc7c819662ddb6398baffdc8c423615fcc9df413c1955898d11"
+              },
+              {
+                "line": 61,
+                "path": "experiments/yolo/sidequest_theory_candidates_v13/V13_THEORY_SELECTION.md",
+                "quote": "2. Repeated `A–L/O–B–L/O–C`: attach B, then continue the same relation to C;\n   B and C may be sibling entries rather than a literal binary chain.",
+                "sha256": "1edb5d04ebd31c4e104c9061b900d9cf31789942f8316f48874663e743a8978c"
+              }
+            ]
+          }
+        ]
+      },
+      "scope": "GDT475 hypothetical reading operations; no empirical confirmation of authorial microrecords and no global OT/OL translation.",
+      "status": "SOURCE_REVIEW_CANDIDATE_NO_EXACT_CARD_LOCATED",
+      "assessed_by": "curation_review",
+      "ready": false,
+      "not_claimed": "Global absence of paraphrases, independent scientific novelty, truth, or automatic admission to the clean idea list."
+    }
+  ],
+  "conclusion": {
+    "actual_uncovered_named_substance_translation_found": false,
+    "concrete_functional_scope_gaps_located": 3,
+    "interpretation": "The remaining intake is not all duplicate science: some explicit functional/compositional propositions lack a located exact current card, while most high-risk blocks in this bounded sample are represented, metadata or rendering consequences. This does not establish which is the largest global gap.",
+    "recommended_decision": "Do targeted source-scope review of these three concrete propositions before further blanket deduplication claims; do not add unresolved blocks as placeholder ideas.",
+    "negative_controls": [
+      "qotomody exact meaning is already SEM:cb06cea26ef7040e80cf, despite no overlap at the selected later paragraph.",
+      "The old CKHY parallel/fused leaf-or-stalk proposal is already represented with rejected status at SEM:b5de9609168c0a208688.",
+      "V70/V74 model rivals are preserved inside multi-proposition cards and source cases; card-title search alone would falsely call them missing."
+    ]
+  },
+  "validation": {
+    "status": "PASS",
+    "reviewed_blocks": 80,
+    "distinct_source_ids": 80,
+    "dispositions": {
+      "meaning_already_represented_or_scoped_counterpart": 26,
+      "scope_comparison_unresolved_not_a_new_idea": 12,
+      "no_new_semantic_proposition_in_selected_block": 39,
+      "concrete_functional_proposition_no_exact_representation_located": 3
+    },
+    "candidate_count": 3,
+    "all_original_block_source_hashes_checked": true,
+    "comparison_evidence_hashes_and_lines_checked": true,
+    "no_source_bytes_or_registry_changed": true
+  }
+}

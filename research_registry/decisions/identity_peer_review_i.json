@@ -1,0 +1,677 @@
+{
+  "schema": "semantic_identity_peer_review_v1",
+  "review_id": "identity_peer_review_i",
+  "reviewed_batch": "research_registry/decisions/identity_batch_i.json",
+  "reviewed_batch_sha256": "322793e1bccdf609af168e1a1cd9cfa9f4fa3214a44414c2273f54adbb10cec5",
+  "scope_ids": [
+    "SEM:0d1c0ea957372f9669ae",
+    "SEM:28fec10659c6525adaca",
+    "SEM:492a4a38e88586081186",
+    "SEM:53c15b0654753ab9b293",
+    "SEM:656fc76f4d983447be88",
+    "SEM:727b5da99d3a4cb9e13a",
+    "SEM:7faaa122fa145c302a9e",
+    "SEM:818317edf5adaf8a5fcd",
+    "SEM:873a0a7342b860396ea7",
+    "SEM:93f164df28f4175d09db",
+    "SEM:982f0012ea60269dd8f6",
+    "SEM:a8f159b6ef57f7dc2ddd",
+    "SEM:c2f61337208004b55bdb",
+    "SEM:d0845d8ffbd4125a8cb1",
+    "SEM:d6561678d90b3b32a3f5",
+    "SEM:ed2bc1a6f8fe6d98158c",
+    "SEM:fd1c99059c2bddb29951"
+  ],
+  "status": "complete",
+  "review_contract": "Independent full-member source-case check of the eight proposed multi-member groups only. The other singleton/alternative candidates in batch I are not independently audited here. No source edits, experiments, raw text or images.",
+  "group_decisions": [
+    {
+      "group_id": "IDENTITY_I:olor_daraus",
+      "decision": "approve_full_proposition_identity",
+      "member_ids": [
+        "SEM:28fec10659c6525adaca",
+        "SEM:d6561678d90b3b32a3f5"
+      ],
+      "reason": "Both evidence cells put daraus in an explicit atomic-rival column for the same registered OLOR whole card. The neighboring rival zuvor and the default vom Vorigen remain separate candidates; the grouped claims do not assert their conjunction.",
+      "scope_limits": "Identity is of the hypothetical bare lexical proposition on its registered complete card, not truth, portable mapping, all raw strings, arbitrary constituent values or all local sentence expansions. Retain each source case and its distinct status; question marks/capitalization alone do not create a new proposition.",
+      "members": [
+        {
+          "id": "SEM:28fec10659c6525adaca",
+          "claim": "OLOR → daraus",
+          "case_ids": [
+            "LATE_SIDEQUEST:f053181fbd9d1e5ef5be"
+          ],
+          "all_cases_reviewed": true,
+          "source_card_sha256": "2e36d2c9c297ac62e01c800000e3c80070cca814602ea08c3af1e675dbd43716"
+        },
+        {
+          "id": "SEM:d6561678d90b3b32a3f5",
+          "claim": "OLOR → DARAUS?",
+          "case_ids": [
+            "LATE_SIDEQUEST:ab3664a5e9708571c0d1"
+          ],
+          "all_cases_reviewed": true,
+          "source_card_sha256": "ec096c64f45d9513e3f707726ca963d8e92511b7e312ea442f290101493762a6"
+        }
+      ],
+      "evidence": [
+        {
+          "line": 35,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "quote": "| OLOR | vom Vorigen | Relation | daraus · zuvor | 1/1 | 0.42 | 1 Karte + 2 Events |",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        },
+        {
+          "line": 31,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/CANDIDATE_V60_R4_CHANCERY_CORRECTOR.md",
+          "quote": "| OLOR | Rückverweis | `VORIGES?` | `DARAUS?` |",
+          "sha256": "913bede9f275b266efdbceb6836c822a7248a13528ea1b07362521ddb725507b"
+        }
+      ]
+    },
+    {
+      "group_id": "IDENTITY_I:olor_zuvor",
+      "decision": "approve_full_proposition_identity",
+      "member_ids": [
+        "SEM:656fc76f4d983447be88",
+        "SEM:fd1c99059c2bddb29951"
+      ],
+      "reason": "The V52 passage explicitly separates full exact cards from host/frame values and assigns OLOR=ZUVOR. All V60 occurrences of this candidate are in rival columns of the same two-event full-card audit. Temporal previously is not merged with source-anaphoric daraus or nominal Voriges.",
+      "scope_limits": "Identity is of the hypothetical bare lexical proposition on its registered complete card, not truth, portable mapping, all raw strings, arbitrary constituent values or all local sentence expansions. Retain each source case and its distinct status; question marks/capitalization alone do not create a new proposition.",
+      "members": [
+        {
+          "id": "SEM:656fc76f4d983447be88",
+          "claim": "OLOR → ZUVOR?",
+          "case_ids": [
+            "CLEAN_COMPONENT:8174fe5b60313e6868fe",
+            "LATE_SIDEQUEST:d8e54f1300b6bffac861",
+            "LATE_SIDEQUEST:deac0ec078bb01c49cdf"
+          ],
+          "all_cases_reviewed": true,
+          "source_card_sha256": "405690175f9245131bd14d7214708aad25b17e3c6adcdbfe137c84285e8a3197"
+        },
+        {
+          "id": "SEM:fd1c99059c2bddb29951",
+          "claim": "OLOR → zuvor",
+          "case_ids": [
+            "LATE_SIDEQUEST:0251f31cc4fa83d35426"
+          ],
+          "all_cases_reviewed": true,
+          "source_card_sha256": "f477f678e6778d73c21a75e18eeea97c1bd2c38152bb495ce17a8458b086e52e"
+        }
+      ],
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 27,
+          "line_end": 27,
+          "path": "experiments/yolo/sidequest_theory_candidates_v52/V52_R2_HISTORICAL_FIELD_GRAMMAR_REPORT.md",
+          "quote": "Für die Klassifikation zählen als positive Host-/Rahmenwerte `OK=SET`, `OT=MARK`, `L=LINK`, `AL=AN?`, `OR=BEREITUNG?` und `CHEY=TEIL?`; `E` bleibt unbekannt. Positive exakte Ganzkarten sind `AIIN=MASS?`, `EY=KLAR?`, `OKY=VERWENDEN?`, `LCHE=ABLASSEN?`, `OKE=SPÜLEN?`, `CTHY=BEREIT?`, `OKEEY=WARM?` und `OLOR=ZUVOR?`; `CKHY` bleibt unbekannt. Die V49-Werte wurden nur zur Lokalisierung benutzt und dann durch die V50/V51-Auswahl ersetzt.",
+          "sha256": "bf73e7e5d1e122366809e198df7928f72e85583115dae7978a84968d4d373d39",
+          "source_id": "LEGACY_COMPONENT:26a15978710b00290a09",
+          "source_section": "Vollständiger Audit",
+          "table_header": null
+        },
+        {
+          "line": 27,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R3_TECHNICAL_EXACT_CARD_REPORT.md",
+          "quote": "| OLOR | 2 | `VORLAUF?` | `ZUVOR?`, `RÜCKLAUF?` | Vorchargenrelation; nimm vorherigen Lauf als Linkquelle | Beide Belege berühren eine exakte LINK-Karte; n=2 | 0,48 |",
+          "sha256": "6f943caad4300b135b8efd096c79c16deeaa49bff5cb323dc29d513c3793842d"
+        },
+        {
+          "line": 39,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R2_HISTORICAL_FUNCTION_WORD_COMPETITION_REPORT.md",
+          "quote": "| OLOR | VORIGES? | anaphorisches Pronomen/substantiviertes Adjektiv | DAVON?, ZUVOR? | **REVISE** | .36 | Nur zwei Belege und kein ausgeschriebener Antezedent; zeitlicher und anaphorischer Rückverweis bleiben kaum trennbar. |",
+          "sha256": "eae7d9225e61203f56f0a56100f70c813657819e06ca216390b917c515f69597"
+        },
+        {
+          "line": 35,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "quote": "| OLOR | vom Vorigen | Relation | daraus · zuvor | 1/1 | 0.42 | 1 Karte + 2 Events |",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        }
+      ]
+    },
+    {
+      "group_id": "IDENTITY_I:olor_previous",
+      "decision": "approve_full_proposition_identity",
+      "member_ids": [
+        "SEM:53c15b0654753ab9b293",
+        "SEM:93f164df28f4175d09db"
+      ],
+      "reason": "V49 explicitly calls olor one exact card type and prohibits ol+or decomposition. V60 identifies VORIGES as an anaphoric pronoun/substantivized adjective. Vorheriges/Voriges describe the previous thing on that same unit; no temporal-adverb or source-extraction operation is added.",
+      "scope_limits": "Identity is of the hypothetical bare lexical proposition on its registered complete card, not truth, portable mapping, all raw strings, arbitrary constituent values or all local sentence expansions. Retain each source case and its distinct status; question marks/capitalization alone do not create a new proposition.",
+      "members": [
+        {
+          "id": "SEM:53c15b0654753ab9b293",
+          "claim": "OLOR → VORIGES?",
+          "case_ids": [
+            "LATE_SIDEQUEST:05584d3e616f6a5cd430",
+            "LATE_SIDEQUEST:c573ad7721b5b6a6fffc"
+          ],
+          "all_cases_reviewed": true,
+          "source_card_sha256": "82dbccea647522f71c377b0ef0ef260bd44fc90be7b71532d011e3a2b923816e"
+        },
+        {
+          "id": "SEM:93f164df28f4175d09db",
+          "claim": "olor → VORHERIGES",
+          "case_ids": [
+            "CLEAN_COMPONENT:d86872496ef452536ed1"
+          ],
+          "all_cases_reviewed": true,
+          "source_card_sha256": "688005a76a2774fae2d2017df218874645ac67c5c09447d060903864d4570b40"
+        }
+      ],
+      "evidence": [
+        {
+          "line": 39,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R2_HISTORICAL_FUNCTION_WORD_COMPETITION_REPORT.md",
+          "quote": "| OLOR | VORIGES? | anaphorisches Pronomen/substantiviertes Adjektiv | DAVON?, ZUVOR? | **REVISE** | .36 | Nur zwei Belege und kein ausgeschriebener Antezedent; zeitlicher und anaphorischer Rückverweis bleiben kaum trennbar. |",
+          "sha256": "eae7d9225e61203f56f0a56100f70c813657819e06ca216390b917c515f69597"
+        },
+        {
+          "line": 31,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/CANDIDATE_V60_R4_CHANCERY_CORRECTOR.md",
+          "quote": "| OLOR | Rückverweis | `VORIGES?` | `DARAUS?` |",
+          "sha256": "913bede9f275b266efdbceb6836c822a7248a13528ea1b07362521ddb725507b"
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 67,
+          "line_end": 69,
+          "path": "experiments/yolo/sidequest_theory_candidates_v49/V49_R1_ATOMIC_MINIMAL_LEXICON_REPORT.md",
+          "quote": "Diese Namen sind Merkzettel für jeweils **einen exakten Kartentyp**. Aus\n`okeey = LAUWARM` folgt weder `ok + e + ey` noch `ey = warm`. Aus\n`olor = VORHERIGES` folgt keine Zerlegung in `ol + or`.",
+          "sha256": "16b314937037fd559cc887d7f51cbcd0b0bc4c009bbe0ff82f74168af211c78d",
+          "source_id": "LEGACY_COMPONENT:d3a0242f32d3a15b1ecf",
+          "source_section": "Wiederkehrende exakte Ganzkarten",
+          "table_header": null
+        }
+      ]
+    },
+    {
+      "group_id": "IDENTITY_I:oky_apply",
+      "decision": "approve_full_proposition_identity",
+      "member_ids": [
+        "SEM:0d1c0ea957372f9669ae",
+        "SEM:492a4a38e88586081186"
+      ],
+      "reason": "All three question-mark cases and the lowercase-gloss case concern the registered complete OKY card. V51 explicitly identifies an action with an unspoken object; V60 separates anwenden from fortsetzen/nehmen/ausführen alternatives. No active-portion object is asserted by the grouped bare claim.",
+      "scope_limits": "Identity is of the hypothetical bare lexical proposition on its registered complete card, not truth, portable mapping, all raw strings, arbitrary constituent values or all local sentence expansions. Retain each source case and its distinct status; question marks/capitalization alone do not create a new proposition.",
+      "members": [
+        {
+          "id": "SEM:0d1c0ea957372f9669ae",
+          "claim": "OKY → anwenden",
+          "case_ids": [
+            "LATE_SIDEQUEST:d8b567060c53c15604e6"
+          ],
+          "all_cases_reviewed": true,
+          "source_card_sha256": "f65af7971d4d711b9e9105631346f569c7a78697b20c3433c24164ae86b14f23"
+        },
+        {
+          "id": "SEM:492a4a38e88586081186",
+          "claim": "OKY → ANWENDEN?",
+          "case_ids": [
+            "CLEAN_COMPONENT:61409d5b8ce0f37dc5cc",
+            "LATE_SIDEQUEST:42888dacecd5ee6596b7",
+            "LATE_SIDEQUEST:b05fef65ba217665b1b1"
+          ],
+          "all_cases_reviewed": true,
+          "source_card_sha256": "efc1c811173b12ab8367ad165c9ab27f516a405913d85783ec870873d315a0f1"
+        }
+      ],
+      "evidence": [
+        {
+          "line": 30,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "quote": "| OKY | verwenden | Verb | anwenden · fortsetzen | 3/7 | 0.68 | 0 |",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 20,
+          "line_end": 21,
+          "path": "experiments/yolo/sidequest_theory_candidates_v51/V51_R4_CORRECTOR_WHOLE_CARD_REPORT.md",
+          "quote": "- `OKY=ANWENDEN?` bezeichnet eher eine Handlung als das abstrakte Nomen\n  `NUTZEN`; das Objekt bleibt still.",
+          "sha256": "35ddc5cd1dec8988a3ad74a96673b203f754d13b6553e48ba9557b27e36709ad",
+          "source_id": "LEGACY_COMPONENT:c46aba6f124601c924f6",
+          "source_section": "Revisionen",
+          "table_header": null
+        },
+        {
+          "line": 26,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/CANDIDATE_V60_R4_CHANCERY_CORRECTOR.md",
+          "quote": "| OKY | Handlung | `ANWENDEN?` | `AUSFÜHREN?` |",
+          "sha256": "913bede9f275b266efdbceb6836c822a7248a13528ea1b07362521ddb725507b"
+        },
+        {
+          "line": 34,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R2_HISTORICAL_FUNCTION_WORD_COMPETITION_REPORT.md",
+          "quote": "| OKY | VERWENDEN? | Verb | NEHMEN?, ANWENDEN? | KEEP | .60 | Das Objekt bleibt überall bild- oder exemplarabhängig; besonders im Bio-Register könnte nur „ausführen/fortsetzen“ gemeint sein. |",
+          "sha256": "eae7d9225e61203f56f0a56100f70c813657819e06ca216390b917c515f69597"
+        }
+      ]
+    },
+    {
+      "group_id": "IDENTITY_I:oky_use",
+      "decision": "approve_full_proposition_identity",
+      "member_ids": [
+        "SEM:7faaa122fa145c302a9e",
+        "SEM:a8f159b6ef57f7dc2ddd"
+      ],
+      "reason": "The two V60 R1 cases and V52/R2/R3 cases give the same object-unspecified verwenden verb on the complete registered OKY card. R3 labels verwenden a rival to the fuller execute/current-item state transition; that transition is not part of the rival proposition. No general OK stem or literal raw oky temperature reading is present.",
+      "scope_limits": "Identity is of the hypothetical bare lexical proposition on its registered complete card, not truth, portable mapping, all raw strings, arbitrary constituent values or all local sentence expansions. Retain each source case and its distinct status; question marks/capitalization alone do not create a new proposition.",
+      "members": [
+        {
+          "id": "SEM:7faaa122fa145c302a9e",
+          "claim": "OKY → verwenden",
+          "case_ids": [
+            "LATE_SIDEQUEST:9ad74f9e3ee9cdca833f",
+            "LATE_SIDEQUEST:33d20ea8aeb128661046"
+          ],
+          "all_cases_reviewed": true,
+          "source_card_sha256": "5e572b535bea201340fca49536a88094d7ce33a726a9911461b55878c1be63d1"
+        },
+        {
+          "id": "SEM:a8f159b6ef57f7dc2ddd",
+          "claim": "OKY → VERWENDEN?",
+          "case_ids": [
+            "CLEAN_COMPONENT:de0e7e3793db245549cf",
+            "LATE_SIDEQUEST:fa04b3cc09f9f4b4dfa6",
+            "LATE_SIDEQUEST:cc3617e31dd3a208d63c"
+          ],
+          "all_cases_reviewed": true,
+          "source_card_sha256": "b3821b01f568c121c70debdc85466faa5673c9515d6a3e2f39dccfe1cbdc1725"
+        }
+      ],
+      "evidence": [
+        {
+          "line": 69,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "quote": "2. **OKY — verwenden.** Zehn Fälle bilden einen breiten Handlungspivot;\n   `OKEEY→OKY` und `OKY→AIIN` erscheinen je zweimal. Lehrregel: kein Material\n   oder Ziel mitsprechen. Widerspruch: ONLY- und Feldendfälle erlauben ebenso\n   „fortsetzen“ oder eine Freigabeformel.",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        },
+        {
+          "line": 30,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "quote": "| OKY | verwenden | Verb | anwenden · fortsetzen | 3/7 | 0.68 | 0 |",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 27,
+          "line_end": 27,
+          "path": "experiments/yolo/sidequest_theory_candidates_v52/V52_R2_HISTORICAL_FIELD_GRAMMAR_REPORT.md",
+          "quote": "Für die Klassifikation zählen als positive Host-/Rahmenwerte `OK=SET`, `OT=MARK`, `L=LINK`, `AL=AN?`, `OR=BEREITUNG?` und `CHEY=TEIL?`; `E` bleibt unbekannt. Positive exakte Ganzkarten sind `AIIN=MASS?`, `EY=KLAR?`, `OKY=VERWENDEN?`, `LCHE=ABLASSEN?`, `OKE=SPÜLEN?`, `CTHY=BEREIT?`, `OKEEY=WARM?` und `OLOR=ZUVOR?`; `CKHY` bleibt unbekannt. Die V49-Werte wurden nur zur Lokalisierung benutzt und dann durch die V50/V51-Auswahl ersetzt.",
+          "sha256": "bf73e7e5d1e122366809e198df7928f72e85583115dae7978a84968d4d373d39",
+          "source_id": "LEGACY_COMPONENT:26a15978710b00290a09",
+          "source_section": "Vollständiger Audit",
+          "table_header": null
+        },
+        {
+          "line": 22,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R3_TECHNICAL_EXACT_CARD_REPORT.md",
+          "quote": "| OKY | 10 | `AUSFÜHREN?` | `VERWENDEN?`, `BUCHEN?` | Aktion; führe den aktiven Posten aus und schalte den Arbeitszustand weiter | Ein Ein-Karten-Feld muss Aktion und Objekt erben | 0,58 |",
+          "sha256": "6f943caad4300b135b8efd096c79c16deeaa49bff5cb323dc29d513c3793842d"
+        },
+        {
+          "line": 34,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R2_HISTORICAL_FUNCTION_WORD_COMPETITION_REPORT.md",
+          "quote": "| OKY | VERWENDEN? | Verb | NEHMEN?, ANWENDEN? | KEEP | .60 | Das Objekt bleibt überall bild- oder exemplarabhängig; besonders im Bio-Register könnte nur „ausführen/fortsetzen“ gemeint sein. |",
+          "sha256": "eae7d9225e61203f56f0a56100f70c813657819e06ca216390b917c515f69597"
+        }
+      ]
+    },
+    {
+      "group_id": "IDENTITY_I:lche_drain",
+      "decision": "approve_full_proposition_identity",
+      "member_ids": [
+        "SEM:982f0012ea60269dd8f6",
+        "SEM:ed2bc1a6f8fe6d98158c"
+      ],
+      "reason": "All eight source cases retain ablassen for complete LCHE. V57 narrows operational correction output to closure while explicitly retaining the Biological-local hypothetical default; this does not silently change the proposed lexical unit. The V60 text removes vessel and direction from the atomic value. Closure-confounding and local-only use must remain visible as source-specific assessments.",
+      "scope_limits": "Identity is of the hypothetical bare lexical proposition on its registered complete card, not truth, portable mapping, all raw strings, arbitrary constituent values or all local sentence expansions. Retain each source case and its distinct status; question marks/capitalization alone do not create a new proposition.",
+      "members": [
+        {
+          "id": "SEM:982f0012ea60269dd8f6",
+          "claim": "LCHE → ABLASSEN?",
+          "case_ids": [
+            "CLEAN_COMPONENT:375799dab75a8b3f9ee2",
+            "CLEAN_COMPONENT:52fdc707a3b062c1ec7f",
+            "CLEAN_COMPONENT:161959f6095fb20a4421",
+            "LATE_SIDEQUEST:8aec9b8045a93c7698ed",
+            "LATE_SIDEQUEST:a115ea16fd22114c729d",
+            "LATE_SIDEQUEST:d0d0e7a09262922ae0e3"
+          ],
+          "all_cases_reviewed": true,
+          "source_card_sha256": "e9a8c79b181002f6fe23724a890782e5caf002d28d017600c835a68a57ddb251"
+        },
+        {
+          "id": "SEM:ed2bc1a6f8fe6d98158c",
+          "claim": "LCHE → ablassen",
+          "case_ids": [
+            "LATE_SIDEQUEST:1897c12dbb94eb384942",
+            "LATE_SIDEQUEST:ba3310122b7ead3b41aa"
+          ],
+          "all_cases_reviewed": true,
+          "source_card_sha256": "7874dc905cb320b155c2b50ccdf21e89fe6861cf5cf3f1768f39b93a15bc595f"
+        }
+      ],
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 27,
+          "line_end": 27,
+          "path": "experiments/yolo/sidequest_theory_candidates_v52/V52_R2_HISTORICAL_FIELD_GRAMMAR_REPORT.md",
+          "quote": "Für die Klassifikation zählen als positive Host-/Rahmenwerte `OK=SET`, `OT=MARK`, `L=LINK`, `AL=AN?`, `OR=BEREITUNG?` und `CHEY=TEIL?`; `E` bleibt unbekannt. Positive exakte Ganzkarten sind `AIIN=MASS?`, `EY=KLAR?`, `OKY=VERWENDEN?`, `LCHE=ABLASSEN?`, `OKE=SPÜLEN?`, `CTHY=BEREIT?`, `OKEEY=WARM?` und `OLOR=ZUVOR?`; `CKHY` bleibt unbekannt. Die V49-Werte wurden nur zur Lokalisierung benutzt und dann durch die V50/V51-Auswahl ersetzt.",
+          "sha256": "bf73e7e5d1e122366809e198df7928f72e85583115dae7978a84968d4d373d39",
+          "source_id": "LEGACY_COMPONENT:26a15978710b00290a09",
+          "source_section": "Vollständiger Audit",
+          "table_header": null
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 170,
+          "line_end": 171,
+          "path": "experiments/yolo/sidequest_theory_candidates_v54/V54_R2_HISTORICAL_BIOLOGICAL_REPORT.md",
+          "quote": "- `LCHE=ABLASSEN?` und `OKE=SPÜLEN?` bleiben kreativ nützlich, aber vollständig\n  mit `CLOSE` konfundiert.",
+          "sha256": "6c28cb1ebc37d9f59e87f981b72eda1ef23e7d00e19702dfd10531904f9a43f1",
+          "source_id": "LEGACY_COMPONENT:2e3a933de16c78552660",
+          "source_section": "Revision gegenüber V42 und V49",
+          "table_header": null
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 3,
+              "text": "Status: unabhängiger Lehrbarkeitstest aus der Rolle eines Werkstattlehrmeisters"
+            }
+          ],
+          "line": 106,
+          "line_end": 108,
+          "path": "experiments/yolo/sidequest_theory_candidates_v57/V57_R1_WORKSHOP_TEACHABILITY_REPORT.md",
+          "quote": "- `LCHE = ABLASSEN?`, `OKE = SPÜLEN?` und `OKEEY = WARM?` bleiben\n  Biological-lokale Defaults. Besonders terminales `LCHE` darf im\n  Korrekturdurchgang nur als Schlussform behandelt werden.",
+          "sha256": "4b2dab63b4ab34012603201791c0c3877b0edeac12e4ad8aac0e0b6ac4c7a8a8",
+          "source_id": "LEGACY_COMPONENT:f646dcccacd3387ccc31",
+          "source_section": "Nur lokale beziehungsweise zurückgezogene Karten",
+          "table_header": null
+        },
+        {
+          "line": 35,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/CANDIDATE_V60_R4_CHANCERY_CORRECTOR.md",
+          "quote": "| LCHE | terminale Handlung | `ABLASSEN?` | `AUSLAUF?` |",
+          "sha256": "913bede9f275b266efdbceb6836c822a7248a13528ea1b07362521ddb725507b"
+        },
+        {
+          "line": 31,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R3_TECHNICAL_EXACT_CARD_REPORT.md",
+          "quote": "| LCHE | 8 | `ABFÜHREN?` | `ABLASSEN?`, `AUSGEBEN?` | Abflussaktion; route aktive Charge zum lokalen Ausgang, dann Commit | Alle acht Belege sind terminal, fünf davon Ein-Karten-Felder | 0,51 |",
+          "sha256": "6f943caad4300b135b8efd096c79c16deeaa49bff5cb323dc29d513c3793842d"
+        },
+        {
+          "line": 43,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R2_HISTORICAL_FUNCTION_WORD_COMPETITION_REPORT.md",
+          "quote": "| LCHE | ABLASSEN? | terminales Handlungsverb | LEEREN?, SCHLIESSEN? | KEEP | .34 | Ebenfalls 8/8 `CLOSE`; nicht an jedem Ort ist ein sichtbarer Ablauf vorhanden. |",
+          "sha256": "eae7d9225e61203f56f0a56100f70c813657819e06ca216390b917c515f69597"
+        },
+        {
+          "line": 103,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "quote": "11. **LCHE — ablassen.** Acht Bio-Fälle; einer folgt AL, ein technischer\n    Ganzdefault lautet ebenfalls „unten ablassen“. Lehrregel: Gefäß und\n    Richtung nur aus dem Exemplar beziehen. Widerspruch: 8/8 sind TERMINAL,\n    fünf davon ONLY; die Abgrenzung von OKE ist nicht unabhängig geerdet.",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        },
+        {
+          "line": 39,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "quote": "| LCHE | ablassen | Verb | sammeln · beenden | 0/8 | 0.36 | 0 |",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        }
+      ]
+    },
+    {
+      "group_id": "IDENTITY_I:ey_finished",
+      "decision": "approve_full_proposition_identity",
+      "member_ids": [
+        "SEM:727b5da99d3a4cb9e13a",
+        "SEM:818317edf5adaf8a5fcd",
+        "SEM:873a0a7342b860396ea7"
+      ],
+      "reason": "The source explicitly reports FERTIG as a previous EY assignment, then replaces it; the other cases offer fertig as an atomic state rival. This is a retained historical proposition, not a negated nonassignment. All concern the registered EY whole card. Its replacement history does not transfer onto independently proposed fertig rival cases as a new empirical rejection.",
+      "scope_limits": "Identity is of the hypothetical bare lexical proposition on its registered complete card, not truth, portable mapping, all raw strings, arbitrary constituent values or all local sentence expansions. Retain each source case and its distinct status; question marks/capitalization alone do not create a new proposition.",
+      "members": [
+        {
+          "id": "SEM:727b5da99d3a4cb9e13a",
+          "claim": "EY → FERTIG?",
+          "case_ids": [
+            "LATE_SIDEQUEST:a271efde95408010287d"
+          ],
+          "all_cases_reviewed": true,
+          "source_card_sha256": "1e534fb2281352331caa1c05cbc12b7ace0a8db2422fc1c5bbe8408882c22eb9"
+        },
+        {
+          "id": "SEM:818317edf5adaf8a5fcd",
+          "claim": "EY → FERTIG",
+          "case_ids": [
+            "CLEAN_COMPONENT:f6b9462f8aba1aefc49d",
+            "CLEAN_COMPONENT:47bd09e96e972e7436ee"
+          ],
+          "all_cases_reviewed": true,
+          "source_card_sha256": "fa9b3942fba7380bce8b05fa3c718984f80977823b9226faa8d4838579877302"
+        },
+        {
+          "id": "SEM:873a0a7342b860396ea7",
+          "claim": "EY → fertig",
+          "case_ids": [
+            "LATE_SIDEQUEST:f829d98fee62bcadbe64"
+          ],
+          "all_cases_reviewed": true,
+          "source_card_sha256": "916b6502aba490b5a71a10bec495e8ae59090b76379279d4dec4577ae61a2c68"
+        }
+      ],
+      "evidence": [
+        {
+          "line": 38,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R2_HISTORICAL_FUNCTION_WORD_COMPETITION_REPORT.md",
+          "quote": "| EY | KLAR? | Zustandsadjektiv | FERTIG?, SAUBER? | KEEP | .39 | Einer von nur vier Belegen steht ohne sichtbaren Klärvorgang zwischen Zusatz und Anteil. |",
+          "sha256": "eae7d9225e61203f56f0a56100f70c813657819e06ca216390b917c515f69597"
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 168,
+          "line_end": 169,
+          "path": "experiments/yolo/sidequest_theory_candidates_v54/V54_R2_HISTORICAL_BIOLOGICAL_REPORT.md",
+          "quote": "- `EY=FERTIG` wird `KLAR?`, `OKEEY=LAUWARM` wird `WARM?`, `OKY=NUTZEN` wird\n  `VERWENDEN?`, `CHEY=ANTEIL` wird `TEIL?`.",
+          "sha256": "6c28cb1ebc37d9f59e87f981b72eda1ef23e7d00e19702dfd10531904f9a43f1",
+          "source_id": "LEGACY_COMPONENT:5ca6b8e4fe709e6f2499",
+          "source_section": "Revision gegenüber V42 und V49",
+          "table_header": null
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 3,
+              "text": "Status: vollständige kreative R3-Arbeitslesung der sechs erlaubten Records auf"
+            }
+          ],
+          "line": 124,
+          "line_end": 126,
+          "path": "experiments/yolo/sidequest_theory_candidates_v54/V54_R3_TECHNICAL_BIO_REGISTER_REPORT.md",
+          "quote": "- V49s `E=BIS`, `CKHY=VERBINDUNG`, `OKEEY=LAUWARM`, `EY=FERTIG`,\n  `OR=ANSATZ` und `CHEY=ANTEIL` werden gemäß V50/V51 korrigiert zu\n  `UNKNOWN`, `UNKNOWN`, `WARM?`, `KLAR?`, `BEREITUNG?` und `TEIL?`.",
+          "sha256": "cf2bd8443a2d25daea90cae2956207455cb2c84dbbf5058f98b92e75d5989c4d",
+          "source_id": "LEGACY_COMPONENT:e4618b121a46a37ebd04",
+          "source_section": "Revision gegenüber V42 und V49",
+          "table_header": null
+        },
+        {
+          "line": 34,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "quote": "| EY | klar | Zustand | rein · fertig | 1/3 | 0.53 | 0 |",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        }
+      ]
+    },
+    {
+      "group_id": "IDENTITY_I:ey_clear",
+      "decision": "approve_full_proposition_identity",
+      "member_ids": [
+        "SEM:c2f61337208004b55bdb",
+        "SEM:d0845d8ffbd4125a8cb1"
+      ],
+      "reason": "Every case assigns the clear-state adjective to the complete registered EY card. V51 explicitly excludes liquid, flow and CLOSE; V60 R1 likewise excludes liquid and result. The R3 KLARLAUF default and FILTERN rival are separate columns/candidates, so they are not silently bundled into KLAR. No free ey component or only-f11r domain is included.",
+      "scope_limits": "Identity is of the hypothetical bare lexical proposition on its registered complete card, not truth, portable mapping, all raw strings, arbitrary constituent values or all local sentence expansions. Retain each source case and its distinct status; question marks/capitalization alone do not create a new proposition.",
+      "members": [
+        {
+          "id": "SEM:c2f61337208004b55bdb",
+          "claim": "EY → klar",
+          "case_ids": [
+            "LATE_SIDEQUEST:866894df27951c93e6e0",
+            "LATE_SIDEQUEST:9a64ab7c2a6b693c19f7"
+          ],
+          "all_cases_reviewed": true,
+          "source_card_sha256": "3424aaadd253db9cd7360d413cf0d80a392b7ff26b6e2d5d97f79acccb303285"
+        },
+        {
+          "id": "SEM:d0845d8ffbd4125a8cb1",
+          "claim": "EY → KLAR?",
+          "case_ids": [
+            "CLEAN_COMPONENT:99f02add1ab3a20b2b9d",
+            "CLEAN_COMPONENT:cefbe2f01430ed008f9a",
+            "LATE_SIDEQUEST:7bcc4ba378d31c4bf89f",
+            "LATE_SIDEQUEST:3a5e93be8a5a500c6c17",
+            "LATE_SIDEQUEST:3d0c8c3fba347df0a43c"
+          ],
+          "all_cases_reviewed": true,
+          "source_card_sha256": "d957ca76b502f3e16b7be6466882719fed778bc0b9c77007903d53a47de0dd49"
+        }
+      ],
+      "evidence": [
+        {
+          "line": 34,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "quote": "| EY | klar | Zustand | rein · fertig | 1/3 | 0.53 | 0 |",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        },
+        {
+          "line": 85,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "quote": "6. **EY — klar.** Vier NONCLOSE-Fälle auf drei Seiten erlauben einen echten\n   Zwischenzustand. Lehrregel: weder Flüssigkeit noch Ergebnis mitsprechen.\n   Widerspruch: Transparenz, Reinheit und Fertigsein sind nicht getrennt.",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 18,
+          "line_end": 19,
+          "path": "experiments/yolo/sidequest_theory_candidates_v51/V51_R4_CORRECTOR_WHOLE_CARD_REPORT.md",
+          "quote": "- `EY=KLAR?` ist kleiner als der alte Satz „bis die Flüssigkeit klar\n  abläuft“. Die Karte trägt weder Flüssigkeit noch Ablauf noch `CLOSE`.",
+          "sha256": "35ddc5cd1dec8988a3ad74a96673b203f754d13b6553e48ba9557b27e36709ad",
+          "source_id": "LEGACY_COMPONENT:de815b68040e6c84a74a",
+          "source_section": "Revisionen",
+          "table_header": null
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 27,
+          "line_end": 27,
+          "path": "experiments/yolo/sidequest_theory_candidates_v52/V52_R2_HISTORICAL_FIELD_GRAMMAR_REPORT.md",
+          "quote": "Für die Klassifikation zählen als positive Host-/Rahmenwerte `OK=SET`, `OT=MARK`, `L=LINK`, `AL=AN?`, `OR=BEREITUNG?` und `CHEY=TEIL?`; `E` bleibt unbekannt. Positive exakte Ganzkarten sind `AIIN=MASS?`, `EY=KLAR?`, `OKY=VERWENDEN?`, `LCHE=ABLASSEN?`, `OKE=SPÜLEN?`, `CTHY=BEREIT?`, `OKEEY=WARM?` und `OLOR=ZUVOR?`; `CKHY` bleibt unbekannt. Die V49-Werte wurden nur zur Lokalisierung benutzt und dann durch die V50/V51-Auswahl ersetzt.",
+          "sha256": "bf73e7e5d1e122366809e198df7928f72e85583115dae7978a84968d4d373d39",
+          "source_id": "LEGACY_COMPONENT:26a15978710b00290a09",
+          "source_section": "Vollständiger Audit",
+          "table_header": null
+        },
+        {
+          "line": 38,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R2_HISTORICAL_FUNCTION_WORD_COMPETITION_REPORT.md",
+          "quote": "| EY | KLAR? | Zustandsadjektiv | FERTIG?, SAUBER? | KEEP | .39 | Einer von nur vier Belegen steht ohne sichtbaren Klärvorgang zwischen Zusatz und Anteil. |",
+          "sha256": "eae7d9225e61203f56f0a56100f70c813657819e06ca216390b917c515f69597"
+        },
+        {
+          "line": 26,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R3_TECHNICAL_EXACT_CARD_REPORT.md",
+          "quote": "| EY | 4 | `KLARLAUF?` | `KLAR?`, `FILTERN?` | Zustandsschwelle; markiere erreichten Klarlauf | Positionswechsel lässt Zustand gegen lokale Aktion unentschieden | 0,49 |",
+          "sha256": "6f943caad4300b135b8efd096c79c16deeaa49bff5cb323dc29d513c3793842d"
+        },
+        {
+          "line": 30,
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/CANDIDATE_V60_R4_CHANCERY_CORRECTOR.md",
+          "quote": "| EY | Zustand | `KLAR?` | `ENDE?` |",
+          "sha256": "913bede9f275b266efdbceb6836c822a7248a13528ea1b07362521ddb725507b"
+        }
+      ]
+    }
+  ],
+  "shared_unit_evidence": [
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v49/V49_R1_ATOMIC_MINIMAL_LEXICON_REPORT.md",
+      "line": 53,
+      "quote": "### Wiederkehrende exakte Ganzkarten\n\n| Ganzkarte | atomarer Werkstattname | Status |\n|---|---|---|\n| `aiin` | `MASS` | wiederkehrende Karte, kein Stammparadigma |\n| `ey` | `ENDZUSTAND` | wiederkehrende Karte, kein produktives `-ey` |\n| `oky` | `VERWENDUNG` | wiederkehrende Karte |\n| `lche` | `ABLAUF` | wiederkehrende Karte |\n| `oke` | `SPÜLUNG` | wiederkehrende Karte |\n| `cthy` | `BEREIT` | wiederkehrende Karte |\n| `okeey` | `LAUWARM` | wiederkehrende Karte |\n| `ckhy` | `KANAL` | wiederkehrende Karte |\n| `olor` | `VORHERIGES` | wiederkehrende Karte |\n\nDiese Namen sind Merkzettel für jeweils **einen exakten Kartentyp**. Aus\n`okeey = LAUWARM` folgt weder `ok + e + ey` noch `ey = warm`. Aus\n`olor = VORHERIGES` folgt keine Zerlegung in `ol + or`.",
+      "sha256": "16b314937037fd559cc887d7f51cbcd0b0bc4c009bbe0ff82f74168af211c78d"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v51/V51_R4_CORRECTOR_WHOLE_CARD_REPORT.md",
+      "line": 3,
+      "quote": "## Vorabentscheid\n\nDieser Entscheid wurde vor dem Lesen der übrigen V51-Berichte eingefroren.\nDie neun Einheiten sind jeweils genau **eine** wiederkehrende exakte Karte,\nnicht neun nachgewiesene Stämme. Geprüft wurden sämtliche 70 Vorkommen und\nihre unmittelbaren Nachbarn.\n\n```text\nAIIN   MASS?       EY     KLAR?       OKY   ANWENDEN?\nLCHE   ABLASS?     OKE    SPÜLEN?     CTHY  BEREIT?\nOKEEY  WÄRMEN?     CKHY   LEITUNG?    OLOR  DAVON?\n```\n\n## Revisionen\n\n- `EY=KLAR?` ist kleiner als der alte Satz „bis die Flüssigkeit klar\n  abläuft“. Die Karte trägt weder Flüssigkeit noch Ablauf noch `CLOSE`.\n- `OKY=ANWENDEN?` bezeichnet eher eine Handlung als das abstrakte Nomen\n  `NUTZEN`; das Objekt bleibt still.\n- `OKEEY=WÄRMEN?` entfernt die unbelegte exakte Temperatur `LAUWARM`.\n- `CKHY=LEITUNG?` ist ein konkreterer Werkstattname als `VERBINDUNG`, ohne\n  Zahl, Richtung oder Flüssigkeit festzulegen.\n- `OLOR=DAVON?` behandelt die zwei Vorkommen als mögliche anaphorische\n  Quellenangabe, nicht als Nomen für einen ganzen vorigen Ansatz.",
+      "sha256": "35ddc5cd1dec8988a3ad74a96673b203f754d13b6553e48ba9557b27e36709ad"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R3_TECHNICAL_EXACT_CARD_REPORT.md",
+      "line": 9,
+      "quote": "## Bindungsvertrag\n\n1. Schlüssel ist ausschließlich die vollständige, opake `joint_tuple_id`.\n2. Oberflächenformen dienen nur der Anzeige. Weder `PAGE_HOST`, Stringähnlichkeit noch Teilkarten oder Komponenten vererben einen Wert.\n3. Der technische Default ist ein knapper Arbeitsbefehl, Parameter, Zustand oder Relationsslot. Lokale iatromedizinische und nichtmedizinische Expansionen bleiben getrennte Record-Füller.\n4. `formal_formula_opaque`, `FORMAL_VALUE`, `strict_control_prompt` und `terminal_status` bleiben unverändert. Ein physischer Zeilenanfang ist kein Satzanfang.\n5. Nachbarn, Feldstellung und `CLOSE` dürfen einen Kandidaten belasten, erzeugen aber keine Bedeutung.",
+      "sha256": "6f943caad4300b135b8efd096c79c16deeaa49bff5cb323dc29d513c3793842d"
+    }
+  ],
+  "counts": {
+    "groups_reviewed": 8,
+    "members_reviewed": 17,
+    "source_cases_reviewed": 37,
+    "approved_groups": 8,
+    "rejected_groups": 0,
+    "exact_quote_sha_checks": 40
+  },
+  "cautions": [
+    "An identity union must not transfer source verdicts between cases. In particular EY-fertig remains a replaced historical proposal in V54 and a live rival in V60.",
+    "LCHE local-default and closure-only correction policies coexist; neither establishes a drainage meaning.",
+    "V60 technical-default state changes are not folded into the separate atomic rival cells.",
+    "These are complete registered card units, not primitive strings; no broad cross-family equivalence is approved."
+  ],
+  "validation": {
+    "status": "PASS",
+    "exact_source_quotes_and_sha256": true,
+    "all_17_members_and_all_source_cases_reviewed": true
+  }
+}
