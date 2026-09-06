@@ -1,0 +1,411 @@
+{
+  "review_id": "CLEAN_GAP_PEER_REVIEW_CI",
+  "inputs": [
+    {
+      "path": "research_registry/decisions/clean_gap_review_ci.json",
+      "sha256": "d9de22df699dbe0fb839efba1055d4f4494e7ad482bb0697867a8259592997bc"
+    },
+    {
+      "path": "research_registry/decisions/source_coverage_gap_batch_ci.json",
+      "sha256": "d90c681c458e03b33350a61b20365bb80cfe156eb868b18f3bf93ed2682cf9ca"
+    }
+  ],
+  "card_reviews": [
+    {
+      "card_id": "CLEAN_GAP_CI:running_vs_local_copy",
+      "decision": "approve",
+      "claim_type": "formal_role",
+      "reason": "GDT413 15–17 and 61–65 support the exact running-card/local-copy division in the 26-page edition. Keeping local identifiers untranslated is a source handling/reading contract, not a new decoded noun. The broader later hybrid model has three reading channels and does not by itself assert this exact earlier partition; historical scope is sufficient to retain it without claiming independent novelty.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/REPORT.md",
+          "line": 15,
+          "line_end": 17,
+          "quote": "Jede laufende Karte erhält eine konkrete kompositionelle Kernlesung. Keine\nAdresse, Figurenkennung oder Kreisbezeichnung wird dafür zum erfundenen Wort:\ndie 693 lokalen Gruppen bleiben ausdrücklich **lokal kopieren**.",
+          "sha256": "204806766156c2b1fd769d0944c7a8a217e82b8e6470ced6b8f0d054a34ec908"
+        },
+        {
+          "path": "experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/REPORT.md",
+          "line": 61,
+          "line_end": 65,
+          "quote": "## Grenze\n\nDie Ausgabe ist unser bestes ausführbares Bedeutungsmodell, nicht entschlüsselter\nKlartext. Die deutschen Wörter sind breite Arbeitswerte. Das lokale Sachwissen\nbleibt weiterhin im Bild, in der Rubrik oder im Werkstattexemplar.",
+          "sha256": "204806766156c2b1fd769d0944c7a8a217e82b8e6470ced6b8f0d054a34ec908"
+        }
+      ],
+      "additional_context_evidence": [],
+      "comparison_review": {
+        "reason": "The existing hybrid architecture permits rule, partial rule and whole-card outcomes; it does not state this exact running-event versus local-address division. Individual nineteen-root cards are not the whole division.",
+        "related_ids": [
+          "SEM:aed005275fb512219dc6"
+        ]
+      },
+      "primary_scope_checked": true
+    },
+    {
+      "card_id": "CLEAN_GAP_CI:owner_bounded_ellipsis",
+      "decision": "approve",
+      "claim_type": "formal_role",
+      "reason": "GDT416 41–46 explicitly carries both active action and active argument only on the same page and visible owner. GDT562/563 later addresses state memory and local defaults but does not make this earlier exact carry ceiling redundant as a full assertion. This is one scoped historical refinement of the same broad ellipsis mechanism, not a new independent mechanism. GDT562 39–42 additionally states that old GDT416 lacks stored source-event IDs: do not interpret every Stelle steht in einem Audit as event-level provenance equivalence to the later current-page pointers.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/REPORT.md",
+          "line": 41,
+          "line_end": 46,
+          "quote": "Auf Kartenebene fehlen häufig das wiederholte Verb oder der wiederholte\nPosten. Der Compiler trägt deshalb 1.598-mal eine aktive Handlung und 2.096-mal\nein aktives Argument weiter. Das geschieht ausschließlich innerhalb derselben\nSeite und desselben sichtbaren Besitzers; jede Stelle steht in einem Audit.\nDiese Zahlen sind keine 1.598 fehlenden Wörter, sondern die explizite Auflösung\nder kleinteiligen Karten-/Zellenschreibweise.",
+          "sha256": "5372b714dcff8a00d59ead47d04466ed3399dd45d09c417e588a2e8e0be55e44"
+        },
+        {
+          "path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/REPORT.md",
+          "line": 50,
+          "line_end": 53,
+          "quote": "Flüssig heißt nicht entschlüsselt. Die deutschen Imperative sind eine\neinheitliche Werkstattparaphrase der aktuellen Kernwerte. Der nächste starke\nTest muss prüfen, ob dieselbe Handlung–Argument–Relation-Reihenfolge auch dann\nstabil bleibt, wenn man Besitzerklassen und Register gegeneinander vertauscht.",
+          "sha256": "5372b714dcff8a00d59ead47d04466ed3399dd45d09c417e588a2e8e0be55e44"
+        }
+      ],
+      "additional_context_evidence": [
+        {
+          "path": "experiments/yolo/gdt562_thirty_page_actionless_state_role_reader/REPORT.md",
+          "line": 22,
+          "line_end": 42,
+          "quote": "## Woher die ausgelassene Bedeutung kommt\n\n| Slot | Herkunft | Karten |\n|---|---|---:|\n| Handlung | frühere sichtbare Handlung derselben Aussage | 544 |\n| Handlung | Besitzer-/Abschnittsdefault | 149 |\n| Handlung | keine aktive Handlung | 13 |\n| Argument | sichtbar in der Karte | 233 |\n| Argument | früher sichtbar in derselben Aussage | 355 |\n| Argument | Besitzer-/Abschnittsdefault | 104 |\n| Argument | kein aktives Argument | 14 |\n\nDie Reichweite ist kurz, aber nicht nur unmittelbare Nachbarschaft. Von544\nsichtbaren Handlungsquellen stehen376 direkt davor;168 bleiben zwei bis acht\nKarten aktiv. Bei Argumenten sind238/355 unmittelbar und117 zwei bis fünf\nKarten entfernt. Das ist ein kleiner Satzspeicher.\n\nAuf den vier aktuellen Seiten besitzen alle54 aktionslosen Karten gespeicherte\nGDT539-Quellpointer;54/54 stimmen mit der unabhängigen Rekonstruktion überein.\nFür die alten26 Seiten markiert der Leser ehrlich, dass GDT416 keine\nQuellereignis-ID speichert, statt eine nachträglich zu behaupten.",
+          "sha256": "f59a6f3c02369ee862c2592d433b3559fb9c3abab9c7d3a925172f36672d2442"
+        },
+        {
+          "path": "experiments/yolo/gdt563_complete_state_microphrase_edition/REPORT.md",
+          "line": 90,
+          "line_end": 107,
+          "quote": "## Neue Arbeitstheorie\n\nFür diese Zustandskarten ist die derzeit beste konkrete Lesemechanik:\n\n```text\ngeschriebenes Rezept\n  + zuletzt aktive Handlung\n  + zuletzt aktives Argument\n  + lokaler Besitzer\n  = konkrete Arbeitsanweisung\n```\n\nDie sichtbaren Wurzeln liefern kurze Fachkürzel. Der laufende Satzzustand liefert\nAuslassungen, und der Besitzer macht aus einem allgemeinen POSTEN etwa einen\nPflanzen-, Drogen-, Stations- oder Positionsposten. Damit bekommt jede Sequenz\neine Defaultbedeutung, ohne `shey`-artige Formen zu künstlichen Definitionen wie\n„Pflanzenmaterial zeitgebunden beschaffen“ aufzublähen.\n",
+          "sha256": "35389053dc413e135807f2de6e455ca98ed931371ad9ab34bd6ddc8abf2d254f"
+        }
+      ],
+      "comparison_review": {
+        "reason": "GDT562/563’s existing state-card model supplies sentence memory and owner defaults, but does not express this earlier explicit same-page/same-visible-owner carry ceiling as the same full proposition. Retain a historical scope refinement, not a second independent ellipsis mechanism.",
+        "related_ids": [
+          "SEM:ed1e21430d5b72c60dda"
+        ]
+      },
+      "primary_scope_checked": true
+    },
+    {
+      "card_id": "CLEAN_GAP_CI:ordered_action_microchain",
+      "decision": "approve",
+      "claim_type": "semantic_model",
+      "reason": "GDT421 10–22 and 33–47 support ordered work microchains and the pair-specific continuation license. CH+OK blocked means absent in that report’s observed pair deck, not eternally illegal in the manuscript. German NEHMEN/GEBEN readings are historical semantic assumptions; direction counts alone do not prove them. The ordered pair plus continuation conjunction is more than two bare lexical assignments.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt421_ordered_action_pair_slot_license/REPORT.md",
+          "line": 10,
+          "line_end": 22,
+          "quote": "Der wichtigste Befund ist die Reihenfolge. Die Paare sind keine ungeordneten\nListen:\n\n- `CH+K` = **NEHMEN→GEBEN**: 119 Ereignisse; `K+CH`: 21;\n- `CH+T` = **NEHMEN→EINSTELLEN**: 83; `T+CH`: 17;\n- `OK+CH` = **SETZEN→NEHMEN**: 23; `CH+OK`: 0;\n- `CH+S` = **NEHMEN→WÄHLEN**: 30; `S+CH`: 2;\n- `P+CHD` = **EINSETZEN→BEARBEITEN**: 31; die Umkehrung: 0.\n\nVon 45 Richtungsvergleichen sind 13 deutlich gerichtet, zehn kommen nur in\neiner Richtung vor, sieben sind ungefähr ausgeglichen, sechs ungleiche Paare\nfehlen in beiden Richtungen. Die Lesung verhält sich damit wie eine\nArbeitsabfolge, nicht wie eine beliebig umstellbare Wortliste.",
+          "sha256": "be638e0f40f4204c78454d66b8af9ef6abcba60557cf004803247887c1da4e32"
+        },
+        {
+          "path": "experiments/yolo/gdt421_ordered_action_pair_slot_license/REPORT.md",
+          "line": 33,
+          "line_end": 47,
+          "quote": "Zu den offenen Formen gehören `CH+SH+E+Y`, `CH+K+E+AIIN`,\n`CH+K+E+AIN`, `P+K+E+Y`, `CH+T+E+AIIN` und `CH+T+E+OR`.\n\nBlockiert sind dagegen etwa `CH+OK+E+Y`, weil die Reihenfolge `CH+OK`\nüberhaupt fehlt, und `CH+K+EEE+Y`, weil das gut belegte Paar `CH+K` keinen\nGrad III lizenziert. Bekannte Einzelköpfe reichen also nicht mehr zur Rettung.\n\n## Neue Werkstattregel\n\n> Zwei Handlungsköpfe werden als geordnete Mikrokette gelernt. Erst die\n> Paar-Karte entscheidet, welche Grad-, Argument- und Schlussschublade folgt.\n\nZusammen mit GDT420 besitzt das kreative Modell nun eine echte Anschlusslehre:\nEinzelkopf und Paar müssen ihre Fortsetzung jeweils sichtbar lizenzieren. Die\nneunzehn Stammwerte bleiben unverändert.",
+          "sha256": "be638e0f40f4204c78454d66b8af9ef6abcba60557cf004803247887c1da4e32"
+        }
+      ],
+      "additional_context_evidence": [],
+      "comparison_review": {
+        "reason": "Neither bare CH/K/OK meanings nor an unordered set of actions captures the ordered-pair-plus-continuation constraint. Distributional counts are the source’s motivation, not independent verification of its German action meanings.",
+        "related_ids": []
+      },
+      "primary_scope_checked": true
+    },
+    {
+      "card_id": "CLEAN_GAP_CI:action_and_focus_classes",
+      "decision": "approve",
+      "claim_type": "semantic_model",
+      "reason": "All four action memberships and three focus families match GDT426 5–13 exactly. Amber support from class transitions is explicitly weaker than exact-pair support. This is a historical model containing action-content groupings, while its syntactic membership predictions are not new word meanings or independent semantic evidence.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt426_typed_action_family_prediction/REPORT.md",
+          "line": 5,
+          "line_end": 13,
+          "quote": "Die neun Handlungen werden für den Lehrling in vier grobe Familien gelegt:\n\n- **SELECT:** NEHMEN/CH und WÄHLEN/S;\n- **MOVE_SET:** GEBEN/K, SETZEN/OK und EINSETZEN/P;\n- **HOLD_PROCESS:** HALTEN/SH und BEARBEITEN/CHD;\n- **CONTROL:** EINSTELLEN/T und MARKIEREN/R.\n\nDazu kommen drei Randfamilien: **GRADE** (E/EE/EEE), **ITEM**\n(Y/AIIN/AIN/OR) und **RELATION** (AL/AR/L/AIR).",
+          "sha256": "fc93c5fb5d4a4150bd7d26a04ac442e63c78aa8c83c1897691eae26b84cac8a8"
+        },
+        {
+          "path": "experiments/yolo/gdt426_typed_action_family_prediction/REPORT.md",
+          "line": 27,
+          "line_end": 29,
+          "quote": "Damit stehen **9 gelbe Vorhersagen und 0 unerklärte lokale Karten**. Gelb ist\nwichtig: Die genaue Form wird nicht nachträglich grün genannt. Sie ist nur aus\ndem bereits bekannten Typensystem erwartbar.",
+          "sha256": "fc93c5fb5d4a4150bd7d26a04ac442e63c78aa8c83c1897691eae26b84cac8a8"
+        },
+        {
+          "path": "experiments/yolo/gdt426_typed_action_family_prediction/REPORT.md",
+          "line": 40,
+          "line_end": 50,
+          "quote": "## Regel für spätere Seiten\n\nEine neue exakte Paar- oder Fokuskarte wird so behandelt:\n\n1. exakt anderswo belegt → grün;\n2. altes exaktes Paar mit Zwischenslot oder altes Typenrechteck → gelb;\n3. nur alte Klassen-Transition → gelb, schwächer;\n4. neue Klasse, leere Klassen-Transition oder neuer Fokusfamilientyp → rot.\n\nSo steigt der Durchsatz, ohne dass ein unbekanntes Paar automatisch eine neue\nWortbedeutung bekommt.",
+          "sha256": "fc93c5fb5d4a4150bd7d26a04ac442e63c78aa8c83c1897691eae26b84cac8a8"
+        }
+      ],
+      "additional_context_evidence": [],
+      "comparison_review": {
+        "reason": "The conjunction is a typed action/focus model with an explicit prediction ceiling, not nine newly discovered lexical senses. Existing individual root assignments do not contain the full partition.",
+        "related_ids": []
+      },
+      "primary_scope_checked": true
+    },
+    {
+      "card_id": "CLEAN_GAP_CI:nineteen_core_exchange_invariance",
+      "decision": "approve",
+      "claim_type": "semantic_model",
+      "reason": "GDT429 84–101 explicitly extends the same exchange mechanism to all nineteen cores, preserving owner/grade/closure/other arguments; GDT428 76–89 supplies the action predecessor. The later GDT496 assertion covers six retained remainders in 27 same-register families under head substitution. That narrower full claim is related, but neither a bare common root set nor source presence proves proposition identity. Preserve the all-nineteen statement as a historical hypothesis, not empirically demonstrated semantic invariance.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt429_nonaction_core_semantic_contrasts/REPORT.md",
+          "line": 82,
+          "line_end": 101,
+          "quote": "## Gesamtgewinn aus GDT428 und GDT429\n\nAlle **19** aktuellen Kerne besitzen jetzt denselben Mechanismus:\n\n1. Der umgebende Rahmen legt den Slot fest.\n2. Der konkrete Kern füllt diesen Slot mit einer kurzen Bedeutung.\n3. Ein Kernwechsel verändert nur diese Bedeutung, nicht Besitzer, Grad,\n   Schluss oder die übrigen Argumente.\n\nÜber beide Runden liegen 104+256 = **360 direkte Austauschrahmen** vor. Genau\ndas brauchen wir für neue Seiten: bekannte Komponenten dürfen neue Karten\nbilden, ohne dass wir jedes Mal eine neue Satzbedeutung erfinden.\n\n## Was offen bleibt\n\nDie Wörter WERT, ANTEIL, EINHEIT, ZIELORT, AUSGANG, VERBINDUNG und BAHN sind\nbewusst grob. Ein Bild kann sie lokal zu Maß, Portion, Gefäß, Körperstelle,\nQuelle, Rohr oder Wasserlauf erweitern. Diese Nomen stehen aber nicht im\nportablen Wörterbuch. Der neue Gewinn ist die stabile Funktion, nicht die\nkonkrete Sache.",
+          "sha256": "4712ddfda427bb1ce18bc72a85f8cc3c57e85f5a2b9f3bd3270a6ae999626e03"
+        }
+      ],
+      "additional_context_evidence": [
+        {
+          "path": "experiments/yolo/gdt428_within_class_action_semantic_contrasts/REPORT.md",
+          "line": 76,
+          "line_end": 89,
+          "quote": "## Vorhersage für weitere Kompositionen\n\nWenn ein bekannter Rahmen mit einer anderen bekannten Handlungswurzel erscheint,\nbleiben Besitzer, Argument, Relation, Grad und Schluss unverändert. Nur das\nVerb wird ausgetauscht. `K+EE+DY` und `OK+EE+DY` lesen daher denselben\nGrad-/Schlussrahmen, aber einmal mit GEBEN und einmal mit SETZEN. Eine neue\nKomposition braucht dadurch kein neues Ganzwort.\n\n## Ehrliche Restunschärfe\n\n`CHD=BEARBEITEN` und `R=MARKIEREN` bleiben die breitesten deutschen\nArbeitswörter. Der Befund identifiziert noch nicht, *welche* konkrete\nBearbeitung oder Markierung ein jeweiliger Bildbesitzer liefert. Er zeigt aber,\ndass ihre Wurzeln andere Aufgaben erfüllen als SH beziehungsweise T. Das ist",
+          "sha256": "82df1791157e0c43181e372369b486182d275cfceaffec6bfbb2bffbf5674b33"
+        },
+        {
+          "path": "experiments/yolo/gdt496_semantic_action_substitution_atlas/REPORT.md",
+          "line": 52,
+          "line_end": 62,
+          "quote": "## Arbeitsbedeutung\n\nDieser Durchgang stützt die kleine Kompositionsgrammatik unmittelbar: AIIN,\nAIN, AL, OL, OR und Y behalten im gleichen Register bei wechselnden\nHandlungsköpfen ihren gesamten Bedeutungsrest. T und R lassen sich in diesen\n27 dichten Familien daher tatsächlich als Handlungsaustausch lesen, nicht als\nneu gelernte Ganzwörter.\n\nDie bessere Arbeitsübersetzung besteht nun aus achtzehn konkreten Sätzen und\nneun kontextsensitiven Sätzen. Keine Oberfläche oder Vorkunft wird behauptet.\nDer Validator besteht 1340 von 1340 Prüfungen.",
+          "sha256": "0e63851eb5956a81175c1008b8b7667e6bde8c806afac52a7bf1b6aef1499f8d"
+        }
+      ],
+      "comparison_review": {
+        "reason": "GDT496’s existing claim concerns six retained remainders in 27 dense families under action-head replacement within a register. It is related but narrower than this earlier all-nineteen exchange rule; no identity is inferred from shared compositional vocabulary.",
+        "related_ids": [
+          "SEM:36c349411e72ce73e6a9"
+        ]
+      },
+      "primary_scope_checked": true
+    }
+  ],
+  "source_disposition_reviews": [
+    {
+      "source_id": "LEGACY_COMPONENT:eeae78c2fe27aa5051c8",
+      "selection_index": 0,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "method",
+      "reason": "Deterministic-source compression correction, no manuscript meaning assignment.",
+      "scope_limit": "This selected fragment was read by content; no claim that every other paragraph of the report is covered or nonsemantic."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:9a6f5f66253218efc16a",
+      "selection_index": 1,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "result",
+      "reason": "Synthetic diagnostic false-positive limitation, not a manuscript hypothesis.",
+      "scope_limit": "This selected fragment was read by content; no claim that every other paragraph of the report is covered or nonsemantic."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:efc1f2fa4775c7646c0c",
+      "selection_index": 2,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "result",
+      "reason": "Synthetic route-cell counts, no explicit manuscript reading.",
+      "scope_limit": "This selected fragment was read by content; no claim that every other paragraph of the report is covered or nonsemantic."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:91296f9a597503aae685",
+      "selection_index": 3,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "method",
+      "reason": "Structural/semantic scoring distinction, no manuscript reading.",
+      "scope_limit": "This selected fragment was read by content; no claim that every other paragraph of the report is covered or nonsemantic."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:c470a31d0bfaaff0dcd5",
+      "selection_index": 4,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "result",
+      "reason": "Synthetic false-positive result; does not refute each manuscript semantic hypothesis.",
+      "scope_limit": "This selected fragment was read by content; no claim that every other paragraph of the report is covered or nonsemantic."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:5c49e23f1978435a1730",
+      "selection_index": 5,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "method",
+      "reason": "Rebuild outcome and proposed holdout scheduling, no concrete semantic proposition.",
+      "scope_limit": "This selected fragment was read by content; no claim that every other paragraph of the report is covered or nonsemantic."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:df55914c8e0a2b594546",
+      "selection_index": 6,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "result",
+      "reason": "Admission PASS and ambiguous microform count are not meaning proof.",
+      "scope_limit": "This selected fragment was read by content; no claim that every other paragraph of the report is covered or nonsemantic."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:e2c2fc79a5831c7904b1",
+      "selection_index": 7,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "heading_only",
+      "reason": "Question title alone contains no proposed value.",
+      "scope_limit": "This selected fragment was read by content; no claim that every other paragraph of the report is covered or nonsemantic."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:b2b3fe5504459f404fa6",
+      "selection_index": 8,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "result",
+      "reason": "Fourteen/five dictionary-status tally does not specify a rival meaning.",
+      "scope_limit": "This selected fragment was read by content; no claim that every other paragraph of the report is covered or nonsemantic."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:9ba2afeeaaa4ce3eac3a",
+      "selection_index": 9,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "result",
+      "reason": "Component and meaning-core counts only.",
+      "scope_limit": "This selected fragment was read by content; no claim that every other paragraph of the report is covered or nonsemantic."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:4ede233bb65fe07f5b16",
+      "selection_index": 10,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "result",
+      "reason": "Editorial completeness assertion without an independently addressable reading.",
+      "scope_limit": "This selected fragment was read by content; no claim that every other paragraph of the report is covered or nonsemantic."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:9458069080392130797e",
+      "selection_index": 11,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "addressable_source_scoped_proposition",
+      "reason": "Preserve the full rule or model conjunction, with explicit historical scope and no independent novelty claim.",
+      "scope_limit": "This selected fragment was read by content; no claim that every other paragraph of the report is covered or nonsemantic."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:ececa1a19e53b52b960f",
+      "selection_index": 12,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "heading_only",
+      "reason": "Title alone does not specify a concrete semantic revision.",
+      "scope_limit": "This selected fragment was read by content; no claim that every other paragraph of the report is covered or nonsemantic."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:145327928b2995f8fc6f",
+      "selection_index": 13,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "method",
+      "reason": "Red gate definition for future semantic failure; not a claimed word meaning.",
+      "scope_limit": "This selected fragment was read by content; no claim that every other paragraph of the report is covered or nonsemantic."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:e6ec5d6d4672a3d8bc58",
+      "selection_index": 14,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "result",
+      "reason": "Compiler coverage and no-drift assertion, no new concrete reading.",
+      "scope_limit": "This selected fragment was read by content; no claim that every other paragraph of the report is covered or nonsemantic."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:51d3fc3b4aa0afa039ba",
+      "selection_index": 15,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "result",
+      "reason": "Template frequencies and compilation coverage; the actual ellipse rule is separately preserved from block16.",
+      "scope_limit": "This selected fragment was read by content; no claim that every other paragraph of the report is covered or nonsemantic."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:093303da4c43f8f0fa3a",
+      "selection_index": 16,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "addressable_source_scoped_proposition",
+      "reason": "Preserve the full rule or model conjunction, with explicit historical scope and no independent novelty claim.",
+      "scope_limit": "This selected fragment was read by content; no claim that every other paragraph of the report is covered or nonsemantic."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:e5141099cc005c85deda",
+      "selection_index": 17,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "result",
+      "reason": "Paradigm-neighbor coverage/no-second-meaning outcome; no semantic identification follows.",
+      "scope_limit": "This selected fragment was read by content; no claim that every other paragraph of the report is covered or nonsemantic."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:c48c259b0dca0655028f",
+      "selection_index": 18,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "addressable_source_scoped_proposition",
+      "reason": "Preserve the full rule or model conjunction, with explicit historical scope and no independent novelty claim.",
+      "scope_limit": "This selected fragment was read by content; no claim that every other paragraph of the report is covered or nonsemantic."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:383b956363a81aee2253",
+      "selection_index": 19,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "heading_only",
+      "reason": "Introductory line to a result list; no claim itself.",
+      "scope_limit": "This selected fragment was read by content; no claim that every other paragraph of the report is covered or nonsemantic."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:dc79953f045d1d09b5ad",
+      "selection_index": 20,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "addressable_source_scoped_proposition",
+      "reason": "Preserve the full rule or model conjunction, with explicit historical scope and no independent novelty claim.",
+      "scope_limit": "This selected fragment was read by content; no claim that every other paragraph of the report is covered or nonsemantic."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:33c28c8ca8cb857f7fea",
+      "selection_index": 21,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "result",
+      "reason": "Nine unchanged meanings now have contrasts is a report outcome, not the contrasts themselves.",
+      "scope_limit": "This selected fragment was read by content; no claim that every other paragraph of the report is covered or nonsemantic."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:5d1fd9e022c4054b58bc",
+      "selection_index": 22,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "addressable_source_scoped_proposition",
+      "reason": "Preserve the full rule or model conjunction, with explicit historical scope and no independent novelty claim.",
+      "scope_limit": "This selected fragment was read by content; no claim that every other paragraph of the report is covered or nonsemantic."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:79ff2fd10f0138643ba8",
+      "selection_index": 23,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "addressable_source_scoped_proposition",
+      "reason": "Preserve the full rule or model conjunction, with explicit historical scope and no independent novelty claim.",
+      "scope_limit": "This selected fragment was read by content; no claim that every other paragraph of the report is covered or nonsemantic."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:18c5b5911af26a26b1a9",
+      "selection_index": 24,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "addressable_source_scoped_proposition",
+      "reason": "Preserve the full rule or model conjunction, with explicit historical scope and no independent novelty claim.",
+      "scope_limit": "This selected fragment was read by content; no claim that every other paragraph of the report is covered or nonsemantic."
+    }
+  ],
+  "counts": {
+    "cards_reviewed": 5,
+    "approved": 5,
+    "formal_role": 2,
+    "semantic_model": 3,
+    "source_dispositions_reviewed": 25,
+    "required_corrections": 0
+  },
+  "limits": [
+    "No operative mutation, raw manuscript data, image access or new experiment.",
+    "GDT394–396 synthetic/compression results are not manuscript-wide semantic refutations; their selected result/method dispositions are appropriate.",
+    "Historical numerical coverage and source-reported consistency remain distinct from independently identified meanings.",
+    "Ellipse and exchange are source-bound earlier formulations related to later models, not claims of independent model novelty."
+  ],
+  "validation": {
+    "all_five_cards_validate": true,
+    "all_25_disposition_exact_quotes_and_hashes_checked": true
+  }
+}

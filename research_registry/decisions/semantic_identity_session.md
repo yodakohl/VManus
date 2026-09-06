@@ -136,3 +136,21 @@ and open value is not presumed exclusive of amount.22dossiers unchanged.
 The working guide is consolidated instead of extending its packet chronology.
 Next CG/CH/CI/CK reviews and CJ identities remain bounded source-memory work;
 no new manuscript experiment or qualifying independent observation is claimed.
+
+CG–CN integration decision: the remaining unknown is exact historical scope,
+not new manuscript meaning. Integrate only the peer-reviewed 39 source cases,
+retain CH selected-paragraph coverage beside CL additional contrast coverage,
+and approve CJ only for documented remainder versus exact-whole nonidentity.
+Either counterpart or additional proposition changes memory routing; neither
+changes decipherment status. Smallest adequate check: exact evidence, initial
+intake uniqueness, current identity/failure/priority bindings and source audits.
+Budget25minutes including integration, validation and publication; no new tests
+or experiments beyond required existing checks.
+
+CG–CN checkpoint:39sourcecases yield3681semantic262formalvariants,4466cases
+and476exact assertion repetitions. One documented nonidentity raises separate
+relations to35;39equivalencegroups and48displayreductions remain. CH narrow
+paragraph coverage coexists with CL ten-pair model; no source-form assignments
+were invented.22dossiers and9conditional questions validate unchanged.
+Next CO/CR bounded sibling reviews, CP middle report recovery and CQ identity
+pairs continue memory work; no experimental selection or semantic progress claim.

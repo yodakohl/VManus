@@ -1,0 +1,333 @@
+{
+  "review_id": "CL",
+  "status": "COMPLETE_BOUNDED_TEN_CONTRAST_SCOPE_REVIEW",
+  "corrects": {
+    "file": "research_registry/decisions/source_coverage_scope_batch_ch.json",
+    "selection_index": 19,
+    "source_id": "LEGACY_COMPONENT:f3a1e05877da08d04a07",
+    "previous_decision": "existing_exact_full_proposition",
+    "replacement": {
+      "source_id": "LEGACY_COMPONENT:f3a1e05877da08d04a07",
+      "decision": "joint_full_proposition_recovered_with_ten_contrast_subcases",
+      "card_ids": [
+        "CLEAN_GAP_CL:ten_working_value_distinctions"
+      ],
+      "reason": "The general mixed-model claim SEM:5b3c61b35b30f8483bcb covers report26–28 but not its explicit ten-pair differentiation. Preserve one joint model and ten referencable cases, not ten independent new lexical hypotheses.",
+      "case_ids": [
+        "CL:C01",
+        "CL:C02",
+        "CL:C03",
+        "CL:C04",
+        "CL:C05",
+        "CL:C06",
+        "CL:C07",
+        "CL:C08",
+        "CL:C09",
+        "CL:C10"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_vocabulary_granularity_two_hundred_third/TWO_HUNDRED_THIRD_VOCABULARY_REPORT.md",
+          "line": 5,
+          "line_end": 22,
+          "quote": "Das konsolidierte Prosawörterbuch ist jetzt fast injektiv: 173 Karten tragen 172 kurze deutsche Arbeitswerte. Vorher waren es 162 Werte und elf ungeklärte Doppelbelegungen. Zehn davon wurden in tatsächlich verschiedene Werkstattfunktionen zerlegt; nur `okchedy` und `qokchdy` bleiben absichtlich synonym, weil sie dieselbe CHD/CHED-Einführkonstruktion mit verschiedenen Hüllen realisieren.\n\nDie wichtigste Verbesserung ist nicht mehr Bedeutungsfülle, sondern Bedeutungsdisziplin. `Teil` ist jetzt von `Portion` getrennt, `nächster Posten` von `bereiter Folgeposten`, `Weiterweg` von `Folgegang`, `Klarlauf` von `Folgeklarlauf`, und Bearbeiten von bloßem Weiterführen. Keine Karte trägt mehr als drei Wörter.\n\n## Die zehn bereinigten Kollisionen\n\n- `Arbeitsstufe` / `Bearbeitungsstufe`\n- `Waschgang; Schluss` / `Vollwaschung; Schluss`\n- `weiter einsetzen` / `weiter bearbeiten`\n- `Quellauszug` / `bearbeiteter Quellauszug`\n- `Teil` / `Portion`\n- `kurz weiterbearbeiten` / `kurz weiterführen`\n- `nächster Posten` / `bereiter Folgeposten`\n- `kleiner Rest` / `Kurzteil`\n- `Klarlauf` / `Folgeklarlauf`\n- `Weiterweg` / `Folgegang`\n\nDiese Trennungen wurden durch alle 381 sichtbaren Prosaereignisse und alle 116 Werkstattaussagen weitergetragen. Sechzehn flüssige Lesungen wurden dort neu formuliert, wo die feinere Kartenfunktion im Satz hörbar werden musste.",
+          "sha256": "44d54a30ca866091f89f6b3de3eb045cc476ea35173559957af2c61193c4afdf"
+        }
+      ]
+    }
+  },
+  "cases": [
+    {
+      "case_id": "CL:C01",
+      "source_id": "LEGACY_COMPONENT:f3a1e05877da08d04a07",
+      "left": "Arbeitsstufe",
+      "right": "Bearbeitungsstufe",
+      "decision": "preserve_as_subcase_of_joint_historical_differentiation",
+      "counterpart_ids": [
+        "SEM:071e926ff24edcb664f1"
+      ],
+      "counterpart_relation": "related_scope_not_proven_identical",
+      "reason": "The Bio-shared whole OIIIN work-stage card does not state a work-stage versus processing-stage contrast. No inference assigns OIIIN to either unidentified Pass203 pair member.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_vocabulary_granularity_two_hundred_third/TWO_HUNDRED_THIRD_VOCABULARY_REPORT.md",
+          "line": 11,
+          "line_end": 11,
+          "quote": "- `Arbeitsstufe` / `Bearbeitungsstufe`",
+          "sha256": "44d54a30ca866091f89f6b3de3eb045cc476ea35173559957af2c61193c4afdf"
+        }
+      ],
+      "form_assignment": "Not supplied by the selected report; not reconstructed.",
+      "empirical_status": "Authored distinction, not independently validated or refuted."
+    },
+    {
+      "case_id": "CL:C02",
+      "source_id": "LEGACY_COMPONENT:f3a1e05877da08d04a07",
+      "left": "Waschgang; Schluss",
+      "right": "Vollwaschung; Schluss",
+      "decision": "preserve_as_subcase_of_joint_historical_differentiation",
+      "counterpart_ids": [
+        "SEM:49ab6a10cd7344aea2ec"
+      ],
+      "counterpart_relation": "related_scope_not_proven_identical",
+      "reason": "A closed-washing-pass gloss does not preserve its contrast with complete washing plus closure. Shared closure does not erase the difference between the two process readings.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_vocabulary_granularity_two_hundred_third/TWO_HUNDRED_THIRD_VOCABULARY_REPORT.md",
+          "line": 12,
+          "line_end": 12,
+          "quote": "- `Waschgang; Schluss` / `Vollwaschung; Schluss`",
+          "sha256": "44d54a30ca866091f89f6b3de3eb045cc476ea35173559957af2c61193c4afdf"
+        }
+      ],
+      "form_assignment": "Not supplied by the selected report; not reconstructed.",
+      "empirical_status": "Authored distinction, not independently validated or refuted."
+    },
+    {
+      "case_id": "CL:C03",
+      "source_id": "LEGACY_COMPONENT:f3a1e05877da08d04a07",
+      "left": "weiter einsetzen",
+      "right": "weiter bearbeiten",
+      "decision": "preserve_as_subcase_of_joint_historical_differentiation",
+      "counterpart_ids": [],
+      "counterpart_relation": "no_full_counterpart_located_in_bounded_search",
+      "reason": "Continue inserting and continue processing are explicitly differentiated actions; component-wise continuity/insertion/processing glosses would not establish this full contrast.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_vocabulary_granularity_two_hundred_third/TWO_HUNDRED_THIRD_VOCABULARY_REPORT.md",
+          "line": 13,
+          "line_end": 13,
+          "quote": "- `weiter einsetzen` / `weiter bearbeiten`",
+          "sha256": "44d54a30ca866091f89f6b3de3eb045cc476ea35173559957af2c61193c4afdf"
+        }
+      ],
+      "form_assignment": "Not supplied by the selected report; not reconstructed.",
+      "empirical_status": "Authored distinction, not independently validated or refuted."
+    },
+    {
+      "case_id": "CL:C04",
+      "source_id": "LEGACY_COMPONENT:f3a1e05877da08d04a07",
+      "left": "Quellauszug",
+      "right": "bearbeiteter Quellauszug",
+      "decision": "preserve_as_subcase_of_joint_historical_differentiation",
+      "counterpart_ids": [],
+      "counterpart_relation": "no_full_counterpart_located_in_bounded_search",
+      "reason": "A source extract and a processed source extract differ by the additional processed state. No complete current pair assertion located; the report does not identify their written forms.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_vocabulary_granularity_two_hundred_third/TWO_HUNDRED_THIRD_VOCABULARY_REPORT.md",
+          "line": 14,
+          "line_end": 14,
+          "quote": "- `Quellauszug` / `bearbeiteter Quellauszug`",
+          "sha256": "44d54a30ca866091f89f6b3de3eb045cc476ea35173559957af2c61193c4afdf"
+        }
+      ],
+      "form_assignment": "Not supplied by the selected report; not reconstructed.",
+      "empirical_status": "Authored distinction, not independently validated or refuted."
+    },
+    {
+      "case_id": "CL:C05",
+      "source_id": "LEGACY_COMPONENT:f3a1e05877da08d04a07",
+      "left": "Teil",
+      "right": "Portion",
+      "decision": "preserve_as_subcase_of_joint_historical_differentiation",
+      "counterpart_ids": [
+        "SEM:2979a270382cab086d87",
+        "SEM:be98f9221b5867e19116"
+      ],
+      "counterpart_relation": "related_scope_not_proven_identical",
+      "reason": "The quantity-paradigm card contrasts portion with prescribed measure, not Teil with Portion. GDT728 distinguishes relative part and worked/countable portion in a different explicit whole-form dispatch; without Pass203 form identities it is a related later scoped contrast, not a proved identical source case.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_vocabulary_granularity_two_hundred_third/TWO_HUNDRED_THIRD_VOCABULARY_REPORT.md",
+          "line": 15,
+          "line_end": 15,
+          "quote": "- `Teil` / `Portion`",
+          "sha256": "44d54a30ca866091f89f6b3de3eb045cc476ea35173559957af2c61193c4afdf"
+        }
+      ],
+      "form_assignment": "Not supplied by the selected report; not reconstructed.",
+      "empirical_status": "Authored distinction, not independently validated or refuted."
+    },
+    {
+      "case_id": "CL:C06",
+      "source_id": "LEGACY_COMPONENT:f3a1e05877da08d04a07",
+      "left": "kurz weiterbearbeiten",
+      "right": "kurz weiterführen",
+      "decision": "preserve_as_subcase_of_joint_historical_differentiation",
+      "counterpart_ids": [],
+      "counterpart_relation": "no_full_counterpart_located_in_bounded_search",
+      "reason": "The source keeps brief continued processing distinct from brief continuation. Common brief/continue components do not make the full action contributions equal.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_vocabulary_granularity_two_hundred_third/TWO_HUNDRED_THIRD_VOCABULARY_REPORT.md",
+          "line": 16,
+          "line_end": 16,
+          "quote": "- `kurz weiterbearbeiten` / `kurz weiterführen`",
+          "sha256": "44d54a30ca866091f89f6b3de3eb045cc476ea35173559957af2c61193c4afdf"
+        }
+      ],
+      "form_assignment": "Not supplied by the selected report; not reconstructed.",
+      "empirical_status": "Authored distinction, not independently validated or refuted."
+    },
+    {
+      "case_id": "CL:C07",
+      "source_id": "LEGACY_COMPONENT:f3a1e05877da08d04a07",
+      "left": "nächster Posten",
+      "right": "bereiter Folgeposten",
+      "decision": "preserve_as_subcase_of_joint_historical_differentiation",
+      "counterpart_ids": [],
+      "counterpart_relation": "no_full_counterpart_located_in_bounded_search",
+      "reason": "Readiness qualifies the next item in only one side of the source distinction. A generic next-item reading does not preserve this contrast.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_vocabulary_granularity_two_hundred_third/TWO_HUNDRED_THIRD_VOCABULARY_REPORT.md",
+          "line": 17,
+          "line_end": 17,
+          "quote": "- `nächster Posten` / `bereiter Folgeposten`",
+          "sha256": "44d54a30ca866091f89f6b3de3eb045cc476ea35173559957af2c61193c4afdf"
+        }
+      ],
+      "form_assignment": "Not supplied by the selected report; not reconstructed.",
+      "empirical_status": "Authored distinction, not independently validated or refuted."
+    },
+    {
+      "case_id": "CL:C08",
+      "source_id": "LEGACY_COMPONENT:f3a1e05877da08d04a07",
+      "left": "kleiner Rest",
+      "right": "Kurzteil",
+      "decision": "preserve_as_subcase_of_joint_historical_differentiation",
+      "counterpart_ids": [
+        "SEM:cacd02347f726d759a3a"
+      ],
+      "counterpart_relation": "related_scope_not_proven_identical",
+      "reason": "The later ytey short-part revision has a named form and no small-remainder rival in that claim. It cannot identify either unlabelled Pass203 pair member or establish coverage of their contrast.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_vocabulary_granularity_two_hundred_third/TWO_HUNDRED_THIRD_VOCABULARY_REPORT.md",
+          "line": 18,
+          "line_end": 18,
+          "quote": "- `kleiner Rest` / `Kurzteil`",
+          "sha256": "44d54a30ca866091f89f6b3de3eb045cc476ea35173559957af2c61193c4afdf"
+        }
+      ],
+      "form_assignment": "Not supplied by the selected report; not reconstructed.",
+      "empirical_status": "Authored distinction, not independently validated or refuted."
+    },
+    {
+      "case_id": "CL:C09",
+      "source_id": "LEGACY_COMPONENT:f3a1e05877da08d04a07",
+      "left": "Klarlauf",
+      "right": "Folgeklarlauf",
+      "decision": "preserve_as_subcase_of_joint_historical_differentiation",
+      "counterpart_ids": [
+        "SEM:562922ec311c999fea3e"
+      ],
+      "counterpart_relation": "related_scope_not_proven_identical",
+      "reason": "The learned CHEEY/SHEY clear-outflow card does not preserve a following-clear-outflow contrast. No CHEEY/SHEY assignment to the unidentified Pass203 entries is inferred.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_vocabulary_granularity_two_hundred_third/TWO_HUNDRED_THIRD_VOCABULARY_REPORT.md",
+          "line": 19,
+          "line_end": 19,
+          "quote": "- `Klarlauf` / `Folgeklarlauf`",
+          "sha256": "44d54a30ca866091f89f6b3de3eb045cc476ea35173559957af2c61193c4afdf"
+        }
+      ],
+      "form_assignment": "Not supplied by the selected report; not reconstructed.",
+      "empirical_status": "Authored distinction, not independently validated or refuted."
+    },
+    {
+      "case_id": "CL:C10",
+      "source_id": "LEGACY_COMPONENT:f3a1e05877da08d04a07",
+      "left": "Weiterweg",
+      "right": "Folgegang",
+      "decision": "preserve_as_subcase_of_joint_historical_differentiation",
+      "counterpart_ids": [
+        "SEM:1a47297bc4a8cb66d3d2"
+      ],
+      "counterpart_relation": "related_scope_not_proven_identical",
+      "reason": "A later Herbal model mentioning a following work stage does not state the continuation-path versus following-stage distinction. No full counterpart located.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_vocabulary_granularity_two_hundred_third/TWO_HUNDRED_THIRD_VOCABULARY_REPORT.md",
+          "line": 20,
+          "line_end": 20,
+          "quote": "- `Weiterweg` / `Folgegang`",
+          "sha256": "44d54a30ca866091f89f6b3de3eb045cc476ea35173559957af2c61193c4afdf"
+        }
+      ],
+      "form_assignment": "Not supplied by the selected report; not reconstructed.",
+      "empirical_status": "Authored distinction, not independently validated or refuted."
+    }
+  ],
+  "counterpart_bindings": [
+    {
+      "id": "SEM:071e926ff24edcb664f1",
+      "card_basis": "b25ea042451f1e42adcded733be23d44598edffc9bf7ab6640ebbf294c3369f1",
+      "effective_basis": "b65b734fa9454080632be895a841e7b76b0bf894266be77e4eb0d91fb04dd303",
+      "claim": "Pass147 gives the learned whole card OIIIN the Bio-shared default ARBEITSSTUFE; its promotion is limited to the Biological deck and does not establish a Herbal bridge."
+    },
+    {
+      "id": "SEM:1a47297bc4a8cb66d3d2",
+      "card_basis": "9de9245bc286cbf3981b30e72cb0d7931f2c91dc5ac2e7b00437ded4d31f6cd1",
+      "effective_basis": "0d1d3723bcec278790ebed3e21b637ff7cb82011c360a78a1c87ed203527199c",
+      "claim": "The Pass1011 apothecary report proposes the repaired Herbal frame BILDARTIKEL -> TEIL AUSWÄHLEN/NEHMEN -> MENGE ODER FOLGEGANG -> NEUTRALE BEARBEITUNG/WEITERGABE -> OFFEN ODER GESCHLOSSEN. Drawings supply owners, parts and sometimes article divisions; detailed preparation primarily belongs to the text layer, so a recipe is not rejected merely for being unpictured."
+    },
+    {
+      "id": "SEM:2979a270382cab086d87",
+      "card_basis": "49b26ed4fac171ace9566342b80724454c13fdb2ef0795447c2436bfe13dcd46",
+      "effective_basis": "b1f6c970177e58d81bc638e4f5dbd012fe838d929935f841fd8ecebd6ad82e6a",
+      "claim": "The QUANTITY_PARADIGM reader assigns the complete chkain|kain card eine abgegrenzte Portion: a bounded usable working part, distinguished there from AIIN’s prescribed measure. This does not promote the three reported occurrences to a numerical meaning."
+    },
+    {
+      "id": "SEM:49ab6a10cd7344aea2ec",
+      "card_basis": "932a6bcf7b71c79ac0785d97ef40d7969bd336f67ac611ec010867a64ca768da",
+      "effective_basis": "491c82064ed4485b1cd17742f03817c655a8bd771ac61422780f5123b1e07d28",
+      "claim": "RSHEDY → geschlossener Waschgang"
+    },
+    {
+      "id": "SEM:562922ec311c999fea3e",
+      "card_basis": "64f259d47c1d235e53dd31d8085ab5eaee7098b233b1dc07786dc2427725f44f",
+      "effective_basis": "67b7e009fb7edae9d8e6ec6ad9f4b065abe975eb928e3b863335b481b74fb41f",
+      "claim": "CHEEY/SHEY → Klarlauf"
+    },
+    {
+      "id": "SEM:5b3c61b35b30f8483bcb",
+      "card_basis": "468f8c94028f5fe50c55ce2fca108284a9e3b489ecad11a49caaa37475c30d6f",
+      "effective_basis": "a31e2906da3f98dda3c36b3777132c57b876c043d97dec327bcb675ce423d146",
+      "claim": "Das System sieht nun stärker nach einem kleinen produktiven Kürzungsapparat mit einem gelernten Kartenschwanz aus. Produktive Komponenten liefern Richtung, Menge, Folge, Grad und Abschluss. Gelernte Karten liefern konkrete Arbeitsobjekte und seltene Handlungen. Dass fast jede exakte Karte einen eigenen knappen Werkstattwert braucht, ist deshalb kein Misserfolg der Komposition: Es ist genau die erwartete Nomenklatorhälfte eines Mischsystems. Die deutschen Werte sind weiterhin eine ausführbare Werkstattlesung, keine identifizierte historische Sprache. Sie sollen knapp genug sein, dass neue Kombinationen vorausgesagt und nicht erst nachträglich in ganzen Sätzen erklärt werden."
+    },
+    {
+      "id": "SEM:be98f9221b5867e19116",
+      "card_basis": "6760118ac007f7ccac921b9953ec1c8539e5eb67a141220cc53bcae2de67100e",
+      "effective_basis": "f707748f89aee366232f6cfbe3701d9bade0acb7d4c06ada148a9cb8c434a161",
+      "claim": "GDT728 replaces inherited generic dose wording by four exact-whole roles: countable or worked portion, relative part, explicitly licensed measured unit and open preparation-value level. Odan/odain/odaiin remain open values rather than one/two/three portions. The sixty decisions do not export d, dain, daiin, dol or a meanings and do not add semantic evidence or alter the active reader."
+    },
+    {
+      "id": "SEM:cacd02347f726d759a3a",
+      "card_basis": "2a6915438f02a5714e841b5ecd22436b0bbca29139fa04a454c45126d679cdbf",
+      "effective_basis": "974c73ddfce052541706c7ee103fe3964e9f4d60df06b50686d61ca18239653b",
+      "claim": "The exception-anatomy revision reads ytey as taking a short part of the current item, replacing the unanalyzed filling value."
+    }
+  ],
+  "search": {
+    "current": "Public SEM claims searched for both German labels and selected English equivalents; broad portion matches narrowed to explicit distinctions and inspected.",
+    "pending": "Existing clean-gap proposal claim texts checked for distinctive contrast labels.",
+    "primary": "Pass203 whole report plus targeted primary evidence for stage, washing, quantity, GDT728 dispatch, short part, clear-outflow and generic mixed-model counterparts.",
+    "limit": "No registry-wide semantic-equivalence proof, no hidden form mappings inferred."
+  },
+  "validation": {
+    "known_source_id": "LEGACY_COMPONENT:f3a1e05877da08d04a07",
+    "validate_card": "PASS",
+    "source_sha256": "44d54a30ca866091f89f6b3de3eb045cc476ea35173559957af2c61193c4afdf",
+    "exact_quotes": true,
+    "cases": 10,
+    "cards": 1
+  },
+  "limits": [
+    "Report prose only. The unidentified forms are a source limit, not a placeholder hypothesis or failed empirical test.",
+    "Current and pending claim navigation was bounded; no global novelty claim.",
+    "Later similar values or component coverage do not establish whole-proposition identity."
+  ]
+}

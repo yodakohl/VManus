@@ -9,17 +9,17 @@ They remain in the source archive. No hypothesis becomes executable by inclusion
 
 | Unit | Count |
 |---|---:|
-| Active semantic hypothesis variants | 3,652 |
-| Separately typed formal-role cards | 253 |
-| Reviewed source cases, including the correction archive | 4,427 |
+| Active semantic hypothesis variants | 3,681 |
+| Separately typed formal-role cards | 262 |
+| Reviewed source cases, including the correction archive | 4,466 |
 | Archived source-extraction errors | 47 |
-| Exact normalized assertion repetitions grouped | 475 |
+| Exact normalized assertion repetitions grouped | 476 |
 | Reviewed equivalence groups / display reduction | 39 / 48 |
-| Public semantic display entries | 3,604 |
+| Public semantic display entries | 3,633 |
 
 These are different units, not a deduplicated total of independent theories.
 A local ignored supplement contributes95 semantic cards and one formal card;
-the ordinary local default therefore displays3,699 semantic entries. A fresh
+the ordinary local default therefore displays3,728 semantic entries. A fresh
 public clone has the public view only. Local source files and quotes are not
 published or silently folded into public counts.
 
@@ -56,7 +56,7 @@ an atomic gloss does not cover a complete multi-card model.
 
 Whitespace and backtick typography alone are normalized for exact assertions.
 Explicit equivalence decisions add39 groups without deleting any original ID.
-The identity log also retains four related-but-distinct links,28 rival links and
+The identity log also retains five related-but-distinct links,28 rival links and
 two specializations. Conflicting nonidentity blocks transitive merging; changed
 claim or case bindings require a new review. Shared spelling, shortened wording
 or a matching source title alone proves neither identity nor nonidentity.
@@ -109,11 +109,13 @@ Later full-scope reviews and audit-only source comparisons live in the bounded
 `decisions/clean_gap_review_*.json` artifacts. An audit pointer does not add a
 source-case payload. Quote overlap alone never certifies complete review.
 
-Latest integrated packet: CB/CC/CE/CF retains50 additional source cases, including
-two formal contracts. It preserves the corrected Pass994/997 grid, distinguishes
-29 compositions from five writing variants, and keeps two visible written cards
-separate from one interpreted measure instruction. Full models, local examples,
-prospective combinations and whole-word editorial dispatch remain different units.
+Latest integrated packet: CG/CH/CI/CK/CL/CM/CN retains39 source cases, including
+nine formal contracts and one additional case of an existing exact DY assertion.
+It preserves historical binding revisions, local names left untranslated and one
+joint ten-contrast model with separately referenced subcases. CH's selected
+paragraph remains covered; CL adds another section without inventing written
+forms. GDT416 audit output is not the later stored-event provenance. CJ records
+the documented ODAIIN remainder-versus-exact-whole distinction without merging.
 The source-polarity and identity audits are bounded, not global error-free claims.
 
 `SEMANTIC_IDEAS_MANIFEST.json` records exact counts and bound inputs. Rebuild after

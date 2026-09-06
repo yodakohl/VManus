@@ -1,0 +1,647 @@
+{
+  "review_id": "CI",
+  "cards": [
+    {
+      "id": "CLEAN_GAP_CI:running_vs_local_copy",
+      "claim": "GDT413 assigns compositional core readings to running cards, while local addresses, figure identifiers and circle designations are copied locally rather than exported as translated words. This division applies to the report’s 26-page working edition; its German core values remain working meanings supplied with local picture, rubric or exemplar context.",
+      "claim_type": "formal_role",
+      "member_ids": [
+        "LEGACY_COMPONENT:9458069080392130797e"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/REPORT.md",
+          "line": 15,
+          "line_end": 17,
+          "quote": "Jede laufende Karte erhält eine konkrete kompositionelle Kernlesung. Keine\nAdresse, Figurenkennung oder Kreisbezeichnung wird dafür zum erfundenen Wort:\ndie 693 lokalen Gruppen bleiben ausdrücklich **lokal kopieren**.",
+          "sha256": "204806766156c2b1fd769d0944c7a8a217e82b8e6470ced6b8f0d054a34ec908"
+        },
+        {
+          "path": "experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/REPORT.md",
+          "line": 61,
+          "line_end": 65,
+          "quote": "## Grenze\n\nDie Ausgabe ist unser bestes ausführbares Bedeutungsmodell, nicht entschlüsselter\nKlartext. Die deutschen Wörter sind breite Arbeitswerte. Das lokale Sachwissen\nbleibt weiterhin im Bild, in der Rubrik oder im Werkstattexemplar.",
+          "sha256": "204806766156c2b1fd769d0944c7a8a217e82b8e6470ced6b8f0d054a34ec908"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "independent_new_idea": false,
+      "scope": "Historical GDT413 working model; source-specific formulation, no historical decipherment or independently verified meaning claim.",
+      "comparison": {
+        "reason": "The existing hybrid architecture permits rule, partial rule and whole-card outcomes; it does not state this exact running-event versus local-address division. Individual nineteen-root cards are not the whole division.",
+        "related_ids": [
+          "SEM:aed005275fb512219dc6"
+        ]
+      },
+      "assessment_basis": "primary_reports"
+    },
+    {
+      "id": "CLEAN_GAP_CI:owner_bounded_ellipsis",
+      "claim": "GDT416 resolves repeated but unwritten verbs or items by continuing the active action and active argument only within the same page and visible owner. It treats these carries as ellipsis in card/cell writing, not additional missing written words; fluent imperative output is a workshop paraphrase, not deciphered plaintext. GDT562 later states that the old GDT416 edition stores no source-event IDs; its earlier audit is not equivalent to that later event-pointer provenance.",
+      "claim_type": "formal_role",
+      "member_ids": [
+        "LEGACY_COMPONENT:093303da4c43f8f0fa3a"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/REPORT.md",
+          "line": 41,
+          "line_end": 46,
+          "quote": "Auf Kartenebene fehlen häufig das wiederholte Verb oder der wiederholte\nPosten. Der Compiler trägt deshalb 1.598-mal eine aktive Handlung und 2.096-mal\nein aktives Argument weiter. Das geschieht ausschließlich innerhalb derselben\nSeite und desselben sichtbaren Besitzers; jede Stelle steht in einem Audit.\nDiese Zahlen sind keine 1.598 fehlenden Wörter, sondern die explizite Auflösung\nder kleinteiligen Karten-/Zellenschreibweise.",
+          "sha256": "5372b714dcff8a00d59ead47d04466ed3399dd45d09c417e588a2e8e0be55e44"
+        },
+        {
+          "path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/REPORT.md",
+          "line": 50,
+          "line_end": 53,
+          "quote": "Flüssig heißt nicht entschlüsselt. Die deutschen Imperative sind eine\neinheitliche Werkstattparaphrase der aktuellen Kernwerte. Der nächste starke\nTest muss prüfen, ob dieselbe Handlung–Argument–Relation-Reihenfolge auch dann\nstabil bleibt, wenn man Besitzerklassen und Register gegeneinander vertauscht.",
+          "sha256": "5372b714dcff8a00d59ead47d04466ed3399dd45d09c417e588a2e8e0be55e44"
+        },
+        {
+          "path": "experiments/yolo/gdt562_thirty_page_actionless_state_role_reader/REPORT.md",
+          "line": 22,
+          "line_end": 42,
+          "quote": "## Woher die ausgelassene Bedeutung kommt\n\n| Slot | Herkunft | Karten |\n|---|---|---:|\n| Handlung | frühere sichtbare Handlung derselben Aussage | 544 |\n| Handlung | Besitzer-/Abschnittsdefault | 149 |\n| Handlung | keine aktive Handlung | 13 |\n| Argument | sichtbar in der Karte | 233 |\n| Argument | früher sichtbar in derselben Aussage | 355 |\n| Argument | Besitzer-/Abschnittsdefault | 104 |\n| Argument | kein aktives Argument | 14 |\n\nDie Reichweite ist kurz, aber nicht nur unmittelbare Nachbarschaft. Von544\nsichtbaren Handlungsquellen stehen376 direkt davor;168 bleiben zwei bis acht\nKarten aktiv. Bei Argumenten sind238/355 unmittelbar und117 zwei bis fünf\nKarten entfernt. Das ist ein kleiner Satzspeicher.\n\nAuf den vier aktuellen Seiten besitzen alle54 aktionslosen Karten gespeicherte\nGDT539-Quellpointer;54/54 stimmen mit der unabhängigen Rekonstruktion überein.\nFür die alten26 Seiten markiert der Leser ehrlich, dass GDT416 keine\nQuellereignis-ID speichert, statt eine nachträglich zu behaupten.",
+          "sha256": "f59a6f3c02369ee862c2592d433b3559fb9c3abab9c7d3a925172f36672d2442"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "independent_new_idea": false,
+      "scope": "Historical GDT416 working model; source-specific formulation, no historical decipherment or independently verified meaning claim.",
+      "comparison": {
+        "reason": "GDT562/563’s existing state-card model supplies sentence memory and owner defaults, but does not express this earlier explicit same-page/same-visible-owner carry ceiling as the same full proposition. Retain a historical scope refinement, not a second independent ellipsis mechanism.",
+        "related_ids": [
+          "SEM:ed1e21430d5b72c60dda"
+        ]
+      },
+      "assessment_basis": "primary_reports",
+      "peer_scope_assessment": {
+        "reason": "GDT416 41–46 explicitly carries both active action and active argument only on the same page and visible owner. GDT562/563 later addresses state memory and local defaults but does not make this earlier exact carry ceiling redundant as a full assertion. This is one scoped historical refinement of the same broad ellipsis mechanism, not a new independent mechanism. GDT562 39–42 additionally states that old GDT416 lacks stored source-event IDs: do not interpret every Stelle steht in einem Audit as event-level provenance equivalence to the later current-page pointers.",
+        "additional_context_evidence": [
+          {
+            "path": "experiments/yolo/gdt562_thirty_page_actionless_state_role_reader/REPORT.md",
+            "line": 22,
+            "line_end": 42,
+            "quote": "## Woher die ausgelassene Bedeutung kommt\n\n| Slot | Herkunft | Karten |\n|---|---|---:|\n| Handlung | frühere sichtbare Handlung derselben Aussage | 544 |\n| Handlung | Besitzer-/Abschnittsdefault | 149 |\n| Handlung | keine aktive Handlung | 13 |\n| Argument | sichtbar in der Karte | 233 |\n| Argument | früher sichtbar in derselben Aussage | 355 |\n| Argument | Besitzer-/Abschnittsdefault | 104 |\n| Argument | kein aktives Argument | 14 |\n\nDie Reichweite ist kurz, aber nicht nur unmittelbare Nachbarschaft. Von544\nsichtbaren Handlungsquellen stehen376 direkt davor;168 bleiben zwei bis acht\nKarten aktiv. Bei Argumenten sind238/355 unmittelbar und117 zwei bis fünf\nKarten entfernt. Das ist ein kleiner Satzspeicher.\n\nAuf den vier aktuellen Seiten besitzen alle54 aktionslosen Karten gespeicherte\nGDT539-Quellpointer;54/54 stimmen mit der unabhängigen Rekonstruktion überein.\nFür die alten26 Seiten markiert der Leser ehrlich, dass GDT416 keine\nQuellereignis-ID speichert, statt eine nachträglich zu behaupten.",
+            "sha256": "f59a6f3c02369ee862c2592d433b3559fb9c3abab9c7d3a925172f36672d2442"
+          },
+          {
+            "path": "experiments/yolo/gdt563_complete_state_microphrase_edition/REPORT.md",
+            "line": 90,
+            "line_end": 107,
+            "quote": "## Neue Arbeitstheorie\n\nFür diese Zustandskarten ist die derzeit beste konkrete Lesemechanik:\n\n```text\ngeschriebenes Rezept\n  + zuletzt aktive Handlung\n  + zuletzt aktives Argument\n  + lokaler Besitzer\n  = konkrete Arbeitsanweisung\n```\n\nDie sichtbaren Wurzeln liefern kurze Fachkürzel. Der laufende Satzzustand liefert\nAuslassungen, und der Besitzer macht aus einem allgemeinen POSTEN etwa einen\nPflanzen-, Drogen-, Stations- oder Positionsposten. Damit bekommt jede Sequenz\neine Defaultbedeutung, ohne `shey`-artige Formen zu künstlichen Definitionen wie\n„Pflanzenmaterial zeitgebunden beschaffen“ aufzublähen.\n",
+            "sha256": "35389053dc413e135807f2de6e455ca98ed931371ad9ab34bd6ddc8abf2d254f"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CLEAN_GAP_CI:ordered_action_microchain",
+      "claim": "GDT421 interprets two action heads as an ordered work microchain rather than a freely permutable list. The ordered pair, not merely knowledge of its individual heads, licenses the following grade, argument and endpoint slots. CH+K is read NEHMEN→GEBEN, while CH+OK and CH+K+EEE+Y remain blocked in that report’s observed pair deck.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "LEGACY_COMPONENT:c48c259b0dca0655028f"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt421_ordered_action_pair_slot_license/REPORT.md",
+          "line": 10,
+          "line_end": 22,
+          "quote": "Der wichtigste Befund ist die Reihenfolge. Die Paare sind keine ungeordneten\nListen:\n\n- `CH+K` = **NEHMEN→GEBEN**: 119 Ereignisse; `K+CH`: 21;\n- `CH+T` = **NEHMEN→EINSTELLEN**: 83; `T+CH`: 17;\n- `OK+CH` = **SETZEN→NEHMEN**: 23; `CH+OK`: 0;\n- `CH+S` = **NEHMEN→WÄHLEN**: 30; `S+CH`: 2;\n- `P+CHD` = **EINSETZEN→BEARBEITEN**: 31; die Umkehrung: 0.\n\nVon 45 Richtungsvergleichen sind 13 deutlich gerichtet, zehn kommen nur in\neiner Richtung vor, sieben sind ungefähr ausgeglichen, sechs ungleiche Paare\nfehlen in beiden Richtungen. Die Lesung verhält sich damit wie eine\nArbeitsabfolge, nicht wie eine beliebig umstellbare Wortliste.",
+          "sha256": "be638e0f40f4204c78454d66b8af9ef6abcba60557cf004803247887c1da4e32"
+        },
+        {
+          "path": "experiments/yolo/gdt421_ordered_action_pair_slot_license/REPORT.md",
+          "line": 33,
+          "line_end": 47,
+          "quote": "Zu den offenen Formen gehören `CH+SH+E+Y`, `CH+K+E+AIIN`,\n`CH+K+E+AIN`, `P+K+E+Y`, `CH+T+E+AIIN` und `CH+T+E+OR`.\n\nBlockiert sind dagegen etwa `CH+OK+E+Y`, weil die Reihenfolge `CH+OK`\nüberhaupt fehlt, und `CH+K+EEE+Y`, weil das gut belegte Paar `CH+K` keinen\nGrad III lizenziert. Bekannte Einzelköpfe reichen also nicht mehr zur Rettung.\n\n## Neue Werkstattregel\n\n> Zwei Handlungsköpfe werden als geordnete Mikrokette gelernt. Erst die\n> Paar-Karte entscheidet, welche Grad-, Argument- und Schlussschublade folgt.\n\nZusammen mit GDT420 besitzt das kreative Modell nun eine echte Anschlusslehre:\nEinzelkopf und Paar müssen ihre Fortsetzung jeweils sichtbar lizenzieren. Die\nneunzehn Stammwerte bleiben unverändert.",
+          "sha256": "be638e0f40f4204c78454d66b8af9ef6abcba60557cf004803247887c1da4e32"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "independent_new_idea": false,
+      "scope": "Historical GDT421 working model; source-specific formulation, no historical decipherment or independently verified meaning claim.",
+      "comparison": {
+        "reason": "Neither bare CH/K/OK meanings nor an unordered set of actions captures the ordered-pair-plus-continuation constraint. Distributional counts are the source’s motivation, not independent verification of its German action meanings.",
+        "related_ids": []
+      },
+      "assessment_basis": "primary_reports"
+    },
+    {
+      "id": "CLEAN_GAP_CI:action_and_focus_classes",
+      "claim": "GDT426 groups CH/NEHMEN and S/WÄHLEN as SELECT; K/GEBEN, OK/SETZEN and P/EINSETZEN as MOVE_SET; SH/HALTEN and CHD/BEARBEITEN as HOLD_PROCESS; and T/EINSTELLEN and R/MARKIEREN as CONTROL. Its complementary families are GRADE=E/EE/EEE, ITEM=Y/AIIN/AIN/OR and RELATION=AL/AR/L/AIR. These classes generate weaker, amber predictions for new exact pairs or focus cards; shared class membership does not establish an exact portable rule or new word meaning.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "LEGACY_COMPONENT:dc79953f045d1d09b5ad"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt426_typed_action_family_prediction/REPORT.md",
+          "line": 5,
+          "line_end": 13,
+          "quote": "Die neun Handlungen werden für den Lehrling in vier grobe Familien gelegt:\n\n- **SELECT:** NEHMEN/CH und WÄHLEN/S;\n- **MOVE_SET:** GEBEN/K, SETZEN/OK und EINSETZEN/P;\n- **HOLD_PROCESS:** HALTEN/SH und BEARBEITEN/CHD;\n- **CONTROL:** EINSTELLEN/T und MARKIEREN/R.\n\nDazu kommen drei Randfamilien: **GRADE** (E/EE/EEE), **ITEM**\n(Y/AIIN/AIN/OR) und **RELATION** (AL/AR/L/AIR).",
+          "sha256": "fc93c5fb5d4a4150bd7d26a04ac442e63c78aa8c83c1897691eae26b84cac8a8"
+        },
+        {
+          "path": "experiments/yolo/gdt426_typed_action_family_prediction/REPORT.md",
+          "line": 27,
+          "line_end": 29,
+          "quote": "Damit stehen **9 gelbe Vorhersagen und 0 unerklärte lokale Karten**. Gelb ist\nwichtig: Die genaue Form wird nicht nachträglich grün genannt. Sie ist nur aus\ndem bereits bekannten Typensystem erwartbar.",
+          "sha256": "fc93c5fb5d4a4150bd7d26a04ac442e63c78aa8c83c1897691eae26b84cac8a8"
+        },
+        {
+          "path": "experiments/yolo/gdt426_typed_action_family_prediction/REPORT.md",
+          "line": 40,
+          "line_end": 50,
+          "quote": "## Regel für spätere Seiten\n\nEine neue exakte Paar- oder Fokuskarte wird so behandelt:\n\n1. exakt anderswo belegt → grün;\n2. altes exaktes Paar mit Zwischenslot oder altes Typenrechteck → gelb;\n3. nur alte Klassen-Transition → gelb, schwächer;\n4. neue Klasse, leere Klassen-Transition oder neuer Fokusfamilientyp → rot.\n\nSo steigt der Durchsatz, ohne dass ein unbekanntes Paar automatisch eine neue\nWortbedeutung bekommt.",
+          "sha256": "fc93c5fb5d4a4150bd7d26a04ac442e63c78aa8c83c1897691eae26b84cac8a8"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "independent_new_idea": false,
+      "scope": "Historical GDT426 working model; source-specific formulation, no historical decipherment or independently verified meaning claim.",
+      "comparison": {
+        "reason": "The conjunction is a typed action/focus model with an explicit prediction ceiling, not nine newly discovered lexical senses. Existing individual root assignments do not contain the full partition.",
+        "related_ids": []
+      },
+      "assessment_basis": "primary_reports"
+    },
+    {
+      "id": "CLEAN_GAP_CI:nineteen_core_exchange_invariance",
+      "claim": "GDT428/429 proposes one compositional exchange mechanism for all nineteen working cores: the surrounding frame fixes the slot, the chosen core contributes its short meaning, and replacing that core changes only that contribution while owner, grade, closure and the other arguments remain fixed. Local concrete nouns are owner expansions rather than portable dictionary senses.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "LEGACY_COMPONENT:5d1fd9e022c4054b58bc",
+        "LEGACY_COMPONENT:79ff2fd10f0138643ba8",
+        "LEGACY_COMPONENT:18c5b5911af26a26b1a9"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt429_nonaction_core_semantic_contrasts/REPORT.md",
+          "line": 82,
+          "line_end": 101,
+          "quote": "## Gesamtgewinn aus GDT428 und GDT429\n\nAlle **19** aktuellen Kerne besitzen jetzt denselben Mechanismus:\n\n1. Der umgebende Rahmen legt den Slot fest.\n2. Der konkrete Kern füllt diesen Slot mit einer kurzen Bedeutung.\n3. Ein Kernwechsel verändert nur diese Bedeutung, nicht Besitzer, Grad,\n   Schluss oder die übrigen Argumente.\n\nÜber beide Runden liegen 104+256 = **360 direkte Austauschrahmen** vor. Genau\ndas brauchen wir für neue Seiten: bekannte Komponenten dürfen neue Karten\nbilden, ohne dass wir jedes Mal eine neue Satzbedeutung erfinden.\n\n## Was offen bleibt\n\nDie Wörter WERT, ANTEIL, EINHEIT, ZIELORT, AUSGANG, VERBINDUNG und BAHN sind\nbewusst grob. Ein Bild kann sie lokal zu Maß, Portion, Gefäß, Körperstelle,\nQuelle, Rohr oder Wasserlauf erweitern. Diese Nomen stehen aber nicht im\nportablen Wörterbuch. Der neue Gewinn ist die stabile Funktion, nicht die\nkonkrete Sache.",
+          "sha256": "4712ddfda427bb1ce18bc72a85f8cc3c57e85f5a2b9f3bd3270a6ae999626e03"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "independent_new_idea": false,
+      "scope": "Historical GDT429 working model; source-specific formulation, no historical decipherment or independently verified meaning claim.",
+      "comparison": {
+        "reason": "GDT496’s existing claim concerns six retained remainders in 27 dense families under action-head replacement within a register. It is related but narrower than this earlier all-nineteen exchange rule; no identity is inferred from shared compositional vocabulary.",
+        "related_ids": [
+          "SEM:36c349411e72ce73e6a9"
+        ]
+      },
+      "assessment_basis": "primary_reports"
+    }
+  ],
+  "dispositions": [],
+  "source_reassessments": [
+    {
+      "source_id": "LEGACY_COMPONENT:eeae78c2fe27aa5051c8",
+      "selection_index": 0,
+      "decision": "method",
+      "reason": "Deterministic-source compression correction, no manuscript meaning assignment.",
+      "card_ids": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt394_latent_role_bottleneck_transfer_audit/REPORT.md",
+          "line": 11,
+          "line_end": 19,
+          "quote": "## Interpretation correction\n\nA role score is deterministically computed from source-side features. It\ncannot contain information conditional on that complete source representation.\nAccordingly, GDT384's `+425` bits, GDT385's `+194` bits, and GDT387's `+85`\nbits are finite-model compression/calibration improvements, not new information\nabsent from the source. GDT394 tests only whether that compression is unusually\nportable at a matched one-dimensional budget.\n",
+          "sha256": "8f00ed8f751473697e8d8e7d3f8d849ada5aac6d1f43f452145e16f62c95e33b"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:9a6f5f66253218efc16a",
+      "selection_index": 1,
+      "decision": "result",
+      "reason": "Synthetic diagnostic false-positive limitation, not a manuscript hypothesis.",
+      "card_ids": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/GDT395_ADVERSARIAL_SYNTHETIC_IDENTIFIABILITY_REPORT.md",
+          "line": 85,
+          "line_end": 90,
+          "quote": "The event-level W10 false-co-clustering diagnostics are zero for all scoreable\nproperties and representations. That means the decoders did not merge known\ndifferent W10 items; it does not mean they recognized a semantics-light world.\nThe direct world-level `SEMANTICS_LIGHT_LIKE` diagnostic fails: balanced\naccuracy is .5 for D01/D02/D03 and 0 with MCC -1/FDR 1 for D04/D05. GDT395\ntherefore neither demonstrates nor excludes a semantic false-positive tendency.",
+          "sha256": "60a921e51c9c0a4b59b8e283b7d73d6bb2799ce29c1b161b7de4fd3c5677151c"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:efc1f2fa4775c7646c0c",
+      "selection_index": 2,
+      "decision": "result",
+      "reason": "Synthetic route-cell counts, no explicit manuscript reading.",
+      "card_ids": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/GDT396_REPAIRED_SYNTHETIC_IDENTIFIABILITY_REPORT.md",
+          "line": 98,
+          "line_end": 99,
+          "quote": "W10 is decisive.  Of 648 semantic route cells, 554 are complete explicit\n`UNSUPPORTED` cells.  Among the 94 actually rated semantic routes:",
+          "sha256": "12f30c831d253b3d9c6f7432ca5aea40326f1b8ddda59101f8b646ecc46efe5d"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:91296f9a597503aae685",
+      "selection_index": 3,
+      "decision": "method",
+      "reason": "Structural/semantic scoring distinction, no manuscript reading.",
+      "card_ids": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/GDT396_REPAIRED_SYNTHETIC_IDENTIFIABILITY_REPORT.md",
+          "line": 114,
+          "line_end": 115,
+          "quote": "Correct structural clustering in W10 is not charged as semantic error.  Only\nthe registered semantic outputs are counted here.",
+          "sha256": "12f30c831d253b3d9c6f7432ca5aea40326f1b8ddda59101f8b646ecc46efe5d"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:c470a31d0bfaaff0dcd5",
+      "selection_index": 4,
+      "decision": "result",
+      "reason": "Synthetic false-positive result; does not refute each manuscript semantic hypothesis.",
+      "card_ids": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/GDT396_REPAIRED_SYNTHETIC_IDENTIFIABILITY_REPORT.md",
+          "line": 107,
+          "line_end": 112,
+          "quote": "The false-positive failures span function/operator class, coordinator,\nalternative, generic relation, reference/anaphora, reuse antecedent, productive\nmorphology/component, current shared meaning, semantic entity/category, and\ntemporal/state-gate claims.  In particular, all supported function/operator\nroutes and the large majority of ranked-relation routes confidently find\nsemantic organization where the frozen world supplies none.",
+          "sha256": "12f30c831d253b3d9c6f7432ca5aea40326f1b8ddda59101f8b646ecc46efe5d"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:5c49e23f1978435a1730",
+      "selection_index": 5,
+      "decision": "method",
+      "reason": "Rebuild outcome and proposed holdout scheduling, no concrete semantic proposition.",
+      "card_ids": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt399_creative_scope_rebuild_after_visible_resegmentation/REPORT.md",
+          "line": 37,
+          "line_end": 43,
+          "quote": "## Bedeutung für die nächsten Seiten\n\nDas war kein kosmetischer Patch: Die Satzmaschine wurde aus den korrigierten\nKarten neu erzeugt. Sie überlebt, ohne die 239 Änderungen zurückzudrehen. Der\nnächste sinnvolle Schritt ist ein gezielter Holdout dieser neuen\n4,374-Anschlussbasis und erst danach die nächste Vierseitenfreigabe.\n",
+          "sha256": "7b18322a534081aecc74b7ddc019871e2ca8fa1060cadd822b0066f040d2109f"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:df55914c8e0a2b594546",
+      "selection_index": 6,
+      "decision": "result",
+      "reason": "Admission PASS and ambiguous microform count are not meaning proof.",
+      "card_ids": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt404_random_four_page_factorized_admission/REPORT.md",
+          "line": 5,
+          "line_end": 9,
+          "quote": "**Die feste Werkstattgrammatik hält den ersten echten Zufallsbatch.** Die vier\nSeiten benötigen weder einen neuen Bedeutungsstamm noch eine neue Scope-Achse.\nDas Ergebnis ist `PASS_WITH_AMBER_MICROFORMS`: die Architektur besteht; 49\neinmalige neue Oberflächen behalten eine sichtbare, aber noch nicht eindeutige\ninnere Grenze.",
+          "sha256": "2981ed512bf78d21739eeb6ffa716b0d1d716c9328cf9862715bac0bf284f36c"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:e2c2fc79a5831c7904b1",
+      "selection_index": 7,
+      "decision": "heading_only",
+      "reason": "Question title alone contains no proposed value.",
+      "card_ids": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt409_nineteen_core_semantic_drift_audit/REPORT.md",
+          "line": 1,
+          "line_end": 2,
+          "quote": "# GDT409 – Welche der 19 Bedeutungen halten wirklich?\n",
+          "sha256": "d9315dc142103c095dbb6fb46901dd2d93f825e8d750c8a200606461c4e732e6"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:b2b3fe5504459f404fa6",
+      "selection_index": 8,
+      "decision": "result",
+      "reason": "Fourteen/five dictionary-status tally does not specify a rival meaning.",
+      "card_ids": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt410_provisional_core_rival_tournament/REPORT.md",
+          "line": 21,
+          "line_end": 23,
+          "quote": "Damit enthält das neunzehnteilige Kernwörterbuch nun **14 breite Werte und\nfünf bewusst offene Verben/Relationen**. Keine Karte wurde bedeutungslos, aber\ndie fünf knappen Entscheidungen werden nicht künstlich als gelöst ausgegeben.",
+          "sha256": "275bde78f9a14df65dc2a96c67880d3a77ef0810ac5a12485cc53fc69ec6c465"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:9ba2afeeaaa4ce3eac3a",
+      "selection_index": 9,
+      "decision": "result",
+      "reason": "Component and meaning-core counts only.",
+      "card_ids": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/REPORT.md",
+          "line": 13,
+          "line_end": 13,
+          "quote": "- **46 Komponenten**, davon **19 portable Bedeutungskerne**.",
+          "sha256": "204806766156c2b1fd769d0944c7a8a217e82b8e6470ced6b8f0d054a34ec908"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:4ede233bb65fe07f5b16",
+      "selection_index": 10,
+      "decision": "result",
+      "reason": "Editorial completeness assertion without an independently addressable reading.",
+      "card_ids": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/REPORT.md",
+          "line": 5,
+          "line_end": 6,
+          "quote": "Die Bedeutungsarbeit ist jetzt in einer vollständigen, widerspruchsfreien\nArbeitsausgabe zusammengezogen:",
+          "sha256": "204806766156c2b1fd769d0944c7a8a217e82b8e6470ced6b8f0d054a34ec908"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:9458069080392130797e",
+      "selection_index": 11,
+      "decision": "addressable_source_scoped_proposition",
+      "reason": "Preserve the full rule or model conjunction, with explicit historical scope and no independent novelty claim.",
+      "card_ids": [
+        "CLEAN_GAP_CI:running_vs_local_copy"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/REPORT.md",
+          "line": 15,
+          "line_end": 17,
+          "quote": "Jede laufende Karte erhält eine konkrete kompositionelle Kernlesung. Keine\nAdresse, Figurenkennung oder Kreisbezeichnung wird dafür zum erfundenen Wort:\ndie 693 lokalen Gruppen bleiben ausdrücklich **lokal kopieren**.",
+          "sha256": "204806766156c2b1fd769d0944c7a8a217e82b8e6470ced6b8f0d054a34ec908"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:ececa1a19e53b52b960f",
+      "selection_index": 12,
+      "decision": "heading_only",
+      "reason": "Title alone does not specify a concrete semantic revision.",
+      "card_ids": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt414_next_page_semantic_failure_deck/REPORT.md",
+          "line": 1,
+          "line_end": 2,
+          "quote": "# GDT414 – Bedeutungen dürfen lokal wachsen, Kerne nicht heimlich kippen\n",
+          "sha256": "4ffd0d5204c87ae87e879ea2224d42500477cdbad38ea3b4dbf6f8c77eb94069"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:145327928b2995f8fc6f",
+      "selection_index": 13,
+      "decision": "method",
+      "reason": "Red gate definition for future semantic failure; not a claimed word meaning.",
+      "card_ids": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt414_next_page_semantic_failure_deck/REPORT.md",
+          "line": 11,
+          "line_end": 12,
+          "quote": "- **rot:** die Karte braucht eine andere Strukturschublade oder eine zweite\n  portable Bedeutung, die weder Bildbesitzer noch Hülle tragen kann.",
+          "sha256": "4ffd0d5204c87ae87e879ea2224d42500477cdbad38ea3b4dbf6f8c77eb94069"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:e6ec5d6d4672a3d8bc58",
+      "selection_index": 14,
+      "decision": "result",
+      "reason": "Compiler coverage and no-drift assertion, no new concrete reading.",
+      "card_ids": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt415_owner_local_semantic_expansion_atlas/REPORT.md",
+          "line": 12,
+          "line_end": 15,
+          "quote": "Das Verfahren deckt alle **4.576 laufenden Ereignisse**, **715 Aussagen** und\n**906 tatsächlich belegten Kern×Besitzer-Kombinationen** ab. Jede einzelne\nLesung lässt sich exakt auf die GDT413-Kernfolge zurückführen. Es wurde keine\nneue Seite, kein neuer Stamm und keine zweite portable Bedeutung eingeführt.",
+          "sha256": "4b498b03b47de854669df3ef948cbf0f3d47623ff89bfbe5469b8bcb777275a9"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:51d3fc3b4aa0afa039ba",
+      "selection_index": 15,
+      "decision": "result",
+      "reason": "Template frequencies and compilation coverage; the actual ellipse rule is separately preserved from block16.",
+      "card_ids": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/REPORT.md",
+          "line": 5,
+          "line_end": 9,
+          "quote": "Alle **4.576 laufenden Karten** wurden zu kurzen Imperativklauseln und alle\n**715 Aussagen** zu vollständigen Arbeitslesungen zusammengesetzt. Elf kleine\nSchablonen genügen. Die häufigsten sind gestufte Handlung (825 Karten),\nMehrfachhandlung (776), Handlung mit Argument (587) und geerbter\nPosten-/Kontrollwert (998).",
+          "sha256": "5372b714dcff8a00d59ead47d04466ed3399dd45d09c417e588a2e8e0be55e44"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:093303da4c43f8f0fa3a",
+      "selection_index": 16,
+      "decision": "addressable_source_scoped_proposition",
+      "reason": "Preserve the full rule or model conjunction, with explicit historical scope and no independent novelty claim.",
+      "card_ids": [
+        "CLEAN_GAP_CI:owner_bounded_ellipsis"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/REPORT.md",
+          "line": 39,
+          "line_end": 47,
+          "quote": "## Was die Ellipse jetzt bedeutet\n\nAuf Kartenebene fehlen häufig das wiederholte Verb oder der wiederholte\nPosten. Der Compiler trägt deshalb 1.598-mal eine aktive Handlung und 2.096-mal\nein aktives Argument weiter. Das geschieht ausschließlich innerhalb derselben\nSeite und desselben sichtbaren Besitzers; jede Stelle steht in einem Audit.\nDiese Zahlen sind keine 1.598 fehlenden Wörter, sondern die explizite Auflösung\nder kleinteiligen Karten-/Zellenschreibweise.\n",
+          "sha256": "5372b714dcff8a00d59ead47d04466ed3399dd45d09c417e588a2e8e0be55e44"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:e5141099cc005c85deda",
+      "selection_index": 17,
+      "decision": "result",
+      "reason": "Paradigm-neighbor coverage/no-second-meaning outcome; no semantic identification follows.",
+      "card_ids": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt419_one_atom_compositional_paradigm_closure/REPORT.md",
+          "line": 5,
+          "line_end": 9,
+          "quote": "Die sieben stärksten Fünf-Register-Rezepte besitzen zusammen **199 belegte\nEin-Atom-Nachbarbeziehungen** zu 171 verschiedenen Rezepten. Nach einer engen\nRollenkontrolle bleiben 120 sinnvolle Paradigmenzellen. **55 sind bereits\nbelegt**, 45 davon beim selben Seitenbesitzer wie der jeweilige Anker und 38 in\nmindestens zwei Registern. Keine belegte Zelle verlangt eine zweite Bedeutung.",
+          "sha256": "c82df8876e218331dbb3e4af14ead866faba14e43ae98513a27a50e3dfbca988"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:c48c259b0dca0655028f",
+      "selection_index": 18,
+      "decision": "addressable_source_scoped_proposition",
+      "reason": "Preserve the full rule or model conjunction, with explicit historical scope and no independent novelty claim.",
+      "card_ids": [
+        "CLEAN_GAP_CI:ordered_action_microchain"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt421_ordered_action_pair_slot_license/REPORT.md",
+          "line": 19,
+          "line_end": 22,
+          "quote": "Von 45 Richtungsvergleichen sind 13 deutlich gerichtet, zehn kommen nur in\neiner Richtung vor, sieben sind ungefähr ausgeglichen, sechs ungleiche Paare\nfehlen in beiden Richtungen. Die Lesung verhält sich damit wie eine\nArbeitsabfolge, nicht wie eine beliebig umstellbare Wortliste.",
+          "sha256": "be638e0f40f4204c78454d66b8af9ef6abcba60557cf004803247887c1da4e32"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:383b956363a81aee2253",
+      "selection_index": 19,
+      "decision": "heading_only",
+      "reason": "Introductory line to a result list; no claim itself.",
+      "card_ids": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt424_page_private_slot_exception_compression/REPORT.md",
+          "line": 9,
+          "line_end": 9,
+          "quote": "Die Neulesung aller 59 roten Ereignisse ergibt:",
+          "sha256": "614a6dda1c65fe54e4c9a57f94dcf886d86696978c803ba2b6a6038c959ca336"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:dc79953f045d1d09b5ad",
+      "selection_index": 20,
+      "decision": "addressable_source_scoped_proposition",
+      "reason": "Preserve the full rule or model conjunction, with explicit historical scope and no independent novelty claim.",
+      "card_ids": [
+        "CLEAN_GAP_CI:action_and_focus_classes"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt426_typed_action_family_prediction/REPORT.md",
+          "line": 3,
+          "line_end": 14,
+          "quote": "## Das kleine Klassenmodell\n\nDie neun Handlungen werden für den Lehrling in vier grobe Familien gelegt:\n\n- **SELECT:** NEHMEN/CH und WÄHLEN/S;\n- **MOVE_SET:** GEBEN/K, SETZEN/OK und EINSETZEN/P;\n- **HOLD_PROCESS:** HALTEN/SH und BEARBEITEN/CHD;\n- **CONTROL:** EINSTELLEN/T und MARKIEREN/R.\n\nDazu kommen drei Randfamilien: **GRADE** (E/EE/EEE), **ITEM**\n(Y/AIIN/AIN/OR) und **RELATION** (AL/AR/L/AIR).\n",
+          "sha256": "fc93c5fb5d4a4150bd7d26a04ac442e63c78aa8c83c1897691eae26b84cac8a8"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:33c28c8ca8cb857f7fea",
+      "selection_index": 21,
+      "decision": "result",
+      "reason": "Nine unchanged meanings now have contrasts is a report outcome, not the contrasts themselves.",
+      "card_ids": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt428_within_class_action_semantic_contrasts/REPORT.md",
+          "line": 27,
+          "line_end": 28,
+          "quote": "Keine dieser neun Bedeutungen musste geändert werden. Neu ist, dass jede jetzt\neine konkrete Abgrenzung gegen ihre nächste Nachbarbedeutung besitzt.",
+          "sha256": "82df1791157e0c43181e372369b486182d275cfceaffec6bfbb2bffbf5674b33"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:5d1fd9e022c4054b58bc",
+      "selection_index": 22,
+      "decision": "addressable_source_scoped_proposition",
+      "reason": "Preserve the full rule or model conjunction, with explicit historical scope and no independent novelty claim.",
+      "card_ids": [
+        "CLEAN_GAP_CI:nineteen_core_exchange_invariance"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt429_nonaction_core_semantic_contrasts/REPORT.md",
+          "line": 84,
+          "line_end": 84,
+          "quote": "Alle **19** aktuellen Kerne besitzen jetzt denselben Mechanismus:",
+          "sha256": "4712ddfda427bb1ce18bc72a85f8cc3c57e85f5a2b9f3bd3270a6ae999626e03"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:79ff2fd10f0138643ba8",
+      "selection_index": 23,
+      "decision": "addressable_source_scoped_proposition",
+      "reason": "Preserve the full rule or model conjunction, with explicit historical scope and no independent novelty claim.",
+      "card_ids": [
+        "CLEAN_GAP_CI:nineteen_core_exchange_invariance"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt429_nonaction_core_semantic_contrasts/REPORT.md",
+          "line": 87,
+          "line_end": 87,
+          "quote": "2. Der konkrete Kern füllt diesen Slot mit einer kurzen Bedeutung.",
+          "sha256": "4712ddfda427bb1ce18bc72a85f8cc3c57e85f5a2b9f3bd3270a6ae999626e03"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:18c5b5911af26a26b1a9",
+      "selection_index": 24,
+      "decision": "addressable_source_scoped_proposition",
+      "reason": "Preserve the full rule or model conjunction, with explicit historical scope and no independent novelty claim.",
+      "card_ids": [
+        "CLEAN_GAP_CI:nineteen_core_exchange_invariance"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt429_nonaction_core_semantic_contrasts/REPORT.md",
+          "line": 88,
+          "line_end": 89,
+          "quote": "3. Ein Kernwechsel verändert nur diese Bedeutung, nicht Besitzer, Grad,\n   Schluss oder die übrigen Argumente.",
+          "sha256": "4712ddfda427bb1ce18bc72a85f8cc3c57e85f5a2b9f3bd3270a6ae999626e03"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Only the 25 registered short spans were resolved; contextual surrounding prose was read for five reports.",
+    "Metadata heading ranking selected many technical/result spans. No completeness claim for GDT394–450.",
+    "Existing quoted paragraph presence was not used as full-proposition coverage.",
+    "No raw manuscript, mixed TSV, image, experiment, operational registry mutation or semantic confirmation.",
+    "No independent novelty count: five historical source-scoped rule/model cards; two explicitly related to later scoped cards."
+  ],
+  "integration_provenance": {
+    "reviewer": "root",
+    "raw_review": "research_registry/decisions/clean_gap_review_ci.json",
+    "raw_sha256": "d9de22df699dbe0fb839efba1055d4f4494e7ad482bb0697867a8259592997bc",
+    "peer_review": "research_registry/decisions/clean_gap_peer_review_ci.json",
+    "peer_sha256": "4356244d4d8c6cad18facf7554a4b90fbe47795c06d6b48f538d8b9b59037211"
+  },
+  "original_review_validation": {
+    "selected_source_ids": 25,
+    "known_source_ids": 25,
+    "cards_validated": 5,
+    "exact_quotes_and_hashes": true
+  },
+  "validation": {
+    "cards_exact_source_checked": 5,
+    "reviewed_by_root_and_independent_peer": true,
+    "initial_intake_dispositions_added": 0,
+    "scientific_confirmation": false
+  }
+}
