@@ -1260,3 +1260,89 @@ Der f4r-Hinweis ist deshalb keine neue Entzifferungsbrücke. route-check
 `f4r root stem marks annotation` plus gezielter Primärbericht-Screen nach
 f4r/Yale-ID; keine angenommene Wortlesung als Suchvorgabe, kein Web-/Bild-/
 Rohtextzugriff, keine neue Auswertung. Schreibzuständigkeit zurück.
+
+### IP021 — Tatsächliche lange Gleichheits-/Ungleichheitsanker gefunden
+
+Status: `REVIEWED_ALLPAIR_DESIGN_NOT_IDENTIFYING_NONLOCAL_AGREEMENT`, kein READY- oder
+Kongruenzbefund. [Root-Review](NONLOCAL_AGREEMENT_REVIEW.md): Bei festen
+Linieninventaren ist die Summe aller familienübergreifenden Gleichheitspaare
+positionsinvariant; Fernpaare = alle minus Nahpaare können lediglich lokale
+Depletion ausdrücken. Die folgenden echten Passagen bleiben erhalten; dies
+ist keine pauschale Absage an positionsspezifische Abhängigkeiten. GDT803/804 und GDT686 direkt gelesen: die ersten beiden
+behandeln unmittelbare Dreiwortklammern beziehungsweise deren Nachbarfelder;
+686s27 identische Rahmen/49 Mehrvariantenzeilen sind kein neuer Nichtlokalitätstest.
+Ein näherer Vorgänger ist [GDT627 REPORT](../experiments/yolo/gdt627_value_head_role_atlas/REPORT.md),
+„Separate quality words agree locally“:33 Zeilen mit zwei Kopf-Familien innerhalb
+von drei Tokenpositionen,30 leserstabile Paare,20 gleiche Endungswerte. Beispiele
+`chain qokain` f107v.7 und `qokaiin chaiin` f55v.5 sind also bereits geprüft.
+Die dortigen Qualitäts-/Zahlbedeutungen werden nicht übernommen.
+
+**Publiziertes vollständiges Passagenpaar, gleicher physischer Absatz:**
+[GDT611 REPORT, „Konkreter held-Absatz“](../experiments/yolo/gdt611_lexical_slot_permutation_audit/REPORT.md)
+druckt für f111v:p1 unter anderem:
+
+```text
+f111v.8  sho otchey cheol kechy chcthey okain ol l keey qokain checkhy chedar am
+f111v.23 qokaiin sheckhy qokar chalkain chckhedy lcheol okaiin qokain cheol daiin lam
+```
+
+In .8 steht `okain [ol l keey] qokain`; in .23 steht
+`qokaiin [sheckhy qokar chalkain chckhedy lcheol] okaiin`.
+Die Endungen stimmen innerhalb beider ausgeschnittenen Paare überein und
+wechseln gemeinsam ain→aiin bei verschiedener Mitte. Die Kopf-Reihenfolge
+kehrt sich aber um. Zudem enthält .23 **auch** `okaiin qokain` und
+`qokain cheol daiin`: tatsächliche nichtpassende Konkurrenten dürfen nicht
+entfernt werden. Das schließt eine obligatorische globale Gleichheit aller
+solchen Endungen in dieser Zeile aus, liefert aber noch keine selektive Bindung.
+Die gemeldete EVA-Darstellung ist keine neue Atlasabfrage; GDT611s vormals
+„held“ ist für diese neue Frage längst exponiert. Kein Dreileserstatus der
+vollständigen Zeilen wird aus dem dortigen Bericht erfunden.
+
+**Zusätzlicher klarer d-/qok-Anker:**
+[GDT749 REPORT, okechy-Abschnitt](../experiments/yolo/gdt749_outside_frame_whole_role_distribution/REPORT.md)
+belegt `f107v.4 dain cheky okechy qokain shocthy otaiin alkaiin`.
+`dain [cheky okechy] qokain` liefert verschiedene Kopf-Familien mit gleicher
+ain-Endung; GDT611s .23 liefert ein langes qokaiin→daiin und ein kurzes
+qokain→daiin. GDT749s reader-exakt-Aussage betrifft das Ziel okechy, nicht
+automatisch jedes Wort dieser ausgegebenen Zeile. In .4 widersprechen
+`otaiin alkaiin` ebenfalls einer einzigen obligatorischen Endung für die
+Gesamtzeile. Die zwei intervenierenden Wörter von .4 liegen noch im Bereich
+des schon bekannten GDT627-Nahfensters; dies ist kein als neu umbenannter Fernfall.
+
+**Unterscheidende nächste Beobachtung, noch nicht fertig operationalisiert:**
+Ein selektives Agreement-Modell muss *vor* Auswertung aus allen geschriebenen
+Kandidaten denselben Partner auswählen und dann Gleichheit trotz variabler
+Mitte vorhersagen. Ein unabhängig wählendes Modell erlaubt gleiche und
+verschiedene Endungen gemäß den Kopf-/Seiteninventaren; einzelne gleiche
+Paare sind dort erwartbar. Die vorhandenen Passagen machen die Auswahlfrage
+konkret: Eine Regel darf nicht das nahe ungleiche qokain übergehen, bloß weil
+weiter links ein gleiches qokaiin existiert. Erforderlich ist eine feste,
+quellenbezogene Partner-/Distanzregel mit behaltenen Gegenfällen, keine bereits
+bekannte Übersetzung. Dafür wurde hier noch keine empirisch motivierte Regel
+gewonnen. Keine automatische Radiusvergrößerung, IL026-Null oder Tupelvorhersage.
+
+Route-check `nonlocal agreement concordance aiin ain different heads variable
+intervening`; gezielte Suche nur in publizierten Berichten/Beispieldarstellungen.
+Die Anker sind konkreter als die alte Rohidee, aber noch kein neuer Testauftrag.
+Keine Manuskriptabfrage/Bilder/Web und keine zusätzliche ID.
+Schreibzuständigkeit zurück.
+
+
+### Weiterer begrenzter Quellenblock: kein neuer tragfähiger Lesemechanismus
+
+GDT575/GDT579 direkt geprüft für IP020/IP022: Die dokumentierten O+O-,
+D_ADDR+D_ADDR-, AL+AL- und Außen/Innen-Folgen sind Fälle der bestehenden
+Atom-/Scopeedition, nicht neue vollständige Manuskriptpassagen mit eigener
+Randmarkierung. Keine Rückübersetzung dieser Tags in erfundene Rohzeichen.
+GDT689 direkt geprüft für den Abkürzungs-/Endungszweig: dchedy/dchey und
+cheody/cheoy stehen bereits als bekannte Parser-/Schwester-Schutzfälle im
+Bericht. Sie liefern weder eine neu gefundene ausgeschriebene Expansion noch
+einen unbehandelten Manuskriptkontrast. Die dortigen Arbeitsglossen werden
+nicht als Gegenbeobachtung benutzt.
+
+Route-checks `dardardy dardy repeated constituent outer terminal dy scope`
+und `abbreviation expansion whole form missing sequence complete written`.
+Keine drei vermeintlich neuen Beispiele aus diesen Altfällen abgeleitet.
+**Kein guter neuer Anker in diesem Suchblock**, keine neue ID oder Auswertung;
+keine Rohdaten/Bilder/Web. IP021-Status nach dem unabhängigen Root-Review
+aktualisiert, seine tatsächlichen Passagen bewahrt. Schreibzuständigkeit zurück.

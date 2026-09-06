@@ -138,3 +138,14 @@ COL001 ordinary-alphabet rot note; no new lexical bridge or colour route.
 Full-image sources and bounded notes retained. No leaf grading/new admission.
 Source prep06:06:24UTC; documentation/publication inside15min target to06:21:24.
 GoalACTIVE; about2h30elapsed, at least7h29stillto minimumdeadline.
+
+06:35UTC design checkpoint: IP021 has actual published long ain/aiin matching
+passages, but also unequal rival partners in the same lines. Independent
+review proves that all-cross-family match counts are fixed by each line's
+family-by-ending inventory; far-only counts are the complement of near counts.
+Do not run this count as evidence for selective nonlocal agreement. Primary
+examples, predecessor627 and the exact algebra are in
+`docs/NONLOCAL_AGREEMENT_REVIEW.md`; no new source query, image, score or GDT.
+The broader possibility of order-sensitive dependencies stays open.
+GoalACTIVE; about2h54elapsed, at least7h05to13:40:45UTC. This checkpoint adds
+a design exclusion, not a manuscript reading; candidate producer continues.
