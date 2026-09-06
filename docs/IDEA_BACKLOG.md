@@ -1542,3 +1542,60 @@ Rohskizzen, sechs unterschiedliche Mechanismen; kein neuer empirischer Befund.**
 IP053/054 teilen mögliche Bildquellen, prüfen aber verschiedene beobachtbare
 Gegenstücke (einzelne durchscheinende Striche versus Kontur einer Seitenschablone).
 Schreibzuständigkeit zurück bei root.
+
+
+### Gebündelte Auswahl IP049/IP052/IP053 — eine begrenzte Explorationspriorität
+
+**IP053: REVIEW_PRIORITY — BOUNDED_EXPLORATION, keine Bestätigungsbereitschaft.**
+Der direkte [f104v-Bericht](visual_overview/TRIPLE_F104V_2026-09-06.md) nennt
+unterschiedliche erhöhte Striche über den linken Teilen der drei Gruppen auf
+f104v.27. Er nennt **keine** durchscheinende Schrift und keinen blassen
+Fremdstrich. Das Durchscheinen ist die neue prüfbare Vermutung des Rohentwurfs,
+kein bereits beobachteter Effekt. Die Metadaten
+[GDT848-Zulassungen](../experiments/yolo/gdt848_f104_visual_e_run_audit/src/PAGE_ADMISSIONS.tsv)
+belegen beide Originalseiten f104r/f104v als bereits zugelassen.
+
+Kleinster explorativer Vertrag: Erst mindestens **drei auf beiden Seiten
+wiedererkennbare materielle Blattmerkmale** unabhängig vom Zielstrich nominieren
+und damit genau eine Spiegelzuordnung fixieren. Solche drei Landmarken sind
+in den hier gelesenen Berichten **noch nicht belegt**. Bildrand, Textzeilen und
+bloß ähnlich platzierte Buchstaben gelten nicht als materielle Landmarken.
+Wenn die Zuordnung gelingt, erst danach die schon benannte f104v.27-Region
+gegen die so vorherbestimmte f104r-Gegenstelle beurteilen. Ein spezifischer
+spiegelgleicher fremder Konturverlauf, der mehrere unterscheidbare Biegungen
+in der fixierten Lage erklärt, passt zum Durchscheinmodell; eine ausschließlich
+vorderseitige Zusatzmarke verlangt diese Korrespondenz nicht. Eine Einzeldeckung
+beweist noch keine Schichtursache. Fehlende sichtbare Gegenkontur entscheidet
+nur bei ausreichend lesbarer Gegenstelle; sonst unaufgelöst. Keine freie
+Transformation an Zielstriche fitten, keine Pixelklassifikation, keine
+chronologische oder graphematische Umdeutung. Budget **10min insgesamt**:
+Landmarken zuerst; fehlen sie, endet die Exploration vor dem Zielvergleich.
+Das ist gegenwärtig die einzige der drei Optionen mit einem konkreten
+zugelassenen Seitenpaar und einem begrenzbaren neuen Beobachtungsauftrag.
+
+Vorgänger-/Schließungscheck: route-check `bleed through mirrored recto verso
+showthrough`; gezielte Closed-Registry-Zeilen RFH001, RYO001 und RBR001/002.
+Diese betreffen retracierte Unterstriche beziehungsweise nicht recoverierbare
+Übermalung, nicht Gegenkonturen auf der anderen Seite desselben Blatts. GDT830/
+831 bleiben gescheiterte Federzustandsinstrumente; sie werden nicht benutzt
+oder repariert. Das Fehlen eines direkten Rankingtreffers beweist keine Neuheit.
+Nicht Teil von Roots GDT861-Entity-/Oberverbindungsprüfung.
+
+**IP049: keine Hochstufung.** Exakter Anker851 f30r.11 `cheor chey cheor chey`
+und857 f47r.7 `chol chol chol`. GDT820 behandelt gemeinsames Argument versus
+zwei Aussagen bereits ausdrücklich an f76r.23. Die stärkere Forderung eines
+obligatorisch je Kopie geschriebenen Arguments ist für die neuen Formen nicht
+belegt. Route-check `repeated predicate shared argument ellipsis`; IL026s
+Closed-Family bleibt unberührt, kein Trigramm-/Nullmodell aus diesem Vorschlag.
+
+**IP052: keine Hochstufung.** GDT790s konkretes Paar `otedy`/f77r.25 ist eine
+Einwortwiederverwendung, kein Akrostichon. Die direkten Primärberichte
+[GDT262](../GDT262_F82R_LABEL_PARAGRAPH_MAXSEARCH_REPORT.md) und
+[GDT263](../GDT263_F80R_TWO_LABEL_PARAGRAPH_ADDRESS_REPORT.md) schließen erneutes
+Label-/Paragraph-Zuordnungsmining mit neuen Schnitten beziehungsweise die
+10:5-Adressregel. Ein Akrostichon dürfte weder dessen Zuordnung nachfitten noch
+ein Einwortpaar als mehrgliedrigen Überschriftsanker ausgeben. Route-check
+`acrostic heading label initials`; kein solcher nichttrivialer Anker im Batch.
+
+Keine neue ID, Bildöffnung, Rohdatenabfrage, Ausführung oder Übersetzung.
+Schreibzuständigkeit zurück bei root.

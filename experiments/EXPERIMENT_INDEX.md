@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **860**
-- Experiment-associated tracked files: **16,113** (1.4 GiB)
+- Experiment-associated tracked files: **16,120** (1.4 GiB)
 - Structured GDT337+ experiments: **525**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT861 | Two exact entity locator native comparisons | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt861_extended_entity_native_comparison/REPORT.md) | 14 | 19.9 KiB | 2 | STRUCTURED_YOLO |
+| GDT861 | GDT861 | `LOCAL_UPPER_LINK_AND_NO_LINK_CONTRAST` | [report](../experiments/yolo/gdt861_extended_entity_native_comparison/REPORT.md) | 21 | 39.4 KiB | 2 | STRUCTURED_YOLO |
 | GDT860 | GDT860 | `ADDITIONAL_TEXT_LOCATORS_ONLY` | [report](../experiments/yolo/gdt860_extended_bar_entity_recurrence/REPORT.md) | 17 | 39.5 KiB | 1 | STRUCTURED_YOLO |
 | GDT859 | GDT859 | `LOCAL_NATIVE_AND_TRANSCRIPTION_AUDIT_COMPLETE` | [report](../experiments/yolo/gdt859_f56r_initial_bar_separator/REPORT.md) | 21 | 45.0 KiB | 1 | STRUCTURED_YOLO |
 | GDT858 | GDT858 | `PRIMARY_FACE_HOLDOUT_RETAINS_OPPOSITE_LEAF_FACE` | [report](../experiments/yolo/gdt858_folio_holdout_unit_audit/REPORT.md) | 18 | 1.9 MiB | 3 | STRUCTURED_YOLO |

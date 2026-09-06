@@ -6,6 +6,22 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### GDT861 additional native link and no-link contrast (2026-09-06)
+
+Primary: `experiments/yolo/gdt861_extended_entity_native_comparison/REPORT.md`.
+Both native viewers localize candidate regions from published860full contexts:
+f100r.12 extended upper link to left upright; f114r.1 penultimate group has
+short upper projection/loop with parchment separating neighboring tall forms.
+Second local uppercontact beyondf56r plus no-link contrast; literal codes alone
+cannot guarantee visible extended contact under these manual alignments.
+No glyphidentity, obligatorypair, penmovement, wordhood or meaning. ZLf100r
+UNCERTAIN_SMALL_SPACE versusRFwithin-group description retained, not a
+universally definite seam. OnlyRFliteralmention onf114r not physicalabsence
+in otherreadings. Exposed contexts, same photos; Aseal beforeB, neither blind
+to priorpositive. Newadmissions f100r/f114r yield41keys46selectors9remaining.
+Independent image/source/schema/decision checks and replayPASS, not visiontruth.
+Bounded comparison complete; no automatic census, model or additionaladmission.
+
 ### GDT860 additional entity locators (2026-09-06)
 
 Primary: `experiments/yolo/gdt860_extended_bar_entity_recurrence/REPORT.md`.
