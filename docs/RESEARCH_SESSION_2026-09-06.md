@@ -85,3 +85,15 @@ no transferable context or meaning established. About12min from05:14decision
 through publication, under25min. Two recent capacity stops argue against
 more rare-form crossed-cell fits without a concrete supporting contrast.
 Ten-hour goal remains ACTIVE, at least8h15stillto deadline.
+
+05:28UTC decision: GDT855 audits only metadata availability for a possible
+new-data leaf-margin extension. Old LM00132+X19+Y9=60graded physical folios
+must all be excluded, including16calibration pages absent from the44panel.
+LM002s explicit new-physical-data exception motivates the check; GDT363
+already scored a broad atlas on the same44without adjusted signal or new
+images. Projected current179page annotation/hand/Currier metadata and past
+exposure IDs suffice. No LM002 target, text strings or images may be read.
+Output complete remainder, not a selected favorable morphology. No remainder
+closes this source reserve; a remainder permits only a later independently
+justified acquisition contract, not automatic score/admission. Budget10min
+including publication from05:28UTC.

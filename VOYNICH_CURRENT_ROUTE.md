@@ -7,15 +7,10 @@ Latest mandate: at least10h active research, start2026-09-06 03:40:45UTC;
 not complete before13:40:45UTC unless user interrupts/changes the mandate.
 Active goal/session record: `docs/RESEARCH_SESSION_2026-09-06.md`.
 
-GDT850 inventories joined qolchedy versus definite qol chedy:28loci,16outside
-824's12target loci. f75v.44 has both forms in one line in ZL/IT; no uniform
-page/hand-only spelling rule. No shared four-neighbor frame or meaning.
-IT split+qokain f75r.33 was already explicit in823, not a new counterexample.
-GDT851 finds exact ABAB in all readings at f30r.11 cheor/chey and f8r.19
-shol/kaiin; p2hits4/5/3, p3zero. Written anchors, not copying or meaning.
-GDT852: both native viewers support local space-like vs internal-like seam
-at f75v.44 groups7–8 vs11. Qualitative contrast, not authorial word boundaries
-or meaning. GDT853 stops before context scoring:25W qualify in discovery,
+GDT850:28joined/split qolchedy loci, same-line75v.44; IT75r.33+qokain already
+known823.851:all-reader ABAB f30r.11/f8r.19, not copying or meaning.
+852:two native viewers support local75v.44 seam contrast, not word boundaries.
+GDT853 stops before context scoring:25W qualify in discovery,
 but zero held pairs satisfy fixed selector/kind/section/hand/start-index
 matching.32127eligible spans; no predictor executed. No information-loss
 answer or automatic looser pairing. GDT854:146events,14mixed sourcecells;
@@ -24,6 +19,10 @@ No page/cell-only placement rule forCKH; cross-kernel capacity fails, no model
 or null executed. Raw character counts/length equal, not physical glyphs or
 meaning. No within-kernel rescue. IP012 assembly deferred:
 no empirically motivated remodeling rival.40idea sketches remain available.
+
+GDT855 in preparation: metadata-only search for admitted herbal folios outside
+ALL60LM001/X/Y-graded physical folios, not just the final44. No LM002 target,
+images or admission yet. RBR002 already closed the apparent RBR001 successor.
 
 GDT845–849 primary reports via lookup: paired prefix evidence remains sparse;
 848 supports one native two-arc/loop anchor, not all controls.849 has all0/1

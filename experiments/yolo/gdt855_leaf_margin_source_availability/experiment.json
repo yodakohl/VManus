@@ -1,0 +1,105 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Metadata-only source availability; no text, glyph, leaf-state, image, association or admission claim.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt855_leaf_margin_source_availability/src/run.py",
+    "validate": "python3 experiments/yolo/gdt855_leaf_margin_source_availability/src/validate.py"
+  },
+  "created": "2026-09-06",
+  "dependencies": [
+    "GDT363",
+    "GDT851"
+  ],
+  "experiment_id": "GDT855",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt851_primitive_tandem_raw_group_discovery/src/SPEC.json",
+      "role": "frozen_source_or_extractor",
+      "sha256": "192674c513a6b633f88a5bdd4d4394bf5463139d062a1ae19abc167d2007a241"
+    },
+    {
+      "path": "experiments/semantic_assumptions/build_lm001_herbal_leaf_margin_visual_selection.py",
+      "role": "frozen_source_or_extractor",
+      "sha256": "afd0c2eae6f8763b2facc9074dd22f3439adfa3c208bb2be7b6a5205734fe335"
+    },
+    {
+      "path": "experiments/semantic_assumptions/build_lm001y_final_residual_leaf_margin_census.py",
+      "role": "frozen_source_or_extractor",
+      "sha256": "f374fbaafb7f0fb65f81bcd2188841aa9628bbf13787d93d08b9f85fda069f5e"
+    },
+    {
+      "path": "tools/vmanus_experiment.py",
+      "role": "frozen_source_or_extractor",
+      "sha256": "0b84a5503f8d4aa2e1d23c449da1cd1b2d2059f4d7f74727c6b899928e59cce2"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt855_leaf_margin_source_availability/.gitignore",
+      "role": "source_or_artifact",
+      "sha256": "9b9dc66af90f9ff99fa79101a6e3eb357e4d8b53cafcf51e9a8d2e2e32ca7dbb"
+    },
+    {
+      "path": "experiments/yolo/gdt855_leaf_margin_source_availability/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "eb20d0ea3ee4e3ca0c22f4aff663957fdfa576ff4a169d9ab68edd6a8517bf81"
+    },
+    {
+      "path": "experiments/yolo/gdt855_leaf_margin_source_availability/PREREGISTRATION.md",
+      "role": "source_or_artifact",
+      "sha256": "b9037a4bd98d8451418a42e2dc3984935679c674d0ed4f0c4f28423479f45831"
+    },
+    {
+      "path": "experiments/yolo/gdt855_leaf_margin_source_availability/README.md",
+      "role": "source_or_artifact",
+      "sha256": "b078f1e67cfeebd8905b704aa4e3c407d2d68368c647b984d47a4287b2055468"
+    },
+    {
+      "path": "experiments/yolo/gdt855_leaf_margin_source_availability/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "acac2537187b3d3cc61f15877d67d2aebf1885b5c334586fabfaf1819f93f4e8"
+    },
+    {
+      "path": "experiments/yolo/gdt855_leaf_margin_source_availability/src/PREREG_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "d6276a8c1788684bd228251dc5e95cff131b955cf038c49c1d96966f23a87677"
+    },
+    {
+      "path": "experiments/yolo/gdt855_leaf_margin_source_availability/src/SPEC.json",
+      "role": "source_or_artifact",
+      "sha256": "8d4dd8d2b6d479c55dc954dc3ee2f863d0d06528dc02fc131116851f08fc5c08"
+    },
+    {
+      "path": "experiments/yolo/gdt855_leaf_margin_source_availability/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "f48ce4c44f5e1e4847fe568777d4e0dc2fae947c7f49c28415a312a184c4f270"
+    },
+    {
+      "path": "experiments/yolo/gdt855_leaf_margin_source_availability/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "94be9516e6152aa938bbdf7191245c3b3cc7f90591c66a4cef6d95c9e8d66110"
+    },
+    {
+      "path": "experiments/yolo/gdt855_leaf_margin_source_availability/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "9f1813d893bd9ceb6f71ba1745fca4fcd90c7f9687506c4562caa64c53a37a78"
+    }
+  ],
+  "question": "Does current179selector herbal metadata contain physical folios beyond all60previously judged folios?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "leaf_margin_source_availability",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Leaf-margin new-source metadata availability audit",
+  "updated": "2026-09-06",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}
