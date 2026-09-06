@@ -1,0 +1,564 @@
+{
+  "review_id": "CLEAN_GAP_PEER_DS",
+  "status": "APPROVE_TEN_CARDS_WITH_TWO_COVERAGE_FIXES",
+  "inputs": [
+    {
+      "path": "research_registry/decisions/source_coverage_gap_batch_ds.json",
+      "sha256": "e9ff2d4f191d1b12da8727eb39010a04d6b6ef57316d7651fb5d9fff21ef2fa3"
+    },
+    {
+      "path": "research_registry/decisions/clean_gap_review_ds.json",
+      "sha256": "13a5b3cad440bc63ec9428a261262cb2ace8dd199236c0aa4c4403f6d919dcf1"
+    }
+  ],
+  "card_reviews": [
+    {
+      "target": "CLEAN_GAP_DS:local_qoair_imperative",
+      "decision": "approve",
+      "claim_type": "lexical_hypothesis",
+      "reason": "Exact reader difference is preserved: only IT2a qoair at f111v.33 receives the optional taking reading; ZL/RF oair remain nominal. Alternate readings are not independent witnesses to the action, and no global oair command follows.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt682_final_seven_hole_line_completion/REPORT.md",
+          "line": 70,
+          "line_end": 73,
+          "quote": "Sechzehn der 17 Zielpositionen sind in IT2a und RF1b als Ganzwort exakt. Auf\nf111v.33 bewahren ZL3b und RF1b `oair`, während IT2a `qoair` schreibt. Deshalb\nbleibt „zweite Ansatzfraktion“ der portable Default; lokal darf IT2a „zweite\nAnsatzfraktion nehmen“ bedeuten.",
+          "sha256": "141205640faa9d3929211eb10edd0d056606f748a10409926f694dd9fbb2f726"
+        }
+      ]
+    },
+    {
+      "target": "CLEAN_GAP_DS:ypcheddy_backward_attachment",
+      "decision": "approve",
+      "claim_type": "functional_hypothesis",
+      "reason": "The attachment rival is explicit and remains uncertain. Source sequence and backward dairody versus following sairy binding are preserved without claiming a proven relation. This valid card does not exhaust the same paragraph’s separate additional-d alternatives.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt682_final_seven_hole_line_completion/REPORT.md",
+          "line": 75,
+          "line_end": 81,
+          "quote": "Die größte verbleibende Unsicherheit ist nicht mehr das Materialfeld, sondern\ndie zusätzliche `d`-Funktion in `ypcheddy`. Die Arbeitslesung bewahrt die\nsichtbare Reihenfolge als `pched+dy`: Trocknung abschließen, dann das Pulver\nfertigstellen. „Abziehen“ oder eine Schreibererweiterung bleiben echte Rivalen.\nAuch die Bindung an das folgende `sairy` ist vorläufig; ein Rückverweis auf\n`dairody` mit anschließendem eigenständigem Samenfraktionsabschluss bleibt\noffen.",
+          "sha256": "141205640faa9d3929211eb10edd0d056606f748a10409926f694dd9fbb2f726"
+        }
+      ]
+    },
+    {
+      "target": "CLEAN_GAP_DS:dairody_local_imperative",
+      "decision": "approve",
+      "claim_type": "lexical_hypothesis",
+      "reason": "The source directly permits the full imperative at unspecified individual places. This is a real historical proposal, not a fabricated missing-locus placeholder, and correctly does not assign it to an invented specific event.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt682_final_seven_hole_line_completion/REPORT.md",
+          "line": 82,
+          "line_end": 83,
+          "quote": "Ebenso kann `dairody` an einzelnen Stellen imperativ als „zweite Fraktion\nabmessen und als Ansatz fertigstellen“ gelesen werden.",
+          "sha256": "141205640faa9d3929211eb10edd0d056606f748a10409926f694dd9fbb2f726"
+        }
+      ]
+    },
+    {
+      "target": "CLEAN_GAP_DS:ol_ol_two_additions_local",
+      "decision": "approve",
+      "claim_type": "functional_hypothesis",
+      "reason": "The exact seven-versus-one context distinction and initial qol action scope are stated in683. Two additions is a single local interpretation of f81r.5; no new repeated lexeme, universal duplication operator or unit of measure is inferred.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt683_ol_semantic_debt_reconciliation/REPORT.md",
+          "line": 101,
+          "line_end": 105,
+          "quote": "Sieben Zeilen enthalten benachbarte `ol ol`. GDT683 erfindet daraus weder ein\nzweites Lexem noch eine Maßeinheit. Der Literalrenderer bleibt\n`Grundansatz | Grundansatz`; sechs Kontexte bleiben zwei getrennte nominale\nGrundansatz-Einträge. Nur f81r.5 besitzt mit einleitendem `qol` einen\nlizenzierten Aktionsscope und liest das Paar als Grundansatz in zwei Zugaben.",
+          "sha256": "09b1289942202bc1d43ac0b35e20e2cdf7d57c515fb6454906b081b9ad8febe3"
+        }
+      ]
+    },
+    {
+      "target": "CLEAN_GAP_DS:f10r_quality_recipe_revision",
+      "decision": "approve",
+      "claim_type": "semantic_model",
+      "reason": "The three-clause reading matches686128–134, including measure, stage and order. Removing a taking action at daiin is a source-renderer revision, not rejection of every imperative or a new external confirmation of the remaining recipe.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt686_v59_dain_daiin_qodaiin_value_head_dispatch/REPORT.md",
+          "line": 128,
+          "line_end": 134,
+          "quote": "f10r.2 verliert eine erfundene Entnahmehandlung:\n\n> Eine Portion Blatt- oder Krautansatz bis zur Mittelstufe trocknen und\n> abschließen. Erste und zweite Trockenfraktion kalt-trocken ansetzen und mit\n> einer Ansatzcharge sowie nachgekühltem Trockenstoff verbinden. Den Ansatz\n> leicht erhitzen: Qualitätsgrad III; anschließend bis zur Mittelstufe kühlen\n> und abschließen.",
+          "sha256": "67bafd8836bb5fbce962d8d89be495aaae61a075179cd7586dd28918210a0c03"
+        },
+        {
+          "path": "experiments/yolo/gdt686_v59_dain_daiin_qodaiin_value_head_dispatch/REPORT.md",
+          "line": 111,
+          "line_end": 124,
+          "quote": "| f112v.10#1 `dain` | Feuchtgrad II | rechts `sheey` |\n| f116r.12#5 `dain` | zwei Portionen des erhitzten, nachgetrockneten Drogenmaterials | links |\n| f116r.12#11 `dain` | zwei Portionen der Rohdroge I im kalten Anfangsansatz | links |\n| f56r.6#5 `daiin` | Qualitätsgrad III des heißen Endzustands | links `keey` |\n| f76v.10#9 `daiin` | drei Portionen des eingeweichten Arzneikompositums | links |\n| f83v.12#1 `daiin` | drei Portionen feuchten Arzneikompositums | rechts |\n| f86v3.13#5 `qodaiin` | drei Portionen der ersten erhitzten Ansatzfraktion | rechts `olkar` |\n| f86v6.5#5 `daiin` | drei Portionen der ersten erhitzten Ansatzfraktion | links `olkar` |\n| f88r.19#3 `daiin` | Qualitätsgrad III des heißen Trockenabsuds | links `chokol` |\n| f8r.15#7 `daiin` | drei Materialmaße | rechts `dol` |\n\nDiese Defaults sind absichtlich mutiger als die globale Karte. Zehn tragen\nAMBER, einer GREEN. Jeder behält seinen stärksten lokalen Rivalen im\nPositionsartefakt; im praktischen Text erscheint dennoch nur eine Lesung.",
+          "sha256": "67bafd8836bb5fbce962d8d89be495aaae61a075179cd7586dd28918210a0c03"
+        },
+        {
+          "path": "experiments/yolo/gdt686_v59_dain_daiin_qodaiin_value_head_dispatch/REPORT.md",
+          "line": 152,
+          "line_end": 153,
+          "quote": "`daiin` erzeugt dabei weder „abnehmen“ noch „verbinden“. Ein Verb bleibt nur\nerhalten, wenn eine andere bereits lizenzierte Karte es trägt.",
+          "sha256": "67bafd8836bb5fbce962d8d89be495aaae61a075179cd7586dd28918210a0c03"
+        }
+      ]
+    },
+    {
+      "target": "CLEAN_GAP_DS:f86v3_recipe_list_revision",
+      "decision": "approve",
+      "claim_type": "semantic_model",
+      "reason": "The complete list matches686136–143: soaked preparation/portion, cooling-middle drying-preparation-completion, heatII, three fractions/three doses, drying/closure, same-part heating and final dry material at heatII. The hidden-layer account is described as replaced locally; no independent physical-process observation is implied.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt686_v59_dain_daiin_qodaiin_value_head_dispatch/REPORT.md",
+          "line": 136,
+          "line_end": 143,
+          "quote": "f86v3.13 wird zu einer sichtbaren Rezeptliste statt eines versteckten\nLayerwechsels:\n\n> Vollständig eingeweichter Ansatz; eine Portion vollständig eingeweichte\n> Droge. Abkühlen, bis zur Mittelstufe trocknen, ansetzen und fertigstellen.\n> Heizstufe II; drei Portionen der ersten erhitzten Ansatzfraktion; drei Dosen\n> Trockendroge. Hierzu bis zur Mittelstufe trocknen und abschließen; einen\n> gleichen Teil erhitzen und abschließen; Trockengut auf Heizstufe II.",
+          "sha256": "67bafd8836bb5fbce962d8d89be495aaae61a075179cd7586dd28918210a0c03"
+        },
+        {
+          "path": "experiments/yolo/gdt686_v59_dain_daiin_qodaiin_value_head_dispatch/REPORT.md",
+          "line": 111,
+          "line_end": 124,
+          "quote": "| f112v.10#1 `dain` | Feuchtgrad II | rechts `sheey` |\n| f116r.12#5 `dain` | zwei Portionen des erhitzten, nachgetrockneten Drogenmaterials | links |\n| f116r.12#11 `dain` | zwei Portionen der Rohdroge I im kalten Anfangsansatz | links |\n| f56r.6#5 `daiin` | Qualitätsgrad III des heißen Endzustands | links `keey` |\n| f76v.10#9 `daiin` | drei Portionen des eingeweichten Arzneikompositums | links |\n| f83v.12#1 `daiin` | drei Portionen feuchten Arzneikompositums | rechts |\n| f86v3.13#5 `qodaiin` | drei Portionen der ersten erhitzten Ansatzfraktion | rechts `olkar` |\n| f86v6.5#5 `daiin` | drei Portionen der ersten erhitzten Ansatzfraktion | links `olkar` |\n| f88r.19#3 `daiin` | Qualitätsgrad III des heißen Trockenabsuds | links `chokol` |\n| f8r.15#7 `daiin` | drei Materialmaße | rechts `dol` |\n\nDiese Defaults sind absichtlich mutiger als die globale Karte. Zehn tragen\nAMBER, einer GREEN. Jeder behält seinen stärksten lokalen Rivalen im\nPositionsartefakt; im praktischen Text erscheint dennoch nur eine Lesung.",
+          "sha256": "67bafd8836bb5fbce962d8d89be495aaae61a075179cd7586dd28918210a0c03"
+        }
+      ]
+    },
+    {
+      "target": "CLEAN_GAP_DS:f8_three_material_measures",
+      "decision": "approve",
+      "claim_type": "semantic_model",
+      "reason": "The full686145–153 reading retains three material measures and the fourth measured lightly dried fraction with composite. No extra taking/joining is sourced to daiin. This is not reducible to a bare numerical gloss.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt686_v59_dain_daiin_qodaiin_value_head_dispatch/REPORT.md",
+          "line": 145,
+          "line_end": 153,
+          "quote": "f8r.15 sagt nun schlicht:\n\n> Arzneikompositumstoff: trocken, bis zur Mittelstufe; eine Charge unter Wärme\n> getrockneter Droge leicht nachtrocknen; trocken auf Anfangsstufe. Drei\n> Materialmaße; die vierte abgemessene, leicht getrocknete Fraktion mit\n> Arzneikompositum auf Anfangsstufe ansetzen.\n\n`daiin` erzeugt dabei weder „abnehmen“ noch „verbinden“. Ein Verb bleibt nur\nerhalten, wenn eine andere bereits lizenzierte Karte es trägt.",
+          "sha256": "67bafd8836bb5fbce962d8d89be495aaae61a075179cd7586dd28918210a0c03"
+        },
+        {
+          "path": "experiments/yolo/gdt686_v59_dain_daiin_qodaiin_value_head_dispatch/REPORT.md",
+          "line": 111,
+          "line_end": 124,
+          "quote": "| f112v.10#1 `dain` | Feuchtgrad II | rechts `sheey` |\n| f116r.12#5 `dain` | zwei Portionen des erhitzten, nachgetrockneten Drogenmaterials | links |\n| f116r.12#11 `dain` | zwei Portionen der Rohdroge I im kalten Anfangsansatz | links |\n| f56r.6#5 `daiin` | Qualitätsgrad III des heißen Endzustands | links `keey` |\n| f76v.10#9 `daiin` | drei Portionen des eingeweichten Arzneikompositums | links |\n| f83v.12#1 `daiin` | drei Portionen feuchten Arzneikompositums | rechts |\n| f86v3.13#5 `qodaiin` | drei Portionen der ersten erhitzten Ansatzfraktion | rechts `olkar` |\n| f86v6.5#5 `daiin` | drei Portionen der ersten erhitzten Ansatzfraktion | links `olkar` |\n| f88r.19#3 `daiin` | Qualitätsgrad III des heißen Trockenabsuds | links `chokol` |\n| f8r.15#7 `daiin` | drei Materialmaße | rechts `dol` |\n\nDiese Defaults sind absichtlich mutiger als die globale Karte. Zehn tragen\nAMBER, einer GREEN. Jeder behält seinen stärksten lokalen Rivalen im\nPositionsartefakt; im praktischen Text erscheint dennoch nur eine Lesung.",
+          "sha256": "67bafd8836bb5fbce962d8d89be495aaae61a075179cd7586dd28918210a0c03"
+        }
+      ]
+    },
+    {
+      "target": "CLEAN_GAP_DS:dchey_scope_action_result",
+      "decision": "approve",
+      "claim_type": "functional_hypothesis",
+      "reason": "The wholeform action/result split,14 current plus one f81r source count and removal of automatic closure are explicit. Keep the comparison as inherited source analysis, not a new audit proving D+CH+E+Y or exact source identity of all events.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt687_v60_dchey_y_dy_action_result_boundary_dispatch/REPORT.md",
+          "line": 26,
+          "line_end": 43,
+          "quote": "### `dchey`\n\nDie vierzehn aktuellen Stellen teilen sich exakt nach Scope. Neun\nzeileninitiale Instruktionsstellen erhalten den Arbeitswert:\n\n> eine abgemessene Portion bis zur Mittelstufe trocknen\n\nFünf mediale oder unmittelbar wertgebundene Stellen erhalten den\nResultatwert:\n\n> fertige abgemessene Mittelstufen-Trockenportion\n\nMit der f81r-Quellstelle lautet der globale Arbeitszensus 10 Aktionen zu 5\nResultaten. Das ist eine Ganzform- und Scopekarte, kein sicher zerlegtes Wort:\nGDT675 verwendet `D+CH+E+Y`, während vier ältere exakte GDT425-Ereignisse\n`CH+E+Y` und ausdrücklich `has_close=NO` tragen. V60 behält deshalb die\npraktische Lesung, entfernt aber jeden automatisch ergänzten Schluss und lässt\ndie interne Zerlegung offen.",
+          "sha256": "be98f122e332ec6c3237b83efa60c51511d73fc6cd37e46975841971927dc849"
+        }
+      ],
+      "minor_precision_recommendation": "Prefer “older exact cases explicitly carry has_close=NO” to “lack has_close”: the source reports a negative flag, not a missing field. No scientific content change intended."
+    },
+    {
+      "target": "CLEAN_GAP_DS:six_local_hot_wood_extract_rivals",
+      "decision": "approve",
+      "claim_type": "lexical_hypothesis",
+      "reason": "693 explicitly states the complete hot-wood-extract share rival and all six loci.692 provides the predecessor context classification, not six independent semantic confirmations. The assertion does not translate all olkar or prove product separation.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt693_ar_head_semantic_tournament/REPORT.md",
+          "line": 115,
+          "line_end": 119,
+          "quote": "Six `olkar` contexts make a Holz product plausible through soaking, heating,\nmacerate context, subsequent additions or established amount binding. Their\napparatus reading is **Anteil I des heißen Holzauszugs** rather than **Anteil I\ndes heißen Holzansatzes**. They occur at f75r.3, f80r.17, f80v.35, f83v.12,\nf86v3.13 and f86v6.5.",
+          "sha256": "7c3b4ad0c18e0c36a069f316b74b216f68edff61eeb242a910a15daa957552b5"
+        },
+        {
+          "path": "experiments/yolo/gdt692_o_q_fraction_sister_compositor/REPORT.md",
+          "line": 49,
+          "line_end": 59,
+          "quote": "\nV64 promoted `oar`, `okar`, `otar`, `otair`, `olkar`, and `olkaiir` as product\nwholes. That produced fluent local German, but changed the head on only one\nside of written contrasts such as `okar/qokar`, `otar/qotar` and `otar/otair`.\nV65 therefore keeps one fraction head by default.\n\nThe product reading remains locally useful. A complete audit of all seventeen\n`olkar/olkaiir` positions found six strong, four medium and seven weak\nHolzauszug contexts. The six strong rivals are retained at f75r.3, f80r.17,\nf80v.35, f83v.12, f86v3.13 and f86v6.5. They are local alternatives, not a\nglobal translation of `olkar`.",
+          "sha256": "c534903b864124cda93a4966c0d36ae2b74be41849a76d7a2e8f8d24abdaaa0c"
+        }
+      ]
+    },
+    {
+      "target": "CLEAN_GAP_DS:f8_three_item_result_bundle",
+      "decision": "approve",
+      "claim_type": "functional_hypothesis",
+      "reason": "707 explicitly proposes one possible local three-item result, records #1→#4 while keeping #2/#3 inside the bundle, and denies repeated quantity, confirmed portion identity, completion, written punctuation or portable syntax. This is a valid narrowly qualified source proposition, not a new score-ready relation packet.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt707_v80_three_item_material_state_result_bundle/REPORT.md",
+          "line": 5,
+          "line_end": 15,
+          "quote": "The full comparison leaves one best three-item result bundle:\n\n> **f8r.15#1-4:** Eine abgemessene Portion bis zur Mittelstufe trocknen. Als\n> möglicher Ergebnisblock folgt: Drogenstoff aus Arzneikompositum – trocken;\n> trocken in der Mitte des Grades.\n\nThis is more informative than an action followed by a generic object. The\nwritten sequence supplies, in order, a material, its broad dry quality, and the\nsame middle degree named by the action. C020 records that local reading as\n`#1 → #4`; #2 and #3 remain inside the visible result bundle rather than being\nskipped or promoted to invented edges.",
+          "sha256": "50bd08ff0ce9e3197f60135bbeb7fae53669b6f0e090747a8c2b39ac758e37db"
+        },
+        {
+          "path": "experiments/yolo/gdt707_v80_three_item_material_state_result_bundle/REPORT.md",
+          "line": 43,
+          "line_end": 53,
+          "quote": "## Exact limits of the reading\n\n- `abgemessene Portion` belongs to #1; no quantity is repeated in #2-4.\n- The identity of that portion with #2's drug material is possible locally but\n  not written as a proven link.\n- Middle degree is not completion; C020 adds no finished-state claim.\n- The boundary after #4 has no punctuation. It is inferred locally from #5's\n  charge/heat description together with #6's reset to the beginning grade.\n- The one `ckhol`, six `chol`, three `chey`, and nine action-form `dchey`\n  occurrences do not support a portable word or syntax rule.\n",
+          "sha256": "50bd08ff0ce9e3197f60135bbeb7fae53669b6f0e090747a8c2b39ac758e37db"
+        }
+      ]
+    }
+  ],
+  "source_disposition_reviews": [
+    {
+      "selection_index": 0,
+      "source_id": "LEGACY_COMPONENT:2629616b7d589f5996e2",
+      "author_decision": "existing_whole_assertion_audit_only",
+      "decision": "approve",
+      "reason": "Current BP integrated card reproduces the entire fluent f105v.1 recipe, not merely its atoms; no additional source case.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt682_final_seven_hole_line_completion/REPORT.md",
+          "line": 38,
+          "line_end": 67,
+          "quote": "## Konkrete Lesung von f105v.1\n\nZL3b:\n\n`polairy oair olpcheey ykaiin olpchedy opchedaiin dairody ypcheddy sairy`\n\nTokenparallel:\n\n> abgeschlossene zweite Pulverstofffraktion · zweite Ansatzfraktion · trocken\n> gebundenes Holzdrogenpulver, Form II · hiervon auf Stufe III erhitzen ·\n> fertiggestelltes Trockenpulver aus Holzdrogenansatz · drei Dosen bis zur\n> Mittelstufe getrockneter Pulveransatz · fertiggestellte abgemessene\n> Ansatzfraktion II · hieraus Pulver bis zur Mittelstufe trocknen, die\n> Trocknung abschließen und das Pulver fertigstellen · abgeschlossene zweite\n> Saatgutfraktion.\n\nPraxislesung:\n\n> Abgeschlossene zweite Pulverstofffraktion: zweite Ansatzfraktion; trocken\n> gebundenes Holzdrogenpulver, Form II. Dieses auf Stufe III erhitzen; Ergebnis\n> ist fertiges Trockenpulver aus Holzdrogenansatz. Fertiggestellte, abgemessene\n> zweite Ansatzfraktion: drei Dosen des bis zur Mittelstufe getrockneten\n> Pulveransatzes. Hieraus das Pulver der abgeschlossenen zweiten Saatgutfraktion bis zur\n> Mittelstufe trocknen, die Trocknung abschließen und das Pulver\n> fertigstellen.\n\nDas ist nicht länger „Arbeitsgut nehmen und weiterarbeiten“, sondern eine\nprüfbare Arbeitslesung mit Pulver, Holzdroge, Fraktion II, Heizstufe III, drei\nDosen, Mittelstufentrocknung und Samenfraktion II.\n",
+          "sha256": "141205640faa9d3929211eb10edd0d056606f748a10409926f694dd9fbb2f726"
+        }
+      ],
+      "counterpart_ids": [
+        "SEM:ffd01b77f118ca868019"
+      ]
+    },
+    {
+      "selection_index": 1,
+      "source_id": "LEGACY_COMPONENT:5d0269045f419eff54ac",
+      "author_decision": "historical_assertion_recovered",
+      "decision": "approve",
+      "reason": "Recover the explicit full historical content/contract; examples remain local and not new independent mechanisms.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt682_final_seven_hole_line_completion/REPORT.md",
+          "line": 70,
+          "line_end": 73,
+          "quote": "Sechzehn der 17 Zielpositionen sind in IT2a und RF1b als Ganzwort exakt. Auf\nf111v.33 bewahren ZL3b und RF1b `oair`, während IT2a `qoair` schreibt. Deshalb\nbleibt „zweite Ansatzfraktion“ der portable Default; lokal darf IT2a „zweite\nAnsatzfraktion nehmen“ bedeuten.",
+          "sha256": "141205640faa9d3929211eb10edd0d056606f748a10409926f694dd9fbb2f726"
+        }
+      ],
+      "counterpart_ids": []
+    },
+    {
+      "selection_index": 2,
+      "source_id": "LEGACY_COMPONENT:9e1e901b911d29ba1686",
+      "author_decision": "historical_assertion_recovered",
+      "decision": "fix_incomplete_proposition_coverage",
+      "reason": "The selected paragraph75–83 additionally keeps Abziehen or a scribal expansion as rivals for the extra d-function in ypcheddy. The recovered attachment and dairody imperative cards do not preserve those distinct alternatives. Current complete ypcheddy cards state the selected whole instruction or parse, not these rivals. Do not mark this selected paragraph fully proposition-covered merely because it is quoted.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt682_final_seven_hole_line_completion/REPORT.md",
+          "line": 75,
+          "line_end": 83,
+          "quote": "Die größte verbleibende Unsicherheit ist nicht mehr das Materialfeld, sondern\ndie zusätzliche `d`-Funktion in `ypcheddy`. Die Arbeitslesung bewahrt die\nsichtbare Reihenfolge als `pched+dy`: Trocknung abschließen, dann das Pulver\nfertigstellen. „Abziehen“ oder eine Schreibererweiterung bleiben echte Rivalen.\nAuch die Bindung an das folgende `sairy` ist vorläufig; ein Rückverweis auf\n`dairody` mit anschließendem eigenständigem Samenfraktionsabschluss bleibt\noffen.\nEbenso kann `dairody` an einzelnen Stellen imperativ als „zweite Fraktion\nabmessen und als Ansatz fertigstellen“ gelesen werden.",
+          "sha256": "141205640faa9d3929211eb10edd0d056606f748a10409926f694dd9fbb2f726"
+        }
+      ],
+      "counterpart_ids": [
+        "SEM:8ed4a69e20dfcb4579f9",
+        "SEM:b6cbf87d9480737a5ad2"
+      ],
+      "required_action": "Preserve the bound additional-d/wholeform-analysis alternatives separately, or leave exactly that comparison open for targeted resolution. Never extract unrestricted d=Abziehen or ypcheddy=Abziehen from this sentence."
+    },
+    {
+      "selection_index": 3,
+      "source_id": "LEGACY_COMPONENT:78e34c55226b3988668b",
+      "author_decision": "historical_assertion_recovered",
+      "decision": "approve",
+      "reason": "Recover the explicit full historical content/contract; examples remain local and not new independent mechanisms.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt683_ol_semantic_debt_reconciliation/REPORT.md",
+          "line": 101,
+          "line_end": 105,
+          "quote": "Sieben Zeilen enthalten benachbarte `ol ol`. GDT683 erfindet daraus weder ein\nzweites Lexem noch eine Maßeinheit. Der Literalrenderer bleibt\n`Grundansatz | Grundansatz`; sechs Kontexte bleiben zwei getrennte nominale\nGrundansatz-Einträge. Nur f81r.5 besitzt mit einleitendem `qol` einen\nlizenzierten Aktionsscope und liest das Paar als Grundansatz in zwei Zugaben.",
+          "sha256": "09b1289942202bc1d43ac0b35e20e2cdf7d57c515fb6454906b081b9ad8febe3"
+        }
+      ],
+      "counterpart_ids": []
+    },
+    {
+      "selection_index": 4,
+      "source_id": "LEGACY_COMPONENT:baa7ad8738a06a3dbad7",
+      "author_decision": "existing_claim_confidence_limit",
+      "decision": "approve",
+      "reason": "Grundansatz is already a card. GDT684117–130 distinguishes renderer cleanup from meaning confirmation; this is scope/assessment, not a new meaning.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt684_v57_complete_semantic_debt_census/REPORT.md",
+          "line": 117,
+          "line_end": 120,
+          "quote": "GDT683 entfernte an fünf freien `ol`-Stellen den alten Metatext und setzte\n`Grundansatz` ein. Das war als Rendererreparatur sinnvoll, aber die\nLeserübereinstimmung stützt primär die Wortgrenze, nicht die Bedeutung.\nGDT664 führt die Karte ausdrücklich als:",
+          "sha256": "036ce8a40cad923e61ff2b42cb6260a590553c45e3f309b75061c94832f5efbb"
+        }
+      ],
+      "counterpart_ids": [
+        "SEM:f2d87edc66b728af6e7a"
+      ]
+    },
+    {
+      "selection_index": 5,
+      "source_id": "LEGACY_COMPONENT:9058de55a4e671f9cce5",
+      "author_decision": "historical_assertion_recovered",
+      "decision": "approve",
+      "reason": "Recover the explicit full historical content/contract; examples remain local and not new independent mechanisms.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt686_v59_dain_daiin_qodaiin_value_head_dispatch/REPORT.md",
+          "line": 126,
+          "line_end": 154,
+          "quote": "## Was die Übersetzung jetzt tatsächlich sagt\n\nf10r.2 verliert eine erfundene Entnahmehandlung:\n\n> Eine Portion Blatt- oder Krautansatz bis zur Mittelstufe trocknen und\n> abschließen. Erste und zweite Trockenfraktion kalt-trocken ansetzen und mit\n> einer Ansatzcharge sowie nachgekühltem Trockenstoff verbinden. Den Ansatz\n> leicht erhitzen: Qualitätsgrad III; anschließend bis zur Mittelstufe kühlen\n> und abschließen.\n\nf86v3.13 wird zu einer sichtbaren Rezeptliste statt eines versteckten\nLayerwechsels:\n\n> Vollständig eingeweichter Ansatz; eine Portion vollständig eingeweichte\n> Droge. Abkühlen, bis zur Mittelstufe trocknen, ansetzen und fertigstellen.\n> Heizstufe II; drei Portionen der ersten erhitzten Ansatzfraktion; drei Dosen\n> Trockendroge. Hierzu bis zur Mittelstufe trocknen und abschließen; einen\n> gleichen Teil erhitzen und abschließen; Trockengut auf Heizstufe II.\n\nf8r.15 sagt nun schlicht:\n\n> Arzneikompositumstoff: trocken, bis zur Mittelstufe; eine Charge unter Wärme\n> getrockneter Droge leicht nachtrocknen; trocken auf Anfangsstufe. Drei\n> Materialmaße; die vierte abgemessene, leicht getrocknete Fraktion mit\n> Arzneikompositum auf Anfangsstufe ansetzen.\n\n`daiin` erzeugt dabei weder „abnehmen“ noch „verbinden“. Ein Verb bleibt nur\nerhalten, wenn eine andere bereits lizenzierte Karte es trägt.\n",
+          "sha256": "67bafd8836bb5fbce962d8d89be495aaae61a075179cd7586dd28918210a0c03"
+        }
+      ],
+      "counterpart_ids": []
+    },
+    {
+      "selection_index": 6,
+      "source_id": "LEGACY_COMPONENT:caa6dbf24c9212b30b5e",
+      "author_decision": "historical_assertion_recovered",
+      "decision": "approve",
+      "reason": "Recover the explicit full historical content/contract; examples remain local and not new independent mechanisms.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt687_v60_dchey_y_dy_action_result_boundary_dispatch/REPORT.md",
+          "line": 38,
+          "line_end": 43,
+          "quote": "Mit der f81r-Quellstelle lautet der globale Arbeitszensus 10 Aktionen zu 5\nResultaten. Das ist eine Ganzform- und Scopekarte, kein sicher zerlegtes Wort:\nGDT675 verwendet `D+CH+E+Y`, während vier ältere exakte GDT425-Ereignisse\n`CH+E+Y` und ausdrücklich `has_close=NO` tragen. V60 behält deshalb die\npraktische Lesung, entfernt aber jeden automatisch ergänzten Schluss und lässt\ndie interne Zerlegung offen.",
+          "sha256": "be98f122e332ec6c3237b83efa60c51511d73fc6cd37e46975841971927dc849"
+        }
+      ],
+      "counterpart_ids": []
+    },
+    {
+      "selection_index": 7,
+      "source_id": "LEGACY_COMPONENT:73a23b3d63eaae439833",
+      "author_decision": "rival_support_for_recovered_card",
+      "decision": "approve",
+      "reason": "Six local product contexts support the explicitly formulated GDT693 rival recovered from selection8. No separate second claim or six independent discoveries.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt692_o_q_fraction_sister_compositor/REPORT.md",
+          "line": 55,
+          "line_end": 59,
+          "quote": "The product reading remains locally useful. A complete audit of all seventeen\n`olkar/olkaiir` positions found six strong, four medium and seven weak\nHolzauszug contexts. The six strong rivals are retained at f75r.3, f80r.17,\nf80v.35, f83v.12, f86v3.13 and f86v6.5. They are local alternatives, not a\nglobal translation of `olkar`.",
+          "sha256": "c534903b864124cda93a4966c0d36ae2b74be41849a76d7a2e8f8d24abdaaa0c"
+        }
+      ],
+      "counterpart_ids": []
+    },
+    {
+      "selection_index": 8,
+      "source_id": "LEGACY_COMPONENT:92cdf7bc73e5d409e46b",
+      "author_decision": "historical_assertion_recovered",
+      "decision": "approve",
+      "reason": "Recover the explicit full historical content/contract; examples remain local and not new independent mechanisms.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt693_ar_head_semantic_tournament/REPORT.md",
+          "line": 115,
+          "line_end": 119,
+          "quote": "Six `olkar` contexts make a Holz product plausible through soaking, heating,\nmacerate context, subsequent additions or established amount binding. Their\napparatus reading is **Anteil I des heißen Holzauszugs** rather than **Anteil I\ndes heißen Holzansatzes**. They occur at f75r.3, f80r.17, f80v.35, f83v.12,\nf86v3.13 and f86v6.5.",
+          "sha256": "7c3b4ad0c18e0c36a069f316b74b216f68edff61eeb242a910a15daa957552b5"
+        }
+      ],
+      "counterpart_ids": []
+    },
+    {
+      "selection_index": 9,
+      "source_id": "LEGACY_COMPONENT:0f104ce6b33d96b13418",
+      "author_decision": "historical_editorial_rationale",
+      "decision": "fix_editorial_only_disposition",
+      "reason": "The comparator is historical rationale, but the same source section also states a content policy: technical Fraktion remains a serious rival without implying a distillate; product extraction must not be asserted by the R head itself and Auszug is reserved for separately supported local product contexts. The six concrete Holzauszug examples do not fully address that rule. No current source-linked GDT693 card was located in this bounded comparison.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt693_ar_head_semantic_tournament/REPORT.md",
+          "line": 130,
+          "line_end": 137,
+          "quote": "It loses the main channel because ordinary modern German strongly invites a\nseparated-product reading. A near-period positive control illustrates the\ndifference: the late-fourteenth-/early-fifteenth-century\n[*Anonimo Mediano*](https://corpus.atliteg.org/opera/anonimo-mediano/86) calls a\nproduct *prima colatura* only after cloth straining, separate collection and\nreservation. V66 reserves *Auszug/Holzauszug* for independently supported\nproduct contexts instead of allowing the R head itself to assert that\nworkflow.",
+          "sha256": "7c3b4ad0c18e0c36a069f316b74b216f68edff61eeb242a910a15daa957552b5"
+        }
+      ],
+      "counterpart_ids": [],
+      "required_action": "Keep the explicit technical-share/product-policy proposition available for an exact current full-counterpart comparison or source recovery. Do not equate author-described support with independently observed Voynich product evidence. A formatting/editorial label alone cannot dismiss this semantic commitment."
+    },
+    {
+      "selection_index": 10,
+      "source_id": "LEGACY_COMPONENT:bc0e7840520bf4104fc6",
+      "author_decision": "existing_whole_model_audit_only",
+      "decision": "approve",
+      "reason": "M008 explicitly preserves unbound MengeIII separately from the heated preparation share; the selected no-binding statement is a limit on the same full local model.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt699_v72_objectless_deictic_heat_frame/REPORT.md",
+          "line": 26,
+          "line_end": 29,
+          "quote": "The immediately preceding V68 block is exactly `oar|aiin`, but it contains two\nsemantic units and no binding.  GDT693 types `oar` through its bounded share\nslot as *Anteil I des Ansatzes*.  The second token is separately *Menge III*\nand has no inherited relation role or edge.",
+          "sha256": "39153d92f4b25d34d7a812addde7eb758bf54f9b605096050924aff48eb4d56d"
+        }
+      ],
+      "counterpart_ids": [
+        "SEM:66f7286549b0fc8a93fe"
+      ]
+    },
+    {
+      "selection_index": 11,
+      "source_id": "LEGACY_COMPONENT:e19d8a9eff5aa00ee229",
+      "author_decision": "existing_whole_models_with_scope_limits",
+      "decision": "approve",
+      "reason": "M008/M009 already include unbound quantity, state checkpoint and hypothetical heated-herb persistence. Node/hull/outside-dy distinctions are relation-evidence limits, not extra semantic edges.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt701_v74_cumulative_relation_components/REPORT.md",
+          "line": 29,
+          "line_end": 47,
+          "quote": "## What is deliberately not smuggled into the reading\n\nThe graph has 23 unique edge nodes and 25 edge incidences.  Only\n`f80v.35#3` and `f86v6.25#4` are genuine shared nodes.  Two visually intervening\npositions are not nodes:\n\n- `f86v5.24#2 aiin` is an unbound quantity register inside the C010 hull;\n- `f26r.2#5 chedy` is an exact state checkpoint inside the C011 hull.\n\nThe free `dy` at `f26r.2#7` is retained only to close the rendered clause; it\nlies outside C011's #4--#6 hull.  These distinctions prevent readable prose\nfrom silently becoming extra relation evidence.\n\nM009 is the only component whose material persistence is itself an inferred\nB-tier action-output link.  The source action writes *Krautdroge* as its\npatient, but it writes no separate word meaning “heated herb.”  M008 likewise\ndoes not attach “Menge III” to the heating object.  These brackets expose the\nremaining uncertainty instead of replacing it with generic filler.\n",
+          "sha256": "68b95cd1ca5da5651ebfc4ebd7667760a0bb4e9dae6507fbaf60da9db890e7a0"
+        }
+      ],
+      "counterpart_ids": [
+        "SEM:66f7286549b0fc8a93fe",
+        "SEM:1383f723ae5672dc98a4"
+      ],
+      "scope_limit": "M008/M009 match the interpreted local contents, but graph incidence counts and which intermediate positions are nodes remain separate formal evidence qualifications. Neither prose nor hull membership creates additional semantic edges."
+    },
+    {
+      "selection_index": 12,
+      "source_id": "LEGACY_COMPONENT:01e95f37740e11f7e22e",
+      "author_decision": "prior_partial_readings_retained_scope_open",
+      "decision": "approve_explicit_limited_remainder",
+      "reason": "The selected text preserves five shorter readings without listing their full values. DS correctly does not claim their full comparison completed. DV owns the separate detailed five-path investigation; this peer does not duplicate or pre-judge it.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt707_v80_three_item_material_state_result_bundle/REPORT.md",
+          "line": 38,
+          "line_end": 41,
+          "quote": "Several shorter prefixes remain interesting even when their full three-item\nextension stops. In particular A073, A070, A029, A017 and A004 retain their\nearlier partial readings; GDT707 only says that their next item does not yet\nform one coherent three-item result block. Nothing is globally discarded.",
+          "sha256": "50bd08ff0ce9e3197f60135bbeb7fae53669b6f0e090747a8c2b39ac758e37db"
+        }
+      ],
+      "counterpart_ids": []
+    },
+    {
+      "selection_index": 13,
+      "source_id": "LEGACY_COMPONENT:95df3149d1d623666f64",
+      "author_decision": "historical_assertion_recovered",
+      "decision": "approve",
+      "reason": "Recover the explicit full historical content/contract; examples remain local and not new independent mechanisms.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt707_v80_three_item_material_state_result_bundle/REPORT.md",
+          "line": 43,
+          "line_end": 53,
+          "quote": "## Exact limits of the reading\n\n- `abgemessene Portion` belongs to #1; no quantity is repeated in #2-4.\n- The identity of that portion with #2's drug material is possible locally but\n  not written as a proven link.\n- Middle degree is not completion; C020 adds no finished-state claim.\n- The boundary after #4 has no punctuation. It is inferred locally from #5's\n  charge/heat description together with #6's reset to the beginning grade.\n- The one `ckhol`, six `chol`, three `chey`, and nine action-form `dchey`\n  occurrences do not support a portable word or syntax rule.\n",
+          "sha256": "50bd08ff0ce9e3197f60135bbeb7fae53669b6f0e090747a8c2b39ac758e37db"
+        }
+      ],
+      "counterpart_ids": []
+    },
+    {
+      "selection_index": 14,
+      "source_id": "LEGACY_COMPONENT:9523b6b15c22ec2e7d6a",
+      "author_decision": "existing_whole_assertion_and_dossier_audit_only",
+      "decision": "approve",
+      "reason": "Current A048 card and CY hold dossier preserve the possible terminal product and explicit no-edge limits. Do not convert author-ranked strongest hold into semantic success or failure.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt709_v82_complete_first_terminal_product_census/REPORT.md",
+          "line": 26,
+          "line_end": 40,
+          "quote": "## Best new working reading\n\n> **A048 / f77r.38#3-5:** Endportion hinzugeben. Danach steht: heiß, Grad III.\n> Mögliches terminales Produkt: abgeschlossenes, bis zur Mittelstufe\n> getrocknetes Arzneikompositum.\n\nThis is not generic renderer filler. It names an input portion, a thermal and\ndegree attribute, and a material-bearing terminal product. It is the strongest\nnew exploratory hold because the block is short and ends exactly at #5.\n\nIt is not yet an edge. `Hinzunehmen` does not itself produce drying or closure;\nGrad III changes to Mittelstufe; and the action surface `qoeedy` is a singleton\nin the frozen 479-token layer. The useful conclusion is therefore\n`HIGH_HOLD_NO_EDGE`, not rejection and not a word default.\n",
+          "sha256": "8ebf1d0a20ad1f50d0ed8185b8d65637936626e43fe09f1b0fc2147ba64a5e0d"
+        }
+      ],
+      "counterpart_ids": [
+        "SEM:14f954b4c260354e1a3a"
+      ]
+    }
+  ],
+  "coverage_fix_additional_evidence": [
+    {
+      "path": "experiments/yolo/gdt693_ar_head_semantic_tournament/REPORT.md",
+      "line": 121,
+      "line_end": 137,
+      "quote": "This is a change of local referent, not a second meaning for R. The selected\nmain therefore does not infer extraction wherever `olkar` occurs.\n\n## Why Fraktion remains a serious runner-up\n\nV65 used *Fraktion* in the technical sense “selected mixture share or material\nclass,” never as a claimed distillate. In that restricted sense it passes the\nsame morphological tests as *Anteil* and remains the closest rival.\n\nIt loses the main channel because ordinary modern German strongly invites a\nseparated-product reading. A near-period positive control illustrates the\ndifference: the late-fourteenth-/early-fifteenth-century\n[*Anonimo Mediano*](https://corpus.atliteg.org/opera/anonimo-mediano/86) calls a\nproduct *prima colatura* only after cloth straining, separate collection and\nreservation. V66 reserves *Auszug/Holzauszug* for independently supported\nproduct contexts instead of allowing the R head itself to assert that\nworkflow.",
+      "sha256": "7c3b4ad0c18e0c36a069f316b74b216f68edff61eeb242a910a15daa957552b5"
+    }
+  ],
+  "counterpart_bindings": [
+    {
+      "id": "SEM:1383f723ae5672dc98a4",
+      "claim": "Local reading model M009: Hiervon Krautdroge bis zur Mittelstufe erhitzen und abschließen [Quelle von „hiervon“ offen]. [Zustandsvermerk ohne eigenen Materialträger: Mittlere Trockenstufe erreicht.] Die erhitzte Krautdroge bis zur Mittelstufe abkühlen und abschließen [C011-Arbeitshypothese]",
+      "basis": "e87a220084e51ef0799f97fc9783856a293be2538ff4e0f747d79e005743dd20",
+      "effective_basis": "135e481fe9f8b6b685354a65bde714d8acf7e5bea79c47a8e2205d055c5b00ad"
+    },
+    {
+      "id": "SEM:14f954b4c260354e1a3a",
+      "claim": "GDT709 A048/f77r.38#3–5 is tentatively read as adding an end portion, followed by hot grade III, with a possible terminal completed medicinal composite dried to the middle stage.",
+      "basis": "8bcf569dec2aa2cede823dfb71082c746e13cfd3b038916ab65a9583a73656a3",
+      "effective_basis": "b532e8a0c8fc53550db4861aaf134c98adf316d79eeea92cb8d2c4635d2ae345"
+    },
+    {
+      "id": "SEM:1723b9e0ca78252eff4d",
+      "claim": "oair → zweite Ansatzfraktion",
+      "basis": "bead223d1afb89c43d0ac3db1f82d9139d463d5b49a024d79a4936339033d882",
+      "effective_basis": "be5cba154fbfdd86646788f72abdcc3d1357b01e21a63f0b4ef313f9c10f3f95"
+    },
+    {
+      "id": "SEM:66f7286549b0fc8a93fe",
+      "claim": "Local reading model M008: Anteil I des Ansatzes. [Ungebundene Mengenangabe #2: „Menge III“.] Den Ansatzanteil auf Stufe II erhitzen",
+      "basis": "240b04dbb2fb2cebce4f60ff1b4885d75e9629e6545597b8e6b293cd19e6d090",
+      "effective_basis": "6055c7fc093d4696bb36261c14f0ff0e891c9a8cc04f5343f80be196e638a80b"
+    },
+    {
+      "id": "SEM:7e748b6bc3ca610507e3",
+      "claim": "dairody → fertiggestellte abgemessene Ansatzfraktion II",
+      "basis": "fcb3627270ee038b339907f5a539506fef633165508a5c819a115405b54ff251",
+      "effective_basis": "23b63e9b7d7d6902b170c2662b1ed991606a51156c0f77cde5e494c89b7f9f76"
+    },
+    {
+      "id": "SEM:8ed4a69e20dfcb4579f9",
+      "claim": "ypcheddy → hieraus Pulver bis zur Mittelstufe trocknen, die Trocknung abschließen und das Pulver fertigstellen",
+      "basis": "1a9a7d630d33b94fdd78f7730f46436a0266b28494bf2336a2cc739f941084bb",
+      "effective_basis": "1dcc130242010502bf454f6d38ee856ed038b3ab7ce1dbfe5112b3fa9851f841"
+    },
+    {
+      "id": "SEM:b6cbf87d9480737a5ad2",
+      "claim": "ypcheddy → y+pch+ed + DY",
+      "basis": "761ab40da5ec8b4aa448f71cf971d08b1ddbfa07afdfa5345e4f5c3811f79ac0",
+      "effective_basis": "d4a364811ff9eb49a8410afb2b01e367afa76ea1d16eaa79a1e9f8ef9d572670"
+    },
+    {
+      "id": "SEM:f2d87edc66b728af6e7a",
+      "claim": "ol → Grundansatz",
+      "basis": "9417c142202fa4acd5e3c31d844adf1a681082c33ca8c873f8dc5f21764b5210",
+      "effective_basis": "e3856bbb86ec8144ca467032c0f7f994d344c5a09565d2d205cd4f020e1bb5ac"
+    },
+    {
+      "id": "SEM:ffd01b77f118ca868019",
+      "claim": "GDT682 gives this fluent f105v.1 powder-recipe reading: completed second powder-material fraction: second preparation fraction; dry-bound drug-wood powder, Form II. Heat this to stage III, yielding finished dry powder from a drug-wood preparation. Finished measured second preparation fraction: three doses of powder preparation dried to the middle stage. From this, dry the powder of the completed second seed fraction to the middle stage, finish drying and complete the powder. These are the source’s fluent attachments of the token readings, not an independently established recipe.",
+      "basis": "25c67dcf6c95522a98055a96fbcd6ec1d0cd71087c790b8cb4219bb8456920b3",
+      "effective_basis": "64dc170d8ac2a85a5003a135688fa096211c3f2d3443bb8901cebf7b6edd67be"
+    }
+  ],
+  "validation": {
+    "status": "PASS",
+    "cards_reviewed": 10,
+    "card_content_approved": 10,
+    "selected_spans_read": 15,
+    "dispositions_needing_fix": 2,
+    "preserved_DV_scope_remainder": 1,
+    "quote_sha_checks": 43,
+    "current_counterparts": 9
+  },
+  "limits": [
+    "Selected paragraphs and necessary attached contexts only; no blanket whole-report or source-history completion.",
+    "No new manuscript/TSV/image access or historic runner execution.",
+    "No operative changes. Ten valid cards may be integrated with their source limits; two disposition corrections must not disappear behind quote coverage.",
+    "Current clause outcomes and local product support remain authored working readings, not external semantic gold."
+  ]
+}

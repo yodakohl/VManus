@@ -1,0 +1,553 @@
+{
+  "review_id": "DX_PEER",
+  "status": "APPROVE_EIGHT_WITH_ONE_STATUS_WORDING_FIX",
+  "operational_mutation": false,
+  "input_hashes": {
+    "research_registry/decisions/clean_gap_review_dx.json": "79652711ad67bbe843c8ab94d53c984beee0c053bedd431df641a29b414dbf2c",
+    "research_registry/decisions/source_coverage_gap_batch_dx.json": "143965c8ac21b3e295a5bf155c59789656972adb246b42a6158fb673b68f1e8b"
+  },
+  "scope": {
+    "cards_reviewed": 8,
+    "selected_spans_fully_read": 15,
+    "all_selected_source_ids_reconciled": true,
+    "additional_primary_context": [
+      "GDT675 complete REPORT",
+      "GDT668 REPORT45–92",
+      "GDT679 REPORT84–135",
+      "GDT680 REPORT72–112"
+    ],
+    "limits": "Whole selected spans plus cited surrounding contexts, not a complete audit of every sibling assertion in all reports."
+  },
+  "card_reviews": [
+    {
+      "target": "CLEAN_GAP_DX:v44_hybrid_semantic_inventory",
+      "decision": "approve",
+      "reason": "V44 complete five-part specialist notation inventory is a substantive historical semantic organization, not just the generic V45 hybrid headline. Shared architecture alone does not establish identical full contracts; no independent new mechanism is asserted.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt667_one_hundred_one_residual_family_completion/REPORT.md",
+          "line": 124,
+          "line_end": 141,
+          "quote": "## What changed in the working theory\n\nV44 strengthens the hybrid-codebook model. The working register is best read\nas a mixture of reusable specialist abbreviations and learned whole cards, not\nas either a universal one-letter vocabulary or 1,274 unrelated words. The\nmost useful compositional positions are now:\n\n- command/reference heads such as `qo-`, `qol-`, and `y-`;\n- material and preparation heads such as `ol`, `cth`, `chor`, `so`, `cph`;\n- operations such as drying, moistening, heating, cooling, measuring, adding,\n  straining, and closing;\n- grade/form/quantity tails such as `e/ee/eee`, `an/ain/aiin`, and\n  `in/iin/iiin`;\n- a small exact vocabulary for forms whose internal spelling does not support\n  a reusable split.\n\nThis gives the notation places for concrete nouns and actions. It does not yet\nidentify the exact plant species, carrier liquid, disease, patient, or cure.",
+          "sha256": "9c0b839672401873a0bbb7c50df014a0c496cb6e817a9f081d2d26c37de8e3a1"
+        }
+      ],
+      "required_changes": []
+    },
+    {
+      "target": "CLEAN_GAP_DX:sqokeodaiin_local_measure_composition",
+      "decision": "approve",
+      "reason": "The full f88v.20 quantity/preparation interpretation is explicit; joined ZL and split IT/RF remain alternate readings of one manuscript. Exact SQOKEO block and inherited D_MEASURE+AIIN_III do not prove three doses or license sqo generally.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt668_seventy_six_residual_family_completion/REPORT.md",
+          "line": 60,
+          "line_end": 65,
+          "quote": "At f88v.20 ZL3b has the single surface `sqokeodaiin`, while IT2a and RF1b both\nshow `sqokeo daiin`. This licenses the exact left block\n`SQOKEO_SEED_HEAT_PREP`, “erhitzte Saatgutzubereitung der Mittelstufe,” before\nthe already known `D_MEASURE+AIIN_III`. The full reading is “drei Dosen\nerhitzter Saatgutzubereitung der Mittelstufe.” This does not create a free\n`sqo-` rule.",
+          "sha256": "1796c42adae42f06fec82af5f5cab327fd1c3b4649efabfd3f1535babd19dfa3"
+        }
+      ],
+      "required_changes": []
+    },
+    {
+      "target": "CLEAN_GAP_DX:v48_renderer_semantic_attachment",
+      "decision": "approve",
+      "reason": "The source explicitly gives these five semantic attachment restrictions. Approve the enumerated restrictions, not a claim that all twelve rules were reconstructed. No GDT600 raw/local source was accessed and its generic words are expressly not imported.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt672_v48_concrete_page_renderer/REPORT.md",
+          "line": 9,
+          "line_end": 17,
+          "quote": "## Was der Renderer tatsächlich tut\n\nV48 liefert Stoff-, Prozess-, Zustands-, Mengen- und Formwerte. Zwölf explizite Regeln binden nur vorhandene Slots: ein Imperativ braucht eine Aktionskarte, Mengen werden am Kopf typisiert, Prozessreihenfolge bleibt erhalten, nominale Zeilen bleiben Katalogzeilen und Unsicherheit bleibt sichtbar. Aus dem lokalen GDT600-Entwurf wurden nur diese Valenz- und Ordnungsprinzipien neu formuliert; seine Wörter `Stationsansatz`, `Arbeitsgang` und `Arbeitsstelle` werden nicht importiert.\n\nSechs Kontrollpassagen decken sechs Register, zwei Sprachen und drei Hände ab. Fünf sind in V48 vollständig; die sechste hält `dsheody` absichtlich offen. Damit prüft die Ausgabe sowohl konkrete Flüssigkeit als auch Abstinenz.\n\n## Grenze\n\nA complete exploratory f1r working reader: 129/214 positions inherit exact V48 cards; 85/214 positions use explicit f1r transfer cards, of which learned and occurrence-scoped cards are not promoted to V48. This does not establish plaintext, language, phonetics, a historical codebook, a plant identity, a disease, a patient, a cure, or manuscript-wide meanings.",
+          "sha256": "b1c6d5797a442cf21a04bf1f528a5019b1bfc10c23c7fe844cf81de5d075aecf"
+        }
+      ],
+      "required_changes": []
+    },
+    {
+      "target": "CLEAN_GAP_DX:f81r_mixed_register_model",
+      "decision": "approve",
+      "reason": "Page-specific mixture distinguishes fifteen action-bearing lines from sixteen lines without inherited action anchors, while permitting explicit new review compositions. This is not an assertion that the latter can never contain actions; source reader agreement remains only 11/13/3 among the 27 review positions. The older210-token/line wording is not exported as a new count.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt674_v49_f81r_concrete_renderer/REPORT.md",
+          "line": 5,
+          "line_end": 21,
+          "quote": "f81r ist jetzt auf allen 210 sichtbaren Tokens und allen 31 physischen Zeilen lesbar. 183 Positionen bzw. 103 Oberflächen bleiben unverändert aus V48. Die 27 Review-Positionen bzw. 25 Oberflächen bestehen aus 24 echten V48-Lücken, zwei zeileninitialen `y`-Eintragsmarkern und einem zeilenfinalen `dy`-Feldschluss. Davon sind 21 Positionen vollständig aus vorhandenen Rollen zusammengesetzt, 3 gelernte Ganzwörter und 3 occurrence-spezifische Kontextwerte.\n\nDie beste Seitenarchitektur ist kein durchgehender Imperativtext. Der obere Bildblock f81r.1–15 hat 94 Tokens, der untere f81r.16–31 hat 116. Fünfzehn Zeilen besitzen achtzehn bereits in V48 explizit lizenzierte Aktionsanker; sechzehn besitzen keinen solchen geerbten Anker und bleiben primär Stoff-, Zustands- oder Mengenregister, sofern nicht eine neue Review-Komposition einen Prozess vorschlägt. Der Arbeitswortschatz ist konkret: Saatgut, Holz-, Kraut-/Blatt-, Wurzel- und Blütendroge, Pulver und Arzneikomposita; Trocknen, Einweichen, Erhitzen, Kühlen, Abmessen, Zugeben und Abseihen; Grad-, Form-, Portions- und Fraktionswerte.\n\n## Warum dieser Renderer besser ist\n\nGDT416 machte alle 210 Token zu Imperativsätzen. 208/210 Zeilen enthielten generische Stations- oder Eintragsobjekte, 89 erbten eine nicht sichtbare Aktion und 114 ein nicht sichtbares Argument. GDT407s 48 alte f81r-Sätze enthalten 71 harte Füllworttreffer. Die neue Arbeitslesung enthält 0 solche Treffer und erfindet keine Carry-Aktion.\n\nSie bleibt trotzdem nicht künstlich präzise: 61 breite Träger wie Ansatz, Drogenstoff oder Species sind sichtbar. f81r besitzt derzeit keine Karte für ein bestimmtes Gefäß, Bad, Wasser, Wein, Öl, Salz, Patientin, Krankheit oder Heilung; diese Wörter werden daher nicht aus dem Bildkontext ergänzt.\n\n## Leser- und Abdeckungstest\n\nVon den 27 Review-Positionen sind 11 in IT2a und RF1b positionsgenau identisch, 13 in genau einem Leser und 3 in keinem. Die drei härtesten Leserstellen bleiben als Rivalen sichtbar. Die 24 echten Lücken schließen zwölf f81r-Zeilen; im globalen Overlay sinkt unbekannt 8018→7994 und vollständig 1368→1380.\n\n## Grenze\n\nA complete exploratory f81r working reader on the already admitted V48 panel: 183/210 positions inherit V48 unchanged and 27/210 are explicit review positions. The 24 former unknown positions receive replaceable page cards; none is silently promoted manuscript-wide. This does not establish plaintext, language, phonetics, a historical codebook, a plant identity, a disease, a patient, a cure, a vessel, a carrier liquid, or manuscript-wide meanings.",
+          "sha256": "8c2c77d04c660e82d3151e1a8b5af977868fe9cfa64633f6051764b1a3919a24"
+        }
+      ],
+      "required_changes": []
+    },
+    {
+      "target": "CLEAN_GAP_DX:v49_external_nine_scope_splits",
+      "decision": "approve",
+      "reason": "All nine scoped corrections are explicit. Four completed results are not new commands; dchey action/result follows source position; qol alone supplies addition; dshees requires a separate action anchor; olam/olkar retain O+L versus OL uncertainty. The report additionally identifies external olkar exceptions f85r2.5 olkor/ar and f95v1.7 oltar. Later GDT687 dchey-only correction cannot substitute for this whole historical bundle.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt675_f81r_card_occurrence_conflict_scan/REPORT.md",
+          "line": 37,
+          "line_end": 57,
+          "quote": "\n## Die neun Renderer-Korrekturen\n\nVier Karten behalten ihre Bytes, werden extern aber als Resultat statt als\nneuer Befehl gerendert:\n\n- `olpchedy`: fertiggestelltes Trockenpulver aus Holzdrogenansatz;\n- `alched`: Rohdroge I, bis zur Mittelstufe getrocknet und abgeschlossen;\n- `chcphey`: bis zur Mittelstufe getrocknetes, abgeschlossenes\n  Arzneikompositum;\n- `shecphy`: bis zur Mittelstufe eingeweichtes, abgeschlossenes\n  Arzneikompositum.\n\nFünf weitere Karten brauchen einen engeren Scope: `dchey` wechselt\nzeilenpositionsabhängig zwischen Aktion und Ergebnis; bei `qolsheedy` ist nur\n`qol` die Zugabeaktion und `sheedy` das schon eingeweichte, fertige Objekt;\n`dshees` bleibt ohne separaten Aktionsanker ein Dosis-/Chargenkopf; `olam`\nsichert Maß I, lässt Holz aber wegen `O+L` gegen `OL` offen; `olkar` sichert\nHitze plus Fraktion I und hält dieselbe OL- und Lesergrenze offen. Keine\nP-Karte wird deshalb zu einem gelernten W-Ganzwort.\n",
+          "sha256": "ba787c1ae953e67846495a19df94f3e357c7f2569ad2a35821ce1307bcb4f985"
+        }
+      ],
+      "required_changes": []
+    },
+    {
+      "target": "CLEAN_GAP_DX:v53_forward_composition_examples",
+      "decision": "approve",
+      "reason": "All six listed comparison chains/pairs are present together in the primary code block. Existing outcome glosses are constituents of this example panel, not full proposition coverage. Arrows compare proposed forms/values rather than an observed temporal cooling from III toII. Drawn-off/completed is the source slash alternative, not both operations required or a free d rule.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt679_eight_three_hole_family_completion/REPORT.md",
+          "line": 102,
+          "line_end": 122,
+          "quote": "\n```text\noteos → qoteos → qoteeos\nKaltcharge Mitte → diese nehmen → vollständig gekühlte Charge nehmen\n\nosheey → orsheey\nvollständig eingeweichter Ansatz → eine Portion davon\n\nolkair → olkaiir\nzweite → dritte erhitzte Holzdrogenfraktion\n\ncholkaiin → cholkain\nheißes Trockengut Stufe III → Stufe II\n\nkcho → kchod       keeo → keeod\nPräparat → dasselbe Präparat abgezogen/abgeschlossen\n```\n\nAcht vorwärts gerichtete Karten machen diese Unterschiede explizit. Sie sind\nkeine Behauptung, dass jedes Zeichen ein Morphem sein muss; gelernte Ganzwörter\nund reader-kontrollierte Formen bleiben Teil desselben Modells.",
+          "sha256": "6cc09c2ebd3ac8b4b804505d4fc9e36dd4426f589eadb159ea5f2251eabf42bd"
+        }
+      ],
+      "required_changes": []
+    },
+    {
+      "target": "CLEAN_GAP_DX:f47r_pchair_reader_local_reading",
+      "decision": "approve",
+      "reason": "The local f47r.1 pchair reading is explicitly supported by both alternate transcription reports in the source, unlike bare chair. Retain local reader-specific second dry-powder fraction; do not infer a free p meaning or universal correction.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt680_eight_four_hole_family_completion/REPORT.md",
+          "line": 78,
+          "line_end": 82,
+          "quote": "Der Werkstattmeister lieferte die starken Prozess- und Stoffkompositionen\n`tshol`, `chetain`, `ytcho`, `ldals` und den ganzwortgesperrten Messkern `da`.\nDer Schreiber/Glossator fand die zwei bilateralen Reparaturen: auf f47r.1 lesen\nbeide Alternativen `pchair`, also lokal eine zweite Trockenpulverfraktion; auf\nf78v.20 binden beide `op` mindestens an `chedy`, RF1b zusätzlich an `lchey`.",
+          "sha256": "27d4d039aa70290e78912af44c1676b54dbc355f220845a5899d188fd9b5cef4"
+        }
+      ],
+      "required_changes": []
+    },
+    {
+      "target": "CLEAN_GAP_DX:solky_salt_solution_rival",
+      "decision": "approve_with_wording_fix",
+      "reason": "The salt-solution alternative is explicitly live and unresolved, not a source-denied extraction. The permitted seed-preparation default still has editorial priority, so the final sentence should distinguish lack of confirmed decision from lack of a working default.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt680_eight_four_hole_family_completion/REPORT.md",
+          "line": 94,
+          "line_end": 103,
+          "quote": "bei IT2a, acht nur bei RF1b und vier bei keinem der beiden. Alle achtzehn\nnicht-bilateralen Stellen besitzen eine ausführbare Entscheidung. `tail/kail`\nbleibt ein echter Kalt/Heiß-Rivale. `solky` darf als leicht erhitzter\nSaatgutansatz stehen, aber die gelernte Lesung „leicht erhitzte Salzlösung“ ist\nnicht entschieden. `orom=Handvoll` bleibt an das Ganzwort gebunden; es entsteht\nkein freies `m=Handvoll`. Das kurze `da` exportiert wegen `dor/das/dey/day` und\nder Dreifachabweichung `da/do/e` keinen Buchstabenwert, sondern nur den lokalen\nTeilungs-/Messkern.\n\n## Historische Passform",
+          "sha256": "27d4d039aa70290e78912af44c1676b54dbc355f220845a5899d188fd9b5cef4"
+        }
+      ],
+      "required_changes": [
+        {
+          "field": "claim",
+          "replace": "The source does not choose between salt solution and seed preparation.",
+          "with": "The source permits seed preparation as the working default while retaining salt solution as an unresolved rival; neither is established as the manuscript meaning."
+        }
+      ]
+    }
+  ],
+  "source_disposition_reviews": [
+    {
+      "source_id": "LEGACY_COMPONENT:b69b991600f841af212e",
+      "decision": "approve",
+      "original_decision": "existing_scope_limits",
+      "reason": "Narrow I completion and named F/G allow-lists; scope ceilings remain, not new free-word hypotheses. DO’s initial/internal-L issue is not reassessed here.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt667_one_hundred_one_residual_family_completion/REPORT.md",
+          "line": 40,
+          "line_end": 44,
+          "quote": "This is the useful kind of growth: the dictionary gains meanings while its\nreusable inventory grows by only four roles, from 48 to 52. Three caveats stay\nexplicit. `i` is a narrow Form-I ladder completion, not a free word;\n`F_FLOWER` and `G_GRAIN_SIGLUM` remain named allow-lists; and formal\ndecomposability is not the same as historical proof.",
+          "sha256": "9c0b839672401873a0bbb7c50df014a0c496cb6e817a9f081d2d26c37de8e3a1"
+        }
+      ],
+      "full_selected_span_read": true
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:cf2d5cdb14e625c1e208",
+      "decision": "approve",
+      "original_decision": "authored_renderer_correction_summary",
+      "reason": "Reports eighteen corrections to manual smoothing; no actual eighteen before/after readings in this selected span. Not meaning validation or eighteen new claims.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt667_one_hundred_one_residual_family_completion/REPORT.md",
+          "line": 80,
+          "line_end": 83,
+          "quote": "The first manual smoothing pass exposed a recurring failure mode: a line could\nsound like a recipe while silently adding “take,” “add,” or “put into,” or\nwhile dropping one of the visible operations. A second independent visual\nreading corrected eighteen of the twenty-five selected passages. Examples:",
+          "sha256": "9c0b839672401873a0bbb7c50df014a0c496cb6e817a9f081d2d26c37de8e3a1"
+        }
+      ],
+      "full_selected_span_read": true
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:67cfbd75a41afe07bc88",
+      "decision": "approve",
+      "original_decision": "historical_full_assertion_recovered",
+      "reason": "Recover the concrete source model, construction, local example or live rival without promoting source judgements to facts.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt667_one_hundred_one_residual_family_completion/REPORT.md",
+          "line": 124,
+          "line_end": 142,
+          "quote": "## What changed in the working theory\n\nV44 strengthens the hybrid-codebook model. The working register is best read\nas a mixture of reusable specialist abbreviations and learned whole cards, not\nas either a universal one-letter vocabulary or 1,274 unrelated words. The\nmost useful compositional positions are now:\n\n- command/reference heads such as `qo-`, `qol-`, and `y-`;\n- material and preparation heads such as `ol`, `cth`, `chor`, `so`, `cph`;\n- operations such as drying, moistening, heating, cooling, measuring, adding,\n  straining, and closing;\n- grade/form/quantity tails such as `e/ee/eee`, `an/ain/aiin`, and\n  `in/iin/iiin`;\n- a small exact vocabulary for forms whose internal spelling does not support\n  a reusable split.\n\nThis gives the notation places for concrete nouns and actions. It does not yet\nidentify the exact plant species, carrier liquid, disease, patient, or cure.\n",
+          "sha256": "9c0b839672401873a0bbb7c50df014a0c496cb6e817a9f081d2d26c37de8e3a1"
+        }
+      ],
+      "full_selected_span_read": true
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:7575da95e2a074640424",
+      "decision": "approve",
+      "original_decision": "historical_full_assertion_recovered",
+      "reason": "Recover the concrete source model, construction, local example or live rival without promoting source judgements to facts.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt668_seventy_six_residual_family_completion/REPORT.md",
+          "line": 60,
+          "line_end": 65,
+          "quote": "At f88v.20 ZL3b has the single surface `sqokeodaiin`, while IT2a and RF1b both\nshow `sqokeo daiin`. This licenses the exact left block\n`SQOKEO_SEED_HEAT_PREP`, “erhitzte Saatgutzubereitung der Mittelstufe,” before\nthe already known `D_MEASURE+AIIN_III`. The full reading is “drei Dosen\nerhitzter Saatgutzubereitung der Mittelstufe.” This does not create a free\n`sqo-` rule.",
+          "sha256": "1796c42adae42f06fec82af5f5cab327fd1c3b4649efabfd3f1535babd19dfa3"
+        }
+      ],
+      "full_selected_span_read": true
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:f72409edea62700f1ce7",
+      "decision": "approve",
+      "original_decision": "authored_renderer_correction_summary",
+      "reason": "Reports twelve corrections involving attachment, omitted operations and invented dy actions, but does not assign new concrete meanings in this span.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt668_seventy_six_residual_family_completion/REPORT.md",
+          "line": 72,
+          "line_end": 75,
+          "quote": "An independent token-by-token rereading corrected twelve of twenty selected\npassages. The recurring defects were concrete rather than cosmetic: commands\nattached to the wrong card, omitted preparation or cooling, and an invented\nextra action for free `dy`.",
+          "sha256": "1796c42adae42f06fec82af5f5cab327fd1c3b4649efabfd3f1535babd19dfa3"
+        }
+      ],
+      "full_selected_span_read": true
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:7ae1c1d795b5907512a7",
+      "decision": "approve",
+      "original_decision": "authored_renderer_correction_summary",
+      "reason": "Reports six plus two prose corrections without full changed readings. No new card and no evidence that meanings were experimentally tested.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt669_thirty_seven_residual_family_completion/REPORT.md",
+          "line": 97,
+          "line_end": 102,
+          "quote": "An independent final reader accepted fourteen unchanged and corrected six\nwithout changing a card: one state had been turned into an extra command,\nthree process directions had been flattened, one alternative material reading\nhad disappeared, and one implicit object was ungrammatical. A root consistency\npass caught the same directional flattening in two further lines. All eight\ncorrections are applied in the sealed manual-passage source.",
+          "sha256": "c035dca0800ba9c9eeb643f31b93ac13ba177b6d25673f6939abf21793e8957a"
+        }
+      ],
+      "full_selected_span_read": true
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:90e73c57ac194b0c9aa6",
+      "decision": "approve",
+      "original_decision": "historical_full_assertion_recovered",
+      "reason": "Recover the concrete source model, construction, local example or live rival without promoting source judgements to facts.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt672_v48_concrete_page_renderer/REPORT.md",
+          "line": 1,
+          "line_end": 17,
+          "quote": "# GDT672 — konkreter V48-Seitenrenderer\n\n## Ergebnis\n\nf1r ist jetzt vollständig vierstufig lesbar: 214/214 EVA-Token, 214/214 unveränderte Kartenwerte, siebzehn explizite Mengenbindungen und 28/28 vorsichtige Zeilenlesungen. 129 Positionen bzw. 84 Oberflächen kommen unverändert aus V48. Die übrigen 85 Positionen bzw. 80 Oberflächen erhalten explizite lokale Transferkarten: 54 kompositionelle, 23 gelernte und 8 occurrence-spezifische Stellen.\n\nDie gelernte Schicht wird nicht heimlich als V48-Erfolg gezählt: 19/28 Zeilen enthalten mindestens ein lokales Ganzwort; 9/28 kommen ohne ein solches Ganzwort aus. GDT589s 214-Token-Folge stimmt bytegenau mit der guarded f1r-Quelle überein, dient aber ausschließlich als Vergleich. Seine generische Prosa hat 191 harte Füllworttreffer; die neue Ausgabe hat 0. Sie enthält jedoch weiterhin 85 breite Trägerwörter wie Ansatz, Kompositum oder Species. Das ist sichtbare Restunbestimmtheit, kein verschwundener Befund.\n\n## Was der Renderer tatsächlich tut\n\nV48 liefert Stoff-, Prozess-, Zustands-, Mengen- und Formwerte. Zwölf explizite Regeln binden nur vorhandene Slots: ein Imperativ braucht eine Aktionskarte, Mengen werden am Kopf typisiert, Prozessreihenfolge bleibt erhalten, nominale Zeilen bleiben Katalogzeilen und Unsicherheit bleibt sichtbar. Aus dem lokalen GDT600-Entwurf wurden nur diese Valenz- und Ordnungsprinzipien neu formuliert; seine Wörter `Stationsansatz`, `Arbeitsgang` und `Arbeitsstelle` werden nicht importiert.\n\nSechs Kontrollpassagen decken sechs Register, zwei Sprachen und drei Hände ab. Fünf sind in V48 vollständig; die sechste hält `dsheody` absichtlich offen. Damit prüft die Ausgabe sowohl konkrete Flüssigkeit als auch Abstinenz.\n\n## Grenze\n\nA complete exploratory f1r working reader: 129/214 positions inherit exact V48 cards; 85/214 positions use explicit f1r transfer cards, of which learned and occurrence-scoped cards are not promoted to V48. This does not establish plaintext, language, phonetics, a historical codebook, a plant identity, a disease, a patient, a cure, or manuscript-wide meanings.",
+          "sha256": "b1c6d5797a442cf21a04bf1f528a5019b1bfc10c23c7fe844cf81de5d075aecf"
+        }
+      ],
+      "full_selected_span_read": true
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:1092bf95a0fdd8624b7a",
+      "decision": "approve",
+      "original_decision": "historical_full_assertion_recovered",
+      "reason": "Recover the concrete source model, construction, local example or live rival without promoting source judgements to facts.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt674_v49_f81r_concrete_renderer/REPORT.md",
+          "line": 1,
+          "line_end": 29,
+          "quote": "# GDT674 — f81r als konkretes V49-Mischregister\n\n## Ergebnis\n\nf81r ist jetzt auf allen 210 sichtbaren Tokens und allen 31 physischen Zeilen lesbar. 183 Positionen bzw. 103 Oberflächen bleiben unverändert aus V48. Die 27 Review-Positionen bzw. 25 Oberflächen bestehen aus 24 echten V48-Lücken, zwei zeileninitialen `y`-Eintragsmarkern und einem zeilenfinalen `dy`-Feldschluss. Davon sind 21 Positionen vollständig aus vorhandenen Rollen zusammengesetzt, 3 gelernte Ganzwörter und 3 occurrence-spezifische Kontextwerte.\n\nDie beste Seitenarchitektur ist kein durchgehender Imperativtext. Der obere Bildblock f81r.1–15 hat 94 Tokens, der untere f81r.16–31 hat 116. Fünfzehn Zeilen besitzen achtzehn bereits in V48 explizit lizenzierte Aktionsanker; sechzehn besitzen keinen solchen geerbten Anker und bleiben primär Stoff-, Zustands- oder Mengenregister, sofern nicht eine neue Review-Komposition einen Prozess vorschlägt. Der Arbeitswortschatz ist konkret: Saatgut, Holz-, Kraut-/Blatt-, Wurzel- und Blütendroge, Pulver und Arzneikomposita; Trocknen, Einweichen, Erhitzen, Kühlen, Abmessen, Zugeben und Abseihen; Grad-, Form-, Portions- und Fraktionswerte.\n\n## Warum dieser Renderer besser ist\n\nGDT416 machte alle 210 Token zu Imperativsätzen. 208/210 Zeilen enthielten generische Stations- oder Eintragsobjekte, 89 erbten eine nicht sichtbare Aktion und 114 ein nicht sichtbares Argument. GDT407s 48 alte f81r-Sätze enthalten 71 harte Füllworttreffer. Die neue Arbeitslesung enthält 0 solche Treffer und erfindet keine Carry-Aktion.\n\nSie bleibt trotzdem nicht künstlich präzise: 61 breite Träger wie Ansatz, Drogenstoff oder Species sind sichtbar. f81r besitzt derzeit keine Karte für ein bestimmtes Gefäß, Bad, Wasser, Wein, Öl, Salz, Patientin, Krankheit oder Heilung; diese Wörter werden daher nicht aus dem Bildkontext ergänzt.\n\n## Leser- und Abdeckungstest\n\nVon den 27 Review-Positionen sind 11 in IT2a und RF1b positionsgenau identisch, 13 in genau einem Leser und 3 in keinem. Die drei härtesten Leserstellen bleiben als Rivalen sichtbar. Die 24 echten Lücken schließen zwölf f81r-Zeilen; im globalen Overlay sinkt unbekannt 8018→7994 und vollständig 1368→1380.\n\n## Grenze\n\nA complete exploratory f81r working reader on the already admitted V48 panel: 183/210 positions inherit V48 unchanged and 27/210 are explicit review positions. The 24 former unknown positions receive replaceable page cards; none is silently promoted manuscript-wide. This does not establish plaintext, language, phonetics, a historical codebook, a plant identity, a disease, a patient, a cure, a vessel, a carrier liquid, or manuscript-wide meanings.\n\n## Nächster Hebel\n\nDie zwanzig atomdeckenden Review-Oberflächen werden als Nächstes an allen exakten Vorkommen der übrigen zugelassenen Panel-Seiten geprüft. Die drei Ganzwörter bleiben getrennt, und `y`/`dy` werden nicht globalisiert. Erst danach wird eine weitere bereits freigegebene Seite gerendert.\n\n## Provenienzkorrektur\n\nEin paralleler Leser öffnete einmal versehentlich die rohe gemischte Cross-Transkriptionsdatei. Der gesamte Output wurde verworfen und speist weder Karte noch Zahl noch Hypothese. Der Builder und Validator materialisieren ausschließlich f81r über den Guard-Wrapper mit verbotenem f84-Präfix.",
+          "sha256": "8c2c77d04c660e82d3151e1a8b5af977868fe9cfa64633f6051764b1a3919a24"
+        }
+      ],
+      "full_selected_span_read": true
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:3aad5f2795f4a2e2b4f9",
+      "decision": "approve",
+      "original_decision": "historical_full_assertion_recovered",
+      "reason": "Recover the concrete source model, construction, local example or live rival without promoting source judgements to facts.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt675_f81r_card_occurrence_conflict_scan/REPORT.md",
+          "line": 10,
+          "line_end": 13,
+          "quote": "Es gibt keinen harten Stoff-, Prozess- oder Mengenwiderspruch. Elf\nrollenkomponierte Karten und das gelernte Ganzwort `lchl` behalten daher eine\nersetzbare externe Arbeitsbedeutung. Das ist jedoch kein blindes Kopieren der\nf81r-Verbalform: neun Karten erhalten einen expliziten Renderer-Split.",
+          "sha256": "ba787c1ae953e67846495a19df94f3e357c7f2569ad2a35821ce1307bcb4f985"
+        }
+      ],
+      "full_selected_span_read": true
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:aeaaa8f07e3618c43be9",
+      "decision": "approve",
+      "original_decision": "semantic_specificity_limit",
+      "reason": "Class-level carrier values remain underdetermined; zero banned filler strings is an engineering observation, not a decoded substance or operation.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt676_v50_external_line_renderer/REPORT.md",
+          "line": 15,
+          "line_end": 24,
+          "quote": "Nor are all 343 assigned positions concrete meanings. The narrow carrier\nscreen finds 105 positions/106 matches in the literal token overlay and 113\npositions/114 matches in the fluent working reader. An expanded\nsubstance/grade/measure sensitivity screen matches 311/343 assigned literal\nvalues (`0.906706`) as class-level readings. These values still carry local\ndistinctions such as hot/cold, dry/moist, grade, fraction or measure, but they\noften do not yet tell us which actual substance or operation occupies the\nslot. That is a specific next rendering problem, not a reason to discard the\nreader. There are zero banned hard-generic work-item/work-cycle filler hits in\nboth the literal overlay and the fluent working reader.",
+          "sha256": "0a62e6e84bad33b6301822961b015118470f9f0171e1a5f6196ed3b9b490b5d4"
+        }
+      ],
+      "full_selected_span_read": true
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:962a46ce4bf03f005e2d",
+      "decision": "approve",
+      "original_decision": "existing_whole_reading_audit_only",
+      "reason": "Current taiky card states precisely cold-prepared batch lightly warmed. Internal ai remains nonproductive and sole-context status weak; no new assertion or case addition.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt677_nine_one_hole_family_completion/REPORT.md",
+          "line": 76,
+          "line_end": 79,
+          "quote": "`taiky` is deliberately narrower. The exact card reads **kalt angesetzte\nCharge, leicht angewärmt**. Outer cold `t` and terminal light-hot `ky` remain\nvisible, but internal `ai` receives no new productive meaning. Its sole context\nis now readable, yet the card remains the weakest of the nine.",
+          "sha256": "a1ac3d1801004e773b0326e5e0cfa4042937cf0beec858926f126e2cf38ef688"
+        }
+      ],
+      "full_selected_span_read": true
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:e595c7afb51d46b0d2e9",
+      "decision": "approve",
+      "original_decision": "existing_values_and_scope_watch",
+      "reason": "Yey, qy, rr/rchr and lldar values already exist. The selected span marks singleton/reader/internal-l uncertainty, not extra meanings.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt678_seventeen_two_hole_family_completion/REPORT.md",
+          "line": 77,
+          "line_end": 81,
+          "quote": "Die stärksten neuen Massenträger sind `olchey`, `oteor`, `chotar`, `keeey`,\n`qokeod`, `keo` und `pchedaiin`. Die schwächsten Karten sind bewusst sichtbar:\n`yey` hat nur einen Beleg, `qy` ist ein kurzes anaphorisches Kommando, `rr`\nfolgt der gemeinsamen `rchr`-Lesung der beiden Alternativleser, und bei\n`lldar` hat das doppelte Anfangs-`l` noch keinen eigenen Wert.",
+          "sha256": "e9a30423438f55ac97be2a2aae06d100382f868d2816bf7e3b08f83e850c5e57"
+        }
+      ],
+      "full_selected_span_read": true
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:9e130693e82b1908d7c5",
+      "decision": "approve",
+      "original_decision": "existing_revision_and_dossier_audit_only",
+      "reason": "Current qeeey preferred left-completion reading and Schlussportion rival are already scoped in CY; retain distributional model preference without empirical refutation.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt679_eight_three_hole_family_completion/REPORT.md",
+          "line": 88,
+          "line_end": 93,
+          "quote": "Der Werkstatt-Lehrmeister und die praktische Heilkundige lasen `qeeey`\nzunächst als Schlussportion. Der Schreiber/Glossator bemerkte jedoch ein\nstärkeres Verteilungsmuster: Alle drei Vorkommen folgen unmittelbar auf einen\nFeucht-, Kalt- oder Trockenprozess. Deshalb gewinnt die linksgebundene Lesung\n„vorstehende Behandlung bis zur letzten Stufe führen und abschließen“. Die\nSchlussportion bleibt als formnaher Rivale dokumentiert.",
+          "sha256": "6cc09c2ebd3ac8b4b804505d4fc9e36dd4426f589eadb159ea5f2251eabf42bd"
+        }
+      ],
+      "full_selected_span_read": true
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:320f60baa7d344ee8355",
+      "decision": "approve",
+      "original_decision": "historical_full_assertion_recovered",
+      "reason": "Recover the concrete source model, construction, local example or live rival without promoting source judgements to facts.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt679_eight_three_hole_family_completion/REPORT.md",
+          "line": 120,
+          "line_end": 122,
+          "quote": "Acht vorwärts gerichtete Karten machen diese Unterschiede explizit. Sie sind\nkeine Behauptung, dass jedes Zeichen ein Morphem sein muss; gelernte Ganzwörter\nund reader-kontrollierte Formen bleiben Teil desselben Modells.",
+          "sha256": "6cc09c2ebd3ac8b4b804505d4fc9e36dd4426f589eadb159ea5f2251eabf42bd"
+        }
+      ],
+      "full_selected_span_read": true
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:4be91b461432c79b757b",
+      "decision": "approve",
+      "original_decision": "historical_full_assertion_recovered",
+      "reason": "Recover the concrete source model, construction, local example or live rival without promoting source judgements to facts.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt680_eight_four_hole_family_completion/REPORT.md",
+          "line": 78,
+          "line_end": 82,
+          "quote": "Der Werkstattmeister lieferte die starken Prozess- und Stoffkompositionen\n`tshol`, `chetain`, `ytcho`, `ldals` und den ganzwortgesperrten Messkern `da`.\nDer Schreiber/Glossator fand die zwei bilateralen Reparaturen: auf f47r.1 lesen\nbeide Alternativen `pchair`, also lokal eine zweite Trockenpulverfraktion; auf\nf78v.20 binden beide `op` mindestens an `chedy`, RF1b zusätzlich an `lchey`.",
+          "sha256": "27d4d039aa70290e78912af44c1676b54dbc355f220845a5899d188fd9b5cef4"
+        }
+      ],
+      "full_selected_span_read": true
+    }
+  ],
+  "counterparts": [
+    {
+      "id": "SEM:2756b2f8406bc357567e",
+      "claim": "qeeey → die vorstehende Behandlung bis zur letzten Stufe führen und abschließen",
+      "card_basis": "57771d2b71a22b8d471698b41fc88b057babae45ea47305377b88015afd9ead8",
+      "effective_basis": "a1e10aa93d2e27cc17cc5bf365ab22487300ce8676573c2be4a06fa7d5dd6208",
+      "case_ids": [
+        "CLEAN_COMPONENT:0bfadc0422974a29ff96",
+        "CLEAN_GAP_AG:qeeey_current_case"
+      ]
+    },
+    {
+      "id": "SEM:314a8c8966ce6ecc472e",
+      "claim": "kchod → heiß-trockener Ansatz, abgeschlossen",
+      "card_basis": "7d730c237aa3741568ac0715bea6f3ce41f3fa0974f02c6b2fca87eab3562639",
+      "effective_basis": "b74107069a84e4c5b700ec90368c0cd80d6121c25e7497d651b5d8cb1e12c130",
+      "case_ids": [
+        "CLEAN_COMPONENT:8630c937a95085e2698b"
+      ]
+    },
+    {
+      "id": "SEM:39f159c72fac1bbd79c2",
+      "claim": "orsheey → eine Portion vollständig eingeweichte Droge",
+      "card_basis": "6343d255c51cfbe3ff1321d99527079edf0d20d8caff0ccf69c77c5f7caa7e61",
+      "effective_basis": "7062a1cafa5bb9ba3099a0342cd7c57910d4b03d9bf43f05a0d4bf6f0231bdd9",
+      "case_ids": [
+        "CLEAN_COMPONENT:c26d28fcc321984d6ca0"
+      ]
+    },
+    {
+      "id": "SEM:47c79380dd8b5229805e",
+      "claim": "cholkain → Trockengut, heiß auf Stufe II",
+      "card_basis": "4b30d08c659d1d05ef4d16ff3c8bcc64417cd671a3eaeb2145e5fee5b5fdc431",
+      "effective_basis": "53299aee502e0e6a802e9bc5d53e1c8af149a1a7a39eecda0191019370824434",
+      "case_ids": [
+        "CLEAN_COMPONENT:8729d90ae6913de776f0"
+      ]
+    },
+    {
+      "id": "SEM:556d2ee85d02f5e2676c",
+      "claim": "olkaiir → dritte erhitzte Holzdrogenfraktion im Ansatz",
+      "card_basis": "febd7f07ef0aa16a9454f999f09593d19f805b949693e624e1a198e6e32b39f2",
+      "effective_basis": "9ca193f9ce0289815818aa1dd7b425475be6b3883ec4a10e1defa2e5ba6c4457",
+      "case_ids": [
+        "CLEAN_COMPONENT:1505b0b1d9b22e05c5b2"
+      ]
+    },
+    {
+      "id": "SEM:5f7cc94f30c1651b521b",
+      "claim": "The V45 working register combines reusable technical abbreviations with a small learned whole vocabulary.",
+      "card_basis": "72a65f67a42894e20fce05c5062d1b1e4ec751d48292b1812775fc39b0cbd3c1",
+      "effective_basis": "7e1c990ae4082bdf9226fefeabb3add544d3e63480e1497af9c5a6b7e311be2d",
+      "case_ids": [
+        "REPORT_PROPOSAL:21dfb3eaff58ea480a50"
+      ]
+    },
+    {
+      "id": "SEM:78d43c8797fd41c68028",
+      "claim": "solky → Saatgutansatz, leicht erhitzt",
+      "card_basis": "f825a64027b9f30df0547f0e453929a534116ee6a93e565bf2b41a94e09674fa",
+      "effective_basis": "66a42b4dc945d10a7327c722d5d59c0bf6594db5ee8e3f69db3372953dd578e1",
+      "case_ids": [
+        "CLEAN_COMPONENT:1fc666dba5e2803fe684",
+        "CLEAN_COMPONENT:80d2f1bf6609e0ce011a"
+      ]
+    },
+    {
+      "id": "SEM:840961ae707920eb186c",
+      "claim": "qoteos → eine bis Mittelstufe gekühlte Ansatzcharge nehmen",
+      "card_basis": "8c23ea3ea214935fe779ffd9ac164c89469611dcb17d25c965c62b66c2a441e9",
+      "effective_basis": "380fe2cc7b21f6a6ff36aaeb9a96bddf18316f42cce6911a7375b0e3311d9750",
+      "case_ids": [
+        "CLEAN_COMPONENT:740a887e8ff1ee6bbeda"
+      ]
+    },
+    {
+      "id": "SEM:9075a8a1bbb8396857b2",
+      "claim": "yey → hieran anschließend",
+      "card_basis": "2fe39e02f0376e219bc37e718ff9fe8b665a5a213d2a650f524fc9675eb654c9",
+      "effective_basis": "355f0147cfddf6b1a641767117fef4bd24dd6b5511498c25627e248c365e6f76",
+      "case_ids": [
+        "CLEAN_COMPONENT:f09e53571acb0b86f674"
+      ]
+    },
+    {
+      "id": "SEM:b67fa96da7aa7037ba41",
+      "claim": "rr (rchr) → getrocknete Wurzeldroge",
+      "card_basis": "ad210b05d35a9d9c30236558d072430c04dd4bcfcb70f55c1d3362cc9998245f",
+      "effective_basis": "ed093d2cf80eef11e3d2b8d5c2f6aeb62705f09c048217f0c173885efe138776",
+      "case_ids": [
+        "CLEAN_COMPONENT:34254fd024744c93fc22"
+      ]
+    },
+    {
+      "id": "SEM:be4b97d5776d51ecf397",
+      "claim": "taiky → kalt angesetzte Charge, leicht angewärmt",
+      "card_basis": "9431a0cae2521f21899cd90514c65fb05439706c7683736e58c2b03f76c87818",
+      "effective_basis": "829247bd2ec54e319f89c6ce55bdf4275a842d42338b64333311fd7a2a524be4",
+      "case_ids": [
+        "CLEAN_COMPONENT:8cd4036d69d4dd8a4e78"
+      ]
+    },
+    {
+      "id": "SEM:cb2150d1d71250c60031",
+      "claim": "keeod → vollständig erhitzter und abgezogener Ansatz",
+      "card_basis": "a6638e0d79ce589160c4701da1bf4a58a8e2c5b455c21944ecf28d6e9244c8fb",
+      "effective_basis": "ab3a7b8342778f52e73017083324d213dfee63a3d0477512db50a0b904c0e101",
+      "case_ids": [
+        "CLEAN_COMPONENT:34543bb596aa50a21d37"
+      ]
+    },
+    {
+      "id": "SEM:cb5e52af94982808487a",
+      "claim": "qeeey → Schlussportion",
+      "card_basis": "2365f0962b10c762c6028aa3e794e69d9e53be7fad8e3343deb3b839a9645242",
+      "effective_basis": "a346cd00e019f53348af0e9914a1b0caea099b21f091562d369853f693c60c19",
+      "case_ids": [
+        "CLEAN_GAP_AG:qeeey_end_portion"
+      ]
+    },
+    {
+      "id": "SEM:ef8742495a69e0c801e5",
+      "claim": "qy → hiervon nehmen",
+      "card_basis": "cfb9ca508052a7d5a477381437b6e64c8f634176898da6e2958836a86012fac8",
+      "effective_basis": "7839eebca6a431941a83ca4345f9a2fd46f1ee64e6f2ef37cf6e09479cc1e353",
+      "case_ids": [
+        "CLEAN_COMPONENT:6ba73a4fb12453269235"
+      ]
+    },
+    {
+      "id": "SEM:f1e0c2aeaf7cf7db7e92",
+      "claim": "chair → zweite Trockenfraktion",
+      "card_basis": "9fc3a2f78687522bcce4f802440ae570fde14d1781d8d6d9e9cf82b2d7169aeb",
+      "effective_basis": "38463459114aee1c7225c8718e9998881739afdef39ece7b54ed9d9e8df341a0",
+      "case_ids": [
+        "CLEAN_COMPONENT:43a5bf9c8e50aa6140ae"
+      ]
+    },
+    {
+      "id": "SEM:f28884f67c9a89ffa8d4",
+      "claim": "lldar → erste Holzdrogenfraktion abmessen",
+      "card_basis": "a42a060fa8af1093764145caf79a61f95e13ef5f0d9c72d08e818657f662bbbf",
+      "effective_basis": "d7b16f365c410c193d31d2067076bc3274c11d9b74e1f4c4428617cc1350a194",
+      "case_ids": [
+        "CLEAN_COMPONENT:d15d56e17c09adb7481a"
+      ]
+    }
+  ],
+  "validation": {
+    "exact_quote_sha_checks": 59,
+    "card_schema_checks": 8,
+    "fresh_counterpart_bases": 16,
+    "selected_source_count": 15,
+    "initial_intake_rewrites": 0
+  },
+  "special_limits": [
+    "f78v.20 op is described only as locally attached to chedy and, in RF1b, also lchey. The retained source-context note is sufficient here; no full joint translation is supplied or inferred.",
+    "Scope/watch and editorial-correction paragraphs are not automatically semantic discoveries; counts of repaired prose do not identify eighteen/twelve/eight missing meanings.",
+    "F_FLOWER/G_GRAIN allow-lists and internal ai/double-l uncertainty stay limits; no productive free-symbol assignments.",
+    "The nine scope splits and forward comparison panel are historical bundled policies/examples, not counts of nine or six independent new theories.",
+    "Inherited author choices, software checks and reader agreement do not establish semantic truth or independent manuscript gold."
+  ]
+}

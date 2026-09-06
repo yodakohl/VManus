@@ -1,0 +1,133 @@
+{
+  "review_id": "SEMANTIC_SOURCE_POLARITY_PEER_DR",
+  "status": "APPROVE_SOURCE_ASSESSMENT_WITH_REOPENING_STRUCTURE_FIX",
+  "input": {
+    "path": "research_registry/decisions/semantic_source_polarity_review_dr.json",
+    "sha256": "e900b777028abbd19460d75829864066a7c0985582a290d1f8fee409e4666b45"
+  },
+  "dossier_reviews": [
+    {
+      "id": "SOURCE_POLARITY_DR:DAL_WHOLEWORD_TO_MEASURED_MATERIAL",
+      "decision": "approve_with_reopening_structure_fix",
+      "target": "SEM:94a0aebd1caf3051dc56",
+      "card_basis": "344b188f0195f203126a5f8688a401e0af306c7a5b350484c36383d217446731",
+      "effective_basis": "c29de470c9745dba00502ebbf9d5e8eb15fd1e06e69a10753a4c1d016d55fa41",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:a178ceca4549632d91e7"
+      ],
+      "findings": [
+        "GDT653 explicitly licenses a family-bound learned Rohdrogenposten and leaves the internal boundary unsettled. GDT655 prefers measured input quantity under an inherited AL/AR/value ladder while expressly preserving Rohdrogenposten as strongest learned-whole rival.",
+        "The current target evidence is GDT655 REPORT91–95 itself. It is not merely an earlier discarded source claim; its explicit live status must survive this dossier. No archive, empirical failure or automatic status propagation is warranted.",
+        "The f45v.4 DAIN/DAIL/DAIR parallel is a source-stated composition-economy argument using assigned values. Literal coexistence/order and alternate-reader agreement do not independently identify weighing, nor exclude a lot/category reading.",
+        "The no-direct-D+AL-boundary statement is correctly limited to the reported census. It does not rule out learned whole words, bound internal morphology, or all future component interpretations.",
+        "The later GDT788 reference is properly a scope/navigation note. This peer does not adopt a GDT788 profile result as semantic evidence or claim to re-audit it."
+      ],
+      "required_correction": {
+        "field": "reopening.all_of",
+        "reason": "The second and third bullets target different questions. Requiring both universally would conflate whole-word referential testing with component export and invent a stronger gate than this review has justified.",
+        "replacement": {
+          "assessed_by": "curation_review",
+          "status": "PROSPECTIVE_REVIEW_ONLY_NO_AUTHORIZATION",
+          "common_requirements": [
+            "Specify the exact DAL unit/domain and whether the proposed contrast concerns referential content, lexical composition, or export of free component meanings.",
+            "State predictions that genuinely differ under the proposed models. A measured amount can also be a raw-drug lot; do not manufacture mutually exclusive meanings from different German labels."
+          ],
+          "pathways": [
+            {
+              "kind": "referential_content_comparison",
+              "requirements": [
+                "Find independent material/quantity binding at the relevant DAL contribution and state what each fully scoped hypothesis predicts.",
+                "A material held fixed while quantity varies can be relevant, but is not sufficient unless the two specified interpretations predict different observations."
+              ],
+              "not_automatically_required": "Proof that D and AL are independently free words; a whole-word referential comparison can remain whole-word."
+            },
+            {
+              "kind": "compositionality_or_component_export",
+              "requirements": [
+                "Declare whether the target is bound internal composition or free component export; they are different claims.",
+                "Establish appropriate unit continuity and licensed transferable contributions. Free export additionally requires the applicable closed-family gates; a cleaner internal parse alone cannot satisfy them."
+              ],
+              "not_automatically_required": "A material-versus-quantity contrast if the explicitly chosen target is internal composition rather than referential exclusion."
+            }
+          ],
+          "not_sufficient": [
+            "More reader-exact occurrences with the same inherited German glosses.",
+            "The old word batch and new measured quantity being different editorial expressions.",
+            "Rerunning GDT788 profile transfer or repeating f45v.4 under unchanged assumptions."
+          ],
+          "inherits_no_historical_preregistration": true
+        }
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt653_strict_v29_boundary_compounds/REPORT.md",
+          "line": 49,
+          "line_end": 54,
+          "quote": "\n`chdaly` ist dreimal dreileser-exakt. DAL/DALY/DALDY und die CH/SH-Schwestern\nbilden ein großes eigenes Nomenfeld, doch die interne Grenze ist nicht\nendgültig. V30 führt DAL deshalb nur familiengebunden als `Rohdrogenposten`:\n`chdaly` wird zum trockenen Rohdrogenposten in Grundform. Der Rivale\nCH+D+AL+Y bleibt `trockener Rohstoff, Form I`.",
+          "sha256": "a9ddf3fa023f458c06e0dcbb29a3d3ab5fad9ea58454cf2d82ddbaeaa91e32c8"
+        },
+        {
+          "path": "experiments/yolo/gdt655_dal_al_measured_material_completion/REPORT.md",
+          "line": 11,
+          "line_end": 28,
+          "quote": "Der neue Sachunterschied lautet:\n\n```text\nAR    Mischungsanteil / Fraktion\nAL    Rohstoffklasse\nDAL   abgemessene Rohstoffmenge\nOR    abgeteilte Portion\n```\n\nDamit ist `DAL` nicht länger bloß ein isoliertes Etikett\n„Rohdrogenposten“. Praktisch kann man es als **abgewogene Eingangsmenge**\nlesen: erst wird ein Rohstoff einer Klasse bezeichnet, dann eine Menge davon\nfür den Ansatz abgemessen, später eine Portion abgeteilt.\n\n| Reihe | Stufe I | Stufe II | Stufe III |\n|---|---|---|---|\n| Rohstoffklasse | `al` Klasse I | `ail` Klasse II | `aiil` Klasse III |\n| abgemessene Menge | `dal` Menge I | `dail` Menge II | `daiil` Menge III |",
+          "sha256": "83f6cc72cea3b5f12abed2e2c916edfab3c4c0eb1028f090e468a1a7900fee50"
+        },
+        {
+          "path": "experiments/yolo/gdt655_dal_al_measured_material_completion/REPORT.md",
+          "line": 56,
+          "line_end": 69,
+          "quote": "## Der entscheidende Parallelbeleg\n\nf45v.4 ist in allen drei Transkriptionen identisch:\n\n```text\nokchy qockhy dain dail dair shy\n            └──┬──┘ └─┬─┘ └─┬─┘\n             Wert II  AL II  AR II\n```\n\n`dair` war bereits die abgemessene Fraktion II. Genau zwischen dem Wertträger\n`dain` und der R-Fraktion steht `dail`. „Abgemessene Rohstoffmenge II“ erhält\nden L/R-Unterschied; ein unabhängiger „Rohdrogenposten II“ wäre eine neue\nSonderklasse nur für diese eine Zelle.",
+          "sha256": "83f6cc72cea3b5f12abed2e2c916edfab3c4c0eb1028f090e468a1a7900fee50"
+        },
+        {
+          "path": "experiments/yolo/gdt655_dal_al_measured_material_completion/REPORT.md",
+          "line": 85,
+          "line_end": 95,
+          "quote": "## Sichtbare Grenzen — und die fehlende Grenze\n\nAL ist als rechter Block in `s al`, `r al`, `ch al` und `or al` sichtbar.\nDAL wird nach außen dreimal durch `daldy ↔ dal dy/dal y` abgegrenzt; `sodal ↔\ns odal` zeigt zusätzlich die äußere S+ODAL-Struktur.\n\nEs gibt aber in den 4.137 zugelassenen Zeilen kein direktes `d al ↔ dal` und\nkein `a l ↔ al`. Darum bleiben `D_MEASURE` und `AL_CLASS_I` interne\nStrukturtags, keine frei übersetzbaren Voynich-Wörter. Der stärkste Rivale\nbleibt ein gelerntes Ganzwort `DAL = Rohdrogenposten`; für AL bleibt\n`Rohstoffform I` möglich.",
+          "sha256": "83f6cc72cea3b5f12abed2e2c916edfab3c4c0eb1028f090e468a1a7900fee50"
+        },
+        {
+          "path": "experiments/yolo/gdt655_dal_al_measured_material_completion/METHOD.md",
+          "line": 18,
+          "line_end": 28,
+          "quote": "\n1. V31 wird vollständig und bytegleich aus den direkten Artefakten\n   nachgerechnet.\n2. AL/AIL/AIIL/AIIIL, DAL/DAIL/DAIIL sowie AL-/DAL-Tails und\n   CH/CHE/SH/SHE/O/QO-Schalen werden vollständig gezählt. CH/CHE und SH/SHE\n   behalten dabei die bestehende Anfang/Mitte-Qualitätsachse; E wird nicht\n   eigens als „gebunden“ oder als Befehl „anfeuchten“ erfunden.\n3. Fünfzehn neue Oberflächen mit mindestens einem dreileser-exakten Ganztoken\n   erhalten konkrete Ganzwortkarten. `oral`, `chdaly` und `sodal` werden\n   sichtbar revidiert; ihre alten Werte bleiben im Revisionsledger. ORAL wird\n   wegen des direkten `or al`-Splits und der nun getrennten OR-/AL-Werte als",
+          "sha256": "0906d6f320ee7f1d6b9ac2dc7aa72a53782a52b1b747e2c3e8ceb4b7ffb6c112"
+        },
+        {
+          "path": "experiments/yolo/gdt655_dal_al_measured_material_completion/METHOD.md",
+          "line": 42,
+          "line_end": 49,
+          "quote": "## Behauptungsgrenze\n\n`Rohstoffklasse`, `abgemessene Rohstoffmenge` und die revidierte\n`Rohstoffportion` sind ersetzbare\nFamilien-Defaults. Weder D noch AL wird als freies Wort exportiert; die\nKlammerung D+AL besitzt keinen direkten same-locus-Split. `Rohstoffform` und\n`Rohdrogenposten` bleiben die stärksten Rivalen. Keine Sprache, Phonetik,\nexakte Zutat, globale Endung, f1r, neue Seite oder neues Bild wird behauptet.",
+          "sha256": "0906d6f320ee7f1d6b9ac2dc7aa72a53782a52b1b747e2c3e8ceb4b7ffb6c112"
+        },
+        {
+          "path": "experiments/yolo/gdt655_dal_al_measured_material_completion/src/run.py",
+          "line": 83,
+          "line_end": 88,
+          "quote": "    target(\n        \"dal\", \"NEW_EXACT_WHOLE\", \"abgemessene Rohstoffmenge I\", \"D_MEASURE+AL_CLASS_I\",\n        \"Rohdrogenposten\",\n        \"191 occurrences, 147 exact; D+AR is already measured fraction and the exact DAIN/DAIL/DAIR row aligns value, material amount and fraction\",\n        \"no reader directly splits D from AL, so DAL may still be a learned whole meaning raw-drug lot\",\n    ),",
+          "sha256": "8f82c13ea0605fa945f83b5bd0044133cac9ad4a3e974b370a29b9b922d36a55"
+        }
+      ]
+    }
+  ],
+  "status_guidance": {
+    "current_claim_remains": "unconfirmed_live_rival",
+    "reason_class": "historical_model_revision",
+    "secondary_limit": "missing_meaning_binding",
+    "no_empirical_meaning_refutation": true,
+    "no_global_DAL_or_substring_claim": true
+  },
+  "validation": {
+    "status": "PASS",
+    "active_targets": 1,
+    "active_case_bindings": 1,
+    "quote_sha_checks": 8,
+    "operative_changes": false
+  },
+  "limits": [
+    "No new source experiment, raw transcript query, manuscript image or operational mutation.",
+    "The proposed pathways are reviewer suggestions only. None is claimed satisfied and none authorizes a rerun.",
+    "Historical priority change is not a failure of the surviving alternative."
+  ]
+}

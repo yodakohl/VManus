@@ -9,17 +9,17 @@ They remain in the source archive. No hypothesis becomes executable by inclusion
 
 | Unit | Count |
 |---|---:|
-| Active semantic hypothesis variants | 3,743 |
+| Active semantic hypothesis variants | 3,787 |
 | Separately typed formal-role cards | 265 |
-| Reviewed source cases, including the correction archive | 4,531 |
+| Reviewed source cases, including the correction archive | 4,576 |
 | Archived source-extraction errors | 47 |
-| Exact normalized assertion repetitions grouped | 476 |
+| Exact normalized assertion repetitions grouped | 477 |
 | Reviewed equivalence groups / display reduction | 48 / 57 |
-| Public semantic display entries | 3,686 |
+| Public semantic display entries | 3,730 |
 
 These are different units, not a deduplicated total of independent theories.
 A local ignored supplement contributes95 semantic cards and one formal card;
-the ordinary local default therefore displays3,781 semantic entries. A fresh
+the ordinary local default therefore displays3,825 semantic entries. A fresh
 public clone has the public view only. Local source files and quotes are not
 published or silently folded into public counts.
 
@@ -61,12 +61,19 @@ two specializations. Conflicting nonidentity blocks transitive merging; changed
 claim or case bindings require a new review. Shared spelling, shortened wording
 or a matching source title alone proves neither identity nor nonidentity.
 
+Before selecting another identity comparison, consult `IDENTITY_REVIEW_INPUTS.json`
+and the current operative identity log. The manifest records thirty hashed review
+inputs, including earlier proposal and peer formats missed by the narrower DO
+selection list. It is a bounded coverage receipt, not an automatic pair verdict.
+Update it when new identity reviews are added; distinguish an old recommendation
+from a committed relation. The three DO selections did not repeat a reviewed pair.
+
 One representative appears per reviewed equivalent group. Its status and normal
 source/case counts belong to that representative; `group_scope_cases` counts all
 member cases. Open `--field equivalents` or `--field relations` for the others.
 No failure, success or execution permission propagates across an identity link.
 
-The append-only correction log archives47 erroneous exports and restates181
+The append-only correction log archives47 erroneous exports and restates187
 source assertions. Every original claim, case and quote remains retrievable,
 including via `--show ID` for archived cards. Numeric columns, alias-column
 misparses, unlicensed constituent exports and metadata are extraction errors;
@@ -76,7 +83,7 @@ not mean rejected, and an old source PASS does not confirm a meaning.
 
 ## Failure memory and conditional priorities
 
-Thirty-four scoped question dossiers distinguish empirical failure, invalid test,
+Thirty-five scoped question dossiers distinguish empirical failure, invalid test,
 insufficient capacity, missing meaning binding, proposal-only status and historical
 model revision. They appear before inherited experiment context under assessments.
 They state the actual compared subclaim, primary evidence, scope and changed-input
@@ -109,14 +116,16 @@ Later full-scope reviews and audit-only source comparisons live in the bounded
 `decisions/clean_gap_review_*.json` artifacts. An audit pointer does not add a
 source-case payload. Quote overlap alone never certifies complete review.
 
-Latest integrated packet: DK/DM/DP retains fourteen historical source cases.
-GDT647 keeps its three exact templates, thirteen absent cells and named excluded
-families. GDT655 keeps the learned DAL whole-word rival and absent internal
-D/AL boundary bridge. Two DP cases retain specific dictation/copy assignments,
-not independent models or observed manuscript meanings. DL adds two narrow
-historical revision contexts for H4 cooling and dshedy fresh-liquid admission.
-DO groups same-source DY and the unchanged OS connector; productive initial L
-and locally licensed internal L remain related but nonidentical.
+Latest integrated packet: DQ–DY retains forty-five historical source cases,
+including one exact SHEDEFAM assertion repetition. Complete recipe readings,
+whole-form rivals, named family exclusions and eligible-host contracts remain
+explicit; shared substrings or local examples are not independent models.
+DR preserves DAL as a living whole-word rival and distinguishes referential
+content from internal composition or free component export. DZ corrects six
+scopes while retaining actual source-considered alternatives, including the
+model-relative rejection of a simplified cheodain reading. A073/A004 still lack
+a completed comparison of their earlier whole readings: artifact pointers exist,
+but their payloads were not inspected in DV/EA. This is not missing data.
 
 Four append-only type alignments preserve the original claims and IDs. Pure
 ordering/reset over predefined roles is formal, including the corrected DE335

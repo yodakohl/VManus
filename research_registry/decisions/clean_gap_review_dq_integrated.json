@@ -1,0 +1,1611 @@
+{
+  "review_id": "CLEAN_GAP_REVIEW_DQ_INTEGRATED",
+  "cards": [
+    {
+      "id": "CLEAN_GAP_DQ:al_head_three_whole_revisions",
+      "claim": "GDT656 revises qokal, okal and otal so that AL retains the same raw-material-class-I head: qokal is hot at grade beginning; okal is that hot raw-material class in preparation; otal the corresponding cold class in preparation. The older fluent readings heiße Substanz and Ansatz aus heißem/kaltem Rohstoff, Form I remain explicit rivals. These are complete-word alternatives, not free AL/E/O/QO translations.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "LEGACY_COMPONENT:c39e265bc54771273cbe"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt656_al_quality_position_shell/REPORT.md",
+          "line": 9,
+          "line_end": 14,
+          "quote": "AL                 Rohstoffklasse I\nCH / SH / K / T    trocken / feucht / heiß / kalt\nkein E / E / EE    Gradanfang / Gradmitte / Gradende\nO                  im Ansatz\nQO                 struktureller Rahmen ohne eigenes deutsches Wort\n```",
+          "sha256": "e334d267f959d433f8142400a2303a19624611160cbe4d00d49318ca68641b95"
+        },
+        {
+          "path": "experiments/yolo/gdt656_al_quality_position_shell/REPORT.md",
+          "line": 27,
+          "line_end": 36,
+          "quote": "okal       Rohstoffklasse I im Ansatz, heiß am Gradanfang\nokeal      Rohstoffklasse I im Ansatz, heiß in der Gradmitte\n\notal       Rohstoffklasse I im Ansatz, kalt am Gradanfang\noteal      Rohstoffklasse I im Ansatz, kalt in der Gradmitte\noteeal     Rohstoffklasse I im Ansatz, kalt am Gradende\n\nqokal      Rohstoffklasse I, heiß am Gradanfang\nqokeal     Rohstoffklasse I, heiß in der Gradmitte\nqokeeal    Rohstoffklasse I, heiß am Gradende",
+          "sha256": "e334d267f959d433f8142400a2303a19624611160cbe4d00d49318ca68641b95"
+        },
+        {
+          "path": "experiments/yolo/gdt656_al_quality_position_shell/REPORT.md",
+          "line": 42,
+          "line_end": 50,
+          "quote": "`kal`, `tal`, `oal` und `qoal` liefern die beobachteten kürzeren\nGrundkarten. `qokal`, `okal` und `otal` werden gegenüber V32 revidiert, damit\nAL in allen drei Wörtern derselbe Rohstoffkopf bleibt. Die alten flüssigen\nLesungen „heiße Substanz“ beziehungsweise „Ansatz aus heißem/kaltem Rohstoff,\nForm I“ bleiben als Rivalen im Entscheidungsdeck erhalten.\n\nDie Karten gelten nur für die vollständigen geschriebenen Oberflächen. V33\nmacht weder `AL` noch `E`, `EE`, `O` oder `QO` zu frei einsetzbaren deutschen\nWörtern.",
+          "sha256": "e334d267f959d433f8142400a2303a19624611160cbe4d00d49318ca68641b95"
+        },
+        {
+          "path": "experiments/yolo/gdt656_al_quality_position_shell/REPORT.md",
+          "sha256": "e334d267f959d433f8142400a2303a19624611160cbe4d00d49318ca68641b95",
+          "line": 169,
+          "line_end": 172,
+          "quote": "V33 ist die bislang konkrete AL-Arbeitstheorie: gleiche Rohstoffklasse,\nsystematisch wechselnde Qualität und Gradposition, mit O-Ansatzrahmen und\nQO-Struktur. Der stärkste Gesamtrivale bleibt `AL = Rohstoffform I` zusammen\nmit `E = Bindung/Erweiterung` statt Gradposition."
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "independent_new_idea": false,
+      "scope": {
+        "kind": "historical_source_scoped_working_hypothesis",
+        "source": "experiments/yolo/gdt656_al_quality_position_shell/REPORT.md",
+        "limits": "No independently confirmed translation, semantic PASS, universal substring rule or new experiment permission."
+      },
+      "comparison": {
+        "counterpart_ids": [
+          "SEM:37ea9925607bce5974e8"
+        ],
+        "reason": "SEM:37ea9925607bce5974e8 asserts AL=Rohstoffform I, the stated overall rival coupled with E=Bindung/Erweiterung, not the chosen AL=Rohstoffklasse I head. It does not state this three-whole-form revision bundle and its retained fluent rivals. Fluent does not mean liquid.",
+        "global_novelty": "unknown"
+      }
+    },
+    {
+      "id": "CLEAN_GAP_DQ:chokal_okchal_modifier_scope",
+      "claim": "GDT657 distinguishes the scope of the same quality ingredients in chokal and okchal: CHO+KAL is a dry preparation made from hot raw material, whereas O+KCH+AL is a preparation made from raw material jointly qualified as hot and dry. The historical model therefore predicts different readings from the attachment order rather than an unordered ingredient list. The written order difference does not independently prove this chosen semantic scope.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "LEGACY_COMPONENT:e9d2fbf50c58aa80fa61"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt657_multi_quality_al_shell_order/REPORT.md",
+          "line": 14,
+          "line_end": 26,
+          "quote": "```text\nchkal    CH + KAL       Rohstoffklasse I, trocken-heiß am Gradanfang\nkchal    K + CHAL       Rohstoffklasse I, heiß-trocken am Gradanfang\n\nchokal   CHO + KAL      Trockenansatz aus heißem Rohstoff Klasse I\nokchal   O + KCH + AL   Ansatz aus heiß-trockenem Rohstoff Klasse I\n```\n\n`chokal` und `okchal` bestehen daher in der Arbeitstheorie nicht aus derselben\nungeordneten Zutatenliste. Beim ersten Wort modifiziert heiß den Rohstoff\ninnerhalb eines Trockenansatzes; beim zweiten bilden heiß und trocken gemeinsam\ndie Qualität des Rohstoffs im Ansatz. Das ist die Art von Komposition, die auf\nnoch ungelesenen Formen eine unterschiedliche Bedeutung vorhersagt.",
+          "sha256": "98c2ba63a7850d0fe9e9b36466fee092b4b54fd292d99f6489de45f5e9b22d59"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "independent_new_idea": false,
+      "scope": {
+        "kind": "historical_source_scoped_working_hypothesis",
+        "source": "experiments/yolo/gdt657_multi_quality_al_shell_order/REPORT.md",
+        "limits": "No independently confirmed translation, semantic PASS, universal substring rule or new experiment permission."
+      },
+      "comparison": {
+        "counterpart_ids": [
+          "SEM:db858e92fcee88c73a41",
+          "SEM:649fa4670893eaefca06"
+        ],
+        "reason": "Both complete lexical values exist. The additional proposition is their explicitly asserted modifier-scope contrast and predictive attachment rule, not two rediscovered glosses.",
+        "global_novelty": "unknown"
+      }
+    },
+    {
+      "id": "CLEAN_GAP_DQ:shedefam_additional_source_case",
+      "claim": "shedefam → ein Maß eingeweichter Blütendroge",
+      "claim_type": "lexical_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:4a0c4e40f9ae32416bdf"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt658_four_residual_concrete_completion/REPORT.md",
+          "line": 11,
+          "line_end": 14,
+          "quote": "| Form | Positionen / exakt | sichtbare Architektur | konkrete V35-Arbeitslesung | stärkster Rivale |\n|---|---:|---|---|---|\n| `otam` | 44 / 39 | `O + T + AM` | ein Maß des kalten Ansatzes | gelernte Einheitsform oder kalte Zubereitung der Form I |\n| `shedefam` | 1 / 0 | `SHEDE + F + AM` | ein Maß eingeweichter Blütendroge | Frucht-, Blatt- oder opaker F-Materia-Kopf |",
+          "sha256": "71dac0d8656909f655821a1ca3f0c6b8cb47e69d06388857d96ca465ba6a343c"
+        },
+        {
+          "path": "experiments/yolo/gdt658_four_residual_concrete_completion/REPORT.md",
+          "line": 40,
+          "line_end": 55,
+          "quote": "## Was der F-Kopf in `shedefam` leistet\n\nF verhält sich intern wie ein fünfter Materia-Kopf neben den bereits\nmodellierten P/S/R/L-Köpfen:102 Token beginnen mit F,67 davon teilen in43\nRestfamilien ihren vollständigen Körper mit wenigstens einem P/S/R/L-Wort.\nAcht Körper bilden sogar vollständige Fünfersätze:\n`ar`, `chdy`, `chedy`, `cheey`, `chey`, `chol`, `ol` und `shedy`.\n\nDas macht einen konkreten Stoffkopf besser als ein bedeutungsloses\nVerbindungszeichen. Die Arbeitswahl „Blüte“ ist historisch und praktisch\npassend und derzeit etwas stärker als Frucht oder Blatt; Blatt ist außerdem\nbereits durch die stärkere CTH-Familie besetzt. Sie ist wegen des einzigen\n`shedefam`-Belegs aber gelernt und ersetzbar. ZL3b und IT2a lesen die Ganzform\ngleich; RF1b liest die betreffende Zeile `shd | she | efam | qokedy | chokal |\ndal` und zerlegt damit das Ziel als `she | efam`. Deshalb wird `SHEDE` nicht\nals global sicherer Stamm exportiert und die Karte bleibt eine Leserwarnung.",
+          "sha256": "71dac0d8656909f655821a1ca3f0c6b8cb47e69d06388857d96ca465ba6a343c"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "independent_new_idea": false,
+      "scope": {
+        "kind": "additional_source_case_of_existing_whole_reading",
+        "source": "experiments/yolo/gdt658_four_residual_concrete_completion/REPORT.md",
+        "limits": "No independently confirmed translation, semantic PASS, universal substring rule or new experiment permission."
+      },
+      "comparison": {
+        "counterpart_ids": [
+          "SEM:b30d45603f3186d20434",
+          "SEM:8204a2996f50989c4249"
+        ],
+        "reason": "Existing exact primary value and fruit/leaf/opaque-head rivals are retained. Add only the source case with the author preference rationale and reader-dependent nonexport limit; do not count another distinct flower hypothesis.",
+        "global_novelty": "unknown"
+      },
+      "existing_exact_assertion": "SEM:b30d45603f3186d20434"
+    },
+    {
+      "id": "CLEAN_GAP_DQ:standalone_r_part_portion_rival",
+      "claim": "For standalone r at left-fusion-near positions, GDT661 retains a possible Teil-/Portionswert as a rival to its root reading. This is a restricted alternative for those boundary contexts, not a replacement of all productive R heads or the five label occurrences rendered as Wurzelzeichen.",
+      "claim_type": "lexical_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:6a29e87b8896f0cb6786"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt661_forty_eight_residual_family_completion/REPORT.md",
+          "line": 85,
+          "line_end": 90,
+          "quote": "`r` steht 33-mal unmittelbar vor `ain`, `aiin` oder einer anderen sichtbaren\nWertform. Die äußeren Grenzwechsel sind stark: `r aiin` steht neben `raiin`,\n`r ain` neben `rain`, `r ol` neben `rol`. Das passt zu GDT635s initialem\nR-Kopf für *radix* und macht „Wurzel“ zu einer brauchbaren Fließtextlesung.\nFünf L-Token bleiben dagegen ausdrücklich Wurzelzeichen. Ein möglicher\nTeil-/Portionswert an links fusionsnahen Stellen bleibt als Rivale erhalten.",
+          "sha256": "bc59ad9ee2aa88549f5d19ced3f086580de7e8e2215d0bf17b10959c678c9880"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "independent_new_idea": false,
+      "scope": {
+        "kind": "historical_source_scoped_working_hypothesis",
+        "source": "experiments/yolo/gdt661_forty_eight_residual_family_completion/REPORT.md",
+        "limits": "No independently confirmed translation, semantic PASS, universal substring rule or new experiment permission."
+      },
+      "comparison": {
+        "counterpart_ids": [
+          "SEM:f5350dceef047d45a27f"
+        ],
+        "reason": "The existing complete standalone r card states Wurzel with Wurzelzeichen in labels but does not include the left-fusion-near part/portion alternative. Initial radix heads are not the same scope.",
+        "global_novelty": "unknown"
+      }
+    },
+    {
+      "id": "CLEAN_GAP_DQ:bounded_workshop_composition_contract",
+      "claim": "GDT662 proposes the ordered whole-word workshop schema frame + material head or learned name + treatment + stage/form + quantity + closure. It assigns P/S/R/L/CTH to powder/seed/root/wood/leaf-or-herb drug, K/T to hot/cold, CH/SH to dry/moist, O to preparation, OL/OR/AR/AL to material/portion/raw-material fields, Y/EY/EEY and completed D counterparts to form/stage contrasts, and AN/AIN/AIIN/AIIIN to values. This is a family-generating analytical contract, never automatic translation of arbitrary substrings.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "LEGACY_COMPONENT:7295b65a64dac823cec7"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt662_seventy_six_residual_family_completion/REPORT.md",
+          "line": 40,
+          "line_end": 50,
+          "quote": "Das kompositionelle Werkstattschema lautet:\n\n`[Rahmen] + [Stoffkopf/gelernter Name] + [Behandlung] + [Stufe/Form] + [Menge] + [Abschluss]`\n\nDie Stoffköpfe bleiben `p` Pulver, `s` Saat, `r` Wurzel, `l` Holz und `cth`\nBlatt-/Krautdroge. `k/t` tragen heiß/kalt, `ch/sh` trocken/feucht, `o` eine\nZubereitungsfunktion; `ol/or/ar/al` tragen Stoff-, Portions- und\nRohstofffelder; `y/ey/eey` und die abgeschlossenen `d`-Gegenreihen liefern\nForm-/Stufenunterschiede; `an/ain/aiin/aiiin` bilden Werte. Diese Zerlegung\nerklärt und prognostiziert Familien, übersetzt aber niemals automatisch ein\nSubstring.",
+          "sha256": "c248820081256635e5809a521e666543c4640bc93ad4120ea1b7e3a7f3304d1d"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "independent_new_idea": false,
+      "scope": {
+        "kind": "historical_source_scoped_working_hypothesis",
+        "source": "experiments/yolo/gdt662_seventy_six_residual_family_completion/REPORT.md",
+        "limits": "No independently confirmed translation, semantic PASS, universal substring rule or new experiment permission."
+      },
+      "comparison": {
+        "counterpart_ids": [],
+        "reason": "No full current source-linked GDT662 model card was found among the225 selected-report-linked cards. Individual heads, stage meanings and generic small-codebook architectures do not supply this ordered conjunctive contract; global identity remains unreviewed.",
+        "global_novelty": "unknown"
+      }
+    },
+    {
+      "id": "CLEAN_GAP_DQ:withdrawn_embedded_ol_and_one_portion",
+      "claim": "GDT665 withdraws two semantic additions from its first synthesis: using the naked learned OL=Grundansatz reading inside okol/okoldy, and adding one portion to ykeey/ykaiin. The revised model requires every declared atom to have a licensed role and reconstruct the exact surface; those discarded additions are historical internal-composition choices, not independently falsified manuscript meanings.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "LEGACY_COMPONENT:ab35663f43a19d5a73ee"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt665_one_hundred_forty_eight_residual_family_completion/REPORT.md",
+          "line": 61,
+          "line_end": 76,
+          "quote": "- `s-` seed versus `-s` charge/species;\n- `qol-` learned “add drug material”, not mechanically `q + O + L`;\n- `-ol` material/result carrier versus naked learned `ol=Grundansatz` and\n  initial O+L wood-preparation forms;\n- `y- + process` as an anaphoric imperative (“do this to it”);\n- `aiir` as fraction III and `-in/-iin/-iiin` as forms II/III/IV;\n- `ckh` as a composite-preparation head.\n\nThe final cross-role audit materially changed the first synthesis. It removed\nan illegally embedded naked-`ol` reading from 60 `okol/okoldy` positions and\ndeleted unsupported “one portion” wording from all 92 `ykeey/ykaiin`\npositions. It also replaced four nonexistent composition roles, removed three\nrival annotations that had leaked into atom strings, and converted four\nunsplit over-compositions to learned exact wholes. Every remaining declared\natom is licensed by the 47-role sheet and its spelling reconstructs the full\nsurface exactly once.",
+          "sha256": "2e9ab781052b7294a2bad46853123ae7b199daedfe79e6d41a251330f40333d3"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "independent_new_idea": false,
+      "scope": {
+        "kind": "historical_source_scoped_working_hypothesis",
+        "source": "experiments/yolo/gdt665_one_hundred_forty_eight_residual_family_completion/REPORT.md",
+        "limits": "No independently confirmed translation, semantic PASS, universal substring rule or new experiment permission."
+      },
+      "comparison": {
+        "counterpart_ids": [],
+        "reason": "No current whole-claim match for ykeey or this paired correction was found. A generic OL or quantity value does not preserve the source-specific rejected embedding/addition. Other role/schema cleanups in the paragraph are implementation consequences, not four new semantic hypotheses.",
+        "global_novelty": "unknown"
+      }
+    },
+    {
+      "id": "CLEAN_GAP_DQ:recipe_role_attachment_contract",
+      "claim": "GDT666 interprets qo-prefixed cards as operation/taking commands, y-prefixes as reference to preceding material, qol-prefixes as material addition, final dy as finishing, initial d as measuring, final d as closure, and aiin as a third quantity or stage value. The exact whole card still determines the final German reading; these bounded roles predict recipe compounds without a universal one-letter/one-word mapping.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "LEGACY_COMPONENT:cacebe09555906baec3a"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt666_one_hundred_fifty_one_residual_family_completion/REPORT.md",
+          "line": 70,
+          "line_end": 75,
+          "quote": "These forms occupy recognizably different recipe slots. A `qo-` card commands\nan operation or taking; `y-` points back to the preceding material; `qol-`\nadds material; `-dy` finishes; `d-` measures; `-d` closes; and `aiin` supplies\nthe third quantity or stage value. The exact whole always decides the final\nGerman reading, so these roles predict compounds without pretending that one\nletter has one universal English word.",
+          "sha256": "08f8a628c0c00044fa5793d125126671f8e566a8f1ccd018fbb7d47807514e2d"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "independent_new_idea": false,
+      "scope": {
+        "kind": "historical_source_scoped_working_hypothesis",
+        "source": "experiments/yolo/gdt666_one_hundred_fifty_one_residual_family_completion/REPORT.md",
+        "limits": "No independently confirmed translation, semantic PASS, universal substring rule or new experiment permission."
+      },
+      "comparison": {
+        "counterpart_ids": [],
+        "reason": "No full current GDT666 model card linked to this report was located. Atomically similar qo/y/aiin claims do not assert the complete attachment-sensitive rule and exact-whole qualification.",
+        "global_novelty": "unknown"
+      }
+    }
+  ],
+  "dispositions": [
+    {
+      "source_id": "LEGACY_COMPONENT:c39e265bc54771273cbe",
+      "decision": "candidate_complete_proposition_recovered",
+      "reason": "The isolated AL head card does not state the three exact whole-word revisions and retained old renderings. The adjective flüssig in the source describes fluent readings; it is not evidence of a liquid substance.",
+      "card_ids": [
+        "CLEAN_GAP_DQ:al_head_three_whole_revisions"
+      ],
+      "intake_basis": "First initial disposition in this integration; no earlier intake history is asserted. Detailed current assessment and prior proposal assessments remain in source_reassessments.",
+      "resolution_sources": [
+        {
+          "path": "research_registry/decisions/clean_gap_review_dq.json",
+          "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:e9d2fbf50c58aa80fa61",
+      "decision": "candidate_complete_proposition_recovered",
+      "reason": "Both complete lexical values exist. The additional proposition is their explicitly asserted modifier-scope contrast and predictive attachment rule, not two rediscovered glosses.",
+      "card_ids": [
+        "CLEAN_GAP_DQ:chokal_okchal_modifier_scope"
+      ],
+      "intake_basis": "First initial disposition in this integration; no earlier intake history is asserted. Detailed current assessment and prior proposal assessments remain in source_reassessments.",
+      "resolution_sources": [
+        {
+          "path": "research_registry/decisions/clean_gap_review_dq.json",
+          "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:4a0c4e40f9ae32416bdf",
+      "decision": "additional_source_case_existing_assertion",
+      "reason": "Existing exact primary value and fruit/leaf/opaque-head rivals are retained. Add only the source case with the author preference rationale and reader-dependent nonexport limit; do not count another distinct flower hypothesis.",
+      "card_ids": [
+        "CLEAN_GAP_DQ:shedefam_additional_source_case"
+      ],
+      "intake_basis": "First initial disposition in this integration; no earlier intake history is asserted. Detailed current assessment and prior proposal assessments remain in source_reassessments.",
+      "resolution_sources": [
+        {
+          "path": "research_registry/decisions/clean_gap_review_dq.json",
+          "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:94f56afa794f110a43c2",
+      "decision": "source_fidelity_limit_no_additional_meaning",
+      "reason": "Selected53–56 describes alternative-reader boundary instability and limits a global y word. It supplies no new exact semantic assignment; the adjacent position-conditioned entry/closure scheme is not claimed fully reviewed or absent here.",
+      "card_ids": [],
+      "intake_basis": "First initial disposition in this integration; no earlier intake history is asserted. Detailed current assessment and prior proposal assessments remain in source_reassessments.",
+      "resolution_sources": [
+        {
+          "path": "research_registry/decisions/clean_gap_review_dq.json",
+          "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:dbc8d235672e9a28e7ba",
+      "decision": "coverage_summary_no_extra_proposition",
+      "reason": "Selected5–8 reports fifteen long-form assignments and seven position-conditioned s/dy cards. Counts and a no-universal-word qualification are not an additional dictionary model. In particular DO has already reviewed the exact standalone DY source assertion; it is not repeated here.",
+      "card_ids": [],
+      "intake_basis": "First initial disposition in this integration; no earlier intake history is asserted. Detailed current assessment and prior proposal assessments remain in source_reassessments.",
+      "resolution_sources": [
+        {
+          "path": "research_registry/decisions/clean_gap_review_dq.json",
+          "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:6a29e87b8896f0cb6786",
+      "decision": "candidate_complete_proposition_recovered",
+      "reason": "The existing complete standalone r card states Wurzel with Wurzelzeichen in labels but does not include the left-fusion-near part/portion alternative. Initial radix heads are not the same scope.",
+      "card_ids": [
+        "CLEAN_GAP_DQ:standalone_r_part_portion_rival"
+      ],
+      "intake_basis": "First initial disposition in this integration; no earlier intake history is asserted. Detailed current assessment and prior proposal assessments remain in source_reassessments.",
+      "resolution_sources": [
+        {
+          "path": "research_registry/decisions/clean_gap_review_dq.json",
+          "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:7295b65a64dac823cec7",
+      "decision": "candidate_complete_proposition_recovered",
+      "reason": "No full current source-linked GDT662 model card was found among the225 selected-report-linked cards. Individual heads, stage meanings and generic small-codebook architectures do not supply this ordered conjunctive contract; global identity remains unreviewed.",
+      "card_ids": [
+        "CLEAN_GAP_DQ:bounded_workshop_composition_contract"
+      ],
+      "intake_basis": "First initial disposition in this integration; no earlier intake history is asserted. Detailed current assessment and prior proposal assessments remain in source_reassessments.",
+      "resolution_sources": [
+        {
+          "path": "research_registry/decisions/clean_gap_review_dq.json",
+          "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:1a63239b6f26c3db8fa6",
+      "decision": "DQ_scope_remainder_resolved_by_explicit_report_bridges",
+      "reason": "The original11–15 summary lacks individual surface names, but74–98 explicitly supplies them. The earlier gap was incomplete comparison, not absent source binding. Eight target groups resolve to seven recovered full/specific assertions and one existing whole-value/rival pair; no seven-new-ideas quota was presumed.",
+      "card_ids": [
+        "CLEAN_GAP_DT:free_l_pound",
+        "CLEAN_GAP_DT:solaiin_salt_quantity_iii",
+        "CLEAN_GAP_DT:cthoj_herb_bundle",
+        "CLEAN_GAP_DT:ylg_put_into_wooden_vessel",
+        "CLEAN_GAP_DT:deeeese_rest_final_stage",
+        "CLEAN_GAP_DT:dosg_dose_residue",
+        "CLEAN_GAP_DT:cthosg_herbal_residue"
+      ],
+      "intake_basis": "First initial disposition in this integration; no earlier intake history is asserted. Detailed current assessment and prior proposal assessments remain in source_reassessments.",
+      "resolution_sources": [
+        {
+          "path": "research_registry/decisions/clean_gap_review_dq.json",
+          "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+        },
+        {
+          "path": "research_registry/decisions/clean_gap_review_dt.json",
+          "sha256": "70b71bc5e61c72730bb380a061582f51b82f6cbe09c90a37f9abbf474190d642"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:a4317381e090c25b4739",
+      "decision": "coverage_and_replay_not_semantic_claim",
+      "reason": "Numbers of surfaces/lines and successful replay describe source coverage and implementation reproducibility. They do not establish independent German meanings or provide a further concrete content hypothesis.",
+      "card_ids": [],
+      "intake_basis": "First initial disposition in this integration; no earlier intake history is asserted. Detailed current assessment and prior proposal assessments remain in source_reassessments.",
+      "resolution_sources": [
+        {
+          "path": "research_registry/decisions/clean_gap_review_dq.json",
+          "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:ab35663f43a19d5a73ee",
+      "decision": "candidate_complete_proposition_recovered",
+      "reason": "No current whole-claim match for ykeey or this paired correction was found. A generic OL or quantity value does not preserve the source-specific rejected embedding/addition. Other role/schema cleanups in the paragraph are implementation consequences, not four new semantic hypotheses.",
+      "card_ids": [
+        "CLEAN_GAP_DQ:withdrawn_embedded_ol_and_one_portion"
+      ],
+      "intake_basis": "First initial disposition in this integration; no earlier intake history is asserted. Detailed current assessment and prior proposal assessments remain in source_reassessments.",
+      "resolution_sources": [
+        {
+          "path": "research_registry/decisions/clean_gap_review_dq.json",
+          "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:cacebe09555906baec3a",
+      "decision": "candidate_complete_proposition_recovered",
+      "reason": "No full current GDT666 model card linked to this report was located. Atomically similar qo/y/aiin claims do not assert the complete attachment-sensitive rule and exact-whole qualification.",
+      "card_ids": [
+        "CLEAN_GAP_DQ:recipe_role_attachment_contract"
+      ],
+      "intake_basis": "First initial disposition in this integration; no earlier intake history is asserted. Detailed current assessment and prior proposal assessments remain in source_reassessments.",
+      "resolution_sources": [
+        {
+          "path": "research_registry/decisions/clean_gap_review_dq.json",
+          "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:7ae1c1d795b5907512a7",
+      "decision": "authored_renderer_correction_summary",
+      "reason": "Reports six plus two prose corrections without full changed readings. No new card and no evidence that meanings were experimentally tested.",
+      "card_ids": [],
+      "intake_basis": "First initial disposition in this integration; no earlier intake history is asserted. Detailed current assessment and prior proposal assessments remain in source_reassessments.",
+      "resolution_sources": [
+        {
+          "path": "research_registry/decisions/clean_gap_review_dq.json",
+          "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+        },
+        {
+          "path": "research_registry/decisions/clean_gap_review_dx.json",
+          "sha256": "79652711ad67bbe843c8ab94d53c984beee0c053bedd431df641a29b414dbf2c"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:b8c1d96d8b6aa8b2ef95",
+      "decision": "source_transfer_accounting_no_new_meaning",
+      "reason": "The selected sentence records inherited versus local transfer-card coverage and rendering layers. It does not specify an additional content proposition for an exact token; source-local transfer is not semantic proof. Neither all f1r meanings nor the adjacent renderer rules are certified here.",
+      "card_ids": [],
+      "intake_basis": "First initial disposition in this integration; no earlier intake history is asserted. Detailed current assessment and prior proposal assessments remain in source_reassessments.",
+      "resolution_sources": [
+        {
+          "path": "research_registry/decisions/clean_gap_review_dq.json",
+          "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:c810d17ad497211ceaa5",
+      "decision": "authored_renderer_comparison_not_semantic_falsifier",
+      "reason": "This is a retrospective accounting comparison of imperative renderers and generic/unsupported action/argument additions. It should not become a global empirical refutation of imperative writing or a new rival lexical card; the specific adjacent nominal-versus-action architecture is outside the selected sentence.",
+      "card_ids": [],
+      "intake_basis": "First initial disposition in this integration; no earlier intake history is asserted. Detailed current assessment and prior proposal assessments remain in source_reassessments.",
+      "resolution_sources": [
+        {
+          "path": "research_registry/decisions/clean_gap_review_dq.json",
+          "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:3aad5f2795f4a2e2b4f9",
+      "decision": "historical_full_assertion_recovered",
+      "reason": "Recover the concrete source model, construction, local example or live rival without promoting source judgements to facts.",
+      "card_ids": [
+        "CLEAN_GAP_DX:v49_external_nine_scope_splits"
+      ],
+      "intake_basis": "First initial disposition in this integration; no earlier intake history is asserted. Detailed current assessment and prior proposal assessments remain in source_reassessments.",
+      "resolution_sources": [
+        {
+          "path": "research_registry/decisions/clean_gap_review_dq.json",
+          "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+        },
+        {
+          "path": "research_registry/decisions/clean_gap_review_dx.json",
+          "sha256": "79652711ad67bbe843c8ab94d53c984beee0c053bedd431df641a29b414dbf2c"
+        }
+      ]
+    }
+  ],
+  "source_reassessments": [
+    {
+      "source_id": "LEGACY_COMPONENT:c39e265bc54771273cbe",
+      "selection_index": 0,
+      "decision": "candidate_complete_proposition_recovered",
+      "card_ids": [
+        "CLEAN_GAP_DQ:al_head_three_whole_revisions"
+      ],
+      "counterpart_ids": [
+        "SEM:37ea9925607bce5974e8"
+      ],
+      "reason": "The isolated AL head card does not state the three exact whole-word revisions and retained old renderings. The adjective flüssig in the source describes fluent readings; it is not evidence of a liquid substance.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt656_al_quality_position_shell/REPORT.md",
+          "line": 9,
+          "line_end": 14,
+          "quote": "AL                 Rohstoffklasse I\nCH / SH / K / T    trocken / feucht / heiß / kalt\nkein E / E / EE    Gradanfang / Gradmitte / Gradende\nO                  im Ansatz\nQO                 struktureller Rahmen ohne eigenes deutsches Wort\n```",
+          "sha256": "e334d267f959d433f8142400a2303a19624611160cbe4d00d49318ca68641b95"
+        },
+        {
+          "path": "experiments/yolo/gdt656_al_quality_position_shell/REPORT.md",
+          "line": 27,
+          "line_end": 36,
+          "quote": "okal       Rohstoffklasse I im Ansatz, heiß am Gradanfang\nokeal      Rohstoffklasse I im Ansatz, heiß in der Gradmitte\n\notal       Rohstoffklasse I im Ansatz, kalt am Gradanfang\noteal      Rohstoffklasse I im Ansatz, kalt in der Gradmitte\noteeal     Rohstoffklasse I im Ansatz, kalt am Gradende\n\nqokal      Rohstoffklasse I, heiß am Gradanfang\nqokeal     Rohstoffklasse I, heiß in der Gradmitte\nqokeeal    Rohstoffklasse I, heiß am Gradende",
+          "sha256": "e334d267f959d433f8142400a2303a19624611160cbe4d00d49318ca68641b95"
+        },
+        {
+          "path": "experiments/yolo/gdt656_al_quality_position_shell/REPORT.md",
+          "line": 42,
+          "line_end": 50,
+          "quote": "`kal`, `tal`, `oal` und `qoal` liefern die beobachteten kürzeren\nGrundkarten. `qokal`, `okal` und `otal` werden gegenüber V32 revidiert, damit\nAL in allen drei Wörtern derselbe Rohstoffkopf bleibt. Die alten flüssigen\nLesungen „heiße Substanz“ beziehungsweise „Ansatz aus heißem/kaltem Rohstoff,\nForm I“ bleiben als Rivalen im Entscheidungsdeck erhalten.\n\nDie Karten gelten nur für die vollständigen geschriebenen Oberflächen. V33\nmacht weder `AL` noch `E`, `EE`, `O` oder `QO` zu frei einsetzbaren deutschen\nWörtern.",
+          "sha256": "e334d267f959d433f8142400a2303a19624611160cbe4d00d49318ca68641b95"
+        }
+      ],
+      "full_selected_span_read": true,
+      "context_expansion_disclosed": true,
+      "independent_new_idea": false,
+      "previous_source_assessments": [
+        {
+          "source": {
+            "path": "research_registry/decisions/clean_gap_review_dq.json",
+            "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+          },
+          "assessment_kind": "source_reassessments",
+          "assessment": {
+            "source_id": "LEGACY_COMPONENT:c39e265bc54771273cbe",
+            "selection_index": 0,
+            "decision": "candidate_complete_proposition_recovered",
+            "card_ids": [
+              "CLEAN_GAP_DQ:al_head_three_whole_revisions"
+            ],
+            "counterpart_ids": [
+              "SEM:37ea9925607bce5974e8"
+            ],
+            "reason": "The isolated AL head card does not state the three exact whole-word revisions and retained old renderings. The adjective flüssig in the source describes fluent readings; it is not evidence of a liquid substance.",
+            "evidence": [
+              {
+                "path": "experiments/yolo/gdt656_al_quality_position_shell/REPORT.md",
+                "line": 9,
+                "line_end": 14,
+                "quote": "AL                 Rohstoffklasse I\nCH / SH / K / T    trocken / feucht / heiß / kalt\nkein E / E / EE    Gradanfang / Gradmitte / Gradende\nO                  im Ansatz\nQO                 struktureller Rahmen ohne eigenes deutsches Wort\n```",
+                "sha256": "e334d267f959d433f8142400a2303a19624611160cbe4d00d49318ca68641b95"
+              },
+              {
+                "path": "experiments/yolo/gdt656_al_quality_position_shell/REPORT.md",
+                "line": 27,
+                "line_end": 36,
+                "quote": "okal       Rohstoffklasse I im Ansatz, heiß am Gradanfang\nokeal      Rohstoffklasse I im Ansatz, heiß in der Gradmitte\n\notal       Rohstoffklasse I im Ansatz, kalt am Gradanfang\noteal      Rohstoffklasse I im Ansatz, kalt in der Gradmitte\noteeal     Rohstoffklasse I im Ansatz, kalt am Gradende\n\nqokal      Rohstoffklasse I, heiß am Gradanfang\nqokeal     Rohstoffklasse I, heiß in der Gradmitte\nqokeeal    Rohstoffklasse I, heiß am Gradende",
+                "sha256": "e334d267f959d433f8142400a2303a19624611160cbe4d00d49318ca68641b95"
+              },
+              {
+                "path": "experiments/yolo/gdt656_al_quality_position_shell/REPORT.md",
+                "line": 42,
+                "line_end": 50,
+                "quote": "`kal`, `tal`, `oal` und `qoal` liefern die beobachteten kürzeren\nGrundkarten. `qokal`, `okal` und `otal` werden gegenüber V32 revidiert, damit\nAL in allen drei Wörtern derselbe Rohstoffkopf bleibt. Die alten flüssigen\nLesungen „heiße Substanz“ beziehungsweise „Ansatz aus heißem/kaltem Rohstoff,\nForm I“ bleiben als Rivalen im Entscheidungsdeck erhalten.\n\nDie Karten gelten nur für die vollständigen geschriebenen Oberflächen. V33\nmacht weder `AL` noch `E`, `EE`, `O` oder `QO` zu frei einsetzbaren deutschen\nWörtern.",
+                "sha256": "e334d267f959d433f8142400a2303a19624611160cbe4d00d49318ca68641b95"
+              }
+            ],
+            "full_selected_span_read": true,
+            "context_expansion_disclosed": true,
+            "independent_new_idea": false
+          }
+        }
+      ],
+      "resolution_sources": [
+        {
+          "path": "research_registry/decisions/clean_gap_review_dq.json",
+          "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+        }
+      ],
+      "integration_note": "Cumulative source reassessment only; prior initial intake and historical scope decisions remain in previous_source_assessments. Card references are unioned, not replaced. An evidence interval alone does not certify full proposition coverage."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:e9d2fbf50c58aa80fa61",
+      "selection_index": 1,
+      "decision": "candidate_complete_proposition_recovered",
+      "card_ids": [
+        "CLEAN_GAP_DQ:chokal_okchal_modifier_scope"
+      ],
+      "counterpart_ids": [
+        "SEM:db858e92fcee88c73a41",
+        "SEM:649fa4670893eaefca06"
+      ],
+      "reason": "Both complete lexical values exist. The additional proposition is their explicitly asserted modifier-scope contrast and predictive attachment rule, not two rediscovered glosses.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt657_multi_quality_al_shell_order/REPORT.md",
+          "line": 14,
+          "line_end": 26,
+          "quote": "```text\nchkal    CH + KAL       Rohstoffklasse I, trocken-heiß am Gradanfang\nkchal    K + CHAL       Rohstoffklasse I, heiß-trocken am Gradanfang\n\nchokal   CHO + KAL      Trockenansatz aus heißem Rohstoff Klasse I\nokchal   O + KCH + AL   Ansatz aus heiß-trockenem Rohstoff Klasse I\n```\n\n`chokal` und `okchal` bestehen daher in der Arbeitstheorie nicht aus derselben\nungeordneten Zutatenliste. Beim ersten Wort modifiziert heiß den Rohstoff\ninnerhalb eines Trockenansatzes; beim zweiten bilden heiß und trocken gemeinsam\ndie Qualität des Rohstoffs im Ansatz. Das ist die Art von Komposition, die auf\nnoch ungelesenen Formen eine unterschiedliche Bedeutung vorhersagt.",
+          "sha256": "98c2ba63a7850d0fe9e9b36466fee092b4b54fd292d99f6489de45f5e9b22d59"
+        }
+      ],
+      "full_selected_span_read": true,
+      "context_expansion_disclosed": true,
+      "independent_new_idea": false,
+      "previous_source_assessments": [
+        {
+          "source": {
+            "path": "research_registry/decisions/clean_gap_review_dq.json",
+            "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+          },
+          "assessment_kind": "source_reassessments",
+          "assessment": {
+            "source_id": "LEGACY_COMPONENT:e9d2fbf50c58aa80fa61",
+            "selection_index": 1,
+            "decision": "candidate_complete_proposition_recovered",
+            "card_ids": [
+              "CLEAN_GAP_DQ:chokal_okchal_modifier_scope"
+            ],
+            "counterpart_ids": [
+              "SEM:db858e92fcee88c73a41",
+              "SEM:649fa4670893eaefca06"
+            ],
+            "reason": "Both complete lexical values exist. The additional proposition is their explicitly asserted modifier-scope contrast and predictive attachment rule, not two rediscovered glosses.",
+            "evidence": [
+              {
+                "path": "experiments/yolo/gdt657_multi_quality_al_shell_order/REPORT.md",
+                "line": 14,
+                "line_end": 26,
+                "quote": "```text\nchkal    CH + KAL       Rohstoffklasse I, trocken-heiß am Gradanfang\nkchal    K + CHAL       Rohstoffklasse I, heiß-trocken am Gradanfang\n\nchokal   CHO + KAL      Trockenansatz aus heißem Rohstoff Klasse I\nokchal   O + KCH + AL   Ansatz aus heiß-trockenem Rohstoff Klasse I\n```\n\n`chokal` und `okchal` bestehen daher in der Arbeitstheorie nicht aus derselben\nungeordneten Zutatenliste. Beim ersten Wort modifiziert heiß den Rohstoff\ninnerhalb eines Trockenansatzes; beim zweiten bilden heiß und trocken gemeinsam\ndie Qualität des Rohstoffs im Ansatz. Das ist die Art von Komposition, die auf\nnoch ungelesenen Formen eine unterschiedliche Bedeutung vorhersagt.",
+                "sha256": "98c2ba63a7850d0fe9e9b36466fee092b4b54fd292d99f6489de45f5e9b22d59"
+              }
+            ],
+            "full_selected_span_read": true,
+            "context_expansion_disclosed": true,
+            "independent_new_idea": false
+          }
+        }
+      ],
+      "resolution_sources": [
+        {
+          "path": "research_registry/decisions/clean_gap_review_dq.json",
+          "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+        }
+      ],
+      "integration_note": "Cumulative source reassessment only; prior initial intake and historical scope decisions remain in previous_source_assessments. Card references are unioned, not replaced. An evidence interval alone does not certify full proposition coverage."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:4a0c4e40f9ae32416bdf",
+      "selection_index": 2,
+      "decision": "additional_source_case_existing_assertion",
+      "card_ids": [
+        "CLEAN_GAP_DQ:shedefam_additional_source_case"
+      ],
+      "counterpart_ids": [
+        "SEM:b30d45603f3186d20434",
+        "SEM:8204a2996f50989c4249"
+      ],
+      "reason": "Existing exact primary value and fruit/leaf/opaque-head rivals are retained. Add only the source case with the author preference rationale and reader-dependent nonexport limit; do not count another distinct flower hypothesis.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt658_four_residual_concrete_completion/REPORT.md",
+          "line": 11,
+          "line_end": 14,
+          "quote": "| Form | Positionen / exakt | sichtbare Architektur | konkrete V35-Arbeitslesung | stärkster Rivale |\n|---|---:|---|---|---|\n| `otam` | 44 / 39 | `O + T + AM` | ein Maß des kalten Ansatzes | gelernte Einheitsform oder kalte Zubereitung der Form I |\n| `shedefam` | 1 / 0 | `SHEDE + F + AM` | ein Maß eingeweichter Blütendroge | Frucht-, Blatt- oder opaker F-Materia-Kopf |",
+          "sha256": "71dac0d8656909f655821a1ca3f0c6b8cb47e69d06388857d96ca465ba6a343c"
+        },
+        {
+          "path": "experiments/yolo/gdt658_four_residual_concrete_completion/REPORT.md",
+          "line": 40,
+          "line_end": 55,
+          "quote": "## Was der F-Kopf in `shedefam` leistet\n\nF verhält sich intern wie ein fünfter Materia-Kopf neben den bereits\nmodellierten P/S/R/L-Köpfen:102 Token beginnen mit F,67 davon teilen in43\nRestfamilien ihren vollständigen Körper mit wenigstens einem P/S/R/L-Wort.\nAcht Körper bilden sogar vollständige Fünfersätze:\n`ar`, `chdy`, `chedy`, `cheey`, `chey`, `chol`, `ol` und `shedy`.\n\nDas macht einen konkreten Stoffkopf besser als ein bedeutungsloses\nVerbindungszeichen. Die Arbeitswahl „Blüte“ ist historisch und praktisch\npassend und derzeit etwas stärker als Frucht oder Blatt; Blatt ist außerdem\nbereits durch die stärkere CTH-Familie besetzt. Sie ist wegen des einzigen\n`shedefam`-Belegs aber gelernt und ersetzbar. ZL3b und IT2a lesen die Ganzform\ngleich; RF1b liest die betreffende Zeile `shd | she | efam | qokedy | chokal |\ndal` und zerlegt damit das Ziel als `she | efam`. Deshalb wird `SHEDE` nicht\nals global sicherer Stamm exportiert und die Karte bleibt eine Leserwarnung.",
+          "sha256": "71dac0d8656909f655821a1ca3f0c6b8cb47e69d06388857d96ca465ba6a343c"
+        }
+      ],
+      "full_selected_span_read": true,
+      "context_expansion_disclosed": true,
+      "independent_new_idea": false,
+      "previous_source_assessments": [
+        {
+          "source": {
+            "path": "research_registry/decisions/clean_gap_review_dq.json",
+            "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+          },
+          "assessment_kind": "source_reassessments",
+          "assessment": {
+            "source_id": "LEGACY_COMPONENT:4a0c4e40f9ae32416bdf",
+            "selection_index": 2,
+            "decision": "additional_source_case_existing_assertion",
+            "card_ids": [
+              "CLEAN_GAP_DQ:shedefam_additional_source_case"
+            ],
+            "counterpart_ids": [
+              "SEM:b30d45603f3186d20434",
+              "SEM:8204a2996f50989c4249"
+            ],
+            "reason": "Existing exact primary value and fruit/leaf/opaque-head rivals are retained. Add only the source case with the author preference rationale and reader-dependent nonexport limit; do not count another distinct flower hypothesis.",
+            "evidence": [
+              {
+                "path": "experiments/yolo/gdt658_four_residual_concrete_completion/REPORT.md",
+                "line": 11,
+                "line_end": 14,
+                "quote": "| Form | Positionen / exakt | sichtbare Architektur | konkrete V35-Arbeitslesung | stärkster Rivale |\n|---|---:|---|---|---|\n| `otam` | 44 / 39 | `O + T + AM` | ein Maß des kalten Ansatzes | gelernte Einheitsform oder kalte Zubereitung der Form I |\n| `shedefam` | 1 / 0 | `SHEDE + F + AM` | ein Maß eingeweichter Blütendroge | Frucht-, Blatt- oder opaker F-Materia-Kopf |",
+                "sha256": "71dac0d8656909f655821a1ca3f0c6b8cb47e69d06388857d96ca465ba6a343c"
+              },
+              {
+                "path": "experiments/yolo/gdt658_four_residual_concrete_completion/REPORT.md",
+                "line": 40,
+                "line_end": 55,
+                "quote": "## Was der F-Kopf in `shedefam` leistet\n\nF verhält sich intern wie ein fünfter Materia-Kopf neben den bereits\nmodellierten P/S/R/L-Köpfen:102 Token beginnen mit F,67 davon teilen in43\nRestfamilien ihren vollständigen Körper mit wenigstens einem P/S/R/L-Wort.\nAcht Körper bilden sogar vollständige Fünfersätze:\n`ar`, `chdy`, `chedy`, `cheey`, `chey`, `chol`, `ol` und `shedy`.\n\nDas macht einen konkreten Stoffkopf besser als ein bedeutungsloses\nVerbindungszeichen. Die Arbeitswahl „Blüte“ ist historisch und praktisch\npassend und derzeit etwas stärker als Frucht oder Blatt; Blatt ist außerdem\nbereits durch die stärkere CTH-Familie besetzt. Sie ist wegen des einzigen\n`shedefam`-Belegs aber gelernt und ersetzbar. ZL3b und IT2a lesen die Ganzform\ngleich; RF1b liest die betreffende Zeile `shd | she | efam | qokedy | chokal |\ndal` und zerlegt damit das Ziel als `she | efam`. Deshalb wird `SHEDE` nicht\nals global sicherer Stamm exportiert und die Karte bleibt eine Leserwarnung.",
+                "sha256": "71dac0d8656909f655821a1ca3f0c6b8cb47e69d06388857d96ca465ba6a343c"
+              }
+            ],
+            "full_selected_span_read": true,
+            "context_expansion_disclosed": true,
+            "independent_new_idea": false
+          }
+        }
+      ],
+      "resolution_sources": [
+        {
+          "path": "research_registry/decisions/clean_gap_review_dq.json",
+          "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+        }
+      ],
+      "integration_note": "Cumulative source reassessment only; prior initial intake and historical scope decisions remain in previous_source_assessments. Card references are unioned, not replaced. An evidence interval alone does not certify full proposition coverage."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:94f56afa794f110a43c2",
+      "selection_index": 3,
+      "decision": "source_fidelity_limit_no_additional_meaning",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Selected53–56 describes alternative-reader boundary instability and limits a global y word. It supplies no new exact semantic assignment; the adjacent position-conditioned entry/closure scheme is not claimed fully reviewed or absent here.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt659_naked_y_local_reference/REPORT.md",
+          "line": 53,
+          "line_end": 56,
+          "quote": "Nur 83/270 nackte `y` bleiben in allen drei Transkriptionen als getrenntes\nEinzelzeichen zählungsstabil. Die übrigen werden in wenigstens einer Lesung\nverbunden, anders segmentiert oder nicht als dasselbe nackte Zeichen geführt.\nEine globale Wortkarte würde genau diese sichtbare Grenzfunktion verdecken.",
+          "sha256": "6dbb7aedc8c30db50d6ca05658b6255b4105b74a1c94345bee1651ef2502070e"
+        }
+      ],
+      "full_selected_span_read": true,
+      "context_expansion_disclosed": true,
+      "independent_new_idea": false,
+      "previous_source_assessments": [
+        {
+          "source": {
+            "path": "research_registry/decisions/clean_gap_review_dq.json",
+            "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+          },
+          "assessment_kind": "source_reassessments",
+          "assessment": {
+            "source_id": "LEGACY_COMPONENT:94f56afa794f110a43c2",
+            "selection_index": 3,
+            "decision": "source_fidelity_limit_no_additional_meaning",
+            "card_ids": [],
+            "counterpart_ids": [],
+            "reason": "Selected53–56 describes alternative-reader boundary instability and limits a global y word. It supplies no new exact semantic assignment; the adjacent position-conditioned entry/closure scheme is not claimed fully reviewed or absent here.",
+            "evidence": [
+              {
+                "path": "experiments/yolo/gdt659_naked_y_local_reference/REPORT.md",
+                "line": 53,
+                "line_end": 56,
+                "quote": "Nur 83/270 nackte `y` bleiben in allen drei Transkriptionen als getrenntes\nEinzelzeichen zählungsstabil. Die übrigen werden in wenigstens einer Lesung\nverbunden, anders segmentiert oder nicht als dasselbe nackte Zeichen geführt.\nEine globale Wortkarte würde genau diese sichtbare Grenzfunktion verdecken.",
+                "sha256": "6dbb7aedc8c30db50d6ca05658b6255b4105b74a1c94345bee1651ef2502070e"
+              }
+            ],
+            "full_selected_span_read": true,
+            "context_expansion_disclosed": true,
+            "independent_new_idea": false
+          }
+        }
+      ],
+      "resolution_sources": [
+        {
+          "path": "research_registry/decisions/clean_gap_review_dq.json",
+          "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+        }
+      ],
+      "integration_note": "Cumulative source reassessment only; prior initial intake and historical scope decisions remain in previous_source_assessments. Card references are unioned, not replaced. An evidence interval alone does not certify full proposition coverage."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:dbc8d235672e9a28e7ba",
+      "selection_index": 4,
+      "decision": "coverage_summary_no_extra_proposition",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Selected5–8 reports fifteen long-form assignments and seven position-conditioned s/dy cards. Counts and a no-universal-word qualification are not an additional dictionary model. In particular DO has already reviewed the exact standalone DY source assertion; it is not repeated here.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt660_seventeen_residual_concrete_completion/REPORT.md",
+          "line": 5,
+          "line_end": 8,
+          "quote": "V37 schließt alle 566 Vorkommen der siebzehn von GDT659 freigelegten\nOberflächen. Fünfzehn längere Formen erhalten kurze, ersetzbare\nGanzformbedeutungen. `s` und `dy` werden nicht zu Universalwörtern: Sie erhalten\nzusammen sieben positionsgebundene Karten, die 501 Vorkommen abdecken.",
+          "sha256": "e12818271a98bbe1930091c126ab973b7ae14f7579011c5894d769c7df9bf417"
+        }
+      ],
+      "full_selected_span_read": true,
+      "context_expansion_disclosed": true,
+      "independent_new_idea": false,
+      "previous_source_assessments": [
+        {
+          "source": {
+            "path": "research_registry/decisions/clean_gap_review_dq.json",
+            "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+          },
+          "assessment_kind": "source_reassessments",
+          "assessment": {
+            "source_id": "LEGACY_COMPONENT:dbc8d235672e9a28e7ba",
+            "selection_index": 4,
+            "decision": "coverage_summary_no_extra_proposition",
+            "card_ids": [],
+            "counterpart_ids": [],
+            "reason": "Selected5–8 reports fifteen long-form assignments and seven position-conditioned s/dy cards. Counts and a no-universal-word qualification are not an additional dictionary model. In particular DO has already reviewed the exact standalone DY source assertion; it is not repeated here.",
+            "evidence": [
+              {
+                "path": "experiments/yolo/gdt660_seventeen_residual_concrete_completion/REPORT.md",
+                "line": 5,
+                "line_end": 8,
+                "quote": "V37 schließt alle 566 Vorkommen der siebzehn von GDT659 freigelegten\nOberflächen. Fünfzehn längere Formen erhalten kurze, ersetzbare\nGanzformbedeutungen. `s` und `dy` werden nicht zu Universalwörtern: Sie erhalten\nzusammen sieben positionsgebundene Karten, die 501 Vorkommen abdecken.",
+                "sha256": "e12818271a98bbe1930091c126ab973b7ae14f7579011c5894d769c7df9bf417"
+              }
+            ],
+            "full_selected_span_read": true,
+            "context_expansion_disclosed": true,
+            "independent_new_idea": false
+          }
+        }
+      ],
+      "resolution_sources": [
+        {
+          "path": "research_registry/decisions/clean_gap_review_dq.json",
+          "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+        }
+      ],
+      "integration_note": "Cumulative source reassessment only; prior initial intake and historical scope decisions remain in previous_source_assessments. Card references are unioned, not replaced. An evidence interval alone does not certify full proposition coverage."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:6a29e87b8896f0cb6786",
+      "selection_index": 5,
+      "decision": "candidate_complete_proposition_recovered",
+      "card_ids": [
+        "CLEAN_GAP_DQ:standalone_r_part_portion_rival"
+      ],
+      "counterpart_ids": [
+        "SEM:f5350dceef047d45a27f"
+      ],
+      "reason": "The existing complete standalone r card states Wurzel with Wurzelzeichen in labels but does not include the left-fusion-near part/portion alternative. Initial radix heads are not the same scope.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt661_forty_eight_residual_family_completion/REPORT.md",
+          "line": 85,
+          "line_end": 90,
+          "quote": "`r` steht 33-mal unmittelbar vor `ain`, `aiin` oder einer anderen sichtbaren\nWertform. Die äußeren Grenzwechsel sind stark: `r aiin` steht neben `raiin`,\n`r ain` neben `rain`, `r ol` neben `rol`. Das passt zu GDT635s initialem\nR-Kopf für *radix* und macht „Wurzel“ zu einer brauchbaren Fließtextlesung.\nFünf L-Token bleiben dagegen ausdrücklich Wurzelzeichen. Ein möglicher\nTeil-/Portionswert an links fusionsnahen Stellen bleibt als Rivale erhalten.",
+          "sha256": "bc59ad9ee2aa88549f5d19ced3f086580de7e8e2215d0bf17b10959c678c9880"
+        }
+      ],
+      "full_selected_span_read": true,
+      "context_expansion_disclosed": true,
+      "independent_new_idea": false,
+      "previous_source_assessments": [
+        {
+          "source": {
+            "path": "research_registry/decisions/clean_gap_review_dq.json",
+            "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+          },
+          "assessment_kind": "source_reassessments",
+          "assessment": {
+            "source_id": "LEGACY_COMPONENT:6a29e87b8896f0cb6786",
+            "selection_index": 5,
+            "decision": "candidate_complete_proposition_recovered",
+            "card_ids": [
+              "CLEAN_GAP_DQ:standalone_r_part_portion_rival"
+            ],
+            "counterpart_ids": [
+              "SEM:f5350dceef047d45a27f"
+            ],
+            "reason": "The existing complete standalone r card states Wurzel with Wurzelzeichen in labels but does not include the left-fusion-near part/portion alternative. Initial radix heads are not the same scope.",
+            "evidence": [
+              {
+                "path": "experiments/yolo/gdt661_forty_eight_residual_family_completion/REPORT.md",
+                "line": 85,
+                "line_end": 90,
+                "quote": "`r` steht 33-mal unmittelbar vor `ain`, `aiin` oder einer anderen sichtbaren\nWertform. Die äußeren Grenzwechsel sind stark: `r aiin` steht neben `raiin`,\n`r ain` neben `rain`, `r ol` neben `rol`. Das passt zu GDT635s initialem\nR-Kopf für *radix* und macht „Wurzel“ zu einer brauchbaren Fließtextlesung.\nFünf L-Token bleiben dagegen ausdrücklich Wurzelzeichen. Ein möglicher\nTeil-/Portionswert an links fusionsnahen Stellen bleibt als Rivale erhalten.",
+                "sha256": "bc59ad9ee2aa88549f5d19ced3f086580de7e8e2215d0bf17b10959c678c9880"
+              }
+            ],
+            "full_selected_span_read": true,
+            "context_expansion_disclosed": true,
+            "independent_new_idea": false
+          }
+        }
+      ],
+      "resolution_sources": [
+        {
+          "path": "research_registry/decisions/clean_gap_review_dq.json",
+          "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+        }
+      ],
+      "integration_note": "Cumulative source reassessment only; prior initial intake and historical scope decisions remain in previous_source_assessments. Card references are unioned, not replaced. An evidence interval alone does not certify full proposition coverage."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:7295b65a64dac823cec7",
+      "selection_index": 6,
+      "decision": "candidate_complete_proposition_recovered",
+      "card_ids": [
+        "CLEAN_GAP_DQ:bounded_workshop_composition_contract"
+      ],
+      "counterpart_ids": [],
+      "reason": "No full current source-linked GDT662 model card was found among the225 selected-report-linked cards. Individual heads, stage meanings and generic small-codebook architectures do not supply this ordered conjunctive contract; global identity remains unreviewed.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt662_seventy_six_residual_family_completion/REPORT.md",
+          "line": 40,
+          "line_end": 50,
+          "quote": "Das kompositionelle Werkstattschema lautet:\n\n`[Rahmen] + [Stoffkopf/gelernter Name] + [Behandlung] + [Stufe/Form] + [Menge] + [Abschluss]`\n\nDie Stoffköpfe bleiben `p` Pulver, `s` Saat, `r` Wurzel, `l` Holz und `cth`\nBlatt-/Krautdroge. `k/t` tragen heiß/kalt, `ch/sh` trocken/feucht, `o` eine\nZubereitungsfunktion; `ol/or/ar/al` tragen Stoff-, Portions- und\nRohstofffelder; `y/ey/eey` und die abgeschlossenen `d`-Gegenreihen liefern\nForm-/Stufenunterschiede; `an/ain/aiin/aiiin` bilden Werte. Diese Zerlegung\nerklärt und prognostiziert Familien, übersetzt aber niemals automatisch ein\nSubstring.",
+          "sha256": "c248820081256635e5809a521e666543c4640bc93ad4120ea1b7e3a7f3304d1d"
+        }
+      ],
+      "full_selected_span_read": true,
+      "context_expansion_disclosed": true,
+      "independent_new_idea": false,
+      "previous_source_assessments": [
+        {
+          "source": {
+            "path": "research_registry/decisions/clean_gap_review_dq.json",
+            "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+          },
+          "assessment_kind": "source_reassessments",
+          "assessment": {
+            "source_id": "LEGACY_COMPONENT:7295b65a64dac823cec7",
+            "selection_index": 6,
+            "decision": "candidate_complete_proposition_recovered",
+            "card_ids": [
+              "CLEAN_GAP_DQ:bounded_workshop_composition_contract"
+            ],
+            "counterpart_ids": [],
+            "reason": "No full current source-linked GDT662 model card was found among the225 selected-report-linked cards. Individual heads, stage meanings and generic small-codebook architectures do not supply this ordered conjunctive contract; global identity remains unreviewed.",
+            "evidence": [
+              {
+                "path": "experiments/yolo/gdt662_seventy_six_residual_family_completion/REPORT.md",
+                "line": 40,
+                "line_end": 50,
+                "quote": "Das kompositionelle Werkstattschema lautet:\n\n`[Rahmen] + [Stoffkopf/gelernter Name] + [Behandlung] + [Stufe/Form] + [Menge] + [Abschluss]`\n\nDie Stoffköpfe bleiben `p` Pulver, `s` Saat, `r` Wurzel, `l` Holz und `cth`\nBlatt-/Krautdroge. `k/t` tragen heiß/kalt, `ch/sh` trocken/feucht, `o` eine\nZubereitungsfunktion; `ol/or/ar/al` tragen Stoff-, Portions- und\nRohstofffelder; `y/ey/eey` und die abgeschlossenen `d`-Gegenreihen liefern\nForm-/Stufenunterschiede; `an/ain/aiin/aiiin` bilden Werte. Diese Zerlegung\nerklärt und prognostiziert Familien, übersetzt aber niemals automatisch ein\nSubstring.",
+                "sha256": "c248820081256635e5809a521e666543c4640bc93ad4120ea1b7e3a7f3304d1d"
+              }
+            ],
+            "full_selected_span_read": true,
+            "context_expansion_disclosed": true,
+            "independent_new_idea": false
+          }
+        }
+      ],
+      "resolution_sources": [
+        {
+          "path": "research_registry/decisions/clean_gap_review_dq.json",
+          "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+        }
+      ],
+      "integration_note": "Cumulative source reassessment only; prior initial intake and historical scope decisions remain in previous_source_assessments. Card references are unioned, not replaced. An evidence interval alone does not certify full proposition coverage."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:1a63239b6f26c3db8fa6",
+      "decision": "DQ_scope_remainder_resolved_by_explicit_report_bridges",
+      "card_ids": [
+        "CLEAN_GAP_DT:free_l_pound",
+        "CLEAN_GAP_DT:solaiin_salt_quantity_iii",
+        "CLEAN_GAP_DT:cthoj_herb_bundle",
+        "CLEAN_GAP_DT:ylg_put_into_wooden_vessel",
+        "CLEAN_GAP_DT:deeeese_rest_final_stage",
+        "CLEAN_GAP_DT:dosg_dose_residue",
+        "CLEAN_GAP_DT:cthosg_herbal_residue"
+      ],
+      "counterpart_ids": [
+        "SEM:66da9ada3165d181c790"
+      ],
+      "reason": "The original11–15 summary lacks individual surface names, but74–98 explicitly supplies them. The earlier gap was incomplete comparison, not absent source binding. Eight target groups resolve to seven recovered full/specific assertions and one existing whole-value/rival pair; no seven-new-ideas quota was presumed.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt663_one_hundred_two_residual_family_completion/REPORT.md",
+          "line": 11,
+          "line_end": 15,
+          "quote": "Die neue Fassung ist konkreter als V39. Sie enthält nicht nur Trocken-, Feucht-,\nHeiz- und Kühlstufen, sondern erstmals auch ausdrücklich Salz, Laugensalz, ein\nPfundmaß, ein Bündel Kraut, ein Holzgefäß, Rückstand und Ruhenlassen. Diese\nLesungen sind aggressive, ersetzbare Arbeitskarten; die riskanten Karten sind\nnicht als bewiesener Klartext versteckt.",
+          "sha256": "6d71b5873a2138f7f3385fdd8abbab1fd177fdd498bb90beff15bf1109769ec6"
+        },
+        {
+          "path": "experiments/yolo/gdt663_one_hundred_two_residual_family_completion/REPORT.md",
+          "line": 74,
+          "line_end": 98,
+          "quote": "Außerhalb einer sichtbaren Zusammenschreibung liest V40 freies `l` vorläufig\nals `Pfund/Gewichtseinheit`; im einzigen Frontbeispiel `f80v.12` ergibt das\nzeilenfinal tatsächlich „ein Pfund“. Der Holzdrogenwert bleibt der stärkste\nRivale. Historisch ist ein gemischtes Register aus Wörtern und Maßsiglen\nplausibel: medizinische Rezepte verwenden *libra* als Pfund mit Kürzeln wie\n`lib`, `lb` oder einem Pfundzeichen. Das ist nur ein Vergleich, keine\nGlyphidentifikation ([Übersicht zu Gewichten und Siglen in medizinischen\nRezepten](https://www.ncbi.nlm.nih.gov/books/NBK608570/)).\n\n## Bewusst riskante, aber informative Ganzwörter\n\n| Form | V40 | ernsthafter Rivale |\n|---|---|---|\n| `alkal` | Laugensalz / Alkali | heißer Rohstoff I |\n| `solaiin` | Salz, Menge III | Saatgut, Charge III |\n| `cthoj` | ein Bündel Kraut | bloßer Krautansatz |\n| `ylg` | in ein Holzgefäß geben | Drogenposten/Abschlusszeichen |\n| `deeeese` | bis zur letzten Stufe ruhen lassen | vierfach konzentrierte Species |\n| `dosg` | eine Dosis Rückstand | abgemessener Samenansatz |\n| `cthosg` | Krautrückstand | fertige Krautarzneispecies |\n\n`alkal` sieht verführerisch wie ein lesbares Lehnwort aus; gerade deshalb\nbleibt es eine LOW-Karte und erzeugt keine Buchstaben- oder Sprachbehauptung.\n`sol=Salz`, `sg=Rückstand`, `j=Bündeleinheit` und `ylg=Holzgefäß` sind\nVorhersagen für kommende Schwesterformen, nicht nachträgliche Gewissheiten.",
+          "sha256": "6d71b5873a2138f7f3385fdd8abbab1fd177fdd498bb90beff15bf1109769ec6"
+        }
+      ],
+      "previous_source_assessments": [
+        {
+          "source": {
+            "path": "research_registry/decisions/clean_gap_review_dq.json",
+            "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+          },
+          "assessment_kind": "source_reassessments",
+          "assessment": {
+            "source_id": "LEGACY_COMPONENT:1a63239b6f26c3db8fa6",
+            "selection_index": 7,
+            "decision": "scope_unresolved_missing_exact_unit_bindings",
+            "card_ids": [],
+            "counterpart_ids": [],
+            "reason": "The paragraph names seven kinds of new concrete vocabulary but does not associate each noun/action with an exact form. This is not a safe basis for seven lexical cards. Exact source-table/form bindings and corresponding current cards remain to be checked; no placeholder card or whole-report completion is asserted.",
+            "evidence": [
+              {
+                "path": "experiments/yolo/gdt663_one_hundred_two_residual_family_completion/REPORT.md",
+                "line": 11,
+                "line_end": 15,
+                "quote": "Die neue Fassung ist konkreter als V39. Sie enthält nicht nur Trocken-, Feucht-,\nHeiz- und Kühlstufen, sondern erstmals auch ausdrücklich Salz, Laugensalz, ein\nPfundmaß, ein Bündel Kraut, ein Holzgefäß, Rückstand und Ruhenlassen. Diese\nLesungen sind aggressive, ersetzbare Arbeitskarten; die riskanten Karten sind\nnicht als bewiesener Klartext versteckt.",
+                "sha256": "6d71b5873a2138f7f3385fdd8abbab1fd177fdd498bb90beff15bf1109769ec6"
+              }
+            ],
+            "full_selected_span_read": true,
+            "context_expansion_disclosed": true,
+            "independent_new_idea": false
+          }
+        },
+        {
+          "source": {
+            "path": "research_registry/decisions/clean_gap_review_dt.json",
+            "sha256": "70b71bc5e61c72730bb380a061582f51b82f6cbe09c90a37f9abbf474190d642"
+          },
+          "assessment_kind": "source_reassessments",
+          "assessment": {
+            "source_id": "LEGACY_COMPONENT:1a63239b6f26c3db8fa6",
+            "decision": "DQ_scope_remainder_resolved_by_explicit_report_bridges",
+            "card_ids": [
+              "CLEAN_GAP_DT:free_l_pound",
+              "CLEAN_GAP_DT:solaiin_salt_quantity_iii",
+              "CLEAN_GAP_DT:cthoj_herb_bundle",
+              "CLEAN_GAP_DT:ylg_put_into_wooden_vessel",
+              "CLEAN_GAP_DT:deeeese_rest_final_stage",
+              "CLEAN_GAP_DT:dosg_dose_residue",
+              "CLEAN_GAP_DT:cthosg_herbal_residue"
+            ],
+            "counterpart_ids": [
+              "SEM:66da9ada3165d181c790"
+            ],
+            "reason": "The original11–15 summary lacks individual surface names, but74–98 explicitly supplies them. The earlier gap was incomplete comparison, not absent source binding. Eight target groups resolve to seven recovered full/specific assertions and one existing whole-value/rival pair; no seven-new-ideas quota was presumed.",
+            "evidence": [
+              {
+                "path": "experiments/yolo/gdt663_one_hundred_two_residual_family_completion/REPORT.md",
+                "line": 74,
+                "line_end": 98,
+                "quote": "Außerhalb einer sichtbaren Zusammenschreibung liest V40 freies `l` vorläufig\nals `Pfund/Gewichtseinheit`; im einzigen Frontbeispiel `f80v.12` ergibt das\nzeilenfinal tatsächlich „ein Pfund“. Der Holzdrogenwert bleibt der stärkste\nRivale. Historisch ist ein gemischtes Register aus Wörtern und Maßsiglen\nplausibel: medizinische Rezepte verwenden *libra* als Pfund mit Kürzeln wie\n`lib`, `lb` oder einem Pfundzeichen. Das ist nur ein Vergleich, keine\nGlyphidentifikation ([Übersicht zu Gewichten und Siglen in medizinischen\nRezepten](https://www.ncbi.nlm.nih.gov/books/NBK608570/)).\n\n## Bewusst riskante, aber informative Ganzwörter\n\n| Form | V40 | ernsthafter Rivale |\n|---|---|---|\n| `alkal` | Laugensalz / Alkali | heißer Rohstoff I |\n| `solaiin` | Salz, Menge III | Saatgut, Charge III |\n| `cthoj` | ein Bündel Kraut | bloßer Krautansatz |\n| `ylg` | in ein Holzgefäß geben | Drogenposten/Abschlusszeichen |\n| `deeeese` | bis zur letzten Stufe ruhen lassen | vierfach konzentrierte Species |\n| `dosg` | eine Dosis Rückstand | abgemessener Samenansatz |\n| `cthosg` | Krautrückstand | fertige Krautarzneispecies |\n\n`alkal` sieht verführerisch wie ein lesbares Lehnwort aus; gerade deshalb\nbleibt es eine LOW-Karte und erzeugt keine Buchstaben- oder Sprachbehauptung.\n`sol=Salz`, `sg=Rückstand`, `j=Bündeleinheit` und `ylg=Holzgefäß` sind\nVorhersagen für kommende Schwesterformen, nicht nachträgliche Gewissheiten.",
+                "sha256": "6d71b5873a2138f7f3385fdd8abbab1fd177fdd498bb90beff15bf1109769ec6"
+              }
+            ]
+          }
+        }
+      ],
+      "resolution_sources": [
+        {
+          "path": "research_registry/decisions/clean_gap_review_dq.json",
+          "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+        },
+        {
+          "path": "research_registry/decisions/clean_gap_review_dt.json",
+          "sha256": "70b71bc5e61c72730bb380a061582f51b82f6cbe09c90a37f9abbf474190d642"
+        }
+      ],
+      "integration_note": "Cumulative source reassessment only; prior initial intake and historical scope decisions remain in previous_source_assessments. Card references are unioned, not replaced. An evidence interval alone does not certify full proposition coverage."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:a4317381e090c25b4739",
+      "selection_index": 8,
+      "decision": "coverage_and_replay_not_semantic_claim",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "Numbers of surfaces/lines and successful replay describe source coverage and implementation reproducibility. They do not establish independent German meanings or provide a further concrete content hypothesis.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt664_one_hundred_forty_residual_family_completion/REPORT.md",
+          "line": 7,
+          "line_end": 10,
+          "quote": "GDT664 gibt allen 140 neu exponierten Oberflächen eine konkrete, ersetzbare\nBedeutung. Die 1.141 Vorkommen liegen auf 991 Zeilen und 166 Seiten. Alle 146\nV40-Ein-Loch-Zeilen, aus denen die Karten gewonnen wurden, sind jetzt\nvollständig lesbar. Der unabhängige Replay besteht `10.232/10.232` Prüfungen.",
+          "sha256": "5b61c293e7cd0216b42da9c2ae59637f64cd7738a43a539afb762e86bbde0d2e"
+        }
+      ],
+      "full_selected_span_read": true,
+      "context_expansion_disclosed": true,
+      "independent_new_idea": false,
+      "previous_source_assessments": [
+        {
+          "source": {
+            "path": "research_registry/decisions/clean_gap_review_dq.json",
+            "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+          },
+          "assessment_kind": "source_reassessments",
+          "assessment": {
+            "source_id": "LEGACY_COMPONENT:a4317381e090c25b4739",
+            "selection_index": 8,
+            "decision": "coverage_and_replay_not_semantic_claim",
+            "card_ids": [],
+            "counterpart_ids": [],
+            "reason": "Numbers of surfaces/lines and successful replay describe source coverage and implementation reproducibility. They do not establish independent German meanings or provide a further concrete content hypothesis.",
+            "evidence": [
+              {
+                "path": "experiments/yolo/gdt664_one_hundred_forty_residual_family_completion/REPORT.md",
+                "line": 7,
+                "line_end": 10,
+                "quote": "GDT664 gibt allen 140 neu exponierten Oberflächen eine konkrete, ersetzbare\nBedeutung. Die 1.141 Vorkommen liegen auf 991 Zeilen und 166 Seiten. Alle 146\nV40-Ein-Loch-Zeilen, aus denen die Karten gewonnen wurden, sind jetzt\nvollständig lesbar. Der unabhängige Replay besteht `10.232/10.232` Prüfungen.",
+                "sha256": "5b61c293e7cd0216b42da9c2ae59637f64cd7738a43a539afb762e86bbde0d2e"
+              }
+            ],
+            "full_selected_span_read": true,
+            "context_expansion_disclosed": true,
+            "independent_new_idea": false
+          }
+        }
+      ],
+      "resolution_sources": [
+        {
+          "path": "research_registry/decisions/clean_gap_review_dq.json",
+          "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+        }
+      ],
+      "integration_note": "Cumulative source reassessment only; prior initial intake and historical scope decisions remain in previous_source_assessments. Card references are unioned, not replaced. An evidence interval alone does not certify full proposition coverage."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:ab35663f43a19d5a73ee",
+      "selection_index": 9,
+      "decision": "candidate_complete_proposition_recovered",
+      "card_ids": [
+        "CLEAN_GAP_DQ:withdrawn_embedded_ol_and_one_portion"
+      ],
+      "counterpart_ids": [],
+      "reason": "No current whole-claim match for ykeey or this paired correction was found. A generic OL or quantity value does not preserve the source-specific rejected embedding/addition. Other role/schema cleanups in the paragraph are implementation consequences, not four new semantic hypotheses.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt665_one_hundred_forty_eight_residual_family_completion/REPORT.md",
+          "line": 61,
+          "line_end": 76,
+          "quote": "- `s-` seed versus `-s` charge/species;\n- `qol-` learned “add drug material”, not mechanically `q + O + L`;\n- `-ol` material/result carrier versus naked learned `ol=Grundansatz` and\n  initial O+L wood-preparation forms;\n- `y- + process` as an anaphoric imperative (“do this to it”);\n- `aiir` as fraction III and `-in/-iin/-iiin` as forms II/III/IV;\n- `ckh` as a composite-preparation head.\n\nThe final cross-role audit materially changed the first synthesis. It removed\nan illegally embedded naked-`ol` reading from 60 `okol/okoldy` positions and\ndeleted unsupported “one portion” wording from all 92 `ykeey/ykaiin`\npositions. It also replaced four nonexistent composition roles, removed three\nrival annotations that had leaked into atom strings, and converted four\nunsplit over-compositions to learned exact wholes. Every remaining declared\natom is licensed by the 47-role sheet and its spelling reconstructs the full\nsurface exactly once.",
+          "sha256": "2e9ab781052b7294a2bad46853123ae7b199daedfe79e6d41a251330f40333d3"
+        }
+      ],
+      "full_selected_span_read": true,
+      "context_expansion_disclosed": true,
+      "independent_new_idea": false,
+      "previous_source_assessments": [
+        {
+          "source": {
+            "path": "research_registry/decisions/clean_gap_review_dq.json",
+            "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+          },
+          "assessment_kind": "source_reassessments",
+          "assessment": {
+            "source_id": "LEGACY_COMPONENT:ab35663f43a19d5a73ee",
+            "selection_index": 9,
+            "decision": "candidate_complete_proposition_recovered",
+            "card_ids": [
+              "CLEAN_GAP_DQ:withdrawn_embedded_ol_and_one_portion"
+            ],
+            "counterpart_ids": [],
+            "reason": "No current whole-claim match for ykeey or this paired correction was found. A generic OL or quantity value does not preserve the source-specific rejected embedding/addition. Other role/schema cleanups in the paragraph are implementation consequences, not four new semantic hypotheses.",
+            "evidence": [
+              {
+                "path": "experiments/yolo/gdt665_one_hundred_forty_eight_residual_family_completion/REPORT.md",
+                "line": 61,
+                "line_end": 76,
+                "quote": "- `s-` seed versus `-s` charge/species;\n- `qol-` learned “add drug material”, not mechanically `q + O + L`;\n- `-ol` material/result carrier versus naked learned `ol=Grundansatz` and\n  initial O+L wood-preparation forms;\n- `y- + process` as an anaphoric imperative (“do this to it”);\n- `aiir` as fraction III and `-in/-iin/-iiin` as forms II/III/IV;\n- `ckh` as a composite-preparation head.\n\nThe final cross-role audit materially changed the first synthesis. It removed\nan illegally embedded naked-`ol` reading from 60 `okol/okoldy` positions and\ndeleted unsupported “one portion” wording from all 92 `ykeey/ykaiin`\npositions. It also replaced four nonexistent composition roles, removed three\nrival annotations that had leaked into atom strings, and converted four\nunsplit over-compositions to learned exact wholes. Every remaining declared\natom is licensed by the 47-role sheet and its spelling reconstructs the full\nsurface exactly once.",
+                "sha256": "2e9ab781052b7294a2bad46853123ae7b199daedfe79e6d41a251330f40333d3"
+              }
+            ],
+            "full_selected_span_read": true,
+            "context_expansion_disclosed": true,
+            "independent_new_idea": false
+          }
+        }
+      ],
+      "resolution_sources": [
+        {
+          "path": "research_registry/decisions/clean_gap_review_dq.json",
+          "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+        }
+      ],
+      "integration_note": "Cumulative source reassessment only; prior initial intake and historical scope decisions remain in previous_source_assessments. Card references are unioned, not replaced. An evidence interval alone does not certify full proposition coverage."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:cacebe09555906baec3a",
+      "selection_index": 10,
+      "decision": "candidate_complete_proposition_recovered",
+      "card_ids": [
+        "CLEAN_GAP_DQ:recipe_role_attachment_contract"
+      ],
+      "counterpart_ids": [],
+      "reason": "No full current GDT666 model card linked to this report was located. Atomically similar qo/y/aiin claims do not assert the complete attachment-sensitive rule and exact-whole qualification.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt666_one_hundred_fifty_one_residual_family_completion/REPORT.md",
+          "line": 70,
+          "line_end": 75,
+          "quote": "These forms occupy recognizably different recipe slots. A `qo-` card commands\nan operation or taking; `y-` points back to the preceding material; `qol-`\nadds material; `-dy` finishes; `d-` measures; `-d` closes; and `aiin` supplies\nthe third quantity or stage value. The exact whole always decides the final\nGerman reading, so these roles predict compounds without pretending that one\nletter has one universal English word.",
+          "sha256": "08f8a628c0c00044fa5793d125126671f8e566a8f1ccd018fbb7d47807514e2d"
+        }
+      ],
+      "full_selected_span_read": true,
+      "context_expansion_disclosed": true,
+      "independent_new_idea": false,
+      "previous_source_assessments": [
+        {
+          "source": {
+            "path": "research_registry/decisions/clean_gap_review_dq.json",
+            "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+          },
+          "assessment_kind": "source_reassessments",
+          "assessment": {
+            "source_id": "LEGACY_COMPONENT:cacebe09555906baec3a",
+            "selection_index": 10,
+            "decision": "candidate_complete_proposition_recovered",
+            "card_ids": [
+              "CLEAN_GAP_DQ:recipe_role_attachment_contract"
+            ],
+            "counterpart_ids": [],
+            "reason": "No full current GDT666 model card linked to this report was located. Atomically similar qo/y/aiin claims do not assert the complete attachment-sensitive rule and exact-whole qualification.",
+            "evidence": [
+              {
+                "path": "experiments/yolo/gdt666_one_hundred_fifty_one_residual_family_completion/REPORT.md",
+                "line": 70,
+                "line_end": 75,
+                "quote": "These forms occupy recognizably different recipe slots. A `qo-` card commands\nan operation or taking; `y-` points back to the preceding material; `qol-`\nadds material; `-dy` finishes; `d-` measures; `-d` closes; and `aiin` supplies\nthe third quantity or stage value. The exact whole always decides the final\nGerman reading, so these roles predict compounds without pretending that one\nletter has one universal English word.",
+                "sha256": "08f8a628c0c00044fa5793d125126671f8e566a8f1ccd018fbb7d47807514e2d"
+              }
+            ],
+            "full_selected_span_read": true,
+            "context_expansion_disclosed": true,
+            "independent_new_idea": false
+          }
+        }
+      ],
+      "resolution_sources": [
+        {
+          "path": "research_registry/decisions/clean_gap_review_dq.json",
+          "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+        }
+      ],
+      "integration_note": "Cumulative source reassessment only; prior initial intake and historical scope decisions remain in previous_source_assessments. Card references are unioned, not replaced. An evidence interval alone does not certify full proposition coverage."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:7ae1c1d795b5907512a7",
+      "decision": "authored_renderer_correction_summary",
+      "reason": "Reports six plus two prose corrections without full changed readings. No new card and no evidence that meanings were experimentally tested.",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt669_thirty_seven_residual_family_completion/REPORT.md",
+          "line": 97,
+          "line_end": 102,
+          "quote": "An independent final reader accepted fourteen unchanged and corrected six\nwithout changing a card: one state had been turned into an extra command,\nthree process directions had been flattened, one alternative material reading\nhad disappeared, and one implicit object was ungrammatical. A root consistency\npass caught the same directional flattening in two further lines. All eight\ncorrections are applied in the sealed manual-passage source.",
+          "sha256": "c035dca0800ba9c9eeb643f31b93ac13ba177b6d25673f6939abf21793e8957a"
+        }
+      ],
+      "full_selected_span_read": true,
+      "source_case_added": false,
+      "previous_source_assessments": [
+        {
+          "source": {
+            "path": "research_registry/decisions/clean_gap_review_dq.json",
+            "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+          },
+          "assessment_kind": "source_reassessments",
+          "assessment": {
+            "source_id": "LEGACY_COMPONENT:7ae1c1d795b5907512a7",
+            "selection_index": 11,
+            "decision": "editorial_correction_accounting_no_new_meaning",
+            "card_ids": [],
+            "counterpart_ids": [],
+            "reason": "The paragraph explicitly keeps cards unchanged while correcting fluent statements: excess command, flattened direction, missing alternative and implicit object. These are specific kinds of editorial defects, not named new translations or evidence that unchanged card meanings are true. Adjacent full passage readings are not closed by this selected paragraph review.",
+            "evidence": [
+              {
+                "path": "experiments/yolo/gdt669_thirty_seven_residual_family_completion/REPORT.md",
+                "line": 97,
+                "line_end": 102,
+                "quote": "An independent final reader accepted fourteen unchanged and corrected six\nwithout changing a card: one state had been turned into an extra command,\nthree process directions had been flattened, one alternative material reading\nhad disappeared, and one implicit object was ungrammatical. A root consistency\npass caught the same directional flattening in two further lines. All eight\ncorrections are applied in the sealed manual-passage source.",
+                "sha256": "c035dca0800ba9c9eeb643f31b93ac13ba177b6d25673f6939abf21793e8957a"
+              }
+            ],
+            "full_selected_span_read": true,
+            "context_expansion_disclosed": true,
+            "independent_new_idea": false
+          }
+        },
+        {
+          "source": {
+            "path": "research_registry/decisions/clean_gap_review_dx.json",
+            "sha256": "79652711ad67bbe843c8ab94d53c984beee0c053bedd431df641a29b414dbf2c"
+          },
+          "assessment_kind": "source_reassessments",
+          "assessment": {
+            "source_id": "LEGACY_COMPONENT:7ae1c1d795b5907512a7",
+            "decision": "authored_renderer_correction_summary",
+            "reason": "Reports six plus two prose corrections without full changed readings. No new card and no evidence that meanings were experimentally tested.",
+            "card_ids": [],
+            "counterpart_ids": [],
+            "evidence": [
+              {
+                "path": "experiments/yolo/gdt669_thirty_seven_residual_family_completion/REPORT.md",
+                "line": 97,
+                "line_end": 102,
+                "quote": "An independent final reader accepted fourteen unchanged and corrected six\nwithout changing a card: one state had been turned into an extra command,\nthree process directions had been flattened, one alternative material reading\nhad disappeared, and one implicit object was ungrammatical. A root consistency\npass caught the same directional flattening in two further lines. All eight\ncorrections are applied in the sealed manual-passage source.",
+                "sha256": "c035dca0800ba9c9eeb643f31b93ac13ba177b6d25673f6939abf21793e8957a"
+              }
+            ],
+            "full_selected_span_read": true,
+            "source_case_added": false
+          }
+        }
+      ],
+      "resolution_sources": [
+        {
+          "path": "research_registry/decisions/clean_gap_review_dq.json",
+          "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+        },
+        {
+          "path": "research_registry/decisions/clean_gap_review_dx.json",
+          "sha256": "79652711ad67bbe843c8ab94d53c984beee0c053bedd431df641a29b414dbf2c"
+        }
+      ],
+      "integration_note": "Cumulative source reassessment only; prior initial intake and historical scope decisions remain in previous_source_assessments. Card references are unioned, not replaced. An evidence interval alone does not certify full proposition coverage."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:b8c1d96d8b6aa8b2ef95",
+      "selection_index": 12,
+      "decision": "source_transfer_accounting_no_new_meaning",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "The selected sentence records inherited versus local transfer-card coverage and rendering layers. It does not specify an additional content proposition for an exact token; source-local transfer is not semantic proof. Neither all f1r meanings nor the adjacent renderer rules are certified here.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt672_v48_concrete_page_renderer/REPORT.md",
+          "line": 5,
+          "line_end": 5,
+          "quote": "f1r ist jetzt vollständig vierstufig lesbar: 214/214 EVA-Token, 214/214 unveränderte Kartenwerte, siebzehn explizite Mengenbindungen und 28/28 vorsichtige Zeilenlesungen. 129 Positionen bzw. 84 Oberflächen kommen unverändert aus V48. Die übrigen 85 Positionen bzw. 80 Oberflächen erhalten explizite lokale Transferkarten: 54 kompositionelle, 23 gelernte und 8 occurrence-spezifische Stellen.",
+          "sha256": "b1c6d5797a442cf21a04bf1f528a5019b1bfc10c23c7fe844cf81de5d075aecf"
+        }
+      ],
+      "full_selected_span_read": true,
+      "context_expansion_disclosed": true,
+      "independent_new_idea": false,
+      "previous_source_assessments": [
+        {
+          "source": {
+            "path": "research_registry/decisions/clean_gap_review_dq.json",
+            "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+          },
+          "assessment_kind": "source_reassessments",
+          "assessment": {
+            "source_id": "LEGACY_COMPONENT:b8c1d96d8b6aa8b2ef95",
+            "selection_index": 12,
+            "decision": "source_transfer_accounting_no_new_meaning",
+            "card_ids": [],
+            "counterpart_ids": [],
+            "reason": "The selected sentence records inherited versus local transfer-card coverage and rendering layers. It does not specify an additional content proposition for an exact token; source-local transfer is not semantic proof. Neither all f1r meanings nor the adjacent renderer rules are certified here.",
+            "evidence": [
+              {
+                "path": "experiments/yolo/gdt672_v48_concrete_page_renderer/REPORT.md",
+                "line": 5,
+                "line_end": 5,
+                "quote": "f1r ist jetzt vollständig vierstufig lesbar: 214/214 EVA-Token, 214/214 unveränderte Kartenwerte, siebzehn explizite Mengenbindungen und 28/28 vorsichtige Zeilenlesungen. 129 Positionen bzw. 84 Oberflächen kommen unverändert aus V48. Die übrigen 85 Positionen bzw. 80 Oberflächen erhalten explizite lokale Transferkarten: 54 kompositionelle, 23 gelernte und 8 occurrence-spezifische Stellen.",
+                "sha256": "b1c6d5797a442cf21a04bf1f528a5019b1bfc10c23c7fe844cf81de5d075aecf"
+              }
+            ],
+            "full_selected_span_read": true,
+            "context_expansion_disclosed": true,
+            "independent_new_idea": false
+          }
+        }
+      ],
+      "resolution_sources": [
+        {
+          "path": "research_registry/decisions/clean_gap_review_dq.json",
+          "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+        }
+      ],
+      "integration_note": "Cumulative source reassessment only; prior initial intake and historical scope decisions remain in previous_source_assessments. Card references are unioned, not replaced. An evidence interval alone does not certify full proposition coverage."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:c810d17ad497211ceaa5",
+      "selection_index": 13,
+      "decision": "authored_renderer_comparison_not_semantic_falsifier",
+      "card_ids": [],
+      "counterpart_ids": [],
+      "reason": "This is a retrospective accounting comparison of imperative renderers and generic/unsupported action/argument additions. It should not become a global empirical refutation of imperative writing or a new rival lexical card; the specific adjacent nominal-versus-action architecture is outside the selected sentence.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt674_v49_f81r_concrete_renderer/REPORT.md",
+          "line": 11,
+          "line_end": 11,
+          "quote": "GDT416 machte alle 210 Token zu Imperativsätzen. 208/210 Zeilen enthielten generische Stations- oder Eintragsobjekte, 89 erbten eine nicht sichtbare Aktion und 114 ein nicht sichtbares Argument. GDT407s 48 alte f81r-Sätze enthalten 71 harte Füllworttreffer. Die neue Arbeitslesung enthält 0 solche Treffer und erfindet keine Carry-Aktion.",
+          "sha256": "8c2c77d04c660e82d3151e1a8b5af977868fe9cfa64633f6051764b1a3919a24"
+        }
+      ],
+      "full_selected_span_read": true,
+      "context_expansion_disclosed": true,
+      "independent_new_idea": false,
+      "previous_source_assessments": [
+        {
+          "source": {
+            "path": "research_registry/decisions/clean_gap_review_dq.json",
+            "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+          },
+          "assessment_kind": "source_reassessments",
+          "assessment": {
+            "source_id": "LEGACY_COMPONENT:c810d17ad497211ceaa5",
+            "selection_index": 13,
+            "decision": "authored_renderer_comparison_not_semantic_falsifier",
+            "card_ids": [],
+            "counterpart_ids": [],
+            "reason": "This is a retrospective accounting comparison of imperative renderers and generic/unsupported action/argument additions. It should not become a global empirical refutation of imperative writing or a new rival lexical card; the specific adjacent nominal-versus-action architecture is outside the selected sentence.",
+            "evidence": [
+              {
+                "path": "experiments/yolo/gdt674_v49_f81r_concrete_renderer/REPORT.md",
+                "line": 11,
+                "line_end": 11,
+                "quote": "GDT416 machte alle 210 Token zu Imperativsätzen. 208/210 Zeilen enthielten generische Stations- oder Eintragsobjekte, 89 erbten eine nicht sichtbare Aktion und 114 ein nicht sichtbares Argument. GDT407s 48 alte f81r-Sätze enthalten 71 harte Füllworttreffer. Die neue Arbeitslesung enthält 0 solche Treffer und erfindet keine Carry-Aktion.",
+                "sha256": "8c2c77d04c660e82d3151e1a8b5af977868fe9cfa64633f6051764b1a3919a24"
+              }
+            ],
+            "full_selected_span_read": true,
+            "context_expansion_disclosed": true,
+            "independent_new_idea": false
+          }
+        }
+      ],
+      "resolution_sources": [
+        {
+          "path": "research_registry/decisions/clean_gap_review_dq.json",
+          "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+        }
+      ],
+      "integration_note": "Cumulative source reassessment only; prior initial intake and historical scope decisions remain in previous_source_assessments. Card references are unioned, not replaced. An evidence interval alone does not certify full proposition coverage."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:3aad5f2795f4a2e2b4f9",
+      "decision": "historical_full_assertion_recovered",
+      "reason": "Recover the concrete source model, construction, local example or live rival without promoting source judgements to facts.",
+      "card_ids": [
+        "CLEAN_GAP_DX:v49_external_nine_scope_splits"
+      ],
+      "counterpart_ids": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt675_f81r_card_occurrence_conflict_scan/REPORT.md",
+          "line": 10,
+          "line_end": 13,
+          "quote": "Es gibt keinen harten Stoff-, Prozess- oder Mengenwiderspruch. Elf\nrollenkomponierte Karten und das gelernte Ganzwort `lchl` behalten daher eine\nersetzbare externe Arbeitsbedeutung. Das ist jedoch kein blindes Kopieren der\nf81r-Verbalform: neun Karten erhalten einen expliziten Renderer-Split.",
+          "sha256": "ba787c1ae953e67846495a19df94f3e357c7f2569ad2a35821ce1307bcb4f985"
+        }
+      ],
+      "full_selected_span_read": true,
+      "source_case_added": false,
+      "previous_source_assessments": [
+        {
+          "source": {
+            "path": "research_registry/decisions/clean_gap_review_dq.json",
+            "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+          },
+          "assessment_kind": "source_reassessments",
+          "assessment": {
+            "source_id": "LEGACY_COMPONENT:3aad5f2795f4a2e2b4f9",
+            "selection_index": 14,
+            "decision": "external_transfer_and_renderer_scope_limit",
+            "card_ids": [],
+            "counterpart_ids": [],
+            "reason": "The source reports no hard conflict and permits a provisional external reading with nine renderer splits. It does not name those nine different contextual functions in the selected paragraph. Preserve it as a transfer/renderer qualification, not independent semantic success or a claim that the later detailed mappings were fully reviewed.",
+            "evidence": [
+              {
+                "path": "experiments/yolo/gdt675_f81r_card_occurrence_conflict_scan/REPORT.md",
+                "line": 10,
+                "line_end": 13,
+                "quote": "Es gibt keinen harten Stoff-, Prozess- oder Mengenwiderspruch. Elf\nrollenkomponierte Karten und das gelernte Ganzwort `lchl` behalten daher eine\nersetzbare externe Arbeitsbedeutung. Das ist jedoch kein blindes Kopieren der\nf81r-Verbalform: neun Karten erhalten einen expliziten Renderer-Split.",
+                "sha256": "ba787c1ae953e67846495a19df94f3e357c7f2569ad2a35821ce1307bcb4f985"
+              }
+            ],
+            "full_selected_span_read": true,
+            "context_expansion_disclosed": true,
+            "independent_new_idea": false
+          }
+        },
+        {
+          "source": {
+            "path": "research_registry/decisions/clean_gap_review_dx.json",
+            "sha256": "79652711ad67bbe843c8ab94d53c984beee0c053bedd431df641a29b414dbf2c"
+          },
+          "assessment_kind": "source_reassessments",
+          "assessment": {
+            "source_id": "LEGACY_COMPONENT:3aad5f2795f4a2e2b4f9",
+            "decision": "historical_full_assertion_recovered",
+            "reason": "Recover the concrete source model, construction, local example or live rival without promoting source judgements to facts.",
+            "card_ids": [
+              "CLEAN_GAP_DX:v49_external_nine_scope_splits"
+            ],
+            "counterpart_ids": [],
+            "evidence": [
+              {
+                "path": "experiments/yolo/gdt675_f81r_card_occurrence_conflict_scan/REPORT.md",
+                "line": 10,
+                "line_end": 13,
+                "quote": "Es gibt keinen harten Stoff-, Prozess- oder Mengenwiderspruch. Elf\nrollenkomponierte Karten und das gelernte Ganzwort `lchl` behalten daher eine\nersetzbare externe Arbeitsbedeutung. Das ist jedoch kein blindes Kopieren der\nf81r-Verbalform: neun Karten erhalten einen expliziten Renderer-Split.",
+                "sha256": "ba787c1ae953e67846495a19df94f3e357c7f2569ad2a35821ce1307bcb4f985"
+              }
+            ],
+            "full_selected_span_read": true,
+            "source_case_added": false
+          }
+        }
+      ],
+      "resolution_sources": [
+        {
+          "path": "research_registry/decisions/clean_gap_review_dq.json",
+          "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+        },
+        {
+          "path": "research_registry/decisions/clean_gap_review_dx.json",
+          "sha256": "79652711ad67bbe843c8ab94d53c984beee0c053bedd431df641a29b414dbf2c"
+        }
+      ],
+      "integration_note": "Cumulative source reassessment only; prior initial intake and historical scope decisions remain in previous_source_assessments. Card references are unioned, not replaced. An evidence interval alone does not certify full proposition coverage."
+    }
+  ],
+  "counts": {
+    "status": "PASS",
+    "selected_spans": 15,
+    "fully_read_selected_spans": 15,
+    "card_drafts": 7,
+    "new_propositions_proposed": 6,
+    "additional_exact_source_cases": 1,
+    "non_card_dispositions": 8,
+    "remaining_scope_comparisons": 1,
+    "quote_sha_checks": 18,
+    "current_counterpart_bases": 6
+  },
+  "limits": [
+    "Only fifteen fixed public report paragraphs and disclosed neighboring contexts reviewed. No full-report or GDT656–680 coverage claim.",
+    "Old receipt mentions conservatively excluded for navigation; neither contained quotes nor synthetic labels establish full proposition coverage.",
+    "Six candidate propositions need independent peer review; existing shedefam assertion receives an additional case only.",
+    "The vocabulary enumeration in GDT663 remains unresolved at exact-unit level, without placeholder cards.",
+    "No raw manuscript event/TSV/image access, historical experiment run or operational change."
+  ],
+  "integration": {
+    "status": "peer_corrections_applied_derived_only",
+    "inputs": [
+      {
+        "path": "research_registry/decisions/clean_gap_review_dq.json",
+        "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+      },
+      {
+        "path": "research_registry/decisions/clean_gap_peer_dq.json",
+        "sha256": "31a6bb2e6aef960d6863cb9157684c5cbd64dd31a6fa49884f139241d43e9dfd"
+      }
+    ],
+    "shared_resolution_inputs": [
+      {
+        "path": "research_registry/decisions/clean_gap_review_dq.json",
+        "sha256": "cfef344e1f7405088e49023a630343d0eef0d158097a9504365da03fffdd321e"
+      },
+      {
+        "path": "research_registry/decisions/clean_gap_review_dt.json",
+        "sha256": "70b71bc5e61c72730bb380a061582f51b82f6cbe09c90a37f9abbf474190d642"
+      },
+      {
+        "path": "research_registry/decisions/clean_gap_review_dx.json",
+        "sha256": "79652711ad67bbe843c8ab94d53c984beee0c053bedd431df641a29b414dbf2c"
+      }
+    ],
+    "limits": "No build or operative registry changes. Original proposals and peer decisions remain byte-preserved; historical claims remain unconfirmed. Global novelty and source-wide completion are not asserted.",
+    "initial_intake_note": "New initial dispositions are current first intake decisions, not retrospective claims of an earlier intake. Source reassessment histories preserve the separate proposal-review chronology."
+  },
+  "integration_validation": {
+    "status": "PASS",
+    "cards_validated": 7,
+    "initial_dispositions": 15,
+    "initial_intake_rewrites": 0,
+    "source_reassessments": 15,
+    "activated_intake_matches": {
+      "LEGACY_COMPONENT:c39e265bc54771273cbe": [],
+      "LEGACY_COMPONENT:e9d2fbf50c58aa80fa61": [],
+      "LEGACY_COMPONENT:4a0c4e40f9ae32416bdf": [],
+      "LEGACY_COMPONENT:94f56afa794f110a43c2": [],
+      "LEGACY_COMPONENT:dbc8d235672e9a28e7ba": [],
+      "LEGACY_COMPONENT:6a29e87b8896f0cb6786": [],
+      "LEGACY_COMPONENT:7295b65a64dac823cec7": [],
+      "LEGACY_COMPONENT:1a63239b6f26c3db8fa6": [],
+      "LEGACY_COMPONENT:a4317381e090c25b4739": [],
+      "LEGACY_COMPONENT:ab35663f43a19d5a73ee": [],
+      "LEGACY_COMPONENT:cacebe09555906baec3a": [],
+      "LEGACY_COMPONENT:7ae1c1d795b5907512a7": [],
+      "LEGACY_COMPONENT:b8c1d96d8b6aa8b2ef95": [],
+      "LEGACY_COMPONENT:c810d17ad497211ceaa5": [],
+      "LEGACY_COMPONENT:3aad5f2795f4a2e2b4f9": []
+    },
+    "all_original_card_ids_preserved": true,
+    "all_prior_assessment_card_ids_preserved": true,
+    "six_packet_total_cases": 37,
+    "six_packet_new_canonical_assertions": 36,
+    "existing_assertion_additional_case": {
+      "CLEAN_GAP_DQ:shedefam_additional_source_case": "SEM:b30d45603f3186d20434"
+    },
+    "operational_build_run": false,
+    "new_initial_dispositions": 15,
+    "six_packet_new_initial_dispositions": 37,
+    "effective_exact_quote_sha_intervals_checked_across_six": 91,
+    "initial_intake_check": "Existing activated initial dispositions preserved; previously undispositioned known inventory IDs receive exactly one initial disposition, in DQ, DS, DT, DV, DW, DX order."
+  }
+}

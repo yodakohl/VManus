@@ -242,3 +242,34 @@ questions validate.158repository tests and all source/operational audits PASS.
 DO completed after the first build, so its separate material ledger row
 received one additional metadata refresh; neither refresh read raw events.
 DQ/DR/DS and the exact GDT663 follow-up DT remain independent pending work.
+
+DQ–DX integration decision:37 reviewed source cases address exact whole
+readings, inherited rival sets, local paths and restricted construction models.
+The unresolved questions are source comparisons or independent meaning
+bindings, not missing data by default. DT closes the named GDT663 remainder;
+DV retains two uninspected artifact mappings explicitly. DR retains DAL as a
+living rival and separates referential and component-export reconsideration.
+DU repairs the documented identity-selection inputs with a30-file metadata
+snapshot, not a new parser or pair verdict. Smallest adequate work: preserve
+raw reviews, apply exact peer scope/evidence fixes, validate source cases and
+current decision bindings, publish. Budget25minutes including checks; no new
+experiments, raw event access or added manuscript page.
+
+EA/DZ follow-up decision (2026-09-06): EA finds available artifact pointers,
+not missing data, for two uninspected whole-reading mappings; keep them open.
+DZ exposes a curation distinction worth checking in five earlier nonnumeric
+archives: does a source merely deny a claimed assignment, or actually consider
+and reject a meaning alternative? Each outcome changes whether that historical
+alternative remains addressable. Smallest adequate test: five exact archived
+cards, all their source cases and original correction reasons, independent
+bounded review; no event data or new semantic experiment. Budget 20 minutes
+review plus 15 minutes integration/validation/publication within this session.
+Numeric-column and alias misparses are outside this check; no blanket restoration.
+
+DQ–DY/DZ/DR/DU checkpoint:45 source cases added,44 active variants;4052 active
+=3787 semantic+265 formal;4576 total source cases;477 exact repetitions.
+Nine DZ append-only decisions preserve named rejected alternatives and local
+limits;35 scoped dossiers,48 identity groups/57 display reductions,36 other
+relations and9 unready conditional questions. DU selection metadata documents
+omitted preparation inputs; no DO repeated pair was found. EB/EC/ED remain
+separate pending integration. No new experiment or meaning confirmation.

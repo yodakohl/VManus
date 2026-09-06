@@ -1,0 +1,383 @@
+{
+  "review_id": "PEER_DY",
+  "inputs": [
+    {
+      "path": "research_registry/decisions/clean_gap_review_dy.json",
+      "sha256": "0be00ddfbd1f2b02438b1faaa7d1d6c44619d49d84674d7fc9fcfd0e94b130af"
+    },
+    {
+      "path": "research_registry/decisions/source_coverage_gap_batch_dy.json",
+      "sha256": "7be97e95eb76a0049ed597e25223ba6a8aba126844465105095d0b5ed1e2778e"
+    }
+  ],
+  "card_reviews": [
+    {
+      "card_id": "CLEAN_GAP_DY:distinct_cold_result_wholes",
+      "decision": "approve",
+      "claim_type": "semantic_model",
+      "source_quotes_sha_validated": true,
+      "reason": "Complete historical source-defined statement is supported; related shorter glosses do not contain this full contract. No scientific PASS or free component value inferred."
+    },
+    {
+      "card_id": "CLEAN_GAP_DY:keo_r_bound_portion_case",
+      "decision": "approve",
+      "claim_type": "functional_hypothesis",
+      "source_quotes_sha_validated": true,
+      "reason": "P289 whole-span heiße Portion is source-exact. Productive r root and productive OR portion remain separate, naked r gains neither output nor portion value. This is a distinct local realization beside the existing r composition-head card."
+    },
+    {
+      "card_id": "CLEAN_GAP_DY:solchedy_portable_material_local_mass",
+      "decision": "correction_required",
+      "claim_type": "functional_hypothesis",
+      "source_quotes_sha_validated": true,
+      "reason": "REPORT table22 makes the portable whole Samenmaterial; bis zur Mittelstufe getrocknet and local output bis zur Mittelstufe getrocknete Samenmasse. Current wording can be read as removing the obligatory drying/degree contribution when narrowing only the material noun.",
+      "proposed_claim": "GDT723 gives whole solchedy the portable working value Samenmaterial; bis zur Mittelstufe getrocknet, locally realized as bis zur Mittelstufe getrocknete Samenmasse. The material-versus-mass distinction follows its earlier boundary-unstable seed/material/preparation reading and productive seed-head account, without exporting free substrings or independently confirming seed identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt723_v96_twelve_preparation_bound_core_context_repair/REPORT.md",
+          "line": 22,
+          "line_end": 24,
+          "quote": "| `solchedy` | Samenmaterial; bis zur Mittelstufe getrocknet | bis zur Mittelstufe getrocknete Samenmasse | 30 |\n| `ykcho` | warme Trockenmischung | hieraus eine warme Trockenmischung bereiten | 30 |\n| `ytcho` | kalte Trockenmischung | hieraus eine kalte Trockenmischung herstellen | 30 |",
+          "sha256": "dfefc75c5ea7594fd2197a4e7e784f1da104d4c81f0b0dbf02d1c7af93f762d7"
+        },
+        {
+          "path": "experiments/yolo/gdt723_v96_twelve_preparation_bound_core_context_repair/REPORT.md",
+          "line": 37,
+          "line_end": 44,
+          "quote": "- Ten were still unknown at GDT652 and acquired later bound whole/local-scope\n  readings in GDT691.\n- `chockhy` was already a `KNOWN_EXACT_WHOLE` O-CKH grid cell. GDT713's later\n  family repair supports the portable head “Mischung”, while the older\n  “Arzneizubereitung” remains only the concrete local choice.\n- `solchedy` already carried a boundary-unstable “Samen/Saatgutstoff/-ansatz”\n  reading at GDT652 and a productive seed head in GDT691. V96 therefore keeps\n  `Samenmaterial` portable but leaves `Samenmasse` local.",
+          "sha256": "dfefc75c5ea7594fd2197a4e7e784f1da104d4c81f0b0dbf02d1c7af93f762d7"
+        }
+      ]
+    },
+    {
+      "card_id": "CLEAN_GAP_DY:three_retained_material_share_wholes",
+      "decision": "approve",
+      "claim_type": "semantic_model",
+      "source_quotes_sha_validated": true,
+      "reason": "Full three-form values and no-loss shortening rationale match the source. Keep as historical three-case retention decision, zero independent new mechanisms; confirmed in source table is author retention, not semantic confirmation."
+    },
+    {
+      "card_id": "CLEAN_GAP_DY:ypchesy_seed_root_material_rival",
+      "decision": "approve",
+      "claim_type": "lexical_hypothesis",
+      "source_quotes_sha_validated": true,
+      "reason": "Source explicitly preserves seed-versus-root material uncertainty. No complete root-powder instruction invented; active seed defaults do not address the rival alone."
+    },
+    {
+      "card_id": "CLEAN_GAP_DY:physical_predecessor_reference_repair",
+      "decision": "approve",
+      "claim_type": "functional_hypothesis",
+      "source_quotes_sha_validated": true,
+      "reason": "All four BOS outcomes preserved: P002/P142 lose deixis; physical f86v5.3 and f86v6.24 support two explicitly local retained readings. Current T counterpart overlaps only yteedy; no independent link or global antecedent rule claimed."
+    },
+    {
+      "card_id": "CLEAN_GAP_DY:nineteen_form_role_contract_limits",
+      "decision": "approve_with_required_scope_attachment",
+      "claim_type": "semantic_model",
+      "source_quotes_sha_validated": true,
+      "reason": "Claim is faithful but its exact finite19-form domain should be retained in machine-readable scope. Five held/limited rows prevent reading the panel as nineteen successful reusable roles. Pure authored specification metadata inspected, not event artifacts.",
+      "required_scope": {
+        "forms": [
+          "cthol",
+          "cthor",
+          "cthaiin",
+          "cthain",
+          "cthar",
+          "cthdy",
+          "pol",
+          "por",
+          "paiin",
+          "par",
+          "sol",
+          "sor",
+          "saiin",
+          "sain",
+          "sar",
+          "olkol",
+          "olkaiin",
+          "olkain",
+          "olkar"
+        ],
+        "held_or_partial": [
+          {
+            "surface": "cthdy",
+            "decision": "HOLD_DY_ROLE"
+          },
+          {
+            "surface": "olkol",
+            "decision": "HOLD_OLK_SEGMENTATION"
+          },
+          {
+            "surface": "olkaiin",
+            "decision": "HOLD_OLK_HEAD"
+          },
+          {
+            "surface": "olkain",
+            "decision": "PROMOTE_TAIL_ONLY"
+          },
+          {
+            "surface": "olkar",
+            "decision": "HOLD_BOUND_WHOLE"
+          }
+        ],
+        "no_free_head_or_suffix_export": true
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/src/ROLE_MATRIX_SPECS.tsv",
+          "line": 1,
+          "line_end": 20,
+          "quote": "matrix_id\tsurface\thead\ttail\thead_role_de\ttail_role_de\tworking_default_de\tdecision\tworking_confidence\tpositive_evidence_de\tcounterevidence_de\texpected_cache_occurrences\nG734-M01\tcthol\tcth\tol\tPflanzendroge\tStoff/Material\tPflanzendrogenstoff\tPROMOTE_ROLE_TEMPLATE\tW3\tBreite Wiederholung und parallele pol/sol-Stoffformen.\tHistorische Architektur bestätigt keine Voynich-Zeichenwerte.\t51\nG734-M02\tcthor\tcth\tor\tPflanzendroge\tPortion\tPflanzendrogenportion\tPROMOTE_ROLE_TEMPLATE\tW3\tSauberes cth/por/sor-Portionsraster.\tPortion ist ein Rollenwert, keine entschlüsselte Einheit.\t43\nG734-M03\tcthaiin\tcth\taiin\tPflanzendroge\tIndex III\tPflanzengut, Index III\tPROMOTE_ROLE_TEMPLATE\tW2\tProduktive II/III-Reihe über mehreren Stoffköpfen.\tIndex entscheidet nicht zwischen Menge, Form, Charge oder Grad.\t11\nG734-M04\tcthain\tcth\tain\tPflanzendroge\tIndex II\tPflanzengut, Index II\tPROMOTE_ROLE_TEMPLATE\tW2\tParallele cthaiin- und andere II/III-Reihen.\tNur vier Cache-Vorkommen; genaue Einheit unbekannt.\t4\nG734-M05\tcthar\tcth\tar\tPflanzendroge\tAnteil I\tPflanzenanteil I\tPROMOTE_ROLE_TEMPLATE\tW3\tSauberes AR-Raster über vier Köpfen.\tAnteil gegen Fraktion bleibt offen.\t14\nG734-M06\tcthdy\tcth\tdy\tPflanzendroge\tAbschluss/Resultat\tfertige Pflanzendroge\tHOLD_DY_ROLE\tW2\tSieben wiederholte Ganzformen stützen einen nominalen Fertigzustand.\tKeine p/s/olk-dy-Kreuzbelegung; dy ist strukturell polysem.\t7\nG734-M07\tpol\tp\tol\tPulver\tStoff/Material\tPulverstoff\tPROMOTE_ROLE_TEMPLATE\tW1\tpol/sol/cthol-Stoffraster und wiederholte Pulverfamilie.\tp ist nur in gebundenen oder tokeninitialen Familien lizenziert.\t16\nG734-M08\tpor\tp\tor\tPulver\tPortion\tPulverportion\tPROMOTE_ROLE_TEMPLATE\tW2\tParalleles cthor/sor-Portionsraster.\tPulver bleibt eine Arbeitsfamilie, keine identifizierte Substanz.\t7\nG734-M09\tpaiin\tp\taiin\tPulver\tIndex III\tPulver, Index III\tPROMOTE_ROLE_TEMPLATE\tW2\tParallele III-Reihe über cth/p/s/olk.\tCharge, Menge, Form und Grad bleiben offen.\t7\nG734-M10\tpar\tp\tar\tPulver\tAnteil I\tPulveranteil I\tPROMOTE_ROLE_TEMPLATE\tW2\tVierköpfiges AR-Raster.\tAnteil gegen Fraktion bleibt offen.\t6\nG734-M11\tsol\ts\tol\tSamen\tStoff/Material\tSamenmaterial\tPROMOTE_ROLE_TEMPLATE\tW3\tBreite Wiederholung und cthol/pol-Parallele.\ts kann gelernter Ganzfamilienkopf statt freies Morphem sein.\t57\nG734-M12\tsor\ts\tor\tSamen\tPortion\tSamenportion\tPROMOTE_ROLE_TEMPLATE\tW3\tStarke Wiederholung und cthor/por-Parallele.\tDer freie s-Export ist dadurch nicht bewiesen.\t43\nG734-M13\tsaiin\ts\taiin\tSamen\tIndex III\tSamen, Index III\tPROMOTE_ROLE_TEMPLATE\tW3\tBreite Wiederholung und klare II/III-Formreihe.\tDie Sachbindung des Indexes bleibt offen.\t109\nG734-M14\tsain\ts\tain\tSamen\tIndex II\tSamen, Index II\tPROMOTE_ROLE_TEMPLATE\tW2\tSystematische saiin-Schwester und breite morphologische Oberflächenwiederholung im Cache.\tNur eine aktive semantische Entscheidung trägt den Sinn; die übrige Wiederholung bestätigt keine Einheit.\t60\nG734-M15\tsar\ts\tar\tSamen\tAnteil I\tSamenanteil I\tPROMOTE_ROLE_TEMPLATE\tW2\tAR-Raster und breite morphologische Oberflächenwiederholung im Cache.\tNur eine aktive semantische Entscheidung trägt den Sinn; Anteil gegen Fraktion und freies s bleiben offen.\t62\nG734-M16\tolkol\tolk\tol\theißer Holz-/Stoffrahmen\tStoff/Material\theißer Drogenauszug\tHOLD_OLK_SEGMENTATION\tW2\tDrei wiederholte Ganzformen.\tDie Auszugslesung widerspricht einem einfachen ol-Materialtail; O/L/K/OL bleibt möglich.\t3\nG734-M17\tolkaiin\tolk\taiin\theißer Holz-/Stoffrahmen\tIndex III\theißer Stoffrahmen, Index III\tHOLD_OLK_HEAD\tW1\tIII-Rolle passt zur Kreuzmatrix und die Form wiederholt sich breit.\tHolz, Stoffbasis und Grad gegen Menge bleiben offen.\t28\nG734-M18\tolkain\tolk\tain\theißer Holz-/Stoffrahmen\tIndex II\theißes Drogenmaterial, Index II\tPROMOTE_TAIL_ONLY\tW3\tDreiunddreißig Cache-Vorkommen stützen die II-Reihe.\tOLK ist kein freier sicherer Holzstamm; nur die Indexrolle ist portabel.\t33\nG734-M19\tolkar\tolk\tar\theißer Holz-/Stoffrahmen\tAnteil I\theißer Holzanteil I\tHOLD_BOUND_WHOLE\tW2\tAlle aktiven Rivalen teilen Hitze, Holz und Anteil I.\tAnsatz gegen Auszug und die gebundene Spanlizenz verhindern freien Export.\t17",
+          "sha256": "e8e7705894c67eab5aaff90641041dc52bfc6d601769d20dc98975d162a1d696"
+        }
+      ]
+    },
+    {
+      "card_id": "CLEAN_GAP_DY:host_conditioned_local_axis_renderer",
+      "decision": "approve_with_required_scope_attachment",
+      "claim_type": "semantic_model",
+      "source_quotes_sha_validated": true,
+      "reason": "The report requires nearest unanimous ring and explicit eligibility gates, not simply any nearby known host. Absence/conflict stays open; cold/heat/moisture priors are not validated. Preserve all12 wholeforms and 104/202 no-host cases to delimit the actual contract.",
+      "required_scope": {
+        "forms": [
+          "lain",
+          "lkaiin",
+          "lkain",
+          "lkar",
+          "rain",
+          "sain",
+          "skaiin",
+          "pcheol",
+          "lcheol",
+          "lcheedy",
+          "lsheedy",
+          "rsheedy"
+        ],
+        "active_radius": [
+          1,
+          2
+        ],
+        "scalar_rule": "nearest-unanimous-ring; typed quality/amount/counted-process host; bare verb insufficient",
+        "eligibility": "alternate-reader exactness, W2/W3, zero-composition, known-cell, non-target, non-opaque-head, retired-patient and explicit-axis gates",
+        "absence_or_conflict": "keep dimension open",
+        "positions_without_active_radius_host": 104,
+        "total_positions": 202,
+        "carrier": "broad class only, never neighbor proposed substance",
+        "outer_radius_3_to_5": "discovery only"
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt739_twelve_whole_local_dimension_dispatch/REPORT.md",
+          "line": 19,
+          "line_end": 42,
+          "quote": "## Local-host footprint\n\nThe radius-five audit contains 1,373 neighboring tokens. After alternate-reader\nexactness, W2/W3 confidence, zero-composition, known-cell, non-target,\nnon-opaque-head, retired-patient, and explicit-axis gates, 230 contacts survive.\n\n| Maximum distance | target occurrences with any eligible host |\n|---:|---:|\n| 1 | 62 |\n| 2 | 98 |\n| 3 | 121 |\n| 5 | 146 |\n\nOnly distance one or two is active. Thus 104/202 positions have no eligible\nactive-radius host at all. Distance three to five remains visible as a useful\ncandidate deck, but cannot make the renderer sound more certain than the local\nrecord actually is.\n\n## Scalar dispatch: one form family, several factual axes\n\nThe 172 `ain/kain/kaiin/kar` occurrences use a nearest-unanimous-ring rule. A\nquality root plus grade/value stem selects a quality degree; an amount,\nmeasure, portion, or explicitly numbered fraction selects amount/portion; a\ncounted or repeated treatment selects a process passage. A bare verb does not.",
+          "sha256": "f8925bcdfc3832b6eadad3429e760c8e2785cf3424e8233db91260c0c6ba8761"
+        },
+        {
+          "path": "experiments/yolo/gdt739_twelve_whole_local_dimension_dispatch/REPORT.md",
+          "line": 124,
+          "line_end": 149,
+          "quote": "Renderer precedence after GDT739 is:\n\n1. exact bound context/span;\n2. licensed complete whole at its enumerated position;\n3. invariant compact field class and ordered level;\n4. nearest unambiguous eligible host at distance one or two supplies local\n   dimension and/or broad carrier;\n5. conflict or absence leaves that slot explicitly open;\n6. otherwise unknown.\n\nThe favored heat/dry/moist/fraction orientations survive as candidate priors in\nthe profile, not as automatically spoken meanings. Distance-three-to-five\ncontacts remain discovery evidence only. No head, body, EVA substring, unseen\nform, literal patient, species, language, or plaintext clause is promoted.\n\n## Reproduction and validation\n\nRun:\n\n```bash\npython3 experiments/yolo/gdt739_twelve_whole_local_dimension_dispatch/src/run.py\npython3 experiments/yolo/gdt739_twelve_whole_local_dimension_dispatch/src/validate.py\n```\n\nThe validator passes 46 independent geometry, scope, dispatch, export, artifact,\nand replay checks. Builder replay is byte-identical.",
+          "sha256": "f8925bcdfc3832b6eadad3429e760c8e2785cf3424e8233db91260c0c6ba8761"
+        }
+      ]
+    }
+  ],
+  "source_disposition_reviews": [
+    {
+      "source_id": "LEGACY_COMPONENT:1be5174a147bf908325e",
+      "decision": "approve_disposition",
+      "reason": "Selected primary span read in full. Recovered assertion or audit-only method/limit distinction is source-supported; no automatic whole-path coverage.",
+      "selection_index": 0
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:355f410387c522d0c92e",
+      "decision": "approve_disposition",
+      "reason": "Selected primary span read in full. Recovered assertion or audit-only method/limit distinction is source-supported; no automatic whole-path coverage.",
+      "selection_index": 1
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:a739e2cc981d8b68dde9",
+      "decision": "approve_disposition",
+      "reason": "Selected primary span read in full. Recovered assertion or audit-only method/limit distinction is source-supported; no automatic whole-path coverage.",
+      "selection_index": 2
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:856a06bfe332e7c57e41",
+      "decision": "approve_disposition",
+      "reason": "Selected primary span read in full. Recovered assertion or audit-only method/limit distinction is source-supported; no automatic whole-path coverage.",
+      "selection_index": 3
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:e699d8fcee9f62152d46",
+      "decision": "approve_disposition",
+      "reason": "Selected primary span read in full. Recovered assertion or audit-only method/limit distinction is source-supported; no automatic whole-path coverage.",
+      "selection_index": 4
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:5d4f1d6ea2639c245dd5",
+      "decision": "approve_disposition",
+      "reason": "Selected primary span read in full. Recovered assertion or audit-only method/limit distinction is source-supported; no automatic whole-path coverage.",
+      "selection_index": 5
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:92f63467102b4aa4dd12",
+      "decision": "approve_disposition",
+      "reason": "Selected primary span read in full. Recovered assertion or audit-only method/limit distinction is source-supported; no automatic whole-path coverage.",
+      "selection_index": 6
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:6c8be7d83bf8384f4f13",
+      "decision": "approve_disposition",
+      "reason": "Selected primary span read in full. Recovered assertion or audit-only method/limit distinction is source-supported; no automatic whole-path coverage.",
+      "selection_index": 7
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:cce42bb975695547ca5e",
+      "decision": "approve_disposition",
+      "reason": "Selected primary span read in full. Recovered assertion or audit-only method/limit distinction is source-supported; no automatic whole-path coverage.",
+      "selection_index": 8
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:ba5db59bf1523a116770",
+      "decision": "approve_disposition",
+      "reason": "Selected primary span read in full. Recovered assertion or audit-only method/limit distinction is source-supported; no automatic whole-path coverage.",
+      "selection_index": 9
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:ecdb55d226346ca31a35",
+      "decision": "approve_disposition",
+      "reason": "Selected primary span read in full. Recovered assertion or audit-only method/limit distinction is source-supported; no automatic whole-path coverage.",
+      "selection_index": 10
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:96b193f2bd4cc8d19405",
+      "decision": "approve_disposition",
+      "reason": "Selected primary span read in full. Recovered assertion or audit-only method/limit distinction is source-supported; no automatic whole-path coverage.",
+      "selection_index": 11
+    }
+  ],
+  "counterpart_checks": [
+    {
+      "id": "SEM:35747e613eb30639d336",
+      "claim": "r → Wurzel / Wurzeldroge (nur als Kompositionskopf)",
+      "card_basis": "3aaa21245358cc4b5cc7285d30de3f0127b76a622045906509350e8cd99a5e11",
+      "effective_basis": "8505567aadb282472799677d41ececdefe162df7f7f6baa7cc98b4636de87a6e",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:e03ed76627ee7371817d"
+      ]
+    },
+    {
+      "id": "SEM:407fc182a1c492de51a5",
+      "claim": "ypchesy → hiervon Samenpulver bis Mitte trocknen",
+      "card_basis": "700fce3af544815a5f9219ca2e6d59609e779a7c82e346f707421b437b77b2bc",
+      "effective_basis": "dc1dc63e0176c2d1ac9e820f486e934031eb096647ca6db066f6033e33e9b5e2",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:f9fa396e866a2429a9c0"
+      ]
+    },
+    {
+      "id": "SEM:5305ce019d74d3597ba7",
+      "claim": "The selected 19-form matrix treats -ol as material role, -or as portion, -aiin/-ain as III/II and -ar as share I, without exporting free head meanings.",
+      "card_basis": "1abea36829802bae85a66cc7d771f474566e6c16d7cc020dc3cc27ce5790dea2",
+      "effective_basis": "874f28ba3fe5ff434dd6e33c2f3e179f40a74af06403e274ebe6ee1ada617544",
+      "source_case_ids": [
+        "REPORT_PROPOSAL:2e355a0332010e81120d"
+      ]
+    },
+    {
+      "id": "SEM:5b5804de938073b58ae4",
+      "claim": "At the GDT727 f86v6.25 context, yteedy is rendered as cooling the just-strained hot drug fraction I to its final stage.",
+      "card_basis": "86c73f1cb0c9795da1be4a7cbf46d6fa1239fbe85a7efcbe8f2a2ff5a389fad6",
+      "effective_basis": "692dd20a8fdb653723cbecceb1276650815132ec2bcd301c4c37fed59671686a",
+      "source_case_ids": [
+        "CLEAN_GAP_T:r_yteedy_context"
+      ]
+    },
+    {
+      "id": "SEM:7470e11f4dbd7e28aec0",
+      "claim": "s (exact-whole working head only) → Samen",
+      "card_basis": "db95bc7721604dec6041b15495eb75b9e4125d1630c28aaca0453d339eeeb7b7",
+      "effective_basis": "894303df511461d8a52d075a9a0dc6a0f5a41ef819578b7d9a16e885968d16ad",
+      "source_case_ids": [
+        "REPORT_PROPOSAL:6aece032273e906fb036"
+      ]
+    },
+    {
+      "id": "SEM:9c790c66d3415fe58c36",
+      "claim": "sairy → abgeschlossene zweite Saatgutfraktion",
+      "card_basis": "c34387558e5094d035756a0eaf539871e717051cdd3d254610dc5985fa1df575",
+      "effective_basis": "34894fd062b2cfb1410ad9236b7081591a883d1ec2bab4ab399232e51a035859",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:fb0b96eb006f19640932"
+      ]
+    },
+    {
+      "id": "SEM:9d0671650251d41c7a96",
+      "claim": "ypchesy → hiervon Samenpulver",
+      "card_basis": "35e18e2c3f2615c9882718b87ffc477f73ebe0e4c48b0777343ffc9747252cea",
+      "effective_basis": "2be6920d4e2156b824312c976ab38d55d5ea6769f261eaec7bcaace8d0875757",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:39075be33927e0a7eef2"
+      ]
+    },
+    {
+      "id": "SEM:9db7397fc006afd4905a",
+      "claim": "polairy → abgeschlossene zweite Pulverstofffraktion",
+      "card_basis": "06b3e7528fe6dfef8e4e119c377fe57338c4fe581c16f20c8e50c103ca8bad49",
+      "effective_basis": "725230f609105d886f0e88dff53cd3e188fe6e5b57ecd73fef1517bc6a6f72d3",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:e7d63af580a64c6f3359"
+      ]
+    },
+    {
+      "id": "SEM:b1408fb1c9533831f8c0",
+      "claim": "etyd → bis Mittelstufe gekühlter Ansatz, abgeschlossen",
+      "card_basis": "1ae7a8d5f1656c7dbd8bbacc60ff8243c0a82992edd2cd91fb4e93586704dae8",
+      "effective_basis": "3fa427f4bee70ee7a5e31c563a9eb06ee398a2c55d4c22c3fcbca4da23591743",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:fc40c473f0206710cfaa"
+      ]
+    },
+    {
+      "id": "SEM:b3981819da2577b95260",
+      "claim": "p (exact-whole working head only) → Pulver",
+      "card_basis": "68876a9d9930c8efd186bd45d0b7869ac1bcd471af1367114e000c493106ae85",
+      "effective_basis": "fd5392dd3fe572bc99666bfd47392abb99fe0115141c95779a5e1acd8d00f176",
+      "source_case_ids": [
+        "REPORT_PROPOSAL:99faa5e463cc6b65b7b0"
+      ]
+    },
+    {
+      "id": "SEM:cc6ed0df15a59dcea0d6",
+      "claim": "saraiin → drei Teile der ersten Samenfraktion",
+      "card_basis": "37a190588e40242e484d7708ecc8732fbc745fa8ae9c0b1e38e5f369740216f3",
+      "effective_basis": "ad032482bec4706ac98353dd8478056542510f1687a2d69b5fd670ad1bebbf2a",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:cb11305a00afefc90572"
+      ]
+    },
+    {
+      "id": "SEM:d5a6c62350d08116efd8",
+      "claim": "cth (exact-whole working head only) → Pflanzendroge",
+      "card_basis": "6129c77f1a86569dce8269362a8354873039a3697e46ec08a95c31ab82a7c89c",
+      "effective_basis": "28925d2e9325a9d9b78e0db9acbc76b896d2df0ea782f10089cb86b9c8af1c4f",
+      "source_case_ids": [
+        "REPORT_PROPOSAL:c858d91e9f6fc4669a15"
+      ]
+    }
+  ],
+  "counts": {
+    "cards": 8,
+    "approved_without_change": 5,
+    "content_correction": 1,
+    "scope_attachments": 2,
+    "source_spans": 12
+  },
+  "limitations": [
+    "No operative mutations or raw/event/image queries.",
+    "GDT734 source ROLE_MATRIX_SPECS is authored metadata only; no occurrence artifact opened.",
+    "Assertions are historical exploratory semantics; fixed role labels, renderer ratings and replay checks are not independent meaning validation.",
+    "All eight exactquotes verified. Counterpart equality was not inferred from source overlap."
+  ]
+}
