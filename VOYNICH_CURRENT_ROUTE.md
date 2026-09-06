@@ -35,10 +35,8 @@ before targetcomparison, no show-through claim.863:7all3 non-qo followers
 afterstandaloneqo on6leaves defeat strict immediateecho;864two viewers see
 space-like seams in f76r21 qo|olain and30 qo|qokey. No wordhood/meaning.
 
-GDT855:outside ALL60LM-graded folios, onlyf35/f36/f37 remain, allq05.
-Post-count proof: any newTOOTHED breaks25%quire cap; none adds no mixed new
-phase. Thus this reserve cannot repair LM002 mobility; no images/target opened.
-RBR002 already closed the apparent RBR001 successor.
+855:onlyf35/f36/f37(allq05)outside60LMfolios; none repairs LM002quirecap/phase.
+RBR002closed; no underlayer regrade.
 
 845–849 sparse grids,848native anchor; no meaning.847corrects829;844stopped.
 
@@ -62,7 +60,7 @@ No general boundary/cipher rejection.
 
 ## Visual understanding and earlier routes
 
-Six orientations:32renderings/31canvases/33keys.
+Six orientations:32renderings/31canvases/33keys.871registered for2shared diagrams.
 Sources: `docs/visual_overview/README.md`.
 f76r offset signs are a known functionally unresolved column; f4r rot is an
 ordinary-alphabet note. No decipherment/admission.95v images stay distinct.
@@ -93,12 +91,13 @@ Understanding dossier: `docs/VOYNICH_UNDERSTANDING.md`;
 - Visual: original30 keys/35 selectors in `experiments/yolo/gdt791_thirty_page_visual_owner_spine/src/PAGE_SELECTOR_SPECS.tsv`,
   plus f21r/f32v/f100v/f101r in `experiments/yolo/gdt812_additional_page_semantic_bridge/src/PAGE_ADMISSIONS.tsv`:34 keys/39 selectors,
   plus GDT844 f6v/f9v, GDT848 f104r/f104v, GDT852 f75v:39 keys/44 selectors.
-  GDT861 adds f100r/f114r;867 registers f70r with2selectors:42 keys/48 selectors,8 remain.
+  871adds f67r1/f68r2/f68r3:45keys/51selectors,5remain.861/867admissions retained.
   GDT844 admission source: `experiments/yolo/gdt844_ychor_visual_subentry/src/PAGE_ADMISSIONS.tsv`.
   GDT848 source: `experiments/yolo/gdt848_f104_visual_e_run_audit/src/PAGE_ADMISSIONS.tsv`.
   GDT852 source: `experiments/yolo/gdt852_f75v_native_join_split_spacing/src/PAGE_ADMISSIONS.tsv`.
   GDT861 source: `experiments/yolo/gdt861_extended_entity_native_comparison/src/PAGE_ADMISSIONS.tsv`.
   GDT867: `experiments/yolo/gdt867_shared_canvas_native_orientation/src/PAGE_ADMISSIONS.tsv`.
+  GDT871: `experiments/yolo/gdt871_remaining_shared_diagram_orientation/src/PAGE_ADMISSIONS.tsv`.
   Register before any new page access.
 - Cached NVA002/EBA001: ten MSI folios already routed; repeated UV traces leave material role unresolved. No new layer located.
 - Text:179 selectors in `experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv`, not179 visually

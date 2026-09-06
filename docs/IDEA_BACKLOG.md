@@ -1889,3 +1889,120 @@ Informationsgewinn, keine vier neuen ausführbaren Routen. Rang1 ist ein
 zeitlich begrenzbarer **Entdeckungsauftrag**, dessen Ergebnis auch „kein neuer
 Bezug“ sein kann; vor Ausführung muss root entscheiden, ob diese konkrete
 Quellenkopplung wissenschaftlich neu genug ist. Schreibzuständigkeit zurück.
+
+## Neuer Rohvorrat IP065–IP074: beobachtbare Mechanismen, noch ungeprüft
+
+Auf ausdrücklichen Auftrag zehn zusätzliche Skizzen in sechs Familien.
+**Alle `RAW_UNSCREENED`; Neuheit, Vorgänger und Ausführbarkeit ungeprüft.**
+`AVAILABLE` bezeichnet vorhandenes Ausgangsmaterial, nicht bereits vorhandene
+entscheidende Beobachtungen. `UNKNOWN` bedeutet ungeklärte lokale Verfügbarkeit;
+`MISSING` eine bislang nicht belegte benötigte Quelle. Dies sind keine
+Versuchsfreigaben: geschlossene Familien gelten unverändert. Keine Rohdaten,
+Bilder, Netzquellen oder Modelle wurden für diese Ergänzung geöffnet.
+
+### Schreibende Umsetzung einer Codierung
+
+**IP065 — Reichweite eines nachweislichen Schreibfehlers.** Ein laufend
+fortgeschriebener Codierzustand kann nach einer ausgelassenen Eingabeeinheit
+mehrere folgende Ausgaben verschieben; eine lokale Zeichenersetzung muss das
+nicht. Kleinster Kontrast: zwei unabhängig gebundene Fassungen mit sicher
+lokalisierter Auslassung, danach Fortbestand oder Ende der Verschiebung.
+**MISSING:** ein solches vollständig erhaltenes Vorher-/Nachherpaar; bekannte
+Korrekturspuren liefern es nicht. Rivale: Abschreibsprung ganzer Textstücke.
+Keine neue Suche mit verkürzten Parallelfenstern.
+
+**IP066 — Fehler beim Nachschlagen statt beim Lautieren.** Eine räumliche
+Codiertabelle kann falsche Ausgaben aus benachbarten Tabellenzellen erzeugen;
+Diktatfehler können dagegen ähnlich klingende Eingaben verwechseln, ohne
+Tabellennachbarschaft. Kleinster Test: ein unabhängig identifiziertes
+Nachschlageblatt mit mehreren sicher korrigierten Verweisen auf seine Zellen.
+**MISSING:** Tabelle und korrigierte Zuordnungen. Rivale: gewöhnlicher visueller
+Lesefehler in der Vorlage. Keine hypothetische Tabelle aus Voynich-Häufigkeiten
+rekonstruieren und danach als Beleg verwenden.
+
+### Technische Notation als ausführbare Beschreibung
+
+**IP067 — Geschriebene Rücknahme einer Operation.** Eine technische
+Handlungsnotation könnte eine Operation und ihre ausdrücklich markierte
+Rücknahme enthalten: der dargestellte Endzustand entspricht dann wieder dem
+Anfangszustand, während der Zwischenzustand abweicht. Eine reine Zustandsliste
+braucht keine wiederverwendbare Rücknahmekonstruktion. Kleinster Test: zwei
+unabhängig gebundene Drei-Zustandsfolgen mit unterschiedlichen Operationen.
+**UNKNOWN:** solche gerichteten Folgen im vorhandenen Bildbestand. Rivale:
+zyklische Illustration ohne geschriebene Operation. Keine Beckenrichtung aus
+Nähe oder vermeintlichen Übersetzungen ableiten.
+
+**IP068 — Reihenfolge austauschbarer Zutaten oder geordneter Schritte.** Zwei
+schriftlich verschiedene Abfolgen könnten dieselben vollständig gebundenen
+Bestandteile und dasselbe ausdrücklich ausgewiesene Ergebnis haben.
+Das stützt eine ungeordnete Zusammenstellung stärker als einen für das Ergebnis
+relevanten Prozessablauf. Kleinster Test: ein unabhängig zugeordnetes
+Reihenfolgenpaar einschließlich Ergebnis, ohne Zahlenwerte. **MISSING:** diese
+Zuordnung; bisherige Rezeptglossen sind kein Beleg. Rivale: zwei tatsächlich
+kommutierende Prozessschritte. Keine allgemeine Wortordnungszählung.
+
+### Mehrsprachigkeit und Übersetzung
+
+**IP069 — Namensübernahme gegenüber Lautanpassung.** In unabhängig als
+Übersetzung gebundenen Texten könnten mehrere extern identifizierte Eigennamen
+eine gemeinsame regelhafte Lautanpassung zeigen, während übrige Wörter frei
+übersetzt werden. Unverändert kopierte Signaturen verlangen diese Anpassung
+nicht. Kleinster Kontrast: mehrere Namen im selben gebundenen Textpaar,
+einschließlich eines unbenutzten Namens. **MISSING:** Übersetzungspaar und
+unabhängige Namensidentitäten. Rivale: konventionelle Schreibvarianten.
+Gewöhnliche Alphabetnotizen allein liefern keinen bilingualen Schlüssel.
+
+**IP070 — Übersetzungsrichtung durch stehengebliebene Fremdform.** Eine
+vollständige Passage könnte erst eine fremde Schreibform einsetzen und sie
+dann durch eine längere zielsprachliche Erläuterung ersetzen; umgekehrte
+Bearbeitungsrichtung sagt das Gegenteil voraus. Kleinster Test: ein sicher
+chronologischer Austausch mit unabhängig identifizierten Schrift-/Sprachformen.
+**MISSING:** vollständiger Austausch und Chronologie. Rivale: spätere
+Leserannotation. Keine RBR-Schicht als Übersetzung behandeln; selbst ein
+positiver Fall würde nur diese Bearbeitungsrichtung bestimmen.
+
+### Schriftlich realisierte Verweisoperation
+
+**IP071 — Ditto-Zeichen mit rückwärts bestimmtem Inhalt.** Ein wiederkehrendes
+kurzes Zeichen könnte den Inhalt des vorherigen Feldes übernehmen. Bei einem
+sichtbar korrigierten Vorgänger müsste eine ausgeschriebene Kontrollfassung
+auch den übernommenen Inhalt ändern; ein festes Kürzel hätte diese Abhängigkeit
+nicht. Kleinster Test: ein gebundenes Paar aus Ditto- und Vollfassung.
+**UNKNOWN:** solche Paare in den Quellen. Rivale: Auslassungszeichen ohne
+eindeutiges Ziel. Kein weiterer Test bloßer Randzeichenausrichtung.
+
+### Physische Produktion des Dokuments
+
+**IP072 — Schreiben auf bereits gefaltetem oder noch offenem Blatt.** Eine
+Schreibunterbrechung an einer Falzkante kann von realer Unzugänglichkeit der
+Schreibfläche stammen; eine erst später entstandene Falte erklärt keine
+entsprechende ursprüngliche Auslassung. Kleinster Kontrast: eine unabhängig
+datierbare Falz-/Tintenkreuzung und der vollständige betroffene Schriftzug.
+**AVAILABLE:** Originalaufnahmen mehrteiliger Seiten; **UNKNOWN:** darin
+auflösbare Chronologie. Rivale: späterer Abrieb. Keine Lesefolge aus heutiger
+Faltung behaupten; dies könnte zunächst nur eine Produktionsoperation klären.
+
+**IP073 — Eintrag zuerst, Rubrizierung in separatem Durchgang.** Bei einem
+separaten Auszeichnungsdurchgang können ausgelassene Auszeichnungen durch
+vorbereitete Leerstellen oder erhaltene Setzanweisungen belegt sein; ein
+inhaltlich bedeutender Wechsel zwischen ausgezeichneten und normalen Einträgen
+muss solche Vorbereitungen nicht zeigen. Kleinster Test: vollständige
+Leerstellen-/Anweisungsstelle mit unabhängig gesicherter Schichtfolge.
+**UNKNOWN:** geeignete Primärdokumentation. Rivale: abgebrochene Hauptschrift.
+Keine erneute Sternfarbenzählung und keine Chronologie aus Farbton allein.
+
+### Informationstheoretische Identifizierbarkeit
+
+**IP074 — Welche Beobachtung trennt zwei vollständige Lesungen überhaupt?**
+Zwei konkrete Interpretationen können alle gegenwärtig beobachteten Beziehungen
+erhalten und nur ihre Bedeutungsetiketten vertauschen. Der kleinste sinnvolle
+Test benennt eine unabhängige Aussage, deren Wahrheitswert unter den beiden
+Lesungen verschieden ist, bevor weitere Textpassung berechnet wird.
+**AVAILABLE:** publizierte konkurrierende Arbeitsdeutungen; **UNKNOWN:** eine
+trennende unabhängige Aussage. Rivale: Interpretationen unterscheiden sich schon
+in einer übersehenen schriftlichen Vorhersage. Keine neue Decoderoptimierung
+oder künstlicher Kontrollkorpus.
+
+Ergebnis dieser Produktionsrunde: zehn RAW-Skizzen, sechs Familien,
+null geprüfte Neuheitsansprüche und null ausgewählte Versuche. Der Vorrat
+enthält bewusst ambitionierte Datenbedarfe. Schreibzuständigkeit an root zurück.
