@@ -282,3 +282,11 @@ remainsall3. Independentrecord/eligibility/countvalidation and replayPASS;
 strictuniversal rawprefixecho fails, no wordfunction/meaningclaim. Allcomplete
 sourcecontextsandseamuncertaintiesretained; noimages or model.
 Resultpublication within08:44:23budget underway; goalACTIVE until13:40:45UTC.
+
+08:43:59UTC GDT864 decision: native source-fidelity comparison of863
+f76r21#4 qo|olain counterexample andf76r30#5 qo|qokey echo ononealready
+admittedoriginal. Are bothpost-qo seams visuallyspace-like against nearby
+wholegroupseams andwithingroupgaps? Manualalignment uncertaintyremainsopen;
+no newprefixmodel orwordfunction. Wholeoriginal AsealbeforeB, exposedtext
+contexts allowed. TGC001exclusion f76r5C004 nottargeted. Tenmin total
+08:43:59→08:53:59, registerbeforetargetnativeinspection; noadmission.

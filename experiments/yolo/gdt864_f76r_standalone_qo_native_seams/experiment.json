@@ -1,0 +1,109 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Local same-photo spacing only; no authorial word boundary, semantics or software-verified alignment",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt864_f76r_standalone_qo_native_seams/src/run.py",
+    "validate": "python3 experiments/yolo/gdt864_f76r_standalone_qo_native_seams/src/validate.py"
+  },
+  "created": "2026-09-06",
+  "dependencies": [
+    "GDT863"
+  ],
+  "experiment_id": "GDT864",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt863_standalone_qo_immediate_echo/artifacts/OCCURRENCES.json",
+      "role": "frozen_source_or_extractor",
+      "sha256": "474d52330c91230fd7d26c8d08d81afa5c3ac78181fcf3fa6850f84a606fbb77"
+    },
+    {
+      "path": "docs/visual_overview/FIGURE_ORIENTATION_2026-09-06_SOURCES.json",
+      "role": "frozen_source_or_extractor",
+      "sha256": "5c5601e1f846dd96e5a7db8dd7344ca335376c818e5bc0145caab9fff67223d2"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt864_f76r_standalone_qo_native_seams/.gitignore",
+      "role": "source_or_artifact",
+      "sha256": "429a7ff8e3befe5ac528bb832881840115d63940883b125526b582eedcdcb7a9"
+    },
+    {
+      "path": "experiments/yolo/gdt864_f76r_standalone_qo_native_seams/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "e88d8d33bb9206bf0b95d6479d6454542ea4c719880abbac67f24c65b565ae76"
+    },
+    {
+      "path": "experiments/yolo/gdt864_f76r_standalone_qo_native_seams/PREREGISTRATION.md",
+      "role": "source_or_artifact",
+      "sha256": "dbaaff4fa53665c39edc5eec4664f6f411fc9d62111290b1fbbfd8ef307f9a3c"
+    },
+    {
+      "path": "experiments/yolo/gdt864_f76r_standalone_qo_native_seams/README.md",
+      "role": "source_or_artifact",
+      "sha256": "06843883a194751aade695560a212ef20639d493437b124fd5b2606b02a0b79f"
+    },
+    {
+      "path": "experiments/yolo/gdt864_f76r_standalone_qo_native_seams/REPORT.md",
+      "role": "primary_report",
+      "sha256": "9bc148506ef0bf9bfbcaf33219afb390d33099b29e443f057e307fcd1e2ba80f"
+    },
+    {
+      "path": "experiments/yolo/gdt864_f76r_standalone_qo_native_seams/artifacts/CONTROLS.json",
+      "role": "source_or_artifact",
+      "sha256": "423b0a945a73ecb5ab748c7c796af9328a4639bf6921af982e71ad00924f46e9"
+    },
+    {
+      "path": "experiments/yolo/gdt864_f76r_standalone_qo_native_seams/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "c16935d411449773106efe410ba369206cbb5dc580184b11a2e04b376dc48ea3"
+    },
+    {
+      "path": "experiments/yolo/gdt864_f76r_standalone_qo_native_seams/artifacts/SOURCE_LINES.json",
+      "role": "source_or_artifact",
+      "sha256": "6b17f074295cf6a59ed095930dbe975500e725d90e1abc70c83ed1d50744565e"
+    },
+    {
+      "path": "experiments/yolo/gdt864_f76r_standalone_qo_native_seams/src/PREREG_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "f1e497ec05f9a5b638b134c2476d2b32b30a996dfbb739089acefbb78d8ae610"
+    },
+    {
+      "path": "experiments/yolo/gdt864_f76r_standalone_qo_native_seams/src/SPEC.json",
+      "role": "source_or_artifact",
+      "sha256": "66426d5b93b782db61dee3cf3f6c7d24db74ffc3a9b1df3acaa0f1a2896cbac1"
+    },
+    {
+      "path": "experiments/yolo/gdt864_f76r_standalone_qo_native_seams/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "f3a01dc297b60d427a445ed24ee6cc0f32673529097e9c43607d1c4049889763"
+    },
+    {
+      "path": "experiments/yolo/gdt864_f76r_standalone_qo_native_seams/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "a91dd2305819be1300e8b9f96a491700a80780c06a3daa228038cc88e5d8eda8"
+    },
+    {
+      "path": "experiments/yolo/gdt864_f76r_standalone_qo_native_seams/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "dd55565e82f154fedce71271a9b69e4dcd33f6a0a7d94ff8950b17d15e61e8a0"
+    }
+  ],
+  "question": "Do native viewers confirm space-like seams at two fixed exposed standalone qo examples?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "f76r_standalone_qo_native_seams",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Two f76r standalone qo native seams",
+  "updated": "2026-09-06",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}
