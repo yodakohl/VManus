@@ -6,6 +6,13 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### ofaldo/ofal priority review (2026-09-06)
+
+`docs/visual_overview/OFAL_REVIEW.md`: root natively re-viewed admitted f88r,
+proposes no glyph correction. f108r image not accessed. No new source/semantic
+finding; remove this unknown relation as the main route after GDT840, without
+rejecting a name hypothesis. No automatic suffix/gallows/rarity census selected.
+
 ### GDT840 witnessed do label/prose discovery (2026-09-06)
 
 Primary: `experiments/yolo/gdt840_do_label_prose_discovery/REPORT.md`.

@@ -3,12 +3,12 @@ Updated: 2026-09-06. Read first.
 
 ## Current mandate and effort limit
 
-Latest request: continue from the witnessed ofaldo/ofal lead.
-GDT840 finds no additional Xdo-label / X-prose base in179 admitted selectors;
-all three readers agree. Reverse sh/shdo is not a comparable naming rule.
-Stop this exact do generalization; the local ofaldo/ofal relation stays unknown.
+Latest request: continue. Native f88r review proposes no source correction;
+ofaldo/ofal remains an unknown relation and is removed as the main route.
+GDT840 do generalization stays closed; no automatic suffix/gallows/rarity census.
+New work needs a distinguishing relation, not another count of similar forms.
+Review: `docs/visual_overview/OFAL_REVIEW.md`. No next experiment selected.
 Target first observation2min/whole pass5min; no decoder repair/new corpus.
-Workflow: `docs/WORKFLOW.md`. No next experiment selected.
 
 Goal: transferable translation. Confirmed English lexemes: **0**;
 confirmed German lexemes/clauses: **0**. No new fit or page admission selected.
