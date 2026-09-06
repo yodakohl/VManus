@@ -1,0 +1,124 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Post-discovery same-photo native comparison and lossless exact-line extraction; no glyph identity, word boundary, stroke order, semantics or software-verified alignment",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt859_f56r_initial_bar_separator/src/run.py",
+    "validate": "python3 experiments/yolo/gdt859_f56r_initial_bar_separator/src/validate.py"
+  },
+  "created": "2026-09-06",
+  "dependencies": [
+    "GDT851"
+  ],
+  "experiment_id": "GDT859",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt851_primitive_tandem_raw_group_discovery/src/SPEC.json",
+      "role": "frozen_source_or_extractor",
+      "sha256": "192674c513a6b633f88a5bdd4d4394bf5463139d062a1ae19abc167d2007a241"
+    },
+    {
+      "path": "experiments/yolo/gdt851_primitive_tandem_raw_group_discovery/artifacts/SOURCE_ZL3b.json",
+      "role": "frozen_source_or_extractor",
+      "sha256": "73d3a80095d76876da91e67a6c9bd0d46284fdfe62250fccfb7d9dee3c038329"
+    },
+    {
+      "path": "experiments/yolo/gdt851_primitive_tandem_raw_group_discovery/artifacts/SOURCE_IT2a.json",
+      "role": "frozen_source_or_extractor",
+      "sha256": "333a76f0f8ec4904accf8f56cd947cb81cc6a05e2a53b1de3674659a04c83e03"
+    },
+    {
+      "path": "experiments/yolo/gdt851_primitive_tandem_raw_group_discovery/artifacts/SOURCE_RF1b.json",
+      "role": "frozen_source_or_extractor",
+      "sha256": "e9998f013dd1ae4608a13bc4e67bea1f9bfb3859cb4f4b60b84c404b2c7e0101"
+    },
+    {
+      "path": "docs/visual_overview/REMAINING_PLANTS_2026-09-06.md",
+      "role": "frozen_source_or_extractor",
+      "sha256": "ac81593d7ad2a30a9e371f0a81a4129f210491f28dc204595196fec1c1254d79"
+    },
+    {
+      "path": "docs/visual_overview/REMAINING_PLANTS_2026-09-06_SOURCES.json",
+      "role": "frozen_source_or_extractor",
+      "sha256": "92629bd2ce3dbd0af19d59988b80dcefea3f5d84b82726073dd9dd4a0f98c192"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt859_f56r_initial_bar_separator/.gitignore",
+      "role": "source_or_artifact",
+      "sha256": "429a7ff8e3befe5ac528bb832881840115d63940883b125526b582eedcdcb7a9"
+    },
+    {
+      "path": "experiments/yolo/gdt859_f56r_initial_bar_separator/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "a23f052b9cb12cace4c684e9caf9b977b9939ab6e8a8595ae5cb58b2e779022d"
+    },
+    {
+      "path": "experiments/yolo/gdt859_f56r_initial_bar_separator/PREREGISTRATION.md",
+      "role": "source_or_artifact",
+      "sha256": "00043d3f01be8755217e17be5da0cf751ca3015c2caf7d6d0c956abb453a5a97"
+    },
+    {
+      "path": "experiments/yolo/gdt859_f56r_initial_bar_separator/README.md",
+      "role": "source_or_artifact",
+      "sha256": "65cb3a7bab1c88f90f33a7a91766436d64ffb33582dbaa524a626ad9733f3888"
+    },
+    {
+      "path": "experiments/yolo/gdt859_f56r_initial_bar_separator/REPORT.md",
+      "role": "primary_report",
+      "sha256": "ff9b89673803160d7e9e1af77eda52add8361feeb3e27bef06280b262f6a5c09"
+    },
+    {
+      "path": "experiments/yolo/gdt859_f56r_initial_bar_separator/artifacts/CONTROLS.json",
+      "role": "source_or_artifact",
+      "sha256": "a04ff0e57e850bff7cfebeb19638127202728480ba2a435dd7b81a5b82edca9a"
+    },
+    {
+      "path": "experiments/yolo/gdt859_f56r_initial_bar_separator/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "fd5f724fe4218fcbc6a773d18c7116277d5722edf00284608552b84e7264320c"
+    },
+    {
+      "path": "experiments/yolo/gdt859_f56r_initial_bar_separator/src/PREREG_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "c65978e9ea74cbfe9bace52c26e90def0cc62f685288d2bd126b296e324ce5fe"
+    },
+    {
+      "path": "experiments/yolo/gdt859_f56r_initial_bar_separator/src/SPEC.json",
+      "role": "source_or_artifact",
+      "sha256": "f25b224cb746f5005c83732905f6dc8f5047b7a3a5c62cb941368887f0f687ad"
+    },
+    {
+      "path": "experiments/yolo/gdt859_f56r_initial_bar_separator/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "3ce35007648ad8b6e15619c74e0287a65c1a757241949768fafafa5f7c64bc36"
+    },
+    {
+      "path": "experiments/yolo/gdt859_f56r_initial_bar_separator/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "120fcf26955c7352d431c5d2e8d064611d599b99f13888e9695474a23b3ff1f6"
+    },
+    {
+      "path": "experiments/yolo/gdt859_f56r_initial_bar_separator/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "8c65526ea2cff211644db9e1eb1ef1cdf04a3c352e5188ef1798662f1af01a72"
+    }
+  ],
+  "question": "How do a discovered local native upper contact and three exact transcription line separator descriptions coexist?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "f56r_initial_bar_separator",
+  "status": "REGISTERED_UNSCORED",
+  "title": "f56r initial upper bar and source separators",
+  "updated": "2026-09-06",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

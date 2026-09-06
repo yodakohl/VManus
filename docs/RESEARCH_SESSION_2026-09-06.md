@@ -208,3 +208,13 @@ IP026 lacks new independent nesting relation; producer added six RAW sketches
 IP049–054, none READY. Current small-pass budget ends07:46:07UTC. No model rerun,
 new admission, LM target or external decipherment search. Reproduction/privacy
 checks are necessary evidence handling, not counted as manuscript discoveries.
+
+07:42:20UTC GDT859 decision: newly natively located f56r firstline upper bar
+supplies a concrete physical contact candidate absent from earlier IP009 notes.
+Audit its AB versus BC appearance with two native viewers and preserve all three
+rawfirstline readings/separators after public freeze. New discriminator is an
+observed upper link versus baseline/transcription separation, not a pen-motion
+or glyph-meaning test. Any ambiguity stops localpromotion. Existing admission,
+no trait rerun or IGR prototype retest.15min total budget to07:57:20UTC.
+TGC001 exact excluded-image panel queried through page-selector guard forf56r:
+zero published excluded rows onthispage; no source-family payload requested.
