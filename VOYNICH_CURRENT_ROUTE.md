@@ -10,6 +10,9 @@ packet has0eligibleedges; do not score or promote colour/name semantics.
 Preserve GDT841/842visual positives and GDT843candidate deck; no more same-photo
 colourcounts. New independent assignment/whole-record relation needed.
 Producer maintains `docs/IDEA_BACKLOG.md`; no next scientific test selected.
+Local MSI metadata audit: no f67r2 capture in checked inventories; no new source
+opened. EBA001/NVA002 already cover the suggested marginalia/source-layer screen.
+Do not repeat that screen without a specified new observable or acquisition.
 
 Goal: transferable translation. Confirmed English lexemes: **0**;
 confirmed German lexemes/clauses: **0**. No new fit or page admission selected.

@@ -242,3 +242,34 @@ stroke omission`, danach `f67r2 twelve sector underlayer recovery census red bro
 retracing`; RBR001/RBR002-Primärberichte und gezielte aktive Registerhinweise gelesen.
 Kein neuer Manuskriptbefund, keine neue Entzifferungsidee als bereit ausgegeben.
 Schreibzuständigkeit an root zurückgegeben.
+
+### Ausgeführter lokaler Spektral-Metadatencheck für f67r2
+
+Status: `NO_AVAILABLE_CAPTURE_IN_CHECKED_METADATA` — lokale Quellenlücke,
+keine Behauptung über das gesamte Dateisystem oder den aktuellen Webbestand.
+Geprüft wurden die durch route-check/Repository-Dateinamen gefundenen RBR002-
+Auswahlmetadaten, die beiden gespeicherten MSI-Screen-Inventare, EBA001s
+Rohaufnahme-Inventar und insbesondere die gespeicherten NVA002-Ordnerlisten.
+Keine Aufnahme, Rohtextzeile, Bildvorschau oder Webadresse wurde geöffnet.
+
+- RBR002 bindet das gewöhnliche Yale-Canvas **1006194**, 4972×3738 Pixel,
+  SHA-256 `0518312a566ee713a46c9887d8b8b9d7141d14095e360661789c1dad9b5c0d1c`.
+- Die lokale [NVA002-Inventur](../experiments/semantic_assumptions/results/nva002_public_physical_layer_update_prescreen.json)
+  enthält für `Processed_Images` und `Raw TIFFs` dieselben zehn Folios:
+  f1r, f8r, f17r, f26r, f47r, f70v1, f71r, f93r, f102v1, f116v.
+  **f67r2 ist in keiner der beiden gespeicherten Ordnerlisten vertreten.**
+- Das lokale [EBA001-Inventar](../experiments/semantic_assumptions/results/eba001_raw_directional_msi_inventory.json)
+  beschreibt sechs einzelne `MB365UV`-Aufnahmen, ausschließlich f17r/f116v.
+  Das ist eine vorhandene Bandbezeichnung, aber kein f67r2-Datensatz.
+- Die zwei MSI-Screen-Metadaten decken sieben beziehungsweise zwei Folios
+  dieser Liste ab; auch dort kein f67r2. Die gespeicherten separaten
+  True-Color-Ordnernamen begründen weder ein neues Spektralband noch eine
+  zusätzliche physische Schicht.
+
+Entscheidung: Im geprüften Quellenbereich existiert kein belegter f67r2-Kandidat,
+der gleichzeitig abweichenden Aufnahmezustand und Spektralband dokumentiert.
+Den sichtbaren RBR002-Ring daher nicht neu bearbeiten. Nächster sinnvoller Input
+wäre ein konkret nachgewiesener neuer f67r2-Spektraldatensatz; ein solcher wird
+hier weder bestellt noch als verfügbar ausgegeben. Die NVA002-Metadaten sind
+historisch gespeichert und wurden jetzt nicht online aktualisiert.
+Schreibzuständigkeit nach diesem begrenzten Check an root zurückgegeben.
