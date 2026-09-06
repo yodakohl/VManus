@@ -1608,3 +1608,48 @@ generic upper-crease candidates rejected. No B, transformation or target
 counterpart comparison; no conclusion about show-through. Primary:
 `experiments/yolo/gdt862_f104_material_landmark_mirror_screen/REPORT.md`.
 Do not relax the landmark requirement or switch folios after this stop.
+
+
+### Nach862: Sechserbatch und eine andere konkrete Textfrage
+
+IP027/029/030/032/034/035 anhand ihrer Queueverträge gemeinsam geprüft:
+**kein ausführbarer neuer Kontrast**. Die ersten drei benötigen unverändert
+unabhängige Teil-/Wertrelationen,032/034 keine gelockerte Parallelstellen- oder
+Blattanschlusssuche,035 ein tatsächlich sichtbares Feldpaar. Der gezielte
+[GDT769-Bericht](../experiments/yolo/gdt769_liquid_process_role_identity_dispatch/REPORT.md)
+liefert hierfür nur Arbeitsrollen und gerenderte Zeilen, keinen neuen
+layoutgebundenen Volltextkontrast. Route-check `record fields reordered whole
+line repeated motif table`. Keine weitere serielle Vorgängerkettenprüfung.
+
+**Neue source-driven Frage, noch kein gewählter Versuch:** Ist nacktes `qo`
+ein obligatorisch vorweg wiederholter Anfang der unmittelbar folgenden Gruppe?
+Der direkte [GDT611-Bericht](../experiments/yolo/gdt611_lexical_slot_permutation_audit/REPORT.md),
+Abschnitt „Konkreter held-Absatz“, veröffentlicht vollständig:
+
+```text
+f111v.21 sair air ain qol rar ain cheey lkeey lkain cheokain sheo qo qokain chear alam
+```
+
+Das tatsächliche Paar ist `qo qokain`. Keine All-reader- oder native
+Grenzbestätigung wird dieser Prosaquelle hinzugefügt. Ein eng festgelegter
+Antizipations-/Neustartmechanismus verlangt für **jedes** definite nackte `qo`
+eine sofort folgende vollständige Gruppe mit demselben Anfang `qo`, ohne
+übersprungene Wörter. Eine eigenständige Funktionsform verlangt diese exakte
+Anfangswiederholung nicht. Kleinster aussagekräftiger Test nach eigenem Freeze:
+nur nacktes `qo` und seinen unmittelbaren Nachfolger an sicheren Binnenabständen
+im vorhandenen179-Selektoren-Cache betrachten; ein all-reader-sicherer
+Nicht-`qo`-Anfang widerlegt die universelle Echo-Regel. Keine Gegenbelege würden
+sie nur vereinbar machen, nicht Funktion, Neustart oder Schreibfehler beweisen.
+5min Gesamtbudget einschließlich Vorbereitung und Bericht; kein Kontextfit,
+keine Wortbedeutung, keine Erweiterung auf andere Präfixe nach Ergebnis.
+
+Route-check `naked qo qokain false start prefix restart standalone` und gezielter
+GDT660-Primärscreen ergaben hier keinen genauen Vorgängervertrag;660 behandelt
+`qodain` und andere Komplettformen, nicht diesen Echozwang. Das ist ein
+begrenzter Screen, keine vollständige Neuheitsbehauptung. IL026 bleibt zu:
+keine Trigrammstatistik, keine Nullkalibrierung oder versteckte Zustände.
+Die Beobachtung erlaubt optional auch ein fehlgeschriebenes Einzelvorkommen;
+der Vertrag entscheidet ausdrücklich nur die universelle Erklärung aller
+nackten `qo`, nicht jede mögliche Wiederansetzung. Keine Datenabfrage oder
+neue ID; Quellenstatus `CONCRETE_QUESTION_FOR_ROOT_REVIEW`.
+Schreibzuständigkeit zurück bei root.

@@ -265,3 +265,13 @@ candidates retained. No B, fittedmapping orf104v27targetcomparison. Original
 metadata/record validation and replayPASS; publicfreeze3202845d beforeviews.
 IP053closedunderthiscontract; no show-through ormeaning conclusion.
 Publication within08:35:24budget underway; activegoal remainsuntil13:40:45UTC.
+
+08:36:23UTC GDT863 decision: published611f111v21 contains qo qokain.
+Strict immediate-prefix-echo hypothesis for every safely separated standalone
+qo requires the following complete same-line group to startqo. Fixed179safe
+851caches,3readings,Ponly; everyexactqo recorded withfullsourcecontext.
+Eligibility preserves definiteinternal/outerboundaries andplainASCII follower;
+all3same(locus,index,rawfollower) nonqo is a hardconditionalcounterexample.
+No counterexample is onlycompatibility, not evidenceoffunction orrestart.
+No images/model/null/otherprefix rescue. Duplicate-screenboundednoexactold
+contractfound; eightmin total08:36:23→08:44:23, publicfreeze beforecensus.

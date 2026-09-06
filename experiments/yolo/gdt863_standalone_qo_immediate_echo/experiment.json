@@ -1,0 +1,114 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Literal immediate-echo contract only; no general false-start, semantic, physical boundary or pen-motion claim",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt863_standalone_qo_immediate_echo/src/run.py",
+    "validate": "python3 experiments/yolo/gdt863_standalone_qo_immediate_echo/src/validate.py"
+  },
+  "created": "2026-09-06",
+  "dependencies": [
+    "GDT851"
+  ],
+  "experiment_id": "GDT863",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt851_primitive_tandem_raw_group_discovery/src/SPEC.json",
+      "role": "frozen_source_or_extractor",
+      "sha256": "192674c513a6b633f88a5bdd4d4394bf5463139d062a1ae19abc167d2007a241"
+    },
+    {
+      "path": "experiments/yolo/gdt851_primitive_tandem_raw_group_discovery/artifacts/SOURCE_ZL3b.json",
+      "role": "frozen_source_or_extractor",
+      "sha256": "73d3a80095d76876da91e67a6c9bd0d46284fdfe62250fccfb7d9dee3c038329"
+    },
+    {
+      "path": "experiments/yolo/gdt851_primitive_tandem_raw_group_discovery/artifacts/SOURCE_IT2a.json",
+      "role": "frozen_source_or_extractor",
+      "sha256": "333a76f0f8ec4904accf8f56cd947cb81cc6a05e2a53b1de3674659a04c83e03"
+    },
+    {
+      "path": "experiments/yolo/gdt851_primitive_tandem_raw_group_discovery/artifacts/SOURCE_RF1b.json",
+      "role": "frozen_source_or_extractor",
+      "sha256": "e9998f013dd1ae4608a13bc4e67bea1f9bfb3859cb4f4b60b84c404b2c7e0101"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt863_standalone_qo_immediate_echo/.gitignore",
+      "role": "source_or_artifact",
+      "sha256": "429a7ff8e3befe5ac528bb832881840115d63940883b125526b582eedcdcb7a9"
+    },
+    {
+      "path": "experiments/yolo/gdt863_standalone_qo_immediate_echo/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "0467a3928eaed83d48dab62f92943d79dc38f8ec14c76e688140bb948d075d61"
+    },
+    {
+      "path": "experiments/yolo/gdt863_standalone_qo_immediate_echo/PREREGISTRATION.md",
+      "role": "source_or_artifact",
+      "sha256": "56096ef03085826184646ea29811564f9811fe326007a998d19e3ce9d5a54ab7"
+    },
+    {
+      "path": "experiments/yolo/gdt863_standalone_qo_immediate_echo/README.md",
+      "role": "source_or_artifact",
+      "sha256": "1dd8cfe3265c2b1949894e5c7f418cd1db597c6ead59820c78274c7e62b05ae7"
+    },
+    {
+      "path": "experiments/yolo/gdt863_standalone_qo_immediate_echo/REPORT.md",
+      "role": "primary_report",
+      "sha256": "b95f047d45b9be74a2b94c65dbe7b0f1b1629830fa92d994b4df6c9344ad5e33"
+    },
+    {
+      "path": "experiments/yolo/gdt863_standalone_qo_immediate_echo/artifacts/CONTROLS.json",
+      "role": "source_or_artifact",
+      "sha256": "423b0a945a73ecb5ab748c7c796af9328a4639bf6921af982e71ad00924f46e9"
+    },
+    {
+      "path": "experiments/yolo/gdt863_standalone_qo_immediate_echo/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "e5457202d829fc1c4e1f7bf672df0efece5d91deac33cd09c3c83669cc0a1ead"
+    },
+    {
+      "path": "experiments/yolo/gdt863_standalone_qo_immediate_echo/src/PREREG_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "daed78e9c167c9468ff21e8b34d8bc32a92736ba3950f575e553cfa800e49f87"
+    },
+    {
+      "path": "experiments/yolo/gdt863_standalone_qo_immediate_echo/src/SPEC.json",
+      "role": "source_or_artifact",
+      "sha256": "feca17be7f58f65d3898a2ea3f19e50b8e211fc62f1f6fc3c787159e0f8b921f"
+    },
+    {
+      "path": "experiments/yolo/gdt863_standalone_qo_immediate_echo/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "2ff9befa21f4fad0838422ff9a43742a158860dbe8e3ddb15ea2c79c7274e83b"
+    },
+    {
+      "path": "experiments/yolo/gdt863_standalone_qo_immediate_echo/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "1c0799f77d4966e37499a88724e01fe53b1bec1dbf8d91c313e0be6444f0d182"
+    },
+    {
+      "path": "experiments/yolo/gdt863_standalone_qo_immediate_echo/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "45dfd7a4005a39d300ce65deb25deca6afb967c7c506d0536f86bfb85ec595cd"
+    }
+  ],
+  "question": "Does every eligible raw standalone qo immediately precede a qo-initial complete raw follower under strict three-reading concordance?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "standalone_qo_immediate_echo",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Standalone qo strict immediate echo",
+  "updated": "2026-09-06",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}
