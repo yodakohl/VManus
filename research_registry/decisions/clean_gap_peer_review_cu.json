@@ -1,0 +1,98 @@
+{
+  "review_id": "CLEAN_GAP_PEER_REVIEW_CU",
+  "status": "APPROVE_SOURCE_BOUND_RECOVERY_NO_OPERATIONAL_CHANGE",
+  "reviewed_inputs": {
+    "semantic_scope_resolution_cu.json": "88cb0187b6f5fde78788768dce8ead577e53b8dc258278b972a27f988e8e1f5e",
+    "clean_gap_review_cu.json": "9d4bc14108395f69282c818df79a7c796962a77c77711ba69155d0747daef92d"
+  },
+  "cards": [
+    {
+      "id": "CLEAN_GAP_CU:pass222_shared_prescribed_value",
+      "decision": "approve",
+      "reason": "The full nine-line primary report explicitly proposes this symmetric-construction reading, names both local portion/setting/degree possibilities, rejects lexical AIIN=gleich, and leaves complete-statement/owner interpretation to a next step. The draft preserves all of these qualifications. This is an additional historical source realization, not evidence that an equality hypothesis was independently confirmed.",
+      "required_fixes": [],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_real_window_phrasebook_two_hundred_twenty_second/TWO_HUNDRED_TWENTY_SECOND_REPORT.md",
+          "line": 1,
+          "line_end": 9,
+          "quote": "# Zweihundertzweiundzwanzigster Durchgang: reale Satzminiaturen\n\nAlle echten Drei- bis Fünfkartenfenster der 116 Aussagen wurden auf die zehn gemeinsamen Achsen reduziert. Über verschiedene Aussagen wiederholen sich genau sechs Dreikartenmuster; kein Vier- oder Fünfkartenmuster wiederholt sich exakt.\n\nFünf Muster sind lehrbare Grammatikrahmen, deren lokale Kartenwerte wechseln: Einsatz–Fortsetzung–Schluss, Ziel–Fortsetzung, Sollwert–Transfer und verwandte Referenzrahmen. Ein Muster ist konkreter: `Y–AIIN–Y` erscheint zweimal und liest sich an beiden Stellen genau `dies – Sollwert – dies`.\n\nDie vorläufige inhaltliche Lesung lautet: **zwei bezeichnete Posten stehen unter demselben vorgeschriebenen Wert**. Das kann in einem Pflanzenartikel gleiche Portion, in einer Station gleiche Einstellung oder denselben Grad bedeuten. Es macht aus `AIIN` aber noch nicht das Wort „gleich“; die Gleichheit entsteht aus der symmetrischen Rahmenform.\n\nAls nächstes werden beide vollständigen Aussagen mit `Y–AIIN–Y` sowie ihre unmittelbar benachbarten Felder als zwei konkrete Arbeitsanweisungen neu übersetzt. Danach wird geprüft, ob die gleiche Lesung die jeweiligen Besitzerbilder sinnvoll verbindet.",
+          "sha256": "87aa542890ff8f43eb9be817a5590062b4facd6d2a36c34492a2b4464373caf1"
+        }
+      ]
+    }
+  ],
+  "source_decisions": [
+    {
+      "source_id": "LEGACY_COMPONENT:641f62e37f21dd83f786",
+      "selection_index": 23,
+      "decision": "approve_reassessment",
+      "reason": "CO line7 did contain a real semantic proposal. The previous counterparts preserve closely related abstract constructions but did not preserve this Pass222 historical source case. CU appends the specific realization without erasing the original intake or inventing a new independent mechanism.",
+      "intake_policy": "Keep original dispositions unchanged; append this source_reassessment only."
+    }
+  ],
+  "counterpart_bindings": [
+    {
+      "id": "SEM:58bb13996a84e7fb0b92",
+      "card_basis": "4ac566effe93e216b98bec0c1df6a4ac306991d3b5b937ad355f8084fc6f81f9",
+      "effective_basis": "ba4e7f3d07a440108ff3fb24c3d10dbce1b28e5edb2272c9bb31562ed9913ce7",
+      "claim": "Y–AIIN–Y applies one equal measure or state to two coordinated operands."
+    },
+    {
+      "id": "SEM:30bc11e49e881099a1ba",
+      "card_basis": "3db80627604e396073738ad369872ba6dc5e5686c6d4bb407ddde261c3af9d6b",
+      "effective_basis": "214275b32583f4dee3a699429bdea7b937cb255c934e5205f26fc1495f966a64",
+      "claim": "Y–AIIN–Y is a paired-slot parameter construction; equality is only one possible expansion."
+    },
+    {
+      "id": "SEM:590630fb25f6bff8a2c1",
+      "card_basis": "3e566b809683a61531526d0f2623c37f1b49d4b0823e953d138f3f523282dc86",
+      "effective_basis": "5f9710eec5d38a288681dc8d9d4833d904ea7219a3699ba565fa64c166936d7c",
+      "claim": "Pass122 interprets the section-independent 17-card deck as a compressed formulary stack: next/previous preparation → action → item/preparation/part → source → measure → target → state/result → continuation/closure. Adjacent places can fuse in one card, while Y–AIIN–Y and OL–(OL+OR)–OL override linear order by binding the same measure to two items and bracketing the previous preparation with continuation, respectively."
+    },
+    {
+      "id": "SEM:a9285a5ab323d4b08d3d",
+      "card_basis": "96bdecd49d770ba4d142ede3eb96ef523de11f28d0877ce415281244170b5ba7",
+      "effective_basis": "ca5cfcccd3330ca6595eaa714c2440e8f7555b2af6a71f915819912aba4fdc23",
+      "claim": "Y–AIIN–Y → both portions by the same stated standard"
+    }
+  ],
+  "scope_checks": [
+    {
+      "comparison": "V12 equal value",
+      "decision": "no_equivalence_or_gate_satisfaction_inferred",
+      "reason": "R2 requires independent coordinated operands, R3 independent symmetric operands before card inspection, and R4 an independently established difference-sensitive consequence. Pass222 supplies an authored tentative interpretation and proposed later checks; two repeated windows are not those bindings."
+    },
+    {
+      "comparison": "V2 paired parameter",
+      "decision": "related_not_identified",
+      "reason": "V2 keeps a lower-confidence paired-parameter construction and notes an extra preceding Y; equality is optional. CU selects a local shared-value realization provisionally. Neither whole contract entails equality of the two registry propositions."
+    },
+    {
+      "comparison": "Pass122 formulary stack",
+      "decision": "partial_overlap_not_full_model_identity",
+      "reason": "Pass122 includes the same-measure relation within a larger 17-card stack and an OL frame. CU neither reconstructs nor equates that complete architecture."
+    },
+    {
+      "comparison": "V16 same stated standard",
+      "decision": "related_historical_reading_no_domain_bridge",
+      "reason": "V16 is an explicitly abductive selected-default lexicon. Its both-portions phrasing is close to the plant realization but does not by itself establish identical two-window units or the station setting/degree scope."
+    }
+  ],
+  "validation": {
+    "status": "PASS",
+    "draft_cards": 1,
+    "source_reassessments": 1,
+    "current_counterparts_bound": 4,
+    "exact_quote_hash_checks": 15,
+    "unique_public_sources_verified": 8,
+    "full_primary_report_lines": 9,
+    "validate_card": "PASS"
+  },
+  "limits": [
+    "No primary glyph, image, raw transcription or manuscript census was reopened.",
+    "No operational identity, failure-memory, card or source changes.",
+    "Different evidential gates alone are not proof that abstract meanings differ; full contract equivalence remains undecided.",
+    "Existing equality hypotheses retain their failures and reopening conditions."
+  ]
+}

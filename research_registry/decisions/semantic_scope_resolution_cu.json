@@ -1,0 +1,94 @@
+{
+  "review_id": "CU",
+  "status": "COMPLETE_BOUNDED_SOURCE_CASE_RESOLUTION",
+  "corrects": {
+    "file": "research_registry/decisions/source_coverage_scope_batch_co.json",
+    "selection_index": 23,
+    "source_id": "LEGACY_COMPONENT:641f62e37f21dd83f786",
+    "prior_decision": "existing_full_relation",
+    "replacement": {
+      "source_id": "LEGACY_COMPONENT:641f62e37f21dd83f786",
+      "decision": "additional_source_bound_provisional_realization",
+      "card_ids": [
+        "CLEAN_GAP_CU:pass222_shared_prescribed_value"
+      ],
+      "reason": "Resolves CO#23 scope: concrete Pass222 realization is preserved while existing equality hypotheses and their unmet gates remain separate.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_real_window_phrasebook_two_hundred_twenty_second/TWO_HUNDRED_TWENTY_SECOND_REPORT.md",
+          "line": 5,
+          "line_end": 9,
+          "quote": "Fünf Muster sind lehrbare Grammatikrahmen, deren lokale Kartenwerte wechseln: Einsatz–Fortsetzung–Schluss, Ziel–Fortsetzung, Sollwert–Transfer und verwandte Referenzrahmen. Ein Muster ist konkreter: `Y–AIIN–Y` erscheint zweimal und liest sich an beiden Stellen genau `dies – Sollwert – dies`.\n\nDie vorläufige inhaltliche Lesung lautet: **zwei bezeichnete Posten stehen unter demselben vorgeschriebenen Wert**. Das kann in einem Pflanzenartikel gleiche Portion, in einer Station gleiche Einstellung oder denselben Grad bedeuten. Es macht aus `AIIN` aber noch nicht das Wort „gleich“; die Gleichheit entsteht aus der symmetrischen Rahmenform.\n\nAls nächstes werden beide vollständigen Aussagen mit `Y–AIIN–Y` sowie ihre unmittelbar benachbarten Felder als zwei konkrete Arbeitsanweisungen neu übersetzt. Danach wird geprüft, ob die gleiche Lesung die jeweiligen Besitzerbilder sinnvoll verbindet.",
+          "sha256": "87aa542890ff8f43eb9be817a5590062b4facd6d2a36c34492a2b4464373caf1"
+        }
+      ]
+    }
+  },
+  "source_proposition": "Pass222 provisionally reads its two Y–AIIN–Y windows as dies – Sollwert – dies: two denoted items stand under the same prescribed value. In its proposed local realizations this can mean equal portions in a plant article, or the same setting or degree at a station. The shared-value reading belongs to the symmetric construction, not a lexical AIIN=gleich assignment. The report still proposes subsequent full-statement and owner-context checks; it does not establish independent operands or satisfy an earlier equality falsifier.",
+  "counterpart_bindings": [
+    {
+      "id": "SEM:58bb13996a84e7fb0b92",
+      "card_basis": "4ac566effe93e216b98bec0c1df6a4ac306991d3b5b937ad355f8084fc6f81f9",
+      "effective_basis": "ba4e7f3d07a440108ff3fb24c3d10dbce1b28e5edb2272c9bb31562ed9913ce7",
+      "claim": "Y–AIIN–Y applies one equal measure or state to two coordinated operands."
+    },
+    {
+      "id": "SEM:30bc11e49e881099a1ba",
+      "card_basis": "3db80627604e396073738ad369872ba6dc5e5686c6d4bb407ddde261c3af9d6b",
+      "effective_basis": "214275b32583f4dee3a699429bdea7b937cb255c934e5205f26fc1495f966a64",
+      "claim": "Y–AIIN–Y is a paired-slot parameter construction; equality is only one possible expansion."
+    },
+    {
+      "id": "SEM:590630fb25f6bff8a2c1",
+      "card_basis": "3e566b809683a61531526d0f2623c37f1b49d4b0823e953d138f3f523282dc86",
+      "effective_basis": "5f9710eec5d38a288681dc8d9d4833d904ea7219a3699ba565fa64c166936d7c",
+      "claim": "Pass122 interprets the section-independent 17-card deck as a compressed formulary stack: next/previous preparation → action → item/preparation/part → source → measure → target → state/result → continuation/closure. Adjacent places can fuse in one card, while Y–AIIN–Y and OL–(OL+OR)–OL override linear order by binding the same measure to two items and bracketing the previous preparation with continuation, respectively."
+    },
+    {
+      "id": "SEM:a9285a5ab323d4b08d3d",
+      "card_basis": "96bdecd49d770ba4d142ede3eb96ef523de11f28d0877ce415281244170b5ba7",
+      "effective_basis": "ca5cfcccd3330ca6595eaa714c2440e8f7555b2af6a71f915819912aba4fdc23",
+      "claim": "Y–AIIN–Y → both portions by the same stated standard"
+    }
+  ],
+  "contract_comparison": {
+    "Pass222": "Provisional symmetric-frame shared prescribed value; local portion/setting/degree realizations; subsequent whole-statement and owner checks still proposed.",
+    "V12": "Requires independently established coordinated/symmetric operands; repeated Y and authored reading do not meet this requirement.",
+    "V2": "Equality is a low-confidence expansion of a paired parameter frame, not an established equality formula.",
+    "Pass122_V16": "Related same-measure/same-standard constructions exist. Their presence prevents independent-novelty claims but does not supply the missing Pass222 historical evidence case.",
+    "decision": "Keep related historical cases distinct until a scoped identity audit establishes common contract; do not modify previous failure or reopening conditions.",
+    "evidence": [
+      {
+        "path": "experiments/yolo/sidequest_theory_candidates_v12/CANDIDATE_V12_R2_HERBAL_SCRIBE.md",
+        "line": 307,
+        "line_end": 310,
+        "quote": "1. **Equal-value falsifier/winner:** within the fixed pages, independently\n   identify two coordinated ingredient/value operands around Y–AIIN–Y and show\n   the same explicit measure or state applies to both. Without both operands,\n   equality remains barred.",
+        "sha256": "8acb21cee6de1197902cdc489df10bda108945f614ee5f5fd58af9a7a7b85c44"
+      },
+      {
+        "path": "experiments/yolo/sidequest_theory_candidates_v12/CANDIDATE_V12_R3_TECHNICAL_NOTATION.md",
+        "line": 422,
+        "line_end": 424,
+        "quote": "2. **Gleichwertiges Paar:** Zwei unabhängig erkennbare und symmetrische\n   Operanden müssen vor Betrachtung der Karten feststehen. Fehlt einer, darf\n   `PAIRED_EQUAL_VALUE` nicht reaktiviert werden.",
+        "sha256": "02a991c35d5a22d3b10ac4dd73a0653272f439e68e374b8a9c9f93897c2dd4fe"
+      },
+      {
+        "path": "experiments/yolo/sidequest_theory_candidates_v2/CANDIDATE_V2_CROSS_PAGE_COHERENCE.md",
+        "line": 55,
+        "line_end": 57,
+        "quote": "4. `Y–AIIN–Y` is retained as a **paired-slot parameter construction**, but\n   “equal quantity” is only one low-confidence expansion. The Herbal occurrence\n   has an extra preceding Y, so a simple binary equality formula is not forced.",
+        "sha256": "5836bee102dd8d659167e589b6a65c0186971f213a3cc61e08fe3cdbdc221d6e"
+      }
+    ]
+  },
+  "validation": {
+    "known_source_id": "LEGACY_COMPONENT:641f62e37f21dd83f786",
+    "validate_card": "PASS",
+    "source_sha256": "87aa542890ff8f43eb9be817a5590062b4facd6d2a36c34492a2b4464373caf1",
+    "exact_evidence": true
+  },
+  "limits": [
+    "No semantic success, manuscript observation, raw-data access or operational mutation.",
+    "Reported two windows and local readings are source assertions, not an independently repeated census."
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "review_id": "CLEAN_GAP_PEER_REVIEW_CP",
+  "input": {
+    "path": "research_registry/decisions/clean_gap_review_cp.json",
+    "sha256": "24f22e93a158a61e074ee8d8228d39dbc2e0b62d9c81daed28d6c1f333029b16"
+  },
+  "card_reviews": [
+    {
+      "card_id": "CLEAN_GAP_CP:carrier_control_composition",
+      "decision": "approve",
+      "claim_type": "semantic_model",
+      "reason": "GDT559 8–33 and104–121 state the complete six-wrapper/seven-contribution contract. The four short carrier values and OT/OL/DY controls remain distinct; longer phrases are composition rather than AIIN whole-word definitions. Existing action/argument memory is related but does not itself assert this exact control-versus-value partition. All readout and carry success is model-relative.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt559_argument_carrier_substitution_grammar/REPORT.md",
+          "line": 8,
+          "line_end": 33,
+          "quote": "Die vier bisherigen Einwortwerte bleiben kurz:\n\n```text\nY     POSTEN\nAIIN  WERT\nAIN   ANTEIL\nOR    EINHEIT\n```\n\nNeu ist nicht ein längeres Wörterbuch, sondern ihre gemeinsame Grammatik.\nUnter den1,656 Zustandskarten tragen382 Karten insgesamt390 dieser\nArgumentstellen. Alle fallen in nur sechs sichtbare `OT/OL/DY`-Hüllen und alle\nerhalten eine kompositionelle Standardlesung.\n\n| Hülle | Stellen | kurze Lesung |\n|---|---:|---|\n| `OT>A<END` | 185 | `DANACH · ARG` |\n| `OL>A<END` | 156 | `FORTSETZEN · ARG` |\n| `START>A<DY` | 31 | `ARG · ABSCHLIESSEN` |\n| `START>A<OL` | 16 | `ARG · FORTSETZEN` |\n| `OT>A<OL` | 1 | `DANACH · ARG · FORTSETZEN` |\n| `OL>A<OL` | 1 | `FORTSETZEN · ARG · FORTSETZEN` |\n\nDamit ist ein Stamm weiterhin nur ein kurzer Wert. Eine längere Form wie\n`OT+AIIN` bedeutet nicht, dass AIIN nun „den nächsten Wert als Träger eröffnen“\nheißen muss. Sie setzt sich aus `OT=DANACH/ERÖFFNEN` und `AIIN=WERT` zusammen.",
+          "sha256": "c1f3518d7996c041335ed1abac9899e53079de22ed0f6321065c8f7442559bc4"
+        },
+        {
+          "path": "experiments/yolo/gdt559_argument_carrier_substitution_grammar/REPORT.md",
+          "line": 104,
+          "line_end": 121,
+          "quote": "## Was sich an der Arbeitstheorie ändert\n\nDie bisherige Liste wird präziser, ohne länger zu werden:\n\n```text\nOT  eröffnet/verschiebt den nächsten Träger\nOL  hält den aktuellen Träger aktiv\nDY  schließt den aktuellen Schritt\n\nY     setzt den Trägerwert POSTEN\nAIIN  setzt den Trägerwert WERT\nAIN   setzt den Trägerwert ANTEIL\nOR    setzt den Trägerwert EINHEIT\n```\n\nDie Bedeutung einer längeren Sequenz entsteht aus diesen kurzen Einträgen und\nder geschriebenen Reihenfolge. Das vollständige Trägerbuch gibt allen390\nStellen und allen24 beobachteten Steuerfolgen eine Defaultlesung.",
+          "sha256": "c1f3518d7996c041335ed1abac9899e53079de22ed0f6321065c8f7442559bc4"
+        }
+      ],
+      "source_scope_checked": true
+    },
+    {
+      "card_id": "CLEAN_GAP_CP:ordered_state_composition",
+      "decision": "approve",
+      "claim_type": "semantic_model",
+      "reason": "All three opposed GDT561 readings and both GDT563 extended examples match exactly. The adjacent-versus-interrupted repeated-action distinction belongs to the fluent voice; twice is not a proposed manuscript numeral. This is one historical order-sensitive composition model with five retained examples, not five new mechanisms or proof of source-language word order. The Pass1021 repeated-core rule is not a full counterpart to these contrasts.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt561_typed_state_card_composition_reader/REPORT.md",
+          "line": 111,
+          "line_end": 131,
+          "quote": "## Reihenfolge ist ein eigener Bedeutungsträger\n\nDie402 Rezepte bilden383 ungeordnete Atommengen. In18 dieser Mengen kommen\nmehrere Reihenfolgen vor:37 Rezepte mit zusammen102 Karten. Drei klare Paare\nsind:\n\n```text\nOL+Y     weiter; den Posten\nY+OL     den Posten; weiter\n\nAL+OL    zum Zielort; weiter\nOL+AL    weiter; zum Zielort\n\nCH+OT+Y  nehmen; danach; den Posten\nOT+CH+Y  danach; nehmen; den Posten\n```\n\nDarum ist weder `shey` noch irgendeine andere Oberfläche automatisch ein\nunteilbares Wort; aber auch ein ermitteltes Compound darf nicht auf eine\nungeordnete Tüte von Stämmen reduziert werden. Stammwert und Stellung leisten\nunterschiedliche Arbeit.",
+          "sha256": "6d370d4dfe53ca3ba5fc00061ae5abb26a80e5cf23d39fc4684ff83bd58491e6"
+        },
+        {
+          "path": "experiments/yolo/gdt563_complete_state_microphrase_edition/REPORT.md",
+          "line": 74,
+          "line_end": 88,
+          "quote": "## Reihenfolge bleibt Bedeutung\n\nNeun Zustandsfolgen sind belegt. Die seltenen Gegenrichtungen werden nicht\nzusammengelegt:\n\n```text\nR+OL+OT+Y   Weiter: markiere den Posten; danach nächsten Gang eröffnen.\nOK+EE+DY+OL Setze den Wert; auf Grad II; abschließen; danach weiterführen.\n```\n\nAuch Wiederholung wird nur dort geglättet, wo sie sichtbar unmittelbar ist.\nSechzehn Karten wiederholen einen Handlungsroot. Sieben direkte Doppelungen\nwerden als „zweimal“ ausgesprochen; neun durch Grad, Argument oder Steueratom\ngetrennte Wiederholungen bleiben als zwei Handlungsslots expandiert. Der\nflüssige Satz darf die Schriftstruktur also vereinfachen, aber nie verbergen.",
+          "sha256": "35389053dc413e135807f2de6e455ca98ed931371ad9ab34bd6ddc8abf2d254f"
+        }
+      ],
+      "source_scope_checked": true
+    },
+    {
+      "card_id": "CLEAN_GAP_CP:register_action_realization",
+      "decision": "approve",
+      "claim_type": "semantic_model",
+      "reason": "GDT568 expressly separates nine unchanged broad roots, twenty learned register frames and thirty-nine other voice cards. K mapping Text/Celestial→zuordnen, Herbal/Pharma→zugeben, stations→zuführen is source exact. The owner-controlled realization is inherited editorial context; improved adapter agreement does not independently validate GEBEN or identify three different K lexemes.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt568_twenty_owner_action_voice_frames/REPORT.md",
+          "line": 8,
+          "line_end": 29,
+          "quote": "Die neun Handlungswurzeln bleiben unverändert. Ihre bereits in GDT415 und\nGDT498 vorhandenen 45 Registerzellen brauchen aber nicht 45 unabhängige\nGanzphrasen: Sie lassen sich als 20 kleine Verbrahmen schreiben.\n\n| Wurzel | breiter Arbeitswert | verschiedene Rahmen | ownergebundene Realisierungen |\n|---|---|---:|---|\n| OK | SETZEN | 5 | `trage … ein`; `setze … im Arbeitsgang an`; `setze …`; `setze … im Stationsgang an`; `setze … als Ansatz an` |\n| CH | NEHMEN | 3 | `entnimm …`; `nimm …`; `nimm … auf` |\n| SH | HALTEN | 2 | `halte … fest`; `halte …` |\n| K | GEBEN | 3 | `ordne … zu`; `gib … zu`; `führe … zu` |\n| S | WÄHLEN | 1 | `wähle …` |\n| CHD | BEARBEITEN | 1 | `bearbeite …` |\n| T | EINSTELLEN | 2 | `lege … fest`; `stelle … ein` |\n| R | MARKIEREN | 2 | `kennzeichne …`; `markiere …` |\n| P | EINSETZEN | 1 | `setze … ein` |\n\nDas ist ein brauchbares Modell für die gesuchte Mischung: Die kurze Wurzel\nträgt einen breiten, wiederverwendbaren Handlungskern; das Register wählt den\ngelernten Fachrahmen. `K` muss deshalb nicht plötzlich drei verschiedene\nWörterbuchbedeutungen erhalten. `GEBEN` bleibt die gemeinsame Arbeitsbedeutung,\nwährend Text/Himmel `zuordnen`, Pflanzen/Pharma `zugeben` und Stationen\n`zuführen` als konkrete Lesestimmen benutzen.",
+          "sha256": "3118c040bd1ee1746c2f9ea1ee58a1c500310a83702571f5a8c12f01d5f75804"
+        },
+        {
+          "path": "experiments/yolo/gdt568_twenty_owner_action_voice_frames/REPORT.md",
+          "line": 85,
+          "line_end": 95,
+          "quote": "## Was jetzt als Arbeitstheorie steht\n\nDie aktuelle deutsche Leseschicht benötigt für Handlungen keine Sammlung langer\nWörterbuchdefinitionen. Sie benötigt neun breite Aktionswerte plus 20 kurze,\nregistergebundene Verbrahmen. Zusammen mit GDT567s 39 Argument-, Relations-,\nOrts- und Abschlusskarten ergibt das eine kleine Kompositionssprache, die die\ngesamte 30-Seiten-Ausgabe erreicht.\n\nDas ist eine konkrete Verbesserung der Arbeitsübersetzung, keine neue\nEntzifferungsbehauptung. Geschriebene Atome, Rezepte, Grenzen, Seiten und die\nneun Wurzelwerte bleiben unangetastet. Die 49 unabhängigen Prüfungen bestehen.",
+          "sha256": "3118c040bd1ee1746c2f9ea1ee58a1c500310a83702571f5a8c12f01d5f75804"
+        }
+      ],
+      "source_scope_checked": true
+    }
+  ],
+  "source_disposition_reviews": [
+    {
+      "source_id": "LEGACY_COMPONENT:9eee170995f9060758bb",
+      "selection_index": 0,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "method",
+      "reason": "Two-route surface analogy and stored renderer mechanism, not an additional content meaning; failures and future route remain engineering scope.",
+      "limit": "Selected span only; no automatic source-case addition or global source completion."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:f4abe7d705123e9a85ef",
+      "selection_index": 1,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "method",
+      "reason": "German pronoun and coordination rendering removes artificial long wording; explicit no new root or translation claim. No manuscript pronoun lexeme inferred.",
+      "limit": "Selected span only; no automatic source-case addition or global source completion."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:8bc4161b3b4c6ac66758",
+      "selection_index": 2,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "formal_renderer_constraint",
+      "reason": "Raw-adjacent action slots may be voiced zweimal; an already described adjacency ceiling, not a Voynich number or new content meaning. Related order-model card includes the GDT563 version; no new source-case equality claimed.",
+      "limit": "Selected span only; no automatic source-case addition or global source completion."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:f5791225fb008d6fe675",
+      "selection_index": 3,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "formal_renderer_constraint",
+      "reason": "Outer/inner German head factoring versus intervening material is a rendering constraint, explicitly not a new word or conjunction. Not audited as a fresh general manuscript scope law.",
+      "limit": "Selected span only; no automatic source-case addition or global source completion."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:1a3381d8ecab903f8f89",
+      "selection_index": 4,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "existing_full_proposition",
+      "reason": "Current SEM:2bd3a47d885a29e4bb5e explicitly states these three adjacent pairs, existing-head resumption, no owner invention or numeral requirement.",
+      "limit": "Selected span only; no automatic source-case addition or global source completion."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:980db83c321a554e7c05",
+      "selection_index": 5,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "formal_parse",
+      "reason": "Selection begins mid-sentence and concerns conditional written-tail rendering. It supplies no complete semantic reading for the two named forms.",
+      "limit": "Selected span only; no automatic source-case addition or global source completion."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:62b1b265156b55794bff",
+      "selection_index": 6,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "existing_full_proposition",
+      "reason": "SEM:498c72ec1472dba8cb80 contains the same intermediate learned-stem layer and suffix permission; no new historical codebook identification.",
+      "limit": "Selected span only; no automatic source-case addition or global source completion."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:3f62cd2d80b0e3c2945a",
+      "selection_index": 7,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "heading_status",
+      "reason": "Title and technical PASS status only.",
+      "limit": "Selected span only; no automatic source-case addition or global source completion."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:25e480c02186683c7136",
+      "selection_index": 8,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "result",
+      "reason": "Peer-support queue-count reduction and nonuniversal ceiling, not a concrete new meaning.",
+      "limit": "Selected span only; no automatic source-case addition or global source completion."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:4afca99ff9c103b086f2",
+      "selection_index": 9,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "heading_status",
+      "reason": "Title and template-audit status only.",
+      "limit": "Selected span only; no automatic source-case addition or global source completion."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:d376ba581fedbddb59cd",
+      "selection_index": 10,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "local_instance",
+      "reason": "The tshol→folchol→otor carry example instantiates the active-action/argument memory model SEM:ed1e21430d5b72c60dda; it does not assign a further word meaning. The exact source remains retained as an audited local example, not evidence silently added to that SEM.",
+      "limit": "Selected span only; no automatic source-case addition or global source completion."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:ae7e4d71ab529649b2e1",
+      "selection_index": 11,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "joint_source_scoped_proposition_recovered",
+      "reason": "Preserve the complete authored contract; shared components alone are not complete counterpart identity.",
+      "limit": "Selected span only; no automatic source-case addition or global source completion."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:98d598a9c0cd64498c6b",
+      "selection_index": 12,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "existing_full_proposition",
+      "reason": "SEM:6362bc5491efb662da6b explicitly states the four relation-role distinctions and their contextual rather than independent-syntax basis.",
+      "limit": "Selected span only; no automatic source-case addition or global source completion."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:4a844269be4ff76933d3",
+      "selection_index": 13,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "heading_status",
+      "reason": "Technical typed-card coverage title/status only.",
+      "limit": "Selected span only; no automatic source-case addition or global source completion."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:7d8759a9210494a7c327",
+      "selection_index": 14,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "joint_source_scoped_proposition_recovered",
+      "reason": "Preserve the complete authored contract; shared components alone are not complete counterpart identity.",
+      "limit": "Selected span only; no automatic source-case addition or global source completion."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:525867fa6bcad1d89524",
+      "selection_index": 15,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "model_support_and_provenance",
+      "reason": "Slot-origin and carry-distance counts support the already explicit memory/owner-default model SEM:ed1e21430d5b72c60dda. Missing old GDT416 event pointers remain a provenance limit, not invented evidence or a refuted meaning.",
+      "limit": "Selected span only; no automatic source-case addition or global source completion."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:75bd5878c7190cdb7de2",
+      "selection_index": 16,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "incomplete_introduction",
+      "reason": "Introductory OL sentence does not supply a new full realization; the substantive invariant meaning statement is audited separately at index17.",
+      "limit": "Selected span only; no automatic source-case addition or global source completion."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:965d864f527c3639f8ac",
+      "selection_index": 17,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "existing_model_consequence",
+      "reason": "Active action in sentence memory, OL only FORTSETZEN: fully covered by SEM:ed1e21430d5b72c60dda together with explicit same-OL contextual distinction SEM:c1df70f2e451790a95ef; holding/giving/taking are not new OL senses.",
+      "limit": "Selected span only; no automatic source-case addition or global source completion."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:a042f34d8982f60c82a3",
+      "selection_index": 18,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "heading_status",
+      "reason": "Microphrase PASS status only.",
+      "limit": "Selected span only; no automatic source-case addition or global source completion."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:631dc5723343f3b59e90",
+      "selection_index": 19,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "joint_source_scoped_proposition_recovered",
+      "reason": "Preserve the complete authored contract; shared components alone are not complete counterpart identity.",
+      "limit": "Selected span only; no automatic source-case addition or global source completion."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:a8ecbccf6a24a8e65ca3",
+      "selection_index": 20,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "existing_full_proposition",
+      "reason": "SEM:ed1e21430d5b72c60dda explicitly preserves written values, state-memory omissions and owner-filled noun, including rejection of artificially long word definitions.",
+      "limit": "Selected span only; no automatic source-case addition or global source completion."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:86987d3d9f0ef4dd22cf",
+      "selection_index": 21,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "existing_model_instance",
+      "reason": "The 33 OL variants instantiate the same two open action/argument memory slots; a renderer variant count is not 33 meanings. Primary51–70 inspected.",
+      "limit": "Selected span only; no automatic source-case addition or global source completion."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:81c1aab542833ad0be81",
+      "selection_index": 22,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "renderer_voice_instance",
+      "reason": "Generic versus owner-specific noun heads identify a voice seam, not a new lexical value or contradiction; inherited owner noun model already states that distinction.",
+      "limit": "Selected span only; no automatic source-case addition or global source completion."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:7842a0f6fab85ca15810",
+      "selection_index": 23,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "joint_source_scoped_proposition_recovered",
+      "reason": "Preserve the complete authored contract; shared components alone are not complete counterpart identity.",
+      "limit": "Selected span only; no automatic source-case addition or global source completion."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:b24f309ecebc6a9c52f1",
+      "selection_index": 24,
+      "decision": "approve_source_disposition",
+      "reviewed_disposition": "joint_source_scoped_proposition_recovered",
+      "reason": "Preserve the complete authored contract; shared components alone are not complete counterpart identity.",
+      "limit": "Selected span only; no automatic source-case addition or global source completion."
+    }
+  ],
+  "counts": {
+    "cards_reviewed": 3,
+    "approved": 3,
+    "dispositions_reviewed": 25,
+    "required_corrections": 0
+  },
+  "limits": [
+    "Carrier/state/register grammar is historical authored meaning machinery, not independent semantic evidence.",
+    "GDT416 missing source-event pointers remain a provenance limitation.",
+    "Counted actions, German pronouns and outer/inner voice adjustments do not become numeral/pronoun/conjunction translations.",
+    "No operative changes or raw manuscript/new experiment access."
+  ],
+  "validation": {
+    "all3cards_validated": true,
+    "all25disposition_quotes_and_hashes_validated": true,
+    "selected25_ids_exactly_match_reviewed25": true
+  },
+  "selection_input": {
+    "path": "research_registry/decisions/source_coverage_gap_batch_cp.json",
+    "sha256": "5ab4e4d3867968777d70b76cc45b4f78ae623893b4cfe58225efa35e9ecaf75b"
+  }
+}

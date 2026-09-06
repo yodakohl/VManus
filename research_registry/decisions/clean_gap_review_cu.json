@@ -1,0 +1,76 @@
+{
+  "review_id": "CU",
+  "cards": [
+    {
+      "id": "CLEAN_GAP_CU:pass222_shared_prescribed_value",
+      "claim": "Pass222 provisionally reads its two Y–AIIN–Y windows as dies – Sollwert – dies: two denoted items stand under the same prescribed value. In its proposed local realizations this can mean equal portions in a plant article, or the same setting or degree at a station. The shared-value reading belongs to the symmetric construction, not a lexical AIIN=gleich assignment. The report still proposes subsequent full-statement and owner-context checks; it does not establish independent operands or satisfy an earlier equality falsifier.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:641f62e37f21dd83f786"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_real_window_phrasebook_two_hundred_twenty_second/TWO_HUNDRED_TWENTY_SECOND_REPORT.md",
+          "line": 5,
+          "line_end": 9,
+          "quote": "Fünf Muster sind lehrbare Grammatikrahmen, deren lokale Kartenwerte wechseln: Einsatz–Fortsetzung–Schluss, Ziel–Fortsetzung, Sollwert–Transfer und verwandte Referenzrahmen. Ein Muster ist konkreter: `Y–AIIN–Y` erscheint zweimal und liest sich an beiden Stellen genau `dies – Sollwert – dies`.\n\nDie vorläufige inhaltliche Lesung lautet: **zwei bezeichnete Posten stehen unter demselben vorgeschriebenen Wert**. Das kann in einem Pflanzenartikel gleiche Portion, in einer Station gleiche Einstellung oder denselben Grad bedeuten. Es macht aus `AIIN` aber noch nicht das Wort „gleich“; die Gleichheit entsteht aus der symmetrischen Rahmenform.\n\nAls nächstes werden beide vollständigen Aussagen mit `Y–AIIN–Y` sowie ihre unmittelbar benachbarten Felder als zwei konkrete Arbeitsanweisungen neu übersetzt. Danach wird geprüft, ob die gleiche Lesung die jeweiligen Besitzerbilder sinnvoll verbindet.",
+          "sha256": "87aa542890ff8f43eb9be817a5590062b4facd6d2a36c34492a2b4464373caf1"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "independent_new_idea": false,
+      "scope": {
+        "kind": "source_bound_provisional_construction_reading",
+        "source_pass": 222,
+        "reported_cases": 2,
+        "local_expansions": [
+          "plant article: equal portion",
+          "station: same setting or degree"
+        ],
+        "status_limit": "Historical provisional reading; source proposes subsequent contextual assessment. No new manuscript observation or independent semantic binding.",
+        "contract_limit": "No automatic identity with V12 R2/R3/R4 equality contracts, no gate satisfaction and no free word-value export."
+      },
+      "coverage_class": "additional_historical_source_case_with_local_realizations",
+      "comparison": {
+        "related_ids": [
+          "SEM:58bb13996a84e7fb0b92",
+          "SEM:30bc11e49e881099a1ba",
+          "SEM:590630fb25f6bff8a2c1",
+          "SEM:a9285a5ab323d4b08d3d"
+        ],
+        "reason": "Existing claims retain equal-value, paired-parameter, same-measure and same-standard readings, but not this precise Pass222 source case with its local plant/station alternatives and still-prospective follow-up. Preserve it as a scoped historical realization rather than a new independent equality mechanism.",
+        "identity_status": "related_not_operatively_equated"
+      }
+    }
+  ],
+  "dispositions": [],
+  "source_reassessments": [
+    {
+      "source_id": "LEGACY_COMPONENT:641f62e37f21dd83f786",
+      "decision": "additional_source_bound_provisional_realization",
+      "card_ids": [
+        "CLEAN_GAP_CU:pass222_shared_prescribed_value"
+      ],
+      "reason": "Resolves CO#23 scope: concrete Pass222 realization is preserved while existing equality hypotheses and their unmet gates remain separate.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_real_window_phrasebook_two_hundred_twenty_second/TWO_HUNDRED_TWENTY_SECOND_REPORT.md",
+          "line": 5,
+          "line_end": 9,
+          "quote": "Fünf Muster sind lehrbare Grammatikrahmen, deren lokale Kartenwerte wechseln: Einsatz–Fortsetzung–Schluss, Ziel–Fortsetzung, Sollwert–Transfer und verwandte Referenzrahmen. Ein Muster ist konkreter: `Y–AIIN–Y` erscheint zweimal und liest sich an beiden Stellen genau `dies – Sollwert – dies`.\n\nDie vorläufige inhaltliche Lesung lautet: **zwei bezeichnete Posten stehen unter demselben vorgeschriebenen Wert**. Das kann in einem Pflanzenartikel gleiche Portion, in einer Station gleiche Einstellung oder denselben Grad bedeuten. Es macht aus `AIIN` aber noch nicht das Wort „gleich“; die Gleichheit entsteht aus der symmetrischen Rahmenform.\n\nAls nächstes werden beide vollständigen Aussagen mit `Y–AIIN–Y` sowie ihre unmittelbar benachbarten Felder als zwei konkrete Arbeitsanweisungen neu übersetzt. Danach wird geprüft, ob die gleiche Lesung die jeweiligen Besitzerbilder sinnvoll verbindet.",
+          "sha256": "87aa542890ff8f43eb9be817a5590062b4facd6d2a36c34492a2b4464373caf1"
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "source_ids": 1,
+    "source_case_cards": 1,
+    "independent_new_ideas_claimed": 0
+  },
+  "limits": [
+    "No semantic success, manuscript observation, raw-data access or operational mutation.",
+    "Reported two windows and local readings are source assertions, not an independently repeated census."
+  ]
+}

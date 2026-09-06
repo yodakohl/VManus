@@ -154,3 +154,21 @@ paragraph coverage coexists with CL ten-pair model; no source-form assignments
 were invented.22dossiers and9conditional questions validate unchanged.
 Next CO/CR bounded sibling reviews, CP middle report recovery and CQ identity
 pairs continue memory work; no experimental selection or semantic progress claim.
+
+CT source-reason decision: Pass278 and Pass1022 now have concrete revision
+cards but no scoped reason dossier. Read primary reports to distinguish a
+register abstraction or contextual-execution choice from an empirical rejection.
+Both outcomes change future duplicate/rerun routing; neither identifies meaning.
+Smallest adequate work is two source-bound dossiers and an independent review,
+with exact evidence and explicit limits on prospective reopening conditions.
+Budget20minutes including preparation, review, integration and publication;
+no decoder, extra corpus or fresh image inspection. GDT616 was checked as a
+possible predecessor and remains an already closed synthetic control, with no
+semantic target card; no new dossier or rerun is manufactured for it.
+
+CO–CU checkpoint:7sourcecases yield3687semantic263formalvariants and4473cases.
+All125CCoverlapIDs selected exactly once, with CL/CU source-scope additions.
+CQ3positive exact lexical equivalences produce42groups/51displayreductions;
+35nonidentity/rival/specializationlinks unchanged. CT2historical revisions yield
+24scoped dossiers,9conditional questions remain unready. New CV identities,
+CW581–640 and CX301–393 bounded recovery reviews continue independently.

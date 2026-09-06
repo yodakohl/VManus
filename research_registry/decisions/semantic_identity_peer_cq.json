@@ -1,0 +1,72 @@
+{
+  "review_id": "SEMANTIC_IDENTITY_PEER_CQ_ROOT",
+  "status": "APPROVE_THREE_EXACT_SOURCE_CONTRACT_EQUIVALENCES_THREE_OPEN",
+  "reviewer": "root independent primary and static source review",
+  "input_sha256": {
+    "research_registry/decisions/semantic_identity_proposal_cq.json": "9d95b9ba62ee339fa47f6aee0be6ff4d60ca5b15c27b8839b789ab095f0d206f"
+  },
+  "rows": [
+    {
+      "pair": "IDENTITY_CQ:shey",
+      "decision": "approve_equivalence",
+      "reason": "Both assertions assign the learned whole-card value Klarauszug to the same SHEY/CHEEY renderer-family tuple b5df9126607030b95175. Medium selection and selected filtration explicitly bind that exact tuple to this value; the application report uses the selected filtration dictionary and invokes the same value while denying its use to derive LCHEEY. That denial is not a withdrawal of SHEY.",
+      "scope_limit": "Exact whole-card lexical value only. No SH=clear, EY=water, arbitrary shey substring, later Klarflüssigkeit revision, or equality of the complete editorial models."
+    },
+    {
+      "pair": "IDENTITY_CQ:ho",
+      "decision": "approve_remaining_unresolved",
+      "reason": "The shared R3 source supports HO=Zutat within the exact CHO/SHO card and specified CHOCHOR compound, but one card aggregates later productive HO-family cases. A common R3 case is not enough to establish that all aggregated lexical domains are identical.",
+      "scope_limit": "Need an explicit exact family/unit bridge across the remaining HO cases. Preserve the shared source case without automatically merging the two complete card scopes."
+    },
+    {
+      "pair": "IDENTITY_CQ:chk",
+      "decision": "approve_remaining_unresolved",
+      "reason": "Pass321 binds CHK=wärmen to the short/long cheky/cheeky heat paradigm. Pass663 gives a four-card seven-event productive root; the other card also aggregates thermal proposals from several editions. Same gloss and shared root spelling do not establish the exact full family membership or unchanged licensing constraints.",
+      "scope_limit": "Need a source-bound bridge for every claimed family/domain, not a match of card/event counts or the words CHK and wärmen. This is not evidence of contradictory meanings."
+    },
+    {
+      "pair": "IDENTITY_CQ:solkaiin",
+      "decision": "approve_remaining_unresolved",
+      "reason": "Both refer to a historical Seihtuch reading, and the singleton report explicitly revises that old reading to SOLK+AIIN collection-to-measure. The specialist source identifies tuple 2d2e37ccb2dacc53ee5a, while the inspected singleton code keys its replacement by surface from a resolved apprentice deck. The direct tuple bridge into that resolved deck was not established in this bounded review.",
+      "scope_limit": "Historical withdrawal alone would not prevent identity of the same old hypothesis. Keep the old hypothesis, but do not merge solely from matching surface/old gloss or infer equality with its replacement composition."
+    },
+    {
+      "pair": "IDENTITY_CQ:kair",
+      "decision": "approve_equivalence",
+      "reason": "The R3/selected-medium and vessel dictionaries explicitly bind tuple 22fb87a5a83e5c3fb510 to K_BASIN+AIR_WATER and Beckenwasser. The static vessel→herbal→biological→state-product input chain copies unchanged dictionary rows by tuple ID; neither AIR target is in any of the three revision maps. The state-product report again states KAIR=Beckenwasser.",
+      "scope_limit": "Only the exact KAIR whole-card lexical basin-water value in this inherited water-model chain. No identity with AIR working-fluid/course revisions, no independent water confirmation, and no merger of global AIR architectures."
+    },
+    {
+      "pair": "IDENTITY_CQ:chair",
+      "decision": "approve_equivalence",
+      "reason": "The R3/selected-medium and vessel dictionaries explicitly bind tuple 12efe866f335461823a6 to CH_INLET+AIR_WATER and Wasserzulauf. The static vessel→herbal→biological→state-product input chain retains this tuple and lexical value unchanged; neither AIR target is in the three revision maps. The state-product report states CHAIR=Wasserzulauf.",
+      "scope_limit": "Only the exact learned inlet-hull whole-card lexical value. The contextual instruction Wasser zulaufen lassen and different prose-model architectures are not independently identified by this edge; no free CH/AIR interpretation is licensed."
+    }
+  ],
+  "validation": {
+    "current_card_bindings": 12,
+    "exact_evidence_checks": 60,
+    "static_revision_key_checks": [
+      {
+        "path": "experiments/yolo/sidequest_semantic_herbal_material_action_completion/build_herbal_material_action_edition.py",
+        "revision_keys_checked": 19,
+        "both_air_tuple_ids_absent": true
+      },
+      {
+        "path": "experiments/yolo/sidequest_semantic_biological_operation_completion/build_biological_operation_edition.py",
+        "revision_keys_checked": 16,
+        "both_air_tuple_ids_absent": true
+      },
+      {
+        "path": "experiments/yolo/sidequest_semantic_state_product_completion/build_state_product_edition.py",
+        "revision_keys_checked": 5,
+        "both_air_tuple_ids_absent": true
+      }
+    ]
+  },
+  "limits": [
+    "Equivalence is of the complete scoped lexical assertion, not of entire source models or external semantic truth.",
+    "SHEY later Klarflüssigkeit revision is excluded; CHAIR contextual imperative is not a second equivalent claim.",
+    "Common subset cases do not establish full HO or CHK family identity."
+  ]
+}

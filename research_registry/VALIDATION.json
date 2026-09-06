@@ -16,7 +16,7 @@
     "status": "FAIL_PRE_EXISTING"
   },
   "idea_ids_and_mention_lines_exact": 82,
-  "imported_records": 5071,
+  "imported_records": 5072,
   "importer_invoked": false,
   "index_rows_exact": 870,
   "initial_import_report_bodies_opened": false,
@@ -24,10 +24,10 @@
     "anchor": 11,
     "family": 59,
     "attempt": 870,
-    "history": 4049,
+    "history": 4050,
     "idea": 82
   },
-  "ledger_events_exact": 4123,
+  "ledger_events_exact": 4124,
   "ledger_fields": [
     "date",
     "status",
@@ -46,7 +46,7 @@
   "metadata_refresh_invoked": true,
   "registry_check": {
     "status": "PASS",
-    "records": 5071
+    "records": 5072
   },
   "report_bodies_opened": false,
   "repository_unit_tests": {
@@ -58,12 +58,12 @@
   "semantic_component_pass": "SEMANTIC_PRIORITY.md",
   "semantic_ideas_pass": {
     "status": "PASS",
-    "cards": 3943,
-    "default_semantic_cards": 3681,
+    "cards": 3950,
+    "default_semantic_cards": 3687,
     "local_overlay_semantic_cards": 95,
-    "operational_default_cards": 3728,
-    "formal_role_cards": 262,
-    "review_cases_preserved": 4466,
+    "operational_default_cards": 3731,
+    "formal_role_cards": 263,
+    "review_cases_preserved": 4473,
     "archived_source_error_cards": 47,
     "archived_source_cases": 48,
     "correction_revisions_checked": 227,
@@ -92,12 +92,12 @@
         "overlap": 0
       }
     },
-    "disposition_card_references_checked": 4473,
+    "disposition_card_references_checked": 4475,
     "accepted_item_types": {
-      "semantic_model": 1059,
+      "semantic_model": 1062,
       "lexical_hypothesis": 2074,
-      "functional_hypothesis": 548,
-      "formal_role": 262
+      "functional_hypothesis": 551,
+      "formal_role": 263
     },
     "disposition_rows_by_review": {
       "research_registry/decisions/clean_proposal_review.json": 1049,
@@ -163,21 +163,26 @@
       "research_registry/decisions/clean_gap_review_ck_integrated.json": 0,
       "research_registry/decisions/clean_gap_review_cl_integrated.json": 0,
       "research_registry/decisions/clean_gap_review_cm_integrated.json": 0,
-      "research_registry/decisions/clean_gap_review_cn_integrated.json": 20
+      "research_registry/decisions/clean_gap_review_cn_integrated.json": 20,
+      "research_registry/decisions/clean_gap_review_co_integrated.json": 13,
+      "research_registry/decisions/clean_gap_review_cp_integrated.json": 0,
+      "research_registry/decisions/clean_gap_review_cr_integrated.json": 20,
+      "research_registry/decisions/clean_gap_review_cs_integrated.json": 21,
+      "research_registry/decisions/clean_gap_review_cu_integrated.json": 0
     },
     "synthetic_tests": 11,
     "validator_source": "tests/test_semantic_ideas.py",
     "input_sha256": {
-      "research_registry/semantic_ideas.jsonl": "9262009fd980f2dba6191dd431685e3d43da93bf17ffb557cf05115c7aadd1bc",
-      "tools/semantic_ideas.py": "4f66a56a4feb1c1d8904ab8abab8a7cae8985f4df69db3dab09a59a4f73aa35f"
+      "research_registry/semantic_ideas.jsonl": "58d1eeee353c201353e32ac584d52e6b96ad0da3ec2cf0cc03c4c49dc31c45ce",
+      "tools/semantic_ideas.py": "4afe65ab46f60d27238bedf2a4c2ac81c2dfd755649c52e0e36e44fcfbece15f"
     },
     "limitation": "Checks concrete-card schema, source evidence and case preservation. Does not independently establish every semantic classification, logical equivalence, historical meaning, truth, or scientific novelty."
   },
   "semantic_inventory_pass": {
     "status": "PASS",
-    "source_records_exact": 5071,
-    "ledger_events_exact": 4123,
-    "operational_items": 29707,
+    "source_records_exact": 5072,
+    "ledger_events_exact": 4124,
+    "operational_items": 29708,
     "extraction_items_by_input": {
       "manifest_unresolved_source_pointers": 5561,
       "legacy_proposal_extraction.jsonl": 5370,
@@ -188,7 +193,7 @@
       "anchor": 11,
       "family": 59,
       "attempt": 870,
-      "history": 4049,
+      "history": 4050,
       "idea": 82,
       "unresolved_source_block": 15478,
       "hypothesis_component": 3788,
@@ -205,29 +210,29 @@
     "limitation": "Full coverage of current registered metadata and retained extraction records only. Candidate, source excerpt, unresolved block and historical record are distinct units, not independently deduplicated ideas; omitted or unavailable historical source material is not reconstructed."
   },
   "semantic_operational_pass": {
-    "active_source_cards": 3943,
+    "active_source_cards": 3950,
     "conditional_priorities": 9,
-    "display_reduction": 48,
+    "display_reduction": 51,
     "identity_counts": {
-      "cards": 3943,
-      "groups": 3895,
-      "multi_member_groups": 39,
+      "cards": 3950,
+      "groups": 3899,
+      "multi_member_groups": 42,
       "relations": 35
     },
     "input_sha256": {
-      "research_registry/semantic_failure_decisions.jsonl": "0547af49a53dc1dd92b1cba6df17eb662bd34cda8b46bb4ac01b3c1b8886c15d",
-      "research_registry/semantic_identity_decisions.jsonl": "879f54cc1e8bbe0b0bf6cb15f6d3810d41d75a1485d57aebabdff1347a3a67d7",
+      "research_registry/semantic_failure_decisions.jsonl": "c70a94d179009fb4a4311f3c821ac2d8ba9fcbdd6b26a64d0b7f4784f802544c",
+      "research_registry/semantic_identity_decisions.jsonl": "747b558b8cd03ca776187a0eac908809f6ec87824df1da548af4b13fdaf07283",
       "research_registry/semantic_priority_decisions.jsonl": "2d8fa90ad00098ca4ffa344b5bce15657a6986c742d767d972cd50489ec450dc",
-      "tools/semantic_ideas.py": "4f66a56a4feb1c1d8904ab8abab8a7cae8985f4df69db3dab09a59a4f73aa35f",
+      "tools/semantic_ideas.py": "4afe65ab46f60d27238bedf2a4c2ac81c2dfd755649c52e0e36e44fcfbece15f",
       "tools/semantic_identity.py": "ad2e4da44b795dcece2a3e8334587751e2d929f45b463d27d728e4cfc20a6272",
       "tools/semantic_priority_view.py": "85c5ff10606849028d749aee11a75c45b8b09ea64bc3b7814f67138a39bab0b4"
     },
     "scientific_ready_in_reviewed_subset": 0,
     "scope_status_inheritance": false,
-    "scoped_failure_dossiers": 22,
+    "scoped_failure_dossiers": 24,
     "source_binding_checked": true,
     "status": "PASS",
-    "validation_scope": "Source-bound 39-case contract recovery, separate ten-contrast subcases and one documented remainder-versus-exact-whole nonidentity; no meaning confirmation or new observation."
+    "validation_scope": "125-identifier source selection accounting with CL/CU scope additions, seven source cases, three positively bound lexical equivalences and two historical revision dossiers; no semantic confirmation."
   },
   "semantic_source_correction_pass": {
     "active_cards": 3905,
