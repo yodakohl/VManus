@@ -1421,10 +1421,17 @@ Decoderfit. Ein Treffer würde nur den genannten nichttrivialen Ganzgruppen-Pott
 für seine wiederholte Ausgabe ausschließen; kein Treffer bestätigt ihn nicht.
 Schreibzuständigkeit zurück bei root.
 
-Root selects the stronger IP038 contract as **GDT857 IN_PROGRESS**, public
+Root selected the stronger IP038 contract as **GDT857 COMPLETE**, public
 freeze before cache access. Exact kind-P plain-raw AAA windows with definite
 internal seams and complete outer boundaries; all three alternate readings,
 strict coordinate concordance reported separately. No null/model/translation.
 Independent proof review supports the singleton implication under faithful
 emission, fixed disjoint pools and no intra-line resets.15min total budget
 from06:52:08UTC to07:07:08UTC. Zero triples will not be a model-PASS.
+
+Result:6ZL/7IT/5RF triples;4strict all-reader coordinates with sheol, okaiin,
+chol and ytaiin. Under the explicit faithful whole-group/disjoint/exhaustive
+cycle contract, those forms force singleton pools. Exclusively nonsingleton
+pools fail; homophony generally stays open. No source filter changed. See
+[GDT857](../experiments/yolo/gdt857_cyclic_inventory_triple_bound/REPORT.md).
+No automatic decoder or alternative-pool repair follows this result.

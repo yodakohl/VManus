@@ -6,6 +6,20 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### GDT857 literal triple constraint (2026-09-06)
+
+Primary: `experiments/yolo/gdt857_cyclic_inventory_triple_bound/REPORT.md`.
+Public preregf77c6472 before source loading. RawP triples:6ZL/7IT/5RF;
+four exact locus/start/raw coordinates agree across all readings:
+f104v.27#3 sheol, f40r.9#6 okaiin, f47r.7#4 chol, f86v3.3#2 ytaiin.
+Every retained triple has definite interior/exterior separator fields.
+For whole-group codewords in fixed disjoint exhaustive no-replacement pools,
+faithful visible emission and no intra-line reset, AAA forces a singletonpool.
+Thus exclusively nonsingleton pools fail this transcription-bound contract.
+Mixed singleton pools and homophony generally are not rejected; no native
+adjudication, codeword meaning, language, p value or decoder follow-up.
+Independent source enumeration/direct witnesses and byte replay pass.
+
 ### GDT856 finite codeword property (2026-09-06)
 
 Primary: `experiments/yolo/gdt856_codeword_unique_decodability/REPORT.md`.

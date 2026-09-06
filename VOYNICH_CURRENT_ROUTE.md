@@ -32,9 +32,10 @@ corners in four two-e-slot strata, no coupling/meaning.847 reconciles legacy
 GDT844/stars remain stopped; no unowned caption scores or same-photo recounts.
 
 Goal: transferable translation. Confirmed English lexemes: **0**;
-confirmed German lexemes/clauses: **0**. No new fit selected. GDT856 proves
-old605code nonUD: [C,E]=[CE]. Free model only; canonicalBPE remains deterministic.
-No manuscript occurrence, script ambiguity, synchronisation or meaning claim.
+confirmed German lexemes/clauses: **0**. GDT857 finds4coordinate-stable rawAAA
+across3readings. Under whole-group codewords and faithful disjoint exhaustive
+cycles, these forms force singleton pools; no general homophony rejection.
+GDT856 old605freecode nonUD: [C,E]=[CE]; canonicalBPE remains deterministic.
 GPU/subagents authorized; no other LLM API keys. No public decipherment-approach
 searches: the user says these are exhausted. Understand project history and
 manuscript appearance before fixing a route; use primary internal evidence.

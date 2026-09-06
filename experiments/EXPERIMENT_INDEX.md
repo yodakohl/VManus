@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **856**
-- Experiment-associated tracked files: **16,039** (1.4 GiB)
+- Experiment-associated tracked files: **16,043** (1.4 GiB)
 - Structured GDT337+ experiments: **521**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT857 | Literal triple bound for nonsingleton cyclic codeword pools | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt857_cyclic_inventory_triple_bound/REPORT.md) | 13 | 32.1 KiB | 1 | STRUCTURED_YOLO |
+| GDT857 | GDT857 | `NONSINGLETON_CYCLIC_POOL_COUNTEREXAMPLE_FOUND` | [report](../experiments/yolo/gdt857_cyclic_inventory_triple_bound/REPORT.md) | 17 | 71.0 KiB | 1 | STRUCTURED_YOLO |
 | GDT856 | GDT856 | `NON_UD_COLLISION_WITNESS` | [report](../experiments/yolo/gdt856_codeword_unique_decodability/REPORT.md) | 16 | 34.1 KiB | 1 | STRUCTURED_YOLO |
 | GDT855 | leaf_margin_extension_feasibility_after_GDT855 | `NO_EXTENSION_CAN_PRESERVE_QUIRE_CAP_AND_ADD_PHASE_MOBILITY` | [report](../experiments/yolo/gdt855_leaf_margin_source_availability/POST_COUNT_FEASIBILITY.md) | 22 | 401.2 KiB | 2 | STRUCTURED_YOLO |
 | GDT854 | GDT854 | `CAPACITY_STOP_NO_MODEL_OR_NULL` | [report](../experiments/yolo/gdt854_e_placement_cross_kernel_transfer/REPORT.md) | 16 | 115.1 KiB | 3 | STRUCTURED_YOLO |

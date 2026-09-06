@@ -171,3 +171,14 @@ none would leave it unresolved. No language/meaning/key claim or model fit.
 Independent proof review supports the exact conditional statement, including
 faithful emission/no resets/no surface aliases. Cache reading remains pending.
 Total budget15min to07:07:08UTC; checkpoint before target access by07:00UTC.
+
+07:03UTC result checkpoint: public preregf77c6472 at07:01:21UTC preceded
+cache loading; the pre-data code/proof review and boundary-control corrections
+were completed before the push. Data execution/validation/replay took1.2s.
+GDT857 finds6ZL/7IT/5RF triples,4exact all-reader coordinates. Root directly
+inspected all18hit rows and four complete ZL witness lines. Independent
+enumeration and direct-source validation pass. The fixed exclusively
+nonsingleton cycle contract fails; mixed pools/general homophony remainopen.
+This adds a transcription-grounded mechanism constraint, not a reading.
+Publication preparation is within15min; goalACTIVE, about3h22elapsed and
+at least6h37remain until13:40:45UTC. No automatic cipher repair selected.

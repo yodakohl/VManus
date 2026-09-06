@@ -1,3 +1,3 @@
 # GDT857 — cyclic inventory triple bound
 
-Prepared, awaiting public registration and GO. See METHOD.md.
+Completed: proper triples contradict the registered all-nonsingleton cyclic-pool subclass. Conditional transcription/whole-group result only. See REPORT.md and METHOD.md.
