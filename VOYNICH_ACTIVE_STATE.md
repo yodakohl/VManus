@@ -6,16 +6,21 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-### GDT865 primary whole-leaf robustness registered (2026-09-06)
+### GDT865 primary whole-leaf robustness passes (2026-09-06)
 
-Protocol: `experiments/yolo/gdt865_whole_leaf_primary_robustness/METHOD.md`.
-Explicit follow-up to858: retain808 CORE13 events, primary models and feature
-rules, change only training exclusion from face to whole physical leaf. Require
-old serialized prediction and feature-hash parity and108unchanged fold parity.
-Peraxis test only nuisance macroAUC>=.60 with9/13carriers strictly>.50; no full
-old portable verdict or null/significance reuse. Retrospective, no semanticcredit.
-Capacity or reconstruction failure stops. Total work budget08:55–09:35UTC.
-No new target read or fit before public source/protocol freeze.
+Primary: `experiments/yolo/gdt865_whole_leaf_primary_robustness/REPORT.md`.
+Both original CORE13 primary nuisance thresholds survive whole-leaf exclusion:
+L macroAUC .611534→.616364,10/13carriers>.5; DY .753049→.750323,11/13.
+1777oldprediction rows/all25score-known fields andeventfeature hashes exactly
+reproduced. All963whole-leaf folds retainbothclasses/12nonheldcarriers;108
+unchangedfolds exactparity. Independent four-deck refit ofall963folds PASS.
+Local addedgain shrinks L .005609→.001067 andDY .016854→.013356.
+Descriptive testleafdeletion ranges L .603737–.630188 across89leaves,
+DY .734283–.767415 across51; not confidenceintervals/independentreplications.
+Supports specific primary structural transfer beyondleaf, no full808verdict,
+newnullsignificance, causal leakage estimate, semanticbinding or meaning.
+Publicfreeze3c5c7212 at09:11:28beforedata, pairedrunner25.245seconds/16CPU.
+No automatic model/semantic successor; old808/809sourcebytes unchanged.
 
 ### GDT864 native qo seam support (2026-09-06)
 

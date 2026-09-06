@@ -7,15 +7,13 @@ Mandate: at least10h work from2026-09-06 03:40:45UTC;
 not complete before13:40:45UTC unless user interrupts/changes the mandate.
 Active goal/session record: `docs/RESEARCH_SESSION_2026-09-06.md`.
 
-GDT858 corrects808 holdout:963primary folds reconstruct exactly,855 retain
-training from the opposite face of the held leaf (L505/569,DY350/394).
-169old physical-folio keys are page faces on90leaves. No whole-leaf transfer
-claim, refit or measured score penalty.809 contact/model keys also retainr/v.
-Primary via lookup858; old source bytes preserved. GDT865 explicitly registers
-a one-factor CORE13 primary comparison: whole-leaf exclusion, all else fixed.
-Old prediction/hash replay first; nuisance AUC>=.60 and9/13carriers>.50 peraxis.
-Retrospective threshold robustness only; no old null/full verdict reuse.
-Total budget08:55–09:35UTC; capacity/replay failure stops, no model rescue.
+GDT858:855/963primary808folds retained opposite-face training;169faces/90leaves.
+GDT865 whole-leaf correction retains both primary thresholds: nuisance macroAUC
+L .611534→.616364(10/13>.5),DY .753049→.750323(11/13>.5).
+1777oldpredictions/features exactparity;963capacityPASS;108unaffected exact.
+Independent four-deck refitPASS. Local addedgain shrinks to .001067L/.013356DY.
+Retrospective primary robustness only; no old fullverdict/null/meaning reuse.
+Correction complete; no automaticrefit.809face keys unchanged. Primary lookup865.
 
 GDT859:f56r.1 upperlink seenby2viewers; firstgroupseam definitein3readings.
 ZL/RF@167/@168 versus ITt retained; rootonly alignment, no glyph/meaning.

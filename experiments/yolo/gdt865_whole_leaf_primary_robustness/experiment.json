@@ -1,6 +1,6 @@
 {
   "artifact_policy": {
-    "large_artifact_justification": "",
+    "large_artifact_justification": "Ignored runtime EVENT_FEATURES.json and FOLDS_FULL.json cache reconstructed feature arrays and ordered training IDs for independent refits. They are reproducible from the runner and excluded from publication; public per-file artifacts remain below 5000000 bytes.",
     "max_inline_bytes": 5000000
   },
   "claim_ceiling": "Retrospective primary threshold robustness only; no full original null verdict or semantics",
@@ -70,12 +70,82 @@
     {
       "path": "experiments/yolo/gdt865_whole_leaf_primary_robustness/README.md",
       "role": "source_or_artifact",
-      "sha256": "5d0817da2c4638b2a4964d4309b84a4e971ec30982abcb21913e7db69fdd140a"
+      "sha256": "a7a11a8c8492b764e8e3e80d24d65706a4880e247a8c94c08dd76d2f58de98ac"
+    },
+    {
+      "path": "experiments/yolo/gdt865_whole_leaf_primary_robustness/REPORT.md",
+      "role": "primary_report",
+      "sha256": "cbb3dd766007da1e7b14e62aee8b8103e04902eaa299bf459f8bf852710daea1"
+    },
+    {
+      "path": "experiments/yolo/gdt865_whole_leaf_primary_robustness/artifacts/BASELINE_CHECK.json",
+      "role": "source_or_artifact",
+      "sha256": "cf9f40c92a54f7c6eefecb5f89eeb86726da7a52e3a462c8f384ae22a1a11b5c"
+    },
+    {
+      "path": "experiments/yolo/gdt865_whole_leaf_primary_robustness/artifacts/BASELINE_PREDICTIONS.json",
+      "role": "source_or_artifact",
+      "sha256": "876fa98f8ec6e3f389365a42c752406c894d6bff76a2a646df1a4e8a9c0d2fda"
+    },
+    {
+      "path": "experiments/yolo/gdt865_whole_leaf_primary_robustness/artifacts/CAPACITY.json",
+      "role": "source_or_artifact",
+      "sha256": "3a211d8313db67438c4760c6e2a04397cb5f00d1352473406f4b828523a5c45a"
+    },
+    {
+      "path": "experiments/yolo/gdt865_whole_leaf_primary_robustness/artifacts/EVENT_METADATA.json",
+      "role": "source_or_artifact",
+      "sha256": "4d5989b0ce8a997e36ffdcdc7846114b3cd55edb9acae65de697ce809f3b7607"
+    },
+    {
+      "path": "experiments/yolo/gdt865_whole_leaf_primary_robustness/artifacts/FOLDS.json",
+      "role": "source_or_artifact",
+      "sha256": "fe01ce8071b1c2d95f893afa28fa8b337dc3034218259743403f942f2fd1d832"
+    },
+    {
+      "path": "experiments/yolo/gdt865_whole_leaf_primary_robustness/artifacts/GUARD.json",
+      "role": "source_or_artifact",
+      "sha256": "cfce07ff896b09b6bcb57e2e63f72eb7a342bec18d6f6c975aa788b5e3c320fe"
+    },
+    {
+      "path": "experiments/yolo/gdt865_whole_leaf_primary_robustness/artifacts/GUARD_REQUESTS.json",
+      "role": "source_or_artifact",
+      "sha256": "9a63cdcaf611727af5c41df44bc0c7489a34ef8130a7d9e0d28c87f5b2b3d26e"
+    },
+    {
+      "path": "experiments/yolo/gdt865_whole_leaf_primary_robustness/artifacts/LEAF_DELETE_RANGES.json",
+      "role": "source_or_artifact",
+      "sha256": "f202a553e7b596112ff45ad004e266d33b3f739a3e5f73872bd9832b9f7e3376"
+    },
+    {
+      "path": "experiments/yolo/gdt865_whole_leaf_primary_robustness/artifacts/LEAF_PREDICTIONS.json",
+      "role": "source_or_artifact",
+      "sha256": "37b3655164bcbd3cbeaa15332fc16698c63edefab1e2343778d0198579f147e8"
+    },
+    {
+      "path": "experiments/yolo/gdt865_whole_leaf_primary_robustness/artifacts/METRICS.json",
+      "role": "source_or_artifact",
+      "sha256": "080b7ba77568157e3d1b32a9fd135d19074bc56c76169723f530ec56fe90651c"
     },
     {
       "path": "experiments/yolo/gdt865_whole_leaf_primary_robustness/artifacts/README.md",
       "role": "source_or_artifact",
-      "sha256": "e2e8ea975ea9c310abef1d4a72748fd13acf892e70b9a49f3dbdf31300d15c30"
+      "sha256": "365196c275dd9db18fe2aa1a8cfa2dbbdde9ceb3ac9e7734b895834fca79f58f"
+    },
+    {
+      "path": "experiments/yolo/gdt865_whole_leaf_primary_robustness/artifacts/RESULT.json",
+      "role": "source_or_artifact",
+      "sha256": "c4cc89ce32341fcc4848fcaa15932abb182c990c07542efef460ff227de840c0"
+    },
+    {
+      "path": "experiments/yolo/gdt865_whole_leaf_primary_robustness/artifacts/SOURCE_HASHES.json",
+      "role": "source_or_artifact",
+      "sha256": "7d8ab8f8d5de81976a386507bc3c4efb1bfa34f7127235f809efa18c41c287c2"
+    },
+    {
+      "path": "experiments/yolo/gdt865_whole_leaf_primary_robustness/artifacts/VALIDATION.json",
+      "role": "source_or_artifact",
+      "sha256": "aa545f5814e3afa3056331c12c973bcb1f3ca3ad1b199816a0a1e94a5078f618"
     },
     {
       "path": "experiments/yolo/gdt865_whole_leaf_primary_robustness/src/PREREG_LOCK.json",
@@ -110,11 +180,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "whole_leaf_primary_robustness",
-  "status": "REGISTERED_UNSCORED",
+  "status": "COMPLETE_PRIMARY_WHOLE_LEAF_ROBUSTNESS_AUDIT",
   "title": "Whole-leaf primary robustness",
   "updated": "2026-09-06",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "artifact": "experiments/yolo/gdt865_whole_leaf_primary_robustness/artifacts/VALIDATION.json",
+    "status": "PASS"
   }
 }

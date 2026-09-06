@@ -304,3 +304,17 @@ authorship; old score and feature-hash parity before acceptance,108unaffected
 folds exact parity. Primary nuisance thresholds only, no full old null verdict
 or semantic claim. Total budget08:55–09:35UTC; checkpoint before newfits.
 No new target query or score observed at this decision. Goal remains ACTIVE.
+
+09:11:28UTC GDT865 publicfreeze3c5c7212 confirmed before guarded reads/fits.
+Static implementation and independent synthetic validator controls passed;
+exact staged privacy/scope gate passed. Globalcheck still reports unrelated
+GDT600binding and historical TSVindex debt. At pre-fit checkpoint,24minutes
+remain to09:35 total budget. Started16CPUworker reconstruction andpairedfits.
+
+09:13:28UTC GDT865 pairedrun25.245seconds complete; independentfour-deck
+refit all963folds PASS. L nuisance .611534→.616364,DY .753049→.750323;
+10/13and11/13carriers>.5. Bothprimarythresholds survive whole-leaf exclusion.
+All1777oldpredictions/features exact;108unaffectedfolds exact. Localaddedgain
+shrinks .001067L/.013356DY. No fulloldnullverdict/significance ortranslation.
+Cachedmetric replay alsoPASS. Resultpublication within09:35budget underway.
+Ten-hourgoal remainsACTIVE until13:40:45UTC; elapsedwork is notruntime.
