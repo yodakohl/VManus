@@ -1,0 +1,207 @@
+{
+  "schema": "semantic_gap_review_v1",
+  "review_id": "CLEAN_GAP_BG_ROOT",
+  "cards": [
+    {
+      "id": "BG_RECOVERY:rich_object_workshop",
+      "claim": "GDT595’s initial complete workshop reading of the 44 residual bath defaults distinguishes bodies, stations, portions and units, assigning 20 bodies, 19 stations, 3 portions and 2 units.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "LEGACY_PROPOSAL:852cd6e349540ba7bc7ac9bc"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 68,
+          "line_end": 71,
+          "quote": "Die vollständige Werkstattlektüre ergab zunächst `20 Körper / 19 Station / 3\nPortion / 2 Einheit`. Ein unabhängiges Body/Station-Quellenmodell ergab `23\nKörper / 21 Station`, verlor aber Portion und Einheit trotz sichtbarer\nTeilnehmer.",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        }
+      ],
+      "status": "unconfirmed",
+      "source_status": "historical_model_retained_as_rival",
+      "scope": {
+        "source": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+        "unit": "GDT595 historical44-default comparison or explicitly listed six local disputes",
+        "limits": "Not a manuscript-wide model, lexical confirmation or new data finding."
+      },
+      "comparison": {
+        "counterpart_id": "SEM:c556c887cc61fc10debe",
+        "counterpart_claim": "A right-edge object in the same written event may take scope over the immediately preceding short verb chain, without becoming a direct SH slot.",
+        "decision": "additional_addressable_proposition_candidate",
+        "reason": "Distinct object ontology and complete local assignment profile; neither exact model nor counts are asserted by the current right-edge scope claim.",
+        "source_presence_is_not_identity": true
+      },
+      "ready": false
+    },
+    {
+      "id": "BG_RECOVERY:binary_body_station",
+      "claim": "GDT595’s independent Body/Station source model assigns the same 44 residual defaults to 23 bodies and 21 stations, omitting portion and unit despite the source report’s visible participant evidence.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "LEGACY_PROPOSAL:852cd6e349540ba7bc7ac9bc"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 68,
+          "line_end": 71,
+          "quote": "Die vollständige Werkstattlektüre ergab zunächst `20 Körper / 19 Station / 3\nPortion / 2 Einheit`. Ein unabhängiges Body/Station-Quellenmodell ergab `23\nKörper / 21 Station`, verlor aber Portion und Einheit trotz sichtbarer\nTeilnehmer.",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        }
+      ],
+      "status": "unconfirmed",
+      "source_status": "historical_rival_not_selected",
+      "scope": {
+        "source": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+        "unit": "GDT595 historical44-default comparison or explicitly listed six local disputes",
+        "limits": "Not a manuscript-wide model, lexical confirmation or new data finding."
+      },
+      "comparison": {
+        "counterpart_id": "SEM:c556c887cc61fc10debe",
+        "counterpart_claim": "A right-edge object in the same written event may take scope over the immediately preceding short verb chain, without becoming a direct SH slot.",
+        "decision": "additional_addressable_proposition_candidate",
+        "reason": "A tried binary patient model, not a fabricated global binary theory. The source criticism concerns losing two patient categories, not proof that all body/station readings fail.",
+        "source_presence_is_not_identity": true
+      },
+      "ready": false
+    },
+    {
+      "id": "BG_RECOVERY:hybrid_rich_object_scope",
+      "claim": "GDT595’s selected hybrid retains the richer body/station/portion/unit workshop typing and changes only E2863,E3523,E3533,E3664 from body to station by allowing a same-event right-edge participant to scope over the preceding short verb chain without becoming a direct SH slot.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "LEGACY_PROPOSAL:852cd6e349540ba7bc7ac9bc"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 12,
+          "line_end": 19,
+          "quote": "Die 44 direkten Ergänzungen sind:\n\n| Objekt | Anzahl |\n|---|---:|\n| Körper | 16 |\n| Stationsansatz | 23 |\n| Anwendungsportion | 3 |\n| Becken- oder Körpereinheit | 2 |",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        },
+        {
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 68,
+          "line_end": 86,
+          "quote": "Die vollständige Werkstattlektüre ergab zunächst `20 Körper / 19 Station / 3\nPortion / 2 Einheit`. Ein unabhängiges Body/Station-Quellenmodell ergab `23\nKörper / 21 Station`, verlor aber Portion und Einheit trotz sichtbarer\nTeilnehmer.\n\nDer ausgewählte Hybrid behält die reichere Werkstattregel und ändert nur vier\nVorkommen von Körper zu Station:\n\n| Ereignis | Werkstatt | Hybrid | Grund |\n|---|---|---|---|\n| E2863 | Körper | Station | gleichereignisiges P+Y mit Y=Stationsansatz |\n| E3523 | Körper | Station | CHD+Y; GDT589 liest den Träger als Station |\n| E3533 | Körper | Station | K+Y; die folgende Badeaktion ist ebenfalls Station |\n| E3664 | Körper | Station | T+…+Y mit Stationsadressierung und folgender Stationsaktion |\n\nDiese vier Änderungen verwenden eine einheitliche explorative Regel: Ein am\nrechten Rand desselben geschriebenen Ereignisses realisierter Gegenstand darf\nüber die unmittelbar davorstehende kurze Verbkette greifen. Er wird trotzdem\nnicht zum direkten SH-Slot umetikettiert. Die enge Hostlesung bleibt Rivale.",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        }
+      ],
+      "status": "unconfirmed",
+      "source_status": "historically_selected_unconfirmed",
+      "scope": {
+        "source": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+        "unit": "GDT595 historical44-default comparison or explicitly listed six local disputes",
+        "limits": "Not a manuscript-wide model, lexical confirmation or new data finding."
+      },
+      "comparison": {
+        "counterpart_id": "SEM:c556c887cc61fc10debe",
+        "counterpart_claim": "A right-edge object in the same written event may take scope over the immediately preceding short verb chain, without becoming a direct SH slot.",
+        "decision": "additional_addressable_proposition_candidate",
+        "reason": "The full local model combines a rich ontology and four concrete reassigned cases with the existing c556 scope rule; selected does not mean independently confirmed.",
+        "source_presence_is_not_identity": true
+      },
+      "ready": false
+    },
+    {
+      "id": "BG_RECOVERY:narrow_host_rival",
+      "claim": "For E2863,E3224,E3523,E3533,E3563,E3664, GDT595 retains the narrow host/stage-change reading preferred by a second manual reading as a rival to the hybrid shared-complement extension.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_PROPOSAL:852cd6e349540ba7bc7ac9bc"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 83,
+          "line_end": 92,
+          "quote": "Diese vier Änderungen verwenden eine einheitliche explorative Regel: Ein am\nrechten Rand desselben geschriebenen Ereignisses realisierter Gegenstand darf\nüber die unmittelbar davorstehende kurze Verbkette greifen. Er wird trotzdem\nnicht zum direkten SH-Slot umetikettiert. Die enge Hostlesung bleibt Rivale.\n\nEine zweite manuelle Nachlese bevorzugte bei sechs Streitfällen die enge\nHost-/Stufenwechsel-Lesung (`E2863`, `E3224`, `E3523`, `E3533`, `E3563`,\n`E3664`). Diese Gegenlesungen werden nicht verworfen. Der Hybrid bleibt primär,\nweil er eine einfachere kompositionelle Vorhersage für Endträger liefert und\nhistorisch mögliche Rezeptsyntax nutzt.",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        }
+      ],
+      "status": "unconfirmed",
+      "source_status": "historical_rival_explicitly_not_discarded",
+      "scope": {
+        "source": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+        "unit": "GDT595 historical44-default comparison or explicitly listed six local disputes",
+        "limits": "Not a manuscript-wide model, lexical confirmation or new data finding."
+      },
+      "comparison": {
+        "counterpart_id": "SEM:c556c887cc61fc10debe",
+        "counterpart_claim": "A right-edge object in the same written event may take scope over the immediately preceding short verb chain, without becoming a direct SH slot.",
+        "decision": "additional_addressable_proposition_candidate",
+        "reason": "This is the positively retained narrow reading for six listed disputes, not merely negating a generic right-edge rule; the report does not supply a complete alternative global count for it.",
+        "source_presence_is_not_identity": true
+      },
+      "ready": false
+    },
+    {
+      "id": "BG_RECOVERY:y_station_local_instance",
+      "claim": "In GDT595’s E2863 P+Y end carrier, Y is locally read as Stationsansatz; the hybrid uses that participant across the preceding short chain.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:437ab60710e5d4946a02"
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 76,
+          "line_end": 86,
+          "quote": "| Ereignis | Werkstatt | Hybrid | Grund |\n|---|---|---|---|\n| E2863 | Körper | Station | gleichereignisiges P+Y mit Y=Stationsansatz |\n| E3523 | Körper | Station | CHD+Y; GDT589 liest den Träger als Station |\n| E3533 | Körper | Station | K+Y; die folgende Badeaktion ist ebenfalls Station |\n| E3664 | Körper | Station | T+…+Y mit Stationsadressierung und folgender Stationsaktion |\n\nDiese vier Änderungen verwenden eine einheitliche explorative Regel: Ein am\nrechten Rand desselben geschriebenen Ereignisses realisierter Gegenstand darf\nüber die unmittelbar davorstehende kurze Verbkette greifen. Er wird trotzdem\nnicht zum direkten SH-Slot umetikettiert. Die enge Hostlesung bleibt Rivale.",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        },
+        {
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 109,
+          "line_end": 112,
+          "quote": "E1742  Halte den Körper im Bad auf Grad II. Lass den Körper anschließend abkühlen.\nE2863  Halte den Stationsansatz im Bad auf Grad I. Entnimm oder lass ab. Wende den Stationsansatz an.\nE3523  Halte den Stationsansatz im Bad auf Grad I. Entnimm oder lass ab. Behandle den Stationsansatz.\nE3664  Halte den Stationsansatz im Bad auf Grad I. Temperiere den Stationsansatz. Halte denselben Stationsansatz erneut im Bad.",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        }
+      ],
+      "scope": {
+        "kind": "local_instance_of_existing_scope_rule",
+        "source": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+        "event": "E2863",
+        "independent_new_idea": false,
+        "related_assertion_id": "SEM:c556c887cc61fc10debe"
+      }
+    }
+  ],
+  "dispositions": [],
+  "source_reassessments": [
+    {
+      "source_id": "LEGACY_COMPONENT:437ab60710e5d4946a02",
+      "decision": "source_scope_recovery_not_initial_intake",
+      "card_ids": [
+        "BG_RECOVERY:y_station_local_instance"
+      ]
+    },
+    {
+      "source_id": "LEGACY_PROPOSAL:852cd6e349540ba7bc7ac9bc",
+      "decision": "source_scope_recovery_not_initial_intake",
+      "card_ids": [
+        "BG_RECOVERY:rich_object_workshop",
+        "BG_RECOVERY:binary_body_station",
+        "BG_RECOVERY:hybrid_rich_object_scope",
+        "BG_RECOVERY:narrow_host_rival"
+      ]
+    }
+  ],
+  "integration_provenance": {
+    "review_artifact": "research_registry/decisions/semantic_scope_review_bg.json",
+    "review_sha256": "29f00c96832af029208074ce19c35151b5364e5c300fd93472d198bd1144df97",
+    "reviewer": "root",
+    "primary_sections_read": [
+      "GDT595 report1–94",
+      "GDT595 report143–145"
+    ],
+    "limits": [
+      "Four complete source-model/rival propositions and one explicit local instance; no new independent manuscript evidence.",
+      "Original global Y assignment archived; actual local station and AIIN fill/medium interpretations preserved."
+    ]
+  }
+}

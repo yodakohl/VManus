@@ -1,0 +1,290 @@
+{
+  "schema": "clean_semantic_source_review_v1",
+  "review_id": "BH",
+  "review_status": "AWAITING_INDEPENDENT_REVIEW",
+  "cards": [
+    {
+      "id": "CLEAN_GAP_BH:ok_seven_argument_schema",
+      "claim": "Pass657 proposes one OK=ANSETZEN/IN ARBEIT SETZEN verb with seven argument realizations: Y current item, OL continuation, AIIN prescribed measure, AL target, AIN portion, AR source and AIR flowing liquid. Its model combines an argument with optional duration and active or closed endpoint; it does not assert that every combination is attested or that all modifiers have a fixed order.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:7e894ecb7aea909e74f4"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_ok_valency_six_hundred_fifty_seventh/SIX_HUNDRED_FIFTY_SEVENTH_REPORT.md",
+          "line": 1,
+          "line_end": 66,
+          "quote": "# Sidequest Pass 657: ein OK-Verb mit sieben Argumenten\n\n## Ergebnis\n\nAlle 23 OK-Kartentypen und alle 79 Vorkommen teilen denselben kurzen\nsemantischen Anfang:\n\n> `OK` = **ANSETZEN / IN ARBEIT SETZEN**\n\nDie 23 Karten reduzieren sich auf 20 Komponentenrezepte. Sieben direkte\nArgumente erklären neun Kartentypen und 39 Vorkommen:\n\n| Zusatz | Rolle | Zusammengesetzte Lesung |\n|---|---|---|\n| Y | laufender Posten | Posten ansetzen |\n| OL | Fortsetzung | weiter ansetzen |\n| AIIN | Sollmaß | nach Sollmaß ansetzen |\n| AL | Ziel | an der Zielstelle ansetzen |\n| AIN | Portion | eine Portion ansetzen/zusetzen |\n| AR | Quelle | aus dem Vorrat ansetzen |\n| AIR | Flüssigkeitslauf | Flüssigkeit in Lauf setzen |\n\nEntscheidung:\n`ONE_OK_VERB_COMPOSES_WITH_SEVEN_ARGUMENT_SLOTS_AND_DURATION_ENDPOINTS`.\n\n## Das vollständige Lehrschema\n\nDer Schreiber lernt nicht 23 unabhängige Wörter, sondern:\n\n> OK + [Argument] + [Dauergrad] + [aktiver oder geschlossener Endpunkt]\n\nNicht jede Kombination ist belegt und die Reihenfolge einzelner Zusätze kann\nvariieren. Aber die vorhandenen Karten bleiben kompositionell rücklesbar:\n\n- `qokaiin` — nach Sollmaß ansetzen;\n- `qokal` — an der Zielstelle ansetzen;\n- `qokain` — eine Portion ansetzen;\n- `qokar` — aus dem Vorrat ansetzen;\n- `okair` — Flüssigkeit in Lauf setzen;\n- `qokol` — weiter ansetzen;\n- `qokeedal` — lange an der Zielstelle ansetzen;\n- `okeeol` — lange fortsetzen;\n- `qokaly` — an der Zielstelle den laufenden Posten ansetzen.\n\nDie geschlossenen Spezialkarten fügen Handlungen wie Umsetzen, Halten oder\nBefestigen ein. Insgesamt tragen 26 OK-Ereignisse eine Schlussfunktion; alle 26\nstehen final.\n\n## Fünf Vorhersagen\n\n- `OK+E+AL` / etwa `qokedal`: kurz an der Zielstelle ansetzen;\n- `OK+E+OL` / etwa `okeol`: kurz fortsetzen;\n- `OK+EEE+Y` / etwa `qokeeey`: vollständig ansetzen, aktiv lassen;\n- `OK+AIIN+Y`: den laufenden Posten nach Sollmaß ansetzen;\n- `OK+AIN+AL`: eine Portion an der Zielstelle ansetzen.\n\nDie letzten beiden sagen zunächst die Komponentenbedeutung, nicht die genaue\nOberfläche voraus.\n\n## Nächster Schritt\n\nDasselbe Verfahren wird auf CHD/CHED angewandt. Der erwartete kurze Kern ist\n`UMSETZEN`; Y, DY, AL, AR, AIN und AIR sollten Posten, Abschluss, Ziel, Quelle,\nPortion und Flüssigkeitslauf ergänzen. L, P, OL, OT und OK werden als\nRichtungs-/Reihenfolgepräfixe geprüft.\n",
+          "sha256": "32fac24c8d615bed86133779eaa8f10da8b6fd8252d72d5d8800eb6b62562c0a"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "source_bound": true,
+        "unit": "Historical registered family or process model, not all visually similar strings or all pages.",
+        "source_id_context_extension": "Original inventory ID locates the status assertion; exact full same-report evidence supplies its meaning."
+      },
+      "related_existing_cards": [
+        {
+          "id": "SEM:118d710fc54864c26529",
+          "claim": "Pass655 proposes qoky, qokey, qokeey, qokedy, qokeedy and qokeeedy as productive combinations of an operation, duration grade and open versus closed endpoint.",
+          "basis_sha256": "23c15d3a62926b1d5880a8fb21c95cee84b3d655b462af99ee635b56b5387781",
+          "reason": "The existing duration/endpoint paradigm does not state the seven-argument schema."
+        }
+      ]
+    },
+    {
+      "id": "CLEAN_GAP_BH:chd_transfer_valency",
+      "claim": "Pass658 proposes one CHD/CHED=UMSETZEN/ÜBERFÜHREN verb with Y active item, DY closure, AL target, AIN portion and AIR flowing-liquid slots, combined with L onward routing, P filling in, OL continuation, OT subsequent action and OK setup-and-transfer closure. The model treats those registered forms compositionally and limits the Y/DY endpoint contrast to this family.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:bc210b8c29bf724d9102"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_chd_valency_six_hundred_fifty_eighth/SIX_HUNDRED_FIFTY_EIGHTH_REPORT.md",
+          "line": 1,
+          "line_end": 65,
+          "quote": "# Sidequest Pass 658: CHD/CHED als zweites Werkstattverb\n\n## Ergebnis\n\nAlle 22 CHD/CHED-Kartentypen und alle 48 Vorkommen teilen denselben kurzen\nKern:\n\n> `CHD` / `CHED` = **UMSETZEN / ÜBERFÜHREN**\n\nDie Karten reduzieren sich auf 18 Komponentenrezepte. Fünf direkte\nArgument-/Endpunktslots und fünf Richtungspräfixe erklären den Großteil der\nFamilie.\n\nEntscheidung:\n`CHD_CHED_IS_ONE_TRANSFER_VERB_WITH_DIRECTION_ARGUMENT_AND_ENDPOINT_SLOTS`.\n\n## Direkte Slots\n\n| Zusatz | Lesung |\n|---|---|\n| Y | laufenden Posten umsetzen und aktiv lassen |\n| DY | umsetzen und Schritt schließen |\n| AL | an die Zielstelle umsetzen |\n| AIN | eine Portion umsetzen |\n| AIR | laufende Flüssigkeit umsetzen |\n\nDiese direkten Formen umfassen sieben Kartentypen und 20 Ereignisse.\n\n## Richtungs- und Reihenfolgepräfixe\n\n- `L+CHD` — weiterleiten und umsetzen;\n- `P+CHD` — einfüllen und umsetzen;\n- `OL+CHD` — fortsetzen und umsetzen;\n- `OT+CHD` — danach umsetzen;\n- `OK+CHD` — ansetzen, umsetzen und schließen.\n\nDamit werden etwa `lchedy`, `pchedal`, `olchedy`, `otchedy` und `qokchdy`\nnicht als unabhängige Ganzwörter behandelt.\n\n## Endpunkt\n\nZwölf nackte CHD+Y-Ereignisse setzen einen Posten um und lassen ihn verfügbar.\nDie Familie enthält insgesamt 28 geschlossene Ereignisse; alle 28 stehen\naussagefinal. Die Y/DY-Unterscheidung aus dem OK-Raster wird damit von einem\nzweiten Verb getragen.\n\n## Vorhersagen\n\n- `CHD+AR`: aus dem Vorrat umsetzen;\n- `CHD+AIR+DY`: Laufflüssigkeit umsetzen und schließen;\n- `L+CHD+AIN`: eine Portion weiterleiten und umsetzen;\n- `P+CHD+AR`: aus dem Vorrat einfüllen und umsetzen;\n- `OT+CHD+Y`: danach den Posten umsetzen und aktiv lassen.\n\nDie vorgeschlagenen Oberflächen `chedar`, `chedairdy`, `lchedain`, `pchedar`\nund `otchedchy` bleiben Werkstattprognosen; sicherer ist ihre\nKomponentenlesung.\n\n## Nächster Schritt\n\nOK und CHD werden nun gemeinsam in allen Aussagen gelesen. Gesucht wird, ob\ndie Quellfolge fest `ANSETZEN → UMSETZEN` lautet oder ob beide Verben einen\nalternierenden Arbeitszyklus bilden. Fused `OK+CHD+DY` wird als möglicher\nEin-Karten-Kurzweg gesondert behandelt.\n",
+          "sha256": "f486cd47ace7746642a01fceaf3c69f06d4c340fb43b6298e4b81806c09e8404"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "source_bound": true,
+        "unit": "Historical registered family or process model, not all visually similar strings or all pages.",
+        "source_id_context_extension": "Original inventory ID locates the status assertion; exact full same-report evidence supplies its meaning."
+      },
+      "related_existing_cards": [
+        {
+          "id": "SEM:2f4068afdc3fa2ba2cc4",
+          "claim": "Pass231 proposes an apparatus action grammar source → input → handoff → stay → outlet. Its CHK+EE+Y/DY open/closed, SHED+E/EE+DY short/long, and P/L+CHED+AL/AR/DY in/out-source/target/closure contrasts supply action structure without identifying flowing material or proving a directed image circuit.",
+          "basis_sha256": "66d0491481c08d1a417c8c040259489025845c768136717e1b0b0ece3a390218",
+          "reason": "The apparatus source/input/handoff/stay/outlet model does not state this exact five-slot and five-prefix grammar."
+        }
+      ]
+    },
+    {
+      "id": "CLEAN_GAP_BH:bidirectional_set_transfer_cycle",
+      "claim": "Pass659 proposes a bidirectional workshop cycle in which OK setup/configuration and CHD transfer can alternate in either order, including setup–transfer–setup and transfer–setup–transfer. A licensed closing form ends the process; the fused OK+CHD+DY card records setup, transfer and closure as a short path. This is the historical interpretation of the registered sequences, not proof of manuscript meaning.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:aef179ddd1d7889ce3a9"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_two_verb_cycle_six_hundred_fifty_ninth/SIX_HUNDRED_FIFTY_NINTH_REPORT.md",
+          "line": 1,
+          "line_end": 67,
+          "quote": "# Sidequest Pass 659: ANSETZEN und UMSETZEN als Arbeitszyklus\n\n## Ergebnis\n\nDie beiden produktiven Verben umfassen gemeinsam 43 exakte Kartentypen und\n122 der 381 Prosaereignisse. Fünf Ereignisse enthalten beide Kerne in derselben\nKarte. Achtzehn Aussagen verwenden sowohl OK als auch CHD.\n\nEntscheidung:\n`SET_AND_TRANSFER_FORM_A_BIDIRECTIONAL_RECONFIGURATION_CYCLE_NOT_FIXED_PRECEDENCE`.\n\n## Keine feste Verbfolge\n\nUnter den unmittelbar benachbarten Verbkarten stehen:\n\n- 5× ANSETZEN → UMSETZEN;\n- 6× UMSETZEN → ANSETZEN.\n\nAuch über die ganzen 18 Aussagen ergibt sich keine starre Richtung. Vier\nAussagen bilden echte Dreierwechsel:\n\n- `ANSETZEN → UMSETZEN → ANSETZEN` zweimal;\n- `UMSETZEN → ANSETZEN → UMSETZEN` zweimal.\n\nDie passende Werkstattlektüre ist daher ein Zyklus:\n\n> konfigurieren/ansetzen → umsetzen/weiterleiten → neu konfigurieren → erneut\n> umsetzen → schließen.\n\n## Der Ein-Karten-Kurzweg\n\nFünf Aussagen verwenden nur eine verschmolzene Verbkarte:\n\n> `OK+CHD+DY` = **ANSETZEN, UMSETZEN; SCHLUSS**\n\nAlle fünf Karten stehen final. Die Werkstatt kann damit einen ganzen kurzen\nArbeitsgang in einer gelernten Karte buchen.\n\n## Drei besonders lesbare Quellketten\n\n- `chedchy qokal olchedy`:\n  **Posten umsetzen → an der Zielstelle ansetzen → weiter umsetzen; Schluss**.\n- `qokaiin chedy qokeedy`:\n  **nach Sollmaß ansetzen → Posten umsetzen → lange ansetzen; Schluss**.\n- `qoky saiin schedair otchedy`:\n  **Posten ansetzen → Sollmaß → Laufflüssigkeit umsetzen → danach umsetzen;\n  Schluss**.\n\nDiese Folgen lesen sich als technische Mikroprozesse, ohne dass für jede Karte\nein eigenes langes Wort erfunden werden muss.\n\n## Sechs Lehrzustände\n\nDer praktische Automat unterscheidet READY, CONFIGURED, TRANSFERRED_ACTIVE,\nRECONFIGURED und CLOSED. SET führt in eine Konfiguration, TRANSFER bewegt den\naktiven Posten, ein weiteres SET konfiguriert neu, und eine lizenzierte\nSchlussvariante beendet den Gang. Der verschmolzene Kurzweg führt direkt nach\nCLOSED.\n\n## Nächster Schritt\n\nAlle 18 gemeinsamen Aussagen werden nun in flüssiges Werkstattdeutsch\nübertragen. Jede sichtbare Karte bleibt in Reihenfolge erhalten, aber die\nzusammengesetzten OK/CHD-Formen werden als kurze Verben realisiert. Danach\nwerden die überzeugendsten vollständigen Prozessketten ins aktuelle\nÜbersetzungsbuch übernommen.\n",
+          "sha256": "78a47bc2077bac694f440262db29a8490defcca221c52fee941586d79b3874e3"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "source_bound": true,
+        "unit": "Historical registered family or process model, not all visually similar strings or all pages.",
+        "source_id_context_extension": "Original inventory ID locates the status assertion; exact full same-report evidence supplies its meaning."
+      },
+      "related_existing_cards": [
+        {
+          "id": "SEM:118d710fc54864c26529",
+          "claim": "Pass655 proposes qoky, qokey, qokeey, qokedy, qokeedy and qokeeedy as productive combinations of an operation, duration grade and open versus closed endpoint.",
+          "basis_sha256": "23c15d3a62926b1d5880a8fb21c95cee84b3d655b462af99ee635b56b5387781",
+          "reason": "Individual verb/endpoint meanings do not entail the complete alternating two-verb process rule."
+        }
+      ]
+    },
+    {
+      "id": "CLEAN_GAP_BH:process_state_third_axis",
+      "claim": "Pass661 adds SHED settling, CHK warming and CTH readiness as a state axis alongside OK setup and CHD transfer. Process can precede state or state can precede renewed process; CTH readiness is an intermediate state and does not itself close the instruction. Licensed settling or warming closes remain distinct.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:0795cbd34675842f3ddd"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_process_state_axis_six_hundred_sixty_first/SIX_HUNDRED_SIXTY_FIRST_REPORT.md",
+          "line": 1,
+          "line_end": 60,
+          "quote": "# Sidequest Pass 661: ABSETZEN, WÄRMEN und BEREIT als Zustandsachse\n\n## Ergebnis\n\nDrei weitere kurze Wurzeln bilden eine Zustandsachse neben ANSETZEN und\nUMSETZEN:\n\n- `SHED` = **ABSETZEN / SICH SETZEN LASSEN** — 3 Karten, 15 Ereignisse;\n- `CHK` = **WÄRMEN** — 4 Karten, 7 Ereignisse;\n- `CTH` = **BEREIT / BEREITSCHAFT ERREICHT** — 8 Karten, 15 Ereignisse.\n\nZusammen sind das 15 Kartentypen, 37 Ereignisse und 14 Komponentenrezepte.\n\nEntscheidung:\n`SETTLE_WARM_READY_FORM_A_THIRD_AXIS_IN_A_BIDIRECTIONAL_PROCESS_STATE_CYCLE`.\n\n## Direkte Verbindung zur Zweiverbmaschine\n\nSiebzehn Aussagen enthalten sowohl ANSETZEN/UMSETZEN als auch mindestens eine\nZustandskarte. Unter den unmittelbar benachbarten Karten stehen:\n\n- 6× Prozess → Zustand;\n- 5× Zustand → Prozess.\n\nDie Zustände sind also keine bloßen Endetiketten. Ein Schreiber kann erst\nansetzen und Bereitschaft prüfen, aber auch nach `BEREIT` wieder ansetzen oder\numsetzen.\n\n## Lesbare Übergänge\n\n- `okchol cthy`:\n  **weiter ansetzen → Posten ist bereit**;\n- `qokar shedy`:\n  **aus dem Vorrat ansetzen → absetzen lassen; Schluss**;\n- `qokol shedy`:\n  **weiter ansetzen → absetzen lassen; Schluss**;\n- `qcthey qokeey`:\n  **Posten kurz bis bereit halten → länger ansetzen**;\n- `shcthey qokedy`:\n  **Posten kurz bereit halten → kurz ansetzen; Schluss**;\n- `cheky okeeol`:\n  **Posten kurz wärmen → länger fortsetzen**.\n\n## Endpunkte\n\nDie Zustandsfamilien enthalten 14 geschlossene Ereignisse:\n\n- 13 Absetz-Schlüsse;\n- 1 langer Wärme-Schluss.\n\nAlle 14 stehen am Aussageende. `CTH=BEREIT` schließt dagegen nie von selbst;\nes ist ein prüfbarer Zwischenzustand.\n\n## Nächster Schritt\n\nDie elf unmittelbaren Prozess–Zustands-Übergänge werden zu einem kleinen\nPhrasenbuch verdichtet. Ziel sind sechs Lehrphrasen für Ansetzen→Bereit,\nAnsetzen→Absetzen, Bereit→Ansetzen, Bereit→Umsetzen, Wärmen→Fortsetzen und den\nverschmolzenen Bereit/Umsetzen→Ansetzen-Übergang.\n",
+          "sha256": "c9bfaa4b0fe6665bf395f9d79e50ab3beca846c6a70c62833b7d6be16262cddb"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "source_bound": true,
+        "unit": "Historical registered family or process model, not all visually similar strings or all pages.",
+        "source_id_context_extension": "Original inventory ID locates the status assertion; exact full same-report evidence supplies its meaning."
+      },
+      "related_existing_cards": [
+        {
+          "id": "SEM:4b10008c16172e4631cc",
+          "claim": "The Pass431 B1 station model teaches a base operation, duration, address and optional closure: qokey/qokedy briefly set up with open/closed alternatives; okeey sets up longer; qokeedal holds longer at a place; dsheol briefly holds and continues; cheky briefly warms; the registered shedy/cheedy/tedy card briefly settles and closes; olkeedy catches longer and closes; oiiin sets the demanded stage. Its local process goes from setting up through possible longer holding and short warming/settling to longer catching of the separated product.",
+          "basis_sha256": "a69efd9f407ad5dcc1ebe8db192cc90e570a9dee85c536161bbd4c98f0ef16d8",
+          "reason": "The local Pass431 B1 sequence contains these actions but not the source-wide bidirectional process/state architecture or readiness nonclosure rule."
+        }
+      ]
+    },
+    {
+      "id": "CLEAN_GAP_BH:or_nominal_composition_schema",
+      "claim": "Pass664 proposes OR as a portable preparation/batch noun, distinct from the OK setup verb, with no inherent closure. Its registered recipes realize bare preparation, a ready operation with preparation, taking briefly from the active item for preparation, taking subsequently from preparation, continuing preparation, dosing preparation into the running operation, a portion of preparation, taking an ingredient for preparation, cooling preparation at the target, and routing preparation onward to the target. Local source and target qualifiers do not make OR itself an action or punctuation.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:c1893f43a9e2cb3d0f01"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_or_preparation_noun_six_hundred_sixty_fourth/SIX_HUNDRED_SIXTY_FOURTH_REPORT.md",
+          "line": 1,
+          "line_end": 58,
+          "quote": "# Sidequest Pass 664: OR als Ansatz/Zubereitung\n\n## Ergebnis\n\nOR ist ein portables Materialnomen:\n\n> `OR` = **ANSATZ / ZUBEREITUNG**\n\nZehn Kartentypen und 18 Vorkommen auf fünf Seiten und in acht Records teilen\ndiesen Wert. Die nackte Karte erscheint siebenmal in vier Schreiberformen:\n`chor`, `or`, `shor`, `sor`.\n\nEntscheidung:\n`OR_IS_A_PORTABLE_PREPARATION_NOUN_WITH_PORTION_CONTINUATION_TARGET_AND_TRANSFER_COMPOSITION`.\n\n## Zehn Kompositionen\n\n- `OR` — Ansatz/Zubereitung;\n- `CTH+O+OR` — bereiter Arbeitsgang mit dem Ansatz;\n- `Y+CH+E+OR` — vom laufenden Posten kurz für den Ansatz abnehmen;\n- `OT+CH+OR` — danach vom Ansatz abnehmen;\n- `OL+OR` — den Ansatz fortsetzen;\n- `O+Y+K+OR` — den Ansatz zum laufenden Arbeitsgang zudosieren;\n- `OR+AIN` — eine Portion des Ansatzes;\n- `HO+CH+OR` — eine Zutat für den Ansatz abnehmen;\n- `AL+R+OR` — den Ansatz an der Zielstelle kühlen;\n- `L+AL+OR` — den Ansatz zur Zielstelle weiterleiten.\n\nOR steht sechsmal am Anfang, zehnmal medial und zweimal final. Keine der 18\nKarten trägt eine Schlussfunktion. Das passt zu einem Stoff-/Chargenposten,\nnicht zu Interpunktion.\n\n## Nomen und Verb getrennt\n\nDas deutsche Paar ist bewusst knapp:\n\n- OR = **der Ansatz**;\n- OK = **ansetzen**.\n\nDamit ist keine historische Lautverwandtschaft behauptet. Für die\nWerkstattlektüre ist aber nützlich, dass Materialposten und Handlung nicht mehr\ndieselbe satzlange Glosse tragen.\n\n## Vorhersagen\n\n- OR+AIIN — Ansatz nach Sollmaß;\n- OR+AL — Ansatz für die Zielstelle;\n- OR+AR — Ansatz aus dem Vorrat;\n- OR+AIR — laufender/fließender Ansatz;\n- OR+Y — aktueller Ansatzposten.\n\n## Nächster Schritt\n\nCKH wird als nächster technischer Nomenkern geschlossen. Die Zielglosse ist\ndas einzelne Wort **DURCHLASS**. Y, AL, L, SH, CH, O, E und DY sollen daraus\naktiver Durchlass, Zielpassage, Weiterleitung, Halten, Abnehmen, Arbeitsgang,\nKurzgrad und Schluss bilden.\n",
+          "sha256": "a10e5f18e66080176ac1f938ffea7fa24123295a47ab3f0e0e7f27741d62bc50"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "source_bound": true,
+        "unit": "Historical registered family or process model, not all visually similar strings or all pages.",
+        "source_id_context_extension": "Original inventory ID locates the status assertion; exact full same-report evidence supplies its meaning."
+      },
+      "related_existing_cards": [
+        {
+          "id": "SEM:ec1a25e412565b0a1756",
+          "claim": "OR → ANSATZ",
+          "basis_sha256": "5ec49716383a817ed1af5590b6a001348432eda7c8076bf03c54a355adb4e071",
+          "reason": "Bare OR=ANSATZ and broader register realization do not enumerate this ten-recipe nominal composition scheme."
+        }
+      ]
+    }
+  ],
+  "dispositions": [],
+  "source_reassessments": [
+    {
+      "source_id": "LEGACY_COMPONENT:af567b873b6357dcbb61",
+      "decision": "existing_paradigm_additional_source_context",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:118d710fc54864c26529"
+      ],
+      "reason": "The selected status asserts the same operation/duration/active-versus-closed paradigm already explicit in Pass655. Pass656 supplies additional inventory and local realizations; neither new counts nor additional example cells alone require another general paradigm card. This does not certify every separate prediction in the full report as independently inventoried.",
+      "does_not_replace_intake_disposition": true
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:7e894ecb7aea909e74f4",
+      "decision": "recover_missing_full_proposition",
+      "card_ids": [
+        "CLEAN_GAP_BH:ok_seven_argument_schema"
+      ],
+      "counterpart_ids": [],
+      "reason": "The existing duration/endpoint paradigm does not state the seven-argument schema.",
+      "does_not_replace_intake_disposition": true
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:bc210b8c29bf724d9102",
+      "decision": "recover_missing_full_proposition",
+      "card_ids": [
+        "CLEAN_GAP_BH:chd_transfer_valency"
+      ],
+      "counterpart_ids": [],
+      "reason": "The apparatus source/input/handoff/stay/outlet model does not state this exact five-slot and five-prefix grammar.",
+      "does_not_replace_intake_disposition": true
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:aef179ddd1d7889ce3a9",
+      "decision": "recover_missing_full_proposition",
+      "card_ids": [
+        "CLEAN_GAP_BH:bidirectional_set_transfer_cycle"
+      ],
+      "counterpart_ids": [],
+      "reason": "Individual verb/endpoint meanings do not entail the complete alternating two-verb process rule.",
+      "does_not_replace_intake_disposition": true
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:0795cbd34675842f3ddd",
+      "decision": "recover_missing_full_proposition",
+      "card_ids": [
+        "CLEAN_GAP_BH:process_state_third_axis"
+      ],
+      "counterpart_ids": [],
+      "reason": "The local Pass431 B1 sequence contains these actions but not the source-wide bidirectional process/state architecture or readiness nonclosure rule.",
+      "does_not_replace_intake_disposition": true
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:c1893f43a9e2cb3d0f01",
+      "decision": "recover_missing_full_proposition",
+      "card_ids": [
+        "CLEAN_GAP_BH:or_nominal_composition_schema"
+      ],
+      "counterpart_ids": [],
+      "reason": "Bare OR=ANSATZ and broader register realization do not enumerate this ten-recipe nominal composition scheme.",
+      "does_not_replace_intake_disposition": true
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:861265cf3587a8aea7ab",
+      "decision": "existing_composition_model_followthrough",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:f6110b6470edb99f33be"
+      ],
+      "reason": "The existing Pass664 prospective model already specifies CKH=DURCHLASS plus Y/AL/L/SH/CH/O/E/DY active/target/direction/hold/take/operation/grade/close roles. Pass665 applies that same model to nine registered recipes. Preserve its later source realization; do not equate model application with independent empirical confirmation or promote each derived composition to a new theory.",
+      "does_not_replace_intake_disposition": true
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:cf8709d1a356940b5e12",
+      "decision": "supporting_source_case_existing_bd_proposal",
+      "card_ids": [],
+      "counterpart_ids": [
+        "CLEAN_GAP_BD:etyd_dose"
+      ],
+      "reason": "This exact source span is already quoted in BD etyd_dose. It describes the open handoff that licenses the GABE choice; preserve this additional source ID attribution rather than a second meaning card.",
+      "does_not_replace_intake_disposition": true
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:54b68f28a1f5670040c2",
+      "decision": "prospective_local_scope_question_not_new_assignment",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:2e716593e5633901fccf",
+        "CLEAN_GAP_BD:dies_dort_active_item"
+      ],
+      "reason": "The question tests whether the already assigned DIESER POSTEN reading applies to the just-added portion in B2-S003. The alternative eigene Sachbedeutung names no competing object or value and is explicitly future work. Preserve the concrete local prospective comparison as source memory; do not mint an unspecified noun-value placeholder or report an outcome.",
+      "does_not_replace_intake_disposition": true
+    }
+  ],
+  "limits": [
+    "Nine exact BD corrections resolved; no other source block or full-report completeness claim.",
+    "Five proposals are historical model assumptions, not independent semantic discoveries or verified plaintext.",
+    "Seven status assertions were read in full primary context; source format is not a content filter.",
+    "Bounded comparison includes current complete claims and pending BB/BD/BE draft claims; no automatic semantic merging.",
+    "All nine IDs receive later reassessments, never new initial intake dispositions.",
+    "No operative changes."
+  ],
+  "input_sha256": {
+    "research_registry/decisions/source_coverage_gap_batch_bd.json": "cc45b5a1b13cbff47c7952b0291a6460be9561d72a6d86b1713ccbf4e3a11eea",
+    "research_registry/decisions/clean_gap_review_bd.json": "d354778abd69802fc261a06a59ad57c33448df85ef79e7c015f77fcde0934901",
+    "research_registry/decisions/clean_gap_peer_review_bd.json": "343c17db2ed95a6bac13ec550b206491b254262c7f10cdaa6b47f000d21c101c",
+    "research_registry/semantic_ideas.jsonl": "128306f51136dd56227f2be8824c5fa895063880d5cfe593d5310d9193f4d406",
+    "research_registry/decisions/clean_gap_review_bb.json": "f09eae60284584c168727cf974269b2c19c93cec2490faf974d2ead16b5cce13",
+    "research_registry/decisions/clean_gap_review_be.json": "0e1acad7a8a292917fa85c7dbbb8a6407ff68af0966adc6791cee6d8e1c9b0f4"
+  },
+  "integration_provenance": {
+    "raw_review": "research_registry/decisions/clean_gap_review_bh.json",
+    "raw_sha256": "bdbd3a984fc6cddaffb2d18f58a77f496a428bd2dddfa0adaea6085002a840ec",
+    "reviewer": "root",
+    "primary_review": "Root read all five BH full claims, exact primary reports and scope limits; no independent meaning result adopted."
+  },
+  "root_adjustments": [],
+  "validation": {
+    "status": "PASS",
+    "cards_validated": 5,
+    "all_exact_quotes_and_hashes_checked": true,
+    "meaning_confirmation": false
+  }
+}

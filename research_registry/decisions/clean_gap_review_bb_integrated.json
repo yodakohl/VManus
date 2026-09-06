@@ -1,0 +1,1667 @@
+{
+  "schema": "source_semantic_coverage_review_v1",
+  "review_id": "BB",
+  "counts": {
+    "blocks_fully_read": 100,
+    "cards": 16,
+    "card_coverage": {
+      "local_scope_instance": 2,
+      "additional_addressable_assertion": 14
+    },
+    "dispositions": {
+      "method_result_or_editorial_context": 56,
+      "existing_component_assertion": 6,
+      "local_scope_instance": 2,
+      "existing_assertion_or_scope_instance": 17,
+      "additional_addressable_assertion": 19
+    },
+    "exact_evidence_checks": 21
+  },
+  "limits": [
+    "100 selected short public prose spans, not 100 entire reports. No raw manuscript/source-data/image access.",
+    "Current source/member matches were navigation only; current complete claims and pending AX/AY/AZ/BA were compared. No global novelty or exhaustive equivalence claim.",
+    "Local composite and antecedent cases are explicitly instances rather than independent mechanisms.",
+    "No operational card, type, identity, failure or reopening decision is applied by this file."
+  ],
+  "input_sha256": {
+    "research_registry/decisions/clean_gap_review_ax.json": "56292107fb042381a5a01b3f07b04686236dc0041bba285cb270394d0e1cff98",
+    "research_registry/decisions/clean_gap_review_ay.json": "76c99f57b99e45b4e2ecc1779a5f2789c3bc8d1607d65f06b3a9ac9a532fc80a",
+    "research_registry/decisions/clean_gap_review_az.json": "82d81898d9ee19b5a895d390b9e8c35479dfb7532f5d6345f6ba137ab55eeff6",
+    "research_registry/decisions/clean_gap_review_ba.json": "fe238aada1a43e0962686819a2c81a4a2726c5ce25018d4b997f1d9c8e5e4c34"
+  },
+  "cards": [
+    {
+      "id": "CLEAN_GAP_BB:o_complete_compositions",
+      "claim": "Pass833 reads LSH+O as SPUELEN · ARBEITSGANG, T+CH+O+DY as BEARBEITEN · ENTNEHMEN · ARBEITSGANG · SCHLUSS, and O+CTH+OL+Y as preparing the current POSTEN further in the current work step.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:d7d264e95adb78d9c4bc"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_ninth_workshop_grammar_eight_hundred_thirty_third/EIGHT_HUNDRED_THIRTY_THIRD_REPORT.md",
+          "line": 13,
+          "line_end": 17,
+          "quote": "This is a compression improvement, not a new long gloss. `LSH+O` is now\n“SPUELEN · ARBEITSGANG”, `T+CH+O+DY` is “BEARBEITEN · ENTNEHMEN ·\nARBEITSGANG · SCHLUSS”, and `O+CTH+OL+Y` says that the POSTEN is prepared\nfurther in the current work step. The editor no longer has to insert the noun\n“Arbeitsgang” behind an abstract “Vorgang”.",
+          "sha256": "c36ce9efb5d7d214d9cc986457b5c90176aef754109ac2d46c5b812d22d7479b",
+          "source_id": "LEGACY_COMPONENT:d7d264e95adb78d9c4bc"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "kind": "historical_source_bound_proposition",
+        "source": "experiments/yolo/sidequest_semantic_ninth_workshop_grammar_eight_hundred_thirty_third/EIGHT_HUNDRED_THIRTY_THIRD_REPORT.md",
+        "limits": "Historical creative working interpretation only; neither independent meaning confirmation nor an experimental reopening. No transfer across editions or card inventories is asserted."
+      },
+      "coverage_class": "local_scope_instance",
+      "independent_new_idea": false,
+      "comparison": {
+        "counterpart_ids": [
+          "SEM:0c23236ad0885bdaaf05"
+        ],
+        "reason": "Three explicitly spelled-out local applications of the O=ARBEITSGANG revision; addressable composite cases, not three independent mechanisms."
+      }
+    },
+    {
+      "id": "CLEAN_GAP_BB:ckh_middle_address",
+      "claim": "Pass836 proposes that CKH=DURCHLASS supplies a middle address between AR source and AL target, rather than merely another object noun.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:60ee97f4d33380bb074f"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_source_target_paradigm_eight_hundred_thirty_sixth/EIGHT_HUNDRED_THIRTY_SIXTH_REPORT.md",
+          "line": 24,
+          "line_end": 26,
+          "quote": "Next: integrate the strongest AR/AL swaps into the active prediction deck and\nthen test whether CKH=DURCHLASS supplies a genuine middle address between AR\nand AL rather than merely another object noun.",
+          "sha256": "e28ae2115aa1cfb924b9c8ea67d82b236c86cbef862be5668d6c535437181a9b",
+          "source_id": "LEGACY_COMPONENT:60ee97f4d33380bb074f"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "kind": "historical_source_bound_proposition",
+        "source": "experiments/yolo/sidequest_semantic_source_target_paradigm_eight_hundred_thirty_sixth/EIGHT_HUNDRED_THIRTY_SIXTH_REPORT.md",
+        "limits": "Historical creative working interpretation only; neither independent meaning confirmation nor an experimental reopening. No transfer across editions or card inventories is asserted."
+      },
+      "coverage_class": "additional_addressable_assertion",
+      "independent_new_idea": true,
+      "comparison": {
+        "counterpart_ids": [
+          "SEM:a221b56f4a27d20dd7d4",
+          "SEM:7f576eba1841e5d76482"
+        ],
+        "reason": "AR and AL lexical cards do not assert the proposed intervening address relation; the source poses this as an untested next question."
+      }
+    },
+    {
+      "id": "CLEAN_GAP_BB:qekey_separate_short_modifiers",
+      "claim": "Pass839 reads the two E components of qekey=E+K+E+Y as separate short modifiers in two slots, rather than merging their co-occurrence into one EE long modifier.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:4d2eb1afb09879cfb057"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_grade_composition_eight_hundred_thirty_ninth/EIGHT_HUNDRED_THIRTY_NINTH_REPORT.md",
+          "line": 9,
+          "line_end": 12,
+          "quote": "There are 53 unique grade-bearing cards and 91 events. Component membership is\n54/92 because `qekey = E+K+E+Y` contains two separate short modifiers in two\nslots. This card is a crucial teaching control: two E tokens do not fuse into\nEE merely by co-occurring.",
+          "sha256": "56428dcae3ae0d6ec1439da683fb54a70f8f0d665428a13849a742eb74ec1b84",
+          "source_id": "LEGACY_COMPONENT:4d2eb1afb09879cfb057"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "kind": "historical_source_bound_proposition",
+        "source": "experiments/yolo/sidequest_semantic_grade_composition_eight_hundred_thirty_ninth/EIGHT_HUNDRED_THIRTY_NINTH_REPORT.md",
+        "limits": "Historical creative working interpretation only; neither independent meaning confirmation nor an experimental reopening. No transfer across editions or card inventories is asserted."
+      },
+      "coverage_class": "additional_addressable_assertion",
+      "independent_new_idea": true,
+      "comparison": {
+        "counterpart_ids": [
+          "SEM:83dad8cb69ae8d876055",
+          "CLEAN_GAP_AY:qekey_current_item"
+        ],
+        "reason": "The existing qekey card is a formal decomposition; the new assertion is the semantic scope and non-fusion of its two short modifiers."
+      }
+    },
+    {
+      "id": "CLEAN_GAP_BB:davon_two_antecedents",
+      "claim": "Pass843 reads dchol/schol=DAVON in f11r H3 as resuming the material just held and worked before adding and carrying it to measure, and in f56r H5 as resuming the material prepared at the target before guiding and setting it.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:c8f0c111db701ce868d3"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_first_mixed_tier_eight_hundred_forty_third/EIGHT_HUNDRED_FORTY_THIRD_REPORT.md",
+          "line": 7,
+          "line_end": 12,
+          "quote": "The whole card is `dchol/schol = DAVON`. Both occurrences are Herbal—not one\nHerbal and one Biological, as briefly misstated while planning this pass. In\nf11r H3 it follows “hold and work the current item” and resumes that material\nbefore adding and carrying it to measure. In f56r H5 it follows preparation at\nthe target and resumes that prepared material before guiding and setting it.\nThe short anaphor therefore works in both distinct plant records.",
+          "sha256": "bf163e9549f048d7e70b5968f541d1c8af7aa73c0af6c9d903063d7dddffb61f",
+          "source_id": "LEGACY_COMPONENT:c8f0c111db701ce868d3"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "kind": "historical_source_bound_proposition",
+        "source": "experiments/yolo/sidequest_semantic_first_mixed_tier_eight_hundred_forty_third/EIGHT_HUNDRED_FORTY_THIRD_REPORT.md",
+        "limits": "Historical creative working interpretation only; neither independent meaning confirmation nor an experimental reopening. No transfer across editions or card inventories is asserted."
+      },
+      "coverage_class": "local_scope_instance",
+      "independent_new_idea": false,
+      "comparison": {
+        "counterpart_ids": [
+          "SEM:09010ce151a5e8c7add0"
+        ],
+        "reason": "Two explicit historical antecedent assignments addressable separately from the bare DAVON gloss; local instances, not a new anaphora mechanism. Both are Herbal, correcting the earlier planning statement."
+      }
+    },
+    {
+      "id": "CLEAN_GAP_BB:meaning_to_surface_order",
+      "claim": "Pass855–856 proposes a writing chain from ordinary recipe intention to shortened semantic prompts, then exact shared cards, then component readings and scribe-specific registered surfaces; DAVON and DAZU choose whole cards, WATER/SOURCE/MEASURE remain separate, and closures are selected as licensed cards.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "LEGACY_COMPONENT:71c9ac197e48ce80cf1b",
+        "LEGACY_COMPONENT:058743a88d85edb25e04"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_inverse_apprentice_encoding_eight_hundred_fifty_fifth/EIGHT_HUNDRED_FIFTY_FIFTH_REPORT.md",
+          "line": 8,
+          "line_end": 10,
+          "quote": "The important order is now explicit: meaning prompt -> exact card -> component\nreading -> personal surface. DAVON and DAZU select whole cards; WATER, SOURCE\nand MEASURE remain separate; closing constructions are chosen as licensed cards.",
+          "sha256": "590cd8923b8958d0d175e6187070c76777ba70d9a58a6d7567eae6d1aa246651",
+          "source_id": "LEGACY_COMPONENT:71c9ac197e48ce80cf1b"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_c1420_recipe_source_skeleton_eight_hundred_fifty_sixth/EIGHT_HUNDRED_FIFTY_SIXTH_REPORT.md",
+          "line": 16,
+          "line_end": 17,
+          "quote": "The working production chain is now: ordinary recipe intention -> shortened\nsemantic prompts -> shared exact cards -> scribe-specific registered surfaces.",
+          "sha256": "8881c24955d033a9bce910936d3d58e6ed67d678c7f2681a93b8f43f02dd1d60",
+          "source_id": "LEGACY_COMPONENT:058743a88d85edb25e04"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "kind": "historical_source_bound_proposition",
+        "source": "experiments/yolo/sidequest_semantic_inverse_apprentice_encoding_eight_hundred_fifty_fifth/EIGHT_HUNDRED_FIFTY_FIFTH_REPORT.md",
+        "limits": "Historical creative working interpretation only; neither independent meaning confirmation nor an experimental reopening. No transfer across editions or card inventories is asserted."
+      },
+      "coverage_class": "additional_addressable_assertion",
+      "independent_new_idea": true,
+      "comparison": {
+        "counterpart_ids": [
+          "SEM:a1c1a0a744bb1db99276"
+        ],
+        "reason": "The already recorded generic elliptical-abbreviation model lacks this complete staged card-selection contract and the explicit whole-card versus component cases."
+      }
+    },
+    {
+      "id": "CLEAN_GAP_BB:oty_tch_ol_phrase",
+      "claim": "Pass857 reads the complete OT+Y+T+CH+OL card as a chained instruction: then operate on the item, take it and continue; its technical brevigraph compresses a source phrase rather than spelling one word.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:4d6f6de09ac62228d3d4"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_h1_source_reconstruction_eight_hundred_fifty_seventh/EIGHT_HUNDRED_FIFTY_SEVENTH_REPORT.md",
+          "line": 7,
+          "line_end": 11,
+          "quote": "Ten cards carry twenty-three short semantic atoms. The distribution is three\none-atom, three two-atom, three three-atom and one five-atom card. The densest,\nOT+Y+T+CH+OL, naturally expands as a chained instruction: then operate on the\nitem, take it and continue. That is the clearest current example of a technical\nbrevigraph card compressing a source phrase rather than spelling one word.",
+          "sha256": "e1f718add300c43f72e51f235368dd430bd1bcfc14db26b57662cab7ce489682",
+          "source_id": "LEGACY_COMPONENT:4d6f6de09ac62228d3d4"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "kind": "historical_source_bound_proposition",
+        "source": "experiments/yolo/sidequest_semantic_h1_source_reconstruction_eight_hundred_fifty_seventh/EIGHT_HUNDRED_FIFTY_SEVENTH_REPORT.md",
+        "limits": "Historical creative working interpretation only; neither independent meaning confirmation nor an experimental reopening. No transfer across editions or card inventories is asserted."
+      },
+      "coverage_class": "additional_addressable_assertion",
+      "independent_new_idea": true,
+      "comparison": {
+        "counterpart_ids": [],
+        "reason": "A complete ordered card instruction and phrase-sized unit claim; separate atoms or generic brevigraph theory do not record this whole reading."
+      }
+    },
+    {
+      "id": "CLEAN_GAP_BB:h1_elliptic_continuation",
+      "claim": "Pass858 reads H1-S002 as an elliptic continuation of H1-S001: the picture owner and active preparation are inherited, Y locally supplies the current item, and neither statement receives an invented closing card.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:1c71332675b6f922c812",
+        "LEGACY_COMPONENT:8716127e697721587d3f"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_h1_continuation_eight_hundred_fifty_eighth/EIGHT_HUNDRED_FIFTY_EIGHTH_REPORT.md",
+          "line": 3,
+          "line_end": 5,
+          "quote": "H1-S002 maps four cards to eight semantic atoms without repeating the pictured\nplant or the preparation established in H1-S001. PICTURE_OWNER and\nACTIVE_PREPARATION remain inherited; Y supplies the current item locally.",
+          "sha256": "76cecf55efb7613637be4f23558fd64750679f11e40085ce151bd8233bed1860",
+          "source_id": "LEGACY_COMPONENT:1c71332675b6f922c812"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_h1_continuation_eight_hundred_fifty_eighth/EIGHT_HUNDRED_FIFTY_EIGHTH_REPORT.md",
+          "line": 7,
+          "line_end": 10,
+          "quote": "The complete H1 article now has fourteen cards and thirty-one semantic atoms.\nIts second statement is shorter because it is an elliptic continuation, not\nbecause the four cards lack content. Neither statement has an explicit closing\ncard, so the edition leaves the article open instead of inventing punctuation.",
+          "sha256": "76cecf55efb7613637be4f23558fd64750679f11e40085ce151bd8233bed1860",
+          "source_id": "LEGACY_COMPONENT:8716127e697721587d3f"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "kind": "historical_source_bound_proposition",
+        "source": "experiments/yolo/sidequest_semantic_h1_continuation_eight_hundred_fifty_eighth/EIGHT_HUNDRED_FIFTY_EIGHTH_REPORT.md",
+        "limits": "Historical creative working interpretation only; neither independent meaning confirmation nor an experimental reopening. No transfer across editions or card inventories is asserted."
+      },
+      "coverage_class": "additional_addressable_assertion",
+      "independent_new_idea": true,
+      "comparison": {
+        "counterpart_ids": [
+          "SEM:50c09d8f7e0b36a159f9"
+        ],
+        "reason": "Older H1-S002 substantive medical/noun reconstruction is a different full assertion; this source specifically binds the inherited registers and absence of closing."
+      }
+    },
+    {
+      "id": "CLEAN_GAP_BB:f10r_branch_article",
+      "claim": "Pass859–860 reads f10r as one picture-owned article with two record blocks: H2 takes a small portion from H1’s active preparation, continues that derived batch, then adds to and draws from the same branch without owner reset or closing; persistent registers carry the main preparation, current item, source/water and derived branch.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "LEGACY_COMPONENT:a0f5fd14f81221a3bd26",
+        "LEGACY_COMPONENT:dc66710c2580a0ffe8bd"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_h2_branch_reconstruction_eight_hundred_fifty_ninth/EIGHT_HUNDRED_FIFTY_NINTH_REPORT.md",
+          "line": 3,
+          "line_end": 6,
+          "quote": "The three H2 statements contain twenty-four cards and forty-two semantic atoms.\nThe working source reading takes a small portion from H1's active preparation,\ncontinues that derived batch, then adds to and draws from the same branch. There\nis no owner reset and no closing card.",
+          "sha256": "67cc4d0b976a0abbecd1bb6f4e40e180370216cd3e90dd39bd3718f37df3b7d0",
+          "source_id": "LEGACY_COMPONENT:a0f5fd14f81221a3bd26"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_f10r_complete_source_edition_eight_hundred_sixtieth/EIGHT_HUNDRED_SIXTIETH_REPORT.md",
+          "line": 3,
+          "line_end": 7,
+          "quote": "The entire fixed f10r text is now one picture-owned article with two record\nblocks and five working statements. One image owner, five persistent registers\nand thirty-eight visible cards divide the work cleanly. The cards contribute\nseventy-three ordered semantic atoms; the picture supplies the plant; registers\ncarry the main preparation, current item, source/water and derived branch.",
+          "sha256": "77fd5682d650b2913e0e507b454bd7055133262a5a4af0d7d05ad29e8938964f",
+          "source_id": "LEGACY_COMPONENT:dc66710c2580a0ffe8bd"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "kind": "historical_source_bound_proposition",
+        "source": "experiments/yolo/sidequest_semantic_h2_branch_reconstruction_eight_hundred_fifty_ninth/EIGHT_HUNDRED_FIFTY_NINTH_REPORT.md",
+        "limits": "Historical creative working interpretation only; neither independent meaning confirmation nor an experimental reopening. No transfer across editions or card inventories is asserted."
+      },
+      "coverage_class": "additional_addressable_assertion",
+      "independent_new_idea": true,
+      "comparison": {
+        "counterpart_ids": [
+          "SEM:4f57ef87120321bb1a5e"
+        ],
+        "reason": "The broad existing claim that both paragraphs belong to one plant dossier does not assert this ordered derivation and persistent-state relation."
+      }
+    },
+    {
+      "id": "CLEAN_GAP_BB:f11r_closed_extract_resumption",
+      "claim": "Pass861 reads f11r as first pressing/receiving material and closing that phase, then a short work statement followed by DAVON resuming the produced material for two open continuation statements; unlike f10r’s open branching, this closes an extract and reopens a portion.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:b828d425b97a49f44620",
+        "LEGACY_COMPONENT:20fb5a96d95ff57c9829"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_f11r_extraction_source_edition_eight_hundred_sixty_first/EIGHT_HUNDRED_SIXTY_FIRST_REPORT.md",
+          "line": 3,
+          "line_end": 6,
+          "quote": "The f11r plant article has seventeen cards, four statements and thirty-eight\nsemantic atoms. Its first seven-card phase presses/receives material and closes.\nAfter one short work statement, learned whole card DAVON explicitly resumes the\nproduced material for two open continuation statements.",
+          "sha256": "90f8720133530bdee7373378d0cb171178c9c0d836d7a36549a512191bfec007",
+          "source_id": "LEGACY_COMPONENT:b828d425b97a49f44620"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_f11r_extraction_source_edition_eight_hundred_sixty_first/EIGHT_HUNDRED_SIXTY_FIRST_REPORT.md",
+          "line": 8,
+          "line_end": 10,
+          "quote": "The three-layer architecture matches f10r: picture owner, persistent registers,\nvisible card instructions. The process shape differs: f10r stays open and branches;\nf11r closes a first extract and reopens a portion. No new card meanings are needed.",
+          "sha256": "90f8720133530bdee7373378d0cb171178c9c0d836d7a36549a512191bfec007",
+          "source_id": "LEGACY_COMPONENT:20fb5a96d95ff57c9829"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "kind": "historical_source_bound_proposition",
+        "source": "experiments/yolo/sidequest_semantic_f11r_extraction_source_edition_eight_hundred_sixty_first/EIGHT_HUNDRED_SIXTY_FIRST_REPORT.md",
+        "limits": "Historical creative working interpretation only; neither independent meaning confirmation nor an experimental reopening. No transfer across editions or card inventories is asserted."
+      },
+      "coverage_class": "additional_addressable_assertion",
+      "independent_new_idea": true,
+      "comparison": {
+        "counterpart_ids": [
+          "SEM:09010ce151a5e8c7add0",
+          "SEM:97de9a9a9800e3cc1a17"
+        ],
+        "reason": "Older cloth-filtration readings and the bare DAVON card do not contain this full phase and resumption assertion."
+      }
+    },
+    {
+      "id": "CLEAN_GAP_BB:f56r_ingredient_cycles",
+      "claim": "Pass863 reads the f56r article as a measured ingredient batch taken through one closed passage product, followed by two additional ingredient/application cycles.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:3bdfaadbf8a9e38a8e77"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_f56r_ingredient_source_edition_eight_hundred_sixty_third/EIGHT_HUNDRED_SIXTY_THIRD_REPORT.md",
+          "line": 3,
+          "line_end": 5,
+          "quote": "The f56r article has twenty-seven cards, six statements and fifty-eight semantic\natoms. It runs a measured ingredient batch through one closed passage product,\nthen opens two additional ingredient/application cycles.",
+          "sha256": "6d1ed89f0747e3334cb69f0d833b88049b904b82e43830b091e51b3861f8fb0e",
+          "source_id": "LEGACY_COMPONENT:3bdfaadbf8a9e38a8e77"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "kind": "historical_source_bound_proposition",
+        "source": "experiments/yolo/sidequest_semantic_f56r_ingredient_source_edition_eight_hundred_sixty_third/EIGHT_HUNDRED_SIXTY_THIRD_REPORT.md",
+        "limits": "Historical creative working interpretation only; neither independent meaning confirmation nor an experimental reopening. No transfer across editions or card inventories is asserted."
+      },
+      "coverage_class": "additional_addressable_assertion",
+      "independent_new_idea": true,
+      "comparison": {
+        "counterpart_ids": [
+          "SEM:125c533d369185335ee3"
+        ],
+        "reason": "Existing local plant/ingredient interpretations do not state this ordered process architecture."
+      }
+    },
+    {
+      "id": "CLEAN_GAP_BB:herbal_four_process_contrast",
+      "claim": "Pass864 assigns the four fixed Herbal articles distinct process shapes: f10r open preparation and branching, f11r closed extraction and resumption, f55v measured batching/heating, and f56r ingredient/application cycles.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "LEGACY_COMPONENT:f22dae6e177dfe983f65"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_four_herbal_process_atlas_eight_hundred_sixty_fourth/EIGHT_HUNDRED_SIXTY_FOURTH_REPORT.md",
+          "line": 3,
+          "line_end": 6,
+          "quote": "The four fixed Herbal pages now form a single atlas of one hundred cards,\nnineteen statements and 206 semantic atoms under four picture owners. Their\nprocesses are deliberately different: open preparation/branch; closed extraction\nand resumption; measured batching/heating; ingredient/application cycles.",
+          "sha256": "58a034e6637c2c9ce7c30b8f05421e8419aa6750128e03c56d1279e31fbab750",
+          "source_id": "LEGACY_COMPONENT:f22dae6e177dfe983f65"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_h2_branch_reconstruction_eight_hundred_fifty_ninth/EIGHT_HUNDRED_FIFTY_NINTH_REPORT.md",
+          "line": 3,
+          "line_end": 6,
+          "quote": "The three H2 statements contain twenty-four cards and forty-two semantic atoms.\nThe working source reading takes a small portion from H1's active preparation,\ncontinues that derived batch, then adds to and draws from the same branch. There\nis no owner reset and no closing card.",
+          "sha256": "67cc4d0b976a0abbecd1bb6f4e40e180370216cd3e90dd39bd3718f37df3b7d0",
+          "source_id": "LEGACY_COMPONENT:a0f5fd14f81221a3bd26"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_f10r_complete_source_edition_eight_hundred_sixtieth/EIGHT_HUNDRED_SIXTIETH_REPORT.md",
+          "line": 3,
+          "line_end": 7,
+          "quote": "The entire fixed f10r text is now one picture-owned article with two record\nblocks and five working statements. One image owner, five persistent registers\nand thirty-eight visible cards divide the work cleanly. The cards contribute\nseventy-three ordered semantic atoms; the picture supplies the plant; registers\ncarry the main preparation, current item, source/water and derived branch.",
+          "sha256": "77fd5682d650b2913e0e507b454bd7055133262a5a4af0d7d05ad29e8938964f",
+          "source_id": "LEGACY_COMPONENT:dc66710c2580a0ffe8bd"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_f11r_extraction_source_edition_eight_hundred_sixty_first/EIGHT_HUNDRED_SIXTY_FIRST_REPORT.md",
+          "line": 3,
+          "line_end": 6,
+          "quote": "The f11r plant article has seventeen cards, four statements and thirty-eight\nsemantic atoms. Its first seven-card phase presses/receives material and closes.\nAfter one short work statement, learned whole card DAVON explicitly resumes the\nproduced material for two open continuation statements.",
+          "sha256": "90f8720133530bdee7373378d0cb171178c9c0d836d7a36549a512191bfec007",
+          "source_id": "LEGACY_COMPONENT:b828d425b97a49f44620"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_f11r_extraction_source_edition_eight_hundred_sixty_first/EIGHT_HUNDRED_SIXTY_FIRST_REPORT.md",
+          "line": 8,
+          "line_end": 10,
+          "quote": "The three-layer architecture matches f10r: picture owner, persistent registers,\nvisible card instructions. The process shape differs: f10r stays open and branches;\nf11r closes a first extract and reopens a portion. No new card meanings are needed.",
+          "sha256": "90f8720133530bdee7373378d0cb171178c9c0d836d7a36549a512191bfec007",
+          "source_id": "LEGACY_COMPONENT:20fb5a96d95ff57c9829"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_f56r_ingredient_source_edition_eight_hundred_sixty_third/EIGHT_HUNDRED_SIXTY_THIRD_REPORT.md",
+          "line": 3,
+          "line_end": 5,
+          "quote": "The f56r article has twenty-seven cards, six statements and fifty-eight semantic\natoms. It runs a measured ingredient batch through one closed passage product,\nthen opens two additional ingredient/application cycles.",
+          "sha256": "6d1ed89f0747e3334cb69f0d833b88049b904b82e43830b091e51b3861f8fb0e",
+          "source_id": "LEGACY_COMPONENT:3bdfaadbf8a9e38a8e77"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_f55v_measured_batch_source_edition_eight_hundred_sixty_second/EIGHT_HUNDRED_SIXTY_SECOND_REPORT.md",
+          "line": 3,
+          "line_end": 6,
+          "quote": "The eighteen-card f55v article carries thirty-seven semantic atoms in four\nstatements. It is not the fixed Herbal set's strongest filtration page. It has\neight quantity cards, one heat card and two closes, but no AIR/water, CFH/press or\nCKH/passage card.",
+          "sha256": "db746f7b307f692485cafe42173c1133ed8d2694a71a7bb4e2ead652d3add7c2",
+          "source_id": "LEGACY_COMPONENT:2b18273bdd4c9b38ba69"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "kind": "historical_source_bound_proposition",
+        "source": "experiments/yolo/sidequest_semantic_four_herbal_process_atlas_eight_hundred_sixty_fourth/EIGHT_HUNDRED_SIXTY_FOURTH_REPORT.md",
+        "limits": "Historical creative working interpretation only; neither independent meaning confirmation nor an experimental reopening. No transfer across editions or card inventories is asserted."
+      },
+      "coverage_class": "additional_addressable_assertion",
+      "independent_new_idea": true,
+      "comparison": {
+        "counterpart_ids": [],
+        "reason": "A joint source-local contrast of four processes; not inferred merely from possession of some individual lexical atoms. The explicit f10r/f11r/f56r relations are separately recoverable subclaims."
+      }
+    },
+    {
+      "id": "CLEAN_GAP_BB:otody_relative_handle",
+      "claim": "Pass873 reads otody as FOLGEND + local condition core + LOCAL CLOSE: an internally operable workshop condition handle selected by the master, with external celestial identity and cross-page keys unresolved.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:5f1b1aa9aa4c7532bc2c"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_relative_astro_condition_vocabulary_eight_hundred_seventy_third/EIGHT_HUNDRED_SEVENTY_THIRD_REPORT.md",
+          "line": 7,
+          "line_end": 11,
+          "quote": "The sample otody becomes FOLGEND + local condition core + LOCAL CLOSE. This is not\nan external translation or a planet/month/mansion name. It is enough for internal\nworkshop use: the master selects a handle, and the scribe can copy and operate it.\nNo fully master-dependent internal payload remains, though every external celestial\nidentity and all cross-page keys remain unresolved.",
+          "sha256": "aef76a61d21f8bab877d7b05657c1621ad8dc214f31d90fc3be71a592dfb9af3",
+          "source_id": "LEGACY_COMPONENT:5f1b1aa9aa4c7532bc2c"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "kind": "historical_source_bound_proposition",
+        "source": "experiments/yolo/sidequest_semantic_relative_astro_condition_vocabulary_eight_hundred_seventy_third/EIGHT_HUNDRED_SEVENTY_THIRD_REPORT.md",
+        "limits": "Historical creative working interpretation only; neither independent meaning confirmation nor an experimental reopening. No transfer across editions or card inventories is asserted."
+      },
+      "coverage_class": "additional_addressable_assertion",
+      "independent_new_idea": true,
+      "comparison": {
+        "counterpart_ids": [],
+        "reason": "A complete local relative-handle interpretation; no planet, month or mansion name is asserted."
+      }
+    },
+    {
+      "id": "CLEAN_GAP_BB:y_aiin_y_continue_measure",
+      "claim": "Pass883 minimally reads the returned Y-AIIN-Y phrase as DEN AKTUELLEN POSTEN NACH SOLLMASS WEITERFUEHREN, explicitly without treating it as grounded equality or a semantic operator.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:1990680382772ef087d2"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_complete_phrase_first_edition_eight_hundred_eighty_third/EIGHT_HUNDRED_EIGHTY_THIRD_REPORT.md",
+          "line": 7,
+          "line_end": 9,
+          "quote": "On the restored corpus the cross-page phrasebook grows from ten to fourteen chunks: 12\nbigrams and two trigrams. The returned Y-AIIN-Y frame is read minimally as DEN AKTUELLEN\nPOSTEN NACH SOLLMASS WEITERFUEHREN, not as a grounded equality or semantic operator.",
+          "sha256": "48a6a8655ed81ff9993f64b4c015858b82812aabca28370715eb13bdb8f242f9",
+          "source_id": "LEGACY_COMPONENT:1990680382772ef087d2"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "kind": "historical_source_bound_proposition",
+        "source": "experiments/yolo/sidequest_semantic_complete_phrase_first_edition_eight_hundred_eighty_third/EIGHT_HUNDRED_EIGHTY_THIRD_REPORT.md",
+        "limits": "Historical creative working interpretation only; neither independent meaning confirmation nor an experimental reopening. No transfer across editions or card inventories is asserted."
+      },
+      "coverage_class": "additional_addressable_assertion",
+      "independent_new_idea": true,
+      "comparison": {
+        "counterpart_ids": [
+          "SEM:30bc11e49e881099a1ba",
+          "SEM:998d4eea38e553c2da8c"
+        ],
+        "reason": "The pre/post-measure and equality-frame hypotheses are different assertions; this is the source’s contrasting minimal continuation reading."
+      }
+    },
+    {
+      "id": "CLEAN_GAP_BB:six_local_condition_domains",
+      "claim": "Pass897 reads its six local celestial condition vocabularies as C1 phase items, C2 an aspect path, C3 a direct star place, C4 a marked 28-place, C5 moisture/weather conditions, and C6 light/body qualities, without assigning external celestial names.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "LEGACY_COMPONENT:86e4ccb430c1a1a60448"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_speakable_condition_lexicon_eight_hundred_ninety_seventh/EIGHT_HUNDRED_NINETY_SEVENTH_REPORT.md",
+          "line": 3,
+          "line_end": 3,
+          "quote": "Die letzten 73 Modellkopien werden zu kurzen lokalen Werkstattwörtern. C1 liest Phasenposten, C2 einen Aspektweg, C3 einen direkten Sternort, C4 einen markierten 28er-Platz, C5 Feuchte- und Wetterlagen und C6 Licht- und Körperqualitäten. Damit sind alle 437 Marken und alle 118 Einheiten sprechbar; die Diagrammwörter bleiben lokal und erhalten keine externen Himmelsnamen.",
+          "sha256": "c8278159f903312e1fb27c3517386cee25e9269c87dcaf398a6b09e2f80feb9e",
+          "source_id": "LEGACY_COMPONENT:86e4ccb430c1a1a60448"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "kind": "historical_source_bound_proposition",
+        "source": "experiments/yolo/sidequest_semantic_speakable_condition_lexicon_eight_hundred_ninety_seventh/EIGHT_HUNDRED_NINETY_SEVENTH_REPORT.md",
+        "limits": "Historical creative working interpretation only; neither independent meaning confirmation nor an experimental reopening. No transfer across editions or card inventories is asserted."
+      },
+      "coverage_class": "additional_addressable_assertion",
+      "independent_new_idea": true,
+      "comparison": {
+        "counterpart_ids": [],
+        "reason": "A six-domain joint assignment, narrower than generic WHEN/CONDITION genre and not supplied by isolated component cards."
+      }
+    },
+    {
+      "id": "CLEAN_GAP_BB:talam_opposite_place",
+      "claim": "Pass908 reads talam as T+AL+AM_ADDR, BEARBEITEN + ZIELSTELLE + GEGENFELD, giving GEGENSTELLE BEARBEITEN; locally in f55v this expands to moving the current item according to prescribed measure and then continuing work at the opposite place.",
+      "claim_type": "lexical_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:fab2aad1fd9118d28ef9"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_zero_learned_whole_roots_nine_hundred_eighth/NINE_HUNDRED_EIGHTH_REPORT.md",
+          "line": 3,
+          "line_end": 3,
+          "quote": "Die letzte Ganzwurzel zerfällt exakt als `t-al-am`: T=BEARBEITEN, AL=ZIELSTELLE, AM_ADDR=GEGENFELD. Die kurze Kartenlesung ist **GEGENSTELLE BEARBEITEN**; im f55v-Satz wird daraus: „Nach Sollmaß den laufenden Posten umsetzen und anschließend an der Gegenstelle weiterbearbeiten.“",
+          "sha256": "ca4f04ab2d693326cb269d383a077b59183e7d5231024f25b0d1f5afefa707a7",
+          "source_id": "LEGACY_COMPONENT:fab2aad1fd9118d28ef9"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_four_page_reality_check_nine_hundred_ninth/F88R_PHARMA_REALITY_CHECK.md",
+          "line": 49,
+          "line_end": 52,
+          "quote": "3. **Die lokalen Adresshilfen sind nicht global.** `AM_ADDR = GEGENFELD` und\n   `S_ADDR = STERNBEZUG` passen hier nicht. `am/om/sam` und das fuenfmalige\n   freie `s` brauchen eine Pharma-Lesung. Fuer `s` ist **UND/DANN** im\n   laufenden Rezept wesentlich plausibler als PROBE oder PHASENZEICHEN.",
+          "sha256": "52dffc1f66c13a6f98fb0e10cf7d5d091eb6397ede44adbd7a1356fe827597c2"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "kind": "historical_source_bound_proposition",
+        "source": "experiments/yolo/sidequest_semantic_zero_learned_whole_roots_nine_hundred_eighth/NINE_HUNDRED_EIGHTH_REPORT.md",
+        "limits": "Historical creative working interpretation only; neither independent meaning confirmation nor an experimental reopening. No transfer across editions or card inventories is asserted."
+      },
+      "coverage_class": "additional_addressable_assertion",
+      "independent_new_idea": true,
+      "comparison": {
+        "counterpart_ids": [
+          "SEM:28737354ecef470cbdb6",
+          "SEM:36662779aad5f0b4d16f",
+          "SEM:db851ae8b4618e145916"
+        ],
+        "reason": "Different whole-card sense from VERWAHREN, AUSZUG VERWAHREN or BEISEITESTELLEN. Subsequent rejection of the universal zero-whole-root architecture does not by itself establish rejection of this individual reading."
+      },
+      "transfer_limit": "Pass909 rejects global AM_ADDR use in Pharma; this is not a direct refutation of the local historical f55v TALAM reading."
+    },
+    {
+      "id": "CLEAN_GAP_BB:zero_learned_whole_revision",
+      "claim": "Pass908 proposed that all 231 identities and 437 marks were compositional, functional allograph families or two transparent local contractions, removing all memorized whole forms; Pass909 explicitly rejects this radical zero-learned-whole-form version.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "LEGACY_COMPONENT:851b3f65a24dfcc51b4b",
+        "LEGACY_COMPONENT:ffa0863a2365790c9c2e"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_zero_learned_whole_roots_nine_hundred_eighth/NINE_HUNDRED_EIGHTH_REPORT.md",
+          "line": 5,
+          "line_end": 5,
+          "quote": "Damit entfallen TALAM als 36. Bedeutungswurzel, WHOLE_LEXICON als achtes Kartenmuster und MEMORIZED_WHOLE_FORM als fünfzehnte Rendererregel. Die aktuelle Maschine hat 35 Bedeutungswurzeln, 11 Hilfszeichen, 7 Muster und 14 Rendererregeln; alle 231 Identitäten und 437 Marken sind kompositionell, in funktionalen Allographenfamilien oder in zwei transparenten lokalen Kontraktionen.",
+          "sha256": "ca4f04ab2d693326cb269d383a077b59183e7d5231024f25b0d1f5afefa707a7",
+          "source_id": "LEGACY_COMPONENT:851b3f65a24dfcc51b4b"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_four_page_reality_check_nine_hundred_ninth/NINE_HUNDRED_NINTH_REALITY_CHECK_REPORT.md",
+          "line": 5,
+          "line_end": 6,
+          "quote": "Die bisherige Arbeitstheorie ueberlebt, aber die radikale Pass-908-Fassung\n„null gelernte Ganzformen“ ueberlebt **nicht**.",
+          "sha256": "c23499adc22cef915619daa4ffa3d0bb9a6dd20539e400f6a0e7626fe279b001",
+          "source_id": "LEGACY_COMPONENT:ffa0863a2365790c9c2e"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_four_page_reality_check_nine_hundred_ninth/NINE_HUNDRED_NINTH_REALITY_CHECK_REPORT.md",
+          "line": 23,
+          "line_end": 27,
+          "quote": "Die vier physischen Seiten ergeben fuenf Transkriptionsselektoren, 144 Loci und\n863 sichtbare Gruppen. Nur 325 Gruppen, also 37,7 Prozent, haben exakt dieselbe\nOberflaeche wie eine Karte im Pass-908-Deck. Dieser Wert ist wichtiger als der\nviel hoehere nachtraegliche Komponentenfit: Mit sehr kurzen Wurzeln kann man\nfast jede neue Form irgendwie zerlegen.",
+          "sha256": "c23499adc22cef915619daa4ffa3d0bb9a6dd20539e400f6a0e7626fe279b001"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_four_page_reality_check_nine_hundred_ninth/NINE_HUNDRED_NINTH_REALITY_CHECK_REPORT.md",
+          "line": 107,
+          "line_end": 112,
+          "quote": "Aber keine der sechzehn kurzen Zutatenbeschriftungen ist eine alte exakte\nOberflaeche. Das ist der sauberste Gegenbeleg gegen null gelernte Ganzformen.\nEin Etikett kann intern nach demselben Schreiberbauplan aussehen und trotzdem\nals ganzer lokaler Name oder Klassencode gelernt werden. Genau so darf\n`ot-al-dy` neben einer Wurzelzeichnung nicht automatisch als der Satz „danach\nZielstelle schliessen“ gelesen werden.",
+          "sha256": "c23499adc22cef915619daa4ffa3d0bb9a6dd20539e400f6a0e7626fe279b001"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_four_page_reality_check_nine_hundred_ninth/NINE_HUNDRED_NINTH_REALITY_CHECK_REPORT.md",
+          "line": 175,
+          "line_end": 184,
+          "quote": "**KEEP: kleine produktive Grammatik.**  Sie uebertraegt am besten bei Ordnung,\nMenge, Adresse, Grad, Bezug und Abschluss.\n\n**WITHDRAW: null gelernte Ganzformen.**  f88r und f70v brauchen einen lokalen\nNomenklator, auch wenn ihre Formen oft aus bekannten Schriftbausteinen gebaut\nsind.\n\n**WITHDRAW: ein Stamm hat ueberall dasselbe konkrete Sachwort.**  Der portable\nKern ist haeufig abstrakter; Wasser, Bad, Pflanze, Auszug und Tierkreisfigur\nkommen vom Bildregister.",
+          "sha256": "c23499adc22cef915619daa4ffa3d0bb9a6dd20539e400f6a0e7626fe279b001"
+        }
+      ],
+      "status": "source_report_rejected",
+      "ready": false,
+      "scope": {
+        "kind": "historical_source_bound_proposition",
+        "source": "experiments/yolo/sidequest_semantic_zero_learned_whole_roots_nine_hundred_eighth/NINE_HUNDRED_EIGHTH_REPORT.md",
+        "limits": "Historical creative working interpretation only; neither independent meaning confirmation nor an experimental reopening. No transfer across editions or card inventories is asserted."
+      },
+      "coverage_class": "additional_addressable_assertion",
+      "independent_new_idea": true,
+      "comparison": {
+        "counterpart_ids": [],
+        "reason": "A concrete historical full-inventory composition hypothesis with its explicit subsequent source-level rejection; preserve the hypothesis rather than confusing the rejection with a non-assignment."
+      },
+      "claim_ceiling": "Explicit source-level withdrawal. Surface mismatch and post-hoc component fits do not independently prove that learned whole meanings are necessary; no independent meaning gold is supplied."
+    }
+  ],
+  "dispositions": [
+    {
+      "source_id": "LEGACY_COMPONENT:4674916f210263b7c05b",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Editor adds owners, pronouns and local objects without promoting them to component meanings.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:990ee45a6e6c815fba2c",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Census and edition size, no new semantic assertion.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:b62c1fd0575821e87484",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Owner-level bath/apparatus alternative retained by existing local exemplar models; this block describes editorial separation without a new particular binding.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:f63e7d92ad07ca3feb57",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Mnemonic-word versus spoken-language caution, not a new token assignment.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:d7d264e95adb78d9c4bc",
+      "decision": "local_scope_instance",
+      "reason": "Three explicitly spelled-out local applications of the O=ARBEITSGANG revision; addressable composite cases, not three independent mechanisms.",
+      "card_ids": [
+        "CLEAN_GAP_BB:o_complete_compositions"
+      ],
+      "counterpart_ids": [
+        "SEM:0c23236ad0885bdaaf05"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:151b47e28f4404614828",
+      "decision": "existing_assertion_or_scope_instance",
+      "reason": "Final whole-form comparison finds existing SCHEDAIR=Wasser weiterführen/weiterleiten; moving-water source reading is an additional case, not a new idea. Other water readings in16 are already current CH+AIR or pending AZ kair and BA okair/dairydy cases; keep the initial schedair parse formal.",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:3ff0cae63a095a3718e6",
+        "SEM:fb789a153db3436c5ff9"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:dbc082051558193ff802",
+      "decision": "additional_addressable_assertion",
+      "reason": "Bare AR/AL values lack operator invariance and substitution. BB asks a different middle-address question. BH describes two verb valencies, not this operator-preserving five-frame address exchange with the AIR exclusion. No equivalent full public claim found in the bounded comparison.",
+      "card_ids": [
+        "CLEAN_GAP_BJ:ar_al_operator_preserving_swap"
+      ],
+      "counterpart_ids": [
+        "SEM:a221b56f4a27d20dd7d4",
+        "SEM:7f576eba1841e5d76482",
+        "CLEAN_GAP_BB:ckh_middle_address",
+        "CLEAN_GAP_BH:ok_seven_argument_schema",
+        "CLEAN_GAP_BH:chd_transfer_valency"
+      ],
+      "original_bb_index_zero_based": 20,
+      "previous_source_assessment": {
+        "source_id": "LEGACY_COMPONENT:dbc082051558193ff802",
+        "decision": "method_result_or_editorial_context",
+        "reason": "Prediction-deck coverage under already stated source/target swap; no new specified card binding in this block.",
+        "card_ids": [],
+        "counterpart_ids": []
+      },
+      "resolution_artifacts": [
+        "research_registry/decisions/semantic_scope_resolution_bj.json"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:61c905f681b3a9383e24",
+      "decision": "additional_addressable_assertion",
+      "reason": "Bare AR/AL values lack operator invariance and substitution. BB asks a different middle-address question. BH describes two verb valencies, not this operator-preserving five-frame address exchange with the AIR exclusion. No equivalent full public claim found in the bounded comparison.",
+      "card_ids": [
+        "CLEAN_GAP_BJ:ar_al_operator_preserving_swap"
+      ],
+      "counterpart_ids": [
+        "SEM:a221b56f4a27d20dd7d4",
+        "SEM:7f576eba1841e5d76482",
+        "CLEAN_GAP_BB:ckh_middle_address",
+        "CLEAN_GAP_BH:ok_seven_argument_schema",
+        "CLEAN_GAP_BH:chd_transfer_valency"
+      ],
+      "original_bb_index_zero_based": 21,
+      "previous_source_assessment": {
+        "source_id": "LEGACY_COMPONENT:61c905f681b3a9383e24",
+        "decision": "method_result_or_editorial_context",
+        "reason": "AIR is a distinct learned whole water card; AR substring is not its meaning. Existing AIR/AR cards and full water cases retain this distinction.",
+        "card_ids": [],
+        "counterpart_ids": []
+      },
+      "resolution_artifacts": [
+        "research_registry/decisions/semantic_scope_resolution_bj.json"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:3597ac30bf219897b1ec",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Next editorial integration task.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:802034e59676831cf6ae",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Mixed productive/learned architecture already recorded; block proposes another coverage tier.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:d172f2aecfd55b8bf38e",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Coverage counts and no new values.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:4a6649d663dd1c285418",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Next coverage tier.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:80df677b9a6a3a016f00",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Explicit ten-page creative scope limitation, no global decipherment.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:d03506f6bc41094d2386",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Next synthetic scribal simulation.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:4d72b16d19c3c1f9d94f",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Simulation counts preserve assigned meanings.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:001180076dd369432591",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Synthetic H1 renderer comparison, not new semantic values.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:26216d1ddb059485e3c2",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Teaching simulation variants, not new manuscript findings.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:01c37b6493d529da0757",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Copied forms versus hypothetical habit; no new particular meaning.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:f9728dfd7b0dc8a0c9b9",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Synthetic switch count and preserved meanings.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:e4f51fb8d03e1135daf0",
+      "decision": "existing_assertion_or_scope_instance",
+      "reason": "Same source-defined 16-card/52-surface mixed teaching model.",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:37594c79c61a3cb89c24"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:f0bf193414b32ee22c22",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Synthetic lesson round-trip result.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:b116f85bdb32c599c86c",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Synthetic prompt exercise.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:71c9ac197e48ce80cf1b",
+      "decision": "additional_addressable_assertion",
+      "reason": "The already recorded generic elliptical-abbreviation model lacks this complete staged card-selection contract and the explicit whole-card versus component cases.",
+      "card_ids": [
+        "CLEAN_GAP_BB:meaning_to_surface_order"
+      ],
+      "counterpart_ids": [
+        "SEM:a1c1a0a744bb1db99276"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:accd7c9cb8041963f3d8",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Explicit model-only limit and next task.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:f66b61b13f6b8e17752c",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Synthetic Latin-like shortening, expressly no language identification.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:946353651d142218b760",
+      "decision": "method_result_or_editorial_context",
+      "reason": "External historical analogues cited by old report; no new Voynich meaning assignment and no external access performed.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:058743a88d85edb25e04",
+      "decision": "additional_addressable_assertion",
+      "reason": "The already recorded generic elliptical-abbreviation model lacks this complete staged card-selection contract and the explicit whole-card versus component cases.",
+      "card_ids": [
+        "CLEAN_GAP_BB:meaning_to_surface_order"
+      ],
+      "counterpart_ids": [
+        "SEM:a1c1a0a744bb1db99276"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:db0a8cfb7c767f481b89",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Next H1 reconstruction task.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:38fafa22e977882d386a",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Edition setup; full distinctive chained instruction recovered in56.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:4d6f6de09ac62228d3d4",
+      "decision": "additional_addressable_assertion",
+      "reason": "A complete ordered card instruction and phrase-sized unit claim; separate atoms or generic brevigraph theory do not record this whole reading.",
+      "card_ids": [
+        "CLEAN_GAP_BB:oty_tch_ol_phrase"
+      ],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:1c71332675b6f922c812",
+      "decision": "additional_addressable_assertion",
+      "reason": "Older H1-S002 substantive medical/noun reconstruction is a different full assertion; this source specifically binds the inherited registers and absence of closing.",
+      "card_ids": [
+        "CLEAN_GAP_BB:h1_elliptic_continuation"
+      ],
+      "counterpart_ids": [
+        "SEM:50c09d8f7e0b36a159f9"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:8716127e697721587d3f",
+      "decision": "additional_addressable_assertion",
+      "reason": "Older H1-S002 substantive medical/noun reconstruction is a different full assertion; this source specifically binds the inherited registers and absence of closing.",
+      "card_ids": [
+        "CLEAN_GAP_BB:h1_elliptic_continuation"
+      ],
+      "counterpart_ids": [
+        "SEM:50c09d8f7e0b36a159f9"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:a0f5fd14f81221a3bd26",
+      "decision": "additional_addressable_assertion",
+      "reason": "The broad existing claim that both paragraphs belong to one plant dossier does not assert this ordered derivation and persistent-state relation.",
+      "card_ids": [
+        "CLEAN_GAP_BB:f10r_branch_article"
+      ],
+      "counterpart_ids": [
+        "SEM:4f57ef87120321bb1a5e"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:dc66710c2580a0ffe8bd",
+      "decision": "additional_addressable_assertion",
+      "reason": "The broad existing claim that both paragraphs belong to one plant dossier does not assert this ordered derivation and persistent-state relation.",
+      "card_ids": [
+        "CLEAN_GAP_BB:f10r_branch_article"
+      ],
+      "counterpart_ids": [
+        "SEM:4f57ef87120321bb1a5e"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:b828d425b97a49f44620",
+      "decision": "additional_addressable_assertion",
+      "reason": "Older cloth-filtration readings and the bare DAVON card do not contain this full phase and resumption assertion.",
+      "card_ids": [
+        "CLEAN_GAP_BB:f11r_closed_extract_resumption"
+      ],
+      "counterpart_ids": [
+        "SEM:09010ce151a5e8c7add0",
+        "SEM:97de9a9a9800e3cc1a17"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:20fb5a96d95ff57c9829",
+      "decision": "additional_addressable_assertion",
+      "reason": "Older cloth-filtration readings and the bare DAVON card do not contain this full phase and resumption assertion.",
+      "card_ids": [
+        "CLEAN_GAP_BB:f11r_closed_extract_resumption"
+      ],
+      "counterpart_ids": [
+        "SEM:09010ce151a5e8c7add0",
+        "SEM:97de9a9a9800e3cc1a17"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:2b18273bdd4c9b38ba69",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Quantity/heat/close census and filtration caveat; joint process assignment recovered in66.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:3bdfaadbf8a9e38a8e77",
+      "decision": "additional_addressable_assertion",
+      "reason": "Existing local plant/ingredient interpretations do not state this ordered process architecture.",
+      "card_ids": [
+        "CLEAN_GAP_BB:f56r_ingredient_cycles"
+      ],
+      "counterpart_ids": [
+        "SEM:125c533d369185335ee3"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:d5c1c1e63f9e8b186ee5",
+      "decision": "existing_assertion_or_scope_instance",
+      "reason": "HO=ZUTAT material not owner/operation already recovered in AN; these four uses are instances.",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:c715d4f00ebdf1d22dc5"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:f22dae6e177dfe983f65",
+      "decision": "additional_addressable_assertion",
+      "reason": "A joint source-local contrast of four processes; not inferred merely from possession of some individual lexical atoms. The explicit f10r/f11r/f56r relations are separately recoverable subclaims.",
+      "card_ids": [
+        "CLEAN_GAP_BB:herbal_four_process_contrast"
+      ],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:f799e5a7c35c5ec73b4b",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Biological edition counts.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:2ecd0f45366a57b9298b",
+      "decision": "existing_assertion_or_scope_instance",
+      "reason": "The existing complete preparation-to-application program model covers this content proposal; no new product identity is stated.",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:7f93fa083665262db064"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:fb91dbbd63f2ec56ad2e",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Explicitly denies written cross-reference/product identity; do not manufacture a cross-page assertion.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:e4947ae602ba2d230bda",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Existing WHAT/HOW/WHEN architecture, expressly missing keys and names.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:5f1b1aa9aa4c7532bc2c",
+      "decision": "additional_addressable_assertion",
+      "reason": "A complete local relative-handle interpretation; no planet, month or mansion name is asserted.",
+      "card_ids": [
+        "CLEAN_GAP_BB:otody_relative_handle"
+      ],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:7b3517f1302d6f8b8fe6",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Inventory/encoding-model size counts.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:e0f308bbe96a0e12ff92",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Phrase-ready examples lack carrier assignments here; evidence of editing technique, not new independent lexical cards.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:1990680382772ef087d2",
+      "decision": "additional_addressable_assertion",
+      "reason": "The pre/post-measure and equality-frame hypotheses are different assertions; this is the source’s contrasting minimal continuation reading.",
+      "card_ids": [
+        "CLEAN_GAP_BB:y_aiin_y_continue_measure"
+      ],
+      "counterpart_ids": [
+        "SEM:30bc11e49e881099a1ba",
+        "SEM:998d4eea38e553c2da8c"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:6a2edda630ed30c58adc",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Owner/condition expansion caution, not whole-group translations.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:55cfe8fd0bcdf92eae39",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Edition count and ordering preservation.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:574b5593b8b283148592",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Lesson front/back packaging, not new values.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:4deea14308682bcecbb7",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Whole-card expansion exercise without values specified in this block.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:30813b83b806e4ba2a95",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Exercise unit count without a concrete new assignment.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:65368a073b9b0fa29bd9",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Exercise gap count without concrete new assignment.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:86e4ccb430c1a1a60448",
+      "decision": "additional_addressable_assertion",
+      "reason": "A six-domain joint assignment, narrower than generic WHEN/CONDITION genre and not supplied by isolated component cards.",
+      "card_ids": [
+        "CLEAN_GAP_BB:six_local_condition_domains"
+      ],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:74331f4b454ed069c50c",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Root/auxiliary/pattern counts.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:32d8bb8f4f0f2fb8204b",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Implementation counts.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:f732afb8463f10d7c12a",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Source corpus selection and two-owner preservation, not a new reading.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:5d90761e9aecd9edc6f2",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Explicit old weather gloss replaced by LANGANSATZ; existing card captures new whole formula; old source polarity requires separate scoped reassessment.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:851b3f65a24dfcc51b4b",
+      "decision": "additional_addressable_assertion",
+      "reason": "A concrete historical full-inventory composition hypothesis with its explicit subsequent source-level rejection; preserve the hypothesis rather than confusing the rejection with a non-assignment.",
+      "card_ids": [
+        "CLEAN_GAP_BB:zero_learned_whole_revision"
+      ],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:ffa0863a2365790c9c2e",
+      "decision": "additional_addressable_assertion",
+      "reason": "A concrete historical full-inventory composition hypothesis with its explicit subsequent source-level rejection; preserve the hypothesis rather than confusing the rejection with a non-assignment.",
+      "card_ids": [
+        "CLEAN_GAP_BB:zero_learned_whole_revision"
+      ],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:defc3b1136423f0655e2",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Section heading only.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:1c682c48eb34313068af",
+      "decision": "local_scope_instance",
+      "reason": "The parent assigns Herbal to depicted material and processing but does not spell out this f13r realization and limits. The BB article readings concern different pages and process structures. Preserve this addressable local case without presenting a new decoding mechanism or asserting identity from shared operations.",
+      "card_ids": [
+        "CLEAN_GAP_BJ:f13r_local_processing"
+      ],
+      "counterpart_ids": [
+        "SEM:17c319fa8e7548d769f3",
+        "CLEAN_GAP_BB:f10r_branch_article",
+        "CLEAN_GAP_BB:f11r_closed_extract_resumption",
+        "CLEAN_GAP_BB:herbal_four_process_contrast"
+      ],
+      "original_bb_index_zero_based": 95,
+      "previous_source_assessment": {
+        "source_id": "LEGACY_COMPONENT:1c682c48eb34313068af",
+        "decision": "existing_assertion_or_scope_instance",
+        "reason": "Herbal instance of existing explicit four-register model.",
+        "card_ids": [],
+        "counterpart_ids": [
+          "SEM:17c319fa8e7548d769f3"
+        ]
+      },
+      "resolution_artifacts": [
+        "research_registry/decisions/semantic_scope_resolution_bj.json"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:5633fa2a8e64569d5b30",
+      "decision": "local_scope_instance",
+      "reason": "The broad parent gives next place/stage/identifier, BD gives lookup/reset procedure, and BB assigns six local content domains. None contains this entire local ring reading. Preserve it as a local realization rather than an independent new mechanism.",
+      "card_ids": [
+        "CLEAN_GAP_BJ:f70v_local_ring_reading"
+      ],
+      "counterpart_ids": [
+        "SEM:17c319fa8e7548d769f3",
+        "CLEAN_GAP_BD:hierarchical_register_reader",
+        "CLEAN_GAP_BB:six_local_condition_domains"
+      ],
+      "original_bb_index_zero_based": 97,
+      "previous_source_assessment": {
+        "source_id": "LEGACY_COMPONENT:5633fa2a8e64569d5b30",
+        "decision": "existing_assertion_or_scope_instance",
+        "reason": "Zodiac realization is already explicit in the full model.",
+        "card_ids": [],
+        "counterpart_ids": [
+          "SEM:17c319fa8e7548d769f3"
+        ]
+      },
+      "resolution_artifacts": [
+        "research_registry/decisions/semantic_scope_resolution_bj.json"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:8abf6f43277c8bb41665",
+      "decision": "existing_assertion_or_scope_instance",
+      "reason": "Short portable roles versus register expansion already explicit in full model.",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:17c319fa8e7548d769f3"
+      ]
+    }
+  ],
+  "integration_provenance": {
+    "raw_review": "research_registry/decisions/clean_gap_review_bb.json",
+    "raw_sha256": "f09eae60284584c168727cf974269b2c19c93cec2490faf974d2ead16b5cce13",
+    "reviewer": "root",
+    "peer_review": "research_registry/decisions/clean_gap_peer_review_bb.json",
+    "peer_sha256": "ed35f10e96dca6427ea8990824d867d1b7285f5e19e7863e5f8dcba210151be2",
+    "followup_resolution_sha256": {
+      "research_registry/decisions/semantic_scope_resolution_bj.json": "0b8c02ec6d1f30b3f120b90997e9ad3f1ea24f9526945c9052ccb68dc02de638"
+    }
+  },
+  "source_reassessments": [
+    {
+      "source_id": "LEGACY_COMPONENT:2f85d9545801b365d5c4",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Next editorial audit task.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:840c79d826bfa8a37d4e",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Existing component paraphrase policy; no new primitive or full card is assigned.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:69254773f6a1b97bd9d1",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Planned propagation of already assigned Y=POSTEN.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:1f4de755cef1e161bdb6",
+      "decision": "existing_component_assertion",
+      "reason": "Initial component card already records this exact stated value or parse. Adjacent full meanings are assessed separately, not inferred from source presence.",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:59a560b9d7a88aff6ccb"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:cb0ba2fa3b96374f6563",
+      "decision": "existing_component_assertion",
+      "reason": "Initial component card already records this exact stated value or parse. Adjacent full meanings are assessed separately, not inferred from source presence.",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:34d42fba74c0b22e2dd1"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:9a398111e8eeebf8e8e9",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Counts supporting already assigned O value; no distinct semantic assertion.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:8bd57f559ff384e20a27",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Editorial SCHRITT/FLUESSIGKEIT/synonym caution; complete water assignments recovered from16 and pending cases.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:40bf2a34a259f805004a",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Planned propagation of O revision.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:647e72343fa54c7483f7",
+      "decision": "existing_component_assertion",
+      "reason": "Initial component card already records this exact stated value or parse. Adjacent full meanings are assessed separately, not inferred from source presence.",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:49c8d4c1524027989d82"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:c69ad65f0b3fc44c33a3",
+      "decision": "existing_component_assertion",
+      "reason": "Initial component card already records this exact stated value or parse. Adjacent full meanings are assessed separately, not inferred from source presence.",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:0c23236ad0885bdaaf05"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:61821fbe3527c7f7f6e6",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Keeps existing DY=SCHLUSS and treats SCHRITT as fluent object, not a new primitive.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:a7f78bd5bca4ab2840cd",
+      "decision": "additional_existing_assertion_source_case",
+      "reason": "SEM:484be5fe5261b85d0f81 contains CH+AIR→ENTNEHMEN·WASSER and exact chair as a permitted writing, plus the prior Pass816 source case. The quoted claim/type are kept exactly for canonical source-case grouping; the parse-only SEM is not the meaning counterpart.",
+      "card_ids": [
+        "CLEAN_GAP_BJ:chair_take_water_source_case"
+      ],
+      "counterpart_ids": [
+        "SEM:484be5fe5261b85d0f81",
+        "SEM:144115d3885fde70148b"
+      ],
+      "original_bb_index_zero_based": 17,
+      "previous_source_assessment": {
+        "source_id": "LEGACY_COMPONENT:a7f78bd5bca4ab2840cd",
+        "decision": "existing_component_assertion",
+        "reason": "Initial component card already records this exact stated value or parse. Adjacent full meanings are assessed separately, not inferred from source presence.",
+        "card_ids": [],
+        "counterpart_ids": [
+          "SEM:144115d3885fde70148b"
+        ]
+      },
+      "resolution_artifacts": [
+        "research_registry/decisions/semantic_scope_resolution_bj.json"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:7a68d8379d9ad990ede1",
+      "decision": "existing_assertion_or_scope_instance",
+      "reason": "Final whole-form comparison finds existing SCHEDAIR=Wasser weiterführen/weiterleiten; moving-water source reading is an additional case, not a new idea. Other water readings in16 are already current CH+AIR or pending AZ kair and BA okair/dairydy cases; keep the initial schedair parse formal.",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:3ff0cae63a095a3718e6",
+        "SEM:fb789a153db3436c5ff9"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:89f3d111338015908a90",
+      "decision": "additional_addressable_assertion",
+      "reason": "Bare AR/AL values lack operator invariance and substitution. BB asks a different middle-address question. BH describes two verb valencies, not this operator-preserving five-frame address exchange with the AIR exclusion. No equivalent full public claim found in the bounded comparison.",
+      "card_ids": [
+        "CLEAN_GAP_BJ:ar_al_operator_preserving_swap"
+      ],
+      "counterpart_ids": [
+        "SEM:a221b56f4a27d20dd7d4",
+        "SEM:7f576eba1841e5d76482",
+        "CLEAN_GAP_BB:ckh_middle_address",
+        "CLEAN_GAP_BH:ok_seven_argument_schema",
+        "CLEAN_GAP_BH:chd_transfer_valency"
+      ],
+      "original_bb_index_zero_based": 19,
+      "previous_source_assessment": {
+        "source_id": "LEGACY_COMPONENT:89f3d111338015908a90",
+        "decision": "existing_component_assertion",
+        "reason": "Initial component card already records this exact stated value or parse. Adjacent full meanings are assessed separately, not inferred from source presence.",
+        "card_ids": [],
+        "counterpart_ids": [
+          "SEM:7f576eba1841e5d76482",
+          "SEM:a221b56f4a27d20dd7d4"
+        ]
+      },
+      "resolution_artifacts": [
+        "research_registry/decisions/semantic_scope_resolution_bj.json"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:60ee97f4d33380bb074f",
+      "decision": "additional_addressable_assertion",
+      "reason": "AR and AL lexical cards do not assert the proposed intervening address relation; the source poses this as an untested next question.",
+      "card_ids": [
+        "CLEAN_GAP_BB:ckh_middle_address"
+      ],
+      "counterpart_ids": [
+        "SEM:a221b56f4a27d20dd7d4",
+        "SEM:7f576eba1841e5d76482"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:9722355f36fe788ff18a",
+      "decision": "existing_assertion_or_scope_instance",
+      "reason": "Existing AIN=PORTION value and counts.",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:021e44cf927409180be5"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:fa037ace518c33d14f4a",
+      "decision": "existing_assertion_or_scope_instance",
+      "reason": "Existing AIIN=SOLLMASS value and counts.",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:35b4faded4afa4055614"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:24fa44e82f34132f2adc",
+      "decision": "existing_assertion_or_scope_instance",
+      "reason": "Existing IIN=STUFE value and counts.",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:1659676c07e492ee11f9"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:2da2a836226b51fdc640",
+      "decision": "existing_assertion_or_scope_instance",
+      "reason": "Existing E=KURZ value.",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:b11ae4b25e7a61113ca7"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:e45b2e4bb0b4e471d7ef",
+      "decision": "existing_assertion_or_scope_instance",
+      "reason": "Existing EE=LANG value.",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:3521d341ecb74185b207"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:98fbba14399cc9ab4bf6",
+      "decision": "existing_assertion_or_scope_instance",
+      "reason": "Existing EEE=VOLL value.",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:614fb35f918426230948"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:4d2eb1afb09879cfb057",
+      "decision": "additional_addressable_assertion",
+      "reason": "The existing qekey card is a formal decomposition; the new assertion is the semantic scope and non-fusion of its two short modifiers.",
+      "card_ids": [
+        "CLEAN_GAP_BB:qekey_separate_short_modifiers"
+      ],
+      "counterpart_ids": [
+        "SEM:83dad8cb69ae8d876055",
+        "CLEAN_GAP_AY:qekey_current_item"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:abf691d3144cf5715092",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Tier coverage plus known DAVON rank; actual antecedent assignments in34.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:c8f0c111db701ce868d3",
+      "decision": "local_scope_instance",
+      "reason": "Two explicit historical antecedent assignments addressable separately from the bare DAVON gloss; local instances, not a new anaphora mechanism. Both are Herbal, correcting the earlier planning statement.",
+      "card_ids": [
+        "CLEAN_GAP_BB:davon_two_antecedents"
+      ],
+      "counterpart_ids": [
+        "SEM:09010ce151a5e8c7add0"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:d6463c84ea989ff3021c",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Existing six-exception whole/bound inventory from AN, not six new component assertions.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:e7fde4d4795777689465",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Census and editing water consistently; exact readings separately covered.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:107d563b4bbc027fa96f",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Hypothetical renderers explicitly not attributed historical hands.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:b7b92eb11341971b0f0e",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Surface variant counts with no changed meanings.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:e639ddfb156982c31068",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Hypothetical fifth-hand simulation.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:38b34412513ad8152ce4",
+      "decision": "additional_addressable_assertion",
+      "reason": "The general preparation/application program, page process shapes and older H3→B2 day do not state these six joint source choices. Existing meanings can remain unchanged while the content-world relation hypothesis changes. This is one coupled selection model, not six independently evidenced links.",
+      "card_ids": [
+        "CLEAN_GAP_BJ:six_supply_compatibility"
+      ],
+      "counterpart_ids": [
+        "SEM:7f93fa083665262db064",
+        "CLEAN_GAP_BB:f10r_branch_article",
+        "CLEAN_GAP_BB:f11r_closed_extract_resumption",
+        "CLEAN_GAP_BB:herbal_four_process_contrast",
+        "CLEAN_GAP_BE:six_phase_h3_b2_day"
+      ],
+      "original_bb_index_zero_based": 77,
+      "previous_source_assessment": {
+        "source_id": "LEGACY_COMPONENT:38b34412513ad8152ce4",
+        "decision": "method_result_or_editorial_context",
+        "reason": "Illustrative compatibility choices, not written cross-references or independently identified medicines.",
+        "card_ids": [],
+        "counterpart_ids": []
+      },
+      "resolution_artifacts": [
+        "research_registry/decisions/semantic_scope_resolution_bj.json"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:8f64a27f5d81d0c03777",
+      "decision": "existing_assertion_or_scope_instance",
+      "reason": "Existing complete cross-register LAUF abstraction with owner-specific realizations.",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:00e23948b4d66b561e01"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:210881396f615234af1e",
+      "decision": "method_result_or_editorial_context",
+      "reason": "Both complete formulas already addressable.",
+      "card_ids": [],
+      "counterpart_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:fab2aad1fd9118d28ef9",
+      "decision": "additional_addressable_assertion",
+      "reason": "Different whole-card sense from VERWAHREN, AUSZUG VERWAHREN or BEISEITESTELLEN. Subsequent rejection of the universal zero-whole-root architecture does not by itself establish rejection of this individual reading.",
+      "card_ids": [
+        "CLEAN_GAP_BB:talam_opposite_place"
+      ],
+      "counterpart_ids": [
+        "SEM:28737354ecef470cbdb6",
+        "SEM:36662779aad5f0b4d16f",
+        "SEM:db851ae8b4618e145916"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:ed7d75d4742f8429dace",
+      "decision": "existing_assertion_or_scope_instance",
+      "reason": "AIR register specialization already explicit.",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:00e23948b4d66b561e01"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:c7c1e792d5be6a123367",
+      "decision": "existing_assertion_or_scope_instance",
+      "reason": "Pharma instance and already assigned OR/AIIN values.",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:17c319fa8e7548d769f3",
+        "SEM:90225ab7db5f5d2c150d",
+        "SEM:cb457b24d6b69c6eedd4"
+      ]
+    }
+  ],
+  "root_adjustments": [
+    "Added exact four-page mapping support.",
+    "Added local TALAM transfer warning without blanket refutation.",
+    "Attached explicit Pass909 withdrawal and its source-model ceiling."
+  ],
+  "original_review_validation": {
+    "all_cards_validate": true,
+    "exact_quotes_sha256": true
+  },
+  "validation": {
+    "status": "PASS",
+    "cards_validated": 16,
+    "all_exact_quotes_and_hashes_checked": true,
+    "meaning_confirmation": false
+  }
+}

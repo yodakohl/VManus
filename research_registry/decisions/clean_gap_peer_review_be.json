@@ -1,0 +1,766 @@
+{
+  "schema": "semantic_gap_peer_review_v1",
+  "review_id": "BE_PEER",
+  "input_hashes": {
+    "research_registry/decisions/clean_gap_review_be.json": "0e1acad7a8a292917fa85c7dbbb8a6407ff68af0966adc6791cee6d8e1c9b0f4",
+    "research_registry/decisions/source_coverage_gap_batch_be.json": "c1d1d9eac72026b6bb3c86baf6477760789aafd4f8f6813d678e25cfd0458e92"
+  },
+  "card_reviews": [
+    {
+      "target": "CLEAN_GAP_BE:nested_two_item_reference",
+      "decision": "approve",
+      "claim_type": "functional_hypothesis",
+      "reason": "Exact nested span has both plural introduction and second-item maintenance. This is an addressable conjunction of two existing construction rules, not a new meaning for DY/CHY/TAIIN/SHY individually. Functional classification is justified.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_combined_reference_parser_two_hundred_twenty_seventh/TWO_HUNDRED_TWENTY_SEVENTH_REPORT.md",
+          "line": 1,
+          "line_end": 13,
+          "quote": "# Zweihundertsiebenundzwanzigster Durchgang: kombinierter Werkstattparser\n\nDie Rückkehr- und Doppelungsregeln sind nun in einem gemeinsamen recordweiten Parser verbunden. Er unterscheidet drei Ebenen:\n\n- 381 sichtbare Karten;\n- 380 Quelltoken, weil die f82r-Zeilenforttragung zweimal sichtbar, aber einmal gemeint ist;\n- 357 Leseeinheiten, davon 343 Einzelkarten und 14 zusammengesetzte Konstruktionen.\n\nDie 14 Konstruktionen tragen 15 Regelanwendungen. Der Unterschied entsteht durch das einzige verschachtelte Fenster `dy chy taiin shy`: `dy chy` setzt zwei Posten, während `chy taiin shy` den zweiten Posten über den Sollwert hinweg aktiv hält.\n\nDer Parser verändert keine Kartenbedeutung. Er erklärt nur, wie ein Schreiber dieselben kleinen Wörter durch Wiederholung und Rahmung zu Mehrzahl, Wiederholung, Rückbezug und Zeilenforttragung zusammensetzen konnte.\n\nAls nächstes wird geprüft, ob diese vier Konstruktionsarten ausreichen, um ein kurzes zusammenhängendes f10r- und f83r-Stück ohne zusätzliche moderne Bindewörter zu übersetzen.",
+          "sha256": "7d00901e1cf3b780327d520723e6208ae3df1a861009f12fdf468141d1999e97"
+        }
+      ],
+      "counterpart_ids": [
+        "SEM:6d4100f64b5aafd563be"
+      ],
+      "limits": "Approve historical source fidelity and separate addressability only, not independent truth, current preferred reading or global novelty."
+    },
+    {
+      "target": "CLEAN_GAP_BE:postverb_values_next_material",
+      "decision": "approve",
+      "claim_type": "functional_hypothesis",
+      "reason": "Exact primary paragraph specifies backward value attachment and forward new-material attachment. Broad owner/grammar card does not fix this directional argument rule.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_attachment_resolution_hundred_second_edition/HUNDRED_SECOND_ATTACHMENT_REPORT.md",
+          "line": 15,
+          "line_end": 18,
+          "quote": "Die Regel entspricht einer knappen Werkstattnotiz: erst einen Gang setzen, danach\ndessen Werte notieren; steht anschließend ein neuer Stoffposten vor dem nächsten\nVerb, gehört er zum nächsten Arbeitsgang. So kann ein Lehrling dieselbe Sequenz\nohne improvisierte Satzbedeutungen lesen.",
+          "sha256": "4b55faa2c8b21b855bad031d7906f9c2b6269b5420d2891d8909bb4134476afa"
+        }
+      ],
+      "counterpart_ids": [
+        "SEM:6d4100f64b5aafd563be"
+      ],
+      "limits": "Approve historical source fidelity and separate addressability only, not independent truth, current preferred reading or global novelty."
+    },
+    {
+      "target": "CLEAN_GAP_BE:six_semantic_roles",
+      "decision": "approve",
+      "claim_type": "semantic_model",
+      "reason": "The six role domains name contents and arguments, not merely six geometric parser slots. Source-local whole-inventory sufficiency is a historical model assertion, not semantic confirmation.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_six_slot_pressure_test_hundred_eighty_first/HUNDRED_EIGHTY_FIRST_SIX_SLOT_PRESSURE_REPORT.md",
+          "line": 3,
+          "line_end": 5,
+          "quote": "Der grosse Ruecklauf benoetigt keinen siebten Bedeutungsplatz. Alle 381 Kartenereignisse in allen 135\nFeldern und 116 Aussagen lassen sich als Quelle/Kontext, Auswahl/Mass, Zustand/Station,\nVorgang/Kontakt, Ziel/Reihenfolge oder Freigabe/Schluss lesen.",
+          "sha256": "4bad441610854e13024b389782ed573b1c79877810bd0bd778202de77d5e444c"
+        }
+      ],
+      "counterpart_ids": [
+        "SEM:79cc92e66be2edb955bf"
+      ],
+      "limits": "Approve historical source fidelity and separate addressability only, not independent truth, current preferred reading or global novelty."
+    },
+    {
+      "target": "CLEAN_GAP_BE:b3_learned_transition_preparation",
+      "decision": "approve",
+      "claim_type": "semantic_model",
+      "reason": "Complete local order and inferred preparation step are explicit. Broad station model lacks this exemplar-learned transition. All visibility language must remain reported historical source description, not a fresh visual confirmation.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_bio_rewrite_hundred_eighth_edition/HUNDRED_EIGHTH_BIO_REWRITE_REPORT.md",
+          "line": 1,
+          "line_end": 14,
+          "quote": "# Hundertachte Runde: konkrete Bio-Reparatur\n\nDie zwei größten Bio-Records sind jetzt vollständig mit den in R107 geschlossenen Besitzern rückgelesen.\nf82r hat fünf lokale Stationsfamilien. Besonders wichtig ist der Wechsel vom eigenständigen kleinen\nLiegebecken zum grünen Mehrpersonenbecken in B2-S012; er wird als Werkstattschritt, nicht als Leitung gelesen.\n\nf83r hat drei sichtbare Randstationen, danach einen im Exemplar gelernten Übergangsansatz und zuletzt\ndas sichtbar gekoppelte Hauptpaar. Der Übergangsansatz ist eine echte Arbeitsannahme: Er macht die lange\nTextfolge handhabbar, behauptet aber weder Rohr noch Wasserlauf noch Richtung.\n\nDie Ausgabe umfasst 56 Aussagen: 22 in B2 und 34 in B3. Dreizehn frühere pauschale Besitzertexte wurden\ngezielt ersetzt; alle übrigen Aussagen erhalten die kleinste lokale sichtbare Stationsadresse.\n\nf84 und f84r blieben versiegelt.",
+          "sha256": "5310bb1ba5d589f14629213c7ec74a19934a8a8430baf8cfcad2622b3e9a02f6"
+        }
+      ],
+      "counterpart_ids": [
+        "SEM:6d4100f64b5aafd563be"
+      ],
+      "limits": "Approve historical source fidelity and separate addressability only, not independent truth, current preferred reading or global novelty."
+    },
+    {
+      "target": "CLEAN_GAP_BE:pb04_06_transfer_palette",
+      "decision": "approve",
+      "claim_type": "semantic_model",
+      "reason": "The source explicitly supplies the transfer-palette alternative for the unassigned item at the image break. This is more specific than general absence of a global pipe network.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_visual_block_roles_three_hundred_seventh/THREE_HUNDRED_SEVENTH_REPORT.md",
+          "line": 1,
+          "line_end": 7,
+          "quote": "# Sidequest-Pass 307: die acht Blöcke bekommen Bildrollen\n\nDie acht Prozessblöcke sind jetzt an ihre bereits betrachteten lokalen Besitzer gebunden. Vier Lesungen sind unmittelbar anschaulich: zwei kurze Beckenplätze auf f81v, ein lokaler Vergleich der oberen f82r-Paarbecken, zwei Durchlassprüfungen am f83r-Bogenpaar und die Eröffnung/Reinigung des linken offenen Fransenlaufs. Zwei weitere sind plausible lokale Abführ-/Neustartvorgänge.\n\nDie wichtige kreative Korrektur betrifft PB04–PB06: Wo das Bild zwischen Randkorb und Hauptpaar tatsächlich abreißt, wird kein unsichtbares Rohr erfunden. Dort liest sich die Viererfolge am besten als gelernte Transferpalette für einen unzugeordneten Werkstattposten. Das ist inhaltlich konkreter als UNKNOWN, aber ehrlicher als ein imaginärer Gesamtwasserkreislauf.\n\nAls nächstes sollte diese Stationsgrammatik die 97 Bio-Aussagen vollständig in fünf Betriebsarten zerlegen: Beschicken, Behandeln, Absetzen, Durchlassen und Abführen.",
+          "sha256": "975753326def70dbea9591e26aa051b1b42bc67140e7757defeda2efcbdd109b"
+        }
+      ],
+      "counterpart_ids": [
+        "SEM:6d4100f64b5aafd563be"
+      ],
+      "limits": "Approve historical source fidelity and separate addressability only, not independent truth, current preferred reading or global novelty."
+    },
+    {
+      "target": "CLEAN_GAP_BE:sshkchdy_short_default",
+      "decision": "approve",
+      "claim_type": "lexical_hypothesis",
+      "reason": "Exact short whole-card default is explicit. Existing schwenken; Schluss is not the same literal default; retain historical source scope without deciding semantic equivalence by synonyms.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_specialist_owner_scrub_hundred_forty_sixth/HUNDRED_FORTY_SIXTH_SPECIALIST_SCRUB_REPORT.md",
+          "line": 1,
+          "line_end": 15,
+          "quote": "# Hundertsechsundvierzigste Runde: die Fachschubladen verlieren ihre Bildnomen\n\nAll 132 learned specialist cards were reread. 52 card defaults covering 54 events were shortened. The remaining 80 were already compact enough.\n\nThe main corrections are deliberately plain: Wurzel/Posten becomes GRUNDTEIL, Zutat becomes ZUGABE,\nGefäß becomes AUFNAHME, Tuch becomes TRÄGEREINLAGE, Flüssigkeitslauf becomes LAUF, Zielstelle becomes\nZIEL, Ausgang becomes QUELLE, Durchgang becomes PASSAGE and Ansatz becomes BEREITUNG. These are learned\nworkshop entries; the exact pictured plant, vessel, basin, cloth, source or target remains an owner argument.\n\nThree sentence-sized entries are compressed further: SSHKCHDY is HALTETRANSFER; SCHLUSS, CHEECKHODY is\nLANGPASSAGE; SCHLUSS, and QOCKHEY is KURZPASSAGE. No card is left without a concrete default. The complete\n381-event and 116-statement readings are regenerated so the shorter words can be judged in place.\n\nNext rank these specialist values by recurrence and cross-record portability. Promote only genuinely shared\nshort words; keep one-off values as learned nomenclator entries rather than pretending every visible part is a stem.",
+          "sha256": "032996b1b4d22f407ba70b958f393d850afc9cbfa4c2382357329c1f67281da1"
+        }
+      ],
+      "counterpart_ids": [
+        "SEM:6d4100f64b5aafd563be"
+      ],
+      "limits": "Approve historical source fidelity and separate addressability only, not independent truth, current preferred reading or global novelty."
+    },
+    {
+      "target": "CLEAN_GAP_BE:cheeckhody_short_default",
+      "decision": "approve",
+      "claim_type": "lexical_hypothesis",
+      "reason": "Exact short whole-card default is explicit. Later EE+passage+work-step+take+close reading adds a different compositional scope; retain both versions, no global source-independent reading.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_specialist_owner_scrub_hundred_forty_sixth/HUNDRED_FORTY_SIXTH_SPECIALIST_SCRUB_REPORT.md",
+          "line": 1,
+          "line_end": 15,
+          "quote": "# Hundertsechsundvierzigste Runde: die Fachschubladen verlieren ihre Bildnomen\n\nAll 132 learned specialist cards were reread. 52 card defaults covering 54 events were shortened. The remaining 80 were already compact enough.\n\nThe main corrections are deliberately plain: Wurzel/Posten becomes GRUNDTEIL, Zutat becomes ZUGABE,\nGefäß becomes AUFNAHME, Tuch becomes TRÄGEREINLAGE, Flüssigkeitslauf becomes LAUF, Zielstelle becomes\nZIEL, Ausgang becomes QUELLE, Durchgang becomes PASSAGE and Ansatz becomes BEREITUNG. These are learned\nworkshop entries; the exact pictured plant, vessel, basin, cloth, source or target remains an owner argument.\n\nThree sentence-sized entries are compressed further: SSHKCHDY is HALTETRANSFER; SCHLUSS, CHEECKHODY is\nLANGPASSAGE; SCHLUSS, and QOCKHEY is KURZPASSAGE. No card is left without a concrete default. The complete\n381-event and 116-statement readings are regenerated so the shorter words can be judged in place.\n\nNext rank these specialist values by recurrence and cross-record portability. Promote only genuinely shared\nshort words; keep one-off values as learned nomenclator entries rather than pretending every visible part is a stem.",
+          "sha256": "032996b1b4d22f407ba70b958f393d850afc9cbfa4c2382357329c1f67281da1"
+        }
+      ],
+      "counterpart_ids": [
+        "SEM:57319d49b6b459e77a53"
+      ],
+      "limits": "Approve historical source fidelity and separate addressability only, not independent truth, current preferred reading or global novelty."
+    },
+    {
+      "target": "CLEAN_GAP_BE:qockhey_short_default",
+      "decision": "approve_with_identity_risk",
+      "claim_type": "lexical_hypothesis",
+      "reason": "KURZPASSAGE is explicitly stated, but the report calls this compression of sentence-sized entries. Absence of an overt ansetzen in the short label alone cannot establish a different proposition from kurzen Durchlauf ansetzen. Preserve as historical source variant pending exact scope identity adjudication.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_specialist_owner_scrub_hundred_forty_sixth/HUNDRED_FORTY_SIXTH_SPECIALIST_SCRUB_REPORT.md",
+          "line": 1,
+          "line_end": 15,
+          "quote": "# Hundertsechsundvierzigste Runde: die Fachschubladen verlieren ihre Bildnomen\n\nAll 132 learned specialist cards were reread. 52 card defaults covering 54 events were shortened. The remaining 80 were already compact enough.\n\nThe main corrections are deliberately plain: Wurzel/Posten becomes GRUNDTEIL, Zutat becomes ZUGABE,\nGefäß becomes AUFNAHME, Tuch becomes TRÄGEREINLAGE, Flüssigkeitslauf becomes LAUF, Zielstelle becomes\nZIEL, Ausgang becomes QUELLE, Durchgang becomes PASSAGE and Ansatz becomes BEREITUNG. These are learned\nworkshop entries; the exact pictured plant, vessel, basin, cloth, source or target remains an owner argument.\n\nThree sentence-sized entries are compressed further: SSHKCHDY is HALTETRANSFER; SCHLUSS, CHEECKHODY is\nLANGPASSAGE; SCHLUSS, and QOCKHEY is KURZPASSAGE. No card is left without a concrete default. The complete\n381-event and 116-statement readings are regenerated so the shorter words can be judged in place.\n\nNext rank these specialist values by recurrence and cross-record portability. Promote only genuinely shared\nshort words; keep one-off values as learned nomenclator entries rather than pretending every visible part is a stem.",
+          "sha256": "032996b1b4d22f407ba70b958f393d850afc9cbfa4c2382357329c1f67281da1"
+        }
+      ],
+      "counterpart_ids": [
+        "SEM:16727b10daa0ba5b439c"
+      ],
+      "limits": "Approve historical source fidelity and separate addressability only, not independent truth, current preferred reading or global novelty.",
+      "required_comparison_correction": {
+        "replace_reason": "Pass146 explicitly shortens a sentence-sized entry to KURZPASSAGE. Its relation to the later/other-source kurzen Durchlauf ansetzen remains unresolved; the nominal/action wording contrast is not by itself proof of distinct semantic propositions.",
+        "do_not_create": "No related_not_equivalent or alternative_to relation on the basis of omitted ansetzen alone.",
+        "retain": "Original complete claim and source-specific short-default status."
+      },
+      "counterpart_basis": {
+        "id": "SEM:16727b10daa0ba5b439c",
+        "claim": "qockhey → kurzen Durchlauf ansetzen",
+        "original_basis_sha256": "14bb103422ef442ed0770c3f7b48cc8824c673f7d28b69980d4c6dda0086f97b",
+        "effective_basis_sha256": "0783dea121a57075c80badb55c04580bfb942bc0fb9bfae86851318f4b571cf7",
+        "evidence": [
+          {
+            "inherited_status_not_adopted": [
+              {
+                "text": "not_explicitly_declared_in_first_50_lines"
+              }
+            ],
+            "line": 33,
+            "line_end": 33,
+            "path": "experiments/yolo/sidequest_semantic_singleton_composition_rescue/SINGLETON_COMPOSITION_REPORT.md",
+            "quote": "| `qockhey` | Ueberlauf | `OK + CKH + E + Y` | kurzen Durchlauf ansetzen |",
+            "sha256": "997aad4c958c4eb1bc640983d723f694098fbf7e289fb983dd735914af736395",
+            "source_id": "LEGACY_COMPONENT:27ea4ba1116120d1885a",
+            "source_section": "Die staerksten Reparaturen",
+            "table_header": "| Karte | alte Lesung | neue Zerlegung | neue kurze Lesung |"
+          }
+        ]
+      }
+    },
+    {
+      "target": "CLEAN_GAP_BE:six_phase_h3_b2_day",
+      "decision": "approve",
+      "claim_type": "semantic_model",
+      "reason": "The full six-phase sequence includes second portion, charging, intermediate clarification, application and terminal washing/draining. The older broad H3→B2 clear-extract handoff does not state this full scenario. Unwritten cross-page handoff caveat is preserved.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_master_day_workflow_hundred_sixty_third/HUNDRED_SIXTY_THIRD_MASTER_DAY_REPORT.md",
+          "line": 1,
+          "line_end": 14,
+          "quote": "# Hundertdreiundsechzigste Runde: ein durchgehend lesbarer Werkstatttag\n\nH3 contributes 17 visible events in four clauses; B2 contributes 62 events in 22 clauses. Every token\nappears once in a six-phase reading: prepare and clarify a pictured-plant extract, ready a second portion,\ncharge the upper double basin, clarify at the middle-left station, apply at the middle-right/lower field,\nthen wash and drain at the lower edge stations.\n\nThe combined story is intentionally concrete. It makes the strongest current content bet: the Herbal\narticle can supply a prepared extract used by a Biological bath/station workflow. The cross-page handoff\nis not written on either page, so it remains a master-day scenario rather than a decoded pointer.\n\nNext test this vocabulary against the remaining three Herbal records and five Biological records by asking\nwhich whole-card values cause the sharpest contradiction with this master-day process, then revise only\nthose values rather than rewriting the whole dictionary.",
+          "sha256": "92576a19935021e1f9eea2c924ee9fcac87ca76edf38116a8ed31e3e074cd260"
+        }
+      ],
+      "counterpart_ids": [
+        "SEM:97de9a9a9800e3cc1a17"
+      ],
+      "limits": "Approve historical source fidelity and separate addressability only, not independent truth, current preferred reading or global novelty."
+    },
+    {
+      "target": "CLEAN_GAP_BE:f83_coupled_two_endings",
+      "decision": "approve",
+      "claim_type": "semantic_model",
+      "reason": "The central effect/passage unit and distinct left/right ending programs form an explicit full local model, with optional therapeutic expansion. Broad bath/apparatus claims do not include all branch predicates. No medical purpose or flow direction is confirmed.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_f83r_coupled_lower_apparatus_two_hundred_thirty_third/TWO_HUNDRED_THIRTY_THIRD_REPORT.md",
+          "line": 1,
+          "line_end": 7,
+          "quote": "# Pass 233 — die einzige sichtbar gekoppelte f83r-Teilapparatur\n\nDie Analyse beschränkt sich auf N5–N7: 71 Karten in 25 Aussagen. Das zentrale Paar ist eine Einwirk-/Durchlasseinheit. Die beiden sichtbaren Fortsetzungen haben getrennte Textökologien: links Temperieren/Ergebnis/Abführen, rechts Portion/Quelle/Ausgießen/Absetzen.\n\nDie beste konkrete Funktion ist daher kein gerichteter Kreislauf, sondern ein gekoppeltes Doppelbecken mit zwei alternativen Abschlusswegen. Eine therapeutische Auflage-/Spülbehandlung ist die stärkste inhaltliche Expansion, während das formale Apparaturmodell auch ohne medizinische Nomen lesbar bleibt.\n\nNächster Schritt: B5 und B6 als eigenständige Lehrlings-Nachträge prüfen. Wenn sie wirklich linke und rechte Abschlussprotokolle wiederaufnehmen, sollten ihre Karten die branchenspezifischen Verben fortsetzen.",
+          "sha256": "23771027a9db6f6122c8a0d0d8d8100b82ae3812d22f0c05bfef44e78519ebcd"
+        }
+      ],
+      "counterpart_ids": [
+        "SEM:6d4100f64b5aafd563be"
+      ],
+      "limits": "Approve historical source fidelity and separate addressability only, not independent truth, current preferred reading or global novelty."
+    },
+    {
+      "target": "CLEAN_GAP_BE:b4_three_phase_downstream",
+      "decision": "approve",
+      "claim_type": "semantic_model",
+      "reason": "Exact B4-S008–S016 ordered three-phase chain is explicit, as is the local-address/no-global-direction limit. It is not covered by a generic local station model.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_b4_downstream_chain_hundred_sixty_sixth/HUNDRED_SIXTY_SIXTH_B4_DOWNSTREAM_REPORT.md",
+          "line": 1,
+          "line_end": 12,
+          "quote": "# Hundertsechsundsechzigste Runde: der B4-Nachlauf wird eine Produkt- und Anwendungskette\n\nB4-S008 through S016 contain exactly 30 events in nine clauses. Read after the double pass, they form\nthree practical phases: finish and settle the passed product; warm, extend and draw a fraction at the\nleft lower run; then add clarified extract, collect briefly and place the final portion at the right S-run.\n\nThe image-owner changes are respected. No global direction is inferred: 'left lower run' and 'right\nS-run' are local addresses, while source, target and clear extract are supplied by their exact cards.\n\nNext join B4-S004–S016 into a single twelve-clause procedure and compare it with the complete H3→B2\nmaster day. The key question is whether B4 is a second application recipe or maintenance of the same\napparatus grammar.",
+          "sha256": "781de42a37759070925272b92ab6f6ca058de857132a0cfb350617e8fb18d263"
+        }
+      ],
+      "counterpart_ids": [
+        "SEM:6d4100f64b5aafd563be"
+      ],
+      "limits": "Approve historical source fidelity and separate addressability only, not independent truth, current preferred reading or global novelty."
+    }
+  ],
+  "source_disposition_audit": [
+    {
+      "source_id": "LEGACY_COMPONENT:017591d12d2d1042956a",
+      "selection_index": 0,
+      "original_decision": "scope_comparison_unresolved",
+      "peer_decision": "retain",
+      "reason": "Substantive or rule-bearing source remains unresolved; keep audit-only, no placeholder card or completed semantic comparison.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:07a3eeb2274dec3e4a96",
+      "selection_index": 1,
+      "original_decision": "no_separate_semantic_proposition",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:08b47172a85f7b703727",
+      "selection_index": 2,
+      "original_decision": "scope_comparison_unresolved",
+      "peer_decision": "retain",
+      "reason": "Substantive or rule-bearing source remains unresolved; keep audit-only, no placeholder card or completed semantic comparison.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:09f73b6693fab978d778",
+      "selection_index": 3,
+      "original_decision": "no_separate_semantic_proposition",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:0c04f6d91ab118eae4c1",
+      "selection_index": 4,
+      "original_decision": "scope_comparison_unresolved",
+      "peer_decision": "retain",
+      "reason": "Substantive or rule-bearing source remains unresolved; keep audit-only, no placeholder card or completed semantic comparison.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:0e07de71442546150d61",
+      "selection_index": 5,
+      "original_decision": "no_separate_semantic_proposition",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:0eb668852029a0946365",
+      "selection_index": 6,
+      "original_decision": "no_separate_semantic_proposition",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:11cd5cdb352011ee1a2e",
+      "selection_index": 7,
+      "original_decision": "scoped_proposition_candidates",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:12535de1e249264de8c6",
+      "selection_index": 8,
+      "original_decision": "scope_comparison_unresolved",
+      "peer_decision": "retain",
+      "reason": "Substantive or rule-bearing source remains unresolved; keep audit-only, no placeholder card or completed semantic comparison.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:13b9cbfe2f3df40472b0",
+      "selection_index": 9,
+      "original_decision": "no_separate_semantic_proposition",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:14c66bf5ad9e61e37039",
+      "selection_index": 10,
+      "original_decision": "no_separate_semantic_proposition",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:16a489f9bfe908e231f9",
+      "selection_index": 11,
+      "original_decision": "scoped_proposition_candidates",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:1a2f013e86f9b3ef25d8",
+      "selection_index": 12,
+      "original_decision": "no_separate_semantic_proposition",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:1b0e679cdc42f025b5ab",
+      "selection_index": 13,
+      "original_decision": "no_separate_semantic_proposition",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:1d30cee00f2d9639d868",
+      "selection_index": 14,
+      "original_decision": "scope_comparison_unresolved",
+      "peer_decision": "retain",
+      "reason": "Substantive or rule-bearing source remains unresolved; keep audit-only, no placeholder card or completed semantic comparison.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:1de31c202223d1f489e6",
+      "selection_index": 15,
+      "original_decision": "scoped_proposition_candidates",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:2149e0e484e7a35ada0b",
+      "selection_index": 16,
+      "original_decision": "scope_comparison_unresolved",
+      "peer_decision": "retain",
+      "reason": "Substantive or rule-bearing source remains unresolved; keep audit-only, no placeholder card or completed semantic comparison.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:2497e7289425a3126546",
+      "selection_index": 17,
+      "original_decision": "no_separate_semantic_proposition",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:24fd59613e34c69f9139",
+      "selection_index": 18,
+      "original_decision": "no_separate_semantic_proposition",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:273811e53f7858a827c7",
+      "selection_index": 19,
+      "original_decision": "no_separate_semantic_proposition",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:277d211552246ab0fecd",
+      "selection_index": 20,
+      "original_decision": "no_separate_semantic_proposition",
+      "peer_decision": "retain_with_explicit_existing_model_navigation",
+      "reason": "This is substantively a local-label copying model, not merely an implementation count. SEM:082f47aa0e349ef9bc1b explicitly covers306 local diagram labels in the same mixed-system account; the pointing/copying procedure may be a source instance, but no fresh semantic assignment is warranted from this block alone.",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_astro_curriculum_transfer_two_hundred_forty_seventh/TWO_HUNDRED_FORTY_SEVENTH_REPORT.md",
+        "line": 7,
+        "line_end": 7,
+        "quote": "Die übrigen **306** Gruppen sind Diagrammetiketten in 13 getrennten Namensräumen. Sie brauchen keine 306 neuen Satzbedeutungen: Der Lehrmeister zeigt auf den lokalen Platz, und der Schreiber kopiert dessen Stern-, Ring-, Sektor- oder Legendenzeichen aus dem Exemplar.",
+        "sha256": "b49c68aedefae87defa32dc0dc3ebad673c8e685e0691191ba6638efa5ef8452"
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:29366efc1576ad3109b0",
+      "selection_index": 21,
+      "original_decision": "no_separate_semantic_proposition",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:2a51d864b02ec7f8f8bb",
+      "selection_index": 22,
+      "original_decision": "no_separate_semantic_proposition",
+      "peer_decision": "change_to_scope_comparison_unresolved",
+      "reason": "The source positively assigns Zusatz/Übertragung/Kurzteil/frische Spülflüssigkeit/Einlage to Beschickung and Teilen to Mess-/Portionierungsart. Unchanged word meanings do not make these content-class assignments nonsemantic; an exact existing full-rule counterpart has not been established.",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_minimal_bio_dictionary_three_hundred_tenth/THREE_HUNDRED_TENTH_REPORT.md",
+        "line": 5,
+        "line_end": 5,
+        "quote": "Beim Zusammenbau fielen sechs falsch grob einsortierte Ganzzeichen auf. Zusatz, Übertragung, Kurzteil, frische Spülflüssigkeit und Einlage gehören zur Beschickung; Teilen zur Mess-/Portionierungsart. Die Korrektur betrifft acht Ereignisse und ändert keine Kartenbedeutung, nur ihre Betriebsart.",
+        "sha256": "29033bd3ae0473faab3c6eba46f7aad65c825adfcab9363b580f97720e786203"
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:2b21370643bbe9952c89",
+      "selection_index": 23,
+      "original_decision": "scope_comparison_unresolved",
+      "peer_decision": "retain",
+      "reason": "Substantive or rule-bearing source remains unresolved; keep audit-only, no placeholder card or completed semantic comparison.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:2f67401e69c72215df7f",
+      "selection_index": 24,
+      "original_decision": "no_separate_semantic_proposition",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:300c151e11124717ce16",
+      "selection_index": 25,
+      "original_decision": "no_separate_semantic_proposition",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:3772a564cba7a292d5da",
+      "selection_index": 26,
+      "original_decision": "no_separate_semantic_proposition",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:37c95e7fe8bdf8d95097",
+      "selection_index": 27,
+      "original_decision": "no_separate_semantic_proposition",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:39cc230d9bd8e9d25279",
+      "selection_index": 28,
+      "original_decision": "no_separate_semantic_proposition",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:3d2b95d5f0bbbbc4a50f",
+      "selection_index": 29,
+      "original_decision": "scope_comparison_unresolved",
+      "peer_decision": "retain",
+      "reason": "Substantive or rule-bearing source remains unresolved; keep audit-only, no placeholder card or completed semantic comparison.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:3d3861a8f8ec9c14288e",
+      "selection_index": 30,
+      "original_decision": "no_separate_semantic_proposition",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:3d88e13f52585be38115",
+      "selection_index": 31,
+      "original_decision": "scope_comparison_unresolved",
+      "peer_decision": "retain",
+      "reason": "Substantive or rule-bearing source remains unresolved; keep audit-only, no placeholder card or completed semantic comparison.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:411d4a0a92fd5d33c01f",
+      "selection_index": 32,
+      "original_decision": "scope_comparison_unresolved",
+      "peer_decision": "retain",
+      "reason": "Substantive or rule-bearing source remains unresolved; keep audit-only, no placeholder card or completed semantic comparison.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:453cd628059b9cbb39f9",
+      "selection_index": 33,
+      "original_decision": "scoped_proposition_candidates",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:48e6b59ba0cecc8efacc",
+      "selection_index": 34,
+      "original_decision": "no_separate_semantic_proposition",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:49b480f853a24f50b848",
+      "selection_index": 35,
+      "original_decision": "no_separate_semantic_proposition",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:50dfb701ffb47ec2c222",
+      "selection_index": 36,
+      "original_decision": "scope_comparison_unresolved",
+      "peer_decision": "retain",
+      "reason": "Substantive or rule-bearing source remains unresolved; keep audit-only, no placeholder card or completed semantic comparison.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:510a0ab5b1f8b37307bf",
+      "selection_index": 37,
+      "original_decision": "scope_comparison_unresolved",
+      "peer_decision": "retain",
+      "reason": "Substantive or rule-bearing source remains unresolved; keep audit-only, no placeholder card or completed semantic comparison.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:54e59b8cf96ae6406325",
+      "selection_index": 38,
+      "original_decision": "scope_comparison_unresolved",
+      "peer_decision": "retain",
+      "reason": "Substantive or rule-bearing source remains unresolved; keep audit-only, no placeholder card or completed semantic comparison.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:55fe3ace67b4cc2f676c",
+      "selection_index": 39,
+      "original_decision": "no_separate_semantic_proposition",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:57cd3235edc1af184d16",
+      "selection_index": 40,
+      "original_decision": "no_separate_semantic_proposition",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:5a70e117ca3637a6e3d8",
+      "selection_index": 41,
+      "original_decision": "scope_comparison_unresolved",
+      "peer_decision": "retain",
+      "reason": "Substantive or rule-bearing source remains unresolved; keep audit-only, no placeholder card or completed semantic comparison.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:5b45296dd51cf9e59100",
+      "selection_index": 42,
+      "original_decision": "no_separate_semantic_proposition",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:5c0b17de7d54a4da2827",
+      "selection_index": 43,
+      "original_decision": "scoped_proposition_candidates",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:5ca8af95c91016aee8b5",
+      "selection_index": 44,
+      "original_decision": "no_separate_semantic_proposition",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:5d2f4ce3cf1de39443ea",
+      "selection_index": 45,
+      "original_decision": "no_separate_semantic_proposition",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:5ec93bf39f305d42a247",
+      "selection_index": 46,
+      "original_decision": "scoped_proposition_candidates",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:5f0b26c52db6d03543f2",
+      "selection_index": 47,
+      "original_decision": "scoped_proposition_candidates",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:6128178341bc8670ab87",
+      "selection_index": 48,
+      "original_decision": "no_separate_semantic_proposition",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:617c69d6e8dd599762c5",
+      "selection_index": 49,
+      "original_decision": "no_separate_semantic_proposition",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:62c42183710ff4299169",
+      "selection_index": 50,
+      "original_decision": "scope_comparison_unresolved",
+      "peer_decision": "retain",
+      "reason": "Substantive or rule-bearing source remains unresolved; keep audit-only, no placeholder card or completed semantic comparison.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:62dcc3b3b8599827e12a",
+      "selection_index": 51,
+      "original_decision": "no_separate_semantic_proposition",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:675a3ff5a83c8f76423c",
+      "selection_index": 52,
+      "original_decision": "no_separate_semantic_proposition",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:6942721b372af46e3277",
+      "selection_index": 53,
+      "original_decision": "no_separate_semantic_proposition",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:6a354949d82734feb346",
+      "selection_index": 54,
+      "original_decision": "no_separate_semantic_proposition",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:6e9e69b07158567d2020",
+      "selection_index": 55,
+      "original_decision": "scope_comparison_unresolved",
+      "peer_decision": "retain",
+      "reason": "Substantive or rule-bearing source remains unresolved; keep audit-only, no placeholder card or completed semantic comparison.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:708c8f22b2c721dc54de",
+      "selection_index": 56,
+      "original_decision": "scoped_proposition_candidates",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:70bbb0d15ce3436864c0",
+      "selection_index": 57,
+      "original_decision": "scoped_proposition_candidates",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:712c44c694ff55b707d8",
+      "selection_index": 58,
+      "original_decision": "no_separate_semantic_proposition",
+      "peer_decision": "change_to_scope_comparison_unresolved",
+      "reason": "The source positively proposes frequent work cards with learned allographs versus rigidly copied rare specialist cards. Simulation evidence does not confirm it, but it is a writing-mechanism assertion rather than merely a count. Compare existing complete mixed-model claims before calling it covered.",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_four_scribe_copy_three_hundred_twenty_fifth/THREE_HUNDRED_TWENTY_FIFTH_REPORT.md",
+        "line": 1,
+        "line_end": 19,
+        "quote": "# Pass 325 — Vier-Schreiber-Probe\n\n## Ergebnis\n\nVier feste Renderer-Gewohnheiten erzeugen aus den zwei frischen Passagen acht\nverschiedene sichtbare Kopien und 56 sichtbare Ereignisse. Jede Form gehört zur\nbereits registrierten Palette ihrer Karte; 56/56 Identitäten und Bedeutungen\nbleiben erhalten.\n\nDie stärkste Erklärung der sichtbaren Variation ist damit weiterhin ein\nKarten-/Allographensystem: häufige Arbeitskarten besitzen mehrere gelernte\nFormen, während einige seltene Fachkarten starr kopiert werden.\n\n## Nächster Schritt\n\nAls nächstes wird das gemeinsame 17-Karten-Deck auf seine inneren\nKompositionsfamilien reduziert. Ziel ist ein noch kleinerer Lehrsatz aus\nStämmen plus Ganzkarten, der die vier Schreiberfassungen tatsächlich erzeugen\nkann, ohne Oberflächenstücke fälschlich als selbständige Wörter zu lesen.",
+        "sha256": "0800ea17307cf7cce2dbe4553b08fc14dd8b569bf8f200d5033041016180ac17"
+      }
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:75ccff91a30812bbd144",
+      "selection_index": 59,
+      "original_decision": "no_separate_semantic_proposition",
+      "peer_decision": "retain",
+      "reason": "Exact span reviewed; preserve source-scoped disposition. No claim about unread surrounding report.",
+      "evidence": []
+    }
+  ],
+  "counts": {
+    "cards_reviewed": 11,
+    "approve": 10,
+    "approve_with_identity_risk": 1,
+    "source_blocks_reviewed": 60,
+    "original_unresolved_preserved": 16,
+    "additional_scope_comparisons_needed": 2,
+    "no_placeholder_cards": true
+  },
+  "validation": {
+    "exact_source_spans_checked": 60,
+    "passed": true
+  },
+  "limits": [
+    "No original review, source card or operational log edited.",
+    "All60 selected spans read, not full surrounding reports. Source comparisons remain bounded; this is not a global semantic equivalence proof.",
+    "Historical scenarios and old image descriptions are not native observations from this task.",
+    "Two additional substantive scope questions must not silently become nonideas. They remain audit-only until compared."
+  ]
+}

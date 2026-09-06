@@ -1,0 +1,1025 @@
+{
+  "schema": "semantic_polarity_review_v1",
+  "review_id": "BL",
+  "selection": {
+    "screened_candidate_count": 109,
+    "reviewed_cards": 18,
+    "method": "Read-only current public SEM arrow-claims shorter than120 characters; attached negation/rejection phrases used only as navigation. Excluded current source-correction-history cards and explicit target/card IDs found in earlier polarity/type/scope/failure/identity reviews. This metadata exclusion is best-effort, not a proof that no related case has ever been reviewed.",
+    "scope": "18 deliberately selected whole card histories; bounded primary paragraphs, no raw manuscript artifacts, images or external links.",
+    "nonconfirmation_not_rejection": true
+  },
+  "reviews": [
+    {
+      "target": "SEM:6ade9bb46c8f282a25f2",
+      "target_basis_sha256": "7bd1155180a98b21ebdfd96b4ec8bcf24af0651986d9e9e10722071c194f887a",
+      "effective_basis_sha256": "ed72e0ad87a9e8119e9fbddff314940cd85585327862412e8ae7f2e58cca19ae",
+      "original_claim": "shody → moist",
+      "effective_claim": "shody → moist",
+      "claim_type": "lexical_hypothesis",
+      "case_ids": [
+        "CLEAN_COMPONENT:67c04e3ecba4db850a5c"
+      ],
+      "member_ids": [
+        "LEGACY_COMPONENT:0e7a85b33ffee87ea564"
+      ],
+      "source_origins": [
+        {
+          "case_id": "CLEAN_COMPONENT:67c04e3ecba4db850a5c",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT623",
+            "section": "`chody` is the first practical dry-class word",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt623_temperament_orientation_frequency/REPORT.md"
+          },
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+          "status": "unconfirmed"
+        }
+      ],
+      "recommendation": "preserve_historical_hypothesis_update_source_status",
+      "source_polarity": "source_report_rejected",
+      "reason": "A concrete symmetric moist extension was considered and rejected under the source’s strict-q-code working orientation; this is not a denied extraction and should not be archived.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt623_temperament_orientation_frequency/REPORT.md",
+          "line": 106,
+          "line_end": 136,
+          "quote": "## `chody` is the first practical dry-class word\n\n`chody` occurs 78 times on 56 panel pages. Twelve occurrences have no strict\nq-code anywhere on their page. Of the other 66, the nearest strict code is dry\n65 times and moist once. Restricting to one physical line gives 33 dry and one\nmoist. The form is line-internal in 77/78 occurrences, which suits a state or\nquality/state word better than a page title.\n\nThe concrete default is therefore:\n\n```text\nchody  -> dry / dry class (compare Latin sicca)\n```\n\n“Dried” is retained only as a separate preparation alternative. Medieval\ntechnical vocabulary distinguishes `siccus` (dry), `siccatus/exsiccatus`\n(dried), `humidus` (moist), `humectatus` (moistened), and `recens/viridis`\n(fresh/green). Packing those into one gloss would erase the distinction we are\ntrying to recover.\n\nThe apparently symmetric `shody = moist` extension is therefore rejected:\n\n```text\nshody nearest strict q-code: 37 dry, 1 moist\nshody within one line:        14 dry, 0 moist\n```\n\nThe similar `shedy` remains a separate weak moist-class candidate. Its nearest\nmoist-code rate is 79/326 = 24.2%, versus\n57/512 = 11.1% for strict q-codes globally, but the effect is section-variable\nand moist is still a minority. “Fresh” and “moistened” are not silently added.",
+          "sha256": "dcdf7fe8a3003907487eb61ac22007ce8403893c20cbdf5ea02d1bfbd48238e4"
+        }
+      ],
+      "limits": [
+        "No independent dry/moist gold is established by this curation. Do not infer a general meaning of shody or transfer rejection to shedy."
+      ],
+      "ready": false,
+      "replacement": {
+        "claim": "GDT623 considers shody=moist as the symmetric counterpart to chody=dry, then rejects that extension within its strict-q-code orientation because its reported neighbours are overwhelmingly dry.",
+        "claim_type": "lexical_hypothesis",
+        "status": "source_report_rejected"
+      }
+    },
+    {
+      "target": "SEM:b16be96125d63f30117d",
+      "target_basis_sha256": "35b91ec37c5dda04c5cb9ec7a511edca5b5d4a2ed556f3a11165a3fb417af5eb",
+      "effective_basis_sha256": "220f37ac60cfda662a007d12140daddb1bc84ea72e3449a9855af55e62649636",
+      "original_claim": "SH → KLAR",
+      "effective_claim": "SH → KLAR",
+      "claim_type": "lexical_hypothesis",
+      "case_ids": [
+        "CLEAN_COMPONENT:c7405d9b85362f3506d2"
+      ],
+      "member_ids": [
+        "LEGACY_COMPONENT:c8a19488870cb8f84f2b"
+      ],
+      "source_origins": [
+        {
+          "case_id": "CLEAN_COMPONENT:c7405d9b85362f3506d2",
+          "scope": {
+            "kind": "literal_core_declaration_without_portability_claim"
+          },
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+          "status": "unconfirmed"
+        }
+      ],
+      "recommendation": "archive_false_assignment_extraction",
+      "source_polarity": "non_assignment_blocked_component_projection",
+      "reason": "The only case comes from a sentence forbidding SH=KLAR in other cards from whole CHEEY|SHEY=KLARAUSZUG. No positive free-SH assignment exists in the targeted source context.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_filtration_separation_completion/SELECTED_FILTRATION_SEPARATION_REPORT.md",
+          "line": 221,
+          "line_end": 236,
+          "quote": "- `CKH=DURCHLAUF` gilt für die exakte wiederkehrende\n  `CHCKHY|SHCKHY`-Karte. `SHECKHY`, `QOCKHEY`, `LCHECKHY` und\n  `CHEECKHODY` bleiben andere gelernte Karten.\n- `CKHE=SEIHEN` gilt für `SHCKHEDY` und die lokale Erweiterung\n  `LCHECKHEDY`; es ist nicht automatisch freies `CKH + E`.\n- `CHK` bleibt die ausgewählte Wärmefamilie. `CKH` und `CHK` sind wegen der\n  umgekehrten Reihenfolge nicht dasselbe.\n- `CHEEY|SHEY=KLARAUSZUG` ist eine exakte Ganzkarte. Daraus folgt weder\n  `EY=WASSER` noch `SH=KLAR` in anderen Karten.\n- `SHEEY` bleibt die andere exakte Karte „erste Öffnung“.\n- `LSH` ist nur in `LSHO/LSHEDY` waschen. Die SHED-Familie heißt weiterhin\n  ruhen/absetzen, und `TSHOL` bleibt Blütenkraut.\n- `DAIN=TUCH` überstimmt in dieser exakten Karte die sichtbare Nähe zu\n  `AIIN=MAẞ`.\n- `CFHY` und `CPHY` sind geordnete Ganzkarten; es wird kein freies\n  `F=AUSWRINGEN` oder `P=WIEDERHOLEN` erfunden.",
+          "sha256": "40056f6e7ef9c9d09874bc9e9f3282eb595cb5e87bfd1336618fa2c722f8db67"
+        }
+      ],
+      "limits": [
+        "Retain the exact whole-card clear-extract hypothesis; this is not its rejection. No claim that every possible SH clarity hypothesis was historically tested or globally refuted."
+      ],
+      "ready": false
+    },
+    {
+      "target": "SEM:c06af5e7b244f725547a",
+      "target_basis_sha256": "abcf6ce85e45793303ef0958b6deb5c72f262eb1b4db53d74a06c9ff2c68ce36",
+      "effective_basis_sha256": "72dc3a593d514cd4a6a2ff22ff9959c6b89ff1f6cd06a529a1dd299184167a6d",
+      "original_claim": "d/s → source/destination",
+      "effective_claim": "d/s → source/destination",
+      "claim_type": "lexical_hypothesis",
+      "case_ids": [
+        "CLEAN_COMPONENT:ebde24e6ab7e7682f2b8",
+        "REPORT_PROPOSAL:812b48cff7e8dd2cd3a4"
+      ],
+      "member_ids": [
+        "LEGACY_COMPONENT:466e05040cd0b143098c",
+        "LEGACY_PROPOSAL:4242509f095cf6346d5af20a"
+      ],
+      "source_origins": [
+        {
+          "case_id": "CLEAN_COMPONENT:ebde24e6ab7e7682f2b8",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT009",
+            "section": "Counterexamples that shaped the theory",
+            "semantic_column": null,
+            "source": "GDT009_SEMANTIC_BOOTSTRAP_REPORT.md"
+          },
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+          "status": "unconfirmed"
+        },
+        {
+          "case_id": "REPORT_PROPOSAL:812b48cff7e8dd2cd3a4",
+          "scope": {
+            "case": "exact_existing_component_case",
+            "section": "Counterexamples that shaped the theory",
+            "source": "GDT009_SEMANTIC_BOOTSTRAP_REPORT.md"
+          },
+          "source_polarity": "historical_source_rejected",
+          "status": "unconfirmed"
+        }
+      ],
+      "recommendation": "preserve_historical_hypothesis_update_source_status",
+      "source_polarity": "source_report_rejected",
+      "reason": "GDT009 explicitly lists this as a rejected earlier reading among counterexamples shaping its new theory. Preserve the actual historical proposition rather than archive its rejection sentence.",
+      "evidence": [
+        {
+          "path": "GDT009_SEMANTIC_BOOTSTRAP_REPORT.md",
+          "line": 83,
+          "line_end": 100,
+          "quote": "  unusually final/label-heavy relative to the common modules.\n- The best picture correlations remain weak: DAL upper/lower is p=.151 and\n  inside/outside p=.301 after page conditioning.  Those clues motivate\n  configuration semantics but do not name configurations.\n\n## Counterexamples that shaped the theory\n\n`AROL = water/flow`, `DAR = water`, `d/s = source/destination`, and\n`DAL = upper` are rejected.  q and DY are not confirmed morphemes because the\nnested algebra does not outperform string baselines.  The theory instead\nassigns abstract record functions, where cross-object reuse is expected.\n\n## What remains awkward\n\nThe pure-template source model is still a formidable alternative and compresses\nbetter.  No core referent is securely named.  d/s polarity, DAL/DAR polarity,\nand TE/TEE segmentation are invented.  Several strongest visual clues are\npage-confounded.  PRS-1 is therefore a theory to generate sharper observations,",
+          "sha256": "6b5d0f65380395ca19407b8f3979f5410b65c1303ba46b8599a4e227aca0485e"
+        }
+      ],
+      "limits": [
+        "The report calls remaining polarity assignments invented and visual clues weak/page-confounded. Do not convert this into a confirmed opposite reading or a universal ban on spatial roles."
+      ],
+      "ready": false,
+      "replacement": {
+        "claim": "d/s → source/destination",
+        "claim_type": "lexical_hypothesis",
+        "status": "source_report_rejected"
+      }
+    },
+    {
+      "target": "SEM:deaece4570eca8ec18e1",
+      "target_basis_sha256": "ed857638496e46882046e6504a5f2a65ca1fe81464c80ef99c455ac5466c0099",
+      "effective_basis_sha256": "a9c425fbd1650b0885e46aac24330ed0de42c416f9a8c4930bb91802c6cea2a6",
+      "original_claim": "DAL → upper",
+      "effective_claim": "DAL → upper",
+      "claim_type": "lexical_hypothesis",
+      "case_ids": [
+        "CLEAN_COMPONENT:42d67c8014cb29e91977",
+        "REPORT_PROPOSAL:b30399ad3a2cac54f83d"
+      ],
+      "member_ids": [
+        "LEGACY_COMPONENT:466e05040cd0b143098c",
+        "LEGACY_PROPOSAL:4242509f095cf6346d5af20a"
+      ],
+      "source_origins": [
+        {
+          "case_id": "CLEAN_COMPONENT:42d67c8014cb29e91977",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT009",
+            "section": "Counterexamples that shaped the theory",
+            "semantic_column": null,
+            "source": "GDT009_SEMANTIC_BOOTSTRAP_REPORT.md"
+          },
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+          "status": "unconfirmed"
+        },
+        {
+          "case_id": "REPORT_PROPOSAL:b30399ad3a2cac54f83d",
+          "scope": {
+            "case": "exact_existing_component_case",
+            "section": "Counterexamples that shaped the theory",
+            "source": "GDT009_SEMANTIC_BOOTSTRAP_REPORT.md"
+          },
+          "source_polarity": "historical_source_rejected",
+          "status": "unconfirmed"
+        }
+      ],
+      "recommendation": "preserve_historical_hypothesis_update_source_status",
+      "source_polarity": "source_report_rejected",
+      "reason": "GDT009 explicitly lists this as a rejected earlier reading among counterexamples shaping its new theory. Preserve the actual historical proposition rather than archive its rejection sentence.",
+      "evidence": [
+        {
+          "path": "GDT009_SEMANTIC_BOOTSTRAP_REPORT.md",
+          "line": 83,
+          "line_end": 100,
+          "quote": "  unusually final/label-heavy relative to the common modules.\n- The best picture correlations remain weak: DAL upper/lower is p=.151 and\n  inside/outside p=.301 after page conditioning.  Those clues motivate\n  configuration semantics but do not name configurations.\n\n## Counterexamples that shaped the theory\n\n`AROL = water/flow`, `DAR = water`, `d/s = source/destination`, and\n`DAL = upper` are rejected.  q and DY are not confirmed morphemes because the\nnested algebra does not outperform string baselines.  The theory instead\nassigns abstract record functions, where cross-object reuse is expected.\n\n## What remains awkward\n\nThe pure-template source model is still a formidable alternative and compresses\nbetter.  No core referent is securely named.  d/s polarity, DAL/DAR polarity,\nand TE/TEE segmentation are invented.  Several strongest visual clues are\npage-confounded.  PRS-1 is therefore a theory to generate sharper observations,",
+          "sha256": "6b5d0f65380395ca19407b8f3979f5410b65c1303ba46b8599a4e227aca0485e"
+        }
+      ],
+      "limits": [
+        "The report calls remaining polarity assignments invented and visual clues weak/page-confounded. Do not convert this into a confirmed opposite reading or a universal ban on spatial roles."
+      ],
+      "ready": false,
+      "replacement": {
+        "claim": "DAL → upper",
+        "claim_type": "lexical_hypothesis",
+        "status": "source_report_rejected"
+      }
+    },
+    {
+      "target": "SEM:f98deebb97b27f1f85a8",
+      "target_basis_sha256": "ed27237678dc9b50a8d6450213856f70a5751730da2a6573553f5ca13b441703",
+      "effective_basis_sha256": "d63639307b6ee235995e11969509b2c485e658fe1766821c8c7a927b17fe9947",
+      "original_claim": "CTHY → DRY",
+      "effective_claim": "CTHY → DRY",
+      "claim_type": "lexical_hypothesis",
+      "case_ids": [
+        "CLEAN_COMPONENT:e7e8f4cc8855104f514c",
+        "CLEAN_COMPONENT:9aa3259c96f760153205"
+      ],
+      "member_ids": [
+        "LEGACY_COMPONENT:1ba796f4f1b2635da61f",
+        "LEGACY_COMPONENT:384821afd480d2902a0f",
+        "LEGACY_COMPONENT:c913619585331e1829df"
+      ],
+      "source_origins": [
+        {
+          "case_id": "CLEAN_COMPONENT:e7e8f4cc8855104f514c",
+          "scope": {
+            "kind": "literal_core_declaration_without_portability_claim"
+          },
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+          "status": "unconfirmed"
+        },
+        {
+          "case_id": "CLEAN_COMPONENT:9aa3259c96f760153205",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Iteration 133 — `CHOL` and `OL` collapse to one exact card",
+            "semantic_column": null,
+            "source": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md"
+          },
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+          "status": "unconfirmed"
+        }
+      ],
+      "recommendation": "preserve_historical_hypothesis_update_source_status",
+      "source_polarity": "source_explicitly_withdrawn_after_lost_paired_support",
+      "reason": "The source explicitly withdraws the earlier dry reading and later explains loss of its paired-quality support. This is real historical hypothesis history, not a hypothetical novice mistake.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "line": 84,
+          "line_end": 88,
+          "quote": "Explicitly withdrawn readings include `AROL = WATER`, `OL = WATER`, simultaneous\n`CHOL = HOT` versus `OL = MEDIUM`, `CTHY = DRY`, `D=ASSIGN`, `S=RESUME`,\n`Q=NEXT`, SOL as a confirmed verb, a fixed DESCRIPTION→RECIPE order for the two\nHerbal packets, line equals sentence, a universal diagram-label dictionary,\nand a direct f68↔f69 28-name list. No exact card has a confirmed English meaning.",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+        },
+        {
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "line": 6003,
+          "line_end": 6012,
+          "quote": "might assign both a convenient hot/dry constitution, while leaving f11r\nunidentified, would manufacture the desired CHOL/CTHY mapping. The image\nidentifications are not sufficiently independent or consistent to orient the\nquality axis.\n\nTherefore `CHOL = HOT`, `CTHY = DRY`, botanical names and water-habitat readings\nremain unlicensed. A plant picture may still encode habitat, including water,\nor may combine mnemonic features from several source plants. The current\nworkshop grammar allows that content but cannot recover it from these four\nimages alone.",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+        },
+        {
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "line": 7288,
+          "line_end": 7297,
+          "quote": "Consequences:\n\n- `CHOL=HOT` and `OL=IN/WITH_MEDIUM` cannot both be true under the best current\n  grammar; that worked dictionary is withdrawn.\n- `CTHY=DRY` loses its paired-quality support because its partner is a portable\n  cross-register card, not a separately established HOT card.\n- A broad common function such as RELATION, CLASS, CARRIER, or ADDRESS remains\n  possible for the shared L-card, but none is selected.\n- The field/card architecture becomes stronger: a visually prominent prefix\n  can change while the registered identity remains exact.",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+        }
+      ],
+      "limits": [
+        "Loss of independent HOT partner and image-based orientation does not establish any alternative CTHY translation."
+      ],
+      "ready": false,
+      "replacement": {
+        "claim": "CTHY → DRY",
+        "claim_type": "lexical_hypothesis",
+        "status": "source_report_withdrawn"
+      }
+    },
+    {
+      "target": "SEM:fd39a36e5cf28cb00fcc",
+      "target_basis_sha256": "37fe4a17a0e094330ff6b547ff4c56e38b9da3730d55bf189a270e30537114e2",
+      "effective_basis_sha256": "410787c5850a5f6a896f6d3c372f63b7b1a201d959aa2bb6ae4e2b7ddb876109",
+      "original_claim": "shey → bis die Flüssigkeit klar abläuft",
+      "effective_claim": "shey → bis die Flüssigkeit klar abläuft",
+      "claim_type": "lexical_hypothesis",
+      "case_ids": [
+        "CLEAN_COMPONENT:60f668a929393ba5049d",
+        "CLEAN_COMPONENT:ab88d1de290474c80c4f"
+      ],
+      "member_ids": [
+        "LEGACY_COMPONENT:47348ce89e446cad4e96",
+        "LEGACY_COMPONENT:8b867f49c59b1c34e44d"
+      ],
+      "source_origins": [
+        {
+          "case_id": "CLEAN_COMPONENT:60f668a929393ba5049d",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Was der Text jetzt sagt",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_continuous_working_translation_five_hundred_sixty_third/FIVE_HUNDRED_SIXTY_THIRD_REPORT.md"
+          },
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+          "status": "unconfirmed"
+        },
+        {
+          "case_id": "CLEAN_COMPONENT:ab88d1de290474c80c4f",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Wichtige Wörterbuchkorrektur",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_process_verbs_seven_hundred_thirty_fifth/SEVEN_HUNDRED_THIRTY_FIFTH_REPORT.md"
+          },
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+          "status": "unconfirmed"
+        }
+      ],
+      "recommendation": "preserve_historical_hypothesis_update_source_status",
+      "source_polarity": "source_explicitly_withdrawn_overloaded_whole_reading",
+      "reason": "Pass563 calls the old long reading an overload, and Pass735 explicitly says it remains withdrawn in favour of its shorter SH+EE+Y working composition.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_continuous_working_translation_five_hundred_sixty_third/FIVE_HUNDRED_SIXTY_THIRD_REPORT.md",
+          "line": 9,
+          "line_end": 9,
+          "quote": "Alle 116 Aussagen und 381 Kartenereignisse haben eine konkrete Lesung. Die Einzelkarte bleibt kurz; Satzflüssigkeit entsteht durch Bildbesitzer, Slotgrammatik und Handlungskontext. Genau dadurch wird eine alte Überladung wie `shey = bis die Flüssigkeit klar abläuft` vermieden: Die Karte liefert nur ihren kurzen Zustand oder Arbeitswert, der Satz liefert den Rest.",
+          "sha256": "05cd13e18fa6349d5d9bc3d20ca620853df8b5350ac73783bdef1cae586e59e5"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_process_verbs_seven_hundred_thirty_fifth/SEVEN_HUNDRED_THIRTY_FIFTH_REPORT.md",
+          "line": 19,
+          "line_end": 21,
+          "quote": "## Wichtige Wörterbuchkorrektur\n\nDie alte, viel zu komplexe Lesung `shey = bis die Flüssigkeit klar abläuft` bleibt endgültig zurückgezogen. `cheey|shey` und `sheey` realisieren dieselbe einfache Komposition SH+EE+Y: **diesen Posten lange halten**. Klarlauf wäre zusätzlicher, hier nicht kodierter Inhalt.",
+          "sha256": "138613da7f9d6048e692d081c37398743ac37910d56076b451002675d0419bc3"
+        }
+      ],
+      "limits": [
+        "Preserve this real tried long reading; do not promote its later replacement to confirmed meaning or apply its scope to every differently normalized SHEY card."
+      ],
+      "ready": false,
+      "replacement": {
+        "claim": "shey → bis die Flüssigkeit klar abläuft",
+        "claim_type": "lexical_hypothesis",
+        "status": "source_report_withdrawn"
+      }
+    },
+    {
+      "target": "SEM:b669fb52dff2e1555d99",
+      "target_basis_sha256": "d129824061de5b8f76981b76577717d2f52e72dea147074ec142d64c3ffc6f05",
+      "effective_basis_sha256": "686d44aa8a791130424b13b54003d5804ffff287328bc1520cde3ec410c00aab",
+      "original_claim": "dain → wenig",
+      "effective_claim": "dain → wenig",
+      "claim_type": "lexical_hypothesis",
+      "case_ids": [
+        "CLEAN_COMPONENT:f16909fa815d1144720c",
+        "REPORT_PROPOSAL:1dfac3b7f8125365c4fd"
+      ],
+      "member_ids": [
+        "LEGACY_COMPONENT:6828eed3bc0ddbb62aad",
+        "LEGACY_PROPOSAL:4573110d458fa1aca83a48ed"
+      ],
+      "source_origins": [
+        {
+          "case_id": "CLEAN_COMPONENT:f16909fa815d1144720c",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT813",
+            "section": "Arbeitsstand GDT813: ein Inhaltswort, noch keine Stoffidentifikation",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt813_f17_content_word_transfer/WORKING_THEORY.md"
+          },
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+          "status": "unconfirmed"
+        },
+        {
+          "case_id": "REPORT_PROPOSAL:1dfac3b7f8125365c4fd",
+          "scope": {
+            "case": "exact_existing_component_case",
+            "section": "Arbeitsstand GDT813: ein Inhaltswort, noch keine Stoffidentifikation",
+            "source": "experiments/yolo/gdt813_f17_content_word_transfer/WORKING_THEORY.md"
+          },
+          "source_polarity": null,
+          "status": "unconfirmed"
+        }
+      ],
+      "recommendation": "retain_qualified_historical_assignment",
+      "source_polarity": "explicit_positive_C0_whole_word_hypothesis",
+      "reason": "GDT813 explicitly states dan=sehr wenig and dain=wenig at39–41. The non-powder paragraph denies a separate noun identification, not these intensity hypotheses.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt813_f17_content_word_transfer/WORKING_THEORY.md",
+          "line": 3,
+          "line_end": 13,
+          "quote": "2026-09-05. Alle folgenden Wortbedeutungen sind C0: unbestätigte Arbeitshypothesen.\n\n`otchol cthar okaiin chol daiiin` auf f17r.11 lässt zwei konkrete Versuche zu:\n\n- N: **„Dieses Wurzelpulver: äußerst trocken?“**\n- G: **„Diese Wurzel ist äußerst trocken?“**\n\nBeide halten die gleichen Annahmen fest: otchol=dieses, cthar=Wurzel,\nchol=trocken und daiiin=sehr hohe Ausprägung. Nur okaiin unterscheidet sich:\nPulver oder ist. Der Doppelpunkt in N ist unsere nominale Satzanalyse,\nkein entschlüsseltes Wort. Es gibt keinen belegten Mahlvorgang.",
+          "sha256": "890c791cd38c5dce48773957fd2e8fe53935b9674747a38ef9d1196ace1db9d3"
+        },
+        {
+          "path": "experiments/yolo/gdt813_f17_content_word_transfer/WORKING_THEORY.md",
+          "line": 24,
+          "line_end": 27,
+          "quote": "Das identifiziert ausdrücklich **nicht Pulver**. Das Bild zeigt ein\nPflanzenfragment mit Blättern, keinen Pulverhaufen; ein eindeutiger Besitzer\ndes Labels ist nicht abgegrenzt. Ebenso hat Wurzel noch keinen unabhängigen\nWortbeleg. N ist die konkretere Frage, keine gewonnene Übersetzung.",
+          "sha256": "890c791cd38c5dce48773957fd2e8fe53935b9674747a38ef9d1196ace1db9d3"
+        },
+        {
+          "path": "experiments/yolo/gdt813_f17_content_word_transfer/WORKING_THEORY.md",
+          "line": 39,
+          "line_end": 41,
+          "quote": "Die Familie bleibt dan=sehr wenig, dain=wenig, daiin=viel/hohe Ausprägung,\ndaiiin=sehr viel/sehr hohe Ausprägung. Vergleichs-/Übermaß- und Zahlmodelle\nbleiben daneben bestehen. Das sind Ganzworthypothesen, keine gelösten Stämme.",
+          "sha256": "890c791cd38c5dce48773957fd2e8fe53935b9674747a38ef9d1196ace1db9d3"
+        }
+      ],
+      "limits": [
+        "Whole words only; comparison/excess and numeral rivals are retained. No independent intensity confirmation."
+      ],
+      "ready": false
+    },
+    {
+      "target": "SEM:e95d2ef50840e41dad97",
+      "target_basis_sha256": "9f59e8927460937e2506b3b4c6b03004cf8519d277a5fb8ff8a9267e428dec8a",
+      "effective_basis_sha256": "05ecc11dd00c5b09b17119e5d120bea46e6287343d8d757a43675f6c10e48c70",
+      "original_claim": "dan → sehr wenig",
+      "effective_claim": "dan → sehr wenig",
+      "claim_type": "lexical_hypothesis",
+      "case_ids": [
+        "CLEAN_COMPONENT:c8b589bba3a171e9ff87",
+        "REPORT_PROPOSAL:1300ff6a8291a457e7d5"
+      ],
+      "member_ids": [
+        "LEGACY_COMPONENT:6828eed3bc0ddbb62aad",
+        "LEGACY_PROPOSAL:4573110d458fa1aca83a48ed"
+      ],
+      "source_origins": [
+        {
+          "case_id": "CLEAN_COMPONENT:c8b589bba3a171e9ff87",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT813",
+            "section": "Arbeitsstand GDT813: ein Inhaltswort, noch keine Stoffidentifikation",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt813_f17_content_word_transfer/WORKING_THEORY.md"
+          },
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+          "status": "unconfirmed"
+        },
+        {
+          "case_id": "REPORT_PROPOSAL:1300ff6a8291a457e7d5",
+          "scope": {
+            "case": "exact_existing_component_case",
+            "section": "Arbeitsstand GDT813: ein Inhaltswort, noch keine Stoffidentifikation",
+            "source": "experiments/yolo/gdt813_f17_content_word_transfer/WORKING_THEORY.md"
+          },
+          "source_polarity": null,
+          "status": "unconfirmed"
+        }
+      ],
+      "recommendation": "retain_qualified_historical_assignment",
+      "source_polarity": "explicit_positive_C0_whole_word_hypothesis",
+      "reason": "GDT813 explicitly states dan=sehr wenig and dain=wenig at39–41. The non-powder paragraph denies a separate noun identification, not these intensity hypotheses.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt813_f17_content_word_transfer/WORKING_THEORY.md",
+          "line": 3,
+          "line_end": 13,
+          "quote": "2026-09-05. Alle folgenden Wortbedeutungen sind C0: unbestätigte Arbeitshypothesen.\n\n`otchol cthar okaiin chol daiiin` auf f17r.11 lässt zwei konkrete Versuche zu:\n\n- N: **„Dieses Wurzelpulver: äußerst trocken?“**\n- G: **„Diese Wurzel ist äußerst trocken?“**\n\nBeide halten die gleichen Annahmen fest: otchol=dieses, cthar=Wurzel,\nchol=trocken und daiiin=sehr hohe Ausprägung. Nur okaiin unterscheidet sich:\nPulver oder ist. Der Doppelpunkt in N ist unsere nominale Satzanalyse,\nkein entschlüsseltes Wort. Es gibt keinen belegten Mahlvorgang.",
+          "sha256": "890c791cd38c5dce48773957fd2e8fe53935b9674747a38ef9d1196ace1db9d3"
+        },
+        {
+          "path": "experiments/yolo/gdt813_f17_content_word_transfer/WORKING_THEORY.md",
+          "line": 24,
+          "line_end": 27,
+          "quote": "Das identifiziert ausdrücklich **nicht Pulver**. Das Bild zeigt ein\nPflanzenfragment mit Blättern, keinen Pulverhaufen; ein eindeutiger Besitzer\ndes Labels ist nicht abgegrenzt. Ebenso hat Wurzel noch keinen unabhängigen\nWortbeleg. N ist die konkretere Frage, keine gewonnene Übersetzung.",
+          "sha256": "890c791cd38c5dce48773957fd2e8fe53935b9674747a38ef9d1196ace1db9d3"
+        },
+        {
+          "path": "experiments/yolo/gdt813_f17_content_word_transfer/WORKING_THEORY.md",
+          "line": 39,
+          "line_end": 41,
+          "quote": "Die Familie bleibt dan=sehr wenig, dain=wenig, daiin=viel/hohe Ausprägung,\ndaiiin=sehr viel/sehr hohe Ausprägung. Vergleichs-/Übermaß- und Zahlmodelle\nbleiben daneben bestehen. Das sind Ganzworthypothesen, keine gelösten Stämme.",
+          "sha256": "890c791cd38c5dce48773957fd2e8fe53935b9674747a38ef9d1196ace1db9d3"
+        }
+      ],
+      "limits": [
+        "Whole words only; comparison/excess and numeral rivals are retained. No independent intensity confirmation."
+      ],
+      "ready": false
+    },
+    {
+      "target": "SEM:8225d136f8cc59873530",
+      "target_basis_sha256": "cf312e0d0885bb10f166d14e83f541c4f61b1aa9bf236e7997629fbb9d926b91",
+      "effective_basis_sha256": "dc868342695f60a61d4ed167235598e5a1ae7a2f70a79387b4c5f98ac106cff7",
+      "original_claim": "okal → nine",
+      "effective_claim": "okal → nine",
+      "claim_type": "lexical_hypothesis",
+      "case_ids": [
+        "CLEAN_COMPONENT:3510ee81dd36ac164534"
+      ],
+      "member_ids": [
+        "LEGACY_COMPONENT:ff05d492b21d519179a8"
+      ],
+      "source_origins": [
+        {
+          "case_id": "CLEAN_COMPONENT:3510ee81dd36ac164534",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT795",
+            "section": "What the families do not encode",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt795_source_native_family_kluge_transfer/REPORT.md"
+          },
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+          "status": "unconfirmed"
+        }
+      ],
+      "recommendation": "archive_false_assignment_extraction",
+      "source_polarity": "unlicensed_numerical_inference_not_positive_word_assignment",
+      "reason": "The only card case is the explicit statement that neither AQABAB=9 nor okal=nine is licensed. GDT795 tests family position transfer; this report does not establish an adopted okal=nine word hypothesis.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt795_source_native_family_kluge_transfer/REPORT.md",
+          "line": 30,
+          "line_end": 55,
+          "quote": "## What the families do not encode\n\nThe same Kluge-A member can be compared across diagrams 156 times. The full\nZL3b source-member sequence agrees in **zero** of those pairs. Boundary-bearing\nfamilies agree twice; transferred prefixes 39 times; residuals three times.\nNone exceeds its within-diagram permutation control.\n\nThe optimistic leave-one-physical-folio-out exact-family test has 26 eligible\ntargets. A matching family occurs at the exact held A-member for four targets\nand within one member for six. Those four exact events reduce to two recurrent\nfamilies, not four independent keys:\n\n- `AQABAB` gives `okalal` and `okalam` at 09A;\n- `AQABA` gives `okody` and `okaly` at 21A.\n\nBoth families also occur at other A-members. `AQABAB` appears at 04A and 25A;\n`AQABA` occupies eight distinct A-members. Even the two 09A rows differ in the\nlast full source member, B2 versus B3. Consequently neither `AQABAB=9` nor\n`okal=nine` is licensed.\n\nOne shared rotation or reflection never recovers three different family\nsignatures. The best pairwise T15 transforms recover 1, 1 and 0 exact\nsignatures; f70v2 against f72r2 recovers two after a 22-member shift, no better\nthan the optimized null (`p=.998004`). The only near-stable relative interval,\n`AQABAC` to `AQABBA`, spans seven members on f70 and six on f72. It is retained\nas an analytical rival, not as external diagram-relation evidence.",
+          "sha256": "51a12d410af2e3eb6eb4a5393ba7d7a2ee8c156b58dea3306c86ea32dca2e4e8"
+        }
+      ],
+      "limits": [
+        "Preserve the actual fixed-position-family failure as experiment history. Do not erase a separately documented earlier numeric proposal if another source is later supplied; none is present in this card."
+      ],
+      "ready": false
+    },
+    {
+      "target": "SEM:b3981819da2577b95260",
+      "target_basis_sha256": "68876a9d9930c8efd186bd45d0b7869ac1bcd471af1367114e000c493106ae85",
+      "effective_basis_sha256": "fd5392dd3fe572bc99666bfd47392abb99fe0115141c95779a5e1acd8d00f176",
+      "original_claim": "p (exact-whole working head only) → Pulver",
+      "effective_claim": "p (exact-whole working head only) → Pulver",
+      "claim_type": "lexical_hypothesis",
+      "case_ids": [
+        "REPORT_PROPOSAL:99faa5e463cc6b65b7b0"
+      ],
+      "member_ids": [
+        "LEGACY_PROPOSAL:03db2acbc04e1c14554faabd"
+      ],
+      "source_origins": [
+        {
+          "case_id": "REPORT_PROPOSAL:99faa5e463cc6b65b7b0",
+          "scope": {
+            "section": "Wortstamm- und Codebuchmodell",
+            "source": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/REPORT.md"
+          },
+          "source_polarity": null,
+          "status": "unconfirmed"
+        }
+      ],
+      "recommendation": "retain_already_scoped_historical_assignment",
+      "source_polarity": "positive_bound_working_head_no_free_export",
+      "reason": "The paragraph positively assigns the selected exact-whole working heads; its final nonconfirmation statement concerns historical analogy and prevents proof, not the existence of these provisional assignments.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/REPORT.md",
+          "line": 40,
+          "line_end": 61,
+          "quote": "`os=Zubereitung` und `dold=abmessen und abschließen` bleiben sichtbar offen,\nstatt mit erfundenem Stoff oder Patienten aufgefüllt zu werden.\n\nDiese gesprochene Fassung gilt für die 305 zuvor ausgelassenen\nGanzwortprojektionen. Bereits vorhandene exakte V99-Kontexte und gebundene\nSpans behalten als höhere Präzedenz ihre positionsgebundene Realisierung; die\nabweichende Ausgabe derselben Oberfläche ist damit explizit lokal und kein\nzweiter stiller globaler Default.\n\n## Wortstamm- und Codebuchmodell\n\nInnerhalb des aktuellen Arbeitswörterbuchs ist die ausgewählte 19-Formen-\nKreuzmatrix mit Rollen konsistenter als mit universellen Wörtern:\n`-ol` verhält sich als Stoff-/Materialrolle, `-or` als Portion, `-aiin/-ain`\nals Index III/II und `-ar` als Anteil I. `cth`, `p` und `s` sind dabei\nexakte-Ganzwort-Arbeitsköpfe für Pflanzendroge, Pulver und Samen; kein freier\nKopfwert wird exportiert. `olk` bleibt gebunden, `olkol` begrenzt die\n`-ol`-Regel und `-dy` wird nicht als portable Rolle freigegeben. Der nächste\nhistorische Architekturvergleich ist ein Apothekerbuch-Mikroeintrag aus\ngelerntem Drogenwort, kurzem Qualitätsrahmen und separatem Mengen-/Gradslot.\nDiese Parallelen bestätigen weder eine Form noch eine Bedeutung: Sie erhalten\nexakt null Relations- und Zeichenwertkredit.",
+          "sha256": "7765792747307d5a8097da614d2a834466880f1d2b3942c7c9367bf73f11bfba"
+        }
+      ],
+      "limits": [
+        "Already scoped to the selected19-form matrix. No productive p or cth gloss outside its exact-whole working-head context; no additional correction needed."
+      ],
+      "ready": false
+    },
+    {
+      "target": "SEM:d5a6c62350d08116efd8",
+      "target_basis_sha256": "6129c77f1a86569dce8269362a8354873039a3697e46ec08a95c31ab82a7c89c",
+      "effective_basis_sha256": "28925d2e9325a9d9b78e0db9acbc76b896d2df0ea782f10089cb86b9c8af1c4f",
+      "original_claim": "cth (exact-whole working head only) → Pflanzendroge",
+      "effective_claim": "cth (exact-whole working head only) → Pflanzendroge",
+      "claim_type": "lexical_hypothesis",
+      "case_ids": [
+        "REPORT_PROPOSAL:c858d91e9f6fc4669a15"
+      ],
+      "member_ids": [
+        "LEGACY_PROPOSAL:03db2acbc04e1c14554faabd"
+      ],
+      "source_origins": [
+        {
+          "case_id": "REPORT_PROPOSAL:c858d91e9f6fc4669a15",
+          "scope": {
+            "section": "Wortstamm- und Codebuchmodell",
+            "source": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/REPORT.md"
+          },
+          "source_polarity": null,
+          "status": "unconfirmed"
+        }
+      ],
+      "recommendation": "retain_already_scoped_historical_assignment",
+      "source_polarity": "positive_bound_working_head_no_free_export",
+      "reason": "The paragraph positively assigns the selected exact-whole working heads; its final nonconfirmation statement concerns historical analogy and prevents proof, not the existence of these provisional assignments.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/REPORT.md",
+          "line": 40,
+          "line_end": 61,
+          "quote": "`os=Zubereitung` und `dold=abmessen und abschließen` bleiben sichtbar offen,\nstatt mit erfundenem Stoff oder Patienten aufgefüllt zu werden.\n\nDiese gesprochene Fassung gilt für die 305 zuvor ausgelassenen\nGanzwortprojektionen. Bereits vorhandene exakte V99-Kontexte und gebundene\nSpans behalten als höhere Präzedenz ihre positionsgebundene Realisierung; die\nabweichende Ausgabe derselben Oberfläche ist damit explizit lokal und kein\nzweiter stiller globaler Default.\n\n## Wortstamm- und Codebuchmodell\n\nInnerhalb des aktuellen Arbeitswörterbuchs ist die ausgewählte 19-Formen-\nKreuzmatrix mit Rollen konsistenter als mit universellen Wörtern:\n`-ol` verhält sich als Stoff-/Materialrolle, `-or` als Portion, `-aiin/-ain`\nals Index III/II und `-ar` als Anteil I. `cth`, `p` und `s` sind dabei\nexakte-Ganzwort-Arbeitsköpfe für Pflanzendroge, Pulver und Samen; kein freier\nKopfwert wird exportiert. `olk` bleibt gebunden, `olkol` begrenzt die\n`-ol`-Regel und `-dy` wird nicht als portable Rolle freigegeben. Der nächste\nhistorische Architekturvergleich ist ein Apothekerbuch-Mikroeintrag aus\ngelerntem Drogenwort, kurzem Qualitätsrahmen und separatem Mengen-/Gradslot.\nDiese Parallelen bestätigen weder eine Form noch eine Bedeutung: Sie erhalten\nexakt null Relations- und Zeichenwertkredit.",
+          "sha256": "7765792747307d5a8097da614d2a834466880f1d2b3942c7c9367bf73f11bfba"
+        }
+      ],
+      "limits": [
+        "Already scoped to the selected19-form matrix. No productive p or cth gloss outside its exact-whole working-head context; no additional correction needed."
+      ],
+      "ready": false
+    },
+    {
+      "target": "SEM:a40bef1a720f6ae1d10c",
+      "target_basis_sha256": "d601332ca38e6ec9688758787657352306ed6bf1dd17e934434329b06fe226f9",
+      "effective_basis_sha256": "c952a16094e24995b0a205c402ae2a0b2e7442579c304ca0a72fd764aef713ce",
+      "original_claim": "qoeeo → zweiter Mazerationsansatz",
+      "effective_claim": "qoeeo → zweiter Mazerationsansatz",
+      "claim_type": "lexical_hypothesis",
+      "case_ids": [
+        "CLEAN_COMPONENT:e3422267829d0e58b192",
+        "CLEAN_COMPONENT:4534396f6b69b28be130"
+      ],
+      "member_ids": [
+        "LEGACY_COMPONENT:37796075a187ce529f46",
+        "LEGACY_COMPONENT:aa2598a1a557efe4e48c"
+      ],
+      "source_origins": [
+        {
+          "case_id": "CLEAN_COMPONENT:e3422267829d0e58b192",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT678",
+            "section": "Das konsolidierte 34er Wörterbuch",
+            "semantic_column": "Arbeitsbedeutung",
+            "source": "experiments/yolo/gdt678_seventeen_two_hole_family_completion/REPORT.md"
+          },
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+          "status": "unconfirmed"
+        },
+        {
+          "case_id": "CLEAN_COMPONENT:4534396f6b69b28be130",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT684",
+            "section": "Schwache Karten, die bisher stark klangen",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt684_v57_complete_semantic_debt_census/REPORT.md"
+          },
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+          "status": "unconfirmed"
+        }
+      ],
+      "recommendation": "retain_weak_historical_assignment",
+      "source_polarity": "explicitly_retained_despite_weak_provenance",
+      "reason": "GDT684 explicitly says these meanings are not discarded; it exposes low/exploratory source debt. Converting this negative wording into rejection would reverse the source.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt678_seventeen_two_hole_family_completion/REPORT.md",
+          "line": 60,
+          "line_end": 68,
+          "quote": "| `keo` | Ansatz auf mittlerer Heizstufe; vor `r` Teil von `keor` | 5 |\n| `dold` | Drogenstoff abmessen und abschließen | 2 |\n| `oltain` | Holzdrogenansatz, kalt auf Stufe II | 2 |\n| `okiin` | erhitzter Ansatz, Form III | 2 |\n| `qoeeo` | zweiter Mazerationsansatz | 2 |\n| `lldar` | erste Holzdrogenfraktion abmessen | 1 |\n| `ockhdar` | erste abgemessene Fraktion des Arzneikompositum-Ansatzes | 1 |\n| `shoral` | Blüten- oder Frucht-Rohdroge I | 1 |\n| `pchedaiin` | drei Dosen bis Mittelstufe getrocknetes Pulver | 4 |",
+          "sha256": "e9a30423438f55ac97be2a2aae06d100382f868d2816bf7e3b08f83e850c5e57"
+        },
+        {
+          "path": "experiments/yolo/gdt684_v57_complete_semantic_debt_census/REPORT.md",
+          "line": 99,
+          "line_end": 113,
+          "quote": "## Schwache Karten, die bisher stark klangen\n\nEin exakter Join von aktuellem Surface plus aktuellem Literalgloss gegen die\npublizierten Kartenquellen findet 30 Positionen / 28 Karten mit `LOW`,\n`LOW_EXPLORATORY` oder einer anderen ausdrücklich explorativen Stärke. Zehn\ndavon waren in den drei inhaltlichen Schuldebenen unauffällig und klangen daher\nfälschlich „fertig“.\n\nDazu gehören unter anderem `shx = eingeweichtes Gummiharz`,\n`qoeeo = zweiter Mazerationsansatz`, `solky = Saatgutansatz, leicht erhitzt`,\n`tolg = ein Gran kalten Drogenmaterials`, `ypchesy = hiervon Samenpulver ...`\nund `lchl = getrocknetes Drogenholz`. Diese Bedeutungen werden nicht verworfen.\nIhre schwache Herkunft bleibt jetzt neben jeder Position sichtbar. Der lokal\nneu gerenderte Compoundteil f115r.1#5 `cheop` wird bewusst nicht fälschlich an\nseine ältere längere LOW-Karte gejoint.",
+          "sha256": "036ce8a40cad923e61ff2b42cb6260a590553c45e3f309b75061c94832f5efbb"
+        }
+      ],
+      "limits": [
+        "Keep low/exploratory provenance attached. Neither readable output nor non-rejection confirms the meaning."
+      ],
+      "ready": false
+    },
+    {
+      "target": "SEM:fba024b3df1533e3dca7",
+      "target_basis_sha256": "bd01295af2a78b2490dac5ad77069c1120db0882cb73564fb7b84c1554b3ed9b",
+      "effective_basis_sha256": "a3e0cfe9b0646b5ca659b65b0ceb70a06bf0e788e75ac6a82d4439a81149867a",
+      "original_claim": "lchl → getrocknetes Drogenholz",
+      "effective_claim": "lchl → getrocknetes Drogenholz",
+      "claim_type": "lexical_hypothesis",
+      "case_ids": [
+        "CLEAN_COMPONENT:718c9c63ea0bd85166b4"
+      ],
+      "member_ids": [
+        "LEGACY_COMPONENT:aa2598a1a557efe4e48c"
+      ],
+      "source_origins": [
+        {
+          "case_id": "CLEAN_COMPONENT:718c9c63ea0bd85166b4",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT684",
+            "section": "Schwache Karten, die bisher stark klangen",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt684_v57_complete_semantic_debt_census/REPORT.md"
+          },
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+          "status": "unconfirmed"
+        }
+      ],
+      "recommendation": "retain_weak_historical_assignment",
+      "source_polarity": "explicitly_retained_despite_weak_provenance",
+      "reason": "GDT684 explicitly says these meanings are not discarded; it exposes low/exploratory source debt. Converting this negative wording into rejection would reverse the source.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt684_v57_complete_semantic_debt_census/REPORT.md",
+          "line": 99,
+          "line_end": 113,
+          "quote": "## Schwache Karten, die bisher stark klangen\n\nEin exakter Join von aktuellem Surface plus aktuellem Literalgloss gegen die\npublizierten Kartenquellen findet 30 Positionen / 28 Karten mit `LOW`,\n`LOW_EXPLORATORY` oder einer anderen ausdrücklich explorativen Stärke. Zehn\ndavon waren in den drei inhaltlichen Schuldebenen unauffällig und klangen daher\nfälschlich „fertig“.\n\nDazu gehören unter anderem `shx = eingeweichtes Gummiharz`,\n`qoeeo = zweiter Mazerationsansatz`, `solky = Saatgutansatz, leicht erhitzt`,\n`tolg = ein Gran kalten Drogenmaterials`, `ypchesy = hiervon Samenpulver ...`\nund `lchl = getrocknetes Drogenholz`. Diese Bedeutungen werden nicht verworfen.\nIhre schwache Herkunft bleibt jetzt neben jeder Position sichtbar. Der lokal\nneu gerenderte Compoundteil f115r.1#5 `cheop` wird bewusst nicht fälschlich an\nseine ältere längere LOW-Karte gejoint.",
+          "sha256": "036ce8a40cad923e61ff2b42cb6260a590553c45e3f309b75061c94832f5efbb"
+        }
+      ],
+      "limits": [
+        "Keep low/exploratory provenance attached. Neither readable output nor non-rejection confirms the meaning."
+      ],
+      "ready": false
+    },
+    {
+      "target": "SEM:e137d425ae89a895f88e",
+      "target_basis_sha256": "2757429337e3a6227ed1f60dde23ed0e9bebe0f18fadc81234db54c8263b0e84",
+      "effective_basis_sha256": "43edba7cea0adf527d342b421dea66ab06da6af609fa1eed537885c7af2f511f",
+      "original_claim": "r → Wurzel",
+      "effective_claim": "r → Wurzel",
+      "claim_type": "lexical_hypothesis",
+      "case_ids": [
+        "CLEAN_COMPONENT:0466e0b6f330d0765b0a",
+        "CLEAN_COMPONENT:b9f5e895d3c4b410e4ed",
+        "REPORT_PROPOSAL:6b653dd8f63b8547964d"
+      ],
+      "member_ids": [
+        "LEGACY_COMPONENT:654963cb6bf927cd66d0",
+        "LEGACY_COMPONENT:87659cb2297a76bac72d",
+        "LEGACY_PROPOSAL:e8645c8116431a65c2ed74bb"
+      ],
+      "source_origins": [
+        {
+          "case_id": "CLEAN_COMPONENT:0466e0b6f330d0765b0a",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT634",
+            "section": "f82v.36",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt634_known_core_terminal_semantics/REPORT.md"
+          },
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+          "status": "unconfirmed"
+        },
+        {
+          "case_id": "CLEAN_COMPONENT:b9f5e895d3c4b410e4ed",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT714",
+            "section": "Konkrete Rendererreparatur",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt714_v87_bound_c1_core_context_repair/REPORT.md"
+          },
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+          "status": "unconfirmed"
+        },
+        {
+          "case_id": "REPORT_PROPOSAL:6b653dd8f63b8547964d",
+          "scope": {
+            "case": "V63 main value",
+            "section": "Main dictionary decisions / head | V63 main value | apparatus rivals",
+            "source": "experiments/yolo/gdt690_noun_ordinal_provenance_main_apparatus/REPORT.md"
+          },
+          "source_polarity": null,
+          "status": "unconfirmed"
+        }
+      ],
+      "recommendation": "retain_historical_assignment_with_local_exception",
+      "source_polarity": "positive_global_working_default_local_span_override",
+      "reason": "GDT634 positively proposes root; GDT690 retains root with resin rival; GDT714 explicitly preserves the129-context working value while preventing its use in one bound local span.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt634_known_core_terminal_semantics/REPORT.md",
+          "line": 53,
+          "line_end": 60,
+          "quote": "> Salz, Menge III | feuchte Form | heißer Zustand II | heiße Portion | feuchtes\n> Drogengut, Form I und Bindungsstufe II | heiß, Grad III | abgekühltes\n> Material | getrockneter Wurzelstoff.\n\n`s=Salz` und `r=Wurzel` sind hier die entscheidenden neuen Konkretisierungen.\nDie Mitte der Zeile stammt dagegen aus starken Reihen: `qokeedy` ist 292-mal,\n`qokar` 153-mal und `qokaiin` 261-mal belegt. `daltedy` ist nur einmal\nbelegt, besitzt aber in `dalkedy` eine heiße Gegenform.",
+          "sha256": "7195615ffebf1483b0ba9622432f9eeb5fe2dc747ace4ae99d55c1114ee1f4b3"
+        },
+        {
+          "path": "experiments/yolo/gdt690_noun_ordinal_provenance_main_apparatus/REPORT.md",
+          "line": 17,
+          "line_end": 24,
+          "quote": "| head | V63 main value | apparatus rivals |\n|---|---|---|\n| `p` | Pulver | Trank, Pille |\n| `s` | Samen | Salz, Saft, Arzneispecies |\n| `r` | Wurzel | Harz/resina |\n| `l` | Holz | Auszug/liquor |\n\nThis removes atomic values such as “fertig aufbereitetes Drogenholz.” For example, `ldy` now reads “fertig aufbereitetes Holz”: the noun head is `Holz`; the remainder supplies the result state.",
+          "sha256": "638d21c8155cb03a5b8120a8bc26f0f826505bd0a94cd9227dc001d03bcaaf50"
+        },
+        {
+          "path": "experiments/yolo/gdt714_v87_bound_c1_core_context_repair/REPORT.md",
+          "line": 50,
+          "line_end": 55,
+          "quote": "Damit wird an dieser Stelle weder `heiße Zubereitung auf Mittelstufe` noch\n`Wurzel` gedruckt. Der Span ist lokal und nicht exportierbar. Die globalen\nArbeitswerte bleiben erhalten: `keo = heiße Zubereitung, Mittelstufe` fuer seine\nanderen GDT678-Kontexte und `r = Wurzel` fuer die 129 GDT661-Kontexte. Es wird\nalso weder ein freies `keo+r`-Gesetz noch ein neuer historischer Wortwert\nerfunden.",
+          "sha256": "30e6f6ba4f2f4c9a7f8717e8625a8e85894af947c3053280be0ef75fac9c1b51"
+        }
+      ],
+      "limits": [
+        "Do not turn a local no-root rendering into global rejection. No free keo+r law; Harz/resina remains a named rival."
+      ],
+      "ready": false
+    },
+    {
+      "target": "SEM:3cc2266e60fbb8cefa6c",
+      "target_basis_sha256": "637a6abf82f6142c561f5809a5690200dd66ab4308c36c4ed45bb27b56a02060",
+      "effective_basis_sha256": "dc51498bd7dfecea9eddf19bca944b925ea53e47b65b12bf87b10b5f16d8cdcc",
+      "original_claim": "OKEEY/QOKEEY → warm gently",
+      "effective_claim": "OKEEY/QOKEEY → warm gently",
+      "claim_type": "lexical_hypothesis",
+      "case_ids": [
+        "CLEAN_COMPONENT:a54d324a4d1a54fdcf6b"
+      ],
+      "member_ids": [
+        "LEGACY_COMPONENT:08b5c50ecd2e05ba56be"
+      ],
+      "source_origins": [
+        {
+          "case_id": "CLEAN_COMPONENT:a54d324a4d1a54fdcf6b",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Current concrete dictionary",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_theory_candidates_v16/V16_THEORY_SELECTION.md"
+          },
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+          "status": "unconfirmed"
+        }
+      ],
+      "recommendation": "retain_selected_historical_assignment",
+      "source_polarity": "positive_preferred_reading_with_distinct_rejected_rival",
+      "reason": "The source explicitly prefers warm gently and names mix thoroughly as the rival it does not select. The word rejected applies to that rival, not the selected warm reading.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v16/V16_THEORY_SELECTION.md",
+          "line": 49,
+          "line_end": 57,
+          "quote": "| `VAL-Q` | **retain the ordinary base setting and close** | .30 |\n| `VAL-L` | **pour or rinse at the local place and close** | .27 |\n| recurrent `OKEEY/QOKEEY` card | **warm it gently** | .39 |\n| recurrent `CKHY` card | **through the connected channels** | .26 |\n\n`OKEEY/QOKEEY = warm gently` is preferred over R2's `mix thoroughly` because\nR1 and R3 independently chose the heat reading and it yields the simpler\nrecurrent bath workflow. Both remain speculative; the rejected concrete rival\nis recorded rather than replaced by an empty structural label.",
+          "sha256": "e9c9bd8650496fbf2f86ae9fed27cbcde16649bde75f78c2c3ca6edf642f93c7"
+        }
+      ],
+      "limits": [
+        "Both remain speculative; independent model votes are not independent manuscript evidence."
+      ],
+      "ready": false
+    },
+    {
+      "target": "SEM:bcb15dee1144367ecfba",
+      "target_basis_sha256": "3336a6ebfc54818f2f2b914a3ae8c23cac26347885cef92e475c9c06d4f448fe",
+      "effective_basis_sha256": "1bf2a5ef4eca760ecb1d7891e83e2306a00cbe8693f48087eccea2bb8f2986a9",
+      "original_claim": "SHEY/CHEEY → KLARAUSZUG",
+      "effective_claim": "SHEY/CHEEY → KLARAUSZUG",
+      "claim_type": "lexical_hypothesis",
+      "case_ids": [
+        "CLEAN_COMPONENT:891c0d0cc796671386bc"
+      ],
+      "member_ids": [
+        "LEGACY_COMPONENT:3216656d01d5fed5e863"
+      ],
+      "source_origins": [
+        {
+          "case_id": "CLEAN_COMPONENT:891c0d0cc796671386bc",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "2. CHEO — Auszug als wiederverwendbares Zwischenprodukt",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_medium_substance_completion/R3_MEDIUM_SUBSTANCE_REPORT.md"
+          },
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+          "status": "unconfirmed"
+        }
+      ],
+      "recommendation": "retain_exact_whole_assignment",
+      "source_polarity": "positive_whole_value_negative_substring_inference",
+      "reason": "The source positively assigns the exact SHEY/CHEEY result card KLARAUSZUG and blocks EY=Wasser or all-CHEO-is-clear inference.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R3_MEDIUM_SUBSTANCE_REPORT.md",
+          "line": 86,
+          "line_end": 90,
+          "quote": "`SHEY/CHEEY = KLARAUSZUG` ist die speziellere wiederkehrende Ergebnisform\n(`E044`, `E197`, `E203`, `E353`). Daraus folgt weder `EY = Wasser` noch, dass\njede `CHEO`-Form bereits klar ist. `KCHOAR` wird nur als kurzer gelernter\nGanzwert `TRANK` behalten; die frühere Körperdiagnose war in dieser Karte nicht\ngetragen.",
+          "sha256": "f9b702a835beba25625fdf9e83efef08497689d42a7ed6048880ddf9db4481f0"
+        }
+      ],
+      "limits": [
+        "Exact whole-card value, not free EY/SH component meaning."
+      ],
+      "ready": false
+    },
+    {
+      "target": "SEM:17bf643361e851a42e2c",
+      "target_basis_sha256": "028981fa8d2bec75a1b04f2cdcb1c2b0f80e7424488cca108ab61ccb7cab28a0",
+      "effective_basis_sha256": "137b6857ca5340a282f7a7fe6d9e0468462d4e59106a7e0d1c6b9771bdaed7da",
+      "original_claim": "SHECTHY → BADWASSER",
+      "effective_claim": "SHECTHY → BADWASSER",
+      "claim_type": "lexical_hypothesis",
+      "case_ids": [
+        "CLEAN_COMPONENT:5a4bdd12b25930308b49"
+      ],
+      "member_ids": [
+        "LEGACY_COMPONENT:2b7a1d7c4df88fe0b47f"
+      ],
+      "source_origins": [
+        {
+          "case_id": "CLEAN_COMPONENT:5a4bdd12b25930308b49",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "4. Wasser ist eine gelernte Dreierkarte, kein künstlicher Stamm",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_medium_substance_completion/R1_MEDIUM_SUBSTANCE_REPORT.md"
+          },
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+          "status": "unconfirmed"
+        }
+      ],
+      "recommendation": "retain_local_whole_assignment",
+      "source_polarity": "positive_learned_whole_default_with_explicit_rival",
+      "reason": "R1 explicitly chooses BADWASSER for B3-S021; the no-global-water sentence limits components and does not negate the whole card.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R1_MEDIUM_SUBSTANCE_REPORT.md",
+          "line": 87,
+          "line_end": 93,
+          "quote": "1. `dshedy` in B2-S007: **FRISCHWASSER; SCHLUSS** — „Frischwasser zugeben; Schluss.“\n2. `rsheal` in B2-S017: **WARMWASSER** — „Warmwasser eingießen; an der zweiten Öffnung wiederholen und schließen.“\n3. `shecthy` in B3-S021: **BADWASSER** — in einer Folge aus Maß, Arbeitsstelle, Ruhe-/Absetzstelle und anschließendem Umsetzen.\n\n`SHECTHY = BADWASSER` ist bewusst konkreter als das frühere doppelte „warmes Wasser“. Der umgebende Stations- und Ruheablauf passt zu einem angesetzten Bad. Es bleibt eine gelernte Ganzkarte: Aus `SH`, `CTH` oder `Y` wird kein globales Wasserzeichen gemacht.\n\nStärkster Rivale für SHECTHY ist `ANGESetzTES WASSER`. Sollte ein späteres Vorkommen ohne Badbesitzer erscheinen, wäre dies der erste Ersatzkandidat. Auf den gegenwärtigen Seiten macht `BADWASSER` jedoch den B3-Ablauf am knappsten lesbar.",
+          "sha256": "5f36716813e3e12341b606e7334884c4514751adc61ee63d440a105204305631"
+        }
+      ],
+      "limits": [
+        "Only learned whole-card interpretation; angesetztes Wasser remains the first replacement candidate if a later no-bath-owner context appears. This conditional is not an observed failure."
+      ],
+      "ready": false
+    },
+    {
+      "target": "SEM:630421c33fc4b768c434",
+      "target_basis_sha256": "13b3c1effcc3fc79dbc05359f85b88ac9abde43b14d2d0d225f786179f9b7fcc",
+      "effective_basis_sha256": "cd41979f75182cf20d28d9b0ed7271db25bbeeea45fbdd4dc3a56236f65fd648",
+      "original_claim": "SHCTHY → gebrauchsfertig",
+      "effective_claim": "SHCTHY → gebrauchsfertig",
+      "claim_type": "lexical_hypothesis",
+      "case_ids": [
+        "CLEAN_COMPONENT:2552869cc95f91459e93"
+      ],
+      "member_ids": [
+        "LEGACY_COMPONENT:4f58e8ce8a1c542ea0aa"
+      ],
+      "source_origins": [
+        {
+          "case_id": "CLEAN_COMPONENT:2552869cc95f91459e93",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Karten, die das Modell am stärksten brechen können",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_medium_substance_completion/R2_MEDIUM_SUBSTANCE_REPORT.md"
+          },
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+          "status": "unconfirmed"
+        }
+      ],
+      "recommendation": "retain_reported_historical_comparator",
+      "source_polarity": "positive_comparator_distinct_from_conditional_falsifier",
+      "reason": "R2 reports SHCTHY=gebrauchsfertig as a separate similar surface. The proposed future dry/untempered contexts would strike SHECTHY’s warme Arbeitsflüssigkeit, not this SHCTHY comparator.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R2_MEDIUM_SUBSTANCE_REPORT.md",
+          "line": 197,
+          "line_end": 209,
+          "quote": "6. `SHECTHY`, `SCHOAL`, `DL` und `KCHOAR` bleiben gelernte Fachkarten. Aus\n   ihren sichtbaren Teilstrings wird nichts auf neue Karten übertragen.\n\n## Karten, die das Modell am stärksten brechen können\n\n1. **`SHECTHY`** ist der gefährlichste Wert: nur ein Ereignis, kein benachbarter\n   Heizbefehl, und fast dieselbe Oberfläche wie `SHCTHY=gebrauchsfertig`.\n   Wiederholte trockene oder untemperierte Kontexte würden *warme\n   Arbeitsflüssigkeit* streichen.\n2. **`CHEO`** hat nur zwei Ereignisse. Wenn eines davon statt eines Mediums\n   eine reine Operation trägt, fällt der gemeinsame Kern weg.\n3. **`AIR`** hat fünf verschiedene, jeweils einmalige Karten. Ein trockenes\n   Werkstück im selben Paradigma würde AIR auf eine bloße Laufrolle reduzieren.",
+          "sha256": "68949b4eee286dacccff866cafaf241cf88ff8bb797139c8d4691129f3be3a42"
+        }
+      ],
+      "limits": [
+        "Do not conflate SHCTHY and SHECTHY. The cited comparator is an existing reported working default, not independently validated here."
+      ],
+      "ready": false
+    }
+  ],
+  "counts": {
+    "preserve_historical_hypothesis_update_source_status": 5,
+    "archive_false_assignment_extraction": 2,
+    "retain_qualified_historical_assignment": 2,
+    "retain_already_scoped_historical_assignment": 2,
+    "retain_weak_historical_assignment": 2,
+    "retain_historical_assignment_with_local_exception": 1,
+    "retain_selected_historical_assignment": 1,
+    "retain_exact_whole_assignment": 1,
+    "retain_local_whole_assignment": 1,
+    "retain_reported_historical_comparator": 1
+  },
+  "operative_mutations": false,
+  "limitations": [
+    "No global numeric/negation audit completeness claim.",
+    "Actual historical rejected readings remain addressable; only nonexistent positive assignments from explicitly blocked inference are recommended for archive.",
+    "Current source basis and effective fingerprints bind every recommendation; root applies after independent review."
+  ],
+  "validation": {
+    "exact_quotes_checked": 28,
+    "passed": true
+  }
+}

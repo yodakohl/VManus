@@ -102,3 +102,13 @@ no independent meaning test is invented.3371semantic252formal cards preserve
 4139cases. Next20minute cohorts BB/BD/BE cover disjoint remaining short source
 blocks in late/middle/early sidequest ranges; root reviews and publishes each
 bounded packet. The unknown remains omitted full propositions, not decoder fit.
+
+Full-model/polarity checkpoint: BB/BD/BE add260 reviewedsourceblocks; BH/BI/BJ/BK
+resolve original scope questions and semantic-status-string peer findings.
+Together with BG,98sourcecases add96addressablevariants; three erroneous exports
+are archived separately.3464semantic252formal cards preserve4237cases. Shortened
+historical values retain unresolved identity; no new independent meaning evidence.
+BL distinguishes two false assignments, five genuine historical rejections and
+eleven qualified controls. Next20minute cohorts BM/BN/BO and targeted BP long-
+paragraph revisits continue source recovery; peer findings are resolved in BQ/BR.
+A quote already present in another card is not full proposition coverage.

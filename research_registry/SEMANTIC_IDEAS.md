@@ -5,9 +5,9 @@ headings, experiment methods, result rows without a proposition and pending
 extraction work are excluded. Their original records remain in the source archive.
 This is curation of historical hypotheses, not decipherment progress.
 
-The public snapshot contains **3,371 concrete semantic hypothesis variants** and
-**252 separate formal-role cards**. Active cards and the correction archive retain all **4,139 reviewed source cases**;
-**473 repetitions of identical normalized assertions** are grouped for display.
+The public snapshot contains **3,464 concrete semantic hypothesis variants** and
+**252 separate formal-role cards**. Active cards and the correction archive retain all **4,237 reviewed source cases**;
+**475 repetitions of identical normalized assertions** are grouped for display.
 All **5,370 proposal fragments**, **3,788 component excerpts** and **82 IP entries**
 have explicit dispositions. This is not a count of independently distinct theories.
 The local V81 supplement adds **96 concrete cards** (76 lexical, 19 content models, one formal role).
@@ -64,7 +64,7 @@ and source cases when recording corrections; never erase a failure to reopen a r
 ## Source correction pass
 
 An append-only correction log, `semantic_claim_corrections.jsonl`, currently
-archives 43 source-extraction errors and restates171 source assertions
+archives 46 source-extraction errors and restates177 source assertions
 with explicit scope and appropriate lexical, functional, model or formal types. Numeric table ratios, denied constituent inferences
 and dispatch metadata had incorrectly entered the hypothesis list. Every original
 card, source case and exact quote remains in `semantic_ideas_excluded.jsonl` or
@@ -80,8 +80,8 @@ audit is bounded and does not establish error-free global extraction.
 
 ## Reviewed identity and scoped failure memory
 
-The default public view currently has **3,323 semantic display entries** from
-3,371 active semantic variants. `semantic_identity_decisions.jsonl` records39
+The default public view currently has **3,416 semantic display entries** from
+3,464 active semantic variants. `semantic_identity_decisions.jsonl` records39
 approved equivalence groups, two related-but-distinct links,28 explicit rival
 links and two specializations. Whole-card V51/V60 continuity is backed by shared
 source-deck IDs, not merely matching names or occurrence counts. These are
@@ -114,7 +114,7 @@ Only the latest linked revision acts; all original decisions remain in the log.
 
 ## Recovery and conditional priorities
 
-The J/M/R/V/AB/AF/AG/AL/AM/AN source-block reviews inspect549 distinct blocks. Q/U/AA/AC
+The J/M/R/V/AB/AF/AG/AL/AM/AN/BB/BD/BE source-block reviews inspect809 distinct blocks. Q/U/AA/AC
 revisit the earlier scope questions; AO resolves40 AL scope questions. These revisits
 are not extra source blocks. Recovery
 now includes complete historical book models, concrete rendering hypotheses and
@@ -129,8 +129,8 @@ missing ideas. Current recovery dispositions reside in the bounded review batche
 
 The type audit has now primary-checked all396 originally navigated formal cards:
 AQ/AR/AS/AT/AU cover the remaining336 cases. Root and AV/AW resolve overlapping
-scope and counterexample judgments before integration. The latest packet restores
-98 historical semantic variants, removes seven erroneous exports, and preserves
+scope and counterexample judgments before integration. The AQ–AW integration restored
+98 historical semantic variants, removed seven erroneous exports, and preserved
 one actual failed binding rule with its four counterexample instances. A previous
 AQABAC/BACA correction remains separate. Types do not imply scientific support.
 
@@ -149,6 +149,22 @@ are not independently new theories. BC records three historical model revisions:
 wide-vessel OKEEOL, all-doubles nesting and the coarse CHEEKY preparation gloss.
 Their different source reasons and prospective changed-input requirements remain
 separate from an independently demonstrated meaning failure.
+
+BB/BD/BE inspect260 further source blocks. BH/BI/BJ/BK resolve the scope
+questions and peer corrections from those cohorts; revisits are not counted as
+new blocks. Together with the targeted BG source review, they preserve98 more
+source cases, including two exact existing assertions. The newly addressable
+full models and local variants are not98 new independent mechanisms. Six short
+Pass147 defaults and QOCKHEY keep undecided identity to longer wordings; omitted
+verbs alone do not prove a different meaning.
+
+BG corrects an unsupported global Y=Station export while preserving the E2863
+local station instance and AIIN fill/medium separately from its patient. BL checks
+18 more polarity cases: two unlicensed assignment exports are archived, five
+real historical rejections remain with explicit source status, and eleven
+qualified proposals are retained. A no-proof statement alone is not a failure.
+Status strings can contain substantive hypotheses; peer-discovered cases receive
+full source comparisons rather than being dismissed by their formatting.
 
 Recovered GDT180 retains its later GDT202 semantic withdrawal. AD separately
 records the failed GDT235 exact-residual coarse-object lookup and the still

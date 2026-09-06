@@ -1,0 +1,288 @@
+{
+  "schema": "semantic_source_scope_review_v1",
+  "review_id": "BG",
+  "scope": "Two complete current card histories and their one shared full GDT595 report, plus current c556 whole case and source-correction history. No raw artifacts or external historical links accessed.",
+  "reviews": [
+    {
+      "target": "SEM:cd461a877353a563741c",
+      "target_basis_sha256": "7f40c4e2196388db383ba96101f9012959f6d53c7d0cf730008eb6d883051099",
+      "effective_basis_sha256": "b6e86896814f8fbbf2f67aed77a22d6cba30de3bad174d4fb70dc3cc187c59ac",
+      "original_claim": "Y → Station",
+      "effective_claim": "Y → Station",
+      "case_ids": [
+        "CLEAN_COMPONENT:1816f04eceda158c426c"
+      ],
+      "member_ids": [
+        "LEGACY_COMPONENT:437ab60710e5d4946a02"
+      ],
+      "recommendation": "archive_false_global_assignment_extraction",
+      "source_status": "explicitly_not_global_station_word_with_local_station_assignment",
+      "reason": "The only extracted case cites143–145, a non-confirmation sentence rather than an assignment. The positive-looking bare Y→Station contradicts46–47 as a global word claim. This is an extraction-scope error, not a historical experiment proving that every local Y station reading fails.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 46,
+          "line_end": 47,
+          "quote": "Das ist keine Objektzuweisung. AIIN bleibt Füllung oder Medium und kann Körper,\nStation oder Portion begleiten. Auch Y ist kein globales Stationswort.",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        },
+        {
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 143,
+          "line_end": 145,
+          "quote": "Der historische Gewinn ist begrenzt, aber nützlich: Verbketten, Anaphora,\nMengen/Patient-Trennung und markierte Referentenwechsel sind zeitnah\nplausibel. Er beweist weder `Y=Station` noch `AIIN=Füllung` noch einen Körper.",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        },
+        {
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 76,
+          "line_end": 86,
+          "quote": "| Ereignis | Werkstatt | Hybrid | Grund |\n|---|---|---|---|\n| E2863 | Körper | Station | gleichereignisiges P+Y mit Y=Stationsansatz |\n| E3523 | Körper | Station | CHD+Y; GDT589 liest den Träger als Station |\n| E3533 | Körper | Station | K+Y; die folgende Badeaktion ist ebenfalls Station |\n| E3664 | Körper | Station | T+…+Y mit Stationsadressierung und folgender Stationsaktion |\n\nDiese vier Änderungen verwenden eine einheitliche explorative Regel: Ein am\nrechten Rand desselben geschriebenen Ereignisses realisierter Gegenstand darf\nüber die unmittelbar davorstehende kurze Verbkette greifen. Er wird trotzdem\nnicht zum direkten SH-Slot umetikettiert. Die enge Hostlesung bleibt Rivale.",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        }
+      ],
+      "preserve": {
+        "claim": "In GDT595’s E2863 P+Y end carrier, Y is locally read as Stationsansatz; the hybrid uses that participant across the preceding short chain.",
+        "claim_type": "functional_hypothesis",
+        "coverage": "local_scope_instance",
+        "independent_new_idea": false,
+        "related_assertion_id": "SEM:c556c887cc61fc10debe",
+        "evidence": [
+          {
+            "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+            "line": 76,
+            "line_end": 86,
+            "quote": "| Ereignis | Werkstatt | Hybrid | Grund |\n|---|---|---|---|\n| E2863 | Körper | Station | gleichereignisiges P+Y mit Y=Stationsansatz |\n| E3523 | Körper | Station | CHD+Y; GDT589 liest den Träger als Station |\n| E3533 | Körper | Station | K+Y; die folgende Badeaktion ist ebenfalls Station |\n| E3664 | Körper | Station | T+…+Y mit Stationsadressierung und folgender Stationsaktion |\n\nDiese vier Änderungen verwenden eine einheitliche explorative Regel: Ein am\nrechten Rand desselben geschriebenen Ereignisses realisierter Gegenstand darf\nüber die unmittelbar davorstehende kurze Verbkette greifen. Er wird trotzdem\nnicht zum direkten SH-Slot umetikettiert. Die enge Hostlesung bleibt Rivale.",
+            "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+          },
+          {
+            "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+            "line": 109,
+            "line_end": 112,
+            "quote": "E1742  Halte den Körper im Bad auf Grad II. Lass den Körper anschließend abkühlen.\nE2863  Halte den Stationsansatz im Bad auf Grad I. Entnimm oder lass ab. Wende den Stationsansatz an.\nE3523  Halte den Stationsansatz im Bad auf Grad I. Entnimm oder lass ab. Behandle den Stationsansatz.\nE3664  Halte den Stationsansatz im Bad auf Grad I. Temperiere den Stationsansatz. Halte denselben Stationsansatz erneut im Bad.",
+            "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+          }
+        ],
+        "limits": "Do not generalize E2863 to all Y tokens. E3523/E3533/E3664 are separate context-bound station decisions; the narrow-host rival remains."
+      }
+    },
+    {
+      "target": "SEM:ccab5e3f9aa18c19390c",
+      "target_basis_sha256": "c997e638201644a7d94ea211408186917e1eee8552f5732c123b3611bc743317",
+      "effective_basis_sha256": "a9536eaa9513afddf0ecc5cd206f3fdad9fbe67d2b37a2abe9fa65e203dc6777",
+      "original_claim": "AIIN → Füllung",
+      "effective_claim": "AIIN → Füllung",
+      "case_ids": [
+        "CLEAN_COMPONENT:d356e75c43209e5b1517"
+      ],
+      "member_ids": [
+        "LEGACY_COMPONENT:437ab60710e5d4946a02"
+      ],
+      "recommendation": "restate_scope_preserve_actual_historical_proposal",
+      "source_status": "positive_local_fill_or_medium_role_without_independent_confirmation",
+      "reason": "Unlike the global Y assignment,46 positively retains AIIN as filling or medium;60–64 explicitly separate this contribution from the patient. The original143–145 quotation is inadequate alone, but the full report supplies a genuine qualified working hypothesis.",
+      "replacement": {
+        "claim": "In GDT595’s SH-action construction, AIIN supplies filling or medium while the patient is determined separately and may be a body, station or portion; AIIN itself does not assign the object type.",
+        "claim_type": "functional_hypothesis"
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 40,
+          "line_end": 64,
+          "quote": "Der Formbestand lautet:\n\n- 20 Vorkommen besitzen irgendeine AIIN-Füllspur;\n- 18 Zielwörter besitzen ein späteres Y-Paket im selben Ereignis;\n- 6 besitzen keines von beidem.\n\nDas ist keine Objektzuweisung. AIIN bleibt Füllung oder Medium und kann Körper,\nStation oder Portion begleiten. Auch Y ist kein globales Stationswort.\n\nDie eigentliche Objektquelle lautet:\n\n- 21 linke, sichtbare Teilnehmer werden mit `denselben/dieselbe`\n  wiederaufgenommen;\n- 8 gleichereignisige Endträger schließen als definite gemeinsame Komplemente\n  eine kurze Verbkette ab;\n- E2952 bleibt eine Station/Portion-Gabel, die durch die nachfolgende\n  Stationsbehandlung zugunsten Station entschieden wird;\n- 14 resetgebundene Stellen ohne hinreichenden nicht-mediumhaften Teilnehmer\n  erhalten Körper als ersten definiten Default.\n\nDamit wird aus `AIIN → Körper` die sinnvollere Konstruktion:\n\n```text\nSH-Aktion + AIIN-Füllung + separat bestimmter Patient\n```",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        },
+        {
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 143,
+          "line_end": 145,
+          "quote": "Der historische Gewinn ist begrenzt, aber nützlich: Verbketten, Anaphora,\nMengen/Patient-Trennung und markierte Referentenwechsel sind zeitnah\nplausibel. Er beweist weder `Y=Station` noch `AIIN=Füllung` noch einen Körper.",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        }
+      ],
+      "limits": [
+        "No confirmed AIIN translation or global filling-only lexeme.",
+        "Preserve Füllung OR Medium, not only one value.",
+        "The rejected reduction AIIN→Körper is not equivalent to the retained fill-versus-patient hypothesis.",
+        "The software PASS concerns reconstruction and audits, not meaning."
+      ]
+    }
+  ],
+  "related_current_assertion": {
+    "target": "SEM:c556c887cc61fc10debe",
+    "target_basis_sha256": "42f5d95dfb0a598e93f4368d67805a55c63194d311394fbfaa80993127f252e5",
+    "effective_basis_sha256": "43873fe2a80564ab903be0317f5ae236e3ffae4524f024a89e35f7fa012b2cd5",
+    "original_claim": "A right-edge object in the same written event may take scope over the immediately preceding short verb chain, without becoming a direct SH slot.",
+    "effective_claim": "A right-edge object in the same written event may take scope over the immediately preceding short verb chain, without becoming a direct SH slot.",
+    "case_ids": [
+      "REPORT_PROPOSAL:b25993f84d1ded3d8afb"
+    ],
+    "member_ids": [
+      "LEGACY_PROPOSAL:852cd6e349540ba7bc7ac9bc"
+    ],
+    "decision": "retain_existing_functional_scope_rule",
+    "reason": "c556 is an actual argument-binding hypothesis and its functional type correction remains justified. Full-model rival evidence embedded in this card does not itself make those rivals independently addressable."
+  },
+  "proposed_recoveries": [
+    {
+      "id": "BG_RECOVERY:rich_object_workshop",
+      "claim": "GDT595’s initial complete workshop reading of the 44 residual bath defaults distinguishes bodies, stations, portions and units, assigning 20 bodies, 19 stations, 3 portions and 2 units.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "LEGACY_PROPOSAL:852cd6e349540ba7bc7ac9bc"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 68,
+          "line_end": 71,
+          "quote": "Die vollständige Werkstattlektüre ergab zunächst `20 Körper / 19 Station / 3\nPortion / 2 Einheit`. Ein unabhängiges Body/Station-Quellenmodell ergab `23\nKörper / 21 Station`, verlor aber Portion und Einheit trotz sichtbarer\nTeilnehmer.",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        }
+      ],
+      "status": "unconfirmed",
+      "source_status": "historical_model_retained_as_rival",
+      "scope": {
+        "source": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+        "unit": "GDT595 historical44-default comparison or explicitly listed six local disputes",
+        "limits": "Not a manuscript-wide model, lexical confirmation or new data finding."
+      },
+      "comparison": {
+        "counterpart_id": "SEM:c556c887cc61fc10debe",
+        "counterpart_claim": "A right-edge object in the same written event may take scope over the immediately preceding short verb chain, without becoming a direct SH slot.",
+        "decision": "additional_addressable_proposition_candidate",
+        "reason": "Distinct object ontology and complete local assignment profile; neither exact model nor counts are asserted by the current right-edge scope claim.",
+        "source_presence_is_not_identity": true
+      },
+      "ready": false
+    },
+    {
+      "id": "BG_RECOVERY:binary_body_station",
+      "claim": "GDT595’s independent Body/Station source model assigns the same 44 residual defaults to 23 bodies and 21 stations, omitting portion and unit despite the source report’s visible participant evidence.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "LEGACY_PROPOSAL:852cd6e349540ba7bc7ac9bc"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 68,
+          "line_end": 71,
+          "quote": "Die vollständige Werkstattlektüre ergab zunächst `20 Körper / 19 Station / 3\nPortion / 2 Einheit`. Ein unabhängiges Body/Station-Quellenmodell ergab `23\nKörper / 21 Station`, verlor aber Portion und Einheit trotz sichtbarer\nTeilnehmer.",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        }
+      ],
+      "status": "unconfirmed",
+      "source_status": "historical_rival_not_selected",
+      "scope": {
+        "source": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+        "unit": "GDT595 historical44-default comparison or explicitly listed six local disputes",
+        "limits": "Not a manuscript-wide model, lexical confirmation or new data finding."
+      },
+      "comparison": {
+        "counterpart_id": "SEM:c556c887cc61fc10debe",
+        "counterpart_claim": "A right-edge object in the same written event may take scope over the immediately preceding short verb chain, without becoming a direct SH slot.",
+        "decision": "additional_addressable_proposition_candidate",
+        "reason": "A tried binary patient model, not a fabricated global binary theory. The source criticism concerns losing two patient categories, not proof that all body/station readings fail.",
+        "source_presence_is_not_identity": true
+      },
+      "ready": false
+    },
+    {
+      "id": "BG_RECOVERY:hybrid_rich_object_scope",
+      "claim": "GDT595’s selected hybrid retains the richer body/station/portion/unit workshop typing and changes only E2863,E3523,E3533,E3664 from body to station by allowing a same-event right-edge participant to scope over the preceding short verb chain without becoming a direct SH slot.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "LEGACY_PROPOSAL:852cd6e349540ba7bc7ac9bc"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 12,
+          "line_end": 19,
+          "quote": "Die 44 direkten Ergänzungen sind:\n\n| Objekt | Anzahl |\n|---|---:|\n| Körper | 16 |\n| Stationsansatz | 23 |\n| Anwendungsportion | 3 |\n| Becken- oder Körpereinheit | 2 |",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        },
+        {
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 68,
+          "line_end": 86,
+          "quote": "Die vollständige Werkstattlektüre ergab zunächst `20 Körper / 19 Station / 3\nPortion / 2 Einheit`. Ein unabhängiges Body/Station-Quellenmodell ergab `23\nKörper / 21 Station`, verlor aber Portion und Einheit trotz sichtbarer\nTeilnehmer.\n\nDer ausgewählte Hybrid behält die reichere Werkstattregel und ändert nur vier\nVorkommen von Körper zu Station:\n\n| Ereignis | Werkstatt | Hybrid | Grund |\n|---|---|---|---|\n| E2863 | Körper | Station | gleichereignisiges P+Y mit Y=Stationsansatz |\n| E3523 | Körper | Station | CHD+Y; GDT589 liest den Träger als Station |\n| E3533 | Körper | Station | K+Y; die folgende Badeaktion ist ebenfalls Station |\n| E3664 | Körper | Station | T+…+Y mit Stationsadressierung und folgender Stationsaktion |\n\nDiese vier Änderungen verwenden eine einheitliche explorative Regel: Ein am\nrechten Rand desselben geschriebenen Ereignisses realisierter Gegenstand darf\nüber die unmittelbar davorstehende kurze Verbkette greifen. Er wird trotzdem\nnicht zum direkten SH-Slot umetikettiert. Die enge Hostlesung bleibt Rivale.",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        }
+      ],
+      "status": "unconfirmed",
+      "source_status": "historically_selected_unconfirmed",
+      "scope": {
+        "source": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+        "unit": "GDT595 historical44-default comparison or explicitly listed six local disputes",
+        "limits": "Not a manuscript-wide model, lexical confirmation or new data finding."
+      },
+      "comparison": {
+        "counterpart_id": "SEM:c556c887cc61fc10debe",
+        "counterpart_claim": "A right-edge object in the same written event may take scope over the immediately preceding short verb chain, without becoming a direct SH slot.",
+        "decision": "additional_addressable_proposition_candidate",
+        "reason": "The full local model combines a rich ontology and four concrete reassigned cases with the existing c556 scope rule; selected does not mean independently confirmed.",
+        "source_presence_is_not_identity": true
+      },
+      "ready": false
+    },
+    {
+      "id": "BG_RECOVERY:narrow_host_rival",
+      "claim": "For E2863,E3224,E3523,E3533,E3563,E3664, GDT595 retains the narrow host/stage-change reading preferred by a second manual reading as a rival to the hybrid shared-complement extension.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_PROPOSAL:852cd6e349540ba7bc7ac9bc"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 83,
+          "line_end": 92,
+          "quote": "Diese vier Änderungen verwenden eine einheitliche explorative Regel: Ein am\nrechten Rand desselben geschriebenen Ereignisses realisierter Gegenstand darf\nüber die unmittelbar davorstehende kurze Verbkette greifen. Er wird trotzdem\nnicht zum direkten SH-Slot umetikettiert. Die enge Hostlesung bleibt Rivale.\n\nEine zweite manuelle Nachlese bevorzugte bei sechs Streitfällen die enge\nHost-/Stufenwechsel-Lesung (`E2863`, `E3224`, `E3523`, `E3533`, `E3563`,\n`E3664`). Diese Gegenlesungen werden nicht verworfen. Der Hybrid bleibt primär,\nweil er eine einfachere kompositionelle Vorhersage für Endträger liefert und\nhistorisch mögliche Rezeptsyntax nutzt.",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        }
+      ],
+      "status": "unconfirmed",
+      "source_status": "historical_rival_explicitly_not_discarded",
+      "scope": {
+        "source": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+        "unit": "GDT595 historical44-default comparison or explicitly listed six local disputes",
+        "limits": "Not a manuscript-wide model, lexical confirmation or new data finding."
+      },
+      "comparison": {
+        "counterpart_id": "SEM:c556c887cc61fc10debe",
+        "counterpart_claim": "A right-edge object in the same written event may take scope over the immediately preceding short verb chain, without becoming a direct SH slot.",
+        "decision": "additional_addressable_proposition_candidate",
+        "reason": "This is the positively retained narrow reading for six listed disputes, not merely negating a generic right-edge rule; the report does not supply a complete alternative global count for it.",
+        "source_presence_is_not_identity": true
+      },
+      "ready": false
+    }
+  ],
+  "counterpart_search_limits": "Targeted current SQLite claims/source-case search for GDT595, Body/Station, SH-Aktion and fill/station phrases. Complete corresponding cases read; no global semantic-identity claim based on lexical search. Root should independently assess recovery granularity before integration.",
+  "assessment_separation": [
+    "Historical-source analogy not proving a lexeme is not the same as a rejected tested lexeme.",
+    "Y global non-assignment coexists with a positive local Y station default.",
+    "AIIN filling/medium is a genuine source-local role, distinct from patient identity.",
+    "Pure numerical assignment profiles alone are not new theories; each proposed model preserves the semantic ontology and source-defined local scope."
+  ],
+  "input_hashes": {
+    "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+  },
+  "counts": {
+    "target_cards": 2,
+    "case_histories_read": 3,
+    "full_primary_reports_read": 1,
+    "archive_recommendations": 1,
+    "scope_corrections": 1,
+    "local_instances_to_preserve": 1,
+    "additional_addressable_recovery_candidates": 4
+  },
+  "operative_mutations": false,
+  "validation": {
+    "exact_evidence_checks": 12,
+    "passed": true
+  }
+}
