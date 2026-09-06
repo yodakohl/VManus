@@ -14,7 +14,11 @@ Local f67r2 MSI metadata audit found no additional capture in checked inventorie
 User requests a large idea surplus: producer maintains20–30 diverse raw sketches
 in `docs/IDEA_BACKLOG.md`, with five review priorities. Unscreened ideas are not
 selected experiments; primary predecessor review remains required before use.
-36idea sketches now recorded; review priorities IP009/IP021/IP022/IP033/IP036.
+36idea sketches recorded. Batch review IP009/IP021/IP022/IP036: no executable
+contrast established; see precise examples and limitations in the backlog.
+IP009 photo connectivity does not identify a single pen movement; IP021 has only
+one-side variation; IP022 serial fields; IP036 cited reports supply no bound
+raw transposition pair. Next review IP033 source anchor; not a selected test.
 IP014 review: GDT800 okalal/okalam contradict last-visible-symbol=F(exact-rest).
 This rejects that context-free surface function only, not latent checksum values.
 No fitting needed; broader IP014 lacks a specified carrier/function.
@@ -58,14 +62,8 @@ GDT837:48fits/sixselected controls,98.2512%words,wrong suffix ae→a,33/34packag
 STRICT_RECOVERY_FAIL, wholeword-constraint gain0, score issue already known834.
 No manuscript meaning or automatic control-decoder successor follows.
 
-## Earlier control claims remain unchanged
-
-Primary reports via `./vmanus-work lookup GDT836 GDT835 GDT834 GDT833 GDT832`.
-GDT836 Questio stops on two held-active rules without discovery support.
-GDT835 candidate-own wholeword priority rejects27wrong/accepts21correct834maps;
-full suffix inverse untested. GDT834 wrong score selects two wrong wholewords;
-GDT833 native reference succeeds on its known-role control. None supplies
-Voynich meaning or justifies automatic decoder repair. Full claims in active state.
+Earlier control details: `./vmanus-work lookup GDT832 GDT833 GDT834 GDT835 GDT836`.
+They supply no Voynich meaning or authorization for automatic decoder repairs.
 
 ## Visual understanding and earlier routes
 

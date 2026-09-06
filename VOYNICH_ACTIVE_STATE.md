@@ -22984,3 +22984,12 @@ Do not fit checksum weights for that deterministic surface variant. The broader
 IP014 needs a separately motivated carrier and falsifiable observation rule.
 Primary evidence: `experiments/yolo/gdt800_terminal_b2_b3_line_final_bridge/REPORT.md`.
 Selection audit: `docs/IDEA_BACKLOG.md`.
+
+## Idea shortlist source review (2026-09-06)
+
+IP009/IP021/IP022/IP036 deferred before implementation: writing-process
+observability, coupled variation, competing scope and independent raw-pair
+binding respectively remain unestablished in the cited evidence. This is a
+selection audit, not a new manuscript result or general mechanism rejection.
+Next review is IP033 source availability; no experiment selected. Precise
+examples and source/report limits: `docs/IDEA_BACKLOG.md`.

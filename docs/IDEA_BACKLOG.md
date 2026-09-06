@@ -299,7 +299,9 @@ weltweit/projektintern neu erwiesen. Die Quellen sind Ausgangspunkte für die
 spätere Prüfung, nicht bereits vorhandene Belege für die jeweilige Vorhersage.
 Einige Ideen können nach Prüfung Duplikate sein oder neue Daten brauchen.
 
-**Top 5 zur Prüfung (`REVIEW_PRIORITY`): IP009, IP021, IP022, IP033, IP036.**
+**Verbleibende erste Prüfauswahl: IP033 (`RAW_UNSCREENED`, nicht ausführbar bestätigt).**
+Die frühere Fünferauswahl wurde gebündelt geprüft: IP009/IP021/IP022/IP036
+brauchen zunächst einen belastbaren Beobachtungsträger; Einzelbefunde unten.
 IP014 und IP018 sind nach root-Vorgängerprüfung zurückgestellt; die begrenzten
 Prüfergebnisse stehen unten. IP036 rückt als ungeprüfter Kandidat nach.
 Reihenfolge: konkrete mechanistische Unterscheidung, möglichst vorhandene Quellen,
@@ -313,7 +315,7 @@ keine Zusage ausreichender Daten oder abgeschlossener Bestätigung.
 | ID | Konkrete Vorhersage | Nötige Quelle und kleinster Test | Hauptrisiko |
 |---|---|---|---|
 | IP008 | Wenn hohe Zeichen Platzkonventionen ausdrücken, weicht ihre obere Form bei geringer **vorher vorhandener** freier Höhe systematisch aus; ein rein positionsgebundenes Zeichen verlangt diese örtliche Anpassung nicht. | Native Orientierung in `visual_overview/README.md` als Startpunkt; konkrete hohe Zeichen neben gezeichneten Hindernissen müssen erst lokalisiert werden. Zwei eindeutig begrenzte Situationen auf zugelassenen Seiten nativ gegenüberstellen, 5 Minuten. | Gezeichnetes Hindernis kann später entstanden sein; ohne unabhängige Herstellungsfolge keine kausale Platzbehauptung. Nicht l/m-Breite nochmals messen. |
-| IP009 **REVIEW_PRIORITY** | Wenn Teile zweier geschriebener Gruppen gemeinsam ausgeführt wurden, können **durchgehende, beiden zugehörige Striche** die sichtbare Gruppengrenze kreuzen; separat geschriebene Einheiten können nur überlappen. | Ganze hochaufgelöste Gruppen auf zugelassenen Seiten, Ausgangspunkt sichtbare Haken-/Bogenformen im nativen Dossier; konkrete Fundstelle noch unbestimmt. Maximal eine vorab begrenzte Textregion auf eindeutige gemeinsame Strichführung prüfen, 5 Minuten, unauflösbare Überlagerungen ausschließen. | Aus einem statischen Bild lässt sich eine Federbewegung oft nicht nachweisen; eine Ligatur beweist weder gemeinsame Bedeutung noch Lautwert. |
+| IP009 | Wenn Teile zweier geschriebener Gruppen gemeinsam ausgeführt wurden, können **durchgehende, beiden zugehörige Striche** die sichtbare Gruppengrenze kreuzen; separat geschriebene Einheiten können nur überlappen. | Ganze hochaufgelöste Gruppen auf zugelassenen Seiten, Ausgangspunkt sichtbare Haken-/Bogenformen im nativen Dossier; konkrete Fundstelle noch unbestimmt. Maximal eine vorab begrenzte Textregion auf eindeutige gemeinsame Strichführung prüfen, 5 Minuten, unauflösbare Überlagerungen ausschließen. | Aus einem statischen Bild lässt sich eine Federbewegung oft nicht nachweisen; eine Ligatur beweist weder gemeinsame Bedeutung noch Lautwert. |
 | IP010 | Eine vorgeplante Zeilenfüllung verändert bereits die **frühen** Gruppenbreiten in Abhängigkeit von der später benötigten Gesamtbreite; bloße Reaktion am rechten Rand setzt erst spät ein. | Bereits zugelassene Textblöcke und verlustlose Gruppen, bekannte variierende Schriftflächen aus `visual_writing_order/PROPOSAL.md`. Zuerst wenige Linien mit wiederholten Anfangsformen auf geometrische Vergleichbarkeit prüfen, 5 Minuten; erst danach unabhängige Breitenregel einfrieren. | Textlänge und Breite sind gemeinsam erzeugt; ohne unabhängige Sollbreite kann der Vergleich zirkulär sein. GDT829s fehlende Langparallelstellen nicht durch gelockerte Flanken ersetzen. |
 | IP011 | Wenn ein Schreiber eine zeichnerische Vorlage nachzieht, bleibt bei einer Abweichung die **Reihenfolge mehrerer markanter Kurven entlang des ganzen Wortes** eher erhalten als ihr Abstand; eine inhaltliche Neufassung braucht dies nicht. | Positive physische Zustände RBR001, vollständige Grenze RBR002. Benötigt tatsächlich neue spektrale Daten; an einem vollständig recoverierbaren Wort beide Strichpfade ohne Zeichenbenennung vergleichen, 10 Minuten nach Aufnahmeverfügbarkeit. | Aktuell fehlt der benötigte neue Datensatz; zwei alte Teilformen erlauben keine Wiederöffnung der geschlossenen korrigierten-Ring-Route. |
 
@@ -340,8 +342,8 @@ keine Zusage ausreichender Daten oder abgeschlossener Bestätigung.
 | ID | Konkrete Vorhersage | Nötige Quelle und kleinster Test | Hauptrisiko |
 |---|---|---|---|
 | IP020 | Ein lokaler Einbettungsmechanismus erlaubt **Klammerung**: dieselbe äußere Konstruktion umschließt unterschiedlich lange vollständige innere Folgen, deren Randverträglichkeit erhalten bleibt. | GDT581s strukturierte Edition als Hypothesengeber, Rohgruppen zur späteren Kontrolle. Ein publiziertes Paar mit verschieden langer Mitte suchen und die behaupteten Grenzen ohne semantische Tags begründen, 5 Minuten. | Parserklammern können genau die gesuchte Struktur hineingetragen haben. IL026s geschlossene höhere-Ordnung-Route vor jedem Test prüfen. |
-| IP021 **REVIEW_PRIORITY** | Bei positionsübergreifender Kongruenz koppeln Merkmale zweier wiederkehrender Ganzformen auch dann, wenn **unterschiedliche Zwischenfolgen** auftreten; eine feste lokale Formel verlangt die Zwischenvariation nicht. | Vorhandene komplette Kontextkarten, GDT803/804 als Vorgänger. Nur publizierte Beispiele auf einen konstanten Zweierbezug bei mindestens zwei verschiedenen Mittelfolgen prüfen, 5 Minuten. | Kann lediglich Topic-/Schreiberkonfundierung sein; keine Buchstabensuffixe als Grammatikwerte voraussetzen und keine fehlende Kapazität durch größere Radien retten. |
-| IP022 **REVIEW_PRIORITY** | Wenn eine Konstruktion wirklich einen Geltungsbereich eröffnet, verändert ihre Wiederholung **nicht bloß die Häufigkeit**, sondern welcher der folgenden gleichartigen Einträge zu welchem früheren Eintrag gehört; ein einfacher Reihenmarker sagt diese verschachtelte Konkurrenz nicht voraus. | Vorhandene vollständig erhaltene Mehrfeld-Records, zunächst GDT763/764/769 als Primärvorgänger. Eine konkrete geschriebene Folge mit zwei konkurrierenden offenen Feldern nominieren und prüfen, ob beide Modelle verschiedene nächste zulässige Formen vorhersagen, 5 Minuten. | Ohne unabhängige Randmarkierung bleibt die Zuordnung unentscheidbar; keine neuen Teilnehmer über alte Arbeitsübersetzungen erfinden. |
+| IP021 | Bei positionsübergreifender Kongruenz koppeln Merkmale zweier wiederkehrender Ganzformen auch dann, wenn **unterschiedliche Zwischenfolgen** auftreten; eine feste lokale Formel verlangt die Zwischenvariation nicht. | Vorhandene komplette Kontextkarten, GDT803/804 als Vorgänger. Nur publizierte Beispiele auf einen konstanten Zweierbezug bei mindestens zwei verschiedenen Mittelfolgen prüfen, 5 Minuten. | Kann lediglich Topic-/Schreiberkonfundierung sein; keine Buchstabensuffixe als Grammatikwerte voraussetzen und keine fehlende Kapazität durch größere Radien retten. |
+| IP022 | Wenn eine Konstruktion wirklich einen Geltungsbereich eröffnet, verändert ihre Wiederholung **nicht bloß die Häufigkeit**, sondern welcher der folgenden gleichartigen Einträge zu welchem früheren Eintrag gehört; ein einfacher Reihenmarker sagt diese verschachtelte Konkurrenz nicht voraus. | Vorhandene vollständig erhaltene Mehrfeld-Records, zunächst GDT763/764/769 als Primärvorgänger. Eine konkrete geschriebene Folge mit zwei konkurrierenden offenen Feldern nominieren und prüfen, ob beide Modelle verschiedene nächste zulässige Formen vorhersagen, 5 Minuten. | Ohne unabhängige Randmarkierung bleibt die Zuordnung unentscheidbar; keine neuen Teilnehmer über alte Arbeitsübersetzungen erfinden. |
 | IP023 | Ein textlicher Wiederaufnahmemarker erhält eine **selektive Vorgeschichte**: nach zwei unterschiedlichen eingeführten Ganzformen sollte seine Umgebung eine von ihnen, nicht beliebig beide, wieder aktivieren. | Vorhandene Referenzkarten GDT696/700 und qokaldy-Audit798. Ein bereits publiziertes echtes Zwei-Kandidaten-Beispiel auf ein noch ungenutztes geschriebenes Unterscheidungssignal prüfen, 5 Minuten. | IP003 und GDT798 zeigen gerade die bekannte Unterbestimmtheit; ohne zusätzliches unabhängiges Signal ist dieser Rohentwurf ein Duplikat und wird verworfen. |
 
 ### E — Beziehungen zwischen Bild und Text
@@ -441,7 +443,7 @@ Belege für den neuen Mechanismus. Tests erst nach Vorgängerprüfung und Freeze
 
 | ID | Mechanismus und unterscheidende Vorhersage | Nötige Quelle und kleinster Test | Hauptrisiko |
 |---|---|---|---|
-| IP036 **REVIEW_PRIORITY** | **Umstellung innerhalb einer vollständigen Einheit:** Zwei Realisierungen derselben unabhängig gebundenen Einheit unterscheiden sich in der Reihenfolge, bewahren aber exakt dieselbe **Multimenge** geschriebener Atome; eine Ersetzung muss das nicht. Eine einzige unveränderte Umstellungsregel muss auch eine weitere unabhängige Einheit vorhersagen. | Vollständige, bereits belegte Alternativrealisierungen mit unabhängig begründeter Zusammengehörigkeit; zuerst GDT338/345 und geschlossene Minimalpaarrouten prüfen. Kleinster Test: an einem schon publizierten gebundenen Paar entscheiden, ob eine feste Umstellung überhaupt möglich ist, 5 Minuten; kein freies Anagrammsuchen im Korpus. | Zusammenhang zweier Formen darf nicht aus ihrer Multimengengleichheit abgeleitet werden. GDT839s Grenzverschiebung prüfte eine andere Erhaltung, rechtfertigt aber keinen automatisch neuen Weg. |
+| IP036 | **Umstellung innerhalb einer vollständigen Einheit:** Zwei Realisierungen derselben unabhängig gebundenen Einheit unterscheiden sich in der Reihenfolge, bewahren aber exakt dieselbe **Multimenge** geschriebener Atome; eine Ersetzung muss das nicht. Eine einzige unveränderte Umstellungsregel muss auch eine weitere unabhängige Einheit vorhersagen. | Vollständige, bereits belegte Alternativrealisierungen mit unabhängig begründeter Zusammengehörigkeit; zuerst GDT338/345 und geschlossene Minimalpaarrouten prüfen. Kleinster Test: an einem schon publizierten gebundenen Paar entscheiden, ob eine feste Umstellung überhaupt möglich ist, 5 Minuten; kein freies Anagrammsuchen im Korpus. | Zusammenhang zweier Formen darf nicht aus ihrer Multimengengleichheit abgeleitet werden. GDT839s Grenzverschiebung prüfte eine andere Erhaltung, rechtfertigt aber keinen automatisch neuen Weg. |
 | IP037 | **Selbstsynchronisierender Code:** Nach einer Einfügung oder Auslassung kehrt eine gültige Zerlegung innerhalb einer festen kurzen Distanz zur ursprünglichen Phase zurück; ein gewöhnlicher variabler Code ohne Synchronisation kann dauerhaft verschoben bleiben. Das ist eine Eigenschaft ganzer Codesequenzen, nicht nur eindeutiger Einzelwortzerlegung wie IP015. | Ein vorab begründeter Einheitenvorrat aus GDT605 als möglicher Ausgangspunkt; Grenzen und Eignung erst prüfen. Kleinster Test: eine deterministische Einfügungs-/Löschungsanalyse des unveränderten Vorrats mit vollständigen Gegenbeispielen, 5 Minuten. | Ein algorithmisch gelernter Vorrat kann die Eigenschaft künstlich erzeugen. Das wäre zunächst nur Codekapazität, keine Behauptung tatsächlicher Schreibfehler oder Voynich-Codierung. |
 | IP038 | **Homophone aus einem Vorrat ohne Zurücklegen:** Mehrere Zeichen für dieselbe Einheit werden ausgewählt, bis der Vorrat erschöpft ist; dadurch entstehen Wiederverwendungsverbote und eine Wiederkehr nach Erschöpfung, die unabhängige zufällige Homophonie nicht verlangt. | Unabhängig vorgeschlagene Äquivalenzklassen vollständiger Zeichen, noch nicht vorhanden; GDT001-Homophonieversuche und GDT338 als Vorgänger. Zunächst nur prüfen, ob eine vorhandene Klassenhypothese genügend vollständige Folgen für einen eindeutig festgelegten Wiederverwendungswiderspruch liefert, 5 Minuten. | Die Klassen nach Wiederholungsarmut zu bilden wäre zirkulär. Ohne externe Klassenbegründung kein neues Fitten versteckter Alphabete; kein pauschaler Rückschluss aus geringer Wiederholung. |
 | IP039 | **Obligatorische ausgeschriebene Abkürzungskonvention:** Ein unabhängig identifizierter Abkürzungsträger ersetzt in mehreren vollständigen Wörtern immer dieselbe fehlende Folge; die Expansion muss auch in einer bisher nicht benutzten Wortumgebung passen. Eine bedeutungstragende Endung verlangt keine solche wörtliche Expansion. | Wirklich dokumentierte ausgeschriebene/verkürzte Paarung, nicht `ofaldo/ofal` oder bloße l/m-Ähnlichkeit. Ausgangsprüfung: GDT835s fehlender vollständiger Suffixinverse-Test und geschlossene Korrektur-/Minimalpaarrouten; 5 Minuten Kapazitätsprüfung vorhandener expliziter Paarungen. | Aktuell fehlt ein solcher unabhängiger Expansionsanker. Diese Idee erlaubt weder neue Suffixzählung noch Wiederöffnung von GDT840 oder eine weitere synthetische Decoderreparatur. |
@@ -453,3 +455,73 @@ Belege für den neuen Mechanismus. Tests erst nach Vorgängerprüfung und Freeze
 Stand dieser Ergänzung: **36 Rohideen IP008–IP043** im Vorrat, zusätzlich die
 alten IP001–IP007. Acht hinzugefügt, null geprüft oder getestet, null als neu
 bestätigt. Schreibzuständigkeit an root zurückgegeben.
+
+
+### Gezielte Auswahlprüfung IP021/IP022 — noch kein ausführbarer Kontrast
+
+IP021 erhält `REVIEWED_NEEDS_CONCRETE_CONTRAST`, keine Versuchsfreigabe.
+Route-check `nonlocal coupled variation middle same outer complete words agreement`
+führte zu [GDT803](../experiments/yolo/gdt803_recurrent_context_rarity_discriminator/REPORT.md)
+und [GDT804](../experiments/yolo/gdt804_bracket_middle_independent_field_bridge/REPORT.md);
+beide Primärberichte wurden gelesen. Zitierbarer Ausgangspunkt ist GDT803s
+`qokedy otal chedy` gegenüber `qokedy otal shedy`: hier variiert **nur der rechte
+Partner**, während linker Partner und Mitte gleich bleiben. Daneben stehen
+`qokeey chal chedy` und `qokeedy sail chedy`; auch sie liefern noch keinen
+gekoppelten Wechsel beider Außenformen über verschiedenartige Mittelfolgen.
+Die neue unterscheidende Vorhersage wäre eine feste Links-Rechts-Kopplung, die
+auf einem anderen bereits vollständigen Mittelstück dieselben zulässigen
+Außenkombinationen vorhersagt. Das müsste als konkretes Viererkontrastset
+nominierbar sein; die gelesenen Berichte liefern es nicht. Daher keine neue
+Nachbarschaftszählung und keine Kapazität behauptet.
+
+IP022 bleibt RAW mit konkretisiertem Engpass. Route-check `nested scope two open
+fields record repeated head competing attachment`; GDT764, GDT769 und GDT579
+primär gelesen. GDT764 nennt tatsächlich f105v.5:
+`pchedal | qopchdy daiin | chedy daiin | ...`. Das zeigt zwei **serielle** Felder,
+aber keinen zweiten geschriebenen Öffner, der vor Abschluss des ersten Feldes
+einen konkurrierenden Geltungsbereich eröffnet. Die in GDT579 beschriebenen
+Außen-/Innenwerte gehören zur bestehenden Arbeitsgrammatik, nicht zu einem
+neuen unabhängigen Quellnachweis der Verschachtelung. Die erforderliche
+Konkurrenzstelle fehlt im gelesenen Bereich; kein READY-Status.
+
+IP033 bleibt eine ungescreente Alternative: die route-check-Navigation wurde
+begonnen, aber keine primär belegte Handkontrastpaarung gefunden und ausgewertet.
+IP036s folgende root-Prüfung ergänzt diesen Stand. Keine allgemeine Widerlegung. Bestand bleibt
+36 Ideenskizzen; diese Prüfung fügt keine ID und keinen Manuskriptbefund hinzu.
+Schreibzuständigkeit an root zurückgegeben.
+
+### Root-Prüfung IP009/IP036 — Beobachtungsvertrag vor Datentest
+
+**IP009: NEEDS_IDENTIFIABLE_WRITING_PROCESS_OBSERVABLE.** Der Entwurf setzte
+sichtbar verbundene Tinte mit gemeinsamem Schreibzug gleich. Das ist aus einem
+statischen Foto allein nicht identifizierbar: eine durchgezogene Linie und
+zwei getrennt ausgeführte, sich berührende Striche können dasselbe sichtbare
+Tintenbild erzeugen. Eine sichtbare Brücke könnte daher allenfalls einen
+Kontaktkandidaten liefern, nicht schon eine gemeinsame Federbewegung oder
+linguistische Einheit. Der genannte native Überblick beschreibt Schlaufen,
+Haken und Abstände, aber keine konkrete grenzüberschreitende Fundstelle.
+Kein neuer Bildtest, keine Behauptung, es gebe keine Ligaturen.
+
+Route-check `cross word boundary continuous stroke ligature pen lift interword
+bridge`, dann `ligature`. Gelesen: nativer Überblick und
+[IGR002-Primärbericht](../experiments/semantic_assumptions/results/igr002_image_grounded_grapheme_atlas_result_report.md).
+IGR002 schließt seinen eingefrorenen Sechs-Feld-Formtransfer, nicht sämtliche
+Strichfragen; sein Ergebnis liefert keine Brückenfundstelle für IP009. Ein
+künftiger Test braucht eine konkret lokalisierte Stelle und eine Beobachtung,
+die die behaupteten Schreibabläufe wirklich unterscheidet. Das ist keine
+Neuvermessung der erfolglosen Federzustandsrouten GDT830/831.
+
+**IP036: NEEDS_INDEPENDENTLY_BOUND_SURFACE_PAIR.** Route-check `GDT338 GDT345
+transposition anagram multiset same independently bound unit`; beide direkten
+Primärberichte gelesen. GDT338 prüft normalisierte opake Tupel und begründet
+keine neue Äquivalenz durch die getestete Renderer-Normalisierung.
+GDT345 prüft Übergänge zwischen formalen Zuständen, ausdrücklich ohne rohe
+Zeichenfolgen oder semantische Identität. Keiner der beiden Berichte liefert
+das geforderte konkrete rohe Umstellungspaar mit unabhängig begründeter
+Einheitengleichheit. Keine Vollsuche aller Artefakte, keine Widerlegung von
+Transpositionen. Ohne ein solches Paar kein freies Anagrammsuchen und kein
+neuer Chiffrenfit. Die frühere Prüfpriorität ist zurückgestellt.
+
+Die gebündelte Runde prüft vier Vorschläge vor Umsetzung; kein neuer
+Manuskriptbefund und kein neues Experiment. IP033 bleibt der nächste
+Kandidat zur Quellenprüfung, nicht der nächste bereits freigegebene Versuch.
