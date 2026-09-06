@@ -1,0 +1,145 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Retrospective counting-contract correction only; no new manuscript or semantic result.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt847_source_count_contract_reconciliation/src/run.py",
+    "validate": "python3 experiments/yolo/gdt847_source_count_contract_reconciliation/src/validate.py"
+  },
+  "created": "2026-09-06",
+  "dependencies": [
+    "GDT624",
+    "GDT845"
+  ],
+  "experiment_id": "GDT847",
+  "inputs": [
+    {
+      "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "role": "frozen_source_or_extractor",
+      "sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0"
+    },
+    {
+      "path": "experiments/yolo/gdt624_productive_quality_shell_grid/artifacts/GRID_OCCURRENCES.tsv",
+      "role": "frozen_source_or_extractor",
+      "sha256": "04d099bd64e27e7d9cc996f15be9234da762a56bc9488fda20ec13560c8bb8ab"
+    },
+    {
+      "path": "experiments/yolo/gdt624_productive_quality_shell_grid/artifacts/PAGE_ALLOWLIST.tsv",
+      "role": "frozen_source_or_extractor",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+    },
+    {
+      "path": "experiments/yolo/gdt624_productive_quality_shell_grid/src/run.py",
+      "role": "frozen_source_or_extractor",
+      "sha256": "9e57b6a8aaaee2bf41f3ad4d01e2fbc9b810243224d66f88394ce70d75e9308d"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "role": "frozen_source_or_extractor",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+    },
+    {
+      "path": "experiments/yolo/gdt845_extended_form_grid_discovery/artifacts/HITS.json",
+      "role": "frozen_source_or_extractor",
+      "sha256": "8f77d48234089417a597cdde55627cf5f6180919c0972fe9c5168180bd278d64"
+    },
+    {
+      "path": "experiments/yolo/gdt624_productive_quality_shell_grid/artifacts/RESULT.json",
+      "role": "frozen_source_or_extractor",
+      "sha256": "951283cdfca2fda16c01ef84e9e38fb9f18df341d51b0d9c994b4fcd387b2524"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt847_source_count_contract_reconciliation/.gitignore",
+      "role": "source_or_artifact",
+      "sha256": "9b9dc66af90f9ff99fa79101a6e3eb357e4d8b53cafcf51e9a8d2e2e32ca7dbb"
+    },
+    {
+      "path": "experiments/yolo/gdt847_source_count_contract_reconciliation/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "3fe10241fc96ecf18b00d21829822e87b90fe7534d16b3e928979aa09c312ed7"
+    },
+    {
+      "path": "experiments/yolo/gdt847_source_count_contract_reconciliation/PREREGISTRATION.md",
+      "role": "source_or_artifact",
+      "sha256": "67a7bd95f1a20087e3211244c39299edb28ee335083a0893c27964010e88eb04"
+    },
+    {
+      "path": "experiments/yolo/gdt847_source_count_contract_reconciliation/README.md",
+      "role": "source_or_artifact",
+      "sha256": "c1c51e0113eec2deb8431335518d49086819a24dacf97f9f454b55cb38c1ef3c"
+    },
+    {
+      "path": "experiments/yolo/gdt847_source_count_contract_reconciliation/REPORT.md",
+      "role": "primary_report",
+      "sha256": "cfc25242832a5b8b2d2f9d50f80b1f42300ca83aeea13fe3caad25d381d877ef"
+    },
+    {
+      "path": "experiments/yolo/gdt847_source_count_contract_reconciliation/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "ccd44bb84e8950871913a138852c354ca4bbb6f57e746215ff8c4fa47176b52c"
+    },
+    {
+      "path": "experiments/yolo/gdt847_source_count_contract_reconciliation/artifacts/RESULT.json",
+      "role": "source_or_artifact",
+      "sha256": "6b9db02b7051f57d7c56d948f89c6d7053c62e2e0239431f8bb50e5681a7a0c2"
+    },
+    {
+      "path": "experiments/yolo/gdt847_source_count_contract_reconciliation/artifacts/VALIDATION.json",
+      "role": "source_or_artifact",
+      "sha256": "91140ed3a4f00427b091680a0ef98a1578026956aee5cc6bea036ab634528e61"
+    },
+    {
+      "path": "experiments/yolo/gdt847_source_count_contract_reconciliation/src/AUDIT_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "0dde0c1b4d04ac400a1002b0b5a4bc9e4cd8c51a1571eaa680d8565dfbd64ec7"
+    },
+    {
+      "path": "experiments/yolo/gdt847_source_count_contract_reconciliation/src/QUERY_PROVENANCE.json",
+      "role": "source_or_artifact",
+      "sha256": "d43954fc604b22dec20d09ec20708016fd2e255a457a395b2495fc471a8de67a"
+    },
+    {
+      "path": "experiments/yolo/gdt847_source_count_contract_reconciliation/src/SOURCE_AUDIT.json",
+      "role": "source_or_artifact",
+      "sha256": "ecd490fff184d3e279759f6de2f985d012184604cdefd97233dc297294f42e71"
+    },
+    {
+      "path": "experiments/yolo/gdt847_source_count_contract_reconciliation/src/SPEC.json",
+      "role": "source_or_artifact",
+      "sha256": "046a7a181154c2f75a18d13c0be3fec72fd4ee1997ee7d2d6e3d8d3483aa76b9"
+    },
+    {
+      "path": "experiments/yolo/gdt847_source_count_contract_reconciliation/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "95e65b749529d9dbb459458b0224b83581fb7559bec636d4f086760c8ca81e5b"
+    },
+    {
+      "path": "experiments/yolo/gdt847_source_count_contract_reconciliation/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "7daa7a9e963c6ee9f24d09422c85965eab534b0eaff57ca34ef63f3ab85ed4f9"
+    },
+    {
+      "path": "experiments/yolo/gdt847_source_count_contract_reconciliation/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "cff322471a64ec898e0f6ad1226386322de09b327775251037a4aedea3cf6122"
+    }
+  ],
+  "question": "Which exact source transformations explain the GDT624 829 versus GDT845 816 count difference?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "source_count_contract_reconciliation",
+  "status": "COUNT_DIFFERENCE_FULLY_RECONCILED",
+  "title": "Retrospective source count contract reconciliation",
+  "updated": "2026-09-06",
+  "validation": {
+    "artifact": "experiments/yolo/gdt847_source_count_contract_reconciliation/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

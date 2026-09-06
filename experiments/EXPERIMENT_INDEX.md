@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **846**
-- Experiment-associated tracked files: **15,843** (1.4 GiB)
+- Experiment-associated tracked files: **15,849** (1.4 GiB)
 - Structured GDT337+ experiments: **511**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,8 +20,8 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT847 | source count contract reconciliation | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt847_source_count_contract_reconciliation/REPORT.md) | 14 | 20.9 KiB | 3 | STRUCTURED_YOLO |
-| GDT846 | Grid prefix confound audit | `REGISTERED_UNSCORED` | — | 11 | 14.6 KiB | 1 | STRUCTURED_YOLO |
+| GDT847 | GDT847 | `COUNT_DIFFERENCE_FULLY_RECONCILED` | [report](../experiments/yolo/gdt847_source_count_contract_reconciliation/REPORT.md) | 16 | 30.7 KiB | 3 | STRUCTURED_YOLO |
+| GDT846 | GDT846 | `EXPLORATORY_CONFOUND_AND_CAPACITY_AUDIT_COMPLETE` | [report](../experiments/yolo/gdt846_grid_prefix_confound_audit/REPORT.md) | 15 | 499.9 KiB | 1 | STRUCTURED_YOLO |
 | GDT845 | GDT845 | `DESCRIPTIVE_GRID_COMPLETE_NO_CONFIRMATORY_TEST` | [report](../experiments/yolo/gdt845_extended_form_grid_discovery/REPORT.md) | 17 | 910.2 KiB | 3 | STRUCTURED_YOLO |
 | GDT844 | GDT844 | `NO_COMMON_VISIBLE_SUBENTRY_CUE_IN_TWO_TARGETS` | [report](../experiments/yolo/gdt844_ychor_visual_subentry/REPORT.md) | 17 | 17.6 KiB | 2 | STRUCTURED_YOLO |
 | GDT843 | GDT843_source_intake_result | `PROVENANCE_INTAKE_ONLY_NO_AUTHORIAL_EDGE` | [report](../experiments/yolo/gdt843_star_caption_provenance_intake/REPORT.md) | 19 | 43.0 KiB | 3 | STRUCTURED_YOLO |

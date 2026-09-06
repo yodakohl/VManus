@@ -594,3 +594,107 @@ ausführbaren Kontrast. IP042 hat anschließend mit einem konkreten bekannten
 Formraster einen tatsächlich ausgeführten Discovery-Pass ermöglicht. Der
 Ideenvorrat bleibt bestehen; keine weitere abstrakte Vorzugsroute automatisch
 ausführen. Neue Auswahl startet bei konkretem Quellbeispiel plus Vorhersage.
+
+## Zwei vorbereitete Entdeckungsaufträge für die längere Forschungsphase
+
+GDT845 wurde vollständig gelesen. Seine vier exakten qo-Anker und die
+Sektion-S-Konzentration bleiben erhalten; der laufende Konfundierungscheck des
+root wird hier nicht dupliziert. Die folgenden zwei Kandidaten benötigen kein
+bereits übersetztes Goldpaar. Reifegrad jeweils `REVIEWED_DISCOVERY_CANDIDATE`:
+konkreter Anker und begrenzbare neue Beobachtung, noch kein Experiment/Fund.
+
+### IP044 — Zwei getrennte e-Läufe: gemeinsame Begrenzung oder freie Kombination?
+
+**Anker:** [GDT633](../experiments/yolo/gdt633_cth_interfix_semantic_contrasts/REPORT.md)
+dokumentiert f29r.1 `cheecthy` und f82v.36 `sheecthey`, beide dreileser-exakt.
+Letzteres besitzt zwei äußere und ein inneres `e`, also bereits drei e insgesamt;
+eine pauschale Grenze von zwei e wäre damit schon widersprochen und wird nicht
+getestet. GDT633 berichtet ferner die vollständigen Leitern
+`chcthy/checthy/cheecthy` und `shcthey/shecthey/sheecthey`.
+[GDT651](../experiments/yolo/gdt651_ckh_four_shell_family_migration/REPORT.md)
+liefert den anderen Kern CKH mit `checkhy/checkhey` und `sheckhy`, unter anderem
+in der vollständigen Zeile f80r.43. Sämtliche alten Sachwerte bleiben außen vor.
+
+**Neue Frage/Gegenvorhersage:** Sind die Längen zweier **getrennter Vorkommen
+desselben geschriebenen Atoms** unabhängig kombinierbar, oder geht ein längerer
+äußerer Lauf innerhalb desselben Kern-/Registerrahmens mit einem kürzeren inneren
+Lauf einher? Die zweite Möglichkeit wäre mit einer gemeinsamen Formbegrenzung
+vereinbar; sie wäre noch kein mechanischer Platzdruck und keine e-Bedeutung.
+Anders als GDT845 geht es nicht um ee+d und Wrapper, sondern um die gemeinsame
+Verteilung zweier räumlich getrennter e-Stellen im selben vollständigen Wort.
+
+**Kleinster Test:** Vor der Abfrage exakt 36 Formen einfrieren:
+`{ch,sh} + e{0,1,2} + {cth,ckh} + e{0,1,2} + y`.
+Die 179 zugelassenen Textselektoren einmal bewacht nach vollständigen Rohgruppen
+projizieren; alle 36 Zellen mit Locus, Leser, Hand und Sektion erhalten. Erst
+Entdeckungstabelle pro festem Kern und ch/sh, dann Randhäufigkeiten und
+beobachtete gemeinsame Belegung zeigen; keine nachträgliche dritte e-Länge,
+O-/D-Erweiterung oder Gleichsetzung der drei Leser mit Replikaten. Exposition
+entscheidet, ob eine spätere bedingte Hypothese überhaupt prüfbar ist.
+Keine neue Seite, keine Bilder, keine maschinell erzeugten Formen als Belege.
+
+**Kosten/Entscheidung:** 5–8 Minuten einschließlich Freeze, bewachter Extraktion,
+Gegenaggregation und Publikation; erster Checkpoint nach Zellentabelle.
+Gut besetzte Kontraste könnten ein konkretes Zweistellenmodell motivieren;
+zu wenige gleichzeitige e-Läufe ergeben einen dokumentierten Kapazitätsstopp,
+keinen weiteren Familienausbau. Hauptrisiken sind Register-/Handkonfundierung,
+Schreibgruppenfehler und geringe Doppelbelegung. Auch echte Abhängigkeit wäre
+mit Morphologie oder Phonotaktik vereinbar und nicht automatisch ein Code.
+
+**Vorgänger:** route-check `two e slots inner outer commutation insertion
+displacement checkhey sheckhey` und `outer inner e length total budget cth two
+independent runs`; GDT632/633 primär gelesen, GDT651 und GDT845 ebenfalls.
+Die alten Berichte belegen getrennte Leitern und geben ihnen Arbeitswerte,
+berichten aber keine gemeinsame vollständige Zweilängenmatrix in beiden Kernen.
+Das ist gezielter Neuheitsabgleich, keine Garantie vollständiger Archivabdeckung.
+
+### IP045 — Was wird unmittelbar wiederholt: ein Wort oder ein ganzer Block?
+
+**Anker:** [GDT651](../experiments/yolo/gdt651_ckh_four_shell_family_migration/REPORT.md)
+nennt die dreileser-strikte Folge f83r.27
+`dain chedy qokeedy shckhedy shckhedy`.
+[GDT820](../experiments/yolo/gdt820_grouped_predicate_repetition_context/REPORT.md)
+behandelt ferner das chedy-Doublet auf f76r.23 samt weiterem chedy und korrigiert
+explizit, dass f75r.33 kein solches Doublet ist. Einzelgruppen-Wiederholung ist
+also ein konkreter vorhandener Befund; ihre Wortart und Funktion sind offen.
+
+**Neue Frage/Gegenvorhersage:** Ist die kleinste exakt wiederholte Einheit
+überwiegend eine vollständige Gruppe X, oder gibt es eigenständige Wiederholung
+von **verschiedenen** Gruppenfolgen `XY XY` bzw. `XYZ XYZ`? Ein unmittelbarer
+Einzelgruppen-Duplikationsmechanismus allein kann Perioden 2/3 mit unterschiedlichen
+Gruppen nicht hervorbringen; ganze Blöcke kopieren oder wiederholen schon.
+Das wäre eine Aussage zur notwendigen Erzeugungseinheit, kein Nachweis eines
+Abschreibfehlers, einer Handlung oder einer bestimmten syntaktischen Konstruktion.
+
+**Kleinster Test:** Fester textweiter Discovery-Zensus innerhalb einer einzelnen
+physischen Zeile, nur sicher getrennte vollständige Rohgruppen, minimale Periode
+1, 2 oder 3 und mindestens zwei vollständige Wiederholungen. Alle Vorkommen
+speichern; `XXXX` zählt als primitive Periode 1, nicht zusätzlich als Periode 2.
+Grenzen mit Zeichnungsunterbrechung oder unsicherem Abstand nicht überqueren;
+Varianten getrennt lassen. Häufige unabhängig auftretende XY können zufällig
+doppelt nebeneinanderstehen: darum primär Beispiele/Kapazität, keine mechanische
+Erklärung aus einem Treffer und kein ungeprüfter Signifikanzgewinn.
+
+**Kosten/Entscheidung:** 8–10 Minuten mit vorhandener bewachter Gruppenquelle,
+Präregistrierung des Discoveryumfangs, einfacher unabhängiger Periodenprüfung
+und Veröffentlichung. Mehrgruppige primitive Wiederholung liefert ganze konkrete
+Passagen für eine spätere Funktions-/Herstellungsfrage. Nur Periode 1 beendet
+diesen Zensus; kein Verlängern, Zulassen ähnlicher Gruppen oder Suchabstand.
+
+**Vorgänger/Abgrenzung:** route-check `tandem repeats primitive period complete
+group blocks XY XY repetition` sowie `primitive tandem exact period two three
+whole word sequence adjacent blocks`; GDT574 primär gelesen, GDT820 REPORT und
+WORKING_THEORY geprüft. GDT574s 43 Nachbarpaare sind Handlungsatome innerhalb
+der bestehenden Arbeitsedition, kein primitiver Periodenzensus vollständiger
+Quellgruppen. GDT820 bewahrt 67 rohe Doppelpaardarstellungen, liefert im gelesenen
+Bericht keine vollständige Perioden-2/3-Aufnahme. GDT838 suchte nichtidentische
+Rekodierungsabbildungen zwischen 16-Gruppen-Fenstern auf verschiedenen Folios;
+GDT829 andere Umbrüche gleicher Langkontexte. Keine dieser Fragestellungen wird
+mit kleineren Fenstern neu ausgeführt: hier ist die neue notwendige Eigenschaft
+**unmittelbare identische Blockwiederholung innerhalb derselben Quellzeile**.
+Vor dem Start bleibt ein gezielter Blick auf GDT820s Methodenumfang sinnvoll,
+um einen unvermutet bereits gespeicherten vollständigen Blockzensus auszuschließen.
+
+Bestand: 38 Ideenskizzen IP008–IP045; IP001–IP007 und sämtliche früheren Status
+bleiben erhalten. Keine Rohdaten/Bilder/Webzugriffe oder Experimente in dieser
+Producer-Runde. Schreibzuständigkeit an root zurückgegeben.

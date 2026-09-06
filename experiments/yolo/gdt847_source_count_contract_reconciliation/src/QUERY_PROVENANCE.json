@@ -1,0 +1,45 @@
+{
+  "forbidden_prefixes": [
+    "f84",
+    "f84r"
+  ],
+  "initial_queries": [
+    {
+      "allowlist": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "columns": "page,locus,token_index,surface",
+      "guard_stats": {
+        "selected": 829,
+        "skipped_forbidden": 0,
+        "skipped_not_allowed": 0
+      },
+      "selector": "page",
+      "source": "experiments/yolo/gdt624_productive_quality_shell_grid/artifacts/GRID_OCCURRENCES.tsv"
+    },
+    {
+      "allow_values": [
+        "f103r",
+        "f106r",
+        "f107r",
+        "f108r",
+        "f115r",
+        "f22v",
+        "f32v",
+        "f34r",
+        "f49v",
+        "f4v",
+        "f53r",
+        "f66v"
+      ],
+      "columns": "page,locus,edition,kind,source_group_index,ivtff_group_raw,clean_ascii_fragments,clean_ascii_fragment_count,legacy_surface_positions_1based,legacy_mapping_status",
+      "guard_stats": {
+        "selected": 9376,
+        "skipped_forbidden": 2122,
+        "skipped_not_allowed": 103972
+      },
+      "selector": "page",
+      "source": "experiments/semantic_assumptions/results/source_separator_transcription.tsv"
+    }
+  ],
+  "provenance_note": "Copied from completed pre-packaging audit; no initial preregistration or independent unseen confirmation.",
+  "tool": "./vmanus-exp query-tsv"
+}

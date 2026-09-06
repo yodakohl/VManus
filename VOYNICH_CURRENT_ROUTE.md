@@ -3,23 +3,22 @@ Updated: 2026-09-06. Read first.
 
 ## Current mandate and effort limit
 
-Latest request: continue. IP042/GDT845 completed a fixed72-cell exact raw grid
-{empty,o,qo}×{k,t}×{ch,sh}×e{0,1,2}×d{0,1}×y over179selectors.
-ZL3b847hits61occupied cells; all48old e0/1cells in each alternate reading.
-ee+d observed/conditional expected: bare1/5.889, o1/3.891, qo6/4.020.
-Four exact all-reader qo loci on3physicalfolios; no across-prefix exclusion.
-All8ZL3b ee+d hits in sectionS: no causal prefix, morphology or semantic claim.
-Discovery only, no p or held confirmation. Old624count829 vs current816e0/1
-is unreconciled; occupancy reproduced, old count contract not reproduced.
-Primary: `experiments/yolo/gdt845_extended_form_grid_discovery/REPORT.md`.
-Next decision needs sufficient within-section/hand contrast before interpreting
-prefix dependence; no subgroup test selected or already performed.
+Latest mandate: at least10h active research, start2026-09-06 03:40:45UTC;
+not complete before13:40:45UTC unless user interrupts/changes the mandate.
+Active goal/session record: `docs/RESEARCH_SESSION_2026-09-06.md`.
 
-IP033 remains without a bound cross-hand shared-template pair in the checked
-IL010/GDT737/GDT791 reports. Seven earlier prioritized sketches had no executable
-contrast. Producer then found the concrete IP042 grid; retain36sketches in
-`docs/IDEA_BACKLOG.md`, select from source examples plus a discriminator.
-Discovery may generate hypotheses; no prior semantic gold is required.
+GDT846: GDT845 ee+d direction survives section/hand conditioning descriptively,
+but exact paired folio support is only1qo/bare and1qo/o stratum. f113qo/bare
+has no ee+d hits; f104qo/o has [1,0,6,5] vs[0,1,1,1]. No general prefix rule.
+Next useful source observation: verify the concrete f104 contrast natively;
+no additional regression/subgroup test selected. Keep845raw contract fixed.
+GDT847 resolves829=816+10bracket alternatives+2brace removals+1inline metadata.
+The metadata-bearing tchedy case is not an uncertain glyph reading. No change
+to old bytes,48-cell occupancy or meaning. Primary reports via lookup846/847.
+
+Producer keeps38idea sketches, now including grounded IP044(two e runs) and
+IP045(tandem block periods), with primary follow-up checks still needed before
+execution. Seven prior abstract priorities remain deferred; details in backlog.
 GDT844 stays stopped; GDT841/842 readability and GDT843 context-only deck remain.
 No unowned caption scores, new same-photo counts, unavailable f67r2 MSI reruns.
 

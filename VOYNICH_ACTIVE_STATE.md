@@ -23014,3 +23014,14 @@ Old624count829 vs current816e0/1unreconciled; occupancy only replicated.
 No semantic value or p claim. Next consider available within-section/hand
 contrast before any further test. Primary:
 `experiments/yolo/gdt845_extended_form_grid_discovery/REPORT.md`.
+
+## GDT846/847 — confound capacity and source reconciliation
+
+GDT846 retains the descriptive opposite ee+d directions but exact shared
+folio/core supports number onlyoneqo/bare andoneqo/o. No general prefix rule;
+next source candidate f104localcontrast needs native verification. GDT847
+resolves829=816+10bracket alternatives+2brace removals+1metadata removal.
+Do not classify all13as uncertain glyphs or change old845bytes. Neither pass
+adds semantics. User authorizes active research for at least10h from
+2026-09-06 03:40:45UTC; session record `docs/RESEARCH_SESSION_2026-09-06.md`.
+Primary reports via compact lookup GDT846/GDT847.
