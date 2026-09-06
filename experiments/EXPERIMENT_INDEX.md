@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **848**
-- Experiment-associated tracked files: **15,872** (1.4 GiB)
+- Experiment-associated tracked files: **15,879** (1.4 GiB)
 - Structured GDT337+ experiments: **513**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,8 +20,8 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT849 | Two-position e-run complete grid discovery | `REGISTERED_UNSCORED` | — | 11 | 20.8 KiB | 6 | STRUCTURED_YOLO |
-| GDT848 | Native f104 e-run source audit | `REGISTERED_UNSCORED` | — | 12 | 13.5 KiB | 3 | STRUCTURED_YOLO |
+| GDT849 | Two-position e-run complete grid discovery | `REGISTERED_UNSCORED` | — | 16 | 545.5 KiB | 6 | STRUCTURED_YOLO |
+| GDT848 | Native f104 e-run source audit | `REGISTERED_UNSCORED` | — | 14 | 15.0 KiB | 3 | STRUCTURED_YOLO |
 | GDT847 | GDT847 | `COUNT_DIFFERENCE_FULLY_RECONCILED` | [report](../experiments/yolo/gdt847_source_count_contract_reconciliation/REPORT.md) | 16 | 30.7 KiB | 3 | STRUCTURED_YOLO |
 | GDT846 | GDT846 | `EXPLORATORY_CONFOUND_AND_CAPACITY_AUDIT_COMPLETE` | [report](../experiments/yolo/gdt846_grid_prefix_confound_audit/REPORT.md) | 15 | 499.9 KiB | 1 | STRUCTURED_YOLO |
 | GDT845 | GDT845 | `DESCRIPTIVE_GRID_COMPLETE_NO_CONFIRMATORY_TEST` | [report](../experiments/yolo/gdt845_extended_form_grid_discovery/REPORT.md) | 17 | 910.2 KiB | 3 | STRUCTURED_YOLO |
