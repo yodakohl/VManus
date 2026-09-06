@@ -14,11 +14,12 @@ L .611534→.616364(10/13>.5),DY .753049→.750323(11/13>.5).
 Independent four-deck refitPASS. Local addedgain shrinks to .001067L/.013356DY.
 Retrospective primary robustness only; no old fullverdict/null/meaning reuse.
 Correction complete; no automaticrefit.809face keys unchanged. Primary lookup865.
+866registered: f95v2 first-line upperextension skips a complete group? Native Aseal/B; budget09:30:36–09:44UTC.
 
 GDT859:f56r.1 upperlink seenby2viewers; firstgroupseam definitein3readings.
 ZL/RF@167/@168 versus ITt retained; rootonly alignment, no glyph/meaning.
 860locators:861two nativeviewers see f100r.12 upperlink,f114r.1 no link.
-Manual candidatealignment; codes alone do not guarantee a link. No glyph/meaning.
+Manualalignment; codes do not guarantee a link or meaning.
 850joined/split28loci;851ABAB2loci;852native75v.44 seamcontrast. No wordhood.
 GDT853:25W qualify, zero held pairs meet fixed source/start-index matching;
 no predictor or automatic looser pairing. GDT854:146events,14mixed cells;
@@ -34,8 +35,7 @@ Post-count proof: any newTOOTHED breaks25%quire cap; none adds no mixed new
 phase. Thus this reserve cannot repair LM002 mobility; no images/target opened.
 RBR002 already closed the apparent RBR001 successor.
 
-GDT845–849: sparse prefix/source grids,848one native anchor; no coupling or
-meaning.847corrects829 counts.844/stars stopped. Primary via lookup.
+845–849 sparse grids,848native anchor; no meaning.847corrects829;844stopped.
 
 Goal: transferable translation. Confirmed English lexemes: **0**;
 confirmed German lexemes/clauses: **0**. GDT857 finds4coordinate-stable rawAAA

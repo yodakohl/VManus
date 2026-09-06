@@ -338,3 +338,16 @@ the target report and later terminology correction.43targeted tests PASS.
 Only additive workflow code changed; closed-family TSV and legacy routechecker
 remain byte-unchanged. No target data opened or scored during maintenance.
 Publishing source, regression tests and known-finding navigation updates now.
+
+09:28:16UTC navigation maintenancese370e6a7 public. Previous goalturnPROGRESS:
+exact-ID locator and regression tests preventmissednon-GDTpredecessors; no
+newmanuscriptmeasurement. No live process remains from865or maintenance.
+
+09:30:36UTC GDT866 bounded native question selected fromexistingpersonal
+orientation ofadmittedYale1006243(f95v2): doesleftmostupperextension infirst
+physicalbaseline linkuprights acrossa completeinterveningspatialgroup? Prior
+859/861gavecontacts, notthisselectivenonadjacentcase. TGCguardf95v/f95v2 zero
+excludedrows; no newadmission/rawtext. Source/hashmetadataalreadyknown.
+Registerbeforetargetviews; AsealbeforeB. Totalbudgetthrough09:44UTC. Apositive
+wouldsupplycandidatewritinglink only; complementaryabbreviationexpressionstill
+missing. Negative/unresolved stops thiscandidate withno targetswitch.
