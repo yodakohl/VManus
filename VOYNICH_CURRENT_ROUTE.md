@@ -24,7 +24,8 @@ CKH one-e positions vary within9folios, CTH onlyf83. Cross-kernel capacity
 fails; no model/null/meaning or within-kernel rescue. IP012 deferred:
 no motivated remodeling rival.862/IP053 mirror screen:1/3materialpairs; stop
 before targetcomparison, no show-through claim.863:7all3 non-qo followers
-afterstandaloneqo on6leaves defeat strict immediateecho; no function/meaning.
+afterstandaloneqo on6leaves defeat strict immediateecho;864two viewers see
+space-like seams in f76r21 qo|olain and30 qo|qokey. No wordhood/meaning.
 
 GDT855:outside ALL60LM-graded folios, onlyf35/f36/f37 remain, allq05.
 Post-count proof: any newTOOTHED breaks25%quire cap; none adds no mixed new
@@ -64,9 +65,8 @@ GDT832–837 controls confer no Voynich meaning or automatic decoder-repair rout
 
 ## Visual understanding and earlier routes
 
-Root's five orientation passes:31renderings/30canvases/31admittedkeys.
+Five orientation passes:31renderings/30canvases/31admittedkeys.
 Dossier and exact sources: `docs/visual_overview/README.md`.
-Latest: `docs/visual_overview/REMAINING_PLANTS_2026-09-06.md`.
 f76r offset signs are a known functionally unresolved column; f4r rot is an
 ordinary-alphabet note. No decipherment/admission.95v images stay distinct.
 GDT829 exact repeated-flank route and GDT830 pen-state control stop; do not relax

@@ -6,6 +6,18 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### GDT864 native qo seam support (2026-09-06)
+
+Primary: `experiments/yolo/gdt864_f76r_standalone_qo_native_seams/REPORT.md`.
+Two native viewers localize f76r21#4 qo|olain andf76r30#5 qo|qokey and rate
+bothpost-qo seams SPACE_LIKE relative neighboringwholegroup andinternalgaps.
+Localvisualsupport for one863counterexample andoneecho; no wordhood/function,
+glyphidentity, penmotion ormeaning. Manualsourceguided alignment, outcomes
+exposed, samephoto; Aseal08:49:24beforeB. Allsixpublishedcontexts retained
+withentities/uncertainties anddownstreamITjoin difference. No newadmission.
+Independentoriginalmetadata/sourceparity/seal/schema/decision and replayPASS,
+not softwareproof ofvision. Boundedscopeends; no automaticprefixmodel.
+
 ### GDT863 standalone qo strict echo counterexamples (2026-09-06)
 
 Primary: `experiments/yolo/gdt863_standalone_qo_immediate_echo/REPORT.md`.
