@@ -1,0 +1,94 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Descriptive exact written forms only; no confirmatory significance, morpheme, number or meaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt846_grid_prefix_confound_audit/src/run.py",
+    "validate": "python3 experiments/yolo/gdt846_grid_prefix_confound_audit/src/validate.py"
+  },
+  "created": "2026-09-06",
+  "dependencies": [
+    "GDT845"
+  ],
+  "experiment_id": "GDT846",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt845_extended_form_grid_discovery/artifacts/HITS.json",
+      "role": "frozen_source_or_extractor",
+      "sha256": "8f77d48234089417a597cdde55627cf5f6180919c0972fe9c5168180bd278d64"
+    },
+    {
+      "path": "experiments/yolo/gdt845_extended_form_grid_discovery/REPORT.md",
+      "role": "frozen_source_or_extractor",
+      "sha256": "ce43d4784b540f29c8757fb04a7673f97ac67fa41defcbf4034a70af0580155a"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt846_grid_prefix_confound_audit/.gitignore",
+      "role": "source_or_artifact",
+      "sha256": "9b9dc66af90f9ff99fa79101a6e3eb357e4d8b53cafcf51e9a8d2e2e32ca7dbb"
+    },
+    {
+      "path": "experiments/yolo/gdt846_grid_prefix_confound_audit/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "d924e96eb04b97c0c15517a4a295bdab11f8110d4c80960e6d1762a31501937d"
+    },
+    {
+      "path": "experiments/yolo/gdt846_grid_prefix_confound_audit/PREREGISTRATION.md",
+      "role": "source_or_artifact",
+      "sha256": "5d8bd56e0eb3e40516c0f16fc8d3751008ca06bfd3498d8f33743cf4ea515ed2"
+    },
+    {
+      "path": "experiments/yolo/gdt846_grid_prefix_confound_audit/README.md",
+      "role": "source_or_artifact",
+      "sha256": "5d08a406b51d74caf91edcf5ccbf349bdca559692a88d00f51aa57b20466e6a0"
+    },
+    {
+      "path": "experiments/yolo/gdt846_grid_prefix_confound_audit/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt846_grid_prefix_confound_audit/src/PREREG_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "3a922bd1b2c6a0341512a5f727f870ff3ef528de42791e808bc76ede6a29223f"
+    },
+    {
+      "path": "experiments/yolo/gdt846_grid_prefix_confound_audit/src/SPEC.json",
+      "role": "source_or_artifact",
+      "sha256": "bab1c6daa056d7ddb72b8510929cd38465c44f6ba05de68542284cb1f8b63d17"
+    },
+    {
+      "path": "experiments/yolo/gdt846_grid_prefix_confound_audit/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "3e0ff1ff5b22cf983699043c2505b31edc0905455558a9e67d113e4648ed820e"
+    },
+    {
+      "path": "experiments/yolo/gdt846_grid_prefix_confound_audit/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "8054f6d9dbab06ac4fde99e7ab8914d9ef855a7022e30bddb29975b5a9b13acc"
+    },
+    {
+      "path": "experiments/yolo/gdt846_grid_prefix_confound_audit/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "a4c9a6b3511b910d1c31ecf60e687134882fa542f08e45840c80795e10e37fd6"
+    }
+  ],
+  "question": "Does the descriptive grid contrast retain informative support within section, hand and folio?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "grid_prefix_confound_audit",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Grid prefix confound audit",
+  "updated": "2026-09-06",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}
