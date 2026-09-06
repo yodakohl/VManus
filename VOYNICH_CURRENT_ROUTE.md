@@ -1,210 +1,125 @@
 # Voynich current route
 Updated: 2026-09-06. Read first.
 
-## Current mandate
+## Current mandate and effort limit
 
-Latest request (2026-09-06): continue. GDT837 completed its registered 48-fit
-SCG comparison. Both arms fail exact-key recovery: all 34 active roles and
-22 literal / 8 wholeword values are correct, but suffix ae is read as a.
-Held words 98.2512%, characters 99.6947%; paired wholeword-constraint gain zero.
-Independent full replay passes. No new fit or manuscript page is selected.
-Root's personal whole-page orientation remains completed; subagents help with
-source metadata, root interprets images.
+Latest request: record the poor return of the six-hour GDT837 work so it does
+not recur. Duration is user-reported. No new manuscript reading resulted;
+wrong candidates outranking truth was already known from GDT834. The assistant accepts excessive scope and overstated novelty.
+Before substantial work, write a short note: genuinely unresolved question,
+what each outcome changes in our Voynich research decision, smallest adequate
+test, total wall-time budget and stop checkpoint. Include preparation, code,
+validation and publication. If no decision changes, do not build a large control.
+No automatic suffix repair, new control corpus or enlarged restart panel after
+GDT837. Reassess at the checkpoint; preserve scientific gates and existing
+permissions. Durable rules and case: `docs/WORKFLOW.md` and `AGENTS.md`.
 
-No public decipherment-approach searches: the user says these are exhausted.
-Use admitted images, primary internal reports and unresolved findings. The
-mandate to understand the manuscript and project history before fixing a plan
-remains. Goal: transferable translation. Confirmed English lexemes: **0**;
-confirmed German lexemes/clauses: **0**. GPU/subagents authorized; no other
-LLM API keys. No additional page admission is selected for this viewing pass.
+Goal: transferable translation. Confirmed English lexemes: **0**;
+confirmed German lexemes/clauses: **0**. No new fit or page admission selected.
+GPU/subagents authorized; no other LLM API keys. No public decipherment-approach
+searches: the user says these are exhausted. Understand project history and
+manuscript appearance before fixing a route; use primary internal evidence.
 
-## Completed predecessor controls — closed
-
-- GDT829: no exact repeated12-atom-flank/full-body contexts in any reading;
-  capacity stop. Do not shorten or relax this failed literal-context route.
-  `experiments/yolo/gdt829_repeated_passage_reflow_capacity/REPORT.md`.
-- GDT830:1032windows,249qualitypasses,only1heldquery; capacity stop. Unchanged
-  post-result assay marks64.6757% of a visibly blank patch as foreground.
-  Observation failure, not a test against pen-state information. No retuning.
-  `experiments/yolo/gdt830_pen_state_continuation_control/REPORT.md`.
-- GDT831:192new clear-point labels; calibrated.03 detects48/48heldink and45/48
-  heldpaper, but f81r22/24paper fails required23/24. Independent192center replay
-  passes; scientific control fails. No relabeling, full-mask/chronology claim
-  or direct comparison with GDT830's differently sampled foreground fraction.
-  `experiments/yolo/gdt831_annotated_ink_paper_control/REPORT.md`.
-
-## Current visual orientation completed
-
-Root personally viewed15renderings of14Yale canvases covering15admitted page
-keys across whole-plant, figure/becken, circular, small-object and text-heavy
-layouts. Source logistics alone were delegated. The observational dossier is
-`docs/visual_overview/README.md`; exact viewed images: `docs/visual_overview/SOURCES.json`.
-No new experimental or semantic claim, no new page admission. User's required
-visual understanding remains part of future work; no experiment executed; see the completed control below.
-
-## Completed control — GDT837: wrong suffix, no wholeword gain
+## Completed control — GDT837
 
 `experiments/yolo/gdt837_scg_integrated_wholeword_control/REPORT.md`.
-Public 60e0d84b precedes 48 fits and 6 locked selections. SCG Books I–II /
+Public 60e0d84b precedes 48 fits and six locked selections. Fixed SCG Books I–II /
 III–IV: 129120 discovery / 192991 held words in 9859 / 13828 source sentences.
-STRICT_RECOVERY_FAIL in both arms/all keys: 189616 held words exact (98.2512%),
+STRICT_RECOVERY_FAIL: all six selections get 189616 held words (98.2512%),
 99.6947% characters, 20292/20871 novel forms and 7979/8254 novel lemma occurrences
-exact; all plaintext floors pass. All 34 roles and 22 L / 8 W values correct;
-S ae→a leaves 33/34 identifiable active packages. All six W gates pass on both
-splits. Gain zero. Wrong key beats oracle by 31589.171877 discovery nats.
+exact. All plaintext floors pass. All 34 roles, 22 L and 8 W outputs correct;
+S ae→a leaves 33/34 identifiable active packages. Both arms have zero W violations
+on both splits; paired gain zero. Wrong key beats oracle by 31589.171877 nats.
 Independent 48-score / 1157946-prediction replay passes; no implementation mismatch.
+Posthoc: 45/48 have this sole S error, three STRICT have extra errors, none correct.
+Selected 2248D/3375H errors are suffix-attributed. No causal spelling claim or repair.
 SCG is new as ciphertext, previously part of GDT832 reference; native Monarchia
-remains frozen. No observed u/v error. Supplied sentence/word/atom boundaries
-and nominal capacities limit the result; three keys share one content split.
-Posthoc saved-fit census: 45/48 have the sole S error, three STRICT have extra
-errors, none all-correct. Selected errors: 2248 discovery / 3375 held, entirely
-suffix-attributed. No new fits, scores, selections or causal spelling claim. Full suffix
-inverse remains untested; no next fit selected. A successor needs a different
-predeclared discriminator for competing suffix values. GDT616/CDA001 stay closed.
+remains frozen. No observed u/v error. Three keys share one split; sentence,
+word and atom boundaries and nominal capacities are supplied. Full suffix inverse
+is untested, not an automatically selected successor. GDT616/CDA001 stay closed.
 
-## Completed implementation — GDT836; historical source capacity stop
+## Primary predecessors — findings and limits remain unchanged
 
-`experiments/yolo/gdt836_integrated_wholeword_precedence/REPORT.md`.
-STRICTengine nowchecksALLcachedwordtypes againstALLcandidateWentries after
-atomicupdates,beforeedge/score/bestcommit; includesinactiveW,fullrollback,
-forced/greedymoves andfinalbest. Pairedmodes sharefirstcompatibleinit(max1000),
-noinvalidretry scoring/bestupdates, thenresetseparatesearchRNG. Nineinvented
-fixturetests andindependentcanonicaloracle pass; nofreshhistoricalrecovery.
-Questiofixed1–44/45–88:44D/44Hruns,2318D/2064Hwords. SOURCE_CAPACITY_STOP:
-twoheld-activeLruleszeroD; allothergatespass. InitialSTOPbytepreserved. No
-keys,ciphertext orfits; --fitguardstatus2. Independent88run/133sentence/4382word
-replayPASS. No source/deck/split/thresholdrepair. Enginevalidatedonly; future
-comparisonrequiresdifferentdeclaredsourcewithcapacityPASS. GDT616/CDA001closed.
-
-## Predecessor — GDT835 identifies the missing constraint
-
-`experiments/yolo/gdt835_wholeword_precedence_audit/REPORT.md`.
-RetrospectivecandidateownWpriority auditaccepts21correctexisting834maps,
-rejects27wrongmaps. WrongWcum coexistswithcomposedcum15D/44H, contradictingthe
-mandatorycontrolencoder. No newfit,score,keyselection or834repair. Necessary
-Wconditiononly, notfullsuffixinverse or optionalVoynichabbreviationevidence.
-The separategrammarcensus isexploratory; likelihooddecomposition/Eglcontrolunrun.
-
-## Completed — GDT834 roles correct; word-value selection defeats control
-
-`experiments/yolo/gdt834_role_blind_mixed_control/REPORT.md`.
-Public1daf02ee precedes48fits/6lockedselections. Botharms/all3keys get
-6343/6511heldwords(97.4198%),98.6575%chars(fails99%),79/172paragraphs;
-all3160newforms/1977newlemmaoccurrences exact. BASELINE_RECOVERY_FAIL.
-BLIND identifiesall35activeroles;24L/3Soutputs correct; W ut→quod(59H),
-quod→cum(109H) explainall168wrongwords. Wrongkey beatsoracle3.50047366nats.
-Explicitposthoc census:21/48existingrestarts alreadyhaveallobservedtruevalues;
-27have theselectedwrongmap,0otherclasses. Searchfoundtruth; objectivepreferred
-wrongvalues inarelaxedkeyspace; GDT835 identifiesomittedmandatoryWpriority.
-Do notposthocpickcorrectrestarts, rerununchangedobjective, or
-retune thresholds. Independent48objective/39066prediction/6oracle replayPASS.
-Knownboundaries,atomicunits and26L/4S/8Wnominalcounts remain supplied; only
-67observablepartitions were ambiguous. Threekeys shareoneEpistolaesplit.
-No Voynichfit/language/word or nextfit selected. A successor needs a genuinely
-differentpredeclaredword-value discriminator; GDT616/CDA001 remainclosed.
-
-## Relevant predecessor controls — unchanged
-
-- GDT833: ORTHOGRAPHY_EFFECT_AND_RECOVERY_PASS. FreshDVE native reference:
-  all5519heldwords/122paragraphs/35activevalues exact. Referenceonlyv→u loses
-  all457vwords; nonvwords unchanged. Pairedlegalv/zoracle reversesdirection.
-  Knownroles/boundaries; threekeysonecontentsplit. No Voynichfit.
+- GDT836: integrated STRICT W checks after atomic decoded updates, before score
+  and best-state commits; includes inactive W, rollback, forced/greedy moves.
+  Paired first-compatible initialization, cap1000, separate reset search RNG;
+  nine invented tests pass. Fixed Questio 44D/44H, 2318D/2064H words stops because
+  two held-active L rules have zero D support. No keys/cipher/fits or split repair.
+  `experiments/yolo/gdt836_integrated_wholeword_precedence/REPORT.md`.
+- GDT835: retrospective candidate-own W priority accepts21 correct GDT834 maps,
+  rejects27 wrong maps. Wrong W cum coexists with composed cum15D/44H, violating
+  the mandatory encoder. No new fits, scores or rescued selections;
+  no full suffix inverse or optional Voynich abbreviation evidence.
+  `experiments/yolo/gdt835_wholeword_precedence_audit/REPORT.md`.
+- GDT834: role-blind mixed control fails. Both arms get6343/6511 held words,
+  98.6575% characters; all35 roles and24L/3S outputs exact.
+  W ut→quod and quod→cum cause168 held errors. Wrong key beats oracle3.50047nats;
+  21/48 saved restarts already correct,27 wrong. Supplied boundaries/capacities;
+  only67 observable role partitions.
+  `experiments/yolo/gdt834_role_blind_mixed_control/REPORT.md`.
+- GDT833: native-reference DVE control recovers all5519 held words/35 active values;
+  reference-only v→u loses all457 v words. Paired oracle reverses preference.
+  Known roles/boundaries; one split, no Voynich claim.
   `experiments/yolo/gdt833_reference_orthography_intervention/REPORT.md`.
-- GDT832: CONTROL_RECOVERY_FAIL. Continuouscontext identifies8/8W, but
-  93.33–93.35%words/98.81%chars missfloors; CUT0/8W. Addedco-lemmafactor gain0.
-  Wrongkeys beattrueobjective184.4667nats; referencev/kabsence auditedposthoc.
-  Initialfour-suffixcapacitySTOP remains; disclosedpre-fitactive-rulecorrection.
-  `experiments/yolo/gdt832_joint_family_context_control/REPORT.md`.
+- GDT832: context helps, recovery fails; added co-lemma factor gain0. Wrong-score
+  preference and v→z errors already known. Record via lookup.
+  `docs/joint_reading/PROPOSAL.md`: no full historical paradigm generator tested.
 
-The original jointreading proposal is `docs/joint_reading/PROPOSAL.md`.
-No fullhistoricalparadigm generator tested; only partialattestedco-lemmafactor.
-Neither controlpasses nor source-modelcorrections supply CDA001's missing
-independenttext/value evidence. GDT616 remainsclosed; no targetfit ornewpage.
+## Visual understanding and earlier routes
 
-## Earlier proposals remain unexecuted
+Root natively viewed15 renderings of14 Yale canvases covering15 admitted keys:
+whole-plant, figure/becken, circular, small-object and text-heavy layouts.
+Dossier: `docs/visual_overview/README.md`; images: `docs/visual_overview/SOURCES.json`.
+No new semantic claim or page admission.
+GDT829 exact repeated-flank route and GDT830 pen-state control stop; do not relax
+or retune them. GDT830 marks64.6757% of a visibly blank patch foreground: observation
+failure, not evidence against pen-state information. GDT831 adds192 clear-point
+labels but fails f81r paper specificity22/24 versus required23/24; independent
+replay passes, scientific control fails. Primary reports via compact lookup.
+`docs/internal_parallel_passages/PROPOSAL.md` remains unexecuted: no actual pair/map.
+`docs/visual_overview/NEXT_STEP.md`: l/m-width rank1 withdrawn; optional, untested.
 
-`docs/internal_parallel_passages/PROPOSAL.md`: fixed nonidentity complete-group
-bijections must predict globally pre-excluded passages. No actual pair/map.
-Retained alternative, not refuted or selected for execution; formal recoding
-would not establish equal meanings. `docs/visual_overview/NEXT_STEP.md`: l/m
-width remains an optional side question; its rank1 recommendation is withdrawn.
-Tractability was overweighted, and width alone cannot distinguish content from
-writing convention. No measurement or scientific rejection of either proposal.
+## Known structure and interpretation limits
 
-## Known structure is substantial; sentence syntax is not fully established
-
-Clarification: `docs/STRUCTURAL_KNOWLEDGE.md`. Source-native within-group
-family dependencies and productive opening/closing patterns transfer to held
-folios/new forms. Real cross-group assembly and positional patterns survive.
-GDT581 supplies a detailed reversible working grammar, not independent proof
-of all host/POS assignments or its inherited793 statement boundaries. DY
-field transitions and B3/m end preference are not universal sentence points;
-GDT791 corrects5of235 record-crossing statements, not a full sentence-gold test.
-Unknown meanings alone do not rule out known grammar. Preserve confirmed
-surface structure in the proposed search; do not treat groups as structureless
-or use every working-parser boundary as authorial truth. No new test performed.
-
-## Understanding basis and limits
-
-Reconstruct the major research phases and why they changed. Use index metadata
-and compact lookups to locate primary reports; audit targeted registry/ledger
-rows when tracing claims and corrections. Treat older archive summaries as
-potentially superseded. Understand contributions as well as failures.
-
-Use the existing research record for manuscript description, material and
-scribal studies and transcription limitations. Keep established findings
-distinct from proposed explanations. No further search for public approaches.
-Do not prefer a cipher, language, semantic glossary or nonlinguistic account
-without evidence. GDT831 is completed; the historical control is completed; no new fit or
-manuscript page admission is selected.
-
-`docs/RESEARCH_RESET.md` records the earlier premature proposal; it is not the
-current research plan. The source-linked understanding dossier is `docs/VOYNICH_UNDERSTANDING.md`;
-its three historical appendices document reviewed reports and remaining gaps.
-GPU and subagents remain authorized; no other LLM API keys may be used.
+`docs/STRUCTURAL_KNOWLEDGE.md`: productive within-group grammar, cross-group
+assembly and positional patterns are established. GDT581's reversible working
+parser does not independently prove all host/POS labels or inherited793 statement
+boundaries. DY transitions and B3/m preference are not universal sentence endings;
+GDT791 corrects5/235 record crossings, not full sentence gold. Preserve established
+surface structure without treating every parser boundary as authorial truth.
+GDT616 remains closed. CDA001 needs new independent text/value bindings across
+at least five physical folios plus untouched held folios; better control decoders
+cannot supply them. Structural tags are not English/German word translations.
+Understanding dossier: `docs/VOYNICH_UNDERSTANDING.md`; reset chronology:
+`docs/RESEARCH_RESET.md` is recovery context, not the current research plan.
 
 ## Source scope and fidelity
 
-- Visual admission: original30 pages/35 selectors:
-  `experiments/yolo/gdt791_thirty_page_visual_owner_spine/src/PAGE_SELECTOR_SPECS.tsv`.
-  Plus f21r/f32v/f100v/f101r:
-  `experiments/yolo/gdt812_additional_page_semantic_bridge/src/PAGE_ADMISSIONS.tsv`.
-  Total34 visual keys/39 selectors;16 admissions remain.
-- Inherited text scope:179 selectors:
-  `experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv`.
-  It is not179 visually inspected pages.
-- GDT811 union190 and GDT327's91-folio edition do not enlarge admission.
-- f84 is sealed; f84r is sealed. Record admissions before any new page access.
-- Preserve panel keys f67r2/f68r1. Page, selector and physical folio differ.
-- Best source-group atlas: `experiments/semantic_assumptions/results/source_separator_transcription.tsv`.
-  Query mixed sources ONLY through `./vmanus-exp query-tsv` with explicit
-  selector allow-values and output columns; reject f84 prefixes before payload.
-- EVA labels are not Latin initials or established phonetic units. ZL3b/IT2a/
-  RF1b are alternate readings of one manuscript, not independent witnesses.
-- Preserve raw groups, extended @entities, uncertain spaces and native flags.
-  Legacy cleaners can split/delete source groups; source line ends are not
-  established clause boundaries. GDT819 governs the active image corrections.
-- Yale1006204 is72v,not72r. The correction is:
-  `experiments/yolo/gdt812_additional_page_semantic_bridge/src/F72R_SOURCE_CORRECTION.md`.
-  f116v is not admitted. No old image label identifies a word or species.
+- Visual: original30 keys/35 selectors in `experiments/yolo/gdt791_thirty_page_visual_owner_spine/src/PAGE_SELECTOR_SPECS.tsv`,
+  plus f21r/f32v/f100v/f101r in `experiments/yolo/gdt812_additional_page_semantic_bridge/src/PAGE_ADMISSIONS.tsv`:34 keys/39 selectors,
+  16 admissions remain. Register before any new page access.
+- Text:179 selectors in `experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv`, not179 visually
+  inspected pages. GDT811 union190 and GDT327's91-folio edition do not enlarge scope.
+- f84 is sealed; f84r is sealed. Preserve panel keys f67r2/f68r1. Page, selector
+  and physical folio differ. f116v is not admitted. Yale1006204 is72v, not72r;
+  `experiments/yolo/gdt812_additional_page_semantic_bridge/src/F72R_SOURCE_CORRECTION.md` governs the correction.
+- Group atlas: `experiments/semantic_assumptions/results/source_separator_transcription.tsv`.
+  Mixed TSVs ONLY through `./vmanus-exp query-tsv`, explicit selector allow-values
+  and output columns; reject f84 prefixes before payload materialization.
+- EVA labels are not established phonetic units. ZL3b/IT2a/RF1b are alternate
+  readings of one manuscript. Preserve raw groups, @entities, uncertain spaces,
+  native flags. Legacy cleaning can split/delete groups; line ends are not clauses.
+  GDT819 governs active image corrections. No old image label identifies a species.
 
-## Prior work and recording
+## Continuity and publication
 
-Use `./vmanus-exp route-check QUERY` before a new route as navigation only;
-inspect relevant primary reports and closed-family rows. Record the actual
-scope of a past negative and the new discriminator. Do not repeat an unchanged
-failed implementation or reinterpret successful software checks as semantics.
-
-GDT001–336 byte-frozen;GDT337+ scaffold under experiments/yolo with manifest;
-GDT394+ seal f84/f84r explicitly. New score-ready relation evidence requires
-`./vmanus-exp check-edge-packet` and all capacity/provenance/held/mobile-null gates.
-Structural relations remain distinct from translated words.
-GDT336 supplies only a weak historical placement prior, not a decoded grammar.
-
-Publish material findings with compact reproducible source/results after staged
-privacy checks. Keep unrelated work. The full worktree has pre-existing GDT600
-binding/index debt; focused staged validation does not clear it.
-
-`VOYNICH_ACTIVE_STATE.md` and the append-only ledger hold detailed claims.
-Read targeted sections only. Old logs/handoff and prior route versions in Git
-are recovery archives. Workflow: `docs/WORKFLOW.md`.
+Use `./vmanus-work lookup ID` and only needed primary reports. Before a new route,
+run `./vmanus-exp route-check QUERY`; lexical ranking is navigation, not validation.
+Keep GDT001–336 byte-frozen; GDT336 is only a weak placement prior. GDT337+ require
+scaffold/manifests; GDT394+ explicitly seal f84/f84r. New relation packets require
+`check-edge-packet` capacity/provenance/held/mobile-null gates before scoring.
+Record material corrections in `experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv`;
+`VOYNICH_ACTIVE_STATE.md` holds full claims. Old logs/handoff are recovery archives.
+Publish authorized work after exact staged privacy/scope checks, preserve unrelated
+files. Full worktree retains pre-existing GDT600 binding/TSV index debt. Workflow:
+`docs/WORKFLOW.md`. No new GDT number for this effort-prioritization correction.

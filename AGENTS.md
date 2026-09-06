@@ -41,6 +41,16 @@ outside hash-bound legacy tools so past experiments remain reproducible.
   grow the archived prose logs.
 - Do not rerun a failed route unless there is new data or a genuinely different
   predeclared falsifier.
+- Before substantial control, decoder, or infrastructure work, write a short
+  decision note in the existing route/proposal: what is genuinely unknown after
+  checking primary predecessors, which Voynich research decision each plausible
+  outcome changes, the smallest adequate test, and a wall-time budget including
+  preparation, implementation, validation, and publication. See docs/WORKFLOW.md.
+  If outcomes leave the same research decision unchanged, do not start a large
+  implementation. At the budget limit, stop expansion and reassess; no automatic
+  chain of decoder repairs or new control corpora. Preserve scientific gates.
+  Separate manuscript findings, control findings, and engineering work in updates;
+  do not present a known failure mode or test count as new decipherment progress.
 - Before proposing a new route, use `./vmanus-exp route-check QUERY` as a fast
   duplicate screen, then inspect only the returned primary reports and closed
   family rows. Its lexical ranking is navigation help, not a scientific gate.

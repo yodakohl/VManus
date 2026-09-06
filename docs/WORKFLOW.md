@@ -34,6 +34,41 @@ current-route summaries in place; put history in its existing registry.
 - No cached interpretation, successful test, hash or polished German phrase is
   independent evidence for a word's meaning.
 
+## Require information gain before substantial work
+
+User correction, 2026-09-06: the user reported six hours for the work culminating
+in GDT837 and judged its return inadequate. The assistant accepts the poor
+prioritization. GDT837 supplied no new manuscript reading. It found no added
+wholeword-constraint benefit on one new control and localized a wrong suffix
+value. Wrong candidates outranking truth was already known from GDT834; presenting
+that general observation as a new discovery overstated the gain. High synthetic
+accuracy, more restarts and independent software checks do not bridge this gap.
+The duration is user-reported, not an instrumented breakdown of those six hours.
+
+Before substantial work, put one short decision note in the existing route or
+proposal, not a new administrative experiment or another reporting framework:
+
+- State the unresolved question and what the primary predecessor reports already
+  establish. Name the new discriminator rather than merely a new source or bug.
+- State the concrete Voynich research decision that success, failure and an
+  inconclusive result would change. For a control, identify its necessary link
+  to that decision; improved decoder accuracy alone is insufficient justification.
+- Choose the smallest scientifically adequate test using existing data/code first.
+  Budget total wall time, including source work, programming, checks and publishing;
+  set a checkpoint before major implementation and an explicit stopping condition.
+- At the checkpoint or budget limit, report the actual new evidence and reassess
+  value before expanding. If the decision does not change, close or defer the work.
+  A failed control must not automatically trigger the next decoder repair, suffix
+  rule, corpus search or larger restart panel. Any successor must justify itself.
+
+This is a prioritization rule, not a new permission requirement. Continue
+independently within existing authorization. Preserve preregistration, blinding,
+sealed-data and publication checks; reduce experimental scope instead of weakening
+those checks. Reuse validators and avoid repeated checks without a changed input
+or concrete unresolved concern. Report manuscript evidence, control evidence and
+engineering deliverables separately, including what was already known. Honest
+negative findings remain useful when they actually change a research decision.
+
 ## Publish the exact task, with explicit limits
 
 The old vmanus-exp and its implementation are hash-bound inputs of historical

@@ -6,6 +6,20 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### Research-effort correction requested by user (2026-09-06)
+
+The user reports six hours for the work culminating in GDT837 and asks that the
+poor return not recur. No new Voynich reading resulted. The new control-specific
+findings are zero added W-constraint benefit and the localized ae→a error;
+wrong-score preference was already known from GDT834. The assistant overstated
+that repeated observation as new and accepts excessive implementation/checking
+scope relative to its decision value. Scientific GDT837 results remain unchanged.
+Before substantial work, require a short novelty/decision/smallest-test/wall-time
+note and a stop checkpoint, including preparation through publication. No automatic
+successor suffix repair or new control corpus. Rules: AGENTS.md and
+`docs/WORKFLOW.md#require-information-gain-before-substantial-work`.
+This introduces no approval requirement, new experiment or weakened scientific gate.
+
 
 ### GDT837 complete: suffix value wrong, wholeword gain zero (2026-09-06)
 
