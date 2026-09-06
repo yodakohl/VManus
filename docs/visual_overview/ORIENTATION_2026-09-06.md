@@ -34,7 +34,13 @@ Schriftzeilen in abgesetzten Bereichen. Links oben fällt eine hohe, horizontal
 verlängerte Schriftform auf. Daraus folgt keine Zeichenlesung oder Funktion.
 Diese Aufnahme ist keine bloße Vergrößerung der Pflanze in1006242. Beide
 Yale-Bezeichnungen bleiben erhalten; ihre Zuordnung zu f95v1/f95v2 wird hier
-nicht neu behauptet. Die vollständige Aufnahme ist nicht gleichbedeutend
+nicht neu behauptet. Ein anschließender unabhängiger Metadatenreview fand
+die bereits dokumentierte Zuordnung f95v2→1006243 in
+`experiments/semantic_assumptions/results/lm001_herbal_leaf_margin_visual_selection.tsv`
+(guarded Projektion page/physical_folio/canvas_id/canvas_label). Für
+f95v1→1006242 wurde kein gleichwertiger expliziter Beleg in den gezielt
+geprüften Quellen gefunden. Das ist keine neue visuelle Panelvalidierung.
+Die vollständige Aufnahme ist nicht gleichbedeutend
 mit der vollständigen Sichtbarkeit aller ausgeklappten Panels.
 
 ## Erkenntnis und Grenze
@@ -68,3 +74,12 @@ Quellen-/Zulassungszuordnung und Kontinuitätsübergabe, nicht bei Bildberechnun
 Kein nachträglich behaupteter Zehn-Minuten-Erfolg. Die Quellenprüfsummen und
 Metadaten lassen sich lokal mit validate_orientation_sources.py nachprüfen;
 diese Prüfung validiert keine menschliche Bildinterpretation.
+
+## Anschließende Prüfung eines möglichen Schriftankers
+
+Der Ideenagent prüfte interne Primärberichte auf ein physisch beschriebenes
+Gegenpaar zur hohen verbundenen Anfangsform. Kein solches Gegenpaar gefunden:
+GDT763/f8r.9 und GDT766/f41v.2 liefern mediale Textformen, aber keine native
+Identität zur hier gesehenen Form; GDT736 benennt fehlende diplomatische
+Formbeschreibungen. Quellen und Grenzen stehen in docs/IDEA_BACKLOG.md.
+Die Suche beendet diesen Vorschlag ohne Gallows-Zählung oder neue Bildrunde.

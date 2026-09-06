@@ -1174,3 +1174,24 @@ RBR/IP012/LM-Prüfung, keine seltene Formenraster-Rettung und kein Bild-/Rohtext
 zugriff. GDT855s unabhängige Quellenverfügbarkeitsprüfung bleibt bei root;
 dieser Queue-Stop behauptet nicht, dass neue unabhängige Daten fehlen.
 Alle abgeschlossenen Einträge erhalten. Schreibzuständigkeit zurück.
+
+### Hohe Anfangsform auf Yale1006243: Primärscreen
+
+**Kein belegtes physisches Gegenpaar.** Roots persönliche Beobachtung auf95v
+benennt eine hohe horizontal verlängerte Anfangsform, keine Lesung und keine
+Identität mit einem medialen Glyphen. Zwei nähere Textanker bleiben rein textlich:
+[GDT763 REPORT](../experiments/yolo/gdt763_h1_content_vs_record_discriminator/REPORT.md)
+f8r.9 `sho pcheey pchey ofchey dsheey` (pcheey medial auf Absatzanfangszeile);
+[GDT766 REPORT](../experiments/yolo/gdt766_ofch_chor_role_switch_prediction/REPORT.md)
+f41v.2 `pcheody qofcheepy ofchdy cfhekchdy ypchedy chepchefy shdchdy qotal dar`.
+Keiner der Berichte beschreibt daran die gesuchte dekorative Verbindung.
+
+[GDT736 REPORT](../experiments/yolo/gdt736_opaque_head_record_role_bridge/REPORT.md)
+erklärt ausdrücklich, dass diplomatische Beschreibungen von Baseline,
+Verbindung, Hochstellung und Strichgerüst fehlen.757/763/766 behandeln bereits
+Stellungsunterschiede ganzer Formen; daraus wird keine neue Zählroute.
+Route-check `paragraph initial decorative gallows connected extended high glyph
+medial` und gezielter Primärbericht-Textscreen lieferten keinen einschlägigen
+physischen Vergleich. Kein erschöpfender Archiv- oder Neuigkeitsnachweis;
+IGR002/IP009/IP012 bleiben unberührt. Keine Bilder/Rohtexte geöffnet,
+keine Zählung, keine neue Idee oder Auswahl. Schreibzuständigkeit zurück.
