@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **867**
-- Experiment-associated tracked files: **16,264** (1.4 GiB)
-- Structured GDT337+ experiments: **532**
+- Experiments indexed: **868**
+- Experiment-associated tracked files: **16,276** (1.4 GiB)
+- Structured GDT337+ experiments: **533**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT869 | GDT869 | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt869_f17r_capture_metadata_inventory/METHOD.md) | 12 | 39.6 KiB | 0 | STRUCTURED_YOLO |
 | GDT868 | GDT868 | `COMPLETE_FIXED_EVENT_RAW_GROUP_FIDELITY` | [report](../experiments/yolo/gdt868_core13_raw_group_fidelity/REPORT.md) | 26 | 7.4 MiB | 4 | STRUCTURED_YOLO |
 | GDT867 | GDT867_guard_argument_replay | `CORRECTED_PROCEDURAL_QUERY_NO_FINDING_CHANGE` | [report](../experiments/yolo/gdt867_shared_canvas_native_orientation/REPORT.md) | 20 | 33.4 KiB | 1 | STRUCTURED_YOLO |
 | GDT866 | GDT866 | `BOTH_VIEWERS_NO_COMPLETE_INTERVENING_GROUP` | [report](../experiments/yolo/gdt866_f95v2_upper_span_topology/REPORT.md) | 19 | 32.4 KiB | 2 | STRUCTURED_YOLO |

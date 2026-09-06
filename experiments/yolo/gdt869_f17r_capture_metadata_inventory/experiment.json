@@ -1,0 +1,107 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "Three exact authenticated original TIFFs of approximately100MB each are cached only in ignored runtime for metadata extraction; pixels are never decoded and source files are not published.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Metadata inventory only; no pixel decoding, image observation, material, chronology or meaning",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt869_f17r_capture_metadata_inventory/src/run.py --run",
+    "validate": "python3 experiments/yolo/gdt869_f17r_capture_metadata_inventory/src/validate.py"
+  },
+  "created": "2026-09-06",
+  "dependencies": [],
+  "experiment_id": "GDT869",
+  "inputs": [
+    {
+      "path": "experiments/semantic_assumptions/acquire_eba001_raw_directional_msi.py",
+      "role": "frozen_source_or_extractor",
+      "sha256": "e4a3384c06a6f3a4e83bd44515d24fc75246639362b41f17a907ecf4e0092084"
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/eba001_raw_directional_msi_inventory.json",
+      "role": "frozen_source_or_extractor",
+      "sha256": "cdc8a46c212414d6af59733ca0e6eb555b1a825ffdc7a4520e72eb0d345b2f04"
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/eba001_raw_directional_msi_report.md",
+      "role": "frozen_source_or_extractor",
+      "sha256": "937eef8a2c695268780a0f43d19349771e66e4fc03b48a7ca6a2ab9fc39f9c48"
+    },
+    {
+      "path": "docs/physical_imaging/README_SOURCE_REVIEW_2026-09-06.md",
+      "role": "frozen_source_or_extractor",
+      "sha256": "56191cf9614b42104aeeb06963ade55e534eb228d31b351cdb791d4e7b95b38d"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt869_f17r_capture_metadata_inventory/.gitignore",
+      "role": "source_or_artifact",
+      "sha256": "429a7ff8e3befe5ac528bb832881840115d63940883b125526b582eedcdcb7a9"
+    },
+    {
+      "path": "experiments/yolo/gdt869_f17r_capture_metadata_inventory/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "ecff31989e590cd9e35913f9477450c8e4f000bc4ad65dcc1ed27fb3cb6555e6"
+    },
+    {
+      "path": "experiments/yolo/gdt869_f17r_capture_metadata_inventory/PREREGISTRATION.md",
+      "role": "source_or_artifact",
+      "sha256": "b75ea85692e189e4faf641b1d3aa296cb887c42ea353a0269ddfc018f47dee1d"
+    },
+    {
+      "path": "experiments/yolo/gdt869_f17r_capture_metadata_inventory/README.md",
+      "role": "source_or_artifact",
+      "sha256": "34369ebce958798d3561ace83f37ff211e577479594e7342b1a468d3bf44e3a8"
+    },
+    {
+      "path": "experiments/yolo/gdt869_f17r_capture_metadata_inventory/artifacts/CONTROLS.json",
+      "role": "source_or_artifact",
+      "sha256": "a6360020cb3aa08379c0ecc2c376c5d5f703fb971342a4df40c13898ae5b16bf"
+    },
+    {
+      "path": "experiments/yolo/gdt869_f17r_capture_metadata_inventory/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt869_f17r_capture_metadata_inventory/src/PREREG_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "92c0950fb52eaebb31ad5b95c3e209eecab3b19c468a5677aa8c22ccaa944693"
+    },
+    {
+      "path": "experiments/yolo/gdt869_f17r_capture_metadata_inventory/src/SPEC.json",
+      "role": "source_or_artifact",
+      "sha256": "f91498b2e09d82992f1b1e5d3efae275abf638742c0e5fff8471421ce28aadd9"
+    },
+    {
+      "path": "experiments/yolo/gdt869_f17r_capture_metadata_inventory/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "a44bf4198868c399ef3e5627c1fe3d05462346ce0ec9ef49de9e116fb59a4cb2"
+    },
+    {
+      "path": "experiments/yolo/gdt869_f17r_capture_metadata_inventory/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "01eeca96f6dc7c3f018bc89949ff4c5730ca8d3fb13d4d9038dcd1d6842762ac"
+    },
+    {
+      "path": "experiments/yolo/gdt869_f17r_capture_metadata_inventory/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "614b298acb8ecadc26becbaf8436ed093b5c446dc95947a13119c38a3a4124e4"
+    }
+  ],
+  "question": "Do additional embedded metadata explicitly identify illumination for the three known f17r UV captures?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "f17r_capture_metadata_inventory",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Three f17r capture metadata inventory",
+  "updated": "2026-09-06",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

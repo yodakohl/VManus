@@ -441,3 +441,12 @@ no new score ormeaning. Follow-up existing-source note confirms STA Ba→@152
 in detail/Ba→d inbasic, not a physicalcorrection or exactglyph-equivalence
 claim. f48r native investigation is not yet selected/admitted.
 Goal stillACTIVE; earliestcompletion13:40:45UTC remains ahead.
+
+At10:45:58UTC selected GDT869: known public capture README retrieved as text
+only; it directs readers to image properties. EBA001 exported eleven selected
+TIFF fields, leaving a concrete embedded-metadata gap. Freeze exact three f17r
+source IDs/hashes; no f116v, no pixel decoding or image view. Root writes the
+protocol while separate agents implement and validate metadata extraction.
+Stop by11:15UTC including publication; meaningful outcome is documented lighting
+or a precisely bounded absence/opaque-source limitation, not another trace view.
+README summary and source hash are retained without mirroring the source PDF.
