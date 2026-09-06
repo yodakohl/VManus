@@ -3,14 +3,13 @@ Updated: 2026-09-06. Read first.
 
 ## Current mandate and effort limit
 
-Latest request: next idea with a ten-minute total budget. GDT838 now stops at
-capacity: no cross-folio candidates for the fixed raw-group recoding screen.
-No decoder, threshold repair, held prediction or new page is selected.
-Effort rule after the user-reported six-hour GDT837 detour: before substantial
-work record novelty, outcome-dependent Voynich decision, smallest adequate test,
-total wall-time budget and stop checkpoint, including preparation and publishing.
-Do not automatically repair the next decoder or change corpora. Preserve gates
-and existing permissions. Durable rules: `docs/WORKFLOW.md` and `AGENTS.md`.
+Latest request: faster parallel idea work. Three short read-only worker reviews
+found no new ready discriminator in their image/obstacle, l/m-neighbor and local
+similarity candidates. This is triage, not a new scientific rejection. No new
+experiment selected; GDT838 unchanged. Use distinct bounded worker tasks, shared
+inputs and one batch report; preregister surviving tests and protect held data.
+Total wall-time limits include setup, checks and publication. No automatic decoder
+repair or new corpus. Durable rules: `docs/WORKFLOW.md` and `AGENTS.md`.
 
 Goal: transferable translation. Confirmed English lexemes: **0**;
 confirmed German lexemes/clauses: **0**. No new fit or page admission selected.

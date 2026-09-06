@@ -69,6 +69,34 @@ or concrete unresolved concern. Report manuscript evidence, control evidence and
 engineering deliverables separately, including what was already known. Honest
 negative findings remain useful when they actually change a research decision.
 
+## Parallel short rounds
+
+User request, 2026-09-06: speed up by generating and examining ideas in parallel.
+Use the available three worker slots for different questions, with the root
+maintaining scope, the deadline and the shared record. Parallelism is useful for
+independent investigations; it does not justify multiplying setup or validation.
+
+- Start with a short candidate screen: each worker gets one distinct domain,
+  the same current-route pointer, exact read permissions, a two-minute stop and
+  a compact deliverable: new discriminator, existing data, smallest test and
+  decision consequence. No new programs, raw-data searches or experiments yet.
+- Reject duplicates or missing evidence early. Missing primary reports mean an
+  unresolved provenance gap, not proof that a hypothesis has been refuted.
+  Workers must be allowed to return no viable candidate.
+- For candidates that survive, use one shared preregistered batch with bounded
+  independent tests, one report and compact artifacts. Protect held data across
+  all workers; do not let one worker expose another's held material. Keep every
+  tested hypothesis visible, including negatives, before selecting any lead.
+- Separate discovery from confirmation. A promising exploratory result still
+  needs its declared controls; parallel screening is not semantic validation.
+  Reuse inputs/readers, avoid three separate corpora, decoders or reporting systems.
+  Root owns publication and shared-file edits; workers have disjoint output files.
+
+Initial read-only screen: image/obstacle, l/m-neighbor grammar and local textual
+similarity candidates were not selected. The short reviews found known routes
+or missing adequate observations; they produced no new manuscript result and
+are not an exhaustive assessment of those domains. No experiment was opened.
+
 ## Publish the exact task, with explicit limits
 
 The old vmanus-exp and its implementation are hash-bound inputs of historical
