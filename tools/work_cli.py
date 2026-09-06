@@ -25,10 +25,14 @@ def main(argv: list[str] | None = None) -> int:
     if arguments and arguments[0] == 'ideas':
         from tools.research_registry import main as ideas_main
         return ideas_main(arguments[1:])
+    if arguments and arguments[0] == 'source-reviews':
+        from tools.semantic_source_review import main as source_reviews_main
+        return source_reviews_main(arguments[1:])
     parser = argparse.ArgumentParser(prog='vmanus-work')
     commands = parser.add_subparsers(dest='command', required=True)
     commands.add_parser('priorities', help='bounded hypothesis groups and conditional research priorities')
     commands.add_parser('ideas', help='scalable research memory: search, duplicates, reconsider, show')
+    commands.add_parser('source-reviews', help='bounded prior-review receipts; explicit review files, no coverage inference')
     lookup = commands.add_parser('lookup', help='compact metadata pointers; opens no manuscript data')
     lookup.add_argument('identifiers', nargs='+')
     lookup.add_argument('--json', action='store_true', dest='json_output')

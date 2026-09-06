@@ -9,17 +9,17 @@ They remain in the source archive. No hypothesis becomes executable by inclusion
 
 | Unit | Count |
 |---|---:|
-| Active semantic hypothesis variants | 3,719 |
-| Separately typed formal-role cards | 265 |
-| Reviewed source cases, including the correction archive | 4,507 |
+| Active semantic hypothesis variants | 3,728 |
+| Separately typed formal-role cards | 266 |
+| Reviewed source cases, including the correction archive | 4,517 |
 | Archived source-extraction errors | 47 |
 | Exact normalized assertion repetitions grouped | 476 |
-| Reviewed equivalence groups / display reduction | 43 / 52 |
-| Public semantic display entries | 3,667 |
+| Reviewed equivalence groups / display reduction | 46 / 55 |
+| Public semantic display entries | 3,673 |
 
 These are different units, not a deduplicated total of independent theories.
 A local ignored supplement contributes95 semantic cards and one formal card;
-the ordinary local default therefore displays3,762 semantic entries. A fresh
+the ordinary local default therefore displays3,768 semantic entries. A fresh
 public clone has the public view only. Local source files and quotes are not
 published or silently folded into public counts.
 
@@ -55,7 +55,7 @@ paragraph does not automatically make every subclaim independently addressable;
 an atomic gloss does not cover a complete multi-card model.
 
 Whitespace and backtick typography alone are normalized for exact assertions.
-Explicit equivalence decisions add43 groups without deleting any original ID.
+Explicit equivalence decisions add46 groups without deleting any original ID.
 The identity log also retains five related-but-distinct links,28 rival links and
 two specializations. Conflicting nonidentity blocks transitive merging; changed
 claim or case bindings require a new review. Shared spelling, shortened wording
@@ -109,16 +109,24 @@ Later full-scope reviews and audit-only source comparisons live in the bounded
 `decisions/clean_gap_review_*.json` artifacts. An audit pointer does not add a
 source-case payload. Quote overlap alone never certifies complete review.
 
-Latest integrated packet: CW/CX/DA/DC/DF retains34 source cases, including two
-formal contracts. Ten Pass304 MC/form/clause assignments use a reproducible,
-selective four-column lexicon projection; no event data was reopened. Nine bath
-readings stay in two local bundles and four organ-label compositions preserve
-their rival readings. CV adds one exact lexical equivalence. CY/DB/DF add eight
-scoped reason dossiers. GDT685 executed context joins and renderer repairs, but
-inherited roles and fixed verdict/rank fields are not independent meaning tests.
-The original source bytes remain intact; the current route and DF dossier qualify
-the old strong wording. DD separates actual source transitions from renamed or
-still-unexecuted tests. No new mechanism is inferred from a local clause count.
+Latest integrated packet: DE/DJ retains ten source cases, nine semantic and one
+formal. Twelve contained sibling spans received full proposition comparisons;
+two missing statements survived that check. The original blanket interpretation
+of DE's interval exclusions is superseded by its explicit correction and DJ.
+Semantic slot order and the local material-thread rule stay visible as functional
+hypotheses; their model-dependent/synthetic scope remains explicit. DI adds three
+source-contract equivalences (R, CHEO and the CHEEY/SHEY whole card); AIR remains
+open. Four review-only line-end errors are corrected in the derived DI proposal.
+
+Use `./vmanus-work source-reviews --review REVIEW.json --source-id ID` with an
+explicit public decisions file, optionally adding `--path PATH --line N
+--line-end M`. It returns up to eight prior-review receipts (maximum twenty),
+separating exact IDs, contained spans and partial overlaps. Reading, pending
+comparison and unknown statuses remain distinct. It opens no source text and
+never establishes proposition coverage, identity, permission to skip work or
+semantic support. Supplied-hash agreement is metadata comparison, not fresh
+primary-source validation. The thirteen real DE receipts and nine regression
+cases are recorded in `decisions/semantic_source_review_validation_dh.json`.
 The source-polarity and identity audits are bounded, not global error-free claims.
 
 `SEMANTIC_IDEAS_MANIFEST.json` records exact counts and bound inputs. Rebuild after

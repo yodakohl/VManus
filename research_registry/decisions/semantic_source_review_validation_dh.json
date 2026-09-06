@@ -1,0 +1,63 @@
+{
+  "review_id": "SEMANTIC_SOURCE_REVIEW_VALIDATION_DH",
+  "status": "PASS_NAVIGATION_REGRESSION_ONLY",
+  "source_bytes_read": false,
+  "inputs": [
+    {
+      "path": "research_registry/decisions/source_coverage_gap_batch_al.json",
+      "sha256": "55724779cb85c916e4cc122c87dbb10eab3df5a92644586b98ff49ac5d3784af"
+    },
+    {
+      "path": "research_registry/decisions/source_coverage_gap_batch_be.json",
+      "sha256": "c1d1d9eac72026b6bb3c86baf6477760789aafd4f8f6813d678e25cfd0458e92"
+    },
+    {
+      "path": "research_registry/decisions/source_coverage_gap_batch_de.json",
+      "sha256": "2805b8f42ac396185b8841364389a2d60fa9047d4d9997d6425410b455ac4719"
+    },
+    {
+      "path": "research_registry/decisions/source_coverage_scope_batch_ao.json",
+      "sha256": "529f82483084c11494c0da1f8d14498ab627233f2f730997146750c480cc8294"
+    },
+    {
+      "path": "tests/test_semantic_source_review.py",
+      "sha256": "9c23bb07c495041cae75718dfa443d27f5ea356ddbc379250f12971fe3566de9"
+    },
+    {
+      "path": "tools/semantic_source_review.py",
+      "sha256": "c86b88ca0ebc9c3be1d333f5ca3026e10092906b27dc28bdc8045457523ef54c"
+    }
+  ],
+  "reproduction": {
+    "command": [
+      "python",
+      "-c",
+      "import json\nfrom pathlib import Path\nfrom tools.semantic_source_review import lookup\np=Path('research_registry/decisions/source_coverage_gap_batch_de.json')\nx=json.loads(p.read_text())\ncounts={'receipts':0,'found_containment':0,'accidental_exact_id':0}\nfor r in x['selection_amendment']['previous_full_review_overlap_receipts']:\n    q=x['original_metadata_selection'][r['original_selection_index']]\n    result=lookup(Path('.'), review_paths=[r['prior_review']], source_id=q['source_id'], path=q['path'], line=q['line'], line_end=q['line_end'], source_sha256=q['sha256'], limit=20)\n    hits=[z for z in result['results'] if z['source_id']==r['prior_source_id']]\n    assert hits and any('contains_span' in z['relationships'] for z in hits)\n    assert result['source_bytes_read'] is False\n    counts['receipts']+=1\n    counts['found_containment']+=1\n    counts['accidental_exact_id']+=sum('exact_id' in z['relationships'] for z in hits)\nassert counts=={'receipts':13,'found_containment':13,'accidental_exact_id':0}\nprint(json.dumps(counts,sort_keys=True))\n"
+    ],
+    "stdout": "{\"accidental_exact_id\": 0, \"found_containment\": 13, \"receipts\": 13}\n",
+    "exit_code": 0,
+    "working_directory": "repository root"
+  },
+  "result": {
+    "accidental_exact_id": 0,
+    "found_containment": 13,
+    "receipts": 13
+  },
+  "targeted_tests": {
+    "command": [
+      "python",
+      "-m",
+      "pytest",
+      "-q",
+      "tests/test_semantic_source_review.py"
+    ],
+    "result": "9 passed",
+    "includes": "Current decision=scope_comparison_open overrides original_decision=existing_whole_reading; original retained separately; max page size20."
+  },
+  "limits": [
+    "Only curation receipts and their candidate metadata were read; manuscript/source report bytes were not opened. Input hashes cover the tooling and curation artifacts only.",
+    "Thirteen containing-span hints do not certify proposition coverage or authorize automatic skip.",
+    "No source registry/cache, semantic verdict, identity assertion or operational change."
+  ],
+  "root_test_fixture_review": "The rejected absolute-path input is constructed in the temporary test context; no machine-specific absolute-path literal is published. Nine tests and the thirteen-receipt projection rerun successfully."
+}

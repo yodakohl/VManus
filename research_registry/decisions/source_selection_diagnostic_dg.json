@@ -1,0 +1,392 @@
+{
+  "review_id": "SOURCE_SELECTION_DIAGNOSTIC_DG",
+  "status": "DIAGNOSIS_AND_MINIMAL_DESIGN_ONLY_NO_IMPLEMENTATION",
+  "inputs": [
+    {
+      "path": "research_registry/decisions/source_coverage_gap_batch_de.json",
+      "sha256": "2805b8f42ac396185b8841364389a2d60fa9047d4d9997d6425410b455ac4719"
+    }
+  ],
+  "observed_counts": {
+    "original_selection": 25,
+    "prior_full_review_receipts": 13,
+    "exact_id_duplicates_in_those_receipts": 0,
+    "contained_sibling_or_alias_ids": 13,
+    "additional_full_claim_exclusion_pass341": 1,
+    "amended_selection": 11
+  },
+  "actual_causes": [
+    {
+      "cause": "singular_evidence_object_not_normalized",
+      "observed_selector_fragment": "for e in x.get(\"evidence\", []):\n    if isinstance(e, dict) and e.get(\"path\") and e.get(\"line\"): ...",
+      "consequence": "Iterating an evidence dictionary yields string keys, so its intervals disappear. Source IDs were nevertheless already inserted into done; the13 missed candidates have different source IDs. Object normalization fixes missing prior-read receipts, not semantic identity."
+    },
+    {
+      "cause": "open_status_detection_is_not_schema_safe",
+      "observed_selector_exclusion_tokens": [
+        "unresolved",
+        "pending",
+        "not_yet",
+        "not_full",
+        "scope_open"
+      ],
+      "consequence": "AL uses scope_comparison_open, which does not contain scope_open and passes this filter. Full reading is not completed proposition comparison. An ID could be hidden despite remaining open."
+    },
+    {
+      "cause": "broad_overlap_exclusion_conflates_selection_avoidance_with_coverage",
+      "observed_selector_behavior": "Any interval overlap after a source decision excludes a candidate, even if only part of the candidate is covered.",
+      "consequence": "A fixed evidence-shape loop alone would create false completeness risks. Exact-ID adjudication, prior-reading reuse and semantic coverage must be distinct responses."
+    }
+  ],
+  "concrete_receipts": [
+    {
+      "original_selection_index": 13,
+      "candidate_source_id": "LEGACY_COMPONENT:fd1c875769fb1f96fecc",
+      "prior_source_id": "LEGACY_COMPONENT:b681ba4a4b1e05317ec4",
+      "same_source_id": false,
+      "candidate_span": [
+        8,
+        11
+      ],
+      "prior_span": [
+        1,
+        16
+      ],
+      "path": "experiments/yolo/sidequest_semantic_material_state_ladder_three_hundred_forty_third/THREE_HUNDRED_FORTY_THIRD_REPORT.md",
+      "prior_review": "research_registry/decisions/source_coverage_gap_batch_al.json",
+      "prior_review_sha256": "55724779cb85c916e4cc122c87dbb10eab3df5a92644586b98ff49ac5d3784af",
+      "evidence_shape": "dict",
+      "prior_decision": "scoped_proposition_candidates",
+      "full_read_flag": true,
+      "diagnostic": "Prior complete-read span contains this candidate, but different source IDs do not inherit proposition coverage automatically."
+    },
+    {
+      "original_selection_index": 14,
+      "candidate_source_id": "LEGACY_COMPONENT:064d5f83cbc6ba35e807",
+      "prior_source_id": "LEGACY_COMPONENT:b681ba4a4b1e05317ec4",
+      "same_source_id": false,
+      "candidate_span": [
+        13,
+        16
+      ],
+      "prior_span": [
+        1,
+        16
+      ],
+      "path": "experiments/yolo/sidequest_semantic_material_state_ladder_three_hundred_forty_third/THREE_HUNDRED_FORTY_THIRD_REPORT.md",
+      "prior_review": "research_registry/decisions/source_coverage_gap_batch_al.json",
+      "prior_review_sha256": "55724779cb85c916e4cc122c87dbb10eab3df5a92644586b98ff49ac5d3784af",
+      "evidence_shape": "dict",
+      "prior_decision": "scoped_proposition_candidates",
+      "full_read_flag": true,
+      "diagnostic": "Prior complete-read span contains this candidate, but different source IDs do not inherit proposition coverage automatically."
+    },
+    {
+      "original_selection_index": 15,
+      "candidate_source_id": "LEGACY_COMPONENT:65c3958e1dd80dd55fd9",
+      "prior_source_id": "LEGACY_COMPONENT:23ac5cd977a3551b5842",
+      "same_source_id": false,
+      "candidate_span": [
+        9,
+        12
+      ],
+      "prior_span": [
+        1,
+        17
+      ],
+      "path": "experiments/yolo/sidequest_semantic_state_information_channels_three_hundred_forty_fourth/THREE_HUNDRED_FORTY_FOURTH_REPORT.md",
+      "prior_review": "research_registry/decisions/source_coverage_gap_batch_al.json",
+      "prior_review_sha256": "55724779cb85c916e4cc122c87dbb10eab3df5a92644586b98ff49ac5d3784af",
+      "evidence_shape": "dict",
+      "prior_decision": "method_editorial_or_instance_only",
+      "full_read_flag": true,
+      "diagnostic": "Prior complete-read span contains this candidate, but different source IDs do not inherit proposition coverage automatically."
+    },
+    {
+      "original_selection_index": 20,
+      "candidate_source_id": "LEGACY_COMPONENT:537eb487978e7a2e712e",
+      "prior_source_id": "LEGACY_COMPONENT:30171c6dae6f2669ae39",
+      "same_source_id": false,
+      "candidate_span": [
+        3,
+        7
+      ],
+      "prior_span": [
+        1,
+        18
+      ],
+      "path": "experiments/yolo/sidequest_semantic_master_apprentice_dialogue_three_hundred_forty_eighth/THREE_HUNDRED_FORTY_EIGHTH_REPORT.md",
+      "prior_review": "research_registry/decisions/source_coverage_gap_batch_al.json",
+      "prior_review_sha256": "55724779cb85c916e4cc122c87dbb10eab3df5a92644586b98ff49ac5d3784af",
+      "evidence_shape": "dict",
+      "prior_decision": "method_editorial_or_instance_only",
+      "full_read_flag": true,
+      "diagnostic": "Prior complete-read span contains this candidate, but different source IDs do not inherit proposition coverage automatically."
+    },
+    {
+      "original_selection_index": 21,
+      "candidate_source_id": "LEGACY_COMPONENT:c80d502478409afc3e46",
+      "prior_source_id": "LEGACY_COMPONENT:30171c6dae6f2669ae39",
+      "same_source_id": false,
+      "candidate_span": [
+        9,
+        13
+      ],
+      "prior_span": [
+        1,
+        18
+      ],
+      "path": "experiments/yolo/sidequest_semantic_master_apprentice_dialogue_three_hundred_forty_eighth/THREE_HUNDRED_FORTY_EIGHTH_REPORT.md",
+      "prior_review": "research_registry/decisions/source_coverage_gap_batch_al.json",
+      "prior_review_sha256": "55724779cb85c916e4cc122c87dbb10eab3df5a92644586b98ff49ac5d3784af",
+      "evidence_shape": "dict",
+      "prior_decision": "method_editorial_or_instance_only",
+      "full_read_flag": true,
+      "diagnostic": "Prior complete-read span contains this candidate, but different source IDs do not inherit proposition coverage automatically."
+    },
+    {
+      "original_selection_index": 22,
+      "candidate_source_id": "LEGACY_COMPONENT:02b119ed85af0ac1aaba",
+      "prior_source_id": "LEGACY_COMPONENT:c80b33f814d7cdab404d",
+      "same_source_id": false,
+      "candidate_span": [
+        3,
+        5
+      ],
+      "prior_span": [
+        1,
+        14
+      ],
+      "path": "experiments/yolo/sidequest_semantic_master_repair_three_hundred_forty_ninth/THREE_HUNDRED_FORTY_NINTH_REPORT.md",
+      "prior_review": "research_registry/decisions/source_coverage_gap_batch_al.json",
+      "prior_review_sha256": "55724779cb85c916e4cc122c87dbb10eab3df5a92644586b98ff49ac5d3784af",
+      "evidence_shape": "dict",
+      "prior_decision": "method_editorial_or_instance_only",
+      "full_read_flag": true,
+      "diagnostic": "Prior complete-read span contains this candidate, but different source IDs do not inherit proposition coverage automatically."
+    },
+    {
+      "original_selection_index": 23,
+      "candidate_source_id": "LEGACY_COMPONENT:649e5ec10b4934da9760",
+      "prior_source_id": "LEGACY_COMPONENT:c80b33f814d7cdab404d",
+      "same_source_id": false,
+      "candidate_span": [
+        13,
+        14
+      ],
+      "prior_span": [
+        1,
+        14
+      ],
+      "path": "experiments/yolo/sidequest_semantic_master_repair_three_hundred_forty_ninth/THREE_HUNDRED_FORTY_NINTH_REPORT.md",
+      "prior_review": "research_registry/decisions/source_coverage_gap_batch_al.json",
+      "prior_review_sha256": "55724779cb85c916e4cc122c87dbb10eab3df5a92644586b98ff49ac5d3784af",
+      "evidence_shape": "dict",
+      "prior_decision": "method_editorial_or_instance_only",
+      "full_read_flag": true,
+      "diagnostic": "Prior complete-read span contains this candidate, but different source IDs do not inherit proposition coverage automatically."
+    },
+    {
+      "original_selection_index": 19,
+      "candidate_source_id": "LEGACY_COMPONENT:3c03dbed3436b0491f42",
+      "prior_source_id": "LEGACY_COMPONENT:2fd715d2434ee10cc26a",
+      "same_source_id": false,
+      "candidate_span": [
+        1,
+        15
+      ],
+      "prior_span": [
+        1,
+        15
+      ],
+      "path": "experiments/yolo/sidequest_semantic_h3_b2_four_line_translation_three_hundred_forty_seventh/THREE_HUNDRED_FORTY_SEVENTH_REPORT.md",
+      "prior_review": "research_registry/decisions/source_coverage_gap_batch_al.json",
+      "prior_review_sha256": "55724779cb85c916e4cc122c87dbb10eab3df5a92644586b98ff49ac5d3784af",
+      "evidence_shape": "dict",
+      "prior_decision": "scoped_proposition_candidates",
+      "full_read_flag": true,
+      "diagnostic": "Prior complete-read span contains this candidate, but different source IDs do not inherit proposition coverage automatically."
+    },
+    {
+      "original_selection_index": 17,
+      "candidate_source_id": "LEGACY_COMPONENT:2ccd8fa55677191ce50a",
+      "prior_source_id": "LEGACY_COMPONENT:fe44df4985c98db6cdbb",
+      "same_source_id": false,
+      "candidate_span": [
+        3,
+        7
+      ],
+      "prior_span": [
+        1,
+        16
+      ],
+      "path": "experiments/yolo/sidequest_semantic_two_layer_production_rule_three_hundred_forty_sixth/THREE_HUNDRED_FORTY_SIXTH_REPORT.md",
+      "prior_review": "research_registry/decisions/source_coverage_gap_batch_al.json",
+      "prior_review_sha256": "55724779cb85c916e4cc122c87dbb10eab3df5a92644586b98ff49ac5d3784af",
+      "evidence_shape": "dict",
+      "prior_decision": "scoped_proposition_candidates",
+      "full_read_flag": true,
+      "diagnostic": "Prior complete-read span contains this candidate, but different source IDs do not inherit proposition coverage automatically."
+    },
+    {
+      "original_selection_index": 18,
+      "candidate_source_id": "LEGACY_COMPONENT:6090a063ad73a11120b8",
+      "prior_source_id": "LEGACY_COMPONENT:fe44df4985c98db6cdbb",
+      "same_source_id": false,
+      "candidate_span": [
+        14,
+        16
+      ],
+      "prior_span": [
+        1,
+        16
+      ],
+      "path": "experiments/yolo/sidequest_semantic_two_layer_production_rule_three_hundred_forty_sixth/THREE_HUNDRED_FORTY_SIXTH_REPORT.md",
+      "prior_review": "research_registry/decisions/source_coverage_gap_batch_al.json",
+      "prior_review_sha256": "55724779cb85c916e4cc122c87dbb10eab3df5a92644586b98ff49ac5d3784af",
+      "evidence_shape": "dict",
+      "prior_decision": "scoped_proposition_candidates",
+      "full_read_flag": true,
+      "diagnostic": "Prior complete-read span contains this candidate, but different source IDs do not inherit proposition coverage automatically."
+    },
+    {
+      "original_selection_index": 16,
+      "candidate_source_id": "LEGACY_COMPONENT:805794bc31bc03bc1c3c",
+      "prior_source_id": "LEGACY_COMPONENT:0a34fabc341ed91c18f3",
+      "same_source_id": false,
+      "candidate_span": [
+        8,
+        11
+      ],
+      "prior_span": [
+        1,
+        15
+      ],
+      "path": "experiments/yolo/sidequest_semantic_visible_state_formulas_three_hundred_forty_fifth/THREE_HUNDRED_FORTY_FIFTH_REPORT.md",
+      "prior_review": "research_registry/decisions/source_coverage_scope_batch_ao.json",
+      "prior_review_sha256": "529f82483084c11494c0da1f8d14498ab627233f2f730997146750c480cc8294",
+      "evidence_shape": "dict",
+      "prior_decision": "scoped_proposition_candidates",
+      "full_read_flag": true,
+      "diagnostic": "Prior complete-read span contains this candidate, but different source IDs do not inherit proposition coverage automatically."
+    },
+    {
+      "original_selection_index": 4,
+      "candidate_source_id": "LEGACY_COMPONENT:fa9c768f0b71e626d247",
+      "prior_source_id": "LEGACY_COMPONENT:cd9d98e8dcb3d5434480",
+      "same_source_id": false,
+      "candidate_span": [
+        8,
+        11
+      ],
+      "prior_span": [
+        1,
+        16
+      ],
+      "path": "experiments/yolo/sidequest_semantic_herbal_bio_program_bridge_three_hundred_thirty_fourth/THREE_HUNDRED_THIRTY_FOURTH_REPORT.md",
+      "prior_review": "research_registry/decisions/source_coverage_scope_batch_ao.json",
+      "prior_review_sha256": "529f82483084c11494c0da1f8d14498ab627233f2f730997146750c480cc8294",
+      "evidence_shape": "dict",
+      "prior_decision": "existing_explicit_proposition_or_instance",
+      "full_read_flag": true,
+      "diagnostic": "Prior complete-read span contains this candidate, but different source IDs do not inherit proposition coverage automatically."
+    },
+    {
+      "original_selection_index": 9,
+      "candidate_source_id": "LEGACY_COMPONENT:acec52cc3249ccdd4e95",
+      "prior_source_id": "LEGACY_COMPONENT:24fd59613e34c69f9139",
+      "same_source_id": false,
+      "candidate_span": [
+        14,
+        17
+      ],
+      "prior_span": [
+        1,
+        17
+      ],
+      "path": "experiments/yolo/sidequest_semantic_full_four_hand_corpus_three_hundred_thirty_ninth/THREE_HUNDRED_THIRTY_NINTH_REPORT.md",
+      "prior_review": "research_registry/decisions/source_coverage_gap_batch_be.json",
+      "prior_review_sha256": "c1d1d9eac72026b6bb3c86baf6477760789aafd4f8f6813d678e25cfd0458e92",
+      "evidence_shape": "dict",
+      "prior_decision": "no_separate_semantic_proposition",
+      "full_read_flag": true,
+      "diagnostic": "Prior complete-read span contains this candidate, but different source IDs do not inherit proposition coverage automatically."
+    }
+  ],
+  "existing_helpers": {
+    "tracked": "tools/research_priority_coverage.py",
+    "inspection": "Its references/build code aggregates imported record paths and explicit family/catalog links. It expressly labels shared-report links navigation-only; it is not a per-source-span adjudication selector and cannot resolve this bug by itself.",
+    "current_selection_logic": "The DE and earlier CN/CW selectors are transient per-batch scripts, not one tested repository helper. CN/CW recursively gather all source IDs/overlaps and likewise need completed-versus-open separation before reuse. No transient machine path is published here."
+  },
+  "smallest_proposed_change": {
+    "artifact": "One small reusable read-only source-review receipt normalizer and bounded query helper; no new registry/schema migration or reimplementation of semantic ideas.",
+    "input": "Explicit curation JSON files and candidate source_id/path/line/end/source_hash metadata.",
+    "normalize": "Evidence dict -> singleton list; list -> dict elements; absent -> empty. Read full_block_read/full_selected_span_read/full_report_context_read as read-status aliases. Retain original JSON pointer, decision text, file hash, evidence hash and exact source ID. Do not treat cards.evidence or selection-only/excluded rows as adjudications.",
+    "decision_state": "Map known completed disposition names explicitly to assessed, scope_comparison_open and other known unresolved states to pending; unknown decisions remain needs_schema_review. Reading completion and semantic comparison completion are separate fields.",
+    "query_outputs": [
+      "exact_id_assessed: completed explicit decision for this exact source ID, with fresh source binding; avoid redoing that source decision.",
+      "exact_id_pending: prior read exists but scope comparison unfinished; resume rather than mark done.",
+      "prior_full_read_contains_span: same fresh source hash and full containment under another ID; reuse existing reading and inspect proposition-to-card coverage explicitly, without granting coverage.",
+      "partial_overlap_or_quote_only: navigation hint only; candidate remains eligible for its unreviewed content.",
+      "stale_or_unknown_receipt: preserve pointer but do not suppress selection."
+    ],
+    "default_action": "Route exact_id_assessed to an existing-decision receipt instead of repeating preparation. Put contained siblings into a fast proposition-comparison queue. Neither output is a scientific/semantic exclusion gate; retain the original assertions, open comparisons and decision provenance."
+  },
+  "decision_utility": "The next batch can skip repeated primary preparation, yet still notice an independently addressable conjunction hidden inside an already quoted report. It also resumes genuine pending comparisons rather than losing them behind a broad done set.",
+  "minimal_test_plan": {
+    "wall_time_budget_minutes": 20,
+    "preparation_minutes": 4,
+    "implementation_minutes": 7,
+    "validation_minutes": 6,
+    "review_publication_minutes": 3,
+    "tests": [
+      "Same decision/evidence represented as object or one-item list yields identical normalized receipt.",
+      "Exact source ID with completed decision is assessed; identical source ID with scope_comparison_open is pending despite full_block_read=true.",
+      "Different ID fully contained in a completed full-read span yields prior_full_read_contains_span, never exact_id_assessed.",
+      "Partial overlap, ordinary card quote, selection reservation and excluded-pointer records do not suppress a candidate.",
+      "Changed source hash returns stale; unknown decision or missing freshness metadata fails open to manual review.",
+      "Regression from these13 DE receipts:13 containment hints,0 exact-ID suppressions; existing14th Pass341 full-claim decision remains separate.",
+      "A fully quoted report whose older card omits the explicit marker-reset assertion remains a proposition-comparison task, even when its central handoff claim is addressed."
+    ],
+    "stop_condition": "If adapters require broad status inference or a new semantic database, stop expansion and implement only the known AL/AO/BE/current source_reassessments shapes. No NLP or blanket path coverage."
+  },
+  "limits": [
+    "No helper implementation, test execution or operational mutation. Two bounded source-to-claim comparisons were performed as diagnostic examples; no blanket review of all thirteen sibling propositions.",
+    "The13 spans are proven previously read/contained through audit metadata, not independently certified semantically covered here.",
+    "The current DE amendment removes14 including one separate Pass341 full-proposition comparison, not14 manifestations of the evidence-shape bug."
+  ],
+  "two_substantive_receipt_checks": [
+    {
+      "original_selection_index": 13,
+      "source_id": "LEGACY_COMPONENT:fd1c875769fb1f96fecc",
+      "counterpart_id": "CLEAN_GAP_AL:material_ladder",
+      "counterpart_claim": "Pass343 interprets its eleven run cards as a branching manufacture-and-application ladder with five editorial material roles: raw part, preparation, clear extract, measured portion and application item. The main path runs raw part → preparation → measured portion → application item, with branches yielding clear extract or a portion directly; only preparation and clear extract have same-state reworking loops, and no resulting item returns to raw material.",
+      "counterpart_file": "research_registry/decisions/clean_gap_review_al.json",
+      "counterpart_file_sha256": "a7f5566080892f12a30f863e0e5181e2fca6970e4cc29c40fba683229b50ae55",
+      "source_evidence": {
+        "path": "experiments/yolo/sidequest_semantic_material_state_ladder_three_hundred_forty_third/THREE_HUNDRED_FORTY_THIRD_REPORT.md",
+        "line": 8,
+        "line_end": 11,
+        "quote": "Die erwartete geschlossene Schleife entsteht nicht. Nur Ansatz→Ansatz und\nKlarauszug→Klarauszug sind echte Weiterbearbeitungsschleifen; kein Ergebnis kehrt\nzum Rohteil zurück. Das Werkstattmodell ist daher eine verzweigte Herstellungs-\nund Anwendungsleiter. Dafür wurde keine neue Voynich-Kartenglossa eingeführt.",
+        "sha256": "ad6be03cb421f28c12080a1da684a8a8c2fc2e9a20ff596a617b763851fc9b3f"
+      },
+      "comparison": "The selected claim explicitly rules out a closed return to raw material and retains only preparation/clear-extract self-loops. The older card states exactly these restrictions as part of the five-role ladder. This central semantic proposition is already addressable; that conclusion comes from full assertion comparison, not interval containment."
+    },
+    {
+      "original_selection_index": 19,
+      "source_id": "LEGACY_COMPONENT:3c03dbed3436b0491f42",
+      "counterpart_id": "CLEAN_GAP_AL:h3_b2_extract_handoff",
+      "counterpart_claim": "Pass347 reads the complete f11r/H3 record as making a stood or strained clear extract and f82r/B2 as taking over that same exact clear-extract card in the same q-operative hand, with the owner changing from the plant picture to the multibasin station. This is its source-local complete Herbal-to-Biological working-process reading.",
+      "counterpart_file": "research_registry/decisions/clean_gap_review_al.json",
+      "counterpart_file_sha256": "a7f5566080892f12a30f863e0e5181e2fca6970e4cc29c40fba683229b50ae55",
+      "source_evidence": {
+        "path": "experiments/yolo/sidequest_semantic_h3_b2_four_line_translation_three_hundred_forty_seventh/THREE_HUNDRED_FORTY_SEVENTH_REPORT.md",
+        "line": 1,
+        "line_end": 15,
+        "quote": "# Pass 347 — vollständige Vierzeilenübersetzung H3→B2\n\nDer gesamte f11r-Record H3 und der gesamte f82r-Record B2 sind auf 79 Ereignissen,\n26 Aussagen und 47 Mikrogängen synchronisiert: gerenderte Karten, atomare\nWortwerte, Stofffaden mit Bildbesitzer, sechsstellige Slotfolge und flüssiges\nWerkstattdeutsch. Zwölf explizite Stoffmarker unterbrechen den geerbten Faden.\n\nH3 stellt einen gestandenen/nachgeseihten Klarauszug her. B2 übernimmt dieselbe\nexakte Klarauszug-Karte in der gleichen q-operativen Hand, wechselt aber den\nBesitzer vom Pflanzenbild zur Mehrbeckenstation. Damit ist erstmals ein kompletter\nHerbal→Bio-Arbeitsgang auf allen Interpretationsebenen gleichzeitig lesbar.\n\nAls nächstes wird aus dieser Vollübersetzung ein kurzer Meister-Lehrling-Dialog\ngeschrieben: Der Meister diktiert Stoffzustand und Arbeitsziel, der Lehrling wählt\ndie Karten und erklärt jeden Mikrogang zurück.",
+        "sha256": "137eab5b711565077ae56fca10e9d4c98e4b215fe6785c2734a9cc6a8fe392eb"
+      },
+      "comparison": "The older card fully states the central same-clear-extract/same-q-hand H3→B2 owner-changing handoff. The selected whole-report block additionally states that twelve explicit material markers interrupt the inherited thread; that operational statement appears in the old evidence but not in the displayed full handoff claim. Counts/next-dialogue task need not become meanings, but the marker-reset statement must be explicitly classified or linked before claiming all assertions in this block addressed. No automatic full-block coverage is justified by the handoff card alone."
+    }
+  ]
+}

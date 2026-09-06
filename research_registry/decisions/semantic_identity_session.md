@@ -207,3 +207,19 @@ GDT685 interpretation corrected through authoritative route/DF; all bound
 historical source bytes preserved. DD source-transition method caveat integrated.
 DE/DG remain separate: previous source interval is not automatic proposition
 coverage, and open-status variants must not be silently excluded.
+
+DE–DJ integration decision: ten complete source cases, three exact scoped
+continuation identities and a small read-only receipt helper change future
+source preparation and duplicate handling. Earlier interval containment did
+not establish proposition coverage; DJ compares the twelve remaining siblings
+individually. Semantic slot and material-thread assertions remain visible in
+the semantic view; local/synthetic scope stays explicit. Budget20minutes for
+integration, validation and publication. No new experiment or broad cache
+migration. Four DI evidence-end metadata errors are corrected only in derived
+review; original proposal and primary source bytes remain unchanged.
+
+DE–DJ checkpoint:4517sourcecases,3728semantic266formalvariants;46equivalence
+groups reduce55displayvariants,35otherrelations unchanged.32scoped dossiers
+and9conditional questions validate.158repository unittest cases and9DH
+pytest regressions PASS, plus13real receipt comparisons. More source recovery
+DK/DM and scoped historical reason DL continue independently; no experiment.
