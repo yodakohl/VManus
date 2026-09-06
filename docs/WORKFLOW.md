@@ -5,6 +5,22 @@ the full history. Detailed claims stay in the active registry and primary report
 
 ## Start narrowly
 
+The whole-history working memory is now [research_registry/README.md](../research_registry/README.md).
+Start with `./vmanus-work ideas search QUERY`, `ideas duplicates QUERY`, then
+`ideas show ID`. Eight compact cards are the default; twenty is the maximum.
+Use `events`, `sources`, `relations` or `requirements` with offsets for detail.
+Do not load the registry JSONL or giant ledger into model context. Existing
+`route-check` remains the required legacy duplicate screen before experiments;
+the new search additionally covers historical keys and the idea pipeline.
+
+Distinguish imported claims, registry-only classifications and primary-source
+reviews. `search --signal capacity` is a lexical hint; `--blocker` is an assessed
+classification. `search --change new_data` finds recorded data requirements;
+`reconsider ID --change new_data --evidence PATH` displays the obligations but
+never approves a rerun or validates evidence content. More pages need not fix a
+missing comparison or meaning binding. A source correction or new event makes
+affected reviews stale. Resolve that explicitly before proceeding.
+
     ./vmanus-work lookup GDT811 GDT809
     ./vmanus-work lookup GDT734 --json
 
@@ -86,9 +102,10 @@ negative findings remain useful when they actually change a research decision.
 Explicit user request, 2026-09-06: keep an additional agent generating ideas in
 parallel and saving a list, so root does not restart ideation after each test.
 
-- One producer owns `docs/IDEA_BACKLOG.md`; root continues the current scientific
+- One producer adds new proposals with `vmanus-work ideas add`; root continues the current scientific
   task. On active turns, resume the producer with a bounded replenishment task
-  when the queue is thin. User update: maintain substantially more ideas than we
+  when the queue is thin. `docs/IDEA_BACKLOG.md` is retained as a historical import
+  source; do not grow it as the operational queue. User update: maintain substantially more ideas than we
   execute, roughly20–30 raw candidates spanning at least six mechanism families.
   This is a replenishment target, not a quota of scientific novelty. Keep a
   shortlist of about five for review; producer work must not block a current test.

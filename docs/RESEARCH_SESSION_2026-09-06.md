@@ -522,3 +522,14 @@ generic unknown-field extraction is different. No manuscript TIFF/parser run.
 Do not pursue capture logs, additional metadata or weak-trace interpretation.
 No new executable decipherment experiment is presently selected; candidate
 mechanisms still require a motivated source-bound contrast and transfer test.
+
+User requested consolidation of the entire meaning-investigation history into
+a scalable working memory: duplicate checks, failure distinctions and changed-data
+reconsideration without context overload. Implemented offline JSONL+SQLite FTS5,
+metadata-only five-source import, bounded cards/paged details, explicit review
+levels and append-only decisions. All59families and11anchor families classified
+at their stated evidence level; initial86assessments include10primary reviews,
+8proposal reviews and68inherited summaries. No automatic semantic merging.
+Independent metadata audit retains every surviving ledger event. Synthetic
+10000records/100000events benchmark and targeted lifecycle/freshness tests pass.
+This is infrastructure progress, not a new translation or reopened scientific test.

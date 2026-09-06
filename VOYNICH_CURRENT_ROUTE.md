@@ -48,10 +48,8 @@ GPU/subagents authorized; no other LLM API keys. No public decipherment-approach
 searches: the user says these are exhausted. Understand project history and
 manuscript appearance before fixing a route; use primary internal evidence.
 
-## Preserved star observations — GDT841–843
-
-Yale1006201: inner4/5agreement,outer9/10,O6disagrees.843:9links,1missing.
-841–843 stopped; no ownership/meaning or regrading. Primary via lookup.
+841–843 stopped: visual star observations retained in primary reports via lookup.
+No ownership/meaning or regrading.
 
 ## Earlier screens and control
 
@@ -116,8 +114,10 @@ Understanding dossier: `docs/VOYNICH_UNDERSTANDING.md`;
 
 ## Continuity and publication
 
-Use `./vmanus-work lookup ID` and only needed primary reports. Before a new route,
-run `./vmanus-exp route-check QUERY`; lexical ranking is navigation, not validation.
+Memory: `research_registry/README.md`; `vmanus-work ideas search QUERY`.
+Use ideas duplicates/show/reconsider;8cards default,20max. Never load whole JSONL.
+Imported claims unreviewed; new data does not itself reopen tests.
+Use lookup ID for primaries; retain vmanus-exp route-check before new routes.
 Keep GDT001–336 byte-frozen; GDT336 is only a weak placement prior. GDT337+ require
 scaffold/manifests; GDT394+ explicitly seal f84/f84r. New relation packets require
 `check-edge-packet` capacity/provenance/held/mobile-null gates before scoring.

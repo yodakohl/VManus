@@ -1,0 +1,23 @@
+{
+  "scope": "Known limitations of the initial whole-history metadata consolidation",
+  "gaps": [
+    {
+      "id": "PRE_RESET_COMPACTION",
+      "reported_original_ledger_entries": 105,
+      "status": "COMPACTED_HISTORY_NOT_RECONSTRUCTED_AS_105_INDIVIDUAL_RECORDS",
+      "evidence": "experiments/semantic_assumptions/results/semantic_reset_20260806_report.md",
+      "detail": "The reset report describes the original bulk and its later removal. Curated primary evidence and compact route histories remain; this importer preserves those registry references without claiming restoration of removed original decisions."
+    },
+    {
+      "id": "INDEX_GDT256",
+      "status": "ABSENT_FROM_IMPORTED_INDEX",
+      "evidence": "experiments/EXPERIMENT_INDEX.tsv",
+      "detail": "The initial index has 870 entries spanning GDT001 through GDT871, with GDT256 absent. No experiment record or explanation is fabricated."
+    },
+    {
+      "id": "SEMANTIC_IDENTITY_BACKFILL",
+      "status": "REVIEW_REQUIRED",
+      "detail": "Five-source metadata preservation is complete. Independent meaning-hypothesis identity, links between renamed variants and adjudication of superseded findings are not inferred automatically. Unreviewed records remain searchable and are reconciled when relevant."
+    }
+  ]
+}

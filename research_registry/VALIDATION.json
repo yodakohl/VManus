@@ -1,0 +1,77 @@
+{
+  "anchor_rows_exact": 11,
+  "assessment_coverage": {
+    "anchor_families_classified": 11,
+    "families_classified": 59,
+    "primary_reports": 10,
+    "proposal_only": 8,
+    "records": 86,
+    "registry_summary_only": 68
+  },
+  "family_rows_exact": 59,
+  "global_audit": {
+    "command": "./vmanus-exp check --all",
+    "detail": "Seven unrelated unfinished GDT600 binding failures and the historical TSV index freshness failure remain.",
+    "errors": 8,
+    "status": "FAIL_PRE_EXISTING"
+  },
+  "idea_ids_and_mention_lines_exact": 82,
+  "imported_records": 5056,
+  "importer_invoked": false,
+  "index_rows_exact": 870,
+  "kinds": {
+    "anchor": 11,
+    "attempt": 870,
+    "family": 59,
+    "history": 4034,
+    "idea": 82
+  },
+  "ledger_events_exact": 4108,
+  "ledger_fields": [
+    "date",
+    "status",
+    "summary",
+    "limitations",
+    "evidence",
+    "source_row"
+  ],
+  "limitation": "Metadata preservation only; imported statuses and prose are not adjudicated scientific findings.",
+  "limitations": [
+    "Original 105 pre-reset ledger entries were compacted before this import.",
+    "No deduplicated total of independent semantic hypotheses is claimed.",
+    "Reconsideration matches change categories, never the truth of evidence or scientific gate passage."
+  ],
+  "manuscript_data_opened": false,
+  "registry_check": {
+    "coverage": "schema, identities, relation consistency, source/review freshness; not semantic truth",
+    "errors": [],
+    "records": 5056,
+    "status": "PASS"
+  },
+  "report_bodies_opened": false,
+  "repository_unit_tests": {
+    "command": "python3 -m unittest discover -s tests",
+    "count": 96,
+    "status": "PASS"
+  },
+  "review_revisions": 87,
+  "source_files": 5,
+  "source_hashes_match": true,
+  "status": "PASS",
+  "synthetic_benchmark": {
+    "build_seconds": 2.298428,
+    "events": 100000,
+    "measurement": "Single local wall-clock run; includes freshness checks; not a hardware-independent speed guarantee.",
+    "query_seconds": 0.202064,
+    "records": 10000,
+    "returned_cards": 8,
+    "search_canonical_characters": 4012,
+    "show_canonical_characters": 3245,
+    "write_seconds": 0.680133
+  },
+  "synthetic_tests": {
+    "command": "python3 -m unittest tests.test_research_registry tests.test_research_registry_import tests.test_research_registry_lifecycle",
+    "count": 36,
+    "status": "PASS"
+  }
+}

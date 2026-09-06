@@ -6,6 +6,16 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### Consolidated research memory (2026-09-06; workflow, not decipherment)
+
+`research_registry/README.md` is the operational entry point for bounded search,
+duplicate candidates, historical events, explicit failure classes and changed-input
+review. The five surviving metadata sources are imported without semantic merges.
+Primary-source assessments are distinct from inherited summaries and unreviewed
+proposals; missing archive material stays explicit. Existing scientific claims,
+sealed/admission gates and user stops are unchanged. Use `vmanus-work ideas`
+instead of loading the full historical ledger or idea backlog into context.
+
 ### GDT866 f95v2 upper link without intervening group (2026-09-06)
 
 Primary: `experiments/yolo/gdt866_f95v2_upper_span_topology/REPORT.md`.

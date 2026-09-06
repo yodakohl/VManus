@@ -1,8 +1,9 @@
 # Workspace continuity instructions
 
 Before any Voynich action, read `VOYNICH_CURRENT_ROUTE.md`, then use
-`experiments/EXPERIMENT_INDEX.tsv` to locate only the primary reports needed for
-the active experiment. The current-route file is the compact authoritative
+`./vmanus-work ideas search QUERY` and `ideas show ID` for bounded research-memory
+cards; use `lookup GDTNNN` for primary experiment pointers. Never dump the JSONL
+registry or full history into context. The current-route file is the compact authoritative
 routing snapshot. `VOYNICH_ACTIVE_STATE.md` and
 `experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv` remain the full
 claim registry and append-only material history; read targeted rows or sections
@@ -19,13 +20,23 @@ outside hash-bound legacy tools so past experiments remain reproducible.
 - Use subagents only when the user explicitly authorizes them; preserve task
   independence where blinding is part of an experiment.
 - The user explicitly requests a pipelined idea producer during active research.
-  Keep one bounded subagent maintaining `docs/IDEA_BACKLOG.md` while root tests
+  Keep one bounded subagent adding proposals through `vmanus-work ideas add` while root tests
   the current candidate; do not wait for each test to finish before replenishing.
   Maintain a surplus of diverse raw ideas (rough target20–30), then shortlist
   for evidence/novelty review; do not require every raw idea to pass review before
   retaining it. Mark unreviewed ideas explicitly; route-check and primary-source
   checks remain required before experimental selection. Preserve ownership and
   blinding; this is not unattended between-turn execution.
+- The consolidated working memory is `research_registry/README.md`. Search is
+  limited to eight cards by default; use paged details. Check candidate duplicates
+  with `ideas duplicates`; assess changed inputs with `ideas reconsider`.
+  Imported history and lexical signals are not reviewed scientific conclusions.
+  Keep failure, missing data, invalid test and missing meaning binding distinct.
+  A matching change type or existing evidence file never proves reopening gates.
+  Keep assessed decisions append-only with `ideas review`; do not erase failures
+  or silently merge related ideas. After a material legacy ledger update, refresh
+  the metadata snapshot once and check it. Old backlog prose is an import source,
+  not the growing operational queue. Preserve all legacy source bytes.
 - Publish every material finding promptly to the public GitHub repository,
   together with the experiment source, preregistration, validator, and compact
   result artifacts needed to reproduce it. Direct pushes to `main` are
