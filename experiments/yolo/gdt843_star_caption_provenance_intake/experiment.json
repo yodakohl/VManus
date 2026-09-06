@@ -1,0 +1,121 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Legacy crop/source linkage only; no authorial ownership, semantic edge or label prediction.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt843_star_caption_provenance_intake/src/run.py",
+    "validate": "python3 experiments/yolo/gdt843_star_caption_provenance_intake/src/validate.py"
+  },
+  "created": "2026-09-06",
+  "dependencies": [
+    "GDT799",
+    "GDT829",
+    "GDT842"
+  ],
+  "experiment_id": "GDT843",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt842_star_outer_ring_extension/src/SPEC.json",
+      "role": "frozen_source_or_extractor",
+      "sha256": "2a7a38b0ac2bacdf0cd44b52796a400b494951ee201c983f9b0318e86245109c"
+    },
+    {
+      "path": "experiments/yolo/gdt842_star_outer_ring_extension/artifacts/RESULT.json",
+      "role": "frozen_source_or_extractor",
+      "sha256": "2ae1df554c0ba96fec2a6d1cae481b814fb6e97ec483362c940fc7cc4560f16f"
+    },
+    {
+      "path": "experiments/yolo/gdt799_f70_f71_f72_homolog_clothing_transition/src/BLIND_CROP_KEY.tsv",
+      "role": "frozen_source_or_extractor",
+      "sha256": "8b78cf3077788ac0b0d169cc010d57585ff93dd52ce516e6ceba2f3af42c6921"
+    },
+    {
+      "path": "experiments/yolo/gdt799_f70_f71_f72_homolog_clothing_transition/src/SOURCE_LOCK.tsv",
+      "role": "frozen_source_or_extractor",
+      "sha256": "59b552b3454b80b17c4613e8e6115fb9a9618b14f06617a2913a94a999ec9394"
+    },
+    {
+      "path": "experiments/yolo/gdt829_repeated_passage_reflow_capacity/src/run.py",
+      "role": "frozen_source_or_extractor",
+      "sha256": "49313d7787d74099f7ff8983e379acab091b7d464ce3156b767072a515c5516b"
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "role": "frozen_source_or_extractor",
+      "sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt843_star_caption_provenance_intake/.gitignore",
+      "role": "source_or_artifact",
+      "sha256": "9b9dc66af90f9ff99fa79101a6e3eb357e4d8b53cafcf51e9a8d2e2e32ca7dbb"
+    },
+    {
+      "path": "experiments/yolo/gdt843_star_caption_provenance_intake/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "e8a62ed7b3df6472474b5e78c57d1606f405fe476773dd050c15a0251f8d8602"
+    },
+    {
+      "path": "experiments/yolo/gdt843_star_caption_provenance_intake/PREREGISTRATION.md",
+      "role": "source_or_artifact",
+      "sha256": "b8b2c5b3aa0be8fc4e6d453e1373fcd84967ca7703441bff33346f3dd2dc7c40"
+    },
+    {
+      "path": "experiments/yolo/gdt843_star_caption_provenance_intake/README.md",
+      "role": "source_or_artifact",
+      "sha256": "78ef7394942e238e7574aafcba5abcd802e061480e5f3306f6691c5001225242"
+    },
+    {
+      "path": "experiments/yolo/gdt843_star_caption_provenance_intake/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt843_star_caption_provenance_intake/src/GDT388_EMPTY_EDGE_PACKET.tsv",
+      "role": "source_or_artifact",
+      "sha256": "701ba6dd741d874545f20defddf8570bf8c0f4e7d9aa5ddefd316ca1ca84573c"
+    },
+    {
+      "path": "experiments/yolo/gdt843_star_caption_provenance_intake/src/PREREG_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "dc79fa1af9b58452052cad430c6b0bcd3acb591dec428d0537779aa198a49be2"
+    },
+    {
+      "path": "experiments/yolo/gdt843_star_caption_provenance_intake/src/SPEC.json",
+      "role": "source_or_artifact",
+      "sha256": "d5f07cd2c2db2db11b6db3eeb72a21a56ed4e5874e4fb6a9072ec1fe2c751cdb"
+    },
+    {
+      "path": "experiments/yolo/gdt843_star_caption_provenance_intake/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "d932011015ac0e5d51f9a6d89a37a7a830ec773d341ebe0841af17aef7efe577"
+    },
+    {
+      "path": "experiments/yolo/gdt843_star_caption_provenance_intake/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "4fd66a05827d0a3c4418a5041e91b3a31228eaa138792c8799f415bbaa630bd8"
+    },
+    {
+      "path": "experiments/yolo/gdt843_star_caption_provenance_intake/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "590c81a45667dda98d5357888a10fcdcf25b26b6bbd9e39cebc08134d73f60d3"
+    }
+  ],
+  "question": "Which fixed star centres have unique legacy crop links to preserved raw caption records?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "star_caption_provenance_intake",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Star-caption source provenance intake",
+  "updated": "2026-09-06",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}
