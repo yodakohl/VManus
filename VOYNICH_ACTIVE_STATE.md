@@ -23088,3 +23088,17 @@ this strict comparator, not evidence that spacing lacks contextual information.
 Do not relax matching, change the fold split or tune a predictor after this stop.
 Source851cache,179selectors; no images or alternate-reading pooling.
 Primary: experiments/yolo/gdt853_spacing_context_transfer/REPORT.md.
+
+## GDT854 one-e cross-kernel source capacity, 2026-09-06
+
+CAPACITY_STOP_NO_MODEL_OR_NULL.146eligible exact events form108cells;
+14cells contain both e placements. CKH has matched local source contrasts
+on9physicalfolios (f76/f79/f80/f82/f83/f103/f108/f111/f113), whereasCTH
+has onlyf83r shcthey11#5 versus shecthy15#3. CKH placement therefore is
+not determined solely by the registered folio/selector/kind/section/hand/
+prefix/kernel/line-half fields. This is a new conditional source observation
+beyond849global counts, not a native glyph or meaning finding.
+The registered cross-kernel transfer lacks CTH training/evaluation capacity;
+no weights,AUC,null orpcomputed. Do not replace it with a within-kernel fit
+or relax cells after this stop. Equal inventory/length is literal raw ASCII.
+Primary: experiments/yolo/gdt854_e_placement_cross_kernel_transfer/REPORT.md.

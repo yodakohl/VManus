@@ -1147,3 +1147,12 @@ proposal's unspecified baseline/model suite. No within-family rival model is
 fit, so failure cannot prefer learned wholes over conventional placement.
 Exact protocol: experiments/yolo/gdt854_e_placement_cross_kernel_transfer/METHOD.md.
 Budget25min including publication, starting05:14UTC. No source loaded yet.
+
+### IP048 result: GDT854 capacity stop
+
+COMPLETED_CAPACITY_STOP.146eligible events; CKH has both placements in
+matched local cells on9physicalfolios, CTH onlyf83. No shared context model
+or null was run. The CKH observation rejects a deterministic rule based only
+on those source-cell fields, not contextual allography or meanings. No
+within-kernel replacement fit or relaxed matching follows. Fullsourceanchors:
+experiments/yolo/gdt854_e_placement_cross_kernel_transfer/REPORT.md.

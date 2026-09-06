@@ -76,3 +76,12 @@ Budget25min including publication from05:14UTC; no new image/LMtarget access.
 RBR002 already closes the apparent RBR001 successor. LM002 extension needs
 new data outside60previously graded physical folios, not merely outside44.
 Those triage results and IP012s low priority are recorded in the idea backlog.
+
+05:25UTC checkpoint, about1h44elapsed: GDT854 closes its fixed cross-kernel
+test for insufficient CTH capacity, before models/nulls. New conditional
+source observation: both one-e placements occur within matched source cells
+on9CKHfolios; CTH supplies onlyf83. No cell-only placement rule forCKH, but
+no transferable context or meaning established. About12min from05:14decision
+through publication, under25min. Two recent capacity stops argue against
+more rare-form crossed-cell fits without a concrete supporting contrast.
+Ten-hour goal remains ACTIVE, at least8h15stillto deadline.

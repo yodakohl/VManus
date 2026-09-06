@@ -18,10 +18,11 @@ at f75v.44 groups7–8 vs11. Qualitative contrast, not authorial word boundaries
 or meaning. GDT853 stops before context scoring:25W qualify in discovery,
 but zero held pairs satisfy fixed selector/kind/section/hand/start-index
 matching.32127eligible spans; no predictor executed. No information-loss
-answer or automatic looser pairing. GDT854 in preparation: the eight one-e
-forms from849 preserve letter counts/length while moving e across cth/ckh.
-Test shared raw-neighbor direction across kernels with whole-folio exclusion;
-folio-polarity null, fixed capacity, no meanings. IP012 assembly deferred:
+answer or automatic looser pairing. GDT854:146events,14mixed sourcecells;
+CKH has both one-e positions within fixed sourcecells on9folios, CTH onlyf83.
+No page/cell-only placement rule forCKH; cross-kernel capacity fails, no model
+or null executed. Raw character counts/length equal, not physical glyphs or
+meaning. No within-kernel rescue. IP012 assembly deferred:
 no empirically motivated remodeling rival.40idea sketches remain available.
 
 GDT845–849 primary reports via lookup: paired prefix evidence remains sparse;

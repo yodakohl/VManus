@@ -1,3 +1,3 @@
 # GDT854 — e-placement cross-kernel transfer
 
-Awaiting registration and GO. See METHOD.md.
+Completed: capacity stop before model or null. See REPORT.md and METHOD.md.
