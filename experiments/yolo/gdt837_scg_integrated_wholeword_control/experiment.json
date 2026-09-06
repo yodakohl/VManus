@@ -1,0 +1,267 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Known mandatory-W synthetic architecture on historical source sentences with supplied boundaries and nominal26L4S8W counts; three keys share one split; no full suffix inverse, optional abbreviation rule or Voynich reading.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt837_scg_integrated_wholeword_control/src/run.py --fit",
+    "validate": "python3 experiments/yolo/gdt837_scg_integrated_wholeword_control/src/validate.py --source-only --check"
+  },
+  "created": "2026-09-06",
+  "dependencies": [
+    "GDT832",
+    "GDT833",
+    "GDT834",
+    "GDT836"
+  ],
+  "experiment_id": "GDT837",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/src/prepare.py",
+      "role": "frozen_upstream_source_or_resource",
+      "sha256": "a8ca27308ab3f1fbeda1eef756c71081b602020b8b59350ba8661efd79536b77"
+    },
+    {
+      "path": "experiments/yolo/gdt832_joint_family_context_control/src/reference_model.py",
+      "role": "frozen_upstream_source_or_resource",
+      "sha256": "8b91713a350a30dcb824334ebe7cb4407afeeaddbb9fc1bdb4129786a9d873b2"
+    },
+    {
+      "path": "experiments/yolo/gdt833_reference_orthography_intervention/src/prepare.py",
+      "role": "frozen_upstream_source_or_resource",
+      "sha256": "6360504e06bdf13a67177b3071db1ca1421184105e702d8ef0017dda5d8c5494"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/prepared/candidates.json",
+      "role": "frozen_upstream_source_or_resource",
+      "sha256": "66d920e39056d6136a92c8a4509bb0d24c0d9ca9c1e01fdb9794d2f3ce663e86"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/prepared/families.json",
+      "role": "frozen_upstream_source_or_resource",
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/prepared/reference.jsonl",
+      "role": "frozen_upstream_source_or_resource",
+      "sha256": "dc9c57b32779b4be64911c042d8ad468f090ebbebcd9686d71a7ba422263b3e1"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/prepared/reference_ids.json",
+      "role": "frozen_upstream_source_or_resource",
+      "sha256": "b759b59a92bde4e56efc83db8b702eb37a835abecf57f18a37a92ca097010526"
+    },
+    {
+      "path": "experiments/yolo/gdt834_role_blind_mixed_control/src/prepare.py",
+      "role": "frozen_upstream_source_or_resource",
+      "sha256": "ae3e39cb3e39636833eaed60191181e0c01d3a443e8d634c277b1d542076ac0a"
+    },
+    {
+      "path": "experiments/yolo/gdt836_integrated_wholeword_precedence/src/ENCODER_SPEC.json",
+      "role": "frozen_upstream_source_or_resource",
+      "sha256": "c44a39e840ce9270a6df55657dbd72aba57ec934124609002c1c556e3d26d3d1"
+    },
+    {
+      "path": "experiments/yolo/gdt836_integrated_wholeword_precedence/src/decoder.cpp",
+      "role": "frozen_upstream_source_or_resource",
+      "sha256": "9ae61743736329227e90cf270cc45d92c3a70ad2a960039d4e2d2edd7806574c"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/.gitignore",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "9b9dc66af90f9ff99fa79101a6e3eb357e4d8b53cafcf51e9a8d2e2e32ca7dbb"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/METHOD.md",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "7c2d1e7422c0cfc2194f5b4157c0eba89215e6c166271b69551c0dde10c50e3a"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/PREREGISTRATION.md",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "01848375524cef8c833ff44d6ff2ebe581c4494cb2f5951330b71fa06c257b06"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/README.md",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "eb8d48f86f0844ebde37cc47ddc5db38374ab0ff2caa5e3d492234caca0d3cf1"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/REPORT.md",
+      "role": "primary_report",
+      "sha256": "cb48674e5480c89a13760a4e2879087fbe9e7cece5110d702a189284b95d1c51"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/REPRODUCE.md",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "9273b37c152a7390001622bf8ba158d912030aaaf5742bf4c7ca63e5c9499469"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/README.md",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "01a4c85a794b45b987e06734c625679809f6544c6ff5f3d10836527515ec6654"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/SOURCE_VALIDATION.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "7b12fcdb371c56fdf66de4765e855875e5e6ba36b81fa80b234cb616775e4a53"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/TESTS.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "5fcb802277c6aaad2a8fe274f618df10fb241264a4fe324d974c5a1a1fef533e"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/prepared/CAPACITY.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "b1b22b40bbe673d5cf38fba03de4d91b1c6857c8fd65a961f586371fa528932a"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/prepared/GENERATION.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "926ff5d8962c247697bf26fce650d9584492ccf623ee30338a36e4b3a968e624"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/prepared/INITIAL_CAPACITY.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "a2df568ffe0eeecfad8e39e91432ac7a3db5289871ebd61a283d49c84a7cde31"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/prepared/UNITS.json.gz",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "b2b529113b4eb6ec182c863140e10419cefbd54ed3421ed95047dfc7e04f6f60"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/prepared/candidates.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "66d920e39056d6136a92c8a4509bb0d24c0d9ca9c1e01fdb9794d2f3ce663e86"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/prepared/families.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/prepared/inventory.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "63e6a4b9d06c9366c619aa71cf83967b71a672514628b3e0fdb8d01f2e7e9c88"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/prepared/reference.jsonl",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "dc9c57b32779b4be64911c042d8ad468f090ebbebcd9686d71a7ba422263b3e1"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/prepared/reference_ids.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "b759b59a92bde4e56efc83db8b702eb37a835abecf57f18a37a92ca097010526"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/prepared/world_83701_discovery.json.gz",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "13606af149ff1dde79fe4122f174223546c01939bb05a32ba6bb35090cd0b39a"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/prepared/world_83701_held.json.gz",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "c1c0febe7bab429a434486891c01bd10e0c9abf30fc66accf8e3a958dc927fde"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/prepared/world_83702_discovery.json.gz",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "ff410953d8ddc248a7d18b5e305916f4611561058bf1c6f743bed6db6ad10d04"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/prepared/world_83702_held.json.gz",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "1ace21419300234422abadfdb10f1d67c63b0980cd255cba16303b411565d265"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/prepared/world_83703_discovery.json.gz",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "443dd1eed607f06fc83ab70d1982fc752c27e5714fa965269eea8618712c16eb"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/prepared/world_83703_held.json.gz",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "ade93c0f967a1cf13daa2ddb56e59719240147b03af7e4dda6094fc857588fa2"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/sources/LICENSE.txt",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "3e07ac7ee7b02daa2a88e8bb1e825d6a580aababe1a7084c40cd0664d6231fb0"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/sources/MANIFEST.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "b94b670ec7541f69b8e52e9c3e9afbf557860947223c4a18542af944b3be016b"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/sources/README.md",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "379c2db2b78a932b6e41ec3314ef5694e4e9f83bbea5e8a0c124bca66f7934c3"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/src/ENCODER_SPEC.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "c65f4be132c8d273d97cfc568fd080bf8c33cc60f19da6dc453fba74a2e2e46b"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/src/PREREG_LOCK.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "4abc3a794f2d070f2560f8d0319f7043de670f32d2488cc886eb05b12f365d8b"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/src/SPEC.json",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "34ff4f5ec08544605379c7bb506b59eb01fe3c8d83cc7115eaf5d91f3e53cb14"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/src/bind_manifest.py",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "b274578802afbe57da1e8132e275717a8d336ea055c6a144233bbbf33c8bb717"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/src/evaluate.py",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "e2e8b879b0b1b62709a9a954a71da01ff5e8efa44d56b835532300a2fe829ec6"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/src/prepare.py",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "6ba6b51450a897a179eabe685ca04c453a24739648597a807e82b07d9153b304"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/src/run.py",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "63f2ae90916cb5237fd9064bb8268d365e270da340e59210f2267a108d96dd15"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/src/test_pipeline.py",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "57bc157091ab80cff6eeefdd22eb34308cec1d563f609023b78f71fe0e8f7e65"
+    },
+    {
+      "path": "experiments/yolo/gdt837_scg_integrated_wholeword_control/src/validate.py",
+      "role": "reproducible_source_or_artifact",
+      "sha256": "035d21ea030c45e4e94684a48b4f293785a8890657201bb4cdb526c49df67171"
+    }
+  ],
+  "question": "Does unchanged integrated mandatory wholeword precedence recover a new SCG ciphertext control and improve held recovery over the paired relaxed search?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "scg_integrated_wholeword_control",
+  "status": "REGISTERED_UNSCORED",
+  "title": "SCG paired integrated mandatory wholeword control",
+  "updated": "2026-09-06",
+  "validation": {
+    "artifact": "experiments/yolo/gdt837_scg_integrated_wholeword_control/artifacts/SOURCE_VALIDATION.json",
+    "status": "PASS"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schema": "GDT837_SCG_INTEGRATED_CONTROL_V1",
+  "world_ids": [83701, 83702, 83703],
+  "arms": ["RELAXED", "STRICT"],
+  "starts": [0, 1, 2, 3, 4, 5, 6, 7],
+  "source_units": "Verified source sentences; SCG complete BooksI-II discovery / III-IV held in canonical ittb-scg-s1..s23687 order",
+  "source_freshness": "New ciphertext recovery control on corpus previously used as GDT832 reference; current frozen native Monarchia model is independent of this control",
+  "engine": "Byte-unchanged GDT836 C++ implementation; proper GDT832 OFF language objective",
+  "optimizer": {
+    "annealing_steps": 60000,
+    "polish_sweeps": 4,
+    "max_workers": 24,
+    "search_seed_formula": "837000000 + 100*world_id + start",
+    "initialization_seed_formula": "837500000 + 100*world_id + start",
+    "initialization_cap": 1000,
+    "initialization": "Both arms share the first strict-compatible candidate and exact attempt count; invalid candidates never scored or saved as best; search RNG separately reset",
+    "selection": "Maximum discovery objective among eight starts; ties lowest start",
+    "initialization_failure": "Record all scheduled outcomes and INITIALIZATION_STOP, without selections or truth evaluation; no cap extension or fallback"
+  },
+  "overall_recovery": {
+    "minimum_word_accuracy_each_key": 0.95,
+    "minimum_character_accuracy_each_key": 0.99,
+    "minimum_novel_form_accuracy_each_key": 0.90,
+    "minimum_novel_lemma_accuracy_each_key": 0.90
+  },
+  "key_recovery": "Every identifiable observed role and output exact, using common GDT834 same-emission identifiability rules in both arms; unused slots excluded",
+  "strict_compatibility": "Zero mandatory-W violations on discovery and held, using candidate-own complete W dictionary including inactive entries",
+  "constraint_gain": {"minimum_mean_held_word_gain":0.01,"minimum_each_key_held_word_gain":0.0},
+  "decision_order": ["SOURCE_CAPACITY_STOP","INITIALIZATION_STOP","STRICT_RECOVERY_FAIL","FRESH_RECOVERY_PASS_NO_DEMONSTRATED_CONSTRAINT_GAIN","FRESH_RECOVERY_PASS_WITH_CONSTRAINT_GAIN"],
+  "decision_policy": "STRICT recovery and paired benefit are separate claims; RELAXED failure never blocks a STRICT pass. Benefit requires STRICT passing all criteria, mean held word gain>=1pp, and no negative per-key gain",
+  "evaluation": {
+    "gold": "Exact original normalized source spelling, without u/v collapse or repair",
+    "character_metric": "1 - summed wordwise edit distance / summed max paired lengths; known spaces excluded",
+    "novelty": "Against discovery plaintext; composed forms and unambiguous novel composed lemma occurrences",
+    "secondary": "Exact source sentences; active role/output accuracy; true-key objective; rejected proposal counts",
+    "replicates": "Three keys share one text split; no independent-corpus or population claim"
+  },
+  "blinding": "All48restarts and six discovery selections locked before confirmation truth/held recovery. Initial paired compatibility checked without gold",
+  "claim_ceiling": "Known fixed mandatory-W architecture, supplied atomic/word/sentence boundaries and nominal26L4S8W counts. No full suffix inverse, optional abbreviation rule or Voynich reading",
+  "sealed_data": {"f84":"FORBIDDEN","f84r":"FORBIDDEN"}
+}

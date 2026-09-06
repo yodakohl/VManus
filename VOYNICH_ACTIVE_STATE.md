@@ -6,6 +6,21 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+
+### GDT837 SCG control registered, recovery unscored (2026-09-06)
+
+Primary report: `experiments/yolo/gdt837_scg_integrated_wholeword_control/REPORT.md`.
+Fixed SCG Books I–II / III–IV capacity passes: 9859 / 13828 source sentences,
+129120 / 192991 words, all 22 active L, 4 S and 8 W rules supported in discovery;
+20871 held novel composed form occurrences and 8254 novel lemma occurrences.
+Independent 322111-word source replay passes. SCG is new as a ciphertext control;
+ITTB train was a GDT832 reference. Native Monarchia and u/v spellings remain
+unchanged. Registered GDT836 engine, RELAXED/STRICT, three keys, eight paired
+starts, 48 fits and six discovery winners locked before held/truth. STRICT
+recovery and mean gain of at least 1 pp without loss on any key are separate
+decisions. Supplied sentence/word/atom boundaries and nominal 26 L / 4 S / 8 W
+counts limit the claim. No Voynich fit or Questio repair; GDT616/CDA001 stay closed.
+
 ### GDT836 engine integrated; fixed fresh source stops (2026-09-06)
 
 ScientificSOURCE_CAPACITY_STOP. Questio1–44/45–88 fixedbeforecounts has44/44runs,

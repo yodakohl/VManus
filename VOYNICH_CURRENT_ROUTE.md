@@ -3,9 +3,10 @@ Updated: 2026-09-06. Read first.
 
 ## Current mandate
 
-Latest request (2026-09-06): continue after GDT835. GDT836 integrates mandatory
-W priority and passes9invented-fixture tests. The fixedfreshQuestio source
-stops beforekeys/fits: twoheld-active literalrules havezero discoverysupport.
+Latest request (2026-09-06): continue. GDT837 is the fixed SCG Books I–II /
+III–IV control for the unchanged GDT836 mandatory-W engine. Source capacity
+passes; the paired RELAXED/STRICT comparison is registered before real fits.
+All 48 restarts and six discovery selections must lock before held recovery.
 No manuscript fit is selected. Root's personal whole-page orientation remains
 completed; subagents help with source metadata, root interprets images.
 
@@ -38,7 +39,23 @@ keys across whole-plant, figure/becken, circular, small-object and text-heavy
 layouts. Source logistics alone were delegated. The observational dossier is
 `docs/visual_overview/README.md`; exact viewed images: `docs/visual_overview/SOURCES.json`.
 No new experimental or semantic claim, no new page admission. User's required
-visual understanding remains part of future work; no experiment executed; see the new proposed candidate below.
+visual understanding remains part of future work; no experiment executed; see the active control below.
+
+## Active control — GDT837 registered, recovery unscored
+
+`experiments/yolo/gdt837_scg_integrated_wholeword_control/REPORT.md`.
+SCG fixed Books I–II discovery / III–IV held, canonical source-sentence order:
+9859 / 13828 units, 129120 / 192991 words. SOURCE_CAPACITY_PASS: all 22 active L,
+4 S and 8 W rules supported in discovery; 20871 held novel composed form
+occurrences and 8254 novel lemma occurrences. Independent 322111-word source
+replay passes. SCG is new as a ciphertext control; ITTB train was already a
+GDT832 reference. Native Monarchia remains frozen; original u/v spelling is
+retained. Units are supplied annotated source sentences, not historical paragraphs.
+Same opaque packets and paired compatible initializations, unchanged GDT836
+engine, 48 fits and 6 discovery selections. STRICT recovery and at least 1 pp
+mean paired benefit are separate predeclared claims. Next: run registered panel,
+lock all outcomes, then evaluate and independently replay. No retuning or failed
+Questio repair; GDT616/CDA001 remain closed.
 
 ## Completed implementation — GDT836; historical source capacity stop
 
@@ -133,7 +150,7 @@ Use the existing research record for manuscript description, material and
 scribal studies and transcription limitations. Keep established findings
 distinct from proposed explanations. No further search for public approaches.
 Do not prefer a cipher, language, semantic glossary or nonlinguistic account
-without evidence. GDT831 is completed; no further fit is selected and no new
+without evidence. GDT831 is completed; only the registered historical control is selected; no new
 manuscript page admissions are made.
 
 `docs/RESEARCH_RESET.md` records the earlier premature proposal; it is not the
