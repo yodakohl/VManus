@@ -6,6 +6,16 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### GDT840 witnessed do label/prose discovery (2026-09-06)
+
+Primary: `experiments/yolo/gdt840_do_label_prose_discovery/REPORT.md`.
+Public41239f95 before source query;179 admitted selectors. Only known ofal
+forward Xdo-label/X-prose; sh is reverse, with f66r border signs not names.
+All three alternate readers agree; six cards/50source records, no new forward
+base. NO_ADDITIONAL_FORWARD_BASE; independent cards and source replay pass.
+Stop this do generalization without claiming morphology or rejecting the local
+ofaldo/ofal relation. No held, admission or new dictionary value.
+
 ### GDT839 exact boundary conservation (2026-09-06)
 
 Primary: `experiments/yolo/gdt839_boundary_conservation_screen/REPORT.md`.

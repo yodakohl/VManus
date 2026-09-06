@@ -3,19 +3,27 @@ Updated: 2026-09-06. Read first.
 
 ## Current mandate and effort limit
 
-Latest request: identify time loss, work faster and seek positive evidence.
-GDT839 spent7m13s of8m33s before extraction; computation was seconds.
-Use one existing manuscript example immediately, one parallel novelty reviewer,
-one protocol and compact outputs. Target first observation2min/whole pass5min.
-Discovery and confirmation stay distinct; no forced positive or relaxed gates.
-GDT811 ofaldo/ofal remains unidentified; no experiment selected.
-No automatic decoder repair/new corpus. Details: `docs/WORKFLOW.md` and `AGENTS.md`.
+Latest request: continue from the witnessed ofaldo/ofal lead.
+GDT840 finds no additional Xdo-label / X-prose base in179 admitted selectors;
+all three readers agree. Reverse sh/shdo is not a comparable naming rule.
+Stop this exact do generalization; the local ofaldo/ofal relation stays unknown.
+Target first observation2min/whole pass5min; no decoder repair/new corpus.
+Workflow: `docs/WORKFLOW.md`. No next experiment selected.
 
 Goal: transferable translation. Confirmed English lexemes: **0**;
 confirmed German lexemes/clauses: **0**. No new fit or page admission selected.
 GPU/subagents authorized; no other LLM API keys. No public decipherment-approach
 searches: the user says these are exhausted. Understand project history and
 manuscript appearance before fixing a route; use primary internal evidence.
+
+## Latest manuscript screen — GDT840
+
+`experiments/yolo/gdt840_do_label_prose_discovery/REPORT.md`.
+Public41239f95 before guarded extraction. All179 admitted text selectors,
+raw singleton-L versus P, complete Xdo/X with at least2base atoms. Six cards,
+50saved reader-occurrences: only known ofal forward, sh reverse in each reader.
+NO_ADDITIONAL_FORWARD_BASE. Card reconstruction and byte replay pass; source
+extractor shared829. No new image admission, held evaluation, suffix or lexeme.
 
 ## Latest manuscript screens — GDT839 / GDT838
 
@@ -25,26 +33,21 @@ folios; two atoms/group, eight total, certain gap, three-reader local agreement.
 13634 adjacent pairs;4169 eligible occurrences. Zero cross-folio matches with
 split offsets differing1–3atoms: CAPACITY_STOP. No threshold repair or pipeline.
 Independent pair census and byte-exact guarded replay pass; extraction shared829.
-This does not prove lexical spaces or reject general boundary variation.
-No calibrated null, meaning, held evaluation or image access.
+No lexical-space proof, general rejection, null, meaning, held or image access.
 
 `experiments/yolo/gdt838_recoded_passage_capacity/REPORT.md`.
 Public bba4741d; odd88selectors, ZL3b16-group windows,6types/4repeated,
 6nonidentity mappings. 8490windows,5392uncertain gaps,14eligible on5folios,
-zero cross-folio patterns: CAPACITY_STOP. No relaxed thresholds or general
-parallel-passage rejection. Pair audit and source replay pass; extraction shared829.
+zero patterns: CAPACITY_STOP; no general rejection. Pair/replay checks pass.
 
 ## Previous control — GDT837
 
 `experiments/yolo/gdt837_scg_integrated_wholeword_control/REPORT.md`.
-48 fits/six locked selections, fixed SCG I–II / III–IV. Both arms:98.2512% held
-words,99.6947% characters; all34 roles and22L/8W outputs correct, S ae→a leaves
-33/34 exact active packages. STRICT_RECOVERY_FAIL; W-constraint gain zero.
-Wrong key beats oracle31589.171877nats. All selected2248D/3375H errors are suffix-
-attributed;45/48 restarts have that sole error,three STRICT have extras,none exact.
-Independent replay passes. Wrong-score preference was already known from GDT834;
-no new manuscript reading. Full suffix inverse remains untested, not selected.
-Three keys share one control split with supplied boundaries/capacities.
+48fits/six selections: both arms98.2512%words,99.6947%characters; suffix ae→a
+leaves33/34 exact active packages. STRICT_RECOVERY_FAIL; constraint gain0.
+Wrong key beats oracle31589.171877nats;45/48 restarts sole suffix error,
+three have extras,none exact. Replay passes; score issue already known834.
+No manuscript reading. Supplied boundaries/capacities; no successor selected.
 
 ## Primary predecessors — findings and limits remain unchanged
 
