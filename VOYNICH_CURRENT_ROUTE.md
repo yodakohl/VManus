@@ -3,10 +3,13 @@ Updated: 2026-09-06. Read first.
 
 ## Current mandate and effort limit
 
-Latest request: continue the parallel short round. Three independent idea reviews;
-exact boundary conservation selected and tested as GDT839: CAPACITY_STOP.
-No next experiment selected. Total limits include setup, checks and publication.
-No automatic decoder repair or new corpus. Rules: `docs/WORKFLOW.md` and `AGENTS.md`.
+Latest request: identify time loss, work faster and seek positive evidence.
+GDT839 spent7m13s of8m33s before extraction; computation was seconds.
+Use one existing manuscript example immediately, one parallel novelty reviewer,
+one protocol and compact outputs. Target first observation2min/whole pass5min.
+Discovery and confirmation stay distinct; no forced positive or relaxed gates.
+GDT811 ofaldo/ofal remains unidentified; no experiment selected.
+No automatic decoder repair/new corpus. Details: `docs/WORKFLOW.md` and `AGENTS.md`.
 
 Goal: transferable translation. Confirmed English lexemes: **0**;
 confirmed German lexemes/clauses: **0**. No new fit or page admission selected.
@@ -123,5 +126,5 @@ scaffold/manifests; GDT394+ explicitly seal f84/f84r. New relation packets requi
 Record material corrections in `experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv`;
 `VOYNICH_ACTIVE_STATE.md` holds full claims. Old logs/handoff are recovery archives.
 Publish authorized work after exact staged privacy/scope checks, preserve unrelated
-files. Full worktree retains pre-existing GDT600 binding/TSV index debt. Workflow:
-`docs/WORKFLOW.md`. No new GDT number for this effort-prioritization correction.
+files. Full worktree retains pre-existing GDT600 binding/TSV index debt.
+Workflow: `docs/WORKFLOW.md`.

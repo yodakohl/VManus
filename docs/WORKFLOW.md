@@ -92,10 +92,52 @@ independent investigations; it does not justify multiplying setup or validation.
   Reuse inputs/readers, avoid three separate corpora, decoders or reporting systems.
   Root owns publication and shared-file edits; workers have disjoint output files.
 
-Initial read-only screen: image/obstacle, l/m-neighbor grammar and local textual
-similarity candidates were not selected. The short reviews found known routes
-or missing adequate observations; they produced no new manuscript result and
-are not an exhaustive assessment of those domains. No experiment was opened.
+### Measured correction after GDT839
+
+The 02:02:40–02:11:13 UTC turn took8m33s. First extraction started about02:09:53:
+7m13s (84%) elapsed before data execution. Extraction, pair audit and replay took
+only a few seconds; the remaining roughly80s covered reporting and publication.
+These are tool/turn timestamps, not a profiler breakdown of thinking, context
+recovery, worker time or programming. Git commits independently timestamp public
+registration at02:09:48 and the result commit at02:11:07. More CPU/GPU workers
+would not address the dominant measured delay.
+
+The screen also duplicated METHOD.md and PREREGISTRATION.md byte for byte.
+Its occurrence JSON uses103439 lines/1356648 bytes; identical compact JSON would
+use715968 bytes. These are engineering measurements, not manuscript findings.
+Leave the registered GDT839 bytes frozen. For future small passes:
+
+- Root immediately inspects one concrete existing manuscript example; at most
+  one worker checks its predecessor/novelty while root works. Use three workers
+  only when three independent executable tasks already exist. Do not spend the
+  whole round generating and rejecting speculative tests.
+- Within90s decide whether a discriminating question exists. State what is known
+  and what a new observation could distinguish. Do not manufacture novelty by
+  requiring rare exact collisions with no observed motivating instance.
+- Use one authoritative protocol, short pointers in required companion files,
+  compact machine artifacts and reused source readers. Target a first data
+  observation within2min and a complete small pass within5min, including checks
+  and publication. These are effort targets, not promises of scientific success.
+- Permit explicitly labelled discovery before selecting a confirmatory hypothesis:
+  preregister its source scope, exploratory purpose, output and stopping budget;
+  disclose motivating examples. Reserve unseen data for later confirmation.
+  Do not represent discovery-selected patterns as predeclared successes.
+- Build on positive evidence by seeking an unresolved contrasting prediction,
+  not by recounting known hits. Keep all tested outcomes and existing null/held
+  gates; neither looser post-result criteria nor familiar findings count as gains.
+
+The anchor review found that okal's label/prose identity already has follow-ups
+GDT793/794/798. Do not restart its immediate ownership or position tests.
+GDT811 retains a narrower, still-unidentified ofaldo/ofal lead: f88r.25 label,
+f88r.30 prose and f108r.14 prose. Existing texts place ofal after chetchy and
+opchdy respectively; next forms are dar across the f88r line break and shor on
+f108r. The contexts therefore do not supply an identical immediate formula.
+This is a comparison of already published examples, not a new inventory, suffix
+finding or name identification. A productive do operation and a shared referent
+remain unproved; a new experiment requires a specific additional prediction.
+Primary: experiments/yolo/gdt811_four_page_content_synthesis/REPORT.md and its
+artifacts/FOUR_PAGES_FULL_TEXT.md. No new scientific experiment is selected by
+this workflow audit, and no positive decipherment result is claimed.
 
 ## Publish the exact task, with explicit limits
 
