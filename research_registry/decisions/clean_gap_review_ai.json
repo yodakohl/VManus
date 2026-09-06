@@ -1,0 +1,61 @@
+{
+  "schema": "clean_semantic_gap_review_v1",
+  "review_id": "CLEAN_GAP_REVIEW_AI",
+  "status": "root_source_reviewed_pending_independent_check",
+  "cards": [
+    {
+      "id": "CLEAN_GAP_AI:exact_residual_object_class",
+      "claim": "The GDT235 tested content-key hypothesis is that, after removing the transferred graphical-label prefix, exact residual identity identifies a broad visible-object class across physical folios beyond section/register. The endpoint is coarse human annotation classes, not literal word meanings.",
+      "claim_type": "functional_hypothesis",
+      "status": "unconfirmed",
+      "ready": false,
+      "member_ids": [
+        "LEGACY_COMPONENT:99042ac221c72a1065df"
+      ],
+      "scope": {
+        "source": "GDT235",
+        "unit": "Exact STRICT_RESIDUAL lookup of coarse visible label-object class, with physical-folio holdout and section-matched baseline",
+        "limits": "The original exact-lookup prediction failed. It does not directly test the exposed BACA B/CA pair and does not refute all content-bearing residual hypotheses."
+      },
+      "evidence": [
+        {
+          "path": "GDT235_LABEL_RESIDUAL_OBJECT_TRANSFER_METHOD.md",
+          "line": 3,
+          "quote": "## Question\n\nAfter removing the transferred GDT233 graphical prefix, does the exact residual\nidentify a broad human-annotated visual object class beyond section/register?\n\n## Data and endpoint\n\nUse every non-f84 exact-locus row tagged `LABEL`, then whitelist those loci\nbefore parsing source-family consensus.  The mutually exclusive source-bound\nendpoint is assigned by tag precedence:\n\n`PLANT`, `WATER_OR_APPARATUS`, `ROSETTE_OR_MAP`, `ASTRONOMICAL`,\n`FIGURE_ONLY`, `OTHER_LABEL`.\n\nThis is coarse annotation metadata, not word meaning or authorial ownership.\n\n## Predictors\n\nCompare exact `RAW_FAMILY`, exact `STRICT_RESIDUAL`, and exact\n`TRANSFERRED_PREFIX`.  In leave-one-physical-folio-out prediction, a feature is\neligible only if seen on another folio.  Its modal training object class is\ncompared on the same covered rows with the modal class for the held row's\nsection.  A leave-one-section-out sensitivity compares feature lookup with the\ntraining-global majority.\n",
+          "sha256": "f58bfa400ba81865e7a09e1fb74f2a6cd753e9929d76e6e84c54ed20339d0e27"
+        },
+        {
+          "path": "GDT235_LABEL_RESIDUAL_OBJECT_TRANSFER_REPORT.md",
+          "line": 3,
+          "quote": "## Result\n\n**LABEL_RESIDUAL_OBJECT_CLASS_NOT_TRANSFERABLE_SECTION_DOMINATES**\n\nRemoving the transferred GDT233 graphical-label prefix does not expose a\ncross-folio visible-object dictionary.  On 703 non-f84, family-covered human\nlabel annotations from 23 physical folios, exact residual lookup covers 323\nheld-folio rows and predicts 156 correctly (`.483`).  The section-matched\nmajority predicts 233 of those same rows (`.721`), a `-.238` accuracy delta.\n\nThe comparison is not rescued by keeping the whole family or by using only the\ntransferred prefix:\n\n| representation | covered | feature correct | feature accuracy | matched section accuracy | delta |\n|---|---:|---:|---:|---:|---:|\n| RAW_FAMILY | 311 | 155 | .498 | .733 | -.235 |\n| STRICT_RESIDUAL | 323 | 156 | .483 | .721 | -.238 |\n| TRANSFERRED_PREFIX | 293 | 164 | .560 | .765 | -.205 |\n\nThe endpoint is deliberately coarse: `PLANT`, `WATER_OR_APPARATUS`,\n`ASTRONOMICAL`, `FIGURE_ONLY`, or `OTHER_LABEL`.  These are source-bound atlas\nclasses, not word meanings or authorial ownership claims.",
+          "sha256": "11aa2354735cc1b12f2a345070c72111ebe9acaa05e4d5e52cbf33bc07dee53b"
+        },
+        {
+          "path": "GDT235_LABEL_RESIDUAL_OBJECT_TRANSFER_REPORT.md",
+          "line": 39,
+          "quote": "## Consequence for the working theory\n\nGDT233 remains evidence for a partial graphical-label rendering/compiler\nlayer.  GDT234 showed that removing that layer destroys most within-unit formal\nsimilarity; GDT235 now shows that the remaining exact residual does not recover\neven a broad transferable object class.  The current architecture is therefore\nbetter represented as:\n\n`GRAPHICAL_LABEL_RENDERING + REGISTER_BOUND_OPAQUE_RESIDUAL`\n\nthan as:\n\n`LABEL_MARKER + OBJECT_WORD`.\n\nThis is a real narrowing of the theory.  It blocks reading BACA-like label\nfamilies or their stripped tails as water, plant, astronomical object, figure,\nor apparatus terms.  It does not imply that labels lack content; it says that\nexact residual identity is not the transferable content key in the present\nhuman atlas.",
+          "sha256": "11aa2354735cc1b12f2a345070c72111ebe9acaa05e4d5e52cbf33bc07dee53b"
+        }
+      ],
+      "assessment_basis": "root_primary_question_and_failure_source_review",
+      "source_polarity": "historically_tested_and_failed_not_a_positive_assignment",
+      "failure_reason": "Exact held-folio residual lookup underperformed the section-matched coarse object baseline; attach the source-specific AD dossier, not a global word-meaning rejection."
+    }
+  ],
+  "dispositions": [
+    {
+      "source_id": "LEGACY_COMPONENT:99042ac221c72a1065df",
+      "decision": "accepted",
+      "card_ids": [
+        "CLEAN_GAP_AI:exact_residual_object_class"
+      ],
+      "reason": "A concrete content-key prediction explicitly asked and tested in the original method; preserving its failure is different from inverting a forbidden positive gloss."
+    }
+  ],
+  "source_review": "research_registry/decisions/semantic_failure_batch_ad.json",
+  "limits": [
+    "Source recovery and operational failure binding only.",
+    "No exact semantic equivalence with the local BACA prefix candidate or a generic practical-book genre.",
+    "Search residual object and comparison of current residual-content cards is bounded navigation, not proof of global uniqueness."
+  ]
+}

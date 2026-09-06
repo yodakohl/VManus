@@ -1,0 +1,715 @@
+{
+  "schema": "semantic_source_scope_review_v1",
+  "review_id": "SOURCE_COVERAGE_SCOPE_BATCH_AC",
+  "input_audit": "research_registry/decisions/source_coverage_gap_batch_r.json",
+  "input_sha256": "e37aff979c3935f85a8c0ca8646c8b304d614f8d6162f9e94253e92204d49a6c",
+  "limits": [
+    "Exactly seven released R scope-comparison blocks; T candidates excluded. No new source family, experiment, image or target data.",
+    "A shared root, atom, topic or writing method is not full-proposition equivalence. Bound related cards remain non-equivalent unless an exact same assertion is explicitly identified.",
+    "Recovered readings remain unconfirmed. Source-claimed stability and counts are historical statements, not validated meanings or fresh empirical results.",
+    "No exhaustive semantic deduplication or global novelty is asserted. Existing source bytes, cards and operational decisions remain unchanged."
+  ],
+  "reviewed_blocks": [
+    {
+      "source_id": "LEGACY_COMPONENT:e40994dabcc4fd486c39",
+      "decision": "joint_source_model_recovered",
+      "reason": "The two atomic counterparts and one formal parse do not contain the complete alias/degree/closure ladder or its proposed B1 process. Preserve one model, not eight newly discovered words.",
+      "card_ids": [
+        "CLEAN_GAP_AC:b1_process_ladder"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_b1_process_ladder_four_hundred_thirty_first/FOUR_HUNDRED_THIRTY_FIRST_REPORT.md",
+          "line": 1,
+          "line_end": 32,
+          "quote": "# Pass 431 — B1 hat eine kurze/lange Prozessleiter\n\nDie B1-Karten für Ansetzen, Halten, Wärmen, Absetzen und Auffangen werden jetzt\nals ein Lehrsystem gelesen. Der Schreiber lernt keine langen Übersetzungen,\nsondern eine Basisoperation, einen Grad, einen Adresszusatz und gegebenenfalls\neine Schlussform.\n\n## Leiter\n\n- `qokey/qokedy`: KURZ ANSETZEN, offen oder mit Schluss;\n- `okeey`: LÄNGER ANSETZEN, offen;\n- `qokeedal`: LÄNGER AN DER STELLE HALTEN;\n- `dsheol`: KURZ HALTEN und fortsetzen;\n- `cheky`: KURZ WÄRMEN;\n- `shedy/cheedy/tedy`: KURZ ABSETZEN und schließen;\n- `olkeedy`: LÄNGER AUFFANGEN und schließen;\n- `oiiin`: SOLLSTAND einstellen.\n\nDie wichtigste Revision betrifft die vier Erscheinungen derselben\n`shedy/cheedy/tedy`-Karte: Ihr E-Grad wird nicht mehr unterschlagen. Sie heißt\njetzt überall KURZ ABSETZEN; SCHLUSS.\n\nDamit besitzt B1 eine verständliche Stationslogik: einen Posten ansetzen,\ngegebenenfalls an einer Stelle länger halten, kurz wärmen, kurz absetzen und\ndas getrennte Produkt länger auffangen. Das ist als Becken-/Werkstattablauf\ndirekter als eine Sammlung unverbundener medizinischer Verben. Die Figuren\nkönnen den Gebrauch als Bad zeigen, ohne die Kartenbedeutungen zu verändern.\n\nNoch offen bleiben zwei asymmetrische Lücken: B1 besitzt keine lange\nWärmekarte und keine kurze Auffangkarte. Diese müssen nicht erfunden werden;\nder Schreiber kann für seltene Kombinationen Ganzkarten oder lokale\nExemplare verwenden.",
+          "sha256": "694810db46a6943c45b0f97e20b196881bff214914b5fafc233bec0579ba919a"
+        }
+      ],
+      "counterparts": [
+        {
+          "target": "SEM:ada70999c04feb075916",
+          "claim": "cheky → Kurzwärme",
+          "claim_type": "lexical_hypothesis",
+          "relationship": "related_not_equivalent",
+          "limit": "Short heat only, not the joint B1 ladder.",
+          "target_basis_sha256": "f9332ae325d68321020ec785ac70476585fd61f4c432edfc106f523ee6b58da0",
+          "effective_basis_sha256": "eecf89188fd02b7dae0dedcfdf5f4e9aa9a4c8797cbb2e633593a43de4a5401c",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 12,
+              "line_end": 15,
+              "path": "experiments/yolo/sidequest_semantic_chk_heat_grade_three_hundred_twenty_first/THREE_HUNDRED_TWENTY_FIRST_REPORT.md",
+              "quote": "Somit lautet der kurze Kartenwert `cheky = Kurzwärme` und `cheeky =\nLangwärme`. Die drei kurzen Vorkommen führen zu Absetzen, Seihen oder einem\nweiteren Waschgang. Die zwei langen Vorkommen stehen beim bemessenen\nBlattauszug und am f83r-Anwendungs-/Durchlasspaar.",
+              "sha256": "4d73ad2723fb7cea74e6d81f3ef8a40b9cb5d8f05f02e8406d75d52a1e345a75",
+              "source_id": "LEGACY_COMPONENT:da1c0f0ccb3eb88c240d",
+              "source_section": "Entscheidung",
+              "table_header": null
+            }
+          ]
+        },
+        {
+          "target": "SEM:bc85850bea26b2293449",
+          "claim": "olkeedy / solkeedy → catch for longer and close the step",
+          "claim_type": "lexical_hypothesis",
+          "relationship": "related_not_equivalent",
+          "limit": "Long collection/closure only, not the other actions or local sequence.",
+          "target_basis_sha256": "9fdb1961d7555d1811d22fd1d69fdd975c85cba5f906eb73f902fcd1cf07353e",
+          "effective_basis_sha256": "ace5a235e83d5806f306d025fea0c7f664bd9faf01623eb0586637d3c5551f4d",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 15,
+              "line_end": 15,
+              "path": "experiments/yolo/sidequest_semantic_solk_collect_grid_six_hundred_sixty_sixth/SIX_HUNDRED_SIXTY_SIXTH_REPORT.md",
+              "quote": "| `olkeedy` / `solkeedy` | SOLK+EE+DY | catch for longer and close the step |",
+              "sha256": "a594b9f75aa1da090d5a36caf9fe49890da63a49362b126cc9e83484645263f5",
+              "source_id": "LEGACY_COMPONENT:c4198fdc4a476bda3e69",
+              "source_section": "The small paradigm",
+              "table_header": "| Card | Composition | Workshop reading |"
+            }
+          ]
+        },
+        {
+          "target": "SEM:a33554a1686046b2209a",
+          "claim": "qokeedal → OK + EE + AL",
+          "claim_type": "formal_role",
+          "relationship": "related_not_equivalent",
+          "limit": "Formal decomposition plus a historical contact gloss is not the whole B1 model.",
+          "target_basis_sha256": "0691ff8116d16e495551f5080499befd38406d8c536d19a2c8579030b4ab826d",
+          "effective_basis_sha256": "97101c4410f2f8e74285ecdb5e3013c671cc47e0ce0bf36e6cb05f40cd18f368",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "line": 3,
+                  "text": "Status: kreative Werkstattlektüre, keine Entzifferung. Untersucht wurden nur"
+                }
+              ],
+              "line": 79,
+              "line_end": 82,
+              "path": "experiments/yolo/sidequest_semantic_paradigm_closure/E_GRADE_REPORT.md",
+              "quote": "- `qokeedal = OK + EE + AL`: den bezeichneten Teil/die Stelle in anhaltenden\n  Kontakt bringen; „eingetauchter Teil“ bleibt eine gute lokale Kurzfassung.\n  Das sichtbare `d` gehört hier zur belegten `DAL/AL`-Realisierung und ist\n  nicht `DY`.",
+              "sha256": "a982d2c7b8613c758aa4f0d27a9f569861a7adecc3e9c452a9ebe73fbacf4411",
+              "source_id": "LEGACY_COMPONENT:2f3f9eeb2c1250eb69af",
+              "source_section": "Das geschlossene OK-Paradigma",
+              "table_header": null
+            }
+          ]
+        }
+      ],
+      "full_block_read": true,
+      "global_novelty_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:4595b35bfb0956f282fe",
+      "decision": "joint_construction_recovered",
+      "reason": "Recover the stated argument/head architecture. The BACKWARD/FORWARD/SELF counts are measurements of that model, not meanings. The two example commands remain source-bound instances, not additional standalone ideas.",
+      "card_ids": [
+        "CLEAN_GAP_AC:clause_attachment"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_clause_attachment/CLAUSE_ATTACHMENT_REPORT.md",
+          "line": 1,
+          "line_end": 31,
+          "quote": "# Werkstattgrammatik: Kartenwerte an Handlungen anheften\n\n## Der eigentliche Fortschritt\n\nDie vorige Ausgabe las fast jede Karte wie ein eigenes Verb. Das machte Sätze künstlich lang. In der neuen Werkstattlesung sind `AIIN/AIN/IIN`, `AL/AR/AIR`, `Y`, `E/EE/EEE`, Materialkarten und der Schluss meist **Argumente einer benachbarten Handlung**. `OK/OL`, Umsetzen, Durchleiten, Wärmen, Absetzen, Sammeln, Waschen, Teilen, Zu-/Abführen und die wenigen gelernten Arbeitsgänge bilden die Köpfe.\n\nAlle 381 Ereignisse sind genau einem der 116 Statements und einer Fusionsgruppe zugeordnet. Es entstehen 254 Arbeitsgruppen. 4 Aussagen besitzen keinen sichtbaren Handlungskopf; dort liefert Bild/Exemplar weiterhin das Verb. 27 Anheftungen liegen genau zwischen zwei Köpfen und bleiben in der Tabelle sichtbar statt eine Scheinsicherheit zu erzeugen.\n\n## Rollenbilanz\n\n- `ACTION_HEAD`: 250 Ereignisse\n- `ARGUMENT_OR_MODIFIER`: 73 Ereignisse\n- `CONTENT_OR_STATE`: 34 Ereignisse\n- `ELLIPTIC_HEAD`: 4 Ereignisse\n- `ENDPOINT_ONLY`: 3 Ereignisse\n- `ORDER_MARKER`: 17 Ereignisse\n\nAnheftungsrichtungen:\n\n- `BACKWARD`: 75\n- `FORWARD`: 52\n- `SELF`: 254\n\n\n## Bedeutungsgewinn\n\n`dchol/schol` wird jetzt in allen Kontexten als **eine gelernte Karte VORIGER POSTEN** behandelt; die falsche Analyse `DCH+OL` ist aus der 381-Ereignis-Schicht verschwunden. Die kurzen Werte bleiben erhalten, werden aber nicht mehr als lauter Einzelbefehle missverstanden. Beispielsweise wird `qokaiin ... al ...` zu einem Arbeitsgang *auf Sollmaß am Ziel ansetzen*, und eine Reihe aus `CHEEY`, `AIN`, `CKH+AL`, `SOLK+E+Y`, `L+CHD+CLOSE` wird zu *klare Fraktion portionsweise zur Zielstelle leiten, kurz sammeln, abführen und schließen*.\n\n## Offene Stelle\n\nDie Anheftung sagt noch nicht, ob ein lokaler Besitzer eine Wurzel, ein Tuch, ein Becken oder ein Sternfeld liefert. Sie verbessert die Syntax: ein Kartenwert kann jetzt Material, Maß, Quelle, Ziel, Grad oder Endpunkt sein, ohne als separates Vollverb ausgegeben zu werden. Der nächste Pass nutzt diese Gruppen, um alle elf Records noch einmal als knappe Werkstattanweisungen zu redigieren.",
+          "sha256": "a601362af2d77604f85f831b60c1a1e5f52780c96aef8ae95b80b84f8155abb5"
+        }
+      ],
+      "counterparts": [
+        {
+          "target": "SEM:caaf3803cdc28ac90f14",
+          "claim": "DCHOL/SCHOL → Vorposten",
+          "claim_type": "lexical_hypothesis",
+          "relationship": "related_not_equivalent",
+          "limit": "The learned previous-item card alone does not encode the attachment model.",
+          "target_basis_sha256": "e784e5b436d516fc37cc8d4ce83994cd01e80d1990a74a64514449762dbd53cb",
+          "effective_basis_sha256": "766a3408abc77862e1c770bce234f9cdadabc2ef499804fb5839eb9826c8a4d3",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 14,
+              "line_end": 19,
+              "path": "experiments/yolo/sidequest_semantic_apprentice_phrasebook/APPRENTICE_PHRASEBOOK_REPORT.md",
+              "quote": "Dadurch trägt ein einzelnes Wort nicht mehr unbegründet einen ganzen Satz. Aus\n`SHEY = Klarflüssigkeit` wird zum Beispiel das kurze Stichwort **KLARLAUF**;\nwelche Flüssigkeit gemeint ist, liefert der aktuelle Ansatz. Aus\n`DCHOL/SCHOL = Vorposten` wird **VORIGES**; welcher Stoff der vorige ist, steht\nim aktiven Register. Aus `Bodenablauf` wird **ABLAUF**; die untere Lage kommt\nvom Bild.",
+              "sha256": "b909f1c0e8376ca300a4e2a6ec8438a9d283517f5f8f36401e8f6fe6dac4d3d8",
+              "source_id": "LEGACY_COMPONENT:0e76fc6ddfff18283bde",
+              "source_section": "Was sich verbessert hat",
+              "table_header": null
+            }
+          ]
+        },
+        {
+          "target": "SEM:fcb536ec754462a0d944",
+          "claim": "OL supplies a dependent carrier or working-medium argument selected by several construction heads; the page can supply its concrete referent.",
+          "claim_type": "lexical_hypothesis",
+          "relationship": "related_not_equivalent",
+          "limit": "A dependent OL argument is one earlier construction, not this head/argument inventory.",
+          "target_basis_sha256": "13bd7ef06d7114feccd5abf52ea7bb75382885e50f2cbc1eab37230fa4585981",
+          "effective_basis_sha256": "944ea297e5fc5733f7673fc61be6aecf62e597665216b71112bf3730b4f27156",
+          "evidence": [
+            {
+              "line": 3632,
+              "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+              "quote": "## Iteration 44 — `OL` as a dependent carrier/object slot",
+              "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+            }
+          ]
+        }
+      ],
+      "full_block_read": true,
+      "global_novelty_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:be679918deb1e374452d",
+      "decision": "joint_scope_refinement_recovered",
+      "reason": "The three bare assignments already exist, but their conjunction, source-defined register realizations and four prospective compositions are not licensed merely by atom coverage. Preserve one scoped model; do not count three new root meanings.",
+      "card_ids": [
+        "CLEAN_GAP_AC:register_value_share_unit"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_cross_register_core_revision_one_thousand_eighteenth/PASS1018_REPORT.md",
+          "line": 1,
+          "line_end": 44,
+          "quote": "# Pass 1018 — Kernwörter über alle vier Register\n\n## Ergebnis\n\nJeder der 19 portablen Kerne kommt in **Herbal, Biological, Celestial und Pharma** vor. Sechzehn kurze Werte bleiben unverändert. Drei Wörter waren noch zu eng und werden korrigiert:\n\n- `AIIN`: **MASS → WERT**;\n- `AIN`: **PORTION → ANTEIL**;\n- `OR`: **ANSATZ → EINHEIT**.\n\nDas sind keine neuen Funktionen. Es sind kürzere gemeinsame Nenner für dieselben Karten.\n\n## Warum genau diese drei\n\n### AIIN = WERT\n\nIn Herbal und Pharma kann WERT als Maß oder Dosis erscheinen. In Biological ist es ein Einstell-/Arbeitswert; in Celestial ein Tabellen- oder Positionswert. Das alte MASS war nur eine lokale Stofflesung.\n\n### AIN = ANTEIL\n\nEin Anteil kann Pflanzenmenge, Teilposten, Füllanteil, Sektoranteil oder Zutatenanteil sein. PORTION war für die Himmelsregister unnötig eng.\n\n### OR = EINHEIT\n\nEine Einheit wird im Herbal-/Pharmaregister lokal zum Ansatz oder zur Charge, im Biological zum Stations-/Arbeitsblock und im Celestial zur Eintragsgruppe. Das alte ANSATZ zwang eine ungemalte Zubereitung in 30 Himmelsvorkommen.\n\n## Was unverändert bleibt\n\n`Y=DIES`, `OK=SETZEN`, `OL=FORTSETZEN`, `OT=DANACH`, `AL=ZIELORT`, `CH=NEHMEN`, `SH=HALTEN`, `AR=AUSGANG`, `K=GEBEN`, `S=WÄHLEN`, `CHD=UMSETZEN`, `L=VERBINDUNG`, `T=EINSTELLEN`, `R=MARKIEREN`, `P=EINSETZEN`, `AIR=LAUF`.\n\nDiese sechzehn Werte sind in jedem Register dieselbe kleine Handlung, Relation oder Referenz. Der Besitzer liefert weiterhin, *was* genommen, gehalten, gesetzt, markiert oder verbunden wird.\n\n## Wirkung auf die vollständige Ausgabe\n\nAlle **627 Aussagen / 3.888 Ereignisse** behalten Oberfläche, Reihenfolge, Besitzer, Komponenten, lokale Kanäle, Grad und Ende. Nur die portable Literalzeile wird neu gebaut. Eine flüssige lokale Fassung darf weiterhin *nach Maß*, *eine Portion* oder *im Ansatz* sagen, wenn der Besitzer das trägt; das Wörterbuch selbst sagt nun WERT, ANTEIL und EINHEIT.\n\n## Aktualisierte Zukunftsformen\n\n- `chain = CH+AIN = einen Anteil nehmen`;\n- `pain = P+AIN = einen Anteil einsetzen`;\n- `paiin = P+AIIN = einen Wert einsetzen`;\n- `lair = L+AIR = Verbindung im bezeichneten Lauf`.\n\nDamit sind die portablen Wörter jetzt bewusst so kurz, dass sie auf Pflanzenbildern, Bad-/Stationsseiten, Himmelsringen und Gefäßgruppen dieselbe Bedeutung behalten können.",
+          "sha256": "c12063509ff27206ee412a9711814200ac202404878baa2a582284f97b180951"
+        }
+      ],
+      "counterparts": [
+        {
+          "target": "SEM:3eb0c5f5f8e9f35ff81e",
+          "claim": "AIIN → WERT",
+          "claim_type": "lexical_hypothesis",
+          "relationship": "related_not_equivalent",
+          "limit": "Existing AIIN=WERT with local measure/dose/position evidence; one component of the joint scope.",
+          "target_basis_sha256": "3d09042f5f411ffc00334f570d8f32678d7cfe159dfa12c592dbc82002e6eed8",
+          "effective_basis_sha256": "6fca58d199c57c82838e980077ffbc3632ff0775ae43dbd9f32b6f7aafde357c",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 60,
+              "line_end": 61,
+              "path": "experiments/yolo/gdt409_nineteen_core_semantic_drift_audit/REPORT.md",
+              "quote": "1. `AIIN=WERT` / `AIN=ANTEIL`: 23 gemeinsame Rahmen, 210 gewichtete Treffer,\n   Jaccard 0,455. Beide sind Mengen-/Parameterargumente, aber nicht dasselbe.",
+              "sha256": "d9315dc142103c095dbb6fb46901dd2d93f825e8d750c8a200606461c4e732e6",
+              "source_id": "LEGACY_COMPONENT:b006849d3d080450b049",
+              "source_section": "Die drei nützlichsten Oppositionen",
+              "table_header": null
+            }
+          ]
+        },
+        {
+          "target": "SEM:2b1ee25cb31249083c0e",
+          "claim": "AIN → ANTEIL",
+          "claim_type": "lexical_hypothesis",
+          "relationship": "related_not_equivalent",
+          "limit": "Existing AIN=ANTEIL; does not alone imply the other two changes or the full cross-register scope.",
+          "target_basis_sha256": "4591256b9ed642150987bbd4e9fd48bf622e426580b11f9d11d3f2e83a166ce9",
+          "effective_basis_sha256": "ba254aca2121e325a00f1ffcd4569efbd4a7fc3f4ccffc27fb29d83e12e09b1c",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 60,
+              "line_end": 61,
+              "path": "experiments/yolo/gdt409_nineteen_core_semantic_drift_audit/REPORT.md",
+              "quote": "1. `AIIN=WERT` / `AIN=ANTEIL`: 23 gemeinsame Rahmen, 210 gewichtete Treffer,\n   Jaccard 0,455. Beide sind Mengen-/Parameterargumente, aber nicht dasselbe.",
+              "sha256": "d9315dc142103c095dbb6fb46901dd2d93f825e8d750c8a200606461c4e732e6",
+              "source_id": "LEGACY_COMPONENT:b006849d3d080450b049",
+              "source_section": "Die drei nützlichsten Oppositionen",
+              "table_header": null
+            }
+          ]
+        },
+        {
+          "target": "SEM:b7b8386240af78e7d09f",
+          "claim": "OR → EINHEIT",
+          "claim_type": "lexical_hypothesis",
+          "relationship": "related_not_equivalent",
+          "limit": "Existing OR=EINHEIT with local variants; retain independently from AIIN and AIN.",
+          "target_basis_sha256": "779a950a85c64b1d4230e0420b2db315d937114457eb6de7d5bf08370207e109",
+          "effective_basis_sha256": "f93000433d29dcfce8a49c39a4db60ab403f4d871ed22e9499e87771967e7a2c",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 45,
+              "line_end": 45,
+              "path": "experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/REPORT.md",
+              "quote": "- `OR=EINHEIT`, lokal Ansatz, Becken- oder Sektoreinheit;",
+              "sha256": "204806766156c2b1fd769d0944c7a8a217e82b8e6470ced6b8f0d054a34ec908",
+              "source_id": "LEGACY_COMPONENT:fd77eefc16a9b2a13ae1",
+              "source_section": "Was diese Ausgabe besser macht",
+              "table_header": null
+            }
+          ]
+        }
+      ],
+      "full_block_read": true,
+      "global_novelty_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:02fad20bc71e7e55cd0e",
+      "decision": "editorial_cases_and_marker_recovered",
+      "reason": "Five exact existing assertions receive the missing Pass995 source case. CARRIER_Q BEGINN is preserved only as a technical marker hypothesis. The process formula and example sentences are editorial renderings of the stated existing functions, not a new world model.",
+      "card_ids": [
+        "CLEAN_GAP_AC:995_aiin_mass",
+        "CLEAN_GAP_AC:995_ain_portion",
+        "CLEAN_GAP_AC:995_or_ansatz",
+        "CLEAN_GAP_AC:995_t_stellen",
+        "CLEAN_GAP_AC:995_r_merken",
+        "CLEAN_GAP_AC:995_carrier_begin"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_historical_short_headwords_nine_hundred_ninety_fifth/PASS995_REPORT.md",
+          "line": 1,
+          "line_end": 35,
+          "quote": "# Pass 995 — kurze Werkstattwörter\n\n## Ergebnis\n\nSechs moderne oder unnötig aufgeblähte deutsche Arbeitsglossen wurden\ngekürzt:\n\n- `AIIN`: **SOLLWERT → MASS**;\n- `AIN`: **EINHEIT → PORTION**;\n- `OR`: **ARBEITSSATZ → ANSATZ**;\n- `T`: **EINSTELLEN → STELLEN**;\n- `R`: **MARKIEREN → MERKEN**;\n- `CARRIER_Q`: **START → BEGINN**.\n\nDas ist kein neuer Bedeutungsfund, sondern die sprachlich bessere Fassung\nderselben sechs Werkstattfunktionen. Die neuen Hauptwörter sind kurz,\nsprechbar und in Rezept-, Listen- oder Werkstattprosa leichter vorstellbar.\nRegisterabhängige Erweiterungen bleiben erlaubt: MASS kann im Himmelsregister\nein Tabellenwert sein, PORTION eine Zelle und ANSATZ eine Eintragsgruppe.\n\n## Gewinn für die Lesung\n\nStatt `ARBEITSSATZ verwenden` liest der Lehrling nun `den laufenden Ansatz\nverwenden`; statt `MARKIEREN verwenden` `den Zustand merken`. Die natürlichen\nSätze bleiben erhalten, aber das Taschenwörterbuch klingt weniger wie ein\nmodernes Maschinenhandbuch.\n\n## Aktuelle Kernformel\n\n> POSTEN → NEHMEN/GEBEN → MASS oder PORTION → QUELLE/ZIEL →\n> STELLEN/HALTEN/LEITEN → MERKEN → SCHLUSS.\n\nDie volle Ausgabe bleibt bei 159 Einheiten, 53 Wurzeln, 2.511 Ereignissen und\n354 Aussagen. Es wurde keine neue Wurzel und kein neuer Manuskriptinhalt\nerfunden.",
+          "sha256": "0a556bb81b892f498140ad21c3ff277674693bd341602814546cf89e0f9aa23e"
+        }
+      ],
+      "counterparts": [
+        {
+          "target": "SEM:b5ec5b9c08bede48c079",
+          "claim": "AIIN → MASS",
+          "claim_type": "lexical_hypothesis",
+          "relationship": "same_assertion_new_source_case",
+          "limit": "Pass995 expressly calls this an editorial shortening of the same function; its register extensions remain scoped.",
+          "target_basis_sha256": "5ee30cbbc783c31c620e1b50cfe552440fc41e27f53557b8a9583b883962a1f3",
+          "effective_basis_sha256": "c8eb6b4f7a423145d1cd30fc3558dc437c1dc636173f123bfbfff417594fd0d3",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 5,
+              "line_end": 5,
+              "path": "experiments/yolo/sidequest_semantic_all_record_core_six_hundred_eighty_eighth/SIX_HUNDRED_EIGHTY_EIGHTH_REPORT.md",
+              "quote": "- `AIIN = MASS`",
+              "sha256": "04f4dc0588aac703c73042da124a803383f5014fd2defbadce789f15faf64427",
+              "source_id": "LEGACY_COMPONENT:9e7bde990c75e0cb679c",
+              "source_section": "Sidequest pass 688: gemeinsamer Kern und Spezialkästen",
+              "table_header": null
+            }
+          ]
+        },
+        {
+          "target": "SEM:021e44cf927409180be5",
+          "claim": "AIN → PORTION",
+          "claim_type": "lexical_hypothesis",
+          "relationship": "same_assertion_new_source_case",
+          "limit": "Pass995 expressly calls this an editorial shortening of the same function; its register extensions remain scoped.",
+          "target_basis_sha256": "2e98ed6d7c5b8aec6e95912bc659917f1a25ebd52fa4ba81eed56e6ab6fa79b0",
+          "effective_basis_sha256": "7eb17504eb4d0bc5190930c9d29f40e1dba6564d4aa52f220c9be23c2fd4e9a2",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 23,
+              "line_end": 23,
+              "path": "experiments/yolo/sidequest_semantic_canonical_scribe_workshop_sixth_edition_nine_hundred_ninety_sixth/PASS996_CURRENT_WORKING_THEORY.md",
+              "quote": "- `AIN=PORTION`, `AIIN=MASS`, `IIN=STUFE`;",
+              "sha256": "ed8810a3f66854a6d9e4f9a4ba42563a755326d5af399f02650ce96557995291",
+              "source_id": "LEGACY_COMPONENT:2e68f8ae5b8a712395ec",
+              "source_section": "Kurzes Taschenwörterbuch",
+              "table_header": null
+            }
+          ]
+        },
+        {
+          "target": "SEM:ec1a25e412565b0a1756",
+          "claim": "OR → ANSATZ",
+          "claim_type": "lexical_hypothesis",
+          "relationship": "same_assertion_new_source_case",
+          "limit": "Pass995 expressly calls this an editorial shortening of the same function; its register extensions remain scoped.",
+          "target_basis_sha256": "97ca0011c899f98bb6b33778b84a277367d22c9a12bbe12158580a57abf5090e",
+          "effective_basis_sha256": "993e1314e2a207a7b96363c5922b7ff0442b255c86a7fd9b5f202539d889d5b9",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 20,
+              "line_end": 20,
+              "path": "experiments/yolo/sidequest_semantic_canonical_scribe_workshop_sixth_edition_nine_hundred_ninety_sixth/PASS996_CURRENT_WORKING_THEORY.md",
+              "quote": "- `OL=FORTSETZEN`, `OT=DANACH`, `OR=ANSATZ`;",
+              "sha256": "ed8810a3f66854a6d9e4f9a4ba42563a755326d5af399f02650ce96557995291",
+              "source_id": "LEGACY_COMPONENT:e55a282f49ac1250b5cd",
+              "source_section": "Kurzes Taschenwörterbuch",
+              "table_header": null
+            }
+          ]
+        },
+        {
+          "target": "SEM:c9d1dc924854b5d374ce",
+          "claim": "T → STELLEN",
+          "claim_type": "lexical_hypothesis",
+          "relationship": "same_assertion_new_source_case",
+          "limit": "Pass995 expressly calls this an editorial shortening of the same function; its register extensions remain scoped.",
+          "target_basis_sha256": "503c5bb7cdad7d0ca9f2fb94aff18acce750d25fcc1000a681d261310c7ae13b",
+          "effective_basis_sha256": "4fe8f6d9a8ba9383ebd44c1b5b96a315be46e86e38831e273d505cce5f970fbf",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 25,
+              "line_end": 25,
+              "path": "experiments/yolo/sidequest_semantic_canonical_scribe_workshop_sixth_edition_nine_hundred_ninety_sixth/PASS996_CURRENT_WORKING_THEORY.md",
+              "quote": "- `T=STELLEN`, `R=MERKEN`, `CARRIER_Q=BEGINN`;",
+              "sha256": "ed8810a3f66854a6d9e4f9a4ba42563a755326d5af399f02650ce96557995291",
+              "source_id": "LEGACY_COMPONENT:add92cfe9eb050697ec5",
+              "source_section": "Kurzes Taschenwörterbuch",
+              "table_header": null
+            }
+          ]
+        },
+        {
+          "target": "SEM:dc63f682f66c0d5bc1bf",
+          "claim": "R → MERKEN",
+          "claim_type": "lexical_hypothesis",
+          "relationship": "same_assertion_new_source_case",
+          "limit": "Pass995 expressly calls this an editorial shortening of the same function; its register extensions remain scoped.",
+          "target_basis_sha256": "9abd426cfbd4df8b08fbaa8fe3aa003e13be5bf26e1d3ba854842ee39bbcc460",
+          "effective_basis_sha256": "73e7d8fe8ac366c96b9862dafa485b4cb3937304aa91c00ea257056b35834546",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 25,
+              "line_end": 25,
+              "path": "experiments/yolo/sidequest_semantic_canonical_scribe_workshop_sixth_edition_nine_hundred_ninety_sixth/PASS996_CURRENT_WORKING_THEORY.md",
+              "quote": "- `T=STELLEN`, `R=MERKEN`, `CARRIER_Q=BEGINN`;",
+              "sha256": "ed8810a3f66854a6d9e4f9a4ba42563a755326d5af399f02650ce96557995291",
+              "source_id": "LEGACY_COMPONENT:add92cfe9eb050697ec5",
+              "source_section": "Kurzes Taschenwörterbuch",
+              "table_header": null
+            }
+          ]
+        }
+      ],
+      "full_block_read": true,
+      "global_novelty_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:f743e516d9f26691d6ab",
+      "decision": "root_scope_revisions_recovered",
+      "reason": "Preserve three explicit widened root hypotheses. Do not infer whole-word identity or merge them with narrower return/substance/pressing readings. The rest of the list is retained source context, not a claim that all ten roots are newly recovered.",
+      "card_ids": [
+        "CLEAN_GAP_AC:923_cph_redirect",
+        "CLEAN_GAP_AC:923_ho_part",
+        "CLEAN_GAP_AC:923_cfh_separate"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_learned_root_readings_nine_hundred_twenty_third/PASS923_REPORT.md",
+          "line": 1,
+          "line_end": 28,
+          "quote": "# Pass 923 — die zehn gelernten Fachwurzeln\n\n## Endfassung\n\nAlle 141 Vorkommen wurden in ihrem vollständigen Arbeitszug gelesen. Die kürzeste\nstabile Werkstattliste lautet:\n\n`SHED absetzen`, `SOLK auffangen`, `LSH spülen`, `CPH umleiten`, `HO Teil`,\n`AN Zusatz`, `CFH trennen`, `OS dazu`, `LD befestigen`,\n`RESUME_CARD wiederaufnehmen`.\n\n## Drei sinnvolle Kürzungen\n\n- `CPH`: **UMLEITEN** ersetzt das zu gerichtete „rückführen“. In Herbal ist es\n  zweiter Durchgang, in Bio Empfangsstation, im Rad Gegenstelle, in Pharma Empfänger.\n- `HO`: **TEIL** ersetzt „Stoffteil“. Der sichtbare Besitzer liefert erst Pflanze,\n  Figur, Objekt oder Zutat.\n- `CFH`: **TRENNEN** ersetzt „pressen“. Auspressen ist nur die konkrete\n  Pflanzen-/Pharma-Ausführung; im Himmelsregister bleibt eine Trennkennung möglich.\n\nDamit hat keine gelernte Wurzel mehr eine Satzglosse. Selbst die memorierte Schicht\nbesteht aus einwortigen Werkstattwerten.\n\n## Nächster Schritt\n\nDiese drei Revisionen werden jetzt durch das komplette 2511-Gruppen-Wörterbuch und\ndie 1435 Prosaarbeitszüge propagiert. Danach besitzen wir eine neue, konsistente\nGesamtausgabe ohne die alten langen CPH/HO/CFH-Deutungen.",
+          "sha256": "19523f48d31d06900097f2022d01075b2ba07395743c960a0915ada2fcabbb12"
+        }
+      ],
+      "counterparts": [
+        {
+          "target": "SEM:6ba1c730d9c115903133",
+          "claim": "CPH → GEGEN-/EMPFANGSGANG",
+          "claim_type": "lexical_hypothesis",
+          "relationship": "related_not_equivalent",
+          "limit": "Counter/receiving course is not automatically the same proposition as redirecting.",
+          "target_basis_sha256": "636767ef67359f107f7605ad074bd4cdf8718ab53b57885fcfc483dcb8976702",
+          "effective_basis_sha256": "fa13458668751a906d90885eaf270a9373ddf62e31b86e504a73200aa5b86090",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 19,
+              "line_end": 22,
+              "path": "experiments/yolo/sidequest_semantic_local_drawer_ordering_nine_hundred_eleventh/PASS911_REPORT.md",
+              "quote": "`CPH = GEGEN-/EMPFANGSGANG`. Seine zwölf sichtbaren Verwendungen verteilen sich\nüber alle vier Register. Im Pflanzen-/Zutatenregister ergibt er Nachlauf oder\nzweiten Durchgang, im Beckenregister Rücklauf zur Empfangsstation und im Himmelsrad\neine Gegen- oder Rückstelle. Das gemeinsame Minimum ist topologisch, nicht stofflich.",
+              "sha256": "8bae98dd0a9b088ec095b97e34b31c0870b569277eb6b1ac8da1367e34f6dfa0",
+              "source_id": "LEGACY_COMPONENT:6c5c6da63e230d23d470",
+              "source_section": "Der neue kurze Kern",
+              "table_header": null
+            }
+          ]
+        },
+        {
+          "target": "SEM:f423d9a7417f3d44e6b8",
+          "claim": "CFH → AUSPRESSEN",
+          "claim_type": "lexical_hypothesis",
+          "relationship": "related_not_equivalent",
+          "limit": "Pressing is an explicitly narrower old CFH gloss, not the proposed general separating value.",
+          "target_basis_sha256": "7b75be5107b3f7b92da12b427952739a5bee08b3c750d0e60a59edc301a9de13",
+          "effective_basis_sha256": "353193d4f0fec0e06c2d9b00ac935f23a69a98b3f1e64c3309e23f6ca8f8004b",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 11,
+              "line_end": 11,
+              "path": "experiments/yolo/sidequest_semantic_cfh_press_eight_hundred_eleventh/EIGHT_HUNDRED_ELEVENTH_REPORT.md",
+              "quote": "> `CFH = AUSPRESSEN`",
+              "sha256": "ce5437d1c617aa8755e4da408f81e4c0bd0034013b4b6ebe83af3ad09be606f5",
+              "source_id": "LEGACY_COMPONENT:8f12ed7a777b1c2e7c3a",
+              "source_section": "Sidequest Pass 811: CFH is the pressing verb",
+              "table_header": null
+            }
+          ]
+        }
+      ],
+      "full_block_read": true,
+      "global_novelty_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:9eb088898de7394f0a67",
+      "decision": "joint_construction_recovered",
+      "reason": "The root and long-active-cell counterparts cover only parts. Preserve the complete duration/endpoint and valency proposal as one model, not separate meanings for the technical count rows or each example slot.",
+      "card_ids": [
+        "CLEAN_GAP_AC:sh_duration_valency"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_sh_hold_grid_six_hundred_sixty_seventh/SIX_HUNDRED_SIXTY_SEVENTH_REPORT.md",
+          "line": 1,
+          "line_end": 41,
+          "quote": "# Sidequest pass 667: SH is the hold verb\n\nThe shortest useful reading of **SH** is **HALTEN**. Twenty exact cards carry\nthat contribution in 25 occurrences and 19 recipes. The root is mobile: it can\nstart a statement, sit medially, finish one, or occupy a complete short cell.\n\nThis removes several old overreadings. `cheey/shey` need not mean “clear\nextract”, “visible result”, or a particular liquid. In the prose deck its\nportable construction is simply **SH+EE+Y = den laufenden Posten länger\nhalten**. A clear extract can still be the local object in the f11r workshop\nstory, but clarity is not stored in SH.\n\n## Duration and endpoint grid\n\nFour central cells occur:\n\n- SH+E+Y: hold briefly, keep the item active;\n- SH+E+DY: hold briefly and close;\n- SH+EE+Y: hold longer, keep the item active;\n- SH+EE+DY: hold longer and close.\n\nThe zero-grade and full-grade active/closed cells remain useful predictions.\nBare `sh` occurs once as the compact command HALTEN. All eight observed closed\nSH events are statement-final or occupy the whole statement.\n\n## Valency\n\nSH accepts the same workshop slots already seen around the other roots:\n\n- `AIIN`: hold to the prescribed measure;\n- `AL`: hold at the target;\n- `OL`: continue holding;\n- `CKH`: hold at/through a passage;\n- `CTH`: hold until ready;\n- `CHD`: hold and transfer;\n- `K`: add while holding;\n- `T`, `O`, and `R`: entry, work-cycle, and cooling modifiers.\n\nThis makes SH a genuine connecting verb rather than a special herbal noun.\nAdding it to the current root dictionary raises coverage from 80 to 93 exact\ncards and from 196 to 212 prose events.",
+          "sha256": "c87e6c8e8d6de602a0d0df635f1e54a64a66211ed210d237a2164cdddac2c9fa"
+        }
+      ],
+      "counterparts": [
+        {
+          "target": "SEM:9d512432d001b98a50ea",
+          "claim": "SH → HALTEN",
+          "claim_type": "lexical_hypothesis",
+          "relationship": "related_not_equivalent",
+          "limit": "SH hold alone lacks the joint duration/endpoint and valency model.",
+          "target_basis_sha256": "489d364648ba26b5b0d4818ee63b0448082515cb3ee3daa00ddeebc37b0b5fd4",
+          "effective_basis_sha256": "7ca73d13bc6b25e461cc10c4a4b5cdc218599ef124473ecb0cb2983e2dcff0e7",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 19,
+              "line_end": 19,
+              "path": "experiments/yolo/gdt420_action_head_slot_license_atlas/REPORT.md",
+              "quote": "- **SH=HALTEN:** E/EE, aber kein EEE; alle vier Argumente; Schluss möglich.",
+              "sha256": "67559ae568933f517d5b2d52553795e3db80db6df8320fc264a7f8649dcac1d8",
+              "source_id": "LEGACY_COMPONENT:9cb51f03a974b6b7c68a",
+              "source_section": "Die neun Kopfkarten",
+              "table_header": null
+            }
+          ]
+        },
+        {
+          "target": "SEM:bc4128e5030e6a3bb48b",
+          "claim": "Die Karte `SH+EE+Y` bedeutet HALTEN · LANG · POSTEN.",
+          "claim_type": "lexical_hypothesis",
+          "relationship": "related_not_equivalent",
+          "limit": "One long-active cell, not the complete four-cell grid or argument constraints.",
+          "target_basis_sha256": "c3e68bb7ccc054dbc702311486893cc8a903d10f795288cff0afcfda4fa2e987",
+          "effective_basis_sha256": "bd7b72694acd4a971b1f413147f638503f91228f505499da8fd7d2fdd893fdf9",
+          "evidence": [
+            {
+              "line": 1,
+              "path": "experiments/yolo/sidequest_semantic_model_book_leaf_eight_hundred_fifty_third/EIGHT_HUNDRED_FIFTY_THIRD_MODEL_BOOK_LEAF.md",
+              "quote": "# Musterblatt der kleinen Werkstatt",
+              "sha256": "b40ac63cd805b887671cfcd0fcde293f338f5756b025dd9ea2f565dba12080bb"
+            }
+          ]
+        }
+      ],
+      "full_block_read": true,
+      "global_novelty_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:9032ebc2f365883f94ba",
+      "decision": "explicit_historical_alternatives_recovered",
+      "reason": "Preserve the five literal current/older pairs separately as lexical hypotheses; one raw hypothesis gains an additional source case. They are real conflicting readings, not negated non-assignments, and do not form a newly asserted ten-part semantic conjunction. No winner is selected.",
+      "card_ids": [
+        "CLEAN_GAP_AC:201_tchody_current",
+        "CLEAN_GAP_AC:201_tchody_older",
+        "CLEAN_GAP_AC:201_qekey_current",
+        "CLEAN_GAP_AC:201_qekey_older",
+        "CLEAN_GAP_AC:201_dchey_current",
+        "CLEAN_GAP_AC:201_dchey_older",
+        "CLEAN_GAP_AC:201_sh_current",
+        "CLEAN_GAP_AC:201_sh_older",
+        "CLEAN_GAP_AC:201_dshedy_current",
+        "CLEAN_GAP_AC:201_dshedy_older"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_unified_prose_edition_two_hundred_first/TWO_HUNDRED_FIRST_UNIFIED_PROSE_REPORT.md",
+          "line": 1,
+          "line_end": 48,
+          "quote": "# Two-hundred-first pass: one current prose edition\n\n## Unified release\n\nThe four normalized sub-editions now form one continuous current prose reader:\n\n- 381 visible events;\n- 380 logical source tokens after the one line-edge read-once correction;\n- 135 fields;\n- 116 translated statements;\n- eleven records on seven fixed prose pages;\n- 173 exact cards with 230 unambiguous registered surfaces.\n\nEvery event has a visible form, normalized master form, exact card, short value,\nfield mode, owner and close status. Every statement has a literal card sequence\nand a fluent German working translation.\n\n## Dictionary architecture\n\nThe compact component/codebook architecture joins exactly to the current cards:\n\n| layer | card types | events |\n|---|---:|---:|\n| productive composition | 151 | 353 |\n| learned whole card | 22 | 28 |\n\nThis is a workable small-shop system. Most running text is built from reusable\ncomponents; the memorized deck is only twenty-two cards, several of which share\nshort teaching heads such as vessel, clear run or previous item. The 57 written\naliases are handled by the ten-rule reader sheet.\n\n## Important editorial warning\n\nThe new dictionary deliberately keeps two columns: the current card value and\nthe older component-closure reading snapshot. The current value controls the\nnew translations. The snapshot is not silently treated as current because it\nexposes unresolved historical conflicts, notably:\n\n- `tchody`: final addition versus cool/store;\n- `qekey`: brief processing versus raw;\n- `dchey`: base part versus root;\n- `sh`: hold versus stalk;\n- `dshedy`: short settle versus fresh water.\n\nThese are now the highest-value next targets. A compact audit of all twenty-two\nwhole cards should choose one short default for each from their complete local\noccurrences and visible owners. No new component is needed until that deck is\ninternally consistent.",
+          "sha256": "0a7da30748203ef6f3fec74b93e2c408ab9a88646b84816535629c09a144264b"
+        }
+      ],
+      "counterparts": [
+        {
+          "target": "SEM:1a100826de5f2f08f2c0",
+          "claim": "QEKEY → ROH",
+          "claim_type": "lexical_hypothesis",
+          "relationship": "same_assertion_new_source_case",
+          "limit": "Exact old raw alternative, retained as historical conflict rather than selected current value.",
+          "target_basis_sha256": "84ced3b088c99f337eccda36b6ed5fde79222678b2e5f99c8e828b1494e633cb",
+          "effective_basis_sha256": "dd90523d5f301c0bf6992934a23f82a3b933f83bcb91535d28bff79184bf50e5",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 145,
+              "line_end": 145,
+              "path": "experiments/yolo/sidequest_semantic_thermal_temporal_completion/R2_REPORT.md",
+              "quote": "- `QEKEY = ROH`;",
+              "sha256": "3938eafaba2acf826e87f2e22a7ba993dcecf2a14a6e8b896ce405b20bdcab14",
+              "source_id": "LEGACY_COMPONENT:327cdebbe2729903fe41",
+              "source_section": "4. CTH: BEREIT; SHECTHY bleibt TEMPERIERT",
+              "table_header": null
+            }
+          ]
+        },
+        {
+          "target": "SEM:fb19ac72b525ba023d49",
+          "claim": "dchey → PFLANZENTEIL/WURZEL",
+          "claim_type": "lexical_hypothesis",
+          "relationship": "related_not_equivalent",
+          "limit": "Plant-part/root disjunction does not equal the root-only snapshot.",
+          "target_basis_sha256": "ab17ffa4cf513da3615f61a42a5eb85646b06fa216c4ef8a2f96ad9e35098247",
+          "effective_basis_sha256": "1096b66ab6f15d0884f470a3df0c5bce03a8b2d72b6fbee84f1263666b787aed",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 74,
+              "line_end": 76,
+              "path": "experiments/yolo/sidequest_semantic_apprentice_codebook/APPRENTICE_CODEBOOK_REPORT.md",
+              "quote": "unterrichtet. Der Lehrling schlaegt nur `dchey=PFLANZENTEIL/WURZEL` und\n`os=GEFAESS` nach. Den Rest baut er aus dem produktiven Kasten. Die laufende\nWerkstattanweisung lautet:",
+              "sha256": "2e0370a78e63eb2ce1498d86e88b7e3c21f549e56cbb9384e79e61faaae264de",
+              "source_id": "LEGACY_COMPONENT:4aa30e1cc915be1d9b42",
+              "source_section": "Beispiel einer Ruecklesung",
+              "table_header": null
+            }
+          ]
+        },
+        {
+          "target": "SEM:51060534a6ef2e618bea",
+          "claim": "DSHEDY → SAUBERES WASSER ZUGEBEN; SCHLUSS",
+          "claim_type": "lexical_hypothesis",
+          "relationship": "related_not_equivalent",
+          "limit": "Add clean water and close is stronger than the fresh-water snapshot.",
+          "target_basis_sha256": "d0046a077d0a88b6a129ca74b03138485a113fddaa5ba98746cc1df48081a182",
+          "effective_basis_sha256": "1cf71392612d29906ed94b174b0201f9ac051f0ab5a551505a096802b2c2d8c8",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 62,
+              "line_end": 66,
+              "path": "experiments/yolo/sidequest_semantic_filtration_separation_completion/WORKSHOP_FILTRATION_REPORT.md",
+              "quote": "Daneben bleiben konkrete Karten erhalten: `CHEEETY=ERSTSPÜLUNG`,\n`LKEDY=DOPPELWÄSCHE; SCHLUSS`, `CHOY=MIT WASSER WASCHEN`,\n`DSHEDY=SAUBERES WASSER ZUGEBEN; SCHLUSS` und\n`RSHEDY=TEIL ALS WASCHUNG; SCHLUSS`. Gerade `DSHEDY` und `LSHEDY` zeigen,\ndass sichtbares SHED nicht automatisch die Ruhefamilie ist.",
+              "sha256": "5ff712952a88928ba1f596a08a1951f11d9409e4182202585e07ce2d4b9ba77a",
+              "source_id": "LEGACY_COMPONENT:dbf9128d45279da0b4b3",
+              "source_section": "1. Waschen und benetzen",
+              "table_header": null
+            }
+          ]
+        },
+        {
+          "target": "SEM:4fda516189260f87b030",
+          "claim": "dshedy → hold briefly; close",
+          "claim_type": "lexical_hypothesis",
+          "relationship": "related_not_equivalent",
+          "limit": "Hold briefly is not silently equated with settle briefly.",
+          "target_basis_sha256": "d6dd09ad367bbb6c9009e07ab7bb4ed58c43a341e348887924b4b767c46dde3b",
+          "effective_basis_sha256": "6b53c4950a8d2e7713632f9e21e57b92cdf56b7f022c3e8f9fde90a666c212b1",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 35,
+              "line_end": 35,
+              "path": "experiments/yolo/sidequest_semantic_productive_paradigm_table_six_hundred_thirty_fifth/SIX_HUNDRED_THIRTY_FIFTH_REPORT.md",
+              "quote": "| `dshedy` | hold briefly; close |",
+              "sha256": "4c9b99fc964fd1e97b7424915fe9d66d2e60db1bafb42cd9944e13e3d9d4aead",
+              "source_id": "LEGACY_COMPONENT:ed240b3cc6bab5edbe98",
+              "source_section": "2. `SH × E/EE × Y/DY`",
+              "table_header": "| Form | Reading |"
+            }
+          ]
+        }
+      ],
+      "full_block_read": true,
+      "global_novelty_claim": false
+    }
+  ],
+  "validation": {
+    "status": "PASS",
+    "r_scope_blocks_reviewed": 7,
+    "cards": 23,
+    "same_assertion_additional_source_cases": 6,
+    "exact_quote_sha_checks": 28,
+    "validate_card_pass": 23,
+    "private_ids_exported": 0
+  }
+}

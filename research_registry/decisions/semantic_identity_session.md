@@ -72,3 +72,13 @@ blocks. Unknown is whether complete joint propositions are absent despite atom
 coverage. Each outcome changes inclusion or preserves a separate source case.
 Budget20minutes per source batch, then root review, validation and publication;
 no decoder work or automatic promotion of recovered historical meanings.
+
+18:37UTC checkpoint: AA/AB/AC/AE/AF/AG/AI recover53 addressable source variants
+(including one formal rule and one explicitly marked default instance), with
+no global novelty claim. AD preserves the exposed BACA/strict-residual distinction.
+AJ/AK primary-check60 type cases after396 title views:54 semantic retypes, five
+formal retentions and one source-error archive; BACA adds one separate retype.
+The other336 title-only cases remain unreviewed. Next bounded work expands source
+recovery to three disjoint100-block sidequest cohorts,25minutes each including
+source checks; independent peer review and publication follow. No experiment or
+new infrastructure is selected from these source-memory findings.

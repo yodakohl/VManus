@@ -1,0 +1,1186 @@
+{
+  "schema": "semantic_source_coverage_gap_v1",
+  "review_id": "SOURCE_COVERAGE_GAP_BATCH_AG",
+  "scope": "Bounded GDT601–871 public primary-report source recovery",
+  "selection": {
+    "population": "tracked /REPORT.md unresolved_block, 3–21 lines, title matching reading/meaning/translation/default/interpretation/semantic/phrase/lexicon/decision/Lesung/Wörter/Bedeut",
+    "ordering": "GDT number, start line, end line, source ID; first forty mutually nonoverlapping eligible spans",
+    "prior_review_exclusions": [
+      "J",
+      "M",
+      "R",
+      "V",
+      "AB"
+    ],
+    "eligible_before_limit": 97
+  },
+  "input_sha256": {
+    "research_registry/decisions/source_coverage_gap_batch_j.json": "e293fc991a63f95749f03fab41870b189ddae43471199250202b17f8108f7f7c",
+    "research_registry/decisions/source_coverage_gap_batch_m.json": "e37d56e745dafc5dbfa3203d8a497708324e0021319a7b7344851cbd739fe673",
+    "research_registry/decisions/source_coverage_gap_batch_r.json": "e37aff979c3935f85a8c0ca8646c8b304d614f8d6162f9e94253e92204d49a6c",
+    "research_registry/decisions/source_coverage_gap_batch_v.json": "5c3b4c401ca7177780a9073e09459a7a936239366a53bbed40af91dfb53eaf8d",
+    "research_registry/decisions/source_coverage_gap_batch_ab.json": "3f030b313271d176d45f43228f43e6d996fec6123b3deaef87cf74adf65f7638"
+  },
+  "reviewed_blocks": [
+    {
+      "source_id": "LEGACY_COMPONENT:79e3f2b29c2e98658816",
+      "selection_index": 0,
+      "gdt": "GDT603",
+      "title": "Interpretation",
+      "evidence": {
+        "path": "experiments/yolo/gdt603_naibbe_end_to_end_control/REPORT.md",
+        "line": 29,
+        "line_end": 42,
+        "quote": "## Interpretation\n\nThis closes the missing step between GDT602's oracle-segmented key recovery and\na genuinely end-to-end control. A verbose homophonic P+S cipher can be broken\nfrom token strings and language order when its architecture and capacities are\nknown.\n\nIt is not yet a Voynich solution. Naibbe is a modern generator, its exact\npublished key already fails on the f84-free target in GDT601, and the real\nmanuscript has not supplied independent evidence for three 138-entry states or\nsix homophones per letter. The justified next action is an unchanged target\nfalsifier with held physical folios, restart agreement, multiple historical\nlanguage models and order-destroying nulls. Any attractive line that does not\nsurvive those comparisons is pseudo-language, not a reading.",
+        "sha256": "d3ada3f029d0936e2ba36264a257f7281e6d5e3a73f4a0039bad48386406761d"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_or_result_not_a_concrete_meaning_proposition",
+      "reason": "Modern Naibbe control recovery and future target requirements, explicitly no Voynich reading.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:06734d9eedb45de28730",
+      "selection_index": 1,
+      "gdt": "GDT604",
+      "title": "GDT604 — no stable Naibbe-family target reading",
+      "evidence": {
+        "path": "experiments/yolo/gdt604_naibbe_frozen_target_attack/REPORT.md",
+        "line": 1,
+        "line_end": 3,
+        "quote": "# GDT604 — no stable Naibbe-family target reading\n\nStatus: **LM_DRIVEN_PSEUDOTEXT_NO_READING**.",
+        "sha256": "54e7232c5cca3621cf2d74c8b95189eeab512b390e9d8b222091ce59e76e37ef"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_or_result_not_a_concrete_meaning_proposition",
+      "reason": "Status-only negative result; no concrete proposition supplied in this span.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:beeefea221a5afb0a92c",
+      "selection_index": 2,
+      "gdt": "GDT608",
+      "title": "Endinterpretation",
+      "evidence": {
+        "path": "experiments/yolo/gdt608_compositional_stem_orientation/REPORT.md",
+        "line": 334,
+        "line_end": 350,
+        "quote": "## Endinterpretation\n\nDie 98-Unit-Schicht hat eine hierarchische, gerichtete Backoffstruktur:\n\n```text\nlinke Komponente  -> linker Außenkontext + Initialtendenz\nrechte Komponente -> rechter Außenkontext + Finaltendenz\nexakte Merge-ID   -> Joint-/Standalone- und paarspezifische Residualrolle\n```\n\nDiese Architektur ist praktisch verwertbar: Für seltene tiefe Einheiten kann\ndie Komposition einen besseren formalen Backoff liefern als deren kleine eigene\nTrain-Stichprobe.  Sie rechtfertigt aber keine Stammübersetzung.  Besonders die\n`o`-Familie verhindert einen einheitlichen Schlüssel: gleiche linke Komponente,\nmehrere deutlich verschiedene held Rollen.  Der nächste Decoder darf\nKomponentenprofile als geglätteten Prior verwenden, muss aber die exakte\nMerge-Identität und Joint-Grenzabhängigkeiten erhalten.",
+        "sha256": "7c59478cdd9e9a7d4c4a3bda6c369892411f7830aefc49b3dce9a041d4e8c501"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_or_result_not_a_concrete_meaning_proposition",
+      "reason": "Formal component backoff and exact merge identity, expressly not stem meanings.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:4a5df6a71284336cd9f2",
+      "selection_index": 3,
+      "gdt": "GDT611",
+      "title": "Vollständiger Mini-Wörterbuch-Kandidat",
+      "evidence": {
+        "path": "experiments/yolo/gdt611_lexical_slot_permutation_audit/REPORT.md",
+        "line": 90,
+        "line_end": 97,
+        "quote": "Die Bedeutungsnamen sind reproduzierbare Defaults: innerhalb jeder\ntrain-only gewählten Familie werden sie nach absteigender train-Frequenz\nvergeben. Fragezeichen sind obligatorisch. `Score` ist für Section-Familien ein\nCarrier-versus-Rest Log-Odds-Kontrast und für Operationen der eingefrorene\nformale Entry-/Zeilenanfang-Z-Score. `p held` stammt aus 1,000\nphysical-folio-erhaltenden Section-Permutationen; für Operationen ist er nicht\nanwendbar. `Frames` zählt exakt wiederverwendete held-Frames mit einem anderen\nausgewählten Familienmitglied.",
+        "sha256": "aad67979e00d9c3fa946c4fec0282b2e6753c7af4dd77c721102bf73c668458d"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_or_result_not_a_concrete_meaning_proposition",
+      "reason": "Names assigned by training frequency are methodological defaults, not independent recovered vocabulary.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:534c69d7cae3c4784bfb",
+      "selection_index": 4,
+      "gdt": "GDT612",
+      "title": "Interpretation and next route",
+      "evidence": {
+        "path": "experiments/yolo/gdt612_historical_fst34_target_attack/REPORT.md",
+        "line": 249,
+        "line_end": 252,
+        "quote": "Do not promote the positive Held-order margin, `y` suffix role, or any dominant\nreference word as a translation. A future extension must first recover the\nsynthetic primitive and merge key to a prospectively fixed threshold and must\nbeat the present zero-span stability result without using Held selection.",
+        "sha256": "33a51479b97eb239463a6d8a8c7285badb5e04eaf081ce6f44bb6756c0adb9d4"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_or_result_not_a_concrete_meaning_proposition",
+      "reason": "Negative export warning and future control gate, not an asserted translation.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:3b74f892af690697400b",
+      "selection_index": 5,
+      "gdt": "GDT616",
+      "title": "Decision consequence",
+      "evidence": {
+        "path": "experiments/yolo/gdt616_joint_child_feasible_binding/REPORT.md",
+        "line": 41,
+        "line_end": 44,
+        "quote": "This closes only the registered synthetic FST34/V2 configuration. It does not\nshow that primitive composition, abbreviation, Latin, ciphering, or natural\nlanguage is impossible in the manuscript. It assigns no Voynich glyph, unit,\nsound, word, language, plaintext, object, operation, or meaning.",
+        "sha256": "0f002f5f541a7758b17c8aff985ccb2e28de2ef626625f48cb8327cbddb2a4a5"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_or_result_not_a_concrete_meaning_proposition",
+      "reason": "Synthetic configuration failure with explicit non-propagation to manuscript meanings.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:e03509aac2cd09c13902",
+      "selection_index": 6,
+      "gdt": "GDT622",
+      "title": "Alternate readings and attachment distance",
+      "evidence": {
+        "path": "experiments/yolo/gdt622_clm667_temperament_codebook/REPORT.md",
+        "line": 113,
+        "line_end": 117,
+        "quote": "ZL3b, IT2a, and RF1b are alternate readings of one manuscript. Stable points\ninclude f24r.12 `qokchy qotchy`, f25r.3 `qotchy qotshy`, f45r.3 `kchol daiin`,\nand f38r.1 `tolor ... okshol`. The crucial f3r dry corner is less secure:\nZL3b/RF1b read `qokshey`, while IT2a reads `qokchey`. f41v's label also varies\nacross all three readings.",
+        "sha256": "3478e452acb278d18839076ed15570be66c90b72bc33dcb15d0789cab63cb5e2"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_or_result_not_a_concrete_meaning_proposition",
+      "reason": "Alternate-reading fidelity and attachment uncertainty only.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:2b38832cfe35dd249242",
+      "selection_index": 7,
+      "gdt": "GDT624",
+      "title": "First practical Herbal phrases",
+      "evidence": {
+        "path": "experiments/yolo/gdt624_productive_quality_shell_grid/REPORT.md",
+        "line": 118,
+        "line_end": 121,
+        "quote": "The last reading matters because f23v.4 describes the root on the same page as\nhot-dry while f23v.6 describes the reproductive head as hot-moist. This is more\ncoherent as part-specific quality information than as one page-wide plant\ntemperament. It also explains why distant page-level attachment was misleading.",
+        "sha256": "30eef6793c7f8f11f0248eb7f4edff360b0596f4d762a250c91cc06f3fee2129"
+      },
+      "full_selected_span_read": true,
+      "disposition": "concrete_source_proposition_recovered",
+      "reason": "The contrast assigns different qualities to two parts and rejects a page-wide attachment. This independent binding proposition is not captured by isolated hot/dry/moist or plant-part meanings.",
+      "card_ids": [
+        "CLEAN_GAP_AG:f23_part_quality"
+      ],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:47952aa9a89948506da1",
+      "selection_index": 8,
+      "gdt": "GDT625",
+      "title": "The corrected f29v reading",
+      "evidence": {
+        "path": "experiments/yolo/gdt625_ordered_quality_state_transitions/REPORT.md",
+        "line": 66,
+        "line_end": 69,
+        "quote": "The drawing contains one plant but visibly different drug parts: flower,\nbuds/fruiting bodies, two large leaves and rootstock. That makes two parallel\npart-state phrases more economical than a time sequence. Drying remains a\nsecondary reading, not the preferred one.",
+        "sha256": "56a3e9fc0ffc623f57b1fa6ff9c5dc73cfb610731081992a97e932cb19b34db4"
+      },
+      "full_selected_span_read": true,
+      "disposition": "concrete_source_proposition_recovered",
+      "reason": "The source explicitly contrasts parallel part-state attachment with a still-live drying sequence. Preserve both scoped propositions, not just an unordered set of component qualities.",
+      "card_ids": [
+        "CLEAN_GAP_AG:f29_parallel_parts",
+        "CLEAN_GAP_AG:f29_drying_rival"
+      ],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:c23640acaa05da783e1b",
+      "selection_index": 9,
+      "gdt": "GDT626",
+      "title": "Why I/II/III/IV is the best practical default",
+      "evidence": {
+        "path": "experiments/yolo/gdt626_mobile_operation_lexicon/REPORT.md",
+        "line": 52,
+        "line_end": 60,
+        "quote": "The strongest countermodel is therefore not random spelling but a four-grade\ninflectional or abbreviation slot. Its distributions really are conditioned:\nvalue III among II+III is 0.821 in Herbal but 0.455 in Biological material,\nand 0.840 for Hand 1 versus 0.608 for Hand 2. Value I is also line-final in\n38/102 cases, compared with 368/3,404 value-III cases. GDT626 keeps that rival\nalive. Yet conditioning does not contradict a numerical code: medieval\nquantities and degrees also vary by content and scribe. The new reader is a\nworking default because it predicts concrete compounds that the pure\ninflection account does not yet interpret.",
+        "sha256": "e1f8c803562e1d1b2ea74b0df0f7ce61ee8d11e0bc73c22c3268641d1458cc3d"
+      },
+      "full_selected_span_read": true,
+      "disposition": "concrete_source_proposition_recovered",
+      "reason": "The rival is an actual named encoding/grammar hypothesis, not the reported frequency counts. The different terminal-family card does not establish whole-proposition identity.",
+      "card_ids": [
+        "CLEAN_GAP_AG:four_grade_inflection"
+      ],
+      "compared_current_cases": [
+        {
+          "target": "SEM:2439054b2b3a3d8c2fcc",
+          "claim": "The four Biological terminal families are inflectional or allographic word families.",
+          "relationship": "related_not_equivalent",
+          "reason": "That older proposal concerns four Biological terminal families, not this exact GDT626 terminal grade series.",
+          "target_basis_sha256": "fc092ccbf62ac81e575d2efab37c5b589376b1ed8e55b6d7d30dbf592d7b6d84",
+          "evidence": [
+            {
+              "line": 115,
+              "path": "experiments/yolo/sidequest_theory_candidates_v9/CANDIDATE_V9_ADVERSARIAL_TERMINALS.md",
+              "quote": "## Why the other rivals lose",
+              "sha256": "a9b27d9663c1755b78c5c60290082c417b726af562b738de50db022f99649ece"
+            }
+          ]
+        }
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:b80ed33d931615d683f4",
+      "selection_index": 10,
+      "gdt": "GDT626",
+      "title": "Concrete quality readings",
+      "evidence": {
+        "path": "experiments/yolo/gdt626_mobile_operation_lexicon/REPORT.md",
+        "line": 86,
+        "line_end": 90,
+        "quote": "This mirrors real early-fifteenth-century materia-medica phrasing. Wellcome\nMS.542 describes aloes as hot and dry in the second degree and white hellebore\nroot as hot and dry in the third degree. Pal.lat.1234 organizes drugs under\nhot-degree rubrics from first through fourth. The manuscripts do not decode\nVoynich, but they demonstrate that the exact semantic architecture existed.",
+        "sha256": "e1f8c803562e1d1b2ea74b0df0f7ce61ee8d11e0bc73c22c3268641d1458cc3d"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_or_result_not_a_concrete_meaning_proposition",
+      "reason": "Historical comparison vocabulary is not bound to a Voynich form; no new manuscript hypothesis in this span.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:73e7e1b632f11005b8c9",
+      "selection_index": 11,
+      "gdt": "GDT627",
+      "title": "Concrete translation gain",
+      "evidence": {
+        "path": "experiments/yolo/gdt627_value_head_role_atlas/REPORT.md",
+        "line": 162,
+        "line_end": 181,
+        "quote": "## Concrete translation gain\n\nThe gain over the rejected generic prose is categorical. We no longer render\na line as “take material, do work, pass onward.” We can now recover bounded\nclaims with explicit values:\n\n```text\nqokaiin shaiin\nhot, degree III; moist, degree III\n\nchor daiin cthy\nreproductive plant part: three measures; leaf material\n```\n\nThe unknowns are visible rather than hidden: the exact plant term behind\n`chor`, the unit selected by `d`, and the wider syntax around these clauses.\nThe next useful target is consequently `chol`, because it is the fixed\npredecessor of every value in the only identical I–IV `d` frame. Resolving that\nhead can turn the current local amount phrase into a fuller ingredient or\nrecord clause without reopening the already established value architecture.",
+        "sha256": "db6df328d4bdf7b0595cff5573078deb8a6dbc67e4ffb31f47d94519728d96ba"
+      },
+      "full_selected_span_read": true,
+      "disposition": "concrete_source_proposition_recovered",
+      "reason": "The first example has an exact existing proposition. The second names the part/quantity/next-part relation and is not made addressable by its constituent meanings alone; retain one scoped phrase, not three new word meanings.",
+      "card_ids": [
+        "CLEAN_GAP_AG:hot_moist_three_case",
+        "CLEAN_GAP_AG:part_measure_next_leaf"
+      ],
+      "compared_current_cases": [
+        {
+          "target": "SEM:594c68bc0f9129e79d09",
+          "claim": "qokaiin shaiin → hot degree III; moist degree III",
+          "relationship": "same_assertion_new_source_case",
+          "reason": "The exact qokaiin shaiin reading is already addressable; add this separate report passage as provenance only.",
+          "target_basis_sha256": "ccf0874d25acf7f8f8de2a747c7cac9f685b612142694f738bd8d1642506ef0d",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 62,
+              "line_end": 62,
+              "path": "experiments/yolo/gdt627_value_head_role_atlas/REPORT.md",
+              "quote": "| f106r.20 | `qokaiin shaiin` | hot degree III; moist degree III |",
+              "sha256": "db6df328d4bdf7b0595cff5573078deb8a6dbc67e4ffb31f47d94519728d96ba",
+              "source_id": "LEGACY_COMPONENT:ce466313a5d0d3fff619",
+              "source_section": "Separate quality words agree locally",
+              "table_header": "| locus | surface | reading |"
+            }
+          ]
+        }
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:962c611487a2b7b888f9",
+      "selection_index": 12,
+      "gdt": "GDT628",
+      "title": "Drei Schreibungen derselben Wertphrase",
+      "evidence": {
+        "path": "experiments/yolo/gdt628_chol_measure_frame/REPORT.md",
+        "line": 99,
+        "line_end": 102,
+        "quote": "Die getrennte `chol`-Serie belegt alle vier Werte. Ihre Gesamtverteilung ist\nI=2, II=4, III=35, IV=2. Die starke III-Häufung ist kein Beweis für die\nBedeutung; die Qualität kommt aus dem ganzen Parallelgitter, nicht aus der\nHäufigkeit einer Zahl.",
+        "sha256": "c66cdf8f4c7766ec1f32a9f2eeae1bf599fff95386c2f93fa71733cd1f279264"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_or_result_not_a_concrete_meaning_proposition",
+      "reason": "Observed I–IV frequency distribution with explicit warning that counts do not establish meaning.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:9d93e4f6ba52c6e70c46",
+      "selection_index": 13,
+      "gdt": "GDT628",
+      "title": "Welche terminalen Zeilen tragen die Lesung selbst?",
+      "evidence": {
+        "path": "experiments/yolo/gdt628_chol_measure_frame/REPORT.md",
+        "line": 106,
+        "line_end": 108,
+        "quote": "GDT627 hatte dreizehn Zeilen gefunden, die mit `chol d-WERT` enden. GDT628\nübersetzt sie standardmäßig als Trockenheitsgrad, bewertet aber den lokalen\nKontext getrennt:",
+        "sha256": "c66cdf8f4c7766ec1f32a9f2eeae1bf599fff95386c2f93fa71733cd1f279264"
+      },
+      "full_selected_span_read": true,
+      "disposition": "concrete_source_proposition_recovered",
+      "reason": "The default concerns a typed whole construction, which is independently distinguishable from a count of dry material. It is not merely the existing chol gloss.",
+      "card_ids": [
+        "CLEAN_GAP_AG:terminal_dry_degree"
+      ],
+      "compared_current_cases": [
+        {
+          "target": "SEM:7227563b53eb8be1d4ae",
+          "claim": "chol → trocken; trockenes Gut",
+          "relationship": "related_not_equivalent",
+          "reason": "Bare chol dry/dry goods does not determine how the following d-value attaches.",
+          "target_basis_sha256": "3bb27bad134c8fed89080b935dbde7b21ce47babf4aa9a57aee76a621ed86ec6",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 46,
+              "line_end": 46,
+              "path": "experiments/yolo/gdt628_chol_measure_frame/REPORT.md",
+              "quote": "| `chol` | 343 | 303 | trocken; trockenes Gut |",
+              "sha256": "c66cdf8f4c7766ec1f32a9f2eeae1bf599fff95386c2f93fa71733cd1f279264",
+              "source_id": "LEGACY_COMPONENT:db6fe030a986d958200b",
+              "source_section": "Das `ol/or`-Gitter",
+              "table_header": "| Form | Token | stabil | Arbeitslesung |"
+            }
+          ]
+        }
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:97a2b16d908c51651085",
+      "selection_index": 14,
+      "gdt": "GDT628",
+      "title": "Welche terminalen Zeilen tragen die Lesung selbst?",
+      "evidence": {
+        "path": "experiments/yolo/gdt628_chol_measure_frame/REPORT.md",
+        "line": 145,
+        "line_end": 149,
+        "quote": "f37v.23 ist anders. `yto chol daiin` erlaubt sowohl „`yto`: trocken im dritten\nGrad“ als auch „`yto`, drei Portionen Trockenmaterial“. Die Zeile benutzt die\nWörterbuchlesung, beweist sie aber nicht. f47v.9 und f56v.16 enthalten doppelte\noder dreifache `chol`-Formen; sie brauchen Zellgrenzen und dürfen nicht als ein\neinziger deutscher Satz glattgebügelt werden.",
+        "sha256": "c66cdf8f4c7766ec1f32a9f2eeae1bf599fff95386c2f93fa71733cd1f279264"
+      },
+      "full_selected_span_read": true,
+      "disposition": "concrete_source_proposition_recovered",
+      "reason": "Degree versus material amount is an independently testable attachment/type contrast. The source preserves both readings and requires cell boundaries in other repeated-chol examples; no smoother sentence selects a winner.",
+      "card_ids": [
+        "CLEAN_GAP_AG:yto_dry_degree",
+        "CLEAN_GAP_AG:yto_dry_portions"
+      ],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:3b23c2a3d41bec3cc516",
+      "selection_index": 15,
+      "gdt": "GDT629",
+      "title": "Nächster bedeutungsentscheidender Schritt",
+      "evidence": {
+        "path": "experiments/yolo/gdt629_part_quality_degree_clause/REPORT.md",
+        "line": 162,
+        "line_end": 170,
+        "quote": "## Nächster bedeutungsentscheidender Schritt\n\nDie offene Frage ist nun nicht mehr, ob fusionierte und getrennte Trocken-III-\nFormen zusammengehören. Das ist an zwei identischen Manuskriptspans gezeigt.\nAls Nächstes muss der äußere Träger der 15 fusionierten `OL+dN`-Vorkommen\ngegen die 120 getrennten `OL dN`-Vorkommen verfolgt werden. Gesucht wird eine\nsichtbare wiederkehrende Part-/Stoffanbindung, die auch außerhalb von `chor`\nkonkrete Substantive liefert; es werden dafür zunächst keine neue Seite und\nkein neues Bild geöffnet.",
+        "sha256": "d12d80e7f1651063e8c3b1b381abea92ea5ab5587717b139051ca4bc0443ae53"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_or_result_not_a_concrete_meaning_proposition",
+      "reason": "A proposed search for a new source binding, not a concrete bound noun hypothesis.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:6a1cbf544f6116e1efad",
+      "selection_index": 16,
+      "gdt": "GDT630",
+      "title": "Fusion betrifft die innere Phrase",
+      "evidence": {
+        "path": "experiments/yolo/gdt630_outer_carrier_attachment/REPORT.md",
+        "line": 74,
+        "line_end": 80,
+        "quote": "Alle sechs fusionierten Zellen besitzen getrennte Gegenstücke, zusammen 56.\nNeun der 15 fusionierten Tokens sind in allen drei Lesungen exakt, 13 als\nzusammenhängende Zeichenfolge grenznormalisiert. Bei f8r.9, f49r.6,\nf100r.22 und f88v.15 wechselt ein Leser zwischen Fusion und Trennung, während\ndie Zeichenfolge in allen drei Fassungen erhalten bleibt. f55v.1 liefert eine\nweitere paarweise `otoldaiin ↔ otol daiin`-Brücke, doch RF1b lässt dort `d`\naus.",
+        "sha256": "6d775bfdb49e1bbdb90cc9b655b3d1c053c0fad52799e67b06bf2840d354b56f"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_or_result_not_a_concrete_meaning_proposition",
+      "reason": "The selected span reports validation, provenance, coverage, source agreement, limitations or a next-work direction without a new concrete meaning assignment. No placeholder idea is created.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:32ec8920371248056b1a",
+      "selection_index": 17,
+      "gdt": "GDT632",
+      "title": "Wörterbuchstand und nächster Hebel",
+      "evidence": {
+        "path": "experiments/yolo/gdt632_cth_interfix_lattice/REPORT.md",
+        "line": 252,
+        "line_end": 255,
+        "quote": "V9 enthält 67 Einträge: 47 aus V8 und zwanzig neue Kompositionskarten. Neu sind\nder geordnete Rahmen, die acht linken Shell-/Zielklassen, der innere\n`o+cth+R`-Kopf und konkrete `...cthy`-Defaults. `e` und `o` bleiben bewusst\nohne deutsches Lexem.",
+        "sha256": "f2fdebfaa317cd0848cc2bcdf9308c0ec625b80e068b0f0ed8e6cb7423a6a1a8"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_or_result_not_a_concrete_meaning_proposition",
+      "reason": "Dictionary inventory and unglossed e/o, not a newly specified meaning.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:4614d53824656e5adb01",
+      "selection_index": 18,
+      "gdt": "GDT635",
+      "title": "Zehn praktische Lesungen",
+      "evidence": {
+        "path": "experiments/yolo/gdt635_initial_head_same_remainder_swaps/REPORT.md",
+        "line": 73,
+        "line_end": 75,
+        "quote": "1. `f75r.13 pchedy keedy`\n   **getrocknetes Pulver, erhitzt auf Stufe II.** Beide Token sind in allen\n   drei Lesungen exakt.",
+        "sha256": "31bd8ff643e7e0e651e34d4e2d711a94cab57ff7a1be50e1e1bb33555d9f90d7"
+      },
+      "full_selected_span_read": true,
+      "disposition": "concrete_source_proposition_recovered",
+      "reason": "The report asserts one exact local material-plus-thermal reading. No existing full phrase was located; the root gloss and formal parse preserve only pieces. Preserve one local reading, with no claim that it is a distinct decoder or independently established physical action.",
+      "card_ids": [
+        "CLEAN_GAP_AG:powder_heat_ii"
+      ],
+      "compared_current_cases": [
+        {
+          "target": "SEM:9a006e27edb2784f0995",
+          "claim": "p → pulvis — Pulver/Pulverform",
+          "relationship": "related_not_equivalent",
+          "reason": "A proposed p=powder head alone does not express the whole dried-powder/stage-II phrase.",
+          "target_basis_sha256": "0e850c230274cde454da97d986aed515d03dbd14d351e3a7dde2096f83e55fde",
+          "evidence": [
+            {
+              "line": 9,
+              "path": "experiments/yolo/gdt635_initial_head_same_remainder_swaps/REPORT.md",
+              "quote": "| `p` | `pulvis` — Pulver/Pulverform | `potio`, `pilula` |",
+              "sha256": "31bd8ff643e7e0e651e34d4e2d711a94cab57ff7a1be50e1e1bb33555d9f90d7"
+            }
+          ]
+        },
+        {
+          "target": "SEM:a2ace33cf86ed2b990ca",
+          "claim": "pchedy → P+CHD+DY",
+          "relationship": "related_not_equivalent",
+          "reason": "A pchedy formal parse is not the local material/thermal reading.",
+          "target_basis_sha256": "b829aff068dfe789da47d17abea96351fe5755ddc60295e5949056fe01163f52",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 7,
+              "line_end": 7,
+              "path": "experiments/yolo/sidequest_semantic_p_recipient_eight_hundred_fourth/EIGHT_HUNDRED_FOURTH_REPORT.md",
+              "quote": "- at the small basin stations: `pchedy = P+CHD+DY`;",
+              "sha256": "7dadbfed39d62e025ed780e9b2076147e9a1d18cc136505b4dd1e81a9a47e1ef",
+              "source_id": "LEGACY_COMPONENT:97089e934b65a845840e",
+              "source_section": "Sidequest Pass 804: P is a recipient-directed action",
+              "table_header": null
+            }
+          ]
+        }
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:4a92f6757c1c7652a173",
+      "selection_index": 19,
+      "gdt": "GDT635",
+      "title": "Zehn praktische Lesungen",
+      "evidence": {
+        "path": "experiments/yolo/gdt635_initial_head_same_remainder_swaps/REPORT.md",
+        "line": 114,
+        "line_end": 117,
+        "quote": "Die zehn Spannen enthalten 22 Zieltoken. Sieben Spannen sind vollständig\ndreileser-exakt, acht bleiben nach reiner Lesergrenzen-Normalisierung\nvollständig. Die zwei übrigen zeigen ausdrücklich eine `d`-Glyphgabel; ihre\nBedeutung wird nicht als Oberflächenkonsens ausgegeben.",
+        "sha256": "31bd8ff643e7e0e651e34d4e2d711a94cab57ff7a1be50e1e1bb33555d9f90d7"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_or_result_not_a_concrete_meaning_proposition",
+      "reason": "The selected span reports validation, provenance, coverage, source agreement, limitations or a next-work direction without a new concrete meaning assignment. No placeholder idea is created.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:9e85eaed008c167c2d9a",
+      "selection_index": 20,
+      "gdt": "GDT638",
+      "title": "Vierzehn neue vollständige Arbeitslesungen",
+      "evidence": {
+        "path": "experiments/yolo/gdt638_sequential_compound_promotion/REPORT.md",
+        "line": 111,
+        "line_end": 113,
+        "quote": "Die ersten dreizehn Zeilen sind in allen vorhandenen Lesungen exakt und ohne\naktiven Trägerrivalen. `f79v.4` bleibt wegen zweier anderer Lesergrenzen\nexplorativ; `qoky` selbst ist dort stabil.",
+        "sha256": "42f43c0b2240fba658bddd6ecc6d5e7499cd2618458c71255fa8b9021ca2129b"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_or_result_not_a_concrete_meaning_proposition",
+      "reason": "The selected span reports validation, provenance, coverage, source agreement, limitations or a next-work direction without a new concrete meaning assignment. No placeholder idea is created.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:5a2c328b86362ee98daa",
+      "selection_index": 21,
+      "gdt": "GDT639",
+      "title": "Neun neu geschlossene Arbeitslesungen",
+      "evidence": {
+        "path": "experiments/yolo/gdt639_strict_hole_component_repair/REPORT.md",
+        "line": 106,
+        "line_end": 108,
+        "quote": "Acht dieser Zeilen sind in allen vorhandenen Lesungen exakt und scope-sauber.\n`f32r.18` ist als zusätzliche vollständige Arbeitslesung sichtbar, trägt aber\neine alternative Lesergrenze; die Karte `shy` selbst bleibt dort dieselbe.",
+        "sha256": "7a78e7ca6428640018820a884358a4607c5aadb7334b700431b29889305250b7"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_or_result_not_a_concrete_meaning_proposition",
+      "reason": "The selected span reports validation, provenance, coverage, source agreement, limitations or a next-work direction without a new concrete meaning assignment. No placeholder idea is created.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:4de4649a726eae4eceb9",
+      "selection_index": 22,
+      "gdt": "GDT639",
+      "title": "Warum die vorherigen flachen Defaults nicht genügten",
+      "evidence": {
+        "path": "experiments/yolo/gdt639_strict_hole_component_repair/REPORT.md",
+        "line": 119,
+        "line_end": 124,
+        "quote": "Der Umlauf unterscheidet außerdem zwischen fehlender Widerlegung und echter\nBestätigung. Von 332 Vorkommen liegen 59 in bereits konkreten Kontexten, 214\nin noch opaken Kontexten und 59 an alternativen Lesergrenzen. Es gibt keine\nharte Bedeutungs- oder Komponenten-Kollision. Die opaken Stellen werden nicht\nals Bestätigung verkauft, verhindern aber auch nicht, dass eine an anderer\nStelle konkret gebundene Ganzoberfläche dort denselben Wert behält.",
+        "sha256": "7a78e7ca6428640018820a884358a4607c5aadb7334b700431b29889305250b7"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_or_result_not_a_concrete_meaning_proposition",
+      "reason": "No contradiction versus corroboration distinction; opaque contexts are not promoted to semantic support.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:c08062b08552b5ef57f9",
+      "selection_index": 23,
+      "gdt": "GDT639",
+      "title": "Die sechzehn verbleibenden Defaults",
+      "evidence": {
+        "path": "experiments/yolo/gdt639_strict_hole_component_repair/REPORT.md",
+        "line": 150,
+        "line_end": 152,
+        "quote": "Damit bleibt jede Sequenz interpretierbar, ohne eine offene Komponente still\nzu löschen. Die gehaltenen Werte sind ersetzbar: Eine bessere Deutung darf sie\nsofort verdrängen.",
+        "sha256": "7a78e7ca6428640018820a884358a4607c5aadb7334b700431b29889305250b7"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_or_result_not_a_concrete_meaning_proposition",
+      "reason": "The selected span reports validation, provenance, coverage, source agreement, limitations or a next-work direction without a new concrete meaning assignment. No placeholder idea is created.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:e3d6952205e4aeff9a17",
+      "selection_index": 24,
+      "gdt": "GDT648",
+      "title": "Sieben strikte Lesungen",
+      "evidence": {
+        "path": "experiments/yolo/gdt648_strict_v24_hole_completion/REPORT.md",
+        "line": 138,
+        "line_end": 140,
+        "quote": "Diese Lesungen sind noch eher technische Listen als flüssige Rezepte. Sie\nnennen aber Stoffe, Teile, Temperatur, Feuchte, Form, Dosis und Grad und lassen\nkein Zielwort als „etwas tun“ verschwinden.",
+        "sha256": "86faa123f0f26671e5815e4bd63db78dca3047c4947959805260853f18c8761f"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_or_result_not_a_concrete_meaning_proposition",
+      "reason": "The selected span reports validation, provenance, coverage, source agreement, limitations or a next-work direction without a new concrete meaning assignment. No placeholder idea is created.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:ebaa4a5771d88257692b",
+      "selection_index": 25,
+      "gdt": "GDT657",
+      "title": "Vier konkrete nächste Restwörter",
+      "evidence": {
+        "path": "experiments/yolo/gdt657_multi_quality_al_shell_order/REPORT.md",
+        "line": 113,
+        "line_end": 119,
+        "quote": "Die alleinstehenden Klammern `[OTAM]`, `[SHEDEFAM]`, `[SCHOS]` und\n`[CHOKCHEO]` sind keine ausweichenden Fülltexte. Sie benennen exakt die vier\nOberflächen, deren Bedeutung als Nächstes gefunden werden muss. `OL` auf\nf33r.5 ist zwar eine bereits ausführbare V33-Karte, bleibt\naber semantisch breiter als die übrigen Glossen; die Markierung verhindert,\ndass „ein Oberflächenloch“ fälschlich als vollständig sichere Satzbedeutung\ngelesen wird.",
+        "sha256": "98c2ba63a7850d0fe9e9b36466fee092b4b54fd292d99f6489de45f5e9b22d59"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_or_result_not_a_concrete_meaning_proposition",
+      "reason": "Exact unresolved placeholders explicitly carry no found meanings; no placeholder cards.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:a3e62deb3f83e4e80634",
+      "selection_index": 26,
+      "gdt": "GDT661",
+      "title": "Das vollständige 48-Wörter-Deck",
+      "evidence": {
+        "path": "experiments/yolo/gdt661_forty_eight_residual_family_completion/REPORT.md",
+        "line": 28,
+        "line_end": 30,
+        "quote": "`exakt` zählt Positionen, an denen ZL3b, IT2a und RF1b dieselbe vollständige\nOberfläche lesen. Die drei Fassungen sind alternative Lesungen desselben\nManuskripts, nicht drei unabhängige Belege.",
+        "sha256": "bc59ad9ee2aa88549f5d19ced3f086580de7e8e2215d0bf17b10959c678c9880"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_or_result_not_a_concrete_meaning_proposition",
+      "reason": "The selected span reports validation, provenance, coverage, source agreement, limitations or a next-work direction without a new concrete meaning assignment. No placeholder idea is created.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:cf2d5cdb14e625c1e208",
+      "selection_index": 27,
+      "gdt": "GDT667",
+      "title": "Passage audit: concrete does not mean free paraphrase",
+      "evidence": {
+        "path": "experiments/yolo/gdt667_one_hundred_one_residual_family_completion/REPORT.md",
+        "line": 80,
+        "line_end": 83,
+        "quote": "The first manual smoothing pass exposed a recurring failure mode: a line could\nsound like a recipe while silently adding “take,” “add,” or “put into,” or\nwhile dropping one of the visible operations. A second independent visual\nreading corrected eighteen of the twenty-five selected passages. Examples:",
+        "sha256": "9c0b839672401873a0bbb7c50df014a0c496cb6e817a9f081d2d26c37de8e3a1"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_or_result_not_a_concrete_meaning_proposition",
+      "reason": "Renderer correction warning about inserted or omitted verbs, not new accepted content.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:e595c7afb51d46b0d2e9",
+      "selection_index": 28,
+      "gdt": "GDT678",
+      "title": "Das konsolidierte 34er Wörterbuch",
+      "evidence": {
+        "path": "experiments/yolo/gdt678_seventeen_two_hole_family_completion/REPORT.md",
+        "line": 77,
+        "line_end": 81,
+        "quote": "Die stärksten neuen Massenträger sind `olchey`, `oteor`, `chotar`, `keeey`,\n`qokeod`, `keo` und `pchedaiin`. Die schwächsten Karten sind bewusst sichtbar:\n`yey` hat nur einen Beleg, `qy` ist ein kurzes anaphorisches Kommando, `rr`\nfolgt der gemeinsamen `rchr`-Lesung der beiden Alternativleser, und bei\n`lldar` hat das doppelte Anfangs-`l` noch keinen eigenen Wert.",
+        "sha256": "e9a30423438f55ac97be2a2aae06d100382f868d2816bf7e3b08f83e850c5e57"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_broader_gloss_and_evidence_limits",
+      "reason": "The qy short-anaphoric-command description is weaker than the existing exact qy reading. The other statements are source-count, alternate-reading and unresolved-prefix limitations, not fresh meanings.",
+      "card_ids": [],
+      "compared_current_cases": [
+        {
+          "target": "SEM:ef8742495a69e0c801e5",
+          "claim": "qy → hiervon nehmen",
+          "relationship": "source_context_not_new_assertion",
+          "reason": "Existing qy=hiervon nehmen already supplies the more specific command proposal; this paragraph adds a weak-card caveat.",
+          "target_basis_sha256": "cfb9ca508052a7d5a477381437b6e64c8f634176898da6e2958836a86012fac8",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 58,
+              "line_end": 58,
+              "path": "experiments/yolo/gdt678_seventeen_two_hole_family_completion/REPORT.md",
+              "quote": "| `qy` | hiervon nehmen | 4 |",
+              "sha256": "e9a30423438f55ac97be2a2aae06d100382f868d2816bf7e3b08f83e850c5e57",
+              "source_id": "LEGACY_COMPONENT:8e46363b55b29e859828",
+              "source_section": "Das konsolidierte 34er Wörterbuch",
+              "table_header": "| Form | Arbeitsbedeutung | Belege |"
+            }
+          ]
+        }
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:9e130693e82b1908d7c5",
+      "selection_index": 29,
+      "gdt": "GDT679",
+      "title": "Die Synthese verbesserte die Mehrheitslesung",
+      "evidence": {
+        "path": "experiments/yolo/gdt679_eight_three_hole_family_completion/REPORT.md",
+        "line": 88,
+        "line_end": 93,
+        "quote": "Der Werkstatt-Lehrmeister und die praktische Heilkundige lasen `qeeey`\nzunächst als Schlussportion. Der Schreiber/Glossator bemerkte jedoch ein\nstärkeres Verteilungsmuster: Alle drei Vorkommen folgen unmittelbar auf einen\nFeucht-, Kalt- oder Trockenprozess. Deshalb gewinnt die linksgebundene Lesung\n„vorstehende Behandlung bis zur letzten Stufe führen und abschließen“. Die\nSchlussportion bleibt als formnaher Rivale dokumentiert.",
+        "sha256": "6cc09c2ebd3ac8b4b804505d4fc9e36dd4426f589eadb159ea5f2251eabf42bd"
+      },
+      "full_selected_span_read": true,
+      "disposition": "concrete_source_proposition_recovered",
+      "reason": "The paragraph preserves a real prior end-portion hypothesis, not a bare denial. The current meaning has an existing exact card; the rival needs independent addressability.",
+      "card_ids": [
+        "CLEAN_GAP_AG:qeeey_current_case",
+        "CLEAN_GAP_AG:qeeey_end_portion"
+      ],
+      "compared_current_cases": [
+        {
+          "target": "SEM:2756b2f8406bc357567e",
+          "claim": "qeeey → die vorstehende Behandlung bis zur letzten Stufe führen und abschließen",
+          "relationship": "same_assertion_new_source_case",
+          "reason": "The selected treatment-completion reading already exists; preserve the reasoning paragraph as an additional case.",
+          "target_basis_sha256": "5869ed0640a4611aa5b28e99e8f4a8b1f1776b28112591c3419c904e308a21e2",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 63,
+              "line_end": 63,
+              "path": "experiments/yolo/gdt679_eight_three_hole_family_completion/REPORT.md",
+              "quote": "| `qeeey` | die vorstehende Behandlung bis zur letzten Stufe führen und abschließen | 3 |",
+              "sha256": "6cc09c2ebd3ac8b4b804505d4fc9e36dd4426f589eadb159ea5f2251eabf42bd",
+              "source_id": "LEGACY_COMPONENT:7ab83603052b24ee8b08",
+              "source_section": "Konsolidiertes 24er Wörterbuch",
+              "table_header": "| Form | Arbeitsbedeutung | Belege |"
+            }
+          ]
+        }
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:cc2063e4069515381cfd",
+      "selection_index": 30,
+      "gdt": "GDT690",
+      "title": "Interpretation",
+      "evidence": {
+        "path": "experiments/yolo/gdt690_noun_ordinal_provenance_main_apparatus/REPORT.md",
+        "line": 86,
+        "line_end": 90,
+        "quote": "## Interpretation\n\nV63 is a more useful working translation than V62: it says concrete things in the main channel and places uncertainty where it belongs. It is still a replaceable working code, not a decipherment or historical plaintext identification.\n\nThe next high-yield pass should attack the 140 preparation-noun spans in the same way, especially the 89 bare `Ansatz` occurrences now printed in V63: separate true o-frame preparations from learned whole cards and prose support, then choose concrete preparation nouns such as Ansatz, Auszug, Absud, Mazerat or Bad only where the exact card or local family can carry them.",
+        "sha256": "638d21c8155cb03a5b8120a8bc26f0f826505bd0a94cd9227dc001d03bcaaf50"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_or_result_not_a_concrete_meaning_proposition",
+      "reason": "Future noun disambiguation direction with an unassigned list of possibilities, not surface-to-noun claims.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:0a25c30086ca7225fa8a",
+      "selection_index": 31,
+      "gdt": "GDT696",
+      "title": "Interpretation and next route",
+      "evidence": {
+        "path": "experiments/yolo/gdt696_v68_exact_local_object_carries/REPORT.md",
+        "line": 76,
+        "line_end": 79,
+        "quote": "The next productive step is to render only these nine exact edges as compact\nsource–operation–result microclauses and compare whether they produce coherent\nmulti-step chains. No additional deictic, nearest-neighbour edge, word meaning\nor page is needed for that pass.",
+        "sha256": "410b393fe519717a95b8ba2f5f7581209e1f946670b0c3ccee2391c67b910fc3"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_or_result_not_a_concrete_meaning_proposition",
+      "reason": "Proposal to render already selected edges; no new bound meaning supplied.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:e19d8a9eff5aa00ee229",
+      "selection_index": 32,
+      "gdt": "GDT701",
+      "title": "What is deliberately not smuggled into the reading",
+      "evidence": {
+        "path": "experiments/yolo/gdt701_v74_cumulative_relation_components/REPORT.md",
+        "line": 29,
+        "line_end": 46,
+        "quote": "## What is deliberately not smuggled into the reading\n\nThe graph has 23 unique edge nodes and 25 edge incidences.  Only\n`f80v.35#3` and `f86v6.25#4` are genuine shared nodes.  Two visually intervening\npositions are not nodes:\n\n- `f86v5.24#2 aiin` is an unbound quantity register inside the C010 hull;\n- `f26r.2#5 chedy` is an exact state checkpoint inside the C011 hull.\n\nThe free `dy` at `f26r.2#7` is retained only to close the rendered clause; it\nlies outside C011's #4--#6 hull.  These distinctions prevent readable prose\nfrom silently becoming extra relation evidence.\n\nM009 is the only component whose material persistence is itself an inferred\nB-tier action-output link.  The source action writes *Krautdroge* as its\npatient, but it writes no separate word meaning “heated herb.”  M008 likewise\ndoes not attach “Menge III” to the heating object.  These brackets expose the\nremaining uncertainty instead of replacing it with generic filler.",
+        "sha256": "68b95cd1ca5da5651ebfc4ebd7667760a0bb4e9dae6507fbaf60da9db890e7a0"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_models_with_relation_scope_limits",
+      "reason": "M009 already preserves the inferred action-output carry and missing separate heated-herb word; M008 already leaves Menge III unbound. These constraints narrow the existing complete models rather than add a new content-world reading.",
+      "card_ids": [],
+      "compared_current_cases": [
+        {
+          "target": "SEM:1383f723ae5672dc98a4",
+          "claim": "Local reading model M009: Hiervon Krautdroge bis zur Mittelstufe erhitzen und abschließen [Quelle von „hiervon“ offen]. [Zustandsvermerk ohne eigenen Materialträger: Mittlere Trockenstufe erreicht.] Die erhitzte Krautdroge bis zur Mittelstufe abkühlen und abschließen [C011-Arbeitshypothese]",
+          "relationship": "existing_scoped_model",
+          "reason": "Existing M009 quotes the inferred reheated-herb patient and explicit open source/C011 qualifications.",
+          "target_basis_sha256": "e87a220084e51ef0799f97fc9783856a293be2538ff4e0f747d79e005743dd20",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "line": 3,
+                  "text": "Status: `PASS_V74_11_EDGES__9_CONNECTED_COMPONENTS__23_EDGE_NODES_2_HULL_ONLY_1_STRUCTURAL__ZERO_EDGE_WORD_DELTA`"
+                }
+              ],
+              "line": 21,
+              "line_end": 21,
+              "path": "experiments/yolo/gdt701_v74_cumulative_relation_components/REPORT.md",
+              "quote": "| M009 | `f26r.2` | C011 | Hiervon Krautdroge bis zur Mittelstufe erhitzen und abschließen [Quelle von „hiervon“ offen]. [Zustandsvermerk ohne eigenen Materialträger: Mittlere Trockenstufe erreicht.] Die erhitzte Krautdroge bis zur Mittelstufe abkühlen und abschließen [C011-Arbeitshypothese]. |",
+              "sha256": "68b95cd1ca5da5651ebfc4ebd7667760a0bb4e9dae6507fbaf60da9db890e7a0",
+              "source_id": "LEGACY_COMPONENT:489d69821e103af58bd9",
+              "source_section": "Result",
+              "table_header": "| component | locus | edges | practical reading |"
+            }
+          ]
+        },
+        {
+          "target": "SEM:66f7286549b0fc8a93fe",
+          "claim": "Local reading model M008: Anteil I des Ansatzes. [Ungebundene Mengenangabe #2: „Menge III“.] Den Ansatzanteil auf Stufe II erhitzen",
+          "relationship": "existing_scoped_model",
+          "reason": "Existing M008 explicitly leaves the quantity unbound rather than attaching it to heating.",
+          "target_basis_sha256": "240b04dbb2fb2cebce4f60ff1b4885d75e9629e6545597b8e6b293cd19e6d090",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "line": 3,
+                  "text": "Status: `PASS_V74_11_EDGES__9_CONNECTED_COMPONENTS__23_EDGE_NODES_2_HULL_ONLY_1_STRUCTURAL__ZERO_EDGE_WORD_DELTA`"
+                }
+              ],
+              "line": 20,
+              "line_end": 20,
+              "path": "experiments/yolo/gdt701_v74_cumulative_relation_components/REPORT.md",
+              "quote": "| M008 | `f86v5.24` | C010 | Anteil I des Ansatzes. [Ungebundene Mengenangabe #2: „Menge III“.] Den Ansatzanteil auf Stufe II erhitzen. |",
+              "sha256": "68b95cd1ca5da5651ebfc4ebd7667760a0bb4e9dae6507fbaf60da9db890e7a0",
+              "source_id": "LEGACY_COMPONENT:03d43661249c8a45c33f",
+              "source_section": "Result",
+              "table_header": "| component | locus | edges | practical reading |"
+            }
+          ]
+        }
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:95df3149d1d623666f64",
+      "selection_index": 33,
+      "gdt": "GDT707",
+      "title": "Exact limits of the reading",
+      "evidence": {
+        "path": "experiments/yolo/gdt707_v80_three_item_material_state_result_bundle/REPORT.md",
+        "line": 43,
+        "line_end": 52,
+        "quote": "## Exact limits of the reading\n\n- `abgemessene Portion` belongs to #1; no quantity is repeated in #2-4.\n- The identity of that portion with #2's drug material is possible locally but\n  not written as a proven link.\n- Middle degree is not completion; C020 adds no finished-state claim.\n- The boundary after #4 has no punctuation. It is inferred locally from #5's\n  charge/heat description together with #6's reset to the beginning grade.\n- The one `ckhol`, six `chol`, three `chey`, and nine action-form `dchey`\n  occurrences do not support a portable word or syntax rule.",
+        "sha256": "50bd08ff0ce9e3197f60135bbeb7fae53669b6f0e090747a8c2b39ac758e37db"
+      },
+      "full_selected_span_read": true,
+      "disposition": "concrete_source_proposition_recovered",
+      "reason": "The selected limit explicitly preserves a possible patient-identity hypothesis. Keep its uncertainty and separation from proven relation evidence; do not turn the remaining boundary and portability limits into extra ideas.",
+      "card_ids": [
+        "CLEAN_GAP_AG:f8_portion_patient_identity"
+      ],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:ef94f4b36a1ed312c7db",
+      "selection_index": 34,
+      "gdt": "GDT722",
+      "title": "Wörterbuch und Renderer",
+      "evidence": {
+        "path": "experiments/yolo/gdt722_v95_op_whole_scope_and_context_separation/REPORT.md",
+        "line": 81,
+        "line_end": 86,
+        "quote": "V95 bewahrt 319 nicht betroffene lexikalische Zeilen, 474 nicht betroffene\nKontextpositionen, fünf gebundene Spannen, zwei Einmal-Direktiven und acht\nf7r.2-Ausgabeeinheiten. Die Verteilung bleibt 7 W0, 135 W1, 163 W2 und 19 W3.\nDas vollständige Wörterbuch enthält weiterhin 1.582 Oberflächen und 1.586\nLesarten; jede besitzt Defaultbedeutung, Konfidenz, positive Evidenz,\nGegenevidenz und H0.",
+        "sha256": "6eda0ad1805fcfc8bf5b015ae9dc487fcb37dd013f124c2660ae7cf32b0f71b3"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_or_result_not_a_concrete_meaning_proposition",
+      "reason": "The selected span reports validation, provenance, coverage, source agreement, limitations or a next-work direction without a new concrete meaning assignment. No placeholder idea is created.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:70cd169dd43f88cfc29c",
+      "selection_index": 35,
+      "gdt": "GDT726",
+      "title": "Bedeutung des Ergebnisses",
+      "evidence": {
+        "path": "experiments/yolo/gdt726_v98_51_line_delta_integration/REPORT.md",
+        "line": 82,
+        "line_end": 92,
+        "quote": "## Bedeutung des Ergebnisses\n\nGDT726 ist noch keine flüssige historische Übersetzung. Es ist aber auch\nnicht mehr nur eine lose Wörterbuchsammlung: Zu jeder der 479 Stellen ist nun\nsichtbar, welche konkrete V98-Lesung eingeht, welche Stellen gemeinsam eine\nPhrase bilden und welcher deutsche Text tatsächlich ausgegeben wird. Der\npraktische Reader kann dadurch genau dort kritisiert werden, wo noch eine\nechte Bedeutungsentscheidung fehlt.\n\nEs wurden keine neue Seite, kein Bild und keine Transkription geöffnet; weder\nf84 noch f84r wurde verwendet. Alle historischen Felder bleiben `H0_NONE`.",
+        "sha256": "5ceda3eebe96ccbc822c34e4e04326ecd5642e9da20341c5a1373f1dd9143129"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_or_result_not_a_concrete_meaning_proposition",
+      "reason": "The selected span reports validation, provenance, coverage, source agreement, limitations or a next-work direction without a new concrete meaning assignment. No placeholder idea is created.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:06f6ee43148fc6065eb1",
+      "selection_index": 36,
+      "gdt": "GDT735",
+      "title": "Alle 24 Bedeutungszuordnungen",
+      "evidence": {
+        "path": "experiments/yolo/gdt735_historical_semantic_bridge_atlas/REPORT.md",
+        "line": 35,
+        "line_end": 45,
+        "quote": "## Alle 24 Bedeutungszuordnungen\n\nAlle 24 Permutationen von Pulver, Samen, Wurzel und Holz auf H1-H4 erklären\ndieselben 96 Strukturzellen exakt gleich gut. Keine gewinnt Voynich-intern.\nDer zusätzliche OCR-Häufigkeitsvergleich ist nur ein absichtlich schwacher\nNegativkontrollwert: Die an EVA-Buchstaben angelehnte alte Zuordnung liegt bei\nAlphita (HSR019) auf Rang 20 und bei Sinonoma (HSR020)\nauf Rang 20 von 24. Die jeweils besten Zuordnungen\nwechseln zwischen den Glossaren. Das\nidentifiziert **keine** Alternative; es zeigt, dass Vokabelhäufigkeit den\nKopfwert nicht retten kann.",
+        "sha256": "934a3cda39d4c1f069778d789d3c7db2dfe1f54a26f343e3bd610fd53936e141"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_or_result_not_a_concrete_meaning_proposition",
+      "reason": "All 24 assignments tie structurally; frequency rankings identify none. This is a failure/symmetry statement, not 24 newly selected hypotheses.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:2b6b6fb8041e3c4b1854",
+      "selection_index": 37,
+      "gdt": "GDT743",
+      "title": "Interpretation and next route",
+      "evidence": {
+        "path": "experiments/yolo/gdt743_r2_run_intersection_adjudication/REPORT.md",
+        "line": 69,
+        "line_end": 79,
+        "quote": "## Interpretation and next route\n\nGDT743 supplies a more honest working renderer, not a decipherment. It exports\nno word, component, glyph value, language, historical expansion, plaintext,\ningredient or patient meaning. The ineligible one-row relation packet remains\nrejected by the GDT388 readiness gates.\n\nLocal attachment polishing now stops unless a genuinely new comparator appears.\nThe next experiment should use complete recurrent local fields in multiple\ncached contexts to seek concrete semantic bridges while preserving explicit\nunknown slots.",
+        "sha256": "89bd29ad8406ff939c016b48b9b264959b19b2453e15d42795b5ccfeca73728f"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_or_result_not_a_concrete_meaning_proposition",
+      "reason": "Stop/gate and future-route conditions; no asserted new meaning.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:7c56eeea76d6cf637d37",
+      "selection_index": 38,
+      "gdt": "GDT745",
+      "title": "Historische Bedeutung der Runde",
+      "evidence": {
+        "path": "experiments/yolo/gdt745_exact_open_content_role_expansion/REPORT.md",
+        "line": 77,
+        "line_end": 85,
+        "quote": "## Historische Bedeutung der Runde\n\nGDT735s spätmittelalterliche Mischarchitektur wird präziser: Gelernte\nGanzwörter und gebundene Fachfelder können nebeneinander stehen, aber die\noffenen Zellen rund um ein Fachfeld sind nicht sämtlich Namen. Einige sind\noffenbar Mitglieder sichtbarer Qualitäts-, Stufen-, Mengen- oder\nVorgangsfamilien. Genau so kann ein historisches Fachregister dichte\nKompositionen besitzen, ohne dass jeder EVA-Buchstabe eine lateinische Initiale\noder ein frei übersetzbarer Stamm ist.",
+        "sha256": "f0eac44c662075e52ff3f9b7c9a1055399cb0cc9731c853bf5cf465bb9b42073"
+      },
+      "full_selected_span_read": true,
+      "disposition": "concrete_source_proposition_recovered",
+      "reason": "The open-cell content-type restriction is an independently stated addition to the shared mixed-codebook method, not equivalent to that broad method alone.",
+      "card_ids": [
+        "CLEAN_GAP_AG:mixed_open_field_types"
+      ],
+      "compared_current_cases": [
+        {
+          "target": "SEM:79530f78e0359c5446f5",
+          "claim": "Keep the mixed model: - a small productive command/component vocabulary; - learned exact cards for common instructions and exceptional contents; - a movable case cue within the early part of the instruction; - a shared dose/address/operation/state/close skeleton; - a small renderer manual plus sixteen residual memorized surface entries.",
+          "relationship": "related_not_equivalent",
+          "reason": "A mixed productive/learned codebook architecture does not by itself assign these types to open cells around bound specialist fields.",
+          "target_basis_sha256": "6942f3225a0ed37dd44ea905266368c36da2be814fc5d34cc7b13848ae5711d0",
+          "evidence": [
+            {
+              "line": 62,
+              "path": "experiments/yolo/sidequest_semantic_five_branch_composition_six_hundred_thirty_first/SIX_HUNDRED_THIRTY_FIRST_REPORT.md",
+              "quote": "## Current interpretation",
+              "sha256": "6b749654129fe990a611ee73c5646d213c50c0613c7199567a900936c146c058"
+            }
+          ]
+        }
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:e693aea7cd36a34d9639",
+      "selection_index": 39,
+      "gdt": "GDT750",
+      "title": "Bedeutung für den Renderer",
+      "evidence": {
+        "path": "experiments/yolo/gdt750_form_gated_direct_host_dispatch/REPORT.md",
+        "line": 121,
+        "line_end": 124,
+        "quote": "Der GDT388-Einlass enthält neunzehn reale gleichzeilige Hostrelationen und\nbleibt erwartungsgemäß ausschließlich wegen unversiegelten formalen Zugriffs\ninvalid und nicht score-ready.  Es werden null Lexeme, null Komponentenwerte,\nnull neue Seiten und keine Literalidentitäten exportiert.",
+        "sha256": "2245c80b399f6fece7741fda6ab396eae19c3a16c1d74d39753a14c05c2955df"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_or_result_not_a_concrete_meaning_proposition",
+      "reason": "Historical invalid-packet/zero-export limit, not a semantic proposition; no reinterpretation of gate applicability here.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    }
+  ],
+  "gap_candidates": [
+    {
+      "card_id": "CLEAN_GAP_AG:f23_part_quality",
+      "claim": "In the GDT624 f23v reading, the root is hot-dry while the reproductive head is hot-moist; the contrast is part-specific quality information rather than one temperament assigned to the whole plant page.",
+      "source_ids": [
+        "LEGACY_COMPONENT:2b38832cfe35dd249242"
+      ],
+      "status": "unconfirmed",
+      "additional_source_case_only": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AG:f29_parallel_parts",
+      "claim": "The GDT625 f29v reading prefers two parallel part-state phrases belonging to distinct parts of one plant over a temporal state-change sequence.",
+      "source_ids": [
+        "LEGACY_COMPONENT:47952aa9a89948506da1"
+      ],
+      "status": "unconfirmed",
+      "additional_source_case_only": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AG:f29_drying_rival",
+      "claim": "The GDT625 f29v quality contrast may instead describe a drying sequence.",
+      "source_ids": [
+        "LEGACY_COMPONENT:47952aa9a89948506da1"
+      ],
+      "status": "unconfirmed",
+      "additional_source_case_only": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AG:four_grade_inflection",
+      "claim": "GDT626 retains a four-grade inflectional or abbreviation slot as the strongest alternative to interpreting its terminal grade series as a numerical code.",
+      "source_ids": [
+        "LEGACY_COMPONENT:c23640acaa05da783e1b"
+      ],
+      "status": "unconfirmed",
+      "additional_source_case_only": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AG:hot_moist_three_case",
+      "claim": "qokaiin shaiin → hot degree III; moist degree III",
+      "source_ids": [
+        "LEGACY_COMPONENT:73e7e1b632f11005b8c9"
+      ],
+      "status": "unconfirmed",
+      "additional_source_case_only": true
+    },
+    {
+      "card_id": "CLEAN_GAP_AG:part_measure_next_leaf",
+      "claim": "The GDT627 working reading of chor daiin cthy is a reproductive plant part with three measures, followed by leaf material.",
+      "source_ids": [
+        "LEGACY_COMPONENT:73e7e1b632f11005b8c9"
+      ],
+      "status": "unconfirmed",
+      "additional_source_case_only": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AG:terminal_dry_degree",
+      "claim": "GDT628 reads terminal chol d-VALUE phrases by default as a dryness degree, while judging each local context separately.",
+      "source_ids": [
+        "LEGACY_COMPONENT:9d93e4f6ba52c6e70c46"
+      ],
+      "status": "unconfirmed",
+      "additional_source_case_only": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AG:yto_dry_degree",
+      "claim": "At GDT628 f37v.23, yto chol daiin can mean yto: dry in the third degree.",
+      "source_ids": [
+        "LEGACY_COMPONENT:97a2b16d908c51651085"
+      ],
+      "status": "unconfirmed",
+      "additional_source_case_only": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AG:yto_dry_portions",
+      "claim": "At GDT628 f37v.23, yto chol daiin can mean yto, three portions of dry material.",
+      "source_ids": [
+        "LEGACY_COMPONENT:97a2b16d908c51651085"
+      ],
+      "status": "unconfirmed",
+      "additional_source_case_only": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AG:powder_heat_ii",
+      "claim": "The GDT635 working reading of f75r.13 pchedy keedy is dried powder, heated to stage II.",
+      "source_ids": [
+        "LEGACY_COMPONENT:4614d53824656e5adb01"
+      ],
+      "status": "unconfirmed",
+      "additional_source_case_only": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AG:qeeey_current_case",
+      "claim": "qeeey → die vorstehende Behandlung bis zur letzten Stufe führen und abschließen",
+      "source_ids": [
+        "LEGACY_COMPONENT:9e130693e82b1908d7c5"
+      ],
+      "status": "unconfirmed",
+      "additional_source_case_only": true
+    },
+    {
+      "card_id": "CLEAN_GAP_AG:qeeey_end_portion",
+      "claim": "qeeey → Schlussportion",
+      "source_ids": [
+        "LEGACY_COMPONENT:9e130693e82b1908d7c5"
+      ],
+      "status": "unconfirmed",
+      "additional_source_case_only": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AG:f8_portion_patient_identity",
+      "claim": "In the GDT707 f8r.15 result-bundle reading, the measured portion at position 1 may be the same material as the drug substance at position 2.",
+      "source_ids": [
+        "LEGACY_COMPONENT:95df3149d1d623666f64"
+      ],
+      "status": "unconfirmed",
+      "additional_source_case_only": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AG:mixed_open_field_types",
+      "claim": "GDT745 proposes a mixed technical register in which learned whole words and bound specialist fields coexist, while surrounding open cells are not all names: some belong to quality, stage, amount or operation families.",
+      "source_ids": [
+        "LEGACY_COMPONENT:7c56eeea76d6cf637d37"
+      ],
+      "status": "unconfirmed",
+      "additional_source_case_only": false
+    }
+  ],
+  "disposition_counts": {
+    "method_or_result_not_a_concrete_meaning_proposition": 28,
+    "concrete_source_proposition_recovered": 10,
+    "existing_broader_gloss_and_evidence_limits": 1,
+    "existing_models_with_relation_scope_limits": 1
+  },
+  "validation": {
+    "status": "PASS",
+    "reviewed_blocks": 40,
+    "cards": 14,
+    "same_assertion_new_source_cases": 2,
+    "exact_evidence_checks": 50,
+    "validate_card_pass": 14,
+    "excluded_prior_overlap_check": true,
+    "selected_mutual_overlap_check": true,
+    "public_tracked_source_check": true,
+    "private_ids": 0
+  },
+  "limits": [
+    "Exactly forty short unresolved public report spans selected within GDT601–871; no claim of complete coverage of this range.",
+    "Source/line overlap with J/M/R/V/AB is excluded. The selected spans happen to range GDT603–750 after title/length ordering; this is not an exhaustive semantic census.",
+    "Each local reading remains a source-scoped model instance or assertion, not automatically a distinct decoding mechanism. New card means separately addressable proposition, not scientific novelty.",
+    "No target data, image, untracked source, private local V81 source or operational registry changed.",
+    "Historical PASS wording, source consensus and literal extraction do not confirm meaning."
+  ]
+}

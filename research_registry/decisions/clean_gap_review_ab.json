@@ -1,0 +1,421 @@
+{
+  "schema": "clean_semantic_gap_review_v1",
+  "review_id": "CLEAN_GAP_REVIEW_AB",
+  "status": "direct_source_review_pending_independent_peer",
+  "cards": [
+    {
+      "status": "unconfirmed",
+      "ready": false,
+      "assessment_basis": "bounded_direct_primary_and_current_source_case_review",
+      "source_polarity": "historical_explicit_proposal_not_confirmed",
+      "id": "CLEAN_GAP_AB:q13_mixed_procedural_argument_body",
+      "claim": "GDT224 proposes that q13 records may interleave procedure-like spans with compact argument/value-like spans, while using a termination regime different from the readable recipe collections; this is a mixed procedural/argument body hypothesis, not identification of individual fields as actions or ingredients.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:d919c6cc26c91013a9fb"
+      ],
+      "scope": {
+        "source": "GDT224 q13 recipe-role transfer interpretation",
+        "unit": "the source-defined q13 record-body architecture",
+        "limits": "Only global field-size/position balance supported the compatibility reading. Record mixing reverses under exact size control and final-closer prediction fails; no recovered role transition, recipe translation or tool-versus-ingredient classifier."
+      },
+      "evidence": [
+        {
+          "path": "GDT224_Q13_RECIPE_ROLE_TRANSFER_REPORT.md",
+          "line": 3,
+          "line_end": 9,
+          "quote": "Status: **Q13_RECIPE_ROLE_ARCHITECTURE_WEAK_OR_GENERIC**.\n\nThe GDT176 instrument was frozen publicly at commit `f51a140` before q13\nfield roles were generated. It was trained on 22,394 editor-tagged units from\n1,136 real medieval recipes and uses only relative field position and field\nspan. Applied unchanged, it projects 701 q13 fields in 33 records and 163\nsame-hand Herbal-B fields in 22 records.",
+          "sha256": "9c946b1748a013d64131e7706d3b1614a826d481503649492da0d63b66a437ba"
+        },
+        {
+          "path": "GDT224_Q13_RECIPE_ROLE_TRANSFER_REPORT.md",
+          "line": 19,
+          "line_end": 23,
+          "quote": "Only the aggregate-distribution prediction survives exact record-size control.\nIts q13 advantage remains positive after deleting every one of the nine q13\nfolios in turn. The raw mixed-record effect is also positive in 9/9 deletions,\nbut reverses under exact size control. The final-closer prediction is negative\nin all 9/9 deletions. Zero folds satisfy all three directions.",
+          "sha256": "9c946b1748a013d64131e7706d3b1614a826d481503649492da0d63b66a437ba"
+        },
+        {
+          "path": "GDT224_Q13_RECIPE_ROLE_TRANSFER_REPORT.md",
+          "line": 25,
+          "line_end": 49,
+          "quote": "## Interpretation\n\nThis is a useful partial scaffold. q13 contains clause-sized and short-\nargument-sized formal fields in almost the same **global balance** learned from\nthe readable recipes, substantially closer than Herbal-B. That is compatible\nwith a practical record compiler containing procedure-like spans interleaved\nwith compact argument/value-like spans.\n\nIt is not a complete recipe architecture. The expected final closer-like field\nis much less common in q13 than in Herbal-B, and the apparent abundance of\nmixed records is largely a consequence of q13's longer mechanical records.\nThe strongest surviving statistic is a distributional balance, not a recovered\nrole transition or readable clause.\n\nThe result therefore narrows the leading theory without translating it:\nq13 is compatible with a **mixed procedural/argument record body**, but its\nrecord termination differs from the readable recipe collections. A plausible\nnext step is to test whether q13's missing closer has moved into a diagram-\nlocal label, page-final structure, or non-DY closure class using a predeclared\nmechanism—not to call individual fields ingredients or actions.\n\nThe classifier cannot distinguish tools from ingredients and nearly fails\nopeners even in readable data. No PAGE_HOST, token, wrapper, source group, or\nfield receives an ingredient, tool, action, object, disease, bath, word,\nlanguage, plaintext, or translation. No f84 artifact was accessed.",
+          "sha256": "9c946b1748a013d64131e7706d3b1614a826d481503649492da0d63b66a437ba"
+        }
+      ],
+      "coverage_result": "new_scoped_functional_proposition",
+      "related_existing_cards": [
+        {
+          "target": "SEM:46817bb544fdef88f5b3",
+          "claim": "Herbal B compiles practical procedures into short closed fields and repeated parameter updates more than Herbal A.",
+          "target_basis_sha256": "cb68e56d42e82773665637a84449f4576e0b3da45dd019a24ab474e5b6acf76b",
+          "effective_basis_sha256": "b9fe0df8389076594794a52db96cd55d841f2a77595affbef43ab5153eb4fb27",
+          "comparison": "Herbal B versus A procedure compression has a different domain and does not assert this q13 mixed-role/termination relation.",
+          "evidence": [
+            {
+              "line": 2135,
+              "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+              "quote": "### Currier A versus B in the workshop theory",
+              "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+            },
+            {
+              "line": 2137,
+              "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+              "quote": "This yields a concrete explanation for the established architectural\ndifference without requiring two languages:",
+              "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+            },
+            {
+              "line": 2145,
+              "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+              "quote": "Both may describe plants, but B compiles more of the practical procedure into\nshort closed fields and repeated parameter updates. This is presently the best\nsidequest-level interpretation of why the same broad formal vocabulary appears\nin Herbal B and Recipe/Stars records.",
+              "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+            }
+          ],
+          "identity_asserted": false
+        },
+        {
+          "target": "SEM:a0d3495286183e69ce46",
+          "claim": "Main f83r paragraphs carry procedure or state records, while apparatus-local blocks identify components or conduits.",
+          "target_basis_sha256": "c304643a3d9a6592382c41f0520b8dbdd8cdcc8c71927b896d6fc67651cf8ac7",
+          "effective_basis_sha256": "cf16219b1b4890b77f65416030d089016fa4c53081b1df48b311083435748f86",
+          "comparison": "f83r main paragraphs versus apparatus-local texts is a between-block role split, not the q13 within-record mixture.",
+          "evidence": [
+            {
+              "line": 4778,
+              "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+              "quote": "## Iteration 67 — f83 separates procedural prose from apparatus-local text",
+              "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+            },
+            {
+              "line": 4780,
+              "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+              "quote": "The five large f83r prose paragraphs and the two small blocks written inside\nthe lower apparatus provide an internal mode comparison on one folio:",
+              "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+            },
+            {
+              "line": 4783,
+              "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+              "quote": "| f83 mode | groups | EDY-ending | contains OL |\n|---|---:|---:|---:|\n| five main prose blocks | 314 | 134 (42.7%) | 34 (10.8%) |\n| two apparatus-local blocks | 27 | 3 (11.1%) | 10 (37.0%) |",
+              "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+            },
+            {
+              "line": 4788,
+              "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+              "quote": "This is a large descriptive reversal, though post-hoc and confined to one\npage. It strengthens a division of labour:",
+              "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+            },
+            {
+              "line": 4796,
+              "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+              "quote": "The final local block is particularly compact:",
+              "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+            },
+            {
+              "line": 4805,
+              "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+              "quote": "The first two lines form a clear local parallel: `SOL + variable material`,\ntwo variable relation/state cells, and final `OL`. Across the f82/f83 sample,\nthe only two lines ending in exact free `OL` are these two adjacent SOL-initial\nlines; eleven other SOL-initial lines end differently. This licenses a local\nconstruction, not a universal syntax.",
+              "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+            },
+            {
+              "line": 4811,
+              "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+              "quote": "Earlier iterations tentatively called SOL an ACTION head. The apparatus-local\nconcentration forces a broader and better guess: SOL is a **Biological\nconstruction head** that can introduce an operation, component or treatment\nentry. In a recipe-like reading the two lines say “process/use KEEY … in OL”\nand “process/use CHKAL … in OL”; in an apparatus-list reading they say “SOL\ncomponent KEEY … OL” and “SOL component CHKAL … OL”. The data do not choose\nbetween verbal instruction and nominal specification.",
+              "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+            }
+          ],
+          "identity_asserted": false
+        }
+      ]
+    },
+    {
+      "status": "unconfirmed",
+      "ready": false,
+      "assessment_basis": "bounded_direct_primary_and_current_source_case_review",
+      "source_polarity": "historical_explicit_proposal_not_confirmed",
+      "id": "CLEAN_GAP_AB:exact_label_prose_content_address_candidates",
+      "claim": "In GDT247, the complete forms okaly, olky and okal are candidates for cross-scope content addresses because each occurs both as a standalone graphical label and an internal prose group on the f80r/f82r discovery pages; no pictured referent or particular meaning is assigned.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:c6236aa3ece03e91cb79"
+      ],
+      "scope": {
+        "source": "GDT247 exact label/prose member reuse",
+        "unit": "three complete source-native groups at the six reported label/prose loci",
+        "limits": "Discovery-page candidates only. Alternate readings belong to the same manuscript; positional association is not ownership. No equality of depicted entities, free substring meaning or portable referent dictionary follows."
+      },
+      "evidence": [
+        {
+          "path": "GDT247_LABEL_PROSE_MEMBER_REUSE_REPORT.md",
+          "line": 5,
+          "line_end": 19,
+          "quote": "**MINORITY_EXACT_LABEL_TO_PROSE_CODE_INTERFACE_DESCRIPTIVE_NOT_SEMANTIC**\n\nAcross 23 label groups aligned in all three readings, three exact source-native\nmember identities recur as complete internal prose groups:\n\n| source surface | graphical label | neutral human geometry | prose occurrence | paragraph |\n|---|---|---|---|---|\n| `okaly` | f80r.3 | above figure 3 | f80r.31 group 6/8 | P2 |\n| `olky` | f80r.7 | above figure 7 | f80r.38 group 2/13 | P3 |\n| `okal` | f82r.36 | between figure 2 and a vertical feature | f82r.6 group 6/9 | P1 |\n\nAll three equalities hold in ZL3b, IT2a, and RF1b. They are stronger than\nfamily-shape similarity: the complete ordered member vectors and visible\nsource forms agree. All prose occurrences are line-internal, whereas the\ngraphical occurrences stand alone.",
+          "sha256": "e743d1e3999db757120b4f5569606b2e2f8e214ce8ea214b364cad6012acd3be"
+        },
+        {
+          "path": "GDT247_LABEL_PROSE_MEMBER_REUSE_REPORT.md",
+          "line": 41,
+          "line_end": 47,
+          "quote": "## Translation consequence\n\n`okaly`, `olky`, and `okal` are now the best exact cross-scope content-address\ncandidates on the two discovery pages because they exist both as isolated\ngraphical groups and as internal prose groups. Their referents remain unknown;\nthe visible associations are positional rather than ownership evidence.\n",
+          "sha256": "e743d1e3999db757120b4f5569606b2e2f8e214ce8ea214b364cad6012acd3be"
+        }
+      ],
+      "coverage_result": "new_scoped_reference_candidate_set",
+      "related_existing_cards": [
+        {
+          "target": "SEM:b2fb10dededfad16dc78",
+          "claim": "Hybrid content addresses, abbreviation and a record compiler jointly generate the text.",
+          "target_basis_sha256": "60c5c8c3d327ce758ca571eebaf1b536d5b1327f91f7801ceaa54bb95244e405",
+          "effective_basis_sha256": "6e85fda9aa383125e22e4e71324291b60afd96d3823af917c5522209a0defbc1",
+          "comparison": "A generic hybrid content-address architecture does not nominate this exact three-form source-bound set or its limits.",
+          "evidence": [
+            {
+              "line": 3,
+              "path": "GDT100_HPR2_THEORY_REVISION_REPORT.md",
+              "quote": "## Leading theory",
+              "sha256": "377e1d829e7d350b7156ebd5754ab67f1b533a2f287af732713afbf8160ee862"
+            },
+            {
+              "line": 5,
+              "path": "GDT100_HPR2_THEORY_REVISION_REPORT.md",
+              "quote": "**HYBRID CONTENT ADDRESS + ABBREVIATION + RECORD COMPILER**",
+              "sha256": "377e1d829e7d350b7156ebd5754ab67f1b533a2f287af732713afbf8160ee862"
+            },
+            {
+              "line": 7,
+              "path": "GDT100_HPR2_THEORY_REVISION_REPORT.md",
+              "quote": "The best current generator is still hybrid, but GDT092's claim that PAGE_HOST\ndirectly supplies a content lexicon was too strong. The safer and more useful\nmodel is:",
+              "sha256": "377e1d829e7d350b7156ebd5754ab67f1b533a2f287af732713afbf8160ee862"
+            },
+            {
+              "line": 24,
+              "path": "GDT100_HPR2_THEORY_REVISION_REPORT.md",
+              "quote": "The compiler half is the strongest part. q/O and d/Y transfer to unseen tails\nand folios, RIGHT_FAMILY transfers by register, and line/reset/field structure\nis pervasive. Those operations still do not beat string statistics as a\nlinguistic morphology model.",
+              "sha256": "377e1d829e7d350b7156ebd5754ab67f1b533a2f287af732713afbf8160ee862"
+            },
+            {
+              "line": 29,
+              "path": "GDT100_HPR2_THEORY_REVISION_REPORT.md",
+              "quote": "The content-address half is plausible but ungrounded. PAGE_HOSTs have page-local\ninventory signal. The narrow GDT089 and GDT096 external leads favor PAGE_HOST\nover compiler features in limited panels, but GDT095's exhaustive descriptor\nchannel does not pay selection and GDT099 finds no global submotif association.\n`PCH` is the clearest concrete new candidate: a recurrent HB/S record-phase\nhost family with a domain-local pharmaceutical spatial-context association,\nnot a manuscript-wide spatial word.",
+              "sha256": "377e1d829e7d350b7156ebd5754ab67f1b533a2f287af732713afbf8160ee862"
+            },
+            {
+              "line": 37,
+              "path": "GDT100_HPR2_THEORY_REVISION_REPORT.md",
+              "quote": "This remains more coherent than compressed natural language alone or pure\nnotation alone because it explains formal reuse, register rendering, page\nvocabulary, and record serialization together. It is not ready for translation.",
+              "sha256": "377e1d829e7d350b7156ebd5754ab67f1b533a2f287af732713afbf8160ee862"
+            },
+            {
+              "line": 41,
+              "path": "GDT100_HPR2_THEORY_REVISION_REPORT.md",
+              "quote": "completely sealed.",
+              "sha256": "377e1d829e7d350b7156ebd5754ab67f1b533a2f287af732713afbf8160ee862"
+            }
+          ],
+          "identity_asserted": false
+        }
+      ]
+    },
+    {
+      "status": "unconfirmed",
+      "ready": false,
+      "assessment_basis": "bounded_direct_primary_and_current_source_case_review",
+      "source_polarity": "historical_explicit_proposal_not_confirmed",
+      "id": "CLEAN_GAP_AB:lexicalized_hybrid_report_source_case",
+      "claim": "A lexicalized hybrid record shorthand combines shared record constraints with many joint host/renderer surface forms.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "LEGACY_COMPONENT:5f00baecb3da708290a5"
+      ],
+      "scope": {
+        "source": "GDT298 report theory ranking and revised generator",
+        "same_existing_claim": "SEM:8875f68aee34b4126673",
+        "target_basis_sha256": "133c8e0d8f9fb74a7ea284a6a07af0518c756b30378e81b3b15580039bad3d9a",
+        "effective_basis_sha256": "3c4f569c98900465d76e0e1c888e923c9407614192a60cc52d5d325a2589206a",
+        "limits": "Same GDT298 model already retained from its METHOD. Report ranking is historical source context, not a new theory or an independently measured probability. Preserve host/renderer joint lexicon and shared constraints; no true meaning inferred."
+      },
+      "evidence": [
+        {
+          "path": "GDT298_LEXICALIZED_HYBRID_GRAMMAR_REVISION_REPORT.md",
+          "line": 3,
+          "line_end": 24,
+          "quote": "Status: **LEXICALIZED_HYBRID_RECORD_SHORTHAND_LEADING_THEORY**.\n\nThis is the current executable YOLO theory, not a decipherment claim and not a\nnew manuscript score.\n\n## Revised generator\n\n```text\nPAGE / REGISTER\n  -> RECORD TEMPLATE + LINE-ENTRY STATE\n  -> FIELD OPPORTUNITY / COARSE POSITION\n  -> UNKNOWN LATENT PAYLOAD OR FORM ENTRY\n  -> JOINT (PAGE_HOST, RENDERER) SURFACE ALTERNANT\n  -> SHARED WRAPPER / FRAME / EDGE / CLOSURE CONSTRAINTS AS BACKOFF\n  -> VISIBLE SOURCE GROUP\n```\n\nThe crucial change from GDT288 is that `PAGE_HOST -> renderer` is no longer a\nclaimed causal step. GDT297 shows a within-host bijection between every exact\nrenderer tuple and complete source form, while GDT289--290 fail to transfer a\ncompact renderer across unseen hosts. The safest executable representation is\ntherefore a high-capacity **joint form lexicon** constrained by reusable record",
+          "sha256": "5712ed2b29745bd620a65e98fd10944394cc10fa4d4f36a7661105e28a0941d6"
+        },
+        {
+          "path": "GDT298_LEXICALIZED_HYBRID_GRAMMAR_REVISION_REPORT.md",
+          "line": 42,
+          "line_end": 51,
+          "quote": "## Theory ranking\n\n| rank | world | current fit |\n|---:|---|---|\n| 1 | lexicalized hybrid record shorthand | best current coherence |\n| 2 | abbreviation-heavy natural language | plausible payload/rendering component |\n| 3 | nonsemantic string-statistical process | mandatory strong adversarial null |\n| 4 | compact factorial technical notation | too low-capacity for observed host-specific rendering |\n| 5 | fixed local codebook | transfer and referent failures |\n",
+          "sha256": "5712ed2b29745bd620a65e98fd10944394cc10fa4d4f36a7661105e28a0941d6"
+        },
+        {
+          "path": "GDT298_LEXICALIZED_HYBRID_GRAMMAR_REVISION_REPORT.md",
+          "line": 52,
+          "line_end": 63,
+          "quote": "## Translation consequence\n\nA future translation attempt should not begin by assigning meanings to stripped\nPAGE_HOSTs. It needs an independent repeated content endpoint and must compare\nthree units simultaneously: complete source form, parsed joint form state, and\nPAGE_HOST projection. A meaning that follows only the stripped host is no\nlonger the default prediction.\n\nThe next decisive formal success would be a renderer alternant predicted for a\ngenuinely unseen host without character-substring tuning. The next decisive\nsemantic success would be an independently repeated referent whose joint form\ndistribution transfers across folios. Neither currently exists.",
+          "sha256": "5712ed2b29745bd620a65e98fd10944394cc10fa4d4f36a7661105e28a0941d6"
+        }
+      ],
+      "coverage_result": "additional_source_case_existing_assertion"
+    }
+  ],
+  "dispositions": [
+    {
+      "source_id": "LEGACY_COMPONENT:650eaf6ce0400d9f3ffa",
+      "decision": "nonidea_result",
+      "reason": "Failure of a five-part list-like package; this fragment supplies result limitations, not a new positive content model.",
+      "card_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:70714b9894d99ebf4096",
+      "decision": "formal_only",
+      "reason": "Probabilistic record-closing class, explicitly no syntax, speech or administrative/medical function. Preserve source archive, not a semantic idea.",
+      "card_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:f6ec93c14e65ca44c982",
+      "decision": "nonidea_result",
+      "reason": "Context-transfer failure, formal exploratory signal and seal correction; explicitly no inferred content or semantic role.",
+      "card_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:fb9e1536c91f7497578b",
+      "decision": "nonidea_control_result",
+      "reason": "Readable-control finding and information loss under stripping, not a Voynich content hypothesis.",
+      "card_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:edb6acf48d3de2edb3a2",
+      "decision": "formal_mechanism_constraint",
+      "reason": "Quantitative compiler-like residual requirements; no concrete content assignment. Not promoted to semantic model.",
+      "card_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:684b931512d269a14255",
+      "decision": "nonidea_control_result",
+      "reason": "Comparator shortfall and capacity caveats, not a new manuscript meaning.",
+      "card_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:bf4200689d9996b483bf",
+      "decision": "nonidea_method",
+      "reason": "Explains switched-label null interpretation and limits; no content proposition.",
+      "card_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:e8e9b229ce7f88f98acd",
+      "decision": "formal_mechanism_constraint",
+      "reason": "Defines a transfer requirement for operation algebra rather than assigning content or interpreting a written unit.",
+      "card_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:34ea349bc560252b3b18",
+      "decision": "nonidea_formal_result",
+      "reason": "Explicitly exploratory surface/compiler coupling without any semantic function assigned.",
+      "card_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:5c88b59c199ab456fae2",
+      "decision": "existing_source_case",
+      "reason": "The exact medicinal-alchemical q13 claim and low-specificity caveat already occur in its current primary case.",
+      "card_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:46e7ffc6024b00bf75e3",
+      "decision": "existing_source_case",
+      "reason": "Current SEM source evidence already includes both the balneological model and the possible component/state-reference rendering. Broad headline alone is not used as coverage proof.",
+      "card_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:d919c6cc26c91013a9fb",
+      "decision": "accepted",
+      "reason": "Specific mixed procedural/argument body with different termination is not the reviewed Herbal B compression or f83 mode-split proposition.",
+      "card_ids": [
+        "CLEAN_GAP_AB:q13_mixed_procedural_argument_body"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:6a39d8675b393785d361",
+      "decision": "contextual_limit_not_new_idea",
+      "reason": "The short Together-these sentence ranks a hybrid world and preserves a nonsemantic rival; without enumerating a new model here it adds a scoped limitation to existing rival architecture.",
+      "card_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:b6e4213335dd5c6b6fe1",
+      "decision": "source_correction",
+      "reason": "Withdraws BACA/dar content gloss in favor of rendering/register/local class; retain correction evidence, do not invent a newly proven class meaning.",
+      "card_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:c546abf008693809be32",
+      "decision": "formal_architecture",
+      "reason": "Proposed label prefix plus opaque residual generator; content position is explicitly unbound. Source archive retained outside semantic list.",
+      "card_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:99042ac221c72a1065df",
+      "decision": "source_correction",
+      "reason": "Current-atlas residual transfer failure and register-bound opacity; no general no-content theorem and no new positive object identity.",
+      "card_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:a61cb17e6ad3ebc4d2b4",
+      "decision": "existing_model_plus_formal_detail",
+      "reason": "Hybrid compiler is already retained. Four formal grammar lines are a source-level implementation detail, not new lexical/content assignments; no same-substring semantic merger.",
+      "card_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:658e50e3822207f9ce7a",
+      "decision": "existing_source_cases",
+      "reason": "All four page-model/rival statements already have current cards with this source. Retain alternatives, do not collapse them.",
+      "card_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:c28a66c1d34426a4b4da",
+      "decision": "formal_architecture",
+      "reason": "P1/P2/P3 field-size profile and label renderer remain explicitly compatible with several content worlds; not a newly chosen meaning.",
+      "card_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:cd739585c0619925681e",
+      "decision": "formal_interface_constraint",
+      "reason": "Requires preservation of some group identities between labels and prose; no addressed referent or written function assigned.",
+      "card_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:c6236aa3ece03e91cb79",
+      "decision": "accepted",
+      "reason": "Source explicitly nominates the exact whole-form content-address candidates; this is narrower than a generic content-address system.",
+      "card_ids": [
+        "CLEAN_GAP_AB:exact_label_prose_content_address_candidates"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:6ff150dca6acca9b0be2",
+      "decision": "nonidea_reopening_requirement",
+      "reason": "Independent known referent requirement and access correction are research gates, not a new semantic idea.",
+      "card_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:5f00baecb3da708290a5",
+      "decision": "grouped",
+      "reason": "The ranked lexicalized hybrid model is already represented from GDT298 METHOD; attach the report as a source case, not a third new idea.",
+      "card_ids": [
+        "CLEAN_GAP_AB:lexicalized_hybrid_report_source_case"
+      ]
+    }
+  ],
+  "validation": {
+    "status": "PASS",
+    "cards": 3,
+    "new_scoped_functional_proposals": 2,
+    "existing_assertion_source_cases": 1,
+    "all23_source_spans_have_dispositions": true,
+    "exact_source_quotes_hashes_and_source_ids": true
+  },
+  "limits": [
+    "No global novelty or history-completeness claim.",
+    "Formal-only and control passages remain source archive material, not placeholder semantic cards.",
+    "Evidence already in a current source case is identified explicitly; a broad title alone never proves full scope coverage.",
+    "No old failed route is reopened by this metadata/source recovery."
+  ]
+}

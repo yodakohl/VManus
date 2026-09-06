@@ -1,0 +1,1278 @@
+{
+  "review_id": "SEMANTIC_TYPE_REVIEW_AJ",
+  "status": "BOUNDED_SOURCE_REVIEW_COMPLETE_NO_OPERATIONAL_CHANGES",
+  "selection": {
+    "eligible_title_scope": 176,
+    "titles_read": 176,
+    "title_page_offsets": [
+      0,
+      20,
+      40,
+      60,
+      80,
+      100,
+      120,
+      140,
+      160
+    ],
+    "page_size": 20,
+    "primary_card_cases_reviewed": 30,
+    "maximum_primary_cases": 30,
+    "filter": "Current public formal_role IDs lexicographically less than SEM:8; exclude source_correction_history and root-owned SEM:0962*, SEM:347a*, SEM:9444*.",
+    "selection_basis": "Manual triage of every eligible title; prioritize explicit concrete meanings, reference/content classes and three requested cases. No keyword-only type decisions."
+  },
+  "counts": {
+    "lexical_hypothesis": 9,
+    "functional_hypothesis": 20,
+    "source_polarity_review": 1
+  },
+  "recommendations": [
+    {
+      "target": "SEM:078302c29517b607e20e",
+      "current_claim": "sain → Saatgut, Typ/Charge II",
+      "current_type": "formal_role",
+      "target_basis_sha256": "1d4e5b8affe72ddd66d517fe13a51ca13bf17a00f3b3d05710332e42c373a620",
+      "effective_basis_sha256": "ffc40aced854ca091adbb9e12ebd85069d8bd9a285cbce2d15afa405d6bc12b5",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:82ae75adc5f7756e76b3"
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "lexical_hypothesis",
+      "claim_change_required": false,
+      "reason": "A complete written form is assigned a concrete seed, drug, preparation, operation or source-language gloss. This is a lexical hypothesis even when generated, weak, historically superseded or unconfirmed.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 65,
+          "line_end": 65,
+          "path": "experiments/yolo/gdt661_forty_eight_residual_family_completion/REPORT.md",
+          "quote": "| `sain` | 60 / 53 | Saatgut, Typ/Charge II | stark |",
+          "sha256": "bc59ad9ee2aa88549f5d19ced3f086580de7e8e2215d0bf17b10959c678c9880",
+          "source_id": "LEGACY_COMPONENT:1fce1a7b085bc06a611d",
+          "source_section": "Das vollständige 48-Wörter-Deck",
+          "table_header": "| Form | n / exakt | konkrete V38-Arbeitslesung | Stärke |"
+        }
+      ],
+      "additional_context": [
+        {
+          "path": "experiments/yolo/gdt661_forty_eight_residual_family_completion/REPORT.md",
+          "line": 32,
+          "quote": "| Form | n / exakt | konkrete V38-Arbeitslesung | Stärke |\n|---|---:|---|---|",
+          "sha256": "bc59ad9ee2aa88549f5d19ced3f086580de7e8e2215d0bf17b10959c678c9880"
+        }
+      ],
+      "scope_limits": "Preserve all original case scope, local form versus root units, historical alternatives, negation and later limitations. Type is independent of confirmation; no selected meaning, scientific success, identity merge or reopening permission is inferred."
+    },
+    {
+      "target": "SEM:0bfd31d5e59f8048b5d5",
+      "current_claim": "cheol → Qualitäts- oder Zustandsfeld",
+      "current_type": "formal_role",
+      "target_basis_sha256": "778a2a6590e035ad9d4a5be0ef4b1b927874471702611030081cc3891a18d00f",
+      "effective_basis_sha256": "bb2f8f23e6f76b9a10a0b3211cc99faed514b980dc9bd9010bfa723d93e3b65a",
+      "source_case_ids": [
+        "REPORT_PROPOSAL:5ff4d33fbc404ff6aa7f"
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "functional_hypothesis",
+      "claim_change_required": false,
+      "reason": "The source proposes a substance, preparation, quality, state, value or referential content role. It remains a semantic/function hypothesis despite an unresolved referent or competing role; a purely structural prefix/boundary account would not assert that content class.",
+      "evidence": [
+        {
+          "line": 74,
+          "path": "experiments/yolo/gdt805_eleven_whole_context_role_discriminator/REPORT.md",
+          "quote": "| `cheol` | 141/70 | Stoff- oder Zubereitungseintrag | Qualitäts- oder Zustandsfeld | `DRY_VALUE_CONTEXT_PROFILE__MATERIAL_OR_QUALITY_UNRESOLVED__NO_DIRECT_SLOT` |",
+          "sha256": "a7d1149d3341973909288cd531d863d446fd7acefadff98844db55eac56625f5"
+        }
+      ],
+      "additional_context": [
+        {
+          "path": "experiments/yolo/gdt805_eleven_whole_context_role_discriminator/REPORT.md",
+          "line": 70,
+          "quote": "| Form | Außenstellen/Folios | führender konkreter Rivale | Gegenrivale | Entscheidung |\n|---|---:|---|---|---|",
+          "sha256": "a7d1149d3341973909288cd531d863d446fd7acefadff98844db55eac56625f5"
+        }
+      ],
+      "scope_limits": "Preserve all original case scope, local form versus root units, historical alternatives, negation and later limitations. Type is independent of confirmation; no selected meaning, scientific success, identity merge or reopening permission is inferred.",
+      "specific_limit": "These are leading/counter rivals in a role-discrimination table. Context profiles do not identify direct slots or meanings. Retain the candidate as a hypothesis, never an established semantic field."
+    },
+    {
+      "target": "SEM:18fd0c397806c2043d9b",
+      "current_claim": "ldals → eine Charge Holzrohdroge I abmessen",
+      "current_type": "formal_role",
+      "target_basis_sha256": "182ff43c5b1b152823481cdf67fa8612f971e47448e8775c97395cd339b4bb80",
+      "effective_basis_sha256": "1207586ef68c528a5d7e6c3ea053476769e28a06a4e7121919751d27cbbfeacc",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:213fa4e1601f8ee8f458"
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "lexical_hypothesis",
+      "claim_change_required": false,
+      "reason": "A complete written form is assigned a concrete seed, drug, preparation, operation or source-language gloss. This is a lexical hypothesis even when generated, weak, historically superseded or unconfirmed.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 59,
+          "line_end": 59,
+          "path": "experiments/yolo/gdt680_eight_four_hole_family_completion/REPORT.md",
+          "quote": "| `ldals` | eine Charge Holzrohdroge I abmessen | 1 |",
+          "sha256": "27d4d039aa70290e78912af44c1676b54dbc355f220845a5899d188fd9b5cef4",
+          "source_id": "LEGACY_COMPONENT:71dec69397a576ac43ba",
+          "source_section": "Konsolidiertes neues Wörterbuch",
+          "table_header": "| Form | Arbeitsbedeutung | Belege |"
+        }
+      ],
+      "additional_context": [
+        {
+          "path": "experiments/yolo/gdt680_eight_four_hole_family_completion/REPORT.md",
+          "line": 43,
+          "quote": "| Form | Arbeitsbedeutung | Belege |\n|---|---|---:|",
+          "sha256": "27d4d039aa70290e78912af44c1676b54dbc355f220845a5899d188fd9b5cef4"
+        }
+      ],
+      "scope_limits": "Preserve all original case scope, local form versus root units, historical alternatives, negation and later limitations. Type is independent of confirmation; no selected meaning, scientific success, identity merge or reopening permission is inferred."
+    },
+    {
+      "target": "SEM:1e62ce696d6f529547d6",
+      "current_claim": "CKHY → VERBINDUNG/LEITUNG",
+      "current_type": "formal_role",
+      "target_basis_sha256": "3129e831f14bb7592c492e820631c8f2f4a7a3674ef1717300849c1a12576148",
+      "effective_basis_sha256": "2c37daddf353366f8d127a8f2f83132e1425f2c1a9938d63896956a2b95310b6",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:54ab76d1be10c82a932a"
+      ],
+      "verdict": "defer_type_change_pending_source_polarity_review",
+      "recommended_type": null,
+      "claim_change_required": false,
+      "reason": "The sole source says E=BIS and CKHY=VERBINDUNG/LEITUNG are fully removed. Merely switching type would hide that negative polarity and present a live positive assignment. Determine whether to retain a historically withdrawn lexical proposal with explicit status or archive a positive-only extraction error; the cited line alone is not positive endorsement.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 164,
+          "line_end": 164,
+          "path": "experiments/yolo/sidequest_theory_candidates_v54/V54_R2_HISTORICAL_BIOLOGICAL_REPORT.md",
+          "quote": "- `E=BIS` und `CKHY=VERBINDUNG/LEITUNG` werden vollständig entfernt.",
+          "sha256": "6c28cb1ebc37d9f59e87f981b72eda1ef23e7d00e19702dfd10531904f9a43f1",
+          "source_id": "LEGACY_COMPONENT:5dcc78f1e56888d2eb6c",
+          "source_section": "Revision gegenüber V42 und V49",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "scope_limits": "Preserve all original case scope, local form versus root units, historical alternatives, negation and later limitations. Type is independent of confirmation; no selected meaning, scientific success, identity merge or reopening permission is inferred."
+    },
+    {
+      "target": "SEM:1f72db704049cfd66478",
+      "current_claim": "cheos → Charge eines mitteltrockenen Ansatzes",
+      "current_type": "formal_role",
+      "target_basis_sha256": "014ec9a10f712991ee4e7273dfa54ab77ce5d9c51784590bf0ec6cabedd0c546",
+      "effective_basis_sha256": "ad4d71d7988c0bca6fb5474d580e47cc6f996ae5e878e8bf471b3defe95a6eec",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:60e3364dd6c450d52f10"
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "lexical_hypothesis",
+      "claim_change_required": false,
+      "reason": "A complete written form is assigned a concrete seed, drug, preparation, operation or source-language gloss. This is a lexical hypothesis even when generated, weak, historically superseded or unconfirmed.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 3,
+              "text": "Status: `PASS_438_TARGET_POSITIONS__V44_CONCRETE_RECIPE_REGISTER`"
+            }
+          ],
+          "line": 54,
+          "line_end": 54,
+          "path": "experiments/yolo/gdt667_one_hundred_one_residual_family_completion/REPORT.md",
+          "quote": "| `cheos` | 28 | Charge eines mitteltrockenen Ansatzes |",
+          "sha256": "9c0b839672401873a0bbb7c50df014a0c496cb6e817a9f081d2d26c37de8e3a1",
+          "source_id": "LEGACY_COMPONENT:26dcdef7dd1021cdfa8e",
+          "source_section": "Concrete cards produced by the composition",
+          "table_header": "| surface | positions | V44 working reading |"
+        }
+      ],
+      "additional_context": [
+        {
+          "path": "experiments/yolo/gdt667_one_hundred_one_residual_family_completion/REPORT.md",
+          "line": 51,
+          "quote": "| surface | positions | V44 working reading |\n|---|---:|---|",
+          "sha256": "9c0b839672401873a0bbb7c50df014a0c496cb6e817a9f081d2d26c37de8e3a1"
+        }
+      ],
+      "scope_limits": "Preserve all original case scope, local form versus root units, historical alternatives, negation and later limitations. Type is independent of confirmation; no selected meaning, scientific success, identity merge or reopening permission is inferred."
+    },
+    {
+      "target": "SEM:259e9fb0a42465febab7",
+      "current_claim": "qotal → Qualitäts- oder Zustandsfeld",
+      "current_type": "formal_role",
+      "target_basis_sha256": "6eb0254e40508e2ab5cf58b7cbb3407b49e00d32dc6d7c0a5fa4239fa382a42f",
+      "effective_basis_sha256": "3de85893b37d5e7e27a5a7335430296970d6781bc652559189468c245e99fbbf",
+      "source_case_ids": [
+        "REPORT_PROPOSAL:b987a48a2301d2606719"
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "functional_hypothesis",
+      "claim_change_required": false,
+      "reason": "The source proposes a substance, preparation, quality, state, value or referential content role. It remains a semantic/function hypothesis despite an unresolved referent or competing role; a purely structural prefix/boundary account would not assert that content class.",
+      "evidence": [
+        {
+          "line": 81,
+          "path": "experiments/yolo/gdt805_eleven_whole_context_role_discriminator/REPORT.md",
+          "quote": "| `qotal` | 56/34 | Stoff- oder Zubereitungsfeld | Qualitäts- oder Zustandsfeld | `MATERIAL_OR_QUALITY_RIVALS_UNRESOLVED__NO_ROLE_LEAD` |",
+          "sha256": "a7d1149d3341973909288cd531d863d446fd7acefadff98844db55eac56625f5"
+        }
+      ],
+      "additional_context": [
+        {
+          "path": "experiments/yolo/gdt805_eleven_whole_context_role_discriminator/REPORT.md",
+          "line": 70,
+          "quote": "| Form | Außenstellen/Folios | führender konkreter Rivale | Gegenrivale | Entscheidung |\n|---|---:|---|---|---|",
+          "sha256": "a7d1149d3341973909288cd531d863d446fd7acefadff98844db55eac56625f5"
+        }
+      ],
+      "scope_limits": "Preserve all original case scope, local form versus root units, historical alternatives, negation and later limitations. Type is independent of confirmation; no selected meaning, scientific success, identity merge or reopening permission is inferred.",
+      "specific_limit": "These are leading/counter rivals in a role-discrimination table. Context profiles do not identify direct slots or meanings. Retain the candidate as a hypothesis, never an established semantic field."
+    },
+    {
+      "target": "SEM:28726fca7bc8f706a9a1",
+      "current_claim": "otar → kalte Teilmenge · kaltes Wertfeld · Ganzname",
+      "current_type": "formal_role",
+      "target_basis_sha256": "a1130feb1949041eb8657b4d2e96a55bec2fcfeccff50e6cb1fae501db0b475d",
+      "effective_basis_sha256": "adfa32faacebe5df7916772410fe1f7a7e63db483e382edde902c883fc81f793",
+      "source_case_ids": [
+        "REPORT_PROPOSAL:db563b059c4520fd8f38"
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "functional_hypothesis",
+      "claim_change_required": false,
+      "reason": "The source proposes a substance, preparation, quality, state, value or referential content role. It remains a semantic/function hypothesis despite an unresolved referent or competing role; a purely structural prefix/boundary account would not assert that content class.",
+      "evidence": [
+        {
+          "line": 192,
+          "path": "experiments/yolo/gdt789_ar_remainder_cross_family_transfer/REPORT.md",
+          "quote": "| `otar` | kalter Zubereitungsanteil | 48 | kalte Teilmenge · kaltes Wertfeld · Ganzname |",
+          "sha256": "a6907da93ddcf1296d5340914303de3ccb16d2e54a97049f3565c9f7516f7765"
+        }
+      ],
+      "additional_context": [
+        {
+          "path": "experiments/yolo/gdt789_ar_remainder_cross_family_transfer/REPORT.md",
+          "line": 188,
+          "quote": "| Form | bevorzugte Arbeitsanzeige | Gewicht* | wichtigste Rivalen |\n|---|---|---:|---|",
+          "sha256": "a6907da93ddcf1296d5340914303de3ccb16d2e54a97049f3565c9f7516f7765"
+        }
+      ],
+      "scope_limits": "Preserve all original case scope, local form versus root units, historical alternatives, negation and later limitations. Type is independent of confirmation; no selected meaning, scientific success, identity merge or reopening permission is inferred.",
+      "specific_limit": "The selected claim comes from the strongest-rivals column, not the preferred-working-value column. Keep the disjunctive rival bundle and its whole-form scope; do not convert editorial weights into probabilities."
+    },
+    {
+      "target": "SEM:2cc8583421c07ade5d18",
+      "current_claim": "cthan → leaf/above-ground drug material, value I",
+      "current_type": "formal_role",
+      "target_basis_sha256": "52f491c36a06cbd38b6d548ac777dd683c5b8ca8f1d1ff7da8cf80d458d9139b",
+      "effective_basis_sha256": "7dfdf69b481e1d10cf6c8fdaba397960a7002f22e2093268ee17f88064bd027b",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:6f3602aaf8f81fe8bc95"
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "lexical_hypothesis",
+      "claim_change_required": false,
+      "reason": "A complete written form is assigned a concrete seed, drug, preparation, operation or source-language gloss. This is a lexical hypothesis even when generated, weak, historically superseded or unconfirmed.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 99,
+          "line_end": 99,
+          "path": "experiments/yolo/gdt626_mobile_operation_lexicon/REPORT.md",
+          "quote": "| `cthan` | 2 | leaf/above-ground drug material, value I |",
+          "sha256": "e1f8c803562e1d1b2ea74b0df0f7ce61ee8d11e0bc73c22c3268641d1458cc3d",
+          "source_id": "LEGACY_COMPONENT:beb12ccb4698c435e879",
+          "source_section": "Concrete plant-part readings",
+          "table_header": "| surface | occurrences | practical reading |"
+        }
+      ],
+      "additional_context": [
+        {
+          "path": "experiments/yolo/gdt626_mobile_operation_lexicon/REPORT.md",
+          "line": 97,
+          "quote": "| surface | occurrences | practical reading |\n|---|---:|---|",
+          "sha256": "e1f8c803562e1d1b2ea74b0df0f7ce61ee8d11e0bc73c22c3268641d1458cc3d"
+        }
+      ],
+      "scope_limits": "Preserve all original case scope, local form versus root units, historical alternatives, negation and later limitations. Type is independent of confirmation; no selected meaning, scientific success, identity merge or reopening permission is inferred."
+    },
+    {
+      "target": "SEM:31d46383e1b044655ac1",
+      "current_claim": "otar → bis is the primary identity rival; nominal preparation/record field is the principal role rival",
+      "current_type": "formal_role",
+      "target_basis_sha256": "e6d2c0246dcf91b6dd75ce76839d83dede347f717c46bce1fd267908ad7b06e0",
+      "effective_basis_sha256": "19fcbfac8fca01694c51d903fc13a04447d1f51bf2f31c09307b6f61f8930b87",
+      "source_case_ids": [
+        "REPORT_PROPOSAL:cf40d97478049c9915b8"
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "functional_hypothesis",
+      "claim_change_required": false,
+      "reason": "The source explicitly names bis as a lexical identity rival and a nominal preparation/record field as a role rival. Neither is merely a typographical wrapper. Preserve both as unconfirmed alternatives, not as the selected then/next reading.",
+      "evidence": [
+        {
+          "line": 14,
+          "path": "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/REPORT.md",
+          "quote": "| `otar` | R05 selected only by specificity priority over an equally passing R01 role | `dann/anschließend/weiter` | `C1_LOCAL_FRAME__C0_ROLE_TIEBREAK`; C0 lexeme | `bis` is the primary identity rival; nominal preparation/record field is the principal role rival |",
+          "sha256": "a00ca7b7fd36013a78b8118395e88e5e091f087515d0def577ba25af7623e346"
+        }
+      ],
+      "additional_context": [
+        {
+          "path": "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/REPORT.md",
+          "line": 11,
+          "quote": "| Target | Current role decision | Reader default | Confidence carried by the specification | Live rival or limit |\n| --- | --- | --- | --- | --- |",
+          "sha256": "a00ca7b7fd36013a78b8118395e88e5e091f087515d0def577ba25af7623e346"
+        }
+      ],
+      "scope_limits": "Preserve all original case scope, local form versus root units, historical alternatives, negation and later limitations. Type is independent of confirmation; no selected meaning, scientific success, identity merge or reopening permission is inferred."
+    },
+    {
+      "target": "SEM:332653f4bf2c55146686",
+      "current_claim": "qokeedal → Arzneizubereitung · Wärme-/Endfeld",
+      "current_type": "formal_role",
+      "target_basis_sha256": "c7da4e6970465ce46bac23acfe92d4620144cd75326b54102cbc9ef99fad9f32",
+      "effective_basis_sha256": "db93066fffe663e12d4d6f202e2ebfd87cbf5b3111388bc8676613a79753fab9",
+      "source_case_ids": [
+        "REPORT_PROPOSAL:55dcac15ba0d843636ed"
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "functional_hypothesis",
+      "claim_change_required": false,
+      "reason": "The source proposes a substance, preparation, quality, state, value or referential content role. It remains a semantic/function hypothesis despite an unresolved referent or competing role; a purely structural prefix/boundary account would not assert that content class.",
+      "evidence": [
+        {
+          "line": 183,
+          "path": "experiments/yolo/gdt788_dal_remainder_cross_family_transfer/REPORT.md",
+          "quote": "| `qokeedal` | erhitztes Material I, abgemessen; Endstufe | 40 | Arzneizubereitung · Wärme-/Endfeld |",
+          "sha256": "3ceba95e7d7e78c2e705dcfa132eb46abb815cd091436aa89d7d30b4a4b7cd1b"
+        }
+      ],
+      "additional_context": [
+        {
+          "path": "experiments/yolo/gdt788_dal_remainder_cross_family_transfer/REPORT.md",
+          "line": 172,
+          "quote": "| Form | bevorzugter Arbeitswert | Konfidenz* | stärkste Rivalen |\n|---|---|---:|---|",
+          "sha256": "3ceba95e7d7e78c2e705dcfa132eb46abb815cd091436aa89d7d30b4a4b7cd1b"
+        }
+      ],
+      "scope_limits": "Preserve all original case scope, local form versus root units, historical alternatives, negation and later limitations. Type is independent of confirmation; no selected meaning, scientific success, identity merge or reopening permission is inferred.",
+      "specific_limit": "The selected claim comes from the strongest-rivals column, not the preferred-working-value column. Keep the disjunctive rival bundle and its whole-form scope; do not convert editorial weights into probabilities."
+    },
+    {
+      "target": "SEM:33677c287a14f980b93f",
+      "current_claim": "AIR → LAUF/BAHN",
+      "current_type": "formal_role",
+      "target_basis_sha256": "6a493403f92fceb3c78db98b163040f83bfb0ca5a58482f93cc24a6188e388f2",
+      "effective_basis_sha256": "4d4c9e4f8dc589a2161b7ec58d25f910b36e129c99c2d1b1ba3579ba1cdfcfff",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:c63fec64151789487ffc"
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "lexical_hypothesis",
+      "claim_change_required": false,
+      "reason": "A complete written form is assigned a concrete seed, drug, preparation, operation or source-language gloss. This is a lexical hypothesis even when generated, weak, historically superseded or unconfirmed.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 7,
+          "line_end": 7,
+          "path": "experiments/yolo/sidequest_semantic_direction_triad_four_hundred_eighty_first/FOUR_HUNDRED_EIGHTY_FIRST_REPORT.md",
+          "quote": "- **AIR = LAUF/BAHN** — Flüssigkeitslauf im Nassregister, Bahn im Himmelsteil.",
+          "sha256": "01d99443767bff8ab48dbd15a0cab1fefe407d4e85fe1820360ffc826557c4d1",
+          "source_id": "LEGACY_COMPONENT:8f7bcaaa23c9d13c95a4",
+          "source_section": "Pass 481 — AR, AL und AIR schließen die Richtungsachse",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "scope_limits": "Preserve all original case scope, local form versus root units, historical alternatives, negation and later limitations. Type is independent of confirmation; no selected meaning, scientific success, identity merge or reopening permission is inferred."
+    },
+    {
+      "target": "SEM:4508f157a7cdf7fd0246",
+      "current_claim": "shdal → eingeweichter Drogenposten · Feuchtefeld",
+      "current_type": "formal_role",
+      "target_basis_sha256": "011f2859e51c2b48c8527557d54fe05cbcde01a8e84ddddd0667002a73a9794b",
+      "effective_basis_sha256": "72eb5bfcace755b14b7a85a109a40e6f47b93f3df5b9e69bcdd1baae5e679d1f",
+      "source_case_ids": [
+        "REPORT_PROPOSAL:62947c682fedafff7560"
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "functional_hypothesis",
+      "claim_change_required": false,
+      "reason": "The source proposes a substance, preparation, quality, state, value or referential content role. It remains a semantic/function hypothesis despite an unresolved referent or competing role; a purely structural prefix/boundary account would not assert that content class.",
+      "evidence": [
+        {
+          "line": 177,
+          "path": "experiments/yolo/gdt788_dal_remainder_cross_family_transfer/REPORT.md",
+          "quote": "| `shdal` | feuchtes Material I, abgemessen; Anfangsstufe | 46 | eingeweichter Drogenposten · Feuchtefeld |",
+          "sha256": "3ceba95e7d7e78c2e705dcfa132eb46abb815cd091436aa89d7d30b4a4b7cd1b"
+        }
+      ],
+      "additional_context": [
+        {
+          "path": "experiments/yolo/gdt788_dal_remainder_cross_family_transfer/REPORT.md",
+          "line": 172,
+          "quote": "| Form | bevorzugter Arbeitswert | Konfidenz* | stärkste Rivalen |\n|---|---|---:|---|",
+          "sha256": "3ceba95e7d7e78c2e705dcfa132eb46abb815cd091436aa89d7d30b4a4b7cd1b"
+        }
+      ],
+      "scope_limits": "Preserve all original case scope, local form versus root units, historical alternatives, negation and later limitations. Type is independent of confirmation; no selected meaning, scientific success, identity merge or reopening permission is inferred.",
+      "specific_limit": "The selected claim comes from the strongest-rivals column, not the preferred-working-value column. Keep the disjunctive rival bundle and its whole-form scope; do not convert editorial weights into probabilities."
+    },
+    {
+      "target": "SEM:4578a10f97c31359de52",
+      "current_claim": "cheodal → Arzneiextrakt · Trocken-/Mengenfeld",
+      "current_type": "formal_role",
+      "target_basis_sha256": "2eb48b2542fbc74ac4d11ae39194109bb120b7d011376acabfb30466eccc6395",
+      "effective_basis_sha256": "d6c2dc2a5ee427687545e48fafa1d1f9fc7f23cbda1df35af4084f3aa1fb0789",
+      "source_case_ids": [
+        "REPORT_PROPOSAL:1876b37008e57fd1409d"
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "functional_hypothesis",
+      "claim_change_required": false,
+      "reason": "The source proposes a substance, preparation, quality, state, value or referential content role. It remains a semantic/function hypothesis despite an unresolved referent or competing role; a purely structural prefix/boundary account would not assert that content class.",
+      "evidence": [
+        {
+          "line": 182,
+          "path": "experiments/yolo/gdt788_dal_remainder_cross_family_transfer/REPORT.md",
+          "quote": "| `cheodal` | trockenes Ansatzmaterial I, abgemessen | 44 | Arzneiextrakt · Trocken-/Mengenfeld |",
+          "sha256": "3ceba95e7d7e78c2e705dcfa132eb46abb815cd091436aa89d7d30b4a4b7cd1b"
+        }
+      ],
+      "additional_context": [
+        {
+          "path": "experiments/yolo/gdt788_dal_remainder_cross_family_transfer/REPORT.md",
+          "line": 172,
+          "quote": "| Form | bevorzugter Arbeitswert | Konfidenz* | stärkste Rivalen |\n|---|---|---:|---|",
+          "sha256": "3ceba95e7d7e78c2e705dcfa132eb46abb815cd091436aa89d7d30b4a4b7cd1b"
+        }
+      ],
+      "scope_limits": "Preserve all original case scope, local form versus root units, historical alternatives, negation and later limitations. Type is independent of confirmation; no selected meaning, scientific success, identity merge or reopening permission is inferred.",
+      "specific_limit": "The selected claim comes from the strongest-rivals column, not the preferred-working-value column. Keep the disjunctive rival bundle and its whole-form scope; do not convert editorial weights into probabilities."
+    },
+    {
+      "target": "SEM:46657d612c63a5952efc",
+      "current_claim": "qokol → Zubereitungs- oder Stofffeld",
+      "current_type": "formal_role",
+      "target_basis_sha256": "7a7724a5658009c106a22d1b731c2b13cf474acebf49475f21b2a437462dd11a",
+      "effective_basis_sha256": "f6bb3f05629e957f9b5db759568b19d9990268fe909aa5dab482805071b7b78f",
+      "source_case_ids": [
+        "REPORT_PROPOSAL:1919ad5c1b3774eac1e7"
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "functional_hypothesis",
+      "claim_change_required": false,
+      "reason": "The source proposes a substance, preparation, quality, state, value or referential content role. It remains a semantic/function hypothesis despite an unresolved referent or competing role; a purely structural prefix/boundary account would not assert that content class.",
+      "evidence": [
+        {
+          "line": 80,
+          "path": "experiments/yolo/gdt805_eleven_whole_context_role_discriminator/REPORT.md",
+          "quote": "| `qokol` | 87/51 | Zubereitungs- oder Stofffeld | Behandlungs- oder Prozessfeld | `VALUE_CONTEXT_FIELD__PROCESS_PREPARATION_UNRESOLVED` |",
+          "sha256": "a7d1149d3341973909288cd531d863d446fd7acefadff98844db55eac56625f5"
+        }
+      ],
+      "additional_context": [
+        {
+          "path": "experiments/yolo/gdt805_eleven_whole_context_role_discriminator/REPORT.md",
+          "line": 70,
+          "quote": "| Form | Außenstellen/Folios | führender konkreter Rivale | Gegenrivale | Entscheidung |\n|---|---:|---|---|---|",
+          "sha256": "a7d1149d3341973909288cd531d863d446fd7acefadff98844db55eac56625f5"
+        }
+      ],
+      "scope_limits": "Preserve all original case scope, local form versus root units, historical alternatives, negation and later limitations. Type is independent of confirmation; no selected meaning, scientific success, identity merge or reopening permission is inferred.",
+      "specific_limit": "These are leading/counter rivals in a role-discrimination table. Context profiles do not identify direct slots or meanings. Retain the candidate as a hypothesis, never an established semantic field."
+    },
+    {
+      "target": "SEM:48692f5d7b8cf69c954d",
+      "current_claim": "chor → non-leaf plant-part item; reproductive role possible",
+      "current_type": "formal_role",
+      "target_basis_sha256": "64e127c21854cc9168a47dc56b02a0a1e5adabb24a282ef0315a06a60a0f7ad6",
+      "effective_basis_sha256": "d056162cf7608d9f1941bd0dcc85f66dc8e6a90601d197bc9a1ae9fb366d4591",
+      "source_case_ids": [
+        "REPORT_PROPOSAL:f46671f5d4657d189198"
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "functional_hypothesis",
+      "claim_change_required": false,
+      "reason": "The source proposes a substance, preparation, quality, state, value or referential content role. It remains a semantic/function hypothesis despite an unresolved referent or competing role; a purely structural prefix/boundary account would not assert that content class.",
+      "evidence": [
+        {
+          "line": 39,
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/REPORT.md",
+          "quote": "| `chor` | non-leaf plant-part item; reproductive role possible | Blütenstand | Samen- oder Fruchtstand |",
+          "sha256": "bf02e42ce7b03daf319eca7d9d572ccd45ac9d87212530fe8ed46e44e1aa2b7e"
+        }
+      ],
+      "additional_context": [
+        {
+          "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/REPORT.md",
+          "line": 37,
+          "quote": "| complete EVA form | portable reading | displayed concrete default | main rival |\n|---|---|---|---|",
+          "sha256": "bf02e42ce7b03daf319eca7d9d572ccd45ac9d87212530fe8ed46e44e1aa2b7e"
+        }
+      ],
+      "scope_limits": "Preserve all original case scope, local form versus root units, historical alternatives, negation and later limitations. Type is independent of confirmation; no selected meaning, scientific success, identity merge or reopening permission is inferred."
+    },
+    {
+      "target": "SEM:4ae11fdf56469a4b4dd0",
+      "current_claim": "pcheey → gebundenes Zubereitungs-/Form-II-Feld",
+      "current_type": "formal_role",
+      "target_basis_sha256": "3c8ec3ad2c323323cee3501a8daddfda3ed5e43bf8f5b44c80cf143a696dc81c",
+      "effective_basis_sha256": "a4d8176a7cf75f6ed10909d43dc1133d7c50899a68c67ee89793b115d30a339f",
+      "source_case_ids": [
+        "REPORT_PROPOSAL:9618cb9f44742d17208d",
+        "REPORT_PROPOSAL:f1cf3437fdc16a3e3437"
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "functional_hypothesis",
+      "claim_change_required": false,
+      "reason": "The source proposes a substance, preparation, quality, state, value or referential content role. It remains a semantic/function hypothesis despite an unresolved referent or competing role; a purely structural prefix/boundary account would not assert that content class.",
+      "evidence": [
+        {
+          "line": 15,
+          "path": "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/REPORT.md",
+          "quote": "| `pcheey` | R04 bounded record/form field | `gebundenes Zubereitungs-/Form-II-Feld` | C1 replicated role globally; C2 in the specified line readers; C0 form identity | paste, salve, mixed form, or residue remain candidates; dry/powder has no positive frame |",
+          "sha256": "a00ca7b7fd36013a78b8118395e88e5e091f087515d0def577ba25af7623e346"
+        },
+        {
+          "line": 23,
+          "path": "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/PREREGISTRATION.md",
+          "quote": "## Vorab sichtbare Rivalen",
+          "sha256": "5046a218f2d04e86aad0f3174776793c6ada1f5ab50b07c8f7534235ea2a4751"
+        },
+        {
+          "line": 25,
+          "path": "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/PREREGISTRATION.md",
+          "quote": "- `ol`: Feldrelation oder Mengenanschluss; allgemeine Zubereitungsbasis;\n  Pflanzensaft/Auszug/Dekokt; Öl; Arzneiwasser; Wein; Essig.\n- `ckhy`: Mischung/Kompositum; `mischen/vermengen` als rezeptfinaler Vorgang;\n  Infusion/Dekokt; Wasser-/Wein-/Essigmedium; Einweichen/Mazerieren.\n- `pcheey`: gebundenes Zubereitungs-/Form-II-Feld; Paste, Salben- oder\n  Mischform II; Pulver/Trockendroge; Rückstand nach Einweichen.\n- `ols`: fertige Flüssigzubereitung; Filtrat/Colatur; Saft/Auszug/Dekokt;\n  ölige Zubereitung; Abseihen als Vorgang.\n- `otar`: Folgen-/Feldverbinder; `dann/danach`; `bis`; Trocknen als Vorgang;\n  nominales Zubereitungsfeld; Arzneiwasser/Auszug; Öl; Wein; Essig; Pulver.",
+          "sha256": "5046a218f2d04e86aad0f3174776793c6ada1f5ab50b07c8f7534235ea2a4751"
+        }
+      ],
+      "additional_context": [
+        {
+          "path": "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/REPORT.md",
+          "line": 11,
+          "quote": "| Target | Current role decision | Reader default | Confidence carried by the specification | Live rival or limit |\n| --- | --- | --- | --- | --- |",
+          "sha256": "a00ca7b7fd36013a78b8118395e88e5e091f087515d0def577ba25af7623e346"
+        }
+      ],
+      "scope_limits": "Preserve all original case scope, local form versus root units, historical alternatives, negation and later limitations. Type is independent of confirmation; no selected meaning, scientific success, identity merge or reopening permission is inferred."
+    },
+    {
+      "target": "SEM:4b27b25adbfac8a1f15a",
+      "current_claim": "karchees → vollständig getrocknete Kräutercharge der ersten heißen Fraktion",
+      "current_type": "formal_role",
+      "target_basis_sha256": "8c28e318e5ba0033e9095d8a2491c194d45fda00107452d56ec41a4461067a6f",
+      "effective_basis_sha256": "bf2e275e610bd0f234a305b0fa61ceac3762f8cfe686e6bed51ef34fdce52c4e",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:a16005af7d9d5df9f4f5"
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "lexical_hypothesis",
+      "claim_change_required": false,
+      "reason": "A complete written form is assigned a concrete seed, drug, preparation, operation or source-language gloss. This is a lexical hypothesis even when generated, weak, historically superseded or unconfirmed.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 73,
+          "line_end": 73,
+          "path": "experiments/yolo/gdt678_seventeen_two_hole_family_completion/REPORT.md",
+          "quote": "| `karchees` | vollständig getrocknete Kräutercharge der ersten heißen Fraktion | 1 |",
+          "sha256": "e9a30423438f55ac97be2a2aae06d100382f868d2816bf7e3b08f83e850c5e57",
+          "source_id": "LEGACY_COMPONENT:8eaed2b43717f5c1c0b4",
+          "source_section": "Das konsolidierte 34er Wörterbuch",
+          "table_header": "| Form | Arbeitsbedeutung | Belege |"
+        }
+      ],
+      "additional_context": [
+        {
+          "path": "experiments/yolo/gdt678_seventeen_two_hole_family_completion/REPORT.md",
+          "line": 40,
+          "quote": "| Form | Arbeitsbedeutung | Belege |\n|---|---|---:|",
+          "sha256": "e9a30423438f55ac97be2a2aae06d100382f868d2816bf7e3b08f83e850c5e57"
+        }
+      ],
+      "scope_limits": "Preserve all original case scope, local form versus root units, historical alternatives, negation and later limitations. Type is independent of confirmation; no selected meaning, scientific success, identity merge or reopening permission is inferred."
+    },
+    {
+      "target": "SEM:4f8f494bfca13f68c056",
+      "current_claim": "ls → eine Charge Holzdroge",
+      "current_type": "formal_role",
+      "target_basis_sha256": "c7c45f1e8173b6658d34e1d8e5cb41040b3ede3a60ad064ec3c5d6e364b27daf",
+      "effective_basis_sha256": "b5984d0da534abef05e7024442f5c9e02aecc28ef031e446e2316802be2f8bce",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:eac248dee9cbc09d15b0"
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "lexical_hypothesis",
+      "claim_change_required": false,
+      "reason": "A complete written form is assigned a concrete seed, drug, preparation, operation or source-language gloss. This is a lexical hypothesis even when generated, weak, historically superseded or unconfirmed.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 72,
+          "line_end": 72,
+          "path": "experiments/yolo/gdt681_six_five_hole_family_completion/REPORT.md",
+          "quote": "| `ls` | eine Charge Holzdroge | 12 |",
+          "sha256": "8a1f39314bd36593d8341a510cec3c6a2f37ed68a89b208c3570aefcf69bdda8",
+          "source_id": "LEGACY_COMPONENT:4f52a5d5534b4542a3c2",
+          "source_section": "Konsolidiertes neues Wörterbuch",
+          "table_header": "| Form | Arbeitsbedeutung | Belege |"
+        }
+      ],
+      "additional_context": [
+        {
+          "path": "experiments/yolo/gdt681_six_five_hole_family_completion/REPORT.md",
+          "line": 46,
+          "quote": "| Form | Arbeitsbedeutung | Belege |\n|---|---|---:|",
+          "sha256": "8a1f39314bd36593d8341a510cec3c6a2f37ed68a89b208c3570aefcf69bdda8"
+        }
+      ],
+      "scope_limits": "Preserve all original case scope, local form versus root units, historical alternatives, negation and later limitations. Type is independent of confirmation; no selected meaning, scientific success, identity merge or reopening permission is inferred."
+    },
+    {
+      "target": "SEM:50c9756a988bf93280ae",
+      "current_claim": "AROL → a course/carrier/connection",
+      "current_type": "formal_role",
+      "target_basis_sha256": "c1daeacc6de99aa1dde854859d72b5c2ad59805f323bf83f367a1230ff046764",
+      "effective_basis_sha256": "671c00c4936bd80f12527f52bf5e144b4a36bdaf842773577be413e2a96aee9a",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:8d0829144c69a5186cc9"
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "functional_hypothesis",
+      "claim_change_required": false,
+      "reason": "The source proposes a substance, preparation, quality, state, value or referential content role. It remains a semantic/function hypothesis despite an unresolved referent or competing role; a purely structural prefix/boundary account would not assert that content class.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 8,
+              "text": "Status: **deliberately speculative, post-hoc, and non-confirmatory**."
+            }
+          ],
+          "line": 483,
+          "line_end": 486,
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "quote": "3. **AROL = a course/carrier/connection.** This can be realized physically as\n   a stem or sap path in a plant, a pipe/watercourse in an apparatus, and a\n   connection/orbit in a circle. It explains the cross-domain distribution\n   with one abstract workshop category.",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945",
+          "source_id": "LEGACY_COMPONENT:3e779fc71062a58e3592",
+          "source_section": "Iteration 4 — allow water in plant records",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "scope_limits": "Preserve all original case scope, local form versus root units, historical alternatives, negation and later limitations. Type is independent of confirmation; no selected meaning, scientific success, identity merge or reopening permission is inferred."
+    },
+    {
+      "target": "SEM:512a5e0c1607aa49579e",
+      "current_claim": "AL → AN/ZU",
+      "current_type": "formal_role",
+      "target_basis_sha256": "8626eb25243c16ac46a9a983379dc2d7b56d1e29b56797e97187904ff07a1986",
+      "effective_basis_sha256": "f1b7437e10dae6bc09a2fa91ff022eed1b67b415825354de7b6ba3bd2d21467c",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:f0c2569c8fe627cb4320"
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "lexical_hypothesis",
+      "claim_change_required": false,
+      "reason": "A complete written form is assigned a concrete seed, drug, preparation, operation or source-language gloss. This is a lexical hypothesis even when generated, weak, historically superseded or unconfirmed.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 59,
+          "line_end": 60,
+          "path": "experiments/yolo/sidequest_semantic_herbal_material_action_completion/HERBAL_MATERIAL_ACTION_REPORT.md",
+          "quote": "Die Karte verbindet `HO=ZUTAT`, `AL=AN/ZU` und `Y=DIESER POSTEN`. Dadurch wird\nH5 kompositionell:",
+          "sha256": "4bab32aaea9178b8c7eeab98a17530c816e61f4f126806bec34d48851b7dd5b3",
+          "source_id": "LEGACY_COMPONENT:482826db9f744d185329",
+          "source_section": "`CHODALY`: nicht „Blütebeginn“, sondern `ZUTAT DORTHIN`",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "scope_limits": "Preserve all original case scope, local form versus root units, historical alternatives, negation and later limitations. Type is independent of confirmation; no selected meaning, scientific success, identity merge or reopening permission is inferred."
+    },
+    {
+      "target": "SEM:51ecfa31c4c9e233dd0d",
+      "current_claim": "chal → Qualitäts- oder Zustandsfeld",
+      "current_type": "formal_role",
+      "target_basis_sha256": "05913d85ac956364fbafc069196e3794bbedc7d4eaaea0358cab22a51bdc12a2",
+      "effective_basis_sha256": "763c8e7aa19606fcc953b26e69ef468c00746a8d0393c6eef10b289aac6aadd1",
+      "source_case_ids": [
+        "REPORT_PROPOSAL:be79f1dd820f8d863671"
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "functional_hypothesis",
+      "claim_change_required": false,
+      "reason": "The source proposes a substance, preparation, quality, state, value or referential content role. It remains a semantic/function hypothesis despite an unresolved referent or competing role; a purely structural prefix/boundary account would not assert that content class.",
+      "evidence": [
+        {
+          "line": 72,
+          "path": "experiments/yolo/gdt805_eleven_whole_context_role_discriminator/REPORT.md",
+          "quote": "| `chal` | 41/26 | Stoff- oder Zubereitungseintrag | Qualitäts- oder Zustandsfeld | `PROJECTED_MATERIAL_OR_QUALITY_CONTEXT_PROFILE__NO_DIRECT_SLOT` |",
+          "sha256": "a7d1149d3341973909288cd531d863d446fd7acefadff98844db55eac56625f5"
+        }
+      ],
+      "additional_context": [
+        {
+          "path": "experiments/yolo/gdt805_eleven_whole_context_role_discriminator/REPORT.md",
+          "line": 70,
+          "quote": "| Form | Außenstellen/Folios | führender konkreter Rivale | Gegenrivale | Entscheidung |\n|---|---:|---|---|---|",
+          "sha256": "a7d1149d3341973909288cd531d863d446fd7acefadff98844db55eac56625f5"
+        }
+      ],
+      "scope_limits": "Preserve all original case scope, local form versus root units, historical alternatives, negation and later limitations. Type is independent of confirmation; no selected meaning, scientific success, identity merge or reopening permission is inferred.",
+      "specific_limit": "These are leading/counter rivals in a role-discrimination table. Context profiles do not identify direct slots or meanings. Retain the candidate as a hypothesis, never an established semantic field."
+    },
+    {
+      "target": "SEM:5d2083b2a2ed1a900451",
+      "current_claim": "sail → Saatgut, Charge II",
+      "current_type": "formal_role",
+      "target_basis_sha256": "e6f405c1e7102b5f0107917150797c6a890159d204aac1b93df652bfa26a7390",
+      "effective_basis_sha256": "4d25505ebc76edfe2102dd342d587cc18eff164f9d2d7fc1fb7cb96ebe3ca62e",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:072bb46875fd12fa9799"
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "lexical_hypothesis",
+      "claim_change_required": false,
+      "reason": "A complete written form is assigned a concrete seed, drug, preparation, operation or source-language gloss. This is a lexical hypothesis even when generated, weak, historically superseded or unconfirmed.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 75,
+          "line_end": 75,
+          "path": "experiments/yolo/gdt681_six_five_hole_family_completion/REPORT.md",
+          "quote": "| `sail` | Saatgut, Charge II | 2 |",
+          "sha256": "8a1f39314bd36593d8341a510cec3c6a2f37ed68a89b208c3570aefcf69bdda8",
+          "source_id": "LEGACY_COMPONENT:38fdf742a84d459f906b",
+          "source_section": "Konsolidiertes neues Wörterbuch",
+          "table_header": "| Form | Arbeitsbedeutung | Belege |"
+        }
+      ],
+      "additional_context": [
+        {
+          "path": "experiments/yolo/gdt681_six_five_hole_family_completion/REPORT.md",
+          "line": 46,
+          "quote": "| Form | Arbeitsbedeutung | Belege |\n|---|---|---:|",
+          "sha256": "8a1f39314bd36593d8341a510cec3c6a2f37ed68a89b208c3570aefcf69bdda8"
+        }
+      ],
+      "scope_limits": "Preserve all original case scope, local form versus root units, historical alternatives, negation and later limitations. Type is independent of confirmation; no selected meaning, scientific success, identity merge or reopening permission is inferred."
+    },
+    {
+      "target": "SEM:6647ad1f69c64ca26b8a",
+      "current_claim": "ar → Portion/Teilmenge · Stoffklasse · Wertfeld",
+      "current_type": "formal_role",
+      "target_basis_sha256": "8ad6d45a68f7a46940e412288fe650679ee892d457fe5a0fee2a1aee8ceb638a",
+      "effective_basis_sha256": "5fac0452d32a1e4aa938d572e5d3fd5a7858caebc56af3fd41e4da1b0e834cc1",
+      "source_case_ids": [
+        "REPORT_PROPOSAL:6bf2dbb422c9764b4e0d"
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "functional_hypothesis",
+      "claim_change_required": false,
+      "reason": "The source proposes a substance, preparation, quality, state, value or referential content role. It remains a semantic/function hypothesis despite an unresolved referent or competing role; a purely structural prefix/boundary account would not assert that content class.",
+      "evidence": [
+        {
+          "line": 190,
+          "path": "experiments/yolo/gdt789_ar_remainder_cross_family_transfer/REPORT.md",
+          "quote": "| `ar` | **Anteil** | 64 | Portion/Teilmenge · Stoffklasse · Wertfeld |",
+          "sha256": "a6907da93ddcf1296d5340914303de3ccb16d2e54a97049f3565c9f7516f7765"
+        }
+      ],
+      "additional_context": [
+        {
+          "path": "experiments/yolo/gdt789_ar_remainder_cross_family_transfer/REPORT.md",
+          "line": 188,
+          "quote": "| Form | bevorzugte Arbeitsanzeige | Gewicht* | wichtigste Rivalen |\n|---|---|---:|---|",
+          "sha256": "a6907da93ddcf1296d5340914303de3ccb16d2e54a97049f3565c9f7516f7765"
+        }
+      ],
+      "scope_limits": "Preserve all original case scope, local form versus root units, historical alternatives, negation and later limitations. Type is independent of confirmation; no selected meaning, scientific success, identity merge or reopening permission is inferred.",
+      "specific_limit": "The selected claim comes from the strongest-rivals column, not the preferred-working-value column. Keep the disjunctive rival bundle and its whole-form scope; do not convert editorial weights into probabilities."
+    },
+    {
+      "target": "SEM:6734e9cca05158a40a2f",
+      "current_claim": "The line may encode a ratio, schedule, calibration, or sequence of treatment levels. The crucial hypothesis is not a particular operation but that AIN and AIIN are two values of one typed channel",
+      "current_type": "formal_role",
+      "target_basis_sha256": "397ab396a4a5e729c15e16c145a1cd3da77a2a9ccd5ea4003e43413c80c56033",
+      "effective_basis_sha256": "1ed046249723779b7f934a30e7346bebab54e7d2fada82e0ab4fe4436b451830",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:933c4e62fdc3c1598384"
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "functional_hypothesis",
+      "claim_change_required": false,
+      "reason": "The source proposes quantity/index grades and a possible ratio, schedule, calibration or treatment-level sequence for f82r.14. AIN and AIIN sharing a typed value channel is an interpretation of content organization, not just their formal I-count difference. The particular dimension and values remain unknown.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 8,
+              "text": "Status: **deliberately speculative, post-hoc, and non-confirmatory**."
+            }
+          ],
+          "line": 1635,
+          "line_end": 1637,
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "quote": "The line may encode a ratio, schedule, calibration, or sequence of treatment\nlevels. The crucial hypothesis is not a particular operation but that `AIN`\nand `AIIN` are two values of one typed channel.",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945",
+          "source_id": "LEGACY_COMPONENT:0b05def5cc39ad9d8594",
+          "source_section": "Provisional f82r.14 reading",
+          "table_header": null
+        }
+      ],
+      "additional_context": [
+        {
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "line": 1629,
+          "quote": "Loose paraphrase:\n\n> For R/OLCHY, use OK state L and descriptor Y; assign quantity/index grade 1;\n> apply process grade 3 and then grade 2; set quantity/index grade 2; finish in\n> the OLCHE state.\n\nThe line may encode a ratio, schedule, calibration, or sequence of treatment\nlevels. The crucial hypothesis is not a particular operation but that `AIN`\nand `AIIN` are two values of one typed channel.",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+        }
+      ],
+      "scope_limits": "Preserve all original case scope, local form versus root units, historical alternatives, negation and later limitations. Type is independent of confirmation; no selected meaning, scientific success, identity merge or reopening permission is inferred."
+    },
+    {
+      "target": "SEM:6850bac26f657c6a1ead",
+      "current_claim": "otal → Qualitäts- oder Zustandsfeld",
+      "current_type": "formal_role",
+      "target_basis_sha256": "ca17f73c0d2c182eff00c2d0b455863088de1a2b44816a849281277b9e83036d",
+      "effective_basis_sha256": "1edce8e10860841976442a0dc2618968d50ffa92b17de98cad823024ab323abd",
+      "source_case_ids": [
+        "REPORT_PROPOSAL:9c25031a7b3ba48eb8d7"
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "functional_hypothesis",
+      "claim_change_required": false,
+      "reason": "The source proposes a substance, preparation, quality, state, value or referential content role. It remains a semantic/function hypothesis despite an unresolved referent or competing role; a purely structural prefix/boundary account would not assert that content class.",
+      "evidence": [
+        {
+          "line": 78,
+          "path": "experiments/yolo/gdt805_eleven_whole_context_role_discriminator/REPORT.md",
+          "quote": "| `otal` | 117/56 | Ausgangsansatz oder Stoffzubereitung | Qualitäts- oder Zustandsfeld | `PREPARATION_OR_QUALITY_CONTEXT_PROFILE__NO_DIRECT_SLOT` |",
+          "sha256": "a7d1149d3341973909288cd531d863d446fd7acefadff98844db55eac56625f5"
+        }
+      ],
+      "additional_context": [
+        {
+          "path": "experiments/yolo/gdt805_eleven_whole_context_role_discriminator/REPORT.md",
+          "line": 70,
+          "quote": "| Form | Außenstellen/Folios | führender konkreter Rivale | Gegenrivale | Entscheidung |\n|---|---:|---|---|---|",
+          "sha256": "a7d1149d3341973909288cd531d863d446fd7acefadff98844db55eac56625f5"
+        }
+      ],
+      "scope_limits": "Preserve all original case scope, local form versus root units, historical alternatives, negation and later limitations. Type is independent of confirmation; no selected meaning, scientific success, identity merge or reopening permission is inferred.",
+      "specific_limit": "These are leading/counter rivals in a role-discrimination table. Context profiles do not identify direct slots or meanings. Retain the candidate as a hypothesis, never an established semantic field."
+    },
+    {
+      "target": "SEM:70a921c802bcce648ab7",
+      "current_claim": "ols → supported R01 substance/preparation role; the measured preparation or product cannot be identified",
+      "current_type": "formal_role",
+      "target_basis_sha256": "4a3dc414dec3ac1fa6810b60998a6a18d63ec74facdf48afe98902699965a927",
+      "effective_basis_sha256": "76cc60aeb5d5b4861b5060aa3d46721a8fa17b1b5ca8829cfb43d7f4919c8e3e",
+      "source_case_ids": [
+        "REPORT_PROPOSAL:3522448b9c8009a30ffe"
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "functional_hypothesis",
+      "claim_change_required": false,
+      "reason": "R01 explicitly refers to substance/preparation content as a live rival to the selected R04 frame. Failure to identify the particular preparation or product limits specificity; it does not make the content-class hypothesis purely formal.",
+      "evidence": [
+        {
+          "line": 16,
+          "path": "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/REPORT.md",
+          "quote": "| `ols` | R04 selected only by specificity priority over an equally passing R01 role | before a value: `Maß-/Dosisposten`; line-final: `Endportion`; otherwise `Maß-/Produktposten` | C0 role tiebreak and concrete identity; individual line readers carry C1–C2 local frame evidence | supported R01 substance/preparation role; the measured preparation or product cannot be identified |",
+          "sha256": "a00ca7b7fd36013a78b8118395e88e5e091f087515d0def577ba25af7623e346"
+        }
+      ],
+      "additional_context": [
+        {
+          "path": "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/REPORT.md",
+          "line": 11,
+          "quote": "| Target | Current role decision | Reader default | Confidence carried by the specification | Live rival or limit |\n| --- | --- | --- | --- | --- |",
+          "sha256": "a00ca7b7fd36013a78b8118395e88e5e091f087515d0def577ba25af7623e346"
+        }
+      ],
+      "scope_limits": "Preserve all original case scope, local form versus root units, historical alternatives, negation and later limitations. Type is independent of confirmation; no selected meaning, scientific success, identity merge or reopening permission is inferred."
+    },
+    {
+      "target": "SEM:71a6f5565a6c9207ed92",
+      "current_claim": "qokeol → Zubereitungs- oder Stofffeld",
+      "current_type": "formal_role",
+      "target_basis_sha256": "050494caae4d0fff83f320e52209bc7d99d66d84689d1a8a19a748156a59f78e",
+      "effective_basis_sha256": "a389f53ddc0d421f9bba6bf8d44584e64266b59c03819ec8d8cda8608b905564",
+      "source_case_ids": [
+        "REPORT_PROPOSAL:929c1e49c2d3ea29a758"
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "functional_hypothesis",
+      "claim_change_required": false,
+      "reason": "The source proposes a substance, preparation, quality, state, value or referential content role. It remains a semantic/function hypothesis despite an unresolved referent or competing role; a purely structural prefix/boundary account would not assert that content class.",
+      "evidence": [
+        {
+          "line": 79,
+          "path": "experiments/yolo/gdt805_eleven_whole_context_role_discriminator/REPORT.md",
+          "quote": "| `qokeol` | 38/25 | Zubereitungs- oder Stofffeld | Behandlungs- oder Prozessfeld | `HOT_VALUE_CONTEXT_FIELD__PROCESS_PREPARATION_QUALITY_UNRESOLVED` |",
+          "sha256": "a7d1149d3341973909288cd531d863d446fd7acefadff98844db55eac56625f5"
+        }
+      ],
+      "additional_context": [
+        {
+          "path": "experiments/yolo/gdt805_eleven_whole_context_role_discriminator/REPORT.md",
+          "line": 70,
+          "quote": "| Form | Außenstellen/Folios | führender konkreter Rivale | Gegenrivale | Entscheidung |\n|---|---:|---|---|---|",
+          "sha256": "a7d1149d3341973909288cd531d863d446fd7acefadff98844db55eac56625f5"
+        }
+      ],
+      "scope_limits": "Preserve all original case scope, local form versus root units, historical alternatives, negation and later limitations. Type is independent of confirmation; no selected meaning, scientific success, identity merge or reopening permission is inferred.",
+      "specific_limit": "These are leading/counter rivals in a role-discrimination table. Context profiles do not identify direct slots or meanings. Retain the candidate as a hypothesis, never an established semantic field."
+    },
+    {
+      "target": "SEM:7263ab3280534b3f7ac4",
+      "current_claim": "CTHY is a quality.",
+      "current_type": "formal_role",
+      "target_basis_sha256": "8cf7274416ab1765ebfc3281fbac468a08bcfbd41f302adf0a70877d18f16690",
+      "effective_basis_sha256": "c0a231dc2c0353e70ed4c2a3b9ff569e0cb5b0135c6a5b2dd46fe0d9dcb60e07",
+      "source_case_ids": [
+        "ROOT400:6cd31421b50e07e88190"
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "functional_hypothesis",
+      "claim_change_required": false,
+      "reason": "The source proposes a substance, preparation, quality, state, value or referential content role. It remains a semantic/function hypothesis despite an unresolved referent or competing role; a purely structural prefix/boundary account would not assert that content class.",
+      "evidence": [
+        {
+          "line": 81,
+          "path": "experiments/yolo/sidequest_theory_candidates_v3/CANDIDATE_V3_VISUAL_ADDRESS_TRANSLATION.md",
+          "quote": "### Model A — pictured-subject ellipsis",
+          "sha256": "89fbc74d0510262b7b142f22d60f054018735e8fb9395440f78f6932016c7c12"
+        },
+        {
+          "line": 83,
+          "path": "experiments/yolo/sidequest_theory_candidates_v3/CANDIDATE_V3_VISUAL_ADDRESS_TRANSLATION.md",
+          "quote": "The picture silently supplies only the dossier subject: `[this plant]` or\n`[this bath]`. Every remaining argument is textual. On this model `qokaiin`\nis most naturally a spoken instruction head, L/O a conjunction or\npreposition, AIIN a stated amount, Y a generic noun, and CTHY a quality.",
+          "sha256": "89fbc74d0510262b7b142f22d60f054018735e8fb9395440f78f6932016c7c12"
+        },
+        {
+          "line": 88,
+          "path": "experiments/yolo/sidequest_theory_candidates_v3/CANDIDATE_V3_VISUAL_ADDRESS_TRANSLATION.md",
+          "quote": "Advantages:",
+          "sha256": "89fbc74d0510262b7b142f22d60f054018735e8fb9395440f78f6932016c7c12"
+        },
+        {
+          "line": 90,
+          "path": "experiments/yolo/sidequest_theory_candidates_v3/CANDIDATE_V3_VISUAL_ADDRESS_TRANSLATION.md",
+          "quote": "- it is close to ordinary recipe prose;\n- `qokaiin`'s 7/9 field-entry skew fits an instruction head;\n- long Herbal rows can be read as compressed descriptive clauses.",
+          "sha256": "89fbc74d0510262b7b142f22d60f054018735e8fb9395440f78f6932016c7c12"
+        },
+        {
+          "line": 94,
+          "path": "experiments/yolo/sidequest_theory_candidates_v3/CANDIDATE_V3_VISUAL_ADDRESS_TRANSLATION.md",
+          "quote": "Failures:",
+          "sha256": "89fbc74d0510262b7b142f22d60f054018735e8fb9395440f78f6932016c7c12"
+        },
+        {
+          "line": 96,
+          "path": "experiments/yolo/sidequest_theory_candidates_v3/CANDIDATE_V3_VISUAL_ADDRESS_TRANSLATION.md",
+          "quote": "- the rich Bio geometry is almost unused even though figures, pools, paths,\n  junctions, inlet and outlet are already visible;\n- Y and L/O must act like very underspecified spoken words to cross Herbal and\n  Bio;\n- `Y–AIIN–Y` invites a false universal “equal amount” reading even though its\n  pictured operands are not independently symmetric;\n- the many short close-bearing Bio fields would repeatedly name arguments that\n  are immediately adjacent in the drawing;\n- it offers no principled bridge to radial and compartmental Astro text.",
+          "sha256": "89fbc74d0510262b7b142f22d60f054018735e8fb9395440f78f6932016c7c12"
+        }
+      ],
+      "additional_context": [],
+      "scope_limits": "Preserve all original case scope, local form versus root units, historical alternatives, negation and later limitations. Type is independent of confirmation; no selected meaning, scientific success, identity merge or reopening permission is inferred."
+    },
+    {
+      "target": "SEM:77f284e89c7330f42fcd",
+      "current_claim": "CTHY denotes PROPERTY / CONFIGURATION STATE.",
+      "current_type": "formal_role",
+      "target_basis_sha256": "891e71721627d6dcf3b5709f12fe3163431f49966deb4fd59361e12822c7408e",
+      "effective_basis_sha256": "ed9a8061a8a9cbedcb4866a3901bcb50bb36dc221f821ad799c3828e988ed6a3",
+      "source_case_ids": [
+        "ROOT400:a134e2d2a7b090a898ca"
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "functional_hypothesis",
+      "claim_change_required": false,
+      "reason": "The source proposes a substance, preparation, quality, state, value or referential content role. It remains a semantic/function hypothesis despite an unresolved referent or competing role; a purely structural prefix/boundary account would not assert that content class.",
+      "evidence": [
+        {
+          "line": 64,
+          "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_GLOBAL_LEXICON_COMPETITION.md",
+          "quote": "### Model A — typed practical form (current model)",
+          "sha256": "45b87cb02b80c301c4573e58a3f3a1824249c071230fe5373a09c39d77bda4fd"
+        },
+        {
+          "line": 66,
+          "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_GLOBAL_LEXICON_COMPETITION.md",
+          "quote": "| card/family | one role used globally |\n|---|---|\n| `qokaiin` | ENTRY / reactivated ADDRESS HEAD |\n| L/O | RELATION / co-member LINK |\n| AIIN | PARAMETER / degree / index / reference slot |\n| Y | ITEM-TAG / POINTER slot |\n| CTHY | PROPERTY / CONFIGURATION STATE |\n| terminal families | exact PAYLOAD + formal COMMIT realization |",
+          "sha256": "45b87cb02b80c301c4573e58a3f3a1824249c071230fe5373a09c39d77bda4fd"
+        },
+        {
+          "line": 75,
+          "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_GLOBAL_LEXICON_COMPETITION.md",
+          "quote": "This model deliberately refuses the narrower expansions TAKE, WITH, AMOUNT,\nOBJECT and PREPARED. They would fail more occurrences than the broad roles.",
+          "sha256": "45b87cb02b80c301c4573e58a3f3a1824249c071230fe5373a09c39d77bda4fd"
+        },
+        {
+          "line": 78,
+          "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_GLOBAL_LEXICON_COMPETITION.md",
+          "quote": "All-occurrence forcing:",
+          "sha256": "45b87cb02b80c301c4573e58a3f3a1824249c071230fe5373a09c39d77bda4fd"
+        },
+        {
+          "line": 80,
+          "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_GLOBAL_LEXICON_COMPETITION.md",
+          "quote": "- `qokaiin`: seven initial cases are direct fits. The single medial case can\n  reactivate an address. The f82r.3 final case is acceptable only as the local\n  anticipatory copy whose identical card reappears at f82r.4 entry. Counting\n  the pair twice costs one exceptional placement; collapsing the carry to one\n  logical head removes it. This repair is licensed only for that exact local\n  transition.\n- L/O: fourteen medial cases fit a binary or list relation. Three initial, one\n  final and one sole case force RELATION to include a unary/open relation or\n  relation-field use; they reject a single literal conjunction or\n  preposition.\n- AIIN: all twenty fit only at the broad parameter/reference level. Six first\n  and five last occurrences reject a narrowly medial dose or amount marker.\n- Y: all eighteen can be item/tag/pointer slots. Its thirteen medial cases are\n  strongest; two initial and three final cases prevent a fixed left- or\n  right-pointer direction.\n- CTHY: six medial and one final case fit a state/qualifier slot without a role\n  switch. Nothing identifies which state.\n- terminals: all ninety keep the same formal COMMIT operation while exact card\n  identity carries unknown payload. No semantic family switch is needed.",
+          "sha256": "45b87cb02b80c301c4573e58a3f3a1824249c071230fe5373a09c39d77bda4fd"
+        }
+      ],
+      "additional_context": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_GLOBAL_LEXICON_COMPETITION.md",
+          "line": 28,
+          "quote": "| exact card | all occurrences by page | field position |\n|---|---|---|",
+          "sha256": "45b87cb02b80c301c4573e58a3f3a1824249c071230fe5373a09c39d77bda4fd"
+        }
+      ],
+      "scope_limits": "Preserve all original case scope, local form versus root units, historical alternatives, negation and later limitations. Type is independent of confirmation; no selected meaning, scientific success, identity merge or reopening permission is inferred."
+    },
+    {
+      "target": "SEM:7c20abdbb4629643be45",
+      "current_claim": "shedal → mazerierter Drogenposten · Feuchtefeld",
+      "current_type": "formal_role",
+      "target_basis_sha256": "99586662242020d9dc2793e47a5b5eefbe94dde1900b687b128734dd54520e55",
+      "effective_basis_sha256": "67cad15dd906433f828eb31ba58501c52a138c1bcdb45bc31d73095d7a6d8dd1",
+      "source_case_ids": [
+        "REPORT_PROPOSAL:7bcefb72a0c66b51f476"
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "functional_hypothesis",
+      "claim_change_required": false,
+      "reason": "The source proposes a substance, preparation, quality, state, value or referential content role. It remains a semantic/function hypothesis despite an unresolved referent or competing role; a purely structural prefix/boundary account would not assert that content class.",
+      "evidence": [
+        {
+          "line": 178,
+          "path": "experiments/yolo/gdt788_dal_remainder_cross_family_transfer/REPORT.md",
+          "quote": "| `shedal` | feuchtes Material I, abgemessen; Mittelstufe | 46 | mazerierter Drogenposten · Feuchtefeld |",
+          "sha256": "3ceba95e7d7e78c2e705dcfa132eb46abb815cd091436aa89d7d30b4a4b7cd1b"
+        }
+      ],
+      "additional_context": [
+        {
+          "path": "experiments/yolo/gdt788_dal_remainder_cross_family_transfer/REPORT.md",
+          "line": 172,
+          "quote": "| Form | bevorzugter Arbeitswert | Konfidenz* | stärkste Rivalen |\n|---|---|---:|---|",
+          "sha256": "3ceba95e7d7e78c2e705dcfa132eb46abb815cd091436aa89d7d30b4a4b7cd1b"
+        }
+      ],
+      "scope_limits": "Preserve all original case scope, local form versus root units, historical alternatives, negation and later limitations. Type is independent of confirmation; no selected meaning, scientific success, identity merge or reopening permission is inferred.",
+      "specific_limit": "The selected claim comes from the strongest-rivals column, not the preferred-working-value column. Keep the disjunctive rival bundle and its whole-form scope; do not convert editorial weights into probabilities."
+    }
+  ],
+  "title_only_ids_not_scientifically_reviewed": [
+    "SEM:01d64ed3d815d5f91f3d",
+    "SEM:021c6b3a6b761854dc90",
+    "SEM:033e961bd8e12623a058",
+    "SEM:04aca3c8f3f7d89344c1",
+    "SEM:051c2d93f8ee32a8eef6",
+    "SEM:05baa93f3786e5442e22",
+    "SEM:0670c8328686e21be266",
+    "SEM:069dc737c8e0193de5cc",
+    "SEM:07113e93759828d4de68",
+    "SEM:07404016cb8993af94fb",
+    "SEM:07428e0cdb2e18548382",
+    "SEM:07d059553b504be882ec",
+    "SEM:07d9676eab1f81d11dce",
+    "SEM:08af61aa7e311a67df09",
+    "SEM:0a6ed4d2ecaf920d86aa",
+    "SEM:0a8044c3b71c906b30a5",
+    "SEM:0e40cfccedcc4817804d",
+    "SEM:0e93b539bf5669853aa2",
+    "SEM:0eb0732c02e71a5e72b3",
+    "SEM:0f0500dbaad09095806d",
+    "SEM:0fd7e993e03e732075b6",
+    "SEM:122037ba1245b473821f",
+    "SEM:12f5e2cb683fdb257d45",
+    "SEM:144115d3885fde70148b",
+    "SEM:14619d4f489852559db9",
+    "SEM:1607a2f72e1c0fff47a1",
+    "SEM:166ba3ee43c63b52c032",
+    "SEM:18517b1375ad238b285e",
+    "SEM:18834a43ffb6f0aca20e",
+    "SEM:18c84d2a941f35af1b3b",
+    "SEM:1a16cd09d9a6fb467a8e",
+    "SEM:1aab1ca858fe598b6256",
+    "SEM:1bd6338d3ebc80838480",
+    "SEM:1dbffea9fbf0e159c5f3",
+    "SEM:1f3876d5c6c7b1e95e60",
+    "SEM:207d0e95fce30a97243e",
+    "SEM:20d9910fbae461031cca",
+    "SEM:210a23f7db68973a37fd",
+    "SEM:211876f3a21863e29d2c",
+    "SEM:2144a81d6ae8036761f9",
+    "SEM:231961bab50cce02c15e",
+    "SEM:241063f06a733164e518",
+    "SEM:2439054b2b3a3d8c2fcc",
+    "SEM:248ca3a519ec959d5626",
+    "SEM:24adde135b8c51ef9220",
+    "SEM:250d7760adb5d95b1054",
+    "SEM:263db95799cf05c510d9",
+    "SEM:29746e263ad5d0176fbd",
+    "SEM:29b0ef4bea74974dcf57",
+    "SEM:29d2c36fc877936bea14",
+    "SEM:2b3f819e8e73abc02474",
+    "SEM:2c82db99b1d63fe2b5cb",
+    "SEM:2d160f8ea75e8e9388d7",
+    "SEM:2f2e3582db3848c4369b",
+    "SEM:2f56264875d5450119ff",
+    "SEM:30379570ddf7ec25cf09",
+    "SEM:30c4dfc4b2c12e65f467",
+    "SEM:31319efa2a73a828b235",
+    "SEM:31ae364b0d9f5a5b5c12",
+    "SEM:32750986f493ff9fd324",
+    "SEM:327edbc54d7bacf3e510",
+    "SEM:33b629ddfa14ce33945b",
+    "SEM:34bba1ba9562fed6bfc6",
+    "SEM:3512ae5ebf87ae05f7bf",
+    "SEM:36e9c8a1347024997827",
+    "SEM:381621930c9616cebb95",
+    "SEM:38eb2077c00204dd3a95",
+    "SEM:3af3389178ef0c08c67a",
+    "SEM:3c0cb61a713d7ff7e7e1",
+    "SEM:3c61b43c3775e6258dce",
+    "SEM:3ca5c59516996e423c3a",
+    "SEM:3d247d6767f3ce22c65a",
+    "SEM:3d8d8c983610c4f590db",
+    "SEM:3e4c9c6aac821b442b54",
+    "SEM:3ef33a530730b28049e7",
+    "SEM:40fe3d7c19074d881aba",
+    "SEM:416019aaf5fb528892c3",
+    "SEM:41dd4f058583e762eb1a",
+    "SEM:42c264bf7b3ca86782bd",
+    "SEM:42d851ca3e83dd0c25f0",
+    "SEM:430e605fab989999dca9",
+    "SEM:43328d4ab679dd0be607",
+    "SEM:43dcda96f2f332ce8ada",
+    "SEM:43e26b27b41d6fb94283",
+    "SEM:45699af04a13b210e5d5",
+    "SEM:45dc79523d9e92aaa15d",
+    "SEM:460bbf054ecbaf26df67",
+    "SEM:4660549e3523a056cde7",
+    "SEM:4aae613416500d2616fd",
+    "SEM:4d57b90d6ba28e5b8766",
+    "SEM:4f169190114bb3ba13ff",
+    "SEM:4f227d1ed4e8261700dc",
+    "SEM:52662282b3aa7838406f",
+    "SEM:529fc92cbc6d11b96b95",
+    "SEM:52eec37f1143ffaa0fb7",
+    "SEM:5387269c6ee6d507293f",
+    "SEM:542ab05e086a82d43bec",
+    "SEM:552a71dc337df4b079ba",
+    "SEM:562648834ca0dc52f97e",
+    "SEM:569cc692013c8818bc28",
+    "SEM:57a7bd1f94a6b89c935c",
+    "SEM:584bf570a18488e0df6b",
+    "SEM:584c96095b54f8a55517",
+    "SEM:5894e520e63152d09b02",
+    "SEM:5982a8e660cb11a497f3",
+    "SEM:59e0f03c60d4af67708a",
+    "SEM:59efcfe58d22aade197d",
+    "SEM:5a98ddd50bb4768289aa",
+    "SEM:5adef4a90244271fc1c6",
+    "SEM:5bf8a0d2b448efdaead3",
+    "SEM:5c312b65a72614d1406f",
+    "SEM:5cfb6827607e39ca2fbb",
+    "SEM:62642f5456e96ef4f25f",
+    "SEM:626d8626d46cc9b5b9ae",
+    "SEM:650aafa567f05c35e47d",
+    "SEM:654d8999abc43fd44777",
+    "SEM:67585b76ca7e07c785b4",
+    "SEM:67f6d41c228f8502d866",
+    "SEM:68116f5dcf0ffa6be59b",
+    "SEM:683d7428a07e7c766469",
+    "SEM:6852e6f255aace2adb25",
+    "SEM:68ef050f0f3c75c84df6",
+    "SEM:6a8297cf4a82a61e87c7",
+    "SEM:6a8899208267731e6e8f",
+    "SEM:6b45dea2485eaa1809ad",
+    "SEM:6f23aef5de41b11ad0a3",
+    "SEM:6f5f35e49033aa68a5b2",
+    "SEM:6fbed9c6b112238209e4",
+    "SEM:7146fc5715868223dd88",
+    "SEM:7209c6934037aed71db6",
+    "SEM:721cbd3295cd62ef9d07",
+    "SEM:73b175ebce4ef1cef285",
+    "SEM:742227c1c073090f00c1",
+    "SEM:74a65b69bf5878f818c5",
+    "SEM:76354c4f1f3180f13f58",
+    "SEM:77589df4c7f07fe49e39",
+    "SEM:77f16a13485c88917606",
+    "SEM:79279663e25740af921d",
+    "SEM:7a00a0a5a48e5276d86e",
+    "SEM:7ab77dca86a3cb5400d0",
+    "SEM:7c115e2eeefbdc6f3d3a",
+    "SEM:7cd7203231fc115c50c7",
+    "SEM:7d3e8869acf6f34c8773",
+    "SEM:7d54eb17c4e884b2e400",
+    "SEM:7e82e8c93515585a8fda",
+    "SEM:7e922ba259bb89b51159"
+  ],
+  "classification_rule": "Whether a claim is confirmed and whether it asserts a meaning are different questions. A proposed substance, quality, referent, operation or typed content channel belongs in the semantic list even if rejected or unconfirmed; mere parsing, rendering and physical/record boundary coordination remain formal.",
+  "limits": [
+    "Only the 30 selected primary cases were source-reviewed. The remaining 146 titles were triaged, not validated as formal.",
+    "No automatic positive restoration of a negative-only extraction.",
+    "No splitting compound rival cards or exporting whole-form content onto constituent roots."
+  ],
+  "input_sha256": {
+    "research_registry/semantic_ideas.jsonl": "692930416ef3cd767c23a4e7585155e15a97c87da5062b6ea3129906efec0f43"
+  },
+  "validation": {
+    "all30_original_quotes_and_source_hashes": true,
+    "all_additional_context_quotes": true,
+    "all_original_and_effective_bases_bound": true
+  }
+}

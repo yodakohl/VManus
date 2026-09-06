@@ -1,0 +1,559 @@
+{
+  "schema": "clean_semantic_source_review_v1",
+  "review_id": "CLEAN_GAP_REVIEW_AF",
+  "review_status": "AWAITING_INDEPENDENT_REVIEW",
+  "cards": [
+    {
+      "id": "CLEAN_GAP_AF:state_two_slot",
+      "claim": "In the GDT562/563 state-card working reading, written cards supply explicit values and state operators, sentence memory supplies the last active action and last active argument, and the local owner supplies the concrete noun and initial default. A short OT+E+Y card therefore does not itself encode a long plant-processing sentence.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "LEGACY_COMPONENT:cc44d30cd28e0a0aa16f",
+        "LEGACY_COMPONENT:3dda1425e3c586e93154"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt562_thirty_page_actionless_state_role_reader/REPORT.md",
+          "line": 119,
+          "line_end": 133,
+          "quote": "## Neue Arbeitstheorie\n\nDie Schrift scheint hier drei Dinge zu kombinieren:\n\n```text\ngeschriebene Karte  = neue/ausdrückliche Werte und Zustandsoperatoren\nSatzgedächtnis      = zuletzt aktive Handlung und zuletzt aktives Argument\nBesitzerkontext     = lokales Nomen und Anfangsdefault\n```\n\nSo wird aus `OT+E+Y` nicht das absurde Ganzwort „danach Pflanzenmaterial auf\nGrad I bearbeiten“. Die Karte sagt nur „danach + Grad I + Posten“; die aktive\nHandlung kann etwa HALTEN sein, und der Besitzer macht aus POSTEN einen\nPflanzen-, Stations- oder Drogenposten.\n",
+          "sha256": "f59a6f3c02369ee862c2592d433b3559fb9c3abab9c7d3a925172f36672d2442"
+        },
+        {
+          "path": "experiments/yolo/gdt563_complete_state_microphrase_edition/REPORT.md",
+          "line": 90,
+          "line_end": 107,
+          "quote": "## Neue Arbeitstheorie\n\nFür diese Zustandskarten ist die derzeit beste konkrete Lesemechanik:\n\n```text\ngeschriebenes Rezept\n  + zuletzt aktive Handlung\n  + zuletzt aktives Argument\n  + lokaler Besitzer\n  = konkrete Arbeitsanweisung\n```\n\nDie sichtbaren Wurzeln liefern kurze Fachkürzel. Der laufende Satzzustand liefert\nAuslassungen, und der Besitzer macht aus einem allgemeinen POSTEN etwa einen\nPflanzen-, Drogen-, Stations- oder Positionsposten. Damit bekommt jede Sequenz\neine Defaultbedeutung, ohne `shey`-artige Formen zu künstlichen Definitionen wie\n„Pflanzenmaterial zeitgebunden beschaffen“ aufzublähen.\n",
+          "sha256": "35389053dc413e135807f2de6e455ca98ed931371ad9ab34bd6ddc8abf2d254f"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "kind": "historical_source_local_hypothesis",
+        "source": "experiments/yolo/gdt562_thirty_page_actionless_state_role_reader/REPORT.md",
+        "limits": "Only the source-defined deck or contextual cases. No general glyph/root transfer, independent semantic confirmation, statistical outcome or rerun permission."
+      },
+      "source_polarity": "positive_historical_working_proposal_not_confirmed",
+      "related_existing_cards": [
+        {
+          "target": "SEM:fb72e61809be5a4828a0",
+          "target_basis_sha256": "7d71a79fc2c4fbbda55271389c3b1d1cd3d208b39f74792314f883715b617941",
+          "effective_claim": "Ein Schreiber um 1420 arbeitet mit zwei Gedächtnissen zugleich: - **Regelgedächtnis:** kurze Fachkürzel für Posten, Maß, Portion, Quelle, Ziel, Fortsetzung, Ansatz, Grad und wiederkehrende Arbeitsgänge; - **Exemplargedächtnis:** wenige häufige Fachwörter plus viele seltene lokale Karten für besondere Materialien, Gefäße, Werkzeuge oder Operationen. Das erklärt, warum ähnliche Kartenfamilien neue Kombinationen bilden können, ohne dass jede sichtbare Teilfolge ein Morphem sein muss. Es erklärt ebenfalls, warum häufige Grammatik sehr regelmäßig wirkt, während der seltene Schwanz sprunghaft und bildlokal bleibt.",
+          "relationship": "related_not_equivalent",
+          "reason": "Rule/exemplar memory is not the separately maintained current action and current argument state."
+        }
+      ]
+    },
+    {
+      "id": "CLEAN_GAP_AF:action_substitution",
+      "claim": "Within GDT496's 27 registered dense families, AIIN, AIN, AL, OL, OR and Y retain their full semantic remainder within the same register when action heads change; T versus R is consequently read as action substitution rather than new memorized whole words.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:080cfd70c6ec4b635a3a"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt496_semantic_action_substitution_atlas/REPORT.md",
+          "line": 52,
+          "line_end": 63,
+          "quote": "## Arbeitsbedeutung\n\nDieser Durchgang stützt die kleine Kompositionsgrammatik unmittelbar: AIIN,\nAIN, AL, OL, OR und Y behalten im gleichen Register bei wechselnden\nHandlungsköpfen ihren gesamten Bedeutungsrest. T und R lassen sich in diesen\n27 dichten Familien daher tatsächlich als Handlungsaustausch lesen, nicht als\nneu gelernte Ganzwörter.\n\nDie bessere Arbeitsübersetzung besteht nun aus achtzehn konkreten Sätzen und\nneun kontextsensitiven Sätzen. Keine Oberfläche oder Vorkunft wird behauptet.\nDer Validator besteht 1340 von 1340 Prüfungen.\n",
+          "sha256": "0e63851eb5956a81175c1008b8b7667e6bde8c806afac52a7bf1b6aef1499f8d"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "kind": "historical_source_local_hypothesis",
+        "source": "experiments/yolo/gdt496_semantic_action_substitution_atlas/REPORT.md",
+        "limits": "Only the source-defined deck or contextual cases. No general glyph/root transfer, independent semantic confirmation, statistical outcome or rerun permission."
+      },
+      "source_polarity": "positive_historical_working_proposal_not_confirmed",
+      "related_existing_cards": [
+        {
+          "target": "SEM:8e4621d3bb234eab01a7",
+          "target_basis_sha256": "f41045a30565646a569d6ad33674f7a73603966950606801e83cafb183dd0e0a",
+          "effective_claim": "T → EINSTELLEN",
+          "relationship": "related_not_equivalent",
+          "reason": "T=EINSTELLEN alone does not assert invariant semantics of six dependent classes under the same-register action substitution."
+        }
+      ]
+    },
+    {
+      "id": "CLEAN_GAP_AF:quantity_envelope",
+      "claim": "GDT599 tentatively treats AIIN as a quantity envelope in a recipe-like instruction where an imperative governs a specified quantity of a substance.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:a12e11d638b5c4160971"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt599_remaining_action_object_completion/REPORT.md",
+          "line": 88,
+          "line_end": 90,
+          "quote": "Die AIIN-Lesung als Mengenhülle passt formal zu spätmittelalterlichen\nRezept- und Kochanweisungen, in denen ein Imperativ eine bestimmte Menge eines\nStoffs regiert. Als Vergleichsmaterial dienen:",
+          "sha256": "f35262262894381380bd224fc90cbb829d4f98570e9c8a539e0235c6d22ee008"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "kind": "historical_source_local_hypothesis",
+        "source": "experiments/yolo/gdt599_remaining_action_object_completion/REPORT.md",
+        "limits": "Only the source-defined deck or contextual cases. No general glyph/root transfer, independent semantic confirmation, statistical outcome or rerun permission."
+      },
+      "source_polarity": "positive_historical_working_proposal_not_confirmed",
+      "related_existing_cards": [
+        {
+          "target": "SEM:347a463645edaaf65579",
+          "target_basis_sha256": "c4fca0f432931ac9ab0710eb83a05d897d84d21da25a4280d3ee64e0f9d1688d",
+          "effective_claim": "AIIN is a stated amount.",
+          "relationship": "related_not_equivalent",
+          "reason": "Stated amount alone does not specify the imperative-to-quantity-of-substance argument relation."
+        }
+      ]
+    },
+    {
+      "id": "CLEAN_GAP_AF:mixed_owner_state",
+      "claim": "GDT493 proposes a mixed architecture: short portable abbreviations specify action, argument, relation, grade and order; the same slots acquire entry, plant, station, position or drug realizations by register; a small owner-local state carries omitted arguments forward. Observed complete clauses remain distinct from productively composed readings.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "LEGACY_COMPONENT:a4bc945935f8b785fb82"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt493_owner_dependent_tr_realization_deck/REPORT.md",
+          "line": 58,
+          "line_end": 73,
+          "quote": "## Beste derzeitige Arbeitstheorie\n\nDas Material verhält sich jetzt konsistent wie eine Mischarchitektur:\n\n- kurze portable Fachkürzel bestimmen Handlung, Argument, Relation, Grad und\n  Reihenfolge;\n- dieselben Slots werden je Register als Eintrag, Pflanzen-, Stations-,\n  Positions- oder Drogenarbeit ausgesprochen;\n- ein kleiner owner-lokaler Zustand trägt ausgelassene Argumente weiter;\n- vollständige beobachtete Klauseln und produktiv zusammengesetzte Lesungen\n  bleiben getrennte Evidenzschichten.\n\nDer deterministische Validator besteht 109 von 109 Prüfungen. Keine alte\nPhrase, Bedeutung, Modellfolge, Grenze, Oberfläche, Rezeptfolge, Event- oder\nSeitenzuordnung wurde geändert.\n",
+          "sha256": "74159f46bf2b4186365e4d24f3525a13b4c504830a68e4b2ac734ff92419a532"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "kind": "historical_source_local_hypothesis",
+        "source": "experiments/yolo/gdt493_owner_dependent_tr_realization_deck/REPORT.md",
+        "limits": "Only the source-defined deck or contextual cases. No general glyph/root transfer, independent semantic confirmation, statistical outcome or rerun permission."
+      },
+      "source_polarity": "positive_historical_working_proposal_not_confirmed",
+      "related_existing_cards": [
+        {
+          "target": "SEM:fb72e61809be5a4828a0",
+          "target_basis_sha256": "7d71a79fc2c4fbbda55271389c3b1d1cd3d208b39f74792314f883715b617941",
+          "effective_claim": "Ein Schreiber um 1420 arbeitet mit zwei Gedächtnissen zugleich: - **Regelgedächtnis:** kurze Fachkürzel für Posten, Maß, Portion, Quelle, Ziel, Fortsetzung, Ansatz, Grad und wiederkehrende Arbeitsgänge; - **Exemplargedächtnis:** wenige häufige Fachwörter plus viele seltene lokale Karten für besondere Materialien, Gefäße, Werkzeuge oder Operationen. Das erklärt, warum ähnliche Kartenfamilien neue Kombinationen bilden können, ohne dass jede sichtbare Teilfolge ein Morphem sein muss. Es erklärt ebenfalls, warum häufige Grammatik sehr regelmäßig wirkt, während der seltene Schwanz sprunghaft und bildlokal bleibt.",
+          "relationship": "related_not_equivalent",
+          "reason": "The rule/exemplar memory model does not state this owner-local argument carry and register-realization conjunction."
+        }
+      ]
+    },
+    {
+      "id": "CLEAN_GAP_AF:object_conditioned_heads",
+      "claim": "GDT583 assigns context-dependent working readings to T, SH, CHD and S from the previously fixed action head and that head's own arguments, rather than treating the whole visible word as the semantic unit.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:fd50ea53a8e4f391b8dc"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt583_object_conditioned_verb_refinement/REPORT.md",
+          "line": 7,
+          "line_end": 11,
+          "quote": "Die Verbesserung ist umgesetzt. Alle 1.921 Vorkommen von `T`, `SH`, `CHD`\nund `S` besitzen jetzt neben dem breiten GDT582-Kern genau eine\nkontextabhängige Arbeitslesung. Die Regel greift nicht auf das ganze sichtbare\nWort als Bedeutungsblock zu, sondern auf den bereits von GDT581 festgelegten\nAktionskopf und dessen eigene Argumente.",
+          "sha256": "788f0fec9887e862a6d63274457af460ba6fcb99e21b04abfbcdbcbfdcebb261"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "kind": "historical_source_local_hypothesis",
+        "source": "experiments/yolo/gdt583_object_conditioned_verb_refinement/REPORT.md",
+        "limits": "Only the source-defined deck or contextual cases. No general glyph/root transfer, independent semantic confirmation, statistical outcome or rerun permission."
+      },
+      "source_polarity": "positive_historical_working_proposal_not_confirmed",
+      "related_existing_cards": [
+        {
+          "target": "SEM:8e4621d3bb234eab01a7",
+          "target_basis_sha256": "f41045a30565646a569d6ad33674f7a73603966950606801e83cafb183dd0e0a",
+          "effective_claim": "T → EINSTELLEN",
+          "relationship": "related_not_equivalent",
+          "reason": "A bare T value neither specifies its own-argument conditioning nor the shared four-head refinement mechanism."
+        }
+      ]
+    },
+    {
+      "id": "CLEAN_GAP_AF:wet_straining",
+      "claim": "In the GDT584 local refinement, sieve readings immediately after a wet step are read as straining; this is a context-bound rendering, not a new global S meaning.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:c4ea700538fd0aaf943b"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt584_statement_collocation_polish/REPORT.md",
+          "line": 25,
+          "line_end": 50,
+          "quote": "## What changed semantically\n\nThe independent direction and material readings found fifty bounded changes\namong 1,921 target occurrences. Everything else remains live.\n\n- One relation-only `SH→T` case, `G407-E3488`, changes from unsupported cooling\n  to regulation from the outlet basin.\n- `G407-E4570` changes from drying before CHD to tempering an explicitly liquid\n  extract before broad processing. The two actual dry→grind cases at\n  `G407-E4476` and `G407-E4490` remain.\n- Three sieve readings immediately after a wet step become straining. One\n  `sain` occurrence with direct AIN and only remote AIIN becomes sieving. One\n  stage-only S occurrence returns to broad separation.\n- Five formerly dry grind readings become wet trituration/maceration. Five\n  broad AIIN+Y processing cases receive the same wet-process voice.\n- Sixteen remaining `CHD_HP_DRY_GRIND` cases are renamed to the more honest\n  material-comminution reading; absence of AIIN supports physical\n  fragmentation but does not prove dryness.\n- Eight broad SH occurrences immediately before straining become standing or\n  settling, two broad S occurrences after wet work become taking off, and five\n  OR-only soak readings become holding the material unit.\n\nThis yields 1,653 retained slots, 218 wording-only rephrasings, 34 narrowed\nreadings, fifteen upgrades from broad fallbacks and one return to a broad\nfallback. The broad T/SH/CHD/S roots are unchanged.\n",
+          "sha256": "85bc1d98666014d6c0ca230d0260f9b9ff892b389e53b16fb192a4a5c02980ec"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "kind": "historical_source_local_hypothesis",
+        "source": "experiments/yolo/gdt584_statement_collocation_polish/REPORT.md",
+        "limits": "Only the source-defined deck or contextual cases. No general glyph/root transfer, independent semantic confirmation, statistical outcome or rerun permission."
+      },
+      "source_polarity": "positive_historical_working_proposal_not_confirmed",
+      "related_existing_cards": []
+    },
+    {
+      "id": "CLEAN_GAP_AF:wet_comminution",
+      "claim": "GDT584 revises the relevant formerly dry-grinding cases to wet trituration or maceration; five broad AIIN+Y processing cases receive that same wet-process reading. The broad action roots remain unchanged.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:c4ea700538fd0aaf943b"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt584_statement_collocation_polish/REPORT.md",
+          "line": 25,
+          "line_end": 50,
+          "quote": "## What changed semantically\n\nThe independent direction and material readings found fifty bounded changes\namong 1,921 target occurrences. Everything else remains live.\n\n- One relation-only `SH→T` case, `G407-E3488`, changes from unsupported cooling\n  to regulation from the outlet basin.\n- `G407-E4570` changes from drying before CHD to tempering an explicitly liquid\n  extract before broad processing. The two actual dry→grind cases at\n  `G407-E4476` and `G407-E4490` remain.\n- Three sieve readings immediately after a wet step become straining. One\n  `sain` occurrence with direct AIN and only remote AIIN becomes sieving. One\n  stage-only S occurrence returns to broad separation.\n- Five formerly dry grind readings become wet trituration/maceration. Five\n  broad AIIN+Y processing cases receive the same wet-process voice.\n- Sixteen remaining `CHD_HP_DRY_GRIND` cases are renamed to the more honest\n  material-comminution reading; absence of AIIN supports physical\n  fragmentation but does not prove dryness.\n- Eight broad SH occurrences immediately before straining become standing or\n  settling, two broad S occurrences after wet work become taking off, and five\n  OR-only soak readings become holding the material unit.\n\nThis yields 1,653 retained slots, 218 wording-only rephrasings, 34 narrowed\nreadings, fifteen upgrades from broad fallbacks and one return to a broad\nfallback. The broad T/SH/CHD/S roots are unchanged.\n",
+          "sha256": "85bc1d98666014d6c0ca230d0260f9b9ff892b389e53b16fb192a4a5c02980ec"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "kind": "historical_source_local_hypothesis",
+        "source": "experiments/yolo/gdt584_statement_collocation_polish/REPORT.md",
+        "limits": "Only the source-defined deck or contextual cases. No general glyph/root transfer, independent semantic confirmation, statistical outcome or rerun permission."
+      },
+      "source_polarity": "positive_historical_working_proposal_not_confirmed",
+      "related_existing_cards": []
+    },
+    {
+      "id": "CLEAN_GAP_AF:fragmentation_not_dry",
+      "claim": "GDT584 reads the remaining CHD_HP_DRY_GRIND cases as material comminution: absence of AIIN supports physical fragmentation in that working model but does not identify a dry material state.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:c4ea700538fd0aaf943b"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt584_statement_collocation_polish/REPORT.md",
+          "line": 25,
+          "line_end": 50,
+          "quote": "## What changed semantically\n\nThe independent direction and material readings found fifty bounded changes\namong 1,921 target occurrences. Everything else remains live.\n\n- One relation-only `SH→T` case, `G407-E3488`, changes from unsupported cooling\n  to regulation from the outlet basin.\n- `G407-E4570` changes from drying before CHD to tempering an explicitly liquid\n  extract before broad processing. The two actual dry→grind cases at\n  `G407-E4476` and `G407-E4490` remain.\n- Three sieve readings immediately after a wet step become straining. One\n  `sain` occurrence with direct AIN and only remote AIIN becomes sieving. One\n  stage-only S occurrence returns to broad separation.\n- Five formerly dry grind readings become wet trituration/maceration. Five\n  broad AIIN+Y processing cases receive the same wet-process voice.\n- Sixteen remaining `CHD_HP_DRY_GRIND` cases are renamed to the more honest\n  material-comminution reading; absence of AIIN supports physical\n  fragmentation but does not prove dryness.\n- Eight broad SH occurrences immediately before straining become standing or\n  settling, two broad S occurrences after wet work become taking off, and five\n  OR-only soak readings become holding the material unit.\n\nThis yields 1,653 retained slots, 218 wording-only rephrasings, 34 narrowed\nreadings, fifteen upgrades from broad fallbacks and one return to a broad\nfallback. The broad T/SH/CHD/S roots are unchanged.\n",
+          "sha256": "85bc1d98666014d6c0ca230d0260f9b9ff892b389e53b16fb192a4a5c02980ec"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "kind": "historical_source_local_hypothesis",
+        "source": "experiments/yolo/gdt584_statement_collocation_polish/REPORT.md",
+        "limits": "Only the source-defined deck or contextual cases. No general glyph/root transfer, independent semantic confirmation, statistical outcome or rerun permission."
+      },
+      "source_polarity": "positive_historical_working_proposal_not_confirmed",
+      "related_existing_cards": []
+    },
+    {
+      "id": "CLEAN_GAP_AF:hold_before_straining",
+      "claim": "In GDT584, the relevant broad SH occurrences immediately before straining are read as standing or settling, without replacing the broad SH root globally.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:c4ea700538fd0aaf943b"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt584_statement_collocation_polish/REPORT.md",
+          "line": 25,
+          "line_end": 50,
+          "quote": "## What changed semantically\n\nThe independent direction and material readings found fifty bounded changes\namong 1,921 target occurrences. Everything else remains live.\n\n- One relation-only `SH→T` case, `G407-E3488`, changes from unsupported cooling\n  to regulation from the outlet basin.\n- `G407-E4570` changes from drying before CHD to tempering an explicitly liquid\n  extract before broad processing. The two actual dry→grind cases at\n  `G407-E4476` and `G407-E4490` remain.\n- Three sieve readings immediately after a wet step become straining. One\n  `sain` occurrence with direct AIN and only remote AIIN becomes sieving. One\n  stage-only S occurrence returns to broad separation.\n- Five formerly dry grind readings become wet trituration/maceration. Five\n  broad AIIN+Y processing cases receive the same wet-process voice.\n- Sixteen remaining `CHD_HP_DRY_GRIND` cases are renamed to the more honest\n  material-comminution reading; absence of AIIN supports physical\n  fragmentation but does not prove dryness.\n- Eight broad SH occurrences immediately before straining become standing or\n  settling, two broad S occurrences after wet work become taking off, and five\n  OR-only soak readings become holding the material unit.\n\nThis yields 1,653 retained slots, 218 wording-only rephrasings, 34 narrowed\nreadings, fifteen upgrades from broad fallbacks and one return to a broad\nfallback. The broad T/SH/CHD/S roots are unchanged.\n",
+          "sha256": "85bc1d98666014d6c0ca230d0260f9b9ff892b389e53b16fb192a4a5c02980ec"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "kind": "historical_source_local_hypothesis",
+        "source": "experiments/yolo/gdt584_statement_collocation_polish/REPORT.md",
+        "limits": "Only the source-defined deck or contextual cases. No general glyph/root transfer, independent semantic confirmation, statistical outcome or rerun permission."
+      },
+      "source_polarity": "positive_historical_working_proposal_not_confirmed",
+      "related_existing_cards": [
+        {
+          "target": "SEM:9d512432d001b98a50ea",
+          "target_basis_sha256": "489d364648ba26b5b0d4818ee63b0448082515cb3ee3daa00ddeebc37b0b5fd4",
+          "effective_claim": "SH → HALTEN",
+          "relationship": "related_not_equivalent",
+          "reason": "SH=HALTEN alone does not contain the before-straining standing/settling contextual choice."
+        }
+      ]
+    },
+    {
+      "id": "CLEAN_GAP_AF:take_off_after_wet",
+      "claim": "In GDT584, the relevant broad S occurrences after wet work are read as taking off, without replacing the broad S root globally.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:c4ea700538fd0aaf943b"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt584_statement_collocation_polish/REPORT.md",
+          "line": 25,
+          "line_end": 50,
+          "quote": "## What changed semantically\n\nThe independent direction and material readings found fifty bounded changes\namong 1,921 target occurrences. Everything else remains live.\n\n- One relation-only `SH→T` case, `G407-E3488`, changes from unsupported cooling\n  to regulation from the outlet basin.\n- `G407-E4570` changes from drying before CHD to tempering an explicitly liquid\n  extract before broad processing. The two actual dry→grind cases at\n  `G407-E4476` and `G407-E4490` remain.\n- Three sieve readings immediately after a wet step become straining. One\n  `sain` occurrence with direct AIN and only remote AIIN becomes sieving. One\n  stage-only S occurrence returns to broad separation.\n- Five formerly dry grind readings become wet trituration/maceration. Five\n  broad AIIN+Y processing cases receive the same wet-process voice.\n- Sixteen remaining `CHD_HP_DRY_GRIND` cases are renamed to the more honest\n  material-comminution reading; absence of AIIN supports physical\n  fragmentation but does not prove dryness.\n- Eight broad SH occurrences immediately before straining become standing or\n  settling, two broad S occurrences after wet work become taking off, and five\n  OR-only soak readings become holding the material unit.\n\nThis yields 1,653 retained slots, 218 wording-only rephrasings, 34 narrowed\nreadings, fifteen upgrades from broad fallbacks and one return to a broad\nfallback. The broad T/SH/CHD/S roots are unchanged.\n",
+          "sha256": "85bc1d98666014d6c0ca230d0260f9b9ff892b389e53b16fb192a4a5c02980ec"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "kind": "historical_source_local_hypothesis",
+        "source": "experiments/yolo/gdt584_statement_collocation_polish/REPORT.md",
+        "limits": "Only the source-defined deck or contextual cases. No general glyph/root transfer, independent semantic confirmation, statistical outcome or rerun permission."
+      },
+      "source_polarity": "positive_historical_working_proposal_not_confirmed",
+      "related_existing_cards": []
+    },
+    {
+      "id": "CLEAN_GAP_AF:or_only_holding",
+      "claim": "GDT584 revises the relevant OR-only soak readings to holding the material unit; this local action rendering does not translate OR itself as a holding verb.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:c4ea700538fd0aaf943b"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt584_statement_collocation_polish/REPORT.md",
+          "line": 25,
+          "line_end": 50,
+          "quote": "## What changed semantically\n\nThe independent direction and material readings found fifty bounded changes\namong 1,921 target occurrences. Everything else remains live.\n\n- One relation-only `SH→T` case, `G407-E3488`, changes from unsupported cooling\n  to regulation from the outlet basin.\n- `G407-E4570` changes from drying before CHD to tempering an explicitly liquid\n  extract before broad processing. The two actual dry→grind cases at\n  `G407-E4476` and `G407-E4490` remain.\n- Three sieve readings immediately after a wet step become straining. One\n  `sain` occurrence with direct AIN and only remote AIIN becomes sieving. One\n  stage-only S occurrence returns to broad separation.\n- Five formerly dry grind readings become wet trituration/maceration. Five\n  broad AIIN+Y processing cases receive the same wet-process voice.\n- Sixteen remaining `CHD_HP_DRY_GRIND` cases are renamed to the more honest\n  material-comminution reading; absence of AIIN supports physical\n  fragmentation but does not prove dryness.\n- Eight broad SH occurrences immediately before straining become standing or\n  settling, two broad S occurrences after wet work become taking off, and five\n  OR-only soak readings become holding the material unit.\n\nThis yields 1,653 retained slots, 218 wording-only rephrasings, 34 narrowed\nreadings, fifteen upgrades from broad fallbacks and one return to a broad\nfallback. The broad T/SH/CHD/S roots are unchanged.\n",
+          "sha256": "85bc1d98666014d6c0ca230d0260f9b9ff892b389e53b16fb192a4a5c02980ec"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "kind": "historical_source_local_hypothesis",
+        "source": "experiments/yolo/gdt584_statement_collocation_polish/REPORT.md",
+        "limits": "Only the source-defined deck or contextual cases. No general glyph/root transfer, independent semantic confirmation, statistical outcome or rerun permission."
+      },
+      "source_polarity": "positive_historical_working_proposal_not_confirmed",
+      "related_existing_cards": [
+        {
+          "target": "SEM:b7b8386240af78e7d09f",
+          "target_basis_sha256": "779a950a85c64b1d4230e0420b2db315d937114457eb6de7d5bf08370207e109",
+          "effective_claim": "OR → EINHEIT",
+          "relationship": "related_not_equivalent",
+          "reason": "OR=EINHEIT is only the argument value; it does not specify the local holding-versus-soaking action reading."
+        }
+      ]
+    }
+  ],
+  "dispositions": [
+    {
+      "source_id": "LEGACY_COMPONENT:446f41a0f53c58920db5",
+      "decision": "instance_or_register_realization",
+      "card_ids": [],
+      "reason": "Sector share is explicitly called a register realization of the already existing AIN=share value, not a second meaning. The table-completion counts are engineering coverage."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:cc44d30cd28e0a0aa16f",
+      "decision": "retained_semantic_proposal",
+      "card_ids": [
+        "CLEAN_GAP_AF:state_two_slot"
+      ],
+      "reason": "An independently stated mechanism or context-bound reading is recovered; nearby atom values do not cover it."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:01b2fac13bcc8f6cea53",
+      "decision": "nonproposition_method_result_or_limit",
+      "card_ids": [],
+      "reason": "The entire selected span describes statistics, source controls, editorial continuity, future workflow or a claim ceiling without a separate concrete meaning proposal. No placeholder is promoted."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:3649920eac69547edd75",
+      "decision": "nonproposition_method_result_or_limit",
+      "card_ids": [],
+      "reason": "The entire selected span describes statistics, source controls, editorial continuity, future workflow or a claim ceiling without a separate concrete meaning proposal. No placeholder is promoted."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:66dd7697ede03dc40b97",
+      "decision": "existing_explicit_proposition",
+      "card_ids": [],
+      "reason": "The independently testable same-event right-edge-object scope rule is already an explicit proposition. The event changes and count tables instantiate it rather than adding separate meanings."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:7ec9169668a00f04d5b5",
+      "decision": "nonproposition_method_result_or_limit",
+      "card_ids": [],
+      "reason": "The entire selected span describes statistics, source controls, editorial continuity, future workflow or a claim ceiling without a separate concrete meaning proposal. No placeholder is promoted."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:080cfd70c6ec4b635a3a",
+      "decision": "retained_semantic_proposal",
+      "card_ids": [
+        "CLEAN_GAP_AF:action_substitution"
+      ],
+      "reason": "An independently stated mechanism or context-bound reading is recovered; nearby atom values do not cover it."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:0c99a3cd411c9d9a56c5",
+      "decision": "nonproposition_method_result_or_limit",
+      "card_ids": [],
+      "reason": "The entire selected span describes statistics, source controls, editorial continuity, future workflow or a claim ceiling without a separate concrete meaning proposal. No placeholder is promoted."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:1c78f76bdc35f88d6756",
+      "decision": "nonproposition_method_result_or_limit",
+      "card_ids": [],
+      "reason": "The entire selected span describes statistics, source controls, editorial continuity, future workflow or a claim ceiling without a separate concrete meaning proposal. No placeholder is promoted."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:2de572acf652ea270ffb",
+      "decision": "nonproposition_method_result_or_limit",
+      "card_ids": [],
+      "reason": "The entire selected span describes statistics, source controls, editorial continuity, future workflow or a claim ceiling without a separate concrete meaning proposal. No placeholder is promoted."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:3dda1425e3c586e93154",
+      "decision": "retained_semantic_proposal",
+      "card_ids": [
+        "CLEAN_GAP_AF:state_two_slot"
+      ],
+      "reason": "An independently stated mechanism or context-bound reading is recovered; nearby atom values do not cover it."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:68cb5ba768710713b6ca",
+      "decision": "nonproposition_method_result_or_limit",
+      "card_ids": [],
+      "reason": "The entire selected span describes statistics, source controls, editorial continuity, future workflow or a claim ceiling without a separate concrete meaning proposal. No placeholder is promoted."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:77b90f90aa3ca86c9adb",
+      "decision": "nonproposition_method_result_or_limit",
+      "card_ids": [],
+      "reason": "The entire selected span describes statistics, source controls, editorial continuity, future workflow or a claim ceiling without a separate concrete meaning proposal. No placeholder is promoted."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:a12e11d638b5c4160971",
+      "decision": "retained_semantic_proposal",
+      "card_ids": [
+        "CLEAN_GAP_AF:quantity_envelope"
+      ],
+      "reason": "An independently stated mechanism or context-bound reading is recovered; nearby atom values do not cover it."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:a4bc945935f8b785fb82",
+      "decision": "retained_semantic_proposal",
+      "card_ids": [
+        "CLEAN_GAP_AF:mixed_owner_state"
+      ],
+      "reason": "An independently stated mechanism or context-bound reading is recovered; nearby atom values do not cover it."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:a996ed70661443c7dae8",
+      "decision": "nonproposition_method_result_or_limit",
+      "card_ids": [],
+      "reason": "The entire selected span describes statistics, source controls, editorial continuity, future workflow or a claim ceiling without a separate concrete meaning proposal. No placeholder is promoted."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:c4ea700538fd0aaf943b",
+      "decision": "retained_semantic_proposal",
+      "card_ids": [
+        "CLEAN_GAP_AF:wet_straining",
+        "CLEAN_GAP_AF:wet_comminution",
+        "CLEAN_GAP_AF:fragmentation_not_dry",
+        "CLEAN_GAP_AF:hold_before_straining",
+        "CLEAN_GAP_AF:take_off_after_wet",
+        "CLEAN_GAP_AF:or_only_holding"
+      ],
+      "reason": "An independently stated mechanism or context-bound reading is recovered; nearby atom values do not cover it."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:cd85231566395bcd28dc",
+      "decision": "instance_or_register_realization",
+      "card_ids": [],
+      "reason": "The two CHOR/ALY expansions instantiate the stated composition plus sentence-context rule; this block explicitly rejects a long single-word definition and introduces no new independent word value."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:d388e076a3bc0cf11dfa",
+      "decision": "nonproposition_method_result_or_limit",
+      "card_ids": [],
+      "reason": "The entire selected span describes statistics, source controls, editorial continuity, future workflow or a claim ceiling without a separate concrete meaning proposal. No placeholder is promoted."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:e03307d8a036445c7042",
+      "decision": "nonproposition_method_result_or_limit",
+      "card_ids": [],
+      "reason": "The entire selected span describes statistics, source controls, editorial continuity, future workflow or a claim ceiling without a separate concrete meaning proposal. No placeholder is promoted."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:fa4b09dc057cb00b4b45",
+      "decision": "nonproposition_method_result_or_limit",
+      "card_ids": [],
+      "reason": "The entire selected span describes statistics, source controls, editorial continuity, future workflow or a claim ceiling without a separate concrete meaning proposal. No placeholder is promoted."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:fd50ea53a8e4f391b8dc",
+      "decision": "retained_semantic_proposal",
+      "card_ids": [
+        "CLEAN_GAP_AF:object_conditioned_heads"
+      ],
+      "reason": "An independently stated mechanism or context-bound reading is recovered; nearby atom values do not cover it."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:00d373e9d8b51979d080",
+      "decision": "nonproposition_method_result_or_limit",
+      "card_ids": [],
+      "reason": "The entire selected span describes statistics, source controls, editorial continuity, future workflow or a claim ceiling without a separate concrete meaning proposal. No placeholder is promoted."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:0a499e8bbdf76adc003e",
+      "decision": "nonproposition_method_result_or_limit",
+      "card_ids": [],
+      "reason": "The entire selected span describes statistics, source controls, editorial continuity, future workflow or a claim ceiling without a separate concrete meaning proposal. No placeholder is promoted."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:0fd5895844401cd76006",
+      "decision": "nonproposition_method_result_or_limit",
+      "card_ids": [],
+      "reason": "The entire selected span describes statistics, source controls, editorial continuity, future workflow or a claim ceiling without a separate concrete meaning proposal. No placeholder is promoted."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:11b7faa2628ebff5c2d6",
+      "decision": "nonproposition_method_result_or_limit",
+      "card_ids": [],
+      "reason": "The entire selected span describes statistics, source controls, editorial continuity, future workflow or a claim ceiling without a separate concrete meaning proposal. No placeholder is promoted."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:158720fdc352ea3f12e0",
+      "decision": "nonproposition_method_result_or_limit",
+      "card_ids": [],
+      "reason": "The entire selected span describes statistics, source controls, editorial continuity, future workflow or a claim ceiling without a separate concrete meaning proposal. No placeholder is promoted."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:16e1b0058b154e84ff33",
+      "decision": "nonproposition_method_result_or_limit",
+      "card_ids": [],
+      "reason": "The entire selected span describes statistics, source controls, editorial continuity, future workflow or a claim ceiling without a separate concrete meaning proposal. No placeholder is promoted."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:17284bcde932fc6cb7b2",
+      "decision": "nonproposition_method_result_or_limit",
+      "card_ids": [],
+      "reason": "The entire selected span describes statistics, source controls, editorial continuity, future workflow or a claim ceiling without a separate concrete meaning proposal. No placeholder is promoted."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:190e2058f880a9dc1fbb",
+      "decision": "existing_explicit_proposition",
+      "card_ids": [],
+      "reason": "The learned-whole-piece intermediate layer with separately permitted endings is already the full explicit proposition, not merely preserved in evidence."
+    }
+  ],
+  "limits": "Historical source recovery only. No operative changes or claim of globally new meanings."
+}

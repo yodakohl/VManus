@@ -1,0 +1,88 @@
+{
+  "schema": "clean_semantic_gap_review_v1",
+  "review_id": "CLEAN_GAP_REVIEW_AE",
+  "status": "root_source_reviewed",
+  "cards": [
+    {
+      "id": "CLEAN_GAP_AE:q13_component_state_reference",
+      "claim": "In the GDT214 q13 rendering hypothesis, some diagram-local strings may refer into explanatory prose or serve as component/state keys rather than ordinary object names. No particular group, device component or therapeutic content is identified.",
+      "claim_type": "functional_hypothesis",
+      "status": "unconfirmed",
+      "ready": false,
+      "member_ids": [
+        "LEGACY_COMPONENT:46e7ffc6024b00bf75e3"
+      ],
+      "scope": {
+        "source": "GDT214",
+        "unit": "Graphical-label register possibility distinct from the balneological genre hypothesis",
+        "limits": "Historically attested comparator architecture only; Voynich exceptional label/prose reuse prediction is unsupported."
+      },
+      "evidence": [
+        {
+          "path": "GDT214_HYDRAULIC_COMPONENT_KEY_COMPARATOR_REPORT.md",
+          "line": 15,
+          "quote": "\nThis establishes a historically real alternative for q13 graphical text:\nsome diagram-local strings could function as references into explanatory prose\nor as component/state keys, not as ordinary object names.  That alternative is\nmore compatible with q13's mixed labels/prose and weak one-object ownership\nthan a naive label dictionary.\n\nIt does **not** pass its Voynich prediction.  GDT187 already found that exact\nPAGE_HOST reuse between label inventories and same-page prose is sparse but\nnot exceptional: 57/215 label occurrences appear anywhere in same-page prose,\n22/215 at paragraph openings, and the ten-channel adjusted result is\n`p=.2963`.  Thus no diagram-to-prose key dictionary has been recovered.",
+          "sha256": "3b4eb7a83374124ca02cb375ba224b080f994389c7056f0bf100c4d10d6c4d8b"
+        },
+        {
+          "path": "GDT214_HYDRAULIC_COMPONENT_KEY_COMPARATOR_REPORT.md",
+          "line": 40,
+          "quote": "## Updated working theory\n\nThe most economical q13 model remains therapeutic balneological records with\nan unusually abstract hydraulic/process rendering.  GDT214 adds a distinct\nrendering possibility: the graphical-label register may include component or\nstate references rather than names.  It does not displace GDT210's bath-content\nlead because al-Jazari supplies mechanics, not therapeutic content.\n\nNo Voynich group is assigned a component, water, wheel, bath, procedure,\nfigure, or index value.  No direct source relationship, language, plaintext,\nor translation follows.  No f84 source, image, annotation, or formal payload\nwas accessed.",
+          "sha256": "3b4eb7a83374124ca02cb375ba224b080f994389c7056f0bf100c4d10d6c4d8b"
+        }
+      ],
+      "assessment_basis": "root_direct_primary_reading_and_bounded_counterpart_comparison",
+      "source_polarity": "explicit_historical_possibility_with_failed_reuse_prediction"
+    }
+  ],
+  "dispositions": [
+    {
+      "source_id": "LEGACY_COMPONENT:46e7ffc6024b00bf75e3",
+      "decision": "accepted",
+      "card_ids": [
+        "CLEAN_GAP_AE:q13_component_state_reference"
+      ],
+      "reason": "AB correctly located preserved source text; its independently assessable graphical-reference hypothesis was not an independently addressed proposition in the broader genre card."
+    }
+  ],
+  "bounded_counterparts": [
+    {
+      "target": "SEM:20912ed9ab65fa3e132b",
+      "claim": "The q13 pages contain therapeutic balneological records with an abstract hydraulic/process representation.",
+      "target_basis_sha256": "0abbf89126ba0e25864651f3a4b4ed9b35f0b9436472329dcfcd40eee3fcd9eb",
+      "effective_basis_sha256": "ec785191300c20e41864ffdcdadbead2501f48dbe63278be233e025affbac214"
+    },
+    {
+      "target": "SEM:45ef9e0d277a09326904",
+      "claim": "The historical page reading for f82r is: describe the source/apparatus and two or more alternative applications; attach local flow/component labels and reuse OKAL between diagram and prose.",
+      "target_basis_sha256": "09a6d6c5dde799531529562721da2bed1eb7a91ffb84fe3a8c254c1414c6750b",
+      "effective_basis_sha256": "693f87f8983f28b86c5ea04404112f27c5ccb57f28e4b480c5f16ce53bb19239"
+    },
+    {
+      "target": "SEM:7b9bb810444196a1b120",
+      "claim": "Page-local keys are written beside diagram objects and reused in prose to connect the two channels.",
+      "target_basis_sha256": "8d47dec2773093ee742ae9768eba4ab83c576acb8e919eab674e42ee106dc35b",
+      "effective_basis_sha256": "cfa8f5fbbeed85b1699a5b710327f619c360faad09262b1702f864ba66b1759e"
+    },
+    {
+      "target": "SEM:8d91919c2365f7c2c05d",
+      "claim": "The illustrated page is a therapeutic or hydraulic practical record with component/state arguments.",
+      "target_basis_sha256": "7acdd0411ab1d2d52e647627367a42a6951bad3f5f35ee404bc06c28789a8944",
+      "effective_basis_sha256": "b6b1126eb55f98d1da2d552891fa39fa903e9796ae75b3dcf929fe4c4415a071"
+    },
+    {
+      "target": "SEM:a0d3495286183e69ce46",
+      "claim": "Main f83r paragraphs carry procedure or state records, while apparatus-local blocks identify components or conduits.",
+      "target_basis_sha256": "c304643a3d9a6592382c41f0520b8dbdd8cdcc8c71927b896d6fc67651cf8ac7",
+      "effective_basis_sha256": "cf16219b1b4890b77f65416030d089016fa4c53081b1df48b311083435748f86"
+    }
+  ],
+  "distinctions": [
+    "Source already quoted is not the same as full proposition represented.",
+    "The GDT214 nonnaming component/state reference possibility does not follow from a therapeutic genre, an f82 page model or f83 text-mode split.",
+    "The later local-key model has different page coverage and requires a written diagram/prose channel; do not declare equivalence from overlap alone.",
+    "This adds an addressable historical hypothesis, not a newly discovered manuscript fact or global novelty verdict."
+  ],
+  "input_review": "research_registry/decisions/source_coverage_gap_batch_ab.json",
+  "input_review_sha256": "3f030b313271d176d45f43228f43e6d996fec6123b3deaef87cf74adf65f7638"
+}

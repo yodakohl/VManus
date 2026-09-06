@@ -5,9 +5,9 @@ headings, experiment methods, result rows without a proposition and pending
 extraction work are excluded. Their original records remain in the source archive.
 This is curation of historical hypotheses, not decipherment progress.
 
-The public snapshot contains **3,004 concrete semantic hypothesis variants** and
-**409 separate formal-role cards**. Active cards and the correction archive retain all **3,902 reviewed source cases**;
-**455 repetitions of identical normalized assertions** are grouped for display.
+The public snapshot contains **3,110 concrete semantic hypothesis variants** and
+**354 separate formal-role cards**. Active cards and the correction archive retain all **3,964 reviewed source cases**;
+**464 repetitions of identical normalized assertions** are grouped for display.
 All **5,370 proposal fragments**, **3,788 component excerpts** and **82 IP entries**
 have explicit dispositions. This is not a count of independently distinct theories.
 The local V81 supplement adds **96 concrete cards** (76 lexical, 19 content models, one formal role).
@@ -64,7 +64,7 @@ and source cases when recording corrections; never erase a failure to reopen a r
 ## Source correction pass
 
 An append-only correction log, `semantic_claim_corrections.jsonl`, currently
-archives 34 source-extraction errors and restates fourteen source assertions
+archives 36 source-extraction errors and restates73 source assertions
 with explicit scope and appropriate lexical, functional, model or formal types. Numeric table ratios, denied constituent inferences
 and dispatch metadata had incorrectly entered the hypothesis list. Every original
 card, source case and exact quote remains in `semantic_ideas_excluded.jsonl` or
@@ -80,8 +80,8 @@ audit is bounded and does not establish error-free global extraction.
 
 ## Reviewed identity and scoped failure memory
 
-The default public view currently has **2,957 semantic display entries** from
-3,004 active semantic variants. `semantic_identity_decisions.jsonl` records38
+The default public view currently has **3,063 semantic display entries** from
+3,110 active semantic variants. `semantic_identity_decisions.jsonl` records38
 approved equivalence groups, two related-but-distinct links,28 explicit rival
 links and two specializations. Whole-card V51/V60 continuity is backed by shared
 source-deck IDs, not merely matching names or occurrence counts. These are
@@ -103,7 +103,7 @@ case history. No rejection, success or reopening permission crosses an identity
 link. Search covers every member wording. Cached pages do not deserialize the
 complete card snapshot, including the10k-card regression.
 
-Fourteen reviewed question dossiers in `semantic_failure_decisions.jsonl` distinguish
+Sixteen reviewed question dossiers in `semantic_failure_decisions.jsonl` distinguish
 empirical failure, invalid test, insufficient capacity, missing meaning binding
 and proposal-only status. They appear before inherited experiment context under
 `--field assessments`. They name the actual tested subclaim, primary evidence,
@@ -114,17 +114,30 @@ Only the latest linked revision acts; all original decisions remain in the log.
 
 ## Recovery and conditional priorities
 
-The J/M/R/V source-block reviews inspect188 distinct source blocks. Q/U revisit
-and resolve the35 earlier J/M scope comparisons; they are not35 extra blocks.
-Together the L/O/Q/T/U/W recovery packets add34 historical semantic propositions,
-one formal parser rule and two additional source cases for existing Y and V15
-claims. This is recovery of missing source statements, not a global uniqueness
-claim. Eleven V full-model spans and seven R scope comparisons remain open.
-The source archive contains9,917 actual unresolved blocks plus5,561 pointer rows;
-these are not15,478 independently missing ideas. New cards retain original
-register, whole-form or compositional units, rivals and historical uncertainty.
-The recovered GDT180 quality-process reading is linked to its later GDT202
-semantic withdrawal; re-listing a historical claim never reinstates its decoder.
+The J/M/R/V/AB/AF/AG source-block reviews inspect281 distinct blocks. Q/U/AA/AC
+revisit the earlier scope questions; they are not extra source blocks. Recovery
+now includes complete historical book models, concrete rendering hypotheses and
+local competing readings. A local f37v dryness-degree interpretation is marked
+as an instance of the terminal-degree default, not an independent new mechanism.
+Presence of a narrower proposition inside a broad card's quote is source-text
+preservation; it need not make that proposition independently addressable for
+failure or identity decisions. AE makes this distinction explicit for GDT214.
+The source archive contains9,917 unresolved extraction blocks plus5,561 pointer
+rows; those intake labels are immutable source metadata, not a current count of
+missing ideas. Current recovery dispositions reside in the bounded review batches.
+
+The type audit navigated396 formal-card titles but primary-checked only60 cases:
+54 are semantic hypotheses, five remain formal, and one is an apprentice-error
+extraction. A separate BACA review restores another functional hypothesis. The
+336 remaining title-only cases have not been declared correct. Quantitative,
+referential, drug and temperature hypotheses are not merely formal because their
+meanings remain unconfirmed. Local domains and source withdrawals stay attached.
+
+Recovered GDT180 retains its later GDT202 semantic withdrawal. AD separately
+records the failed GDT235 exact-residual coarse-object lookup and the still
+unbound local BACA class candidate. BACA missed the strict prefix-selection rule;
+its exposed sensitivity is not a direct semantic test by the strict residual
+instrument. Re-listing any historical claim never reinstates a decoder.
 
 ```bash
 ./vmanus-work priorities --shortlist
