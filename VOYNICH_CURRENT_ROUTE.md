@@ -20,7 +20,7 @@ GDT853:25W qualify, zero held pairs meet fixed source/start-index matching;
 no predictor or automatic looser pairing. GDT854:146events,14mixed cells;
 CKH one-e positions vary within9folios, CTH onlyf83. Cross-kernel capacity
 fails; no model/null/meaning or within-kernel rescue. IP012 deferred:
-no empirically motivated remodeling rival.Ideas: see backlog.
+no motivated remodeling rival. Ideas: see backlog.
 
 GDT855:outside ALL60LM-graded folios, onlyf35/f36/f37 remain, allq05.
 Post-count proof: any newTOOTHED breaks25%quire cap; none adds no mixed new
@@ -66,9 +66,9 @@ They supply no Voynich meaning or authorization for automatic decoder repairs.
 
 ## Visual understanding and earlier routes
 
-Root's four orientation passes:28renderings/27canvases/28admittedkeys.
+Root's five orientation passes:31renderings/30canvases/31admittedkeys.
 Dossier and exact sources: `docs/visual_overview/README.md`.
-Latest: `docs/visual_overview/FIGURE_ORIENTATION_2026-09-06.md`.
+Latest: `docs/visual_overview/REMAINING_PLANTS_2026-09-06.md`.
 f76r offset signs are a known functionally unresolved column; f4r rot is an
 ordinary-alphabet note. No decipherment/admission.95v images stay distinct.
 GDT829 exact repeated-flank route and GDT830 pen-state control stop; do not relax

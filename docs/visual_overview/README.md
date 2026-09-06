@@ -102,3 +102,6 @@ f75r/f76r/f81v/f83r. Die f76r-Randspalte ist bereits dokumentiert und funktional
 
 Lokale Quellenprüfung, kein weiterer Orientierungsdurchgang: [f104v.27-Dreifachgruppe](TRIPLE_F104V_2026-09-06.md).
 Zwei native Beobachtungen stützen ähnlichen Aufbau und Trennung; feine Zeichenidentität bleibt offen.
+
+Drei weitere bereits freigegebene Pflanzenblätter: [fünfter persönlicher Durchgang](REMAINING_PLANTS_2026-09-06.md).
+Damit31Darstellungen/30Yale-Aufnahmen/31Seitenschlüssel in den fünf Orientierungsdossiers.
