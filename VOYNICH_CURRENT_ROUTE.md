@@ -22,17 +22,16 @@ GDT853:25W qualify, zero held pairs meet fixed source/start-index matching;
 no predictor or automatic looser pairing. GDT854:146events,14mixed cells;
 CKH one-e positions vary within9folios, CTH onlyf83. Cross-kernel capacity
 fails; no model/null/meaning or within-kernel rescue. IP012 deferred:
-no motivated remodeling rival. Ideas: see backlog.
+no motivated remodeling rival.862/IP053 mirror screen:1/3materialpairs; stop
+before targetcomparison, no show-through claim. Ideas: see backlog.
 
 GDT855:outside ALL60LM-graded folios, onlyf35/f36/f37 remain, allq05.
 Post-count proof: any newTOOTHED breaks25%quire cap; none adds no mixed new
 phase. Thus this reserve cannot repair LM002 mobility; no images/target opened.
 RBR002 already closed the apparent RBR001 successor.
 
-GDT845–849 via lookup: pairedprefix sparse;848one native twoarc/loop anchor.
-849all0/1corners in4strata, no coupling/meaning.847reconciles old829:
-816raw+10bracket+2brace+1metadata; oldbytes unchanged.
-GDT844/stars remain stopped; no unowned caption scores or same-photo recounts.
+GDT845–849: sparse prefix/source grids,848one native anchor; no coupling or
+meaning.847corrects829 counts.844/stars stopped. Primary via lookup.
 
 Goal: transferable translation. Confirmed English lexemes: **0**;
 confirmed German lexemes/clauses: **0**. GDT857 finds4coordinate-stable rawAAA
@@ -60,8 +59,7 @@ These narrow capacity stops do not generally reject word boundaries or ciphers.
 GDT837:STRICT_RECOVERY_FAIL; wholeword-constraint gain0, wrong suffix,
 score issue already known834. No automatic control-decoder successor.
 
-Earlier control details: `./vmanus-work lookup GDT832 GDT833 GDT834 GDT835 GDT836`.
-They supply no Voynich meaning or authorization for automatic decoder repairs.
+GDT832–837 controls confer no Voynich meaning or automatic decoder-repair route.
 
 ## Visual understanding and earlier routes
 

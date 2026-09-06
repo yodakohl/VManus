@@ -6,6 +6,18 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### GDT862 material-mirror screen stop (2026-09-06)
+
+Primary: `experiments/yolo/gdt862_f104_material_landmark_mirror_screen/REPORT.md`.
+Root full-original material inspection nominates one plausible small bottom
+tear/pit correspondence on f104r/v, below three required. Outer-edge notch
+and generic top-crease pairs rejected; one nomination is not independently
+verified. No B, transformation or directedf104v27counterpart comparison.
+No show-through absence, glyph correction, chronology or meaning established.
+TGC001f104r17C009 not directedly inspected/classified; images displayedwhole.
+Stop IP053 under this contract; no fewer-landmark or alternate-folio rescue.
+Independent actualsource/image/seal/count validation and replayPASS only.
+
 ### GDT861 additional native link and no-link contrast (2026-09-06)
 
 Primary: `experiments/yolo/gdt861_extended_entity_native_comparison/REPORT.md`.

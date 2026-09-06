@@ -1599,3 +1599,12 @@ ein Einwortpaar als mehrgliedrigen Überschriftsanker ausgeben. Route-check
 
 Keine neue ID, Bildöffnung, Rohdatenabfrage, Ausführung oder Übersetzung.
 Schreibzuständigkeit zurück bei root.
+
+### IP053 GDT862 outcome
+
+**STOP — LANDMARK_CAPACITY_STOP.** Native whole-original material screen
+produced one eligible plausible pair, below the fixed three. Edge-notch and
+generic upper-crease candidates rejected. No B, transformation or target
+counterpart comparison; no conclusion about show-through. Primary:
+`experiments/yolo/gdt862_f104_material_landmark_mirror_screen/REPORT.md`.
+Do not relax the landmark requirement or switch folios after this stop.
