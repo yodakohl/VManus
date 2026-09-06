@@ -2006,3 +2006,53 @@ oder künstlicher Kontrollkorpus.
 Ergebnis dieser Produktionsrunde: zehn RAW-Skizzen, sechs Familien,
 null geprüfte Neuheitsansprüche und null ausgewählte Versuche. Der Vorrat
 enthält bewusst ambitionierte Datenbedarfe. Schreibzuständigkeit an root zurück.
+
+### Gezielte Machbarkeitsprüfung IP067 / IP071 / IP074
+
+**IP067 — derzeit kein ausführbarer Kontrast.** [GDT625](../experiments/yolo/gdt625_ordered_quality_state_transitions/REPORT.md)
+nennt sechs formale A–B–A-Pfade, aber keinen unabhängig identifizierten
+gleichbleibenden Träger einer dreileserstabilen Zustandsänderung. Die vollständige
+f29v.4-Zeile passt schon im alten Bericht eher zu zwei Trägern. Die dortigen
+Feucht-/Trockenwerte sind Arbeitsdeutungen. Auch ein bestätigtes A–B–A allein
+wäre mit einer Zustandsliste vereinbar. Ein echter Operationskontrast benötigt
+denselben schriftlichen Rücknahmeausdruck bei unterschiedlichen Operationen
+und unabhängig bestimmte Rückkehrzustände; diese Quelle fehlt hier.
+
+**IP071 — derzeit keine gebundene Ditto-/Vollfassung.** [GDT798](../experiments/yolo/gdt798_qokaldy_complete_whole_paragraph_discriminator/REPORT.md)
+belegt f33r.2 `okaldy qokaldy` und die Wiederholung in f66r:P5, identifiziert
+aber an9/10Loci keinen Antezedens. Referenz/Nomen bleibt C0-Gleichstand.
+Minimal trennend: dasselbe Kurzzeichen nach zwei unterschiedlichen Vorgängern
+mit unabhängig gebundenen Vollfassungen, die jeweils deren verschiedene Inhalte
+übernehmen. Der gelesene Bericht liefert keine solche Expansion.
+
+**IP074 — aktuell nicht als Versuch verfügbar.** Root übermittelt den
+unabhängigen Quellenreview: [GDT815](../experiments/yolo/gdt815_referent_property_discrimination/REPORT.md)/GDT798 liefern partielle Architekturen,
+nicht zwei vollständige Lesungen. Eine unabhängig identifizierte Expansion,
+Korrektur oder Eigenschaft/Wert-Glosse fehlt. Daher keine Behauptung universeller
+Beobachtungsäquivalenz. GDT798 ist oben direkt verlinkt.
+
+## Acht weitere konkrete Modellskizzen IP075–IP082
+
+Alle **RAW_UNSCREENED**, ohne Neuheits- oder Ausführungsfreigabe. Die ersten drei
+wurden nur navigierend mit route-check und den direkten GDT605/GDT856-Berichten
+verglichen; das ist kein abgeschlossener Familienaudit. Eingabematerial ist
+vorhanden: die179-Selektor-Rohgruppenquellen von GDT851 samt Separatoren, die
+publizierten GDT851/863-Passagen und die bisherigen Layoutdossiers. Die jeweils
+angenommene Einheit ist **nicht** als historische Einheit bestätigt. Kein neuer
+Text-/Bildzugriff, kein Modellfit, kein Versuch. Eine erfüllte notwendige
+Bedingung wäre stets nur Kompatibilität, keine Entschlüsselung.
+
+| ID | Konkretes Modell und möglicher Falsifikator | Verfügbare Evidenz, Rivale und Schließungsrisiko |
+|---|---|---|
+| **IP075** | **Koordinatenpaare mit getrennten Zeichenalphabeten.** Jede codierte Einheit schreibt abwechselnd ein Zeilen- und ein Spaltenzeichen; beide sichtbaren Alphabete sind disjunkt. Bei festem, vorab begründetem Start muss jedes Zeichen ausschließlich auf einer der beiden Phasen auftreten. Ein einziges sicher identisches Zeichen auf beiden Phasen widerspricht diesem Modell, ohne die Koordinatenwerte zu kennen. | AVAILABLE: vollständige851-Rohzeilen. Rivalen: überlappende Koordinatenalphabete oder variable Codewörter. Physische Glyphen dürfen nicht automatisch mit EVA-Buchstaben gleichgesetzt werden; ohne festgelegte source-native Einheit kein Test. GDT605s gescheiterte Ein-Buchstaben-Zuordnung wird nicht repariert; Neuheit gegenüber alten Fragmentierungsmodellen offen. |
+| **IP076** | **Unregelmäßiges Koordinatenbrett mit kurzen Direktcodes.** Ein festes reserviertes Präfix beginnt jeden Zweizeichencode; andere Zeichen sind allein vollständig. Diese Architektur muss alle vollständig begrenzten Folgen ohne hängendes Präfix zerlegen können, mit demselben Präfixvorrat. Ein unvermeidlich unvollständiger Schluss widerspricht der konkreten Tabelle; beliebige Zusatznullen sind nicht nachträglich erlaubt. | AVAILABLE:851 mit vollständigen Zeilen und Annotationen. Rivale: normale variabel lange Orthographie. Der Präfixvorrat muss vor Zielprüfung begründet werden, nicht zum Korpus passend gesucht. Direkte605/856-Berichte prüfen keine solche konkrete Tabelle, belegen aber auch keine. Kein neuer Nomenklatordecoder oder Rettungsfit. |
+| **IP077** | **Explizite Escape-Schreibung.** Ein vorab benanntes Escape-Zeichen macht das folgende Zeichen wörtlich; verdoppeltes Escape schreibt es selbst. In dieser Grammatik darf eine vollständig abgeschlossene Einheit nicht mit einem ungeraden nackten Escape-Lauf enden. Der Gegenbeleg wäre ein sicher abgeschlossener solcher Lauf, nicht nur eine Transkriptionszeile mitten im Text. | AVAILABLE:851-Separatoren und vollständige Absatzquellen. Rivale: gewöhnliche Verdopplung ohne Escape-Funktion. Der Escape-Träger ist noch nicht motiviert; kein ausgewählter Versuch. Anders als856 geht es um eine explizite Schreibregel, nicht den BPE-Vorrat; funktional bestätigte Abschlussgrenzen bleiben eine eigene Voraussetzung. |
+| **IP078** | **Überlappende Fenster eines fortlaufenden Zeichentextes.** Eine komplette Gruppe gibt jeweils zwei aufeinanderfolgende Teilstücke wieder; beim nächsten Schritt wird nur eines weitergerückt. Bei eingefrorener Teilstückgrenze muss der rechte Teil jeder Gruppe mit dem linken der Folgegruppe exakt übereinstimmen. Ein interner sicherer Bruch widerlegt diese konkrete Fensterdarstellung. | AVAILABLE: vollständige863-Zeilen, etwa f111v.21, mit weiteren851-Quellen. Rivale: unabhängig erzeugte Wörter mit gelegentlicher Ähnlichkeit. Weder Halblänge noch Schrittweite dürfen nach Gegenbeispielen geändert werden. Kein Nachweis, dass diese Architektur empirisch wahrscheinlicher als gewöhnliche Wortbildung ist; keine Echo-/Fusionroute umbenennen. |
+| **IP079** | **Ungeordnetes Verzeichnis der Kanten eines geschlossenen Weges.** Wenn eine vorab begründet zweigeteilte Gruppe Start- und Endkennung eines Wegstücks enthält, muss jede Kennung im vollständigen geschlossenen Verzeichnis gleich oft links und rechts stehen, unabhängig von der Reihenfolge der Einträge. Eine nicht ausgeglichene Kennung widerlegt die behauptete vollständige geschlossene Wegliste. | AVAILABLE: veröffentlichte komplette lokale Label-/Textfelder; kein neuer Bildbesitz behauptet. Rivale: offenes Netz oder normale zusammengesetzte Formen. Geschlossenheit und Gruppenteilung sind ausdrücklich zusätzliche Modellannahmen, keine Becken-/Kreis-Goldwerte. Ohne unabhängigen Grund für genau diese Anwendung nicht auswählen; Topologie-/Owner-Schließungen bleiben gültig. |
+| **IP080** | **Ausdrucksnotation mit fester Operatorstelligkeit.** Eine vollständige Präfixdarstellung beginnt mit genau einem offenen Ausdrucksplatz; ein Operator mit Stelligkeit k ersetzt einen Platz durch k neue. Bei vorab bestimmten Operatoren darf der Platzbestand vor dem Schluss nicht null werden und muss dort genau null sein. Ein früher Abschluss mit anschließendem ungebundenem Rest widerspricht dieser konkreten Ausdrucksgrammatik. | AVAILABLE: vollständige veröffentlichte Mehrgruppenrecords. Rivale: mehrere serielle Ausdrücke oder natürliche Sprache. Stelligkeiten und äußere Ausdrucksgrenzen dürfen nicht gemeinsam aus denselben Erfolgsfällen gelernt werden. Keine alten Parserrollen als Gold, kein IL026-Fit; derzeit Architekturidee ohne identifizierte Operatoren. |
+| **IP081** | **Bewusste Doppelaufzeichnung mit Gegenreihenfolge.** Eine redundante technische Aufzeichnung kann einen ganzen Inhalt zuerst vorwärts und danach rückwärts ausschreiben. Bei unabhängig begrenzten Hälften verlangt sie wortgetreue Umkehrung auch der ungleichen Innenteile; bloßes ABAB oder AAA genügt nicht. Eine einzige abweichende innere Form widerlegt das jeweilige exakte Doppelprotokoll. | AVAILABLE: komplette851-Kontexte, nicht nur herausgeschnittene Wiederholungsspannen. Rivale: rhetorische oder formelhafte Wiederholung. Noch kein solcher Doppelprotokollanker berichtet; die echtenABAB-Motive sind lediglich Anlass, verschiedene Wiederholungsarchitekturen auseinanderzuhalten. Keine gelockerte Langparallelstellensuche838/829 oder neue seltene Kollisionssuche. |
+| **IP082** | **Zwei getrennte Schriftströme in einer transkribierten Zeile.** Bei konsequent alternierend ineinander gesetzten Strömen müssen vorhandene räumliche Strommerkmale an jedem Wechsel dieselbe Zuordnung liefern, auch bei unterschiedlichen Gruppenlängen. Ein klarer gruppeninterner Wechsel des behaupteten Trägers widerspricht der strikten Ganzgruppen-Verflechtung. | AVAILABLE: native Layoutdossiers und vollständige Quellzeilen. Rivale: eine einzige Grundlinie mit normalen Ober-/Unterlängen. Keine neue Aufnahme verlangt, aber kein konkreter alternierender Träger ist bereits belegt. Nicht IP055s bloße Zweizeilen-Verwechslung oder IP013s Zeichenorientierung erneut testen; ohne tatsächlich dokumentierten Träger nicht auswählen. |
+
+Die gewünschte Zwölferzahl wurde nicht mit weiteren Varianten alter Prüfsummen,
+Zyklusvorräte, Prefix/Suffix-Paare oder unbeobachteten Übersetzungspaaren aufgefüllt.
+Acht neue Skizzen dokumentiert; null davon READY. Schreibzuständigkeit zurück.

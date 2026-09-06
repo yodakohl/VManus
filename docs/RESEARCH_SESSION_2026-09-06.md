@@ -505,3 +505,12 @@ scale in the located primary reports; no new count or underlayer regrade.
 IP067/071 feasibility likewise lacks independent operation/ditto bindings;
 formal A–B–A or repetition alone does not discriminate the proposed mechanisms.
 Goal remains ACTIVE; earliest completion13:40:45UTC.
+
+Previous goal turn: PROGRESS, GDT871 result and rim-scale source review published
+as f8a775cf/c4388b5e. At11:49:32UTC continuation begins. Producer supplies eight
+new RAW mechanisms IP075–082, not the requested twelve; remaining drafts repeated
+old models. IP067/071/074 source gaps now explicit. No READY experiment selected.
+IP014 already refutes the deterministic last-sign function via old800okalal/okalam;
+no checksum rerun. A bounded technical-source check now inspects ExifTool support
+for869's unresolved37407/37408fields; no new TIFF or pixel access is authorized
+by this source-code check. End the support search by12:05UTC.
