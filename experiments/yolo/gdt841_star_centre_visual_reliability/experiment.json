@@ -1,0 +1,95 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Visual readability capacity on one photograph only; no held label prediction, original pigment absence or semantics.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt841_star_centre_visual_reliability/src/run.py",
+    "validate": "python3 experiments/yolo/gdt841_star_centre_visual_reliability/src/validate.py"
+  },
+  "created": "2026-09-06",
+  "dependencies": [
+    "GDT796",
+    "GDT812"
+  ],
+  "experiment_id": "GDT841",
+  "inputs": [
+    {
+      "path": "docs/visual_overview/SOURCES.json",
+      "role": "frozen_source_or_extractor",
+      "sha256": "63c198f411134c6045caca357a6eacf8d9c908f60ee8dea70d9029114c6a5795"
+    },
+    {
+      "path": "docs/visual_overview/STAR_FILL_PILOT.md",
+      "role": "frozen_source_or_extractor",
+      "sha256": "b7df5398941e567534730238416390f5321496e4626adcf7322530adcea86cae"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt841_star_centre_visual_reliability/.gitignore",
+      "role": "source_or_artifact",
+      "sha256": "9b9dc66af90f9ff99fa79101a6e3eb357e4d8b53cafcf51e9a8d2e2e32ca7dbb"
+    },
+    {
+      "path": "experiments/yolo/gdt841_star_centre_visual_reliability/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "909219f6faa638af5a74a893f493044f268d440c093c54c93d998254947f2d8c"
+    },
+    {
+      "path": "experiments/yolo/gdt841_star_centre_visual_reliability/PREREGISTRATION.md",
+      "role": "source_or_artifact",
+      "sha256": "5883798a080d1060b72a8f2c9a1437963ae3fa201a33539293e59939e976a524"
+    },
+    {
+      "path": "experiments/yolo/gdt841_star_centre_visual_reliability/README.md",
+      "role": "source_or_artifact",
+      "sha256": "222560e66d72a4bca3c64789643542e10537b227c0ee701ace49634c55ee27b1"
+    },
+    {
+      "path": "experiments/yolo/gdt841_star_centre_visual_reliability/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt841_star_centre_visual_reliability/src/PREREG_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "d22b6e9a1366b2e62f3f67d2240b5b3da8f3d6884478af3a0ced78a1ddc52b7e"
+    },
+    {
+      "path": "experiments/yolo/gdt841_star_centre_visual_reliability/src/SPEC.json",
+      "role": "source_or_artifact",
+      "sha256": "307db4cc65eba1ef80e21968ac46ac19436dd9690e06d9ed26caff9f22b404e4"
+    },
+    {
+      "path": "experiments/yolo/gdt841_star_centre_visual_reliability/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "0c61dae795e093ed197a9a4d660ed8fd0ffa38b72a3c5cc8d14fa3980db2c13f"
+    },
+    {
+      "path": "experiments/yolo/gdt841_star_centre_visual_reliability/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "5255b5f4061cc08b9f0453a0dca4d00ba914677137a0fec769cc36ef58718179"
+    },
+    {
+      "path": "experiments/yolo/gdt841_star_centre_visual_reliability/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "60200ec94d437dec07ea8589e9d8d6b7e716eb0cbd8ce8a2db291a1bc349ffa3"
+    }
+  ],
+  "question": "Can two native viewers reproducibly distinguish centre fill within one five-star ring?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "star_centre_visual_reliability",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Native star-centre reliability pilot",
+  "updated": "2026-09-06",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}
