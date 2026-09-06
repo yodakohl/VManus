@@ -23025,3 +23025,20 @@ Do not classify all13as uncertain glyphs or change old845bytes. Neither pass
 adds semantics. User authorizes active research for at least10h from
 2026-09-06 03:40:45UTC; session record `docs/RESEARCH_SESSION_2026-09-06.md`.
 Primary reports via compact lookup GDT846/GDT847.
+
+## GDT849 two written e positions, 2026-09-06
+
+The fixed36-form discovery has the same20occupied cells in each alternate reading;
+all0/1corners occur within each of four ch/sh by cth/ckh strata. Only five primary
+e2occurrences supply exact anchors, and every2/2marginal expectation is0. No
+independence, coupling rule, morpheme or meaning is confirmed. Primary report:
+`experiments/yolo/gdt849_two_e_run_grid_discovery/REPORT.md`. GDT848 admits
+f104r/f104v for native audit:38visual keys/43selectors,12admissions remain.
+
+## GDT848 native f104 audit, 2026-09-06
+
+Two native judgments agree on two post-bench arcs plus a raised looped form
+at f104r.33 group2. A count is uncertain for B, target B count disagrees1/2,
+and D is unlocalized by B. The full0/1/2sequence and qo/o contrast remain
+transcription-level. One local visual anchor, no segmentation or meaning.
+Source URLs and unaltered judgments: `experiments/yolo/gdt848_f104_visual_e_run_audit/REPORT.md`.

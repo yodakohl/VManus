@@ -698,3 +698,82 @@ um einen unvermutet bereits gespeicherten vollständigen Blockzensus auszuschlie
 Bestand: 38 Ideenskizzen IP008–IP045; IP001–IP007 und sämtliche früheren Status
 bleiben erhalten. Keine Rohdaten/Bilder/Webzugriffe oder Experimente in dieser
 Producer-Runde. Schreibzuständigkeit an root zurückgegeben.
+
+## Nächste Auswahl während GDT848/GDT849
+
+Zwei belastbar vorbereitete Kandidaten statt einer mit schwachen Entwürfen
+aufgefüllten Quote. IP044 wird parallel als GDT849 bearbeitet und hier nicht
+verändert. Kein weiterer ee+d-Untergruppentest.
+
+### IP045 — Methodenumfang geprüft, weiter Discovery-Priorität 1
+
+GDT820 METHOD wurde jetzt direkt gelesen: Sein Zensus erfasst **exakte rohe
+adjazente Paare** in 172 Kernrecords plus zwei Zusatzrecords auf 14 Selektoren,
+auch über geeignete P-Zeilenwechsel. Keine primitive Perioden-2/3-Inventur ist
+in diesem Methodenvertrag beschrieben. GDT574 dagegen zählt gleiche
+Handlungsatome innerhalb seiner Arbeitskarten. Zusammen mit GDT651s konkretem
+f83r.27-Doublet ist die vorgeschlagene Untersuchung vollständiger unmittelbar
+wiederholter Mehrgruppenblöcke damit hinreichend abgegrenzt, um einen kurzen
+Discovery-Pass auszuwählen. Existenz solcher Mehrgruppenblöcke bleibt unbekannt.
+Der frühere IP045-Umfang (eine physische Zeile, sichere Grenzen, primitive
+Perioden 1/2/3, komplette negative Ergebnisse) bleibt unverändert. Keine
+Nachjustierung anhand der GDT838-/GDT829-Ergebnisse. Gesamtziel 8–10 Minuten.
+
+### IP046 — Getrennte und fusionierte Ausdrucksform: tragen sie dieselben Anschlüsse?
+
+Status: `REVIEWED_DISCOVERY_CANDIDATE`, Auswahlpriorität 2.
+**Konkrete Anker:** [GDT824](../experiments/yolo/gdt824_qolchedy_fixed_composition/WORKING_THEORY.md)
+belegt die fusionierte Ganzgruppe `qolchedy` neben `qokain` auf f81v.17 und
+f82r.2; f77r.34 ist dagegen ein bekannter ZL-joined/IT-split-Leserwechsel.
+[GDT823](../experiments/yolo/gdt823_qol_source_anaphor_trial/WORKING_THEORY.md)
+belegt `qol chedy qokeey` auf f81r.20/f82r.21 in allen drei Lesungen.
+GDT824 hält ausdrücklich fest: In seinem begrenzten Packet folgt `qokeey`
+nur den getrennten Ausdrücken. Das ist ein konkreter möglicher Kontrast,
+keine neue Beobachtung und kein Nachweis von Feuer/Wasser oder Quellenbezug.
+
+**Eigene Vorhersage:** Bei rein optionaler Raumsetzung in demselben Ausdruck
+sollten nach Kontrolle des Registers und der Quellzuverlässigkeit wenigstens
+wiederkehrende vollständige Folgegruppen zwischen fusionierter und sicher
+getrennter Form geteilt werden. Lexikalisierte beziehungsweise unterschiedlich
+gebaute Ausdrücke dürfen dagegen verschiedene Anschlussinventare besitzen.
+Ein solcher Unterschied wäre eine Information über die **Einheit, auf die ein
+übertragbarer Sinn angesetzt werden darf**, auch ohne einen einzigen alten
+Sinnwert vorauszusetzen. Fehlender Overlap bei geringer Exposition entscheidet
+nichts; Overlap beweist seinerseits keine Bedeutungsidentität.
+
+**Kleinster Discovery-Test:** Vorab nur zwei Oberflächen einfrieren:
+`qolchedy` und `qol` + DEFINITE_SPACE + `chedy`, gleicher physischer P-Zeile.
+Alle exakten Vorkommen in den 179 zugelassenen Textselektoren einmal bewacht
+sichern, dazu je zwei vollständige linke/rechte Gruppen, Rohgrenzen, Leser,
+Hand und Sektion. Varianten und unsichere Grenzen gesondert dokumentieren.
+Die bereits von GDT824 exponierten zwölf Loci markieren; der neue Output zeigt
+zuerst die außerhalb dieses kleinen Packets vorhandenen **Entdeckungsbeispiele**,
+die ausdrücklich nicht als ungesehene Bestätigung gelten. Native Bildkorrekturen
+nicht erfinden. Kein erweitertes qol-Präfixlexikon, keine Übersetzung und keine
+Suche nach Edit-Nachbarn.
+
+**Entscheidung/Kosten:** 8–10 Minuten einschließlich Freeze, bewachter Abfrage,
+Überlappungs-/Rückführungsprüfung und Publikation. Ein unter beiden Quellformen
+wiederkehrender Anschluss liefert konkrete Kontextpaare für spätere semantische
+Kontraste. Gut exponierte Trennung macht eine automatische freie Komposition
+weniger plausibel. Reine Registertrennung oder geringe Kapazität stoppt die
+Interpretation, ohne den Zensus nachträglich zu erweitern. Großer Einwand:
+Abstandsmarkierung ist ein Transkriptionsurteil; schreiberabhängige Segmentierung
+kann den gesamten scheinbaren Ausdruckskontrast erzeugen.
+
+**Primärabgleich:** route-check `qolchedy joined split outside packet context
+same whole separation` und `qol two orders chedy source anaphor arguments opposed
+order transfer`; GDT823/GDT824 WORKING_THEORY direkt gelesen. GDT824 behandelt
+13 joined plus 14 split Leserhits an zwölf Loci innerhalb seines bestehenden
+Packets, nicht den vollständigen exakten Zwei-Oberflächen-Zensus aller179Selektoren.
+Die neue Frage ist der beobachtbare Anschlusskontrast, nicht ein weiterer
+Durchgang durch dieselben C0-Bedeutungen. Vor Start METHOD824 gezielt prüfen,
+falls dort ein größerer bereits durchgeführter Anschlusszensus spezifiziert ist.
+
+Eine dritte verlockende Idee zu zwei Qualitätsfeldern und zwei folgenden Werten
+wurde nicht ergänzt: GDT810s Primärbericht zeigt bereits die fehlende allgemeine
+Aritystütze und f21v.4 `chol daiin daiin`; bloßes neues Zuordnen anhand alter
+Qualitätswerte wäre dieselbe Sackgasse. Ebenso liefert `s aiin` aus GDT758
+allein keine unabhängige Mehrfachargumentbindung für eine neue ana-Behauptung.
+Stand: 39 Skizzen IP008–IP046; keine Daten-/Bild-/Weböffnung und kein Experiment
+in dieser Producer-Runde. Schreibzuständigkeit an root zurückgegeben.

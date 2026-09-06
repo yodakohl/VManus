@@ -10,20 +10,23 @@ Active goal/session record: `docs/RESEARCH_SESSION_2026-09-06.md`.
 GDT846: GDT845 ee+d direction survives section/hand conditioning descriptively,
 but exact paired folio support is only1qo/bare and1qo/o stratum. f113qo/bare
 has no ee+d hits; f104qo/o has [1,0,6,5] vs[0,1,1,1]. No general prefix rule.
-Next useful source observation: verify the concrete f104 contrast natively;
-no additional regression/subgroup test selected. Keep845raw contract fixed.
+GDT848: both native viewers support two arcs plus loop at f104r.33#2;
+A count uncertain, B count disagrees, D unlocalized by second viewer.
+Retain local C anchor; full0/1/2and cross-prefix claims remain text-level.
+No additional regression/subgroup test selected. Keep845raw contract fixed.
 GDT847 resolves829=816+10bracket alternatives+2brace removals+1inline metadata.
 The metadata-bearing tchedy case is not an uncertain glyph reading. No change
 to old bytes,48-cell occupancy or meaning. Primary reports via lookup846/847.
 
-Producer keeps38idea sketches, now including grounded IP044(two e runs) and
-IP045(tandem block periods), with primary follow-up checks still needed before
-execution. Seven prior abstract priorities remain deferred; details in backlog.
+GDT849 finds20/36two-e-run cells in each reading, all0/1corners in four strata;
+only five primary e2hits, no2/2exposure. No coupling rule or semantic credit.
+Producer keeps39sketches including IP045(tandem periods) and IP046(join/split
+contexts); primary review precedes selection. Seven prior abstract priorities remain deferred; details in backlog.
 GDT844 stays stopped; GDT841/842 readability and GDT843 context-only deck remain.
 No unowned caption scores, new same-photo counts, unavailable f67r2 MSI reruns.
 
 Goal: transferable translation. Confirmed English lexemes: **0**;
-confirmed German lexemes/clauses: **0**. No new fit or further page admission selected.
+confirmed German lexemes/clauses: **0**. No new fit selected.
 GPU/subagents authorized; no other LLM API keys. No public decipherment-approach
 searches: the user says these are exhausted. Understand project history and
 manuscript appearance before fixing a route; use primary internal evidence.
@@ -94,8 +97,9 @@ Understanding dossier: `docs/VOYNICH_UNDERSTANDING.md`; reset chronology:
 
 - Visual: original30 keys/35 selectors in `experiments/yolo/gdt791_thirty_page_visual_owner_spine/src/PAGE_SELECTOR_SPECS.tsv`,
   plus f21r/f32v/f100v/f101r in `experiments/yolo/gdt812_additional_page_semantic_bridge/src/PAGE_ADMISSIONS.tsv`:34 keys/39 selectors,
-  plus GDT844 f6v/f9v:36 keys/41 selectors,14 admissions remain.
+  plus GDT844 f6v/f9v and GDT848 f104r/f104v:38 keys/43 selectors,12 admissions remain.
   GDT844 admission source: `experiments/yolo/gdt844_ychor_visual_subentry/src/PAGE_ADMISSIONS.tsv`.
+  GDT848 source: `experiments/yolo/gdt848_f104_visual_e_run_audit/src/PAGE_ADMISSIONS.tsv`.
   Register before any new page access.
 - Text:179 selectors in `experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv`, not179 visually
   inspected pages. GDT811 union190 and GDT327's91-folio edition do not enlarge scope.
