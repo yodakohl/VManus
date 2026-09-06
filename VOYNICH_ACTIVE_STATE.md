@@ -23066,3 +23066,13 @@ cover six loci on five physical folios, including known850f75v.44. No
 phrase meaning, copying mechanism or statistical surprise established.
 Fixed census stopped; source and all windows reproducible in
 `experiments/yolo/gdt851_primitive_tandem_raw_group_discovery/REPORT.md`.
+
+## GDT852 native spacing anchor, 2026-09-06
+
+Both native viewers localize f75v.44 groups7–8 and11, judging the first seam
+space-like and second internal-like with other intervals broadly comparable.
+This supports a local physical spacing contrast beyond proportional resizing
+as a sufficient qualitative account, not authorial segmentation or meaning.
+A was sealed before B received neutral locations and original image only.
+Newly admitted f75v gives39visual keys/44selectors,11remaining admissions.
+Primary: `experiments/yolo/gdt852_f75v_native_join_split_spacing/REPORT.md`.

@@ -858,3 +858,60 @@ IP045 completed as fixed primitive-period census. Two all-reading ABAB
 anchors f30r.11 cheor/chey and f8r.19 shol/kaiin; all p2hits4/5/3 by
 reading and no p3. No copy or phrase meaning. Known850f75v.44 is retained
 without new physical-discovery credit. No expansion selected. Primary851REPORT.
+
+### IP047 — Gleiche Zeichenfolge, selektive Lücke oder allgemeine Verdichtung?
+
+Status: `IN_PROGRESS` — root hat GDT852 ausgewählt: f75v vor Bildzugriff
+neu zulassen (12→11 verbleibend). IP045/GDT851 und IP046/GDT850 bleiben abgeschlossen.
+
+**Exakter Anker:** [GDT850 REPORT](../experiments/yolo/gdt850_qolchedy_join_split_context_inventory/REPORT.md)
+belegt f75v.44 Gruppen7–8 `qol chedy` und Gruppe11 `qolchedy` in ZL/IT.
+[GDT851 REPORT](../experiments/yolo/gdt851_primitive_tandem_raw_group_discovery/REPORT.md)
+bewahrt die ganze Zeile. RF bestätigt die frühe Trennung, hat später
+`qolche@152;y`; die spätere exakte Zeichenidentität ist kein Dreileserbefund.
+
+**Discriminator:** M1 erklärt die scheinbare Fusion ausschließlich durch
+proportionale horizontale Verdichtung: Ziellücke und Binnenabstände schrumpfen
+zusammen. M2 verändert die l→ch-Lücke selektiv. An beiden Stellen diese
+Ziellücke relativ zu den sichtbaren inneren Abständen von `qol` und `chedy`
+vergleichen. Klar kleinere relative Ziellücke bei ähnlich breiten inneren
+Abständen widerspricht M1s *ausschließlich proportionaler* Erklärung;
+proportionale Verdichtung ist mit M1 vereinbar. Ist schon der Lückenkontrast
+nativ nicht reproduzierbar, bleibt nur der Transkriptionsbefund.
+
+**Kleinster Test:** Root bindet nach Admission die korrekte Quelle. Ganze
+Originalaufnahme in nativer Größe, keine Crops/Bearbeitung, kein Pixeldetektor.
+Zwei getrennte native Urteile; nach versiegeltem Urteil A darf B neutrale
+Pixelkoordinaten zur Lokalisierung erhalten. Ziel auffindbar ja/nein,
+frühere relative Lücke größer/ähnlich/unklar, selektiv/proportional/unklar.
+Unklare Lokalisierung oder Geometrie stoppt. Budget12Minuten einschließlich
+Admission, Quelle, Urteilen, Bericht und Publikation; kein automatischer
+Messnachfolger oder weiterer Seitenzugang.
+
+**Entscheidung:** Sichtbar selektive Raumsetzung schärft die Beobachtungseinheit
+für spätere Entzifferung: dieselbe gelesene Zeichenfolge in einer Zeile mit
+unterschiedlicher relativer innerer Lücke. Keine Bedeutungsidentität,
+Wort-/Morphemgrenze, absichtliche Regel, Federzugchronologie oder Grammatik
+folgt daraus. Gewöhnliche unregelmäßige Handschrift bleibt als Ursache offen;
+M1 ist enger als „alle nichtsprachlichen Ursachen“.
+
+**Primärabgleich:** route-check `space suppression fusion line justification
+remaining width joined split qolchedy`, `native word boundary space gap
+identical glyph flank joined separated geometry` und `qolchedy f75v compression
+spacing native visual boundary`. GDT850/851 sowie
+[GDT784 REPORT](../experiments/yolo/gdt784_chorcholsal_boundary_name_adjudication/REPORT.md)
+und [GDT819 REPORT](../experiments/yolo/gdt819_written_predicate_boundary_review/REPORT.md)
+direkt gelesen:784 prüft f88r.22 chorcholsal;819 fünf Ziele auf f76r/f77r/f81r,
+kein f75v.44-Bildziel. Geschlossene f67r2/f75v-Zweizeilen-Tailroute wird nicht
+wiederholt: keine abhängigen Zeilen paaren, keine Suffixähnlichkeit messen.
+Keine OCR/CV-Scores. Admissionfehlen anhand GDT791 PAGE_SELECTOR_SPECS und
+aktueller Route geprüft. Keine Bildidentität oder visuelle Eigenschaft durch
+den Producer behauptet. Keine Rohdaten/Bilder/Web oder Experimente geöffnet;
+Schreibzuständigkeit an root zurückgegeben.
+
+### Root decision after GDT852
+
+IP047 completed: two native judgments support a localized spacing contrast
+on f75v.44; physical source support, no word-boundary/meaning assignment.
+Original image only, A sealed before B; no regrading.39visual keys44selectors,
+11admissions remain. Primary852REPORT. No next model follows automatically.

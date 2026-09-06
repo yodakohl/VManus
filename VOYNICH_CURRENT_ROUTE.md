@@ -13,8 +13,9 @@ page/hand-only spelling rule. No shared four-neighbor frame or meaning.
 IT split+qokain f75r.33 was already explicit in823, not a new counterexample.
 GDT851 finds exact ABAB in all readings at f30r.11 cheor/chey and f8r.19
 shol/kaiin; p2hits4/5/3, p3zero. Written anchors, not copying or meaning.
-Stop this census.39idea sketches retained; next choose a distinct grounded
-discriminator, not another expanded inventory or repaired decoder.
+GDT852: both native viewers support local space-like vs internal-like seam
+at f75v.44 groups7–8 vs11. Qualitative contrast, not authorial word boundaries
+or meaning.40idea sketches retained; choose a distinct grounded discriminator.
 
 GDT845/846: ee+d prefix direction persists descriptively under section/hand,
 but paired folio support is only f113qo/bare and f104qo/o; no general rule.
@@ -32,24 +33,14 @@ GPU/subagents authorized; no other LLM API keys. No public decipherment-approach
 searches: the user says these are exhausted. Understand project history and
 manuscript appearance before fixing a route; use primary internal evidence.
 
-## Latest source intake — GDT843
+## Preserved star observations — GDT841–843
 
-`experiments/yolo/gdt843_star_caption_provenance_intake/REPORT.md`.
-Publicf3a16cf3 after metadata inspection, before raw-caption query/joins.
-9unique crop links,1missing;6clear linked contexts. 42rawgroups/27reader-loci;
-no collapsing the2/4-group captions or reader variants. Source/reverse-geometry
-checks pass; PROVENANCE_INTAKE_ONLY_NO_AUTHORIAL_EDGE. No semantic edge/score.
-
-## Preserved visual positives — GDT841/842
-
-Primary reports via `./vmanus-work lookup GDT841 GDT842`.
-Same Yale1006201 photograph, separate native judgments. Inner5:4/5agree,
-3pigment/1outline clear; outer10:9/10agree,3pigment/4outline/2uncertain,
-O6disagrees. Seven outer clear cases; agreed uncertainty is not a clear case.
-Local visual readability only: no independent physical witnesses, pigment history,
-held-folio transfer, authorial label ownership or word meaning. Preregistered
-criteria passed; source-lock, matrix arithmetic and replay checks passed.
-No regrading or further same-photo counts.
+Primary reports via compact lookup. Same Yale1006201 photo, separate native
+judgments: inner5agree4/5; outer10agree9/10, seven clear. O6disagrees.
+No independent physical witness, pigment history, held transfer or meaning.
+GDT843 links9crops,1missing,6clear contexts;42rawgroups/27reader-loci.
+PROVENANCE_INTAKE_ONLY_NO_AUTHORIAL_EDGE: no authorial caption ownership/score.
+These routes stay stopped; no regrading or additional same-photo counts.
 
 ## Earlier screens and control
 
@@ -98,9 +89,10 @@ Understanding dossier: `docs/VOYNICH_UNDERSTANDING.md`; reset chronology:
 
 - Visual: original30 keys/35 selectors in `experiments/yolo/gdt791_thirty_page_visual_owner_spine/src/PAGE_SELECTOR_SPECS.tsv`,
   plus f21r/f32v/f100v/f101r in `experiments/yolo/gdt812_additional_page_semantic_bridge/src/PAGE_ADMISSIONS.tsv`:34 keys/39 selectors,
-  plus GDT844 f6v/f9v and GDT848 f104r/f104v:38 keys/43 selectors,12 admissions remain.
+  plus GDT844 f6v/f9v, GDT848 f104r/f104v, GDT852 f75v:39 keys/44 selectors,11 admissions remain.
   GDT844 admission source: `experiments/yolo/gdt844_ychor_visual_subentry/src/PAGE_ADMISSIONS.tsv`.
   GDT848 source: `experiments/yolo/gdt848_f104_visual_e_run_audit/src/PAGE_ADMISSIONS.tsv`.
+  GDT852 source: `experiments/yolo/gdt852_f75v_native_join_split_spacing/src/PAGE_ADMISSIONS.tsv`.
   Register before any new page access.
 - Text:179 selectors in `experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv`, not179 visually
   inspected pages. GDT811 union190 and GDT327's91-folio edition do not enlarge scope.
