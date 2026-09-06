@@ -1,0 +1,115 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Candidate capacity only; no held prediction, calibrated null, segmentation mechanism or semantics.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt839_boundary_conservation_screen/src/run.py",
+    "validate": "python3 experiments/yolo/gdt839_boundary_conservation_screen/src/validate.py"
+  },
+  "created": "2026-09-06",
+  "dependencies": [
+    "GDT631",
+    "GDT829"
+  ],
+  "experiment_id": "GDT839",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt829_repeated_passage_reflow_capacity/src/run.py",
+      "role": "frozen_source_or_extractor",
+      "sha256": "49313d7787d74099f7ff8983e379acab091b7d464ce3156b767072a515c5516b"
+    },
+    {
+      "path": "experiments/yolo/gdt829_repeated_passage_reflow_capacity/src/SPEC.json",
+      "role": "frozen_source_or_extractor",
+      "sha256": "690208adf7825ef8e50518bb6187f9392a515dfac7cd08a1cd004528c3caae0c"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "role": "frozen_source_or_extractor",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "role": "frozen_source_or_extractor",
+      "sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0"
+    },
+    {
+      "path": "tools/guarded_tsv_query.py",
+      "role": "frozen_source_or_extractor",
+      "sha256": "eeb8f325b3f7b10ad94eef4907d2d3baaa20bb1b81a9aa36782f96c9008551e3"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt839_boundary_conservation_screen/.gitignore",
+      "role": "source_or_artifact",
+      "sha256": "9b9dc66af90f9ff99fa79101a6e3eb357e4d8b53cafcf51e9a8d2e2e32ca7dbb"
+    },
+    {
+      "path": "experiments/yolo/gdt839_boundary_conservation_screen/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "831909197f6a34367eec7ce011592bad6721107c04fb3c04d9f732d1002e63ba"
+    },
+    {
+      "path": "experiments/yolo/gdt839_boundary_conservation_screen/PREREGISTRATION.md",
+      "role": "source_or_artifact",
+      "sha256": "831909197f6a34367eec7ce011592bad6721107c04fb3c04d9f732d1002e63ba"
+    },
+    {
+      "path": "experiments/yolo/gdt839_boundary_conservation_screen/README.md",
+      "role": "source_or_artifact",
+      "sha256": "3e64bc71097abce974f08013753feedd0147306fd56dac37a1446589bf592aee"
+    },
+    {
+      "path": "experiments/yolo/gdt839_boundary_conservation_screen/artifacts/FIXTURE_VALIDATION.json",
+      "role": "source_or_artifact",
+      "sha256": "443ae0129d1886a970d9de9ab238c4cf176dd9266d82c80a7322d5f3dd6c84ba"
+    },
+    {
+      "path": "experiments/yolo/gdt839_boundary_conservation_screen/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt839_boundary_conservation_screen/src/PREREG_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "ada46fe6d181a016542e3d871f930cf79898f6a9302e8daef2f50fbaea0e8084"
+    },
+    {
+      "path": "experiments/yolo/gdt839_boundary_conservation_screen/src/SPEC.json",
+      "role": "source_or_artifact",
+      "sha256": "8a987a337ec033921a87ee58f5b87fac1aeae81492d540983ff3f676128341d6"
+    },
+    {
+      "path": "experiments/yolo/gdt839_boundary_conservation_screen/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "daa49c464c603839c397dec9c67da14997903af603d573450935d35f15e27182"
+    },
+    {
+      "path": "experiments/yolo/gdt839_boundary_conservation_screen/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "b1dd4f8dd4476c00809545acde7ba4afb33c0202cf25310870eb66c783ddeece"
+    },
+    {
+      "path": "experiments/yolo/gdt839_boundary_conservation_screen/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "46a4cccb7d9c4db60917389174a66779936ab59d6dab9455ee463f3927c8fec5"
+    }
+  ],
+  "question": "Do identical joined two-group atom strings recur across folios with different certain boundaries?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "boundary_conservation_screen",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Exact cross-folio boundary conservation screen",
+  "updated": "2026-09-06",
+  "validation": {
+    "artifact": "experiments/yolo/gdt839_boundary_conservation_screen/artifacts/FIXTURE_VALIDATION.json",
+    "status": "PASS"
+  }
+}

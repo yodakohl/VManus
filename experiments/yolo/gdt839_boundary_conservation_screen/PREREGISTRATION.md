@@ -1,0 +1,11 @@
+# GDT839: exact boundary conservation
+
+Decision note: find cross-folio occurrences of the SAME ordered atom string split into two complete groups at different certain spaces. This is a different production invariant from distance-based root similarity, GDT345 abstract operators, GDT608 BPE composition and GDT784 alternate readings of one physical span. GDT575 concerns parsed working-edition modifier relations. Duplicate route screen and these primary reports inspected before registration.
+
+Use the GDT838 odd-folio 88-selector projection only; even folios and f84/f84r excluded before payload. Reuse GDT829 guarded query, lossless opaque atomization, records and bounded paragraph scaffold unchanged. Enumerate adjacent groups WITHIN each scaffold line, never across line endings. Each group at least two atoms, joined string at least eight atoms. Both groups and the intervening DEFINITE_SPACE must agree at the same indices in ZL3b, IT2a and RF1b, with equal full-line group counts. These are alternate readings, not independent witnesses. Do not normalize strings or break opaque atoms.
+
+Bucket exact joined atom tuples. Count every unordered occurrence pair on different physical folios with split offsets differing by one to three atoms. No selected glyph, approximate similarity, language model, semantic label or threshold adjustment. Save every eligible occurrence and qualifying pair, not just examples. Independent validator groups saved records by raw concatenation and directly checks atom sequences and split offsets; source extraction is shared and separately byte-replayed.
+
+Positive: candidate capacity for later native image verification and a fresh held prediction; no boundary mechanism or semantic equivalence established. Zero: stop this exact screen, not all segmentation hypotheses. Lexical coincidence remains an alternative; no calibrated null or relation score claimed. No new image access, held evaluation, decoder repair or corpus acquisition.
+
+Total budget ten minutes from 02:02:40 UTC, including triage, registration, extraction, checks and publication. Stop after this census; no repair loop. Root writes one shared experiment. Other two worker candidates (label/body register and authorial corrections) rejected at triage because no new independent discriminator was available; they are not scientific negative results.
