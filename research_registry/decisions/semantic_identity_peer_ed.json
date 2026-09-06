@@ -1,0 +1,235 @@
+{
+  "review_id": "SEMANTIC_IDENTITY_PEER_ED",
+  "input": {
+    "path": "research_registry/decisions/semantic_identity_proposal_ed.json",
+    "sha256": "1ba1e94dd6673ff56016e08ee635ae7f716e73d49b1d5b2388d0535185a17692"
+  },
+  "pair_reviews": [
+    {
+      "pair_id": "IDENTITY_ED:or_scope",
+      "member_ids": [
+        "SEM:157b20bfac8a07358ec4",
+        "SEM:7d2b25361d9fd3194e95"
+      ],
+      "decision": "approve_existing_disposition",
+      "proposed_operational_relation": null,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R2_HISTORICAL_FUNCTION_WORD_COMPETITION_REPORT.md",
+          "sha256": "eae7d9225e61203f56f0a56100f70c813657819e06ca216390b917c515f69597",
+          "line": 17,
+          "line_end": 27,
+          "quote": "## Prüfregel und Abdeckung\n\nGebunden wurde ausschließlich die ungeteilte sichtbare Karte über ihre exakte\n`joint_tuple_id`. Weder PAGE_HOST-Werte noch Teilstrings, Nachbarschaftsstücke\noder Zeichenklänge wurden semantisch übertragen. Für jedes Vorkommen wurden das\nvollständige Feld, linke und rechte Nachbarschaft, Feldposition, Record/Register\nund der formale Schlussstatus geprüft.\n\nDie 85 Belege verteilen sich wie folgt: `AIIN` 20, `OKY` 10, `CTHY` 7, `OR` 7,\n`AL` 10, `EY` 4, `OLOR` 2, `OTCHEY` 2, `OKEEY` 7, `OKE` 8 und `LCHE` 8. Der\nzeilenweise Nachweis steht in `V60_R2_85_OCCURRENCE_AUDIT.tsv`."
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R2_HISTORICAL_FUNCTION_WORD_COMPETITION_REPORT.md",
+          "sha256": "eae7d9225e61203f56f0a56100f70c813657819e06ca216390b917c515f69597",
+          "line": 31,
+          "line_end": 46,
+          "quote": "| Karte | V60-Merker | Wortart/Funktion | Zwei atomare Rivalen | Entscheidung | Konfidenz | stärkster Allvorkommens-Gegenbeleg |\n|---|---|---|---|---|---:|---|\n| AIIN | MASS? | Substantiv/Maßsigle | VORGABE?, MENGE? | KEEP | .58 | Keine Einheit oder Skala ist sichtbar; die breite Positionsmobilität passt ebenso zu einem bloßen Wertslot. |\n| OKY | VERWENDEN? | Verb | NEHMEN?, ANWENDEN? | KEEP | .60 | Das Objekt bleibt überall bild- oder exemplarabhängig; besonders im Bio-Register könnte nur „ausführen/fortsetzen“ gemeint sein. |\n| CTHY | BEREIT? | Zustandsadjektiv/Temporalprädikat | DANN?, FERTIG? | KEEP | .48 | Mehrere Belege liegen mitten im Ablauf, einmal sogar vor `OR`; ein rein formaler Statusslot bleibt fast gleich stark. |\n| OR | BEREITUNG? | Sachnomen | FLÜSSIGKEIT?, POSTEN? | KEEP | .42 | Die unmittelbare Doppelung auf f10r macht „Bereitung Bereitung“ sprachlich schwer und trennt Präparat nicht von Arbeitskategorie. |\n| AL | AN? | Präposition/Relationspartikel | DORT?, DAZU? | KEEP | .43 | Vier FIRST-, zwei LAST- und ein ONLY-Beleg verlangen ein unsichtbares Komplement; DORT wäre selbstständiger. |\n| EY | KLAR? | Zustandsadjektiv | FERTIG?, SAUBER? | KEEP | .39 | Einer von nur vier Belegen steht ohne sichtbaren Klärvorgang zwischen Zusatz und Anteil. |\n| OLOR | VORIGES? | anaphorisches Pronomen/substantiviertes Adjektiv | DAVON?, ZUVOR? | **REVISE** | .36 | Nur zwei Belege und kein ausgeschriebener Antezedent; zeitlicher und anaphorischer Rückverweis bleiben kaum trennbar. |\n| OTCHEY | NIMM? | Rezeptimperativ | TEIL?, DIES? | **REVISE** | .44 | Nur zwei Belege; ein markierter Gegenstand oder eine formale Auswahl kann die gleiche feldinitiale Stellung tragen. |\n| OKEEY | WARM? | Temperaturadjektiv | LAUWARM?, ERWÄRMEN? | KEEP | .52 | Nur Bio-Belege und kein unabhängiges Temperaturzeichen; technische Prozesslesungen bleiben möglich. |\n| OKE | SPÜLEN? | terminales Handlungsverb | WASCHEN?, SCHLIESSEN? | KEEP | .31 | Alle 8/8 Belege sind formal `CLOSE`; Tätigkeit und bloßer Schlusswert sind vollständig konfundiert. |\n| LCHE | ABLASSEN? | terminales Handlungsverb | LEEREN?, SCHLIESSEN? | KEEP | .34 | Ebenfalls 8/8 `CLOSE`; nicht an jedem Ort ist ein sichtbarer Ablauf vorhanden. |\n\n`KEEP` bedeutet nur, dass innerhalb dieses Wettbewerbs kein Rivale klar besser\npasst. Das Fragezeichen bleibt Bestandteil jeder explorativen Lesung."
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v52/V52_R2_HISTORICAL_FIELD_GRAMMAR_REPORT.md",
+          "sha256": "bf73e7e5d1e122366809e198df7928f72e85583115dae7978a84968d4d373d39",
+          "line": 27,
+          "line_end": 29,
+          "quote": "Für die Klassifikation zählen als positive Host-/Rahmenwerte `OK=SET`, `OT=MARK`, `L=LINK`, `AL=AN?`, `OR=BEREITUNG?` und `CHEY=TEIL?`; `E` bleibt unbekannt. Positive exakte Ganzkarten sind `AIIN=MASS?`, `EY=KLAR?`, `OKY=VERWENDEN?`, `LCHE=ABLASSEN?`, `OKE=SPÜLEN?`, `CTHY=BEREIT?`, `OKEEY=WARM?` und `OLOR=ZUVOR?`; `CKHY` bleibt unbekannt. Die V49-Werte wurden nur zur Lokalisierung benutzt und dann durch die V50/V51-Auswahl ersetzt.\n\nWichtig: Ein exakter Ganzkartenwert wird **nicht** in eine andere Karte hineinkopiert. `<ARG_AIIN>` in `SET(<ARG_AIIN>)` ist daher nicht `MASS?`; `EY` liefert keinen freien Wert für `E` oder `-ey`; `OKY` ist nicht `OK+Y`; `OKE` ist nicht `OK+E`. Ebenso gilt ein PAGE_HOST-Merkwert nur am PAGE_HOST, nicht an ähnlich geschriebenen Argumenttags oder Substrings."
+        }
+      ],
+      "previous_review_rechecked": {
+        "path": "research_registry/decisions/semantic_relation_review_s.json",
+        "sha256": "289dda738078d4f5c6474234c00cb07e223b691327e07bf23a7e901a9152da2d",
+        "json_pointer": "/unresolved/0",
+        "decision": "unresolved_no_operational_relation",
+        "reason": "OR BEREITUNG card combines earlier host/primitive contexts with the later exact-card proposal. Shared later table contrast alone is insufficient to assert a full-card hard separation without resolving the unit scope."
+      },
+      "card_basis": {
+        "SEM:157b20bfac8a07358ec4": "3f0b2bff93f75ad131e63c677e3d0ad7ea5148d4db1b8f8f4d8098b81bbec126",
+        "SEM:7d2b25361d9fd3194e95": "ba3130859aa54872e928aa17593ca36c35ca229a1c7796158fc46a7a6fb2ead5"
+      },
+      "effective_basis": {
+        "SEM:157b20bfac8a07358ec4": "6d69e886ba3d1079c45aa69cc82191b80f53fb1680dd851ef6ab5c11d482eb9c",
+        "SEM:7d2b25361d9fd3194e95": "f5ee174578c2bde3c6e0ecb994ccbbd4ac5a6b80dc0345d0cb93edef60fbe8ff"
+      },
+      "reason": "V60 R2 explicitly puts FLÜSSIGKEIT against BEREITUNG for the exact seven-event OR card, so a case-local rivalry is real. The full BEREITUNG card also includes the V52 PAGE_HOST value and V60 R3/R4 referent alternatives. The sources explicitly deny transfer between PAGE_HOST and exact joint-tuple units. No full-card relation follows from only the shared V60 row.",
+      "approved_disposition": "unresolved_no_operational_relation",
+      "remaining_gap": "Source-grounded reconciliation or explicit case-scoped relation; not missing scientific evidence for the fact that a V60 rivalry was authored."
+    },
+    {
+      "pair_id": "IDENTITY_ED:cthy_readiness",
+      "member_ids": [
+        "SEM:3a204183e3013493c5ec",
+        "SEM:b0d976b367c3869051cf"
+      ],
+      "decision": "approve_existing_disposition",
+      "proposed_operational_relation": null,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v16/V16_THEORY_SELECTION.md",
+          "sha256": "e9c9bd8650496fbf2f86ae9fed27cbcde16649bde75f78c2c3ca6edf642f93c7",
+          "line": 21,
+          "line_end": 27,
+          "quote": "R4 wins because it combines a normal historical source layer with the exact\ncard mechanism: strongly abbreviated iatromedical professional prose is\ncompressed into whole-card brevigraphs, picture-supplied arguments and local\nrubrics. It handles carry, dittography, line reflow and local closure without\nturning the whole page into a rigid modern table. R1's four-table apprentice\nworkflow and R3's explicit working-memory decoder are incorporated as the\npreferred explanation of how a small workshop learned and reproduced it."
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v16/V16_THEORY_SELECTION.md",
+          "sha256": "e9c9bd8650496fbf2f86ae9fed27cbcde16649bde75f78c2c3ca6edf642f93c7",
+          "line": 37,
+          "line_end": 45,
+          "quote": "## Current concrete dictionary\n\n| card or formula | selected default meaning | confidence |\n|---|---|---:|\n| `qokaiin` | **take up the next entry / portion** | .68 |\n| `L/O` | **with it; likewise under the same rubric** | .59 |\n| `AIIN` | **in the stated or usual measure** | .48 |\n| `Y` | **this share / present portion** | .43 |\n| `CTHY` | **when prepared and ready** | .38 |"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v51/V51_R1_WHOLE_CARD_REPORT.md",
+          "sha256": "d753d07ce7e5a13a19004d194635d49d87d47046a59f7dcd9597fdb41969b62a",
+          "line": 73,
+          "line_end": 87,
+          "quote": "| Karte | feste Oberflächen mit Zahl | n | unveränderte lokale V49-Expansion |\n|---|---|---:|---|\n| `AIIN` | `aiin` 3; `chaiin` 1; `daiin` 11; `saiin` 4; `taiin` 1 | 20 | Ein vorgeschriebenes Maß |\n| `EY` | `cheey` 2; `shey` 2 | 4 | Bis die Flüssigkeit klar abläuft |\n| `OKY` | `choky` 2; `oky` 1; `qoky` 7 | 10 | Die aktive Portion verwenden |\n| `LCHE` | `lchedy` 8 | 8 | lasse die verbrauchte Flüssigkeit in das untere Auffanggefäß ablaufen und beende den Schritt |\n| `OKE` | `qokedy` 8 | 8 | spüle die bezeichnete Stelle einmal und beende den Schritt |\n| `CTHY` | `checthy` 2; `cthy` 3; `shcthy` 2 | 7 | Sobald die Zubereitung gebrauchsfertig ist |\n| `OKEEY` | `okeey` 1; `qokeey` 6 | 7 | temperiere die Arbeitsflüssigkeit und halte sie lauwarm |\n| `CKHY` | `chckhy` 3; `shckhy` 1 | 4 | durch die verbundenen Läufe |\n| `OLOR` | `cholor` 1; `olor` 1 | 2 | Aus dem vorigen Ansatz entnehmen |\n\nDiese neun Expansionen sind Ganzkarten-Defaults. Ihre Wiederholung in allen\nEreignissen derselben Tuple-ID ist Konsistenz der Ausgabe, keine unabhängige\nsemantische Bestätigung."
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v51/V51_R1_WHOLE_CARD_REPORT.md",
+          "sha256": "d753d07ce7e5a13a19004d194635d49d87d47046a59f7dcd9597fdb41969b62a",
+          "line": 157,
+          "line_end": 168,
+          "quote": "### `CTHY = BEREIT` — behalten\n\n- **Lehrregel:** Die ganze CTHY-Karte wird als Zustands- oder Schwellenruf\n  `BEREIT` gelernt. Zubereitung, Gebrauch und das Satzwort *sobald* bleiben\n  außerhalb.\n- **Vollvorkommensdruck:** Sieben Ereignisse auf drei Seiten stehen sechsmal\n  innen und einmal am Ende. Derselbe Wert kann eine lokale Schwelle markieren,\n  ohne das physische Zeilenende zu behaupten.\n- **Stärkster Widerspruch:** Auf `f10r.6` steht CTHY schon an Position 2 vor\n  sieben weiteren Karten. `BEREIT` darf daher nicht „das ganze Verfahren ist\n  fertig“ bedeuten, sondern höchstens einen lokalen Bereitschaftszustand.\n- **Einwort-Rivalen:** `FERTIG`; `REIF`."
+        }
+      ],
+      "previous_review_rechecked": {
+        "path": "research_registry/decisions/identity_batch_b.json",
+        "sha256": "653f69e8ad61f8c1219084aa51c4306968a21060eb19ee6a209bae2d71ccf561",
+        "json_pointer": "/uncertain_pairs/1",
+        "decision": "keep_separate",
+        "reason": "Both are readiness conditions; the latter adds use-readiness of a preparation, and when need not equal as-soon-as."
+      },
+      "card_basis": {
+        "SEM:3a204183e3013493c5ec": "3ffcb6fed1d43cce32ad6656db56a7b5da223e01132f3da6dced3165652a3b8c",
+        "SEM:b0d976b367c3869051cf": "076d136e4082c7b0b8a00bdc0ae71171e022f649f231ef8486d08dc2bab36674"
+      },
+      "effective_basis": {
+        "SEM:3a204183e3013493c5ec": "968e9cfecf0db82b5331ca6fefe84bfb4bbc6ec290d0052c6a17da84fdf867d3",
+        "SEM:b0d976b367c3869051cf": "de98d49b874cd75164cf04557f605c6ee28fa7904028c83c6ff426299604c5d7"
+      },
+      "reason": "V16 publishes when prepared and ready as a selected default. V51 preserves Sobald die Zubereitung gebrauchsfertig ist as a local V49 expansion but explicitly excludes preparation, use and sobald from the learned BEREIT value. Similar readiness vocabulary cannot establish identical complete propositions or source units. Nor does this demonstrate logical incompatibility; both remain genuine historical readings.",
+      "approved_disposition": "unresolved_no_operational_relation",
+      "remaining_gap": "Explicit source-scope/meaning-unit bridge across the V16 default and V49/V51 local expansion. Do not treat V51 local prose as the learned atomic card value."
+    },
+    {
+      "pair_id": "IDENTITY_ED:v80_purpose",
+      "member_ids": [
+        "SEM:810497c5ad465d2e1053",
+        "SEM:c46260d6a79c981a40be"
+      ],
+      "decision": "approve_existing_disposition",
+      "proposed_operational_relation": "alternative_to",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v80/V80_R2_HISTORICAL_CANONICAL_THIRD_EDITION_REPORT.md",
+          "sha256": "c5cbebe2102b177010800ece236c516bde71dffe43fd6c65433374624a56bd52",
+          "line": 20,
+          "line_end": 42,
+          "quote": "## Ein führendes historisches Zweckmodell\n\n**A_PRACTITIONER_THERAPEUTIC_IATROMATHEMATICAL_COMPENDIUM** — Composite working reference for a medical household, institutional infirmary, or practitioner network: simples and preparations; locally distinct baths/applications; celestial/calendar consultation for timing or prognosis.\n\nMechanismus: Separate Herbal, balneological, and celestial source fascicles or exemplar batches, then workshop assembly; no required cross-page key. On the target pages, image geometry is the working prior owner and text is fitted locally; this remains a target inference, not a universal medieval rule. Plausibly section-specialized copying or sequential additions within a workshop/institution; not evidence for several authors or professions.\n\nDer praktische Zusammenhang ist kein seitenübergreifender Code: bebilderte\nPflanzen-/Zubereitungsartikel, lokal getrennte Bade-/Anwendungsstationen und\nselbständige Himmels-/Kalenderinstrumente können in derselben\nPraktikerbibliothek konsultiert werden. Die V76-Wertung 236 ist nur ein\nknapper Arbeitslead.\n\n## Genau ein echter Rivale\n\n**B_NATURAL_ARTIFICIAL_CELESTIAL_IMAGE_ATLAS_MODELBOOK** — Learned image atlas/modelbook of natural things, bathing/artificial works, and celestial diagrams for copying, teaching, classification, or consultation rather than a patient workflow.\n\nMechanismus: Independent image batches gathered by a workshop or patron, locally annotated, and assembled as a broad visual dossier. Image exemplars are copied first and explanatory/local text is fitted into available space. Distinct exemplar batches and later workshop reuse naturally admit multiple hands and stages.\n\nDer Rivale erreicht 235 Punkte und erklärt Bilddominanz, lokale\nBeschriftung, mehrere Hände und fehlende Crosspointer besonders sparsam.\nEr verliert nur knapp, weil das Material→Anwendung→Zeit/Bedingung-Modell\neinen kohärenteren praktischen Grund für die gemeinsame Aufbewahrung bietet.\nDie Auswahl bleibt `NEAR_TIE__WORKING_LEAD_NOT_IDENTIFICATION`."
+        }
+      ],
+      "previous_review_rechecked": {
+        "path": "research_registry/decisions/identity_batch_c.json",
+        "sha256": "2e7149b88b49c9baeafcc8da7fba9e6d039956ab3c59107bba53e84cb84fc7d9",
+        "json_pointer": "/links/0",
+        "decision": "alternative_to",
+        "reason": "The same V80 historical report names therapeutic practitioner reference A and natural/artificial/celestial image atlas B as competing book purposes; source scores do not establish either."
+      },
+      "card_basis": {
+        "SEM:810497c5ad465d2e1053": "749f829477a785f045ccb850517e76e8a42783046677e646e2f82c7684c92c69",
+        "SEM:c46260d6a79c981a40be": "d3d4b548e48a968b7125b4fdb24f9316653ff25d62ac190a1d5bdc3bf1863881"
+      },
+      "effective_basis": {
+        "SEM:810497c5ad465d2e1053": "cf904035feab5ceaaa2b49791e2b44a619de23fd217f711847f227a40a7eceb5",
+        "SEM:c46260d6a79c981a40be": "ca21a0469e166ab204276769ec09217118bc150913de62f43d8306053aadd992"
+      },
+      "reason": "The same primary V80 report expressly labels the complete therapeutic practitioner compendium A as leading purpose and the complete image atlas/modelbook B as its one genuine rival. Both include image-first fitting and workshop compilation, but the proposed use differs: materials/applications/timing for practitioner consultation versus copying/teaching/classification or consultation rather than patient workflow. This is an explicit source-rival relation across the full cards, not an inference from labels or merely different wording.",
+      "approved_disposition": "proposed_alternative_to",
+      "scope_limits": "Only the two V80 full-purpose hypotheses. Rivalry is not logical impossibility of overlap in all books. The 236/235 source ranking is not evidence of true purpose, no status/failure transfer, no equivalent_proposition merge."
+    }
+  ],
+  "card_checks": [
+    {
+      "id": "SEM:157b20bfac8a07358ec4",
+      "claim": "OR → FLÜSSIGKEIT?",
+      "card_basis": "3f0b2bff93f75ad131e63c677e3d0ad7ea5148d4db1b8f8f4d8098b81bbec126",
+      "effective_basis": "6d69e886ba3d1079c45aa69cc82191b80f53fb1680dd851ef6ab5c11d482eb9c",
+      "source_case_ids": [
+        "LATE_SIDEQUEST:6920a489bbe1874d3de2"
+      ],
+      "all_cases_reviewed": true
+    },
+    {
+      "id": "SEM:7d2b25361d9fd3194e95",
+      "claim": "OR → BEREITUNG?",
+      "card_basis": "ba3130859aa54872e928aa17593ca36c35ca229a1c7796158fc46a7a6fb2ead5",
+      "effective_basis": "f5ee174578c2bde3c6e0ecb994ccbbd4ac5a6b80dc0345d0cb93edef60fbe8ff",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:15c128416f53f29cc60a",
+        "LATE_SIDEQUEST:9ffd98edd380456d885a",
+        "LATE_SIDEQUEST:b96dec0176e2643bf016",
+        "LATE_SIDEQUEST:cd57fa91e1a3c073d370"
+      ],
+      "all_cases_reviewed": true
+    },
+    {
+      "id": "SEM:3a204183e3013493c5ec",
+      "claim": "CTHY → when prepared and ready",
+      "card_basis": "3ffcb6fed1d43cce32ad6656db56a7b5da223e01132f3da6dced3165652a3b8c",
+      "effective_basis": "968e9cfecf0db82b5331ca6fefe84bfb4bbc6ec290d0052c6a17da84fdf867d3",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:7c005421095e5c042828"
+      ],
+      "all_cases_reviewed": true
+    },
+    {
+      "id": "SEM:b0d976b367c3869051cf",
+      "claim": "CTHY → Sobald die Zubereitung gebrauchsfertig ist",
+      "card_basis": "076d136e4082c7b0b8a00bdc0ae71171e022f649f231ef8486d08dc2bab36674",
+      "effective_basis": "de98d49b874cd75164cf04557f605c6ee28fa7904028c83c6ff426299604c5d7",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:f43250b719aba78bb940"
+      ],
+      "all_cases_reviewed": true
+    },
+    {
+      "id": "SEM:810497c5ad465d2e1053",
+      "claim": "A_PRACTITIONER_THERAPEUTIC_IATROMATHEMATICAL_COMPENDIUM — Composite working reference for a medical household, institutional infirmary, or practitioner network: simples and preparations; locally distinct baths/applications; celestial/calendar consultation for timing or prognosis. Mechanismus: Separate Herbal, balneological, and celestial source fascicles or exemplar batches, then workshop assembly; no required cross-page key. On the target pages, image geometry is the working prior owner and text is fitted locally; this remains a target inference, not a universal medieval rule. Plausibly section-specialized copying or sequential additions within a workshop/institution; not evidence for several authors or professions. Der praktische Zusammenhang ist kein seitenübergreifender Code: bebilderte Pflanzen-/Zubereitungsartikel, lokal getrennte Bade-/Anwendungsstationen und selbständige Himmels-/Kalenderinstrumente können in derselben Praktikerbibliothek konsultiert werden. Die V76-Wertung 236 ist nur ein knapper Arbeitslead",
+      "card_basis": "749f829477a785f045ccb850517e76e8a42783046677e646e2f82c7684c92c69",
+      "effective_basis": "cf904035feab5ceaaa2b49791e2b44a619de23fd217f711847f227a40a7eceb5",
+      "source_case_ids": [
+        "LATE_SIDEQUEST:18162b1bcdb1cc4a3109"
+      ],
+      "all_cases_reviewed": true
+    },
+    {
+      "id": "SEM:c46260d6a79c981a40be",
+      "claim": "B_NATURAL_ARTIFICIAL_CELESTIAL_IMAGE_ATLAS_MODELBOOK — Learned image atlas/modelbook of natural things, bathing/artificial works, and celestial diagrams for copying, teaching, classification, or consultation rather than a patient workflow. Mechanismus: Independent image batches gathered by a workshop or patron, locally annotated, and assembled as a broad visual dossier. Image exemplars are copied first and explanatory/local text is fitted into available space. Distinct exemplar batches and later workshop reuse naturally admit multiple hands and stages. Der Rivale erreicht 235 Punkte und erklärt Bilddominanz, lokale Beschriftung, mehrere Hände und fehlende Crosspointer besonders sparsam. Er verliert nur knapp, weil das Material→Anwendung→Zeit/Bedingung-Modell einen kohärenteren praktischen Grund für die gemeinsame Aufbewahrung bietet. Die Auswahl bleibt NEAR_TIE__WORKING_LEAD_NOT_IDENTIFICATION",
+      "card_basis": "d3d4b548e48a968b7125b4fdb24f9316653ff25d62ac190a1d5bdc3bf1863881",
+      "effective_basis": "ca21a0469e166ab204276769ec09217118bc150913de62f43d8306053aadd992",
+      "source_case_ids": [
+        "LATE_SIDEQUEST:8517b2859110e9270c0e"
+      ],
+      "all_cases_reviewed": true
+    }
+  ],
+  "counts": {
+    "pairs": 3,
+    "cards": 6,
+    "source_cases": 9,
+    "approved_alternative_relations": 1,
+    "approved_open_dispositions": 2,
+    "equivalence_proposals": 0
+  },
+  "validation": {
+    "all_original_effective_bases_match": true,
+    "all_primary_quotes_sha_validated": true,
+    "previous_reviews_rechecked": true
+  },
+  "limits": [
+    "Independent bounded primary/source-case peer only. No operative mutation, raw/event/image access or new research.",
+    "Two open comparisons are not newly disproved hypotheses.",
+    "Root must recheck bases immediately before any future operative append."
+  ]
+}

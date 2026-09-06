@@ -273,3 +273,21 @@ limits;35 scoped dossiers,48 identity groups/57 display reductions,36 other
 relations and9 unready conditional questions. DU selection metadata documents
 omitted preparation inputs; no DO repeated pair was found. EB/EC/ED remain
 separate pending integration. No new experiment or meaning confirmation.
+
+EB/EC/ED integration decision: the five-card archive boundary review supports
+restoring two real scoped semantic propositions and one formal closure rule,
+while preserving the original withdrawn positive exports and two valid archives.
+EC retains six full rival/revision cases with twelve explicit intake decisions.
+ED resolves only the old V80 book-purpose rival recommendation; OR and CTHY
+remain open at whole-card scope. Each changes addressability or the exact scope
+of historical identity, not scientific support. Smallest adequate work: append
+reviewed corrections/relation, activate EC, validate source and current bindings,
+update review-input snapshot and publish. Budget20minutes including all checks;
+no new manuscript test or access to event bundles.
+
+EB/EC/ED checkpoint:4061 active cards =3795 semantic+266 formal;4582 source
+cases;44 currently archived exports, with prior positive-equation withdrawals
+preserved for the three scoped restorations.190 restatements,48 equivalence
+groups/57 display reductions and37 other relations;35 scoped dossiers and9
+unready priorities. Identity input snapshot extends30 to32 reviewed files.
+No manuscript finding or automatic scientific status change.

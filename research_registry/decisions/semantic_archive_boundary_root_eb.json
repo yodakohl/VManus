@@ -1,0 +1,147 @@
+{
+  "review_id": "SEMANTIC_ARCHIVE_BOUNDARY_ROOT_EB",
+  "source_review": {
+    "path": "research_registry/decisions/semantic_archive_boundary_review_eb.json",
+    "sha256": "b94af793f1c00eee8c236fc69bc7273f96dcaa030f0334335625f5d9ad7be124"
+  },
+  "reviews": [
+    {
+      "target": "SEM:001dfd83463ba4fb0552",
+      "card_basis": "aa97fcc166127b057a6b6fb982370ab701082ddddc23af1ea56a283e8c8c7882",
+      "effective_basis": "d2b7d1653f45daef8c9160b8bb3b14e7f46d7c1dbe2729d19fe34f4cf9019edf",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt750_form_gated_direct_host_dispatch/REPORT.md",
+          "line": 34,
+          "line_end": 65,
+          "quote": "\nVon 1.684 Zielvorkommen sind 1.311 reader-exakte Stellen außerhalb der 57\nGDT748-Entdeckungspositionen.  Der aktive Filter lizenziert davon neunzehn\nStellen, fünf Ganzformen und insgesamt 32 Achsen:\n\n| Form | aktive Stellen/Seiten | lokale Achsen | praktische Lesart |\n|---|---:|---|---|\n| `okeey` | 14/10 | HOT 13; END 13 | 12× heißer Endzustand, 1× heiß, 1× Endstufe |\n| `cheol` | 2/2 | DRY 2 | zweimal trockener Zustand |\n| `cheey` | 1/1 | END 1 | einmal End-/Vollstufe |\n| `cheky` | 1/1 | DRY 1 | einmal trockener Zustand |\n| `sheey` | 1/1 | MOIST 1; END 1 | einmal feuchter/eingeweichter Endzustand |\n\nDer stärkste neue Arbeitsbefund ist `okeey`.  Seine vollständige Form erhält\naus den bekannten edit-distance-one Nachbarn `okeedy` und `ykeey` unabhängig\ndie Karte HOT+END.  An zwölf Außenstellen steht unmittelbar `qokeey` oder\n`ykeey` mit derselben Doppelachse; an einer weiteren Stelle trägt `okey` HOT,\nan einer `oteey` nur die vereinbare END-Achse.  Deshalb darf der Renderer an\ndiesen konkreten Stellen sagen:\n\n```text\nf103v.4  y cheey qokeey [okeey] lkees ol qoteedy ykeedy\n          … qokeey — heißer Zustand an der End-/Vollstufe — …\n\nf17v.20  ykeey [okeey] cheor chol sho odaiin\n          ykeey — heißer Zustand an der End-/Vollstufe — …\n```\n\nDas ist noch nicht `okeey = heiß` und auch nicht `okeey = Ende`.  Es ist die\nengere Aussage, dass diese vierzehn Vorkommen einen heißen/endstufigen\nZustandsslot besetzen.  Gerade diese Trennung verhindert, dass eine lokale\nRolle wieder zu einem erfundenen Wörterbucheintrag wird.",
+          "sha256": "2245c80b399f6fece7741fda6ab396eae19c3a16c1d74d39753a14c05c2955df"
+        }
+      ],
+      "reason": "GDT750 does not evaluate an isolated hot adjective against another lexical identity. It explicitly licenses only fourteen occurrence-level HOT/END slots and prohibits promotion of those slots to a word. The complete positive local contract is already addressable; reviving the denied bare equation adds no separately proposed semantic rival.",
+      "previous_revision": "SCR:ef7bd861fad7fe58d1e7",
+      "action": "retain_archive_context_only"
+    },
+    {
+      "target": "SEM:1432706660d13b0761ed",
+      "card_basis": "998137bb3237c6490151b4d3d4a2c3972d1f445f7d87e6a0f9157da1a9028624",
+      "effective_basis": "0e4ac1d0b070598b251bcfda032b2c33689c89bf3e4eb7acea0cb34d354c099f",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt748_complete_whole_serial_paradigm_census/REPORT.md",
+          "line": 62,
+          "line_end": 81,
+          "quote": "## Der neue offene Lead: `okechy`\n\n`okechy` steht an zwei verschiedenen Seiten in vollständigen Heizrahmen:\n\n```text\nf103r.8  okey rain okechy\nf108r.36 okechy okeol okeedy\n```\n\nDie bekannten Karten lauten einerseits „heißer Ansatz in der Mitte“ plus\n„Heißgrad II“, andererseits „Ansatz bis zur mittleren Heizstufe erwärmt“ plus\n„heißer Ansatz am Ende, abgeschlossen“. In beiden Fällen ist `okechy` als\nvollständige Form nur zwei Editoperationen von mindestens einer bekannten\nForm entfernt. Der neue Arbeitswert lautet deshalb:\n\n**`okechy` = HOT/heißer Zustand oder Heizrolle; Träger, Stufe, Funktion und\nWortidentität offen.**\n\nEin Ziel ist in allen drei Lesern exakt, eines nicht. Das ist ein S2-Lead, kein\nbestätigtes Wort.",
+          "sha256": "293c072ae653913632b93089d97301b67fd76469ada475fa4bd207408174dbe5"
+        },
+        {
+          "path": "experiments/yolo/gdt749_outside_frame_whole_role_distribution/REPORT.md",
+          "line": 64,
+          "line_end": 76,
+          "quote": "`okechy` besitzt außerhalb seiner zwei entdeckenden HOT-Serien nur zwei weitere\nreader-exakte Stellen:\n\n```text\nf107v.4  dain cheky okechy qokain shocthy otaiin alkaiin\nf99v.26  okechy\n```\n\nBeide haben keine unmittelbar bekannte Qualitätsachse. Ihre nächsten globalen\nProfile sind MATERIAL/PREPARATION, COLD/PREPARATION und END_STAGE-Karten; HOT\nsteht erst auf Rang vier. Der neue beste Arbeitsstand ist deshalb nicht\n`okechy = heiß`, sondern: **vollständige Form mit Zubereitungs-/Zustandsrolle;\nHOT aus der Serie, COLD/END aus den Außenprofilen, Polarität und Stufe offen.**",
+          "sha256": "1ef04ad320f84900f81580880c1009ec814150bfbb59f045573d7d07cbe31d96"
+        },
+        {
+          "path": "experiments/yolo/gdt749_outside_frame_whole_role_distribution/REPORT.md",
+          "line": 10,
+          "line_end": 16,
+          "quote": "Der zunächst attraktivste Befund war falsch stark: ein globales Profil aus\nAbschnitt, Zeilenposition, Nachbarachsen und Abschlussnähe schien sieben Rollen\nzu bestätigen. Im Leave-self-out-Test auf den 46 bekannten Referenzwörtern\nliefert derselbe Klassifikator aber nur 23 richtige Qualitäts-/Stufenlabels,\n42 falsche und 60 verpasste. Das entspricht 35,4 Prozent Precision und 27,7\nProzent Recall. Sämtliche X-Ränge bleiben deshalb als Rohdaten sichtbar, dürfen\naber keine Bedeutung hochstufen oder verwerfen.",
+          "sha256": "1ef04ad320f84900f81580880c1009ec814150bfbb59f045573d7d07cbe31d96"
+        }
+      ],
+      "reason": "Do not restore okechy=heiß. However the two current cases preserve an explicit whole-form hypothesis with competing HOT versus COLD/END readings, and its immediate GDT748 predecessor states the full open lead positively. GDT749 keeps this rival space after refusing a fixed hot word; this genuine content-role hypothesis is not currently addressable by an active okechy claim. Both cases point to the same source argument, not two independent findings. Retain the original archive history, then use a narrowly scoped restatement rather than a positive lexical restoration.",
+      "previous_revision": "SCR:22b8273d22bf55c95850",
+      "action": "restate",
+      "replacement": {
+        "claim": "GDT748/749 retain an unresolved whole-form preparation/state-role hypothesis for okechy: HOT or a hot-state/heating role is suggested by its two discovering series, while COLD/preparation and END_STAGE are outside-profile rivals. Carrier, polarity, stage, function and word identity remain open; GDT749 does not establish okechy = heiß, and its poorly calibrated global profiles cannot confirm or refute a meaning.",
+        "claim_type": "functional_hypothesis"
+      }
+    },
+    {
+      "target": "SEM:12245693b1f6e69bbc60",
+      "card_basis": "66cbbbe64cfb3add59dcca060221d3714a483259a96b178d031cf3fbf37736b0",
+      "effective_basis": "0b61c75da19b0e1e3cd8eec31f8fc2f8f3770d6ff925381260c28b4a5a67076e",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_filtration_separation_completion/DRAUGHTSMAN_FILTRATION_REPORT.md",
+          "line": 58,
+          "line_end": 78,
+          "quote": "\nDie sauberste lokale Kette liegt auf f11r:\n\n```text\nTSHOL · SCHOAL · CFHY · SHFYDAIIN · CPHY · SHEY · TCHODY\nBlütenkraut · in Wein kochen · durchs Tuch auswringen ·\nfür die vorgeschriebene Zeit stehen lassen · nochmals seihen ·\nklare Flüssigkeit · abkühlen; Ende\n```\n\nFlüssig gelesen:\n\n> Koche das Blütenkraut in Wein, wringe den Ansatz durch ein feines Tuch und\n> lass ihn die vorgeschriebene Zeit stehen. Seihe die Flüssigkeit nochmals,\n> bis sie klar ist; dann abkühlen lassen und diesen Arbeitsgang schließen.\n\nHier folgen **Pressen → Ruhen → Nachseihen → klare Flüssigkeit** ohne\neingeschobenen Bildbesitzerwechsel. Das macht `CFHY`, `CPHY` und `SHEY` zu\nguten konkreten Werkstattkarten. Es beweist dagegen keinen produktiven\nF-/P-Stamm: CFHY und CPHY bleiben zwei gelernte Ganzkarten.\n",
+          "sha256": "15cc55baf8430628aad31c01dec2c34a3fd664f222906ec8239bc6f603f65c49"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_filtration_separation_completion/DRAUGHTSMAN_FILTRATION_REPORT.md",
+          "line": 135,
+          "line_end": 140,
+          "quote": "### TSH — kein gemeinsamer Stamm\n\n`TSHEY` (`d4a31dbcf1ed6d9e5aa9`, E212) heißt weiterhin „Spülung beginnen“.\nAber `TSHOL` (`953ad19b79517fc8a211`, E039) ist im starken H3-Rezept die\ngelernte Pflanzenkarte „Blütenkraut“. Ein allgemeines `TSH = waschen` würde\ndiese Passage zerstören. Beide Werte bleiben konkrete Ganzkarten.",
+          "sha256": "15cc55baf8430628aad31c01dec2c34a3fd664f222906ec8239bc6f603f65c49"
+        }
+      ],
+      "reason": "The source devotes a requested core-family subsection to whether TSHEY and TSHOL share a washing stem, supplies exact whole-card identities and a concrete H3 clause, and rejects that common-stem generalization under the retained Blütenkraut reading. This is an explicitly evaluated semantic generalization, closely analogous to DZ cheodain, not merely an unsupported final dictionary value. No earlier adoption or empirical test is established. Preserve the negative historical rule and its model dependence, not TSH=waschen as a positive lexeme.",
+      "previous_revision": "SCR:c1032850b76965d40b56",
+      "action": "restate",
+      "replacement": {
+        "claim": "The Draughtsman Filtration working model explicitly rejects a general TSH = waschen stem across TSHEY and TSHOL: TSHEY (d4a31dbcf1ed6d9e5aa9, E212) remains Spülung beginnen, whereas TSHOL (953ad19b79517fc8a211, E039) is the learned Blütenkraut card in H3. Imposing the washing stem would conflict with that retained local reading; this is a model-relative rejection of a named generalization, not an independently disproved manuscript meaning.",
+        "claim_type": "functional_hypothesis"
+      }
+    },
+    {
+      "target": "SEM:38cf5308cf08979b2c30",
+      "card_basis": "8842f0252c6a3fdeb32c672424615f746ccade9cff374ccfa9c71871700a66b4",
+      "effective_basis": "a9cf68487eceaef069bd4be2016be93def3849bf1d9b45ac702b134b8e3646a1",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v50/V50_R2_HISTORICAL_PRESSURE_REPORT.md",
+          "line": 29,
+          "line_end": 43,
+          "quote": "\n| Host | R2-Entscheidung | V50-R2-Wert | Geltung | zwei atomare Rivalen |\n|---|---|---|---|---|\n| `OK` | **BEHALTEN** | `SETZEN` | nur editorischer Formaloperator | `GEBEN`, `STELLEN` |\n| `OT` | **ERSETZEN** | `MERKEN` | historischerer Name für den Formaloperator | `ZEICHNEN`, `BEZEICHNEN` |\n| `L` | **BEHALTEN** | `VERKNÜPFEN` | nur editorischer Formaloperator | `WEITER`, `FOLGEN` |\n| `AL` | **ERSETZEN** | `AN` | schwache Relation, ohne Zielinhalt | `ZU`, `BEI` |\n| `E` | **BEHALTEN** | `BIS` | schwacher Grenzoperator, ohne Endzustand | `ENDE`, `SOLANGE` |\n| `OR` | **ERSETZEN** | `BEREITUNG` | schwaches neutrales Stoff-/Arbeitsnomen | `MISCHUNG`, `ARZNEI` |\n| `CHEY` | **ERSETZEN** | `TEIL` | schwaches Teil-/Mengenwort | `ANTEIL`, `STÜCK` |\n\nKein Wert erhält ein stilles Gefäß, eine Flüssigkeit, eine Pflanze, eine\nKörperstelle, ein Ziel oder einen Endzustand. Insbesondere bedeuten die\nEntscheidungen nicht `OK = gib etwas in ein Gefäß`, `E = bis es bereit ist`\noder `CHEY = nimm die Wurzel`.",
+          "sha256": "ee882fb147f87f9d6a23335fdce8e374dadb700360e959164d9c71e3dca1b37d"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v50/V50_R2_HISTORICAL_PRESSURE_REPORT.md",
+          "line": 136,
+          "line_end": 147,
+          "quote": "### `E`: `BIS` bleibt\n\nZwölf Ereignisse expandieren als Warten bis zur Bereitschaft, zwei als Ziehen\nbis zur Klarheit; alle 14 tragen formal `CLOSE`, zweimal zusätzlich `FRAME_OT`.\nDer einzige atomare gemeinsame Textwert ist die terminative Relation `BIS`.\nHistorische Rezepte verwenden genau solche `vncz/byss`-Konstruktionen, nennen\nden Resultatszustand aber außerhalb der Konjunktion. Deshalb enthält `BIS` hier\nweder `BEREIT` noch `KLAR`, auch nicht `STEHEN` oder `BEENDEN`.\n\n`ENDE` verdoppelte den schon vorhandenen `CLOSE`-Rahmen und machte aus einer\nRelation ein Nomen. `SOLANGE` bezeichnet Dauer, nicht das erreichte Ende.\n",
+          "sha256": "ee882fb147f87f9d6a23335fdce8e374dadb700360e959164d9c71e3dca1b37d"
+        }
+      ],
+      "reason": "This particular E-only expansion imports the readiness argument from some full event sentences into an atom. The source explicitly evaluates BIS versus ENDE/SOLANGE as its atomic alternatives, not bis es bereit ist as a selected atom; readiness and clarity remain external, differing results. Existing E/BIS rival card preserves the actual proposition. Local full readiness instructions may be real historical cases, but cannot be rebound to this E-only export.",
+      "previous_revision": "SCR:2a8e80528b5daa4e7db9",
+      "action": "retain_archive_context_only"
+    },
+    {
+      "target": "SEM:44c4ffc860f8f53b99dd",
+      "card_basis": "e20acf11844c971c6078133162372edc80e9b3c203ffe9f529ddefe7940f6eec",
+      "effective_basis": "7ccc6bde1efb72332612e56c8a10f2da788d1f36ce5d86fcde4b2107ec0fc3e5",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_program_composition_completion/PROGRAM_COMPOSITION_REPORT.md",
+          "line": 7,
+          "line_end": 17,
+          "quote": "\nDie 28 terminalen Programmkarten sind **nicht** 28 völlig unabhängige Wörter.\nSie lassen sich am einfachsten als genau die gesuchte Mischung aus\nFachkürzeln und gelernten Ganzwörtern lehren:\n\n```text\nHANDLUNGSKERN\n  + optional RICHTUNG / FOLGE / ZIEL\n  + optional KURZ- oder LANGGRAD\n  + GELERNTE EXAKTKARTEN-SCHLUSSROLLE\n```",
+          "sha256": "8da057b649e1ce9e3aeceacb2457b2accf3a00db500a48dc7f78941884566fec"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_program_composition_completion/PROGRAM_COMPOSITION_REPORT.md",
+          "line": 72,
+          "line_end": 77,
+          "quote": "### Eine Schlusskonstruktion\n\n`CLOSE_EXACT` heißt: **Diese ganze exakte Karte schließt die lokale Zelle.**\nEs bedeutet ausdrücklich nicht `DY = Ende` als freies sichtbares Suffix. Das\nist nötig, weil sichtbares `dy` auch zur offenen Y-Karte gehören kann und die\nnackte `chdy|chedy`-Karte elfmal nichtterminal ist.",
+          "sha256": "8da057b649e1ce9e3aeceacb2457b2accf3a00db500a48dc7f78941884566fec"
+        }
+      ],
+      "reason": "Root adopts the peer-provided formal-only restatement: preserve the actually discussed exact-card versus surface-suffix rule outside the semantic default. Its eleven reported nonterminal cases are source context, not a new manuscript audit or a DY word meaning. The original positive lexical export remains withdrawn in the append-only history.",
+      "previous_revision": "SCR:4e97db975412ebb89534",
+      "action": "restate",
+      "replacement": {
+        "claim": "In the Program Composition model, closure belongs to the whole exact card (CLOSE_EXACT), not every visible dy suffix; visible dy can belong to an open Y-card and bare chdy/chedy is reported nonterminal eleven times.",
+        "claim_type": "formal_role"
+      }
+    }
+  ],
+  "operative_mutation": false,
+  "counts": {
+    "semantic_restatements": 2,
+    "formal_only_restatement": 1,
+    "archives_retained": 2
+  }
+}
