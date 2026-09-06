@@ -458,3 +458,10 @@ all sharegeneric Main banks/Transmissive IPTCcaption. No direction assignment;
 37407/37408vendor data remain partly opaque. Explicitpost-extraction readable
 projection added without changing frozen source scanner/validator. Stop metadata
 route pending authoritative mapping, not another native or processedimagepass.
+
+GDT869 result5b6744ad public11:07:54UTC; selection10:45:58→publication21m56,
+within11:15stop. Prior goal turn isPROGRESS: new authenticated metadata and
+explicit direction/opaque limitation, source+validator public; no translation.
+At11:10UTC selected GDT870 single f100r:L2 joint scene/text discovery, drawing
+on391's alreadypositivecontact and known861image. No geometry rediscovery or
+formal score; raw source-to-scene alignment must be retained. Stop11:30UTC.

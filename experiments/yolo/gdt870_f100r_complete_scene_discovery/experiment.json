@@ -1,0 +1,120 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "One source-aware scene discovery; no relation score, ownership upgrade or meaning",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt870_f100r_complete_scene_discovery/src/run.py --run",
+    "validate": "python3 experiments/yolo/gdt870_f100r_complete_scene_discovery/src/validate.py"
+  },
+  "created": "2026-09-06",
+  "dependencies": [
+    "GDT391",
+    "GDT861"
+  ],
+  "experiment_id": "GDT870",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt391_local_object_relation_normalization/REPORT.md",
+      "role": "frozen_source_or_extractor",
+      "sha256": "78d0248ddfc8a1d3b9927c763686a3c946445cf188709c94a2c9b7b8176da37e"
+    },
+    {
+      "path": "experiments/yolo/gdt391_local_object_relation_normalization/src/run.py",
+      "role": "frozen_source_or_extractor",
+      "sha256": "8f1538f8381ae97bc165e55de9941ab181da0e79768ab35f7d3e451e230868e0"
+    },
+    {
+      "path": "experiments/yolo/gdt861_extended_entity_native_comparison/artifacts/SOURCES.json",
+      "role": "frozen_source_or_extractor",
+      "sha256": "cf26820fa2d41bae6717260d6e01fd1838228e7c75fe5d0363915e8ad8c121e4"
+    },
+    {
+      "path": "experiments/yolo/gdt861_extended_entity_native_comparison/src/PAGE_ADMISSIONS.tsv",
+      "role": "frozen_source_or_extractor",
+      "sha256": "a53e12843ba78cf00f4a3be75bc5d26d1593ba30b13e8531693e89fe7cea91f3"
+    },
+    {
+      "path": "experiments/yolo/gdt861_extended_entity_native_comparison/artifacts/ROOT_PAGE_CONTEXT.md",
+      "role": "frozen_source_or_extractor",
+      "sha256": "4b5e04ac72a33f3dc5affad85969f85e1243f0411a356dca6ee935d1c88afc8f"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt870_f100r_complete_scene_discovery/.gitignore",
+      "role": "source_or_artifact",
+      "sha256": "429a7ff8e3befe5ac528bb832881840115d63940883b125526b582eedcdcb7a9"
+    },
+    {
+      "path": "experiments/yolo/gdt870_f100r_complete_scene_discovery/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "4f11cdd409b513f740c88b432a4ea291e82b770990e929a28f712863dfae2c26"
+    },
+    {
+      "path": "experiments/yolo/gdt870_f100r_complete_scene_discovery/PREREGISTRATION.md",
+      "role": "source_or_artifact",
+      "sha256": "0ab992954a4acfe8622135d907faba73fd7244a0cf4c3340758184fb2789fc44"
+    },
+    {
+      "path": "experiments/yolo/gdt870_f100r_complete_scene_discovery/README.md",
+      "role": "source_or_artifact",
+      "sha256": "a21facc4a15675b6c8fdb0333d3094fb95b62e16547cd1be5237731f44d97f7f"
+    },
+    {
+      "path": "experiments/yolo/gdt870_f100r_complete_scene_discovery/artifacts/CONTROLS.json",
+      "role": "source_or_artifact",
+      "sha256": "411742bfde0c54955a1cd69567d09c0ee9542612b4d31b910c5d6f589dfbbfeb"
+    },
+    {
+      "path": "experiments/yolo/gdt870_f100r_complete_scene_discovery/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt870_f100r_complete_scene_discovery/artifacts/TGC_GUARD.json",
+      "role": "source_or_artifact",
+      "sha256": "64bfc67218a6e314cb5d5f7418aaffa6bf62d598d4892b959bbdc48d90a0eabf"
+    },
+    {
+      "path": "experiments/yolo/gdt870_f100r_complete_scene_discovery/src/PREREG_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "eff715fe3e77f9b0484906b0d2bbc59223774a54a0eb9052d983ae14f615dbb4"
+    },
+    {
+      "path": "experiments/yolo/gdt870_f100r_complete_scene_discovery/src/SPEC.json",
+      "role": "source_or_artifact",
+      "sha256": "d91c6b01cb79d9c85963a69ed0f9237bd28dc6bd4566da3a13c8e7dd42e8af1e"
+    },
+    {
+      "path": "experiments/yolo/gdt870_f100r_complete_scene_discovery/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "c61a826ac02cbf3c943a45e04a83575488c5d1c60c3eb03da986a5412a8320ec"
+    },
+    {
+      "path": "experiments/yolo/gdt870_f100r_complete_scene_discovery/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "7956a9e7778e6121b65d19b69572743b15260c1630b1b2dd96a7b4f1679d48c0"
+    },
+    {
+      "path": "experiments/yolo/gdt870_f100r_complete_scene_discovery/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "8d4c44075cdba9ce72b1af8c047efd7e18e1dbc0be137d2b9ffbb2a6b1e525e5"
+    }
+  ],
+  "question": "Does joint native scene and raw group reading expose a new explicit reference in the source-defined f100r L2 unit?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "f100r_complete_scene_discovery",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Complete f100r scene source discovery",
+  "updated": "2026-09-06",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}
