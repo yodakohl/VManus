@@ -5,9 +5,9 @@ headings, experiment methods, result rows without a proposition and pending
 extraction work are excluded. Their original records remain in the source archive.
 This is curation of historical hypotheses, not decipherment progress.
 
-The public snapshot contains **3,317 concrete semantic hypothesis variants** and
-**251 separate formal-role cards**. Active cards and the correction archive retain all **4,080 reviewed source cases**;
-**469 repetitions of identical normalized assertions** are grouped for display.
+The public snapshot contains **3,371 concrete semantic hypothesis variants** and
+**252 separate formal-role cards**. Active cards and the correction archive retain all **4,139 reviewed source cases**;
+**473 repetitions of identical normalized assertions** are grouped for display.
 All **5,370 proposal fragments**, **3,788 component excerpts** and **82 IP entries**
 have explicit dispositions. This is not a count of independently distinct theories.
 The local V81 supplement adds **96 concrete cards** (76 lexical, 19 content models, one formal role).
@@ -80,8 +80,8 @@ audit is bounded and does not establish error-free global extraction.
 
 ## Reviewed identity and scoped failure memory
 
-The default public view currently has **3,269 semantic display entries** from
-3,317 active semantic variants. `semantic_identity_decisions.jsonl` records39
+The default public view currently has **3,323 semantic display entries** from
+3,371 active semantic variants. `semantic_identity_decisions.jsonl` records39
 approved equivalence groups, two related-but-distinct links,28 explicit rival
 links and two specializations. Whole-card V51/V60 continuity is backed by shared
 source-deck IDs, not merely matching names or occurrence counts. These are
@@ -103,9 +103,9 @@ case history. No rejection, success or reopening permission crosses an identity
 link. Search covers every member wording. Cached pages do not deserialize the
 complete card snapshot, including the10k-card regression.
 
-Seventeen reviewed question dossiers in `semantic_failure_decisions.jsonl` distinguish
+Twenty reviewed question dossiers in `semantic_failure_decisions.jsonl` distinguish
 empirical failure, invalid test, insufficient capacity, missing meaning binding
-and proposal-only status. They appear before inherited experiment context under
+proposal-only status and historical model revisions. They appear before inherited experiment context under
 `--field assessments`. They name the actual tested subclaim, primary evidence,
 limits and prospective changed-input conditions. These reviewer conditions are
 not original preregistered gates or approval to rerun. A narrower failed
@@ -140,6 +140,15 @@ supply independently annotated manuscript syntax. AW records that comparison
 limit and changed-input conditions in its own scoped dossier. Pure component
 parses remain formal even when an adjacent sentence suggests a meaning; these
 nearby propositions receive separate coverage checks before any recovery.
+
+AX/AY/AZ/BA check70 nearby-meaning hints from the type reviews. They retain
+59 additional source cases:54 semantic variants, one formal universal-rule rival
+and four exact existing assertions. Predicted unattested cells, local compound
+instances and whole general rules remain explicitly distinguished; these counts
+are not independently new theories. BC records three historical model revisions:
+wide-vessel OKEEOL, all-doubles nesting and the coarse CHEEKY preparation gloss.
+Their different source reasons and prospective changed-input requirements remain
+separate from an independently demonstrated meaning failure.
 
 Recovered GDT180 retains its later GDT202 semantic withdrawal. AD separately
 records the failed GDT235 exact-residual coarse-object lookup and the still

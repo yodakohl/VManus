@@ -94,3 +94,11 @@ and251formal variants preserve4080cases;43archived errors remain accessible.
 Next bounded15minute batches audit AS/AR/AT nearby-meaning hints against complete
 current assertions, because an adjacent explicit meaning is not necessarily an
 absent idea. Recover only source-bound omissions; no new decoder or experiment.
+
+Adjacent-meaning checkpoint:70 AX/AY/AZ/BA hints are dispositioned and59sourcecases
+retained, comprising54semantic variants, one formal rival and four existing
+assertions. BC adds three source-model revision dossiers with different causes;
+no independent meaning test is invented.3371semantic252formal cards preserve
+4139cases. Next20minute cohorts BB/BD/BE cover disjoint remaining short source
+blocks in late/middle/early sidequest ranges; root reviews and publishes each
+bounded packet. The unknown remains omitted full propositions, not decoder fit.

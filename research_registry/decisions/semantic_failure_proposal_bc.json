@@ -1,0 +1,250 @@
+{
+  "schema": "semantic_failure_proposal_v1",
+  "review_id": "BC",
+  "status": "PROPOSALS_PENDING_ROOT_BUILD_BINDING",
+  "dossiers": [
+    {
+      "id": "FAILURE_PROPOSAL_BC:OKEEOL_WIDE_VESSEL",
+      "target_binding": {
+        "proposal_card_id": "CLEAN_GAP_AX:okeeol_old_vessel",
+        "expected_clean_claim": "The earlier whole-card reading of okeeol was breites Gefäß; the E-grade paradigm explicitly gives up that free whole gloss.",
+        "expected_claim_type": "lexical_hypothesis",
+        "expected_sem_id": "SEM:3ab7ad3ab4a95a82fe99",
+        "expected_effective_basis_sha256": "3453913f1ca0ad20f15ed76752936a1e194bbfb69ad875780b85c5b965fa6065",
+        "proposal_card_sha256": "21f6c13214355e640f86055cec6ec6e810a4408231d398dbe5fc07f2edcdc349",
+        "member_ids": [
+          "LEGACY_COMPONENT:9795e88366a39ead30b6"
+        ],
+        "operative_card_basis_status": "PENDING_ROOT_BUILD_AND_ACTUAL_CASE_AWARE_BINDING",
+        "binding_rule": "After build, require exact effective claim/type and expected member cases; then record semantic_ideas.card_basis of the actual card. This proposal digest is not that operative basis."
+      },
+      "claim_under_review": "The exact whole okeeol card means breites Gefäß.",
+      "scope": "The E_GRADE_REPORT workshop-paradigm revision, not all vessel readings or QOTEDAIIN.",
+      "actually_compared": "The source replaces a free whole-card wide-vessel gloss with OK+EE+OL: continue sustained application with the previous item. Nearby open/closed OK grades supply its preferred compositional reading.",
+      "actual_test_limit": "No independent vessel identification, semantic gold labels, null test or source-defined rejection threshold is reported in this passage.",
+      "outcome": "The author gives up the wide-vessel gloss in favor of compositional economy and graded application. This is a historical model revision, not demonstrated physical absence of a vessel.",
+      "reason_class": "historical_model_revision",
+      "reason_subtype": "editorial_whole_gloss_replaced_by_preferred_composition",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_paradigm_closure/E_GRADE_REPORT.md",
+          "line": 62,
+          "line_end": 84,
+          "quote": "- `okeey/qokeey` heißt nicht mehr isoliert **Wärme geben**. Minimal heißt es\n  „den aktiven Ansatz anhaltend in Kontakt halten“; Temperieren ist nur eine\n  mögliche lokale Ausführung.\n\nDie geschlossenen Formen behalten die anschaulichen Werkstattwerte:\n\n```text\nqokedy     kurz spülen oder benetzen; Schritt abschließen\nqokeedy    eintauchen oder einweichen; Schritt abschließen\nqokeeedy   vollständig durchtränken; Schritt abschließen\n```\n\n`EEE` bleibt wegen seines Einzelbelegs die schwächste Stufe. Es ist eine\ngerichtete Prognose, kein gleich stark gesicherter Stamm.\n\nZwei Einzelkarten werden aus dem Paradigma neu lesbar:\n\n- `qokeedal = OK + EE + AL`: den bezeichneten Teil/die Stelle in anhaltenden\n  Kontakt bringen; „eingetauchter Teil“ bleibt eine gute lokale Kurzfassung.\n  Das sichtbare `d` gehört hier zur belegten `DAL/AL`-Realisierung und ist\n  nicht `DY`.\n- `okeeol = OK + EE + OL`: die anhaltende Anwendung mit dem Vorigen\n  fortführen. Die alte freie Ganzglosse „breites Gefäß“ wird dafür aufgegeben.",
+          "sha256": "a982d2c7b8613c758aa4f0d27a9f569861a7adecc3e9c452a9ebe73fbacf4411"
+        }
+      ],
+      "would_more_admitted_pages_help": {
+        "assessed_by": "curation_review",
+        "answer": "Only if they supply a discriminating source constraint; more unlabelled okeeol occurrences alone do not choose vessel versus action.",
+        "needed_property": "Independently established referent or syntactic role that separates a vessel noun from the full compositional action in fixed comparable contexts.",
+        "does_not_repair": "Repetition frequency or a more fluent paraphrase leaves the absence of meaning binding unchanged."
+      },
+      "reopening": {
+        "status": "PROSPECTIVE_REVIEW_ONLY_NO_AUTHORIZATION",
+        "assessed_by": "curation_review",
+        "criteria_origin": "Proposed here; not an original source preregistration or satisfied reopening gate.",
+        "pathways": [
+          {
+            "kind": "challenge_same_whole_card_reading",
+            "requirements": [
+              "State the exact vessel-noun versus action predictions before inspecting the new evidence.",
+              "Provide independent contextual/reference evidence and test both readings while retaining the awkward original cases."
+            ],
+            "same_claim_reopening": true,
+            "assessed_by": "curation_review"
+          },
+          {
+            "kind": "new_restricted_hypothesis",
+            "requirements": [
+              "Define a different locally restricted or elliptical construction and its independently motivated scope.",
+              "Treat it as a new question rather than restoration of an unrestricted old gloss."
+            ],
+            "same_claim_reopening": false,
+            "assessed_by": "curation_review"
+          }
+        ],
+        "not_sufficient": [
+          "Merely accumulating more pages.",
+          "Reading a wide vessel from an illustration and then using that same assumed identity as the semantic test.",
+          "Reversing a preferred German gloss without new constraints."
+        ]
+      },
+      "scope_applicability": {
+        "assessed_by": "curation_review",
+        "applies_only_to": "The exact whole okeeol card means breites Gefäß.",
+        "no_automatic_status_inheritance": "Broader cards, shared atoms, related meanings and later revised models do not inherit this historical outcome.",
+        "operative_binding": "Proposal only until root builds and binds the actual current card basis."
+      }
+    },
+    {
+      "id": "FAILURE_PROPOSAL_BC:ALL_DOUBLES_NESTED",
+      "target_binding": {
+        "proposal_card_id": "CLEAN_GAP_AZ:all_doubles_nested_rival",
+        "expected_clean_claim": "The initial Pass1021 technical candidate interprets all 40 doubled-core cases as an outer/inner nested frame; the report rejects that universal scope because free dalal=AL+AL and ychey=Y+Y lack the internal complement needed for level descent.",
+        "expected_claim_type": "formal_role",
+        "expected_sem_id": "SEM:8966b3eec7bc1a705e2f",
+        "expected_effective_basis_sha256": "715689422152ca850edb991fe7012bb99a1bdf890356c3c81b6ec4702a71a545",
+        "proposal_card_sha256": "d0257a7bb838f95a116be99d05e1203cf7aa3b8a686554d9560398f80de76f33",
+        "member_ids": [
+          "LEGACY_COMPONENT:ff0dcec5563bb60c337f"
+        ],
+        "operative_card_basis_status": "PENDING_ROOT_BUILD_AND_ACTUAL_CASE_AWARE_BINDING",
+        "binding_rule": "After build, require exact effective claim/type and expected member cases; then record semantic_ideas.card_basis of the actual card. This proposal digest is not that operative basis."
+      },
+      "claim_under_review": "All40 doubled-core cases in the Pass1021 set encode outer/inner nested levels.",
+      "scope": "The fixed source model of repeated cores; no claim that every physical repeated glyph or every manuscript double is covered.",
+      "actually_compared": "The universal nested candidate is compared with a two-branch account: package-boundary X+X+Z has outer/inner levels, while free X+X gives multiple things or repeated action. The source names free dalal=AL+AL and ychey=Y+Y as lacking the inner complement needed for level descent.",
+      "actual_test_limit": "The free-versus-complemented distinction is a concrete source-model countercase. Its component boundaries and semantic roles are not independent manuscript meaning gold.",
+      "outcome": "The report rejects universal nesting in that model and retains nesting only at the defined package boundaries, with plural/iterative readings for free doubles.",
+      "reason_class": "historical_model_revision",
+      "reason_subtype": "source_model_universal_scope_countercases",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_repeated_core_operator_one_thousand_twenty_first/PASS1021_REPORT.md",
+          "line": 8,
+          "line_end": 16,
+          "quote": "Ein einziger universeller Wert wäre verführerisch, aber zu grob. Die 40 Fälle\nteilen sich sauber in zwei Werkstattregeln:\n\n```text\nPAKETGRENZE:  X + X + Z  -> äußeres X [inneres X [Z]]\nFREI:         X + X      -> zwei X bei Dingen / X nochmals bei Handlungen\n```\n\nBeide Regeln lesen jeden Kern zweimal und geben ihm keinen neuen Wert.",
+          "sha256": "84affc6bc0549129ba953cac240822bfdc475a458088933a6fa944aa0306c38d"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_repeated_core_operator_one_thousand_twenty_first/PASS1021_REPORT.md",
+          "line": 33,
+          "line_end": 57,
+          "quote": "## Regel 2 — freie Mehrzahl oder Wiederholung\n\nDie übrigen zwölf Fälle enden frei oder stehen als gleichrangige Köpfe:\n\n- `OL+OL` 5× — fortsetzen und nochmals fortsetzen;\n- `AR+AR` 2× — zwei lokale Ausgänge;\n- `AL+AL` 2× — zwei lokale Zielorte;\n- `Y+Y` 2× — zwei gesetzte oder aufeinander bezogene Posten;\n- `OK+OK` 1× — setzen und nochmals setzen.\n\nBei Dingen klingt die deutsche Expansion pluralisch, bei Handlungen iterativ.\nDas Bild oder Register entscheidet, welche zwei Posten, Ziele oder Gänge\ngemeint sind. Ein zweites Kernlexem ist nicht nötig.\n\n## Warum nicht alles Verschachtelung ist\n\nDie erste technische Kandidatur wollte alle 40 Fälle als äußeren/inneren\nDoppelrahmen lesen. Das trägt `CH+CH` und `OR+OR` gut, aber ein freies\n`dalal = AL+AL` oder `ychey = Y+Y` hat rechts keine innere Ergänzung, die einen\nStufenabstieg sichtbar macht. Dort ist „zwei Ziele/Posten“ die einfachere\nLehrregel. Umgekehrt wäre bloße Wiederholung für `CH+CH+T/K/P` zu flach, weil\ndie Doppelung gerade an einer geöffneten Paketgrenze entsteht.\n\nDie Zweiteilung ist deshalb nicht ein Kompromiss, sondern folgt der graphischen\nStellung.",
+          "sha256": "84affc6bc0549129ba953cac240822bfdc475a458088933a6fa944aa0306c38d"
+        }
+      ],
+      "would_more_admitted_pages_help": {
+        "assessed_by": "curation_review",
+        "answer": "More examples consistent with nesting do not erase the two known countercases under the same explicit-complement contract.",
+        "needed_property": "A verified correction to the relevant source parsing or a separately formulated rule that predicts where a genuinely implied complement is permitted.",
+        "does_not_repair": "Adding only complemented doubles leaves the original universal claim contradicted within its own model."
+      },
+      "reopening": {
+        "status": "PROSPECTIVE_REVIEW_ONLY_NO_AUTHORIZATION",
+        "assessed_by": "curation_review",
+        "criteria_origin": "Proposed here; not an original source preregistration or satisfied reopening gate.",
+        "pathways": [
+          {
+            "kind": "correct_original_countercase",
+            "requirements": [
+              "Demonstrate a source or parse error in the free-dalal/ychey classifications using independently reviewable evidence.",
+              "Recheck the exact original universal contract against both corrected and remaining free cases."
+            ],
+            "same_claim_reopening": true,
+            "assessed_by": "curation_review"
+          },
+          {
+            "kind": "new_restricted_hypothesis",
+            "requirements": [
+              "Specify nesting only for a independently delimited construction, or specify independently constrained implicit-complement behavior.",
+              "Declare the altered condition as a new hypothesis and retain the old universal failure."
+            ],
+            "same_claim_reopening": false,
+            "assessed_by": "curation_review"
+          }
+        ],
+        "not_sufficient": [
+          "More newly found nested examples without addressing known free cases.",
+          "Inventing an invisible inner complement only after encountering each countercase.",
+          "Counting the two-branch replacement as confirmation of all-doubles nesting."
+        ]
+      },
+      "scope_applicability": {
+        "assessed_by": "curation_review",
+        "applies_only_to": "All40 doubled-core cases in the Pass1021 set encode outer/inner nested levels.",
+        "no_automatic_status_inheritance": "Broader cards, shared atoms, related meanings and later revised models do not inherit this historical outcome.",
+        "operative_binding": "Proposal only until root builds and binds the actual current card basis."
+      }
+    },
+    {
+      "id": "FAILURE_PROPOSAL_BC:CHEEKY_DRY_PREPARATION",
+      "target_binding": {
+        "proposal_card_id": "CLEAN_GAP_AZ:cheeky_dry_preparation_rival",
+        "expected_clean_claim": "GDT661 records Trockenpräparat as a rejected whole-card reading of cheeky because it loses the ordered dry-at-final-grade then hot-at-initial-grade information.",
+        "expected_claim_type": "lexical_hypothesis",
+        "expected_sem_id": "SEM:1ade1c95c55064d9deb0",
+        "expected_effective_basis_sha256": "f8e12ba574d6ae10d43ac115b0a7278ff3d2f0a8433afbdcadf9ebdbb93a24f2",
+        "proposal_card_sha256": "57cc07658a1e719dcb8f6b7a08d6cc50d21586158137b6f1c01cb1ac93fe7f3f",
+        "member_ids": [
+          "LEGACY_COMPONENT:1b2b36f1b0b714455f2e"
+        ],
+        "operative_card_basis_status": "PENDING_ROOT_BUILD_AND_ACTUAL_CASE_AWARE_BINDING",
+        "binding_rule": "After build, require exact effective claim/type and expected member cases; then record semantic_ideas.card_basis of the actual card. This proposal digest is not that operative basis."
+      },
+      "claim_under_review": "The whole cheeky card is adequately rendered Trockenpräparat.",
+      "scope": "GDT661 CH+EE+K+Y working composition; not later processing readings, other card inventories or every dry-preparation word.",
+      "actually_compared": "The broad whole-card noun is contrasted with the source-ordered reading first dry at the final grade, then hot at the initial grade. The author rejects the convenient noun because it drops that ordered information.",
+      "actual_test_limit": "The source preserves written recipe order, but dry/hot and grade meanings are inherited working assumptions, not independently decoded semantic truth. No external preparation labels or numerical falsifier occur in the cited comparison.",
+      "outcome": "Trockenpräparat is abandoned as an insufficiently informative summary within this specific composition model.",
+      "reason_class": "historical_model_revision",
+      "reason_subtype": "loss_of_source_model_ordered_information",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt661_forty_eight_residual_family_completion/REPORT.md",
+          "line": 109,
+          "line_end": 120,
+          "quote": "\n- `odan/odain/odaiin/odaiiin` tragen Zubereitungsdosis I–IV; `kodaiin` fügt\n  den heißen Wert hinzu.\n- `ctholy` erweitert `cthol` um die Grund-/Anfangsform; im Herbal ist die\n  konkrete Lesung Blatt-/Krautdroge, außerhalb bleibt CTH-Drogenstoff der\n  Rivale.\n- `cheeky = CH + EE + K + Y` bewahrt die sichtbare Reihenfolge: erst trocken\n  am Gradende, dann heiß am Gradanfang. Die bequemere Lesung „Trockenpräparat“\n  wurde verworfen, weil sie genau diese Information verlor.\n- `dalchedy` besitzt direkte `dal | chedy`-Brücken und liest sich als\n  abgemessener Rohstoff I, trocken in der Gradmitte und abgeschlossen.\n- `dshor` verbindet die Dosis-/Maßfamilie mit dem bereits verwendeten",
+          "sha256": "bc59ad9ee2aa88549f5d19ced3f086580de7e8e2215d0bf17b10959c678c9880"
+        }
+      ],
+      "would_more_admitted_pages_help": {
+        "assessed_by": "curation_review",
+        "answer": "Not by count alone. Additional readable constraints would have to distinguish an opaque preparation noun from the ordered property/process reading.",
+        "needed_property": "Independent evidence concerning either the proposed grade/heat sequence or the nominal classification function of the exact whole card.",
+        "does_not_repair": "More occurrences analyzed with the same inherited dry/hot codebook repeat the model assumptions."
+      },
+      "reopening": {
+        "status": "PROSPECTIVE_REVIEW_ONLY_NO_AUTHORIZATION",
+        "assessed_by": "curation_review",
+        "criteria_origin": "Proposed here; not an original source preregistration or satisfied reopening gate.",
+        "pathways": [
+          {
+            "kind": "challenge_original_information_requirement",
+            "requirements": [
+              "State which independent evidence supports or contradicts the source-imposed ordered dry/hot grades.",
+              "Compare the complete whole-card and compositional predictions, preserving information loss rather than silently dropping it."
+            ],
+            "same_claim_reopening": true,
+            "assessed_by": "curation_review"
+          },
+          {
+            "kind": "new_restricted_summary_or_class_hypothesis",
+            "requirements": [
+              "Define Trockenpräparat as a deliberately coarser class/summary and state what function that level serves.",
+              "Treat this as a different granularity claim, not reversal of the failed full-rendering proposal."
+            ],
+            "same_claim_reopening": false,
+            "assessed_by": "curation_review"
+          }
+        ],
+        "not_sufficient": [
+          "Merely choosing a smoother German noun.",
+          "Inferring old model truth from more codebook-consistent parses.",
+          "Replacing the ordered rendering with a broad category while claiming the exact same proposition survived."
+        ]
+      },
+      "scope_applicability": {
+        "assessed_by": "curation_review",
+        "applies_only_to": "The whole cheeky card is adequately rendered Trockenpräparat.",
+        "no_automatic_status_inheritance": "Broader cards, shared atoms, related meanings and later revised models do not inherit this historical outcome.",
+        "operative_binding": "Proposal only until root builds and binds the actual current card basis."
+      }
+    }
+  ],
+  "counts": {
+    "proposals": 3,
+    "reason_class": "historical_model_revision",
+    "operative_failure_updates": 0
+  },
+  "input_sha256": {
+    "research_registry/decisions/clean_gap_review_ax.json": "56292107fb042381a5a01b3f07b04686236dc0041bba285cb270394d0e1cff98",
+    "research_registry/decisions/clean_gap_review_az.json": "82d81898d9ee19b5a895d390b9e8c35479dfb7532f5d6345f6ba137ab55eeff6"
+  },
+  "limits": [
+    "No new experiments, raw manuscript access or operative mutation.",
+    "Source-editorial rejection, concrete countercases inside a chosen model, and independently verified manuscript falsification are kept distinct.",
+    "Reopening pathways are alternative curator-proposed reviews, not historical gates or automatic approval."
+  ]
+}

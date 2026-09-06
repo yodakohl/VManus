@@ -1,0 +1,1248 @@
+{
+  "schema": "semantic_recovery_audit_v1",
+  "review_id": "AZ",
+  "status": "COMPLETE_NO_OPERATIONAL_CHANGE",
+  "inputs": {
+    "research_registry/decisions/semantic_type_review_at.json": "9260470bbc86c49733c6fae16db0d3e81784383fba15491521020e44db357df3"
+  },
+  "scope_ids": [
+    "SEM:8b0b4147426a8868889d",
+    "SEM:8b0fed88e46d36ace748",
+    "SEM:8ba1d34c6dd62499ed39",
+    "SEM:92c00e255d176de79703",
+    "SEM:93ded86c8db0b0269da7",
+    "SEM:9d30202d5f5b991c29a7",
+    "SEM:9ed7dac29623336a462b",
+    "SEM:a02c14cd458c434b7323",
+    "SEM:a2ace33cf86ed2b990ca",
+    "SEM:a33554a1686046b2209a",
+    "SEM:a3814ced8f0169378944",
+    "SEM:a9bd5b056876b4a1bac1",
+    "SEM:ad00544e3e8c248be073",
+    "SEM:afdb164184bf97681b42",
+    "SEM:b13632c299952b5c0c0e",
+    "SEM:b5d2db22a7e64cfcbd91",
+    "SEM:b82b1a1fa3c365ab87ff",
+    "SEM:bc759eb8ba835066963d"
+  ],
+  "reviews": [
+    {
+      "index": 0,
+      "target": "SEM:8b0b4147426a8868889d",
+      "input_binding": {
+        "target": "SEM:8b0b4147426a8868889d",
+        "claim": "shcthy → sh + cth + y",
+        "claim_type": "formal_role",
+        "card_basis_sha256": "77f84a7a29e99baad0327d0dfe48d2d72426a0314a56d3958dd3971031643867",
+        "effective_basis_sha256": "f9d9bc8248edd184523219f152eb912cf529f78c95f68df7b3b5d789a1a60a19"
+      },
+      "decision": "existing_assertion_additional_source_case",
+      "reason": "Existing GDT632 card already contains the full global-moist-material versus Herbal-leaf/herb scope. Add GDT631 as a source case with its technical-class rival caveat; no new sense.",
+      "cards": [
+        "CLEAN_GAP_AZ:shcthy_source_case"
+      ],
+      "counterparts": [
+        {
+          "target": "SEM:26382e77d45d46274be9",
+          "claim": "shcthy → feuchtes CTH-Material; im Herbal feuchtes Blatt-/Krautmaterial",
+          "claim_type": "lexical_hypothesis",
+          "card_basis_sha256": "306010c9de6826da78fa25bfd7cb52b1b4ec7e0506b5fcd8896df6a6e86ed262",
+          "effective_basis_sha256": "58344652a37730996ee6a4b2a19581139e6a312112995338af00271240613310",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 17,
+              "line_end": 17,
+              "path": "experiments/yolo/gdt632_cth_interfix_lattice/REPORT.md",
+              "quote": "| `shcthy` | `sh+[cth+y]` | feuchtes CTH-Material; im Herbal feuchtes Blatt-/Krautmaterial |",
+              "sha256": "f2fdebfaa317cd0848cc2bcdf9308c0ec625b80e068b0f0ed8e6cb7423a6a1a8",
+              "source_id": "LEGACY_COMPONENT:ff486b75720258b0dd7a",
+              "source_section": "Ergebnis",
+              "table_header": "| Form | Parse | konkrete Arbeitslesung |"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 10,
+          "line_end": 11,
+          "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/REPORT.md",
+          "quote": "- `shcthy = sh + cth + y` → global **feuchte CTH-Materialform**, im Herbal\n  **feuchtes Blatt-/Krautgut**.",
+          "sha256": "22647ec417eef0781712527fc1aa17175959756c414a5c5687a482e89333f405",
+          "source_id": "LEGACY_COMPONENT:32520237a76689ad6dcc",
+          "source_section": "Ergebnis",
+          "table_header": null
+        }
+      ],
+      "reviewed": true,
+      "global_novelty_claim": false
+    },
+    {
+      "index": 1,
+      "target": "SEM:8b0fed88e46d36ace748",
+      "input_binding": {
+        "target": "SEM:8b0fed88e46d36ace748",
+        "claim": "qokar → OK+AR",
+        "claim_type": "formal_role",
+        "card_basis_sha256": "1fe7afee536095bc646739aa42437dd38494a4cdf230a89ccf8ea70c0c14b130",
+        "effective_basis_sha256": "be4a6b5081a8680c7133ae2fe0d65be7bcf4b3f8eb7223c7223d33ccc77dcd2a"
+      },
+      "decision": "recover_scoped_assertion_or_instance",
+      "reason": "The prior qokar card says from there supply/lead in; Pass439 says from there set/use. Do not force ZUFÜHREN and EINSETZEN into identity. Preserve the exact local composition rather than a new OK or AR meaning.",
+      "cards": [
+        "CLEAN_GAP_AZ:qokar_from_there_set"
+      ],
+      "counterparts": [
+        {
+          "target": "SEM:792d9970aeefe50de135",
+          "claim": "qokar → OK + AR = daraus/von dort zuführen",
+          "claim_type": "lexical_hypothesis",
+          "card_basis_sha256": "762d7c1daa22ca3aacc145b6eb286960be5059b79313125db5c6b006c7dfa5ca",
+          "effective_basis_sha256": "80b70e59bdd34d693ecf76ee143cf0e663193f96c44d2b2800d98bdc0d14ea56",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 188,
+              "line_end": 188,
+              "path": "experiments/yolo/sidequest_historical_compositional_analogue_search/SELECTED_HISTORICAL_ANALOGUE_REPORT.md",
+              "quote": "| `qokar` | über der Stelle | `OK + AR` = daraus/von dort zuführen |",
+              "sha256": "37bf9d6445555ff6401d3d99025f15e0d2df7c826a49c28f55eebe1865b7daab",
+              "source_id": "LEGACY_COMPONENT:b1872618b8b966e2cc12",
+              "source_section": "Was diese Grammatik schon jetzt besser vorhersagt",
+              "table_header": "| sichtbare Karte | alte Ganzwortglosse | regelhafte neue Lesung |"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 8,
+          "line_end": 8,
+          "path": "experiments/yolo/sidequest_semantic_b2_apprentice_dictionary_four_hundred_thirty_ninth/FOUR_HUNDRED_THIRTY_NINTH_REPORT.md",
+          "quote": "- `qokar = OK+AR` — VON DORT EINSETZEN;",
+          "sha256": "2acac92f9e41dbb49cec9ba6aaec16841b64fb74ae7319232d07092a08d82507",
+          "source_id": "LEGACY_COMPONENT:4b047450b5a1c6f3caef",
+          "source_section": "Pass 439 — das fertige B2-Lehrlingsdeck",
+          "table_header": null
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 12,
+          "line_end": 15,
+          "path": "experiments/yolo/sidequest_semantic_rare_card_prediction_hundred_seventy_sixth/HUNDRED_SEVENTY_SIXTH_RARE_CARD_REPORT.md",
+          "quote": "Damit sind 86,7 Prozent der seltenen Kartentypen echte Vorhersagen der gemeinsamen Kompositionsregel.\nDie 29 produktiven Atome tragen nicht nur haeufige Formeln, sondern rekonstruieren auch Einzelkarten\nwie `qokar = OK+AR`, `qokaly = OK+AL+Y`, `solkaiin = SOLK+AIIN`, `chckhal = CKH+AL` und\n`qokeeedy = OK+EEE+CLOSE`.",
+          "sha256": "2d61c7c1211811bab759885b064b0919aca5d79eb2f5e88c6dd2d7ca59f006ca",
+          "source_id": "LEGACY_COMPONENT:2ae3e3399ac5a54db709",
+          "source_section": "Hundertsechsundsiebzigste Runde: seltene Karten sind ueberwiegend vorhersagbare Komposita",
+          "table_header": null
+        }
+      ],
+      "reviewed": true,
+      "global_novelty_claim": false
+    },
+    {
+      "index": 2,
+      "target": "SEM:8ba1d34c6dd62499ed39",
+      "input_binding": {
+        "target": "SEM:8ba1d34c6dd62499ed39",
+        "claim": "aror → ar+or",
+        "claim_type": "formal_role",
+        "card_basis_sha256": "9f50098e941aea970f2496e522f2b596abbbbefb8b0aa295da426d24408113b3",
+        "effective_basis_sha256": "853782f42605eb10481a6900c7e5ff6c555f467f6f7e63b4c9eadc23b30adc1a"
+      },
+      "decision": "already_covered_full_assertion_local_evidence_only",
+      "reason": "GDT677 already gives exactly one portion of the first drug fraction as a whole AROR assertion. The paragraph supplies local evidence and a reading-boundary warning; it is not a second meaning or new universal relation rule.",
+      "cards": [],
+      "counterparts": [
+        {
+          "target": "SEM:1185f069981eec3830bb",
+          "claim": "aror → eine Portion der ersten Drogenfraktion",
+          "claim_type": "lexical_hypothesis",
+          "card_basis_sha256": "704511fd70049d3d0d3600b2f32ff75459b3f8c82b7c3163a071b74331081ca6",
+          "effective_basis_sha256": "fb5100b70ee528b94c4994a50747cda529f617d9ff9b5972fc3f083f71e8afc6",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 18,
+              "line_end": 18,
+              "path": "experiments/yolo/gdt677_nine_one_hole_family_completion/REPORT.md",
+              "quote": "| `aror` | 6 | eine Portion der ersten Drogenfraktion |",
+              "sha256": "a1ac3d1801004e773b0326e5e0cfa4042937cf0beec858926f126e2cf38ef688",
+              "source_id": "LEGACY_COMPONENT:45220f37edcda7dfc307",
+              "source_section": "Result",
+              "table_header": "| surface | occurrences | working meaning |"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 61,
+          "line_end": 67,
+          "path": "experiments/yolo/gdt677_nine_one_hole_family_completion/REPORT.md",
+          "quote": "`aror = ar+or` holds six times as one portion of the first drug fraction. The\nbest internal comparison is f79r.17, where `air · or · aror` places second\nfraction, portion and first-fraction portion in one visible sequence. At\nf106r.23, `dar · aror` reads as measured fraction I followed by one portion of\nthat fraction. One alternate reader merges `aror` with the following word at\nf104r.28; the other retains it exactly, so the boundary warning remains in the\noccurrence artifact.",
+          "sha256": "a1ac3d1801004e773b0326e5e0cfa4042937cf0beec858926f126e2cf38ef688",
+          "source_id": "LEGACY_COMPONENT:0aa4cac5f041832c01bf",
+          "source_section": "Quantity and reader-boundary gains",
+          "table_header": null
+        }
+      ],
+      "reviewed": true,
+      "global_novelty_claim": false
+    },
+    {
+      "index": 3,
+      "target": "SEM:92c00e255d176de79703",
+      "input_binding": {
+        "target": "SEM:92c00e255d176de79703",
+        "claim": "dalal → AL+AL",
+        "claim_type": "formal_role",
+        "card_basis_sha256": "6c52e69d69cf4a2dc19a227ee636fd9f2acde3157661482d5f88ebaf89ed6f28",
+        "effective_basis_sha256": "d22c73024ad37276ddbb1ff8333a4536078375d5884dc2bb6b66791a88629db9"
+      },
+      "decision": "recover_scoped_assertion_or_instance",
+      "reason": "Neither AL+AL parse nor a Ychey plant-juice rival nor the separate Y–AIIN–Y model states this source’s two-branch repeated-core rule. Recover one complete rule and its actual rejected all-nested competitor; retain dalal/ychey as examples, not independent word theories.",
+      "cards": [
+        "CLEAN_GAP_AZ:repeated_core_two_rules",
+        "CLEAN_GAP_AZ:all_doubles_nested_rival"
+      ],
+      "counterparts": [
+        {
+          "target": "SEM:92c00e255d176de79703",
+          "claim": "dalal → AL+AL",
+          "claim_type": "formal_role",
+          "card_basis_sha256": "6c52e69d69cf4a2dc19a227ee636fd9f2acde3157661482d5f88ebaf89ed6f28",
+          "effective_basis_sha256": "d22c73024ad37276ddbb1ff8333a4536078375d5884dc2bb6b66791a88629db9",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 49,
+              "line_end": 54,
+              "path": "experiments/yolo/sidequest_semantic_repeated_core_operator_one_thousand_twenty_first/PASS1021_REPORT.md",
+              "quote": "Die erste technische Kandidatur wollte alle 40 Fälle als äußeren/inneren\nDoppelrahmen lesen. Das trägt `CH+CH` und `OR+OR` gut, aber ein freies\n`dalal = AL+AL` oder `ychey = Y+Y` hat rechts keine innere Ergänzung, die einen\nStufenabstieg sichtbar macht. Dort ist „zwei Ziele/Posten“ die einfachere\nLehrregel. Umgekehrt wäre bloße Wiederholung für `CH+CH+T/K/P` zu flach, weil\ndie Doppelung gerade an einer geöffneten Paketgrenze entsteht.",
+              "sha256": "84affc6bc0549129ba953cac240822bfdc475a458088933a6fa944aa0306c38d",
+              "source_id": "LEGACY_COMPONENT:ff0dcec5563bb60c337f",
+              "source_section": "Warum nicht alles Verschachtelung ist",
+              "table_header": null
+            }
+          ]
+        },
+        {
+          "target": "SEM:7f8a073a7d5f05b6e0e5",
+          "claim": "ychey → Pflanzensaft?",
+          "claim_type": "lexical_hypothesis",
+          "card_basis_sha256": "84bab5deba795fe14aa8183c71b361264b744b6dd52bd010fa3ca427e7ec428b",
+          "effective_basis_sha256": "18bbc57e1054788a3de762e6bb0a8023f90ca14726437a200cced3e6bb115935",
+          "evidence": [
+            {
+              "line": 16,
+              "path": "experiments/yolo/gdt816_paragraph_content_models/REPORT.md",
+              "quote": "| ychey | Pflanzensaft? | Pflanzensaft? |",
+              "sha256": "74119c1116d8dfe06133fac4ae4a1a9b91f1beb0af159dfe0e4ab48a5676b214"
+            }
+          ]
+        },
+        {
+          "target": "SEM:bac49bb2aa2a9f50bdfa",
+          "claim": "In the Pass112 fixed selection, Y–AIIN measures the current item backwards, AIIN–Y opens a measure for the following item, and Y–AIIN–Y combines the two bindings as two items under the same prescribed measure. This directional binding proposal is separate from a bare AIIN quantity gloss or a later same-item-maintenance interpretation.",
+          "claim_type": "functional_hypothesis",
+          "card_basis_sha256": "9c3afae09497a63071b48e2bc0e72ec05d54a7cd6137412070947dad749f4ea9",
+          "effective_basis_sha256": "5d902b775cfb9d47977b57c024d5d38ae111874d4a13e66e0e71adc765f3ab91",
+          "evidence": [
+            {
+              "line": 1,
+              "line_end": 19,
+              "path": "experiments/yolo/sidequest_semantic_formula_order_hundred_twelfth_edition/HUNDRED_TWELFTH_FORMULA_ORDER_REPORT.md",
+              "quote": "# Hundertzwölfte Runde: Reihenfolge trägt Bedeutung\n\nSechs der acht geprüften Kartenpaare laufen in der festen Auswahl nur in einer Richtung.\nDie erste Ausnahme ist Y/AIIN: Y–AIIN bemisst den aktuellen Posten rückwärts; AIIN–Y eröffnet\ndas Maß für den folgenden Posten. Im Dreier Y–AIIN–Y treffen beide Bindungen zusammen und\ngeben die Lesung ›zwei Posten unter dasselbe Sollmaß stellen‹.\n\nDie zweite Ausnahme ist OL / OL+OR / OL: In H2-S002 umklammert Fortsetzung den vorigen Ansatz.\nDas ist keine freie Umkehr, sondern eine Rahmenform ›weiter — voriger Ansatz — weiter‹.\n\nDie anderen Einbahnformeln ergeben eine einfache Werkstattordnung: Ansatz oder Posten zuerst,\ndann Maß/Ziel, danach Fortsetzung und zuletzt Absetzen/Schluss. Ein geschlossener Schritt wird\nnie nachträglich weitergeführt.\n\nVon zwölf bewusst gebildeten längeren Satzfolgen sind 5 bereits sichtbar und\n7 echte offene Vorhersagen. Sie erweitern das Kartenlexikon nicht, sondern sagen\nvoraus, wie bekannte Karten in einem neuen Eintrag geordnet würden.\n\nf84 und f84r blieben versiegelt.",
+              "sha256": "29b9c356c4dbe9bff14b9d44d7c80b6be71f90fe185eff588878cccff486729f"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 49,
+          "line_end": 54,
+          "path": "experiments/yolo/sidequest_semantic_repeated_core_operator_one_thousand_twenty_first/PASS1021_REPORT.md",
+          "quote": "Die erste technische Kandidatur wollte alle 40 Fälle als äußeren/inneren\nDoppelrahmen lesen. Das trägt `CH+CH` und `OR+OR` gut, aber ein freies\n`dalal = AL+AL` oder `ychey = Y+Y` hat rechts keine innere Ergänzung, die einen\nStufenabstieg sichtbar macht. Dort ist „zwei Ziele/Posten“ die einfachere\nLehrregel. Umgekehrt wäre bloße Wiederholung für `CH+CH+T/K/P` zu flach, weil\ndie Doppelung gerade an einer geöffneten Paketgrenze entsteht.",
+          "sha256": "84affc6bc0549129ba953cac240822bfdc475a458088933a6fa944aa0306c38d",
+          "source_id": "LEGACY_COMPONENT:ff0dcec5563bb60c337f",
+          "source_section": "Warum nicht alles Verschachtelung ist",
+          "table_header": null
+        }
+      ],
+      "reviewed": true,
+      "global_novelty_claim": false
+    },
+    {
+      "index": 4,
+      "target": "SEM:93ded86c8db0b0269da7",
+      "input_binding": {
+        "target": "SEM:93ded86c8db0b0269da7",
+        "claim": "shey → cheey",
+        "claim_type": "formal_role",
+        "card_basis_sha256": "482f74662f8efb07fba5dccf4a18e7c49979ee8d283a5c0d6484aab4855766bb",
+        "effective_basis_sha256": "f33c3fe93a548e26f4069233409c98434bc9c0f369247f410b573e234da0f99c"
+      },
+      "decision": "existing_assertion_additional_source_case",
+      "reason": "The complete CHEEY/SHEY clear-extract sense exists. Add Pass320’s three-page example as a source case; no global identity between all shey senses or later release/result models.",
+      "cards": [
+        "CLEAN_GAP_AZ:shey_cheey_source_case"
+      ],
+      "counterparts": [
+        {
+          "target": "SEM:6cb94c419a47a1c43fa8",
+          "claim": "CHEEY/SHEY → KLARAUSZUG",
+          "claim_type": "lexical_hypothesis",
+          "card_basis_sha256": "3de0549c3ad21945e9329a7c02fd6074f5a9fe1108393e0d95fe96d604168d52",
+          "effective_basis_sha256": "c281524296ed46a728083fae266fb54f5f63c8d8a355e83f6c85ea0efafc0612",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 219,
+              "line_end": 219,
+              "path": "experiments/yolo/sidequest_semantic_filtration_separation_completion/HISTORICAL_FILTRATION_REPORT.md",
+              "quote": "> `CFHY=AUSWRINGEN`, `SHFY=STEHEN LASSEN`, `CPHY=NACHSEIHEN`, `CHEEY/SHEY=KLARAUSZUG`, `DAIN=TUCH`, `SOLKAIIN=SEIHTUCH`, `QOCTHOLY=ABPRESSEN`, `KCHAL=ABSEIHEN`, `CKH=DURCHLAUF`, `CKHE=SEIHEN`, `LSH=WASCHEN`, `SOLK=AUFFANGSTELLE`.",
+              "sha256": "255e6bfaca13343e66ff182c1cc3b2fefa9a8460348384fc2c5502a8dd7d0480",
+              "source_id": "LEGACY_COMPONENT:7e035a4043078e2dcc6b",
+              "source_section": "Arbeitsentscheidung",
+              "table_header": null
+            }
+          ]
+        },
+        {
+          "target": "SEM:0948c0aa954708cc6fa2",
+          "claim": "Pass218/219 retains CHEEY/SHEY as the cross-register learned whole-card release value; clear outflow is only its local wet realization, and no free EY value is derived.",
+          "claim_type": "functional_hypothesis",
+          "card_basis_sha256": "c4ddc6c5ea654f6a2ea209386d002ef5817f36c639e357a8fac4ed2ecc3c315b",
+          "effective_basis_sha256": "7489d0a8b6040b94c66ad6b0c3df4416e1afb9e17eede6eece2db2befff80088",
+          "evidence": [
+            {
+              "line": 1,
+              "line_end": 11,
+              "path": "experiments/yolo/sidequest_semantic_portable_dictionary_entries_two_hundred_nineteenth/TWO_HUNDRED_NINETEENTH_REPORT.md",
+              "quote": "# Zweihundertneunzehnter Durchgang: elf portable Wörterbuchartikel\n\nDie gemeinsame Schicht ist jetzt als echtes kleines Wörterbuch lesbar. Zehn produktive Achsen und eine gelernte Resultatkarte erhalten jeweils eine kurze deutsche Grundbedeutung, eine Kompositionsregel, eine harte Grenze und sämtliche Prosa-/Astro-Mitgliedschaften.\n\nDie knappsten und natürlichsten Artikel sind `Y = DIES`, `AIIN = SOLLWERT`, `OL = WEITER`, `OT = FOLGE`, `AR = VON` und `AL = ZIEL`. Sie brauchen im jeweiligen Register andere konkrete Besitzer, aber keinen Bedeutungswechsel. `OR = ANSATZ` ist etwas abstrakter: in Prosa eine laufende Zubereitung, im Diagramm ein Bedingungs- oder Tabellensatz.\n\n`CHEEY/SHEY = FREIGABEWERT` bleibt bewusst eine gelernte Ganzkarte. Daraus wird kein freies `EY` konstruiert. Ebenso ist `DY = FERTIG` nur in lizenzierten Karten- und Zellkonstruktionen gültig; die sichtbare Zeichenfolge allein reicht nicht.\n\nDie 182 ganzen portablen Vorkommen bestehen aus 116 Prosaereignissen und 66 Astrogruppen. Die Wörterbuchartikel zeigen darüber hinaus auch alle lokalen Prosakarten, die dieselbe Achse produktiv erweitern. Mehrgliedrige Karten dürfen mehreren Artikeln angehören, etwa `OK+AL` oder `OL+OR`.\n\nAls nächstes wird für jede der elf Bedeutungen eine kurze Ersetzungsprobe gebaut: derselbe Artikel in einer Pflanzen-, Becken- und Diagrammphrase. Wo die deutsche Lesung dabei gekünstelt wird, wird nicht die Phrase, sondern der Wörterbuchwert revidiert.",
+              "sha256": "c4349ac37ca391d2498d568ce9efb4f75ea3ff7c9085ef8ab9b4d6d4e62298c9"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 14,
+          "line_end": 14,
+          "path": "experiments/yolo/sidequest_semantic_handoff_lexicon_three_hundred_twentieth/THREE_HUNDRED_TWENTIETH_REPORT.md",
+          "quote": "- `shey = cheey` als Klarauszug auf f11r, f82r und f83r;",
+          "sha256": "117ee5e0d597daae002024c198c419d6cb9d5636071776c4d896d2a69cfd5de9",
+          "source_id": "LEGACY_COMPONENT:b9922b446d225b8cdbc9",
+          "source_section": "Ergebnis",
+          "table_header": null
+        }
+      ],
+      "reviewed": true,
+      "global_novelty_claim": false
+    },
+    {
+      "index": 5,
+      "target": "SEM:9d30202d5f5b991c29a7",
+      "input_binding": {
+        "target": "SEM:9d30202d5f5b991c29a7",
+        "claim": "kair → K+AIR",
+        "claim_type": "formal_role",
+        "card_basis_sha256": "00b179dd2e38e443e189b6b3ed1af300da13d8244942c5eef89a419ef2ca9bb1",
+        "effective_basis_sha256": "66ea2b9ac804b2c70f3bdf444a4835cdf139ef3298e12ff42ae0aa9b3749b509"
+      },
+      "decision": "recover_scoped_assertion_or_instance",
+      "reason": "Existing KAIR liquid/basin-water/hot-fraction cards are different whole meanings. Bare K+AIR and separate K/AIR atoms do not state the complete water-add command. Retain a local composition instance.",
+      "cards": [
+        "CLEAN_GAP_AZ:kair_water_add"
+      ],
+      "counterparts": [
+        {
+          "target": "SEM:211fdbaf8dbbc14e2075",
+          "claim": "kair → heiße Drogenfraktion II",
+          "claim_type": "lexical_hypothesis",
+          "card_basis_sha256": "551af2805c46571afd93d903f799d17d3ee3cb8ba9f9490a1bc607334c8adb9a",
+          "effective_basis_sha256": "447d5f22cbc6ef6a39204bbfea196bc1d9e807795be8b00c0ff5e90df417874b",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "line": 3,
+                  "text": "Status: `PASS_861_TARGET_POSITIONS__V39_MIXED_RECIPE_REGISTER`"
+                }
+              ],
+              "line": 78,
+              "line_end": 78,
+              "path": "experiments/yolo/gdt662_seventy_six_residual_family_completion/REPORT.md",
+              "quote": "| `kair` | 11 | heiße Drogenfraktion II |",
+              "sha256": "c248820081256635e5809a521e666543c4640bc93ad4120ea1b7e3a7f3304d1d",
+              "source_id": "LEGACY_COMPONENT:44c296ab91bfb699679c",
+              "source_section": "Die dichte Front",
+              "table_header": "| Form | n | konkrete V39-Arbeitslesung |"
+            }
+          ]
+        },
+        {
+          "target": "SEM:8677b3f95558ab40d892",
+          "claim": "kair → Laufflüssigkeit",
+          "claim_type": "lexical_hypothesis",
+          "card_basis_sha256": "0c93be5a9b378530b0b36ef54fd7daecf6716e303dbc4cf6f98132d79a4aefd1",
+          "effective_basis_sha256": "f5561cd34452d15fccfdf33fcdccc2126cc2bb8eac967d52a2ad0e93ccf4c125",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 48,
+              "line_end": 48,
+              "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R1_MEDIUM_SUBSTANCE_REPORT.md",
+              "quote": "| E103 | `kair` | f81v | K + AIR | Laufflüssigkeit |",
+              "sha256": "5f36716813e3e12341b606e7334884c4514751adc61ee63d440a105204305631",
+              "source_id": "LEGACY_COMPONENT:44d9e2becfc37103cd36",
+              "source_section": "1. AIR: nicht „Wasser“, sondern LAUFFLÜSSIGKEIT",
+              "table_header": "| Event | Form | Seite | kurze Komposition | konkrete Lesung |"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 11,
+          "line_end": 11,
+          "path": "experiments/yolo/sidequest_semantic_water_paradigm_eight_hundred_thirty_fifth/EIGHT_HUNDRED_THIRTY_FIFTH_REPORT.md",
+          "quote": "- `kair = K+AIR`: water add;",
+          "sha256": "3eaec6ac10cfe7c502e7578037f8d53868c642ebe4c3fa312847d1411e7f9d69",
+          "source_id": "LEGACY_COMPONENT:404d72167386bdfc0ce8",
+          "source_section": "Sidequest Pass 835: AIR water mini-paradigm",
+          "table_header": null
+        }
+      ],
+      "reviewed": true,
+      "global_novelty_claim": false
+    },
+    {
+      "index": 6,
+      "target": "SEM:9ed7dac29623336a462b",
+      "input_binding": {
+        "target": "SEM:9ed7dac29623336a462b",
+        "claim": "daiin → AIIN",
+        "claim_type": "formal_role",
+        "card_basis_sha256": "f4f83d4f11a81b411a2c6f0d51ddd6415ade2834428a9ff5de6db6ef0e17fa8d",
+        "effective_basis_sha256": "540589b9f20040c44736935f7e1aa4117b79bc9873f28b928ef3a0f89faca858"
+      },
+      "decision": "recover_scoped_assertion_or_instance",
+      "reason": "Existing DAIIN amount/value cards lack the exact same-form work-measure versus picture-recorded-value conjunction. Retain this specific paired-register example, not a new general register-switch model.",
+      "cards": [
+        "CLEAN_GAP_AZ:daiin_two_registers"
+      ],
+      "counterparts": [
+        {
+          "target": "SEM:02374665a70d2b210087",
+          "claim": "**`daiin` — in der im Artikel festgesetzten Menge.** Nicht zwingend eine Arzneidosis; es kann ebenso eine Sollzahl oder unveränderte Einstellung sein.",
+          "claim_type": "lexical_hypothesis",
+          "card_basis_sha256": "49d1ca8f88c8ad08987fa8f6500d8ecfa59bbafd3a5329b7f081b813d74ae5b7",
+          "effective_basis_sha256": "7e7ed092f2391e0a09c9dcef032f1d6a18de503a5fe957ea15220ea56c512179",
+          "evidence": [
+            {
+              "line": 32,
+              "path": "experiments/yolo/sidequest_theory_candidates_v39/R3_TECHNICAL_NOTATION_RECONSTRUCTION.md",
+              "quote": "1. **`daiin` — in der im Artikel festgesetzten Menge.** Nicht zwingend eine\n   Arzneidosis; es kann ebenso eine Sollzahl oder unveränderte Einstellung sein.",
+              "sha256": "f5298d5cecd316156c6999c01c17d9c912d82de9eb88deef36bd6307ab41ba04"
+            }
+          ]
+        },
+        {
+          "target": "SEM:9bdd306848ccf1ac3c6a",
+          "claim": "daiin bezeichnet einen variablen Feldwert statt eines obligatorischen Feldabschlusses; die konkrete Zahl III ist dadurch noch nicht begründet.",
+          "claim_type": "functional_hypothesis",
+          "card_basis_sha256": "22bb1c863b6891ebbe5b8458c96c3a9ca1eded5bc8f6e5b8353605ba324214a2",
+          "effective_basis_sha256": "ab2231b08a80f3a42e731d80d3f2a5297b4061446ad9490bf80c90b690561b13",
+          "evidence": [
+            {
+              "line": 127,
+              "path": "docs/IDEA_BACKLOG.md",
+              "quote": "### IP004 — Wiederholtes Feldende oder konkreter Zahlenwert?\n\nStatus: `DUPLICATE` nach vertieftem Vorgängerabgleich; nicht übernehmen.\nAusgangspunkt: [GDT764](../experiments/yolo/gdt764_bounded_value_field_dispatch/REPORT.md)\nbelegt fünf vollständige H1-X-daiin-Tripel; drei Linien enthalten ein zweites\nY-daiin-Feld, z.B. `pchedal | qopchdy daiin | chedy daiin`.\nNeue Vorhersage: Ein obligatorischer Feldabschluss muss an mehreren Feldenden\ndesselben Records gleich sein; ein konkreter Wert darf unabhängig variieren.\nKleinster Test: nur die drei bereits veröffentlichten Mehrfeld-Linien vollständig\nrekonstruieren und die Feldabgrenzung ohne `daiin` bzw. numerische Arbeitswerte\nbegründen. Bereits vorhandene anders endende Schwesterfelder in denselben\nRecords würden die obligatorische Abschlusslesung direkt einschränken.\nGesamtbudget 5 Minuten; keine neue Ganzkorpus-Familiensuche.\nEntscheidung: unabhängig abgegrenzte Felder mit variierendem Ende rechtfertigen\nParameter- statt Pflichttrenner-Modell; fehlen unabhängige Feldgrenzen, kann das",
+              "sha256": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 61,
+          "line_end": 62,
+          "path": "experiments/yolo/gdt536_aii_renderer_square_aiicthy_closure/REPORT.md",
+          "quote": "The page itself agrees with the value reading: f31r contains four exact\n`aiin=AIIN` cards and four `daiin=AIIN` cards before the target.",
+          "sha256": "4630bdfb42b6acd8854267607ff542729a74ac36e2ad07265dae21342fafb61a",
+          "source_id": "LEGACY_COMPONENT:3a2cc51f3b28704808e7",
+          "source_section": "Why this beats the alternatives",
+          "table_header": null
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 11,
+          "line_end": 11,
+          "path": "experiments/yolo/sidequest_semantic_apprentice_bichannel_manual_nine_hundred_thirty_fourth/PASS934_REPORT.md",
+          "quote": "- `daiin = AIIN`: Sollmaß im Arbeitsfeld, verzeichneter Sollwert am Bild;",
+          "sha256": "6c68da711993c3c6aa809b8ff392657afe6962c3a1d08c892f81d8ee9c2ef287",
+          "source_id": "LEGACY_COMPONENT:f94817a795733cca97af",
+          "source_section": "Ergebnis",
+          "table_header": null
+        }
+      ],
+      "reviewed": true,
+      "global_novelty_claim": false
+    },
+    {
+      "index": 7,
+      "target": "SEM:a02c14cd458c434b7323",
+      "input_binding": {
+        "target": "SEM:a02c14cd458c434b7323",
+        "claim": "pchedal → P+CHD+AL",
+        "claim_type": "formal_role",
+        "card_basis_sha256": "968c2606b99536e87a6031556855cf79c0f26c407ef94cb01cfb37f3881ac2f3",
+        "effective_basis_sha256": "bba468d0eaa6ff188b8cf967aa02a1e12d7bbda80e47523c31082df61e5d6444"
+      },
+      "decision": "recover_scoped_assertion_or_instance",
+      "reason": "The P component EINFÜLLEN card does not assert the whole target-addressed filling-plus-transfer composition. Retain the exact learned PCHEDAL instance, not a new component meaning.",
+      "cards": [
+        "CLEAN_GAP_AZ:pchedal_fill_transfer_target"
+      ],
+      "counterparts": [
+        {
+          "target": "SEM:9c7ce50b643faf3e8bbe",
+          "claim": "Pass804 assigns the registered P component the directed action EINFÜLLEN across the three owner-local receiving constructions.",
+          "claim_type": "lexical_hypothesis",
+          "card_basis_sha256": "4ba6d44607fc949559a5f908e7d265df1252226ee60eb059eaeeb87b3634a00e",
+          "effective_basis_sha256": "7c9df4984bde428dd711004c3e4e75712f8b47126b55e8f69d50c6e4544605d3",
+          "evidence": [
+            {
+              "line": 3,
+              "line_end": 4,
+              "path": "experiments/yolo/sidequest_semantic_p_recipient_eight_hundred_fourth/EIGHT_HUNDRED_FOURTH_REPORT.md",
+              "quote": "`P = FÜLLEN` was usable but vague. The three occurrences all place material\ninto an owner-local receiver:",
+              "sha256": "7dadbfed39d62e025ed780e9b2076147e9a1d18cc136505b4dd1e81a9a47e1ef"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 8,
+          "line_end": 8,
+          "path": "experiments/yolo/sidequest_semantic_p_recipient_eight_hundred_fourth/EIGHT_HUNDRED_FOURTH_REPORT.md",
+          "quote": "- at the lower figure in the basket-like vessel: `pchedal = P+CHD+AL`.",
+          "sha256": "7dadbfed39d62e025ed780e9b2076147e9a1d18cc136505b4dd1e81a9a47e1ef",
+          "source_id": "LEGACY_COMPONENT:386b076489f61e40e770",
+          "source_section": "Sidequest Pass 804: P is a recipient-directed action",
+          "table_header": null
+        }
+      ],
+      "reviewed": true,
+      "global_novelty_claim": false
+    },
+    {
+      "index": 8,
+      "target": "SEM:a2ace33cf86ed2b990ca",
+      "input_binding": {
+        "target": "SEM:a2ace33cf86ed2b990ca",
+        "claim": "pchedy → P+CHD+DY",
+        "claim_type": "formal_role",
+        "card_basis_sha256": "b829aff068dfe789da47d17abea96351fe5755ddc60295e5949056fe01163f52",
+        "effective_basis_sha256": "e63a75925d99a489702ffeeb4d375eb55d3a62a8276b53fbcfde795c6fbe5703"
+      },
+      "decision": "recover_scoped_assertion_or_instance",
+      "reason": "The P component meaning alone omits transfer and closure. Retain the exact PCHEDY instance; do not infer whole-card identity from P atoms.",
+      "cards": [
+        "CLEAN_GAP_AZ:pchedy_fill_transfer_close"
+      ],
+      "counterparts": [
+        {
+          "target": "SEM:9c7ce50b643faf3e8bbe",
+          "claim": "Pass804 assigns the registered P component the directed action EINFÜLLEN across the three owner-local receiving constructions.",
+          "claim_type": "lexical_hypothesis",
+          "card_basis_sha256": "4ba6d44607fc949559a5f908e7d265df1252226ee60eb059eaeeb87b3634a00e",
+          "effective_basis_sha256": "7c9df4984bde428dd711004c3e4e75712f8b47126b55e8f69d50c6e4544605d3",
+          "evidence": [
+            {
+              "line": 3,
+              "line_end": 4,
+              "path": "experiments/yolo/sidequest_semantic_p_recipient_eight_hundred_fourth/EIGHT_HUNDRED_FOURTH_REPORT.md",
+              "quote": "`P = FÜLLEN` was usable but vague. The three occurrences all place material\ninto an owner-local receiver:",
+              "sha256": "7dadbfed39d62e025ed780e9b2076147e9a1d18cc136505b4dd1e81a9a47e1ef"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 7,
+          "line_end": 7,
+          "path": "experiments/yolo/sidequest_semantic_p_recipient_eight_hundred_fourth/EIGHT_HUNDRED_FOURTH_REPORT.md",
+          "quote": "- at the small basin stations: `pchedy = P+CHD+DY`;",
+          "sha256": "7dadbfed39d62e025ed780e9b2076147e9a1d18cc136505b4dd1e81a9a47e1ef",
+          "source_id": "LEGACY_COMPONENT:97089e934b65a845840e",
+          "source_section": "Sidequest Pass 804: P is a recipient-directed action",
+          "table_header": null
+        }
+      ],
+      "reviewed": true,
+      "global_novelty_claim": false
+    },
+    {
+      "index": 9,
+      "target": "SEM:a33554a1686046b2209a",
+      "input_binding": {
+        "target": "SEM:a33554a1686046b2209a",
+        "claim": "qokeedal → OK + EE + AL",
+        "claim_type": "formal_role",
+        "card_basis_sha256": "0691ff8116d16e495551f5080499befd38406d8c536d19a2c8579030b4ab826d",
+        "effective_basis_sha256": "97101c4410f2f8e74285ecdb5e3013c671cc47e0ce0bf36e6cb05f40cd18f368"
+      },
+      "decision": "recover_scoped_assertion_or_instance",
+      "reason": "The B1 ladder includes holding longer at a place, but not this complete designated part/place sustained-contact reading with optional immersion expansion and explicit d≠DY scope. The heated measured material reading is a different historical sense.",
+      "cards": [
+        "CLEAN_GAP_AZ:qokeedal_sustained_contact"
+      ],
+      "counterparts": [
+        {
+          "target": "SEM:4b10008c16172e4631cc",
+          "claim": "The Pass431 B1 station model teaches a base operation, duration, address and optional closure: qokey/qokedy briefly set up with open/closed alternatives; okeey sets up longer; qokeedal holds longer at a place; dsheol briefly holds and continues; cheky briefly warms; the registered shedy/cheedy/tedy card briefly settles and closes; olkeedy catches longer and closes; oiiin sets the demanded stage. Its local process goes from setting up through possible longer holding and short warming/settling to longer catching of the separated product.",
+          "claim_type": "semantic_model",
+          "card_basis_sha256": "a69efd9f407ad5dcc1ebe8db192cc90e570a9dee85c536161bbd4c98f0ef16d8",
+          "effective_basis_sha256": "d20941cf44186cbb99a7364c7d7445eaadd1327a401622b7b97df9d716b0e7db",
+          "evidence": [
+            {
+              "line": 1,
+              "line_end": 32,
+              "path": "experiments/yolo/sidequest_semantic_b1_process_ladder_four_hundred_thirty_first/FOUR_HUNDRED_THIRTY_FIRST_REPORT.md",
+              "quote": "# Pass 431 — B1 hat eine kurze/lange Prozessleiter\n\nDie B1-Karten für Ansetzen, Halten, Wärmen, Absetzen und Auffangen werden jetzt\nals ein Lehrsystem gelesen. Der Schreiber lernt keine langen Übersetzungen,\nsondern eine Basisoperation, einen Grad, einen Adresszusatz und gegebenenfalls\neine Schlussform.\n\n## Leiter\n\n- `qokey/qokedy`: KURZ ANSETZEN, offen oder mit Schluss;\n- `okeey`: LÄNGER ANSETZEN, offen;\n- `qokeedal`: LÄNGER AN DER STELLE HALTEN;\n- `dsheol`: KURZ HALTEN und fortsetzen;\n- `cheky`: KURZ WÄRMEN;\n- `shedy/cheedy/tedy`: KURZ ABSETZEN und schließen;\n- `olkeedy`: LÄNGER AUFFANGEN und schließen;\n- `oiiin`: SOLLSTAND einstellen.\n\nDie wichtigste Revision betrifft die vier Erscheinungen derselben\n`shedy/cheedy/tedy`-Karte: Ihr E-Grad wird nicht mehr unterschlagen. Sie heißt\njetzt überall KURZ ABSETZEN; SCHLUSS.\n\nDamit besitzt B1 eine verständliche Stationslogik: einen Posten ansetzen,\ngegebenenfalls an einer Stelle länger halten, kurz wärmen, kurz absetzen und\ndas getrennte Produkt länger auffangen. Das ist als Becken-/Werkstattablauf\ndirekter als eine Sammlung unverbundener medizinischer Verben. Die Figuren\nkönnen den Gebrauch als Bad zeigen, ohne die Kartenbedeutungen zu verändern.\n\nNoch offen bleiben zwei asymmetrische Lücken: B1 besitzt keine lange\nWärmekarte und keine kurze Auffangkarte. Diese müssen nicht erfunden werden;\nder Schreiber kann für seltene Kombinationen Ganzkarten oder lokale\nExemplare verwenden.",
+              "sha256": "694810db46a6943c45b0f97e20b196881bff214914b5fafc233bec0579ba919a"
+            }
+          ]
+        },
+        {
+          "target": "SEM:53c421ec54f70a3d5d48",
+          "claim": "qokeedal → erhitztes Material I, abgemessen; Endstufe",
+          "claim_type": "lexical_hypothesis",
+          "card_basis_sha256": "69435e83151f0aa7ceaa1171fa9587b883932b9b02f9bc61a1ae729bbbe4db33",
+          "effective_basis_sha256": "9ac1f12cf6ade0e4db0dfb0442e743fd053603a6891a140c5b9048126ff28591",
+          "evidence": [
+            {
+              "line": 183,
+              "path": "experiments/yolo/gdt788_dal_remainder_cross_family_transfer/REPORT.md",
+              "quote": "| `qokeedal` | erhitztes Material I, abgemessen; Endstufe | 40 | Arzneizubereitung · Wärme-/Endfeld |",
+              "sha256": "3ceba95e7d7e78c2e705dcfa132eb46abb815cd091436aa89d7d30b4a4b7cd1b"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 3,
+              "text": "Status: kreative Werkstattlektüre, keine Entzifferung. Untersucht wurden nur"
+            }
+          ],
+          "line": 79,
+          "line_end": 82,
+          "path": "experiments/yolo/sidequest_semantic_paradigm_closure/E_GRADE_REPORT.md",
+          "quote": "- `qokeedal = OK + EE + AL`: den bezeichneten Teil/die Stelle in anhaltenden\n  Kontakt bringen; „eingetauchter Teil“ bleibt eine gute lokale Kurzfassung.\n  Das sichtbare `d` gehört hier zur belegten `DAL/AL`-Realisierung und ist\n  nicht `DY`.",
+          "sha256": "a982d2c7b8613c758aa4f0d27a9f569861a7adecc3e9c452a9ebe73fbacf4411",
+          "source_id": "LEGACY_COMPONENT:2f3f9eeb2c1250eb69af",
+          "source_section": "Das geschlossene OK-Paradigma",
+          "table_header": null
+        }
+      ],
+      "reviewed": true,
+      "global_novelty_claim": false
+    },
+    {
+      "index": 10,
+      "target": "SEM:a3814ced8f0169378944",
+      "input_binding": {
+        "target": "SEM:a3814ced8f0169378944",
+        "claim": "ldy → L+DY",
+        "claim_type": "formal_role",
+        "card_basis_sha256": "0d9fa1a96219abef554c06fa98caa22b3704d82051ed22fccfac37f06fcb532a",
+        "effective_basis_sha256": "734435e3611b564dae32f772992f325b362d448cf2ad1053ce0ab422aa3030a2"
+      },
+      "decision": "recover_scoped_assertion_or_instance",
+      "reason": "ABZIEHEN and ABFÜHREN are related outward operations, but the sources do not establish identical readings. Retain the exact Pass439 whole command without claiming independent general mechanism.",
+      "cards": [
+        "CLEAN_GAP_AZ:ldy_lead_out_close"
+      ],
+      "counterparts": [
+        {
+          "target": "SEM:4bc91a2b07728d21bf17",
+          "claim": "LDY → ABZIEHEN; SCHLUSS",
+          "claim_type": "lexical_hypothesis",
+          "card_basis_sha256": "460c93e090148748684e60d38712e2178230e66048d91e6411c46951a6d67715",
+          "effective_basis_sha256": "5b8c4a64f06d0fba21aaf09fe6659154d7dc3bd34b8d444705a385a9416ee0e0",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 150,
+              "line_end": 155,
+              "path": "experiments/yolo/sidequest_semantic_filtration_separation_completion/WORKSHOP_FILTRATION_REPORT.md",
+              "quote": "Die Flüssigkeitsseite wird mit den vorhandenen Abzugskarten fortgesetzt:\n`LCHY=FLÜSSIGEN ANTEIL ABZIEHEN`, `LDY=ABZIEHEN; SCHLUSS`,\n`L+CHED=HINAUSFÜHREN`, `L+CHED+AL=AUSLASSSTELLE` und\n`P+CHED+AL=EINFÜLLSTELLE`. Die beiden Rückstandskarten `QOTCHY` und `SHOYTY`\nbenennen dagegen den zurückgehaltenen Pflanzenanteil. Klarlauf und Rückstand\nsind so zwei verschiedene Ausgänge derselben Trennstufe.",
+              "sha256": "5ff712952a88928ba1f596a08a1951f11d9409e4182202585e07ce2d4b9ba77a",
+              "source_id": "LEGACY_COMPONENT:9f2b8857f041ea5e44fe",
+              "source_section": "4. Tuchweg und mechanische Trennung",
+              "table_header": null
+            }
+          ]
+        },
+        {
+          "target": "SEM:c544039e31a327b5ec64",
+          "claim": "ldy → Abziehen; Ende",
+          "claim_type": "lexical_hypothesis",
+          "card_basis_sha256": "015122a8d2192f785477a0db1046edffc51a4c8e44b36db08872c7f955e15cc7",
+          "effective_basis_sha256": "e44b86e2f5a008d085f32f64fc86d7c2f85602fe287e26ae25270d49abdb4e6a",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 172,
+              "line_end": 172,
+              "path": "experiments/yolo/sidequest_semantic_quantity_preparation/PREPARATION_PARADIGM_REPORT.md",
+              "quote": "| B3-S033 | ldy | Abziehen; Ende | beibehalten |",
+              "sha256": "77943fcb084ef25d1ee68d45f0cadccfffd966981a43e0eff44428b619de8169",
+              "source_id": "LEGACY_COMPONENT:7112994b8c83283f8e69",
+              "source_section": "B3 (f83r)",
+              "table_header": "| Aussage | Oberfläche | konkrete Rücklesung | Status |"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 6,
+          "line_end": 6,
+          "path": "experiments/yolo/sidequest_semantic_b2_apprentice_dictionary_four_hundred_thirty_ninth/FOUR_HUNDRED_THIRTY_NINTH_REPORT.md",
+          "quote": "- `ldy = L+DY` — ABFÜHREN; SCHLUSS;",
+          "sha256": "2acac92f9e41dbb49cec9ba6aaec16841b64fb74ae7319232d07092a08d82507",
+          "source_id": "LEGACY_COMPONENT:3f2247859a4e210a9039",
+          "source_section": "Pass 439 — das fertige B2-Lehrlingsdeck",
+          "table_header": null
+        }
+      ],
+      "reviewed": true,
+      "global_novelty_claim": false
+    },
+    {
+      "index": 11,
+      "target": "SEM:a9bd5b056876b4a1bac1",
+      "input_binding": {
+        "target": "SEM:a9bd5b056876b4a1bac1",
+        "claim": "cphy → P+Y",
+        "claim_type": "formal_role",
+        "card_basis_sha256": "d6ae848594b9eb00ad96ea578db135f5c0e5032c9dcda9b3d2d850948d2667a9",
+        "effective_basis_sha256": "bc8033856ccc22ceb37dba36da96842fb0a9ef033a76e6f5dd667a2e59ccf073"
+      },
+      "decision": "existing_assertion_additional_source_case",
+      "reason": "Existing CPHY pour-active-item-in is the complete P+Y command. Pass804 dies einfüllen is an additional source instance, not a novel P meaning.",
+      "cards": [
+        "CLEAN_GAP_AZ:cphy_source_case"
+      ],
+      "counterparts": [
+        {
+          "target": "SEM:27143fb174b91c5a6ac9",
+          "claim": "cphy → pour active item in",
+          "claim_type": "lexical_hypothesis",
+          "card_basis_sha256": "5a5bad2fa9d201c0685d532c4f68c3f144ccddd822bfe659d474bbd5f405ea83",
+          "effective_basis_sha256": "f9be68f45aedb2dc0211bd95d048c6863b7ccf7fac2a5dcba9cf06b15bb80704",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 33,
+              "line_end": 33,
+              "path": "experiments/yolo/sidequest_semantic_combined_apprentice_exam_six_hundred_thirty_ninth/SIX_HUNDRED_THIRTY_NINTH_REPORT.md",
+              "quote": "| `cphy` | PROC030 | pour active item in |",
+              "sha256": "6f2c6a111d5973b0cdef1c56765f4a72d3795199042941efaac0e677ceb64d06",
+              "source_id": "LEGACY_COMPONENT:d24e1b15f05cfcff5187",
+              "source_section": "Examination A: a new C3 short-hold job",
+              "table_header": "| Surface | Card | Short reading |"
+            }
+          ]
+        },
+        {
+          "target": "SEM:9c7ce50b643faf3e8bbe",
+          "claim": "Pass804 assigns the registered P component the directed action EINFÜLLEN across the three owner-local receiving constructions.",
+          "claim_type": "lexical_hypothesis",
+          "card_basis_sha256": "4ba6d44607fc949559a5f908e7d265df1252226ee60eb059eaeeb87b3634a00e",
+          "effective_basis_sha256": "7c9df4984bde428dd711004c3e4e75712f8b47126b55e8f69d50c6e4544605d3",
+          "evidence": [
+            {
+              "line": 3,
+              "line_end": 4,
+              "path": "experiments/yolo/sidequest_semantic_p_recipient_eight_hundred_fourth/EIGHT_HUNDRED_FOURTH_REPORT.md",
+              "quote": "`P = FÜLLEN` was usable but vague. The three occurrences all place material\ninto an owner-local receiver:",
+              "sha256": "7dadbfed39d62e025ed780e9b2076147e9a1d18cc136505b4dd1e81a9a47e1ef"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 6,
+          "line_end": 6,
+          "path": "experiments/yolo/sidequest_semantic_p_recipient_eight_hundred_fourth/EIGHT_HUNDRED_FOURTH_REPORT.md",
+          "quote": "- after squeezing the pictured plant preparation: `cphy = P+Y`;",
+          "sha256": "7dadbfed39d62e025ed780e9b2076147e9a1d18cc136505b4dd1e81a9a47e1ef",
+          "source_id": "LEGACY_COMPONENT:7cbb5e7c71edb040fa7e",
+          "source_section": "Sidequest Pass 804: P is a recipient-directed action",
+          "table_header": null
+        }
+      ],
+      "reviewed": true,
+      "global_novelty_claim": false
+    },
+    {
+      "index": 12,
+      "target": "SEM:ad00544e3e8c248be073",
+      "input_binding": {
+        "target": "SEM:ad00544e3e8c248be073",
+        "claim": "otolaiin → OTOL + AIIN",
+        "claim_type": "formal_role",
+        "card_basis_sha256": "e85d9688292d8fc4757bec3fd1c749c3f86239b47ee11dd0855010670fe7a36e",
+        "effective_basis_sha256": "add724734107a5c5a960aa92f9c216ea0e27ef2a8e3e800dbdf1c041afd6154b"
+      },
+      "decision": "recover_scoped_assertion_or_instance",
+      "reason": "Only the OTOL+AIIN parse was found for this whole form. Recover the complete ordered reading as a local formula instance; individual temporal/value atoms are not the entire formula.",
+      "cards": [
+        "CLEAN_GAP_AZ:otolaiin_order_value"
+      ],
+      "counterparts": [],
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 55,
+          "line_end": 55,
+          "path": "experiments/yolo/gdt460_learned_label_edge_stem_atlas/REPORT.md",
+          "quote": "- `otolaiin = OTOL + AIIN` → `DANACH · FORTSETZEN · WERT`.",
+          "sha256": "23b3c3751acd36ff81c6bccf325f2cbe8111392d69051064ddf61e9622d9d741",
+          "source_id": "LEGACY_COMPONENT:ef22764ed1a448112fd9",
+          "source_section": "Five complete recovered formulae",
+          "table_header": null
+        }
+      ],
+      "reviewed": true,
+      "global_novelty_claim": false
+    },
+    {
+      "index": 13,
+      "target": "SEM:afdb164184bf97681b42",
+      "input_binding": {
+        "target": "SEM:afdb164184bf97681b42",
+        "claim": "sotaiin → OT+AIIN",
+        "claim_type": "formal_role",
+        "card_basis_sha256": "4497ffb5238c9a451fa253a2c650cae2b7aa2a4a589d8b73019c41127b03fb80",
+        "effective_basis_sha256": "7ff042688692ecaf2758a461ebe2e7ffbd797b05dd2fc4e4068bbac32c7050cf"
+      },
+      "decision": "recover_scoped_assertion_or_instance",
+      "reason": "Only OT+AIIN parse and generic amount/next values were found; the exact next-measure whole-card reading is addressable separately, as a local instance.",
+      "cards": [
+        "CLEAN_GAP_AZ:sotaiin_next_measure"
+      ],
+      "counterparts": [],
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 7,
+          "line_end": 7,
+          "path": "experiments/yolo/sidequest_semantic_b2_apprentice_dictionary_four_hundred_thirty_ninth/FOUR_HUNDRED_THIRTY_NINTH_REPORT.md",
+          "quote": "- `sotaiin = OT+AIIN` — NÄCHSTES MASS;",
+          "sha256": "2acac92f9e41dbb49cec9ba6aaec16841b64fb74ae7319232d07092a08d82507",
+          "source_id": "LEGACY_COMPONENT:3c4b4b29f4ebb33d6f2b",
+          "source_section": "Pass 439 — das fertige B2-Lehrlingsdeck",
+          "table_header": null
+        }
+      ],
+      "reviewed": true,
+      "global_novelty_claim": false
+    },
+    {
+      "index": 14,
+      "target": "SEM:b13632c299952b5c0c0e",
+      "input_binding": {
+        "target": "SEM:b13632c299952b5c0c0e",
+        "claim": "cheeky → CH + EE + K + Y",
+        "claim_type": "formal_role",
+        "card_basis_sha256": "25cf47cf7e1e5e5192935ede2f210f0e70a082376215a1fb991ce69cdf12c7c2",
+        "effective_basis_sha256": "335dfeea89407e263252e3fb47cf3eadcf2f896f6ba7548bf3e9c657d8bdce70"
+      },
+      "decision": "recover_scoped_assertion_or_instance",
+      "reason": "The full ordered CHEEKY reading already exists in the same report table. Recover only its explicitly rejected Trockenpräparat alternative, not another copy of the retained meaning.",
+      "cards": [
+        "CLEAN_GAP_AZ:cheeky_dry_preparation_rival"
+      ],
+      "counterparts": [
+        {
+          "target": "SEM:989ace96750cef01c134",
+          "claim": "cheeky → trocken am Gradende, dann heiß am Gradanfang",
+          "claim_type": "lexical_hypothesis",
+          "card_basis_sha256": "fd8b1f4c9e44b234d0ce26fa488c1e9f8eb3bf8f7c941bb622769541a63d7d19",
+          "effective_basis_sha256": "fd203d79cb62b93d8871e70f22cc2000a89a4188c6c2a372a5579c362947b8a2",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 74,
+              "line_end": 74,
+              "path": "experiments/yolo/gdt661_forty_eight_residual_family_completion/REPORT.md",
+              "quote": "| `cheeky` | 23 / 22 | trocken am Gradende, dann heiß am Gradanfang | stark |",
+              "sha256": "bc59ad9ee2aa88549f5d19ced3f086580de7e8e2215d0bf17b10959c678c9880",
+              "source_id": "LEGACY_COMPONENT:585267e14035645e9fcd",
+              "source_section": "Das vollständige 48-Wörter-Deck",
+              "table_header": "| Form | n / exakt | konkrete V38-Arbeitslesung | Stärke |"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 115,
+          "line_end": 117,
+          "path": "experiments/yolo/gdt661_forty_eight_residual_family_completion/REPORT.md",
+          "quote": "- `cheeky = CH + EE + K + Y` bewahrt die sichtbare Reihenfolge: erst trocken\n  am Gradende, dann heiß am Gradanfang. Die bequemere Lesung „Trockenpräparat“\n  wurde verworfen, weil sie genau diese Information verlor.",
+          "sha256": "bc59ad9ee2aa88549f5d19ced3f086580de7e8e2215d0bf17b10959c678c9880",
+          "source_id": "LEGACY_COMPONENT:1b2b36f1b0b714455f2e",
+          "source_section": "Die stärksten neuen Kompositionen",
+          "table_header": null
+        }
+      ],
+      "reviewed": true,
+      "global_novelty_claim": false
+    },
+    {
+      "index": 15,
+      "target": "SEM:b5d2db22a7e64cfcbd91",
+      "input_binding": {
+        "target": "SEM:b5d2db22a7e64cfcbd91",
+        "claim": "dshedy → SHED+E+CLOSE",
+        "claim_type": "formal_role",
+        "card_basis_sha256": "9c679de589a235e75101d4a1cce0a48f4a1c34bb3c3b339ddff0b85407f21b02",
+        "effective_basis_sha256": "3df5999388cd0a66ce6903b29da547f41db5ecb2e10df7cc93d8c68c5fd2e00d"
+      },
+      "decision": "recover_scoped_assertion_or_instance",
+      "reason": "Short settle alone omits the explicit closure, and hold briefly; close changes the operation. Recover the complete replacement composition; the old fresh-water hypothesis remains represented and is not deleted as mere negation.",
+      "cards": [
+        "CLEAN_GAP_AZ:dshedy_short_settle_close"
+      ],
+      "counterparts": [
+        {
+          "target": "SEM:9cd9290a085bc457a7d2",
+          "claim": "In the Pass201 current whole-card reading, dshedy means short settle.",
+          "claim_type": "lexical_hypothesis",
+          "card_basis_sha256": "36f6ed18ea29835f8f1f931cad354ba50962e1028b0394b1dfbc6abaf8c1f3bf",
+          "effective_basis_sha256": "d3b509248fad19f2c599e4739d23020905133f8b4f6e05b84e43cd0a7b887bb2",
+          "evidence": [
+            {
+              "line": 1,
+              "line_end": 48,
+              "path": "experiments/yolo/sidequest_semantic_unified_prose_edition_two_hundred_first/TWO_HUNDRED_FIRST_UNIFIED_PROSE_REPORT.md",
+              "quote": "# Two-hundred-first pass: one current prose edition\n\n## Unified release\n\nThe four normalized sub-editions now form one continuous current prose reader:\n\n- 381 visible events;\n- 380 logical source tokens after the one line-edge read-once correction;\n- 135 fields;\n- 116 translated statements;\n- eleven records on seven fixed prose pages;\n- 173 exact cards with 230 unambiguous registered surfaces.\n\nEvery event has a visible form, normalized master form, exact card, short value,\nfield mode, owner and close status. Every statement has a literal card sequence\nand a fluent German working translation.\n\n## Dictionary architecture\n\nThe compact component/codebook architecture joins exactly to the current cards:\n\n| layer | card types | events |\n|---|---:|---:|\n| productive composition | 151 | 353 |\n| learned whole card | 22 | 28 |\n\nThis is a workable small-shop system. Most running text is built from reusable\ncomponents; the memorized deck is only twenty-two cards, several of which share\nshort teaching heads such as vessel, clear run or previous item. The 57 written\naliases are handled by the ten-rule reader sheet.\n\n## Important editorial warning\n\nThe new dictionary deliberately keeps two columns: the current card value and\nthe older component-closure reading snapshot. The current value controls the\nnew translations. The snapshot is not silently treated as current because it\nexposes unresolved historical conflicts, notably:\n\n- `tchody`: final addition versus cool/store;\n- `qekey`: brief processing versus raw;\n- `dchey`: base part versus root;\n- `sh`: hold versus stalk;\n- `dshedy`: short settle versus fresh water.\n\nThese are now the highest-value next targets. A compact audit of all twenty-two\nwhole cards should choose one short default for each from their complete local\noccurrences and visible owners. No new component is needed until that deck is\ninternally consistent.",
+              "sha256": "0a7da30748203ef6f3fec74b93e2c408ab9a88646b84816535629c09a144264b"
+            }
+          ]
+        },
+        {
+          "target": "SEM:813f7d0d662e99c2ce93",
+          "claim": "In the Pass201 older whole-card reading, dshedy means fresh water.",
+          "claim_type": "lexical_hypothesis",
+          "card_basis_sha256": "7d3de8e86a6e882796bc49b2a1673a249c4661cd93db5d6c3be792b001965487",
+          "effective_basis_sha256": "94de475e5974359503d122f02d48429a0bec864139fdea26434b3fe19ea719f9",
+          "evidence": [
+            {
+              "line": 1,
+              "line_end": 48,
+              "path": "experiments/yolo/sidequest_semantic_unified_prose_edition_two_hundred_first/TWO_HUNDRED_FIRST_UNIFIED_PROSE_REPORT.md",
+              "quote": "# Two-hundred-first pass: one current prose edition\n\n## Unified release\n\nThe four normalized sub-editions now form one continuous current prose reader:\n\n- 381 visible events;\n- 380 logical source tokens after the one line-edge read-once correction;\n- 135 fields;\n- 116 translated statements;\n- eleven records on seven fixed prose pages;\n- 173 exact cards with 230 unambiguous registered surfaces.\n\nEvery event has a visible form, normalized master form, exact card, short value,\nfield mode, owner and close status. Every statement has a literal card sequence\nand a fluent German working translation.\n\n## Dictionary architecture\n\nThe compact component/codebook architecture joins exactly to the current cards:\n\n| layer | card types | events |\n|---|---:|---:|\n| productive composition | 151 | 353 |\n| learned whole card | 22 | 28 |\n\nThis is a workable small-shop system. Most running text is built from reusable\ncomponents; the memorized deck is only twenty-two cards, several of which share\nshort teaching heads such as vessel, clear run or previous item. The 57 written\naliases are handled by the ten-rule reader sheet.\n\n## Important editorial warning\n\nThe new dictionary deliberately keeps two columns: the current card value and\nthe older component-closure reading snapshot. The current value controls the\nnew translations. The snapshot is not silently treated as current because it\nexposes unresolved historical conflicts, notably:\n\n- `tchody`: final addition versus cool/store;\n- `qekey`: brief processing versus raw;\n- `dchey`: base part versus root;\n- `sh`: hold versus stalk;\n- `dshedy`: short settle versus fresh water.\n\nThese are now the highest-value next targets. A compact audit of all twenty-two\nwhole cards should choose one short default for each from their complete local\noccurrences and visible owners. No new component is needed until that deck is\ninternally consistent.",
+              "sha256": "0a7da30748203ef6f3fec74b93e2c408ab9a88646b84816535629c09a144264b"
+            }
+          ]
+        },
+        {
+          "target": "SEM:4fda516189260f87b030",
+          "claim": "dshedy → hold briefly; close",
+          "claim_type": "lexical_hypothesis",
+          "card_basis_sha256": "d6dd09ad367bbb6c9009e07ab7bb4ed58c43a341e348887924b4b767c46dde3b",
+          "effective_basis_sha256": "6b53c4950a8d2e7713632f9e21e57b92cdf56b7f022c3e8f9fde90a666c212b1",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 35,
+              "line_end": 35,
+              "path": "experiments/yolo/sidequest_semantic_productive_paradigm_table_six_hundred_thirty_fifth/SIX_HUNDRED_THIRTY_FIFTH_REPORT.md",
+              "quote": "| `dshedy` | hold briefly; close |",
+              "sha256": "4c9b99fc964fd1e97b7424915fe9d66d2e60db1bafb42cd9944e13e3d9d4aead",
+              "source_id": "LEGACY_COMPONENT:ed240b3cc6bab5edbe98",
+              "source_section": "2. `SH × E/EE × Y/DY`",
+              "table_header": "| Form | Reading |"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 12,
+          "line_end": 12,
+          "path": "experiments/yolo/sidequest_semantic_exception_anatomy/EXCEPTION_ANATOMY_REPORT.md",
+          "quote": "- `dshedy = SHED+E+CLOSE`: nicht mehr Frischwasser, sondern kurz absetzen und schließen.",
+          "sha256": "86a13932bcb5957e1575510ff7b57e0becf91af287780fe341b58a13ca9f52c5",
+          "source_id": "LEGACY_COMPONENT:2716599a41c843fb9152",
+          "source_section": "Die stärksten Reparaturen",
+          "table_header": null
+        }
+      ],
+      "reviewed": true,
+      "global_novelty_claim": false
+    },
+    {
+      "index": 16,
+      "target": "SEM:b82b1a1fa3c365ab87ff",
+      "input_binding": {
+        "target": "SEM:b82b1a1fa3c365ab87ff",
+        "claim": "okedals → OK+AL+S",
+        "claim_type": "formal_role",
+        "card_basis_sha256": "5d8c6ef78af668f0f59826d23016d13a256f09322f06edbb52771e1096266421",
+        "effective_basis_sha256": "1da461b0cc2f44b76161307c61da9d921e48ef2fd88bd44f8fc596b3bdb6d8e7"
+      },
+      "decision": "recover_scoped_assertion_or_instance",
+      "reason": "Only the exact parse was found. The complete setting-plus-target-selection command is explicit but labelled provisional and a paraphrase, not a deciphered sentence.",
+      "cards": [
+        "CLEAN_GAP_AZ:okedals_set_target_select"
+      ],
+      "counterparts": [],
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 74,
+          "line_end": 74,
+          "path": "experiments/yolo/gdt527_right_edge_learned_stem_extension/REPORT.md",
+          "quote": "- `okedals = OK+AL+S` → „setzen – am Zielort wählen“;",
+          "sha256": "d44bc2efa60ca98d31e4c37c51aa85529056d3bf2ae2c903e386a091e9cf314c",
+          "source_id": "LEGACY_COMPONENT:40eeabd93b9933ec076a",
+          "source_section": "Was die Werkstattlesung ungefähr sagt",
+          "table_header": null
+        }
+      ],
+      "reviewed": true,
+      "global_novelty_claim": false
+    },
+    {
+      "index": 17,
+      "target": "SEM:bc759eb8ba835066963d",
+      "input_binding": {
+        "target": "SEM:bc759eb8ba835066963d",
+        "claim": "rsheal → RSHE+AL",
+        "claim_type": "formal_role",
+        "card_basis_sha256": "502bebd2823eb1f82c9391bb74ac3e67ff4173d09d54bac8390e55b749bf6f40",
+        "effective_basis_sha256": "eb53206a4d2758120cd99cbc726872088e11916d37b008cd611660efeadf9f4b"
+      },
+      "decision": "recover_scoped_assertion_or_instance",
+      "reason": "WARMWASSER is the old rival, not the new washing-fluid-to-place reading. Recover the full directed phrase while preserving the source’s removal of unlicensed warmth.",
+      "cards": [
+        "CLEAN_GAP_AZ:rsheal_wash_fluid_to_place"
+      ],
+      "counterparts": [
+        {
+          "target": "SEM:c5274835330845ff6c65",
+          "claim": "RSHEAL → WARMWASSER",
+          "claim_type": "lexical_hypothesis",
+          "card_basis_sha256": "5c5d0cd86a4eec1c56d70ade172ae0a873c2d4d8dac065e1e8c40ad576291549",
+          "effective_basis_sha256": "c0ee676cbc74caef65aa08de6f1704db8989a462fde7468b38b86171855f7e90",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 148,
+              "line_end": 148,
+              "path": "experiments/yolo/sidequest_semantic_thermal_temporal_completion/R2_REPORT.md",
+              "quote": "- `RSHEAL = WARMWASSER`;",
+              "sha256": "3938eafaba2acf826e87f2e22a7ba993dcecf2a14a6e8b896ce405b20bdcab14",
+              "source_id": "LEGACY_COMPONENT:6e5c84200b3431cef37b",
+              "source_section": "4. CTH: BEREIT; SHECTHY bleibt TEMPERIERT",
+              "table_header": null
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 22,
+          "line_end": 22,
+          "path": "experiments/yolo/sidequest_semantic_b2_liquid_application_four_hundred_thirty_eighth/FOUR_HUNDRED_THIRTY_EIGHTH_REPORT.md",
+          "quote": "- `rsheal = RSHE+AL` — WASCHFLÜSSIGKEIT AN DIE STELLE.",
+          "sha256": "cc7fd11cc128e4d404b4de282aad07f945ec0f69ae9f9ad114c0b61f1d3d955e",
+          "source_id": "LEGACY_COMPONENT:cf69f9a82881c10bc07e",
+          "source_section": "Vier produktive Reparaturen",
+          "table_header": null
+        }
+      ],
+      "reviewed": true,
+      "global_novelty_claim": false
+    }
+  ],
+  "counts": {
+    "reviewed_navigation_cases": 18,
+    "cards": 18,
+    "coverage_classes": {
+      "existing_assertion_additional_source_case": 3,
+      "local_composition_instance": 11,
+      "source_defined_complete_rule": 1,
+      "historical_rejected_rule": 1,
+      "local_register_comparison_instance": 1,
+      "historical_rejected_lexical_rival": 1
+    },
+    "exact_evidence_checks": 69
+  },
+  "comparison_method": "Bounded current-card wholeform/meaning and matching-source metadata search followed by selected primary evidence. Includes currently built AM/AN/AO/AW context; no full equivalence audit claimed.",
+  "validation": {
+    "status": "PASS",
+    "bound_input_cards": 18,
+    "exact_evidence_checks": 69
+  },
+  "limits": [
+    "No claim that every recovered composition is a new independent semantic model.",
+    "Existing full assertions receive source cases; local compositions are counted separately; complete source-defined rule rivals stay separate.",
+    "No raw manuscript data, images, new tests, operational mutation or source edits."
+  ]
+}
