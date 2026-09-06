@@ -115,7 +115,7 @@ Understanding dossier: `docs/VOYNICH_UNDERSTANDING.md`;
 Memory: `research_registry/README.md`; `vmanus-work ideas search QUERY`.
 Use ideas duplicates/show/reconsider;8cards default,20max. Never load whole JSONL.
 Priorities: `vmanus-work priorities`; `research_registry/SEMANTIC_PRIORITY.md`.
-Two exact word-claim groups deduped;82IP triaged. Full historical identity remains open; no ready semantic test.
+Full source queue: priorities --queue; research_registry/SEMANTIC_INVENTORY.md. Identity review remains open.
 Imported claims unreviewed; new data does not itself reopen tests.
 Use lookup ID for primaries; retain vmanus-exp route-check before new routes.
 GDT001–336 byte-frozen;GDT336 weak placement prior. GDT337+ require

@@ -5,15 +5,19 @@ ideas, research families, attempts and historical events separate. Record counts
 are **not** counts of independent meaning hypotheses. Importing an old PASS or
 FAIL does not endorse its scientific interpretation.
 
-## Assessed hypothesis components and priorities
+## All historical semantic ideas in the operational list
 
-The substantive first pass is in [SEMANTIC_PRIORITY.md](SEMANTIC_PRIORITY.md).
-Use `./vmanus-work priorities` for eight groups, `priorities --show GROUP_ID`
-for one decision, and `ideas relations ID` for source-bound component links.
-Two repeated word assignments are deduplicated at claim level; whole experiments
-and distinct variants are preserved. Conditional ranks are not execution approval.
-All 82 IP proposals have provisional queue dispositions; full historical identity
-adjudication remains incomplete and has an explicit coverage report.
+Use `./vmanus-work priorities --queue QUERY` for the full historical source list,
+including older proposals and meaning components outside IP001–IP082. Default
+output is eight cards. `--show ID` opens one dossier; `--item-type` separates
+proposal candidates, hypothesis components, source excerpts and unresolved blocks.
+See [SEMANTIC_INVENTORY.md](SEMANTIC_INVENTORY.md) for counts and exact coverage.
+Unknown scope stays visible. Source records are not independent idea counts.
+
+[SEMANTIC_PRIORITY.md](SEMANTIC_PRIORITY.md) preserves the first assessed component
+comparisons and conditional priorities. The 82-IP triage remains a subset, not
+the full queue. Search the full queue before the older `ideas duplicates` cards;
+source and hypothesis deduplication remain distinct and never approve reruns.
 
 ## Normal work: load a shortlist, then one dossier
 

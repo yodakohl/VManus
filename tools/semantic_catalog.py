@@ -68,29 +68,14 @@ def validate_catalog(data, root=ROOT):
     return {'status':'PASS','groups':len(seen),'semantic_truth_validated':False}
 
 def main(argv=None):
+    import sys
+    arguments=list(sys.argv[1:] if argv is None else argv)
+    if '--queue' in arguments:
+        from tools.semantic_inventory import main as inventory_main
+        return inventory_main([x for x in arguments if x != '--queue'])
     p=argparse.ArgumentParser();p.add_argument('query',nargs='?',default='');p.add_argument('--show');p.add_argument('--queue',action='store_true');p.add_argument('--disposition');p.add_argument('--tier');p.add_argument('--limit',type=int,default=8);p.add_argument('--offset',type=int,default=0);p.add_argument('--build',action='store_true');a=p.parse_args(argv)
     if a.build:print(json.dumps(build()));return
     if not 1<=a.limit<=20 or a.offset<0:p.error('limit 1..20; offset >=0')
-    if a.queue:
-        queue_path='research_registry/decisions/idea_queue_triage.json'
-        validation=json.loads((ROOT/'research_registry/decisions/semantic_catalog_validation.json').read_text())
-        if digest(ROOT/queue_path)!=validation['input_sha256'][queue_path]:
-            raise ValueError('stale queue validation')
-        queue=json.loads((ROOT/queue_path).read_text())['entries']
-        for entry in queue:
-            for relative in entry['source_paths']:
-                path=evidence_path(ROOT,relative)
-                if not path.is_file() or digest(path)!=validation['source_sha256'].get(relative):
-                    raise ValueError('stale queue source: '+relative)
-        if a.show:
-            rows=[x for x in queue if x['id']==a.show]
-            if not rows:p.error('unknown queue ID')
-            print(json.dumps(bounded_view(rows[0]),ensure_ascii=False,indent=2));return
-        queue=[x for x in queue if (not a.disposition or x['disposition']==a.disposition)
-               and a.query.casefold() in json.dumps(x,ensure_ascii=False).casefold()]
-        queue.sort(key=lambda x:x['id']);selected=queue[a.offset:a.offset+a.limit]
-        cards=[{k:x[k] for k in ['id','title','disposition','assessment_basis','ready','canonical_group_association']} for x in selected]
-        print(json.dumps({'results':cards,'matched':len(queue),'next_offset':a.offset+len(selected) if a.offset+len(selected)<len(queue) else None,'meaning':'Proposal-level triage only; no novelty or scientific approval.'},ensure_ascii=False,indent=2));return
     if a.disposition:p.error('--disposition requires --queue')
     data=json.loads((ROOT/DEST).read_text());validate_catalog(data);rows=data['groups']
     if a.show:

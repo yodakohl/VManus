@@ -1,5 +1,8 @@
 # Inhaltliche Deduplikation und Priorität — 2026-09-06
 
+Aktuelle vollständige Quellenliste: [SEMANTIC_INVENTORY.md](SEMANTIC_INVENTORY.md).
+Die unten genannten 82 IP-Vorschläge sind nur eine Teilmenge dieser Liste.
+
 Die erste inhaltliche Zusammenführung ist durchgeführt. Sie ist kein abgeschlossener
 Primäraudit jedes historischen Eintrags und keine neue Entschlüsselung.
 
