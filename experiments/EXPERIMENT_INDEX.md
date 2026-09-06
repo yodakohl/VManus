@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **836**
-- Experiment-associated tracked files: **15,683** (1.4 GiB)
-- Structured GDT337+ experiments: **501**
+- Experiments indexed: **837**
+- Experiment-associated tracked files: **15,696** (1.4 GiB)
+- Structured GDT337+ experiments: **502**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT838 | GDT838_recoded_passage_capacity_registration | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt838_recoded_passage_capacity/REPORT.md) | 13 | 22.3 KiB | 2 | STRUCTURED_YOLO |
 | GDT837 | GDT837_posthoc_existing_fit_error_census | `STRICT_RECOVERY_FAIL` | [report](../experiments/yolo/gdt837_scg_integrated_wholeword_control/REPORT.md) | 101 | 6.2 MiB | 4 | STRUCTURED_YOLO |
 | GDT836 | GDT836_integrated_W_engine_validation | `SOURCE_CAPACITY_STOP` | [report](../experiments/yolo/gdt836_integrated_wholeword_precedence/REPORT.md) | 26 | 162.1 KiB | 4 | STRUCTURED_YOLO |
 | GDT835 | GDT835_selection_diagnosis_refinement | `RETROSPECTIVE_PRECEDENCE_SEPARATION_PASS` | [report](../experiments/yolo/gdt835_wholeword_precedence_audit/REPORT.md) | 22 | 290.3 KiB | 3 | STRUCTURED_YOLO |
