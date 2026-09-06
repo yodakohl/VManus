@@ -3,9 +3,9 @@ Updated: 2026-09-06. Read first.
 
 ## Current mandate
 
-Latest request (2026-09-06): continue after GDT833. GDT834 completes the paired
-role-blind control: allrolescorrect, baselinefails, and correctkeysalreadyfound
-butrankedbelowtwowrongWvalues; see below.
+Latest request (2026-09-06): continue after GDT834. GDT835 registers a
+necessary wholeword-priority inverse check on all48frozenkeys. Its actual
+compatibility counts are unscored. No new optimizer or language model selected.
 No manuscript fit is selected. Root's personal whole-page orientation remains
 completed; subagents help with source metadata, root interprets images.
 
@@ -39,6 +39,19 @@ layouts. Source logistics alone were delegated. The observational dossier is
 `docs/visual_overview/README.md`; exact viewed images: `docs/visual_overview/SOURCES.json`.
 No new experimental or semantic claim, no new page admission. User's required
 visual understanding remains part of future work; no experiment executed; see the new proposed candidate below.
+
+## Registered — GDT835 necessary mandatory-wholeword priority
+
+`experiments/yolo/gdt835_wholeword_precedence_audit/REPORT.md`.
+The controlgenerator mandatesWbeforecomposedspelling;834legal() checksroles,
+positions,injection butomits thisinversecondition. CandidateownWdictionary
+(includingunusedW) mustforceeverymatchingdecodedword toitsoneWcarrier.
+All48discovery gates lockbeforeknowntruthjoin andheldconfirmation; no new
+fit,LMscore,keychoice or repaired834result. Existingcontroltruth ispublic:
+retrospectivediagnostic, notfreshblindvalidation. Counts notyetcomputed.
+TeninventedfixturetestsPASS. Separate42-wordsourcegrammarcensus isexploratory;
+no grammar scorer selected. Wpriority isnecessaryonlyforthefixedmandatory
+encoder, notfullsuffixinversion or optionalVoynichabbreviationevidence.
 
 ## Completed — GDT834 roles correct; word-value selection defeats control
 

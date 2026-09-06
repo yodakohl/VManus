@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **833**
-- Experiment-associated tracked files: **15,534** (1.4 GiB)
-- Structured GDT337+ experiments: **498**
+- Experiments indexed: **834**
+- Experiment-associated tracked files: **15,551** (1.4 GiB)
+- Structured GDT337+ experiments: **499**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT835 | GDT835_wholeword_precedence_registration | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt835_wholeword_precedence_audit/REPORT.md) | 17 | 172.2 KiB | 3 | STRUCTURED_YOLO |
 | GDT834 | GDT834_post_result_existing_restart_audit | `BASELINE_RECOVERY_FAIL` | [report](../experiments/yolo/gdt834_role_blind_mixed_control/REPORT.md) | 112 | 5.4 MiB | 2 | STRUCTURED_YOLO |
 | GDT833 | GDT833_reference_intervention_result | `ORTHOGRAPHY_EFFECT_AND_RECOVERY_PASS` | [report](../experiments/yolo/gdt833_reference_orthography_intervention/REPORT.md) | 97 | 5.3 MiB | 1 | STRUCTURED_YOLO |
 | GDT832 | GDT832_post_result_reference_orthography_audit | `CONTROL_RECOVERY_FAIL` | [report](../experiments/yolo/gdt832_joint_family_context_control/REPORT.md) | 193 | 20.3 MiB | 1 | STRUCTURED_YOLO |

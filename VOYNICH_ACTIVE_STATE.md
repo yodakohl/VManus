@@ -6,6 +6,18 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### GDT835 mandatory-W inverse audit registered (2026-09-06; unscored)
+
+Controlsourcewholeword-first precedence is absent from834fitterlegal().
+Newnecessaryfalsifier uses eachcandidateownWvaluesincludinginactiveW: every
+matchingdecodedwordmusthavebeenthesingletonassignedWcarrier. All48discovery
+classificationslockbeforetruthjoin/heldconfirmation; no score/refit/keyselection.
+TenfixturetestsPASS. Existingkeys/truthpublic, so retrospectivediagnosticonly.
+Separate42-wordgrammarcensus finds35nonadjacentheads andonly9of38finiteforms
+coveredbyreference, withconstructionshift; no grammar model or likelihood
+attribution selected. No fullinverse, optionalabbreviation or Voynichclaim.
+Primary: `experiments/yolo/gdt835_wholeword_precedence_audit/REPORT.md`.
+
 ### GDT834 complete: roles recovered, wrong word values selected (2026-09-06)
 
 Public1daf02ee precedes48fits/6selections, lockedbeforetruth. Scientific

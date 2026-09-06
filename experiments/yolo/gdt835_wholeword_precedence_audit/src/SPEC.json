@@ -1,0 +1,15 @@
+{
+  "schema": "GDT835_MANDATORY_W_SPEC_V1",
+  "world_ids": [83401, 83402, 83403],
+  "arms": ["BLIND", "TYPED"],
+  "starts": [0, 1, 2, 3, 4, 5, 6, 7],
+  "candidate_panel": "All 48 byte-frozen GDT834 restarts; no new candidate or selection",
+  "invariant": "If concatenated candidate plaintext matches any W output in that same candidate key, original cipher word must be the singleton corresponding W carrier",
+  "gate_inputs": "Discovery ciphertext and each candidate's own packages, including inactive W slots; no planted deck, reference model, plaintext truth or held payload",
+  "locking": "All 48 discovery decisions frozen before truth join and held confirmation",
+  "confirmatory_scope": "Retrospective exposed control panel; procedural staging is not fresh blinding",
+  "decision_order": ["INVARIANT_FAILURE", "SEPARATION_NOT_CONFIRMED", "RETROSPECTIVE_PRECEDENCE_SEPARATION_PASS"],
+  "pass_rule": "Every observed-truth-equivalent key passes discovery; every other key fails; each of six cells has a compatible key; every discovery-compatible key has no held W violation and exactly correct held words",
+  "claim_ceiling": "Necessary compatibility under mandatory wholeword precedence, not full canonical suffix inversion, optional abbreviations, new end-to-end recovery or Voynich translation",
+  "sealed_data": {"f84": "FORBIDDEN", "f84r": "FORBIDDEN"}
+}
