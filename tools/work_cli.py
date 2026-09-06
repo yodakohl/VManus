@@ -9,11 +9,15 @@ from tools.experiment_lookup import lookup_experiments, render_lookup
 
 def main(argv: list[str] | None = None) -> int:
     arguments = list(sys.argv[1:] if argv is None else argv)
+    if arguments and arguments[0] == 'priorities':
+        from tools.semantic_catalog import main as priorities_main
+        return priorities_main(arguments[1:])
     if arguments and arguments[0] == 'ideas':
         from tools.research_registry import main as ideas_main
         return ideas_main(arguments[1:])
     parser = argparse.ArgumentParser(prog='vmanus-work')
     commands = parser.add_subparsers(dest='command', required=True)
+    commands.add_parser('priorities', help='bounded hypothesis groups and conditional research priorities')
     commands.add_parser('ideas', help='scalable research memory: search, duplicates, reconsider, show')
     lookup = commands.add_parser('lookup', help='compact metadata pointers; opens no manuscript data')
     lookup.add_argument('identifiers', nargs='+')

@@ -1,0 +1,63 @@
+{
+  "assessment_bases": {
+    "primary_reports": 14,
+    "proposal_only": 9,
+    "registry_summary_only": 68,
+    "unreviewed_import": 4966
+  },
+  "catalog_group_categories": {
+    "INHERITED_COMPARISON_NAVIGATION": 2,
+    "SINGLE_EXISTING_DOSSIER": 70,
+    "TARGETED_REVIEWED_COMPARISON_NOT_BLANKET_MEMBER_REVIEW": 18
+  },
+  "coverage_counts": {
+    "EXACT_SHARED_REPORT_NAVIGATION_ONLY": 56,
+    "EXPLICIT_FAMILY_LINK_NOT_DUPLICATE_DECISION": 1,
+    "EXPLICIT_RELATION_NAVIGATION_ONLY": 1672,
+    "FAMILY_RECORD_NOT_MEMBER_DEDUP": 59,
+    "UNRESOLVED_NO_EXPLICIT_LINK": 3269
+  },
+  "covered_rows": 5057,
+  "imported_records": 5057,
+  "imported_records_with_catalog_association": 86,
+  "imported_records_with_targeted_group_association": 25,
+  "imported_records_without_catalog_association": 4971,
+  "input_sha256": {
+    "research_registry/SOURCE_MANIFEST.json": "c1ffa1c06bc680204cc6d6f2147bdaa985206cd9fd9d3ff619549770f86330b6",
+    "research_registry/curation.jsonl": "ba3e8710f9760e2db0039b97862c34efc49a91c3a40a9f568b560d8c5a5ba9dc",
+    "research_registry/decisions/semantic_catalog.json": "3d5a0d4cf3b7d93ca1b7068b0521278bf6eca3cd30b6cc9aa5a15d5b2ee72297",
+    "research_registry/imported.jsonl": "2952e539adab05440aede6853d359e1e2d95de46be6e04c8f3985ec7e9dbd2ca",
+    "tools/research_priority_coverage.py": "f5b06ca372482e80a785081b186e93304a068516d364c090d0809b5074d7f2c4",
+    "tools/research_registry.py": "9c131bcd8adddb43e7b8f01a2d1a3a69dd5f606d79f489ea8c44e773dcb4e5d9",
+    "tools/semantic_catalog.py": "c3b6b676da04d47b39e7853fc7f003d435180448ac4ddbff590c99f5c2942732"
+  },
+  "kinds": {
+    "anchor": 11,
+    "attempt": 870,
+    "family": 59,
+    "history": 4035,
+    "idea": 82
+  },
+  "ledger_events": 4109,
+  "limitations": [
+    "Ledger events, attempts, historical keys, proposals and families are different units; no count is a count of unique meaning hypotheses.",
+    "Every imported record gets a row; authored ideas can supply incoming links but are not extra imported rows.",
+    "Existing duplicate_of links are displayed declarations, not independently adjudicated here.",
+    "same_experiment_reference links preserve separate records and denote experiment navigation only.",
+    "Explicit family links retain their declared relation type; related_to does not imply duplicate_of.",
+    "Exact shared report paths are navigation hints, not family membership or semantic equivalence.",
+    "Family scope can include structural, methodological and acquisition work; family records are not all semantic ideas.",
+    "Missing links remain unresolved; this audit neither merges records nor approves reopening.",
+    "No lexical candidate generation, report-body reading, manuscript data or images."
+  ],
+  "outgoing_explicit_relation_types": {
+    "related_to": 23,
+    "same_experiment_reference": 992
+  },
+  "semantic_duplicate_groups": null,
+  "source_freshness_errors": [],
+  "status": "COVERAGE_ENUMERATED_SEMANTIC_DEDUP_NOT_ESTABLISHED",
+  "table": "research_registry/decisions/full_history_coverage.tsv",
+  "table_sha256": "1967c139dc56ab5e05f4068124caed8538c0e95cce522d811aca7f8a060225bf",
+  "unique_hypotheses": null
+}

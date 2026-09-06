@@ -1,0 +1,144 @@
+{
+  "reviewer": "root",
+  "groups": [
+    {
+      "id": "MH-RECIPE-EVENT",
+      "title": "Rezeptartige Ereignisstruktur",
+      "claim": "Anonyme vollständige Textdatensätze übertragen ein unabhängig gewonnenes Rezept-Ereignisschema über bloße Größe/Feldzahl hinaus.",
+      "members": [
+        "GDT340"
+      ],
+      "assessment_basis": "primary_reports",
+      "sources": [
+        "experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/REPORT.md"
+      ],
+      "blockers": [
+        "comparator_axis_limited",
+        "null_not_mobile",
+        "nonconfirming_recipe_panel"
+      ],
+      "reopen_conditions": [
+        "Independently validated comparator and mobile matched target contrasts; a revised instrument requires a new justified design."
+      ],
+      "not_sufficient": [
+        "More records alone",
+        "Positive descriptive Pharma gain"
+      ],
+      "priority_tier": "ARCHIVE_FIXED_TEST",
+      "priority_reason": "Recipe/Stars gain -6.610 bits, Pharma +1.305 but zero mobile null records; no immediate discriminating retest.",
+      "ready_to_run": false,
+      "relationship": "distinct_hypothesis_with_supporting_attempts"
+    },
+    {
+      "id": "MH-LOCAL-RELATION",
+      "title": "Sichtbare lokale Text-Objekt-Relation",
+      "claim": "Singuläre gezeichnete Kontakt-/Innenbeziehungen tragen einen wiederverwendbaren formalen Kontrast gegenüber passenden Nachbarfällen.",
+      "members": [
+        "GDT391"
+      ],
+      "assessment_basis": "primary_reports",
+      "sources": [
+        "experiments/yolo/gdt391_local_object_relation_normalization/REPORT.md"
+      ],
+      "blockers": [
+        "missing_matched_contrast",
+        "insufficient_independent_data"
+      ],
+      "reopen_conditions": [
+        "At least 50 matched positives, 10 mixed source units and 5 physical folios under the original contract; new complete units must add singular and same-topology comparator states."
+      ],
+      "not_sufficient": [
+        "61 positive geometries alone",
+        "More all-positive f68 arrays",
+        "Re-observing f100r.10"
+      ],
+      "priority_tier": "CONDITIONAL_ACQUISITION",
+      "priority_reason": "Concrete eligible seeds exist, but 4/4/4 is far from 50/10/5; do not spend remaining image allowance without a source-specific capacity argument.",
+      "ready_to_run": false,
+      "relationship": "distinct_hypothesis_with_supporting_attempts"
+    },
+    {
+      "id": "AUX-E-PLACEMENT",
+      "title": "e-Position über zwei Zeichenkerne",
+      "claim": "Die Position von einem e überträgt ihren Nachbarschaftskontrast zwischen CKH und CTH auf unabhängige Blätter.",
+      "members": [
+        "GDT854"
+      ],
+      "assessment_basis": "primary_reports",
+      "sources": [
+        "experiments/yolo/gdt854_e_placement_cross_kernel_transfer/REPORT.md"
+      ],
+      "blockers": [
+        "insufficient_independent_data"
+      ],
+      "reopen_conditions": [
+        "Three mixed folios per kernel; at least two other-kernel training folios per fold; at least eight total evaluation folios."
+      ],
+      "not_sufficient": [
+        "More CKH-only folios",
+        "Within-kernel rescue"
+      ],
+      "priority_tier": "STRUCTURAL_ONLY",
+      "priority_reason": "A precise potential data repair exists (CTH only f83), but it does not distinguish meanings and is excluded from semantic execution rank.",
+      "ready_to_run": false,
+      "relationship": "distinct_hypothesis_with_supporting_attempts"
+    },
+    {
+      "id": "AUX-SPACING",
+      "title": "Leerraum und äußerer Kontext",
+      "claim": "Zusammen-/Getrenntschreibung desselben W trägt unter den festen Paarbedingungen einen übertragbaren Kontextkontrast.",
+      "members": [
+        "GDT853"
+      ],
+      "assessment_basis": "primary_reports",
+      "sources": [
+        "experiments/yolo/gdt853_spacing_context_transfer/REPORT.md"
+      ],
+      "blockers": [
+        "missing_matched_contrast"
+      ],
+      "reopen_conditions": [
+        "Eight held physical folios and three W with nonempty balanced pairs under all fixed matching fields."
+      ],
+      "not_sufficient": [
+        "More unmatched text",
+        "Extra visual admission by itself",
+        "Relaxing starting-index matching"
+      ],
+      "priority_tier": "STRUCTURAL_ONLY",
+      "priority_reason": "Zero eligible held pairs; no immediate repair shown and no direct meaning discriminator.",
+      "ready_to_run": false,
+      "relationship": "distinct_hypothesis_with_supporting_attempts"
+    },
+    {
+      "id": "AUX-LM-RESERVE",
+      "title": "Blattrand-Kontrast: Reparierbarkeit des Panels",
+      "claim": "Ein bisher unbenutzter Pflanzenblattbestand kann gleichzeitig ursprüngliche Lagenbalance und Phasenvariation erhalten.",
+      "members": [
+        "GDT855",
+        "FAMILY:HERBAL_WHOLE_PAGE_LEAF_MARGIN_STATE"
+      ],
+      "assessment_basis": "primary_reports",
+      "sources": [
+        "experiments/yolo/gdt855_leaf_margin_source_availability/POST_COUNT_FEASIBILITY.md"
+      ],
+      "blockers": [
+        "current_reserve_mathematically_unsuitable",
+        "instrument_not_validated"
+      ],
+      "reopen_conditions": [
+        "A genuinely different exposure-audited reserve meeting all original balance/phase constraints; the original instrument validation remains a separate gate."
+      ],
+      "not_sufficient": [
+        "Regrading f35/f36/f37",
+        "Adding three q05 leaves",
+        "Lowering the quire cap"
+      ],
+      "priority_tier": "ARCHIVE_CURRENT_DATA",
+      "priority_reason": "The current reserve cannot repair the design under any leaf-state assignment. Family linkage is dependency, not duplicate identity.",
+      "ready_to_run": false,
+      "relationship": "shared_dependency_not_duplicate"
+    }
+  ],
+  "limits": "Curation of existing results; no new manuscript findings or experiment readiness."
+}

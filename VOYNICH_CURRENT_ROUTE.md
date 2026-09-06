@@ -15,7 +15,7 @@ Independent four-deck refitPASS. Local addedgain shrinks to .001067L/.013356DY.
 Retrospective primary robustness only; no old null/verdict/meaning reuse.
 865complete; no refit.809face keys unchanged.
 868:1767/1777all3exact rawwhole;1776all3single-group. RFf48r.4onefragment;
-4209lineparityPASS. Nineother events normalized. No featureaudit/refit/meaning.
+4209lineparityPASS. Nineother events normalized. No feature/meaning audit.
 866:f95v2 first-line upperlink seenby2viewers,0interveninggroups; no selective-scope anchor. Stop.
 867complete: native shared Yale1006199=f69v+f70r1/f70r2; orientation only.
 869:144metadata tagsPASS; no direction map. Metadata/imaging side route stopped by user; do not resume.
@@ -33,7 +33,7 @@ fails; no model/null/meaning or within-kernel rescue. IP012 deferred:
 no motivated remodeling rival.862/IP053 mirror screen:1/3materialpairs; stop
 before targetcomparison, no show-through claim.863:7all3 non-qo followers
 afterstandaloneqo on6leaves defeat strict immediateecho;864two viewers see
-space-like seams in f76r21 qo|olain and30 qo|qokey. No wordhood/meaning.
+space-like seams in f76r21 qo|olain and30 qo|qokey. No meaning.
 
 855:onlyf35/f36/f37(allq05)outside60LMfolios; none repairs LM002quirecap/phase.
 RBR002closed; no underlayer regrade.
@@ -48,8 +48,7 @@ GPU/subagents authorized; no other LLM API keys. No public decipherment-approach
 searches: the user says these are exhausted. Understand project history and
 manuscript appearance before fixing a route; use primary internal evidence.
 
-841–843 stopped: visual star observations retained in primary reports via lookup.
-No ownership/meaning or regrading.
+841–843 stopped; lookup for native star observations. No meaning or regrading.
 
 ## Earlier screens and control
 
@@ -58,7 +57,6 @@ No general boundary/cipher rejection.
 
 ## Visual understanding and earlier routes
 
-Seven orientations:34renderings/33canvases/38keys;7more target-native contexts.
 871complete: full67r/68r views; all45admittedkeys have personal native contexts.
 Sources: `docs/visual_overview/README.md`.
 f76r offset signs are a known functionally unresolved column; f4r rot is an
@@ -116,9 +114,11 @@ Understanding dossier: `docs/VOYNICH_UNDERSTANDING.md`;
 
 Memory: `research_registry/README.md`; `vmanus-work ideas search QUERY`.
 Use ideas duplicates/show/reconsider;8cards default,20max. Never load whole JSONL.
+Priorities: `vmanus-work priorities`; `research_registry/SEMANTIC_PRIORITY.md`.
+Two exact word-claim groups deduped;82IP triaged. Full historical identity remains open; no ready semantic test.
 Imported claims unreviewed; new data does not itself reopen tests.
 Use lookup ID for primaries; retain vmanus-exp route-check before new routes.
-Keep GDT001–336 byte-frozen; GDT336 is only a weak placement prior. GDT337+ require
+GDT001–336 byte-frozen;GDT336 weak placement prior. GDT337+ require
 scaffold/manifests; GDT394+ explicitly seal f84/f84r. New relation packets require
 `check-edge-packet` capacity/provenance/held/mobile-null gates before scoring.
 GDT388 endpoint/failure interpretation: `docs/RELATION_GATE_SCOPE_CORRECTION.md`.
@@ -126,6 +126,5 @@ Local visual observations are distinct from ordered inscription edges; one
 emitted gate error does not establish passage of the other scientific gates.
 Record material corrections in `experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv`;
 `VOYNICH_ACTIVE_STATE.md` holds full claims. Old logs/handoff are recovery archives.
-Publish after exact staged privacy/scope checks; preserve unrelated files.
-Pre-existing GDT600 binding/TSV index debt remains.
-Workflow: `docs/WORKFLOW.md`.
+Publish after staged privacy/scope checks; preserve unrelated files.
+GDT600 binding/index debt remains.

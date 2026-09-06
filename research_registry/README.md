@@ -5,6 +5,16 @@ ideas, research families, attempts and historical events separate. Record counts
 are **not** counts of independent meaning hypotheses. Importing an old PASS or
 FAIL does not endorse its scientific interpretation.
 
+## Assessed hypothesis components and priorities
+
+The substantive first pass is in [SEMANTIC_PRIORITY.md](SEMANTIC_PRIORITY.md).
+Use `./vmanus-work priorities` for eight groups, `priorities --show GROUP_ID`
+for one decision, and `ideas relations ID` for source-bound component links.
+Two repeated word assignments are deduplicated at claim level; whole experiments
+and distinct variants are preserved. Conditional ranks are not execution approval.
+All 82 IP proposals have provisional queue dispositions; full historical identity
+adjudication remains incomplete and has an explicit coverage report.
+
 ## Normal work: load a shortlist, then one dossier
 
 ```bash

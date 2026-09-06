@@ -1,0 +1,2270 @@
+{
+  "schema_version": 1,
+  "scope": "Whole family/anchor navigation plus explicitly reviewed hypothesis components; historical record coverage is reported separately.",
+  "identity_rule": "Only exact_duplicate at the declared claim component level collapses repeated hypotheses. Shared methods, sources and prerequisites never merge hypotheses or entire experiments.",
+  "priority_rule": "No READY entries. Conditional ranks order evidence acquisition, not predictions of success.",
+  "groups": [
+    {
+      "id": "MH-RECIPE-EVENT",
+      "title": "Rezeptartige Ereignisstruktur",
+      "claim": "Anonyme vollständige Textdatensätze übertragen ein unabhängig gewonnenes Rezept-Ereignisschema über bloße Größe/Feldzahl hinaus.",
+      "assessment_basis": "primary_reports",
+      "sources": [
+        "experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/REPORT.md"
+      ],
+      "blockers": [
+        "comparator_axis_limited",
+        "null_not_mobile",
+        "nonconfirming_recipe_panel"
+      ],
+      "reopen_conditions": [
+        "Independently validated comparator and mobile matched target contrasts; a revised instrument requires a new justified design."
+      ],
+      "not_sufficient": [
+        "More records alone",
+        "Positive descriptive Pharma gain"
+      ],
+      "priority_tier": "ARCHIVE_FIXED_TEST",
+      "priority_reason": "Recipe/Stars gain -6.610 bits, Pharma +1.305 but zero mobile null records; no immediate discriminating retest.",
+      "ready_to_run": false,
+      "relationship": "distinct_hypothesis_with_supporting_attempts",
+      "member_ids": [
+        "GDT340"
+      ],
+      "source_sha256": {
+        "experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/REPORT.md": "741e46f0e237478b87368809b74e4e0f58efb0f957cbc7a51d3dd5ec58dd9d24"
+      }
+    },
+    {
+      "id": "MH-LOCAL-RELATION",
+      "title": "Sichtbare lokale Text-Objekt-Relation",
+      "claim": "Singuläre gezeichnete Kontakt-/Innenbeziehungen tragen einen wiederverwendbaren formalen Kontrast gegenüber passenden Nachbarfällen.",
+      "assessment_basis": "primary_reports",
+      "sources": [
+        "experiments/yolo/gdt391_local_object_relation_normalization/REPORT.md"
+      ],
+      "blockers": [
+        "missing_matched_contrast",
+        "insufficient_independent_data"
+      ],
+      "reopen_conditions": [
+        "At least 50 matched positives, 10 mixed source units and 5 physical folios under the original contract; new complete units must add singular and same-topology comparator states."
+      ],
+      "not_sufficient": [
+        "61 positive geometries alone",
+        "More all-positive f68 arrays",
+        "Re-observing f100r.10"
+      ],
+      "priority_tier": "CONDITIONAL_ACQUISITION",
+      "priority_reason": "Concrete eligible seeds exist, but 4/4/4 is far from 50/10/5; do not spend remaining image allowance without a source-specific capacity argument.",
+      "ready_to_run": false,
+      "relationship": "distinct_hypothesis_with_supporting_attempts",
+      "member_ids": [
+        "GDT391"
+      ],
+      "source_sha256": {
+        "experiments/yolo/gdt391_local_object_relation_normalization/REPORT.md": "78d0248ddfc8a1d3b9927c763686a3c946445cf188709c94a2c9b7b8176da37e"
+      }
+    },
+    {
+      "id": "AUX-E-PLACEMENT",
+      "title": "e-Position über zwei Zeichenkerne",
+      "claim": "Die Position von einem e überträgt ihren Nachbarschaftskontrast zwischen CKH und CTH auf unabhängige Blätter.",
+      "assessment_basis": "primary_reports",
+      "sources": [
+        "experiments/yolo/gdt854_e_placement_cross_kernel_transfer/REPORT.md"
+      ],
+      "blockers": [
+        "insufficient_independent_data"
+      ],
+      "reopen_conditions": [
+        "Three mixed folios per kernel; at least two other-kernel training folios per fold; at least eight total evaluation folios."
+      ],
+      "not_sufficient": [
+        "More CKH-only folios",
+        "Within-kernel rescue"
+      ],
+      "priority_tier": "STRUCTURAL_ONLY",
+      "priority_reason": "A precise potential data repair exists (CTH only f83), but it does not distinguish meanings and is excluded from semantic execution rank.",
+      "ready_to_run": false,
+      "relationship": "distinct_hypothesis_with_supporting_attempts",
+      "member_ids": [
+        "GDT854"
+      ],
+      "source_sha256": {
+        "experiments/yolo/gdt854_e_placement_cross_kernel_transfer/REPORT.md": "da4b12a7fa4d3f59c56e79a329ff5e26763a3ac03b593b577f2f6a65904e4ba5"
+      }
+    },
+    {
+      "id": "AUX-SPACING",
+      "title": "Leerraum und äußerer Kontext",
+      "claim": "Zusammen-/Getrenntschreibung desselben W trägt unter den festen Paarbedingungen einen übertragbaren Kontextkontrast.",
+      "assessment_basis": "primary_reports",
+      "sources": [
+        "experiments/yolo/gdt853_spacing_context_transfer/REPORT.md"
+      ],
+      "blockers": [
+        "missing_matched_contrast"
+      ],
+      "reopen_conditions": [
+        "Eight held physical folios and three W with nonempty balanced pairs under all fixed matching fields."
+      ],
+      "not_sufficient": [
+        "More unmatched text",
+        "Extra visual admission by itself",
+        "Relaxing starting-index matching"
+      ],
+      "priority_tier": "STRUCTURAL_ONLY",
+      "priority_reason": "Zero eligible held pairs; no immediate repair shown and no direct meaning discriminator.",
+      "ready_to_run": false,
+      "relationship": "distinct_hypothesis_with_supporting_attempts",
+      "member_ids": [
+        "GDT853"
+      ],
+      "source_sha256": {
+        "experiments/yolo/gdt853_spacing_context_transfer/REPORT.md": "d8c51de7be2c8d6822a46809a1e912bacc33cd6fbdc1097061a41467ff209048"
+      }
+    },
+    {
+      "id": "AUX-LM-RESERVE",
+      "title": "Blattrand-Kontrast: Reparierbarkeit des Panels",
+      "claim": "Ein bisher unbenutzter Pflanzenblattbestand kann gleichzeitig ursprüngliche Lagenbalance und Phasenvariation erhalten.",
+      "assessment_basis": "primary_reports",
+      "sources": [
+        "experiments/yolo/gdt855_leaf_margin_source_availability/POST_COUNT_FEASIBILITY.md"
+      ],
+      "blockers": [
+        "current_reserve_mathematically_unsuitable",
+        "instrument_not_validated"
+      ],
+      "reopen_conditions": [
+        "A genuinely different exposure-audited reserve meeting all original balance/phase constraints; the original instrument validation remains a separate gate."
+      ],
+      "not_sufficient": [
+        "Regrading f35/f36/f37",
+        "Adding three q05 leaves",
+        "Lowering the quire cap"
+      ],
+      "priority_tier": "ARCHIVE_CURRENT_DATA",
+      "priority_reason": "The current reserve cannot repair the design under any leaf-state assignment. Family linkage is dependency, not duplicate identity.",
+      "ready_to_run": false,
+      "relationship": "shared_dependency_not_duplicate",
+      "member_ids": [
+        "GDT855",
+        "FAMILY:HERBAL_WHOLE_PAGE_LEAF_MARGIN_STATE"
+      ],
+      "source_sha256": {
+        "experiments/yolo/gdt855_leaf_margin_source_availability/POST_COUNT_FEASIBILITY.md": "7ec36c84cd6a4f15f504a65f589e417c80b392fb59eec61749d391fd18ba6794"
+      }
+    },
+    {
+      "id": "WH_PROPERTY_ARCHITECTURE",
+      "member_ids": [
+        "GDT814",
+        "GDT815"
+      ],
+      "relationship": "tests_same_hypothesis",
+      "shared_component": "GDT815 explicitly retains GDT814 Q=warm? and R=possessive dessen? while adding cold and bitter alternatives and written carrier chains.",
+      "distinct_variants": [
+        "GDT814 tests complete contexts and an isolated okaiin dan inscription.",
+        "GDT815 adds particular possible antecedents okol and otedy; these do not establish reference or property ownership.",
+        "Warm, cold, bitter and an unspecified property are distinct candidate values, not synonyms."
+      ],
+      "rank": 1,
+      "status": "inconclusive_missing_binding",
+      "not_sufficient": [
+        "Another property-compatible slot",
+        "Substituting warm/cold/bitter after observing a scene",
+        "Reusing historical humoral descriptions as a Voynich value key"
+      ],
+      "title": "Property Architecture",
+      "claim": "Complete okaiin denotes a property rather than an anaphoric possessive relation; warm is one fixed candidate, not an established property value.",
+      "sources": [
+        "experiments/yolo/gdt814_okaiin_quality_reference_construction/REPORT.md",
+        "experiments/yolo/gdt815_referent_property_discrimination/REPORT.md"
+      ],
+      "assessment_basis": "primary_reports",
+      "priority_tier": "CONDITIONAL_DISCRIMINATOR",
+      "priority_reason": "Rank is evidence-acquisition value only; no new selecting observation is available.",
+      "reopen_conditions": [
+        "An independently constrained property-bearing versus antecedent-dependent relation that changes a fixed model prediction.",
+        "Keep unknown heads and antecedents unknown; label/prose reuse is not an authorial reference edge.",
+        "Any formal relation scoring must satisfy the applicable registered provenance, capacity and held-data gates."
+      ],
+      "ready_to_run": false,
+      "source_sha256": {
+        "experiments/yolo/gdt814_okaiin_quality_reference_construction/REPORT.md": "489c0f3098cec06e0cafa17e6dccf004b127e415bc332f070f752da18a2c7637",
+        "experiments/yolo/gdt815_referent_property_discrimination/REPORT.md": "699a06fccd9298c304e76c38b7d743a8282d4b6a521e59f4c6ee8008bc852144"
+      }
+    },
+    {
+      "id": "WH_OKAIIN_POWDER_CANDIDATE",
+      "member_ids": [
+        "GDT813",
+        "GDT814",
+        "GDT815"
+      ],
+      "relationship": "exact_duplicate",
+      "identity_limit": "Exact duplicate of this declared word assignment only. The experimental comparisons and evidence packages remain separate records.",
+      "rank": 4,
+      "status": "working_guess_not_identified",
+      "not_sufficient": [
+        "Repeated rendering of the same f17r.11 sentence",
+        "Nominal role compatibility",
+        "Counting the retained candidate as three independent positive findings"
+      ],
+      "title": "Okaiin Powder Candidate",
+      "claim": "The retained N candidate assigns complete okaiin the trial meaning Pulver/powder.",
+      "sources": [
+        "experiments/yolo/gdt813_f17_content_word_transfer/REPORT.md",
+        "experiments/yolo/gdt814_okaiin_quality_reference_construction/REPORT.md",
+        "experiments/yolo/gdt815_referent_property_discrimination/REPORT.md"
+      ],
+      "assessment_basis": "primary_reports",
+      "priority_tier": "ARCHIVE_WORKING_GUESS",
+      "priority_reason": "Rank is evidence-acquisition value only; no new selecting observation is available.",
+      "reopen_conditions": [
+        "Independent evidence distinguishing powder/material from property and reference while keeping the other trial words fixed."
+      ],
+      "ready_to_run": false,
+      "source_sha256": {
+        "experiments/yolo/gdt813_f17_content_word_transfer/REPORT.md": "d945b7e02bb21be92767a7f12eb2e7597eebfac7647d19bdbd08f55d00e4d92e",
+        "experiments/yolo/gdt814_okaiin_quality_reference_construction/REPORT.md": "489c0f3098cec06e0cafa17e6dccf004b127e415bc332f070f752da18a2c7637",
+        "experiments/yolo/gdt815_referent_property_discrimination/REPORT.md": "699a06fccd9298c304e76c38b7d743a8282d4b6a521e59f4c6ee8008bc852144"
+      }
+    },
+    {
+      "id": "WH_OKAIIN_COPULA_CANDIDATE",
+      "member_ids": [
+        "GDT813",
+        "GDT814",
+        "GDT815"
+      ],
+      "relationship": "exact_duplicate",
+      "identity_limit": "Exact duplicate of this declared word assignment only; neither the N/G comparison nor later added Q/R comparisons are duplicate complete experiments.",
+      "rank": 5,
+      "status": "working_guess_with_ellipsis_debt",
+      "not_sufficient": [
+        "A fluent German sentence",
+        "Treating the standalone f88v label as a universal logical refutation of every copular use",
+        "Supplying invisible subjects differently at each occurrence"
+      ],
+      "title": "Okaiin Copula Candidate",
+      "claim": "The retained G candidate assigns complete okaiin the trial meaning ist/is.",
+      "sources": [
+        "experiments/yolo/gdt813_f17_content_word_transfer/REPORT.md",
+        "experiments/yolo/gdt814_okaiin_quality_reference_construction/REPORT.md",
+        "experiments/yolo/gdt815_referent_property_discrimination/REPORT.md"
+      ],
+      "assessment_basis": "primary_reports",
+      "priority_tier": "ARCHIVE_WORKING_GUESS",
+      "priority_reason": "Rank is evidence-acquisition value only; no new selecting observation is available.",
+      "reopen_conditions": [
+        "Independent subject/predicate evidence or an explicitly justified elliptical construction, with contrasting consequences for the other fixed candidates."
+      ],
+      "ready_to_run": false,
+      "source_sha256": {
+        "experiments/yolo/gdt813_f17_content_word_transfer/REPORT.md": "d945b7e02bb21be92767a7f12eb2e7597eebfac7647d19bdbd08f55d00e4d92e",
+        "experiments/yolo/gdt814_okaiin_quality_reference_construction/REPORT.md": "489c0f3098cec06e0cafa17e6dccf004b127e415bc332f070f752da18a2c7637",
+        "experiments/yolo/gdt815_referent_property_discrimination/REPORT.md": "699a06fccd9298c304e76c38b7d743a8282d4b6a521e59f4c6ee8008bc852144"
+      }
+    },
+    {
+      "id": "WH_QOKALDY_REFERENCE_REVISIT",
+      "member_ids": [
+        "GDT798",
+        "IP023"
+      ],
+      "relationship": "tests_same_hypothesis",
+      "shared_component": "IP023's audited instantiation uses the already-tested okaldy qokaldy pair on f33r.2 and the f66r paragraph repetition.",
+      "distinct_variants": [
+        "The abstract IP023 idea of selecting one of two antecedents would be a distinct discriminator if an independent selecting observation existed; the cited instantiation does not supply it."
+      ],
+      "source_locators": [
+        "docs/IDEA_BACKLOG.md:1489"
+      ],
+      "rank": 2,
+      "status": "known_tie_no_new_discriminator",
+      "not_sufficient": [
+        "Renaming davon as selective memory",
+        "The same okaldy qokaldy contact",
+        "Running-only distribution or alternate readings counted as independent witnesses"
+      ],
+      "title": "Qokaldy Reference Revisit",
+      "claim": "Complete qokaldy is an occurrence-dependent text reference rather than a mobile content noun or apposition.",
+      "sources": [
+        "experiments/yolo/gdt798_qokaldy_complete_whole_paragraph_discriminator/REPORT.md",
+        "docs/IDEA_BACKLOG.md"
+      ],
+      "assessment_basis": "primary_reports_and_proposal",
+      "priority_tier": "CONDITIONAL_DISCRIMINATOR",
+      "priority_reason": "Rank is evidence-acquisition value only; no new selecting observation is available.",
+      "reopen_conditions": [
+        "A particular independently constrained antecedent selection or reference operation beyond the already-exposed adjacent pair and paragraph membership."
+      ],
+      "ready_to_run": false,
+      "source_sha256": {
+        "experiments/yolo/gdt798_qokaldy_complete_whole_paragraph_discriminator/REPORT.md": "cdaad700d5d31e542b636e12ccb9342c96b8caf8eb0228e21dedf57ad77d6e10",
+        "docs/IDEA_BACKLOG.md": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0"
+      }
+    },
+    {
+      "id": "WH_DITTO_NOT_GENERIC_REFERENCE",
+      "member_ids": [
+        "IP071",
+        "GDT798",
+        "IP023"
+      ],
+      "relationship": "related_only",
+      "why_not_duplicate": "A pronoun can refer without copying a complete preceding field. A ditto expansion imposes a stronger, different written equality.",
+      "source_locators": [
+        "docs/IDEA_BACKLOG.md:1966",
+        "docs/IDEA_BACKLOG.md:2021"
+      ],
+      "rank": 6,
+      "status": "missing_expansion_source",
+      "not_sufficient": [
+        "Assuming qokaldy is a ditto sign",
+        "Ordinary reference compatibility",
+        "Marginal alignment"
+      ],
+      "title": "Ditto Not Generic Reference",
+      "claim": "IP071 requires literal predecessor-dependent expansion of a fixed short sign; GDT798/IP023 concern broader anaphoric reference.",
+      "sources": [
+        "docs/IDEA_BACKLOG.md",
+        "experiments/yolo/gdt798_qokaldy_complete_whole_paragraph_discriminator/REPORT.md"
+      ],
+      "assessment_basis": "primary_reports_and_proposal",
+      "priority_tier": "ARCHIVE_WORKING_GUESS",
+      "priority_reason": "Rank is evidence-acquisition value only; no new selecting observation is available.",
+      "reopen_conditions": [
+        "The same short sign after different predecessors, with independently bound full renderings that copy the respective different contents."
+      ],
+      "ready_to_run": false,
+      "source_sha256": {
+        "docs/IDEA_BACKLOG.md": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0",
+        "experiments/yolo/gdt798_qokaldy_complete_whole_paragraph_discriminator/REPORT.md": "cdaad700d5d31e542b636e12ccb9342c96b8caf8eb0228e21dedf57ad77d6e10"
+      }
+    },
+    {
+      "id": "WH_REFERENCE_TYPES_REMAIN_DISTINCT",
+      "member_ids": [
+        "GDT798",
+        "GDT814",
+        "GDT815",
+        "GDT824"
+      ],
+      "relationship": "related_only",
+      "why_not_duplicate": "GDT814 explicitly excludes partitive and origin interpretations from its fixed R model. GDT824 combines source reference and a predicate and retains repeated-predicate debt. Shared English or German reference terminology does not make them one word hypothesis.",
+      "rank": 7,
+      "status": "separate_working_architectures",
+      "not_sufficient": [
+        "Merging all reference glosses",
+        "Borrowing a downstream material backwards to fill a missing source",
+        "Treating qolchedy composition as a general qol-prefix translation"
+      ],
+      "title": "Reference Types Remain Distinct",
+      "claim": "Partitive/reference davon, anaphoric possessive dessen, and material-source daraus followed by becomes are different proposed relations.",
+      "sources": [
+        "experiments/yolo/gdt798_qokaldy_complete_whole_paragraph_discriminator/REPORT.md",
+        "experiments/yolo/gdt814_okaiin_quality_reference_construction/REPORT.md",
+        "experiments/yolo/gdt815_referent_property_discrimination/REPORT.md",
+        "experiments/yolo/gdt824_qolchedy_fixed_composition/WORKING_THEORY.md"
+      ],
+      "assessment_basis": "primary_reports",
+      "priority_tier": "ARCHIVE_WORKING_GUESS",
+      "priority_reason": "Rank is evidence-acquisition value only; no new selecting observation is available.",
+      "reopen_conditions": [
+        "Specify one exact referential relation, source unit and independent selecting observation before comparing candidates."
+      ],
+      "ready_to_run": false,
+      "source_sha256": {
+        "experiments/yolo/gdt798_qokaldy_complete_whole_paragraph_discriminator/REPORT.md": "cdaad700d5d31e542b636e12ccb9342c96b8caf8eb0228e21dedf57ad77d6e10",
+        "experiments/yolo/gdt814_okaiin_quality_reference_construction/REPORT.md": "489c0f3098cec06e0cafa17e6dccf004b127e415bc332f070f752da18a2c7637",
+        "experiments/yolo/gdt815_referent_property_discrimination/REPORT.md": "699a06fccd9298c304e76c38b7d743a8282d4b6a521e59f4c6ee8008bc852144",
+        "experiments/yolo/gdt824_qolchedy_fixed_composition/WORKING_THEORY.md": "9dd3f6c11aa85a82fbd967c2666967335920ccc9415248f58fbcd0e877563be2"
+      }
+    },
+    {
+      "id": "WH_CTHY_LEAF_WORKING_MODEL",
+      "member_ids": [
+        "GDT625",
+        "GDT768"
+      ],
+      "relationship": "tests_same_hypothesis",
+      "shared_component": "GDT625 introduces this working default; GDT768 retains it among six whole-form anchors while testing other lexical rival assignments.",
+      "identity_limit": "Shared inherited lexical hypothesis, not independent confirmation and not duplicate full experiments.",
+      "rank": 3,
+      "status": "working_lexical_default_no_confirmed_word",
+      "not_sufficient": [
+        "Reprinting a concrete reader",
+        "Herbal concentration or nearby part words alone",
+        "Treating whole-form default reuse as independent semantic replication"
+      ],
+      "title": "Cthy Leaf Working Model",
+      "claim": "Complete cthy is leaf material or aerial herb drug, displayed as Blattgut.",
+      "sources": [
+        "experiments/yolo/gdt625_ordered_quality_state_transitions/REPORT.md",
+        "experiments/yolo/gdt768_chor_shor_part_identity_tournament/REPORT.md"
+      ],
+      "assessment_basis": "primary_reports",
+      "priority_tier": "CONDITIONAL_DISCRIMINATOR",
+      "priority_reason": "Rank is evidence-acquisition value only; no new selecting observation is available.",
+      "reopen_conditions": [
+        "Evidence discriminating leaf material from broader aerial herb/content classes without using the inherited leaf gloss to label its contexts."
+      ],
+      "ready_to_run": false,
+      "source_sha256": {
+        "experiments/yolo/gdt625_ordered_quality_state_transitions/REPORT.md": "56a3e9fc0ffc623f57b1fa6ff9c5dc73cfb610731081992a97e932cb19b34db4",
+        "experiments/yolo/gdt768_chor_shor_part_identity_tournament/REPORT.md": "bf02e42ce7b03daf319eca7d9d572ccd45ac9d87212530fe8ed46e44e1aa2b7e"
+      }
+    },
+    {
+      "id": "WH_DAIR_CHANGED_ASSIGNMENTS",
+      "member_ids": [
+        "GDT625",
+        "GDT768"
+      ],
+      "relationship": "related_only",
+      "why_not_duplicate": "These assignments differ substantively even though the same surface and some source contexts recur. They must remain alternative or revised guesses, not a single stable translated lexeme.",
+      "rank": 8,
+      "status": "incompatible_working_glosses_no_identity_merge",
+      "not_sufficient": [
+        "Calling a renderer change confirmation",
+        "Using the old root assignment as gold for the later portion test"
+      ],
+      "title": "Dair Changed Assignments",
+      "claim": "GDT625 uses dair as a root carrier; GDT768 displays it as a measured portion/level II while preserving a local Herbal root-part rival.",
+      "sources": [
+        "experiments/yolo/gdt625_ordered_quality_state_transitions/REPORT.md",
+        "experiments/yolo/gdt768_chor_shor_part_identity_tournament/REPORT.md"
+      ],
+      "assessment_basis": "primary_reports",
+      "priority_tier": "ARCHIVE_WORKING_GUESS",
+      "priority_reason": "Rank is evidence-acquisition value only; no new selecting observation is available.",
+      "reopen_conditions": [
+        "Independent observation distinguishing a material referent from a quantity/portion relation at a fixed occurrence."
+      ],
+      "ready_to_run": false,
+      "source_sha256": {
+        "experiments/yolo/gdt625_ordered_quality_state_transitions/REPORT.md": "56a3e9fc0ffc623f57b1fa6ff9c5dc73cfb610731081992a97e932cb19b34db4",
+        "experiments/yolo/gdt768_chor_shor_part_identity_tournament/REPORT.md": "bf02e42ce7b03daf319eca7d9d572ccd45ac9d87212530fe8ed46e44e1aa2b7e"
+      }
+    },
+    {
+      "id": "WH_UNDO_NOT_STATE_ORDER",
+      "member_ids": [
+        "IP067",
+        "GDT625"
+      ],
+      "relationship": "related_only",
+      "why_not_duplicate": "An A-B-A sequence is not itself a written inverse operator. The intended discriminator is distinct, but its independent state/traversal source is not established.",
+      "rank": 9,
+      "status": "missing_ordered_same_carrier_binding",
+      "not_sufficient": [
+        "Interpreting inherited dry/moist labels as known values",
+        "Another three-state census",
+        "An A-B-A illustration without a written operation"
+      ],
+      "title": "Undo Not State Order",
+      "claim": "IP067 asks for an explicit operation and its undo; GDT625 reports formal three-state sequences and conditional process interpretations.",
+      "sources": [
+        "docs/IDEA_BACKLOG.md",
+        "experiments/yolo/gdt625_ordered_quality_state_transitions/REPORT.md"
+      ],
+      "assessment_basis": "primary_reports_and_proposal",
+      "priority_tier": "ARCHIVE_WORKING_GUESS",
+      "priority_reason": "Rank is evidence-acquisition value only; no new selecting observation is available.",
+      "reopen_conditions": [
+        "A fixed written undo expression across different operations with independently established return states and the same carrier."
+      ],
+      "ready_to_run": false,
+      "source_sha256": {
+        "docs/IDEA_BACKLOG.md": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0",
+        "experiments/yolo/gdt625_ordered_quality_state_transitions/REPORT.md": "56a3e9fc0ffc623f57b1fa6ff9c5dc73cfb610731081992a97e932cb19b34db4"
+      }
+    },
+    {
+      "id": "WH_IDENTIFIABILITY_METAQUESTION",
+      "member_ids": [
+        "IP074",
+        "GDT814",
+        "GDT815",
+        "GDT798"
+      ],
+      "relationship": "related_only",
+      "why_not_duplicate": "A methodological question is not another powder/property/pronoun assignment. The sources do not establish two complete observationally equivalent readings.",
+      "rank": 10,
+      "status": "not_executable_complete_models_absent",
+      "not_sufficient": [
+        "Claiming universal equivalence from current underdetermination",
+        "Another fluent partial rendering"
+      ],
+      "title": "Identifiability Metaquestion",
+      "claim": "IP074 asks whether two complete interpretations can be observationally distinguished; the reports provide only partial competing constructions.",
+      "sources": [
+        "docs/IDEA_BACKLOG.md",
+        "experiments/yolo/gdt814_okaiin_quality_reference_construction/REPORT.md",
+        "experiments/yolo/gdt815_referent_property_discrimination/REPORT.md",
+        "experiments/yolo/gdt798_qokaldy_complete_whole_paragraph_discriminator/REPORT.md"
+      ],
+      "assessment_basis": "primary_reports_and_proposal",
+      "priority_tier": "ARCHIVE_WORKING_GUESS",
+      "priority_reason": "Rank is evidence-acquisition value only; no new selecting observation is available.",
+      "reopen_conditions": [
+        "Two explicitly complete models and at least one fixed observable with different predictions."
+      ],
+      "ready_to_run": false,
+      "source_sha256": {
+        "docs/IDEA_BACKLOG.md": "a2f66f6ce3d47aa01072183dd5bff5c0c19b5ca6f9fe97e54d190902b04a71d0",
+        "experiments/yolo/gdt814_okaiin_quality_reference_construction/REPORT.md": "489c0f3098cec06e0cafa17e6dccf004b127e415bc332f070f752da18a2c7637",
+        "experiments/yolo/gdt815_referent_property_discrimination/REPORT.md": "699a06fccd9298c304e76c38b7d743a8282d4b6a521e59f4c6ee8008bc852144",
+        "experiments/yolo/gdt798_qokaldy_complete_whole_paragraph_discriminator/REPORT.md": "cdaad700d5d31e542b636e12ccb9342c96b8caf8eb0228e21dedf57ad77d6e10"
+      }
+    },
+    {
+      "reason": "Image-to-word inference is an umbrella; plant identity, medicinal-property prediction, historical entry order and bathing topology predict different observations. Keep their failed and invalid branches distinct.",
+      "id": "FG-visual_semantic_binding",
+      "member_ids": [
+        "FAMILY:VISIBLE_IMAGE_TO_WORD",
+        "FAMILY:BOTANICAL_TRAITS_AND_NAMES",
+        "FAMILY:HISTORICAL_HERBAL_IMAGE_MATCHING",
+        "FAMILY:BATHING_IMAGE_SEMANTICS"
+      ],
+      "title": "Visual Semantic Binding",
+      "claim": "Image-to-word inference is an umbrella; plant identity, medicinal-property prediction, historical entry order and bathing topology predict different observations. Keep their failed and invalid branches distinct.",
+      "relationship": "shared_method_and_binding_problem_not_duplicate_hypotheses",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "REFERENCE_GROUP",
+      "priority_reason": "Comparison group only; members retain distinct hypotheses and outcomes.",
+      "ready_to_run": false,
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "reason": "Both registry rows cite the exact IL017 medicinal semantic-bridge report. Count that reported outcome once in an evidence summary; do not count it as two independent failures or merge the two broader families. Primary identity and result remain unaudited because that file is absent.",
+      "duplicate_evidence_key": "il017_dioscorides_medicinal_semantic_bridge_report.md",
+      "id": "FG-il017_reused_evidence",
+      "member_ids": [
+        "FAMILY:BOTANICAL_TRAITS_AND_NAMES",
+        "FAMILY:HISTORICAL_HERBAL_IMAGE_MATCHING"
+      ],
+      "title": "Il017 Reused Evidence",
+      "claim": "Both registry rows cite the exact IL017 medicinal semantic-bridge report. Count that reported outcome once in an evidence summary; do not count it as two independent failures or merge the two broader families. Primary identity and result remain unaudited because that file is absent.",
+      "relationship": "same_cited_subattempt_not_family_duplicate",
+      "assessment_basis": "registry_pointer_identity_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "REFERENCE_GROUP",
+      "priority_reason": "Comparison group only; members retain distinct hypotheses and outcomes.",
+      "ready_to_run": false,
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "reason": "Calendar rosters are one semantic mapping choice; astronomical dictionaries allow other named values. Ten-to-five correspondence asks whether the relation itself is licensed and stops before such value tests. A common circular layout does not identify an identical hypothesis.",
+      "id": "FG-external_roster_and_ring_correspondence",
+      "member_ids": [
+        "FAMILY:ZODIAC_AND_ASTRONOMICAL_DICTIONARIES",
+        "FAMILY:NUMBER_CALENDAR_AND_COUNTING",
+        "FAMILY:SPECIAL_CIRCLE_10_TO_5_CROSS_BAND_PAIRING"
+      ],
+      "title": "External Roster And Ring Correspondence",
+      "claim": "Calendar rosters are one semantic mapping choice; astronomical dictionaries allow other named values. Ten-to-five correspondence asks whether the relation itself is licensed and stops before such value tests. A common circular layout does not identify an identical hypothesis.",
+      "relationship": "related_prerequisite_and_semantic_models_not_duplicates",
+      "assessment_basis": "primary_reports_for_calendar_and_pairing_inherited_for_dictionary",
+      "sources": [
+        "experiments/semantic_assumptions/results/f69m001_target.md",
+        "experiments/semantic_assumptions/results/f69m001_target_validation.md",
+        "experiments/semantic_assumptions/results/special_circle_10_to_5_pairing_worth_report.md"
+      ],
+      "priority_tier": "REFERENCE_GROUP",
+      "priority_reason": "Comparison group only; members retain distinct hypotheses and outcomes.",
+      "ready_to_run": false,
+      "source_sha256": {
+        "experiments/semantic_assumptions/results/f69m001_target.md": "6fc63d6e563e3f52e2b99d7f568c82d45c0e0c671682d1c5783fbcfd884989ab",
+        "experiments/semantic_assumptions/results/f69m001_target_validation.md": "1eea25baf92d33934c3737b305217e64fa1cf7430c06f062ec275bced2c6f8b1",
+        "experiments/semantic_assumptions/results/special_circle_10_to_5_pairing_worth_report.md": "15262ca079bc4124e016c004a7fb8c597d668b8a0ba1e955dd6d970ca6f4ae7a"
+      }
+    },
+    {
+      "reason": "The catchword family includes label ownership and parser coverage; FPR001 fixes a within-word ordered-root statistic on the fifth relation. Its scored nonconfirmation cannot be merged with the unscored lack of a sixth owned label.",
+      "id": "FG-repeated_object_recurrence",
+      "member_ids": [
+        "FAMILY:CROSS_SECTION_CATCHWORDS",
+        "FAMILY:FIFTH_SAME_PLANT_WITHIN_WORD_ORDERED_ROOT"
+      ],
+      "title": "Repeated Object Recurrence",
+      "claim": "The catchword family includes label ownership and parser coverage; FPR001 fixes a within-word ordered-root statistic on the fifth relation. Its scored nonconfirmation cannot be merged with the unscored lack of a sixth owned label.",
+      "relationship": "shared_source_relation_distinct_falsifier_and_capacity",
+      "assessment_basis": "primary_reports_partial_family",
+      "sources": [
+        "experiments/semantic_assumptions/results/fpr001_f37v_one_shot_target_report.md",
+        "experiments/semantic_assumptions/results/remaining_repeated_plant_relation_ownership_report.md"
+      ],
+      "priority_tier": "REFERENCE_GROUP",
+      "priority_reason": "Comparison group only; members retain distinct hypotheses and outcomes.",
+      "ready_to_run": false,
+      "source_sha256": {
+        "experiments/semantic_assumptions/results/fpr001_f37v_one_shot_target_report.md": "4be1a38934bf87ab06e2c9e2c77c71cd4b0908c8c8b7a1e7acdf2227360edffb",
+        "experiments/semantic_assumptions/results/remaining_repeated_plant_relation_ownership_report.md": "8fb199a4725c98ed9c08132cfc3d322cfe05a220d15d7ffb93eb4834469ae3cd"
+      }
+    },
+    {
+      "reason": "Clothing-feature association, cross-register identity beyond known bits, and assigning English glosses have different outcomes and claim ceilings. The first two could in principle succeed without proving any gloss.",
+      "id": "FG-formal_state_to_lexical_value",
+      "member_ids": [
+        "FAMILY:F57V_CROSS_REGISTER_SAME_QUALITY_IDENTITY",
+        "FAMILY:ZODIAC_CLOTHING_FORMAL_MARKER",
+        "FAMILY:LEXICAL_GLOSSES_FROM_FORMAL_ROLES"
+      ],
+      "title": "Formal State To Lexical Value",
+      "claim": "Clothing-feature association, cross-register identity beyond known bits, and assigning English glosses have different outcomes and claim ceilings. The first two could in principle succeed without proving any gloss.",
+      "relationship": "shared_inference_risk_not_duplicate_hypotheses",
+      "assessment_basis": "primary_reports_for_f57_and_clothing_inherited_for_glosses",
+      "sources": [
+        "experiments/semantic_assumptions/results/f57_cross_register_quality_identity_worth_report.md",
+        "experiments/semantic_assumptions/results/zcv001_zodiac_clothing_formal_marker_target_report.md",
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "REFERENCE_GROUP",
+      "priority_reason": "Comparison group only; members retain distinct hypotheses and outcomes.",
+      "ready_to_run": false,
+      "source_sha256": {
+        "experiments/semantic_assumptions/results/f57_cross_register_quality_identity_worth_report.md": "835dcb0eb3268c96870e4d035353de7d3616af998c422017bedd27276aa31f28",
+        "experiments/semantic_assumptions/results/zcv001_zodiac_clothing_formal_marker_target_report.md": "40d5d6b178bdaa2dd6d9a37cb9fd494b312165b1b39391b46aca977e40502905",
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-ANCHOR:COL001_F2R15_UNDERPAINT_NOTE",
+      "title": "COL001_F2R15_UNDERPAINT_NOTE",
+      "claim": "A second provenance-clean Voynich-script note under paint with an independently readable different colour, or the same complete phrase under another green-painted part on a new folio.",
+      "member_ids": [
+        "ANCHOR:COL001_F2R15_UNDERPAINT_NOTE"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/results/translation_anchor_acquisition_registry_v1.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "A second provenance-clean Voynich-script note under paint with an independently readable different colour, or the same complete phrase under another green-painted part on a new folio."
+      ],
+      "ready_to_run": false,
+      "scope": "semantic",
+      "source_sha256": {
+        "experiments/semantic_assumptions/results/translation_anchor_acquisition_registry_v1.tsv": "0261d2e7856ddf26b18fe46915f66446734dcc687cc516dac4aa23c4704b7a1c"
+      }
+    },
+    {
+      "id": "DOSSIER-ANCHOR:F17R_F116V_MARGINALIA",
+      "title": "F17R_F116V_MARGINALIA",
+      "claim": "Independently convergent paleographic readings plus an explicit authorial equivalence, correction, pointer, or repeated bilingual pairing.",
+      "member_ids": [
+        "ANCHOR:F17R_F116V_MARGINALIA"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/results/translation_anchor_acquisition_registry_v1.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "Independently convergent paleographic readings plus an explicit authorial equivalence, correction, pointer, or repeated bilingual pairing."
+      ],
+      "ready_to_run": false,
+      "scope": "semantic",
+      "source_sha256": {
+        "experiments/semantic_assumptions/results/translation_anchor_acquisition_registry_v1.tsv": "0261d2e7856ddf26b18fe46915f66446734dcc687cc516dac4aa23c4704b7a1c"
+      }
+    },
+    {
+      "id": "DOSSIER-ANCHOR:F1R_LATER_ALPHABET_TABLE",
+      "title": "F1R_LATER_ALPHABET_TABLE",
+      "claim": "A qualified complete row-by-row diplomatic reading plus independent evidence that the middle column encodes the main manuscript script rather than a later reader's exercise.",
+      "member_ids": [
+        "ANCHOR:F1R_LATER_ALPHABET_TABLE"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/results/translation_anchor_acquisition_registry_v1.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "A qualified complete row-by-row diplomatic reading plus independent evidence that the middle column encodes the main manuscript script rather than a later reader's exercise."
+      ],
+      "ready_to_run": false,
+      "scope": "semantic",
+      "source_sha256": {
+        "experiments/semantic_assumptions/results/translation_anchor_acquisition_registry_v1.tsv": "0261d2e7856ddf26b18fe46915f66446734dcc687cc516dac4aa23c4704b7a1c"
+      }
+    },
+    {
+      "id": "DOSSIER-ANCHOR:F57V_HUMORAL_PHASE_LABELS",
+      "title": "F57V_HUMORAL_PHASE_LABELS",
+      "claim": "A complete readable homologue with the same four-person and two-label-register topology, preserved start/orientation, and explicit slot ownership, or an independent Voynich folio repeating the same owned four-role mapping.",
+      "member_ids": [
+        "ANCHOR:F57V_HUMORAL_PHASE_LABELS"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/results/translation_anchor_acquisition_registry_v1.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "A complete readable homologue with the same four-person and two-label-register topology, preserved start/orientation, and explicit slot ownership, or an independent Voynich folio repeating the same owned four-role mapping."
+      ],
+      "ready_to_run": false,
+      "scope": "semantic",
+      "source_sha256": {
+        "experiments/semantic_assumptions/results/translation_anchor_acquisition_registry_v1.tsv": "0261d2e7856ddf26b18fe46915f66446734dcc687cc516dac4aa23c4704b7a1c"
+      }
+    },
+    {
+      "id": "DOSSIER-ANCHOR:F67R_F68R_LABELLED_HOMOLOGUE",
+      "title": "F67R_F68R_LABELLED_HOMOLOGUE",
+      "claim": "A newly catalogued complete readable homologue fixing text ownership, register cardinalities, start, direction, and slot correspondence for one full panel.",
+      "member_ids": [
+        "ANCHOR:F67R_F68R_LABELLED_HOMOLOGUE"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/results/translation_anchor_acquisition_registry_v1.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "A newly catalogued complete readable homologue fixing text ownership, register cardinalities, start, direction, and slot correspondence for one full panel."
+      ],
+      "ready_to_run": false,
+      "scope": "semantic",
+      "source_sha256": {
+        "experiments/semantic_assumptions/results/translation_anchor_acquisition_registry_v1.tsv": "0261d2e7856ddf26b18fe46915f66446734dcc687cc516dac4aa23c4704b7a1c"
+      }
+    },
+    {
+      "id": "DOSSIER-ANCHOR:F68R2_SUN_RING_CLEARTEXT",
+      "title": "F68R2_SUN_RING_CLEARTEXT",
+      "claim": "A qualified full paleographic reading of the complete ring string, with script identity and uncertainty documented independently of a proposed Sun gloss.",
+      "member_ids": [
+        "ANCHOR:F68R2_SUN_RING_CLEARTEXT"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/results/translation_anchor_acquisition_registry_v1.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "A qualified complete paleographic reading must establish script identity and uncertainty independently of a proposed Sun gloss.",
+        "For semantic promotion, supply independently readable contrasting bindings and independent physical-folio replication under the acquisition gates."
+      ],
+      "ready_to_run": false,
+      "scope": "semantic",
+      "source_sha256": {
+        "experiments/semantic_assumptions/results/translation_anchor_acquisition_registry_v1.tsv": "0261d2e7856ddf26b18fe46915f66446734dcc687cc516dac4aa23c4704b7a1c"
+      }
+    },
+    {
+      "id": "DOSSIER-ANCHOR:F69V_ORDERED_28_COORDINATE",
+      "title": "F69V_ORDERED_28_COORDINATE",
+      "claim": "A second independently fixed roster or a readable authorial slot legend that determines start, direction, and all 28 values without selecting a spelling roster post hoc.",
+      "member_ids": [
+        "ANCHOR:F69V_ORDERED_28_COORDINATE"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/results/translation_anchor_acquisition_registry_v1.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "A second independently fixed roster or a readable authorial slot legend that determines start, direction, and all 28 values without selecting a spelling roster post hoc."
+      ],
+      "ready_to_run": false,
+      "scope": "semantic",
+      "source_sha256": {
+        "experiments/semantic_assumptions/results/translation_anchor_acquisition_registry_v1.tsv": "0261d2e7856ddf26b18fe46915f66446734dcc687cc516dac4aa23c4704b7a1c"
+      }
+    },
+    {
+      "id": "DOSSIER-ANCHOR:PUBLIC_ZODIAC_FIGURE_ATTRIBUTES",
+      "title": "PUBLIC_ZODIAC_FIGURE_ATTRIBUTES",
+      "claim": "Explicit label-to-figure connectors or diplomatic owner mappings with both attribute states represented on at least five physical folios.",
+      "member_ids": [
+        "ANCHOR:PUBLIC_ZODIAC_FIGURE_ATTRIBUTES"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/results/translation_anchor_acquisition_registry_v1.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "Explicit label-to-figure connectors or diplomatic owner mappings with both attribute states represented on at least five physical folios."
+      ],
+      "ready_to_run": false,
+      "scope": "semantic",
+      "source_sha256": {
+        "experiments/semantic_assumptions/results/translation_anchor_acquisition_registry_v1.tsv": "0261d2e7856ddf26b18fe46915f66446734dcc687cc516dac4aa23c4704b7a1c"
+      }
+    },
+    {
+      "id": "DOSSIER-ANCHOR:S104_HERBAL_COMPONENT_RELATIONS",
+      "title": "S104_HERBAL_COMPONENT_RELATIONS",
+      "claim": "A page-disjoint human diplomatic source giving singular author-visible component captions with explicit negative or contrasting values on at least five new folios.",
+      "member_ids": [
+        "ANCHOR:S104_HERBAL_COMPONENT_RELATIONS"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/results/translation_anchor_acquisition_registry_v1.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "A page-disjoint human diplomatic source giving singular author-visible component captions with explicit negative or contrasting values on at least five new folios."
+      ],
+      "ready_to_run": false,
+      "scope": "semantic",
+      "source_sha256": {
+        "experiments/semantic_assumptions/results/translation_anchor_acquisition_registry_v1.tsv": "0261d2e7856ddf26b18fe46915f66446734dcc687cc516dac4aa23c4704b7a1c"
+      }
+    },
+    {
+      "id": "DOSSIER-ANCHOR:SCP001_STAR_COLOUR_ROWS",
+      "title": "SCP001_STAR_COLOUR_ROWS",
+      "claim": "A new folio-held panel whose author-visible captions explicitly name independently readable marker values rather than merely carrying coloured markers.",
+      "member_ids": [
+        "ANCHOR:SCP001_STAR_COLOUR_ROWS"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/results/translation_anchor_acquisition_registry_v1.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "A new folio-held panel whose author-visible captions explicitly name independently readable marker values rather than merely carrying coloured markers."
+      ],
+      "ready_to_run": false,
+      "scope": "semantic",
+      "source_sha256": {
+        "experiments/semantic_assumptions/results/translation_anchor_acquisition_registry_v1.tsv": "0261d2e7856ddf26b18fe46915f66446734dcc687cc516dac4aa23c4704b7a1c"
+      }
+    },
+    {
+      "id": "DOSSIER-ANCHOR:STOLFI_EXACT_LOCAL_RELATIONS",
+      "title": "STOLFI_EXACT_LOCAL_RELATIONS",
+      "claim": "Author-visible connectors or captions that replace modern inferred proximity with singular ownership and readable varying values on new folios.",
+      "member_ids": [
+        "ANCHOR:STOLFI_EXACT_LOCAL_RELATIONS"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/results/translation_anchor_acquisition_registry_v1.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "Author-visible connectors or captions that replace modern inferred proximity with singular ownership and readable varying values on new folios."
+      ],
+      "ready_to_run": false,
+      "scope": "semantic",
+      "source_sha256": {
+        "experiments/semantic_assumptions/results/translation_anchor_acquisition_registry_v1.tsv": "0261d2e7856ddf26b18fe46915f66446734dcc687cc516dac4aa23c4704b7a1c"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:ADJACENT_ROOT_TRANSCRIPTION_SHAPE",
+      "title": "ADJACENT_ROOT_TRANSCRIPTION_SHAPE",
+      "claim": "seven attraction/repulsion views under IL006's exact conditional null passed dual-plant validation but no held feature confirmed; ZL edit similarity +0.00497 had p=0.340 and RF opposite sign",
+      "member_ids": [
+        "FAMILY:ADJACENT_ROOT_TRANSCRIPTION_SHAPE"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "new permitted data or a genuinely different production invariant, not another string distance, normalization, feature subset, direction, threshold, split, or pair list"
+      ],
+      "ready_to_run": false,
+      "scope": "structural",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:BATHING_IMAGE_SEMANTICS",
+      "title": "BATHING_IMAGE_SEMANTICS",
+      "claim": "Bathing depiction topology or source parallels license text meanings.",
+      "member_ids": [
+        "FAMILY:BATHING_IMAGE_SEMANTICS"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "explicit authorial cross-reference or repeated caption relation independent of spatial nearness"
+      ],
+      "ready_to_run": false,
+      "scope": "semantic",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:BIO_FIGURE_INDIVIDUAL_ENCLOSURE_STATE",
+      "title": "BIO_FIGURE_INDIVIDUAL_ENCLOSURE_STATE",
+      "claim": "40 filler-blind human figure-associated locations yield 16 individualized-bounded and 24 open-or-communal visual states with three folios per state, but only f82 and page f82v contain both; the paired-folio one-sided floor is .5",
+      "member_ids": [
+        "FAMILY:BIO_FIGURE_INDIVIDUAL_ENCLOSURE_STATE"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "new singularly owned figure labels creating mixed-state support on at least two additional physical folios, not label or feature mining page pooling state regrading or treating locations as independent"
+      ],
+      "ready_to_run": false,
+      "scope": "acquisition",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:BOTANICAL_TRAITS_AND_NAMES",
+      "title": "BOTANICAL_TRAITS_AND_NAMES",
+      "claim": "Human botanical identities or traits bind text to plant names or medicinal properties.",
+      "member_ids": [
+        "FAMILY:BOTANICAL_TRAITS_AND_NAMES"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "a genuinely authorial source entry/text relation or new independent evidence, not another trait, medicinal axis, name subset, model, or threshold"
+      ],
+      "ready_to_run": false,
+      "scope": "semantic",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:CACHED_DATA_TRANSLATION_SUCCESSOR",
+      "title": "CACHED_DATA_TRANSLATION_SUCCESSOR",
+      "claim": "the cache retains 18271 stable groups outside IGR001 IGR002 TGC001 selected loci and 4878 on 46 folios outside those three panels but their identities yield only the excluded exact-label decoder and their counts or boundaries yield broad segmentation without independent physical gold; zero of eleven anchor families is admissible",
+      "member_ids": [
+        "FAMILY:CACHED_DATA_TRANSLATION_SUCCESSOR"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "Provenance-clean singularly owned Voynich-text to independently readable contrasting values must exist on at least five physical folios.",
+        "Preserve an untouched whole-folio confirmation set; extra cached text outside one panel is not automatically untouched."
+      ],
+      "ready_to_run": false,
+      "scope": "semantic",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:CIPHER_OR_CODEBOOK",
+      "title": "CIPHER_OR_CODEBOOK",
+      "claim": "compositional structure weighs against unrelated opaque codewords, but cipher space was not exhaustively excluded",
+      "member_ids": [
+        "FAMILY:CIPHER_OR_CODEBOOK"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "explicit user reopening plus a cipher model that predicts held structure better than the baseline"
+      ],
+      "ready_to_run": false,
+      "scope": "method",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:CROSS_CONSTRUCTION_LITERAL_ROOT_BRIDGE",
+      "title": "CROSS_CONSTRUCTION_LITERAL_ROOT_BRIDGE",
+      "claim": "IL020's D/E-to-che bridge collapsed to one che class; IL021 then audited seven root-bearing construction families and all 21 pairs, with no pair retaining six shared roots and two independently usable states on both sides after prior-axis and evidence-independence gates",
+      "member_ids": [
+        "FAMILY:CROSS_CONSTRUCTION_LITERAL_ROOT_BRIDGE"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "a genuinely new independently confirmed construction relation or new literal-root coverage spanning both states; not looser support, exception counting, alternate-reading pooling, another classifier, or generic class compression"
+      ],
+      "ready_to_run": false,
+      "scope": "structural",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:CROSS_CURRIER_HODGE_CYCLE_RESIDUAL",
+      "title": "CROSS_CURRIER_HODGE_CYCLE_RESIDUAL",
+      "claim": "a weighted Hodge projection removed every additive D-root/C-root directional propensity before scoring the orthogonal pair-cycle residual; validation was powered, but held ZL reached only +.00457 bit/edge with p=.130649 and missed both frozen material gates despite positive IT/RF signs",
+      "member_ids": [
+        "FAMILY:CROSS_CURRIER_HODGE_CYCLE_RESIDUAL"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "new permitted data or a genuinely different system-mechanism invariant, not another pseudocount, shrinkage, projection weight, root/pair/cycle subset, support cutoff, sign, direction encoding, split, or threshold"
+      ],
+      "ready_to_run": false,
+      "scope": "structural",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:CROSS_CURRIER_SCALAR_ROOT_POTENTIAL",
+      "title": "CROSS_CURRIER_SCALAR_ROOT_POTENTIAL",
+      "claim": "the sequentially corrected additive D-root plus C-root potential was positive across ZL/IT/RF and statistically nonexchangeable in ZL, but its held ZL gain was only +.00272 bit/edge, below the frozen +.005 materiality gate; the final Timm controls therefore stayed unscored",
+      "member_ids": [
+        "FAMILY:CROSS_CURRIER_SCALAR_ROOT_POTENTIAL"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "new permitted data or a genuinely different system-mechanism invariant, not another scalar parametrization, pseudocount, weight, component rule, root/pair subset, sign, direction, null, threshold, split, or scoring of the untouched Timm controls"
+      ],
+      "ready_to_run": false,
+      "scope": "structural",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:CROSS_SECTION_CATCHWORDS",
+      "title": "CROSS_SECTION_CATCHWORDS",
+      "claim": "Same-object cross-section relations support formal text recurrence; a score additionally requires singular labels and all-reading coverage.",
+      "member_ids": [
+        "FAMILY:CROSS_SECTION_CATCHWORDS"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "primary_reports_partial_family",
+      "sources": [
+        "experiments/semantic_assumptions/results/remaining_repeated_plant_relation_ownership_report.md",
+        "experiments/semantic_assumptions/results/remaining_repeated_plant_relation_ownership_validation_report.md"
+      ],
+      "priority_tier": "ARCHIVE_FIXED_TEST",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "a new externally documented relation outside the exhausted table with singular ownership and complete all-reading formal coverage, or a new provenance-complete parser; never drop RF1b or promote paragraph/proximity text"
+      ],
+      "ready_to_run": false,
+      "scope": "semantic",
+      "source_sha256": {
+        "experiments/semantic_assumptions/results/remaining_repeated_plant_relation_ownership_report.md": "8fb199a4725c98ed9c08132cfc3d322cfe05a220d15d7ffb93eb4834469ae3cd",
+        "experiments/semantic_assumptions/results/remaining_repeated_plant_relation_ownership_validation_report.md": "5329dc0c2cfde7d9473e28ca671401bd15a4b145c0621fe392ae88461170ce23"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:CROSS_STRATUM_DIRECTION_SECTION_HAND",
+      "title": "CROSS_STRATUM_DIRECTION_SECTION_HAND",
+      "claim": "IL010 confirmed Currier-only directional transfer; section was +0.00290 with p=0.613 and alternate signs, while hand was +0.01094 with p=0.137",
+      "member_ids": [
+        "FAMILY:CROSS_STRATUM_DIRECTION_SECTION_HAND"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "new permitted data or a genuinely different directional invariant, not another pooling rule, direction encoding, smoothing, threshold, axis subset, or split"
+      ],
+      "ready_to_run": false,
+      "scope": "structural",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:CURRENT_STA_DISAGREEMENT_VISIBLE_SHAPE_ATLAS",
+      "title": "CURRENT_STA_DISAGREEMENT_VISIBLE_SHAPE_ATLAS",
+      "claim": "the unordered IGR002 crop-review signatures permit at most one of 28 exact primary matches and zero of seven types at three of four under every target remapping; the missing sealed target-crop and reviewer-delivery joins leave localization and target-level assignments unverified",
+      "member_ids": [
+        "FAMILY:CURRENT_STA_DISAGREEMENT_VISIBLE_SHAPE_ATLAS"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "a genuinely finer predeclared whole-group physical-ink segmentation or continuous transcription channel with sealed joins and held images, not rematching these crops types thresholds readings or another coarse visual classifier"
+      ],
+      "ready_to_run": false,
+      "scope": "method",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:DIRECT_STAR_LABEL_RAY_COUNT",
+      "title": "DIRECT_STAR_LABEL_RAY_COUNT",
+      "claim": "f68 has 53 human ray-counted label records and 47 strong exact-local attachments, but all are one physical folio; f70's ten candidate rows are hedged object-context-only and native inspection finds no singular connector",
+      "member_ids": [
+        "FAMILY:DIRECT_STAR_LABEL_RAY_COUNT"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "new source-bound singularly owned ray-counted star labels on a second physical folio, not proximity assignment, angular nearest-neighbour pairing, label mining, feature widening, or threshold changes"
+      ],
+      "ready_to_run": false,
+      "scope": "acquisition",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:DISTRIBUTED_CROSS_ROOT_PAGE_TABLE",
+      "title": "DISTRIBUTED_CROSS_ROOT_PAGE_TABLE",
+      "claim": "a fixed smoothed D-to-C page association table passed power and shuffled controls but failed held ZL materiality at +0.00693 bit/root, 51.2% positive, p=0.151",
+      "member_ids": [
+        "FAMILY:DISTRIBUTED_CROSS_ROOT_PAGE_TABLE"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "new permitted data or a genuinely different invariant, not smoothing, partition, split, matching, threshold, or model retuning"
+      ],
+      "ready_to_run": false,
+      "scope": "structural",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:DOCUMENT_ROLE_FORMAL_ASSOCIATION",
+      "title": "DOCUMENT_ROLE_FORMAL_ASSOCIATION",
+      "claim": "a complete nine-page extension of DRI001's two discordant section-B kind-run cells gives replicated role mobility only in the P cell; the LPL cell has repeated-owned-records only on f84 against object-with-prose on f77 f78 f82",
+      "member_ids": [
+        "FAMILY:DOCUMENT_ROLE_FORMAL_ASSOCIATION"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "new source-native human-authored role labels or a new exact nuisance cell with at least two roles each on two physical folios; not another selected page-role comparison or relaxed one-folio support"
+      ],
+      "ready_to_run": false,
+      "scope": "structural",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:EAS001_EXPLICIT_ARRAY_DEPENDENCY_CHAIN",
+      "title": "EAS001_EXPLICIT_ARRAY_DEPENDENCY_CHAIN",
+      "claim": "the ledger preserves a positive EAS001 summary but its nine scientific paths five precursor bodies exact 13-folio membership and bifolio robustness remain absent; a new provenance-complete filler-blind f67-through-f73 inventory exists at a different 45-array 504-slot seven-folio scope and inherits no EAS score",
+      "member_ids": [
+        "FAMILY:EAS001_EXPLICIT_ARRAY_DEPENDENCY_CHAIN"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "hash-matching recovery of the historical artifacts for the old claim or a genuinely new preregistered falsifier on the separate versioned inventory; never apply historical EAS scores membership or downstream summaries to the new panel"
+      ],
+      "ready_to_run": false,
+      "scope": "structural",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:EXACT_ROOT_PAIR_MINING",
+      "title": "EXACT_ROOT_PAIR_MINING",
+      "claim": "IL007 validation selected s->aii, but archived text-only transition and composition tests had already selected the same pair; bucket 0 was not scored",
+      "member_ids": [
+        "FAMILY:EXACT_ROOT_PAIR_MINING"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "new literal-root data or a mechanism-level invariant that does not select exact pairs, not another pair list, score, threshold, or split"
+      ],
+      "ready_to_run": false,
+      "scope": "structural",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:F57V_CROSS_REGISTER_SAME_QUALITY_IDENTITY",
+      "title": "F57V_CROSS_REGISTER_SAME_QUALITY_IDENTITY",
+      "claim": "Corresponding positions in two f57v registers express identical qualities beyond already known coordinate features.",
+      "member_ids": [
+        "FAMILY:F57V_CROSS_REGISTER_SAME_QUALITY_IDENTITY"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "primary_reports_partial_family",
+      "sources": [
+        "experiments/semantic_assumptions/results/f57_cross_register_quality_identity_worth_report.md",
+        "experiments/semantic_assumptions/results/f57_cross_register_quality_identity_worth_validation.json"
+      ],
+      "priority_tier": "ARCHIVE_FIXED_TEST",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "an independently owned repeated two-register system frozen before its strings, not another f57 metric feature ablation phase or selected substring"
+      ],
+      "ready_to_run": false,
+      "scope": "semantic",
+      "source_sha256": {
+        "experiments/semantic_assumptions/results/f57_cross_register_quality_identity_worth_report.md": "835dcb0eb3268c96870e4d035353de7d3616af998c422017bedd27276aa31f28",
+        "experiments/semantic_assumptions/results/f57_cross_register_quality_identity_worth_validation.json": "ffe7ced602ef49251a6542a4a624068064b43c7a2bbb1db77168afac0a914ca7"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:F67R2_COMPLETE_CORRECTED_RING_TRANSCRIPTION_CAPACITY",
+      "title": "F67R2_COMPLETE_CORRECTED_RING_TRANSCRIPTION_CAPACITY",
+      "claim": "a frozen complete twelve-record census retains only the two previously exposed RBR001 records with recoverable divergent brown geometry; zero of nine new records qualifies and the 8/12 4/9-new and three-multiple gates all fail",
+      "member_ids": [
+        "FAMILY:F67R2_COMPLETE_CORRECTED_RING_TRANSCRIPTION_CAPACITY"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "new physical-layer or multispectral evidence exposing bounded under-strokes across the complete ring, not threshold relaxation decorative-hatching counts transcription selection or another visible-light zoom"
+      ],
+      "ready_to_run": false,
+      "scope": "acquisition",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:F67R2_OUTER_RING_RED_OVER_BROWN_RETRACING_STATE",
+      "title": "F67R2_OUTER_RING_RED_OVER_BROWN_RETRACING_STATE",
+      "claim": "two of three prospectively selected outer-ring loci preserve independently traceable brown under-stroke geometry diverging from red retracing; the third shows layering only and zero correct character identities are established",
+      "member_ids": [
+        "FAMILY:F67R2_OUTER_RING_RED_OVER_BROWN_RETRACING_STATE"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "a complete nonselective twelve-sector underlayer-recovery capacity census with prior exposure disclosed, not selecting more favorable annotated glyphs choosing a transcription or inferring correction intent plaintext or meaning"
+      ],
+      "ready_to_run": false,
+      "scope": "structural",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:F67R2_TAIL_ECHO_GENERIC_TWO_LINE_TRANSFER",
+      "title": "F67R2_TAIL_ECHO_GENERIC_TWO_LINE_TRANSFER",
+      "claim": "the inherited capped-four suffix statistic gives the ten human f75v top-bottom pairs score 4 in every reading with exhaustive upper tails .736270/.736270/.712593; the f67r2 local own-body result remains intact",
+      "member_ids": [
+        "FAMILY:F67R2_TAIL_ECHO_GENERIC_TWO_LINE_TRANSFER"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "a new prospectively frozen repeated author-visible body-plus-dependent-line family on independent folios, not another exposed two-line layout tail width feature or selected pairing"
+      ],
+      "ready_to_run": false,
+      "scope": "structural",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:F69V_AUTHOR_VISIBLE_START_DIRECTION",
+      "title": "F69V_AUTHOR_VISIBLE_START_DIRECTION",
+      "claim": "a prospective five-device native-visual audit finds repeated star spokes and alternating capped logs but no unique leader arrow trail marked junction owned numeral/plain start or differentiated slot plus direction cue",
+      "member_ids": [
+        "FAMILY:F69V_AUTHOR_VISIBLE_START_DIRECTION"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "a genuinely new source image state or independently documented authorial start mark, not paint gaps damage motifs Grove numbering clock position text identity or another 28-item roster"
+      ],
+      "ready_to_run": false,
+      "scope": "acquisition",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:F73V_ORIGINAL_HOOK_RETRACER_OMISSION",
+      "title": "F73V_ORIGINAL_HOOK_RETRACER_OMISSION",
+      "claim": "the exact f73v.15 f-like glyph preserves a pale hook-bearing under-stroke attached to the target stem beneath a materially darker retracing that follows the stem but omits the hook; zero character-identity changes are established",
+      "member_ids": [
+        "FAMILY:F73V_ORIGINAL_HOOK_RETRACER_OMISSION"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "a new prospectively frozen human-annotated retracing feature on another locus, not general visual mining character reinterpretation or treating the feature omission as plaintext"
+      ],
+      "ready_to_run": false,
+      "scope": "structural",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:F73V_RETRACED_Y_POSSIBLE_O_TWO_STATE_GLYPH",
+      "title": "F73V_RETRACED_Y_POSSIBLE_O_TWO_STATE_GLYPH",
+      "claim": "the exact f73v.32 initial has a bounded long y-like stroke and darker lower junction on the official canvas but no independently traceable closed o-like base or physical boundary proving a later intervention",
+      "member_ids": [
+        "FAMILY:F73V_RETRACED_Y_POSSIBLE_O_TWO_STATE_GLYPH"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "new physical or spectral data exposing separate strokes and chronology, not another zoom alternate transcription retracing assertion or treating one complex glyph as a correction pair"
+      ],
+      "ready_to_run": false,
+      "scope": "acquisition",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:FIFTH_SAME_PLANT_WITHIN_WORD_ORDERED_ROOT",
+      "title": "FIFTH_SAME_PLANT_WITHIN_WORD_ORDERED_ROOT",
+      "claim": "The fixed fifth same-plant relation predicts exceptional within-word ordered-root recurrence on f37v.",
+      "member_ids": [
+        "FAMILY:FIFTH_SAME_PLANT_WITHIN_WORD_ORDERED_ROOT"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "primary_reports_partial_family",
+      "sources": [
+        "experiments/semantic_assumptions/results/fpr001_f37v_one_shot_target_report.md",
+        "experiments/semantic_assumptions/results/fpr001_f37v_one_shot_target_validation_report.md"
+      ],
+      "priority_tier": "ARCHIVE_FIXED_TEST",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "another independently fixed singular same-object relation or genuinely different invariant, not lowering LCS threshold cross-word matching reading selection query edits or mining f37v"
+      ],
+      "ready_to_run": false,
+      "scope": "structural",
+      "source_sha256": {
+        "experiments/semantic_assumptions/results/fpr001_f37v_one_shot_target_report.md": "4be1a38934bf87ab06e2c9e2c77c71cd4b0908c8c8b7a1e7acdf2227360edffb",
+        "experiments/semantic_assumptions/results/fpr001_f37v_one_shot_target_validation_report.md": "ed488747dd9c217fb4f0a2c675e43d93798aba032be1e4cbf241fc94ee56f236"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:FIXED_TIMM_LOCAL_SELF_CITATION_FOR_IL010",
+      "title": "FIXED_TIMM_LOCAL_SELF_CITATION_FOR_IL010",
+      "claim": "IL011 exact-null ZL is +0.01692 with 80.6% positive pages; 0/62 eligible sealed fixed-Timm controls matched either statistic, conservative p=0.01587",
+      "member_ids": [
+        "FAMILY:FIXED_TIMM_LOCAL_SELF_CITATION_FOR_IL010"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "a genuinely different predeclared generator family or independent mechanism, not more fixed-Timm seeds, thresholds, eligibility edits, or post-result parameter tuning"
+      ],
+      "ready_to_run": false,
+      "scope": "method",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:FORM_CONDITIONED_EXACT_ROOT_RECENCY",
+      "title": "FORM_CONDITIONED_EXACT_ROOT_RECENCY",
+      "claim": "nested page/paragraph conditional permutations passed power and integrity but held ZL C roots showed only +0.0021 residual with Holm p=0.492 in both scopes",
+      "member_ids": [
+        "FAMILY:FORM_CONDITIONED_EXACT_ROOT_RECENCY"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "new permitted data or a different invariant, not another horizon, distance kernel, cell collapse, root partition, or permutation count"
+      ],
+      "ready_to_run": false,
+      "scope": "structural",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:GEOMETRIC_PROXIMITY_OWNERSHIP",
+      "title": "GEOMETRIC_PROXIMITY_OWNERSHIP",
+      "claim": "millimetric closeness does not establish which prose describes which object",
+      "member_ids": [
+        "FAMILY:GEOMETRIC_PROXIMITY_OWNERSHIP"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "explicit connectors brackets repeated layout grammar or human-authored caption markers"
+      ],
+      "ready_to_run": false,
+      "scope": "acquisition",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:HERBAL_PARAGRAPH_ORDINAL_TEMPLATE",
+      "title": "HERBAL_PARAGRAPH_ORDINAL_TEMPLATE",
+      "claim": "IL018 found no additive ROOT/FORM interior profile; IL019 then retained all 766 lines and explicitly tested 21 confirmed construction channels across boundaries, bodies, and order, but BOUNDARY/FULL both had negative held gains and failed block/alternate-reading gates",
+      "member_ids": [
+        "FAMILY:HERBAL_PARAGRAPH_ORDINAL_TEMPLATE"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "independent authorial stage labels or a genuinely different repeated relation; not another feature set, classifier, channel subset, reading, threshold, fold, boundary treatment, or addition of 3+ pages after these results"
+      ],
+      "ready_to_run": false,
+      "scope": "structural",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:HERBAL_WHOLE_PAGE_LEAF_MARGIN_STATE",
+      "title": "HERBAL_WHOLE_PAGE_LEAF_MARGIN_STATE",
+      "claim": "visual capacity passes and the nonvocabulary cho-che successor rejects null and all localized or confounded controls, but its stringent 108/324-assignment exact instrument recovers only 7/8 frozen one-error reduced distributed plants so the real formal state remains unopened",
+      "member_ids": [
+        "FAMILY:HERBAL_WHOLE_PAGE_LEAF_MARGIN_STATE"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "a genuinely different prespecified author-visible relation or new independent physical folios that improve exact conditional mobility, not weaker tails altered plants broader cells literal-root-family mining or opening the sealed cho-che state"
+      ],
+      "ready_to_run": false,
+      "scope": "method",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:HISTORICAL_HERBAL_IMAGE_MATCHING",
+      "title": "HISTORICAL_HERBAL_IMAGE_MATCHING",
+      "claim": "Historical herbal source relationships predict manuscript entry order or medicinal semantics.",
+      "member_ids": [
+        "FAMILY:HISTORICAL_HERBAL_IMAGE_MATCHING"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "a new authorial source entry/text relation, not another witness, order, derived source property, name set, subgroup, root subset, or threshold"
+      ],
+      "ready_to_run": false,
+      "scope": "semantic",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:IL010_EARLY_LATE_STAGE_INTERACTION",
+      "title": "IL010_EARLY_LATE_STAGE_INTERACTION",
+      "claim": "23 training pages gave early -0.00250, late -0.00220, and late-minus-early +0.00030 with p=0.493; validation and final stayed sealed",
+      "member_ids": [
+        "FAMILY:IL010_EARLY_LATE_STAGE_INTERACTION"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "a genuinely different coordinate or higher-order invariant, not new bin cuts, middle inclusion, position smoothing, threshold changes, or held-page inspection"
+      ],
+      "ready_to_run": false,
+      "scope": "structural",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:IL010_LABEL_CONTENT_SIGN_INTERACTION",
+      "title": "IL010_LABEL_CONTENT_SIGN_INTERACTION",
+      "claim": "19/25 training pages were eligible, but all three proposed signed interactions were negative and even the disclosed reverse signs had family p=0.695/0.723/0.188; validation and final stayed sealed",
+      "member_ids": [
+        "FAMILY:IL010_LABEL_CONTENT_SIGN_INTERACTION"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "new independent semantic coordinate or a distinct predeclared interaction, not reversing the sign, selecting BIO alone, changing thresholds, or scoring held pages"
+      ],
+      "ready_to_run": false,
+      "scope": "structural",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:INLINE_PROSE_FIGURE_CARDINALITY",
+      "title": "INLINE_PROSE_FIGURE_CARDINALITY",
+      "claim": "f81r.1 has seven groups below seven figures and f84r.27 has ten below ten, but both lines continue as prose and have no cells leaders dividers or complete one-group/one-figure ownership",
+      "member_ids": [
+        "FAMILY:INLINE_PROSE_FIGURE_CARDINALITY"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "an author-visible singular assignment device on a repeated layout family, not aggregate count equality proximity wider spaces or filler mining"
+      ],
+      "ready_to_run": false,
+      "scope": "acquisition",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:KNOWN_LANGUAGE_POS_AND_WORD_ORDER",
+      "title": "KNOWN_LANGUAGE_POS_AND_WORD_ORDER",
+      "claim": "SVO/POS/known-language graph and Currier transducer routes cannot distinguish stable form propensity from translation",
+      "member_ids": [
+        "FAMILY:KNOWN_LANGUAGE_POS_AND_WORD_ORDER"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "an external bilingual/phonetic anchor or a held prediction unique to one language analysis"
+      ],
+      "ready_to_run": false,
+      "scope": "semantic",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:LEXICAL_GLOSSES_FROM_FORMAL_ROLES",
+      "title": "LEXICAL_GLOSSES_FROM_FORMAL_ROLES",
+      "claim": "Established structural roles admit transferable lexical glosses.",
+      "member_ids": [
+        "FAMILY:LEXICAL_GLOSSES_FROM_FORMAL_ROLES"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "independent authorial lexical anchor that transfers across pages and readings"
+      ],
+      "ready_to_run": false,
+      "scope": "semantic",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:MINIMAL_PAIRS_ALLOGRAPHY_AND_SYNONYMS",
+      "title": "MINIMAL_PAIRS_ALLOGRAPHY_AND_SYNONYMS",
+      "claim": "too few disjoint substitutions; H/e position adaptation and root-class collapses fail confirmation",
+      "member_ids": [
+        "FAMILY:MINIMAL_PAIRS_ALLOGRAPHY_AND_SYNONYMS"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "new recurring substitution on multiple disjoint page pairs with untouched holdout"
+      ],
+      "ready_to_run": false,
+      "scope": "semantic",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:NATIVE_COMPACT_SYSTEM_CLASS_REFERENCE",
+      "title": "NATIVE_COMPACT_SYSTEM_CLASS_REFERENCE",
+      "claim": "IL025 added genuinely new manual native-boundary prose, recipe, and map-inscription sources; full held validation passed, but the mandatory size/shape-excluded dynamic view put only .250 of recipe sources both correct and inside the frozen envelope versus the .500 gate, so no Voynich feature was scored",
+      "member_ids": [
+        "FAMILY:NATIVE_COMPACT_SYSTEM_CLASS_REFERENCE"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "new independent authorial evidence or a genuinely different mechanism invariant, not feature, envelope, threshold, class, source, split, distance, or gate retuning and not another score of the frozen Voynich panels"
+      ],
+      "ready_to_run": false,
+      "scope": "method",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:NUMBER_CALENDAR_AND_COUNTING",
+      "title": "NUMBER_CALENDAR_AND_COUNTING",
+      "claim": "Counting/arithmetic or a licensed calendar roster explains manuscript groups; the reviewed subtest fixes the Latin mansion roster and prefix topology.",
+      "member_ids": [
+        "FAMILY:NUMBER_CALENDAR_AND_COUNTING"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "primary_reports_partial_family",
+      "sources": [
+        "experiments/semantic_assumptions/results/f69m001_target.md",
+        "experiments/semantic_assumptions/results/f69m001_target_validation.md"
+      ],
+      "priority_tier": "ARCHIVE_FIXED_TEST",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "independent repeated arithmetic equality or a different explicit authorial coordinate and independently licensed roster; not another mansion spelling roster rotation depth threshold or inference from cardinality"
+      ],
+      "ready_to_run": false,
+      "scope": "semantic",
+      "source_sha256": {
+        "experiments/semantic_assumptions/results/f69m001_target.md": "6fc63d6e563e3f52e2b99d7f568c82d45c0e0c671682d1c5783fbcfd884989ab",
+        "experiments/semantic_assumptions/results/f69m001_target_validation.md": "1eea25baf92d33934c3737b305217e64fa1cf7430c06f062ec275bced2c6f8b1"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:OCR_CV_AND_PROMPT_SEMANTICS",
+      "title": "OCR_CV_AND_PROMPT_SEMANTICS",
+      "claim": "OCR CLIP embeddings batch recognition automated captions prompt scoring and prior generated plant labels remain prohibited and their old outputs support neither positive nor negative claims; on 2026-08-11 the user separately authorized prospective source-bound native direct visual inspection with explicit provenance uncertainty and correction records",
+      "member_ids": [
+        "FAMILY:OCR_CV_AND_PROMPT_SEMANTICS"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "do not treat the native-inspection authorization as admission of OCR CLIP batch CV similarity scores prompt semantics or any archived excluded result; those methods require their own explicit future authorization"
+      ],
+      "ready_to_run": false,
+      "scope": "method",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:PAIRWISE_PRESERVING_HIGHER_ORDER_LINE_ASSEMBLY",
+      "title": "PAIRWISE_PRESERVING_HIGHER_ORDER_LINE_ASSEMBLY",
+      "claim": "IL026's exact suffix null preserved root/shell bigrams, root-shell identities, opening state, and line-length distributions and stayed null on pairwise-only synthetic data, but a frozen order-two plant produced only .580 positive pages with p=.09375 and failed the .650/.01 power gates; no real manuscript trigram score was computed",
+      "member_ids": [
+        "FAMILY:PAIRWISE_PRESERVING_HIGHER_ORDER_LINE_ASSEMBLY"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "new literal-root data or a genuinely different independently powered higher-order invariant, not stronger planting, smoothing, support, null, gate, split, or model changes and not scoring the sealed manuscript buckets"
+      ],
+      "ready_to_run": false,
+      "scope": "method",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:PHARMA_AUTHOR_VISIBLE_SINGULAR_OWNERSHIP",
+      "title": "PHARMA_AUTHOR_VISIBLE_SINGULAR_OWNERSHIP",
+      "claim": "strict native inspection of every official pharmaceutical canvas finds only one singular author-visible owner device on q19 canvas PVBF6CD577 and zero on q15; eleven canvases use only proximity alignment or prose",
+      "member_ids": [
+        "FAMILY:PHARMA_AUTHOR_VISIBLE_SINGULAR_OWNERSHIP"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "new independently sourced author-visible owner devices on at least three additional canvases including q15, not proximity nearest-neighbor label mining or mapping the lone inscription"
+      ],
+      "ready_to_run": false,
+      "scope": "acquisition",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:PHARMA_CONTAINER_TOP_BOTTOM_PHYSICAL_PART",
+      "title": "PHARMA_CONTAINER_TOP_BOTTOM_PHYSICAL_PART",
+      "claim": "conservative human comments yield only two upper-part labels on f99/f102 versus eleven collapsed lower-part unit states; two pages mix states and only f102v2.C1 has both on one container, so the folio-sign p floor is .25",
+      "member_ids": [
+        "FAMILY:PHARMA_CONTAINER_TOP_BOTTOM_PHYSICAL_PART"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "new directly attached upper physical-part labels on at least three additional folios and repeated within-container contrasts, not page-row top/bottom wording proximity lower thresholds or filler mining"
+      ],
+      "ready_to_run": false,
+      "scope": "acquisition",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:PHARMA_CONTAINER_VERSUS_PLANT_LABEL_OWNER_CLASS",
+      "title": "PHARMA_CONTAINER_VERSUS_PLANT_LABEL_OWNER_CLASS",
+      "claim": "exact page-and-length matching retains 53 zero-alternative container-associated versus plant-fragment-associated label loci and 19 balanced pairs on f88 f89 f99 f102, but f89 contributes over half and the folio-sign p floor is .0625",
+      "member_ids": [
+        "FAMILY:PHARMA_CONTAINER_VERSUS_PLANT_LABEL_OWNER_CLASS"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "new independent-folio owner-class annotations, not within-folio assignment expansion lower gates feature retuning or alternate-reading pooling"
+      ],
+      "ready_to_run": false,
+      "scope": "acquisition",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:PHARMA_FLOWER_COUNT_AND_EXACT_LABEL_RECURRENCE",
+      "title": "PHARMA_FLOWER_COUNT_AND_EXACT_LABEL_RECURRENCE",
+      "claim": "explicit human flower/flowers descriptions reduce to seven singular owned labels across four folios versus two plural labels on only f89/f100; among 24 clear cells 17 complete all-reading-stable literals have zero repeat types",
+      "member_ids": [
+        "FAMILY:PHARMA_FLOWER_COUNT_AND_EXACT_LABEL_RECURRENCE"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "new independently owned plural-flower labels on at least two more folios or genuinely new exact recurrence data, not looser proximity morphology models partial matching roots or alternate-reading selection"
+      ],
+      "ready_to_run": false,
+      "scope": "acquisition",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:PHARMA_ROOT_ONLY_VERSUS_LEAF_BEARING_OWNER_STATE",
+      "title": "PHARMA_ROOT_ONLY_VERSUS_LEAF_BEARING_OWNER_STATE",
+      "claim": "strict human-comment parsing retains six root-only and eighteen leaf-bearing owned labels across seven folios, but only f89/f102 mix states, only f89r1 is a mixed page, and zero within-folio opposite-state pairs match ordered group lengths",
+      "member_ids": [
+        "FAMILY:PHARMA_ROOT_ONLY_VERSUS_LEAF_BEARING_OWNER_STATE"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "new singular owner-state observations that create multiple mixed pages and length-matched pairs on additional folios, not looser ownership unmatched labels feature correction or alternate-reading pooling"
+      ],
+      "ready_to_run": false,
+      "scope": "acquisition",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:RECURRENT_FILLER_BLIND_PROSE_SLOT",
+      "title": "RECURRENT_FILLER_BLIND_PROSE_SLOT",
+      "claim": "a filler-blind ladder selects one Currier-A length-5 ordinal-3 neighbour-shell context on nine folios, but its ten frozen occupants contain nine families, ten exact members, nine current shells, and zero preregistered recurrence flags",
+      "member_ids": [
+        "FAMILY:RECURRENT_FILLER_BLIND_PROSE_SLOT"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "new independently readable content or a genuinely different authorial relation, not alternative contexts, looser shells, background mining, threshold changes, or inspecting lower-ranked masked contexts"
+      ],
+      "ready_to_run": false,
+      "scope": "structural",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:ROSETTES_FIVE_BY_THREE_FORMAL_FILLER_ASSOCIATION",
+      "title": "ROSETTES_FIVE_BY_THREE_FORMAL_FILLER_ASSOCIATION",
+      "claim": "the author-visible 5x3 topology is retained but the target formal sequences were displayed before a content freeze; only ZL and RF describe the single foldout and no statistic or p-value was computed",
+      "member_ids": [
+        "FAMILY:ROSETTES_FIVE_BY_THREE_FORMAL_FILLER_ASSOCIATION"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "a prospectively frozen independent author-visible 5x3 panel on new physical folios, not retrospective scoring filler mining or treating alternate readings as replications"
+      ],
+      "ready_to_run": false,
+      "scope": "structural",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:ROSETTES_OLD_E_NEW_DOT_CORRECTION_STATE",
+      "title": "ROSETTES_OLD_E_NEW_DOT_CORRECTION_STATE",
+      "claim": "the exact fRos.116 glyph has a bounded dot and plausible faint e-like lower curve on the official canvas but no separable overlap or ink boundary proves a later intervention",
+      "member_ids": [
+        "FAMILY:ROSETTES_OLD_E_NEW_DOT_CORRECTION_STATE"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "new physical or spectral data exposing the intervention chronology, not another zoom rotation contrast view transcription choice or treating one complex glyph as a correction pair"
+      ],
+      "ready_to_run": false,
+      "scope": "acquisition",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:SELF_CORRECTIONS_AND_BILINGUAL_KEYS",
+      "title": "SELF_CORRECTIONS_AND_BILINGUAL_KEYS",
+      "claim": "no recoverable before/after correction pairs; direct native inspection public 2014 Lazarus MSI and targeted 2024 paint-removal views of the strongest named e-to-l a-to-s and ch-to-sh candidates expose unusual current forms but no distinct earlier state physical edit order equivalence gloss pointer or interlinear pairing",
+      "member_ids": [
+        "FAMILY:SELF_CORRECTIONS_AND_BILINGUAL_KEYS"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "new physical or spectral data exposing two recoverable writing states or an independently readable authorial gloss; not another contrast rendering of the current public images"
+      ],
+      "ready_to_run": false,
+      "scope": "acquisition",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:SPECIAL_CIRCLE_10_TO_5_CROSS_BAND_PAIRING",
+      "title": "SPECIAL_CIRCLE_10_TO_5_CROSS_BAND_PAIRING",
+      "claim": "The repeated ten-outer/five-inner layout visibly licenses two-to-one correspondence before text scoring.",
+      "member_ids": [
+        "FAMILY:SPECIAL_CIRCLE_10_TO_5_CROSS_BAND_PAIRING"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "primary_reports_partial_family",
+      "sources": [
+        "experiments/semantic_assumptions/results/special_circle_10_to_5_pairing_worth_report.md",
+        "experiments/semantic_assumptions/results/special_circle_10_to_5_pairing_worth_validation_report.md"
+      ],
+      "priority_tier": "ARCHIVE_FIXED_TEST",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "a new author-visible correspondence device or exact external homologue, not proportional angular pairing proximity filler mining or another unequal-band score"
+      ],
+      "ready_to_run": false,
+      "scope": "acquisition",
+      "source_sha256": {
+        "experiments/semantic_assumptions/results/special_circle_10_to_5_pairing_worth_report.md": "15262ca079bc4124e016c004a7fb8c597d668b8a0ba1e955dd6d970ca6f4ae7a",
+        "experiments/semantic_assumptions/results/special_circle_10_to_5_pairing_worth_validation_report.md": "f131c2e176f8a8a2e9abafe04ad8ab8f4371f12d070e55cf5c1d888559943270"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:SPECIAL_CIRCLE_NEW_INVENTORY_BOUNDARY_REBUILD",
+      "title": "SPECIAL_CIRCLE_NEW_INVENTORY_BOUNDARY_REBUILD",
+      "claim": "218 all-reading-stable linear edges span 43 arrays and all seven extant circle folios but only four physical bifolio units, so the exact one-sided sign floor is .0625 and no score effect or null was opened",
+      "member_ids": [
+        "FAMILY:SPECIAL_CIRCLE_NEW_INVENTORY_BOUNDARY_REBUILD"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "additional independent physical production units or a genuinely different externally owned relation, not treating edges arrays pages or folios as independent and not applying historical EAS001 scores"
+      ],
+      "ready_to_run": false,
+      "scope": "structural",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:SPECIAL_CIRCLE_PLAIN_LEGEND",
+      "title": "SPECIAL_CIRCLE_PLAIN_LEGEND",
+      "claim": "all 14 official canvases covering 26 f67-through-f73 panels were inspected; readable French month strings are different-hand whole-page additions, public 2014 MSI of f70v1/f71r exposes no new register, and the public paint-removal rendering of f68r2 still yields no stable plain sequence or equivalence device",
+      "member_ids": [
+        "FAMILY:SPECIAL_CIRCLE_PLAIN_LEGEND"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "new physical-layer or multispectral data on an unresolved special-circle folio or specialist diplomatic evidence exposing a readable main-hand sequence plus an author-visible plain/Voynich equivalence; not another paint-suppressed or ordinary rendering, month names, folio marks, isolated shapes, or visual guesses"
+      ],
+      "ready_to_run": false,
+      "scope": "acquisition",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:STAR_ENTRY_MARKER_COLOR",
+      "title": "STAR_ENTRY_MARKER_COLOR",
+      "claim": "120 exact red-yellow alternating star-marker lines on nine pages and seven folios supply a valid color/parity-separated source panel, but zero of 15 frozen formal features passes; best LINE_CARRIER_ANY has family p=.933594",
+      "member_ids": [
+        "FAMILY:STAR_ENTRY_MARKER_COLOR"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "new independently readable star-marker values other than color or a new authorial relation, not excluded proximity mappings, more features, roots, thresholds, phase edits, subsets, or alternate-reading selection"
+      ],
+      "ready_to_run": false,
+      "scope": "structural",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:VISIBLE_IMAGE_TO_WORD",
+      "title": "VISIBLE_IMAGE_TO_WORD",
+      "claim": "Visible object tags predict reusable manuscript vocabulary under held evaluation.",
+      "member_ids": [
+        "FAMILY:VISIBLE_IMAGE_TO_WORD"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "new authorial caption relation or independently translated label, not proximity or a stronger encoder"
+      ],
+      "ready_to_run": false,
+      "scope": "semantic",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:WHOLE_GROUP_TRACE_GRAPH_CURRENT_STA_CHANNEL",
+      "title": "WHOLE_GROUP_TRACE_GRAPH_CURRENT_STA_CHANNEL",
+      "claim": "the five exact nonduplicate cells contain only 32 eligible rows; publishing 30 as audit geometry and permanently excluding them from image review leaves two exact rows in two cells and zero rows on wholly fresh folios",
+      "member_ids": [
+        "FAMILY:WHOLE_GROUP_TRACE_GRAPH_CURRENT_STA_CHANNEL"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "genuinely new eligible source rows or a new provenance-clean physical evidence layer supporting sealed held panels, not reusing published geometry rows relaxing the six-folio exact-cell controls or rematching closed IGR types"
+      ],
+      "ready_to_run": false,
+      "scope": "acquisition",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:ZODIAC_AND_ASTRONOMICAL_DICTIONARIES",
+      "title": "ZODIAC_AND_ASTRONOMICAL_DICTIONARIES",
+      "claim": "Externally named astronomical values map to manuscript sequence coordinates.",
+      "member_ids": [
+        "FAMILY:ZODIAC_AND_ASTRONOMICAL_DICTIONARIES"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "an authorial coordinate or duplicated labeled sequence with fixed external start/order"
+      ],
+      "ready_to_run": false,
+      "scope": "semantic",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:ZODIAC_CLOTHING_FORMAL_MARKER",
+      "title": "ZODIAC_CLOTHING_FORMAL_MARKER",
+      "claim": "At least one frozen formal feature associates reproducibly with the admitted clothing-state panel.",
+      "member_ids": [
+        "FAMILY:ZODIAC_CLOTHING_FORMAL_MARKER"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "primary_reports_partial_family",
+      "sources": [
+        "experiments/semantic_assumptions/results/zcv001_zodiac_clothing_formal_marker_target_report.md",
+        "experiments/semantic_assumptions/results/zcv001_zodiac_clothing_formal_marker_target_validation.md"
+      ],
+      "priority_tier": "ARCHIVE_FIXED_TEST",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "new independently readable authorial content or a genuinely different relation, not winner inspection, reverse UNDRESSED scoring, state regrading, ring deletion, feature widening, or threshold retuning"
+      ],
+      "ready_to_run": false,
+      "scope": "structural",
+      "source_sha256": {
+        "experiments/semantic_assumptions/results/zcv001_zodiac_clothing_formal_marker_target_report.md": "40d5d6b178bdaa2dd6d9a37cb9fd494b312165b1b39391b46aca977e40502905",
+        "experiments/semantic_assumptions/results/zcv001_zodiac_clothing_formal_marker_target_validation.md": "41345b7bfb7054e28b149a73e21834136b0d2c8348280c85013f079f5e9e98de"
+      }
+    },
+    {
+      "id": "DOSSIER-FAMILY:ZODIAC_STAR_TAIL_FORMAL_MARKER",
+      "title": "ZODIAC_STAR_TAIL_FORMAL_MARKER",
+      "claim": "lower-level human notes correct two compact-catalogue false positives and leave f73 with one strict TAIL; a complete prospective f70v2 census then finds twenty-nine NO_TAIL including all twenty-five strict slots, so neither f70 ring is mixed and no second robust folio exists",
+      "member_ids": [
+        "FAMILY:ZODIAC_STAR_TAIL_FORMAL_MARKER"
+      ],
+      "relationship": "single_existing_dossier_not_duplicate_decision",
+      "assessment_basis": "registry_summary_only",
+      "sources": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ],
+      "priority_tier": "SOURCE_REVIEW_ON_DEPENDENCY",
+      "priority_reason": "Review only when a concrete new candidate depends on the exact predecessor; no blanket family rejection or routine archive sweep.",
+      "reopen_conditions": [
+        "new source-bound strict within-ring tail positives on another physical folio from genuinely new data, not regrading f70 or f73, restoring catalogue false positives, widening features, changing thresholds, or scoring the singleton panel"
+      ],
+      "ready_to_run": false,
+      "scope": "acquisition",
+      "source_sha256": {
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+      }
+    }
+  ]
+}
