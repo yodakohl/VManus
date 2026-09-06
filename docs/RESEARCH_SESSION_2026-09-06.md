@@ -401,3 +401,10 @@ appearance. Source scope distinguishes whole canvas from f69v-only; exact
 f70r1/f70r2 spatial mapping remains unassigned. Independent metadata validator
 PASS; no software claim to validate perception. Preparing result publication.
 IP055/IP061/IP064 producer review also recorded: none promoted toready.
+
+GDT867 result3a987793 public10:09:06UTC; actual10:01:29→10:09:06=7m37.
+The full audit required an explicit size justification for the ignored7.5MB
+original; added before publication. A follow-up index size refresh is needed
+because that manifest text changed after index rendering. No source or result
+changed. Targeted checks pass; unrelated GDT600/hash and historical TSV debt
+remain. Goal ACTIVE; earliestcompletion13:40:45UTC, not reached.
