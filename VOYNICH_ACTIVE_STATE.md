@@ -23056,3 +23056,13 @@ shared four-neighbor context or meaning follows. IT split+qokain f75r.33
 was already in823; retain it without new-discovery credit. Primary report:
 `experiments/yolo/gdt850_qolchedy_join_split_context_inventory/REPORT.md`.
 Next851 is only a bounded primitive tandem inventory, not a copy detector.
+
+## GDT851 primitive tandem inventory, 2026-09-06
+
+Two all-reading exact ABAB spans: f30r.11 cheor chey cheor chey and
+f8r.19 shol kaiin shol kaiin, all internal boundaries definite. Primary
+p1/p2/p3 counts248/4/0; IT264/5/0; RF200/3/0. Twelve p2reading events
+cover six loci on five physical folios, including known850f75v.44. No
+phrase meaning, copying mechanism or statistical surprise established.
+Fixed census stopped; source and all windows reproducible in
+`experiments/yolo/gdt851_primitive_tandem_raw_group_discovery/REPORT.md`.

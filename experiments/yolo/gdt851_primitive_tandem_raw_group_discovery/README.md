@@ -1,3 +1,3 @@
 # GDT851 — primitive raw-group tandem census
 
-Awaiting public registration and GO. See METHOD.md.
+Completed registered discovery. See REPORT.md and METHOD.md.

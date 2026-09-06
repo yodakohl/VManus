@@ -851,3 +851,10 @@ page/hand-only rule. No shared four-neighbor frame or semantic equivalence.
 The IT split+qokain75r.33 was already known823. Primary GDT850 REPORT governs.
 IP045 selected for GDT851 bounded primitive-period census only; no copying
 mechanism test, no new null/IL026 reopening, no automatic enlargement.
+
+### Root decision after GDT851
+
+IP045 completed as fixed primitive-period census. Two all-reading ABAB
+anchors f30r.11 cheor/chey and f8r.19 shol/kaiin; all p2hits4/5/3 by
+reading and no p3. No copy or phrase meaning. Known850f75v.44 is retained
+without new physical-discovery credit. No expansion selected. Primary851REPORT.

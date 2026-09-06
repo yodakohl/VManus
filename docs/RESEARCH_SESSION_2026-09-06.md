@@ -24,3 +24,9 @@ the larger idea pool. No word meaning confirmed.
 36-form inventory with20occupied cells and five length2anchors; GDT848
 natively supports one f104r anchor with incomplete control replication.
 The ten-hour goal remains ACTIVE; no translation is claimed.
+
+04:20UTC checkpoint, about39minutes elapsed: GDT850 adds complete joined/split
+coverage and same-line coexistence f75v.44; GDT851 provides two all-reader
+ABAB anchors and complete period1–3counts. The gate-scope review corrects
+GDT807s single-error interpretation; source and executable gates unchanged.
+No confirmed word meaning. The ten-hour goal remains ACTIVE; about9h20remain.

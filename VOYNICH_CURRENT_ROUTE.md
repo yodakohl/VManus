@@ -11,8 +11,10 @@ GDT850 inventories joined qolchedy versus definite qol chedy:28loci,16outside
 824's12target loci. f75v.44 has both forms in one line in ZL/IT; no uniform
 page/hand-only spelling rule. No shared four-neighbor frame or meaning.
 IT split+qokain f75r.33 was already explicit in823, not a new counterexample.
-Next: GDT851 bounded primitive tandem-block inventory, prereg pending;
-no copy/meaning inference or automatic scope expansion.39idea sketches retained.
+GDT851 finds exact ABAB in all readings at f30r.11 cheor/chey and f8r.19
+shol/kaiin; p2hits4/5/3, p3zero. Written anchors, not copying or meaning.
+Stop this census.39idea sketches retained; next choose a distinct grounded
+discriminator, not another expanded inventory or repaired decoder.
 
 GDT845/846: ee+d prefix direction persists descriptively under section/hand,
 but paired folio support is only f113qo/bare and f104qo/o; no general rule.
