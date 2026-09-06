@@ -1,0 +1,595 @@
+{
+  "schema": "semantic_failure_primary_integration_v1",
+  "review_id": "BU_INTEGRATED",
+  "dossiers": [
+    {
+      "scope": "Exact historical learned SHECTHY card in the R1/R2/R3 medium-substance model and central synthesis; not SH, CTH, Y, SHCTHY or every thermal whole-card interpretation.",
+      "original_claims": [
+        {
+          "claim": "warmes Wasser",
+          "evidence": [
+            {
+              "path": "experiments/yolo/sidequest_semantic_quantity_preparation/PREPARATION_PARADIGM_REPORT.md",
+              "line": 158,
+              "line_end": 160,
+              "quote": "| B3-S019 | qokshedy | Ansatz zur Ruhe bringen oder absetzen lassen; abschließen | beibehalten |\n| B3-S020 | dal · lchedy | Zielstelle; hinausführen; Schluss | beibehalten |\n| B3-S021 | qokaiin · shcthy · dal · sy · saiin · shedal · shecthy · chey · tal · shcthy · dalchdy | Nach Maß einsetzen; den Einsatz bemessen; bereit; Zielstelle; der laufende Posten; dies oder es; Maß; Ruhe- oder Absetzstelle; warmes Wasser; der laufende Posten; dies oder es; Zielstelle; bereit; lokal umsetzen; Schluss | beibehalten |",
+              "sha256": "77943fcb084ef25d1ee68d45f0cadccfffd966981a43e0eff44428b619de8169"
+            }
+          ],
+          "scope": "Earlier complete B3-S021 working reading, not an independently identified liquid."
+        },
+        {
+          "claim": "SHECTHY=BADWASSER; ANGESetzTES WASSER is a fallback rival",
+          "evidence": [
+            {
+              "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R1_MEDIUM_SUBSTANCE_REPORT.md",
+              "line": 85,
+              "line_end": 93,
+              "quote": "Auf den festen Seiten gibt es drei lokale Wassernamen, aber keinen belastbaren sichtbaren gemeinsamen Wasserstamm:\n\n1. `dshedy` in B2-S007: **FRISCHWASSER; SCHLUSS** — „Frischwasser zugeben; Schluss.“\n2. `rsheal` in B2-S017: **WARMWASSER** — „Warmwasser eingießen; an der zweiten Öffnung wiederholen und schließen.“\n3. `shecthy` in B3-S021: **BADWASSER** — in einer Folge aus Maß, Arbeitsstelle, Ruhe-/Absetzstelle und anschließendem Umsetzen.\n\n`SHECTHY = BADWASSER` ist bewusst konkreter als das frühere doppelte „warmes Wasser“. Der umgebende Stations- und Ruheablauf passt zu einem angesetzten Bad. Es bleibt eine gelernte Ganzkarte: Aus `SH`, `CTH` oder `Y` wird kein globales Wasserzeichen gemacht.\n\nStärkster Rivale für SHECTHY ist `ANGESetzTES WASSER`. Sollte ein späteres Vorkommen ohne Badbesitzer erscheinen, wäre dies der erste Ersatzkandidat. Auf den gegenwärtigen Seiten macht `BADWASSER` jedoch den B3-Ablauf am knappsten lesbar.",
+              "sha256": "5f36716813e3e12341b606e7334884c4514751adc61ee63d440a105204305631"
+            }
+          ],
+          "scope": "R1 local whole-card proposal, not a global water glyph."
+        },
+        {
+          "claim": "SHECTHY=warme Arbeitsflüssigkeit",
+          "evidence": [
+            {
+              "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R2_MEDIUM_SUBSTANCE_REPORT.md",
+              "line": 14,
+              "line_end": 21,
+              "quote": "```text\nAIR       laufende Arbeitsflüssigkeit\nCHEO      Auszugsmedium\nOR        Ansatz\nSHEY      Klarauszug                    [gelernte ganze Karte]\nTSHEY     Spülflüssigkeit               [gelernte ganze Karte]\nSHECTHY   warme Arbeitsflüssigkeit      [gelernte ganze Karte, dünn]\n```",
+              "sha256": "68949b4eee286dacccff866cafaf241cf88ff8bb797139c8d4691129f3be3a42"
+            },
+            {
+              "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R2_MEDIUM_SUBSTANCE_REPORT.md",
+              "line": 200,
+              "line_end": 205,
+              "quote": "## Karten, die das Modell am stärksten brechen können\n\n1. **`SHECTHY`** ist der gefährlichste Wert: nur ein Ereignis, kein benachbarter\n   Heizbefehl, und fast dieselbe Oberfläche wie `SHCTHY=gebrauchsfertig`.\n   Wiederholte trockene oder untemperierte Kontexte würden *warme\n   Arbeitsflüssigkeit* streichen.",
+              "sha256": "68949b4eee286dacccff866cafaf241cf88ff8bb797139c8d4691129f3be3a42"
+            }
+          ],
+          "scope": "R2 learned singleton proposal explicitly acknowledged as thin."
+        }
+      ],
+      "outcome": "Historical selected model revises the local substance contribution to an attained-state contribution. The water/working-medium alternatives remain historical hypotheses, not false extractions; TEMPERIERT is not thereby confirmed.",
+      "reason_class": "historical_model_revision",
+      "reason_subtype": "local_argument_economy_and_state_slot_preferred_over_extra_substance",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R3_MEDIUM_SUBSTANCE_REPORT.md",
+          "line": 131,
+          "line_end": 138,
+          "quote": "## 5. SHECTHY und die konkreten Medien\n\n`SHECTHY` kommt nur in `E276 / B3-S021` vor. Zwischen Ruhe-/Absetzstelle und\ndem wiederaufgenommenen Arbeitsposten ist **TEMPERIERT** die kürzeste\ntragfähige Lesung. Die Karte sagt damit den erreichten Zustand, nicht noch\neinmal die Substanz. Die ältere Lesung „warmes Wasser“ war zu eng; auch „warmes\nArbeitsmedium“ schrieb unnötig einen Gegenstand in eine Position, die sehr gut\nals Zustandsangabe funktioniert.",
+          "sha256": "f9b702a835beba25625fdf9e83efef08497689d42a7ed6048880ddf9db4481f0"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/SELECTED_MEDIUM_SUBSTANCE_COMPLETION_REPORT.md",
+          "line": 23,
+          "line_end": 26,
+          "quote": "`SHEY = KLARAUSZUG` remains a recurrent learned result card rather than a\nglobally split `SH+EY` word. `SHECTHY = TEMPERIERT` is now a state card, not a\nsecond word for water. This is still a deliberately speculative workshop\ntranslation, not a decipherment claim.",
+          "sha256": "515bc2a753d71cfa054c1dbcc6b13f97e7f3e22b8742a0ad516911c892b1dfa8"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/SELECTED_MEDIUM_SUBSTANCE_COMPLETION_REPORT.md",
+          "line": 161,
+          "line_end": 170,
+          "quote": "### B3-S021 and B3-S030 — f83r\n\n> Set the measure and bring the ready item to the site. After the settling site\n> it is tempered; move the current item ready at the next site and close.\n\n> Set the current item at the prescribed measure, conduct the water onward,\n> transfer it again and close.\n\n`SHECTHY=TEMPERIERT` removes an unnecessary second water noun, while\n`SCHEDAIR` retains the explicit water root.",
+          "sha256": "515bc2a753d71cfa054c1dbcc6b13f97e7f3e22b8742a0ad516911c892b1dfa8"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_b3_phase_b_lexicon_four_hundred_sixth/FOUR_HUNDRED_SIXTH_REPORT.md",
+          "line": 5,
+          "line_end": 16,
+          "quote": "- SAIIN gehört zur exakt gleichen 20-Ereignis-Karte wie AIIN, DAIIN, CHAIIN und\n  TAIIN. Ihr Wert bleibt Sollmaß.\n- SHEDAL erscheint in B3 und B5. SHED=absetzen plus AL=Stelle ergibt\n  Absetzstelle.\n- SHECTHY erscheint einmal. Seine Position nach Absetzstelle und vor dem\n  wieder aufgenommenen Posten macht einen erreichten Zustand plausibel;\n  „temperiert“ bleibt die knappste gelernte Ganzkartenlesung.\n\nDie Alternative „Dauer–Ruheplatz–warm“ klingt als Satz gut, bricht aber die\nAIIN-Invarianz. „Dosis–Haltestelle–warmes Wasser“ passt zum Bildthema, macht\nSHECTHY jedoch unnötig zu einem Stoffwort. Deshalb bleibt die kleine\nZustandskette vorn.",
+          "sha256": "729ec4b4dedc3b48ab929fd2a3b7acadb3f3b332d14a3f23e00fc9c10a6f42b9"
+        }
+      ],
+      "not_refuted": [
+        "No demonstrated absence of water or a bath at B3-S021.",
+        "No universal rejection of thermal meanings or proof that TEMPERIERT is the historically correct word.",
+        "The R2 dry/untempered-context falsifier and R1 non-bath-owner fallback are hypothetical; their trigger was not reported as observed.",
+        "No glyph-substring water or readiness value follows from the learned whole card.",
+        "The later Pass406 duration–rest–warm rival loses under that model’s AIIN invariance assumption; that is not an independent disproof of SHECTHY warm-water alone."
+      ],
+      "historical_reopening_or_falsifiers": [
+        {
+          "origin": "original_R1_conditional_prediction_not_preregistration",
+          "condition": "A later occurrence without a bath owner would favor angesetztes Wasser over Badwasser.",
+          "trigger_observed": false,
+          "evidence": [
+            {
+              "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R1_MEDIUM_SUBSTANCE_REPORT.md",
+              "line": 91,
+              "line_end": 93,
+              "quote": "`SHECTHY = BADWASSER` ist bewusst konkreter als das frühere doppelte „warmes Wasser“. Der umgebende Stations- und Ruheablauf passt zu einem angesetzten Bad. Es bleibt eine gelernte Ganzkarte: Aus `SH`, `CTH` oder `Y` wird kein globales Wasserzeichen gemacht.\n\nStärkster Rivale für SHECTHY ist `ANGESetzTES WASSER`. Sollte ein späteres Vorkommen ohne Badbesitzer erscheinen, wäre dies der erste Ersatzkandidat. Auf den gegenwärtigen Seiten macht `BADWASSER` jedoch den B3-Ablauf am knappsten lesbar.",
+              "sha256": "5f36716813e3e12341b606e7334884c4514751adc61ee63d440a105204305631"
+            }
+          ]
+        },
+        {
+          "origin": "original_R2_conditional_prediction_not_preregistration",
+          "condition": "Repeated dry or untempered contexts would remove warme Arbeitsflüssigkeit.",
+          "trigger_observed": false,
+          "evidence": [
+            {
+              "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R2_MEDIUM_SUBSTANCE_REPORT.md",
+              "line": 200,
+              "line_end": 205,
+              "quote": "## Karten, die das Modell am stärksten brechen können\n\n1. **`SHECTHY`** ist der gefährlichste Wert: nur ein Ereignis, kein benachbarter\n   Heizbefehl, und fast dieselbe Oberfläche wie `SHCTHY=gebrauchsfertig`.\n   Wiederholte trockene oder untemperierte Kontexte würden *warme\n   Arbeitsflüssigkeit* streichen.",
+              "sha256": "68949b4eee286dacccff866cafaf241cf88ff8bb797139c8d4691129f3be3a42"
+            }
+          ]
+        }
+      ],
+      "would_more_admitted_pages_help": {
+        "answer": "Only if they provide a discriminating new role/owner constraint, not merely more occurrences.",
+        "needed_property": "An independently constrained substance argument versus attained-state predication, with exact whole-card identity and the original B3-S021 case retained.",
+        "available_now_claimed": false
+      },
+      "reopening": {
+        "status": "PROSPECTIVE_REVIEW_ONLY_NO_AUTHORIZATION",
+        "criteria_origin": "Conditions below proposed in BU; not an original preregistration or a claim of satisfied gates.",
+        "all_of": [
+          "Freeze the exact local substance-versus-state alternatives and specify which observation each allows before new target inspection.",
+          "Establish the relevant role/owner contrast independently of the SHECTHY gloss being tested; a new picture interpretation chosen to fit the gloss is insufficient.",
+          "Bind the exact whole card across comparison cases, retain B3-S021, and preserve uncertain owner/state cases rather than recoding them after seeing outcomes.",
+          "If only a bath-local or ellipsis construction is tested, record its changed scope as a restricted hypothesis, not a restoration of every old medium reading."
+        ],
+        "not_sufficient": [
+          "More same-context repetitions or a smoother German translation.",
+          "Treating the R2 hypothetical dry counterexample as an observed result.",
+          "Selecting TEMPERIERT because it avoids a noun and then scoring that same editorial preference as independent confirmation."
+        ],
+        "assessed_by": "curation_review"
+      },
+      "related_card_bindings": [
+        {
+          "id": "SEM:17bf643361e851a42e2c",
+          "claim": "SHECTHY → BADWASSER",
+          "claim_type": "lexical_hypothesis",
+          "status": "unconfirmed",
+          "card_basis": "028981fa8d2bec75a1b04f2cdcb1c2b0f80e7424488cca108ab61ccb7cab28a0",
+          "effective_basis": "137b6857ca5340a282f7a7fe6d9e0468462d4e59106a7e0d1c6b9771bdaed7da",
+          "case_ids": [
+            "CLEAN_COMPONENT:5a4bdd12b25930308b49"
+          ]
+        },
+        {
+          "id": "SEM:4c160abd284815c9058c",
+          "claim": "**`SHECTHY`** ist der gefährlichste Wert: nur ein Ereignis, kein benachbarter Heizbefehl, und fast dieselbe Oberfläche wie `SHCTHY=gebrauchsfertig`. Wiederholte trockene oder untemperierte Kontexte würden *warme Arbeitsflüssigkeit* streichen.",
+          "claim_type": "lexical_hypothesis",
+          "status": "unconfirmed",
+          "card_basis": "bbeea704ca7a0310f2f302de070fb2825d291ef856ec6e1bbe44487329e9652a",
+          "effective_basis": "eabf821f28de7ddc003d9f575f4c70f6111cce86171814e81e4bcaf2151b1ee2",
+          "case_ids": [
+            "FINAL-SEM:6994544b5ac67c4699d5"
+          ]
+        },
+        {
+          "id": "SEM:f53cb74920f5d62caef0",
+          "claim": "SHECTHY → TEMPERIERT",
+          "claim_type": "lexical_hypothesis",
+          "status": "unconfirmed",
+          "card_basis": "27d330ac43d7a455175aa6ccba06714ad50c1309f3a88e1406275b40b767389e",
+          "effective_basis": "3cf70320bf016f5d76f0fac72cbef416547c1febc5332a8edf406c8a964c9d79",
+          "case_ids": [
+            "CLEAN_COMPONENT:acd33595fa3e32026fd1",
+            "CLEAN_COMPONENT:8e1691da57bf687ee35d",
+            "CLEAN_COMPONENT:875175be1da627ea9f00",
+            "CLEAN_COMPONENT:758abbb0d93ec34eac30",
+            "CLEAN_COMPONENT:5cf1b245cc808bd8c075",
+            "CLEAN_GAP_BD:shecthy_source_case"
+          ]
+        }
+      ],
+      "scope_applicability": {
+        "assessed_by": "primary_source_review",
+        "automatic_target_status_propagation": false,
+        "mode": "historical_source_model_only",
+        "targets": [
+          {
+            "target": "SEM:edf31c46635204622849",
+            "current_claim": "In R3_MEDIUM_SUBSTANCE, SHECTHY at E276/B3-S021 is read TEMPERIERT as the attained state between resting/settling and the resumed work item. The earlier warmes Wasser is judged too narrow, and warmes Arbeitsmedium unnecessarily adds an object; this is a local state-versus-substance revision, not a global refutation of every thermal interpretation.",
+            "source_case_ids": [
+              "CLEAN_GAP_BR:shecthy_state_not_substance"
+            ]
+          }
+        ]
+      },
+      "claim": "In the fixed B3-S021/E276 reading, SHECTHY contributes warm water or a warm working-medium object rather than the attained tempered state of the already active item.",
+      "actually_tested_falsifier": "R3 prefers a state after resting/settling and before the resumed work item. It calls warmes Wasser too narrow and warmes Arbeitsmedium an unnecessary object. The central synthesis selects TEMPERIERT rather than a second water word.",
+      "claim_ceiling": "These are competing creative authored readings of the same local context. No independent substance/state identification, newly observed dry context, or successful disambiguating experiment is reported.",
+      "decision_key": "FAILURE_BU:SHECTHY_STATE_VERSUS_SUBSTANCE",
+      "id": "FAILURE_BU:SHECTHY_STATE_VERSUS_SUBSTANCE:v1",
+      "previous_revision": null,
+      "status": "reviewed_scoped_context",
+      "targets": [
+        "SEM:edf31c46635204622849"
+      ],
+      "card_basis": {
+        "SEM:edf31c46635204622849": "3dd964e94648f6bc61b04a49a7213ad48c8b7dae59b8a474ff1a6d8153734da6"
+      },
+      "effective_basis": {
+        "SEM:edf31c46635204622849": "0fa688c2e179f65fc9e0cccc35e95d3d377a86ee4fac5f840d18593f36b21a41"
+      },
+      "reviewer": "root after independent grid_count_audit BU/BY primary review",
+      "review_artifact": "research_registry/decisions/semantic_failure_review_bu_integrated.json"
+    },
+    {
+      "scope": "Pass80 selected source lexicon, Pass81 twelve-term refinement and Pass82 propagation over the same 14 units. This is the owner/program-supplied source-word layer, not meanings encoded by raw cards or roots.",
+      "original_claims": [
+        {
+          "claim": "The selected edition combines 43 minimal card entries, 54 selected source words, finite licenses and 14 controlled units; creative uncertainty remains in source content and learned-card tail.",
+          "evidence": [
+            {
+              "path": "experiments/yolo/sidequest_semantic_selected_workshop_eightieth_edition/EIGHTIETH_EDITION_REPORT.md",
+              "line": 5,
+              "line_end": 12,
+              "quote": "The current sidequest is consolidated into one compact release: 43 minimal\ncard entries, 54 selected source words, 43 finite card-to-source licenses, 14\ncontrolled units, 776 bound groups, four scribe profiles and a 12-step manual.\n\nThe architecture is now explicit enough to generate and read the ten fixed pages\nwithout sentence-sized dictionary entries. The remaining creative uncertainty\nis concentrated in source content and a small learned-card tail, not hidden in\nthe renderer or line layout.",
+              "sha256": "56876e63cc4f263a2420e09f2fa953fb09ffbf65b922d39affaa5ecdbb10fa64"
+            }
+          ]
+        },
+        {
+          "claim": "The exact twelve selected old/new values and source-authored reasons are preserved in the BY source supplement.",
+          "source_mapping_artifact": "research_registry/decisions/semantic_sourceword_mapping_by.json",
+          "source_mapping_sha256": "a3132653622541eae6798e573f81036a10aeb07ec76222e6d0a0ed3bb96cf572"
+        }
+      ],
+      "outcome": "Recorded source-content refinement, with no demonstrated semantic FAIL. Thirteen units change wording and B5 remains unchanged; card/root meanings, visible groups, owners, programs and renderer remain fixed.",
+      "reason_class": "historical_model_revision",
+      "reason_subtype": "editorial_source_vocabulary_refinement_no_empirical_rejection",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_selected_workshop_eightieth_edition/EIGHTIETH_EDITION_REPORT.md",
+          "line": 5,
+          "line_end": 12,
+          "quote": "The current sidequest is consolidated into one compact release: 43 minimal\ncard entries, 54 selected source words, 43 finite card-to-source licenses, 14\ncontrolled units, 776 bound groups, four scribe profiles and a 12-step manual.\n\nThe architecture is now explicit enough to generate and read the ten fixed pages\nwithout sentence-sized dictionary entries. The remaining creative uncertainty\nis concentrated in source content and a small learned-card tail, not hidden in\nthe renderer or line layout.",
+          "sha256": "56876e63cc4f263a2420e09f2fa953fb09ffbf65b922d39affaa5ecdbb10fa64"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_source_word_refinement_eighty_first_edition/EIGHTY_FIRST_EDITION_REPORT.md",
+          "line": 5,
+          "line_end": 16,
+          "quote": "All 54 source words are ranked by visible, card, register or master supply.\nTwelve awkward or overly modern values are replaced with plainer workshop\nterms: Auszugsflüssigkeit, Trägerstoff, Bindestoff, Mittel, Seihgang, 28er\nFeld, Bedingungsfeld, Himmelszeichen, Wetterzeichen, Lichtzeichen, Zeitzeichen\nand Eigenschaft.\n\nThe revision changes no card/root meaning. It improves only the vocabulary that\nowner and unit program may supply after the card has opened a licensed slot.\n\nThe weakest remaining content words are water and the unnamed contents of\nmedium, carrier, binder, result and celestial readout slots. Those remain\ncreative defaults rather than decoded lexemes.",
+          "sha256": "d304b4c03a4b1159810ecd74486d29f1becb6368274fd6637f1543515a36937f"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_refined_controlled_rewrite_eighty_second_edition/EIGHTY_SECOND_EDITION_REPORT.md",
+          "line": 5,
+          "line_end": 13,
+          "quote": "The twelve source-word revisions are propagated through all fourteen units and\nall 776 bindings. Thirteen units change wording; B5 remains unchanged.\n\nThe main gain is compositional. Herbal now speaks of extraction liquid, carrier\nmaterial, binding material and means; Biological separates cloth from a straining\npass; Astro reads fields and signs instead of labels and abstract value metrics.\n\nNo card/root meaning, visible group, owner, unit program or scribe rendering is\nchanged. The rewrite acts only at the selected source-word layer.",
+          "sha256": "06df6bde3b0da794cbefcb0909292fb73349a0d8965ab9b4139791b88ebb989a"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_source_word_refinement_eighty_first_edition/EIGHTY_FIRST_REFINED_SOURCE_DICTIONARY.md",
+          "line": 21,
+          "line_end": 21,
+          "quote": "- `EXTRACTION_MEDIUM`: Auszugsmedium → **Auszugsflüssigkeit** (MASTER_SELECTED_CONTENT, 2/5)",
+          "sha256": "378fbd2ae39d0201b53aab04c97a2542835b23c1c4a8f59a0df8e7f2547f4568"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_source_word_refinement_eighty_first_edition/build_eighty_first_edition.py",
+          "line": 22,
+          "line_end": 22,
+          "quote": "    \"EXTRACTION_MEDIUM\": (\"Auszugsflüssigkeit\", \"Das Kompositum sagt Stoffrolle und bleibt kürzer als eine freie Weinannahme.\"),",
+          "sha256": "bb662c8f986f6e677b5c67569b5320d8b469f2b4bc5615b0614250299d060441"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_source_word_refinement_eighty_first_edition/EIGHTY_FIRST_REFINED_SOURCE_DICTIONARY.md",
+          "line": 22,
+          "line_end": 22,
+          "quote": "- `OIL_BINDER`: Träger → **Trägerstoff** (MASTER_SELECTED_CONTENT, 2/5)",
+          "sha256": "378fbd2ae39d0201b53aab04c97a2542835b23c1c4a8f59a0df8e7f2547f4568"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_source_word_refinement_eighty_first_edition/build_eighty_first_edition.py",
+          "line": 23,
+          "line_end": 23,
+          "quote": "    \"OIL_BINDER\": (\"Trägerstoff\", \"Ein konkreter technischer Rollenname ersetzt den abstrakten Träger.\"),",
+          "sha256": "bb662c8f986f6e677b5c67569b5320d8b469f2b4bc5615b0614250299d060441"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_source_word_refinement_eighty_first_edition/EIGHTY_FIRST_REFINED_SOURCE_DICTIONARY.md",
+          "line": 23,
+          "line_end": 23,
+          "quote": "- `HONEY_BINDER`: Binder → **Bindestoff** (MASTER_SELECTED_CONTENT, 2/5)",
+          "sha256": "378fbd2ae39d0201b53aab04c97a2542835b23c1c4a8f59a0df8e7f2547f4568"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_source_word_refinement_eighty_first_edition/build_eighty_first_edition.py",
+          "line": 24,
+          "line_end": 24,
+          "quote": "    \"HONEY_BINDER\": (\"Bindestoff\", \"Der Rollenname ist kurz und verlangt weder Honig noch Leim.\"),",
+          "sha256": "bb662c8f986f6e677b5c67569b5320d8b469f2b4bc5615b0614250299d060441"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_source_word_refinement_eighty_first_edition/EIGHTY_FIRST_REFINED_SOURCE_DICTIONARY.md",
+          "line": 28,
+          "line_end": 28,
+          "quote": "- `DRINK_OR_PRODUCT`: Endprodukt → **Mittel** (MASTER_SELECTED_CONTENT, 2/5)",
+          "sha256": "378fbd2ae39d0201b53aab04c97a2542835b23c1c4a8f59a0df8e7f2547f4568"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_source_word_refinement_eighty_first_edition/build_eighty_first_edition.py",
+          "line": 25,
+          "line_end": 25,
+          "quote": "    \"DRINK_OR_PRODUCT\": (\"Mittel\", \"Mittel funktioniert als Arznei- oder Werkmittel und ist kein modernes Endproduktetikett.\"),",
+          "sha256": "bb662c8f986f6e677b5c67569b5320d8b469f2b4bc5615b0614250299d060441"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_source_word_refinement_eighty_first_edition/EIGHTY_FIRST_REFINED_SOURCE_DICTIONARY.md",
+          "line": 48,
+          "line_end": 48,
+          "quote": "- `FILTER`: Filtern → **Seihgang** (VISIBLE_CONTEXT_PLUS_CARD, 4/5)",
+          "sha256": "378fbd2ae39d0201b53aab04c97a2542835b23c1c4a8f59a0df8e7f2547f4568"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_source_word_refinement_eighty_first_edition/build_eighty_first_edition.py",
+          "line": 26,
+          "line_end": 26,
+          "quote": "    \"FILTER\": (\"Seihgang\", \"Die Arbeitssprache braucht einen Vorgang statt des infiniten Filtern.\"),",
+          "sha256": "bb662c8f986f6e677b5c67569b5320d8b469f2b4bc5615b0614250299d060441"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_source_word_refinement_eighty_first_edition/EIGHTY_FIRST_REFINED_SOURCE_DICTIONARY.md",
+          "line": 57,
+          "line_end": 57,
+          "quote": "- `MANSION_PLACE`: 28er Platz → **28er Feld** (DIRECT_VISIBLE_OWNER_OR_GEOMETRY, 4/5)",
+          "sha256": "378fbd2ae39d0201b53aab04c97a2542835b23c1c4a8f59a0df8e7f2547f4568"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_source_word_refinement_eighty_first_edition/build_eighty_first_edition.py",
+          "line": 27,
+          "line_end": 27,
+          "quote": "    \"MANSION_PLACE\": (\"28er Feld\", \"Das Wort benennt die sichtbare Adresse ohne Mondstationsclaim.\"),",
+          "sha256": "bb662c8f986f6e677b5c67569b5320d8b469f2b4bc5615b0614250299d060441"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_source_word_refinement_eighty_first_edition/EIGHTY_FIRST_REFINED_SOURCE_DICTIONARY.md",
+          "line": 58,
+          "line_end": 58,
+          "quote": "- `CONDITION_PLACE`: Himmelsbedingung → **Bedingungsfeld** (VISIBLE_CONTEXT_PLUS_CARD, 4/5)",
+          "sha256": "378fbd2ae39d0201b53aab04c97a2542835b23c1c4a8f59a0df8e7f2547f4568"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_source_word_refinement_eighty_first_edition/build_eighty_first_edition.py",
+          "line": 28,
+          "line_end": 28,
+          "quote": "    \"CONDITION_PLACE\": (\"Bedingungsfeld\", \"Der lokale Platz ist ein Feld mit Bedingung, nicht die Bedingung selbst.\"),",
+          "sha256": "bb662c8f986f6e677b5c67569b5320d8b469f2b4bc5615b0614250299d060441"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_source_word_refinement_eighty_first_edition/EIGHTY_FIRST_REFINED_SOURCE_DICTIONARY.md",
+          "line": 60,
+          "line_end": 60,
+          "quote": "- `LOCAL_LABEL`: Himmelslabel → **Himmelszeichen** (DIRECT_VISIBLE_OWNER_OR_GEOMETRY, 4/5)",
+          "sha256": "378fbd2ae39d0201b53aab04c97a2542835b23c1c4a8f59a0df8e7f2547f4568"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_source_word_refinement_eighty_first_edition/build_eighty_first_edition.py",
+          "line": 29,
+          "line_end": 29,
+          "quote": "    \"LOCAL_LABEL\": (\"Himmelszeichen\", \"Zeichen ist natürlicher als das moderne Label und bleibt bildnah.\"),",
+          "sha256": "bb662c8f986f6e677b5c67569b5320d8b469f2b4bc5615b0614250299d060441"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_source_word_refinement_eighty_first_edition/EIGHTY_FIRST_REFINED_SOURCE_DICTIONARY.md",
+          "line": 63,
+          "line_end": 63,
+          "quote": "- `WEATHER_VALUE`: Witterungswert → **Wetterzeichen** (MASTER_SELECTED_CONTENT, 2/5)",
+          "sha256": "378fbd2ae39d0201b53aab04c97a2542835b23c1c4a8f59a0df8e7f2547f4568"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_source_word_refinement_eighty_first_edition/build_eighty_first_edition.py",
+          "line": 30,
+          "line_end": 30,
+          "quote": "    \"WEATHER_VALUE\": (\"Wetterzeichen\", \"Die mittlere Rosette wird als Wetterzeichen gelesen, nicht als abstrakter Wert.\"),",
+          "sha256": "bb662c8f986f6e677b5c67569b5320d8b469f2b4bc5615b0614250299d060441"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_source_word_refinement_eighty_first_edition/EIGHTY_FIRST_REFINED_SOURCE_DICTIONARY.md",
+          "line": 64,
+          "line_end": 64,
+          "quote": "- `LIGHT_VALUE`: Lichtwert → **Lichtzeichen** (MASTER_SELECTED_CONTENT, 2/5)",
+          "sha256": "378fbd2ae39d0201b53aab04c97a2542835b23c1c4a8f59a0df8e7f2547f4568"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_source_word_refinement_eighty_first_edition/build_eighty_first_edition.py",
+          "line": 31,
+          "line_end": 31,
+          "quote": "    \"LIGHT_VALUE\": (\"Lichtzeichen\", \"Das Strahlenmotiv liefert ein Zeichen, keinen metrischen Lichtwert.\"),",
+          "sha256": "bb662c8f986f6e677b5c67569b5320d8b469f2b4bc5615b0614250299d060441"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_source_word_refinement_eighty_first_edition/EIGHTY_FIRST_REFINED_SOURCE_DICTIONARY.md",
+          "line": 65,
+          "line_end": 65,
+          "quote": "- `PLANET_VALUE`: Zeitwert → **Zeitzeichen** (MASTER_SELECTED_CONTENT, 2/5)",
+          "sha256": "378fbd2ae39d0201b53aab04c97a2542835b23c1c4a8f59a0df8e7f2547f4568"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_source_word_refinement_eighty_first_edition/build_eighty_first_edition.py",
+          "line": 32,
+          "line_end": 32,
+          "quote": "    \"PLANET_VALUE\": (\"Zeitzeichen\", \"Ohne identifizierten Planeten bleibt die temporale Zeichenrolle.\"),",
+          "sha256": "bb662c8f986f6e677b5c67569b5320d8b469f2b4bc5615b0614250299d060441"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_source_word_refinement_eighty_first_edition/EIGHTY_FIRST_REFINED_SOURCE_DICTIONARY.md",
+          "line": 66,
+          "line_end": 66,
+          "quote": "- `QUALITY_VALUE`: Qualitätswert → **Eigenschaft** (MASTER_SELECTED_CONTENT, 2/5)",
+          "sha256": "378fbd2ae39d0201b53aab04c97a2542835b23c1c4a8f59a0df8e7f2547f4568"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_source_word_refinement_eighty_first_edition/build_eighty_first_edition.py",
+          "line": 33,
+          "line_end": 33,
+          "quote": "    \"QUALITY_VALUE\": (\"Eigenschaft\", \"Eine lokale Eigenschaft ist verständlicher als ein Qualitätswert.\"),",
+          "sha256": "bb662c8f986f6e677b5c67569b5320d8b469f2b4bc5615b0614250299d060441"
+        }
+      ],
+      "not_refuted": [
+        "No card/root meaning is changed or disproved.",
+        "No new claim that cloth is absent or that a particular sign is independently translated.",
+        "Water and unnamed slot contents remain creative defaults, expressly not decoded lexemes.",
+        "The report does not establish a universal historical vocabulary or reject every use of labels or abstract measurements.",
+        "The old source layer may be an awkward realization of the same broader model; changes in wording alone do not show a distinct encoding mechanism failed.",
+        "B16 previously said Filtern, not Tuch; both old and new B16 values name a process."
+      ],
+      "historical_reopening_or_falsifiers": [],
+      "would_more_admitted_pages_help": {
+        "answer": "Not for adjudicating wording preference alone.",
+        "needed_property": "A future material-versus-operation question would require a separately stated substantive alternative and independent source constraints. It is not the contrast actually tested by the Filtern→Seihgang edit and does not reopen a demonstrated failure of that old wording.",
+        "available_now_claimed": false,
+        "assessed_by": "curation_review"
+      },
+      "reopening": {
+        "status": "PROSPECTIVE_REVIEW_ONLY_NO_AUTHORIZATION",
+        "criteria_origin": "BU prospective comparison conditions; the old reports provide no preregistered reopening gate.",
+        "all_of": [
+          "Freeze the already recovered twelve BY mappings and choose the exact source slot for any further comparison; recovery of the old values is completed, not an unmet gate.",
+          "State a substantive source-content alternative independently of wording preference; Filtern versus Seihgang itself supplies no object-versus-operation contrast.",
+          "Use an independent already-admitted source constraint for that contrast and keep card/root/owner/program bindings fixed; if those change, label the comparison a different model.",
+          "Record which full old assignment or local alternative is being reconsidered; do not inherit a global failure onto the entire 54-word inventory."
+        ],
+        "not_sufficient": [
+          "The new words sound more medieval or more natural.",
+          "Re-rendering the same authored model successfully or adding pages without a discriminating constraint.",
+          "Treating a source-word change as a decoded root correction."
+        ],
+        "assessed_by": "curation_review"
+      },
+      "scope_applicability": {
+        "assessed_by": "primary_source_review",
+        "automatic_target_status_propagation": false,
+        "mode": "historical_source_model_only",
+        "targets": [
+          {
+            "target": "SEM:eff43b3e6522ac91dc54",
+            "current_claim": "EIGHTY_SECOND_EDITION revises the source-word layer to Herbal extraction liquid/carrier/binding material/means, Biological cloth versus straining pass, and Astro fields/signs rather than labels/abstract value metrics. It explicitly keeps card/root meanings, groups, owners, programs and scribe rendering fixed.",
+            "source_case_ids": [
+              "CLEAN_GAP_BR:three_register_sourceword_revision"
+            ]
+          }
+        ]
+      },
+      "claim": "The selected Pass80 source-content layer uses the twelve old values explicitly listed by BY; Pass81 replaces them with preferred workshop wording and Pass82 propagates those source-slot choices. In B16 the old value is Filtern and the new value Seihgang, both process readings. This is revision memory, not a historical hypothesis that undifferentiated cloth was encoded.",
+      "actually_tested_falsifier": "Pass81 ranks 54 source words by visible, card, register or master supply and replaces twelve awkward/overly modern values with Auszugsflüssigkeit, Trägerstoff, Bindestoff, Mittel, Seihgang, 28er Feld, Bedingungsfeld, Himmelszeichen, Wetterzeichen, Lichtzeichen, Zeitzeichen and Eigenschaft. Pass82 propagates the revisions, separates cloth from straining pass and uses fields/signs instead of labels/value metrics.",
+      "claim_ceiling": "The exact twelve selected old values and their replacements are now preserved in semantic_sourceword_mapping_by.json and verified against the finite Pass80/81 authored metadata and revision constants. Their absence from the short reports is no longer a source-availability gap. No independent semantic falsifier was supplied.",
+      "decision_key": "FAILURE_BU:THREE_REGISTER_SOURCEWORD_REFINEMENT",
+      "id": "FAILURE_BU:THREE_REGISTER_SOURCEWORD_REFINEMENT:v1",
+      "previous_revision": null,
+      "status": "reviewed_scoped_context",
+      "targets": [
+        "SEM:eff43b3e6522ac91dc54"
+      ],
+      "card_basis": {
+        "SEM:eff43b3e6522ac91dc54": "598be549412e932e90fc267ad76a12b755dff03fc20761f9a213a76125c608b2"
+      },
+      "effective_basis": {
+        "SEM:eff43b3e6522ac91dc54": "8a511bf404950a545a8181c8e26661a51643a9b6a447edcefc9f4ac0b53167a5"
+      },
+      "reviewer": "root after independent grid_count_audit BU/BY primary review",
+      "source_word_revisions": [
+        {
+          "source_word_id": "H08",
+          "source_slot": "EXTRACTION_MEDIUM",
+          "old_value": "Auszugsmedium",
+          "new_value": "Auszugsflüssigkeit",
+          "source_reason": "Das Kompositum sagt Stoffrolle und bleibt kürzer als eine freie Weinannahme."
+        },
+        {
+          "source_word_id": "H09",
+          "source_slot": "OIL_BINDER",
+          "old_value": "Träger",
+          "new_value": "Trägerstoff",
+          "source_reason": "Ein konkreter technischer Rollenname ersetzt den abstrakten Träger."
+        },
+        {
+          "source_word_id": "H10",
+          "source_slot": "HONEY_BINDER",
+          "old_value": "Binder",
+          "new_value": "Bindestoff",
+          "source_reason": "Der Rollenname ist kurz und verlangt weder Honig noch Leim."
+        },
+        {
+          "source_word_id": "H15",
+          "source_slot": "DRINK_OR_PRODUCT",
+          "old_value": "Endprodukt",
+          "new_value": "Mittel",
+          "source_reason": "Mittel funktioniert als Arznei- oder Werkmittel und ist kein modernes Endproduktetikett."
+        },
+        {
+          "source_word_id": "B16",
+          "source_slot": "FILTER",
+          "old_value": "Filtern",
+          "new_value": "Seihgang",
+          "source_reason": "Die Arbeitssprache braucht einen Vorgang statt des infiniten Filtern."
+        },
+        {
+          "source_word_id": "A06",
+          "source_slot": "MANSION_PLACE",
+          "old_value": "28er Platz",
+          "new_value": "28er Feld",
+          "source_reason": "Das Wort benennt die sichtbare Adresse ohne Mondstationsclaim."
+        },
+        {
+          "source_word_id": "A07",
+          "source_slot": "CONDITION_PLACE",
+          "old_value": "Himmelsbedingung",
+          "new_value": "Bedingungsfeld",
+          "source_reason": "Der lokale Platz ist ein Feld mit Bedingung, nicht die Bedingung selbst."
+        },
+        {
+          "source_word_id": "A09",
+          "source_slot": "LOCAL_LABEL",
+          "old_value": "Himmelslabel",
+          "new_value": "Himmelszeichen",
+          "source_reason": "Zeichen ist natürlicher als das moderne Label und bleibt bildnah."
+        },
+        {
+          "source_word_id": "A12",
+          "source_slot": "WEATHER_VALUE",
+          "old_value": "Witterungswert",
+          "new_value": "Wetterzeichen",
+          "source_reason": "Die mittlere Rosette wird als Wetterzeichen gelesen, nicht als abstrakter Wert."
+        },
+        {
+          "source_word_id": "A13",
+          "source_slot": "LIGHT_VALUE",
+          "old_value": "Lichtwert",
+          "new_value": "Lichtzeichen",
+          "source_reason": "Das Strahlenmotiv liefert ein Zeichen, keinen metrischen Lichtwert."
+        },
+        {
+          "source_word_id": "A14",
+          "source_slot": "PLANET_VALUE",
+          "old_value": "Zeitwert",
+          "new_value": "Zeitzeichen",
+          "source_reason": "Ohne identifizierten Planeten bleibt die temporale Zeichenrolle."
+        },
+        {
+          "source_word_id": "A15",
+          "source_slot": "QUALITY_VALUE",
+          "old_value": "Qualitätswert",
+          "new_value": "Eigenschaft",
+          "source_reason": "Eine lokale Eigenschaft ist verständlicher als ein Qualitätswert."
+        }
+      ],
+      "review_artifact": "research_registry/decisions/semantic_failure_review_bu_integrated.json"
+    }
+  ],
+  "input_sha256": {
+    "research_registry/decisions/semantic_failure_proposal_bu.json": "cb1f9bcbdd1dd66e6804ca611195d749a4faf0405f03fa18a503a763267d14b2",
+    "research_registry/decisions/semantic_failure_peer_bu.json": "4c89836fcc721a1328ea18f44684d962a3a3c02d0d8b7e5383cf3dade398b5a0",
+    "research_registry/decisions/semantic_sourceword_mapping_by.json": "a3132653622541eae6798e573f81036a10aeb07ec76222e6d0a0ed3bb96cf572"
+  },
+  "validation": {
+    "source_quotes_exact": true,
+    "actual_current_bases_bound": true,
+    "meaning_confirmation": false
+  }
+}

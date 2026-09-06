@@ -1,0 +1,450 @@
+{
+  "review_id": "BZ",
+  "status": "COMPLETE_SEVEN_CASE_SOURCE_REVIEW",
+  "cases": [
+    {
+      "case_id": "BZ:dy",
+      "source_id": "LEGACY_COMPONENT:6ad174e429668411dd89",
+      "form": "dy",
+      "source_decision": "REJECT_CURRENT_ROUTE",
+      "literal_parse": "d+y",
+      "literal_candidate_field": "resultatives Feld ohne sichtbaren Besitzer",
+      "complete_historical_semantic_value_present": false,
+      "decision": "technical_source_assessment_no_lexical_card",
+      "blocker_code": "scope_export_without_owner",
+      "reason": "GDT648 rejects exporting its bound resultative DY field to a naked high-frequency form without a visible owner/material. This is an owner/scope restriction, not a supplied complete lexical meaning.",
+      "source_scope": "GDT648 V24-to-V25 admission of exact whole forms on its fixed text panel only.",
+      "counterpart_ids": [
+        "SEM:13e9b36aa07c75b64645"
+      ],
+      "counterpart_scope_limit": "The named current cards use other source scopes or later readings. Their meanings are not rejected by transferring this route-local decision.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/src/run.py",
+          "line": 148,
+          "line_end": 148,
+          "quote": "    \"dy\": (\"REJECT_CURRENT_ROUTE\", \"d+y\", \"resultatives Feld ohne sichtbaren Besitzer\", \"Ein nacktes Hochfrequenzfeld liefert keinen Stoff und würde gebundene DY-Werte globalisieren.\"),",
+          "sha256": "2911257b917958a61aa2b4c2a3e4c9dd05920311927d9694ccf97e308d614be1"
+        },
+        {
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/REPORT.md",
+          "line": 156,
+          "line_end": 170,
+          "quote": "## Der ganze 26er-Rand\n\nNichts wurde stillschweigend weggeworfen. `STRICT_FRONTIER_ADJUDICATION.tsv`\nenthält alle 26 Oberflächen:\n\n- 7 gehen in V25 ein;\n- 13 bleiben als konkrete Einzelaufgaben stehen, darunter die EEE-Leiter,\n  umgestellte CH-O-K-Formen, `qolchey`, `shedal` und zwei CTH-/AL-Kandidaten;\n- 6 werden auf dieser Route verworfen: nacktes `dy`, initiales `ykeey` und\n  `ykeody`, die CKH-Formen `checkhy/sheckhy` sowie das intern mehrdeutige\n  `olsaly`.\n\nDie Verwerfungen sind kein globales Verbot. Sie bedeuten nur: Ihre derzeitige\nGlosse würde einen sichtbaren Bauteil löschen oder eine noch nicht gelöste\nAchse einschmuggeln.",
+          "sha256": "86faa123f0f26671e5815e4bd63db78dca3047c4947959805260853f18c8761f"
+        },
+        {
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/src/validate.py",
+          "line": 200,
+          "line_end": 206,
+          "quote": "    frontier = read_tsv(ART / \"STRICT_FRONTIER_ADJUDICATION.tsv\")\n    check(len(frontier) == len({row[\"surface\"] for row in frontier}) == 26, \"complete 26-surface frontier\")\n    check(Counter(row[\"decision\"] for row in frontier) == Counter({\"HOLD_SEPARATE_AUDIT\": 13, \"ACCEPT_V25\": 7, \"REJECT_CURRENT_ROUTE\": 6}), \"frontier decision counts\")\n    check({row[\"surface\"] for row in frontier if row[\"decision\"] == \"ACCEPT_V25\"} == set(TARGETS), \"frontier accepted set\")\n    check({row[\"surface\"] for row in frontier if row[\"decision\"] == \"REJECT_CURRENT_ROUTE\"} == {\"dy\", \"ykeody\", \"ykeey\", \"checkhy\", \"sheckhy\", \"olsaly\"}, \"frontier reject set\")\n    frontier_by_surface = {row[\"surface\"]: row for row in frontier}\n    check(frontier_by_surface[\"sheor\"][\"parse\"] == \"sh+e+or\" and frontier_by_surface[\"sheckhy\"][\"parse\"] == \"sh+e+ckh+y\" and frontier_by_surface[\"shedal\"][\"parse\"] == \"sh+e+d+al\", \"longest-first SH parses\")",
+          "sha256": "37ddd373ce24f5609ba95117cc5e94c4864aae5fbefa080e00184b2448b432ea"
+        }
+      ],
+      "global_refutation": false,
+      "new_card_ids": []
+    },
+    {
+      "case_id": "BZ:ykeody",
+      "source_id": "LEGACY_COMPONENT:6ad174e429668411dd89",
+      "form": "ykeody",
+      "source_decision": "REJECT_CURRENT_ROUTE",
+      "literal_parse": "y+k+e+o+d+y",
+      "literal_candidate_field": "offen",
+      "complete_historical_semantic_value_present": false,
+      "decision": "technical_source_assessment_no_lexical_card",
+      "blocker_code": "unlicensed_initial_y_and_component_loss",
+      "reason": "Initial Y is not licensed and a short gloss would erase K/E/O/D. No literal whole-word proposal is specified here.",
+      "source_scope": "GDT648 V24-to-V25 admission of exact whole forms on its fixed text panel only.",
+      "counterpart_ids": [],
+      "counterpart_scope_limit": "The named current cards use other source scopes or later readings. Their meanings are not rejected by transferring this route-local decision.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/src/run.py",
+          "line": 149,
+          "line_end": 149,
+          "quote": "    \"ykeody\": (\"REJECT_CURRENT_ROUTE\", \"y+k+e+o+d+y\", \"offen\", \"Initiales Y ist nicht lizenziert; eine kurze Glosse würde K/E/O/D löschen.\"),",
+          "sha256": "2911257b917958a61aa2b4c2a3e4c9dd05920311927d9694ccf97e308d614be1"
+        },
+        {
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/REPORT.md",
+          "line": 156,
+          "line_end": 170,
+          "quote": "## Der ganze 26er-Rand\n\nNichts wurde stillschweigend weggeworfen. `STRICT_FRONTIER_ADJUDICATION.tsv`\nenthält alle 26 Oberflächen:\n\n- 7 gehen in V25 ein;\n- 13 bleiben als konkrete Einzelaufgaben stehen, darunter die EEE-Leiter,\n  umgestellte CH-O-K-Formen, `qolchey`, `shedal` und zwei CTH-/AL-Kandidaten;\n- 6 werden auf dieser Route verworfen: nacktes `dy`, initiales `ykeey` und\n  `ykeody`, die CKH-Formen `checkhy/sheckhy` sowie das intern mehrdeutige\n  `olsaly`.\n\nDie Verwerfungen sind kein globales Verbot. Sie bedeuten nur: Ihre derzeitige\nGlosse würde einen sichtbaren Bauteil löschen oder eine noch nicht gelöste\nAchse einschmuggeln.",
+          "sha256": "86faa123f0f26671e5815e4bd63db78dca3047c4947959805260853f18c8761f"
+        },
+        {
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/src/validate.py",
+          "line": 200,
+          "line_end": 206,
+          "quote": "    frontier = read_tsv(ART / \"STRICT_FRONTIER_ADJUDICATION.tsv\")\n    check(len(frontier) == len({row[\"surface\"] for row in frontier}) == 26, \"complete 26-surface frontier\")\n    check(Counter(row[\"decision\"] for row in frontier) == Counter({\"HOLD_SEPARATE_AUDIT\": 13, \"ACCEPT_V25\": 7, \"REJECT_CURRENT_ROUTE\": 6}), \"frontier decision counts\")\n    check({row[\"surface\"] for row in frontier if row[\"decision\"] == \"ACCEPT_V25\"} == set(TARGETS), \"frontier accepted set\")\n    check({row[\"surface\"] for row in frontier if row[\"decision\"] == \"REJECT_CURRENT_ROUTE\"} == {\"dy\", \"ykeody\", \"ykeey\", \"checkhy\", \"sheckhy\", \"olsaly\"}, \"frontier reject set\")\n    frontier_by_surface = {row[\"surface\"]: row for row in frontier}\n    check(frontier_by_surface[\"sheor\"][\"parse\"] == \"sh+e+or\" and frontier_by_surface[\"sheckhy\"][\"parse\"] == \"sh+e+ckh+y\" and frontier_by_surface[\"shedal\"][\"parse\"] == \"sh+e+d+al\", \"longest-first SH parses\")",
+          "sha256": "37ddd373ce24f5609ba95117cc5e94c4864aae5fbefa080e00184b2448b432ea"
+        }
+      ],
+      "global_refutation": false,
+      "new_card_ids": []
+    },
+    {
+      "case_id": "BZ:ykeey",
+      "source_id": "LEGACY_COMPONENT:6ad174e429668411dd89",
+      "form": "ykeey",
+      "source_decision": "REJECT_CURRENT_ROUTE",
+      "literal_parse": "y+k+ee+y",
+      "literal_candidate_field": "initiale-Y-Leiter offen",
+      "complete_historical_semantic_value_present": false,
+      "decision": "technical_source_assessment_no_lexical_card",
+      "blocker_code": "unresolved_initial_y",
+      "reason": "Recurrence does not supply a stable semantic value for initial Y. The field is explicitly open rather than a rejected concrete translation.",
+      "source_scope": "GDT648 V24-to-V25 admission of exact whole forms on its fixed text panel only.",
+      "counterpart_ids": [],
+      "counterpart_scope_limit": "The named current cards use other source scopes or later readings. Their meanings are not rejected by transferring this route-local decision.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/src/run.py",
+          "line": 151,
+          "line_end": 151,
+          "quote": "    \"ykeey\": (\"REJECT_CURRENT_ROUTE\", \"y+k+ee+y\", \"initiale-Y-Leiter offen\", \"Rekurrent, aber initiales Y besitzt noch keinen stabilen Sachwert.\"),",
+          "sha256": "2911257b917958a61aa2b4c2a3e4c9dd05920311927d9694ccf97e308d614be1"
+        },
+        {
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/REPORT.md",
+          "line": 156,
+          "line_end": 170,
+          "quote": "## Der ganze 26er-Rand\n\nNichts wurde stillschweigend weggeworfen. `STRICT_FRONTIER_ADJUDICATION.tsv`\nenthält alle 26 Oberflächen:\n\n- 7 gehen in V25 ein;\n- 13 bleiben als konkrete Einzelaufgaben stehen, darunter die EEE-Leiter,\n  umgestellte CH-O-K-Formen, `qolchey`, `shedal` und zwei CTH-/AL-Kandidaten;\n- 6 werden auf dieser Route verworfen: nacktes `dy`, initiales `ykeey` und\n  `ykeody`, die CKH-Formen `checkhy/sheckhy` sowie das intern mehrdeutige\n  `olsaly`.\n\nDie Verwerfungen sind kein globales Verbot. Sie bedeuten nur: Ihre derzeitige\nGlosse würde einen sichtbaren Bauteil löschen oder eine noch nicht gelöste\nAchse einschmuggeln.",
+          "sha256": "86faa123f0f26671e5815e4bd63db78dca3047c4947959805260853f18c8761f"
+        },
+        {
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/src/validate.py",
+          "line": 200,
+          "line_end": 206,
+          "quote": "    frontier = read_tsv(ART / \"STRICT_FRONTIER_ADJUDICATION.tsv\")\n    check(len(frontier) == len({row[\"surface\"] for row in frontier}) == 26, \"complete 26-surface frontier\")\n    check(Counter(row[\"decision\"] for row in frontier) == Counter({\"HOLD_SEPARATE_AUDIT\": 13, \"ACCEPT_V25\": 7, \"REJECT_CURRENT_ROUTE\": 6}), \"frontier decision counts\")\n    check({row[\"surface\"] for row in frontier if row[\"decision\"] == \"ACCEPT_V25\"} == set(TARGETS), \"frontier accepted set\")\n    check({row[\"surface\"] for row in frontier if row[\"decision\"] == \"REJECT_CURRENT_ROUTE\"} == {\"dy\", \"ykeody\", \"ykeey\", \"checkhy\", \"sheckhy\", \"olsaly\"}, \"frontier reject set\")\n    frontier_by_surface = {row[\"surface\"]: row for row in frontier}\n    check(frontier_by_surface[\"sheor\"][\"parse\"] == \"sh+e+or\" and frontier_by_surface[\"sheckhy\"][\"parse\"] == \"sh+e+ckh+y\" and frontier_by_surface[\"shedal\"][\"parse\"] == \"sh+e+d+al\", \"longest-first SH parses\")",
+          "sha256": "37ddd373ce24f5609ba95117cc5e94c4864aae5fbefa080e00184b2448b432ea"
+        }
+      ],
+      "global_refutation": false,
+      "new_card_ids": []
+    },
+    {
+      "case_id": "BZ:checkhy",
+      "source_id": "LEGACY_COMPONENT:6ad174e429668411dd89",
+      "form": "checkhy",
+      "source_decision": "REJECT_CURRENT_ROUTE",
+      "literal_parse": "ch+e+ckh+y",
+      "literal_candidate_field": "offen",
+      "complete_historical_semantic_value_present": false,
+      "decision": "technical_source_assessment_no_lexical_card",
+      "blocker_code": "opaque_ckh_not_cth_or_ch",
+      "reason": "CKH remains opaque and cannot be silently substituted by CTH or CH. No concrete whole-form value is specified.",
+      "source_scope": "GDT648 V24-to-V25 admission of exact whole forms on its fixed text panel only.",
+      "counterpart_ids": [],
+      "counterpart_scope_limit": "The named current cards use other source scopes or later readings. Their meanings are not rejected by transferring this route-local decision.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/src/run.py",
+          "line": 152,
+          "line_end": 152,
+          "quote": "    \"checkhy\": (\"REJECT_CURRENT_ROUTE\", \"ch+e+ckh+y\", \"offen\", \"CKH bleibt opak und darf nicht als CTH oder CH umgedeutet werden.\"),",
+          "sha256": "2911257b917958a61aa2b4c2a3e4c9dd05920311927d9694ccf97e308d614be1"
+        },
+        {
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/REPORT.md",
+          "line": 156,
+          "line_end": 170,
+          "quote": "## Der ganze 26er-Rand\n\nNichts wurde stillschweigend weggeworfen. `STRICT_FRONTIER_ADJUDICATION.tsv`\nenthält alle 26 Oberflächen:\n\n- 7 gehen in V25 ein;\n- 13 bleiben als konkrete Einzelaufgaben stehen, darunter die EEE-Leiter,\n  umgestellte CH-O-K-Formen, `qolchey`, `shedal` und zwei CTH-/AL-Kandidaten;\n- 6 werden auf dieser Route verworfen: nacktes `dy`, initiales `ykeey` und\n  `ykeody`, die CKH-Formen `checkhy/sheckhy` sowie das intern mehrdeutige\n  `olsaly`.\n\nDie Verwerfungen sind kein globales Verbot. Sie bedeuten nur: Ihre derzeitige\nGlosse würde einen sichtbaren Bauteil löschen oder eine noch nicht gelöste\nAchse einschmuggeln.",
+          "sha256": "86faa123f0f26671e5815e4bd63db78dca3047c4947959805260853f18c8761f"
+        },
+        {
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/src/validate.py",
+          "line": 200,
+          "line_end": 206,
+          "quote": "    frontier = read_tsv(ART / \"STRICT_FRONTIER_ADJUDICATION.tsv\")\n    check(len(frontier) == len({row[\"surface\"] for row in frontier}) == 26, \"complete 26-surface frontier\")\n    check(Counter(row[\"decision\"] for row in frontier) == Counter({\"HOLD_SEPARATE_AUDIT\": 13, \"ACCEPT_V25\": 7, \"REJECT_CURRENT_ROUTE\": 6}), \"frontier decision counts\")\n    check({row[\"surface\"] for row in frontier if row[\"decision\"] == \"ACCEPT_V25\"} == set(TARGETS), \"frontier accepted set\")\n    check({row[\"surface\"] for row in frontier if row[\"decision\"] == \"REJECT_CURRENT_ROUTE\"} == {\"dy\", \"ykeody\", \"ykeey\", \"checkhy\", \"sheckhy\", \"olsaly\"}, \"frontier reject set\")\n    frontier_by_surface = {row[\"surface\"]: row for row in frontier}\n    check(frontier_by_surface[\"sheor\"][\"parse\"] == \"sh+e+or\" and frontier_by_surface[\"sheckhy\"][\"parse\"] == \"sh+e+ckh+y\" and frontier_by_surface[\"shedal\"][\"parse\"] == \"sh+e+d+al\", \"longest-first SH parses\")",
+          "sha256": "37ddd373ce24f5609ba95117cc5e94c4864aae5fbefa080e00184b2448b432ea"
+        }
+      ],
+      "global_refutation": false,
+      "new_card_ids": []
+    },
+    {
+      "case_id": "BZ:sheckhy",
+      "source_id": "LEGACY_COMPONENT:6ad174e429668411dd89",
+      "form": "sheckhy",
+      "source_decision": "REJECT_CURRENT_ROUTE",
+      "literal_parse": "sh+e+ckh+y",
+      "literal_candidate_field": "offen",
+      "complete_historical_semantic_value_present": false,
+      "decision": "technical_source_assessment_no_lexical_card",
+      "blocker_code": "sh_before_s_and_opaque_ckh",
+      "reason": "SH must not be split as initial seed-head S; CKH is still opaque. This does not reject the unrelated workshop reader’s through-flow interpretation.",
+      "source_scope": "GDT648 V24-to-V25 admission of exact whole forms on its fixed text panel only.",
+      "counterpart_ids": [
+        "SEM:22335804d549d36a51c3"
+      ],
+      "counterpart_scope_limit": "The named current cards use other source scopes or later readings. Their meanings are not rejected by transferring this route-local decision.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/src/run.py",
+          "line": 158,
+          "line_end": 158,
+          "quote": "    \"sheckhy\": (\"REJECT_CURRENT_ROUTE\", \"sh+e+ckh+y\", \"offen\", \"SH darf nicht als S-Samenkopf zerlegt werden; CKH bleibt opak.\"),",
+          "sha256": "2911257b917958a61aa2b4c2a3e4c9dd05920311927d9694ccf97e308d614be1"
+        },
+        {
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/REPORT.md",
+          "line": 156,
+          "line_end": 170,
+          "quote": "## Der ganze 26er-Rand\n\nNichts wurde stillschweigend weggeworfen. `STRICT_FRONTIER_ADJUDICATION.tsv`\nenthält alle 26 Oberflächen:\n\n- 7 gehen in V25 ein;\n- 13 bleiben als konkrete Einzelaufgaben stehen, darunter die EEE-Leiter,\n  umgestellte CH-O-K-Formen, `qolchey`, `shedal` und zwei CTH-/AL-Kandidaten;\n- 6 werden auf dieser Route verworfen: nacktes `dy`, initiales `ykeey` und\n  `ykeody`, die CKH-Formen `checkhy/sheckhy` sowie das intern mehrdeutige\n  `olsaly`.\n\nDie Verwerfungen sind kein globales Verbot. Sie bedeuten nur: Ihre derzeitige\nGlosse würde einen sichtbaren Bauteil löschen oder eine noch nicht gelöste\nAchse einschmuggeln.",
+          "sha256": "86faa123f0f26671e5815e4bd63db78dca3047c4947959805260853f18c8761f"
+        },
+        {
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/src/validate.py",
+          "line": 200,
+          "line_end": 206,
+          "quote": "    frontier = read_tsv(ART / \"STRICT_FRONTIER_ADJUDICATION.tsv\")\n    check(len(frontier) == len({row[\"surface\"] for row in frontier}) == 26, \"complete 26-surface frontier\")\n    check(Counter(row[\"decision\"] for row in frontier) == Counter({\"HOLD_SEPARATE_AUDIT\": 13, \"ACCEPT_V25\": 7, \"REJECT_CURRENT_ROUTE\": 6}), \"frontier decision counts\")\n    check({row[\"surface\"] for row in frontier if row[\"decision\"] == \"ACCEPT_V25\"} == set(TARGETS), \"frontier accepted set\")\n    check({row[\"surface\"] for row in frontier if row[\"decision\"] == \"REJECT_CURRENT_ROUTE\"} == {\"dy\", \"ykeody\", \"ykeey\", \"checkhy\", \"sheckhy\", \"olsaly\"}, \"frontier reject set\")\n    frontier_by_surface = {row[\"surface\"]: row for row in frontier}\n    check(frontier_by_surface[\"sheor\"][\"parse\"] == \"sh+e+or\" and frontier_by_surface[\"sheckhy\"][\"parse\"] == \"sh+e+ckh+y\" and frontier_by_surface[\"shedal\"][\"parse\"] == \"sh+e+d+al\", \"longest-first SH parses\")",
+          "sha256": "37ddd373ce24f5609ba95117cc5e94c4864aae5fbefa080e00184b2448b432ea"
+        }
+      ],
+      "global_refutation": false,
+      "new_card_ids": []
+    },
+    {
+      "case_id": "BZ:olsaly",
+      "source_id": "LEGACY_COMPONENT:6ad174e429668411dd89",
+      "form": "olsaly",
+      "source_decision": "REJECT_CURRENT_ROUTE",
+      "literal_parse": "ol+s+al+y | o+l+saly",
+      "literal_candidate_field": "offen",
+      "complete_historical_semantic_value_present": false,
+      "decision": "technical_source_assessment_no_lexical_card",
+      "blocker_code": "unlicensed_internal_s_and_ambiguous_parse",
+      "reason": "Internal S does not inherit a token-initial seed function; both competing parses remain uncalibrated. The source supplies neither an identified new sense nor a global rejection of learned whole-card meanings.",
+      "source_scope": "GDT648 V24-to-V25 admission of exact whole forms on its fixed text panel only.",
+      "counterpart_ids": [
+        "SEM:08e6cc97617b09aba0f6"
+      ],
+      "counterpart_scope_limit": "The named current cards use other source scopes or later readings. Their meanings are not rejected by transferring this route-local decision.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/src/run.py",
+          "line": 159,
+          "line_end": 159,
+          "quote": "    \"olsaly\": (\"REJECT_CURRENT_ROUTE\", \"ol+s+al+y | o+l+saly\", \"offen\", \"Internes S erbt keine tokeninitiale Samenfunktion; beide Parses sind unkalibriert.\"),",
+          "sha256": "2911257b917958a61aa2b4c2a3e4c9dd05920311927d9694ccf97e308d614be1"
+        },
+        {
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/REPORT.md",
+          "line": 156,
+          "line_end": 170,
+          "quote": "## Der ganze 26er-Rand\n\nNichts wurde stillschweigend weggeworfen. `STRICT_FRONTIER_ADJUDICATION.tsv`\nenthält alle 26 Oberflächen:\n\n- 7 gehen in V25 ein;\n- 13 bleiben als konkrete Einzelaufgaben stehen, darunter die EEE-Leiter,\n  umgestellte CH-O-K-Formen, `qolchey`, `shedal` und zwei CTH-/AL-Kandidaten;\n- 6 werden auf dieser Route verworfen: nacktes `dy`, initiales `ykeey` und\n  `ykeody`, die CKH-Formen `checkhy/sheckhy` sowie das intern mehrdeutige\n  `olsaly`.\n\nDie Verwerfungen sind kein globales Verbot. Sie bedeuten nur: Ihre derzeitige\nGlosse würde einen sichtbaren Bauteil löschen oder eine noch nicht gelöste\nAchse einschmuggeln.",
+          "sha256": "86faa123f0f26671e5815e4bd63db78dca3047c4947959805260853f18c8761f"
+        },
+        {
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/src/validate.py",
+          "line": 200,
+          "line_end": 206,
+          "quote": "    frontier = read_tsv(ART / \"STRICT_FRONTIER_ADJUDICATION.tsv\")\n    check(len(frontier) == len({row[\"surface\"] for row in frontier}) == 26, \"complete 26-surface frontier\")\n    check(Counter(row[\"decision\"] for row in frontier) == Counter({\"HOLD_SEPARATE_AUDIT\": 13, \"ACCEPT_V25\": 7, \"REJECT_CURRENT_ROUTE\": 6}), \"frontier decision counts\")\n    check({row[\"surface\"] for row in frontier if row[\"decision\"] == \"ACCEPT_V25\"} == set(TARGETS), \"frontier accepted set\")\n    check({row[\"surface\"] for row in frontier if row[\"decision\"] == \"REJECT_CURRENT_ROUTE\"} == {\"dy\", \"ykeody\", \"ykeey\", \"checkhy\", \"sheckhy\", \"olsaly\"}, \"frontier reject set\")\n    frontier_by_surface = {row[\"surface\"]: row for row in frontier}\n    check(frontier_by_surface[\"sheor\"][\"parse\"] == \"sh+e+or\" and frontier_by_surface[\"sheckhy\"][\"parse\"] == \"sh+e+ckh+y\" and frontier_by_surface[\"shedal\"][\"parse\"] == \"sh+e+d+al\", \"longest-first SH parses\")",
+          "sha256": "37ddd373ce24f5609ba95117cc5e94c4864aae5fbefa080e00184b2448b432ea"
+        }
+      ],
+      "global_refutation": false,
+      "new_card_ids": []
+    },
+    {
+      "case_id": "BZ:sheor",
+      "source_id": "LEGACY_COMPONENT:a4aa54be551717809c41",
+      "form": "sheor",
+      "source_decision": "EARLIER_AUTOMATIC_GLOSS_REPLACED",
+      "literal_parse": "s+heor -> sh+e+or",
+      "literal_candidate_field": "Samendroge",
+      "complete_historical_semantic_value_present": true,
+      "decision": "recover_historical_withdrawn_semantic_assignment",
+      "blocker_code": "sh_before_s_segmentation_correction",
+      "reason": "The source states that heor is unattested in its panel while the SH series is visible; splitting sheor as seed-head s+heor therefore loses to SH-first parsing in this working model. This is a model-internal segmentation rationale, not independent meaning disproof.",
+      "counterpart_ids": [
+        "SEM:c66502f44f43985b9c58"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/REPORT.md",
+          "line": 53,
+          "line_end": 56,
+          "quote": "Die wichtigste Parsekorrektur lautet **SH vor S**. `sheor` ist `sh+e+or`,\nnicht `s+heor`: Ein Stamm `heor` ist im Panel unbelegt, während die ganze\nSH-Reihe sichtbar ist. Damit entfällt die frühere automatische\n„Samendroge“-Glosse.",
+          "sha256": "86faa123f0f26671e5815e4bd63db78dca3047c4947959805260853f18c8761f"
+        },
+        {
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/REPORT.md",
+          "line": 42,
+          "line_end": 50,
+          "quote": "### `sheor` und `keol`: zwei fehlende Zellen desselben Rasters\n\nDas E×OL/OR-Feld ist für K, T, CH und SH vollständig belegt:\n\n```text\ncheol  trockener Drogenstoff     cheor  trockener Drogenteil\nsheol  feuchtes Material         sheor  feuchter Drogenteil\nkol    heißes Material           keol   heißer Drogenstoff\nkor    heißer Teil               keor   heißer Drogenteil",
+          "sha256": "86faa123f0f26671e5815e4bd63db78dca3047c4947959805260853f18c8761f"
+        }
+      ],
+      "global_refutation": false,
+      "new_card_ids": [
+        "CLEAN_GAP_BZ:sheor_old_seed_drug"
+      ]
+    }
+  ],
+  "counterpart_bindings": {
+    "SEM:13e9b36aa07c75b64645": {
+      "claim": "dy → aktuelles Qualitäts-/Wertfeld abgeschlossen",
+      "claim_type": "lexical_hypothesis",
+      "card_basis": "7bbd56fa85914a4e49f1a9b7fc12ad844dde024bd53dfa6bac5a60bbf3d08690",
+      "effective_basis": "420fb35d00e09a47b8c41145ae9729147bf10a8da85693d0c2f2dce8212a7c5d",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 25,
+          "line_end": 25,
+          "path": "experiments/yolo/gdt660_seventeen_residual_concrete_completion/REPORT.md",
+          "quote": "| `dy` | 229 / 117 | aktuelles Qualitäts-/Wertfeld abgeschlossen | abgeschlossene Grundform |",
+          "sha256": "e12818271a98bbe1930091c126ab973b7ae14f7579011c5894d769c7df9bf417",
+          "source_id": "LEGACY_COMPONENT:1e0618a30e7064dd9bd8",
+          "source_section": "Ergebnis",
+          "table_header": "| Form | Positionen / Seiten | konkrete V37-Arbeitslesung | stärkster Rivale |"
+        }
+      ]
+    },
+    "SEM:22335804d549d36a51c3": {
+      "claim": "sheckhy → kurz durchleiten",
+      "claim_type": "lexical_hypothesis",
+      "card_basis": "2516ad39ca4a390fd8af2f655c3dd088641242ad722b38ce362f63ddf40008ff",
+      "effective_basis": "656c15d3674947d0700676949fc9bcbf9e517cb4d99a4ef4abdba1e9ab53a360",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 32,
+          "line_end": 32,
+          "path": "experiments/yolo/sidequest_semantic_singleton_composition_rescue/SINGLETON_COMPOSITION_REPORT.md",
+          "quote": "| `sheckhy` | Ueberlauf | `CKH + E + Y` | kurz durchleiten |",
+          "sha256": "997aad4c958c4eb1bc640983d723f694098fbf7e289fb983dd735914af736395",
+          "source_id": "LEGACY_COMPONENT:c7e6ae66dd295451ded3",
+          "source_section": "Die staerksten Reparaturen",
+          "table_header": "| Karte | alte Lesung | neue Zerlegung | neue kurze Lesung |"
+        }
+      ]
+    },
+    "SEM:08e6cc97617b09aba0f6": {
+      "claim": "olsaly → untere Zielstelle",
+      "claim_type": "lexical_hypothesis",
+      "card_basis": "327d62993413558c2551bb5d9a95fb058db25ece9e430f22b87f751cbab9f302",
+      "effective_basis": "1981cfe2962fbafe18d575b1c9dfdb38e90d262389053574de6a2719e9ff12b5",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 3,
+              "text": "Status: kreative Zehn-Seiten-Arbeitstheorie, keine Entzifferung. Diese Runde"
+            }
+          ],
+          "line": 110,
+          "line_end": 113,
+          "path": "experiments/yolo/sidequest_semantic_directional_completion/WORKSHOP_DIRECTION_REPORT.md",
+          "quote": "`otal|qotal` verliert deshalb den eingebauten „Ablauf“. Ein Ablauf kann lokal\ndie Zielstelle sein, aber `AL` bedeutet weder unten noch Auslass. In\n`olsaly = untere Zielstelle` und `ldalor = bezeichnete Zielstelle` kommt die\nzusätzliche Bestimmung aus der gelernten Gesamtkarte.",
+          "sha256": "3dabb5a83c08c8ba0654d3161e1a3e01dd941d3631124a20966c20943e6ca9ec",
+          "source_id": "LEGACY_COMPONENT:29a047e46728cc70a44d",
+          "source_section": "`AL` ist Ziel, nicht automatisch unten oder Ablauf",
+          "table_header": null
+        }
+      ]
+    },
+    "SEM:c66502f44f43985b9c58": {
+      "claim": "GDT648 reads the exact whole form sheor as feuchter Drogenteil in its V25 working reader.",
+      "claim_type": "lexical_hypothesis",
+      "card_basis": "62d65254169074cf6d7bf900c5a7270f36b723b90477ecb5d065c9be5e7623ca",
+      "effective_basis": "01f12555c69fe5d22066660c5485d2ba4a197dae855c898f847be37da0e5a80b",
+      "evidence": [
+        {
+          "line": 11,
+          "line_end": 11,
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/REPORT.md",
+          "quote": "| `sheor` | `sh+e+or` | feuchter Drogenteil | 40/32 | 31 |",
+          "sha256": "86faa123f0f26671e5815e4bd63db78dca3047c4947959805260853f18c8761f"
+        },
+        {
+          "line": 29,
+          "line_end": 40,
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/REPORT.md",
+          "quote": "### `otol`: der vollständigste neue Stoffwert\n\nAlle 32 Zellen des Vergleichsrasters\n\n```text\n{nackt,o,qo,y} × {k,t} × {ohne ch,mit ch} × {ol,or}\n```\n\nsind beobachtet. O hält den Zubereitungsrahmen, T den kalten Gegenpol und OL\nden Gut-/Materialträger. Der knappe Wert **kaltes Zubereitungsgut** hält sich\nvon `oteol` als ausdrücklich attributivem „kaltem Zubereitungsstoff“ getrennt.\n„Kaltes Material im Ansatzrahmen“ bleibt der engste Rivale.",
+          "sha256": "86faa123f0f26671e5815e4bd63db78dca3047c4947959805260853f18c8761f"
+        },
+        {
+          "line": 53,
+          "line_end": 92,
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/REPORT.md",
+          "quote": "Die wichtigste Parsekorrektur lautet **SH vor S**. `sheor` ist `sh+e+or`,\nnicht `s+heor`: Ein Stamm `heor` ist im Panel unbelegt, während die ganze\nSH-Reihe sichtbar ist. Damit entfällt die frühere automatische\n„Samendroge“-Glosse.\n\n### `odaiin`: ein alter Rest wird zum echten Ganzwort\n\nGDT636 kannte `odaiin` bereits als Körper in `podaiin`, `sodaiin`, `rodaiin`\nund `lodaiin`: Pulver-, Saat-, Wurzel- und Holzzubereitung, jeweils Dosis III.\nDer damalige Schutzwall verbot, daraus ohne eigenen Lauf ein nacktes Wort zu\nmachen. GDT648 führt nun genau diesen fehlenden Lauf aus: 55 nackte Belege,\n42 dreileser-exakt und drei neu geschlossene Zeilen.\n\nDer alte Wörterbucheintrag `odaiin@GDT636_REMAINDER` bleibt unverändert; neu\nkommt `odaiin@GDT648_EXACT_WHOLE` hinzu. Das ist keine globale Restregel.\n„Zubereitungscharge III“ bleibt ernst, weil `odaiin` in 17 Zeilen neben einem\nweiteren Zahlenfeld steht. Dosis und Qualitätsgrad können aber auch gemeinsam\nauftreten und sind daher nicht automatisch doppelt.\n\n### `cholkaiin`: sichtbare Fusion\n\n`chol` ist Trockengut, `kaiin` heiß im dritten Grad. Die Folge `chol kaiin`\nkommt im erlaubten Panel zweimal getrennt vor — in jeder der drei Lesungen.\nDaneben stehen fünf verbundene `cholkaiin`; vier sind dreifach tokenexakt.\nDiese reale Grenzvariation macht **Trockengut, heiß im dritten Grad** stärker\nals eine frei erfundene Teilstringlesung.\n\n### `lkar` und `lsheey`: Materialkopf bleibt Materialkopf\n\n`lkar/lkair/lkaiir = 31/4/2` bildet eine beobachtete Dreierleiter neben den\nunmarkierten L+AR-Werten. Darum bleibt `l+(k+ar)` zunächst **heiße\nHolzfraktion I**. Eine einzelne ZL3b/RF1b-Grenze `l kar ↔ lkar` stützt die\nZerlegung, fehlt aber in IT2a. „Heißes Drogenholz“ bleibt deshalb der starke\nGanzwortrivale.\n\nBei `lsheey` wäre eine mechanische Übertragung von GDT647 falsch. GDT647 hatte\nP/S/R/L-Materialköpfe ausdrücklich von der Gradbeginn/-mitte/-ende-Achse\nausgeschlossen. Im geerbten Materialsystem stehen `lshey` als eingeweichtes\nDrogenholz, Form I und `lcheey` als trockene Holzform II. Deshalb lautet die\nneue exakte Karte **eingeweichtes Drogenholz, Form II**, nicht „am Gradende“.",
+          "sha256": "86faa123f0f26671e5815e4bd63db78dca3047c4947959805260853f18c8761f"
+        },
+        {
+          "line": 152,
+          "line_end": 170,
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/REPORT.md",
+          "quote": "f10r.12 enthält Dosis III neben einem weiteren Grad-/Maßwert III und bleibt\ndeshalb ein sichtbarer Bedeutungsrivale, kein verschwiegener Erfolg. f75r.46\nist in der Lesergrenze instabil. Beide stehen vollständig im Artefakt.\n\n## Der ganze 26er-Rand\n\nNichts wurde stillschweigend weggeworfen. `STRICT_FRONTIER_ADJUDICATION.tsv`\nenthält alle 26 Oberflächen:\n\n- 7 gehen in V25 ein;\n- 13 bleiben als konkrete Einzelaufgaben stehen, darunter die EEE-Leiter,\n  umgestellte CH-O-K-Formen, `qolchey`, `shedal` und zwei CTH-/AL-Kandidaten;\n- 6 werden auf dieser Route verworfen: nacktes `dy`, initiales `ykeey` und\n  `ykeody`, die CKH-Formen `checkhy/sheckhy` sowie das intern mehrdeutige\n  `olsaly`.\n\nDie Verwerfungen sind kein globales Verbot. Sie bedeuten nur: Ihre derzeitige\nGlosse würde einen sichtbaren Bauteil löschen oder eine noch nicht gelöste\nAchse einschmuggeln.",
+          "sha256": "86faa123f0f26671e5815e4bd63db78dca3047c4947959805260853f18c8761f"
+        },
+        {
+          "line": 207,
+          "line_end": 208,
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/REPORT.md",
+          "quote": "Diese Vergleiche stützen das Mischmodell aus gelerntem Ganzwort und knappen\nFachfeldern. Sie identifizieren weder Ausgangssprache noch Klartext.",
+          "sha256": "86faa123f0f26671e5815e4bd63db78dca3047c4947959805260853f18c8761f"
+        }
+      ]
+    }
+  },
+  "existing_dossier_check": {
+    "path": "research_registry/semantic_failure_decisions.jsonl",
+    "query": "gdt648 or exact ykeey/ykeody/checkhy/sheckhy/olsaly/sheor in published dossiers",
+    "matches": 0,
+    "limits": "Navigation match absence only, not proof that every abstract scope blocker has never been assessed."
+  },
+  "source_reassessments": [
+    {
+      "source_id": "LEGACY_COMPONENT:6ad174e429668411dd89",
+      "decision": "six_technical_rejections_assessed",
+      "card_ids": [],
+      "cases": [
+        "BZ:dy",
+        "BZ:ykeody",
+        "BZ:ykeey",
+        "BZ:checkhy",
+        "BZ:sheckhy",
+        "BZ:olsaly"
+      ],
+      "reason": "No complete concrete rejected lexical value is supplied in these six decision fields; preserve route-specific scope/parse blockers without placeholder ideas."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:a4aa54be551717809c41",
+      "decision": "historical_withdrawn_assignment_recovered",
+      "card_ids": [
+        "CLEAN_GAP_BZ:sheor_old_seed_drug"
+      ],
+      "reason": "Earlier complete Samendroge meaning is explicit; retain rejection rationale and replacement counterpart separately."
+    }
+  ],
+  "counts": {
+    "cases_reviewed": 7,
+    "technical_assessments_only": 6,
+    "recovered_historical_gloss_cards": 1,
+    "global_refutations": 0
+  },
+  "limits": [
+    "No target TSV was read; the literal predeclared decision constants in published run.py provide the six exact fields and reasons. No code was executed beyond metadata validation.",
+    "No image, raw manuscript inspection, rerun or operative registry mutation.",
+    "Current card comparisons and dossier scan are bounded; other same-form claims remain unadjudicated.",
+    "Six route rejections do not imply six refuted lexical hypotheses. The sole recovered meaning is explicitly reported as a formerly automatic gloss.",
+    "GDT648 observed-panel absence of heor is a historical report claim, not independently rescored evidence here."
+  ],
+  "validation": {
+    "known_source_ids": 2,
+    "cards_validated": 1,
+    "exact_quote_and_sha_checks": "PASS"
+  }
+}

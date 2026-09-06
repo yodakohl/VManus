@@ -5,8 +5,8 @@ headings, experiment methods, result rows without a proposition and pending
 extraction work are excluded. Their original records remain in the source archive.
 This is curation of historical hypotheses, not decipherment progress.
 
-The public snapshot contains **3,573 concrete semantic hypothesis variants** and
-**252 separate formal-role cards**. Active cards and the correction archive retain all **4,346 reviewed source cases**;
+The public snapshot contains **3,604 concrete semantic hypothesis variants** and
+**251 separate formal-role cards**. Active cards and the correction archive retain all **4,377 reviewed source cases**;
 **475 repetitions of identical normalized assertions** are grouped for display.
 All **5,370 proposal fragments**, **3,788 component excerpts** and **82 IP entries**
 have explicit dispositions. This is not a count of independently distinct theories.
@@ -64,7 +64,7 @@ and source cases when recording corrections; never erase a failure to reopen a r
 ## Source correction pass
 
 An append-only correction log, `semantic_claim_corrections.jsonl`, currently
-archives 46 source-extraction errors and restates177 source assertions
+archives 47 source-extraction errors and restates177 source assertions
 with explicit scope and appropriate lexical, functional, model or formal types. Numeric table ratios, denied constituent inferences
 and dispatch metadata had incorrectly entered the hypothesis list. Every original
 card, source case and exact quote remains in `semantic_ideas_excluded.jsonl` or
@@ -80,8 +80,8 @@ audit is bounded and does not establish error-free global extraction.
 
 ## Reviewed identity and scoped failure memory
 
-The default public view currently has **3,525 semantic display entries** from
-3,573 active semantic variants. `semantic_identity_decisions.jsonl` records39
+The default public view currently has **3,556 semantic display entries** from
+3,604 active semantic variants. `semantic_identity_decisions.jsonl` records39
 approved equivalence groups, four related-but-distinct links,28 explicit rival
 links and two specializations. Whole-card V51/V60 continuity is backed by shared
 source-deck IDs, not merely matching names or occurrence counts. These are
@@ -103,7 +103,7 @@ case history. No rejection, success or reopening permission crosses an identity
 link. Search covers every member wording. Cached pages do not deserialize the
 complete card snapshot, including the10k-card regression.
 
-Twenty reviewed question dossiers in `semantic_failure_decisions.jsonl` distinguish
+Twenty-two reviewed question dossiers in `semantic_failure_decisions.jsonl` distinguish
 empirical failure, invalid test, insufficient capacity, missing meaning binding
 proposal-only status and historical model revisions. They appear before inherited experiment context under
 `--field assessments`. They name the actual tested subclaim, primary evidence,
@@ -199,3 +199,12 @@ all token contributions; the AIR dry-workpiece falsifier remains limited to the
 same paradigm. BV restores two exact alias-table readings. BT distinguishes an
 entire process ladder from one default and a cloth-specific reading from an
 explicitly broadened one; five short/long comparisons remain unresolved.
+
+BW/CA recover the complete literal-alias families from18 selected table rows;
+five follow-up rows are existing-proposition audits without fabricated new cases.
+The erroneous aiin→daiin column export is archived while the actual prescribed-
+measure family remains. BX retains18 held/rival values; BZ separates six technical
+admission stops from the actual historical sheor=Samendroge withdrawal.
+BU adds two revision dossiers, with all12 source-word edits recovered in BY.
+Filtern→Seihgang names two processes; it is not a tested cloth-versus-operation
+contrast. None of these editorial choices independently establishes a meaning.

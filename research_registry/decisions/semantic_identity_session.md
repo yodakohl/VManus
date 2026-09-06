@@ -120,3 +120,11 @@ retain original reviews and concrete peer corrections. Next20minute packets
 audit literal-alias table recovery and held/rejected neighbors, while two scoped
 revision dossiers distinguish editorial choices from actual counterevidence.
 No new manuscript experiment or semantic confirmation is implied.
+
+Alias/revision checkpoint:31additional sourcecases andone erroneous formal export
+archived yield3604semantic251formalvariants and4377cases.22scoped dossiers retain
+actual revision reasons; twelve exact source-word edits close the small BY data
+gap, without turning Filtern→Seihgang into a substance/operation falsification.
+NextCB/CC bounded cohorts recover late and middle full models, with independent
+peers; CD compares new historical questions against existing conditional priorities
+and primary predecessors. No experiment or automatic rerun is authorized by ranking.

@@ -1,0 +1,97 @@
+{
+  "review_id": "BZ",
+  "cards": [
+    {
+      "id": "CLEAN_GAP_BZ:sheor_old_seed_drug",
+      "claim": "GDT648 reports the earlier automatic whole-form reading sheor = Samendroge from s+heor and withdraws that reading in favor of the SH-first parse sh+e+or.",
+      "claim_type": "lexical_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:a4aa54be551717809c41"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/REPORT.md",
+          "line": 53,
+          "line_end": 56,
+          "quote": "Die wichtigste Parsekorrektur lautet **SH vor S**. `sheor` ist `sh+e+or`,\nnicht `s+heor`: Ein Stamm `heor` ist im Panel unbelegt, während die ganze\nSH-Reihe sichtbar ist. Damit entfällt die frühere automatische\n„Samendroge“-Glosse.",
+          "sha256": "86faa123f0f26671e5815e4bd63db78dca3047c4947959805260853f18c8761f"
+        },
+        {
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/REPORT.md",
+          "line": 42,
+          "line_end": 50,
+          "quote": "### `sheor` und `keol`: zwei fehlende Zellen desselben Rasters\n\nDas E×OL/OR-Feld ist für K, T, CH und SH vollständig belegt:\n\n```text\ncheol  trockener Drogenstoff     cheor  trockener Drogenteil\nsheol  feuchtes Material         sheor  feuchter Drogenteil\nkol    heißes Material           keol   heißer Drogenstoff\nkor    heißer Teil               keor   heißer Drogenteil",
+          "sha256": "86faa123f0f26671e5815e4bd63db78dca3047c4947959805260853f18c8761f"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "historical_source_rejected": true,
+      "source_disposition": "historical_automatic_gloss_withdrawn",
+      "failure_reason": "The source states that heor is unattested in its panel while the SH series is visible; splitting sheor as seed-head s+heor therefore loses to SH-first parsing in this working model. This is a model-internal segmentation rationale, not independent meaning disproof.",
+      "scope": {
+        "kind": "historical_source_bound_replaced_gloss",
+        "experiment": "GDT648",
+        "limits": "Only the earlier automatic Samendroge interpretation under s+heor. Do not infer global impossibility of seed meanings, independently validated SH phonetics, or confirmation of feuchter Drogenteil."
+      },
+      "independent_new_idea": false,
+      "identity_status": "global_novelty_unknown",
+      "comparison": {
+        "counterpart_ids": [
+          "SEM:c66502f44f43985b9c58"
+        ],
+        "reason": "Existing card addresses the replacement feuchter Drogenteil and quotes the old revision as evidence. The old complete Samendroge assignment is not separately addressable in the bounded current claim search; evidence presence is not whole-proposition identity."
+      }
+    }
+  ],
+  "dispositions": [],
+  "source_reassessments": [
+    {
+      "source_id": "LEGACY_COMPONENT:6ad174e429668411dd89",
+      "decision": "six_technical_rejections_assessed",
+      "card_ids": [],
+      "cases": [
+        "BZ:dy",
+        "BZ:ykeody",
+        "BZ:ykeey",
+        "BZ:checkhy",
+        "BZ:sheckhy",
+        "BZ:olsaly"
+      ],
+      "reason": "No complete concrete rejected lexical value is supplied in these six decision fields; preserve route-specific scope/parse blockers without placeholder ideas."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:a4aa54be551717809c41",
+      "decision": "historical_withdrawn_assignment_recovered",
+      "card_ids": [
+        "CLEAN_GAP_BZ:sheor_old_seed_drug"
+      ],
+      "reason": "Earlier complete Samendroge meaning is explicit; retain rejection rationale and replacement counterpart separately."
+    }
+  ],
+  "limits": [
+    "No target TSV was read; the literal published decision constants in published run.py provide the six exact fields and reasons. No code was executed beyond metadata validation.",
+    "No image, raw manuscript inspection, rerun or operative registry mutation.",
+    "Current card comparisons and dossier scan are bounded; other same-form claims remain unadjudicated.",
+    "Six route rejections do not imply six refuted lexical hypotheses. The sole recovered meaning is explicitly reported as a formerly automatic gloss.",
+    "GDT648 observed-panel absence of heor is a historical report claim, not independently rescored evidence here."
+  ],
+  "integration_provenance": {
+    "reviewer": "root",
+    "raw_review": "research_registry/decisions/clean_gap_review_bz.json",
+    "raw_sha256": "38df236652ad775f13f5f28806d7242325b42d13058f5d955c848b2949370cca",
+    "peer_review": "research_registry/decisions/semantic_rejection_peer_bz.json",
+    "peer_sha256": "46df17a3b04f236147303cd0cfdd560dcb0c9ef0d6f49019b4481c62de4e8917"
+  },
+  "original_review_validation": {
+    "known_source_ids": 2,
+    "cards_validated": 1,
+    "exact_quote_and_sha_checks": "PASS"
+  },
+  "validation": {
+    "status": "PASS",
+    "cards_validated": 1,
+    "exact_quotes_hashes_checked": true,
+    "scientific_meaning_confirmation": false
+  }
+}

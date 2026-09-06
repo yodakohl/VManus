@@ -1,0 +1,484 @@
+{
+  "schema": "semantic_failure_proposal_v1",
+  "review_id": "BU",
+  "status": "PROPOSAL_ONLY_NO_OPERATIVE_MUTATION",
+  "dossiers": [
+    {
+      "id": "FAILURE_PROPOSAL_BU:SHECTHY_STATE_VERSUS_SUBSTANCE",
+      "target_binding": {
+        "proposal_card_id": "CLEAN_GAP_BR:shecthy_state_not_substance",
+        "expected_clean_claim": "In R3_MEDIUM_SUBSTANCE, SHECTHY at E276/B3-S021 is read TEMPERIERT as the attained state between resting/settling and the resumed work item. The earlier warmes Wasser is judged too narrow, and warmes Arbeitsmedium unnecessarily adds an object; this is a local state-versus-substance revision, not a global refutation of every thermal interpretation.",
+        "expected_claim_type": "functional_hypothesis",
+        "member_ids": [
+          "LEGACY_COMPONENT:243f1458871a8654ed25"
+        ],
+        "proposal_card_sha256": "cb63f96e54ad73dc071769647a43e8ac945e407152f98a284d9dec87774799fd",
+        "operative_card_basis_status": "PENDING_ROOT_BUILD_AND_ACTUAL_CASE_AWARE_BINDING",
+        "binding_rule": "Bind the actual full revision claim and current cases after integration. Do not attach its outcome to the preferred replacement gloss or to every related old lexical hypothesis."
+      },
+      "claim_under_review": "In the fixed B3-S021/E276 reading, SHECTHY contributes warm water or a warm working-medium object rather than the attained tempered state of the already active item.",
+      "scope": "Exact historical learned SHECTHY card in the R1/R2/R3 medium-substance model and central synthesis; not SH, CTH, Y, SHCTHY or every thermal whole-card interpretation.",
+      "original_claims": [
+        {
+          "claim": "warmes Wasser",
+          "evidence": [
+            {
+              "path": "experiments/yolo/sidequest_semantic_quantity_preparation/PREPARATION_PARADIGM_REPORT.md",
+              "line": 158,
+              "line_end": 160,
+              "quote": "| B3-S019 | qokshedy | Ansatz zur Ruhe bringen oder absetzen lassen; abschließen | beibehalten |\n| B3-S020 | dal · lchedy | Zielstelle; hinausführen; Schluss | beibehalten |\n| B3-S021 | qokaiin · shcthy · dal · sy · saiin · shedal · shecthy · chey · tal · shcthy · dalchdy | Nach Maß einsetzen; den Einsatz bemessen; bereit; Zielstelle; der laufende Posten; dies oder es; Maß; Ruhe- oder Absetzstelle; warmes Wasser; der laufende Posten; dies oder es; Zielstelle; bereit; lokal umsetzen; Schluss | beibehalten |",
+              "sha256": "77943fcb084ef25d1ee68d45f0cadccfffd966981a43e0eff44428b619de8169"
+            }
+          ],
+          "scope": "Earlier complete B3-S021 working reading, not an independently identified liquid."
+        },
+        {
+          "claim": "SHECTHY=BADWASSER; ANGESetzTES WASSER is a fallback rival",
+          "evidence": [
+            {
+              "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R1_MEDIUM_SUBSTANCE_REPORT.md",
+              "line": 85,
+              "line_end": 93,
+              "quote": "Auf den festen Seiten gibt es drei lokale Wassernamen, aber keinen belastbaren sichtbaren gemeinsamen Wasserstamm:\n\n1. `dshedy` in B2-S007: **FRISCHWASSER; SCHLUSS** — „Frischwasser zugeben; Schluss.“\n2. `rsheal` in B2-S017: **WARMWASSER** — „Warmwasser eingießen; an der zweiten Öffnung wiederholen und schließen.“\n3. `shecthy` in B3-S021: **BADWASSER** — in einer Folge aus Maß, Arbeitsstelle, Ruhe-/Absetzstelle und anschließendem Umsetzen.\n\n`SHECTHY = BADWASSER` ist bewusst konkreter als das frühere doppelte „warmes Wasser“. Der umgebende Stations- und Ruheablauf passt zu einem angesetzten Bad. Es bleibt eine gelernte Ganzkarte: Aus `SH`, `CTH` oder `Y` wird kein globales Wasserzeichen gemacht.\n\nStärkster Rivale für SHECTHY ist `ANGESetzTES WASSER`. Sollte ein späteres Vorkommen ohne Badbesitzer erscheinen, wäre dies der erste Ersatzkandidat. Auf den gegenwärtigen Seiten macht `BADWASSER` jedoch den B3-Ablauf am knappsten lesbar.",
+              "sha256": "5f36716813e3e12341b606e7334884c4514751adc61ee63d440a105204305631"
+            }
+          ],
+          "scope": "R1 local whole-card proposal, not a global water glyph."
+        },
+        {
+          "claim": "SHECTHY=warme Arbeitsflüssigkeit",
+          "evidence": [
+            {
+              "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R2_MEDIUM_SUBSTANCE_REPORT.md",
+              "line": 14,
+              "line_end": 21,
+              "quote": "```text\nAIR       laufende Arbeitsflüssigkeit\nCHEO      Auszugsmedium\nOR        Ansatz\nSHEY      Klarauszug                    [gelernte ganze Karte]\nTSHEY     Spülflüssigkeit               [gelernte ganze Karte]\nSHECTHY   warme Arbeitsflüssigkeit      [gelernte ganze Karte, dünn]\n```",
+              "sha256": "68949b4eee286dacccff866cafaf241cf88ff8bb797139c8d4691129f3be3a42"
+            },
+            {
+              "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R2_MEDIUM_SUBSTANCE_REPORT.md",
+              "line": 200,
+              "line_end": 205,
+              "quote": "## Karten, die das Modell am stärksten brechen können\n\n1. **`SHECTHY`** ist der gefährlichste Wert: nur ein Ereignis, kein benachbarter\n   Heizbefehl, und fast dieselbe Oberfläche wie `SHCTHY=gebrauchsfertig`.\n   Wiederholte trockene oder untemperierte Kontexte würden *warme\n   Arbeitsflüssigkeit* streichen.",
+              "sha256": "68949b4eee286dacccff866cafaf241cf88ff8bb797139c8d4691129f3be3a42"
+            }
+          ],
+          "scope": "R2 learned singleton proposal explicitly acknowledged as thin."
+        }
+      ],
+      "actually_compared": "R3 prefers a state after resting/settling and before the resumed work item. It calls warmes Wasser too narrow and warmes Arbeitsmedium an unnecessary object. The central synthesis selects TEMPERIERT rather than a second water word.",
+      "actual_test_limit": "These are competing creative authored readings of the same local context. No independent substance/state identification, newly observed dry context, or successful disambiguating experiment is reported.",
+      "outcome": "Historical selected model revises the local substance contribution to an attained-state contribution. The water/working-medium alternatives remain historical hypotheses, not false extractions; TEMPERIERT is not thereby confirmed.",
+      "reason_class": "historical_model_revision",
+      "reason_subtype": "local_argument_economy_and_state_slot_preferred_over_extra_substance",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R3_MEDIUM_SUBSTANCE_REPORT.md",
+          "line": 131,
+          "line_end": 138,
+          "quote": "## 5. SHECTHY und die konkreten Medien\n\n`SHECTHY` kommt nur in `E276 / B3-S021` vor. Zwischen Ruhe-/Absetzstelle und\ndem wiederaufgenommenen Arbeitsposten ist **TEMPERIERT** die kürzeste\ntragfähige Lesung. Die Karte sagt damit den erreichten Zustand, nicht noch\neinmal die Substanz. Die ältere Lesung „warmes Wasser“ war zu eng; auch „warmes\nArbeitsmedium“ schrieb unnötig einen Gegenstand in eine Position, die sehr gut\nals Zustandsangabe funktioniert.",
+          "sha256": "f9b702a835beba25625fdf9e83efef08497689d42a7ed6048880ddf9db4481f0"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/SELECTED_MEDIUM_SUBSTANCE_COMPLETION_REPORT.md",
+          "line": 23,
+          "line_end": 26,
+          "quote": "`SHEY = KLARAUSZUG` remains a recurrent learned result card rather than a\nglobally split `SH+EY` word. `SHECTHY = TEMPERIERT` is now a state card, not a\nsecond word for water. This is still a deliberately speculative workshop\ntranslation, not a decipherment claim.",
+          "sha256": "515bc2a753d71cfa054c1dbcc6b13f97e7f3e22b8742a0ad516911c892b1dfa8"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/SELECTED_MEDIUM_SUBSTANCE_COMPLETION_REPORT.md",
+          "line": 161,
+          "line_end": 170,
+          "quote": "### B3-S021 and B3-S030 — f83r\n\n> Set the measure and bring the ready item to the site. After the settling site\n> it is tempered; move the current item ready at the next site and close.\n\n> Set the current item at the prescribed measure, conduct the water onward,\n> transfer it again and close.\n\n`SHECTHY=TEMPERIERT` removes an unnecessary second water noun, while\n`SCHEDAIR` retains the explicit water root.",
+          "sha256": "515bc2a753d71cfa054c1dbcc6b13f97e7f3e22b8742a0ad516911c892b1dfa8"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_b3_phase_b_lexicon_four_hundred_sixth/FOUR_HUNDRED_SIXTH_REPORT.md",
+          "line": 5,
+          "line_end": 16,
+          "quote": "- SAIIN gehört zur exakt gleichen 20-Ereignis-Karte wie AIIN, DAIIN, CHAIIN und\n  TAIIN. Ihr Wert bleibt Sollmaß.\n- SHEDAL erscheint in B3 und B5. SHED=absetzen plus AL=Stelle ergibt\n  Absetzstelle.\n- SHECTHY erscheint einmal. Seine Position nach Absetzstelle und vor dem\n  wieder aufgenommenen Posten macht einen erreichten Zustand plausibel;\n  „temperiert“ bleibt die knappste gelernte Ganzkartenlesung.\n\nDie Alternative „Dauer–Ruheplatz–warm“ klingt als Satz gut, bricht aber die\nAIIN-Invarianz. „Dosis–Haltestelle–warmes Wasser“ passt zum Bildthema, macht\nSHECTHY jedoch unnötig zu einem Stoffwort. Deshalb bleibt die kleine\nZustandskette vorn.",
+          "sha256": "729ec4b4dedc3b48ab929fd2a3b7acadb3f3b332d14a3f23e00fc9c10a6f42b9"
+        }
+      ],
+      "not_refuted": [
+        "No demonstrated absence of water or a bath at B3-S021.",
+        "No universal rejection of thermal meanings or proof that TEMPERIERT is the historically correct word.",
+        "The R2 dry/untempered-context falsifier and R1 non-bath-owner fallback are hypothetical; their trigger was not reported as observed.",
+        "No glyph-substring water or readiness value follows from the learned whole card.",
+        "The later Pass406 duration–rest–warm rival loses under that model’s AIIN invariance assumption; that is not an independent disproof of SHECTHY warm-water alone."
+      ],
+      "historical_reopening_or_falsifiers": [
+        {
+          "origin": "original_R1_conditional_prediction_not_preregistration",
+          "condition": "A later occurrence without a bath owner would favor angesetztes Wasser over Badwasser.",
+          "trigger_observed": false,
+          "evidence": [
+            {
+              "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R1_MEDIUM_SUBSTANCE_REPORT.md",
+              "line": 91,
+              "line_end": 93,
+              "quote": "`SHECTHY = BADWASSER` ist bewusst konkreter als das frühere doppelte „warmes Wasser“. Der umgebende Stations- und Ruheablauf passt zu einem angesetzten Bad. Es bleibt eine gelernte Ganzkarte: Aus `SH`, `CTH` oder `Y` wird kein globales Wasserzeichen gemacht.\n\nStärkster Rivale für SHECTHY ist `ANGESetzTES WASSER`. Sollte ein späteres Vorkommen ohne Badbesitzer erscheinen, wäre dies der erste Ersatzkandidat. Auf den gegenwärtigen Seiten macht `BADWASSER` jedoch den B3-Ablauf am knappsten lesbar.",
+              "sha256": "5f36716813e3e12341b606e7334884c4514751adc61ee63d440a105204305631"
+            }
+          ]
+        },
+        {
+          "origin": "original_R2_conditional_prediction_not_preregistration",
+          "condition": "Repeated dry or untempered contexts would remove warme Arbeitsflüssigkeit.",
+          "trigger_observed": false,
+          "evidence": [
+            {
+              "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R2_MEDIUM_SUBSTANCE_REPORT.md",
+              "line": 200,
+              "line_end": 205,
+              "quote": "## Karten, die das Modell am stärksten brechen können\n\n1. **`SHECTHY`** ist der gefährlichste Wert: nur ein Ereignis, kein benachbarter\n   Heizbefehl, und fast dieselbe Oberfläche wie `SHCTHY=gebrauchsfertig`.\n   Wiederholte trockene oder untemperierte Kontexte würden *warme\n   Arbeitsflüssigkeit* streichen.",
+              "sha256": "68949b4eee286dacccff866cafaf241cf88ff8bb797139c8d4691129f3be3a42"
+            }
+          ]
+        }
+      ],
+      "would_more_admitted_pages_help": {
+        "answer": "Only if they provide a discriminating new role/owner constraint, not merely more occurrences.",
+        "needed_property": "An independently constrained substance argument versus attained-state predication, with exact whole-card identity and the original B3-S021 case retained.",
+        "available_now_claimed": false
+      },
+      "reopening": {
+        "status": "PROSPECTIVE_REVIEW_ONLY_NO_AUTHORIZATION",
+        "criteria_origin": "Conditions below proposed in BU; not an original preregistration or a claim of satisfied gates.",
+        "all_of": [
+          "Freeze the exact local substance-versus-state alternatives and specify which observation each allows before new target inspection.",
+          "Establish the relevant role/owner contrast independently of the SHECTHY gloss being tested; a new picture interpretation chosen to fit the gloss is insufficient.",
+          "Bind the exact whole card across comparison cases, retain B3-S021, and preserve uncertain owner/state cases rather than recoding them after seeing outcomes.",
+          "If only a bath-local or ellipsis construction is tested, record its changed scope as a restricted hypothesis, not a restoration of every old medium reading."
+        ],
+        "not_sufficient": [
+          "More same-context repetitions or a smoother German translation.",
+          "Treating the R2 hypothetical dry counterexample as an observed result.",
+          "Selecting TEMPERIERT because it avoids a noun and then scoring that same editorial preference as independent confirmation."
+        ]
+      },
+      "related_card_bindings": [
+        {
+          "id": "SEM:17bf643361e851a42e2c",
+          "claim": "SHECTHY → BADWASSER",
+          "claim_type": "lexical_hypothesis",
+          "status": "unconfirmed",
+          "card_basis": "028981fa8d2bec75a1b04f2cdcb1c2b0f80e7424488cca108ab61ccb7cab28a0",
+          "effective_basis": "137b6857ca5340a282f7a7fe6d9e0468462d4e59106a7e0d1c6b9771bdaed7da",
+          "case_ids": [
+            "CLEAN_COMPONENT:5a4bdd12b25930308b49"
+          ]
+        },
+        {
+          "id": "SEM:4c160abd284815c9058c",
+          "claim": "**`SHECTHY`** ist der gefährlichste Wert: nur ein Ereignis, kein benachbarter Heizbefehl, und fast dieselbe Oberfläche wie `SHCTHY=gebrauchsfertig`. Wiederholte trockene oder untemperierte Kontexte würden *warme Arbeitsflüssigkeit* streichen.",
+          "claim_type": "lexical_hypothesis",
+          "status": "unconfirmed",
+          "card_basis": "bbeea704ca7a0310f2f302de070fb2825d291ef856ec6e1bbe44487329e9652a",
+          "effective_basis": "eabf821f28de7ddc003d9f575f4c70f6111cce86171814e81e4bcaf2151b1ee2",
+          "case_ids": [
+            "FINAL-SEM:6994544b5ac67c4699d5"
+          ]
+        },
+        {
+          "id": "SEM:f53cb74920f5d62caef0",
+          "claim": "SHECTHY → TEMPERIERT",
+          "claim_type": "lexical_hypothesis",
+          "status": "unconfirmed",
+          "card_basis": "27d330ac43d7a455175aa6ccba06714ad50c1309f3a88e1406275b40b767389e",
+          "effective_basis": "3cf70320bf016f5d76f0fac72cbef416547c1febc5332a8edf406c8a964c9d79",
+          "case_ids": [
+            "CLEAN_COMPONENT:acd33595fa3e32026fd1",
+            "CLEAN_COMPONENT:8e1691da57bf687ee35d",
+            "CLEAN_COMPONENT:875175be1da627ea9f00",
+            "CLEAN_COMPONENT:758abbb0d93ec34eac30",
+            "CLEAN_COMPONENT:5cf1b245cc808bd8c075",
+            "CLEAN_GAP_BD:shecthy_source_case"
+          ]
+        }
+      ],
+      "scope_applicability": {
+        "no_automatic_status_inheritance": "Bindings are navigation to local rivals and replacement, not instructions to mark all three cards failed. The proposed dossier target is the full historical revision claim."
+      }
+    },
+    {
+      "id": "FAILURE_PROPOSAL_BU:THREE_REGISTER_SOURCEWORD_REFINEMENT",
+      "target_binding": {
+        "proposal_card_id": "CLEAN_GAP_BR:three_register_sourceword_revision",
+        "expected_clean_claim": "EIGHTY_SECOND_EDITION revises the source-word layer to Herbal extraction liquid/carrier/binding material/means, Biological cloth versus straining pass, and Astro fields/signs rather than labels/abstract value metrics. It explicitly keeps card/root meanings, groups, owners, programs and scribe rendering fixed.",
+        "expected_claim_type": "semantic_model",
+        "member_ids": [
+          "LEGACY_COMPONENT:76469a0429086d3b0024"
+        ],
+        "proposal_card_sha256": "765b9dbf2607eb0394dccc10485a5e4a8102a5af069ca9d8282db5442f07a9e0",
+        "operative_card_basis_status": "PENDING_ROOT_BUILD_AND_ACTUAL_CASE_AWARE_BINDING",
+        "binding_rule": "Bind the actual full revision claim and current cases after integration. Do not attach its outcome to the preferred replacement gloss or to every related old lexical hypothesis."
+      },
+      "claim_under_review": "The selected source-content layer of the fixed 14-unit workshop model uses its earlier awkward/overly modern wording, including undifferentiated cloth/straining and Astro labels/abstract value metrics, rather than the revised workshop terms.",
+      "scope": "Pass80 selected source lexicon, Pass81 twelve-term refinement and Pass82 propagation over the same 14 units. This is the owner/program-supplied source-word layer, not meanings encoded by raw cards or roots.",
+      "original_claims": [
+        {
+          "claim": "The selected edition combines 43 minimal card entries, 54 selected source words, finite licenses and 14 controlled units; creative uncertainty remains in source content and learned-card tail.",
+          "evidence": [
+            {
+              "path": "experiments/yolo/sidequest_semantic_selected_workshop_eightieth_edition/EIGHTIETH_EDITION_REPORT.md",
+              "line": 5,
+              "line_end": 12,
+              "quote": "The current sidequest is consolidated into one compact release: 43 minimal\ncard entries, 54 selected source words, 43 finite card-to-source licenses, 14\ncontrolled units, 776 bound groups, four scribe profiles and a 12-step manual.\n\nThe architecture is now explicit enough to generate and read the ten fixed pages\nwithout sentence-sized dictionary entries. The remaining creative uncertainty\nis concentrated in source content and a small learned-card tail, not hidden in\nthe renderer or line layout.",
+              "sha256": "56876e63cc4f263a2420e09f2fa953fb09ffbf65b922d39affaa5ecdbb10fa64"
+            }
+          ]
+        },
+        {
+          "claim": "The old wording is identified only at the classes explicitly contrasted by Pass81/82; no exact old-to-new table of all twelve words is asserted here.",
+          "evidence": [
+            {
+              "path": "experiments/yolo/sidequest_semantic_source_word_refinement_eighty_first_edition/EIGHTY_FIRST_EDITION_REPORT.md",
+              "line": 5,
+              "line_end": 16,
+              "quote": "All 54 source words are ranked by visible, card, register or master supply.\nTwelve awkward or overly modern values are replaced with plainer workshop\nterms: Auszugsflüssigkeit, Trägerstoff, Bindestoff, Mittel, Seihgang, 28er\nFeld, Bedingungsfeld, Himmelszeichen, Wetterzeichen, Lichtzeichen, Zeitzeichen\nand Eigenschaft.\n\nThe revision changes no card/root meaning. It improves only the vocabulary that\nowner and unit program may supply after the card has opened a licensed slot.\n\nThe weakest remaining content words are water and the unnamed contents of\nmedium, carrier, binder, result and celestial readout slots. Those remain\ncreative defaults rather than decoded lexemes.",
+              "sha256": "d304b4c03a4b1159810ecd74486d29f1becb6368274fd6637f1543515a36937f"
+            },
+            {
+              "path": "experiments/yolo/sidequest_semantic_refined_controlled_rewrite_eighty_second_edition/EIGHTY_SECOND_EDITION_REPORT.md",
+              "line": 8,
+              "line_end": 13,
+              "quote": "The main gain is compositional. Herbal now speaks of extraction liquid, carrier\nmaterial, binding material and means; Biological separates cloth from a straining\npass; Astro reads fields and signs instead of labels and abstract value metrics.\n\nNo card/root meaning, visible group, owner, unit program or scribe rendering is\nchanged. The rewrite acts only at the selected source-word layer.",
+              "sha256": "06df6bde3b0da794cbefcb0909292fb73349a0d8965ab9b4139791b88ebb989a"
+            }
+          ]
+        }
+      ],
+      "actually_compared": "Pass81 ranks 54 source words by visible, card, register or master supply and replaces twelve awkward/overly modern values with Auszugsflüssigkeit, Trägerstoff, Bindestoff, Mittel, Seihgang, 28er Feld, Bedingungsfeld, Himmelszeichen, Wetterzeichen, Lichtzeichen, Zeitzeichen and Eigenschaft. Pass82 propagates the revisions, separates cloth from straining pass and uses fields/signs instead of labels/value metrics.",
+      "actual_test_limit": "The reports give an editorial suitability/compositional reason, not an independent falsifying observation or threshold. The full old twelve-term mapping is not provided by these compact reports and is not reconstructed from implication.",
+      "outcome": "Recorded source-content refinement, with no demonstrated semantic FAIL. Thirteen units change wording and B5 remains unchanged; card/root meanings, visible groups, owners, programs and renderer remain fixed.",
+      "reason_class": "historical_model_revision",
+      "reason_subtype": "editorial_source_vocabulary_refinement_no_empirical_rejection",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_selected_workshop_eightieth_edition/EIGHTIETH_EDITION_REPORT.md",
+          "line": 5,
+          "line_end": 12,
+          "quote": "The current sidequest is consolidated into one compact release: 43 minimal\ncard entries, 54 selected source words, 43 finite card-to-source licenses, 14\ncontrolled units, 776 bound groups, four scribe profiles and a 12-step manual.\n\nThe architecture is now explicit enough to generate and read the ten fixed pages\nwithout sentence-sized dictionary entries. The remaining creative uncertainty\nis concentrated in source content and a small learned-card tail, not hidden in\nthe renderer or line layout.",
+          "sha256": "56876e63cc4f263a2420e09f2fa953fb09ffbf65b922d39affaa5ecdbb10fa64"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_source_word_refinement_eighty_first_edition/EIGHTY_FIRST_EDITION_REPORT.md",
+          "line": 5,
+          "line_end": 16,
+          "quote": "All 54 source words are ranked by visible, card, register or master supply.\nTwelve awkward or overly modern values are replaced with plainer workshop\nterms: Auszugsflüssigkeit, Trägerstoff, Bindestoff, Mittel, Seihgang, 28er\nFeld, Bedingungsfeld, Himmelszeichen, Wetterzeichen, Lichtzeichen, Zeitzeichen\nand Eigenschaft.\n\nThe revision changes no card/root meaning. It improves only the vocabulary that\nowner and unit program may supply after the card has opened a licensed slot.\n\nThe weakest remaining content words are water and the unnamed contents of\nmedium, carrier, binder, result and celestial readout slots. Those remain\ncreative defaults rather than decoded lexemes.",
+          "sha256": "d304b4c03a4b1159810ecd74486d29f1becb6368274fd6637f1543515a36937f"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_refined_controlled_rewrite_eighty_second_edition/EIGHTY_SECOND_EDITION_REPORT.md",
+          "line": 5,
+          "line_end": 13,
+          "quote": "The twelve source-word revisions are propagated through all fourteen units and\nall 776 bindings. Thirteen units change wording; B5 remains unchanged.\n\nThe main gain is compositional. Herbal now speaks of extraction liquid, carrier\nmaterial, binding material and means; Biological separates cloth from a straining\npass; Astro reads fields and signs instead of labels and abstract value metrics.\n\nNo card/root meaning, visible group, owner, unit program or scribe rendering is\nchanged. The rewrite acts only at the selected source-word layer.",
+          "sha256": "06df6bde3b0da794cbefcb0909292fb73349a0d8965ab9b4139791b88ebb989a"
+        }
+      ],
+      "not_refuted": [
+        "No card/root meaning is changed or disproved.",
+        "No new claim that cloth is absent or that a particular sign is independently translated.",
+        "Water and unnamed slot contents remain creative defaults, expressly not decoded lexemes.",
+        "The report does not establish a universal historical vocabulary or reject every use of labels or abstract measurements.",
+        "The old source layer may be an awkward realization of the same broader model; changes in wording alone do not show a distinct encoding mechanism failed."
+      ],
+      "historical_reopening_or_falsifiers": [],
+      "would_more_admitted_pages_help": {
+        "answer": "Not for judging mere wording preference. A substantive semantic challenge needs a source observation that distinguishes the old and new content assignments within fixed cases.",
+        "needed_property": "For example, an independently supported material/tool versus operation contribution in a cloth/straining case, rather than the same assumed scene relabeled after the choice.",
+        "available_now_claimed": false
+      },
+      "reopening": {
+        "status": "PROSPECTIVE_REVIEW_ONLY_NO_AUTHORIZATION",
+        "criteria_origin": "BU prospective comparison conditions; the old reports provide no preregistered reopening gate.",
+        "all_of": [
+          "Recover and freeze the exact old/new source-word assignment for the particular case; do not invent all twelve old values from the summarized replacement list.",
+          "Specify a substantive content contrast, such as cloth object versus straining operation, that differs independently of smoother wording.",
+          "Use an independent already-admitted source constraint for that contrast and keep card/root/owner/program bindings fixed; if those change, label the comparison a different model.",
+          "Record which full old assignment or local alternative is being reconsidered; do not inherit a global failure onto the entire 54-word inventory."
+        ],
+        "not_sufficient": [
+          "The new words sound more medieval or more natural.",
+          "Re-rendering the same authored model successfully or adding pages without a discriminating constraint.",
+          "Treating a source-word change as a decoded root correction."
+        ]
+      },
+      "scope_applicability": {
+        "no_automatic_status_inheritance": "This dossier is revision memory, not a failure verdict on the revised model or old word inventory."
+      }
+    }
+  ],
+  "counts": {
+    "selected_revisions": 2,
+    "empirical_failures_newly_established": 0,
+    "existing_latest_dossiers_screened": 20,
+    "same_complete_dossiers_found": 0,
+    "exact_evidence_blocks_validated": 16
+  },
+  "existing_dossier_coverage": {
+    "source": "research_registry/semantic_failure_decisions.jsonl",
+    "sha256": "405281ed7e5c598d91d1a628998afc2003ff93c68b008a22e02ef21a578f246c",
+    "latest_only": true,
+    "screen": [
+      {
+        "id": "FAILURE_F:Y_OPEN_SENTENCE:v1",
+        "claim": "Y universally means that the sentence remains open.",
+        "scope": "The selected 173-card dictionary and its ten-page licensed Y/CHY construction audit; not every raw y in the manuscript.",
+        "same_complete_revision": false,
+        "reason": "Different specified word, relation, construction or decoder contract; neither SHECTHY state/substance revision nor the fixed 12-source-word three-register rewrite."
+      },
+      {
+        "id": "FAILURE_F:CHOR_SHOR_DRY_MOIST:v1",
+        "claim": "chor and shor are dry/moist states of the same reproductive plant part.",
+        "scope": "GDT768 M01 across six exact anchors and inherited donor state classes, with ED0/1/2 contamination removal.",
+        "same_complete_revision": false,
+        "reason": "Different specified word, relation, construction or decoder contract; neither SHECTHY state/substance revision nor the fixed 12-source-word three-register rewrite."
+      },
+      {
+        "id": "FAILURE_F:FLOWER_SEED_DIRECTION:v1",
+        "claim": "chor=flower and shor=seed/fruit, rather than the exact reverse.",
+        "scope": "GDT768 M02 versus M03, exact whole forms; no letter or substring assignments.",
+        "same_complete_revision": false,
+        "reason": "Different specified word, relation, construction or decoder contract; neither SHECTHY state/substance revision nor the fixed 12-source-word three-register rewrite."
+      },
+      {
+        "id": "FAILURE_F:CTHY_LEAF_SPECIFIC:v1",
+        "claim": "The complete cthy specifically denotes leaf material rather than herba or an unnamed botanical head.",
+        "scope": "The abandoned leaf-favoring design repaired within GDT809; distinguishes failure of that evidence design from failure of the lexical hypothesis.",
+        "same_complete_revision": false,
+        "reason": "Different specified word, relation, construction or decoder contract; neither SHECTHY state/substance revision nor the fixed 12-source-word three-register rewrite."
+      },
+      {
+        "id": "FAILURE_F:OKAIIN_THERMAL:v1",
+        "claim": "okaiin means warm, as a property rather than cold, bitter, possession or a copula.",
+        "scope": "GDT815 fixed N/G/Q/R plus explicit cold and bitter rivals; GDT816 joint Q has an explicitly shared humoral frame.",
+        "same_complete_revision": false,
+        "reason": "Different specified word, relation, construction or decoder contract; neither SHECTHY state/substance revision nor the fixed 12-source-word three-register rewrite."
+      },
+      {
+        "id": "FAILURE_F:OKAIIN_POSSESSIVE_ANTECEDENT:v1",
+        "claim": "With okaiin=dessen, qokain okaiin refers back to the already named otedy source.",
+        "scope": "The concrete known-source antecedent binding carried from f77r to the f81v.6 external occurrence, not every possible possessive reading.",
+        "same_complete_revision": false,
+        "reason": "Different specified word, relation, construction or decoder contract; neither SHECTHY state/substance revision nor the fixed 12-source-word three-register rewrite."
+      },
+      {
+        "id": "FAILURE_F:LO_PENDING_PARTICIPANT:v1",
+        "claim": "Final L/O at f83r.52 takes the initial AIIN at f83r.54 as its right participant.",
+        "scope": "V13 R1 proposed record-link interpretation of one LAST case, not a demonstrated free lexical value or a source-independent relation edge.",
+        "same_complete_revision": false,
+        "reason": "Different specified word, relation, construction or decoder contract; neither SHECTHY state/substance revision nor the fixed 12-source-word three-register rewrite."
+      },
+      {
+        "id": "FAILURE_H:OKAIIN_PURE_COPULA:v1",
+        "claim": "okaiin is a pure copula equivalent to ist, with the same meaning outside f17r.11.",
+        "scope": "GDT813 G exact whole-word trial across 54 selected loci, followed by GDT814 complete contexts.",
+        "same_complete_revision": false,
+        "reason": "Different specified word, relation, construction or decoder contract; neither SHECTHY state/substance revision nor the fixed 12-source-word three-register rewrite."
+      },
+      {
+        "id": "FAILURE_H:OKAIIN_POWDER:v1",
+        "claim": "okaiin denotes powder rather than an unnamed content term, property or copula.",
+        "scope": "GDT813 N and retained GDT814 N; exact whole words, unchanged proposed scalar family, no compound or component export.",
+        "same_complete_revision": false,
+        "reason": "Different specified word, relation, construction or decoder contract; neither SHECTHY state/substance revision nor the fixed 12-source-word three-register rewrite."
+      },
+      {
+        "id": "FAILURE_H:OKAL_FOUR_ORDINAL:v1",
+        "claim": "okal means four under a fixed simple ordinal/position-family reading.",
+        "scope": "GDT793 exact forms and the already inventoried f72 slot order; the numeral-four card is broader than the particular strict-order model tested.",
+        "same_complete_revision": false,
+        "reason": "Different specified word, relation, construction or decoder contract; neither SHECTHY state/substance revision nor the fixed 12-source-word three-register rewrite."
+      },
+      {
+        "id": "FAILURE_H:OKAL_GRADE_ONE:v1",
+        "claim": "okal denotes quality grade I.",
+        "scope": "GDT793 grade rival, distinct from the failed strict ordinal-order proposal.",
+        "same_complete_revision": false,
+        "reason": "Different specified word, relation, construction or decoder contract; neither SHECTHY state/substance revision nor the fixed 12-source-word three-register rewrite."
+      },
+      {
+        "id": "FAILURE_H:AQABAC_BENEFIC_FACIES:v1",
+        "claim": "The complete AQABAC family means favorable/benefic facies under a common historical sign-part mapping.",
+        "scope": "GDT796 historical Picatrix and Chaldean candidate matrices, Taurus H0/H1, all global direction/offset transforms; target excluded when selecting its prediction.",
+        "same_complete_revision": false,
+        "reason": "Different specified word, relation, construction or decoder contract; neither SHECTHY state/substance revision nor the fixed 12-source-word three-register rewrite."
+      },
+      {
+        "id": "FAILURE_H:OKAL_F82_REFERENTIAL_KEY:v1",
+        "claim": "Exact OKAL reuses a page-local apparatus caption as a referential key from the f82 prose records.",
+        "scope": "Only the referential-key component of broader f82 page-reading cards; observed written reuse alone is not directional reference.",
+        "same_complete_revision": false,
+        "reason": "Different specified word, relation, construction or decoder contract; neither SHECTHY state/substance revision nor the fixed 12-source-word three-register rewrite."
+      },
+      {
+        "id": "FAILURE_X:F77_QUALITY_PROCESS_DECODER:v1",
+        "claim": "The provisional GDT180 f77 process maps COLD via EARTH output to DRY, DRY via FIRE to HOT, HOT via HOLD to HOT, HOT via AIR to MOIST, and MOIST via WATER to COLD.",
+        "scope": "Only the GDT180/GDT181 local f57-to-f77 COLD/DRY/HOT/MOIST state decoder and its Earth/Fire/Hold/Air/Water transition interpretation, represented by CLEAN_GAP_Q:19. Later renderer transfer results constrain proposed architectural explanations; they are not direct tests of each English quality name.",
+        "same_complete_revision": false,
+        "reason": "Different specified word, relation, construction or decoder contract; neither SHECTHY state/substance revision nor the fixed 12-source-word three-register rewrite."
+      },
+      {
+        "id": "FAILURE_AD:BACA_LOCAL_PAIR_VERSUS_WATER_FLOW:v1",
+        "claim": "GDT231 proposed the shared BACA family prefix of two f82r labels as a local matched-apparatus/referent-class candidate, with literal dar=flow as a weaker comparator. These are not a licensed global BACA=water word equation.",
+        "scope": "Only the exposed f82r.35/f82r.38 BACAB/BACACA family pair and its hypothesized local class/slot/register interpretations. The lossy display forms darol versus darary/daryry/jarary do not establish a common literal dar morpheme.",
+        "same_complete_revision": false,
+        "reason": "Different specified word, relation, construction or decoder contract; neither SHECTHY state/substance revision nor the fixed 12-source-word three-register rewrite."
+      },
+      {
+        "id": "FAILURE_AD:EXACT_STRICT_RESIDUAL_OBJECT_TRANSFER:v1",
+        "claim": "After stripping the transferred graphical-label prefix, exact residual identity supplies a cross-folio broad visible-object class beyond section/register.",
+        "scope": "The GDT235 frozen exact-lookup instrument on 703 family-covered public human label annotations from 23 physical folios; coarse atlas classes, not recovered word meanings. Root recovery AI now supplies the exact tested instrument proposition; this dossier applies only to that scoped assertion.",
+        "same_complete_revision": false,
+        "reason": "Different specified word, relation, construction or decoder contract; neither SHECTHY state/substance revision nor the fixed 12-source-word three-register rewrite."
+      },
+      {
+        "id": "FAILURE_AW:PASS1023_BLANKET_BINDING:v2",
+        "claim": "The Pass1023 blanket binding generalization extends the equal-distance rule to unequal multi-head positions: non-L/AIR attachments close on the left action head, while L/AIR frame the right action head.",
+        "scope": "Universal extension of a side-selection rule over the existing interpreted attachment inventory; fixed lexical core values are not new hypotheses here.",
+        "same_complete_revision": false,
+        "reason": "Different specified word, relation, construction or decoder contract; neither SHECTHY state/substance revision nor the fixed 12-source-word three-register rewrite."
+      },
+      {
+        "id": "FAILURE_BC:OKEEOL_WIDE_VESSEL:v1",
+        "claim": "The exact whole okeeol card means breites Gefäß.",
+        "scope": "The E_GRADE_REPORT workshop-paradigm revision, not all vessel readings or QOTEDAIIN.",
+        "same_complete_revision": false,
+        "reason": "Different specified word, relation, construction or decoder contract; neither SHECTHY state/substance revision nor the fixed 12-source-word three-register rewrite."
+      },
+      {
+        "id": "FAILURE_BC:ALL_DOUBLES_NESTED:v1",
+        "claim": "All40 doubled-core cases in the Pass1021 set encode outer/inner nested levels.",
+        "scope": "The fixed source model of repeated cores; no claim that every physical repeated glyph or every manuscript double is covered.",
+        "same_complete_revision": false,
+        "reason": "Different specified word, relation, construction or decoder contract; neither SHECTHY state/substance revision nor the fixed 12-source-word three-register rewrite."
+      },
+      {
+        "id": "FAILURE_BC:CHEEKY_DRY_PREPARATION:v1",
+        "claim": "The whole cheeky card is adequately rendered Trockenpräparat.",
+        "scope": "GDT661 CH+EE+K+Y working composition; not later processing readings, other card inventories or every dry-preparation word.",
+        "same_complete_revision": false,
+        "reason": "Different specified word, relation, construction or decoder contract; neither SHECTHY state/substance revision nor the fixed 12-source-word three-register rewrite."
+      }
+    ],
+    "nearest_analogies": [
+      {
+        "id": "FAILURE_BC:OKEEOL_WIDE_VESSEL:v1",
+        "difference": "Same broad editorial object-versus-composition reasoning, different exact word and preferred contribution; no SHECTHY or three-register full revision."
+      },
+      {
+        "id": "FAILURE_BC:CHEEKY_DRY_PREPARATION:v1",
+        "difference": "Insufficient whole-card summary within a fixed CH/EE/K/Y model; not source-vocabulary refinement with unchanged card/root meanings."
+      }
+    ]
+  },
+  "source_limits": [
+    "Only public primary report prose and bounded card/dossier metadata inspected. No manuscript data, images, public approaches or experiment.",
+    "R1/R2/R3 are rival contributions in a creative synthesis, not automatically a temporal sequence of experimental failures.",
+    "The 20 latest dossier claims/scopes were screened; nearest editorial dossiers inspected. Lexical resemblance is not used as identity evidence.",
+    "No new history intake, archive, source correction, operative binding or reopening authorization."
+  ]
+}

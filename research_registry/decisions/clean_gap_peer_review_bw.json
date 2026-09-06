@@ -1,0 +1,743 @@
+{
+  "review_id": "PEER_BW",
+  "status": "APPROVE_SIX_CARDS_AND_ARCHIVE_WITH_SOURCE_CASE_FIXES",
+  "reviewed_artifacts": [
+    {
+      "path": "research_registry/decisions/clean_gap_review_bw.json",
+      "sha256": "779727e92c9eadb4efc0506fd39128515a0e360cadd5565bdb788d0921b5840e"
+    },
+    {
+      "path": "research_registry/decisions/source_coverage_gap_batch_bw.json",
+      "sha256": "4070ffa42cab6942bea0bbfd316c15f193725fdc065f3e9819c1fd3006e1cbb6"
+    }
+  ],
+  "card_reviews": [
+    {
+      "id": "CLEAN_GAP_BW:dchol_schol_previous_take",
+      "decision": "approve_source_bound_card",
+      "reason": "Full source row includes taking from the previous item. DAVON or Vorposten alone does not assert taking; aliases stay one registered whole card, not DCH/SCH substring meanings.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_directional_completion/SELECTED_DIRECTIONAL_COMPLETION_REPORT.md",
+          "line": 105,
+          "line_end": 105,
+          "quote": "| Card | Selected composition | New default |",
+          "sha256": "b5b313994f43aee0ca6ffe844a40a84baf002417460459be63fdbf4740305a45"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_directional_completion/SELECTED_DIRECTIONAL_COMPLETION_REPORT.md",
+          "line": 107,
+          "line_end": 107,
+          "quote": "| `dchol|schol` | renderer + `OL` | vom vorigen Posten nehmen |",
+          "sha256": "b5b313994f43aee0ca6ffe844a40a84baf002417460459be63fdbf4740305a45"
+        }
+      ],
+      "limits": [
+        "Historical proposal only; no independent semantic confirmation or automatic cross-source identity."
+      ]
+    },
+    {
+      "id": "CLEAN_GAP_BW:otal_qotal_next_target",
+      "decision": "approve_source_bound_card",
+      "reason": "OT+AL and full alias row explicitly state afterwards to the target. Do not retain the earlier built-in drain/outlet restriction.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_directional_completion/WORKSHOP_DIRECTION_REPORT.md",
+          "line": 145,
+          "line_end": 145,
+          "quote": "| exakte Karte | ausgewählter Default |",
+          "sha256": "3dabb5a83c08c8ba0654d3161e1a3e01dd941d3631124a20966c20943e6ca9ec"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_directional_completion/WORKSHOP_DIRECTION_REPORT.md",
+          "line": 160,
+          "line_end": 160,
+          "quote": "| `otal|qotal` | danach zur Zielstelle |",
+          "sha256": "3dabb5a83c08c8ba0654d3161e1a3e01dd941d3631124a20966c20943e6ca9ec"
+        }
+      ],
+      "limits": [
+        "Historical proposal only; no independent semantic confirmation or automatic cross-source identity."
+      ]
+    },
+    {
+      "id": "CLEAN_GAP_BW:okal_qokal_place_at_target",
+      "decision": "approve_source_bound_card",
+      "reason": "Full OK+AL construction explicitly places/puts the item to work at the target. The source permits a local receiver without identifying every target as a vessel.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_directional_completion/WORKSHOP_DIRECTION_REPORT.md",
+          "line": 145,
+          "line_end": 145,
+          "quote": "| exakte Karte | ausgewählter Default |",
+          "sha256": "3dabb5a83c08c8ba0654d3161e1a3e01dd941d3631124a20966c20943e6ca9ec"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_directional_completion/WORKSHOP_DIRECTION_REPORT.md",
+          "line": 161,
+          "line_end": 161,
+          "quote": "| `okal|qokal` | an der Zielstelle einsetzen |",
+          "sha256": "3dabb5a83c08c8ba0654d3161e1a3e01dd941d3631124a20966c20943e6ca9ec"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_directional_completion/WORKSHOP_DIRECTION_REPORT.md",
+          "line": 34,
+          "line_end": 45,
+          "quote": "Damit kann ein Schreiber die längeren Karten ohne neue Satzglossen bilden:\n\n```text\nL+CHED+AR   aus der Quelle hinausführen\nL+CHED+AL   zur Auslassstelle hinausführen\nP+CHED+AL   in die Ziel-/Empfangsstelle hineinführen\nP+CHED+DY   in den Empfänger hineinführen; Schritt schließen\nCHED+AIR    den Posten durch den Lauf führen\nOK+AR       etwas daraus in den Arbeitsgang nehmen\nOK+AIR      den Lauf in Gang setzen\nOK+AL       etwas an der Zielstelle einsetzen\n```",
+          "sha256": "3dabb5a83c08c8ba0654d3161e1a3e01dd941d3631124a20966c20943e6ca9ec"
+        }
+      ],
+      "limits": [
+        "Historical proposal only; no independent semantic confirmation or automatic cross-source identity."
+      ]
+    },
+    {
+      "id": "CLEAN_GAP_BW:cho_sho_plant_material",
+      "decision": "approve_source_bound_card",
+      "reason": "R1 explicitly unifies CHO/SHO as the same whole PFLANZENSTOFF card over four events. The separate HO core claim cannot substitute for the full alias assignment; four is an event count, not meaning.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R1_MEDIUM_SUBSTANCE_REPORT.md",
+          "line": 20,
+          "line_end": 20,
+          "quote": "| Karte/Komponente | Default | Ereignisse | Entscheidung |",
+          "sha256": "5f36716813e3e12341b606e7334884c4514751adc61ee63d440a105204305631"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R1_MEDIUM_SUBSTANCE_REPORT.md",
+          "line": 35,
+          "line_end": 35,
+          "quote": "| `cho|sho` | PFLANZENSTOFF | 4 | identische Karte vereinheitlicht |",
+          "sha256": "5f36716813e3e12341b606e7334884c4514751adc61ee63d440a105204305631"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R1_MEDIUM_SUBSTANCE_REPORT.md",
+          "line": 9,
+          "line_end": 16,
+          "quote": "## Arbeitsbereich\n\n- Ausgangspunkt: aktive ausgewählte Anwendungsausgabe.\n- Gelesene Textseiten: ausschließlich f10r, f11r, f55v, f56r, f81v, f82r und f83r.\n- Keine neue Seite, keine neue Transkription und keine Astro-Uminterpretation.\n- f84 und f84r blieben vollständig versiegelt.\n- Exakte Kartenidentität hat Vorrang: dieselbe joint tuple erhält denselben Stoffkern.\n- Satzhandlungen sind keine Stammwerte. `SCHOAL` heißt daher nicht mehr „in Wein kochen“, sondern kurz `WEINSUD`; Kochen/Bereiten ist die lokale Satzhandlung.",
+          "sha256": "5f36716813e3e12341b606e7334884c4514751adc61ee63d440a105204305631"
+        }
+      ],
+      "limits": [
+        "Historical proposal only; no independent semantic confirmation or automatic cross-source identity."
+      ]
+    },
+    {
+      "id": "CLEAN_GAP_BW:chkain_kain_bounded_portion",
+      "decision": "approve_source_bound_card",
+      "reason": "The source contrasts a bounded usable work object with AIIN prescribed measure. Preserve that contrast; measured portion is not automatically the same semantic contract, while the event count three is not a numeral meaning.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_quantity_preparation/QUANTITY_PARADIGM_REPORT.md",
+          "line": 81,
+          "line_end": 81,
+          "quote": "| Karte | Vorkommen | konkrete Lesung |",
+          "sha256": "74f43173e5a7f08378345a0bdde26ffd9b05119a4be099c4adfc161fed507520"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_quantity_preparation/QUANTITY_PARADIGM_REPORT.md",
+          "line": 83,
+          "line_end": 83,
+          "quote": "| `chkain|kain` | 3 | eine abgegrenzte Portion |",
+          "sha256": "74f43173e5a7f08378345a0bdde26ffd9b05119a4be099c4adfc161fed507520"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_quantity_preparation/QUANTITY_PARADIGM_REPORT.md",
+          "line": 8,
+          "line_end": 25,
+          "quote": "## Ausgewählte Dreierregel\n\nEin Lehrmeister braucht nur drei Mengenzeichen zu erklären:\n\n```text\nAIN    TEIL/PORTION    ein abgegrenzter, tatsächlich verwendbarer Teil\nAIIN   MASS            das vorgeschriebene Maß; Dimension aus dem Arbeitsgang\nIIN    GRAD/STUFE      erreichter oder vorgeschriebener Arbeitsgrad\n```\n\nDer Unterschied ist praktisch:\n\n- Eine **Portion** kann genommen, eingesetzt, weitergegeben oder verarbeitet\n  werden.\n- Ein **Maß** sagt, wie viel, wie lange oder bis zu welcher messbaren\n  Ausführung gearbeitet wird. Es ist keine weitere Portion.\n- Ein **Grad/eine Stufe** beschreibt das Ergebnis beziehungsweise den\n  erreichten Arbeitsgrad, etwa Konsistenz oder Öffnungsstufe.",
+          "sha256": "74f43173e5a7f08378345a0bdde26ffd9b05119a4be099c4adfc161fed507520"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_quantity_preparation/QUANTITY_PARADIGM_REPORT.md",
+          "line": 79,
+          "line_end": 90,
+          "quote": "### `AIN = Portion`\n\n| Karte | Vorkommen | konkrete Lesung |\n|---|---:|---|\n| `chkain|kain` | 3 | eine abgegrenzte Portion |\n| `okain|qokain` | 7 | eine Portion einsetzen oder zugeben |\n| `olkain|qolkain` | 2 | mit einer weiteren Portion fortfahren |\n| `chedain` | 1 | eine Portion verarbeiten |\n\n`AIN` wird nicht zu „kleines Maß“ abgeschwächt. Das wäre bereits die Aufgabe\nvon AIIN. Eine Portion ist ein Arbeitsgegenstand; ein Maß ist seine\nVorschrift.",
+          "sha256": "74f43173e5a7f08378345a0bdde26ffd9b05119a4be099c4adfc161fed507520"
+        }
+      ],
+      "limits": [
+        "Historical proposal only; no independent semantic confirmation or automatic cross-source identity."
+      ]
+    },
+    {
+      "id": "CLEAN_GAP_BW:otaiin_sotaiin_repeat_previous_measure",
+      "decision": "approve_source_bound_card",
+      "reason": "The complete alias family repeats the previous measure; dimension is supplied by work context and can be duration. Preserve this source version independently of the later next-measure reading.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_quantity_preparation/QUANTITY_PARADIGM_REPORT.md",
+          "line": 94,
+          "line_end": 94,
+          "quote": "| Karte | Vorkommen | konkrete Lesung |",
+          "sha256": "74f43173e5a7f08378345a0bdde26ffd9b05119a4be099c4adfc161fed507520"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_quantity_preparation/QUANTITY_PARADIGM_REPORT.md",
+          "line": 98,
+          "line_end": 98,
+          "quote": "| `otaiin|sotaiin` | 3 | voriges Maß wiederholen |",
+          "sha256": "74f43173e5a7f08378345a0bdde26ffd9b05119a4be099c4adfc161fed507520"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_quantity_preparation/QUANTITY_PARADIGM_REPORT.md",
+          "line": 92,
+          "line_end": 103,
+          "quote": "### `AIIN = Maß`\n\n| Karte | Vorkommen | konkrete Lesung |\n|---|---:|---|\n| `aiin|chaiin|daiin|saiin|taiin` | 20 | vorgeschriebenes Maß |\n| `okaiin|qokaiin` | 9 | nach Maß einsetzen/bemessen |\n| `otaiin|sotaiin` | 3 | voriges Maß wiederholen |\n\nDas Maß ist absichtlich dimensionsoffen. In Kräuterpassagen liest es sich\nals Dosis oder Menge, in `OT+AIIN` lokal auch als dieselbe Dauer wie zuvor.\nEin Schreiber braucht dafür kein zweites Zeitzeichen: Der Arbeitsgegenstand\nliefert die Dimension.",
+          "sha256": "74f43173e5a7f08378345a0bdde26ffd9b05119a4be099c4adfc161fed507520"
+        }
+      ],
+      "limits": [
+        "Historical proposal only; no independent semantic confirmation or automatic cross-source identity."
+      ]
+    }
+  ],
+  "row_reviews": [
+    {
+      "selection_index": 0,
+      "path": "experiments/yolo/sidequest_semantic_directional_completion/SELECTED_DIRECTIONAL_COMPLETION_REPORT.md",
+      "line": 107,
+      "source_id": "LEGACY_COMPONENT:2dbda3888addfa5d365b",
+      "decision": "approve_proposed_card",
+      "reason": "Exact complete source reading is represented by the proposed card; no alias splitting or numerical-column contamination.",
+      "counterpart_ids": [
+        "SEM:09010ce151a5e8c7add0",
+        "SEM:caaf3803cdc28ac90f14"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_directional_completion/SELECTED_DIRECTIONAL_COMPLETION_REPORT.md",
+          "line": 105,
+          "line_end": 105,
+          "quote": "| Card | Selected composition | New default |",
+          "sha256": "b5b313994f43aee0ca6ffe844a40a84baf002417460459be63fdbf4740305a45"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_directional_completion/SELECTED_DIRECTIONAL_COMPLETION_REPORT.md",
+          "line": 107,
+          "line_end": 107,
+          "quote": "| `dchol|schol` | renderer + `OL` | vom vorigen Posten nehmen |",
+          "sha256": "b5b313994f43aee0ca6ffe844a40a84baf002417460459be63fdbf4740305a45"
+        }
+      ]
+    },
+    {
+      "selection_index": 1,
+      "path": "experiments/yolo/sidequest_semantic_directional_completion/SELECTED_DIRECTIONAL_COMPLETION_REPORT.md",
+      "line": 108,
+      "source_id": "LEGACY_COMPONENT:2dbda3888addfa5d365b",
+      "decision": "approve_source_case_preservation_without_new_independent_hypothesis",
+      "reason": "Literal full alias field, meaning column and source-selected value verified. Preserve the source-specific aliases and composition as provenance; a related bare core does not automatically inherit the expanded alias domain.",
+      "counterpart_ids": [
+        "SEM:91e55ffe35bb528ee5c5"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_directional_completion/SELECTED_DIRECTIONAL_COMPLETION_REPORT.md",
+          "line": 105,
+          "line_end": 105,
+          "quote": "| Card | Selected composition | New default |",
+          "sha256": "b5b313994f43aee0ca6ffe844a40a84baf002417460459be63fdbf4740305a45"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_directional_completion/SELECTED_DIRECTIONAL_COMPLETION_REPORT.md",
+          "line": 108,
+          "line_end": 108,
+          "quote": "| `oiiin|soiiin` | renderer + `IIN` grade | vorgeschriebener Grad |",
+          "sha256": "b5b313994f43aee0ca6ffe844a40a84baf002417460459be63fdbf4740305a45"
+        }
+      ]
+    },
+    {
+      "selection_index": 2,
+      "path": "experiments/yolo/sidequest_semantic_directional_completion/SELECTED_DIRECTIONAL_COMPLETION_REPORT.md",
+      "line": 109,
+      "source_id": "LEGACY_COMPONENT:2dbda3888addfa5d365b",
+      "decision": "approve_source_case_preservation_without_new_independent_hypothesis",
+      "reason": "Literal full alias field, meaning column and source-selected value verified. Preserve the source-specific aliases and composition as provenance; a related bare core does not automatically inherit the expanded alias domain. The primary explicitly licenses this alias/construction bridge locally; it does not prove cross-version global equivalence or change every alias occurrence.",
+      "counterpart_ids": [
+        "SEM:3db62205301363f9ba20"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_directional_completion/SELECTED_DIRECTIONAL_COMPLETION_REPORT.md",
+          "line": 105,
+          "line_end": 105,
+          "quote": "| Card | Selected composition | New default |",
+          "sha256": "b5b313994f43aee0ca6ffe844a40a84baf002417460459be63fdbf4740305a45"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_directional_completion/SELECTED_DIRECTIONAL_COMPLETION_REPORT.md",
+          "line": 109,
+          "line_end": 109,
+          "quote": "| `olkain|qolkain` | `OL+KAIN` | mit einer weiteren Portion fortfahren |",
+          "sha256": "b5b313994f43aee0ca6ffe844a40a84baf002417460459be63fdbf4740305a45"
+        }
+      ]
+    },
+    {
+      "selection_index": 3,
+      "path": "experiments/yolo/sidequest_semantic_directional_completion/SELECTED_DIRECTIONAL_COMPLETION_REPORT.md",
+      "line": 111,
+      "source_id": "LEGACY_COMPONENT:2dbda3888addfa5d365b",
+      "decision": "approve_source_case_preservation_without_new_independent_hypothesis",
+      "reason": "Literal full alias field, meaning column and source-selected value verified. Preserve the source-specific aliases and composition as provenance; a related bare core does not automatically inherit the expanded alias domain. The primary explicitly licenses this alias/construction bridge locally; it does not prove cross-version global equivalence or change every alias occurrence.",
+      "counterpart_ids": [
+        "SEM:4d651c203e7c7aeef893"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_directional_completion/SELECTED_DIRECTIONAL_COMPLETION_REPORT.md",
+          "line": 105,
+          "line_end": 105,
+          "quote": "| Card | Selected composition | New default |",
+          "sha256": "b5b313994f43aee0ca6ffe844a40a84baf002417460459be63fdbf4740305a45"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_directional_completion/SELECTED_DIRECTIONAL_COMPLETION_REPORT.md",
+          "line": 111,
+          "line_end": 111,
+          "quote": "| `otchor|qotchor` | `OT` + renderer + `OR` | die nächste Zubereitung |",
+          "sha256": "b5b313994f43aee0ca6ffe844a40a84baf002417460459be63fdbf4740305a45"
+        }
+      ]
+    },
+    {
+      "selection_index": 5,
+      "path": "experiments/yolo/sidequest_semantic_directional_completion/WORKSHOP_DIRECTION_REPORT.md",
+      "line": 147,
+      "source_id": "LEGACY_COMPONENT:4c387e528a84c6a591a7",
+      "decision": "fix_scope_coverage_claim",
+      "reason": "CHAR→davon does not by itself assert CHAR/DAR/SAR=daraus; von der Quelle, and same prepared batch is a narrower material-source assertion. Retain the complete source-bound from-source family as an explicit refinement/source case with identity unresolved; do not claim whole proposition covered by the bare CHAR card.",
+      "counterpart_ids": [
+        "SEM:d483f0e0cae4db700918",
+        "SEM:162f8317689da7ee047c"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_directional_completion/WORKSHOP_DIRECTION_REPORT.md",
+          "line": 145,
+          "line_end": 145,
+          "quote": "| exakte Karte | ausgewählter Default |",
+          "sha256": "3dabb5a83c08c8ba0654d3161e1a3e01dd941d3631124a20966c20943e6ca9ec"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_directional_completion/WORKSHOP_DIRECTION_REPORT.md",
+          "line": 147,
+          "line_end": 147,
+          "quote": "| `char|dar|sar` | daraus; von der Quelle |",
+          "sha256": "3dabb5a83c08c8ba0654d3161e1a3e01dd941d3631124a20966c20943e6ca9ec"
+        }
+      ]
+    },
+    {
+      "selection_index": 6,
+      "path": "experiments/yolo/sidequest_semantic_directional_completion/WORKSHOP_DIRECTION_REPORT.md",
+      "line": 157,
+      "source_id": "LEGACY_COMPONENT:4c387e528a84c6a591a7",
+      "decision": "approve_source_case_preservation_without_new_independent_hypothesis",
+      "reason": "Literal full alias field, meaning column and source-selected value verified. Preserve the source-specific aliases and composition as provenance; a related bare core does not automatically inherit the expanded alias domain. The primary explicitly licenses this alias/construction bridge locally; it does not prove cross-version global equivalence or change every alias occurrence.",
+      "counterpart_ids": [
+        "SEM:0a934de0f40a7215242d",
+        "SEM:512a5e0c1607aa49579e"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_directional_completion/WORKSHOP_DIRECTION_REPORT.md",
+          "line": 145,
+          "line_end": 145,
+          "quote": "| exakte Karte | ausgewählter Default |",
+          "sha256": "3dabb5a83c08c8ba0654d3161e1a3e01dd941d3631124a20966c20943e6ca9ec"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_directional_completion/WORKSHOP_DIRECTION_REPORT.md",
+          "line": 157,
+          "line_end": 157,
+          "quote": "| `al|chal|cheal|dal|sal|tal` | an der Zielstelle |",
+          "sha256": "3dabb5a83c08c8ba0654d3161e1a3e01dd941d3631124a20966c20943e6ca9ec"
+        }
+      ]
+    },
+    {
+      "selection_index": 7,
+      "path": "experiments/yolo/sidequest_semantic_directional_completion/WORKSHOP_DIRECTION_REPORT.md",
+      "line": 160,
+      "source_id": "LEGACY_COMPONENT:4c387e528a84c6a591a7",
+      "decision": "approve_proposed_card",
+      "reason": "Exact complete source reading is represented by the proposed card; no alias splitting or numerical-column contamination.",
+      "counterpart_ids": [
+        "SEM:6850bac26f657c6a1ead"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_directional_completion/WORKSHOP_DIRECTION_REPORT.md",
+          "line": 145,
+          "line_end": 145,
+          "quote": "| exakte Karte | ausgewählter Default |",
+          "sha256": "3dabb5a83c08c8ba0654d3161e1a3e01dd941d3631124a20966c20943e6ca9ec"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_directional_completion/WORKSHOP_DIRECTION_REPORT.md",
+          "line": 160,
+          "line_end": 160,
+          "quote": "| `otal|qotal` | danach zur Zielstelle |",
+          "sha256": "3dabb5a83c08c8ba0654d3161e1a3e01dd941d3631124a20966c20943e6ca9ec"
+        }
+      ]
+    },
+    {
+      "selection_index": 8,
+      "path": "experiments/yolo/sidequest_semantic_directional_completion/WORKSHOP_DIRECTION_REPORT.md",
+      "line": 161,
+      "source_id": "LEGACY_COMPONENT:4c387e528a84c6a591a7",
+      "decision": "approve_proposed_card",
+      "reason": "Exact complete source reading is represented by the proposed card; no alias splitting or numerical-column contamination.",
+      "counterpart_ids": [
+        "SEM:03ce13f06bdfb854c710",
+        "SEM:7e82e8c93515585a8fda"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_directional_completion/WORKSHOP_DIRECTION_REPORT.md",
+          "line": 145,
+          "line_end": 145,
+          "quote": "| exakte Karte | ausgewählter Default |",
+          "sha256": "3dabb5a83c08c8ba0654d3161e1a3e01dd941d3631124a20966c20943e6ca9ec"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_directional_completion/WORKSHOP_DIRECTION_REPORT.md",
+          "line": 161,
+          "line_end": 161,
+          "quote": "| `okal|qokal` | an der Zielstelle einsetzen |",
+          "sha256": "3dabb5a83c08c8ba0654d3161e1a3e01dd941d3631124a20966c20943e6ca9ec"
+        }
+      ]
+    },
+    {
+      "selection_index": 9,
+      "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R1_MEDIUM_SUBSTANCE_REPORT.md",
+      "line": 30,
+      "source_id": "LEGACY_COMPONENT:f3e3ecb351733255fb68",
+      "decision": "approve_source_case_preservation_without_new_independent_hypothesis",
+      "reason": "Literal full alias field, meaning column and source-selected value verified. Preserve the source-specific aliases and composition as provenance; a related bare core does not automatically inherit the expanded alias domain.",
+      "counterpart_ids": [
+        "SEM:6cb94c419a47a1c43fa8"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R1_MEDIUM_SUBSTANCE_REPORT.md",
+          "line": 20,
+          "line_end": 20,
+          "quote": "| Karte/Komponente | Default | Ereignisse | Entscheidung |",
+          "sha256": "5f36716813e3e12341b606e7334884c4514751adc61ee63d440a105204305631"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R1_MEDIUM_SUBSTANCE_REPORT.md",
+          "line": 30,
+          "line_end": 30,
+          "quote": "| `cheey|shey` | KLARAUSZUG | 4 | aktive Lesung bestätigt |",
+          "sha256": "5f36716813e3e12341b606e7334884c4514751adc61ee63d440a105204305631"
+        }
+      ]
+    },
+    {
+      "selection_index": 10,
+      "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R1_MEDIUM_SUBSTANCE_REPORT.md",
+      "line": 35,
+      "source_id": "LEGACY_COMPONENT:e1473196292556739406",
+      "decision": "approve_proposed_card",
+      "reason": "Exact complete source reading is represented by the proposed card; no alias splitting or numerical-column contamination.",
+      "counterpart_ids": [
+        "SEM:2a4b1fae159b999908f2",
+        "SEM:71c7f931b98dffe74e69"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R1_MEDIUM_SUBSTANCE_REPORT.md",
+          "line": 20,
+          "line_end": 20,
+          "quote": "| Karte/Komponente | Default | Ereignisse | Entscheidung |",
+          "sha256": "5f36716813e3e12341b606e7334884c4514751adc61ee63d440a105204305631"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R1_MEDIUM_SUBSTANCE_REPORT.md",
+          "line": 35,
+          "line_end": 35,
+          "quote": "| `cho|sho` | PFLANZENSTOFF | 4 | identische Karte vereinheitlicht |",
+          "sha256": "5f36716813e3e12341b606e7334884c4514751adc61ee63d440a105204305631"
+        }
+      ]
+    },
+    {
+      "selection_index": 11,
+      "path": "experiments/yolo/sidequest_semantic_quantity_preparation/QUANTITY_PARADIGM_REPORT.md",
+      "line": 83,
+      "source_id": "LEGACY_COMPONENT:035ae31e24298939dec9",
+      "decision": "approve_proposed_card",
+      "reason": "Exact complete source reading is represented by the proposed card; no alias splitting or numerical-column contamination.",
+      "counterpart_ids": [
+        "SEM:2d154bd0bac7c2e81f0c"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_quantity_preparation/QUANTITY_PARADIGM_REPORT.md",
+          "line": 81,
+          "line_end": 81,
+          "quote": "| Karte | Vorkommen | konkrete Lesung |",
+          "sha256": "74f43173e5a7f08378345a0bdde26ffd9b05119a4be099c4adfc161fed507520"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_quantity_preparation/QUANTITY_PARADIGM_REPORT.md",
+          "line": 83,
+          "line_end": 83,
+          "quote": "| `chkain|kain` | 3 | eine abgegrenzte Portion |",
+          "sha256": "74f43173e5a7f08378345a0bdde26ffd9b05119a4be099c4adfc161fed507520"
+        }
+      ]
+    },
+    {
+      "selection_index": 12,
+      "path": "experiments/yolo/sidequest_semantic_quantity_preparation/QUANTITY_PARADIGM_REPORT.md",
+      "line": 84,
+      "source_id": "LEGACY_COMPONENT:b5413ae1a7497ea8fada",
+      "decision": "approve_source_case_preservation_without_new_independent_hypothesis",
+      "reason": "Literal full alias field, meaning column and source-selected value verified. Preserve the source-specific aliases and composition as provenance; a related bare core does not automatically inherit the expanded alias domain.",
+      "counterpart_ids": [
+        "SEM:d4908e037402b224a18a"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_quantity_preparation/QUANTITY_PARADIGM_REPORT.md",
+          "line": 81,
+          "line_end": 81,
+          "quote": "| Karte | Vorkommen | konkrete Lesung |",
+          "sha256": "74f43173e5a7f08378345a0bdde26ffd9b05119a4be099c4adfc161fed507520"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_quantity_preparation/QUANTITY_PARADIGM_REPORT.md",
+          "line": 84,
+          "line_end": 84,
+          "quote": "| `okain|qokain` | 7 | eine Portion einsetzen oder zugeben |",
+          "sha256": "74f43173e5a7f08378345a0bdde26ffd9b05119a4be099c4adfc161fed507520"
+        }
+      ]
+    },
+    {
+      "selection_index": 13,
+      "path": "experiments/yolo/sidequest_semantic_quantity_preparation/QUANTITY_PARADIGM_REPORT.md",
+      "line": 85,
+      "source_id": "LEGACY_COMPONENT:75120351e8a25b138a8a",
+      "decision": "approve_source_case_preservation_without_new_independent_hypothesis",
+      "reason": "Literal full alias field, meaning column and source-selected value verified. Preserve the source-specific aliases and composition as provenance; a related bare core does not automatically inherit the expanded alias domain. The primary explicitly licenses this alias/construction bridge locally; it does not prove cross-version global equivalence or change every alias occurrence.",
+      "counterpart_ids": [
+        "SEM:3db62205301363f9ba20"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_quantity_preparation/QUANTITY_PARADIGM_REPORT.md",
+          "line": 81,
+          "line_end": 81,
+          "quote": "| Karte | Vorkommen | konkrete Lesung |",
+          "sha256": "74f43173e5a7f08378345a0bdde26ffd9b05119a4be099c4adfc161fed507520"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_quantity_preparation/QUANTITY_PARADIGM_REPORT.md",
+          "line": 85,
+          "line_end": 85,
+          "quote": "| `olkain|qolkain` | 2 | mit einer weiteren Portion fortfahren |",
+          "sha256": "74f43173e5a7f08378345a0bdde26ffd9b05119a4be099c4adfc161fed507520"
+        }
+      ]
+    },
+    {
+      "selection_index": 14,
+      "path": "experiments/yolo/sidequest_semantic_quantity_preparation/QUANTITY_PARADIGM_REPORT.md",
+      "line": 96,
+      "source_id": "LEGACY_COMPONENT:1ddb77fe93c6fcceb400",
+      "decision": "approve_source_case_preservation_without_new_independent_hypothesis",
+      "reason": "Literal full alias field, meaning column and source-selected value verified. Preserve the source-specific aliases and composition as provenance; a related bare core does not automatically inherit the expanded alias domain. The primary explicitly licenses this alias/construction bridge locally; it does not prove cross-version global equivalence or change every alias occurrence.",
+      "counterpart_ids": [
+        "SEM:b0c57d2b0d36b2d154f7"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_quantity_preparation/QUANTITY_PARADIGM_REPORT.md",
+          "line": 94,
+          "line_end": 94,
+          "quote": "| Karte | Vorkommen | konkrete Lesung |",
+          "sha256": "74f43173e5a7f08378345a0bdde26ffd9b05119a4be099c4adfc161fed507520"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_quantity_preparation/QUANTITY_PARADIGM_REPORT.md",
+          "line": 96,
+          "line_end": 96,
+          "quote": "| `aiin|chaiin|daiin|saiin|taiin` | 20 | vorgeschriebenes Maß |",
+          "sha256": "74f43173e5a7f08378345a0bdde26ffd9b05119a4be099c4adfc161fed507520"
+        }
+      ]
+    },
+    {
+      "selection_index": 15,
+      "path": "experiments/yolo/sidequest_semantic_quantity_preparation/QUANTITY_PARADIGM_REPORT.md",
+      "line": 97,
+      "source_id": "LEGACY_COMPONENT:ef9a2a6d3c7cd3bfc755",
+      "decision": "approve_source_case_preservation_without_new_independent_hypothesis",
+      "reason": "Literal full alias field, meaning column and source-selected value verified. Preserve the source-specific aliases and composition as provenance; a related bare core does not automatically inherit the expanded alias domain.",
+      "counterpart_ids": [
+        "SEM:2cd394a462570a0c653f"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_quantity_preparation/QUANTITY_PARADIGM_REPORT.md",
+          "line": 94,
+          "line_end": 94,
+          "quote": "| Karte | Vorkommen | konkrete Lesung |",
+          "sha256": "74f43173e5a7f08378345a0bdde26ffd9b05119a4be099c4adfc161fed507520"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_quantity_preparation/QUANTITY_PARADIGM_REPORT.md",
+          "line": 97,
+          "line_end": 97,
+          "quote": "| `okaiin|qokaiin` | 9 | nach Maß einsetzen/bemessen |",
+          "sha256": "74f43173e5a7f08378345a0bdde26ffd9b05119a4be099c4adfc161fed507520"
+        }
+      ]
+    },
+    {
+      "selection_index": 16,
+      "path": "experiments/yolo/sidequest_semantic_quantity_preparation/QUANTITY_PARADIGM_REPORT.md",
+      "line": 98,
+      "source_id": "LEGACY_COMPONENT:07261c4ad2e553c374d9",
+      "decision": "approve_proposed_card",
+      "reason": "Exact complete source reading is represented by the proposed card; no alias splitting or numerical-column contamination.",
+      "counterpart_ids": [
+        "SEM:605416695593f172e9ec",
+        "SEM:03c91a6eb4ef3bfc8a30"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_quantity_preparation/QUANTITY_PARADIGM_REPORT.md",
+          "line": 94,
+          "line_end": 94,
+          "quote": "| Karte | Vorkommen | konkrete Lesung |",
+          "sha256": "74f43173e5a7f08378345a0bdde26ffd9b05119a4be099c4adfc161fed507520"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_quantity_preparation/QUANTITY_PARADIGM_REPORT.md",
+          "line": 98,
+          "line_end": 98,
+          "quote": "| `otaiin|sotaiin` | 3 | voriges Maß wiederholen |",
+          "sha256": "74f43173e5a7f08378345a0bdde26ffd9b05119a4be099c4adfc161fed507520"
+        }
+      ]
+    },
+    {
+      "selection_index": 17,
+      "path": "experiments/yolo/sidequest_semantic_thermal_temporal_completion/R2_REPORT.md",
+      "line": 108,
+      "source_id": "LEGACY_COMPONENT:5d10302be8745be65b3c",
+      "decision": "approve_source_case_preservation_without_new_independent_hypothesis",
+      "reason": "Literal full alias field, meaning column and source-selected value verified. Preserve the source-specific aliases and composition as provenance; a related bare core does not automatically inherit the expanded alias domain.",
+      "counterpart_ids": [
+        "SEM:91e55ffe35bb528ee5c5"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_thermal_temporal_completion/R2_REPORT.md",
+          "line": 106,
+          "line_end": 106,
+          "quote": "| Form | Komposition | Default |",
+          "sha256": "3938eafaba2acf826e87f2e22a7ba993dcecf2a14a6e8b896ce405b20bdcab14"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_thermal_temporal_completion/R2_REPORT.md",
+          "line": 108,
+          "line_end": 108,
+          "quote": "| `oiiin|soiiin` | IIN | Sollgrad |",
+          "sha256": "3938eafaba2acf826e87f2e22a7ba993dcecf2a14a6e8b896ce405b20bdcab14"
+        }
+      ]
+    },
+    {
+      "selection_index": 18,
+      "path": "experiments/yolo/sidequest_semantic_thermal_temporal_completion/R2_REPORT.md",
+      "line": 157,
+      "source_id": "LEGACY_COMPONENT:5d10302be8745be65b3c",
+      "decision": "approve_source_case_preservation_without_new_independent_hypothesis",
+      "reason": "Literal full alias field, meaning column and source-selected value verified. Preserve the source-specific aliases and composition as provenance; a related bare core does not automatically inherit the expanded alias domain.",
+      "counterpart_ids": [
+        "SEM:38f08d4261fad18d3646",
+        "SEM:3bb33199b4068cad3f7b"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_thermal_temporal_completion/R2_REPORT.md",
+          "line": 155,
+          "line_end": 155,
+          "quote": "| Form | Default | Ereignisse |",
+          "sha256": "3938eafaba2acf826e87f2e22a7ba993dcecf2a14a6e8b896ce405b20bdcab14"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_thermal_temporal_completion/R2_REPORT.md",
+          "line": 157,
+          "line_end": 157,
+          "quote": "| `cheedy|shedy|tedy` | absetzen lassen; Schluss | 12 |",
+          "sha256": "3938eafaba2acf826e87f2e22a7ba993dcecf2a14a6e8b896ce405b20bdcab14"
+        }
+      ]
+    }
+  ],
+  "source_correction_review": {
+    "target": "SEM:baa8aea811155f943e30",
+    "decision": "approve_archive_source_extraction_error",
+    "reason": "daiin occupies the first alias cell, while prescribed measure occupies the meaning cell. aiin→daiin is neither a literal gloss nor an independently proposed formal theory; archive the extraction while retaining the complete alias family and meaning.",
+    "evidence": [
+      {
+        "path": "experiments/yolo/sidequest_semantic_quantity_preparation/QUANTITY_PARADIGM_REPORT.md",
+        "line": 94,
+        "line_end": 103,
+        "quote": "| Karte | Vorkommen | konkrete Lesung |\n|---|---:|---|\n| `aiin|chaiin|daiin|saiin|taiin` | 20 | vorgeschriebenes Maß |\n| `okaiin|qokaiin` | 9 | nach Maß einsetzen/bemessen |\n| `otaiin|sotaiin` | 3 | voriges Maß wiederholen |\n\nDas Maß ist absichtlich dimensionsoffen. In Kräuterpassagen liest es sich\nals Dosis oder Menge, in `OT+AIIN` lokal auch als dieselbe Dauer wie zuvor.\nEin Schreiber braucht dafür kein zweites Zeitzeichen: Der Arbeitsgegenstand\nliefert die Dimension.",
+        "sha256": "74f43173e5a7f08378345a0bdde26ffd9b05119a4be099c4adfc161fed507520"
+      },
+      {
+        "path": "experiments/yolo/sidequest_semantic_quantity_preparation/QUANTITY_PARADIGM_REPORT.md",
+        "line": 42,
+        "line_end": 58,
+        "quote": "## Exakte Identität vor Oberfläche\n\nDie wichtigsten Grenzen werden durch die exakten Karten, nicht durch bloßes\nAussehen gesetzt:\n\n- `aiin|chaiin|daiin|saiin|taiin` sind **eine** exakte Karte mit 20\n  Ereignissen. Die sichtbaren Anfänge erhalten deshalb hier keine getrennten\n  Mengenbedeutungen.\n- `okaiin|qokaiin`, `okain|qokain`, `olkain|qolkain` und\n  `otaiin|sotaiin` sind jeweils eigene exakte Kartenfamilien.\n- `daiin`, `daiiin` und `dain` sind drei verschiedene Tuple-Identitäten.\n`daiin` ist das Maß, `daiiin` wird als Öffnungsstufe gelesen, `dain`\n  bleibt die wiederkehrende gelernte Karte „durch Tuch“.\n- Nicht jede längere Oberfläche mit `ain` oder `aiin` wird zerlegt. Das\n  wiederkehrende `dain`, das einmalige `chodaiin` und das einmalige\n  `solkaiin` bleiben Ganzkarten, weil ihre exakte Identität die lokale Lesung\n  besser trägt als eine erzwungene Portion oder Dosis.",
+        "sha256": "74f43173e5a7f08378345a0bdde26ffd9b05119a4be099c4adfc161fed507520"
+      }
+    ]
+  },
+  "required_fixes": [
+    {
+      "scope": "selection_index 5",
+      "action": "Preserve CHAR/DAR/SAR source-scoped from-source assertion as a refinement/source case; replace the claim that CHAR→davon proves complete coverage.",
+      "reason": "Full alias and reference-source scope exceeds the cited bare claim; no atom-to-whole equality."
+    },
+    {
+      "scope": "12 existing_assertion_additional_source_case rows",
+      "action": "If these are to be counted as added operational source cases, materialize the corresponding case payloads with exact row/header evidence and alias scope. Otherwise label them audit-only located provenance.",
+      "reason": "The supplied clean file contains only six cards. Its source_reassessments point to rows and contain no additional case payload for the twelve existing targets; a disposition link alone does not add source evidence to a card."
+    }
+  ],
+  "optional_wording": [
+    {
+      "id": "CLEAN_GAP_BW:otaiin_sotaiin_repeat_previous_measure",
+      "suggestion": "Replace This historical reading is not replaced by the later assignment with Preserve this historical version separately from the later assignment.",
+      "reason": "Avoid implying the later historical author never revised the earlier model; this peer only requires archival retention."
+    }
+  ],
+  "validation": {
+    "cards_validated": 6,
+    "selected_rows_checked": 18,
+    "known_source_ids": 11,
+    "exact_quote_and_sha_checks": 55,
+    "current_counterpart_bases_checked": 23,
+    "pass": true
+  },
+  "limits": [
+    "No raw manuscript TSVs, images, reruns or operative mutation.",
+    "All eighteen selected rows and their headers plus bounded surrounding contexts read; no full-report or global novelty claim.",
+    "Source case additions preserve provenance, not automatic equality across revisions or independently new mechanisms."
+  ]
+}
