@@ -1,0 +1,3830 @@
+{
+  "schema": "source_coverage_gap_review_v1",
+  "review_id": "AN",
+  "scope": "Public tracked Sidequest Pass801–828, selected short prose blocks; source-bound hypotheses only.",
+  "selection": {
+    "method": "Tracked public sidequest prose, numeric Pass>=801, known component IDs, nonempty section and at most19 lines, sorted ascending, prior coverage/scope/gap source IDs and intersecting source intervals excluded.",
+    "limit": 100,
+    "scope_exclusions": [
+      "GDT primary directories",
+      "V candidate files",
+      "untracked files",
+      "all previously inventoried gap/scope source intervals"
+    ]
+  },
+  "exclusion_input_sha256": {
+    "research_registry/decisions/clean_gap_peer_review_aa.json": "2fd5ac2eb77349dc363fdead55c5d32f5eb854be83eaaeaed67b0b3f0848cd92",
+    "research_registry/decisions/clean_gap_peer_review_ac.json": "b9b9afd28efa73fad271000ba8ed1ab41e7613fbe4041441602b2c64f7eff2a2",
+    "research_registry/decisions/clean_gap_peer_review_ae.json": "79d97d50f3af9d7786bd82a985bf8f86a882fdc5215cf4de35a0f142f3b18123",
+    "research_registry/decisions/clean_gap_peer_review_af.json": "0f14d52b7a3da2d0b1ed14be381b5232eb78b4eacaffdc46e6c609cbd20d02b7",
+    "research_registry/decisions/clean_gap_peer_review_ag.json": "d12d32f97967e477c7b443ca5ddedb1ac1981a379bafb3d2e39400cafc130f87",
+    "research_registry/decisions/clean_gap_peer_review_u.json": "d08a71b7b27a85274640dfb3c7529388ec84d806c3e6a124f48ed99680ff7896",
+    "research_registry/decisions/clean_gap_review_aa.json": "df6879cccf384c36c940dc1e1493f1fb1c99ab4d2043c9aa22d4eb117d830000",
+    "research_registry/decisions/clean_gap_review_ab.json": "aba7be7299550c3f14e3ec4b5f19e183bcb80bb714110a98c8a0b6bd575ea423",
+    "research_registry/decisions/clean_gap_review_ac.json": "eb18f4a4169f74a67a4601d9ab1526362582ff890b3f86607a3bba6ddbbce8f9",
+    "research_registry/decisions/clean_gap_review_ae.json": "f6be998c27c0bf356ac9221806fbe06c28d00fe93c962352857c33708fe9226d",
+    "research_registry/decisions/clean_gap_review_af.json": "399339fe6d552749ff397d441e4c60b82433da0cefcce93022f885d0ed180042",
+    "research_registry/decisions/clean_gap_review_ag.json": "a962d8b0ad4dd0f9219c7ba559f7da4f612c393ae546c6257f5acd9122f44f64",
+    "research_registry/decisions/clean_gap_review_ai.json": "5168e1f81ec411e74c0058fea583ef648fe89893a37ea9306ec2a1fb7b9f0d73",
+    "research_registry/decisions/clean_gap_review_l.json": "9963545b58e12b14d2408dd3ffeca89e180b874bc7b2d0480a42a30b89c141a2",
+    "research_registry/decisions/clean_gap_review_o.json": "f2cdb0c902df9ef6c7827028d3f71087a5ffc7f30c9cd39307a7997ee4185edf",
+    "research_registry/decisions/clean_gap_review_q.json": "5f0dd23cf90f2a9e0d1f8783da1d7d1bf555669e87a00bf0208a6d0df2b1f0d4",
+    "research_registry/decisions/clean_gap_review_t.json": "9c675474ff46af0b9fff06bf716f4303c2b67b05cd8666bcce2419da27d79481",
+    "research_registry/decisions/clean_gap_review_u.json": "ee83972c462537930796bad095fad5a2b7579a126408f6cf8556e577b1e2c867",
+    "research_registry/decisions/clean_gap_review_w.json": "c0fd3b84ce6233248d4bac0085a3c4d2f4ca3316371adb7d287d9bc3db650264",
+    "research_registry/decisions/scope_instances_batch_u.json": "5ac6b68dcd5afd804fbbcfa46d897906e7b2a2d0e8360d770ff7b375a466c429",
+    "research_registry/decisions/source_coverage_gap_batch_ab.json": "3f030b313271d176d45f43228f43e6d996fec6123b3deaef87cf74adf65f7638",
+    "research_registry/decisions/source_coverage_gap_batch_af.json": "0be3d3fa2c7cc978e9220879e8a80c71c1b29e4be0599ed0a150d30b72f77285",
+    "research_registry/decisions/source_coverage_gap_batch_ag.json": "3602b4e2f667b29891be8cb917115a458aca8ff11019b529adfb00c0b706b25a",
+    "research_registry/decisions/source_coverage_gap_batch_am.json": "23332caa7759d1312ead76954441338faf09206b662d29227105a65944d025f9",
+    "research_registry/decisions/source_coverage_gap_batch_j.json": "e293fc991a63f95749f03fab41870b189ddae43471199250202b17f8108f7f7c",
+    "research_registry/decisions/source_coverage_gap_batch_m.json": "e37d56e745dafc5dbfa3203d8a497708324e0021319a7b7344851cbd739fe673",
+    "research_registry/decisions/source_coverage_gap_batch_r.json": "e37aff979c3935f85a8c0ca8646c8b304d614f8d6162f9e94253e92204d49a6c",
+    "research_registry/decisions/source_coverage_gap_batch_v.json": "5c3b4c401ca7177780a9073e09459a7a936239366a53bbed40af91dfb53eaf8d",
+    "research_registry/decisions/source_coverage_scope_batch_aa.json": "274690dd1330f49afff17d7a2f3f00fec5ec3ea7387fc79528567a1d0cb58d53",
+    "research_registry/decisions/source_coverage_scope_batch_ac.json": "f86ba91a1ab5297ec002bcb26593aa9b210aeef1fd2d9cfdfae5de9fb19e13c6",
+    "research_registry/decisions/source_coverage_scope_batch_q.json": "02c06240066e5fcec34d1c5afb1dc38a3b74da8b42fa5e16239f09909183a358"
+  },
+  "reviewed_blocks": [
+    {
+      "selection_index": 0,
+      "source_id": "LEGACY_COMPONENT:d1a127058197dfb2adce",
+      "pass_number": 801,
+      "title": "Sidequest Pass 801: process verbs against grade and endpoint",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_process_grade_eight_hundred_first/EIGHT_HUNDRED_FIRST_REPORT.md",
+        "line": 3,
+        "line_end": 5,
+        "quote": "This pass compares `SHED`, `CHK`, `P`, and `LSH` on the same fixed prose pages.\nThe four short meanings survive all 28 occurrences, but they do not share one\ntail and therefore are not a four-way replacement deck.",
+        "sha256": "2c56ea4e4db442f1752909a4297b08e9181106668ca32ced8aaa6ca05863da94"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_context_or_result",
+      "reason": "Comparison of four root readings and missing replacement-deck capacity; no additional concrete meaning.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 1,
+      "source_id": "LEGACY_COMPONENT:4ab0bbad621be533668f",
+      "pass_number": 801,
+      "title": "One root becomes genuinely productive",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_process_grade_eight_hundred_first/EIGHT_HUNDRED_FIRST_REPORT.md",
+        "line": 9,
+        "line_end": 10,
+        "quote": "`CHK = WÄRMEN` now joins the productive core. It occupies three cells of a\nsmall grade/endpoint board:",
+        "sha256": "2c56ea4e4db442f1752909a4297b08e9181106668ca32ced8aaa6ca05863da94"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Exact source member already attached to the stated atomic proposition; no additional complete rule in this selected span.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:625fa7fe65c8fd9b5224"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 2,
+      "source_id": "LEGACY_COMPONENT:6cd4a853595ed7ef84ed",
+      "pass_number": 801,
+      "title": "One root becomes genuinely productive",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_process_grade_eight_hundred_first/EIGHT_HUNDRED_FIRST_REPORT.md",
+        "line": 16,
+        "line_end": 17,
+        "quote": "The board predicts the three remaining semantic cells without changing the\nmeaning of any component:",
+        "sha256": "2c56ea4e4db442f1752909a4297b08e9181106668ca32ced8aaa6ca05863da94"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_context_or_result",
+      "reason": "Prediction-board method; values are unspecified in this selected span.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 3,
+      "source_id": "LEGACY_COMPONENT:5405745ac78cac2db73f",
+      "pass_number": 801,
+      "title": "Three values stay on the learned strip",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_process_grade_eight_hundred_first/EIGHT_HUNDRED_FIRST_REPORT.md",
+        "line": 29,
+        "line_end": 30,
+        "quote": "- `SHED = ABSETZEN` occurs in 3 cards / 15 events, but its variants change\n  endpoint or add cooling rather than form a controlled verb swap.",
+        "sha256": "2c56ea4e4db442f1752909a4297b08e9181106668ca32ced8aaa6ca05863da94"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Exact source member already attached to the stated atomic proposition; no additional complete rule in this selected span.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:b035c80928c1d868b3c9"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 4,
+      "source_id": "LEGACY_COMPONENT:2b25a60f203b920fd2b1",
+      "pass_number": 801,
+      "title": "Three values stay on the learned strip",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_process_grade_eight_hundred_first/EIGHT_HUNDRED_FIRST_REPORT.md",
+        "line": 31,
+        "line_end": 33,
+        "quote": "- `P = FÜLLEN` occurs in 3 cards / 3 events, once alone and twice inside a\n  transfer construction. It may still be a recipient marker rather than a free\n  verb.",
+        "sha256": "2c56ea4e4db442f1752909a4297b08e9181106668ca32ced8aaa6ca05863da94"
+      },
+      "full_selected_span_read": true,
+      "disposition": "recovered_assertion_or_explicit_local_instance",
+      "reason": "Concrete source-bound proposition or named rival recovered; atomic/formal counterparts do not automatically cover it.",
+      "card_ids": [
+        "CLEAN_GAP_AN:p_recipient_rival",
+        "CLEAN_GAP_AN:p_plain_fill"
+      ],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 5,
+      "source_id": "LEGACY_COMPONENT:758c6e9a392e47edf469",
+      "pass_number": 801,
+      "title": "Three values stay on the learned strip",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_process_grade_eight_hundred_first/EIGHT_HUNDRED_FIRST_REPORT.md",
+        "line": 34,
+        "line_end": 34,
+        "quote": "- `LSH = WASCHEN` occurs in 2 cards / 3 events with unrelated tails.",
+        "sha256": "2c56ea4e4db442f1752909a4297b08e9181106668ca32ced8aaa6ca05863da94"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Exact source member already attached to the stated atomic proposition; no additional complete rule in this selected span.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:3fa671fb387e25cb1be6"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 6,
+      "source_id": "LEGACY_COMPONENT:aa877101ec00d83da4a0",
+      "pass_number": 801,
+      "title": "Three values stay on the learned strip",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_process_grade_eight_hundred_first/EIGHT_HUNDRED_FIRST_REPORT.md",
+        "line": 36,
+        "line_end": 38,
+        "quote": "They remain useful concrete workshop readings, just not freely generated roots\nyet. The productive inventory is now core19; twelve recurrent strip values\nremain.",
+        "sha256": "2c56ea4e4db442f1752909a4297b08e9181106668ca32ced8aaa6ca05863da94"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_context_or_result",
+      "reason": "Inventory promotion and status summary, no new semantic claim.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 7,
+      "source_id": "LEGACY_COMPONENT:82958c50d72c8668b1f7",
+      "pass_number": 803,
+      "title": "Sidequest Pass 803: what does SHED actually ask the scribe to say?",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_shed_state_eight_hundred_third/EIGHT_HUNDRED_THIRD_REPORT.md",
+        "line": 3,
+        "line_end": 6,
+        "quote": "The old dictionary used `SHED = ABSETZEN`. That was too narrow: it silently\nassumed sediment separation wherever the form occurred. A pure result reading\n`ABGESETZT` is worse because the rest of the workshop grammar is imperative and\nthe two target-addressed forms become awkward.",
+        "sha256": "57516ececee553c2ad5fe8380984eed49b61d3fc08b04c510ed11ebb39ed7e0e"
+      },
+      "full_selected_span_read": true,
+      "disposition": "recovered_assertion_or_explicit_local_instance",
+      "reason": "Concrete source-bound proposition or named rival recovered; atomic/formal counterparts do not automatically cover it.",
+      "card_ids": [
+        "CLEAN_GAP_AN:shed_result_rival"
+      ],
+      "compared_current_cases": [
+        "SEM:b035c80928c1d868b3c9"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 8,
+      "source_id": "LEGACY_COMPONENT:9601456a1e7f5554c3fc",
+      "pass_number": 803,
+      "title": "Sidequest Pass 803: what does SHED actually ask the scribe to say?",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_shed_state_eight_hundred_third/EIGHT_HUNDRED_THIRD_REPORT.md",
+        "line": 8,
+        "line_end": 8,
+        "quote": "The portable reading across all fifteen events is:",
+        "sha256": "57516ececee553c2ad5fe8380984eed49b61d3fc08b04c510ed11ebb39ed7e0e"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_context_or_result",
+      "reason": "Introduces a gloss but contains no value itself.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 9,
+      "source_id": "LEGACY_COMPONENT:b95b400b88fa59466489",
+      "pass_number": 803,
+      "title": "Sidequest Pass 803: what does SHED actually ask the scribe to say?",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_shed_state_eight_hundred_third/EIGHT_HUNDRED_THIRD_REPORT.md",
+        "line": 10,
+        "line_end": 10,
+        "quote": "> `SHED = STEHENLASSEN`",
+        "sha256": "57516ececee553c2ad5fe8380984eed49b61d3fc08b04c510ed11ebb39ed7e0e"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Exact source member already attached to the stated atomic proposition; no additional complete rule in this selected span.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:82cea98d87d0ccd66a78"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 10,
+      "source_id": "LEGACY_COMPONENT:f83b156a040e74ad9528",
+      "pass_number": 803,
+      "title": "Sidequest Pass 803: what does SHED actually ask the scribe to say?",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_shed_state_eight_hundred_third/EIGHT_HUNDRED_THIRD_REPORT.md",
+        "line": 22,
+        "line_end": 25,
+        "quote": "The revised reading also explains the endpoint-heavy distribution: thirteen\nof fifteen uses close a cell because “leave it standing” naturally ends a\nworkshop step. The two open `AL` uses keep the placed item available for the\nnext instruction.",
+        "sha256": "57516ececee553c2ad5fe8380984eed49b61d3fc08b04c510ed11ebb39ed7e0e"
+      },
+      "full_selected_span_read": true,
+      "disposition": "recovered_assertion_or_explicit_local_instance",
+      "reason": "Concrete source-bound proposition or named rival recovered; atomic/formal counterparts do not automatically cover it.",
+      "card_ids": [
+        "CLEAN_GAP_AN:shed_open_availability"
+      ],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 11,
+      "source_id": "LEGACY_COMPONENT:87c46b0f49d35f0eccd1",
+      "pass_number": 803,
+      "title": "Sidequest Pass 803: what does SHED actually ask the scribe to say?",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_shed_state_eight_hundred_third/EIGHT_HUNDRED_THIRD_REPORT.md",
+        "line": 27,
+        "line_end": 29,
+        "quote": "`SHED` therefore joins the productive core20. This is a semantic improvement,\nnot merely a promotion: the new value removes an invented material mechanism\nand gives one unchanged imperative across all fifteen affected statements.",
+        "sha256": "57516ececee553c2ad5fe8380984eed49b61d3fc08b04c510ed11ebb39ed7e0e"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_context_or_result",
+      "reason": "Promotion/rationale repeats the separately captured SHED revision.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 12,
+      "source_id": "LEGACY_COMPONENT:2088993bb30ea58aa35e",
+      "pass_number": 803,
+      "title": "Sidequest Pass 803: what does SHED actually ask the scribe to say?",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_shed_state_eight_hundred_third/EIGHT_HUNDRED_THIRD_REPORT.md",
+        "line": 31,
+        "line_end": 33,
+        "quote": "Next, resolve `P = FÜLLEN` against the rival `EMPFAENGER / HINEIN`. Its three\ncards must be read as one coherent construction: `P+Y`, `P+CHD+DY`, and\n`P+CHD+AL`.",
+        "sha256": "57516ececee553c2ad5fe8380984eed49b61d3fc08b04c510ed11ebb39ed7e0e"
+      },
+      "full_selected_span_read": true,
+      "disposition": "recovered_assertion_or_explicit_local_instance",
+      "reason": "Concrete source-bound proposition or named rival recovered; atomic/formal counterparts do not automatically cover it.",
+      "card_ids": [
+        "CLEAN_GAP_AN:p_recipient_rival",
+        "CLEAN_GAP_AN:p_plain_fill"
+      ],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 13,
+      "source_id": "LEGACY_COMPONENT:b65b75a1fe930a6b267a",
+      "pass_number": 804,
+      "title": "Sidequest Pass 804: P is a recipient-directed action",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_p_recipient_eight_hundred_fourth/EIGHT_HUNDRED_FOURTH_REPORT.md",
+        "line": 3,
+        "line_end": 4,
+        "quote": "`P = FÜLLEN` was usable but vague. The three occurrences all place material\ninto an owner-local receiver:",
+        "sha256": "7dadbfed39d62e025ed780e9b2076147e9a1d18cc136505b4dd1e81a9a47e1ef"
+      },
+      "full_selected_span_read": true,
+      "disposition": "recovered_assertion_or_explicit_local_instance",
+      "reason": "Concrete source-bound proposition or named rival recovered; atomic/formal counterparts do not automatically cover it.",
+      "card_ids": [
+        "CLEAN_GAP_AN:p_fill"
+      ],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 14,
+      "source_id": "LEGACY_COMPONENT:7cbb5e7c71edb040fa7e",
+      "pass_number": 804,
+      "title": "Sidequest Pass 804: P is a recipient-directed action",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_p_recipient_eight_hundred_fourth/EIGHT_HUNDRED_FOURTH_REPORT.md",
+        "line": 6,
+        "line_end": 6,
+        "quote": "- after squeezing the pictured plant preparation: `cphy = P+Y`;",
+        "sha256": "7dadbfed39d62e025ed780e9b2076147e9a1d18cc136505b4dd1e81a9a47e1ef"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Source-owned picture/context placement for an existing formal card; no complete new action claim in the selected line.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:a9bd5b056876b4a1bac1"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 15,
+      "source_id": "LEGACY_COMPONENT:386b076489f61e40e770",
+      "pass_number": 804,
+      "title": "Sidequest Pass 804: P is a recipient-directed action",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_p_recipient_eight_hundred_fourth/EIGHT_HUNDRED_FOURTH_REPORT.md",
+        "line": 8,
+        "line_end": 8,
+        "quote": "- at the lower figure in the basket-like vessel: `pchedal = P+CHD+AL`.",
+        "sha256": "7dadbfed39d62e025ed780e9b2076147e9a1d18cc136505b4dd1e81a9a47e1ef"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Source-owned picture/context placement for an existing formal card; no complete new action claim in the selected line.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:a02c14cd458c434b7323"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 16,
+      "source_id": "LEGACY_COMPONENT:bb1b11a6a3ff244d5335",
+      "pass_number": 804,
+      "title": "Sidequest Pass 804: P is a recipient-directed action",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_p_recipient_eight_hundred_fourth/EIGHT_HUNDRED_FOURTH_REPORT.md",
+        "line": 10,
+        "line_end": 12,
+        "quote": "Four readings were compared. `HINEIN` lacks a verb in the first card;\n`EMPFAENGER` produces noun piles; plain `FUELLEN` omits the shared inward\ndirection. The compact portable value is:",
+        "sha256": "7dadbfed39d62e025ed780e9b2076147e9a1d18cc136505b4dd1e81a9a47e1ef"
+      },
+      "full_selected_span_read": true,
+      "disposition": "recovered_assertion_or_explicit_local_instance",
+      "reason": "Concrete source-bound proposition or named rival recovered; atomic/formal counterparts do not automatically cover it.",
+      "card_ids": [
+        "CLEAN_GAP_AN:p_recipient_rival",
+        "CLEAN_GAP_AN:p_inward_rival",
+        "CLEAN_GAP_AN:p_plain_fill"
+      ],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 17,
+      "source_id": "LEGACY_COMPONENT:66fa69d06c78f8f6c216",
+      "pass_number": 804,
+      "title": "Sidequest Pass 804: P is a recipient-directed action",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_p_recipient_eight_hundred_fourth/EIGHT_HUNDRED_FOURTH_REPORT.md",
+        "line": 14,
+        "line_end": 14,
+        "quote": "> `P = EINFÜLLEN`",
+        "sha256": "7dadbfed39d62e025ed780e9b2076147e9a1d18cc136505b4dd1e81a9a47e1ef"
+      },
+      "full_selected_span_read": true,
+      "disposition": "recovered_assertion_or_explicit_local_instance",
+      "reason": "Concrete source-bound proposition or named rival recovered; atomic/formal counterparts do not automatically cover it.",
+      "card_ids": [
+        "CLEAN_GAP_AN:p_fill"
+      ],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 18,
+      "source_id": "LEGACY_COMPONENT:51d7f1d72dab9eda8d63",
+      "pass_number": 804,
+      "title": "Sidequest Pass 804: P is a recipient-directed action",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_p_recipient_eight_hundred_fourth/EIGHT_HUNDRED_FOURTH_REPORT.md",
+        "line": 27,
+        "line_end": 29,
+        "quote": "`P` joins productive core21. Next, resolve `LSH = WASCHEN` against the more\nspecific possibilities `SPUELEN` and `AUSWASCHEN`, using its two card families\nand their full preceding/following process chains.",
+        "sha256": "7dadbfed39d62e025ed780e9b2076147e9a1d18cc136505b4dd1e81a9a47e1ef"
+      },
+      "full_selected_span_read": true,
+      "disposition": "recovered_assertion_or_explicit_local_instance",
+      "reason": "Concrete source-bound proposition or named rival recovered; atomic/formal counterparts do not automatically cover it.",
+      "card_ids": [
+        "CLEAN_GAP_AN:lsh_extract_rival"
+      ],
+      "compared_current_cases": [
+        "SEM:3fa671fb387e25cb1be6"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 19,
+      "source_id": "LEGACY_COMPONENT:6a5cebba833f6ebbe36e",
+      "pass_number": 805,
+      "title": "Sidequest Pass 805: LSH is the rinse root",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_lsh_rinse_eight_hundred_fifth/EIGHT_HUNDRED_FIFTH_REPORT.md",
+        "line": 6,
+        "line_end": 6,
+        "quote": "- `lsho = LSH+O` reads naturally as **SPÜLVORGANG**;",
+        "sha256": "1397bc6ddfa95c6f1608a69b2b95a4a0c01e9adc0dde0349656cdcb8a930cc26"
+      },
+      "full_selected_span_read": true,
+      "disposition": "recovered_assertion_or_explicit_local_instance",
+      "reason": "Concrete source-bound proposition or named rival recovered; atomic/formal counterparts do not automatically cover it.",
+      "card_ids": [
+        "CLEAN_GAP_AN:lsho_rinse_process"
+      ],
+      "compared_current_cases": [
+        "SEM:6a8899208267731e6e8f"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 20,
+      "source_id": "LEGACY_COMPONENT:0ef3182263a5e1815b06",
+      "pass_number": 805,
+      "title": "Sidequest Pass 805: LSH is the rinse root",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_lsh_rinse_eight_hundred_fifth/EIGHT_HUNDRED_FIFTH_REPORT.md",
+        "line": 7,
+        "line_end": 7,
+        "quote": "- `lshedy = LSH+E+DY` reads as **kurz spülen; Schluss**.",
+        "sha256": "1397bc6ddfa95c6f1608a69b2b95a4a0c01e9adc0dde0349656cdcb8a930cc26"
+      },
+      "full_selected_span_read": true,
+      "disposition": "recovered_assertion_or_explicit_local_instance",
+      "reason": "Concrete source-bound proposition or named rival recovered; atomic/formal counterparts do not automatically cover it.",
+      "card_ids": [
+        "CLEAN_GAP_AN:lshedy_rinse_close"
+      ],
+      "compared_current_cases": [
+        "SEM:f3a72c06950c4f86e6f2"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 21,
+      "source_id": "LEGACY_COMPONENT:e5f851eb46a0f2e95fc4",
+      "pass_number": 806,
+      "title": "Sidequest Pass 806: third workshop grammar",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_third_workshop_grammar_eight_hundred_sixth/EIGHT_HUNDRED_SIXTH_REPORT.md",
+        "line": 6,
+        "line_end": 9,
+        "quote": "The productive core grows from 15 to 22 components by adding the action choice\n`CH/SH/CTH`, the graded warming root `CHK`, and the revised process roots\n`SHED=STEHENLASSEN`, `P=EINFÜLLEN`, and `LSH=SPÜLEN`. `O` is shortened from\nARBEITSGANG to the atomic value VORGANG.",
+        "sha256": "90fb0ce73e3638ab91ba90c37681b8eb5b5dbac65186e7a69995293dd6e4df50"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Lists already separately addressable CH/SH/CTH/CHK/SHED/P/LSH and O values; no new coordinated rule beyond inventory.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:2d192b1c74c9152d4870",
+        "SEM:82cea98d87d0ccd66a78"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 22,
+      "source_id": "LEGACY_COMPONENT:ce01b44ec5afad18ec4a",
+      "pass_number": 807,
+      "title": "Sidequest Pass 807: three material roots",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_material_roots_eight_hundred_seventh/EIGHT_HUNDRED_SEVENTH_REPORT.md",
+        "line": 6,
+        "line_end": 6,
+        "quote": "- `AIR = WASSER` — working liquid (5 cards / 5 events);",
+        "sha256": "effae73b30dbeca4cc602e1fdd56638e04758940b499280806b63e3366900193"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Exact source member already attached to the stated atomic proposition; no additional complete rule in this selected span.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:92eaaee77d9ee739b81c"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 23,
+      "source_id": "LEGACY_COMPONENT:e777aaa76b29b7dc2173",
+      "pass_number": 807,
+      "title": "Sidequest Pass 807: three material roots",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_material_roots_eight_hundred_seventh/EIGHT_HUNDRED_SEVENTH_REPORT.md",
+        "line": 7,
+        "line_end": 7,
+        "quote": "- `OR = ANSATZ` — the current preparation or batch (10 cards / 18 events);",
+        "sha256": "effae73b30dbeca4cc602e1fdd56638e04758940b499280806b63e3366900193"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Exact source member already attached to the stated atomic proposition; no additional complete rule in this selected span.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:ec1a25e412565b0a1756"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 24,
+      "source_id": "LEGACY_COMPONENT:87462f557c310b51f8b8",
+      "pass_number": 807,
+      "title": "Sidequest Pass 807: three material roots",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_material_roots_eight_hundred_seventh/EIGHT_HUNDRED_SEVENTH_REPORT.md",
+        "line": 8,
+        "line_end": 8,
+        "quote": "- `HO = ZUTAT` — an input ingredient (5 cards / 8 events).",
+        "sha256": "effae73b30dbeca4cc602e1fdd56638e04758940b499280806b63e3366900193"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Exact source member already attached to the stated atomic proposition; no additional complete rule in this selected span.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:c715d4f00ebdf1d22dc5"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 25,
+      "source_id": "LEGACY_COMPONENT:dcb1726f863d88c1cc31",
+      "pass_number": 807,
+      "title": "Sidequest Pass 807: three material roots",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_material_roots_eight_hundred_seventh/EIGHT_HUNDRED_SEVENTH_REPORT.md",
+        "line": 16,
+        "line_end": 16,
+        "quote": "The decisive card is `chochor = HO+CH+OR`:",
+        "sha256": "effae73b30dbeca4cc602e1fdd56638e04758940b499280806b63e3366900193"
+      },
+      "full_selected_span_read": true,
+      "disposition": "recovered_assertion_or_explicit_local_instance",
+      "reason": "Concrete source-bound proposition or named rival recovered; atomic/formal counterparts do not automatically cover it.",
+      "card_ids": [
+        "CLEAN_GAP_AN:material_argument_distinction"
+      ],
+      "compared_current_cases": [
+        "SEM:5387269c6ee6d507293f"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 26,
+      "source_id": "LEGACY_COMPONENT:3ecfde7c982ad6a2fae3",
+      "pass_number": 807,
+      "title": "Sidequest Pass 807: three material roots",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_material_roots_eight_hundred_seventh/EIGHT_HUNDRED_SEVENTH_REPORT.md",
+        "line": 20,
+        "line_end": 23,
+        "quote": "Because `HO` and `OR` coexist as different arguments, they cannot be two\nspellings of the same material. Likewise `AIR` has its own operation frames.\nNo meaning is assigned to every visible letter `o`; only the registered card\nrecipes license these roots.",
+        "sha256": "effae73b30dbeca4cc602e1fdd56638e04758940b499280806b63e3366900193"
+      },
+      "full_selected_span_read": true,
+      "disposition": "recovered_assertion_or_explicit_local_instance",
+      "reason": "Concrete source-bound proposition or named rival recovered; atomic/formal counterparts do not automatically cover it.",
+      "card_ids": [
+        "CLEAN_GAP_AN:material_argument_distinction"
+      ],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 27,
+      "source_id": "LEGACY_COMPONENT:1cdb01bca252556762a4",
+      "pass_number": 808,
+      "title": "Sidequest Pass 808: procedure, stage, and collection place",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_procedure_place_eight_hundred_eighth/EIGHT_HUNDRED_EIGHTH_REPORT.md",
+        "line": 6,
+        "line_end": 6,
+        "quote": "- `O = VORGANG` (18 cards / 19 events);",
+        "sha256": "d4c1524a2ea763dd0a6d9b057c0399d856b6ada8565ad43f872439eaa1750c14"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Exact source member already attached to the stated atomic proposition; no additional complete rule in this selected span.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:49c8d4c1524027989d82"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 28,
+      "source_id": "LEGACY_COMPONENT:ac7267ec4da95f99aaa0",
+      "pass_number": 808,
+      "title": "Sidequest Pass 808: procedure, stage, and collection place",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_procedure_place_eight_hundred_eighth/EIGHT_HUNDRED_EIGHTH_REPORT.md",
+        "line": 7,
+        "line_end": 7,
+        "quote": "- `IIN = STUFE` (3 cards / 4 events);",
+        "sha256": "d4c1524a2ea763dd0a6d9b057c0399d856b6ada8565ad43f872439eaa1750c14"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Exact source member already attached to the stated atomic proposition; no additional complete rule in this selected span.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:1659676c07e492ee11f9"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 29,
+      "source_id": "LEGACY_COMPONENT:2c15611b7652da02751c",
+      "pass_number": 808,
+      "title": "Sidequest Pass 808: procedure, stage, and collection place",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_procedure_place_eight_hundred_eighth/EIGHT_HUNDRED_EIGHTH_REPORT.md",
+        "line": 8,
+        "line_end": 8,
+        "quote": "- `SOLK = SAMMELSTELLE` (5 cards / 7 events).",
+        "sha256": "d4c1524a2ea763dd0a6d9b057c0399d856b6ada8565ad43f872439eaa1750c14"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Exact source member already attached to the stated atomic proposition; no additional complete rule in this selected span.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:3f066e37455d51055535"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 30,
+      "source_id": "LEGACY_COMPONENT:28da539b7eb91ab2c7f8",
+      "pass_number": 808,
+      "title": "Sidequest Pass 808: procedure, stage, and collection place",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_procedure_place_eight_hundred_eighth/EIGHT_HUNDRED_EIGHTH_REPORT.md",
+        "line": 25,
+        "line_end": 27,
+        "quote": "All three join core28. Only three recurrent strip values remain: `T=ANWENDEN`,\n`CKH=DURCHLASS`, and `R=KÜHLEN`. Next, attack those as the last portable-root\ncandidates, then rebuild a fourth grammar.",
+        "sha256": "d4c1524a2ea763dd0a6d9b057c0399d856b6ada8565ad43f872439eaa1750c14"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Existing three atomic values plus planned next work.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:4d7d7df41ce8625a212a",
+        "SEM:8a78ebadc07db0935fda",
+        "SEM:c5e196bdafe629d6cd8b"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 31,
+      "source_id": "LEGACY_COMPONENT:53324f4c1ee417990788",
+      "pass_number": 809,
+      "title": "Sidequest Pass 809: the recurrent strip disappears",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_final_strip_eight_hundred_ninth/EIGHT_HUNDRED_NINTH_REPORT.md",
+        "line": 6,
+        "line_end": 6,
+        "quote": "- `T = ANWENDEN` — action verb, 9 cards / 10 events;",
+        "sha256": "b337fc14d49f8b06ca1b98ce09b71f57ffcdedd68c5b5be067bc49a341449cad"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Exact source member already attached to the stated atomic proposition; no additional complete rule in this selected span.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:4d7d7df41ce8625a212a"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 32,
+      "source_id": "LEGACY_COMPONENT:97001d2cc3c59c80c64d",
+      "pass_number": 809,
+      "title": "Sidequest Pass 809: the recurrent strip disappears",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_final_strip_eight_hundred_ninth/EIGHT_HUNDRED_NINTH_REPORT.md",
+        "line": 7,
+        "line_end": 7,
+        "quote": "- `CKH = DURCHLASS` — path noun, 9 cards / 14 events;",
+        "sha256": "b337fc14d49f8b06ca1b98ce09b71f57ffcdedd68c5b5be067bc49a341449cad"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Exact source member already attached to the stated atomic proposition; no additional complete rule in this selected span.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:c5e196bdafe629d6cd8b"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 33,
+      "source_id": "LEGACY_COMPONENT:43ef48b9cd97d874c9dd",
+      "pass_number": 809,
+      "title": "Sidequest Pass 809: the recurrent strip disappears",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_final_strip_eight_hundred_ninth/EIGHT_HUNDRED_NINTH_REPORT.md",
+        "line": 8,
+        "line_end": 8,
+        "quote": "- `R = KÜHLEN` — state-change verb, 6 cards / 6 events.",
+        "sha256": "b337fc14d49f8b06ca1b98ce09b71f57ffcdedd68c5b5be067bc49a341449cad"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Exact source member already attached to the stated atomic proposition; no additional complete rule in this selected span.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:8a78ebadc07db0935fda"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 34,
+      "source_id": "LEGACY_COMPONENT:042d550021d7690cfce2",
+      "pass_number": 810,
+      "title": "Sidequest Pass 810: fourth workshop grammar",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_fourth_workshop_grammar_eight_hundred_tenth/EIGHT_HUNDRED_TENTH_REPORT.md",
+        "line": 18,
+        "line_end": 20,
+        "quote": "This is now a concrete mixed system of technical abbreviations and learned\nwhole cards: most meanings come from reusable components, but exact surface\npacking and the tiny residue are still memorized from the workshop exemplar.",
+        "sha256": "a5c7af1c4bebf35fda5299b51efca3e092e6d0df7cb30fccf050c72bb11ac1c8"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Generic reusable technical abbreviations plus learned whole-card residue already represented; retain this source rendering/packing statement as a case, not an identity merge.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:5f7cc94f30c1651b521b",
+        "SEM:b9e8834a9415bf81d330"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 35,
+      "source_id": "LEGACY_COMPONENT:3d3e4ddd0ba7a20399dd",
+      "pass_number": 811,
+      "title": "Sidequest Pass 811: CFH is the pressing verb",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_cfh_press_eight_hundred_eleventh/EIGHT_HUNDRED_ELEVENTH_REPORT.md",
+        "line": 3,
+        "line_end": 5,
+        "quote": "The only `CFH` card is `cfhy = CFH+Y` in the long f11r plant-processing\nstatement. It follows holding the operation at the target and precedes measured\nholding and inward filling.",
+        "sha256": "ce5437d1c617aa8755e4da408f81e4c0bd0034013b4b6ebe83af3ad09be606f5"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Ordering context for existing formal cfhy card; no independently supplied new CFH value.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:c7d7c04eb4d3e95d61bb"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 36,
+      "source_id": "LEGACY_COMPONENT:52242c108771361e75b2",
+      "pass_number": 811,
+      "title": "Sidequest Pass 811: CFH is the pressing verb",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_cfh_press_eight_hundred_eleventh/EIGHT_HUNDRED_ELEVENTH_REPORT.md",
+        "line": 7,
+        "line_end": 9,
+        "quote": "The former reading AUSWRINGEN added an unseen cloth or twisting action.\nENTNEHMEN would merely duplicate `CH`; ABGIESSEN would add an unseen liquid\nlayer. The shortest distinct workshop verb is:",
+        "sha256": "ce5437d1c617aa8755e4da408f81e4c0bd0034013b4b6ebe83af3ad09be606f5"
+      },
+      "full_selected_span_read": true,
+      "disposition": "recovered_assertion_or_explicit_local_instance",
+      "reason": "Concrete source-bound proposition or named rival recovered; atomic/formal counterparts do not automatically cover it.",
+      "card_ids": [
+        "CLEAN_GAP_AN:cfh_take",
+        "CLEAN_GAP_AN:cfh_pour"
+      ],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 37,
+      "source_id": "LEGACY_COMPONENT:27d7d99877dd8fe54a8c",
+      "pass_number": 812,
+      "title": "Sidequest Pass 812: S is a sample, not another portion",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_s_sample_eight_hundred_twelfth/EIGHT_HUNDRED_TWELFTH_REPORT.md",
+        "line": 3,
+        "line_end": 5,
+        "quote": "The singleton card `ches = CH+E+S` occurs at the small basin stations in f82r.\nThe next card is `aiin = SOLLMASS`, followed by a longer next item and measured\nsetting operations.",
+        "sha256": "4e0bf5f688dcc9f132f35871ad6a4e93ad920b14a8554200423c3dddd10597e3"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Ordering context around an existing formal ches parse and AIIN gloss.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:0f0500dbaad09095806d",
+        "SEM:57f1a048ef81f70ca78a"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 38,
+      "source_id": "LEGACY_COMPONENT:2ad135d1be667a130c86",
+      "pass_number": 812,
+      "title": "Sidequest Pass 812: S is a sample, not another portion",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_s_sample_eight_hundred_twelfth/EIGHT_HUNDRED_TWELFTH_REPORT.md",
+        "line": 11,
+        "line_end": 11,
+        "quote": "> `S = PROBE`",
+        "sha256": "4e0bf5f688dcc9f132f35871ad6a4e93ad920b14a8554200423c3dddd10597e3"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Exact source member already attached to the stated atomic proposition; no additional complete rule in this selected span.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:e5de4c4c2c6bd9730595"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 39,
+      "source_id": "LEGACY_COMPONENT:b282e1624c9c91e58bab",
+      "pass_number": 812,
+      "title": "Sidequest Pass 812: S is a sample, not another portion",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_s_sample_eight_hundred_twelfth/EIGHT_HUNDRED_TWELFTH_REPORT.md",
+        "line": 27,
+        "line_end": 29,
+        "quote": "`S` joins specialist core33. Four plausible semantic recipes are recorded\nwithout invented surface spellings. Next, resolve `DA` in `daiiin=DA+IIN`:\ndoes it mean SECOND, AGAIN, NEXT, or a numbered stage marker?",
+        "sha256": "4e0bf5f688dcc9f132f35871ad6a4e93ad920b14a8554200423c3dddd10597e3"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Future DA comparison, whose substantive second/again/next alternatives are captured in the later scoped DA block.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:d3f8270267cf35b065ea"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 40,
+      "source_id": "LEGACY_COMPONENT:5a7a98b8ce8c302989a2",
+      "pass_number": 813,
+      "title": "Sidequest Pass 813: DA is bound TWO before STAGE",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_da_two_eight_hundred_thirteenth/EIGHT_HUNDRED_THIRTEENTH_REPORT.md",
+        "line": 3,
+        "line_end": 5,
+        "quote": "The only `DA` card is `daiiin = DA+IIN` late in the B5 sequence. The old prose\nexpanded it to “for the second pass up to the stage,” which said more than the\ncard needed.",
+        "sha256": "1c269e765e291e6026efdd2a6e412eb48c6b8c25174f3c7273922b5784450dfc"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Historical overlong local rendering: second pass up to the stage; retained as an existing sourcecase for the DA second-pass model, not the later two-stage hypothesis.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:d3f8270267cf35b065ea",
+        "SEM:87d0df15b109ffdff135"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 41,
+      "source_id": "LEGACY_COMPONENT:c07fe9e67dfca962ab0f",
+      "pass_number": 813,
+      "title": "Sidequest Pass 813: DA is bound TWO before STAGE",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_da_two_eight_hundred_thirteenth/EIGHT_HUNDRED_THIRTEENTH_REPORT.md",
+        "line": 9,
+        "line_end": 11,
+        "quote": "> `DA = ZWEI` (bound)\n> `IIN = STUFE`\n> `daiiin = ZWEI · STUFE = zweite Stufe`",
+        "sha256": "1c269e765e291e6026efdd2a6e412eb48c6b8c25174f3c7273922b5784450dfc"
+      },
+      "full_selected_span_read": true,
+      "disposition": "recovered_assertion_or_explicit_local_instance",
+      "reason": "Concrete source-bound proposition or named rival recovered; atomic/formal counterparts do not automatically cover it.",
+      "card_ids": [
+        "CLEAN_GAP_AN:daiiin_second_stage"
+      ],
+      "compared_current_cases": [
+        "SEM:1659676c07e492ee11f9",
+        "SEM:457e78f7ead9e778136d"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 42,
+      "source_id": "LEGACY_COMPONENT:1cd675d0e3afcc5101e7",
+      "pass_number": 813,
+      "title": "Sidequest Pass 813: DA is bound TWO before STAGE",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_da_two_eight_hundred_thirteenth/EIGHT_HUNDRED_THIRTEENTH_REPORT.md",
+        "line": 18,
+        "line_end": 19,
+        "quote": "ERNEUT overlaps the existing repetition/flow machinery; NÄCHST overlaps `OT`;\nDOPPELT produces an awkward stage reading. Atomic ZWEI is the simplest value.",
+        "sha256": "1c269e765e291e6026efdd2a6e412eb48c6b8c25174f3c7273922b5784450dfc"
+      },
+      "full_selected_span_read": true,
+      "disposition": "recovered_assertion_or_explicit_local_instance",
+      "reason": "Concrete source-bound proposition or named rival recovered; atomic/formal counterparts do not automatically cover it.",
+      "card_ids": [
+        "CLEAN_GAP_AN:da_again",
+        "CLEAN_GAP_AN:da_next",
+        "CLEAN_GAP_AN:da_double"
+      ],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 43,
+      "source_id": "LEGACY_COMPONENT:6d47b66aac014d5a294f",
+      "pass_number": 814,
+      "title": "Sidequest Pass 814: LD is bound fastening",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_ld_fastening_eight_hundred_fourteenth/EIGHT_HUNDRED_FOURTEENTH_REPORT.md",
+        "line": 3,
+        "line_end": 4,
+        "quote": "The only `LD` occurrence is the complete one-card statement\n`qokylddy = OK+Y+LD+DY` at the visibly bow-connected B4 figure pair.",
+        "sha256": "5d4997cada3f1554bdb1a44cea742936e9e4aa45d57bbb733f0eabf407012031"
+      },
+      "full_selected_span_read": true,
+      "disposition": "recovered_assertion_or_explicit_local_instance",
+      "reason": "Concrete source-bound proposition or named rival recovered; atomic/formal counterparts do not automatically cover it.",
+      "card_ids": [
+        "CLEAN_GAP_AN:ld_bind",
+        "CLEAN_GAP_AN:ld_close",
+        "CLEAN_GAP_AN:ld_double_close",
+        "CLEAN_GAP_AN:ld_apply"
+      ],
+      "compared_current_cases": [
+        "SEM:207d0e95fce30a97243e"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 44,
+      "source_id": "LEGACY_COMPONENT:8ba0afabdd12fa99cf3b",
+      "pass_number": 814,
+      "title": "Sidequest Pass 814: LD is bound fastening",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_ld_fastening_eight_hundred_fourteenth/EIGHT_HUNDRED_FOURTEENTH_REPORT.md",
+        "line": 6,
+        "line_end": 6,
+        "quote": "The existing reading is already the simplest:",
+        "sha256": "5d4997cada3f1554bdb1a44cea742936e9e4aa45d57bbb733f0eabf407012031"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_context_or_result",
+      "reason": "Introductory prose with no value.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 45,
+      "source_id": "LEGACY_COMPONENT:e6a0483ce95ca503629e",
+      "pass_number": 814,
+      "title": "Sidequest Pass 814: LD is bound fastening",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_ld_fastening_eight_hundred_fourteenth/EIGHT_HUNDRED_FOURTEENTH_REPORT.md",
+        "line": 10,
+        "line_end": 12,
+        "quote": "`BINDEN` would require cord or band; `VERSCHLIESSEN` and `DOPPELSCHLUSS`\nduplicate the licensed `DY` closure; `ANLEGEN` overlaps `OK=ANSETZEN`.\nTherefore:",
+        "sha256": "5d4997cada3f1554bdb1a44cea742936e9e4aa45d57bbb733f0eabf407012031"
+      },
+      "full_selected_span_read": true,
+      "disposition": "recovered_assertion_or_explicit_local_instance",
+      "reason": "Concrete source-bound proposition or named rival recovered; atomic/formal counterparts do not automatically cover it.",
+      "card_ids": [
+        "CLEAN_GAP_AN:ld_bind",
+        "CLEAN_GAP_AN:ld_close",
+        "CLEAN_GAP_AN:ld_double_close",
+        "CLEAN_GAP_AN:ld_apply"
+      ],
+      "compared_current_cases": [
+        "SEM:d3bec6e4a48c6cd54f40"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 46,
+      "source_id": "LEGACY_COMPONENT:dd84197bfd3309ffd6a9",
+      "pass_number": 814,
+      "title": "Sidequest Pass 814: LD is bound fastening",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_ld_fastening_eight_hundred_fourteenth/EIGHT_HUNDRED_FOURTEENTH_REPORT.md",
+        "line": 14,
+        "line_end": 14,
+        "quote": "> `LD = BEFESTIGEN`, bound immediately before `DY` in this learned frame.",
+        "sha256": "5d4997cada3f1554bdb1a44cea742936e9e4aa45d57bbb733f0eabf407012031"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Exact source member already attached to the stated atomic proposition; no additional complete rule in this selected span.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:e20606103acc6e41cd29"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 47,
+      "source_id": "LEGACY_COMPONENT:b7c2a26ed94cb43fcde5",
+      "pass_number": 814,
+      "title": "Sidequest Pass 814: LD is bound fastening",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_ld_fastening_eight_hundred_fourteenth/EIGHT_HUNDRED_FOURTEENTH_REPORT.md",
+        "line": 16,
+        "line_end": 18,
+        "quote": "It is not promoted to a free core. The most obvious shortened surface `ldy`\nalready belongs to the distinct recipe `L+DY = LEITEN · SCHLUSS`. Four other\nextensions are unattested and are withheld rather than given invented forms.",
+        "sha256": "5d4997cada3f1554bdb1a44cea742936e9e4aa45d57bbb733f0eabf407012031"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Bound-frame capacity restriction and existing L+DY reading; no additional free LD meaning.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:c606b93538af6d37a772"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 48,
+      "source_id": "LEGACY_COMPONENT:660cd10c41afab3c40ed",
+      "pass_number": 815,
+      "title": "Sidequest Pass 815: fifth workshop grammar",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_fifth_workshop_grammar_eight_hundred_fifteenth/EIGHT_HUNDRED_FIFTEENTH_REPORT.md",
+        "line": 3,
+        "line_end": 5,
+        "quote": "The complete prose edition is rebuilt after resolving the four former local\nsingletons. `CFH=AUSPRESSEN` and `S=PROBE` join the productive core;\n`DA=ZWEI` and `LD=BEFESTIGEN` become bound components.",
+        "sha256": "09400ac5d05488a96b1cc918191d6675760c2ade55b149c8b6db6b5fdcb5a001"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Already addressable CFH/S/DA/LD values; inventory promotion only.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:457e78f7ead9e778136d",
+        "SEM:e20606103acc6e41cd29",
+        "SEM:e5de4c4c2c6bd9730595",
+        "SEM:f423d9a7417f3d44e6b8"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 49,
+      "source_id": "LEGACY_COMPONENT:a6f543152f4127aa07bc",
+      "pass_number": 815,
+      "title": "Sidequest Pass 815: fifth workshop grammar",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_fifth_workshop_grammar_eight_hundred_fifteenth/EIGHT_HUNDRED_FIFTEENTH_REPORT.md",
+        "line": 15,
+        "line_end": 18,
+        "quote": "Core33 fully composes 167/173 card types and 374/381 events. The six-card\nremainder is `ykan`, `daiiin`, `qokylddy`, `os`, `dchol/schol`, and `talam`.\nThe first three are already semantically read through their bound values. Only\nthe final three still lack any internal recipe.",
+        "sha256": "09400ac5d05488a96b1cc918191d6675760c2ade55b149c8b6db6b5fdcb5a001"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_context_or_result",
+      "reason": "Composition and exception census, not a new meaning.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 50,
+      "source_id": "LEGACY_COMPONENT:f704f143bc181d53ff9a",
+      "pass_number": 815,
+      "title": "Sidequest Pass 815: fifth workshop grammar",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_fifth_workshop_grammar_eight_hundred_fifteenth/EIGHT_HUNDRED_FIFTEENTH_REPORT.md",
+        "line": 20,
+        "line_end": 22,
+        "quote": "Next, attack `os` first. Read its exact position in H1-S001 against the\ncandidates FACH, ORT, WERKZEUG, TRENNSCHRITT, and a copied source label. The\nwinning meaning must make the whole plant sentence more coherent.",
+        "sha256": "09400ac5d05488a96b1cc918191d6675760c2ade55b149c8b6db6b5fdcb5a001"
+      },
+      "full_selected_span_read": true,
+      "disposition": "recovered_assertion_or_explicit_local_instance",
+      "reason": "Concrete source-bound proposition or named rival recovered; atomic/formal counterparts do not automatically cover it.",
+      "card_ids": [
+        "CLEAN_GAP_AN:os_place",
+        "CLEAN_GAP_AN:os_tool",
+        "CLEAN_GAP_AN:os_separation",
+        "CLEAN_GAP_AN:os_source_label"
+      ],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 51,
+      "source_id": "LEGACY_COMPONENT:18333f4efd384293a4c0",
+      "pass_number": 816,
+      "title": "Sidequest Pass 816: os means “dazu”",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_os_connector_eight_hundred_sixteenth/EIGHT_HUNDRED_SIXTEENTH_REPORT.md",
+        "line": 5,
+        "line_end": 5,
+        "quote": "- `cthy = T+Y`: apply the current item;",
+        "sha256": "b61eff7b0734dc52b8582ad9067d47ffab332d5de4828d7b11d823f438031ccc"
+      },
+      "full_selected_span_read": true,
+      "disposition": "recovered_assertion_or_explicit_local_instance",
+      "reason": "Concrete source-bound proposition or named rival recovered; atomic/formal counterparts do not automatically cover it.",
+      "card_ids": [
+        "CLEAN_GAP_AN:cthy_apply_item"
+      ],
+      "compared_current_cases": [
+        "SEM:6f23aef5de41b11ad0a3"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 52,
+      "source_id": "LEGACY_COMPONENT:426fc73842254a351ff2",
+      "pass_number": 816,
+      "title": "Sidequest Pass 816: os means “dazu”",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_os_connector_eight_hundred_sixteenth/EIGHT_HUNDRED_SIXTEENTH_REPORT.md",
+        "line": 6,
+        "line_end": 6,
+        "quote": "- `chair = CH+AIR`: take water.",
+        "sha256": "b61eff7b0734dc52b8582ad9067d47ffab332d5de4828d7b11d823f438031ccc"
+      },
+      "full_selected_span_read": true,
+      "disposition": "recovered_assertion_or_explicit_local_instance",
+      "reason": "Concrete source-bound proposition or named rival recovered; atomic/formal counterparts do not automatically cover it.",
+      "card_ids": [
+        "CLEAN_GAP_AN:chair_take_water"
+      ],
+      "compared_current_cases": [
+        "SEM:144115d3885fde70148b"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 53,
+      "source_id": "LEGACY_COMPONENT:4a8d623096e9fae83e96",
+      "pass_number": 816,
+      "title": "Sidequest Pass 816: os means “dazu”",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_os_connector_eight_hundred_sixteenth/EIGHT_HUNDRED_SIXTEENTH_REPORT.md",
+        "line": 15,
+        "line_end": 15,
+        "quote": "> `os = DAZU`",
+        "sha256": "b61eff7b0734dc52b8582ad9067d47ffab332d5de4828d7b11d823f438031ccc"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Exact source member already attached to the stated atomic proposition; no additional complete rule in this selected span.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:f8e3f984c3a02c1edb2b"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 54,
+      "source_id": "LEGACY_COMPONENT:74e3399b660205838239",
+      "pass_number": 816,
+      "title": "Sidequest Pass 816: os means “dazu”",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_os_connector_eight_hundred_sixteenth/EIGHT_HUNDRED_SIXTEENTH_REPORT.md",
+        "line": 23,
+        "line_end": 24,
+        "quote": "`os` remains a learned whole form rather than a productive component, but it is\nnow a meaningful connector instead of a silently omitted placeholder.",
+        "sha256": "b61eff7b0734dc52b8582ad9067d47ffab332d5de4828d7b11d823f438031ccc"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Whole-word status of already recorded OS=DAZU; sourcecase only.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:f8e3f984c3a02c1edb2b"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 55,
+      "source_id": "LEGACY_COMPONENT:5925f2b88e50de520f19",
+      "pass_number": 817,
+      "title": "Sidequest Pass 817: dchol/schol means “davon”",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_resume_davon_eight_hundred_seventeenth/EIGHT_HUNDRED_SEVENTEENTH_REPORT.md",
+        "line": 8,
+        "line_end": 9,
+        "quote": "The former value WIEDERAUFNEHMEN made the card a workshop meta-command and had\nto invent an unnamed previous operation. The shorter invariant reading is:",
+        "sha256": "3aa60f3c990b23bda694d875b5fb9a2d59f434c94a1b5583680f9a9c6ce0385b"
+      },
+      "full_selected_span_read": true,
+      "disposition": "recovered_assertion_or_explicit_local_instance",
+      "reason": "Concrete source-bound proposition or named rival recovered; atomic/formal counterparts do not automatically cover it.",
+      "card_ids": [
+        "CLEAN_GAP_AN:resume_retake"
+      ],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 56,
+      "source_id": "LEGACY_COMPONENT:9658d39885b12286243a",
+      "pass_number": 817,
+      "title": "Sidequest Pass 817: dchol/schol means “davon”",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_resume_davon_eight_hundred_seventeenth/EIGHT_HUNDRED_SEVENTEENTH_REPORT.md",
+        "line": 11,
+        "line_end": 11,
+        "quote": "> `dchol/schol = DAVON`",
+        "sha256": "3aa60f3c990b23bda694d875b5fb9a2d59f434c94a1b5583680f9a9c6ce0385b"
+      },
+      "full_selected_span_read": true,
+      "disposition": "recovered_assertion_or_explicit_local_instance",
+      "reason": "Concrete source-bound proposition or named rival recovered; atomic/formal counterparts do not automatically cover it.",
+      "card_ids": [
+        "CLEAN_GAP_AN:resume_retake"
+      ],
+      "compared_current_cases": [
+        "SEM:09010ce151a5e8c7add0"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 57,
+      "source_id": "LEGACY_COMPONENT:e59c0e5f70b43a9edb1e",
+      "pass_number": 817,
+      "title": "Sidequest Pass 817: dchol/schol means “davon”",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_resume_davon_eight_hundred_seventeenth/EIGHT_HUNDRED_SEVENTEENTH_REPORT.md",
+        "line": 17,
+        "line_end": 17,
+        "quote": "The two continuous readings become:",
+        "sha256": "3aa60f3c990b23bda694d875b5fb9a2d59f434c94a1b5583680f9a9c6ce0385b"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_context_or_result",
+      "reason": "Introduces two readings without supplying either in this selected span.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 58,
+      "source_id": "LEGACY_COMPONENT:fe02b729950ab196adcc",
+      "pass_number": 817,
+      "title": "Sidequest Pass 817: dchol/schol means “davon”",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_resume_davon_eight_hundred_seventeenth/EIGHT_HUNDRED_SEVENTEENTH_REPORT.md",
+        "line": 30,
+        "line_end": 32,
+        "quote": "Next, resolve the final singleton whole card `talam` in its complete context.\nCompare AUFBEWAHREN, BEISEITESTELLEN, IN DAS GEFAESS, RUHEN LASSEN, and a\nsource-label reading, then publish the sixth compact grammar.",
+        "sha256": "3aa60f3c990b23bda694d875b5fb9a2d59f434c94a1b5583680f9a9c6ce0385b"
+      },
+      "full_selected_span_read": true,
+      "disposition": "recovered_assertion_or_explicit_local_instance",
+      "reason": "Concrete source-bound proposition or named rival recovered; atomic/formal counterparts do not automatically cover it.",
+      "card_ids": [
+        "CLEAN_GAP_AN:talam_store",
+        "CLEAN_GAP_AN:talam_vessel",
+        "CLEAN_GAP_AN:talam_rest",
+        "CLEAN_GAP_AN:talam_source"
+      ],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 59,
+      "source_id": "LEGACY_COMPONENT:fe556f8c433d41e5767f",
+      "pass_number": 818,
+      "title": "Sidequest Pass 818: talam means “beiseitestellen”",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_talam_set_aside_eight_hundred_eighteenth/EIGHT_HUNDRED_EIGHTEENTH_REPORT.md",
+        "line": 14,
+        "line_end": 14,
+        "quote": "> `talam = BEISEITESTELLEN`",
+        "sha256": "2017c1c04244376b30f01c98e9be2161a8a11a79695171f175157f592e9ab343"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Exact source member already attached to the stated atomic proposition; no additional complete rule in this selected span.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:db851ae8b4618e145916"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 60,
+      "source_id": "LEGACY_COMPONENT:adf27c08c64db37d5fa7",
+      "pass_number": 818,
+      "title": "Sidequest Pass 818: talam means “beiseitestellen”",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_talam_set_aside_eight_hundred_eighteenth/EIGHT_HUNDRED_EIGHTEENTH_REPORT.md",
+        "line": 30,
+        "line_end": 32,
+        "quote": "Next, integrate OS=DAZU, RESUME=DAVON, and TALAM=BEISEITESTELLEN into a sixth\ncomplete 173-card / 381-event / 116-statement grammar and print the remaining\nexception inventory explicitly.",
+        "sha256": "2017c1c04244376b30f01c98e9be2161a8a11a79695171f175157f592e9ab343"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_context_or_result",
+      "reason": "Editorial integration instruction listing three existing whole-word meanings.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 61,
+      "source_id": "LEGACY_COMPONENT:1143c2011bd4d531b31c",
+      "pass_number": 819,
+      "title": "Sidequest Pass 819: sixth compact workshop grammar",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_sixth_workshop_grammar_eight_hundred_nineteenth/EIGHT_HUNDRED_NINETEENTH_REPORT.md",
+        "line": 6,
+        "line_end": 6,
+        "quote": "- `os = DAZU`;",
+        "sha256": "56b65f7a479f99dfe84e3670e79d344af2e946e7f9e71c8d00dee8e677ac1087"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Exact source member already attached to the stated atomic proposition; no additional complete rule in this selected span.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:f8e3f984c3a02c1edb2b"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 62,
+      "source_id": "LEGACY_COMPONENT:035473b5f9c7d34f43a9",
+      "pass_number": 819,
+      "title": "Sidequest Pass 819: sixth compact workshop grammar",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_sixth_workshop_grammar_eight_hundred_nineteenth/EIGHT_HUNDRED_NINETEENTH_REPORT.md",
+        "line": 7,
+        "line_end": 7,
+        "quote": "- `dchol/schol = DAVON`;",
+        "sha256": "56b65f7a479f99dfe84e3670e79d344af2e946e7f9e71c8d00dee8e677ac1087"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Exact source member already attached to the stated atomic proposition; no additional complete rule in this selected span.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:09010ce151a5e8c7add0"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 63,
+      "source_id": "LEGACY_COMPONENT:0dac05fb2e8046de3dd3",
+      "pass_number": 819,
+      "title": "Sidequest Pass 819: sixth compact workshop grammar",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_sixth_workshop_grammar_eight_hundred_nineteenth/EIGHT_HUNDRED_NINETEENTH_REPORT.md",
+        "line": 8,
+        "line_end": 8,
+        "quote": "- `talam = BEISEITESTELLEN`.",
+        "sha256": "56b65f7a479f99dfe84e3670e79d344af2e946e7f9e71c8d00dee8e677ac1087"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Exact source member already attached to the stated atomic proposition; no additional complete rule in this selected span.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:db851ae8b4618e145916"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 64,
+      "source_id": "LEGACY_COMPONENT:7e9de30f0b464689f10c",
+      "pass_number": 819,
+      "title": "Sidequest Pass 819: sixth compact workshop grammar",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_sixth_workshop_grammar_eight_hundred_nineteenth/EIGHT_HUNDRED_NINETEENTH_REPORT.md",
+        "line": 14,
+        "line_end": 17,
+        "quote": "The six remaining non-core cards are no longer semantic blanks. Three contain\nstrictly bound pieces: AN=NACHGABE, DA=ZWEI before IIN, and LD=BEFESTIGEN before\nDY. Three are learned short whole words: DAZU, DAVON, and BEISEITESTELLEN. They\ncover seven events together. Nothing in this exception inventory is UNKNOWN.",
+        "sha256": "56b65f7a479f99dfe84e3670e79d344af2e946e7f9e71c8d00dee8e677ac1087"
+      },
+      "full_selected_span_read": true,
+      "disposition": "recovered_assertion_or_explicit_local_instance",
+      "reason": "Concrete source-bound proposition or named rival recovered; atomic/formal counterparts do not automatically cover it.",
+      "card_ids": [
+        "CLEAN_GAP_AN:six_exception_architecture"
+      ],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 65,
+      "source_id": "LEGACY_COMPONENT:e984858ba6c0d89a2949",
+      "pass_number": 819,
+      "title": "Sidequest Pass 819: sixth compact workshop grammar",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_sixth_workshop_grammar_eight_hundred_nineteenth/EIGHT_HUNDRED_NINETEENTH_REPORT.md",
+        "line": 27,
+        "line_end": 30,
+        "quote": "Next, use the complete grammar to inspect the largest remaining semantic\ncollisions: cards that now receive the same German reading through different\nrecipes. Merge genuine synonyms, but split any pair whose full contexts demand\ndifferent concrete actions.",
+        "sha256": "56b65f7a479f99dfe84e3670e79d344af2e946e7f9e71c8d00dee8e677ac1087"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_context_or_result",
+      "reason": "Proposed semantic collision audit method, no concrete new sense.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 66,
+      "source_id": "LEGACY_COMPONENT:45caabceee0cfacac538",
+      "pass_number": 820,
+      "title": "Sidequest Pass 820: semantic collision atlas",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_collision_atlas_eight_hundred_twentieth/EIGHT_HUNDRED_TWENTIETH_REPORT.md",
+        "line": 1,
+        "line_end": 7,
+        "quote": "# Sidequest Pass 820: semantic collision atlas\n\nThe sixth grammar has no literally duplicated German component value, but it\nhas six neighborhoods that can easily collapse during fluent translation.\nReading every occurrence in its complete statement gives a simple workshop\ndistinction for each.\n",
+        "sha256": "b4b4ef6ed0d9c3b4552a88732af8b6e3c635507cf55f15e0a77480e0ec7f6db3"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_context_or_result",
+      "reason": "Collision inventory introduction without named distinctions.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 67,
+      "source_id": "LEGACY_COMPONENT:efe85b097cd27b0b2b28",
+      "pass_number": 820,
+      "title": "Sidequest Pass 820: semantic collision atlas",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_collision_atlas_eight_hundred_twentieth/EIGHT_HUNDRED_TWENTIETH_REPORT.md",
+        "line": 3,
+        "line_end": 6,
+        "quote": "The sixth grammar has no literally duplicated German component value, but it\nhas six neighborhoods that can easily collapse during fluent translation.\nReading every occurrence in its complete statement gives a simple workshop\ndistinction for each.",
+        "sha256": "b4b4ef6ed0d9c3b4552a88732af8b6e3c635507cf55f15e0a77480e0ec7f6db3"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_context_or_result",
+      "reason": "Same collision introduction nested inside block66; no new assertion.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 68,
+      "source_id": "LEGACY_COMPONENT:9e00c7be07d42e6de592",
+      "pass_number": 821,
+      "title": "Sidequest Pass 821: T means “bearbeiten”",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_t_work_eight_hundred_twenty_first/EIGHT_HUNDRED_TWENTY_FIRST_REPORT.md",
+        "line": 10,
+        "line_end": 10,
+        "quote": "> `T = BEARBEITEN`",
+        "sha256": "f51a945d12b0b031f751c746ef5141e1ed94a91de4ab0bc53e77fa12a5e51063"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Exact source member already attached to the stated atomic proposition; no additional complete rule in this selected span.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:6bfdcd94cd3e1d1f8669"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 69,
+      "source_id": "LEGACY_COMPONENT:ad458f262d6d5ae3b937",
+      "pass_number": 821,
+      "title": "Sidequest Pass 821: T means “bearbeiten”",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_t_work_eight_hundred_twenty_first/EIGHT_HUNDRED_TWENTY_FIRST_REPORT.md",
+        "line": 22,
+        "line_end": 22,
+        "quote": "- OK=ANSETZEN activates a work step;",
+        "sha256": "f51a945d12b0b031f751c746ef5141e1ed94a91de4ab0bc53e77fa12a5e51063"
+      },
+      "full_selected_span_read": true,
+      "disposition": "recovered_assertion_or_explicit_local_instance",
+      "reason": "Concrete source-bound proposition or named rival recovered; atomic/formal counterparts do not automatically cover it.",
+      "card_ids": [
+        "CLEAN_GAP_AN:action_triad"
+      ],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 70,
+      "source_id": "LEGACY_COMPONENT:92e03e13b7dad399cc91",
+      "pass_number": 821,
+      "title": "Sidequest Pass 821: T means “bearbeiten”",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_t_work_eight_hundred_twenty_first/EIGHT_HUNDRED_TWENTY_FIRST_REPORT.md",
+        "line": 23,
+        "line_end": 23,
+        "quote": "- T=BEARBEITEN performs work on the current item;",
+        "sha256": "f51a945d12b0b031f751c746ef5141e1ed94a91de4ab0bc53e77fa12a5e51063"
+      },
+      "full_selected_span_read": true,
+      "disposition": "recovered_assertion_or_explicit_local_instance",
+      "reason": "Concrete source-bound proposition or named rival recovered; atomic/formal counterparts do not automatically cover it.",
+      "card_ids": [
+        "CLEAN_GAP_AN:action_triad"
+      ],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 71,
+      "source_id": "LEGACY_COMPONENT:6bf2af7f15cb688d8362",
+      "pass_number": 821,
+      "title": "Sidequest Pass 821: T means “bearbeiten”",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_t_work_eight_hundred_twenty_first/EIGHT_HUNDRED_TWENTY_FIRST_REPORT.md",
+        "line": 24,
+        "line_end": 24,
+        "quote": "- CHD=UMSETZEN moves or converts it inside the chain.",
+        "sha256": "f51a945d12b0b031f751c746ef5141e1ed94a91de4ab0bc53e77fa12a5e51063"
+      },
+      "full_selected_span_read": true,
+      "disposition": "recovered_assertion_or_explicit_local_instance",
+      "reason": "Concrete source-bound proposition or named rival recovered; atomic/formal counterparts do not automatically cover it.",
+      "card_ids": [
+        "CLEAN_GAP_AN:action_triad"
+      ],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 72,
+      "source_id": "LEGACY_COMPONENT:ff140bb5be51349e7ec8",
+      "pass_number": 821,
+      "title": "Sidequest Pass 821: T means “bearbeiten”",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_t_work_eight_hundred_twenty_first/EIGHT_HUNDRED_TWENTY_FIRST_REPORT.md",
+        "line": 26,
+        "line_end": 28,
+        "quote": "All seven affected statements have been rewritten so T is spoken explicitly.\nThe result is slightly more repetitive, but that is preferable to hiding a\ncomponent whenever its former gloss becomes awkward.",
+        "sha256": "f51a945d12b0b031f751c746ef5141e1ed94a91de4ab0bc53e77fa12a5e51063"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_context_or_result",
+      "reason": "Edition rewrite method, no additional T meaning.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 73,
+      "source_id": "LEGACY_COMPONENT:4fcd396e546d8546e2ed",
+      "pass_number": 821,
+      "title": "Sidequest Pass 821: T means “bearbeiten”",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_t_work_eight_hundred_twenty_first/EIGHT_HUNDRED_TWENTY_FIRST_REPORT.md",
+        "line": 30,
+        "line_end": 32,
+        "quote": "Next, pressure-test K=ZUGEBEN, P=EINFUELLEN, and L=LEITEN across every event.\nThe critical question is whether P truly marks a receiver or is merely a rare\nrenderer of K or L.",
+        "sha256": "f51a945d12b0b031f751c746ef5141e1ed94a91de4ab0bc53e77fa12a5e51063"
+      },
+      "full_selected_span_read": true,
+      "disposition": "recovered_assertion_or_explicit_local_instance",
+      "reason": "Concrete source-bound proposition or named rival recovered; atomic/formal counterparts do not automatically cover it.",
+      "card_ids": [
+        "CLEAN_GAP_AN:p_rare_renderer_rival"
+      ],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 74,
+      "source_id": "LEGACY_COMPONENT:466fe76e66d1e98f9fc0",
+      "pass_number": 822,
+      "title": "Sidequest Pass 822: P means “einbringen”",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_p_bring_in_eight_hundred_twenty_second/EIGHT_HUNDRED_TWENTY_SECOND_REPORT.md",
+        "line": 12,
+        "line_end": 12,
+        "quote": "> `P = EINBRINGEN`",
+        "sha256": "4b700bae342debfdff227841c9b3ea12a5c93c66b2ea6e69de597d9b0e8af076"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Literal EINBRINGEN already exists; Pass822 sourcecase is distinct from older GDT410 status.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:dce001a13511566473e6"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 75,
+      "source_id": "LEGACY_COMPONENT:6fd5093c1e5209fbf3e9",
+      "pass_number": 822,
+      "title": "Sidequest Pass 822: P means “einbringen”",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_p_bring_in_eight_hundred_twenty_second/EIGHT_HUNDRED_TWENTY_SECOND_REPORT.md",
+        "line": 19,
+        "line_end": 19,
+        "quote": "- K=ZUGEBEN: material joins the active mixture (21 events);",
+        "sha256": "4b700bae342debfdff227841c9b3ea12a5c93c66b2ea6e69de597d9b0e8af076"
+      },
+      "full_selected_span_read": true,
+      "disposition": "recovered_assertion_or_explicit_local_instance",
+      "reason": "Concrete source-bound proposition or named rival recovered; atomic/formal counterparts do not automatically cover it.",
+      "card_ids": [
+        "CLEAN_GAP_AN:transfer_triad"
+      ],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 76,
+      "source_id": "LEGACY_COMPONENT:2d89f49b5c969d8a85a4",
+      "pass_number": 822,
+      "title": "Sidequest Pass 822: P means “einbringen”",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_p_bring_in_eight_hundred_twenty_second/EIGHT_HUNDRED_TWENTY_SECOND_REPORT.md",
+        "line": 20,
+        "line_end": 20,
+        "quote": "- P=EINBRINGEN: material moves inward to a receiver/work site (3 events);",
+        "sha256": "4b700bae342debfdff227841c9b3ea12a5c93c66b2ea6e69de597d9b0e8af076"
+      },
+      "full_selected_span_read": true,
+      "disposition": "recovered_assertion_or_explicit_local_instance",
+      "reason": "Concrete source-bound proposition or named rival recovered; atomic/formal counterparts do not automatically cover it.",
+      "card_ids": [
+        "CLEAN_GAP_AN:transfer_triad"
+      ],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 77,
+      "source_id": "LEGACY_COMPONENT:0a7a7b9ad527749b8f65",
+      "pass_number": 822,
+      "title": "Sidequest Pass 822: P means “einbringen”",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_p_bring_in_eight_hundred_twenty_second/EIGHT_HUNDRED_TWENTY_SECOND_REPORT.md",
+        "line": 21,
+        "line_end": 21,
+        "quote": "- L=LEITEN: material travels along a path (27 events).",
+        "sha256": "4b700bae342debfdff227841c9b3ea12a5c93c66b2ea6e69de597d9b0e8af076"
+      },
+      "full_selected_span_read": true,
+      "disposition": "recovered_assertion_or_explicit_local_instance",
+      "reason": "Concrete source-bound proposition or named rival recovered; atomic/formal counterparts do not automatically cover it.",
+      "card_ids": [
+        "CLEAN_GAP_AN:transfer_triad"
+      ],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 78,
+      "source_id": "LEGACY_COMPONENT:18c5a2d7166856a75b1e",
+      "pass_number": 822,
+      "title": "Sidequest Pass 822: P means “einbringen”",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_p_bring_in_eight_hundred_twenty_second/EIGHT_HUNDRED_TWENTY_SECOND_REPORT.md",
+        "line": 23,
+        "line_end": 24,
+        "quote": "The f11r sentence now says “in den lokalen Empfänger einbringen”; the two basin\nsentences say “einbringen und umsetzen”. No K or L reading changes.",
+        "sha256": "4b700bae342debfdff227841c9b3ea12a5c93c66b2ea6e69de597d9b0e8af076"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_context_or_result",
+      "reason": "Local expansions of the fully captured P rule, retained as source instances, not separate mechanisms.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 79,
+      "source_id": "LEGACY_COMPONENT:b30351136da097a464a4",
+      "pass_number": 822,
+      "title": "Sidequest Pass 822: P means “einbringen”",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_p_bring_in_eight_hundred_twenty_second/EIGHT_HUNDRED_TWENTY_SECOND_REPORT.md",
+        "line": 26,
+        "line_end": 28,
+        "quote": "Next, pressure-test SH=HALTEN against SHED=STEHENLASSEN, especially the two\nnon-terminal SHED+AL cards. If SHED always implies unattended time, retain it;\notherwise seek a more concrete state operation.",
+        "sha256": "4b700bae342debfdff227841c9b3ea12a5c93c66b2ea6e69de597d9b0e8af076"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_context_or_result",
+      "reason": "Future SH/SHED test criterion; neither universal unattended-time condition nor result is asserted.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 80,
+      "source_id": "LEGACY_COMPONENT:d0b21eafbf8c1dbad39a",
+      "pass_number": 823,
+      "title": "Sidequest Pass 823: halten versus stehenlassen",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_hold_wait_eight_hundred_twenty_third/EIGHT_HUNDRED_TWENTY_THIRD_REPORT.md",
+        "line": 5,
+        "line_end": 6,
+        "quote": "> `SH = HALTEN`\n> `SHED = STEHENLASSEN`",
+        "sha256": "daa557ac6e5a045348db6d0709ac5de84ad9615fe49c59523dd9d7a2dcd20fa3"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Already recorded pair of SH/SHED glosses; not automatically all contextual interpretation.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:82cea98d87d0ccd66a78",
+        "SEM:9d512432d001b98a50ea"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 81,
+      "source_id": "LEGACY_COMPONENT:a2ac77f735df32276275",
+      "pass_number": 823,
+      "title": "Sidequest Pass 823: halten versus stehenlassen",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_hold_wait_eight_hundred_twenty_third/EIGHT_HUNDRED_TWENTY_THIRD_REPORT.md",
+        "line": 23,
+        "line_end": 25,
+        "quote": "Next, pressure-test the order words OL=WEITER, OT=DANACH, and OS=DAZU in all 75\nmemberships. In particular, determine whether OS really adds a simultaneous\nclause or is simply a rare surface for OT.",
+        "sha256": "daa557ac6e5a045348db6d0709ac5de84ad9615fe49c59523dd9d7a2dcd20fa3"
+      },
+      "full_selected_span_read": true,
+      "disposition": "recovered_assertion_or_explicit_local_instance",
+      "reason": "Concrete source-bound proposition or named rival recovered; atomic/formal counterparts do not automatically cover it.",
+      "card_ids": [
+        "CLEAN_GAP_AN:os_temporal_rival"
+      ],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 82,
+      "source_id": "LEGACY_COMPONENT:9c92f2241818ca585098",
+      "pass_number": 824,
+      "title": "Sidequest Pass 824: weiter, danach, dazu",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_order_words_eight_hundred_twenty_fourth/EIGHT_HUNDRED_TWENTY_FOURTH_REPORT.md",
+        "line": 5,
+        "line_end": 5,
+        "quote": "- `OL = WEITER` continues the same operation or relation (48 events);",
+        "sha256": "121b4b1597bcb75e458cbe650beb29d96836705afbdea946823c86e6dbee2007"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "WEITER same-operation continuation qualifies the existing OL gloss; sourcecase, not a new entire lexical sense.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:2d01575083d91a46242f"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 83,
+      "source_id": "LEGACY_COMPONENT:0ea8c03296b40e34f58a",
+      "pass_number": 824,
+      "title": "Sidequest Pass 824: weiter, danach, dazu",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_order_words_eight_hundred_twenty_fourth/EIGHT_HUNDRED_TWENTY_FOURTH_REPORT.md",
+        "line": 7,
+        "line_end": 8,
+        "quote": "- `OS = DAZU` adds linked material or a clause without forcing temporal order\n  (1 event).",
+        "sha256": "121b4b1597bcb75e458cbe650beb29d96836705afbdea946823c86e6dbee2007"
+      },
+      "full_selected_span_read": true,
+      "disposition": "recovered_assertion_or_explicit_local_instance",
+      "reason": "Concrete source-bound proposition or named rival recovered; atomic/formal counterparts do not automatically cover it.",
+      "card_ids": [
+        "CLEAN_GAP_AN:os_local_order"
+      ],
+      "compared_current_cases": [
+        "SEM:77d107ef4b5bcca28dc5"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 84,
+      "source_id": "LEGACY_COMPONENT:6cf0ffdb51f2123bf6d0",
+      "pass_number": 824,
+      "title": "Sidequest Pass 824: weiter, danach, dazu",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_order_words_eight_hundred_twenty_fourth/EIGHT_HUNDRED_TWENTY_FOURTH_REPORT.md",
+        "line": 10,
+        "line_end": 13,
+        "quote": "The singleton OS is weak by frequency but strong inside its one sentence. In\nf10r H1-S001, OS connects work on the current item to taking water. Two events\nlater the writer uses an OT-bearing card for the actual next-step transition.\nReading both as DANACH would erase a contrast made locally by the same scribe.",
+        "sha256": "121b4b1597bcb75e458cbe650beb29d96836705afbdea946823c86e6dbee2007"
+      },
+      "full_selected_span_read": true,
+      "disposition": "recovered_assertion_or_explicit_local_instance",
+      "reason": "Concrete source-bound proposition or named rival recovered; atomic/formal counterparts do not automatically cover it.",
+      "card_ids": [
+        "CLEAN_GAP_AN:os_local_order"
+      ],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 85,
+      "source_id": "LEGACY_COMPONENT:335efd3c33d62e51d797",
+      "pass_number": 824,
+      "title": "Sidequest Pass 824: weiter, danach, dazu",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_order_words_eight_hundred_twenty_fourth/EIGHT_HUNDRED_TWENTY_FOURTH_REPORT.md",
+        "line": 15,
+        "line_end": 17,
+        "quote": "DABEI would claim simultaneity; MIT needs a noun-argument construction; ABER\nneeds a contrast. DAZU is the shortest useful reading and remains a memorized\nwhole connector.",
+        "sha256": "121b4b1597bcb75e458cbe650beb29d96836705afbdea946823c86e6dbee2007"
+      },
+      "full_selected_span_read": true,
+      "disposition": "recovered_assertion_or_explicit_local_instance",
+      "reason": "Concrete source-bound proposition or named rival recovered; atomic/formal counterparts do not automatically cover it.",
+      "card_ids": [
+        "CLEAN_GAP_AN:os_simultaneous",
+        "CLEAN_GAP_AN:os_with",
+        "CLEAN_GAP_AN:os_but"
+      ],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 86,
+      "source_id": "LEGACY_COMPONENT:0bed463ad548fc22a6cb",
+      "pass_number": 824,
+      "title": "Sidequest Pass 824: weiter, danach, dazu",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_order_words_eight_hundred_twenty_fourth/EIGHT_HUNDRED_TWENTY_FOURTH_REPORT.md",
+        "line": 21,
+        "line_end": 23,
+        "quote": "Next, pressure-test the quantity ladder S=PROBE, AIN=PORTION, AIIN=SOLLMASS,\nand IIN=STUFE. The singleton S is the vulnerable member: determine whether its\ncontext truly needs a diagnostic sample or merely another portion.",
+        "sha256": "121b4b1597bcb75e458cbe650beb29d96836705afbdea946823c86e6dbee2007"
+      },
+      "full_selected_span_read": true,
+      "disposition": "recovered_assertion_or_explicit_local_instance",
+      "reason": "Concrete source-bound proposition or named rival recovered; atomic/formal counterparts do not automatically cover it.",
+      "card_ids": [
+        "CLEAN_GAP_AN:s_portion_rival"
+      ],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 87,
+      "source_id": "LEGACY_COMPONENT:dff815b26df51b1dc63c",
+      "pass_number": 825,
+      "title": "Sidequest Pass 825: the four-level quantity ladder",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_quantity_ladder_eight_hundred_twenty_fifth/EIGHT_HUNDRED_TWENTY_FIFTH_REPORT.md",
+        "line": 5,
+        "line_end": 5,
+        "quote": "- `S = PROBE` — a small diagnostic object (1 event);",
+        "sha256": "b74732f59f1c45f2ed74050f58df1a353fc61e607601359d9a8118bab01012d0"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "PROBE diagnostic object elaborates the existing same-source sample role; no separate sense.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:e5de4c4c2c6bd9730595"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 88,
+      "source_id": "LEGACY_COMPONENT:364a8be03db9275db20f",
+      "pass_number": 825,
+      "title": "Sidequest Pass 825: the four-level quantity ladder",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_quantity_ladder_eight_hundred_twenty_fifth/EIGHT_HUNDRED_TWENTY_FIFTH_REPORT.md",
+        "line": 8,
+        "line_end": 8,
+        "quote": "- `IIN = STUFE` — the current process stage (4 events).",
+        "sha256": "b74732f59f1c45f2ed74050f58df1a353fc61e607601359d9a8118bab01012d0"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "STUFE current process stage elaborates the existing stage value.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:1659676c07e492ee11f9"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 89,
+      "source_id": "LEGACY_COMPONENT:65d270611b31320e492a",
+      "pass_number": 825,
+      "title": "Sidequest Pass 825: the four-level quantity ladder",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_quantity_ladder_eight_hundred_twenty_fifth/EIGHT_HUNDRED_TWENTY_FIFTH_REPORT.md",
+        "line": 20,
+        "line_end": 22,
+        "quote": "Next, pressure-test the place ladder AR=QUELLE, CKH=DURCHLASS,\nAL=ZIELSTELLE, and SOLK=SAMMELSTELLE. The key risk is that SOLK may merely be a\nspecial visible owner rather than a portable word.",
+        "sha256": "b74732f59f1c45f2ed74050f58df1a353fc61e607601359d9a8118bab01012d0"
+      },
+      "full_selected_span_read": true,
+      "disposition": "recovered_assertion_or_explicit_local_instance",
+      "reason": "Concrete source-bound proposition or named rival recovered; atomic/formal counterparts do not automatically cover it.",
+      "card_ids": [
+        "CLEAN_GAP_AN:solk_visible_owner_rival"
+      ],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 90,
+      "source_id": "LEGACY_COMPONENT:c75260789a26fc7f741e",
+      "pass_number": 826,
+      "title": "Sidequest Pass 826: SOLK means “sammeln”",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_solk_collect_eight_hundred_twenty_sixth/EIGHT_HUNDRED_TWENTY_SIXTH_REPORT.md",
+        "line": 3,
+        "line_end": 5,
+        "quote": "The old noun SAMMELSTELLE fit the visible basins, but every fluent translation\nhad to insert an unattested verb: “an der Sammelstelle halten”. The cards become\ndirectly compositional if SOLK is an operation:",
+        "sha256": "f66ad861ef2bf767880c5400b2061cede60443a04ad8a1b8bba36cde19d9799e"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Source criticism of existing noun SOLK=SAMMELSTELLE, not a new assignment.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:3f066e37455d51055535"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 91,
+      "source_id": "LEGACY_COMPONENT:90a21ee5a1db2957a7c5",
+      "pass_number": 826,
+      "title": "Sidequest Pass 826: SOLK means “sammeln”",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_solk_collect_eight_hundred_twenty_sixth/EIGHT_HUNDRED_TWENTY_SIXTH_REPORT.md",
+        "line": 7,
+        "line_end": 7,
+        "quote": "> `SOLK = SAMMELN`",
+        "sha256": "f66ad861ef2bf767880c5400b2061cede60443a04ad8a1b8bba36cde19d9799e"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Exact source member already attached to the stated atomic proposition; no additional complete rule in this selected span.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:06a0ed345669458401bf"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 92,
+      "source_id": "LEGACY_COMPONENT:bd4c7aa93818a20d9982",
+      "pass_number": 826,
+      "title": "Sidequest Pass 826: SOLK means “sammeln”",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_solk_collect_eight_hundred_twenty_sixth/EIGHT_HUNDRED_TWENTY_SIXTH_REPORT.md",
+        "line": 22,
+        "line_end": 23,
+        "quote": "The place ladder is consequently smaller and cleaner: AR=QUELLE, CKH=DURCHLASS,\nAL=ZIELSTELLE. SOLK moves into the operation inventory as SAMMELN.",
+        "sha256": "f66ad861ef2bf767880c5400b2061cede60443a04ad8a1b8bba36cde19d9799e"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_context_or_result",
+      "reason": "Reclassified source inventory of existing place and operation values.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 93,
+      "source_id": "LEGACY_COMPONENT:247d4d1a17ab139575a4",
+      "pass_number": 826,
+      "title": "Sidequest Pass 826: SOLK means “sammeln”",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_solk_collect_eight_hundred_twenty_sixth/EIGHT_HUNDRED_TWENTY_SIXTH_REPORT.md",
+        "line": 25,
+        "line_end": 26,
+        "quote": "Next, integrate T=BEARBEITEN, P=EINBRINGEN, and SOLK=SAMMELN into a seventh\ncomplete grammar, then regenerate every affected statement and prediction.",
+        "sha256": "f66ad861ef2bf767880c5400b2061cede60443a04ad8a1b8bba36cde19d9799e"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_context_or_result",
+      "reason": "Editorial integration instruction, no additional values.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 94,
+      "source_id": "LEGACY_COMPONENT:fde6ae58de5ec3f892db",
+      "pass_number": 827,
+      "title": "Sidequest Pass 827: seventh compact workshop grammar",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_seventh_workshop_grammar_eight_hundred_twenty_seventh/EIGHT_HUNDRED_TWENTY_SEVENTH_REPORT.md",
+        "line": 5,
+        "line_end": 5,
+        "quote": "- `T = BEARBEITEN`, replacing target-specific ANWENDEN;",
+        "sha256": "d55239d08a4cdf46e9d25f9c7be7d46ba167594f1c7dfacc87304f52d242546d"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Existing revised T value and historical supersession.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:6bfdcd94cd3e1d1f8669"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 95,
+      "source_id": "LEGACY_COMPONENT:8840c3a3a75976836879",
+      "pass_number": 827,
+      "title": "Sidequest Pass 827: seventh compact workshop grammar",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_seventh_workshop_grammar_eight_hundred_twenty_seventh/EIGHT_HUNDRED_TWENTY_SEVENTH_REPORT.md",
+        "line": 6,
+        "line_end": 6,
+        "quote": "- `P = EINBRINGEN`, replacing vessel-specific EINFUELLEN;",
+        "sha256": "d55239d08a4cdf46e9d25f9c7be7d46ba167594f1c7dfacc87304f52d242546d"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Existing P=EINBRINGEN value and historical supersession of EINFUELLEN.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:dce001a13511566473e6"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 96,
+      "source_id": "LEGACY_COMPONENT:e3efb66f5b97a5ae05fd",
+      "pass_number": 827,
+      "title": "Sidequest Pass 827: seventh compact workshop grammar",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_seventh_workshop_grammar_eight_hundred_twenty_seventh/EIGHT_HUNDRED_TWENTY_SEVENTH_REPORT.md",
+        "line": 7,
+        "line_end": 7,
+        "quote": "- `SOLK = SAMMELN`, replacing the noun SAMMELSTELLE and its hidden HALTEN.",
+        "sha256": "d55239d08a4cdf46e9d25f9c7be7d46ba167594f1c7dfacc87304f52d242546d"
+      },
+      "full_selected_span_read": true,
+      "disposition": "existing_assertion_or_source_case",
+      "reason": "Existing SOLK=SAMMELN value and criticism of hidden HALTEN.",
+      "card_ids": [],
+      "compared_current_cases": [
+        "SEM:06a0ed345669458401bf"
+      ],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 97,
+      "source_id": "LEGACY_COMPONENT:9ad1041b2da74c4bd5bd",
+      "pass_number": 827,
+      "title": "Sidequest Pass 827: seventh compact workshop grammar",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_seventh_workshop_grammar_eight_hundred_twenty_seventh/EIGHT_HUNDRED_TWENTY_SEVENTH_REPORT.md",
+        "line": 14,
+        "line_end": 15,
+        "quote": "All 76 unseen recipes are recomputed from the new component values rather than\ncarrying stale translations forward. They remain unattested predictions.",
+        "sha256": "d55239d08a4cdf46e9d25f9c7be7d46ba167594f1c7dfacc87304f52d242546d"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_context_or_result",
+      "reason": "Prediction regeneration; explicitly unattested.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 98,
+      "source_id": "LEGACY_COMPONENT:d5463962dea5ff621cf9",
+      "pass_number": 827,
+      "title": "Sidequest Pass 827: seventh compact workshop grammar",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_seventh_workshop_grammar_eight_hundred_twenty_seventh/EIGHT_HUNDRED_TWENTY_SEVENTH_REPORT.md",
+        "line": 23,
+        "line_end": 25,
+        "quote": "Next, inspect all 76 predicted recipes for semantic usefulness. Remove any\nprediction that is formally buildable but yields an implausible or redundant\nworkshop command; keep a small high-value prediction deck for future pages.",
+        "sha256": "d55239d08a4cdf46e9d25f9c7be7d46ba167594f1c7dfacc87304f52d242546d"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_context_or_result",
+      "reason": "Future recipe usefulness audit; no new concrete meaning.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    },
+    {
+      "selection_index": 99,
+      "source_id": "LEGACY_COMPONENT:fbd7f3a69739371c037d",
+      "pass_number": 828,
+      "title": "Sidequest Pass 828: compact future-card deck",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_prediction_deck_eight_hundred_twenty_eighth/EIGHT_HUNDRED_TWENTY_EIGHTH_REPORT.md",
+        "line": 21,
+        "line_end": 23,
+        "quote": "No existing card meaning changes here. The compact deck is a disciplined way\nto use the current working theory when four new pages eventually arrive: look\nfor these recipes first, while allowing genuinely new cards to overturn them.",
+        "sha256": "4f3b8279205fc6abbe6e6124bcd143b8845c96b0949b2beb6011d7a4be3c8b0c"
+      },
+      "full_selected_span_read": true,
+      "disposition": "method_context_or_result",
+      "reason": "Method for a future prediction-deck application; no current meaning change.",
+      "card_ids": [],
+      "compared_current_cases": [],
+      "global_coverage_claim": false
+    }
+  ],
+  "gap_candidates": [
+    {
+      "card_id": "CLEAN_GAP_AN:shed_result_rival",
+      "compared_current_ids": [
+        "SEM:b035c80928c1d868b3c9",
+        "SEM:82cea98d87d0ccd66a78"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:p_recipient_rival",
+      "compared_current_ids": [
+        "SEM:42662a9e836ecbf20316"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:p_inward_rival",
+      "compared_current_ids": [],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:p_fill",
+      "compared_current_ids": [
+        "SEM:dce001a13511566473e6",
+        "SEM:42662a9e836ecbf20316"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:p_plain_fill",
+      "compared_current_ids": [],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:shed_open_availability",
+      "compared_current_ids": [
+        "SEM:82cea98d87d0ccd66a78"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:lsho_rinse_process",
+      "compared_current_ids": [
+        "SEM:6a8899208267731e6e8f",
+        "SEM:2d192b1c74c9152d4870",
+        "SEM:49c8d4c1524027989d82"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:lshedy_rinse_close",
+      "compared_current_ids": [
+        "SEM:f3a72c06950c4f86e6f2",
+        "SEM:3d954a3400b90461c862",
+        "SEM:2d192b1c74c9152d4870"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:lsh_extract_rival",
+      "compared_current_ids": [
+        "SEM:3fa671fb387e25cb1be6",
+        "SEM:2d192b1c74c9152d4870"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:material_argument_distinction",
+      "compared_current_ids": [
+        "SEM:5387269c6ee6d507293f",
+        "SEM:ec1a25e412565b0a1756",
+        "SEM:c715d4f00ebdf1d22dc5"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:cfh_take",
+      "compared_current_ids": [
+        "SEM:f423d9a7417f3d44e6b8"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:cfh_pour",
+      "compared_current_ids": [
+        "SEM:f423d9a7417f3d44e6b8"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:daiiin_second_stage",
+      "compared_current_ids": [
+        "SEM:d3f8270267cf35b065ea",
+        "SEM:457e78f7ead9e778136d",
+        "SEM:1659676c07e492ee11f9",
+        "SEM:d097d980650437a7498d"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:da_again",
+      "compared_current_ids": [
+        "SEM:457e78f7ead9e778136d"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:da_next",
+      "compared_current_ids": [
+        "SEM:457e78f7ead9e778136d"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:da_double",
+      "compared_current_ids": [
+        "SEM:457e78f7ead9e778136d"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:ld_bind",
+      "compared_current_ids": [
+        "SEM:e20606103acc6e41cd29"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:ld_close",
+      "compared_current_ids": [
+        "SEM:e20606103acc6e41cd29"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:ld_double_close",
+      "compared_current_ids": [
+        "SEM:e20606103acc6e41cd29"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:ld_apply",
+      "compared_current_ids": [
+        "SEM:e20606103acc6e41cd29"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:os_place",
+      "compared_current_ids": [
+        "SEM:5265f13db444851070b2",
+        "SEM:f8e3f984c3a02c1edb2b"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:os_tool",
+      "compared_current_ids": [
+        "SEM:5265f13db444851070b2",
+        "SEM:f8e3f984c3a02c1edb2b"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:os_separation",
+      "compared_current_ids": [
+        "SEM:5265f13db444851070b2",
+        "SEM:f8e3f984c3a02c1edb2b"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:os_source_label",
+      "compared_current_ids": [
+        "SEM:5265f13db444851070b2",
+        "SEM:f8e3f984c3a02c1edb2b"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:cthy_apply_item",
+      "compared_current_ids": [
+        "SEM:6f23aef5de41b11ad0a3",
+        "SEM:4d7d7df41ce8625a212a"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:chair_take_water",
+      "compared_current_ids": [
+        "SEM:144115d3885fde70148b",
+        "SEM:92eaaee77d9ee739b81c"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:resume_retake",
+      "compared_current_ids": [
+        "SEM:09010ce151a5e8c7add0"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:talam_store",
+      "compared_current_ids": [
+        "SEM:db851ae8b4618e145916",
+        "SEM:28737354ecef470cbdb6"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:talam_vessel",
+      "compared_current_ids": [
+        "SEM:db851ae8b4618e145916",
+        "SEM:28737354ecef470cbdb6"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:talam_rest",
+      "compared_current_ids": [
+        "SEM:db851ae8b4618e145916",
+        "SEM:28737354ecef470cbdb6"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:talam_source",
+      "compared_current_ids": [
+        "SEM:db851ae8b4618e145916",
+        "SEM:28737354ecef470cbdb6"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:six_exception_architecture",
+      "compared_current_ids": [
+        "SEM:3d0df817acba373abe72",
+        "SEM:5f7cc94f30c1651b521b"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:action_triad",
+      "compared_current_ids": [
+        "SEM:d3bec6e4a48c6cd54f40",
+        "SEM:6bfdcd94cd3e1d1f8669"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:transfer_triad",
+      "compared_current_ids": [
+        "SEM:dce001a13511566473e6",
+        "SEM:42662a9e836ecbf20316"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:p_rare_renderer_rival",
+      "compared_current_ids": [
+        "SEM:dce001a13511566473e6"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:os_temporal_rival",
+      "compared_current_ids": [
+        "SEM:f8e3f984c3a02c1edb2b",
+        "SEM:77d107ef4b5bcca28dc5"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:os_local_order",
+      "compared_current_ids": [
+        "SEM:f8e3f984c3a02c1edb2b",
+        "SEM:77d107ef4b5bcca28dc5"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:os_simultaneous",
+      "compared_current_ids": [
+        "SEM:77d107ef4b5bcca28dc5"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:os_with",
+      "compared_current_ids": [
+        "SEM:77d107ef4b5bcca28dc5"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:os_but",
+      "compared_current_ids": [
+        "SEM:77d107ef4b5bcca28dc5"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:s_portion_rival",
+      "compared_current_ids": [
+        "SEM:e5de4c4c2c6bd9730595",
+        "SEM:219fdb0bc5ad624dbe9a"
+      ],
+      "identity_asserted": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:solk_visible_owner_rival",
+      "compared_current_ids": [
+        "SEM:3f066e37455d51055535",
+        "SEM:06a0ed345669458401bf"
+      ],
+      "identity_asserted": false
+    }
+  ],
+  "current_counterpart_basis_checks": [
+    {
+      "id": "SEM:06a0ed345669458401bf",
+      "claim": "SOLK → SAMMELN",
+      "claim_type": "lexical_hypothesis",
+      "original_basis": "1032bfd0b0c02df706971ab7f58289da42bde716a17087dad3f5737932d28080",
+      "effective_basis": "b2324e3291bf4c59b82f1a2adf64b7d6e19149fbc0f663696f9e9aa3d4007d89",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:89f0acc8f00507d2da15",
+          "scope": {
+            "kind": "literal_core_declaration_without_portability_claim"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:09010ce151a5e8c7add0",
+      "claim": "dchol/schol → DAVON",
+      "claim_type": "lexical_hypothesis",
+      "original_basis": "b6fb7ed8cbfcce674ad335ae2f4fd927a6184c59fd00609e68f58e45394f3fde",
+      "effective_basis": "42566ef30f7321d58a9c2c967a3824369b3eaddf02a0815e85daf50b2744ef96",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:4be2a76a1796f39c4afc",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Sidequest Pass 843: first mixed frequency tier",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_first_mixed_tier_eight_hundred_forty_third/EIGHT_HUNDRED_FORTY_THIRD_REPORT.md"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:54729952bdad63fbd2b1",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Sidequest Pass 817: dchol/schol means “davon”",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_resume_davon_eight_hundred_seventeenth/EIGHT_HUNDRED_SEVENTEENTH_REPORT.md"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:961fffabe0cdc86aa1d8",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Sidequest Pass 819: sixth compact workshop grammar",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_sixth_workshop_grammar_eight_hundred_nineteenth/EIGHT_HUNDRED_NINETEENTH_REPORT.md"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:f1d20a07d967c1a9cfd4",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Sidequest Pass 842: third frequency tier",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_third_frequency_tier_eight_hundred_forty_second/EIGHT_HUNDRED_FORTY_SECOND_REPORT.md"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:0f0500dbaad09095806d",
+      "claim": "ches → CH+E+S",
+      "claim_type": "formal_role",
+      "original_basis": "e2729bd39e45a7846332b391a9253ff2d7a311680003c7fee2a44b4107b0ace9",
+      "effective_basis": "7caa65e5ec7a1296c5c40e21f0f459e5162c7643fa4bbd1f6b2abf65331fbc96",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:e6f8a83bd1c14678f19b",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Sidequest Pass 811: CFH is the pressing verb",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_cfh_press_eight_hundred_eleventh/EIGHT_HUNDRED_ELEVENTH_REPORT.md"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:6ea76d9f647cdc8a028c",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Sidequest Pass 812: S is a sample, not another portion",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_s_sample_eight_hundred_twelfth/EIGHT_HUNDRED_TWELFTH_REPORT.md"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:144115d3885fde70148b",
+      "claim": "chair → CH+AIR",
+      "claim_type": "formal_role",
+      "original_basis": "5c04fcfcadb6f54837b1904c566504fe93fce9d288226d55855943c53ab4bbf2",
+      "effective_basis": "a6ec2a476121afba6afc52f1d49528afe557f1b4b711bd3258a7d6bf07042857",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:8e95a15388e78e50482e",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "H1/H2 — derselbe Pflanzenbesitzer, zwei Arbeitsblöcke",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_five_herbal_articles_seven_hundred_twenty_fifth/SEVEN_HUNDRED_TWENTY_FIFTH_REPORT.md"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:022cab0a2052d978387f",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Sidequest Pass 816: os means “dazu”",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_os_connector_eight_hundred_sixteenth/EIGHT_HUNDRED_SIXTEENTH_REPORT.md"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:f48119e4692b0fc68586",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Sidequest Pass 835: AIR water mini-paradigm",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_water_paradigm_eight_hundred_thirty_fifth/EIGHT_HUNDRED_THIRTY_FIFTH_REPORT.md"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:1659676c07e492ee11f9",
+      "claim": "IIN → STUFE",
+      "claim_type": "lexical_hypothesis",
+      "original_basis": "f836f13e608dd7f7fad2f7e12e0b5506ab3e823af65a1a5e2b107025eafeaf4e",
+      "effective_basis": "94bcf18e9f0db804ec28c9336115b6c6d9c3be729f88f0e3f9549f004c528001",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:998b859bdae959735a3b",
+          "scope": {
+            "kind": "literal_core_declaration_without_portability_claim"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:207d0e95fce30a97243e",
+      "claim": "qokylddy → OK+Y+LD+DY",
+      "claim_type": "formal_role",
+      "original_basis": "72a268ecd078af4c0f9e1fd649dc41bd66c0a3c45a73db11ef59a8ee032730f6",
+      "effective_basis": "0901e8b75e9508f62c735abf05ef6da6c06c9c47e72b14f7bb2674ea2b2996b2",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:95f3a9a2d47e403b6944",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Sidequest Pass 814: LD is bound fastening",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_ld_fastening_eight_hundred_fourteenth/EIGHT_HUNDRED_FOURTEENTH_REPORT.md"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:219fdb0bc5ad624dbe9a",
+      "claim": "S → TEIL",
+      "claim_type": "lexical_hypothesis",
+      "original_basis": "a77d35f5ae0df53a6e195baad1ef3b0c5412b491308691cf1a034b61745aca4d",
+      "effective_basis": "779ff994a4d2a2a80b0de6e65826b779b3cae56efe0533904093c57851b95943",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:0c807111fdebd2c70d95",
+          "scope": {
+            "kind": "literal_core_declaration_without_portability_claim"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:28737354ecef470cbdb6",
+      "claim": "TALAM → VERWAHREN",
+      "claim_type": "lexical_hypothesis",
+      "original_basis": "1cb203bb0be9f34b094f7870d5fca7f0f5a323241df8bda9bb278753255f2cdb",
+      "effective_basis": "7d76c5c3ee224a70c99e110dec3652a5882f9742e6cce5985e96454cc5a5fd71",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:89b1d9ea35aad7d06e72",
+          "scope": {
+            "kind": "literal_core_declaration_without_portability_claim"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:be89e1146e5829085941",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Pass 454 — das Herbal-Wörterbuch braucht nur drei echte Ganzkarten",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_herbal_component_completion_four_hundred_fifty_fourth/FOUR_HUNDRED_FIFTY_FOURTH_REPORT.md"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:08d326bd47102ebf0acb",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Sidequest pass 684: die 113 seltenen Karten lehren",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_rare_recipe_teaching_six_hundred_eighty_fourth/SIX_HUNDRED_EIGHTY_FOURTH_REPORT.md"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:2d01575083d91a46242f",
+      "claim": "OL → WEITER",
+      "claim_type": "lexical_hypothesis",
+      "original_basis": "98e1b43aae76ab3af29ff0501a4609f5f40dae87908da9bee81237affbafe1e0",
+      "effective_basis": "38fd7d0c4624f4f8ae6753e646775a302c79e8d0786d09741d438be32a6bd7d2",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:375ffe9945afb5cce814",
+          "scope": {
+            "kind": "literal_core_declaration_without_portability_claim"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:f9299be59f8e82837e6b",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Zweihundertneunzehnter Durchgang: elf portable Wörterbuchartikel",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_portable_dictionary_entries_two_hundred_nineteenth/TWO_HUNDRED_NINETEENTH_REPORT.md"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:2d192b1c74c9152d4870",
+      "claim": "LSH → SPÜLEN",
+      "claim_type": "lexical_hypothesis",
+      "original_basis": "834717f218d2cd7ab3cfb5c845083aac85065e888447b0187de6ec99a238b834",
+      "effective_basis": "619035a06534b4cb1877720b41c33f6b19d9abc975a71bded2ebbdb7280bc47f",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:1847be4548591e57cd01",
+          "scope": {
+            "kind": "literal_core_declaration_without_portability_claim"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:3d0df817acba373abe72",
+      "claim": "The writing combines record markers, internal technical fields, learned wholes and bound body fields.",
+      "claim_type": "semantic_model",
+      "original_basis": "944f6c093f9adf64843224bf01e813b10d8b813d7f04bb1884b3b83a7fb03726",
+      "effective_basis": "191a94a9529fb9e1e0479b2c9ef33ced423cc49d9434c96e867a3a92e09c4dbb",
+      "cases": [
+        {
+          "id": "REPORT_PROPOSAL:3654888c85740c41e520",
+          "scope": {
+            "case": "explicit_prose_model",
+            "section": "Korrigiertes Gesamtmodell",
+            "source": "experiments/yolo/gdt737_held_body_record_role_transfer/REPORT.md"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:3d954a3400b90461c862",
+      "claim": "lshedy → Waschen; Ende",
+      "claim_type": "lexical_hypothesis",
+      "original_basis": "ecf935d430d1420f7f6eca4df47d972cf4d006f40eebc83c712afd47bffb0086",
+      "effective_basis": "babd09cfe9bdfc8d0d45ffc7041346d0c1889949fa0a324d79321870aeef077b",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:1bc3cd9cdc137494f1b6",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "B1 (f81v)",
+            "semantic_column": "konkrete Rücklesung",
+            "source": "experiments/yolo/sidequest_semantic_quantity_preparation/PREPARATION_PARADIGM_REPORT.md"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:3f066e37455d51055535",
+      "claim": "SOLK → SAMMELSTELLE",
+      "claim_type": "lexical_hypothesis",
+      "original_basis": "0072240be3ec6d5c7dd8907a80017c0d322b139e00f215c02f05ea8ae2aaeea1",
+      "effective_basis": "e62faeb9a978764d53ee0ca246e796b1e0fae7e82c9e9f7a50be2a662fcbe155",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:b7cbab83cdf8d6941915",
+          "scope": {
+            "kind": "literal_core_declaration_without_portability_claim"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:3fa671fb387e25cb1be6",
+      "claim": "LSH → WASCHEN",
+      "claim_type": "lexical_hypothesis",
+      "original_basis": "5844f6aa5971e07ec14af52c238e320ced662c4e22e0d15f38353994049942bf",
+      "effective_basis": "747331dc2ce99f7c57b7de7981cc1f364b35332af4dd6723097888fc7694622d",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:41642ae0368dfe5faf3f",
+          "scope": {
+            "kind": "literal_core_declaration_without_portability_claim"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:011180e82b9a55af31a4",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Pass 774 — LSH wird als kleine Bio-Regel befördert",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_lsh_mini_paradigm_seven_hundred_seventy_fourth/SEVEN_HUNDRED_SEVENTY_FOURTH_REPORT.md"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:42662a9e836ecbf20316",
+      "claim": "P- before CHED contributes movement into or toward the recipient.",
+      "claim_type": "lexical_hypothesis",
+      "original_basis": "662a86a337052c955355e02b3b553cc345dea8c8f23ae419982f41d8622fcaaf",
+      "effective_basis": "d21afaa08defea0a8ec939be5240cb3fdb6ff17eafe74fff2307f47f4d9d1056",
+      "cases": [
+        {
+          "id": "CLEAN_HYP:06a9f2c217a86e6abb29",
+          "scope": null
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:457e78f7ead9e778136d",
+      "claim": "DA → ZWEI",
+      "claim_type": "lexical_hypothesis",
+      "original_basis": "f65d0747a14fb149b80517ce3db75c9b5b788065e0b30e7313a111d7dccca24f",
+      "effective_basis": "2f661a07bd1d3a661c8baa58cfdb681a0ddd9f2ac4ae5cf265e496196a6e8a6f",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:38838bbfcfe718a7ba14",
+          "scope": {
+            "kind": "literal_core_declaration_without_portability_claim"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:7b1614ceb26bcf510c24",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Sidequest Pass 815: fifth workshop grammar",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_fifth_workshop_grammar_eight_hundred_fifteenth/EIGHT_HUNDRED_FIFTEENTH_REPORT.md"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:49c8d4c1524027989d82",
+      "claim": "O → VORGANG",
+      "claim_type": "lexical_hypothesis",
+      "original_basis": "33413e88b0b3367f541c9725a254623eb9d1e95809fdc06be69c46525ec43ca4",
+      "effective_basis": "74ee6f2cb4fc081f932d58fb99cbd4f18c049e1fb43b0accd8cfdc1e1084a034",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:294239af41ba845cdec9",
+          "scope": {
+            "kind": "literal_core_declaration_without_portability_claim"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:4d7d7df41ce8625a212a",
+      "claim": "T → ANWENDEN",
+      "claim_type": "lexical_hypothesis",
+      "original_basis": "689dd393bd8434e2fe3f1806cc22675cb021875b35f5a6e62c38c2d90d005cda",
+      "effective_basis": "3e8fb8f5fcfc7d7f143ece87cd20e9b2b7491adb915abf8c7d903b72dc0dbf57",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:3b8214db7ee61323f418",
+          "scope": {
+            "kind": "literal_core_declaration_without_portability_claim"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:5265f13db444851070b2",
+      "claim": "OS → FACH",
+      "claim_type": "lexical_hypothesis",
+      "original_basis": "13fb532f413c612237859e02217669d89d67b97980fb28188c3f3d0234a772ec",
+      "effective_basis": "2b180bfff59e8226066c7fb505ca47d1bdc98ff936fa33affd3e1fd4befcae37",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:73ec53860d31ac6e985e",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Sidequest pass 684: die 113 seltenen Karten lehren",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_rare_recipe_teaching_six_hundred_eighty_fourth/SIX_HUNDRED_EIGHTY_FOURTH_REPORT.md"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:3b775bbc4e09cf02224b",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Pass 463 — gemeinsame Kerne für alle zehn Seiten",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_ten_page_common_roots_four_hundred_sixty_third/FOUR_HUNDRED_SIXTY_THIRD_REPORT.md"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:5387269c6ee6d507293f",
+      "claim": "chochor → HO+CH+OR",
+      "claim_type": "formal_role",
+      "original_basis": "8f1e81ec068da60a27ae326e278383f9bfa13194823ecbbd22eba8d5275d1feb",
+      "effective_basis": "cabe7d34d11d3424296e9a8f2d9ee395a85ce7f6bf74914a98d784daad59a553",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:9559cb8acd556a3fcfd1",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Sidequest Pass 807: three material roots",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_material_roots_eight_hundred_seventh/EIGHT_HUNDRED_SEVENTH_REPORT.md"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:57f1a048ef81f70ca78a",
+      "claim": "aiin → SOLLMASS",
+      "claim_type": "lexical_hypothesis",
+      "original_basis": "205d504ca89ade3bd0eaa46aeb3e50800619acb605cdc023c068ec9d8f7877ed",
+      "effective_basis": "f09c293dff8fa336f46762ebb6dc5468c89c63d2846d24311b5c79c283c636e8",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:40d0323eadd22df800ad",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Sidequest Pass 812: S is a sample, not another portion",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_s_sample_eight_hundred_twelfth/EIGHT_HUNDRED_TWELFTH_REPORT.md"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:5f7cc94f30c1651b521b",
+      "claim": "The V45 working register combines reusable technical abbreviations with a small learned whole vocabulary.",
+      "claim_type": "semantic_model",
+      "original_basis": "72a65f67a42894e20fce05c5062d1b1e4ec751d48292b1812775fc39b0cbd3c1",
+      "effective_basis": "7e1c990ae4082bdf9226fefeabb3add544d3e63480e1497af9c5a6b7e311be2d",
+      "cases": [
+        {
+          "id": "REPORT_PROPOSAL:21dfb3eaff58ea480a50",
+          "scope": {
+            "case": "explicit_prose_model",
+            "section": "Interpretation boundary",
+            "source": "experiments/yolo/gdt668_seventy_six_residual_family_completion/REPORT.md"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:625fa7fe65c8fd9b5224",
+      "claim": "CHK → WÄRMEN",
+      "claim_type": "lexical_hypothesis",
+      "original_basis": "d9245d0d0f63c6644348ac4e8d4004b089c1eee33589aace44845495ec35c583",
+      "effective_basis": "8dc159eef36003f8e27a61eded0e0b88d15b5b7e2f68d98df9ae71d55ab30024",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:6ffbe36b893f04dc355c",
+          "scope": {
+            "kind": "literal_core_declaration_without_portability_claim"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:f659ee095140e1bf7280",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Ergebnis",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_thermal_temporal_completion/R3_REPORT.md"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:287039bcd1930b06b4fd",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Das kleine produktive Wörterbuch",
+            "semantic_column": "gewählte Bedeutung",
+            "source": "experiments/yolo/sidequest_semantic_thermal_temporal_completion/SELECTED_THERMAL_TEMPORAL_REPORT.md"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:6a8899208267731e6e8f",
+      "claim": "lsho → LSH+O",
+      "claim_type": "formal_role",
+      "original_basis": "1984e637625857ac0e79813c7b611087555b9e0dbe42acdae946b43119ef7527",
+      "effective_basis": "847f05a1e0708fa1ac433383840c825f1b5a0e4dfa23df166e39ec2a4f5ddfc6",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:7ba60afc6e4b2e2a3f8a",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Sidequest Pass 805: LSH is the rinse root",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_lsh_rinse_eight_hundred_fifth/EIGHT_HUNDRED_FIFTH_REPORT.md"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:6bfdcd94cd3e1d1f8669",
+      "claim": "T → BEARBEITEN",
+      "claim_type": "lexical_hypothesis",
+      "original_basis": "0cc897fee2837a0d2e2662671e5f1de277a22130fbf5ec5255030def79d3841f",
+      "effective_basis": "57aae2d6e36a50cedfd10df8c1a189824bdf9a23e87e67746c210b230fe38fde",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:f3ecdd857d6a9bbb9592",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "f70v: die Grammatik ist portabel, ihre Sachwoerter sind es nicht",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_four_page_reality_check_nine_hundred_ninth/NINE_HUNDRED_NINTH_REALITY_CHECK_REPORT.md"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:e6eefa84d832b8142e8f",
+          "scope": {
+            "kind": "literal_core_declaration_without_portability_claim"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:6f23aef5de41b11ad0a3",
+      "claim": "cthy → T+Y",
+      "claim_type": "formal_role",
+      "original_basis": "4b7a92ccc2a4450100eedee7716c490429d9694a3879cda6ed33613b3282988f",
+      "effective_basis": "7bf793af8eb0b22e5fd56940eee7ddec57513f3c10f56aae25c98ec60ce5defe",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:7a6fa58c1b7c3d839eda",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Sidequest Pass 816: os means “dazu”",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_os_connector_eight_hundred_sixteenth/EIGHT_HUNDRED_SIXTEENTH_REPORT.md"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:77d107ef4b5bcca28dc5",
+      "claim": "OS → DAZU",
+      "claim_type": "lexical_hypothesis",
+      "original_basis": "fb97d444b11d8a3129ac0d2ac5ed321a42ee84394c4f8b3364774155e8a55961",
+      "effective_basis": "1506363b4fb3b7a8bd560aa3b821e60eb908de0049b48879ad1c68378d99b1a9",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:d6fe317bc46ad4ff918c",
+          "scope": {
+            "kind": "literal_core_declaration_without_portability_claim"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:82cea98d87d0ccd66a78",
+      "claim": "SHED → STEHENLASSEN",
+      "claim_type": "lexical_hypothesis",
+      "original_basis": "3857159830d89eb6bbe14d353409dd0c98e74cc7cb4035dd2c6ab1d7ad7d2a2b",
+      "effective_basis": "a5848a517b6bd6c8526ab79183d57937a9d261cf0caa3c2ebab26941feecca0a",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:cd0383640c187b892c7f",
+          "scope": {
+            "kind": "literal_core_declaration_without_portability_claim"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:87d0df15b109ffdff135",
+      "claim": "DA → zweiter Durchgang",
+      "claim_type": "lexical_hypothesis",
+      "original_basis": "dab6fb45298331c9fc1dc4e60b19074e00daafcab9e6baa6fb7cf12901d9831e",
+      "effective_basis": "dba058dc58699cbce7b0e2f832723f7d96608c8d8927a1fad9facadf7f9ad603",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:93a5806f29d6e82f047d",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT582",
+            "section": "Kompaktes Kernwörterbuch",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt582_concrete_stem_default_fill/REPORT.md"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:8a78ebadc07db0935fda",
+      "claim": "R → KÜHLEN",
+      "claim_type": "lexical_hypothesis",
+      "original_basis": "31a85c396b31b7b699dc2cee73ac0941160728d4a665a8db3b69378318f82f82",
+      "effective_basis": "3ff6f197db3af2b2b2d409b537bd116cde9d55c25b37d001d1cfa3a60b89cd00",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:dde165fbf7813d3376f4",
+          "scope": {
+            "kind": "literal_core_declaration_without_portability_claim"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:92eaaee77d9ee739b81c",
+      "claim": "AIR → WASSER",
+      "claim_type": "lexical_hypothesis",
+      "original_basis": "eea9432c61628ee411088be3cfcdac7ba8877da27d87f6356d2faf5f7e6a4ce9",
+      "effective_basis": "b6d497e5abbab5bb5b5f5ce914eb03869a0ec02e26e1132b3321654fa5235b22",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:1e1cf6c44c7dc17dc7cd",
+          "scope": {
+            "kind": "literal_core_declaration_without_portability_claim"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:533dd74480f3963bfeb5",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Die fünf AIR-Karten",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_concrete_medium_revision_seven_hundred_twenty_fourth/SEVEN_HUNDRED_TWENTY_FOURTH_REPORT.md"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:c71b938d4b4cfd781807",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Was die Bilder aendern",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_four_fresh_page_transfer_one_thousand_third/PASS1003_REPORT.md"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:0037f6ffe3623fb608b4",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "10. Gegenproben und verbleibende Ganzwerte",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_medium_substance_completion/R3_MEDIUM_SUBSTANCE_REPORT.md"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:3e1736a527859e72e3c4",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "AIR becomes a real candidate root",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_medium_substance_completion/SELECTED_MEDIUM_SUBSTANCE_COMPLETION_REPORT.md"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:d2cf0ce72ed8b8b87a86",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Herbal H1",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_vessel_tool_station_completion/VESSEL_TOOL_STATION_REPORT.md"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:9d512432d001b98a50ea",
+      "claim": "SH → HALTEN",
+      "claim_type": "lexical_hypothesis",
+      "original_basis": "489d364648ba26b5b0d4818ee63b0448082515cb3ee3daa00ddeebc37b0b5fd4",
+      "effective_basis": "7ca73d13bc6b25e461cc10c4a4b5cdc218599ef124473ecb0cb2983e2dcff0e7",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:f45747e17eb6a26f6736",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT420",
+            "section": "Die neun Kopfkarten",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt420_action_head_slot_license_atlas/REPORT.md"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:cdd92fe388ac03c07251",
+          "scope": {
+            "kind": "literal_core_declaration_without_portability_claim"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:0e3dee8e1dce9bee22ce",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT561",
+            "section": "Das Wörterbuch bleibt klein",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt561_typed_state_card_composition_reader/REPORT.md"
+          }
+        },
+        {
+          "id": "REPORT_PROPOSAL:2057197bc324c6189e2d",
+          "scope": {
+            "case": "gewählter Minimalwert",
+            "section": "Ergebnis / Kern | gewählter Minimalwert | stärkster Rivale | Ergebnis",
+            "source": "experiments/yolo/gdt410_provisional_core_rival_tournament/REPORT.md"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:a02c14cd458c434b7323",
+      "claim": "pchedal → P+CHD+AL",
+      "claim_type": "formal_role",
+      "original_basis": "968c2606b99536e87a6031556855cf79c0f26c407ef94cb01cfb37f3881ac2f3",
+      "effective_basis": "bba468d0eaa6ff188b8cf967aa02a1e12d7bbda80e47523c31082df61e5d6444",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:4f5340ee7192cae79190",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Sidequest Pass 804: P is a recipient-directed action",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_p_recipient_eight_hundred_fourth/EIGHT_HUNDRED_FOURTH_REPORT.md"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:a9bd5b056876b4a1bac1",
+      "claim": "cphy → P+Y",
+      "claim_type": "formal_role",
+      "original_basis": "d6ae848594b9eb00ad96ea578db135f5c0e5032c9dcda9b3d2d850948d2667a9",
+      "effective_basis": "bc8033856ccc22ceb37dba36da96842fb0a9ef033a76e6f5dd667a2e59ccf073",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:dcdc17e514c33e312896",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Sidequest Pass 804: P is a recipient-directed action",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_p_recipient_eight_hundred_fourth/EIGHT_HUNDRED_FOURTH_REPORT.md"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:b035c80928c1d868b3c9",
+      "claim": "SHED → ABSETZEN",
+      "claim_type": "lexical_hypothesis",
+      "original_basis": "f17a5f5710ef9b988fbb6c864e1d4bf62d486512f075f06684de1146e9167238",
+      "effective_basis": "c97882a472dda358e2f99557fc01031312007a0d6fcb097192461e58f329e47e",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:1c8e04fd86fd78b419c4",
+          "scope": {
+            "kind": "literal_core_declaration_without_portability_claim"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:86138e24fb2e632d2cad",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Ergebnis",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_thermal_temporal_completion/R3_REPORT.md"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:ac35478d1e8a46575351",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Das kleine produktive Wörterbuch",
+            "semantic_column": "gewählte Bedeutung",
+            "source": "experiments/yolo/sidequest_semantic_thermal_temporal_completion/SELECTED_THERMAL_TEMPORAL_REPORT.md"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:b9e8834a9415bf81d330",
+      "claim": "Die vierzehn Seiten verwenden ein lernbares Werkstattsystem aus kurzen Bedeutungskernen, auswendig gelernten Schreibligaturen und bildgebundenen Sachfuellungen. Ein Lehrling muss nicht fuer jede lange Karte ein neues Wort lernen.",
+      "claim_type": "semantic_model",
+      "original_basis": "d4d16924cc08406e65d3ccadddfc0994c687de4c7d0709c31611d75d37e861e0",
+      "effective_basis": "10a084f4873761f6e58e4b513e56b8680fc6e74d95121cc306a04597f1caa2ed",
+      "cases": [
+        {
+          "id": "FINAL-SEM:5347b9fc0fe00237f550",
+          "scope": "Historical proposal in the cited document revision; source meanings are not confirmed."
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:c5e196bdafe629d6cd8b",
+      "claim": "CKH → DURCHLASS",
+      "claim_type": "lexical_hypothesis",
+      "original_basis": "6a8850f834c98a6dd4515800cf6016e0806e59773693e957b089490c974a1e2e",
+      "effective_basis": "d63a4607706d6128978a0a26dd52c7235679dcc32fdd7ec7090396a698fc2580",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:412c062efcbe38fa829b",
+          "scope": {
+            "kind": "literal_core_declaration_without_portability_claim"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:c606b93538af6d37a772",
+      "claim": "L+DY → LEITEN · SCHLUSS",
+      "claim_type": "lexical_hypothesis",
+      "original_basis": "346aaf890184c11dc1d57abc2c84ea1d2afad6e6b75eeb26aa42f8b18921bfb2",
+      "effective_basis": "047edbd3a4451b1fa1ea21e0c322bf23d2e209919b5afe3c9bf132c9c0213124",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:9a253b636c96f0613203",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Sidequest Pass 814: LD is bound fastening",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_ld_fastening_eight_hundred_fourteenth/EIGHT_HUNDRED_FOURTEENTH_REPORT.md"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:c715d4f00ebdf1d22dc5",
+      "claim": "HO → ZUTAT",
+      "claim_type": "lexical_hypothesis",
+      "original_basis": "d30f90368667aca07be7dc510d0e0b6ca62372a00d0579e21e2730c75192a558",
+      "effective_basis": "61c67115f12aa51b908df6dc65c7a9b7a0ae4da7bfb55835fd0dfb9d540b4116",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:d1f38c3f28a3080bbce3",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Pass 456 — ein gemeinsames Prosa-Handbuch für alle sieben Textseiten",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_combined_prose_manual_four_hundred_fifty_sixth/FOUR_HUNDRED_FIFTY_SIXTH_REPORT.md"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:c6f75e1ae88f6b4edea6",
+          "scope": {
+            "kind": "literal_core_declaration_without_portability_claim"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:e8ecf459531fc20d226b",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Pass 454 — das Herbal-Wörterbuch braucht nur drei echte Ganzkarten",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_herbal_component_completion_four_hundred_fifty_fourth/FOUR_HUNDRED_FIFTY_FOURTH_REPORT.md"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:a287a6b582dc6ee717a4",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "4. HO — Zutat; Pflanze ist die Bildausführung",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_medium_substance_completion/R3_MEDIUM_SUBSTANCE_REPORT.md"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:c7d7c04eb4d3e95d61bb",
+      "claim": "cfhy → CFH+Y",
+      "claim_type": "formal_role",
+      "original_basis": "841af4d80803cd0a6be682f1de8510a50a142a9ab5d39cb5e8260977418b25f4",
+      "effective_basis": "73ec5d59b23a1eaf52a6928fcb7ce7ea96de912c4584ce35273026eb7a5710cf",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:f8d3132d15b42daee6d8",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Sidequest Pass 811: CFH is the pressing verb",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_cfh_press_eight_hundred_eleventh/EIGHT_HUNDRED_ELEVENTH_REPORT.md"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:d097d980650437a7498d",
+      "claim": "daiiin → Sollstufe II",
+      "claim_type": "lexical_hypothesis",
+      "original_basis": "202f206063ebfff6fcc186a3f9a9640fbc50b3ac1a4bca4ec128e7f2abb6d683",
+      "effective_basis": "14f8118c4cfec39927a218f8b5abe77d12feb6f321f3b01e4e04d82913739f6b",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:db7506adb684dc56f74f",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Pass 514 — zweiundzwanzig eingebettete Komponentenstreifen",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_component_strips_five_hundred_fourteenth/FIVE_HUNDRED_FOURTEENTH_REPORT.md"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:d3bec6e4a48c6cd54f40",
+      "claim": "OK → ANSETZEN",
+      "claim_type": "lexical_hypothesis",
+      "original_basis": "b946ea1f2c14fe48be8957636484f4409c46275a30168412d3cf68d2c4423e04",
+      "effective_basis": "92d4cf9683d12e8cf91d47a4b758cc4e34b819a537771ecff541b6db86cacdaa",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:87bc6a16f4839b9dd58c",
+          "scope": {
+            "kind": "literal_core_declaration_without_portability_claim"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:1c294f306f7321e01e6b",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Ergebnis",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_thermal_temporal_completion/R3_REPORT.md"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:d3f8270267cf35b065ea",
+      "claim": "daiiin → DA+IIN",
+      "claim_type": "formal_role",
+      "original_basis": "c3414c0d7c43f80fd3c0283b85a3f88807ff8e039f1034f56117fbe9e9f09263",
+      "effective_basis": "36b6b431a3766f845ed5df30834c956d712a3e38f7ab10e29cf607a9527486e5",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:bd1e7d802a83d05bde40",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Sidequest Pass 813: DA is bound TWO before STAGE",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_da_two_eight_hundred_thirteenth/EIGHT_HUNDRED_THIRTEENTH_REPORT.md"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:e41c108ad8f420a343eb",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Sidequest Pass 812: S is a sample, not another portion",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_s_sample_eight_hundred_twelfth/EIGHT_HUNDRED_TWELFTH_REPORT.md"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:db851ae8b4618e145916",
+      "claim": "talam → BEISEITESTELLEN",
+      "claim_type": "lexical_hypothesis",
+      "original_basis": "f59a9a4d8a6cc93858b01cb226e6070a99be2507653bba554ace87c0f8d23edc",
+      "effective_basis": "b889b372c24368ca8a2c936560d52e4ebc316ccb8e0ee05edcad13e3b59e2586",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:b8ce95174504a6eeafe2",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Sidequest Pass 819: sixth compact workshop grammar",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_sixth_workshop_grammar_eight_hundred_nineteenth/EIGHT_HUNDRED_NINETEENTH_REPORT.md"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:ec126fee5b105329597d",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Sidequest Pass 818: talam means “beiseitestellen”",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_talam_set_aside_eight_hundred_eighteenth/EIGHT_HUNDRED_EIGHTEENTH_REPORT.md"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:dce001a13511566473e6",
+      "claim": "P → EINBRINGEN",
+      "claim_type": "lexical_hypothesis",
+      "original_basis": "ea61f06e8cbc33692fd4aac8e7a6c881aa294162e557a29783c91fe8a2bf3e6d",
+      "effective_basis": "3c8e2827034eaa6a2b94efba41922d9157d5dbecab23ed98416d2141a3714a59",
+      "cases": [
+        {
+          "id": "REPORT_PROPOSAL:5173a0174de7b0a6cea9",
+          "scope": {
+            "case": "stärkster Rivale",
+            "section": "Ergebnis / Kern | gewählter Minimalwert | stärkster Rivale | Ergebnis",
+            "source": "experiments/yolo/gdt410_provisional_core_rival_tournament/REPORT.md"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:e20606103acc6e41cd29",
+      "claim": "LD → BEFESTIGEN",
+      "claim_type": "lexical_hypothesis",
+      "original_basis": "4dfec55dec6e3020b4f5375dc93cce974a364ccfeae7e7b90487ae1471a33a44",
+      "effective_basis": "c43d12a730ee64205a3ed2d8f972777bec6fe91b1d82806f9eff3445dee79203",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:d280d0af9e1149fb121a",
+          "scope": {
+            "kind": "literal_core_declaration_without_portability_claim"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:0b21fb78c9393efa80b1",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Sidequest Pass 815: fifth workshop grammar",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_fifth_workshop_grammar_eight_hundred_fifteenth/EIGHT_HUNDRED_FIFTEENTH_REPORT.md"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:e5de4c4c2c6bd9730595",
+      "claim": "S → PROBE",
+      "claim_type": "lexical_hypothesis",
+      "original_basis": "4a2715d078ad8b408849140ea820196ac5ecf76e8734133ba532cea6adc5c16b",
+      "effective_basis": "5b5609e21e244ae0cc426587b350546269b366cd80003984bf48f8e8ad9863d0",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:6c0cc5fd506c842b6aa1",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Sidequest Pass 815: fifth workshop grammar",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_fifth_workshop_grammar_eight_hundred_fifteenth/EIGHT_HUNDRED_FIFTEENTH_REPORT.md"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:47e11eedf827a996e1d8",
+          "scope": {
+            "kind": "literal_core_declaration_without_portability_claim"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:ec1a25e412565b0a1756",
+      "claim": "OR → ANSATZ",
+      "claim_type": "lexical_hypothesis",
+      "original_basis": "5ec49716383a817ed1af5590b6a001348432eda7c8076bf03c54a355adb4e071",
+      "effective_basis": "993e1314e2a207a7b96363c5922b7ff0442b255c86a7fd9b5f202539d889d5b9",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:769b68031bd70fd54300",
+          "scope": {
+            "kind": "literal_core_declaration_without_portability_claim"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:db7de1a63a799cb02baf",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Ergebnis",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_four_register_visual_core_check_one_thousand_nineteenth/PASS1019_REPORT.md"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:4896437a216e5cf77587",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Selection among the four perspectives",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_medium_substance_completion/SELECTED_MEDIUM_SUBSTANCE_COMPLETION_REPORT.md"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:c76fd02f4d8046cae54d",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Zweihundertneunzehnter Durchgang: elf portable Wörterbuchartikel",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_portable_dictionary_entries_two_hundred_nineteenth/TWO_HUNDRED_NINETEENTH_REPORT.md"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:f1b0564731b02e437a9d",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Zweihundertzwanzigster Durchgang: drei Besitzer pro Wörterbuchartikel",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_three_owner_substitution_two_hundred_twentieth/TWO_HUNDRED_TWENTIETH_REPORT.md"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:fe84da6508aaf33fede6",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Revision gegenüber V42 und V49",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_theory_candidates_v54/V54_R2_HISTORICAL_BIOLOGICAL_REPORT.md"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:f22a9e7a671532981641",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Revision gegenüber V42 und V49",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_theory_candidates_v54/V54_R3_TECHNICAL_BIO_REGISTER_REPORT.md"
+          }
+        },
+        {
+          "id": "CLEAN_GAP_AC:995_or_ansatz",
+          "scope": {
+            "kind": "historical_source_local_hypothesis",
+            "limits": "No constituent meaning export outside the stated root/whole-card/construction scope. Source recovery is not scientific confirmation. Retain historical alternatives and later corrections.",
+            "source": "experiments/yolo/sidequest_semantic_historical_short_headwords_nine_hundred_ninety_fifth/PASS995_REPORT.md",
+            "unit": "Pass995 editorial headword choice; the report expressly retains the earlier function and allows local register extensions."
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:f3a72c06950c4f86e6f2",
+      "claim": "lshedy → LSH+E+DY",
+      "claim_type": "formal_role",
+      "original_basis": "6a34f9ee1b8b89d4d3ee595f80e0c1ee75bd7d547936b85945695a6843aeb1d0",
+      "effective_basis": "2beadf55f6a9bae9b3e4468d001da79eed841f6349f01449d1dc86942141d25e",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:e2035bf3efdabcb060fb",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Sidequest Pass 805: LSH is the rinse root",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_lsh_rinse_eight_hundred_fifth/EIGHT_HUNDRED_FIFTH_REPORT.md"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:f423d9a7417f3d44e6b8",
+      "claim": "CFH → AUSPRESSEN",
+      "claim_type": "lexical_hypothesis",
+      "original_basis": "7b75be5107b3f7b92da12b427952739a5bee08b3c750d0e60a59edc301a9de13",
+      "effective_basis": "353193d4f0fec0e06c2d9b00ac935f23a69a98b3f1e64c3309e23f6ca8f8004b",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:9ae51759737bcedc8c93",
+          "scope": {
+            "kind": "literal_core_declaration_without_portability_claim"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:ca49e6c64ffd73ce8837",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Sidequest Pass 815: fifth workshop grammar",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_fifth_workshop_grammar_eight_hundred_fifteenth/EIGHT_HUNDRED_FIFTEENTH_REPORT.md"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    },
+    {
+      "id": "SEM:f8e3f984c3a02c1edb2b",
+      "claim": "os → DAZU",
+      "claim_type": "lexical_hypothesis",
+      "original_basis": "f4b657b3e267c756584ea1524461d6d66977cea0c709d07c2cecd1af243d84f3",
+      "effective_basis": "d3642919197b104ba772b00c8db31ae85820e922659d608b3dbb001f62a19c34",
+      "cases": [
+        {
+          "id": "CLEAN_COMPONENT:bcd1202b4265adfbd749",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Sidequest Pass 816: os means “dazu”",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_os_connector_eight_hundred_sixteenth/EIGHT_HUNDRED_SIXTEENTH_REPORT.md"
+          }
+        },
+        {
+          "id": "CLEAN_COMPONENT:7fb742bf0a582f7b79ea",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Sidequest Pass 819: sixth compact workshop grammar",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_sixth_workshop_grammar_eight_hundred_nineteenth/EIGHT_HUNDRED_NINETEENTH_REPORT.md"
+          }
+        }
+      ],
+      "comparison_scope": "Navigation and exact source-case comparison; not an operational identity assertion."
+    }
+  ],
+  "counts": {
+    "selected_blocks": 100,
+    "complete_selected_blocks_read": 100,
+    "cards": 42,
+    "coverage_classes": {
+      "additional_addressable_assertion": 37,
+      "local_composition_instance": 5
+    },
+    "block_dispositions": {
+      "method_context_or_result": 20,
+      "existing_assertion_or_source_case": 43,
+      "recovered_assertion_or_explicit_local_instance": 37
+    },
+    "counterpart_cards": 51,
+    "exact_selected_source_checks": 100
+  },
+  "validation": {
+    "status": "PASS",
+    "all_card_validators_pass": true
+  },
+  "limits": [
+    "No raw manuscript, images, GDT primaries, V candidate files or untracked sources accessed.",
+    "Historical rival rejection is internal to the cited working model; no global lexeme falsification.",
+    "Local composition instances are retained for addressability and counted separately from new independent assertions.",
+    "No operational identity, source correction, failure inheritance or experiment."
+  ]
+}

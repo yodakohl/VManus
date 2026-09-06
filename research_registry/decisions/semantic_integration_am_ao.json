@@ -1,0 +1,118 @@
+{
+  "schema": "semantic_review_integration_audit_v1",
+  "review_id": "AM_AO_INTEGRATION",
+  "status": "PASS_DERIVED_PACKETS_ONLY",
+  "batches": [
+    {
+      "batch": "AM",
+      "source_review": "research_registry/decisions/clean_gap_review_am.json",
+      "source_review_sha256": "74d5c3c0e1916bdda5958f58bbce0146498160ff26e01ec7844ab0ee99be1200",
+      "peer_review": "research_registry/decisions/clean_gap_peer_review_am.json",
+      "peer_review_sha256": "b03ac53397c015b24b95fe10e0c5d4b7f0117aa4818843e7f723b971084252bd",
+      "derived_review": "research_registry/decisions/clean_gap_review_am_integrated.json",
+      "derived_sha256": "88e676a7d225b77576822cbbd318efc22eb8b55b9b902b4d3f8280a0c712f48f",
+      "cards": 33,
+      "claim_adjustments": [],
+      "all_original_claims_retained": true,
+      "all_member_ids_types_statuses_evidence_dispositions_preserved": true,
+      "card_schema_pass": 33,
+      "primary_evidence_checks": 33
+    },
+    {
+      "batch": "AO",
+      "source_review": "research_registry/decisions/clean_gap_review_ao.json",
+      "source_review_sha256": "a88b058118bd1d2eb9f909db511e6ec6a595d1457c9caeb7f48c14407907865e",
+      "peer_review": "research_registry/decisions/clean_gap_peer_review_ao.json",
+      "peer_review_sha256": "f6b57d9af2e540e0a76a3cad41ebda55c303c4636d71784b86cebf9fb1a2c70e",
+      "derived_review": "research_registry/decisions/clean_gap_review_ao_integrated.json",
+      "derived_sha256": "1d8c99d915fcfc5d48c6e2e97e15516386a0967db70937d2507d1b767ba68609",
+      "cards": 31,
+      "claim_adjustments": [
+        {
+          "card_id": "CLEAN_GAP_AO:or_entry_rival",
+          "field": "claim",
+          "before": "Pass220 considers EINTRAG as the rival OR value: it reads better in diagrams but is rejected there as incompatible with the plant and wet-workshop reading. This is a historical considered rival, not an independently confirmed refutation.",
+          "after": "Pass220 considers EINTRAG as the rival OR value: it reads better in diagrams but is rejected in the source as incompatible with the plant and wet-workshop reading. This is a historical considered rival, not an independently confirmed refutation.",
+          "reason": "The EINTRAG rival is explicit and criticized for the plant/wet-workshop reading, not independently refuted. Replace the ambiguous phrase rejected there: it reads better in diagrams; its rejection concerns portability across the three source contexts.",
+          "authority": "root_requested_application_of_independent_peer",
+          "peer_path": "research_registry/decisions/clean_gap_peer_review_ao.json"
+        },
+        {
+          "card_id": "CLEAN_GAP_AO:shared_formulary_stack",
+          "field": "claim",
+          "before": "Pass122 interprets the section-independent 17-card deck as a compressed formulary stack: next/previous preparation → action → item/preparation/part → source → measure → target → state/result → continuation/closure. Adjacent places can fuse in one card, while Y–AIIN–Y and OL–(OL+OR)–OL override linear order as measure and continuation frames.",
+          "after": "Pass122 interprets the section-independent 17-card deck as a compressed formulary stack: next/previous preparation → action → item/preparation/part → source → measure → target → state/result → continuation/closure. Adjacent places can fuse in one card, while Y–AIIN–Y and OL–(OL+OR)–OL override linear order by binding the same measure to two items and bracketing the previous preparation with continuation, respectively.",
+          "reason": "The full 17-card order/fusion/frame model is independently addressable. The current frame summary omits two defining constraints: one same measure binds two items, and the continuation frame brackets the previous preparation. Preserve those conditions explicitly.",
+          "authority": "root_requested_application_of_independent_peer",
+          "peer_path": "research_registry/decisions/clean_gap_peer_review_ao.json"
+        }
+      ],
+      "all_original_claims_retained": true,
+      "all_member_ids_types_statuses_evidence_dispositions_preserved": true,
+      "card_schema_pass": 31,
+      "primary_evidence_checks": 33
+    }
+  ],
+  "summary": {
+    "cards": 64,
+    "adjusted_claims": 2,
+    "original_source_and_peer_files_unchanged": true,
+    "all_schema_checks_pass": true,
+    "operational_changes": false
+  },
+  "input_sha256": {
+    "research_registry/decisions/clean_gap_review_am.json": "74d5c3c0e1916bdda5958f58bbce0146498160ff26e01ec7844ab0ee99be1200",
+    "research_registry/decisions/clean_gap_peer_review_am.json": "b03ac53397c015b24b95fe10e0c5d4b7f0117aa4818843e7f723b971084252bd",
+    "research_registry/decisions/source_coverage_gap_batch_am.json": "e1ca87fc0a07a22b8a8e4a71887653eee883aa99237a2cd7d5196f681ad321cd",
+    "research_registry/decisions/clean_gap_review_ao.json": "a88b058118bd1d2eb9f909db511e6ec6a595d1457c9caeb7f48c14407907865e",
+    "research_registry/decisions/clean_gap_peer_review_ao.json": "f6b57d9af2e540e0a76a3cad41ebda55c303c4636d71784b86cebf9fb1a2c70e",
+    "research_registry/decisions/source_coverage_scope_batch_ao.json": "529f82483084c11494c0da1f8d14498ab627233f2f730997146750c480cc8294"
+  },
+  "primary_source_sha256": {
+    "experiments/yolo/sidequest_semantic_y_this_four_hundred_nineteenth/FOUR_HUNDRED_NINETEENTH_REPORT.md": "5ee93515bc4e36a50976c424ab72b119bb9b97172430ca629a55bbbd1cd11ff6",
+    "experiments/yolo/sidequest_semantic_h4_complete_preparation_four_hundred_twenty_second/FOUR_HUNDRED_TWENTY_SECOND_REPORT.md": "d69b36c727077d051f636dfbccceca5efe1a9a02f43e7416e4114d70dbae0f6a",
+    "experiments/yolo/sidequest_semantic_herbal_five_article_grammar_four_hundred_twenty_fifth/FOUR_HUNDRED_TWENTY_FIFTH_REPORT.md": "cc7a690916b238025933167e90192dad00f6b44a29a6128528ba640d5e05ff07",
+    "experiments/yolo/sidequest_semantic_b4_productive_completion_four_hundred_forty_fourth/FOUR_HUNDRED_FORTY_FOURTH_REPORT.md": "87cfb60f01464305d8989fc9c273274c28d4b321de5212b79bb4ad91a6dbf4b5",
+    "experiments/yolo/sidequest_semantic_alias_selection_four_hundred_fifty_seventh/FOUR_HUNDRED_FIFTY_SEVENTH_REPORT.md": "aed00d8fa3a0d249cd74c0dec0999b0d8352e1d82d9b9d7a0e05ec6b234338a1",
+    "experiments/yolo/sidequest_semantic_global_subroutine_extension_five_hundred_second/FIVE_HUNDRED_SECOND_REPORT.md": "c44a32e796bf7f4eb9e902b204d53649abd0e465c91f2991384631757de2f1e6",
+    "experiments/yolo/sidequest_semantic_composition_predictions_five_hundred_thirty_ninth/FIVE_HUNDRED_THIRTY_NINTH_REPORT.md": "9b11af7f1408a3de79a6093aadb3819656a3670b01133c9339b8855543899b4a",
+    "experiments/yolo/sidequest_semantic_duplicate_command_resolution_six_hundred_thirteenth/SIX_HUNDRED_THIRTEENTH_REPORT.md": "0448aa0eb9b447aaa9a168350e94734dd1abc94407e764ea0004e73f437b34a5",
+    "experiments/yolo/sidequest_semantic_layered_readable_six_hundred_eighteenth/SIX_HUNDRED_EIGHTEENTH_REPORT.md": "32fe1ae39032719c1d058f4141fc819fc872e6825caec0c1d0e3fa37fd7c7891",
+    "experiments/yolo/sidequest_semantic_finite_construction_grammar_six_hundred_thirty_third/SIX_HUNDRED_THIRTY_THIRD_REPORT.md": "fc3559f060e5145ef6b016c74d9346d0e24aa354680ad27442d1020d33760cae",
+    "experiments/yolo/sidequest_semantic_endpoint_branching_six_hundred_fifty_fifth/SIX_HUNDRED_FIFTY_FIFTH_REPORT.md": "74b413a299fa0445b83e7a38900e7df1d4c78885fa7be408b3b6af08520c278e",
+    "experiments/yolo/sidequest_semantic_or_preparation_noun_six_hundred_sixty_fourth/SIX_HUNDRED_SIXTY_FOURTH_REPORT.md": "a10e5f18e66080176ac1f938ffea7fa24123295a47ab3f0e0e7f27741d62bc50",
+    "experiments/yolo/sidequest_semantic_ckh_passage_noun_six_hundred_sixty_fifth/SIX_HUNDRED_SIXTY_FIFTH_REPORT.md": "c6e378e4a44fdd140b35944077c803c9cb300e88f8517585bc755703fd3adc94",
+    "experiments/yolo/sidequest_semantic_solk_collect_grid_six_hundred_sixty_sixth/SIX_HUNDRED_SIXTY_SIXTH_REPORT.md": "a594b9f75aa1da090d5a36caf9fe49890da63a49362b126cc9e83484645263f5",
+    "experiments/yolo/sidequest_semantic_multicard_paraphrase_seven_hundred_third/SEVEN_HUNDRED_THIRD_REPORT.md": "052bc528a3762b9fb8b56b91b2c0af903b9379f1b64be4ad969edb16efbb1fde",
+    "experiments/yolo/sidequest_semantic_active_y_valency_seven_hundred_forty_fifth/SEVEN_HUNDRED_FORTY_FIFTH_REPORT.md": "056116dbca799e090d07a7da1629db9eb80071a05664ad2d87b75bce50561db3",
+    "experiments/yolo/sidequest_semantic_multicard_formula_inventory_seven_hundred_forty_seventh/SEVEN_HUNDRED_FORTY_SEVENTH_REPORT.md": "6c701593117c39e9f1882d2bc8809aabd666c4cf87b01e9c25286e6d9fa28ea5",
+    "experiments/yolo/sidequest_semantic_portable_dictionary_entries_two_hundred_nineteenth/TWO_HUNDRED_NINETEENTH_REPORT.md": "c4349ac37ca391d2498d568ce9efb4f75ea3ff7c9085ef8ab9b4d6d4e62298c9",
+    "experiments/yolo/sidequest_semantic_three_owner_substitution_two_hundred_twentieth/TWO_HUNDRED_TWENTIETH_REPORT.md": "c0d50521ff035403f7bab85325bc7abcc722997ddf5fc06bcc7cbc9f407f5cda",
+    "experiments/yolo/sidequest_semantic_shared_deck_network_hundred_twenty_second/HUNDRED_TWENTY_SECOND_SHARED_NETWORK_REPORT.md": "8f917b2719809bd5fa6c62a73f37271b18d844ea23f053dede4f6224e049fbfe",
+    "experiments/yolo/sidequest_semantic_stem_mode_crosswalk_three_hundred_ninth/THREE_HUNDRED_NINTH_REPORT.md": "1cda2b17c143a5ba49ae0f92d237971a862d6336b216c86e8e581f598b47746c",
+    "experiments/yolo/sidequest_semantic_visible_state_formulas_three_hundred_forty_fifth/THREE_HUNDRED_FORTY_FIFTH_REPORT.md": "e641dd1ac7f8e519b14ea41cec09600b6bd035342faaece02f592e7ead9cb492",
+    "experiments/yolo/sidequest_semantic_slot_order_two_hundred_ninety_fourth/TWO_HUNDRED_NINETY_FOURTH_REPORT.md": "929f4916301ad6c4401b9019c2cb151149d91d4a05c0e907226e735ca44ce530",
+    "experiments/yolo/sidequest_semantic_shared_card_meaning_revision_hundred_twenty_sixth/HUNDRED_TWENTY_SIXTH_SHARED_MEANING_REPORT.md": "a5e5ca15c2368be9f7e1f2aa78aeff96be939c83897e8cffda5fbc3a489f0644",
+    "experiments/yolo/sidequest_semantic_astro_native_card_values_two_hundred_forty_eighth/TWO_HUNDRED_FORTY_EIGHTH_REPORT.md": "dde120b6296c9b47f037ae11a10ad0baeefd320bf397a54e57375aa1131eb733",
+    "experiments/yolo/sidequest_semantic_thirty_six_stem_families_two_hundred_seventy_eighth/TWO_HUNDRED_SEVENTY_EIGHTH_REPORT.md": "24dc3dd267efafea830a70005d646d4b0f2301933f6b8c408f470dc1984c13f9",
+    "experiments/yolo/sidequest_semantic_f83r_apparatus_lexicon_two_hundred_thirty_first/TWO_HUNDRED_THIRTY_FIRST_REPORT.md": "0c33d9c9995894c9ae9291d276b304c32e4aba4d688b947dc3e08c97785981ff",
+    "experiments/yolo/sidequest_semantic_f83r_station_functions_two_hundred_twenty_ninth/TWO_HUNDRED_TWENTY_NINTH_REPORT.md": "e1d14c1a3ed90fed835183a9515d8b407a4b0cd52a21b0364f0797d4d31d9ec4",
+    "experiments/yolo/sidequest_semantic_procedure_blocks_three_hundred_sixth/THREE_HUNDRED_SIXTH_REPORT.md": "a20d261612e192f6dd19e35ed29d5b463b46675270515aafc242924b144be93c",
+    "experiments/yolo/sidequest_semantic_aba_integrated_statements_two_hundred_twenty_fifth/TWO_HUNDRED_TWENTY_FIFTH_REPORT.md": "c88af791c2ffec233452ae278b830bee71df0d84c2e9208c00b5e0751d9079cb",
+    "experiments/yolo/sidequest_semantic_scoped_apprentice_grammar_two_hundred_fifteenth/TWO_HUNDRED_FIFTEENTH_REPORT.md": "c32725b10d805b59d2a0af3c2d925fcf06c4a82753bf1875960209e38a2c5474",
+    "experiments/yolo/sidequest_semantic_astro_ot_transition_two_hundred_seventy_second/TWO_HUNDRED_SEVENTY_SECOND_REPORT.md": "3abe1f87f4a357688541019d1e53ef1bd6699b635bb212d8caa64c3da505b838",
+    "experiments/yolo/sidequest_semantic_manual_astro_instrument_edition_two_hundred_eighty_fourth/TWO_HUNDRED_EIGHTY_FOURTH_REPORT.md": "c3b753b321898af39e9c9cfa8d53ed1658b42943d9e551daf8eb159c9a2fc655",
+    "experiments/yolo/sidequest_semantic_six_slot_pressure_test_hundred_eighty_first/HUNDRED_EIGHTY_FIRST_SIX_SLOT_PRESSURE_REPORT.md": "4bad441610854e13024b389782ed573b1c79877810bd0bd778202de77d5e444c",
+    "experiments/yolo/sidequest_semantic_four_practical_jobs_hundred_thirty_second/HUNDRED_THIRTY_SECOND_FOUR_JOB_REPORT.md": "9fbf7c6a3d8288973e0e94f05c2f9b0c42972271d5c8398639107db18b9e515d",
+    "experiments/yolo/sidequest_semantic_y_aiin_wrapper_contrast_three_hundred_eighty_third/THREE_HUNDRED_EIGHTY_THIRD_REPORT.md": "145d5ac18154a6a0c0925771bcd0cec9bee762a683be26bf60d37d6433e58aa5",
+    "experiments/yolo/sidequest_semantic_composition_forecast_two_hundred_sixty_fifth/TWO_HUNDRED_SIXTY_FIFTH_REPORT.md": "ee1bcc7fadf11bc735fdb5280805e3a19538da69ce17f17ccb45519b5d0ad6be",
+    "experiments/yolo/sidequest_semantic_relation_gap_transfer_two_hundred_sixty_ninth/TWO_HUNDRED_SIXTY_NINTH_REPORT.md": "7a72262aa725269b17d2762dad1fe6431aa3b8995bcd535630b66ba73d75c5db",
+    "experiments/yolo/sidequest_semantic_owner_expansion_debt_two_hundred_eighteenth/TWO_HUNDRED_EIGHTEENTH_REPORT.md": "bf166459ebe8a4a0df2fc50e9eda9b9b4bcdc4d09677a180f586cd79496d5883"
+  },
+  "limits": [
+    "All cards remain source-bound historical unconfirmed proposals.",
+    "AM four additional source cases remain additional cases; no claim of64 independent new ideas.",
+    "AO only the two peer-specified claim wordings were changed. No types, evidence, source membership, dispositions or original proposal files were edited.",
+    "Root must select the derived reviews for operational integration; this audit performs none."
+  ]
+}

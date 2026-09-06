@@ -1,0 +1,3209 @@
+{
+  "review_id": "SEMANTIC_TYPE_REVIEW_AR",
+  "status": "BOUNDED_PRIMARY_REVIEW_COMPLETE_NO_OPERATIONAL_CHANGES",
+  "selection": {
+    "source": "research_registry/decisions/semantic_type_review_aj.json",
+    "source_field": "title_only_ids_not_scientifically_reviewed",
+    "current_present_count": 146,
+    "sort": "lexicographic current SEM id",
+    "excluded_first_current_ids": 24,
+    "reviewed_current_range_zero_based": [
+      24,
+      83
+    ],
+    "count": 60,
+    "scope": "Next 60 after root AQ first24; no local SEMLOCAL or active mutation."
+  },
+  "counts": {
+    "primary_cards_reviewed": 60,
+    "retain_formal_role": 48,
+    "recommended_semantic_type_corrections": 11,
+    "source_polarity_review": 1,
+    "recommended_types": {
+      "functional_hypothesis": 7,
+      "lexical_hypothesis": 4
+    },
+    "separate_semantic_proposition_followups": 17,
+    "exact_quote_hash_checks": 93
+  },
+  "recommendations": [
+    {
+      "target": "SEM:14619d4f489852559db9",
+      "selection_index": 0,
+      "current_claim": "saii → S+AIIN",
+      "current_type": "formal_role",
+      "target_basis_sha256": "125196e5b29d167b7bcca661b88dafa444227275a123481811d5b85288a081e0",
+      "effective_basis_sha256": "aab54a3c4a2fd3172be1fc6585eb76d6065dcbc49f5b353fe1b60a4fdf864ce8",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:2f0ef0816892badf7cc1"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:2f0ef0816892badf7cc1",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT531",
+            "section": "What changed",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt531_atomic_renderer_block_superform_peel/REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "Only an S+AIIN versus alternate segmentation/carrier account is asserted; no concrete value for S or AIIN in this claim.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 47,
+          "line_end": 50,
+          "path": "experiments/yolo/gdt531_atomic_renderer_block_superform_peel/REPORT.md",
+          "quote": "Old `saii=S+AIIN` occurs once, and the same-recipe `saiin` family occurs twenty\ntimes. This makes `S+AIIN+S` a useful alternate reading, but it explains the\ntarget through two independent cards. Exact `saiisol` explains the whole\ntarget as one preserved interior and is therefore the more specific carrier.",
+          "sha256": "b5ef951a918856acdb3d3c1cc7c885ae9960b0bb0abd9bc885a5cf91c82c8bad",
+          "source_id": "LEGACY_COMPONENT:79a849bb8adb323f839b",
+          "source_section": "What changed",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:1607a2f72e1c0fff47a1",
+      "selection_index": 1,
+      "current_claim": "shekeey → SH+E | K+EE+Y",
+      "current_type": "formal_role",
+      "target_basis_sha256": "b1cf3adae91fbd1b11153399c7d9649e635872fe19e283fd4bcdb1195c1c701d",
+      "effective_basis_sha256": "d5996a5ac1ea4707d0fd0ffc33029b7d17a61c0aa3435bbf767b876fd647bb0e",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:af5a722524c5bfc2a873"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:af5a722524c5bfc2a873",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT542",
+            "section": "Drei Ebenen zusätzlicher Brücke",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt542_full_old_tile_context_bridge/REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "An ordered old sentence path SH+E | K+EE+Y is a parse; no complete action meaning is asserted in the title.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 3,
+              "text": "Status: `PASS_29_FULL_TILE_TARGETS_BRIDGED__17_CONTEXT_SHELLS_AND_30_OLD_SEAMS`"
+            }
+          ],
+          "line": 46,
+          "line_end": 46,
+          "path": "experiments/yolo/gdt542_full_old_tile_context_bridge/REPORT.md",
+          "quote": "- `shekeey=SH+E | K+EE+Y`: ein geordneter alter Satzpfad;",
+          "sha256": "8bc1b9a8d40dd5402c9cfd255ebe5fd643ae8f5cac4f5a4f162a8412be8db8d3",
+          "source_id": "LEGACY_COMPONENT:8c2626fff2683fa30903",
+          "source_section": "Drei Ebenen zusätzlicher Brücke",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:166ba3ee43c63b52c032",
+      "selection_index": 2,
+      "current_claim": "qokaiin denotes RECORD KEY / mode selector.",
+      "current_type": "formal_role",
+      "target_basis_sha256": "f3a799fce0dd223d8c4fb95061825fa2d041d0bba69aa768c6d29c94bbb81c05",
+      "effective_basis_sha256": "f4ac6668f7445624f46a8b11de4eca8f2cbb37725f3a22f08f733a96fd86b92d",
+      "source_case_ids": [
+        "ROOT400:a920713cc7b8fff3dce9"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "ROOT400:a920713cc7b8fff3dce9",
+          "scope": {
+            "local_historical_model": true,
+            "source": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_GLOBAL_LEXICON_COMPETITION.md",
+            "source_line": 135
+          },
+          "status": "unconfirmed",
+          "source_polarity": "historical_proposal_or_explicit_rival_not_confirmed"
+        }
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "functional_hypothesis",
+      "claim_change_required": false,
+      "reason": "Indexed-checklist model assigns an actual record-key/mode-selection function, including nested and forward keys. This goes beyond measuring entry position.",
+      "evidence": [
+        {
+          "line": 135,
+          "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_GLOBAL_LEXICON_COMPETITION.md",
+          "quote": "### Model C — indexed workshop checklist (new rival)",
+          "sha256": "45b87cb02b80c301c4573e58a3f3a1824249c071230fe5373a09c39d77bda4fd"
+        },
+        {
+          "line": 137,
+          "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_GLOBAL_LEXICON_COMPETITION.md",
+          "quote": "| card/family | one role used globally |\n|---|---|\n| `qokaiin` | RECORD KEY / mode selector |\n| L/O | CROSS-REFERENCE / list edge |\n| AIIN | INDEX / coordinate / value slot |\n| Y | CHECKPOINT / labelled node |\n| CTHY | CLASS / status flag |\n| terminal families | exact cell value + VALIDATION SEAL |",
+          "sha256": "45b87cb02b80c301c4573e58a3f3a1824249c071230fe5373a09c39d77bda4fd"
+        },
+        {
+          "line": 146,
+          "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_GLOBAL_LEXICON_COMPETITION.md",
+          "quote": "This is not a medical-content model. It treats the pages as an illustrated\ninventory, routing sheet or exemplar checklist whose cards primarily locate\nand validate entries.",
+          "sha256": "45b87cb02b80c301c4573e58a3f3a1824249c071230fe5373a09c39d77bda4fd"
+        },
+        {
+          "line": 150,
+          "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_GLOBAL_LEXICON_COMPETITION.md",
+          "quote": "All-occurrence forcing:",
+          "sha256": "45b87cb02b80c301c4573e58a3f3a1824249c071230fe5373a09c39d77bda4fd"
+        },
+        {
+          "line": 152,
+          "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_GLOBAL_LEXICON_COMPETITION.md",
+          "quote": "- `qokaiin`: seven initial keys fit directly; the medial case is a nested key;\n  the f82r final/initial pair is a forward key copied at the new line. This is\n  the cleanest positional account of the three models.\n- L/O: an edge/reference can be internal, initial, final or sole, so all 19\n  cases fit without changing category. Direction remains unspecified.\n- AIIN, Y and CTHY are all positionally mobile enough for value, node and flag\n  slots. `Y-AIIN-Y` becomes NODE–INDEX–NODE, and all eleven consecutive runs\n  admit compact formal parses.\n- exact terminals can carry a cell value while DY/B3 supplies a validation\n  realization, again with no family-specific English semantics.",
+          "sha256": "45b87cb02b80c301c4573e58a3f3a1824249c071230fe5373a09c39d77bda4fd"
+        },
+        {
+          "line": 163,
+          "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_GLOBAL_LEXICON_COMPETITION.md",
+          "quote": "Its weakness is explanatory rather than positional. It redescribes the card\nlayout elegantly but does not explain why an expensive illustrated practical\ncodex would encode a content-light checklist, nor why Herbal, bathing/apparatus\nand astronomical iconography should be selected. Astro could be a local lookup\narray, but the prose cards cannot be imported there to prove the proposal.",
+          "sha256": "45b87cb02b80c301c4573e58a3f3a1824249c071230fe5373a09c39d77bda4fd"
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:18517b1375ad238b285e",
+      "selection_index": 3,
+      "current_claim": "dy → Y",
+      "current_type": "formal_role",
+      "target_basis_sha256": "d97689e0e90bae14e0c288bcd71c2177491c5d9bb70f7c80f5cf36e81300b382",
+      "effective_basis_sha256": "d2c74fad150226b05d4a39377407c43eb81a7dece43ae40d214106c89ab21738",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:bde84dd7b833b41fba04"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:bde84dd7b833b41fba04",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT464",
+            "section": "`yddy` is an overlapping two-arm package",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt464_residual_exact_package_bridge/REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "Identity of the surface dy with the formal Y card is not a word translation.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 73,
+          "line_end": 73,
+          "path": "experiments/yolo/gdt464_residual_exact_package_bridge/REPORT.md",
+          "quote": "- `dy=Y` (44 events on seventeen pages).",
+          "sha256": "1ceca7302ec2833b9ebfdcc7cdd51afe64cf599a61b9a6341e4274af4b4479d9",
+          "source_id": "LEGACY_COMPONENT:3c2a36a761e019737b9d",
+          "source_section": "`yddy` is an overlapping two-arm package",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:18834a43ffb6f0aca20e",
+      "selection_index": 4,
+      "current_claim": "dcheodaiin → D_MEASURE+CH_DRY+E_MIDDLE+O_PREP+D_MEASURE+AIIN_III",
+      "current_type": "formal_role",
+      "target_basis_sha256": "0c55b55e6d409a285a1c8bfff72e444a5561a6d928d404b0862d283e5df6940b",
+      "effective_basis_sha256": "d10dfda18e05353766bd90a9fc01d773efebbd244c208b203c1c8058b0a378b5",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:4bc9e480845aacb71a1a"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:4bc9e480845aacb71a1a",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT670",
+            "section": "Concrete cards",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt670_twenty_eight_residual_family_completion/REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "lexical_hypothesis",
+      "claim_change_required": false,
+      "reason": "The whole-form formula explicitly contains MEASURE, DRY and PREP meanings; the same source gives a complete dose/drying/preparation instruction. These are semantic codes, not neutral glyph names.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 26,
+          "line_end": 26,
+          "path": "experiments/yolo/gdt670_twenty_eight_residual_family_completion/REPORT.md",
+          "quote": "- `dcheodaiin = D_MEASURE+CH_DRY+E_MIDDLE+O_PREP+D_MEASURE+AIIN_III` → “eine Dosis bis zur Mittelstufe trocknen und ansetzen; drei Dosen abmessen.”",
+          "sha256": "84b6727f1fa8918bc0511d28d92f63492a6de19d09eaab4789ce693716b71a6e",
+          "source_id": "LEGACY_COMPONENT:8be45da98cf75f452e82",
+          "source_section": "Concrete cards",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:18c84d2a941f35af1b3b",
+      "selection_index": 5,
+      "current_claim": "ykady → Y+K+A_ADDR+DY",
+      "current_type": "formal_role",
+      "target_basis_sha256": "8f110169b720dea850f2cca5cd8233f08aaef779d2a3b39c793b95ee4def8f4b",
+      "effective_basis_sha256": "c5c618a6e99ef302385c33e50cd605021d7007ddca902ea483ad7a236611ad89",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:cd8711bc90f4c3076bd1"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:cd8711bc90f4c3076bd1",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT516",
+            "section": "Die sechs offenen Formen",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt516_thirty_page_new_surface_family_consolidation/REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "A_ADDR and the contrasting terminal forms identify a structural/address-component parse; no concrete recipient or operation is assigned.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 73,
+          "line_end": 74,
+          "path": "experiments/yolo/gdt516_thirty_page_new_surface_family_consolidation/REPORT.md",
+          "quote": "- `ykady = Y+K+A_ADDR+DY` bleibt in Prosa eine Schlussform; die alte\n  Himmelslabelkarte behält dagegen `Y+K+A_ADDR+Y`.",
+          "sha256": "52fe22d267b65796e9eaa82443bea4bab0c0647c710bf6763eae56e5eacaf22c",
+          "source_id": "LEGACY_COMPONENT:f1b3927c9461ab0de382",
+          "source_section": "Die sechs offenen Formen",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:1a16cd09d9a6fb467a8e",
+      "selection_index": 6,
+      "current_claim": "ar → [AR] <BOUNDARY_RENDERER> [OL]",
+      "current_type": "formal_role",
+      "target_basis_sha256": "35067a3fbc12ec782a0fc168339ba70e9e68a8665c38d0993ba546400b2e849c",
+      "effective_basis_sha256": "fc324995925d539513edfb912b0b68542a581de58042f6df6cc82df0d5c42c90",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:1ab7306e4d87571ae96f"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:1ab7306e4d87571ae96f",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT008",
+            "section": "Representative parses",
+            "semantic_column": "abductive reading",
+            "source": "GDT008_HYBRID_REGISTER_THEORY_REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "Boundary contraction/expansion of AR and OL concerns serialization, not the material or referent meanings of those fields.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 3,
+              "text": "Status: **SELECTED EXPLORATORY WORLD MODEL — HPR-1**"
+            }
+          ],
+          "line": 108,
+          "line_end": 108,
+          "path": "GDT008_HYBRID_REGISTER_THEORY_REPORT.md",
+          "quote": "| f80v.41 | `ar | ol / arol` | `[AR] <BOUNDARY_RENDERER> [OL]` | one latent compound with expanded or contracted serialization | two collocated independent fields |",
+          "sha256": "84bd7de3711b75b5127f405f78548d66bc68d4927ae3bcb589ca2243c2c6723b",
+          "source_id": "LEGACY_COMPONENT:0b3c0f5d88331816ba08",
+          "source_section": "Representative parses",
+          "table_header": "| locus | surface | provisional parse | abductive reading | caveat |"
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:1aab1ca858fe598b6256",
+      "selection_index": 7,
+      "current_claim": "oair → o+air",
+      "current_type": "formal_role",
+      "target_basis_sha256": "37a635bc2088f505e829afdaa1e0cc12fa557c4bfc6beab574a0dfea7144d45f",
+      "effective_basis_sha256": "ddfcfb95040e5f320298ed4b8ed7349d92ee351c8d44207a4a6fdd5dcef70829",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:704f7523b4569b1cd7b9"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:704f7523b4569b1cd7b9",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT682",
+            "section": "Die sieben neuen Karten",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt682_final_seven_hole_line_completion/REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "Literal composition o+air; semantic readings elsewhere in the report do not alter this proposition.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 32,
+          "line_end": 36,
+          "path": "experiments/yolo/gdt682_final_seven_hole_line_completion/REPORT.md",
+          "quote": "Keine dieser sieben Oberflächen besaß schon eine publizierte Ganzwortkarte.\nIhre Komponenten sind dagegen fast vollständig bekannt. Besonders sauber sind\n`oair=o+air`, `opchedaiin=o+pchedaiin`, `dairody=dair+o+dy` und\n`sairy=sair+y`. Das ist somit keine freie Neubenennung von Einzelsymbolen,\nsondern die nächste Kombination bereits verwendeter Felder.",
+          "sha256": "141205640faa9d3929211eb10edd0d056606f748a10409926f694dd9fbb2f726",
+          "source_id": "LEGACY_COMPONENT:fea42410435975af29ba",
+          "source_section": "Die sieben neuen Karten",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:1bd6338d3ebc80838480",
+      "selection_index": 8,
+      "current_claim": "The ch, free, q, s, t and che renderings of L/O realize one card rather than six words.",
+      "current_type": "formal_role",
+      "target_basis_sha256": "650491c4bd184ed4ca701742a6a40e4a5fabc1f854feeb340ede64b74f9a50ff",
+      "effective_basis_sha256": "39039df9fda87aa184203c4e105d00c3356244aabed00d441f716944baae3961",
+      "source_case_ids": [
+        "ROOT400:f7a88deb7f63bba2dbeb"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "ROOT400:f7a88deb7f63bba2dbeb",
+          "scope": {
+            "local_historical_model": true,
+            "source": "experiments/yolo/sidequest_theory_candidates_v13/CANDIDATE_V13_R1_WORKSHOP_LINK.md",
+            "source_line": 121
+          },
+          "status": "unconfirmed",
+          "source_polarity": "historical_proposal_or_explicit_rival_not_confirmed"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "One-card versus six-renderer identity is a representation hypothesis, without specifying the card meaning.",
+      "evidence": [
+        {
+          "line": 121,
+          "path": "experiments/yolo/sidequest_theory_candidates_v13/CANDIDATE_V13_R1_WORKSHOP_LINK.md",
+          "quote": "7. Rendere danach die exakte L/O-Karte positionsgerecht. `ch·L`, freies `L`,\n   `q·L`, `s·L`, `t·L` und `che·L` sind hier Erscheinungen derselben Karte,\n   nicht sechs verschiedene Woerter.",
+          "sha256": "9b41b26df77dea77b58eee4ae62705d1a75d774ea2a0701b5427433d432757f8"
+        },
+        {
+          "line": 125,
+          "path": "experiments/yolo/sidequest_theory_candidates_v13/CANDIDATE_V13_R1_WORKSHOP_LINK.md",
+          "quote": "Diese Regel ist klein genug fuer Vorzeigen, Nachschreiben und Korrektur. Vor\nallem ist die Vererbung kontrolliert: nur eine fehlende Randstelle darf aus dem\nRecordzustand ergaenzt werden.",
+          "sha256": "9b41b26df77dea77b58eee4ae62705d1a75d774ea2a0701b5427433d432757f8"
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:1dbffea9fbf0e159c5f3",
+      "selection_index": 9,
+      "current_claim": "S → RESUME",
+      "current_type": "formal_role",
+      "target_basis_sha256": "fd261f6fe097675613abc806fe8b39dff58145a5239597cb3aee05f8627d5dd3",
+      "effective_basis_sha256": "2f94224efb1e98b4a38bc522da0b65c9419ed1ffd12f08a8b763fec3fe6a8b3c",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:75fcfb7c539c8571c802"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:75fcfb7c539c8571c802",
+          "scope": {
+            "kind": "literal_core_declaration_without_portability_claim"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "source_polarity_review",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "The only source explicitly lists S=RESUME among withdrawn readings. Preserve that historical withdrawal; this is not a current positive assignment. The excerpt does not identify whether the earlier RESUME meant semantic resumption or merely margin/record reset, so no semantic type promotion is justified from this sole source.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 8,
+              "text": "Status: **deliberately speculative, post-hoc, and non-confirmatory**."
+            }
+          ],
+          "line": 84,
+          "line_end": 88,
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "quote": "Explicitly withdrawn readings include `AROL = WATER`, `OL = WATER`, simultaneous\n`CHOL = HOT` versus `OL = MEDIUM`, `CTHY = DRY`, `D=ASSIGN`, `S=RESUME`,\n`Q=NEXT`, SOL as a confirmed verb, a fixed DESCRIPTION→RECIPE order for the two\nHerbal packets, line equals sentence, a universal diagram-label dictionary,\nand a direct f68↔f69 28-name list. No exact card has a confirmed English meaning.",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945",
+          "source_id": "LEGACY_COMPONENT:1ba796f4f1b2635da61f",
+          "source_section": "Current synthesis after Iteration 148",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation.",
+      "source_polarity_recommendation": {
+        "status": "historically_withdrawn",
+        "action": "Preserve genuine prior hypothesis with withdrawal context; do not relabel as currently assigned RESUME or claim that no historical proposal ever existed."
+      }
+    },
+    {
+      "target": "SEM:1f3876d5c6c7b1e95e60",
+      "selection_index": 10,
+      "current_claim": "lkedy → L+E+CLOSE",
+      "current_type": "formal_role",
+      "target_basis_sha256": "80a5c71d97f7644b9d20484026e21c29fe8445197ee18ca1be08877189359992",
+      "effective_basis_sha256": "fb8677184f5d55dd87a40b16763c9a23f75b6629db22608f2228d48f7f322395",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:251ebc4173a189275b22"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:251ebc4173a189275b22",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Die stärksten Reparaturen",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_exception_anatomy/EXCEPTION_ANATOMY_REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "The current claim is only L+E+CLOSE. The same line also gives a concrete drainage instruction, but that additional proposition must be separately addressed rather than silently substituted for the parse.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 13,
+          "line_end": 13,
+          "path": "experiments/yolo/sidequest_semantic_exception_anatomy/EXCEPTION_ANATOMY_REPORT.md",
+          "quote": "- `lkedy = L+E+CLOSE`: nicht mehr Nachwaschen, sondern kurz abführen und schließen.",
+          "sha256": "86a13932bcb5957e1575510ff7b57e0becf91af287780fe341b58a13ca9f52c5",
+          "source_id": "LEGACY_COMPONENT:8b01e8ab44693e16aeb3",
+          "source_section": "Die stärksten Reparaturen",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation.",
+      "separate_semantic_proposition_followup": {
+        "source_statement": "kurz abführen und schließen",
+        "status": "source_statement_seen_existing_coverage_not_audited",
+        "action": "Compare exact whole semantic proposition against current cards before recovery; do not replace the formal parse claim."
+      }
+    },
+    {
+      "target": "SEM:207d0e95fce30a97243e",
+      "selection_index": 11,
+      "current_claim": "qokylddy → OK+Y+LD+DY",
+      "current_type": "formal_role",
+      "target_basis_sha256": "72a268ecd078af4c0f9e1fd649dc41bd66c0a3c45a73db11ef59a8ee032730f6",
+      "effective_basis_sha256": "0901e8b75e9508f62c735abf05ef6da6c06c9c47e72b14f7bb2674ea2b2996b2",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:95f3a9a2d47e403b6944"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:95f3a9a2d47e403b6944",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Sidequest Pass 814: LD is bound fastening",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_ld_fastening_eight_hundred_fourteenth/EIGHT_HUNDRED_FOURTEENTH_REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "The current whole-card decomposition OK+Y+LD+DY is formal. The pictured bow and later BEFESTIGEN reading do not make the decomposition itself a word meaning.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 3,
+          "line_end": 4,
+          "path": "experiments/yolo/sidequest_semantic_ld_fastening_eight_hundred_fourteenth/EIGHT_HUNDRED_FOURTEENTH_REPORT.md",
+          "quote": "The only `LD` occurrence is the complete one-card statement\n`qokylddy = OK+Y+LD+DY` at the visibly bow-connected B4 figure pair.",
+          "sha256": "5d4997cada3f1554bdb1a44cea742936e9e4aa45d57bbb733f0eabf407012031",
+          "source_id": "LEGACY_COMPONENT:6d47b66aac014d5a294f",
+          "source_section": "Sidequest Pass 814: LD is bound fastening",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:20d9910fbae461031cca",
+      "selection_index": 12,
+      "current_claim": "okal → Kennstellen-/Systemcode",
+      "current_type": "formal_role",
+      "target_basis_sha256": "32eb84d117ee0952db666593929f76938ed1e2d0f07e4ee43733d05546474a35",
+      "effective_basis_sha256": "cbcc0490efac8774c159d97ac029ed591b5f16468868530d9d9309ebbbba8018",
+      "source_case_ids": [
+        "REPORT_PROPOSAL:cfc857993c6a2ac4f9ca"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "REPORT_PROPOSAL:cfc857993c6a2ac4f9ca",
+          "scope": {
+            "case": "führender konkreter Rivale",
+            "section": "Rollenstand statt Scheinübersetzung / Form | Außenstellen/Folios | führender konkreter Rivale | Gegenrivale | Entscheidung",
+            "source": "experiments/yolo/gdt805_eleven_whole_context_role_discriminator/REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": null
+        }
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "functional_hypothesis",
+      "claim_change_required": false,
+      "reason": "The selected rival assigns an opaque identifying/system-code function. An opaque referential identifier need not have a translated noun to be a semantic/functional hypothesis; the source retains the material rival and no new role selection.",
+      "evidence": [
+        {
+          "line": 76,
+          "path": "experiments/yolo/gdt805_eleven_whole_context_role_discriminator/REPORT.md",
+          "quote": "| `okal` | 122/62 | Kennstellen-/Systemcode | Ansatz- oder Materialeintrag | `RETAIN_GDT793_OPAQUE_ENTRY_PRIOR__MATERIAL_CONTEXT_RIVAL` |",
+          "sha256": "a7d1149d3341973909288cd531d863d446fd7acefadff98844db55eac56625f5"
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:210a23f7db68973a37fd",
+      "selection_index": 13,
+      "current_claim": "AM → GEGENFELD",
+      "current_type": "formal_role",
+      "target_basis_sha256": "2fbf2d6cd2f6d22e413649d6d0715e3ec829cbdbb03dd803d10cfda7c5b135d5",
+      "effective_basis_sha256": "7f343c298fbfe867636ca32c04bc675f55552291b998029823df9f5c621b5fd0",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:346d900b8446e3b1923a"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:346d900b8446e3b1923a",
+          "scope": {
+            "kind": "literal_core_declaration_without_portability_claim"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "functional_hypothesis",
+      "claim_change_required": false,
+      "reason": "AM is proposed as a diagram-local opposite-field address among explicit star and spatial reference functions. No particular celestial object is identified.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 9,
+          "line_end": 9,
+          "path": "experiments/yolo/sidequest_semantic_astro_address_cores_four_hundred_sixty_sixth/FOUR_HUNDRED_SIXTY_SIXTH_REPORT.md",
+          "quote": "- `AM = GEGENFELD`,",
+          "sha256": "636c6e00c8638b8321703b67249ae4614bad821e8cc3ea90a8e20d07892bd325",
+          "source_id": "LEGACY_COMPONENT:a3d8d50a027afa814508",
+          "source_section": "Pass 466 — das kleine Astro-Adressalphabet",
+          "table_header": null
+        }
+      ],
+      "additional_context": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_astro_address_cores_four_hundred_sixty_sixth/FOUR_HUNDRED_SIXTY_SIXTH_REPORT.md",
+          "line": 3,
+          "line_end": 12,
+          "quote": "Die 77 Restetiketten werden mit acht kurzen, diagrammlokalen Kernen geprüft:\n\n- `D = TEILADRESSE`,\n- `S = STERNBEZUG`,\n- `A = NEBENADRESSE`,\n- `F = AUSSENBEZUG`,\n- `AM = GEGENFELD`,\n- `CPH = STERNFIGUR`,\n- `CFH = STERNHAUFEN`,\n- `G = STRAHLMARKE`.",
+          "sha256": "636c6e00c8638b8321703b67249ae4614bad821e8cc3ea90a8e20d07892bd325"
+        }
+      ],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:211876f3a21863e29d2c",
+      "selection_index": 14,
+      "current_claim": "sail → Stoffart oder Mengenfeld",
+      "current_type": "formal_role",
+      "target_basis_sha256": "1bb4e893f2ba4814776e04b8005564607b6abbcb2bc92a365f15d712b62c052d",
+      "effective_basis_sha256": "125319db78c055716cba861a51574033148acba95f9b7f3c42e5a48b7afa1d3b",
+      "source_case_ids": [
+        "REPORT_PROPOSAL:7f6f6ad7e02eb0f45394"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "REPORT_PROPOSAL:7f6f6ad7e02eb0f45394",
+          "scope": {
+            "case": "Gegenrivale",
+            "section": "Rollenstand statt Scheinübersetzung / Form | Außenstellen/Folios | führender konkreter Rivale | Gegenrivale | Entscheidung",
+            "source": "experiments/yolo/gdt805_eleven_whole_context_role_discriminator/REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": null
+        }
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "functional_hypothesis",
+      "claim_change_required": false,
+      "reason": "The rival explicitly denotes a material type or amount field. NO_EXTERNAL_CAPACITY is a test limit, not a reason to type a content hypothesis as pure form.",
+      "evidence": [
+        {
+          "line": 82,
+          "path": "experiments/yolo/gdt805_eleven_whole_context_role_discriminator/REPORT.md",
+          "quote": "| `sail` | 1/1 | uninterpretierter Eintrag | Stoffart oder Mengenfeld | `NO_EXTERNAL_CAPACITY` |",
+          "sha256": "a7d1149d3341973909288cd531d863d446fd7acefadff98844db55eac56625f5"
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:2144a81d6ae8036761f9",
+      "selection_index": 15,
+      "current_claim": "Outer e/ee implements binding versus expanded binding in the provisional primary account.",
+      "current_type": "formal_role",
+      "target_basis_sha256": "90a76a06b35eb8ede06e2260864be475a124fdab4014d72082936a943badc11f",
+      "effective_basis_sha256": "f4f7c736e081f708bd9cb7a2270b0164f26f46cd24aa6f6e59974e4a870e5422",
+      "source_case_ids": [
+        "REPORT_PROPOSAL:b2de12c873c0de06c857"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "REPORT_PROPOSAL:b2de12c873c0de06c857",
+          "scope": {
+            "section": "Der Gradrivale",
+            "source": "experiments/yolo/gdt633_cth_interfix_semantic_contrasts/REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": null
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "The cited primary contrasts two grammatical attachments of one head; binding/expanded binding is the provisional grammatical account, distinguished from heat or quality-degree rivals. No substance or operation binding is asserted by this card.",
+      "evidence": [
+        {
+          "line": 143,
+          "path": "experiments/yolo/gdt633_cth_interfix_semantic_contrasts/REPORT.md",
+          "quote": "### Der Gradrivale",
+          "sha256": "9e1b792cd3344a6eccfd05b390676bc00b27aa129f3d852a06b2785e97eb6a02"
+        },
+        {
+          "line": 145,
+          "path": "experiments/yolo/gdt633_cth_interfix_semantic_contrasts/REPORT.md",
+          "quote": "Das aktuelle Panel besitzt 397 literale Oberflächenfamilien mit mehr als einer\nLänge eines einzigen zusammenhängenden `e`-Laufs. 365 davon besitzen `e` und\n`ee`, 73 `e`, `ee` und `eee`; drei reichen durch vier Stufen. Im CTH-Ziel\nselbst lauten zwei vollständige sichtbare Leitern:",
+          "sha256": "9e1b792cd3344a6eccfd05b390676bc00b27aa129f3d852a06b2785e97eb6a02"
+        },
+        {
+          "line": 155,
+          "path": "experiments/yolo/gdt633_cth_interfix_semantic_contrasts/REPORT.md",
+          "quote": "Das macht „Stufe I/II“ für äußeres `e/ee` möglich. Die Länge allein sagt\naber noch nicht, ob es Qualitätsgrad, Bindungsgrad oder Prozessintensität ist.\nDeshalb heißt der primäre Eintrag vorerst **Bindung / erweiterte Bindung**.",
+          "sha256": "9e1b792cd3344a6eccfd05b390676bc00b27aa129f3d852a06b2785e97eb6a02"
+        }
+      ],
+      "additional_context": [
+        {
+          "path": "experiments/yolo/gdt633_cth_interfix_semantic_contrasts/REPORT.md",
+          "line": 107,
+          "line_end": 110,
+          "quote": "\nE- und NONE-Form erscheinen auf derselben Zeile. Eine Gleichsetzung\n`e = anderer Stoff` würde hier zwei fast identische Materialnamen erfinden;\ndie Bindungslesung braucht nur einen Kopf und zwei grammatische Anschlüsse.",
+          "sha256": "9e1b792cd3344a6eccfd05b390676bc00b27aa129f3d852a06b2785e97eb6a02"
+        }
+      ],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:231961bab50cce02c15e",
+      "selection_index": 16,
+      "current_claim": "qoky → qo+k+y",
+      "current_type": "formal_role",
+      "target_basis_sha256": "6315cff64dd5a290bb8ed364def8859ad578a7a9d2ce756f52a26aae36dcb2b3",
+      "effective_basis_sha256": "82328d254265abe9e3efef5455955603cb0660eb41057fa6f0ef0de870980c46",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:0f1f1d59c9d53639659e"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:0f1f1d59c9d53639659e",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT637",
+            "section": "`f79v.4`: `qoky`",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt637_ladder_completion_one_unknown_passages/REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "qo+k+y is a decomposition. The source separately says hot basic form, which is semantic but absent from this current proposition.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 127,
+          "line_end": 128,
+          "path": "experiments/yolo/gdt637_ladder_completion_one_unknown_passages/REPORT.md",
+          "quote": "`qoky = qo+k+y` liefert „heiß, Grundform“. Das Zieltoken ist leserstabil; die\ngesamte Zeile nicht.",
+          "sha256": "d6ca03e8bde2940d19012aeec59357c5c4207f41d3eab147116b6ce04ed28187",
+          "source_id": "LEGACY_COMPONENT:f50a4af5b28759c65c8c",
+          "source_section": "`f79v.4`: `qoky`",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation.",
+      "separate_semantic_proposition_followup": {
+        "source_statement": "heiß, Grundform",
+        "status": "source_statement_seen_existing_coverage_not_audited",
+        "action": "Compare exact whole semantic proposition against current cards before recovery; do not replace the formal parse claim."
+      }
+    },
+    {
+      "target": "SEM:241063f06a733164e518",
+      "selection_index": 17,
+      "current_claim": "Each page selects its technical core inventory.",
+      "current_type": "formal_role",
+      "target_basis_sha256": "21afc21e41924ed872a1d8c9987ede3e07b2801b7184874cdb1f149900daeca6",
+      "effective_basis_sha256": "8763662417f380777d38d47537d2546f25e526ae427f0a4bf6ca1ac81ce5ad65",
+      "source_case_ids": [
+        "REPORT_PROPOSAL:b8d94b064a610b875695"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "REPORT_PROPOSAL:b8d94b064a610b875695",
+          "scope": {
+            "case": "explicit_prose_model",
+            "section": "What HPR-1 explains at once",
+            "source": "GDT008_HYBRID_REGISTER_THEORY_REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": null
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "Page-conditioned core-inventory selection is architectural distribution; this isolated claim gives no specific content class or referent.",
+      "evidence": [
+        {
+          "line": 137,
+          "path": "GDT008_HYBRID_REGISTER_THEORY_REPORT.md",
+          "quote": "6. **Page coherence:** the page selects its technical core inventory.",
+          "sha256": "84bd7de3711b75b5127f405f78548d66bc68d4927ae3bcb589ca2243c2c6723b"
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:2439054b2b3a3d8c2fcc",
+      "selection_index": 18,
+      "current_claim": "The four Biological terminal families are inflectional or allographic word families.",
+      "current_type": "formal_role",
+      "target_basis_sha256": "fc092ccbf62ac81e575d2efab37c5b589376b1ed8e55b6d7d30dbf592d7b6d84",
+      "effective_basis_sha256": "465d6ffb256de2428228ae64d2adbfc00c51f5bc7b33c91cd5f4db2e4d7e580d",
+      "source_case_ids": [
+        "ROOT400:d8e60968e9bcd5a5ddbc"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "ROOT400:d8e60968e9bcd5a5ddbc",
+          "scope": {
+            "local_historical_model": true,
+            "source": "experiments/yolo/sidequest_theory_candidates_v9/CANDIDATE_V9_ADVERSARIAL_TERMINALS.md",
+            "source_line": 115
+          },
+          "status": "unconfirmed",
+          "source_polarity": "historical_proposal_or_explicit_rival_not_confirmed"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "Inflection/allography is a morphological account for terminal variants. It is a criticized rival in the source, not a particular word meaning.",
+      "evidence": [
+        {
+          "line": 115,
+          "path": "experiments/yolo/sidequest_theory_candidates_v9/CANDIDATE_V9_ADVERSARIAL_TERMINALS.md",
+          "quote": "## Why the other rivals lose",
+          "sha256": "a9b27d9663c1755b78c5c60290082c417b726af562b738de50db022f99649ece"
+        },
+        {
+          "line": 117,
+          "path": "experiments/yolo/sidequest_theory_candidates_v9/CANDIDATE_V9_ADVERSARIAL_TERMINALS.md",
+          "quote": "| mechanism | attraction | failure on this census |\n|---|---|---|\n| punctuation-like variants | all four are terminal and share DY | punctuation alone contributes nothing to 16 one-card fields; it also underuses exact identity |\n| categorical answers/status values | naturally fills a one-card checklist cell | the questions are never observed; the four values roam across field ordinals, and the inference is circular (`answer` from empty cell, `question` from presumed answer) |\n| lexical actions/results/products | medieval recipes often use recurrent technical words | all four are Biological-only, exact terminal, and unusually often isolated; no action, product, or result is independently pictured |\n| route/station selectors | Biological drawings make silent spatial arguments conceivable | no occurrence has an externally identified station, direction, or route, and identities recur across pages rather than staying local to one apparatus |\n| inherited/ditto values | isolated cells and repetition invite ellipsis | four distinct families are too many for a generic ditto, and f82r.27's beta repeat skips a different intervening cell |\n| cipher or nomenclator code values | whole-card opacity and exact recurrence are historically possible | codes normally encode content rather than being obligatorily terminal; this needs the same unobserved form slots as the status theory unless the page is itself a key/model sheet |\n| inflectional/allographic word families | common attached closure could be a shared ending | GDT327 does not license morpheme segmentation, while wrapper locking is stronger than a four-way semantic contrast requires |\n| random filler | explains lack of translation | fails the exact cross-page identities and the f81v.17/f82r.7 copied stencil |\n| **controlled cadence/model-sheet copying** | preserves exact identity, wrapper habits, stencils, and isolated models | wins internally, but has major codicological and iconographic liabilities below |",
+          "sha256": "a9b27d9663c1755b78c5c60290082c417b726af562b738de50db022f99649ece"
+        },
+        {
+          "line": 129,
+          "path": "experiments/yolo/sidequest_theory_candidates_v9/CANDIDATE_V9_ADVERSARIAL_TERMINALS.md",
+          "quote": "Natural language remains possible upstream. The narrow claim is that these\nfour terminal families need not be lexical even if neighboring cards are.\nLikewise a cipher remains possible upstream: an exercise sheet could train\nenciphered groups and their endings. The four mechanisms are not collapsed.",
+          "sha256": "a9b27d9663c1755b78c5c60290082c417b726af562b738de50db022f99649ece"
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:248ca3a519ec959d5626",
+      "selection_index": 19,
+      "current_claim": "AIIN denotes INDEX / coordinate / value slot.",
+      "current_type": "formal_role",
+      "target_basis_sha256": "1fba4d4a83b03990511c0b29396dd70ab89856643710b9192059c770603c0893",
+      "effective_basis_sha256": "d5648263c816166029d178a6c2057e34d5ddd48149ecb756c747fce97ff87a7e",
+      "source_case_ids": [
+        "ROOT400:426ba9f5fe1b0b5f8d77"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "ROOT400:426ba9f5fe1b0b5f8d77",
+          "scope": {
+            "local_historical_model": true,
+            "source": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_GLOBAL_LEXICON_COMPETITION.md",
+            "source_line": 135
+          },
+          "status": "unconfirmed",
+          "source_polarity": "historical_proposal_or_explicit_rival_not_confirmed"
+        }
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "functional_hypothesis",
+      "claim_change_required": false,
+      "reason": "Model C assigns an index/coordinate/value function for locating entries in an illustrated checklist. This is the role-used-globally model column, not a neutral positional extraction.",
+      "evidence": [
+        {
+          "line": 135,
+          "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_GLOBAL_LEXICON_COMPETITION.md",
+          "quote": "### Model C — indexed workshop checklist (new rival)",
+          "sha256": "45b87cb02b80c301c4573e58a3f3a1824249c071230fe5373a09c39d77bda4fd"
+        },
+        {
+          "line": 137,
+          "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_GLOBAL_LEXICON_COMPETITION.md",
+          "quote": "| card/family | one role used globally |\n|---|---|\n| `qokaiin` | RECORD KEY / mode selector |\n| L/O | CROSS-REFERENCE / list edge |\n| AIIN | INDEX / coordinate / value slot |\n| Y | CHECKPOINT / labelled node |\n| CTHY | CLASS / status flag |\n| terminal families | exact cell value + VALIDATION SEAL |",
+          "sha256": "45b87cb02b80c301c4573e58a3f3a1824249c071230fe5373a09c39d77bda4fd"
+        },
+        {
+          "line": 146,
+          "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_GLOBAL_LEXICON_COMPETITION.md",
+          "quote": "This is not a medical-content model. It treats the pages as an illustrated\ninventory, routing sheet or exemplar checklist whose cards primarily locate\nand validate entries.",
+          "sha256": "45b87cb02b80c301c4573e58a3f3a1824249c071230fe5373a09c39d77bda4fd"
+        },
+        {
+          "line": 150,
+          "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_GLOBAL_LEXICON_COMPETITION.md",
+          "quote": "All-occurrence forcing:",
+          "sha256": "45b87cb02b80c301c4573e58a3f3a1824249c071230fe5373a09c39d77bda4fd"
+        },
+        {
+          "line": 152,
+          "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_GLOBAL_LEXICON_COMPETITION.md",
+          "quote": "- `qokaiin`: seven initial keys fit directly; the medial case is a nested key;\n  the f82r final/initial pair is a forward key copied at the new line. This is\n  the cleanest positional account of the three models.\n- L/O: an edge/reference can be internal, initial, final or sole, so all 19\n  cases fit without changing category. Direction remains unspecified.\n- AIIN, Y and CTHY are all positionally mobile enough for value, node and flag\n  slots. `Y-AIIN-Y` becomes NODE–INDEX–NODE, and all eleven consecutive runs\n  admit compact formal parses.\n- exact terminals can carry a cell value while DY/B3 supplies a validation\n  realization, again with no family-specific English semantics.",
+          "sha256": "45b87cb02b80c301c4573e58a3f3a1824249c071230fe5373a09c39d77bda4fd"
+        },
+        {
+          "line": 163,
+          "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_GLOBAL_LEXICON_COMPETITION.md",
+          "quote": "Its weakness is explanatory rather than positional. It redescribes the card\nlayout elegantly but does not explain why an expensive illustrated practical\ncodex would encode a content-light checklist, nor why Herbal, bathing/apparatus\nand astronomical iconography should be selected. Astro could be a local lookup\narray, but the prose cards cannot be imported there to prove the proposal.",
+          "sha256": "45b87cb02b80c301c4573e58a3f3a1824249c071230fe5373a09c39d77bda4fd"
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:24adde135b8c51ef9220",
+      "selection_index": 20,
+      "current_claim": "right aiin/ain → recurrent right-side value family",
+      "current_type": "formal_role",
+      "target_basis_sha256": "e269989e6944a2920cdd8c238a82987f25b160f8fb794daab8f2e5d9a4f71605",
+      "effective_basis_sha256": "3714a148fea37f958bde7aa1163b73505e3fceed2972946c20b48c89b8ff8b7d",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:7a347c25845ef5e082f8"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:7a347c25845ef5e082f8",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Workshop dictionary v0.3",
+            "semantic_column": "Best structural reading",
+            "source": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "This value-family label is explicitly from the Best structural reading column. Count/index/measure is a different column and must not be silently imported.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 8,
+              "text": "Status: **deliberately speculative, post-hoc, and non-confirmatory**."
+            }
+          ],
+          "line": 232,
+          "line_end": 232,
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "quote": "| right `aiin/ain` | recurrent right-side value family | count, index, or measure class |",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945",
+          "source_id": "LEGACY_COMPONENT:4519bacfb074b298bfef",
+          "source_section": "Workshop dictionary v0.3",
+          "table_header": "| Form coordinate | Best structural reading | Deliberate workshop guess |"
+        }
+      ],
+      "additional_context": [
+        {
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "line": 219,
+          "line_end": 234,
+          "quote": "The right column is an intentionally aggressive guess, not a translation.\n\n| Form coordinate | Best structural reading | Deliberate workshop guess |\n|---|---|---|\n| `PAGE_HOST` / exact address | page-conditioned opaque value | local item, state, material, or diagram-node code |\n| `s-` | licensed physical-line-entry renderer | **NEW ENTRY / resume at margin** |\n| `q-` | licensed post-DY renderer; productive `q+X` | **NEXT / linked continuation** |\n| `d-` | recurrent binding wrapper | **OF / AT / WITH** relation |\n| `ch-` | broad construction wrapper | ordinary **DESCRIPTOR** |\n| `che-` | related extended wrapper | elaborated/derived descriptor |\n| `sh-` | contrasting construction wrapper | state/result descriptor |\n| `O` | local frame | default/current frame |\n| `OT` | marked frame | alternate, referenced, or derived frame |\n| right `aiin/ain` | recurrent right-side value family | count, index, or measure class |\n| right `al/ar` | recurrent paired value families | two opposed variant classes, not left/right directions |\n| `DY` | field closure | semicolon / **FIELD COMPLETE** |",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+        }
+      ],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:250d7760adb5d95b1054",
+      "selection_index": 21,
+      "current_claim": "qoiiin → QO_COMMAND+O_PREP+IIIN_FORM_IV",
+      "current_type": "formal_role",
+      "target_basis_sha256": "38bf65d698def8e784067a7ff86a8ffdfe18698a1a3d1eacd5a3d080330ded9b",
+      "effective_basis_sha256": "a79107c21753f138b12a83a4a92f085e449c006d73ce80df63dfd30b816facca",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:2e322b471172242f730f"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:2e322b471172242f730f",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT670",
+            "section": "Concrete cards",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt670_twenty_eight_residual_family_completion/REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "lexical_hypothesis",
+      "claim_change_required": false,
+      "reason": "COMMAND and PREP in the complete formula carry an instruction and preparation meaning; the primary gloss says to take a preparation in form IV. No independent numerical decoding is inferred.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 24,
+          "line_end": 24,
+          "path": "experiments/yolo/gdt670_twenty_eight_residual_family_completion/REPORT.md",
+          "quote": "- `qoiiin = QO_COMMAND+O_PREP+IIIN_FORM_IV` → “nimm Ansatz in Zubereitungsform IV.”",
+          "sha256": "84b6727f1fa8918bc0511d28d92f63492a6de19d09eaab4789ce693716b71a6e",
+          "source_id": "LEGACY_COMPONENT:b4c2141e602b7d4b1b1c",
+          "source_section": "Concrete cards",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:263db95799cf05c510d9",
+      "selection_index": 22,
+      "current_claim": "keeol → K+EE+OL",
+      "current_type": "formal_role",
+      "target_basis_sha256": "c249929ab7b2c88feb8e9c5ade3d8429fe34cd6322b9a5f9312e0cd5d968f8c1",
+      "effective_basis_sha256": "98edc9f1c86127d9df7d0870e4f3f1797da97e0298e5f48034131e471cb82346",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:92e72a3aa6c7135a1c82",
+        "CLEAN_COMPONENT:9d26023b65395b7834b5"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:92e72a3aa6c7135a1c82",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT527",
+            "section": "Was die Werkstattlesung ungefähr sagt",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt527_right_edge_learned_stem_extension/REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        },
+        {
+          "id": "CLEAN_COMPONENT:9d26023b65395b7834b5",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT542",
+            "section": "Ergebnis",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt542_full_old_tile_context_bridge/REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "K+EE+OL is the entire current assertion, with one semantic expansion and a later structural replay case. Neither makes the parse title itself an action gloss.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 75,
+          "line_end": 75,
+          "path": "experiments/yolo/gdt527_right_edge_learned_stem_extension/REPORT.md",
+          "quote": "- `keeol = K+EE+OL` → „geben, Grad II – fortsetzen“.",
+          "sha256": "d44bc2efa60ca98d31e4c37c51aa85529056d3bf2ae2c903e386a091e9cf314c",
+          "source_id": "LEGACY_COMPONENT:dc5b21ed6e5bdd9ef2d2",
+          "source_section": "Was die Werkstattlesung ungefähr sagt",
+          "table_header": null
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 3,
+              "text": "Status: `PASS_29_FULL_TILE_TARGETS_BRIDGED__17_CONTEXT_SHELLS_AND_30_OLD_SEAMS`"
+            }
+          ],
+          "line": 18,
+          "line_end": 18,
+          "path": "experiments/yolo/gdt542_full_old_tile_context_bridge/REPORT.md",
+          "quote": "- das revidierte `keeol=K+EE+OL` besitzt kein solches Fragment mehr.",
+          "sha256": "8bc1b9a8d40dd5402c9cfd255ebe5fd643ae8f5cac4f5a4f162a8412be8db8d3",
+          "source_id": "LEGACY_COMPONENT:e77cae324aec558a46f9",
+          "source_section": "Ergebnis",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation.",
+      "separate_semantic_proposition_followup": {
+        "source_statement": "geben, Grad II – fortsetzen",
+        "status": "source_statement_seen_existing_coverage_not_audited",
+        "action": "Compare exact whole semantic proposition against current cards before recovery; do not replace the formal parse claim."
+      }
+    },
+    {
+      "target": "SEM:29746e263ad5d0176fbd",
+      "selection_index": 23,
+      "current_claim": "aiin → AIIN",
+      "current_type": "formal_role",
+      "target_basis_sha256": "d9f96ede09e0a94043d7c970645f32a386f85958ebfeee2e8e3fa0f5b4344114",
+      "effective_basis_sha256": "5dee16e13cd555bec10db82ecfe790d5eca4e58770168a3d91894b70fd239b13",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:9c245225ec25714bc2be"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:9c245225ec25714bc2be",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT536",
+            "section": "Why this beats the alternatives",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt536_aii_renderer_square_aiicthy_closure/REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "Surface-to-AIIN card assignment with occurrence context; no amount/index meaning is selected by this statement.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 61,
+          "line_end": 62,
+          "path": "experiments/yolo/gdt536_aii_renderer_square_aiicthy_closure/REPORT.md",
+          "quote": "The page itself agrees with the value reading: f31r contains four exact\n`aiin=AIIN` cards and four `daiin=AIIN` cards before the target.",
+          "sha256": "4630bdfb42b6acd8854267607ff542729a74ac36e2ad07265dae21342fafb61a",
+          "source_id": "LEGACY_COMPONENT:3a2cc51f3b28704808e7",
+          "source_section": "Why this beats the alternatives",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:29b0ef4bea74974dcf57",
+      "selection_index": 24,
+      "current_claim": "okeod → OK+E+O+D_LABEL",
+      "current_type": "formal_role",
+      "target_basis_sha256": "96e5e3a2cc609846e1c35609dfa824713b36f66f6242515a66a2b7af035cabe2",
+      "effective_basis_sha256": "38b1eef8cbe8fe9699239d3da6a6885de8cc8bb6cb9e4a2c73baeb891490fffe",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:055cdb78efe529176faa"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:055cdb78efe529176faa",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Pass 465 — zwei Astro-Etikettenrahmen",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_astro_label_frames_four_hundred_sixty_fifth/FOUR_HUNDRED_SIXTY_FIFTH_REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "D_LABEL merely marks a label component in the current parse. The separate place-label/work-step gloss is additional semantic content, not a type change of the formula.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 17,
+          "line_end": 17,
+          "path": "experiments/yolo/sidequest_semantic_astro_label_frames_four_hundred_sixty_fifth/FOUR_HUNDRED_SIXTY_FIFTH_REPORT.md",
+          "quote": "- `okeod = OK+E+O+D_LABEL`: Arbeitsgang kurz ansetzen, Platzetikett.",
+          "sha256": "4abaa12b7758d4779d02f0481d0ad06541c33ee540f2ed5cb069aa57e62e575b",
+          "source_id": "LEGACY_COMPONENT:bcd7efc9bf1743675aa2",
+          "source_section": "Pass 465 — zwei Astro-Etikettenrahmen",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation.",
+      "separate_semantic_proposition_followup": {
+        "source_statement": "Arbeitsgang kurz ansetzen, Platzetikett",
+        "status": "source_statement_seen_existing_coverage_not_audited",
+        "action": "Compare exact whole semantic proposition against current cards before recovery; do not replace the formal parse claim."
+      }
+    },
+    {
+      "target": "SEM:29d2c36fc877936bea14",
+      "selection_index": 25,
+      "current_claim": "dalol → AL+OL",
+      "current_type": "formal_role",
+      "target_basis_sha256": "19ff6aafcce6fd17a80d7f9fdcace46c4180388d65c90d75c80bd607b9c52889",
+      "effective_basis_sha256": "36c9876c7dee07f8016189392267812ef27d469360938b46f24fda4be812e3da",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:e7883677fb77a7f62d5a",
+        "CLEAN_COMPONENT:9cb7f227a9cc1fe06c2a"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:e7883677fb77a7f62d5a",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT541",
+            "section": "Ergebnis",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt541_old_prefix_exact_recipe_context_replay/REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        },
+        {
+          "id": "CLEAN_COMPONENT:9cb7f227a9cc1fe06c2a",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT548",
+            "section": "Der praktische Leser",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt548_unified_145_prose_reader/REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "AL+OL is a structural package. The primary also describes neutral and inherited semantic readings, which are separately addressable propositions.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 3,
+              "text": "Status: `PASS_11_EXACT_RECIPE_PROFILES_REPLAY__QOKEES_SWITCH_REPLICATED`"
+            }
+          ],
+          "line": 16,
+          "line_end": 16,
+          "path": "experiments/yolo/gdt541_old_prefix_exact_recipe_context_replay/REPORT.md",
+          "quote": "- `dalol=AL+OL` und `doiiin=D_ADDR+O+IIN` übernehmen Handlung und Argument;",
+          "sha256": "7b08092c76329eb71776727864ceb31d399d35dc63ea09cf1050f3a0d2274ac1",
+          "source_id": "LEGACY_COMPONENT:dcb1d56aa14f20cbbcd9",
+          "source_section": "Ergebnis",
+          "table_header": null
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 3,
+              "text": "Status: `PASS_ONE_EXACT_KEY_READER_FOR_145_PROSE_SURFACES__23_NAMED_DEFAULTS`"
+            }
+          ],
+          "line": 34,
+          "line_end": 38,
+          "path": "experiments/yolo/gdt548_unified_145_prose_reader/REPORT.md",
+          "quote": "Für `dalol=AL+OL` wird dann aus dem neutralen „Am Zielort; fortsetzen“ die\nbekannte kontextuelle Arbeitslesung „Im laufenden Satz ordne den laufenden\nEintrag [wie zuvor] zu; zur Zielspalte; führe fort.“ Ohne laufende Handlung\nbleibt die neutrale Bedeutung trotzdem sichtbar; der Reader behauptet nur\nkeine bereits aufgelöste verbale Satzlesung.",
+          "sha256": "76ab5ab922de6764066a524fd6144cb65d17e0e3f3df5cf47565955c6779c270",
+          "source_id": "LEGACY_COMPONENT:bb05257ea44f921423e1",
+          "source_section": "Der praktische Leser",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation.",
+      "separate_semantic_proposition_followup": {
+        "source_statement": "neutral Am Zielort; fortsetzen versus contextually inherited current assignment to target column",
+        "status": "source_statement_seen_existing_coverage_not_audited",
+        "action": "Compare exact whole semantic proposition against current cards before recovery; do not replace the formal parse claim."
+      }
+    },
+    {
+      "target": "SEM:2b3f819e8e73abc02474",
+      "selection_index": 26,
+      "current_claim": "qockhol → qo + ckhol",
+      "current_type": "formal_role",
+      "target_basis_sha256": "6c39ae7a3bd8f4115efbacdce0c516740a497fc093123c2d5e579d097e4b0439",
+      "effective_basis_sha256": "d42fbdb3fc18c41602111d2e4c17a93e811b1635cc51835a6f3e4bebbf0d4653",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:0acad11a762c5a5c8155"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:0acad11a762c5a5c8155",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT680",
+            "section": "Die stärksten neuen Träger",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt680_eight_four_hole_family_completion/REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "qo+ckhol is a constituent decomposition; the report adds a concrete composite-drug addition command separately.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 23,
+          "line_end": 29,
+          "path": "experiments/yolo/gdt680_eight_four_hole_family_completion/REPORT.md",
+          "quote": "`tshol = t + sh + ol`, kalt eingeweichter Drogenstoff, hält an sechs\nbilateral-exakten Positionen. `chetain = ch + e + t + ain`, bis Mittelstufe\ntrocknen und anschließend auf Kühlstufe II bringen, hält an vier\nbilateral-exakten Prozesspositionen und schließt zusätzlich f112v.22.\n`qodar` misst an zehn Positionen die erste Ansatzfraktion; `qodor` bleibt die\nsichtbare Portionsvariante. `qockhol = qo + ckhol` bewahrt an sechs Positionen\nGDT679s Kompositdrogenstoff und macht daraus den konkreten Zugabebefehl.",
+          "sha256": "27d4d039aa70290e78912af44c1676b54dbc355f220845a5899d188fd9b5cef4",
+          "source_id": "LEGACY_COMPONENT:265ff5de3959319d3194",
+          "source_section": "Die stärksten neuen Träger",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation.",
+      "separate_semantic_proposition_followup": {
+        "source_statement": "concrete composite-drug addition command",
+        "status": "source_statement_seen_existing_coverage_not_audited",
+        "action": "Compare exact whole semantic proposition against current cards before recovery; do not replace the formal parse claim."
+      }
+    },
+    {
+      "target": "SEM:2c82db99b1d63fe2b5cb",
+      "selection_index": 27,
+      "current_claim": "ytey → Y+E+TY",
+      "current_type": "formal_role",
+      "target_basis_sha256": "6f882d069cb436bd5ada3876884cd16c70c32b3910b8deb2cb98ce74a01c00d4",
+      "effective_basis_sha256": "55fe5bd580c005388b9be9d9903294058bf379b77cc0eb0e8c29b58e7f7c07d5",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:f5c524411429ec50384f"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:f5c524411429ec50384f",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Die stärksten Reparaturen",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_exception_anatomy/EXCEPTION_ANATOMY_REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "Y+E+TY is a decomposition; the explicit short-part-taking gloss is a different assertion in the same line.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 15,
+          "line_end": 15,
+          "path": "experiments/yolo/sidequest_semantic_exception_anatomy/EXCEPTION_ANATOMY_REPORT.md",
+          "quote": "- `ytey = Y+E+TY`: nicht mehr das unanalysierte Füllen, sondern einen kurzen Teil des aktuellen Postens nehmen.",
+          "sha256": "86a13932bcb5957e1575510ff7b57e0becf91af287780fe341b58a13ca9f52c5",
+          "source_id": "LEGACY_COMPONENT:998648a4925bb8835676",
+          "source_section": "Die stärksten Reparaturen",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation.",
+      "separate_semantic_proposition_followup": {
+        "source_statement": "einen kurzen Teil des aktuellen Postens nehmen",
+        "status": "source_statement_seen_existing_coverage_not_audited",
+        "action": "Compare exact whole semantic proposition against current cards before recovery; do not replace the formal parse claim."
+      }
+    },
+    {
+      "target": "SEM:2d160f8ea75e8e9388d7",
+      "selection_index": 28,
+      "current_claim": "qoeedy → QO_COMMAND+O_PREP+EE_END+DY_FINISHED",
+      "current_type": "formal_role",
+      "target_basis_sha256": "c45baa5691f26b32c29b071124aa6a529e1e2221f55fa953341b09db6ca37da6",
+      "effective_basis_sha256": "637d713e3fe6eb09fbc10becf98bb90da1d95d425fe63effe579d134d8f85ce3",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:32c0c7d299aa02e66fcf"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:32c0c7d299aa02e66fcf",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT671",
+            "section": "Strong card decisions",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt671_fifteen_residual_family_completion/REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "lexical_hypothesis",
+      "claim_change_required": false,
+      "reason": "COMMAND, PREP, END and FINISHED encode a proposed command to take a completed preparation; the report explicitly contrasts that command with a nominal finished product.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 22,
+          "line_end": 22,
+          "path": "experiments/yolo/gdt671_fifteen_residual_family_completion/REPORT.md",
+          "quote": "- `qoeedy = QO_COMMAND+O_PREP+EE_END+DY_FINISHED` is the command “nimm den vollständig fertiggestellten Ansatz.” Its 16 positions do not collapse into a nominal finished product.",
+          "sha256": "23fb98ce743a89be4086f755b8dfbccb83cdca9f8c203cb182dd759bab369b84",
+          "source_id": "LEGACY_COMPONENT:2e6a93a1c55002f3244e",
+          "source_section": "Strong card decisions",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:2f2e3582db3848c4369b",
+      "selection_index": 29,
+      "current_claim": "DY is a reusable right-edge closure/status code, including standalone occurrences.",
+      "current_type": "formal_role",
+      "target_basis_sha256": "ca9ad5816f4273ee98c8eb2601f3c69606bf6fdccb603754878d48cd372c5ed4",
+      "effective_basis_sha256": "d370581c5b20b1ce667a6d18ce08880b6c50ed1f842ee792759f9f3b310f399a",
+      "source_case_ids": [
+        "REPORT_PROPOSAL:84ae09d4de3923e08f61"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "REPORT_PROPOSAL:84ae09d4de3923e08f61",
+          "scope": {
+            "case": "explicit_prose_model",
+            "section": "What HPR-1 explains at once",
+            "source": "GDT008_HYBRID_REGISTER_THEORY_REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": null
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "Generic right-edge closure/status and standalone applicability remain field architecture; no particular result or completed real-world action is named in this claim.",
+      "evidence": [
+        {
+          "line": 131,
+          "path": "GDT008_HYBRID_REGISTER_THEORY_REPORT.md",
+          "quote": "3. **Right-edge DY:** a closure/status code naturally occurs across many\n   otherwise unrelated cores and can also be written alone.",
+          "sha256": "84bd7de3711b75b5127f405f78548d66bc68d4927ae3bcb589ca2243c2c6723b"
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:2f56264875d5450119ff",
+      "selection_index": 30,
+      "current_claim": "DY → semicolon / FIELD COMPLETE",
+      "current_type": "formal_role",
+      "target_basis_sha256": "076c812db20d9bb2e698214bc0b696fec0996f3fc3d91bc06b3888845f6eabfd",
+      "effective_basis_sha256": "a269e6bdf85bac45dcfad498a7200ebfd6abde070634e209ea3bca065d0f7f72",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:b7842c37b838b4ac37f6"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:b7842c37b838b4ac37f6",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Workshop dictionary v0.3",
+            "semantic_column": "Deliberate workshop guess",
+            "source": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "Semicolon/FIELD COMPLETE denotes punctuation or field termination, not completion of a specified activity. The deliberate-guess column alone does not make punctuation a lexical meaning.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 8,
+              "text": "Status: **deliberately speculative, post-hoc, and non-confirmatory**."
+            }
+          ],
+          "line": 234,
+          "line_end": 234,
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "quote": "| `DY` | field closure | semicolon / **FIELD COMPLETE** |",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945",
+          "source_id": "LEGACY_COMPONENT:15018c6fd5db750459aa",
+          "source_section": "Workshop dictionary v0.3",
+          "table_header": "| Form coordinate | Best structural reading | Deliberate workshop guess |"
+        }
+      ],
+      "additional_context": [
+        {
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "line": 219,
+          "line_end": 234,
+          "quote": "The right column is an intentionally aggressive guess, not a translation.\n\n| Form coordinate | Best structural reading | Deliberate workshop guess |\n|---|---|---|\n| `PAGE_HOST` / exact address | page-conditioned opaque value | local item, state, material, or diagram-node code |\n| `s-` | licensed physical-line-entry renderer | **NEW ENTRY / resume at margin** |\n| `q-` | licensed post-DY renderer; productive `q+X` | **NEXT / linked continuation** |\n| `d-` | recurrent binding wrapper | **OF / AT / WITH** relation |\n| `ch-` | broad construction wrapper | ordinary **DESCRIPTOR** |\n| `che-` | related extended wrapper | elaborated/derived descriptor |\n| `sh-` | contrasting construction wrapper | state/result descriptor |\n| `O` | local frame | default/current frame |\n| `OT` | marked frame | alternate, referenced, or derived frame |\n| right `aiin/ain` | recurrent right-side value family | count, index, or measure class |\n| right `al/ar` | recurrent paired value families | two opposed variant classes, not left/right directions |\n| `DY` | field closure | semicolon / **FIELD COMPLETE** |",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+        }
+      ],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:30379570ddf7ec25cf09",
+      "selection_index": 31,
+      "current_claim": "korainy → K+OR+AIN+Y",
+      "current_type": "formal_role",
+      "target_basis_sha256": "5307c8fc42bed67f68d4a1378a3393b8359dcec082933f3e06cfe1652d010eb4",
+      "effective_basis_sha256": "011421d6552c5c3fd042044c8530c71761d7665cc221615b7163e988f5dd74fe",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:fa63fa09a6300a8741db"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:fa63fa09a6300a8741db",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT464",
+            "section": "`ainy` is a two-card tail",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt464_residual_exact_package_bridge/REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "K+OR+AIN+Y is a parse. Nearby AIN=ANTEIL and Y=POSTEN are separate partial meaning assignments, not the full current formula proposition.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 43,
+          "line_end": 47,
+          "path": "experiments/yolo/gdt464_residual_exact_package_bridge/REPORT.md",
+          "quote": "The suffix `ain` retains `AIN=ANTEIL` in all 53 running extensions (214 events,\n20 pages), and `y=POSTEN` is an exact recurrent card. GDT463 independently\npromoted held pharmaceutical `korainy=K+OR+AIN+Y`; the unchanged `AIN+Y`\npackage is factor-green when replayed on the celestial labels. It therefore\ngives:",
+          "sha256": "1ceca7302ec2833b9ebfdcc7cdd51afe64cf599a61b9a6341e4274af4b4479d9",
+          "source_id": "LEGACY_COMPONENT:392a48d77e2b302c5d82",
+          "source_section": "`ainy` is a two-card tail",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:30c4dfc4b2c12e65f467",
+      "selection_index": 32,
+      "current_claim": "cheeckhody → CH+EE+CKH+O+DY",
+      "current_type": "formal_role",
+      "target_basis_sha256": "46417cc927cd5317545ef103f27dedbcb216cc236a580559dad52e9d07ac987c",
+      "effective_basis_sha256": "19b633173915cc75f57f4e2eb39df4b8c2fdcf7d3db2fa661392c1c8d1bcc834",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:2549644b17bb6e0338e1"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:2549644b17bb6e0338e1",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Sidequest Pass 844: fourth frequency tier",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_fourth_frequency_tier_eight_hundred_forty_fourth/EIGHT_HUNDRED_FORTY_FOURTH_REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "CH+EE+CKH+O+DY is a parse. A full passage-taking instruction exists in the evidence and requires separate coverage.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 7,
+          "line_end": 10,
+          "path": "experiments/yolo/sidequest_semantic_fourth_frequency_tier_eight_hundred_forty_fourth/EIGHT_HUNDRED_FORTY_FOURTH_REPORT.md",
+          "quote": "Even the longest card in the tier, `cheeckhody = CH+EE+CKH+O+DY`, reads only\nfrom familiar atoms: take, long, passage, work step, close. Its fluent portable\nreading is “lang durch den Durchlass im Arbeitsgang entnehmen und schließen”,\nnot a special memorized recipe sentence.",
+          "sha256": "f36e8831eb06cd31c3b2414637ebfec6258e439dd40de47c8cd56b1c58bbfb7b",
+          "source_id": "LEGACY_COMPONENT:5431fd74bbb18a8bb5e1",
+          "source_section": "Sidequest Pass 844: fourth frequency tier",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation.",
+      "separate_semantic_proposition_followup": {
+        "source_statement": "lang durch den Durchlass im Arbeitsgang entnehmen und schließen",
+        "status": "source_statement_seen_existing_coverage_not_audited",
+        "action": "Compare exact whole semantic proposition against current cards before recovery; do not replace the formal parse claim."
+      }
+    },
+    {
+      "target": "SEM:31319efa2a73a828b235",
+      "selection_index": 33,
+      "current_claim": "d → Opener oder Kopfträger",
+      "current_type": "formal_role",
+      "target_basis_sha256": "27fd2fcceaf4bf264fe7dd9326c26ddf6eceb684159a3202119d768a28dd79a5",
+      "effective_basis_sha256": "99d1befa4a2a247252b6bce456b383811008923c7cca1a4af12f5b2cebbeebde",
+      "source_case_ids": [
+        "REPORT_PROPOSAL:8805e25eed2065ff3ae7"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "REPORT_PROPOSAL:8805e25eed2065ff3ae7",
+          "scope": {
+            "case": "im Modell zu prüfende Rolle",
+            "section": "Struktureller Prüfmaßstab / Einheit | gehaltene Formbeobachtung | im Modell zu prüfende Rolle",
+            "source": "experiments/yolo/gdt609_historical_mixed_abbreviation_prior/REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": null
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "Opener/head carrier is a positionally motivated structural role in the table, without content or discourse instruction.",
+      "evidence": [
+        {
+          "line": 36,
+          "path": "experiments/yolo/gdt609_historical_mixed_abbreviation_prior/REPORT.md",
+          "quote": "| `d` | chunk-initial 0.4992; line-initial 0.1759 | Opener oder Kopfträger |",
+          "sha256": "53b3bdddbf99963d95ebc6bac5af268b46f195dee0582981651d531ae03ae789"
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:31ae364b0d9f5a5b5c12",
+      "selection_index": 34,
+      "current_claim": "AIIN is a generic value or index slot without equivalence or reuse semantics.",
+      "current_type": "formal_role",
+      "target_basis_sha256": "6164a4f60c2108660b12b90d59f1a8d07fc1534bf77b36bcccec29a229fe81e4",
+      "effective_basis_sha256": "c719a2312b4eb57393df6a601d3607473c586ec640ee4bd52f193ae31db9e6ea",
+      "source_case_ids": [
+        "ROOT400:48ca5e8f2b47e82da0ce"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "ROOT400:48ca5e8f2b47e82da0ce",
+          "scope": {
+            "local_historical_model": true,
+            "source": "experiments/yolo/sidequest_theory_candidates_v7/V7_REFERENCE_VALUE.md",
+            "source_line": 213
+          },
+          "status": "unconfirmed",
+          "source_polarity": "historical_proposal_or_explicit_rival_not_confirmed"
+        }
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "functional_hypothesis",
+      "claim_change_required": false,
+      "reason": "The source proposes a generic value/index interpretation that could align with fixed form coordinates, explicitly rival to antecedent-value reuse. The claim makes a functional content choice, not only naming a right-side distribution.",
+      "evidence": [
+        {
+          "line": 213,
+          "path": "experiments/yolo/sidequest_theory_candidates_v7/V7_REFERENCE_VALUE.md",
+          "quote": "## Strongest rival",
+          "sha256": "96e25dc1a1ac4342b280a6434ecd2150deb88f848211d0bc048012b95ea3c329"
+        },
+        {
+          "line": 215,
+          "path": "experiments/yolo/sidequest_theory_candidates_v7/V7_REFERENCE_VALUE.md",
+          "quote": "The strongest rival is `AIIN = GENERIC VALUE/INDEX SLOT` with no equivalence or\nreuse semantics. It wins if AIIN occurrences do not show local antecedent\ncontinuity and instead align with fixed form coordinates. The stated-reference\nmodel wins if field-initial and repeated AIIN systematically reuse a value or\nsetting already active in the same paragraph.",
+          "sha256": "96e25dc1a1ac4342b280a6434ecd2150deb88f848211d0bc048012b95ea3c329"
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:32750986f493ff9fd324",
+      "selection_index": 35,
+      "current_claim": "q scope lies outside the local value and combines with multiple right states.",
+      "current_type": "formal_role",
+      "target_basis_sha256": "dbe68140f5683a82edb02b3741fe96f3a408bcb63ff980b714c06cfb651870cb",
+      "effective_basis_sha256": "3cdc759d3a6070ad0217439ac405d2109b818b1f82f3789d2380af0a684e205e",
+      "source_case_ids": [
+        "REPORT_PROPOSAL:0084409c618beffe96af"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "REPORT_PROPOSAL:0084409c618beffe96af",
+          "scope": {
+            "case": "explicit_prose_model",
+            "section": "What HPR-1 explains at once",
+            "source": "GDT008_HYBRID_REGISTER_THEORY_REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": null
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "Outer scope and multiple right states describe a field grammar. No specific semantic action or referent is supplied.",
+      "evidence": [
+        {
+          "line": 133,
+          "path": "GDT008_HYBRID_REGISTER_THEORY_REPORT.md",
+          "quote": "4. **Productive q+X:** scope is outside the local value and therefore combines\n   with multiple right states.",
+          "sha256": "84bd7de3711b75b5127f405f78548d66bc68d4927ae3bcb589ca2243c2c6723b"
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:327edbc54d7bacf3e510",
+      "selection_index": 36,
+      "current_claim": "QEKY → E+K+E+Y",
+      "current_type": "formal_role",
+      "target_basis_sha256": "4ffb715615d738b7457cf598953f302db703cf55bf24e94b10203adf46d606ae",
+      "effective_basis_sha256": "0ff29d346de45308c4dd6a524682142bb93a72caa98d3b7b00d0555407220569",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:7c80eb4de0780fea63a3"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:7c80eb4de0780fea63a3",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Pass 458 — vier vermeintliche Ganzwörter waren normale Kompositionen",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_whole_card_reduction_four_hundred_fifty_eighth/FOUR_HUNDRED_FIFTY_EIGHTH_REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "E+K+E+Y is a formula; the source separately contrasts a short feeding instruction with invisible RAW.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 9,
+          "line_end": 9,
+          "path": "experiments/yolo/sidequest_semantic_whole_card_reduction_four_hundred_fifty_eighth/FOUR_HUNDRED_FIFTY_EIGHTH_REPORT.md",
+          "quote": "- `QEKY = E+K+E+Y`: DIES KURZ ZUFÜHREN, nicht unsichtbar ROH.",
+          "sha256": "c760053a229b7e5a4dcf7ec52e09ef6376ff0738ad8939c45eedba3bd730fc3e",
+          "source_id": "LEGACY_COMPONENT:c9517b2ac4f861293672",
+          "source_section": "Pass 458 — vier vermeintliche Ganzwörter waren normale Kompositionen",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation.",
+      "separate_semantic_proposition_followup": {
+        "source_statement": "DIES KURZ ZUFÜHREN, not RAW",
+        "status": "source_statement_seen_existing_coverage_not_audited",
+        "action": "Compare exact whole semantic proposition against current cards before recovery; do not replace the formal parse claim."
+      }
+    },
+    {
+      "target": "SEM:33b629ddfa14ce33945b",
+      "selection_index": 37,
+      "current_claim": "oraiiin → OR+LOCAL_CHAR_I+AIIN",
+      "current_type": "formal_role",
+      "target_basis_sha256": "a847f1f18799459e5b5671ae8dd3531ccb6fd3f33f27c474f287a912164d64f4",
+      "effective_basis_sha256": "36aacc46ade798de8196d068d6ba8160ea6dbd71d553dbf7228edb2bff3b7a92",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:30244ddd1de29411a07a"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:30244ddd1de29411a07a",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT406",
+            "section": "Was das verbessert",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt406_amber_microform_existing_page_closure/REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "OR+LOCAL_CHAR_I+AIIN decomposes a form and preserves an uninterpreted local character.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 34,
+          "line_end": 34,
+          "path": "experiments/yolo/gdt406_amber_microform_existing_page_closure/REPORT.md",
+          "quote": "- `oraiiin = OR+LOCAL_CHAR_I+AIIN`",
+          "sha256": "6988114ebaae9391d5a56b4d31cb4293faee434fe0fb1fdff9e21315eee65b96",
+          "source_id": "LEGACY_COMPONENT:e8c7889ad4a24204a4f0",
+          "source_section": "Was das verbessert",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:34bba1ba9562fed6bfc6",
+      "selection_index": 38,
+      "current_claim": "Herbal line and field boundaries largely reflect physical reflow rather than semantic slots.",
+      "current_type": "formal_role",
+      "target_basis_sha256": "f90251a55421cecb60d6cd95375af693ae4be483d08db0afc6fe2e30699d8aec",
+      "effective_basis_sha256": "80c5988af10364c5157bb6d0e740874c34a0671e3a970c10363821515f501920",
+      "source_case_ids": [
+        "ROOT400:2870ad9f6a9af4a7a090"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "ROOT400:2870ad9f6a9af4a7a090",
+          "scope": {
+            "local_historical_model": true,
+            "source": "experiments/yolo/sidequest_theory_candidates_v10/CANDIDATE_V10_VISUAL_HERBAL_ADDRESS.md",
+            "source_line": 43
+          },
+          "status": "unconfirmed",
+          "source_polarity": "historical_proposal_or_explicit_rival_not_confirmed"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "Physical reflow versus semantic-slot boundaries is a layout/grammar hypothesis, not a content translation.",
+      "evidence": [
+        {
+          "line": 43,
+          "path": "experiments/yolo/sidequest_theory_candidates_v10/CANDIDATE_V10_VISUAL_HERBAL_ADDRESS.md",
+          "quote": "4. line and Herbal field boundaries are largely physical reflow, not semantic\n   slots.",
+          "sha256": "fd36bcfee56e648404bc454267e862e06b076ce09469b724bc0b11ab54a7b002"
+        },
+        {
+          "line": 46,
+          "path": "experiments/yolo/sidequest_theory_candidates_v10/CANDIDATE_V10_VISUAL_HERBAL_ADDRESS.md",
+          "quote": "This beats a water-key, four-part checklist, or pure nonsemantic page code\nbecause it explains the long continuous records, the large page-local lexical\ntail, the two paragraphs on f10r, and the demonstrably picture-shaped writing\nspace without requiring that every graphical adjacency be meaningful.",
+          "sha256": "fd36bcfee56e648404bc454267e862e06b076ce09469b724bc0b11ab54a7b002"
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:3512ae5ebf87ae05f7bf",
+      "selection_index": 39,
+      "current_claim": "che+dy → chedy",
+      "current_type": "formal_role",
+      "target_basis_sha256": "d54326584a9590e97495e8c43c0ab61fab2402d093238960145a420a69ed7a7a",
+      "effective_basis_sha256": "e96102e0fa82e532f027438eb73f4dd37aef21f9251ee60176b10450105cf5c8",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:f0ba1a526862d43d2210"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:f0ba1a526862d43d2210",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Pass 785 — CHED ist der Normalfall, CHD eine kleine Hand-2-Kurzleiste",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_chd_variant_selection_seven_hundred_eighty_fifth/SEVEN_HUNDRED_EIGHTY_FIFTH_REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "che+dy surface joining rule is a renderer statement.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 8,
+          "line_end": 8,
+          "path": "experiments/yolo/sidequest_semantic_chd_variant_selection_seven_hundred_eighty_fifth/SEVEN_HUNDRED_EIGHTY_FIFTH_REPORT.md",
+          "quote": "2. Bei der portablen Karte PROC042 entscheidet die Eintrittshülle: `che+dy = chedy`, `ch+dy = chdy`.",
+          "sha256": "b95b1c80cb5d9fa23495763099621fe4be1e6558f1d63c88db35529b95d6e95f",
+          "source_id": "LEGACY_COMPONENT:f48497fa8b4cd18f7d1a",
+          "source_section": "Pass 785 — CHED ist der Normalfall, CHD eine kleine Hand-2-Kurzleiste",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:36e9c8a1347024997827",
+      "selection_index": 40,
+      "current_claim": "OT>R<END → DANACH · REL",
+      "current_type": "formal_role",
+      "target_basis_sha256": "aa715ec97aa9f553bedc944c2880fdf26646a5549a54858b9845500afb00479b",
+      "effective_basis_sha256": "1a77a9f16c0be0ca5e35aca702ad703b5800b1f1cd0f4c033b508715d890eb3b",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:942e79b1392404f01ab1"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:942e79b1392404f01ab1",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT560",
+            "section": "Acht Hüllen reichen für alle216 Stellen",
+            "semantic_column": "kurze Lesung",
+            "source": "experiments/yolo/gdt560_relation_state_geometry_grammar/REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "functional_hypothesis",
+      "claim_change_required": false,
+      "reason": "DANACH is the short-reading column for a temporal relation instruction, with REL explicitly ranging over destination/origin/connection/path meanings in this report. Unlike neutral NEXT/CLOSE parser tags, the source deliberately supplies a compositional reading.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 3,
+              "text": "Status:"
+            }
+          ],
+          "line": 55,
+          "line_end": 55,
+          "path": "experiments/yolo/gdt560_relation_state_geometry_grammar/REPORT.md",
+          "quote": "| `OT>R<END` | 62 | `DANACH · REL` |",
+          "sha256": "b5df8d51cb73e2778d6b1f41d2ff644242632c2cf09357bbcf6ebf7f348d6a84",
+          "source_id": "LEGACY_COMPONENT:4e5e614c0794ec04bb93",
+          "source_section": "Acht Hüllen reichen für alle216 Stellen",
+          "table_header": "| Hülle | Stellen | kurze Lesung |"
+        }
+      ],
+      "additional_context": [
+        {
+          "path": "experiments/yolo/gdt560_relation_state_geometry_grammar/REPORT.md",
+          "line": 7,
+          "line_end": 20,
+          "quote": "\nDie vier Wörterbucheinträge bleiben klein:\n\n```text\nAL   ZIELORT\nAR   AUSGANG\nL    VERBINDUNG\nAIR  BAHN\n```\n\nIn den1,656 Zustandskarten erscheinen sie216-mal in212 Karten. Jede Stelle hat\neine von8 sichtbaren Kontrollhüllen und eine kurze kompositionelle Lesung.\nAnders als `Y/AIIN/AIN/OR` bilden die vier Relationen aber kein gemeinsames,\nfrei austauschbares Fach.",
+          "sha256": "b5df8d51cb73e2778d6b1f41d2ff644242632c2cf09357bbcf6ebf7f348d6a84"
+        }
+      ],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:381621930c9616cebb95",
+      "selection_index": 41,
+      "current_claim": "qekey → KCH+E+Y",
+      "current_type": "formal_role",
+      "target_basis_sha256": "5ac884e82df5563a5094f064143f7973ed546c42e5dbf7244134a0f7f76a8d9c",
+      "effective_basis_sha256": "d76739b7f462143678aeb8f9bbf27d01ffc4de98fa919e8222bc9368d61294be",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:7c4e830337357d0d013e"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:7c4e830337357d0d013e",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Die stärksten Reparaturen",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_exception_anatomy/EXCEPTION_ANATOMY_REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "KCH+E+Y is a formula; its nearby current-item processing gloss is a separate semantic proposition.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 14,
+          "line_end": 14,
+          "path": "experiments/yolo/sidequest_semantic_exception_anatomy/EXCEPTION_ANATOMY_REPORT.md",
+          "quote": "- `qekey = KCH+E+Y`: nicht mehr das isolierte Adjektiv roh, sondern den aktuellen Posten kurz bearbeiten.",
+          "sha256": "86a13932bcb5957e1575510ff7b57e0becf91af287780fe341b58a13ca9f52c5",
+          "source_id": "LEGACY_COMPONENT:13b520d3da07c9424f9f",
+          "source_section": "Die stärksten Reparaturen",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation.",
+      "separate_semantic_proposition_followup": {
+        "source_statement": "den aktuellen Posten kurz bearbeiten, not raw adjective",
+        "status": "source_statement_seen_existing_coverage_not_audited",
+        "action": "Compare exact whole semantic proposition against current cards before recovery; do not replace the formal parse claim."
+      }
+    },
+    {
+      "target": "SEM:38eb2077c00204dd3a95",
+      "selection_index": 42,
+      "current_claim": "lchy → L+CH+Y",
+      "current_type": "formal_role",
+      "target_basis_sha256": "2ab9133b536b3ec84abfa99c41cf7cb3d2ca2b02b7ce77b6005bdb299d3445a6",
+      "effective_basis_sha256": "a6fa7f045452b9ef6b7991a5a305a02bb1dbfa5b53f40dc990864fe8fbd7021e",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:90a8f0373d53745a0842"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:90a8f0373d53745a0842",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Vier produktive Reparaturen",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_b2_liquid_application_four_hundred_thirty_eighth/FOUR_HUNDRED_THIRTY_EIGHTH_REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "L+CH+Y is a formula; DIES ABZIEHEN in the same line is a distinct semantic expansion.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 19,
+          "line_end": 19,
+          "path": "experiments/yolo/sidequest_semantic_b2_liquid_application_four_hundred_thirty_eighth/FOUR_HUNDRED_THIRTY_EIGHTH_REPORT.md",
+          "quote": "- `lchy = L+CH+Y` — DIES ABZIEHEN;",
+          "sha256": "cc7fd11cc128e4d404b4de282aad07f945ec0f69ae9f9ad114c0b61f1d3d955e",
+          "source_id": "LEGACY_COMPONENT:12a66ef23506a90ca07a",
+          "source_section": "Vier produktive Reparaturen",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation.",
+      "separate_semantic_proposition_followup": {
+        "source_statement": "DIES ABZIEHEN",
+        "status": "source_statement_seen_existing_coverage_not_audited",
+        "action": "Compare exact whole semantic proposition against current cards before recovery; do not replace the formal parse claim."
+      }
+    },
+    {
+      "target": "SEM:3af3389178ef0c08c67a",
+      "selection_index": 43,
+      "current_claim": "O → default/current frame",
+      "current_type": "formal_role",
+      "target_basis_sha256": "878a87c21939a8541c74824bc42a6b33fd147cb5af33d4ef3401c8ef6015cf06",
+      "effective_basis_sha256": "938d7a8baaf42ff4f77e610cab53d3aa634036ea9317027a8fc0031982fb9520",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:25832a57ec2d81897b35"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:25832a57ec2d81897b35",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Workshop dictionary v0.3",
+            "semantic_column": "Deliberate workshop guess",
+            "source": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "Default/current frame remains an unspecified local-frame state. The row offers no actual object or action referent.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 8,
+              "text": "Status: **deliberately speculative, post-hoc, and non-confirmatory**."
+            }
+          ],
+          "line": 230,
+          "line_end": 230,
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "quote": "| `O` | local frame | default/current frame |",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945",
+          "source_id": "LEGACY_COMPONENT:bdbe800786d9d381a334",
+          "source_section": "Workshop dictionary v0.3",
+          "table_header": "| Form coordinate | Best structural reading | Deliberate workshop guess |"
+        }
+      ],
+      "additional_context": [
+        {
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "line": 219,
+          "line_end": 234,
+          "quote": "The right column is an intentionally aggressive guess, not a translation.\n\n| Form coordinate | Best structural reading | Deliberate workshop guess |\n|---|---|---|\n| `PAGE_HOST` / exact address | page-conditioned opaque value | local item, state, material, or diagram-node code |\n| `s-` | licensed physical-line-entry renderer | **NEW ENTRY / resume at margin** |\n| `q-` | licensed post-DY renderer; productive `q+X` | **NEXT / linked continuation** |\n| `d-` | recurrent binding wrapper | **OF / AT / WITH** relation |\n| `ch-` | broad construction wrapper | ordinary **DESCRIPTOR** |\n| `che-` | related extended wrapper | elaborated/derived descriptor |\n| `sh-` | contrasting construction wrapper | state/result descriptor |\n| `O` | local frame | default/current frame |\n| `OT` | marked frame | alternate, referenced, or derived frame |\n| right `aiin/ain` | recurrent right-side value family | count, index, or measure class |\n| right `al/ar` | recurrent paired value families | two opposed variant classes, not left/right directions |\n| `DY` | field closure | semicolon / **FIELD COMPLETE** |",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+        }
+      ],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:3c0cb61a713d7ff7e7e1",
+      "selection_index": 44,
+      "current_claim": "sholdy → SH+OL+D_ADDR+Y",
+      "current_type": "formal_role",
+      "target_basis_sha256": "36c984b251eb4a0075e56cb99a071464193d062a4f2d3f2a6a50dd721de742a9",
+      "effective_basis_sha256": "b512412387d7deec2de5c465223412d44f2e6260d9c09588d3f7a9379737054d",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:64da78e14f455341b011"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:64da78e14f455341b011",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT532",
+            "section": "Result",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt532_same_owner_exact_card_tiling_revision/REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "The intact SH+OL package and D_ADDR component are local parse/carrier evidence; no complete semantic claim is present.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 23,
+          "line_end": 27,
+          "path": "experiments/yolo/gdt532_same_owner_exact_card_tiling_revision/REPORT.md",
+          "quote": "The tail then crosses roles intact. `daiir=DA+IIN+R` occurs in current prose on\nf31r and f66r. Its f66r occurrence is especially useful: target\n`dsholdaiir` sits at f66r.58, while exact `daiir` appears at f66r.62 in the\nsame prose block and owner. Between them, f66r.60 also contains\n`sholdy=SH+OL+D_ADDR+Y`, preserving the middle `SH+OL` package locally.",
+          "sha256": "6fac0d4b2015e12f1489a2989d37c6457c55ed02b77b6365e3548e52a54bf00f",
+          "source_id": "LEGACY_COMPONENT:cb06ebde4b33a315912e",
+          "source_section": "Result",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:3c61b43c3775e6258dce",
+      "selection_index": 45,
+      "current_claim": "odain → MIXED_NONCLOSURE_HOST_CANDIDATE",
+      "current_type": "formal_role",
+      "target_basis_sha256": "7e9a9ca5388f095b8a3c1b7c646f8b8dc836fd6d9a803fdd2b488688846cebc8",
+      "effective_basis_sha256": "072e6520a74567be88733e6ddbc450fa60b191b642684345eff09a86ccf3dde5",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:d53bf26dd40020213b2d"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:d53bf26dd40020213b2d",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT037",
+            "section": "Candidate residual cores, separated by formal behavior",
+            "semantic_column": "Reading",
+            "source": "GDT037_HERBAL_B_RECIPE_SHARED_REGISTER_REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "The table describes wrapper and nonclosure-host behavior. Its Reading header does not make MIXED_NONCLOSURE_HOST_CANDIDATE a word meaning.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 70,
+          "line_end": 70,
+          "path": "GDT037_HERBAL_B_RECIPE_SHARED_REGISTER_REPORT.md",
+          "quote": "| `odain` | 3/15/4/2 | NONE;ch;che;q;sh | OTHER:2;Q_OUTER_STATE:1 ; CARRIER_STATE:7;OTHER:4;Q_OUTER_STATE:4 | MIXED_NONCLOSURE_HOST_CANDIDATE |",
+          "sha256": "bbd789f98dbb53f47a273c45ce103607eea75b3edbbd59cf1de67461fb0f536e",
+          "source_id": "LEGACY_COMPONENT:1edecd6ce5f0985ce61f",
+          "source_section": "Candidate residual cores, separated by formal behavior",
+          "table_header": "| Core | HB/S/A/other-B | Target wrapper variants | Anonymous-state tendency | Reading |"
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:3ca5c59516996e423c3a",
+      "selection_index": 46,
+      "current_claim": "octhys → O+CTH+Y+S_LABEL",
+      "current_type": "formal_role",
+      "target_basis_sha256": "5ad381b239aea9126b375be265bc83ff67ef61eb5fb65a50b4a1adcaec06f096",
+      "effective_basis_sha256": "6cf923e28914a49af4dd1bc50d8b542ed6442fdfaf08b32d71db9c76aa78434d",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:56705887a493ab760efb"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:56705887a493ab760efb",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Pass 465 — zwei Astro-Etikettenrahmen",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_astro_label_frames_four_hundred_sixty_fifth/FOUR_HUNDRED_SIXTY_FIFTH_REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "O+CTH+Y+S_LABEL is a parse with generic label marker. The adjacent star-label/readiness interpretation is separate semantic content.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 14,
+          "line_end": 15,
+          "path": "experiments/yolo/sidequest_semantic_astro_label_frames_four_hundred_sixty_fifth/FOUR_HUNDRED_SIXTY_FIFTH_REPORT.md",
+          "quote": "- `octhys = O+CTH+Y+S_LABEL`: Arbeitsgang bereit, dieser Posten,\n  Sternetikett;",
+          "sha256": "4abaa12b7758d4779d02f0481d0ad06541c33ee540f2ed5cb069aa57e62e575b",
+          "source_id": "LEGACY_COMPONENT:9856d4d3888e47883245",
+          "source_section": "Pass 465 — zwei Astro-Etikettenrahmen",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation.",
+      "separate_semantic_proposition_followup": {
+        "source_statement": "Arbeitsgang bereit, dieser Posten, Sternetikett",
+        "status": "source_statement_seen_existing_coverage_not_audited",
+        "action": "Compare exact whole semantic proposition against current cards before recovery; do not replace the formal parse claim."
+      }
+    },
+    {
+      "target": "SEM:3d247d6767f3ce22c65a",
+      "selection_index": 47,
+      "current_claim": "daiy → D_ADDR+A_ADDR+LOCAL_CHAR_I+Y",
+      "current_type": "formal_role",
+      "target_basis_sha256": "cf141973f5ac00b71feb9152c767cde66fc95708bc28ddecb24cc36e5489c772",
+      "effective_basis_sha256": "f37fc03bac01dc187f1739779c84779c2c7ae27dfe05ea529c89928935d4c151",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:ed5dbb9c18e01b28c2d9"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:ed5dbb9c18e01b28c2d9",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT406",
+            "section": "Was das verbessert",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt406_amber_microform_existing_page_closure/REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "D_ADDR+A_ADDR+LOCAL_CHAR_I+Y is an address-component decomposition with an uninterpreted character; no particular referent is named.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 32,
+          "line_end": 32,
+          "path": "experiments/yolo/gdt406_amber_microform_existing_page_closure/REPORT.md",
+          "quote": "- `daiy = D_ADDR+A_ADDR+LOCAL_CHAR_I+Y`",
+          "sha256": "6988114ebaae9391d5a56b4d31cb4293faee434fe0fb1fdff9e21315eee65b96",
+          "source_id": "LEGACY_COMPONENT:ca3cf6684c721eda3b22",
+          "source_section": "Was das verbessert",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:3d8d8c983610c4f590db",
+      "selection_index": 48,
+      "current_claim": "cthy → CH+T+Y",
+      "current_type": "formal_role",
+      "target_basis_sha256": "9fa405b51e54aade79064a5b82da9f65ba369b2b7adcb00187b12052a1180323",
+      "effective_basis_sha256": "66bd429c4a5038baebc27a12750ff952c4a8310c67d7a3aa241c0499a3e2c2d2",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:f2acbe594b45be3a055e",
+        "CLEAN_COMPONENT:b01e90600eec6943113d",
+        "CLEAN_COMPONENT:cd372be199d6d05cf512"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:f2acbe594b45be3a055e",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT516",
+            "section": "Die sechs offenen Formen",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt516_thirty_page_new_surface_family_consolidation/REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        },
+        {
+          "id": "CLEAN_COMPONENT:b01e90600eec6943113d",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT535",
+            "section": "Next grip",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt535_same_statement_q_null_qef_closure/REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        },
+        {
+          "id": "CLEAN_COMPONENT:cd372be199d6d05cf512",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT536",
+            "section": "The missing-corner square",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt536_aii_renderer_square_aiicthy_closure/REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "All three cases support the same CH+T+Y parse and component comparisons, not a full meaning assignment.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 65,
+          "line_end": 67,
+          "path": "experiments/yolo/gdt516_thirty_page_new_surface_family_consolidation/REPORT.md",
+          "quote": "- `cthdy = CH+T+D_ADDR+Y`: Der direkte Partner `cthy=CH+T+Y` kommt 17-mal vor;\n  das sichtbare `d` ist hier die unterscheidende Adresskomponente, nicht\n  automatisch `DY`.",
+          "sha256": "52fe22d267b65796e9eaa82443bea4bab0c0647c710bf6763eae56e5eacaf22c",
+          "source_id": "LEGACY_COMPONENT:389c2b9d767f1e2d8d27",
+          "source_section": "Die sechs offenen Formen",
+          "table_header": null
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 60,
+          "line_end": 63,
+          "path": "experiments/yolo/gdt535_same_statement_q_null_qef_closure/REPORT.md",
+          "quote": "Only `aiicthy` remains. Its right side is easy (`cthy=CH+T+Y`); the unresolved\npart is `aii`. Compare three concrete readings—`AIIN`, `A_ADDR+IIN`, and the\nvisible `A_ADDR+LOCAL_CHAR_I+LOCAL_CHAR_I`—through exact `...aii...` carrier\nfamilies and the same f31r block. No new page is needed.",
+          "sha256": "ed4860e327bded4c5351452a6a7b9f07ba23a6677a2653180c59b93f1bf2f772",
+          "source_id": "LEGACY_COMPONENT:e13f7cf784c5a8d92293",
+          "source_section": "Next grip",
+          "table_header": null
+        },
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 41,
+          "line_end": 43,
+          "path": "experiments/yolo/gdt536_aii_renderer_square_aiicthy_closure/REPORT.md",
+          "quote": "Exact `cthy=CH+T+Y` occurs thirteen times on six old pages. Of the twelve\nGDT529 candidates for `aiicthy`, only `AIIN+CH+T+Y` matches both blocks, and it\nwas already global rank 1.",
+          "sha256": "4630bdfb42b6acd8854267607ff542729a74ac36e2ad07265dae21342fafb61a",
+          "source_id": "LEGACY_COMPONENT:9b4249658f6ad0114a4a",
+          "source_section": "The missing-corner square",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:3e4c9c6aac821b442b54",
+      "selection_index": 49,
+      "current_claim": "chdar → CHD+AR",
+      "current_type": "formal_role",
+      "target_basis_sha256": "68b635ebd30b47c19349c568790319eefc63c84b514011ec95e02f456c0c556b",
+      "effective_basis_sha256": "4ffb97f80e5de354c747d040e925ff044516fe269f8178c79b9ceb8df436aae3",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:ded63ca0886bc65efeb8"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:ded63ca0886bc65efeb8",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Sidequest Pass 836: AR/AL source-target paradigm",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_source_target_paradigm_eight_hundred_thirty_sixth/EIGHT_HUNDRED_THIRTY_SIXTH_REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "CHD+AR is a decomposition. Its move-from-source gloss belongs to a separately stated semantic recipe/prediction.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 13,
+          "line_end": 17,
+          "path": "experiments/yolo/sidequest_semantic_source_target_paradigm_eight_hundred_thirty_sixth/EIGHT_HUNDRED_THIRTY_SIXTH_REPORT.md",
+          "quote": "The ten best immediate searches are published separately. Three were already\nin the compact active deck: `chdar = CHD+AR` (move from source), `kchoal =\nK+HO+AL` (add ingredient at target), and `lal = L+AL` (guide to target). Other\nhigh-value swaps include source versions of leaving-standing, cooling,\nclosing, and passage-taking cards.",
+          "sha256": "e28ae2115aa1cfb924b9c8ea67d82b236c86cbef862be5668d6c535437181a9b",
+          "source_id": "LEGACY_COMPONENT:0c6a10daa9d1b6aea57e",
+          "source_section": "Sidequest Pass 836: AR/AL source-target paradigm",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation.",
+      "separate_semantic_proposition_followup": {
+        "source_statement": "move from source, still a predicted card in the cited deck",
+        "status": "source_statement_seen_existing_coverage_not_audited",
+        "action": "Compare exact whole semantic proposition against current cards before recovery; do not replace the formal parse claim."
+      }
+    },
+    {
+      "target": "SEM:3ef33a530730b28049e7",
+      "selection_index": 50,
+      "current_claim": "qokee → OK+EE",
+      "current_type": "formal_role",
+      "target_basis_sha256": "8e834e12c21c4cb54529710be0d733894ef06d6405fc4f45441a1ff66d41bca1",
+      "effective_basis_sha256": "9217c96de08de4e4da029f2a58460bb4324048ab6b8d826ac7c95d0d89e423fe",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:21d611892cd7bc3be90e"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:21d611892cd7bc3be90e",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT541",
+            "section": "Ergebnis",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt541_old_prefix_exact_recipe_context_replay/REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "OK+EE is a structural card identity. The source adds argument inheritance, which does not translate the whole formula.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 3,
+              "text": "Status: `PASS_11_EXACT_RECIPE_PROFILES_REPLAY__QOKEES_SWITCH_REPLICATED`"
+            }
+          ],
+          "line": 17,
+          "line_end": 17,
+          "path": "experiments/yolo/gdt541_old_prefix_exact_recipe_context_replay/REPORT.md",
+          "quote": "- `qokaiir=OK+IIN+R`, `qokee=OK+EE` und `shee=SH+EE` übernehmen das Argument;",
+          "sha256": "7b08092c76329eb71776727864ceb31d399d35dc63ea09cf1050f3a0d2274ac1",
+          "source_id": "LEGACY_COMPONENT:d62784027ea5a255674a",
+          "source_section": "Ergebnis",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:40fe3d7c19074d881aba",
+      "selection_index": 51,
+      "current_claim": "tshol → t + sh + ol",
+      "current_type": "formal_role",
+      "target_basis_sha256": "30c9a07ff9bb8d76b8e440c08b20cfc44f271a780b7b94c85e9868a6d906b1c1",
+      "effective_basis_sha256": "396e679b80fb539b349346254e4e233dd0193f619a2b96e23cdf5e6e2eaf36e1",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:389cf6016d250d7fc55b"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:389cf6016d250d7fc55b",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT680",
+            "section": "Die stärksten neuen Träger",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt680_eight_four_hole_family_completion/REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "t+sh+ol is the current structural assertion. Cold-soaked drug material is an additional complete meaning in the same source paragraph.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 23,
+          "line_end": 29,
+          "path": "experiments/yolo/gdt680_eight_four_hole_family_completion/REPORT.md",
+          "quote": "`tshol = t + sh + ol`, kalt eingeweichter Drogenstoff, hält an sechs\nbilateral-exakten Positionen. `chetain = ch + e + t + ain`, bis Mittelstufe\ntrocknen und anschließend auf Kühlstufe II bringen, hält an vier\nbilateral-exakten Prozesspositionen und schließt zusätzlich f112v.22.\n`qodar` misst an zehn Positionen die erste Ansatzfraktion; `qodor` bleibt die\nsichtbare Portionsvariante. `qockhol = qo + ckhol` bewahrt an sechs Positionen\nGDT679s Kompositdrogenstoff und macht daraus den konkreten Zugabebefehl.",
+          "sha256": "27d4d039aa70290e78912af44c1676b54dbc355f220845a5899d188fd9b5cef4",
+          "source_id": "LEGACY_COMPONENT:265ff5de3959319d3194",
+          "source_section": "Die stärksten neuen Träger",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation.",
+      "separate_semantic_proposition_followup": {
+        "source_statement": "kalt eingeweichter Drogenstoff",
+        "status": "source_statement_seen_existing_coverage_not_audited",
+        "action": "Compare exact whole semantic proposition against current cards before recovery; do not replace the formal parse claim."
+      }
+    },
+    {
+      "target": "SEM:416019aaf5fb528892c3",
+      "selection_index": 52,
+      "current_claim": "LOL → L+OL",
+      "current_type": "formal_role",
+      "target_basis_sha256": "73d281dbbdf2831b674d5161cd6311c9f5ecfcf451429454958b7e23e8f0c630",
+      "effective_basis_sha256": "735006dd23de894df0972ee972013d4d0c26d9300ce54a976fb7debd294b8a4b",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:4c2521d07933a6ac6e02"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:4c2521d07933a6ac6e02",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Pass 458 — vier vermeintliche Ganzwörter waren normale Kompositionen",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_whole_card_reduction_four_hundred_fifty_eighth/FOUR_HUNDRED_FIFTY_EIGHTH_REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "L+OL is a decomposition; WEITERFÜHREN is the adjacent, independently addressable semantic value.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 8,
+          "line_end": 8,
+          "path": "experiments/yolo/sidequest_semantic_whole_card_reduction_four_hundred_fifty_eighth/FOUR_HUNDRED_FIFTY_EIGHTH_REPORT.md",
+          "quote": "- `LOL = L+OL`: WEITERFÜHREN, nicht unsichtbar WARM.",
+          "sha256": "c760053a229b7e5a4dcf7ec52e09ef6376ff0738ad8939c45eedba3bd730fc3e",
+          "source_id": "LEGACY_COMPONENT:eb06e747053431c62a00",
+          "source_section": "Pass 458 — vier vermeintliche Ganzwörter waren normale Kompositionen",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation.",
+      "separate_semantic_proposition_followup": {
+        "source_statement": "WEITERFÜHREN, not WARM",
+        "status": "source_statement_seen_existing_coverage_not_audited",
+        "action": "Compare exact whole semantic proposition against current cards before recovery; do not replace the formal parse claim."
+      }
+    },
+    {
+      "target": "SEM:41dd4f058583e762eb1a",
+      "selection_index": 53,
+      "current_claim": "Y is a generic noun.",
+      "current_type": "formal_role",
+      "target_basis_sha256": "5dc7f8368dd6c848fbd5ff1237c71437fa67d6357e09ba9092bff0a2cfba0fd7",
+      "effective_basis_sha256": "5692f18fd37367cee4c7cb09ffacee18de123cbfe4292bd731db12bfaba47e93",
+      "source_case_ids": [
+        "ROOT400:d6503fe69517bf87f463"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "ROOT400:d6503fe69517bf87f463",
+          "scope": {
+            "local_historical_model": true,
+            "source": "experiments/yolo/sidequest_theory_candidates_v3/CANDIDATE_V3_VISUAL_ADDRESS_TRANSLATION.md",
+            "source_line": 81
+          },
+          "status": "unconfirmed",
+          "source_polarity": "historical_proposal_or_explicit_rival_not_confirmed"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "Generic noun gives a linguistic word class without a particular referent or noun meaning. The surrounding pictured-subject model has semantic claims, but they are not all asserted by this isolated card.",
+      "evidence": [
+        {
+          "line": 81,
+          "path": "experiments/yolo/sidequest_theory_candidates_v3/CANDIDATE_V3_VISUAL_ADDRESS_TRANSLATION.md",
+          "quote": "### Model A — pictured-subject ellipsis",
+          "sha256": "89fbc74d0510262b7b142f22d60f054018735e8fb9395440f78f6932016c7c12"
+        },
+        {
+          "line": 83,
+          "path": "experiments/yolo/sidequest_theory_candidates_v3/CANDIDATE_V3_VISUAL_ADDRESS_TRANSLATION.md",
+          "quote": "The picture silently supplies only the dossier subject: `[this plant]` or\n`[this bath]`. Every remaining argument is textual. On this model `qokaiin`\nis most naturally a spoken instruction head, L/O a conjunction or\npreposition, AIIN a stated amount, Y a generic noun, and CTHY a quality.",
+          "sha256": "89fbc74d0510262b7b142f22d60f054018735e8fb9395440f78f6932016c7c12"
+        },
+        {
+          "line": 88,
+          "path": "experiments/yolo/sidequest_theory_candidates_v3/CANDIDATE_V3_VISUAL_ADDRESS_TRANSLATION.md",
+          "quote": "Advantages:",
+          "sha256": "89fbc74d0510262b7b142f22d60f054018735e8fb9395440f78f6932016c7c12"
+        },
+        {
+          "line": 90,
+          "path": "experiments/yolo/sidequest_theory_candidates_v3/CANDIDATE_V3_VISUAL_ADDRESS_TRANSLATION.md",
+          "quote": "- it is close to ordinary recipe prose;\n- `qokaiin`'s 7/9 field-entry skew fits an instruction head;\n- long Herbal rows can be read as compressed descriptive clauses.",
+          "sha256": "89fbc74d0510262b7b142f22d60f054018735e8fb9395440f78f6932016c7c12"
+        },
+        {
+          "line": 94,
+          "path": "experiments/yolo/sidequest_theory_candidates_v3/CANDIDATE_V3_VISUAL_ADDRESS_TRANSLATION.md",
+          "quote": "Failures:",
+          "sha256": "89fbc74d0510262b7b142f22d60f054018735e8fb9395440f78f6932016c7c12"
+        },
+        {
+          "line": 96,
+          "path": "experiments/yolo/sidequest_theory_candidates_v3/CANDIDATE_V3_VISUAL_ADDRESS_TRANSLATION.md",
+          "quote": "- the rich Bio geometry is almost unused even though figures, pools, paths,\n  junctions, inlet and outlet are already visible;\n- Y and L/O must act like very underspecified spoken words to cross Herbal and\n  Bio;\n- `Y–AIIN–Y` invites a false universal “equal amount” reading even though its\n  pictured operands are not independently symmetric;\n- the many short close-bearing Bio fields would repeatedly name arguments that\n  are immediately adjacent in the drawing;\n- it offers no principled bridge to radial and compartmental Astro text.",
+          "sha256": "89fbc74d0510262b7b142f22d60f054018735e8fb9395440f78f6932016c7c12"
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:42c264bf7b3ca86782bd",
+      "selection_index": 54,
+      "current_claim": "Physical line endings are reflow unless a card explicitly closes the instruction.",
+      "current_type": "formal_role",
+      "target_basis_sha256": "cb74c6790a89066010341b0d4b455603b909244cc85aa2190f32cee35eeabf22",
+      "effective_basis_sha256": "3a82f0f93e50877d4b9eabcdf9785fbaf501f52e3f5a33e2bd9b984d04c0ac92",
+      "source_case_ids": [
+        "ROOT400:1041888e2a1bd2a5150a"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "ROOT400:1041888e2a1bd2a5150a",
+          "scope": {
+            "local_historical_model": true,
+            "source": "experiments/yolo/sidequest_theory_candidates_v17/V17_R1_REWRITTEN_PASSAGES.md",
+            "source_line": 1
+          },
+          "status": "unconfirmed",
+          "source_polarity": "historical_proposal_or_explicit_rival_not_confirmed"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "This states the segmentation convention for an instruction reader. It assigns no particular action/meaning to a closing card; retain as formal boundary hypothesis.",
+      "evidence": [
+        {
+          "line": 1,
+          "path": "experiments/yolo/sidequest_theory_candidates_v17/V17_R1_REWRITTEN_PASSAGES.md",
+          "quote": "# V17 R1 — rewritten passages",
+          "sha256": "97c3ef7ec4b2e9214fba6d31f6b2b642571cb6ad977c0f9c7cd9d688223810b0"
+        },
+        {
+          "line": 3,
+          "path": "experiments/yolo/sidequest_theory_candidates_v17/V17_R1_REWRITTEN_PASSAGES.md",
+          "quote": "These are concrete workshop readings, not decipherment claims. A physical\nline ending is treated as reflow unless a card itself closes the instruction.",
+          "sha256": "97c3ef7ec4b2e9214fba6d31f6b2b642571cb6ad977c0f9c7cd9d688223810b0"
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:42d851ca3e83dd0c25f0",
+      "selection_index": 55,
+      "current_claim": "ckhol → ckh + ol",
+      "current_type": "formal_role",
+      "target_basis_sha256": "5b0649370d35ccb38562bbfa92a629a2d9844b41de7c29fbab58343217b3f027",
+      "effective_basis_sha256": "c50c17258e6ec82438b672dde751e7ac4555f449c765f8c224267810b37a72f1",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:b9298dca6a4ec5fbb8d6"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:b9298dca6a4ec5fbb8d6",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT679",
+            "section": "Größter Stoffgewinn",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt679_eight_three_hole_family_completion/REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "ckh+ol is only the source decomposition in this card.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 23,
+          "line_end": 23,
+          "path": "experiments/yolo/gdt679_eight_three_hole_family_completion/REPORT.md",
+          "quote": "`ckhol = ckh + ol` ist der stärkste neue Träger:",
+          "sha256": "6cc09c2ebd3ac8b4b804505d4fc9e36dd4426f589eadb159ea5f2251eabf42bd",
+          "source_id": "LEGACY_COMPONENT:6ee8eb4c119020c5c455",
+          "source_section": "Größter Stoffgewinn",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:430e605fab989999dca9",
+      "selection_index": 56,
+      "current_claim": "ychekch → Y_REFERENCE+CH_DRY+E_MIDDLE+K_HOT+CH_DRY",
+      "current_type": "formal_role",
+      "target_basis_sha256": "e35506ea2b08c8c47b60d60814216f7f46736378a7371c449f8bcf2ca2c54931",
+      "effective_basis_sha256": "d1c970184437f3c1f66158337a154605fe319fb2f703fb916e82229b93119984",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:92f34d5a385cafd9ad45"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:92f34d5a385cafd9ad45",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT671",
+            "section": "Strong card decisions",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt671_fifteen_residual_family_completion/REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "recommend_type_correction",
+      "recommended_type": "lexical_hypothesis",
+      "claim_change_required": false,
+      "reason": "REFERENCE/DRY/MIDDLE/HOT/DRY codes assert the ordered meaning dry to middle, heat, redry in the whole form. The meaning is explicit in the formula itself.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 26,
+          "line_end": 26,
+          "path": "experiments/yolo/gdt671_fifteen_residual_family_completion/REPORT.md",
+          "quote": "- `ychekch = Y_REFERENCE+CH_DRY+E_MIDDLE+K_HOT+CH_DRY` preserves dry-to-middle, heat, and redry in order.",
+          "sha256": "23fb98ce743a89be4086f755b8dfbccb83cdca9f8c203cb182dd759bab369b84",
+          "source_id": "LEGACY_COMPONENT:3ed22a4e5e413bf70263",
+          "source_section": "Strong card decisions",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:43328d4ab679dd0be607",
+      "selection_index": 57,
+      "current_claim": "lar → L+AR",
+      "current_type": "formal_role",
+      "target_basis_sha256": "8974991cd6a63e9afdbb46558bca14cdb1644ccda7d1e2e83ae6655842202be7",
+      "effective_basis_sha256": "50d26e288a6099f8c971550d0b04fd0e4bf044f83bc095950958e6de224c0079",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:8fb049df26698f295556"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:8fb049df26698f295556",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": null,
+            "section": "Vier produktive Reparaturen",
+            "semantic_column": null,
+            "source": "experiments/yolo/sidequest_semantic_b2_liquid_application_four_hundred_thirty_eighth/FOUR_HUNDRED_THIRTY_EIGHTH_REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "L+AR is a parse; VON DORT ABFÜHREN is its separate semantic expansion.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 21,
+          "line_end": 21,
+          "path": "experiments/yolo/sidequest_semantic_b2_liquid_application_four_hundred_thirty_eighth/FOUR_HUNDRED_THIRTY_EIGHTH_REPORT.md",
+          "quote": "- `lar = L+AR` — VON DORT ABFÜHREN;",
+          "sha256": "cc7fd11cc128e4d404b4de282aad07f945ec0f69ae9f9ad114c0b61f1d3d955e",
+          "source_id": "LEGACY_COMPONENT:3137414b45259aa17c3f",
+          "source_section": "Vier produktive Reparaturen",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation.",
+      "separate_semantic_proposition_followup": {
+        "source_statement": "VON DORT ABFÜHREN",
+        "status": "source_statement_seen_existing_coverage_not_audited",
+        "action": "Compare exact whole semantic proposition against current cards before recovery; do not replace the formal parse claim."
+      }
+    },
+    {
+      "target": "SEM:43dcda96f2f332ce8ada",
+      "selection_index": 58,
+      "current_claim": "oram → or+am",
+      "current_type": "formal_role",
+      "target_basis_sha256": "78ff3036311872c295d7496b95cc64118e49569ef059d9c87247316599e2818a",
+      "effective_basis_sha256": "751a54c4816e706488d31d115ab2631df91e9af5c7a1704fbe57b2874fac2746",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:898db7477d2da6086822"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:898db7477d2da6086822",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT681",
+            "section": "Drei Leser und materielle Korrekturen",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt681_six_five_hole_family_completion/REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "or+am is a structural formula. The surrounding page-wide amount/fracture and thermal reading does not turn that exact formula into a full meaning.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 83,
+          "line_end": 87,
+          "path": "experiments/yolo/gdt681_six_five_hole_family_completion/REPORT.md",
+          "quote": "Der Werkstattmeister las f104v.2 als kombiniertes Mengen- und\nFraktionsprotokoll und f26r.2 als Heiz-, Trocken- und Kühlfolge. Er stabilisierte\n`oram=or+am`, `otarar=otar+ar` und das große `ytedy`-Vorkommensnetz. Auf\nf26r.2 setzte er nicht blind `ls` ein: IT2a und RF1b lesen beide `lr`, daher\nendet diese eine Zeile konkret mit Wurzelholz.",
+          "sha256": "8a1f39314bd36593d8341a510cec3c6a2f37ed68a89b208c3570aefcf69bdda8",
+          "source_id": "LEGACY_COMPONENT:a3cf73e9c00a7a7637e2",
+          "source_section": "Drei Leser und materielle Korrekturen",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation."
+    },
+    {
+      "target": "SEM:43e26b27b41d6fb94283",
+      "selection_index": 59,
+      "current_claim": "alaly → AL + ALY",
+      "current_type": "formal_role",
+      "target_basis_sha256": "bf3683abfdac88a35938ae0c9749b57af86f2fe2f490a7afa1457901b786bdb9",
+      "effective_basis_sha256": "20ec1b09f8169e0bc285530fdeac67e902c1f7a18fa7bf085d04725dc6cde4ce",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:3ac1027d34e5b77e581d"
+      ],
+      "source_cases_reviewed": [
+        {
+          "id": "CLEAN_COMPONENT:3ac1027d34e5b77e581d",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT460",
+            "section": "Five complete recovered formulae",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt460_learned_label_edge_stem_atlas/REPORT.md"
+          },
+          "status": "unconfirmed",
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits"
+        }
+      ],
+      "verdict": "retain_formal_role",
+      "recommended_type": "formal_role",
+      "claim_change_required": false,
+      "reason": "AL+ALY is a parse; ZIELORT·ZIELORT·POSTEN is a different, semantic assertion alongside it.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 54,
+          "line_end": 54,
+          "path": "experiments/yolo/gdt460_learned_label_edge_stem_atlas/REPORT.md",
+          "quote": "- `alaly = AL + ALY` → `ZIELORT · ZIELORT · POSTEN`;",
+          "sha256": "23b3c3751acd36ff81c6bccf325f2cbe8111392d69051064ddf61e9622d9d741",
+          "source_id": "LEGACY_COMPONENT:57cf8ec8968ea0b4a572",
+          "source_section": "Five complete recovered formulae",
+          "table_header": null
+        }
+      ],
+      "additional_context": [],
+      "review_basis": "All attached primary quotations and source-case units read; ambiguous table/function cases checked against primary headings/context.",
+      "scope_limits": "Type is not scientific confirmation or inherited report status. Preserve exact claim unit, local scope, alternatives and historical failures. No source/card/operational mutation.",
+      "separate_semantic_proposition_followup": {
+        "source_statement": "ZIELORT · ZIELORT · POSTEN",
+        "status": "source_statement_seen_existing_coverage_not_audited",
+        "action": "Compare exact whole semantic proposition against current cards before recovery; do not replace the formal parse claim."
+      }
+    }
+  ],
+  "classification_rule": "Classify the exact current proposition. Neutral parses remain formal even when their evidence contains an additional full translation. Meaning-bearing codes such as HOT/DRY/MEASURE are semantic in the formula itself. Explicit indexed/referential/content roles are functional; punctuation and unspecified frame/slot roles remain formal. Source polarity is distinct.",
+  "input_sha256": {
+    "research_registry/decisions/semantic_type_review_aj.json": "c38201f9ea18241eaf155b21044fec9bffbec1c9f565f5020d8654fe734821f2"
+  },
+  "validation": {
+    "status": "PASS",
+    "all_evidence_exact": true,
+    "all_current_bases_match": true
+  },
+  "limits": [
+    "Sixty cases only; no global title or polarity audit claim.",
+    "Seventeen adjacent semantic propositions are navigation followups, not newly recovered ideas and not a claim that they are absent.",
+    "No active idea records, source bytes, identity decisions or statuses changed."
+  ]
+}

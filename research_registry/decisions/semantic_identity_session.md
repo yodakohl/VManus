@@ -82,3 +82,15 @@ The other336 title-only cases remain unreviewed. Next bounded work expands sourc
 recovery to three disjoint100-block sidequest cohorts,25minutes each including
 source checks; independent peer review and publication follow. No experiment or
 new infrastructure is selected from these source-memory findings.
+
+19:12UTC checkpoint: AL/AM/AN/AO/AQ/AW preserve116 additional source cases,
+including five already represented exact assertions and one formal binding rule.
+AP unifies only the shared L=VERBINDUNG core;39groups reduce48display variants.
+The336 previously title-only formal cases now have primary reviews. Integration
+adds98 semantic types and archives seven erroneous exports; four of those are
+counterexamples preserved under one tested rule, whose failure is relative to
+an existing model trace, not independent manuscript syntax. Current3317semantic
+and251formal variants preserve4080cases;43archived errors remain accessible.
+Next bounded15minute batches audit AS/AR/AT nearby-meaning hints against complete
+current assertions, because an adjacent explicit meaning is not necessarily an
+absent idea. Recover only source-bound omissions; no new decoder or experiment.

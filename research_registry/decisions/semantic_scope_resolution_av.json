@@ -1,0 +1,223 @@
+{
+  "schema": "semantic_scope_resolution_v1",
+  "review_id": "AV",
+  "status": "COMPLETE_SOURCE_REVIEW_AWAITING_ROOT_ACTION",
+  "decisions": [
+    {
+      "target": "SEM:74a65b69bf5878f818c5",
+      "basis_sha256": "a9ecdc16bd19bd87c4165626702d11e4837a07450d0b44cef57fa79be616174b",
+      "effective_basis_sha256": "73239702474321a4c666bfb67974fb59db5e29af685bf92ae1fa944f69e63181",
+      "current_claim": "“Value” may mean quantity, grade, duration, catalogue index or something else; the sidequest does not choose among them. The important hypothesis is constructional rather than lexical: D licenses the same familiar cell in a more active or entry-like slot",
+      "current_type": "formal_role",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:9aa4011e0b26f56a67fe"
+      ],
+      "recommendation": "restate_scope",
+      "recommended_claim_type": "functional_hypothesis",
+      "replacement_claim": "The historical Iteration35 AIIN/DAIIN pair reads AIIN as a registered item/value and D-AIIN as entering, taking or setting that same cell in an active or entry-like position. This is one learned pair, not a universal D+X operation; quantity, grade, duration and catalogue-index interpretations remain unresolved.",
+      "reason": "The immediately adjacent source explicitly limits the claim to one paired card and says other D+X forms need not share the interpretation. A specific semantic activation hypothesis was proposed, so neither placeholder archival nor unrestricted D semantics is correct.",
+      "source_polarity": "historical_speculative_proposal_later_withdrawn_as_semantic_wrapper_analysis",
+      "history_note": "Iteration134 explicitly withdraws D_ASSIGN(AIIN) as a semantic analysis, keeping a surface-rendering description. This is source-reported history, not a new test or proof against every D interpretation.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "line": 3155,
+          "line_end": 3194,
+          "quote": "\nThe narrowest useful master-card contrast is the exact pair:\n\n```text\nAIIN      19 occurrences; 0 line-initial, 3 line-final\nDAIIN     23 occurrences; 4 line-initial, 1 line-final\n```\n\nBoth occur in all three selected hands. `AIIN` repeatedly follows short forms\nsuch as `s`, `or`, `ar` and `sar`; `DAIIN` can itself open a line and often\nprecedes another constructional cell. The contrast is not absolute, but it is\nsimple enough to teach:\n\n```text\nAIIN       bare parameter/reference cell\nD-AIIN     entered, activated or instruction-ready form of that cell\n```\n\nIn the invented practical reading, the least committal paraphrase is:\n\n```text\nAIIN       “the registered item/value”\nDAIIN      “enter/take/set the registered item/value”\n```\n\n“Value” may mean quantity, grade, duration, catalogue index or something else;\nthe sidequest does not choose among them. The important hypothesis is\nconstructional rather than lexical: `D` licenses the same familiar cell in a\nmore active or entry-like slot.\n\nThis would be easy for an apprentice because it is learned as one paired card,\nnot as a universal rule over every possible host. Other `D+X` forms can arise\nby analogy, but they need not all have the same interpretation. The adjacent\n`daiin aiin` on f67r2.43 and `aiin daiin` on f55v.12 also warn that the two\nforms are not freely interchangeable spellings.\n\nThis remains an invented workshop convention. The positional skew is small,\nthe six-page selection is not an independent test, and GDT003 already prevents\npromotion of a productive linguistic morphology from such formal pairs.\n",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+        },
+        {
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "line": 7305,
+          "line_end": 7334,
+          "quote": "\nThe same exact-card audit removes another layer of invented morphology. Exact\ntuple `2f1c5e56...` accounts for 20 covered events on all seven fixed prose\npages:\n\n| observed wrapper | events | familiar displayed family |\n|---|---:|---|\n| `d` | 11 | DAIIN |\n| `s` | 4 | SAIIN |\n| none | 3 | AIIN |\n| `ch` | 1 | CHAIIN |\n| `t` | 1 | TAIIN |\n\nThe joint host and coordinate are unchanged. It occurs field-first, middle and\nlast. Therefore `D_ASSIGN(AIIN)`, `S_RESUME(AIIN)` and comparable old\nsidequest parses are withdrawn as semantic analyses. They remain convenient\ndescriptions of *surface rendering* only.\n\nThe corrected notation is:\n\n```text\nCARD[AIIN] @ wrapper=d\nCARD[AIIN] @ wrapper=s\nCARD[AIIN] @ wrapper=none\n```\n\nThe sequence displayed as `DY | DAIIN` is similarly two exact cards, Y then\nAIIN, both carrying a `d` wrapper. Its potentially meaningful fact is shared\nconstructional rendering across adjacent cards, not “checkpoint then assign a\nvalue.”",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+        }
+      ]
+    },
+    {
+      "target": "SEM:76354c4f1f3180f13f58",
+      "basis_sha256": "60a75cd24095e71e8c8c068be05ad7d7b67f908dcb9b9fc13a5ac2ff500856db",
+      "effective_basis_sha256": "884a5082a84b0e8c2ab15cf1ad400aaa89b0fade1d937437cae9f2fd84611e52",
+      "current_claim": "ckhy → no single global process or substance role has won; mediality alone does not make it a linker",
+      "current_type": "formal_role",
+      "source_case_ids": [
+        "REPORT_PROPOSAL:d15787905fa39b3a6c9d"
+      ],
+      "recommendation": "archive_source_extraction_error",
+      "replacement_claim": null,
+      "reason": "The selected arrow RHS is solely the Live rival or limit column. It reports that a global decision has not been made; it does not assert a CKHY meaning. Archive this positive-card extraction while preserving its evidence as a limit on the already represented real rivals.",
+      "scientific_rejection": false,
+      "retain_counterparts": [
+        {
+          "id": "SEM:827ae91c1aff663faf74",
+          "claim": "ckhy → global role open between R02 operation and R01 nominal preparation",
+          "basis_sha256": "ee3c359379ff50df2dcdd16d5c94592f8f834321e270647e47c803f35307e564"
+        },
+        {
+          "id": "SEM:5cd1fdcd0f250ef2357a",
+          "claim": "ckhy → line-final process frame: mischen/verrühren; medial content frame: Mischung/Kompositum",
+          "basis_sha256": "c65cf637471aa4d52602d0a51c578e72f88a9ed41948264311ae09cef51ca2c7"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/REPORT.md",
+          "line": 11,
+          "line_end": 19,
+          "quote": "| Target | Current role decision | Reader default | Confidence carried by the specification | Live rival or limit |\n| --- | --- | --- | --- | --- |\n| `ol` | R05 selected only by specificity priority among equal passing R05, R01, and R03 scores | `und/mit`; after a quantity, context may instead require `von/aus` | `C1_LOCAL_FRAME__C0_ROLE_TIEBREAK`; C0 lexeme | supported R01 *Ansatz/Zubereitungsbasis* and R03 product/result roles; no liquid identity follows |\n| `otar` | R05 selected only by specificity priority over an equally passing R01 role | `dann/anschließend/weiter` | `C1_LOCAL_FRAME__C0_ROLE_TIEBREAK`; C0 lexeme | `bis` is the primary identity rival; nominal preparation/record field is the principal role rival |\n| `pcheey` | R04 bounded record/form field | `gebundenes Zubereitungs-/Form-II-Feld` | C1 replicated role globally; C2 in the specified line readers; C0 form identity | paste, salve, mixed form, or residue remain candidates; dry/powder has no positive frame |\n| `ols` | R04 selected only by specificity priority over an equally passing R01 role | before a value: `Maß-/Dosisposten`; line-final: `Endportion`; otherwise `Maß-/Produktposten` | C0 role tiebreak and concrete identity; individual line readers carry C1–C2 local frame evidence | supported R01 substance/preparation role; the measured preparation or product cannot be identified |\n| `ckhy` | global role open between R02 operation and R01 nominal preparation | line-final process frame: `mischen/verrühren`; medial content frame: `Mischung/Kompositum` | globally `C0_RIVAL_ONLY`; specified medial readers carry C1 contextual support | no single global process or substance role has won; mediality alone does not make it a linker |\n\nThe C-levels are internal working-confidence labels, not probabilities. In particular, C1 or C2 at role level does not promote an English, German, Latin, or Middle English word identity above C0.",
+          "sha256": "a00ca7b7fd36013a78b8118395e88e5e091f087515d0def577ba25af7623e346"
+        }
+      ]
+    },
+    {
+      "target": "SEM:7d54eb17c4e884b2e400",
+      "basis_sha256": "c8769a5f4ed83cc4b892da3e71f11c0155d2f21fb271003f95f2c6de5bfebaa1",
+      "effective_basis_sha256": "a980953336d05e3a5b21160c4fc2b25ab4505bbbff23eb76e26263915b053867",
+      "current_claim": "OK+O+E+S → E→OK=SETZEN",
+      "current_type": "formal_role",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:084e3a591ca0d9f3999a"
+      ],
+      "recommendation": "archive_source_extraction_error",
+      "replacement_claim": null,
+      "reason": "The source never endorses the displayed E→OK attachment as this card's actual reading. It is the wrong prediction in a counterexample column of a tested strict-left generalization; the registered opposite binding is E→S. Archival corrects the extraction, not a newly conducted meaning test.",
+      "scientific_rejection": false,
+      "preserve_actual_tested_rival": {
+        "claim": "The Pass1023 strict full generalization predicts that non-L/AIR attachments close left and L/AIR frame right even outside equal-distance positions.",
+        "claim_type": "formal_role",
+        "scope": "The source-defined attachment generalization, not an OK+O+E+S lexical translation.",
+        "historical_outcome": "The primary report rejects its extension to unequal multi-head positions with four clear counterbindings while retaining the equal-distance rule.",
+        "assessed_by": "primary_source_report",
+        "recovery_action": "Preserve as a separate historical tested rule if absent; do not create four positive wrong-attachment word cards."
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_scope_ambiguity_resolution_one_thousand_twenty_third/EQUAL_DISTANCE_GENERALIZATION_REPORT.md",
+          "line": 1,
+          "line_end": 34,
+          "quote": "# Pass 1023 — Generalisierungscheck über alle 4.345 Anschlüsse\n\n## Kurze Antwort\n\nJa. Die wörtliche Vollregel\n\n```text\nnicht-L/AIR schließt links; L/AIR rahmt rechts\n```\n\nerzeugt außerhalb der 120 Gleichstände **vier klare Widersprüche**. Die\nGleichstandsentscheidung selbst bleibt gut; falsch ist nur ihre Ausdehnung auf\njede ungleiche Mehrkopfstellung.\n\n| Urteil der strengen Vollregel | Fokusvorkommen |\n|---|---:|\n| passt zur vorhandenen Kartenbindung | 2.859 |\n| beide Seiten haben denselben Kopfwert; Position nicht aus der Spur trennbar | 28 |\n| klare Gegenbindung | 4 |\n| verlangte Seite hat keinen örtlichen Kopf; Stapelrückfall nötig | 1.454 |\n| **gesamt** | **4.345** |\n\n## Die vier Gegenfälle\n\n| Anschluss | Karte | strenge Linkslesung | vorhandene Bindung |\n|---|---|---|---|\n| `SA00090` | `SH+O+Y+T+Y` | `Y→SH=HALTEN` | `Y→T=EINSTELLEN` |\n| `SA00557` | `OK+O+E+S` | `E→OK=SETZEN` | `E→S=WÄHLEN` |\n| `SA00563` | `S+OR+AIIN+R` | `AIIN→S=WÄHLEN` | `AIIN→R=MARKIEREN` |\n| `SA00636` | `CH+O+E+R` | `E→CH=NEHMEN` | `E→R=MARKIEREN` |\n\nIn allen vier Karten ist der rechte Kopf ein Atom näher als der linke. Das\nAusführungszeichen `O` oder der schon geschlossene erste Zusatz verlängert den\nAbstand zum linken Kopf, ohne selbst einen neuen Kopf zu bilden.",
+          "sha256": "962c746972a3483f9171aa597db511381b345c947e34a08279b20e1bbd5167c6"
+        }
+      ]
+    },
+    {
+      "target": "SEM:1dbffea9fbf0e159c5f3",
+      "basis_sha256": "fd261f6fe097675613abc806fe8b39dff58145a5239597cb3aee05f8627d5dd3",
+      "effective_basis_sha256": "2f94224efb1e98b4a38bc522da0b65c9419ed1ffd12f08a8b763fec3fe6a8b3c",
+      "current_claim": "S → RESUME",
+      "current_type": "formal_role",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:75fcfb7c539c8571c802"
+      ],
+      "recommendation": "restate_scope",
+      "recommended_claim_type": "functional_hypothesis",
+      "replacement_claim": "The historical S-AIIN construction was read as resuming, preserving or carrying the registered reference/parameter cell at a packet boundary, thereby picking up an already active record state; this was not a universal lexical S-prefix meaning.",
+      "reason": "Iteration47 supplies an explicit earlier semantic proposal distinct from mere line entry. It specifies a carried/reference cell and a remembered state. Iteration134 subsequently withdraws S_RESUME(AIIN) specifically as a semantic analysis; the earlier iteration5 start/resume-record entry-control model alone would not settle this distinction.",
+      "source_polarity": "historical_speculative_proposal_later_withdrawn_as_semantic_wrapper_analysis",
+      "history_note": "Do not erase the past semantic idea, mark it as current endorsement, or infer its historical sound/word meaning. The retained rendering description is a different weaker proposition.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "line": 538,
+          "line_end": 550,
+          "quote": "a different local address table for plants, preparations, apparatus and\ncycles.\n\n### More aggressive functional lexicon\n\n| Form | Iteration-5 guess | Intended breadth |\n|---|---|---|\n| `s-` | start/resume a record | entry control, not content |\n| `q-` | then/next/linked step | continuation control |\n| `d-` | take from/apply to/through | generic directed relation |\n| `ch-` | describe or qualify | ordinary property construction |\n| `che-` | prepare/transform/qualified state | process-like construction |\n| `sh-` | resulting or standing state | state/result construction |",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+        },
+        {
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "line": 3826,
+          "line_end": 3843,
+          "quote": "\nExact `saiin` occurs five times: three locus-initial and two locus-final. This\ntwo-edge distribution fits a carried/reference state better than a dedicated\nending. Together with the earlier AIIN/DAIIN contrast it yields a simple,\nexplicitly speculative apprentice paradigm:\n\n```text\nAIIN       bare registered reference/parameter cell\nD-AIIN     enter, assert or activate that cell\nS-AIIN     resume, preserve or carry that cell at a packet boundary\nS-AII      possible locally shortened/rendered S-AIIN realization\n```\n\nThis would give the S family a concrete constructional function without making\nit a universal lexical prefix. It agrees with the independently useful\nline-entry tendency: S can mark that an already active record state is being\npicked up on a fresh physical packet.\n",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+        },
+        {
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "line": 4888,
+          "line_end": 4898,
+          "quote": "The current deliberately concrete vocabulary is ranked as follows:\n\n| card/construction | best provisional function | status |\n|---|---|---|\n| `DY` | local checkpoint/cell closure, not sentence end | strongest structural guess |\n| `S-` | carry/resume current licensed state at line entry | renderer-supported, meaning invented |\n| `D-` | explicit select/set/activate counterpart | provisional |\n| `Q-` | linked/homologous lookup after a checkpoint | renderer-supported placement, meaning invented |\n| `AIIN` family | registered setting/value/quantity/reference cell | provisional but distributionally useful |\n| `EDY/EEDY` family | process/result/state cell with grades or marked variants | provisional |\n| `OL` | Biological carrier/medium/channel slot; broader carrier elsewhere | strongest content guess |",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+        },
+        {
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "line": 7305,
+          "line_end": 7334,
+          "quote": "\nThe same exact-card audit removes another layer of invented morphology. Exact\ntuple `2f1c5e56...` accounts for 20 covered events on all seven fixed prose\npages:\n\n| observed wrapper | events | familiar displayed family |\n|---|---:|---|\n| `d` | 11 | DAIIN |\n| `s` | 4 | SAIIN |\n| none | 3 | AIIN |\n| `ch` | 1 | CHAIIN |\n| `t` | 1 | TAIIN |\n\nThe joint host and coordinate are unchanged. It occurs field-first, middle and\nlast. Therefore `D_ASSIGN(AIIN)`, `S_RESUME(AIIN)` and comparable old\nsidequest parses are withdrawn as semantic analyses. They remain convenient\ndescriptions of *surface rendering* only.\n\nThe corrected notation is:\n\n```text\nCARD[AIIN] @ wrapper=d\nCARD[AIIN] @ wrapper=s\nCARD[AIIN] @ wrapper=none\n```\n\nThe sequence displayed as `DY | DAIIN` is similarly two exact cards, Y then\nAIIN, both carrying a `d` wrapper. Its potentially meaningful fact is shared\nconstructional rendering across adjacent cards, not “checkpoint then assign a\nvalue.”",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "restate_scope": 2,
+    "archive_source_extraction_error": 2,
+    "unresolved": 0
+  },
+  "additional_same_source_errors": [
+    {
+      "target": "SEM:b885446a2046d35db2d1",
+      "claim": "S+OR+AIIN+R → AIIN→S=WÄHLEN",
+      "basis_sha256": "8006d04ff8594f7ef3ade70448c08b789c1d5c5e8c331402bdaf1cb4ded0b6b7",
+      "effective_basis_sha256": "fc6ff6e93a058e8833d7d412c041e3812c02aee1cba5a4fa0d9924efdebacdd8",
+      "recommended_action": "same_counterexample_column_extraction_audit",
+      "reason": "Same source table explicitly contrasts strict-left prediction with actual binding. No positive meaning is asserted by that prediction cell.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_scope_ambiguity_resolution_one_thousand_twenty_third/EQUAL_DISTANCE_GENERALIZATION_REPORT.md",
+          "line": 23,
+          "line_end": 34,
+          "quote": "## Die vier Gegenfälle\n\n| Anschluss | Karte | strenge Linkslesung | vorhandene Bindung |\n|---|---|---|---|\n| `SA00090` | `SH+O+Y+T+Y` | `Y→SH=HALTEN` | `Y→T=EINSTELLEN` |\n| `SA00557` | `OK+O+E+S` | `E→OK=SETZEN` | `E→S=WÄHLEN` |\n| `SA00563` | `S+OR+AIIN+R` | `AIIN→S=WÄHLEN` | `AIIN→R=MARKIEREN` |\n| `SA00636` | `CH+O+E+R` | `E→CH=NEHMEN` | `E→R=MARKIEREN` |\n\nIn allen vier Karten ist der rechte Kopf ein Atom näher als der linke. Das\nAusführungszeichen `O` oder der schon geschlossene erste Zusatz verlängert den\nAbstand zum linken Kopf, ohne selbst einen neuen Kopf zu bilden.",
+          "sha256": "962c746972a3483f9171aa597db511381b345c947e34a08279b20e1bbd5167c6"
+        }
+      ]
+    },
+    {
+      "target": "SEM:e519fd25bf4d9988fe41",
+      "claim": "CH+O+E+R → E→CH=NEHMEN",
+      "basis_sha256": "b3b2f3113d7e38f38e1c233898c745186d8aabfc8aa263c5e73f62b9aec0672d",
+      "effective_basis_sha256": "2966800713ff0e5da2b70e702785e52bd086497cc076321dec5d59627930ffce",
+      "recommended_action": "same_counterexample_column_extraction_audit",
+      "reason": "Same source table explicitly contrasts strict-left prediction with actual binding. No positive meaning is asserted by that prediction cell.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_scope_ambiguity_resolution_one_thousand_twenty_third/EQUAL_DISTANCE_GENERALIZATION_REPORT.md",
+          "line": 23,
+          "line_end": 34,
+          "quote": "## Die vier Gegenfälle\n\n| Anschluss | Karte | strenge Linkslesung | vorhandene Bindung |\n|---|---|---|---|\n| `SA00090` | `SH+O+Y+T+Y` | `Y→SH=HALTEN` | `Y→T=EINSTELLEN` |\n| `SA00557` | `OK+O+E+S` | `E→OK=SETZEN` | `E→S=WÄHLEN` |\n| `SA00563` | `S+OR+AIIN+R` | `AIIN→S=WÄHLEN` | `AIIN→R=MARKIEREN` |\n| `SA00636` | `CH+O+E+R` | `E→CH=NEHMEN` | `E→R=MARKIEREN` |\n\nIn allen vier Karten ist der rechte Kopf ein Atom näher als der linke. Das\nAusführungszeichen `O` oder der schon geschlossene erste Zusatz verlängert den\nAbstand zum linken Kopf, ohne selbst einen neuen Kopf zu bilden.",
+          "sha256": "962c746972a3483f9171aa597db511381b345c947e34a08279b20e1bbd5167c6"
+        }
+      ]
+    },
+    {
+      "target": "SEM:eca9daa5ab9659e76a37",
+      "claim": "SH+O+Y+T+Y → Y→SH=HALTEN",
+      "basis_sha256": "4104637271bec8e2863a52a542e72d9690a9c393c48bfe5fc59ba20d41f8ca09",
+      "effective_basis_sha256": "abcc0650c66661551716f4e2a90de9687251590772b546959e7ebf3b6fc15a20",
+      "recommended_action": "same_counterexample_column_extraction_audit",
+      "reason": "Same source table explicitly contrasts strict-left prediction with actual binding. No positive meaning is asserted by that prediction cell.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_scope_ambiguity_resolution_one_thousand_twenty_third/EQUAL_DISTANCE_GENERALIZATION_REPORT.md",
+          "line": 23,
+          "line_end": 34,
+          "quote": "## Die vier Gegenfälle\n\n| Anschluss | Karte | strenge Linkslesung | vorhandene Bindung |\n|---|---|---|---|\n| `SA00090` | `SH+O+Y+T+Y` | `Y→SH=HALTEN` | `Y→T=EINSTELLEN` |\n| `SA00557` | `OK+O+E+S` | `E→OK=SETZEN` | `E→S=WÄHLEN` |\n| `SA00563` | `S+OR+AIIN+R` | `AIIN→S=WÄHLEN` | `AIIN→R=MARKIEREN` |\n| `SA00636` | `CH+O+E+R` | `E→CH=NEHMEN` | `E→R=MARKIEREN` |\n\nIn allen vier Karten ist der rechte Kopf ein Atom näher als der linke. Das\nAusführungszeichen `O` oder der schon geschlossene erste Zusatz verlängert den\nAbstand zum linken Kopf, ohne selbst einen neuen Kopf zu bilden.",
+          "sha256": "962c746972a3483f9171aa597db511381b345c947e34a08279b20e1bbd5167c6"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Only the four requested existing cards receive final recommendations; three same-table siblings are flagged for root action separately.",
+    "Scope restatement must preserve original assertion and source cases append-only.",
+    "Source-reported withdrawal/failure is not automatically a global semantic refutation or a new scientific result.",
+    "The strict-left generalized attachment hypothesis remains historical evidence even when its counterexample-derived pseudo-gloss is archived."
+  ],
+  "input_sha256": {
+    "research_registry/semantic_ideas.jsonl": "f56a4f8fd3087b69d41493b54b3da7a48bb579470ded2a9bfec57dc652454622"
+  },
+  "validation": {
+    "four_targets_current_basis_bound": true,
+    "all_evidence_exact_source_spans": true,
+    "no_raw_manuscript_or_operational_changes": true
+  }
+}

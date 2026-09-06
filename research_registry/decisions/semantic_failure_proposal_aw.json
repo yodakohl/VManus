@@ -1,0 +1,230 @@
+{
+  "schema": "semantic_failure_proposal_v1",
+  "status": "PROPOSAL_ONLY_NOT_OPERATIONAL",
+  "operational_schema_source": {
+    "constant": "tools.semantic_ideas.FAILURES",
+    "path": "research_registry/semantic_failure_decisions.jsonl",
+    "note": "No semantic_failure_assessments.jsonl constant exists in the current tools; the operational dossier log is semantic_failure_decisions.jsonl."
+  },
+  "proposed_dossier": {
+    "decision_key": "FAILURE_AW:PASS1023_BLANKET_BINDING",
+    "id": "FAILURE_AW:PASS1023_BLANKET_BINDING:v1",
+    "previous_revision": null,
+    "status": "proposed_scoped_context",
+    "reviewer": "native_triple_b_proposal_pending_root_integration",
+    "targets": [
+      "SEM:23659586e96e83395266"
+    ],
+    "card_basis": {
+      "SEM:23659586e96e83395266": "30dadbc71bba32e34552dda1f24407f2103257b28241fe6ecf80a7d7974ed0ee"
+    },
+    "effective_basis": {
+      "SEM:23659586e96e83395266": "b14186ff31641cf762d3cf8bb137ef869a322243ca5c22af1d498ed2c7a05861"
+    },
+    "claim": "The Pass1023 blanket binding generalization extends the equal-distance rule to unequal multi-head positions: non-L/AIR attachments close on the left action head, while L/AIR frame the right action head.",
+    "reason_class": "empirical_failure",
+    "reason_class_scope": "Internal model-counterexample assessment only. This existing broad category must not be displayed as independent manuscript falsification.",
+    "scope": "Universal extension of a side-selection rule over the existing interpreted attachment inventory; fixed lexical core values are not new hypotheses here.",
+    "actually_tested_falsifier": "Extend the fixed side preference from the 120 equal-distance cases to all attachment positions and compare its predicted action head with the existing interpreted binding trace. This is a retrospective internal generalization check; no independently annotated gold syntax is supplied.",
+    "outcome": "The report records four clear disagreements outside the ties. It retains the equal-distance rule, records 28 same-value position ambiguities and separates positions without adequate local heads. The four cases reject the blanket extension relative to that trace; none independently refutes a lexical value.",
+    "claim_ceiling": "Historical rejection of one blanket extension relative to the existing interpretation; no independent manuscript syntax falsification, lexical refutation or new experiment.",
+    "source_review": "research_registry/decisions/semantic_counterexample_peer_aw.json",
+    "evidence": [
+      {
+        "path": "experiments/yolo/sidequest_semantic_scope_ambiguity_resolution_one_thousand_twenty_third/EQUAL_DISTANCE_GENERALIZATION_REPORT.md",
+        "line": 5,
+        "line_end": 30,
+        "quote": "Ja. Die wörtliche Vollregel\n\n```text\nnicht-L/AIR schließt links; L/AIR rahmt rechts\n```\n\nerzeugt außerhalb der 120 Gleichstände **vier klare Widersprüche**. Die\nGleichstandsentscheidung selbst bleibt gut; falsch ist nur ihre Ausdehnung auf\njede ungleiche Mehrkopfstellung.\n\n| Urteil der strengen Vollregel | Fokusvorkommen |\n|---|---:|\n| passt zur vorhandenen Kartenbindung | 2.859 |\n| beide Seiten haben denselben Kopfwert; Position nicht aus der Spur trennbar | 28 |\n| klare Gegenbindung | 4 |\n| verlangte Seite hat keinen örtlichen Kopf; Stapelrückfall nötig | 1.454 |\n| **gesamt** | **4.345** |\n\n## Die vier Gegenfälle\n\n| Anschluss | Karte | strenge Linkslesung | vorhandene Bindung |\n|---|---|---|---|\n| `SA00090` | `SH+O+Y+T+Y` | `Y→SH=HALTEN` | `Y→T=EINSTELLEN` |\n| `SA00557` | `OK+O+E+S` | `E→OK=SETZEN` | `E→S=WÄHLEN` |\n| `SA00563` | `S+OR+AIIN+R` | `AIIN→S=WÄHLEN` | `AIIN→R=MARKIEREN` |\n| `SA00636` | `CH+O+E+R` | `E→CH=NEHMEN` | `E→R=MARKIEREN` |",
+        "sha256": "962c746972a3483f9171aa597db511381b345c947e34a08279b20e1bbd5167c6"
+      },
+      {
+        "path": "experiments/yolo/sidequest_semantic_scope_ambiguity_resolution_one_thousand_twenty_third/EQUAL_DISTANCE_GENERALIZATION_REPORT.md",
+        "line": 90,
+        "line_end": 126,
+        "quote": "## Kleinste haltbare Generalisierung\n\nDie 120er-Regel braucht nur eine begrenzte Präzisierung:\n\n```text\n1. Pass-1021-Pakete zuerst öffnen.\n\n2. Y / AIIN / AIN / OR und E / EE / EEE:\n   den nächsten örtlichen Handlungskopf nehmen;\n   nur bei genauem Gleichstand links schließen.\n\n3. AL / AR:\n   am linken Kopf bleiben — zuerst örtlich, dann am bereits offenen Stapelkopf;\n   nur wenn links nichts offen ist, den einzigen rechten Kopf nehmen.\n\n4. L / AIR:\n   den rechten Kopf rahmen;\n   fehlt er, den laufenden linken Kopf als örtlichen Rückfall benutzen.\n\n5. Fehlt jeder örtliche Kopf:\n   Besitzer-, Gang-, Vorwärts- und Erbstapel aus Pass 1022 benutzen.\n```\n\nDiese Fassung trifft alle **3.100** Fokusvorkommen mit mindestens einem\nörtlichen Handlungskopf beziehungsweise einem bei `AL/AR` bereits offenen\nlinken Kopf. Die übrigen 1.245 Karten besitzen überhaupt keinen örtlichen Kopf\nund sind deshalb kein Test der Seiten-/Abstandsregel.\n\n## Was unverändert bleibt\n\n- Alle 120 Gleichstände behalten ihre Entscheidung: Argumente, Grade und\n  `AL/AR` links; der eine `L`-Fall rechts.\n- Kein Wurzelwert wird verschoben.\n- Mehrkopfkarten bleiben verschachtelt.\n- Die Pass-1021-Doppelregel wird vor jeder Nachbarschaftsbindung geöffnet.\n- 28 Gleichwertfälle bleiben als Positionsvorbehalt sichtbar und werden nicht\n  zu Gegenbelegen umetikettiert.",
+        "sha256": "962c746972a3483f9171aa597db511381b345c947e34a08279b20e1bbd5167c6"
+      },
+      {
+        "path": "experiments/yolo/sidequest_semantic_scope_ambiguity_resolution_one_thousand_twenty_third/EQUAL_DISTANCE_REPORT.md",
+        "line": 5,
+        "line_end": 18,
+        "quote": "Alle 120 Gleichabstandsstellen sind mit einer einzigen kleinen Paketregel\nentscheidbar:\n\n```text\n1. Eine Pass-1021-Doppelung zuerst als Paket oder freies Paar öffnen.\n2. Innerhalb des geöffneten Pakets von links nach rechts lesen.\n3. Ein Zusatz nach einem offenen Handlungskopf schließt an diesen linken Kopf,\n   bevor ein späteres Handlungssymbol seinen neuen Innenrahmen eröffnet.\n4. Nur L/AIR sind Vorwärtsrahmen und greifen auf den rechten Kopf.\n```\n\nDie geometrische Gleichnähe muss also nicht durch eine neue Bedeutung\naufgelöst werden. Entscheidend ist, ob der Kern den offenen Kopf schließt oder\nselbst einen vorwärts gerichteten Rahmen eröffnet.",
+        "sha256": "a4c1adec41826f4df1e4e270f45246cc30ecd4bebe39cf0298f28ed752d04ea6"
+      }
+    ],
+    "scope_applicability": {
+      "assessed_by": "primary_source_review",
+      "automatic_target_status_propagation": false,
+      "mode": "conditional_source_model_only",
+      "statement": "Only the blanket extension over the fixed interpreted attachment inventory. Does not apply as a universal failure to the tie-only rule, the repaired nearest-head rule, root meanings, or manuscript syntax.",
+      "targets": [
+        {
+          "target": "SEM:23659586e96e83395266",
+          "current_claim": "The Pass1023 blanket binding generalization extends the equal-distance rule to unequal multi-head positions: non-L/AIR attachments close on the left action head, while L/AIR frame the right action head.",
+          "source_case_ids": [
+            "CLEAN_GAP_AW:strict_binding_generalization"
+          ],
+          "link_purpose": "Bind one historical rule proposition after actual integration; four outputs are cases, not additional targets."
+        }
+      ]
+    },
+    "reopening": {
+      "status": "REVIEW_REQUIRED_NOT_AUTHORIZED",
+      "assessed_by": "prospective_curator_proposal",
+      "criteria_origin": "Prospective reviewer criteria; not original preregistration requirements.",
+      "pathway_logic": "Alternative review routes (OR); requirements within a chosen route are conjunctive. No route grants execution approval.",
+      "pathways": [
+        {
+          "kind": "correct_original_model_trace",
+          "requirements": [
+            "Identify a documented source/recipe/attachment-trace error in the four cited cases under the unchanged blanket rule.",
+            "Check all four countercases and retain any remaining contradiction; correcting one case does not rescue a universal rule."
+          ],
+          "effect": "May change the internal consistency assessment only; does not prove authorial syntax."
+        },
+        {
+          "kind": "new_restricted_rule",
+          "requirements": [
+            "State a restricted proposition and domain before testing; preserve the failed unequal-distance cases in history.",
+            "Specify a distinct comparison/falsifier and distinguish reused model bindings from independently established syntax."
+          ],
+          "effect": "A new scoped hypothesis, not rehabilitation of the blanket extension."
+        }
+      ],
+      "not_sufficient": [
+        "More matching outputs under the same model do not erase four counterbindings.",
+        "The already reported nearest-head repair or restricting to the 120 ties is a changed proposition.",
+        "Moving an isolated counterexample output into a positive word-gloss card does not create independent meaning evidence.",
+        "Existing right-column trace values are not a gold syntax standard."
+      ]
+    }
+  },
+  "binding_precondition": {
+    "status": "PREDICTED_SINGLE_CASE_BUILDER_BINDINGS_REQUIRE_ACTUAL_REBIND",
+    "expected_target": "SEM:23659586e96e83395266",
+    "clean_review": "research_registry/decisions/clean_gap_review_aw.json",
+    "clean_review_sha256": "151574670d95646fb94c29c66be483b1f75b8fc0897e4f27c62340ad645c4ad1",
+    "requirements": [
+      "Integrate the clean review, build the actual canonical card, and independently check its exact scope and source cases.",
+      "Replace predicted card_basis/effective_basis with actual post-build hashes, including any same-claim source aggregation.",
+      "Root reviews the dossier and only then sets status reviewed_scoped_context and the actual reviewer before appending; this proposal is not executable approval."
+    ]
+  },
+  "counterexample_instances": [
+    {
+      "source_id": "LEGACY_COMPONENT:796fcb2df10de13e4ff4",
+      "former_export_target": "SEM:7d54eb17c4e884b2e400",
+      "attachment_id": "SA00557",
+      "whole_recipe": "OK+O+E+S",
+      "strict_rule_prediction": "E→OK=SETZEN",
+      "existing_trace_comparator": "E→S=WÄHLEN",
+      "disposition": "failed_prediction_instance_of_this_rule_not_independent_lexical_idea",
+      "comparison_basis": "Existing interpreted attachment trace, not independent manuscript syntax.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 28,
+          "line_end": 28,
+          "path": "experiments/yolo/sidequest_semantic_scope_ambiguity_resolution_one_thousand_twenty_third/EQUAL_DISTANCE_GENERALIZATION_REPORT.md",
+          "quote": "| `SA00557` | `OK+O+E+S` | `E→OK=SETZEN` | `E→S=WÄHLEN` |",
+          "sha256": "962c746972a3483f9171aa597db511381b345c947e34a08279b20e1bbd5167c6",
+          "source_id": "LEGACY_COMPONENT:796fcb2df10de13e4ff4",
+          "source_section": "Die vier Gegenfälle",
+          "table_header": "| Anschluss | Karte | strenge Linkslesung | vorhandene Bindung |"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:e2d6baa1b62215c65a32",
+      "former_export_target": "SEM:b885446a2046d35db2d1",
+      "attachment_id": "SA00563",
+      "whole_recipe": "S+OR+AIIN+R",
+      "strict_rule_prediction": "AIIN→S=WÄHLEN",
+      "existing_trace_comparator": "AIIN→R=MARKIEREN",
+      "disposition": "failed_prediction_instance_of_this_rule_not_independent_lexical_idea",
+      "comparison_basis": "Existing interpreted attachment trace, not independent manuscript syntax.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 29,
+          "line_end": 29,
+          "path": "experiments/yolo/sidequest_semantic_scope_ambiguity_resolution_one_thousand_twenty_third/EQUAL_DISTANCE_GENERALIZATION_REPORT.md",
+          "quote": "| `SA00563` | `S+OR+AIIN+R` | `AIIN→S=WÄHLEN` | `AIIN→R=MARKIEREN` |",
+          "sha256": "962c746972a3483f9171aa597db511381b345c947e34a08279b20e1bbd5167c6",
+          "source_id": "LEGACY_COMPONENT:e2d6baa1b62215c65a32",
+          "source_section": "Die vier Gegenfälle",
+          "table_header": "| Anschluss | Karte | strenge Linkslesung | vorhandene Bindung |"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:260ce0e236a1cefba1a4",
+      "former_export_target": "SEM:e519fd25bf4d9988fe41",
+      "attachment_id": "SA00636",
+      "whole_recipe": "CH+O+E+R",
+      "strict_rule_prediction": "E→CH=NEHMEN",
+      "existing_trace_comparator": "E→R=MARKIEREN",
+      "disposition": "failed_prediction_instance_of_this_rule_not_independent_lexical_idea",
+      "comparison_basis": "Existing interpreted attachment trace, not independent manuscript syntax.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 30,
+          "line_end": 30,
+          "path": "experiments/yolo/sidequest_semantic_scope_ambiguity_resolution_one_thousand_twenty_third/EQUAL_DISTANCE_GENERALIZATION_REPORT.md",
+          "quote": "| `SA00636` | `CH+O+E+R` | `E→CH=NEHMEN` | `E→R=MARKIEREN` |",
+          "sha256": "962c746972a3483f9171aa597db511381b345c947e34a08279b20e1bbd5167c6",
+          "source_id": "LEGACY_COMPONENT:260ce0e236a1cefba1a4",
+          "source_section": "Die vier Gegenfälle",
+          "table_header": "| Anschluss | Karte | strenge Linkslesung | vorhandene Bindung |"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:fb754e1b5d9b079dbd63",
+      "former_export_target": "SEM:eca9daa5ab9659e76a37",
+      "attachment_id": "SA00090",
+      "whole_recipe": "SH+O+Y+T+Y",
+      "strict_rule_prediction": "Y→SH=HALTEN",
+      "existing_trace_comparator": "Y→T=EINSTELLEN",
+      "disposition": "failed_prediction_instance_of_this_rule_not_independent_lexical_idea",
+      "comparison_basis": "Existing interpreted attachment trace, not independent manuscript syntax.",
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 27,
+          "line_end": 27,
+          "path": "experiments/yolo/sidequest_semantic_scope_ambiguity_resolution_one_thousand_twenty_third/EQUAL_DISTANCE_GENERALIZATION_REPORT.md",
+          "quote": "| `SA00090` | `SH+O+Y+T+Y` | `Y→SH=HALTEN` | `Y→T=EINSTELLEN` |",
+          "sha256": "962c746972a3483f9171aa597db511381b345c947e34a08279b20e1bbd5167c6",
+          "source_id": "LEGACY_COMPONENT:fb754e1b5d9b079dbd63",
+          "source_section": "Die vier Gegenfälle",
+          "table_header": "| Anschluss | Karte | strenge Linkslesung | vorhandene Bindung |"
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "status": "PASS_PROPOSAL_SOURCE_CONTRACT_ONLY",
+    "known_inventory_ids_verified": 5,
+    "proposed_clean_card_pass": true,
+    "operational_log_modified": false,
+    "actual_integrated_binding_validated": false
+  }
+}

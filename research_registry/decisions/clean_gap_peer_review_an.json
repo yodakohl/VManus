@@ -1,0 +1,2780 @@
+{
+  "schema": "clean_gap_peer_review_v1",
+  "review_id": "CLEAN_GAP_PEER_REVIEW_AN",
+  "status": "SOURCE_REVIEW_COMPLETE_WITH_TWO_TARGETED_RECOMMENDATIONS",
+  "inputs": {
+    "research_registry/decisions/clean_gap_review_an.json": "afd6abf0cd1e2f1e831b142b7b6aa133b25a01a140c62991c2f0d4c6b11587f6",
+    "research_registry/decisions/source_coverage_gap_batch_an.json": "b6f5657799ecbd814ef45c4f33b0e01b06c4d84f054e4f7e7c72e14dbb7828d5"
+  },
+  "scope": "All 42 candidate cards read against their complete short source reports (801–825), plus all 63 selected non-card spans read as exact excerpts. The 100 selected spans are not 100 complete reports. No manuscript data or image review.",
+  "card_decisions": [
+    {
+      "card_id": "CLEAN_GAP_AN:shed_result_rival",
+      "source_ids": [
+        "LEGACY_COMPONENT:82958c50d72c8668b1f7"
+      ],
+      "decision": "approve_source_bound_assertion",
+      "reason": "Explicit result-state alternative is compared and criticized; not a fictional apprentice error. Keep internal-coherence rejection distinct from empirical falsification.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_shed_state_eight_hundred_third/EIGHT_HUNDRED_THIRD_REPORT.md",
+          "line": 3,
+          "line_end": 6,
+          "quote": "The old dictionary used `SHED = ABSETZEN`. That was too narrow: it silently\nassumed sediment separation wherever the form occurred. A pure result reading\n`ABGESETZT` is worse because the rest of the workshop grammar is imperative and\nthe two target-addressed forms become awkward.",
+          "sha256": "57516ececee553c2ad5fe8380984eed49b61d3fc08b04c510ed11ebb39ed7e0e"
+        }
+      ],
+      "source_polarity": "source_report_rejected_rival",
+      "source_context_read": true,
+      "coverage_class": "additional_addressable_assertion",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:b035c80928c1d868b3c9",
+          "claim": "SHED → ABSETZEN",
+          "card_basis_sha256": "f17a5f5710ef9b988fbb6c864e1d4bf62d486512f075f06684de1146e9167238",
+          "effective_basis_sha256": "c97882a472dda358e2f99557fc01031312007a0d6fcb097192461e58f329e47e"
+        },
+        {
+          "target": "SEM:82cea98d87d0ccd66a78",
+          "claim": "SHED → STEHENLASSEN",
+          "card_basis_sha256": "3857159830d89eb6bbe14d353409dd0c98e74cc7cb4035dd2c6ab1d7ad7d2a2b",
+          "effective_basis_sha256": "a5848a517b6bd6c8526ab79183d57937a9d261cf0caa3c2ebab26941feecca0a"
+        }
+      ],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:p_recipient_rival",
+      "source_ids": [
+        "LEGACY_COMPONENT:2b25a60f203b920fd2b1",
+        "LEGACY_COMPONENT:2088993bb30ea58aa35e",
+        "LEGACY_COMPONENT:bb1b11a6a3ff244d5335"
+      ],
+      "decision": "approve_source_bound_assertion",
+      "reason": "The recipient-marker alternative is explicitly proposed in 801/803 and criticized in 804; do not collapse nominal recipient and inward action.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_process_grade_eight_hundred_first/EIGHT_HUNDRED_FIRST_REPORT.md",
+          "line": 31,
+          "line_end": 33,
+          "quote": "- `P = FÜLLEN` occurs in 3 cards / 3 events, once alone and twice inside a\n  transfer construction. It may still be a recipient marker rather than a free\n  verb.",
+          "sha256": "2c56ea4e4db442f1752909a4297b08e9181106668ca32ced8aaa6ca05863da94"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_shed_state_eight_hundred_third/EIGHT_HUNDRED_THIRD_REPORT.md",
+          "line": 31,
+          "line_end": 33,
+          "quote": "Next, resolve `P = FÜLLEN` against the rival `EMPFAENGER / HINEIN`. Its three\ncards must be read as one coherent construction: `P+Y`, `P+CHD+DY`, and\n`P+CHD+AL`.",
+          "sha256": "57516ececee553c2ad5fe8380984eed49b61d3fc08b04c510ed11ebb39ed7e0e"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_p_recipient_eight_hundred_fourth/EIGHT_HUNDRED_FOURTH_REPORT.md",
+          "line": 10,
+          "line_end": 12,
+          "quote": "Four readings were compared. `HINEIN` lacks a verb in the first card;\n`EMPFAENGER` produces noun piles; plain `FUELLEN` omits the shared inward\ndirection. The compact portable value is:",
+          "sha256": "7dadbfed39d62e025ed780e9b2076147e9a1d18cc136505b4dd1e81a9a47e1ef"
+        }
+      ],
+      "source_polarity": "historical_considered_then_source_criticized_rival",
+      "source_context_read": true,
+      "coverage_class": "additional_addressable_assertion",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:42662a9e836ecbf20316",
+          "claim": "P- before CHED contributes movement into or toward the recipient.",
+          "card_basis_sha256": "662a86a337052c955355e02b3b553cc345dea8c8f23ae419982f41d8622fcaaf",
+          "effective_basis_sha256": "d21afaa08defea0a8ec939be5240cb3fdb6ff17eafe74fff2307f47f4d9d1056"
+        }
+      ],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:p_inward_rival",
+      "source_ids": [
+        "LEGACY_COMPONENT:bb1b11a6a3ff244d5335"
+      ],
+      "decision": "approve_source_bound_assertion",
+      "reason": "The direction-only HINEIN rival is explicitly compared; absence of a verb is source-model criticism, not independent syntactic proof.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_p_recipient_eight_hundred_fourth/EIGHT_HUNDRED_FOURTH_REPORT.md",
+          "line": 10,
+          "line_end": 12,
+          "quote": "Four readings were compared. `HINEIN` lacks a verb in the first card;\n`EMPFAENGER` produces noun piles; plain `FUELLEN` omits the shared inward\ndirection. The compact portable value is:",
+          "sha256": "7dadbfed39d62e025ed780e9b2076147e9a1d18cc136505b4dd1e81a9a47e1ef"
+        }
+      ],
+      "source_polarity": "source_report_rejected_rival",
+      "source_context_read": true,
+      "coverage_class": "additional_addressable_assertion",
+      "existing_card_comparisons": [],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:p_fill",
+      "source_ids": [
+        "LEGACY_COMPONENT:b65b75a1fe930a6b267a",
+        "LEGACY_COMPONENT:66fa69d06c78f8f6c216"
+      ],
+      "decision": "approve_source_bound_assertion",
+      "reason": "EINFÜLLEN is expressly selected. Scope is the registered P component and three owner-local constructions, not arbitrary p glyphs.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_p_recipient_eight_hundred_fourth/EIGHT_HUNDRED_FOURTH_REPORT.md",
+          "line": 3,
+          "line_end": 4,
+          "quote": "`P = FÜLLEN` was usable but vague. The three occurrences all place material\ninto an owner-local receiver:",
+          "sha256": "7dadbfed39d62e025ed780e9b2076147e9a1d18cc136505b4dd1e81a9a47e1ef"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_p_recipient_eight_hundred_fourth/EIGHT_HUNDRED_FOURTH_REPORT.md",
+          "line": 14,
+          "line_end": 14,
+          "quote": "> `P = EINFÜLLEN`",
+          "sha256": "7dadbfed39d62e025ed780e9b2076147e9a1d18cc136505b4dd1e81a9a47e1ef"
+        }
+      ],
+      "source_polarity": "historical_working_proposal",
+      "source_context_read": true,
+      "coverage_class": "additional_addressable_assertion",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:dce001a13511566473e6",
+          "claim": "P → EINBRINGEN",
+          "card_basis_sha256": "ea61f06e8cbc33692fd4aac8e7a6c881aa294162e557a29783c91fe8a2bf3e6d",
+          "effective_basis_sha256": "3c8e2827034eaa6a2b94efba41922d9157d5dbecab23ed98416d2141a3714a59"
+        },
+        {
+          "target": "SEM:42662a9e836ecbf20316",
+          "claim": "P- before CHED contributes movement into or toward the recipient.",
+          "card_basis_sha256": "662a86a337052c955355e02b3b553cc345dea8c8f23ae419982f41d8622fcaaf",
+          "effective_basis_sha256": "d21afaa08defea0a8ec939be5240cb3fdb6ff17eafe74fff2307f47f4d9d1056"
+        }
+      ],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:p_plain_fill",
+      "source_ids": [
+        "LEGACY_COMPONENT:2b25a60f203b920fd2b1",
+        "LEGACY_COMPONENT:2088993bb30ea58aa35e",
+        "LEGACY_COMPONENT:bb1b11a6a3ff244d5335"
+      ],
+      "decision": "approve_source_bound_assertion",
+      "reason": "FÜLLEN is an actual retained old reading before criticism, not an assertion extracted from a denial.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_process_grade_eight_hundred_first/EIGHT_HUNDRED_FIRST_REPORT.md",
+          "line": 31,
+          "line_end": 33,
+          "quote": "- `P = FÜLLEN` occurs in 3 cards / 3 events, once alone and twice inside a\n  transfer construction. It may still be a recipient marker rather than a free\n  verb.",
+          "sha256": "2c56ea4e4db442f1752909a4297b08e9181106668ca32ced8aaa6ca05863da94"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_shed_state_eight_hundred_third/EIGHT_HUNDRED_THIRD_REPORT.md",
+          "line": 31,
+          "line_end": 33,
+          "quote": "Next, resolve `P = FÜLLEN` against the rival `EMPFAENGER / HINEIN`. Its three\ncards must be read as one coherent construction: `P+Y`, `P+CHD+DY`, and\n`P+CHD+AL`.",
+          "sha256": "57516ececee553c2ad5fe8380984eed49b61d3fc08b04c510ed11ebb39ed7e0e"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_p_recipient_eight_hundred_fourth/EIGHT_HUNDRED_FOURTH_REPORT.md",
+          "line": 10,
+          "line_end": 12,
+          "quote": "Four readings were compared. `HINEIN` lacks a verb in the first card;\n`EMPFAENGER` produces noun piles; plain `FUELLEN` omits the shared inward\ndirection. The compact portable value is:",
+          "sha256": "7dadbfed39d62e025ed780e9b2076147e9a1d18cc136505b4dd1e81a9a47e1ef"
+        }
+      ],
+      "source_polarity": "historical_working_reading_later_source_criticized",
+      "source_context_read": true,
+      "coverage_class": "additional_addressable_assertion",
+      "existing_card_comparisons": [],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:shed_open_availability",
+      "source_ids": [
+        "LEGACY_COMPONENT:f83b156a040e74ad9528"
+      ],
+      "decision": "approve_source_bound_assertion",
+      "reason": "Availability for a subsequent instruction is an explicit contextual consequence of the open SHED+AL construction, additional to bare STEHENLASSEN.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_shed_state_eight_hundred_third/EIGHT_HUNDRED_THIRD_REPORT.md",
+          "line": 22,
+          "line_end": 25,
+          "quote": "The revised reading also explains the endpoint-heavy distribution: thirteen\nof fifteen uses close a cell because “leave it standing” naturally ends a\nworkshop step. The two open `AL` uses keep the placed item available for the\nnext instruction.",
+          "sha256": "57516ececee553c2ad5fe8380984eed49b61d3fc08b04c510ed11ebb39ed7e0e"
+        }
+      ],
+      "source_polarity": "historical_working_proposal",
+      "source_context_read": true,
+      "coverage_class": "additional_addressable_assertion",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:82cea98d87d0ccd66a78",
+          "claim": "SHED → STEHENLASSEN",
+          "card_basis_sha256": "3857159830d89eb6bbe14d353409dd0c98e74cc7cb4035dd2c6ab1d7ad7d2a2b",
+          "effective_basis_sha256": "a5848a517b6bd6c8526ab79183d57937a9d261cf0caa3c2ebab26941feecca0a"
+        }
+      ],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:lsho_rinse_process",
+      "source_ids": [
+        "LEGACY_COMPONENT:6a5cebba833f6ebbe36e"
+      ],
+      "decision": "approve_local_instance_only",
+      "reason": "The whole lsho composition is explicitly glossed SPÜLVORGANG. Keep a local composed-reading instance, not a second independent rinse-root theory.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_lsh_rinse_eight_hundred_fifth/EIGHT_HUNDRED_FIFTH_REPORT.md",
+          "line": 6,
+          "line_end": 6,
+          "quote": "- `lsho = LSH+O` reads naturally as **SPÜLVORGANG**;",
+          "sha256": "1397bc6ddfa95c6f1608a69b2b95a4a0c01e9adc0dde0349656cdcb8a930cc26"
+        }
+      ],
+      "source_polarity": "historical_working_proposal",
+      "source_context_read": true,
+      "coverage_class": "local_composition_instance",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:6a8899208267731e6e8f",
+          "claim": "lsho → LSH+O",
+          "card_basis_sha256": "1984e637625857ac0e79813c7b611087555b9e0dbe42acdae946b43119ef7527",
+          "effective_basis_sha256": "847f05a1e0708fa1ac433383840c825f1b5a0e4dfa23df166e39ec2a4f5ddfc6"
+        },
+        {
+          "target": "SEM:2d192b1c74c9152d4870",
+          "claim": "LSH → SPÜLEN",
+          "card_basis_sha256": "834717f218d2cd7ab3cfb5c845083aac85065e888447b0187de6ec99a238b834",
+          "effective_basis_sha256": "619035a06534b4cb1877720b41c33f6b19d9abc975a71bded2ebbdb7280bc47f"
+        },
+        {
+          "target": "SEM:49c8d4c1524027989d82",
+          "claim": "O → VORGANG",
+          "card_basis_sha256": "33413e88b0b3367f541c9725a254623eb9d1e95809fdc06be69c46525ec43ca4",
+          "effective_basis_sha256": "74ee6f2cb4fc081f932d58fb99cbd4f18c049e1fb43b0accd8cfdc1e1084a034"
+        }
+      ],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:lshedy_rinse_close",
+      "source_ids": [
+        "LEGACY_COMPONENT:0ef3182263a5e1815b06"
+      ],
+      "decision": "approve_local_instance_only",
+      "reason": "The entire lshedy composition adds short duration and closure. Waschen; Ende is neither the same rinse verb nor the full duration claim.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_lsh_rinse_eight_hundred_fifth/EIGHT_HUNDRED_FIFTH_REPORT.md",
+          "line": 7,
+          "line_end": 7,
+          "quote": "- `lshedy = LSH+E+DY` reads as **kurz spülen; Schluss**.",
+          "sha256": "1397bc6ddfa95c6f1608a69b2b95a4a0c01e9adc0dde0349656cdcb8a930cc26"
+        }
+      ],
+      "source_polarity": "historical_working_proposal",
+      "source_context_read": true,
+      "coverage_class": "local_composition_instance",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:f3a72c06950c4f86e6f2",
+          "claim": "lshedy → LSH+E+DY",
+          "card_basis_sha256": "6a34f9ee1b8b89d4d3ee595f80e0c1ee75bd7d547936b85945695a6843aeb1d0",
+          "effective_basis_sha256": "2beadf55f6a9bae9b3e4468d001da79eed841f6349f01449d1dc86942141d25e"
+        },
+        {
+          "target": "SEM:3d954a3400b90461c862",
+          "claim": "lshedy → Waschen; Ende",
+          "card_basis_sha256": "ecf935d430d1420f7f6eca4df47d972cf4d006f40eebc83c712afd47bffb0086",
+          "effective_basis_sha256": "babd09cfe9bdfc8d0d45ffc7041346d0c1889949fa0a324d79321870aeef077b"
+        },
+        {
+          "target": "SEM:2d192b1c74c9152d4870",
+          "claim": "LSH → SPÜLEN",
+          "card_basis_sha256": "834717f218d2cd7ab3cfb5c845083aac85065e888447b0187de6ec99a238b834",
+          "effective_basis_sha256": "619035a06534b4cb1877720b41c33f6b19d9abc975a71bded2ebbdb7280bc47f"
+        }
+      ],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:lsh_extract_rival",
+      "source_ids": [
+        "LEGACY_COMPONENT:51d7f1d72dab9eda8d63"
+      ],
+      "decision": "approve_source_bound_assertion",
+      "reason": "AUSWASCHEN is a named prospective rival, subsequently criticized in 805 for adding extraction from substrate; preserve historical stages.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_p_recipient_eight_hundred_fourth/EIGHT_HUNDRED_FOURTH_REPORT.md",
+          "line": 27,
+          "line_end": 29,
+          "quote": "`P` joins productive core21. Next, resolve `LSH = WASCHEN` against the more\nspecific possibilities `SPUELEN` and `AUSWASCHEN`, using its two card families\nand their full preceding/following process chains.",
+          "sha256": "7dadbfed39d62e025ed780e9b2076147e9a1d18cc136505b4dd1e81a9a47e1ef"
+        }
+      ],
+      "source_polarity": "historical_proposed_rival",
+      "source_context_read": true,
+      "coverage_class": "additional_addressable_assertion",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:3fa671fb387e25cb1be6",
+          "claim": "LSH → WASCHEN",
+          "card_basis_sha256": "5844f6aa5971e07ec14af52c238e320ced662c4e22e0d15f38353994049942bf",
+          "effective_basis_sha256": "747331dc2ce99f7c57b7de7981cc1f364b35332af4dd6723097888fc7694622d"
+        },
+        {
+          "target": "SEM:2d192b1c74c9152d4870",
+          "claim": "LSH → SPÜLEN",
+          "card_basis_sha256": "834717f218d2cd7ab3cfb5c845083aac85065e888447b0187de6ec99a238b834",
+          "effective_basis_sha256": "619035a06534b4cb1877720b41c33f6b19d9abc975a71bded2ebbdb7280bc47f"
+        }
+      ],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:material_argument_distinction",
+      "source_ids": [
+        "LEGACY_COMPONENT:dcb1726f863d88c1cc31",
+        "LEGACY_COMPONENT:3ecfde7c982ad6a2fae3"
+      ],
+      "decision": "approve_source_bound_assertion",
+      "reason": "The source explicitly asserts HO/OR distinct argument roles and AIR frames, with registered whole-card restriction. The three atomic meanings alone do not state this relation.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_material_roots_eight_hundred_seventh/EIGHT_HUNDRED_SEVENTH_REPORT.md",
+          "line": 16,
+          "line_end": 16,
+          "quote": "The decisive card is `chochor = HO+CH+OR`:",
+          "sha256": "effae73b30dbeca4cc602e1fdd56638e04758940b499280806b63e3366900193"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_material_roots_eight_hundred_seventh/EIGHT_HUNDRED_SEVENTH_REPORT.md",
+          "line": 20,
+          "line_end": 23,
+          "quote": "Because `HO` and `OR` coexist as different arguments, they cannot be two\nspellings of the same material. Likewise `AIR` has its own operation frames.\nNo meaning is assigned to every visible letter `o`; only the registered card\nrecipes license these roots.",
+          "sha256": "effae73b30dbeca4cc602e1fdd56638e04758940b499280806b63e3366900193"
+        }
+      ],
+      "source_polarity": "historical_working_proposal",
+      "source_context_read": true,
+      "coverage_class": "additional_addressable_assertion",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:5387269c6ee6d507293f",
+          "claim": "chochor → HO+CH+OR",
+          "card_basis_sha256": "8f1e81ec068da60a27ae326e278383f9bfa13194823ecbbd22eba8d5275d1feb",
+          "effective_basis_sha256": "cabe7d34d11d3424296e9a8f2d9ee395a85ce7f6bf74914a98d784daad59a553"
+        },
+        {
+          "target": "SEM:ec1a25e412565b0a1756",
+          "claim": "OR → ANSATZ",
+          "card_basis_sha256": "5ec49716383a817ed1af5590b6a001348432eda7c8076bf03c54a355adb4e071",
+          "effective_basis_sha256": "993e1314e2a207a7b96363c5922b7ff0442b255c86a7fd9b5f202539d889d5b9"
+        },
+        {
+          "target": "SEM:c715d4f00ebdf1d22dc5",
+          "claim": "HO → ZUTAT",
+          "card_basis_sha256": "d30f90368667aca07be7dc510d0e0b6ca62372a00d0579e21e2730c75192a558",
+          "effective_basis_sha256": "61c67115f12aa51b908df6dc65c7a9b7a0ae4da7bfb55835fd0dfb9d540b4116"
+        }
+      ],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:cfh_take",
+      "source_ids": [
+        "LEGACY_COMPONENT:52242c108771361e75b2"
+      ],
+      "decision": "approve_source_bound_assertion",
+      "reason": "ENTNEHMEN is an explicit CFH alternative criticized as duplicating CH. Genuine rejected rival, not instructional prohibition.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_cfh_press_eight_hundred_eleventh/EIGHT_HUNDRED_ELEVENTH_REPORT.md",
+          "line": 7,
+          "line_end": 9,
+          "quote": "The former reading AUSWRINGEN added an unseen cloth or twisting action.\nENTNEHMEN would merely duplicate `CH`; ABGIESSEN would add an unseen liquid\nlayer. The shortest distinct workshop verb is:",
+          "sha256": "ce5437d1c617aa8755e4da408f81e4c0bd0034013b4b6ebe83af3ad09be606f5"
+        }
+      ],
+      "source_polarity": "source_report_rejected_rival",
+      "source_context_read": true,
+      "coverage_class": "additional_addressable_assertion",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:f423d9a7417f3d44e6b8",
+          "claim": "CFH → AUSPRESSEN",
+          "card_basis_sha256": "7b75be5107b3f7b92da12b427952739a5bee08b3c750d0e60a59edc301a9de13",
+          "effective_basis_sha256": "353193d4f0fec0e06c2d9b00ac935f23a69a98b3f1e64c3309e23f6ca8f8004b"
+        }
+      ],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:cfh_pour",
+      "source_ids": [
+        "LEGACY_COMPONENT:52242c108771361e75b2"
+      ],
+      "decision": "approve_source_bound_assertion",
+      "reason": "ABGIESSEN is an explicit CFH alternative criticized for an unseen liquid layer. No general proof that pouring is false.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_cfh_press_eight_hundred_eleventh/EIGHT_HUNDRED_ELEVENTH_REPORT.md",
+          "line": 7,
+          "line_end": 9,
+          "quote": "The former reading AUSWRINGEN added an unseen cloth or twisting action.\nENTNEHMEN would merely duplicate `CH`; ABGIESSEN would add an unseen liquid\nlayer. The shortest distinct workshop verb is:",
+          "sha256": "ce5437d1c617aa8755e4da408f81e4c0bd0034013b4b6ebe83af3ad09be606f5"
+        }
+      ],
+      "source_polarity": "source_report_rejected_rival",
+      "source_context_read": true,
+      "coverage_class": "additional_addressable_assertion",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:f423d9a7417f3d44e6b8",
+          "claim": "CFH → AUSPRESSEN",
+          "card_basis_sha256": "7b75be5107b3f7b92da12b427952739a5bee08b3c750d0e60a59edc301a9de13",
+          "effective_basis_sha256": "353193d4f0fec0e06c2d9b00ac935f23a69a98b3f1e64c3309e23f6ca8f8004b"
+        }
+      ],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:daiiin_second_stage",
+      "source_ids": [
+        "LEGACY_COMPONENT:c07fe9e67dfca962ab0f"
+      ],
+      "decision": "approve_local_instance_only",
+      "reason": "The second-stage whole composition is explicit and restricted to DA before IIN. Sollstufe II is a related earlier target-stage wording, not automatic complete identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_da_two_eight_hundred_thirteenth/EIGHT_HUNDRED_THIRTEENTH_REPORT.md",
+          "line": 9,
+          "line_end": 11,
+          "quote": "> `DA = ZWEI` (bound)\n> `IIN = STUFE`\n> `daiiin = ZWEI · STUFE = zweite Stufe`",
+          "sha256": "1c269e765e291e6026efdd2a6e412eb48c6b8c25174f3c7273922b5784450dfc"
+        }
+      ],
+      "source_polarity": "historical_working_proposal",
+      "source_context_read": true,
+      "coverage_class": "local_composition_instance",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:d3f8270267cf35b065ea",
+          "claim": "daiiin → DA+IIN",
+          "card_basis_sha256": "c3414c0d7c43f80fd3c0283b85a3f88807ff8e039f1034f56117fbe9e9f09263",
+          "effective_basis_sha256": "36b6b431a3766f845ed5df30834c956d712a3e38f7ab10e29cf607a9527486e5"
+        },
+        {
+          "target": "SEM:457e78f7ead9e778136d",
+          "claim": "DA → ZWEI",
+          "card_basis_sha256": "f65d0747a14fb149b80517ce3db75c9b5b788065e0b30e7313a111d7dccca24f",
+          "effective_basis_sha256": "2f661a07bd1d3a661c8baa58cfdb681a0ddd9f2ac4ae5cf265e496196a6e8a6f"
+        },
+        {
+          "target": "SEM:1659676c07e492ee11f9",
+          "claim": "IIN → STUFE",
+          "card_basis_sha256": "f836f13e608dd7f7fad2f7e12e0b5506ab3e823af65a1a5e2b107025eafeaf4e",
+          "effective_basis_sha256": "94bcf18e9f0db804ec28c9336115b6c6d9c3be729f88f0e3f9549f004c528001"
+        },
+        {
+          "target": "SEM:d097d980650437a7498d",
+          "claim": "daiiin → Sollstufe II",
+          "card_basis_sha256": "202f206063ebfff6fcc186a3f9a9640fbc50b3ac1a4bca4ec128e7f2abb6d683",
+          "effective_basis_sha256": "14f8118c4cfec39927a218f8b5abe77d12feb6f321f3b01e4e04d82913739f6b"
+        }
+      ],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:da_again",
+      "source_ids": [
+        "LEGACY_COMPONENT:1cd675d0e3afcc5101e7"
+      ],
+      "decision": "approve_source_bound_assertion",
+      "reason": "ERNEUT is explicitly considered in the bound stage card and criticized as overlap; keep narrow frame.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_da_two_eight_hundred_thirteenth/EIGHT_HUNDRED_THIRTEENTH_REPORT.md",
+          "line": 18,
+          "line_end": 19,
+          "quote": "ERNEUT overlaps the existing repetition/flow machinery; NÄCHST overlaps `OT`;\nDOPPELT produces an awkward stage reading. Atomic ZWEI is the simplest value.",
+          "sha256": "1c269e765e291e6026efdd2a6e412eb48c6b8c25174f3c7273922b5784450dfc"
+        }
+      ],
+      "source_polarity": "source_report_rejected_rival",
+      "source_context_read": true,
+      "coverage_class": "additional_addressable_assertion",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:457e78f7ead9e778136d",
+          "claim": "DA → ZWEI",
+          "card_basis_sha256": "f65d0747a14fb149b80517ce3db75c9b5b788065e0b30e7313a111d7dccca24f",
+          "effective_basis_sha256": "2f661a07bd1d3a661c8baa58cfdb681a0ddd9f2ac4ae5cf265e496196a6e8a6f"
+        }
+      ],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:da_next",
+      "source_ids": [
+        "LEGACY_COMPONENT:1cd675d0e3afcc5101e7"
+      ],
+      "decision": "approve_source_bound_assertion",
+      "reason": "NÄCHST is explicitly considered in the bound stage card and criticized as OT overlap; do not globalize DA identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_da_two_eight_hundred_thirteenth/EIGHT_HUNDRED_THIRTEENTH_REPORT.md",
+          "line": 18,
+          "line_end": 19,
+          "quote": "ERNEUT overlaps the existing repetition/flow machinery; NÄCHST overlaps `OT`;\nDOPPELT produces an awkward stage reading. Atomic ZWEI is the simplest value.",
+          "sha256": "1c269e765e291e6026efdd2a6e412eb48c6b8c25174f3c7273922b5784450dfc"
+        }
+      ],
+      "source_polarity": "source_report_rejected_rival",
+      "source_context_read": true,
+      "coverage_class": "additional_addressable_assertion",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:457e78f7ead9e778136d",
+          "claim": "DA → ZWEI",
+          "card_basis_sha256": "f65d0747a14fb149b80517ce3db75c9b5b788065e0b30e7313a111d7dccca24f",
+          "effective_basis_sha256": "2f661a07bd1d3a661c8baa58cfdb681a0ddd9f2ac4ae5cf265e496196a6e8a6f"
+        }
+      ],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:da_double",
+      "source_ids": [
+        "LEGACY_COMPONENT:1cd675d0e3afcc5101e7"
+      ],
+      "decision": "approve_source_bound_assertion",
+      "reason": "DOPPELT is explicitly considered and criticized as awkward in the stage reading. Genuine rival.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_da_two_eight_hundred_thirteenth/EIGHT_HUNDRED_THIRTEENTH_REPORT.md",
+          "line": 18,
+          "line_end": 19,
+          "quote": "ERNEUT overlaps the existing repetition/flow machinery; NÄCHST overlaps `OT`;\nDOPPELT produces an awkward stage reading. Atomic ZWEI is the simplest value.",
+          "sha256": "1c269e765e291e6026efdd2a6e412eb48c6b8c25174f3c7273922b5784450dfc"
+        }
+      ],
+      "source_polarity": "source_report_rejected_rival",
+      "source_context_read": true,
+      "coverage_class": "additional_addressable_assertion",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:457e78f7ead9e778136d",
+          "claim": "DA → ZWEI",
+          "card_basis_sha256": "f65d0747a14fb149b80517ce3db75c9b5b788065e0b30e7313a111d7dccca24f",
+          "effective_basis_sha256": "2f661a07bd1d3a661c8baa58cfdb681a0ddd9f2ac4ae5cf265e496196a6e8a6f"
+        }
+      ],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:ld_bind",
+      "source_ids": [
+        "LEGACY_COMPONENT:6d47b66aac014d5a294f",
+        "LEGACY_COMPONENT:e6a0483ce95ca503629e"
+      ],
+      "decision": "approve_source_bound_assertion",
+      "reason": "BINDEN is explicitly compared to fastening in this one learned frame. The asserted cord requirement is only the historical model reasoning.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_ld_fastening_eight_hundred_fourteenth/EIGHT_HUNDRED_FOURTEENTH_REPORT.md",
+          "line": 3,
+          "line_end": 4,
+          "quote": "The only `LD` occurrence is the complete one-card statement\n`qokylddy = OK+Y+LD+DY` at the visibly bow-connected B4 figure pair.",
+          "sha256": "5d4997cada3f1554bdb1a44cea742936e9e4aa45d57bbb733f0eabf407012031"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_ld_fastening_eight_hundred_fourteenth/EIGHT_HUNDRED_FOURTEENTH_REPORT.md",
+          "line": 10,
+          "line_end": 12,
+          "quote": "`BINDEN` would require cord or band; `VERSCHLIESSEN` and `DOPPELSCHLUSS`\nduplicate the licensed `DY` closure; `ANLEGEN` overlaps `OK=ANSETZEN`.\nTherefore:",
+          "sha256": "5d4997cada3f1554bdb1a44cea742936e9e4aa45d57bbb733f0eabf407012031"
+        }
+      ],
+      "source_polarity": "source_report_rejected_rival",
+      "source_context_read": true,
+      "coverage_class": "additional_addressable_assertion",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:e20606103acc6e41cd29",
+          "claim": "LD → BEFESTIGEN",
+          "card_basis_sha256": "4dfec55dec6e3020b4f5375dc93cce974a364ccfeae7e7b90487ae1471a33a44",
+          "effective_basis_sha256": "c43d12a730ee64205a3ed2d8f972777bec6fe91b1d82806f9eff3445dee79203"
+        }
+      ],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:ld_close",
+      "source_ids": [
+        "LEGACY_COMPONENT:6d47b66aac014d5a294f",
+        "LEGACY_COMPONENT:e6a0483ce95ca503629e"
+      ],
+      "decision": "approve_source_bound_assertion",
+      "reason": "VERSCHLIESSEN is a genuine competing operation gloss; duplication with DY is internal criticism.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_ld_fastening_eight_hundred_fourteenth/EIGHT_HUNDRED_FOURTEENTH_REPORT.md",
+          "line": 3,
+          "line_end": 4,
+          "quote": "The only `LD` occurrence is the complete one-card statement\n`qokylddy = OK+Y+LD+DY` at the visibly bow-connected B4 figure pair.",
+          "sha256": "5d4997cada3f1554bdb1a44cea742936e9e4aa45d57bbb733f0eabf407012031"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_ld_fastening_eight_hundred_fourteenth/EIGHT_HUNDRED_FOURTEENTH_REPORT.md",
+          "line": 10,
+          "line_end": 12,
+          "quote": "`BINDEN` would require cord or band; `VERSCHLIESSEN` and `DOPPELSCHLUSS`\nduplicate the licensed `DY` closure; `ANLEGEN` overlaps `OK=ANSETZEN`.\nTherefore:",
+          "sha256": "5d4997cada3f1554bdb1a44cea742936e9e4aa45d57bbb733f0eabf407012031"
+        }
+      ],
+      "source_polarity": "source_report_rejected_rival",
+      "source_context_read": true,
+      "coverage_class": "additional_addressable_assertion",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:e20606103acc6e41cd29",
+          "claim": "LD → BEFESTIGEN",
+          "card_basis_sha256": "4dfec55dec6e3020b4f5375dc93cce974a364ccfeae7e7b90487ae1471a33a44",
+          "effective_basis_sha256": "c43d12a730ee64205a3ed2d8f972777bec6fe91b1d82806f9eff3445dee79203"
+        }
+      ],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:ld_double_close",
+      "source_ids": [
+        "LEGACY_COMPONENT:6d47b66aac014d5a294f",
+        "LEGACY_COMPONENT:e6a0483ce95ca503629e"
+      ],
+      "decision": "revise_type_and_preserve_rejected_formal_rival",
+      "reason": "DOPPELSCHLUSS is explicitly introduced in 813 as a purely graphic instruction. Preserve this rejected rival as formal_role rather than lexical meaning; 814 alone leaves its graphic scope implicit.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_ld_fastening_eight_hundred_fourteenth/EIGHT_HUNDRED_FOURTEENTH_REPORT.md",
+          "line": 3,
+          "line_end": 4,
+          "quote": "The only `LD` occurrence is the complete one-card statement\n`qokylddy = OK+Y+LD+DY` at the visibly bow-connected B4 figure pair.",
+          "sha256": "5d4997cada3f1554bdb1a44cea742936e9e4aa45d57bbb733f0eabf407012031"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_ld_fastening_eight_hundred_fourteenth/EIGHT_HUNDRED_FOURTEENTH_REPORT.md",
+          "line": 10,
+          "line_end": 12,
+          "quote": "`BINDEN` would require cord or band; `VERSCHLIESSEN` and `DOPPELSCHLUSS`\nduplicate the licensed `DY` closure; `ANLEGEN` overlaps `OK=ANSETZEN`.\nTherefore:",
+          "sha256": "5d4997cada3f1554bdb1a44cea742936e9e4aa45d57bbb733f0eabf407012031"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_da_two_eight_hundred_thirteenth/EIGHT_HUNDRED_THIRTEENTH_REPORT.md",
+          "line": 26,
+          "line_end": 28,
+          "quote": "The inventory remains core33, now with two bound values and only one local\nsingleton. Next, resolve `LD` inside `qokylddy`: does it mean BINDEN,\nBEFESTIGEN, VERSCHLIESSEN, or a purely graphic double-close instruction?",
+          "sha256": "1c269e765e291e6026efdd2a6e412eb48c6b8c25174f3c7273922b5784450dfc"
+        }
+      ],
+      "source_polarity": "source_report_rejected_rival",
+      "source_context_read": true,
+      "coverage_class": "additional_addressable_assertion",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:e20606103acc6e41cd29",
+          "claim": "LD → BEFESTIGEN",
+          "card_basis_sha256": "4dfec55dec6e3020b4f5375dc93cce974a364ccfeae7e7b90487ae1471a33a44",
+          "effective_basis_sha256": "c43d12a730ee64205a3ed2d8f972777bec6fe91b1d82806f9eff3445dee79203"
+        }
+      ],
+      "global_novelty_claim": false,
+      "recommended_claim_type": "formal_role",
+      "recommended_claim": "Pass813/814 considers LD in the learned qokylddy frame a purely graphic double-close instruction (DOPPELSCHLUSS), and rejects it as duplicating DY closure."
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:ld_apply",
+      "source_ids": [
+        "LEGACY_COMPONENT:6d47b66aac014d5a294f",
+        "LEGACY_COMPONENT:e6a0483ce95ca503629e"
+      ],
+      "decision": "approve_source_bound_assertion",
+      "reason": "ANLEGEN is an explicit competing action gloss in the bound frame, not an arbitrary proposed meaning inferred from a forbidden output.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_ld_fastening_eight_hundred_fourteenth/EIGHT_HUNDRED_FOURTEENTH_REPORT.md",
+          "line": 3,
+          "line_end": 4,
+          "quote": "The only `LD` occurrence is the complete one-card statement\n`qokylddy = OK+Y+LD+DY` at the visibly bow-connected B4 figure pair.",
+          "sha256": "5d4997cada3f1554bdb1a44cea742936e9e4aa45d57bbb733f0eabf407012031"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_ld_fastening_eight_hundred_fourteenth/EIGHT_HUNDRED_FOURTEENTH_REPORT.md",
+          "line": 10,
+          "line_end": 12,
+          "quote": "`BINDEN` would require cord or band; `VERSCHLIESSEN` and `DOPPELSCHLUSS`\nduplicate the licensed `DY` closure; `ANLEGEN` overlaps `OK=ANSETZEN`.\nTherefore:",
+          "sha256": "5d4997cada3f1554bdb1a44cea742936e9e4aa45d57bbb733f0eabf407012031"
+        }
+      ],
+      "source_polarity": "source_report_rejected_rival",
+      "source_context_read": true,
+      "coverage_class": "additional_addressable_assertion",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:e20606103acc6e41cd29",
+          "claim": "LD → BEFESTIGEN",
+          "card_basis_sha256": "4dfec55dec6e3020b4f5375dc93cce974a364ccfeae7e7b90487ae1471a33a44",
+          "effective_basis_sha256": "c43d12a730ee64205a3ed2d8f972777bec6fe91b1d82806f9eff3445dee79203"
+        }
+      ],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:os_place",
+      "source_ids": [
+        "LEGACY_COMPONENT:f704f143bc181d53ff9a"
+      ],
+      "decision": "approve_source_bound_assertion",
+      "reason": "ORT is explicitly named as a future rival in 815 and criticized in 816; retain proposal-stage provenance.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_fifth_workshop_grammar_eight_hundred_fifteenth/EIGHT_HUNDRED_FIFTEENTH_REPORT.md",
+          "line": 20,
+          "line_end": 22,
+          "quote": "Next, attack `os` first. Read its exact position in H1-S001 against the\ncandidates FACH, ORT, WERKZEUG, TRENNSCHRITT, and a copied source label. The\nwinning meaning must make the whole plant sentence more coherent.",
+          "sha256": "09400ac5d05488a96b1cc918191d6675760c2ade55b149c8b6db6b5fdcb5a001"
+        }
+      ],
+      "source_polarity": "historical_proposed_rival",
+      "source_context_read": true,
+      "coverage_class": "additional_addressable_assertion",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:5265f13db444851070b2",
+          "claim": "OS → FACH",
+          "card_basis_sha256": "13fb532f413c612237859e02217669d89d67b97980fb28188c3f3d0234a772ec",
+          "effective_basis_sha256": "2b180bfff59e8226066c7fb505ca47d1bdc98ff936fa33affd3e1fd4befcae37"
+        },
+        {
+          "target": "SEM:f8e3f984c3a02c1edb2b",
+          "claim": "os → DAZU",
+          "card_basis_sha256": "f4b657b3e267c756584ea1524461d6d66977cea0c709d07c2cecd1af243d84f3",
+          "effective_basis_sha256": "d3642919197b104ba772b00c8db31ae85820e922659d608b3dbb001f62a19c34"
+        }
+      ],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:os_tool",
+      "source_ids": [
+        "LEGACY_COMPONENT:f704f143bc181d53ff9a"
+      ],
+      "decision": "approve_source_bound_assertion",
+      "reason": "WERKZEUG is explicitly named as a future rival in 815 and criticized in 816; not merely an instructional error.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_fifth_workshop_grammar_eight_hundred_fifteenth/EIGHT_HUNDRED_FIFTEENTH_REPORT.md",
+          "line": 20,
+          "line_end": 22,
+          "quote": "Next, attack `os` first. Read its exact position in H1-S001 against the\ncandidates FACH, ORT, WERKZEUG, TRENNSCHRITT, and a copied source label. The\nwinning meaning must make the whole plant sentence more coherent.",
+          "sha256": "09400ac5d05488a96b1cc918191d6675760c2ade55b149c8b6db6b5fdcb5a001"
+        }
+      ],
+      "source_polarity": "historical_proposed_rival",
+      "source_context_read": true,
+      "coverage_class": "additional_addressable_assertion",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:5265f13db444851070b2",
+          "claim": "OS → FACH",
+          "card_basis_sha256": "13fb532f413c612237859e02217669d89d67b97980fb28188c3f3d0234a772ec",
+          "effective_basis_sha256": "2b180bfff59e8226066c7fb505ca47d1bdc98ff936fa33affd3e1fd4befcae37"
+        },
+        {
+          "target": "SEM:f8e3f984c3a02c1edb2b",
+          "claim": "os → DAZU",
+          "card_basis_sha256": "f4b657b3e267c756584ea1524461d6d66977cea0c709d07c2cecd1af243d84f3",
+          "effective_basis_sha256": "d3642919197b104ba772b00c8db31ae85820e922659d608b3dbb001f62a19c34"
+        }
+      ],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:os_separation",
+      "source_ids": [
+        "LEGACY_COMPONENT:f704f143bc181d53ff9a"
+      ],
+      "decision": "approve_source_bound_assertion",
+      "reason": "TRENNSCHRITT is explicitly proposed; subsequent description as a meta-instruction does not erase its historical rival status.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_fifth_workshop_grammar_eight_hundred_fifteenth/EIGHT_HUNDRED_FIFTEENTH_REPORT.md",
+          "line": 20,
+          "line_end": 22,
+          "quote": "Next, attack `os` first. Read its exact position in H1-S001 against the\ncandidates FACH, ORT, WERKZEUG, TRENNSCHRITT, and a copied source label. The\nwinning meaning must make the whole plant sentence more coherent.",
+          "sha256": "09400ac5d05488a96b1cc918191d6675760c2ade55b149c8b6db6b5fdcb5a001"
+        }
+      ],
+      "source_polarity": "historical_proposed_rival",
+      "source_context_read": true,
+      "coverage_class": "additional_addressable_assertion",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:5265f13db444851070b2",
+          "claim": "OS → FACH",
+          "card_basis_sha256": "13fb532f413c612237859e02217669d89d67b97980fb28188c3f3d0234a772ec",
+          "effective_basis_sha256": "2b180bfff59e8226066c7fb505ca47d1bdc98ff936fa33affd3e1fd4befcae37"
+        },
+        {
+          "target": "SEM:f8e3f984c3a02c1edb2b",
+          "claim": "os → DAZU",
+          "card_basis_sha256": "f4b657b3e267c756584ea1524461d6d66977cea0c709d07c2cecd1af243d84f3",
+          "effective_basis_sha256": "d3642919197b104ba772b00c8db31ae85820e922659d608b3dbb001f62a19c34"
+        }
+      ],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:os_source_label",
+      "source_ids": [
+        "LEGACY_COMPONENT:f704f143bc181d53ff9a"
+      ],
+      "decision": "approve_source_bound_assertion",
+      "reason": "A copied source label is explicitly proposed as an alternative interpretation of os. Functional rival, not an invented label value.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_fifth_workshop_grammar_eight_hundred_fifteenth/EIGHT_HUNDRED_FIFTEENTH_REPORT.md",
+          "line": 20,
+          "line_end": 22,
+          "quote": "Next, attack `os` first. Read its exact position in H1-S001 against the\ncandidates FACH, ORT, WERKZEUG, TRENNSCHRITT, and a copied source label. The\nwinning meaning must make the whole plant sentence more coherent.",
+          "sha256": "09400ac5d05488a96b1cc918191d6675760c2ade55b149c8b6db6b5fdcb5a001"
+        }
+      ],
+      "source_polarity": "historical_proposed_rival",
+      "source_context_read": true,
+      "coverage_class": "additional_addressable_assertion",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:5265f13db444851070b2",
+          "claim": "OS → FACH",
+          "card_basis_sha256": "13fb532f413c612237859e02217669d89d67b97980fb28188c3f3d0234a772ec",
+          "effective_basis_sha256": "2b180bfff59e8226066c7fb505ca47d1bdc98ff936fa33affd3e1fd4befcae37"
+        },
+        {
+          "target": "SEM:f8e3f984c3a02c1edb2b",
+          "claim": "os → DAZU",
+          "card_basis_sha256": "f4b657b3e267c756584ea1524461d6d66977cea0c709d07c2cecd1af243d84f3",
+          "effective_basis_sha256": "d3642919197b104ba772b00c8db31ae85820e922659d608b3dbb001f62a19c34"
+        }
+      ],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:cthy_apply_item",
+      "source_ids": [
+        "LEGACY_COMPONENT:18333f4efd384293a4c0"
+      ],
+      "decision": "approve_local_instance_only",
+      "reason": "cthy=T+Y and its complete apply-current-item gloss are literal in 816. Preserve this local historical instance; later changes in T or cthy parsing are not silently inherited.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_os_connector_eight_hundred_sixteenth/EIGHT_HUNDRED_SIXTEENTH_REPORT.md",
+          "line": 5,
+          "line_end": 5,
+          "quote": "- `cthy = T+Y`: apply the current item;",
+          "sha256": "b61eff7b0734dc52b8582ad9067d47ffab332d5de4828d7b11d823f438031ccc"
+        }
+      ],
+      "source_polarity": "historical_working_proposal",
+      "source_context_read": true,
+      "coverage_class": "local_composition_instance",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:6f23aef5de41b11ad0a3",
+          "claim": "cthy → T+Y",
+          "card_basis_sha256": "4b7a92ccc2a4450100eedee7716c490429d9694a3879cda6ed33613b3282988f",
+          "effective_basis_sha256": "7bf793af8eb0b22e5fd56940eee7ddec57513f3c10f56aae25c98ec60ce5defe"
+        },
+        {
+          "target": "SEM:4d7d7df41ce8625a212a",
+          "claim": "T → ANWENDEN",
+          "card_basis_sha256": "689dd393bd8434e2fe3f1806cc22675cb021875b35f5a6e62c38c2d90d005cda",
+          "effective_basis_sha256": "3e8fb8f5fcfc7d7f143ece87cd20e9b2b7491adb915abf8c7d903b72dc0dbf57"
+        }
+      ],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:chair_take_water",
+      "source_ids": [
+        "LEGACY_COMPONENT:426fc73842254a351ff2"
+      ],
+      "decision": "retain_as_existing_assertion_source_case",
+      "reason": "The local chair gloss is exact, but an existing card already states the complete CH+AIR meaning and its source explicitly licenses chair. Retain a Pass816 source/local case of that assertion, not a new independent sense.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_os_connector_eight_hundred_sixteenth/EIGHT_HUNDRED_SIXTEENTH_REPORT.md",
+          "line": 6,
+          "line_end": 6,
+          "quote": "- `chair = CH+AIR`: take water.",
+          "sha256": "b61eff7b0734dc52b8582ad9067d47ffab332d5de4828d7b11d823f438031ccc"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_model_book_leaf_eight_hundred_fifty_third/EIGHT_HUNDRED_FIFTY_THIRD_MODEL_BOOK_LEAF.md",
+          "line": 22,
+          "line_end": 22,
+          "quote": "| 14 | MATERIAL | `CH+AIR` | `chair` | ENTNEHMEN · WASSER | Wasser entnehmen. |",
+          "sha256": "b40ac63cd805b887671cfcd0fcde293f338f5756b025dd9ea2f565dba12080bb"
+        }
+      ],
+      "source_polarity": "historical_working_proposal",
+      "source_context_read": true,
+      "coverage_class": "local_composition_instance",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:144115d3885fde70148b",
+          "claim": "chair → CH+AIR",
+          "card_basis_sha256": "5c04fcfcadb6f54837b1904c566504fe93fce9d288226d55855943c53ab4bbf2",
+          "effective_basis_sha256": "a6ec2a476121afba6afc52f1d49528afe557f1b4b711bd3258a7d6bf07042857"
+        },
+        {
+          "target": "SEM:92eaaee77d9ee739b81c",
+          "claim": "AIR → WASSER",
+          "card_basis_sha256": "eea9432c61628ee411088be3cfcdac7ba8877da27d87f6356d2faf5f7e6a4ce9",
+          "effective_basis_sha256": "b6d497e5abbab5bb5b5f5ce914eb03869a0ec02e26e1132b3321654fa5235b22"
+        },
+        {
+          "target": "SEM:484be5fe5261b85d0f81",
+          "claim": "Die Karte `CH+AIR` bedeutet ENTNEHMEN · WASSER.",
+          "card_basis_sha256": "b909241cb22e6fdc13f85cba706a5456afb1c5cebf483fbc199fe38f605eccec",
+          "effective_basis_sha256": "56eb99ee485f33823e20c156266107023071c3a36933e727fafef7c51900c962"
+        }
+      ],
+      "global_novelty_claim": false,
+      "recommended_action": "Add Pass816 source case to the existing complete CH+AIR meaning while retaining the exact chair/local locus scope; no blind wholesale identity merge."
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:resume_retake",
+      "source_ids": [
+        "LEGACY_COMPONENT:5925f2b88e50de520f19",
+        "LEGACY_COMPONENT:9658d39885b12286243a"
+      ],
+      "decision": "approve_source_bound_assertion",
+      "reason": "WIEDERAUFNEHMEN is explicitly identified as the former whole-card value; preserve as a genuinely withdrawn reading, not a negated non-assignment.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_resume_davon_eight_hundred_seventeenth/EIGHT_HUNDRED_SEVENTEENTH_REPORT.md",
+          "line": 8,
+          "line_end": 9,
+          "quote": "The former value WIEDERAUFNEHMEN made the card a workshop meta-command and had\nto invent an unnamed previous operation. The shorter invariant reading is:",
+          "sha256": "3aa60f3c990b23bda694d875b5fb9a2d59f434c94a1b5583680f9a9c6ce0385b"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_resume_davon_eight_hundred_seventeenth/EIGHT_HUNDRED_SEVENTEENTH_REPORT.md",
+          "line": 11,
+          "line_end": 11,
+          "quote": "> `dchol/schol = DAVON`",
+          "sha256": "3aa60f3c990b23bda694d875b5fb9a2d59f434c94a1b5583680f9a9c6ce0385b"
+        }
+      ],
+      "source_polarity": "historical_working_reading_later_source_criticized",
+      "source_context_read": true,
+      "coverage_class": "additional_addressable_assertion",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:09010ce151a5e8c7add0",
+          "claim": "dchol/schol → DAVON",
+          "card_basis_sha256": "b6fb7ed8cbfcce674ad335ae2f4fd927a6184c59fd00609e68f58e45394f3fde",
+          "effective_basis_sha256": "42566ef30f7321d58a9c2c967a3824369b3eaddf02a0815e85daf50b2744ef96"
+        }
+      ],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:talam_store",
+      "source_ids": [
+        "LEGACY_COMPONENT:fe02b729950ab196adcc"
+      ],
+      "decision": "approve_source_bound_assertion",
+      "reason": "AUFBEWAHREN is explicitly proposed. Pass818 criticizes both it and long-term VERWAHREN, but shared criticism is not proof of complete identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_resume_davon_eight_hundred_seventeenth/EIGHT_HUNDRED_SEVENTEENTH_REPORT.md",
+          "line": 30,
+          "line_end": 32,
+          "quote": "Next, resolve the final singleton whole card `talam` in its complete context.\nCompare AUFBEWAHREN, BEISEITESTELLEN, IN DAS GEFAESS, RUHEN LASSEN, and a\nsource-label reading, then publish the sixth compact grammar.",
+          "sha256": "3aa60f3c990b23bda694d875b5fb9a2d59f434c94a1b5583680f9a9c6ce0385b"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_talam_set_aside_eight_hundred_eighteenth/EIGHT_HUNDRED_EIGHTEENTH_REPORT.md",
+          "line": 8,
+          "line_end": 10,
+          "quote": "It follows a prescribed measure and transfer of the active item. The next\nstatement immediately starts a new addition/extraction operation under the same\npictured plant. Long-term VERWAHREN therefore overstates the time horizon.",
+          "sha256": "2017c1c04244376b30f01c98e9be2161a8a11a79695171f175157f592e9ab343"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_talam_set_aside_eight_hundred_eighteenth/EIGHT_HUNDRED_EIGHTEENTH_REPORT.md",
+          "line": 21,
+          "line_end": 23,
+          "quote": "AUFBEWAHREN has the same long-term problem. IN DAS GEFAESS invents an unseen\ncontainer. RUHEN duplicates the established SHED family. A pure BEENDEN value\nduplicates the attached closure behavior.",
+          "sha256": "2017c1c04244376b30f01c98e9be2161a8a11a79695171f175157f592e9ab343"
+        }
+      ],
+      "source_polarity": "historical_proposed_rival",
+      "source_context_read": true,
+      "coverage_class": "additional_addressable_assertion",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:db851ae8b4618e145916",
+          "claim": "talam → BEISEITESTELLEN",
+          "card_basis_sha256": "f59a9a4d8a6cc93858b01cb226e6070a99be2507653bba554ace87c0f8d23edc",
+          "effective_basis_sha256": "b889b372c24368ca8a2c936560d52e4ebc316ccb8e0ee05edcad13e3b59e2586"
+        },
+        {
+          "target": "SEM:28737354ecef470cbdb6",
+          "claim": "TALAM → VERWAHREN",
+          "card_basis_sha256": "1cb203bb0be9f34b094f7870d5fca7f0f5a323241df8bda9bb278753255f2cdb",
+          "effective_basis_sha256": "7d76c5c3ee224a70c99e110dec3652a5882f9742e6cce5985e96454cc5a5fd71"
+        }
+      ],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:talam_vessel",
+      "source_ids": [
+        "LEGACY_COMPONENT:fe02b729950ab196adcc"
+      ],
+      "decision": "approve_source_bound_assertion",
+      "reason": "IN DAS GEFAESS is explicitly proposed, then criticized in 818 for adding a container. Retain whole-form and proposal-stage scope.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_resume_davon_eight_hundred_seventeenth/EIGHT_HUNDRED_SEVENTEENTH_REPORT.md",
+          "line": 30,
+          "line_end": 32,
+          "quote": "Next, resolve the final singleton whole card `talam` in its complete context.\nCompare AUFBEWAHREN, BEISEITESTELLEN, IN DAS GEFAESS, RUHEN LASSEN, and a\nsource-label reading, then publish the sixth compact grammar.",
+          "sha256": "3aa60f3c990b23bda694d875b5fb9a2d59f434c94a1b5583680f9a9c6ce0385b"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_talam_set_aside_eight_hundred_eighteenth/EIGHT_HUNDRED_EIGHTEENTH_REPORT.md",
+          "line": 8,
+          "line_end": 10,
+          "quote": "It follows a prescribed measure and transfer of the active item. The next\nstatement immediately starts a new addition/extraction operation under the same\npictured plant. Long-term VERWAHREN therefore overstates the time horizon.",
+          "sha256": "2017c1c04244376b30f01c98e9be2161a8a11a79695171f175157f592e9ab343"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_talam_set_aside_eight_hundred_eighteenth/EIGHT_HUNDRED_EIGHTEENTH_REPORT.md",
+          "line": 21,
+          "line_end": 23,
+          "quote": "AUFBEWAHREN has the same long-term problem. IN DAS GEFAESS invents an unseen\ncontainer. RUHEN duplicates the established SHED family. A pure BEENDEN value\nduplicates the attached closure behavior.",
+          "sha256": "2017c1c04244376b30f01c98e9be2161a8a11a79695171f175157f592e9ab343"
+        }
+      ],
+      "source_polarity": "historical_proposed_rival",
+      "source_context_read": true,
+      "coverage_class": "additional_addressable_assertion",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:db851ae8b4618e145916",
+          "claim": "talam → BEISEITESTELLEN",
+          "card_basis_sha256": "f59a9a4d8a6cc93858b01cb226e6070a99be2507653bba554ace87c0f8d23edc",
+          "effective_basis_sha256": "b889b372c24368ca8a2c936560d52e4ebc316ccb8e0ee05edcad13e3b59e2586"
+        },
+        {
+          "target": "SEM:28737354ecef470cbdb6",
+          "claim": "TALAM → VERWAHREN",
+          "card_basis_sha256": "1cb203bb0be9f34b094f7870d5fca7f0f5a323241df8bda9bb278753255f2cdb",
+          "effective_basis_sha256": "7d76c5c3ee224a70c99e110dec3652a5882f9742e6cce5985e96454cc5a5fd71"
+        }
+      ],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:talam_rest",
+      "source_ids": [
+        "LEGACY_COMPONENT:fe02b729950ab196adcc"
+      ],
+      "decision": "approve_source_bound_assertion",
+      "reason": "RUHEN LASSEN is explicitly proposed; later RUHEN criticism belongs to the same local comparison, without equating it with SHED globally.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_resume_davon_eight_hundred_seventeenth/EIGHT_HUNDRED_SEVENTEENTH_REPORT.md",
+          "line": 30,
+          "line_end": 32,
+          "quote": "Next, resolve the final singleton whole card `talam` in its complete context.\nCompare AUFBEWAHREN, BEISEITESTELLEN, IN DAS GEFAESS, RUHEN LASSEN, and a\nsource-label reading, then publish the sixth compact grammar.",
+          "sha256": "3aa60f3c990b23bda694d875b5fb9a2d59f434c94a1b5583680f9a9c6ce0385b"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_talam_set_aside_eight_hundred_eighteenth/EIGHT_HUNDRED_EIGHTEENTH_REPORT.md",
+          "line": 8,
+          "line_end": 10,
+          "quote": "It follows a prescribed measure and transfer of the active item. The next\nstatement immediately starts a new addition/extraction operation under the same\npictured plant. Long-term VERWAHREN therefore overstates the time horizon.",
+          "sha256": "2017c1c04244376b30f01c98e9be2161a8a11a79695171f175157f592e9ab343"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_talam_set_aside_eight_hundred_eighteenth/EIGHT_HUNDRED_EIGHTEENTH_REPORT.md",
+          "line": 21,
+          "line_end": 23,
+          "quote": "AUFBEWAHREN has the same long-term problem. IN DAS GEFAESS invents an unseen\ncontainer. RUHEN duplicates the established SHED family. A pure BEENDEN value\nduplicates the attached closure behavior.",
+          "sha256": "2017c1c04244376b30f01c98e9be2161a8a11a79695171f175157f592e9ab343"
+        }
+      ],
+      "source_polarity": "historical_proposed_rival",
+      "source_context_read": true,
+      "coverage_class": "additional_addressable_assertion",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:db851ae8b4618e145916",
+          "claim": "talam → BEISEITESTELLEN",
+          "card_basis_sha256": "f59a9a4d8a6cc93858b01cb226e6070a99be2507653bba554ace87c0f8d23edc",
+          "effective_basis_sha256": "b889b372c24368ca8a2c936560d52e4ebc316ccb8e0ee05edcad13e3b59e2586"
+        },
+        {
+          "target": "SEM:28737354ecef470cbdb6",
+          "claim": "TALAM → VERWAHREN",
+          "card_basis_sha256": "1cb203bb0be9f34b094f7870d5fca7f0f5a323241df8bda9bb278753255f2cdb",
+          "effective_basis_sha256": "7d76c5c3ee224a70c99e110dec3652a5882f9742e6cce5985e96454cc5a5fd71"
+        }
+      ],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:talam_source",
+      "source_ids": [
+        "LEGACY_COMPONENT:fe02b729950ab196adcc"
+      ],
+      "decision": "approve_source_bound_assertion",
+      "reason": "Source-label interpretation is an expressly proposed whole-form alternative, without an invented actual label.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_resume_davon_eight_hundred_seventeenth/EIGHT_HUNDRED_SEVENTEENTH_REPORT.md",
+          "line": 30,
+          "line_end": 32,
+          "quote": "Next, resolve the final singleton whole card `talam` in its complete context.\nCompare AUFBEWAHREN, BEISEITESTELLEN, IN DAS GEFAESS, RUHEN LASSEN, and a\nsource-label reading, then publish the sixth compact grammar.",
+          "sha256": "3aa60f3c990b23bda694d875b5fb9a2d59f434c94a1b5583680f9a9c6ce0385b"
+        }
+      ],
+      "source_polarity": "historical_proposed_rival",
+      "source_context_read": true,
+      "coverage_class": "additional_addressable_assertion",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:db851ae8b4618e145916",
+          "claim": "talam → BEISEITESTELLEN",
+          "card_basis_sha256": "f59a9a4d8a6cc93858b01cb226e6070a99be2507653bba554ace87c0f8d23edc",
+          "effective_basis_sha256": "b889b372c24368ca8a2c936560d52e4ebc316ccb8e0ee05edcad13e3b59e2586"
+        },
+        {
+          "target": "SEM:28737354ecef470cbdb6",
+          "claim": "TALAM → VERWAHREN",
+          "card_basis_sha256": "1cb203bb0be9f34b094f7870d5fca7f0f5a323241df8bda9bb278753255f2cdb",
+          "effective_basis_sha256": "7d76c5c3ee224a70c99e110dec3652a5882f9742e6cce5985e96454cc5a5fd71"
+        }
+      ],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:six_exception_architecture",
+      "source_ids": [
+        "LEGACY_COMPONENT:7e9de30f0b464689f10c"
+      ],
+      "decision": "approve_source_bound_assertion",
+      "reason": "The source itself supplies the complete three-bound/three-whole exception architecture. Generic mixed-system cards do not state its exact membership and binding conditions.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_sixth_workshop_grammar_eight_hundred_nineteenth/EIGHT_HUNDRED_NINETEENTH_REPORT.md",
+          "line": 14,
+          "line_end": 17,
+          "quote": "The six remaining non-core cards are no longer semantic blanks. Three contain\nstrictly bound pieces: AN=NACHGABE, DA=ZWEI before IIN, and LD=BEFESTIGEN before\nDY. Three are learned short whole words: DAZU, DAVON, and BEISEITESTELLEN. They\ncover seven events together. Nothing in this exception inventory is UNKNOWN.",
+          "sha256": "56b65f7a479f99dfe84e3670e79d344af2e946e7f9e71c8d00dee8e677ac1087"
+        }
+      ],
+      "source_polarity": "historical_working_proposal",
+      "source_context_read": true,
+      "coverage_class": "additional_addressable_assertion",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:3d0df817acba373abe72",
+          "claim": "The writing combines record markers, internal technical fields, learned wholes and bound body fields.",
+          "card_basis_sha256": "944f6c093f9adf64843224bf01e813b10d8b813d7f04bb1884b3b83a7fb03726",
+          "effective_basis_sha256": "191a94a9529fb9e1e0479b2c9ef33ced423cc49d9434c96e867a3a92e09c4dbb"
+        },
+        {
+          "target": "SEM:5f7cc94f30c1651b521b",
+          "claim": "The V45 working register combines reusable technical abbreviations with a small learned whole vocabulary.",
+          "card_basis_sha256": "72a65f67a42894e20fce05c5062d1b1e4ec751d48292b1812775fc39b0cbd3c1",
+          "effective_basis_sha256": "7e1c990ae4082bdf9226fefeabb3add544d3e63480e1497af9c5a6b7e311be2d"
+        }
+      ],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:action_triad",
+      "source_ids": [
+        "LEGACY_COMPONENT:ad458f262d6d5ae3b937",
+        "LEGACY_COMPONENT:92e03e13b7dad399cc91",
+        "LEGACY_COMPONENT:6bf2af7f15cb688d8362"
+      ],
+      "decision": "approve_source_bound_assertion",
+      "reason": "The source explicitly contrasts activation, work on current item, and moving/converting it. This is a complete three-way functional rule, not juxtaposition of independent examples.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_t_work_eight_hundred_twenty_first/EIGHT_HUNDRED_TWENTY_FIRST_REPORT.md",
+          "line": 22,
+          "line_end": 22,
+          "quote": "- OK=ANSETZEN activates a work step;",
+          "sha256": "f51a945d12b0b031f751c746ef5141e1ed94a91de4ab0bc53e77fa12a5e51063"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_t_work_eight_hundred_twenty_first/EIGHT_HUNDRED_TWENTY_FIRST_REPORT.md",
+          "line": 23,
+          "line_end": 23,
+          "quote": "- T=BEARBEITEN performs work on the current item;",
+          "sha256": "f51a945d12b0b031f751c746ef5141e1ed94a91de4ab0bc53e77fa12a5e51063"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_t_work_eight_hundred_twenty_first/EIGHT_HUNDRED_TWENTY_FIRST_REPORT.md",
+          "line": 24,
+          "line_end": 24,
+          "quote": "- CHD=UMSETZEN moves or converts it inside the chain.",
+          "sha256": "f51a945d12b0b031f751c746ef5141e1ed94a91de4ab0bc53e77fa12a5e51063"
+        }
+      ],
+      "source_polarity": "historical_working_proposal",
+      "source_context_read": true,
+      "coverage_class": "additional_addressable_assertion",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:d3bec6e4a48c6cd54f40",
+          "claim": "OK → ANSETZEN",
+          "card_basis_sha256": "b946ea1f2c14fe48be8957636484f4409c46275a30168412d3cf68d2c4423e04",
+          "effective_basis_sha256": "92d4cf9683d12e8cf91d47a4b758cc4e34b819a537771ecff541b6db86cacdaa"
+        },
+        {
+          "target": "SEM:6bfdcd94cd3e1d1f8669",
+          "claim": "T → BEARBEITEN",
+          "card_basis_sha256": "0cc897fee2837a0d2e2662671e5f1de277a22130fbf5ec5255030def79d3841f",
+          "effective_basis_sha256": "57aae2d6e36a50cedfd10df8c1a189824bdf9a23e87e67746c210b230fe38fde"
+        }
+      ],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:transfer_triad",
+      "source_ids": [
+        "LEGACY_COMPONENT:6fd5093c1e5209fbf3e9",
+        "LEGACY_COMPONENT:2d89f49b5c969d8a85a4",
+        "LEGACY_COMPONENT:0a7a7b9ad527749b8f65"
+      ],
+      "decision": "approve_source_bound_assertion",
+      "reason": "The source explicitly contrasts joining mixture, inward recipient/worksite movement, and path travel. Preserve all three roles; a P-only recipient card omits the joint rule.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_p_bring_in_eight_hundred_twenty_second/EIGHT_HUNDRED_TWENTY_SECOND_REPORT.md",
+          "line": 19,
+          "line_end": 19,
+          "quote": "- K=ZUGEBEN: material joins the active mixture (21 events);",
+          "sha256": "4b700bae342debfdff227841c9b3ea12a5c93c66b2ea6e69de597d9b0e8af076"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_p_bring_in_eight_hundred_twenty_second/EIGHT_HUNDRED_TWENTY_SECOND_REPORT.md",
+          "line": 20,
+          "line_end": 20,
+          "quote": "- P=EINBRINGEN: material moves inward to a receiver/work site (3 events);",
+          "sha256": "4b700bae342debfdff227841c9b3ea12a5c93c66b2ea6e69de597d9b0e8af076"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_p_bring_in_eight_hundred_twenty_second/EIGHT_HUNDRED_TWENTY_SECOND_REPORT.md",
+          "line": 21,
+          "line_end": 21,
+          "quote": "- L=LEITEN: material travels along a path (27 events).",
+          "sha256": "4b700bae342debfdff227841c9b3ea12a5c93c66b2ea6e69de597d9b0e8af076"
+        }
+      ],
+      "source_polarity": "historical_working_proposal",
+      "source_context_read": true,
+      "coverage_class": "additional_addressable_assertion",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:dce001a13511566473e6",
+          "claim": "P → EINBRINGEN",
+          "card_basis_sha256": "ea61f06e8cbc33692fd4aac8e7a6c881aa294162e557a29783c91fe8a2bf3e6d",
+          "effective_basis_sha256": "3c8e2827034eaa6a2b94efba41922d9157d5dbecab23ed98416d2141a3714a59"
+        },
+        {
+          "target": "SEM:42662a9e836ecbf20316",
+          "claim": "P- before CHED contributes movement into or toward the recipient.",
+          "card_basis_sha256": "662a86a337052c955355e02b3b553cc345dea8c8f23ae419982f41d8622fcaaf",
+          "effective_basis_sha256": "d21afaa08defea0a8ec939be5240cb3fdb6ff17eafe74fff2307f47f4d9d1056"
+        }
+      ],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:p_rare_renderer_rival",
+      "source_ids": [
+        "LEGACY_COMPONENT:4fcd396e546d8546e2ed"
+      ],
+      "decision": "approve_source_bound_assertion",
+      "reason": "The P-as-rare-renderer alternative is explicitly requested for comparison. It is a real proposed functional rival, not an asserted manuscript fact.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_t_work_eight_hundred_twenty_first/EIGHT_HUNDRED_TWENTY_FIRST_REPORT.md",
+          "line": 30,
+          "line_end": 32,
+          "quote": "Next, pressure-test K=ZUGEBEN, P=EINFUELLEN, and L=LEITEN across every event.\nThe critical question is whether P truly marks a receiver or is merely a rare\nrenderer of K or L.",
+          "sha256": "f51a945d12b0b031f751c746ef5141e1ed94a91de4ab0bc53e77fa12a5e51063"
+        }
+      ],
+      "source_polarity": "historical_proposed_rival",
+      "source_context_read": true,
+      "coverage_class": "additional_addressable_assertion",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:dce001a13511566473e6",
+          "claim": "P → EINBRINGEN",
+          "card_basis_sha256": "ea61f06e8cbc33692fd4aac8e7a6c881aa294162e557a29783c91fe8a2bf3e6d",
+          "effective_basis_sha256": "3c8e2827034eaa6a2b94efba41922d9157d5dbecab23ed98416d2141a3714a59"
+        }
+      ],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:os_temporal_rival",
+      "source_ids": [
+        "LEGACY_COMPONENT:a2ac77f735df32276275"
+      ],
+      "decision": "approve_source_bound_assertion",
+      "reason": "The OS-as-OT surface alternative is explicitly proposed. Do not infer that a simultaneous-clause reading has already won.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_hold_wait_eight_hundred_twenty_third/EIGHT_HUNDRED_TWENTY_THIRD_REPORT.md",
+          "line": 23,
+          "line_end": 25,
+          "quote": "Next, pressure-test the order words OL=WEITER, OT=DANACH, and OS=DAZU in all 75\nmemberships. In particular, determine whether OS really adds a simultaneous\nclause or is simply a rare surface for OT.",
+          "sha256": "daa557ac6e5a045348db6d0709ac5de84ad9615fe49c59523dd9d7a2dcd20fa3"
+        }
+      ],
+      "source_polarity": "historical_proposed_rival",
+      "source_context_read": true,
+      "coverage_class": "additional_addressable_assertion",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:f8e3f984c3a02c1edb2b",
+          "claim": "os → DAZU",
+          "card_basis_sha256": "f4b657b3e267c756584ea1524461d6d66977cea0c709d07c2cecd1af243d84f3",
+          "effective_basis_sha256": "d3642919197b104ba772b00c8db31ae85820e922659d608b3dbb001f62a19c34"
+        },
+        {
+          "target": "SEM:77d107ef4b5bcca28dc5",
+          "claim": "OS → DAZU",
+          "card_basis_sha256": "fb97d444b11d8a3129ac0d2ac5ed321a42ee84394c4f8b3364774155e8a55961",
+          "effective_basis_sha256": "1506363b4fb3b7a8bd560aa3b821e60eb908de0049b48879ad1c68378d99b1a9"
+        }
+      ],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:os_local_order",
+      "source_ids": [
+        "LEGACY_COMPONENT:0ea8c03296b40e34f58a",
+        "LEGACY_COMPONENT:6cf0ffdb51f2123bf6d0"
+      ],
+      "decision": "approve_source_bound_assertion",
+      "reason": "The claimed local OS/OT transition contrast is explicitly articulated. It remains source interpretation, not independently confirmed authorial contrast.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_order_words_eight_hundred_twenty_fourth/EIGHT_HUNDRED_TWENTY_FOURTH_REPORT.md",
+          "line": 7,
+          "line_end": 8,
+          "quote": "- `OS = DAZU` adds linked material or a clause without forcing temporal order\n  (1 event).",
+          "sha256": "121b4b1597bcb75e458cbe650beb29d96836705afbdea946823c86e6dbee2007"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_order_words_eight_hundred_twenty_fourth/EIGHT_HUNDRED_TWENTY_FOURTH_REPORT.md",
+          "line": 10,
+          "line_end": 13,
+          "quote": "The singleton OS is weak by frequency but strong inside its one sentence. In\nf10r H1-S001, OS connects work on the current item to taking water. Two events\nlater the writer uses an OT-bearing card for the actual next-step transition.\nReading both as DANACH would erase a contrast made locally by the same scribe.",
+          "sha256": "121b4b1597bcb75e458cbe650beb29d96836705afbdea946823c86e6dbee2007"
+        }
+      ],
+      "source_polarity": "historical_working_proposal",
+      "source_context_read": true,
+      "coverage_class": "additional_addressable_assertion",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:f8e3f984c3a02c1edb2b",
+          "claim": "os → DAZU",
+          "card_basis_sha256": "f4b657b3e267c756584ea1524461d6d66977cea0c709d07c2cecd1af243d84f3",
+          "effective_basis_sha256": "d3642919197b104ba772b00c8db31ae85820e922659d608b3dbb001f62a19c34"
+        },
+        {
+          "target": "SEM:77d107ef4b5bcca28dc5",
+          "claim": "OS → DAZU",
+          "card_basis_sha256": "fb97d444b11d8a3129ac0d2ac5ed321a42ee84394c4f8b3364774155e8a55961",
+          "effective_basis_sha256": "1506363b4fb3b7a8bd560aa3b821e60eb908de0049b48879ad1c68378d99b1a9"
+        }
+      ],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:os_simultaneous",
+      "source_ids": [
+        "LEGACY_COMPONENT:335efd3c33d62e51d797"
+      ],
+      "decision": "approve_source_bound_assertion",
+      "reason": "DABEI is an explicitly criticized alternative gloss; this is an ordinary rival comparison, not a labelled apprentice wrong answer.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_order_words_eight_hundred_twenty_fourth/EIGHT_HUNDRED_TWENTY_FOURTH_REPORT.md",
+          "line": 15,
+          "line_end": 17,
+          "quote": "DABEI would claim simultaneity; MIT needs a noun-argument construction; ABER\nneeds a contrast. DAZU is the shortest useful reading and remains a memorized\nwhole connector.",
+          "sha256": "121b4b1597bcb75e458cbe650beb29d96836705afbdea946823c86e6dbee2007"
+        }
+      ],
+      "source_polarity": "source_report_criticized_rival",
+      "source_context_read": true,
+      "coverage_class": "additional_addressable_assertion",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:77d107ef4b5bcca28dc5",
+          "claim": "OS → DAZU",
+          "card_basis_sha256": "fb97d444b11d8a3129ac0d2ac5ed321a42ee84394c4f8b3364774155e8a55961",
+          "effective_basis_sha256": "1506363b4fb3b7a8bd560aa3b821e60eb908de0049b48879ad1c68378d99b1a9"
+        }
+      ],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:os_with",
+      "source_ids": [
+        "LEGACY_COMPONENT:335efd3c33d62e51d797"
+      ],
+      "decision": "approve_source_bound_assertion",
+      "reason": "MIT is explicitly criticized for requiring a noun argument. Keep criticism internal to the historical construction.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_order_words_eight_hundred_twenty_fourth/EIGHT_HUNDRED_TWENTY_FOURTH_REPORT.md",
+          "line": 15,
+          "line_end": 17,
+          "quote": "DABEI would claim simultaneity; MIT needs a noun-argument construction; ABER\nneeds a contrast. DAZU is the shortest useful reading and remains a memorized\nwhole connector.",
+          "sha256": "121b4b1597bcb75e458cbe650beb29d96836705afbdea946823c86e6dbee2007"
+        }
+      ],
+      "source_polarity": "source_report_criticized_rival",
+      "source_context_read": true,
+      "coverage_class": "additional_addressable_assertion",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:77d107ef4b5bcca28dc5",
+          "claim": "OS → DAZU",
+          "card_basis_sha256": "fb97d444b11d8a3129ac0d2ac5ed321a42ee84394c4f8b3364774155e8a55961",
+          "effective_basis_sha256": "1506363b4fb3b7a8bd560aa3b821e60eb908de0049b48879ad1c68378d99b1a9"
+        }
+      ],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:os_but",
+      "source_ids": [
+        "LEGACY_COMPONENT:335efd3c33d62e51d797"
+      ],
+      "decision": "approve_source_bound_assertion",
+      "reason": "ABER is explicitly criticized for requiring contrast. Preserve rejected rival rather than asserting a positive conjunction.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_order_words_eight_hundred_twenty_fourth/EIGHT_HUNDRED_TWENTY_FOURTH_REPORT.md",
+          "line": 15,
+          "line_end": 17,
+          "quote": "DABEI would claim simultaneity; MIT needs a noun-argument construction; ABER\nneeds a contrast. DAZU is the shortest useful reading and remains a memorized\nwhole connector.",
+          "sha256": "121b4b1597bcb75e458cbe650beb29d96836705afbdea946823c86e6dbee2007"
+        }
+      ],
+      "source_polarity": "source_report_criticized_rival",
+      "source_context_read": true,
+      "coverage_class": "additional_addressable_assertion",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:77d107ef4b5bcca28dc5",
+          "claim": "OS → DAZU",
+          "card_basis_sha256": "fb97d444b11d8a3129ac0d2ac5ed321a42ee84394c4f8b3364774155e8a55961",
+          "effective_basis_sha256": "1506363b4fb3b7a8bd560aa3b821e60eb908de0049b48879ad1c68378d99b1a9"
+        }
+      ],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:s_portion_rival",
+      "source_ids": [
+        "LEGACY_COMPONENT:0bed463ad548fc22a6cb"
+      ],
+      "decision": "approve_source_bound_assertion",
+      "reason": "Another-portion is expressly posed against diagnostic sample. It is a prospective local rival and not automatically identical to S=TEIL.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_order_words_eight_hundred_twenty_fourth/EIGHT_HUNDRED_TWENTY_FOURTH_REPORT.md",
+          "line": 21,
+          "line_end": 23,
+          "quote": "Next, pressure-test the quantity ladder S=PROBE, AIN=PORTION, AIIN=SOLLMASS,\nand IIN=STUFE. The singleton S is the vulnerable member: determine whether its\ncontext truly needs a diagnostic sample or merely another portion.",
+          "sha256": "121b4b1597bcb75e458cbe650beb29d96836705afbdea946823c86e6dbee2007"
+        }
+      ],
+      "source_polarity": "historical_proposed_rival",
+      "source_context_read": true,
+      "coverage_class": "additional_addressable_assertion",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:e5de4c4c2c6bd9730595",
+          "claim": "S → PROBE",
+          "card_basis_sha256": "4a2715d078ad8b408849140ea820196ac5ecf76e8734133ba532cea6adc5c16b",
+          "effective_basis_sha256": "5b5609e21e244ae0cc426587b350546269b366cd80003984bf48f8e8ad9863d0"
+        },
+        {
+          "target": "SEM:219fdb0bc5ad624dbe9a",
+          "claim": "S → TEIL",
+          "card_basis_sha256": "a77d35f5ae0df53a6e195baad1ef3b0c5412b491308691cf1a034b61745aca4d",
+          "effective_basis_sha256": "779ff994a4d2a2a80b0de6e65826b779b3cae56efe0533904093c57851b95943"
+        }
+      ],
+      "global_novelty_claim": false
+    },
+    {
+      "card_id": "CLEAN_GAP_AN:solk_visible_owner_rival",
+      "source_ids": [
+        "LEGACY_COMPONENT:65d270611b31320e492a"
+      ],
+      "decision": "approve_source_bound_assertion",
+      "reason": "Special visible owner versus portable word is explicitly posed. Keep as an owner-specific functional rival, not a new invented owner name.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_quantity_ladder_eight_hundred_twenty_fifth/EIGHT_HUNDRED_TWENTY_FIFTH_REPORT.md",
+          "line": 20,
+          "line_end": 22,
+          "quote": "Next, pressure-test the place ladder AR=QUELLE, CKH=DURCHLASS,\nAL=ZIELSTELLE, and SOLK=SAMMELSTELLE. The key risk is that SOLK may merely be a\nspecial visible owner rather than a portable word.",
+          "sha256": "b74732f59f1c45f2ed74050f58df1a353fc61e607601359d9a8118bab01012d0"
+        }
+      ],
+      "source_polarity": "historical_proposed_rival",
+      "source_context_read": true,
+      "coverage_class": "additional_addressable_assertion",
+      "existing_card_comparisons": [
+        {
+          "target": "SEM:3f066e37455d51055535",
+          "claim": "SOLK → SAMMELSTELLE",
+          "card_basis_sha256": "0072240be3ec6d5c7dd8907a80017c0d322b139e00f215c02f05ea8ae2aaeea1",
+          "effective_basis_sha256": "e62faeb9a978764d53ee0ca246e796b1e0fae7e82c9e9f7a50be2a662fcbe155"
+        },
+        {
+          "target": "SEM:06a0ed345669458401bf",
+          "claim": "SOLK → SAMMELN",
+          "card_basis_sha256": "1032bfd0b0c02df706971ab7f58289da42bde716a17087dad3f5737932d28080",
+          "effective_basis_sha256": "b2324e3291bf4c59b82f1a2adf64b7d6e19149fbc0f663696f9e9aa3d4007d89"
+        }
+      ],
+      "global_novelty_claim": false
+    }
+  ],
+  "non_card_span_decisions": [
+    {
+      "source_id": "LEGACY_COMPONENT:d1a127058197dfb2adce",
+      "selection_index": 0,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "method_context_or_result",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_process_grade_eight_hundred_first/EIGHT_HUNDRED_FIRST_REPORT.md",
+          "line": 3,
+          "line_end": 5,
+          "quote": "This pass compares `SHED`, `CHK`, `P`, and `LSH` on the same fixed prose pages.\nThe four short meanings survive all 28 occurrences, but they do not share one\ntail and therefore are not a four-way replacement deck.",
+          "sha256": "2c56ea4e4db442f1752909a4297b08e9181106668ca32ced8aaa6ca05863da94"
+        }
+      ],
+      "compared_current_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:4ab0bbad621be533668f",
+      "selection_index": 1,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_process_grade_eight_hundred_first/EIGHT_HUNDRED_FIRST_REPORT.md",
+          "line": 9,
+          "line_end": 10,
+          "quote": "`CHK = WÄRMEN` now joins the productive core. It occupies three cells of a\nsmall grade/endpoint board:",
+          "sha256": "2c56ea4e4db442f1752909a4297b08e9181106668ca32ced8aaa6ca05863da94"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:625fa7fe65c8fd9b5224"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:6cd4a853595ed7ef84ed",
+      "selection_index": 2,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "method_context_or_result",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_process_grade_eight_hundred_first/EIGHT_HUNDRED_FIRST_REPORT.md",
+          "line": 16,
+          "line_end": 17,
+          "quote": "The board predicts the three remaining semantic cells without changing the\nmeaning of any component:",
+          "sha256": "2c56ea4e4db442f1752909a4297b08e9181106668ca32ced8aaa6ca05863da94"
+        }
+      ],
+      "compared_current_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:5405745ac78cac2db73f",
+      "selection_index": 3,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_process_grade_eight_hundred_first/EIGHT_HUNDRED_FIRST_REPORT.md",
+          "line": 29,
+          "line_end": 30,
+          "quote": "- `SHED = ABSETZEN` occurs in 3 cards / 15 events, but its variants change\n  endpoint or add cooling rather than form a controlled verb swap.",
+          "sha256": "2c56ea4e4db442f1752909a4297b08e9181106668ca32ced8aaa6ca05863da94"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:b035c80928c1d868b3c9"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:758c6e9a392e47edf469",
+      "selection_index": 5,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_process_grade_eight_hundred_first/EIGHT_HUNDRED_FIRST_REPORT.md",
+          "line": 34,
+          "line_end": 34,
+          "quote": "- `LSH = WASCHEN` occurs in 2 cards / 3 events with unrelated tails.",
+          "sha256": "2c56ea4e4db442f1752909a4297b08e9181106668ca32ced8aaa6ca05863da94"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:3fa671fb387e25cb1be6"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:aa877101ec00d83da4a0",
+      "selection_index": 6,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "method_context_or_result",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_process_grade_eight_hundred_first/EIGHT_HUNDRED_FIRST_REPORT.md",
+          "line": 36,
+          "line_end": 38,
+          "quote": "They remain useful concrete workshop readings, just not freely generated roots\nyet. The productive inventory is now core19; twelve recurrent strip values\nremain.",
+          "sha256": "2c56ea4e4db442f1752909a4297b08e9181106668ca32ced8aaa6ca05863da94"
+        }
+      ],
+      "compared_current_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:9601456a1e7f5554c3fc",
+      "selection_index": 8,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "method_context_or_result",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_shed_state_eight_hundred_third/EIGHT_HUNDRED_THIRD_REPORT.md",
+          "line": 8,
+          "line_end": 8,
+          "quote": "The portable reading across all fifteen events is:",
+          "sha256": "57516ececee553c2ad5fe8380984eed49b61d3fc08b04c510ed11ebb39ed7e0e"
+        }
+      ],
+      "compared_current_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:b95b400b88fa59466489",
+      "selection_index": 9,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_shed_state_eight_hundred_third/EIGHT_HUNDRED_THIRD_REPORT.md",
+          "line": 10,
+          "line_end": 10,
+          "quote": "> `SHED = STEHENLASSEN`",
+          "sha256": "57516ececee553c2ad5fe8380984eed49b61d3fc08b04c510ed11ebb39ed7e0e"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:82cea98d87d0ccd66a78"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:87c46b0f49d35f0eccd1",
+      "selection_index": 11,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "method_context_or_result",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_shed_state_eight_hundred_third/EIGHT_HUNDRED_THIRD_REPORT.md",
+          "line": 27,
+          "line_end": 29,
+          "quote": "`SHED` therefore joins the productive core20. This is a semantic improvement,\nnot merely a promotion: the new value removes an invented material mechanism\nand gives one unchanged imperative across all fifteen affected statements.",
+          "sha256": "57516ececee553c2ad5fe8380984eed49b61d3fc08b04c510ed11ebb39ed7e0e"
+        }
+      ],
+      "compared_current_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:7cbb5e7c71edb040fa7e",
+      "selection_index": 14,
+      "decision": "retain_as_local_context_without_full_identity_claim",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The contextual ordering or historical expansion is a source-deck instance. The cited formal parse or atomic meaning alone does not establish full-proposition coverage; retain the source span and avoid reporting an identity merge.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_p_recipient_eight_hundred_fourth/EIGHT_HUNDRED_FOURTH_REPORT.md",
+          "line": 6,
+          "line_end": 6,
+          "quote": "- after squeezing the pictured plant preparation: `cphy = P+Y`;",
+          "sha256": "7dadbfed39d62e025ed780e9b2076147e9a1d18cc136505b4dd1e81a9a47e1ef"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:a9bd5b056876b4a1bac1"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:386b076489f61e40e770",
+      "selection_index": 15,
+      "decision": "retain_as_local_context_without_full_identity_claim",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The contextual ordering or historical expansion is a source-deck instance. The cited formal parse or atomic meaning alone does not establish full-proposition coverage; retain the source span and avoid reporting an identity merge.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_p_recipient_eight_hundred_fourth/EIGHT_HUNDRED_FOURTH_REPORT.md",
+          "line": 8,
+          "line_end": 8,
+          "quote": "- at the lower figure in the basket-like vessel: `pchedal = P+CHD+AL`.",
+          "sha256": "7dadbfed39d62e025ed780e9b2076147e9a1d18cc136505b4dd1e81a9a47e1ef"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:a02c14cd458c434b7323"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:e5f851eb46a0f2e95fc4",
+      "selection_index": 21,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_third_workshop_grammar_eight_hundred_sixth/EIGHT_HUNDRED_SIXTH_REPORT.md",
+          "line": 6,
+          "line_end": 9,
+          "quote": "The productive core grows from 15 to 22 components by adding the action choice\n`CH/SH/CTH`, the graded warming root `CHK`, and the revised process roots\n`SHED=STEHENLASSEN`, `P=EINFÜLLEN`, and `LSH=SPÜLEN`. `O` is shortened from\nARBEITSGANG to the atomic value VORGANG.",
+          "sha256": "90fb0ce73e3638ab91ba90c37681b8eb5b5dbac65186e7a69995293dd6e4df50"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:2d192b1c74c9152d4870",
+        "SEM:82cea98d87d0ccd66a78"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:ce01b44ec5afad18ec4a",
+      "selection_index": 22,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_material_roots_eight_hundred_seventh/EIGHT_HUNDRED_SEVENTH_REPORT.md",
+          "line": 6,
+          "line_end": 6,
+          "quote": "- `AIR = WASSER` — working liquid (5 cards / 5 events);",
+          "sha256": "effae73b30dbeca4cc602e1fdd56638e04758940b499280806b63e3366900193"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:92eaaee77d9ee739b81c"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:e777aaa76b29b7dc2173",
+      "selection_index": 23,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_material_roots_eight_hundred_seventh/EIGHT_HUNDRED_SEVENTH_REPORT.md",
+          "line": 7,
+          "line_end": 7,
+          "quote": "- `OR = ANSATZ` — the current preparation or batch (10 cards / 18 events);",
+          "sha256": "effae73b30dbeca4cc602e1fdd56638e04758940b499280806b63e3366900193"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:ec1a25e412565b0a1756"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:87462f557c310b51f8b8",
+      "selection_index": 24,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_material_roots_eight_hundred_seventh/EIGHT_HUNDRED_SEVENTH_REPORT.md",
+          "line": 8,
+          "line_end": 8,
+          "quote": "- `HO = ZUTAT` — an input ingredient (5 cards / 8 events).",
+          "sha256": "effae73b30dbeca4cc602e1fdd56638e04758940b499280806b63e3366900193"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:c715d4f00ebdf1d22dc5"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:1cdb01bca252556762a4",
+      "selection_index": 27,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_procedure_place_eight_hundred_eighth/EIGHT_HUNDRED_EIGHTH_REPORT.md",
+          "line": 6,
+          "line_end": 6,
+          "quote": "- `O = VORGANG` (18 cards / 19 events);",
+          "sha256": "d4c1524a2ea763dd0a6d9b057c0399d856b6ada8565ad43f872439eaa1750c14"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:49c8d4c1524027989d82"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:ac7267ec4da95f99aaa0",
+      "selection_index": 28,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_procedure_place_eight_hundred_eighth/EIGHT_HUNDRED_EIGHTH_REPORT.md",
+          "line": 7,
+          "line_end": 7,
+          "quote": "- `IIN = STUFE` (3 cards / 4 events);",
+          "sha256": "d4c1524a2ea763dd0a6d9b057c0399d856b6ada8565ad43f872439eaa1750c14"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:1659676c07e492ee11f9"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:2c15611b7652da02751c",
+      "selection_index": 29,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_procedure_place_eight_hundred_eighth/EIGHT_HUNDRED_EIGHTH_REPORT.md",
+          "line": 8,
+          "line_end": 8,
+          "quote": "- `SOLK = SAMMELSTELLE` (5 cards / 7 events).",
+          "sha256": "d4c1524a2ea763dd0a6d9b057c0399d856b6ada8565ad43f872439eaa1750c14"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:3f066e37455d51055535"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:28da539b7eb91ab2c7f8",
+      "selection_index": 30,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_procedure_place_eight_hundred_eighth/EIGHT_HUNDRED_EIGHTH_REPORT.md",
+          "line": 25,
+          "line_end": 27,
+          "quote": "All three join core28. Only three recurrent strip values remain: `T=ANWENDEN`,\n`CKH=DURCHLASS`, and `R=KÜHLEN`. Next, attack those as the last portable-root\ncandidates, then rebuild a fourth grammar.",
+          "sha256": "d4c1524a2ea763dd0a6d9b057c0399d856b6ada8565ad43f872439eaa1750c14"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:4d7d7df41ce8625a212a",
+        "SEM:8a78ebadc07db0935fda",
+        "SEM:c5e196bdafe629d6cd8b"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:53324f4c1ee417990788",
+      "selection_index": 31,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_final_strip_eight_hundred_ninth/EIGHT_HUNDRED_NINTH_REPORT.md",
+          "line": 6,
+          "line_end": 6,
+          "quote": "- `T = ANWENDEN` — action verb, 9 cards / 10 events;",
+          "sha256": "b337fc14d49f8b06ca1b98ce09b71f57ffcdedd68c5b5be067bc49a341449cad"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:4d7d7df41ce8625a212a"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:97001d2cc3c59c80c64d",
+      "selection_index": 32,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_final_strip_eight_hundred_ninth/EIGHT_HUNDRED_NINTH_REPORT.md",
+          "line": 7,
+          "line_end": 7,
+          "quote": "- `CKH = DURCHLASS` — path noun, 9 cards / 14 events;",
+          "sha256": "b337fc14d49f8b06ca1b98ce09b71f57ffcdedd68c5b5be067bc49a341449cad"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:c5e196bdafe629d6cd8b"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:43ef48b9cd97d874c9dd",
+      "selection_index": 33,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_final_strip_eight_hundred_ninth/EIGHT_HUNDRED_NINTH_REPORT.md",
+          "line": 8,
+          "line_end": 8,
+          "quote": "- `R = KÜHLEN` — state-change verb, 6 cards / 6 events.",
+          "sha256": "b337fc14d49f8b06ca1b98ce09b71f57ffcdedd68c5b5be067bc49a341449cad"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:8a78ebadc07db0935fda"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:042d550021d7690cfce2",
+      "selection_index": 34,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_fourth_workshop_grammar_eight_hundred_tenth/EIGHT_HUNDRED_TENTH_REPORT.md",
+          "line": 18,
+          "line_end": 20,
+          "quote": "This is now a concrete mixed system of technical abbreviations and learned\nwhole cards: most meanings come from reusable components, but exact surface\npacking and the tiny residue are still memorized from the workshop exemplar.",
+          "sha256": "a5c7af1c4bebf35fda5299b51efca3e092e6d0df7cb30fccf050c72bb11ac1c8"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:5f7cc94f30c1651b521b",
+        "SEM:b9e8834a9415bf81d330"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:3d3e4ddd0ba7a20399dd",
+      "selection_index": 35,
+      "decision": "retain_as_local_context_without_full_identity_claim",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The contextual ordering or historical expansion is a source-deck instance. The cited formal parse or atomic meaning alone does not establish full-proposition coverage; retain the source span and avoid reporting an identity merge.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_cfh_press_eight_hundred_eleventh/EIGHT_HUNDRED_ELEVENTH_REPORT.md",
+          "line": 3,
+          "line_end": 5,
+          "quote": "The only `CFH` card is `cfhy = CFH+Y` in the long f11r plant-processing\nstatement. It follows holding the operation at the target and precedes measured\nholding and inward filling.",
+          "sha256": "ce5437d1c617aa8755e4da408f81e4c0bd0034013b4b6ebe83af3ad09be606f5"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:c7d7c04eb4d3e95d61bb"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:27d7d99877dd8fe54a8c",
+      "selection_index": 37,
+      "decision": "retain_as_local_context_without_full_identity_claim",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The contextual ordering or historical expansion is a source-deck instance. The cited formal parse or atomic meaning alone does not establish full-proposition coverage; retain the source span and avoid reporting an identity merge.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_s_sample_eight_hundred_twelfth/EIGHT_HUNDRED_TWELFTH_REPORT.md",
+          "line": 3,
+          "line_end": 5,
+          "quote": "The singleton card `ches = CH+E+S` occurs at the small basin stations in f82r.\nThe next card is `aiin = SOLLMASS`, followed by a longer next item and measured\nsetting operations.",
+          "sha256": "4e0bf5f688dcc9f132f35871ad6a4e93ad920b14a8554200423c3dddd10597e3"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:0f0500dbaad09095806d",
+        "SEM:57f1a048ef81f70ca78a"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:2ad135d1be667a130c86",
+      "selection_index": 38,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_s_sample_eight_hundred_twelfth/EIGHT_HUNDRED_TWELFTH_REPORT.md",
+          "line": 11,
+          "line_end": 11,
+          "quote": "> `S = PROBE`",
+          "sha256": "4e0bf5f688dcc9f132f35871ad6a4e93ad920b14a8554200423c3dddd10597e3"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:e5de4c4c2c6bd9730595"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:b282e1624c9c91e58bab",
+      "selection_index": 39,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_s_sample_eight_hundred_twelfth/EIGHT_HUNDRED_TWELFTH_REPORT.md",
+          "line": 27,
+          "line_end": 29,
+          "quote": "`S` joins specialist core33. Four plausible semantic recipes are recorded\nwithout invented surface spellings. Next, resolve `DA` in `daiiin=DA+IIN`:\ndoes it mean SECOND, AGAIN, NEXT, or a numbered stage marker?",
+          "sha256": "4e0bf5f688dcc9f132f35871ad6a4e93ad920b14a8554200423c3dddd10597e3"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:d3f8270267cf35b065ea"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:5a7a98b8ce8c302989a2",
+      "selection_index": 40,
+      "decision": "retain_as_local_context_without_full_identity_claim",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The contextual ordering or historical expansion is a source-deck instance. The cited formal parse or atomic meaning alone does not establish full-proposition coverage; retain the source span and avoid reporting an identity merge.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_da_two_eight_hundred_thirteenth/EIGHT_HUNDRED_THIRTEENTH_REPORT.md",
+          "line": 3,
+          "line_end": 5,
+          "quote": "The only `DA` card is `daiiin = DA+IIN` late in the B5 sequence. The old prose\nexpanded it to “for the second pass up to the stage,” which said more than the\ncard needed.",
+          "sha256": "1c269e765e291e6026efdd2a6e412eb48c6b8c25174f3c7273922b5784450dfc"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:d3f8270267cf35b065ea",
+        "SEM:87d0df15b109ffdff135"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:8ba0afabdd12fa99cf3b",
+      "selection_index": 44,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "method_context_or_result",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_ld_fastening_eight_hundred_fourteenth/EIGHT_HUNDRED_FOURTEENTH_REPORT.md",
+          "line": 6,
+          "line_end": 6,
+          "quote": "The existing reading is already the simplest:",
+          "sha256": "5d4997cada3f1554bdb1a44cea742936e9e4aa45d57bbb733f0eabf407012031"
+        }
+      ],
+      "compared_current_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:dd84197bfd3309ffd6a9",
+      "selection_index": 46,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_ld_fastening_eight_hundred_fourteenth/EIGHT_HUNDRED_FOURTEENTH_REPORT.md",
+          "line": 14,
+          "line_end": 14,
+          "quote": "> `LD = BEFESTIGEN`, bound immediately before `DY` in this learned frame.",
+          "sha256": "5d4997cada3f1554bdb1a44cea742936e9e4aa45d57bbb733f0eabf407012031"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:e20606103acc6e41cd29"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:b7c2a26ed94cb43fcde5",
+      "selection_index": 47,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_ld_fastening_eight_hundred_fourteenth/EIGHT_HUNDRED_FOURTEENTH_REPORT.md",
+          "line": 16,
+          "line_end": 18,
+          "quote": "It is not promoted to a free core. The most obvious shortened surface `ldy`\nalready belongs to the distinct recipe `L+DY = LEITEN · SCHLUSS`. Four other\nextensions are unattested and are withheld rather than given invented forms.",
+          "sha256": "5d4997cada3f1554bdb1a44cea742936e9e4aa45d57bbb733f0eabf407012031"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:c606b93538af6d37a772"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:660cd10c41afab3c40ed",
+      "selection_index": 48,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_fifth_workshop_grammar_eight_hundred_fifteenth/EIGHT_HUNDRED_FIFTEENTH_REPORT.md",
+          "line": 3,
+          "line_end": 5,
+          "quote": "The complete prose edition is rebuilt after resolving the four former local\nsingletons. `CFH=AUSPRESSEN` and `S=PROBE` join the productive core;\n`DA=ZWEI` and `LD=BEFESTIGEN` become bound components.",
+          "sha256": "09400ac5d05488a96b1cc918191d6675760c2ade55b149c8b6db6b5fdcb5a001"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:457e78f7ead9e778136d",
+        "SEM:e20606103acc6e41cd29",
+        "SEM:e5de4c4c2c6bd9730595",
+        "SEM:f423d9a7417f3d44e6b8"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:a6f543152f4127aa07bc",
+      "selection_index": 49,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "method_context_or_result",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_fifth_workshop_grammar_eight_hundred_fifteenth/EIGHT_HUNDRED_FIFTEENTH_REPORT.md",
+          "line": 15,
+          "line_end": 18,
+          "quote": "Core33 fully composes 167/173 card types and 374/381 events. The six-card\nremainder is `ykan`, `daiiin`, `qokylddy`, `os`, `dchol/schol`, and `talam`.\nThe first three are already semantically read through their bound values. Only\nthe final three still lack any internal recipe.",
+          "sha256": "09400ac5d05488a96b1cc918191d6675760c2ade55b149c8b6db6b5fdcb5a001"
+        }
+      ],
+      "compared_current_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:4a8d623096e9fae83e96",
+      "selection_index": 53,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_os_connector_eight_hundred_sixteenth/EIGHT_HUNDRED_SIXTEENTH_REPORT.md",
+          "line": 15,
+          "line_end": 15,
+          "quote": "> `os = DAZU`",
+          "sha256": "b61eff7b0734dc52b8582ad9067d47ffab332d5de4828d7b11d823f438031ccc"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:f8e3f984c3a02c1edb2b"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:74e3399b660205838239",
+      "selection_index": 54,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_os_connector_eight_hundred_sixteenth/EIGHT_HUNDRED_SIXTEENTH_REPORT.md",
+          "line": 23,
+          "line_end": 24,
+          "quote": "`os` remains a learned whole form rather than a productive component, but it is\nnow a meaningful connector instead of a silently omitted placeholder.",
+          "sha256": "b61eff7b0734dc52b8582ad9067d47ffab332d5de4828d7b11d823f438031ccc"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:f8e3f984c3a02c1edb2b"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:e59c0e5f70b43a9edb1e",
+      "selection_index": 57,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "method_context_or_result",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_resume_davon_eight_hundred_seventeenth/EIGHT_HUNDRED_SEVENTEENTH_REPORT.md",
+          "line": 17,
+          "line_end": 17,
+          "quote": "The two continuous readings become:",
+          "sha256": "3aa60f3c990b23bda694d875b5fb9a2d59f434c94a1b5583680f9a9c6ce0385b"
+        }
+      ],
+      "compared_current_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:fe556f8c433d41e5767f",
+      "selection_index": 59,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_talam_set_aside_eight_hundred_eighteenth/EIGHT_HUNDRED_EIGHTEENTH_REPORT.md",
+          "line": 14,
+          "line_end": 14,
+          "quote": "> `talam = BEISEITESTELLEN`",
+          "sha256": "2017c1c04244376b30f01c98e9be2161a8a11a79695171f175157f592e9ab343"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:db851ae8b4618e145916"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:adf27c08c64db37d5fa7",
+      "selection_index": 60,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "method_context_or_result",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_talam_set_aside_eight_hundred_eighteenth/EIGHT_HUNDRED_EIGHTEENTH_REPORT.md",
+          "line": 30,
+          "line_end": 32,
+          "quote": "Next, integrate OS=DAZU, RESUME=DAVON, and TALAM=BEISEITESTELLEN into a sixth\ncomplete 173-card / 381-event / 116-statement grammar and print the remaining\nexception inventory explicitly.",
+          "sha256": "2017c1c04244376b30f01c98e9be2161a8a11a79695171f175157f592e9ab343"
+        }
+      ],
+      "compared_current_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:1143c2011bd4d531b31c",
+      "selection_index": 61,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_sixth_workshop_grammar_eight_hundred_nineteenth/EIGHT_HUNDRED_NINETEENTH_REPORT.md",
+          "line": 6,
+          "line_end": 6,
+          "quote": "- `os = DAZU`;",
+          "sha256": "56b65f7a479f99dfe84e3670e79d344af2e946e7f9e71c8d00dee8e677ac1087"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:f8e3f984c3a02c1edb2b"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:035473b5f9c7d34f43a9",
+      "selection_index": 62,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_sixth_workshop_grammar_eight_hundred_nineteenth/EIGHT_HUNDRED_NINETEENTH_REPORT.md",
+          "line": 7,
+          "line_end": 7,
+          "quote": "- `dchol/schol = DAVON`;",
+          "sha256": "56b65f7a479f99dfe84e3670e79d344af2e946e7f9e71c8d00dee8e677ac1087"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:09010ce151a5e8c7add0"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:0dac05fb2e8046de3dd3",
+      "selection_index": 63,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_sixth_workshop_grammar_eight_hundred_nineteenth/EIGHT_HUNDRED_NINETEENTH_REPORT.md",
+          "line": 8,
+          "line_end": 8,
+          "quote": "- `talam = BEISEITESTELLEN`.",
+          "sha256": "56b65f7a479f99dfe84e3670e79d344af2e946e7f9e71c8d00dee8e677ac1087"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:db851ae8b4618e145916"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:e984858ba6c0d89a2949",
+      "selection_index": 65,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "method_context_or_result",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_sixth_workshop_grammar_eight_hundred_nineteenth/EIGHT_HUNDRED_NINETEENTH_REPORT.md",
+          "line": 27,
+          "line_end": 30,
+          "quote": "Next, use the complete grammar to inspect the largest remaining semantic\ncollisions: cards that now receive the same German reading through different\nrecipes. Merge genuine synonyms, but split any pair whose full contexts demand\ndifferent concrete actions.",
+          "sha256": "56b65f7a479f99dfe84e3670e79d344af2e946e7f9e71c8d00dee8e677ac1087"
+        }
+      ],
+      "compared_current_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:45caabceee0cfacac538",
+      "selection_index": 66,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "method_context_or_result",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_collision_atlas_eight_hundred_twentieth/EIGHT_HUNDRED_TWENTIETH_REPORT.md",
+          "line": 1,
+          "line_end": 7,
+          "quote": "# Sidequest Pass 820: semantic collision atlas\n\nThe sixth grammar has no literally duplicated German component value, but it\nhas six neighborhoods that can easily collapse during fluent translation.\nReading every occurrence in its complete statement gives a simple workshop\ndistinction for each.\n",
+          "sha256": "b4b4ef6ed0d9c3b4552a88732af8b6e3c635507cf55f15e0a77480e0ec7f6db3"
+        }
+      ],
+      "compared_current_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:efe85b097cd27b0b2b28",
+      "selection_index": 67,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "method_context_or_result",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_collision_atlas_eight_hundred_twentieth/EIGHT_HUNDRED_TWENTIETH_REPORT.md",
+          "line": 3,
+          "line_end": 6,
+          "quote": "The sixth grammar has no literally duplicated German component value, but it\nhas six neighborhoods that can easily collapse during fluent translation.\nReading every occurrence in its complete statement gives a simple workshop\ndistinction for each.",
+          "sha256": "b4b4ef6ed0d9c3b4552a88732af8b6e3c635507cf55f15e0a77480e0ec7f6db3"
+        }
+      ],
+      "compared_current_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:9e00c7be07d42e6de592",
+      "selection_index": 68,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_t_work_eight_hundred_twenty_first/EIGHT_HUNDRED_TWENTY_FIRST_REPORT.md",
+          "line": 10,
+          "line_end": 10,
+          "quote": "> `T = BEARBEITEN`",
+          "sha256": "f51a945d12b0b031f751c746ef5141e1ed94a91de4ab0bc53e77fa12a5e51063"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:6bfdcd94cd3e1d1f8669"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:ff140bb5be51349e7ec8",
+      "selection_index": 72,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "method_context_or_result",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_t_work_eight_hundred_twenty_first/EIGHT_HUNDRED_TWENTY_FIRST_REPORT.md",
+          "line": 26,
+          "line_end": 28,
+          "quote": "All seven affected statements have been rewritten so T is spoken explicitly.\nThe result is slightly more repetitive, but that is preferable to hiding a\ncomponent whenever its former gloss becomes awkward.",
+          "sha256": "f51a945d12b0b031f751c746ef5141e1ed94a91de4ab0bc53e77fa12a5e51063"
+        }
+      ],
+      "compared_current_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:466fe76e66d1e98f9fc0",
+      "selection_index": 74,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_p_bring_in_eight_hundred_twenty_second/EIGHT_HUNDRED_TWENTY_SECOND_REPORT.md",
+          "line": 12,
+          "line_end": 12,
+          "quote": "> `P = EINBRINGEN`",
+          "sha256": "4b700bae342debfdff227841c9b3ea12a5c93c66b2ea6e69de597d9b0e8af076"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:dce001a13511566473e6"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:18c5a2d7166856a75b1e",
+      "selection_index": 78,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "method_context_or_result",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_p_bring_in_eight_hundred_twenty_second/EIGHT_HUNDRED_TWENTY_SECOND_REPORT.md",
+          "line": 23,
+          "line_end": 24,
+          "quote": "The f11r sentence now says “in den lokalen Empfänger einbringen”; the two basin\nsentences say “einbringen und umsetzen”. No K or L reading changes.",
+          "sha256": "4b700bae342debfdff227841c9b3ea12a5c93c66b2ea6e69de597d9b0e8af076"
+        }
+      ],
+      "compared_current_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:b30351136da097a464a4",
+      "selection_index": 79,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "method_context_or_result",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_p_bring_in_eight_hundred_twenty_second/EIGHT_HUNDRED_TWENTY_SECOND_REPORT.md",
+          "line": 26,
+          "line_end": 28,
+          "quote": "Next, pressure-test SH=HALTEN against SHED=STEHENLASSEN, especially the two\nnon-terminal SHED+AL cards. If SHED always implies unattended time, retain it;\notherwise seek a more concrete state operation.",
+          "sha256": "4b700bae342debfdff227841c9b3ea12a5c93c66b2ea6e69de597d9b0e8af076"
+        }
+      ],
+      "compared_current_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:d0b21eafbf8c1dbad39a",
+      "selection_index": 80,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_hold_wait_eight_hundred_twenty_third/EIGHT_HUNDRED_TWENTY_THIRD_REPORT.md",
+          "line": 5,
+          "line_end": 6,
+          "quote": "> `SH = HALTEN`\n> `SHED = STEHENLASSEN`",
+          "sha256": "daa557ac6e5a045348db6d0709ac5de84ad9615fe49c59523dd9d7a2dcd20fa3"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:82cea98d87d0ccd66a78",
+        "SEM:9d512432d001b98a50ea"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:9c92f2241818ca585098",
+      "selection_index": 82,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_order_words_eight_hundred_twenty_fourth/EIGHT_HUNDRED_TWENTY_FOURTH_REPORT.md",
+          "line": 5,
+          "line_end": 5,
+          "quote": "- `OL = WEITER` continues the same operation or relation (48 events);",
+          "sha256": "121b4b1597bcb75e458cbe650beb29d96836705afbdea946823c86e6dbee2007"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:2d01575083d91a46242f"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:dff815b26df51b1dc63c",
+      "selection_index": 87,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_quantity_ladder_eight_hundred_twenty_fifth/EIGHT_HUNDRED_TWENTY_FIFTH_REPORT.md",
+          "line": 5,
+          "line_end": 5,
+          "quote": "- `S = PROBE` — a small diagnostic object (1 event);",
+          "sha256": "b74732f59f1c45f2ed74050f58df1a353fc61e607601359d9a8118bab01012d0"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:e5de4c4c2c6bd9730595"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:364a8be03db9275db20f",
+      "selection_index": 88,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_quantity_ladder_eight_hundred_twenty_fifth/EIGHT_HUNDRED_TWENTY_FIFTH_REPORT.md",
+          "line": 8,
+          "line_end": 8,
+          "quote": "- `IIN = STUFE` — the current process stage (4 events).",
+          "sha256": "b74732f59f1c45f2ed74050f58df1a353fc61e607601359d9a8118bab01012d0"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:1659676c07e492ee11f9"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:c75260789a26fc7f741e",
+      "selection_index": 90,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_solk_collect_eight_hundred_twenty_sixth/EIGHT_HUNDRED_TWENTY_SIXTH_REPORT.md",
+          "line": 3,
+          "line_end": 5,
+          "quote": "The old noun SAMMELSTELLE fit the visible basins, but every fluent translation\nhad to insert an unattested verb: “an der Sammelstelle halten”. The cards become\ndirectly compositional if SOLK is an operation:",
+          "sha256": "f66ad861ef2bf767880c5400b2061cede60443a04ad8a1b8bba36cde19d9799e"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:3f066e37455d51055535"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:90a21ee5a1db2957a7c5",
+      "selection_index": 91,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_solk_collect_eight_hundred_twenty_sixth/EIGHT_HUNDRED_TWENTY_SIXTH_REPORT.md",
+          "line": 7,
+          "line_end": 7,
+          "quote": "> `SOLK = SAMMELN`",
+          "sha256": "f66ad861ef2bf767880c5400b2061cede60443a04ad8a1b8bba36cde19d9799e"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:06a0ed345669458401bf"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:bd4c7aa93818a20d9982",
+      "selection_index": 92,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "method_context_or_result",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_solk_collect_eight_hundred_twenty_sixth/EIGHT_HUNDRED_TWENTY_SIXTH_REPORT.md",
+          "line": 22,
+          "line_end": 23,
+          "quote": "The place ladder is consequently smaller and cleaner: AR=QUELLE, CKH=DURCHLASS,\nAL=ZIELSTELLE. SOLK moves into the operation inventory as SAMMELN.",
+          "sha256": "f66ad861ef2bf767880c5400b2061cede60443a04ad8a1b8bba36cde19d9799e"
+        }
+      ],
+      "compared_current_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:247d4d1a17ab139575a4",
+      "selection_index": 93,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "method_context_or_result",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_solk_collect_eight_hundred_twenty_sixth/EIGHT_HUNDRED_TWENTY_SIXTH_REPORT.md",
+          "line": 25,
+          "line_end": 26,
+          "quote": "Next, integrate T=BEARBEITEN, P=EINBRINGEN, and SOLK=SAMMELN into a seventh\ncomplete grammar, then regenerate every affected statement and prediction.",
+          "sha256": "f66ad861ef2bf767880c5400b2061cede60443a04ad8a1b8bba36cde19d9799e"
+        }
+      ],
+      "compared_current_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:fde6ae58de5ec3f892db",
+      "selection_index": 94,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_seventh_workshop_grammar_eight_hundred_twenty_seventh/EIGHT_HUNDRED_TWENTY_SEVENTH_REPORT.md",
+          "line": 5,
+          "line_end": 5,
+          "quote": "- `T = BEARBEITEN`, replacing target-specific ANWENDEN;",
+          "sha256": "d55239d08a4cdf46e9d25f9c7be7d46ba167594f1c7dfacc87304f52d242546d"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:6bfdcd94cd3e1d1f8669"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:8840c3a3a75976836879",
+      "selection_index": 95,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_seventh_workshop_grammar_eight_hundred_twenty_seventh/EIGHT_HUNDRED_TWENTY_SEVENTH_REPORT.md",
+          "line": 6,
+          "line_end": 6,
+          "quote": "- `P = EINBRINGEN`, replacing vessel-specific EINFUELLEN;",
+          "sha256": "d55239d08a4cdf46e9d25f9c7be7d46ba167594f1c7dfacc87304f52d242546d"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:dce001a13511566473e6"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:e3efb66f5b97a5ae05fd",
+      "selection_index": 96,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "existing_assertion_or_source_case",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_seventh_workshop_grammar_eight_hundred_twenty_seventh/EIGHT_HUNDRED_TWENTY_SEVENTH_REPORT.md",
+          "line": 7,
+          "line_end": 7,
+          "quote": "- `SOLK = SAMMELN`, replacing the noun SAMMELSTELLE and its hidden HALTEN.",
+          "sha256": "d55239d08a4cdf46e9d25f9c7be7d46ba167594f1c7dfacc87304f52d242546d"
+        }
+      ],
+      "compared_current_ids": [
+        "SEM:06a0ed345669458401bf"
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:9ad1041b2da74c4bd5bd",
+      "selection_index": 97,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "method_context_or_result",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_seventh_workshop_grammar_eight_hundred_twenty_seventh/EIGHT_HUNDRED_TWENTY_SEVENTH_REPORT.md",
+          "line": 14,
+          "line_end": 15,
+          "quote": "All 76 unseen recipes are recomputed from the new component values rather than\ncarrying stale translations forward. They remain unattested predictions.",
+          "sha256": "d55239d08a4cdf46e9d25f9c7be7d46ba167594f1c7dfacc87304f52d242546d"
+        }
+      ],
+      "compared_current_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:d5463962dea5ff621cf9",
+      "selection_index": 98,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "method_context_or_result",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_seventh_workshop_grammar_eight_hundred_twenty_seventh/EIGHT_HUNDRED_TWENTY_SEVENTH_REPORT.md",
+          "line": 23,
+          "line_end": 25,
+          "quote": "Next, inspect all 76 predicted recipes for semantic usefulness. Remove any\nprediction that is formally buildable but yields an implausible or redundant\nworkshop command; keep a small high-value prediction deck for future pages.",
+          "sha256": "d55239d08a4cdf46e9d25f9c7be7d46ba167594f1c7dfacc87304f52d242546d"
+        }
+      ],
+      "compared_current_ids": []
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:fbd7f3a69739371c037d",
+      "selection_index": 99,
+      "decision": "accept_selected_span_disposition",
+      "input_disposition": "method_context_or_result",
+      "reason": "The exact selected span supports the stated method/result, already explicit value, or local instance disposition; this is not proof of full model identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_prediction_deck_eight_hundred_twenty_eighth/EIGHT_HUNDRED_TWENTY_EIGHTH_REPORT.md",
+          "line": 21,
+          "line_end": 23,
+          "quote": "No existing card meaning changes here. The compact deck is a disciplined way\nto use the current working theory when four new pages eventually arrive: look\nfor these recipes first, while allowing genuinely new cards to overturn them.",
+          "sha256": "4f3b8279205fc6abbe6e6124bcd143b8845c96b0949b2beb6011d7a4be3c8b0c"
+        }
+      ],
+      "compared_current_ids": []
+    }
+  ],
+  "counts": {
+    "candidate_cards_reviewed": 42,
+    "input_addressable_assertions": 37,
+    "input_local_instances": 5,
+    "retain_formal_rival_recommendations": 1,
+    "existing_full_assertion_source_case_recommendations": 1,
+    "non_card_spans_reviewed": 63,
+    "input_counterpart_bindings_checked": 51,
+    "exact_evidence_checks": 129,
+    "card_validator_passes": 42
+  },
+  "summary": [
+    "Retain genuine proposed/rejected alternatives with source polarity; none of the 42 is merely a labelled apprentice forbidden answer.",
+    "LD DOPPELSCHLUSS needs explicit graphic scope and formal_role. This leaves 36 candidate semantic/function assertions and one genuine formal rival, plus five local instances; these are not proven globally novel idea counts.",
+    "chair is already licensed for the complete CH+AIR→ENTNEHMEN·WASSER card; preserve Pass816 as a source case/local instance.",
+    "AUFBEWAHREN and VERWAHREN share a local source criticism, but no automatic identity is asserted.",
+    "Both complete triads and the exact six-exception model are source-stated coordinated rules, not synthetic conjunctions of examples."
+  ],
+  "validation": {
+    "status": "PASS",
+    "meaning": "Quote/hash, current counterpart basis and input card schema only; not truth or global identity validation."
+  },
+  "limits": [
+    "No operational or source-card changes.",
+    "Full predecessor source audit limited to targeted semantic counterparts; other cited counterpart bindings checked mechanically and claims compared, without claiming full historical audit.",
+    "All 63 non-card spans reviewed at selected-span scope, not all surrounding reports or hypothetical omitted hypotheses.",
+    "Historical coherence criticisms do not independently refute translations."
+  ]
+}
