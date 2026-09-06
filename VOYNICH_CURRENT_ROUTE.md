@@ -11,7 +11,11 @@ GDT858 corrects808 holdout:963primary folds reconstruct exactly,855 retain
 training from the opposite face of the held leaf (L505/569,DY350/394).
 169old physical-folio keys are page faces on90leaves. No whole-leaf transfer
 claim, refit or measured score penalty.809 contact/model keys also retainr/v.
-Primary via lookup858; old source bytes preserved. No automatic model rerun.
+Primary via lookup858; old source bytes preserved. GDT865 explicitly registers
+a one-factor CORE13 primary comparison: whole-leaf exclusion, all else fixed.
+Old prediction/hash replay first; nuisance AUC>=.60 and9/13carriers>.50 peraxis.
+Retrospective threshold robustness only; no old null/full verdict reuse.
+Total budget08:55–09:35UTC; capacity/replay failure stops, no model rescue.
 
 GDT859:f56r.1 upperlink seenby2viewers; firstgroupseam definitein3readings.
 ZL/RF@167/@168 versus ITt retained; rootonly alignment, no glyph/meaning.
@@ -46,13 +50,12 @@ manuscript appearance before fixing a route; use primary internal evidence.
 
 ## Preserved star observations — GDT841–843
 
-Same Yale1006201: inner4/5agreement,outer9/10,O6disagrees.843:9links,1missing,
-6clearcontexts,42groups/27reader-loci. No authorial ownership or meaning.
-841–843 stay stopped; no regrading or same-photo counts. Primary via lookup.
+Yale1006201: inner4/5agreement,outer9/10,O6disagrees.843:9links,1missing.
+841–843 stopped; no ownership/meaning or regrading. Primary via lookup.
 
 ## Earlier screens and control
 
-Primary reports via `./vmanus-work lookup GDT840 GDT839 GDT838 GDT837`.
+Primary via lookup840/839/838/837.
 GDT840: only knownofal forward Xdo-label/X-prose; no additional base. Stop do
 extension; do not reject the local relation or infer names. GDT839:4169eligible
 adjacent pairs,zero cross-folio conserved strings with shifted1–3atom splits.
@@ -61,12 +64,10 @@ These narrow capacity stops do not generally reject word boundaries or ciphers.
 GDT837:STRICT_RECOVERY_FAIL; wholeword-constraint gain0, wrong suffix,
 score issue already known834. No automatic control-decoder successor.
 
-GDT832–837 controls confer no Voynich meaning or automatic decoder-repair route.
-
 ## Visual understanding and earlier routes
 
 Five orientation passes:31renderings/30canvases/31admittedkeys.
-Dossier and exact sources: `docs/visual_overview/README.md`.
+Sources: `docs/visual_overview/README.md`.
 f76r offset signs are a known functionally unresolved column; f4r rot is an
 ordinary-alphabet note. No decipherment/admission.95v images stay distinct.
 GDT829 exact repeated-flank route and GDT830 pen-state control stop; do not relax
@@ -88,8 +89,8 @@ surface structure without treating every parser boundary as authorial truth.
 GDT616 remains closed. CDA001 needs new independent text/value bindings across
 at least five physical folios plus untouched held folios; better control decoders
 cannot supply them. Structural tags are not English/German word translations.
-Understanding dossier: `docs/VOYNICH_UNDERSTANDING.md`; reset chronology:
-`docs/RESEARCH_RESET.md` is recovery context, not the current research plan.
+Understanding dossier: `docs/VOYNICH_UNDERSTANDING.md`;
+`docs/RESEARCH_RESET.md` is recovery context.
 
 ## Source scope and fidelity
 

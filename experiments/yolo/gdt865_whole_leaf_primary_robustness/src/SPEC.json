@@ -1,0 +1,28 @@
+{
+  "experiment": "GDT865",
+  "models": [
+    "M01_L_TO_L",
+    "M02_DY_TO_DY"
+  ],
+  "population": "CORE13",
+  "events": 1777,
+  "folds": 963,
+  "unaffected_folds": 108,
+  "changed_folds": 855,
+  "only_intervention": "Training excludes entire physical leaf instead of page face; test groups and original face-based feature gates remain unchanged.",
+  "leaf_regex": "^(f[0-9]+)",
+  "primary_decision": {
+    "score": "nuisance_score",
+    "carrier_macro_auc_min": 0.6,
+    "carriers_auc_strictly_above_half_min": 9,
+    "carriers": 13
+  },
+  "leave_one_test_leaf_out": "Descriptive metric recomputation without refits; nuisance, augmented and slot old/new/delta ranges.",
+  "workers_max": 32,
+  "runtime_review_minutes": 20,
+  "semantic_credit": 0,
+  "sealed": [
+    "f84",
+    "f84r"
+  ]
+}

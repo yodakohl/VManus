@@ -6,6 +6,17 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### GDT865 primary whole-leaf robustness registered (2026-09-06)
+
+Protocol: `experiments/yolo/gdt865_whole_leaf_primary_robustness/METHOD.md`.
+Explicit follow-up to858: retain808 CORE13 events, primary models and feature
+rules, change only training exclusion from face to whole physical leaf. Require
+old serialized prediction and feature-hash parity and108unchanged fold parity.
+Peraxis test only nuisance macroAUC>=.60 with9/13carriers strictly>.50; no full
+old portable verdict or null/significance reuse. Retrospective, no semanticcredit.
+Capacity or reconstruction failure stops. Total work budget08:55–09:35UTC.
+No new target read or fit before public source/protocol freeze.
+
 ### GDT864 native qo seam support (2026-09-06)
 
 Primary: `experiments/yolo/gdt864_f76r_standalone_qo_native_seams/REPORT.md`.

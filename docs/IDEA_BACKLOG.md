@@ -1663,3 +1663,45 @@ The universal immediate literal echo fails under the fixed source assumptions;
 no general false-start rejection or word-function proof. Full retained census:
 `experiments/yolo/gdt863_standalone_qo_immediate_echo/REPORT.md`.
 No automatic extension to another prefix, delayed echo or fusion test.
+
+
+## Sechs neue schriftgebundene Rohfragen IP055–IP060
+
+**RAW_UNSCREENED, keine Ausführung und kein Neuigkeits-/Übersetzungsnachweis.**
+Diese Skizzen beginnen bei konkret veröffentlichten Zeichenfolgen. Insbesondere
+sind strenge rivalisierende Generatoren Hypothesen, keine schon nachgewiesenen
+Manuskriptregeln. Bekannte Gegenbeispiele dürfen schon im Quellenreview stoppen;
+es braucht dafür keinen neuen Zähllauf. Vor Auswahl bleiben route-check und
+Primärvorgänger erforderlich.
+
+| ID | Tatsächlicher Anker | Unterscheidender schriftlicher/visueller Vertrag | Kleinster Test und Hauptalternative |
+|---|---|---|---|
+| **IP055 — Zwei ineinander transkribierte Schriftbahnen** | 851: f8r.19 `sair cheain cphol dar shol kaiin shol kaiin dai kam` (ZL); IT/RF verbinden nur das spätere `daikam`. | Ein zeilenweise abwechselnd gelesener Zweispaltentext könnte aus zwei senkrechten Doppelungen `shol/shol` und `kaiin/kaiin` das transkribierte ABAB erzeugen. Wirkliche horizontale Paarwiederholung verlangt dagegen vier auf derselben fortlaufenden Schriftbahn angeordnete Gruppen. | Ein einzelner prospektiv zugelassener nativer Ganzseitenvergleich: nur die vier schon benannten Gruppen und ihre Baselines/Anordnung feststellen, keine neue Glyphenlesung oder Zeitfolge.10min mit Zulassung und Bericht. Rivalen: unregelmäßige Baseline, Einfügungen, bereits bekanntes Layout; dies wäre Quellengeometrie, keine musikalische oder semantische Paaridentität. Keine Annahme, f8r sei schon visuell zugelassen. |
+| **IP056 — Kanonisch sortierte Wortinventare** | 851: f30r.11 `qotchor cheor chey cheor chey so[eeb:een] ydey sor daiin`; der Kern `cheor chey cheor chey` ist dreileser-exakt. | Wenn jede physische Prosa-Zeile ein nach **einer festen strikten Ganzformordnung** sortiertes Inventar ist, müssen alle Wechsel innerhalb der Zeile mit dieser Ordnung vereinbar sein. ABAB verlangt gleichzeitig A<B und B<A; gewöhnliche laufende Folge oder wiederholte Felder erlauben das. | Erst ein rein logischer Review dieses konkreten Zyklus, unter5min, ohne Alphabetwerte, Rankingsuche oder Rohdaten. Der Anker dürfte den engen Sortiergenerator bereits ausschließen; root muss den Vertrag prüfen. Grenzen: mehrere separat sortierte Teilfelder, unsortierte Listen und lexikografisch sortierte Überschriften sind andere Modelle. Kein Befund gegen Kataloge allgemein. |
+| **IP057 — Obligatorische Tilgung überlappender Wortenden** | 863 bestätigt in allen drei Lesungen f111v.21 vollständig: `sair air ain qol rar ain cheey lkeey lkain cheokain sheo qo qokain chear alam`. Hier ist `air` sowohl das Ende von `sair` als auch die komplette nächste Gruppe. | Eine streamende Kurzschrift, die **jede** nichtleere buchstäbliche Überlappung zwischen Wortende und nächstem Wortanfang obligatorisch nur einmal ausgibt, kann bei bestätigter Gruppengrenze nicht beide Kopien `air` erhalten. Unabhängig geschriebene Wörter verlangen keine solche Tilgung. | Quellenreview des konkreten `sair air`-Spans (die vollständige Zeilenübereinstimmung bestätigt hier nicht automatisch alle Separatorflags) plus genaue Festlegung, ob der rivalisierende Mechanismus über sichtbare Gruppen hinweg gelten soll;5min, kein Korpusfit. Gilt er nur innerhalb anderer Einheiten oder optional, entscheidet der Anker ihn nicht. Kein qo-Echo-/Fusionstest und keine Reparatur839: die Frage betrifft einen obligatorischen Ausgabeverzicht, nicht erhaltene Langparallelstellen. |
+| **IP058 — Feste wechselseitige Lernpaare** | 851 bietet zwei echte Paare: f30r.11 `cheor chey cheor chey` und f8r.19 `shol kaiin shol kaiin`. | In einer engen Paarlisten-/Lernbucharchitektur bezeichnet jede vollständige Form genau einen festen Partner; die beiden Motive wären wiederholte Einträge derselben Paarungen. Eine gewöhnliche produktive Folge lässt denselben ersten Ganztyp unmittelbar mit einem anderen Ganztyp kombinieren. | Vorab ausschließlich diese beiden Paare und die Hypothese einer durchgehend alternierenden Paarliste im jeweiligen vollständigen Absatz fixieren. Ein sicherer dritter Partner an derselben Paarphase widerlegt die feste Partnerfunktion; vorhandene851-Vollkontexte nach Freeze,10min. Wechselnde Absatzphase und fehlende äußere Paargrenzen machen den Fall unentscheidbar; keine freie Paarzuordnung nach Ergebnis. Kein Wörterbuch- oder Übersetzungswert folgt. |
+| **IP059 — Mechanische Kürzungsleiter innerhalb einer lokalen Serie** | Dieselbe vollständige863-Zeile beginnt `sair air ain`: die erste Veränderung ist exakt das Entfernen des vorderen `s`, die nächste verändert dagegen das Ende. | Eine reine Abschreibübung mit schrittweiser **Präfixentfernung ohne Ersatz** erzeugt eine gerichtete Kette echter Suffixe. Ein Paradigma verschiedener verwandter Ganzformen oder allgemeines Kopieren mit Änderung darf die Suffixkette verlassen. | Der vorhandene Dreier ist bereits der kleinste Vertragstest: `sair→air` passt, `air→ain` nicht. Unter5min Quellen-/Mechanismusreview, keine neue Ähnlichkeitssuche. Ob die drei überhaupt eine intendierte Serie bilden, bleibt offen; deshalb kein genereller Kopierbefund. Kein IL011-Timm-Refit, keine Entfernungskurve und keine Erweiterung um nachträglich erlaubte Endersetzungen. |
+| **IP060 — Mechanisch übertragene ganze Schriftgruppe** | Der publizierte native f104v.27-Bericht nennt drei ähnlich angeordnete getrennte Gruppen, aber unterschiedliche erhöhte Striche und offene feine Verbindungen; er beweist keine exakte Zeichenidentität. | Ein **einziges unverändertes Kontakt-/Schablonenmotiv** für die gesamte Gruppe müsste die Verbindungsstruktur ihrer Komponenten bei jeder Übertragung erhalten. Freies erneutes Schreiben kann dieselbe ungefähre Anordnung mit einer tatsächlich zusätzlichen oder fehlenden Verbindung herstellen. | Zuerst ausschließlich prüfen, ob die schon veröffentlichten nativen Notizen überhaupt eine sicher unterschiedliche Verbindung dokumentieren; sonst keine Messung oder erneute Bildzählung. Ein sicherer topologischer Zusatz wäre Gegenbeleg gegen die unveränderte Schablone, bloße Strichhöhe nicht.5min Quellenscreen. Rivalen: unvollständiger Kontakt, Beschädigung, zusätzliche Nachzeichnung; ohne separaten Befund dürfen diese nicht als gerettete Schablone installiert werden. Keine Pixelidentität von Handschrift verlangen, keine Entzifferung aus ähnlichen Formen. |
+
+Quellen: [GDT851 REPORT](../experiments/yolo/gdt851_primitive_tandem_raw_group_discovery/REPORT.md),
+[GDT863 REPORT](../experiments/yolo/gdt863_standalone_qo_immediate_echo/REPORT.md),
+[f104v.27 native Primärnotiz](visual_overview/TRIPLE_F104V_2026-09-06.md).
+851 und f104v waren bereits gelesen; jetzt nur863 erneut als neue Primärquelle.
+Keine Rohcache-/Bildöffnung, kein Experiment. IP056/057/059 sind bewusst billige
+Vertragsfragen mit möglicherweise bereits enthaltenem Gegenbeispiel, keine
+vorgegebenen nächsten Zählprojekte. IP055/058 betreffen unterschiedliche
+Erklärungen derselben ABAB-Beobachtung; IP060 ist keine zusätzliche Einstufung
+der drei Gruppen als identisch. Sechs Rohfragen ergänzt, alte Status erhalten.
+Schreibzuständigkeit zurück bei root.
+
+### Root triage of IP055–IP060 — 2026-09-06
+
+None is READY. IP056/057/059 target weakly motivated universal generators;
+rejecting them would scarcely distinguish plausible manuscript mechanisms, so
+no new experiment is warranted. IP055 is optional source geometry only and
+needs a distinct reason to spend an admission. IP058 has no independently
+established pair-list phase. IP060 has no documented topological mismatch and
+would revisit an already stated fine-vision limit. Preserve these sketches as
+unselected ideas, not evidence against broad sorting, shorthand, copying or
+printing families. GDT865 instead tests a specific open boundary of an existing
+positive structural result, with a predeclared consequence for that claim.

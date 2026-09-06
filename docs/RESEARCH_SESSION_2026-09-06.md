@@ -296,3 +296,11 @@ fixedf76r21/30targets. Localvisualsupport for863non-echo/echo pair, no
 wordhood ormeaning. Asealed08:49:24beforeB; public002408c1beforeviews.
 Independent6record/sourceimage/seal/decision checks and replayPASS.
 Publishingwithin08:53:59budget; goalACTIVE until13:40:45UTC.
+
+09:06UTC GDT865 explicit decision after static858/808feasibility: isolate whole-
+leaf training exclusion in the two original CORE13 primary models, unchanged
+1777testevents/963folds/feature gates. Independent implementation/validator
+authorship; old score and feature-hash parity before acceptance,108unaffected
+folds exact parity. Primary nuisance thresholds only, no full old null verdict
+or semantic claim. Total budget08:55–09:35UTC; checkpoint before newfits.
+No new target query or score observed at this decision. Goal remains ACTIVE.

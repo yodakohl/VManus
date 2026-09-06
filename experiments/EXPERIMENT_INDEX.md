@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **863**
-- Experiment-associated tracked files: **16,174** (1.4 GiB)
-- Structured GDT337+ experiments: **528**
+- Experiments indexed: **864**
+- Experiment-associated tracked files: **16,185** (1.4 GiB)
+- Structured GDT337+ experiments: **529**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT865 | GDT865 | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt865_whole_leaf_primary_robustness/METHOD.md) | 11 | 50.5 KiB | 4 | STRUCTURED_YOLO |
 | GDT864 | GDT864 | `BOTH_FIXED_SEAMS_LOCAL_SPACING_SUPPORTED` | [report](../experiments/yolo/gdt864_f76r_standalone_qo_native_seams/REPORT.md) | 20 | 44.3 KiB | 1 | STRUCTURED_YOLO |
 | GDT863 | GDT863 | `STRICT_ECHO_COUNTEREXAMPLE` | [report](../experiments/yolo/gdt863_standalone_qo_immediate_echo/REPORT.md) | 17 | 171.0 KiB | 1 | STRUCTURED_YOLO |
 | GDT862 | GDT862 | `LANDMARK_CAPACITY_STOP` | [report](../experiments/yolo/gdt862_f104_material_landmark_mirror_screen/REPORT.md) | 17 | 28.2 KiB | 1 | STRUCTURED_YOLO |
