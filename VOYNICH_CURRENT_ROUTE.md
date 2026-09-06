@@ -18,7 +18,7 @@ Retrospective primary robustness only; no old null/verdict/meaning reuse.
 4209lineparityPASS. Nineother events normalized. No featureaudit/refit/meaning.
 866:f95v2 first-line upperlink seenby2viewers,0interveninggroups; no selective-scope anchor. Stop.
 867complete: native shared Yale1006199=f69v+f70r1/f70r2; orientation only.
-869:144metadata tagsPASS;007two7.450sUV entries,029/037one10s. No direction map; vendor fields partly opaque.
+869:144metadata tagsPASS; no direction map. Metadata/imaging side route stopped by user; do not resume.
 870:f100rL2sixloci nativelylocalized withrawgroups; no new explicitreference. Known391contact unchanged. Stop.
 
 GDT859:f56r.1 upperlink seenby2viewers; firstgroupseam definitein3readings.

@@ -514,3 +514,11 @@ IP014 already refutes the deterministic last-sign function via old800okalal/okal
 no checksum rerun. A bounded technical-source check now inspects ExifTool support
 for869's unresolved37407/37408fields; no new TIFF or pixel access is authorized
 by this source-code check. End the support search by12:05UTC.
+
+User steering: abandon metadata/imaging side route and identify what would
+actually advance decipherment. Technical source check located no dedicated
+37407/37408 decoder in ExifTool2200871d9cef988051d2a99d67df3bda6cbb30a8;
+generic unknown-field extraction is different. No manuscript TIFF/parser run.
+Do not pursue capture logs, additional metadata or weak-trace interpretation.
+No new executable decipherment experiment is presently selected; candidate
+mechanisms still require a motivated source-bound contrast and transfer test.
