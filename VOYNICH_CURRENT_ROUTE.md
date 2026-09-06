@@ -14,7 +14,8 @@ L .611534→.616364(10/13>.5),DY .753049→.750323(11/13>.5).
 Independent four-deck refitPASS. Local addedgain shrinks to .001067L/.013356DY.
 Retrospective primary robustness only; no old null/verdict/meaning reuse.
 865complete; no refit.809face keys unchanged.
-868registered: fixed1777event raw-group fidelity in3readings; full-line parity before mapping; no refit.
+868:1767/1777all3exact rawwhole;1776all3single-group. RFf48r.4onefragment;
+4209lineparityPASS. Nineother events normalized. No featureaudit/refit/meaning.
 866:f95v2 first-line upperlink seenby2viewers,0interveninggroups; no selective-scope anchor. Stop.
 867complete: root natively viewed shared Yale1006199=f69v+f70r1/f70r2. Orientation only; no count/direction regrade.
 

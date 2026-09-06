@@ -424,3 +424,12 @@ originalattemptartifacts/lock; actual-CLI synthetic multiple-allow controls
 added before realprojection. Root867guard usedthe same joinedvalue mistake;
 correct repeatedallow queryat10:21:52UTC alsozero/30skipped, observations
 unchanged. Recordboth corrections ratherthan claim scientificprogress.
+
+GDT868 V2publica134ae04 at10:26:20UTC; nonempty targetrunthen completed.
+1767/1777allthreeexactrawwhole;1776allthreesingle-group; onlyRFf48r.4ytedy
+is a fragment ofyte@152;ytedy. Nineother events containalternatives/annotations,
+notnineprovedreaderdisagreements. All4209readerlines/5331targetpositions
+pass fullsourceparity. Independent re-query/classification/aggregate checkPASS.
+No model rerun, featurefidelity conclusion, imageinterpretation ormeaning.
+Preparingpublicationwithin10:35budget; source-convention agent investigates
+onlyexistingdocumentation ofliteral@152/f48r.4, no targetimageornewrawquery.

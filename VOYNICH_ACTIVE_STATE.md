@@ -23289,3 +23289,17 @@ arrangements are known source appearance, not a new diagram-function discovery.
 No exact f70r1/f70r2 spatial assignment, slot count, start/direction regrade,
 glyph, owned relation or meaning. F69VSD001 remains closed. Software validates
 source metadata/declarations only. Primary: experiments/yolo/gdt867_shared_canvas_native_orientation/REPORT.md.
+
+## GDT868 fixed CORE13 target source fidelity, 2026-09-06
+
+All4209complete focal reader-lines match currentclean after raw-group fragment
+reconstruction.1767/1777events are exact literalrawwholes inallthree readings;
+1776allthree single groups. ZL1768exact/9normalized/0fragments,IT1776/1/0,
+RF1774/2/1. Solefragment RFf48r.4ytedy withinrawyte@152;ytedy, no native
+interpretation ofentity. Nineother events carry alternatives or annotations;
+these are not nine provenreadingdisagreements. Independent guarded source and
+classification replayPASS. The target set is mostly source-faithful despite
+the broader cleaner problem; feature-corpus fidelity remains untested.
+808/865scores unchanged, no refit/wordhood/glyph/meaning. V1zero-row CLIerror
+was corrected publicly before nonempty target projection; no scientificstop.
+Primary: experiments/yolo/gdt868_core13_raw_group_fidelity/REPORT.md.
