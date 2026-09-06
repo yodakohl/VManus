@@ -22,6 +22,11 @@ GDT809 quantitative fold audit. Old808/809 source/report bytes stay frozen.
 
 ### GDT857 literal triple constraint (2026-09-06)
 
+Native source check: `docs/visual_overview/TRIPLE_F104V_2026-09-06.md`.
+Two viewers support local similar separated arrangements at f104v.27;
+fine-stroke identity remains unresolved. This does not remove the contract
+below, adjudicate other triples or prove encoded-symbol identity.
+
 Primary: `experiments/yolo/gdt857_cyclic_inventory_triple_bound/REPORT.md`.
 Public preregf77c6472 before source loading. RawP triples:6ZL/7IT/5RF;
 four exact locus/start/raw coordinates agree across all readings:

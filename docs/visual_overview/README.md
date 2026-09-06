@@ -99,3 +99,6 @@ mit einem wiedergefundenen COL001-Quellenverweis zu den kleinen f4r-Marken.
 
 Vier weitere Originale: [vierter persönlicher Durchgang](FIGURE_ORIENTATION_2026-09-06.md),
 f75r/f76r/f81v/f83r. Die f76r-Randspalte ist bereits dokumentiert und funktional offen.
+
+Lokale Quellenprüfung, kein weiterer Orientierungsdurchgang: [f104v.27-Dreifachgruppe](TRIPLE_F104V_2026-09-06.md).
+Zwei native Beobachtungen stützen ähnlichen Aufbau und Trennung; feine Zeichenidentität bleibt offen.

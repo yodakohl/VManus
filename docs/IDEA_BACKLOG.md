@@ -1484,3 +1484,19 @@ an diesen offenen Blockgrenzen dafür als Gold zu setzen wäre zirkulär. Kein
 solcher Fall im gezielten Quellenblock; keine allgemeine Abwesenheitsbehauptung.
 Kein erneuter Unterbrechungs-/Federzustandstest, keine Rohdaten oder Bilder;
 kurzer Stop statt weiterer Quellenkette. Schreibzuständigkeit zurück bei root.
+
+
+### IP023 — Direkter Antezedensanker bereits vollständig als Gleichstand geprüft
+
+`REVIEWED_DUPLICATE_NO_NEW_INVARIANT`. Route-check `qokaldy first occurrence
+antecedent reference standalone label`, danach nur der direkte
+[GDT798-Bericht](../experiments/yolo/gdt798_qokaldy_complete_whole_paragraph_discriminator/REPORT.md).
+Seine vollständige ZL3b-Zeile f33r.2 lautet `ytchedy qokar cheky okaldy qokaldy
+otor oldar qotar otar otardam`; nur das Paar `okaldy qokaldy` ist dort explizit
+als all-reader-exakt bezeichnet. Der Bericht prüft dieses Paar bereits gegen
+Rückverweis, Inhaltswort und Apposition. Die beiden f66r:P5-Vorkommen haben
+wechselnde Flanken; weder sie noch f33r liefern eine separat beobachtete
+Auswahl zwischen zwei Antezedenten. Kein neuer fester Gegenvertrag aus dieser
+Quelle; IP023 wird nicht durch Umbenennen des alten Gleichstands aktiviert.
+Ein Primärbericht, keine weitere Suchkette, Datenöffnung oder neue ID.
+Schreibzuständigkeit zurück bei root.

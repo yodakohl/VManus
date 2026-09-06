@@ -197,3 +197,5 @@ frozen; no model refit. Public freeze before metadata-body access.
 Budget15min to07:27:15UTC including source/code/validation/publication.
 
 07:26 UTC GDT858 result: 963/963 primary folds reconstruct,855 retain opposite-face training;169face keys on90leaves. Public prereg6e3c7a93 preceded data; independent requery/reconstruction and replay PASS. Corrected808/809 unit claims without refitting or altering legacy bytes. No performance penalty or decipherment claim. Publication follows exact staged checks. Goal ACTIVE, deadline13:40:45UTC unchanged.
+
+07:31:56UTC native f104v.27 check: two views support similar separated arrangements; fine stroke identity remains uncertain. Preregistered ce725cb7, A saved/sealed beforeB; generic expectation disclosed. Existing admitted original only. Outcome keeps857 conditional, no new translation. Producer IP023 review found798 duplicate and stopped. Goal remains ACTIVE until at least13:40:45UTC.
