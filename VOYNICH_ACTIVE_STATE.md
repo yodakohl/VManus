@@ -22962,3 +22962,12 @@ clausesnewGDT388scorededges. Next oneconsistentconnector/attachmentin
 qol.chedy.qokeey81r20/82r21 versusqokeey...qol.chedy.qokain75r33,wholeP retained.
 No repeatedqokeeycensus,genericqprefixorfour-elementdiagramroute. Authority822
 REPORT/WORKING_THEORY/CONTENT_READING/CANDIDATES;f84/f84rsealed.
+
+## GDT844 — native two-page subentry check (2026-09-06)
+
+Newly admitted f6v/f9v, targets8/11: neither visibly indented nor separated by
+an enlarged above-line gap.33principal lines annotated; exploratory native
+vision, known targets, approximate geometry. No common graphic subentry cue;
+stop this two-page lead without rejecting an unmarked discourse function.
+Visual scope36keys/41selectors;14 discretionary admissions remain.
+Primary: `experiments/yolo/gdt844_ychor_visual_subentry/REPORT.md`.

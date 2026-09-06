@@ -3,19 +3,18 @@ Updated: 2026-09-06. Read first.
 
 ## Current mandate and effort limit
 
-Latest request: continue. GDT843 links9/10starcentres to old figure crops,
-including6/7clearcases; O8/A14 stays missing. Raw captions include multiple groups.
-These are legacy context joins, not authorial star-label ownership. GDT388empty
-packet has0eligibleedges; do not score or promote colour/name semantics.
-Preserve GDT841/842visual positives and GDT843candidate deck; no more same-photo
-colourcounts. New independent assignment/whole-record relation needed.
+Latest request: continue. GDT844 natively views newly admitted f6v/f9v:
+ychor targets8/11 show no conspicuous indent or enlarged gap above.33principal
+lines recorded; exploratory, target-aware, no translation. Stop this two-page
+visual subentry lead; do not automatically add a third page or change features.
+Primary: `experiments/yolo/gdt844_ychor_visual_subentry/REPORT.md`.
+Preserve GDT841/842 visual positives and GDT843 context deck, which still lacks
+authorial star-label ownership. No caption scoring or further same-photo counts.
+Local f67r2 MSI metadata audit found no additional capture in checked inventories.
 Producer maintains `docs/IDEA_BACKLOG.md`; no next scientific test selected.
-Local MSI metadata audit: no f67r2 capture in checked inventories; no new source
-opened. EBA001/NVA002 already cover the suggested marginalia/source-layer screen.
-Do not repeat that screen without a specified new observable or acquisition.
 
 Goal: transferable translation. Confirmed English lexemes: **0**;
-confirmed German lexemes/clauses: **0**. No new fit or page admission selected.
+confirmed German lexemes/clauses: **0**. No new fit or further page admission selected.
 GPU/subagents authorized; no other LLM API keys. No public decipherment-approach
 searches: the user says these are exhausted. Understand project history and
 manuscript appearance before fixing a route; use primary internal evidence.
@@ -99,7 +98,9 @@ Understanding dossier: `docs/VOYNICH_UNDERSTANDING.md`; reset chronology:
 
 - Visual: original30 keys/35 selectors in `experiments/yolo/gdt791_thirty_page_visual_owner_spine/src/PAGE_SELECTOR_SPECS.tsv`,
   plus f21r/f32v/f100v/f101r in `experiments/yolo/gdt812_additional_page_semantic_bridge/src/PAGE_ADMISSIONS.tsv`:34 keys/39 selectors,
-  16 admissions remain. Register before any new page access.
+  plus GDT844 f6v/f9v:36 keys/41 selectors,14 admissions remain.
+  GDT844 admission source: `experiments/yolo/gdt844_ychor_visual_subentry/src/PAGE_ADMISSIONS.tsv`.
+  Register before any new page access.
 - Text:179 selectors in `experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv`, not179 visually
   inspected pages. GDT811 union190 and GDT327's91-folio edition do not enlarge scope.
 - f84 is sealed; f84r is sealed. Preserve panel keys f67r2/f68r1. Page, selector

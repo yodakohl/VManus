@@ -34,7 +34,13 @@ Gesamt-Record-Relation; weitere Farbzählung oder nächste Beschriftung hilft ni
 
 ### IP002 — Sichtbare Untereinträge hinter `ychor`
 
-Status: `NEEDS_DATA` — vorhandene 13 Zielseiten sind nicht visuell zugelassen.
+Status: `TWO_PAGE_VISUAL_LEAD_STOPPED`.
+[GDT844](../experiments/yolo/gdt844_ychor_visual_subentry/REPORT.md) hat f6v/f9v
+bewusst neu zugelassen und nativ geprüft: keine auffällige Einrückung oder
+vergrößerter Abstand oberhalb beider Ziele.33Haupttextzeilen dokumentiert.
+Kein zusätzlicher grafischer Untereintragsbeleg; sprachliche Funktion offen.
+Keine automatische dritte Seite. Die folgende ursprüngliche Datenlücke ist
+für diese zwei Seiten durch die registrierte Zulassung überholt.
 Ausgangspunkt: [GDT756](../experiments/yolo/gdt756_ychor_line_frame_content_slots/REPORT.md)
 findet 13/13 Vorkommen zeileninitial, 0/13 absatzinitial;
 [GDT757](../experiments/yolo/gdt757_initial_formula_role_atlas/REPORT.md) bestätigt
