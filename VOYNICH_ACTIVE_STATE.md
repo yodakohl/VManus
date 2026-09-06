@@ -6,6 +6,18 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### GDT866 f95v2 upper link without intervening group (2026-09-06)
+
+Primary: `experiments/yolo/gdt866_f95v2_upper_span_topology/REPORT.md`.
+Both native viewers localize the first-baseline upper-left extension on
+Yale1006243 and rate TWO_UPRIGHT_LINK with0complete intervening groups.
+Low writing lies withendpointgroups; no third whole cluster bounded by two
+ordinary gaps. Another local contact, not a selective nonadjacent-link anchor,
+shared abbreviation, glyph identity, pen chronology or meaning. No EVA query.
+Exposed original; Asealed09:37:37beforeB, publice676fb9f beforetargetviews.
+Independent source/schema/seal/decision and replayPASS, not softwarevisionproof.
+No newadmission or wider follow-up; this candidate question stops.
+
 ### GDT865 primary whole-leaf robustness passes (2026-09-06)
 
 Primary: `experiments/yolo/gdt865_whole_leaf_primary_robustness/REPORT.md`.

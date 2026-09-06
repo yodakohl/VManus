@@ -351,3 +351,13 @@ excludedrows; no newadmission/rawtext. Source/hashmetadataalreadyknown.
 Registerbeforetargetviews; AsealbeforeB. Totalbudgetthrough09:44UTC. Apositive
 wouldsupplycandidatewritinglink only; complementaryabbreviationexpressionstill
 missing. Negative/unresolved stops thiscandidate withno targetswitch.
+
+09:36:10UTC GDT866 publicfreeze e676fb9f confirmed before target native view.
+Root fulloriginal1006243 viewed; Asealed09:37:37UTC before nativeBassignment.
+No crops, source-text query, glyph classification or new image admission.
+
+09:39:28UTC GDT866 two native viewers bothTWO_UPRIGHT_LINK,0complete intervening
+spatialgroups. The candidate supplies another localcontact, not the proposed
+selective nonadjacent link. Independent source/seal/schema/decision checks and
+byte replayPASS; no softwarevisionproof, textquery ormeaning. Publishingwithin
+09:44budget. Ten-hour goal remainsACTIVE until13:40:45UTC.

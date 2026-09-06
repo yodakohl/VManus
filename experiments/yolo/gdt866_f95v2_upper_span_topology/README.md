@@ -1,4 +1,4 @@
 # GDT866: f95v2 upper-span topology
 
-Registered native source comparison; see METHOD.md and PREREGISTRATION.md.
-No target views performed at registration.
+Two native viewers confirm an upper link but no complete intervening group.
+See [REPORT.md](REPORT.md); frozen METHOD.md and PREREGISTRATION.md preserve scope.

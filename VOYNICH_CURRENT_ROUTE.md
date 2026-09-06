@@ -13,8 +13,8 @@ L .611534→.616364(10/13>.5),DY .753049→.750323(11/13>.5).
 1777oldpredictions/features exactparity;963capacityPASS;108unaffected exact.
 Independent four-deck refitPASS. Local addedgain shrinks to .001067L/.013356DY.
 Retrospective primary robustness only; no old fullverdict/null/meaning reuse.
-Correction complete; no automaticrefit.809face keys unchanged. Primary lookup865.
-866registered: f95v2 first-line upperextension skips a complete group? Native Aseal/B; budget09:30:36–09:44UTC.
+865complete; no refit.809face keys unchanged.
+866:f95v2 first-line upperlink seenby2viewers,0completeinterveninggroups. No selective-scope/abbreviation anchor; stop.
 
 GDT859:f56r.1 upperlink seenby2viewers; firstgroupseam definitein3readings.
 ZL/RF@167/@168 versus ITt retained; rootonly alignment, no glyph/meaning.
@@ -53,7 +53,6 @@ Yale1006201: inner4/5agreement,outer9/10,O6disagrees.843:9links,1missing.
 
 ## Earlier screens and control
 
-Primary via lookup840/839/838/837.
 GDT840: only knownofal forward Xdo-label/X-prose; no additional base. Stop do
 extension; do not reject the local relation or infer names. GDT839:4169eligible
 adjacent pairs,zero cross-folio conserved strings with shifted1–3atom splits.
@@ -64,7 +63,7 @@ score issue already known834. No automatic control-decoder successor.
 
 ## Visual understanding and earlier routes
 
-Five orientation passes:31renderings/30canvases/31admittedkeys.
+Five orientations:31renderings/30canvases/31keys.
 Sources: `docs/visual_overview/README.md`.
 f76r offset signs are a known functionally unresolved column; f4r rot is an
 ordinary-alphabet note. No decipherment/admission.95v images stay distinct.
