@@ -18,7 +18,8 @@ Retrospective primary robustness only; no old null/verdict/meaning reuse.
 4209lineparityPASS. Nineother events normalized. No featureaudit/refit/meaning.
 866:f95v2 first-line upperlink seenby2viewers,0interveninggroups; no selective-scope anchor. Stop.
 867complete: native shared Yale1006199=f69v+f70r1/f70r2; orientation only.
-869:144metadata tagsPASS; capture007two7.450sUV entries,029/037one10s. No direction map; vendor fields partly opaque. Stop.
+869:144metadata tagsPASS;007two7.450sUV entries,029/037one10s. No direction map; vendor fields partly opaque.
+870:f100rL2sixloci nativelylocalized withrawgroups; no new explicitreference. Known391contact unchanged. Stop.
 
 GDT859:f56r.1 upperlink seenby2viewers; firstgroupseam definitein3readings.
 ZL/RF@167/@168 versus ITt retained; rootonly alignment, no glyph/meaning.
@@ -56,10 +57,8 @@ Yale1006201: inner4/5agreement,outer9/10,O6disagrees.843:9links,1missing.
 
 ## Earlier screens and control
 
-GDT840:only knownofal; do extension stops.839:0shifted-split conserved strings
-among4169pairs.838:0fixed16-group recodings;14eligible on5folios.
-Narrow capacity stops, not general boundary/cipher rejection.
-GDT837:strict recovery failed;834score issue known. No control-decoder successor.
+837–840closed: primary reports via lookup; no control-decoder successor.
+No general boundary/cipher rejection.
 
 ## Visual understanding and earlier routes
 

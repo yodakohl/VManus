@@ -465,3 +465,9 @@ explicit direction/opaque limitation, source+validator public; no translation.
 At11:10UTC selected GDT870 single f100r:L2 joint scene/text discovery, drawing
 on391's alreadypositivecontact and known861image. No geometry rediscovery or
 formal score; raw source-to-scene alignment must be retained. Stop11:30UTC.
+
+GDT870 prereg10161504 public11:12:35UTC; then330rawgroups/12sourceframe rows
+retrieved and full original natively viewed. Root read27loci in all3readings;
+all6L2loci localize to the upper field's second plant row. Known.10contact is
+reobserved, no new explicit cross-reference; stop this source combination.
+No B02score ownership upgrade translation or newpage. Sourcebyte/imagehashPASS.

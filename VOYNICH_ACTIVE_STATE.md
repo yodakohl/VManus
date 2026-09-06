@@ -23317,3 +23317,15 @@ exhaustive absence claim. No pixeldecode/nativeview/f116v/source reinterpretatio
 EBA001 trace persistence and unresolved material mechanism unchanged. Stop this
 metadata route pending authoritative vendor interpretation or capture-light map.
 Primary: experiments/yolo/gdt869_f17r_capture_metadata_inventory/REPORT.md.
+
+
+## GDT870 f100r scene discovery, 2026-09-06
+
+Root personally viewed the full original and read all27loci in3sources. SixL2
+loci localize to the second plant row within the upper field, before the first
+prose block; not the lower drawing field. Known391f100r.10contact reobserved,
+no new connector/bracket or explicit cross-reference found. Rawvariants preserved;
+no owner/glyph/meaning upgrade. 330group rows/12frame rows exactreplay/imagehashPASS;
+software does not verify vision. NO_NEW_EXPLICIT_REFERENCE closes this one scene,
+not all linguistic reference. No new admission;391capacity failure unchanged.
+Primary: experiments/yolo/gdt870_f100r_complete_scene_discovery/REPORT.md.

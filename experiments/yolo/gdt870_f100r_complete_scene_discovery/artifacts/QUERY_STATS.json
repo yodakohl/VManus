@@ -1,0 +1,55 @@
+{
+  "queries": [
+    {
+      "artifact": "RAW_GROUPS.tsv",
+      "command": [
+        "./vmanus-exp",
+        "query-tsv",
+        "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+        "--selector",
+        "page",
+        "--allow",
+        "f100r",
+        "--columns",
+        "edition,locus,page,code,kind,source_group_index,source_group_count,left_separator,right_separator,ivtff_group_raw,clean_ascii_fragments,legacy_mapping_status",
+        "--forbid-prefix",
+        "f84",
+        "--forbid-prefix",
+        "f84r"
+      ],
+      "projection_sha256": "bdb44ba468d0db48a62d70558750e0a82cb833e66146c1bea584745f669c7540",
+      "rows": 330,
+      "stats": {
+        "selected": 330,
+        "skipped_forbidden": 2122,
+        "skipped_not_allowed": 113018
+      }
+    },
+    {
+      "artifact": "SOURCE_FRAME.tsv",
+      "command": [
+        "./vmanus-exp",
+        "query-tsv",
+        "experiments/yolo/gdt391_local_object_relation_normalization/artifacts/gdt391_complete_unit_frame.tsv",
+        "--selector",
+        "page",
+        "--allow",
+        "f100r",
+        "--columns",
+        "page,locus,array_id,source_visual_detail,source_provenance,source_id,source_relation_state",
+        "--forbid-prefix",
+        "f84",
+        "--forbid-prefix",
+        "f84r"
+      ],
+      "projection_sha256": "9c0bb1c16b449e40b97b84d2952deb102ab758b78575928d6bdf4653a61e4eff",
+      "rows": 12,
+      "stats": {
+        "selected": 12,
+        "skipped_forbidden": 0,
+        "skipped_not_allowed": 168
+      }
+    }
+  ],
+  "status": "SOURCE_ACQUISITION_COMPLETE"
+}

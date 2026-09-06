@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **869**
-- Experiment-associated tracked files: **16,296** (1.4 GiB)
+- Experiment-associated tracked files: **16,303** (1.4 GiB)
 - Structured GDT337+ experiments: **534**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT870 | GDT870 | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt870_f100r_complete_scene_discovery/METHOD.md) | 13 | 18.9 KiB | 2 | STRUCTURED_YOLO |
+| GDT870 | GDT870 | `NO_NEW_EXPLICIT_REFERENCE` | [report](../experiments/yolo/gdt870_f100r_complete_scene_discovery/REPORT.md) | 20 | 61.7 KiB | 2 | STRUCTURED_YOLO |
 | GDT869 | GDT869 | `UNRESOLVED_OPAQUE_METADATA` | [report](../experiments/yolo/gdt869_f17r_capture_metadata_inventory/REPORT.md) | 19 | 89.5 KiB | 0 | STRUCTURED_YOLO |
 | GDT868 | GDT868 | `COMPLETE_FIXED_EVENT_RAW_GROUP_FIDELITY` | [report](../experiments/yolo/gdt868_core13_raw_group_fidelity/REPORT.md) | 26 | 7.4 MiB | 4 | STRUCTURED_YOLO |
 | GDT867 | GDT867_guard_argument_replay | `CORRECTED_PROCEDURAL_QUERY_NO_FINDING_CHANGE` | [report](../experiments/yolo/gdt867_shared_canvas_native_orientation/REPORT.md) | 20 | 33.4 KiB | 1 | STRUCTURED_YOLO |
