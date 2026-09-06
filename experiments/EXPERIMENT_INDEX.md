@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **848**
-- Experiment-associated tracked files: **15,890** (1.4 GiB)
-- Structured GDT337+ experiments: **513**
+- Experiments indexed: **849**
+- Experiment-associated tracked files: **15,901** (1.4 GiB)
+- Structured GDT337+ experiments: **514**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT850 | Complete literal qolchedy joined split context inventory | `REGISTERED_UNSCORED` | — | 11 | 23.0 KiB | 4 | STRUCTURED_YOLO |
 | GDT849 | GDT849 | `DESCRIPTIVE_GRID_COMPLETE_NO_CONFIRMATORY_TEST` | [report](../experiments/yolo/gdt849_two_e_run_grid_discovery/REPORT.md) | 18 | 559.5 KiB | 6 | STRUCTURED_YOLO |
 | GDT848 | GDT848 | `LOCAL_C_ANCHOR_SUPPORTED_CONTROLS_NOT_FULLY_REPLICATED` | [report](../experiments/yolo/gdt848_f104_visual_e_run_audit/REPORT.md) | 23 | 73.6 KiB | 3 | STRUCTURED_YOLO |
 | GDT847 | GDT847 | `COUNT_DIFFERENCE_FULLY_RECONCILED` | [report](../experiments/yolo/gdt847_source_count_contract_reconciliation/REPORT.md) | 16 | 30.7 KiB | 3 | STRUCTURED_YOLO |
