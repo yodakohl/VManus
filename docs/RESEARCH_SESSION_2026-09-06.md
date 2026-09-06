@@ -433,3 +433,11 @@ pass fullsourceparity. Independent re-query/classification/aggregate checkPASS.
 No model rerun, featurefidelity conclusion, imageinterpretation ormeaning.
 Preparingpublicationwithin10:35budget; source-convention agent investigates
 onlyexistingdocumentation ofliteral@152/f48r.4, no targetimageornewrawquery.
+
+GDT868 result9949570a public10:30:05UTC; actual10:14:01→10:30:05=16m04,
+including the disclosed guard-encoding repair. The positive contribution is
+1767/1777allthree literalraw targetgroups, with exact ten-event qualifications;
+no new score ormeaning. Follow-up existing-source note confirms STA Ba→@152
+in detail/Ba→d inbasic, not a physicalcorrection or exactglyph-equivalence
+claim. f48r native investigation is not yet selected/admitted.
+Goal stillACTIVE; earliestcompletion13:40:45UTC remains ahead.
