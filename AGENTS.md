@@ -18,6 +18,10 @@ outside hash-bound legacy tools so past experiments remain reproducible.
 
 - Use subagents only when the user explicitly authorizes them; preserve task
   independence where blinding is part of an experiment.
+- The user explicitly requests a pipelined idea producer during active research.
+  Keep one bounded subagent maintaining `docs/IDEA_BACKLOG.md` while root tests
+  the current candidate; do not wait for each test to finish before replenishing.
+  Preserve ownership and blinding; this is not unattended between-turn execution.
 - Publish every material finding promptly to the public GitHub repository,
   together with the experiment source, preregistration, validator, and compact
   result artifacts needed to reproduce it. Direct pushes to `main` are

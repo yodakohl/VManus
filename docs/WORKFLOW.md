@@ -69,28 +69,31 @@ or concrete unresolved concern. Report manuscript evidence, control evidence and
 engineering deliverables separately, including what was already known. Honest
 negative findings remain useful when they actually change a research decision.
 
-## Parallel short rounds
+## Pipelined idea supply and execution
 
-User request, 2026-09-06: speed up by generating and examining ideas in parallel.
-Use the available three worker slots for different questions, with the root
-maintaining scope, the deadline and the shared record. Parallelism is useful for
-independent investigations; it does not justify multiplying setup or validation.
+Explicit user request, 2026-09-06: keep an additional agent generating ideas in
+parallel and saving a list, so root does not restart ideation after each test.
 
-- Start with a short candidate screen: each worker gets one distinct domain,
-  the same current-route pointer, exact read permissions, a two-minute stop and
-  a compact deliverable: new discriminator, existing data, smallest test and
-  decision consequence. No new programs, raw-data searches or experiments yet.
-- Reject duplicates or missing evidence early. Missing primary reports mean an
-  unresolved provenance gap, not proof that a hypothesis has been refuted.
-  Workers must be allowed to return no viable candidate.
-- For candidates that survive, use one shared preregistered batch with bounded
-  independent tests, one report and compact artifacts. Protect held data across
-  all workers; do not let one worker expose another's held material. Keep every
-  tested hypothesis visible, including negatives, before selecting any lead.
-- Separate discovery from confirmation. A promising exploratory result still
-  needs its declared controls; parallel screening is not semantic validation.
-  Reuse inputs/readers, avoid three separate corpora, decoders or reporting systems.
-  Root owns publication and shared-file edits; workers have disjoint output files.
+- One producer owns `docs/IDEA_BACKLOG.md`; root continues the current scientific
+  task. On active turns, resume the producer with a bounded replenishment task
+  when the queue is thin. Aim for three reviewed candidates, not a quota of
+  claimed discoveries. Producer work must not block the consumer's current test.
+- Each idea has a stable ID, status, observed starting point/primary source,
+  distinct prediction, available inputs, smallest test/total budget, decision
+  consequence and principal risk. Duplicate-screen before marking it ready.
+- Root chooses at most one next experiment after checking the candidate. Hand
+  off queue edits explicitly: producer lists proposals; root supplies acceptance,
+  IN_PROGRESS and result decisions. Keep rejected and completed entries with a
+  short reason/report link. Never silently recycle a failed route.
+- A separate bounded reviewer may check novelty or independent validation when
+  useful. Keep data packets and outputs disjoint where experimental blinding
+  requires it; the producer does not read held target data to invent its tests.
+- Queueing is research planning, not preregistration or scientific success.
+  Preregister selected tests/discovery scope, preserve all outcomes and publish
+  one compact reproducible result. Reuse readers and protect sealed data.
+- The agent runs during assigned active tasks; no persistent background service
+  or unattended work between turns has been started. Reuse the same agent with
+  followup tasks where available. Root owns checks, global records and publication.
 
 ### Measured correction after GDT839
 
@@ -107,10 +110,9 @@ Its occurrence JSON uses103439 lines/1356648 bytes; identical compact JSON would
 use715968 bytes. These are engineering measurements, not manuscript findings.
 Leave the registered GDT839 bytes frozen. For future small passes:
 
-- Root immediately inspects one concrete existing manuscript example; at most
-  one worker checks its predecessor/novelty while root works. Use three workers
-  only when three independent executable tasks already exist. Do not spend the
-  whole round generating and rejecting speculative tests.
+- Root immediately inspects one concrete existing manuscript example while the
+  producer fills the next-candidate queue. Add a novelty reviewer only for a
+  bounded independent question. Do not spend the whole round merely screening.
 - Within90s decide whether a discriminating question exists. State what is known
   and what a new observation could distinguish. Do not manufacture novelty by
   requiring rare exact collisions with no observed motivating instance.

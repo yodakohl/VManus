@@ -3,12 +3,12 @@ Updated: 2026-09-06. Read first.
 
 ## Current mandate and effort limit
 
-Latest request: continue. Native f88r review proposes no source correction;
-ofaldo/ofal remains an unknown relation and is removed as the main route.
-GDT840 do generalization stays closed; no automatic suffix/gallows/rarity census.
-New work needs a distinguishing relation, not another count of similar forms.
-Review: `docs/visual_overview/OFAL_REVIEW.md`. No next experiment selected.
-Target first observation2min/whole pass5min; no decoder repair/new corpus.
+Latest request: pipeline idea generation alongside current work.
+Producer maintains `docs/IDEA_BACKLOG.md`; root runs one selected task and
+resumes bounded queue replenishment during active turns. No background daemon.
+IP001 carried-star fill is at visual intake; reliable classes and label ownership
+remain unproved. `docs/visual_overview/STAR_FILL_PILOT.md`. No scored test yet.
+Closed ofal/do routes stay closed. Target whole small pass5min; no decoder repair.
 
 Goal: transferable translation. Confirmed English lexemes: **0**;
 confirmed German lexemes/clauses: **0**. No new fit or page admission selected.
