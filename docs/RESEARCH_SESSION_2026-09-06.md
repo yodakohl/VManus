@@ -182,3 +182,16 @@ nonsingleton cycle contract fails; mixed pools/general homophony remainopen.
 This adds a transcription-grounded mechanism constraint, not a reading.
 Publication preparation is within15min; goalACTIVE, about3h22elapsed and
 at least6h37remain until13:40:45UTC. No automatic cipher repair selected.
+
+07:12:15UTC decision: GDT858 will audit the actual metadata membership of
+GDT808's primary CORE13 L_TO_L and DY_TO_DY folds. Static root/independent
+review found physical_folio retains recto/verso in808and809; the separate
+leaf_folio helper is used for relation packets, not these model exclusions.
+The new discriminator is whether a held leaf's other face actually supplies
+training events after the registered source-axis and carrier exclusions.
+Only guarded event/fold metadata, no source words, labels, features or scores;
+reconstruct and crosscheck published counts. Positive => document face-held
+rather than whole-leaf transfer, not an assumed score reversal. Zero => bound
+the observed overlap claim, not a global clearance. Old source bytes stay
+frozen; no model refit. Public freeze before metadata-body access.
+Budget15min to07:27:15UTC including source/code/validation/publication.

@@ -1435,3 +1435,52 @@ cycle contract, those forms force singleton pools. Exclusively nonsingleton
 pools fail; homophony generally stays open. No source filter changed. See
 [GDT857](../experiments/yolo/gdt857_cyclic_inventory_triple_bound/REPORT.md).
 No automatic decoder or alternative-pool repair follows this result.
+
+
+### IP028/IP031 — Mehrwertspan vorhanden, keine neue Rechenbeziehung
+
+Status: `REVIEWED_NO_WRITTEN_ARITHMETIC_DISCRIMINATOR`.
+Gezielt geprüft wurden nur die direkten Berichte
+[GDT686](../experiments/yolo/gdt686_v59_dain_daiin_qodaiin_value_head_dispatch/REPORT.md)
+und [GDT764](../experiments/yolo/gdt764_bounded_value_field_dispatch/REPORT.md),
+nach route-check `total partial quantity measure conversion multiple value fields`.
+686 belegt bei f38v.6 den Span `daiin daiiin dain dain`; die Passage trägt im
+Bericht die Arbeitswerte III/IV/II/II, aber keinen unabhängig geschriebenen
+Total- oder Einheitenmarker. Nicht als vollständige Rohzeile ausgeben.
+764 nennt f105v.5 mit `pchedal | qopchdy daiin | chedy daiin | ...`:
+Die wiederholte Oberfläche ist eine konkrete Beobachtung; Feldstriche und
+Nominal-/Grad-/Mengenrollen sind Analysen, die hier gekürzte Zeile kein
+vollständiger neuer Passagenanker. Eine Summenlesung müsste einen bezeichneten
+Totalwert, eine Umrechnungslesung zwei unabhängig gekoppelte Maße vorhersagen;
+keines ist in diesen Quellen bestimmt. Insbesondere kann die alte Zahlentabelle
+nicht selbst festlegen, welche Zahlen zusammenzurechnen wären. Daher keine
+Beobachtungskarte als neuer ausführbarer Kontrast, keine rekonstruierte
+Vollpassage, kein Arithmetikfit oder neuer Titel. 807–810 nicht geöffnet;
+keine Rohdaten, Bilder oder Websuche. Schreibzuständigkeit zurück bei root.
+
+
+### IP016/IP019 — Geteiltes Layout ist kein belegter Token-Distanzkontrast
+
+Status: `REVIEWED_LAYOUT_ANCHOR_READING_ORDER_UNRESOLVED`.
+Der direkte native Beobachtungsbericht
+[Schreibfolge-Proposal](visual_writing_order/PROPOSAL.md), Abschnitt „Was ich
+tatsächlich angesehen habe“, benennt konkrete Layouts: f32v gegenüberliegende
+Schriftbereiche neben der Pflanze, f55v oben und unten getrennte linke/rechte
+Bereiche, f82r eine Röhre zwischen oberen Schriftstücken. Derselbe Bericht hält
+bei allen drei Seiten die Fortsetzung beziehungsweise Reihenfolge offen. Er
+liefert kein vollständiges Textpaar mit unabhängig gesicherter logischer
+Entfernung, die gegen die sichtbare Nähe ausgespielt werden könnte.
+Die direkte [DIC001-Locatorkorrektur](../experiments/semantic_assumptions/DIC001_IVTFF_LOCATOR_TERMINOLOGY_CORRECTION.md)
+begrenzt `+P` auf darunterliegende Loci, ausdrücklich nicht bekannte
+Fortsetzungs-/Diskursreihen. Der [Kapazitätsbericht](../experiments/semantic_assumptions/results/dic001_drawing_interruption_capacity_report.md)
+beschreibt genügend Unterbrechungen für seinen alten Test, aber keinen neuen
+Kopier-/Gedächtnisanker. Route-checks: `drawing interruption same line left right
+reading order physical distance` und `drawing interruption physical continuity DIC001`.
+
+Die Mechanismen hätten erst dann einen unterschiedlichen Vertrag, wenn ein
+räumlich naher, im unabhängig belegten Textfluss ferner Kandidat einem räumlich
+fernen, logisch nahen Kandidaten gegenübersteht. Die Transkriptionsreihenfolge
+an diesen offenen Blockgrenzen dafür als Gold zu setzen wäre zirkulär. Kein
+solcher Fall im gezielten Quellenblock; keine allgemeine Abwesenheitsbehauptung.
+Kein erneuter Unterbrechungs-/Federzustandstest, keine Rohdaten oder Bilder;
+kurzer Stop statt weiterer Quellenkette. Schreibzuständigkeit zurück bei root.

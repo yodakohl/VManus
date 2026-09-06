@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **856**
-- Experiment-associated tracked files: **16,043** (1.4 GiB)
-- Structured GDT337+ experiments: **521**
+- Experiments indexed: **857**
+- Experiment-associated tracked files: **16,056** (1.4 GiB)
+- Structured GDT337+ experiments: **522**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT858 | Folio holdout unit metadata audit | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt858_folio_holdout_unit_audit/REPORT.md) | 13 | 33.5 KiB | 3 | STRUCTURED_YOLO |
 | GDT857 | GDT857 | `NONSINGLETON_CYCLIC_POOL_COUNTEREXAMPLE_FOUND` | [report](../experiments/yolo/gdt857_cyclic_inventory_triple_bound/REPORT.md) | 17 | 71.0 KiB | 1 | STRUCTURED_YOLO |
 | GDT856 | GDT856 | `NON_UD_COLLISION_WITNESS` | [report](../experiments/yolo/gdt856_codeword_unique_decodability/REPORT.md) | 16 | 34.1 KiB | 1 | STRUCTURED_YOLO |
 | GDT855 | leaf_margin_extension_feasibility_after_GDT855 | `NO_EXTENSION_CAN_PRESERVE_QUIRE_CAP_AND_ADD_PHASE_MOBILITY` | [report](../experiments/yolo/gdt855_leaf_margin_source_availability/POST_COUNT_FEASIBILITY.md) | 22 | 401.2 KiB | 2 | STRUCTURED_YOLO |
