@@ -1,0 +1,110 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Candidate capacity only; no held prediction, calibrated null, segmentation mechanism or semantics.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt840_do_label_prose_discovery/src/run.py",
+    "validate": "python3 experiments/yolo/gdt840_do_label_prose_discovery/src/validate.py"
+  },
+  "created": "2026-09-06",
+  "dependencies": [
+    "GDT631",
+    "GDT829"
+  ],
+  "experiment_id": "GDT840",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt829_repeated_passage_reflow_capacity/src/run.py",
+      "role": "frozen_source_or_extractor",
+      "sha256": "49313d7787d74099f7ff8983e379acab091b7d464ce3156b767072a515c5516b"
+    },
+    {
+      "path": "experiments/yolo/gdt829_repeated_passage_reflow_capacity/src/SPEC.json",
+      "role": "frozen_source_or_extractor",
+      "sha256": "690208adf7825ef8e50518bb6187f9392a515dfac7cd08a1cd004528c3caae0c"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "role": "frozen_source_or_extractor",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "role": "frozen_source_or_extractor",
+      "sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0"
+    },
+    {
+      "path": "tools/guarded_tsv_query.py",
+      "role": "frozen_source_or_extractor",
+      "sha256": "eeb8f325b3f7b10ad94eef4907d2d3baaa20bb1b81a9aa36782f96c9008551e3"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt840_do_label_prose_discovery/.gitignore",
+      "role": "source_or_artifact",
+      "sha256": "9b9dc66af90f9ff99fa79101a6e3eb357e4d8b53cafcf51e9a8d2e2e32ca7dbb"
+    },
+    {
+      "path": "experiments/yolo/gdt840_do_label_prose_discovery/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "8f6df3be890d76321ef45931074f988ff8b5ef60474a6fcdbb443ff4341e1800"
+    },
+    {
+      "path": "experiments/yolo/gdt840_do_label_prose_discovery/PREREGISTRATION.md",
+      "role": "source_or_artifact",
+      "sha256": "68fe641c9782d94833d34babc100e41c2cc2485bb8606464c5e9e41b342bf375"
+    },
+    {
+      "path": "experiments/yolo/gdt840_do_label_prose_discovery/README.md",
+      "role": "source_or_artifact",
+      "sha256": "2d97208370247cefe951219a403aca2d6a1950ad128dc56b8a6fcda59f0f9147"
+    },
+    {
+      "path": "experiments/yolo/gdt840_do_label_prose_discovery/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt840_do_label_prose_discovery/src/PREREG_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "1b1fa492b9ddefdc817f9e735a172fb66973ed4b280da9348351f512ccddc0dc"
+    },
+    {
+      "path": "experiments/yolo/gdt840_do_label_prose_discovery/src/SPEC.json",
+      "role": "source_or_artifact",
+      "sha256": "e2c521e5e10f288a65a1b28e1d99ba1d0b8e86c46a1a3e6261c84918fbdbc524"
+    },
+    {
+      "path": "experiments/yolo/gdt840_do_label_prose_discovery/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "a6db1c6f63d9c2a4b4fcbaeaa586f35f8e95e1f6e075c75a840925ad7edc4499"
+    },
+    {
+      "path": "experiments/yolo/gdt840_do_label_prose_discovery/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "fe95ee0fa8aa163b20a4d8c49b1a40386968951801fba5d70db4c805a51e1112"
+    },
+    {
+      "path": "experiments/yolo/gdt840_do_label_prose_discovery/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "342f26658a347192d2933a9752fc5485ad5b9dc1602b68c5d9a0a30cb2f72714"
+    }
+  ],
+  "question": "Does the ofaldo/ofal label/prose surface contrast recur for other bases?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "do_label_prose_discovery",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Exploratory do label/prose contrast",
+  "updated": "2026-09-06",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}
