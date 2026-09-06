@@ -1705,3 +1705,24 @@ would revisit an already stated fine-vision limit. Preserve these sketches as
 unselected ideas, not evidence against broad sorting, shorthand, copying or
 printing families. GDT865 instead tests a specific open boundary of an existing
 positive structural result, with a predeclared consequence for that claim.
+
+
+### Additional source-grounded review after GDT865
+
+No new experiment. GDT184 already describes f57 R2 as four repetitions of a
+17-position reference sequence with one stable binary f/f/p/p column; GDT185
+already rejects its direct sign-presence indexing of the f67v1 seventeen-sector
+wheel. Repeated cardinality alone does not reopen either interpretation.
+The proposed natural comparison at drawing interruptions also has a direct
+predecessor, DIC001:428targets/4143controls and a confirmed distributed structural
+effect, subject to its later below-locus terminology correction. Neither idea
+is ready merely because a lexical route-check failed to retrieve its ID.
+
+A scoped version of IP039 would compare ordinary ligature/ornament with a shared
+written abbreviation across several groups. Its necessary contrast is a genuine
+complementary pair, schematically unlinked A+r B+r versus linked A B under a
+shared sign, replicated across complete bodies. Ordinary non-link components
+must change; the mechanical joining of upper strokes is not an expansion.
+No such pair is established by f56r/f100r/f114r. No qo insertion, component gloss,
+new classifier or image campaign is authorized by this sketch. Status remains
+NOT_READY_MISSING_WRITTEN_COMPLEMENT, not a new abbreviation finding.

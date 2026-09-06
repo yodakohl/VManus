@@ -318,3 +318,23 @@ All1777oldpredictions/features exact;108unaffectedfolds exact. Localaddedgain
 shrinks .001067L/.013356DY. No fulloldnullverdict/significance ortranslation.
 Cachedmetric replay alsoPASS. Resultpublication within09:35budget underway.
 Ten-hourgoal remainsACTIVE until13:40:45UTC; elapsedwork is notruntime.
+
+09:16:26UTC GDT865 result51a038d9 public. Total recorded work08:55→09:16:26,
+21m26including source/programming/validation/publication; pairedfit25.245sec.
+Previous goal turn classified PROGRESS: material reproducible robustness result.
+
+Around09:24UTC bounded navigation maintenance chosen after route-check omitted DIC001:
+legacy search covers only GDT index and closed-family registry; the DIC001 family
+is absent from both. Its old target/correction reports already settle the proposed
+drawing-interruption comparison. Add filename-only exact-ID locator outside
+hash-bound legacy search; no new index, source parsing or scientific verdict.
+Source review also found184/185 directly cover the repeated17-sign proposal.
+GDT865 creates no automatic next fit. Update structure dossier with existing
+DIC001 result and correction so the same omission is less likely to recur.
+Goal remainsACTIVE; no translation progress claimed for this maintenance.
+
+09:26:48UTC exact-ID locator returns17trackedDIC001Markdown pointers, including
+the target report and later terminology correction.43targeted tests PASS.
+Only additive workflow code changed; closed-family TSV and legacy routechecker
+remain byte-unchanged. No target data opened or scored during maintenance.
+Publishing source, regression tests and known-finding navigation updates now.

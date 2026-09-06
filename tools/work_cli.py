@@ -13,6 +13,8 @@ def main(argv: list[str] | None = None) -> int:
     lookup = commands.add_parser('lookup', help='compact metadata pointers; opens no manuscript data')
     lookup.add_argument('identifiers', nargs='+')
     lookup.add_argument('--json', action='store_true', dest='json_output')
+    locate = commands.add_parser('locate', help='exact-ID tracked Markdown filenames only; reads no report contents')
+    locate.add_argument('identifier')
     staged = commands.add_parser('check-staged', help='explicit task scope, not a full global check',
                                  description='Check exact staged privacy/scope and selected experiment bindings. '
                                  'Does not run validators or replace ./vmanus-exp check --all.')
@@ -24,6 +26,13 @@ def main(argv: list[str] | None = None) -> int:
     if args.command == 'lookup':
         try:
             sys.stdout.write(render_lookup(lookup_experiments(args.identifiers), json_output=args.json_output))
+            return 0
+        except ValueError as exc:
+            parser.error(str(exc))
+    if args.command == 'locate':
+        from tools.report_locator import locate_report_paths, render_locations
+        try:
+            sys.stdout.write(render_locations(args.identifier, locate_report_paths(args.identifier)))
             return 0
         except ValueError as exc:
             parser.error(str(exc))

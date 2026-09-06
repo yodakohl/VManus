@@ -13,6 +13,15 @@ primary report and a few usable entry points, without dumping every artifact
 path. It does not open those paths or authorize access to any manuscript page.
 For a new research direction, keep using vmanus-exp route-check first.
 
+For an exact non-GDT ID omitted from that index, use
+`./vmanus-work locate DIC001`. This searches only tracked Markdown filenames,
+with an exact case-insensitive ID boundary; it opens no report or manuscript
+contents. It also finds correction/specification files. Listed paths are
+navigation pointers, not a claim that a report is current or an authorization to
+open sealed data. Consult the current route and relevant corrections before
+using an old result. A missing route-check hit is not evidence of novelty:
+DIC001 is an observed example outside its two source registries.
+
 Do not reload the giant active registry, ledger, complete experiment rows or
 archived logs on every turn. Follow one relevant pointer at a time. Update the
 current-route summaries in place; put history in its existing registry.

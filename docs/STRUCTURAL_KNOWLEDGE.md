@@ -53,6 +53,26 @@ zeigt für zwei explizite Konstruktionen, dass sichere Nachbarschaft allein
 keinen nominalen Anschluss oder eine Wortart bestätigt. Diese Befunde machen
 nicht sämtliche Strukturarbeit falsch.
 
+## Zeichnungsunterbrechungen: ein bereits geprüfter Strukturfall
+
+Ergänzung vom6. September, **kein neuer Versuch**: DIC001 hat Unterbrechungen
+innerhalb transkribierter Zeilen bereits gegen gewöhnliche Zwischenräume geprüft.
+Der [Kapazitätsbericht](../experiments/semantic_assumptions/results/dic001_drawing_interruption_capacity_report.md)
+enthält428dreileser-einheitliche Unterbrechungen und4143Kontrollabstände auf59
+physischen Folios. Der [Zielbericht](../experiments/semantic_assumptions/results/dic001_drawing_interruption_target_report.md)
+findet nach den eingefrorenen Störgrößen eine positive Restdifferenz von0,280449;
+44/59Folios tragen die positive Richtung. Das ist zusätzliche Evidenz für eine
+schriftliche Gliederung an Zeichnungsunterbrechungen, keine neue Satzübersetzung.
+
+Die spätere [Locatorkorrektur](../experiments/semantic_assumptions/DIC001_IVTFF_LOCATOR_TERMINOLOGY_CORRECTION.md)
+ist für die Interpretation zwingend: Die Referenzklasse besteht aus aufeinander
+folgenden numerischen Prosaloci, deren zweiter mit`+P` markiert ist. Das bezeichnet
+einen im Allgemeinen darunterliegenden Locus, keine unabhängig gesicherte
+Fortsetzung eines Satzes oder Diskurses. Der alte Bericht verwendet dafür eine
+zu starke Fortsetzungsbezeichnung. Weder die Zahlen noch die Ereignisse ändern
+sich durch diese Korrektur. Ein neuer Vorschlag zu Schriftneustarts hinter
+Pflanzen muss diesen bereits vorhandenen Befund und diese Grenze berücksichtigen.
+
 ## Satzabschluss
 
 [GDT020](../GDT020_DY_PHASE_COMPILER_REPORT.md) findet bei DY reale

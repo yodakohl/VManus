@@ -78,6 +78,8 @@ replay passes, scientific control fails. Primary reports via compact lookup.
 
 ## Known structure and interpretation limits
 
+DIC001: drawing gaps already show reset-like structure; +P is below-locus, not discourse. Use `vmanus-work locate DIC001`.
+
 `docs/STRUCTURAL_KNOWLEDGE.md`: productive within-group grammar, cross-group
 assembly and positional patterns are established. GDT581's reversible working
 parser does not independently prove all host/POS labels or inherited793 statement
