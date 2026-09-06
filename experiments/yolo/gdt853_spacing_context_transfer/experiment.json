@@ -1,0 +1,99 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exploratory text-level context transfer only; no untouched confirmation, exact null probability, meaning, language or authorial intent.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt853_spacing_context_transfer/src/run.py",
+    "validate": "python3 experiments/yolo/gdt853_spacing_context_transfer/src/validate.py"
+  },
+  "created": "2026-09-06",
+  "dependencies": [
+    "GDT851"
+  ],
+  "experiment_id": "GDT853",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt851_primitive_tandem_raw_group_discovery/experiment.json",
+      "role": "frozen_source_or_extractor",
+      "sha256": "059d30f4374cd0f50cb0d3ed665d3f4f53e4259300a683477592a829c154ac55"
+    },
+    {
+      "path": "experiments/yolo/gdt851_primitive_tandem_raw_group_discovery/src/SPEC.json",
+      "role": "frozen_source_or_extractor",
+      "sha256": "192674c513a6b633f88a5bdd4d4394bf5463139d062a1ae19abc167d2007a241"
+    },
+    {
+      "path": "experiments/yolo/gdt851_primitive_tandem_raw_group_discovery/artifacts/SOURCE_ZL3b.json",
+      "role": "published_source_hash_from_GDT851_manifest_checked_on_GO",
+      "sha256": "73d3a80095d76876da91e67a6c9bd0d46284fdfe62250fccfb7d9dee3c038329"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt853_spacing_context_transfer/.gitignore",
+      "role": "source_or_artifact",
+      "sha256": "9b9dc66af90f9ff99fa79101a6e3eb357e4d8b53cafcf51e9a8d2e2e32ca7dbb"
+    },
+    {
+      "path": "experiments/yolo/gdt853_spacing_context_transfer/METHOD.md",
+      "role": "source_or_artifact",
+      "sha256": "30d386c854622eabedf4568fa2bcfe93f66b1bc2a49b0efd157420b076580618"
+    },
+    {
+      "path": "experiments/yolo/gdt853_spacing_context_transfer/PREREGISTRATION.md",
+      "role": "source_or_artifact",
+      "sha256": "a2140c5a32cb9e5e0c1ad85f2ce22706aa71c793a7509eaba5eb15e45fe4da2e"
+    },
+    {
+      "path": "experiments/yolo/gdt853_spacing_context_transfer/README.md",
+      "role": "source_or_artifact",
+      "sha256": "0da367e3bba7ceb14647699a6030b7ca2596185a7048d2e2914c7af77bc6d1ad"
+    },
+    {
+      "path": "experiments/yolo/gdt853_spacing_context_transfer/artifacts/README.md",
+      "role": "source_or_artifact",
+      "sha256": "4befd17a10e2354270d90de7dd43dda91e96e314c70313e1335a5a99e6b8de3c"
+    },
+    {
+      "path": "experiments/yolo/gdt853_spacing_context_transfer/src/PREREG_LOCK.json",
+      "role": "source_or_artifact",
+      "sha256": "d8a677695fae0412af5636b897c06e8e2f12927d7c6e57006b23e65067076b50"
+    },
+    {
+      "path": "experiments/yolo/gdt853_spacing_context_transfer/src/SPEC.json",
+      "role": "source_or_artifact",
+      "sha256": "92098e0fe9943443e429269407b4f504d0cc75367d7c6951d2ebddcba1494d1e"
+    },
+    {
+      "path": "experiments/yolo/gdt853_spacing_context_transfer/src/bind.py",
+      "role": "source_or_artifact",
+      "sha256": "3fd05ee4f80a1acd0b7f8f44a7684a320f7a83178bb0a9b6255a18bd3b4306da"
+    },
+    {
+      "path": "experiments/yolo/gdt853_spacing_context_transfer/src/run.py",
+      "role": "source_or_artifact",
+      "sha256": "7f768091f9af6c1ac7e6f00cc82ca35f188a8e5de4b8c00d416010955fd19d7d"
+    },
+    {
+      "path": "experiments/yolo/gdt853_spacing_context_transfer/src/validate.py",
+      "role": "source_or_artifact",
+      "sha256": "818ed452363385170fdde95b4bc99860b3764374c84270bc0226a9d6a563b3af"
+    }
+  ],
+  "question": "Does joined versus one-cut spacing predict external neighbors conditional on exact W in matched held-folio pairs?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "spacing_context_transfer",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Exact-unspaced-whole spacing context transfer",
+  "updated": "2026-09-06",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

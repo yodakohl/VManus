@@ -15,7 +15,10 @@ GDT851 finds exact ABAB in all readings at f30r.11 cheor/chey and f8r.19
 shol/kaiin; p2hits4/5/3, p3zero. Written anchors, not copying or meaning.
 GDT852: both native viewers support local space-like vs internal-like seam
 at f75v.44 groups7–8 vs11. Qualitative contrast, not authorial word boundaries
-or meaning.40idea sketches retained; choose a distinct grounded discriminator.
+or meaning. GDT853 is being prepared: exact unspaced W held fixed, can a
+frozen external-neighbor predictor transfer its joined/split distinction?
+Fixed source/position-matched pairs, physical-folio split, capacity before
+scoring; no tuning or causal/semantic inference.40idea sketches retained.
 
 GDT845/846: ee+d prefix direction persists descriptively under section/hand,
 but paired folio support is only f113qo/bare and f104qo/o; no general rule.

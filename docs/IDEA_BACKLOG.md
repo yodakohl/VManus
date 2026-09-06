@@ -926,3 +926,89 @@ replayed primary method. The closed family governs pairwise-preserving
 higher-order residual tests; its title is not a blanket ban on every new
 sequential source question. GDT851s literal census was a different endpoint.
 Do not restart the failed null, strengthen planting or score sealed buckets.
+
+### Bounded review after GDT852: IP007 and IP040
+
+**IP007 bleibt DUPLICATE / kein neuer Auftrag.** Der gezielte Ledger-Eintrag
+`f66r_border_permitted_evidence_audit` (06.08.2026) hält31/32 Zuordnungen und
+bereits fehlgeschlagene Marker-/Bandüberschriften-/f57v-Ordnungsprüfungen fest.
+[GDT515 REPORT](../experiments/yolo/gdt515_second_random_four_page_full_admission/REPORT.md)
+nennt als konkrete Randformen `x` und `c`, aber kein gebundenes Paar
+„dieses Zeichen → genau diese vollständige Textzeile“ und keine neue schriftliche
+Gegenvorhersage. Der fehlende Audit-Primärbericht bleibt fehlend; keine weitere
+Wiederbeschaffungsschleife gestartet. Eine bloße lokale Zeilenkennung und eine
+zeilenbezogene Randannotation können dieselbe Ausrichtung erzeugen. Minimal
+nötig wäre ein bereits belegter zusätzlicher Funktionskontrast, etwa ein
+explizit wiederholtes Verweiszeichen mit unabhängig sichtbarem Ziel; dessen
+Existenz ist hier nicht belegt. Kein neuer Bildtest zur selben Ausrichtung.
+
+**Alternativ IP040 geprüft: NEEDS_DISCRIMINATOR.**
+[GDT849 REPORT](../experiments/yolo/gdt849_two_e_run_grid_discovery/REPORT.md)
+belegt konkret `chckheey` f52v.4 (0/2), `cheecthy` f29r.1 (2/0) und
+`sheecthey` f82v.36 (2/1), jeweils gleiche Ganzform in allen Lesungen. Ein
+obligatorischer wortweiter Gleichlauf beider geschriebenen e-Längen ist bereits
+im Primärbericht als nicht gestützt abgegrenzt; das ist kein neuer Test.
+Eine andere „Harmonie“-Behauptung braucht zuerst eine unabhängig motivierte
+konkrete Klassen-/Stellenregel, die diese Formen unterschiedlich vorhersagt.
+Eine beliebig neu gesuchte Partition würde keine Phonologie identifizieren.
+Route-check `vowel harmony two e positions coupled identical length GDT849`;
+keine neue Rohabfrage oder erneute Rasterzählung.
+
+**STOP für diese Producer-Runde:** Kein belastbarer zusätzlicher Kandidat,
+keine neue ID, keine Daten-/Bild-/Weböffnung. Bestehende Befunde und root-Notiz
+zur IL026-Quellenverfügbarkeit erhalten. Schreibzuständigkeit an root zurück.
+
+### IP012 — Konkreter Dreieranker für die Bildmontage, noch kein Ausführungsauftrag
+
+Status: `REVIEWED_NEEDS_OBSERVATION_CONTRACT`. Keine neue ID.
+[GDT633 REPORT, f20v.7](../experiments/yolo/gdt633_cth_interfix_semantic_contrasts/REPORT.md)
+belegt `shocthy sho cthy daiin ...`: zusammengesetzte Ganzform und beide
+linearen Bestandteile in derselben Quellzeile. f20v ist nach GDT791 bereits
+visuell zugelassen. Der Producer hat weder Aufnahme noch Rohgruppen geöffnet;
+der Bericht liefert nicht für diesen Dreier ausdrücklich einen Dreileserstatus.
+
+**Enger möglicher Discriminator:** Ein strikt additiver graphischer Bauplan
+verwendet in `shocthy` zwei intakte, lediglich platzierte Teilformen, die den
+späteren alleinstehenden `sho` und `cthy` entsprechen. Ein *obligatorisch
+strukturell umbauender* Bauplan verändert dagegen eine Anschlussstelle oder
+ersetzt/teilt einen sichtbaren Strukturteil im Gesamtkomplex. Verglichen würden
+vollständige sichtbare Formen und Verbindungen, nicht Abstände, statistische
+Wortkontexte, Bedeutungen oder Federbewegungen. Ein klar erforderlicher Umbau
+widerspräche dem streng additiven Modell; die Erhaltung beider Teile widerspräche
+nur dem behaupteten obligatorischen Umbau, nicht optionaler Allographie.
+
+**Minimal nächste Beobachtung:** Nach festem Quellen-/Lokalisierungsvertrag
+auf dem zugelassenen Original genau diese drei Komplexe vollständig nativ
+lokalisieren und beschreiben. Zuerst klären, ob alle relevanten Verbindungen
+überhaupt sichtbar sind; danach intakte Teilformen / sichtbarer Umbau /
+unaufgelöst. Noch vor Bildöffnung muss eine konkrete Strukturänderung als
+Umbaukriterium definiert werden; bloße Größen-/Neigungsabweichung zählt nicht.
+Keine Crops, Bildverbesserung, Pixelerkennung oder Glyphen-Neubenennung.
+Zwei getrennte Sichturteile, zehn Minuten einschließlich Bericht/Publikation,
+nur wenn root den Beobachtungsvertrag ausreichend scharf bekommt. Andernfalls
+keine Durchführung. Kein Ersatz für GDT853s getrennte W-/Abstandskontextfrage.
+
+**Nutzen/Grenze:** Allenfalls physische Absicherung oder Einschränkung eines
+lokalen additiven Schreibbausteins. Weder Morphem, Laut, Übersetzung noch
+allgemeiner Chiffremechanismus folgt. Normale Handschrift kann erhaltene und
+umgebaute Formen besitzen; ohne engeren Mechanismus bleibt der Versuch eine
+beschreibende Anschauung. Die native Unterscheidbarkeit ist noch unbekannt.
+
+**Vorgänger:** route-check `gallows bench component insertion crossing stroke
+topology` und `cth shocthy cthy f20v glyph topology intact core prefix`;
+GDT631/GDT633 REPORT direkt gelesen. Die dortigen Kompositionsdeutungen sind
+keine nativen Montagebefunde. GDT633s REPORT beschreibt f20v.7 als
+Textbeispiel mit Arbeitslesung, nicht als eigene native Betrachtung der drei
+Komplexe; das schließt unbekannte ältere Bildbeobachtungen nicht aus.
+Ein wichtiges Neuheitsrisiko ist die mögliche Wiederbeschreibung längst
+bekannter Ligaturkonstruktion. Es wird keine perfekte pixelgleiche Wiederholung
+von Handschrift erwartet, sondern allenfalls erhaltene Anschlussstruktur. CLOSED_ROUTE_FAMILIES
+`CURRENT_STA_DISAGREEMENT_VISIBLE_SHAPE_ATLAS` und Ledger1656–1660 halten
+IGR002s gescheiterten groben Signaturtransfer samt ungesicherten Zuordnungen
+fest. Keine solche Signaturklassifikation, Wiederzuordnung oder Schwellenänderung
+vorschlagen. Der alte IGR002-Primärbericht wurde hier nicht als gelesen
+behauptet; vor einer neuen Atlas-/Transferstudie wäre dessen Vertrag nötig.
+
+Eine konkret vorbereitbare Beobachtung, null neue READY-Kandidaten; keine
+weitere Quote ergänzt. Alle früheren STOP-/Quellenhinweise bleiben erhalten.
+Schreibzuständigkeit an root zurückgegeben.

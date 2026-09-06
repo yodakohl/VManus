@@ -38,3 +38,16 @@ The support is physical/qualitative, not a word meaning. Result public8641538d.
 IL026 primary files remain unavailable; preserved registry evidence describes
 a failed synthetic power gate, not a general ban on sequential observations.
 The last goal continuation made material progress; goal remains ACTIVE.
+
+04:55UTC decision checkpoint: prepare GDT853, asking whether exact external
+raw-group contexts transfer a joined/split distinction while the complete
+unspaced string is fixed. GDT605 tests learned-unit boundary crossing;
+GDT839 tests shifted two-group cuts; GDT850 inventories one string. None
+supplies this conditional held-folio endpoint. GDT852 motivates the question,
+not its answer. Use the existing179selector GDT851 cache, no new images.
+Before scoring, require fixed matched-pair capacity across physical folios;
+success would retain spacing as useful for this context channel, failure
+would stop this fixed predictor, and insufficient capacity stops the route
+without relaxing matching. Previously exposed pages make this exploratory
+transfer, not an untouched confirmation. Budget20minutes including publication;
+review protocol before first new data execution. No semantic inference.
