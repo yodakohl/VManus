@@ -14,9 +14,9 @@ claim, refit or measured score penalty.809 contact/model keys also retainr/v.
 Primary via lookup858; old source bytes preserved. No automatic model rerun.
 
 GDT859:f56r.1 upperlink seenby2viewers; firstgroupseam definitein3readings.
-ZL/RF@167/@168 versus ITt retained. Rootonly manualalignment links these;
-no sharedglyph, penmotion or meaning.850joined/split28loci;851ABAB2all-reader
-loci;852native75v.44 seamcontrast. No generalword-boundary licence.
+ZL/RF@167/@168 versus ITt retained; rootonly alignment, no glyph/meaning.
+860adds textlocators f100r.12(168,ZL/RF),f114r.1(167,RF); no new image/pair.
+850joined/split28loci;851ABAB2loci;852native75v.44 seamcontrast. No wordhood.
 GDT853:25W qualify, zero held pairs meet fixed source/start-index matching;
 no predictor or automatic looser pairing. GDT854:146events,14mixed cells;
 CKH one-e positions vary within9folios, CTH onlyf83. Cross-kernel capacity

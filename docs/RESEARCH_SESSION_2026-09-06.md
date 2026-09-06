@@ -231,3 +231,5 @@ entity-pair route; newlocators→only prospective native-candidate review, not
 automaticadmission or relationcredit. Preserve mentions within uncertainty as
 mentions, not physicaloccurrences; ITabsence is not visualabsence.10min total
 budget to08:10:31UTC, sourcecode/protocol publicbeforeexpandedtargetread.
+
+08:08UTC GDT860 finds twoadditional textlocators f100r.12(168ZL/RF),f114r.1(167RF); noadditional linewithboth.7literalmentions5readerlines total. Source-only discovery, noimage/admission/physicalrelation. Publicfreeze64a428f1, independentfindvalidation+regexreplayPASS. Publishingbefore08:10:31totalbudget. GoalACTIVE until13:40:45UTC.

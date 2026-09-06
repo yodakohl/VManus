@@ -6,6 +6,19 @@ Updated: 2026-09-06. This is the full claim registry. For routine work, read
 
 ## Outcome
 
+### GDT860 additional entity locators (2026-09-06)
+
+Primary: `experiments/yolo/gdt860_extended_bar_entity_recurrence/REPORT.md`.
+Frozen179selector literalmention census: ZL167/168 counts1/2, RF2/2, IT0/0.
+Outsideknownf56r.1: f100r.12 has168 inZL/RF; f114r.1 has167 inRF only.
+Sevenmentions/five readerlines; onlyf56r.1 containsboth. No new physicalpair.
+ZLf100r.12 splits before168 withUNCERTAIN_SMALL_SPACE; RF keeps the longer
+`{c@132;h}da@168;oto` group. RFf114r.1 has `o@167;aiin`. Full rawlines,
+metadata, annotationflags and offsets retained. ITzero is not physicalabsence.
+No image/admission, glyphidentity, replacement, meaning or automaticfollowup.
+Independent literal-find validation and exact regexreplayPASS.
+
+
 ### GDT859 initial upper link and separator coexistence (2026-09-06)
 
 Later local-convention audit: `docs/source_conventions/F56R_ENTITY_CONVENTIONS.md`.

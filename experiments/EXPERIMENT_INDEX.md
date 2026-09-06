@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **859**
-- Experiment-associated tracked files: **16,095** (1.4 GiB)
+- Experiment-associated tracked files: **16,099** (1.4 GiB)
 - Structured GDT337+ experiments: **524**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT860 | Literal extended entity recurrence discovery | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt860_extended_bar_entity_recurrence/REPORT.md) | 13 | 21.4 KiB | 1 | STRUCTURED_YOLO |
+| GDT860 | GDT860 | `ADDITIONAL_TEXT_LOCATORS_ONLY` | [report](../experiments/yolo/gdt860_extended_bar_entity_recurrence/REPORT.md) | 17 | 39.5 KiB | 1 | STRUCTURED_YOLO |
 | GDT859 | GDT859 | `LOCAL_NATIVE_AND_TRANSCRIPTION_AUDIT_COMPLETE` | [report](../experiments/yolo/gdt859_f56r_initial_bar_separator/REPORT.md) | 21 | 45.0 KiB | 1 | STRUCTURED_YOLO |
 | GDT858 | GDT858 | `PRIMARY_FACE_HOLDOUT_RETAINS_OPPOSITE_LEAF_FACE` | [report](../experiments/yolo/gdt858_folio_holdout_unit_audit/REPORT.md) | 18 | 1.9 MiB | 3 | STRUCTURED_YOLO |
 | GDT857 | GDT857 | `NONSINGLETON_CYCLIC_POOL_COUNTEREXAMPLE_FOUND` | [report](../experiments/yolo/gdt857_cyclic_inventory_triple_bound/REPORT.md) | 17 | 71.0 KiB | 1 | STRUCTURED_YOLO |
