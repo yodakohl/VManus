@@ -1500,3 +1500,18 @@ Auswahl zwischen zwei Antezedenten. Kein neuer fester Gegenvertrag aus dieser
 Quelle; IP023 wird nicht durch Umbenennen des alten Gleichstands aktiviert.
 Ein Primärbericht, keine weitere Suchkette, Datenöffnung oder neue ID.
 Schreibzuständigkeit zurück bei root.
+
+### IP026 — hierarchy is an overlay, no new nested ownership contrast
+
+REVIEWED_NO_NEW_INDEPENDENT_NESTING_ANCHOR. Root read GDT790 and GDT791
+primary reports after route-check `nested enclosure text ownership panel hierarchy`.
+The ten panels/thirteen records already provide the inherited page > panel >
+record overlay. GDT791 says all ten exact label/prose bridges cross panel
+owners, including the three same-page bridges, with zero merge/meaning credit.
+Neither report supplies a newly author-marked nested enclosure that independently
+selects one of two possible caption owners. GDT790's silent-topic interpretation
+is a working model, not that missing observation. BFE001's direct capacity
+validation separately preserves40locations,16/24states,onlyf82mixed andp-floor.5;
+that does not license a renamed enclosure-state test. No new images, raw text,
+owner assignment, semantic edge or test. Reopen only for a concrete independently
+marked nested relation, not another hierarchy fit or adjacency interpretation.
