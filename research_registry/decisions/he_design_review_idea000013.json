@@ -1,0 +1,43 @@
+{
+  "record_id": "IDEA000013",
+  "scope": "method",
+  "verdict": "not_tested",
+  "reviewer": "root source and logical implication review",
+  "reason": "An operation need not explicitly name its result within two fields. Result mention can be implicit, delayed, conditional or at another record; matched opaque/material controls are not guaranteed semantic negatives. The75percent/15point rule adds an overt-local-result convention. No semantic test selected. GDT702 supplies an inherited occurrence-bound relation; GDT703/705/706/707/708/709 already expand this lineage. GDT763 concerns a different pcheey result candidate and is not the direct successor or a general operation-latency disproof.",
+  "assessment_basis": "compound_design_scope_review_no_manuscript_test",
+  "blockers": [
+    {
+      "code": "missing_design",
+      "detail": "Given independently warranted field boundaries/types and a separately motivated overt-result convention, test the fixed short-latency compound model. Failure then concerns that conjunction, not operation meaning alone.",
+      "evidence": [
+        "research_registry/decisions/he_root_top_raw_scope.json"
+      ]
+    },
+    {
+      "code": "missing_meaning_binding",
+      "detail": "A concrete target and independently justified mapping/encoding assumptions that make a contrary result change a meaningful research decision; no automatic relaxed thresholds or new control corpus.",
+      "evidence": [
+        "research_registry/decisions/he_root_top_raw_scope.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "concrete_compound_contract",
+        "change": "new_design",
+        "detail": "Given independently warranted field boundaries/types and a separately motivated overt-result convention, test the fixed short-latency compound model. Failure then concerns that conjunction, not operation meaning alone. A concrete target and independently justified mapping/encoding assumptions that make a contrary result change a meaningful research decision; no automatic relaxed thresholds or new control corpus.",
+        "evidence": [
+          "research_registry/decisions/he_root_top_raw_scope.json"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Failure of an arbitrary surface threshold interpreted as a lexical counterexample.",
+      "Independent annotator labels that merely reuse the old German meanings.",
+      "A changed latency/uniqueness threshold without a different meaningful research decision."
+    ]
+  },
+  "relations": []
+}

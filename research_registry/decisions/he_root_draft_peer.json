@@ -1,0 +1,47 @@
+{
+  "review_id": "HE_ROOT_SCOPED_QUESTION_DRAFT_PEER",
+  "status": "LOGIC_SCOPE_PEER_REVIEW",
+  "decisions": [
+    {
+      "decision_key": "FAILURE_HE:QOPCHEDY_MANDATORY_RESULT_SUPERSEDED",
+      "verdict": "approve",
+      "reason": "The draft correctly treats GDT826 as a logical scope correction: GDT825's material-result obligation assumes noun/subject and result roles that were not decoded. The fronted-property countermodel preserves chedy=becomes without selecting wood or charcoal.",
+      "evidence": [
+        {"path":"experiments/yolo/gdt826_dar_material_property_contrast/REPORT.md","line":7,"line_end":7,"quote":"GDT825 said dar.chedy.qopchedy required wood/charcoal to work as a result.","sha256":"5a4d0114f16bb1b60d0b9b02b299984632a54f5b3a00ccbc7378dbdcaf325a2d"},
+        {"path":"experiments/yolo/gdt826_dar_material_property_contrast/REPORT.md","line":10,"line_end":10,"quote":"would give another possible account with the SAME becomes meaning:","sha256":"5a4d0114f16bb1b60d0b9b02b299984632a54f5b3a00ccbc7378dbdcaf325a2d"}
+      ]
+    },
+    {
+      "decision_key": "FAILURE_HE:DAR_DRY_WATER_ATTACHMENT",
+      "verdict": "approve",
+      "reason": "The draft correctly makes the conflict conditional on direct attachment of dar to physical water. GDT826 explicitly says adjacency does not prove attachment, so neither DRY is refuted nor EARTH selected.",
+      "evidence": [
+        {"path":"experiments/yolo/gdt826_dar_material_property_contrast/REPORT.md","line":39,"line_end":39,"quote":"   not seven independent observations. If dar directly qualifies physical","sha256":"5a4d0114f16bb1b60d0b9b02b299984632a54f5b3a00ccbc7378dbdcaf325a2d"},
+        {"path":"experiments/yolo/gdt826_dar_material_property_contrast/REPORT.md","line":42,"line_end":42,"quote":"   alone does not prove that attachment, so the word candidate itself is not","sha256":"5a4d0114f16bb1b60d0b9b02b299984632a54f5b3a00ccbc7378dbdcaf325a2d"}
+      ]
+    },
+    {
+      "decision_key": "FAILURE_HE:A017_SHORT_PREFIX_HOLD",
+      "verdict": "approve",
+      "reason": "The scoped hold is logically supported: A017 remains a plausible short patient reading while the middle stage is absent; the third item introduces cold grade-start. This is a local path stop, not a lexical or empirical meaning refutation.",
+      "successor_assessment": "GDT709 is correctly described only as a completed 42-window funnel/census with no new edge. It does not independently correct or rescue A017; its next-gate suggestion is prospective, not a result.",
+      "evidence": [
+        {"path":"experiments/yolo/gdt706_v79_second_nominal_item_result_census/REPORT.md","line":61,"line_end":61,"quote":"| A017 | getrockneter Krautanteil I | the herb preparation is a plausible patient, but the middle stage is absent |","sha256":"436022e3e1732981ee1c0ec701b98f4838bec68a3e4fb9bd8d215b974f160957"},
+        {"path":"experiments/yolo/gdt708_v81_variable_batch_terminal_product/REPORT.md","line":53,"line_end":53,"quote":"- A017 contradicts middle degree with cold grade-start;","sha256":"8b5ab065af225d0272109687c5624949997152f688cf5eb74dbc246318496785"},
+        {"path":"experiments/yolo/gdt709_v82_complete_first_terminal_product_census/REPORT.md","line":36,"line_end":36,"quote":"It is not yet an edge. `Hinzunehmen` does not itself produce drying or closure;","sha256":"8ebf1d0a20ad1f50d0ed8185b8d65637936626e43fe09f1b0fc2147ba64a5e0d"}
+      ]
+    },
+    {
+      "decision_key": "FAILURE_HE:A029_SHORT_PREFIX_HOLD",
+      "verdict": "approve",
+      "reason": "The scoped hold is logically supported: A029 retains a short working reading, but the extension adds an unlicensed measured completed middle-stage product. That mismatch stops the tested path without refuting any word meaning.",
+      "successor_assessment": "GDT709's exhaustive census does not add an A029 edge or independent binding; it preserves the distinction between locally readable endpoint phrases and blocker-free causal paths.",
+      "evidence": [
+        {"path":"experiments/yolo/gdt706_v79_second_nominal_item_result_census/REPORT.md","line":59,"line_end":59,"quote":"| A029 | leicht erhitzter Ansatzstoff | `dar` supplies a share, but measurement is not licensed and *leicht* is not mirrored exactly |","sha256":"436022e3e1732981ee1c0ec701b98f4838bec68a3e4fb9bd8d215b974f160957"},
+        {"path":"experiments/yolo/gdt708_v81_variable_batch_terminal_product/REPORT.md","line":52,"line_end":52,"quote":"- A029 adds a new dry, measured, completed middle-stage product;","sha256":"8b5ab065af225d0272109687c5624949997152f688cf5eb74dbc246318496785"},
+        {"path":"experiments/yolo/gdt709_v82_complete_first_terminal_product_census/REPORT.md","line":57,"line_end":57,"quote":"Likewise, “nine endpoints” does not mean nine blocker-free causal paths. A005,","sha256":"8ebf1d0a20ad1f50d0ed8185b8d65637936626e43fe09f1b0fc2147ba64a5e0d"}
+      ]
+    }
+  ],
+  "overall": "Approve all four scoped decisions. For A017/A029, retain the short-prefix holds and explicitly characterize GDT709 as a census with zero relation-edge addition, not as an independent successor meaning test. No evidence supports lexical promotion or a new relation."
+}

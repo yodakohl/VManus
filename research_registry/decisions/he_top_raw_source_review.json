@@ -1,0 +1,64 @@
+{
+  "title": "Primary-source review of IDEA000014 and IDEA000013",
+  "status": "SOURCE_REVIEW_COMPLETE_NO_SELECTION",
+  "method": "Programmatic SHA-256 and line extraction from the primary reports/methods; route-check and lookup performed for GDT760, GDT702, GDT703, GDT763, and GDT804.",
+  "reviews": [
+    {
+      "idea": "IDEA000014",
+      "question": "Does an amount frame bind exactly one measured entity?",
+      "primary": {
+        "id": "GDT760",
+        "report": "experiments/yolo/gdt760_quantity_bilateral_content_attachment/REPORT.md",
+        "report_sha256": "a58f98014700da93e4d8e3db2a8e7a16d94b110313649f0a7f2a7952a8d6cfdd",
+        "method": "experiments/yolo/gdt760_quantity_bilateral_content_attachment/METHOD.md",
+        "method_sha256": "24df46017dee5b075d2a655ef6ec6f7b51a6a64b27523b69985ace5a1cf0824a",
+        "quotes": [
+          {"file":"METHOD.md","lines":"15-23","text":"Die Mengenmenge ist vollständig und mechanisch definiert: ... zusammen 281 Ausdrücke auf 98 bereits im Cache vorhandenen Seiten. ... Die sieben GDT759-Grenzbrücken zählen nicht als unabhängige Zeugen."},
+          {"file":"METHOD.md","lines":"27-37","text":"Für jeden Mengenausdruck werden genau der unmittelbar linke und rechte Platz betrachtet. ... Ein exakter Stoff-/Zubereitungskontakt erzeugt eine einmalige Mengenphrase; zwei Kontakte am selben Ausdruck bleiben als bilateral mehrdeutig sichtbar."},
+          {"file":"REPORT.md","lines":"10-21","text":"Die ursprünglich geplante Regel „Zutat steht links von der Menge“ ist falsch. ... Das ist keine allgemeine Sprachwortstellung. Es ist eine unmittelbar ausführbare Readerregel für genau diese Mengenformen."},
+          {"file":"REPORT.md","lines":"68-81","text":"Wasser und Wein treffen dieselben sechs Feuchtfamilien-Stellen. ... Sechs Trockenstoffkontakte sind mit Pulver vereinbar, identifizieren aber keines der Wörter als Pulver."}
+        ]
+      },
+      "independent_binding": "unknown",
+      "assessment": "GDT760 independently supplies a complete amount-expression census and bounded immediate-neighbor contacts, but its MATERIAL/PREPARATION axes and whole-word candidates are inherited working annotations, not independent measured-entity gold bindings. Therefore the one-to-one conservation hypothesis is not entailed by GDT760; it adds a new constraint requiring independently annotated amount, entity multiplicity, and coordination.",
+      "later_correction": {
+        "id": "GDT804",
+        "status": "PARTIAL__...__0_GDT760_CLEAN_CONTENT_CONTACTS__...__CONTENT_SLOT_UNRESOLVED",
+        "report": "experiments/yolo/gdt804_bracket_middle_independent_field_bridge/REPORT.md",
+        "report_sha256": "9f66d00da23ba8d54aed193ae59e9a5d67616df7a3228ab8547f0185618e4748",
+        "quote": "Das sind **keine automatisch lizenzierten Inhaltsplätze**: Keine der fünfzehn ausgewählten Mittelformseiten war in GDT760 bereits ein sauberer CONTENT_PREP-Kontakt. ... Damit fällt der behauptete einheitliche Stoffslot weg.",
+        "implication": "GDT804 corrects any assumption of a universal amount-side content slot, but does not test or establish one-to-one amount/entity conservation."
+      },
+      "recommendation": "Retain raw as a conditional quantitative proposal only. First freeze independent entity multiplicity and coordination labels; do not describe GDT760's 45 contacts as independent measured-entity bindings."
+    },
+    {
+      "idea": "IDEA000013",
+      "question": "Does an operation predict a result/state within two fields?",
+      "primary": {
+        "id": "GDT702",
+        "report": "experiments/yolo/gdt702_v75_exact_written_result_contrast/REPORT.md",
+        "report_sha256": "d415efefc3cd895d74a7903e27976407945046a5817987e3f88096a2e605247d",
+        "method": "experiments/yolo/gdt702_v75_exact_written_result_contrast/METHOD.md",
+        "method_sha256": "06dca1b97525f8d9e6e15eabe244fa6c159b747371cebff04d131d8f071cfd1e",
+        "quotes": [
+          {"file":"METHOD.md","lines":"5-12","text":"The census asks for one occurrence-bound C012 link without generalizing adjacency, action surface, or morphology."},
+          {"file":"METHOD.md","lines":"20-29","text":"The prior result label is current graph state, not independent semantic evidence; a result-state candidate identifies no producing action."},
+          {"file":"REPORT.md","lines":"3-5","text":"Eleven target actions yield seven nominal blocks, three further actions, one line end, and one exact written result."},
+          {"file":"REPORT.md","lines":"71-79","text":"The relation is occurrence-bound; it is not an action-output rule and not externally confirmed plaintext."}
+        ]
+      },
+      "independent_binding": "no for the proposed general latency claim; partial/occurrence-bound for one relation",
+      "assessment": "GDT702 supports one tightly bounded action-to-written-result relation, but explicitly refuses an action-surface or general adjacency rule. It does not entail a universal two-field result latency: an operation may have an implicit, delayed, or cross-record result, and the existing result label is partly inherited working state.",
+      "later_correction": {
+        "id": "GDT763",
+        "status": "PARTIAL__...__RESULT_DOWNGRADED_ZERO_PROCESS_CLOSE_WITHIN_PLUS_MINUS3__...",
+        "report": "experiments/yolo/gdt763_h1_content_vs_record_discriminator/REPORT.md",
+        "report_sha256": "a18fe25b661e5a69fd84799a45dad01c50a512a71468f9fc6e35398421534650",
+        "quote": "None has a reader-exact `PROCESS`, `PASS`, or `CLOSE` role within three slots on either side. ... A residue remains imaginable, but it is no longer a sensible default.",
+        "implication": "GDT763 directly narrows result claims by rejecting a local process-close expectation, while retaining a content/record-field interpretation. GDT703 broadens the census to 83 action clauses but still counts only seven finished-state firsts; it is a coverage extension, not support for a fixed two-field latency."
+      },
+      "recommendation": "Repair the proposal before selection: replace the fixed two-field prediction with an explicitly bounded, occurrence-level result relation, or preregister alternative latency scopes. Do not use failure of the two-field threshold as a falsifier of operation semantics."
+    }
+  ],
+  "overall": "Both ideas remain raw. GDT760 provides quantitative opportunity and position-conditioned contacts, not independent entity binding. GDT702 provides one occurrence-bound relation and explicitly blocks generalization; GDT763 is the key later narrowing correction for result claims."
+}

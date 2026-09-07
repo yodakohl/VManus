@@ -1,0 +1,468 @@
+{
+  "review_id": "HE_SCOPED_QUESTION_APPEND_PACKET",
+  "decisions": [
+    {
+      "id": "FAILURE_HE:QOPCHEDY_MANDATORY_RESULT_SUPERSEDED:v1",
+      "decision_key": "FAILURE_HE:QOPCHEDY_MANDATORY_RESULT_SUPERSEDED",
+      "revision": 1,
+      "previous_revision": null,
+      "status": "reviewed_scoped_context",
+      "review_status": "reviewed_scoped_context",
+      "reviewer": "root primary contract and successor review",
+      "targets": [
+        "SEM:da39b9dd7e5b843334ef"
+      ],
+      "card_basis": {
+        "SEM:da39b9dd7e5b843334ef": "a901a550efe8a5105cafabdffd5baacfc382e867c1919816af91af8fa16e4958"
+      },
+      "effective_basis": {
+        "SEM:da39b9dd7e5b843334ef": "6eef36adb15593e6427302216383ac276a664515aee39a9d662e792898981a4d"
+      },
+      "source_case_ids": {
+        "SEM:da39b9dd7e5b843334ef": [
+          "CLEAN_GAP_BP:wood_charcoal_source_result_contrast"
+        ]
+      },
+      "original_assertion": {
+        "SEM:da39b9dd7e5b843334ef": "GDT825 keeps wood and charcoal as rival qopchedy materials: conditional on the other guessed meanings, f81r.20 admits either as a possible source for fire, while the ZL/IT f76r.51 fragment requires that material to be a result if chedy means becomes. Dar is not identified as wood, RF lacks the exact target whole in the second fragment, and fuel compatibility selects neither material."
+      },
+      "claim": "Does keeping chedy=becomes force qopchedy to be the material result at f76r.51?",
+      "scope": "GDT825 wood/charcoal models at f81r.20 and ZL/IT f76r.51, corrected by GDT826; exact wholes, RF .51 opaque.",
+      "reason_class": "invalid_inference_corrected_by_successor",
+      "actually_tested_falsifier": "GDT825 assumes dar is a source/subject and the following material a result. GDT826 gives a fronted-property/postverbal-subject alternative with the SAME becomes meaning; mandatory result does not follow. This is a logical correction, not a capacity stop.",
+      "outcome": "The result-only obligation is superseded; no fronted-property rule is confirmed. Both materials remain C0. Charcoal was added after full reading, not independently predicted. Fuel compatibility selects neither; unknown dar cannot be supplied as wood to complete a story.",
+      "claim_ceiling": "No independent lexical identification, automatic status propagation, new source reading or manuscript result. Historical source assertions remain preserved.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt825_qopchedy_physical_wood_trial/REPORT.md",
+          "line": 5,
+          "line_end": 9,
+          "quote": "Two concrete models, kept separate at every occurrence:\nqopchedy=Holz? (physical woody material) or qopchedy=Holzkohle? (charcoal,\nnot mineral coal/ash). No generic fuel/drug/action gloss. All other GDT824\nmeanings and both raiin senses stay fixed. Wood was proposed before the target\ninventory; charcoal was explicitly added after the full reading, motivated by",
+          "sha256": "9e37a904b79869e8a06df826b05aa4ad1943548152ee3a02232923078e6c1ce0"
+        },
+        {
+          "path": "experiments/yolo/gdt825_qopchedy_physical_wood_trial/REPORT.md",
+          "line": 25,
+          "line_end": 37,
+          "quote": "\nThe first fragment admits either material as a possible source, conditional\non the other guessed meanings and attachment. The second imposes the useful\nopposite obligation: explain that material as a **result** if chedy is becomes.\nIt cannot be rewritten “heat wood” or “wood burns.” RF has qopched@222; there,\nnot the exact target whole. No source substance has been decoded in .51.\n\nCharcoal's interpretation might suggest formation from wood, but the written\ndar has not been identified as wood. Supplying that meaning merely because it\nwould complete the charcoal story would be circular. Conversely, the unclear\nclause does not establish that formation of wood is impossible. Thus neither\nmaterial wins on the actually readable content. Fuel compatibility alone does\nnot distinguish these two or identify the word; other meanings remain possible.",
+          "sha256": "9e37a904b79869e8a06df826b05aa4ad1943548152ee3a02232923078e6c1ce0"
+        },
+        {
+          "path": "experiments/yolo/gdt826_dar_material_property_contrast/REPORT.md",
+          "line": 5,
+          "line_end": 22,
+          "quote": "## Correction to GDT825\n\nGDT825 said dar.chedy.qopchedy required wood/charcoal to work as a result.\nThat conclusion was too strong. It assumes dar is a noun/subject and the\npostverbal material is a result. Neither role is decoded. A fronted property\nwould give another possible account with the SAME becomes meaning:\n\n```text\nf76r.51 ZL/IT: ... [opchdy] dar chedy qopchedy [tail]\nEARTH:  ... [opchdy] Erde?    wird? Holz?/Holzkohle? [tail]\nDRY:    ... [opchdy] trocken? wird? Holz?/Holzkohle? [tail]\n```\n\n“Trocken wird Holz” exemplifies the second parse: wood can be the subject,\ndry the resulting property. This is an illustrative German arrangement, not\ndiscovered Voynich syntax. It removes the claimed necessity of manufacturing\nwood/charcoal, not all other possible source/result analyses. Old GDT825 files\nremain reproducible; its **mandatory-result claim is superseded here**.",
+          "sha256": "5a4d0114f16bb1b60d0b9b02b299984632a54f5b3a00ccbc7378dbdcaf325a2d"
+        }
+      ],
+      "reopening": {
+        "status": "REVIEW_REQUIRED_NOT_TEST_READY",
+        "assessed_by": "curation_review",
+        "criteria_origin": "Source-specific current reviewer synthesis, not a new or recovered original preregistration.",
+        "all_of": [
+          "Independently constrain the exact .51 subject/property/result attachment before imposing a material-result obligation.",
+          "Distinguish a source correction from a new construction/lexical test; fix a discriminant for wood versus charcoal."
+        ],
+        "not_sufficient": [
+          "Repeating that a material follows becomes.",
+          "Treating the German countermodel as recovered Voynich order.",
+          "Counting trial vectors or alternate readings as independent meaning witnesses."
+        ]
+      },
+      "automatic_card_status_propagation": false,
+      "empirical_meaning_refutation": false,
+      "review_artifacts": [
+        {
+          "path": "research_registry/decisions/he_root_scoped_question_draft.json",
+          "sha256": "a1d0d01ce3fefed86b280a8056abf09d958d208e061dce955a23d39827955731"
+        },
+        {
+          "path": "research_registry/decisions/he_root_draft_peer.json",
+          "sha256": "553243aee9b32d35ccb1a36a1af258b8c29a58d691571aad5070014f78a9bedc"
+        },
+        {
+          "path": "research_registry/decisions/he_physical_scope_peer.json",
+          "sha256": "564952085341f90114c6944863bc1a0cdb539d8ced6ab13238b211fce0976270"
+        }
+      ],
+      "peer_scope": "Root-draft peer explicitly assesses4questions; earlier physical peer covers fire as well. Earlier physical DAR snippets concatenate noncontiguous lines and are not operative proof. Root evidence is exact and independently validated."
+    },
+    {
+      "id": "FAILURE_HE:DAR_DRY_WATER_ATTACHMENT:v1",
+      "decision_key": "FAILURE_HE:DAR_DRY_WATER_ATTACHMENT",
+      "revision": 1,
+      "previous_revision": null,
+      "status": "reviewed_scoped_context",
+      "review_status": "reviewed_scoped_context",
+      "reviewer": "root primary contract and successor review",
+      "targets": [
+        "SEM:14503a9dcac4f795d53d",
+        "SEM:d739885e2cea654c87f5"
+      ],
+      "card_basis": {
+        "SEM:14503a9dcac4f795d53d": "4a06e6448dde389958d848019a66f9fc7179a89ba7a1fbd5ab51d0b950a66e2b",
+        "SEM:d739885e2cea654c87f5": "1218e6cf0df3690ca4515d19e58bde487b3ff8b2085f8505b22772206a18ab4c"
+      },
+      "effective_basis": {
+        "SEM:14503a9dcac4f795d53d": "a942fe9ecedf87fbbad75b52cf59dfa0f4e1dacdabdb568720a70635c9ac6044",
+        "SEM:d739885e2cea654c87f5": "75821316a422b063aa90c3e248c9b0a8d41409267e912a8a8b1cd0145792aaa0"
+      },
+      "source_case_ids": {
+        "SEM:14503a9dcac4f795d53d": [
+          "REPORT_PROPOSAL:2db33b6a224922b0b74a"
+        ],
+        "SEM:d739885e2cea654c87f5": [
+          "REPORT_PROPOSAL:c6d188e22269a0d59c9d"
+        ]
+      },
+      "original_assertion": {
+        "SEM:14503a9dcac4f795d53d": "dar → Erde?",
+        "SEM:d739885e2cea654c87f5": "dar → trocken?"
+      },
+      "claim": "Does physical-dry dar contradict physical-water qokain, and does that select earth?",
+      "scope": "GDT826 EARTH/DRY in inherited fixed water/becomes/material/raiin worlds; three water-dar locations, exact wholes only.",
+      "reason_class": "conditional_attachment_conflict_missing_binding",
+      "actually_tested_falsifier": "Three locations yield seven alternate-reading contacts. Low physical moisture is incompatible IF dar directly qualifies physical water under the fixed senses. Adjacency does not establish attachment. Unknown contexts are neither successes nor disproof.",
+      "outcome": "Do not adopt a universal previous-noun attachment rule with the fixed DRY/water readings. DRY alone is not empirically refuted; EARTH is not selected by avoiding that conditional conflict. Both remain C0.90templates/720vectors are accounting, not720semantic tests.",
+      "claim_ceiling": "No independent lexical identification, automatic status propagation, new source reading or manuscript result. Historical source assertions remain preserved.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt826_dar_material_property_contrast/PREREGISTRATION.md",
+          "line": 7,
+          "line_end": 24,
+          "quote": "Two exact-whole candidates, fixed before this pass's dar census:\nEARTH dar=Erde? physical soil/earth material, not the planet or generic matter;\nDRY dar=trocken? low physical moisture, not humoral dryness, warm, dried drug,\nan instruction to dry, or an adverb meaning thoroughly. No Latin-initial clue.\nBoth keep chedy=becomes and all GDT825 meanings. Both qopchedy materials and\nboth raiin senses remain separate: 2 dar ×2 material ×2 raiin models.\n\nThe property interpretation may allow qopchedy as postverbal subject at .51,\nbut do not install a general word-order rule or claim a grammatical parse.\nDry water contacts and dar repetitions, already noticed in earlier readers,\nmust be retained. Do not evade them with a sense switch or automatic clause\nboundary. No export to darom,dardardy,chedar or d/ar. No new image/admission.\n\nUse exact dar in cached GDT822320contexts only, complete containing paragraphs,\nall three native alternate readings. Not all39 census. Compare known material\ncontacts and front/back positions; unknown neighbours are neither successes\nnor disproof. C0 meanings only. No source material or word class is identified.\nGDT788's older al/dal/ar/dar lattice is not a license for these whole meanings.",
+          "sha256": "4ef60755581ea817a6fc60109f3434ee3437fc6b9a8ae961b07d67845444f727"
+        },
+        {
+          "path": "experiments/yolo/gdt826_dar_material_property_contrast/REPORT.md",
+          "line": 26,
+          "line_end": 43,
+          "quote": "dar=Erde? means physical soil/earth, not generic matter or the planet.\ndar=trocken? means low physical moisture, not humoral dryness, warm, thoroughly,\na dried drug, or the command dry. No relation to EVA d/ar or Latin initials.\nBoth were proposed before the new inventory; some motivating contexts had\nalready been seen in earlier readers. Old qopchedy and raiin models remain\nseparate, giving eight combinations, not eight independent tests.\n\n1. **f76r.9** ZL/IT `... [lkain] chedy dar [daly]` permits\n   `... wird? trocken? ...` or `... wird? Erde? ...`. The former is a local\n   property-compatible contact distinct from .51, but lkain's role is unknown.\n   RF has @152;ar, not the exact dar whole. No subject is supplied.\n2. **Three water contacts**: qokain.dar at f75r.32 (ZL/RF), f75r.35 (all3),\n   f76r.29 (ZL/IT). These are three physical locations, seven reader contacts,\n   not seven independent observations. If dar directly qualifies physical\n   water, the fixed physical-dry reading is incompatible. No humoral sense,\n   dried residue, vanished water or invisible clause is substituted. Adjacency\n   alone does not prove that attachment, so the word candidate itself is not\n   conclusively refuted. It cannot be given a universal previous-noun rule.",
+          "sha256": "5a4d0114f16bb1b60d0b9b02b299984632a54f5b3a00ccbc7378dbdcaf325a2d"
+        },
+        {
+          "path": "experiments/yolo/gdt826_dar_material_property_contrast/REPORT.md",
+          "line": 90,
+          "line_end": 107,
+          "quote": "\nBoth dar candidates remain exploratory C0, no winner or dictionary adoption.\nDRY has a concrete local property interpretation but serious **conditional\nwater-attachment pressure**. EARTH avoids “dry water” but still needs real\nrelations between the adjacent material names; it is not thereby confirmed.\nMost other contexts are too unknown to adjudicate. No success percentage.\nNeither qopchedy meaning nor the raiin ambiguity is resolved by this pass.\n\n81reader hits at30loci (26ZL/29IT/26RF), cached822320loci only, not all39.\nStore90 source-line templates once; three binary slots generate720 trial\nvectors in memory. The separately written same-author validator checks all720\nand five corruptions. Those are engineering checks, not720 new experiments\nor semantic confirmations. No new source corpus, page, image or scored edge.\n\nNext work remains the unresolved attachment in the already known water-dar\ncontexts. No additional noun is assigned to make either story work, and no\nuniversal noun/property or SVO rule is installed. This is a continuation of\nthe same contrast, not a new root-family or previously failed statistical route.",
+          "sha256": "5a4d0114f16bb1b60d0b9b02b299984632a54f5b3a00ccbc7378dbdcaf325a2d"
+        }
+      ],
+      "reopening": {
+        "status": "REVIEW_REQUIRED_NOT_TEST_READY",
+        "assessed_by": "curation_review",
+        "criteria_origin": "Source-specific current reviewer synthesis, not a new or recovered original preregistration.",
+        "all_of": [
+          "Establish an independent attachment or role contrast at the named water-dar locations while preserving the fixed physical senses.",
+          "Name the tested conjunction: water meaning, dry meaning, attachment, and scope. A different construction needs its own falsifier."
+        ],
+        "not_sufficient": [
+          "More adjacent hits without an attachment binding.",
+          "Switching to humoral dry, residue, vanished water or hidden clauses to avoid a conflict.",
+          "Calling earth confirmed because dry-water would be odd."
+        ]
+      },
+      "automatic_card_status_propagation": false,
+      "empirical_meaning_refutation": false,
+      "review_artifacts": [
+        {
+          "path": "research_registry/decisions/he_root_scoped_question_draft.json",
+          "sha256": "a1d0d01ce3fefed86b280a8056abf09d958d208e061dce955a23d39827955731"
+        },
+        {
+          "path": "research_registry/decisions/he_root_draft_peer.json",
+          "sha256": "553243aee9b32d35ccb1a36a1af258b8c29a58d691571aad5070014f78a9bedc"
+        },
+        {
+          "path": "research_registry/decisions/he_physical_scope_peer.json",
+          "sha256": "564952085341f90114c6944863bc1a0cdb539d8ced6ab13238b211fce0976270"
+        }
+      ],
+      "peer_scope": "Root-draft peer explicitly assesses4questions; earlier physical peer covers fire as well. Earlier physical DAR snippets concatenate noncontiguous lines and are not operative proof. Root evidence is exact and independently validated."
+    },
+    {
+      "id": "FAILURE_HE:QOKEEY_FIRE_EXPLORATORY_CONTENT_DEBT:v1",
+      "decision_key": "FAILURE_HE:QOKEEY_FIRE_EXPLORATORY_CONTENT_DEBT",
+      "revision": 1,
+      "previous_revision": null,
+      "status": "reviewed_scoped_context",
+      "review_status": "reviewed_scoped_context",
+      "reviewer": "root primary contract and successor review",
+      "targets": [
+        "SEM:03eb72131f0066c244c6"
+      ],
+      "card_basis": {
+        "SEM:03eb72131f0066c244c6": "2dd856853b3dc2cfb5d24fcd30adecb3a58ce4f532a9bbec8750f63a738e9788"
+      },
+      "effective_basis": {
+        "SEM:03eb72131f0066c244c6": "0be98f6af17947248fac598a7671a82c0ef88bd848b6a3abd902d2a8292142a8"
+      },
+      "source_case_ids": {
+        "SEM:03eb72131f0066c244c6": [
+          "CLEAN_COMPONENT:6e43be74208935ee1e28"
+        ]
+      },
+      "original_assertion": {
+        "SEM:03eb72131f0066c244c6": "qokeey → Feuer?"
+      },
+      "claim": "Do GDT822 contexts identify fire, refute it through fire-to-water, or separate the raiin senses?",
+      "scope": "Exact qokeey in GDT822153reading hits/50loci; fixed physical fire and two separate raiin models, complete selected blocks.",
+      "reason_class": "exploratory_compatibility_missing_meaning_binding",
+      "actually_tested_falsifier": "GDT822 fixes fire before expanded paragraph reading, inventories awkward before/after-becomes and repetition contexts, but supplies no independent subject attachment or scored semantic discriminator. Source validation is accounting only.",
+      "outcome": "Fire remains C0. f75r.33 fire-to-water depends on unknown intervening roles and subject attachment. Neither an absurdity argument nor replacing fire by heating identifies a word. Historical comparators in the report are compatibility analogies, not a manuscript bridge; this audit does not independently verify those historical claims. Fire does not select rise versus low heaviness. Later guessed materials are not independent controls.",
+      "claim_ceiling": "No independent lexical identification, automatic status propagation, new source reading or manuscript result. Historical source assertions remain preserved.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt822_qokeey_physical_fire_context/PREREGISTRATION.md",
+          "line": 3,
+          "line_end": 16,
+          "quote": "Exploratory continuation, 2026-09-05. GDT821 contexts and both raiin candidates\nare known. An initial guarded count found153 exact qokeey reader-group hits\non50 loci/17 selectors; no new containing paragraphs had been read for this\ncount. Before those paragraphs are opened, declare one exact whole candidate:\nqokeey=physical fire. Not warmth, an instruction to heat, hot preparation, air,\nwater, drug or a q-prefix meaning. The motivation is a concrete possible\ncarrier of the written raiin clause, not EVA spelling or an old HOT card.\n\nKeep the GDT820 base exact glosses unchanged. Compare two separate worlds,\nraiin=physical rises and raiin=low physical heaviness from GDT821. Neither is\nchanged to improve fire. No new sal, lkeey, qokeedy, okeey or checkhy gloss.\nHistorical fire/lightness/ascent makes the combination possible, not preferred\nover other materials. No four-element ring, ordered diagram decoder or old\nGDT751 q/base role route is reopened. The failed families remain closed.",
+          "sha256": "5e63947ffe40ee0e06e2f7ac5d6d91b194f47f0423eeaff28e9280d112fe69bb"
+        },
+        {
+          "path": "experiments/yolo/gdt822_qokeey_physical_fire_context/PREREGISTRATION.md",
+          "line": 26,
+          "line_end": 32,
+          "quote": "Read the complete resulting source reader. Apply fire only to the exact raw\nwhole; do not turn qokeedy into heats, qokeoy into fire or lkeey into likewise.\nInventory and faithful gloss consumption are reproducible; content judgments\nremain manual C0 hypotheses. A source-only validator is not semantic evidence.\nReport actual awkward cases as well as coherent local possibilities; unknown\ncontexts are not positive confirmations. No new admission/image/word adoption\nor scored relation evidence is part of this pass. No subagent is required.",
+          "sha256": "5e63947ffe40ee0e06e2f7ac5d6d91b194f47f0423eeaff28e9280d112fe69bb"
+        },
+        {
+          "path": "experiments/yolo/gdt822_qokeey_physical_fire_context/REPORT.md",
+          "line": 31,
+          "line_end": 60,
+          "quote": "1. **Named carrier, still unproved attachment.** f82r.24 has two exact later\n   qokeey in all3 readings; IT also has an earlier one. The entire repeated\n   fire [lkeey] fire rises/light sequence remains, not just its final two words.\n   The other direct qokeey.raiin is IT77r.42; ZL/RF differ. At95v1.9 the\n   order is raiin.qokeey in ZL/IT, so a universal subject-before-verb rule is\n   not obtained from these contacts.\n2. **Possible fire-to-water.** f75r.33 IT reads qokeey.lshedy.qol.chedy.qokain:\n   Fire? [lshedy] [qol] becomes? water? ZL splits the intervening groups;\n   RF's predicate is opaque ched@222;. This is a cost of the chosen meanings\n   and proposed subject attachment, not an already decoded absurd sentence.\n   Water in the preceding .32 might be the resumed subject instead, but no\n   decoded intervening word licenses that alternate attachment yet.\n3. **Becoming fire is also required.** f81r.20 and f82r.21 have exact\n   qol.chedy.qokeey in all3. f77r.21 has qokeey.chedy.shear, and76r.19\n   ZL/IT have qokeey.qokeey.chedy.qokar. A named fire noun therefore carries\n   proposed result/subject and repetition obligations across several contexts.\n4. **Historical impossibility would be the wrong conclusion.** Aquinas\n   explicitly discusses reciprocal generation of fire and water in De anima\n   II.9.3 [80618]. That permits investigating a medieval explanatory account\n   of material change without changing fire into heating. It supplies no\n   Voynich word key or proof of the subject attachment.\n   [Primary text](https://www.corpusthomisticum.org/can2.html#80618).\n\nThe same historical fire concept can support upward motion and lightness,\nas in De caelo I.5.5 [70865]. Thus naming fire does not discriminate the two\nraiin senses. This is a limit of the proposed bridge, not a reason to claim\nsuccess for both. [Primary text](https://www.corpusthomisticum.org/ccm1.html#70865).\n\nSee src/CONTENT_READING.md for all source-order examples, every selected page's\ncontent cost and the precise historical limits. sal/lkeey/checkhy/qokeedy/okeey",
+          "sha256": "a74158a311c620f37ad71344aedace229d3ef3a3e844822d94f0b3e72c927f21"
+        },
+        {
+          "path": "experiments/yolo/gdt822_qokeey_physical_fire_context/REPORT.md",
+          "line": 67,
+          "line_end": 80,
+          "quote": "working account becomes more specific: material transformations are possible\ncontent, not merely generic instructions. That remains an inference conditional\non all our guessed nouns and predicate, not evidence that the manuscript is a\nnatural-philosophy treatise or a particular historical source.\n\nNext: work out one explicit connection in qol.chedy.qokeey at81r20/82r21\nversus qokeey...qol.chedy.qokain at75r33. The same intermediate whole must\ncontribute the same meaning throughout the complete paragraphs. No need to\nrepeat the finished qokeey census or introduce another unbounded noun list.\n\nSeparate source reconstruction and five damaged-output controls pass. All960\nflat comparisons match, and both world vectors retain all groups. The validator\nis by the same coordinator, not an independent agent or semantic reviewer.\nZero confirmed words, clauses, adopted dictionary changes or new GDT388 edges.",
+          "sha256": "a74158a311c620f37ad71344aedace229d3ef3a3e844822d94f0b3e72c927f21"
+        }
+      ],
+      "reopening": {
+        "status": "REVIEW_REQUIRED_NOT_TEST_READY",
+        "assessed_by": "curation_review",
+        "criteria_origin": "Source-specific current reviewer synthesis, not a new or recovered original preregistration.",
+        "all_of": [
+          "Independently constrain attachment/contribution across the specified complete paragraphs before testing the transformation account.",
+          "Keep fire distinct from heat/action and the raiin alternatives separate; specify a discriminant that differs between candidate models."
+        ],
+        "not_sufficient": [
+          "Recounting the finished corpus or counting gloss displays as confirmations.",
+          "Historical plausibility or an attractive two-word phrase treated as a key.",
+          "GDT825/826 guessed materials treated as known translated controls."
+        ]
+      },
+      "automatic_card_status_propagation": false,
+      "empirical_meaning_refutation": false,
+      "review_artifacts": [
+        {
+          "path": "research_registry/decisions/he_root_scoped_question_draft.json",
+          "sha256": "a1d0d01ce3fefed86b280a8056abf09d958d208e061dce955a23d39827955731"
+        },
+        {
+          "path": "research_registry/decisions/he_root_draft_peer.json",
+          "sha256": "553243aee9b32d35ccb1a36a1af258b8c29a58d691571aad5070014f78a9bedc"
+        },
+        {
+          "path": "research_registry/decisions/he_physical_scope_peer.json",
+          "sha256": "564952085341f90114c6944863bc1a0cdb539d8ced6ab13238b211fce0976270"
+        }
+      ],
+      "peer_scope": "Root-draft peer explicitly assesses4questions; earlier physical peer covers fire as well. Earlier physical DAR snippets concatenate noncontiguous lines and are not operative proof. Root evidence is exact and independently validated."
+    },
+    {
+      "id": "FAILURE_HE:A017_SHORT_PREFIX_HOLD:v1",
+      "decision_key": "FAILURE_HE:A017_SHORT_PREFIX_HOLD",
+      "revision": 1,
+      "previous_revision": null,
+      "status": "reviewed_scoped_context",
+      "review_status": "reviewed_scoped_context",
+      "reviewer": "root primary contract and successor review",
+      "targets": [
+        "SEM:d45f3db4e03a94f1b58e"
+      ],
+      "card_basis": {
+        "SEM:d45f3db4e03a94f1b58e": "e6a52881aff4d66936926ee42aa8f6107e40232303f3465c2662e6ec1937c352"
+      },
+      "effective_basis": {
+        "SEM:d45f3db4e03a94f1b58e": "48f377f32dc686b6676e98ff3bc5bf6881ef3513594ee4f3d39d1a0069c758c1"
+      },
+      "source_case_ids": {
+        "SEM:d45f3db4e03a94f1b58e": [
+          "CLEAN_GAP_DV:a017_shorter_hold"
+        ]
+      },
+      "original_assertion": {
+        "SEM:d45f3db4e03a94f1b58e": "GDT706 retains A017 as the local working reading getrockneter Krautanteil I. The herb preparation is only a plausible patient and the middle stage is absent. GDT708 retains a two-item prefix, while the third item introduces cold grade-start instead of middle degree; it does not admit a new result edge."
+      },
+      "claim": "Does A017 getrockneter Krautanteil I license the tested result path or third-item extension?",
+      "scope": "GDT706 near-zone reading through GDT707/708; occurrence-specific paths inside inherited479-token workshop meanings.",
+      "reason_class": "local_path_hold_and_extension_stop",
+      "actually_tested_falsifier": "GDT706 holds because the herb patient is plausible but the middle stage is absent. GDT707 preserves shorter prefixes while stopping full extensions. GDT708 keeps two items and stops the third because cold grade-start replaces the required middle degree. These are model-agreement exclusions, not numerical sample-capacity failures.",
+      "outcome": "The short phrase remains a hold; unchanged longer path stops under frozen meanings. A new occurrence elsewhere does not supply the missing local degree/patient. No word is refuted or new relation scored. GDT709 subsequently scans all42windows and adds zero edges; its already performed census is not a fresh task.",
+      "claim_ceiling": "No independent lexical identification, automatic status propagation, new source reading or manuscript result. Historical source assertions remain preserved.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt706_v79_second_nominal_item_result_census/REPORT.md",
+          "line": 56,
+          "line_end": 68,
+          "quote": "\n| case | practical reading | what remains open |\n|---|---|---|\n| A029 | leicht erhitzter Ansatzstoff | `dar` supplies a share, but measurement is not licensed and *leicht* is not mirrored exactly |\n| A070 | trockenes Maß bis zum heiß-trockenen Anfang erhitzen | heating matches; measure and exact destination degree remain unwritten |\n| A017 | getrockneter Krautanteil I | the herb preparation is a plausible patient, but the middle stage is absent |\n| A063 | Drogenstoff in einen heißen Empfänger geben | concrete argument chain, but no transformed output is written |\n| A082 | trockenen Drogenstoff in heißen Ansatzstoff geben | useful patient/destination order candidate, not yet a result edge |\n\nThese remain available working readings rather than being erased.\n\n## Cumulative graph and preservation\n",
+          "sha256": "436022e3e1732981ee1c0ec701b98f4838bec68a3e4fb9bd8d215b974f160957"
+        },
+        {
+          "path": "experiments/yolo/gdt707_v80_three_item_material_state_result_bundle/REPORT.md",
+          "line": 32,
+          "line_end": 40,
+          "quote": "\nThe four open alternatives are A012, A014, A024 and A043. They contain useful\nstage, quantity, cooling, drying, or material echoes, but each still needs an\nunwritten operation or an uncertain patient carry. They stay available for a\nlater shared-architecture pass.\n\nSeveral shorter prefixes remain interesting even when their full three-item\nextension stops. In particular A073, A070, A029, A017 and A004 retain their\nearlier partial readings; GDT707 only says that their next item does not yet",
+          "sha256": "50bd08ff0ce9e3197f60135bbeb7fae53669b6f0e090747a8c2b39ac758e37db"
+        },
+        {
+          "path": "experiments/yolo/gdt708_v81_variable_batch_terminal_product/REPORT.md",
+          "line": 47,
+          "line_end": 66,
+          "quote": "A073, A070, A029, A017 and A004 all have the same best cut at two items. Their\nthird item is the first overextension:\n\n- A073 changes to dry Arzneikompositum and restarts the grade;\n- A070 restarts with broad `trocken` after the hot-dry checkpoint;\n- A029 adds a new dry, measured, completed middle-stage product;\n- A017 contradicts middle degree with cold grade-start;\n- A004 changes the just-written middle degree to grade end.\n\nA024 also has a tempting later #9 `oechedy`, “fertige, bis zur Mittelstufe\ngetrocknete Masse”. It matches drying and middle degree better than #7, but the\nfirst terminal product #7 and the new quantity/material start #8 intervene.\nThe no-skip first-terminal rule therefore cannot jump to #9.\n\nThese are useful practical fragments, but still lack enough material, degree\nor action agreement for new graph edges.\n\n## Exact graph effect\n\nC021 forms the isolated component M014. Only #2 and #6 are edge nodes. #3",
+          "sha256": "8b5ab065af225d0272109687c5624949997152f688cf5eb74dbc246318496785"
+        },
+        {
+          "path": "experiments/yolo/gdt709_v82_complete_first_terminal_product_census/REPORT.md",
+          "line": 67,
+          "line_end": 74,
+          "quote": "51 line translations and three bound spans remain inherited unchanged. No\nGDT388 packet is needed because this pass adds no relation evidence.\n\n## Next useful move\n\nRun a single executable preterminal-reset gate over the 25 broad first hits.\nBefore or at the terminal field it must reject the first material, operation or\ndegree reset and require exact action-material and degree recurrence plus an",
+          "sha256": "8ebf1d0a20ad1f50d0ed8185b8d65637936626e43fe09f1b0fc2147ba64a5e0d"
+        }
+      ],
+      "reopening": {
+        "status": "REVIEW_REQUIRED_NOT_TEST_READY",
+        "assessed_by": "curation_review",
+        "criteria_origin": "Source-specific current reviewer synthesis, not a new or recovered original preregistration.",
+        "all_of": [
+          "Identify an exact local missing material/action/degree license or justified source-typing correction; do not invent the operation.",
+          "Separate correction of the stopped extension from a different path/model with a predeclared falsifier. A new model cannot retroactively pass the old fixed path."
+        ],
+        "not_sufficient": [
+          "More similarly worded passages or fluent longer prose.",
+          "Evidence elsewhere treated as repair of the original local mismatch.",
+          "Rerunning the completed all-window census unchanged."
+        ]
+      },
+      "automatic_card_status_propagation": false,
+      "empirical_meaning_refutation": false,
+      "review_artifacts": [
+        {
+          "path": "research_registry/decisions/he_root_scoped_question_draft.json",
+          "sha256": "a1d0d01ce3fefed86b280a8056abf09d958d208e061dce955a23d39827955731"
+        },
+        {
+          "path": "research_registry/decisions/he_root_draft_peer.json",
+          "sha256": "553243aee9b32d35ccb1a36a1af258b8c29a58d691571aad5070014f78a9bedc"
+        },
+        {
+          "path": "research_registry/decisions/he_physical_scope_peer.json",
+          "sha256": "564952085341f90114c6944863bc1a0cdb539d8ced6ab13238b211fce0976270"
+        }
+      ],
+      "peer_scope": "Root-draft peer explicitly assesses4questions; earlier physical peer covers fire as well. Earlier physical DAR snippets concatenate noncontiguous lines and are not operative proof. Root evidence is exact and independently validated."
+    },
+    {
+      "id": "FAILURE_HE:A029_SHORT_PREFIX_HOLD:v1",
+      "decision_key": "FAILURE_HE:A029_SHORT_PREFIX_HOLD",
+      "revision": 1,
+      "previous_revision": null,
+      "status": "reviewed_scoped_context",
+      "review_status": "reviewed_scoped_context",
+      "reviewer": "root primary contract and successor review",
+      "targets": [
+        "SEM:e74ff3e8107b30a08b40"
+      ],
+      "card_basis": {
+        "SEM:e74ff3e8107b30a08b40": "2c7d319ffef52cee1686f7ab306732a5c98fb472bd3812b0cd8dd7cfc7e13c73"
+      },
+      "effective_basis": {
+        "SEM:e74ff3e8107b30a08b40": "a1f8d16e91b90f322fd824155562b6d49863df17e20e7dee6c27c8c1c9f6af87"
+      },
+      "source_case_ids": {
+        "SEM:e74ff3e8107b30a08b40": [
+          "CLEAN_GAP_DV:a029_shorter_hold"
+        ]
+      },
+      "original_assertion": {
+        "SEM:e74ff3e8107b30a08b40": "GDT706 retains A029 as the local working reading leicht erhitzter Ansatzstoff. The written dar supplies a share, but does not license measurement, and leicht is not mirrored exactly. GDT708 keeps its two-item prefix only; a third item adds a new dry, measured, completed middle-stage product, so no new result edge is admitted."
+      },
+      "claim": "Does A029 leicht erhitzter Ansatzstoff license the tested result path or third-item extension?",
+      "scope": "GDT706 near-zone reading through GDT707/708; occurrence-specific paths inside inherited479-token workshop meanings.",
+      "reason_class": "local_path_hold_and_extension_stop",
+      "actually_tested_falsifier": "GDT706 holds because dar supplies a share without measurement, and light heating is not mirrored exactly. GDT707 preserves shorter prefixes while stopping full extensions. GDT708 keeps two items and stops the third because a new dry, measured, completed middle-stage product is added. These are model-agreement exclusions, not numerical sample-capacity failures.",
+      "outcome": "The short phrase remains a hold; unchanged longer path stops under frozen meanings. A new occurrence elsewhere does not supply the missing local degree/patient. No word is refuted or new relation scored. GDT709 subsequently scans all42windows and adds zero edges; its already performed census is not a fresh task.",
+      "claim_ceiling": "No independent lexical identification, automatic status propagation, new source reading or manuscript result. Historical source assertions remain preserved.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt706_v79_second_nominal_item_result_census/REPORT.md",
+          "line": 56,
+          "line_end": 68,
+          "quote": "\n| case | practical reading | what remains open |\n|---|---|---|\n| A029 | leicht erhitzter Ansatzstoff | `dar` supplies a share, but measurement is not licensed and *leicht* is not mirrored exactly |\n| A070 | trockenes Maß bis zum heiß-trockenen Anfang erhitzen | heating matches; measure and exact destination degree remain unwritten |\n| A017 | getrockneter Krautanteil I | the herb preparation is a plausible patient, but the middle stage is absent |\n| A063 | Drogenstoff in einen heißen Empfänger geben | concrete argument chain, but no transformed output is written |\n| A082 | trockenen Drogenstoff in heißen Ansatzstoff geben | useful patient/destination order candidate, not yet a result edge |\n\nThese remain available working readings rather than being erased.\n\n## Cumulative graph and preservation\n",
+          "sha256": "436022e3e1732981ee1c0ec701b98f4838bec68a3e4fb9bd8d215b974f160957"
+        },
+        {
+          "path": "experiments/yolo/gdt707_v80_three_item_material_state_result_bundle/REPORT.md",
+          "line": 32,
+          "line_end": 40,
+          "quote": "\nThe four open alternatives are A012, A014, A024 and A043. They contain useful\nstage, quantity, cooling, drying, or material echoes, but each still needs an\nunwritten operation or an uncertain patient carry. They stay available for a\nlater shared-architecture pass.\n\nSeveral shorter prefixes remain interesting even when their full three-item\nextension stops. In particular A073, A070, A029, A017 and A004 retain their\nearlier partial readings; GDT707 only says that their next item does not yet",
+          "sha256": "50bd08ff0ce9e3197f60135bbeb7fae53669b6f0e090747a8c2b39ac758e37db"
+        },
+        {
+          "path": "experiments/yolo/gdt708_v81_variable_batch_terminal_product/REPORT.md",
+          "line": 47,
+          "line_end": 66,
+          "quote": "A073, A070, A029, A017 and A004 all have the same best cut at two items. Their\nthird item is the first overextension:\n\n- A073 changes to dry Arzneikompositum and restarts the grade;\n- A070 restarts with broad `trocken` after the hot-dry checkpoint;\n- A029 adds a new dry, measured, completed middle-stage product;\n- A017 contradicts middle degree with cold grade-start;\n- A004 changes the just-written middle degree to grade end.\n\nA024 also has a tempting later #9 `oechedy`, “fertige, bis zur Mittelstufe\ngetrocknete Masse”. It matches drying and middle degree better than #7, but the\nfirst terminal product #7 and the new quantity/material start #8 intervene.\nThe no-skip first-terminal rule therefore cannot jump to #9.\n\nThese are useful practical fragments, but still lack enough material, degree\nor action agreement for new graph edges.\n\n## Exact graph effect\n\nC021 forms the isolated component M014. Only #2 and #6 are edge nodes. #3",
+          "sha256": "8b5ab065af225d0272109687c5624949997152f688cf5eb74dbc246318496785"
+        },
+        {
+          "path": "experiments/yolo/gdt709_v82_complete_first_terminal_product_census/REPORT.md",
+          "line": 67,
+          "line_end": 74,
+          "quote": "51 line translations and three bound spans remain inherited unchanged. No\nGDT388 packet is needed because this pass adds no relation evidence.\n\n## Next useful move\n\nRun a single executable preterminal-reset gate over the 25 broad first hits.\nBefore or at the terminal field it must reject the first material, operation or\ndegree reset and require exact action-material and degree recurrence plus an",
+          "sha256": "8ebf1d0a20ad1f50d0ed8185b8d65637936626e43fe09f1b0fc2147ba64a5e0d"
+        }
+      ],
+      "reopening": {
+        "status": "REVIEW_REQUIRED_NOT_TEST_READY",
+        "assessed_by": "curation_review",
+        "criteria_origin": "Source-specific current reviewer synthesis, not a new or recovered original preregistration.",
+        "all_of": [
+          "Identify an exact local missing material/action/degree license or justified source-typing correction; do not invent the operation.",
+          "Separate correction of the stopped extension from a different path/model with a predeclared falsifier. A new model cannot retroactively pass the old fixed path."
+        ],
+        "not_sufficient": [
+          "More similarly worded passages or fluent longer prose.",
+          "Evidence elsewhere treated as repair of the original local mismatch.",
+          "Rerunning the completed all-window census unchanged."
+        ]
+      },
+      "automatic_card_status_propagation": false,
+      "empirical_meaning_refutation": false,
+      "review_artifacts": [
+        {
+          "path": "research_registry/decisions/he_root_scoped_question_draft.json",
+          "sha256": "a1d0d01ce3fefed86b280a8056abf09d958d208e061dce955a23d39827955731"
+        },
+        {
+          "path": "research_registry/decisions/he_root_draft_peer.json",
+          "sha256": "553243aee9b32d35ccb1a36a1af258b8c29a58d691571aad5070014f78a9bedc"
+        },
+        {
+          "path": "research_registry/decisions/he_physical_scope_peer.json",
+          "sha256": "564952085341f90114c6944863bc1a0cdb539d8ced6ab13238b211fce0976270"
+        }
+      ],
+      "peer_scope": "Root-draft peer explicitly assesses4questions; earlier physical peer covers fire as well. Earlier physical DAR snippets concatenate noncontiguous lines and are not operative proof. Root evidence is exact and independently validated."
+    }
+  ],
+  "new_scoped_questions": 5,
+  "direct_targets": 6,
+  "new_cards": 0,
+  "new_cases": 0,
+  "new_manuscript_results": 0
+}

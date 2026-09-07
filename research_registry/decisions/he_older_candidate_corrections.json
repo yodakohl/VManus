@@ -1,0 +1,36 @@
+{
+  "purpose": "Audit of the five prior HE candidates; no new selection.",
+  "method": "Direct semantic-card assessments and exact successor reports were checked; statuses below correct the prior 'unassessed' wording.",
+  "corrections": [
+    {
+      "card_id": "SEM:ca58bf3f1536381386b1",
+      "decision": "RETAIN_BOUNDED_ONLY",
+      "reason": "It is a formal_role card, not an unassessed semantic card. Direct review REPORT_PROPOSAL:ee01a406f46942eb6bd2 is unconfirmed. GDT607 itself is the capacity successor: boundary-grid result is already available, so the proposed successor is not missing.",
+      "primary": {"path": "experiments/yolo/gdt607_boundary_word_disentanglement/REPORT.md", "sha256": "f0246c846ed975340e8c148357754f5f2e7e0b4d22cdd8f1ba99f5434d85abe0", "pointer": "Decision; Explicit boundary grid"}
+    },
+    {
+      "card_id": "SEM:8875f68aee34b4126673",
+      "decision": "REJECT_AS_UNASSESSED",
+      "reason": "Direct scoped reviews already mark the GDT298 semantic model unconfirmed (REPORT_PROPOSAL:c4a6f28867ce2c3d08c5 and CLEAN_GAP_AB:lexicalized_hybrid_report_source_case). The report's absent repeated referent is a stated limit, not an unreviewed older capacity candidate.",
+      "primary": {"path": "GDT298_LEXICALIZED_HYBRID_GRAMMAR_REVISION_REPORT.md", "sha256": "5712ed2b29745bd620a65e98fd10944394cc10fa4d4f36a7661105e28a0941d6", "pointer": "Translation consequence, lines 54-63"}
+    },
+    {
+      "card_id": "SEM:e55acad31c8b3340b24a",
+      "decision": "REJECT_AS_UNASSESSED",
+      "reason": "The direct historical semantic review is already SEM-HIST-MANSION-ROSTER, status unconfirmed. F69M001 has a clean production validation and final nonconfirmation; the earlier provisional wording is stale.",
+      "primary": {"path": "experiments/semantic_assumptions/results/f69m001_target_validation.md", "sha256": "1eea25baf92d33934c3737b305217e64fa1cf7430c06f062ec275bced2c6f8b1", "pointer": "Status and final decision"}
+    },
+    {
+      "card_id": "MH-LOCAL-RELATION",
+      "decision": "REJECT_FROM_SEM_SET",
+      "reason": "This is not a SEM card. It is a historical relation experiment with a direct capacity-failure report, so it cannot satisfy the requested unassessed SEM-card type.",
+      "primary": {"path": "experiments/yolo/gdt391_local_object_relation_normalization/REPORT.md", "sha256": "78d0248ddfc8a1d3b9927c763686a3c946445cf188709c94a2c9b7b8176da37e", "pointer": "Outcome and matched capacity gates"}
+    },
+    {
+      "card_id": "SEM:0e44f0a744d632a6948e",
+      "decision": "REJECT_AS_UNASSESSED",
+      "reason": "Direct review MID-SEM:ca59c0f0b4061ee6d64e already marks the V55 semantic model unconfirmed. The exact report also limits the join as unlicensed; that is an assessed scope restriction, not missing successor work.",
+      "primary": {"path": "experiments/yolo/sidequest_theory_candidates_v55/V55_R3_TECHNICAL_CIRCLE_REPORT.md", "sha256": "10d11352bec2f4116b5e8027c38352e6e9a7ca86855ddce11cf4ecf5fb9cb32c5", "pointer": "JOIN(F68.SPATIAL[s], F69.ORDERED[s]) = UNLICENSED"}
+    }
+  ]
+}
