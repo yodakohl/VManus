@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "decisions": [
+    {
+      "id": "CORRECTION_FT:60f7c36ae39089ef0879:v1",
+      "target": "SEM:60f7c36ae39089ef0879",
+      "previous_revision": null,
+      "action": "restate_scope",
+      "replacement": {
+        "claim": "In V42 R3s historischer Badehaus-Gegenlesung beschreiben die Figuren-/Beckenblätter Betriebsfolgen für Badende, Becken, Zuläufe, Filter, Rückläufe, Temperatur und Reinigung. Wiederkehrende Zellen für Füllen, Temperieren, Spülen, Seihen, Öffnen und Ablassen werden dabei als im täglichen Anlagenbetrieb erwartbare Routinen verstanden; sie verlangen nicht 115 einzelne Therapiesätze. Das ist eine Erklärung innerhalb derselben Gegenlesung, kein nachgewiesener Zeitplan oder Ausschluss therapeutischer Nutzung. Die medizinische Gesamtlesung bleibt in der Quelle knapp vorn; die aus V25/V40 geerbten Feldbedeutungen bestätigen das Badehausmodell nicht unabhängig.",
+        "claim_type": "semantic_model"
+      },
+      "reason": "The recurrence paragraph is a concrete explanatory argument inside the same named V42 R3 bathhouse operational counterreading already addressed by SEM:60f7c36ae39089ef0879. It says filling/tempering/rinsing/straining/opening/draining repetitions are expected in daily operation, not that a new temporal code, fixed cycle, schedule or event-to-day mapping has been established. The current short domain card should preserve this substantive explanation visibly under its existing ID; its old short quote is not claimed to be a complete prior assessment of the new paragraph. Splitting this rationale into another functional card would fragment one source-declared operational model without an additional independently specified content contract. The V20 common-instruction/rare-payload distinction is related context, not a substitute full counterpart or proof of identity.",
+      "target_basis_sha256": "1f700c869f34f64840a3691489e2a5a9367d81540bdff05317a9dc70f9662f86",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v42/V42_R3_TECHNICAL_BATHHOUSE_REGISTER.md",
+          "line": 22,
+          "line_end": 36,
+          "quote": "## Gewählter historische Zweck\n\nArbeitstitel des rekonstruierten Hefts:\n\n> **Register der Kräuterwässer, Becken und Wasserläufe eines Badehauses**\n\nDie drei Teile des kleinen Systems wären:\n\n1. **Pflanzenblätter:** Bildadressen für Badezusätze, Kräuterbeutel,\n   Duft-/Waschwässer und haltbare Voransätze;\n2. **Figuren-/Beckenblätter:** Betriebsfolgen für Badende, Becken, Zuläufe,\n   Filter, Rückläufe, Temperatur und Reinigung;\n3. **Kreisblätter:** möglicher Kalender für Betrieb, Beschaffung oder\n   zulässige Badetermine; dieser dritte Anschluss bleibt schwach, da er in den\n   elf GDT327-Prosarecords nicht direkt geprüft werden kann.",
+          "sha256": "18c1be827481f7906b601a8b19bca7b8dd01906bd83dd08cc1e32439eaea1efd"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v42/V42_R3_TECHNICAL_BATHHOUSE_REGISTER.md",
+          "line": 188,
+          "line_end": 195,
+          "quote": "## Wo diese Lesung besser ist als das medizinische Modell\n\n1. **Die Biological-Wiederholung braucht keine 115 einzelnen Therapiesätze.**\n   Wiederkehrende Zellen für Füllen, Temperieren, Spülen, Seihen, Öffnen und\n   Ablassen sind im täglichen Anlagenbetrieb erwartbar.\n2. **Die gemeinsamen Karten bleiben wirklich allgemein.** `dy`, `chol`,\n   `chor`, `dal` und `cthy` müssen keine Körperteile, Leiden oder Arzneien\n   benennen.",
+          "sha256": "18c1be827481f7906b601a8b19bca7b8dd01906bd83dd08cc1e32439eaea1efd"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v42/V42_R3_TECHNICAL_BATHHOUSE_REGISTER.md",
+          "line": 205,
+          "line_end": 219,
+          "quote": "1. **Ein überliefertes Badehaus-Betriebsbuch dieser exakten Form ist nicht\n   belegt.** Die historische Praxis ist plausibel, die konkrete Buchgattung\n   erfunden.\n2. **Rot- und Weißwein, Honig sowie präzise Pflanzenteile** passen ebenso gut\n   oder besser in Arzneirezepturen. Einige technische Umdeutungen — besonders\n   die Geschmacksprobe und der festgebundene Kräuterbeutel — wurden allein zur\n   Herstellung der Gegenlesung gewählt.\n3. **Die Herbal-Bilder sind zu ausgearbeitet**, wenn sie nur fünf lokale\n   Badezusätze eines Betriebs adressieren; ein allgemeines Herbarium oder\n   Arzneibuch erklärt ihren Umfang leichter.\n4. **Der Astro-Anschluss ist schwächer.** Ein Badekalender ist möglich, doch das\n   medizinische WHAT/HOW/WHEN-Modell besitzt dafür die gewöhnlichere\n   iatromathematische Brücke.\n5. **Die Feldbedeutungen stammen weiterhin aus V25/V40.** Diese Edition zeigt\n   semantische Elastizität, keine unabhängige Bestätigung.",
+          "sha256": "18c1be827481f7906b601a8b19bca7b8dd01906bd83dd08cc1e32439eaea1efd"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v42/V42_R3_TECHNICAL_BATHHOUSE_REGISTER.md",
+          "line": 221,
+          "line_end": 242,
+          "quote": "## Ehrliches Urteil\n\n```text\ninterne Formular-/Anlagengrammatik:  Badehausmodell leicht besser\nPflanzen- und Stoffinhalt:            medizinisches Modell besser\nFiguren/Becken/Wasserläufe:           Badehausmodell mindestens gleich gut\nAstro-Integration:                    medizinisches Modell besser\nGesamt auf den zehn Seiten:           medizinisches Modell knapper vorn\n```\n\nDas R3-Modell **ersetzt** die medizinische Arbeitstheorie daher nicht. Es wird\naber zum stärksten nichtmedizinischen Rivalen erhoben:\n\n> **Ein erheblicher Teil dessen, was bisher als Therapie gelesen wurde, könnte\n> bloß Bedienung, Reinigung, Temperaturführung und Rohstoffverwaltung eines\n> Badebetriebs sein.**\n\nDer wichtigste Gewinn ist negativ und konkret: Aus den 135 Feldern allein\nfolgt kein Beschwerdelexikon. Krankheit darf künftig nur dort in der\nmedizinischen Lesung stehen bleiben, wo Bild, Recordzusammenhang oder eine\nstärkere Kartenopposition sie verlangt; die allgemeine Verfahrensgrammatik\nträgt sie nicht.",
+          "sha256": "18c1be827481f7906b601a8b19bca7b8dd01906bd83dd08cc1e32439eaea1efd"
+        }
+      ],
+      "reviewer": "root primary-source concurrence with independent FT peer; raw new-card proposal withheld"
+    }
+  ],
+  "derived_from": [
+    {
+      "path": "research_registry/decisions/clean_gap_review_ft.json",
+      "sha256": "4d8408757ba525d48ce67ea9bbeb557ab920ff88591af70bf5528b0977dd3064"
+    },
+    {
+      "path": "research_registry/decisions/clean_gap_peer_ft.json",
+      "sha256": "1fb77f8e566b6cb5da0c0b5ebdf3d84315eeba43f9c0c1752f4f1d96f8a1e7e2"
+    }
+  ],
+  "new_cards": 0,
+  "withheld_review_card_id": "CLEAN_GAP_FT:repeated_bio_cells_as_recurring_facility_operation"
+}

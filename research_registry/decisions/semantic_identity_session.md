@@ -473,3 +473,17 @@ FO/FR/FP/FS/FW validation: exact source, operative identity/failure/priority
 and source-preservation audits PASS;4118active3853semantic265formal,4639cases,
 199restatements,51groups/60reductions,40otherrelations,41dossiers,9unready
 priorities.46identity review inputs. No source event bodies or legacy bytes changed.
+
+FT/FU/FV/FX/GA checkpoint: five same-ID source-scope completions, no new
+cards or cases. FT proposed extra functional card withheld after independent
+whole-model review; FX resolves FU V20 through contiguous selected definition,
+not mere quote overlap. FV original critique retained, no archive. Root fixes
+FX final117endpoint and uses peer-completed FV fences/sentences.13 source
+assessments across12 IDs (CHAR in FU and FV);204restatements,284correctionrows.
+Freshness chain completed in12seconds before returning to primary reads.
+
+FT/FU/FV/FX/GA validation: current source/operative/source-preservation checks
+PASS;4118active3853semantic265formal4639cases unchanged.51equivalencegroups,
+60reductions,40otherrelations,41scopeddossiers,9unreadypriorities;284correction
+rows include204restatements,66historicalarchiveactions and14retainactions.
+Only44cards currently archived. No additional model from recurrence argument.

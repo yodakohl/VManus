@@ -1,0 +1,259 @@
+{
+  "review_id": "CLEAN_GAP_PEER_FT",
+  "status": "FIX_REUSE_EXISTING_MODEL_ID_FOUR_OTHER_RECEIPTS_APPROVED",
+  "inputs": [
+    {
+      "path": "research_registry/decisions/clean_gap_review_ft.json",
+      "sha256": "4d8408757ba525d48ce67ea9bbeb557ab920ff88591af70bf5528b0977dd3064"
+    },
+    {
+      "path": "research_registry/decisions/source_coverage_gap_batch_ft.json",
+      "sha256": "4729022bf4ae61a1477a0ee52c76408945653e8fe16d5f4d993f3df51eb0efcf"
+    }
+  ],
+  "card_decisions": [
+    {
+      "id": "CLEAN_GAP_FT:repeated_bio_cells_as_recurring_facility_operation",
+      "decision": "DO_NOT_CREATE_SEPARATE_CARD_ENRICH_EXISTING_ID",
+      "existing_target": "SEM:60f7c36ae39089ef0879",
+      "reason": "The recurrence paragraph is a concrete explanatory argument inside the same named V42 R3 bathhouse operational counterreading already addressed by SEM:60f7c36ae39089ef0879. It says filling/tempering/rinsing/straining/opening/draining repetitions are expected in daily operation, not that a new temporal code, fixed cycle, schedule or event-to-day mapping has been established. The current short domain card should preserve this substantive explanation visibly under its existing ID; its old short quote is not claimed to be a complete prior assessment of the new paragraph. Splitting this rationale into another functional card would fragment one source-declared operational model without an additional independently specified content contract. The V20 common-instruction/rare-payload distinction is related context, not a substitute full counterpart or proof of identity.",
+      "recommended_replacement": {
+        "claim": "In V42 R3s historischer Badehaus-Gegenlesung beschreiben die Figuren-/Beckenblätter Betriebsfolgen für Badende, Becken, Zuläufe, Filter, Rückläufe, Temperatur und Reinigung. Wiederkehrende Zellen für Füllen, Temperieren, Spülen, Seihen, Öffnen und Ablassen werden dabei als im täglichen Anlagenbetrieb erwartbare Routinen verstanden; sie verlangen nicht 115 einzelne Therapiesätze. Das ist eine Erklärung innerhalb derselben Gegenlesung, kein nachgewiesener Zeitplan oder Ausschluss therapeutischer Nutzung. Die medizinische Gesamtlesung bleibt in der Quelle knapp vorn; die aus V25/V40 geerbten Feldbedeutungen bestätigen das Badehausmodell nicht unabhängig.",
+        "claim_type": "semantic_model"
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v42/V42_R3_TECHNICAL_BATHHOUSE_REGISTER.md",
+          "line": 22,
+          "line_end": 36,
+          "quote": "## Gewählter historische Zweck\n\nArbeitstitel des rekonstruierten Hefts:\n\n> **Register der Kräuterwässer, Becken und Wasserläufe eines Badehauses**\n\nDie drei Teile des kleinen Systems wären:\n\n1. **Pflanzenblätter:** Bildadressen für Badezusätze, Kräuterbeutel,\n   Duft-/Waschwässer und haltbare Voransätze;\n2. **Figuren-/Beckenblätter:** Betriebsfolgen für Badende, Becken, Zuläufe,\n   Filter, Rückläufe, Temperatur und Reinigung;\n3. **Kreisblätter:** möglicher Kalender für Betrieb, Beschaffung oder\n   zulässige Badetermine; dieser dritte Anschluss bleibt schwach, da er in den\n   elf GDT327-Prosarecords nicht direkt geprüft werden kann.",
+          "sha256": "18c1be827481f7906b601a8b19bca7b8dd01906bd83dd08cc1e32439eaea1efd"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v42/V42_R3_TECHNICAL_BATHHOUSE_REGISTER.md",
+          "line": 188,
+          "line_end": 195,
+          "quote": "## Wo diese Lesung besser ist als das medizinische Modell\n\n1. **Die Biological-Wiederholung braucht keine 115 einzelnen Therapiesätze.**\n   Wiederkehrende Zellen für Füllen, Temperieren, Spülen, Seihen, Öffnen und\n   Ablassen sind im täglichen Anlagenbetrieb erwartbar.\n2. **Die gemeinsamen Karten bleiben wirklich allgemein.** `dy`, `chol`,\n   `chor`, `dal` und `cthy` müssen keine Körperteile, Leiden oder Arzneien\n   benennen.",
+          "sha256": "18c1be827481f7906b601a8b19bca7b8dd01906bd83dd08cc1e32439eaea1efd"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v42/V42_R3_TECHNICAL_BATHHOUSE_REGISTER.md",
+          "line": 205,
+          "line_end": 219,
+          "quote": "1. **Ein überliefertes Badehaus-Betriebsbuch dieser exakten Form ist nicht\n   belegt.** Die historische Praxis ist plausibel, die konkrete Buchgattung\n   erfunden.\n2. **Rot- und Weißwein, Honig sowie präzise Pflanzenteile** passen ebenso gut\n   oder besser in Arzneirezepturen. Einige technische Umdeutungen — besonders\n   die Geschmacksprobe und der festgebundene Kräuterbeutel — wurden allein zur\n   Herstellung der Gegenlesung gewählt.\n3. **Die Herbal-Bilder sind zu ausgearbeitet**, wenn sie nur fünf lokale\n   Badezusätze eines Betriebs adressieren; ein allgemeines Herbarium oder\n   Arzneibuch erklärt ihren Umfang leichter.\n4. **Der Astro-Anschluss ist schwächer.** Ein Badekalender ist möglich, doch das\n   medizinische WHAT/HOW/WHEN-Modell besitzt dafür die gewöhnlichere\n   iatromathematische Brücke.\n5. **Die Feldbedeutungen stammen weiterhin aus V25/V40.** Diese Edition zeigt\n   semantische Elastizität, keine unabhängige Bestätigung.",
+          "sha256": "18c1be827481f7906b601a8b19bca7b8dd01906bd83dd08cc1e32439eaea1efd"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v42/V42_R3_TECHNICAL_BATHHOUSE_REGISTER.md",
+          "line": 221,
+          "line_end": 242,
+          "quote": "## Ehrliches Urteil\n\n```text\ninterne Formular-/Anlagengrammatik:  Badehausmodell leicht besser\nPflanzen- und Stoffinhalt:            medizinisches Modell besser\nFiguren/Becken/Wasserläufe:           Badehausmodell mindestens gleich gut\nAstro-Integration:                    medizinisches Modell besser\nGesamt auf den zehn Seiten:           medizinisches Modell knapper vorn\n```\n\nDas R3-Modell **ersetzt** die medizinische Arbeitstheorie daher nicht. Es wird\naber zum stärksten nichtmedizinischen Rivalen erhoben:\n\n> **Ein erheblicher Teil dessen, was bisher als Therapie gelesen wurde, könnte\n> bloß Bedienung, Reinigung, Temperaturführung und Rohstoffverwaltung eines\n> Badebetriebs sein.**\n\nDer wichtigste Gewinn ist negativ und konkret: Aus den 135 Feldern allein\nfolgt kein Beschwerdelexikon. Krankheit darf künftig nur dort in der\nmedizinischen Lesung stehen bleiben, wo Bild, Recordzusammenhang oder eine\nstärkere Kartenopposition sie verlangt; die allgemeine Verfahrensgrammatik\nträgt sie nicht.",
+          "sha256": "18c1be827481f7906b601a8b19bca7b8dd01906bd83dd08cc1e32439eaea1efd"
+        }
+      ]
+    }
+  ],
+  "source_reassessments": [
+    {
+      "source_id": "LEGACY_PROPOSAL:d26b44d718c620c9ed3a4b76",
+      "decision": "FIX_SAME_ID_SOURCE_ENRICHMENT",
+      "reason": "The recurrence paragraph is a concrete explanatory argument inside the same named V42 R3 bathhouse operational counterreading already addressed by SEM:60f7c36ae39089ef0879. It says filling/tempering/rinsing/straining/opening/draining repetitions are expected in daily operation, not that a new temporal code, fixed cycle, schedule or event-to-day mapping has been established. The current short domain card should preserve this substantive explanation visibly under its existing ID; its old short quote is not claimed to be a complete prior assessment of the new paragraph. Splitting this rationale into another functional card would fragment one source-declared operational model without an additional independently specified content contract. The V20 common-instruction/rare-payload distinction is related context, not a substitute full counterpart or proof of identity.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v42/V42_R3_TECHNICAL_BATHHOUSE_REGISTER.md",
+          "line": 190,
+          "line_end": 192,
+          "quote": "1. **Die Biological-Wiederholung braucht keine 115 einzelnen Therapiesätze.**\n   Wiederkehrende Zellen für Füllen, Temperieren, Spülen, Seihen, Öffnen und\n   Ablassen sind im täglichen Anlagenbetrieb erwartbar.",
+          "sha256": "18c1be827481f7906b601a8b19bca7b8dd01906bd83dd08cc1e32439eaea1efd"
+        }
+      ],
+      "initial_disposition_preserved": true,
+      "full_selected_span_read": true,
+      "recommended_decision": "existing_proposition_source_audit_only",
+      "card_ids": [],
+      "new_card_ids": [],
+      "counterpart_ids": [
+        "SEM:60f7c36ae39089ef0879"
+      ]
+    },
+    {
+      "source_id": "LEGACY_PROPOSAL:d54048bdc4e16aa3b00cc599",
+      "decision": "APPROVE_AUDIT_ONLY_NO_NEW_CARD",
+      "reason": "The paragraph denies that the five named common forms must denote body parts, diseases or medicines. It assigns no replacement values and functions as an inference limit on the counterreading. Retain as a source assessment of the operating-domain card, not five negative lexical meanings or an empirically falsified medical dictionary.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v42/V42_R3_TECHNICAL_BATHHOUSE_REGISTER.md",
+          "line": 193,
+          "line_end": 195,
+          "quote": "2. **Die gemeinsamen Karten bleiben wirklich allgemein.** `dy`, `chol`,\n   `chor`, `dal` und `cthy` müssen keine Körperteile, Leiden oder Arzneien\n   benennen.",
+          "sha256": "18c1be827481f7906b601a8b19bca7b8dd01906bd83dd08cc1e32439eaea1efd"
+        }
+      ],
+      "initial_disposition_preserved": true,
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:60f7c36ae39089ef0879"
+      ]
+    },
+    {
+      "source_id": "LEGACY_PROPOSAL:72845f9f6df80762e7479958",
+      "decision": "APPROVE_AUDIT_ONLY_NO_NEW_CARD",
+      "reason": "The paragraph advances learnability of a common operating deck, local raw-material cards and short closures. The complete V20 cross-register case already combines a learnable bridge deck, register-local payload and renderer/closure; V35 independently describes the frequent deck, fixed fields, rare exemplar cards and multiple scribes. This is an additional historical rationale in V42, not a new encoded meaning contract or a required case addition. No identity relation between V20 and V35 is asserted.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v42/V42_R3_TECHNICAL_BATHHOUSE_REGISTER.md",
+          "line": 200,
+          "line_end": 201,
+          "quote": "5. **Mehrere Schreiber lernen das System leicht:** gemeinsames\n   Bedienkarten-Deck, lokale Rohstoffkarten und kurze Zellschlüsse.\n",
+          "sha256": "18c1be827481f7906b601a8b19bca7b8dd01906bd83dd08cc1e32439eaea1efd"
+        }
+      ],
+      "initial_disposition_preserved": true,
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:1132ea4d7d603ae9cf19",
+        "SEM:02c0398507a9a7fbc791"
+      ]
+    },
+    {
+      "source_id": "LEGACY_PROPOSAL:505c1823b88efc4d0e7ac38d",
+      "decision": "APPROVE_AUDIT_ONLY_NO_NEW_CARD",
+      "reason": "This is the author’s relative explanatory objection to limiting elaborate Herbal images to five bath additives: a general herbal or medicinal book more easily explains their extent. It introduces no separately specified new reading or image identification. Preserve the objection against the existing bath-additive interpretation; do not call that genuine proposed interpretation disproved.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v42/V42_R3_TECHNICAL_BATHHOUSE_REGISTER.md",
+          "line": 212,
+          "line_end": 214,
+          "quote": "3. **Die Herbal-Bilder sind zu ausgearbeitet**, wenn sie nur fünf lokale\n   Badezusätze eines Betriebs adressieren; ein allgemeines Herbarium oder\n   Arzneibuch erklärt ihren Umfang leichter.",
+          "sha256": "18c1be827481f7906b601a8b19bca7b8dd01906bd83dd08cc1e32439eaea1efd"
+        }
+      ],
+      "initial_disposition_preserved": true,
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:007afea3271b83b014a4"
+      ]
+    },
+    {
+      "source_id": "LEGACY_PROPOSAL:7c1f82538d9b34371b74079b",
+      "decision": "APPROVE_AUDIT_ONLY_NO_NEW_CARD",
+      "reason": "The possible bath calendar is already explicitly addressed by SEM:507b98539de0a6e326ea, including its weak link to the eleven prose records. This paragraph judges the medical WHAT/HOW/WHEN bridge more conventional; it is a comparative source assessment, not a second bath-calendar model or an independently demonstrated calendar reading.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v42/V42_R3_TECHNICAL_BATHHOUSE_REGISTER.md",
+          "line": 215,
+          "line_end": 217,
+          "quote": "4. **Der Astro-Anschluss ist schwächer.** Ein Badekalender ist möglich, doch das\n   medizinische WHAT/HOW/WHEN-Modell besitzt dafür die gewöhnlichere\n   iatromathematische Brücke.",
+          "sha256": "18c1be827481f7906b601a8b19bca7b8dd01906bd83dd08cc1e32439eaea1efd"
+        }
+      ],
+      "initial_disposition_preserved": true,
+      "full_selected_span_read": true,
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:507b98539de0a6e326ea"
+      ]
+    }
+  ],
+  "counterpart_checks": [
+    {
+      "id": "SEM:60f7c36ae39089ef0879",
+      "claim": "Die Figuren-/Beckenblätter beschreiben den Betrieb von Badenden, Becken, Zuläufen, Filtern, Rückläufen, Temperatur und Reinigung.",
+      "card_basis": "1f700c869f34f64840a3691489e2a5a9367d81540bdff05317a9dc70f9662f86",
+      "effective_basis": "30654ed04a69b41b767ee978ec53cab978907986234bbf5a14be9a41ed47a9b0",
+      "case_ids": [
+        "MID-SEM:03f5f15d26edf1c0647b"
+      ]
+    },
+    {
+      "id": "SEM:1132ea4d7d603ae9cf19",
+      "claim": "Gemeinsame Herbal-/Bio-Karten kodieren wiederkehrende Werkstattanweisungen, während seltene registerlokale Karten den Artikelinhalt liefern.",
+      "card_basis": "991ec7044cf5e7936715f953815f0faf2216568045ee94aa59b7a50d94a2fa3e",
+      "effective_basis": "bcc06f465f02f313b4b076844da765b2f31d5fc2c594dc2df7186f4be3f8dbf6",
+      "case_ids": [
+        "MID-SEM:86b5ffa91c960f9bcd2a"
+      ]
+    },
+    {
+      "id": "SEM:507b98539de0a6e326ea",
+      "claim": "Die Kreisblätter sind ein Kalender für Betrieb, Beschaffung oder zulässige Badetermine.",
+      "card_basis": "304c1e2636f9c6b6c76621a9743260030550f3fad92b9253b3ad75bb5cafeb78",
+      "effective_basis": "48924cbe8fbe3851892b8e857049cc9589be58751b0032b1febda44e457062d6",
+      "case_ids": [
+        "MID-SEM:42e17b854df42b10402d"
+      ]
+    },
+    {
+      "id": "SEM:02c0398507a9a7fbc791",
+      "claim": "Mehrere Schreiber verwenden dasselbe Ganzkartendeck mit positionsabhängiger Oberfläche und gemeinsamem Bedeutungswert.",
+      "card_basis": "30b37af57630df79add109cb92a2b8e92a4ee82223b9651b86e2ec4304980a14",
+      "effective_basis": "50113afbe92d97c1c76141cfc788e51c5070b525c419e603650686031401611f",
+      "case_ids": [
+        "MID-SEM:76022d352f18c96dbcb3"
+      ]
+    },
+    {
+      "id": "SEM:007afea3271b83b014a4",
+      "claim": "Die Pflanzenblätter adressieren Badezusätze, Kräuterbeutel, Duft-/Waschwässer und haltbare Voransätze.",
+      "card_basis": "67c9f98c515edccc4de2dd63251aec287c24dfd569cb3d2309b038f4723b3cd8",
+      "effective_basis": "b1945da713ea12bad7c59cec116f29bed59d7e007d7b53f26f1c9f125f987bab",
+      "case_ids": [
+        "MID-SEM:03856e003daa022ffc11"
+      ]
+    }
+  ],
+  "additional_counterpart_evidence": [
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v20/V20_THEORY_SELECTION.md",
+      "line": 92,
+      "line_end": 106,
+      "quote": "## What this changes in the overall theory\n\nThe working system now looks less like a separate prose cipher plus unrelated\ndiagram labels and more like a teachable workshop register:\n\n```text\npicture or diagram supplies owner and location\n  + portable action/reference/measure card\n  + register-local rare payload cards\n  + renderer and closure\n```\n\nThe bridge deck is small, high-frequency and learnable by several scribes.\nRare Herbal cards can describe the plant dossier while the same common\ninstructions govern Bio apparatus/application records.",
+      "sha256": "166f9597ad1c88ad371e7b1d8e99dc466debd3620a10fe265ff8168d78091aec"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v35/V35_PRODUCTIVE_WRITING_MANUAL.md",
+      "line": 3,
+      "line_end": 28,
+      "quote": "## Zweck\n\nDiese Runde fragt nicht mehr nur, ob die bisherigen Bedeutungen rückwirkend\nflüssige Texte ergeben. Sie zwingt die Arbeitstheorie, **neue** praktische\nAnweisungen zu schreiben. Dazu dürfen ausschließlich die bereits in V25\nvergebenen exakten Karten, sichtbaren Formen und Bedeutungen benutzt werden.\nKeine neue Voynich-Form wird erfunden.\n\nDas ist ausdrücklich ein kreativer Sidequest-Test, keine wissenschaftliche\nEntzifferung. Er prüft interne Benutzbarkeit und Lehrbarkeit der Theorie.\n\n## Lehrregel für einen Schreiber um 1420\n\n1. Das Bild oder der laufende Abschnitt liefert den stillen Gegenstand.\n2. Wähle für jeden Arbeitsbegriff die im Werkstattdeck festgelegte Ganzkarte.\n3. Schreibe Zutaten-, Mengen- und Verfahrenskarten in Arbeitsreihenfolge.\n4. Setze zusammengehörige Karten in ein Feld; eine Abschlusskarte schließt nur\n   den lokalen Arbeitsschritt, nicht notwendig den Satz oder Artikel.\n5. Bricht der verfügbare Raum ab, läuft die Anweisung in der nächsten\n   physischen Zeile weiter.\n6. Ein zweiter Schreiber liest die exakten Karten über dasselbe Deck zurück.\n\nDie Theorie braucht damit keinen modernen Buchstabencode. Ein Lehrling lernt\nein kleines häufiges Kartendeck, feste Feldmuster und seltene Karten durch das\nExemplar. Verschiedene Schreiber dürfen dieselbe Karte positionsabhängig\nverschieden darstellen, solange ihre exakte Werkstattidentität erhalten bleibt.",
+      "sha256": "66794e23afbc25713d4f5a089c37e1c4052c7ccd52896918bb1a270aefe1e606"
+    }
+  ],
+  "validation": {
+    "full_current_cards": 5,
+    "complete_current_cases": 5,
+    "current_bases": "PASS",
+    "exact_quotes_and_hashes": "PASS",
+    "initial_dispositions_exact_parity": 5,
+    "initial_dispositions_added": 0,
+    "new_cards_recommended": 0,
+    "new_overall_models": 0
+  },
+  "scope": {
+    "primary_spans_fully_read": [
+      {
+        "path": "experiments/yolo/sidequest_theory_candidates_v42/V42_R3_TECHNICAL_BATHHOUSE_REGISTER.md",
+        "spans": [
+          [
+            1,
+            48
+          ],
+          [
+            188,
+            242
+          ]
+        ]
+      }
+    ],
+    "not_read": "Intervening eleven-record detailed reconstructions and raw manuscript/event tables; no claim of report-wide proposition coverage."
+  },
+  "limits": [
+    "Do not label the earlier domain card scientifically validated or declare recurrence independently tested.",
+    "Keep all five source receipts and original initial dispositions; enrich the existing model rather than losing the concrete daily-operation explanation.",
+    "The 115-cell wording is the source author’s contrast, not a fresh count or one-cell-per-day claim.",
+    "No identity of V20/V35 and V42 models follows from shared teaching architecture."
+  ],
+  "operational_mutation": false
+}

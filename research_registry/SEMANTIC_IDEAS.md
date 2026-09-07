@@ -81,7 +81,7 @@ source/case counts belong to that representative; `group_scope_cases` counts all
 member cases. Open `--field equivalents` or `--field relations` for the others.
 No failure, success or execution permission propagates across an identity link.
 
-The append-only correction log currently archives44 erroneous exports and restates199
+The append-only correction log currently archives44 erroneous exports and restates204
 source assertions. Every original claim, case and quote remains retrievable,
 including via `--show ID` for archived cards. Numeric columns, alias-column
 misparses, unlicensed constituent exports and metadata are extraction errors;
@@ -124,19 +124,20 @@ Later full-scope reviews and audit-only source comparisons live in the bounded
 `decisions/clean_gap_review_*.json` artifacts. An audit pointer does not add a
 source-case payload. Quote overlap alone never certifies complete review.
 
-Latest integrated packet: FO/FR completes existing named models under their
-original IDs: V39 R2's reference/execution chain and V55 R3's three separate
-local lookup systems. Learned/copying behaviour, station content and working
-palettes remain historical hypotheses. Equal inventory sizes do not license a
-diagram join; full surface coverage establishes no decoded content.
+Latest integrated packet: FV restores source restrictions on sh (GDT623 V2
+quality construction) and L (productive only before CHED), and preserves CHAR
+THEN as a considered but criticized V18 rival. VAL-B warm remains an actual
+historical wager despite the absence of independent comparator binding.
 
-FP preserves an explicit amount-field versus unit-field rival pair. FS resolves
-the previously open pcheey comparison through pure authored definitions: the
-preparation/Form-II default explicitly requires and specializes the general R04
-field role. A stronger gate formula alone would not prove this relation; the
-named candidate and required role supply the source-contract bridge. I37's
-paste/salve/mixed-form candidate stays separate. No corpus test was rerun.
-FW makes eleven selected source audits reusable without extra card cases.
+FT withholds a proposed extra recurrence card and completes the existing V42
+bathhouse operational model: expected repeated routines are its explanatory
+argument, not a new cycle, schedule or cell code. FX completes the existing
+V20 model from its explicitly selected defining block: picture-supplied owner
+and location, portable instructions, local payload, renderer and closure. This
+restores source scope; it does not assert logical equivalence of the abbreviated
+claim and fuller wording or establish an image-to-text meaning binding.
+FT/FU/GA expose13 selected assessments across12 source IDs; CHAR appears in
+both FU's broader rival review and FV's narrower headline-scope correction.
 A073/A004 mappings remain available but uninspected, not missing data.
 
 Before adding a fuller model card, check whether an existing short card already
@@ -145,6 +146,9 @@ and defining sources across intake paths; enrich the existing ID when appropriat
 A short description is not automatically a different proposition. Conversely,
 a broad card quoting an unrelated claim does not automatically cover that claim.
 FD records a real selection error, not two newly discovered semantic mechanisms.
+An expected pattern used to argue for an existing named model does not by itself
+constitute another functional hypothesis. FT preserves its recurrence explanation
+under the model ID because the source specifies no additional temporal contract.
 
 Four append-only type alignments preserve the original claims and IDs. Pure
 ordering/reset over predefined roles is formal, including the corrected DE335

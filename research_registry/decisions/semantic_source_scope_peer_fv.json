@@ -1,0 +1,215 @@
+{
+  "review_id": "SEMANTIC_SOURCE_SCOPE_PEER_FV",
+  "reviewed_input": {
+    "path": "research_registry/decisions/semantic_source_scope_review_fv.json",
+    "sha256": "c7f21234916180a24c5ef2af8e7ffeccff57ddee65d20c7f259577148021c199"
+  },
+  "status": "APPROVE_THREE_SCOPE_RESTATEMENTS_AND_ONE_RETAIN",
+  "reviews": [
+    {
+      "target": "SEM:5dd8e3198a03ee85f577",
+      "decision": "approve",
+      "approved_action": "restate_scope",
+      "card_basis": "9db66f1cdcd7c1b12e384acb154b18f0cb1ce202d963f23ed0802d764f837ed8",
+      "effective_basis": "29d37de075de24c3f5e2c967fca89d3edfd5c8acc69c6475659d672f6a69f09e",
+      "complete_case_ids": [
+        "CLEAN_COMPONENT:0f40019b67b748aca1c6"
+      ],
+      "reason": "The GDT623 result explicitly says the four assignments are V2 defaults inside the quality construction and enumerates qo-k/t-ch/sh corners. The same report separately rejects shody=moist and leaves other wholes distinct, so retaining bare universal sh would erase a substantive scope limit. The replacement correctly keeps a proposed compositional value, not an independently established morpheme.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt623_temperament_orientation_frequency/REPORT.md",
+          "line": 1,
+          "line_end": 19,
+          "quote": "# GDT623 — corrected temperament reader and first concrete state/part defaults\n\nStatus: **WORKING_TRANSLATION_V2__MOISTURE_AXIS_FLIPPED__LOCAL_ATTACHMENT_REPAIRED**.\n\n## Result\n\nThe GDT622 square survives, but its moisture direction does not. The current\nworking composition is:\n\n| Surface composition | Working reading |\n|---|---|\n| `qo-k-ch-...` | hot and dry |\n| `qo-k-sh-...` | hot and moist |\n| `qo-t-ch-...` | cold and dry |\n| `qo-t-sh-...` | cold and moist |\n\nThus `k=hot`, `t=cold`, `ch=dry`, and `sh=moist` are the V2 defaults inside the\nquality construction. The moisture sign is the useful correction. The thermal\nsign remains weaker: `t=hot, k=cold` is a serious rival on Herbal-only counts.",
+          "sha256": "dcdf7fe8a3003907487eb61ac22007ce8403893c20cbdf5ea02d1bfbd48238e4"
+        },
+        {
+          "path": "experiments/yolo/gdt623_temperament_orientation_frequency/REPORT.md",
+          "line": 39,
+          "line_end": 56,
+          "quote": "## Why `ch` now means dry\n\nOf 27 complete Clm 667 comparison rows, 24 are dry: 88.9%. In the guarded\nVoynich panel, `ch` occupies 168/192 exact four-corner forms (87.5%) and\n455/512 strict q-prefix forms (88.9%). Across Herbal cuts it remains 90.6–94.0%.\nReading `sh` as dry would instead make dry the rare 6.0–12.5% side.\n\nOn the whole 179-page panel, V2 ranks first for exact, prefix, and substring\ncounts; the old GDT622 orientation ranks last. Herbal-only counts reverse the\nthermal sign but retain `ch=dry`. Therefore the defensible update is stronger\nthan the complete four-value key:\n\n```text\nch = dry     strong working direction\nsh = moist   binary complement\nk = hot      best current working direction, still weak\nt = cold     serious t-hot rival remains\n```",
+          "sha256": "dcdf7fe8a3003907487eb61ac22007ce8403893c20cbdf5ea02d1bfbd48238e4"
+        }
+      ],
+      "scientific_refutation": false,
+      "archive_recommended": false
+    },
+    {
+      "target": "SEM:cac4b76ca6ef082fabd3",
+      "decision": "approve",
+      "approved_action": "restate_scope",
+      "card_basis": "4d5c1e28908757bf0a463925eae394b7553de207712344731776d518e1f982e2",
+      "effective_basis": "5d9cd85d6b810e13b78aa73ee5281e1359a1a2a4f5f156fa6f60f4494a9b3337",
+      "complete_case_ids": [
+        "CLEAN_COMPONENT:4efddbd67781d67dbbba"
+      ],
+      "reason": "The defining Source–Path–Target teaching paragraph expressly limits productive P-/L- to before CHED and rejects general words for inward/outward. Later lchedy/lched examples and the eight-event author summary do not remove that condition. Same-ID restriction is appropriate; local authored direction judgments are not universal or empirical lexical results.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_directional_completion/WORKSHOP_DIRECTION_REPORT.md",
+          "line": 1,
+          "line_end": 44,
+          "quote": "# Werkstattlehre: Quelle – Weg – Ziel\n\nStatus: kreative Zehn-Seiten-Arbeitstheorie, keine Entzifferung. Diese Runde\nverwendet ausschließlich das aktuelle komponentenkomplette Wörterbuch,\nInterlinear und Aussagenregister. Sie baut keine wissenschaftliche Prüfung,\nsondern eine von mehreren Schreibern leicht zu lernende Werkstattregel.\n`f84` und `f84r` blieben versiegelt.\n\n## Die Fünferregel\n\nEin Lehrmeister um 1420 müsste nur fünf Ortszeichen lehren:\n\n```text\nAR    QUELLE     von / aus der Herkunft\nAIR   WEG        durch / längs des Laufs\nAL    ZIEL       an / zu der Arbeitsstelle\nP-    HINEIN     in den Empfänger\nL-    HINAUS     aus dem Behälter oder von der Stelle weg\n```\n\n`P-` und `L-` sind nur vor `CHED` produktiv. Sie werden nicht als allgemeine\nWörter für hinein und hinaus behauptet. `AR`, `AIR` und `AL` sind drei\ngelernte Werkstattkürzel; `AIR` wird nicht in `A+I+R` zerlegt.\n\nDie räumliche Leserichtung lautet:\n\n```text\nQUELLE  -- über WEG -->  ZIEL\n AR           AIR         AL\n\nL + CHED = hinausführen       P + CHED = hineinführen\n```\n\nDamit kann ein Schreiber die längeren Karten ohne neue Satzglossen bilden:\n\n```text\nL+CHED+AR   aus der Quelle hinausführen\nL+CHED+AL   zur Auslassstelle hinausführen\nP+CHED+AL   in die Ziel-/Empfangsstelle hineinführen\nP+CHED+DY   in den Empfänger hineinführen; Schritt schließen\nCHED+AIR    den Posten durch den Lauf führen\nOK+AR       etwas daraus in den Arbeitsgang nehmen\nOK+AIR      den Lauf in Gang setzen\nOK+AL       etwas an der Zielstelle einsetzen",
+          "sha256": "3dabb5a83c08c8ba0654d3161e1a3e01dd941d3631124a20966c20943e6ca9ec"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_directional_completion/WORKSHOP_DIRECTION_REPORT.md",
+          "line": 115,
+          "line_end": 138,
+          "quote": "### `P` und `L` bilden das einfache Richtungspaar\n\nDas stärkste Lehrpaar ist:\n\n```text\nlchedal   Auslassstelle       pchedal   Einfüllstelle\nlchedy    hinaus; Schluss     pchedy    hinein; Schluss\n```\n\nDie acht `lchedy`-Ereignisse machen `L = hinaus/weg` zum robustesten\nRichtungszeichen der Runde. `lched` ist dieselbe Bewegung ohne sichtbaren\nAbschluss. Die zwei P-Belege sind dünner, aber exakt entgegengesetzt lesbar.\n\n## Nahe Minimalpaare\n\n| Paar | ausgewählter Unterschied | verworfene Gegenidee |\n|---|---|---|\n| `char` / `chair` | `AR = aus Quelle`; `AIR = über Laufweg` | `AIR` bloß als längeres Wasserwort |\n| `qokar` / `qokal` | aus der Quelle nehmen / am Ziel einsetzen | AR als „über“, AL als „unter“ |\n| `lchedar` / `lchedal` | aus Quelle hinaus / zur Auslassstelle hinaus | AR und AL als austauschbare Ortsendung |\n| `otar` / `otal` | danach aus / danach zum Ziel | beide als festes „Ablassen“ |\n| `lchedal` / `pchedal` | Auslassstelle / Einfüllstelle | P und L als bedeutungslose Hüllen |\n| `lchedy` / `pchedy` | hinaus und schließen / hinein und schließen | beide allgemein „transferieren“ |\n| `qokal` / `okair` | Ziel aktivieren / Weg aktivieren | beide allgemein „Wasser öffnen“ |\n",
+          "sha256": "3dabb5a83c08c8ba0654d3161e1a3e01dd941d3631124a20966c20943e6ca9ec"
+        }
+      ],
+      "scientific_refutation": false,
+      "archive_recommended": false
+    },
+    {
+      "target": "SEM:b5cfce8658b098793426",
+      "decision": "approve",
+      "approved_action": "restate_scope",
+      "card_basis": "ca4be5897206418dfb1c2e92714fcbfed5f5e4a605a04ae4c5ea510866036d4f",
+      "effective_basis": "f8b3d8dcba15626780d03ee3fbbb6e51ca263c468207ee67df7154487663b657",
+      "complete_case_ids": [
+        "ROOT400:d43e3e4ac99fc1175832"
+      ],
+      "reason": "The V18 heading is Costs and surviving rivals, and CHAR=THEN is an actual considered alternative criticized for losing batch identity. The opening six-whole reconstruction explicitly favors repeat the foregoing preparation with the same batch. The replacement preserves the historical rival and source preference rather than erasing a tested/considered hypothesis or upgrading author criticism into semantic falsification.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v18/CANDIDATE_V18_R1_WORKSHOP_MASTER.md",
+          "line": 1,
+          "line_end": 31,
+          "quote": "# V18 R1 — workshop-master six-card reconstruction\n\nDate: 2026-08-21\n\nStatus: **maximally abductive concrete workshop reading, not deciphered plaintext**.\n\n## Decision\n\nA novice can learn the six disputed cards as a compact set of non-overlapping instructions:\n\n```text\nOKEEY   preserve lukewarm working temperature\nLCHEDY  drain into the lower receiver and close the step\nDCHEDY  close the foregoing treatment before a new chain\nOLCHEDY reserve the mixed liquor for the following step\nCHAR    repeat the foregoing preparation with the same batch\nCHO     on f56r, take the pictured plant's upper flowering parts\n```\n\nThe strongest revision is `LCHEDY`: **drain into the lower receiving vessel**.\nIt repeatedly follows immersion, washing, or mixing and is repeatedly adjacent to\na lower outlet, lower basin, or renewed lower route. Standing would overlap\n`OLKEEDY = settle`; cooling would overlap the already explicit COOL cards.\n\nThe second revision is `CHAR`: **repeat the foregoing preparation using the same\nbatch**. This retains the incumbent material continuity but turns the line-final\ncopies and `OKAIN CHAR OKAIN` into executable apprentice instructions.\n\nThe third revision is page-local `CHO`: **take the upper flowering parts of the\npictured plant**. Its four positions now enumerate root/upper parts, upper parts in\nwine, upper parts with dried leaf, and fresh upper parts with honey. This is one",
+          "sha256": "cf710f35157f6e58e55533087e03e218b33cacf1c1750bf59ea27e57bee2cecb"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v18/CANDIDATE_V18_R1_WORKSHOP_MASTER.md",
+          "line": 68,
+          "line_end": 77,
+          "quote": "## Costs and surviving rivals\n\n`OKEEY = MIX` remains locally readable but collides with `CHEDY` twice; warmed-water\naddition requires a silent water argument in every copy. `LCHEDY = STAND` remains\nthe main rival but duplicates SETTLE and underuses the repeated lower-route context.\n`OLCHEDY = RETAIN IN WORKING VESSEL` is close to RESERVE but explains following NEXT\nless well. `DCHEDY = STRAIN/WASH` requires a new material or body argument and fails\nto explain three line-entry resets. Bare `CHAR = THEN` discards batch identity.\n`CHO = THEREAFTER` remains the strongest nonlexical rival but leaves f56r's repeated\nplant-part inventory needlessly implicit.",
+          "sha256": "cf710f35157f6e58e55533087e03e218b33cacf1c1750bf59ea27e57bee2cecb"
+        }
+      ],
+      "scientific_refutation": false,
+      "archive_recommended": false
+    },
+    {
+      "target": "SEM:9b2ae3ba12245aedd694",
+      "decision": "approve",
+      "approved_action": "retain_no_op",
+      "card_basis": "02783938d0bbc8ea01d8917dd5eba0434ef37e0287f88f1a45cf4944efb6a3b6",
+      "effective_basis": "591cadd3a1b3af688e9a87aa8ca688afe6a6d6e45917bd44571599445b41fe7e",
+      "complete_case_ids": [
+        "FINAL-SEM:339c2d3f8d2c7d97b4a9"
+      ],
+      "reason": "The V15 R2 source explicitly proposes TEMPERED/WARM medium or application for VAL-B and then calls warm a semantic wager. The negative comparator sentence denies independent support, not the existence of the proposal. Retain the unconfirmed family-level claim. Neither .34 nor the class confidence is a calibrated empirical probability, and no claim about every surface bearing a substring follows.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v15/CANDIDATE_V15_R2_MEDICAL_VALUE_ROLES.md",
+          "line": 1,
+          "line_end": 42,
+          "quote": "# V15 R2 — Medical-scribe reading of the Biological value deck\n\nStatus: **exploratory ten-page-sidequest candidate, not a GDT result and not a translation**.\n\n## Decision\n\nThe four leading committed-value families do **not** follow a visible object\nclass strongly enough to be called BODY, POOL, PIPE or OUTLET. They are best\nkept as **latent application/configuration answers** in a medical-practical\nform. Page and stencil ecology explain more of their distribution than direct\npicture ownership, but this does not force a semantically empty cadence model.\nThe drawing can supply the case or apparatus while the short cells record\nunpictured conditions such as the normal setting, heat, manner of application\nor immersion.\n\nMy concrete medical-scribe expansion, deliberately retained as a useful bet,\nis:\n\n| family | concrete source-class guess | working confidence | reason and main problem |\n|---|---|---:|---|\n| `VAL-A` | `STANDARD / AS USUAL` application setting | .38 | only family on all three pages and widest role spread; could instead be a common prose/cadence answer |\n| `VAL-B` | `TEMPERED / WARM` medium or application | .34 | f82r/f83r category reused nonadjacently on f82r.27; no pictured temperature |\n| `VAL-C` | `POUR / RINSE` application mode | .31 | slight figure/path concentration on f83r; still spans five roles |\n| `VAL-D` | `IMMERSE / SOAK` application mode | .28 | present on communal-bath f81v and apparatus f83r; absent f82r despite its pool imagery |\n\nThese are not phonetic readings and not four demonstrated lexemes. The safer\nshared taxonomy is `DEFAULT_SETTING / MEDIUM_CONDITION / ACTIVE_APPLICATION /\nIMMERSION_APPLICATION`. It is more plausible than treating the four cards as\nfour apparatus nouns because each family moves across several visible roles.\n\nConfidence for the class-level decision:\n\n- exact committed categorical values: `.84` (inherited formal result);\n- latent treatment/application configuration values: `.60`;\n- the four concrete expansions above as a package: `.32`;\n- direct visible-role vocabulary: `.20`;\n- generic stencil/cadence values with no recoverable content: `.55`;\n- ordinary abbreviated prose endings or predicates: `.43`.\n\nThus latent medical configuration narrowly remains the leading generative\ninterpretation, while generic cadence is the strongest rival and is better\nsupported by the internal distribution alone.",
+          "sha256": "8268b520add1eba2ce74fea3332a632e0d4fe0a9e91a4b30f1cafb9fff767344"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v15/CANDIDATE_V15_R2_MEDICAL_VALUE_ROLES.md",
+          "line": 197,
+          "line_end": 231,
+          "quote": "These comparators support three modest points only:\n\n1. bath, body, application and women's-health material are plausible source\n   domains around 1420;\n2. drawings may supply an implicit case, site or apparatus while abbreviated\n   text records a treatment distinction;\n3. a miscellaneous medical codex need not use a modern database or fixed\n   universal columns.\n\nThey do not support the four English glosses, a donor manuscript, an origin or\na language. `VAL-B = warm`, in particular, is a semantic wager motivated by\nbath practice and repetition, not by a visible thermometer or readable word.\n\n## Generic cadence and ordinary prose controls\n\nThe generic stencil account remains strong:\n\n- sixteen of the 38 targets are complete one-card fields;\n- all four families share the same attached commitment coordinate;\n- families move among field ordinals and lengths;\n- `VAL-A` has field ordinals F1/F2/F3 = 4/6/2;\n- `VAL-B` has F1/F2/F3/F6 = 4/2/3/1;\n- `VAL-C` has F1/F2/F3/F4/F5 = 1/2/2/2/1;\n- `VAL-D` occurs exactly twice in each of F1–F4;\n- page selectivity is sharper than the frozen visual-role separation.\n\nA model-sheet scribe could therefore select common legal terminal cards by\npage stencil and cadence without encoding temperature or treatment. That\nmodel explains the evidence with fewer semantic assumptions.\n\nOrdinary abbreviated prose is also viable. Common adjectives, imperatives or\nrecipe predicates can recur at clause ends and can form a one-card response\nwhen the object and operation are inherited. It explains page-local vocabulary\nand medical source practice better than pure cadence, but it does not by itself\nexplain why the same exact cards are so strongly attached to one committed",
+          "sha256": "8268b520add1eba2ce74fea3332a632e0d4fe0a9e91a4b30f1cafb9fff767344"
+        }
+      ],
+      "scientific_refutation": false,
+      "archive_recommended": false
+    }
+  ],
+  "source_receipt_audit": [
+    {
+      "source_id": "LEGACY_COMPONENT:e452fcf0d93fe41d53a9",
+      "decision": "approve_source_audit_receipt",
+      "counterpart_ids": [
+        "SEM:5dd8e3198a03ee85f577"
+      ],
+      "reason": "Exact source ID belongs to the reviewed current case; source assessment retains immutable intake and creates no duplicate card/case. Cited substantive target scope was read, not inferred from heading or quotation overlap."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:bb2ed7cacb20852f763d",
+      "decision": "approve_source_audit_receipt",
+      "counterpart_ids": [
+        "SEM:cac4b76ca6ef082fabd3"
+      ],
+      "reason": "Exact source ID belongs to the reviewed current case; source assessment retains immutable intake and creates no duplicate card/case. Cited substantive target scope was read, not inferred from heading or quotation overlap."
+    },
+    {
+      "source_id": "LEGACY_PROPOSAL:4ca343eeb465d7d32e1ef507",
+      "decision": "approve_source_audit_receipt",
+      "counterpart_ids": [
+        "SEM:b5cfce8658b098793426"
+      ],
+      "reason": "Exact source ID belongs to the reviewed current case; source assessment retains immutable intake and creates no duplicate card/case. Cited substantive target scope was read, not inferred from heading or quotation overlap."
+    },
+    {
+      "source_id": "LEGACY_PROPOSAL:9b35427f4d9933ce6b3c9003",
+      "decision": "approve_source_audit_receipt",
+      "counterpart_ids": [
+        "SEM:9b2ae3ba12245aedd694"
+      ],
+      "reason": "Exact source ID belongs to the reviewed current case; source assessment retains immutable intake and creates no duplicate card/case. Cited substantive target scope was read, not inferred from heading or quotation overlap."
+    }
+  ],
+  "editorial_notes": [
+    {
+      "target": "SEM:cac4b76ca6ef082fabd3",
+      "severity": "nonblocking_editorial",
+      "reason": "If expanding evidence in the append packet, close the copied code fence or complete the already-started neighboring sentence; this does not change the assessed target proposition.",
+      "suggested_evidence": {
+        "path": "experiments/yolo/sidequest_semantic_directional_completion/WORKSHOP_DIRECTION_REPORT.md",
+        "line": 1,
+        "line_end": 45,
+        "quote": "# Werkstattlehre: Quelle – Weg – Ziel\n\nStatus: kreative Zehn-Seiten-Arbeitstheorie, keine Entzifferung. Diese Runde\nverwendet ausschließlich das aktuelle komponentenkomplette Wörterbuch,\nInterlinear und Aussagenregister. Sie baut keine wissenschaftliche Prüfung,\nsondern eine von mehreren Schreibern leicht zu lernende Werkstattregel.\n`f84` und `f84r` blieben versiegelt.\n\n## Die Fünferregel\n\nEin Lehrmeister um 1420 müsste nur fünf Ortszeichen lehren:\n\n```text\nAR    QUELLE     von / aus der Herkunft\nAIR   WEG        durch / längs des Laufs\nAL    ZIEL       an / zu der Arbeitsstelle\nP-    HINEIN     in den Empfänger\nL-    HINAUS     aus dem Behälter oder von der Stelle weg\n```\n\n`P-` und `L-` sind nur vor `CHED` produktiv. Sie werden nicht als allgemeine\nWörter für hinein und hinaus behauptet. `AR`, `AIR` und `AL` sind drei\ngelernte Werkstattkürzel; `AIR` wird nicht in `A+I+R` zerlegt.\n\nDie räumliche Leserichtung lautet:\n\n```text\nQUELLE  -- über WEG -->  ZIEL\n AR           AIR         AL\n\nL + CHED = hinausführen       P + CHED = hineinführen\n```\n\nDamit kann ein Schreiber die längeren Karten ohne neue Satzglossen bilden:\n\n```text\nL+CHED+AR   aus der Quelle hinausführen\nL+CHED+AL   zur Auslassstelle hinausführen\nP+CHED+AL   in die Ziel-/Empfangsstelle hineinführen\nP+CHED+DY   in den Empfänger hineinführen; Schritt schließen\nCHED+AIR    den Posten durch den Lauf führen\nOK+AR       etwas daraus in den Arbeitsgang nehmen\nOK+AIR      den Lauf in Gang setzen\nOK+AL       etwas an der Zielstelle einsetzen\n```",
+        "sha256": "3dabb5a83c08c8ba0654d3161e1a3e01dd941d3631124a20966c20943e6ca9ec"
+      }
+    },
+    {
+      "target": "SEM:b5cfce8658b098793426",
+      "severity": "nonblocking_editorial",
+      "reason": "If expanding evidence in the append packet, close the copied code fence or complete the already-started neighboring sentence; this does not change the assessed target proposition.",
+      "suggested_evidence": {
+        "path": "experiments/yolo/sidequest_theory_candidates_v18/CANDIDATE_V18_R1_WORKSHOP_MASTER.md",
+        "line": 1,
+        "line_end": 32,
+        "quote": "# V18 R1 — workshop-master six-card reconstruction\n\nDate: 2026-08-21\n\nStatus: **maximally abductive concrete workshop reading, not deciphered plaintext**.\n\n## Decision\n\nA novice can learn the six disputed cards as a compact set of non-overlapping instructions:\n\n```text\nOKEEY   preserve lukewarm working temperature\nLCHEDY  drain into the lower receiver and close the step\nDCHEDY  close the foregoing treatment before a new chain\nOLCHEDY reserve the mixed liquor for the following step\nCHAR    repeat the foregoing preparation with the same batch\nCHO     on f56r, take the pictured plant's upper flowering parts\n```\n\nThe strongest revision is `LCHEDY`: **drain into the lower receiving vessel**.\nIt repeatedly follows immersion, washing, or mixing and is repeatedly adjacent to\na lower outlet, lower basin, or renewed lower route. Standing would overlap\n`OLKEEDY = settle`; cooling would overlap the already explicit COOL cards.\n\nThe second revision is `CHAR`: **repeat the foregoing preparation using the same\nbatch**. This retains the incumbent material continuity but turns the line-final\ncopies and `OKAIN CHAR OKAIN` into executable apprentice instructions.\n\nThe third revision is page-local `CHO`: **take the upper flowering parts of the\npictured plant**. Its four positions now enumerate root/upper parts, upper parts in\nwine, upper parts with dried leaf, and fresh upper parts with honey. This is one\npage-owned sense, not four improvised plant parts.",
+        "sha256": "cf710f35157f6e58e55533087e03e218b33cacf1c1750bf59ea27e57bee2cecb"
+      }
+    },
+    {
+      "target": "SEM:9b2ae3ba12245aedd694",
+      "severity": "nonblocking_editorial",
+      "reason": "If expanding evidence in the append packet, close the copied code fence or complete the already-started neighboring sentence; this does not change the assessed target proposition.",
+      "suggested_evidence": {
+        "path": "experiments/yolo/sidequest_theory_candidates_v15/CANDIDATE_V15_R2_MEDICAL_VALUE_ROLES.md",
+        "line": 197,
+        "line_end": 232,
+        "quote": "These comparators support three modest points only:\n\n1. bath, body, application and women's-health material are plausible source\n   domains around 1420;\n2. drawings may supply an implicit case, site or apparatus while abbreviated\n   text records a treatment distinction;\n3. a miscellaneous medical codex need not use a modern database or fixed\n   universal columns.\n\nThey do not support the four English glosses, a donor manuscript, an origin or\na language. `VAL-B = warm`, in particular, is a semantic wager motivated by\nbath practice and repetition, not by a visible thermometer or readable word.\n\n## Generic cadence and ordinary prose controls\n\nThe generic stencil account remains strong:\n\n- sixteen of the 38 targets are complete one-card fields;\n- all four families share the same attached commitment coordinate;\n- families move among field ordinals and lengths;\n- `VAL-A` has field ordinals F1/F2/F3 = 4/6/2;\n- `VAL-B` has F1/F2/F3/F6 = 4/2/3/1;\n- `VAL-C` has F1/F2/F3/F4/F5 = 1/2/2/2/1;\n- `VAL-D` occurs exactly twice in each of F1–F4;\n- page selectivity is sharper than the frozen visual-role separation.\n\nA model-sheet scribe could therefore select common legal terminal cards by\npage stencil and cadence without encoding temperature or treatment. That\nmodel explains the evidence with fewer semantic assumptions.\n\nOrdinary abbreviated prose is also viable. Common adjectives, imperatives or\nrecipe predicates can recur at clause ends and can form a one-card response\nwhen the object and operation are inherited. It explains page-local vocabulary\nand medical source practice better than pure cadence, but it does not by itself\nexplain why the same exact cards are so strongly attached to one committed\ncell realization.",
+        "sha256": "8268b520add1eba2ce74fea3332a632e0d4fe0a9e91a4b30f1cafb9fff767344"
+      }
+    }
+  ],
+  "validation": {
+    "current_cards": 4,
+    "complete_cases": 4,
+    "bases_match": "PASS",
+    "exact_quotes_and_source_hashes": "PASS",
+    "source_receipts": 4,
+    "new_cards": 0,
+    "approved_restatements": 3,
+    "approved_retains": 1,
+    "blocking_fixes": 0
+  },
+  "limits": [
+    "Only the four assigned propositions and their relevant primary contexts reviewed.",
+    "No general sh/L morphology, cross-model CHAR identity or literal VAL-B word identification follows.",
+    "No empirical confirmation/refutation, raw event access or operative mutation."
+  ],
+  "operational_mutation": false
+}
