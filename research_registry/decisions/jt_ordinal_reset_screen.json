@@ -1,0 +1,27 @@
+{
+  "schema": "bounded_ordinal_reset_screen_v1",
+  "batch": "jt",
+  "status": "NO_NEW_CANDIDATE",
+  "question": "Whether a restricted source-form/stateful-reset model can replace GDT760's failed simple ordinal counter without importing unit translations.",
+  "primary": {
+    "id": "GDT760",
+    "path": "experiments/yolo/gdt760_quantity_bilateral_content_attachment/REPORT.md",
+    "line": 93,
+    "line_end": 107,
+    "sha256": "a58f98014700da93e4d8e3db2a8e7a16d94b110313649f0a7f2a7952a8d6cfdd",
+    "quote": "145 fusionierte san/sain/saiin/saiiin-Vorkommen, davon 76 am Zeilenanfang;\n25 getrennte s-plus-Wert-Spans, davon kein einziges am Zeilenanfang.\n\nDie vier s aiin/saiin-Grenzbrücken bleiben reale Evidenz für eine gemeinsame\nMengenfamilie. Sie beweisen aber nicht, dass beide Schreibweisen überall dieselbe\nAnbindung besitzen. Deshalb bleibt Drachme der konkrete Leitkandidat,\nwird aber nicht mehr an allen 145 fusionierten Stellen als fertiger Wortwert\ngesprochen. 22 fusionierte Stellen besitzen einen sauberen Inhaltskontakt und\nerhalten weiterhin eine volle Mengenphrase. Die übrigen 123 heißen sichtbar\nMengenform II/III/IV mit Drachmen-, Gleichteile- und Unzenrivalen.\n\nAuch die Alternative „zweiter/dritter Eintrag“ fällt. In elf Absätzen gibt es 15\nÜbergänge zwischen zeilenanfänglichen fusionierten s-Formen: zehn bleiben\ngleich, zwei gehen zurück und nur drei steigen. Ein einfacher laufender\nOrdinalzähler erklärt diese Reihen nicht."
+  },
+  "related_predecessors": [
+    {"id":"GDT759","role":"fused/separated quantity construction and boundary normalization","report_sha256":"322a0842c189fd3f3f2fd3384030781db1f6c3c4e147a324c18ddd5dafeda7d1"},
+    {"id":"GDT729","role":"global quantity dispatch retaining indexed/open rivals","report_sha256":"14d2d659b619c16301d3a34274f0fab9f50ca1e64469d49004d7ef667317523f"}
+  ],
+  "assessment": {
+    "observed": "The report supplies a negative result for a simple running ordinal and a position-conditioned distinction between fused and separated forms.",
+    "missing": "No independently observed reset marker, source-form instruction, or state transition licenses a new reset rule. The line-start boundary is an observed position, but treating it as a reset would be an ad hoc model choice.",
+    "restricted_model_possible_in_principle": "A preregistered finite-state model could be tested without translating units if a reset event were independently marked and its output operation fixed before scoring.",
+    "current_decision": "Do not draft or select a reset variant. Failure of the simple counter does not entail a reset mechanism.",
+    "smallest_reopening_condition": "An independent source-observed reset or boundary operation, with the transition and falsifier fixed before inspecting ordinal outcomes."
+  },
+  "registry_mutation": false,
+  "scientific_status": "No new proposal, experiment, review, ledger edit, or rebuild."
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Exact surface copying versus state-conditioned lexical reuse",
+  "summary": "GDT554 observes repeated exact context families with no contradictory portable macros. A narrower mechanism question asks whether a copied/notation template preserves one surface independently of incoming state, or whether the same surface is a lexical item whose interpretation is conditioned by the incoming state.",
+  "scope": "semantic",
+  "status": "draft_unreviewed_not_added",
+  "design": {
+    "mechanism": "copying/notation invariant versus state-conditioned lexical reuse",
+    "unit": "same exact surface and local template observed under at least two independently coded incoming states",
+    "contrast": "surface recurrence is copied notation with state-invariant function versus lexical recurrence whose function changes with incoming state",
+    "prediction": "A copying model predicts stable downstream slot behavior and state-independent template completion after matching surface and boundary; a lexical-state model predicts a reproducible state-by-surface interaction in downstream slot or argument behavior.",
+    "countermodel": "The apparent incoming states may be inherited renderer labels or analyst assignments, and a fixed lexical item can look invariant if the held states do not vary the relevant argument.",
+    "falsifier": "On a preregistered held set with independently observed incoming-state markers and downstream boundaries, neither state-by-surface interaction nor stable copied-template behavior exceeds the alternative after source/register controls.",
+    "principal_risk": "GDT554's states and portable readings are inherited working cards, not independent semantic gold; this is a proposal about model discrimination, not a claim that the repeated surface has a known meaning.",
+    "related": "Near GDT554's repeated-context consistency audit and GDT555 successor-role audit, but changes the falsifier from contradiction/initialization to an explicit copying-versus-state-conditioned lexical interaction.",
+    "source_evidence": {
+      "path": "experiments/yolo/gdt554_statement_semantic_template_audit/REPORT.md",
+      "line": 40,
+      "line_end": 55,
+      "sha256": "891676b786b59e66316485d82ff60e5a282d7f0fe73aeb2bc05e1908c8a61914",
+      "quote": "## Kein exakter Kontextwiderspruch\n\n142 wiederholte exakte Kontextfamilien wurden auf zwei Arten zusammengelegt:\ngleiche Oberfläche plus eingehende Zustände und gleiches Rezept plus eingehende\nZustände. In keiner Familie entstehen zwei portable Bedeutungsmakros. Die\ndeutsche Wortwahl darf registerabhängig zwischen Pflanzenposten und laufendem\nEintrag wechseln; die zugrunde liegende Wurzelspur bleibt gleich.\n\n`qokees=OK+EE+S` ist weiterhin die einzige der 145 Zieloberflächen mit zwei\neingehenden Zuständen. Einmal bleibt sie objektlos, einmal übernimmt sie `Y`.\nBeide Lesungen stehen bereits auf ihrer Karte; das ist der bekannte\nSteckplatzwechsel und kein Widerspruch.\n\nDer Nullbefund ist bewusst eng: Die Bedeutungsmakros werden aus den bereits\ngesetzten Rezepten und Zuständen rekonstruiert. Er zeigt innere Konsistenz, aber\nkeine unabhängige Entzifferung."
+    },
+    "endpoint_status": "availability_unknown",
+    "smallest_next_step": "Audit only exact repeated surfaces with independently source-observed incoming states and downstream slot boundaries; stop if state labels are inherited defaults."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "ju_three_source_question_draft_v1",
+  "status": "draft_source_question_only",
+  "scope": "Independent bounded review of SEM:381d64240f713c1a5434, SEM:6bf1bee148443c13e65f and SEM:4449279204394047702c. No rerun, registry mutation or meaning promotion.",
+  "questions": [
+    {
+      "id": "JU_S_CURRENT_CARRY",
+      "target": "SEM:381d64240f713c1a5434",
+      "question": "What does the observed S|AIIN versus SAIIN boundary behavior establish about a detachable/current-carry construction, separately from the proposed SAME gloss?",
+      "observed_evidence": [
+        {"path":"experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md","line":3995,"line_end":4017,"quote":"The six-page ZL3b sample contains four exact detached `s | aiin` sequences on\nthree pages:\n\n```text\nf55v.10   ol    | s | aiin | okaiin\nf82r.16   ol    | s | aiin | chey\nf83r.10   cthal | s | aiin | chky\nf83r.33   sy    | s | aiin | sheekchy\n```\n\nThis is additional to five exact fused `saiin` groups. Alternate readings vary\nprecisely at the attachment boundary:\n\n```text\nf55v.10   S | AIIN in all three readings\nf82r.16   SAIIN in IT; S | AIIN in ZL/RF\nf83r.10   SAIIN or attachment to the preceding cell in IT/RF;\n          S | AIIN in ZL\nf83r.33   SAIIN in IT; S | AIIN in ZL/RF\n```\n\nThus the S-AIIN relation is not inferred from substring resemblance alone.\nThe source boundary itself oscillates while the construction survives.","sha256":"bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"},
+        {"path":"experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md","line":4027,"line_end":4041,"quote":"The boldest useful gloss for S is now **SAME/CURRENT-CARRY**, not a sound or an\nordinary translated word. It explains why S is favoured at physical line entry:\nthe new writing packet resumes a state already active in the larger record.\n\nThe repeated cross-page frame `ol | s | aiin` then receives a concrete\nsidequest reading:\n\n> For the OL carrier/object, retain the same currently registered setting.\n\nThis fits plant/biological technical prose especially well if OL is a liquid,\nwater, vessel content or substrate and AIIN a quantity/grade/duration. It also\nremains compatible with non-liquid values.\n\nThe construction is still not proof that S always means same. S may have other\nlicensed functions, and the exact external content of AIIN and OL is unknown.","sha256":"bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"}
+      ],
+      "actual_boundary_result": "The exact detached/fused forms and alternate-reader boundary oscillation are observed source facts. They support a boundary-sensitive construction hypothesis, not a universal S=SAME meaning.",
+      "valid_conditional_reopening": "Only an independently coded state-continuation or reset endpoint, predeclared without importing the SAME gloss, could distinguish current-carry from a boundary-sensitive but semantically neutral construction. An ordinal or grade counterexample alone does not refute current-carry because the proposed card explicitly leaves AIIN quantity/grade/duration open and allows other S functions.",
+      "limits": "ZL3b, IT2a and RF1b are alternate readings of one manuscript, not independent witnesses. Preserve all five fused/detached source cases and do not treat boundary count as semantic confirmation."
+    },
+    {
+      "id": "JU_SAIIN_DRACHM_REVISION",
+      "target": "SEM:6bf1bee148443c13e65f",
+      "question": "What did GDT759 actually change when it replaced the old s=seed family, and which part remains only a drachm working default after later quantity/attachment corrections?",
+      "observed_evidence": [
+        {"path":"experiments/yolo/gdt759_quantity_part_state_construction_atlas/REPORT.md","line":10,"line_end":21,"quote":"Die wichtigste Korrektur lautet:\n\n```text\ns aiin = saiin\nArbeitslesung: drei Drachmen\nRivalen: drei gleiche Teile | drei Unzen\n```\n\nDas ist nicht aus der EVA-Form geraten. Vier verschiedene physische Zeilen\nwerden über ZL3b, IT2a und RF1b vollständig identisch, sobald lediglich die\nGrenze `s aiin`/`saiin` normalisiert wird. Insgesamt gibt es 23 getrennte\nreader-exakte `s aiin` und 89 fusionierte `saiin`.","sha256":"322a0842c189fd3f3f2fd3384030781db1f6c3c4e147a324c18ddd5dafeda7d1"},
+        {"path":"experiments/yolo/gdt759_quantity_part_state_construction_atlas/REPORT.md","line":35,"line_end":44,"quote":"Damit verlassen `ein Teil Saatgut`, `Samen, Charge II`, `Samencharge III` und\n`Saatgutcharge IV` die aktive Arbeitslesung. Ihre einzige konkrete\nStoffidentität stammte aus dem bereits verworfenen EVA-Initial-Mnemonic.\n\nWarum Drachmen als Leitkandidat? Die historische Vergleichsbank belegt genau\ndie benötigte technische Architektur: Drachmen- und Unzenzeichen stehen mit\nWerten; *ana* drückt gleiche Mengen aus. Der Drachmenmarker ist in der\nabgeglichenen Rezeptüberlieferung die häufigste konsequent gekürzte\nMaßformel. Das wählt eine praktische Arbeitshypothese, nicht die historische\nIdentität. Deshalb bleiben `drei gleiche Teile` und `drei Unzen` sichtbar.","sha256":"322a0842c189fd3f3f2fd3384030781db1f6c3c4e147a324c18ddd5dafeda7d1"},
+        {"path":"experiments/yolo/gdt760_quantity_bilateral_content_attachment/REPORT.md","line":38,"line_end":42,"quote":"Die grammatische Glättung fügt keine Voynich-Bedeutung hinzu; die maschinelle\nTabelle hält Menge, Stoffwert, Seite, Evidenz und Rivalen getrennt. f43v.12 ist\nder ehrliche Grenzfall: oteol or aiin odain hat auf beiden Seiten eine\nZubereitungslesung. Dort bleibt offen, welcher Nachbar an die drei Portionen\ngehört.","sha256":"a58f98014700da93e4d8e3db2a8e7a16d94b110313649f0a7f2a7952a8d6cfdd"}
+      ],
+      "actual_boundary_result": "GDT759 observed a reader-equivalent s aiin/saiin boundary normalization and removed the unsupported EVA-seed identity. It selected drachm as a practical historical notation default while retaining equal-parts and ounces rivals. GDT760 later kept amount, material, side, evidence and rivals separate and documented bilateral attachment ambiguity at f43v.12.",
+      "valid_conditional_reopening": "A reopening would require an independently bound quantity/unit endpoint or a source-specific attachment observation that predicts differently for drachm, equal-parts and ounces. An ordinal counterexample, a changed segmentation, or another alternate-reader agreement does not refute the current drachm working default; the three reader columns are alternate readings of one manuscript.",
+      "limits": "No confirmed unit, material lexeme or universal s-family meaning follows. Preserve the 23 separated/89 fused counts, C0/C1 distinctions and later GDT760 bilateral ambiguity."
+    },
+    {
+      "id": "JU_F43V12_BILATERAL_ATTACHMENT",
+      "target": "SEM:4449279204394047702c",
+      "question": "Does f43v.12 provide any source-independent attachment evidence for the three-portion amount, or is it correctly retained as a bilateral ambiguity?",
+      "observed_evidence": [
+        {"path":"experiments/yolo/gdt760_quantity_bilateral_content_attachment/REPORT.md","line":38,"line_end":42,"quote":"Die grammatische Glättung fügt keine Voynich-Bedeutung hinzu; die maschinelle\nTabelle hält Menge, Stoffwert, Seite, Evidenz und Rivalen getrennt. f43v.12 ist\nder ehrliche Grenzfall: oteol or aiin odain hat auf beiden Seiten eine\nZubereitungslesung. Dort bleibt offen, welcher Nachbar an die drei Portionen\ngehört.","sha256":"a58f98014700da93e4d8e3db2a8e7a16d94b110313649f0a7f2a7952a8d6cfdd"}
+      ],
+      "actual_boundary_result": "The observed fact is bilateral preparation adjacency with unresolved side assignment. It does not identify a material, carrier or attachment direction.",
+      "valid_conditional_reopening": "Only an independently defined side/owner or source-content endpoint that predicts left versus right attachment could change the assessment. A smoother German rendering, inherited material gloss, or one-sided default would not.",
+      "limits": "This is a local GDT760 source case, not a universal quantity rule; no semantic binding or new page is implied."
+    }
+  ],
+  "overall": "All three cards support bounded source propositions and conditional reopening criteria, not new meanings. The later GDT760 correction narrows the GDT759 quantity overlay and preserves bilateral ambiguity; no route should be re-tested from these cards alone."
+}

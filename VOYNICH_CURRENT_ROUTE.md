@@ -4,7 +4,7 @@ Updated: 2026-09-07. Read first.
 ## Current mandate and effort limit
 
 10h active:2026-09-07 20:29:06–2026-09-08 06:29:06UTC minimum.
-JT:2models/2questions;5method reviews;85groups/99reduction.
+JW:5models/5questions this10h;85groups/99reduction.
 55rawrecords54unique;32method/22unreviewed;55duplicate_of53.
 Report: `research_registry/decisions/semantic_4h_completion.md`.
 

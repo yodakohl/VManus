@@ -1,0 +1,52 @@
+{
+  "schema": "source_remainder_correction_receipt_v1",
+  "review_id": "SOURCE_REMAINDER_JR_CORRECTION",
+  "status": "corrected_no_novelty",
+  "preserved_draft": {
+    "path": "research_registry/decisions/source_remainder_candidate_cards.json",
+    "sha256": "c87bf0b98e09c7351e65559c722f11733bed0503572bd31d091a72e1026217cc",
+    "bytes": 7402
+  },
+  "correction": "The two earlier GAP_V selections were stale as novelty candidates. Fresh priorities now bind both to current semantic cards; the prior draft remains byte-preserved and is not operative.",
+  "exact_current_bindings": [
+    {
+      "prior_candidate": "GAP_V:PRODUCT_STATION_COMPATIBILITY",
+      "current_id": "SEM:87d160397959c3a208fc",
+      "current_review_case": "CLEAN_GAP_W:product_station_compatibility",
+      "current_basis": "source_member LEGACY_COMPONENT:6e7f498f927ad4664266",
+      "fresh_query": "Herbal supplies product classes",
+      "assessment_query": {
+        "matched": 0,
+        "note": "No assessment rows; current card status remains unconfirmed."
+      }
+    },
+    {
+      "prior_candidate": "GAP_V:H4_H5_B2_MATERIAL_CHAIN",
+      "current_id": "SEM:c8f4dd002aa745a39e3d",
+      "current_review_case": "CLEAN_GAP_W:h4_h5_b2_complete_material_chain",
+      "current_basis": "source_member LEGACY_COMPONENT:d80f8a1a8ab070390d2f",
+      "fresh_query": "priorities --show SEM:c8f4dd002aa745a39e3d",
+      "assessment_query": {
+        "matched": 0,
+        "note": "No assessment rows; current card status remains unconfirmed."
+      }
+    }
+  ],
+  "gdt760_ordinal_duplicate_check": {
+    "source": "GDT760 experiments/yolo/gdt760_quantity_bilateral_content_attachment/REPORT.md and PREREGISTRATION.md; root owns primary adjudication.",
+    "exact_phrase_queries": [
+      "zweiter dritter Eintrag",
+      "running counter",
+      "ordinal counter"
+    ],
+    "query_results": {
+      "zweiter dritter Eintrag": 0,
+      "running counter": 0,
+      "ordinal counter": 0
+    },
+    "source_path_query": 0,
+    "existing_nearby_card": "SEM:4fab16ab0aebaf9f9032 is soraiir/measure-index lookup, not the proposed strictly increasing line-initial fused-form paragraph counter; SEM:4235c28ec0a74a692f1a is GDT625 rival and unrelated.",
+    "disposition": "potentially unresolved candidate for root primary review, not counted as a new card here; do not conflate with broad ordinal or cross-reference cards."
+  },
+  "operative_mutation": false
+}

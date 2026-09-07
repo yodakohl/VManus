@@ -1,0 +1,28 @@
+{
+  "schema": "bounded_add_hang_diagnosis_v1",
+  "incident": {
+    "observed": "The first ideas add acquired the writer flock and appended before returning output; retrying while the first process was still rebuilding the derived index appended the same design again.",
+    "code_path": "tools/research_registry.py:add_idea",
+    "mechanism": "add_idea holds writer() across read, ideas.jsonl write, and build_index(). build_index rebuilds the SQLite index synchronously over the full assembled registry. The lock file is persistent and zero-byte; its existence is not a stale-lock signal. No progress or completion output is emitted until build_index returns.",
+    "prevention": [
+      "Treat a running add process as potentially committed once its target title appears in ideas.jsonl; do not retry from silence.",
+      "Use one serial add process and wait for its JSON result; inspect the targeted title/ID before any retry.",
+      "If interruption is necessary, inspect ideas.jsonl first and preserve any assigned ID; do not infer lock state from writer.lock file presence."
+    ],
+    "scope_limit": "No infrastructure or CLI edits made; this is a read-only diagnosis from the actual code and process state."
+  },
+  "drafts": [
+    {
+      "proposal_file": "research_registry/proposals/jp_mixed_record_channel_conditioning_draft.json",
+      "decision": "retain_as_draft_only",
+      "reason": "Source-starting and distinct from word/profile covariance, but independent channel labels and semantic endpoint are unavailable."
+    },
+    {
+      "candidate": "GDT736 two-axis body-affinity interaction",
+      "decision": "reject_as_new_draft",
+      "reason": "GDT736/GDT737 already test the claim directly; GDT737 reports failed held transfer. Repackaging it would be a duplicate or reopening without a new binding/falsifier."
+    }
+  ],
+  "registry_mutation": false,
+  "scientific_status": "No proposal was added or reviewed; draft remains unreviewed."
+}

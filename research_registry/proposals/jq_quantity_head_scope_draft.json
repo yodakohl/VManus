@@ -1,0 +1,25 @@
+{
+  "title": "Repeated quantity heads distinguish local pairing from one coordinated amount scope",
+  "summary": "GDT759 records adjacent amount heads in exact expressions, including ar al ar aiin. A narrow exploratory question is whether each quantity head pairs locally with its following value/part, or whether the first head scopes over a coordinated multi-item amount expression.",
+  "scope": "semantic",
+  "status": "draft_unreviewed_not_added",
+  "design": {
+    "mechanism": "local quantity-scope pairing versus one coordinated multi-item amount scope",
+    "unit": "reader-exact multi-head amount span with independently segmented value/part candidates",
+    "contrast": "each amount head locally binds its following value/part versus the first amount head governs the full coordinated span",
+    "prediction": "In held multi-head spans, local pairing predicts stable head-to-following-value alignment and independent alternation of the second head; a single-scope analysis predicts the first head remains sufficient when the later value changes.",
+    "countermodel": "Repeated heads may be template padding or duplicated notation for one amount, so apparent local pairing can arise without two semantic scopes.",
+    "falsifier": "After preregistering segmentation and independent value/part coding, held multi-head spans show no stable local pairing and are equally explained by one first-head scope.",
+    "principal_risk": "The source's working amount readings are not independent semantic gold; this cannot distinguish meanings unless value/part coding is independently bound.",
+    "related": "Near IDEA000014 (one measured entity), IDEA000032 (generic coordination), GDT759 and GDT760, but targets the falsifiable scope relation inside exact multi-head spans rather than amount conservation or side attachment.",
+    "source_evidence": {
+      "path": "experiments/yolo/gdt759_quantity_part_state_construction_atlas/REPORT.md",
+      "line": 60,
+      "line_end": 85,
+      "sha256": "322a0842c189fd3f3f2fd3384030781db1f6c3c4e147a324c18ddd5dafeda7d1",
+      "quote": "## Die drei Mengenköpfe unterscheiden sich\n\n| Kopf | exakte Wertpaare | beobachtete Werte | Arbeitsfunktion |\n|---|---:|---|---|\n| `s` | 25 | II, III, IV | Drachmen-/Maßformel; gleich-Teile-Rivale |\n| `or` | 44 | II, III, IV | Portionen |\n| `ar` | 27 | II, III, IV | Anteile |\n\nDie konkreten Hauptausdrücke sind `or aiin=drei Portionen` (36-mal) und\n`ar aiin=drei Anteile` (16-mal). Neben den vier `s aiin/saiin`-Brücken gibt\nes je eine vollständig normalisierte Brücke für `or ain/orain`,\n`or aiin/oraiin` und `ar aiin/araiin`. Leerzeichen trennen hier also nicht\nzuverlässig Wort von Kompositum.\n\nBeispielausschnitte:\n\n```text\nf16r.7   ... schy s aiin doal ...\n          ... schy; drei Drachmen; doal ...\n\nf76r.47  ... chckhy or aiin sheey ...\n          ... chckhy; drei Portionen; sheey ...\n\nf113v.2  ... ar al ar aiin okal ...\n          ... Anteil; al; drei Anteile; okal ...\n```"
+    },
+    "endpoint_status": "availability_unknown",
+    "smallest_next_step": "Check all exact multi-head spans for independently coded value/part boundaries; stop if those labels are inherited working defaults."
+  }
+}
