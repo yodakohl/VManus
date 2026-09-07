@@ -1,0 +1,259 @@
+{
+  "status": "bounded_source_candidates",
+  "scope": "part/whole, quantification, plural and distribution only; no operative edits",
+  "current_scoped_snapshot": {
+    "latest_scoped_decisions": 95,
+    "distinct_scoped_targets": 117,
+    "selected_candidates_in_scoped_targets": 0
+  },
+  "excluded_by_direct_assessment_or_assignment": [
+    "HU minimum-count/DAIIN targets",
+    "ID Pass253 target SEM:0f27dac075bca93709d5",
+    "SEM:529fc92cbc6d11b96b95 (GDT627 context)",
+    "SEM:e32b80ac090555d004c2 (GDT636 context)",
+    "SEM:f504f6f59cbc84d203f6 and SEM:07f76eb4374b978915e7 (GDT773 context)",
+    "SEM:4428383584b0b0b3d3eb, SEM:6d195fc0b191dbca669b, SEM:2469f26ba5b615b52f13 (GDT758/GDT768 contexts)"
+  ],
+  "candidates": [
+    {
+      "id": "SEM:d521729b5296373929c7",
+      "claim": "Pass227 reads dy chy taiin shy as a nested construction: dy chy establishes two items and chy taiin shy keeps the second item active across the prescribed value. This combines plural introduction with reference maintenance rather than assigning a new meaning to every token.",
+      "claim_type": "functional_hypothesis",
+      "card_basis": "5936f5f1f134b5658dc0b498b09156cd9796a1ca6fdce21ea0ba497c937b3f3b",
+      "effective_basis": "e9b5f08978dc19f83e12f1784c37ef3af0e60549a4727a54a20591c28227243c",
+      "source_case_ids": [
+        "CLEAN_GAP_BE:nested_two_item_reference"
+      ],
+      "source_review_files": [
+        "research_registry/decisions/clean_gap_review_be_integrated.json"
+      ],
+      "registry_context_ids": [],
+      "already_in_current_scoped_targets": false,
+      "direct_assessment_query": "./vmanus-work priorities --show ID --field assessments returned items=[]",
+      "source_evidence": [
+        {
+          "type": "primary_source",
+          "path": "experiments/yolo/sidequest_semantic_combined_reference_parser_two_hundred_twenty_seventh/TWO_HUNDRED_TWENTY_SEVENTH_REPORT.md",
+          "line": 1,
+          "line_end": 13,
+          "quote": "# Zweihundertsiebenundzwanzigster Durchgang: kombinierter Werkstattparser\n\nDie Rückkehr- und Doppelungsregeln sind nun in einem gemeinsamen recordweiten Parser verbunden. Er unterscheidet drei Ebenen:\n\n- 381 sichtbare Karten;\n- 380 Quelltoken, weil die f82r-Zeilenforttragung zweimal sichtbar, aber einmal gemeint ist;\n- 357 Leseeinheiten, davon 343 Einzelkarten und 14 zusammengesetzte Konstruktionen.\n\nDie 14 Konstruktionen tragen 15 Regelanwendungen. Der Unterschied entsteht durch das einzige verschachtelte Fenster `dy chy taiin shy`: `dy chy` setzt zwei Posten, während `chy taiin shy` den zweiten Posten über den Sollwert hinweg aktiv hält.\n\nDer Parser verändert keine Kartenbedeutung. Er erklärt nur, wie ein Schreiber dieselben kleinen Wörter durch Wiederholung und Rahmung zu Mehrzahl, Wiederholung, Rückbezug und Zeilenforttragung zusammensetzen konnte.\n\nAls nächstes wird geprüft, ob diese vier Konstruktionsarten ausreichen, um ein kurzes zusammenhängendes f10r- und f83r-Stück ohne zusätzliche moderne Bindewörter zu übersetzen.",
+          "sha256": "7d00901e1cf3b780327d520723e6208ae3df1a861009f12fdf468141d1999e97"
+        }
+      ],
+      "research_question": "Does the exact dy chy taiin shy window license a two-item plural plus second-item reference, rather than merely a repeated/serial construction?",
+      "narrow_falsifier": "A held card with independently bound two-item owners must preserve the second owner through the value field; a wrong owner or single-item control falsifies the nested plural/reference reading.",
+      "smallest_reopen_input": "Freeze two independently identified item endpoints and compare dy chy taiin shy with repeated-operation and single-item controls across held cards.",
+      "source_limit": "Historical working/proposal reading; no independent meaning confirmation."
+    },
+    {
+      "id": "SEM:fc9f986dccb935aa3d02",
+      "claim": "Pass489 reads the B1-S002 K+AIN and OL+K+AIN pair as two parallel portions from the same running liquid, rejecting the earlier state-machine expansion portion and portion-of-portion because OL means continuation.",
+      "claim_type": "functional_hypothesis",
+      "card_basis": "55f9df13e419e6ac844c2aea1a260c1ff02f947642188bfee6fe127d76a836f7",
+      "effective_basis": "5a36d314234b6a1e146d73be29fa321f7cb7f705d17a682387a5cf0302886b6b",
+      "source_case_ids": [
+        "CLEAN_GAP_BD:b1_parallel_portions"
+      ],
+      "source_review_files": [
+        "research_registry/decisions/clean_gap_review_bd_integrated.json"
+      ],
+      "registry_context_ids": [],
+      "already_in_current_scoped_targets": false,
+      "direct_assessment_query": "./vmanus-work priorities --show ID --field assessments returned items=[]",
+      "source_evidence": [
+        {
+          "type": "primary_source",
+          "path": "experiments/yolo/sidequest_semantic_b1_double_charge_macro_four_hundred_eighty_ninth/FOUR_HUNDRED_EIGHTY_NINTH_REPORT.md",
+          "line": 3,
+          "line_end": 7,
+          "quote": "Die längste lokale Form hat neunzehn Karten und liegt vollständig am sichtbaren\ngemeinsamen zweireihigen Becken von f81v. Die bisherige Zustandsmaschine las\n`K+AIN` und `OL+K+AIN` mechanisch als Portion und Portion-von-Portion. Das passt\nnicht zur bereits gewählten OL-Bedeutung „fortsetzen/weiter“. Die bessere\nWerkstattlektüre sind zwei parallele Portionen aus derselben Laufflüssigkeit.",
+          "sha256": "2ffa34f8af2b2fbe56fec12ed43290602f99cd966c77ff9a3f10e07e248bf67b"
+        }
+      ],
+      "research_question": "Does K+AIN beside OL+K+AIN encode two parallel portions from one running source, rather than portion-of-portion or a generic continuation?",
+      "narrow_falsifier": "The two candidate portions must have independently distinct or shared-source endpoint evidence and the parallel model must beat nested and operation-only controls on held B1 sequences.",
+      "smallest_reopen_input": "Bind source/portion relations externally and test parallel versus nested graphs on new same-scope sequences.",
+      "source_limit": "Historical working/proposal reading; no independent meaning confirmation."
+    },
+    {
+      "id": "SEM:58fe7eb814bccdebc539",
+      "claim": "Y → this share / present portion",
+      "claim_type": "lexical_hypothesis",
+      "card_basis": "d46de6775e4d95e3de5a073e689d40c55607b5a4290507bac559f8049ab8d859",
+      "effective_basis": "c4d489af098eb10288ba89d8243348dc39b1e2ce748f7c5a2a47903fb52a8302",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:774047cad4686f2dfa71"
+      ],
+      "source_review_files": [
+        "research_registry/decisions/clean_component_review.json"
+      ],
+      "registry_context_ids": [],
+      "already_in_current_scoped_targets": false,
+      "direct_assessment_query": "./vmanus-work priorities --show ID --field assessments returned items=[]",
+      "source_evidence": [
+        {
+          "type": "primary_source",
+          "path": "experiments/yolo/sidequest_theory_candidates_v16/V16_THEORY_SELECTION.md",
+          "line": 44,
+          "line_end": 44,
+          "quote": "| `Y` | **this share / present portion** | .43 |",
+          "sha256": "e9c9bd8650496fbf2f86ae9fed27cbcde16649bde75f78c2c3ca6edf642f93c7"
+        }
+      ],
+      "research_question": "Does Y denote a present share/portion in the V16 working dictionary, rather than an item, unit, or frame tag?",
+      "narrow_falsifier": "Across held occurrences with independent quantity/part labels, the Y reading must predict share/portion distribution better than item/unit/frame rivals.",
+      "smallest_reopen_input": "Freeze independent portion/count observations and score Y against item, unit, and frame alternatives; current V16 selection is only a proposal.",
+      "source_limit": "Historical working/proposal reading; no independent meaning confirmation."
+    },
+    {
+      "id": "SEM:a9285a5ab323d4b08d3d",
+      "claim": "Y–AIIN–Y → both portions by the same stated standard",
+      "claim_type": "lexical_hypothesis",
+      "card_basis": "96bdecd49d770ba4d142ede3eb96ef523de11f28d0877ce415281244170b5ba7",
+      "effective_basis": "ca5cfcccd3330ca6595eaa714c2440e8f7555b2af6a71f915819912aba4fdc23",
+      "source_case_ids": [
+        "CLEAN_COMPONENT:ef378541d046e1534b45"
+      ],
+      "source_review_files": [
+        "research_registry/decisions/clean_component_review.json"
+      ],
+      "registry_context_ids": [],
+      "already_in_current_scoped_targets": false,
+      "direct_assessment_query": "./vmanus-work priorities --show ID --field assessments returned items=[]",
+      "source_evidence": [
+        {
+          "type": "primary_source",
+          "path": "experiments/yolo/sidequest_theory_candidates_v16/V16_THEORY_SELECTION.md",
+          "line": 46,
+          "line_end": 46,
+          "quote": "| `Y–AIIN–Y` | **both portions by the same stated standard** | .44 |",
+          "sha256": "e9c9bd8650496fbf2f86ae9fed27cbcde16649bde75f78c2c3ca6edf642f93c7"
+        }
+      ],
+      "research_question": "Does Y–AIIN–Y mean two portions under one stated standard, rather than a shared-reference or paired-value construction?",
+      "narrow_falsifier": "Independent quantity/portion endpoints should show two amount-bearing operands under one standard; absent or unequal operands falsify the equal-portions reading while leaving reference rivals open.",
+      "smallest_reopen_input": "Use held quantity/portion annotations and compare equal-amount, shared-reference, and paired-value models.",
+      "source_limit": "Historical working/proposal reading; no independent meaning confirmation."
+    },
+    {
+      "id": "SEM:8251b1e4444a432354c2",
+      "claim": "Y–AIIN–Y denotes equal, shared or paired value, by analogy with recipe ana.",
+      "claim_type": "lexical_hypothesis",
+      "card_basis": "bc50dac69c10a4f57c99f88aff47620dea9d651a3f115d5daa18133e3ac010fe",
+      "effective_basis": "12abc6272597551d367f34eb16a29c4f8846fc7d10a03e73150e758ae38e47cf",
+      "source_case_ids": [
+        "CLEAN_HYP:c2ac6f4c598fa9c1fcac"
+      ],
+      "source_review_files": [
+        "research_registry/decisions/clean_proposal_review.json"
+      ],
+      "registry_context_ids": [],
+      "already_in_current_scoped_targets": false,
+      "direct_assessment_query": "./vmanus-work priorities --show ID --field assessments returned items=[]",
+      "source_evidence": [
+        {
+          "type": "primary_source",
+          "path": "experiments/yolo/sidequest_theory_candidates/THEORY_SELECTION.md",
+          "line": 63,
+          "line_end": 63,
+          "quote": "| `Y-AIIN-Y` | equal/shared/paired value frame, by analogy—not reading—to recipe *ana* |",
+          "sha256": "a9411e99afb637662bb961c79193508e952ddfa35b6e596fd63a5c85fd86a8db"
+        }
+      ],
+      "research_question": "Does Y–AIIN–Y encode an equal/shared/paired value frame independent of the recipe analogy?",
+      "narrow_falsifier": "A paired-value relation must predict symmetry or shared standard in independently bound fields beyond mere recurrence of the surface frame.",
+      "smallest_reopen_input": "Freeze paired endpoints and compare value symmetry against reference, coordinator, and amount models; analogy is not evidence.",
+      "source_limit": "Historical working/proposal reading; no independent meaning confirmation."
+    },
+    {
+      "id": "SEM:64464bfcc746b8b97f0f",
+      "claim": "Y–AIIN–Y ist eine gemeinsame Referenzkonstruktion statt einer Angabe gleicher Mengen.",
+      "claim_type": "functional_hypothesis",
+      "card_basis": "90ed8fc2476cda413d26ec5cea71ef8e9de473ea883e5b4ff611f32a5dfff2f7",
+      "effective_basis": "6b05939de9c5825b7b7a8510552e1c63128822be7ca798931e92e51565c98417",
+      "source_case_ids": [
+        "FINAL-SEM:4ae142b4cf95a2fdec4b"
+      ],
+      "source_review_files": [
+        "research_registry/decisions/clean_final_sidequest_review.json"
+      ],
+      "registry_context_ids": [],
+      "already_in_current_scoped_targets": false,
+      "direct_assessment_query": "./vmanus-work priorities --show ID --field assessments returned items=[]",
+      "source_evidence": [
+        {
+          "type": "primary_source",
+          "path": "experiments/yolo/sidequest_theory_candidates_v7/V7_REFERENCE_VALUE.md",
+          "line": 192,
+          "line_end": 192,
+          "quote": "1. `Y–AIIN–Y` no longer needs a fragile “equal amount” story; it is a shared-",
+          "sha256": "96e25dc1a1ac4342b280a6434ecd2150deb88f848211d0bc048012b95ea3c329"
+        }
+      ],
+      "research_question": "Does Y–AIIN–Y function as shared reference rather than equal quantity?",
+      "narrow_falsifier": "The two Y operands must resolve to one independently bound active antecedent/standard in held records without requiring an equal-amount assumption.",
+      "smallest_reopen_input": "Annotate antecedent endpoints and compare reference-transfer against equal-quantity and coordinator controls.",
+      "source_limit": "Historical working/proposal reading; no independent meaning confirmation."
+    },
+    {
+      "id": "SEM:920ee49f2f295be07c34",
+      "claim": "L/O expresses part, share or a partitive relation.",
+      "claim_type": "semantic_model",
+      "card_basis": "0bffdd00dbe251a78aa3fb6613c6107e041a608b6aaf8bec61d419d828fe4c80",
+      "effective_basis": "c109f90bbd3a3cc0c3522da715989641a1e546e9615fa9d26240bd6e0a4c6dd2",
+      "source_case_ids": [
+        "CLEAN_HYP:11116f0515b1090ce6a0"
+      ],
+      "source_review_files": [
+        "research_registry/decisions/clean_proposal_review.json"
+      ],
+      "registry_context_ids": [],
+      "already_in_current_scoped_targets": false,
+      "direct_assessment_query": "./vmanus-work priorities --show ID --field assessments returned items=[]",
+      "source_evidence": [
+        {
+          "type": "primary_source",
+          "path": "experiments/yolo/sidequest_theory_candidates_v13/CANDIDATE_V13_R3_RELATION_NOTATION.md",
+          "line": 254,
+          "line_end": 254,
+          "quote": "| Teil/Anteil/Partitiv | 19/19 nur abstrakt | sehr unnatürlich | keine Zahl-/Ganzes-Evidenz | 56/100 |",
+          "sha256": "8892934f5a7cf619e60d29e2632cdcef6d8a2c304b72dd51aae12047f42c8c1c"
+        }
+      ],
+      "research_question": "Does L/O express a part/share or partitive relation in the V13 relation notation?",
+      "narrow_falsifier": "Partitive readings must predict a recoverable whole/part pairing and distribution beyond slot position and the WITH/UNDER-SAME-REFERENCE rival.",
+      "smallest_reopen_input": "Bind whole/part endpoints and test partitive, reference, coordinator, and generic-slot models on held L/O contexts.",
+      "source_limit": "Historical working/proposal reading; no independent meaning confirmation."
+    },
+    {
+      "id": "SEM:1fd7d47b91b866f9e3d7",
+      "claim": "Keep the latest named plant part, liquid and batch active across physical line ends.",
+      "claim_type": "semantic_model",
+      "card_basis": "c644b21f107827df411c9bfbd7f0c9382e806620f82b885ec4f297d07e2792bd",
+      "effective_basis": "e38666c2506324d63eddcd8b20ac83804c4bc7c70deb7ec3dc13c3d08a9035df",
+      "source_case_ids": [
+        "FINAL-SEM:3a1d0d4ba97107641a88"
+      ],
+      "source_review_files": [
+        "research_registry/decisions/clean_final_sidequest_review.json"
+      ],
+      "registry_context_ids": [],
+      "already_in_current_scoped_targets": false,
+      "direct_assessment_query": "./vmanus-work priorities --show ID --field assessments returned items=[]",
+      "source_evidence": [
+        {
+          "type": "primary_source",
+          "path": "experiments/yolo/sidequest_theory_candidates_v19/CANDIDATE_V19_R1_WORKSHOP_MASTER.md",
+          "line": 143,
+          "line_end": 143,
+          "quote": "4. Keep the latest named plant part, liquid and batch active across physical",
+          "sha256": "840b224f7403d80f796eb15488ba66e6cbcac85a82700c3720b0ad299e58811d"
+        }
+      ],
+      "research_question": "Does the latest named plant part, liquid, and batch persist across physical line ends until explicit continuation changes them?",
+      "narrow_falsifier": "A held line-end continuation must retain the independently identified owner/part/batch; a reset or silent shift falsifies unconditional carryover.",
+      "smallest_reopen_input": "Freeze physical line/record boundaries and owner transitions, then test carryover against reset-at-line-end and host-default controls.",
+      "source_limit": "Historical working/proposal reading; no independent meaning confirmation."
+    }
+  ]
+}

@@ -1,0 +1,413 @@
+{
+  "status": "APPENDED_SIX_SCOPED_QUESTIONS",
+  "decisions": [
+    {
+      "id": "FAILURE_II:E1599_CARRIER_VERSUS_PATIENT:v1",
+      "decision_key": "FAILURE_II:E1599_CARRIER_VERSUS_PATIENT",
+      "revision": 1,
+      "previous_revision": null,
+      "status": "reviewed_scoped_context",
+      "review_status": "reviewed_scoped_context",
+      "reviewer": "root after exact primary context, code and independent cross-review",
+      "targets": [
+        "SEM:13f62d50b8411bf5c518"
+      ],
+      "card_basis": {
+        "SEM:13f62d50b8411bf5c518": "b30698ef8597b0cfc783f54e1e12148fab4fa61f054f82e3e0ca090cb4d387f6"
+      },
+      "effective_basis": {
+        "SEM:13f62d50b8411bf5c518": "4710f758604252c2169491a8d45ae5258822afb10c05f69f2369be88fbaca46f"
+      },
+      "source_case_ids": {
+        "SEM:13f62d50b8411bf5c518": [
+          "CLEAN_GAP_CW:e1599_accompanying_carriers"
+        ]
+      },
+      "claim": "Does E1599’s bathing unit and portion act as accompanying carriers of a station batch, three equal patients, or both under an unequal participant hierarchy?",
+      "scope": "The phrasebook explicitly chooses accompanying carriers over three equal patients; this is an authored working relation, not independent evidence. Reopen only with an independently anchored E1599 relation that distinguishes accompanying carrier from patient scope.",
+      "reason_class": "source_contract_not_independent_semantic_discrimination",
+      "actually_tested_falsifier": "GDT596 selects the E1599 accompaniment wording in its manual scope review. Its phrasebook replays inherited participant lists and reference decisions; no independently labelled participant hierarchy is scored.",
+      "outcome": "The source chooses accompanying carriers over three equally ranked bathing patients. Carrier and patient roles may coexist; the unresolved distinction is their declared rank and attachment, not mutually exclusive object categories.",
+      "claim_ceiling": "Source-specific historical model review only; no independent meaning confirmation, global semantic refutation or automatic propagation to other cards.",
+      "evidence": [
+        {
+          "type": "primary_source",
+          "path": "experiments/yolo/gdt596_bath_object_compound_scope_phrasebook/REPORT.md",
+          "line": 133,
+          "line_end": 139,
+          "quote": "Kein Fall wird gestoppt oder aus der Übersetzung entfernt. Beispielsweise wird\nE3512 natürlicher zeitlich gesprochen—„zunächst Grad II, anschließend … Grad\nIII“—ohne seine Objektwahl zu ändern. E3020 verbindet Haupt-, Neben- und\nArbeitsstelle als Weg statt als drei simultane Orte. Bei E1599 werden\nBadeinheit und Portion zu Begleitträgern des Stationsansatzes statt zu drei\ngleichrangigen Badepatienten. Das vollständige 23-Karten-Deck steht im\nreproduzierbaren Artefakt.",
+          "sha256": "28303de8073bc0a5f6ac2925e8ddae77ec104dd3dc0b2556d9419e3f32cdb3b4"
+        },
+        {
+          "type": "primary_source",
+          "path": "experiments/yolo/gdt596_bath_object_compound_scope_phrasebook/src/model.py",
+          "line": 363,
+          "line_end": 418,
+          "quote": "def build(inputs: dict[str, object]) -> dict[str, object]:\n    actions = list(inputs[\"actions\"])\n    gdt595_result = dict(inputs[\"gdt595_result\"])\n    manual_workshop_review = list(inputs[\"manual_workshop_review\"])\n    rival_ids = set(gdt595_result[\"host_attachment_rival_event_ids\"])\n    object_forms = sorted({row[\"gdt595_object_form_de\"] for row in actions}, key=len, reverse=True)\n\n    replay: list[dict[str, str]] = []\n    for row in actions:\n        typing_card_id = classify_typing(row)\n        reference_scope_card_id = classify_reference_scope(row)\n        reference_mode = \"ANAPHORIC\" if reference_scope_card_id == \"Q01_LEFT_ANAPHORIC\" else \"DEFINITE\"\n        object_class = row[\"gdt595_object_class\"]\n        gender = GENDER[object_class]\n        determiner = DETERMINER[(reference_mode, gender)]\n        rendered_np = f\"{determiner} {row['gdt595_object_lemma_de']}\"\n        parsed = parse_clause(row[\"gdt595_completed_clause_de\"], object_forms)\n        participants = list(parsed[\"participants\"])\n        if rendered_np != row[\"gdt595_object_form_de\"]:\n            raise ValueError(f\"NP rule mismatch at {row['source_event_id']}: {rendered_np}\")\n        if rendered_np not in participants:\n            raise ValueError(f\"selected NP missing at {row['source_event_id']}\")\n        replay.append({\n            \"bath_action_ordinal\": row[\"bath_action_ordinal\"],\n            \"source_event_id\": row[\"source_event_id\"],\n            \"action_slot_id\": row[\"action_slot_id\"],\n            \"statement_id\": row[\"statement_id\"],\n            \"physical_page\": row[\"physical_page\"],\n            \"locus\": row[\"locus\"],\n            \"surface\": row[\"surface\"],\n            \"component_recipe\": row[\"component_recipe\"],\n            \"upstream_selection_route\": row[\"gdt595_selection_route\"],\n            \"typing_card_id\": typing_card_id,\n            \"reference_scope_card_id\": reference_scope_card_id,\n            \"typing_token\": typing_token(row, typing_card_id),\n            \"scope_source_pointer\": source_pointer(row, typing_card_id, reference_scope_card_id),\n            \"reference_mode\": reference_mode,\n            \"object_class\": object_class,\n            \"object_lemma_de\": row[\"gdt595_object_lemma_de\"],\n            \"grammatical_gender\": gender,\n            \"determiner_de\": determiner,\n            \"rendered_object_np_de\": rendered_np,\n            \"participant_count\": str(len(participants)),\n            \"selected_participant_position\": str(participants.index(rendered_np) + 1),\n            \"participant_np_sequence_de\": \"|\".join(participants),\n            \"bath_frame\": str(parsed[\"bath_frame\"]),\n            \"modifier_id_sequence\": \"|\".join(parsed[\"modifier_ids\"]) or \"NONE\",\n            \"modifier_root_sequence\": \"|\".join(MODIFIER_ROOT[item] for item in parsed[\"modifier_ids\"]) or \"NONE\",\n            \"modifier_group_count\": str(parsed[\"modifier_group_count\"]),\n            \"modifier_suffix_de\": str(parsed[\"modifier_suffix\"]) or \"NONE\",\n            \"gdt595_clause_de\": row[\"gdt595_completed_clause_de\"],\n            \"gdt596_reconstructed_clause_de\": str(parsed[\"reconstructed_clause\"]),\n            \"exact_replay\": \"YES\" if parsed[\"reconstructed_clause\"] == row[\"gdt595_completed_clause_de\"] else \"NO\",\n            \"host_attachment_rival\": \"YES\" if row[\"source_event_id\"] in rival_ids else \"NO\",\n            \"default_survives_with_rival\": \"YES\",\n            \"guard\": \"FIVE_TYPING_CARDS__THREE_REFERENCE_SCOPE_CARDS__SEVEN_LEMMAS__FOUR_DETERMINERS__FIFTEEN_MODIFIERS__NO_NEW_PAGE_ROOT_OR_SEGMENT\",",
+          "sha256": "d5cba519255012be970e9cef28e420789a6d33357417a73fa9e3786f8cf76be4"
+        }
+      ],
+      "reopening": {
+        "status": "REVIEW_REQUIRED_NOT_TEST_READY",
+        "assessed_by": "curation_review",
+        "criteria_origin": "Exact primary limits and root scope adjudication, not a new preregistration.",
+        "all_of": [
+          "Fix the intended participant hierarchy and an independent relation that distinguishes equal-rank patients from the selected accompaniment structure. Do not infer rank merely from a fluent German list."
+        ],
+        "not_sufficient": [
+          "More exact replay of inherited labels or editorial model scores.",
+          "An observation compatible with both specified models treated as selecting a translation.",
+          "More exposed examples without changed source-specific discriminating evidence."
+        ]
+      },
+      "automatic_card_status_propagation": false,
+      "empirical_meaning_refutation": false,
+      "review_artifact": {
+        "path": "research_registry/decisions/ii_root_scope_review.json",
+        "sha256": "7de5fa28e309b383cb648499be5d36ecc91d70d34eb6c8cc4a1a266030396723"
+      }
+    },
+    {
+      "id": "FAILURE_II:BODY_STATION_COARSE_VERSUS_TYPED:v1",
+      "decision_key": "FAILURE_II:BODY_STATION_COARSE_VERSUS_TYPED",
+      "revision": 1,
+      "previous_revision": null,
+      "status": "reviewed_scoped_context",
+      "review_status": "reviewed_scoped_context",
+      "reviewer": "root after exact primary context, code and independent cross-review",
+      "targets": [
+        "SEM:2057e01ff8c01de65273"
+      ],
+      "card_basis": {
+        "SEM:2057e01ff8c01de65273": "b64cf00bb882b238a4175ffc30391bb1b1ec21a62b501cf354eee5e1096e60a0"
+      },
+      "effective_basis": {
+        "SEM:2057e01ff8c01de65273": "b2ab5fff71f9961e1628f38b10654b1f41f60deadff56952bbfc0e40d43bed60"
+      },
+      "source_case_ids": {
+        "SEM:2057e01ff8c01de65273": [
+          "BG_RECOVERY:binary_body_station"
+        ]
+      },
+      "claim": "Does the GDT595 binary 23-body/21-station projection adequately preserve the participant distinctions of the original 20/19/3/2 and selected hybrid 16/23/3/2 assignments?",
+      "scope": "The 23/21 binary model is a real historical rival and its loss of Portion/Einheit is a concrete model consequence. It does not establish the richer model; reopen with a predeclared typed participant contrast covering those categories.",
+      "reason_class": "source_contract_not_independent_semantic_discrimination",
+      "actually_tested_falsifier": "GDT595 compares three authored assignments of the same 44 residual defaults: original workshop 20 body/19 station/3 portion/2 unit; binary 23 body/21 station; selected hybrid 16 body/23 station/3 portion/2 unit after four corrections. Profile preservation and replay are checked, not independently observed patient categories.",
+      "outcome": "The binary model omits the portion/unit distinction, while the source selects the richer hybrid. This is a real difference in represented output categories. A coarse projection may suppress rather than deny those distinctions; the current labels do not independently select the richer ontology.",
+      "claim_ceiling": "Source-specific historical model review only; no independent meaning confirmation, global semantic refutation or automatic propagation to other cards.",
+      "evidence": [
+        {
+          "type": "primary_source",
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 68,
+          "line_end": 92,
+          "quote": "Die vollständige Werkstattlektüre ergab zunächst `20 Körper / 19 Station / 3\nPortion / 2 Einheit`. Ein unabhängiges Body/Station-Quellenmodell ergab `23\nKörper / 21 Station`, verlor aber Portion und Einheit trotz sichtbarer\nTeilnehmer.\n\nDer ausgewählte Hybrid behält die reichere Werkstattregel und ändert nur vier\nVorkommen von Körper zu Station:\n\n| Ereignis | Werkstatt | Hybrid | Grund |\n|---|---|---|---|\n| E2863 | Körper | Station | gleichereignisiges P+Y mit Y=Stationsansatz |\n| E3523 | Körper | Station | CHD+Y; GDT589 liest den Träger als Station |\n| E3533 | Körper | Station | K+Y; die folgende Badeaktion ist ebenfalls Station |\n| E3664 | Körper | Station | T+…+Y mit Stationsadressierung und folgender Stationsaktion |\n\nDiese vier Änderungen verwenden eine einheitliche explorative Regel: Ein am\nrechten Rand desselben geschriebenen Ereignisses realisierter Gegenstand darf\nüber die unmittelbar davorstehende kurze Verbkette greifen. Er wird trotzdem\nnicht zum direkten SH-Slot umetikettiert. Die enge Hostlesung bleibt Rivale.\n\nEine zweite manuelle Nachlese bevorzugte bei sechs Streitfällen die enge\nHost-/Stufenwechsel-Lesung (`E2863`, `E3224`, `E3523`, `E3533`, `E3563`,\n`E3664`). Diese Gegenlesungen werden nicht verworfen. Der Hybrid bleibt primär,\nweil er eine einfachere kompositionelle Vorhersage für Endträger liefert und\nhistorisch mögliche Rezeptsyntax nutzt.",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        },
+        {
+          "type": "primary_source",
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/src/model.py",
+          "line": 108,
+          "line_end": 127,
+          "quote": "# The selected hybrid keeps the practical participant-chain reading but applies\n# one consistent shared-right-complement correction wherever a same-event final\n# Y is independently typed as Station.  These four are the only changes from\n# the complete manual workshop pass.\nRIGHT_COMPLEMENT_CORRECTIONS = frozenset({\n    \"G407-E2863\", \"G407-E3523\", \"G407-E3533\", \"G407-E3664\",\n})\nSELECTED_BODY = WORKSHOP_BODY - RIGHT_COMPLEMENT_CORRECTIONS\nSELECTED_STATION = WORKSHOP_STATION | RIGHT_COMPLEMENT_CORRECTIONS\nSELECTED_PORTION = WORKSHOP_PORTION\nSELECTED_UNIT = WORKSHOP_UNIT\n\nMODEL_C_STATION = frozenset({\n    \"G407-E1445\", \"G407-E1573\", \"G407-E1670\", \"G407-E2520\", \"G407-E2647\",\n    \"G407-E2857\", \"G407-E2863\", \"G407-E2932\", \"G407-E2988\", \"G407-E3051\",\n    \"G407-E3205\", \"G407-E3218\", \"G407-E3224\", \"G407-E3488\", \"G407-E3523\",\n    \"G407-E3533\", \"G407-E3560\", \"G407-E3563\", \"G407-E3609\", \"G407-E3664\",\n    \"G407-E3718\",\n})\nMODEL_C_BODY = COLD_EXPECTED - MODEL_C_STATION",
+          "sha256": "ef8f1e41c2a9f47977b8d14baf813c3d566aec3d41210beccb96198e89c68cda"
+        },
+        {
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 12,
+          "line_end": 29,
+          "quote": "Die 44 direkten Ergänzungen sind:\n\n| Objekt | Anzahl |\n|---|---:|\n| Körper | 16 |\n| Stationsansatz | 23 |\n| Anwendungsportion | 3 |\n| Becken- oder Körpereinheit | 2 |\n\nNach E3219→Körper und E3489→Stationsansatz lautet das vollständige Profil:\n\n| Objekt | Anzahl in 254 Aktionen |\n|---|---:|\n| Körper | 100 |\n| Stationsansatz | 122 |\n| Anwendungsportion | 15 |\n| Bade-/Stationseinheit | 15 |\n| Strom | 2 |",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        }
+      ],
+      "reopening": {
+        "status": "REVIEW_REQUIRED_NOT_TEST_READY",
+        "assessed_by": "curation_review",
+        "criteria_origin": "Exact primary limits and root scope adjudication, not a new preregistration.",
+        "all_of": [
+          "Specify whether the binary rival excludes portions/units or merely represents them at a coarser level. Test a independently bound participant contrast that changes that declared representational or semantic decision; preserve all three profiles."
+        ],
+        "not_sufficient": [
+          "More exact replay of inherited labels or editorial model scores.",
+          "An observation compatible with both specified models treated as selecting a translation.",
+          "More exposed examples without changed source-specific discriminating evidence."
+        ]
+      },
+      "automatic_card_status_propagation": false,
+      "empirical_meaning_refutation": false,
+      "review_artifact": {
+        "path": "research_registry/decisions/ii_root_scope_review.json",
+        "sha256": "7de5fa28e309b383cb648499be5d36ecc91d70d34eb6c8cc4a1a266030396723"
+      }
+    },
+    {
+      "id": "FAILURE_II:SIX_HOST_STAGE_RIVALS:v1",
+      "decision_key": "FAILURE_II:SIX_HOST_STAGE_RIVALS",
+      "revision": 1,
+      "previous_revision": null,
+      "status": "reviewed_scoped_context",
+      "review_status": "reviewed_scoped_context",
+      "reviewer": "root after exact primary context, code and independent cross-review",
+      "targets": [
+        "SEM:62d293dfa22aa66dfef2"
+      ],
+      "card_basis": {
+        "SEM:62d293dfa22aa66dfef2": "9923fa740b0eed9cd0de81d3281372628f5c4da205ef2a5afa3120f470d255f9"
+      },
+      "effective_basis": {
+        "SEM:62d293dfa22aa66dfef2": "aa4627155dab687475a930a0e5616f1b956c58a140db0eec2a34c6c5169516d1"
+      },
+      "source_case_ids": {
+        "SEM:62d293dfa22aa66dfef2": [
+          "BG_RECOVERY:narrow_host_rival"
+        ]
+      },
+      "claim": "Do the six narrow host/stage readings (E2863,E3224,E3523,E3533,E3563,E3664) beat the hybrid shared-complement extension on case-level scope?",
+      "scope": "The report records a positive six-case rival against shared-complement extension. No verdict is supplied. Reopen only by a case-level scope contrast for the six named events, not more phrasebook replay.",
+      "reason_class": "source_contract_not_independent_semantic_discrimination",
+      "actually_tested_falsifier": "The report records six narrow-host rivals E2863/E3224/E3523/E3533/E3563/E3664 and selects the hybrid working default. The code explicitly lists those six IDs and hard-codes four right-complement corrections; source replay does not independently adjudicate host attachment.",
+      "outcome": "The six rival readings remain retained, and hybrid primacy is an authored choice justified by its compositional interpretation. A later score cannot retroactively turn that choice into independent host or patient evidence.",
+      "claim_ceiling": "Source-specific historical model review only; no independent meaning confirmation, global semantic refutation or automatic propagation to other cards.",
+      "evidence": [
+        {
+          "type": "primary_source",
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 83,
+          "line_end": 92,
+          "quote": "Diese vier Änderungen verwenden eine einheitliche explorative Regel: Ein am\nrechten Rand desselben geschriebenen Ereignisses realisierter Gegenstand darf\nüber die unmittelbar davorstehende kurze Verbkette greifen. Er wird trotzdem\nnicht zum direkten SH-Slot umetikettiert. Die enge Hostlesung bleibt Rivale.\n\nEine zweite manuelle Nachlese bevorzugte bei sechs Streitfällen die enge\nHost-/Stufenwechsel-Lesung (`E2863`, `E3224`, `E3523`, `E3533`, `E3563`,\n`E3664`). Diese Gegenlesungen werden nicht verworfen. Der Hybrid bleibt primär,\nweil er eine einfachere kompositionelle Vorhersage für Endträger liefert und\nhistorisch mögliche Rezeptsyntax nutzt.",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        },
+        {
+          "type": "primary_source",
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/src/model.py",
+          "line": 917,
+          "line_end": 923,
+          "quote": "        \"hybrid_changed_from_workshop_event_ids\": sorted(\n            RIGHT_COMPLEMENT_CORRECTIONS\n        ),\n        \"host_attachment_rival_event_ids\": sorted({\n            \"G407-E2863\", \"G407-E3224\", \"G407-E3523\", \"G407-E3533\",\n            \"G407-E3563\", \"G407-E3664\",\n        }),",
+          "sha256": "ef8f1e41c2a9f47977b8d14baf813c3d566aec3d41210beccb96198e89c68cda"
+        }
+      ],
+      "reopening": {
+        "status": "REVIEW_REQUIRED_NOT_TEST_READY",
+        "assessed_by": "curation_review",
+        "criteria_origin": "Exact primary limits and root scope adjudication, not a new preregistration.",
+        "all_of": [
+          "Freeze the exact case-level attachment commitments and independently constrained scope evidence. Distinguish the four changed cases from all six retained disputes and use held same-scope examples only under a predeclared transfer claim."
+        ],
+        "not_sufficient": [
+          "More exact replay of inherited labels or editorial model scores.",
+          "An observation compatible with both specified models treated as selecting a translation.",
+          "More exposed examples without changed source-specific discriminating evidence."
+        ]
+      },
+      "automatic_card_status_propagation": false,
+      "empirical_meaning_refutation": false,
+      "review_artifact": {
+        "path": "research_registry/decisions/ii_root_scope_review.json",
+        "sha256": "7de5fa28e309b383cb648499be5d36ecc91d70d34eb6c8cc4a1a266030396723"
+      }
+    },
+    {
+      "id": "FAILURE_II:E3512_GRADE_ORDER:v1",
+      "decision_key": "FAILURE_II:E3512_GRADE_ORDER",
+      "revision": 1,
+      "previous_revision": null,
+      "status": "reviewed_scoped_context",
+      "review_status": "reviewed_scoped_context",
+      "reviewer": "root after exact primary context, code and independent cross-review",
+      "targets": [
+        "SEM:6780345adb4f25ea6676"
+      ],
+      "card_basis": {
+        "SEM:6780345adb4f25ea6676": "c1089b8e20ee681e875f8316a8b4f345c0caf1efb6a20b2ec175b152037417f4"
+      },
+      "effective_basis": {
+        "SEM:6780345adb4f25ea6676": "705097e9cfc6dbbf03ed4a4a8c6cc05b1b43acd8fea4e93e75832367080ece71"
+      },
+      "source_case_ids": {
+        "SEM:6780345adb4f25ea6676": [
+          "CLEAN_GAP_CW:e3512_temporal_scope"
+        ]
+      },
+      "claim": "Does E3512 encode ordered Grade II then Grade III operations, or grades belonging to different operands/scales that need not be temporal?",
+      "scope": "“zunächst … anschließend” is a local rendering choice and does not independently prove sequence. Reopen only with a source-bound ordering contrast that changes simultaneous-versus-sequential interpretation while holding object choice fixed.",
+      "reason_class": "source_contract_not_independent_semantic_discrimination",
+      "actually_tested_falsifier": "GDT596 proposes first Grade II then Grade III as a fluent local rendering of E3512 without changing its object choice. Exact replay validates the existing clause components, not a independently bound event chronology.",
+      "outcome": "Different displayed grades can motivate a sequential repair but do not establish it. Distinct operands, scales or simultaneously relevant conditions may also avoid contradiction; these alternatives must be made explicit.",
+      "claim_ceiling": "Source-specific historical model review only; no independent meaning confirmation, global semantic refutation or automatic propagation to other cards.",
+      "evidence": [
+        {
+          "type": "primary_source",
+          "path": "experiments/yolo/gdt596_bath_object_compound_scope_phrasebook/REPORT.md",
+          "line": 115,
+          "line_end": 139,
+          "quote": "`254/254 exakt` heißt: Das kleine Phrasebook kann unsere vollständige aktuelle\nArbeitslesart aus ihren sichtbaren Typ-, Bezugs- und Modifikatorentscheidungen\nreproduzieren. Es heißt nicht, dass jede deutsche Langform natürlich oder jede\nObjektbindung endgültig ist. Die sechs GDT595-Hostbindungsrivalen E2863, E3224,\nE3523, E3533, E3563 und E3664 bleiben ausdrücklich markiert und behalten\ntrotzdem jeweils einen Primärdefault.\n\nEine vollständige manuelle Werkstattlektüre aller 254 Slots und ihres\n793-Aussagen-Kontexts markiert deshalb ein zweites, bewusst nicht destruktives\nDeck:\n\n- 16 Stellen brauchen vor allem flüssigere Scope-, Orts- oder Trägergliederung;\n- 6 Stellen behalten einen Objektrivalen;\n- E3523 behält zusätzlich eine Gabel zwischen rechtem Gemeinkomplement und\n  diskontinuierlicher Diskursanaphora;\n- nur E2952 (Station/Portion) und E3224 (Körper/Station) sind unmittelbare\n  starke Objektgabeln.\n\nKein Fall wird gestoppt oder aus der Übersetzung entfernt. Beispielsweise wird\nE3512 natürlicher zeitlich gesprochen—„zunächst Grad II, anschließend … Grad\nIII“—ohne seine Objektwahl zu ändern. E3020 verbindet Haupt-, Neben- und\nArbeitsstelle als Weg statt als drei simultane Orte. Bei E1599 werden\nBadeinheit und Portion zu Begleitträgern des Stationsansatzes statt zu drei\ngleichrangigen Badepatienten. Das vollständige 23-Karten-Deck steht im\nreproduzierbaren Artefakt.",
+          "sha256": "28303de8073bc0a5f6ac2925e8ddae77ec104dd3dc0b2556d9419e3f32cdb3b4"
+        },
+        {
+          "type": "primary_source",
+          "path": "experiments/yolo/gdt596_bath_object_compound_scope_phrasebook/src/model.py",
+          "line": 363,
+          "line_end": 418,
+          "quote": "def build(inputs: dict[str, object]) -> dict[str, object]:\n    actions = list(inputs[\"actions\"])\n    gdt595_result = dict(inputs[\"gdt595_result\"])\n    manual_workshop_review = list(inputs[\"manual_workshop_review\"])\n    rival_ids = set(gdt595_result[\"host_attachment_rival_event_ids\"])\n    object_forms = sorted({row[\"gdt595_object_form_de\"] for row in actions}, key=len, reverse=True)\n\n    replay: list[dict[str, str]] = []\n    for row in actions:\n        typing_card_id = classify_typing(row)\n        reference_scope_card_id = classify_reference_scope(row)\n        reference_mode = \"ANAPHORIC\" if reference_scope_card_id == \"Q01_LEFT_ANAPHORIC\" else \"DEFINITE\"\n        object_class = row[\"gdt595_object_class\"]\n        gender = GENDER[object_class]\n        determiner = DETERMINER[(reference_mode, gender)]\n        rendered_np = f\"{determiner} {row['gdt595_object_lemma_de']}\"\n        parsed = parse_clause(row[\"gdt595_completed_clause_de\"], object_forms)\n        participants = list(parsed[\"participants\"])\n        if rendered_np != row[\"gdt595_object_form_de\"]:\n            raise ValueError(f\"NP rule mismatch at {row['source_event_id']}: {rendered_np}\")\n        if rendered_np not in participants:\n            raise ValueError(f\"selected NP missing at {row['source_event_id']}\")\n        replay.append({\n            \"bath_action_ordinal\": row[\"bath_action_ordinal\"],\n            \"source_event_id\": row[\"source_event_id\"],\n            \"action_slot_id\": row[\"action_slot_id\"],\n            \"statement_id\": row[\"statement_id\"],\n            \"physical_page\": row[\"physical_page\"],\n            \"locus\": row[\"locus\"],\n            \"surface\": row[\"surface\"],\n            \"component_recipe\": row[\"component_recipe\"],\n            \"upstream_selection_route\": row[\"gdt595_selection_route\"],\n            \"typing_card_id\": typing_card_id,\n            \"reference_scope_card_id\": reference_scope_card_id,\n            \"typing_token\": typing_token(row, typing_card_id),\n            \"scope_source_pointer\": source_pointer(row, typing_card_id, reference_scope_card_id),\n            \"reference_mode\": reference_mode,\n            \"object_class\": object_class,\n            \"object_lemma_de\": row[\"gdt595_object_lemma_de\"],\n            \"grammatical_gender\": gender,\n            \"determiner_de\": determiner,\n            \"rendered_object_np_de\": rendered_np,\n            \"participant_count\": str(len(participants)),\n            \"selected_participant_position\": str(participants.index(rendered_np) + 1),\n            \"participant_np_sequence_de\": \"|\".join(participants),\n            \"bath_frame\": str(parsed[\"bath_frame\"]),\n            \"modifier_id_sequence\": \"|\".join(parsed[\"modifier_ids\"]) or \"NONE\",\n            \"modifier_root_sequence\": \"|\".join(MODIFIER_ROOT[item] for item in parsed[\"modifier_ids\"]) or \"NONE\",\n            \"modifier_group_count\": str(parsed[\"modifier_group_count\"]),\n            \"modifier_suffix_de\": str(parsed[\"modifier_suffix\"]) or \"NONE\",\n            \"gdt595_clause_de\": row[\"gdt595_completed_clause_de\"],\n            \"gdt596_reconstructed_clause_de\": str(parsed[\"reconstructed_clause\"]),\n            \"exact_replay\": \"YES\" if parsed[\"reconstructed_clause\"] == row[\"gdt595_completed_clause_de\"] else \"NO\",\n            \"host_attachment_rival\": \"YES\" if row[\"source_event_id\"] in rival_ids else \"NO\",\n            \"default_survives_with_rival\": \"YES\",\n            \"guard\": \"FIVE_TYPING_CARDS__THREE_REFERENCE_SCOPE_CARDS__SEVEN_LEMMAS__FOUR_DETERMINERS__FIFTEEN_MODIFIERS__NO_NEW_PAGE_ROOT_OR_SEGMENT\",",
+          "sha256": "d5cba519255012be970e9cef28e420789a6d33357417a73fa9e3786f8cf76be4"
+        }
+      ],
+      "reopening": {
+        "status": "REVIEW_REQUIRED_NOT_TEST_READY",
+        "assessed_by": "curation_review",
+        "criteria_origin": "Exact primary limits and root scope adjudication, not a new preregistration.",
+        "all_of": [
+          "Hold the relevant object, scale and grade assignments fixed or independently justify their differences. Seek a source-bound order/scope contrast that separates the chosen sequential contract from its specified alternatives."
+        ],
+        "not_sufficient": [
+          "More exact replay of inherited labels or editorial model scores.",
+          "An observation compatible with both specified models treated as selecting a translation.",
+          "More exposed examples without changed source-specific discriminating evidence."
+        ]
+      },
+      "automatic_card_status_propagation": false,
+      "empirical_meaning_refutation": false,
+      "review_artifact": {
+        "path": "research_registry/decisions/ii_root_scope_review.json",
+        "sha256": "7de5fa28e309b383cb648499be5d36ecc91d70d34eb6c8cc4a1a266030396723"
+      }
+    },
+    {
+      "id": "FAILURE_II:LEFT_RESUMPTION_PARTICIPANT:v1",
+      "decision_key": "FAILURE_II:LEFT_RESUMPTION_PARTICIPANT",
+      "revision": 1,
+      "previous_revision": null,
+      "status": "reviewed_scoped_context",
+      "review_status": "reviewed_scoped_context",
+      "reviewer": "root after exact primary context, code and independent cross-review",
+      "targets": [
+        "SEM:9a44b8d4f68ec8ebf3ec"
+      ],
+      "card_basis": {
+        "SEM:9a44b8d4f68ec8ebf3ec": "1bf675714dc6c794b47ebfd5f72088173b100cc4fc552e998e0671958f18175d"
+      },
+      "effective_basis": {
+        "SEM:9a44b8d4f68ec8ebf3ec": "0686bd7e8b58827b1877e6efa5202198663fb3823340f2905c9f7ed77b34ed4e"
+      },
+      "source_case_ids": {
+        "SEM:9a44b8d4f68ec8ebf3ec": [
+          "CLEAN_GAP_DC:five_left_resumption_cases"
+        ]
+      },
+      "claim": "Do the five left-resumption clauses establish the previously named participant as the next bath patient, or only a carried source/carrier under the SH action?",
+      "scope": "The five exact German clauses are concrete repeated participant-continuation realizations, but repetition is not independent patient evidence. Reopen with a contrast where an anaphoric continuation and a new patient produce different predictions.",
+      "reason_class": "source_contract_not_independent_semantic_discrimination",
+      "actually_tested_falsifier": "GDT595 explicitly prints five left-resumption clauses and routes selected source participants through LEFT_SOURCE_SLOTS. Those assignments are inherited linguistic working labels, not new independent image or individual-owner annotations.",
+      "outcome": "The five named realizations are retained as one construction question. Repetition of the chosen German patient does not demonstrate that the manuscript resumes that individual; carrying a source and assigning it patient role are distinct operations.",
+      "claim_ceiling": "Source-specific historical model review only; no independent meaning confirmation, global semantic refutation or automatic propagation to other cards.",
+      "evidence": [
+        {
+          "type": "primary_source",
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 46,
+          "line_end": 64,
+          "quote": "Das ist keine Objektzuweisung. AIIN bleibt Füllung oder Medium und kann Körper,\nStation oder Portion begleiten. Auch Y ist kein globales Stationswort.\n\nDie eigentliche Objektquelle lautet:\n\n- 21 linke, sichtbare Teilnehmer werden mit `denselben/dieselbe`\n  wiederaufgenommen;\n- 8 gleichereignisige Endträger schließen als definite gemeinsame Komplemente\n  eine kurze Verbkette ab;\n- E2952 bleibt eine Station/Portion-Gabel, die durch die nachfolgende\n  Stationsbehandlung zugunsten Station entschieden wird;\n- 14 resetgebundene Stellen ohne hinreichenden nicht-mediumhaften Teilnehmer\n  erhalten Körper als ersten definiten Default.\n\nDamit wird aus `AIIN → Körper` die sinnvollere Konstruktion:\n\n```text\nSH-Aktion + AIIN-Füllung + separat bestimmter Patient\n```",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        },
+        {
+          "type": "primary_source",
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/src/model.py",
+          "line": 129,
+          "line_end": 175,
+          "quote": "LEFTWARD_ANAPHORA = frozenset({\n    \"G407-E1445\", \"G407-E1523\", \"G407-E1573\", \"G407-E1670\",\n    \"G407-E2426\", \"G407-E2461\", \"G407-E2520\", \"G407-E2552\", \"G407-E2597\",\n    \"G407-E2634\", \"G407-E2670\", \"G407-E2857\", \"G407-E2906\", \"G407-E2988\",\n    \"G407-E3051\", \"G407-E3205\", \"G407-E3336\", \"G407-E3441\", \"G407-E3488\",\n    \"G407-E3609\", \"G407-E3718\",\n})\nTIED_LOCAL_PACKET = frozenset({\"G407-E2952\"})\nRIGHTWARD_COMPLEMENT = frozenset({\n    \"G407-E1742\", \"G407-E2452\", \"G407-E2863\", \"G407-E3523\", \"G407-E3533\",\n    \"G407-E3560\", \"G407-E3563\", \"G407-E3664\",\n})\nDEFINITE_BODY_DEFAULT = frozenset({\n    \"G407-E2414\", \"G407-E2416\", \"G407-E2431\", \"G407-E2444\", \"G407-E2448\",\n    \"G407-E2450\", \"G407-E2503\", \"G407-E2647\", \"G407-E2927\", \"G407-E3224\",\n    \"G407-E3227\", \"G407-E3483\", \"G407-E2932\", \"G407-E3218\",\n})\n\nLEFT_SOURCE_SLOTS = {\n    \"G407-E1445\": \"RUNNING:G407-E1444@2\",\n    \"G407-E1523\": \"RUNNING:G407-E1521@2\",\n    \"G407-E1573\": \"RUNNING:G407-E1571@2\",\n    \"G407-E1670\": \"RUNNING:G407-E1667@3\",\n    \"G407-E2426\": \"RUNNING:G407-E2425@2\",\n    \"G407-E2461\": \"RUNNING:G407-E2459@2\",\n    \"G407-E2520\": \"RUNNING:G407-E2519@2\",\n    \"G407-E2552\": \"RUNNING:G407-E2550@2\",\n    \"G407-E2597\": \"RUNNING:G407-E2594@4|RUNNING:G407-E2595@1\",\n    \"G407-E2634\": \"RUNNING:G407-E2631@5\",\n    \"G407-E2670\": \"RUNNING:G407-E2665@3\",\n    \"G407-E2857\": \"RUNNING:G407-E2856@2\",\n    \"G407-E2906\": \"RUNNING:G407-E2902@1\",\n    \"G407-E2988\": \"RUNNING:G407-E2986@2\",\n    \"G407-E3051\": \"RUNNING:G407-E3050@1|RUNNING:G407-E3050@5\",\n    \"G407-E3205\": \"RUNNING:G407-E3203@3\",\n    \"G407-E3336\": \"RUNNING:G407-E3334@4\",\n    \"G407-E3441\": \"RUNNING:G407-E3438@4\",\n    \"G407-E3488\": \"RUNNING:G407-E3486@5\",\n    \"G407-E3609\": \"RUNNING:G407-E3608@1\",\n    \"G407-E3718\": \"RUNNING:G407-E3714@3|RUNNING:G407-E3715@1\",\n}\n\nTIE_SOURCE_SLOTS = {\n    \"G407-E2952\": (\n        \"LEFT:RUNNING:G407-E2951@2|LEFT:RUNNING:G407-E2951@4|\"\n        \"RIGHT:RUNNING:G407-E2953@2\"\n    )",
+          "sha256": "ef8f1e41c2a9f47977b8d14baf813c3d566aec3d41210beccb96198e89c68cda"
+        },
+        {
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 96,
+          "line_end": 106,
+          "quote": "Starke linke Wiederaufnahmen:\n\n```text\nE1445  Führe die Anwendungsportion zu. Halte dieselbe Anwendungsportion im Bad auf Grad II.\nE1523  Wähle die Einheit aus. Halte dieselbe Becken- oder Körpereinheit im Bad auf Grad I.\nE2426  Behandle den Stationsansatz. Halte denselben Stationsansatz bei der angegebenen Füllung im Bad auf Grad I.\nE2552  Bereite die Anwendungsportion und das Badmaß vor. Halte dieselbe Anwendungsportion im Bad auf Grad I.\nE2988  Verwende die Becken- oder Körpereinheit. Halte dieselbe Becken- oder Körpereinheit im Bad auf Grad I.\n```\n\nRechtsabschließende gemeinsame Komplemente:",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        }
+      ],
+      "reopening": {
+        "status": "REVIEW_REQUIRED_NOT_TEST_READY",
+        "assessed_by": "curation_review",
+        "criteria_origin": "Exact primary limits and root scope adjudication, not a new preregistration.",
+        "all_of": [
+          "Bind the source participant and subsequent action argument independently where continuation and replacement make different predictions. A carried class, nearby picture or repeated phrase alone cannot establish individual patient identity."
+        ],
+        "not_sufficient": [
+          "More exact replay of inherited labels or editorial model scores.",
+          "An observation compatible with both specified models treated as selecting a translation.",
+          "More exposed examples without changed source-specific discriminating evidence."
+        ]
+      },
+      "automatic_card_status_propagation": false,
+      "empirical_meaning_refutation": false,
+      "review_artifact": {
+        "path": "research_registry/decisions/ii_root_scope_review.json",
+        "sha256": "7de5fa28e309b383cb648499be5d36ecc91d70d34eb6c8cc4a1a266030396723"
+      }
+    },
+    {
+      "id": "FAILURE_II:E3020_PATH_VERSUS_LOCATIONS:v1",
+      "decision_key": "FAILURE_II:E3020_PATH_VERSUS_LOCATIONS",
+      "revision": 1,
+      "previous_revision": null,
+      "status": "reviewed_scoped_context",
+      "review_status": "reviewed_scoped_context",
+      "reviewer": "root after exact primary context, code and independent cross-review",
+      "targets": [
+        "SEM:33cfddfc06494cac7ec2"
+      ],
+      "card_basis": {
+        "SEM:33cfddfc06494cac7ec2": "edf3aafe808c5ca2825a7d1edd05c73bb0876ddb421dd03d641eb735988ebf16"
+      },
+      "effective_basis": {
+        "SEM:33cfddfc06494cac7ec2": "672fe2a07016ac4a7e1523ccd921304d0b130b03682cf1dfd968bd762953dce8"
+      },
+      "source_case_ids": {
+        "SEM:33cfddfc06494cac7ec2": [
+          "CLEAN_GAP_CW:e3020_path_scope"
+        ]
+      },
+      "claim": "Does E3020’s main, subsidiary, and working place sequence encode an ordered path, or multiple coincident/associated locations?",
+      "scope": "The path reading is a scoped working interpretation; the same words could encode multiple locations. Reopen only with an independently constrained path/order contrast, not more reconstruction.",
+      "reason_class": "source_contract_not_independent_semantic_discrimination",
+      "actually_tested_falsifier": "GDT596 selects a path-like fluent rendering of E3020 in its local scope review. Its participant/modifier-list replay does not score a independently fixed route or visitation order.",
+      "outcome": "A path can contain several named places, so multiple locations alone do not contradict it. The source contrast with simultaneous locations needs specified temporal, directional and attachment commitments before it can discriminate.",
+      "claim_ceiling": "Source-specific historical model review only; no independent meaning confirmation, global semantic refutation or automatic propagation to other cards.",
+      "evidence": [
+        {
+          "type": "primary_source",
+          "path": "experiments/yolo/gdt596_bath_object_compound_scope_phrasebook/REPORT.md",
+          "line": 115,
+          "line_end": 139,
+          "quote": "`254/254 exakt` heißt: Das kleine Phrasebook kann unsere vollständige aktuelle\nArbeitslesart aus ihren sichtbaren Typ-, Bezugs- und Modifikatorentscheidungen\nreproduzieren. Es heißt nicht, dass jede deutsche Langform natürlich oder jede\nObjektbindung endgültig ist. Die sechs GDT595-Hostbindungsrivalen E2863, E3224,\nE3523, E3533, E3563 und E3664 bleiben ausdrücklich markiert und behalten\ntrotzdem jeweils einen Primärdefault.\n\nEine vollständige manuelle Werkstattlektüre aller 254 Slots und ihres\n793-Aussagen-Kontexts markiert deshalb ein zweites, bewusst nicht destruktives\nDeck:\n\n- 16 Stellen brauchen vor allem flüssigere Scope-, Orts- oder Trägergliederung;\n- 6 Stellen behalten einen Objektrivalen;\n- E3523 behält zusätzlich eine Gabel zwischen rechtem Gemeinkomplement und\n  diskontinuierlicher Diskursanaphora;\n- nur E2952 (Station/Portion) und E3224 (Körper/Station) sind unmittelbare\n  starke Objektgabeln.\n\nKein Fall wird gestoppt oder aus der Übersetzung entfernt. Beispielsweise wird\nE3512 natürlicher zeitlich gesprochen—„zunächst Grad II, anschließend … Grad\nIII“—ohne seine Objektwahl zu ändern. E3020 verbindet Haupt-, Neben- und\nArbeitsstelle als Weg statt als drei simultane Orte. Bei E1599 werden\nBadeinheit und Portion zu Begleitträgern des Stationsansatzes statt zu drei\ngleichrangigen Badepatienten. Das vollständige 23-Karten-Deck steht im\nreproduzierbaren Artefakt.",
+          "sha256": "28303de8073bc0a5f6ac2925e8ddae77ec104dd3dc0b2556d9419e3f32cdb3b4"
+        }
+      ],
+      "reopening": {
+        "status": "REVIEW_REQUIRED_NOT_TEST_READY",
+        "assessed_by": "curation_review",
+        "criteria_origin": "Exact primary limits and root scope adjudication, not a new preregistration.",
+        "all_of": [
+          "Fix the proposed route/order and the simultaneous or associated-location rival. Require an independent source relation in which those commitments differ; spatial co-occurrence alone is insufficient."
+        ],
+        "not_sufficient": [
+          "More exact replay of inherited labels or editorial model scores.",
+          "An observation compatible with both specified models treated as selecting a translation.",
+          "More exposed examples without changed source-specific discriminating evidence."
+        ]
+      },
+      "automatic_card_status_propagation": false,
+      "empirical_meaning_refutation": false,
+      "review_artifact": {
+        "path": "research_registry/decisions/ii_root_scope_review.json",
+        "sha256": "7de5fa28e309b383cb648499be5d36ecc91d70d34eb6c8cc4a1a266030396723"
+      }
+    }
+  ],
+  "draft_sha256": "8b71400a614a60172befe845f9c3765210bef2b150dd503a09a44de9fec84558",
+  "peer": {
+    "path": "research_registry/decisions/ii_final_packet_peer.json",
+    "sha256": "f2949b45ea6fe2d1bd5a47730b601ec7b85e95367be063c5a8a187b7e6015df8"
+  },
+  "new_semantic_evidence": false
+}

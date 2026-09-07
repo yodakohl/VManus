@@ -1,0 +1,213 @@
+{
+  "artifact": "ii_reference_source_candidates",
+  "version": 1,
+  "scope": "Bounded source curation for currently uncovered GDT584/593/594/595/596-family semantic cards; no new experiment or registry mutation.",
+  "excluded_overlap": [
+    "IB559 carry",
+    "HX pronoun",
+    "IC shared-register",
+    "IG raw12/17 design reviews"
+  ],
+  "validation": "All evidence paths, SHA256 values, and contiguous line bounds were checked programmatically against current files.",
+  "candidates": [
+    {
+      "semantic_id": "SEM:13f62d50b8411bf5c518",
+      "title": "participant hierarchy / E1599",
+      "claim": "GDT596 treats the bathing unit and portion in E1599 as accompanying carriers of the station batch rather than three equally ranked bathing patients.",
+      "status": "unconfirmed",
+      "registry_context_ids": [
+        "GDT596"
+      ],
+      "member_ids": [
+        "LEGACY_COMPONENT:d090c5a21f900d483df5"
+      ],
+      "case_ids": [
+        "CLEAN_GAP_CW:e1599_accompanying_carriers"
+      ],
+      "card_basis": "b30698ef8597b0cfc783f54e1e12148fab4fa61f054f82e3e0ca090cb4d387f6",
+      "effective_basis": "4710f758604252c2169491a8d45ae5258822afb10c05f69f2369be88fbaca46f",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt596_bath_object_compound_scope_phrasebook/REPORT.md",
+          "line": 133,
+          "line_end": 139,
+          "quote": "Kein Fall wird gestoppt oder aus der Übersetzung entfernt. Beispielsweise wird\nE3512 natürlicher zeitlich gesprochen—„zunächst Grad II, anschließend … Grad\nIII“—ohne seine Objektwahl zu ändern. E3020 verbindet Haupt-, Neben- und\nArbeitsstelle als Weg statt als drei simultane Orte. Bei E1599 werden\nBadeinheit und Portion zu Begleitträgern des Stationsansatzes statt zu drei\ngleichrangigen Badepatienten. Das vollständige 23-Karten-Deck steht im\nreproduzierbaren Artefakt.",
+          "sha256": "28303de8073bc0a5f6ac2925e8ddae77ec104dd3dc0b2556d9419e3f32cdb3b4"
+        }
+      ],
+      "selection": {
+        "kind": "local scope rival",
+        "recommendation": "retain_source_candidate",
+        "why_distinct": "Distinct from IB559 carry, HX pronoun, IC shared-register and IG raw-design reviews; this card addresses a named GDT595/596 object, participant, scope, temporal, or path proposition.",
+        "reopen_condition": "The phrasebook explicitly chooses accompanying carriers over three equal patients; this is an authored working relation, not independent evidence. Reopen only with an independently anchored E1599 relation that distinguishes accompanying carrier from patient scope."
+      }
+    },
+    {
+      "semantic_id": "SEM:2057e01ff8c01de65273",
+      "title": "Body/Station source model",
+      "claim": "GDT595’s independent Body/Station source model assigns the same 44 residual defaults to 23 bodies and 21 stations, omitting portion and unit despite the source report’s visible participant evidence.",
+      "status": "unconfirmed",
+      "registry_context_ids": [
+        "GDT595"
+      ],
+      "member_ids": [
+        "LEGACY_PROPOSAL:852cd6e349540ba7bc7ac9bc"
+      ],
+      "case_ids": [
+        "BG_RECOVERY:binary_body_station"
+      ],
+      "card_basis": "b64cf00bb882b238a4175ffc30391bb1b1ec21a62b501cf354eee5e1096e60a0",
+      "effective_basis": "b2ab5fff71f9961e1628f38b10654b1f41f60deadff56952bbfc0e40d43bed60",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 68,
+          "line_end": 71,
+          "quote": "Die vollständige Werkstattlektüre ergab zunächst `20 Körper / 19 Station / 3\nPortion / 2 Einheit`. Ein unabhängiges Body/Station-Quellenmodell ergab `23\nKörper / 21 Station`, verlor aber Portion und Einheit trotz sichtbarer\nTeilnehmer.",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        }
+      ],
+      "selection": {
+        "kind": "explicit model comparison",
+        "recommendation": "retain_source_candidate",
+        "why_distinct": "Distinct from IB559 carry, HX pronoun, IC shared-register and IG raw-design reviews; this card addresses a named GDT595/596 object, participant, scope, temporal, or path proposition.",
+        "reopen_condition": "The 23/21 binary model is a real historical rival and its loss of Portion/Einheit is a concrete model consequence. It does not establish the richer model; reopen with a predeclared typed participant contrast covering those categories."
+      }
+    },
+    {
+      "semantic_id": "SEM:62d293dfa22aa66dfef2",
+      "title": "six narrow host/stage disputes",
+      "claim": "For E2863,E3224,E3523,E3533,E3563,E3664, GDT595 retains the narrow host/stage-change reading preferred by a second manual reading as a rival to the hybrid shared-complement extension.",
+      "status": "unconfirmed",
+      "registry_context_ids": [
+        "GDT595"
+      ],
+      "member_ids": [
+        "LEGACY_PROPOSAL:852cd6e349540ba7bc7ac9bc"
+      ],
+      "case_ids": [
+        "BG_RECOVERY:narrow_host_rival"
+      ],
+      "card_basis": "9923fa740b0eed9cd0de81d3281372628f5c4da205ef2a5afa3120f470d255f9",
+      "effective_basis": "aa4627155dab687475a930a0e5616f1b956c58a140db0eec2a34c6c5169516d1",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 83,
+          "line_end": 92,
+          "quote": "Diese vier Änderungen verwenden eine einheitliche explorative Regel: Ein am\nrechten Rand desselben geschriebenen Ereignisses realisierter Gegenstand darf\nüber die unmittelbar davorstehende kurze Verbkette greifen. Er wird trotzdem\nnicht zum direkten SH-Slot umetikettiert. Die enge Hostlesung bleibt Rivale.\n\nEine zweite manuelle Nachlese bevorzugte bei sechs Streitfällen die enge\nHost-/Stufenwechsel-Lesung (`E2863`, `E3224`, `E3523`, `E3533`, `E3563`,\n`E3664`). Diese Gegenlesungen werden nicht verworfen. Der Hybrid bleibt primär,\nweil er eine einfachere kompositionelle Vorhersage für Endträger liefert und\nhistorisch mögliche Rezeptsyntax nutzt.",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        }
+      ],
+      "selection": {
+        "kind": "explicit retained rival",
+        "recommendation": "retain_source_candidate",
+        "why_distinct": "Distinct from IB559 carry, HX pronoun, IC shared-register and IG raw-design reviews; this card addresses a named GDT595/596 object, participant, scope, temporal, or path proposition.",
+        "reopen_condition": "The report records a positive six-case rival against shared-complement extension. No verdict is supplied. Reopen only by a case-level scope contrast for the six named events, not more phrasebook replay."
+      }
+    },
+    {
+      "semantic_id": "SEM:6780345adb4f25ea6676",
+      "title": "E3512 grade ordering",
+      "claim": "GDT596 proposes a temporal reading of E3512: zunächst Grad II, anschließend … Grad III, preserving its existing object choice rather than treating both grades as simultaneous requirements.",
+      "status": "unconfirmed",
+      "registry_context_ids": [
+        "GDT596"
+      ],
+      "member_ids": [
+        "LEGACY_COMPONENT:d090c5a21f900d483df5"
+      ],
+      "case_ids": [
+        "CLEAN_GAP_CW:e3512_temporal_scope"
+      ],
+      "card_basis": "c1089b8e20ee681e875f8316a8b4f345c0caf1efb6a20b2ec175b152037417f4",
+      "effective_basis": "705097e9cfc6dbbf03ed4a4a8c6cc05b1b43acd8fea4e93e75832367080ece71",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt596_bath_object_compound_scope_phrasebook/REPORT.md",
+          "line": 113,
+          "line_end": 139,
+          "quote": "## Was exakt bedeutet — und was nicht\n\n`254/254 exakt` heißt: Das kleine Phrasebook kann unsere vollständige aktuelle\nArbeitslesart aus ihren sichtbaren Typ-, Bezugs- und Modifikatorentscheidungen\nreproduzieren. Es heißt nicht, dass jede deutsche Langform natürlich oder jede\nObjektbindung endgültig ist. Die sechs GDT595-Hostbindungsrivalen E2863, E3224,\nE3523, E3533, E3563 und E3664 bleiben ausdrücklich markiert und behalten\ntrotzdem jeweils einen Primärdefault.\n\nEine vollständige manuelle Werkstattlektüre aller 254 Slots und ihres\n793-Aussagen-Kontexts markiert deshalb ein zweites, bewusst nicht destruktives\nDeck:\n\n- 16 Stellen brauchen vor allem flüssigere Scope-, Orts- oder Trägergliederung;\n- 6 Stellen behalten einen Objektrivalen;\n- E3523 behält zusätzlich eine Gabel zwischen rechtem Gemeinkomplement und\n  diskontinuierlicher Diskursanaphora;\n- nur E2952 (Station/Portion) und E3224 (Körper/Station) sind unmittelbare\n  starke Objektgabeln.\n\nKein Fall wird gestoppt oder aus der Übersetzung entfernt. Beispielsweise wird\nE3512 natürlicher zeitlich gesprochen—„zunächst Grad II, anschließend … Grad\nIII“—ohne seine Objektwahl zu ändern. E3020 verbindet Haupt-, Neben- und\nArbeitsstelle als Weg statt als drei simultane Orte. Bei E1599 werden\nBadeinheit und Portion zu Begleitträgern des Stationsansatzes statt zu drei\ngleichrangigen Badepatienten. Das vollständige 23-Karten-Deck steht im\nreproduzierbaren Artefakt.",
+          "sha256": "28303de8073bc0a5f6ac2925e8ddae77ec104dd3dc0b2556d9419e3f32cdb3b4"
+        }
+      ],
+      "selection": {
+        "kind": "temporal scope repair",
+        "recommendation": "retain_source_candidate",
+        "why_distinct": "Distinct from IB559 carry, HX pronoun, IC shared-register and IG raw-design reviews; this card addresses a named GDT595/596 object, participant, scope, temporal, or path proposition.",
+        "reopen_condition": "“zunächst … anschließend” is a local rendering choice and does not independently prove sequence. Reopen only with a source-bound ordering contrast that changes simultaneous-versus-sequential interpretation while holding object choice fixed."
+      }
+    },
+    {
+      "semantic_id": "SEM:9a44b8d4f68ec8ebf3ec",
+      "title": "five left-resumption cases",
+      "claim": "GDT595 gives five local left-resumption readings in which the previously named participant remains the patient of the following bath action: E1445: Führe die Anwendungsportion zu. Halte dieselbe Anwendungsportion im Bad auf Grad II.; E1523: Wähle die Einheit aus. Halte dieselbe Becken- oder Körpereinheit im Bad auf Grad I.; E2426: Behandle den Stationsansatz. Halte denselben Stationsansatz bei der angegebenen Füllung im Bad auf Grad I.; E2552: Bereite die Anwendungsportion und das Badmaß vor. Halte dieselbe Anwendungsportion im Bad auf Grad I.; E2988: Verwende die Becken- oder Körpereinheit. Halte dieselbe Becken- oder Körpereinheit im Bad auf Grad I. These are five specified realizations of participant continuation, not five distinct semantic mechanisms.",
+      "status": "unconfirmed",
+      "registry_context_ids": [
+        "GDT595"
+      ],
+      "member_ids": [
+        "LEGACY_COMPONENT:2fd49cd9ac679b2ab614"
+      ],
+      "case_ids": [
+        "CLEAN_GAP_DC:five_left_resumption_cases"
+      ],
+      "card_basis": "1bf675714dc6c794b47ebfd5f72088173b100cc4fc552e998e0671958f18175d",
+      "effective_basis": "0686bd7e8b58827b1877e6efa5202198663fb3823340f2905c9f7ed77b34ed4e",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 46,
+          "line_end": 64,
+          "quote": "Das ist keine Objektzuweisung. AIIN bleibt Füllung oder Medium und kann Körper,\nStation oder Portion begleiten. Auch Y ist kein globales Stationswort.\n\nDie eigentliche Objektquelle lautet:\n\n- 21 linke, sichtbare Teilnehmer werden mit `denselben/dieselbe`\n  wiederaufgenommen;\n- 8 gleichereignisige Endträger schließen als definite gemeinsame Komplemente\n  eine kurze Verbkette ab;\n- E2952 bleibt eine Station/Portion-Gabel, die durch die nachfolgende\n  Stationsbehandlung zugunsten Station entschieden wird;\n- 14 resetgebundene Stellen ohne hinreichenden nicht-mediumhaften Teilnehmer\n  erhalten Körper als ersten definiten Default.\n\nDamit wird aus `AIIN → Körper` die sinnvollere Konstruktion:\n\n```text\nSH-Aktion + AIIN-Füllung + separat bestimmter Patient\n```",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        },
+        {
+          "path": "experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md",
+          "line": 96,
+          "line_end": 104,
+          "quote": "Starke linke Wiederaufnahmen:\n\n```text\nE1445  Führe die Anwendungsportion zu. Halte dieselbe Anwendungsportion im Bad auf Grad II.\nE1523  Wähle die Einheit aus. Halte dieselbe Becken- oder Körpereinheit im Bad auf Grad I.\nE2426  Behandle den Stationsansatz. Halte denselben Stationsansatz bei der angegebenen Füllung im Bad auf Grad I.\nE2552  Bereite die Anwendungsportion und das Badmaß vor. Halte dieselbe Anwendungsportion im Bad auf Grad I.\nE2988  Verwende die Becken- oder Körpereinheit. Halte dieselbe Becken- oder Körpereinheit im Bad auf Grad I.\n```",
+          "sha256": "92ab492394085fa2b702fe977ae629939a82e92f48a1faa8bd27939cfc119d56"
+        }
+      ],
+      "selection": {
+        "kind": "repeated source construction",
+        "recommendation": "retain_source_candidate",
+        "why_distinct": "Distinct from IB559 carry, HX pronoun, IC shared-register and IG raw-design reviews; this card addresses a named GDT595/596 object, participant, scope, temporal, or path proposition.",
+        "reopen_condition": "The five exact German clauses are concrete repeated participant-continuation realizations, but repetition is not independent patient evidence. Reopen with a contrast where an anaphoric continuation and a new patient produce different predictions."
+      }
+    },
+    {
+      "semantic_id": "SEM:33cfddfc06494cac7ec2",
+      "title": "E3020 path versus locations",
+      "claim": "GDT596 reads the main, subsidiary and working places of E3020 as a path rather than three simultaneous locations.",
+      "status": "unconfirmed",
+      "registry_context_ids": [
+        "GDT596"
+      ],
+      "member_ids": [
+        "LEGACY_COMPONENT:d090c5a21f900d483df5"
+      ],
+      "case_ids": [
+        "CLEAN_GAP_CW:e3020_path_scope"
+      ],
+      "card_basis": "edf3aafe808c5ca2825a7d1edd05c73bb0876ddb421dd03d641eb735988ebf16",
+      "effective_basis": "672fe2a07016ac4a7e1523ccd921304d0b130b03682cf1dfd968bd762953dce8",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt596_bath_object_compound_scope_phrasebook/REPORT.md",
+          "line": 133,
+          "line_end": 139,
+          "quote": "Kein Fall wird gestoppt oder aus der Übersetzung entfernt. Beispielsweise wird\nE3512 natürlicher zeitlich gesprochen—„zunächst Grad II, anschließend … Grad\nIII“—ohne seine Objektwahl zu ändern. E3020 verbindet Haupt-, Neben- und\nArbeitsstelle als Weg statt als drei simultane Orte. Bei E1599 werden\nBadeinheit und Portion zu Begleitträgern des Stationsansatzes statt zu drei\ngleichrangigen Badepatienten. Das vollständige 23-Karten-Deck steht im\nreproduzierbaren Artefakt.",
+          "sha256": "28303de8073bc0a5f6ac2925e8ddae77ec104dd3dc0b2556d9419e3f32cdb3b4"
+        }
+      ],
+      "selection": {
+        "kind": "local relational reading",
+        "recommendation": "retain_source_candidate",
+        "why_distinct": "Distinct from IB559 carry, HX pronoun, IC shared-register and IG raw-design reviews; this card addresses a named GDT595/596 object, participant, scope, temporal, or path proposition.",
+        "reopen_condition": "The path reading is a scoped working interpretation; the same words could encode multiple locations. Reopen only with an independently constrained path/order contrast, not more reconstruction."
+      }
+    }
+  ]
+}

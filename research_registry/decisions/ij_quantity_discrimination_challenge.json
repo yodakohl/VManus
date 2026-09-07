@@ -1,0 +1,260 @@
+{
+  "artifact": "ij_quantity_discrimination_challenge",
+  "version": 1,
+  "purpose": "Independent source challenge of IJ quantity candidates; corrected scopes and falsifiers only.",
+  "global_correction": "The three Y–AIIN–Y cards are one scoped relation question with three historical formulations, not three separate targets. Equal/shared/paired language is not jointly predictive without independently bound operands, standards, amounts and antecedents.",
+  "targets": [
+    {
+      "target_ids": [
+        "SEM:d521729b5296373929c7"
+      ],
+      "title": "Nested two-item/reference window",
+      "original_claims": [
+        "Pass227 reads dy chy taiin shy as a nested construction: dy chy establishes two items and chy taiin shy keeps the second item active across the prescribed value. This combines plural introduction with reference maintenance rather than assigning a new meaning to every token."
+      ],
+      "card_basis": {
+        "SEM:d521729b5296373929c7": "5936f5f1f134b5658dc0b498b09156cd9796a1ca6fdce21ea0ba497c937b3f3b"
+      },
+      "effective_basis": {
+        "SEM:d521729b5296373929c7": "e9b5f08978dc19f83e12f1784c37ef3af0e60549a4727a54a20591c28227243c"
+      },
+      "source_case_ids": [
+        "CLEAN_GAP_BE:nested_two_item_reference"
+      ],
+      "original_source_evidence": [
+        {
+          "type": "primary_source",
+          "path": "experiments/yolo/sidequest_semantic_combined_reference_parser_two_hundred_twenty_seventh/TWO_HUNDRED_TWENTY_SEVENTH_REPORT.md",
+          "line": 1,
+          "line_end": 13,
+          "quote": "# Zweihundertsiebenundzwanzigster Durchgang: kombinierter Werkstattparser\n\nDie Rückkehr- und Doppelungsregeln sind nun in einem gemeinsamen recordweiten Parser verbunden. Er unterscheidet drei Ebenen:\n\n- 381 sichtbare Karten;\n- 380 Quelltoken, weil die f82r-Zeilenforttragung zweimal sichtbar, aber einmal gemeint ist;\n- 357 Leseeinheiten, davon 343 Einzelkarten und 14 zusammengesetzte Konstruktionen.\n\nDie 14 Konstruktionen tragen 15 Regelanwendungen. Der Unterschied entsteht durch das einzige verschachtelte Fenster `dy chy taiin shy`: `dy chy` setzt zwei Posten, während `chy taiin shy` den zweiten Posten über den Sollwert hinweg aktiv hält.\n\nDer Parser verändert keine Kartenbedeutung. Er erklärt nur, wie ein Schreiber dieselben kleinen Wörter durch Wiederholung und Rahmung zu Mehrzahl, Wiederholung, Rückbezug und Zeilenforttragung zusammensetzen konnte.\n\nAls nächstes wird geprüft, ob diese vier Konstruktionsarten ausreichen, um ein kurzes zusammenhängendes f10r- und f83r-Stück ohne zusätzliche moderne Bindewörter zu übersetzen.",
+          "sha256": "7d00901e1cf3b780327d520723e6208ae3df1a861009f12fdf468141d1999e97"
+        }
+      ],
+      "additional_primary_evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_combined_reference_parser_two_hundred_twenty_seventh/TWO_HUNDRED_TWENTY_SEVENTH_COMPOSITE_READING_MANUAL.md",
+          "line": 3,
+          "line_end": 11,
+          "quote": "Die Prosa hat drei Zählebenen: **381 sichtbare Karten**, **380 Quelltoken** und **357 Leseeinheiten**.\n\nDas einzige verschachtelte Fenster ist `dy chy taiin shy`: eine offene Zweiergruppe plus ein überlappender Y–AIIN–Y-Rückkehrrahmen.\n\n## R020 · H2 · PAIR_PLUS_ABA_RETURN\n\n`dy chy taiin shy` → **dieser und dieser Posten; den zweiten auf Sollwert setzen und als denselben Posten aktiv halten**\n\nSichtbar 4; Quelle 4; Regelanwendungen 2.",
+          "sha256": "e2b3b7a5fe80bda32f3a37c2038f7e25f57989274bf85dd70480dee3e441ecf6"
+        }
+      ],
+      "assessment": "Retain as a parser’s explicit construction proposal. “dy chy sets two items” and “second stays active” are authored assignments, not observations of owner identity.",
+      "corrected_scope": "Test only the bounded window against a repeated/serial construction; do not generalize it to plural morphology or quantity.",
+      "contrasting_prediction": "Nested model predicts two independently bound endpoints with the second persisting through AIIN; serial model predicts two operations without second-endpoint persistence. A held case must encode the owner bindings before scoring.",
+      "smallest_reopen_input": "Two independently adjudicated endpoints plus a downstream reference field in the same window, with single-item and repeated-operation controls.",
+      "source_limit": "Historical working/proposal or builder output; no independent manuscript meaning confirmation.",
+      "no_operative_edits": true
+    },
+    {
+      "target_ids": [
+        "SEM:fc9f986dccb935aa3d02"
+      ],
+      "title": "B1 parallel portions versus nested portion",
+      "original_claims": [
+        "Pass489 reads the B1-S002 K+AIN and OL+K+AIN pair as two parallel portions from the same running liquid, rejecting the earlier state-machine expansion portion and portion-of-portion because OL means continuation."
+      ],
+      "card_basis": {
+        "SEM:fc9f986dccb935aa3d02": "55f9df13e419e6ac844c2aea1a260c1ff02f947642188bfee6fe127d76a836f7"
+      },
+      "effective_basis": {
+        "SEM:fc9f986dccb935aa3d02": "5a36d314234b6a1e146d73be29fa321f7cb7f705d17a682387a5cf0302886b6b"
+      },
+      "source_case_ids": [
+        "CLEAN_GAP_BD:b1_parallel_portions"
+      ],
+      "original_source_evidence": [
+        {
+          "type": "primary_source",
+          "path": "experiments/yolo/sidequest_semantic_b1_double_charge_macro_four_hundred_eighty_ninth/FOUR_HUNDRED_EIGHTY_NINTH_REPORT.md",
+          "line": 3,
+          "line_end": 7,
+          "quote": "Die längste lokale Form hat neunzehn Karten und liegt vollständig am sichtbaren\ngemeinsamen zweireihigen Becken von f81v. Die bisherige Zustandsmaschine las\n`K+AIN` und `OL+K+AIN` mechanisch als Portion und Portion-von-Portion. Das passt\nnicht zur bereits gewählten OL-Bedeutung „fortsetzen/weiter“. Die bessere\nWerkstattlektüre sind zwei parallele Portionen aus derselben Laufflüssigkeit.",
+          "sha256": "2ffa34f8af2b2fbe56fec12ed43290602f99cd966c77ff9a3f10e07e248bf67b"
+        }
+      ],
+      "additional_primary_evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_b1_double_charge_macro_four_hundred_eighty_ninth/build_four_hundred_eighty_ninth.py",
+          "line": 43,
+          "line_end": 48,
+          "quote": "        \"E107\": (\"P2_DOPPELTE_PORTION\", \"Erste Portion derselben Laufflüssigkeit abteilen.\"),\n        \"E108\": (\"P2_DOPPELTE_PORTION\", \"Zweite parallele Portion aus derselben Laufflüssigkeit abteilen.\"),\n        \"E109\": (\"P2_DOPPELTE_PORTION\", \"Beide Portionen an das gemeinsame Becken führen.\"),\n        \"E110\": (\"P2_DOPPELTE_PORTION\", \"Die Doppelportion fortführen.\"),\n        \"E111\": (\"P2_DOPPELTE_PORTION\", \"Die Doppelportion weiter abkühlen oder temperieren.\"),\n        \"E112\": (\"P2_DOPPELTE_PORTION\", \"Die temperierte Doppelportion weiterführen.\"),",
+          "sha256": "e88309b15805fc63f2dcde648da3832284edddd36e96f84a30a1a8df4c5af7cf"
+        }
+      ],
+      "assessment": "The report and builder hard-code the preferred “two parallel portions” labels and graph; that is a model revision, not physical quantity evidence. Shared source does not entail parallel portions, and two portions can be sequential or nested.",
+      "corrected_scope": "Keep the source-specific B1-S002 scope and separate source/portion relation from temporal order.",
+      "contrasting_prediction": "Parallel predicts two sibling portion nodes jointly linked to one source; nested predicts a portion node contained in another; serial predicts two successive portions without sibling relation. The contrast requires independently bound source and portion endpoints.",
+      "smallest_reopen_input": "One same-scope sequence with externally fixed source, two portion endpoints, and an order/containment annotation independent of the builder’s German labels.",
+      "source_limit": "Historical working/proposal or builder output; no independent manuscript meaning confirmation.",
+      "no_operative_edits": true
+    },
+    {
+      "target_ids": [
+        "SEM:a9285a5ab323d4b08d3d",
+        "SEM:8251b1e4444a432354c2",
+        "SEM:64464bfcc746b8b97f0f"
+      ],
+      "title": "One scoped Y–AIIN–Y relation question",
+      "original_claims": [
+        "Y–AIIN–Y → both portions by the same stated standard",
+        "Y–AIIN–Y denotes equal, shared or paired value, by analogy with recipe ana.",
+        "Y–AIIN–Y ist eine gemeinsame Referenzkonstruktion statt einer Angabe gleicher Mengen."
+      ],
+      "card_basis": {
+        "SEM:a9285a5ab323d4b08d3d": "96bdecd49d770ba4d142ede3eb96ef523de11f28d0877ce415281244170b5ba7",
+        "SEM:8251b1e4444a432354c2": "bc50dac69c10a4f57c99f88aff47620dea9d651a3f115d5daa18133e3ac010fe",
+        "SEM:64464bfcc746b8b97f0f": "90ed8fc2476cda413d26ec5cea71ef8e9de473ea883e5b4ff611f32a5dfff2f7"
+      },
+      "effective_basis": {
+        "SEM:a9285a5ab323d4b08d3d": "ca5cfcccd3330ca6595eaa714c2440e8f7555b2af6a71f915819912aba4fdc23",
+        "SEM:8251b1e4444a432354c2": "12abc6272597551d367f34eb16a29c4f8846fc7d10a03e73150e758ae38e47cf",
+        "SEM:64464bfcc746b8b97f0f": "6b05939de9c5825b7b7a8510552e1c63128822be7ca798931e92e51565c98417"
+      },
+      "source_case_ids": [
+        "CLEAN_COMPONENT:ef378541d046e1534b45",
+        "CLEAN_HYP:c2ac6f4c598fa9c1fcac",
+        "FINAL-SEM:4ae142b4cf95a2fdec4b"
+      ],
+      "original_source_evidence": [
+        {
+          "type": "primary_source",
+          "path": "experiments/yolo/sidequest_theory_candidates_v16/V16_THEORY_SELECTION.md",
+          "line": 46,
+          "line_end": 46,
+          "quote": "| `Y–AIIN–Y` | **both portions by the same stated standard** | .44 |",
+          "sha256": "e9c9bd8650496fbf2f86ae9fed27cbcde16649bde75f78c2c3ca6edf642f93c7"
+        },
+        {
+          "type": "primary_source",
+          "path": "experiments/yolo/sidequest_theory_candidates/THEORY_SELECTION.md",
+          "line": 63,
+          "line_end": 63,
+          "quote": "| `Y-AIIN-Y` | equal/shared/paired value frame, by analogy—not reading—to recipe *ana* |",
+          "sha256": "a9411e99afb637662bb961c79193508e952ddfa35b6e596fd63a5c85fd86a8db"
+        },
+        {
+          "type": "primary_source",
+          "path": "experiments/yolo/sidequest_theory_candidates_v7/V7_REFERENCE_VALUE.md",
+          "line": 192,
+          "line_end": 192,
+          "quote": "1. `Y–AIIN–Y` no longer needs a fragile “equal amount” story; it is a shared-",
+          "sha256": "96e25dc1a1ac4342b280a6434ecd2150deb88f848211d0bc048012b95ea3c329"
+        }
+      ],
+      "additional_primary_evidence": [],
+      "assessment": "Collapse these three cards into one question. “same stated standard,” “equal/shared/paired,” and “shared reference” are overlapping alternatives, not three independent tests. Equal standard does not entail equal physical amounts; shared reference does not entail both Y tokens denote the same individual; the recipe analogy is explicitly not a reading.",
+      "corrected_scope": "Ask whether Y–AIIN–Y imposes a relation between two independently identified operands: same standard, shared antecedent/reference, or symmetric/paired value. Keep the three historical cards as rival formulations under one scope.",
+      "contrasting_prediction": "A discriminating design must include cases with same standard but unequal amounts, distinct operands sharing a standard, and same operand under changed standards. Those outcomes separate standard-sharing, identity/reference, and amount-symmetry models; mere recurrence or two portions does not.",
+      "smallest_reopen_input": "Freeze two operand endpoints, their amount/standard fields, and antecedent identity independently, then predeclare predictions for standard-sharing, shared-reference, paired-value, and serial/coordinator controls.",
+      "source_limit": "Historical working/proposal or builder output; no independent manuscript meaning confirmation.",
+      "no_operative_edits": true
+    },
+    {
+      "target_ids": [
+        "SEM:58fe7eb814bccdebc539"
+      ],
+      "title": "Y lexical default",
+      "original_claims": [
+        "Y → this share / present portion"
+      ],
+      "card_basis": {
+        "SEM:58fe7eb814bccdebc539": "d46de6775e4d95e3de5a073e689d40c55607b5a4290507bac559f8049ab8d859"
+      },
+      "effective_basis": {
+        "SEM:58fe7eb814bccdebc539": "c4d489af098eb10288ba89d8243348dc39b1e2ce748f7c5a2a47903fb52a8302"
+      },
+      "source_case_ids": [
+        "CLEAN_COMPONENT:774047cad4686f2dfa71"
+      ],
+      "original_source_evidence": [
+        {
+          "type": "primary_source",
+          "path": "experiments/yolo/sidequest_theory_candidates_v16/V16_THEORY_SELECTION.md",
+          "line": 44,
+          "line_end": 44,
+          "quote": "| `Y` | **this share / present portion** | .43 |",
+          "sha256": "e9c9bd8650496fbf2f86ae9fed27cbcde16649bde75f78c2c3ca6edf642f93c7"
+        }
+      ],
+      "additional_primary_evidence": [],
+      "assessment": "The V16 table is a confidence-ranked working dictionary row, not an observation. A present portion can be an item or frame-tag in the same contexts, so “Y means portion” is underdetermined by this citation.",
+      "corrected_scope": "Retain only as a historical lexical proposal; do not use it as evidence for the combined Y–AIIN–Y relation.",
+      "contrasting_prediction": "Portion predicts operand-level part/whole or quantity behavior; item/unit/frame rivals predict different endpoint types. A held contrast needs endpoint annotations independent of the gloss.",
+      "smallest_reopen_input": "A source-bound sample with independently identified portion, item, unit and frame roles, not a recitation of the V16 table.",
+      "source_limit": "Historical working/proposal or builder output; no independent manuscript meaning confirmation.",
+      "no_operative_edits": true
+    },
+    {
+      "target_ids": [
+        "SEM:920ee49f2f295be07c34"
+      ],
+      "title": "L/O partitive versus WITH/shared-reference",
+      "original_claims": [
+        "L/O expresses part, share or a partitive relation."
+      ],
+      "card_basis": {
+        "SEM:920ee49f2f295be07c34": "0bffdd00dbe251a78aa3fb6613c6107e041a608b6aaf8bec61d419d828fe4c80"
+      },
+      "effective_basis": {
+        "SEM:920ee49f2f295be07c34": "c109f90bbd3a3cc0c3522da715989641a1e546e9615fa9d26240bd6e0a4c6dd2"
+      },
+      "source_case_ids": [
+        "CLEAN_HYP:11116f0515b1090ce6a0"
+      ],
+      "original_source_evidence": [
+        {
+          "type": "primary_source",
+          "path": "experiments/yolo/sidequest_theory_candidates_v13/CANDIDATE_V13_R3_RELATION_NOTATION.md",
+          "line": 254,
+          "line_end": 254,
+          "quote": "| Teil/Anteil/Partitiv | 19/19 nur abstrakt | sehr unnatürlich | keine Zahl-/Ganzes-Evidenz | 56/100 |",
+          "sha256": "8892934f5a7cf619e60d29e2632cdcef6d8a2c304b72dd51aae12047f42c8c1c"
+        }
+      ],
+      "additional_primary_evidence": [],
+      "assessment": "The cited V13 table explicitly reports no number/whole evidence for Part/Share/Partitive and ranks WITH/UNDER SAME REFERENCE first. But WITH can be partitive or relational in context; slot fit and natural German are not decisive.",
+      "corrected_scope": "Keep whole/part relation, shared reference, coordinator, and generic slot as distinct models; do not call the partitive reading refuted globally.",
+      "contrasting_prediction": "Partitive predicts a recoverable whole endpoint distinct from the portion; shared-reference predicts one active antecedent without requiring a whole; coordinator predicts two independent operands. The source must contain a contrast where these endpoint structures differ.",
+      "smallest_reopen_input": "Independent whole and part endpoints plus relation direction in held L/O contexts, with no endpoint inferred from the candidate gloss.",
+      "source_limit": "Historical working/proposal or builder output; no independent manuscript meaning confirmation.",
+      "no_operative_edits": true
+    },
+    {
+      "target_ids": [
+        "SEM:1fd7d47b91b866f9e3d7"
+      ],
+      "title": "Carryover across physical line ends",
+      "original_claims": [
+        "Keep the latest named plant part, liquid and batch active across physical line ends."
+      ],
+      "card_basis": {
+        "SEM:1fd7d47b91b866f9e3d7": "c644b21f107827df411c9bfbd7f0c9382e806620f82b885ec4f297d07e2792bd"
+      },
+      "effective_basis": {
+        "SEM:1fd7d47b91b866f9e3d7": "e38666c2506324d63eddcd8b20ac83804c4bc7c70deb7ec3dc13c3d08a9035df"
+      },
+      "source_case_ids": [
+        "FINAL-SEM:3a1d0d4ba97107641a88"
+      ],
+      "original_source_evidence": [
+        {
+          "type": "primary_source",
+          "path": "experiments/yolo/sidequest_theory_candidates_v19/CANDIDATE_V19_R1_WORKSHOP_MASTER.md",
+          "line": 143,
+          "line_end": 143,
+          "quote": "4. Keep the latest named plant part, liquid and batch active across physical",
+          "sha256": "840b224f7403d80f796eb15488ba66e6cbcac85a82700c3720b0ad299e58811d"
+        }
+      ],
+      "additional_primary_evidence": [],
+      "assessment": "This is an authored workshop rule (“keep active until explicit continuation changes it”), not a manuscript finding. Physical adjacency/line-end alone cannot establish carryover or an unconditional reset policy.",
+      "corrected_scope": "Restrict to source-defined line/record transitions and owner changes; preserve carryover, reset-at-boundary, and explicit-continuation models as alternatives.",
+      "contrasting_prediction": "Carryover predicts the same independently identified plant part/liquid/batch after a physical line end; reset predicts a new/default owner; explicit-continuation predicts carry only when a continuation marker occurs.",
+      "smallest_reopen_input": "A held set with independently fixed owners on both sides of line ends, including explicit continuation and boundary controls.",
+      "source_limit": "Historical working/proposal or builder output; no independent manuscript meaning confirmation.",
+      "no_operative_edits": true
+    }
+  ]
+}

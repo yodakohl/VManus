@@ -1,0 +1,45 @@
+{
+  "status": "independent_discrimination_challenge",
+  "source_candidate_input": {
+    "path": "research_registry/decisions/ii_reference_source_candidates.json",
+    "sha256": "31ab8e76b01633bf7c599c41475f4b31b6acc4e8c28349961beaa12aa22636fd",
+    "cards": 6
+  },
+  "evidence_validation": {
+    "method": "tools.semantic_identity._evidence",
+    "validated_spans": 11,
+    "result": "PASS"
+  },
+  "rootscope_corrections": [
+    {
+      "semantic_id": "SEM:13f62d50b8411bf5c518",
+      "correction": "E1599’s carrier choice is a real GDT596 working default, but carrier and patient roles are compatible. The phrasebook supports multiple participants and selects a rendered NP from inherited GDT595 routes; it does not make “accompanying carrier” exclusive of patient scope. An independently anchored relation is still needed."
+    },
+    {
+      "semantic_id": "SEM:2057e01ff8c01de65273",
+      "correction": "The 23-body/21-station Body/Station model is an explicit historical rival and its loss of Portion/Unit is a real model consequence. It is a coarse competing projection, not a semantic verdict; richer participant categories can be nested under Body/Station."
+    },
+    {
+      "semantic_id": "SEM:62d293dfa22aa66dfef2",
+      "correction": "The six narrow host/stage readings are retained rivals while the hybrid is selected as primary for a compositional prediction. GDT595’s code hard-codes four right-complement corrections and six rival IDs; this is source-model selection, not independent host adjudication."
+    },
+    {
+      "semantic_id": "SEM:6780345adb4f25ea6676",
+      "correction": "E3512’s “zunächst … anschließend” is a fluent temporal rendering that preserves object choice. It does not exclude simultaneous grade requirements or independently encode temporal order."
+    },
+    {
+      "semantic_id": "SEM:9a44b8d4f68ec8ebf3ec",
+      "correction": "The five left-resumption clauses are genuine repeated source constructions, and GDT595 explicitly routes them through LEFT_SOURCE_SLOTS. The inherited participant evidence is not independent image evidence; continuation can preserve a carrier that also functions as a patient."
+    },
+    {
+      "semantic_id": "SEM:33cfddfc06494cac7ec2",
+      "correction": "E3020’s path reading is a selected working relation, but a path can contain multiple locations and the current participant-list replay does not encode directional movement. The locations rival remains compatible until an external order/path anchor exists."
+    }
+  ],
+  "dependency_audit": [
+    "GDT595 partitions source_kind and direction from inherited AIIN, late-Y, left-source, right-complement, tie, and contextual routes; GDT596 maps those routes mechanically to Q01/Q02/Q03 and then replays them. The PASS is exact reconstruction of those assignments.",
+    "GDT596’s participant parser accepts one, two, or three rendered participants and preserves their order; this makes the carrier/patient and path/location alternatives representationally compatible.",
+    "The primary model choices are retained as historical source decisions. The audit does not call them absent verdicts: it distinguishes a selected working default from independent semantic adjudication."
+  ],
+  "overall": "All six cards remain valid bounded source candidates with corrected claim ceilings. No operative review or registry mutation is authorized by this audit."
+}
