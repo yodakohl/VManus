@@ -1,0 +1,45 @@
+{
+  "status": "FOUR_SKETCHES_RETAINED_AS_SOURCE_SCREEN_HISTORY_NO_RAW_ADD",
+  "peer": {
+    "path": "research_registry/decisions/in_raw_intake_draft.json",
+    "sha256": "41586885b7b946fd59d9bd9d1b8511a87d5d6448f8c5810d9450df8aa6032339"
+  },
+  "evidence": [
+    {
+      "path": "experiments/yolo/gdt459_local_nomenclator_content_atlas/REPORT.md",
+      "line": 5,
+      "line_end": 31,
+      "quote": "The old `LOCAL_ADDRESS` bucket was too coarse. The 183 events split cleanly\nenough to support the mixed system we have been looking for:\n\n| reading tier | events | interpretation |\n|---|---:|---|\n| exact running formula | 61 | identical surface has one invariant recipe in running text |\n| attested recipe under a new surface | 7 | minimal segmentation reproduces an observed recipe |\n| short/repeated provisional composition | 8 | bounded new composition; factor reader does not stop |\n| learned whole nomenclator label | 107 | owner-bound object/station/name card |\n\nThus 76 events (55 surfaces) carry address formulae, while 107 events (107\nsurfaces) are learned whole labels. All retained whole labels are singletons in\nthis address set. That singleton tail is not a failure of the compositional\nmodel: it is exactly the learned nomenclator layer expected beside a compact\ntechnical code.\n\n## What the whole labels denote\n\nThe image owner supplies a concrete class, but not the missing individual\nidentity:\n\n- 64 stellar-position labels on `f71v`/`f72r` → `STERNSTELLENNAME`;\n- 35 drug or ingredient labels on `f88v`/`f89r` → `DROGENNAME`;\n- 6 bath/outlet-station labels on `f77r` → `BADSTATIONSNAME`;\n- 2 labels beside the pictured flowering plant on `f17r` → `PFLANZENNAME`.\n\nThese are short defaults for what kind of learned entry the card is, not claims",
+      "sha256": "b00d42acefca4f9fb569d30145a0f22fba3e527cd43c9ca5a88e18e9fe706d10"
+    },
+    {
+      "path": "GDT214_HYDRAULIC_COMPONENT_KEY_COMPARATOR_REPORT.md",
+      "line": 14,
+      "line_end": 25,
+      "quote": "## Architectural consequence\n\nThis establishes a historically real alternative for q13 graphical text:\nsome diagram-local strings could function as references into explanatory prose\nor as component/state keys, not as ordinary object names.  That alternative is\nmore compatible with q13's mixed labels/prose and weak one-object ownership\nthan a naive label dictionary.\n\nIt does **not** pass its Voynich prediction.  GDT187 already found that exact\nPAGE_HOST reuse between label inventories and same-page prose is sparse but\nnot exceptional: 57/215 label occurrences appear anywhere in same-page prose,\n22/215 at paragraph openings, and the ten-channel adjusted result is",
+      "sha256": "3b4eb7a83374124ca02cb375ba224b080f994389c7056f0bf100c4d10d6c4d8b"
+    },
+    {
+      "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/REPORT.md",
+      "line": 148,
+      "line_end": 157,
+      "quote": "| 1 | M02 `chor` flower / `shor` seed-fruit | 0.820437 | 0 | tied direction; no replacement |\n| 1 | M03 reverse direction | 0.820437 | 0 | tied direction; no replacement |\n| 3 | M01 same part, dry/moist | 0.644178 | 0 | live rival; persistence failed |\n| 4 | M04 general herb / reproductive | 0.631987 | 0 | live rival; breadth failed |\n| 5 | M05 role-distinct learned wholes | 0.132523 | 0 | disfavored; divergence failed |\n\nEvery feature-by-model row contains its score, evidence, and counterevidence.\nThe two leaders have identical weighted sums (9.024812/11) because flower and\nseed/fruit identity credit is fixed to zero. Their high tied score supports the\nshared two-part architecture; it does not satisfy either directional minimum.",
+      "sha256": "bf02e42ce7b03daf319eca7d9d572ccd45ac9d87212530fe8ed46e44e1aa2b7e"
+    },
+    {
+      "path": "experiments/yolo/gdt585_learned_name_compound_atlas/REPORT.md",
+      "line": 7,
+      "line_end": 24,
+      "quote": "Die 109 gelernten Inhaltsoccurrences haben jetzt eine konkretere und\nzusammensetzbarere Basis. GDT585 ändert keine Grenze und kein produktives\nGDT582-Wort. Es ersetzt nur die Namensschicht: 107 feste GDT581-Namensslots\nplus zwei ownergebundene `LOCAL_X`-Inhalte.\n\n| Schicht | Occurrences | Typen/Karten |\n|---|---:|---:|\n| Stern-/Ringwerte | 60 | 43 |\n| Drogen-/Zutatenobjekte | 38 | 29 |\n| Bad-/Auslassstationen | 7 | 6 |\n| eine abgebildete Pflanze | 2 | 2 |\n| ownergebundene `LOCAL_X`-Inhalte | 2 | 2 |\n| **Gesamt** | **109** | **82 einschließlich `LOCAL_X`** |\n\nDie 107 eigentlichen Namensslots liegen in 89 Labels. Sie erzeugen zusammen\nmit einem Same-owner-Pflanzenbundle und einem optischen Zweizeilenpaar 19\nexplizite Compound-/Gruppenlesungen. Fünf Familienkarten verbinden die\nstärksten wiederkehrenden Muster.",
+      "sha256": "64c22c0d024fcde4abea03d857fa6db809264b340eaa02f098b7e3c1e8d36a1f"
+    }
+  ],
+  "root_qualifications": [
+    "The sketches have no complete new declared design. Related-source overlap and absence of a specified changed contrast justify not adding them to the active raw queue here; this is not proof of formal identity of every possible mechanism in those broad families.",
+    "GDT459 splits 183 address events by inherited recipe and owner-class rules (61 exact,7 attested-recipe,8 provisional,107 learned whole). Those are model/source classifications, not an independent test proving portable meanings against all naming.",
+    "GDT214 motivates a component-key convention with an external hydraulic comparator, while its cited label/prose reuse test is nonconfirming. This does not globally refute component/state keys; existing IDEA39 remains a distinct explicitly untested design.",
+    "GDT768 records a directional tie and source-model preferences, not independent flower/seed word identification. No revised directional falsifier is supplied by the IN sketch.",
+    "GDT585 constructs a name/content atlas over fixed slots. More detailed atlas completion is not itself a newly discriminating meaning test."
+  ],
+  "new_semantic_evidence": false
+}

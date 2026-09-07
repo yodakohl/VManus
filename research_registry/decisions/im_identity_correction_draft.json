@@ -1,0 +1,226 @@
+{
+  "status": "ROOT_DRAFT",
+  "corrections": [
+    {
+      "id": "SCR_IM:lo_conditional_rendering:v1",
+      "previous_revision": null,
+      "target": "SEM:7f99184f3153a1bfa037",
+      "target_basis_sha256": "f5319df17d87ac46372bcebccd92373e9b4f0a123c12a4139e8077d386d3d52a",
+      "action": "restate_scope",
+      "reviewer": "root after full conditional primary paragraph",
+      "reason": "Preserve the source condition on the fluent rendering: following material in the same field. Other inheritance cases remain separate rules in the source. No semantic rejection or confirmation is asserted.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v13/CANDIDATE_V13_R4_CHANCERY_LINK_AUDIT.md",
+          "line": 78,
+          "line_end": 94,
+          "quote": "## The inherited-operand rule\n\nA chancery register routinely suppresses what the current heading, preceding\nentry or layout already supplies. One rule covers every position:\n\n1. Maintain a `current_head_or_relation` for the record.\n2. On L/O, keep that head/relation active and attach the next eligible\n   material to it.\n3. If material follows in the field, the mark reads approximately “also/with\n   it/under the same heading”.\n4. If no material follows before the physical boundary, leave the\n   continuation open and take the first eligible material of the next field or\n   line as its completion.\n5. A new paragraph resets the inheritance unless a separate page convention\n   explicitly reopens it.\n\nThis is executable by an apprentice and does not require deciding whether the",
+          "sha256": "49371ef26c42edc7c819662ddb6398baffdc8c423615fcc9df413c1955898d11"
+        }
+      ],
+      "review_artifact": {
+        "path": "research_registry/decisions/im_root_identity_scope_review.json",
+        "sha256": "f740b494cfd314df088f85c1998092e92dbe20eabbceb41116c5dc9629d1d175"
+      },
+      "replacement": {
+        "claim": "V13 R4 renders L/O approximately as ALSO / WITH IT / UNDER THE SAME HEADING when material follows in the field; if no material follows before the physical boundary, its separate rule leaves continuation open for a later eligible field or line.",
+        "claim_type": "lexical_hypothesis"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "id": "IDENTITY_IM:IM01:v1",
+      "decision_key": "IDENTITY_IM:IM01",
+      "previous_revision": null,
+      "status": "approved",
+      "relation": "related_not_equivalent",
+      "member_ids": [
+        "SEM:762b7610743fee2049ed",
+        "SEM:ab0c0af73558a2d7205a"
+      ],
+      "reviewer": "root after exact source scope and candidate comparison",
+      "reason": "a and s are different exact forms with different source assignments. The equal-share gloss relates their hypotheses; it does not make the propositions identical or show that the forms mean different things.",
+      "card_basis": {
+        "SEM:762b7610743fee2049ed": "6d9a7706f0f19f1f1d8a897b5db7954285a856c2c17fad68a6f587ec8f72437a",
+        "SEM:ab0c0af73558a2d7205a": "3cd3c57ca2d0a2c8b4e7371ae823ae3d61ea278446495cea4afee4fe0cf3546a"
+      },
+      "effective_basis": {
+        "SEM:762b7610743fee2049ed": "2a8361c1bc77c61b12472b31a53f9bdf62be74a7ca80b84feb9c10a8c39e3998",
+        "SEM:ab0c0af73558a2d7205a": "f1d764ac4c5c88072055f1bc2032808a4594b0bd7528aa088c1897c90fb02a97"
+      },
+      "source_case_ids": {
+        "SEM:762b7610743fee2049ed": [
+          "CLEAN_COMPONENT:e001b15cfcf0304781b6",
+          "REPORT_PROPOSAL:c3c8cb4e78d61b89c7cb"
+        ],
+        "SEM:ab0c0af73558a2d7205a": [
+          "REPORT_PROPOSAL:5e7ecd6a561fa14595c7"
+        ]
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt662_seventy_six_residual_family_completion/REPORT.md",
+          "line": 81,
+          "line_end": 81,
+          "quote": "| `a` | 9 | je, zu gleichen Teilen |",
+          "sha256": "c248820081256635e5809a521e666543c4640bc93ad4120ea1b7e3a7f3304d1d",
+          "type": "primary_source"
+        },
+        {
+          "path": "experiments/yolo/gdt662_seventy_six_residual_family_completion/REPORT.md",
+          "line": 23,
+          "line_end": 23,
+          "quote": "| `a` | 9 | `je, zu gleichen Teilen` | davon/mit als Wertanschluss |",
+          "sha256": "c248820081256635e5809a521e666543c4640bc93ad4120ea1b7e3a7f3304d1d",
+          "type": "primary_source"
+        },
+        {
+          "path": "experiments/yolo/gdt758_ychor_follower_global_content_census/REPORT.md",
+          "line": 30,
+          "line_end": 30,
+          "quote": "| `s` | je / zu gleichen Teilen | C2 | 25/99 vor geordneter Wertfamilie; `s aiin` 23-mal | Drachmenzeichen; Unzenzeichen |",
+          "sha256": "40b91f3d147ea7ae9b3c2a9e2380b2ca697e3b5ac78f91278f24db6eba54805e",
+          "type": "primary_source"
+        }
+      ],
+      "review_artifact": {
+        "path": "research_registry/decisions/im_root_identity_scope_review.json",
+        "sha256": "f740b494cfd314df088f85c1998092e92dbe20eabbceb41116c5dc9629d1d175"
+      },
+      "new_semantic_evidence": false
+    },
+    {
+      "id": "IDENTITY_IM:IM02:v1",
+      "decision_key": "IDENTITY_IM:IM02",
+      "previous_revision": null,
+      "status": "approved",
+      "relation": "equivalent_proposition",
+      "member_ids": [
+        "SEM:79a24376a17ddab92be4",
+        "SEM:ec58b12daf610426eb1b"
+      ],
+      "reviewer": "root after exact source scope and candidate comparison",
+      "reason": "SHCKHEDY/shckhedy retains the same complete cloth-straining-and-close working card. The filtration report names E165/E330/E331 and explicitly B1/B4; the preparation report retains the two B4-S006/S007 readings. Case and Schluss/Ende variation do not alter this shared whole-card action. No CKHE/DY component meaning is exported.",
+      "card_basis": {
+        "SEM:79a24376a17ddab92be4": "b65b853dac9d381322713884ebc82538070365e5c756b62d815cfea17553eccf",
+        "SEM:ec58b12daf610426eb1b": "0d043562f6808701e61469933b6126ecb00fa5da7e53c15e63d1e014070b85d7"
+      },
+      "effective_basis": {
+        "SEM:79a24376a17ddab92be4": "fb3b6df61eae9b7852ae01cee67c1f85aef8ca798bbed5f2c54caa9736515131",
+        "SEM:ec58b12daf610426eb1b": "0450b6dfc725e549e23e1a1f5b99470c3b5ac63cfd805a22ef9765992b91fd95"
+      },
+      "source_case_ids": {
+        "SEM:79a24376a17ddab92be4": [
+          "CLEAN_COMPONENT:e43355bbef86963f897d"
+        ],
+        "SEM:ec58b12daf610426eb1b": [
+          "CLEAN_COMPONENT:1369fcf04794ac35f6fd"
+        ]
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_filtration_separation_completion/DRAUGHTSMAN_FILTRATION_REPORT.md",
+          "line": 97,
+          "line_end": 109,
+          "quote": "### CKHE — seihen und abtrennen\n\nZwei exakte Schlusskarten teilen den konkreten Kern:\n\n| Karte | Tuple-ID | Ereignisse | Lesung |\n|---|---|---|---|\n| `LCHECKHEDY` | `c1db6b0a28d5cbb5d3d2` | E176 | durch die klare Filterstufe seihen; Schluss |\n| `SHCKHEDY` | `d68bc8de3bcee09db23c` | E165,E330,E331 | durch Tuch seihen; Schluss |\n\nDamit erhält `CKHE` den kurzen Wert **SEIHEN / ABTRENNEN**. Die linke Hülle\nbestimmt die örtliche Ausführung, und die gelernte DY-Endkarte schließt den\nSchritt. In B2-S004 steht LCHECKHEDY nach „zweite Öffnung → hinausführen →\nlänger einwirken“; in B1/B4 ist SHCKHEDY eine selbständige Tuchseihkarte.",
+          "sha256": "15cc55baf8430628aad31c01dec2c34a3fd664f222906ec8239bc6f603f65c49"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_quantity_preparation/PREPARATION_PARADIGM_REPORT.md",
+          "line": 175,
+          "line_end": 185,
+          "quote": "### B4 (f83r)\n\n| Aussage | Oberfläche | konkrete Rücklesung | Status |\n|---|---|---|---|\n| B4-S001 | qokeedy | Eintauchen oder einweichen und den Schritt abschließen | beibehalten |\n| B4-S002 | qolchey · qokeey · qokedy | Gefäß füllen; den laufenden Posten anhaltend in Kontakt halten; kurz spülen oder benetzen und den Schritt abschließen | beibehalten |\n| B4-S003 | chedy · otal · otchey · qokeey · qoky · tol · shedy | Den laufenden Posten umsetzen oder durcharbeiten; danach zur Zielstelle; den nächsten Posten wählen; den laufenden Posten anhaltend in Kontakt halten; den laufenden Posten anwenden oder in Arbeit nehmen; mit Vorigem weiter; kurz oder gewöhnlich ruhen lassen; Schluss | beibehalten |\n| B4-S004 | qokylddy | Den laufenden Posten als Auflage befestigen; Schluss | beibehalten |\n| B4-S005 | dain · chedy · qokeedy | Durch Tuch; den laufenden Posten umsetzen oder durcharbeiten; eintauchen oder einweichen und den Schritt abschließen | beibehalten |\n| B4-S006 | shckhedy | Durch Tuch seihen; Ende | beibehalten |\n| B4-S007 | shckhedy | Durch Tuch seihen; Ende | beibehalten |",
+          "sha256": "77943fcb084ef25d1ee68d45f0cadccfffd966981a43e0eff44428b619de8169"
+        }
+      ],
+      "review_artifact": {
+        "path": "research_registry/decisions/im_root_identity_scope_review.json",
+        "sha256": "f740b494cfd314df088f85c1998092e92dbe20eabbceb41116c5dc9629d1d175"
+      },
+      "new_semantic_evidence": false
+    },
+    {
+      "id": "IDENTITY_IM:IM03:v1",
+      "decision_key": "IDENTITY_IM:IM03",
+      "previous_revision": null,
+      "status": "approved",
+      "relation": "related_not_equivalent",
+      "member_ids": [
+        "SEM:4b6e2860fa81daa06c4d",
+        "SEM:7f99184f3153a1bfa037"
+      ],
+      "reviewer": "root after exact source scope and candidate comparison",
+      "reason": "The R4 L/O quotation expressly conditions the also/with-it rendering on following material in the field. Its other rules handle no-following-material differently. Restate the second extracted assertion to preserve that condition, and relate it to the broader selected V13 family rather than merging a local rendering rule into a general meaning assertion.",
+      "card_basis": {
+        "SEM:4b6e2860fa81daa06c4d": "c4da061c09f55b23ebb550ce8abc8af7dd120b1ed439ab6b32e62dd08bfb19cf",
+        "SEM:7f99184f3153a1bfa037": "f5319df17d87ac46372bcebccd92373e9b4f0a123c12a4139e8077d386d3d52a"
+      },
+      "effective_basis": {
+        "SEM:4b6e2860fa81daa06c4d": "d462784f97a27f3b540a3f7f867d2c0a5671cf61cb5fff21d7ae907bce846e52",
+        "SEM:7f99184f3153a1bfa037": "e3f82f4b3a298914f51580ee1932dec719b1b6bdf37b32f7f379a594983a69e3"
+      },
+      "source_case_ids": {
+        "SEM:4b6e2860fa81daa06c4d": [
+          "ROOT400:d1bbb25bdf2091ced7ce"
+        ],
+        "SEM:7f99184f3153a1bfa037": [
+          "ROOT400:a5183edfa06a14b295cb"
+        ]
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v13/V13_THEORY_SELECTION.md",
+          "line": 98,
+          "line_end": 98,
+          "quote": "## Leading meaning and rivals",
+          "sha256": "1edb5d04ebd31c4e104c9061b900d9cf31789942f8316f48874663e743a8978c",
+          "type": "primary_source"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v13/V13_THEORY_SELECTION.md",
+          "line": 100,
+          "line_end": 100,
+          "quote": "Confidence layers:",
+          "sha256": "1edb5d04ebd31c4e104c9061b900d9cf31789942f8316f48874663e743a8978c",
+          "type": "primary_source"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v13/V13_THEORY_SELECTION.md",
+          "line": 102,
+          "line_end": 104,
+          "quote": "- relation/continuation function: **0.74** working confidence;\n- `WITH / ALSO / LIKEWISE UNDER CURRENT HEADING`: **0.59**;\n- any specific medical relation, material, body part or action: **0.00**.",
+          "sha256": "1edb5d04ebd31c4e104c9061b900d9cf31789942f8316f48874663e743a8978c",
+          "type": "primary_source"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v13/V13_THEORY_SELECTION.md",
+          "line": 106,
+          "line_end": 110,
+          "quote": "The strongest rival is a purely formal binary relation/argument-slot card.\n`AND/ALSO` is a useful fluent expansion but too weak alone: it does not explain\nthe inherited single-card and open-edge cases as well. `OF/FROM`, `IN A\nMEDIUM`, partitive share and ordinary preposition remain context-specific\npossible readings, not the general function.",
+          "sha256": "1edb5d04ebd31c4e104c9061b900d9cf31789942f8316f48874663e743a8978c",
+          "type": "primary_source"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v13/CANDIDATE_V13_R4_CHANCERY_LINK_AUDIT.md",
+          "line": 78,
+          "line_end": 94,
+          "quote": "## The inherited-operand rule\n\nA chancery register routinely suppresses what the current heading, preceding\nentry or layout already supplies. One rule covers every position:\n\n1. Maintain a `current_head_or_relation` for the record.\n2. On L/O, keep that head/relation active and attach the next eligible\n   material to it.\n3. If material follows in the field, the mark reads approximately “also/with\n   it/under the same heading”.\n4. If no material follows before the physical boundary, leave the\n   continuation open and take the first eligible material of the next field or\n   line as its completion.\n5. A new paragraph resets the inheritance unless a separate page convention\n   explicitly reopens it.\n\nThis is executable by an apprentice and does not require deciding whether the",
+          "sha256": "49371ef26c42edc7c819662ddb6398baffdc8c423615fcc9df413c1955898d11"
+        }
+      ],
+      "review_artifact": {
+        "path": "research_registry/decisions/im_root_identity_scope_review.json",
+        "sha256": "f740b494cfd314df088f85c1998092e92dbe20eabbceb41116c5dc9629d1d175"
+      },
+      "new_semantic_evidence": false
+    }
+  ],
+  "resulting_counts": {
+    "cards": 4118,
+    "groups": 4025,
+    "multi_member_groups": 80,
+    "relations": 48
+  },
+  "new_semantic_evidence": false
+}

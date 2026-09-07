@@ -1,0 +1,41 @@
+{
+  "review_id": "IK_PRIMARY_NOVELTY_REVIEW",
+  "status": "PREPARED_ONLY_NO_APPEND",
+  "scope": "Independent comparison of the two IK drafts with the full current GDT753 and GDT763 primary claims; no registry mutation.",
+  "source_validation": [
+    {
+      "report":"experiments/yolo/gdt753_qokeol_okeol_whole_role_census/REPORT.md",
+      "sha256":"c4501622f42d32ab0935d148456688465a564ed99d49f32fc7ee7607c36b5f0f",
+      "spans":[
+        {"line":17,"line_end":21,"quote":"Der q-minus-Basis-Unterschied für Prozess/Stoff+Mittelstufe ist `-0.010526`;\nder Basis-minus-q-Unterschied für Zubereitung ist `0.021053`. Das ist\npraktisch dieselbe Verteilung, nicht die behauptete Gegenüberstellung. Der\ngerichtete Test scheitert. Dasselbe gilt für alle fünf frequenzähnlichen\nq/Basis- und fünf Nicht-q-Kontrollpaare."},
+        {"line":41,"line_end":48,"quote":"Die beiden alten Sätze werden als gesprochene Ganzwortwerte abgezogen. Der\nexplorative Arbeitsdefault lautet nun für beide Formen:\n\n> **Wärme-/Mittelstufenfeld; genaue Funktion und Träger offen.**\n\nDas ist bewusst nicht „bedeutungslos“. Der gemeinsame Wärme-/Stufenansatz\nbleibt als Arbeitshypothese erhalten, weil er die Formfamilie weiterhin knapp\nbeschreibt und hier nicht unmöglich wird. Nicht mehr behauptet werden:"}
+      ],
+      "evidence_check":"PASS"
+    },
+    {
+      "report":"experiments/yolo/gdt763_h1_content_vs_record_discriminator/REPORT.md",
+      "sha256":"a18fe25b661e5a69fd84799a45dad01c50a512a71468f9fc6e35398421534650",
+      "spans":[
+        {"line":5,"line_end":16,"quote":"The best current `pcheey` reading is now narrower and more useful:\n\n> **bound dry-preparation/Form-II record-content field with a following-value\n> affinity; substance identity open**\n\nIt is not merely a generic list marker. Two of its three occurrences form the\nreader-exact sequence `pcheey X daiin`, and all three lead into a recognizable\nworking content, quality, or amount neighborhood. At the same time, the right\nfields are ordinary enough for H1 record ecology that they do not prove a\nnamed ingredient. The local source reading “from/with dry material, Form II”\nsurvives as a concrete C1 rival. The post-moist residue/result reading becomes\nthe weakest rival."},
+        {"line":82,"line_end":95,"quote":"The exact local triple appears at:\n\n- `pcheey qoty daiin` on `f10v.1`;\n- `pcheey dal daiin` on `f105r.24`.\n\nThus `pcheey` has two hits in three occurrences. All other H1 forms together\nhave three hits in 196 occurrences: `pchaiin ofchy daiin`,\n`pcheody oteody daiin`, and `pchedal qopchdy daiin`.\n\nA stricter non-H1 control contains eleven surfaces and 33 occurrences: every\nsurface occurs exactly three times on three pages, always medially and on\nparagraph-start lines, and none is quarantined. Only `chopy` has one matching\ntriple, `chopy chofol daiin`. This does not translate `daiin` as a number or\nunit; it supports a repeated value-field relation."}
+      ],
+      "evidence_check":"PASS"
+    }
+  ],
+  "comparisons": [
+    {
+      "proposal_file":"research_registry/proposals/ik_qokeol_phase_state.json",
+      "assessment":"SAME_BROAD_HISTORICAL_CLAIM_WITH_A_POSSIBLE_METHOD_SPECIALIZATION",
+      "reason":"GDT753 already retains the shared heat/middle-stage hypothesis for both qokeol and okeol and explicitly rejects only the q/base process-versus-preparation split. The IK draft therefore is not a new meaning claim. Its only defensible difference is a predeclared held test of stage invariance across both forms while independently varying action and material context.",
+      "required_correction":"Narrow the proposal language to that cross-context invariance test; do not present stage/state as newly sourced evidence or as distinct from GDT753's retained working hypothesis. The stage, action, and material endpoints remain unbound."
+    },
+    {
+      "proposal_file":"research_registry/proposals/ik_pcheey_complement_selector.json",
+      "assessment":"METHOD_SPECIALIZATION_OF_CURRENT_GDT763_CLAIM_NOT_A_NEW_HISTORICAL_MEANING",
+      "reason":"GDT763 already selects a bound Form-II record-content field with following-value affinity and reports the same 2/3 pcheey X daiin observation. IK changes the operational contrast by naming a selector-versus-substance/result test, but does not add an independent semantic binding.",
+      "countermodel_check":"The substance-noun and result-noun alternatives can both produce a following value field. The current falsifier is valid only if independent substance/result endpoints are frozen; absence of a pcheey-specific complement association alone cannot distinguish these models when constructional attachment is allowed.",
+      "required_correction":"State explicitly that the proposal is a test specialization of GDT763/GDT762, not a novel claim. Require independently bound substance and result endpoints before interpreting any selector result."
+    }
+  ],
+  "decision":"Retain both files as unappended raw candidate history if desired, but do not claim novelty or readiness. No append is recommended during the current intake closure."
+}

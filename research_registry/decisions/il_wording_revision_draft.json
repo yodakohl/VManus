@@ -1,0 +1,92 @@
+{
+  "status": "ROOT_DRAFT_ONE_WORDING_REVISION",
+  "decision": {
+    "actually_tested_falsifier": "GDT815 compares written carrier candidates and a named central motif under fixed property guesses, and demonstrates domain/polarity underdetermination. It uses no numerical semantic decision rule and executes no independent semantic falsifier selecting warm, cold or bitter; the historical examples are comparison context.",
+    "card_basis": {
+      "SEM:7be1e4f37215895ddc58": "3cd3fd7a4efd1b7b62a54ec433921fdffdb4919ba5c3b68a37c5d6fb1dc5db6f"
+    },
+    "claim": "okaiin means warm, as a property rather than cold, bitter, possession or a copula.",
+    "claim_ceiling": "No isolated okaiin meaning has been selected. Q/R in GDT816 also differ at okol, so their comparison is not an isolated lexical intervention.",
+    "decision_key": "FAILURE_F:OKAIIN_THERMAL",
+    "effective_basis": {
+      "SEM:7be1e4f37215895ddc58": "924fad8060087b11a3b7bdf7fdbb8560c4a0be429dbdc968464f26418babee2c"
+    },
+    "evidence": [
+      {
+        "line": 36,
+        "line_end": 40,
+        "path": "experiments/yolo/gdt815_referent_property_discrimination/REPORT.md",
+        "quote": "GDT814's N=powder?, G=is?, Q=warm? and R=possessive dessen? remain fixed, as\ndo the seven GDT813 shared guesses. K=cold? and B=bitter? are explicit additional\ncandidates, not new senses silently assigned to Q. B means literal taste.\nThe same f17r.11 therefore permits a conditional bitter/dry trial as well as\nwarm/dry and cold/dry. This demonstrates underdetermination, not three translations.",
+        "sha256": "699a06fccd9298c304e76c38b7d743a8282d4b6a521e59f4c6ee8008bc852144"
+      },
+      {
+        "line": 62,
+        "line_end": 70,
+        "path": "experiments/yolo/gdt815_referent_property_discrimination/REPORT.md",
+        "quote": "A useful historical counterexample is now explicit: the Archanum complexion\narray makes Cancer cold/moist, whereas the medieval Latin Hugo Quadripartitum\nII.13 describes Cancer as warm in a WEATHER frame. Its Book I also assigns\ndifferent powers to individual Cancer star groups. The latter transcription's\nbase witness is mid13th century, after1246; the former work is dated1295.\nThis is not a modern summer association. Nor is it permission to switch the\nVoynich frame opportunistically at each occurrence. Primary citations and exact\neditorial qualifications: src/ASTRAL_CARRIER.md. Source transcriptions were\nconsulted; their manuscript images were not independently collated this turn.",
+        "sha256": "699a06fccd9298c304e76c38b7d743a8282d4b6a521e59f4c6ee8008bc852144"
+      },
+      {
+        "line": 91,
+        "line_end": 96,
+        "path": "experiments/yolo/gdt816_paragraph_content_models/REPORT.md",
+        "quote": "Aber erwärmtes Wasser beweist nicht humoral warmes Wasser: Magninus\nunterscheidet tatsächliche Erwärmung von natürlicher Kälte. Damit ist der\nphysikalisch angenehme Wasser-warm-Satz kein übertragbarer Vorteil für den\ngemeinsamen humoralmedizinischen Q-Versuch. Eine besondere Zusammensetzung\noder Wasserart ist bislang nicht gelesen und darf nicht eingeschoben werden.\n[Magninus, Kapitel4, pp.168–173 und Editionsmetadaten](https://celt.ucc.ie/published/L600009B.html).",
+        "sha256": "74119c1116d8dfe06133fac4ae4a1a9b91f1beb0af159dfe0e4ab48a5676b214"
+      },
+      {
+        "line": 29,
+        "line_end": 34,
+        "path": "experiments/yolo/gdt815_referent_property_discrimination/METHOD.md",
+        "quote": "No frequency ranking, significance score or automatic semantic promotion.\nExact recurrence does not identify nouns, antecedents, owners or species. A\nhistorical analogy motivates a candidate but does not decode it. Bitter is a\nliteral taste candidate and cannot silently become an astral medicinal effect.\nHistorical carrier and predicate frame remain separate from image recognition.\nAll13 word/model assignments are C0. Software checks are not semantic validation.",
+        "sha256": "81661be7f0b9835cd5ca8afb036e6bbec215da4fb9b47f4b5b350236ed2cea62"
+      }
+    ],
+    "id": "FAILURE_F:OKAIIN_THERMAL:v2",
+    "outcome": "Written chains supply possible carriers but not their meanings. Warm/dry, cold/dry and bitter/dry trials remain possible. Cancer can be cold/moist in one historical frame and warm in a weather frame. GDT816 physical warm-water plausibility cannot validate a humoral warm reading.",
+    "previous_revision": "FAILURE_F:OKAIIN_THERMAL:v1",
+    "reason_class": "missing_meaning_binding",
+    "reopening": {
+      "all_of": [
+        "Establish both the source-owned referent and the predicate domain/frame by independent evidence rather than recognition of a neighboring motif alone.",
+        "Predeclare the same warm sense across target occurrences and discriminate cold/taste/possession alternatives without local sense repairs."
+      ],
+      "assessed_by": "curation_review",
+      "criteria_origin": "Prospective reviewer synthesis from cited limitations; not an original-source preregistration gate.",
+      "interpretation": "Prospective source-grounded review conditions, not a claim that required new evidence currently exists.",
+      "not_sufficient": [
+        "Another matching property slot or historically plausible warm description.",
+        "Recognizing Cancer while its exact written owner remains open.",
+        "Switching between physical temperature, humoral complexion and weather at awkward occurrences."
+      ],
+      "status": "REVIEW_REQUIRED_NOT_AUTHORIZED"
+    },
+    "reviewer": "root after bounded actual-test-field source audit",
+    "scope": "GDT815 fixed N/G/Q/R plus explicit cold and bitter rivals; GDT816 joint Q has an explicitly shared humoral frame.",
+    "scope_applicability": {
+      "assessed_by": "curation_review",
+      "automatic_target_status_propagation": false,
+      "mode": "particular_semantic_binding_only",
+      "statement": "Missing support for a shared warm sense/domain/polarity under GDT815/816. The broader okaiin=warm candidate remains unconfirmed, not rejected.",
+      "targets": [
+        {
+          "current_claim": "okaiin → warm?",
+          "link_purpose": "Locate the proposition; this dossier does not update the entire card or its other evidence.",
+          "source_case_ids": [
+            "REPORT_PROPOSAL:96b9968ba255b1094395"
+          ],
+          "target": "SEM:7be1e4f37215895ddc58"
+        }
+      ]
+    },
+    "source_review": "research_registry/decisions/semantic_failure_batch_f.json",
+    "status": "reviewed_scoped_context",
+    "targets": [
+      "SEM:7be1e4f37215895ddc58"
+    ],
+    "revision": 2,
+    "review_artifact": {
+      "path": "research_registry/decisions/il_root_wording_review.json",
+      "sha256": "3ee1100bb4787edee38115f3e8a4fcae1377c439a71ed04be9e7affc81e32a67"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "raw_proposal_preparation_receipt_v1",
+  "batch": "ik",
+  "status": "PREPARED_NOT_ADDED_INTAKE_CLOSED",
+  "entries": [
+    {
+      "title": "A qokeol/okeol whole marks a transformation stage rather than an action or material",
+      "proposal_file": "research_registry/proposals/ik_qokeol_phase_state.json",
+      "proposal_file_sha256": "d2b881c6a2ba8628754712fa931705767e5ca831ffcbfb1864d001979aca1c35",
+      "design_sha256": "70052754ad538f6ec823889ab23bc1bc919163326be5b901ad84ef11c22befb4",
+      "primary_observation": "GDT753 reports 34 exact qokeol and 41 exact okeol occurrences, near-equal q/base process/preparation distributions, and a failed directed split.",
+      "nearest_relations": ["GDT753", "IDEA000011", "IDEA000036", "IDEA000023"],
+      "binding_status": "availability_unknown",
+      "review_status": "unreviewed"
+    },
+    {
+      "title": "A pcheey whole selects a following value complement rather than naming a substance",
+      "proposal_file": "research_registry/proposals/ik_pcheey_complement_selector.json",
+      "proposal_file_sha256": "1d0646284bfde3ef86efe6211cee1025a0ec0bec7c743a0a9a5d6b3fa3b60b09",
+      "design_sha256": "3e60d32aca3cd4a969b615f1d8892b708cd82528131f9b6edcf3461db9b631c2",
+      "primary_observation": "GDT763 reports pcheey X daiin in 2/3 occurrences, while independently noting that this does not prove a named ingredient.",
+      "nearest_relations": ["GDT763", "GDT762", "GDT764", "GDT769", "GDT775", "IDEA000010"],
+      "binding_status": "availability_unknown",
+      "review_status": "unreviewed"
+    }
+  ],
+  "screened_but_not_retained": [
+    {"candidate":"sal nominal material versus unit","reason":"GDT785 already directly tests the quantity rival and reports zero quantity-pair contacts; a new proposal would duplicate an assessed source route."},
+    {"candidate":"fusion as inner quality-degree constituent versus whole substance clause","reason":"GDT630 already states and directly audits this exact fusion/attachment contrast; no changed falsifier found in the bounded screen."}
+  ],
+  "pre_add_checks": {
+    "source_spans":"Both exact primary spans passed tools.semantic_identity._evidence.",
+    "duplicate_navigation":"ideas duplicates run for both drafts; returned lexical predecessors are recorded as relations, not automatic duplicates.",
+    "route_check":"qokeol phase/state and pcheey complement-selector route checks run before preparation.",
+    "no_ideas_add":true,
+    "no_registry_refresh_review_ledger_build":true
+  },
+  "limitations":"Both are raw/unreviewed and require independent semantic endpoint bindings; source observations motivate contrasts but do not establish meanings or readiness."
+}

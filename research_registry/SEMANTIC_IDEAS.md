@@ -19,12 +19,12 @@ Latest three-hour curation delta: [scoped results](decisions/semantic_3h_complet
 | Reviewed source cases, including the correction archive | 4,640 |
 | Archived source-extraction errors | 45 |
 | Exact normalized assertion repetitions grouped | 477 |
-| Reviewed equivalence groups / display reduction | 79 / 92 |
-| Public semantic display entries | 3,761 |
+| Reviewed equivalence groups / display reduction | 80 / 93 |
+| Public semantic display entries | 3,760 |
 
 These are different units, not a deduplicated total of independent theories.
 A local ignored supplement contributes95 semantic cards and one formal card;
-the ordinary local default therefore displays3,856 semantic entries. A fresh
+the ordinary local default therefore displays3,855 semantic entries. A fresh
 public clone has the public view only. Local source files and quotes are not
 published or silently folded into public counts.
 
@@ -60,8 +60,8 @@ paragraph does not automatically make every subclaim independently addressable;
 an atomic gloss does not cover a complete multi-card model.
 
 Whitespace and backtick typography alone are normalized for exact assertions.
-Explicit equivalence decisions add79 groups without deleting any original ID.
-The identity log also retains nine related-but-distinct links,33 rival links and
+Explicit equivalence decisions add80 groups without deleting any original ID.
+The identity log also retains 11 related-but-distinct links,33 rival links and
 four specializations. Conflicting nonidentity blocks transitive merging; changed
 claim or case bindings require a new review. Shared spelling, shortened wording
 or a matching source title alone proves neither identity nor nonidentity.
@@ -86,8 +86,8 @@ source/case counts belong to that representative; `group_scope_cases` counts all
 member cases. Open `--field equivalents` or `--field relations` for the others.
 No failure, success or execution permission propagates across an identity link.
 
-The append-only correction log currently archives44 erroneous exports and restates215
-source assertions. Every original claim, case and quote remains retrievable,
+The append-only correction log currently retains45 archived source-error cards and220 scope-restatement
+decisions. Every original claim, case and quote remains retrievable,
 including via `--show ID` for archived cards. Numeric columns, alias-column
 misparses, unlicensed constituent exports and metadata are extraction errors;
 actual proposed-and-rejected meanings remain historical hypotheses. Formal tags
@@ -103,7 +103,7 @@ They state the actual compared subclaim, primary evidence, scope and changed-inp
 requirements. The current107 dossiers directly target129 semantic cards. The nine
 priorities directly target27, with23 shared targets;3,719 semantic cards have no
 direct target binding in these two lists. This is a coverage limit, not an
-automatic scientific verdict on those cards (see decisions/ij_assessment_coverage.json; earlier snapshots remain preserved). An editorial wording preference is not an empirical falsifier.
+automatic scientific verdict on those cards (see decisions/im_assessment_coverage.json; earlier snapshots remain preserved). An editorial wording preference is not an empirical falsifier.
 Original conditional predictions remain distinct from observed counterexamples;
 reviewer-supplied reopening conditions are prospective, not old preregistrations.
 Only the latest linked revision acts; all older decisions remain in the log.
