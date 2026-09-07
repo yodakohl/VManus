@@ -3,9 +3,9 @@ Updated: 2026-09-07. Read first.
 
 ## Current mandate and effort limit
 
-3h active:2026-09-07 09:56:46–12:56:46UTC minimum; user may steer.
-HS:70questions;65identitygroups/77reduction; no new manuscript test.
-Session: `research_registry/decisions/semantic_identity_session.md`.
+3h complete:2026-09-07 09:56:46–12:56:46UTC minimum met.
+HT:70questions;65identitygroups/77reduction;35raw/24unreviewed;0newmeaning.
+Report: `research_registry/decisions/semantic_3h_completion.md`.
 
 GDT858:855/963primary808folds retained opposite-face training;169faces/90leaves.
 GDT865 whole-leaf correction retains both primary thresholds: nuisance macroAUC

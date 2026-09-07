@@ -1,8 +1,8 @@
 # Three-hour semantic research continuation — 2026-09-07
 
-Working interval begins 09:56:46UTC; the minimum finishes 12:56:46UTC.
-This report is prepared during the interval; the final completion timestamp is
-recorded in `ht_three_hour_time_receipt.json` only after that minimum.
+Session interval: 2026-09-07 09:56:46UTC through 12:56:58UTC.
+The requested three-hour minimum is complete. Exact elapsed time and the
+final report hash are recorded in `ht_three_hour_time_receipt.json`.
 
 The material result is a more reliable semantic research memory. No new
 manuscript experiment, independent meaning binding, word or clause was obtained.
