@@ -1,0 +1,52 @@
+{
+  "reviewer": "luna_three_hour_discriminators",
+  "status": "CORRECTED_SCOPE__FORMAL_SLOT_SUPPORTED_SEMANTIC_AXIS_UNIDENTIFIED",
+  "target": "SEM:171d465e63f36e9a4049",
+  "correction": "The prior hu_scalar_strokes_peer.json overstated GDT627/686 as semantic constraints. Their degree/amount readings are inherited working defaults, not independent discrimination of scalar semantics from vowel spelling, inflection, lexicalized use, or an operator. GDT626's formal finite inventory is real, but its semantic assignment remains exploratory.",
+  "exact_distinction": "GDT626 mechanically records a finite visible-minim slot and tests same-head co-occurrence; that establishes a reproducible formal pattern. It does not establish cardinal, ordinal, magnitude, duration, or any numeric scale. The method explicitly retains surface-specific learned linking and says the value on part heads is unresolved. The old iteration's change to d+III is a segmentation/reader change, not an observation that III is a numeric value.",
+  "GDT686_limit": "GDT686's 'reject universal axis' result is a policy against assigning one global gloss: it dispatches working defaults by visible head and leaves untyped contexts open. It does not empirically refute a syncretic, lexicalized, inflectional, or operator use that can generate the same context distribution. Its context census therefore narrows where a default may be used without identifying the underlying semantic scale.",
+  "decision": "No retained test identifies cardinal versus ordinal scale versus nonnumeric labels. Preserve the original scalar card as an unconfirmed hypothesis, preserve the inflection/abbreviation and learned-linking rivals, and do not call the later working defaults independent evidence.",
+  "reopen_condition": "A new test would need a predeclared held contrast in which scalar magnitude/cardinality, ordinal labels, and nonnumeric surface/inflection models make different predictions, plus an independently bound endpoint. More minim counts, same-head paradigms, or relabeled local defaults do not meet that condition.",
+  "evidence": [
+    {
+      "path": "experiments/yolo/gdt626_mobile_operation_lexicon/METHOD.md",
+      "line": 29,
+      "line_end": 45,
+      "quote": "Every surface matching `^(.*a)(i*)n$` is split at the final `a`. The number of\nvisible `i` minims before terminal `n` is recorded without semantic\nnormalization. The safe corpus itself limits this slot to zero through three\ninternal minims; a fourth internal `i` never occurs. The practical value reader\nis therefore:\n\n| written tail | historical final-j analogue | working value |\n|---|---|---:|\n| `-an` | `j` | I |\n| `-ain` | `ij` | II |\n| `-aiin` | `iij` | III |\n| `-aiiin` | `iiij` | IV |\n\nFor each head the builder records all four cells, cross-reading-stable token\ncapacity, page and section distribution, and same-line co-occurrence of two or\nmore cells. It separately records section, hand, and line-edge profiles so the\nstrong inflectional or scribal-grade rival remains visible.",
+      "sha256": "72ae9739533e02ad8f9da55c9ea0e2c12ef48d7e9ab4ce15b95e6cf6ad31bede",
+      "type": "formal_slot_contract_and_rival"
+    },
+    {
+      "path": "experiments/yolo/gdt626_mobile_operation_lexicon/METHOD.md",
+      "line": 55,
+      "line_end": 62,
+      "quote": "Plant-part compounds match a known `cth`, `chor`, `shor`, `dair`, or `sair`\nhead followed by the same value tail. A quality head receives the concrete\ndefault `degree I-IV`. A part head receives only `amount/dose/degree/class\nI-IV`: no absolute unit and no literal number of pictured organs is invented.\n\nThe full `dan/dain/daiin/daiiin` family is retained occurrence by occurrence.\nThis resegments `daiin` as `d+III`; it does not identify the `d` head or exclude\nan additional learned surface-specific linking use.",
+      "sha256": "72ae9739533e02ad8f9da55c9ea0e2c12ef48d7e9ab4ce15b95e6cf6ad31bede",
+      "type": "working_default_not_semantic_identification"
+    },
+    {
+      "path": "experiments/yolo/gdt626_mobile_operation_lexicon/METHOD.md",
+      "line": 78,
+      "line_end": 83,
+      "quote": "GDT626 promotes a reproducible four-cell minim slot and an exploratory\nI/II/III/IV reader. It promotes degree readings only on the inherited quality\nheads and an unresolved value reading on part heads. It does not prove that\nEVA `n` is Latin `j`, that every value is numerical, that `a` is a unit, that\nthe inherited quality orientation is correct, or that any complete sentence\nhas been translated.",
+      "sha256": "72ae9739533e02ad8f9da55c9ea0e2c12ef48d7e9ab4ce15b95e6cf6ad31bede",
+      "type": "claim_ceiling"
+    },
+    {
+      "path": "experiments/yolo/gdt686_v59_dain_daiin_qodaiin_value_head_dispatch/METHOD.md",
+      "line": 26,
+      "line_end": 40,
+      "quote": "1. Select every exact `dain`, `daiin` and `qodaiin` row from the GDT626\n   occurrence ledger and retain its page, locus, ordinal, neighbours, register\n   and reader stability.\n2. Preserve the mechanical parses `d+a+II`, `d+a+III` and `qod+a+III`.\n   Compare them with the complete `da` and `qoda` value families rather than\n   treating the three surfaces as learned atomic words.\n3. Join each bare-d target position by exact locus and ordinal to four mutually\n   exclusive context classes, in priority order: core-bearing OL quality head,\n   visible OR/part/material head, naked OL carrier, or outer head open.\n4. Remove overlaps before counting. This yields 75 quality-grade positions,\n   53 material/part amount positions, eleven naked-OL open-axis positions and\n   775 d-values whose outer head is not immediately typed.\n5. Audit all 41 `qodaiin` occurrences separately. Keep neighbour glosses and\n   reader boundaries visible. Record the same-span rivals `qod | aiin` on\n   f86v3.25 and `qo | daiin` on f95r2.1; neither split exports a global gloss.",
+      "sha256": "58124edbea0aba22cb54d5fdc8bf8747c2abab1d56ae28d582214c857d525ab5",
+      "type": "context_dispatch_method"
+    },
+    {
+      "path": "experiments/yolo/gdt686_v59_dain_daiin_qodaiin_value_head_dispatch/REPORT.md",
+      "line": 7,
+      "line_end": 27,
+      "quote": "Die alte Karte `Grad-/Maßwert` war keine Übersetzung, sondern zwei\nunentschiedene Möglichkeiten in einem Feld. V59 trennt jetzt Form und Achse:\n\n```text\ndain     = d + Wertstufe II\ndaiin    = d + Wertstufe III\nqodaiin  = qod + Wertstufe III\n```\n\nDanach entscheidet der sichtbare Satzkopf:\n\n```text\nQualitätskopf + d-Wert   -> Qualität im Grad II/III\nStoff-/Teilkopf + d-Wert -> zwei/drei lokale Portionen oder Maße\nkein typisierter Kopf    -> Wertstufe bleibt stabil, Sachachse lokal offen\n```\n\nFür den globalen Renderer gibt es deshalb kein universelles `Grad III` und\nkein universelles `drei Portionen`. Für die elf Stellen unseres aktuellen\nReaders wählt V59 dagegen bewusst je einen konkreten lokalen Default: vier\nGrade und sieben Mengen.",
+      "sha256": "67bafd8836bb5fbce962d8d89be495aaae61a075179cd7586dd28918210a0c03",
+      "type": "local_default_and_universal_policy"
+    }
+  ]
+}

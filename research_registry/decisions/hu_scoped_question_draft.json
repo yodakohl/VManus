@@ -1,0 +1,279 @@
+{
+  "status": "ROOT_DRAFT_FOR_FINAL_SCOPE_REVIEW",
+  "decisions": [
+    {
+      "id": "FAILURE_HU:REPEATED_STROKES_SCALAR_VERSUS_ORTHOGRAPHY:v1",
+      "decision_key": "FAILURE_HU:REPEATED_STROKES_SCALAR_VERSUS_ORTHOGRAPHY",
+      "revision": 1,
+      "previous_revision": null,
+      "status": "reviewed_scoped_context",
+      "review_status": "reviewed_scoped_context",
+      "reviewer": "root after primary source and independent scope challenge",
+      "targets": [
+        "SEM:171d465e63f36e9a4049"
+      ],
+      "card_basis": {
+        "SEM:171d465e63f36e9a4049": "d420c575b06c46894e61567ae87e6e11361d65e0a056c93d8ef7d49b0af9f107"
+      },
+      "effective_basis": {
+        "SEM:171d465e63f36e9a4049": "9648ee4b242ecf18e507d6b209ed8b61b51cfb87de9dd4526c15aacc70f1d728"
+      },
+      "source_case_ids": {
+        "SEM:171d465e63f36e9a4049": [
+          "CLEAN_HYP:2a73a6481feec628c952"
+        ]
+      },
+      "original_assertion": {
+        "SEM:171d465e63f36e9a4049": "Repeated e/i-like strokes grade a technical scalar such as amount, duration or degree rather than spelling vowels; no absolute number is assigned."
+      },
+      "claim": "Do the source near-pairs and later minim census identify repeated e/i-like strokes as scalar payload rather than vowel/inflection/abbreviation?",
+      "scope": "Iteration12source proposal covers repeated e and i in different constructions. GDT626specifically parses terminal a+i*n; its result cannot be silently exported to all e-runs.",
+      "reason_class": "formal_source_pattern_not_semantic_identification",
+      "actually_tested_falsifier": "Iteration12lists qokedy/qokeedy/qokeeedy, qokain/qokaiin/qokaiiin and oteedy/oteeedy as speculative scalar motivation.626documents a bounded terminal minim inventory, same-head co-occurrence and section/hand/line-position effects.686partitions inherited contexts and chooses local rendering defaults.",
+      "outcome": "Formal recurrence is retained. Scalar, cardinal, ordinal, duration and phonetic values are not identified by this census. GDT626keeps inflection/abbreviation and a surface-specific learned linker; a paradigm alone does not refute an inflected operator or syncretism.686universal-axis rejection is a renderer-policy decision under chosen head labels, not empirical rejection of every global semantic account. No generic count rerun or numerical translation is licensed.",
+      "claim_ceiling": "Source/contract audit only, no new manuscript observation or meaning; original sourcecases preserved.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "line": 1229,
+          "line_end": 1258,
+          "quote": "## Iteration 12 — repeated strokes as scalar payload\n\nThe common near-pairs are easier to understand if repeated `e/i`-like units are\ntechnical tallies or grades rather than vowels:\n\n```text\nqokedy   / qokeedy   / qokeeedy\nqokain   / qokaiin   / qokaiiin\noteedy   / oteeedy\n```\n\nThese forms coexist in similar lines and sometimes in the same record. A\nworkshop can use repeated strokes to mark relative amount, duration, degree,\niteration, or a small ordinal while retaining the same surrounding operation.\n\nProvisional mechanism:\n\n```text\nE^n in an OK/OKE construction\n    = process/state grade or duration n\n\nI^n in an AIN/AIIN construction\n    = amount/index grade n\n\nY\n    = value terminator or compact state ending in some constructions\n```\n\nNo absolute number is assigned. Only the relative principle “more repeated\nunits may represent a different grade” is being invented.",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+        },
+        {
+          "path": "experiments/yolo/gdt626_mobile_operation_lexicon/METHOD.md",
+          "line": 29,
+          "line_end": 45,
+          "quote": "Every surface matching `^(.*a)(i*)n$` is split at the final `a`. The number of\nvisible `i` minims before terminal `n` is recorded without semantic\nnormalization. The safe corpus itself limits this slot to zero through three\ninternal minims; a fourth internal `i` never occurs. The practical value reader\nis therefore:\n\n| written tail | historical final-j analogue | working value |\n|---|---|---:|\n| `-an` | `j` | I |\n| `-ain` | `ij` | II |\n| `-aiin` | `iij` | III |\n| `-aiiin` | `iiij` | IV |\n\nFor each head the builder records all four cells, cross-reading-stable token\ncapacity, page and section distribution, and same-line co-occurrence of two or\nmore cells. It separately records section, hand, and line-edge profiles so the\nstrong inflectional or scribal-grade rival remains visible.",
+          "sha256": "72ae9739533e02ad8f9da55c9ea0e2c12ef48d7e9ab4ce15b95e6cf6ad31bede"
+        },
+        {
+          "path": "experiments/yolo/gdt626_mobile_operation_lexicon/METHOD.md",
+          "line": 55,
+          "line_end": 62,
+          "quote": "Plant-part compounds match a known `cth`, `chor`, `shor`, `dair`, or `sair`\nhead followed by the same value tail. A quality head receives the concrete\ndefault `degree I-IV`. A part head receives only `amount/dose/degree/class\nI-IV`: no absolute unit and no literal number of pictured organs is invented.\n\nThe full `dan/dain/daiin/daiiin` family is retained occurrence by occurrence.\nThis resegments `daiin` as `d+III`; it does not identify the `d` head or exclude\nan additional learned surface-specific linking use.",
+          "sha256": "72ae9739533e02ad8f9da55c9ea0e2c12ef48d7e9ab4ce15b95e6cf6ad31bede"
+        },
+        {
+          "path": "experiments/yolo/gdt626_mobile_operation_lexicon/REPORT.md",
+          "line": 48,
+          "line_end": 60,
+          "quote": "The comparison is unusually close, but still analogical. EVA deliberately\nexposes visible minim strings that earlier transcription alphabets sometimes\ntreated as the single units N and M. Nothing in EVA itself supplies a number.\n\nThe strongest countermodel is therefore not random spelling but a four-grade\ninflectional or abbreviation slot. Its distributions really are conditioned:\nvalue III among II+III is 0.821 in Herbal but 0.455 in Biological material,\nand 0.840 for Hand 1 versus 0.608 for Hand 2. Value I is also line-final in\n38/102 cases, compared with 368/3,404 value-III cases. GDT626 keeps that rival\nalive. Yet conditioning does not contradict a numerical code: medieval\nquantities and degrees also vary by content and scribe. The new reader is a\nworking default because it predicts concrete compounds that the pure\ninflection account does not yet interpret.",
+          "sha256": "e1f8c803562e1d1b2ea74b0df0f7ce61ee8d11e0bc73c22c3268641d1458cc3d"
+        },
+        {
+          "path": "experiments/yolo/gdt686_v59_dain_daiin_qodaiin_value_head_dispatch/METHOD.md",
+          "line": 26,
+          "line_end": 46,
+          "quote": "1. Select every exact `dain`, `daiin` and `qodaiin` row from the GDT626\n   occurrence ledger and retain its page, locus, ordinal, neighbours, register\n   and reader stability.\n2. Preserve the mechanical parses `d+a+II`, `d+a+III` and `qod+a+III`.\n   Compare them with the complete `da` and `qoda` value families rather than\n   treating the three surfaces as learned atomic words.\n3. Join each bare-d target position by exact locus and ordinal to four mutually\n   exclusive context classes, in priority order: core-bearing OL quality head,\n   visible OR/part/material head, naked OL carrier, or outer head open.\n4. Remove overlaps before counting. This yields 75 quality-grade positions,\n   53 material/part amount positions, eleven naked-OL open-axis positions and\n   775 d-values whose outer head is not immediately typed.\n5. Audit all 41 `qodaiin` occurrences separately. Keep neighbour glosses and\n   reader boundaries visible. Record the same-span rivals `qod | aiin` on\n   f86v3.25 and `qo | daiin` on f95r2.1; neither split exports a global gloss.\n6. Explode V58's 51 lines into exact token positions and locate its three\n   `dain`, seven `daiin` and one `qodaiin` targets.\n7. Give every current target one keyed working choice. A visible quality\n   state selects grade; a visible material, fraction or measure head selects\n   local amount. Direction and head are stored separately from the German\n   rendering.",
+          "sha256": "58124edbea0aba22cb54d5fdc8bf8747c2abab1d56ae28d582214c857d525ab5"
+        }
+      ],
+      "review_artifact": {
+        "path": "research_registry/decisions/hu_root_scope_review.json",
+        "sha256": "4536fd4d384db41d59277bf6bd7e4d706758e9ae98e131aac42a9d06593ebd68"
+      },
+      "reopening": {
+        "status": "REVIEW_REQUIRED_NOT_TEST_READY",
+        "assessed_by": "curation_review",
+        "criteria_origin": "Original limits plus root applicability distinctions, not new preregistration.",
+        "all_of": [
+          "Specify a concrete e- or i-construction and competing scalar/orthographic models whose independently scoreable predictions differ; do not equate their unit scopes.",
+          "Provide independent scale/value or discourse-role binding and adequate held support before a semantic contrast; mere recurrence and inherited heads are insufficient."
+        ],
+        "not_sufficient": [
+          "More occurrences or repeated alternate readings counted as independent manuscripts.",
+          "Chosen labels or fluent defaults reused as semantic evidence.",
+          "Another model failure transferred without unit correspondence."
+        ]
+      },
+      "automatic_card_status_propagation": false,
+      "empirical_meaning_refutation": false
+    },
+    {
+      "id": "FAILURE_HU:DAIIN_N2_ASSIGNMENT_AND_COUNTING_OFFSET:v1",
+      "decision_key": "FAILURE_HU:DAIIN_N2_ASSIGNMENT_AND_COUNTING_OFFSET",
+      "revision": 1,
+      "previous_revision": null,
+      "status": "reviewed_scoped_context",
+      "review_status": "reviewed_scoped_context",
+      "reviewer": "root after primary source and independent scope challenge",
+      "targets": [
+        "SEM:f4498b6a86d2ff0ec9bd"
+      ],
+      "card_basis": {
+        "SEM:f4498b6a86d2ff0ec9bd": "e34d97dd6431571a86da863403e989b21bc5c75a1caa80f2075b1d4fb1bfedf3"
+      },
+      "effective_basis": {
+        "SEM:f4498b6a86d2ff0ec9bd": "87668bc46efd9e145d08ba184ff781c5c188dc02c7083144ad32d660d9889878"
+      },
+      "source_case_ids": {
+        "SEM:f4498b6a86d2ff0ec9bd": [
+          "CLEAN_HYP:5acd40f43db860e5abd9"
+        ]
+      },
+      "original_assertion": {
+        "SEM:f4498b6a86d2ff0ec9bd": "Daiin assigns a value to the anonymous N2 channel; N2 is a transcription label, not the number two."
+      },
+      "claim": "Does the early SET VALUE N2 interpretation identify an assignment operation or numerical value in daiin?",
+      "scope": "Iteration19N-type grade2 parameter proposal and its Iteration35AIIN/D-AIIN pairing; later626IIIreader is a distinct segmentation convention. N is a channel label, and2indexes visible repetition in that invented model, not a proved quantity2.",
+      "reason_class": "formal_source_pattern_not_semantic_identification",
+      "actually_tested_falsifier": "The early source uses all-reading f10r.7daiin plus dain/dair as a typed-parameter example and19AIIN/23DAIIN selected occurrences as a small positional contrast. It expressly calls the entry/set interpretation invented and not an independent test.626parse_minim returns internal_i_count+1 by historical final-j analogy.",
+      "outcome": "N2versusIIIis not evidence that a manuscript numeral changed value: the two readers count differently. Neither identifies assignment, amount, grade, index or theN/Rchannels independently. Line-entry skew cannot turn D into an imperative; the old source limits it to a paired construction, not a universalD+hostrule. Keep this exact historical proposition separate from later amount/degree defaults, with no automatic failure or equivalence transfer.",
+      "claim_ceiling": "Source/contract audit only, no new manuscript observation or meaning; original sourcecases preserved.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "line": 1739,
+          "line_end": 1779,
+          "quote": "## Iteration 19 — AIIN is a parameter, not necessarily a dose\n\nAcross the selected pages, standalone `aiin` is mostly field-internal and\nappears after several different constructions. `daiin` can occur at line entry\nor internally. This weakens the concrete noun “portion” and strengthens the\nabstract reading **registered value/parameter**.\n\nThe decisive workshop clue is f10r.7. All three readings preserve the adjacent\npair:\n\n```text\ndain | dair\n```\n\nThey also preserve an earlier `daiin` in the same line. The line therefore\ncontains:\n\n```text\nD + A + II + N\nD + A + I  + N\nD + A + I  + R\n```\n\nThis looks like a tiny typed parameter table:\n\n```text\nD           assign/bind/set\nA           value introducer\nI-count     relative grade\nN/R         value type or channel\n```\n\n### Revised AIIN family\n\n```text\nAIIN  N-type registered value at grade 2\nAIN   N-type registered value at grade 1\nAIR   R-type registered value at grade 1\nDAIIN set/bind N-type grade 2\nDAIN  set/bind N-type grade 1\nDAIR  set/bind R-type grade 1",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+        },
+        {
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "line": 1800,
+          "line_end": 1812,
+          "quote": "### Updated value model\n\n```text\nN-channel  scalar quantity/index/setting\nR-channel  paired route/quality/category setting\nL-channel  another categorical endpoint/state\nE-channel  process intensity/duration grade\n```\n\nThe channel names are anonymous transcription labels, not sounds or initials.\n\nThe best concrete gloss for `daiin` is now **SET VALUE N2**, with “take a\nportion” retained only as a context-specific Herbal paraphrase.",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+        },
+        {
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "line": 3154,
+          "line_end": 3196,
+          "quote": "## Iteration 35 — the first teachable contrast: `AIIN` versus `D-AIIN`\n\nThe narrowest useful master-card contrast is the exact pair:\n\n```text\nAIIN      19 occurrences; 0 line-initial, 3 line-final\nDAIIN     23 occurrences; 4 line-initial, 1 line-final\n```\n\nBoth occur in all three selected hands. `AIIN` repeatedly follows short forms\nsuch as `s`, `or`, `ar` and `sar`; `DAIIN` can itself open a line and often\nprecedes another constructional cell. The contrast is not absolute, but it is\nsimple enough to teach:\n\n```text\nAIIN       bare parameter/reference cell\nD-AIIN     entered, activated or instruction-ready form of that cell\n```\n\nIn the invented practical reading, the least committal paraphrase is:\n\n```text\nAIIN       “the registered item/value”\nDAIIN      “enter/take/set the registered item/value”\n```\n\n“Value” may mean quantity, grade, duration, catalogue index or something else;\nthe sidequest does not choose among them. The important hypothesis is\nconstructional rather than lexical: `D` licenses the same familiar cell in a\nmore active or entry-like slot.\n\nThis would be easy for an apprentice because it is learned as one paired card,\nnot as a universal rule over every possible host. Other `D+X` forms can arise\nby analogy, but they need not all have the same interpretation. The adjacent\n`daiin aiin` on f67r2.43 and `aiin daiin` on f55v.12 also warn that the two\nforms are not freely interchangeable spellings.\n\nThis remains an invented workshop convention. The positional skew is small,\nthe six-page selection is not an independent test, and GDT003 already prevents\npromotion of a productive linguistic morphology from such formal pairs.\n\n## Iteration 36 — `DY` closes a local unit, not necessarily an utterance\n",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+        },
+        {
+          "path": "experiments/yolo/gdt626_mobile_operation_lexicon/src/run.py",
+          "line": 133,
+          "line_end": 137,
+          "quote": "def parse_minim(surface: str) -> tuple[str, int] | None:\n    match = MINIM_RE.fullmatch(surface)\n    if match is None:\n        return None\n    return match.group(\"head\"), len(match.group(\"minims\")) + 1",
+          "sha256": "5ace842f4f0e1aedaabf492b143a24bda9c00a3d5070dc5251fbf06247630986"
+        },
+        {
+          "path": "experiments/yolo/gdt626_mobile_operation_lexicon/METHOD.md",
+          "line": 29,
+          "line_end": 45,
+          "quote": "Every surface matching `^(.*a)(i*)n$` is split at the final `a`. The number of\nvisible `i` minims before terminal `n` is recorded without semantic\nnormalization. The safe corpus itself limits this slot to zero through three\ninternal minims; a fourth internal `i` never occurs. The practical value reader\nis therefore:\n\n| written tail | historical final-j analogue | working value |\n|---|---|---:|\n| `-an` | `j` | I |\n| `-ain` | `ij` | II |\n| `-aiin` | `iij` | III |\n| `-aiiin` | `iiij` | IV |\n\nFor each head the builder records all four cells, cross-reading-stable token\ncapacity, page and section distribution, and same-line co-occurrence of two or\nmore cells. It separately records section, hand, and line-edge profiles so the\nstrong inflectional or scribal-grade rival remains visible.",
+          "sha256": "72ae9739533e02ad8f9da55c9ea0e2c12ef48d7e9ab4ce15b95e6cf6ad31bede"
+        }
+      ],
+      "review_artifact": {
+        "path": "research_registry/decisions/hu_root_scope_review.json",
+        "sha256": "4536fd4d384db41d59277bf6bd7e4d706758e9ae98e131aac42a9d06593ebd68"
+      },
+      "reopening": {
+        "status": "REVIEW_REQUIRED_NOT_TEST_READY",
+        "assessed_by": "curation_review",
+        "criteria_origin": "Original limits plus root applicability distinctions, not new preregistration.",
+        "all_of": [
+          "Fix whether the tested claim is an assignment operator, typed channel, cardinal value or ordinal value and which segmentation it presupposes.",
+          "Find a source-bound contrast between the paired AIIN/DAIIN functions or independently known values; offset labels, positional skew or a more fluent rendering do not supply this."
+        ],
+        "not_sufficient": [
+          "More occurrences or repeated alternate readings counted as independent manuscripts.",
+          "Chosen labels or fluent defaults reused as semantic evidence.",
+          "Another model failure transferred without unit correspondence."
+        ]
+      },
+      "automatic_card_status_propagation": false,
+      "empirical_meaning_refutation": false
+    },
+    {
+      "id": "FAILURE_HU:FOUR_LOCAL_CHANNEL_SEMANTIC_COMPRESSION:v1",
+      "decision_key": "FAILURE_HU:FOUR_LOCAL_CHANNEL_SEMANTIC_COMPRESSION",
+      "revision": 1,
+      "previous_revision": null,
+      "status": "reviewed_scoped_context",
+      "review_status": "reviewed_scoped_context",
+      "reviewer": "root after primary source and independent scope challenge",
+      "targets": [
+        "SEM:09282822581c898e6cbf"
+      ],
+      "card_basis": {
+        "SEM:09282822581c898e6cbf": "ad1df20a41faa61dc58bc13a5c34d97a4a74a57a079d59c0e105761ddbe52ae7"
+      },
+      "effective_basis": {
+        "SEM:09282822581c898e6cbf": "a9d4df5fbe48398189c8c4389e99135ea5ca7bcd50952edd0d77732a60712dbc"
+      },
+      "source_case_ids": {
+        "SEM:09282822581c898e6cbf": [
+          "CLEAN_GAP_CB:four_local_channels"
+        ]
+      },
+      "original_assertion": {
+        "SEM:09282822581c898e6cbf": "Pass1016 reduces nineteen local signs to four semantic channels: LOCAL_PLACE=HIER selects a designated place; LOCAL_INDEX=VARIANTE selects a marked execution; LOCAL_CLASS=KLASSE supplies a local material/additive class; LOCAL_REFERENCE=VORBEZUG resumes local reference. G/I/B/J/Z are variant selectors rather than automatic number, direction or action meanings."
+      },
+      "claim": "Does Pass1016compression establish four local semantic channels rather than an authored classification of19signs?",
+      "scope": "Four declared channels PLACE/INDEX/CLASS/REFERENCE and their local subtypes; preserve source-specific ownership and reserved signs rather than generalizing letters into portable words.",
+      "reason_class": "formal_source_pattern_not_semantic_identification",
+      "actually_tested_falsifier": "The builder assigns19signIDs tofour fixedCHANNELS. Retained summary records527mentions in490events/210statements, with473PLACE,24INDEX,23CLASS,7REFERENCE; three signs dormant. The validator checks assignments, counts, source/translation preservation and deterministic rebuild. The report givesHO16/16event-initial andAN7/7event-final;1020still leaves concrete local referents and values open.",
+      "outcome": "This validates a source-authored compression/reader contract, notfour independently decoded meanings or the minimal possible vocabulary. Positional differences can fit delimiters or subtype conventions; preserving oldtranslations is not newsemantic validation. G/I/B/J/Znot-automatic-number is a caution against exporting glosses, not proof that no occurrence could have a numerical meaning. ReservedZ_ADDRandLOCAL_CHAR_Zare distinct IDs without running examples here. No newpage or parser test is warranted by renaming the categories.",
+      "claim_ceiling": "Source/contract audit only, no new manuscript observation or meaning; original sourcecases preserved.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_local_channel_compression_one_thousand_sixteenth/PASS1016_REPORT.md",
+          "line": 5,
+          "line_end": 21,
+          "quote": "Die 19 lokalen Zeichen sind keine 19 zusätzlichen Wörter. Für einen Werkstattschreiber genügen vier kurze Bedeutungen:\n\n1. **LOCAL_PLACE = HIER** — wähle die lokal bezeichnete Stelle;\n2. **LOCAL_INDEX = VARIANTE** — nimm die lokal markierte Ausführung;\n3. **LOCAL_CLASS = KLASSE** — übernimm die lokale Stoff-/Zusatzklasse;\n4. **LOCAL_REFERENCE = VORBEZUG** — nimm den vorausgesetzten lokalen Bezug wieder auf.\n\nDie 46 sichtbaren Zeichenformen bleiben unverändert. Semantisch muss der Lehrling aber nur noch **19 portable Kerne + 8 Kontrollen + 4 lokale Kanäle = 31 Kategorien** lernen.\n\n## Warum diese Kürzung funktioniert\n\n- **LOCAL_PLACE** trägt 473 von insgesamt 527 lokalen Zeichenbeiträgen. Das ist der eigentliche lokale Mechanismus.\n- `D_ADDR` ist der flexible Standardselektor; `AM_ADDR` steht 50/59-mal am Ereignisende, `S_ADDR` 12/13-mal. Das sind Positionsvarianten desselben HIER-Kanals, keine eigenen Ortswörter.\n- **LOCAL_INDEX** sammelt die seltenen G/I/B/J/Z-Kennungen. Sie wählen eine Variante, ohne automatisch *eins, zwei, unten, prüfen* oder *verbinden* zu bedeuten.\n- **LOCAL_CLASS** hat eine klare Schreibsyntax: `HO` steht 16/16-mal am Beginn seines Ereignisses, `AN` 7/7-mal am Ende. Beide markieren KLASSE, aber an entgegengesetzten Rändern.\n- **LOCAL_REFERENCE** ist der kleine Vorbezugsrest: `OS` setzt den lokalen Bezug, die einmalige Wiederaufnahmekarte greift ihn wieder auf.\n- Drei Formen (`S_LABEL`, `Z_ADDR`, `LOCAL_CHAR_Z`) sind im laufenden Text nicht aktiv. Sie bleiben reservierte lokale Exemplarzeichen, nicht drei Wörter ohne Beleg.",
+          "sha256": "76ff3a04880c2b3a78e7ec32adfc3a9bc5fab7e0ae20d9d6283567f808146382"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_local_channel_compression_one_thousand_sixteenth/PASS1016_REPORT.md",
+          "line": 25,
+          "line_end": 43,
+          "quote": "Ein unbekannter seltener Buchstabenteil bekommt nicht sofort einen Stoff- oder Tätigkeitsnamen. Der Schreiber fragt zuerst:\n\n> **Wählt er einen Platz, eine Variante, eine Klasse oder einen Vorbezug?**\n\nErst das Bild oder die Tabelle füllt den lokalen Wert: Wurzelteil, Beckenrand, Sternposition, Gefäßgruppe, Paarvariante und so weiter. Das konkrete Substantiv gehört dem Besitzer, nicht dem Zeichen.\n\n## Kompositionsvorhersagen\n\n- Ein neuer D/A/AM/S/F/M/Z-artiger Einschub wird als **HIER** gelesen.\n- Ein neuer G/I/B/J/Z-Mikrocharakter wird als **VARIANTE** gelesen.\n- Eine HO-artige Vorsilbe oder AN-artige Endung wird als **KLASSE** gelesen.\n- Eine alleinstehende OS-/Wiederaufnahmeform wird als **VORBEZUG** gelesen.\n- Erst wenn eine Form diese vier Rollen wiederholt verletzt, darf ein neues lokales Wort erwogen werden.\n\n## Wirkung auf die Gesamtausgabe\n\nAlle **627 Aussagen / 3.888 Gruppen** bleiben bytegleich in Oberfläche, Reihenfolge, Besitzer, Handlung, Grad und Ende. **210 Aussagen** enthalten mindestens einen lokalen Kanal. Ihre Pass-1015-Lesung bleibt erhalten; die neue Ausgabe ersetzt lediglich die Liste scheinbarer lokaler Wörter durch die vier Kanäle.\n\nDamit ist der nächste Engpass kleiner: Nicht 46 Bedeutungen müssen auf weiteren Seiten halten, sondern 31 Kategorien. Die 15 übrigen Unterschiede sind grafische Auswahlvarianten innerhalb der vier lokalen Kanäle.",
+          "sha256": "76ff3a04880c2b3a78e7ec32adfc3a9bc5fab7e0ae20d9d6283567f808146382"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_local_channel_compression_one_thousand_sixteenth/build_pass1016.py",
+          "line": 22,
+          "line_end": 45,
+          "quote": "CHANNELS = {\n    \"LOCAL_PLACE\": {\n        \"value\": \"HIER\",\n        \"signs\": [\"D_ADDR\", \"AM_ADDR\", \"A_ADDR\", \"S_ADDR\", \"LOCAL_CHAR_F\", \"D_LABEL\", \"S_LABEL\", \"M_LOCAL\", \"Z_ADDR\"],\n        \"rule\": \"Wähle die lokal bezeichnete Bild-, Tabellen-, Teil-, Innen-, Rand- oder Nebenposition.\",\n        \"forbidden\": \"kein portables Teil-, innen-, außen-, Mitte- oder Ortswort\",\n    },\n    \"LOCAL_INDEX\": {\n        \"value\": \"VARIANTE\",\n        \"signs\": [\"G_LABEL\", \"LOCAL_CHAR_G\", \"LOCAL_CHAR_I\", \"LOCAL_CHAR_B\", \"LOCAL_CHAR_J\", \"LOCAL_CHAR_Z\"],\n        \"rule\": \"Nimm die lokal markierte Variante, Stufe, Paarung oder Verbindung aus dem Exemplar.\",\n        \"forbidden\": \"keine universelle Zahl, Farbe, Prüfhandlung oder Verbindungsrichtung\",\n    },\n    \"LOCAL_CLASS\": {\n        \"value\": \"KLASSE\",\n        \"signs\": [\"HO\", \"AN\"],\n        \"rule\": \"Übernimm die lokale Stoff- oder Zusatzklasse; HO steht vorn, AN steht hinten.\",\n        \"forbidden\": \"kein bestimmter Stoff, keine Pflanze, kein Badezusatz\",\n    },\n    \"LOCAL_REFERENCE\": {\n        \"value\": \"VORBEZUG\",\n        \"signs\": [\"OS\", \"RESUME_CARD\"],\n        \"rule\": \"Aktiviere den lokal vorausgesetzten Bezug oder nimm den vorigen Besitzer/Gang wieder auf.\",\n        \"forbidden\": \"kein universelles Gefäß-, Wiederholungs- oder Zahlenwort\",",
+          "sha256": "529dd5acb414ed70553b1719bbcdd7cb4cf6b0dfb2138291351ed3ba4e84ebc4"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_local_channel_compression_one_thousand_sixteenth/validate_pass1016.py",
+          "line": 35,
+          "line_end": 55,
+          "quote": "\n    checks = [\n        check(\"nineteen_local_signs\", len(signs) == 19),\n        check(\"four_local_channels\", len(channels) == 4),\n        check(\"all_signs_mapped_once\", len({row[\"sign\"] for row in signs}) == 19 and all(row[\"pass1016_channel\"] in {c[\"channel\"] for c in channels} for row in signs)),\n        check(\"local_mentions_527\", sum(int(row[\"running_mentions\"]) for row in signs) == 527),\n        check(\"local_events_490\", summary[\"local_event_count\"] == 490),\n        check(\"local_statements_210\", summary[\"local_statement_count\"] == 210),\n        check(\"place_mentions_473\", next(row for row in channels if row[\"channel\"] == \"LOCAL_PLACE\")[\"running_mentions\"] == \"473\"),\n        check(\"three_dormant_running_signs\", summary[\"dormant_running_signs\"] == [\"LOCAL_CHAR_Z\", \"S_LABEL\", \"Z_ADDR\"]),\n        check(\"statement_count_627\", len(source) == len(edition) == 627),\n        check(\"event_count_3888\", sum(int(row[\"event_count\"]) for row in edition) == 3888),\n        check(\"same_statement_set\", set(source_by_id) == set(edition_by_id)),\n        check(\"surfaces_preserved\", all(row[\"surface_sequence\"] == source_by_id[row[\"statement_id\"]][\"surface_sequence\"] for row in edition)),\n        check(\"components_preserved\", all(row[\"component_sequence\"] == source_by_id[row[\"statement_id\"]][\"component_sequence\"] for row in edition)),\n        check(\"translations_preserved\", all(row[\"pass1015_core_owner_translation_de\"] == source_by_id[row[\"statement_id\"]][\"pass1015_core_owner_translation_de\"] for row in edition)),\n        check(\"all_category_count_31\", all(row[\"pass1016_semantic_category_count\"] == \"31\" for row in edition)),\n        check(\"all_results_complete\", all(row[\"pass1016_result\"] == \"LOCAL_SIGNS_MAPPED_TO_FOUR_CHANNELS\" for row in edition)),\n        check(\"no_unknown_local_channel\", all(row[\"local_channel_sequence\"] in {\"NONE\", \"LOCAL_PLACE\", \"LOCAL_INDEX\", \"LOCAL_CLASS\", \"LOCAL_REFERENCE\"} or \"+\" in row[\"local_channel_sequence\"] for row in edition)),\n        check(\"no_sealed_pages\", not any(\"f84\" in \"\\t\".join(row.values()).casefold() for row in edition)),\n    ]",
+          "sha256": "f8d74a19191b323f07dfd3fa8572bf47c970638f5af32845f214ef2a8fe3fdda"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_apprentice_sheet_roundtrip_one_thousand_twentieth/PASS1020_REPORT.md",
+          "line": 77,
+          "line_end": 81,
+          "quote": "Das Blatt erklärt die Handlungs- und Bezugskette vollständig. Es nennt aber\nnicht, welcher konkrete Organplatz jeweils `HIER` ist, welchen Inhalt ein WERT\noder GRAD hat und welche konkrete Handlung `O=AUSFÜHRUNG` aktiviert. Diese\nLücken gehören zum Bild- oder Meisterexemplar, nicht in zusätzliche\nWörterbuchstämme.",
+          "sha256": "4fbf1fb52e997be8f4dab6c395759bc9c652d3b944ae7d9da3157b2db717033c"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_apprentice_sheet_roundtrip_one_thousand_twentieth/PASS1020_REPORT.md",
+          "line": 91,
+          "line_end": 103,
+          "quote": "Die zusammenhängende Lektüre ist kein Rezept, sondern eine Eintragsverwaltung:\n\n> Einen Rad- oder Tabellenanteil wählen, seinen Wert und seine Einheit\n> übernehmen, ihn am bezeichneten Platz einsetzen, markieren, fortsetzen oder\n> schließen. Ausgang, Verbindung, Lauf und Zielort binden den Eintrag an lokale\n> Diagrammplätze, ohne eine Drehrichtung zu behaupten. Variante, Klasse und\n> Vorbezug werden aus den Himmelsbeschriftungen übernommen.\n\nBesonders klar ist P1009-S035: `S+AIIN = WÄHLEN+WERT` passt direkt zu einem\nauswählbaren Ring- oder Tabellenfeld. Die langen S038 und S041 zeigen dagegen\ndie Grenze der Tafel: alle Komponenten sind lesbar, aber der Geltungsbereich\nmehrfacher Posten, Werte, Beginne und Vorbezüge bleibt ohne das historische\nMasterexemplar offen.",
+          "sha256": "4fbf1fb52e997be8f4dab6c395759bc9c652d3b944ae7d9da3157b2db717033c"
+        }
+      ],
+      "review_artifact": {
+        "path": "research_registry/decisions/hu_root_scope_review.json",
+        "sha256": "4536fd4d384db41d59277bf6bd7e4d706758e9ae98e131aac42a9d06593ebd68"
+      },
+      "reopening": {
+        "status": "REVIEW_REQUIRED_NOT_TEST_READY",
+        "assessed_by": "curation_review",
+        "criteria_origin": "Original limits plus root applicability distinctions, not new preregistration.",
+        "all_of": [
+          "Choose one channel and an independently grounded role/referent contrast where its fixed contract differs from a specified delimiter/selector rival; an all-four-channel census is not automatically required.",
+          "Preserve event/owner scope and dormant-form limits; obtain adequate held source cases before semantic validation rather than treating the deterministic map as its own gold."
+        ],
+        "not_sufficient": [
+          "More occurrences or repeated alternate readings counted as independent manuscripts.",
+          "Chosen labels or fluent defaults reused as semantic evidence.",
+          "Another model failure transferred without unit correspondence."
+        ]
+      },
+      "automatic_card_status_propagation": false,
+      "empirical_meaning_refutation": false
+    }
+  ]
+}

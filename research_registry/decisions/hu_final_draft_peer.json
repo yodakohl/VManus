@@ -1,0 +1,44 @@
+{
+  "review_id": "HU_FINAL_DRAFT_PEER",
+  "status": "APPROVED_WITH_SCOPE_NOTES",
+  "scope": "Final peer audit of the three HU draft decisions and their root scope review; no source rerun, registry mutation, or new semantic evidence.",
+  "inputs": {
+    "draft": {
+      "path": "research_registry/decisions/hu_scoped_question_draft.json",
+      "sha256": "353027ac3146bdd921040713afb8194dd269229f22e44bc87f0e9b8689a47b78"
+    },
+    "root_scope_review": {
+      "path": "research_registry/decisions/hu_root_scope_review.json",
+      "sha256": "4536fd4d384db41d59277bf6bd7e4d706758e9ae98e131aac42a9d06593ebd68"
+    }
+  },
+  "binding_checks": [
+    {
+      "id": "FAILURE_HU:REPEATED_STROKES_SCALAR_VERSUS_ORTHOGRAPHY:v1",
+      "target": "SEM:171d465e63f36e9a4049",
+      "result": "pass",
+      "finding": "The question is scoped to the Iteration 12 repeated e/i proposal. It explicitly limits GDT626's terminal a+i*n minim parser and does not export it to all e-runs. The outcome preserves scalar, phonetic, inflectional and abbreviation rivals; 686's axis choice is correctly described as renderer policy rather than universal semantic rejection."
+    },
+    {
+      "id": "FAILURE_HU:DAIIN_N2_ASSIGNMENT_AND_COUNTING_OFFSET:v1",
+      "target": "SEM:f4498b6a86d2ff0ec9bd",
+      "result": "pass",
+      "finding": "The draft keeps the early N2/SET VALUE assignment proposal separate from the later GDT626 III convention. It correctly treats N2 versus III as a counting/segmentation offset and does not infer an imperative D or a universal D+host rule from line-entry skew."
+    },
+    {
+      "id": "FAILURE_HU:FOUR_LOCAL_CHANNEL_SEMANTIC_COMPRESSION:v1",
+      "target": "SEM:09282822581c898e6cbf",
+      "result": "pass_with_scope_note",
+      "finding": "The draft identifies the four-channel builder and validator as a deterministic authored classification with 19 mapped signs and three dormant running signs. It does not claim a universal-axis rejection or a single rival interpretation; it retains selector, delimiter and subtype alternatives and limits the result to a source/contract audit."
+    }
+  ],
+  "evidence_validation": {
+    "method": "Every evidence array in all three draft decisions was checked with tools.semantic_identity._evidence against its typed path, contiguous line span, quote and SHA.",
+    "validated_decisions": 3,
+    "validated_evidence_objects": 16,
+    "result": "all exact"
+  },
+  "material_corrections": [],
+  "remaining_boundary": "The three decisions are scoped assessments of source contracts and formal patterns. None supplies an independent assignment/value binding, universal e/i semantic axis, or independently decoded local-channel meaning. Their reopening criteria correctly require a specified rival with a different scoreable prediction and source-bound held support.",
+  "no_new_semantic_evidence": true
+}
