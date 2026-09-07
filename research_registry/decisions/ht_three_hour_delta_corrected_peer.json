@@ -1,0 +1,66 @@
+{
+  "review_id": "ht_three_hour_delta_corrected_peer",
+  "supersedes": "ht_three_hour_delta_peer baseline correction only; initial report preserved",
+  "scope": "Committed snapshots only; baseline is immediately before 535f1b94. No new scientific evidence or registry mutation.",
+  "baseline_pre_HC_commit": {
+    "resolved_commit": "9a7b211038c666f41a0438bc8540f38c61080af0",
+    "semantic_cards": 4119,
+    "failure_records": 43,
+    "scoped_failure_dossiers": 42,
+    "direct_semantic_target_refs": 55,
+    "direct_semantic_target_ids": 55,
+    "formal_role_target_refs": 3,
+    "identity_decision_records": 95,
+    "identity_all_groups": 4058,
+    "identity_multi_member_groups": 52,
+    "approved_equivalence_groups": 52,
+    "identity_display_reduction": 61,
+    "authored_raw_proposals": 0,
+    "sha256": {
+      "research_registry/semantic_ideas.jsonl": "e645f490023cb188f2039cfe965bf315b58f9ffb64c626804c6ff6af8ea5167a",
+      "research_registry/semantic_failure_decisions.jsonl": "af9f2ad3a1dec30393cb3f06a6488d56fe07f1643db5cc87d72c7ee6fdddfc9c",
+      "research_registry/semantic_identity_decisions.jsonl": "1ba8f2f2e63eea7338625696ed2a9e354137c6f303dcaf9f4136819f6fb89052",
+      "research_registry/decisions/semantic_operational_validation.json": "f94d6cfbf35f2b0b618e9d4418597ae7faa53eb23fa4efa99e150f99b1888410"
+    }
+  },
+  "current_committed_HP_snapshot": {
+    "resolved_commit": "ca8e3d61bc03f61b6256c8dcf8e28df89a3566f6",
+    "semantic_cards": 4119,
+    "failure_records": 72,
+    "scoped_failure_dossiers": 70,
+    "direct_semantic_target_refs": 90,
+    "direct_semantic_target_ids": 89,
+    "formal_role_target_refs": 3,
+    "identity_decision_records": 103,
+    "identity_all_groups": 4053,
+    "identity_multi_member_groups": 56,
+    "approved_equivalence_groups": 56,
+    "identity_display_reduction": 66,
+    "authored_raw_proposals": 35,
+    "sha256": {
+      "research_registry/semantic_ideas.jsonl": "e645f490023cb188f2039cfe965bf315b58f9ffb64c626804c6ff6af8ea5167a",
+      "research_registry/semantic_failure_decisions.jsonl": "b2d02c09baa57f624b047d1cd25d62f830263a06a87a7ce18bb258b3a30c8a49",
+      "research_registry/semantic_identity_decisions.jsonl": "8e53d4f62db9e8402c9fc720fe98141ca1f29cd259fe4d43858e5a8619004c5b",
+      "research_registry/decisions/semantic_operational_validation.json": "78cbf160a398ded5e5b0c15ec79d87eb7dba0063a86d40b1ae5eb7b1111601a6"
+    }
+  },
+  "delta": {
+    "semantic_cards": 0,
+    "scoped_failure_dossiers": 28,
+    "direct_semantic_target_ids": 34,
+    "identity_all_groups": -5,
+    "approved_equivalence_groups": 4,
+    "identity_display_reduction": 5,
+    "authored_raw_proposals": 35
+  },
+  "preservation": {
+    "semantic_ideas_jsonl_byte_equal": true,
+    "semantic_card_and_case_payloads": "All 4119 semantic card records and their case payloads are byte-identical across the two snapshots; this does not imply all cases were assessed."
+  },
+  "count_notes": {
+    "failure": "Scoped dossier count uses unique decision_key (42→70); raw failure records are 43→72 because revisions can duplicate keys.",
+    "targets": "Direct semantic target count filters target cards by claim_type != formal_role: 55→89 unique semantic target IDs (55→90 refs).",
+    "identity": "All display groups are 4058→4053; approved non-singleton equivalent groups are 52→56.",
+    "proposals": "Authored raw proposal files are 0→35; baseline 535f1b94 itself had 6, but it is after the requested baseline and is not counted."
+  }
+}

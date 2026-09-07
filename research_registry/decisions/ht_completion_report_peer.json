@@ -1,0 +1,64 @@
+{
+  "review_id": "HT_COMPLETION_REPORT_PEER",
+  "status": "PASS_WITH_SCOPE_NOTES",
+  "scope": "Bounded audit of semantic_3h_completion.md against the fixed pre-HC baseline, ht_three_hour_delta_root.json, and the HS append packet; no report or registry mutation.",
+  "source_files": {
+    "completion_report": {
+      "path": "research_registry/decisions/semantic_3h_completion.md",
+      "sha256": "33d75511312940f835064b65afc7d3dc90f4727142aa6c1b177ecdd5eb3bc577"
+    },
+    "delta_root": {
+      "path": "research_registry/decisions/ht_three_hour_delta_root.json",
+      "sha256": "7e5f84666ff6c310f33104866fe30a457ee38cece53cf0b3d121602b1f7879c7"
+    },
+    "hs_append": {
+      "path": "research_registry/decisions/hs_identity_append_packet.json",
+      "sha256": "f60899be12e206823d9ef22c8a5f06b74c1f5a7e9d79f426cff4ebffb5ad9ead"
+    }
+  },
+  "checks": [
+    {
+      "item": "4119 versus 3854",
+      "result": "pass",
+      "finding": "4119 is the preserved active-card total: 3854 semantic cards plus 265 formal-role cards. The report keeps these categories separate; it does not claim 4119 semantic variants."
+    },
+    {
+      "item": "28 dossier increase",
+      "result": "pass",
+      "finding": "42 to 70 is a unique scoped-dossier-key count, hence 28 additional dossier keys. The report explicitly limits this to coverage and says it is not 28 independent experiments or discoveries."
+    },
+    {
+      "item": "16 display reduction",
+      "result": "pass_with_scope_note",
+      "finding": "61 to 77 is 16 additional equivalence display-row reductions; 77 is the cumulative display reduction. These are display rows/groups, not deleted cards or 16 words. The report's table and delta limits support that reading."
+    },
+    {
+      "item": "proposal review accounting",
+      "result": "verified",
+      "finding": "A bounded filesystem count gives 35 current authored proposal files. Exactly 11 have corresponding design_review_idea records (IDEA000004, 000005, 000006, 000013, 000014, 000022, 000023, 000027, 000028, 000029, 000030); the remaining 24 have no such method-review record. This supports 35 raw / 11 method-reviewed / 24 explicitly unreviewed, without inferring readiness."
+    },
+    {
+      "item": "HS append scope",
+      "result": "verified",
+      "finding": "HS records 13 selected pairs, 10 approved proposition groups, 9 new groups, and 11 additional display reductions; resulting multi-member groups are 65 and new_semantic_evidence is false."
+    },
+    {
+      "item": "three-hour completion status",
+      "result": "pass",
+      "finding": "The report says it was prepared during the interval and defers completion to ht_three_hour_time_receipt.json. That receipt is currently absent, so the report must remain prepared-before-minimum and must not claim time completion."
+    }
+  ],
+  "baseline_and_preservation": {
+    "baseline_commit": "9a7b211038c666f41a0438bc8540f38c61080af0",
+    "active_cards": "4119 -> 4119",
+    "semantic_cards": "3854 -> 3854",
+    "formal_cards": "265 -> 265",
+    "scoped_dossiers": "42 -> 70",
+    "direct_semantic_targets": "55 -> 89",
+    "multi_member_identity_groups": "52 -> 65",
+    "display_reduction": "61 -> 77",
+    "authored_raw_proposals": "0 -> 35",
+    "preservation_sha256": "e645f490023cb188f2039cfe965bf315b58f9ffb64c626804c6ff6af8ea5167a"
+  },
+  "required_action": "No numerical correction is required. Retain the wording that 16 is an additional display reduction and that 28 dossiers are not independent tests; do not add a completion claim until a valid time receipt exists."
+}

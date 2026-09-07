@@ -38,6 +38,23 @@ current question bindings before filtering; zero coverage does not prove
 novelty, readiness, or absence of related historical work. Continue with
 `priorities --show ID`, duplicate screening, and the relevant primary reports.
 
+For authored IDEA selection, the question selector is not an unreviewed-idea
+filter. Root must supply the exact eligible IDs after checking current
+`ideas show ID` review status, plus each title and design-file hash. Require
+agents to return those bindings unchanged; reject out-of-set recommendations
+before source review. Do not infer IDs from proposal list order. A buffered
+proposal already method-reviewed needs its recorded changed-input condition,
+not another raw-idea ranking. Check the literal selected source column and
+unit before comparing meanings; preserve an incorrect peer report with an
+explicit correction rather than silently repairing its history.
+
+Before data work, state an alternative model that could produce the proposed
+positive result without the target meaning. If both stated meanings permit the
+same outcome, revise the discriminator before requesting more data or compute.
+A source-case audit, a direct scoped assessment and an independent semantic
+binding are three different things. See the [three-hour audit](decisions/semantic_3h_completion.md)
+for concrete failures that motivated these operating rules.
+
 ## Normal work: load a shortlist, then one dossier
 
 ```bash

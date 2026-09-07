@@ -1,0 +1,85 @@
+{
+  "review_id": "ht_three_hour_delta_peer",
+  "scope": "Curation delta only; fixed Git snapshots before HS follow-up mutation. No manuscript experiment or registry status mutation.",
+  "baseline": {
+    "commit": "535f1b94",
+    "semantic_cards": 4119,
+    "semantic_card_ids": 4119,
+    "scoped_failure_dossiers_records": 45,
+    "scoped_failure_dossiers_unique_decision_keys": 44,
+    "direct_failure_target_refs": 60,
+    "direct_failure_target_ids": 59,
+    "identity_decision_records": 95,
+    "identity_decision_unique_keys": 94,
+    "identity_relations": {
+      "equivalent_proposition": 52,
+      "related_not_equivalent": 7,
+      "alternative_to": 31,
+      "specializes": 5
+    },
+    "identity_statuses": {
+      "approved": 95
+    },
+    "identity_groups": 4058,
+    "identity_multi_member_groups": 52,
+    "identity_display_reduction": 61,
+    "authored_raw_proposals": 6,
+    "file_sha256": {
+      "research_registry/semantic_ideas.jsonl": "e645f490023cb188f2039cfe965bf315b58f9ffb64c626804c6ff6af8ea5167a",
+      "research_registry/semantic_failure_decisions.jsonl": "7b6c1e3cb29c1397a5496c2785ea055d8044b594b6e2624559d174ffa7f395bf",
+      "research_registry/semantic_identity_decisions.jsonl": "1ba8f2f2e63eea7338625696ed2a9e354137c6f303dcaf9f4136819f6fb89052",
+      "research_registry/decisions/semantic_operational_validation.json": "125e559fa1a57624fe90963ebe2d877cbd81e890c727a23621f303401be29576"
+    }
+  },
+  "current_committed_hp_snapshot": {
+    "commit": "ca8e3d61",
+    "semantic_cards": 4119,
+    "semantic_card_ids": 4119,
+    "scoped_failure_dossiers_records": 72,
+    "scoped_failure_dossiers_unique_decision_keys": 70,
+    "direct_failure_target_refs": 93,
+    "direct_failure_target_ids": 91,
+    "identity_decision_records": 103,
+    "identity_decision_unique_keys": 102,
+    "identity_relations": {
+      "equivalent_proposition": 59,
+      "related_not_equivalent": 7,
+      "alternative_to": 32,
+      "specializes": 5
+    },
+    "identity_statuses": {
+      "approved": 100,
+      "rejected": 3
+    },
+    "identity_groups": 4053,
+    "identity_multi_member_groups": 56,
+    "identity_display_reduction": 66,
+    "authored_raw_proposals": 35,
+    "file_sha256": {
+      "research_registry/semantic_ideas.jsonl": "e645f490023cb188f2039cfe965bf315b58f9ffb64c626804c6ff6af8ea5167a",
+      "research_registry/semantic_failure_decisions.jsonl": "b2d02c09baa57f624b047d1cd25d62f830263a06a87a7ce18bb258b3a30c8a49",
+      "research_registry/semantic_identity_decisions.jsonl": "8e53d4f62db9e8402c9fc720fe98141ca1f29cd259fe4d43858e5a8619004c5b",
+      "research_registry/decisions/semantic_operational_validation.json": "78cbf160a398ded5e5b0c15ec79d87eb7dba0063a86d40b1ae5eb7b1111601a6"
+    }
+  },
+  "delta": {
+    "semantic_cards": 0,
+    "scoped_failure_dossiers_unique_decision_keys": 26,
+    "direct_failure_target_ids": 32,
+    "identity_groups": -5,
+    "identity_display_reduction": 5,
+    "authored_raw_proposals": 29,
+    "identity_unique_decision_keys": 8
+  },
+  "preservation": {
+    "semantic_ideas_jsonl_byte_equal": true,
+    "semantic_ideas_sha256_same": true,
+    "meaning": "4119 existing semantic card/case payloads are byte-identical across snapshots; this does not imply all cases were assessed."
+  },
+  "interpretation": {
+    "current_snapshot": "ca8e3d61 is the fixed HP snapshot; HS follow-up changes are excluded and must not be raced.",
+    "identity": "Current committed identity adds revisions/groups/relations while reducing display groups; identity statuses include three rejected records in the snapshot.",
+    "failure": "Unique scoped failure dossier count is the authoritative 44→70 comparison; raw JSONL records are 45→72 because revisions can duplicate decision keys.",
+    "proposals": "Authored proposal files increase 6→35; this is raw design surplus, not tested meaning."
+  }
+}
