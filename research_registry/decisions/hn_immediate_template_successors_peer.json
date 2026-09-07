@@ -1,0 +1,138 @@
+{
+  "scope": "Direct GDT113 successor chain GDT114-GDT118; corrected successor accounting.",
+  "decision": "DIRECT_ROUTE_ACTUALLY_TESTED__FORMAL_RECORD_LINKAGE_SUPPORTED_WITH_LIMITS",
+  "correction_to_prior_screen": "The direct successors do test the GDT113 route. The earlier lexical screen of GDT480/554/744/793 cannot establish that no successor did so; those are downstream or parallel reports and are not used here as an absence claim.",
+  "successors": [
+    {
+      "id": "GDT114",
+      "finding": "Supports exploratory OPEN-to-BODY HPR2 template linkage on unseen folios, above hashed-string controls, but predicts anonymous BODY profiles rather than content.",
+      "evidence": {
+        "path": "GDT114_Q20_RECORD_TEMPLATE_LINKAGE_REPORT.md",
+        "line": 1,
+        "line_end": 24,
+        "sha256": "3aa5faec44f1c456ad96eb19569e122f01fd5d6691ddbcdc8985a53b20914323",
+        "quote": "# GDT114 — Q20 OPEN-to-BODY record-template linkage\n\nStatus: **Q20_OPEN_BODY_RECORD_TEMPLATE_LINKAGE_SUPPORTED**\n\nThis nested whole-folio test reused 170 clean star-delimited Q20 records on\neight physical folios. It predicts anonymous HPR2 BODY-template profiles, not\nBODY strings or meanings. The nuisance baseline already knows record shape and\nthe leave-one-record-out mean BODY profile of the other records on the held\nfolio. ZL3b is primary; IT2a and RF1b are alternate-reading sensitivities.\n\n## Held-folio result\n\n| representation | ZL gain bits | selector-paid | positive folios | local p | max-five p | IT gain | RF gain |\n|---|---:|---:|---:|---:|---:|---:|---:|\n| `COMPILER_ONLY` | +20.290 | +17.968 | 6/8 | 0.0063 | 0.0564 | +25.892 | +28.701 |\n| `EDGE_ONLY` | +4.554 | +2.232 | 4/8 | 0.1203 | 1.0000 | +18.189 | +10.037 |\n| `FULL_HPR2` | +22.672 | +20.351 | 6/8 | 0.0127 | 0.0173 | +39.825 | +35.029 |\n| `RAW_CHAR3_HASH32` | +14.828 | +12.506 | 8/8 | 0.1582 | 0.4801 | +14.365 | +6.116 |\n| `HOST_CHAR3_HASH32` | -21.150 | -23.472 | 1/8 | 0.8470 | 1.0000 | -12.114 | -25.727 |\n\nThe exact-length pairing null has 124/170 primary\nrecords with permutation capacity. `FULL_HPR2` beats\nboth hashed-string controls. Its registered gates are `{\"all_readings_positive\": true, \"beats_both_string_controls\": true, \"max_five_p_le_005\": true, \"selector_paid_positive\": true, \"six_of_eight_positive_folios\": true}`.\n"
+      }
+    },
+    {
+      "id": "GDT115",
+      "finding": "Decomposes the linkage to compiler-to-BODY-compiler transfer, but the primary ZL3b stricter page null is page-sensitive; alternate readings are stronger.",
+      "evidence": {
+        "path": "GDT115_Q20_TEMPLATE_CHANNEL_DECOMPOSITION_REPORT.md",
+        "line": 1,
+        "line_end": 22,
+        "sha256": "5c3a4d10d6f9a13909096fb84d99b56fef4bde608af071edf7978e439e32eab6",
+        "quote": "# GDT115 — Q20 record-template channel decomposition\n\nStatus: **Q20_OPEN_BODY_COMPILER_CHANNEL_TRANSFERS_WITHIN_PAGE**\n\n## Stricter null for the GDT114 lead\n\nThe GDT114 ZL3b `FULL_HPR2` gain remains +22.672\npseudo-bits, but the same-page/exact-OPEN-length null has only\n99/170 swappable records and gives\nlocal p=0.0984, max-five p=0.1023.\nThe corresponding IT2a/RF1b max-five p-values are\n0.0005 and\n0.0007.\nThus the record-linkage lead is real under its registered folio null but is\npage-sensitive in the primary reading rather than a clean invariant.\n\n## Channel localization\n\nUnder the stricter ZL3b page null the largest block gain is\n`COMPILER_TO_BODY_COMPILER` at +16.037 bits, with local\np=0.0093 and max-13 p=0.0093. The same fixed\nblock gains +15.763"
+      }
+    },
+    {
+      "id": "GDT116",
+      "finding": "Localizes the inherited channel to a transferable but nonidentity wrapper map; postselected bijection is diagnostic, not grammar or meaning.",
+      "evidence": {
+        "path": "GDT116_Q20_WRAPPER_CHANNEL_MAP_REPORT.md",
+        "line": 1,
+        "line_end": 18,
+        "sha256": "fc71af294f4bd61a9c4f06a1363757e631f3365f66ac1f3d383dd4d42926c4cf",
+        "quote": "# GDT116 — Q20 OPEN/BODY wrapper-channel map\n\nStatus: **Q20_WRAPPER_CHANNEL_MAP_TRANSFERABLE_BUT_NONIDENTITY**\n\nThe inherited seven-wrapper channel was resolved into 49 held-folio scalar\nlinks under a same-page exact-OPEN-length null. The strongest ZL3b cell is\n`che -> che` at +3.138\nbits, positive on 8/8 folios, local p=0.0281\nand max-49 p=0.0281. 23/49 cells have positive gain\nin all three reading sensitivities.\n\nThe predeclared identity composite gains ZL/IT/RF\n+8.553 / +8.709 /\n+8.899 bits. Its rank among all 7! descriptive\nbijections is 10/5040 in ZL3b. The best postselected\nZL mapping is `q->q|d->d|s->s|ch->sh|che->che|sh->t|t->ch`. A nonidentity optimum means the\nOPEN does not simply repeat the same wrapper mixture: it selects a transferable\nbut coupled BODY wrapper regime."
+      }
+    },
+    {
+      "id": "GDT117",
+      "finding": "Turns the linkage into held-folio same-page OPEN retrieval with compiler-profile signal, but representation-sensitive and still formal.",
+      "evidence": {
+        "path": "GDT117_Q20_OPEN_BODY_RETRIEVAL_REPORT.md",
+        "line": 1,
+        "line_end": 24,
+        "sha256": "7fdfd44acfdb6498d6b0dba9a3c5e1d2fbc2457a7a53df1abf4d0a4369311832",
+        "quote": "# GDT117 — Q20 same-page OPEN/BODY retrieval\n\nStatus: **Q20_COMPILER_PROFILE_SUPPORTS_HELD_RECORD_RETRIEVAL_READING_SENSITIVE**\n\nThe held-folio task contains 99 records in same-page,\nexact-OPEN-length candidate strata. Chance top-1 is\n0.444. `COMPILER12` identifies the true OPEN with\ntop-1 accuracy 0.586, MRR 0.778, and pairwise\naccuracy 0.638; its MRR local/max-four p-values are\n0.0020/0.0034.\nThat is 58/99\nexact first choices versus 44\nexpected. RF1b also clears the MRR max-four control\n(0.0134); IT2a remains positive\nbut does not (0.2724), where the\nwrapper-only representation is stronger. The linkage is therefore\ntranscription-sensitive in its exact representation.\n\nZL3b comparison:\n\n| model | top-1 | MRR | pairwise | MRR max-4 p |\n|---|---:|---:|---:|---:|\n| `WRAPPER7` | 0.525 | 0.750 | 0.601 | 0.0945 |\n| `COMPILER12` | 0.586 | 0.778 | 0.638 | 0.0034 |"
+      }
+    },
+    {
+      "id": "GDT118",
+      "finding": "Depth diagnostic finds strongest first-line persistence but weak/unstable later-depth transfer; it does not establish discourse or semantic depth.",
+      "evidence": {
+        "path": "GDT118_Q20_COMPILER_DEPTH_TRANSFER_REPORT.md",
+        "line": 1,
+        "line_end": 18,
+        "sha256": "cc981c3a125cd0863f83f9bf8e255b183c2741fff5065efa7e6e552410adde51",
+        "quote": "# GDT118 — Q20 OPEN compiler transfer by BODY depth\n\nStatus: **Q20_OPEN_COMPILER_DEPTH_TRANSFER_WEAK_OR_UNSTABLE**\n\n| depth | records | ZL compiler gain | positive folios | max-6 p | ZL raw gain | IT compiler | RF compiler |\n|---|---:|---:|---:|---:|---:|---:|---:|\n| `BODY_LINE_1` | 170 | +12.608 | 7/8 | 0.1250 | +10.307 | +12.161 | +12.580 |\n| `BODY_LINE_2` | 135 | +2.055 | 5/8 | 1.0000 | +2.804 | +2.534 | +4.467 |\n| `BODY_TAIL_3PLUS` | 65 | +2.683 | 7/8 | 1.0000 | +1.811 | +2.759 | +2.223 |\n\nThe depth profile distinguishes whole-record persistence from a merely adjacent\nOPEN→next-line dependency. Lower-capacity tails are reported rather than\ndiscarded. BODY depth is physical layout only.\n\nNo heading, recipe, semantic role, word, morpheme, POS, sound, language,\nplaintext, meaning, or translation is assigned. f84r remained excluded and\nunpredicted."
+      }
+    }
+  ],
+  "successor_conclusion": "GDT114-GDT118 are the actual immediate continuation of GDT113: they support a formal OPEN-to-BODY/compiler-channel linkage with page and reading sensitivity, then show retrieval and depth limits. They did not recover content or a semantic endpoint.",
+  "recommendation": "Use GDT114-123 as the complete bounded formal successor chain: retain the OPEN-to-BODY compiler linkage as a formal result with page/reading/depth limits, and treat GDT119-123 as specific negative or weak controls. Any new work must introduce a genuinely independent external structure or source-bound content target; do not reopen closed host/visual/template tests.",
+  "semantic_ceiling": "Anonymous HPR2/compiler/wrapper channel transfer only; no heading, recipe, semantic role, word, meaning, plaintext, or translation.",
+  "followup_successors_119_123": {
+    "scope_note": "These are the explicitly named later successors; they are included to avoid an absence claim about the GDT113 route.",
+    "findings": [
+      {
+        "id": "GDT119",
+        "classification": "EXTERNAL_VISUAL_JOIN_NEGATIVE",
+        "inference": "The compiler profile did not predict the archived star morphology under the corrected gate; no visual meaning follows."
+      },
+      {
+        "id": "GDT120",
+        "classification": "LATENT_CLASS_WEAK_UNSTABLE",
+        "inference": "Anonymous fold-local record classes fail cross-reading/selection gates; no named class or heading follows."
+      },
+      {
+        "id": "GDT121",
+        "classification": "EXTENT_WEAK_OR_STRING_LIKE",
+        "inference": "Aggregate BODY extent is not a content or heading signal under registered gates."
+      },
+      {
+        "id": "GDT122",
+        "classification": "PAGE_HOST_VISUAL_NEGATIVE",
+        "inference": "PAGE_HOST does not recover the archived visual state; stripping compiler layers does not license meaning."
+      },
+      {
+        "id": "GDT123",
+        "classification": "CODEWORD_ATLAS_NO_GLOBAL_SURVIVOR",
+        "inference": "Target-blind exact host/visual scan yields no interesting exploratory candidate; postselected weak correlations do not establish codeword meaning."
+      }
+    ],
+    "evidence": [
+      {
+        "id": "GDT119",
+        "path": "GDT119_Q20_VISUAL_COMPILER_ASSOCIATION_REPORT.md",
+        "line": 1,
+        "line_end": 16,
+        "sha256": "310e4fadd73982731802a63e7febb3c1c185e26847a34afa57ddac267f86376b",
+        "quote": "# GDT119 — Q20 star morphology versus record compiler\n\nStatus: **Q20_VISUAL_STATE_NOT_PREDICTED_BY_RECORD_COMPILER**\n\nThis is the first exploratory join of the archived SME human star observations\nto the independently discovered Q20 compiler profiles. The previous SME\ntarget-free calibration failure remains unchanged.\n\nThe strongest ZL3b axis/model is `RAYS_8_VS_7 / OPEN_WRAPPER7` with\n+5.211 held-folio bits, 5/7\npositive folios, local p=0.2026, max-15 p=0.4393.\n0 candidates clear the exploratory corrected/directional gate.\nColor is interpreted only as an alternating visible state and is strongly\nordinal-confounded.\n\nNo star state receives a meaning and no record class, heading, recipe, role,"
+      },
+      {
+        "id": "GDT120",
+        "path": "GDT120_Q20_LATENT_RECORD_CLASS_REPORT.md",
+        "line": 1,
+        "line_end": 20,
+        "sha256": "3d55cf678e2ec9ded7cfa5fa7eb8bafb0f0d7529a0c92eb51d376cb4d86d9190",
+        "quote": "# GDT120 — Q20 latent record-class prediction\n\nStatus: **Q20_LATENT_RECORD_CLASSES_WEAK_OR_UNSTABLE**\n\nTraining folios alone discovered anonymous BODY compiler classes for every K=2..6; the unseen folio was assigned to the frozen centroids before its OPEN was scored. The strongest ZL3b compiler resolution is K=5: +1.026 pseudo-bits, selector-paid -3.296, 7/8 positive folios, local p=0.0312, max-20 p=0.8492. IT2a/RF1b gains at the same K are +0.355/+0.792; mean label-free cross-reading ARI is 0.076. Registered gates: `{\"all_readings_positive\": true, \"max_20_p_le_005\": false, \"mean_cross_reading_ari_ge_05\": false, \"selector_paid_positive\": false, \"six_of_eight_positive\": true}`.\n\n| K | wrapper gain | compiler gain | edge gain | raw gain | compiler max-20 p | mean ARI |\n|---:|---:|---:|---:|---:|---:|---:|\n| 2 | +0.606 | +0.433 | +1.239 | +0.266 | 1.0000 | 0.697 |\n| 3 | +0.856 | +0.830 | +1.460 | +0.093 | 0.9741 | 0.241 |\n| 4 | +0.458 | +0.371 | +0.558 | +0.762 | 1.0000 | 0.139 |\n| 5 | +0.914 | +1.026 | +0.245 | +0.224 | 0.8492 | 0.076 |\n| 6 | +0.792 | +0.629 | +0.545 | +1.334 | 0.9995 | 0.099 |\n\nThe result concerns an anonymous record-template alphabet only. Fold-local class numbers are not meanings and cannot be compared as named categories across folds without their centroids. It neither overrides Q20OB001's failed literal cache nor turns OPEN into a heading. No semantic role, star property, word, morpheme, POS, sound, language, plaintext, meaning, or translation is assigned. f84r remained fully excluded and unpredicted."
+      },
+      {
+        "id": "GDT121",
+        "path": "GDT121_Q20_RECORD_EXTENT_PREDICTION_REPORT.md",
+        "line": 1,
+        "line_end": 17,
+        "sha256": "abccd935538e16532c8fd0d4e0fc045af5060e2116109bcc7284c64c2f13ab18",
+        "quote": "# GDT121 — Q20 OPEN prediction of BODY extent\n\nStatus: **Q20_BODY_EXTENT_SIGNAL_WEAK_OR_STRING_LIKE**\n\nThe OPEN compiler predicts five held-folio BODY extent measures by +1.580 standardized Gaussian pseudo-bits in ZL3b, selector-paid -0.742, on 4/8 positive folios; local/max-five p=0.3922/0.8636. IT2a/RF1b gains are +2.576/+2.467. BODY-group MAE changes from 9.824 to 9.821. Gates: `{\"all_readings_positive\": true, \"beats_string_controls\": true, \"max_five_p_le_005\": false, \"selector_paid_positive\": false, \"six_of_eight_positive\": false}`.\n\n| model | ZL gain | selector-paid | positive folios | max-five p | BODY-group MAE |\n|---|---:|---:|---:|---:|---:|\n| `OPEN_WRAPPER7` | +2.000 | -0.322 | 5/8 | 0.6929 | 9.814 |\n| `OPEN_COMPILER12` | +1.580 | -0.742 | 4/8 | 0.8636 | 9.821 |\n| `OPEN_EDGE29` | -1.414 | -3.736 | 2/8 | 1.0000 | 9.847 |\n| `RAW_OPEN_CHAR3_HASH32` | -5.957 | -8.279 | 3/8 | 1.0000 | 9.896 |\n| `HOST_OPEN_CHAR3_HASH32` | -10.394 | -12.715 | 1/8 | 1.0000 | 9.952 |\n\nThis test concerns aggregate record extent only. It does not assign a count value to any unit or establish that OPEN is a heading. No number value, recipe, role, word, morpheme, POS, sound, language, plaintext, meaning, or translation is inferred. f84r remained fully excluded and unpredicted."
+      },
+      {
+        "id": "GDT122",
+        "path": "GDT122_Q20_PAGE_HOST_VISUAL_ASSOCIATION_REPORT.md",
+        "line": 1,
+        "line_end": 17,
+        "sha256": "9d09244a7db8193c18e027e834284d9551af73072a8f42070310043124cfd8d1",
+        "quote": "# GDT122 — Q20 PAGE_HOST versus archived visual states\n\nStatus: **Q20_PAGE_HOST_DOES_NOT_RECOVER_STAR_VISUAL_SIGNAL**\n\nThe strongest PAGE_HOST result is `TAIL_2_VS_1 / OPEN_HOST_CHAR3_HASH32` at -5.119 held-folio bits, selector-paid -9.025, 5/7 positive folios, local/max-15 p=0.4603/1.0000. The strongest result of any layer is `RAYS_8_VS_7 / OPEN_COMPILER12` at +1.669 bits. Registered gates: `{\"all_readings_positive\": false, \"beats_compiler_and_raw\": true, \"five_of_seven_positive\": true, \"max_15_p_le_005\": false, \"selector_paid_positive\": false}`.\n\n| axis | best PAGE_HOST model | host gain | max-15 p | compiler gain | raw gain |\n|---|---|---:|---:|---:|---:|\n| `RAYS_8_VS_7` | `OPEN_HOST_CHAR3_HASH32` | -10.040 | 1.0000 | +1.669 | -16.542 |\n| `TAIL_2_VS_1` | `OPEN_HOST_CHAR3_HASH32` | -5.119 | 1.0000 | -6.277 | -13.736 |\n| `COLOR_RED_VS_YEL` | `OPEN_HOST_CHAR3_HASH32` | -8.654 | 1.0000 | -7.948 | -20.959 |\n\nStripping HPR2 compiler layers does not by itself license any visual or semantic reading. The SME calibration failure and GDT119 negative remain binding. No star state or PAGE_HOST receives a meaning; no word, morpheme, POS, sound, language, plaintext, meaning, or translation is assigned. f84r remained fully excluded and unpredicted."
+      },
+      {
+        "id": "GDT123",
+        "path": "GDT123_Q20_PAGE_HOST_CODEWORD_ATLAS_REPORT.md",
+        "line": 1,
+        "line_end": 22,
+        "sha256": "ce14c05d3f5c2f4494c44b046172dbd1bd99057a7032f12b7e41a57da4140f71",
+        "quote": "# GDT123 — Q20 exact PAGE_HOST codeword atlas\n\nStatus: **Q20_EXACT_PAGE_HOST_VISUAL_ATLAS_NO_GLOBAL_SURVIVOR**\n\nThe target-blind ZL3b library contains 281 exact host/scope candidates and 843 host/scope/visual-axis tests. Whole-profile permutations retain 90/156 records in movable page+OPEN-length strata. The top candidate is `OPEN_BODY:lke` on `COLOR_RED_VS_YEL`: signed partial r=-0.263, 7.784 Gaussian bits, selector-paid -2.936, local p=0.1216, max-library p=0.4606, leave-one-folio direction 7/7, IT/RF effects -0.261/-0.264. 0 candidates receive `INTERESTING_EXPLORATORY`.\n\n| candidate | axis | support | effect | selector-paid | local p | max p | LOFO | IT/RF | label |\n|---|---|---:|---:|---:|---:|---:|---:|---|---|\n| `OPEN_BODY:lke` | `COLOR_RED_VS_YEL` | 5 | -0.263 | -2.936 | 0.1216 | 0.4606 | 7/7 | -0.261/-0.264 | `NO_SIGNAL` |\n| `BODY:kche` | `COLOR_RED_VS_YEL` | 7 | -0.259 | -3.232 | 0.1118 | 0.6785 | 7/7 | -0.265/-0.204 | `NO_SIGNAL` |\n| `OPEN:e` | `RAYS_8_VS_7` | 34 | +0.254 | -3.568 | 0.0474 | 0.8052 | 7/7 | +0.260/+0.271 | `WEAK` |\n| `OPEN:opched` | `TAIL_2_VS_1` | 5 | +0.242 | -3.994 | 0.1650 | 0.9534 | 7/7 | +0.245/+0.255 | `NO_SIGNAL` |\n| `OPEN_BODY:opched` | `TAIL_2_VS_1` | 5 | +0.242 | -3.994 | 0.1650 | 0.9534 | 7/7 | +0.245/+0.255 | `NO_SIGNAL` |\n| `OPEN_BODY:e` | `RAYS_8_VS_7` | 56 | +0.238 | -4.478 | 0.0195 | 0.9800 | 7/7 | +0.232/+0.252 | `WEAK` |\n| `BODY:aiir` | `TAIL_2_VS_1` | 10 | +0.234 | -4.444 | 0.4911 | 0.9883 | 7/7 | +0.178/+0.210 | `NO_SIGNAL` |\n| `OPEN_BODY:okche` | `RAYS_8_VS_7` | 32 | +0.231 | -4.824 | 0.0498 | 0.9927 | 7/7 | +0.222/+0.222 | `WEAK` |\n| `OPEN_BODY:okeeo` | `RAYS_8_VS_7` | 19 | -0.224 | -5.166 | 0.0786 | 0.9978 | 7/7 | -0.249/-0.256 | `WEAK` |\n| `OPEN_BODY:kche` | `COLOR_RED_VS_YEL` | 13 | -0.218 | -5.429 | 0.0212 | 0.9993 | 7/7 | -0.219/-0.160 | `WEAK` |\n| `OPEN_BODY:op` | `RAYS_8_VS_7` | 19 | +0.204 | -6.144 | 0.0639 | 1.0000 | 7/7 | +0.249/+0.237 | `WEAK` |\n| `OPEN_BODY:pchd` | `RAYS_8_VS_7` | 7 | -0.201 | -6.281 | 0.3320 | 1.0000 | 7/7 | -0.208/-0.173 | `NO_SIGNAL` |\n| `BODY:okeeo` | `RAYS_8_VS_7` | 14 | -0.198 | -6.406 | 0.0434 | 1.0000 | 7/7 | -0.218/-0.228 | `WEAK` |\n| `OPEN:okeey` | `RAYS_8_VS_7` | 10 | +0.196 | -6.505 | 0.0207 | 1.0000 | 7/7 | +0.186/+0.188 | `WEAK` |"
+      }
+    ],
+    "conclusion": "GDT119-123 extend the direct chain into visual association, latent class, extent, and host-atlas controls. They close those specific formal associations under their gates but do not test or establish semantic content. The route is therefore an extension of the existing formal architecture question, with no justification for isolated-host reruns."
+  }
+}

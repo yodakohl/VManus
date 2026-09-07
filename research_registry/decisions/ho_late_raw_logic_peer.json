@@ -1,0 +1,88 @@
+{
+  "review_id": "ho_late_raw_logic_peer",
+  "scope": "Logic-only audit of IDEA000027, IDEA000028, IDEA000029; no manuscript result or semantic truth inferred.",
+  "predecessors": "IDEA000015 was checked through its current idea card and the targeted IDEA000015 implication audit; GDT238 was checked as the named modal-route predecessor. GDT238 explicitly limits its prefix result to a weak visible relation/rendering mode and no portable relation/object key.",
+  "reviews": [
+    {
+      "id": "IDEA000027",
+      "title": "A whole-word candidate binds one botanical part class",
+      "binding": "The proposal binds complete candidate wholes to independently indexed botanical-part observations on separate folios, with section/page matched controls.",
+      "logic_status": "conditional_design_valid_but_entailment_overstated",
+      "countermodels": [
+        "A generic material or botanical-register lexeme can co-occur with one frequently drawn part without denoting that part.",
+        "A botanical lexeme can be mentioned when the relevant part is not drawn; absence of a part observation is then missing opportunity, not a negative semantic instance.",
+        "A true broad material meaning can have diffuse multi-part distribution, so failure of one-part concentration rejects the narrow part-binding claim only."
+      ],
+      "required_correction": "Model part visibility/opportunity and distinguish part naming from botanical-section membership. A positive concentration is evidence for bounded part association, not by itself proof that the whole lexically denotes the part."
+    },
+    {
+      "id": "IDEA000028",
+      "title": "Modal obligation is distinct from descriptive action",
+      "binding": "The proposal compares candidate-bearing and candidate-free action contexts using independently coded procedural context and matched descriptive fields.",
+      "logic_status": "conditional_design_valid_but_plain-action_null_not_entailing",
+      "countermodels": [
+        "A plain action lexeme can occur inside required, forbidden, conditional, or descriptive frames; lexical action meaning does not entail absence of modality.",
+        "A modal operator can be a separate neighboring construction, so candidate-bearing fields can show a modal shift without the candidate itself encoding obligation.",
+        "Independent medieval-style annotation can introduce annotator wording or genre bias; the proposal acknowledges this only in its falsifier."
+      ],
+      "required_correction": "Treat the test as operator-scope discrimination conditional on independently fixed action and modal annotations. A null contrast weakens this candidate-as-modal-operator mechanism, not all action or modality readings."
+    },
+    {
+      "id": "IDEA000029",
+      "title": "Record genre changes field-role distribution",
+      "binding": "The proposal uses complete candidate occurrences in independently classified description/instruction records, stratified by genre and controlled for register and position.",
+      "logic_status": "interaction_claim_does_not_entail_nonportable_meaning",
+      "countermodels": [
+        "One portable lexical meaning can take different field roles or pragmatic frames in description versus instruction genres.",
+        "Genre, register, position, or record schema can create a role interaction without a lexical semantic shift.",
+        "No interaction can reflect low power or broad role flexibility; it does not falsify portability by itself."
+      ],
+      "required_correction": "Separate portable lexical core from genre-conditioned compound/field role. A genre interaction is evidence for role-frame modulation only after independent genre labels and record controls; it is not evidence that the whole changes meaning."
+    }
+  ],
+  "overall": "All three designs need narrower claim ceilings. Broad meaning, compound role, and genre/modal context are separate hypotheses. The proposal falsifiers can reject each declared bounded mechanism under adequate independent bindings; they do not entail or refute a universal portable translation.",
+  "evidence": [
+    {
+      "path": "research_registry/proposals/hm_botanical_part_binding.json",
+      "line": 1,
+      "line_end": 1,
+      "quote": "{\"title\":\"A whole-word candidate binds one botanical part class\",\"summary\":\"Test whether a candidate whole is associated with an independently named plant part across held botanical records, distinguishing part identity from diffuse section co-occurrence.\",\"scope\":\"semantic\",\"design\":{\"mechanism\":\"The candidate denotes a plant-part class whose occurrences concentrate with externally bound root, leaf, seed, or flower records.\",\"unit\":\"complete candidate wholes paired with independently indexed botanical-part observations on separate folios\",\"contrast\":\"part-specific association versus section- and page-matched candidate occurrences without that part\",\"prediction\":\"One candidate-part association replicates across held folios and alternate readings while unrelated part classes remain near baseline; a generic material or register marker predicts no specific part concentration.\",\"falsifier\":\"No held-folio association survives section/page controls, or the top association changes with part-label coding, falsifies the bounded part-binding claim.\",\"scope\":\"admitted botanical selectors and independent part index only; endpoint availability_unknown for sufficient cross-folio bindings\",\"related\":\"IDEA000015 is a nearby raw predecessor; this proposal requires a preregistered external part index and held-folio association, not another co-occurrence count\"}}",
+      "sha256": "47a02076f657bdf4bac128ba7bd493e85a27fd3a88cfa714cacfe58f495d73d2"
+    },
+    {
+      "path": "research_registry/proposals/hm_modal_obligation.json",
+      "line": 1,
+      "line_end": 1,
+      "quote": "{\"title\":\"Modal obligation is distinct from descriptive action\",\"summary\":\"Test whether a recurring whole or construction marks required/forbidden action in procedural records, rather than merely describing an action or state.\",\"scope\":\"semantic\",\"design\":{\"mechanism\":\"A modal operator scopes over an adjacent action field and changes its obligation status without naming the action or material.\",\"unit\":\"complete action-like fields with independently coded procedural context and matched descriptive fields\",\"contrast\":\"candidate-bearing versus candidate-free action contexts, matched by register and field position\",\"prediction\":\"Candidate-bearing fields show higher rates of explicit requirement, prohibition, or conditional instruction in an independent medieval-style annotation, while descriptive contexts do not; a plain action reading predicts no modal shift.\",\"falsifier\":\"No held-context modal contrast after register/position controls, or an effect confined to one annotator's wording, falsifies the mechanism.\",\"scope\":\"cached admitted records plus preregistered independent modal annotation; endpoint availability_unknown\",\"related\":\"GDT238 modal route and procedural automaton history are predecessors, but this is an independently scoped semantic modality question, not prefix decoding or grammar fitting\"}}",
+      "sha256": "f7a433af061a1ac63f58692028b7c499ca0c2d0f7baf8584a0de000a93276120"
+    },
+    {
+      "path": "research_registry/proposals/hm_record_genre_role.json",
+      "line": 1,
+      "line_end": 1,
+      "quote": "{\"title\":\"Record genre changes field-role distribution\",\"summary\":\"Test whether a candidate whole's semantic role differs between description records and instruction records, rather than assuming one portable translation across genres.\",\"scope\":\"semantic\",\"design\":{\"mechanism\":\"The same whole may be a property/state marker in descriptive records but a procedure-condition marker in instructions because genre supplies a bounded role frame.\",\"unit\":\"complete candidate occurrences in independently classified description and instruction records\",\"contrast\":\"genre-stratified role distributions with leave-one-record-out validation, controlling register and position\",\"prediction\":\"A candidate shows a reproducible role interaction with genre, while its neighboring field types remain within each genre; a single portable meaning predicts no interaction.\",\"falsifier\":\"No held-record genre interaction, or the interaction disappears under record-level controls, falsifies the genre-conditioned role claim.\",\"scope\":\"cached admitted record classifications and exact whole occurrences; endpoint availability_unknown for independent genre labels\",\"related\":\"Existing q13 record-schema histories are broad comparators, not this candidate-level genre interaction; no decoder or regex-only test is proposed\"}}",
+      "sha256": "9f0ab41e9448425a7ce6cef1f4c9ac280b85403f9371b4cd6c74ed8109b55f15"
+    },
+    {
+      "path": "research_registry/decisions/hd_raw_implication_audit.json",
+      "line": 18,
+      "line_end": 20,
+      "quote": "    {\"id\":\"IDEA000013\",\"implication\":\"An operation need not produce a visible result within two fields; the mechanism entails a result relation only at whatever scope the process model specifies.\",\"assumptions\":\"A latency bound requires an independent process theory or preregistration, not intuition.\",\"countermodel\":\"Delayed, implicit, or externally represented results make the two-field threshold a test-design failure rather than a semantic falsifier.\"},\n    {\"id\":\"IDEA000014\",\"implication\":\"A one-to-one amount-to-entity prediction follows only for a unitary measurement grammar with one selected entity per frame.\",\"assumptions\":\"Mixed amounts, shared materials, and implicit entities must be modeled first.\",\"countermodel\":\"A valid amount frame can quantify a mixture or coordinated entities; duplicate/zero attachments then do not refute quantity semantics.\"},\n    {\"id\":\"IDEA000015\",\"implication\":\"A material-part meaning predicts concentration only if the record system repeatedly names one part and the candidate is not a broad material class.\",\"assumptions\":\"Independent part captions and comparable opportunity counts are required.\",\"countermodel\":\"A material can legitimately occur across several parts; diffuse concentration rejects a narrow one-part claim, not material meaning.\"},",
+      "sha256": "7cfa0376f4cb55f256a42267101d0207f4a62bd50743ecaaa82b967beb19f37d"
+    },
+    {
+      "path": "GDT238_LABEL_PREFIX_RELATION_MODE_REPORT.md",
+      "line": 30,
+      "line_end": 45,
+      "quote": "## Interpretation\n\nThe result refines, rather than reverses, GDT235–237.  Some transferred label\nprefixes appear to participate in a graphical **relation/rendering mode** that\nis more stable than the full family.  The full family still does not carry a\nportable relation or object key.  A conservative working decomposition is:\n\n```text\nPARTIAL LABEL/RELATION RENDERER + REGISTER-BOUND OPAQUE RESIDUAL\n```\n\n“Relation renderer” here means only that a source-family prefix weakly predicts\nthe catalogue's visible attachment/proximity class.  It does not say the\nprefix means “near,” “attached,” “inside,” or any other relation.  Proximity is\nnot ownership, and the source descriptions are not independent repetitions of\nan authorial semantic category.",
+      "sha256": "b24f86d8f7c04ee7dfaa77b9b87ca493e6bd1ac1bcc3b758b346738484a13060"
+    },
+    {
+      "path": "GDT238_LABEL_PREFIX_RELATION_MODE_REPORT.md",
+      "line": 47,
+      "line_end": 52,
+      "quote": "## Claim ceiling\n\nThis is a low-capacity exploratory geometric-association result.  It establishes\nno authorial ownership, relation word, object name, morpheme, sound, language,\nplaintext, or translation.  No f84 row was retained, joined, or scored, and no\nnew f84 access occurred.",
+      "sha256": "b24f86d8f7c04ee7dfaa77b9b87ca493e6bd1ac1bcc3b758b346738484a13060"
+    }
+  ]
+}

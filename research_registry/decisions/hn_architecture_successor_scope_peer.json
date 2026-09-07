@@ -1,0 +1,50 @@
+{
+  "scope": "GDT113 successor audit against the existing HF architecture decision.",
+  "decision": "EXTEND_EXISTING_ARCHITECTURE_SCOPE_IF_NEEDED__DO_NOT_OPEN_DISTINCT_SEMANTIC_QUESTION",
+  "existing_hf_key": "hf_model_scope_peer.json treats GDT298 as formal architecture selection with semantic endpoint unbound. GDT113 is a nearby record/page-conditioned architecture variant, not a new gloss candidate.",
+  "evidence": [
+    {
+      "successor": "GDT480",
+      "classification": "FORMAL_TEMPLATE_ATLAS_ONLY",
+      "path": "experiments/yolo/gdt480_microrecord_template_atlas/REPORT.md",
+      "line": 1,
+      "line_end": 12,
+      "quote": "# GDT480 microrecord template atlas\n\n## Outcome\n\nAll 135 complete GDT479 records now have two explicit defaults: a strict\nowner-neutral meaning template and a broader role shape. The strict layer has\n120 templates. Thirteen recur and cover 28 records; the role layer has 105\nshapes, of which 21 recur and cover 51 records.\n\n| Layer | Templates | Recurrent | Records in recurrent forms | Cross-page | Cross-register |\n|---|---:|---:|---:|---:|---:|\n| Strict meaning | 120 | 13 | 28 | 5 | 3 |",
+      "sha256": "4d69a8a9d68d76a95999029383db97c5a8e34c8eb50507a3796637d008907e32",
+      "scope_result": "Recurrent microrecord structure is formal and owner-neutral; it does not align templates to an independently varying external structure."
+    },
+    {
+      "successor": "GDT554",
+      "classification": "INTERNAL_REPLAY_NOT_EXTERNAL_BINDING",
+      "path": "experiments/yolo/gdt554_statement_semantic_template_audit/REPORT.md",
+      "line": 1,
+      "line_end": 17,
+      "quote": "# GDT554 — die Bedeutungen halten, aber die langen Satzschablonen fehlen\n\nStatus: `PASS_78_STATEMENT_TEMPLATE_ATLAS__ZERO_EXACT_CONTEXT_CONTRADICTIONS`\n\n## Ergebnis\n\nDer GDT553-Leser wurde in alle 78 bereits freigegebenen Aussagen zurückgelegt.\nAlle 149 Zielvorkommen treffen ihr exaktes Rezept und genau eine bereits\neingetragene Kontextlesung. Darunter liegen alle 23 später reparierten Karten.\nEs musste keine Bedeutung geglättet oder neu erfunden werden.\n\nDie horizontale Grammatik ist klein auf der Ebene der Zustandsbewegung, aber\nnicht auf der Ebene ganzer Sätze:\n\n- 546 Ereignisse verwenden 18 Aktions-/Argument-Steckplatzbewegungen;\n- die vier häufigsten Bewegungen decken 360/546 Ereignisse ab;\n- 16 der 18 Bewegungen kommen in beiden Registern vor;",
+      "sha256": "891676b786b59e66316485d82ff60e5a282d7f0fe73aeb2bc05e1908c8a61914",
+      "scope_result": "This returns an existing reader to admitted statements and checks internal consistency; it does not test independently varying external structures."
+    },
+    {
+      "successor": "GDT744",
+      "classification": "HISTORICAL_CHANNEL_BRIDGE_NOT_SEMANTIC_ALIGNMENT",
+      "path": "experiments/yolo/gdt744_historical_microfield_channel_bridge/REPORT.md",
+      "line": 1,
+      "line_end": 18,
+      "quote": "# GDT744 — historical microfield channel bridge\n\n## Outcome\n\nGDT744 turns part of the inherited generic renderer into explicit historical\nrecord fields without pretending to know the missing substance names.\n\nAcross all 202 cached targets, 140 microfields are fully bounded inside radius\nfive and 62 are censored on at least one side. Sixteen exact-target/channel\ntemplates recur on at least two fully bounded pages with different anchors.\nThey cover 80 target occurrences: 47 fully bounded F3 cases and 33 censored F2\napplications. Combining these field readings with GDT743's 59 target-specific\nreadings yields 95 context-specific occurrences, 36 more than before.\n\nThis is not a translation. Confirmed lexemes and plaintext clauses remain zero.\n\n## What the renderer can now say\n",
+      "sha256": "e7f55a4f66367c5fceed9c12c0f65ad6c63f8591d4841732e1ce61f7476ff4d5",
+      "scope_result": "It bridges historical field channels around cached targets, but does not supply independent external referents or field substitutions held against them."
+    },
+    {
+      "successor": "GDT793",
+      "classification": "WHOLE_RECORD_MASKED_OWNER_TEST_NOT_EXTERNAL_ALIGNMENT",
+      "path": "experiments/yolo/gdt793_okal_whole_record_candidate_discriminator/REPORT.md",
+      "line": 1,
+      "line_end": 25,
+      "quote": "# GDT793 report — `okal` whole-record candidate discriminator\n\n## Result\n\nGDT793 selects one deliberately bold but replaceable working meaning for the\nexact complete form `okal`:\n\n```text\nokal = KENNSTELLEN-/SYSTEMEINTRAGSCODE\n       [C0 working renderer, not confirmed plaintext]\n```\n\nIn a ring this is displayed as a ring-position or system-entry code; in the\nf82 pool drawing it is displayed as a station/system-entry code. The meaning\nis not exported to `ok`, `al`, `okaly`, `okaldy`, `qokal` or any other longer\nor shorter form.\n\nThis is more specific than GDT792's structural tag. It says that `okal` most\nlikely classifies or codes a member/slot of an organised set. It does **not**\nsay “go to this target”, identify one unique named member, or mean a numeral.\nAn entirely opaque productive renderer remains a live null, so the confidence\nstays C0.\n\nThe guarded build passes 181 checks and two byte-identical replays.\n",
+      "sha256": "e748c61ae6039437a6640d918bb475fe87053e5b2345870af97043e90b705b2e",
+      "scope_result": "The masked whole-record test challenges owner/address interpretations, not GDT113's proposed external record-template alignment."
+    }
+  ],
+  "successor_conclusion": "The returned successors refine internal templates, historical field channels, or whole-record owner hypotheses. None actually executes GDT113's proposed alignment to independently varying external structures with held field substitutions. They therefore do not close that route, but they also do not justify reopening isolated host/content tests.",
+  "recommendation": "Treat a future provenance-clean external-template alignment as an extension of the existing HF architecture question, with GDT113 as the page/register-conditioned branch and GDT298 as the joint-form branch. Keep it distinct only at the preregistered predictor level; do not create a new semantic dossier or claim semantic readiness.",
+  "minimum_changed_input": "Freeze repeated record templates, an independently varying external structure, source-bound field correspondences, and held records. Require gains beyond page/register, string, edge, and template-frequency controls."
+}
