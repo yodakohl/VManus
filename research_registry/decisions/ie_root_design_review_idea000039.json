@@ -1,0 +1,60 @@
+{
+  "record_id": "IDEA000039",
+  "scope": "method",
+  "verdict": "not_tested",
+  "reviewer": "root after exact raw binding, source audit and independent peer challenge",
+  "reason": "A component can itself be an object, and its name can denote a class shared by many owners. The design disjoins component and process-state readings but contrasts them with an overly strict object-owner model. A generic object name need not have one physical owner.",
+  "assessment_basis": "source_and_logical_design_review_no_manuscript_test",
+  "blockers": [
+    {
+      "code": "missing_design",
+      "detail": "A component can itself be an object, and its name can denote a class shared by many owners. The design disjoins component and process-state readings but contrasts them with an overly strict object-owner model. A generic object name need not have one physical owner.",
+      "evidence": [
+        "research_registry/decisions/ie_root_design_scope_review.json"
+      ]
+    },
+    {
+      "code": "missing_meaning_binding",
+      "detail": "The current comparator, renderer or proposal supplies no independent binding for the stated Voynich semantic endpoint. No empirical failure is claimed.",
+      "evidence": [
+        "research_registry/decisions/ie_root_design_scope_review.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "scope_and_discriminating_prediction",
+        "change": "new_design",
+        "detail": "Choose the precise component-class, individual-object or state contract and its rival. Predeclare different predictions under independently crossed stage, component and owner contexts; do not equate all object names with unique individual identifiers.",
+        "evidence": [
+          "research_registry/decisions/ie_root_design_scope_review.json"
+        ]
+      },
+      {
+        "id": "independent_held_endpoint",
+        "change": "new_binding",
+        "detail": "Demonstrate actual independently scoreable held contrasts and applicable provenance/capacity gates. Accurate but fully coupled labels, more old cases or a historical comparator alone are insufficient.",
+        "evidence": [
+          "research_registry/decisions/ie_root_design_scope_review.json"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Lexical duplicate screening or different title/design bytes treated as scientific novelty.",
+      "More author-assigned labels or source counts without a changed discriminating prediction.",
+      "A relation to another proposal treated as an identity merge or a shared empirical verdict."
+    ]
+  },
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "IDEA000041",
+      "reason": "Component/state identity and graph topology can describe the same locus; neither complete design is an exact duplicate of the other.",
+      "evidence": [
+        "research_registry/decisions/ie_root_design_scope_review.json"
+      ]
+    }
+  ]
+}

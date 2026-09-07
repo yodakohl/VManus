@@ -1,0 +1,22 @@
+{
+  "title": "A conditional applicability marker licenses a rule only under a stated context",
+  "summary": "Test whether a recurring whole marks that a following operation/field applies only when a bounded preceding condition is met, rather than being an unconditional action, generic connector, or exception override. GDT269's same PAGE_HOST with q and bare renderings supplies a source-informed conditioning question, not semantic gold.",
+  "scope": "semantic",
+  "design": {
+    "mechanism": "A whole scopes over a precondition-to-applicability relation: the following rule is licensed only when the bounded condition holds.",
+    "unit": "Complete candidate occurrences with an independently coded preceding condition, following rule/action field, and a matched no-marker default context.",
+    "contrast": "candidate-bearing conditional applicability versus the same rule applied unconditionally or after a condition without the candidate; exception overrides and causal consequence are separate rivals.",
+    "prediction": "The candidate should predict a stable interaction between the preceding condition and whether the following rule/action is licensed, with the rule absent or marked inapplicable when the condition fails; an unconditional wrapper/default predicts no condition-by-marker interaction.",
+    "falsifier": "If the following rule occurs with equal authorization under failed and satisfied conditions, or the candidate only tracks record position/template while condition status adds no held interaction, the conditional-applicability hypothesis fails.",
+    "availability": "Independent condition, applicability/license, and candidate-bound endpoint availability_unknown; GDT269 explicitly assigns no semantic operator or meaning.",
+    "related": "Near IDEA000030 causal connector, IDEA000031 contrast marker, IDEA000032 coordination marker, and IDEA000034 exception override, but distinct in unit and falsifier: licensing an ordinary rule under a condition, not cause/consequence, opposition/list scope, or deliberate rule override.",
+    "countermodel": "A renderer/template model can produce the same positive association if the candidate is simply an outer wrapper selected by PAGE_HOST or field position; GDT269's loss of strength under within-field-position conditioning is compatible with that model. Therefore a positional association alone cannot confirm conditional applicability.",
+    "source_evidence": {
+      "path": "GDT269_Q13_WRAPPER_HOST_CONDITIONAL_REPORT.md",
+      "line": 12,
+      "line_end": 15,
+      "quote": "This removes the simplest alternative that GDT267 merely compared different\nhost vocabularies on earlier and later records. The same opaque PAGE_HOST can\noccur with q and bare rendering, and q remains earlier-associated within exact\npage/host strata.",
+      "sha256": "eb7accca65a6de8ccbc5c80cedf6f39b48b333f9b112fa4e1cbc4bb5f37d453d"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "record_id": "IDEA000037",
+  "title": "A repeated complete form codes a class or slot, not a unique member",
+  "reviewer": "luna_three_hour_producer",
+  "status": "DRAFT_NONOPERATIVE",
+  "verdict": "not_tested",
+  "scope": "Method design review only; no empirical assessment or registry append.",
+  "proposal_binding": {
+    "path": "research_registry/proposals/hu_class_slot_code.json",
+    "sha256": "a21fa40130ace3d32ccd63b8249c7f4a68accc1c6feea221e0b94132d823a4a3",
+    "design_sha256": "a8c3c002f1a3f1db217c241038739f32291f5030a3586d0d0587764fa68c2381",
+    "exact_registered_title": "A repeated complete form codes a class or slot, not a unique member"
+  },
+  "predecessor": {
+    "path": "research_registry/decisions/hu_raw_intake_root.json",
+    "sha256": "f760984f997383970f438022192eb65f9325c604609143520d5093a7b7dbd5ed",
+    "reason": "HU root receipt binds IDEA36/37 source-quote corrections and exact raw intake; preserved as predecessor, not new discovery."
+  },
+  "assessment_basis": {
+    "unit": "exact complete forms with independently recorded visual slot/class and owner-masked record context",
+    "mechanism": "class/slot/system-entry code versus unique member/name or ordinal",
+    "prediction": "same-form recurrence across shared classes/slots with changing members",
+    "falsifier": "one-to-one form/member or form/ordinal mapping, or no class/slot invariance after owner masking",
+    "independent_binding": "independent slot/class labels and owner-masked endpoint unavailable; GDT793 result is a predecessor, not class semantic gold"
+  },
+  "blockers": [
+    "missing_independent_semantic_binding",
+    "design_underdetermined_under_possible_covariate_collinearity"
+  ],
+  "reason": "The source quote correction is already recorded in the HU root receipt; no proposal-byte repair is part of this draft.",
+  "relations": [
+    {
+      "target": "IDEA000039",
+      "relation": "related_to",
+      "reason": "Both test repeated visual forms across units, but 37 tests class/slot invariance versus member/ordinal identity and 39 tests stage/state covariance versus owner identity."
+    }
+  ],
+  "evidence": [
+    {
+      "path": "experiments/yolo/gdt793_okal_whole_record_candidate_discriminator/REPORT.md",
+      "line": 56,
+      "line_end": 58,
+      "quote": "The result is 0/3. In other words, all apparent address evidence disappears\nwhen the candidate is forbidden from proving itself. The class/slot model\ndoes not predict such a companion fingerprint and survives this test.",
+      "sha256": "e748c61ae6039437a6640d918bb475fe87053e5b2345870af97043e90b705b2e"
+    }
+  ],
+  "reopen": {
+    "all_of": [
+      "independent source-bound endpoint for the stated unit",
+      "predeclared crossed or matched rival contexts sufficient to separate the stated mechanism from its named rival"
+    ],
+    "not_sufficient": [
+      "more renderer counts or source-case counts",
+      "historical comparator resemblance without Voynich binding",
+      "factorial coverage claimed without actual crossed cells"
+    ]
+  },
+  "relations_policy": "Use related_to only; no duplicate_of proposed.",
+  "source_fidelity": "IDEA36/37 raw quote corrections are already recorded in hu_raw_intake_root.json; original proposal bytes remain unchanged."
+}

@@ -1,0 +1,144 @@
+{
+  "id": "IE_INDEPENDENT_DESIGN_PEER",
+  "type": "bounded_design_review",
+  "status": "approved_with_specific_corrections",
+  "scope": "IDEA000036/037/039/040/041 only; raw proposals and operative registries unchanged.",
+  "graph_check": {
+    "root_relations_use": "related_to",
+    "duplicate_of_present": false,
+    "assessment": "All retained relation edges are related_to, not duplicate_of. Existing reasons preserve distinct units, rivals, and falsifiers."
+  },
+  "items": [
+    {
+      "id": "IDEA000036",
+      "title": "Figure labels track process state rather than biography",
+      "proposal": "research_registry/proposals/hu_process_person_reference.json",
+      "proposal_sha256": "19f2848f76fea0e451a48948677c833e264a7802ac99a0294e5cf93d1e192f94",
+      "design_sha256": "2fca13fd9d5edfa838b38f8c6c75720c3b82921c49391d94347cc897f388d820",
+      "verdict": "retain_raw_not_tested",
+      "correction": "Approve as distinct from 39/40, but its state-versus-biography prediction is identifiable only with independent owner, state, and material labels plus crossed state/owner cells. A comparator saying figures may be personified materials is contextual motivation, not Voynich semantic binding.",
+      "source_evidence": {
+        "path": "GDT208_MEDICAL_ALCHEMICAL_CIRCULATION_REPORT.md",
+        "line": 7,
+        "line_end": 10,
+        "quote": "The q13 apparatus pages most plausibly describe a **medicinal-alchemical\ncirculation, separation, and staged-transformation system**.  Their human\nfigures are provisionally better modeled as personified materials or process\nstates inside an apparatus than as a literal catalogue of bathers.",
+        "sha256": "eb15da3569cb5e54703a2efb1b0b06d258a1d88629f9a0b9a7c65134b9560155"
+      }
+    },
+    {
+      "id": "IDEA000037",
+      "title": "A repeated complete form codes a class or slot, not a unique member",
+      "proposal": "research_registry/proposals/hu_class_slot_code.json",
+      "proposal_sha256": "a21fa40130ace3d32ccd63b8249c7f4a68accc1c6feea221e0b94132d823a4a3",
+      "design_sha256": "a8c3c002f1a3f1db217c241038739f32291f5030a3586d0d0587764fa68c2381",
+      "verdict": "retain_raw_not_tested",
+      "correction": "Approve as distinct from 39: class/slot invariance versus unique member/ordinal is a different endpoint. Require independently coded class/slot labels and owner masking; a repeated form can satisfy both class and owner descriptions when labels are collinear.",
+      "source_evidence": {
+        "path": "experiments/yolo/gdt793_okal_whole_record_candidate_discriminator/REPORT.md",
+        "line": 56,
+        "line_end": 58,
+        "quote": "The result is 0/3. In other words, all apparent address evidence disappears\nwhen the candidate is forbidden from proving itself. The class/slot model\ndoes not predict such a companion fingerprint and survives this test.",
+        "sha256": "e748c61ae6039437a6640d918bb475fe87053e5b2345870af97043e90b705b2e"
+      }
+    },
+    {
+      "id": "IDEA000039",
+      "title": "A repeated diagram whole denotes a component or state key rather than an object",
+      "proposal": "research_registry/proposals/ic_component_state_key.json",
+      "proposal_sha256": "7b51b212a7a15a69bbb24aa0ec83add727d2b4025de4f04178006d5b60a9ae81",
+      "design_sha256": "14dcb7521af5c74b1ee248323e46b4691fc2dba28ced5c0cf1281a6f2f7f1447",
+      "verdict": "retain_raw_not_tested",
+      "correction": "Approve as distinct from 37 and 41, with a required three-way crossed design: shared stage/state across changing owners, while component and topology vary independently. A locus may simultaneously be a component/state key and a return/junction, so recurrence alone cannot choose them.",
+      "source_evidence": {
+        "path": "GDT214_HYDRAULIC_COMPONENT_KEY_COMPARATOR_REPORT.md",
+        "line": 7,
+        "line_end": 20,
+        "quote": "Met 55.121.11 is the closest readable technical-rendering comparator yet.  It\ncombines a water source, repeated lifting components, a driving animal, shafts\nand wheels, and numerous compact marks beside parts.  The reverse is\nespecially informative: four parallel lifting bays sit under a shared drive,\nshowing that repeated visual units can be components or stages of one machine\nrather than four independent named objects.\n\n## Architectural consequence\n\nThis establishes a historically real alternative for q13 graphical text:\nsome diagram-local strings could function as references into explanatory prose\nor as component/state keys, not as ordinary object names.  That alternative is\nmore compatible with q13's mixed labels/prose and weak one-object ownership\nthan a naive label dictionary.",
+        "sha256": "3b4eb7a83374124ca02cb375ba224b080f994389c7056f0bf100c4d10d6c4d8b"
+      }
+    },
+    {
+      "id": "IDEA000040",
+      "title": "A figure-linked whole selects treatment mode rather than a person or material",
+      "proposal": "research_registry/proposals/ic_treatment_mode_scope.json",
+      "proposal_sha256": "98272550e7d55e527f0781575ca574536e6f3d10d7c5f4630d918fe3a94c25fc",
+      "design_sha256": "f35e5f54c06e3bae16d9e9a45ca66266c0aa65c9d4a6736151bee6ac0008dc6f",
+      "verdict": "retain_raw_not_tested",
+      "correction": "Approve as distinct from 36: mode/procedure position is the target while figure/material are controls. GDT210 post-hoc comparator leads do not bind Voynich mode labels; held crossed modes and owners are required. This is underdetermined, not impossible in principle.",
+      "source_evidence": {
+        "path": "GDT210_THERAPEUTIC_BALNEOLOGICAL_COMPARATOR_REPORT.md",
+        "line": 14,
+        "line_end": 16,
+        "quote": "Across the transparent post-hoc comparison, 6 axes are specific\nleads for the bath theory and 1 is a secondary lead for the\nalchemical/hydraulic theory. No composite score or p-value is claimed.",
+        "sha256": "3671117cccfb54862084fe4d29154743604433ea5b36be9ec69df52bc383084c"
+      }
+    },
+    {
+      "id": "IDEA000041",
+      "title": "A diagram whole marks a return-loop or branch junction",
+      "proposal": "research_registry/proposals/id_return_loop_topology.json",
+      "proposal_sha256": "0f29d392cc1d4e04a9b5d2faf4279280be560e088c8e6b264b4553da5513cc51",
+      "design_sha256": "c7d5d4a9c7e825d8ce04ed6652ea473de15d9d1f77376fdac8958c012df003f0",
+      "verdict": "retain_raw_not_tested",
+      "correction": "Approve as distinct from 39: topology enrichment versus stage/state recurrence has a different endpoint, but the same locus can satisfy both. Independent graph coding and crossed component/owner/topology cells are required; historical comparator machinery is not label gold.",
+      "source_evidence": {
+        "path": "GDT209_DQE_APPARATUS_TOPOLOGY_REPORT.md",
+        "line": 7,
+        "line_end": 19,
+        "quote": "Direct source-bound inspection found genuine quintessence-tradition machinery:\n\n- Wolfenbüttel fol. 40r shows two connected pear-shaped vessels with crossing\n  ducts;\n- Othmer fol. 10r shows a return-loop vessel and a second vessel with paired\n  internal descending ducts;\n- Othmer fol. 36r shows paired domed furnaces, nested chambers, fire, and side\n  outlets.\n\nThis is materially better evidence than a generic claim that medieval\nalchemy used vessels. It supports circulation, paired-container, nested-\napparatus, and side-duct geometry as authentic technical imagery near the\nVoynich period.",
+        "sha256": "9754c450f0900ff6865cb4d43436f6845219645493ef3887eb3fc69c21ae0799"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "pair": [
+        "IDEA000036",
+        "IDEA000039"
+      ],
+      "relation": "related_to",
+      "assessment": "Correct; related covariance logic, different unit/rival/falsifier. No duplicate_of."
+    },
+    {
+      "pair": [
+        "IDEA000036",
+        "IDEA000040"
+      ],
+      "relation": "related_to",
+      "assessment": "Correct; both need context covariance, but 36 tests process/material state versus biography and 40 tests treatment mode with figure/material controls. No duplicate_of."
+    },
+    {
+      "pair": [
+        "IDEA000037",
+        "IDEA000039"
+      ],
+      "relation": "related_to",
+      "assessment": "Correct; class/slot invariance and component/state covariance can be collinear, but their restricted models and endpoints differ. Do not merge."
+    },
+    {
+      "pair": [
+        "IDEA000039",
+        "IDEA000041"
+      ],
+      "relation": "related_to",
+      "assessment": "Correct; stage/state and topology can co-occur at one locus, so this is related rather than duplicate. Require crossed variation to discriminate."
+    },
+    {
+      "pair": [
+        "IDEA000040",
+        "IDEA000041"
+      ],
+      "relation": "none",
+      "assessment": "Approve no relation on current designs; treatment mode and graph topology have different units and predictions."
+    },
+    {
+      "pair": [
+        "IDEA000037",
+        "IDEA000040"
+      ],
+      "relation": "none",
+      "assessment": "Approve no relation; no shared proposition beyond generic contextual testing."
+    }
+  ],
+  "global_correction": "Crossed independent labels can distinguish the restricted models when source-bound endpoints and non-collinear cells are available. Current designs correctly mark those endpoints unavailable; this is a readiness limitation, not a claim that meaning can never be inferred. Historical comparator reports motivate rivals but do not supply Voynich semantic gold."
+}

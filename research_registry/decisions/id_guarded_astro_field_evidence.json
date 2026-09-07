@@ -1,0 +1,39 @@
+{
+  "status": "SOURCE_TABLE_CONTRACT_AUDIT_ONLY",
+  "queries": [
+    {
+      "command": [
+        "./vmanus-exp",
+        "query-tsv",
+        "experiments/yolo/sidequest_semantic_astro_nomenclator_closure/ASTRO_395_NOMENCLATOR_CLOSED.tsv",
+        "--selector",
+        "locus",
+        "--allow",
+        "f67r2.27",
+        "--columns",
+        "page,locus,surface_display,bridge_class,matched_component_ids,residual_local_segments,nomenclator_family,compact_operational_default_de"
+      ],
+      "source_sha256": "621fe7afd2e8ec36294a5882c00376059d256de11c2c0879113457f7485ff9c9",
+      "stdout": "page\tlocus\tsurface_display\tbridge_class\tmatched_component_ids\tresidual_local_segments\tnomenclator_family\tcompact_operational_default_de\nf67r2\tf67r2.27\tokeo\tSINGLE_COMPONENT_BRIDGE\tB05_OK_SET\teo\tCOMMON_22_COMPONENT_BRIDGE\tDiagrammposten setzen oder aktivieren\nf67r2\tf67r2.27\tr\tLOCAL_ASTRO_NOMENCLATOR\tLOCAL_NAME_OR_VALUE\tr\tN01_VALUE_SIGNS\tBezugswert\nf67r2\tf67r2.27\taiin\tEXACT_PROSE_SURFACE_BRIDGE\tEXACT:Sollmaß\tNONE\tCOMMON_22_COMPONENT_BRIDGE\tSollwert oder Grad des bezeichneten Himmelsplatzes\nf67r2\tf67r2.27\tam\tLOCAL_ASTRO_NOMENCLATOR\tLOCAL_NAME_OR_VALUE\tam\tN02_AM_ASPECT\tAspektwert\n",
+      "guard_stats": "GUARD_STATS {\"selected\": 4, \"skipped_forbidden\": 0, \"skipped_not_allowed\": 391}\n"
+    },
+    {
+      "command": [
+        "./vmanus-exp",
+        "query-tsv",
+        "experiments/yolo/sidequest_semantic_astro_nomenclator_closure/ASTRO_142_NOMENCLATOR_CLOSED_LOCI.tsv",
+        "--selector",
+        "locus",
+        "--allow",
+        "f67r2.27",
+        "--columns",
+        "page,locus,surface_sequence,bridge_class_sequence,component_sequence,closed_locus_reading_de"
+      ],
+      "source_sha256": "6da87c15c8d795ca285806c41f4569e8d01eadc917abb5a04879773603e58db4",
+      "stdout": "page\tlocus\tsurface_sequence\tbridge_class_sequence\tcomponent_sequence\tclosed_locus_reading_de\nf67r2\tf67r2.27\tokeo r aiin am\tSINGLE_COMPONENT_BRIDGE LOCAL_ASTRO_NOMENCLATOR EXACT_PROSE_SURFACE_BRIDGE LOCAL_ASTRO_NOMENCLATOR\tB05_OK_SET || LOCAL_NAME_OR_VALUE || EXACT:Sollmaß || LOCAL_NAME_OR_VALUE\tA1_LEFT_LOCAL_FIELD_27: Diagrammposten setzen oder aktivieren | Bezugswert | Sollwert oder Grad des bezeichneten Himmelsplatzes | Aspektwert.\n",
+      "guard_stats": "GUARD_STATS {\"selected\": 1, \"skipped_forbidden\": 0, \"skipped_not_allowed\": 141}\n"
+    }
+  ],
+  "new_manuscript_observation": false,
+  "new_semantic_evidence": false
+}

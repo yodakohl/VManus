@@ -1,0 +1,65 @@
+{
+  "record_id": "IDEA000036",
+  "title": "Figure labels track process state rather than biography",
+  "reviewer": "luna_three_hour_producer",
+  "status": "DRAFT_NONOPERATIVE",
+  "verdict": "not_tested",
+  "scope": "Method design review only; no empirical assessment or registry append.",
+  "proposal_binding": {
+    "path": "research_registry/proposals/hu_process_person_reference.json",
+    "sha256": "19f2848f76fea0e451a48948677c833e264a7802ac99a0294e5cf93d1e192f94",
+    "design_sha256": "2fca13fd9d5edfa838b38f8c6c75720c3b82921c49391d94347cc897f388d820",
+    "exact_registered_title": "Figure labels track process state rather than biography"
+  },
+  "predecessor": {
+    "path": "research_registry/decisions/hu_raw_intake_root.json",
+    "sha256": "f760984f997383970f438022192eb65f9325c604609143520d5093a7b7dbd5ed",
+    "reason": "HU root receipt binds IDEA36/37 source-quote corrections and exact raw intake; preserved as predecessor, not new discovery."
+  },
+  "assessment_basis": {
+    "unit": "complete figure-associated labels with independently registered owner, apparatus stage, and material/process state",
+    "mechanism": "process/material-state reference versus biography or patient identity",
+    "prediction": "state-linked recurrence across changing owners/materials",
+    "falsifier": "held labels preserve person/patient identity across state changes, or state association disappears after owner masking",
+    "independent_binding": "missing independent Voynich label owner and state/material gold; GDT208 is comparator context only"
+  },
+  "blockers": [
+    "missing_independent_semantic_binding",
+    "design_underdetermined_under_possible_covariate_collinearity"
+  ],
+  "reason": "The source quote correction is already recorded in the HU root receipt; no proposal-byte repair is part of this draft.",
+  "relations": [
+    {
+      "target": "IDEA000039",
+      "relation": "related_to",
+      "reason": "Shared recurrence/covariance logic, but 36 tests figure labels versus biography/patient identity and 39 tests diagram stage/state versus local owner."
+    },
+    {
+      "target": "IDEA000040",
+      "relation": "related_to",
+      "reason": "Both require context covariance, but 36 targets process/material state versus biography and 40 targets treatment mode while controlling figure/material."
+    }
+  ],
+  "evidence": [
+    {
+      "path": "GDT208_MEDICAL_ALCHEMICAL_CIRCULATION_REPORT.md",
+      "line": 7,
+      "line_end": 10,
+      "quote": "The q13 apparatus pages most plausibly describe a **medicinal-alchemical\ncirculation, separation, and staged-transformation system**.  Their human\nfigures are provisionally better modeled as personified materials or process\nstates inside an apparatus than as a literal catalogue of bathers.",
+      "sha256": "eb15da3569cb5e54703a2efb1b0b06d258a1d88629f9a0b9a7c65134b9560155"
+    }
+  ],
+  "reopen": {
+    "all_of": [
+      "independent source-bound endpoint for the stated unit",
+      "predeclared crossed or matched rival contexts sufficient to separate the stated mechanism from its named rival"
+    ],
+    "not_sufficient": [
+      "more renderer counts or source-case counts",
+      "historical comparator resemblance without Voynich binding",
+      "factorial coverage claimed without actual crossed cells"
+    ]
+  },
+  "relations_policy": "Use related_to only; no duplicate_of proposed.",
+  "source_fidelity": "IDEA36/37 raw quote corrections are already recorded in hu_raw_intake_root.json; original proposal bytes remain unchanged."
+}

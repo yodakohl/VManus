@@ -1,0 +1,112 @@
+{
+  "id": "ID_LOCAL_SCOPE_CHALLENGE",
+  "type": "source_scope_peer",
+  "status": "additive_correction",
+  "summary": "Corrects three overextensions in the preceding ID audit: GDT464 is only a strict prefix/name-class counterexample; DAIN does not independently validate AIIN; and the Astro field tokens have mixed provenance (common bridge, exact prose bridge, and local family map).",
+  "items": [
+    {
+      "id": "SEM:0745826d8bd70c5fd6e7",
+      "current_binding": "GDT464: `of` is an O+LOCAL_CHAR_F technical card rather than an individual star name; later spans remain learned local cores; status unconfirmed.",
+      "correction": "The mixed celestial/pharmaceutical recurrence falsifies only a strict contract in which one injective `of` prefix must be an individual star-name class. It does not exclude homography, transferred names, common initial substrings, or multiple whole-name strings. The same two-atom recipe is inherited from the admitted running dictionary and is not independent segmentation evidence.",
+      "countermodel": "A shared prefix channel can precede two unrelated learned whole labels, or names can be reused across registers; all six recipe-filtered matches remain true under that model.",
+      "reopen": "Predeclare a rival whole-name/functional-prefix contract and use independently sourced held role or ownership labels; repeated recipe-filtered extensions are insufficient.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt464_residual_exact_package_bridge/METHOD.md",
+          "line": 33,
+          "line_end": 36,
+          "quote": "The strict GDT461 owner-family search is also rerun over all 183 address\nevents. A substring must occur in at least three unique surfaces, remain in\none content class, and span both relevant class pages. Mixed-class `of` is\ntherefore evaluated only as a functional card, never as a star-family name.",
+          "sha256": "b0e55e07eb99b937aba8e075757efa63e63f5391fd276ebaeba0f3a4573f59d5"
+        },
+        {
+          "path": "experiments/yolo/gdt464_residual_exact_package_bridge/src/run.py",
+          "line": 72,
+          "line_end": 88,
+          "quote": "    running_recipe: dict[str, str] = {}\n    running_events: dict[str, list[dict[str, str]]] = defaultdict(list)\n    for row in running:\n        previous = running_recipe.setdefault(row[\"surface\"], row[\"component_recipe\"])\n        if previous != row[\"component_recipe\"]:\n            raise RuntimeError(f\"Non-invariant running surface: {row['surface']}\")\n        running_events[row[\"surface\"]].append(row)\n\n    def literal(recipe: str) -> str:\n        return \" · \".join(values[atom] for atom in recipe.split(\"+\"))\n\n    def recipe_surfaces(sequence: str) -> list[str]:\n        atoms = sequence.split(\"+\")\n        return sorted(\n            surface for surface, recipe in running_recipe.items()\n            if contains_atoms(atoms, recipe.split(\"+\"))\n        )",
+          "sha256": "dd17ed03dfad5db97a719bdb994395cdc5964532193f948b0b9e943ae0cb1326"
+        },
+        {
+          "path": "experiments/yolo/gdt464_residual_exact_package_bridge/src/run.py",
+          "line": 97,
+          "line_end": 105,
+          "quote": "    # q is already a renderer channel, while bare of- extensions are six for\n    # six O+LOCAL_CHAR_F. The six labels receive the same complete left card.\n    of_extensions = sorted(surface for surface in running_recipe if surface.startswith(\"of\"))\n    of_matches = [\n        surface for surface in of_extensions\n        if running_recipe[surface].split(\"+\")[:2] == [\"O\", \"LOCAL_CHAR_F\"]\n    ]\n    if running_recipe.get(\"qof\") != \"O+LOCAL_CHAR_F\":\n        raise RuntimeError(\"qof base card changed\")",
+          "sha256": "dd17ed03dfad5db97a719bdb994395cdc5964532193f948b0b9e943ae0cb1326"
+        },
+        {
+          "path": "experiments/yolo/gdt464_residual_exact_package_bridge/REPORT.md",
+          "line": 29,
+          "line_end": 39,
+          "quote": "That channel occurs in six address labels spanning both celestial and\npharmaceutical material. The mixed class is positive evidence against an\nindividual star-name reading. It yields, among others:\n\n- `of` → `AUSFÜHRUNG · HIER`;\n- `ofaralar` → `AUSFÜHRUNG · HIER · AUSGANG · ZIELORT · AUSGANG`;\n- `ofaom` → `AUSFÜHRUNG · HIER · [STERNSTELLENNAME:aom]`;\n- `ofakal` → `AUSFÜHRUNG · HIER · [DROGENNAME:ak] · ZIELORT`.\n\nThe unreconstructed spans remain explicit name cores. In particular, this does\nnot revive the rejected `om` edge.",
+          "sha256": "1ceca7302ec2833b9ebfdcc7cdd51afe64cf599a61b9a6341e4274af4b4479d9"
+        }
+      ]
+    },
+    {
+      "id": "SEM:0f27dac075bca93709d5",
+      "current_binding": "Pass253: eleven AIIN Astro groups are labeled prescribed values/grades, one AIN part-value, and DAIN a whole cover/carrier; status unconfirmed.",
+      "correction": "The DAIN exception is a retained whole-card category, but it is not independent support for AIIN’s value. The builder joins admitted cards to admitted groups and assigns fixed category strings; the same table is compatible with memorized AIIN and DAIN wholes, productive endings, or a mixed policy.",
+      "countermodel": "AIIN can be a learned whole class while DAIN is a learned whole exception; the 11/1/1 counts and report wording remain unchanged.",
+      "reopen": "A held same-carrier contrast must have preregistered whole-versus-ending predictions and independent source-native role/value coding. Reprojection of the 13 groups cannot distinguish them.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_astro_quantity_projection_two_hundred_fifty_third/build_two_hundred_fifty_third.py",
+          "line": 34,
+          "line_end": 49,
+          "quote": "def main() -> None:\n    cards = {r[\"master_card_id\"]: r for r in read_tsv(CARDS)}\n    groups = read_tsv(GROUPS)\n    occurrences: list[dict[str, object]] = []\n    for row in groups:\n        if row[\"exact_prose_card_id\"] not in cards:\n            continue\n        card = cards[row[\"exact_prose_card_id\"]]\n        occurrences.append({\n            \"group_serial\": row[\"group_serial\"], \"page\": row[\"page\"], \"locus\": row[\"locus\"],\n            \"visible_owner\": row[\"visible_owner\"], \"namespace_id\": row[\"namespace_id\"],\n            \"visible_surface\": row[\"visible_surface\"], \"master_card_id\": row[\"exact_prose_card_id\"],\n            \"quantity_ending\": card[\"quantity_ending\"], \"family_value_de\": card[\"family_value_de\"],\n            \"diagram_local_reading_de\": row[\"concrete_diagram_reading_de\"],\n            \"projection_result\": \"FALSE_FRIEND_RETAINED\" if card[\"quantity_ending\"] == \"FALSE_FRIEND\" else \"QUANTITY_VALUE_PRESERVED\",\n        })",
+          "sha256": "85c8cd3a4afff50fbbd9d3caa05e86a584cbc3402d2eca5cb43b406e695ec879"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_astro_quantity_projection_two_hundred_fifty_third/build_two_hundred_fifty_third.py",
+          "line": 51,
+          "line_end": 67,
+          "quote": "    comparison: list[dict[str, object]] = []\n    for ending in (\"AIN\", \"AN\", \"AIIN\", \"FALSE_FRIEND\"):\n        prose_cards = [r for r in cards.values() if r[\"quantity_ending\"] == ending]\n        astro = [r for r in occurrences if r[\"quantity_ending\"] == ending]\n        comparison.append({\n            \"ending\": ending,\n            \"prose_card_count\": len(prose_cards),\n            \"prose_event_count\": sum(int(r[\"prose_event_count\"]) for r in prose_cards),\n            \"astro_group_count\": len(astro),\n            \"astro_pages\": \"|\".join(dict.fromkeys(str(r[\"page\"]) for r in astro)) or \"NONE\",\n            \"astro_surfaces\": \"|\".join(dict.fromkeys(str(r[\"visible_surface\"]) for r in astro)) or \"NONE\",\n            \"cross_register_reading\": (\n                \"bounded partial value\" if ending == \"AIN\" else\n                \"second/alternate portion not seen in Astro\" if ending == \"AN\" else\n                \"prescribed value or degree\" if ending == \"AIIN\" else\n                \"whole-card exclusion remains non-quantity\"\n            ),",
+          "sha256": "85c8cd3a4afff50fbbd9d3caa05e86a584cbc3402d2eca5cb43b406e695ec879"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_astro_quantity_projection_two_hundred_fifty_third/TWO_HUNDRED_FIFTY_THIRD_REPORT.md",
+          "line": 3,
+          "line_end": 9,
+          "quote": "## Ergebnis\n\nZwölf Astrogruppen tragen echte Mengenwerte: elf AIIN-Sollwerte/Grade und ein AIN-Teilwert. Eine dreizehnte sichtbare Ähnlichkeit, DAIN, bleibt korrekt ein Abdeck-/Trägerzeichen. AN fehlt im Astro-Ausschnitt.\n\nDamit gewinnt AIIN eine starke registerübergreifende Lesung: nicht bloß Rezeptmaß, sondern vorgeschriebener Wert oder Grad. AIN bleibt eine begrenzte Teilmenge. Die DAIN-Ausnahme zeigt zugleich, dass der Schreiber ganze Karten gegen mechanische Suffixzerlegung schützt.\n\nInput cards `753062a61935619e17bda5f6f0f793b93e46c2c0f16737d8912fe1b71b33c79c`; Astro groups `45e41c1e8328ad01905f7e69a7bda456af43235737c7e5e37e1fd28ccb03be5f`.",
+          "sha256": "8d1d0b0f16f6e2ebaf6f040b9be0c5e411dbe06c52e374067782166e966caef6"
+        }
+      ]
+    },
+    {
+      "id": "SEM:081ce0fa0a87b8f876b3",
+      "current_binding": "Astro closure: local f67r2 `okeo r aiin am` reading; status unconfirmed.",
+      "correction": "The four tokens do not all come from LOCAL_MAP. In the exact f67r2.27 rows, `okeo` is B05 common bridge with residual `eo`; `r` is LOCAL_ASTRO_NOMENCLATOR and maps to N01/R; `aiin` is EXACT_PROSE_SURFACE_BRIDGE (`EXACT:Sollmaß`); `am` is LOCAL_ASTRO_NOMENCLATOR and maps to N02/AM. Thus the complete field is a mixed local composition, not four independently validated portable token meanings.",
+      "countermodel": "The same owner-bound field output can arise from common bridge/exact prose assignments for `okeo`/`aiin` plus local editor mappings for `r`/`am`, without establishing a portable `okeo` or `aiin` value.",
+      "reopen": "Require an independently coded held local field where at least one bridge token and one local token have rival role predictions, with namespace and ownership fixed before reading. More fields rendered through the same maps do not decide portability.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_astro_nomenclator_closure/ASTRO_142_NOMENCLATOR_CLOSED_LOCI.tsv",
+          "line": 28,
+          "line_end": 28,
+          "quote": "f67r2\tA1\tf67r2.27\tA1_LEFT_WHEEL_ONLY\tA1_LEFT_LOCAL_FIELD_27\tLEFT_WHEEL_STAR_RAY_OR_ASPECT_FIELD\t4\tokeo r aiin am\tSINGLE_COMPONENT_BRIDGE LOCAL_ASTRO_NOMENCLATOR EXACT_PROSE_SURFACE_BRIDGE LOCAL_ASTRO_NOMENCLATOR\tB05_OK_SET || LOCAL_NAME_OR_VALUE || EXACT:Sollmaß || LOCAL_NAME_OR_VALUE\t1\t0\t1\t2\tSternplatz A1_LEFT_LOCAL_FIELD_27: notiere Diagrammposten setzen oder aktivieren | Sollwert oder Grad des bezeichneten Himmelsplatzes; ergaenze 2 lokale Namen-/Wertsegmente aus dem Werkstattdeck.\tgegenwärtiges lokales Radial-/Ringfeld 27 des linken f67r2-Rades\tUNORDERED_LOCAL_ADDRESS__COPY_VISIBLE_POSITION\tCOMMON_22_COMPONENT_BRIDGE || N01_VALUE_SIGNS || COMMON_22_COMPONENT_BRIDGE || N02_AM_ASPECT\tDiagrammposten setzen oder aktivieren | Bezugswert | Sollwert oder Grad des bezeichneten Himmelsplatzes | Aspektwert\t2\tA1_LEFT_LOCAL_FIELD_27: Diagrammposten setzen oder aktivieren | Bezugswert | Sollwert oder Grad des bezeichneten Himmelsplatzes | Aspektwert.",
+          "sha256": "6da87c15c8d795ca285806c41f4569e8d01eadc917abb5a04879773603e58db4"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_astro_nomenclator_closure/ASTRO_395_NOMENCLATOR_CLOSED.tsv",
+          "line": 67,
+          "line_end": 70,
+          "quote": "66\tA1\tf67r2\tf67r2.27\t1\tA1:G066\tokeo\tF67_LEFT_WHEEL_NS\tA1_LEFT_LOCAL_FIELD_27\tLEFT_WHEEL_STAR_RAY_OR_ASPECT_FIELD\tSINGLE_COMPONENT_BRIDGE\tB05_OK_SET\tDiagrammposten setzen oder aktivieren\t2/4\teo\tSternplatz A1_LEFT_LOCAL_FIELD_27: Diagrammposten setzen oder aktivieren; lokaler Namensrest eo.\tLOCAL_OWNER_ONLY__NO_START_OR_DIRECTION\tNO_F68_F69_KEY__NO_IMPLICIT_NAMESPACE_JOIN\tCOMMON_BRIDGE_RETAINED\tCOMMON_22_COMPONENT_BRIDGE\tB05_OK_SET\tDiagrammposten setzen oder aktivieren\tSternplatz A1_LEFT_LOCAL_FIELD_27: Diagrammposten setzen oder aktivieren; lokaler Namensrest eo.\n67\tA1\tf67r2\tf67r2.27\t2\tA1:G067\tr\tF67_LEFT_WHEEL_NS\tA1_LEFT_LOCAL_FIELD_27\tLEFT_WHEEL_STAR_RAY_OR_ASPECT_FIELD\tLOCAL_ASTRO_NOMENCLATOR\tLOCAL_NAME_OR_VALUE\tgelerntes lokales Namen- oder Wertsegment\t0/1\tr\tSternplatz A1_LEFT_LOCAL_FIELD_27: gelerntes lokales Namen- oder Wertsegment; lokaler Namensrest r.\tLOCAL_OWNER_ONLY__NO_START_OR_DIRECTION\tNO_F68_F69_KEY__NO_IMPLICIT_NAMESPACE_JOIN\tFAMILY_RESOLVED\tN01_VALUE_SIGNS\tR\tBezugswert\tA1_LEFT_LOCAL_FIELD_27: Bezugswert.\n68\tA1\tf67r2\tf67r2.27\t3\tA1:G068\taiin\tF67_LEFT_WHEEL_NS\tA1_LEFT_LOCAL_FIELD_27\tLEFT_WHEEL_STAR_RAY_OR_ASPECT_FIELD\tEXACT_PROSE_SURFACE_BRIDGE\tEXACT:Sollmaß\tSollwert oder Grad des bezeichneten Himmelsplatzes\t4/4\tNONE\tSternplatz A1_LEFT_LOCAL_FIELD_27: Sollwert oder Grad des bezeichneten Himmelsplatzes.\tLOCAL_OWNER_ONLY__NO_START_OR_DIRECTION\tNO_F68_F69_KEY__NO_IMPLICIT_NAMESPACE_JOIN\tCOMMON_BRIDGE_RETAINED\tCOMMON_22_COMPONENT_BRIDGE\tEXACT:Sollmaß\tSollwert oder Grad des bezeichneten Himmelsplatzes\tSternplatz A1_LEFT_LOCAL_FIELD_27: Sollwert oder Grad des bezeichneten Himmelsplatzes.\n69\tA1\tf67r2\tf67r2.27\t4\tA1:G069\tam\tF67_LEFT_WHEEL_NS\tA1_LEFT_LOCAL_FIELD_27\tLEFT_WHEEL_STAR_RAY_OR_ASPECT_FIELD\tLOCAL_ASTRO_NOMENCLATOR\tLOCAL_NAME_OR_VALUE\tgelerntes lokales Namen- oder Wertsegment\t0/2\tam\tSternplatz A1_LEFT_LOCAL_FIELD_27: gelerntes lokales Namen- oder Wertsegment; lokaler Namensrest am.\tLOCAL_OWNER_ONLY__NO_START_OR_DIRECTION\tNO_F68_F69_KEY__NO_IMPLICIT_NAMESPACE_JOIN\tFAMILY_RESOLVED\tN02_AM_ASPECT\tAM\tAspektwert\tA1_LEFT_LOCAL_FIELD_27: Aspektwert.",
+          "sha256": "621fe7afd2e8ec36294a5882c00376059d256de11c2c0879113457f7485ff9c9"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_astro_nomenclator_closure/build_astro_nomenclator_closure.py",
+          "line": 96,
+          "line_end": 112,
+          "quote": "# surface -> family, segmentation, compact default\nLOCAL_MAP = {\n    \"a\": (\"N01_VALUE_SIGNS\", \"A\", \"Hauptwert\"),\n    \"d\": (\"N01_VALUE_SIGNS\", \"D\", \"Festwert\"),\n    \"g\": (\"N01_VALUE_SIGNS\", \"G\", \"Gradwert\"),\n    \"o\": (\"N01_VALUE_SIGNS\", \"O\", \"Grundwert\"),\n    \"r\": (\"N01_VALUE_SIGNS\", \"R\", \"Bezugswert\"),\n    \"s\": (\"N01_VALUE_SIGNS\", \"S\", \"Nebenwert\"),\n    \"ay\": (\"N01_VALUE_SIGNS\", \"A+Y\", \"aktueller Hauptwert\"),\n    \"ey\": (\"N01_VALUE_SIGNS\", \"E+Y\", \"aktueller Auswahlwert\"),\n    \"es\": (\"N01_VALUE_SIGNS\", \"E+S\", \"ausgewählter Nebenwert\"),\n    \"og\": (\"N01_VALUE_SIGNS\", \"O+G\", \"Grundgrad\"),\n    \"odas\": (\"N01_VALUE_SIGNS\", \"O+D+A+S\", \"fester Nebenwert\"),\n    \"qsg\": (\"N01_VALUE_SIGNS\", \"Q+S+G\", \"neuer Nebengrad\"),\n    \"am\": (\"N02_AM_ASPECT\", \"AM\", \"Aspektwert\"),\n    \"amy\": (\"N02_AM_ASPECT\", \"AM+Y\", \"aktueller Aspektwert\"),\n    \"ydam\": (\"N02_AM_ASPECT\", \"Y+D+AM\", \"festgelegter Aspektwert\"),",
+          "sha256": "b5144f326bce3ba205d20a98c99983c864854981cc6f0e3691b64c9c7e225326"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_astro_nomenclator_closure/build_astro_nomenclator_closure.py",
+          "line": 213,
+          "line_end": 228,
+          "quote": "    for row in local_rows:\n        family, segmentation, compact = LOCAL_MAP[row[\"surface_display\"]]\n        resolved = {\n            \"group_serial\": row[\"group_serial\"],\n            \"opaque_local_id\": row[\"opaque_local_id\"],\n            \"page\": row[\"page\"],\n            \"locus\": row[\"locus\"],\n            \"namespace_id\": row[\"namespace_id\"],\n            \"local_image_owner\": row[\"local_image_owner\"],\n            \"local_content_class\": row[\"local_content_class\"],\n            \"surface_display\": row[\"surface_display\"],\n            \"family_id\": family,\n            \"segmentation\": segmentation,\n            \"compact_default_de\": compact,\n            \"closed_workshop_reading_de\": f\"{row['local_image_owner']}: {compact}.\",\n            \"copy_rule_de\": \"Familie und Achsen lesen; die konkrete Stern-, Sektor- oder Tabellenadresse aus dem sichtbaren Besitzer übernehmen.\",",
+          "sha256": "b5144f326bce3ba205d20a98c99983c864854981cc6f0e3691b64c9c7e225326"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "record_id": "IDEA000039",
+  "title": "A repeated diagram whole denotes a component or state key rather than an object",
+  "reviewer": "luna_three_hour_producer",
+  "status": "DRAFT_NONOPERATIVE",
+  "verdict": "not_tested",
+  "scope": "Method design review only; no empirical assessment or registry append.",
+  "proposal_binding": {
+    "path": "research_registry/proposals/ic_component_state_key.json",
+    "sha256": "7b51b212a7a15a69bbb24aa0ec83add727d2b4025de4f04178006d5b60a9ae81",
+    "design_sha256": "14dcb7521af5c74b1ee248323e46b4691fc2dba28ced5c0cf1281a6f2f7f1447",
+    "exact_registered_title": "A repeated diagram whole denotes a component or state key rather than an object"
+  },
+  "predecessor": {
+    "path": "research_registry/decisions/hu_raw_intake_root.json",
+    "sha256": "f760984f997383970f438022192eb65f9325c604609143520d5093a7b7dbd5ed",
+    "reason": "HU root receipt binds IDEA36/37 source-quote corrections and exact raw intake; preserved as predecessor, not new discovery."
+  },
+  "assessment_basis": {
+    "unit": "exact complete wholes at repeated visual units with separately coded stage/state and local owner",
+    "mechanism": "shared component/process-state key versus object/owner-specific form",
+    "prediction": "same stage/state recurs across changing owners",
+    "falsifier": "owner one-to-one mapping or no stage/state recurrence beyond owner baseline",
+    "independent_binding": "independent stage/state and owner endpoint unavailable; GDT214 comparator is not Voynich semantic gold"
+  },
+  "blockers": [
+    "missing_independent_semantic_binding",
+    "design_underdetermined_under_possible_covariate_collinearity"
+  ],
+  "reason": "A single locus may satisfy both component/state and owner interpretations; design requires crossed owner-stage cells before the contrast is identifiable.",
+  "relations": [
+    {
+      "target": "IDEA000036",
+      "relation": "related_to",
+      "reason": "Both use cross-context recurrence, but 39 is diagram stage/state versus local owner; 36 is figure label process/material state versus biography/patient."
+    },
+    {
+      "target": "IDEA000037",
+      "relation": "related_to",
+      "reason": "Both use repeated complete forms, but 39 tests stage/state covariance and 37 tests class/slot invariance versus member/ordinal identity."
+    },
+    {
+      "target": "IDEA000041",
+      "relation": "related_to",
+      "reason": "Both are diagram-local alternatives, but 39 tests shared stage/state and 41 tests return/junction topology."
+    }
+  ],
+  "evidence": [
+    {
+      "path": "GDT214_HYDRAULIC_COMPONENT_KEY_COMPARATOR_REPORT.md",
+      "line": 7,
+      "line_end": 20,
+      "quote": "Met 55.121.11 is the closest readable technical-rendering comparator yet.  It\ncombines a water source, repeated lifting components, a driving animal, shafts\nand wheels, and numerous compact marks beside parts.  The reverse is\nespecially informative: four parallel lifting bays sit under a shared drive,\nshowing that repeated visual units can be components or stages of one machine\nrather than four independent named objects.\n\n## Architectural consequence\n\nThis establishes a historically real alternative for q13 graphical text:\nsome diagram-local strings could function as references into explanatory prose\nor as component/state keys, not as ordinary object names.  That alternative is\nmore compatible with q13's mixed labels/prose and weak one-object ownership\nthan a naive label dictionary.",
+      "sha256": "3b4eb7a83374124ca02cb375ba224b080f994389c7056f0bf100c4d10d6c4d8b"
+    }
+  ],
+  "reopen": {
+    "all_of": [
+      "independent source-bound endpoint for the stated unit",
+      "predeclared crossed or matched rival contexts sufficient to separate the stated mechanism from its named rival"
+    ],
+    "not_sufficient": [
+      "more renderer counts or source-case counts",
+      "historical comparator resemblance without Voynich binding",
+      "factorial coverage claimed without actual crossed cells"
+    ]
+  },
+  "relations_policy": "Use related_to only; no duplicate_of proposed.",
+  "source_fidelity": "IDEA36/37 raw quote corrections are already recorded in hu_raw_intake_root.json; original proposal bytes remain unchanged."
+}

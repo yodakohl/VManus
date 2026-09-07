@@ -1,0 +1,60 @@
+{
+  "record_id": "IDEA000040",
+  "title": "A figure-linked whole selects treatment mode rather than a person or material",
+  "reviewer": "luna_three_hour_producer",
+  "status": "DRAFT_NONOPERATIVE",
+  "verdict": "not_tested",
+  "scope": "Method design review only; no empirical assessment or registry append.",
+  "proposal_binding": {
+    "path": "research_registry/proposals/ic_treatment_mode_scope.json",
+    "sha256": "98272550e7d55e527f0781575ca574536e6f3d10d7c5f4630d918fe3a94c25fc",
+    "design_sha256": "f35e5f54c06e3bae16d9e9a45ca66266c0aa65c9d4a6736151bee6ac0008dc6f",
+    "exact_registered_title": "A figure-linked whole selects treatment mode rather than a person or material"
+  },
+  "predecessor": {
+    "path": "research_registry/decisions/hu_raw_intake_root.json",
+    "sha256": "f760984f997383970f438022192eb65f9325c604609143520d5093a7b7dbd5ed",
+    "reason": "HU root receipt binds IDEA36/37 source-quote corrections and exact raw intake; preserved as predecessor, not new discovery."
+  },
+  "assessment_basis": {
+    "unit": "complete candidate occurrences with treatment-mode/position, figure identity, and material-state annotations",
+    "mechanism": "procedural treatment-mode scope versus person/figure or material reference",
+    "prediction": "mode covariance across changing figures/materials",
+    "falsifier": "stable person/material tracking across mode changes or no held mode interaction",
+    "independent_binding": "independent mode, owner, and material annotations unavailable; GDT210 explicitly offers post-hoc leads only"
+  },
+  "blockers": [
+    "missing_independent_semantic_binding",
+    "design_underdetermined_under_possible_covariate_collinearity"
+  ],
+  "reason": "Independent annotations do not solve perfect mode-owner/material collinearity; crossed modes and owners are required, and any result tests only the predeclared rival predictions.",
+  "relations": [
+    {
+      "target": "IDEA000036",
+      "relation": "related_to",
+      "reason": "Both require contextual covariance, but 40 targets treatment-mode/procedure position controlling figure/material; 36 targets process/material state versus biography/patient identity."
+    }
+  ],
+  "evidence": [
+    {
+      "path": "GDT210_THERAPEUTIC_BALNEOLOGICAL_COMPARATOR_REPORT.md",
+      "line": 14,
+      "line_end": 16,
+      "quote": "Across the transparent post-hoc comparison, 6 axes are specific\nleads for the bath theory and 1 is a secondary lead for the\nalchemical/hydraulic theory. No composite score or p-value is claimed.",
+      "sha256": "3671117cccfb54862084fe4d29154743604433ea5b36be9ec69df52bc383084c"
+    }
+  ],
+  "reopen": {
+    "all_of": [
+      "independent source-bound endpoint for the stated unit",
+      "predeclared crossed or matched rival contexts sufficient to separate the stated mechanism from its named rival"
+    ],
+    "not_sufficient": [
+      "more renderer counts or source-case counts",
+      "historical comparator resemblance without Voynich binding",
+      "factorial coverage claimed without actual crossed cells"
+    ]
+  },
+  "relations_policy": "Use related_to only; no duplicate_of proposed.",
+  "source_fidelity": "IDEA36/37 raw quote corrections are already recorded in hu_raw_intake_root.json; original proposal bytes remain unchanged."
+}

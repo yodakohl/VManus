@@ -1,0 +1,103 @@
+{
+  "review_id": "IE_ROOT_CANDIDATE_REVIEW",
+  "status": "DRAFT_NONOPERATIVE",
+  "reviewer": "luna_three_hour_producer",
+  "verdict": "not_tested",
+  "scope": "Five authored raw proposals; method sufficiency only. No operative curation append.",
+  "predecessor": {
+    "path": "research_registry/decisions/hu_raw_intake_root.json",
+    "sha256": "f760984f997383970f438022192eb65f9325c604609143520d5093a7b7dbd5ed"
+  },
+  "candidate_files": [
+    "research_registry/decisions/ie_design_review_idea000036.json",
+    "research_registry/decisions/ie_design_review_idea000037.json",
+    "research_registry/decisions/ie_design_review_idea000039.json",
+    "research_registry/decisions/ie_design_review_idea000040.json",
+    "research_registry/decisions/ie_design_review_idea000041.json"
+  ],
+  "summary": {
+    "IDEA000036": {
+      "title": "Figure labels track process state rather than biography",
+      "design_sha256": "2fca13fd9d5edfa838b38f8c6c75720c3b82921c49391d94347cc897f388d820",
+      "status": "not_tested",
+      "decision": "retain raw; missing independent binding and possible covariate collinearity"
+    },
+    "IDEA000037": {
+      "title": "A repeated complete form codes a class or slot, not a unique member",
+      "design_sha256": "a8c3c002f1a3f1db217c241038739f32291f5030a3586d0d0587764fa68c2381",
+      "status": "not_tested",
+      "decision": "retain raw; missing independent binding and possible covariate collinearity"
+    },
+    "IDEA000039": {
+      "title": "A repeated diagram whole denotes a component or state key rather than an object",
+      "design_sha256": "14dcb7521af5c74b1ee248323e46b4691fc2dba28ced5c0cf1281a6f2f7f1447",
+      "status": "not_tested",
+      "decision": "retain raw; missing independent binding and possible covariate collinearity"
+    },
+    "IDEA000040": {
+      "title": "A figure-linked whole selects treatment mode rather than a person or material",
+      "design_sha256": "f35e5f54c06e3bae16d9e9a45ca66266c0aa65c9d4a6736151bee6ac0008dc6f",
+      "status": "not_tested",
+      "decision": "retain raw; missing independent binding and possible covariate collinearity"
+    },
+    "IDEA000041": {
+      "title": "A diagram whole marks a return-loop or branch junction",
+      "design_sha256": "c7d5d4a9c7e825d8ce04ed6652ea473de15d9d1f77376fdac8958c012df003f0",
+      "status": "not_tested",
+      "decision": "retain raw; missing independent binding and possible covariate collinearity"
+    }
+  },
+  "relations": [
+    {
+      "from": "IDEA000036",
+      "to": "IDEA000039",
+      "relation": "related_to",
+      "reason": "Shared recurrence/covariance logic, but 36 tests figure labels versus biography/patient identity and 39 tests diagram stage/state versus local owner."
+    },
+    {
+      "from": "IDEA000036",
+      "to": "IDEA000040",
+      "relation": "related_to",
+      "reason": "Both require context covariance, but 36 targets process/material state versus biography and 40 targets treatment mode while controlling figure/material."
+    },
+    {
+      "from": "IDEA000037",
+      "to": "IDEA000039",
+      "relation": "related_to",
+      "reason": "Both test repeated visual forms across units, but 37 tests class/slot invariance versus member/ordinal identity and 39 tests stage/state covariance versus owner identity."
+    },
+    {
+      "from": "IDEA000039",
+      "to": "IDEA000036",
+      "relation": "related_to",
+      "reason": "Both use cross-context recurrence, but 39 is diagram stage/state versus local owner; 36 is figure label process/material state versus biography/patient."
+    },
+    {
+      "from": "IDEA000039",
+      "to": "IDEA000037",
+      "relation": "related_to",
+      "reason": "Both use repeated complete forms, but 39 tests stage/state covariance and 37 tests class/slot invariance versus member/ordinal identity."
+    },
+    {
+      "from": "IDEA000039",
+      "to": "IDEA000041",
+      "relation": "related_to",
+      "reason": "Both are diagram-local alternatives, but 39 tests shared stage/state and 41 tests return/junction topology."
+    },
+    {
+      "from": "IDEA000040",
+      "to": "IDEA000036",
+      "relation": "related_to",
+      "reason": "Both require contextual covariance, but 40 targets treatment-mode/procedure position controlling figure/material; 36 targets process/material state versus biography/patient identity."
+    },
+    {
+      "from": "IDEA000041",
+      "to": "IDEA000039",
+      "relation": "related_to",
+      "reason": "Both are diagram-local alternatives, but 41 tests graph return/junction topology and 39 tests stage/state covariance across owners."
+    }
+  ],
+  "global_rule": "Independent annotation accuracy does not identify a reading when owner/material/stage/mode/topology are perfectly correlated. Crossed cells test only the predeclared restricted rival predictions; they do not automatically identify a lexeme.",
+  "no_duplicate_of": true,
+  "no_registry_append": true
+}

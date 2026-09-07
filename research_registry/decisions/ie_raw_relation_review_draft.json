@@ -1,0 +1,122 @@
+{
+  "review_id": "IE_RAW_RELATION_REVIEW_DRAFT",
+  "status": "DRAFT_NONOPERATIVE__NO_RELATIONS_WRITTEN",
+  "scope": "Exact authored-design identity audit for IDEA000036, 37, 39, 40, 41. No duplicate_of relation is justified.",
+  "bindings": [
+    {
+      "id": "IDEA000036",
+      "title": "Figure labels track process state rather than biography",
+      "proposal": "research_registry/proposals/hu_process_person_reference.json",
+      "file_sha256": "19f2848f76fea0e451a48948677c833e264a7802ac99a0294e5cf93d1e192f94",
+      "design_sha256": "2fca13fd9d5edfa838b38f8c6c75720c3b82921c49391d94347cc897f388d820"
+    },
+    {
+      "id": "IDEA000037",
+      "title": "A repeated complete form codes a class or slot, not a unique member",
+      "proposal": "research_registry/proposals/hu_class_slot_code.json",
+      "file_sha256": "a21fa40130ace3d32ccd63b8249c7f4a68accc1c6feea221e0b94132d823a4a3",
+      "design_sha256": "a8c3c002f1a3f1db217c241038739f32291f5030a3586d0d0587764fa68c2381"
+    },
+    {
+      "id": "IDEA000039",
+      "title": "A repeated diagram whole denotes a component or state key rather than an object",
+      "proposal": "research_registry/proposals/ic_component_state_key.json",
+      "file_sha256": "7b51b212a7a15a69bbb24aa0ec83add727d2b4025de4f04178006d5b60a9ae81",
+      "design_sha256": "14dcb7521af5c74b1ee248323e46b4691fc2dba28ced5c0cf1281a6f2f7f1447"
+    },
+    {
+      "id": "IDEA000040",
+      "title": "A figure-linked whole selects treatment mode rather than a person or material",
+      "proposal": "research_registry/proposals/ic_treatment_mode_scope.json",
+      "file_sha256": "98272550e7d55e527f0781575ca574536e6f3d10d7c5f4630d918fe3a94c25fc",
+      "design_sha256": "f35e5f54c06e3bae16d9e9a45ca66266c0aa65c9d4a6736151bee6ac0008dc6f"
+    },
+    {
+      "id": "IDEA000041",
+      "title": "A diagram whole marks a return-loop or branch junction",
+      "proposal": "research_registry/proposals/id_return_loop_topology.json",
+      "file_sha256": "0f29d392cc1d4e04a9b5d2faf4279280be560e088c8e6b264b4553da5513cc51",
+      "design_sha256": "c7d5d4a9c7e825d8ce04ed6652ea473de15d9d1f77376fdac8958c012df003f0"
+    }
+  ],
+  "proposed_relations": [
+    {
+      "from": "IDEA000036",
+      "to": "IDEA000039",
+      "relation": "related_not_equivalent",
+      "reason": "Both use recurrence/covariance across context, but 36 targets figure labels tracking process/material state versus biography or patient identity; 39 targets diagram wholes tracking shared stage/state versus local owner/object. Units and falsifiers differ."
+    },
+    {
+      "from": "IDEA000036",
+      "to": "IDEA000040",
+      "relation": "related_not_equivalent",
+      "reason": "Both contrast contextual covariance with owner/material alternatives, but 36 asks process/material state versus biography, while 40 asks treatment-mode/procedure position while controlling figure and material. No complete proposition match."
+    },
+    {
+      "from": "IDEA000037",
+      "to": "IDEA000039",
+      "relation": "related_not_equivalent",
+      "reason": "Both test repeated complete forms across visual instances, but 37 predicts class/slot invariance against unique member/ordinal readings; 39 predicts stage/state covariance under owner substitution. Different target units, rivals, and falsifiers."
+    },
+    {
+      "from": "IDEA000039",
+      "to": "IDEA000041",
+      "relation": "related_not_equivalent",
+      "reason": "Both are diagram-topology-adjacent, but 39 tests shared component/state across changing owners; 41 tests return/junction enrichment against terminal/component association. A locus can satisfy both, so neither implies the other."
+    }
+  ],
+  "no_relation_or_duplicate": [
+    {
+      "pair": [
+        "IDEA000040",
+        "IDEA000041"
+      ],
+      "decision": "No relation proposed from current designs; treatment-mode and graph-topology units are too different, though a later visual dossier may find a source-specific link."
+    },
+    {
+      "pair": [
+        "IDEA000037",
+        "IDEA000040"
+      ],
+      "decision": "No relation proposed; class/slot recurrence and treatment-mode scope share only generic contextual testing."
+    },
+    {
+      "pair": [
+        "IDEA000036",
+        "IDEA000037"
+      ],
+      "decision": "No relation proposed; figure/process biography and class/slot/member identity are distinct semantic questions."
+    }
+  ],
+  "control_identifiability": {
+    "general_rule": "Independent annotations do not by themselves identify a meaning. If the target context and its rival are perfectly correlated, both readings predict the same observed table.",
+    "IDEA000036": "If every apparatus/material state belongs to one biography or patient, state covariance and biography covariance are observationally identical. Require crossed state/person contexts or held owner substitutions.",
+    "IDEA000037": "If each class/slot has one member and each member one slot, class-code and unique-member readings are identical. Require repeated class/slot with changing members and repeated members across slots, or an owner-masked held comparison.",
+    "IDEA000039": "If stage/state is fixed by local owner, shared-state and owner-specific readings coincide. Require the same stage/state under multiple owners and owners across multiple stages/states.",
+    "IDEA000040": "If treatment mode always co-occurs with one figure or material, mode and person/material readings coincide. Require crossed treatment modes for the same owner/material and changing owners/materials within a mode.",
+    "IDEA000041": "If every return/junction is one component class or owner, topology and component/owner readings coincide. Require topology-class variation within component/owner and component/owner variation within topology."
+  },
+  "source_and_count_policy": "All five proposals retain source spans in their own files. Their cited GDT208/GDT209/GDT210/GDT214/GDT793 reports are comparator observations or conditional theories, not independent Voynich label bindings. No proposal uses a renderer-generated count as a semantic endpoint. The small comparator counts (for example, GDT209's two connected vessels and one return-loop vessel) describe inspected source imagery; they do not establish manuscript frequency or meaning.",
+  "recommendation": "Keep all five raw records. If relation decisions are later appended, use related_not_equivalent only for the four proposed pairs above; do not use duplicate_of. Before any selection, require factorial/crossed endpoint coverage, not merely more independently named covariates.",
+  "no_mutations": true,
+  "proposal_source_fidelity_note": {
+    "finding": "The raw proposal files 36 and 37 preserve source hashes but their embedded source_evidence.quote strings are not exact current source spans: both quote paraphrases/format-normalize the source. Proposal bytes are preserved; do not treat those embedded quotes as validated evidence.",
+    "exact_current_spans": [
+      {
+        "path": "GDT208_MEDICAL_ALCHEMICAL_CIRCULATION_REPORT.md",
+        "line": 7,
+        "line_end": 10,
+        "quote": "The q13 apparatus pages most plausibly describe a **medicinal-alchemical\ncirculation, separation, and staged-transformation system**.  Their human\nfigures are provisionally better modeled as personified materials or process\nstates inside an apparatus than as a literal catalogue of bathers.",
+        "sha256": "eb15da3569cb5e54703a2efb1b0b06d258a1d88629f9a0b9a7c65134b9560155"
+      },
+      {
+        "path": "experiments/yolo/gdt793_okal_whole_record_candidate_discriminator/REPORT.md",
+        "line": 56,
+        "line_end": 58,
+        "quote": "The result is 0/3. In other words, all apparent address evidence disappears\nwhen the candidate is forbidden from proving itself. The class/slot model\ndoes not predict such a companion fingerprint and survives this test.",
+        "sha256": "e748c61ae6039437a6640d918bb475fe87053e5b2345870af97043e90b705b2e"
+      }
+    ],
+    "implication": "Relation identity remains based on the exact proposal design fields and hashes, but any later operative relation review must use these corrected source spans or explicitly preserve the quote correction."
+  }
+}

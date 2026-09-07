@@ -1,0 +1,41 @@
+{
+  "review_id": "IE_FINAL_PACKET_PEER",
+  "status": "NEEDS_SOURCE_QUOTE_CORRECTION_BEFORE_OPERATIVE_PUBLICATION",
+  "reviewer": "luna_three_hour_producer",
+  "scope": "Read-only peer validation of ie_root_design_scope_review.json and five ie_root_design_review_idea*.json drafts. No review append or idea mutation performed.",
+  "validated_raw_bindings": [
+    {"id":"IDEA000036","proposal":"research_registry/proposals/hu_process_person_reference.json","proposal_sha256":"19f2848f76fea0e451a48948677c833e264a7802ac99a0294e5cf93d1e192f94","design_sha256":"2fca13fd9d5edfa838b38f8c6c75720c3b82921c49391d94347cc897f388d820","registered_title_exact":true},
+    {"id":"IDEA000037","proposal":"research_registry/proposals/hu_class_slot_code.json","proposal_sha256":"a21fa40130ace3d32ccd63b8249c7f4a68accc1c6feea221e0b94132d823a4a3","design_sha256":"a8c3c002f1a3f1db217c241038739f32291f5030a3586d0d0587764fa68c2381","registered_title_exact":true},
+    {"id":"IDEA000039","proposal":"research_registry/proposals/ic_component_state_key.json","proposal_sha256":"7b51b212a7a15a69bbb24aa0ec83add727d2b4025de4f04178006d5b60a9ae81","design_sha256":"14dcb7521af5c74b1ee248323e46b4691fc2dba28ced5c0cf1281a6f2f7f1447","registered_title_exact":true},
+    {"id":"IDEA000040","proposal":"research_registry/proposals/ic_treatment_mode_scope.json","proposal_sha256":"98272550e7d55e527f0781575ca574536e6f3d10d7c5f4630d918fe3a94c25fc","design_sha256":"f35e5f54c06e3bae16d9e9a45ca66266c0aa65c9d4a6736151bee6ac0008dc6f","registered_title_exact":true},
+    {"id":"IDEA000041","proposal":"research_registry/proposals/id_return_loop_topology.json","proposal_sha256":"0f29d392cc1d4e04a9b5d2faf4279280be560e088c8e6b264b4553da5513cc51","design_sha256":"c7d5d4a9c7e825d8ce04ed6652ea473de15d9d1f77376fdac8958c012df003f0","registered_title_exact":true}
+  ],
+  "validated_drafts": [
+    {"path":"research_registry/decisions/ie_root_design_review_idea000036.json","sha256":"9c01a31843c5df9b3b5d5189c59ed6c45f26cb55297ba03ab36371de5a610d09","schema":"record_id/scope/verdict/reviewer/reason/assessment_basis/typed blockers/reopen/relations","verdict":"not_tested","typed_blockers":["missing_design","missing_meaning_binding"]},
+    {"path":"research_registry/decisions/ie_root_design_review_idea000037.json","sha256":"97092ccd8ae99f7ef73efc39151b5eb1fe66e68eb458e08a3d1a93c89dec26b1","schema":"record_id/scope/verdict/reviewer/reason/assessment_basis/typed blockers/reopen/relations","verdict":"not_tested","typed_blockers":["missing_design","missing_meaning_binding"]},
+    {"path":"research_registry/decisions/ie_root_design_review_idea000039.json","sha256":"44731840b5b45d6de5f170927a2c86d094470ec8ee283937fc44f9ceb237e07b","schema":"record_id/scope/verdict/reviewer/reason/assessment_basis/typed blockers/reopen/relations","verdict":"not_tested","typed_blockers":["missing_design","missing_meaning_binding"]},
+    {"path":"research_registry/decisions/ie_root_design_review_idea000040.json","sha256":"1e10bb9c47a36df1c04d6fa0af8cd5ac2c991e6e7818a25d9d0f2b68083422cd","schema":"record_id/scope/verdict/reviewer/reason/assessment_basis/typed blockers/reopen/relations","verdict":"not_tested","typed_blockers":["missing_design","missing_meaning_binding"]},
+    {"path":"research_registry/decisions/ie_root_design_review_idea000041.json","sha256":"7d86f7ffdee59c2facf6935790eda16eec74dc66ac57893f3548940cbbb05451","schema":"record_id/scope/verdict/reviewer/reason/assessment_basis/typed blockers/reopen/relations","verdict":"not_tested","typed_blockers":["missing_design","missing_meaning_binding"]}
+  ],
+  "relation_check": {
+    "relation_type": "related_to",
+    "stored_pairs": 4,
+    "duplicate_of_count": 0,
+    "result": "PASS",
+    "pairs": [["IDEA000036","IDEA000039"],["IDEA000036","IDEA000040"],["IDEA000037","IDEA000039"],["IDEA000039","IDEA000041"]]
+  },
+  "scope_corrections_checked": {
+    "IDEA000037": "Correctly states that singleton class/ordinal observations do not refute a class hypothesis.",
+    "IDEA000039": "Correctly states that a component may be an object class and need not identify one unique owner.",
+    "IDEA000041": "Correctly states that a side-outlet mechanism is not falsified by a return/junction-only test."
+  },
+  "source_fidelity_issue": {
+    "affected": ["IDEA000036","IDEA000037"],
+    "problem": "The root scope review embeds source_evidence.quote strings that are not exact current source lines. Raw proposal bytes are already preserved, and the published HU receipt contains the authoritative quote corrections.",
+    "predecessor": {"path":"research_registry/decisions/hu_raw_intake_root.json","sha256":"f760984f997383970f438022192eb65f9325c604609143520d5093a7b7dbd5ed"},
+    "required_fix": "Before operative publication, replace only the root scope review's 36/37 quote metadata with the exact corrected spans from HU receipt; retain not_tested verdicts and all raw proposal bytes."
+  },
+  "conceptual_result": "The typed reviews are conservative and correctly avoid empirical failure claims. Their missing_design blockers concern scope identifiability and binding, while the reopen conditions require a specified rival and independent held endpoint. No factorial/crossed coverage is treated as automatic lexeme identification.",
+  "decision": "needs_correction",
+  "no_mutations": true
+}
