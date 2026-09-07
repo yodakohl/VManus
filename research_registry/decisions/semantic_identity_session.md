@@ -487,3 +487,11 @@ PASS;4118active3853semantic265formal4639cases unchanged.51equivalencegroups,
 60reductions,40otherrelations,41scopeddossiers,9unreadypriorities;284correction
 rows include204restatements,66historicalarchiveactions and14retainactions.
 Only44cards currently archived. No additional model from recurrence argument.
+
+FY/FZ/GF checkpoint and validation: two same-ID source completions, four reusable
+source receipts and one related-but-distinct Astro expression pair. Root fixes
+V10 quote9–49 and V11 complete124–165. Current exact-source, operative and
+source-preservation audits PASS:4118active3853semantic265formal4639cases,
+206restatements,51groups/60reductions,41otherrelations,41dossiers and9unready
+priorities.48identity inputs. GB must re-review the changed FY effective claim;
+its older raw binding is preserved, not automatically rebased. No manuscript finding.

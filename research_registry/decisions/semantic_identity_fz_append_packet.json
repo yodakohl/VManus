@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "decisions": [
+    {
+      "id": "IDENTITY_FZ:ASTRO_CHEO_DY_VERSUS_CURRENT_CHEO_DY:v1",
+      "decision_key": "IDENTITY_FZ:ASTRO_CHEO_DY_VERSUS_CURRENT_CHEO_DY",
+      "previous_revision": null,
+      "status": "approved",
+      "relation": "related_not_equivalent",
+      "member_ids": [
+        "SEM:51af9b14bc1675ffe0da",
+        "SEM:568380084b3a75672931"
+      ],
+      "card_basis": {
+        "SEM:51af9b14bc1675ffe0da": "8f1050a5d3a50c0531ce59fd4c31eef9577ae9e897e8649d9f5373ff3995e3ae",
+        "SEM:568380084b3a75672931": "733d4727a2acd3001bd33ac8f0110cbc6a0836f118e2b6f7bc6a1245e125076d"
+      },
+      "effective_basis": {
+        "SEM:51af9b14bc1675ffe0da": "a8fa3fd4a0393ab9c6f11efe352c8bf448c592a01dc3bfade93ce88c6f489268",
+        "SEM:568380084b3a75672931": "ff7c72bd5ade093da175ceff7bd33fc20357303f100630aed9f4d2dbd858e68e"
+      },
+      "reason": "The same authored Astro-nomenclator definition separately assigns CHEO+DY to a fixed reading value and Y+CHEO+DY to a current fixed reading value. The declared value axis explicitly supplies current/this entry for Y. Thus the two cards bind different complete analyst expressions and an explicit added current-entry qualification, even though the expressions share a mechanism and may describe compatible values. This positive source distinction supports related_not_equivalent, not a contradiction or a semantic discovery. No source asserts these complete expressions are interchangeable.",
+      "scope_limit": "Only these two diagram-bound authored expressions in this source model; no primitive glyph export, physical written segmentation, freely composable Y translation, observed referent identity or universal taxonomy. Do not infer specializes from value-language containment across distinct expression units; do not group the full propositions.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_astro_nomenclator_closure/ASTRO_NOMENCLATOR_CLOSURE_REPORT.md",
+          "line": 20,
+          "line_end": 32,
+          "quote": "## Die Achse\n\nDie häufigste Ebene besteht aus sehr kurzen Wertzeichen:\n\n| Zeichen | Arbeitswert |\n|---|---|\n| `Y` | aktuell/dieser Eintrag |\n| `O` | Grundwert oder Grundreihe |\n| `A` | Hauptwert oder Hauptreihe |\n| `E` | ausgewählt/markiert |\n| `S` | Nebenwert oder Nebenreihe |\n| `D` | festgelegt |\n| `G` | Gradwert |",
+          "sha256": "507d3e0de2a91b7ee103c154281cab7bf463e6222c20c2312376d3e8f99656c1"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_astro_nomenclator_closure/ASTRO_NOMENCLATOR_CLOSURE_REPORT.md",
+          "line": 83,
+          "line_end": 95,
+          "quote": "### `CHE/CHEO/CHEY` — Ablesung oder Ergebnis\n\nDie Prosa hatte bereits Auszug und Klarlauf. Die gemeinsame Abstraktion ist\njetzt ein herausgenommener oder sichtbarer Ergebniswert:\n\n- `CHEO` = Ablesewert;\n- `CHEO+S` = sekundärer Ablesewert;\n- `CHEO+DY` = Ablesewert fest;\n- `Y+CHEO+DY` = aktueller Ablesewert fest;\n- `Y+CHEY` = aktueller Ablesewert.\n\nIm Pflanzenregister kann derselbe Mechanismus ein materieller Auszug sein; im\nDiagrammregister ist es eine Ablesung.",
+          "sha256": "507d3e0de2a91b7ee103c154281cab7bf463e6222c20c2312376d3e8f99656c1"
+        }
+      ],
+      "reviewer": "root after FZ producer and independent source-contract peer",
+      "review_artifact": "research_registry/decisions/semantic_identity_proposal_fz.json",
+      "review_artifact_sha256": "82a4a8d1c99bc10520032317e4dd755f327dc8207e6d761a49396c6ff97c2481",
+      "peer_artifact": "research_registry/decisions/semantic_identity_peer_fz.json",
+      "peer_artifact_sha256": "9ebc79147c2e6880da318564ce18c8af36497df85c6815c1462ba3644a4d453f"
+    }
+  ],
+  "new_equivalences": 0,
+  "generic_notation_pair": "Still unresolved; no missing-file or new-data requirement asserted."
+}

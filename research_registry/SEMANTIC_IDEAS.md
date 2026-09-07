@@ -56,13 +56,13 @@ an atomic gloss does not cover a complete multi-card model.
 
 Whitespace and backtick typography alone are normalized for exact assertions.
 Explicit equivalence decisions add51 groups without deleting any original ID.
-The identity log also retains six related-but-distinct links,31 rival links and
+The identity log also retains seven related-but-distinct links,31 rival links and
 three specializations. Conflicting nonidentity blocks transitive merging; changed
 claim or case bindings require a new review. Shared spelling, shortened wording
 or a matching source title alone proves neither identity nor nonidentity.
 
 Before selecting another identity comparison, consult `IDENTITY_REVIEW_INPUTS.json`
-and the current operative identity log. The manifest records forty-six hashed review
+and the current operative identity log. The manifest records forty-eight hashed review
 inputs, including earlier proposal and peer formats missed by the narrower DO
 selection list. It is a bounded coverage receipt, not an automatic pair verdict.
 Update it when new identity reviews are added; distinguish an old recommendation
@@ -81,7 +81,7 @@ source/case counts belong to that representative; `group_scope_cases` counts all
 member cases. Open `--field equivalents` or `--field relations` for the others.
 No failure, success or execution permission propagates across an identity link.
 
-The append-only correction log currently archives44 erroneous exports and restates204
+The append-only correction log currently archives44 erroneous exports and restates206
 source assertions. Every original claim, case and quote remains retrievable,
 including via `--show ID` for archived cards. Numeric columns, alias-column
 misparses, unlicensed constituent exports and metadata are extraction errors;
@@ -129,15 +129,12 @@ quality construction) and L (productive only before CHED), and preserves CHAR
 THEN as a considered but criticized V18 rival. VAL-B warm remains an actual
 historical wager despite the absence of independent comparator binding.
 
-FT withholds a proposed extra recurrence card and completes the existing V42
-bathhouse operational model: expected repeated routines are its explanatory
-argument, not a new cycle, schedule or cell code. FX completes the existing
-V20 model from its explicitly selected defining block: picture-supplied owner
-and location, portable instructions, local payload, renderer and closure. This
-restores source scope; it does not assert logical equivalence of the abbreviated
-claim and fuller wording or establish an image-to-text meaning binding.
-FT/FU/GA expose13 selected assessments across12 source IDs; CHAR appears in
-both FU's broader rival review and FV's narrower headline-scope correction.
+FY completes the existing V9 categorical-value model and V11 ordinary-content
+rival without naming their unknown values. Recurrence and position can constrain
+models without distinguishing topic, anaphora and ordinary content. GF records
+four selected source audits without adding cards or duplicate cases. FZ retains
+two explicitly different Astro reading-value expressions as related claims;
+the added current-entry qualification is not an independently translated Y.
 A073/A004 mappings remain available but uninspected, not missing data.
 
 Before adding a fuller model card, check whether an existing short card already
