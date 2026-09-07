@@ -1,0 +1,95 @@
+{
+  "schema": "iq_missing_source_claims_v1",
+  "scope": "Bounded source-coverage audit of GDT740–789 reports, excluding GDT753, GDT763, and IP material. Report prose and current semantic metadata were compared; no raw manuscript, image, web, or experiment access was used.",
+  "coverage": {
+    "reports_read": "GDT740–GDT752, GDT754–GDT762, GDT764–GDT789",
+    "candidate_count": 4,
+    "exhaustiveness": "not claimed; only four propositions survived exact-card and nearby-card comparison",
+    "selection_rule": "Concrete report proposition with no exact current semantic card in the bounded inventory; source-path absence alone was not treated as proof."
+  },
+  "candidates": [
+    {
+      "source_fragment_id": "GDT744:lkaiin:f105v.37",
+      "report_id": "GDT744",
+      "surface": "lkaiin",
+      "proposition": "At f105v.37, lkaiin is a processing/recipe field for a moist preparation while its ingredient remains unidentified and passage level III is retained.",
+      "path": "experiments/yolo/gdt744_historical_microfield_channel_bridge/REPORT.md",
+      "line": 29,
+      "line_end": 39,
+      "closest_current_cards": [
+        "SEM:1886d5ab8c559637ac18",
+        "SEM:39949edafa3b7f827056"
+      ],
+      "comparison": "Those cards concern olkaiin/solkaiin forms, not the exact lkaiin field proposition. No current card in the bounded inventory states this lkaiin role.",
+      "evidence": {
+        "path": "experiments/yolo/gdt744_historical_microfield_channel_bridge/REPORT.md",
+        "line": 29,
+        "line_end": 39,
+        "quote": "Examples now distinguish materially different structures:\n\n- `lkaiin` at `f105v.37` is a processing/recipe field for a moist preparation,\n  with the ingredient still open and target passage level III retained.\n- `sain` at `f113r.49` is a hot/dry preparation-description entry at level II,\n  with the visible content surface left as an unidentified lemma candidate.\n- `sain` at `f106v.19` is a quantity/material field at level II, with the\n  referenced substance still open.\n\nSeven licensed occurrences contain hot/cold or dry/moist competition. The\nrenderer states that collision instead of merging it into one quality.",
+        "sha256": "e7f55a4f66367c5fceed9c12c0f65ad6c63f8591d4841732e1ce61f7476ff4d5"
+      }
+    },
+    {
+      "source_fragment_id": "GDT747:f104v.23:qochey",
+      "report_id": "GDT747",
+      "surface": "qochey",
+      "proposition": "In the exact f104v.23 series, qochey is provisionally dry and probably middle-stage; temperature and function remain open, with material, addition, and quantity rivals retained.",
+      "path": "experiments/yolo/gdt747_supported_whole_passage_application/REPORT.md",
+      "line": 23,
+      "line_end": 45,
+      "closest_current_cards": [],
+      "comparison": "The neighboring tchey/qokchey readings are source prose in this report, but the current semantic inventory has no qochey card. This is an occurrence-scoped proposition, not a global qochey translation.",
+      "evidence": {
+        "path": "experiments/yolo/gdt747_supported_whole_passage_application/REPORT.md",
+        "line": 23,
+        "line_end": 45,
+        "quote": "## Der stärkste Befund: `qochey`\n\nAuf `f104v.23` steht wörtlich:\n\n```text\ntchey qokchey qochey qodeey qodaiin chodaiin chckhdy dairar otar qotai l\n```\n\nDie beiden unmittelbar vorausgehenden **vollständigen** Karten lauten:\n\n- `tchey`: kalt und trocken in der Mitte des Grades;\n- `qokchey`: heiß und trocken in der Mitte des Grades.\n\n`qochey` folgt als drittes Ganzwort. GDT745s direkte Formfamilie und GDT746s\nunabhängige Verteilung hatten bereits `DRY` gemeinsam; jetzt trägt auch die\ngeschriebene lokale Serie zweimal `DRY|MIDDLE_STAGE`, während HOT gegen COLD\nwechselt. Der beste Arbeitswert wird deshalb enger:\n\n**`qochey` = trocken; Mittelstufe wahrscheinlich; Temperatur und Funktion\noffen.**\n\nZustand, Stoffzugabe und der widersprüchliche Mengenfeldbezug bleiben echte\nRivalen. Die Sequenz erlaubt weder `q=...` noch `o=...` oder `chey=...`.",
+        "sha256": "c02e55313bed81535378daaa112f738c5fc2d5be19c94affe1a29ce4869aeec3"
+      }
+    },
+    {
+      "source_fragment_id": "GDT779:f104r.14:ol-oeeal",
+      "report_id": "GDT779",
+      "surface": "ol oeeal",
+      "proposition": "At f104r.14, the exact ol oeeal span is rendered as a contextual dry-material-I end-stage field, replacing a generic preparation fallback; this is a span-bound working display.",
+      "path": "experiments/yolo/gdt779_ol_residual_v99r7_exact_whole_recovery/REPORT.md",
+      "line": 26,
+      "line_end": 34,
+      "closest_current_cards": [],
+      "comparison": "The bounded current claims include other ol/right-form readings, but no exact oeeal or GDT779 span card was found. The report itself limits this to the contextual span.",
+      "evidence": {
+        "path": "experiments/yolo/gdt779_ol_residual_v99r7_exact_whole_recovery/REPORT.md",
+        "line": 26,
+        "line_end": 34,
+        "quote": "## Praktische Beispiele\n\n- `f104r.14`: `ol oeeal` — `Ansatz-/Zubereitungsposten` → **Trockenmaterial I, Endstufe**.\n- `f104v.3`: `ol dl` — `Ansatz-/Zubereitungsposten` → **Rohstoffmaß**.\n- `f104v.9`: `ol chedaiin` — `Ansatz-/Zubereitungsposten` → **abgemessene Trockenmenge III**.\n- `f106v.46`: `ol oky` — `Ansatz-/Zubereitungsposten` → **erste Wärmestufe**.\n- `f107r.46`: `ol cheor` — `Ansatz-/Zubereitungsposten` → **trockener Teil**.\n- `f108r.6`: `ol cheol` — `Ansatz-/Zubereitungsposten` → **Trockenmaterial**.\n",
+        "sha256": "e5e86a4d2466e1186c674c7cfb1a1b170ca880956714ea550299354b3f87b89b"
+      }
+    },
+    {
+      "source_fragment_id": "GDT784:f88r.22:chorcholsal",
+      "report_id": "GDT784",
+      "surface": "chorcholsal",
+      "proposition": "The complete whole chorcholsal is provisionally a dry flower-drug whole, with ol chorcholsal rendered as a preparation phrase; sal remains open and botanical subtype, language, and plaintext remain unresolved.",
+      "path": "experiments/yolo/gdt784_chorcholsal_boundary_name_adjudication/REPORT.md",
+      "line": 5,
+      "line_end": 16,
+      "closest_current_cards": [
+        "SEM:6a433c8f26e0f92b94f3",
+        "SEM:9b2921a3450788e753bd",
+        "SEM:31b2bd625fdee5a3333a"
+      ],
+      "comparison": "Nearby cards cover sal= Droge, cheor dry-part, and other whole-span comparisons, but no current semantic card covers the exact chorcholsal whole proposition.",
+      "evidence": {
+        "path": "experiments/yolo/gdt784_chorcholsal_boundary_name_adjudication/REPORT.md",
+        "line": 5,
+        "line_end": 16,
+        "quote": "## Working result\n\nThe written surface is preserved as one complete whole at **C2**. ZL3b, IT2a\nand RF1b all have `chorcholsal`; the bound visual audit finds a clear gap after\n`ol` and no equal internal gap. Stolfi's older `chor,chol.sal` remains real\ncounterevidence, not a licence to turn three EVA substrings into lexemes.\n\nThe practical C0 card is **`chorcholsal=trockene Blütendroge`**. At the already\nexisting target span, **`ol chorcholsal=Ansatz: trockene Blütendroge`**. The\nportable role is only a learned or lexicalized plant-drug whole with a C1\nPART+DRY echo. `sal` stays C0/open. Flower versus fruit or seed, the exact drug,\nlanguage and plaintext all remain unresolved.",
+        "sha256": "8d567792945e232d6c48b1ce0c8ccd3f2f015aa83e238cc477e4bcd2e33dc17a"
+      }
+    }
+  ],
+  "validation": {
+    "exact_evidence": "passed tools.semantic_identity._evidence for all candidates",
+    "operative_mutation": false
+  }
+}

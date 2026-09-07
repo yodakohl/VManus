@@ -1,0 +1,115 @@
+{
+  "review_id": "IQ_IP_FINAL_SOURCE_PEER",
+  "status": "SOURCE_SCOPE_PEER__DRAFT_ONLY",
+  "drafts": {
+    "iq": "research_registry/decisions/iq_source_addition_draft.json",
+    "ip": "research_registry/decisions/ip_source_addition_draft.json"
+  },
+  "iq_review": [
+    {
+      "card_id": "CLEAN_GAP_IQ:lkaiin_record_field",
+      "decision": "repair_scope_before_integration",
+      "finding": "The draft claim must not place all three channels at f105v.37. That locus is the local moist processing/recipe example at passage level III; the three channel roles are a cross-occurrence architecture inference from the demonstrated target set.",
+      "corrected_claim": "Across the demonstrated GDT744 contexts, `lkaiin` participates in descriptive materia, descriptive quality and prescriptive recipe/process fields. At f105v.37 specifically it is a processing/recipe field for a moist preparation at level III with the ingredient open. This is an architecture inference, not a recovered lexeme.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt744_historical_microfield_channel_bridge/REPORT.md",
+          "line": 29,
+          "line_end": 56,
+          "quote": "Examples now distinguish materially different structures:\n\n- `lkaiin` at `f105v.37` is a processing/recipe field for a moist preparation,\n  with the ingredient still open and target passage level III retained.\n- `sain` at `f113r.49` is a hot/dry preparation-description entry at level II,\n  with the visible content surface left as an unidentified lemma candidate.\n- `sain` at `f106v.19` is a quantity/material field at level II, with the\n  referenced substance still open.\n\nSeven licensed occurrences contain hot/cold or dry/moist competition. The\nrenderer states that collision instead of merging it into one quality.\n\n## The target wholes are probably fields, not drug names\n\nFour exact targets recur in several fully demonstrated channel templates:\n\n- `lkaiin`: descriptive materia, descriptive quality and prescriptive\n  recipe/process;\n- `lkain`: descriptive materia, prescriptive recipe, prescriptive process and\n  quantity/part;\n- `lkar`: descriptive materia, descriptive quality and quantity/part;\n- `sain`: descriptive materia, descriptive quality and quantity/part.\n\nThe best current working interpretation is therefore that these wholes supply\nreusable level/state or entry fields whose dimension comes from the surrounding\nrecord. Treating them as single substance names would have to explain the same\nsurface moving through several coherent record channels. This is an\narchitecture inference, not a recovered lexeme.",
+          "sha256": "e7f55a4f66367c5fceed9c12c0f65ad6c63f8591d4841732e1ce61f7476ff4d5"
+        }
+      ]
+    },
+    {
+      "card_id": "CLEAN_GAP_IQ:qochey_dry_middle_local",
+      "decision": "approve_with_scope",
+      "finding": "The exact f104v.23 series supports only the local dry/probable-middle-stage working value; the temperature/function and rival limits are correctly retained. No global qochey meaning or component export follows.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt747_supported_whole_passage_application/REPORT.md",
+          "line": 23,
+          "line_end": 45,
+          "quote": "## Der stärkste Befund: `qochey`\n\nAuf `f104v.23` steht wörtlich:\n\n```text\ntchey qokchey qochey qodeey qodaiin chodaiin chckhdy dairar otar qotai l\n```\n\nDie beiden unmittelbar vorausgehenden **vollständigen** Karten lauten:\n\n- `tchey`: kalt und trocken in der Mitte des Grades;\n- `qokchey`: heiß und trocken in der Mitte des Grades.\n\n`qochey` folgt als drittes Ganzwort. GDT745s direkte Formfamilie und GDT746s\nunabhängige Verteilung hatten bereits `DRY` gemeinsam; jetzt trägt auch die\ngeschriebene lokale Serie zweimal `DRY|MIDDLE_STAGE`, während HOT gegen COLD\nwechselt. Der beste Arbeitswert wird deshalb enger:\n\n**`qochey` = trocken; Mittelstufe wahrscheinlich; Temperatur und Funktion\noffen.**\n\nZustand, Stoffzugabe und der widersprüchliche Mengenfeldbezug bleiben echte\nRivalen. Die Sequenz erlaubt weder `q=...` noch `o=...` oder `chey=...`.",
+          "sha256": "c02e55313bed81535378daaa112f738c5fc2d5be19c94affe1a29ce4869aeec3"
+        }
+      ]
+    },
+    {
+      "card_id": "CLEAN_GAP_IQ:ol_oeeal_contextual_field",
+      "decision": "repair_provenance_wording",
+      "finding": "GDT779 is an inherited V99R7 whole-word projection with contextual licensing. It is useful missing source coverage, but cannot be described as an independent semantic adjudication of oeeal or ol.",
+      "corrected_claim": "At f104r.14, GDT779 licenses the inherited V99R7 whole-word display `ol oeeal` → `Trockenmaterial I, Endstufe` in a contextual span; this is provenance-bound working output, not independent evidence for oeeal or ol semantics.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt779_ol_residual_v99r7_exact_whole_recovery/REPORT.md",
+          "line": 26,
+          "line_end": 41,
+          "quote": "## Praktische Beispiele\n\n- `f104r.14`: `ol oeeal` — `Ansatz-/Zubereitungsposten` → **Trockenmaterial I, Endstufe**.\n- `f104v.3`: `ol dl` — `Ansatz-/Zubereitungsposten` → **Rohstoffmaß**.\n- `f104v.9`: `ol chedaiin` — `Ansatz-/Zubereitungsposten` → **abgemessene Trockenmenge III**.\n- `f106v.46`: `ol oky` — `Ansatz-/Zubereitungsposten` → **erste Wärmestufe**.\n- `f107r.46`: `ol cheor` — `Ansatz-/Zubereitungsposten` → **trockener Teil**.\n- `f108r.6`: `ol cheol` — `Ansatz-/Zubereitungsposten` → **Trockenmaterial**.\n\n## Verbleibende Restschuld\n\nDie 131 Fallbacks zerfallen jetzt ohne erneuten Korpuszugriff in 37 Stellen\nohne rechtes Token, 49 nicht-exakte Stellen mit V99R7-Karte, 20 nicht-exakte\nStellen ohne Karte und 25 reader-exakte Stellen ohne Karte. Nur die letzte\n25er-Klasse ist sofort für neue vollständige Ganzwortkandidaten zugänglich;\nnicht-exakte oder leere Rechtsfelder werden nicht still repariert.",
+          "sha256": "e5e86a4d2466e1186c674c7cfb1a1b170ca880956714ea550299354b3f87b89b"
+        },
+        {
+          "path": "experiments/yolo/gdt779_ol_residual_v99r7_exact_whole_recovery/REPORT.md",
+          "line": 43,
+          "line_end": 56,
+          "quote": "## Kartenhygiene und Grenze\n\nDie 44 Karten teilen sich disjunkt in 32 direkt geerbte Ganzwortkarten, sechs\npatientenfrei sanierte Karten, drei ausschließlich für die neue exakte\n`ol + Ganzwort`-Spanne lizenzierte Karten, zwei als Ganzwort geerbte\nKompositionskarten ohne Teilformexport und eine spätere vollständige\nGDT755-Ganzwortkarte (`qockhey` → **mische**). Alte Quellenformulierungen sind\nnur im Provenienzaudit sichtbar und steuern weder Auswahl noch Renderer.\n\nDie Werte bleiben ersetzbare praktische Ganzwortdefaults. GDT779 bestätigt\nkein EVA-Zeichen, keinen Wortteil, kein Lexem, keine Sprache und keinen\nKlartextsatz. Es wurden keine neuen Seiten, Bilder, OCR oder Transkriptionen\ngeöffnet; `f84` und `f84r` blieben gesperrt. Das GDT388-Paket bleibt\n`VALID_ACQUISITION_NOT_SCORE_READY`.",
+          "sha256": "e5e86a4d2466e1186c674c7cfb1a1b170ca880956714ea550299354b3f87b89b"
+        }
+      ]
+    },
+    {
+      "card_id": "CLEAN_GAP_IQ:chorcholsal_whole",
+      "decision": "approve_with_boundary_semantic_split",
+      "finding": "The source cleanly separates C2 written-whole boundary evidence from the C0 practical semantic card. The draft keeps botanical, drug, language and plaintext uncertainty, so it may proceed as an unconfirmed whole proposition without treating boundary evidence as semantic proof.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt784_chorcholsal_boundary_name_adjudication/REPORT.md",
+          "line": 5,
+          "line_end": 16,
+          "quote": "## Working result\n\nThe written surface is preserved as one complete whole at **C2**. ZL3b, IT2a\nand RF1b all have `chorcholsal`; the bound visual audit finds a clear gap after\n`ol` and no equal internal gap. Stolfi's older `chor,chol.sal` remains real\ncounterevidence, not a licence to turn three EVA substrings into lexemes.\n\nThe practical C0 card is **`chorcholsal=trockene Blütendroge`**. At the already\nexisting target span, **`ol chorcholsal=Ansatz: trockene Blütendroge`**. The\nportable role is only a learned or lexicalized plant-drug whole with a C1\nPART+DRY echo. `sal` stays C0/open. Flower versus fruit or seed, the exact drug,\nlanguage and plaintext all remain unresolved.",
+          "sha256": "8d567792945e232d6c48b1ce0c8ccd3f2f015aa83e238cc477e4bcd2e33dc17a"
+        },
+        {
+          "path": "experiments/yolo/gdt784_chorcholsal_boundary_name_adjudication/REPORT.md",
+          "line": 18,
+          "line_end": 31,
+          "quote": "## Four boundary readings\n\n| reader | target group | external boundary | internal boundaries | whole |\n|---|---|---|---|---:|\n| ZL3b | `chorcholsal` | DEFINITE_SPACE | NONE / NONE | 1 |\n| IT2a | `chorcholsal` | DEFINITE_SPACE | NONE / NONE | 1 |\n| RF1b | `chorcholsal` | DEFINITE_SPACE | NONE / NONE | 1 |\n| Stolfi25e1 | `chor,chol.sal` | DOT | COMMA / DOT | 0 |\n\nThirteen target-free Stolfi lines among the fourteen modern GDT759 contact\nloci have a representative definite dot between `chor` and `chol` or the\nreverse. This shows Stolfi's dot convention, but the target comma-plus-dot is\nnot by itself physical-gap proof. The visual crop decides only the written\nwhole boundary, never a meaning.",
+          "sha256": "8d567792945e232d6c48b1ce0c8ccd3f2f015aa83e238cc477e4bcd2e33dc17a"
+        }
+      ]
+    }
+  ],
+  "ip_review": {
+    "card_id": "CLEAN_GAP_IP:QOKEOL_OKEOL_SHARED_HEAT_MIDDLE",
+    "decision": "approve_as_unconfirmed_source_addition",
+    "finding": "The IP draft correctly records GDT753 as a shared qokeol/okeol heat-middle field hypothesis after the q/base direction test failed. Exact function and carrier remain open; earlier qokeol/okeol prose is correctly treated as analyst composition rather than independent whole-form evidence. No substring meaning or global semantic identity is licensed.",
+    "evidence": [
+      {
+        "path": "experiments/yolo/gdt753_qokeol_okeol_whole_role_census/REPORT.md",
+        "line": 7,
+        "line_end": 21,
+        "quote": "Die alte Aufteilung hält nicht. Im zugelassenen Cache gibt es 34\nreader-exakte `qokeol`- und 41 reader-exakte `okeol`-Vorkommen auf zusammen 40\nSeiten. Von ihren target-zentrierten Feldern sind 15 beziehungsweise 19\nvollständig begrenzt.\n\n| Form | vollständige Felder | Prozess/Stoff + Mittelstufe | Zubereitung |\n|---|---:|---:|---:|\n| `qokeol` | 15 | 3 auf 2 Seiten | 6 auf 6 Seiten |\n| `okeol` | 19 | 4 auf 4 Seiten | 8 auf 8 Seiten |\n\nDer q-minus-Basis-Unterschied für Prozess/Stoff+Mittelstufe ist `-0.010526`;\nder Basis-minus-q-Unterschied für Zubereitung ist `0.021053`. Das ist\npraktisch dieselbe Verteilung, nicht die behauptete Gegenüberstellung. Der\ngerichtete Test scheitert. Dasselbe gilt für alle fünf frequenzähnlichen\nq/Basis- und fünf Nicht-q-Kontrollpaare.",
+        "sha256": "c4501622f42d32ab0935d148456688465a564ed99d49f32fc7ee7607c36b5f0f"
+      },
+      {
+        "path": "experiments/yolo/gdt753_qokeol_okeol_whole_role_census/REPORT.md",
+        "line": 27,
+        "line_end": 37,
+        "quote": "| Form | bisherige Prosa | Quelle | damalige Konstruktion |\n|---|---|---|---|\n| `qokeol` | erhitze den Drogenstoff bis zur Mittelstufe | GDT666, `G666-D149` | `QO_COMMAND+K_HOT+E_MIDDLE+OL_MATERIAL` |\n| `okeol` | Grundansatz bis zur mittleren Heizstufe erwärmt | GDT664, `G664-D030` | `O_PREP+K_HOT+E_MIDDLE+OL_BASE` |\n\nBeide Karten waren ausdrücklich `PRODUCTIVE_COMPOUND` und ersetzbare\nWerkstattwerte. Die konkrete Handlung, der Drogenstoff und der Grundansatz\nwurden also aus Analystenbausteinen zusammengesetzt; sie wurden nicht als\nunabhängige Bedeutungen der beiden Ganzformen gefunden. Der heutige\nNo-component-export-Renderer darf diese Karten deshalb nicht als Bestätigung\nseiner eigenen Bausteine verwenden.",
+        "sha256": "c4501622f42d32ab0935d148456688465a564ed99d49f32fc7ee7607c36b5f0f"
+      },
+      {
+        "path": "experiments/yolo/gdt753_qokeol_okeol_whole_role_census/REPORT.md",
+        "line": 39,
+        "line_end": 66,
+        "quote": "## Renderer-Korrektur\n\nDie beiden alten Sätze werden als gesprochene Ganzwortwerte abgezogen. Der\nexplorative Arbeitsdefault lautet nun für beide Formen:\n\n> **Wärme-/Mittelstufenfeld; genaue Funktion und Träger offen.**\n\nDas ist bewusst nicht „bedeutungslos“. Der gemeinsame Wärme-/Stufenansatz\nbleibt als Arbeitshypothese erhalten, weil er die Formfamilie weiterhin knapp\nbeschreibt und hier nicht unmöglich wird. Nicht mehr behauptet werden:\n\n- `qokeol` sei bereits als Imperativ „erhitze“ identifiziert;\n- sein Patient sei bereits „Drogenstoff“;\n- `okeol` bezeichne bereits einen „Grundansatz“;\n- der sichtbare q/Basis-Unterschied schalte sicher zwischen Handlung und\n  Zubereitung um.\n\nDie 75-Zeilen-Lesertabelle bewahrt zusätzlich jeden lokal sichtbaren Kontext.\nEin vollständiges Feld kann daher weiterhin konkret „Zubereitungskontext“ oder\n„Mittelstufen-Verarbeitungs-/Stoffkontext“ sagen, ohne diesen Nachbarbefund zur\nWortübersetzung umzudeklarieren.\n\n## Was übrig bleibt\n\nDie schwache komplette Paarbeziehung aus GDT751 wird nicht verworfen. Die\nbeiden Formen können eng verwandt sein; GDT753 zeigt nur, dass diese eine\nsemantische Umschaltregel sie nicht erklärt. EVA `q`, `o`, `k`, `e`, `ol` und\nalle anderen Teilstrings erhalten weiterhin null Exportkredit.",
+        "sha256": "c4501622f42d32ab0935d148456688465a564ed99d49f32fc7ee7607c36b5f0f"
+      }
+    ]
+  },
+  "validation": {
+    "all_evidence": "passed tools.semantic_identity._evidence on IQ, added provenance/boundary spans, and IP draft evidence",
+    "no_operative_mutation": true,
+    "source_groups_not_exhaustive": true
+  }
+}
