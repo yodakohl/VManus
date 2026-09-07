@@ -1,0 +1,86 @@
+{
+  "review_id": "IB_ELLIPSIS_SOURCE_CONTRACT_PEER",
+  "status": "SOURCE_CONTRACT_ONLY__NOT_SEMANTIC_GOLD",
+  "target": "IDEA000038",
+  "question": "Does GDT559's 157/157 result empirically observe argument-value inheritance, or does it validate inherited fields supplied by the upstream context compiler?",
+  "conclusion": "The result is a reproducible consistency check over upstream context annotations and a deterministic adjacent-card join. It is not an independently observed semantic endpoint. It does not refute IDEA000038, but the proposal must not describe GDT559 as independent evidence that omitted manuscript arguments retain a real-world referent/value.",
+  "counts": {
+    "left_controlled_transitions": 341,
+    "implicit_successors_inherit_current": 157,
+    "explicit_successor_resets": 173,
+    "statement_ends": 11,
+    "mismatches": 0,
+    "interpretation": "These are exact counts under the GDT559 context/transition contract. They establish no semantic gold label for Y, AIIN, AIN, or OR."
+  },
+  "logic_audit": [
+    {
+      "finding": "Upstream fields are imported, not independently reannotated.",
+      "detail": "run.py copies explicit_argument_roots and inherited_argument_root from GDT416/GDT539 into the joined context. It checks recipe equality against GDT557, but does not derive inherited_argument_root from an independent semantic annotation.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt559_argument_carrier_substitution_grammar/src/run.py",
+          "line": 186,
+          "line_end": 213,
+          "quote": "    context: dict[str, dict[str, object]] = {}\n    for row in old_context_rows:\n        context[row[\"global_running_event_id\"]] = {\n            \"event_id\": row[\"global_running_event_id\"],\n            \"statement_id\": row[\"global_statement_id\"],\n            \"card_ordinal\": int(row[\"card_ordinal_in_statement\"]),\n            \"recipe\": row[\"component_recipe\"],\n            \"explicit_arguments\": row[\"explicit_argument_roots\"],\n            \"inherited_argument\": row[\"inherited_argument_root\"],\n        }\n    for row in current_context_rows:\n        event_id = row[\"event_id\"]\n        if event_id in context:\n            raise RuntimeError(f\"Old/current context overlap: {event_id}\")\n        context[event_id] = {\n            \"event_id\": event_id,\n            \"statement_id\": row[\"statement_id\"],\n            \"card_ordinal\": int(row[\"card_ordinal_in_statement\"]),\n            \"recipe\": row[\"final_context_recipe\"],\n            \"explicit_arguments\": row[\"explicit_argument_roots\"],\n            \"inherited_argument\": row[\"inherited_argument_root\"],\n        }\n    missing_context = sorted(set(events) - set(context))\n    if len(context) != 5122 or missing_context:\n        raise RuntimeError(f\"Context union or join drift: {len(context)}, {missing_context[:5]}\")\n    for event_id, event in events.items():\n        if context[event_id][\"recipe\"] != event[\"recipe\"]:\n            raise RuntimeError(f\"Context recipe mismatch: {event_id}\")",
+          "sha256": "c9b32c1f2be7032e609c9cc1eb8b01e22250233a0f6d5fe30707e58034cf23f7"
+        }
+      ]
+    },
+    {
+      "finding": "Successors are deterministic statement-order neighbors; 157/157 compares imported labels.",
+      "detail": "Cards are sorted by card_ordinal and zipped. For each selected left card, the runner reads next_explicit and next_inherited from the successor row, then calls equality with last_argument an inheritance. The validator repeats that field equality. This is not a blind semantic reading of the successor surface.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt559_argument_carrier_substitution_grammar/src/run.py",
+          "line": 215,
+          "line_end": 222,
+          "quote": "    statement_cards: dict[str, list[dict[str, object]]] = defaultdict(list)\n    for row in context.values():\n        statement_cards[str(row[\"statement_id\"])].append(row)\n    successor: dict[str, dict[str, object]] = {}\n    for cards in statement_cards.values():\n        cards.sort(key=lambda row: int(row[\"card_ordinal\"]))\n        for left, right in zip(cards, cards[1:]):\n            successor[str(left[\"event_id\"])] = right",
+          "sha256": "c9b32c1f2be7032e609c9cc1eb8b01e22250233a0f6d5fe30707e58034cf23f7"
+        },
+        {
+          "path": "experiments/yolo/gdt559_argument_carrier_substitution_grammar/src/run.py",
+          "line": 453,
+          "line_end": 474,
+          "quote": "        next_card = successor.get(event_id)\n        if next_card is None:\n            outcome = \"NO_SUCCESSOR_STATEMENT_END\"\n            next_event_id = next_recipe = next_explicit = next_inherited = \"NONE\"\n            transition_reading = \"Die Aussage endet nach diesem Träger.\"\n        else:\n            next_event_id = str(next_card[\"event_id\"])\n            next_recipe = str(next_card[\"recipe\"])\n            next_explicit = str(next_card[\"explicit_arguments\"])\n            next_inherited = str(next_card[\"inherited_argument\"])\n            if pipe_values(next_explicit):\n                outcome = \"NEXT_EXPLICIT_ARGUMENT_RESETS_CARRIER\"\n                transition_reading = \"Die nächste Karte setzt ein neues sichtbares Argument.\"\n            elif next_inherited == last_argument:\n                outcome = \"NEXT_INHERITS_CURRENT_ARGUMENT\"\n                transition_reading = f\"Die nächste Karte verwendet weiter {ARGUMENT_ACCUSATIVE[last_argument]}.\"\n            elif next_inherited == \"NONE\":\n                outcome = \"MISMATCH_NEXT_HAS_NO_ARGUMENT\"\n                transition_reading = \"UNRESOLVED\"\n            else:\n                outcome = \"MISMATCH_NEXT_INHERITS_OTHER_ARGUMENT\"\n                transition_reading = \"UNRESOLVED\"",
+          "sha256": "c9b32c1f2be7032e609c9cc1eb8b01e22250233a0f6d5fe30707e58034cf23f7"
+        },
+        {
+          "path": "experiments/yolo/gdt559_argument_carrier_substitution_grammar/src/validate.py",
+          "line": 143,
+          "line_end": 148,
+          "quote": "    outcomes = Counter(row[\"successor_outcome\"] for row in transitions)\n    check(\"successor_partition\", outcomes == Counter({\"NEXT_EXPLICIT_ARGUMENT_RESETS_CARRIER\": 173, \"NEXT_INHERITS_CURRENT_ARGUMENT\": 157, \"NO_SUCCESSOR_STATEMENT_END\": 11}), outcomes)\n    inherited_ok = all(row[\"next_explicit_arguments\"] == \"NONE\" and row[\"next_inherited_argument\"] == row[\"last_argument\"] for row in transitions if row[\"successor_outcome\"] == \"NEXT_INHERITS_CURRENT_ARGUMENT\")\n    check(\"all_implicit_successors_inherit_current\", inherited_ok, [])\n    explicit_ok = all(row[\"next_explicit_arguments\"] != \"NONE\" for row in transitions if row[\"successor_outcome\"] == \"NEXT_EXPLICIT_ARGUMENT_RESETS_CARRIER\")\n    check(\"all_explicit_successors_reset_visibly\", explicit_ok, [])",
+          "sha256": "96859fd76cfe6e07ee8a57e4b979e7d7aa4feb86c902292fb1bcd8c3b07a3524"
+        }
+      ]
+    }
+  ],
+  "source_claim_boundary": {
+    "supported": "GDT559 verifies that the existing context compiler's inherited_argument_root labels agree with the preceding selected argument for 157 no-new-explicit-argument adjacent transitions, while 173 have an explicit successor argument and 11 terminate.",
+    "not_supported": [
+      "that omitted manuscript material semantically retains the same referent/value",
+      "that Y, AIIN, AIN, and OR denote POSTEN, WERT, ANTEIL, and EINHEIT",
+      "that statement/card boundaries or inheritance labels are authorial rather than compiler assumptions",
+      "that the 157/157 rule generalizes outside this selected corpus and upstream annotation contract"
+    ]
+  },
+  "decision": "KEEP_IDEA000038_RAW_UNREVIEWED_WITH_SOURCE_ENDPOINT_DOWNGRADED",
+  "repair_requirement": "If IDEA000038 is later tested, add an independent source-bound argument identity/semantic annotation or a predeclared counterexample set. GDT559 may serve as a compiler-consistency prerequisite, not as the semantic endpoint or a direct refutation of a failed inheritance prediction.",
+  "reviewer": "luna_three_hour_producer",
+  "no_mutations": true,
+  "count_evidence": [
+    {
+      "path": "experiments/yolo/gdt559_argument_carrier_substitution_grammar/artifacts/gdt559_result.json",
+      "line": 32,
+      "line_end": 36,
+      "quote": "  \"left_controlled_transition_count\": 341,\n  \"implicit_successor_inherits_current_count\": 157,\n  \"explicit_successor_argument_reset_count\": 173,\n  \"no_successor_statement_end_count\": 11,\n  \"successor_argument_mismatch_count\": 0,",
+      "sha256": "ff761c2f464791cef590129249176d506ca8497b4ca63bda235e97063db3e41f"
+    },
+    {
+      "path": "experiments/yolo/gdt559_argument_carrier_substitution_grammar/REPORT.md",
+      "line": 71,
+      "line_end": 78,
+      "quote": "Für341 Karten steht das letzte sichtbare Argument rechts von OT oder OL. Ihre\nunmittelbaren Nachfolger teilen sich vollständig:\n\n- 157 Nachfolger schreiben kein neues Argument und übernehmen in157/157 Fällen\n  exakt den gerade gesetzten Wert;\n- 173 Nachfolger schreiben ein neues Argument und ersetzen den Träger sichtbar;\n- elf Karten stehen am Aussageende;\n- null Nachfolger erben einen falschen oder leeren Wert.",
+      "sha256": "c1f3518d7996c041335ed1abac9899e53079de22ed0f6321065c8f7442559bc4"
+    }
+  ]
+}

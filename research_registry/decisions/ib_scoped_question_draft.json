@@ -1,0 +1,211 @@
+{
+  "status": "ROOT_DRAFT_TWO_QUESTIONS",
+  "decisions": [
+    {
+      "id": "FAILURE_IB:OKEEY_ADD_WATER_VERSUS_KEEP_WARM:v1",
+      "decision_key": "FAILURE_IB:OKEEY_ADD_WATER_VERSUS_KEEP_WARM",
+      "revision": 1,
+      "previous_revision": null,
+      "status": "reviewed_scoped_context",
+      "review_status": "reviewed_scoped_context",
+      "reviewer": "root after primary code and logical countermodels",
+      "targets": [
+        "SEM:01c97893526953717ebe"
+      ],
+      "card_basis": {
+        "SEM:01c97893526953717ebe": "b762dcaa682daf999abdfbaf97d4c5100d800e42d4029c29cab0c38195e7c8eb"
+      },
+      "effective_basis": {
+        "SEM:01c97893526953717ebe": "6f1ee14d872db1ce56fc522325ab52800eaf55131bf60fead77a16dd57d50316"
+      },
+      "source_case_ids": {
+        "SEM:01c97893526953717ebe": [
+          "FINAL-SEM:11f3d22e40c5772a681f"
+        ]
+      },
+      "original_assertion": {
+        "SEM:01c97893526953717ebe": "**`OKEEY/QOKEEY` is ADD WARMED WATER, not KEEP WARM.** It is open—three field-first and four field-medial copies—and repeatedly precedes rinsing, use or another committed process card. Heat itself already has three better cards: moderate warming `QOKEEDY`, single boiling `QOKCHDY`, and gentle-fire mode `CHEKY`. This division makes the deck simpler and gives water a stable card rather than spreading WATER across `L/O` or every channel form."
+      },
+      "claim": "Does the V17 OKEEY/QOKEEY pattern select adding warmed water over keeping warm?",
+      "scope": "V17 seven-copy interpretation; later q/base renderer role tests are related evidence with different endpoints.",
+      "reason_class": "authored_semantic_endpoint_and_underdetermined_rival_contract",
+      "actually_tested_falsifier": "V17 cites three field-first and four field-medial copies and assigns other heat cards. GDT751/752 inspect inherited q/base role axes; their zero directional carrier hits and symmetric qokeey/okeey field do not directly test water addition versus maintenance.",
+      "outcome": "The V17 gloss and division of lexical labor remain authored hypotheses. Addition and maintenance may describe the same physical event. Neither the seven positions nor inherited heat/preparation axes select either gloss; GDT752 does not empirically refute all addition meanings.",
+      "claim_ceiling": "Source/code and model-contract review only; no new manuscript test or meaning, and no automatic cross-card verdict.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v17/CANDIDATE_V17_R3_TECHNICAL_REGISTER.md",
+          "line": 112,
+          "line_end": 117,
+          "quote": "3. **`OKEEY/QOKEEY` is ADD WARMED WATER, not KEEP WARM.** It is open—three\n   field-first and four field-medial copies—and repeatedly precedes rinsing,\n   use or another committed process card. Heat itself already has three better\n   cards: moderate warming `QOKEEDY`, single boiling `QOKCHDY`, and gentle-fire\n   mode `CHEKY`. This division makes the deck simpler and gives water a stable\n   card rather than spreading WATER across `L/O` or every channel form.",
+          "sha256": "066158d1b1bbcbbb3fdf02e502739a332c591c06111d2c451925a62f5b1ed404"
+        },
+        {
+          "path": "experiments/yolo/gdt751_q_base_carrier_shell_audit/REPORT.md",
+          "line": 5,
+          "line_end": 20,
+          "quote": "Der saubere aktuelle Ganzformbestand enthält 690 Oberflächen. Genau 51 bilden\nein vollständiges Paar `qX`/`X`; zusammen besitzen sie 2.060 reader-exakte\nq-Vorkommen und 1.701 reader-exakte Basisvorkommen. Die geerbten Rendererwerte\nzeigen ein außerordentlich klares Muster:\n\n- 47/51 Paare bewahren exakt dieselben HOT/COLD/DRY/MOIST-/Stufenachsen;\n- 41/51 tragen `PREPARATION` nur auf der unpräfigierten Form;\n- null Paare tragen `PREPARATION` nur auf der q-Form.\n\nDas sieht zunächst wie die gesuchte Kompositionsregel aus. Es ist aber noch\nkein unabhängiger Fund: Die aktuellen Karten stammen teilweise aus älteren\no-/q-Schalenmodellen. Der Kontrollbestand macht diese interne Konstruktion\nsichtbar. Unter 160 anderen Ein-Zeichen-Präfixpaaren steht `PREPARATION` nur\neinmal auf der Basis, aber 50-mal nur auf der Präfixform—fast vollständig bei\no-Präfixen. Die q/o-Asymmetrie ist daher ein starkes **internes\nRenderermodell**, noch keine entzifferte Eigenschaft eines Voynich-Zeichens.",
+          "sha256": "1cc862db584a1873e800677ed36da65a700528af316964557f3dd668d42c8de9"
+        },
+        {
+          "path": "experiments/yolo/gdt751_q_base_carrier_shell_audit/REPORT.md",
+          "line": 60,
+          "line_end": 70,
+          "quote": "## Zehn konkretere `okeey`-Stellen\n\nDie Kreuzung mit GDT750 liefert zehn Stellen, an denen alle nötigen Bedingungen\ngleichzeitig vorliegen: `okeey` besitzt bereits eine lokale HOT+END-Karte,\n`qokeey` ist der unmittelbare aktive Host, beide Ganzformen bewahren dieselben\nQualitäts-/Stufenachsen, und die geerbte Paarung setzt den\nZubereitungsträger nur auf `okeey`. Für diese zehn Stellen lautet die neue\nexplorative Arbeitslesung:\n\n**`okeey` — heiße Zubereitung an der End-/Vollstufe.**\n",
+          "sha256": "1cc862db584a1873e800677ed36da65a700528af316964557f3dd668d42c8de9"
+        },
+        {
+          "path": "experiments/yolo/gdt751_q_base_carrier_shell_audit/REPORT.md",
+          "line": 92,
+          "line_end": 100,
+          "quote": "Wir besitzen jetzt erstmals eine konkrete, vorhersagende Ganzformrelation mit\nklarer Schwächemarkierung: q/Basis bewahrt meistens den Zustand, und an lokal\ngebundenen Basisstellen kann der Zubereitungsträger ergänzt werden. Was noch\nfehlt, ist unabhängige Satzrollen-Evidenz für die Richtung dieses\nTrägerwechsels. Der nächste sinnvolle Pass nimmt deshalb die 44 direkten\nKontakte und prüft ihre vollständigen Mikrofelder gegen die bereits vorhandenen\ndeskriptiven und präskriptiven historischen Kanäle. Wenn die Basisformen dort\nnicht wiederholt den Zubereitungs-/Objektslot besetzen, muss der Trägerwechsel\nwieder fallen.",
+          "sha256": "1cc862db584a1873e800677ed36da65a700528af316964557f3dd668d42c8de9"
+        },
+        {
+          "path": "experiments/yolo/gdt752_q_base_microfield_role_audit/REPORT.md",
+          "line": 5,
+          "line_end": 23,
+          "quote": "Die q/Basis-Paare sind als **vollständige Formpaare** weiterhin interessant,\naber die konkrete Rollenregel „q-Form = Qualität/Zustand, Basisform =\nZubereitung“ hält im unabhängigen Außenfeld nicht.\n\nVon 44 festen q/Basis-Kontakten auf 27 Seiten besitzen 27 auf beiden\nAußenseiten ein vollständig begrenztes Mikrofeld. Darunter gibt es:\n\n- **null** eindeutige Treffer für q-seitige Qualität/Stufe plus\n  basisseitige `PREPARATION`;\n- **null** eindeutige Umkehrtreffer;\n- genau einen beidseitig belegten Fall, `qokeey/okeey` auf `f99r.50`, der auf\n  beiden Seiten dieselben Achsen HOT|PREPARATION|LEVEL_II trägt und deshalb\n  symmetrisch, nicht richtungsweisend ist;\n- im breiteren Trägertest je einen Treffer in beide Richtungen.\n\nDie 42 direkten Nicht-q-Kontrollen auf 36 Seiten sind nicht schwächer: 28\nFelder sind vollständig, ein exakter Umkehrtreffer überlebt, und der breite\nTrägertest ergibt zwei hypothesenkonforme gegen drei umgekehrte Fälle. Damit\nist die gesuchte Rollenrichtung keine q-spezifische Regel.",
+          "sha256": "471e4c3ae19b98b7fc0d9df25313db133af457d302eeeabbdc6d246f53b49cca"
+        },
+        {
+          "path": "experiments/yolo/gdt752_q_base_microfield_role_audit/REPORT.md",
+          "line": 40,
+          "line_end": 56,
+          "quote": "Alle zehn GDT751-Karten `heiße Zubereitung an der End-/Vollstufe` besitzen\nnull unabhängige, vollständige Außenfeldbestätigungen für den Träger\n`PREPARATION`. Ihre robustere GDT750-Information bleibt jedoch erhalten:\n\n> **heiß an der End-/Vollstufe; Trägerrolle offen**\n\n`Zubereitung` wird nicht gelöscht, sondern als explorative Hintergrundannahme\ngeführt. Es wird nur nicht mehr als bereits gewonnene Übersetzungsinformation\nausgesprochen. Die drei übrigen `qokeey/okeey`-Kontakte erhalten weiterhin\nkeine zusätzliche Karte.\n\n## Was weiterhin gilt\n\nGDT751s schwache komplette Paarbeziehung bleibt bestehen: 44 direkte Kontakte\nvon zwölf q/Basis-Paartypen bei erhöhter Kontaktdichte. GDT752 prüft nicht, ob\ndie Formen zusammengehören, sondern ob sie **diese eine konkrete\nRollenaufteilung** tragen. Dafür lautet die Antwort derzeit nein.",
+          "sha256": "471e4c3ae19b98b7fc0d9df25313db133af457d302eeeabbdc6d246f53b49cca"
+        }
+      ],
+      "review_artifact": {
+        "path": "research_registry/decisions/ib_root_semantic_contract_review.json",
+        "sha256": "92f123573ced87cd28c2703780e21344b1281bd205dcc00a1cb08fab04ffe6d5"
+      },
+      "reopening": {
+        "status": "REVIEW_REQUIRED_NOT_TEST_READY",
+        "assessed_by": "curation_review",
+        "criteria_origin": "Exact source limits and root countermodels, not a new preregistration.",
+        "all_of": [
+          "State source-faithful lexical commitments and a context in which their predictions differ. KEEP may permit addition; ADD does not require a changed carrier identity or measured net volume.",
+          "Use an independently grounded complete event or linguistic contrast for those commitments, with adequate held scope. More q/base pairs cannot repair an overlapping endpoint."
+        ],
+        "not_sufficient": [
+          "More authored defaults, fluent expansions, source-code parity or old field counts.",
+          "Treating value-class identity as individual referent identity.",
+          "Physical events compatible with both glosses treated as lexical selection."
+        ]
+      },
+      "automatic_card_status_propagation": false,
+      "empirical_meaning_refutation": false
+    },
+    {
+      "id": "FAILURE_IB:CARRIER_CONTROL_AND_TWO_SLOT_MEMORY:v1",
+      "decision_key": "FAILURE_IB:CARRIER_CONTROL_AND_TWO_SLOT_MEMORY",
+      "revision": 1,
+      "previous_revision": null,
+      "status": "reviewed_scoped_context",
+      "review_status": "reviewed_scoped_context",
+      "reviewer": "root after primary code and logical countermodels",
+      "targets": [
+        "SEM:cda11d7d5d908c3befc0",
+        "SEM:ed1e21430d5b72c60dda"
+      ],
+      "card_basis": {
+        "SEM:cda11d7d5d908c3befc0": "4a3581143a1ddf8cb5ac07e8aefdb5f6e9da04a797c8e36348916aedf5277f3f",
+        "SEM:ed1e21430d5b72c60dda": "91d8386145c459bbebfd8465d7c6c6b1623a868a78867fb9f289b51e41363ab0"
+      },
+      "effective_basis": {
+        "SEM:cda11d7d5d908c3befc0": "d55f5ac84ce905175564193b08e011d65aaa9e671400a58055b7ca0d32981f63",
+        "SEM:ed1e21430d5b72c60dda": "d9c390ebcd10e4384f32e23cb8abc25118f51bc0d0d8aa612d2a4c171bcea137"
+      },
+      "source_case_ids": {
+        "SEM:cda11d7d5d908c3befc0": [
+          "CLEAN_GAP_CP:carrier_control_composition"
+        ],
+        "SEM:ed1e21430d5b72c60dda": [
+          "CLEAN_GAP_AF:state_two_slot"
+        ]
+      },
+      "original_assertion": {
+        "SEM:cda11d7d5d908c3befc0": "GDT559 proposes a shared carrier grammar: OT opens or shifts to the next carrier, OL keeps the current carrier active and DY closes the current step; Y, AIIN, AIN and OR supply respectively POSTEN, WERT, ANTEIL and EINHEIT as the carrier value. Written order composes these short contributions. Thus OT+AIIN does not give AIIN the entire meaning of opening the next value as carrier. The six stated wrappers are OT>A<END, OL>A<END, START>A<DY, START>A<OL, OT>A<OL and OL>A<OL; their ARG position receives the short carrier value.",
+        "SEM:ed1e21430d5b72c60dda": "In the GDT562/563 state-card working reading, written cards supply explicit values and state operators, sentence memory supplies the last active action and last active argument, and the local owner supplies the concrete noun and initial default. A short OT+E+Y card therefore does not itself encode a long plant-processing sentence."
+      },
+      "claim": "Do the GDT559 carrier-control grammar and GDT562/563 memory expansions independently establish semantic inheritance?",
+      "scope": "Two related historical models retain separate cards: GDT559 control/value composition and GDT562/563 action/argument/owner memory. No identity merge.",
+      "reason_class": "authored_semantic_endpoint_and_underdetermined_rival_contract",
+      "actually_tested_falsifier": "GDT559 partitions 341 selected successors into 157 inherited, 173 explicit replacements and 11 ends using GDT416/539 labels. Those upstream programs assign inheritance from active arguments under explicit action and pure-DY guards. GDT562/563 reconstruct and render the working state.",
+      "outcome": "The source demonstrates a consistent bounded parser and fluent default edition. Its inheritance endpoint is constructed by the same model family. 157/157, 54/54 pointer reconstruction, 101 variable recipes and 33 OL renderings do not independently identify lexical values, referents, authorial statement boundaries or semantic ellipsis. The structural recipes and successful implementation checks remain intact.",
+      "claim_ceiling": "Source/code and model-contract review only; no new manuscript test or meaning, and no automatic cross-card verdict.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt559_argument_carrier_substitution_grammar/REPORT.md",
+          "line": 71,
+          "line_end": 86,
+          "quote": "Für341 Karten steht das letzte sichtbare Argument rechts von OT oder OL. Ihre\nunmittelbaren Nachfolger teilen sich vollständig:\n\n- 157 Nachfolger schreiben kein neues Argument und übernehmen in157/157 Fällen\n  exakt den gerade gesetzten Wert;\n- 173 Nachfolger schreiben ein neues Argument und ersetzen den Träger sichtbar;\n- elf Karten stehen am Aussageende;\n- null Nachfolger erben einen falschen oder leeren Wert.\n\nDie praktische Regel ist daher sehr klein:\n\n> Ein sichtbares Argument setzt den aktuellen Träger. Das nächste sichtbare\n> Argument ersetzt ihn; eine Ellipse verwendet ihn weiter.\n\nOT und OL steuern, ob dieser Träger als nächster eröffnet oder als aktueller\nfortgeführt wird. Der konkrete Wert kann POSTEN, WERT, ANTEIL oder EINHEIT sein.",
+          "sha256": "c1f3518d7996c041335ed1abac9899e53079de22ed0f6321065c8f7442559bc4"
+        },
+        {
+          "path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/src/run.py",
+          "line": 198,
+          "line_end": 224,
+          "quote": "    for statement in statements:\n        event_ids = statement[\"event_ids\"].split(\"|\")\n        key = (statement[\"physical_page\"], statement[\"owner_de\"])\n        active = active_by_owner.get(key, \"\")\n        active_argument = active_argument_by_owner.get(key, \"\")\n        clauses: list[str] = []\n        statement_templates: list[str] = []\n        for card_ordinal, event_id in enumerate(event_ids, 1):\n            event = events[event_id]\n            atoms = event[\"component_recipe\"].split(\"+\")\n            unknown = [a for a in atoms if a not in known_atoms]\n            if unknown:\n                raise RuntimeError(f\"unmapped atoms in {event_id}: {unknown}\")\n            explicit = [a for a in atoms if a in ACTION_ROOTS]\n            explicit_arguments = [a for a in atoms if a in ARGUMENT_ROOTS]\n            inherited = \"\"\n            if explicit:\n                active = explicit[-1]\n            elif active and any(a != \"DY\" for a in atoms):\n                inherited = active\n            inherited_argument = \"\"\n            if explicit_arguments:\n                active_argument = explicit_arguments[-1]\n            elif active_argument and (explicit or inherited) and atoms != [\"DY\"]:\n                inherited_argument = active_argument\n            template = template_name(explicit, inherited, atoms)\n            clause = render_clause(statement[\"register\"], atoms, explicit, inherited, inherited_argument)",
+          "sha256": "dc3cf53d532cc75c0dfe924a86acf42957f1e6c51485a1975801fd0c7e646f0d"
+        },
+        {
+          "path": "experiments/yolo/gdt539_four_page_contextual_statement_edition/src/run.py",
+          "line": 263,
+          "line_end": 305,
+          "quote": "        active_action = \"\"\n        active_action_source = \"\"\n        active_argument = \"\"\n        active_argument_source = \"\"\n        clauses: list[str] = []\n        final_recipes: list[str] = []\n        controlled_chains: list[str] = []\n        statement_event_ids: list[str] = []\n        target_count = 0\n        recipe_change_count = 0\n        statement_inherited_action_count = 0\n        statement_inherited_argument_count = 0\n        for event in material:\n            target = final_by_surface.get(event[\"surface\"])\n            recipe = target[\"final_working_recipe\"] if target else event[\"gdt516_context_recipe\"]\n            atoms = recipe.split(\"+\")\n            unknown = [atom for atom in atoms if atom not in controlled]\n            if unknown:\n                raise RuntimeError(f\"Unmapped atoms in {event['event_id']}: {unknown}\")\n            explicit_actions = [atom for atom in atoms if atom in ACTION_ROOTS]\n            explicit_arguments = [atom for atom in atoms if atom in ARGUMENT_ROOTS]\n            inherited_action = \"\"\n            inherited_action_source = \"\"\n            if explicit_actions:\n                active_action = explicit_actions[-1]\n                active_action_source = event[\"event_id\"]\n            elif active_action and atoms != [\"DY\"]:\n                inherited_action = active_action\n                inherited_action_source = active_action_source\n                inherited_action_counts[active_action] += 1\n                statement_inherited_action_count += 1\n            inherited_argument = \"\"\n            inherited_argument_source = \"\"\n            if explicit_arguments:\n                active_argument = explicit_arguments[-1]\n                active_argument_source = event[\"event_id\"]\n            elif active_argument and (explicit_actions or inherited_action) and atoms != [\"DY\"]:\n                inherited_argument = active_argument\n                inherited_argument_source = active_argument_source\n                inherited_argument_counts[active_argument] += 1\n                statement_inherited_argument_count += 1\n\n            chain = \" → \".join(controlled[atom] for atom in atoms) + \".\"",
+          "sha256": "9331315d6e3717fc5560d627b3b2d08aa2a263534343d82c0b544b702a5a448d"
+        },
+        {
+          "path": "experiments/yolo/gdt559_argument_carrier_substitution_grammar/src/run.py",
+          "line": 453,
+          "line_end": 474,
+          "quote": "        next_card = successor.get(event_id)\n        if next_card is None:\n            outcome = \"NO_SUCCESSOR_STATEMENT_END\"\n            next_event_id = next_recipe = next_explicit = next_inherited = \"NONE\"\n            transition_reading = \"Die Aussage endet nach diesem Träger.\"\n        else:\n            next_event_id = str(next_card[\"event_id\"])\n            next_recipe = str(next_card[\"recipe\"])\n            next_explicit = str(next_card[\"explicit_arguments\"])\n            next_inherited = str(next_card[\"inherited_argument\"])\n            if pipe_values(next_explicit):\n                outcome = \"NEXT_EXPLICIT_ARGUMENT_RESETS_CARRIER\"\n                transition_reading = \"Die nächste Karte setzt ein neues sichtbares Argument.\"\n            elif next_inherited == last_argument:\n                outcome = \"NEXT_INHERITS_CURRENT_ARGUMENT\"\n                transition_reading = f\"Die nächste Karte verwendet weiter {ARGUMENT_ACCUSATIVE[last_argument]}.\"\n            elif next_inherited == \"NONE\":\n                outcome = \"MISMATCH_NEXT_HAS_NO_ARGUMENT\"\n                transition_reading = \"UNRESOLVED\"\n            else:\n                outcome = \"MISMATCH_NEXT_INHERITS_OTHER_ARGUMENT\"\n                transition_reading = \"UNRESOLVED\"",
+          "sha256": "c9b32c1f2be7032e609c9cc1eb8b01e22250233a0f6d5fe30707e58034cf23f7"
+        },
+        {
+          "path": "experiments/yolo/gdt562_thirty_page_actionless_state_role_reader/REPORT.md",
+          "line": 22,
+          "line_end": 42,
+          "quote": "## Woher die ausgelassene Bedeutung kommt\n\n| Slot | Herkunft | Karten |\n|---|---|---:|\n| Handlung | frühere sichtbare Handlung derselben Aussage | 544 |\n| Handlung | Besitzer-/Abschnittsdefault | 149 |\n| Handlung | keine aktive Handlung | 13 |\n| Argument | sichtbar in der Karte | 233 |\n| Argument | früher sichtbar in derselben Aussage | 355 |\n| Argument | Besitzer-/Abschnittsdefault | 104 |\n| Argument | kein aktives Argument | 14 |\n\nDie Reichweite ist kurz, aber nicht nur unmittelbare Nachbarschaft. Von544\nsichtbaren Handlungsquellen stehen376 direkt davor;168 bleiben zwei bis acht\nKarten aktiv. Bei Argumenten sind238/355 unmittelbar und117 zwei bis fünf\nKarten entfernt. Das ist ein kleiner Satzspeicher.\n\nAuf den vier aktuellen Seiten besitzen alle54 aktionslosen Karten gespeicherte\nGDT539-Quellpointer;54/54 stimmen mit der unabhängigen Rekonstruktion überein.\nFür die alten26 Seiten markiert der Leser ehrlich, dass GDT416 keine\nQuellereignis-ID speichert, statt eine nachträglich zu behaupten.",
+          "sha256": "f59a6f3c02369ee862c2592d433b3559fb9c3abab9c7d3a925172f36672d2442"
+        },
+        {
+          "path": "experiments/yolo/gdt562_thirty_page_actionless_state_role_reader/REPORT.md",
+          "line": 118,
+          "line_end": 133,
+          "quote": "\n## Neue Arbeitstheorie\n\nDie Schrift scheint hier drei Dinge zu kombinieren:\n\n```text\ngeschriebene Karte  = neue/ausdrückliche Werte und Zustandsoperatoren\nSatzgedächtnis      = zuletzt aktive Handlung und zuletzt aktives Argument\nBesitzerkontext     = lokales Nomen und Anfangsdefault\n```\n\nSo wird aus `OT+E+Y` nicht das absurde Ganzwort „danach Pflanzenmaterial auf\nGrad I bearbeiten“. Die Karte sagt nur „danach + Grad I + Posten“; die aktive\nHandlung kann etwa HALTEN sein, und der Besitzer macht aus POSTEN einen\nPflanzen-, Stations- oder Drogenposten.\n",
+          "sha256": "f59a6f3c02369ee862c2592d433b3559fb9c3abab9c7d3a925172f36672d2442"
+        },
+        {
+          "path": "experiments/yolo/gdt563_complete_state_microphrase_edition/REPORT.md",
+          "line": 47,
+          "line_end": 73,
+          "quote": "\n## Ein Rezept ist ein Rahmen, nicht zwingend ein ganzer Satz\n\nDie 1.656 Karten verwenden 402 exakte Rezepte. 301 Rezepte ergeben in allen\nbeobachteten Kontexten nur eine Mikrophrase, aber 262 davon kommen überhaupt\nnur einmal vor. Der aussagekräftigere Vergleich ist daher:\n\n```text\n140 wiederkehrende Rezepte\n 39 mit einer einzigen Mikrophrase\n101 mit mehreren Mikrophrasen, zusammen 1.277 Karten\n```\n\nDas variable Extrem ist das bloße `OL=FORTSETZEN`: Es trägt in den vorhandenen\nSatzkontexten 33 Mikrophrasen, weil Handlung und Argument aus dem aktiven\nSatzspeicher kommen. Das macht `OL` nicht zu 33 Wörtern. Sein stabiler Beitrag\nbleibt „weiter/fortsetzen“; die längere Anweisung entsteht kompositionell:\n\n```text\nOL + aktives HALTEN + aktiver ANTEIL  → Weiter: halte den Anteil.\nOL + aktives GEBEN  + aktiver POSTEN  → Weiter: gib den Posten.\nOL + aktives NEHMEN + aktiver POSTEN  → Weiter: nimm den Posten.\n```\n\nGenau dieses Verhalten passt besser zu einem kleinen gelernten Codevokabular\nmit Satzgedächtnis als zu grotesk langen Ganzwortdefinitionen.\n",
+          "sha256": "35389053dc413e135807f2de6e455ca98ed931371ad9ab34bd6ddc8abf2d254f"
+        }
+      ],
+      "review_artifact": {
+        "path": "research_registry/decisions/ib_root_semantic_contract_review.json",
+        "sha256": "92f123573ced87cd28c2703780e21344b1281bd205dcc00a1cb08fab04ffe6d5"
+      },
+      "reopening": {
+        "status": "REVIEW_REQUIRED_NOT_TEST_READY",
+        "assessed_by": "curation_review",
+        "criteria_origin": "Exact source limits and root countermodels, not a new preregistration.",
+        "all_of": [
+          "Specify value class versus individual referent and the exact context/guard semantics before testing inheritance. A broader ellipsis rule is not automatically the source parser rule.",
+          "Independent successor semantics or a different observable must distinguish retained state from contextual reassignment. Adding more parser-assigned labels or reconstructing the same assignment is insufficient."
+        ],
+        "not_sufficient": [
+          "More authored defaults, fluent expansions, source-code parity or old field counts.",
+          "Treating value-class identity as individual referent identity.",
+          "Physical events compatible with both glosses treated as lexical selection."
+        ]
+      },
+      "automatic_card_status_propagation": false,
+      "empirical_meaning_refutation": false
+    }
+  ]
+}

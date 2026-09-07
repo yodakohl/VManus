@@ -1,0 +1,51 @@
+{
+  "record_id": "IDEA000011",
+  "scope": "method",
+  "verdict": "not_tested",
+  "reviewer": "root after primary code trace and countermodel challenge",
+  "reason": "The current direction/next-state endpoint is shared by a change operator, result-state expression, processed-material noun and sequence-correlated terminal. Summary and mechanism also name different target roles.",
+  "assessment_basis": "source_and_logical_design_review_no_manuscript_test",
+  "blockers": [
+    {
+      "code": "missing_design",
+      "detail": "The current direction/next-state endpoint is shared by a change operator, result-state expression, processed-material noun and sequence-correlated terminal. Summary and mechanism also name different target roles.",
+      "evidence": [
+        "research_registry/decisions/ib_root_semantic_contract_review.json"
+      ]
+    },
+    {
+      "code": "missing_meaning_binding",
+      "detail": "The cited working labels do not independently ground the proposed semantic endpoint. This does not invalidate a separately specified structural question.",
+      "evidence": [
+        "research_registry/decisions/ib_root_semantic_contract_review.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "discriminating_contract",
+        "change": "new_design",
+        "detail": "Fix the target role and model-specific predictions first. Use independently grounded state, material or boundary contrasts only when they make those predictions differ; state labels alone are insufficient.",
+        "evidence": [
+          "research_registry/decisions/ib_root_semantic_contract_review.json"
+        ]
+      },
+      {
+        "id": "independent_endpoint",
+        "change": "new_binding",
+        "detail": "Demonstrate adequate independently scoreable held scope and applicable provenance gates for that exact contract. More old counts or code reconstruction cannot supply this binding.",
+        "evidence": [
+          "research_registry/decisions/ib_root_semantic_contract_review.json"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "More inherited renderer labels or additional counts from the same exposed contexts.",
+      "A perfect prediction on an endpoint assigned by the tested parser.",
+      "Independent physical state labels without rival-specific predictions that distinguish the proposed lexical roles."
+    ]
+  },
+  "relations": []
+}

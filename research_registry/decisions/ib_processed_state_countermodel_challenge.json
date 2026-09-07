@@ -1,0 +1,69 @@
+{
+  "status": "countermodel_challenge",
+  "idea_id": "IDEA000011",
+  "challenge": "The prior peer called the design potentially discriminating too quickly. Its stated observables—directional association and prediction of the next state field—are compatible with several roles unless extra role commitments are predeclared.",
+  "source_faithful_countermodels": [
+    {
+      "model": "result_state_adjective",
+      "prediction": "A form naming the resulting wet or dry state appears after a transition and predicts the next independently tagged state field. It can vary by state; no invariant noun assumption is needed."
+    },
+    {
+      "model": "material_noun",
+      "prediction": "A noun for a wet paste, dry drug, or other processed material is selected in the transition frame and predicts the target state because that material is used there. It can legitimately have different forms or roles across states."
+    },
+    {
+      "model": "generic_terminal",
+      "prediction": "A boundary/closure form follows a processing step. If transition paths cluster near record boundaries, it predicts the next recorded state through sequencing without encoding the operation."
+    },
+    {
+      "model": "state_change_operator",
+      "prediction": "A form encodes the relation from source to target state and should retain that relational role across carrier/material substitutions, rather than merely tracking target state, material, or boundary."
+    }
+  ],
+  "why_current_design_does_not_separate_them": "The proposal compares dry-to-moist and moist-to-dry paths against same-quality controls and asks for the next state field. Every countermodel above can satisfy those observations. GDT625 itself says written order is conditional rather than an automatic verb, and its cthy case identifies the processed object rather than the operation. GDT762 likewise separates context-bound record/material readings from a process claim.",
+  "narrowest_real_discrimination": "Add model-specific contrasts before scoring: hold the target state fixed while changing the carrier/material; hold the carrier fixed while reaching that state without the candidate transition; and compare process-adjacent boundaries with non-process boundaries. An operator must preserve a source-to-target relation across these substitutions. A result adjective/material noun should track target state or material identity, while a generic terminal should track closure. These are assumptions that must be declared, not consequences of direction alone.",
+  "important_limit": "Do not require a material noun to be invariant across states. The discrimination only requires independently annotated carrier/material and boundary axes, plus predeclared predictions for how each role changes under those axes. If those axes are unavailable, IDEA000011 remains observationally underdetermined rather than universally invalid.",
+  "evidence": [
+    {
+      "type": "primary_report",
+      "path": "experiments/yolo/gdt625_ordered_quality_state_transitions/REPORT.md",
+      "line": 95,
+      "line_end": 104,
+      "quote": "The all-form direction is essentially balanced. The exact-frame imbalance is\ncreated mostly by adjacent dry/moist contrasts and cannot itself mean\n\"moisten.\" Written order therefore supplies a conditional relation, not an\nautomatic verb:\n\n```text\nsame carrier + dry -> moist = befeuchten/einweichen\nsame carrier + moist -> dry = trocknen/abtrocknen lassen\ndifferent or unknown carrier = part contrast remains primary\n```",
+      "sha256": "56a3e9fc0ffc623f57b1fa6ff9c5dc73cfb610731081992a97e932cb19b34db4"
+    },
+    {
+      "type": "primary_report",
+      "path": "experiments/yolo/gdt625_ordered_quality_state_transitions/REPORT.md",
+      "line": 106,
+      "line_end": 110,
+      "quote": "Six successive three-state paths exist, and all are dry -> moist -> dry: two\nKCH-KSH-KCH and four TCH-TSH-TCH. This is the shape expected for \"soak, then\ndry,\" but only f29v lies on an already opened image and that case splits more\ncleanly into two carriers. The path remains a productive recipe template to\ntest, not a translation already won.",
+      "sha256": "56a3e9fc0ffc623f57b1fa6ff9c5dc73cfb610731081992a97e932cb19b34db4"
+    },
+    {
+      "type": "primary_report",
+      "path": "experiments/yolo/gdt625_ordered_quality_state_transitions/REPORT.md",
+      "line": 119,
+      "line_end": 121,
+      "quote": "Intervening-token counts rule out the tempting mediator `cthy`: it bridges two\nmoist-to-dry pairs, but its 90/92 Herbal restriction, part contacts and visual\nfit identify the processed object, not the operation.",
+      "sha256": "56a3e9fc0ffc623f57b1fa6ff9c5dc73cfb610731081992a97e932cb19b34db4"
+    },
+    {
+      "type": "primary_report",
+      "path": "experiments/yolo/gdt762_moist_medium_candidate_discrimination/REPORT.md",
+      "line": 7,
+      "line_end": 14,
+      "quote": "Die erweiterte Runde findet kein Wasser-, Wein- oder Ölwort, aber zwei echte\nVerbesserungen: `pcheey` ist eine außergewöhnlich feste **post-feuchte\nForm-II-/Record-Konstruktion**, und `ol` ist erstmals als **mengenfähiger\nZubereitungs-/Stoffträger** verankert. `ckhy` bleibt ein nominaler\nZubereitungs-/Kompositumkopf am Anfang einer Stufe, nicht das gesuchte Medium.\n\nDas Manuskript ist damit nicht übersetzt. Die neuen Bedeutungen sind\nkontextgebundene, ersetzbare Arbeitslesungen.",
+      "sha256": "66c48146f7a04eb4af39f5c9a51f1b6675bdf2c230f8f02bd949c8eedf640076"
+    },
+    {
+      "type": "primary_report",
+      "path": "experiments/yolo/gdt762_moist_medium_candidate_discrimination/REPORT.md",
+      "line": 183,
+      "line_end": 194,
+      "quote": "## 8. Nächster sinnvoller Schritt\n\nGDT763 sollte kein weiteres Stoffwort raten. Es soll `pcheey` und die übrigen\nH1-Felder als **Inhaltskopf, Quellenkomplement, paralleles Recordfeld oder\nErgebnis** diskriminieren. Dafür werden die Folgerollen aller 199 H1-Kontexte\nmit positions- und frequenzgematchten Nicht-H1-Ganzformen verglichen: folgt\nQualität/Grad, Menge, Material, verwandte Form oder Abschluss?\n\nParallel werden die 16 `ol`-Mengenstellen nach Kopf, Objekt, Kontext und Quelle\nzerlegt und gegen andere mengenfähige Inhaltsköpfe gematcht. Das nächste\nGewinnziel ist also `Inhaltsnomen/Grundstoff` versus `Recordfeld`. Erst danach\nlohnt sich eine erneute Wahl zwischen Öl, Wasser und Wein.",
+      "sha256": "66c48146f7a04eb4af39f5c9a51f1b6675bdf2c230f8f02bd949c8eedf640076"
+    }
+  ],
+  "decision": "Correct the claim ceiling: current design is a useful structural screening proposal, but not yet logically discriminating among operation, result state, material noun, and generic terminal. No new test or operative edit."
+}

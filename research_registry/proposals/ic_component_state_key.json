@@ -1,0 +1,21 @@
+{
+  "title": "A repeated diagram whole denotes a component or state key rather than an object",
+  "summary": "Use the GDT214 observation of repeated parallel machine bays to distinguish a diagram-local component/state reference from a named-object reading. The proposal asks whether the same complete whole recurs across distinct visual instances that share a machine stage or state, while its local owner changes.",
+  "scope": "semantic",
+  "design": {
+    "mechanism": "A complete diagram-associated whole indexes a component or process state shared by parallel instances, rather than naming one physical object.",
+    "unit": "Exact complete wholes at independently admitted repeated visual units with separately coded stage/state and local owner.",
+    "contrast": "Cross-instance same-stage/state recurrence with changing local owner versus same-form recurrence tied to one object or owner.",
+    "prediction": "If the component/state-key hypothesis holds, a form should recur across multiple independently owned units sharing a stage/state and should tolerate owner substitution; a named-object model predicts stable owner identity or unit-specific forms.",
+    "falsifier": "A preregistered held set in which repeated forms remain one-to-one with local owners, or where same-stage/state units do not share forms beyond the owner baseline, falsifies this component/state interpretation.",
+    "availability": "Independent stage/state and owner endpoint availability_unknown; the GDT214 source is an historical comparator only.",
+    "related": "Route-check returned GDT214, GDT718/719, GDT768, and GDT793. This remains distinct from IDEA000035 instrument-versus-endpoint geometry and IDEA000026/hu_class_slot_code class/slot membership: its falsifier is cross-instance state covariance under owner substitution, not edge direction, ordinal recovery, or class assignment.",
+    "source_evidence": {
+      "path": "GDT214_HYDRAULIC_COMPONENT_KEY_COMPARATOR_REPORT.md",
+      "line": 7,
+      "line_end": 12,
+      "quote": "Met 55.121.11 is the closest readable technical-rendering comparator yet.  It\ncombines a water source, repeated lifting components, a driving animal, shafts\nand wheels, and numerous compact marks beside parts.  The reverse is\nespecially informative: four parallel lifting bays sit under a shared drive,\nshowing that repeated visual units can be components or stages of one machine\nrather than four independent named objects.",
+      "sha256": "3b4eb7a83374124ca02cb375ba224b080f994389c7056f0bf100c4d10d6c4d8b"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "status": "final_packet_peer_reviewed",
+  "draft": {
+    "path": "research_registry/decisions/ib_scoped_question_draft.json",
+    "sha256": "a6585913a01e4324c719eec29a32943ce48debcbd8ecd9029843ff8e3b9c142c",
+    "questions": 2,
+    "targets": 3,
+    "evidence_spans": 13
+  },
+  "root_review": {
+    "path": "research_registry/decisions/ib_root_semantic_contract_review.json",
+    "sha256": "92f123573ced87cd28c2703780e21344b1281bd205dcc00a1cb08fab04ffe6d5"
+  },
+  "design_reviews": [
+    {
+      "path": "research_registry/decisions/ib_design_review_idea000011.json",
+      "sha256": "ebb811d908580e7f05b59d24fda407468934fd5b4c31e47574ce8d4e7e3db149"
+    },
+    {
+      "path": "research_registry/decisions/ib_design_review_idea000038.json",
+      "sha256": "ef27f07a41540c351a4236c07a9cadc78e268dda5cdf4bce9793788fadf809a7"
+    }
+  ],
+  "target_bindings_verified": [
+    "FAILURE_IB:OKEEY_ADD_WATER_VERSUS_KEEP_WARM:v1 → SEM:01c97893526953717ebe; card basis b762dcaa682daf999abdfbaf97d4c5100d800e42d4029c29cab0c38195e7c8eb; effective basis 6f1ee14d872db1ce56fc522325ab52800eaf55131bf60fead77a16dd57d50316.",
+    "FAILURE_IB:CARRIER_CONTROL_AND_TWO_SLOT_MEMORY:v1 → SEM:cda11d7d5d908c3befc0 and SEM:ed1e21430d5b72c60dda; card bases 4a3581143a1ddf8cb5ac07e8aefdb5f6e9da04a797c8e36348916aedf5277f3f and 91d8386145c459bbebfd8465d7c6c6b1623a868a78867fb9f289b51e41363ab0; effective bases d55f5ac84ce905175564193b08e011d65aaa9e671400a58055b7ca0d32981f63 and d9c390ebcd10e4384f32e23cb8abc25118f51bc0d0d8aa612d2a4c171bcea137."
+  ],
+  "raw_design_correction_verified": "The root review binds IDEA000011 to the complete unchanged raw design (design SHA b5198c95a9a84ec899e89a7b097bdd658850be58ee9a903cfa010f1e76c7f0b0) and IDEA000038 to its complete raw design (design SHA a6ff2537ed3f528da35814b2cf29f1e2d170e0bd71f4f81711bf64162f914e14). The earlier peer paraphrase is commentary, not the binding.",
+  "material_corrections_confirmed": [
+    "IDEA000011 remains underdetermined: operator, result-state expression, processed-material noun, and sequence-correlated terminal can share directional/next-state prediction even with perfect state labels.",
+    "For OKEEY, KEEP may include adding warmed water; ADD does not entail changed carrier identity or measured net volume. The physical event therefore cannot select the lexical gloss.",
+    "For the carrier question, retain value class versus individual referent as separate endpoints. The 157/157 result is guarded parser consistency from upstream GDT416/539 assignments, not independent referent evidence; pure-DY and actionless guards remain in scope.",
+    "The draft preserves the structural checks and does not claim that source-code parity, 54/54 pointer reconstruction, or 101/33 renderer outputs establish manuscript semantics."
+  ],
+  "evidence_validation": "All 13 draft evidence objects pass tools.semantic_identity._evidence; source paths, line bounds, quotations, and hashes are unchanged.",
+  "final_assessment": "Approve at the current two-question/three-target scope. No operative edits, new semantic evidence, or status propagation."
+}

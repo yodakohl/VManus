@@ -1,0 +1,36 @@
+{
+  "id": "IB_HEAT_COUNTERMODEL_CHALLENGE",
+  "target": "SEM:01c97893526953717ebe",
+  "target_card_line": 33,
+  "target_card_line_sha256": "b952aaf9a9a0c4e039838c90e39d9abf76ef086b8f745e36accf156fe625e41e",
+  "target_status": "unconfirmed",
+  "assessment": "The earlier carrier/thermal falsifier was too strong. ADD WARMED WATER does not necessarily change carrier identity: adding warm water into an already-water medium can leave the carrier label unchanged. Conversely, KEEP WARM can be implemented by adding hot water. The V17 wording says ADD and contrasts it with KEEP, but does not independently state that ADD entails a measurable amount increase/transfer event, nor that KEEP forbids addition. Those are model commitments, not observations.",
+  "countermodels": [
+    {
+      "model": "ADD_WARMED_WATER",
+      "observable": "same water carrier before and after; an added hot-water portion maintains the same carrier identity and is followed by rinsing/use."
+    },
+    {
+      "model": "KEEP_WARM",
+      "observable": "same sequence and same carrier; hot water is added as the maintenance action, so no difference appears in the proposed carrier/thermal endpoint."
+    }
+  ],
+  "adjudication": "The two glosses are observationally underdetermined by the cited seven-copy pattern and by carrier/thermal labels alone. Do not claim a falsifier from those endpoints. The narrowest source-faithful question is whether an exact OKEEY/QOKEEY occurrence licenses a distinct input/transfer event beyond a maintenance state, with that event bound independently of the gloss. If the available record cannot distinguish an added portion from maintenance, retain both rival readings at C0 and stop.",
+  "smallest_narrower_contrast": "Predeclare an independently observable event contract: ADD requires a separately identified incoming portion/transfer relation at the target occurrence; KEEP permits state maintenance without requiring such an input. The contrast is informative only where one model forbids or requires that event. No source-faithful basis currently shows that KEEP forbids addition or ADD requires net quantity change.",
+  "evidence": [
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v17/CANDIDATE_V17_R3_TECHNICAL_REGISTER.md",
+      "line": 112,
+      "line_end": 117,
+      "quote": "3. **`OKEEY/QOKEEY` is ADD WARMED WATER, not KEEP WARM.** It is open—three\n   field-first and four field-medial copies—and repeatedly precedes rinsing,\n   use or another committed process card. Heat itself already has three better\n   cards: moderate warming `QOKEEDY`, single boiling `QOKCHDY`, and gentle-fire\n   mode `CHEKY`. This division makes the deck simpler and gives water a stable\n   card rather than spreading WATER across `L/O` or every channel form.",
+      "sha256": "066158d1b1bbcbbb3fdf02e502739a332c591c06111d2c451925a62f5b1ed404"
+    },
+    {
+      "path": "experiments/yolo/gdt751_q_base_carrier_shell_audit/REPORT.md",
+      "line": 92,
+      "line_end": 100,
+      "quote": "Wir besitzen jetzt erstmals eine konkrete, vorhersagende Ganzformrelation mit\nklarer Schwächemarkierung: q/Basis bewahrt meistens den Zustand, und an lokal\ngebundenen Basisstellen kann der Zubereitungsträger ergänzt werden. Was noch\nfehlt, ist unabhängige Satzrollen-Evidenz für die Richtung dieses\nTrägerwechsels. Der nächste sinnvolle Pass nimmt deshalb die 44 direkten\nKontakte und prüft ihre vollständigen Mikrofelder gegen die bereits vorhandenen\ndeskriptiven und präskriptiven historischen Kanäle. Wenn die Basisformen dort\nnicht wiederholt den Zubereitungs-/Objektslot besetzen, muss der Trägerwechsel\nwieder fallen.",
+      "sha256": "1cc862db584a1873e800677ed36da65a700528af316964557f3dd668d42c8de9"
+    }
+  ]
+}

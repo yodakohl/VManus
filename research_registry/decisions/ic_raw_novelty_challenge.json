@@ -1,0 +1,47 @@
+{
+  "review_id": "IC_RAW_NOVELTY_CHALLENGE",
+  "status": "RAW_BYTES_PRESERVED__RELATION_REVIEW_NEEDED",
+  "scope": "Scientific nonidentity audit of IDEA000036, IDEA000037, IDEA000039, IDEA000040 and the current IA f69 question. Duplicate-search output is lexical navigation only.",
+  "inputs": [
+    {"id":"IDEA000036","path":"research_registry/proposals/hu_process_person_reference.json","sha256":"19f2848f76fea0e451a48948677c833e264a7802ac99a0294e5cf93d1e192f94","design_sha256":"2fca13fd9d5edfa838b38f8c6c75720c3b82921c49391d94347cc897f388d820"},
+    {"id":"IDEA000037","path":"research_registry/proposals/hu_class_slot_code.json","sha256":"a21fa40130ace3d32ccd63b8249c7f4a68accc1c6feea221e0b94132d823a4a3","design_sha256":"a8c3c002f1a3f1db217c241038739f32291f5030a3586d0d0587764fa68c2381"},
+    {"id":"IDEA000039","path":"research_registry/proposals/ic_component_state_key.json","sha256":"7b51b212a7a15a69bbb24aa0ec83add727d2b4025de4f04178006d5b60a9ae81","design_sha256":"14dcb7521af5c74b1ee248323e46b4691fc2dba28ced5c0cf1281a6f2f7f1447"},
+    {"id":"IDEA000040","path":"research_registry/proposals/ic_treatment_mode_scope.json","sha256":"98272550e7d55e527f0781575ca574536e6f3d10d7c5f4630d918fe3a94c25fc","design_sha256":"f35e5f54c06e3bae16d9e9a45ca66266c0aa65c9d4a6736151bee6ac0008dc6f"}
+  ],
+  "comparisons": [
+    {
+      "id":"IDEA000039",
+      "classification":"near_related__not_scientifically_duplicate_on_current_design",
+      "target_unit":"complete diagram wholes across repeated visual units; stage/state plus changing local owner",
+      "rival_exclusion":"named object/owner or unit-specific form",
+      "binding":"independent stage/state and owner annotations; unavailable",
+      "falsifier":"held same-stage/state units fail to share the form beyond owner baseline, or forms remain one-to-one with owners",
+      "against_36":"IDEA000036 tests figure-associated labels tracking apparatus/material state versus biography/patient identity. IDEA000039 removes figure/biography and tests repeated diagram components/states under owner substitution; related covariance logic remains, so an explicit related_not_equivalent review is appropriate.",
+      "against_37":"IDEA000037 tests class/slot/system-entry recurrence versus unique member/name or ordinal recovery. IDEA000039 tests stage/state recurrence across repeated machine-like units; it does not predict a slot/class or ordinal. Related, not exact duplicate.",
+      "against_IA_f69":"IA tests repeated OKEOD in one f69 radial schedule against unique names and LONG/SHORT polarity. IDEA000039 requires cross-unit state/owner covariance; f69 recurrence alone cannot satisfy it. No duplicate."
+    },
+    {
+      "id":"IDEA000040",
+      "classification":"near_related__not_scientifically_duplicate_on_current_design",
+      "target_unit":"complete candidate occurrences with treatment-mode/position, figure identity, and material state",
+      "rival_exclusion":"person/figure or material reference versus procedural mode marker",
+      "binding":"independent treatment-mode, figure-owner, and material-state annotations; unavailable",
+      "falsifier":"candidate tracks one person/material across changing modes, or no held treatment-mode interaction after controls",
+      "against_36":"IDEA000036 asks state/material covariance versus biography/patient identity in figure labels. IDEA000040 asks treatment-mode covariance while explicitly controlling figure and material; the decision target is procedural mode, not personified material. Shared source-family logic warrants related_not_equivalent review.",
+      "against_37":"Different unit, rival, and falsifier; no substantive identity beyond generic repeated-form testing.",
+      "against_IA_f69":"IA is an Astro recurrence/polarity question about OKEOD and radial layout. IDEA000040 concerns treatment-mode annotations in admitted visual/textual records; no overlap."
+    }
+  ],
+  "source_contract_check": {
+    "GDT214": "The source reports four parallel lifting bays and explicitly presents component/state keys as a historical alternative; it supplies no Voynich count or semantic gold. The proposal's only count-like observation is the quoted four-bay comparator, not a coded manuscript result.",
+    "GDT210": "The report calls six bath axes and one secondary axis post-hoc leads and explicitly claims no composite score or p-value. IDEA000040 therefore has no empirical count endpoint; its availability remains unknown.",
+    "IA_f69": "The IA record explicitly limits the OKEOD result to recurrence challenging injective names and fixed layout polarity; it does not choose state/value meaning or provide independent bindings."
+  },
+  "evidence": [
+    {"path":"GDT214_HYDRAULIC_COMPONENT_KEY_COMPARATOR_REPORT.md","line":7,"line_end":20,"quote":"Met 55.121.11 is the closest readable technical-rendering comparator yet.  It\ncombines a water source, repeated lifting components, a driving animal, shafts\nand wheels, and numerous compact marks beside parts.  The reverse is\nespecially informative: four parallel lifting bays sit under a shared drive,\nshowing that repeated visual units can be components or stages of one machine\nrather than four independent named objects.\n\n## Architectural consequence\n\nThis establishes a historically real alternative for q13 graphical text:\nsome diagram-local strings could function as references into explanatory prose\nor as component/state keys, not as ordinary object names.  That alternative is\nmore compatible with q13's mixed labels/prose and weak one-object ownership\nthan a naive label dictionary.","sha256":"3b4eb7a83374124ca02cb375ba224b080f994389c7056f0bf100c4d10d6c4d8b"},
+    {"path":"GDT210_THERAPEUTIC_BALNEOLOGICAL_COMPARATOR_REPORT.md","line":14,"line_end":16,"quote":"Across the transparent post-hoc comparison, 6 axes are specific\nleads for the bath theory and 1 is a secondary lead for the\nalchemical/hydraulic theory. No composite score or p-value is claimed.","sha256":"3671117cccfb54862084fe4d29154743604433ea5b36be9ec69df52bc383084c"},
+    {"path":"research_registry/decisions/ia_scoped_question_draft.json","line":29,"line_end":34,"quote":"      \"claim\": \"Does repeated OKEOD identify a state/value schedule rather than unique names or positional polarity?\",\n      \"scope\": \"Microtheory f69 state/value hypothesis and V22 parity repair; excludes the HF fixed Agrippa-28 assignment test.\",\n      \"reason_class\": \"source_contract_not_independent_semantic_discrimination\",\n      \"actually_tested_falsifier\": \"The source repeats OKEOD at f69v.14 and .18 in all readings, and at .27 in ZL/IT with an RF split; the editorial ordinals are 11, 15, and 24. V22 restores existing R2 medical defaults after recurrence crosses LONG/SHORT positions.\",\n      \"outcome\": \"The recurrence challenges a fixed injective code in which every form names a unique item. It also challenges a joint model that gives the same complete written entry a fixed lexical polarity while forcing polarity from LONG/SHORT position: OKEOD would receive conflicting values. This does not choose a state/value reading or refute named rosters, homography, contextual indexing, or layout-supplied polarity. V22 bath values remain working guesses. F69VSD001 retains editorial coordinates without an observed authorial start or direction; it adds no orientation test.\",\n      \"claim_ceiling\": \"Source and model-contract audit only; no new manuscript experiment, word meaning, or automatic cross-card verdict.\",","sha256":"7d6f0a33de663c036aff42e491d83bd121df628e1c0072450f3dfc513f322bcc"}
+  ],
+  "decision": "Retain IDEA000039 and IDEA000040 raw without merge or deletion. Mark both as related candidates requiring explicit relation review before any shortlist selection; lexical duplicate-screen emptiness is not a scientific novelty claim.",
+  "no_mutations": true
+}

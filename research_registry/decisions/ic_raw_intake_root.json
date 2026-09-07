@@ -1,0 +1,41 @@
+{
+  "status": "TWO_RAW_PROPOSALS_RETAINED_WITH_SOURCE_AND_NOVELTY_LIMITS",
+  "proposals": [
+    {
+      "id": "IDEA000039",
+      "title": "A repeated diagram whole denotes a component or state key rather than an object",
+      "proposal": "research_registry/proposals/ic_component_state_key.json",
+      "proposal_sha256": "7b51b212a7a15a69bbb24aa0ec83add727d2b4025de4f04178006d5b60a9ae81",
+      "design_sha256": "14dcb7521af5c74b1ee248323e46b4691fc2dba28ced5c0cf1281a6f2f7f1447",
+      "evidence": {
+        "path": "GDT214_HYDRAULIC_COMPONENT_KEY_COMPARATOR_REPORT.md",
+        "line": 7,
+        "line_end": 12,
+        "quote": "Met 55.121.11 is the closest readable technical-rendering comparator yet.  It\ncombines a water source, repeated lifting components, a driving animal, shafts\nand wheels, and numerous compact marks beside parts.  The reverse is\nespecially informative: four parallel lifting bays sit under a shared drive,\nshowing that repeated visual units can be components or stages of one machine\nrather than four independent named objects.",
+        "sha256": "3b4eb7a83374124ca02cb375ba224b080f994389c7056f0bf100c4d10d6c4d8b"
+      }
+    },
+    {
+      "id": "IDEA000040",
+      "title": "A figure-linked whole selects treatment mode rather than a person or material",
+      "proposal": "research_registry/proposals/ic_treatment_mode_scope.json",
+      "proposal_sha256": "98272550e7d55e527f0781575ca574536e6f3d10d7c5f4630d918fe3a94c25fc",
+      "design_sha256": "f35e5f54c06e3bae16d9e9a45ca66266c0aa65c9d4a6736151bee6ac0008dc6f",
+      "evidence": {
+        "path": "GDT210_THERAPEUTIC_BALNEOLOGICAL_COMPARATOR_REPORT.md",
+        "line": 34,
+        "line_end": 40,
+        "quote": "1. q13 prose blocks should organize primarily by bath/pool installation or\n   treatment episode, not one text label per drawn figure.\n2. Figure pose and placement should covary with treatment mode—immersion,\n   pouring, drinking, sweating, entry, or exit—more than with a fixed sequence\n   of alchemical colors.\n3. Independently recoverable flow direction should often be supply/drainage\n   between bath levels, while only a minority of paths need form closed loops.",
+        "sha256": "3671117cccfb54862084fe4d29154743604433ea5b36be9ec69df52bc383084c"
+      }
+    }
+  ],
+  "root_limits": [
+    "GDT214 describes a readable external machine comparator, not Voynich stage/state labels.",
+    "The quoted GDT210 treatment-mode covariance is a prediction, not an observed association. No independent Voynich treatment label is supplied.",
+    "Lexical duplicate search and different design bytes do not establish scientific novelty. IDEA39 overlaps IDEA36/37 in cross-owner state/class covariance; IDEA40 overlaps IDEA36 but contrasts procedural mode with process/material state. Retain as related unreviewed variants pending explicit design-identity review.",
+    "A named object model need not assign a unique physical owner; homography, generic object names and shared component names remain outside a strict injective-name rival.",
+    "A successful physical mode/state association does not alone establish that the label denotes that role rather than a correlated object."
+  ],
+  "new_semantic_evidence": false
+}

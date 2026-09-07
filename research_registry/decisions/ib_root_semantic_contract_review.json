@@ -1,0 +1,116 @@
+{
+  "status": "ROOT_SOURCE_AND_COUNTERMODEL_REVIEW",
+  "peer_receipts": [
+    {
+      "path": "research_registry/decisions/ib_heat_rivals_peer.json",
+      "sha256": "9ec8e015710a01faa231fb1a20f84812a41debd760b3c5a157f287323a3e2382",
+      "strict_exact_spans": 8
+    },
+    {
+      "path": "research_registry/decisions/ib_heat_countermodel_challenge.json",
+      "sha256": "95e42d93a1d948f3f42c8d3528b8b96af2f915dac6aef685331ee1611067740e",
+      "strict_exact_spans": 2
+    },
+    {
+      "path": "research_registry/decisions/ib_processed_state_peer.json",
+      "sha256": "271ad6162ebc296b7035620752a290ebb269e9fd8eb5368108197b20c1ec3744",
+      "strict_exact_spans": 8
+    },
+    {
+      "path": "research_registry/decisions/ib_processed_state_countermodel_challenge.json",
+      "sha256": "551c069b031c31966fe9e62836aa0bd6b92afa00b4edb85b5665e2d41a8117ad",
+      "strict_exact_spans": 5
+    },
+    {
+      "path": "research_registry/decisions/ib_ellipsis_source_contract_peer.json",
+      "sha256": "ad4af44f10613ebe6f7ebd2edb75e4154eef135adce8645a7f4dc35f714d30f2",
+      "strict_exact_spans": 6
+    }
+  ],
+  "raw_design_bindings": [
+    {
+      "id": "IDEA000011",
+      "title": "A transition whole denotes processed state change",
+      "design": {
+        "binding": "independent quality-state annotations on at least five physical folios and untouched held paths, retaining dry/moist rivals",
+        "contrast": "dry-to-moist and moist-to-dry occurrences versus same-quality controls matched by section and position",
+        "countermodel": "The transition pattern reflects section or page layout, with no semantic state operator; direction should vanish under matched same-quality controls.",
+        "mechanism": "The whole is a state-change operator whose role depends on the ordered quality transition and predicts the next state-bearing field.",
+        "prediction": "A state-change candidate predicts the direction and next state field across held folios; material-name and terminal rivals do not show directional transfer.",
+        "related": "GDT625 ordered quality-state paths; GDT762 moist-medium discrimination; no cthy-specific claim is made",
+        "scope": "cached quality-state paths and admitted exact-whole occurrences; feasibility unknown until quality tags are independently bound outside the discovery paths",
+        "unit": "adjacent complete-whole pair or field crossing an independently tagged quality transition"
+      },
+      "design_sha256": "b5198c95a9a84ec899e89a7b097bdd658850be58ee9a903cfa010f1e76c7f0b0"
+    },
+    {
+      "id": "IDEA000038",
+      "title": "An omitted argument reuses the current carrier value",
+      "design": {
+        "contrast": "argument-free successor with inherited carrier versus successor with a visible replacement argument; compare against a null model allowing silent carrier changes",
+        "falsifier": "Any predeclared set of argument-free successors that systematically changes carrier value, or inherits an incompatible/empty value despite a fixed preceding carrier, falsifies the ellipsis rule.",
+        "mechanism": "Argument values persist across an immediately following card only when no replacement argument is visibly written; OT/OL determines opening versus continuation, while the carrier value remains the same.",
+        "prediction": "Argument-free successors preserve the preceding carrier value; visible Y/AIIN/AIN/OR successors replace it. The distinction should hold across the six observed OT/OL/DY envelopes.",
+        "related": "Distinct from prior antecedent/reference and role-position proposals: this tests omission-based value inheritance inside an exact argument slot, not lexical anaphora, line breaks, genre, or portable translation. GDT559 is a primary predecessor whose 157/157 result motivates the question; the proposal retains that result as unconfirmed historical evidence.",
+        "scope": "GDT559 observed state-card stream; independent semantic binding availability_unknown because the carrier labels remain working hypotheses, not externally authored meanings",
+        "unit": "complete OT/OL state cards with a final visible argument and an immediate successor classified as argument-bearing or argument-free"
+      },
+      "design_sha256": "a6ff2537ed3f528da35814b2cf29f1e2d170e0bd71f4f81711bf64162f914e14"
+    }
+  ],
+  "corrections": [
+    "The first IDEA11 peer calls a paraphrase a design binding and omits related/scope fields. Root instead binds the complete unchanged raw design to its original proposal; the peer text is commentary, not an exact binding.",
+    "IDEA11 summary suggests a resulting state but its mechanism specifies a change operator. Direction and next-state prediction do not yet separate these roles from a processed-material noun or closure correlated with the operation. Perfect state annotations alone would not resolve that logical overlap.",
+    "Adding warmed water can maintain the same water carrier and can itself implement keeping warm. Carrier identity and thermal outcomes therefore do not select the lexical gloss. A transfer requirement can distinguish a narrower ADD contract only in a complete observation that excludes transfer; KEEP need not prohibit addition.",
+    "GDT559 imports upstream inherited_argument_root labels. Root traced their construction: GDT416 preserves owner state and assigns the last explicit argument when an action is active; GDT539 initializes state per statement and applies the same conditional inheritance. Pure DY and actionless contexts have explicit guards. Thus 157/157 is a consistency result for the selected eligible transitions, not independent referent annotation.",
+    "Argument root/value class and individual referent are distinct. Equal Y/AIIN/AIN/OR labels do not by themselves establish identity of a physical object. The raw ellipsis proposal must choose its endpoint explicitly.",
+    "GDT562/563 reconstruct and expand the same working memory machinery. The 54/54 source-pointer match is independent code reconstruction, not independent manuscript semantics. The 101 context-variable recipes and 33 OL renderings are model output variation, not observed lexical polysemy."
+  ],
+  "evidence": [
+    {
+      "path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/src/run.py",
+      "line": 198,
+      "line_end": 224,
+      "quote": "    for statement in statements:\n        event_ids = statement[\"event_ids\"].split(\"|\")\n        key = (statement[\"physical_page\"], statement[\"owner_de\"])\n        active = active_by_owner.get(key, \"\")\n        active_argument = active_argument_by_owner.get(key, \"\")\n        clauses: list[str] = []\n        statement_templates: list[str] = []\n        for card_ordinal, event_id in enumerate(event_ids, 1):\n            event = events[event_id]\n            atoms = event[\"component_recipe\"].split(\"+\")\n            unknown = [a for a in atoms if a not in known_atoms]\n            if unknown:\n                raise RuntimeError(f\"unmapped atoms in {event_id}: {unknown}\")\n            explicit = [a for a in atoms if a in ACTION_ROOTS]\n            explicit_arguments = [a for a in atoms if a in ARGUMENT_ROOTS]\n            inherited = \"\"\n            if explicit:\n                active = explicit[-1]\n            elif active and any(a != \"DY\" for a in atoms):\n                inherited = active\n            inherited_argument = \"\"\n            if explicit_arguments:\n                active_argument = explicit_arguments[-1]\n            elif active_argument and (explicit or inherited) and atoms != [\"DY\"]:\n                inherited_argument = active_argument\n            template = template_name(explicit, inherited, atoms)\n            clause = render_clause(statement[\"register\"], atoms, explicit, inherited, inherited_argument)",
+      "sha256": "dc3cf53d532cc75c0dfe924a86acf42957f1e6c51485a1975801fd0c7e646f0d"
+    },
+    {
+      "path": "experiments/yolo/gdt539_four_page_contextual_statement_edition/src/run.py",
+      "line": 263,
+      "line_end": 305,
+      "quote": "        active_action = \"\"\n        active_action_source = \"\"\n        active_argument = \"\"\n        active_argument_source = \"\"\n        clauses: list[str] = []\n        final_recipes: list[str] = []\n        controlled_chains: list[str] = []\n        statement_event_ids: list[str] = []\n        target_count = 0\n        recipe_change_count = 0\n        statement_inherited_action_count = 0\n        statement_inherited_argument_count = 0\n        for event in material:\n            target = final_by_surface.get(event[\"surface\"])\n            recipe = target[\"final_working_recipe\"] if target else event[\"gdt516_context_recipe\"]\n            atoms = recipe.split(\"+\")\n            unknown = [atom for atom in atoms if atom not in controlled]\n            if unknown:\n                raise RuntimeError(f\"Unmapped atoms in {event['event_id']}: {unknown}\")\n            explicit_actions = [atom for atom in atoms if atom in ACTION_ROOTS]\n            explicit_arguments = [atom for atom in atoms if atom in ARGUMENT_ROOTS]\n            inherited_action = \"\"\n            inherited_action_source = \"\"\n            if explicit_actions:\n                active_action = explicit_actions[-1]\n                active_action_source = event[\"event_id\"]\n            elif active_action and atoms != [\"DY\"]:\n                inherited_action = active_action\n                inherited_action_source = active_action_source\n                inherited_action_counts[active_action] += 1\n                statement_inherited_action_count += 1\n            inherited_argument = \"\"\n            inherited_argument_source = \"\"\n            if explicit_arguments:\n                active_argument = explicit_arguments[-1]\n                active_argument_source = event[\"event_id\"]\n            elif active_argument and (explicit_actions or inherited_action) and atoms != [\"DY\"]:\n                inherited_argument = active_argument\n                inherited_argument_source = active_argument_source\n                inherited_argument_counts[active_argument] += 1\n                statement_inherited_argument_count += 1\n\n            chain = \" → \".join(controlled[atom] for atom in atoms) + \".\"",
+      "sha256": "9331315d6e3717fc5560d627b3b2d08aa2a263534343d82c0b544b702a5a448d"
+    },
+    {
+      "path": "experiments/yolo/gdt562_thirty_page_actionless_state_role_reader/REPORT.md",
+      "line": 22,
+      "line_end": 42,
+      "quote": "## Woher die ausgelassene Bedeutung kommt\n\n| Slot | Herkunft | Karten |\n|---|---|---:|\n| Handlung | frühere sichtbare Handlung derselben Aussage | 544 |\n| Handlung | Besitzer-/Abschnittsdefault | 149 |\n| Handlung | keine aktive Handlung | 13 |\n| Argument | sichtbar in der Karte | 233 |\n| Argument | früher sichtbar in derselben Aussage | 355 |\n| Argument | Besitzer-/Abschnittsdefault | 104 |\n| Argument | kein aktives Argument | 14 |\n\nDie Reichweite ist kurz, aber nicht nur unmittelbare Nachbarschaft. Von544\nsichtbaren Handlungsquellen stehen376 direkt davor;168 bleiben zwei bis acht\nKarten aktiv. Bei Argumenten sind238/355 unmittelbar und117 zwei bis fünf\nKarten entfernt. Das ist ein kleiner Satzspeicher.\n\nAuf den vier aktuellen Seiten besitzen alle54 aktionslosen Karten gespeicherte\nGDT539-Quellpointer;54/54 stimmen mit der unabhängigen Rekonstruktion überein.\nFür die alten26 Seiten markiert der Leser ehrlich, dass GDT416 keine\nQuellereignis-ID speichert, statt eine nachträglich zu behaupten.",
+      "sha256": "f59a6f3c02369ee862c2592d433b3559fb9c3abab9c7d3a925172f36672d2442"
+    },
+    {
+      "path": "experiments/yolo/gdt563_complete_state_microphrase_edition/REPORT.md",
+      "line": 47,
+      "line_end": 73,
+      "quote": "\n## Ein Rezept ist ein Rahmen, nicht zwingend ein ganzer Satz\n\nDie 1.656 Karten verwenden 402 exakte Rezepte. 301 Rezepte ergeben in allen\nbeobachteten Kontexten nur eine Mikrophrase, aber 262 davon kommen überhaupt\nnur einmal vor. Der aussagekräftigere Vergleich ist daher:\n\n```text\n140 wiederkehrende Rezepte\n 39 mit einer einzigen Mikrophrase\n101 mit mehreren Mikrophrasen, zusammen 1.277 Karten\n```\n\nDas variable Extrem ist das bloße `OL=FORTSETZEN`: Es trägt in den vorhandenen\nSatzkontexten 33 Mikrophrasen, weil Handlung und Argument aus dem aktiven\nSatzspeicher kommen. Das macht `OL` nicht zu 33 Wörtern. Sein stabiler Beitrag\nbleibt „weiter/fortsetzen“; die längere Anweisung entsteht kompositionell:\n\n```text\nOL + aktives HALTEN + aktiver ANTEIL  → Weiter: halte den Anteil.\nOL + aktives GEBEN  + aktiver POSTEN  → Weiter: gib den Posten.\nOL + aktives NEHMEN + aktiver POSTEN  → Weiter: nimm den Posten.\n```\n\nGenau dieses Verhalten passt besser zu einem kleinen gelernten Codevokabular\nmit Satzgedächtnis als zu grotesk langen Ganzwortdefinitionen.\n",
+      "sha256": "35389053dc413e135807f2de6e455ca98ed931371ad9ab34bd6ddc8abf2d254f"
+    }
+  ],
+  "new_manuscript_observation": false,
+  "new_semantic_evidence": false,
+  "logical_countermodels": [
+    {
+      "observation": "Same water carrier and warm state before and after an instruction",
+      "add_model": "Add a portion of hot water into the existing water medium.",
+      "keep_model": "Maintain warmth by adding that same portion.",
+      "ceiling": "Both glosses can describe the same event. No net amount inference without a complete material balance."
+    },
+    {
+      "observation": "A whole predicts a subsequent wet-state field",
+      "operator_model": "A wetting operation precedes the state.",
+      "result_model": "A wet-result label records the state produced by an implicit operation.",
+      "material_model": "A wet-paste name occurs in this stage.",
+      "ceiling": "Directional prediction does not alone identify the grammatical or lexical role."
+    }
+  ]
+}
