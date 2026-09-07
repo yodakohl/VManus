@@ -1,0 +1,24 @@
+{
+  "schema": "jh_next_selection_peer_v1",
+  "scope": "Bounded four-minute screen of eight compact authored proposal records. No test, source-data access, readiness claim, idea addition, or registry mutation.",
+  "inspected": [
+    {"id":"IDEA000004","title":"Semantic role must survive alternate raw readings","record_sha256":"afc70fe8a6dac00a5c66beab47fe3fe7b58d327292866a326fed0582a1131b9b","result":"already_method_reviewed","limitation":"The proposed three-reading intersection depends on complete independent joins; it is not a remaining selection candidate."},
+    {"id":"IDEA000005","title":"A proposed role requires exclusion from incompatible slots","record_sha256":"aade2d2320de2f51f83acc909cfd5c066ad52825cae08ec3ef1bfdcb54bce694","result":"already_method_reviewed","limitation":"The incompatible-slot exclusion logic has an existing design review and requires independently frozen compatible/incompatible slots."},
+    {"id":"IDEA000006","title":"Candidate same-role wholes require reciprocal frame compatibility","record_sha256":"a1a1dea027092e7e08c9a9857f6ba7ecfe6351cbda785b997f605cae6ddbabbb","result":"already_method_reviewed","limitation":"Existing review correctly notes reciprocal observed frames are not necessary for a shared broad role."},
+    {"id":"IDEA000009","title":"A process operator whole selects action modality","record_sha256":"e4ab6b6ed72d17997867d1ef429be0ba549308c4304dd04f1a955ec7bdca15ee","result":"screened_out","limitation":"GDT744/GDT745 expose channel/open-surface structure but no independently bound action/result annotations; action-before-result would therefore be an authored coding gate, not yet a less-shared discriminator."},
+    {"id":"IDEA000010","title":"Amount expressions attach to a measured entity","record_sha256":"044e11dafdca9e36c0bc0f3efd3aa2b4873a6301749d01be81b77e2a22548412","result":"screened_out","limitation":"GDT760 reports zero confirmed lexemes and GDT804 reports zero clean GDT760 content contacts with the content slot unresolved; the proposed material-versus-operation contrast is not currently independently bound."},
+    {"id":"IDEA000011","title":"A transition whole denotes processed state change","record_sha256":"fb5a122b5285f89c8a664bf4896a6e7f7b7a840ce558c46934a1528aa96ca59b","result":"already_method_reviewed","limitation":"The transition/state proposal has an existing processed-state countermodel review."},
+    {"id":"IDEA000016","title":"A closure whole predicts record release without new input","record_sha256":"bf03ded956d68643de444b286450b8d11ce12acea2d1dd36473d84bd7aace268","result":"screened_out","limitation":"GDT791 supplies record-boundary/owner structure, but release without a new action is not an independently semantic endpoint; the same boundary can be shared by rival bookkeeping models."},
+    {"id":"IDEA000018","title":"Action fields preserve source-to-target order","record_sha256":"4b2773c1c41fdcaa8b7d21aeb2776eae9b0c663afb7b9763694b9ab3e02747c3","result":"screened_out","limitation":"Source-before-target ordering is compatible with ordinary layout and renderer order; without independently bound source/target relations it does not separate semantic rivals."}
+  ],
+  "method_review_exclusions": ["IDEA000004","IDEA000005","IDEA000006","IDEA000011","IDEA000031","IDEA000032"],
+  "source_pointers_checked": [
+    {"gdt":"GDT744","path":"experiments/yolo/gdt744_historical_microfield_channel_bridge/REPORT.md","status":"partial; channel templates and unresolved content slots"},
+    {"gdt":"GDT745","path":"experiments/yolo/gdt745_exact_open_content_role_expansion/REPORT.md","status":"partial; open content roles, zero literal identities"},
+    {"gdt":"GDT760","path":"experiments/yolo/gdt760_quantity_bilateral_content_attachment/REPORT.md","status":"partial; zero confirmed lexemes"},
+    {"gdt":"GDT804","path":"experiments/yolo/gdt804_bracket_middle_independent_field_bridge/REPORT.md","status":"partial; zero clean content contacts"},
+    {"gdt":"GDT791","path":"experiments/yolo/gdt791_thirty_page_visual_owner_spine/REPORT.md","status":"pass for record spine, zero semantic export"}
+  ],
+  "nomination": null,
+  "conclusion": "No remaining inspected proposal survives as a defensible next method-review nomination. The three apparently strongest semantic contrasts (IDEA000009, IDEA000010, IDEA000016) either require independent meaning/role bindings or are already shared by structural bookkeeping rivals. This is a bounded selection result, not a claim that the other uninspected proposals are invalid."
+}

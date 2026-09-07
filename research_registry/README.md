@@ -52,7 +52,7 @@ Before data work, state an alternative model that could produce the proposed
 positive result without the target meaning. If both stated meanings permit the
 same outcome, revise the discriminator before requesting more data or compute.
 A source-case audit, a direct scoped assessment and an independent semantic
-binding are three different things. See the [three-hour audit](decisions/semantic_3h_completion.md)
+binding are three different things. See the [four-hour audit](decisions/semantic_4h_completion.md)
 for concrete failures that motivated these operating rules.
 
 ## Normal work: load a shortlist, then one dossier

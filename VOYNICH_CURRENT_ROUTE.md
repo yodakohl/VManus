@@ -3,9 +3,9 @@ Updated: 2026-09-07. Read first.
 
 ## Current mandate and effort limit
 
-4h active:2026-09-07 12:57:35–16:57:35UTC minimum; user may steer.
+4h completed:2026-09-07 12:57:35–16:57:49UTC.
 JG:7historicalcards recovered;114questions;81groups/94reduction;52raw/25unreviewed.
-Report: `research_registry/decisions/semantic_3h_completion.md`.
+Report: `research_registry/decisions/semantic_4h_completion.md`.
 
 GDT858:855/963primary808folds retained opposite-face training;169faces/90leaves.
 GDT865 whole-leaf correction retains both primary thresholds: nuisance macroAUC
@@ -44,9 +44,8 @@ Goal: transferable translation. Confirmed English lexemes: **0**;
 confirmed German lexemes/clauses: **0**.857:4all3 rawAAA; faithful disjoint
 exhaustive whole-group cycles force singleton pools, not general homophony rejection.
 GDT856 old605freecode nonUD: [C,E]=[CE]; canonicalBPE remains deterministic.
-GPU/subagents authorized; no other LLM API keys. No public decipherment-approach
-searches: the user says these are exhausted. Understand project history and
-manuscript appearance before fixing a route; use primary internal evidence.
+GPU/subagents authorized; no other LLM API keys or public decipherment searches.
+Use primary internal evidence and established manuscript/history context.
 
 841–843 stopped; lookup for native star observations. No meaning or regrading.
 

@@ -10,7 +10,7 @@ they do not automatically add historical SEM cards or confirmed meanings.
 ## Current public snapshot
 
 Ten-hour comparison and remaining coverage limits: [completion report](decisions/semantic_10h_completion.md).
-Latest three-hour curation delta: [scoped results](decisions/semantic_3h_completion.md).
+Latest four-hour curation delta: [scoped results](decisions/semantic_4h_completion.md).
 
 | Unit | Count |
 |---|---:|
