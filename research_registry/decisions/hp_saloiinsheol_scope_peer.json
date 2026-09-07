@@ -1,0 +1,38 @@
+{
+  "schema":"source_scope_peer_review_v1",
+  "review_id":"hp_saloiinsheol_scope_peer",
+  "status":"GRAMMAR_PRIMARY_RIVAL_RETAINED",
+  "card":"SEM:156a6cec7f29c9952692",
+  "source_case":"CLEAN_GAP_DC:saloiinsheol_three_part_instruction",
+  "scope":"GDT585-C017 saloiinsheol on local f89r2.4 card; no export to running prose or universal substrings.",
+  "visual_and_whole_label_evidence": {
+    "observed":"The source package records a complete whole label and a local plant-fragment/card context. GDT585's atlas says its descriptive defaults are chosen to fit visible objects, while preserving old aliases.",
+    "not_observed":"No independent visual feature in the cited C017 spans distinguishes leaf/rootstock/mother-plant roles from the old salt/myrrh/frankincense ingredient identities. The organ assignments are learned atlas/model outputs; they are not direct decoded words or independently owned part labels.",
+    "technical_shell":"The stable source-bound shell is an instruction to hold three named entries toward a target vessel and continue. That shell is stronger evidence than the speculative claim that the three entries form one same-plant compound."
+  },
+  "gdt585_interpretation": {
+    "primary_default":"Three plant-role arguments: Blattdroge s, Wurzelstock oiin, breitblättrige Mutterpflanze E e.",
+    "composition_hypothesis":"Same plant fragment, with three organ/plant roles.",
+    "retained_rival":"Salz, Myrrhe und Weihrauch as a three-part medicinal mixture.",
+    "provenance":"The plant-role defaults come from GDT585's owner/name atlas and visual-context model; the rival comes from the older workshop alias. Neither is an independently translated Voynich word."
+  },
+  "gdt586_scope_correction": {
+    "selected_override":"KEEP_THREE_OBJECT_INSTRUCTION / GRAMMAR_DOMINATES",
+    "meaning":"C017 remains a three-object hold/continue instruction. The shared-plant composition may remain a hypothesis beside it, but does not replace the instruction or force a same-plant compound.",
+    "reader_scope":"GDT586 inserts name values chiefly on local cards (107/109 values; only 2 in running statements), so this result cannot be generalized as running-text lexical proof."
+  },
+  "prospective_rival_discriminator": {
+    "question":"Can independently annotated visual part identities and source-order behavior distinguish a three-plant-part instruction from a three-ingredient mixture at C017-like labels?",
+    "plant_part_prediction":"Independent part annotations should identify three compatible roles on one plant fragment, preserve the s→oiin→e order, and replicate on held multi-core labels; the instruction shell remains intact.",
+    "ingredient_prediction":"Independent source/recipe evidence should bind the three positions to distinct ingredients or mixture entries, without requiring one plant fragment or organ compatibility.",
+    "falsifier":"If the only support for plant parts is the atlas's own owner/model defaults, or if held labels do not replicate part compatibility beyond the old aliases, the plant-part composition is not independently supported. Conversely, a source-bound ingredient package with no compatible visual part mapping defeats the composition preference.",
+    "availability":"unknown: current cited reports provide model/owner assignments and retained aliases, not an independent blinded part-or-ingredient gold panel."
+  },
+  "evidence":[
+    {"path":"experiments/yolo/gdt585_learned_name_compound_atlas/REPORT.md","line":42,"line_end":49,"quote":"| Kern in der Drogenklasse | neuer Primärdefault | sichtbarer alter Rivale |\n|---|---|---|\n| `d` | Wurzeldroge / Wurzel | Wasser |\n| `y` | Krautdroge | Wein |\n| `s` | Blattdroge | Salz |\n| `sy` | Blütenstand | Vitriol |\n| `oiin` | Wurzelstock | Myrrhe |\n| `e` | breitblättrige gelernte Mutterpflanze | Weihrauch |","sha256":"64c22c0d024fcde4abea03d857fa6db809264b340eaa02f098b7e3c1e8d36a1f"},
+    {"path":"experiments/yolo/gdt585_learned_name_compound_atlas/artifacts/GDT585_CONCRETE_NAME_BOOK.md","line":243,"line_end":249,"quote":"### GDT585-C017 — saloiinsheol\n\nGrammatische Primärlesung: Weiter halte den Drogeneintrag »Blattdroge [s]«, den Drogeneintrag »Wurzelstock [oiin]« und den Drogeneintrag »breitblättrige Mutterpflanze E [e]« zum Zielgefäß.\n\nKompositionshypothese: Halte Blattdroge s, Wurzelstock oiin und Pflanzenkern e desselben Pflanzenfragments zum Zielgefäß und fahre fort.\n\nStärkster Rivale: Salz, Myrrhe und Weihrauch als dreiteilige Arzneimischung","sha256":"ac72a077eda7801ae708aed84729669485d269bebe22c769973c0d2372313651"},
+    {"path":"experiments/yolo/gdt585_learned_name_compound_atlas/REPORT.md","line":106,"line_end":110,"quote":"Die sieben pharmazeutischen Mehrkernlabels werden nicht pauschal zu\nMischrezepten. Wo GDT474/GDT476 eine Kataloglesung wählt, bleibt sie die\nPrimärlesung; wo `SH+OL` bereits eine Anweisung bildet, bleibt die Anweisung\nerhalten. `d+da`, `sy+y`, `s+oiin+e` und `yt+em` stehen zusätzlich als kreative\nOrgan-plus-Pflanzenreferent-Hypothesen daneben.","sha256":"64c22c0d024fcde4abea03d857fa6db809264b340eaa02f098b7e3c1e8d36a1f"},
+    {"path":"experiments/yolo/gdt586_complete_name_layer_reader/artifacts/GDT586_MANUAL_CONTEXT_AUDIT.md","line":31,"line_end":31,"quote":"| GDT585-C017 | GRAMMAR_DOMINATES | KEEP_THREE_OBJECT_INSTRUCTION | Die Grammatik ist hier entscheidend: S, OIIN und E stehen als drei benannte Objekte unter einer Halte- und Fortsetzungsanweisung zum Zielgefäß. Eine gemeinsame Pflanzenfragment-Deutung darf danebenstehen, ersetzt aber nicht diese Dreiobjekt-Anweisung. |","sha256":"ec35f875cc4afb0ff577d92ecc9086060fd87342fe725192ad122b7e1bb43e7d"},
+    {"path":"experiments/yolo/gdt586_complete_name_layer_reader/REPORT.md","line":7,"line_end":10,"quote":"Die Namensschicht ist vollständig eingesetzt. Der entscheidende Reality Check\nändert aber die Form des Readers: 107 der 109 Werte gehören nicht in laufende\nAbsätze, sondern auf 89 lokale Karten. Nur zwei Werte liegen wirklich in den\n793 Aussagen.","sha256":"490d1145dd8870d5cddcecd314ae4bcd069e91f4fe6a2ee1d1b3d802c6ad2dbd"}
+  ]
+}

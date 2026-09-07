@@ -1,0 +1,35 @@
+{
+  "reviewer": "luna_three_hour_discriminators",
+  "status": "CONDITIONAL_READING_ONLY_NO_NEW_SEMANTIC_RESULT",
+  "target": "SEM:051a57a0c220320a3318",
+  "question": "Whether f29v's same-carrier and written wet/dry order establish a temporal operation, and whether the two-part reading is independently supported.",
+  "assessment": "No. GDT625 explicitly makes state order conditional on retaining one carrier; with a different or unknown carrier it remains a part contrast. Its corrected f29v reading assigns [otshy okaiin] and [cthy oltchy] to two carriers/parts, making parallel part-state phrases preferred locally over a time sequence, while drying remains secondary. This is a model preference grounded in the selected head/part bindings and opened-image judgment, not an independently confirmed temporal operation. GDT809 independently preserves the uncertainty: repeated okaiin does not establish one preparation, same batch, or direction; shol chol shol does not establish wet-dry-wet treatment; dry quality, dried state, and imperative to dry remain distinct claims.",
+  "duplicate_scope": "This belongs with the existing CTHY/CHOR_SHOR quality-state failure/uncertainty scope and the GDT809 predecessor chain (GDT686/GDT764/GDT629). It should not become a new semantic success or rerun of the same contextual candidate ranking. The existing evidence supports a conditional state relation and unresolved subject/scope, not an operative temporal gloss.",
+  "reopen_condition": "A genuinely new, independently bound carrier whose same referent is fixed before looking at state order, plus a held occurrence where a predeclared temporal operation predicts a state transition against the parallel-part/quality-state rival. Repeated wet/dry order, same spelling, or additional f29v readings alone are insufficient.",
+  "evidence": [
+    {
+      "path": "experiments/yolo/gdt625_ordered_quality_state_transitions/REPORT.md",
+      "line": 51,
+      "line_end": 69,
+      "quote": "The first pass noticed `otshy ... oltchy` and read a possible cold-moist to\ncold-dry transition. The local attachment is better:\n\n```text\n[otshy okaiin] [cthy oltchy]\n[cold-moist <okaiin carrier>] [leaf drug: cold-dry]\n```\n\nCurrent German working line:\n\n```text\n<ysho>; kalt-feuchte Zubereitung/Charge; Blattgut kalt-trocken;\n<s shot sho>; <okaiin>.\n```\n\nThe drawing contains one plant but visibly different drug parts: flower,\nbuds/fruiting bodies, two large leaves and rootstock. That makes two parallel\npart-state phrases more economical than a time sequence. Drying remains a\nsecondary reading, not the preferred one.",
+      "sha256": "56a3e9fc0ffc623f57b1fa6ff9c5dc73cfb610731081992a97e932cb19b34db4",
+      "type": "primary_f29v_scope_correction"
+    },
+    {
+      "path": "experiments/yolo/gdt625_ordered_quality_state_transitions/REPORT.md",
+      "line": 95,
+      "line_end": 110,
+      "quote": "The all-form direction is essentially balanced. The exact-frame imbalance is\ncreated mostly by adjacent dry/moist contrasts and cannot itself mean\n\"moisten.\" Written order therefore supplies a conditional relation, not an\nautomatic verb:\n\n```text\nsame carrier + dry -> moist = befeuchten/einweichen\nsame carrier + moist -> dry = trocknen/abtrocknen lassen\ndifferent or unknown carrier = part contrast remains primary\n```\n\nSix successive three-state paths exist, and all are dry -> moist -> dry: two\nKCH-KSH-KCH and four TCH-TSH-TCH. This is the shape expected for \"soak, then\ndry,\" but only f29v lies on an already opened image and that case splits more\ncleanly into two carriers. The path remains a productive recipe template to\ntest, not a translation already won.",
+      "sha256": "56a3e9fc0ffc623f57b1fa6ff9c5dc73cfb610731081992a97e932cb19b34db4",
+      "type": "primary_order_scope_limit"
+    },
+    {
+      "path": "experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/REPORT.md",
+      "line": 90,
+      "line_end": 114,
+      "quote": "- `cthy chor shor` permits a plant-part or ingredient-list hypothesis. It does\n  not identify the three organs or settle flower versus seed/fruit direction.\n- `chor chol daiin` appears at both known locations in all three readings.\n  Both descriptive degree syntax and recipe amount syntax remain possible.\n- `daiin daiin` and two `chol chol` occurrences are left repeated. One\n  `chol chol` occurrence has only two-reader support. Neither model may\n  silently turn the repeats into one intensified state, six portions, or an\n  invented second operation.\n- `chocthy daiin cthaiin daiin` supplies two adjacent head/value-like fields\n  in all three readings. The head identities and value axis remain open.\n- `shol chol shol` does not by itself establish a wet-dry-wet treatment.\n  The interpreted qualities or states still need subjects and scope.\n- Repeated `okaiin` on f29v.4 establishes repeated spelling, not necessarily\n  one preparation, the same batch, or a directional process.\n\nAt f32v.8, ZL3b/IT2a have `daiin [ctho daiin] qotaiin`, while RF1b has\n`daiin [cthodaiin] qotaiin`. The matched inner character sequence motivates\na local word-boundary alternative. It does not identify `ctho`, export a\n`cth` root, or establish that spaces are generally optional.\n\nHistorical comparison adds a useful distinction: dry as a constitutional\nquality, dried as a material state, and an imperative to dry are different\nclaims. The primary comparators and their dates/access limits are documented\nin [the historical review](src/HISTORICAL_PASSAGE_REVIEW.md). Historical\ncompatibility is not a Voynich-to-Latin dictionary match.",
+      "sha256": "4ba0b56b633b85771f533c1ec00737f6a71109d91086c9d1ac7701e06529d86f",
+      "type": "primary_joint_scope_limit"
+    }
+  ]
+}

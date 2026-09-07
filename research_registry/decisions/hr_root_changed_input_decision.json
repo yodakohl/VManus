@@ -1,0 +1,42 @@
+{
+  "status": "CHANGED_INPUT_NOT_ESTABLISHED_FOR_GDT581_CANDIDATE",
+  "question": "Does the particular laterGDT581reader close the frozen five-pair exact-label parser gap?",
+  "outcome": "No evidence in the inspected581contract shows completion of the required diagnostic-label core34/hybrid95representation. Its event/root/occurrence host reconciliation and30-page roundtrip are different. The old14/15coverage remains the retained old-parser result; this is not an exhaustive claim about every current parser.",
+  "scope_correction": "HRpeer question conflates stoppedfive-paircapacity with already scoredS99/FPR001. They remain distinct: this checks the unscored exact-root capacity gate only, and reopens neither scoredroute.",
+  "reconsider_tool_result": {
+    "decision": "SOURCE_REVIEW_REQUIRED",
+    "approved": false,
+    "submitted_change": "new_design",
+    "missing_change_types": [
+      "new_binding"
+    ],
+    "verification": "UNVERIFIED_CONTENT",
+    "interpretation": "Change categories and fileexistence are navigation. The substantive reason to stop is a different unit/coverage contract, not the mere choice of change label."
+  },
+  "next_route": "No parserimplementation or score. A later candidate must document the exact oldmissingcell and representation coverage plus provenance, and still satisfy allremaining capacity/calibration/held-evidence gates.",
+  "evidence": [
+    {
+      "path": "experiments/semantic_assumptions/audit_five_pair_ordered_multiroot_capacity.py",
+      "line": 110,
+      "line_end": 128,
+      "quote": "    counts: dict[str, dict[str, int]] = {}\n    for locus in label_loci:\n        counts[locus] = {}\n        for edition in EDITIONS:\n            row = rows[(edition, locus)]\n            if not (\n                row[\"kind\"] == \"L\"\n                and row[\"grammar_scope\"] == \"DIAGNOSTIC_NONPROSE\"\n                and row[\"word_count\"] == \"1\"\n            ):\n                raise RuntimeError((\"label metadata\", edition, locus))\n            covered = row[\"core34_covered_words\"] == \"1\" and row[\"hybrid95_covered_words\"] == \"1\"\n            if covered:\n                roots = tuple(part for part in row[\"root_sequence\"].split(\"+\") if part)\n                if not roots:\n                    raise RuntimeError((\"empty root sequence\", edition, locus))\n                counts[locus][edition] = len(roots)\n            else:\n                counts[locus][edition] = None",
+      "sha256": "6d1045c7036006c6ec1435327250b39e1a9800b0955b853fcc3f1efe8e4dc3e2"
+    },
+    {
+      "path": "experiments/yolo/gdt581_grammar_content_boundary_audit/METHOD.md",
+      "line": 12,
+      "line_end": 40,
+      "quote": "## Eingaben\n\nGDT580 liefert die vollständige laufende Ausgabe mit 5.122 Ereignissen, 793\nAussagen und dreißig Seiten sowie seine sechs expliziten\nWiederaufnahme-Slotspannen. Die endgültigen Rezepte werden mit den 5.051\nGDT407- und 621 GDT515-Fokusanschlüssen abgeglichen. Weitere bereits bestehende\nStrukturschichten liefern:\n\n- GDT416 und GDT539: geerbte Handlungs- und Objektverweise;\n- GDT471/GDT472: ownergebundene Namenstemplates und exakte Namenskernspannen;\n- GDT479/GDT513/GDT515: die vollständigen 744 lokalen Karten;\n- GDT558: 333 Grad-Hosts und die 18 bekannten falschen\n  Vererbungsgefahren;\n- GDT567/GDT568: die vorhandene Besitzerstimme und 45 beobachtete\n  Register-mal-Handlungs-Zellen;\n- GDT577/GDT579: explizite Wiederholungs- und Außen/Innen-Scope-Hosts.\n\nKeine neue Seite, Abbildung, Transkription, Oberfläche, Rezeptfamilie oder\nStammbedeutung wird zugelassen. f84 und f84r bleiben gesperrt.\n\n## 1. Fokusanschlüsse auf die endgültigen Rezepte übertragen\n\nDie 5.672 alten Fokuszeilen werden nicht nach bloßer Spaltenposition, sondern\nnach `(event_id, root, occurrence_rank)` in das jeweilige GDT580-Rezept\nübertragen. Der Handlungskopf wird ebenso über seine konkrete\nRoot-Occurrence verfolgt. Der unveränderte Selektor wird nur dann neu auf dem\nEndrezept ausgeführt, wenn die ursprünglich ausgewählte Occurrence dort nicht\nmehr existiert oder die veränderte Geometrie einen neuen nächsten Kopf\nerzwingt.",
+      "sha256": "df17ce1909af7f17f2455ec88ee7fd15df90ce45ae7466ad39efa62cdb34768d"
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/five_pair_ordered_multiroot_capacity_validation_report.md",
+      "line": 3,
+      "line_end": 5,
+      "quote": "Status: **PASS_INDEPENDENT_RECONSTRUCTION_OF_UNSCORED_SOURCE_STOP**.\n\nAll 9 checks pass. Independent code recovers five fixed relations, four multi-root labels, the 120-assignment orbit, and the single uncovered cell RF1b f102r2.22. The all-reading exact-root route correctly stops before scorer calibration or target-page access.",
+      "sha256": "5039f46ecea9677924b9debb68f7bb536cc1b7ef0be6992b81435ac45137aeaf"
+    }
+  ],
+  "new_data": false,
+  "new_manuscript_test": false
+}

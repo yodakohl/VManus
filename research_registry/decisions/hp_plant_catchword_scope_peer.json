@@ -1,0 +1,39 @@
+{
+  "reviewer": "luna_three_hour_discriminators",
+  "status": "LINK_EXISTING_DOSSIERS_NO_NEW_CANDIDATE",
+  "target": "SEM:0c751a2f7ab63ffd7a66",
+  "question": "Whether human-documented same-plant cross-section correspondences preserve an identifiable name/catchword.",
+  "decision": "This is already covered by the CROSS_SECTION_CATCHWORDS dossier and the separate FIFTH_SAME_PLANT_WITHIN_WORD_ORDERED_ROOT dossier. Do not create a duplicate semantic card or treat the inherited human correspondence as botanical ground truth.",
+  "scope_findings": [
+    "GDT169 is an exploratory formal comparison of human-nominated pairs, not a plant identity test: the five strongest owned labels have 0/5 exact PAGE_HOST and 0/5 exact full-tuple matches; page-bag tails are dependent and exploratory.",
+    "GDT351 is a capacity stop, not a semantic refutation: four asserted-same relations lacked a singular author-visible inscription; one candidate is explicitly between plants 3 and 4.",
+    "FPR001 is a distinct formal recurrence test for the fifth relation. Its f37v LCS=2 in all readings ranks 56/95, 57/95, 54/95 (pooled 53/95), so all five preregistered gates fail. This rejects that predeclared ordered-root recurrence, not names/catchwords generally."
+  ],
+  "minimum_reopener": "A genuinely new source-bound repeated referent outside the exhausted table, with singular author-visible inscription on both discovery and held folios, independently documented provenance, and complete ZL3b/IT2a/RF1b formal coverage. The test must predeclare exact label/host or whole-form preservation against a matched null and an independently held pair. Do not lower LCS thresholds, match across words, select readings, promote proximity, or reuse the same five-pair assignment.",
+  "evidence": [
+    {
+      "path": "GDT169_EXTERNAL_REFERENT_TUPLE_REPORT.md",
+      "line": 5,
+      "line_end": 19,
+      "quote": "**NO_REPLICATED_EXTERNAL_REFERENT_INVARIANCE**\n\nThe source-only freeze contains 40 human-nominated physical page pairs; 38\nhave both pages in the published HPR2 view.  Exact PAGE_HOST has mean matched-\npage excess z -0.104; the complete\nslot/wrapper/host/right/closure tuple has +0.089.\nThe fixed matched-page world diagnostic gives max-two p\n0.86890 for PAGE_HOST and\n0.43110 for the full tuple.  These tails remain\nexploratory because pairs share pages, targets, and human sources.\n\nThe decisive ownership check is negative: the five published singular or\nprovisional pharmaceutical labels produce **0/5 exact PAGE_HOST matches**\nand **0/5 exact full-tuple matches** on their paired Herbal pages.\nThus any page-bag lead is not localized to the strongest owned records.",
+      "sha256": "eadb9173dd9ab68af4762f43c5c9f34c3bfe15f6b5d4498572d49fe890bb1656",
+      "type": "primary_report_result_and_capacity_limit"
+    },
+    {
+      "path": "experiments/yolo/gdt351_remaining_referent_label_capacity/REPORT.md",
+      "line": 3,
+      "line_end": 18,
+      "quote": "Status: **STOP_ZERO_NEW_SINGULAR_OWNED_REFERENT_LABELS**\n\nThe four GDT169 `ASSERTED_SAME` Herbal→pharmaceutical relations that lacked a\nlocal query cannot be upgraded from the current cached human sources.\n\n| relation | nominated target | result |\n| --- | --- | --- |\n| f1v → f102r1 | fragment 204 | no separate mapped plant label |\n| f32v → f102r2 | fragment 206 | no separate mapped plant label |\n| f47v → f102r2 | fragment 205 | no separate mapped plant label |\n| f48r → f89v2 | fragment 61 | nearest plausible inscription is between plants 3 and 4; proximity-only |\n\nThe first three failures follow from complete catalogue counts and the two\nalready published f102r2 bottom-row queries.  The fourth is not repaired by\nchoosing f89v2.28: its exact human comment places it between two plants and\ndoes not provide singular ownership.",
+      "sha256": "62bd16f8c9a00a2f698c09177f81ee5acd92e100da09b5a0a3f808ad83051a4e",
+      "type": "primary_capacity_stop"
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/fpr001_f37v_one_shot_target_report.md",
+      "line": 3,
+      "line_end": 7,
+      "quote": "Decision: **FINAL_NONCONFIRMATION_FIFTH_RELATION_ORDERED_ROOT**.\n\nThe frozen f37v page scores are ZL3b=2 (rank 56/95), IT2a=2 (rank 57/95), RF1b=2 (rank 54/95); pooled rank is 53/95. All five preregistered gates do not all pass. The result file records every maximum-scoring target word and deterministic LCS witness.\n\nThis is an anonymous manuscript-internal formal recurrence test. It supplies no plant name, word, sound, language, cipher, plaintext, meaning, or translation.",
+      "sha256": "4be1a38934bf87ab06e2c9e2c77c71cd4b0908c8c8b7a1e7acdf2227360edffb",
+      "type": "primary_distinct_formal_nonconfirmation"
+    }
+  ]
+}
