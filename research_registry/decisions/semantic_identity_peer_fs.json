@@ -1,0 +1,132 @@
+{
+  "review_id": "SEMANTIC_IDENTITY_PEER_FS",
+  "status": "APPROVE_SCOPED_DIRECTED_SPECIALIZATION",
+  "input": {
+    "path": "research_registry/decisions/semantic_identity_followup_fs.json",
+    "sha256": "657bf2e5822497c0b681763a9b05ba78f9fcc625fe65f47a83c3799169952eff"
+  },
+  "scope_ids": [
+    "SEM:4ae11fdf56469a4b4dd0",
+    "SEM:77589df4c7f07fe49e39"
+  ],
+  "decision": {
+    "id": "IDENTITY_FS:PCHEEY_DEFAULT_SPECIALIZES_R04",
+    "approve": true,
+    "relation": "specializes",
+    "source": "SEM:4ae11fdf56469a4b4dd0",
+    "target": "SEM:77589df4c7f07fe49e39",
+    "member_ids": [
+      "SEM:4ae11fdf56469a4b4dd0",
+      "SEM:77589df4c7f07fe49e39"
+    ],
+    "card_basis": {
+      "SEM:4ae11fdf56469a4b4dd0": "3c8ec3ad2c323323cee3501a8daddfda3ed5e43bf8f5b44c80cf143a696dc81c",
+      "SEM:77589df4c7f07fe49e39": "ce65657aaf92436897c7c0acc751881320f9ffdfb7b2f65a6d66ce13d446a3ec"
+    },
+    "effective_basis": {
+      "SEM:4ae11fdf56469a4b4dd0": "c105c0160223c138d765ae201a707ce261272bcea55257c45443a7f487c2be37",
+      "SEM:77589df4c7f07fe49e39": "fbe1dce24f55a1239722f359022336a519d7c57f52f6cc17154e5f343778f81f"
+    },
+    "reason": "The exact authored I10 record names this German renderer and explicitly requires R04, whose declared role is broader record/form/measure-field occupation. I10 additionally commits to the preparation/Form-II field interpretation in the moist/preparation context. This is positive author-declared containment of historical source contracts, beyond the implication F11 AND F04 => F11 OR F02. Both source cases of the German card refer to the same GDT769 candidate: the prospective rival listing does not introduce another unit or independent role contract. The English card preserves the broader R04 role decision for this same pcheey panel. Approve the narrower I10 default to broader R04 direction, without equating the cards or promoting observed-role confidence into meaning.",
+    "evidence": [
+      {
+        "path": "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/src/ROLE_5_MODEL_SPECS.tsv",
+        "line": 1,
+        "line_end": 1,
+        "quote": "role_model_id\trole_name_de\trole_definition_de\tpositive_signature_expression\tcontradictory_signature_expression\tdispatch_priority\tportable_output_de\tminimum_distinct_pages_total\tablate_strongest_locus\tminimum_remaining_support_pages\tidentity_dispatch_allowed\tselection_rule_de\tfailure_output_de\twhole_form_only\ttarget_and_family_donors_blocked\tevidence_must_be_target_excluding\teva_latin_credit\tsubstring_export_credit\tconfirmed_role",
+        "sha256": "caa8f67cb83cfd6b454ea53fb918c416daf5a16dbd46fb5facb78322a81d8f14"
+      },
+      {
+        "path": "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/src/ROLE_5_MODEL_SPECS.tsv",
+        "line": 5,
+        "line_end": 5,
+        "quote": "R04_BOUND_RECORD_FIELD\tgebundenes Record-, Form- oder Maßfeld\tVollständiges Ganzwort eröffnet oder besetzt ein begrenztes Feld oder einen wiederholten Einheit-/Kategorienkopf mit geschriebenem Wert\tF11_H1_BOUNDED_VALUE OR F02_VALUE_DIRECT\tF05_PROCESS_SLOT_FINAL\t1\tgebundenes Record-, Form- oder Maßfeld; Stoffidentität offen\t2\t1\t1\t1\tEin Record- oder Maßfeld gewinnt bei wiederholtem reader-exaktem X-daiin- oder Target-plus-Wert-Rahmen auf zwei Seiten; F12-Parallelen verstärken, sind aber für drei eigenständige Target-plus-Wert-Seiten nicht zwingend; eine konkrete Stoffkarte braucht weiterhin unabhängige Stoffevidenz\tRecordfunktion offen; keine Stoff- oder Prozessidentität aus dem Wertfeld ableiten\t1\t1\t1\t0\t0\t0",
+        "sha256": "caa8f67cb83cfd6b454ea53fb918c416daf5a16dbd46fb5facb78322a81d8f14"
+      },
+      {
+        "path": "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/src/IDENTITY_CANDIDATE_SPECS.tsv",
+        "line": 1,
+        "line_end": 1,
+        "quote": "identity_id\ttarget_surface\trequired_role_model\tcandidate_class\tcandidate_label_de\tcandidate_renderer_de\tcandidate_status\trequired_two_axis_signature\tfatal_counter_signature\tminimum_distinct_pages_total\tablate_strongest_locus\tminimum_remaining_support_pages\tevidence_rationale_de\tcounterevidence_de\ttie_policy_de\thistorical_category_only\tdefault_is_translation\teva_latin_credit\tsubstring_export_credit\tconfirmed_lexeme",
+        "sha256": "043690ba71e9fe63e5ddf37701c44f1b4aa1a333553d950a74dc5b1d0ef5b2cc"
+      },
+      {
+        "path": "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/src/IDENTITY_CANDIDATE_SPECS.tsv",
+        "line": 11,
+        "line_end": 11,
+        "quote": "I10_PCHEEY_FIELD\tpcheey\tR04_BOUND_RECORD_FIELD\tPORTABLE_BASELINE\tZubereitungs- oder Form-II-Feld\tgebundenes Zubereitungs-/Form-II-Feld\tCURRENT_CONCRETE_DEFAULT\tF11_H1_BOUNDED_VALUE AND F04_MOIST_R2\tNONE\t2\t1\t1\tZwei von drei Vorkommen besitzen den X-daiin-Rahmen und alle drei folgen unmittelbar auf ein vollständiges Feucht- oder Zubereitungswort\tF03 liefert keinen einzigen Trockenrahmen; die Rubrik benennt weder Stoff noch Aggregatzustand\tPulver, Rückstand oder Paste brauchen jeweils eine eigene unabhängige Stoff- oder Ergebnisachse\t0\t0\t0\t0\t0",
+        "sha256": "043690ba71e9fe63e5ddf37701c44f1b4aa1a333553d950a74dc5b1d0ef5b2cc"
+      },
+      {
+        "path": "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/src/IDENTITY_CANDIDATE_SPECS.tsv",
+        "line": 38,
+        "line_end": 38,
+        "quote": "I37_PCHEEY_MOIST_FORM\tpcheey\tR04_BOUND_RECORD_FIELD\tMOIST_PREPARATION_FORM\tPaste, Salben- oder Mischform II\tPaste/Salben- oder Mischform II\tCHALLENGER\tF11_H1_BOUNDED_VALUE AND F04_MOIST_R2\tNO_INDEPENDENT_BODY_APPLICATION_OR_CONSISTENCY_AXIS\t2\t1\t1\tDrei unmittelbare Feuchtvorgänger und zwei gebundene X-daiin-Felder sind mit einer nassen Zubereitungsform vereinbar\tKein Körper-, Auftragungs-, Konsistenz- oder Gefäßanker trennt Paste, Salbe und allgemeine Mischform voneinander\tBei Gleichstand gewinnt I10 als neutrales Zubereitungsfeld\t1\t0\t0\t0\t0",
+        "sha256": "043690ba71e9fe63e5ddf37701c44f1b4aa1a333553d950a74dc5b1d0ef5b2cc"
+      },
+      {
+        "path": "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/REPORT.md",
+        "line": 15,
+        "line_end": 19,
+        "quote": "| `pcheey` | R04 bounded record/form field | `gebundenes Zubereitungs-/Form-II-Feld` | C1 replicated role globally; C2 in the specified line readers; C0 form identity | paste, salve, mixed form, or residue remain candidates; dry/powder has no positive frame |\n| `ols` | R04 selected only by specificity priority over an equally passing R01 role | before a value: `Maß-/Dosisposten`; line-final: `Endportion`; otherwise `Maß-/Produktposten` | C0 role tiebreak and concrete identity; individual line readers carry C1–C2 local frame evidence | supported R01 substance/preparation role; the measured preparation or product cannot be identified |\n| `ckhy` | global role open between R02 operation and R01 nominal preparation | line-final process frame: `mischen/verrühren`; medial content frame: `Mischung/Kompositum` | globally `C0_RIVAL_ONLY`; specified medial readers carry C1 contextual support | no single global process or substance role has won; mediality alone does not make it a linker |\n\nThe C-levels are internal working-confidence labels, not probabilities. In particular, C1 or C2 at role level does not promote an English, German, Latin, or Middle English word identity above C0.",
+        "sha256": "a00ca7b7fd36013a78b8118395e88e5e091f087515d0def577ba25af7623e346"
+      },
+      {
+        "path": "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/REPORT.md",
+        "line": 35,
+        "line_end": 39,
+        "quote": "### `pcheey`: R04 preparation/form-II field, with zero dry evidence\n\nThere are only three exact occurrences, but all three immediately follow `sho` or `sheo`, and two form a `pcheey-X-daiin` construction. All three are medial in paragraph-opening lines. This repeated bounded-field geometry supports R04 and the neutral reader phrase `gebundenes Zubereitungs-/Form-II-Feld`.\n\nThe dry frame F03 has zero support. There is also no independent vessel, operation, passage/straining, or closing signal. A previous powder-like reading inherited from the shape of EVA `p` is therefore excluded from the default. Paste, salve, mixed form, or residue after soaking remain possible identities, but none is selected.",
+        "sha256": "a00ca7b7fd36013a78b8118395e88e5e091f087515d0def577ba25af7623e346"
+      },
+      {
+        "path": "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/PREREGISTRATION.md",
+        "line": 10,
+        "line_end": 20,
+        "quote": "## Reihenfolge der Entscheidung\n\n1. Zensus und Positionsgeometrie ohne Bedeutung bauen.\n2. Alle Bedeutungsgeber durch Targetpanel, GDT754, explizites GDT737-Q80 und\n   die gemeinsame ED≤2-Familie sperren.\n3. Die 16 festen Rahmensignaturen pro Ziel und locus zählen.\n4. Fünf Rollen vergleichen: Nomen/Zubereitung, Vorgang, Produkt, Recordfeld,\n   Folgen-/Feldverbinder.\n5. Nur innerhalb einer tragfähigen Rolle konkrete Identitätskarten werten.\n6. Stärksten stützenden locus entfernen und die notwendige Zwei-Achsen-\n   Signatur auf einer zweiten Seite erneut prüfen.",
+        "sha256": "5046a218f2d04e86aad0f3174776793c6ada1f5ab50b07c8f7534235ea2a4751"
+      }
+    ],
+    "scope_limits": "This is specialization between the two authored historical pcheey contracts only, not a confirmed semantic taxonomy or corpus-derived entailment. Gate formulas and observed frame summaries are source-authored assumptions; no observations were rerun or independently verified. I10 explicitly names neither substance nor state of matter. Preparation/Form-II does not identify paste, salve, powder, residue, a physical second grade or any real ingredient. I37 retains paste/salve/mixed-form as a separate more concrete challenger even under the same F11/F04 signature. A stronger operational signature alone does not prove a narrower meaning; the direction also relies on explicit required_role_model plus the narrower named candidate/renderer. R04 can cover record/form/measure fields without the added preparation/moist context. Preserve both full cards and all three cases, source timing and unconfirmed status. No C1/C2 role label or default_is_translation=0 field becomes meaning support. No merge or new experiment."
+  },
+  "negative_control": {
+    "identity_id": "I37_PCHEEY_MOIST_FORM",
+    "finding": "Same required R04 and exact F11/F04 signature as I10, but distinct paste/salve/mixed-form challenger, with explicit missing independent consistency/application anchor. Therefore formula overlap is not identity; the neutral I10 interpretation does not identify any of these substances/forms."
+  },
+  "current_case_check": {
+    "card_count": 2,
+    "complete_case_count": 3,
+    "case_ids": [
+      "REPORT_PROPOSAL:9618cb9f44742d17208d",
+      "REPORT_PROPOSAL:f1cf3437fdc16a3e3437",
+      "REPORT_PROPOSAL:89f61a166c864ef155ef"
+    ],
+    "effective_types": [
+      "functional_hypothesis",
+      "functional_hypothesis"
+    ],
+    "historical_case_types": "The three source cases retain historical formal_role metadata; both current effective cards are functional_hypothesis. Current effective hashes, not original case-type labels, are bound."
+  },
+  "prior_question": {
+    "path": "research_registry/decisions/semantic_identity_proposal_fp.json",
+    "pair_id": "FP3",
+    "resolution": "Previously open authored-definition bridge is now supplied; this is no new experimental evidence or repeated empirical test."
+  },
+  "implementation_check": {
+    "path": "tools/semantic_identity.py",
+    "sha256": "ad2e4da44b795dcece2a3e8334587751e2d929f45b463d27d728e4cfc20a6272",
+    "result": "specializes is allowed for exactly two members; non-equivalence relations preserve member_ids order and do not merge equivalence classes. At append preserve [4ae...,775...] exactly; source/target labels alone are not what the stored relation view retains. Existing code does not prove semantic direction; this peer supplies its scoped source judgment.",
+    "touching_latest_decisions": []
+  },
+  "validation": {
+    "exact_quotes_hashes_endpoints": "PASS",
+    "current_original_and_effective_bases": "PASS",
+    "three_complete_cases": "PASS",
+    "header_before_definition_payload": true,
+    "raw_event_or_line_reader_bodies_opened": 0,
+    "operative_mutations": 0
+  },
+  "limits": [
+    "No manuscript-role reanalysis, event reading, new test or independent translation support.",
+    "No general physical taxonomy, second-grade interpretation, or transitive equality inferred. The relation concerns the two authored historical pcheey contracts only."
+  ]
+}

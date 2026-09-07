@@ -1,0 +1,781 @@
+{
+  "review_id": "SEMANTIC_IDENTITY_PROPOSAL_FP",
+  "status": "NO_EQUIVALENCE_TWO_PRIOR_DEFER_ONE_UNCERTAIN_ONE_HISTORICAL_ALTERNATIVE",
+  "scope_ids": [
+    "SEM:16c41ce8f9e2d2f11a16",
+    "SEM:3b3bf91ea08b84c9e1d9",
+    "SEM:3c52edbe8557c550087a",
+    "SEM:bf4f6af3df6cc7666063",
+    "SEM:4ae11fdf56469a4b4dd0",
+    "SEM:77589df4c7f07fe49e39",
+    "SEM:a9c7386f67fd904f9b10",
+    "SEM:c44e37170efcbac1d049"
+  ],
+  "groups": [],
+  "links": [
+    {
+      "id": "IDENTITY_FP:eees_amount_units",
+      "source": "SEM:a9c7386f67fd904f9b10",
+      "target": "SEM:c44e37170efcbac1d049",
+      "member_ids": [
+        "SEM:a9c7386f67fd904f9b10",
+        "SEM:c44e37170efcbac1d049"
+      ],
+      "type": "alternative_to",
+      "relation": "alternative_to",
+      "reason": "The frozen deck explicitly names Mengenfeld as short default and Einheitenfeld as rival 1. Both concern a field role, but the source preserves them as different candidate readings and says its amount/value signal identifies neither a number nor a unit. This supports historical alternative_to only; a quantity field could involve units in a fuller model, so no universal logical incompatibility follows.",
+      "scope_limit": "Only the GDT780 default/rival field interpretations. No named unit, number, confirmed quantity lexeme, semantic victory, universal incompatibility or free component export.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt780_ol_two_cardless_whole_bridge/PREREGISTRATION.md",
+          "line": 10,
+          "line_end": 23,
+          "quote": "## Frozen deck\n\nExactly two complete surfaces are admitted before the runner is written:\n\n| surface | short default | rival 1 | rival 2 | confidence |\n|---|---|---|---|---|\n| `eees` | `Mengenfeld` | `Einheitenfeld` | `Wertkopf` | C1 role / C0 identity |\n| `sheeol` | `Endzustand` | `Feuchtzustand` | `kalte Zustandsform` | C1 role / C0 identity |\n\n`eees` is selected because GDT758 independently records seven reader-exact\noccurrences, four exact right contexts and three `aiin` followers: conditional\nrate .75, ordered-value baseline .021613 and lift 34.702083. Removing the later\n`ol eees` target still leaves two `aiin` followers among three exact right\ncontexts. The signal selects an amount/value-field role, not a number or unit.",
+          "sha256": "73b9baaf1eaf7b0b8d605e8e8c9df38e31054bfc1258976f1884e4d499f8572e"
+        }
+      ],
+      "card_basis": {
+        "SEM:a9c7386f67fd904f9b10": "54fd6eafa53428f1f42055ef89ab895f2d79589977663586f8a9131ff1b3cce5",
+        "SEM:c44e37170efcbac1d049": "09e0d69a34afd8c02e784703d483970c342936ae6bc9ddda20dde462ad619235"
+      },
+      "effective_basis": {
+        "SEM:a9c7386f67fd904f9b10": "22c4c2615a779c13ac5ea699f6e0fc90218d0af97764c4f2f3abbdd2c9c53c2a",
+        "SEM:c44e37170efcbac1d049": "6a48d0e1eec00a072a17300c2bf17c06999df1769f50cee7027bf01f14a02e84"
+      }
+    }
+  ],
+  "pair_decisions": [
+    {
+      "pair_id": "FP1",
+      "member_ids": [
+        "SEM:16c41ce8f9e2d2f11a16",
+        "SEM:3b3bf91ea08b84c9e1d9"
+      ],
+      "decision": "DEFER_ALREADY_OPERATIVE_BARRIER_NO_NEW_BRIDGE",
+      "prior_decision": {
+        "card_basis": {
+          "SEM:16c41ce8f9e2d2f11a16": "57bbc4942653f32e7c3c188c27b438dc43250ee51df010a5c58a598d27d3f7f2",
+          "SEM:3b3bf91ea08b84c9e1d9": "395e9e764930b5f4584e489aaf163ee2dcecfe49446e33c813341d8c2a80fbb5"
+        },
+        "decision_key": "IDENTITY_B:cthy_oltchy_material:scope",
+        "effective_basis": {
+          "SEM:16c41ce8f9e2d2f11a16": "aeeffc88733f3527322f951dd41b15624403f9e4ca7797b5e29baf16d4f88c86",
+          "SEM:3b3bf91ea08b84c9e1d9": "05875da3342d343220ea1585c4c8b28484c14480a7a9a9dfb88d9a7a988e3d66"
+        },
+        "evidence": [
+          {
+            "line": 23,
+            "member_id": "SEM:16c41ce8f9e2d2f11a16",
+            "path": "experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/REPORT.md",
+            "quote": "| `cthy oltchy` | leaf/herb material, cold and dry? | leaf/herb ingredient, cold and dry? |",
+            "sha256": "4ba0b56b633b85771f533c1ec00737f6a71109d91086c9d1ac7701e06529d86f"
+          },
+          {
+            "line": 23,
+            "member_id": "SEM:3b3bf91ea08b84c9e1d9",
+            "path": "experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/REPORT.md",
+            "quote": "| `cthy oltchy` | leaf/herb material, cold and dry? | leaf/herb ingredient, cold and dry? |",
+            "sha256": "4ba0b56b633b85771f533c1ec00737f6a71109d91086c9d1ac7701e06529d86f"
+          },
+          {
+            "line": 19,
+            "path": "experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/REPORT.md",
+            "quote": "\n| Exact source span | Descriptive working model D | Recipe working model R |\n|---|---|---|\n| `chor chol daiin` | flower head, dry in the third degree? | dried flowers, three portions? |\n| `cthy oltchy` | leaf/herb material, cold and dry? | leaf/herb ingredient, cold and dry? |\n| `otshy okaiin` | cold-moist preparation? | cold-moist preparation? |\n\nThese meanings are explicit assumptions, including the numbers. The first\nspan was already analyzed in GDT629; redisplaying it is not a discovery.\nThe new contribution is a common-dictionary comparison of its complete\nparagraphs with the awkward repetitions and unknown neighbours retained.",
+            "sha256": "4ba0b56b633b85771f533c1ec00737f6a71109d91086c9d1ac7701e06529d86f"
+          }
+        ],
+        "id": "IDENTITY_B:cthy_oltchy_material:scope:v1",
+        "member_ids": [
+          "SEM:16c41ce8f9e2d2f11a16",
+          "SEM:3b3bf91ea08b84c9e1d9"
+        ],
+        "previous_revision": null,
+        "reason": "REJECT: the source labels D a descriptive model and R a recipe model. Leaf/herb material as a descriptive referent does not assert its ingredient role; the recipe wording does. Shared cold-and-dry qualification does not erase that content/function contrast. Retain the complete spans separately, with a possible one-way ingredient-to-material specialization only after preserving these model scopes.",
+        "relation": "related_not_equivalent",
+        "review_artifact": "research_registry/decisions/identity_peer_review_b.json",
+        "reviewer": "root_after_independent_identity_peer_review_b",
+        "status": "approved"
+      },
+      "reason": "Exact pair already has an operative related_not_equivalent judgment: descriptive material versus recipe ingredient. Its shared source line is old evidence. No fresh primary identity bridge identified; do not repeat or overturn this judgment.",
+      "primary_review_in_this_pass": false
+    },
+    {
+      "pair_id": "FP2",
+      "member_ids": [
+        "SEM:3c52edbe8557c550087a",
+        "SEM:bf4f6af3df6cc7666063"
+      ],
+      "decision": "DEFER_PREVIOUS_FULL_SCOPE_COMPARISON_NO_NEW_BRIDGE",
+      "prior_review": {
+        "path": "research_registry/decisions/clean_gap_review_em_integrated.json",
+        "locator": "cards[id=CLEAN_GAP_EM:shared_property_cross_genre_rival].comparison",
+        "peer_path": "research_registry/decisions/clean_gap_peer_em.json",
+        "peer_locator": "card_reviews[0]"
+      },
+      "reason": "The current EM case explicitly compares this exact broad-subject counterpart and distinguishes the cross-subject invariant-property mechanism plus independent-genres rival. The existing peer likewise approves the scope distinction. This prior source-scoped comparison lies outside the identity manifest, so the absence of exact IDs from identity-only files is not an unreviewed-pair claim. Same working-theory paragraph is not a new bridge. No relation is newly proposed.",
+      "primary_review_in_this_pass": "Existing full card evidence and exact prior review/peer, not a new whole-report audit"
+    },
+    {
+      "pair_id": "FP3",
+      "member_ids": [
+        "SEM:4ae11fdf56469a4b4dd0",
+        "SEM:77589df4c7f07fe49e39"
+      ],
+      "decision": "UNCERTAIN_ROLE_CLASS_VERSUS_CONCRETE_READER_DEFAULT",
+      "reason": "The report puts R04 bounded record/form field and the neutral preparation/Form-II reader phrase on the same pcheey row and connects both to its bounded-field geometry. This is genuine common-source support, not mere shared vocabulary. However, it also explicitly separates role selection from concrete identity/defaults; the German card additionally has a prospective rival-list case while the English card has only the selected-role case. The available prose does not settle whether Form-II/preparation adds a semantic restriction beyond the R04 field role, or only names its pcheey-specific neutral display. Do not silently equate the columns or transfer C1/C2 role labels into word identity.",
+      "smallest_missing_bridge": "An explicit authored definition tying this pcheey R04 contract to exactly the preparation/Form-II default without added content, or explicitly distinguishing that added content. No new corpus experiment is called for. Authored TSV definition tables were not opened in this bounded prose pass.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/REPORT.md",
+          "line": 5,
+          "line_end": 19,
+          "quote": "## Result in one paragraph\n\nThe current working model dispatches `ol` to R05 as a contextual field relation, `ols` to R04 as a measure/product field, and `otar` to R05 as a step or field transition. None of those three is an evidence winner: each was chosen by `SPECIFICITY_DISPATCH_PRIORITY_AMONG_EQUAL_GATE_SCORES`. `ol` also has supported R01 nominal-preparation and R03 product/result roles; `ols` has a supported R01 rival; and `otar` has a supported R01 rival. Only `pcheey` has one clearly passing role, R04 bounded preparation/form-II field. `ckhy` remains globally open. The working defaults remain contextual `und/mit/von/aus` for `ol`, `Maß-/Produktposten` for `ols`, and `weiter/dann` for `otar`. These are renderer choices, not confirmed translations or role proofs.\n\n## Provisional dispatch\n\n| Target | Current role decision | Reader default | Confidence carried by the specification | Live rival or limit |\n| --- | --- | --- | --- | --- |\n| `ol` | R05 selected only by specificity priority among equal passing R05, R01, and R03 scores | `und/mit`; after a quantity, context may instead require `von/aus` | `C1_LOCAL_FRAME__C0_ROLE_TIEBREAK`; C0 lexeme | supported R01 *Ansatz/Zubereitungsbasis* and R03 product/result roles; no liquid identity follows |\n| `otar` | R05 selected only by specificity priority over an equally passing R01 role | `dann/anschließend/weiter` | `C1_LOCAL_FRAME__C0_ROLE_TIEBREAK`; C0 lexeme | `bis` is the primary identity rival; nominal preparation/record field is the principal role rival |\n| `pcheey` | R04 bounded record/form field | `gebundenes Zubereitungs-/Form-II-Feld` | C1 replicated role globally; C2 in the specified line readers; C0 form identity | paste, salve, mixed form, or residue remain candidates; dry/powder has no positive frame |\n| `ols` | R04 selected only by specificity priority over an equally passing R01 role | before a value: `Maß-/Dosisposten`; line-final: `Endportion`; otherwise `Maß-/Produktposten` | C0 role tiebreak and concrete identity; individual line readers carry C1–C2 local frame evidence | supported R01 substance/preparation role; the measured preparation or product cannot be identified |\n| `ckhy` | global role open between R02 operation and R01 nominal preparation | line-final process frame: `mischen/verrühren`; medial content frame: `Mischung/Kompositum` | globally `C0_RIVAL_ONLY`; specified medial readers carry C1 contextual support | no single global process or substance role has won; mediality alone does not make it a linker |\n\nThe C-levels are internal working-confidence labels, not probabilities. In particular, C1 or C2 at role level does not promote an English, German, Latin, or Middle English word identity above C0.",
+          "sha256": "a00ca7b7fd36013a78b8118395e88e5e091f087515d0def577ba25af7623e346"
+        },
+        {
+          "path": "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/REPORT.md",
+          "line": 35,
+          "line_end": 39,
+          "quote": "### `pcheey`: R04 preparation/form-II field, with zero dry evidence\n\nThere are only three exact occurrences, but all three immediately follow `sho` or `sheo`, and two form a `pcheey-X-daiin` construction. All three are medial in paragraph-opening lines. This repeated bounded-field geometry supports R04 and the neutral reader phrase `gebundenes Zubereitungs-/Form-II-Feld`.\n\nThe dry frame F03 has zero support. There is also no independent vessel, operation, passage/straining, or closing signal. A previous powder-like reading inherited from the shape of EVA `p` is therefore excluded from the default. Paste, salve, mixed form, or residue after soaking remain possible identities, but none is selected.",
+          "sha256": "a00ca7b7fd36013a78b8118395e88e5e091f087515d0def577ba25af7623e346"
+        },
+        {
+          "path": "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/PREREGISTRATION.md",
+          "line": 10,
+          "line_end": 20,
+          "quote": "## Reihenfolge der Entscheidung\n\n1. Zensus und Positionsgeometrie ohne Bedeutung bauen.\n2. Alle Bedeutungsgeber durch Targetpanel, GDT754, explizites GDT737-Q80 und\n   die gemeinsame ED≤2-Familie sperren.\n3. Die 16 festen Rahmensignaturen pro Ziel und locus zählen.\n4. Fünf Rollen vergleichen: Nomen/Zubereitung, Vorgang, Produkt, Recordfeld,\n   Folgen-/Feldverbinder.\n5. Nur innerhalb einer tragfähigen Rolle konkrete Identitätskarten werten.\n6. Stärksten stützenden locus entfernen und die notwendige Zwei-Achsen-\n   Signatur auf einer zweiten Seite erneut prüfen.",
+          "sha256": "5046a218f2d04e86aad0f3174776793c6ada1f5ab50b07c8f7534235ea2a4751"
+        },
+        {
+          "path": "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/PREREGISTRATION.md",
+          "line": 23,
+          "line_end": 34,
+          "quote": "## Vorab sichtbare Rivalen\n\n- `ol`: Feldrelation oder Mengenanschluss; allgemeine Zubereitungsbasis;\n  Pflanzensaft/Auszug/Dekokt; Öl; Arzneiwasser; Wein; Essig.\n- `ckhy`: Mischung/Kompositum; `mischen/vermengen` als rezeptfinaler Vorgang;\n  Infusion/Dekokt; Wasser-/Wein-/Essigmedium; Einweichen/Mazerieren.\n- `pcheey`: gebundenes Zubereitungs-/Form-II-Feld; Paste, Salben- oder\n  Mischform II; Pulver/Trockendroge; Rückstand nach Einweichen.\n- `ols`: fertige Flüssigzubereitung; Filtrat/Colatur; Saft/Auszug/Dekokt;\n  ölige Zubereitung; Abseihen als Vorgang.\n- `otar`: Folgen-/Feldverbinder; `dann/danach`; `bis`; Trocknen als Vorgang;\n  nominales Zubereitungsfeld; Arzneiwasser/Auszug; Öl; Wein; Essig; Pulver.",
+          "sha256": "5046a218f2d04e86aad0f3174776793c6ada1f5ab50b07c8f7534235ea2a4751"
+        }
+      ],
+      "card_basis": {
+        "SEM:4ae11fdf56469a4b4dd0": "3c8ec3ad2c323323cee3501a8daddfda3ed5e43bf8f5b44c80cf143a696dc81c",
+        "SEM:77589df4c7f07fe49e39": "ce65657aaf92436897c7c0acc751881320f9ffdfb7b2f65a6d66ce13d446a3ec"
+      },
+      "effective_basis": {
+        "SEM:4ae11fdf56469a4b4dd0": "c105c0160223c138d765ae201a707ce261272bcea55257c45443a7f487c2be37",
+        "SEM:77589df4c7f07fe49e39": "fbe1dce24f55a1239722f359022336a519d7c57f52f6cc17154e5f343778f81f"
+      }
+    },
+    {
+      "pair_id": "FP4",
+      "member_ids": [
+        "SEM:a9c7386f67fd904f9b10",
+        "SEM:c44e37170efcbac1d049"
+      ],
+      "decision": "PROPOSE_ALTERNATIVE_TO_NOT_EQUIVALENCE",
+      "reason": "The frozen deck explicitly names Mengenfeld as short default and Einheitenfeld as rival 1. Both concern a field role, but the source preserves them as different candidate readings and says its amount/value signal identifies neither a number nor a unit. This supports historical alternative_to only; a quantity field could involve units in a fuller model, so no universal logical incompatibility follows.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt780_ol_two_cardless_whole_bridge/PREREGISTRATION.md",
+          "line": 10,
+          "line_end": 23,
+          "quote": "## Frozen deck\n\nExactly two complete surfaces are admitted before the runner is written:\n\n| surface | short default | rival 1 | rival 2 | confidence |\n|---|---|---|---|---|\n| `eees` | `Mengenfeld` | `Einheitenfeld` | `Wertkopf` | C1 role / C0 identity |\n| `sheeol` | `Endzustand` | `Feuchtzustand` | `kalte Zustandsform` | C1 role / C0 identity |\n\n`eees` is selected because GDT758 independently records seven reader-exact\noccurrences, four exact right contexts and three `aiin` followers: conditional\nrate .75, ordered-value baseline .021613 and lift 34.702083. Removing the later\n`ol eees` target still leaves two `aiin` followers among three exact right\ncontexts. The signal selects an amount/value-field role, not a number or unit.",
+          "sha256": "73b9baaf1eaf7b0b8d605e8e8c9df38e31054bfc1258976f1884e4d499f8572e"
+        }
+      ],
+      "card_basis": {
+        "SEM:a9c7386f67fd904f9b10": "54fd6eafa53428f1f42055ef89ab895f2d79589977663586f8a9131ff1b3cce5",
+        "SEM:c44e37170efcbac1d049": "09e0d69a34afd8c02e784703d483970c342936ae6bc9ddda20dde462ad619235"
+      },
+      "effective_basis": {
+        "SEM:a9c7386f67fd904f9b10": "22c4c2615a779c13ac5ea699f6e0fc90218d0af97764c4f2f3abbdd2c9c53c2a",
+        "SEM:c44e37170efcbac1d049": "6a48d0e1eec00a072a17300c2bf17c06999df1769f50cee7027bf01f14a02e84"
+      }
+    }
+  ],
+  "current_cards": [
+    {
+      "id": "SEM:16c41ce8f9e2d2f11a16",
+      "claim": "cthy oltchy → leaf/herb material, cold and dry?",
+      "claim_type": "semantic_model",
+      "cases": [
+        {
+          "assessment_basis": "source_excerpt_and_semantic_column_or_manually_selected_model_review",
+          "claim_type": "semantic_model",
+          "id": "REPORT_PROPOSAL:6dc63e7173d4bf6de085",
+          "limits": "Historical claim only. Exact source evidence retains alternatives, negative results, scope restrictions and later qualifications. No inherited software PASS establishes meaning.",
+          "member_ids": [
+            "LEGACY_PROPOSAL:5b1444ce4dc773144519bfc4"
+          ],
+          "registry_context_ids": [
+            "GDT809"
+          ],
+          "review_file": "research_registry/decisions/clean_report_proposals_review.json",
+          "scope": {
+            "case": "Descriptive working model D",
+            "section": "Practical result / Exact source span | Descriptive working model D | Recipe working model R",
+            "source": "experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/REPORT.md"
+          },
+          "source_status_not_adopted": "Status: COMPLETE_REPAIR_AND_JOINT_EXPLORATION__MEANINGS_UNRESOLVED",
+          "status": "unconfirmed"
+        }
+      ],
+      "card_basis": {
+        "SEM:16c41ce8f9e2d2f11a16": "57bbc4942653f32e7c3c188c27b438dc43250ee51df010a5c58a598d27d3f7f2"
+      },
+      "effective_basis": {
+        "SEM:16c41ce8f9e2d2f11a16": "aeeffc88733f3527322f951dd41b15624403f9e4ca7797b5e29baf16d4f88c86"
+      }
+    },
+    {
+      "id": "SEM:3b3bf91ea08b84c9e1d9",
+      "claim": "cthy oltchy → leaf/herb ingredient, cold and dry?",
+      "claim_type": "semantic_model",
+      "cases": [
+        {
+          "assessment_basis": "source_excerpt_and_semantic_column_or_manually_selected_model_review",
+          "claim_type": "semantic_model",
+          "id": "REPORT_PROPOSAL:6a83b94bb9fd2f8daaf0",
+          "limits": "Historical claim only. Exact source evidence retains alternatives, negative results, scope restrictions and later qualifications. No inherited software PASS establishes meaning.",
+          "member_ids": [
+            "LEGACY_PROPOSAL:5b1444ce4dc773144519bfc4"
+          ],
+          "registry_context_ids": [
+            "GDT809"
+          ],
+          "review_file": "research_registry/decisions/clean_report_proposals_review.json",
+          "scope": {
+            "case": "Recipe working model R",
+            "section": "Practical result / Exact source span | Descriptive working model D | Recipe working model R",
+            "source": "experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/REPORT.md"
+          },
+          "source_status_not_adopted": "Status: COMPLETE_REPAIR_AND_JOINT_EXPLORATION__MEANINGS_UNRESOLVED",
+          "status": "unconfirmed"
+        }
+      ],
+      "card_basis": {
+        "SEM:3b3bf91ea08b84c9e1d9": "395e9e764930b5f4584e489aaf163ee2dcecfe49446e33c813341d8c2a80fbb5"
+      },
+      "effective_basis": {
+        "SEM:3b3bf91ea08b84c9e1d9": "05875da3342d343220ea1585c4c8b28484c14480a7a9a9dfb88d9a7a988e3d66"
+      }
+    },
+    {
+      "id": "SEM:3c52edbe8557c550087a",
+      "claim": "GDT811 compares one shared property vocabulary across a botanical-material register, botanical description, differentiated water applications or bodily powers, and diagram-member/status inscriptions with a compendium whose genres remain separately explained. In the shared model, the same property meaning may apply to plants, celestial figures and bodily conditions; not every botanical entry is an ingredient and not every star-holder a patient. This is a historical architectural possibility, not a named property or identified form. GDT812 later quarantined the GDT811/PASS1008 f72r visual-authentication chain because canvas1006204 depicts the wrong side; these f72r architectural descriptions remain hypotheses, not authenticated observations from that image. Separately selector-bound f72r text counts and spelling identities remain valid as text, without proven graphical ownership.",
+      "claim_type": "semantic_model",
+      "cases": [
+        {
+          "claim_type": "semantic_model",
+          "comparison": {
+            "counterpart_ids": [
+              "SEM:bf4f6af3df6cc7666063",
+              "SEM:1d021f0fd9a579c17305",
+              "SEM:ba93611fc08701032061"
+            ],
+            "global_novelty": "unknown",
+            "reason": "The broad natural-substances/bodily-effects/celestial subject card does not state this full cross-subject invariant-property mechanism and its independent-genres rival. The botanical/compound-medicine cards are local subject hypotheses. Their broader evidence contains some of this prose but their complete assertions are different."
+          },
+          "id": "CLEAN_GAP_EM:shared_property_cross_genre_rival",
+          "independent_new_idea": false,
+          "member_ids": [
+            "LEGACY_COMPONENT:903c1693f08232d2d4a4",
+            "LEGACY_COMPONENT:dfc1b1a4d2fb6775d187"
+          ],
+          "original_review_claim": "GDT811 compares one shared property vocabulary across a botanical-material register, botanical description, differentiated water applications or bodily powers, and diagram-member/status inscriptions with a compendium whose genres remain separately explained. In the shared model, the same property meaning may apply to plants, celestial figures and bodily conditions; not every botanical entry is an ingredient and not every star-holder a patient. This is a historical architectural possibility, not a named property or identified form.",
+          "registry_context_ids": [
+            "GDT811",
+            "GDT812"
+          ],
+          "review_file": "research_registry/decisions/clean_gap_review_em_integrated.json",
+          "scope": {
+            "kind": "historical_source_bound_full_model_or_construction",
+            "limits": "Historical C0 hypothesis; no independent meaning, word category, manuscript syntax, ownership or image observation. No component export, new experiment or operative action. GDT811 f72r visual authentication through canvas1006204 was later quarantined by GDT812; this proposal preserves the historical architecture, not that incorrect image binding.",
+            "peer_correction_limit": "Both are genuine content/reference architecture hypotheses, distinct from a broad subject-area claim. The later f72r wrong-side image binding is evidence-attached but not visible in the proposed claim. Preserve historical hypothesis while explicitly denying validation through that chain."
+          },
+          "status": "unconfirmed"
+        }
+      ],
+      "card_basis": {
+        "SEM:3c52edbe8557c550087a": "8eda33c0473f855e5190b6e4c49127d1bffb3f8e00564276def84c072981c5ee"
+      },
+      "effective_basis": {
+        "SEM:3c52edbe8557c550087a": "be53e4b053160086dcf2e7b6b64788098e65653110b49177ea427c402edc8675"
+      }
+    },
+    {
+      "id": "SEM:bf4f6af3df6cc7666063",
+      "claim": "The manuscript describes natural substances, their properties and bodily effects together with celestial material.",
+      "claim_type": "semantic_model",
+      "cases": [
+        {
+          "assessment_basis": "source_excerpt_and_semantic_column_or_manually_selected_model_review",
+          "claim_type": "semantic_model",
+          "id": "REPORT_PROPOSAL:a77c85acb8e3f53edb0b",
+          "limits": "Historical claim only. Exact source evidence retains alternatives, negative results, scope restrictions and later qualifications. No inherited software PASS establishes meaning.",
+          "member_ids": [
+            "LEGACY_PROPOSAL:ae753a219d85dff2cc6bae1f"
+          ],
+          "registry_context_ids": [
+            "GDT811"
+          ],
+          "review_file": "research_registry/decisions/clean_report_proposals_review.json",
+          "scope": {
+            "case": "explicit_prose_model",
+            "section": "The most useful joint interpretation",
+            "source": "experiments/yolo/gdt811_four_page_content_synthesis/WORKING_THEORY.md"
+          },
+          "source_status_not_adopted": "UNSPECIFIED_IN_SOURCE",
+          "status": "unconfirmed"
+        }
+      ],
+      "card_basis": {
+        "SEM:bf4f6af3df6cc7666063": "59a96ab206da5f7b144543bfe715d7f2730652f32d73ac33c9c9e39634436ddf"
+      },
+      "effective_basis": {
+        "SEM:bf4f6af3df6cc7666063": "f9cfee08c4a99c8aad3db16540f9907fa410ae45a5a49b57bbc377c52e9b30c9"
+      }
+    },
+    {
+      "id": "SEM:4ae11fdf56469a4b4dd0",
+      "claim": "pcheey → gebundenes Zubereitungs-/Form-II-Feld",
+      "claim_type": "functional_hypothesis",
+      "cases": [
+        {
+          "assessment_basis": "source_excerpt_and_semantic_column_or_manually_selected_model_review",
+          "claim_type": "formal_role",
+          "id": "REPORT_PROPOSAL:9618cb9f44742d17208d",
+          "limits": "Historical claim only. Exact source evidence retains alternatives, negative results, scope restrictions and later qualifications. No inherited software PASS establishes meaning.",
+          "member_ids": [
+            "LEGACY_PROPOSAL:3a184872277513d000578042"
+          ],
+          "registry_context_ids": [
+            "GDT769"
+          ],
+          "review_file": "research_registry/decisions/clean_report_proposals_review.json",
+          "scope": {
+            "case": "Reader default",
+            "section": "Provisional dispatch / Target | Current role decision | Reader default | Confidence carried by the specification | Live rival or limit",
+            "source": "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/REPORT.md"
+          },
+          "source_status_not_adopted": "Status: `PASS`. The runner has materialized all 17 declared artifacts. The independent validator accepted 26,743 source, census, frame, role, identity, reader, guard, and replay checks; every builder output reproduced byte-identically.",
+          "status": "unconfirmed"
+        },
+        {
+          "assessment_basis": "manually_expanded_complete_explicit_rival_block",
+          "claim_type": "formal_role",
+          "id": "REPORT_PROPOSAL:f1cf3437fdc16a3e3437",
+          "limits": "Each alternative is a fixed historical rival in this source scope, not a selected or confirmed word meaning.",
+          "member_ids": [
+            "LEGACY_PROPOSAL:f1d15c0de450405393278192"
+          ],
+          "registry_context_ids": [
+            "GDT769"
+          ],
+          "review_file": "research_registry/decisions/clean_report_proposals_review.json",
+          "scope": {
+            "section": "Vorab sichtbare Rivalen",
+            "source": "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/PREREGISTRATION.md"
+          },
+          "status": "unconfirmed"
+        }
+      ],
+      "card_basis": {
+        "SEM:4ae11fdf56469a4b4dd0": "3c8ec3ad2c323323cee3501a8daddfda3ed5e43bf8f5b44c80cf143a696dc81c"
+      },
+      "effective_basis": {
+        "SEM:4ae11fdf56469a4b4dd0": "c105c0160223c138d765ae201a707ce261272bcea55257c45443a7f487c2be37"
+      }
+    },
+    {
+      "id": "SEM:77589df4c7f07fe49e39",
+      "claim": "pcheey → R04 bounded record/form field",
+      "claim_type": "functional_hypothesis",
+      "cases": [
+        {
+          "assessment_basis": "source_excerpt_and_semantic_column_or_manually_selected_model_review",
+          "claim_type": "formal_role",
+          "id": "REPORT_PROPOSAL:89f61a166c864ef155ef",
+          "limits": "Historical claim only. Exact source evidence retains alternatives, negative results, scope restrictions and later qualifications. No inherited software PASS establishes meaning.",
+          "member_ids": [
+            "LEGACY_PROPOSAL:3a184872277513d000578042"
+          ],
+          "registry_context_ids": [
+            "GDT769"
+          ],
+          "review_file": "research_registry/decisions/clean_report_proposals_review.json",
+          "scope": {
+            "case": "Current role decision",
+            "section": "Provisional dispatch / Target | Current role decision | Reader default | Confidence carried by the specification | Live rival or limit",
+            "source": "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/REPORT.md"
+          },
+          "source_status_not_adopted": "Status: `PASS`. The runner has materialized all 17 declared artifacts. The independent validator accepted 26,743 source, census, frame, role, identity, reader, guard, and replay checks; every builder output reproduced byte-identically.",
+          "status": "unconfirmed"
+        }
+      ],
+      "card_basis": {
+        "SEM:77589df4c7f07fe49e39": "ce65657aaf92436897c7c0acc751881320f9ffdfb7b2f65a6d66ce13d446a3ec"
+      },
+      "effective_basis": {
+        "SEM:77589df4c7f07fe49e39": "fbe1dce24f55a1239722f359022336a519d7c57f52f6cc17154e5f343778f81f"
+      }
+    },
+    {
+      "id": "SEM:a9c7386f67fd904f9b10",
+      "claim": "eees → Mengenfeld",
+      "claim_type": "functional_hypothesis",
+      "cases": [
+        {
+          "assessment_basis": "source_excerpt_and_semantic_column_or_manually_selected_model_review",
+          "claim_type": "formal_role",
+          "id": "REPORT_PROPOSAL:9e0d38712afb069a98e3",
+          "limits": "Historical claim only. Exact source evidence retains alternatives, negative results, scope restrictions and later qualifications. No inherited software PASS establishes meaning.",
+          "member_ids": [
+            "LEGACY_PROPOSAL:1c1e318c77e1b0a0c1e3166f"
+          ],
+          "registry_context_ids": [
+            "GDT780"
+          ],
+          "review_file": "research_registry/decisions/clean_report_proposals_review.json",
+          "scope": {
+            "case": "short default",
+            "section": "Frozen deck / surface | short default | rival 1 | rival 2 | confidence",
+            "source": "experiments/yolo/gdt780_ol_two_cardless_whole_bridge/PREREGISTRATION.md"
+          },
+          "source_status_not_adopted": "UNSPECIFIED_IN_SOURCE",
+          "status": "unconfirmed"
+        }
+      ],
+      "card_basis": {
+        "SEM:a9c7386f67fd904f9b10": "54fd6eafa53428f1f42055ef89ab895f2d79589977663586f8a9131ff1b3cce5"
+      },
+      "effective_basis": {
+        "SEM:a9c7386f67fd904f9b10": "22c4c2615a779c13ac5ea699f6e0fc90218d0af97764c4f2f3abbdd2c9c53c2a"
+      }
+    },
+    {
+      "id": "SEM:c44e37170efcbac1d049",
+      "claim": "eees → Einheitenfeld",
+      "claim_type": "functional_hypothesis",
+      "cases": [
+        {
+          "assessment_basis": "source_excerpt_and_semantic_column_or_manually_selected_model_review",
+          "claim_type": "formal_role",
+          "id": "REPORT_PROPOSAL:1ed125417a49b53c74ac",
+          "limits": "Historical claim only. Exact source evidence retains alternatives, negative results, scope restrictions and later qualifications. No inherited software PASS establishes meaning.",
+          "member_ids": [
+            "LEGACY_PROPOSAL:1c1e318c77e1b0a0c1e3166f"
+          ],
+          "registry_context_ids": [
+            "GDT780"
+          ],
+          "review_file": "research_registry/decisions/clean_report_proposals_review.json",
+          "scope": {
+            "case": "rival 1",
+            "section": "Frozen deck / surface | short default | rival 1 | rival 2 | confidence",
+            "source": "experiments/yolo/gdt780_ol_two_cardless_whole_bridge/PREREGISTRATION.md"
+          },
+          "source_status_not_adopted": "UNSPECIFIED_IN_SOURCE",
+          "status": "unconfirmed"
+        }
+      ],
+      "card_basis": {
+        "SEM:c44e37170efcbac1d049": "09e0d69a34afd8c02e784703d483970c342936ae6bc9ddda20dde462ad619235"
+      },
+      "effective_basis": {
+        "SEM:c44e37170efcbac1d049": "6a48d0e1eec00a072a17300c2bf17c06999df1769f50cee7027bf01f14a02e84"
+      }
+    }
+  ],
+  "prior_identity_screen": {
+    "manifest": {
+      "path": "research_registry/IDENTITY_REVIEW_INPUTS.json",
+      "sha256": "005020aea4abffed729eb7d9530504b0f137984508261a8ede0e11e4caca78f1",
+      "required_count": 42
+    },
+    "explicit_additional_required_paths": [
+      "research_registry/decisions/semantic_identity_proposal_fj.json",
+      "research_registry/decisions/semantic_identity_peer_fj.json"
+    ],
+    "paths_and_hashes": [
+      {
+        "path": "research_registry/decisions/identity_batch_a.json",
+        "sha256": "1d4fc5264299b96fb9130cf3f5fd235d986fc9ca37674b5f512515d1c8bca49e",
+        "exact_target_hits": []
+      },
+      {
+        "path": "research_registry/decisions/identity_batch_b.json",
+        "sha256": "653f69e8ad61f8c1219084aa51c4306968a21060eb19ee6a209bae2d71ccf561",
+        "exact_target_hits": [
+          "SEM:16c41ce8f9e2d2f11a16",
+          "SEM:3b3bf91ea08b84c9e1d9"
+        ]
+      },
+      {
+        "path": "research_registry/decisions/identity_batch_c.json",
+        "sha256": "2e7149b88b49c9baeafcc8da7fba9e6d039956ab3c59107bba53e84cb84fc7d9",
+        "exact_target_hits": []
+      },
+      {
+        "path": "research_registry/decisions/identity_batch_i.json",
+        "sha256": "322793e1bccdf609af168e1a1cd9cfa9f4fa3214a44414c2273f54adbb10cec5",
+        "exact_target_hits": []
+      },
+      {
+        "path": "research_registry/decisions/identity_batch_n.json",
+        "sha256": "0ca51a16adbea6d36802d5c45f808dc9eeca2ed74539176d3137a8272841ac74",
+        "exact_target_hits": []
+      },
+      {
+        "path": "research_registry/decisions/identity_batch_root.json",
+        "sha256": "885f153074d8c5e91e36dc307f2a01899f6c6f86090859300a2e62fed7395237",
+        "exact_target_hits": []
+      },
+      {
+        "path": "research_registry/decisions/identity_operational_review.json",
+        "sha256": "3b242406876c92368493028b0baca3df3647d2b727a6181a5aa8fab86692099e",
+        "exact_target_hits": [
+          "SEM:16c41ce8f9e2d2f11a16",
+          "SEM:3b3bf91ea08b84c9e1d9"
+        ]
+      },
+      {
+        "path": "research_registry/decisions/identity_peer_review_a.json",
+        "sha256": "32a9645051536f217970b438c41917715fb43fc4674ed1f8d8a32e54aec03159",
+        "exact_target_hits": []
+      },
+      {
+        "path": "research_registry/decisions/identity_peer_review_ac_root.json",
+        "sha256": "758414da4b332cdd1c096c66d815e4a2e666121aa239f6659046c2114684aabf",
+        "exact_target_hits": []
+      },
+      {
+        "path": "research_registry/decisions/identity_peer_review_b.json",
+        "sha256": "d7be86f0dc4225af56e4df3d4e6eaea95d8d94c70dbaf8b378b9caa058c5e87f",
+        "exact_target_hits": [
+          "SEM:16c41ce8f9e2d2f11a16",
+          "SEM:3b3bf91ea08b84c9e1d9"
+        ]
+      },
+      {
+        "path": "research_registry/decisions/identity_peer_review_i.json",
+        "sha256": "839a90ea169b6e58e77b6d876448e32ceae8ff8fdfc630b9e8efc3843166a68b",
+        "exact_target_hits": []
+      },
+      {
+        "path": "research_registry/decisions/identity_peer_review_n_root.json",
+        "sha256": "f98d9c7a85f1a202706d7ef39bda8d50a05acb5a793fda9716d7bb840753a766",
+        "exact_target_hits": []
+      },
+      {
+        "path": "research_registry/decisions/identity_type_correction_peer_ap.json",
+        "sha256": "377c8d0d13e784dbdff6c4a4fb5bc4aacb79be439c06caea2cc4b08b76633da3",
+        "exact_target_hits": []
+      },
+      {
+        "path": "research_registry/decisions/identity_unit_bridge_consistency.json",
+        "sha256": "562ea6a9167308592306f055996967a2c302ef4988b402ef4c5e2126eb731832",
+        "exact_target_hits": []
+      },
+      {
+        "path": "research_registry/decisions/semantic_identity_followup_es.json",
+        "sha256": "de0614ec6b1e5dbcaad1ced89a50b49ce1fe456d73baf22b2651df26f0351efd",
+        "exact_target_hits": []
+      },
+      {
+        "path": "research_registry/decisions/semantic_identity_peer_bt.json",
+        "sha256": "a23691779eca0566db4d2b5de34fbdbe6880d81148cf1680117439349375722d",
+        "exact_target_hits": []
+      },
+      {
+        "path": "research_registry/decisions/semantic_identity_peer_cj.json",
+        "sha256": "b0641ee468f7ef750880f18ca08b506def2cfb0f7ad44778fc1227dffbcb2123",
+        "exact_target_hits": []
+      },
+      {
+        "path": "research_registry/decisions/semantic_identity_peer_cq.json",
+        "sha256": "ffdd295cc65a73654e236022c91f630e3f546d402237e9e17b62431c42aa9dba",
+        "exact_target_hits": []
+      },
+      {
+        "path": "research_registry/decisions/semantic_identity_peer_cv.json",
+        "sha256": "ecd45e789afd6ec69e51b1d5a1224a529065e8e277fe8c67ac68605f07bdb29b",
+        "exact_target_hits": []
+      },
+      {
+        "path": "research_registry/decisions/semantic_identity_peer_di.json",
+        "sha256": "1299805b6659bc52ce7411e280b65e4877a63d07a179288304daa9d3b204d445",
+        "exact_target_hits": []
+      },
+      {
+        "path": "research_registry/decisions/semantic_identity_peer_do.json",
+        "sha256": "e9c6fc7f02dbc0d424d7f355ee469349cbb290e906f68da413ec7774c5563cb1",
+        "exact_target_hits": []
+      },
+      {
+        "path": "research_registry/decisions/semantic_identity_peer_ed.json",
+        "sha256": "1aa9525dfff068b369e5ad944891ee8d8b2a810f34fd1b57fb454aaf20916ed4",
+        "exact_target_hits": []
+      },
+      {
+        "path": "research_registry/decisions/semantic_identity_peer_ei.json",
+        "sha256": "e41e65547244d6401da2a5e8b9fe7a970ca6230f490c1ba0a81187e1308aa8df",
+        "exact_target_hits": []
+      },
+      {
+        "path": "research_registry/decisions/semantic_identity_peer_es.json",
+        "sha256": "b9d5a2f9e6dab63f06f177bed2f45067ddd6af6d49cac5ed83254a2841bcf3e9",
+        "exact_target_hits": []
+      },
+      {
+        "path": "research_registry/decisions/semantic_identity_peer_ez.json",
+        "sha256": "274fe49d4846b8c4e6b4e87bbe08737515048b1b57e06877a0c0ed6ac35483df",
+        "exact_target_hits": []
+      },
+      {
+        "path": "research_registry/decisions/semantic_identity_peer_fg.json",
+        "sha256": "ae801fa8ee069706e04bc1e2a19a493cabc433dd39dc689340d440b1f0ab6eb9",
+        "exact_target_hits": []
+      },
+      {
+        "path": "research_registry/decisions/semantic_identity_peer_fj.json",
+        "sha256": "e90776a823cc729e6e97aaab0e9577fa66bf2058a1e2d866f4d6e7dd5dea4bc7",
+        "exact_target_hits": []
+      },
+      {
+        "path": "research_registry/decisions/semantic_identity_proposal_bt.json",
+        "sha256": "f50467bbd86a7bb80abbc1b02fe2972588e669bad893cc0d16c323b38c38b894",
+        "exact_target_hits": []
+      },
+      {
+        "path": "research_registry/decisions/semantic_identity_proposal_cj.json",
+        "sha256": "82e34d5bc5a9c36e926ae3c4c6a8f114284cbf0f4aa35253f501972f546ee644",
+        "exact_target_hits": []
+      },
+      {
+        "path": "research_registry/decisions/semantic_identity_proposal_cq.json",
+        "sha256": "9d95b9ba62ee339fa47f6aee0be6ff4d60ca5b15c27b8839b789ab095f0d206f",
+        "exact_target_hits": []
+      },
+      {
+        "path": "research_registry/decisions/semantic_identity_proposal_cv.json",
+        "sha256": "b8f8377f165218f78e18fdf8955c8407dae568ac4bddf0d3a21cb189d8b16e5a",
+        "exact_target_hits": []
+      },
+      {
+        "path": "research_registry/decisions/semantic_identity_proposal_di.json",
+        "sha256": "076176983874a0ad6acc258398431adc04d6209042a36c6a4bfcfee6da55acee",
+        "exact_target_hits": []
+      },
+      {
+        "path": "research_registry/decisions/semantic_identity_proposal_di_integrated.json",
+        "sha256": "72e4578f53382e6331176faf798bf5468ae877d1a81126555ca678ee1b6a57a1",
+        "exact_target_hits": []
+      },
+      {
+        "path": "research_registry/decisions/semantic_identity_proposal_do.json",
+        "sha256": "df33dee157b9841c44c0b5062c635be565babdbdb5b06fa6433d111980b0f210",
+        "exact_target_hits": []
+      },
+      {
+        "path": "research_registry/decisions/semantic_identity_proposal_do_integrated.json",
+        "sha256": "32bb4ca9f03b501fd2d1338479ba3ebbbd2851d8983d98d61ea6427f44f026dd",
+        "exact_target_hits": []
+      },
+      {
+        "path": "research_registry/decisions/semantic_identity_proposal_ed.json",
+        "sha256": "1ba1e94dd6673ff56016e08ee635ae7f716e73d49b1d5b2388d0535185a17692",
+        "exact_target_hits": []
+      },
+      {
+        "path": "research_registry/decisions/semantic_identity_proposal_ei.json",
+        "sha256": "27b7d3dbaa35ddd9ecc65bd6e09c5da27cd715a27e7b571b6d8fa506603b7c61",
+        "exact_target_hits": []
+      },
+      {
+        "path": "research_registry/decisions/semantic_identity_proposal_ez.json",
+        "sha256": "6cd6728015f96ad7c23a77896b654059ea4f5bde722884b2529d4a2669f82e88",
+        "exact_target_hits": []
+      },
+      {
+        "path": "research_registry/decisions/semantic_identity_proposal_fg.json",
+        "sha256": "a2889cc07cc6a3156189f29ed9b71403d808f634782a098d2d036cb866018154",
+        "exact_target_hits": []
+      },
+      {
+        "path": "research_registry/decisions/semantic_identity_proposal_fj.json",
+        "sha256": "cd6d061832c4190b1610161af2564cd442e9c8e1e5971e04dda94448dfde635f",
+        "exact_target_hits": []
+      },
+      {
+        "path": "research_registry/decisions/semantic_relation_peer_review_s.json",
+        "sha256": "2a7243329a8265aba9feb61aa20316391d612f6a7a455de1018b0c28b7f8e2c0",
+        "exact_target_hits": []
+      },
+      {
+        "path": "research_registry/decisions/semantic_relation_review_s.json",
+        "sha256": "289dda738078d4f5c6474234c00cb07e223b691327e07bf23a7e901a9152da2d",
+        "exact_target_hits": []
+      }
+    ],
+    "required_union_count": 42,
+    "checked_union_count": 42,
+    "missing_required_paths": [],
+    "operative_log": {
+      "path": "research_registry/semantic_identity_decisions.jsonl",
+      "sha256": "74b5677d691a6af9c2ec5056f6e8c27ce21458f795208b716aa1d25cb40a33b2",
+      "rows": 89,
+      "target_judgments": [
+        "IDENTITY_B:cthy_oltchy_material:scope:v1"
+      ]
+    },
+    "selection_method": "Machine metadata navigation over current semantic_model/functional_hypothesis cards sharing exact GDT7xx/8xx primary locators, then at most four full candidate comparisons. Common source location ranked candidates only. Existing source-case comparisons were inspected in addition to all mandatory identity inputs. No new pair judgment is inferred from a large cohort membership.",
+    "limits": "All files enumerated for target-ID screening; only matching metadata and bounded relevant prior decisions read. No global semantic deduplication completeness claim.",
+    "executable_receipt": {
+      "command": "./vmanus-work identity-inputs --declared research_registry/decisions/semantic_identity_proposal_fp.json --field prior_identity_screen.paths_and_hashes",
+      "result_without_self_referential_declaration_hash": {
+        "all_required_current": true,
+        "declared_count": 42,
+        "diagnostic_limit": 20,
+        "exact_set_match": true,
+        "extra_declared": [],
+        "extra_declared_count": 0,
+        "manifest": {
+          "path": "research_registry/IDENTITY_REVIEW_INPUTS.json",
+          "sha256": "005020aea4abffed729eb7d9530504b0f137984508261a8ede0e11e4caca78f1"
+        },
+        "meaning": "Input receipt only: no novelty, proposition identity, semantic approval, scientific verdict, or rerun authorization. File membership is not proof of reading.",
+        "missing_files": [],
+        "missing_files_count": 0,
+        "missing_required": [],
+        "missing_required_count": 0,
+        "required_count": 42,
+        "required_set_covered": true,
+        "required_verified_count": 42,
+        "stale_declared_hashes": [],
+        "stale_declared_hashes_count": 0,
+        "stale_manifest_hashes": [],
+        "stale_manifest_hashes_count": 0,
+        "status": "INPUT_COVERAGE_PASS",
+        "truncated_fields": []
+      }
+    }
+  },
+  "counts": {
+    "selected_pairs": 4,
+    "proposed_equivalence_groups": 0,
+    "proposed_alternative_links": 1,
+    "prior_comparisons_deferred": 2,
+    "new_uncertain_pairs": 1,
+    "new_cards": 0,
+    "operative_changes": 0
+  },
+  "validation": {
+    "current_card_bases": "PASS",
+    "exact_primary_evidence": "PASS",
+    "type_compatibility": "All target cards currently semantic_model or functional_hypothesis",
+    "prior_barrier_preserved": true
+  },
+  "limits": [
+    "No raw/event TSVs, images, web or experiments. Authored runner header read solely for the explicit separation of structural roles and reader defaults; no runner execution or metadata-table extraction.",
+    "No uncertainty treated as a nonidentity barrier; FP3 remains genuinely unresolved.",
+    "Root independent review required before adopting FP4; no log, manifest, build, source card or ledger mutation."
+  ]
+}

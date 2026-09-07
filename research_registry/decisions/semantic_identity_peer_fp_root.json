@@ -1,0 +1,45 @@
+{
+  "review_id": "ROOT_PEER_FP",
+  "status": "APPROVE_ONE_SCOPED_HISTORICAL_ALTERNATIVE_ONLY",
+  "input": {
+    "path": "research_registry/decisions/semantic_identity_proposal_fp.json",
+    "sha256": "779ca40daa980d7d1326c23f9407ebddd7977b6c78b38bcb34117cf195f70670"
+  },
+  "approved_pair": "FP4",
+  "targets": [
+    "SEM:a9c7386f67fd904f9b10",
+    "SEM:c44e37170efcbac1d049"
+  ],
+  "reason": "The frozen deck explicitly names Mengenfeld as short default and Einheitenfeld as rival 1. Both concern a field role, but the source preserves them as different candidate readings and says its amount/value signal identifies neither a number nor a unit. This supports historical alternative_to only; a quantity field could involve units in a fuller model, so no universal logical incompatibility follows.",
+  "evidence": [
+    {
+      "path": "experiments/yolo/gdt780_ol_two_cardless_whole_bridge/PREREGISTRATION.md",
+      "line": 10,
+      "line_end": 23,
+      "quote": "## Frozen deck\n\nExactly two complete surfaces are admitted before the runner is written:\n\n| surface | short default | rival 1 | rival 2 | confidence |\n|---|---|---|---|---|\n| `eees` | `Mengenfeld` | `Einheitenfeld` | `Wertkopf` | C1 role / C0 identity |\n| `sheeol` | `Endzustand` | `Feuchtzustand` | `kalte Zustandsform` | C1 role / C0 identity |\n\n`eees` is selected because GDT758 independently records seven reader-exact\noccurrences, four exact right contexts and three `aiin` followers: conditional\nrate .75, ordered-value baseline .021613 and lift 34.702083. Removing the later\n`ol eees` target still leaves two `aiin` followers among three exact right\ncontexts. The signal selects an amount/value-field role, not a number or unit.",
+      "sha256": "73b9baaf1eaf7b0b8d605e8e8c9df38e31054bfc1258976f1884e4d499f8572e"
+    }
+  ],
+  "current_card_basis": {
+    "SEM:a9c7386f67fd904f9b10": "54fd6eafa53428f1f42055ef89ab895f2d79589977663586f8a9131ff1b3cce5",
+    "SEM:c44e37170efcbac1d049": "09e0d69a34afd8c02e784703d483970c342936ae6bc9ddda20dde462ad619235"
+  },
+  "current_effective_basis": {
+    "SEM:a9c7386f67fd904f9b10": "22c4c2615a779c13ac5ea699f6e0fc90218d0af97764c4f2f3abbdd2c9c53c2a",
+    "SEM:c44e37170efcbac1d049": "6a48d0e1eec00a072a17300c2bf17c06999df1769f50cee7027bf01f14a02e84"
+  },
+  "scope": "Only the two one-case GDT780 functional hypotheses. Their old case types remain historical; effective types both functional_hypothesis. Quantity and unit are alternative source readings, not universally incompatible concepts. No new meaning or empirical priority.",
+  "other_pair_disposition": {
+    "FP1": "Existing operative barrier reused; no new primary review or edge.",
+    "FP2": "Prior EM full-case comparison reused; absence from identity-only manifest does not erase its review.",
+    "FP3": "Available authored-definition bridge remains under FS follow-up; no edge approved."
+  },
+  "validation": {
+    "whole_cases": 2,
+    "exact_primary_spans": 1,
+    "fresh_bases": true,
+    "new_equivalences": 0,
+    "new_alternatives": 1
+  },
+  "operative_mutation": false
+}

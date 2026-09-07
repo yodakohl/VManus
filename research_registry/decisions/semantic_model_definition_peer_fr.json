@@ -1,0 +1,534 @@
+{
+  "review_id": "SEMANTIC_MODEL_DEFINITION_PEER_FR",
+  "status": "APPROVE_ONE_SAME_ID_COMPLETION_TWO_RETAINS_WITH_REASSESSMENT_SCHEMA_FIX",
+  "input": {
+    "path": "research_registry/decisions/semantic_model_definition_review_fr.json",
+    "sha256": "de918fe04a6e05616c4fd11f49a2bd844e96bc63d735e486e0e0e87d545f894b"
+  },
+  "review_decisions": [
+    {
+      "target": "SEM:0e44f0a744d632a6948e",
+      "decision": "approve_same_ID_restate_scope",
+      "reason": "The original single case explicitly names the selected V55 R3 Stationskatalog in the report’s four-model comparison. The expanded statement supplies the definition of that uniquely named model: SELECT on P7/Z12/C8, LOCATE on an oriented spatial S28 address, and READ/execute keyed by a complete local ordered entry. These are not newly combined independent theories or a fourth diagram machine. The f69 whole-entry repeat constraint is preserved without exporting a free okeod word gloss; LONG/SHORT remains layout, not semantic polarity. The proposed statement correctly disallows automatic equal-index joining and keeps a conventional learned key only as a possibility. Selection is an authored working preference, not evidence that the diagram meanings or operations were identified.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v55/V55_R3_TECHNICAL_CIRCLE_REPORT.md",
+          "line": 7,
+          "line_end": 21,
+          "quote": "## Ergebnis\n\nDie drei Diagramme arbeiten am sparsamsten als **drei lokale\nNachschlageinstrumente mit getrennten Namensräumen**:\n\n```text\nf67r2  SELECT(P7, Z12, C8) -> lokaler Tabellenwert\nf68r1  LOCATE(CENTER, ANCHOR, plotted_position) -> räumlicher S28-Schlüssel\nf69v   READ(ordered_position, exact_complete_entry) -> lokale technische Regel\n```\n\nDiese Notation ist ausführbar, ohne einem sichtbaren Wort „Planet“, „Körper“,\n„Mondstation“, „Bad“ oder „Monat“ zuzuschreiben. Diagrammrolle, Slotadresse und\nInhalt bleiben getrennt. Die drei vollständigen Regeln stehen in\n`V55_R3_THREE_DIAGRAM_TECHNICAL_SUMMARIES.tsv`.",
+          "sha256": "10d11352bec2f4116b5e8027c38352e6e9a7ca86855ddce11cf4ecf5fb9cb32c"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v55/V55_R3_TECHNICAL_CIRCLE_REPORT.md",
+          "line": 40,
+          "line_end": 79,
+          "quote": "## Die drei Maschinen\n\n### f67r2: 7×12-Wahltafel\n\nDie zwölf Loci 1–12 bilden `Z12[01..12]`; ihr erstes Gruppenstück ist der\nSlotkopf, die übrigen Stücke vervollständigen seine lokale Beschriftung. Die\nsieben Schlüsselplätze liegen an den Loci 15, 22, 28, 31, 34, 37 und 47 und\nheißen neutral `P7[01..07]`. Die Loci 52–63 liefern ein zweites\nZwölferinventar `VALUE[Z12]`. Die acht zentralen Plätze 64–71 werden als\nseparate Bedingungen `C8[01..08]` geführt, nicht heimlich in das Siebenerdeck\neingerechnet.\n\nAusführung:\n\n```text\np := choose(P7)\nz := choose(Z12)\nc := active(C8)\nresult := lookup(p, z, c, VALUE[z])\nreturn result under local rubric\n```\n\nDas ist eine technische 7×12-Wahltafel. Die medizinische Melothesie-Lesung\nbleibt ein sinnvoller Inhaltsrivale, ist aber keine Kartenübersetzung.\n\n### f68r1: Zentrum plus 28 räumliche Adressen\n\nLoci 1–4 sind Bedienrubrik, 5–7 drei Orientierungsanker, Locus 8 das Zentrum,\nLoci 9–36 genau 28 geplottete Ein-Gruppen-Adressen und Locus 37 eine\nfünfteilige Zentrallegende.\n\n```text\nframe := orient(CENTER, ANCHOR[1..3])\ns := choose_visible_plotted_position(frame)\nreturn SPATIAL[s]\n```\n\n`s=01..28` ist nur eine editorische Adresse. Ohne sichtbaren Start und ohne\nRichtung wird kein Kreisumlauf erfunden. f68 ist damit ein räumlicher Katalog,\nnicht von selbst ein Kalender.",
+          "sha256": "10d11352bec2f4116b5e8027c38352e6e9a7ca86855ddce11cf4ecf5fb9cb32c"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v55/V55_R3_TECHNICAL_CIRCLE_REPORT.md",
+          "line": 81,
+          "line_end": 126,
+          "quote": "### f69v: geordneter 28er-Regelkatalog\n\nDie drei äußeren Bänder bleiben Bedienrubrik. Loci 4–31 sind 28 geordnete\nSlots. Der Slot liefert die Adresse; der vollständige ein- oder zweiteilige\nEintrag liefert eine registerlokale `RULE_ID`.\n\n```text\ni := choose_ordered_slot(1..28)\nentry := concatenate(all visible groups at slot i)\nrule := exact_entry_lookup(entry)\nexecute(rule)\n```\n\nDie im TSV ausgeschriebene technische Palette ist eine konkrete\nWerkstatt-Defaultwelt aus Freigeben, Sperren, Spülen, Zuführen, Ablassen,\nTemperieren, Filtern und Halten. Diese Handlungen sind lokale Expansionen des\nganzen Slots, keine Wörterbuchwerte der Einzelgruppen.\n\nDer vollständige Eintrag `okeod` steht an den Arbeitsplätzen 11, 15 und 24 und\nerhält dreimal denselben Default „Beckenlauf freigeben“. Damit bleibt V22s\nIdentitätskorrektur erhalten: LONG/LONG/SHORT kann nicht „günstig/günstig/\nungünstig“ oder irgendeine feste Polarität bedeuten. LONG/SHORT ist nur\nLayoutkapazität.\n\n## Direkter f68↔f69-Test\n\nEine indexweise Verbindung ist mechanisch formulierbar, aber nicht lizenziert:\n\n- beide Inventare besitzen 28 Slots;\n- f68 besitzt 28 einteilige räumliche Labels, f69 33 Gruppen in 28 Regeln;\n- unter den 28 möglichen Gleichindexpaaren gibt es **0 exakte\n  Vollflächenübereinstimmungen**;\n- auch über alle 28×28 Kombinationen gibt es **0 exakte\n  Vollflächenübereinstimmungen**;\n- f68 besitzt keinen festgestellten Autorenstart und keine festgestellte\n  Richtung.\n\nDeshalb gilt:\n\n```text\nJOIN(F68.SPATIAL[s], F69.ORDERED[s]) = UNLICENSED\n```\n\nEin erlernter konventioneller Index könnte beide Instrumente verbinden. Bis\nein sichtbarer oder externer Schlüssel vorliegt, werden sie als zwei getrennte\n28er-Werkzeuge benutzt.",
+          "sha256": "10d11352bec2f4116b5e8027c38352e6e9a7ca86855ddce11cf4ecf5fb9cb32c"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v55/V55_R3_TECHNICAL_CIRCLE_REPORT.md",
+          "line": 128,
+          "line_end": 159,
+          "quote": "## Fairer Modellvergleich\n\n| Modell | Gewinn | stärkster Verlust |\n|---|---|---|\n| Kalender | erklärt 7/12/28 als gewöhnliche astronomische Kardinalitäten | identifiziert weder Datum noch Phase, Start oder Richtung |\n| medizinische Wahltafel | verbindet 7×12 und 28 historisch plausibel mit Wahlzeit und Körper-/Behandlungsregeln | keine Gruppe bezeichnet unabhängig Körperteil, Leiden oder Behandlung |\n| Stationskatalog | liefert die klarste ausführbare Adress-/Lookup-Notation und respektiert lokale Namensräume | Stations- und Bedieninhalt bleibt kreativ ergänzt |\n| Musterbuch | erklärt Kopierform, Mehrgruppenlabels, Ringe und Wiederholung mit minimaler Semantik | erklärt nicht, warum oder wie ein Benutzer eine Auswahl ausführt |\n\nDer **Stations-/Lookup-Katalog** gewinnt für R3. Die medizinische Wahltafel ist\nder stärkste Inhaltsrivale; das Musterbuch ist der stärkste konservative Null.\nEin Kalender bleibt als Quellenfamilie möglich, aber nicht als gelesene Skala.\n\n## Revision gegenüber der bisherigen Kreisfassung\n\n- Die V16/V22-Vollabdeckung und alle sichtbaren Reihenfolgen bleiben erhalten.\n- Medizinische oder kalendarische Wörter werden aus den Einzelgruppen\n  entfernt und nur noch als konkurrierende ganze Diagrammwelten geführt.\n- f67 trennt sieben Schlüsselplätze, zwölf Auswahlplätze, zwölf Werte und acht\n  Zentralbedingungen, statt benachbarte Inventare still zusammenzuwerfen.\n- f68 behält Zentrum plus 28 räumliche Labels ohne erfundenen Zyklusstart.\n- f69 bindet Regeln an vollständige Eintragsidentität; Positionsparität erhält\n  keinen Inhalt.\n- Die f68↔f69-Paarung wird nicht aus gleicher Kardinalität erzwungen.\n\n## Stärkster Gesamtwiderspruch\n\nEine Slotmaschine kann jede opake Gruppe als Adress- oder Regelfragment führen,\nohne ihren Inhalt zu kennen. Vollständigkeit beweist deshalb gerade keine\nSemantik. V55 liefert eine saubere, lernbare technische Benutzungsweise für\n395/395 Gruppen; Kalender, medizinische Wahltafel, Stationskatalog und\nMusterbuch bleiben mit denselben Oberflächen weitgehend unterbestimmt.",
+          "sha256": "10d11352bec2f4116b5e8027c38352e6e9a7ca86855ddce11cf4ecf5fb9cb32c"
+        }
+      ]
+    },
+    {
+      "target": "SEM:3356423eae56d2715759",
+      "decision": "approve_retain",
+      "reason": "The target is the six-item prompt-deck assertion, not the whole illustrated-workshop model. Source lines21–26 explicitly separate shared prompts, register-local content and dual-action/closure cards. The latter two already have separate full cards. Replacing the target with the complete workshop theory or eleven expanded examples would change its assertion unit.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v42/V42_R1_WORKSHOP_MASTER_COMPLETE_EDITION.md",
+          "line": 3,
+          "line_end": 41,
+          "quote": "## Stellung\n\nIch lese die elf Prosarecords wie ein Lehrmeister einer kleinen\nmedizinisch-technischen Werkstatt um 1420. Die sichtbaren Gruppen sind gelernte\nKarten, nicht notwendig ausgesprochene Wörter. Felder beantworten lokale\nWerkstattfragen; Records ergeben Artikel oder Arbeitsgänge; physische Zeilen\nsind nur der verfügbare Schreibraum.\n\nDiese Edition ist ausdrücklich eine kreative Rücklesung der bisherigen\nSidequest-Defaults. Sie ist keine Entzifferung. Sie benutzt ausschließlich die\n135 bereits abgegrenzten V41-Felder und deren 381 V40-Kartenereignisse. Die\nKreis-/Astroseiten besitzen keine GDT327-Karten und gehören deshalb nicht zu\ndieser Elf-Record-Edition. Keine neue Seite, f84 oder f84r wurde geöffnet.\n\n## Lehrregel\n\nEin Lehrling erhält drei Dinge:\n\n1. ein gemeinsames Promptdeck (`MASS`, `VORANSATZ`, `AKTIVER POSTEN`,\n   `ARBEITSFLÜSSIGKEIT`, `BEREIT`, `ZIEL`);\n2. seiten- oder registereigene Inhaltskarten für Pflanzenteil, Medium,\n   Arbeitsschritt und Indikation;\n3. eine Schlusskarte, die zugleich den letzten Arbeitsschritt und das Ende\n   einer Zelle trägt.\n\nEr liest nicht stur Gruppe für Gruppe als deutschen Satz. Er füllt eine\nWerkstattfrage aus:\n\n```text\nlokaler Gegenstand\n  → Quelle/Maß/aktiver Posten\n  → Bearbeitung oder Anwendung\n  → Zustand/Ziel\n  → offener Anschluss oder inhaltstragender Abschluss\n```\n\nDie Edition gibt trotzdem jeder einzelnen Karte eine konkrete Defaultlesung.\nAlle 136 verschiedenen Defaults wurden ins Deutsche übertragen; keine Karte\nbleibt neutral.",
+          "sha256": "a2e9124d2253fb8f62fb024b35e3acb4b21a78489328e56f1903c1f698fe231a"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v42/V42_R1_WORKSHOP_MASTER_COMPLETE_EDITION.md",
+          "line": 220,
+          "line_end": 237,
+          "quote": "## R1-Entscheidung\n\nDie beste lehrbare Expansion ist keine elegante fortlaufende Geheimprosa,\nsondern ein **illustriertes medizinisches Werkstattformular**:\n\n```text\nHerbal:      Besitzerbild + 2..7 offene Artikelklauseln\nBiological:  Besitzer-/Stationsbild + kurze abgeschlossene Arbeitszellen\n```\n\nDie stärkste Revision gegenüber V30 ist die Satzebene. Die konkreten\nBedeutungen bleiben, aber häufige Karten werden als Fragen/Prompts gelesen und\ndie Records als Expansion mehrerer Felder. Das erklärt unmittelbare\nWiederholungen besser und ist für mehrere Schreiber leichter zu erlernen.\n\nDie maschinenlesbare Vollfassung steht in\n`V42_R1_ELEVEN_RECORD_EDITION.tsv`; `V42_R1_VALIDATION.json` bestätigt 11\nRecords, 135 Felder, 381 Ereignisse und null unübersetzte Defaults.",
+          "sha256": "a2e9124d2253fb8f62fb024b35e3acb4b21a78489328e56f1903c1f698fe231a"
+        }
+      ]
+    },
+    {
+      "target": "SEM:0db9f178f6f14392e121",
+      "decision": "approve_retain",
+      "reason": "The card states one actual historical bridge: diagrams schedule/select workshop work. Source19 explicitly proposes it and21–25 expressly says neither card nor complete field binds that bridge. The subsequent WORK_ORDER/operating-almanac expansion and final creative-model limitation preserve this as a genuine unsupported purpose hypothesis, not a validated use or mere software procedure. No complete hybrid model or other plant-material bridge is merged into it.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v58/V58_R3_NONMEDICAL_RIVAL_REPORT.md",
+          "line": 5,
+          "line_end": 25,
+          "quote": "## Ergebnis\n\nDer stärkste Rivale ist kein reines Wasserwerk, sondern:\n\n`ILLUSTRIERTES_PFLANZENROHSTOFF_UND_WASCHHAUSREGISTER_PLUS_EIGENSTAENDIGER_ARBEITSALMANACH`\n\nDas reine Wasserwerk erklärt die sechs Biological-Records unmittelbar, aber\nnur `6/14 = 42,9 %` der Record-/Diagrammeinheiten als Inhalt. Die fünf\nPflanzenbilder erzwingen ein Rohstoffregister, die drei Kreis-/Sternseiten ein\nAlmanachregister. Der Hybrid zahlt daher zwei zusätzliche Domänenschablonen\nund zwei nicht sichtbare Brücken:\n\n1. Die fünf Pflanzenlose liefern Wasch-, Färbe-, Duft-, Zurichtungs- oder\n   Bindemittel an den Bade-/Waschhausbetrieb.\n2. Die drei Diagramme terminieren oder wählen Werkstattarbeiten.\n\nKeine Karte und kein vollständiges Feld belegt eine dieser Brücken. Der Hybrid\nist dennoch der faire stärkste nichtmedizinische Kontrolltext, weil die\nBiological-Seiten einen wirklichen Apparate-/Auslasslayer besitzen und die\ngemeinsamen V56-Prompts generische Betriebsgrößen statt medizinischer Wörter\nsind.",
+          "sha256": "cdaca2d037ae1b1f6c9685000e051ec47c1e3dedf7294b53569c965f14070ffc"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v58/V58_R3_NONMEDICAL_RIVAL_REPORT.md",
+          "line": 63,
+          "line_end": 78,
+          "quote": "Erst ein registerlokales Betriebsbuch erweitert dies zum konkreten Ablauf:\n\n```text\nPflanzenmaterial:\n  ANNEHMEN > TRENNEN > AUSZIEHEN > DOSIEREN > LAGERN/AUSGEBEN\n\nBade-/Waschhaus:\n  CHARGE > BECKEN > TEMPERIEREN > LEITEN > KLÄREN > ABLASSEN > ÜBERGEBEN\n\nArbeitsalmanach:\n  ADRESSE WÄHLEN > LOKALEN WERT KOPIEREN > ARBEIT STARTEN/HALTEN/VERSCHIEBEN\n```\n\nDieser Weg ist deterministisch, sofern exakte Karten, Positionen und Layout\nschon im Exemplar stehen. Aus freier Werkstattprosa allein ist er ebenso wenig\ndeterministisch wie die medizinische Lesung.",
+          "sha256": "cdaca2d037ae1b1f6c9685000e051ec47c1e3dedf7294b53569c965f14070ffc"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v58/V58_R3_NONMEDICAL_RIVAL_REPORT.md",
+          "line": 112,
+          "line_end": 118,
+          "quote": "### Astro\n\nDie Diagrammarchitektur wird nicht umgedeutet: f67r2 bleibt ein 7/12-Selektor,\nf68r1 ein räumliches Zentrum-plus-28-Verzeichnis ohne Start oder Richtung und\nf69v ein geordneter 28er-Regelkatalog. Nur der **Anwendungszweck** wird\nnichtmedizinisch als Arbeitsalmanach gesetzt. Das kostet drei lokale\nInhaltsannahmen. Eine direkte f68r1↔f69v-Zuordnung bleibt verboten.",
+          "sha256": "cdaca2d037ae1b1f6c9685000e051ec47c1e3dedf7294b53569c965f14070ffc"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v58/V58_R3_NONMEDICAL_RIVAL_REPORT.md",
+          "line": 129,
+          "line_end": 149,
+          "quote": "Auf acht vorab genannten Kriterien erhält der Rivale `10/16`, die ausgewählte\niatromedizinische Theorie `12/16`. Die Punktzahl ist ein transparentes\nArbeitsurteil, kein statistischer Test.\n\nWichtige Gleichstände:\n\n- Beide bewahren 381 Prosaereignisse und 395 Astro-Gruppen.\n- Beide besitzen nur 45/381 harte Prompt-Ereignisse und 145/381 ausgewählte\n  schwache/formale Annotationen.\n- Bei beiden liegen 162/173 Prosa-Kartentypen außerhalb des elfteiligen\n  Brückendecks.\n- Beide brauchen Bildbesitzer, lokale Exemplare und zwei unbelegte\n  registerübergreifende Inhaltsbrücken.\n- Beide sind nur als beaufsichtigte Exemplarlehre lernbar.\n\nGezählte lokale Inhaltsausnahmen des Rivalen: acht — fünf individuelle\nHerbal-Endprodukte und drei Arbeitsalmanach-Funktionen. Die sechs Bio-Records\nbenötigen dagegen nur eine wiederverwendbare Anlagenregel. Die Medizinseite\nhat mindestens dieselbe Größenordnung: fünf lokale Arznei-/Anwendungsartikel\nund drei Astro-Funktionen; ihre Bio-Schicht bleibt ein gemischtes\nPatienten-/Apparateregister.",
+          "sha256": "cdaca2d037ae1b1f6c9685000e051ec47c1e3dedf7294b53569c965f14070ffc"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v58/V58_R3_NONMEDICAL_RIVAL_REPORT.md",
+          "line": 164,
+          "line_end": 179,
+          "quote": "## Entscheidung\n\n`PURE_WATERWORK_WITHDRAWN`\n\n`NONMEDICAL_HYBRID_RETAIN_AS_STRONGEST_CONTROL`\n\n`IATROMEDICAL_THEORY_RETAINS_NARROW_OVERALL_LEAD`\n\nDer nichtmedizinische Rivale gewinnt die Biological-Schicht und zeigt, dass\ndie gemeinsame Kartenkontrolle keinerlei Medizin erzwingt. Er gewinnt die\nzehn Seiten insgesamt nicht: Er reduziert weder opake Karten noch stille\nArgumente, und seine Pflanzenprodukte sowie der Werkstattalmanach benötigen\nmehrere unbelegte Zwecke. Die schärfste künftige Trennung wäre ein externer,\nunabhängig ausgewählter Referent für **einen** Pflanzenendzweck oder **eine**\nAstro-Regel; ohne ihn bleiben beide vollständigen Texte kreative\nmeisterseitige Expansionen.",
+          "sha256": "cdaca2d037ae1b1f6c9685000e051ec47c1e3dedf7294b53569c965f14070ffc"
+        }
+      ]
+    }
+  ],
+  "counterpart_reviews": [
+    {
+      "target": "SEM:54c62ce116e3f88f714c",
+      "decision": "approve_separate_existing_assertion",
+      "reason": "Explicit distinct clause of V42 teaching rule: local content domains or the dual meaning/closure function. Neither is identical to the shared six-role prompt inventory.",
+      "evidence": [
+        {
+          "line": 23,
+          "path": "experiments/yolo/sidequest_theory_candidates_v42/V42_R1_WORKSHOP_MASTER_COMPLETE_EDITION.md",
+          "quote": "2. seiten- oder registereigene Inhaltskarten für Pflanzenteil, Medium,\n   Arbeitsschritt und Indikation;",
+          "sha256": "a2e9124d2253fb8f62fb024b35e3acb4b21a78489328e56f1903c1f698fe231a"
+        }
+      ]
+    },
+    {
+      "target": "SEM:bcf2c5215add1296fa43",
+      "decision": "approve_separate_existing_assertion",
+      "reason": "Explicit distinct clause of V42 teaching rule: local content domains or the dual meaning/closure function. Neither is identical to the shared six-role prompt inventory.",
+      "evidence": [
+        {
+          "line": 25,
+          "path": "experiments/yolo/sidequest_theory_candidates_v42/V42_R1_WORKSHOP_MASTER_COMPLETE_EDITION.md",
+          "quote": "3. eine Schlusskarte, die zugleich den letzten Arbeitsschritt und das Ende\n   einer Zelle trägt.",
+          "sha256": "a2e9124d2253fb8f62fb024b35e3acb4b21a78489328e56f1903c1f698fe231a"
+        },
+        {
+          "line": 28,
+          "path": "experiments/yolo/sidequest_theory_candidates_v42/V42_R1_WORKSHOP_MASTER_COMPLETE_EDITION.md",
+          "quote": "Er liest nicht stur Gruppe für Gruppe als deutschen Satz. Er füllt eine\nWerkstattfrage aus:",
+          "sha256": "a2e9124d2253fb8f62fb024b35e3acb4b21a78489328e56f1903c1f698fe231a"
+        },
+        {
+          "line": 39,
+          "path": "experiments/yolo/sidequest_theory_candidates_v42/V42_R1_WORKSHOP_MASTER_COMPLETE_EDITION.md",
+          "quote": "Die Edition gibt trotzdem jeder einzelnen Karte eine konkrete Defaultlesung.\nAlle 136 verschiedenen Defaults wurden ins Deutsche übertragen; keine Karte\nbleibt neutral.",
+          "sha256": "a2e9124d2253fb8f62fb024b35e3acb4b21a78489328e56f1903c1f698fe231a"
+        }
+      ]
+    },
+    {
+      "target": "SEM:c4ac17162e8a5e920706",
+      "decision": "approve_separate_existing_assertion",
+      "reason": "Explicit separate row of the V55 fair model comparison. Calendar, copying-pattern book and medical election table remain independent historical rival interpretations, not definitions to absorb into the selected stations/lookup catalogue.",
+      "evidence": [
+        {
+          "line": 132,
+          "path": "experiments/yolo/sidequest_theory_candidates_v55/V55_R3_TECHNICAL_CIRCLE_REPORT.md",
+          "quote": "| Kalender | erklärt 7/12/28 als gewöhnliche astronomische Kardinalitäten | identifiziert weder Datum noch Phase, Start oder Richtung |",
+          "sha256": "10d11352bec2f4116b5e8027c38352e6e9a7ca86855ddce11cf4ecf5fb9cb32c"
+        }
+      ]
+    },
+    {
+      "target": "SEM:cec56d5f2f1a7b7a5abb",
+      "decision": "approve_separate_existing_assertion",
+      "reason": "Explicit separate row of the V55 fair model comparison. Calendar, copying-pattern book and medical election table remain independent historical rival interpretations, not definitions to absorb into the selected stations/lookup catalogue.",
+      "evidence": [
+        {
+          "line": 135,
+          "path": "experiments/yolo/sidequest_theory_candidates_v55/V55_R3_TECHNICAL_CIRCLE_REPORT.md",
+          "quote": "| Musterbuch | erklärt Kopierform, Mehrgruppenlabels, Ringe und Wiederholung mit minimaler Semantik | erklärt nicht, warum oder wie ein Benutzer eine Auswahl ausführt |",
+          "sha256": "10d11352bec2f4116b5e8027c38352e6e9a7ca86855ddce11cf4ecf5fb9cb32c"
+        }
+      ]
+    },
+    {
+      "target": "SEM:ec4e951788cdcecf6c99",
+      "decision": "approve_separate_existing_assertion",
+      "reason": "Explicit separate row of the V55 fair model comparison. Calendar, copying-pattern book and medical election table remain independent historical rival interpretations, not definitions to absorb into the selected stations/lookup catalogue.",
+      "evidence": [
+        {
+          "line": 133,
+          "path": "experiments/yolo/sidequest_theory_candidates_v55/V55_R3_TECHNICAL_CIRCLE_REPORT.md",
+          "quote": "| medizinische Wahltafel | verbindet 7×12 und 28 historisch plausibel mit Wahlzeit und Körper-/Behandlungsregeln | keine Gruppe bezeichnet unabhängig Körperteil, Leiden oder Behandlung |",
+          "sha256": "10d11352bec2f4116b5e8027c38352e6e9a7ca86855ddce11cf4ecf5fb9cb32c"
+        }
+      ]
+    }
+  ],
+  "current_card_bindings": [
+    {
+      "id": "SEM:0e44f0a744d632a6948e",
+      "claim": "Die Kreisdiagramme sind ein Stationskatalog mit Adressen und Nachschlagfunktion.",
+      "claim_type": "semantic_model",
+      "case_ids": [
+        "MID-SEM:ca59c0f0b4061ee6d64e"
+      ],
+      "card_basis": "8db57b3889390a443e8790304ddf001a415e6e3a7fae90c5c470b8cca4e54e83",
+      "effective_basis": "9e36590c646540818654ab58e83f78c07e11a417f752fb7f117b2500d912b82b"
+    },
+    {
+      "id": "SEM:3356423eae56d2715759",
+      "claim": "Die Prosarecords benutzen ein gemeinsames Promptdeck für Maß, Voransatz, aktiven Posten, Arbeitsflüssigkeit, Bereitschaft und Ziel.",
+      "claim_type": "semantic_model",
+      "case_ids": [
+        "MID-SEM:2dfe2ea676aff0bf93c8"
+      ],
+      "card_basis": "7b637923d612952dd3fcf6257628eb7f436f1e153f4e56fd03b37d89241364a6",
+      "effective_basis": "4b8773215b1b8e6c0bf9858b7a8822e0e1ff93cad8ebcac20679d4d42c2b3c6f"
+    },
+    {
+      "id": "SEM:0db9f178f6f14392e121",
+      "claim": "Die drei Diagramme terminieren oder wählen Werkstattarbeiten.",
+      "claim_type": "semantic_model",
+      "case_ids": [
+        "MID-SEM:a66a90eeca60d15dac8d"
+      ],
+      "card_basis": "cf5a5ff5665d8d37a9fd753c11ebac07eec2314d27db525315c5d4cfd07b3175",
+      "effective_basis": "89ec0c8b28b144ee5f09ae940d27d86950f3896328bd7410a37edaa572320751"
+    },
+    {
+      "id": "SEM:54c62ce116e3f88f714c",
+      "claim": "Registerlokale Inhaltskarten kodieren Pflanzenteile, Medien, Arbeitsschritte und Indikationen.",
+      "claim_type": "semantic_model",
+      "case_ids": [
+        "MID-SEM:effa7c3f070980ccc744"
+      ],
+      "card_basis": "20e43add622130d33f332c6d15261dbb2c1458a1c55862ec4af09687ff55a67f",
+      "effective_basis": "e2782899e0cd20c18c5168648161eb95ebc92b4f2cb98edd62e704c421e55dfc"
+    },
+    {
+      "id": "SEM:bcf2c5215add1296fa43",
+      "claim": "Die Schlusskarte trägt zugleich den letzten Arbeitsschritt und den Abschluss einer Zelle.",
+      "claim_type": "semantic_model",
+      "case_ids": [
+        "MID-SEM:b10e560c0c7d85bac5cc"
+      ],
+      "card_basis": "bc7aa04ba8613bb5fd7ddf31df72f29fac693ba15325d6e2c62bc06e73d394a2",
+      "effective_basis": "52ab55d69fdd8c7e1b997eacb20ee19093ffa96e9a73622f52fdd54b19edb908"
+    },
+    {
+      "id": "SEM:c4ac17162e8a5e920706",
+      "claim": "Die Kreisdiagramme sind Kalender mit astronomischen 7/12/28-Kardinalitäten.",
+      "claim_type": "semantic_model",
+      "case_ids": [
+        "MID-SEM:aafe25394628141f4adc"
+      ],
+      "card_basis": "0522961ebb388bbf9bb58c2984dd6808fbde4d054c2734ff487d7d84da0d604a",
+      "effective_basis": "b612890c65b7c98c6f826d9e7051764021b3f35254309b40e3a1b26a1d8dce6a"
+    },
+    {
+      "id": "SEM:cec56d5f2f1a7b7a5abb",
+      "claim": "Die Kreisdiagramme bilden ein Kopiermusterbuch statt eines semantisch bestimmten Kalenders.",
+      "claim_type": "semantic_model",
+      "case_ids": [
+        "MID-SEM:dc398b4633f5c821a52a"
+      ],
+      "card_basis": "a596f6b33795ecb293dc9fb0e691cffca69b1af584a7309f0de3c2f56e7c9bea",
+      "effective_basis": "ffae933012187d50de066d249b772fb513993a5c5da45e22aa9e4b07ca45071e"
+    },
+    {
+      "id": "SEM:ec4e951788cdcecf6c99",
+      "claim": "Die Kreisdiagramme bilden eine medizinische Wahltafel für Zeit, Körper und Behandlung.",
+      "claim_type": "semantic_model",
+      "case_ids": [
+        "MID-SEM:bca5f5d40e86abd06c00"
+      ],
+      "card_basis": "4e202702a3a87a12325b5c95f2663b5199825567c551fed5d329b27bc75dbf3b",
+      "effective_basis": "c34847fb1b392f732b098c5a46876cb1ebb1b9e7105683e10383901ea865482f"
+    }
+  ],
+  "source_reassessment_reviews": [
+    {
+      "source_id": "LEGACY_PROPOSAL:539b4ca2f9ddbcd2f39490f3",
+      "decision": "approve_existing_source_reassessment_after_schema_fix",
+      "original_intake": {
+        "source_id": "LEGACY_PROPOSAL:539b4ca2f9ddbcd2f39490f3",
+        "decision": "concrete_claims_retained",
+        "reason": "Fragment states a concrete proposed mapping, record interpretation or book/function model; retained with exact source evidence, not confirmed.",
+        "card_ids": [
+          "MID-SEM:ca59c0f0b4061ee6d64e"
+        ],
+        "evidence": [
+          {
+            "path": "experiments/yolo/sidequest_theory_candidates_v55/V55_R3_TECHNICAL_CIRCLE_REPORT.md",
+            "line": 134,
+            "sha256": "10d11352bec2f4116b5e8027c38352e6e9a7ca86855ddce11cf4ecf5fb9cb32c"
+          }
+        ]
+      },
+      "original_intake_path": "research_registry/decisions/clean_middle_sidequest_review.json",
+      "required_change": {
+        "card_ids": []
+      },
+      "counterpart_ids": [
+        "SEM:0e44f0a744d632a6948e"
+      ],
+      "reason": "Existing initial disposition already preserves the current source case. This follow-up refines or verifies that assertion; no new card/case is created. Preserve original intake and keep counterpart navigation separate from new card links."
+    },
+    {
+      "source_id": "LEGACY_PROPOSAL:763cf634075e5f5068f51bed",
+      "decision": "approve_existing_source_reassessment_after_schema_fix",
+      "original_intake": {
+        "source_id": "LEGACY_PROPOSAL:763cf634075e5f5068f51bed",
+        "decision": "concrete_claims_retained",
+        "reason": "Fragment states a concrete proposed mapping, record interpretation or book/function model; retained with exact source evidence, not confirmed.",
+        "card_ids": [
+          "MID-SEM:2dfe2ea676aff0bf93c8"
+        ],
+        "evidence": [
+          {
+            "path": "experiments/yolo/sidequest_theory_candidates_v42/V42_R1_WORKSHOP_MASTER_COMPLETE_EDITION.md",
+            "line": 21,
+            "sha256": "a2e9124d2253fb8f62fb024b35e3acb4b21a78489328e56f1903c1f698fe231a"
+          }
+        ]
+      },
+      "original_intake_path": "research_registry/decisions/clean_middle_sidequest_review.json",
+      "required_change": {
+        "card_ids": []
+      },
+      "counterpart_ids": [
+        "SEM:3356423eae56d2715759",
+        "SEM:54c62ce116e3f88f714c",
+        "SEM:bcf2c5215add1296fa43"
+      ],
+      "reason": "Existing initial disposition already preserves the current source case. This follow-up refines or verifies that assertion; no new card/case is created. Preserve original intake and keep counterpart navigation separate from new card links."
+    },
+    {
+      "source_id": "LEGACY_PROPOSAL:cc46f504d17f595116116587",
+      "decision": "approve_existing_source_reassessment_after_schema_fix",
+      "original_intake": {
+        "source_id": "LEGACY_PROPOSAL:cc46f504d17f595116116587",
+        "decision": "concrete_claims_retained",
+        "reason": "Fragment states a concrete proposed mapping, record interpretation or book/function model; retained with exact source evidence, not confirmed.",
+        "card_ids": [
+          "MID-SEM:a66a90eeca60d15dac8d"
+        ],
+        "evidence": [
+          {
+            "path": "experiments/yolo/sidequest_theory_candidates_v58/V58_R3_NONMEDICAL_RIVAL_REPORT.md",
+            "line": 19,
+            "sha256": "cdaca2d037ae1b1f6c9685000e051ec47c1e3dedf7294b53569c965f14070ffc"
+          }
+        ]
+      },
+      "original_intake_path": "research_registry/decisions/clean_middle_sidequest_review.json",
+      "required_change": {
+        "card_ids": []
+      },
+      "counterpart_ids": [
+        "SEM:0db9f178f6f14392e121"
+      ],
+      "reason": "Existing initial disposition already preserves the current source case. This follow-up refines or verifies that assertion; no new card/case is created. Preserve original intake and keep counterpart navigation separate from new card links."
+    },
+    {
+      "source_id": "LEGACY_PROPOSAL:dcfa2256f342cde3aad55696",
+      "decision": "approve_existing_source_reassessment_after_schema_fix",
+      "original_intake": {
+        "source_id": "LEGACY_PROPOSAL:dcfa2256f342cde3aad55696",
+        "decision": "concrete_claims_retained",
+        "reason": "Fragment states a concrete proposed mapping, record interpretation or book/function model; retained with exact source evidence, not confirmed.",
+        "card_ids": [
+          "MID-SEM:effa7c3f070980ccc744"
+        ],
+        "evidence": [
+          {
+            "path": "experiments/yolo/sidequest_theory_candidates_v42/V42_R1_WORKSHOP_MASTER_COMPLETE_EDITION.md",
+            "line": 23,
+            "sha256": "a2e9124d2253fb8f62fb024b35e3acb4b21a78489328e56f1903c1f698fe231a"
+          }
+        ]
+      },
+      "original_intake_path": "research_registry/decisions/clean_middle_sidequest_review.json",
+      "required_change": {
+        "card_ids": []
+      },
+      "counterpart_ids": [
+        "SEM:54c62ce116e3f88f714c"
+      ],
+      "reason": "Existing initial disposition already preserves the current source case. This follow-up refines or verifies that assertion; no new card/case is created. Preserve original intake and keep counterpart navigation separate from new card links."
+    },
+    {
+      "source_id": "LEGACY_PROPOSAL:7256de52c5a463d140129ad1",
+      "decision": "approve_existing_source_reassessment_after_schema_fix",
+      "original_intake": {
+        "source_id": "LEGACY_PROPOSAL:7256de52c5a463d140129ad1",
+        "decision": "concrete_claims_retained",
+        "reason": "Fragment states a concrete proposed mapping, record interpretation or book/function model; retained with exact source evidence, not confirmed.",
+        "card_ids": [
+          "MID-SEM:b10e560c0c7d85bac5cc"
+        ],
+        "evidence": [
+          {
+            "path": "experiments/yolo/sidequest_theory_candidates_v42/V42_R1_WORKSHOP_MASTER_COMPLETE_EDITION.md",
+            "line": 25,
+            "sha256": "a2e9124d2253fb8f62fb024b35e3acb4b21a78489328e56f1903c1f698fe231a"
+          }
+        ]
+      },
+      "original_intake_path": "research_registry/decisions/clean_middle_sidequest_review.json",
+      "required_change": {
+        "card_ids": []
+      },
+      "counterpart_ids": [
+        "SEM:bcf2c5215add1296fa43"
+      ],
+      "reason": "Existing initial disposition already preserves the current source case. This follow-up refines or verifies that assertion; no new card/case is created. Preserve original intake and keep counterpart navigation separate from new card links."
+    },
+    {
+      "source_id": "LEGACY_PROPOSAL:5a13051c19bd9fac9608dc50",
+      "decision": "approve_existing_source_reassessment_after_schema_fix",
+      "original_intake": {
+        "source_id": "LEGACY_PROPOSAL:5a13051c19bd9fac9608dc50",
+        "decision": "concrete_claims_retained",
+        "reason": "Fragment states a concrete proposed mapping, record interpretation or book/function model; retained with exact source evidence, not confirmed.",
+        "card_ids": [
+          "MID-SEM:aafe25394628141f4adc"
+        ],
+        "evidence": [
+          {
+            "path": "experiments/yolo/sidequest_theory_candidates_v55/V55_R3_TECHNICAL_CIRCLE_REPORT.md",
+            "line": 132,
+            "sha256": "10d11352bec2f4116b5e8027c38352e6e9a7ca86855ddce11cf4ecf5fb9cb32c"
+          }
+        ]
+      },
+      "original_intake_path": "research_registry/decisions/clean_middle_sidequest_review.json",
+      "required_change": {
+        "card_ids": []
+      },
+      "counterpart_ids": [
+        "SEM:c4ac17162e8a5e920706"
+      ],
+      "reason": "Existing initial disposition already preserves the current source case. This follow-up refines or verifies that assertion; no new card/case is created. Preserve original intake and keep counterpart navigation separate from new card links."
+    },
+    {
+      "source_id": "LEGACY_PROPOSAL:a9f983b47d60d3503088508a",
+      "decision": "approve_existing_source_reassessment_after_schema_fix",
+      "original_intake": {
+        "source_id": "LEGACY_PROPOSAL:a9f983b47d60d3503088508a",
+        "decision": "concrete_claims_retained",
+        "reason": "Fragment states a concrete proposed mapping, record interpretation or book/function model; retained with exact source evidence, not confirmed.",
+        "card_ids": [
+          "MID-SEM:dc398b4633f5c821a52a"
+        ],
+        "evidence": [
+          {
+            "path": "experiments/yolo/sidequest_theory_candidates_v55/V55_R3_TECHNICAL_CIRCLE_REPORT.md",
+            "line": 135,
+            "sha256": "10d11352bec2f4116b5e8027c38352e6e9a7ca86855ddce11cf4ecf5fb9cb32c"
+          }
+        ]
+      },
+      "original_intake_path": "research_registry/decisions/clean_middle_sidequest_review.json",
+      "required_change": {
+        "card_ids": []
+      },
+      "counterpart_ids": [
+        "SEM:cec56d5f2f1a7b7a5abb"
+      ],
+      "reason": "Existing initial disposition already preserves the current source case. This follow-up refines or verifies that assertion; no new card/case is created. Preserve original intake and keep counterpart navigation separate from new card links."
+    },
+    {
+      "source_id": "LEGACY_PROPOSAL:5205f23b07d4fe90f2671e22",
+      "decision": "approve_existing_source_reassessment_after_schema_fix",
+      "original_intake": {
+        "source_id": "LEGACY_PROPOSAL:5205f23b07d4fe90f2671e22",
+        "decision": "concrete_claims_retained",
+        "reason": "Fragment states a concrete proposed mapping, record interpretation or book/function model; retained with exact source evidence, not confirmed.",
+        "card_ids": [
+          "MID-SEM:bca5f5d40e86abd06c00"
+        ],
+        "evidence": [
+          {
+            "path": "experiments/yolo/sidequest_theory_candidates_v55/V55_R3_TECHNICAL_CIRCLE_REPORT.md",
+            "line": 133,
+            "sha256": "10d11352bec2f4116b5e8027c38352e6e9a7ca86855ddce11cf4ecf5fb9cb32c"
+          }
+        ]
+      },
+      "original_intake_path": "research_registry/decisions/clean_middle_sidequest_review.json",
+      "required_change": {
+        "card_ids": []
+      },
+      "counterpart_ids": [
+        "SEM:ec4e951788cdcecf6c99"
+      ],
+      "reason": "Existing initial disposition already preserves the current source case. This follow-up refines or verifies that assertion; no new card/case is created. Preserve original intake and keep counterpart navigation separate from new card links."
+    }
+  ],
+  "required_fixes": [
+    {
+      "scope": "all eight source_reassessments",
+      "change": "Add card_ids: [] in the derived integration packet. new_card_ids: [] may remain descriptive metadata but is not a replacement for the canonical field.",
+      "reason": "No new accepted cards or source cases are being created. Existing SEM IDs belong in counterpart_ids, not new card_ids. Preserve producer raw bytes."
+    }
+  ],
+  "counts": {
+    "selected_card_reviews": 3,
+    "same_ID_completions_approved": 1,
+    "retains_approved": 2,
+    "counterpart_assertions_checked": 5,
+    "current_card_cases_checked": 8,
+    "unique_reassessment_source_ids": 8,
+    "new_cards": 0,
+    "new_cases": 0,
+    "primary_evidence_blocks_exactly_validated": 18
+  },
+  "primary_read_scope": [
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v55/V55_R3_TECHNICAL_CIRCLE_REPORT.md",
+      "extent": "full1–159 report, including 3 namespaces, entry rule, unlicensed join and all four model rows"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v42/V42_R1_WORKSHOP_MASTER_COMPLETE_EDITION.md",
+      "extent": "defining prose1–45 and200–237; eleven intervening creative record examples not individually re-reviewed"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v58/V58_R3_NONMEDICAL_RIVAL_REPORT.md",
+      "extent": "full1–182 report; final168–182 reread after output truncation"
+    }
+  ],
+  "validation": {
+    "fresh_card_and_effective_bases": "PASS",
+    "exact_primary_quotes_sha256_and_line_ends": "PASS",
+    "existing_initial_disposition_and_current_cases": "PASS",
+    "schema": "FIX_REQUIRED_card_ids_empty_on_8_rows",
+    "operative_mutations": 0
+  },
+  "limits": [
+    "Three substantive target assertions plus five direct counterparts only; producer40 metadata candidates are not forty primary judgments.",
+    "No full-family or full-V42 record-example coverage claim. A report containing broader assertions is not declared exhausted.",
+    "Historical observations, group counts and executable completeness are source statements, not new visual inspection or independent semantic confirmation.",
+    "No raw/event tables, new images, web, new experiments, card/case creation or operational registry edits."
+  ]
+}

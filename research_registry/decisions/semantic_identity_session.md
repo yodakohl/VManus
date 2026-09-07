@@ -454,3 +454,22 @@ FJ–FN/FQ validation: current exact source/operative/source-preservation audits
 PASS,41 scoped questions and9 priorities remain unready. FQ uses existing
 recorded-decision vocabulary and full-selected-span markers; source-ID lookup
 returns the no-op rationale. No new card cases or source bytes changed.
+
+FO/FR/FP/FS/FW checkpoint: two same-ID model completions, one historical rival
+link and one directed source-contract specialization. FW11 reusable source
+receipts; no new cards/cases. Root completes FO training-example quote24–51;
+FR eight missing card_ids fixed in derived packet. I10→R04 is declared role
+requirement plus named narrower contract, not formula-only semantic implication.
+Expected199 restatements,51groups/60reductions,40otherrelations(31rivals,3
+specializations,6related),41scopedquestions,46identityinputs. FT/FU/FV pending.
+
+Publication scheduling correction: complete dependent metadata refresh→broad
+rebuild→clean rebuild before switching root into long primary reads. Short
+background commands had finished while dependent rebuild remained unstarted,
+leaving peers unnecessarily at the freshness guard. Await this short chain and
+notify peers immediately; preserve the guard, add no new infrastructure.
+
+FO/FR/FP/FS/FW validation: exact source, operative identity/failure/priority
+and source-preservation audits PASS;4118active3853semantic265formal,4639cases,
+199restatements,51groups/60reductions,40otherrelations,41dossiers,9unready
+priorities.46identity review inputs. No source event bodies or legacy bytes changed.

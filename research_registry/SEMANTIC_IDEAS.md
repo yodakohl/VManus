@@ -56,13 +56,13 @@ an atomic gloss does not cover a complete multi-card model.
 
 Whitespace and backtick typography alone are normalized for exact assertions.
 Explicit equivalence decisions add51 groups without deleting any original ID.
-The identity log also retains six related-but-distinct links,30 rival links and
-two specializations. Conflicting nonidentity blocks transitive merging; changed
+The identity log also retains six related-but-distinct links,31 rival links and
+three specializations. Conflicting nonidentity blocks transitive merging; changed
 claim or case bindings require a new review. Shared spelling, shortened wording
 or a matching source title alone proves neither identity nor nonidentity.
 
 Before selecting another identity comparison, consult `IDENTITY_REVIEW_INPUTS.json`
-and the current operative identity log. The manifest records forty-two hashed review
+and the current operative identity log. The manifest records forty-six hashed review
 inputs, including earlier proposal and peer formats missed by the narrower DO
 selection list. It is a bounded coverage receipt, not an automatic pair verdict.
 Update it when new identity reviews are added; distinguish an old recommendation
@@ -81,7 +81,7 @@ source/case counts belong to that representative; `group_scope_cases` counts all
 member cases. Open `--field equivalents` or `--field relations` for the others.
 No failure, success or execution permission propagates across an identity link.
 
-The append-only correction log currently archives44 erroneous exports and restates197
+The append-only correction log currently archives44 erroneous exports and restates199
 source assertions. Every original claim, case and quote remains retrievable,
 including via `--show ID` for archived cards. Numeric columns, alias-column
 misparses, unlicensed constituent exports and metadata are extraction errors;
@@ -124,18 +124,20 @@ Later full-scope reviews and audit-only source comparisons live in the bounded
 `decisions/clean_gap_review_*.json` artifacts. An audit pointer does not add a
 source-case payload. Quote overlap alone never certifies complete review.
 
-Latest integrated packet: FJ groups the two unchanged GDT814 G copula cases,
-with the complete shared contract and no GDT813/Q/R merge. FK/FN records V79's
-later formal-first ET/PER policy on the two existing V78 word hypotheses. R1's
-provisional retention and R2/selection's preference remain distinct. Successful
-copying of a stipulated edition is neither a lexical proof nor word refutation.
-The source-specific dossier adds no new manuscript model.
+Latest integrated packet: FO/FR completes existing named models under their
+original IDs: V39 R2's reference/execution chain and V55 R3's three separate
+local lookup systems. Learned/copying behaviour, station content and working
+palettes remain historical hypotheses. Equal inventory sizes do not license a
+diagram join; full surface coverage establishes no decoded content.
 
-FL/FM primary checks retain three actual hypotheses and decline redundant
-dossiers for three already explicit GDT648 cases. FQ exposes these six no-op
-reviews through source-ID reassessment receipts, without duplicate cases or
-status changes. FM's GDT636 boundary pointer is explicitly not a new primary
-review. A073/A004 mappings remain available but uninspected, not missing data.
+FP preserves an explicit amount-field versus unit-field rival pair. FS resolves
+the previously open pcheey comparison through pure authored definitions: the
+preparation/Form-II default explicitly requires and specializes the general R04
+field role. A stronger gate formula alone would not prove this relation; the
+named candidate and required role supply the source-contract bridge. I37's
+paste/salve/mixed-form candidate stays separate. No corpus test was rerun.
+FW makes eleven selected source audits reusable without extra card cases.
+A073/A004 mappings remain available but uninspected, not missing data.
 
 Before adding a fuller model card, check whether an existing short card already
 names that uniquely defined historical source model. Compare its complete case
