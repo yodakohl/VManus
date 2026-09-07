@@ -771,3 +771,9 @@ IV source recovery: Two historical models receive addressable unconfirmed cards:
 IW identity pass: One historical dal action equivalence and three related pairs give81groups/94reduction/51relations,97requiredinputs. Full assertions retain extra char content, optical/flow-control alternatives and liquid-versus-ready-stock scope. No cases deleted or meaning confirmed.
 
 IV/IW validation: Source preservation, exact card/case bindings, inventory,112scoped questions, priority coverage/catalog and freshness pass.5153historical imports +49raw =5202records;4205ledger events.4125active cards=3859semantic+266formal;4647cases include45archived cards.81identity groups/94display reduction/51relations,97requiredinputs;3721semantic cards have neither direct question nor priority. No new manuscript experiment or meaning.
+
+IY source questions: Two dossiers distinguish target-masked field reconstruction from semantic binding and the4/4off-circle domain panel from an AQABBA planetary class. Aggregate hit-count and across-control hit-rate statistics stay separate; zero GDT760licenses concerns the15selected sides.114questions/136directsemantic targets.
+
+IZ pipeline intake: Three raw proposals50-52 retain exact original designs plus root scope caveats.52raw/25method-reviewed/27unreviewed. Ordered inversion, class-versus-instance and material-state continuity remain method candidates with missing bindings, not independent new semantic findings.
+
+IY/IZ validation: Source preservation, exact cards/cases,114scoped questions, identity, nine unready priorities, coverage/catalog and freshness pass.5155historical imports +52raw =5207records;4207ledger events.136directsemantic targets and3719without question/priority;3859semantic/266formal/4647sourcecases.54existing registry/identity/ingestion/lifecycle tests pass, including10k navigation. No new manuscript experiment, image or meaning.

@@ -1,0 +1,28 @@
+{
+  "title": "A repeated field tracks material kind rather than one individual batch",
+  "summary": "Separate kind identity from individual identity for repeated field occurrences: a material-kind reading predicts reuse across distinct instances with shared class properties, whereas an individual-batch reading predicts continuity of one owner or batch.",
+  "scope": "semantic",
+  "design": {
+    "mechanism": "A recurring field-associated form denotes a material kind or class that can recur across distinct individual instances, rather than naming one persistent batch or owner.",
+    "unit": "repeated complete field occurrences with independently recorded instance owners and independently bound material-class attributes",
+    "contrast": "same-kind recurrence across changing individuals versus same-individual or same-batch continuity",
+    "prediction": "After owner and batch are held out, the kind model predicts recurrence among distinct instances sharing a material-class attribute; the individual model predicts recurrence only when the same instance persists across records.",
+    "falsifier": "On a predeclared held set with reliable instance and class bindings, the repeated form remains one-to-one with individual continuity and fails to recur across distinct same-class instances, contrary to the kind model.",
+    "scope_note": "No current source establishes the required material-class or batch identities. This proposal does not treat visual co-occurrence or a working gloss as that binding.",
+    "related": "Related to IDEA000037 class-or-slot coding and GDT769 R01/R03 material-role rivals, but targets material kind versus individual continuity rather than visual slot/class membership or a role dispatch score.",
+    "countermodel": "A record-template or adjacency marker can recur across both same-kind and same-individual cases, creating apparent class invariance without denoting a material kind.",
+    "source_evidence": {
+      "path": "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/REPORT.md",
+      "line": 25,
+      "line_end": 27,
+      "quote": "The current atlas contains 376 reader-exact `ol` occurrences. Nine immediate exact amount contacts occur on eight pages and are nearly symmetric around the target. Repeated `ol` field sequences, together with the fact that 58 of 59 apparent line-edge positions remain embedded in continuing records, fit a small relation that travels with a field better than a fixed liquid name. In `f58r.13`, `ol` joins a dry-state field to an independent process field; in `f3r.19`, it joins a cold-dry portion to a dry form. The least committal useful rendering is therefore contextual `und/mit`, with `von/aus` available in an amount attachment.\n\nThese local frames justify keeping the relation as the most useful reader default, but they do not produce a role win. R05, R01, and R03 each pass their gates with the same role score of 1.0; R05 is selected only because its dispatch priority is more specific. R01 *Ansatz/Zubereitungsbasis* and R03 measurable product/result are supported rivals, not failed alternatives. Confidence is therefore `C1_LOCAL_FRAME__C0_ROLE_TIEBREAK`. The form is extremely frequent, repetition is not exceptional among frequent forms, and its local environments are broad. Nothing distinguishes plant juice, extract, decoction, medicinal water, oil, wine, or vinegar. Visible similarity between EVA `ol` and Latin *oleum* earns zero identity credit.",
+      "sha256": "a00ca7b7fd36013a78b8118395e88e5e091f087515d0def577ba25af7623e346"
+    },
+    "intake_limit": "Raw unreviewed design draft; independent semantic binding is unavailable unless separately established. A positive structural match would not by itself identify an English or German meaning.",
+    "intake_scope_caution": "Material-kind reference is a specialization of the existing class/slot versus member question. An individual-referencing expression can select different individuals in different records, and a kind need not be explicitly named in every eligible instance. Freeze a rigid individual versus declared class-production model before treating recurrence/nonrecurrence as discrimination.",
+    "original_draft": {
+      "path": "research_registry/proposals/ix_kind_identity.json",
+      "sha256": "076f7c6f5516b3f8d821a83914d22950b87712311b19b5a4b78be7e143ed2ad2"
+    }
+  }
+}

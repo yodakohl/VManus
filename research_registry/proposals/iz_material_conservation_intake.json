@@ -1,0 +1,28 @@
+{
+  "title": "A transformation preserves material identity while changing state",
+  "summary": "Refine the unresolved transformation versus flow conflict into a conservation question: a true material transformation should preserve an independently bound material identity while changing state, whereas transport preserves state while changing location.",
+  "scope": "semantic",
+  "design": {
+    "mechanism": "A process expression denotes transformation of one material through states, with material identity conserved across the state change.",
+    "unit": "complete paired process accounts with independently bound material identity, before-state, after-state, and location endpoints",
+    "contrast": "material transformation with state change versus transport/flow with location change but no state change",
+    "prediction": "A transformation model predicts the same material identity on both sides of a state transition and a changed state; a flow model predicts conserved state identity while the location or container changes.",
+    "falsifier": "In a frozen held set with independent endpoint bindings, state changes never preserve the same material identity, or apparent state changes are fully explained by location changes with no state transition, contrary to the transformation model.",
+    "scope_note": "The existing source conflict does not supply independently bound material or state meanings; this remains conditional and missing-data limited.",
+    "related": "Specializes the GDT827 transformation-versus-flow conflict and is adjacent to IDEA000014/IDEA000049 quantity designs, but changes the unit to identity/state conservation rather than amount-frame uniqueness or ordinal calibration.",
+    "countermodel": "A renderer can assign the same material and state labels to both transformation and flow accounts, so equal paragraph coverage or a pictured connection cannot discriminate them.",
+    "source_evidence": {
+      "path": "experiments/yolo/gdt827_joint_core_paragraph_contrast/WORKING_THEORY.md",
+      "line": 6,
+      "line_end": 9,
+      "quote": "TRANSFORMATION and FLOW can both complete f77r.35 with the same grammatical\nassumptions: its vapour becomes water if air is cold / its water flows through\nbasin if pipe is open. Five glosses change together; equal exact coverage is\nnot discrimination. RF has a different tail. Water/becomes are not anchors.",
+      "sha256": "28c1e35d183101713b8e79822a0da3a7e4ca90720ee7fb769bae1a1139fe28bf"
+    },
+    "intake_limit": "Raw unreviewed design draft; independent semantic binding is unavailable unless separately established. A positive structural match would not by itself identify an English or German meaning.",
+    "intake_scope_caution": "Transport and transformation can coexist; transport may change state and a chemical transformation may change material-kind identity. The current contrast requires a declared pure-transport rival and an explicit sense of conserved identity, such as one tracked material through a phase change. It does not test all transformations or all flow accounts.",
+    "original_draft": {
+      "path": "research_registry/proposals/ix_material_conservation.json",
+      "sha256": "4b5aa76088e58265432d35a8fac0bd88f19ccc27f1aa8e00e8eb8b4744994f6e"
+    }
+  }
+}
