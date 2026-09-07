@@ -1,0 +1,136 @@
+{
+  "id": "HZ_CH_IDENTITY_PEER",
+  "scope": "Only HZ01/HZ02. Exact ch unit and quality-construction scope reviewed; modern-language gloss mapping alone is not identity evidence. Existing groups remain separate.",
+  "pairs": [
+    {
+      "pair_id": "HZ01",
+      "ids": [
+        "SEM:0ba791d1169c73ee976f",
+        "SEM:9f5fc924cb7f48fd3cdb"
+      ],
+      "claims": [
+        "ch → feucht",
+        "ch → moist"
+      ],
+      "card_cases": {
+        "SEM:0ba791d1169c73ee976f": [
+          {
+            "case_id": "CLEAN_COMPONENT:3f4ae3feddb114abeb2f",
+            "claim_type": "lexical_hypothesis",
+            "proposed_value_or_model": "feucht",
+            "parent_gdt": "GDT638",
+            "source": "experiments/yolo/gdt638_sequential_compound_promotion/REPORT.md",
+            "status": "unconfirmed"
+          }
+        ],
+        "SEM:9f5fc924cb7f48fd3cdb": [
+          {
+            "case_id": "CLEAN_COMPONENT:6edb3a0c2ff174f26f72",
+            "claim_type": "lexical_hypothesis",
+            "proposed_value_or_model": "moist",
+            "parent_gdt": "GDT622",
+            "source": "experiments/yolo/gdt622_clm667_temperament_codebook/REPORT.md",
+            "status": "unconfirmed"
+          }
+        ]
+      },
+      "current_groups": {
+        "SEM:0ba791d1169c73ee976f": "IDENTITY:7aeea08fb4d34213b48357a7a33fe52f094259af8e92cfa6dea88a1cb57fac7c",
+        "SEM:9f5fc924cb7f48fd3cdb": "IDENTITY:8342966b6540b33b91a4f00e1d6ee269f1e72345b76b62922a37f0302384bd25"
+      },
+      "recommendation": "equivalent_historical_proposition",
+      "rationale": "Both cards concern the same atomic unit ch in a quality-construction context and assert the normalized feucht/moist proposition. Their source status differs: GDT638 explicitly calls the older ch=feucht orientation overholt, while GDT622 records ch=moist as an atomic default. Therefore identity is limited to the historical proposed unit/value, not a current confirmed meaning or a merge of the current groups.",
+      "evidence": [
+        {
+          "card_id": "SEM:0ba791d1169c73ee976f",
+          "path": "experiments/yolo/gdt638_sequential_compound_promotion/REPORT.md",
+          "line": 141,
+          "line_end": 146,
+          "quote": "GDT622 hat die brauchbare historische Bauart bereits gefunden: gelerntes\nGanzwort plus kurzer, komponierter Fachcode. Es liefert aber nicht die heutige\nOrientierung; sein damaliges `ch=feucht` ist überholt. GDT634 hat bereits\nkonkrete Stoff-, Qualitäts-, Träger- und Wertbausteine. Neu in GDT638 ist die\nAufnahme einer exakten Ganzoberfläche erst nach ihrem vollständigen\nVorkommensumlauf und der messbare zusätzliche Passagegewinn.",
+          "sha256": "42f43c0b2240fba658bddd6ecc6d5e7499cd2618458c71255fa8b9021ca2129b"
+        },
+        {
+          "card_id": "SEM:9f5fc924cb7f48fd3cdb",
+          "path": "experiments/yolo/gdt622_clm667_temperament_codebook/REPORT.md",
+          "line": 21,
+          "line_end": 24,
+          "quote": "Thus the atomic defaults are `k=hot`, `t=cold`, `ch=moist`, and `sh=dry`.\n`qo-` introduces the quality field. The final `y/ey` closes or connects the\nbundle; it cannot be a particular degree because the same ending occurs on\nsource candidates with different degrees.",
+          "sha256": "3478e452acb278d18839076ed15570be66c90b72bc33dcb15d0789cab63cb5e2"
+        }
+      ]
+    },
+    {
+      "pair_id": "HZ02",
+      "ids": [
+        "SEM:324608bedf828f1ae091",
+        "SEM:cba89df18462670a7eca"
+      ],
+      "claims": [
+        "ch → trocken",
+        "ch → dry"
+      ],
+      "card_cases": {
+        "SEM:324608bedf828f1ae091": [
+          {
+            "case_id": "CLEAN_COMPONENT:ed43088e238c8a001db6",
+            "claim_type": "lexical_hypothesis",
+            "proposed_value_or_model": "trocken",
+            "parent_gdt": "GDT631",
+            "source": "experiments/yolo/gdt631_prefixed_cth_quality_parts/REPORT.md",
+            "status": "unconfirmed"
+          }
+        ],
+        "SEM:cba89df18462670a7eca": [
+          {
+            "case_id": "CLEAN_COMPONENT:26ac9e1c3c03dc01afeb",
+            "claim_type": "lexical_hypothesis",
+            "proposed_value_or_model": "dry",
+            "parent_gdt": "GDT623",
+            "source": "experiments/yolo/gdt623_temperament_orientation_frequency/REPORT.md",
+            "status": "unconfirmed"
+          },
+          {
+            "case_id": "CLEAN_COMPONENT:e94a77b19ede17336a14",
+            "claim_type": "lexical_hypothesis",
+            "proposed_value_or_model": "dry",
+            "parent_gdt": "GDT623",
+            "source": "experiments/yolo/gdt623_temperament_orientation_frequency/REPORT.md",
+            "status": "unconfirmed"
+          }
+        ]
+      },
+      "current_groups": {
+        "SEM:324608bedf828f1ae091": "IDENTITY:deba5c788c6f287f0528045f4aadcd593190f6549998c49705c370605dcff9ef",
+        "SEM:cba89df18462670a7eca": "IDENTITY:75434dd2cfa0ad9dbab5a19ef5b32f56d43ba00c6b6b2d0558bc1c1d5b43d8c1"
+      },
+      "recommendation": "equivalent_historical_proposition_with_conditional_scope",
+      "rationale": "Both cards concern the same ch unit and normalized trocken/dry value in the quality construction. GDT631 makes trocken conditional on neighboring carrier scope, whereas GDT623 presents dry as a V2 default and reports a frequency advantage. They can be treated as the same historical proposition at the bounded ch quality-unit level, while retaining the conditional/default distinction and separate current groups.",
+      "evidence": [
+        {
+          "card_id": "SEM:324608bedf828f1ae091",
+          "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/REPORT.md",
+          "line": 108,
+          "line_end": 112,
+          "quote": "Hier steht die trockene Kandidatenform unmittelbar vor dem feuchten `shol`;\nf20v.3 wiederholt `shol chcthy`. Das kann zwei benachbarte technische Zellen\ndarstellen. Falls spätere Seiten zwingend zeigen, dass die Nachbarn denselben\nTräger beschreiben, muss `ch=trocken` an dieser Stelle umgedeutet werden. Das\nformale `ch/sh + CTH`-Paradigma bliebe trotzdem bestehen.",
+          "sha256": "22647ec417eef0781712527fc1aa17175959756c414a5c5687a482e89333f405"
+        },
+        {
+          "card_id": "SEM:cba89df18462670a7eca",
+          "path": "experiments/yolo/gdt623_temperament_orientation_frequency/REPORT.md",
+          "line": 17,
+          "line_end": 19,
+          "quote": "Thus `k=hot`, `t=cold`, `ch=dry`, and `sh=moist` are the V2 defaults inside the\nquality construction. The moisture sign is the useful correction. The thermal\nsign remains weaker: `t=hot, k=cold` is a serious rival on Herbal-only counts.",
+          "sha256": "dcdf7fe8a3003907487eb61ac22007ce8403893c20cbdf5ea02d1bfbd48238e4"
+        },
+        {
+          "card_id": "SEM:cba89df18462670a7eca",
+          "path": "experiments/yolo/gdt623_temperament_orientation_frequency/REPORT.md",
+          "line": 46,
+          "line_end": 49,
+          "quote": "On the whole 179-page panel, V2 ranks first for exact, prefix, and substring\ncounts; the old GDT622 orientation ranks last. Herbal-only counts reverse the\nthermal sign but retain `ch=dry`. Therefore the defensible update is stronger\nthan the complete four-value key:",
+          "sha256": "dcdf7fe8a3003907487eb61ac22007ce8403893c20cbdf5ea02d1bfbd48238e4"
+        }
+      ]
+    }
+  ]
+}

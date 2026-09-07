@@ -1,0 +1,87 @@
+{
+  "status": "bounded_identity_peer_review",
+  "scope": "HZ06/HZ07 only; OTCHEY Anteil/ANTEIL? versus Portion; source/case audit, no operative identity mutation",
+  "method": "Modern German lexical similarity and shared OTCHEY form are insufficient for identity. Current ANTEIL cards already share one approved identity group; Portion is in a separate group and is explicitly retained as a rival in the V60 exact-card scope.",
+  "pairs": [
+    {
+      "pair_id": "HZ06",
+      "ids": [
+        "SEM:986ecfd1c8cd33191cf2",
+        "SEM:ed98c9fb32b994ec009e"
+      ],
+      "claims": [
+        "OTCHEY → Anteil",
+        "OTCHEY → Portion"
+      ],
+      "current_groups": [
+        "IDENTITY:bee052ec954df51c9cd4e56bfac674b11375a76c44e75cff51ab6a66eb233245",
+        "IDENTITY:2fda85e6fe0bb0c98d3167dca0de676cad26fda57bb49713be206f538a98d183"
+      ],
+      "cases": [
+        "LATE_SIDEQUEST:7a54aa0a94f806f2809f",
+        "LATE_SIDEQUEST:9c320684c25f19cfa2b9",
+        "LATE_SIDEQUEST:86819f670eab7d2b70e2"
+      ],
+      "recommendation": "related_not_equivalent",
+      "basis": "V60 records the card as Anteil while listing Portion/Probe as the rival field; its scoped contradiction says the two cases do not separate Anteil, Probe, and section-initial position. This supports a live rival/related hypothesis, not semantic equivalence or a verdict.",
+      "evidence": [
+        {
+          "type": "primary_source",
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 36,
+          "line_end": 36,
+          "quote": "| OTCHEY | Anteil | Nomen | Portion · Probe | 1/1 | 0.45 | 1 Karte + 2 Events |",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        },
+        {
+          "type": "primary_source",
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 92,
+          "line_end": 94,
+          "quote": "8. **OTCHEY — Anteil.** Beide Fälle sind feldinitial, je einer in Herbal und\n   Bio. Lehrregel: „nimm“ gehört zur Lokalexpansion, nicht zur Karte.\n   Widerspruch: Zwei Fälle trennen Anteil, Probe und Abschnittsanfang nicht.",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        }
+      ]
+    },
+    {
+      "pair_id": "HZ07",
+      "ids": [
+        "SEM:bc4f1734b07d2838d6fe",
+        "SEM:ed98c9fb32b994ec009e"
+      ],
+      "claims": [
+        "OTCHEY → ANTEIL?",
+        "OTCHEY → Portion"
+      ],
+      "current_groups": [
+        "IDENTITY:bee052ec954df51c9cd4e56bfac674b11375a76c44e75cff51ab6a66eb233245",
+        "IDENTITY:2fda85e6fe0bb0c98d3167dca0de676cad26fda57bb49713be206f538a98d183"
+      ],
+      "cases": [
+        "LATE_SIDEQUEST:dfcdb574f7e3ac48444c",
+        "LATE_SIDEQUEST:86819f670eab7d2b70e2"
+      ],
+      "recommendation": "related_not_equivalent",
+      "basis": "The V60-R4 table presents ANTEIL? as one selection-noun hypothesis, while the exact-card report keeps Portion/Probe as an unresolved rival. Same form and near-synonymous modern glosses do not adjudicate the historical unit.",
+      "evidence": [
+        {
+          "type": "primary_source",
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/CANDIDATE_V60_R4_CHANCERY_CORRECTOR.md",
+          "line": 32,
+          "line_end": 32,
+          "quote": "| OTCHEY | Auswahl-Nomen | `ANTEIL?` | `AUSWAHL?` |",
+          "sha256": "913bede9f275b266efdbceb6836c822a7248a13528ea1b07362521ddb725507b"
+        },
+        {
+          "type": "primary_source",
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+          "line": 36,
+          "line_end": 36,
+          "quote": "| OTCHEY | Anteil | Nomen | Portion · Probe | 1/1 | 0.45 | 1 Karte + 2 Events |",
+          "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+        }
+      ]
+    }
+  ],
+  "smallest_remaining_unknown": "An independent source-owned contrast must distinguish Anteil/portion/selection from probe and section-initial position while preserving the same exact-card scope; absent that, retain the separate groups and do not grant identity credit."
+}

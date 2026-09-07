@@ -19,12 +19,12 @@ Latest three-hour curation delta: [scoped results](decisions/semantic_3h_complet
 | Reviewed source cases, including the correction archive | 4,640 |
 | Archived source-extraction errors | 45 |
 | Exact normalized assertion repetitions grouped | 477 |
-| Reviewed equivalence groups / display reduction | 75 / 87 |
-| Public semantic display entries | 3,766 |
+| Reviewed equivalence groups / display reduction | 77 / 90 |
+| Public semantic display entries | 3,763 |
 
 These are different units, not a deduplicated total of independent theories.
 A local ignored supplement contributes95 semantic cards and one formal card;
-the ordinary local default therefore displays3,861 semantic entries. A fresh
+the ordinary local default therefore displays3,858 semantic entries. A fresh
 public clone has the public view only. Local source files and quotes are not
 published or silently folded into public counts.
 
@@ -103,7 +103,7 @@ They state the actual compared subclaim, primary evidence, scope and changed-inp
 requirements. The current80 dossiers directly target99 semantic cards. The nine
 priorities directly target27, with23 shared targets;3,750 semantic cards have no
 direct target binding in these two lists. This is a coverage limit, not an
-automatic scientific verdict on those cards (see decisions/hy_assessment_coverage.json; earlier snapshots remain preserved). An editorial wording preference is not an empirical falsifier.
+automatic scientific verdict on those cards (see decisions/hz_assessment_coverage.json; earlier snapshots remain preserved). An editorial wording preference is not an empirical falsifier.
 Original conditional predictions remain distinct from observed counterexamples;
 reviewer-supplied reopening conditions are prospective, not old preregistrations.
 Only the latest linked revision acts; all older decisions remain in the log.

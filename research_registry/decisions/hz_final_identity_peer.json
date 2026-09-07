@@ -1,0 +1,48 @@
+{
+  "review_id": "HZ_FINAL_IDENTITY_PEER",
+  "status": "approve_with_scope_corrections",
+  "scope": "Peer check of hz_identity_draft.json and hz_root_identity_scope_review.json; no identity/registry mutation.",
+  "decisions": [
+    {
+      "decision_key": "IDENTITY_HZ:HZ01",
+      "recommendation": "approve",
+      "relation": "equivalent_proposition",
+      "members": ["SEM:0ba791d1169c73ee976f", "SEM:9f5fc924cb7f48fd3cdb"],
+      "scope_limit": "Historical ch quality-unit proposition only; retain GDT638's corrected orientation and GDT622's older source case separately. No current meaning confirmation or group merge implied.",
+      "evidence_check": "Exact draft evidence supports this: GDT638 lines 141-146 calls the older ch=feucht orientation obsolete (sha256 42f43e...2129b), while GDT622 lines 21-24 explicitly gives ch=moist (sha256 3478e4...c5e2)."
+    },
+    {
+      "decision_key": "IDENTITY_HZ:HZ02",
+      "recommendation": "approve",
+      "relation": "equivalent_proposition",
+      "members": ["SEM:324608bedf828f1ae091", "SEM:cba89df18462670a7eca"],
+      "scope_limit": "Historical ch dry/trocken quality-unit proposition only; preserve GDT631's carrier-conditioned caveat and GDT623's default/frequency basis as separate source scopes.",
+      "evidence_check": "Exact draft evidence supports this: GDT631 lines 108-112 (sha256 22647e...f405) makes carrier scope conditional, while GDT623 lines 17-19 and 46-49 (sha256 dcdf7f...38e4) retain ch=dry in the bounded quality construction."
+    },
+    {
+      "decision_key": "IDENTITY_HZ:OL_CONTINUE_CORE",
+      "recommendation": "approve_with_explicit_english_variant",
+      "relation": "equivalent_proposition",
+      "members": ["SEM:526a108651ac3a8af796", "SEM:3fcdeb8a13cfa287d5ab", "SEM:5467b80458990fd361d4", "SEM:c3ae0144488047031317"],
+      "scope_limit": "Same historical OL continuation component proposition. The directional source's German fortfahren is a local/register realization, not evidence that every whole form translates continue or that English/German labels are confirmed meanings.",
+      "evidence_check": "Root evidence explicitly composes OL+KAIN as mit einer weiteren Portion fortfahren (CENTRAL_RECURRENT_CARD_REPORT.md lines 17-31, sha256 9861fe...8273) and independently lists OL=fortsetzen in the common-root source (WORKSHOP_MACRO_GRAMMAR_REPORT.md lines 14-16, sha256 cc08aa...c157)."
+    },
+    {
+      "decision_key": "IDENTITY_HZ:OTCHEY_PORTION_RIVAL",
+      "recommendation": "approve",
+      "relation": "alternative_to",
+      "members": ["SEM:986ecfd1c8cd33191cf2", "SEM:ed98c9fb32b994ec009e"],
+      "scope_limit": "Portion/Probe remains a source-declared rival to the existing Anteil representative; no modern-synonym collapse and no selection of either value.",
+      "evidence_check": "V60 lines 36 and 92-94 explicitly list OTCHEY as Anteil with Portion·Probe rivals and state that two cases cannot separate them (sha256 65cdd8...9bba)."
+    }
+  ],
+  "count_check": {
+    "draft_selected_pairs": 7,
+    "new_equivalence_groups": 3,
+    "new_alternative_edges": 1,
+    "resulting_multi_member_groups": 77,
+    "resulting_relations": 44,
+    "new_semantic_evidence": false
+  },
+  "overall": "Approve the four scoped identity relations as historical-proposition navigation only. Preserve all source cases, local/register qualifiers, rivals, and unconfirmed status; do not present the reductions as semantic progress or translation confirmation."
+}
