@@ -1,0 +1,43 @@
+{
+  "reviewer": "luna_three_hour_discriminators",
+  "status": "WITHHOLD_IDENTITY_ALL_FOUR__CONSTRUCTION_RELATION_RETAINED",
+  "scope": "HS01/02, HS06, HS12 and HS16 only; exact semantic-unit/core-value audit, not a spelling or source-case comparison.",
+  "decision": "Do not merge any selected pair as identity. Preserve the current 56 groups. C<T>H, C<K>H, C<P>H and C<F>H are legitimate members of a shared inserted-slot CH construction family, but they are not the same semantic unit as the whole-form CTH, CKH, CPH or CFH candidates. The candidate joins therefore remain withheld; no group union is justified.",
+  "pair_findings": [
+    {"pair_id":"HS01/HS02","comparison":"CTH BEREIT vs C<T>H","reason":"The current CTH dictionary entry is a whole core with BEREIT. PASS1013 decomposes C<T>H as CH+T = NEHMEN+EINSTELLEN and says the inserted letter changes the frame execution; the whole frame is not a portable meaning."},
+    {"pair_id":"HS06","comparison":"CPH UMLEITEN vs C<P>H","reason":"CPH is an established whole-root working value with cross-register directional/path uses. C<P>H is explicitly CH+P = NEHMEN+EINSETZEN; same letters and case provenance do not make the construction's semantic unit identical."},
+    {"pair_id":"HS12","comparison":"CKH DURCHLASS vs C<K>H","reason":"CKH is a path/channel noun. C<K>H is explicitly CH+K = NEHMEN+GEBEN, a compositional inserted-slot construction."},
+    {"pair_id":"HS16","comparison":"CFH TRENNEN vs C<F>H","reason":"CFH is the whole-root working value TRENNEN. C<F>H is explicitly CH+F_LOCAL = NEHMEN+NEBENADRESSE; local execution may be separation-like without proving whole-form identity."}
+  ],
+  "identity_rule": "A legitimate join would require the same semantic unit, same core value, and same construction behavior across cases. Shared C_H frame, source-case count, or angle-bracket spelling is insufficient. The evidence supports a construction-family relation and preserves all rival interpretations; it does not reject the identity candidates merely because their source cases or model versions differ.",
+  "evidence": [
+    {
+      "path":"experiments/yolo/sidequest_semantic_embedded_stem_resegmentation_one_thousand_thirteenth/PASS1013_REPORT.md",
+      "line":24,"line_end":38,
+      "quote":"| Form | neue Lesung | alte Überdeutung |\n|---|---|---|\n| `C<T>H` | `CH+T` = **NEHMEN + EINSTELLEN** | BEREIT |\n| `C<K>H` | `CH+K` = **NEHMEN + GEBEN** | DURCHLASS |\n| `C<P>H` | `CH+P` = **NEHMEN + EINSETZEN** | UMLEITEN |\n| `C<F>H` | `CH+F_LOCAL` = **NEHMEN + NEBENADRESSE** | TRENNEN |\n\nDer eingeschobene Buchstabe beziehungsweise Kartenstrich verändert die\nAusführung des `CH`-Rahmens. Das ist genau die Art komprimierter\nWerkstattkomposition, nach der wir gesucht haben: ein gelernter Rahmen mit\neinem kleinen austauschbaren Einsatz, nicht vier lange Wörter.\n\nDie konkrete lokale Handlung darf weiterhin ein Bereitstellen, Durchgeben,\nUmlenken oder Abteilen sein. Sie ist aber nicht die portable Bedeutung des\nganzen Rahmens.",
+      "sha256":"701825ca1da72c9008f8c8d66f7bd98fef27e7ea295ab7690d491b0c1fd658ea",
+      "type":"primary_construction_decomposition"
+    },
+    {
+      "path":"experiments/yolo/sidequest_semantic_five_root_dictionary_six_hundred_sixty_third/SIX_HUNDRED_SIXTY_THIRD_REPORT.md",
+      "line":5,"line_end":17,
+      "quote":"Die fünf produktiven Kerne bilden nun ein gemeinsames Werkstattwörterbuch:\n\n| Kern | kurze Bedeutung | Karten | Ereignisse |\n|---|---:|---:|---:|\n| OK | ansetzen | 23 | 79 |\n| CHD/CHED | umsetzen | 22 | 48 |\n| SHED | absetzen | 3 | 15 |\n| CHK | wärmen | 4 | 7 |\n| CTH | bereit | 8 | 15 |\n\nWegen zusammengesetzter Karten überlappen die Familien. Ihre Vereinigung\numfasst 57 von 173 Kartentypen und 158 von 381 Ereignissen in 50\nKomponentenrezepten.",
+      "sha256":"3038f0433b8f1043ddc5813a6b0545e6e6e7d164ebafe14ecabe1b4ce941ee5b",
+      "type":"primary_current_CTH_group"
+    },
+    {
+      "path":"experiments/yolo/sidequest_semantic_learned_root_readings_nine_hundred_twenty_third/PASS923_REPORT.md",
+      "line":6,"line_end":19,
+      "quote":"stabile Werkstattliste lautet:\n\n`SHED absetzen`, `SOLK auffangen`, `LSH spülen`, `CPH umleiten`, `HO Teil`,\n`AN Zusatz`, `CFH trennen`, `OS dazu`, `LD befestigen`,\n`RESUME_CARD wiederaufnehmen`.\n\n## Drei sinnvolle Kürzungen\n\n- `CPH`: **UMLEITEN** ersetzt das zu gerichtete „rückführen“. In Herbal ist es\n  zweiter Durchgang, in Bio Empfangsstation, im Rad Gegenstelle, in Pharma Empfänger.\n- `HO`: **TEIL** ersetzt „Stoffteil“. Der sichtbare Besitzer liefert erst Pflanze,\n  Figur, Objekt oder Zutat.\n- `CFH`: **TRENNEN** ersetzt „pressen“. Auspressen ist nur die konkrete\n  Pflanzen-/Pharma-Ausführung; im Himmelsregister bleibt eine Trennkennung möglich.",
+      "sha256":"19523f48d31d06900097f2022d01075b2ba07395743c960a0915ada2fcabbb12",
+      "type":"primary_whole_core_values"
+    },
+    {
+      "path":"experiments/yolo/sidequest_semantic_final_strip_eight_hundred_ninth/EIGHT_HUNDRED_NINTH_REPORT.md",
+      "line":3,"line_end":19,
+      "quote":"The final three recurrent values are portable roots with different grammatical\njobs:\n\n- `T = ANWENDEN` — action verb, 9 cards / 10 events;\n- `CKH = DURCHLASS` — path noun, 9 cards / 14 events;\n- `R = KÜHLEN` — state-change verb, 6 cards / 6 events.\n\n`T` occurs alone with the current item, under short and full grades, after\ncontinuation, with holding, taking, procedure closure, and in nested\napplication clauses. Its open grade row predicts the missing long form\n`EE+T+Y`; the renderer can plausibly produce `cheety` or `teey`, both absent\nfrom the fixed pages.\n\n`CKH` is deliberately not translated as “filter.” It names the local passage\nor channel through which another verb holds, guides, takes, or runs the item.\nSeven construction types cover all fourteen events. This keeps the visible\nbasin/channel geometry without inventing filter cloth wherever none is drawn.",
+      "sha256":"b337fc14d49f8b06ca1b98ce09b71f57ffcdedd68c5b5be067bc49a341449cad",
+      "type":"primary_CKH_grammatical_unit"
+    }
+  ]
+}

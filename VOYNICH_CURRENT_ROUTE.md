@@ -4,7 +4,7 @@ Updated: 2026-09-07. Read first.
 ## Current mandate and effort limit
 
 3h active:2026-09-07 09:56:46–12:56:46UTC minimum; user may steer.
-HP/HR:70questions;35raw/25unreviewed; no new manuscript test.
+HS:70questions;65identitygroups/77reduction; no new manuscript test.
 Session: `research_registry/decisions/semantic_identity_session.md`.
 
 GDT858:855/963primary808folds retained opposite-face training;169faces/90leaves.

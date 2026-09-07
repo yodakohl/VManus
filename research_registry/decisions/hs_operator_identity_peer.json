@@ -1,0 +1,137 @@
+{
+  "review_id": "hs_operator_identity_peer",
+  "scope": "HS04, HS07, HS08, HS09, HS17; lexical-unit identity only, preserving all source cases and construction limits.",
+  "reviews": [
+    {
+      "pair_id": "HS04",
+      "members": [
+        "SEM:1f195e91bb8d4c043afe",
+        "SEM:9d512432d001b98a50ea"
+      ],
+      "claims": [
+        "sh → HALTEN",
+        "SH → HALTEN"
+      ],
+      "disposition": "approve_equivalent_at_root_scope",
+      "rationale": "GDT461 explicitly treats sh as an internal compositional piece in osarsheeeo, while GDT420/GDT428 define SH as the HOLD_PROCESS core. The internal occurrence does not have the whole-card head scope, but that construction difference does not require a different root value."
+    },
+    {
+      "pair_id": "HS07",
+      "members": [
+        "SEM:3fcdeb8a13cfa287d5ab",
+        "SEM:5467b80458990fd361d4"
+      ],
+      "claims": [
+        "OL → fortsetzen",
+        "ol → FORTSETZEN"
+      ],
+      "disposition": "approve_equivalent_at_root_scope",
+      "rationale": "The two-section report and ten-page bridge give the same OL/ol core. Case and register presentation differ, while later positional realizations are constructional variants."
+    },
+    {
+      "pair_id": "HS08",
+      "members": [
+        "SEM:3fcdeb8a13cfa287d5ab",
+        "SEM:c3ae0144488047031317"
+      ],
+      "claims": [
+        "OL → fortsetzen",
+        "OL → FORTSETZEN"
+      ],
+      "disposition": "approve_equivalent_at_root_scope",
+      "rationale": "GDT475 and GDT477 distinguish OL from OT by continuation/opening role and show three positional realizations of one OL meaning. GDT563 states that active context supplies the longer instruction; that is not a new lexical unit."
+    },
+    {
+      "pair_id": "HS09",
+      "members": [
+        "SEM:5467b80458990fd361d4",
+        "SEM:c3ae0144488047031317"
+      ],
+      "claims": [
+        "ol → FORTSETZEN",
+        "OL → FORTSETZEN"
+      ],
+      "disposition": "approve_equivalent_at_root_scope",
+      "rationale": "The lowercase cross-register table and the broader OL reports agree on the operator core. Register-specific realization (“Ansatz/Weg weiterführen”, ring/sentence continuation) is a domain construction, not a root split."
+    },
+    {
+      "pair_id": "HS17",
+      "members": [
+        "SEM:8e7256dd8d4565febe84",
+        "SEM:b279db92ae16b5b95152"
+      ],
+      "claims": [
+        "OK → SETZEN",
+        "ok → SETZEN"
+      ],
+      "disposition": "approve_equivalent_at_root_scope",
+      "rationale": "GDT420/GDT428 define the action-head core OK=SETZEN; the ten-page bridge gives lowercase ok the same core with diagram-specific realization. PASS971 explicitly says register values change while the stem itself does not."
+    }
+  ],
+  "limits": "Approved relations are root-level lexical identity among unconfirmed proposals. They do not merge whole cards, prove translation, erase rival readings, or export a universal operation across registers.",
+  "evidence": [
+    {
+      "path": "experiments/yolo/gdt461_internal_stem_residual_bridge/REPORT.md",
+      "line": 54,
+      "line_end": 65,
+      "quote": "This is the clearest current evidence for word-like composition inside the\nlocal nomenclator stream: the same short surface pieces retain the same working\nvalue at the beginning, middle, or end under separately calibrated channels.\n\n## What happened to the old nineteen-word tail\n\nFive residuals gain an internal function:\n\n- `osarsheeeo` contains `ar=AUSGANG` and `sh=HALTEN`;\n- `yfary` and `ytarem` contain `ar=AUSGANG`;\n- `octho` contains `cth=NEHMEN · EINSTELLEN`;\n- `dotedy` contains `ot=DANACH`.",
+      "sha256": "368242dccedc85f8ba545be9b20cf413269541041501bccd30f6dc602268e82b"
+    },
+    {
+      "path": "experiments/yolo/gdt420_action_head_slot_license_atlas/REPORT.md",
+      "line": 15,
+      "line_end": 20,
+      "quote": "## Die neun Kopfkarten\n\n- **OK=SETZEN:** E/EE/EEE; Y/WERT/ANTEIL/EINHEIT; Schluss möglich.\n- **CH=NEHMEN:** E/EE, aber kein EEE; alle vier Argumente; Schluss möglich.\n- **SH=HALTEN:** E/EE, aber kein EEE; alle vier Argumente; Schluss möglich.\n- **K=GEBEN:** E/EE/EEE; alle vier Argumente; Schluss möglich.",
+      "sha256": "67559ae568933f517d5b2d52553795e3db80db6df8320fc264a7f8649dcac1d8"
+    },
+    {
+      "path": "experiments/yolo/gdt428_within_class_action_semantic_contrasts/REPORT.md",
+      "line": 19,
+      "line_end": 22,
+      "quote": "- **OK = SETZEN:** einen Posten oder Zustand als laufende Einstellung setzen.\n- **P = EINSETZEN:** einen Posten in einen folgenden Arbeitsgang einsetzen.\n- **SH = HALTEN:** einen Posten unter einer angegebenen Stufe halten.\n- **CHD = BEARBEITEN:** den laufenden Posten ohne eigene Gradstufe",
+      "sha256": "82df1791157e0c43181e372369b486182d275cfceaffec6bfbb2bffbf5674b33"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_f10_two_section_article_five_hundred_thirtieth/FIVE_HUNDRED_THIRTIETH_REPORT.md",
+      "line": 44,
+      "line_end": 50,
+      "quote": "## Warum die Zusammenlesung funktioniert\n\n- gleiche Seite und dieselbe gezeichnete Pflanze;\n- zwei nachvollziehbare sichtbare Pflanzenteil-Besitzer;\n- vier identische Kartenfamilien in beiden Abschnitten: `AR = von dort`,\n  `AIIN = Maß`, `OL = fortsetzen`, `CTH+Y = diesen Posten bereit`;\n- semantisch lesbarer `bereit dies → dies kurz abziehen`-Übergang;",
+      "sha256": "ab621dd6b09d52726335616f75504b879ab0bedd7ae06ac9b2df15ae328f015c"
+    },
+    {
+      "path": "experiments/yolo/gdt475_ot_ol_page_microrecord_itineraries/REPORT.md",
+      "line": 5,
+      "line_end": 21,
+      "quote": "`OT=DANACH` and `OL=FORTSETZEN` now have different, concrete jobs in the local\naddress stream:\n\n| root | occurrences | bundle-leading | later-event-leading | event-internal |\n|---|---:|---:|---:|---:|\n| `OT` | 41 | 40 | 1 | **0** |\n| `OL` | 28 | 11 | 1 | **16** |\n\nOT never sits inside an event. It always opens one: forty times it is the first\natom of the whole locus bundle, and once it opens the second card at the same\nlocus. OL is genuinely a continuation operator: eleven occurrences continue\nthe previous locus record, one continues with a later card at the same locus,\nand sixteen hold the active relation/action inside a card.\n\nThis is exactly the distinction suggested by the older GDT429 running profile\nbut now made concrete inside the complete address edition: OT opens the next\nequal-rank unit; OL keeps the current unit going.",
+      "sha256": "43b52550e99afde2a95aa2239afd7287dd55c9378df85e6627296352a46289d2"
+    },
+    {
+      "path": "experiments/yolo/gdt477_ol_directional_scope_phrasebook/REPORT.md",
+      "line": 5,
+      "line_end": 18,
+      "quote": "`OL=FORTSETZEN` now has one meaning and three predictable positional\nrealizations across all 28 local occurrences:\n\n| function/name shape | working scope | occurrences |\n|---|---|---:|\n| `OL · X` | weiter mit X | 9 |\n| `X · OL · Y` | X in Y weiterführen | 10 |\n| `X · OL` | X weiterführen | 9 |\n\nThe distribution is almost perfectly balanced, but the jobs are not\ninterchangeable. All nine forward openings begin an event—eight whole bundles\nand one later card. All sixteen event-internal OL slots are non-opening: eight\nbridges and eight backward holds. The eleven cross-locus record binders contain\neight openings, two bridges and one backward hold.",
+      "sha256": "f3c3c4f1cbb43cefbebc485746153b1afe9c562c58acca70e547a6022e2b2f2c"
+    },
+    {
+      "path": "experiments/yolo/gdt563_complete_state_microphrase_edition/REPORT.md",
+      "line": 60,
+      "line_end": 68,
+      "quote": "Das variable Extrem ist das bloße `OL=FORTSETZEN`: Es trägt in den vorhandenen\nSatzkontexten 33 Mikrophrasen, weil Handlung und Argument aus dem aktiven\nSatzspeicher kommen. Das macht `OL` nicht zu 33 Wörtern. Sein stabiler Beitrag\nbleibt „weiter/fortsetzen“; die längere Anweisung entsteht kompositionell:\n\n```text\nOL + aktives HALTEN + aktiver ANTEIL  → Weiter: halte den Anteil.\nOL + aktives GEBEN  + aktiver POSTEN  → Weiter: gib den Posten.\nOL + aktives NEHMEN + aktiver POSTEN  → Weiter: nimm den Posten.",
+      "sha256": "35389053dc413e135807f2de6e455ca98ed931371ad9ab34bd6ddc8abf2d254f"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_ten_page_register_bridge/TEN_PAGE_REGISTER_BRIDGE_REPORT.md",
+      "line": 50,
+      "line_end": 58,
+      "quote": "| `aiin` | VORGABEWERT | Sollmaß | Grad oder Platzwert |\n| `air` | LAUF | Wasserlauf | Ring-, Himmels- oder Zeigerlauf |\n| `ain` | TEILWERT | Portion | Unterabschnitt oder gezählter Teil |\n| `iin` | STUFE | Arbeitsstufe | Bedingungs- oder Gradstufe |\n| `ok` | SETZEN | Posten ansetzen | Diagrammposten setzen |\n| `ot` | FOLGE | danach/nächster Posten | nächster Platz/Bedingung |\n| `ol` | FORTSETZEN | Ansatz/Weg weiterführen | im selben Ring oder Satz weiter |\n| `or` | ARBEITSSATZ | Ansatz/Zubereitung | Tabellen- oder Bedingungssatz |\n| `al` | ZIEL | Zielstelle | Zielsektor oder Zielfeld |",
+      "sha256": "e08b787098c59969607cd7662b2cba83ba11cb7007589e9a6d38951a13d1d2c9"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_canonical_compact_workshop_edition_nine_hundred_seventy_first/PASS971_CURRENT_WORKING_THEORY.md",
+      "line": 18,
+      "line_end": 18,
+      "quote": "`OK=SETZEN`, `CH=NEHMEN`, `K=GEBEN`, `AIIN=SOLLWERT`, `AIN=EINHEIT`, `OR=SATZ`, `AL=ZIEL`, `AR=QUELLE`, `E=KURZ`, `EE=LÄNGER`, `EEE=VOLL`, `Y=DIES`, `DY=SCHLIESSEN`. Im Pflanzenregister werden daraus Ansatz, Portion und Sollmaß; im Himmelsregister Stelle, Index und Tafelwert. Der Stamm selbst wechselt nicht.",
+      "sha256": "3e220db98e8a8ddecf2cc919732f109bccfc4b1a23a32497182932251685c655"
+    }
+  ]
+}

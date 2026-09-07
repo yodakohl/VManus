@@ -1,0 +1,36 @@
+{
+  "reviewer": "luna_three_hour_discriminators",
+  "status": "CORRECT_PRIOR_PEER__OLD_COLUMN_PROPOSITIONS_MATCH",
+  "scope": "HS01/02, HS06, HS12, HS16; compare the current card claim and source semantic column, without importing PASS1013's newer compositional reading as the old proposition.",
+  "correction": "The prior hs_gallows_identity_peer.json used PASS1013's 'neue Lesung' as if it were the proposition for the selected cards. That was wrong. The current cards are the old-column claims: C<T>H→BEREIT, C<P>H→UMLEITEN, C<K>H→DURCHLASS, C<F>H→TRENNEN. PASS1013's table explicitly labels those entries 'alte Überdeutung'. They match the corresponding whole-core claims CTH→BEREIT, CPH→UMLEITEN, CKH→DURCHLASS and CFH→TRENNEN at the proposition level. The later status 'historical_prior_reading_retained' or unconfirmed does not change proposition identity, and a later rejection/qualification must not be propagated as if it were a new failure of the old claim.",
+  "pair_disposition": [
+    {"pair_id":"HS01/HS02","disposition":"approve_proposition_identity","reason":"C<T>H and CTH both state BEREIT in the selected old/current card claims."},
+    {"pair_id":"HS06","disposition":"approve_proposition_identity","reason":"C<P>H and CPH both state UMLEITEN in the selected old/current card claims."},
+    {"pair_id":"HS12","disposition":"approve_proposition_identity","reason":"C<K>H is listed as DURCHLASS in the old column, matching CKH's current card claim."},
+    {"pair_id":"HS16","disposition":"approve_proposition_identity","reason":"C<F>H and CFH both state TRENNEN in the selected old/current card claims."}
+  ],
+  "limit": "This approves equivalence of the historical propositions represented by the selected cards, not truth of any gloss and not identity of the later CH+insert construction. The newer compositional reading remains a separate later model/evidence case; its failure or retention cannot rewrite these old-column cards.",
+  "evidence": [
+    {
+      "path":"experiments/yolo/sidequest_semantic_embedded_stem_resegmentation_one_thousand_thirteenth/PASS1013_REPORT.md",
+      "line":24,"line_end":38,
+      "quote":"| Form | neue Lesung | alte Überdeutung |\n|---|---|---|\n| `C<T>H` | `CH+T` = **NEHMEN + EINSTELLEN** | BEREIT |\n| `C<K>H` | `CH+K` = **NEHMEN + GEBEN** | DURCHLASS |\n| `C<P>H` | `CH+P` = **NEHMEN + EINSETZEN** | UMLEITEN |\n| `C<F>H` | `CH+F_LOCAL` = **NEHMEN + NEBENADRESSE** | TRENNEN |\n\nDer eingeschobene Buchstabe beziehungsweise Kartenstrich verändert die\nAusführung des `CH`-Rahmens. Das ist genau die Art komprimierter\nWerkstattkomposition, nach der wir gesucht haben: ein gelernter Rahmen mit\neinem kleinen austauschbaren Einsatz, nicht vier lange Wörter.\n\nDie konkrete lokale Handlung darf weiterhin ein Bereitstellen, Durchgeben,\nUmlenken oder Abteilen sein. Sie ist aber nicht die portable Bedeutung des\nganzen Rahmens.",
+      "sha256":"701825ca1da72c9008f8c8d66f7bd98fef27e7ea295ab7690d491b0c1fd658ea",
+      "type":"primary_old_column_and_later_reading"
+    },
+    {
+      "path":"experiments/yolo/sidequest_semantic_five_root_dictionary_six_hundred_sixty_third/SIX_HUNDRED_SIXTY_THIRD_REPORT.md",
+      "line":5,"line_end":17,
+      "quote":"Die fünf produktiven Kerne bilden nun ein gemeinsames Werkstattwörterbuch:\n\n| Kern | kurze Bedeutung | Karten | Ereignisse |\n|---|---:|---:|---:|\n| OK | ansetzen | 23 | 79 |\n| CHD/CHED | umsetzen | 22 | 48 |\n| SHED | absetzen | 3 | 15 |\n| CHK | wärmen | 4 | 7 |\n| CTH | bereit | 8 | 15 |\n\nWegen zusammengesetzter Karten überlappen die Familien. Ihre Vereinigung\numfasst 57 von 173 Kartentypen und 158 von 381 Ereignissen in 50\nKomponentenrezepten.",
+      "sha256":"3038f0433b8f1043ddc5813a6b0545e6e6e7d164ebafe14ecabe1b4ce941ee5b",
+      "type":"primary_CTH_whole_core_claim"
+    },
+    {
+      "path":"experiments/yolo/sidequest_semantic_learned_root_readings_nine_hundred_twenty_third/PASS923_REPORT.md",
+      "line":6,"line_end":19,
+      "quote":"stabile Werkstattliste lautet:\n\n`SHED absetzen`, `SOLK auffangen`, `LSH spülen`, `CPH umleiten`, `HO Teil`,\n`AN Zusatz`, `CFH trennen`, `OS dazu`, `LD befestigen`,\n`RESUME_CARD wiederaufnehmen`.\n\n## Drei sinnvolle Kürzungen\n\n- `CPH`: **UMLEITEN** ersetzt das zu gerichtete „rückführen“. In Herbal ist es\n  zweiter Durchgang, in Bio Empfangsstation, im Rad Gegenstelle, in Pharma Empfänger.\n- `HO`: **TEIL** ersetzt „Stoffteil“. Der sichtbare Besitzer liefert erst Pflanze,\n  Figur, Objekt oder Zutat.\n- `CFH`: **TRENNEN** ersetzt „pressen“. Auspressen ist nur die konkrete\n  Pflanzen-/Pharma-Ausführung; im Himmelsregister bleibt eine Trennkennung möglich.",
+      "sha256":"19523f48d31d06900097f2022d01075b2ba07395743c960a0915ada2fcabbb12",
+      "type":"primary_CPH_CFH_whole_core_claims"
+    }
+  ]
+}

@@ -18,12 +18,12 @@ Ten-hour comparison and remaining coverage limits: [completion report](decisions
 | Reviewed source cases, including the correction archive | 4,640 |
 | Archived source-extraction errors | 44 |
 | Exact normalized assertion repetitions grouped | 477 |
-| Reviewed equivalence groups / display reduction | 56 / 66 |
-| Public semantic display entries | 3,788 |
+| Reviewed equivalence groups / display reduction | 65 / 77 |
+| Public semantic display entries | 3,777 |
 
 These are different units, not a deduplicated total of independent theories.
 A local ignored supplement contributes95 semantic cards and one formal card;
-the ordinary local default therefore displays3,883 semantic entries. A fresh
+the ordinary local default therefore displays3,872 semantic entries. A fresh
 public clone has the public view only. Local source files and quotes are not
 published or silently folded into public counts.
 
@@ -59,7 +59,7 @@ paragraph does not automatically make every subclaim independently addressable;
 an atomic gloss does not cover a complete multi-card model.
 
 Whitespace and backtick typography alone are normalized for exact assertions.
-Explicit equivalence decisions add56 groups without deleting any original ID.
+Explicit equivalence decisions add65 groups without deleting any original ID.
 The identity log also retains seven related-but-distinct links,32 rival links and
 four specializations. Conflicting nonidentity blocks transitive merging; changed
 claim or case bindings require a new review. Shared spelling, shortened wording

@@ -637,3 +637,7 @@ HP/HQ/HR material pass:4modelquestions+existingcatchwordfamilydirectlinkgive70do
 HS decision note: metadata-onlycase/punctuation screen excludes99pairs alreadyco-mentioned in66requiredidentityinputs/currentdecisions. Select13remainingpairs inCTH/CPH/CKH/CFH,SH/OL/OKandchol/dain/cthar; currentgroup/nonidentityclosurechecked. Unknown is samepropositionversusmodelunit/sense scope; rootwillreadonlydefiningcurrentcases. Inputs66membership/hashreceiptPASS,notproofallbodiesread. Budget18min from12:31UTC includingprimaryreview10, adjudication3,validation/publication5. No semanticexperiment orlegacybytechange.
 
 HP/HQ/HR validation: source preservation, current cards/cases, broad inventory, scoped bindings, priority coverage and freshness PASS.5120imports+35raw=5155records;4172ledger events;70questions89directsemantic targets. No new manuscript result or readiness.
+
+HS material pass:13pairs yield10approvedpropositiongroups,9newgroups11fewerdisplayrows. Old-column gallows propositions corrected after peer compared wrong new-column reading.65groups77reduction,43otherrelations;72requiredinputs;allcards/cases retained. No newmanuscripttest ormeaning.
+
+HS validation: source preservation, current4119cards/4640cases, broad inventory, current scoped bindings, priority coverage and registry freshness PASS.5121imports+35raw=5156records;4173ledger events.65equivalencegroups77displayreduction,70questions unchanged. All legacy card bytes remain intact.
