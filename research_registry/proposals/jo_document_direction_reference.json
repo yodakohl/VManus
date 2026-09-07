@@ -1,0 +1,23 @@
+{
+  "title": "Document direction separates a label reference from a repeated caption",
+  "summary": "GDT790 observes opposite textual directions: otedy is a visible label followed by a prose-record opener, while okal occurs in prose before its panel label. Test whether direction predicts reference versus learned-name use without using spatial proximity as semantic evidence.",
+  "scope": "semantic",
+  "design": {
+    "mechanism": "A complete form's document-order relation between label and prose occurrence distinguishes a textual reference/caption from a learned name reused as a label.",
+    "unit": "exact multi-character label/prose bridges with independently recorded panel, paragraph record, and document order",
+    "contrast": "label-to-prose reference versus prose-to-label repeated caption/name",
+    "prediction": "Across held cross-panel bridges, label-first forms should behave as explicit prose references, while prose-first forms should recur as names or captions that can be introduced before their label; the direction should remain after matching panel and record role.",
+    "falsifier": "When independent textual-role coding shows no stable relation between document direction and reference/name behavior across held bridges, the direction-based construction fails.",
+    "scope_note": "This does not infer a physical owner, object name, or free component meaning from proximity. It is a source-starting document-order hypothesis with semantic endpoint availability unknown.",
+    "related": "Near GDT790/GDT792 label-prose coverage and GDT798 text-host comparisons, but targets document-direction asymmetry rather than closed panel-owner, slot, or immediate-proximity routes.",
+    "countermodel": "Editorial ordering or paragraph layout can place labels before or after prose without changing their semantic role; a repeated caption can occur in either direction.",
+    "source_evidence": {
+      "path": "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/REPORT.md",
+      "line": 56,
+      "line_end": 75,
+      "quote": "## The exact bridges that matter\n\nFour multi-character label forms recur exactly in prose, producing nine usable\noccurrence edges:\n\n| Label form | Picture owner | Prose bridge | Current use |\n|---|---|---|---|\n| `otedy` | f77r upper arch, inner port 2 | f77r P2 opener plus four f82r/f83r occurrences | same-page back-reference candidate; cross-page name/formula |\n| `okal` | f82r lower pool, upper station 2 | f82r P1 and P2 | forward/shared-station reference candidate |\n| `otchdy` | f77r middle west figure-zone | f83r Q1 opener | recurring name/formula at an embedded record head |\n| `olaiin` | f82r lower pool, figure 6 | f77r P3 | recurring label/name form |\n\nThe remaining edge is the one-character token `o` from f77r.50; it is retained\nfor completeness and excluded as an anchor.\n\nThe useful asymmetry is new. `otedy` is first a visible upper-arch label and\nthen exactly the first token of f77r P2. `okal` runs in the opposite document\ndirection: it occurs in two earlier prose records before appearing as a lower\npool label. Labels can therefore behave as references or learned names, not\nonly as captions sitting next to their paragraph.",
+      "sha256": "c613d9869015e996ed6e8a33463a041a453e468f439ce78c4fdaa54a0bbe0ee3"
+    },
+    "principal_risk": "Document direction may be an artifact of layout or editorial ordering, and the current panel/paragraph labels are not independent semantic gold."
+  }
+}

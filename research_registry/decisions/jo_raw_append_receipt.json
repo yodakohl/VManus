@@ -1,0 +1,75 @@
+{
+  "schema": "raw_proposal_append_receipt_v1",
+  "batch": "jo",
+  "status": "ADDED_RAW_UNREVIEWED_WITH_ACCIDENTAL_DUPLICATE",
+  "append_command": "./vmanus-work ideas add FILE",
+  "records_after_ideas_jsonl": 55,
+  "entries": [
+    {
+      "id": "IDEA000053",
+      "title": "Parallel X+daiin cells distinguish apposition from separate field entries",
+      "proposal_file": "research_registry/proposals/jo_parallel_cell_apposition_intake.json",
+      "proposal_file_sha256": "95bbf4a75135f77643cb904d3bbd7556b93055af6904a2c5663a69077f0d77bb",
+      "design_sha256": "95ea07793488f5dae18aad9ec46366202d18c6d04795950b89bc299d28d56478",
+      "source_evidence": {
+        "line": 66,
+        "line_end": 77,
+        "path": "experiments/yolo/gdt765_ofchy_schor_content_field_discriminator/REPORT.md",
+        "quote": "## The f22r record now says something\n\nThe first two lines of the local paragraph contain four exact value cells:\n\n```text\nf22r.4  ofchy daiin  ...  schor daiin\nf22r.5  ol daiin     ...  dar daiin\n```\n\nAcross the entire cache there are twelve exact `H-head X daiin` triples\n(H1 five, H2 five, H4 two); f22r.4 alone contains two on one line. That makes a\nmain-field/subfield inventory much more natural than a sequence of actions.",
+        "sha256": "43ee900632971c0f6877447ef3432d21274512d0ed033d2cc85d9874427e4f35"
+      },
+      "original_draft": "research_registry/proposals/jo_parallel_cell_apposition.json",
+      "binding_status": "availability_unknown",
+      "review_status": "unreviewed",
+      "cli_status": "UNTESTED_PROPOSAL"
+    },
+    {
+      "id": "IDEA000054",
+      "title": "Document direction separates a label reference from a repeated caption",
+      "proposal_file": "research_registry/proposals/jo_document_direction_reference_intake.json",
+      "proposal_file_sha256": "214b1539370ef4ac7fcbe4288cf76a20bd35545565a5503d0c6888b1b6b39ede",
+      "design_sha256": "e41733e48d0056642c5681d591bbcd2185a8923429c4111aacd21471ae5879a3",
+      "source_evidence": {
+        "line": 56,
+        "line_end": 75,
+        "path": "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/REPORT.md",
+        "quote": "## The exact bridges that matter\n\nFour multi-character label forms recur exactly in prose, producing nine usable\noccurrence edges:\n\n| Label form | Picture owner | Prose bridge | Current use |\n|---|---|---|---|\n| `otedy` | f77r upper arch, inner port 2 | f77r P2 opener plus four f82r/f83r occurrences | same-page back-reference candidate; cross-page name/formula |\n| `okal` | f82r lower pool, upper station 2 | f82r P1 and P2 | forward/shared-station reference candidate |\n| `otchdy` | f77r middle west figure-zone | f83r Q1 opener | recurring name/formula at an embedded record head |\n| `olaiin` | f82r lower pool, figure 6 | f77r P3 | recurring label/name form |\n\nThe remaining edge is the one-character token `o` from f77r.50; it is retained\nfor completeness and excluded as an anchor.\n\nThe useful asymmetry is new. `otedy` is first a visible upper-arch label and\nthen exactly the first token of f77r P2. `okal` runs in the opposite document\ndirection: it occurs in two earlier prose records before appearing as a lower\npool label. Labels can therefore behave as references or learned names, not\nonly as captions sitting next to their paragraph.",
+        "sha256": "c613d9869015e996ed6e8a33463a041a453e468f439ce78c4fdaa54a0bbe0ee3"
+      },
+      "original_draft": "research_registry/proposals/jo_document_direction_reference.json",
+      "binding_status": "availability_unknown",
+      "review_status": "unreviewed",
+      "cli_status": "UNTESTED_PROPOSAL"
+    },
+    {
+      "id": "IDEA000055",
+      "title": "Parallel X+daiin cells distinguish apposition from separate field entries",
+      "proposal_file": "research_registry/proposals/jo_parallel_cell_apposition_intake.json",
+      "proposal_file_sha256": "95bbf4a75135f77643cb904d3bbd7556b93055af6904a2c5663a69077f0d77bb",
+      "design_sha256": "95ea07793488f5dae18aad9ec46366202d18c6d04795950b89bc299d28d56478",
+      "source_evidence": {
+        "line": 66,
+        "line_end": 77,
+        "path": "experiments/yolo/gdt765_ofchy_schor_content_field_discriminator/REPORT.md",
+        "quote": "## The f22r record now says something\n\nThe first two lines of the local paragraph contain four exact value cells:\n\n```text\nf22r.4  ofchy daiin  ...  schor daiin\nf22r.5  ol daiin     ...  dar daiin\n```\n\nAcross the entire cache there are twelve exact `H-head X daiin` triples\n(H1 five, H2 five, H4 two); f22r.4 alone contains two on one line. That makes a\nmain-field/subfield inventory much more natural than a sequence of actions.",
+        "sha256": "43ee900632971c0f6877447ef3432d21274512d0ed033d2cc85d9874427e4f35"
+      },
+      "original_draft": "research_registry/proposals/jo_parallel_cell_apposition.json",
+      "binding_status": "availability_unknown",
+      "review_status": "unreviewed",
+      "cli_status": "UNTESTED_PROPOSAL",
+      "duplicate_append_note": "Accidental retry of IDEA000053 during earlier hung CLI process; same title/design/file/hash; retained raw and not scientifically reviewed."
+    }
+  ],
+  "pre_add_checks": {
+    "intake_files_and_design_hashes_verified": true,
+    "source_spans_validated_with_tools.semantic_identity._evidence": true,
+    "serial_cli_attempts": 2,
+    "no_review_or_refresh_or_ledger_or_build": true
+  },
+  "design_stop_notes": {
+    "IDEA000053": "Same class does not imply same referent; distinct profiles alone do not falsify apposition. Different head/field roles can still appose one referent.",
+    "IDEA000054": "Names can reference in either direction; reference/name is not exclusive. Document order is not independently proven authorial reading order."
+  },
+  "scientific_status": "UNREVIEWED; no scientific test or readiness claim."
+}

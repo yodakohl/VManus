@@ -1,0 +1,158 @@
+{
+  "status": "ROOT_SOURCE_BOUND_DRAFT",
+  "decisions": [
+    {
+      "id": "FAILURE_JP:GDT735_ARCHITECTURE_VS_MAPPING:v1",
+      "decision_key": "FAILURE_JP:GDT735_ARCHITECTURE_VS_MAPPING",
+      "revision": 1,
+      "previous_revision": null,
+      "status": "reviewed_scoped_context",
+      "review_status": "reviewed_scoped_context",
+      "reviewer": "root after exact primary method/report/design comparison",
+      "targets": [
+        "SEM:7207b55e77053597a3aa"
+      ],
+      "card_basis": {
+        "SEM:7207b55e77053597a3aa": "4456e3d4bc8c677e9a1a3e2cb1386eb888cd5cce2c749b7f143593d8ed2e4b5a"
+      },
+      "effective_basis": {
+        "SEM:7207b55e77053597a3aa": "c12a17bd9b87157ffcbee0611876514a180d129c95c99085d57603e4988ea1ee"
+      },
+      "source_case_ids": {
+        "SEM:7207b55e77053597a3aa": [
+          "CLEAN_GAP_JL:gdt735_mixed_record_architecture"
+        ]
+      },
+      "claim": "What does GDT735 establish about a mixed descriptive/prescriptive architecture, and why does its four-head structural grid not identify the material names?",
+      "scope": "The22-source historical atlas and the96-cell four-head grid; distinguish comparator architecture from target word mapping.",
+      "reason_class": "historical_architecture_prior_with_unidentified_mapping",
+      "actually_tested_falsifier": "GDT735 enumerates24 assignments of four material labels toH1-H4; all explain the same96 structural cells. Two OCR-frequency diagnostics rank the old initial mnemonic20/24 without mapping credit. The22-source atlas contains no actual interchangeable four-head one-letter material code. Its source-informed pre-validation design fixes separate channels and a direct MS.542 two-channel bridge; it is explicitly not a blind preregistration.",
+      "outcome": "Mixed-field architecture remains a historical working prior. Neither structural fit, historical vocabulary nor matching EVA initials selects a material assignment. Absence in22 inspected sources is bounded, not a universal historical impossibility; all24 are tied only under this structural criterion.",
+      "claim_ceiling": "Historical source-question assessment, not a new meaning or execution approval. No automatic status or result propagation.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt735_historical_semantic_bridge_atlas/METHOD.md",
+          "line": 38,
+          "line_end": 49,
+          "quote": "All `4! = 24` assignments of the historical labels `PULVIS`, `SEMEN`, `RADIX`,\nand `LIGNUM` to `H1–H4` are enumerated. Every assignment explains the same 96\nstructural cells, hence tie size 24.\n\nFor two OCR slices, total-variation distance compares target head frequencies\nwith historical word-mention frequencies. OCR mentions are neither entries nor\nrelations, and the sources were inspected during reconnaissance. The ranks are\ntherefore only a weak negative control. No rank earns mapping credit.\n\nM01—the former mnemonic `p→pulvis, s→semen, r→radix, l→lignum`—is an invalid\nanachronistic initialism and is ineligible for selection regardless of score.\nM02 retains all 24 ranks solely as label-compatibility diagnostics.",
+          "sha256": "4477e9c956f4946a6b4f9dc1eb6c57a2e1417d653ca3c8d54d546cca85c17390"
+        },
+        {
+          "path": "experiments/yolo/gdt735_historical_semantic_bridge_atlas/METHOD.md",
+          "line": 61,
+          "line_end": 67,
+          "quote": "Index and cross-reference fields remain distinct. Wellcome MS.542 is the\ndirect same-manuscript bridge: it contains descriptive learned-name or named-\npart entries with qualities/degrees and prescriptive commands with counted\ndrops. This attests coexistence of channels, with Voynich mapping credit 0.\n\nThe atlas separately checks for an actual interchangeable four-head\none-letter material code. None occurs in the 22-source registry.",
+          "sha256": "4477e9c956f4946a6b4f9dc1eb6c57a2e1417d653ca3c8d54d546cca85c17390"
+        },
+        {
+          "path": "experiments/yolo/gdt735_historical_semantic_bridge_atlas/PREREGISTRATION.md",
+          "line": 3,
+          "line_end": 12,
+          "quote": "## Timing and status\n\nThis is **not a blind preregistration**. Broad historical source\nreconnaissance had already been performed, source families inspected, and an\ninitial model drafted. The user then supplied the critical correction that\n`p/s/r/l` are modern EVA transcription labels, not medieval Latin letters.\nThe design and role specs were corrected after that reconnaissance and user\ncorrection but **before independent validation**.\n\nThe honest designation is a source-informed, pre-validation design fix.",
+          "sha256": "cf6a0762f9630c4c9e098877aea8d243a505acf5018037dcd7287a937d1f7537"
+        },
+        {
+          "path": "experiments/yolo/gdt735_historical_semantic_bridge_atlas/PREREGISTRATION.md",
+          "line": 36,
+          "line_end": 47,
+          "quote": "## Interpretation and falsifiers\n\nA positive result may attest only coexistence of learned names, bound\ndescriptive fields, and separate prescriptive fields. OCR winners, abstract\nrole order, distributional head associations, matching Latin initials, or the\npresence of powder/seed/root/wood/liquor vocabulary remain nonidentifying.\n\nThe mixed prior must be demoted if the observations do not instantiate the\nstated fields, the channels cannot be separated, MS.542 lacks either direct\nchannel, or the result needs EVA-initial or neighbor-derived semantic credit.\nRole seeds remain unresolved when they reverse across supported families,\ndepend on one frequent head, or require an invented patient, unit, or process.",
+          "sha256": "cf6a0762f9630c4c9e098877aea8d243a505acf5018037dcd7287a937d1f7537"
+        }
+      ],
+      "reopening": {
+        "status": "REVIEW_REQUIRED_NOT_TEST_READY",
+        "assessed_by": "curation_review",
+        "criteria_origin": "Prospective question-specific root assessment preserving the original source contract, not a new preregistration.",
+        "all_of": [
+          "Specify whether the proposed change challenges the historical channel evidence or distinguishes target mappings; these are different questions.",
+          "For the historical prior, supply a direct correction to its actual source/field/bridge claims or a genuinely relevant new primary comparator. One unrelated nonmixed document does not refute coexistence elsewhere.",
+          "For a target mapping, supply independent target-to-value correspondence that breaks the24-way structural invariance. Discovery of a superficially similar historical code alone does not identify the manuscript heads."
+        ],
+        "not_sufficient": [
+          "Another OCR rank, permutation score or unchanged96-cell fit.",
+          "Latin initials assigned to modern EVA labels.",
+          "One counterexample to a universal historical claim that GDT735 did not establish."
+        ]
+      },
+      "automatic_card_status_propagation": false,
+      "empirical_meaning_refutation": false,
+      "review_artifact": {
+        "path": "research_registry/decisions/jp_root_source_question_review.json",
+        "sha256": "9395bd2f0a85de48f9ba6844ff640e1561848874d072d982e69d0f071cb34186"
+      }
+    },
+    {
+      "id": "FAILURE_JP:GDT737_BODY_TRANSFER_VS_LOCATION:v1",
+      "decision_key": "FAILURE_JP:GDT737_BODY_TRANSFER_VS_LOCATION",
+      "revision": 1,
+      "previous_revision": null,
+      "status": "reviewed_scoped_context",
+      "review_status": "reviewed_scoped_context",
+      "reviewer": "root after exact primary method/report/design comparison",
+      "targets": [
+        "SEM:2d5c075fd42cbf8a74b6"
+      ],
+      "card_basis": {
+        "SEM:2d5c075fd42cbf8a74b6": "465b3a285634cd4df3066bbb31a69756ee7e1ddcc7a15961d8f078ac058472e5"
+      },
+      "effective_basis": {
+        "SEM:2d5c075fd42cbf8a74b6": "c75381281b7095cf3a7941270cb8be2375c3978e704a0168f635e9b2fec52837"
+      },
+      "source_case_ids": {
+        "SEM:2d5c075fd42cbf8a74b6": [
+          "CLEAN_GAP_JL:gdt736_head_role_2x2"
+        ]
+      },
+      "claim": "Which part of GDT736 survives GDT737: position-conditioned head roles or the full paired body-affinity model?",
+      "scope": "The original24-body discovery model and source-held120-body transfer; bodies are not independent held folios or semantic witnesses.",
+      "reason_class": "known_body_affinity_transfer_failure_with_location_signal",
+      "actually_tested_falsifier": "The source-fixed primary requires H1-H4 and H2-H3 to be the top two raw occurrence-count cosine pairs across held bodies. H1-H4 is third raw and fourth reader-exact, so the complete frozen pair ranking fails. H2-H3 remains strongest but depends heavily onain. Separately H1/H2 have199/328 line-first occurrences versus24/483 forH3/H4, while H1 has98/147 paragraph-first versus3/181 forH2. Reader-exact/occupancy/binary views are diagnostics, not replacements for the failed primary.",
+      "outcome": "Retain the observed register/position-conditioned roles with their exceptions; do not export body-cluster labels as meanings or revive the original full2x2 semantic pairing. GDT738 already followed with exact occurrence-neighbor and family analyses, so that generic successor is not a new route.",
+      "claim_ceiling": "Historical source-question assessment, not a new meaning or execution approval. No automatic status or result propagation.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt737_held_body_record_role_transfer/PREREGISTRATION.md",
+          "line": 3,
+          "line_end": 17,
+          "quote": "The target is the 120 shared remainders in GDT635 that were not among the 24\ncomplete four-head bodies used by GDT736. No new page, image, transcription or\nmeaning source is admitted.\n\nThe primary transfer checks are inherited rather than tuned to this panel:\n\n1. H1/H2 should remain earlier and more often line-first than H3/H4.\n2. H1 should remain more often paragraph-first than H2.\n3. H3 should remain later or more often final than H4.\n4. The frozen GDT736 body-affinity claim passes only if H1-H4 and H2-H3 remain\n   the two strongest raw occurrence-count cosine pairs across held bodies.\n\nReader-exact, occupancy, section, body-balanced and binary-presence views are\ndiagnostics. They may explain a primary result but may not replace the frozen\nraw-count test.",
+          "sha256": "a34702b890c37c74d2487230a6382d63ad0623c66ec97d58d2a7c889f45e9612"
+        },
+        {
+          "path": "experiments/yolo/gdt737_held_body_record_role_transfer/REPORT.md",
+          "line": 7,
+          "line_end": 43,
+          "quote": "Auf 120 vorher nicht verwendeten gemeinsamen Restkörpern stehen H1/H2 in\n199 von 328 Fällen am Zeilenanfang, H3/H4 nur in 24 von 483. Das ergibt eine\nOdds Ratio von **29,50**; im reader-exakten Rest sogar **36,78**. Die mittlere\nReihenfolge ist wieder H1 (0,148), H2 (0,325), H4 (0,575), H3 (0,665). H1 ist\n98/147-mal echter Absatzanfang, H2 nur 3/181-mal. Damit dürfen die vier Köpfe\nals register- und positionsabhängige Recordklassen weiterverwendet werden.\n\nDas vollständige 2x2 der Körperaffinitäten fällt dagegen durch den in GDT736\nselbst festgelegten Transfer-Test:\n\n1. H2-H3: 0,915\n2. H3-H4: 0,199\n3. H1-H4: 0,157\n4. H2-H4: 0,147\n5. H1-H2: 0,059\n6. H1-H3: 0,052\n\nH1-H4 hätte zusammen mit H2-H3 unter den beiden stärksten raw-count-Paaren\nbleiben müssen. Es landet nur auf Rang 3, reader-exakt sogar auf Rang 4. Die\nfrühere semantische „Cluster A“-Übertragung wird deshalb auf die 24\nTrainingskörper zurückgeschnitten. H2-H3 bleibt ein partieller Lead, ist aber\nstark von `ain` abhängig: ohne `ain` sinkt der Kosinus auf 0,620, ohne\n`ain|o|kar` auf 0,522. Eine gemeinsame Bedeutung folgt daraus nicht.\n\n## Was an den vier Kopfrollen bleibt\n\n- H1: an echtem Absatzanfang Absatz-/Recordöffner; sonst nur H1-Ganzform oder\n  lokale Ausnahme.\n- H2: zeileninitial Posten-/Untereintragsform; intern oder final ein\n  registerabhängiges Feld beziehungsweise Ganzwort.\n- H3: überwiegend interner oder abschließender Bezug; initial nicht automatisch\n  umdeuten.\n- H4: überwiegend internes Feld; initial eine Ganzform-/Registerausnahme.\n\nDas sind strukturelle Rollen, keine Wörter. Beispiele wie `sary` (nur 1/7\ninitial, 5/7 final), `so`, `skaiin`, `lcheol`, `lchor` und `lsheody` verhindern\neinen universellen Kopf-Renderer. Unter 95 Körpern mit beiden Stellungsachsen",
+          "sha256": "435355e260821f2858f38aaf46899995ea2778eab08c00d8160a60de5a008614"
+        },
+        {
+          "path": "experiments/yolo/gdt738_held_body_occurrence_semantic_adjudication/REPORT.md",
+          "line": 5,
+          "line_end": 19,
+          "quote": "Der erste occurrence-nahe Bedeutungsfilter nach der H1–H4-Korrektur liefert\neine kleine, aber praktisch nutzbare Schnittmenge. Auf dem breiten\nEntdeckungsdeck bestehen elf Körper und siebzehn vollständige Formen. Auf dem\nsaubereren W2/W3-Achsendeck bleiben **sieben Körper und zwölf vollständige\nFormen**. Nur zwei Körper, `ain` und `sheedy`, besitzen direkte\nkopfübergreifende Wiederholung in reader-exakten Nachbarrahmen. Fünf weitere\nKörper — `kar`, `kaiin`, `kain`, `cheol`, `cheedy` — bestehen über eine vorher\nfestgelegte Ganzfamilien-Analogie. Vier weitere — `keey`, `cheor`, `ky`, `key`\n— bleiben als sichtbare Discovery-Kandidaten erhalten, werden aber nicht in\nden ausführbaren Renderer übernommen.\n\nDer praktische Gewinn ist damit eng und konkret: Die zwölf zugelassenen\nGanzformen dürfen als lokale Skalar-, Wärme/Verarbeitungs-, Trocken- oder\nFeucht/Einweichfelder gesprochen werden. Kein Kopf und kein Körper wird zum\nfreien Wortstamm. Insbesondere entstehen weder „Drogenholz“ noch „Salz“ und",
+          "sha256": "7dd9f253279f61f0309db060cb7d008200cc8eabffff9597579fd71601d754e7"
+        }
+      ],
+      "reopening": {
+        "status": "REVIEW_REQUIRED_NOT_TEST_READY",
+        "assessed_by": "curation_review",
+        "criteria_origin": "Prospective question-specific root assessment preserving the original source contract, not a new preregistration.",
+        "all_of": [
+          "Preserve the failed raw-count pair-ranking result and specify a genuinely different predeclared discriminator or materially corrected original input before any revisit. New counts or an alternate diagnostic alone do not meet this condition.",
+          "Check primary successors includingGDT738-GDT741 before selecting any occurrence-neighbor or local-frame design; the generic follow-up has already been executed.",
+          "Define the future endpoint independently of inherited body meanings and state which claim its outcome could change. A new local-frame failure would not automatically erase the already observed marginal location pattern."
+        ],
+        "not_sufficient": [
+          "More same-route bodies or choosing occupancy/binary/reader-exact cosine after the primary fails.",
+          "Calling120bodies120heldfolios.",
+          "A source-proposed successor repeated as though it had not already been pursued."
+        ]
+      },
+      "automatic_card_status_propagation": false,
+      "empirical_meaning_refutation": false,
+      "review_artifact": {
+        "path": "research_registry/decisions/jp_root_source_question_review.json",
+        "sha256": "9395bd2f0a85de48f9ba6844ff640e1561848874d072d982e69d0f071cb34186"
+      }
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "schema": "jp_source_question_draft_v1",
+  "status": "draft_no_registry_append",
+  "scope": "Bounded source-question audit for the newly integrated JL GDT735/GDT736 model cards. Existing scoped-dossier search was limited to decisions containing the JL card IDs, GDT735-737 identifiers, or the exact H1-H4/body-affinity terms; no exact prior scoped question was found. No corpus rerun, raw TSV access, or registry mutation.",
+  "screened_existing_paths": [
+    "research_registry/decisions/jl_missing_historical_models.json",
+    "research_registry/decisions/jl_source_card_draft.json",
+    "research_registry/decisions/clean_gap_review_jl_integrated.json",
+    "research_registry/decisions/jn_first_packet_peer.json"
+  ],
+  "questions": [
+    {
+      "id": "JP735_ARCHITECTURE_NONIDENTIFIABILITY",
+      "target_review_ids": [
+        "CLEAN_GAP_JL:gdt735_mixed_record_architecture"
+      ],
+      "counterpart_sem_ids": [
+        "SEM:2527b81cfdb5b1ebb118",
+        "SEM:50cd2c09a8c16c079116",
+        "SEM:0452525a7f0460a4888d"
+      ],
+      "question": "Does the GDT735 historical evidence support only coexistence of descriptive learned wholes and prescriptive bound fields while leaving all 24 PULVIS/SEMEN/RADIX/LIGNUM-to-H1-H4 assignments observationally tied?",
+      "unit_and_scope": "The historical two-channel architecture and the opaque H1-H4 grid; no EVA initial, body gloss, component export or four-head word mapping.",
+      "actual_tested_falsifier": "GDT735 enumerated all 4! = 24 assignments and found every assignment explains the same 96 structural cells (METHOD lines 38-45). It separately found no interchangeable four-head one-letter material code in the 22-source registry (METHOD lines 61-67). The mixed prior would be demoted if the historical observations failed to instantiate separable channels or if MS.542 lacked either direct channel (PREREGISTRATION lines 38-45).",
+      "future_distinct_outcome": "A genuinely new primary historical source that directly identifies an interchangeable four-head code, or that collapses the descriptive/prescriptive channel distinction, would change the historical architecture decision. Another OCR rank, head-frequency association, or permutation score would leave the 24-way nonidentifiability unchanged.",
+      "source_evidence": [
+        {
+          "path": "experiments/yolo/gdt735_historical_semantic_bridge_atlas/METHOD.md",
+          "line": 38,
+          "line_end": 49,
+          "quote": "All `4! = 24` assignments of the historical labels `PULVIS`, `SEMEN`, `RADIX`,\nand `LIGNUM` to `H1–H4` are enumerated. Every assignment explains the same 96\nstructural cells, hence tie size 24.\n\nFor two OCR slices, total-variation distance compares target head frequencies\nwith historical word-mention frequencies. OCR mentions are neither entries nor\nrelations, and the sources were inspected during reconnaissance. The ranks are\ntherefore only a weak negative control. No rank earns mapping credit.\n\nM01—the former mnemonic `p→pulvis, s→semen, r→radix, l→lignum`—is an invalid\nanachronistic initialism and is ineligible for selection regardless of score.\nM02 retains all 24 ranks solely as label-compatibility diagnostics.",
+          "sha256": "4477e9c956f4946a6b4f9dc1eb6c57a2e1417d653ca3c8d54d546cca85c17390"
+        },
+        {
+          "path": "experiments/yolo/gdt735_historical_semantic_bridge_atlas/METHOD.md",
+          "line": 61,
+          "line_end": 67,
+          "quote": "Index and cross-reference fields remain distinct. Wellcome MS.542 is the\ndirect same-manuscript bridge: it contains descriptive learned-name or named-\npart entries with qualities/degrees and prescriptive commands with counted\ndrops. This attests coexistence of channels, with Voynich mapping credit 0.\n\nThe atlas separately checks for an actual interchangeable four-head\none-letter material code. None occurs in the 22-source registry.",
+          "sha256": "4477e9c956f4946a6b4f9dc1eb6c57a2e1417d653ca3c8d54d546cca85c17390"
+        }
+      ],
+      "reopening_conditions": [
+        "New direct historical source evidence changing channel separability or explicitly mapping the four opaque heads; no rerun of the existing 24-way diagnostic.",
+        "Preserve the current zero lexeme and zero EVA-initial credits until such evidence exists."
+      ],
+      "decision_consequence": "Retain the mixed architecture as a historical prior with four-head semantics unidentified, or demote that architecture if a direct source contradiction appears."
+    },
+    {
+      "id": "JP736_LOCATION_AXIS_BODY_AFFINITY_SCOPE",
+      "target_review_ids": [
+        "CLEAN_GAP_JL:gdt736_head_role_2x2"
+      ],
+      "counterpart_sem_ids": [
+        "SEM:caeb194626079dc8a8ea",
+        "SEM:50cd2c09a8c16c079116",
+        "SEM:0452525a7f0460a4888d"
+      ],
+      "question": "After GDT737's held-body transfer, which part of GDT736 remains admissible: the H1/H2 versus H3/H4 record-location axis, while the frozen H1-H4/H2-H3 body-affinity pair ranking is rejected?",
+      "unit_and_scope": "H1-H4 opaque head classes over the 120 held shared bodies, distinguishing occurrence-conditioned record location from the failed body-affinity 2x2. No head or body lexeme claim.",
+      "actual_tested_falsifier": "GDT737's preregistered primary falsifier required H1-H4 and H2-H3 to remain the two strongest raw-count cosine pairs; on the held panel H1-H4 ranked 3rd/4th and H2-H3 was ain-dominated (REPORT lines 14-29). In contrast, H1/H2 remained earlier and more paragraph-first than H3/H4 (REPORT lines 7-12). The body-affinity failure is therefore known and must not be reopened by more same-route body counts.",
+      "future_distinct_outcome": "A genuinely different occurrence-gated exact-neighbor-frame analysis could test whether the surviving location roles predict independently defined local record relations. It would change the structural-role decision only if its predeclared location contrast separates from an occurrence/order null; it cannot resurrect the failed body-affinity pair ranking.",
+      "source_evidence": [
+        {
+          "path": "experiments/yolo/gdt737_held_body_record_role_transfer/REPORT.md",
+          "line": 7,
+          "line_end": 29,
+          "quote": "Auf 120 vorher nicht verwendeten gemeinsamen Restkörpern stehen H1/H2 in\n199 von 328 Fällen am Zeilenanfang, H3/H4 nur in 24 von 483. Das ergibt eine\nOdds Ratio von **29,50**; im reader-exakten Rest sogar **36,78**. Die mittlere\nReihenfolge ist wieder H1 (0,148), H2 (0,325), H4 (0,575), H3 (0,665). H1 ist\n98/147-mal echter Absatzanfang, H2 nur 3/181-mal. Damit dürfen die vier Köpfe\nals register- und positionsabhängige Recordklassen weiterverwendet werden.\n\nDas vollständige 2x2 der Körperaffinitäten fällt dagegen durch den in GDT736\nselbst festgelegten Transfer-Test:\n\n1. H2-H3: 0,915\n2. H3-H4: 0,199\n3. H1-H4: 0,157\n4. H2-H4: 0,147\n5. H1-H2: 0,059\n6. H1-H3: 0,052\n\nH1-H4 hätte zusammen mit H2-H3 unter den beiden stärksten raw-count-Paaren\nbleiben müssen. Es landet nur auf Rang 3, reader-exakt sogar auf Rang 4. Die\nfrühere semantische „Cluster A“-Übertragung wird deshalb auf die 24\nTrainingskörper zurückgeschnitten. H2-H3 bleibt ein partieller Lead, ist aber\nstark von `ain` abhängig: ohne `ain` sinkt der Kosinus auf 0,620, ohne\n`ain|o|kar` auf 0,522. Eine gemeinsame Bedeutung folgt daraus nicht.",
+          "sha256": "435355e260821f2858f38aaf46899995ea2778eab08c00d8160a60de5a008614"
+        },
+        {
+          "path": "experiments/yolo/gdt737_held_body_record_role_transfer/PREREGISTRATION.md",
+          "line": 1,
+          "line_end": 19,
+          "quote": "# GDT737 design fix\n\nThe target is the 120 shared remainders in GDT635 that were not among the 24\ncomplete four-head bodies used by GDT736. No new page, image, transcription or\nmeaning source is admitted.\n\nThe primary transfer checks are inherited rather than tuned to this panel:\n\n1. H1/H2 should remain earlier and more often line-first than H3/H4.\n2. H1 should remain more often paragraph-first than H2.\n3. H3 should remain later or more often final than H4.\n4. The frozen GDT736 body-affinity claim passes only if H1-H4 and H2-H3 remain\n   the two strongest raw occurrence-count cosine pairs across held bodies.\n\nReader-exact, occupancy, section, body-balanced and binary-presence views are\ndiagnostics. They may explain a primary result but may not replace the frozen\nraw-count test.\n\nThe semantic repair is separate. Existing V99R7 exact-whole cards containing",
+          "sha256": "a34702b890c37c74d2487230a6382d63ad0623c66ec97d58d2a7c889f45e9612"
+        }
+      ],
+      "reopening_conditions": [
+        "Do not rerun or reopen the failed body-affinity rank route with more bodies or alternate cosine views; GDT737 explicitly fixed raw-count ranking as primary.",
+        "Only a new predeclared endpoint with independently defined neighbor/frame relations can test the surviving location axis; this is a structural question and does not require universal GDT388 coverage or semantic gold.",
+        "Any future result must preserve the H1-H4 failed affinity history and the location-axis survival separately."
+      ],
+      "decision_consequence": "Retain occurrence-conditioned record-location roles while quarantining the transferred body-affinity semantic pairing, or demote the location axis only if a genuinely independent held neighbor-frame falsifier fails."
+    }
+  ],
+  "limits": "These drafts document source propositions and exact tested failures; they do not claim new meaning, test readiness, or a reason to reopen the completed routes. New data alone cannot reverse the GDT737 body-affinity failure."
+}

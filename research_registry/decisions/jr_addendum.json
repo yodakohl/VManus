@@ -1,0 +1,34 @@
+{
+  "schema": "jr_addendum_v1",
+  "parent": "research_registry/decisions/jr_identity_scope_challenge.json",
+  "status": "scope_correction_only_no_identity_append",
+  "AIR": {
+    "pair_id": "JQ02",
+    "correction": "The earlier 'related' recommendation was too strong. AIR931 explicitly states a common abstract AIR=LAUFWEG core with workshop/station and ring realizations, and the directional source independently narrows AIR to Laufweg while keeping water as a local realization. Different physical contexts therefore do not by themselves refute proposition equivalence.",
+    "recommendation": "equivalent_proposition_with_unit_guard",
+    "limits": "Equivalence is only the abstract scoped core. Do not merge physical carrier, station-path, ring-course or register-specific expansions, and do not infer a raw complete-word meaning from an analyst AIR code.",
+    "evidence": [
+      {"path":"experiments/yolo/sidequest_semantic_bilevel_component_dictionary_nine_hundred_thirty_first/PASS931_REPORT.md","line":12,"line_end":18,"quote":"- `O = LAUF`: Werkstattgang ausführen / Bildreihe aufrufen;\n- `OK = AKTIVIEREN`: Arbeitsgang ansetzen / Bildplatz aktivieren;\n- `CH = AUSWAHL_ENTNAHME`: Anteil entnehmen / Klasse kennzeichnen;\n- `K = ZUORDNUNG`: Material zugeben / Wert zuordnen;\n- `AIR = LAUFWEG`: Flüssigkeits- oder Stationslauf / Ringlauf;\n- `AL = ZIEL`, `AR = QUELLE`, `Y = REFERENT` funktionieren in beiden Registern\n  beinahe wörtlich gleich.","sha256":"364f27fd6782f9fe09974205d9852b625abd8d0a92b99d69b9cddd2399050b38"},
+      {"path":"experiments/yolo/sidequest_semantic_directional_completion/WORKSHOP_DIRECTION_REPORT.md","line":90,"line_end":94,"quote":"Darum ist der kleinste gemeinsame Beitrag `AIR = Laufweg`. Wasser kann in der\nlokalen Ausführung von `chair` oder `kair` stehen, ist aber nicht das\nWerkstattkürzel selbst. Ebenso wird aus `schedair` nicht mehr gleichzeitig\n„führen oder abziehen“: Die Richtung kommt nur von `P/L/AR/AL`; AIR nennt den\nWeg.","sha256":"3dabb5a83c08c8ba0654d3161e1a3e01dd941d3631124a20966c20943e6ca9ec"}
+    ]
+  },
+  "IIN": {
+    "pair_id": "JQ04",
+    "correction": "The earlier 'related' recommendation was too strong at the abstract proposition level. Both sources explicitly assign IIN=Zielstufe; the K/DA compositions describe different neighboring operators, not necessarily different IIN propositions.",
+    "recommendation": "equivalent_proposition_with_scope_guard",
+    "limits": "Preserve vessel/station and thermal-stage cases separately. This does not establish that every IIN occurrence is a complete raw word; the evidence may be an analyst component/code or a scoped whole-card value.",
+    "evidence": [
+      {"path":"experiments/yolo/sidequest_semantic_vessel_tool_station_completion/VESSEL_TOOL_STATION_REPORT.md","line":120,"line_end":122,"quote":"Nur `DAIIIN` bleibt wirklich gradierbar, weil `IIN = Zielstufe` bereits in der\ngrößeren Grammatik arbeitet. Die Reihenfolge der Öffnungen kommt künftig aus\nder Satzfolge, nicht aus einer frei erfundenen Wortbedeutung.","sha256":"09c6dedcd2836d6f3ecce12880f2fcf5c38150e0910b81a6fe9ec98399c507ce"},
+      {"path":"experiments/yolo/sidequest_semantic_thermal_temporal_completion/SELECTED_THERMAL_TEMPORAL_REPORT.md","line":22,"line_end":23,"quote":"| `AIIN` | SOLLMASS | mit `OK`: auf Sollmaß einstellen; mit `OT`: Folgemaß |\n| `IIN` | ZIELSTUFE | mit `K`: weiche Zielstufe; mit `DA`: zweite Öffnungsstufe |","sha256":"eb99d0fea0b322cf0ec1694f8b36021bdc8093b23b7e4fccd4d99c73c391d1a1"}
+    ]
+  },
+  "unit_correction": {
+    "pairs": ["JQ03", "JQ05"],
+    "correction": "Retain their proposition-level casefold equivalence only. Replace any wording implying a proven complete raw whole with analyst-code/complete-form ambiguity: uppercase/lowercase RHS and a shared card label do not establish raw unit identity.",
+    "evidence": [
+      {"path":"experiments/yolo/sidequest_semantic_five_root_dictionary_six_hundred_sixty_third/SIX_HUNDRED_SIXTY_THIRD_REPORT.md","line":10,"line_end":13,"quote":"| CHD/CHED | umsetzen | 22 | 48 |\n| SHED | absetzen | 3 | 15 |\n| CHK | wärmen | 4 | 7 |\n| CTH | bereit | 8 | 15 |","sha256":"3038f0433b8f1043ddc5813a6b0545e6e6e7d164ebafe14ecabe1b4ce941ee5b"},
+      {"path":"experiments/yolo/sidequest_semantic_portable_dictionary_entries_two_hundred_nineteenth/TWO_HUNDRED_NINETEENTH_REPORT.md","line":5,"line_end":7,"quote":"Die knappsten und natürlichsten Artikel sind `Y = DIES`, `AIIN = SOLLWERT`, `OL = WEITER`, `OT = FOLGE`, `AR = VON` und `AL = ZIEL`. Sie brauchen im jeweiligen Register andere konkrete Besitzer, aber keinen Bedeutungswechsel. `OR = ANSATZ` ist etwas abstrakter: in Prosa eine laufende Zubereitung, im Diagramm ein Bedingungs- oder Tabellensatz.\n\n`CHEEY/SHEY = FREIGABEWERT` bleibt bewusst eine gelernte Ganzkarte. Daraus wird kein freies `EY` konstruiert. Ebenso ist `DY = FERTIG` nur in lizenzierten Karten- und Zellkonstruktionen gültig; die sichtbare Zeichenfolge allein reicht nicht.","sha256":"c4349ac37ca391d2498d568ce9efb4f75ea3ff7c9085ef8ab9b4d6d4e62298c9"}
+    ]
+  },
+  "overall": "AIR and IIN should be treated as proposition-equivalent at an abstract scoped-core level, subject to unit and context guards. CHK and OT remain proposition-equivalent only in that same guarded sense. No raw-word identity or source-case merge follows."
+}

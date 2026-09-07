@@ -1,0 +1,539 @@
+{
+  "schema": "source_case_unit_peer_v1",
+  "review_id": "JS_AIIN_CHK_CASE_UNITS",
+  "status": "complete_read_only_audit",
+  "scope": "JQ01 AIIN and JQ03 CHK only; every listed source case and evidence object inspected.",
+  "identity_review_manifest": {
+    "path": "research_registry/IDENTITY_REVIEW_INPUTS.json",
+    "sha256": "f6a00aeac9d69a641b4308fae34420f4d073641c17430960d26096fe2833f127",
+    "input_count": 103,
+    "loaded_before_selection": true
+  },
+  "method": "Uppercase/lowercase display was not treated as manuscript evidence. Unit labels describe the authored source scope; no case was promoted to a confirmed whole-card meaning.",
+  "pairs": [
+    {
+      "pair_id": "JQ01",
+      "surface": "AIIN",
+      "candidate_relation": "equivalent_proposition",
+      "current_identity_link": false,
+      "recommendation": "withhold_equivalence",
+      "scope_finding": "The AIIN→MAẞ side has one explicit local override (DAIN=TUCH), while AIIN→Maß is supported by component/codebook and inherited late-audit entries. This is a polarity/scope mismatch, not same-scope whole-card evidence.",
+      "cards": [
+        {
+          "id": "SEM:5c79d44a5ce096c927bb",
+          "claim": "AIIN → Maß",
+          "card_basis": "c58e640bcdba3129f8dd6d2f205c13ed7e955d1a8f42b89dc23028db33a9f6fc",
+          "effective_basis": "44c2e4fee82935dd4051568161be340dee90cc180a2fb295d42daf5c167d3bcb",
+          "source_case_ids": [
+            "CLEAN_COMPONENT:4324345f595f7089b0f0",
+            "CLEAN_COMPONENT:2e5f82cfd929f633ccea",
+            "CLEAN_COMPONENT:3ee1a224a706c703b54c",
+            "CLEAN_COMPONENT:75eaade2ddc53c829432",
+            "CLEAN_COMPONENT:3261f59d18af53554643",
+            "LATE_SIDEQUEST:4537365178653816a11d",
+            "LATE_SIDEQUEST:5ef34fa787393ade6410"
+          ],
+          "source_cases": [
+            {
+              "id": "CLEAN_COMPONENT:4324345f595f7089b0f0",
+              "form_or_model": "AIIN",
+              "proposed_value_or_model": "Maß",
+              "status": "unconfirmed",
+              "scope": {
+                "kind": "source_bound_working_hypothesis",
+                "parent_gdt": null,
+                "section": "Warum die Zusammenlesung funktioniert",
+                "semantic_column": null,
+                "source": "experiments/yolo/sidequest_semantic_f10_two_section_article_five_hundred_thirtieth/FIVE_HUNDRED_THIRTIETH_REPORT.md"
+              },
+              "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+              "review_file": "research_registry/decisions/clean_component_review.json",
+              "unit_classification": "analyst_component_codebook",
+              "unit_reason": "The source presents a short/root value or inherited working vocabulary; it does not independently assert the whole card’s historical meaning."
+            },
+            {
+              "id": "CLEAN_COMPONENT:2e5f82cfd929f633ccea",
+              "form_or_model": "AIIN",
+              "proposed_value_or_model": "Maß",
+              "status": "unconfirmed",
+              "scope": {
+                "kind": "source_bound_working_hypothesis",
+                "parent_gdt": null,
+                "section": "4. Tuchweg und mechanische Trennung",
+                "semantic_column": null,
+                "source": "experiments/yolo/sidequest_semantic_filtration_separation_completion/WORKSHOP_FILTRATION_REPORT.md"
+              },
+              "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+              "review_file": "research_registry/decisions/clean_component_review.json",
+              "unit_classification": "analyst_component_codebook",
+              "unit_reason": "The source presents a short/root value or inherited working vocabulary; it does not independently assert the whole card’s historical meaning."
+            },
+            {
+              "id": "CLEAN_COMPONENT:3ee1a224a706c703b54c",
+              "form_or_model": "AIIN",
+              "proposed_value_or_model": "Maß",
+              "status": "unconfirmed",
+              "scope": {
+                "kind": "source_bound_working_hypothesis",
+                "parent_gdt": null,
+                "section": "Vergleich mit H3/f11r",
+                "semantic_column": null,
+                "source": "experiments/yolo/sidequest_semantic_h4_parallel_recipe_five_hundred_twenty_eighth/FIVE_HUNDRED_TWENTY_EIGHTH_REPORT.md"
+              },
+              "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+              "review_file": "research_registry/decisions/clean_component_review.json",
+              "unit_classification": "analyst_component_codebook",
+              "unit_reason": "The source presents a short/root value or inherited working vocabulary; it does not independently assert the whole card’s historical meaning."
+            },
+            {
+              "id": "CLEAN_COMPONENT:75eaade2ddc53c829432",
+              "form_or_model": "AIIN",
+              "proposed_value_or_model": "Maß",
+              "status": "unconfirmed",
+              "scope": {
+                "kind": "source_bound_working_hypothesis",
+                "parent_gdt": null,
+                "section": "Rivalen und verbleibende Schwächen",
+                "semantic_column": null,
+                "source": "experiments/yolo/sidequest_semantic_state_endpoint_completion/STATE_GRADE_PARADIGM_REPORT.md"
+              },
+              "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+              "review_file": "research_registry/decisions/clean_component_review.json",
+              "unit_classification": "analyst_component_codebook",
+              "unit_reason": "The source presents a short/root value or inherited working vocabulary; it does not independently assert the whole card’s historical meaning."
+            },
+            {
+              "id": "CLEAN_COMPONENT:3261f59d18af53554643",
+              "form_or_model": "AIIN",
+              "proposed_value_or_model": "Maß",
+              "status": "unconfirmed",
+              "scope": {
+                "kind": "source_bound_working_hypothesis",
+                "parent_gdt": null,
+                "section": "Ausgewählte Wurzeln",
+                "semantic_column": null,
+                "source": "experiments/yolo/sidequest_semantic_stem_search/R1_SEMANTIC_MORPHEME_THEORY.md"
+              },
+              "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+              "review_file": "research_registry/decisions/clean_component_review.json",
+              "unit_classification": "analyst_component_codebook",
+              "unit_reason": "The source presents a short/root value or inherited working vocabulary; it does not independently assert the whole card’s historical meaning."
+            },
+            {
+              "id": "LATE_SIDEQUEST:4537365178653816a11d",
+              "form_or_model": null,
+              "proposed_value_or_model": null,
+              "status": "unconfirmed",
+              "scope": {
+                "case": "Default",
+                "section": "Elf Karten / Exact-Card | Default | Klasse | zwei atomare Rivalen | n H/B | Confidence | Revisionskosten",
+                "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md"
+              },
+              "source_polarity": null,
+              "review_file": "research_registry/decisions/clean_late_sidequest_review.json",
+              "unit_classification": "late_analyst_exact_card_audit",
+              "unit_reason": "This is a later analyst audit/expansion table; its own text labels expansions as inherited or workshop hypotheses."
+            },
+            {
+              "id": "LATE_SIDEQUEST:5ef34fa787393ade6410",
+              "form_or_model": null,
+              "proposed_value_or_model": null,
+              "status": "unconfirmed",
+              "scope": {
+                "case": "V60_fixed_card_trial_with_contradictions",
+                "section": "Vollständiger Kontextdruck",
+                "source": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md"
+              },
+              "source_polarity": null,
+              "review_file": "research_registry/decisions/clean_late_sidequest_review.json",
+              "unit_classification": "late_analyst_exact_card_audit",
+              "unit_reason": "This is a later analyst audit/expansion table; its own text labels expansions as inherited or workshop hypotheses."
+            }
+          ],
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 48,
+              "line_end": 49,
+              "path": "experiments/yolo/sidequest_semantic_f10_two_section_article_five_hundred_thirtieth/FIVE_HUNDRED_THIRTIETH_REPORT.md",
+              "quote": "- vier identische Kartenfamilien in beiden Abschnitten: `AR = von dort`,\n  `AIIN = Maß`, `OL = fortsetzen`, `CTH+Y = diesen Posten bereit`;",
+              "sha256": "ab621dd6b09d52726335616f75504b879ab0bedd7ae06ac9b2df15ae328f015c",
+              "source_id": "LEGACY_COMPONENT:5d7b829e028fb951ae6f",
+              "source_section": "Warum die Zusammenlesung funktioniert",
+              "table_header": null
+            },
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 129,
+              "line_end": 132,
+              "path": "experiments/yolo/sidequest_semantic_filtration_separation_completion/WORKSHOP_FILTRATION_REPORT.md",
+              "quote": "Sie bilden eine **gelernte Substitutionsklasse**, keine sichtbare Wortwurzel.\n`DAIN` wird insbesondere nicht zu `AIIN=Maß` oder `IIN=Stufe`. `CHEDAIN=eine\nPortion umsetzen`, `QOTEDAIIN=breites Gefäß` und `SHFYDAIIN=Stehzeit` bleiben\ndurch ihre exakten Karten getrennt.",
+              "sha256": "5ff712952a88928ba1f596a08a1951f11d9409e4182202585e07ce2d4b9ba77a",
+              "source_id": "LEGACY_COMPONENT:eef5325a379baf666dd6",
+              "source_section": "4. Tuchweg und mechanische Trennung",
+              "table_header": null
+            },
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 40,
+              "line_end": 41,
+              "path": "experiments/yolo/sidequest_semantic_h4_parallel_recipe_five_hundred_twenty_eighth/FIVE_HUNDRED_TWENTY_EIGHTH_REPORT.md",
+              "quote": "Außerdem teilen sie exakt die Karten `AIIN = Maß` und `Y = laufender Posten`.\nSie sind trotzdem keine Kopien voneinander:",
+              "sha256": "03d1bd13758e04086bc2675a8a0e8f4d53e4bbbea9f5b2e74e609cda9479dbcb",
+              "source_id": "LEGACY_COMPONENT:fc3c874f4340cabb7a97",
+              "source_section": "Vergleich mit H3/f11r",
+              "table_header": null
+            },
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 185,
+              "line_end": 186,
+              "path": "experiments/yolo/sidequest_semantic_state_endpoint_completion/STATE_GRADE_PARADIGM_REPORT.md",
+              "quote": "- **IIN als Zahl oder Maß:** Die aktuelle Teilung `AIN=Portion`, `AIIN=Maß`,\n  `IIN=Stufe` ergibt die kürzeren Kompositionen.",
+              "sha256": "49232ab037754a63cf49a0e8585217933d84d528d041d96ce154ba64288afae2",
+              "source_id": "LEGACY_COMPONENT:36a8a59db3b0cce93345",
+              "source_section": "Rivalen und verbleibende Schwächen",
+              "table_header": null
+            },
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 105,
+              "line_end": 106,
+              "path": "experiments/yolo/sidequest_semantic_stem_search/R1_SEMANTIC_MORPHEME_THEORY.md",
+              "quote": "- Geräte und Argumente: `CKH/KCH/FH/PH=Tuch/Filter/enger Lauf`,\n  `AL=Ziel`, `AIN=Anteil`, `AIIN=Maß`.",
+              "sha256": "62a407e4fd0527338b3bc6327f79661177f21bf1db68101d05db7d7f1a974c25",
+              "source_id": "LEGACY_COMPONENT:a3c92a01bf282b6ab81d",
+              "source_section": "Ausgewählte Wurzeln",
+              "table_header": null
+            },
+            {
+              "line": 29,
+              "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+              "quote": "| AIIN | Maß | Parameter | Portion · Vorgabe | 9/11 | 0.78 | 0 |",
+              "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+            },
+            {
+              "line": 65,
+              "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+              "quote": "1. **AIIN — Maß.** 20 Fälle erreichen alle 11 Records und alle Feldpositionen\n   außer ONLY; zwei Folgen `OKY→AIIN`. Lehrregel: nur „Maß“ sagen, Zahl und\n   Einheit aus dem Exemplar übernehmen. Stärkster Widerspruch: keine Karte\n   zeigt selbst Zahl oder Einheit; die 20 Maßexpansionen sind geerbt.",
+              "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+            }
+          ]
+        },
+        {
+          "id": "SEM:abdeb8b053aecbd86efe",
+          "claim": "AIIN → MAẞ",
+          "card_basis": "42544d3590f7836f1c25fcd534c2b13284d6b006c0aeb819450af38f46c0b22c",
+          "effective_basis": "343c5a2ba4e20c12034227f6163b44f032a93a2faa9f671c1d22439e0e21798f",
+          "source_case_ids": [
+            "CLEAN_COMPONENT:2e4dc891b9a80ed98d4f"
+          ],
+          "source_cases": [
+            {
+              "id": "CLEAN_COMPONENT:2e4dc891b9a80ed98d4f",
+              "form_or_model": "AIIN",
+              "proposed_value_or_model": "MAẞ",
+              "status": "unconfirmed",
+              "scope": {
+                "kind": "source_bound_working_hypothesis",
+                "parent_gdt": null,
+                "section": "Harte Grenzen der kreativen Zerlegung",
+                "semantic_column": null,
+                "source": "experiments/yolo/sidequest_semantic_filtration_separation_completion/SELECTED_FILTRATION_SEPARATION_REPORT.md"
+              },
+              "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+              "review_file": "research_registry/decisions/clean_component_review.json",
+              "unit_classification": "local_rival_or_negative_context",
+              "unit_reason": "The line explicitly says the proposed value is overridden in this exact card, so it is not positive independent support for the claim."
+            }
+          ],
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "line": 3,
+                  "text": "Status: **kreative Zehnseiten-Werkstattrekonstruktion**. Dies ist keine"
+                }
+              ],
+              "line": 233,
+              "line_end": 234,
+              "path": "experiments/yolo/sidequest_semantic_filtration_separation_completion/SELECTED_FILTRATION_SEPARATION_REPORT.md",
+              "quote": "- `DAIN=TUCH` überstimmt in dieser exakten Karte die sichtbare Nähe zu\n  `AIIN=MAẞ`.",
+              "sha256": "40056f6e7ef9c9d09874bc9e9f3282eb595cb5e87bfd1336618fa2c722f8db67",
+              "source_id": "LEGACY_COMPONENT:d1f0e8c059c783d56a02",
+              "source_section": "Harte Grenzen der kreativen Zerlegung",
+              "table_header": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pair_id": "JQ03",
+      "surface": "CHK",
+      "candidate_relation": "equivalent_proposition",
+      "current_identity_link": false,
+      "recommendation": "retain_as_conditional_candidate",
+      "scope_finding": "Both sides are component-level authored values. The WÄRMEN side adds process-grade and duration composition; this does not by itself establish identity of whole historical cards, though it does not state a competing root value.",
+      "cards": [
+        {
+          "id": "SEM:203c2375886dca2d51be",
+          "claim": "CHK → wärmen",
+          "card_basis": "2fab70910d1c14aee5ea5dd1eb8c4095431054231f29d91f10a6eb61f76a4ebc",
+          "effective_basis": "edcb6afbbaa6ee1f678e42eb5a61515af2c7f674c1e2b5521764a1ccba02c273",
+          "source_case_ids": [
+            "CLEAN_COMPONENT:2150753f3edc9920a9a7",
+            "CLEAN_COMPONENT:f71ad6d5e81626b7b979"
+          ],
+          "source_cases": [
+            {
+              "id": "CLEAN_COMPONENT:2150753f3edc9920a9a7",
+              "form_or_model": "CHK",
+              "proposed_value_or_model": "wärmen",
+              "status": "unconfirmed",
+              "scope": {
+                "kind": "source_bound_working_hypothesis",
+                "parent_gdt": null,
+                "section": "Ergebnis",
+                "semantic_column": "kurze Bedeutung",
+                "source": "experiments/yolo/sidequest_semantic_five_root_dictionary_six_hundred_sixty_third/SIX_HUNDRED_SIXTY_THIRD_REPORT.md"
+              },
+              "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+              "review_file": "research_registry/decisions/clean_component_review.json",
+              "unit_classification": "analyst_component_codebook",
+              "unit_reason": "The source presents a short/root value or inherited working vocabulary; it does not independently assert the whole card’s historical meaning."
+            },
+            {
+              "id": "CLEAN_COMPONENT:f71ad6d5e81626b7b979",
+              "form_or_model": "CHK",
+              "proposed_value_or_model": "wärmen",
+              "status": "unconfirmed",
+              "scope": {
+                "kind": "source_bound_working_hypothesis",
+                "parent_gdt": null,
+                "section": "Gemeinsamer Kern",
+                "semantic_column": null,
+                "source": "experiments/yolo/sidequest_semantic_workshop_macro_grammar/WORKSHOP_MACRO_GRAMMAR_REPORT.md"
+              },
+              "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+              "review_file": "research_registry/decisions/clean_component_review.json",
+              "unit_classification": "analyst_component_codebook",
+              "unit_reason": "The source presents a short/root value or inherited working vocabulary; it does not independently assert the whole card’s historical meaning."
+            }
+          ],
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "line": 19,
+                  "text": "Entscheidung:"
+                }
+              ],
+              "line": 12,
+              "line_end": 12,
+              "path": "experiments/yolo/sidequest_semantic_five_root_dictionary_six_hundred_sixty_third/SIX_HUNDRED_SIXTY_THIRD_REPORT.md",
+              "quote": "| CHK | wärmen | 4 | 7 |",
+              "sha256": "3038f0433b8f1043ddc5813a6b0545e6e6e7d164ebafe14ecabe1b4ce941ee5b",
+              "source_id": "LEGACY_COMPONENT:3ce41c54bc913f0997f4",
+              "source_section": "Ergebnis",
+              "table_header": "| Kern | kurze Bedeutung | Karten | Ereignisse |"
+            },
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 16,
+              "line_end": 16,
+              "path": "experiments/yolo/sidequest_semantic_workshop_macro_grammar/WORKSHOP_MACRO_GRAMMAR_REPORT.md",
+              "quote": "Von 173 exakten Prosakarten sind 41 in mindestens zwei der vier Dossiers zu Hause. Die häufigsten tragenden Werte bleiben kurz: `AIIN=Sollmaß`, `Y=dieser Posten`, `OL=fortsetzen`, `OT=Folge`, `AR=daraus`, `AL=dorthin`, `OR=Ansatz`, `CHED=umsetzen`, `OK=ansetzen`, `SHED=absetzen`, `CHK=wärmen`, `CKHE=seihen` und die gelernte ganze Endkarte als Schrittabschluss.",
+              "sha256": "cc08aa98064c0da76e2b994ab9c07c0dead9a0b7341432ae8b8195f219cca157",
+              "source_id": "LEGACY_COMPONENT:cdc84ff51a86594bfdb7",
+              "source_section": "Gemeinsamer Kern",
+              "table_header": null
+            }
+          ]
+        },
+        {
+          "id": "SEM:625fa7fe65c8fd9b5224",
+          "claim": "CHK → WÄRMEN",
+          "card_basis": "d9245d0d0f63c6644348ac4e8d4004b089c1eee33589aace44845495ec35c583",
+          "effective_basis": "8dc159eef36003f8e27a61eded0e0b88d15b5b7e2f68d98df9ae71d55ab30024",
+          "source_case_ids": [
+            "CLEAN_COMPONENT:6ffbe36b893f04dc355c",
+            "CLEAN_COMPONENT:f659ee095140e1bf7280",
+            "CLEAN_COMPONENT:287039bcd1930b06b4fd"
+          ],
+          "source_cases": [
+            {
+              "id": "CLEAN_COMPONENT:6ffbe36b893f04dc355c",
+              "form_or_model": "CHK",
+              "proposed_value_or_model": "WÄRMEN",
+              "status": "unconfirmed",
+              "scope": {
+                "kind": "literal_core_declaration_without_portability_claim"
+              },
+              "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+              "review_file": "research_registry/decisions/clean_component_review.json",
+              "unit_classification": "literal_core_component_declaration",
+              "unit_reason": "The source is a literal core declaration for a component, without portability or whole-card validation."
+            },
+            {
+              "id": "CLEAN_COMPONENT:f659ee095140e1bf7280",
+              "form_or_model": "CHK",
+              "proposed_value_or_model": "WÄRMEN",
+              "status": "unconfirmed",
+              "scope": {
+                "kind": "source_bound_working_hypothesis",
+                "parent_gdt": null,
+                "section": "Ergebnis",
+                "semantic_column": null,
+                "source": "experiments/yolo/sidequest_semantic_thermal_temporal_completion/R3_REPORT.md"
+              },
+              "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+              "review_file": "research_registry/decisions/clean_component_review.json",
+              "unit_classification": "process_grade_component_model",
+              "unit_reason": "The source embeds the value in a process/grade model; it adds constructional context but does not independently identify a whole manuscript card."
+            },
+            {
+              "id": "CLEAN_COMPONENT:287039bcd1930b06b4fd",
+              "form_or_model": "CHK",
+              "proposed_value_or_model": "WÄRMEN",
+              "status": "unconfirmed",
+              "scope": {
+                "kind": "source_bound_working_hypothesis",
+                "parent_gdt": null,
+                "section": "Das kleine produktive Wörterbuch",
+                "semantic_column": "gewählte Bedeutung",
+                "source": "experiments/yolo/sidequest_semantic_thermal_temporal_completion/SELECTED_THERMAL_TEMPORAL_REPORT.md"
+              },
+              "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+              "review_file": "research_registry/decisions/clean_component_review.json",
+              "unit_classification": "selected_component_dictionary",
+              "unit_reason": "The source is a selected component dictionary with a compositional prediction, not a whole-card semantic adjudication."
+            }
+          ],
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 7,
+              "line_end": 7,
+              "path": "experiments/yolo/sidequest_semantic_chk_heat_grade_three_hundred_twenty_first/THREE_HUNDRED_TWENTY_FIRST_REPORT.md",
+              "quote": "- `CHK = WÄRMEN`",
+              "sha256": "4d73ad2723fb7cea74e6d81f3ef8a40b9cb5d8f05f02e8406d75d52a1e345a75",
+              "source_id": "LEGACY_COMPONENT:08b8ab9f94bb3ff7ba61",
+              "source_section": "Entscheidung",
+              "table_header": null
+            },
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 10,
+              "line_end": 10,
+              "path": "experiments/yolo/sidequest_semantic_minimal_master_deck_fifty_second_edition/FIFTY_SECOND_EDITION_REPORT.md",
+              "quote": "- `CHK = WÄRMEN`,",
+              "sha256": "4485b38366f0a903816cb7e6459df3d50e1a3b010b600cd7ff77bf81f68f65cc",
+              "source_id": "LEGACY_COMPONENT:17cb582bb58af0552ae3",
+              "source_section": "Zweiundfünfzigste Runde: ein Vier-Karten-Zusatzdeck",
+              "table_header": null
+            },
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 9,
+              "line_end": 10,
+              "path": "experiments/yolo/sidequest_semantic_process_grade_eight_hundred_first/EIGHT_HUNDRED_FIRST_REPORT.md",
+              "quote": "`CHK = WÄRMEN` now joins the productive core. It occupies three cells of a\nsmall grade/endpoint board:",
+              "sha256": "2c56ea4e4db442f1752909a4297b08e9181106668ca32ced8aaa6ca05863da94",
+              "source_id": "LEGACY_COMPONENT:4ab0bbad621be533668f",
+              "source_section": "One root becomes genuinely productive",
+              "table_header": null
+            },
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 13,
+              "line_end": 13,
+              "path": "experiments/yolo/sidequest_semantic_thermal_temporal_completion/R4_REPORT.md",
+              "quote": "- `CHK = WÄRMEN`, `SHED = RUHEN`, `CTHY = FERTIG`;",
+              "sha256": "c24155fe02c30651334e53a2e8fdf774a770ca16139e081e3fdd431f253a78e0",
+              "source_id": "LEGACY_COMPONENT:fe9175cbfe74d2f46fc6",
+              "source_section": "Ergebnis",
+              "table_header": null
+            },
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 15,
+              "line_end": 20,
+              "path": "experiments/yolo/sidequest_semantic_thermal_temporal_completion/R3_REPORT.md",
+              "quote": "Die Prozessbasis kann beispielsweise `OK=ANSETZEN`, `CHK=WÄRMEN`,\n`SHED=ABSETZEN`, `CTH=BEREIT` oder `SOLK=AUFFANGEN` sein. `E/EE/EEE`\nsind keine Wörter für kurz, lang und vollständig. Sie sind eine geordnete\nSkala, die je nach Basis als Dauer, Stärke oder Vollständigkeit ausgeführt\nwird. `Y` hält einen aktuellen Posten offen; nur eine bereits lizenzierte\nterminale `DY`-Konstruktion verbucht den Schluss.",
+              "sha256": "560b4549094bf5ff1318fce5da854cc5498496c3110f530952052fa8a80c5eef",
+              "source_id": "LEGACY_COMPONENT:35c27d981c20bf9ef6df",
+              "source_section": "Ergebnis",
+              "table_header": null
+            },
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 28,
+              "line_end": 28,
+              "path": "experiments/yolo/sidequest_semantic_thermal_temporal_completion/SELECTED_THERMAL_TEMPORAL_REPORT.md",
+              "quote": "| `CHK` | WÄRMEN | `CHK+E`: kurz wärmen; `CHK+EE`: länger wärmen |",
+              "sha256": "eb99d0fea0b322cf0ec1694f8b36021bdc8093b23b7e4fccd4d99c73c391d1a1",
+              "source_id": "LEGACY_COMPONENT:c0ccac5fa3fa67f747db",
+              "source_section": "Das kleine produktive Wörterbuch",
+              "table_header": "| Baustein | gewählte Bedeutung | unmittelbare Vorhersage |"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "evidence_objects_checked": 16,
+    "evidence_validator": "tools.semantic_identity._evidence",
+    "all_passed": true,
+    "operative_mutation": false
+  }
+}

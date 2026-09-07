@@ -1,0 +1,28 @@
+{
+  "title": "Parallel X+daiin cells distinguish apposition from separate field entries",
+  "summary": "GDT765 records ofchy daiin and schor daiin on f22r.4, alongside ol daiin and dar daiin on f22r.5. Test whether the adjacent X+daiin cells are appositional aliases for one material/part entry or separate typed entries in a main/subfield inventory.",
+  "scope": "semantic",
+  "design": {
+    "mechanism": "A repeated X+daiin construction can place an appositional alias or alternate label beside one referent, rather than introducing an independently typed entry for every neighboring X.",
+    "unit": "complete parallel X+daiin cells with independently coded head class, field position, and recurrence outside the motivating f22r lines",
+    "contrast": "apposition/alias of one referent versus separate material, part, or value-field entries",
+    "prediction": "Under apposition, paired X+daiin cells should share an independently coded referent or class and show alias-like recurrence; under separate-entry analysis, the cells should occupy distinct typed field roles and recur with different head/body profiles.",
+    "falsifier": "In a held set with independent referent/class coding, parallel X+daiin cells consistently have distinct typed heads and no alias recurrence, falsifying the apposition variant.",
+    "scope_note": "The source supplies working whole-form roles and no independent material gold; this is an exploratory construction question, not a claim that ofchy or schor is translated.",
+    "related": "Near GDT764 bounded H1-X-daiin field dispatch and GDT765's main-field/subfield renderer, but changes the discriminator to apposition versus separate entries rather than axis assignment or concrete noun selection.",
+    "countermodel": "A fixed recipe template can place independently typed fields adjacently and make them look appositional; repeated daiin may be a shared value slot without shared referent.",
+    "source_evidence": {
+      "path": "experiments/yolo/gdt765_ofchy_schor_content_field_discriminator/REPORT.md",
+      "line": 66,
+      "line_end": 77,
+      "quote": "## The f22r record now says something\n\nThe first two lines of the local paragraph contain four exact value cells:\n\n```text\nf22r.4  ofchy daiin  ...  schor daiin\nf22r.5  ol daiin     ...  dar daiin\n```\n\nAcross the entire cache there are twelve exact `H-head X daiin` triples\n(H1 five, H2 five, H4 two); f22r.4 alone contains two on one line. That makes a\nmain-field/subfield inventory much more natural than a sequence of actions.",
+      "sha256": "43ee900632971c0f6877447ef3432d21274512d0ed033d2cc85d9874427e4f35"
+    },
+    "principal_risk": "No independent referent or class annotation may exist, and the apparent apposition can be produced by the same local field template."
+  },
+  "design_stop_notes": [
+    "Same class or profile does not imply the same referent.",
+    "Different head or field roles can still appose one referent, as in John/the physician.",
+    "Distinct recurrence profiles alone do not falsify apposition; independent referent coding and a predeclared rival are required."
+  ]
+}
