@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "decisions": [
+    {
+      "id": "CORRECTION_GJ:e9e144ae4d54123512ea:v1",
+      "target": "SEM:e9e144ae4d54123512ea",
+      "previous_revision": null,
+      "action": "restate_scope",
+      "replacement": {
+        "claim": "V32 setzt für die drei Biological-Seiten vorläufig ein humoralmedizinisches Frauenbad-Regimen an: f81v bereitet ein gemeinsames mediziertes Bad, f82r individualisiert Teilbad/Räucherung und Ruhe, f83r lokale Irrigation/Spülung mit kontrollierter Erwärmung, Öffnungen und Drainage. Die V30-Bedeutungen bleiben dabei unverändert. Menstruation oder Fruchtbarkeit sind nur die bevorzugte engere Vermutung; allgemeines Bad, abstrakter Prozess und humoral-flow bleiben lebende Rivalen. Die wiederholten Frauen gelten als Patienten-/Zustandsbilder, nicht als entschlüsselte Personen; kein String erhält eine gynäkologische Glosse.",
+        "claim_type": "semantic_model"
+      },
+      "reason": "The export places the narrower menstrual/fertility indication alongside the selected general regimen without the source's unequal confidence or the specific page-purpose contract. The primary calls it the best narrow bet, not an identified indication; it preserves all V30 meanings and expressly keeps general-spa, abstract-process and humoral-flow rivals alive. These are substantive scope/commitment distinctions, not a negative empirical verdict. Complete the same historical page-purpose assertion, not a new named model.",
+      "target_basis_sha256": "617d90d084c4741b19e0390f728cfbad1d51e92fd718c0d6778ae86db9ae5fb1",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v32/V32_THEORY_SELECTION.md",
+          "line": 1,
+          "line_end": 16,
+          "quote": "# V32 theory selection\n\nDate: 2026-08-22\n\nStatus: **women's humoral bath regimen selected provisionally**.\n\nThe 281 Biological events and 115 fields retain their V30 meanings. V32 adds a\nsingle concrete page-level purpose: f81v prepares a common medicated bath, f82r\nindividualizes partial bath/fumigation and rest, and f83r performs local\nirrigation with controlled warming, openings and drainage. A menstrual or\nfertility indication is the best narrow bet; the broader women's humoral bath\nregimen is the selected owner.\n\nThe repeated women are patient/state icons, not decoded persons. No string is\nassigned a gynaecological gloss. General spa, abstract process and humoral-flow\nrivals remain live. f84 and f84r remained sealed.",
+          "sha256": "f3dd6d992497663a282ad83e119a49364909a8cacd26e259df7cbe4a825a3ef1"
+        }
+      ],
+      "reviewer": "root after GJ producer and independent page-purpose source peer"
+    }
+  ],
+  "derived_from": [
+    {
+      "path": "research_registry/decisions/semantic_source_scope_review_gj.json",
+      "sha256": "2538fef33de9ff7b0806773fe96dec7e7b9019d84d6335e4ca7c25a1a1d8303e"
+    },
+    {
+      "path": "research_registry/decisions/semantic_source_scope_peer_gj.json",
+      "sha256": "cf5d588ee2f1e3f5159f6ec872ac1feb4d91d381e5f34e80fd320ab593b5f2b4"
+    }
+  ],
+  "root_fixes": [
+    "Retain correct chol1–35; add complete182–184 future-prediction sentence",
+    "Use medical Irrigation/Spülung for source irrigation"
+  ],
+  "new_cards": 0
+}

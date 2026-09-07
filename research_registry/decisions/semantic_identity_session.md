@@ -524,3 +524,16 @@ GH/GI/GL validation: exact-source, operative and preservation audits PASS;212
 restatements,4118active3853semantic265formal4639cases,52groups/61reductions,
 41relations,41dossiers and9unreadypriorities. Full-history and catalog exports
 regenerated with5091records/4143ledger events. No semantic discovery.
+
+GJ/GK/GM/GO checkpoint: one V32 source-purpose correction, one host-model
+revision question and two no-equivalence source audits. GO7 source receipts;
+213restatements,42scoped questions/43log revisions,52identity inputs. Root
+verified correct chol1–35 after peer rejected an unnecessary truncation; added
+complete182–184 prediction. GK pure authored definition rows only; no raw event
+payload. Public display is3792 plus95 local=3887; comma-formatted guide counts
+corrected after plain-number replacement had missed them. No decipherment.
+
+GJ/GK/GM/GO validation: current source, operative and preservation audits PASS;
+42 scoped questions with all target bindings fresh,9 priorities still unready.
+52groups/61reductions and41operative relations unchanged. Public/display guide
+counts match current data;52identity review inputs,5092records/4144ledger events.

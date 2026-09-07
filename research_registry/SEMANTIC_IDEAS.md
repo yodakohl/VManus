@@ -15,11 +15,11 @@ They remain in the source archive. No hypothesis becomes executable by inclusion
 | Archived source-extraction errors | 44 |
 | Exact normalized assertion repetitions grouped | 477 |
 | Reviewed equivalence groups / display reduction | 52 / 61 |
-| Public semantic display entries | 3,793 |
+| Public semantic display entries | 3,792 |
 
 These are different units, not a deduplicated total of independent theories.
 A local ignored supplement contributes95 semantic cards and one formal card;
-the ordinary local default therefore displays3,888 semantic entries. A fresh
+the ordinary local default therefore displays3,887 semantic entries. A fresh
 public clone has the public view only. Local source files and quotes are not
 published or silently folded into public counts.
 
@@ -62,7 +62,7 @@ claim or case bindings require a new review. Shared spelling, shortened wording
 or a matching source title alone proves neither identity nor nonidentity.
 
 Before selecting another identity comparison, consult `IDENTITY_REVIEW_INPUTS.json`
-and the current operative identity log. The manifest records fifty hashed review
+and the current operative identity log. The manifest records fifty-two hashed review
 inputs, including earlier proposal and peer formats missed by the narrower DO
 selection list. It is a bounded coverage receipt, not an automatic pair verdict.
 Update it when new identity reviews are added; distinguish an old recommendation
@@ -81,7 +81,7 @@ source/case counts belong to that representative; `group_scope_cases` counts all
 member cases. Open `--field equivalents` or `--field relations` for the others.
 No failure, success or execution permission propagates across an identity link.
 
-The append-only correction log currently archives44 erroneous exports and restates212
+The append-only correction log currently archives44 erroneous exports and restates213
 source assertions. Every original claim, case and quote remains retrievable,
 including via `--show ID` for archived cards. Numeric columns, alias-column
 misparses, unlicensed constituent exports and metadata are extraction errors;
@@ -91,7 +91,7 @@ not mean rejected, and an old source PASS does not confirm a meaning.
 
 ## Failure memory and conditional priorities
 
-Forty-one scoped question dossiers distinguish empirical failure, invalid test,
+Forty-two scoped question dossiers distinguish empirical failure, invalid test,
 insufficient capacity, missing meaning binding, proposal-only status and historical
 model revision. They appear before inherited experiment context under assessments.
 They state the actual compared subclaim, primary evidence, scope and changed-input
@@ -129,13 +129,13 @@ quality construction) and L (productive only before CHED), and preserves CHAR
 THEN as a considered but criticized V18 rival. VAL-B warm remains an actual
 historical wager despite the absence of independent comparator binding.
 
-GI completes two distinct historical contracts: GDT092's lexical-like host
-model and GDT100's explicitly weaker content-address revision. Optional fields,
-repeated lines and alternative address realizations remain explicit; the later
-revision does not erase the earlier hypothesis or refute all content-bearing
-text. GH limits the a value-attachment rival to a learned whole function card,
-without identifying a Latin recipe sign. GL records six source assessments;
-the GDT239 sibling review is reused, not counted as a newly uncovered model.
+GM adds a scoped question on GDT092's direct host-lexicon commitment and
+GDT100's narrower address revision. Specific negative channels and the small
+positive GDT096 host marginal remain distinct; more internal counts do not
+supply an independent endpoint. GJ separates V32's general regimen from its
+narrower unconfirmed indication. GK keeps two pairs of different whole claims
+separate despite similar wording; it adds no operative equivalence. GO exposes
+seven selected source assessments without new cards or cases.
 A073/A004 mappings remain available but uninspected, not missing data.
 
 Before adding a fuller model card, check whether an existing short card already
