@@ -1,0 +1,25 @@
+{
+  "schema": "source_evidence_validation_incident_v1",
+  "scope": "IDEA000056-IDEA000063 intake source_evidence claims",
+  "status": "WITHDRAWN_PENDING_ROOT_SOURCE_ONLY_CORRECTION",
+  "affected_ids": [
+    "IDEA000056", "IDEA000057", "IDEA000058", "IDEA000059",
+    "IDEA000060", "IDEA000061", "IDEA000062", "IDEA000063"
+  ],
+  "checks_actually_performed": [
+    "Read bounded primary report excerpts with nl/lookup.",
+    "Ran route-check and ideas duplicates before intake.",
+    "Computed proposal file hashes and canonical design hashes programmatically after final edits.",
+    "Added each proposal serially and checked returned ID/title with ideas show.",
+    "Ran sha256sum on several report files, but did not bind those digests to a programmatic line-slice extraction."
+  ],
+  "failed_or_withdrawn_checks": [
+    "No tools.semantic_identity._evidence validation was performed for IDEA000056-IDEA000063.",
+    "All eight declared source quote/span pairs fail literal line-span comparison: the quotes were manually reconstructed and at least one or more line bounds differ from the quoted text.",
+    "IDEA000057 GDT213 and IDEA000058 GDT198 also contain mistyped source hash strings; the proposal/design hashes and registry records are unaffected."
+  ],
+  "correction_required": "Regenerate each source_evidence quote exclusively from Path.read_text().splitlines()[line-1:line_end] and compute digest(Path) programmatically; replace only source_evidence in root's source-only correction flow.",
+  "withdrawn_claim": "The prior jx_raw_append_receipt and jz_raw_append_receipt pre_add_checks statement that source spans were validated is withdrawn. It must not be treated as evidence validation.",
+  "preserved": "Original proposal bytes and registry records remain unchanged; no review, ledger, refresh, build, or experiment was performed in this incident response.",
+  "registry_mutation": false
+}

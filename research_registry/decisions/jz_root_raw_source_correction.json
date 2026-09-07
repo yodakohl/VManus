@@ -1,0 +1,218 @@
+{
+  "status": "EIGHT_RAW_SOURCE_QUOTES_CORRECTED_BY_APPEND_ONLY_REVIEW",
+  "checks": [
+    {
+      "id": "IDEA000056",
+      "proposal_file": "research_registry/proposals/jx_diagram_count_argument.json",
+      "proposal_sha256": "a086bfe5e52d957df19b2453da32f80c39ce09875033fb7ee6914b0b15fc0439",
+      "original_design_sha256": "09977c1f619d6947147717a40eb9d65d7208ad62eb11c8499e67d79191fcc0b6",
+      "record_equals_intake_design": true,
+      "source_file_hash_ok": true,
+      "primary_bytes_equal_session_baseline": true,
+      "original_literal_span_ok": false,
+      "original_start_plus_quote_validator_ok": true,
+      "source_evidence_before": {
+        "path": "experiments/yolo/gdt355_ljs443_diagram_series_census/REPORT.md",
+        "line": 10,
+        "line_end": 22,
+        "sha256": "2696059129ca991c22ab008e653933ea3d11dc49b97c1b4fbf9968e9c45ef699",
+        "quote": "- The exact narrow spiral-band rendering is a real local subseries: three\n  adjacent pages, all with eight curved text-bearing compartments.\n- The broader eight-curved-compartment family contains five pages after adding\n  two decorated petal-like predecessors.\n- Curved compartments are not an eight-value key. A nearby page has twelve\n  curved, text-bearing lobes around a central circle.\n- Four other surfaces have a clear eightfold primary division rendered as\n  straight sectors or interlaced circles."
+      },
+      "source_evidence_after": {
+        "path": "experiments/yolo/gdt355_ljs443_diagram_series_census/REPORT.md",
+        "line": 10,
+        "line_end": 22,
+        "sha256": "2696059129ca991c22ab008e653933ea3d11dc49b97c1b4fbf9968e9c45ef699",
+        "quote": "- The exact narrow spiral-band rendering is a real local subseries: three\n  adjacent pages, all with eight curved text-bearing compartments.\n- The broader eight-curved-compartment family contains five pages after adding\n  two decorated petal-like predecessors.\n- Curved compartments are not an eight-value key. A nearby page has twelve\n  curved, text-bearing lobes around a central circle.\n- Four other surfaces have a clear eightfold primary division rendered as\n  straight sectors or interlaced circles.\n\nThus the f68v3 resemblance is not an isolated doodle, but neither is it a\nspecific semantic match. LJS 443 demonstrates a local design vocabulary in\nwhich eightfold systems and curved radial compartments recur, while the same\ngeneral lobe idiom also carries a different cardinality."
+      },
+      "corrected_design_sha256": "2714533a27303e10bd346a1dbb461e2e53b9c6a85e09e75728f79d8afef07349"
+    },
+    {
+      "id": "IDEA000057",
+      "proposal_file": "research_registry/proposals/jx_hybrid_caption_prose_channels.json",
+      "proposal_sha256": "c97cbbfb1b1bbf41e7dea2ab945ef6927a94e6002a9a0eaa928d4b1ed6dcdb2b",
+      "original_design_sha256": "c4132e44efe1d2150964fe8bee81908e8720627f7b2415f8473bd175668eb6c8",
+      "record_equals_intake_design": true,
+      "source_file_hash_ok": false,
+      "primary_bytes_equal_session_baseline": true,
+      "original_literal_span_ok": false,
+      "original_start_plus_quote_validator_ok": false,
+      "source_evidence_before": {
+        "path": "GDT213_READABLE_MEDICAL_DIAGRAM_COMPARATOR_REPORT.md",
+        "line": 7,
+        "line_end": 13,
+        "sha256": "f4852a333ea2a11f3567809df86bd972d7dd049888902492289ea013236a6a84",
+        "quote": "Ashmole 399 supplies the strongest readable precedent so far for q13's mixed\npage architecture, but not for its content or exact topology. A medieval\nmedical page can combine an abstract connected system, short inscriptions\nowned by individual components, one embedded humanlike figure, and dense\nlonger practical text. Another abstract-system page in the same manuscript\nuses predominantly continuous prose instead, showing that caption and prose\nlayouts can vary within one technical codex."
+      },
+      "source_evidence_after": {
+        "path": "GDT213_READABLE_MEDICAL_DIAGRAM_COMPARATOR_REPORT.md",
+        "line": 7,
+        "line_end": 13,
+        "sha256": "f4852a333ea2a11f3567809df86bd972dd7d049888902492289ea013236a6a84",
+        "quote": "Ashmole 399 supplies the strongest readable precedent so far for q13's mixed\npage architecture, but not for its content or exact topology.  A medieval\nmedical page can combine an abstract connected system, short inscriptions\nowned by individual components, one embedded humanlike figure, and dense\nlonger practical text.  Another abstract-system page in the same manuscript\nuses predominantly continuous prose instead, showing that caption and prose\nlayouts can vary within one technical codex."
+      },
+      "corrected_design_sha256": "44fe4a46c4e76c6911cf8d486012a3a7ab726561275bb4397bdc5e081efb4fe1"
+    },
+    {
+      "id": "IDEA000058",
+      "proposal_file": "research_registry/proposals/jx_wrapper_payload_role.json",
+      "proposal_sha256": "2bb0b0902a058400c544450e8a374a983a2b61b4427401ceab03dc4dfc6de8a2",
+      "original_design_sha256": "1b00f82bd3aaf06157dd0ca76b6e7fc0d8267ae7d5ce857d146a91460d555704",
+      "record_equals_intake_design": true,
+      "source_file_hash_ok": false,
+      "primary_bytes_equal_session_baseline": true,
+      "original_literal_span_ok": false,
+      "original_start_plus_quote_validator_ok": false,
+      "source_evidence_before": {
+        "path": "GDT198_F77_DIAGRAM_PAYLOAD_REUSE_REPORT.md",
+        "line": 5,
+        "line_end": 23,
+        "sha256": "ee593d8e1d271b131ba9b2c477a18328ec161512e1297f122a6fc0aba5adce3",
+        "quote": "Two of the three all-reading-stable figure-associated labels share the same\nrenderer-stripped HPR2 payload as one of the six tube-state labels:\n\n| figure label | tube label | shared payload | surface change |\n|---|---|---|---|\n| `dotedy` (`f77r.8`) | `otedy` (`f77r.3`) | `e|NONE|DY1|B30` | add outer `d` wrapper |\n| `otchdy` (`f77r.49`) | `dchdy` (`f77r.6`) | `ch|NONE|DY1|B30` | `d` wrapper versus `OT` frame |\n\nThis is a coherent local compiler pattern: opaque payload can remain stable\nwhile its left rendering changes with visual label class."
+      },
+      "source_evidence_after": {
+        "path": "GDT198_F77_DIAGRAM_PAYLOAD_REUSE_REPORT.md",
+        "line": 5,
+        "line_end": 23,
+        "sha256": "ee593de8b1d271b131ba9b2c477a18328ec161512e1297f122a6fc0aba5adce3",
+        "quote": "Two of the three all-reading-stable figure-associated labels share the same\nrenderer-stripped HPR2 payload as one of the six tube-state labels:\n\n| figure label | tube label | shared payload | surface change |\n|---|---|---|---|\n| `dotedy` (`f77r.8`) | `otedy` (`f77r.3`) | `e|NONE|DY1|B30` | add outer `d` wrapper |\n| `otchdy` (`f77r.49`) | `dchdy` (`f77r.6`) | `ch|NONE|DY1|B30` | `d` wrapper versus `OT` frame |\n\nThe southwest figure label supplies a weaker third resemblance: ZL3b writes\n`otolaiin | o`, while IT2a/RF1b join `otolaiino`; its initial `otol` equals the\nfourth tube label, but the reading-dependent boundary prevents an exact\npayload comparison.\n\nThis is a coherent local compiler pattern: opaque payload can remain stable\nwhile its left rendering changes with visual label class.  It is not strong\nenough to identify a role.  Across all 84 assignments of three figure roles to\nthe nine stable labels, 20 achieve at least the observed two cross-class\nmatches (**p=0.238095**).  Neither matched pair shares a complete surface or\nfull HPR2 tuple, and all human ownership is proximity-only."
+      },
+      "corrected_design_sha256": "dfcc79616cf0e9d336e814e84938232cd45a2f0445552e46e0f1db452e2f6764"
+    },
+    {
+      "id": "IDEA000059",
+      "proposal_file": "research_registry/proposals/jx_dry_moist_whole_operator.json",
+      "proposal_sha256": "9fb083ec3216e683cea9b98e20d310648b5fbabf417239a9f8a16583cf556550",
+      "original_design_sha256": "b776baee8a6b9ce52439202a7016ba51b43ebae292dc3e164e3cec39a9082054",
+      "record_equals_intake_design": true,
+      "source_file_hash_ok": true,
+      "primary_bytes_equal_session_baseline": true,
+      "original_literal_span_ok": false,
+      "original_start_plus_quote_validator_ok": false,
+      "source_evidence_before": {
+        "path": "experiments/yolo/gdt760_quantity_bilateral_content_attachment/REPORT.md",
+        "line": 44,
+        "line_end": 62,
+        "sha256": "a58f98014700da93e4d8e3db2a8e7a16d94b110313649f0a7f2a7952a8d6cfdd",
+        "quote": "cheor und sheor sind nun das beste kleine Inhaltsparadigma:\n\n| Ganzwort | Mengenanschlüsse | globale exakte Vorkommen | Arbeitswert |\n|---|---:|---:|---|\n| cheor | 3 auf 3 Seiten | 56 | trockener Drogenteil |\n| sheor | 3 auf 3 Seiten | 31 | feuchter Drogenteil |\n\nBeide stehen in exakten Mengenplätzen, gemeinsam unter s, or und ar sowie bei\nWert II und III. Damit wird der Trocken/Feucht-Gegensatz praktisch nützlich:\nDie Formen sind nicht nur abstrakte Zustandsfelder, sondern Kandidaten für\nzähl- oder wägbare Drogenteile."
+      },
+      "source_evidence_after": {
+        "path": "experiments/yolo/gdt760_quantity_bilateral_content_attachment/REPORT.md",
+        "line": 44,
+        "line_end": 62,
+        "sha256": "a58f98014700da93e4d8e3db2a8e7a16d94b110313649f0a7f2a7952a8d6cfdd",
+        "quote": "## Der stärkste neue Bedeutungshebel\n\ncheor und sheor sind nun das beste kleine Inhaltsparadigma:\n\n| Ganzwort | Mengenanschlüsse | globale exakte Vorkommen | Arbeitswert |\n|---|---:|---:|---|\n| cheor | 3 auf 3 Seiten | 56 | trockener Drogenteil |\n| sheor | 3 auf 3 Seiten | 31 | feuchter Drogenteil |\n\nBeide stehen in exakten Mengenplätzen, gemeinsam unter s, or und ar sowie bei\nWert II und III. Damit wird der Trocken/Feucht-Gegensatz praktisch nützlich:\nDie Formen sind nicht nur abstrakte Zustandsfelder, sondern Kandidaten für\nzähl- oder wägbare Drogenteile. Trotzdem wird aus ch gegen sh kein freier\nZeichenwert abgeleitet; die beiden vollständigen Wörter tragen den Vergleich.\n\nDas kleinere Parallelpaar cheo/sheo besetzt drei Mengenplätze und führt zu\ntrocken angesetzter Zubereitung gegen Feuchtzubereitung. Wasser- und Weinansatz\nbleiben hier gleich gute Untermodelle. Genau diese beiden Formen können in der\nnächsten Runde nach ihrem Lösungsmittel getrennt werden."
+      },
+      "corrected_design_sha256": "778b5e6abd20822cb3ae014081357b07ed3ed034ee730c7475a7f1c7677c427c"
+    },
+    {
+      "id": "IDEA000060",
+      "proposal_file": "research_registry/proposals/jz_shared_destination_bundle.json",
+      "proposal_sha256": "c13ec505e9356d4fd2b4489cc695c128183aabc93c59597ac5f5ad54dc4d36e9",
+      "original_design_sha256": "f0f73d2e542b9ff6f513c485e7e52ad7c646c530a0033a968d56a936e5d784a9",
+      "record_equals_intake_design": true,
+      "source_file_hash_ok": true,
+      "primary_bytes_equal_session_baseline": true,
+      "original_literal_span_ok": false,
+      "original_start_plus_quote_validator_ok": false,
+      "source_evidence_before": {
+        "path": "experiments/yolo/gdt701_v74_cumulative_relation_components/REPORT.md",
+        "line": 23,
+        "line_end": 27,
+        "sha256": "68b95cd1ca5da5651ebfc4ebd7667760a0bb4e9dae6507fbaf60da9db890e7a0",
+        "quote": "The atlas now gives one exact home to every current edge. Seven components\ncontain one edge, M006 is a two-action fan-out to one written destination, and\nM007 is the sole serial chain with a written intermediate product. The last\naction in every component still lacks an admitted, separately named final\nresult."
+      },
+      "source_evidence_after": {
+        "path": "experiments/yolo/gdt701_v74_cumulative_relation_components/REPORT.md",
+        "line": 23,
+        "line_end": 27,
+        "sha256": "68b95cd1ca5da5651ebfc4ebd7667760a0bb4e9dae6507fbaf60da9db890e7a0",
+        "quote": "The atlas now gives one exact home to every current edge.  Seven components\ncontain one edge, M006 is a two-action fan-out to one written destination, and\nM007 is the sole serial chain with a written intermediate product.  The last\naction in every component still lacks an admitted, separately named final\nresult."
+      },
+      "corrected_design_sha256": "fbaa461cec1a1f9e6a0e0911b80d3a77201c03b2aee2a61c2623e10264543772"
+    },
+    {
+      "id": "IDEA000061",
+      "proposal_file": "research_registry/proposals/jz_serial_chain_transfer.json",
+      "proposal_sha256": "2f7d4c2047f887fb7b641d6abc6caccdc13eb26ddbd867704890192ebc8bb108",
+      "original_design_sha256": "6e6031140995509e88d76443fd6e120f42e2cf5ac8837ef108938330ca09b2bb",
+      "record_equals_intake_design": true,
+      "source_file_hash_ok": true,
+      "primary_bytes_equal_session_baseline": true,
+      "original_literal_span_ok": false,
+      "original_start_plus_quote_validator_ok": false,
+      "source_evidence_before": {
+        "path": "experiments/yolo/gdt701_v74_cumulative_relation_components/REPORT.md",
+        "line": 23,
+        "line_end": 27,
+        "sha256": "68b95cd1ca5da5651ebfc4ebd7667760a0bb4e9dae6507fbaf60da9db890e7a0",
+        "quote": "The atlas now gives one exact home to every current edge. Seven components\ncontain one edge, M006 is a two-action fan-out to one written destination, and\nM007 is the sole serial chain with a written intermediate product. The last\naction in every component still lacks an admitted, separately named final\nresult."
+      },
+      "source_evidence_after": {
+        "path": "experiments/yolo/gdt701_v74_cumulative_relation_components/REPORT.md",
+        "line": 23,
+        "line_end": 27,
+        "sha256": "68b95cd1ca5da5651ebfc4ebd7667760a0bb4e9dae6507fbaf60da9db890e7a0",
+        "quote": "The atlas now gives one exact home to every current edge.  Seven components\ncontain one edge, M006 is a two-action fan-out to one written destination, and\nM007 is the sole serial chain with a written intermediate product.  The last\naction in every component still lacks an admitted, separately named final\nresult."
+      },
+      "corrected_design_sha256": "76933b08824c9ca433f70c2b23e47230ecef3d6894c3a22dc68d3970959e1b3d"
+    },
+    {
+      "id": "IDEA000062",
+      "proposal_file": "research_registry/proposals/jz_hull_boundary_semantics.json",
+      "proposal_sha256": "28264fcff6b244bbe866fa233bc54a3ee287cd2e160627498a4d204600878be6",
+      "original_design_sha256": "894ec977c718287b632e8681c15f7bfbd7c7facb77a0910d5d3e17dccfc80895",
+      "record_equals_intake_design": true,
+      "source_file_hash_ok": true,
+      "primary_bytes_equal_session_baseline": true,
+      "original_literal_span_ok": false,
+      "original_start_plus_quote_validator_ok": false,
+      "source_evidence_before": {
+        "path": "experiments/yolo/gdt701_v74_cumulative_relation_components/REPORT.md",
+        "line": 31,
+        "line_end": 40,
+        "sha256": "68b95cd1ca5da5651ebfc4ebd7667760a0bb4e9dae6507fbaf60da9db890e7a0",
+        "quote": "The graph has 23 unique edge nodes and 25 edge incidences. Only\n`f80v.35#3` and `f86v6.25#4` are genuine shared nodes. Two visually intervening\npositions are not nodes:\n\n- `f86v5.24#2 aiin` is an unbound quantity register inside the C010 hull;\n- `f26r.2#5 chedy` is an exact state checkpoint inside the C011 hull.\n\nThe free `dy` at `f26r.2#7` is retained only to close the rendered clause; it\nlies outside C011's #4--#6 hull."
+      },
+      "source_evidence_after": {
+        "path": "experiments/yolo/gdt701_v74_cumulative_relation_components/REPORT.md",
+        "line": 31,
+        "line_end": 40,
+        "sha256": "68b95cd1ca5da5651ebfc4ebd7667760a0bb4e9dae6507fbaf60da9db890e7a0",
+        "quote": "The graph has 23 unique edge nodes and 25 edge incidences.  Only\n`f80v.35#3` and `f86v6.25#4` are genuine shared nodes.  Two visually intervening\npositions are not nodes:\n\n- `f86v5.24#2 aiin` is an unbound quantity register inside the C010 hull;\n- `f26r.2#5 chedy` is an exact state checkpoint inside the C011 hull.\n\nThe free `dy` at `f26r.2#7` is retained only to close the rendered clause; it\nlies outside C011's #4--#6 hull.  These distinctions prevent readable prose\nfrom silently becoming extra relation evidence."
+      },
+      "corrected_design_sha256": "70dde3df36a8a91052b0afec704e650b69bde1f3400bb1bd094a67d5b75ae7d2"
+    },
+    {
+      "id": "IDEA000063",
+      "proposal_file": "research_registry/proposals/jz_component_topology_unit.json",
+      "proposal_sha256": "ce3db8c1cfc265f568c8899ad3eea29ea12704959ee0cab20a9b9b63d882086c",
+      "original_design_sha256": "65845d443348484051d726858d146f0ae03fa9defc05c4266618232fa68ccb7a",
+      "record_equals_intake_design": true,
+      "source_file_hash_ok": true,
+      "primary_bytes_equal_session_baseline": true,
+      "original_literal_span_ok": false,
+      "original_start_plus_quote_validator_ok": false,
+      "source_evidence_before": {
+        "path": "experiments/yolo/gdt701_v74_cumulative_relation_components/REPORT.md",
+        "line": 48,
+        "line_end": 57,
+        "sha256": "68b95cd1ca5da5651ebfc4ebd7667760a0bb4e9dae6507fbaf60da9db890e7a0",
+        "quote": "- 11/11 inherited edges assigned exactly once to 9 components.\n- 7 one-edge components, 1 repeated-destination fan-out, 1 serial chain.\n- 23 edge nodes, 25 incidences, 25 minimal-hull positions, 2 hull-only\n  positions and 1 render-only structural position.\n- 17 held rivals and 27 reference decisions preserved unchanged.\n- 479 token glosses, 51 line translations and 3 bound spans byte-identical."
+      },
+      "source_evidence_after": {
+        "path": "experiments/yolo/gdt701_v74_cumulative_relation_components/REPORT.md",
+        "line": 48,
+        "line_end": 57,
+        "sha256": "68b95cd1ca5da5651ebfc4ebd7667760a0bb4e9dae6507fbaf60da9db890e7a0",
+        "quote": "## Scope and gain\n\n- 11/11 inherited edges assigned exactly once to 9 components.\n- 7 one-edge components, 1 repeated-destination fan-out, 1 serial chain.\n- 23 edge nodes, 25 incidences, 25 minimal-hull positions, 2 hull-only\n  positions and 1 render-only structural position.\n- 17 held rivals and 27 reference decisions preserved unchanged.\n- 479 token glosses, 51 line translations and 3 bound spans byte-identical.\n- 0 new edges, participant identities, word meanings, pages or f84/f84r\n  access."
+      },
+      "corrected_design_sha256": "f267f8c655c2e8d24f425c8ae035f1cc2c380f48cd0365ef7967be354a0abecc"
+    }
+  ],
+  "raw_records": 63,
+  "records_excluding_one_known_accidental_duplicate": 62,
+  "method_reviewed": 32,
+  "method_unreviewed_excluding_known_duplicate": 30,
+  "limits": "Distinct design hashes are not scientific novelty or semantic deduplication. All eight hypotheses remain unreviewed and unexecuted; only source quotes and two mistyped source hashes are repaired. Old files/records are preserved. Producer no-build means no separate build command; add itself rebuilds its index."
+}

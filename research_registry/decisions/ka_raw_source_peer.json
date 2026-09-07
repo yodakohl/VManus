@@ -1,0 +1,32 @@
+{
+  "schema": "ka_raw_source_peer_v1",
+  "scope": "Machine source-only audit of corrected IDEA000056-063 designs. Literal span equality, source digest and tools.semantic_identity._evidence were run for every corrected source_evidence object. No registry mutation.",
+  "counts": {
+    "records_checked": 8,
+    "literal_span_pass": 8,
+    "digest_pass": 8,
+    "semantic_identity_evidence_pass": 8,
+    "non_evidence_design_preserved": 8,
+    "scope_semantic": 8,
+    "verdict_untested": 8,
+    "related_to_relations": 8,
+    "errors": 0
+  },
+  "method": {
+    "literal_check": "source_lines[line-1:line_end] joined with newline equals corrected source_evidence.quote",
+    "digest_check": "SHA256 of each declared source path equals corrected source_evidence.sha256",
+    "semantic_identity_check": "tools.semantic_identity._evidence(root, [source_evidence])",
+    "design_check": "corrected design hash equals jz_root_raw_source_correction.corrected_design_sha256; all non-source_evidence design fields equal the proposal design"
+  },
+  "records": [
+    {"id":"IDEA000056","corrected_design_sha256":"2714533a27303e10bd346a1dbb461e2e53b9c6a85e09e75728f79d8afef07349","source_literal":"pass","digest":"pass","semantic_evidence":"pass","non_evidence_design":"unchanged","scope":"semantic","verdict":"untested","relation":"related_to GDT355"},
+    {"id":"IDEA000057","corrected_design_sha256":"44fe4a46c4e76c6911cf8d486012a3a7ab726561275bb4397bdc5e081efb4fe1","source_literal":"pass","digest":"pass","semantic_evidence":"pass","non_evidence_design":"unchanged","scope":"semantic","verdict":"untested","relation":"related_to GDT213"},
+    {"id":"IDEA000058","corrected_design_sha256":"dfcc79616cf0e9d336e814e84938232cd45a2f0445552e46e0f1db452e2f6764","source_literal":"pass","digest":"pass","semantic_evidence":"pass","non_evidence_design":"unchanged","scope":"semantic","verdict":"untested","relation":"related_to GDT198"},
+    {"id":"IDEA000059","corrected_design_sha256":"778b5e6abd20822cb3ae014081357b07ed3ed034ee730c7475a7f1c7677c427c","source_literal":"pass","digest":"pass","semantic_evidence":"pass","non_evidence_design":"unchanged","scope":"semantic","verdict":"untested","relation":"related_to GDT760"},
+    {"id":"IDEA000060","corrected_design_sha256":"fbaa461cec1a1f9e6a0e0911b80d3a77201c03b2aee2a61c2623e10264543772","source_literal":"pass","digest":"pass","semantic_evidence":"pass","non_evidence_design":"unchanged","scope":"semantic","verdict":"untested","relation":"related_to GDT701"},
+    {"id":"IDEA000061","corrected_design_sha256":"76933b08824c9ca433f70c2b23e47230ecef3d6894c3a22dc68d3970959e1b3d","source_literal":"pass","digest":"pass","semantic_evidence":"pass","non_evidence_design":"unchanged","scope":"semantic","verdict":"untested","relation":"related_to GDT701"},
+    {"id":"IDEA000062","corrected_design_sha256":"70dde3df36a8a91052b0afec704e650b69bde1f3400bb1bd094a67d5b75ae7d2","source_literal":"pass","digest":"pass","semantic_evidence":"pass","non_evidence_design":"unchanged","scope":"semantic","verdict":"untested","relation":"related_to GDT701"},
+    {"id":"IDEA000063","corrected_design_sha256":"f267f8c655c2e8d24f425c8ae035f1cc2c380f48cd0365ef7967be354a0abecc","source_literal":"pass","digest":"pass","semantic_evidence":"pass","non_evidence_design":"unchanged","scope":"semantic","verdict":"untested","relation":"related_to GDT701"}
+  ],
+  "conclusion": "All eight corrected source quotes and hashes validate mechanically. The repairs are limited to source_evidence quote/hash fields; all eight hypotheses remain semantic, untested, related-to source pointers, and method-unreviewed. Original proposal/source bytes remain preserved."
+}

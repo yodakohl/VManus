@@ -1,0 +1,45 @@
+{
+  "task": "bounded source audit of formal-role versus semantic cards near short evidence",
+  "scope": "Current cards only; no registry mutation. The previously known SEM:a2d4edf39beff71f8721 four-level omission is excluded.",
+  "findings": [
+    {
+      "sem_id": "SEM:0c20b57a93eb8583b182",
+      "claim_type": "semantic_model",
+      "current_assessment": "unconfirmed; LATE_SIDEQUEST:f8ac1e145f3c36e3533e",
+      "original_assertion": "V65 B2/f82r is an Einzelbad exemplar: temper a portion, carry it between inlets, filter and catch it; local bath/washing/warm poultice are preferred exemplar fillings, followed by rinse/drain variants.",
+      "current_problem": "The card evidence starts at line 45 but has no line_end, although its quoted assertion consumes the complete three-line item. This is an under-bounded source extraction, not a new semantic result.",
+      "source_evidence_needed": {
+        "path": "experiments/yolo/sidequest_theory_candidates_v65/V65_FOUR_ROLE_SELECTION.md",
+        "line": 45,
+        "line_end": 47,
+        "quote": "2. **B2/f82r — Einzelbad:** temperierte Portion zwischen Zugängen führen,\n   filtrieren und auffangen; örtliches Teilbad, Waschung oder warme Auflage als\n   bevorzugte Exemplarfüllung; danach Varianten spülen/ablassen.",
+        "sha256": "f0ac186514ab7edd906a23a690c3d24e71e99faa96e5483181ed2f0f78c8beac"
+      },
+      "suggested_correction": "Retain the wording and unconfirmed bound, but replace the one-line evidence locator with the exact 45–47 span above. Do not promote the medical/bath alternatives to recovered meaning.",
+      "assessment_revision": "Evidence locator only; no verdict change."
+    },
+    {
+      "sem_id": "SEM:909834b5def55a28b490",
+      "claim_type": "semantic_model",
+      "current_assessment": "unconfirmed; LATE_SIDEQUEST:d536cd629b29bfa5282c",
+      "original_assertion": "V65 B4/f83r is a warmer after-treatment exemplar: temper a portion, pass it through cloth, wash/apply externally, then clean and drain the vessel/run and reload; the body-owner comes only from image and genre.",
+      "current_problem": "The card evidence starts at line 51 but has no line_end, while the displayed assertion is a complete three-line item. The missing bound can hide the source's explicit owner limitation.",
+      "source_evidence_needed": {
+        "path": "experiments/yolo/sidequest_theory_candidates_v65/V65_FOUR_ROLE_SELECTION.md",
+        "line": 51,
+        "line_end": 53,
+        "quote": "4. **B4/f83r — warmer Nachgang:** Anteil temperieren, durch Tuch führen,\n   äußerlich waschen/auflegen, dann Gefäß und Lauf reinigen, ablassen und neu\n   beschicken. Der Körperbesitzer kommt nur aus Bild und Gattung.",
+        "sha256": "f0ac186514ab7edd906a23a690c3d24e71e99faa96e5483181ed2f0f78c8beac"
+      },
+      "suggested_correction": "Retain the claim only as this source-local exemplar and retain unconfirmed status; bind the evidence to lines 51–53 so the body-owner limitation remains visible. No semantic promotion.",
+      "assessment_revision": "Evidence locator only; no verdict change."
+    }
+  ],
+  "screened_retain": [
+    {
+      "sem_id": "SEM:bfc589f935bae0e9f766",
+      "reason": "The current evidence already has an exact contiguous line_end (65–66) matching the complete ytoeopchey assertion; no source-bound correction is justified. Its unconfirmed assessment remains appropriate."
+    }
+  ],
+  "conclusion": "Two genuine source-bound extraction corrections were found: both V65 cards omitted the terminating line from a multi-line evidence object. No additional heading-only semantic mis-extraction was supported by the bounded screen. Existing assessment bounds remain unchanged."
+}

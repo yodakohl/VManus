@@ -1,0 +1,42 @@
+{
+  "kind": "append_only_restate_scope_draft",
+  "target": "SEM:a2d4edf39beff71f8721",
+  "target_basis": {
+    "claim_type": "semantic_model",
+    "status": "unconfirmed",
+    "assessment_id": "FINAL-SEM:92a1fb5a177f007ac469",
+    "member_ids": ["LEGACY_PROPOSAL:a1b6f9683ab81fa4a161f5be"],
+    "review_file": "research_registry/decisions/clean_final_sidequest_review.json"
+  },
+  "original_assertion_preserved": "Die vorgeschlagene Schrift hat jetzt vier lehrbare Ebenen: Das passt besser zu einer kleinen Mehrschreiberwerkstatt um 1420 als entweder eine vollstaendig freie Buchstabenschrift oder 173 unverbundene Geheimwoerter. Die Schreiber teilen Bedeutung und Kartenkoerper, waehrend Position und lokale Gewohnheit die sichtbare Huelle steuern.",
+  "source_full_needed": [
+    {
+      "path": "experiments/yolo/sidequest_semantic_compact_surface_manual_six_hundred_twenty_eighth/SIX_HUNDRED_TWENTY_EIGHTH_REPORT.md",
+      "line": 47,
+      "line_end": 54,
+      "quote": "Die vorgeschlagene Schrift hat jetzt vier lehrbare Ebenen:\n\n```text\n39 Werkstattwoerter\n  -> 163 invariante Befehle\n  -> 173 gelernte Kartenkoerper\n  -> 8 Wrapper + 21 lokale Sonderformen\n```",
+      "sha256": "3615be32317ab956d8c06624747f752ffe65eb07248b61523b46153364fd3abc"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_compact_surface_manual_six_hundred_twenty_eighth/SIX_HUNDRED_TWENTY_EIGHTH_REPORT.md",
+      "line": 56,
+      "line_end": 59,
+      "quote": "Das passt besser zu einer kleinen Mehrschreiberwerkstatt um 1420 als entweder\neine vollstaendig freie Buchstabenschrift oder 173 unverbundene Geheimwoerter.\nDie Schreiber teilen Bedeutung und Kartenkoerper, waehrend Position und lokale\nGewohnheit die sichtbare Huelle steuern.",
+      "sha256": "3615be32317ab956d8c06624747f752ffe65eb07248b61523b46153364fd3abc"
+    }
+  ],
+  "suggested_append_only_restatement": "Die vorgeschlagene Schrift hat vier lehrbare Ebenen: 39 Werkstattwoerter werden zu 163 invarianten Befehlen, 173 gelernten Kartenkoerpern sowie 8 Wrappern und 21 lokalen Sonderformen. Das passt besser zu einer kleinen Mehrschreiberwerkstatt um 1420 als entweder eine vollstaendig freie Buchstabenschrift oder 173 unverbundene Geheimwoerter. Die Schreiber teilen Bedeutung und Kartenkoerper, waehrend Position und lokale Gewohnheit die sichtbare Huelle steuern.",
+  "bound_assessment": "Keep status unconfirmed, FINAL-SEM assessment, member identity, source scope, and original assertion. This repairs omitted displayed structure only; it does not confirm the workshop model or convert the counts into independent semantic evidence.",
+  "screened_retain": {
+    "sem_id": "SEM:c2cccb33c73b012eeb4a",
+    "reason": "The apparent short evidence is the complete one-line assertion at R1 lines 172–172; the preceding H3 numbered passage is context, not omitted content. Its existing unconfirmed bound is adequate.",
+    "evidence": {
+      "path": "experiments/yolo/sidequest_semantic_medium_substance_completion/R1_MEDIUM_SUBSTANCE_REPORT.md",
+      "line": 172,
+      "line_end": 172,
+      "quote": "Diese Lesung hat nun eine klare Materialfolge: `PFLANZENSTOFF → WEINSUD → KLARAUSZUG → TRANK`.",
+      "sha256": "5f36716813e3e12341b606e7334884c4514751adc61ee63d440a105204305631"
+    }
+  },
+  "excluded_false_alarm": "The earlier V65 B2/B4 items are excluded: their multiline quotes already contain their complete assertions, and optional line_end omission does not lose source content under the evidence validator."
+}

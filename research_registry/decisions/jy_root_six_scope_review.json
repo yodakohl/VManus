@@ -1,0 +1,180 @@
+{
+  "status": "ROOT_SIX_MISSING_DEFINITIONS_RESTORED",
+  "peer_inputs": [
+    {
+      "path": "research_registry/decisions/fenced_model_scope_six_correction_draft.json",
+      "sha256": "58dac676c63a4313bbf8d99322fb10bf0e1496401097e4532ee89d3cda1ec59a"
+    },
+    {
+      "path": "research_registry/decisions/fenced_model_scope_six_source_audit.json",
+      "sha256": "897c99037b61448250a4217923bc570e3e0175a0d1a221cd116aa2fda16e0d4c"
+    }
+  ],
+  "reviews": [
+    {
+      "target": "SEM:1e34fcea5f717b872e48",
+      "original_claim": "IMAGE_FIRST_ILLUSTRATED_PRACTICAL_AND_CELESTIAL_COMPENDIUM Diese Fassung ist einfacher als die alten Vollübersetzungen, weil sie nur das in den Bildern vorhandene Eigentum und die vorhandene Geometrie benutzt. Ein Pflanzenbild kann den Artikelbesitzer liefern; eine Figur in einer Einfassung kann einen Bad-/Stationsbesitzer liefern; ein Sternsektor kann einen lokalen Adressraum liefern. Das Bild liefert aber nicht automatisch Wasser, Flussrichtung, Krankheit, Arbeitsschritt, Pflanzennamen oder Kartenwert",
+      "replacement_claim": "V70’s image-first practical and celestial compendium proposes five linked assignments: Herbal consists of whole-plant articles owned by their pictures; Biological consists of bath/application stations with a local apparatus layer; Astro consists of distinct static celestial wheels, star maps and lookup tables; text is fitted into space remaining after the large drawings; and the form system is V69’s exemplar-dependent whole-card/register system. Picture and geometry may supply an article owner, station owner or local address space, but do not independently supply water, flow direction, disease, operation, plant name or card value. These are historical working assignments, not newly established image-to-meaning bindings.",
+      "original_basis": "65bc890697e3cac8ab2f4003f36add88f1e2ed9eefec574568c890f6a1840b10",
+      "effective_basis_before": "1d912c67b7ed9ee7a0e3ba1a2cbc27b076ca70c99433d1fb82c3eb20c5bb723b",
+      "source_case_ids": [
+        "LATE_SIDEQUEST:9c03cfca1ddda2654f5c"
+      ],
+      "peer_span_checks": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v70/V70_FOUR_ROLE_IMAGE_SELECTION.md",
+          "line": 15,
+          "line_end": 32,
+          "exact_span": true,
+          "hash_ok": true
+        }
+      ],
+      "dependency_impact": {
+        "research_registry/semantic_claim_corrections.jsonl": [],
+        "research_registry/semantic_identity_decisions.jsonl": [],
+        "research_registry/semantic_failure_decisions.jsonl": [],
+        "research_registry/semantic_priority_decisions.jsonl": []
+      },
+      "reason": "The card preserves the model name and its evidential limitation but omits all five assignments that define the named model, particularly the exemplar-dependent form system and distinct celestial instruments. Restore the historical proposition with its scope; do not change its unconfirmed status or create an additional semantic hypothesis."
+    },
+    {
+      "target": "SEM:3c7f7252cc4ab36d45de",
+      "original_claim": "**Kreis-Tafeln.** Eine Beschriftung wird immer zusammen mit ihrem gezeichneten Ort gelernt: Herrscher-, Tierkreis-, Stern- oder Mondhausplatz. Gleiche Striche auf einer anderen Kreisseite brauchen keine gleiche Expansion. Der Schreiber geht praktisch vor: Ein Satz darf deshalb ohne Weiteres über ein physisches Zeilenende laufen. Der Umbruch ist primär Platzverwaltung; Absatzkontinuität und lokaler Abschluss sind für die Rücklesung wichtiger.",
+      "replacement_claim": "V16 R1 proposes that a circular-table inscription is learned together with its drawn ruler, zodiac, star or lunar-house place; the same strokes on another circle need not have the same expansion. Alongside that rule it gives a general scribal workflow: recognize picture and paragraph, find the running instruction in an exemplar, copy suitable whole cards, omit arguments already supplied by the picture, close a Biological selection locally, and wrap the text around the previously drawn image. In this historical model a sentence may cross a physical line ending: wrapping manages space, while paragraph continuity and local closure guide readback. Neither this workflow nor the proposed astronomical place classes are independently decoded manuscript semantics.",
+      "original_basis": "49007abbd72cad2cd967bf1c64b1d1fe46bc9f91166e7e8bfb5c029cf778af61",
+      "effective_basis_before": "bcaa6d64663cbec3060b55a82dc5b7bea4d28c2ddf724d98534e2391aa439bae",
+      "source_case_ids": [
+        "FINAL-SEM:9bb5b55f58a93dffc10b"
+      ],
+      "peer_span_checks": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v16/CANDIDATE_V16_R1_COMPLETE_WORKSHOP_READING.md",
+          "line": 64,
+          "line_end": 81,
+          "exact_span": true,
+          "hash_ok": true
+        }
+      ],
+      "dependency_impact": {
+        "research_registry/semantic_claim_corrections.jsonl": [],
+        "research_registry/semantic_identity_decisions.jsonl": [],
+        "research_registry/semantic_failure_decisions.jsonl": [],
+        "research_registry/semantic_priority_decisions.jsonl": []
+      },
+      "reason": "The current card jumps from “Der Schreiber geht praktisch vor:” directly to the conclusion about line wrapping; all six causal workflow steps are missing. The restored workflow is general, not silently restricted to circular inscriptions. Restore the historical proposition with its scope; do not change its unconfirmed status or create an additional semantic hypothesis."
+    },
+    {
+      "target": "SEM:4f42c18bd9f2253a511b",
+      "original_claim": "Alle vier Rollen konnten dieselben 14 Einheiten und 776 Gruppen ohne neue Kartenwerte als praktisches Werkstattmiszellaneum ausführen: Das Gegenmodell ist kein einzelner moderner Betrieb. Einheitlich sind Exemplarnutzung, Karten-/Registermaschine und praktische Nachschlagefunktion; die drei Inhaltsblöcke dürfen verschiedene Aufträge einer Werkstatt oder eines technischen Miszellaneums darstellen",
+      "replacement_claim": "V68’s practical-workshop miscellany rival assigns Herbal to plant raw materials, washing/dyeing/binding extracts and stocks; Biological to bathhouse or washhouse basins, filters, conduits, return flow and maintenance; and Astro to a generic 7×12/28 work, appointment and station schedule. Its shared organization is MATERIAL / PROCESS / SCHEDULE, using exemplars, the same card/register mechanism and practical lookup. The three blocks may represent different workshop commissions or a technical miscellany, not one modern industrial establishment. The report’s four-role performance on the same 14 units and 776 groups without changing card values is a creative counter-edition comparison, not independent identification of these contents.",
+      "original_basis": "3f7da3d612ac040553a938eca0e135b77db91388eaedbe172cc52de3a644ca1c",
+      "effective_basis_before": "f416ba811bbcbfe05832bf89f836fbb09a44a0d742c361fa64c7c52d1792c8cd",
+      "source_case_ids": [
+        "LATE_SIDEQUEST:0d650b6b9c39330db5ab"
+      ],
+      "peer_span_checks": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v68/V68_FOUR_ROLE_SELECTION.md",
+          "line": 3,
+          "line_end": 21,
+          "exact_span": true,
+          "hash_ok": true
+        }
+      ],
+      "dependency_impact": {
+        "research_registry/semantic_claim_corrections.jsonl": [],
+        "research_registry/semantic_identity_decisions.jsonl": [],
+        "research_registry/semantic_failure_decisions.jsonl": [],
+        "research_registry/semantic_priority_decisions.jsonl": []
+      },
+      "reason": "The current card calls this a complete rival and names three content blocks without preserving what any block contains. Omitting the generic noncelestial schedule especially erases the distinction from the later celestial-aware practical rival. Restore the historical proposition with its scope; do not change its unconfirmed status or create an additional semantic hypothesis."
+    },
+    {
+      "target": "SEM:515a12975c458112232f",
+      "original_claim": "Die vier Seiten lesen sich am sparsamsten als fünf Artikelabschnitte über vier unbekannte Bildpflanzen. Alle 100 Ereignisse erhalten einen konkreten deutschen Default. Die entscheidende Korrektur lautet dennoch: Dadurch dürfen die Artikel von Wurzelanteil, Blüte, Blatt, Wasser, Wein, Ausziehen, Seihen, Warmhalten, äußerer Anwendung oder Aufbewahrung handeln, ohne dass irgendein sichtbarer Bestandteil diese Wörter trägt",
+      "replacement_claim": "V73 R4 treats four pictured unknown plants as five Herbal article sections, with a concrete German default for each of100 existing events. Its crucial source allocation is: the image supplies the whole unknown plant; a written card supplies an exact opaque identity or an inherited question-mark mnemonic; the master exemplar supplies the concrete part, medium, procedure or use. Consequently root, flower, leaf, water, wine, extraction, straining, warming, external use and storage may occur in the working edition without being decoded from a visible component. The defaults do not establish those meanings.",
+      "original_basis": "412c9d9b6c912ec0df0cd7dac62173b689bb1dc719019f44a1411675f3b5624f",
+      "effective_basis_before": "c80f134c0311730f2990f6121097e850b5aa400b2b2edaef2c9002eb4c620762",
+      "source_case_ids": [
+        "LATE_SIDEQUEST:a4802fe72ed3be67c633"
+      ],
+      "peer_span_checks": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v73/V73_R4_CHANCERY_HERBAL_REPORT.md",
+          "line": 1,
+          "line_end": 23,
+          "exact_span": true,
+          "hash_ok": true
+        }
+      ],
+      "dependency_impact": {
+        "research_registry/semantic_claim_corrections.jsonl": [],
+        "research_registry/semantic_identity_decisions.jsonl": [],
+        "research_registry/semantic_failure_decisions.jsonl": [],
+        "research_registry/semantic_priority_decisions.jsonl": []
+      },
+      "reason": "The current card announces “Die entscheidende Korrektur lautet dennoch:” but omits the three-way image/card/exemplar allocation. Its retained final sentence then says the concrete words are not carried by components without identifying where the model instead obtains them. Restore the historical proposition with its scope; do not change its unconfirmed status or create an additional semantic hypothesis."
+    },
+    {
+      "target": "SEM:55e7a2bdc12d325e9bf5",
+      "original_claim": "Das Manuskript verbindet registerabhängige Formular-Ganzkarten mit einem praktischen Registersystem.",
+      "replacement_claim": "The V14 selection protocol lists an explicit hybrid explaining register differences and gives its incumbent as a formula-card practical register with four assignments: Herbal A is an open abbreviated article; Herbal B bridges into committed production; Biological B uses short relation/value/commit cells; and Astro uses separate spatial lookup instruments. This preserves the specific incumbent definition as well as its broader hybrid category, not an empirical demonstration of semantic register assignments or sentence boundaries.",
+      "original_basis": "5259d480416287c6cde509fd4e8bc52a73b20e99753eb82b638fc7812ef9af2f",
+      "effective_basis_before": "12581ae56c11dc73bd2e4104820d5cbb79de0eb775f13a18933f789c18e2508a",
+      "source_case_ids": [
+        "FINAL-SEM:3134cb35bc11c0ab8cf0"
+      ],
+      "peer_span_checks": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v14/V14_SELECTION_PROTOCOL.md",
+          "line": 39,
+          "line_end": 50,
+          "exact_span": true,
+          "hash_ok": true
+        }
+      ],
+      "dependency_impact": {
+        "research_registry/semantic_claim_corrections.jsonl": [],
+        "research_registry/semantic_identity_decisions.jsonl": [],
+        "research_registry/semantic_failure_decisions.jsonl": [],
+        "research_registry/semantic_priority_decisions.jsonl": []
+      },
+      "reason": "The current generic one-sentence card omits the entire four-register definition and therefore cannot distinguish this incumbent from other practical-register hybrids. “Agents must improve or replace it” is a historical source instruction, not evidence or an instruction governing this audit. Restore the historical proposition with its scope; do not change its unconfirmed status or create an additional semantic hypothesis."
+    },
+    {
+      "target": "SEM:b3b7182a4e1192e78fce",
+      "original_claim": "The q13 generator combines a diagram legend with paragraph-record architecture.",
+      "replacement_claim": "GDT258’s historical q13 generator proposes a page-level illustrated system with local graphical labels rendered through a section-specialized renderer and an independent sequence of physical prose paragraphs. Each paragraph contains HPR2 fields separated by DY or a line end; a sparse minority of complete rendered groups may be reused across the graphical and prose channels. Content values remain unresolved and need not reside in PAGE_HOST alone. Thus the model combines a diagram legend with paragraph records, not one recipe record per figure: f80r has ten labels and five paragraphs, and f82r thirteen labels and three paragraphs. Only three of 23 aligned discovery-page label groups have an exact all-reading prose counterpart, and wider exact/PAGE_HOST routes are nonexceptional, so this is not a demonstrated label dictionary. The source’s formal fields and hypothesized content architecture do not establish linguistic sentence boundaries or meanings.",
+      "original_basis": "2d3b7f6435181a8342d65c68914e19f47121b0fa68f31feb29ccca7c3c1ecb50",
+      "effective_basis_before": "95bf64739b1771ae35c967248ae885a08d32a7293339a77754939904606aa418",
+      "source_case_ids": [
+        "REPORT_PROPOSAL:1d169339d8786d8c56cf"
+      ],
+      "peer_span_checks": [
+        {
+          "path": "GDT258_Q13_CORRECTED_GENERATIVE_THEORY.md",
+          "line": 3,
+          "line_end": 30,
+          "exact_span": true,
+          "hash_ok": true
+        }
+      ],
+      "dependency_impact": {
+        "research_registry/semantic_claim_corrections.jsonl": [],
+        "research_registry/semantic_identity_decisions.jsonl": [],
+        "research_registry/semantic_failure_decisions.jsonl": [],
+        "research_registry/semantic_priority_decisions.jsonl": []
+      },
+      "reason": "The current one-sentence card retains only the architecture label, omitting channel independence, specialized rendering, sparse whole-group reuse and the explicit unresolved-content alternative to PAGE_HOST. These omissions affect comparison with direct-host lexical and per-figure record models. Restore the historical proposition with its scope; do not change its unconfirmed status or create an additional semantic hypothesis."
+    }
+  ],
+  "root_adjustments": [
+    "V73 replacement restores only the missing central image/card/exemplar allocation, without expanding into the adjacent five-step article model.",
+    "V14 preserves the broad hybrid category alongside its specific incumbent rather than silently replacing all hybrid hypotheses with one special case.",
+    "Source instructions quoted in historical protocols do not govern this research pass.",
+    "All historical image/semantic/learnability judgments remain attributed, not newly confirmed."
+  ],
+  "new_cards": 0,
+  "new_manuscript_experiments": 0,
+  "new_meanings": 0
+}

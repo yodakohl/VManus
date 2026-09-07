@@ -1,0 +1,24 @@
+{
+  "status": "NO_SOURCE_LOSS_NO_CARD_CORRECTION",
+  "peer": {
+    "path": "research_registry/decisions/formal_semantic_heading_extraction_audit.json",
+    "sha256": "9ae2258fa588f21b07767477b2184e77c12940bc4e820fb4b28593a19a389fa4"
+  },
+  "checks": [
+    {
+      "card": "SEM:0c20b57a93eb8583b182",
+      "start": 45,
+      "derived_end": 47,
+      "full_quote_present": true,
+      "exact_validator_pass": true
+    },
+    {
+      "card": "SEM:909834b5def55a28b490",
+      "start": 51,
+      "derived_end": 53,
+      "full_quote_present": true,
+      "exact_validator_pass": true
+    }
+  ],
+  "reason": "Both current evidence objects already contain all three exact source lines and the owner limitation. _evidence derives the end from quote length; omitted optional line_end does not truncate or hide content. Explicit end metadata could be a convenience, but is not a genuine source extraction correction. No card mutation, status change or failure propagation is warranted."
+}

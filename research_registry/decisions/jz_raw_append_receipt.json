@@ -1,0 +1,88 @@
+{
+  "schema": "raw_proposal_append_receipt_v1",
+  "batch": "jz",
+  "status": "ADDED_RAW_UNREVIEWED",
+  "append_command": "./vmanus-work ideas add FILE",
+  "records_after": 5229,
+  "entries": [
+    {
+      "id": "IDEA000060",
+      "title": "A shared relation destination bundles two actions into one result",
+      "proposal_file": "research_registry/proposals/jz_shared_destination_bundle.json",
+      "proposal_file_sha256": "c13ec505e9356d4fd2b4489cc695c128183aabc93c59597ac5f5ad54dc4d36e9",
+      "design_sha256": "f0f73d2e542b9ff6f513c485e7e52ad7c646c530a0033a968d56a936e5d784a9",
+      "source_evidence": {
+        "path": "experiments/yolo/gdt701_v74_cumulative_relation_components/REPORT.md",
+        "line": 23,
+        "line_end": 27,
+        "sha256": "68b95cd1ca5da5651ebfc4ebd7667760a0bb4e9dae6507fbaf60da9db890e7a0",
+        "quote": "The atlas now gives one exact home to every current edge. Seven components\ncontain one edge, M006 is a two-action fan-out to one written destination, and\nM007 is the sole serial chain with a written intermediate product. The last\naction in every component still lacks an admitted, separately named final\nresult."
+      },
+      "review_status": "unreviewed",
+      "binding_status": "availability_unknown",
+      "cli_status": "UNTESTED_PROPOSAL",
+      "near_predecessors": "Near GDT697/GDT701/GDT702, but targets the semantic consequence of fan-out topology rather than merely composing or counting relation edges."
+    },
+    {
+      "id": "IDEA000061",
+      "title": "A serial relation chain transfers the written intermediate product",
+      "proposal_file": "research_registry/proposals/jz_serial_chain_transfer.json",
+      "proposal_file_sha256": "2f7d4c2047f887fb7b641d6abc6caccdc13eb26ddbd867704890192ebc8bb108",
+      "design_sha256": "6e6031140995509e88d76443fd6e120f42e2cf5ac8837ef108938330ca09b2bb",
+      "source_evidence": {
+        "path": "experiments/yolo/gdt701_v74_cumulative_relation_components/REPORT.md",
+        "line": 23,
+        "line_end": 27,
+        "sha256": "68b95cd1ca5da5651ebfc4ebd7667760a0bb4e9dae6507fbaf60da9db890e7a0",
+        "quote": "The atlas now gives one exact home to every current edge. Seven components\ncontain one edge, M006 is a two-action fan-out to one written destination, and\nM007 is the sole serial chain with a written intermediate product. The last\naction in every component still lacks an admitted, separately named final\nresult."
+      },
+      "review_status": "unreviewed",
+      "binding_status": "availability_unknown",
+      "cli_status": "UNTESTED_PROPOSAL",
+      "near_predecessors": "Near GDT697/GDT700/GDT701, but makes one narrow output-input equality prediction rather than a general continuation or result gloss."
+    },
+    {
+      "id": "IDEA000062",
+      "title": "Hull-only positions mark structural boundaries rather than relation participants",
+      "proposal_file": "research_registry/proposals/jz_hull_boundary_semantics.json",
+      "proposal_file_sha256": "28264fcff6b244bbe866fa233bc54a3ee287cd2e160627498a4d204600878be6",
+      "design_sha256": "894ec977c718287b632e8681c15f7bfbd7c7facb77a0910d5d3e17dccfc80895",
+      "source_evidence": {
+        "path": "experiments/yolo/gdt701_v74_cumulative_relation_components/REPORT.md",
+        "line": 31,
+        "line_end": 40,
+        "sha256": "68b95cd1ca5da5651ebfc4ebd7667760a0bb4e9dae6507fbaf60da9db890e7a0",
+        "quote": "The graph has 23 unique edge nodes and 25 edge incidences. Only\n`f80v.35#3` and `f86v6.25#4` are genuine shared nodes. Two visually intervening\npositions are not nodes:\n\n- `f86v5.24#2 aiin` is an unbound quantity register inside the C010 hull;\n- `f26r.2#5 chedy` is an exact state checkpoint inside the C011 hull.\n\nThe free `dy` at `f26r.2#7` is retained only to close the rendered clause; it\nlies outside C011's #4--#6 hull."
+      },
+      "review_status": "unreviewed",
+      "binding_status": "availability_unknown",
+      "cli_status": "UNTESTED_PROPOSAL",
+      "near_predecessors": "Near GDT701 and GDT702, but targets the semantic status of explicitly excluded hull positions rather than adding relation edges or result labels."
+    },
+    {
+      "id": "IDEA000063",
+      "title": "Relation-component topology predicts microrecord unit boundaries",
+      "proposal_file": "research_registry/proposals/jz_component_topology_unit.json",
+      "proposal_file_sha256": "ce3db8c1cfc265f568c8899ad3eea29ea12704959ee0cab20a9b9b63d882086c",
+      "design_sha256": "65845d443348484051d726858d146f0ae03fa9defc05c4266618232fa68ccb7a",
+      "source_evidence": {
+        "path": "experiments/yolo/gdt701_v74_cumulative_relation_components/REPORT.md",
+        "line": 48,
+        "line_end": 57,
+        "sha256": "68b95cd1ca5da5651ebfc4ebd7667760a0bb4e9dae6507fbaf60da9db890e7a0",
+        "quote": "- 11/11 inherited edges assigned exactly once to 9 components.\n- 7 one-edge components, 1 repeated-destination fan-out, 1 serial chain.\n- 23 edge nodes, 25 incidences, 25 minimal-hull positions, 2 hull-only\n  positions and 1 render-only structural position.\n- 17 held rivals and 27 reference decisions preserved unchanged.\n- 479 token glosses, 51 line translations and 3 bound spans byte-identical."
+      },
+      "review_status": "unreviewed",
+      "binding_status": "availability_unknown",
+      "cli_status": "UNTESTED_PROPOSAL",
+      "near_predecessors": "Near GDT697/GDT701 and the closed relation-edge capacity routes, but proposes a unit-boundary rule rather than a new edge or word meaning."
+    }
+  ],
+  "pre_add_checks": {
+    "duplicate_and_route_screened": true,
+    "serial_cli_adds": true,
+    "targeted_title_id_checked_after_each_add": true,
+    "no_review_or_refresh_or_ledger_or_build": true
+  },
+  "scientific_status": "All four are speculative, unreviewed, and not test-ready; no semantic gold or readiness claimed."
+}

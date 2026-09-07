@@ -1,0 +1,44 @@
+{
+  "record_id": "IDEA000059",
+  "scope": "semantic",
+  "verdict": "untested",
+  "reviewer": "root literal source-span correction only",
+  "reason": "The intake file and registered design match, but its quotation does not match the declared physical source span. Replace only the source quotation and, where mistyped, source hash with the verified original source span/hash; preserve the original proposal bytes and hypothesis. No scientific method review or execution approval.",
+  "assessment_basis": "source_quote_repair_only_method_unreviewed",
+  "design": {
+    "mechanism": "state operator over shared amount frame",
+    "unit": "complete cheor/sheor whole in an exact amount expression with independently coded amount head and value",
+    "contrast": "dry/moist forms alter a shared amount-frame state versus each whole names an unrelated material noun",
+    "prediction": "Across held amount frames, replacing cheor with sheor should preserve amount-head/value syntax while changing only the state slot; unrelated-noun analysis predicts independent attachment or slot behavior.",
+    "countermodel": "The apparent shared frame may be a template that accepts unrelated nouns, and the dry/moist contrast may be an analyst gloss rather than an observed operator.",
+    "falsifier": "Held cheor/sheor occurrences fail to preserve the amount frame under a predeclared state substitution, or independent noun-role coding explains them equally without a state slot.",
+    "principal_risk": "GDT760 calls these working candidates and explicitly says water and wine remain rivals; no lexical identity is established.",
+    "related": "Near GDT760/GDT762/GDT761, but asks a substitutional operator question over exact amount frames rather than selecting a medium, side attachment, or global state gloss.",
+    "source_evidence": {
+      "path": "experiments/yolo/gdt760_quantity_bilateral_content_attachment/REPORT.md",
+      "line": 44,
+      "line_end": 62,
+      "sha256": "a58f98014700da93e4d8e3db2a8e7a16d94b110313649f0a7f2a7952a8d6cfdd",
+      "quote": "## Der stärkste neue Bedeutungshebel\n\ncheor und sheor sind nun das beste kleine Inhaltsparadigma:\n\n| Ganzwort | Mengenanschlüsse | globale exakte Vorkommen | Arbeitswert |\n|---|---:|---:|---|\n| cheor | 3 auf 3 Seiten | 56 | trockener Drogenteil |\n| sheor | 3 auf 3 Seiten | 31 | feuchter Drogenteil |\n\nBeide stehen in exakten Mengenplätzen, gemeinsam unter s, or und ar sowie bei\nWert II und III. Damit wird der Trocken/Feucht-Gegensatz praktisch nützlich:\nDie Formen sind nicht nur abstrakte Zustandsfelder, sondern Kandidaten für\nzähl- oder wägbare Drogenteile. Trotzdem wird aus ch gegen sh kein freier\nZeichenwert abgeleitet; die beiden vollständigen Wörter tragen den Vergleich.\n\nDas kleinere Parallelpaar cheo/sheo besetzt drei Mengenplätze und führt zu\ntrocken angesetzter Zubereitung gegen Feuchtzubereitung. Wasser- und Weinansatz\nbleiben hier gleich gute Untermodelle. Genau diese beiden Formen können in der\nnächsten Runde nach ihrem Lösungsmittel getrennt werden."
+    },
+    "endpoint_status": "availability_unknown"
+  },
+  "blockers": [],
+  "reopen": {
+    "policy": "unreviewed",
+    "all_of": [],
+    "not_sufficient": []
+  },
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "GDT760",
+      "detail": "Primary source observation for this unreviewed proposal; not a semantic identity or a successful test.",
+      "evidence": [
+        "research_registry/decisions/jz_root_raw_source_correction.json",
+        "research_registry/proposals/jx_dry_moist_whole_operator.json",
+        "experiments/yolo/gdt760_quantity_bilateral_content_attachment/REPORT.md"
+      ]
+    }
+  ]
+}

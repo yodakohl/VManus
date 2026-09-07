@@ -4,8 +4,8 @@ Updated: 2026-09-07. Read first.
 ## Current mandate and effort limit
 
 10h active:2026-09-07 20:29:06–2026-09-08 06:29:06UTC minimum.
-JW:5models/5questions this10h;85groups/99reduction.
-55rawrecords54unique;32method/22unreviewed;55duplicate_of53.
+KA:5models/5questions;7definitions repaired;85groups/99reduction.
+63rawrecords62afterknown55dup;32method/30unreviewed;8source-onlyrepairs.
 Report: `research_registry/decisions/semantic_4h_completion.md`.
 
 GDT858:855/963primary808folds retained opposite-face training;169faces/90leaves.

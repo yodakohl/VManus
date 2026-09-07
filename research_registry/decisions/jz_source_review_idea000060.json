@@ -1,0 +1,44 @@
+{
+  "record_id": "IDEA000060",
+  "scope": "semantic",
+  "verdict": "untested",
+  "reviewer": "root literal source-span correction only",
+  "reason": "The intake file and registered design match, but its quotation does not match the declared physical source span. Replace only the source quotation and, where mistyped, source hash with the verified original source span/hash; preserve the original proposal bytes and hypothesis. No scientific method review or execution approval.",
+  "assessment_basis": "source_quote_repair_only_method_unreviewed",
+  "design": {
+    "mechanism": "shared-destination result bundling",
+    "unit": "two admitted action edges converging on one exact written destination node",
+    "contrast": "one shared result/state versus two independent results coincidentally written at one destination",
+    "prediction": "A held fan-out should preserve one destination state and constrain both incoming actions to the same result class; an independent-output model predicts separable destination behavior when one incoming action changes.",
+    "countermodel": "The same destination may be a repeated notation or editor-compressed location with no shared semantic result.",
+    "falsifier": "Independent destination/state coding shows the two incoming actions require distinct results, or a matched fan-out has no shared downstream state constraint.",
+    "principal_risk": "Current destination/result labels are working readings and no separately named final result is admitted.",
+    "related": "Near GDT697/GDT701/GDT702, but targets the semantic consequence of fan-out topology rather than merely composing or counting relation edges.",
+    "source_evidence": {
+      "path": "experiments/yolo/gdt701_v74_cumulative_relation_components/REPORT.md",
+      "line": 23,
+      "line_end": 27,
+      "sha256": "68b95cd1ca5da5651ebfc4ebd7667760a0bb4e9dae6507fbaf60da9db890e7a0",
+      "quote": "The atlas now gives one exact home to every current edge.  Seven components\ncontain one edge, M006 is a two-action fan-out to one written destination, and\nM007 is the sole serial chain with a written intermediate product.  The last\naction in every component still lacks an admitted, separately named final\nresult."
+    },
+    "endpoint_status": "availability_unknown"
+  },
+  "blockers": [],
+  "reopen": {
+    "policy": "unreviewed",
+    "all_of": [],
+    "not_sufficient": []
+  },
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "GDT701",
+      "detail": "Primary source observation for this unreviewed proposal; not a semantic identity or a successful test.",
+      "evidence": [
+        "research_registry/decisions/jz_root_raw_source_correction.json",
+        "research_registry/proposals/jz_shared_destination_bundle.json",
+        "experiments/yolo/gdt701_v74_cumulative_relation_components/REPORT.md"
+      ]
+    }
+  ]
+}
