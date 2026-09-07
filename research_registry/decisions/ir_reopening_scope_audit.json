@@ -1,0 +1,32 @@
+{
+  "audit": "IR reopening scope audit",
+  "audited_latest_dossiers": 107,
+  "method": "Read the latest decision_key revision for each of 107 semantic failure dossiers and inspected reopening pathways mentioning capacity, eligible occurrences, source evidence, or independent binding. I retained only a condition whose wording could let recurrence/capacity stand in for a new semantic owner.",
+  "nominations": [
+    {
+      "decision_key": "FAILURE_EH:PCHEEY_DRY_SOURCE_TO_NEUTRAL_BOUND_FIELD",
+      "revision": "v1",
+      "material_issue": "The reuse_original_signature_model pathway says reopening can be supported by an independently supported donor/relation OR a new eligible occurrence. A new eligible occurrence by itself is only added exposure/capacity; it does not independently bind pcheey to a dry referent or to an input/source relation. This disjunct could incorrectly reopen the dry-source assignment after recurrence under the same authored DRY/MOIST and role labels.",
+      "exact_source_evidence": [
+        {
+          "path": "experiments/yolo/gdt762_moist_medium_candidate_discrimination/REPORT.md",
+          "line": 17,
+          "line_end": 42,
+          "quote": "pcheey hat nur drei reader-exakte Vorkommen. Alle drei stehen unmittelbar rechts von einer feuchten Präparationsform.",
+          "sha256": "66c48146f7a04eb4af39f5c9a51f1b6675bdf2c230f8f02bd949c8eedf640076"
+        },
+        {
+          "path": "experiments/yolo/gdt762_moist_medium_candidate_discrimination/REPORT.md",
+          "line": 46,
+          "line_end": 69,
+          "quote": "Damit ist die sparsamste portable Bedeutung: pcheey = Trockenzubereitungs-/Form-II-Eintrag; Identität offen.",
+          "sha256": "66c48146f7a04eb4af39f5c9a51f1b6675bdf2c230f8f02bd949c8eedf640076"
+        }
+      ],
+      "why_existing_evidence_is_insufficient": "The source reports three same-frame occurrences and explicitly leaves identity open. Recounting that frame, even with adequate capacity, cannot supply the missing dry-property and source/result relation bindings. The dossier's own question and shared limits correctly require those bindings, so the unqualified occurrence disjunct is internally overbroad.",
+      "one_actionable_correction": "Change the requirement to: ‘Identify a changed independently supported donor/relation or a newly independently source-bound occurrence whose referent/property and relation are fixed before scoring.’ State that a new occurrence without such binding is capacity only and cannot reopen the historical dry-source assignment. Keep all other pathway gates unchanged.",
+      "decision_consequence": "Prevents a recurrence-only result from being treated as a semantic reopening; preserves the current neutral record-field outcome until a source-owned contrast exists."
+    }
+  ],
+  "screen_conclusion": "No other latest dossier inspected showed a comparable false disjunct: the remaining capacity/coverage conditions either explicitly require independent binding or explicitly say capacity is not target-score or meaning evidence. This is a review nomination, not an authorization or registry mutation."
+}

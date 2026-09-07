@@ -1,0 +1,84 @@
+{
+  "schema": "is_raw_relation_review_v1",
+  "source_receipt": "research_registry/decisions/is_raw_intake_draft.json",
+  "source_receipt_sha256": "cdb032d1fa9239b076db86d5168c98750b09e054b7c8b8158b2e19b33d1d7b9b",
+  "entries": [
+    {
+      "raw_id": "IS-RAW-01",
+      "proposal_file": "research_registry/proposals/is_argument_scope.json",
+      "proposal_file_sha256": "e472cf3cf9f82830aa1ba47dc223de8dbbeef66024bf619d42b56bbd96308ac1",
+      "design_sha256": "48f50571a6d69dd9110c0e3c8627e84f6e297506ff8422f117dfa0d325e8cafc",
+      "title": "An argument operator scopes over a whole argument sequence rather than only its nearest value",
+      "classification": "related_specialization",
+      "existing_related_ids": "IDEA000038/GDT559",
+      "source_evidence": {
+        "path": "experiments/yolo/gdt559_argument_carrier_substitution_grammar/REPORT.md",
+        "line": 8,
+        "line_end": 29,
+        "quote": "Die vier bisherigen Einwortwerte bleiben kurz:\n\n```text\nY     POSTEN\nAIIN  WERT\nAIN   ANTEIL\nOR    EINHEIT\n```\n\nNeu ist nicht ein längeres Wörterbuch, sondern ihre gemeinsame Grammatik.\nUnter den1,656 Zustandskarten tragen382 Karten insgesamt390 dieser\nArgumentstellen. Alle fallen in nur sechs sichtbare `OT/OL/DY`-Hüllen und alle\nerhalten eine kompositionelle Standardlesung.\n\n| Hülle | Stellen | kurze Lesung |\n|---|---:|---|\n| `OT>A<END` | 185 | `DANACH · ARG` |\n| `OL>A<END` | 156 | `FORTSETZEN · ARG` |\n| `START>A<DY` | 31 | `ARG · ABSCHLIESSEN` |\n| `START>A<OL` | 16 | `ARG · FORTSETZEN` |\n| `OT>A<OL` | 1 | `DANACH · ARG · FORTSETZEN` |\n| `OL>A<OL` | 1 | `FORTSETZEN · ARG · FORTSETZEN` |\n",
+        "sha256": "c1f3518d7996c041335ed1abac9899e53079de22ed0f6321065c8f7442559bc4"
+      },
+      "assessment": "Not a duplicate: it compares explicit multi-argument broad scope with nearest attachment; IDEA000038 concerns omitted-carrier reuse. Still untestable from the cited source because the GDT559 passage reports renderer-assigned compositional readings and no independent scope boundary/argument endpoint. The falsifier OR “both models make identical predictions” is non-identifiability, not an empirical failure.",
+      "falsifier_status": "conditional_only_unavailable",
+      "reopening_note": "No empirical falsifier currently available; require independently bound scope boundaries and argument effects before testing."
+    },
+    {
+      "raw_id": "IS-RAW-02",
+      "proposal_file": "research_registry/proposals/is_restriction_polarity.json",
+      "proposal_file_sha256": "922c6469d8f3123475dfa04460f5eaf6c99d98c9ee6b4767d5c989f514c54348",
+      "design_sha256": "5b84d96324187ca578c666edc80bb33abc49646f0b064878b3602c89cf614b63",
+      "title": "An explicit restriction changes applicability while an implicit default preserves it",
+      "classification": "related_specialization",
+      "existing_related_ids": "IDEA000042, IDEA000043/GDT559",
+      "source_evidence": {
+        "path": "experiments/yolo/gdt559_argument_carrier_substitution_grammar/REPORT.md",
+        "line": 31,
+        "line_end": 33,
+        "quote": "Damit ist ein Stamm weiterhin nur ein kurzer Wert. Eine längere Form wie\n`OT+AIIN` bedeutet nicht, dass AIIN nun „den nächsten Wert als Träger eröffnen“\nheißen muss. Sie setzt sich aus `OT=DANACH/ERÖFFNEN` und `AIIN=WERT` zusammen.\n",
+        "sha256": "c1f3518d7996c041335ed1abac9899e53079de22ed0f6321065c8f7442559bc4"
+      },
+      "assessment": "Not a duplicate: it narrows conditional applicability/prohibition to overt restriction versus unmarked default. The cited GDT559 sentence only decomposes OT+AIIN; it does not identify a restriction cue or applicability endpoint. Treat the OR missing-binding clause as unavailable design, not a falsification.",
+      "falsifier_status": "conditional_only_unavailable",
+      "reopening_note": "No empirical falsifier currently available; require independently marked restriction and independently observed applicability/licensing."
+    },
+    {
+      "raw_id": "IS-RAW-03",
+      "proposal_file": "research_registry/proposals/is_comparison_standard.json",
+      "proposal_file_sha256": "6369187576f81e74f864c74b6a771477bf33e2b13b3c0661f53467c4511df043",
+      "design_sha256": "61392f408743112016ab49659105d5695d7ee97abd464c5594348bad5499a70c",
+      "title": "A quality expression selects a local comparison standard rather than an absolute degree",
+      "classification": "related_specialization",
+      "existing_related_ids": "IDEA000023, GDT627/GDT630",
+      "source_evidence": {
+        "path": "experiments/yolo/gdt627_value_head_role_atlas/REPORT.md",
+        "line": 5,
+        "line_end": 17,
+        "quote": "GDT626 found a bounded four-cell ending but could only call it “value I–IV.”\nGDT627 supplies the missing head semantics. The same written slot is reused\nproductively:\n\n```text\nquality head + a + value  = quality in degree I/II/III/IV\nd            + a + value  = free measure or grade I/II/III/IV\n```\n\nIn a plant-part list, the practical default for the second construction is a\nlocal amount or dose. Thus `daiin` no longer means a generic operation and no\nlonger remains the opaque “d-value III.” It reads **three local measures or\nportions**, with the kind of unit still open.\n",
+        "sha256": "db6df328d4bdf7b0595cff5573078deb8a6dbc67e4ffb31f47d94519728d96ba"
+      },
+      "assessment": "Not a duplicate: it asks baseline-sensitive comparison versus invariant degree, while IDEA000023 asks adjacent modifier scope. The GDT627 quote supplies value/measure working readings but no independently bound baseline/property contrast. Invariance without such a bound baseline is not an empirical falsifier.",
+      "falsifier_status": "conditional_only_unavailable",
+      "reopening_note": "No empirical falsifier currently available; require independently bound baseline, property and held value spans."
+    },
+    {
+      "raw_id": "IS-RAW-04",
+      "proposal_file": "research_registry/proposals/is_calibration_invariance.json",
+      "proposal_file_sha256": "532fb80d7e87bb50d73acdb45ba8168e409fc32f14c3b91210cfaa66a39b607a",
+      "design_sha256": "f49b12da87c00fc5ba0f486041a1d8fdf549fd2b8c52bce51ecc6adb778dcafb",
+      "title": "A measured value is calibrated by its local unit rather than being a portable ordinal",
+      "classification": "related_specialization",
+      "existing_related_ids": "IDEA000014, IDEA000021, GDT627/GDT686",
+      "source_evidence": {
+        "path": "experiments/yolo/gdt627_value_head_role_atlas/REPORT.md",
+        "line": 5,
+        "line_end": 17,
+        "quote": "GDT626 found a bounded four-cell ending but could only call it “value I–IV.”\nGDT627 supplies the missing head semantics. The same written slot is reused\nproductively:\n\n```text\nquality head + a + value  = quality in degree I/II/III/IV\nd            + a + value  = free measure or grade I/II/III/IV\n```\n\nIn a plant-part list, the practical default for the second construction is a\nlocal amount or dose. Thus `daiin` no longer means a generic operation and no\nlonger remains the opaque “d-value III.” It reads **three local measures or\nportions**, with the kind of unit still open.\n",
+        "sha256": "db6df328d4bdf7b0595cff5573078deb8a6dbc67e4ffb31f47d94519728d96ba"
+      },
+      "assessment": "Not a duplicate: it asks unit-dependent calibration/ratios versus portable ordinal rank, whereas IDEA000014 tests amount-frame conservation and IDEA000021 unit recurrence. It remains untestable: no independently bound units or conversion/ratio endpoint is supplied. “No unit contrast can be bound” is a design stop, not evidence for ordinal meaning.",
+      "falsifier_status": "conditional_only_unavailable",
+      "reopening_note": "No empirical falsifier currently available; require independently bound differing units and a predeclared conversion/rank endpoint."
+    }
+  ],
+  "conclusion": "All four are retained as raw proposals. None is an actual duplicate of the cited existing idea; each is a related specialization. None currently has an empirical falsifier because the required semantic endpoint is explicitly availability_unknown. Missing independent binding is a stop condition, not a negative result. No proposal is promoted or added here."
+}

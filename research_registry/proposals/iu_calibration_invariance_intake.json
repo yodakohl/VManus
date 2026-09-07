@@ -1,0 +1,27 @@
+{
+  "title": "A measured value is calibrated by its local unit rather than being a portable ordinal",
+  "summary": "Distinguish unit-calibrated quantity interpretation from a fixed ordinal interpretation when the same value slot appears with different local unit frames.",
+  "scope": "semantic",
+  "design": {
+    "mechanism": "The written value is interpreted through a local unit or measure frame, so equal surface values can denote different quantities across calibrated units; an ordinal model assigns one portable rank.",
+    "unit": "Complete value spans with independently bound unit/measure frame, value surface and cross-context calibration relation.",
+    "contrast": "Unit-calibrated measurement versus invariant ordinal value, with value surface and position matched.",
+    "prediction": "A calibrated model predicts context-dependent quantity ratios or ordered conversions when unit changes; an ordinal model predicts invariant rank and no unit-dependent conversion.",
+    "falsifier": "Held cases with independently bound differing units show invariant rank and no calibration effect, or no unit contrast can be bound without importing the proposed meaning.",
+    "scope": "Existing value/amount frames only; no raw TSV or new measurements; independent unit endpoint availability_unknown.",
+    "related": "Near IDEA000014/21 and GDT627/GDT686 quantity/value routes, but asks calibration invariance across unit frames rather than conservation, attachment, or unit-word recurrence.",
+    "countermodel": "A renderer can assign local amount prose to a fixed ordinal without the underlying value being calibrated.",
+    "source_evidence": {
+      "path": "experiments/yolo/gdt627_value_head_role_atlas/REPORT.md",
+      "line": 5,
+      "line_end": 17,
+      "quote": "GDT626 found a bounded four-cell ending but could only call it “value I–IV.”\nGDT627 supplies the missing head semantics. The same written slot is reused\nproductively:\n\n```text\nquality head + a + value  = quality in degree I/II/III/IV\nd            + a + value  = free measure or grade I/II/III/IV\n```\n\nIn a plant-part list, the practical default for the second construction is a\nlocal amount or dose. Thus `daiin` no longer means a generic operation and no\nlonger remains the opaque “d-value III.” It reads **three local measures or\nportions**, with the kind of unit still open.",
+      "sha256": "db6df328d4bdf7b0595cff5573078deb8a6dbc67e4ffb31f47d94519728d96ba"
+    },
+    "intake_limit": "Raw proposal retained for later method review. Missing independently bound endpoints or identical model predictions are design/capacity stops, not empirical refutations. Source working glosses do not supply semantic gold.",
+    "original_draft": {
+      "path": "research_registry/proposals/is_calibration_invariance.json",
+      "sha256": "532fb80d7e87bb50d73acdb45ba8168e409fc32f14c3b91210cfaa66a39b607a"
+    }
+  }
+}

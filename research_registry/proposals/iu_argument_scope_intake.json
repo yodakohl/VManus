@@ -1,0 +1,27 @@
+{
+  "title": "An argument operator scopes over a whole argument sequence rather than only its nearest value",
+  "summary": "Distinguish broad argument scope from nearest-carrier attachment in the observed OT/OL/DY envelopes.",
+  "scope": "semantic",
+  "design": {
+    "mechanism": "A constructional operator applies to all compatible argument values in its local sequence until a scope boundary, rather than selecting only the adjacent carrier.",
+    "unit": "Complete OT/OL/DY envelopes with one or more argument carriers and independently marked scope boundaries.",
+    "contrast": "Whole-sequence scope versus nearest-argument attachment, holding carrier type and envelope fixed.",
+    "prediction": "If broad scope is encoded, adding a second compatible argument preserves the operator's effect on both values; nearest attachment affects only the adjacent value.",
+    "falsifier": "Held cases with independently bound scope show the effect consistently stops at the nearest argument despite a second compatible value, or broad and nearest models make identical predictions in every case.",
+    "scope": "GDT559 state cards; independent semantic scope endpoint availability_unknown.",
+    "related": "Near IDEA000038 ellipsis and GDT559 carrier grammar, but target is operator scope over multiple explicit arguments, not inherited-carrier reuse.",
+    "countermodel": "Renderer composition can repeat a local operator label across each carrier and mimic broad scope without a single scoped construction.",
+    "source_evidence": {
+      "path": "experiments/yolo/gdt559_argument_carrier_substitution_grammar/REPORT.md",
+      "line": 8,
+      "line_end": 29,
+      "quote": "Die vier bisherigen Einwortwerte bleiben kurz:\n\n```text\nY     POSTEN\nAIIN  WERT\nAIN   ANTEIL\nOR    EINHEIT\n```\n\nNeu ist nicht ein längeres Wörterbuch, sondern ihre gemeinsame Grammatik.\nUnter den1,656 Zustandskarten tragen382 Karten insgesamt390 dieser\nArgumentstellen. Alle fallen in nur sechs sichtbare `OT/OL/DY`-Hüllen und alle\nerhalten eine kompositionelle Standardlesung.\n\n| Hülle | Stellen | kurze Lesung |\n|---|---:|---|\n| `OT>A<END` | 185 | `DANACH · ARG` |\n| `OL>A<END` | 156 | `FORTSETZEN · ARG` |\n| `START>A<DY` | 31 | `ARG · ABSCHLIESSEN` |\n| `START>A<OL` | 16 | `ARG · FORTSETZEN` |\n| `OT>A<OL` | 1 | `DANACH · ARG · FORTSETZEN` |\n| `OL>A<OL` | 1 | `FORTSETZEN · ARG · FORTSETZEN` |",
+      "sha256": "c1f3518d7996c041335ed1abac9899e53079de22ed0f6321065c8f7442559bc4"
+    },
+    "intake_limit": "Raw proposal retained for later method review. Missing independently bound endpoints or identical model predictions are design/capacity stops, not empirical refutations. Source working glosses do not supply semantic gold.",
+    "original_draft": {
+      "path": "research_registry/proposals/is_argument_scope.json",
+      "sha256": "e472cf3cf9f82830aa1ba47dc223de8dbbeef66024bf619d42b56bbd96308ac1"
+    }
+  }
+}

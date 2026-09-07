@@ -1,0 +1,93 @@
+{
+  "schema": "raw_proposal_append_receipt_v1",
+  "batch": "iu",
+  "status": "ADDED_RAW_UNREVIEWED",
+  "append_command": "./vmanus-work ideas add FILE",
+  "records_after": 5197,
+  "entries": [
+    {
+      "id": "IDEA000046",
+      "title": "An argument operator scopes over a whole argument sequence rather than only its nearest value",
+      "proposal_file": "research_registry/proposals/iu_argument_scope_intake.json",
+      "proposal_file_sha256": "a5878bc10b03cbeb97231294073435cd64929af4a6c4c2b54b507b23adb2a59c",
+      "design_sha256": "04f69b64dd267790a55474f9382bb92ae1e13aeb457904ede15ec19863c00403",
+      "source_evidence": {
+        "path": "experiments/yolo/gdt559_argument_carrier_substitution_grammar/REPORT.md",
+        "line": 8,
+        "line_end": 29,
+        "quote": "Die vier bisherigen Einwortwerte bleiben kurz:\n\n```text\nY     POSTEN\nAIIN  WERT\nAIN   ANTEIL\nOR    EINHEIT\n```\n\nNeu ist nicht ein längeres Wörterbuch, sondern ihre gemeinsame Grammatik.\nUnter den1,656 Zustandskarten tragen382 Karten insgesamt390 dieser\nArgumentstellen. Alle fallen in nur sechs sichtbare `OT/OL/DY`-Hüllen und alle\nerhalten eine kompositionelle Standardlesung.\n\n| Hülle | Stellen | kurze Lesung |\n|---|---:|---|\n| `OT>A<END` | 185 | `DANACH · ARG` |\n| `OL>A<END` | 156 | `FORTSETZEN · ARG` |\n| `START>A<DY` | 31 | `ARG · ABSCHLIESSEN` |\n| `START>A<OL` | 16 | `ARG · FORTSETZEN` |\n| `OT>A<OL` | 1 | `DANACH · ARG · FORTSETZEN` |\n| `OL>A<OL` | 1 | `FORTSETZEN · ARG · FORTSETZEN` |",
+        "sha256": "c1f3518d7996c041335ed1abac9899e53079de22ed0f6321065c8f7442559bc4"
+      },
+      "original_draft": "research_registry/proposals/is_argument_scope.json",
+      "binding_status": "availability_unknown",
+      "review_status": "unreviewed",
+      "cli_status": "UNTESTED_PROPOSAL"
+    },
+    {
+      "id": "IDEA000047",
+      "title": "An explicit restriction changes applicability while an implicit default preserves it",
+      "proposal_file": "research_registry/proposals/iu_restriction_polarity_intake.json",
+      "proposal_file_sha256": "b1fae951a927cc3b69b6b409a7044fb90c6993635faa074d809ce0192f84ffff",
+      "design_sha256": "1f260fd9db3a0c1b00ba3d68a78d8409dc263017c953a14711b3f79b664b48df",
+      "source_evidence": {
+        "path": "experiments/yolo/gdt559_argument_carrier_substitution_grammar/REPORT.md",
+        "line": 31,
+        "line_end": 33,
+        "quote": "Damit ist ein Stamm weiterhin nur ein kurzer Wert. Eine längere Form wie\n`OT+AIIN` bedeutet nicht, dass AIIN nun „den nächsten Wert als Träger eröffnen“\nheißen muss. Sie setzt sich aus `OT=DANACH/ERÖFFNEN` und `AIIN=WERT` zusammen.",
+        "sha256": "c1f3518d7996c041335ed1abac9899e53079de22ed0f6321065c8f7442559bc4"
+      },
+      "original_draft": "research_registry/proposals/is_restriction_polarity.json",
+      "binding_status": "availability_unknown",
+      "review_status": "unreviewed",
+      "cli_status": "UNTESTED_PROPOSAL"
+    },
+    {
+      "id": "IDEA000048",
+      "title": "A quality expression selects a local comparison standard rather than an absolute degree",
+      "proposal_file": "research_registry/proposals/iu_comparison_standard_intake.json",
+      "proposal_file_sha256": "59b1a2750220d74fbb0bd4055c1a330f938d5f8b9da8f7e0769a98fd7a7b5b44",
+      "design_sha256": "37d7ee270c137979349ba22b9081fa47f39b7a3c416f4669b4de1af76a8fc545",
+      "source_evidence": {
+        "path": "experiments/yolo/gdt627_value_head_role_atlas/REPORT.md",
+        "line": 5,
+        "line_end": 17,
+        "quote": "GDT626 found a bounded four-cell ending but could only call it “value I–IV.”\nGDT627 supplies the missing head semantics. The same written slot is reused\nproductively:\n\n```text\nquality head + a + value  = quality in degree I/II/III/IV\nd            + a + value  = free measure or grade I/II/III/IV\n```\n\nIn a plant-part list, the practical default for the second construction is a\nlocal amount or dose. Thus `daiin` no longer means a generic operation and no\nlonger remains the opaque “d-value III.” It reads **three local measures or\nportions**, with the kind of unit still open.",
+        "sha256": "db6df328d4bdf7b0595cff5573078deb8a6dbc67e4ffb31f47d94519728d96ba"
+      },
+      "original_draft": "research_registry/proposals/is_comparison_standard.json",
+      "binding_status": "availability_unknown",
+      "review_status": "unreviewed",
+      "cli_status": "UNTESTED_PROPOSAL"
+    },
+    {
+      "id": "IDEA000049",
+      "title": "A measured value is calibrated by its local unit rather than being a portable ordinal",
+      "proposal_file": "research_registry/proposals/iu_calibration_invariance_intake.json",
+      "proposal_file_sha256": "c2971ac3a5949c1f2caa4df52e9fe0a337af1b43f6ae32c7148b0611335fcb14",
+      "design_sha256": "82c18ddfeea6253442782984f69ba954b80115756fa4da6418de0fbf8d7292eb",
+      "source_evidence": {
+        "path": "experiments/yolo/gdt627_value_head_role_atlas/REPORT.md",
+        "line": 5,
+        "line_end": 17,
+        "quote": "GDT626 found a bounded four-cell ending but could only call it “value I–IV.”\nGDT627 supplies the missing head semantics. The same written slot is reused\nproductively:\n\n```text\nquality head + a + value  = quality in degree I/II/III/IV\nd            + a + value  = free measure or grade I/II/III/IV\n```\n\nIn a plant-part list, the practical default for the second construction is a\nlocal amount or dose. Thus `daiin` no longer means a generic operation and no\nlonger remains the opaque “d-value III.” It reads **three local measures or\nportions**, with the kind of unit still open.",
+        "sha256": "db6df328d4bdf7b0595cff5573078deb8a6dbc67e4ffb31f47d94519728d96ba"
+      },
+      "original_draft": "research_registry/proposals/is_calibration_invariance.json",
+      "binding_status": "availability_unknown",
+      "review_status": "unreviewed",
+      "cli_status": "UNTESTED_PROPOSAL"
+    }
+  ],
+  "pre_add_checks": {
+    "file_and_design_hashes": "validated against iu_raw_intake_preparation.json using research_registry.canonical",
+    "source_spans": "validated with tools.semantic_identity._evidence",
+    "serial_cli_ids": [
+      "IDEA000046",
+      "IDEA000047",
+      "IDEA000048",
+      "IDEA000049"
+    ],
+    "no_review_or_refresh_ledger_build": true
+  },
+  "scientific_status": "UNREVIEWED; no scientific test or readiness claim"
+}

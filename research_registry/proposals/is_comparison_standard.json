@@ -1,0 +1,23 @@
+{
+  "title": "A quality expression selects a local comparison standard rather than an absolute degree",
+  "summary": "Distinguish relative comparison to a neighboring property from an absolute degree label in the reusable quality/value frames.",
+  "scope": "semantic",
+  "design": {
+    "mechanism": "A quality/value construction evaluates a property relative to a locally supplied baseline or reference member; an absolute-degree construction names a fixed ordinal independent of that baseline.",
+    "unit": "Complete quality-plus-value spans with independently bound baseline/reference and observed property contrast.",
+    "contrast": "Relative comparison standard versus absolute ordinal degree, holding written value slot and quality head fixed.",
+    "prediction": "Under relative semantics, the same value can reverse or change interpretation when the independently bound baseline changes; absolute semantics preserves the same degree across baselines.",
+    "falsifier": "Held cases with changed baselines show invariant degree behavior where relative semantics predicts change, or no baseline-sensitive contrast can be independently bound.",
+    "scope": "GDT627 quality/value frames; baseline and property endpoints availability_unknown.",
+    "related": "Near IDEA000023 degree scope and GDT627/GDT630 quality-degree routes, but target is comparison standard, not modifier attachment or a new value lexeme.",
+    "countermodel": "Renderer may normalize every value to a fixed ordinal while the neighboring property merely correlates with it."
+  },
+  "source_evidence": {
+    "path": "experiments/yolo/gdt627_value_head_role_atlas/REPORT.md",
+    "line": 5,
+    "line_end": 17,
+    "quote": "GDT626 found a bounded four-cell ending but could only call it “value I–IV.”\nGDT627 supplies the missing head semantics. The same written slot is reused\nproductively:\n\n```text\nquality head + a + value  = quality in degree I/II/III/IV\nd            + a + value  = free measure or grade I/II/III/IV\n```\n\nIn a plant-part list, the practical default for the second construction is a\nlocal amount or dose. Thus `daiin` no longer means a generic operation and no\nlonger remains the opaque “d-value III.” It reads **three local measures or\nportions**, with the kind of unit still open.",
+    "sha256": "db6df328d4bdf7b0595cff5573078deb8a6dbc67e4ffb31f47d94519728d96ba"
+  },
+  "status": "raw_unreviewed"
+}

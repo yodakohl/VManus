@@ -1,0 +1,23 @@
+{
+  "title": "AL, AR, L and AIR encode distinct directional relation roles rather than one interchangeable slot",
+  "summary": "Use GDT560's complete state-card geometry to distinguish destination, origin, connection and path roles as separate semantic relation types.",
+  "scope": "semantic",
+  "design": {
+    "mechanism": "Each complete relation whole has a stable directional role: destination, origin, connection or path.",
+    "unit": "Complete AL/AR/L/AIR occurrences with independently bound local block position, neighboring OT/OL/DY state and visible target direction.",
+    "contrast": "Distinct-role model versus one interchangeable relation-slot model.",
+    "prediction": "AL, AR, L and AIR retain different successor/predecessor envelopes after state, section and frequency controls; interchangeable-slot model predicts exchangeable envelopes.",
+    "falsifier": "If held occurrences show no role-specific envelope beyond frequency and state position, distinct directional semantics fail.",
+    "scope": "GDT560 cached state cards; independent authorial relation endpoint availability_unknown.",
+    "related": "Near GDT560 and IDEA000? relation-family routes; source observation is not independent lexical meaning.",
+    "countermodel": "A finite state grammar can assign four renderer defaults to one abstract slot and mimic directional envelopes."
+  },
+  "design_source_evidence": {
+    "path": "experiments/yolo/gdt560_relation_state_geometry_grammar/REPORT.md",
+    "line": 1,
+    "line_end": 25,
+    "quote": "# GDT560 — Ausgang, Ziel, Verbindung und Bahn bilden kein Viererfach\n\nStatus:\n`PASS_EIGHT_RELATION_ENVELOPES__AL_AR_L_SPLIT_GEOMETRY__AIR_ZERO_STATE_SUBSTITUTIONS__67_OF_67_DY_FAMILY_CARDS_CLOSE`\n\n## Ergebnis\n\nDie vier Wörterbucheinträge bleiben klein:\n\n```text\nAL   ZIELORT\nAR   AUSGANG\nL    VERBINDUNG\nAIR  BAHN\n```\n\nIn den1,656 Zustandskarten erscheinen sie216-mal in212 Karten. Jede Stelle hat\neine von8 sichtbaren Kontrollhüllen und eine kurze kompositionelle Lesung.\nAnders als `Y/AIIN/AIN/OR` bilden die vier Relationen aber kein gemeinsames,\nfrei austauschbares Fach.\n\n## Die Geometrie passt zu den kurzen Bedeutungen\n\n| Stamm | Stellen | Blockanfang | Blockende | Handlung rechts | OT/OL links | DY/OL rechts |\n|---|---:|---:|---:|---:|---:|---:|\n| `AL=ZIELORT` | 60 | 45 | 39 | 10 | 37 | 25 |\n| `AR=AUSGANG` | 58 | 35 | 50 | 2 | 47 | 13 |\n| `L=VERBINDUNG` | 92 | 86 | 33 | 58 | 5 | 85 |\n| `AIR=BAHN` | 6 | 2 | 3 | 0 | 3 | 3 |",
+    "sha256": "b5df8d51cb73e2778d6b1f41d2ff644242632c2cf09357bbcf6ebf7f348d6a84"
+  },
+  "status": "raw_unreviewed"
+}

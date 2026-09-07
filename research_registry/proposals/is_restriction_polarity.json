@@ -1,0 +1,23 @@
+{
+  "title": "An explicit restriction changes applicability while an implicit default preserves it",
+  "summary": "Distinguish an overt restriction/exception operator from a renderer default that merely omits an argument or state.",
+  "scope": "semantic",
+  "design": {
+    "mechanism": "A complete construction explicitly narrows when a following field is licensed; absent that construction, the field remains applicable by default.",
+    "unit": "Matched action/argument envelopes with independently bound applicability status and overt versus omitted restriction cues.",
+    "contrast": "Explicit restriction versus implicit default/omission, with action, carrier and position matched.",
+    "prediction": "The explicit-restriction model predicts selective non-applicability or licensing changes only in marked contexts; implicit-default models predict the same field availability after controlling host and position.",
+    "falsifier": "If independently bound marked and unmarked contexts have identical applicability while only renderer omission varies, explicit restriction fails; a restriction effect that is present without the marker also defeats this constructional claim.",
+    "scope": "Cached state/argument records; independent applicability endpoint availability_unknown.",
+    "related": "Near IDEA000042 conditional applicability and IDEA000043 prohibition, but narrower: explicit licensing polarity versus unmarked default, not generic condition or deontic meaning.",
+    "countermodel": "A missing carrier or inherited state can look like non-applicability while the construction encodes no restriction."
+  },
+  "source_evidence": {
+    "path": "experiments/yolo/gdt559_argument_carrier_substitution_grammar/REPORT.md",
+    "line": 31,
+    "line_end": 33,
+    "quote": "Damit ist ein Stamm weiterhin nur ein kurzer Wert. Eine längere Form wie\n`OT+AIIN` bedeutet nicht, dass AIIN nun „den nächsten Wert als Träger eröffnen“\nheißen muss. Sie setzt sich aus `OT=DANACH/ERÖFFNEN` und `AIIN=WERT` zusammen.",
+    "sha256": "c1f3518d7996c041335ed1abac9899e53079de22ed0f6321065c8f7442559bc4"
+  },
+  "status": "raw_unreviewed"
+}
