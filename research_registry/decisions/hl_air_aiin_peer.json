@@ -1,0 +1,67 @@
+{
+  "scope": "HL03-HL05 AIR/lauf and HL11-HL13 AIIN/Sollmaß bounded identity audit.",
+  "navigation_limit": "hl_identity_candidates.json is candidate navigation only; prior_mentions are co-occurrence navigation, not verdicts. No binding case ID is treated as a failure assessment.",
+  "evidence": [
+    {
+      "path": "experiments/yolo/sidequest_semantic_continuous_ten_page_edition_four_hundred_seventy_second/FOUR_HUNDRED_SEVENTY_SECOND_REPORT.md",
+      "line": 10,
+      "line_end": 12,
+      "quote": "Beispiel: `R=senken` wird im Bad zu „abkühlen“ und im Himmelsrad zu „eine Stufe\nsenken“. `CHEO=Entnahme` wird im Pflanzenartikel zum Auszug und im Diagramm zum\nentnommenen Wert. `AIR=Lauf` wird im Bad zum Wasserlauf und am Himmel zur Bahn.",
+      "sha256": "8170946bce6227656fe4ab12b51ab6598d680ce214b097abcf8eb5bfd0c05684"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_h2_two_batch_flow_four_hundred_first/FOUR_HUNDRED_FIRST_REPORT.md",
+      "line": 10,
+      "line_end": 13,
+      "quote": "Der wichtige Fortschritt ist grammatisch: H2 benötigt weder SHOYTY noch QOTCHY.\nSeine Verzweigung und Wiedervereinigung entstehen aus den tragbaren kleinen\nBausteinen `OT = Folge`, `OL = Fortsetzung/voriger`, `OR = Ansatz`,\n`AIIN = Sollmaß`, `AR = aus demselben Vorrat` und `Y = dieser Posten`.",
+      "sha256": "9e6598f8cbc0561bb12ce0ed13bf25af2c1c3242fbb789533ee7246652ab5df7"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_procedure_place_eight_hundred_eighth/EIGHT_HUNDRED_EIGHTH_REPORT.md",
+      "line": 15,
+      "line_end": 18,
+      "quote": "`IIN` remains STUFE after ZUGEBEN, VORGANG, and ZWEIT. The observed `O+IIN`\ncard says **Vorgang auf Stufe** and occurs twice. This is distinct from\n`AIIN=SOLLMASS`: the former locates a process phase, the latter supplies a\nquantity or prescribed setting.",
+      "sha256": "d4c1524a2ea763dd0a6d9b057c0399d856b6ada8565ad43f872439eaa1750c14"
+    }
+  ],
+  "pairs": [
+    {
+      "pair_id": "HL03",
+      "members": ["SEM:1513d0eb4673013f707f", "SEM:34445aa6d8f154e91e04"],
+      "classification": "related_not_equivalent",
+      "reason": "The claims share the gloss LAUF, but the candidate labels are lower-case air versus uppercase AIR and the available source cases do not establish that the same whole-form/component unit and licensing are intended. Preserve AIR's path/way core without forcing identity."
+    },
+    {
+      "pair_id": "HL04",
+      "members": ["SEM:1513d0eb4673013f707f", "SEM:fa5d6dcc053948f0626f"],
+      "classification": "related_not_equivalent",
+      "reason": "Lauf/Lauf differs only in presentation, but the first member's unit and the second member's AIR component scope are not shown to be identical. Capitalization alone cannot collapse source cases."
+    },
+    {
+      "pair_id": "HL05",
+      "members": ["SEM:34445aa6d8f154e91e04", "SEM:fa5d6dcc053948f0626f"],
+      "classification": "unresolved",
+      "reason": "Both are AIR→LAUF with typography-only variation, making equivalence plausible, but their source-case identity, direction/path scope, and rival handling are not established by the candidate packet."
+    },
+    {
+      "pair_id": "HL11",
+      "members": ["SEM:2592a167c12dd25f8d5c", "SEM:35b4faded4afa4055614"],
+      "classification": "specialization_candidate",
+      "reason": "Sollmaß can be a local realization of a broader prescribed value/setting. The narrower working-measure reading may specialize the generic AIIN core, but SEM35b also permits quantity, target, or table value; do not union the whole source payloads."
+    },
+    {
+      "pair_id": "HL12",
+      "members": ["SEM:2592a167c12dd25f8d5c", "SEM:57f1a048ef81f70ca78a"],
+      "classification": "related_not_equivalent",
+      "reason": "Both retain a prescribed-value family, but SEM2592 is a working-measure source case while SEM57 is a standalone lowercase aiin card. Unit and register scope differ; capitalization does not prove identity."
+    },
+    {
+      "pair_id": "HL13",
+      "members": ["SEM:35b4faded4afa4055614", "SEM:57f1a048ef81f70ca78a"],
+      "classification": "related_not_equivalent",
+      "reason": "The generic quantity/setting interpretation and the standalone card overlap, yet the former includes target/table-value commitments while the latter is an exact card event. Preserve both scopes and their rivals."
+    }
+  ],
+  "pairwise_conclusion": "No pair is scientifically confirmed equivalent. AIR pairs share a plausible path/way core but require unit/licensing correspondence; AIIN pairs share a prescribed-value family, with HL11 the only specialization candidate and HL12-HL13 remaining related but unit-distinct.",
+  "reopen_gate": "A narrower identity decision requires source-case-level correspondence: same registered unit, same direction/path or parameter role, same admissible composition, and independently retained rivals. Cross-register co-occurrence, case capitalization, or a shared German gloss is insufficient."
+}

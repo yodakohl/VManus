@@ -1,0 +1,35 @@
+{
+  "schema": "semantic_identity_pair_peer_review_v1",
+  "review_id": "hl_otchol_dan_peer",
+  "status": "RECOMMEND_NARROW_EQUIVALENT_PROPOSITION",
+  "pairs": [
+    {
+      "pair_id": "HL09",
+      "members": ["SEM:16b96fc95dbe0c8588df", "SEM:a083e88bcb1bf4247e32"],
+      "claims": ["otchol -> dieses?", "otchol -> dieses"],
+      "recommendation": "equivalent_proposition",
+      "reason": "Both cards state the same whole-word candidate otchol -> dieses. The question mark is retained as uncertainty/status, not treated as a different meaning. GDT814 places it among unchanged shared readings; GDT813 uses the same value in both model readings and tests its pronominal/anaphoric consequences. Neither card adds a different lexical value, scope operator, or specialization.",
+      "scope_limits": "Identity is only the hypothetical bare whole-word proposition. Preserve the distinct GDT813 and GDT814 source cases, model roles, uncertainty, surrounding-word assumptions, and all alternatives. It does not establish a demonstrative translation, antecedent, noun frame, or visual ownership.",
+      "not_justified": ["specializes", "related_not_equivalent"],
+      "counterpressure": "GDT813 shows otchol daiin daiin can require a pronominal/anaphoric quantity construction, while otchol chol does not prove a universal frame; these constrain usage but do not create a competing lexical proposition."
+    },
+    {
+      "pair_id": "HL10",
+      "members": ["SEM:21932859d6d06b5178aa", "SEM:e95d2ef50840e41dad97"],
+      "claims": ["dan -> sehr wenig?", "dan -> sehr wenig"],
+      "recommendation": "equivalent_proposition",
+      "reason": "Both cards state the same whole-word scalar candidate dan -> sehr wenig. The question mark is an uncertainty marker, not a semantic alternative. GDT814 explicitly retains the scalar family as unchanged across its rival models; GDT813 retains the same family while keeping comparison, excess, and numerical rivals open.",
+      "scope_limits": "Identity is only the hypothetical bare whole-word proposition. Preserve the separate GDT814 rival-block and GDT813 component/working-hypothesis cases, uncertainty, scale interpretation, and context; it does not prove a numerical amount, unit, or universal scalar semantics.",
+      "not_justified": ["specializes", "related_not_equivalent"],
+      "counterpressure": "GDT814's standalone okaiin dan has no written nominal head and exposes unresolved subject/partitive issues; GDT813 likewise says what is measured or named remains unknown. These are construction limits, not a different dan proposition."
+    }
+  ],
+  "global_limits": "Primary predecessor/subsequence/whole-word scope remains source-bound and model-dependent. Exact co-occurrence in prior navigation is not evidence. No registry identity decision is appended by this peer artifact.",
+  "evidence": [
+    {"path":"experiments/yolo/gdt814_okaiin_quality_reference_construction/src/QUALITY_REFERENCE_MODELS.md","line":12,"line_end":14,"quote":"Gemeinsam: otchol=dieses?, cthar=Wurzel?, chol=trocken?; Familie A:\ndan=sehr wenig?, dain=wenig?, daiin=viel?, daiiin=sehr viel?.\nMenge/Intensität und die begrenzte Linksbindung bleiben wie in GDT812.","sha256":"eaae58d918172806bb9a4d452ed57c8973b739f850518c4d26508ef858707e23"},
+    {"path":"experiments/yolo/gdt813_f17_content_word_transfer/WORKING_THEORY.md","line":10,"line_end":13,"quote":"Beide halten die gleichen Annahmen fest: otchol=dieses, cthar=Wurzel,\nchol=trocken und daiiin=sehr hohe Ausprägung. Nur okaiin unterscheidet sich:\nPulver oder ist. Der Doppelpunkt in N ist unsere nominale Satzanalyse,\nkein entschlüsseltes Wort. Es gibt keinen belegten Mahlvorgang.","sha256":"890c791cd38c5dce48773957fd2e8fe53935b9674747a38ef9d1196ace1db9d3"},
+    {"path":"experiments/yolo/gdt813_f17_content_word_transfer/REPORT.md","line":64,"line_end":66,"quote":"| f32v.8: `otchol daiin daiin ...` | Shared demonstrative otchol needs a pronominal/anaphoric quantity construction, not only a determiner before a noun. No hidden noun is identified; neither daiin is deleted. |\n| f1r.2: `cthar cthar dan` within the line | The repeated proposed root is retained. Its coordination, emphasis or segmentation remains unexplained; no second organ is invented. |\n| f4r.3: `otchol chol ...` | A demonstrative-plus-property account is possible, but f17r does not establish an obligatory two-slot frame or universally required copula. |","sha256":"d945b7e02bb21be92767a7f12eb2e7597eebfac7647d19bdbd08f55d00e4d92e"},
+    {"path":"experiments/yolo/gdt814_okaiin_quality_reference_construction/REPORT.md","line":49,"line_end":54,"quote":"By contrast the complete f89r1.14 `okaiin dan` has no written preceding\nnominal head within that inscription. R needs head ellipsis plus a recoverable\nowner; 'very little of it' would change the declared genitive to a partitive.\nSuch another candidate is possible, but is not a success of this fixed R.\nQ permits 'very weakly warm?', N 'very little powder?', and G 'is very little?'\nwith an open subject. The f88v standalone inscription poses a related question.","sha256":"489c0f3098cec06e0cafa17e6dccf004b127e415bc332f070f752da18a2c7637"},
+    {"path":"experiments/yolo/gdt813_f17_content_word_transfer/REPORT.md","line":127,"line_end":130,"quote":"The inherited scalar meanings remain exact whole-word trials, with comparison\nand numerical rivals still open. Longer mixed/repeated chains are not solved.\nThere is no new dictionary entry, confirmed lexeme, translated clause or page\nadmission. GDT812's published files and its f72r source correction are retained.","sha256":"d945b7e02bb21be92767a7f12eb2e7597eebfac7647d19bdbd08f55d00e4d92e"}
+  ]
+}

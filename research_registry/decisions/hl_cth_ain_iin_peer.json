@@ -1,0 +1,138 @@
+{
+  "review_id": "hl_cth_ain_iin_peer",
+  "scope": "HL01, HL02, HL06-HL08 only; identity navigation, not semantic truth.",
+  "prior_input_note": "identity_batch_a and identity_peer_review_a were inspected only at the relevant AIN/IIN sections. Their co-membership is not treated as a verdict; the peer review explicitly retained scope distinctions.",
+  "pair_reviews": [
+    {
+      "pair_id": "HL01",
+      "members": [
+        "SEM:0119c0816c7d3cf6d0e4",
+        "SEM:6544e8638a24c8434386"
+      ],
+      "claims": [
+        "CTH → BEREIT",
+        "CTH → bereit"
+      ],
+      "disposition": "unresolved",
+      "basis": "Both cards are unconfirmed lexical hypotheses with different source-case scopes. The lowercase card is a single dictionary table; the broader card preserves CTH as a state needing a carrier/degree/endpoint. Case-insensitive spelling alone does not establish same unit or same scope."
+    },
+    {
+      "pair_id": "HL02",
+      "members": [
+        "SEM:021e44cf927409180be5",
+        "SEM:90bd470c5f96021411f9"
+      ],
+      "claims": [
+        "AIN → PORTION",
+        "AIN → Portion"
+      ],
+      "disposition": "related_not_equivalent",
+      "basis": "The claims overlap on a portion gloss, but the current cards cover different source scopes and registers. Existing peer review requires distinguishing standalone quantity/material portion from abstract or register-specific share; capitalization is not evidence of equivalence."
+    },
+    {
+      "pair_id": "HL06",
+      "members": [
+        "SEM:1659676c07e492ee11f9",
+        "SEM:253a4d91cce662e83832"
+      ],
+      "claims": [
+        "IIN → STUFE",
+        "IIN → Stufe"
+      ],
+      "disposition": "related_not_equivalent",
+      "basis": "Both retain the working gloss, but one is a broad core declaration and the other a filtration source case. The filtration report explicitly treats related forms as a learned substitution class and keeps exact cards separate; no same-unit bridge is shown."
+    },
+    {
+      "pair_id": "HL07",
+      "members": [
+        "SEM:1659676c07e492ee11f9",
+        "SEM:8ac27b4b3c87d6cd7c24"
+      ],
+      "claims": [
+        "IIN → STUFE",
+        "iin → STUFE"
+      ],
+      "disposition": "related_not_equivalent",
+      "basis": "The cross-register table gives IIN a process/degree gloss while the broad card is a core declaration. This is a plausible related reading with variable domain, not approved identity."
+    },
+    {
+      "pair_id": "HL08",
+      "members": [
+        "SEM:253a4d91cce662e83832",
+        "SEM:8ac27b4b3c87d6cd7c24"
+      ],
+      "claims": [
+        "IIN → Stufe",
+        "iin → STUFE"
+      ],
+      "disposition": "unresolved",
+      "basis": "The two source cases use different constructions and registers; the available evidence supports neither equivalence nor a directed specialization. Preserve both until a scope-matched unit correspondence exists."
+    }
+  ],
+  "operational_conclusion": "No pair is approved as equivalent. HL02 and HL06-HL07 are related-not-equivalent; HL01 and HL08 remain unresolved. No registry or approved-group mutation made.",
+  "evidence": [
+    {
+      "path": "experiments/yolo/sidequest_semantic_five_root_dictionary_six_hundred_sixty_third/SIX_HUNDRED_SIXTY_THIRD_REPORT.md",
+      "line": 10,
+      "line_end": 16,
+      "quote": "| CHD/CHED | umsetzen | 22 | 48 |\n| SHED | absetzen | 3 | 15 |\n| CHK | wärmen | 4 | 7 |\n| CTH | bereit | 8 | 15 |\n\nWegen zusammengesetzter Karten überlappen die Familien. Ihre Vereinigung\numfasst 57 von 173 Kartentypen und 158 von 381 Ereignissen in 50",
+      "sha256": "3038f0433b8f1043ddc5813a6b0545e6e6e7d164ebafe14ecabe1b4ce941ee5b"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_embedded_pair_grammar_one_thousandth/PASS1000_REPORT.md",
+      "line": 34,
+      "line_end": 37,
+      "quote": "`CTH=BEREIT` ist nicht einfach mit allen linken Kernen unvereinbar. In langen\nKarten stehen `CH+CTH` neunmal, `O+CTH` zwoelfmal und `OL+CTH` einmal direkt.\nCTH wirkt vielmehr wie ein Zustand, der noch einen Traeger, Grad oder Endpunkt\nbraucht; als nackter rechter Kopf einer Zweierkarte bleibt er aus.",
+      "sha256": "0ba1b50fd22a5b62825c16f4a487ce6b8317bed782c5be227e3ad0d3a4feb4c4"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_quantity_preparation/SELECTED_QUANTITY_PREPARATION_REPORT.md",
+      "line": 10,
+      "line_end": 16,
+      "quote": "Die nächste kleine Grammatik lässt sich schließen. Drei ähnlich aussehende\nMengenformen haben jetzt drei verschiedene Aufgaben:\n\n```text\nAIN     TEIL / PORTION     das handhabbare abgeteilte Stück\nAIIN    MASS               die Vorschrift, wieviel genommen oder eingestellt wird\nIIN     GRAD / STUFE       der erreichte oder geforderte Arbeitszustand",
+      "sha256": "1d742fb23f9b6c2b3f0333fa2181d7cd47e29e16e30e5503029cbff3abec7632"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_renderer_completed_sixth_edition/SIXTH_EDITION_REPORT.md",
+      "line": 34,
+      "line_end": 34,
+      "quote": "`dain` ist auf den Prosa-Seiten eine gelernte Tuchkarte. Im Astroregister sitzt dieselbe Oberfläche als D-Rahmen + `AIN = Portion`. Die sechste Ausgabe bewahrt beide Werte explizit. Zusammen mit `ody` haben wir nun zwei echte registergespaltene Oberflächen; das ist für einen Nomenklator normaler als eine gewaltsame Universalglosse.",
+      "sha256": "d2e7c65fac8460c6889cf72a289d1efaf169f09c2cd999917276e73d0e65d156"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_atomic_pocket_lexicon_nine_hundred_thirty_fifth/PASS935_REPORT.md",
+      "line": 9,
+      "line_end": 11,
+      "quote": "Die wichtigen Unterschiede bleiben sichtbar: `O=GANG`, `OK=START`,\n`CH=AUSWAHL`, `K=ZUORDNUNG`, `SH=HALT`, `CHD=WECHSEL`, `AIR=LAUFWEG`,\n`AIN=EINHEIT`, `AIIN=SOLLWERT`, `IIN=STUFE`, `Y=DIES`, `DY=ENDE`.",
+      "sha256": "e7ff3208c0c69d7210bf7d47743745ee0ce1a379ff025dc64bf960d5d92e4f86"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_filtration_separation_completion/WORKSHOP_FILTRATION_REPORT.md",
+      "line": 129,
+      "line_end": 132,
+      "quote": "Sie bilden eine **gelernte Substitutionsklasse**, keine sichtbare Wortwurzel.\n`DAIN` wird insbesondere nicht zu `AIIN=Maß` oder `IIN=Stufe`. `CHEDAIN=eine\nPortion umsetzen`, `QOTEDAIIN=breites Gefäß` und `SHFYDAIIN=Stehzeit` bleiben\ndurch ihre exakten Karten getrennt.",
+      "sha256": "5ff712952a88928ba1f596a08a1951f11d9409e4182202585e07ce2d4b9ba77a"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_ten_page_register_bridge/TEN_PAGE_REGISTER_BRIDGE_REPORT.md",
+      "line": 52,
+      "line_end": 53,
+      "quote": "| `ain` | TEILWERT | Portion | Unterabschnitt oder gezählter Teil |\n| `iin` | STUFE | Arbeitsstufe | Bedingungs- oder Gradstufe |",
+      "sha256": "e08b787098c59969607cd7662b2cba83ba11cb7007589e9a6d38951a13d1d2c9"
+    },
+    {
+      "path": "research_registry/decisions/identity_peer_review_a.json",
+      "line": 168,
+      "line_end": 180,
+      "quote": "        \"SEM:021e44cf927409180be5\",\n        \"SEM:13fdcf59e10ff02c0e3d\",\n        \"SEM:15237e7eff7161f21779\"\n      ],\n      \"decision\": \"DO_NOT_APPLY_WHOLE_SEM_UNION\",\n      \"reason\": \"The selected quantity grammar defines a manageable separated piece and uses bare AIN as a complete one-portion formula. The multi-case PORTION card also preserves a Stoff-oder-Wertteil definition and a later statement that PORTION is only possible for plants/ingredients while an astronomical sector needs ANTEIL. Those local restrictions cannot be erased by calling all members the quantity core.\",\n      \"recommended_action\": \"Retain separately at SEM level; only merge source cases after distinguishing the standalone formula, material portion, and abstract value-share scope.\",\n      \"conditions\": [],\n      \"evidence\": [\n        {\n          \"path\": \"experiments/yolo/sidequest_semantic_quantity_preparation/SELECTED_QUANTITY_PREPARATION_REPORT.md\",\n          \"line\": 10,\n          \"quote\": \"Die nächste kleine Grammatik lässt sich schließen. Drei ähnlich aussehende\\nMengenformen haben jetzt drei verschiedene Aufgaben:\\n\\n```text\\nAIN     TEIL / PORTION     das handhabbare abgeteilte Stück\\nAIIN    MASS               die Vorschrift, wieviel genommen oder eingestellt wird\\nIIN     GRAD / STUFE       der erreichte oder geforderte Arbeitszustand\\n```\",",
+      "sha256": "32a9645051536f217970b438c41917715fb43fc4674ed1f8d8a32e54aec03159"
+    },
+    {
+      "path": "research_registry/decisions/identity_peer_review_a.json",
+      "line": 301,
+      "line_end": 311,
+      "quote": "      \"group_id\": \"IDENTITY_A:90f727366ec6b07e\",\n      \"member_ids\": [\n        \"SEM:1659676c07e492ee11f9\",\n        \"SEM:253a4d91cce662e83832\",\n        \"SEM:8ac27b4b3c87d6cd7c24\",\n        \"SEM:8ef9f1a7478330f05cc3\",\n        \"SEM:ae88ee579b23e7ce7650\"\n      ],\n      \"decision\": \"DO_NOT_APPLY_WHOLE_SEM_UNION\",\n      \"reason\": \"STUFE includes a current process stage, while the cross-register table includes condition or degree levels; ARBEITSSTUFE narrows this to work/process. GDT582 declares a specific inherited core within its fixed parser, whereas later source cases declare visible/productive IIN. The negated DAIN decomposition is not itself an IIN refutation, but it also cannot be the bridge proving full unit identity.\",\n      \"recommended_action\": \"Keep all five separate until scope-matched cases establish whether process phase, degree level and the different IIN formal units are actually the same proposition. Do not count shared word Stufe as sufficient.\",",
+      "sha256": "32a9645051536f217970b438c41917715fb43fc4674ed1f8d8a32e54aec03159"
+    }
+  ]
+}
