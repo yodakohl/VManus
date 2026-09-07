@@ -663,3 +663,9 @@ HW decision note (13:22UTC): inspect11remainingHSmetadata pairs, whichwere liste
 HV material pass:6scopedquestions give79dossiers98directsemantic targets. Exactqofcheyformfallback distinguished fromotherfamily successes; chedalprojectedaxes/provenance notoccurrencecapacity. V9binaryencoding, V3medium andauthoredattachment/reflow limits preserved. All25evidencequotes exact; no newmanuscript test ormeaning.
 
 HV validation: currentcards/cases, sourcepreservation,broadinventory,scopedbindings,prioritycoverage andfreshnessPASS.5125imports+37raw=5162records;4177ledger events;79questions98targets.4119cards unchanged; allnineconditionalpriorities remainunready. No newmeaning.
+
+HW material pass:11pairs give10equivalencegroups and1sourceerrorarchive. RootcorrectedSAIINunitoverreach anddynegatedextraction;75groups87reduction,4118activecards45archived,4640casesretained.78requiredidentityinputs. No newmanuscripttest ormeaning. Rawpeerlinebounds corrected inrootreceipt; originalfilespreserved.
+
+HX decision note (13:36UTC): exactrawIDEA1/2drawing-reset/ordinaryline continuity andIDEA7ABAresumption are unreviewed. CheckprimaryDIC001/segmentatlas andABA/GDT573 before deciding whether independentstate/reference endpoints ornewdiscriminatingpredictions exist. Outcomes eitherjustify aseparateboundedpreregistration orrecord specificdesign/data limits, notgeneric corpusreruns. Budget25min includesprimary/logicalreview15,rootbinding5,validation/publication5. Existingknownstructuralreset/nonline-boundgrammar remains. No raw/image/model access.
+
+HW validation: sourcepreservation,currentcards/cases,broadinventory,scopedbindings,prioritycoverage andfreshnessPASS.5126imports+37raw=5163records;4178ledger events.4118activecards/45archived/4640cases,75groups87reduction,79questions98targets. No newmeaning or testreadiness.

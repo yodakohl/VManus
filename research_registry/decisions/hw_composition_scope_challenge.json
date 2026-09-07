@@ -1,0 +1,38 @@
+{
+  "review_id": "HW_COMPOSITION_SCOPE_CHALLENGE",
+  "status": "bounded_source_review",
+  "scope": "HS19 SAIIN, HS23 dy/DY, and HS11 OL+DY versus oldy; no registry mutation.",
+  "cases": [
+    {
+      "pair": "HS19",
+      "ids": ["SEM:a1b4a59dadc8ccb2b2a3", "SEM:c9b9d9471844f915c0c3"],
+      "recommendation": "related_not_equivalent",
+      "reason": "The first source explicitly assigns the complete surface saiin; the second explicitly assigns the decomposed construction S+AIIN. They share the same proposed value at P1009-S035, but the source does not state that every exact saiin is the S+AIIN construction. Preserve whole-card versus compositional scope.",
+      "evidence": [
+        {"path":"experiments/yolo/sidequest_semantic_four_register_visual_core_check_one_thousand_nineteenth/BIO_ASTRO_REPORT.md","line":43,"line_end":44,"quote":"Die beste Einzelprobe ist `P1009-S035`: `saiin = WÄHLEN + WERT`. Im\nHimmelsrad heißt das flüssig:","sha256":"124308622449e8ac3170f4ec14ac238d8c25ae2e9fdf1a1a349c415f1234e3cd"},
+        {"path":"experiments/yolo/sidequest_semantic_apprentice_sheet_roundtrip_one_thousand_twentieth/PASS1020_REPORT.md","line":99,"line_end":103,"quote":"Besonders klar ist P1009-S035: `S+AIIN = WÄHLEN+WERT` passt direkt zu einem\nauswählbaren Ring- oder Tabellenfeld. Die langen S038 und S041 zeigen dagegen\ndie Grenze der Tafel: alle Komponenten sind lesbar, aber der Geltungsbereich\nmehrfacher Posten, Werte, Beginne und Vorbezüge bleibt ohne das historische\nMasterexemplar offen.","sha256":"4fbf1fb52e997be8f4dab6c395759bc9c652d3b944ae7d9da3157b2db717033c"}
+      ]
+    },
+    {
+      "pair": "HS11",
+      "ids": ["SEM:4249ce7d61d53f96caea", "SEM:bf820f4f39496f95c681"],
+      "recommendation": "equivalent_proposition",
+      "reason": "The R1 source explicitly says OLDY already had OL+DY = weiterführen; Ende, then writes OLDY = FORTSETZEN; SCHLUSS. The preparation table independently records oldy with the same value. This is an explicit whole/construction identity, not merely typography; retain both source cases but permit equivalence navigation.",
+      "evidence": [
+        {"path":"experiments/yolo/sidequest_semantic_thermal_temporal_completion/R1_REPORT.md","line":268,"line_end":282,"quote":"`OLDY` hatte im aktiven Wörterbuch bereits `OL+DY = weiterführen; Ende`, aber\ndie vollständige Aussage B4-S010 lautete noch:\n\n> Erwärme den Bade- oder Waschzusatz sanft und beende den Arbeitsschritt.\n\nDas ist nicht aus der Karte rücklesbar. Die R1-Ausgabe korrigiert sie zu:\n\n```text\nOLDY = FORTSETZEN; SCHLUSS\n```\n\nund B4-S010 lautet nun genau **„Fortsetzen; Schluss.“** Wärme wird nicht aus\ndem umgebenden Werkstattbild in den Kartenwert zurückgeschoben.","sha256":"c8e34c8e915b6222fa57078ddc8d0a3d9eafa155e248abb75b47ddd805f8893b"},
+        {"path":"experiments/yolo/sidequest_semantic_quantity_preparation/PREPARATION_PARADIGM_REPORT.md","line":188,"line_end":188,"quote":"| B4-S010 | oldy | Weiterführen; Ende | beibehalten |","sha256":"77943fcb084ef25d1ee68d45f0cadccfffd966981a43e0eff44428b619de8169"}
+      ]
+    },
+    {
+      "pair": "HS23",
+      "ids": ["SEM:cda40fd26177bdb689ed", "SEM:d88c8a21eefe221152e4"],
+      "recommendation": "source_correction_then_keep_separate",
+      "reason": "The lower-case dy card is not a positive broader whole-surface claim: its exact source evidence says the selected grammar provides a lock against dy=Schluss. The upper DY card has positive literal-core/source cases, including Pass220's DY→SCHLUSS revision, but that does not license the negated naked-dy claim. Correct/archive SEM:cda as a source-polarity extraction error through the existing correction flow; retain SEM:d88 separately with its literal-core scope.",
+      "evidence": [
+        {"path":"experiments/yolo/sidequest_semantic_thermal_temporal_completion/SELECTED_THERMAL_TEMPORAL_REPORT.md","line":179,"line_end":180,"quote":"- R3 lieferte die vollständigste technische Grammatik, alle Schlusskarten und\n  die wichtige Sperre gegen `dy=Schluss`.","sha256":"eb99d0fea0b322cf0ec1694f8b36021bdc8093b23b7e4fccd4d99c73c391d1a1"},
+        {"path":"experiments/yolo/sidequest_semantic_canonical_scribe_workshop_fifth_edition_nine_hundred_ninety_third/PASS993_CURRENT_WORKING_THEORY.md","line":33,"line_end":34,"quote":"- `Y=POSTEN`, `DY=SCHLUSS`, `OK=SETZEN`, `O=AUSFÜHREN`;","sha256":"854440a27a70c1113da0fe0fdd507d2f904348ce1017d82197893442b644095c"}
+      ]
+    }
+  ],
+  "no_registry_mutation": true
+}

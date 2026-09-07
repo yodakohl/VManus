@@ -1,0 +1,165 @@
+{
+  "review_id": "HW_IDENTITY_PEER_B",
+  "status": "BOUNDED_IDENTITY_RECOMMENDATIONS",
+  "scope": "Only HS19 SAIIN, HS21 E, HS22 OK, HS23 DY and HS24 EE from hw_pending_identity_candidates.json. Current cards remain unconfirmed historical claims; identity recommendations do not confirm meanings.",
+  "packet_basis": "All ten target IDs have separate current identity groups and no existing direct decisions in the pending packet. Case-count differences and capitalization were not used as disqualifiers.",
+  "pairs": [
+    {
+      "pair_id": "HS19",
+      "ids": [
+        "SEM:a1b4a59dadc8ccb2b2a3",
+        "SEM:c9b9d9471844f915c0c3"
+      ],
+      "current_groups": [
+        "IDENTITY:fc40526a82935ee83a0fb509bb9fa3c37c6d4191f03da612bbf5984807fbcc54",
+        "IDENTITY:ecd0b9a5a7fd416c989d27b7addc33475351d8c61c914d4fc75fc3b3429c8756"
+      ],
+      "recommendation": "related_not_equivalent",
+      "rationale": "Both assert the same working expansion WÄHLEN+WERT for P1009-S035, but one is the complete surface saiin and the other explicitly decomposes S+AIIN. That is a unit/scope distinction, not a typography objection: the first may be a whole-card claim while the second is a compositional contract. Preserve as related until a source explicitly equates the exact whole with the component parse.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_four_register_visual_core_check_one_thousand_nineteenth/BIO_ASTRO_REPORT.md",
+          "line": 41,
+          "line_end": 51,
+          "quote": "## AIIN: WERT statt MASS\n\nDie beste Einzelprobe ist `P1009-S035`: `saiin = WÄHLEN + WERT`. Im\nHimmelsrad heißt das flüssig:\n\n> Den bezeichneten Rad- oder Tabellenwert wählen und in derselben\n> Eintragsfolge fortfahren.\n\n**Nach Maß wählen** würde eine materielle oder metrische Menge erzwingen, für\ndie das Rad keinen Träger zeigt. WERT bleibt absichtlich offen: Zahl,\nPositionswert, Phase oder Kategorie sind lokale Möglichkeiten.",
+          "sha256": "124308622449e8ac3170f4ec14ac238d8c25ae2e9fdf1a1a349c415f1234e3cd",
+          "type": "whole_surface_saiin_claim"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_apprentice_sheet_roundtrip_one_thousand_twentieth/PASS1020_REPORT.md",
+          "line": 99,
+          "line_end": 103,
+          "quote": "Besonders klar ist P1009-S035: `S+AIIN = WÄHLEN+WERT` passt direkt zu einem\nauswählbaren Ring- oder Tabellenfeld. Die langen S038 und S041 zeigen dagegen\ndie Grenze der Tafel: alle Komponenten sind lesbar, aber der Geltungsbereich\nmehrfacher Posten, Werte, Beginne und Vorbezüge bleibt ohne das historische\nMasterexemplar offen.",
+          "sha256": "4fbf1fb52e997be8f4dab6c395759bc9c652d3b944ae7d9da3157b2db717033c",
+          "type": "component_S_AIIN_claim"
+        }
+      ]
+    },
+    {
+      "pair_id": "HS21",
+      "ids": [
+        "SEM:b11ae4b25e7a61113ca7",
+        "SEM:f546ae43853369428885"
+      ],
+      "current_groups": [
+        "IDENTITY:0d7bee2fad00b34e7f4174df15ed66272749ea97848c921a5d6359837d9b2dec",
+        "IDENTITY:e51a17df34b6dee38e9f23c2c8da8d994cb8bf651b3c977e73d1cf1866f044d6"
+      ],
+      "recommendation": "equivalent_proposition",
+      "rationale": "Both are the same E core proposition KURZ; case count, capitalization and source edition differ only in presentation. Neither source adds a distinct scope, construction or alternative value. Retain the unconfirmed meaning and all source cases.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_canonical_compact_workshop_edition_nine_hundred_seventy_first/PASS971_CURRENT_WORKING_THEORY.md",
+          "line": 16,
+          "line_end": 18,
+          "quote": "## Portable Kernwerte\n\n`OK=SETZEN`, `CH=NEHMEN`, `K=GEBEN`, `AIIN=SOLLWERT`, `AIN=EINHEIT`, `OR=SATZ`, `AL=ZIEL`, `AR=QUELLE`, `E=KURZ`, `EE=LÄNGER`, `EEE=VOLL`, `Y=DIES`, `DY=SCHLIESSEN`. Im Pflanzenregister werden daraus Ansatz, Portion und Sollmaß; im Himmelsregister Stelle, Index und Tafelwert. Der Stamm selbst wechselt nicht.",
+          "sha256": "3e220db98e8a8ddecf2cc919732f109bccfc4b1a23a32497182932251685c655",
+          "type": "portable_E_core"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_canonical_scribe_workshop_fifth_edition_nine_hundred_ninety_third/PASS993_CURRENT_WORKING_THEORY.md",
+          "line": 31,
+          "line_end": 38,
+          "quote": "Die wichtigsten atomaren Werte sind:\n\n- `Y=POSTEN`, `DY=SCHLUSS`, `OK=SETZEN`, `O=AUSFÜHREN`;\n- `OL=FORTSETZEN`, `OT=DANACH`, `OR=ARBEITSSATZ`;\n- `CH=NEHMEN`, `S=AUSWÄHLEN`, `K=GEBEN`;\n- `AR=QUELLE`, `AL=ZIEL`, `L=LEITEN`, `AIR=LAUF`;\n- `AIN=EINHEIT`, `AIIN=SOLLWERT`, `IIN=STUFE`;\n- `E=KURZ`, `EE=LÄNGER`, `EEE=VOLL`;",
+          "sha256": "854440a27a70c1113da0fe0fdd507d2f904348ce1017d82197893442b644095c",
+          "type": "canonical_E_core"
+        }
+      ]
+    },
+    {
+      "pair_id": "HS22",
+      "ids": [
+        "SEM:c469c4e06156ade3ea53",
+        "SEM:d3bec6e4a48c6cd54f40"
+      ],
+      "current_groups": [
+        "IDENTITY:56c4f51744edfbecc4b880b2d8f68645e91f2f46a5a98e8cb777149d7d20595f",
+        "IDENTITY:22f0630d46c6b7910fb314bfdbe0eb23c8c5d6c0e56b7630006493f6b3b1a05e"
+      ],
+      "recommendation": "equivalent_proposition",
+      "rationale": "Both define the same OK core as ANSETZEN/ansetzen. The later source places it in a shared core, while the earlier source gives the root dictionary entry; this is scope expansion around one proposition, not a competing unit. Preserve unconfirmed status.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_five_root_dictionary_six_hundred_sixty_third/SIX_HUNDRED_SIXTY_THIRD_REPORT.md",
+          "line": 5,
+          "line_end": 10,
+          "quote": "Die fünf produktiven Kerne bilden nun ein gemeinsames Werkstattwörterbuch:\n\n| Kern | kurze Bedeutung | Karten | Ereignisse |\n|---|---:|---:|---:|\n| OK | ansetzen | 23 | 79 |\n| CHD/CHED | umsetzen | 22 | 48 |",
+          "sha256": "3038f0433b8f1043ddc5813a6b0545e6e6e7d164ebafe14ecabe1b4ce941ee5b",
+          "type": "OK_root_dictionary"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_workshop_macro_grammar/WORKSHOP_MACRO_GRAMMAR_REPORT.md",
+          "line": 14,
+          "line_end": 16,
+          "quote": "## Gemeinsamer Kern\n\nVon 173 exakten Prosakarten sind 41 in mindestens zwei der vier Dossiers zu Hause. Die häufigsten tragenden Werte bleiben kurz: `AIIN=Sollmaß`, `Y=dieser Posten`, `OL=fortsetzen`, `OT=Folge`, `AR=daraus`, `AL=dorthin`, `OR=Ansatz`, `CHED=umsetzen`, `OK=ansetzen`, `SHED=absetzen`, `CHK=wärmen`, `CKHE=seihen` und die gelernte ganze Endkarte als Schrittabschluss.",
+          "sha256": "cc08aa98064c0da76e2b994ab9c07c0dead9a0b7341432ae8b8195f219cca157",
+          "type": "OK_shared_core"
+        }
+      ]
+    },
+    {
+      "pair_id": "HS23",
+      "ids": [
+        "SEM:cda40fd26177bdb689ed",
+        "SEM:d88c8a21eefe221152e4"
+      ],
+      "current_groups": [
+        "IDENTITY:a5583c3708b6e0a5a70af57e904f774e7b6a00d862ed6e60ae5987e446894e9c",
+        "IDENTITY:2ea02948b33b76c90f040de12dbd8336c2e7573f39cdcadd6157e2201a056520"
+      ],
+      "recommendation": "related_not_equivalent",
+      "rationale": "The DY claim is a structural distinction. The second states a licensed DY core/closure, whereas the first lower-case dy source is a broader whole-surface “Schluss” proposal. The thermal source explicitly says a naked dy is not globally Schluss; therefore capitalization is not the reason for separation, the licensed-terminal scope is.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_thermal_temporal_completion/SELECTED_THERMAL_TEMPORAL_REPORT.md",
+          "line": 32,
+          "line_end": 36,
+          "quote": "| `OT` | FOLGE | Folgeansatz, Folgemaß, Folgeposten, Folgestelle |\n| `OL` | FORTSETZUNG | Fortsetzungsansatz, weitere Portion, fortsetzen |\n| `OK+OK` | ERNEUT | denselben Arbeitsaufruf wiederholen |\n| `Y` | AKTUELLER POSTEN | trägt den gegenwärtigen Gegenstand; heißt nicht selbst „offen“ |\n| gelernte Endkonstruktion | SCHLUSS | sichtbares nacktes `dy` ist ausdrücklich kein globaler Schluss |",
+          "sha256": "eb99d0fea0b322cf0ec1694f8b36021bdc8093b23b7e4fccd4d99c73c391d1a1",
+          "type": "naked_dy_scope_limit"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_canonical_scribe_workshop_fifth_edition_nine_hundred_ninety_third/PASS993_CURRENT_WORKING_THEORY.md",
+          "line": 31,
+          "line_end": 34,
+          "quote": "Die wichtigsten atomaren Werte sind:\n\n- `Y=POSTEN`, `DY=SCHLUSS`, `OK=SETZEN`, `O=AUSFÜHREN`;\n- `OL=FORTSETZEN`, `OT=DANACH`, `OR=ARBEITSSATZ`;",
+          "sha256": "854440a27a70c1113da0fe0fdd507d2f904348ce1017d82197893442b644095c",
+          "type": "licensed_DY_core"
+        }
+      ]
+    },
+    {
+      "pair_id": "HS24",
+      "ids": [
+        "SEM:ec7b3ca06083c90bd792",
+        "SEM:ee298d8a2ddc54a24511"
+      ],
+      "current_groups": [
+        "IDENTITY:e94bd7cb15218b8e24bd3543fdc55a11bd3a653a8012772d6a34347fecd4cf3b",
+        "IDENTITY:6e96b4527ae18e16a222d3050c54f5cf109e5cd426a363b1201520625b833383"
+      ],
+      "recommendation": "equivalent_proposition",
+      "rationale": "Both assert the same EE core value LÄNGER/länger. The sources retain it as a graded portable value; capitalization and equal case counts do not create a distinct proposition. Preserve the source caveat that this is an unconfirmed working value, not a confirmed word.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_canonical_compact_workshop_edition_nine_hundred_seventy_first/PASS971_CURRENT_WORKING_THEORY.md",
+          "line": 16,
+          "line_end": 18,
+          "quote": "## Portable Kernwerte\n\n`OK=SETZEN`, `CH=NEHMEN`, `K=GEBEN`, `AIIN=SOLLWERT`, `AIN=EINHEIT`, `OR=SATZ`, `AL=ZIEL`, `AR=QUELLE`, `E=KURZ`, `EE=LÄNGER`, `EEE=VOLL`, `Y=DIES`, `DY=SCHLIESSEN`. Im Pflanzenregister werden daraus Ansatz, Portion und Sollmaß; im Himmelsregister Stelle, Index und Tafelwert. Der Stamm selbst wechselt nicht.",
+          "sha256": "3e220db98e8a8ddecf2cc919732f109bccfc4b1a23a32497182932251685c655",
+          "type": "portable_EE_core"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_canonical_scribe_workshop_fifth_edition_nine_hundred_ninety_third/PASS993_CURRENT_WORKING_THEORY.md",
+          "line": 37,
+          "line_end": 38,
+          "quote": "- `AIN=EINHEIT`, `AIIN=SOLLWERT`, `IIN=STUFE`;\n- `E=KURZ`, `EE=LÄNGER`, `EEE=VOLL`;",
+          "sha256": "854440a27a70c1113da0fe0fdd507d2f904348ce1017d82197893442b644095c",
+          "type": "canonical_EE_core"
+        }
+      ]
+    }
+  ],
+  "identity_limit": "Equivalent-proposition recommendations concern historical claims only. They neither merge source cases nor establish any confirmed meaning, and the two related_not_equivalent pairs should remain separately displayed.",
+  "no_registry_mutation": true
+}
