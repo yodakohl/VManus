@@ -1,0 +1,125 @@
+{
+  "review_id": "IV_IW_FINAL_PACKET_PEER",
+  "status": "PEER_CHECK_COMPLETE__DRAFTS_UNCHANGED",
+  "iv_review": {
+    "decision": "approve_with_scope",
+    "findings": [
+      "Both IV cards use actual LEGACY_COMPONENT inventory fragments with extraction source paths and ranges.",
+      "AQABBA evidence correctly separates circle C0 facies/register possibility from off-circle okaldy/otaldy defaults and preserves the opaque alternative.",
+      "The GDT803 bracket card retains its twelve-bracket scope, inherited analyst labels and opaque-address null; it is not a universal l-carrier or lexical claim."
+    ],
+    "inventory_bindings": [
+      {
+        "card_id": "CLEAN_GAP_IV:aqabba_facies_register",
+        "member_id": "LEGACY_COMPONENT:8c092520307e7d6ea78f",
+        "source_path": "experiments/yolo/gdt797_aqabba_surface_host_domain_discriminator/REPORT.md",
+        "line_start": 17,
+        "line_end": 20,
+        "sha256": "1df7838e8bfe5856cf116175d63d5656e041637cef66215bcccf0d02b8eb78ae",
+        "binding_present": true
+      },
+      {
+        "card_id": "CLEAN_GAP_IV:three_field_bracket_model",
+        "member_id": "LEGACY_COMPONENT:a8d58ad56c4d8e71676d",
+        "source_path": "experiments/yolo/gdt803_recurrent_context_rarity_discriminator/REPORT.md",
+        "line_start": 32,
+        "line_end": 32,
+        "sha256": "857d96cfd56c3131a079198a25630cd730642597cb21705d6469088917b7ca54",
+        "binding_present": true
+      }
+    ]
+  },
+  "iw_review": {
+    "decision": "approve_relations_with_scope",
+    "findings": [
+      "IW01 correctly remains related_not_equivalent: the second proposition adds char anaphoric same-preparation scope and does not collapse the daiin quantity distinction.",
+      "IW02 equivalence is limited to the historical V39 dal action card; body-site and apparatus examples are compatible, and no raw-word meaning is inferred.",
+      "IW03 remains related_not_equivalent: liquid optical clarity and outflow cleanliness/passed-state scope overlap but are not identical.",
+      "IW04 remains related_not_equivalent: working liquid and ready-to-use/current-stock preparation are distinct commitments even when one object can satisfy both.",
+      "All four member card/effective bases, source cases and exact evidence spans validate; no old source case is dropped."
+    ],
+    "checks": [
+      {
+        "id": "IDENTITY_IW:IW01:v1",
+        "relation": "related_not_equivalent",
+        "member_ids": [
+          "SEM:02374665a70d2b210087",
+          "SEM:08b8bd3cfc54a6895ab6"
+        ],
+        "card_basis_preserved": true,
+        "effective_basis_preserved": true,
+        "source_case_ids": {
+          "SEM:02374665a70d2b210087": [
+            "MID-SEM:8249cc1554f3c90c5d81"
+          ],
+          "SEM:08b8bd3cfc54a6895ab6": [
+            "MID-SEM:96c4bfb51ed8a1bd5962"
+          ]
+        },
+        "evidence_validated": true
+      },
+      {
+        "id": "IDENTITY_IW:IW02:v1",
+        "relation": "equivalent_proposition",
+        "member_ids": [
+          "SEM:6b1c74f5e135e4ce3d50",
+          "SEM:9046f2df47cae4feb713"
+        ],
+        "card_basis_preserved": true,
+        "effective_basis_preserved": true,
+        "source_case_ids": {
+          "SEM:6b1c74f5e135e4ce3d50": [
+            "MID-SEM:f7587b264b95daf359ee"
+          ],
+          "SEM:9046f2df47cae4feb713": [
+            "MID-SEM:b647d9aa1025a40f857c"
+          ]
+        },
+        "evidence_validated": true
+      },
+      {
+        "id": "IDENTITY_IW:IW03:v1",
+        "relation": "related_not_equivalent",
+        "member_ids": [
+          "SEM:4609a3daa781185cb5b5",
+          "SEM:ef3260a471fa9a69c43c"
+        ],
+        "card_basis_preserved": true,
+        "effective_basis_preserved": true,
+        "source_case_ids": {
+          "SEM:4609a3daa781185cb5b5": [
+            "MID-SEM:7edaf9a7ad18abd6d7ac"
+          ],
+          "SEM:ef3260a471fa9a69c43c": [
+            "MID-SEM:a69e6a5569834857f777"
+          ]
+        },
+        "evidence_validated": true
+      },
+      {
+        "id": "IDENTITY_IW:IW04:v1",
+        "relation": "related_not_equivalent",
+        "member_ids": [
+          "SEM:21ea73388a2fa8b470f2",
+          "SEM:8d7cba9d8b39cf9e407f"
+        ],
+        "card_basis_preserved": true,
+        "effective_basis_preserved": true,
+        "source_case_ids": {
+          "SEM:21ea73388a2fa8b470f2": [
+            "MID-SEM:86af347e905623c1a29a"
+          ],
+          "SEM:8d7cba9d8b39cf9e407f": [
+            "MID-SEM:30974f6eb3a4fa49e01b"
+          ]
+        },
+        "evidence_validated": true
+      }
+    ]
+  },
+  "validation": {
+    "exact_evidence": "passed tools.semantic_identity._evidence for all IV and IW evidence",
+    "operative_mutation": false,
+    "source_groups_not_exhaustive": true
+  }
+}

@@ -14,17 +14,17 @@ Latest three-hour curation delta: [scoped results](decisions/semantic_3h_complet
 
 | Unit | Count |
 |---|---:|
-| Active semantic hypothesis variants | 3,857 |
+| Active semantic hypothesis variants | 3,859 |
 | Separately typed formal-role cards | 266 |
-| Reviewed source cases, including the correction archive | 4,645 |
+| Reviewed source cases, including the correction archive | 4,647 |
 | Archived source-extraction errors | 45 |
 | Exact normalized assertion repetitions grouped | 477 |
-| Reviewed equivalence groups / display reduction | 80 / 93 |
-| Public semantic display entries | 3,765 |
+| Reviewed equivalence groups / display reduction | 81 / 94 |
+| Public semantic display entries | 3,766 |
 
 These are different units, not a deduplicated total of independent theories.
 A local ignored supplement contributes95 semantic cards and one formal card;
-the ordinary local default therefore displays3,860 semantic entries. A fresh
+the ordinary local default therefore displays3,861 semantic entries. A fresh
 public clone has the public view only. Local source files and quotes are not
 published or silently folded into public counts.
 
@@ -60,8 +60,8 @@ paragraph does not automatically make every subclaim independently addressable;
 an atomic gloss does not cover a complete multi-card model.
 
 Whitespace and backtick typography alone are normalized for exact assertions.
-Explicit equivalence decisions add80 groups without deleting any original ID.
-The identity log also retains 11 related-but-distinct links,33 rival links and
+Explicit equivalence decisions add81 groups without deleting any original ID.
+The identity log also retains 14 related-but-distinct links,33 rival links and
 four specializations. Conflicting nonidentity blocks transitive merging; changed
 claim or case bindings require a new review. Shared spelling, shortened wording
 or a matching source title alone proves neither identity nor nonidentity.
@@ -101,9 +101,9 @@ insufficient capacity, missing meaning binding, proposal-only status and histori
 model revision. They appear before inherited experiment context under assessments.
 They state the actual compared subclaim, primary evidence, scope and changed-input
 requirements. The current112 dossiers directly target134 semantic cards. The nine
-priorities directly target27, with23 shared targets;3,719 semantic cards have no
+priorities directly target27, with23 shared targets;3,721 semantic cards have no
 direct target binding in these two lists. This is a coverage limit, not an
-automatic scientific verdict on those cards (see decisions/it_assessment_coverage.json; earlier snapshots remain preserved). An editorial wording preference is not an empirical falsifier.
+automatic scientific verdict on those cards (see decisions/iw_assessment_coverage.json; earlier snapshots remain preserved). An editorial wording preference is not an empirical falsifier.
 Original conditional predictions remain distinct from observed counterexamples;
 reviewer-supplied reopening conditions are prospective, not old preregistrations.
 Only the latest linked revision acts; all older decisions remain in the log.

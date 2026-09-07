@@ -1,0 +1,86 @@
+{
+  "schema": "clean_semantic_gap_review_v1",
+  "review_id": "CLEAN_GAP_REVIEW_IV_DRAFT",
+  "cards": [
+    {
+      "id": "CLEAN_GAP_IV:aqabba_facies_register",
+      "claim": "GDT797 retains `AQABBA` as a possible Jupiter-/Venus facies or register class in the circle, while `okaldy` and `otaldy` are separate context-bound whole-form entries. These are C0 working meanings, not translations or component assignments; an opaque source-family null remains live.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "LEGACY_COMPONENT:8c092520307e7d6ea78f"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt797_aqabba_surface_host_domain_discriminator/REPORT.md",
+          "line": 7,
+          "line_end": 20,
+          "quote": "## Result\n\nThe best current working theory is:\n\n```text\nAQABBA  = possible Jupiter-/Venus facies/register class in the circle [C0]\nokaldy  = Bade-/Behandlungseintrag                              [C0]\notaldy  = Wurzel-/Drogenartikel                                 [C0]\n```\n\nThese are complete-form, context-bound working meanings, not translations of\n`ok`, `ot`, `al` or `dy`. The result is a hybrid: one local source-family may\ncarry status-like graphical material, while the two full strings behave as\ndifferent learned content entries.",
+          "sha256": "1df7838e8bfe5856cf116175d63d5656e041637cef66215bcccf0d02b8eb78ae"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "independent_new_idea": false,
+      "scope": {
+        "kind": "historical_scoped_full_construction_or_local_rival",
+        "limits": "Source-model interpretation only; complete forms/role labels remain provisional; no component export, plaintext or global meaning."
+      },
+      "comparison": {
+        "counterpart_ids": [
+          "SEM:8fccb8d3f3840b8c2432",
+          "SEM:adb7d63d861cba56d41b",
+          "SEM:93f715273dc7abdaaf0f"
+        ],
+        "reason": "Current cards cover AQABAC and the two neighboring complete forms, but no exact AQABBA proposition; shared surface-family or facies identity is not inferred.",
+        "global_identity": "not_established_by_bounded_navigation"
+      }
+    },
+    {
+      "id": "CLEAN_GAP_IV:three_field_bracket_model",
+      "claim": "GDT803 proposes a provisional three-field construction—quality/condition field, l-carrier/entry form, and value/state/result field—while retaining an equally live opaque three-field-address null. The English role names are analyst labels, not decoded words.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "LEGACY_COMPONENT:a8d58ad56c4d8e71676d"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt803_recurrent_context_rarity_discriminator/REPORT.md",
+          "line": 32,
+          "line_end": 39,
+          "quote": "The first useful renderer hypothesis from the chain is:\n\n```text\nQUALITY/CONDITION FIELD + l-CARRIER/ENTRY FORM + VALUE/STATE/RESULT FIELD\n```\n\nThe equally live null is an opaque three-field address. The English role names\nare analyst labels, not decoded words.",
+          "sha256": "857d96cfd56c3131a079198a25630cd730642597cb21705d6469088917b7ca54"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "independent_new_idea": false,
+      "scope": {
+        "kind": "historical_scoped_full_construction_or_local_rival",
+        "limits": "Source-model interpretation only; complete forms/role labels remain provisional; no component export, plaintext or global meaning."
+      },
+      "comparison": {
+        "counterpart_ids": [],
+        "reason": "No current semantic card asserts this exact bracket construction; the report itself treats it as a renderer hypothesis alongside an opaque null, so it is not a lexical or structural certainty.",
+        "global_identity": "not_established_by_bounded_navigation"
+      }
+    }
+  ],
+  "dispositions": {},
+  "source_reassessments": {},
+  "counts": {
+    "cards": 2,
+    "unconfirmed": 2,
+    "ready": 0
+  },
+  "parallel_scope": {
+    "kind": "historical_scoped_full_construction_or_local_rival",
+    "limits": "Draft only. Coverage is limited to GDT790–GDT809 reports; GDT753/763/IP material was not part of this pass. Structural-only outcomes and current-card propositions were excluded. No source group is exhaustively reviewed."
+  },
+  "intake_accounting": {
+    "coverage": "Bounded report comparison against current semantic claims and full cases; source-path absence alone was not treated as a missing claim. member_ids are actual LEGACY_COMPONENT inventory records."
+  },
+  "validation": {
+    "exact_evidence": "passed tools.semantic_identity._evidence for all cards",
+    "operative_mutation": false
+  }
+}

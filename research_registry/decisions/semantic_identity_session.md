@@ -765,3 +765,9 @@ IU raw intake: Four proposals46-49 are retained unreviewed with exact design/sou
 IT material pass: Five source questions bind the newly recovered paired/local whole-form cards.112dossiers/134directsemantic targets. Directional field failure does not settle shared meaning; boundary confidence does not settle botanical identity; renderer projection does not independently identify content. No manuscript experiment or meaning.
 
 IT/IU validation: Source preservation, exact current cards/cases, identity and112scoped questions pass; priority coverage/catalog/freshness pass.5151historical imports +49raw =5200records;4203ledger events.134directsemantic question targets;3719cards have neither direct question nor priority.3857semantic/266formal/4645sourcecases,80groups/93reduction. No new manuscript experiment or meaning.
+
+IV source recovery: Two historical models receive addressable unconfirmed cards: AQABBA local circle-status/entry hybrid and the twelve-bracket quality/carrier/value construction. Source-family code, complete surfaces, inherited field labels and unresolved opaque alternatives stay distinct. No source observation is newly made.
+
+IW identity pass: One historical dal action equivalence and three related pairs give81groups/94reduction/51relations,97requiredinputs. Full assertions retain extra char content, optical/flow-control alternatives and liquid-versus-ready-stock scope. No cases deleted or meaning confirmed.
+
+IV/IW validation: Source preservation, exact card/case bindings, inventory,112scoped questions, priority coverage/catalog and freshness pass.5153historical imports +49raw =5202records;4205ledger events.4125active cards=3859semantic+266formal;4647cases include45archived cards.81identity groups/94display reduction/51relations,97requiredinputs;3721semantic cards have neither direct question nor priority. No new manuscript experiment or meaning.
