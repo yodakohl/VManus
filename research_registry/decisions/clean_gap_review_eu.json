@@ -1,0 +1,131 @@
+{
+  "review_id": "CLEAN_GAP_REVIEW_EU",
+  "cards": [
+    {
+      "id": "CLEAN_GAP_EU:draft_strip_single_fair_copy_production",
+      "claim": "Pass693 proposes a historical workshop-production reconstruction for its modeled B3 record packet: specialist desks first cooperate on a circulating draft strip, with an earlier desk recording only its component contribution and a later desk choosing the entire model card; one hand then copies the complete sequence into space around pre-existing pictures. The sequence is picture page, owner/framework, wet selection, transfer selection, state selection, uniform fair copy and correction filing. Selection and correction can involve several workers without changing hands inside a written card. This replaces the Pass692 scenario of successive specialists adding their card layers directly to the pictured page; it is an authored production hypothesis, not an observed draft strip, identified historical workforce or confirmed interpretation of manuscript content.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "LEGACY_PROPOSAL:e175665a82019c33a59196d4"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_b3_four_desk_commission_six_hundred_ninety_third/SIX_HUNDRED_NINETY_THIRD_REPORT.md",
+          "line": 18,
+          "line_end": 34,
+          "quote": "## Eine notwendige Reparatur des Werkstattmodells\n\nFünf Karten verbinden tatsächlich zwei Spezialtische:\n`pchedal`, `shecthedchy`, `cheeety`, `schedair` und `chedain`. Eine sichtbare\nKarte kann nicht sinnvoll halb von zwei Schreibern geschrieben werden. Deshalb\nwandert zunächst ein Entwurfsstreifen durch die Werkstatt. Der frühere Tisch\nnotiert nur seinen Komponentenhinweis; der spätere Tisch wählt die ganze\nMusterkarte. Erst danach kopiert eine Hand die komplette Folge in die freie\nFläche um die bereits vorhandenen Bilder.\n\nDamit wird das Modell einfacher und historisch handwerklicher:\n\n`Bildseite → Besitzer/Grundgerüst → Nassauswahl → Transferauswahl →\nZustandsauswahl → einheitliche Reinschrift → Korrekturablage`\n\nMehrere Werkstattmitglieder teilen die Auswahl- und Korrekturarbeit, ohne dass\ndie sichtbare Textzeile mitten in einer Karte zwischen Händen wechselt.",
+          "sha256": "3157824b6d560b092bc598b05e0e6885c734926b4d22fa50633f394e22d3daa9"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_b3_four_desk_commission_six_hundred_ninety_third/SIX_HUNDRED_NINETY_THIRD_REPORT.md",
+          "line": 46,
+          "line_end": 56,
+          "quote": "Später wechselt die laufende Anweisung zweimal innerhalb eines Satzes den\nsichtbaren Besitzer. Diese Wechsel werden nicht durch das physische Zeilenende\nerzeugt; sie stehen ausdrücklich auf dem Entwurfsstreifen. Das passt zur\nAnnahme, dass die Zeichnung zuerst da war und der Text danach in verbleibende\nRäume eingepasst wurde.\n\nDie vollständige 86-Karten-Spur, alle 34 Anweisungen, alle zehn Loci, die fünf\nKreuzkarten und sechs Paketübergaben sind separat ausgegeben. Der stärkste neue\nGewinn ist nicht eine neue Wortbedeutung, sondern ein glaubwürdigerer\nHerstellungsmechanismus: **mehrere Auswahltische, aber eine kontinuierliche\nReinschrift pro Recordpaket**.",
+          "sha256": "3157824b6d560b092bc598b05e0e6885c734926b4d22fa50633f394e22d3daa9"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_workshop_floor_plan_six_hundred_ninety_second/SIX_HUNDRED_NINETY_SECOND_REPORT.md",
+          "line": 14,
+          "line_end": 17,
+          "quote": "Jeder Tisch hat zusätzlich den 13er-Taschenkern. Das aktuelle Seitenblatt mit\nseinem schon gezeichneten Bild wandert als Recordpaket durch die Werkstatt:\n\n`Meister → Vorbereitung/Nass (wenn nötig) → Transfer → Zustand → Meister`",
+          "sha256": "46f55cd89b2dfeef6f4ae176166225598873277e89f410864ce50a5d65ee06f8"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_workshop_floor_plan_six_hundred_ninety_second/SIX_HUNDRED_NINETY_SECOND_REPORT.md",
+          "line": 29,
+          "line_end": 32,
+          "quote": "Das Bild-zuerst-Szenario passt besonders gut: Das bereits gezeichnete Blatt ist\nselbst der Besitzerzettel. Jeder Schreiber ergänzt nur seine Kartenschicht in\nder verfügbaren Restfläche; Zeilenumbrüche folgen dem Platz, nicht dem Ende der\nArbeitsanweisung.",
+          "sha256": "46f55cd89b2dfeef6f4ae176166225598873277e89f410864ce50a5d65ee06f8"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scope": {
+        "domain": "historical_manuscript_production",
+        "unit": "Pass693 modeled B3 record packet; not a manuscript-wide hand assignment",
+        "semantic_content_claim": false,
+        "basis": "Historical production hypothesis explicitly proposed in report; no independent manuscript validation.",
+        "local_examples": [
+          "pchedal",
+          "shecthedchy",
+          "cheeety",
+          "schedair",
+          "chedain"
+        ],
+        "examples_are_independent_mechanisms": false
+      },
+      "source_polarity": "unconfirmed_historical_production_proposal",
+      "limitations": "The modeled card counts and handoff narrative motivate the authored repair, not evidence that an actual draft strip or named specialist existed. No new word value, pictured referent or historical physical hand is assigned."
+    }
+  ],
+  "dispositions": [],
+  "source_reassessments": [
+    {
+      "source_id": "LEGACY_PROPOSAL:e175665a82019c33a59196d4",
+      "decision": "recover_scoped_historical_production_model",
+      "card_ids": [
+        "CLEAN_GAP_EU:draft_strip_single_fair_copy_production"
+      ],
+      "previous_assessment": {
+        "review_file": "research_registry/decisions/clean_final_sidequest_review.json",
+        "review_sha256": "55be386a0e1980355cb403076a0217767d587277205d112ab1ed3519c192ad11",
+        "disposition": {
+          "source_id": "LEGACY_PROPOSAL:e175665a82019c33a59196d4",
+          "decision": "nonidea_method_result_or_scope",
+          "reason": "Reviewed fragment supplies a heading, scope, procedure, diagnostic, formal copying rule or result limitation, without a separately retained concrete meaning proposal. This does not classify the entire source file.",
+          "card_ids": [],
+          "evidence": [
+            {
+              "path": "experiments/yolo/sidequest_semantic_b3_four_desk_commission_six_hundred_ninety_third/SIX_HUNDRED_NINETY_THIRD_REPORT.md",
+              "line": 18,
+              "sha256": "3157824b6d560b092bc598b05e0e6885c734926b4d22fa50633f394e22d3daa9"
+            }
+          ]
+        }
+      },
+      "reason": "The source explicitly presents a more credible Herstellungsmechanismus, asserting a draft intermediary, ordered specialist selection and one-hand fair copying. The original method/result/scope intake was too coarse for this full production proposition. It remains historical conjecture and is not a lexical or content-world translation.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_b3_four_desk_commission_six_hundred_ninety_third/SIX_HUNDRED_NINETY_THIRD_REPORT.md",
+          "line": 18,
+          "line_end": 34,
+          "quote": "## Eine notwendige Reparatur des Werkstattmodells\n\nFünf Karten verbinden tatsächlich zwei Spezialtische:\n`pchedal`, `shecthedchy`, `cheeety`, `schedair` und `chedain`. Eine sichtbare\nKarte kann nicht sinnvoll halb von zwei Schreibern geschrieben werden. Deshalb\nwandert zunächst ein Entwurfsstreifen durch die Werkstatt. Der frühere Tisch\nnotiert nur seinen Komponentenhinweis; der spätere Tisch wählt die ganze\nMusterkarte. Erst danach kopiert eine Hand die komplette Folge in die freie\nFläche um die bereits vorhandenen Bilder.\n\nDamit wird das Modell einfacher und historisch handwerklicher:\n\n`Bildseite → Besitzer/Grundgerüst → Nassauswahl → Transferauswahl →\nZustandsauswahl → einheitliche Reinschrift → Korrekturablage`\n\nMehrere Werkstattmitglieder teilen die Auswahl- und Korrekturarbeit, ohne dass\ndie sichtbare Textzeile mitten in einer Karte zwischen Händen wechselt.",
+          "sha256": "3157824b6d560b092bc598b05e0e6885c734926b4d22fa50633f394e22d3daa9"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_b3_four_desk_commission_six_hundred_ninety_third/SIX_HUNDRED_NINETY_THIRD_REPORT.md",
+          "line": 46,
+          "line_end": 56,
+          "quote": "Später wechselt die laufende Anweisung zweimal innerhalb eines Satzes den\nsichtbaren Besitzer. Diese Wechsel werden nicht durch das physische Zeilenende\nerzeugt; sie stehen ausdrücklich auf dem Entwurfsstreifen. Das passt zur\nAnnahme, dass die Zeichnung zuerst da war und der Text danach in verbleibende\nRäume eingepasst wurde.\n\nDie vollständige 86-Karten-Spur, alle 34 Anweisungen, alle zehn Loci, die fünf\nKreuzkarten und sechs Paketübergaben sind separat ausgegeben. Der stärkste neue\nGewinn ist nicht eine neue Wortbedeutung, sondern ein glaubwürdigerer\nHerstellungsmechanismus: **mehrere Auswahltische, aber eine kontinuierliche\nReinschrift pro Recordpaket**.",
+          "sha256": "3157824b6d560b092bc598b05e0e6885c734926b4d22fa50633f394e22d3daa9"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_workshop_floor_plan_six_hundred_ninety_second/SIX_HUNDRED_NINETY_SECOND_REPORT.md",
+          "line": 14,
+          "line_end": 17,
+          "quote": "Jeder Tisch hat zusätzlich den 13er-Taschenkern. Das aktuelle Seitenblatt mit\nseinem schon gezeichneten Bild wandert als Recordpaket durch die Werkstatt:\n\n`Meister → Vorbereitung/Nass (wenn nötig) → Transfer → Zustand → Meister`",
+          "sha256": "46f55cd89b2dfeef6f4ae176166225598873277e89f410864ce50a5d65ee06f8"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_workshop_floor_plan_six_hundred_ninety_second/SIX_HUNDRED_NINETY_SECOND_REPORT.md",
+          "line": 29,
+          "line_end": 32,
+          "quote": "Das Bild-zuerst-Szenario passt besonders gut: Das bereits gezeichnete Blatt ist\nselbst der Besitzerzettel. Jeder Schreiber ergänzt nur seine Kartenschicht in\nder verfügbaren Restfläche; Zeilenumbrüche folgen dem Platz, nicht dem Ende der\nArbeitsanweisung.",
+          "sha256": "46f55cd89b2dfeef6f4ae176166225598873277e89f410864ce50a5d65ee06f8"
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "cards": 1,
+    "initial_dispositions": 0,
+    "source_reassessments": 1,
+    "independent_new_mechanisms_claimed": 0
+  },
+  "limits": [
+    "Only the assigned Pass693 production conjunction recovered; no new semantic values or scientific experiments.",
+    "Original initial disposition remains unchanged; this is a separate later reassessment.",
+    "semantic_model is used for an explicit historical manuscript-production account, as for existing production models. It is not a claim that text means a draft strip or that a code/renderer operation alone is semantic.",
+    "Global novelty and historical truth remain unestablished; exact similar broad models were compared without blanket duplicate relations."
+  ]
+}

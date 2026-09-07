@@ -368,3 +368,28 @@ producer and peer receipts unchanged. EP mixed22-check counter is decomposed
 into13 direct primary entries,2 counterpart entries,3 review receipts and4
 metadata hashes; only nine new primary cases, not20. All current source and
 operative audits plus158repository tests PASS. EQ/ER/ES remain pending.
+
+EV decision: ER finds missing figure-denotation clauses in two already accepted
+single-case GDT208/GDT210 genre cards. Compare both complete reports and the
+Iteration88 women-regimen counterpart; enrich existing source contracts rather
+than count duplicate models. Budget20minutes review/peer/integration. No new
+visual observation, comparator search or semantic failure judgment.
+
+EQ/ER/ES/ET/EU/EV/EW integration decision: four full823-era neighboring
+contracts and one explicitly nonlexical historical production proposal are
+peer-ready. Two existing genre cards gain missing integral figure contrasts,
+not duplicate new model IDs. One qol source-question dossier preserves missing
+referents, compound limitations and invalid relation provenance separately.
+ES resolves only a declared CTHY unit bridge; whole-claim identity remains open.
+ER is bounded navigation, not global source completeness; EW records the broad
+production taxonomy convention without inventing a formal category definition.
+Smallest adequate work: current-basis/quote checks, append two corrections and
+one scoped dossier, activate two review inputs, refresh once and publish.
+Budget20minutes including all checks/publication; no new manuscript research.
+
+EQ–EW checkpoint:4113 active=3848 semantic+265 formal;4634 sourcecases;
+44 archived cards unchanged;193 scope restatements.49 equivalence groups/58
+display reductions and37 other relations;39 scoped dossiers and9 unready
+priorities. Identity navigation includes36hashed reviews. Source preservation,
+current bindings and158repository tests PASS. EX/EY/EZ pending; EV does not
+cover the distinct GDT209 historical source case by implication.

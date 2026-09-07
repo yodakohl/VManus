@@ -1,0 +1,416 @@
+{
+  "review_id": "CLEAN_GAP_PEER_EU",
+  "reviewed_files": [
+    {
+      "path": "research_registry/decisions/clean_gap_review_eu.json",
+      "sha256": "0711f6daf0dded2f990e1f5bf5630ae4afa554595777e0fd02b075e3f2c3643e"
+    },
+    {
+      "path": "research_registry/decisions/semantic_scope_resolution_eu.json",
+      "sha256": "6bcc7e60c01dcdd13b8e5d19101610e28261c465eeb33e0016f0f512c1f7c8ba"
+    }
+  ],
+  "decision": "approve_scoped_historical_production_recovery",
+  "cards": [
+    {
+      "id": "CLEAN_GAP_EU:draft_strip_single_fair_copy_production",
+      "decision": "approve",
+      "claim_checked": "Pass693 proposes a historical workshop-production reconstruction for its modeled B3 record packet: specialist desks first cooperate on a circulating draft strip, with an earlier desk recording only its component contribution and a later desk choosing the entire model card; one hand then copies the complete sequence into space around pre-existing pictures. The sequence is picture page, owner/framework, wet selection, transfer selection, state selection, uniform fair copy and correction filing. Selection and correction can involve several workers without changing hands inside a written card. This replaces the Pass692 scenario of successive specialists adding their card layers directly to the pictured page; it is an authored production hypothesis, not an observed draft strip, identified historical workforce or confirmed interpretation of manuscript content.",
+      "type_decision": "semantic_model_with_explicit_production_domain",
+      "reason": "The complete Pass692 and Pass693 reports explicitly describe a pictured manuscript page, writers, intermediate draft and a final copying hand. Pass693 calls this a historically craft-like Herstellungsmechanismus and repairs the earlier direct-page scenario. It is therefore an authored historical production conjecture, not merely instructions for the present software. The proposed claim faithfully marks its B3 model domain and does not turn the motivating author-assigned cross-table roles into observations of actual workers or a surviving draft.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_b3_four_desk_commission_six_hundred_ninety_third/SIX_HUNDRED_NINETY_THIRD_REPORT.md",
+          "line": 18,
+          "line_end": 34,
+          "quote": "## Eine notwendige Reparatur des Werkstattmodells\n\nFünf Karten verbinden tatsächlich zwei Spezialtische:\n`pchedal`, `shecthedchy`, `cheeety`, `schedair` und `chedain`. Eine sichtbare\nKarte kann nicht sinnvoll halb von zwei Schreibern geschrieben werden. Deshalb\nwandert zunächst ein Entwurfsstreifen durch die Werkstatt. Der frühere Tisch\nnotiert nur seinen Komponentenhinweis; der spätere Tisch wählt die ganze\nMusterkarte. Erst danach kopiert eine Hand die komplette Folge in die freie\nFläche um die bereits vorhandenen Bilder.\n\nDamit wird das Modell einfacher und historisch handwerklicher:\n\n`Bildseite → Besitzer/Grundgerüst → Nassauswahl → Transferauswahl →\nZustandsauswahl → einheitliche Reinschrift → Korrekturablage`\n\nMehrere Werkstattmitglieder teilen die Auswahl- und Korrekturarbeit, ohne dass\ndie sichtbare Textzeile mitten in einer Karte zwischen Händen wechselt.",
+          "sha256": "3157824b6d560b092bc598b05e0e6885c734926b4d22fa50633f394e22d3daa9"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_b3_four_desk_commission_six_hundred_ninety_third/SIX_HUNDRED_NINETY_THIRD_REPORT.md",
+          "line": 46,
+          "line_end": 56,
+          "quote": "Später wechselt die laufende Anweisung zweimal innerhalb eines Satzes den\nsichtbaren Besitzer. Diese Wechsel werden nicht durch das physische Zeilenende\nerzeugt; sie stehen ausdrücklich auf dem Entwurfsstreifen. Das passt zur\nAnnahme, dass die Zeichnung zuerst da war und der Text danach in verbleibende\nRäume eingepasst wurde.\n\nDie vollständige 86-Karten-Spur, alle 34 Anweisungen, alle zehn Loci, die fünf\nKreuzkarten und sechs Paketübergaben sind separat ausgegeben. Der stärkste neue\nGewinn ist nicht eine neue Wortbedeutung, sondern ein glaubwürdigerer\nHerstellungsmechanismus: **mehrere Auswahltische, aber eine kontinuierliche\nReinschrift pro Recordpaket**.",
+          "sha256": "3157824b6d560b092bc598b05e0e6885c734926b4d22fa50633f394e22d3daa9"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_workshop_floor_plan_six_hundred_ninety_second/SIX_HUNDRED_NINETY_SECOND_REPORT.md",
+          "line": 14,
+          "line_end": 17,
+          "quote": "Jeder Tisch hat zusätzlich den 13er-Taschenkern. Das aktuelle Seitenblatt mit\nseinem schon gezeichneten Bild wandert als Recordpaket durch die Werkstatt:\n\n`Meister → Vorbereitung/Nass (wenn nötig) → Transfer → Zustand → Meister`",
+          "sha256": "46f55cd89b2dfeef6f4ae176166225598873277e89f410864ce50a5d65ee06f8"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_workshop_floor_plan_six_hundred_ninety_second/SIX_HUNDRED_NINETY_SECOND_REPORT.md",
+          "line": 29,
+          "line_end": 32,
+          "quote": "Das Bild-zuerst-Szenario passt besonders gut: Das bereits gezeichnete Blatt ist\nselbst der Besitzerzettel. Jeder Schreiber ergänzt nur seine Kartenschicht in\nder verfügbaren Restfläche; Zeilenumbrüche folgen dem Platz, nicht dem Ende der\nArbeitsanweisung.",
+          "sha256": "46f55cd89b2dfeef6f4ae176166225598873277e89f410864ce50a5d65ee06f8"
+        }
+      ],
+      "required_corrections": []
+    }
+  ],
+  "ontology_assessment": {
+    "consistent_with_current_usage": true,
+    "source_of_consistency": "Six inspected active counterparts are semantic_model; the three V76 whole production reconstructions explicitly include historical copying organization as substantive hypotheses. Current TYPES/SEMANTIC_TYPES define a broad inventory class, not a guarantee of lexical content.",
+    "essential_qualification": "Keep domain=historical_manuscript_production and semantic_content_claim=false, and retain the explicit no-word/no-content interpretation in the visible claim. The flag alone would not justify classifying a software procedure as a historical model; the manuscript-page and historical-craft source clauses do.",
+    "not_supported": "No confirmed manuscript production history, semantic decoding gain, five independent mechanisms or newly tested rival rejection. The source assertion that two hands cannot sensibly write parts of a card is the author rationale, not an independently demonstrated necessity.",
+    "schema_boundary": "No schema change requested. A later ontology may separate production hypotheses, but the present proposal is consistent with existing production-model cards."
+  },
+  "counterpart_checks": [
+    {
+      "target": "SEM:0b19d4a6b6721fb556cf",
+      "card_basis": "da5c966c3806a9481af1a3271c1d8ded0bdeee63fc8e6002de97996c42536199",
+      "effective_basis": "d20018381553b0662cfd1317f7e7aa36496dfe03d7bdb836cb16e6a0f518f179",
+      "cases": [
+        "LATE_SIDEQUEST:64748d9a2763a4e217fd"
+      ],
+      "decision": "not_a_complete_counterpart",
+      "reason": "Shares multi-stage compilation and several hands, but distributes work by section/batch/campaign rather than multiple selectors preparing one packet for one final writing hand.",
+      "evidence": [
+        {
+          "line": 164,
+          "path": "experiments/yolo/sidequest_theory_candidates_v76/V76_R2_HISTORICAL_BOOK_PURPOSE_REPORT.md",
+          "quote": "1. mehrere Quellfamilien oder Musterblätter beschaffen;",
+          "sha256": "0f780603cec8fcab637bf696e5bf66753355ff56a6537d74deb59efa92a8cd2f"
+        },
+        {
+          "line": 165,
+          "path": "experiments/yolo/sidequest_theory_candidates_v76/V76_R2_HISTORICAL_BOOK_PURPOSE_REPORT.md",
+          "quote": "2. Sektionen beziehungsweise Bildbatches planen;",
+          "sha256": "0f780603cec8fcab637bf696e5bf66753355ff56a6537d74deb59efa92a8cd2f"
+        },
+        {
+          "line": 166,
+          "path": "experiments/yolo/sidequest_theory_candidates_v76/V76_R2_HISTORICAL_BOOK_PURPOSE_REPORT.md",
+          "quote": "3. auf den Zielseiten Pflanzen, lokale Bio-Szenen und einzelne Diagramme als\n   visuelle Besitzer anlegen;",
+          "sha256": "0f780603cec8fcab637bf696e5bf66753355ff56a6537d74deb59efa92a8cd2f"
+        },
+        {
+          "line": 168,
+          "path": "experiments/yolo/sidequest_theory_candidates_v76/V76_R2_HISTORICAL_BOOK_PURPOSE_REPORT.md",
+          "quote": "4. lokale Texte in die verbleibenden Bildräume kopieren;",
+          "sha256": "0f780603cec8fcab637bf696e5bf66753355ff56a6537d74deb59efa92a8cd2f"
+        },
+        {
+          "line": 169,
+          "path": "experiments/yolo/sidequest_theory_candidates_v76/V76_R2_HISTORICAL_BOOK_PURPOSE_REPORT.md",
+          "quote": "5. Arbeit nach Abschnitt, Bildtyp oder Kampagne auf mehrere Hände verteilen;",
+          "sha256": "0f780603cec8fcab637bf696e5bf66753355ff56a6537d74deb59efa92a8cd2f"
+        },
+        {
+          "line": 170,
+          "path": "experiments/yolo/sidequest_theory_candidates_v76/V76_R2_HISTORICAL_BOOK_PURPOSE_REPORT.md",
+          "quote": "6. die Blöcke als Arbeits- oder Bildsammlung montieren;",
+          "sha256": "0f780603cec8fcab637bf696e5bf66753355ff56a6537d74deb59efa92a8cd2f"
+        },
+        {
+          "line": 171,
+          "path": "experiments/yolo/sidequest_theory_candidates_v76/V76_R2_HISTORICAL_BOOK_PURPOSE_REPORT.md",
+          "quote": "7. getrennt konsultieren und gegebenenfalls später ergänzen.",
+          "sha256": "0f780603cec8fcab637bf696e5bf66753355ff56a6537d74deb59efa92a8cd2f"
+        },
+        {
+          "line": 173,
+          "path": "experiments/yolo/sidequest_theory_candidates_v76/V76_R2_HISTORICAL_BOOK_PURPOSE_REPORT.md",
+          "quote": "Das Bild-vor-Text-Prinzip bleibt eine **lokale Zielseitenhypothese**. Es ist\nhistorisch möglich, aber nicht als allgemeines Gesetz abgesichert. Gerade die\nleeren Bildräume im Carrara-Herbal belegen den umgekehrten oder gemischten\nAblauf für manche Lagen. Der Kern von Wellcome MS.8515 steht in einer Hand,\nseine Rezepte wurden aber durch spätere Hände ergänzt; British Library Add MS\n82946 vereint einen Stundenbuchkern mit Kalendern, astronomischen Tafeln und\nspäteren Ergänzungen\n([Add MS 82946](https://searcharchives.bl.uk/catalog/032-000200122)). Das zeigt\nmehrstufige Kompilation, nicht die Berufe oder Absichten der Zielschreiber.",
+          "sha256": "0f780603cec8fcab637bf696e5bf66753355ff56a6537d74deb59efa92a8cd2f"
+        }
+      ]
+    },
+    {
+      "target": "SEM:d35bae1fd5be8e072796",
+      "card_basis": "d2fac22874bdfc815ada3b316f1c82474f83ef4d43c87258d871968c59c5ab58",
+      "effective_basis": "6ca80aab7287813b2250dfe31fdd833d55ba9d09fc986d2869ff07f4a3d40d16",
+      "cases": [
+        "LATE_SIDEQUEST:8902472670ad83c8bf61"
+      ],
+      "decision": "not_a_complete_counterpart",
+      "reason": "Shares preplanned pictures, copied exemplars and local reflow, but several hands divide quires/pages/sections; no draft-strip selection sequence or single-hand record-package mechanism is asserted.",
+      "evidence": [
+        {
+          "line": 95,
+          "path": "experiments/yolo/sidequest_theory_candidates_v76/V76_R3_TECHNICAL_BOOK_PURPOSE_REPORT.md",
+          "quote": "1. Ein Kompilator waehlt Bild- und Textelemente aus mehreren\n   Abschnittsvorlagen oder einem gebuendelten Masterexemplar.",
+          "sha256": "08b56231fd6b1c2cea83d4ca32f8e51ef8ba69cba00ba25b9329ddaf42a472a4"
+        },
+        {
+          "line": 97,
+          "path": "experiments/yolo/sidequest_theory_candidates_v76/V76_R3_TECHNICAL_BOOK_PURPOSE_REPORT.md",
+          "quote": "2. Pflanzen, Figuren-/Apparatekonfigurationen und Himmelsdiagramme werden als\n   grosse Seitenbesitzer geplant und zuerst eingetragen.",
+          "sha256": "08b56231fd6b1c2cea83d4ca32f8e51ef8ba69cba00ba25b9329ddaf42a472a4"
+        },
+        {
+          "line": 99,
+          "path": "experiments/yolo/sidequest_theory_candidates_v76/V76_R3_TECHNICAL_BOOK_PURPOSE_REPORT.md",
+          "quote": "3. Der Kompilator teilt jedem Resttextfeld den kleinsten lokalen Besitzer oder\n   Adressraum zu.",
+          "sha256": "08b56231fd6b1c2cea83d4ca32f8e51ef8ba69cba00ba25b9329ddaf42a472a4"
+        },
+        {
+          "line": 101,
+          "path": "experiments/yolo/sidequest_theory_candidates_v76/V76_R3_TECHNICAL_BOOK_PURPOSE_REPORT.md",
+          "quote": "4. Ein Schreiber uebernimmt ganze gelernte Karten oder Kopiersegmente und den\n   konkreten Inhalt aus der Vorlage; die Manuskriptform muss den Inhalt nicht\n   allein tragen.",
+          "sha256": "08b56231fd6b1c2cea83d4ca32f8e51ef8ba69cba00ba25b9329ddaf42a472a4"
+        },
+        {
+          "line": 104,
+          "path": "experiments/yolo/sidequest_theory_candidates_v76/V76_R3_TECHNICAL_BOOK_PURPOSE_REPORT.md",
+          "quote": "5. Der Text wird um Konturen und Bildtaschen herum neu gebrochen. Dadurch darf\n   eine Aussage physische Zeilen kreuzen und eine Zeile mehrere lokale\n   Buchungen enthalten.",
+          "sha256": "08b56231fd6b1c2cea83d4ca32f8e51ef8ba69cba00ba25b9329ddaf42a472a4"
+        },
+        {
+          "line": 107,
+          "path": "experiments/yolo/sidequest_theory_candidates_v76/V76_R3_TECHNICAL_BOOK_PURPOSE_REPORT.md",
+          "quote": "6. Mehrere Haende teilen sich Quire, Seiten oder Sektionen. Sie muessen nur\n   dieselbe Besitzer-/Resetregel und die formalen Karten beherrschen; lokale\n   Renderer und lokale Endkadenzen duerfen variieren.",
+          "sha256": "08b56231fd6b1c2cea83d4ca32f8e51ef8ba69cba00ba25b9329ddaf42a472a4"
+        },
+        {
+          "line": 110,
+          "path": "experiments/yolo/sidequest_theory_candidates_v76/V76_R3_TECHNICAL_BOOK_PURPOSE_REPORT.md",
+          "quote": "7. Korrektur prueft lokale Besitzer, Schlusszeichen und Auslassungen, nicht\n   einen erfundenen Gesamtstrom oder eine seitenweite Astroreihenfolge.",
+          "sha256": "08b56231fd6b1c2cea83d4ca32f8e51ef8ba69cba00ba25b9329ddaf42a472a4"
+        },
+        {
+          "line": 113,
+          "path": "experiments/yolo/sidequest_theory_candidates_v76/V76_R3_TECHNICAL_BOOK_PURPOSE_REPORT.md",
+          "quote": "Das ist eine Produktionsrekonstruktion, kein Beweis der tatsaechlichen\nChronologie. Dass Text an Bilder angepasst ist, kann auch nur Platzmanagement\nsein. Mehrere Haende koennen bloss Quire geteilt haben.",
+          "sha256": "08b56231fd6b1c2cea83d4ca32f8e51ef8ba69cba00ba25b9329ddaf42a472a4"
+        }
+      ]
+    },
+    {
+      "target": "SEM:c557b9f3cd8b79671468",
+      "card_basis": "5f3d56672eedd11c4550cb9036aac8c90a4dfbb39da2adc49b4b156da0e7fe00",
+      "effective_basis": "2183bdc18272bb6edcd633dec1f4cf76fb5a345e3fad380eee3714bd45705b18",
+      "cases": [
+        "LATE_SIDEQUEST:cdbf8e2c1dd4210be0a1"
+      ],
+      "decision": "not_a_complete_counterpart",
+      "reason": "Shares master/picture/whole-card/correction architecture but no intermediate circulation, earlier-component/later-whole selection split or one-hand final packet copy.",
+      "evidence": [
+        {
+          "line": 46,
+          "path": "experiments/yolo/sidequest_theory_candidates_v76/V76_R4_CHANCERY_BOOK_PURPOSE_REPORT.md",
+          "quote": "1. Ein Meister sammelt Pflanzenartikel, Stationsbeschreibungen und\n   Himmelsnachschläge aus mehreren Quellen.",
+          "sha256": "cb9949e811d576be700044655a884e30af18d146d2f3fbc49096e3484c7281e1"
+        },
+        {
+          "line": 48,
+          "path": "experiments/yolo/sidequest_theory_candidates_v76/V76_R4_CHANCERY_BOOK_PURPOSE_REPORT.md",
+          "quote": "2. Ein Zeichner plant die großen Pflanzen, Figurenstationen und Räder.",
+          "sha256": "cb9949e811d576be700044655a884e30af18d146d2f3fbc49096e3484c7281e1"
+        },
+        {
+          "line": 49,
+          "path": "experiments/yolo/sidequest_theory_candidates_v76/V76_R4_CHANCERY_BOOK_PURPOSE_REPORT.md",
+          "quote": "3. Der Meister weist jedem Bild oder lokalen Teilbild einen Exemplarabschnitt\n   zu.",
+          "sha256": "cb9949e811d576be700044655a884e30af18d146d2f3fbc49096e3484c7281e1"
+        },
+        {
+          "line": 51,
+          "path": "experiments/yolo/sidequest_theory_candidates_v76/V76_R4_CHANCERY_BOOK_PURPOSE_REPORT.md",
+          "quote": "4. Schreiber kopieren opake Ganzkarten statt einen unbekannten Wert produktiv\n   neu zu schreiben.",
+          "sha256": "cb9949e811d576be700044655a884e30af18d146d2f3fbc49096e3484c7281e1"
+        },
+        {
+          "line": 53,
+          "path": "experiments/yolo/sidequest_theory_candidates_v76/V76_R4_CHANCERY_BOOK_PURPOSE_REPORT.md",
+          "quote": "5. Wiederholte Besitzer und Argumente werden bild- oder registergestützt\n   ausgelassen.",
+          "sha256": "cb9949e811d576be700044655a884e30af18d146d2f3fbc49096e3484c7281e1"
+        },
+        {
+          "line": 55,
+          "path": "experiments/yolo/sidequest_theory_candidates_v76/V76_R4_CHANCERY_BOOK_PURPOSE_REPORT.md",
+          "quote": "6. Handspezifische Renderer und lokale Schlüsse passen die Karten in den Raum.",
+          "sha256": "cb9949e811d576be700044655a884e30af18d146d2f3fbc49096e3484c7281e1"
+        },
+        {
+          "line": 56,
+          "path": "experiments/yolo/sidequest_theory_candidates_v76/V76_R4_CHANCERY_BOOK_PURPOSE_REPORT.md",
+          "quote": "7. Ein Korrektor prüft Kartenidentität, Besitzer, Resets und Namensräume gegen\n   das Masterexemplar.",
+          "sha256": "cb9949e811d576be700044655a884e30af18d146d2f3fbc49096e3484c7281e1"
+        },
+        {
+          "line": 58,
+          "path": "experiments/yolo/sidequest_theory_candidates_v76/V76_R4_CHANCERY_BOOK_PURPOSE_REPORT.md",
+          "quote": "8. Der Benutzer konsultiert Bild plus lokalen Eintrag; ohne Exemplar kann er\n   seltene Karten nicht semantisch erschließen.",
+          "sha256": "cb9949e811d576be700044655a884e30af18d146d2f3fbc49096e3484c7281e1"
+        },
+        {
+          "line": 61,
+          "path": "experiments/yolo/sidequest_theory_candidates_v76/V76_R4_CHANCERY_BOOK_PURPOSE_REPORT.md",
+          "quote": "Das ist für mehrere Schreiber lehrbar, weil nur der kleine Formalapparat\nproduktiv ist. Der große Inhaltsrest wird kopiert oder memoriert.",
+          "sha256": "cb9949e811d576be700044655a884e30af18d146d2f3fbc49096e3484c7281e1"
+        }
+      ]
+    },
+    {
+      "target": "SEM:94c8c5c7abe8de3d652a",
+      "card_basis": "c087e1ff80faf6b92761ca4f3513b47f49307126ee28cb02bf007785c15bb072",
+      "effective_basis": "647d2794fa33cadc838e30e08b33bd95c2da55ddec76a80fafed4f3e3fb5ca78",
+      "cases": [
+        "CLEAN_HYP:ffa3df09fd44e30ae281"
+      ],
+      "decision": "not_a_complete_counterpart",
+      "reason": "Common formula strip is a learned inventory shared by scribes, not a circulating draft carrying partial selections for final copying.",
+      "evidence": [
+        {
+          "line": 573,
+          "path": "experiments/yolo/sidequest_theory_candidates_v2/CANDIDATE_V2_CROSS_PAGE_COHERENCE.md",
+          "quote": "1. **Common formula strip** — perhaps a few dozen high-frequency cards such as\n   the entry head, link, parameter, generic unit and state qualifier.",
+          "sha256": "5836bee102dd8d659167e589b6a65c0186971f213a3cc61e08fe3cdbdc221d6e"
+        },
+        {
+          "line": 576,
+          "path": "experiments/yolo/sidequest_theory_candidates_v2/CANDIDATE_V2_CROSS_PAGE_COHERENCE.md",
+          "quote": "3. **Register sheets** — plant descriptors, bath/apparatus terms and local\n   circle labels copied as whole cards from exemplars.",
+          "sha256": "5836bee102dd8d659167e589b6a65c0186971f213a3cc61e08fe3cdbdc221d6e"
+        },
+        {
+          "line": 578,
+          "path": "experiments/yolo/sidequest_theory_candidates_v2/CANDIDATE_V2_CROSS_PAGE_COHERENCE.md",
+          "quote": "4. **Hand habits** — wrapper variants, joining, line-entry `s`, post-close `q`\n   and reflow around an already drawn image.",
+          "sha256": "5836bee102dd8d659167e589b6a65c0186971f213a3cc61e08fe3cdbdc221d6e"
+        },
+        {
+          "line": 581,
+          "path": "experiments/yolo/sidequest_theory_candidates_v2/CANDIDATE_V2_CROSS_PAGE_COHERENCE.md",
+          "quote": "The large rare inventory is not all memorized. Rare cards are copied from a\nmaster, a glossary or a prior leaf. Frequent formula cards become abbreviated\nand graphically regular through use. This naturally yields:",
+          "sha256": "5836bee102dd8d659167e589b6a65c0186971f213a3cc61e08fe3cdbdc221d6e"
+        },
+        {
+          "line": 585,
+          "path": "experiments/yolo/sidequest_theory_candidates_v2/CANDIDATE_V2_CROSS_PAGE_COHERENCE.md",
+          "quote": "- common cards across hands;\n- many rare register-local cards;\n- wrapper allography;\n- fossilized or opaque internal pieces;\n- exact recurring formulas but few long repeated sequences;\n- scribes who can reproduce the notation with only partial source-language\n  expansion knowledge.",
+          "sha256": "5836bee102dd8d659167e589b6a65c0186971f213a3cc61e08fe3cdbdc221d6e"
+        },
+        {
+          "line": 5899,
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "quote": "2. replace recurrent source concepts with registered opaque cards;",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+        },
+        {
+          "line": 7807,
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "quote": "3. copy exact cards from the shared ledger plus the register-local deck;",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+        }
+      ]
+    },
+    {
+      "target": "SEM:ca6a3b80bdc6dbd2f467",
+      "card_basis": "1a31308a619eb7a6af59b18e7c5730d5a515e9a54a4773790a2857f62ac98630",
+      "effective_basis": "1ddffaef90e9d0fba0c37ce9a3c776ae0f8c0ff1464cfabf7c94d7d36d58eed0",
+      "cases": [
+        "FINAL-SEM:e0d8907fc1d72b142341"
+      ],
+      "decision": "not_a_complete_counterpart",
+      "reason": "Two possible scribal rendering habits for the same content, not two or more selectors versus one final hand for a packet.",
+      "evidence": [
+        {
+          "line": 29,
+          "path": "experiments/yolo/sidequest_semantic_mixed_second_renderer_hundred_ninety_fifth/HUNDRED_NINETY_FIFTH_MIXED_RENDERER_REPORT.md",
+          "quote": "## Workshop interpretation",
+          "sha256": "a76720026d756fefd4e373a07331d735824cb57b712b3d1932c25435df5e587c"
+        },
+        {
+          "line": 31,
+          "path": "experiments/yolo/sidequest_semantic_mixed_second_renderer_hundred_ninety_fifth/HUNDRED_NINETY_FIFTH_MIXED_RENDERER_REPORT.md",
+          "quote": "Two scribes can therefore write the same source content in visibly different\nways without changing the learned card sequence. A careful master hand may\nharmonize the whole field; a faster copyist may keep positional card habits and\nsignal the mode only partially. Both remain readable to someone who knows the\ncard inventory and the close conventions.",
+          "sha256": "a76720026d756fefd4e373a07331d735824cb57b712b3d1932c25435df5e587c"
+        },
+        {
+          "line": 37,
+          "path": "experiments/yolo/sidequest_semantic_mixed_second_renderer_hundred_ninety_fifth/HUNDRED_NINETY_FIFTH_MIXED_RENDERER_REPORT.md",
+          "quote": "That gives the multi-scribe hypothesis a simple learning story:",
+          "sha256": "a76720026d756fefd4e373a07331d735824cb57b712b3d1932c25435df5e587c"
+        }
+      ]
+    },
+    {
+      "target": "SEM:4a4617ef717c76f8d764",
+      "card_basis": "5631875e8cf51264098846df44fb615d33ba5322629b23bdfb9b95a05fddcb5a",
+      "effective_basis": "5cf26c5b14d6172387bf46a360b103fe776f4e2b95a7db06f6b9b98788a91e81",
+      "cases": [
+        "FINAL-SEM:d1e45eb93e391e1d2045"
+      ],
+      "decision": "not_a_complete_counterpart",
+      "reason": "Predrawn owners, shared sign table and several copyists supply a broad production framework; they do not determine Pass693’s intermediate strip and division between selection and copying.",
+      "evidence": [
+        {
+          "line": 259,
+          "path": "experiments/yolo/sidequest_semantic_ot_grade_and_concept_review_one_thousand_tenth/CONCEPT_REVIEW_HISTORICAL_SEMANTIC.md",
+          "quote": "## Arbeitsmodell für den Schreiber von 1420",
+          "sha256": "40f33f8e545c002a07cd23cd6ffa128bff5f8e8f6667e8f0e9c9789443f572aa"
+        },
+        {
+          "line": 261,
+          "path": "experiments/yolo/sidequest_semantic_ot_grade_and_concept_review_one_thousand_tenth/CONCEPT_REVIEW_HISTORICAL_SEMANTIC.md",
+          "quote": "Der Meister zeichnet oder übernimmt zuerst Pflanze, Gefäßgruppe, Körperstation\noder Rad. Danach gibt er den Schreibern eine kleine gemeinsame Zeichentafel.\nAuf ihr stehen der aktuelle Referent, Eintragsanfang und -ende, Folgezeichen,\nQuelle/Ziel, drei Gradstufen, wenige häufige Arbeitsverben und etwa dreißig\noft gebrauchte Ligaturen. Der Schreiber beginnt beim sichtbaren Besitzer,\nkopiert unbekannte Namen ganz, verkürzt bekannte Arbeitsketten und wiederholt\nweder Stoff noch Handlung, solange der Besitzerblock eindeutig bleibt.",
+          "sha256": "40f33f8e545c002a07cd23cd6ffa128bff5f8e8f6667e8f0e9c9789443f572aa"
+        },
+        {
+          "line": 269,
+          "path": "experiments/yolo/sidequest_semantic_ot_grade_and_concept_review_one_thousand_tenth/CONCEPT_REVIEW_HISTORICAL_SEMANTIC.md",
+          "quote": "Das erklärt mit einer einzigen lernbaren Praxis:",
+          "sha256": "40f33f8e545c002a07cd23cd6ffa128bff5f8e8f6667e8f0e9c9789443f572aa"
+        },
+        {
+          "line": 271,
+          "path": "experiments/yolo/sidequest_semantic_ot_grade_and_concept_review_one_thousand_tenth/CONCEPT_REVIEW_HISTORICAL_SEMANTIC.md",
+          "quote": "- mehrere Hände;\n- Text nach dem Bild und um freie Flächen herum;\n- Aussagen über Zeilengrenzen;\n- viele wiederkehrende kurze Formen;\n- lokale Namen, die sich der portablen Zerlegung entziehen;\n- dichte Rezeptketten neben reinen Diagrammadressen;\n- dieselben abstrakten Richtungs- und Gradzeichen in verschiedenen Registern.",
+          "sha256": "40f33f8e545c002a07cd23cd6ffa128bff5f8e8f6667e8f0e9c9789443f572aa"
+        },
+        {
+          "line": 279,
+          "path": "experiments/yolo/sidequest_semantic_ot_grade_and_concept_review_one_thousand_tenth/CONCEPT_REVIEW_HISTORICAL_SEMANTIC.md",
+          "quote": "Die beste neue Basis lautet deshalb:",
+          "sha256": "40f33f8e545c002a07cd23cd6ffa128bff5f8e8f6667e8f0e9c9789443f572aa"
+        },
+        {
+          "line": 281,
+          "path": "experiments/yolo/sidequest_semantic_ot_grade_and_concept_review_one_thousand_tenth/CONCEPT_REVIEW_HISTORICAL_SEMANTIC.md",
+          "quote": "> **Ein mehrhändig kopiertes medizinisch-alchemistisches Werkstatt-Brevier mit\n> brachygraphischem Prozesskern, offener Stoffnomenklatur, bildgebundenen\n> Adressen und separatem Himmelsregister.**",
+          "sha256": "40f33f8e545c002a07cd23cd6ffa128bff5f8e8f6667e8f0e9c9789443f572aa"
+        },
+        {
+          "line": 285,
+          "path": "experiments/yolo/sidequest_semantic_ot_grade_and_concept_review_one_thousand_tenth/CONCEPT_REVIEW_HISTORICAL_SEMANTIC.md",
+          "quote": "Das Modell gewinnt, wenn wir seine Kernwerte kleiner und abstrakter halten.\nEs verliert, sobald jede wiederkehrende Form zu einem exakten deutschen Verb,\nGefäß, Pflanzenteil oder Sternbegriff ausgebaut wird.",
+          "sha256": "40f33f8e545c002a07cd23cd6ffa128bff5f8e8f6667e8f0e9c9789443f572aa"
+        }
+      ]
+    }
+  ],
+  "source_disposition_audit": {
+    "source_id": "LEGACY_PROPOSAL:e175665a82019c33a59196d4",
+    "initial_review_file": "research_registry/decisions/clean_final_sidequest_review.json",
+    "initial_review_sha256": "55be386a0e1980355cb403076a0217767d587277205d112ab1ed3519c192ad11",
+    "original_disposition_exact_match": true,
+    "initial_dispositions_added": 0,
+    "later_reassessments": 1,
+    "decision": "approve_later_reassessment_only",
+    "reason": "The earlier source-local nonidea intake is preserved. Its broad method/result classification missed this explicitly historical production conjunction; no retrospective scientific rejection or initial intake overwrite is needed.",
+    "parallel_inventory_id": "LEGACY_COMPONENT:4d42e2290ab1230c2aa0",
+    "parallel_inventory_limit": "The alternative inventory identifier is navigation only, not a second automatically adjudicated intake."
+  },
+  "validation": {
+    "cards": 1,
+    "counterparts": 6,
+    "counterpart_cases": 6,
+    "evidence_quotes_and_hashes": "PASS",
+    "current_original_and_effective_bases": "PASS",
+    "validate_card": "PASS",
+    "full_primary_reports_read": [
+      "Pass692",
+      "Pass693"
+    ],
+    "counterpart_primary_sections_read": true
+  },
+  "limits": [
+    "No new images, raw/event tables, software runner, external sources or operative mutations.",
+    "Differences from the six bounded counterpart contracts support retaining this full conjunction; this is not a global novelty claim or an operative identity judgment."
+  ]
+}

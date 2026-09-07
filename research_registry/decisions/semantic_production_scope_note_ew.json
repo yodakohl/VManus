@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "review_id": "SEMANTIC_PRODUCTION_SCOPE_EW",
+  "status": "TYPE_SCOPE_CLARIFIED_NO_NEW_CARDS",
+  "operational_mutation": false,
+  "new_cards": 0,
+  "new_experiments": 0,
+  "reviewed_proposal": {
+    "path": "research_registry/decisions/clean_gap_review_eu.json",
+    "sha256": "0711f6daf0dded2f990e1f5bf5630ae4afa554595777e0fd02b075e3f2c3643e"
+  },
+  "finding": "EU is an explicit hypothetical manuscript-production account, not a new lexical or clause meaning and not merely a description of present-day software. Retaining semantic_model is consistent with the present broad historical-idea usage, but the checked documentation supplies no separately formalized production-model type definition. The existing precedent is a convention, not independent proof of classification or historical truth.",
+  "recommendation": {
+    "claim_type": "semantic_model",
+    "qualification": "historical_manuscript_production; no new content translation",
+    "automatic_type_rule": false,
+    "reason": "The proposed physical draft intermediary, division of human selection labor and final copying hand are asserted as a historically plausible cause of how the manuscript record could be made. This goes beyond sequencing fixed parser roles, yet supplies no meaning for a written form. The report explicitly calls its gain a Herstellungsmechanismus.",
+    "semantic_content_claim_false_means": "No new word/clause/referent-content assignment is made. It does not mean the card has no concrete historical proposition.",
+    "if_ontology_is_narrowed": "If semantic_model is later defined strictly as text-content interpretation, production hypotheses require an explicit separate category or domain filter; do not silently reclassify them as software method or use existing semantic types as self-justifying evidence."
+  },
+  "three_way_boundary": [
+    {
+      "kind": "present_day_method",
+      "example": "Allocating computational jobs or replaying a renderer with unchanged rules.",
+      "EU_relation": "Not what the source asserts; no execution is proposed."
+    },
+    {
+      "kind": "formal_role",
+      "example": "Ordering/reset of predefined slots, or copying/rendering an already fixed card sequence without claiming an external production history.",
+      "EU_relation": "Inherited role order is part of the setup, but does not exhaust the added draft-strip/personnel/fair-copy scenario."
+    },
+    {
+      "kind": "historical_production_hypothesis",
+      "example": "Several selectors exchange component notes on a draft; one hand writes the full packet into a predrawn page.",
+      "EU_relation": "This is the source-bound added conjunction; neither note material nor historical hands were observed or identified."
+    }
+  ],
+  "documented_rules": [
+    {
+      "path": "research_registry/SEMANTIC_IDEAS.md",
+      "evidence": {
+        "path": "research_registry/SEMANTIC_IDEAS.md",
+        "line": 1,
+        "line_end": 6,
+        "quote": "# Concrete historical semantic hypotheses\n\nThis is the working view of source-attested historical propositions, not a report\nof decipherment. Source pointers, empty headings, methods without a proposition,\nresult-only rows and unfinished extraction work are excluded from the idea list.\nThey remain in the source archive. No hypothesis becomes executable by inclusion.",
+        "sha256": "cc67580a46d024269f0378d25fe6e74a734d4f84c13c07dd3174beac12021d02"
+      },
+      "implication": "Excludes methods without a proposition; this does not explicitly exclude historical hypotheses about production."
+    },
+    {
+      "path": "tools/semantic_ideas.py",
+      "evidence": {
+        "path": "tools/semantic_ideas.py",
+        "line": 21,
+        "line_end": 22,
+        "quote": "SEMANTIC_TYPES={'lexical_hypothesis','semantic_model','functional_hypothesis'}\nTYPES=SEMANTIC_TYPES|{'formal_role'}",
+        "sha256": "ed9e652d60a7177e7ec4a3f17cfd3aa9e662dfcd3ec9489a25f01f9ee7fdd2dc"
+      },
+      "implication": "Enum and default-view grouping alone define no scientific boundary for production hypotheses."
+    },
+    {
+      "path": "research_registry/decisions/semantic_type_boundary_peer_dn.json",
+      "evidence": {
+        "path": "research_registry/decisions/semantic_type_boundary_peer_dn.json",
+        "line": 4,
+        "line_end": 4,
+        "quote": "  \"criterion\": \"Classify the complete asserted operation, not the vocabulary of its labels or degree of scientific support. Ordering/reset of predefined role slots is formal. A rule that supplies or changes interpreted referential/action content by carrying or interrupting context is functional. Neither classification establishes the interpretation as true.\",",
+        "sha256": "dbea8cd70f9caecd052c9a8851e3678a730cfa7097c3c8a1b4b8aa42fcb9238d"
+      },
+      "implication": "Prior scoped criterion separates slot ordering from interpreted reference/action content. EU is not a direct instance of either content-carry rule; therefore historical-production precedent and explicit domain are needed rather than keyword typing."
+    }
+  ],
+  "current_six_counterpart_type_checks": [
+    {
+      "id": "SEM:0b19d4a6b6721fb556cf",
+      "claim_type": "semantic_model",
+      "card_basis": "da5c966c3806a9481af1a3271c1d8ded0bdeee63fc8e6002de97996c42536199",
+      "effective_basis": "d20018381553b0662cfd1317f7e7aa36496dfe03d7bdb836cb16e6a0f518f179",
+      "domain": "historical production or learning/rendering interpretation; scope varies",
+      "scope_difference": "Shares multi-stage compilation and several hands, but distributes work by section/batch/campaign rather than multiple selectors preparing one packet for one final writing hand."
+    },
+    {
+      "id": "SEM:d35bae1fd5be8e072796",
+      "claim_type": "semantic_model",
+      "card_basis": "d2fac22874bdfc815ada3b316f1c82474f83ef4d43c87258d871968c59c5ab58",
+      "effective_basis": "6ca80aab7287813b2250dfe31fdd833d55ba9d09fc986d2869ff07f4a3d40d16",
+      "domain": "historical production or learning/rendering interpretation; scope varies",
+      "scope_difference": "Shares preplanned pictures, copied exemplars and local reflow, but several hands divide quires/pages/sections; no draft-strip selection sequence or single-hand record-package mechanism is asserted."
+    },
+    {
+      "id": "SEM:c557b9f3cd8b79671468",
+      "claim_type": "semantic_model",
+      "card_basis": "5f3d56672eedd11c4550cb9036aac8c90a4dfbb39da2adc49b4b156da0e7fe00",
+      "effective_basis": "2183bdc18272bb6edcd633dec1f4cf76fb5a345e3fad380eee3714bd45705b18",
+      "domain": "historical production or learning/rendering interpretation; scope varies",
+      "scope_difference": "Shares master/picture/whole-card/correction architecture but no intermediate circulation, earlier-component/later-whole selection split or one-hand final packet copy."
+    },
+    {
+      "id": "SEM:94c8c5c7abe8de3d652a",
+      "claim_type": "semantic_model",
+      "card_basis": "c087e1ff80faf6b92761ca4f3513b47f49307126ee28cb02bf007785c15bb072",
+      "effective_basis": "647d2794fa33cadc838e30e08b33bd95c2da55ddec76a80fafed4f3e3fb5ca78",
+      "domain": "historical production or learning/rendering interpretation; scope varies",
+      "scope_difference": "Common formula strip is a learned inventory shared by scribes, not a circulating draft carrying partial selections for final copying."
+    },
+    {
+      "id": "SEM:ca6a3b80bdc6dbd2f467",
+      "claim_type": "semantic_model",
+      "card_basis": "1a31308a619eb7a6af59b18e7c5730d5a515e9a54a4773790a2857f62ac98630",
+      "effective_basis": "1ddffaef90e9d0fba0c37ce9a3c776ae0f8c0ff1464cfabf7c94d7d36d58eed0",
+      "domain": "historical production or learning/rendering interpretation; scope varies",
+      "scope_difference": "Two possible scribal rendering habits for the same content, not two or more selectors versus one final hand for a packet."
+    },
+    {
+      "id": "SEM:4a4617ef717c76f8d764",
+      "claim_type": "semantic_model",
+      "card_basis": "5631875e8cf51264098846df44fb615d33ba5322629b23bdfb9b95a05fddcb5a",
+      "effective_basis": "5cf26c5b14d6172387bf46a360b103fe776f4e2b95a7db06f6b9b98788a91e81",
+      "domain": "historical production or learning/rendering interpretation; scope varies",
+      "scope_difference": "Predrawn owners, shared sign table and several copyists supply a broad production framework; they do not determine Pass693’s intermediate strip and division between selection and copying."
+    }
+  ],
+  "source_evidence": [
+    {
+      "path": "experiments/yolo/sidequest_semantic_b3_four_desk_commission_six_hundred_ninety_third/SIX_HUNDRED_NINETY_THIRD_REPORT.md",
+      "line": 18,
+      "line_end": 34,
+      "quote": "## Eine notwendige Reparatur des Werkstattmodells\n\nFünf Karten verbinden tatsächlich zwei Spezialtische:\n`pchedal`, `shecthedchy`, `cheeety`, `schedair` und `chedain`. Eine sichtbare\nKarte kann nicht sinnvoll halb von zwei Schreibern geschrieben werden. Deshalb\nwandert zunächst ein Entwurfsstreifen durch die Werkstatt. Der frühere Tisch\nnotiert nur seinen Komponentenhinweis; der spätere Tisch wählt die ganze\nMusterkarte. Erst danach kopiert eine Hand die komplette Folge in die freie\nFläche um die bereits vorhandenen Bilder.\n\nDamit wird das Modell einfacher und historisch handwerklicher:\n\n`Bildseite → Besitzer/Grundgerüst → Nassauswahl → Transferauswahl →\nZustandsauswahl → einheitliche Reinschrift → Korrekturablage`\n\nMehrere Werkstattmitglieder teilen die Auswahl- und Korrekturarbeit, ohne dass\ndie sichtbare Textzeile mitten in einer Karte zwischen Händen wechselt.",
+      "sha256": "3157824b6d560b092bc598b05e0e6885c734926b4d22fa50633f394e22d3daa9"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_b3_four_desk_commission_six_hundred_ninety_third/SIX_HUNDRED_NINETY_THIRD_REPORT.md",
+      "line": 46,
+      "line_end": 56,
+      "quote": "Später wechselt die laufende Anweisung zweimal innerhalb eines Satzes den\nsichtbaren Besitzer. Diese Wechsel werden nicht durch das physische Zeilenende\nerzeugt; sie stehen ausdrücklich auf dem Entwurfsstreifen. Das passt zur\nAnnahme, dass die Zeichnung zuerst da war und der Text danach in verbleibende\nRäume eingepasst wurde.\n\nDie vollständige 86-Karten-Spur, alle 34 Anweisungen, alle zehn Loci, die fünf\nKreuzkarten und sechs Paketübergaben sind separat ausgegeben. Der stärkste neue\nGewinn ist nicht eine neue Wortbedeutung, sondern ein glaubwürdigerer\nHerstellungsmechanismus: **mehrere Auswahltische, aber eine kontinuierliche\nReinschrift pro Recordpaket**.",
+      "sha256": "3157824b6d560b092bc598b05e0e6885c734926b4d22fa50633f394e22d3daa9"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_workshop_floor_plan_six_hundred_ninety_second/SIX_HUNDRED_NINETY_SECOND_REPORT.md",
+      "line": 14,
+      "line_end": 17,
+      "quote": "Jeder Tisch hat zusätzlich den 13er-Taschenkern. Das aktuelle Seitenblatt mit\nseinem schon gezeichneten Bild wandert als Recordpaket durch die Werkstatt:\n\n`Meister → Vorbereitung/Nass (wenn nötig) → Transfer → Zustand → Meister`",
+      "sha256": "46f55cd89b2dfeef6f4ae176166225598873277e89f410864ce50a5d65ee06f8"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_workshop_floor_plan_six_hundred_ninety_second/SIX_HUNDRED_NINETY_SECOND_REPORT.md",
+      "line": 29,
+      "line_end": 32,
+      "quote": "Das Bild-zuerst-Szenario passt besonders gut: Das bereits gezeichnete Blatt ist\nselbst der Besitzerzettel. Jeder Schreiber ergänzt nur seine Kartenschicht in\nder verfügbaren Restfläche; Zeilenumbrüche folgen dem Platz, nicht dem Ende der\nArbeitsanweisung.",
+      "sha256": "46f55cd89b2dfeef6f4ae176166225598873277e89f410864ce50a5d65ee06f8"
+    }
+  ],
+  "evidence_limit": "The source narrative is a creative reconstruction, including the assumptions that pictures preceded text and a whole visible card should not be written by different hands. No primary-source observation establishes those assumptions in this review.",
+  "scope": "Only EU typing and the six already selected counterpart cards. No expansion into the fifteen ER triage spans and no completeness claim.",
+  "validation": {
+    "six_current_original_and_effective_bases": "PASS",
+    "proposal_and_documentary_evidence_hashes": "BOUND",
+    "new_scientific_evidence": false
+  }
+}

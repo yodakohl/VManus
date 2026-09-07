@@ -9,17 +9,17 @@ They remain in the source archive. No hypothesis becomes executable by inclusion
 
 | Unit | Count |
 |---|---:|
-| Active semantic hypothesis variants | 3,843 |
+| Active semantic hypothesis variants | 3,848 |
 | Separately typed formal-role cards | 265 |
-| Reviewed source cases, including the correction archive | 4,629 |
+| Reviewed source cases, including the correction archive | 4,634 |
 | Archived source-extraction errors | 44 |
 | Exact normalized assertion repetitions grouped | 477 |
 | Reviewed equivalence groups / display reduction | 49 / 58 |
-| Public semantic display entries | 3,785 |
+| Public semantic display entries | 3,790 |
 
 These are different units, not a deduplicated total of independent theories.
 A local ignored supplement contributes95 semantic cards and one formal card;
-the ordinary local default therefore displays3,880 semantic entries. A fresh
+the ordinary local default therefore displays3,885 semantic entries. A fresh
 public clone has the public view only. Local source files and quotes are not
 published or silently folded into public counts.
 
@@ -83,7 +83,7 @@ not mean rejected, and an old source PASS does not confirm a meaning.
 
 ## Failure memory and conditional priorities
 
-Thirty-eight scoped question dossiers distinguish empirical failure, invalid test,
+Thirty-nine scoped question dossiers distinguish empirical failure, invalid test,
 insufficient capacity, missing meaning binding, proposal-only status and historical
 model revision. They appear before inherited experiment context under assessments.
 They state the actual compared subclaim, primary evidence, scope and changed-input
@@ -116,22 +116,23 @@ Later full-scope reviews and audit-only source comparisons live in the bounded
 `decisions/clean_gap_review_*.json` artifacts. An audit pointer does not add a
 source-case payload. Quote overlap alone never certifies complete review.
 
-Latest integrated packet: EM preserves seven complete historical models, including
-shared-property versus genre-specific explanations, written-head and possessive
-contrasts, named property/genitive worlds, and four steam/basin interpretations.
-The GDT811 f72r canvas descriptions stay quarantined by the GDT812 correction;
-textual observations are not graphical ownership. The later humoral refinement
-is not confirmation of the earlier physical-warm model.
+Latest integrated packet: EQ preserves four full conditional constructions around
+raiin, fire and source reference; the GDT824 compound remains one source group
+and does not solve repeated predicates or identify the input. ET records missing
+referents separately from that composition and the invalid relation packet.
+Downstream gate flags were computed on zero eligible rows or without null
+candidates; this is not an independent failure of each scientific comparison.
+Meaning comparison and scored-relation reopening requirements remain separate.
 
-EN records two organ-default revision dossiers. GDT756's cthy/root and chor/leaf
-proposals were real hypotheses. The later cthy/leaf control is an assumption,
-not an independent organ discriminator; derived chor contrasts remain conditional.
-EO and EP reconfirm nineteen existing extraction archives under this source-
-polarity distinction, with no new archives or empirical meaning rejections.
-EP classifies its exact twenty-item remainder, but only nine received new primary
-review; eight are metadata-only and three retain explicit earlier reviews.
-A073/A004 still have available but uninspected earlier whole-reading mappings.
-That is unfinished source comparison, not missing data or semantic failure.
+EV completes two existing GDT208/GDT210 genre cards with their figure-denotation
+and hydraulic roles, preserving their IDs. The later comparator preference is
+not an empirical meaning refutation. ES proves a shared declared CTHY tuple but
+leaves whole-claim identity open; OR rivalry stays local to the named V60 cases.
+EU retains one explicitly hypothetical draft-strip/fair-copy production model.
+The broad historical-model category includes production accounts; this case is
+marked historical_manuscript_production and semantic_content_claim=false, not a
+word or content reading. ER's eighteen-span diagnosis is bounded navigation,
+not global completeness. A073/A004 mappings remain available but uninspected.
 
 Four append-only type alignments preserve the original claims and IDs. Pure
 ordering/reset over predefined roles is formal, including the corrected DE335

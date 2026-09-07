@@ -1,0 +1,235 @@
+{
+  "schema_version": 1,
+  "review_id": "SEMANTIC_IDENTITY_PEER_ES",
+  "input": {
+    "path": "research_registry/decisions/semantic_identity_followup_es.json",
+    "sha256": "de0614ec6b1e5dbcaad1ced89a50b49ce1fe456d73baf22b2651df26f0351efd"
+  },
+  "status": "APPROVE_TWO_STILL_OPEN_FULL_CARD_PAIRS_WITH_ONE_DECLARED_UNIT_BRIDGE",
+  "pair_reviews": [
+    {
+      "pair_id": "IDENTITY_ES:or_scope",
+      "member_ids": [
+        "SEM:157b20bfac8a07358ec4",
+        "SEM:7d2b25361d9fd3194e95"
+      ],
+      "decision": "approve_still_open_no_full_card_relation",
+      "proposed_operational_relation": null,
+      "card_basis": {
+        "SEM:157b20bfac8a07358ec4": "3f0b2bff93f75ad131e63c677e3d0ad7ea5148d4db1b8f8f4d8098b81bbec126",
+        "SEM:7d2b25361d9fd3194e95": "ba3130859aa54872e928aa17593ca36c35ca229a1c7796158fc46a7a6fb2ead5"
+      },
+      "effective_basis": {
+        "SEM:157b20bfac8a07358ec4": "6d69e886ba3d1079c45aa69cc82191b80f53fb1680dd851ef6ab5c11d482eb9c",
+        "SEM:7d2b25361d9fd3194e95": "f5ee174578c2bde3c6e0ecb994ccbbd4ac5a6b80dc0345d0cb93edef60fbe8ff"
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R2_HISTORICAL_FUNCTION_WORD_COMPETITION_REPORT.md",
+          "sha256": "eae7d9225e61203f56f0a56100f70c813657819e06ca216390b917c515f69597",
+          "line": 17,
+          "line_end": 27,
+          "quote": "## Prüfregel und Abdeckung\n\nGebunden wurde ausschließlich die ungeteilte sichtbare Karte über ihre exakte\n`joint_tuple_id`. Weder PAGE_HOST-Werte noch Teilstrings, Nachbarschaftsstücke\noder Zeichenklänge wurden semantisch übertragen. Für jedes Vorkommen wurden das\nvollständige Feld, linke und rechte Nachbarschaft, Feldposition, Record/Register\nund der formale Schlussstatus geprüft.\n\nDie 85 Belege verteilen sich wie folgt: `AIIN` 20, `OKY` 10, `CTHY` 7, `OR` 7,\n`AL` 10, `EY` 4, `OLOR` 2, `OTCHEY` 2, `OKEEY` 7, `OKE` 8 und `LCHE` 8. Der\nzeilenweise Nachweis steht in `V60_R2_85_OCCURRENCE_AUDIT.tsv`."
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R2_HISTORICAL_FUNCTION_WORD_COMPETITION_REPORT.md",
+          "sha256": "eae7d9225e61203f56f0a56100f70c813657819e06ca216390b917c515f69597",
+          "line": 31,
+          "line_end": 46,
+          "quote": "| Karte | V60-Merker | Wortart/Funktion | Zwei atomare Rivalen | Entscheidung | Konfidenz | stärkster Allvorkommens-Gegenbeleg |\n|---|---|---|---|---|---:|---|\n| AIIN | MASS? | Substantiv/Maßsigle | VORGABE?, MENGE? | KEEP | .58 | Keine Einheit oder Skala ist sichtbar; die breite Positionsmobilität passt ebenso zu einem bloßen Wertslot. |\n| OKY | VERWENDEN? | Verb | NEHMEN?, ANWENDEN? | KEEP | .60 | Das Objekt bleibt überall bild- oder exemplarabhängig; besonders im Bio-Register könnte nur „ausführen/fortsetzen“ gemeint sein. |\n| CTHY | BEREIT? | Zustandsadjektiv/Temporalprädikat | DANN?, FERTIG? | KEEP | .48 | Mehrere Belege liegen mitten im Ablauf, einmal sogar vor `OR`; ein rein formaler Statusslot bleibt fast gleich stark. |\n| OR | BEREITUNG? | Sachnomen | FLÜSSIGKEIT?, POSTEN? | KEEP | .42 | Die unmittelbare Doppelung auf f10r macht „Bereitung Bereitung“ sprachlich schwer und trennt Präparat nicht von Arbeitskategorie. |\n| AL | AN? | Präposition/Relationspartikel | DORT?, DAZU? | KEEP | .43 | Vier FIRST-, zwei LAST- und ein ONLY-Beleg verlangen ein unsichtbares Komplement; DORT wäre selbstständiger. |\n| EY | KLAR? | Zustandsadjektiv | FERTIG?, SAUBER? | KEEP | .39 | Einer von nur vier Belegen steht ohne sichtbaren Klärvorgang zwischen Zusatz und Anteil. |\n| OLOR | VORIGES? | anaphorisches Pronomen/substantiviertes Adjektiv | DAVON?, ZUVOR? | **REVISE** | .36 | Nur zwei Belege und kein ausgeschriebener Antezedent; zeitlicher und anaphorischer Rückverweis bleiben kaum trennbar. |\n| OTCHEY | NIMM? | Rezeptimperativ | TEIL?, DIES? | **REVISE** | .44 | Nur zwei Belege; ein markierter Gegenstand oder eine formale Auswahl kann die gleiche feldinitiale Stellung tragen. |\n| OKEEY | WARM? | Temperaturadjektiv | LAUWARM?, ERWÄRMEN? | KEEP | .52 | Nur Bio-Belege und kein unabhängiges Temperaturzeichen; technische Prozesslesungen bleiben möglich. |\n| OKE | SPÜLEN? | terminales Handlungsverb | WASCHEN?, SCHLIESSEN? | KEEP | .31 | Alle 8/8 Belege sind formal `CLOSE`; Tätigkeit und bloßer Schlusswert sind vollständig konfundiert. |\n| LCHE | ABLASSEN? | terminales Handlungsverb | LEEREN?, SCHLIESSEN? | KEEP | .34 | Ebenfalls 8/8 `CLOSE`; nicht an jedem Ort ist ein sichtbarer Ablauf vorhanden. |\n\n`KEEP` bedeutet nur, dass innerhalb dieses Wettbewerbs kein Rivale klar besser\npasst. Das Fragezeichen bleibt Bestandteil jeder explorativen Lesung."
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v52/V52_R2_HISTORICAL_FIELD_GRAMMAR_REPORT.md",
+          "sha256": "bf73e7e5d1e122366809e198df7928f72e85583115dae7978a84968d4d373d39",
+          "line": 27,
+          "line_end": 29,
+          "quote": "Für die Klassifikation zählen als positive Host-/Rahmenwerte `OK=SET`, `OT=MARK`, `L=LINK`, `AL=AN?`, `OR=BEREITUNG?` und `CHEY=TEIL?`; `E` bleibt unbekannt. Positive exakte Ganzkarten sind `AIIN=MASS?`, `EY=KLAR?`, `OKY=VERWENDEN?`, `LCHE=ABLASSEN?`, `OKE=SPÜLEN?`, `CTHY=BEREIT?`, `OKEEY=WARM?` und `OLOR=ZUVOR?`; `CKHY` bleibt unbekannt. Die V49-Werte wurden nur zur Lokalisierung benutzt und dann durch die V50/V51-Auswahl ersetzt.\n\nWichtig: Ein exakter Ganzkartenwert wird **nicht** in eine andere Karte hineinkopiert. `<ARG_AIIN>` in `SET(<ARG_AIIN>)` ist daher nicht `MASS?`; `EY` liefert keinen freien Wert für `E` oder `-ey`; `OKY` ist nicht `OK+Y`; `OKE` ist nicht `OK+E`. Ebenso gilt ein PAGE_HOST-Merkwert nur am PAGE_HOST, nicht an ähnlich geschriebenen Argumenttags oder Substrings."
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R3_TECHNICAL_EXACT_CARD_REPORT.md",
+          "line": 9,
+          "line_end": 24,
+          "quote": "## Bindungsvertrag\n\n1. Schlüssel ist ausschließlich die vollständige, opake `joint_tuple_id`.\n2. Oberflächenformen dienen nur der Anzeige. Weder `PAGE_HOST`, Stringähnlichkeit noch Teilkarten oder Komponenten vererben einen Wert.\n3. Der technische Default ist ein knapper Arbeitsbefehl, Parameter, Zustand oder Relationsslot. Lokale iatromedizinische und nichtmedizinische Expansionen bleiben getrennte Record-Füller.\n4. `formal_formula_opaque`, `FORMAL_VALUE`, `strict_control_prompt` und `terminal_status` bleiben unverändert. Ein physischer Zeilenanfang ist kein Satzanfang.\n5. Nachbarn, Feldstellung und `CLOSE` dürfen einen Kandidaten belasten, erzeugen aber keine Bedeutung.\n\n## Entscheidungen\n\n| Karte | n | Technischer Default | Zwei Rivalen | Quellklasse / Zustandswirkung | Stärkster Widerspruch | Konfidenz |\n|---|---:|---|---|---|---|---:|\n| AIIN | 20 | `SOLLWERT?` | `MASS?`, `DAUER?` | Parameterreferenz; setze den aktiven Slot auf einen vorgeschriebenen Referenzwert | Keine Skala oder Einheit; fünf Feldenden lassen den regierten Slot still | 0,74 |\n| OKY | 10 | `AUSFÜHREN?` | `VERWENDEN?`, `BUCHEN?` | Aktion; führe den aktiven Posten aus und schalte den Arbeitszustand weiter | Ein Ein-Karten-Feld muss Aktion und Objekt erben | 0,58 |\n| CTHY | 7 | `FREIGABE?` | `BEREIT?`, `HALTEN?` | Zustands-Gate; markiere bereit und erlaube den Folgeschritt | Sechs von sieben Belegen sind medial und könnten bloßer Verbinder sein | 0,61 |\n| OR | 7 | `ANSATZ?` | `BEREITUNG?`, `CHARGE?` | aktive Charge; setze den vorbereiteten Arbeitsansatz | Zwei identische direkt benachbarte Belege belasten eine echte Chargenlesung | 0,60 |",
+          "sha256": "6f943caad4300b135b8efd096c79c16deeaa49bff5cb323dc29d513c3793842d"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/CANDIDATE_V60_R4_CHANCERY_CORRECTOR.md",
+          "line": 9,
+          "line_end": 28,
+          "quote": "Die elf Karten bleiben als **vorläufiges Werkstattvokabular** erhalten. Ich\nändere aber vier Dinge:\n\n1. `VERWENDEN?` wird zum ausführbaren `ANWENDEN?`;\n2. `BEREITUNG?` wird zum kürzeren Stoffnomen `ANSATZ?`;\n3. `AN?` wird zum selbständig lesbaren Relationsargument `ZIEL?`;\n4. `WARM?` wird zur Operation `TEMPERIEREN?`.\n\n`KLAR?` bleibt genau ein Zustandswort. Die alte Expansion „bis die Flüssigkeit\nklar abläuft“ war keine Wortbedeutung, sondern eine ganze lokale Klausel. Weder\n„bis“, „Flüssigkeit“ noch „ablaufen“ gehört in den Kartenwert.\n\n## Revidiertes Kurzdeck\n\n| Karte | Quellklasse | V60-R4-Wert | härtester Rivale |\n|---|---|---|---|\n| AIIN | Parameter-Nomen | `MASS?` | `STANDARD?` |\n| OKY | Handlung | `ANWENDEN?` | `AUSFÜHREN?` |\n| CTHY | Zustand | `BEREIT?` | `FERTIG?` |\n| OR | Arbeitsstoff | `ANSATZ?` | `BEREITUNG?` |",
+          "sha256": "913bede9f275b266efdbceb6836c822a7248a13528ea1b07362521ddb725507b"
+        }
+      ],
+      "no_status_transfer": true,
+      "reason": "The V60 R2 row directly names BEREITUNG as the main exact-card value and FLÜSSIGKEIT/POSTEN as its two rivals. This is a case-local authored competition, not logical exclusion of liquid preparations. The BEREITUNG card also contains a V52 PAGE_HOST value and V60R3/R4 rival positions under other technical defaults. Their entire semantic/unit contracts are not identified by the shared OR label. Therefore the local rival relation cannot be lifted to the whole four-case card.",
+      "approved_case_local_relation": {
+        "type": "alternative_to",
+        "status": "source_supported_case_scoped_only_not_operational_full_card_edge",
+        "source_case": "LATE_SIDEQUEST:6920a489bbe1874d3de2",
+        "target_case": "LATE_SIDEQUEST:9ffd98edd380456d885a",
+        "source_contract": "V60 R2 row36 exact joint-tuple OR on seven reported occurrences. KEEP denotes no clearly better candidate in that comparison, not word confirmation."
+      },
+      "remaining_gap": "Any future actionable relation must name the V60R2 cases or establish full-case source-scope equivalence first. No new manuscript data is needed to recognize the already explicit local rivalry; no infrastructure or splitting is authorized here.",
+      "negative_controls": [
+        "BEREITUNG and FLÜSSIGKEIT may overlap in referent; alternative_to here means compared source candidates.",
+        "V52 PAGE_HOST is expressly not inherited into exact whole cards.",
+        "R3/R4 placing BEREITUNG among rivals does not establish that FLÜSSIGKEIT was compared there.",
+        "KEEP and .42 are authored historical judgments, not semantic probabilities."
+      ]
+    },
+    {
+      "pair_id": "IDENTITY_ES:cthy_readiness",
+      "member_ids": [
+        "SEM:3a204183e3013493c5ec",
+        "SEM:b0d976b367c3869051cf"
+      ],
+      "decision": "approve_still_open_no_full_card_relation",
+      "proposed_operational_relation": null,
+      "card_basis": {
+        "SEM:3a204183e3013493c5ec": "3ffcb6fed1d43cce32ad6656db56a7b5da223e01132f3da6dced3165652a3b8c",
+        "SEM:b0d976b367c3869051cf": "076d136e4082c7b0b8a00bdc0ae71171e022f649f231ef8486d08dc2bab36674"
+      },
+      "effective_basis": {
+        "SEM:3a204183e3013493c5ec": "968e9cfecf0db82b5331ca6fefe84bfb4bbc6ec290d0052c6a17da84fdf867d3",
+        "SEM:b0d976b367c3869051cf": "de98d49b874cd75164cf04557f605c6ee28fa7904028c83c6ff426299604c5d7"
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v16/V16_THEORY_SELECTION.md",
+          "sha256": "e9c9bd8650496fbf2f86ae9fed27cbcde16649bde75f78c2c3ca6edf642f93c7",
+          "line": 21,
+          "line_end": 27,
+          "quote": "R4 wins because it combines a normal historical source layer with the exact\ncard mechanism: strongly abbreviated iatromedical professional prose is\ncompressed into whole-card brevigraphs, picture-supplied arguments and local\nrubrics. It handles carry, dittography, line reflow and local closure without\nturning the whole page into a rigid modern table. R1's four-table apprentice\nworkflow and R3's explicit working-memory decoder are incorporated as the\npreferred explanation of how a small workshop learned and reproduced it."
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v16/V16_THEORY_SELECTION.md",
+          "sha256": "e9c9bd8650496fbf2f86ae9fed27cbcde16649bde75f78c2c3ca6edf642f93c7",
+          "line": 37,
+          "line_end": 45,
+          "quote": "## Current concrete dictionary\n\n| card or formula | selected default meaning | confidence |\n|---|---|---:|\n| `qokaiin` | **take up the next entry / portion** | .68 |\n| `L/O` | **with it; likewise under the same rubric** | .59 |\n| `AIIN` | **in the stated or usual measure** | .48 |\n| `Y` | **this share / present portion** | .43 |\n| `CTHY` | **when prepared and ready** | .38 |"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v51/V51_R1_WHOLE_CARD_REPORT.md",
+          "sha256": "d753d07ce7e5a13a19004d194635d49d87d47046a59f7dcd9597fdb41969b62a",
+          "line": 73,
+          "line_end": 87,
+          "quote": "| Karte | feste Oberflächen mit Zahl | n | unveränderte lokale V49-Expansion |\n|---|---|---:|---|\n| `AIIN` | `aiin` 3; `chaiin` 1; `daiin` 11; `saiin` 4; `taiin` 1 | 20 | Ein vorgeschriebenes Maß |\n| `EY` | `cheey` 2; `shey` 2 | 4 | Bis die Flüssigkeit klar abläuft |\n| `OKY` | `choky` 2; `oky` 1; `qoky` 7 | 10 | Die aktive Portion verwenden |\n| `LCHE` | `lchedy` 8 | 8 | lasse die verbrauchte Flüssigkeit in das untere Auffanggefäß ablaufen und beende den Schritt |\n| `OKE` | `qokedy` 8 | 8 | spüle die bezeichnete Stelle einmal und beende den Schritt |\n| `CTHY` | `checthy` 2; `cthy` 3; `shcthy` 2 | 7 | Sobald die Zubereitung gebrauchsfertig ist |\n| `OKEEY` | `okeey` 1; `qokeey` 6 | 7 | temperiere die Arbeitsflüssigkeit und halte sie lauwarm |\n| `CKHY` | `chckhy` 3; `shckhy` 1 | 4 | durch die verbundenen Läufe |\n| `OLOR` | `cholor` 1; `olor` 1 | 2 | Aus dem vorigen Ansatz entnehmen |\n\nDiese neun Expansionen sind Ganzkarten-Defaults. Ihre Wiederholung in allen\nEreignissen derselben Tuple-ID ist Konsistenz der Ausgabe, keine unabhängige\nsemantische Bestätigung."
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v51/V51_R1_WHOLE_CARD_REPORT.md",
+          "sha256": "d753d07ce7e5a13a19004d194635d49d87d47046a59f7dcd9597fdb41969b62a",
+          "line": 157,
+          "line_end": 168,
+          "quote": "### `CTHY = BEREIT` — behalten\n\n- **Lehrregel:** Die ganze CTHY-Karte wird als Zustands- oder Schwellenruf\n  `BEREIT` gelernt. Zubereitung, Gebrauch und das Satzwort *sobald* bleiben\n  außerhalb.\n- **Vollvorkommensdruck:** Sieben Ereignisse auf drei Seiten stehen sechsmal\n  innen und einmal am Ende. Derselbe Wert kann eine lokale Schwelle markieren,\n  ohne das physische Zeilenende zu behaupten.\n- **Stärkster Widerspruch:** Auf `f10r.6` steht CTHY schon an Position 2 vor\n  sieben weiteren Karten. `BEREIT` darf daher nicht „das ganze Verfahren ist\n  fertig“ bedeuten, sondern höchstens einen lokalen Bereitschaftszustand.\n- **Einwort-Rivalen:** `FERTIG`; `REIF`."
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v16/build_v16_r4_complete_defaults.py",
+          "line": 37,
+          "line_end": 42,
+          "quote": "KNOWN = {\n    \"b5fcea1eaed06b2f2291\": (\"take up the next entry\", \"ENTRY_HEAD\", \".68\", \"One entry/catchword sense across all occurrences.\"),\n    \"dcda95c81a5460feb191\": (\"with it; likewise under the same heading\", \"CONTINUING_RELATION\", \".59\", \"Missing left argument is inherited at field entry; line-final use carries the relation onward.\"),\n    \"2f1c5e56e8f0ff459065\": (\"in the stated or usual measure\", \"REFERENCE_STANDARD\", \".48\", \"The active measure may be inherited; no numeral is supplied.\"),\n    \"b921a237be883a820352\": (\"this portion\", \"CURRENT_PORTION\", \".43\", \"Refers to the locally active portion, preparation, or rubric entry.\"),\n    \"e0b630cb1b5df5e7105b\": (\"when prepared and ready\", \"READINESS_CONDITION\", \".38\", \"Same readiness phrase in Herbal and application registers.\"),",
+          "sha256": "2e17b65ecfaabe6a563e8496957fcab88f236e62eb482894b9c66e305d9d5071"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v51/V51_R1_WHOLE_CARD_DECISIONS.tsv",
+          "line": 1,
+          "line_end": 1,
+          "quote": "card\tjoint_tuple_id\tsurface_variants_with_counts\tinherited_mnemonic_German\tdecision\tselected_mnemonic_German\tselected_status\tfixed_events\tpages\tloci\tposition_start\tposition_interior\tposition_end\tteaching_rule\tstrongest_contradiction\tatomic_rival_1\tatomic_rival_2\tsegmentation_rule",
+          "sha256": "ba5b16c3fa83f6906cf79647ba9dfbafc817ce61e719e79ef28c318230dd1184"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v51/V51_R1_WHOLE_CARD_DECISIONS.tsv",
+          "line": 7,
+          "line_end": 7,
+          "quote": "CTHY\te0b630cb1b5df5e7105b\tchecthy:2|cthy:3|shcthy:2\tBEREIT\tKEEP\tBEREIT\tWEAK_EXACT_WHOLE_CARD_MNEMONIC\t7\t3\t7\t0\t6\t1\tSage nur BEREIT; Zubereitung, Gebrauch und SOBALD bleiben im Ganzkontext.\tCTHY steht auf f10r.6 schon an Position 2 vor sieben weiteren Karten und kann nicht das Ende des ganzen Verfahrens heißen.\tFERTIG\tREIF\tEXACT_CARD_ONLY; NO_VISIBLE_SEGMENT_INHERITS_A_VALUE",
+          "sha256": "ba5b16c3fa83f6906cf79647ba9dfbafc817ce61e719e79ef28c318230dd1184"
+        }
+      ],
+      "no_status_transfer": true,
+      "reason": "Positive new evidence establishes the same declared exact CTHY tuple. V16 KNOWN assigns a READINESS_CONDITION gloss to that exact key, and derive_card_gloss returns it before context fallback; V51 authored row7 binds the same key to BEREIT while the report separately preserves a local preparation/use/sobald expansion. This closes the declared-unit gap but not full proposition scope or contextual-versus-lexical contributions. No equivalence, specialization or non-equivalence follows from this source bridge alone.",
+      "resolved": {
+        "declared_unit_identity": "e0b630cb1b5df5e7105b",
+        "known_value": [
+          "when prepared and ready",
+          "READINESS_CONDITION",
+          ".38",
+          "Same readiness phrase in Herbal and application registers."
+        ],
+        "source_a": "experiments/yolo/sidequest_theory_candidates_v16/build_v16_r4_complete_defaults.py",
+        "source_b": "experiments/yolo/sidequest_theory_candidates_v51/V51_R1_WHOLE_CARD_DECISIONS.tsv",
+        "scope": "Declared model unit identity, not decoded manuscript morphology, semantic truth or equality of event populations."
+      },
+      "remaining_gap": "Determine whether V16 when prepared and ready is the same context-completed preparation/use threshold as the V51 local expansion, or a differently scoped lexical contribution. No explicit source equivalence of those complete assertions was located in this bounded review. Do not substitute the shorter BEREIT claim for the second target.",
+      "negative_controls": [
+        "Same tuple does not collapse learned mnemonic and local expansion.",
+        "English when versus German sobald alone does not prove a difference.",
+        "Local use-ready preparation may satisfy both readings; no logical incompatibility is claimed.",
+        "No earlier event-table or complete lexical-body recount is required or was performed."
+      ],
+      "additional_static_evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v16/build_v16_r4_complete_defaults.py",
+          "line": 165,
+          "line_end": 167,
+          "quote": "def derive_card_gloss(tid: str, occ: list[dict]) -> tuple[str, str, str, str]:\n    if tid in KNOWN:\n        return KNOWN[tid]",
+          "sha256": "2e17b65ecfaabe6a563e8496957fcab88f236e62eb482894b9c66e305d9d5071"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v16/build_v16_r4_complete_defaults.py",
+          "line": 283,
+          "line_end": 300,
+          "quote": "    occurrences: dict[str, list[dict]] = defaultdict(list)\n    for x in prose:\n        occurrences[x[\"joint_tuple_id\"]].append(x)\n    meanings = {tid: derive_card_gloss(tid, occ) for tid, occ in occurrences.items()}\n\n    ledger: list[dict] = []\n    lexicon: list[dict] = []\n    for tid, occ in sorted(occurrences.items()):\n        gloss, cls, conf, rule = meanings[tid]\n        lexicon.append({\n            \"lexicon_id\": tid,\n            \"scope\": \"PROSE_EXACT_CARD\",\n            \"surface_examples\": \"|\".join(sorted({x[\"surface\"] for x in occ})),\n            \"default_English\": gloss,\n            \"source_class\": cls,\n            \"confidence\": conf,\n            \"events\": str(len(occ)),\n            \"pages\": \"|\".join(sorted({x[\"page\"] for x in occ})),",
+          "sha256": "2e17b65ecfaabe6a563e8496957fcab88f236e62eb482894b9c66e305d9d5071"
+        }
+      ]
+    }
+  ],
+  "card_checks": [
+    {
+      "id": "SEM:157b20bfac8a07358ec4",
+      "claim": "OR → FLÜSSIGKEIT?",
+      "cases": 1,
+      "card_basis": "3f0b2bff93f75ad131e63c677e3d0ad7ea5148d4db1b8f8f4d8098b81bbec126",
+      "effective_basis": "6d69e886ba3d1079c45aa69cc82191b80f53fb1680dd851ef6ab5c11d482eb9c"
+    },
+    {
+      "id": "SEM:7d2b25361d9fd3194e95",
+      "claim": "OR → BEREITUNG?",
+      "cases": 4,
+      "card_basis": "ba3130859aa54872e928aa17593ca36c35ca229a1c7796158fc46a7a6fb2ead5",
+      "effective_basis": "f5ee174578c2bde3c6e0ecb994ccbbd4ac5a6b80dc0345d0cb93edef60fbe8ff"
+    },
+    {
+      "id": "SEM:3a204183e3013493c5ec",
+      "claim": "CTHY → when prepared and ready",
+      "cases": 1,
+      "card_basis": "3ffcb6fed1d43cce32ad6656db56a7b5da223e01132f3da6dced3165652a3b8c",
+      "effective_basis": "968e9cfecf0db82b5331ca6fefe84bfb4bbc6ec290d0052c6a17da84fdf867d3"
+    },
+    {
+      "id": "SEM:b0d976b367c3869051cf",
+      "claim": "CTHY → Sobald die Zubereitung gebrauchsfertig ist",
+      "cases": 1,
+      "card_basis": "076d136e4082c7b0b8a00bdc0ae71171e022f649f231ef8486d08dc2bab36674",
+      "effective_basis": "de98d49b874cd75164cf04557f605c6ee28fa7904028c83c6ff426299604c5d7"
+    }
+  ],
+  "counts": {
+    "pairs": 2,
+    "cards": 4,
+    "cases": 7,
+    "approved_full_card_relations": 0,
+    "new_declared_unit_bridges": 1,
+    "case_local_rivalries": 1
+  },
+  "validation": {
+    "status": "PASS",
+    "exact_source_and_card_quote_sha_checks": 19,
+    "fresh_current_bases": true,
+    "static_ast_known_constant_checked": true,
+    "safe_authored_lexicon_row_checked": 7,
+    "event_data_read": false,
+    "runner_executed": false,
+    "operational_mutation": false
+  },
+  "limits": "A targeted follow-up of ED, not a new unreviewed pair selection. Parent proposal and all operative relations remain unchanged. Additional aggregate lexical rows viewed during navigation have no role in the unit proof; no occurrence table was opened."
+}

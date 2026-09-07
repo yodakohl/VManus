@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "review_id": "ET_PEER",
+  "status": "APPROVE_WITH_PRECISE_INTEGRATION_FIXES",
+  "source_review": {
+    "path": "research_registry/decisions/semantic_source_polarity_review_et.json",
+    "sha256": "b7eef1198655d722215badcf29bc3e3cc6da209140ee56316f39b079e73738f4"
+  },
+  "targets": [
+    "SEM:eb2565605d47718a5f26"
+  ],
+  "card_basis": {
+    "SEM:eb2565605d47718a5f26": "b65784856dc0f8a95bafb7c5e814cb89736f608d9c8e57c4ca729e4e79f97d21"
+  },
+  "effective_basis": {
+    "SEM:eb2565605d47718a5f26": "5d8c7ff222e784388a8bbebe80e3c948c7b150321084e88d1146d2a3f7a5005e"
+  },
+  "case_decisions": [
+    {
+      "id": "CLEAN_COMPONENT:23de6c58026d1d531127",
+      "decision": "approve_retain_historical_C0",
+      "reason": "Same exact-whole GDT823 material-source proposal, with original unresolved antecedent and fixed-sense limits; no empirical meaning rejection or archive warranted."
+    },
+    {
+      "id": "CLEAN_COMPONENT:5780fdfa5621bbf853cd",
+      "decision": "approve_retain_historical_C0",
+      "reason": "Same exact-whole GDT823 material-source proposal, with original unresolved antecedent and fixed-sense limits; no empirical meaning rejection or archive warranted."
+    },
+    {
+      "id": "REPORT_PROPOSAL:ce54e711486fe3cfe7bc",
+      "decision": "approve_retain_historical_C0",
+      "reason": "Same exact-whole GDT823 material-source proposal, with original unresolved antecedent and fixed-sense limits; no empirical meaning rejection or archive warranted."
+    },
+    {
+      "id": "REPORT_PROPOSAL:499f66450abb928adcac",
+      "decision": "approve_retain_historical_C0",
+      "reason": "Same exact-whole GDT823 material-source proposal, with original unresolved antecedent and fixed-sense limits; no empirical meaning rejection or archive warranted."
+    }
+  ],
+  "substantive_assessment": {
+    "original_falsifier": "GDT823 explicitly disallows temporal/causal/possessive substitution; unknown antecedents are debt, not disproof. GDT824 separately forbids changing becomes, omitting earlier predicates, inventing source nouns or silently splitting variants.",
+    "actual_comparison": "Conditional previously inspected fire/raiin packet, alternate readings of one manuscript, known motivating contacts and one extra compatibility contact. Mutation checks validate accounting, not meaning. No demonstrated fixed-sense contradiction and no independently identified referent.",
+    "scope": "Bind this dossier only to the four exact-whole qol cases. Whole qolchedy composition and its relation packet are related subsequent history, not a second meaning failure inherited by bare qol."
+  },
+  "required_fixes": [
+    {
+      "id": "ET_GATE_DEPENDENCE",
+      "field": "actual_outcomes.invalid_test / actually_compared.relation_gate",
+      "replacement": "The actual intake returned INVALID_PACKET with 27 prior-formal-access errors and zero explicitly eligible edges. Capacity and holdout flags were calculated false from that empty eligible set; mobile-null was false with no null-candidate input. These are not independent later capacity/held/null scientific failures, nor should they be described as literally uncomputed. Formatting corrections did not cure provenance. No semantic falsification follows.",
+      "evidence": [
+        {
+          "path": "tools/relation_edge_intake.py",
+          "line": 176,
+          "line_end": 179,
+          "quote": "        if row[\"formal_access_state\"] not in {\"SEALED\", \"SEALED_NOT_ACCESSED\"}:\n            errors.append(f\"{label}: formal access is not sealed\")\n        if row[\"eligibility_status\"] == \"ELIGIBLE\":\n            eligible.append(row)",
+          "sha256": "fb8447470aa81ed608b90aedf7478893ddf6a445351aa12ab23c6fd725be3a47"
+        },
+        {
+          "path": "tools/relation_edge_intake.py",
+          "line": 249,
+          "line_end": 271,
+          "quote": "    )\n    errors, eligible = _validate_edge_rows(rows)\n    mobile: set[str] = set()\n    if null_candidates_path is not None:\n        null_rows = _read_guarded_rows(\n            null_candidates_path,\n            NULL_COLUMNS,\n            (\"candidate_target_locus\",),\n        )\n        null_errors, mobile = _validate_null_rows(null_rows, eligible)\n        errors.extend(null_errors)\n\n    folios = {row[\"physical_folio\"] for row in eligible}\n    folds = Counter(row[\"fold_assignment\"] for row in eligible)\n    capacity_pass = len(eligible) >= 50 and len(folios) >= 5\n    null_pass = null_candidates_path is not None and len(mobile) == len(eligible)\n    holdout_pass = bool(folds[\"DISCOVERY\"] and folds[\"HOLDOUT\"])\n    score_ready = not errors and capacity_pass and null_pass and holdout_pass\n    if errors:\n        status = \"INVALID_PACKET\"\n    elif score_ready:\n        status = \"SCORE_READY\"\n    else:",
+          "sha256": "fb8447470aa81ed608b90aedf7478893ddf6a445351aa12ab23c6fd725be3a47"
+        },
+        {
+          "path": "experiments/yolo/gdt824_qolchedy_fixed_composition/src/run.py",
+          "line": 99,
+          "line_end": 104,
+          "quote": "    intake = subprocess.run([str(ROOT/'vmanus-exp'),'check-edge-packet',str((EXP/'artifacts/RELATION_PACKET.tsv').relative_to(ROOT))],\n        cwd=ROOT,text=True,capture_output=True)\n    report = json.loads(intake.stdout)\n    assert intake.returncode == 1 and report['status'] == 'INVALID_PACKET' and report['eligible_edges'] == 0\n    assert len(report['errors']) == 27 and all(e.endswith('formal access is not sealed') for e in report['errors'])\n    path = EXP/'artifacts/RELATION_INTAKE.json'",
+          "sha256": "96f4ad4c35b11428c3da7f915d7dd7f3e848215fe7b81898ecb6770aa28d1219"
+        }
+      ]
+    },
+    {
+      "id": "ET_PREREG_COMPLETE",
+      "field": "evidence GDT824 PREREGISTRATION 3–32",
+      "replacement": "Extend through line35 so the conditional executable-gate and same-author limitations are not truncated mid-sentence.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt824_qolchedy_fixed_composition/PREREGISTRATION.md",
+          "line": 29,
+          "line_end": 35,
+          "quote": "Duplicate screen and GDT777/819/823 reports reviewed. This is not GDT777's\nlegacy ol-field composer nor closed exact-root-pair ranking. The known\nalternate boundary is source compatibility, not independently confirmed\nsemantic composition. Any relation packet remains exploratory unless the\nGDT388 executable gates pass. No scored relation or dictionary adoption.\nf84/f84r remain sealed. Same-author separate accounting validator cannot\nvalidate the linguistic proposal.",
+          "sha256": "c3ff1bdf51521f0de6346ac58f11549fb59516d6ad4d953ef0d2c69214419a11"
+        }
+      ]
+    },
+    {
+      "id": "ET_CONDITIONAL_PATHWAYS",
+      "field": "reopening.all_of",
+      "reason": "Existing prose says For a meaning comparison / For scored relation evidence, but a flat all_of risks making all GDT388 acquisition gates prerequisites for any source-based semantic reassessment. They are required only for that scored relation route.",
+      "replacement": {
+        "assessed_by": "curation_review",
+        "status": "PROSPECTIVE_ONLY_NO_RERUN_APPROVAL",
+        "common_requirements": [
+          "Declare exact unit and claim: whole qol versus whole qolchedy versus scored relation packet. Preserve the historical outcomes and unknown contexts."
+        ],
+        "pathways": [
+          {
+            "kind": "meaning_or_attachment_comparison",
+            "requirements": [
+              "Obtain an independently constrained referent/argument role or a source-bound fixed-sense contradiction; distinguish it from the already guessed surrounding glosses.",
+              "Freeze the relevant sense and rival predictions. A new restricted hypothesis is a new test, not retroactive reopening of all old contexts."
+            ]
+          },
+          {
+            "kind": "scored_relation_evidence",
+            "requirements": [
+              "Use legitimately eligible provenance; relabelling accessed sources cannot make them unexposed.",
+              "Pass all applicable executable GDT388 gates before relation scoring."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ET_DOSSIER_COUNT",
+      "field": "duplicate_check",
+      "replacement": {
+        "log_revisions": 39,
+        "latest_decision_keys": 38,
+        "interpretation": "39 revision records represent 38 latest scoped dossiers, not 39 distinct meaning questions. Even dossier count is not automatically independent-question count."
+      }
+    }
+  ],
+  "evidence_validation": {
+    "proposal_spans": 12,
+    "current_card_spans": 8,
+    "current_cases": 4,
+    "all_exact_quotes_and_SHA": true,
+    "current_bases": true
+  },
+  "raw_event_data_read": false,
+  "images_read": false,
+  "runner_executed": false,
+  "operational_mutation": false
+}
