@@ -1,0 +1,156 @@
+{
+  "review_id": "HB_ROOT_CANDIDATE_SELECTION_REVIEW",
+  "status": "NO_NEW_TEST_SELECTED",
+  "start_utc": "2026-09-07T09:38:06Z",
+  "root_review_completed_utc": "2026-09-07T09:43:45.614807+00:00",
+  "budget_minutes": 15,
+  "unit": "five candidate questions spanning ten existing SEM IDs, not five newly recovered ideas",
+  "inputs": [
+    {
+      "path": "research_registry/decisions/luna_candidate_screen_hb_lexical.json",
+      "sha256": "5c1b511e38e4a088558f4ab9b5c06b4a1a53e5c2273734fdc5ed6e34c28875ce"
+    },
+    {
+      "path": "research_registry/decisions/luna_candidate_screen_hb_models.json",
+      "sha256": "75074d7c3de2578cb14c8bee94cea0aca83fd769da6b6110c32850078bb1dbf1"
+    },
+    {
+      "path": "research_registry/decisions/luna_candidate_screen_hb_lexical_correction.json",
+      "sha256": "f7eaf0f5fc8ac49aafd704271eb3aaa23438fe6edcbcd40ee449dc11c81312f1"
+    }
+  ],
+  "current_card_bindings": {
+    "SEM:5b67f4d3b6e05f163451": {
+      "card_basis": "3ce74cb6f0235650885c9fe31c23658946ec3d00f4f221619188dfff453bf467",
+      "effective_basis": "a4a315111d097b08c13d0282825dac13402e0dd42e65e207c47131bf63b343e0"
+    },
+    "SEM:77589df4c7f07fe49e39": {
+      "card_basis": "ce65657aaf92436897c7c0acc751881320f9ffdfb7b2f65a6d66ce13d446a3ec",
+      "effective_basis": "fbe1dce24f55a1239722f359022336a519d7c57f52f6cc17154e5f343778f81f"
+    },
+    "SEM:77d98c25c0224b554f0e": {
+      "card_basis": "39e1ee836aa298589ed3d61dca6d8a22c90e4859b517f0a05af21cedb78577e8",
+      "effective_basis": "47b36e10daae91e363ec5e9193965aa32790b236fad0850e178e562db5a4c583"
+    },
+    "SEM:83db26fe269f9caf5152": {
+      "card_basis": "b3ee38ff576af5e9630f20acf29cc4b40bbd847c04d5e67014c263293d5f8553",
+      "effective_basis": "c45f4d22e7594a1d1dcfd6053612a4f87a5d5dd67ddba798a7f3192e01e162b7"
+    },
+    "SEM:953685af635ce63f70e2": {
+      "card_basis": "52f1ea73603c4d57d58a00f0f652aad363d25858e8113cd82ebbef10d1058628",
+      "effective_basis": "2e39e76b62daab94446f647de7da1f29adc3060a1a0ab24821aded37831106b7"
+    },
+    "SEM:9cda2d291145b78bdfe2": {
+      "card_basis": "e3c20cbcdc04f03e6602598d3735b4c5f0e4e846e7a423b634178ed6e269e82f",
+      "effective_basis": "a6e9549cb6f7ce245b769512b413793e9f45dffe4eb2e4437af111e36046d10c"
+    },
+    "SEM:ae94d5a6605fd8a525f0": {
+      "card_basis": "6dadfa451678ab77850b69826f0efb9f3883dc0077f97cd1783bd8ed271da60d",
+      "effective_basis": "b853f56b5b9ead535651cfac3f1fe419b2692814cce25ffbf836ac5df95e2a82"
+    },
+    "SEM:b6e072ca8fca88a813d8": {
+      "card_basis": "f54b7de53704e34b0f19d36bff6212662cadb65dd352c33d2d0137389d40855d",
+      "effective_basis": "e439e38a8046d534d38f9ddd0edda7cb5bfaa1ec7e1f61a40fb8f715101ed524"
+    },
+    "SEM:c34235949c66bfcac928": {
+      "card_basis": "c71296dc2bb1d7679509cc7d8d320074383b6fc34e28906ef430c65d01072d59",
+      "effective_basis": "3b0cb2c6c1236cb84bf2244f7f3b820470400d94eeaea3c04af83812cf0f21ad"
+    },
+    "SEM:d70ff59ce383e36325cd": {
+      "card_basis": "703d475c37cf640cae2fcd3f394a397bbd2b6199dae6a55504b04dd064f15658",
+      "effective_basis": "e84d3d69c6794c83b527c4c38ac331e06a0e8276460fb2ac112c1b8ddd232e4c"
+    }
+  },
+  "decisions": [
+    {
+      "candidate": "pcheey",
+      "status": "RECOMMENDATION_WITHDRAWN_COMPLETED_SUCCESSOR",
+      "root_primary_review": true,
+      "reason": "GDT763 next-route wording names five H1-X-daiin fields and four ol orders. GDT764 already executes that exact successor. Its inherited III/axis renderings are not independently confirmed values or substance meanings. GDT769 additionally gives zero dry-frame support. No changed input or new falsifier was supplied.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt763_h1_content_vs_record_discriminator/REPORT.md",
+          "line": 174,
+          "line_end": 181,
+          "quote": "## Next route\n\nThe useful next discriminator is no longer another global semantic sweep. It\nis to follow the five exact `H1 X daiin` triples and the four repeated `ol`\namount orders into their immediately bounded fields, asking whether the\nintervening `X` slot consistently separates quality, material, and preparation\nsubtypes. That can sharpen `daiin` as a degree, amount, or generic value without\nopening any new page.",
+          "sha256": "a18fe25b661e5a69fd84799a45dad01c50a512a71468f9fc6e35398421534650"
+        },
+        {
+          "path": "experiments/yolo/gdt764_bounded_value_field_dispatch/REPORT.md",
+          "line": 3,
+          "line_end": 26,
+          "quote": "## Result\n\nThe five exact triples now have one shared parse:\n\n```text\nRECORD := H1  FIELD+\nFIELD  := X   daiin\ndaiin  := written value III\naxis   := bounded or selected by the complete X whole\n```\n\nThis is materially more informative than rendering three unrelated labels.\nH1 supplies the record/form scope; the immediate X whole bounds the kind of\nfield in which III occurs. One axis is selected strongly (`qoty`), one remains\na weak provisional choice (`oteody`), and three preserve an open axis while\nstill receiving a usable bounded rendering (`dal`, `qopchdy`, `ofchy`).\n\n| Exact triple | Local axis | Portable reading | Stronger C1 reading |\n|---|---|---|---|\n| `pcheey qoty daiin` | quality/grade | dry Form II: cold grade III | dry Form II: cold in the third degree |\n| `pcheey dal daiin` | measured material; axis open | dry Form II: raw material I, measured; value III | dry Form II: three local measures of raw material I |\n| `pchedal qopchdy daiin` | nominal field; axis open | measured dry material, Form I: `qopchdy` field, value III | finished dry preparation on stage III |\n| `pcheody oteody daiin` | result/stage | dry prepared result, Form I: cooling/result field, stage III | cooled finished preparation on stage III |\n| `pchaiin ofchy daiin` | open | dry index/grade III: `ofchy` field, value III | if `ofchy` is a learned content name: content class III |",
+          "sha256": "04a16ba71959c74d1e43090724eb6d3727294f4e788987badd7f756861c56d67"
+        },
+        {
+          "path": "experiments/yolo/gdt764_bounded_value_field_dispatch/REPORT.md",
+          "line": 134,
+          "line_end": 141,
+          "quote": "## What changed and what remains\n\nGDT764 gives one target a strong axis, one a provisional axis, and all five a\nbounded field rendering. It removes one imported imperative, preserves the\nlater `dal` quantity-head repair, and replaces one generic `ol` gloss with\ntwelve position-specific renderings. It does not confirm a lexeme, ingredient,\nunit, language, or plaintext clause. It opens no page and passes 714 checks\nplus fourteen byte-identical builder outputs.",
+          "sha256": "04a16ba71959c74d1e43090724eb6d3727294f4e788987badd7f756861c56d67"
+        },
+        {
+          "path": "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/REPORT.md",
+          "line": 35,
+          "line_end": 39,
+          "quote": "### `pcheey`: R04 preparation/form-II field, with zero dry evidence\n\nThere are only three exact occurrences, but all three immediately follow `sho` or `sheo`, and two form a `pcheey-X-daiin` construction. All three are medial in paragraph-opening lines. This repeated bounded-field geometry supports R04 and the neutral reader phrase `gebundenes Zubereitungs-/Form-II-Feld`.\n\nThe dry frame F03 has zero support. There is also no independent vessel, operation, passage/straining, or closing signal. A previous powder-like reading inherited from the shape of EVA `p` is therefore excluded from the default. Paste, salve, mixed form, or residue after soaking remain possible identities, but none is selected.",
+          "sha256": "a00ca7b7fd36013a78b8118395e88e5e091f087515d0def577ba25af7623e346"
+        }
+      ]
+    },
+    {
+      "candidate": "f83r L/O continuation",
+      "sem_id": "SEM:d70ff59ce383e36325cd",
+      "status": "EXCLUDED_EXISTING_SHORTLIST_AND_DOSSIER",
+      "root_primary_review": "current bound dossier reused",
+      "reason": "Already K04 and FAILURE_F:LO_PENDING_PARTICIPANT:v1. Absence of a match in one chosen source-review file cannot establish absence of prior assessment. No changed role/reset observation supplied. Root model-agent prompt omitted an explicit list of the nine exclusions; root accepts this dispatch omission, not a new research result."
+    },
+    {
+      "candidate": "f82r boundary-repeat coherence",
+      "sem_id": "SEM:83db26fe269f9caf5152",
+      "status": "NO_NEW_DISCRIMINATOR_ESTABLISHED_IN_SCREEN",
+      "root_primary_review": true,
+      "reason": "V3 authors a once/twice/previous-list similarity prediction. The supplied GDT792 report concerns otedy/okal/otchdy/olaiin physical-host roles, not a direct test of this qokaiin carry prediction. Its semantic nonresult cannot establish universal absence of inputs for the latter. The screen supplied no frozen discriminating endpoint or evidence independent of the modeled coherence. No empirical failure or mandatory need for new pages is inferred.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v3/CANDIDATE_V3_VISUAL_ADDRESS_TRANSLATION.md",
+          "line": 559,
+          "line_end": 566,
+          "quote": "1. **Address diversity.** The nine exact `qokaiin` continuations should sort\n   into more diverse item/relation families than frequency- and page-matched\n   interior cards, while `qokaiin` itself remains entry-biased. Failure favors\n   an ordinary content noun.\n2. **Carry coherence.** Counting the `f82r.3–4` boundary repeat once should make\n   the logical field more similar to other `qokaiin`-headed fields than\n   counting it twice or attaching the first copy to the previous item list.\n3. **Relation operands.** L/O-adjacent operands on fixed Bio pages should more",
+          "sha256": "89fbc74d0510262b7b142f22d60f054018735e8fb9395440f78f6932016c7c12"
+        }
+      ]
+    },
+    {
+      "candidate": "AQABBA",
+      "status": "PRESCREEN_DEFERRED_NO_NEW_OBSERVATION_SUPPLIED",
+      "root_primary_review": false,
+      "reason": "Luna supplied a historical GDT797 limit and no changed independent observation. Not selected; its complete scientific disposition is not re-adjudicated here."
+    },
+    {
+      "candidate": "qokaldy",
+      "status": "PRESCREEN_DEFERRED_EXISTING_RESULT_REPORTED",
+      "root_primary_review": false,
+      "reason": "Luna identifies GDT798 and an existing correction; no new discriminator supplied. Not selected; this is not a new primary-source review or experiment failure."
+    }
+  ],
+  "workflow_correction": "Search the exact proposed prediction/construction and its successors, not just the target spelling. Pass all excluded candidate IDs to screeners. No new tooling needed.",
+  "operational_effects": {
+    "new_cards": 0,
+    "new_cases": 0,
+    "new_identity_relations": 0,
+    "new_failure_dossiers": 0,
+    "new_experiments": 0
+  },
+  "limits": [
+    "Selection audit only; not a new manuscript finding, global impossibility claim, or exhaustive source-availability audit.",
+    "Existing raw agent outputs remain unchanged, including the withdrawn recommendation.",
+    "No manuscript/raw TSV/image/web access or experimental runner; all quoted sources are existing public authored prose."
+  ],
+  "validation": {
+    "raw_inputs_hash_match": true,
+    "exact_primary_quote_spans": 5,
+    "cards_and_cases_unchanged": true,
+    "scientific_truth_validated": false
+  }
+}

@@ -3,9 +3,9 @@ Updated: 2026-09-07. Read first.
 
 ## Current mandate and effort limit
 
-10h curation ended2026-09-07 02:41:44UTC; no experiment selected.
-Open: completeness, scoped assessments and duplicate review.
-Report: `research_registry/decisions/semantic_10h_completion.md`.
+HB:5candidate screen; no test selected. PCHEEY successor already GDT764.
+K04 excluded; other prescreens supplied no new discriminator.
+Report: `research_registry/decisions/candidate_selection_hb.md`.
 
 GDT858:855/963primary808folds retained opposite-face training;169faces/90leaves.
 GDT865 whole-leaf correction retains both primary thresholds: nuisance macroAUC
