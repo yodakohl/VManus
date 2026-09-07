@@ -1,0 +1,22 @@
+{
+  "title": "A recurring whole marks temporal precedence without causing the next state",
+  "summary": "Test whether a recurring whole orders an eligible record or event before another field without licensing a causal consequence, distinguishing temporal precedence from a causal connector and from ordinary line position.",
+  "scope": "semantic",
+  "design": {
+    "mechanism": "A candidate contributes temporal precedence or phase ordering while remaining semantically neutral about why the later state occurs.",
+    "unit": "Complete candidate occurrences with independently bound event order, eligible record phase, and downstream state/consequence status.",
+    "contrast": "Candidate-bearing earlier-phase occurrence versus matched candidate-free occurrences, with independently bound temporal order and causal relation coded separately; downstream consequence is an allowed covariate, not a required absence.",
+    "prediction": "The candidate should predict temporal phase/order after controlling host and page, including in cases where a later state is causally dependent. A causal model predicts an independently bound causal relation, so downstream correlation alone does not distinguish or refute the precedence reading.",
+    "falsifier": "The precedence hypothesis fails only if independently bound held cases show no candidate/order association, or if its predeclared temporal-order contrast is absent or reversed after controls. A downstream consequence correlated with candidate presence is compatible with precedence and is not by itself a falsifier; causal-versus-temporal discrimination requires cases that hold order fixed while varying causal relation, or vice versa.",
+    "availability": "GDT269 supplies an exploratory order association but no independent semantic temporal label; event-phase and consequence endpoints are availability_unknown.",
+    "related": "Related to IDEA000030 causal connector, but not a claim that temporal marking excludes consequences: causal dependence can follow an ordered event. The distinct target is order/phase; the causal rival requires an independent causal endpoint.",
+    "countermodel": "A wrapper/template or field-position policy can produce earlier placement without temporal content; GDT269's position sensitivity means earlier association alone cannot identify temporal precedence.",
+    "source_evidence": {
+      "path": "GDT269_Q13_WRAPPER_HOST_CONDITIONAL_REPORT.md",
+      "line": 7,
+      "line_end": 15,
+      "quote": "The unchanged GDT267 panel contains 632 q-or-bare group occurrences. Exact\n`PAGE_HOST × page` conditioning leaves 30 movable strata, 211 occurrences,\n12 hosts, and all nine pages. The q/earlier association remains positive:\nMantel–Haenszel OR 1.990, conditional U +6.290, exact occurrence-level two-sided diagnostic p 0.0380, and page-cluster sign-flip p 0.0214. Seven of nine page scores are positive.\n\nThis removes the simplest alternative that GDT267 merely compared different\nhost vocabularies on earlier and later records. The same opaque PAGE_HOST can\noccur with q and bare rendering, and q remains earlier-associated within exact\npage/host strata.",
+      "sha256": "eb7accca65a6de8ccbc5c80cedf6f39b48b333f9b112fa4e1cbc4bb5f37d453d"
+    }
+  }
+}

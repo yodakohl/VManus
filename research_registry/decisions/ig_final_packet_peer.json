@@ -1,0 +1,36 @@
+{
+  "review_id": "IG_FINAL_PACKET_PEER",
+  "status": "PASS_WITH_SCOPE_CONFIRMATIONS",
+  "scope": "Read-only peer validation of the four IG method-review packets; no registry append, proposal edit, experiment, image/raw access, or scoring.",
+  "hash_validation": {
+    "method": "For each proposal, compared the recorded file SHA, canonical_json_sha256 over the complete parsed proposal object, and design_sha256 over the parsed design object. All three peer files' recorded values match the current proposal bytes and root scope packet.",
+    "records": [
+      {"id":"IDEA000003","proposal":"research_registry/proposals/hc_register_edge_handoff.json","file_sha256":"bd4b7262767bfe8ffced287afc58b4a194c3be568f102aa9c1382fa80b2a368a","canonical_json_sha256":"6072a876601477fbd47510c57cb710ebbde29d464dccb13fc54f3919d3f8cfd2","design_sha256":"89194cc51985768f663fe7b5ad966733d0099bf4b1180b3d86e0a608ffaeec30","result":"PASS"},
+      {"id":"IDEA000008","proposal":"research_registry/proposals/hc3_label_prose_pointer.json","file_sha256":"cd55ec40319a1e986c91ba30114a75b8a2a625001a839d145760eee1b4a16740","canonical_json_sha256":"662432b99e1c8026a7b722360e135da5f4c420afd515dd76e44ee5143c08e4ac","design_sha256":"8f3d7dfca914e8f6555e257b3e67c57138e6becc964fa0364fa4a4bd5fcf90a6","result":"PASS"},
+      {"id":"IDEA000012","proposal":"research_registry/proposals/hc3_record_topic.json","file_sha256":"046bda78053eebfec186c43c8b0c790419f5750de204cc03a22a9db98865ba26","canonical_json_sha256":"64546a6c883678ae64a9bfe2804ecb1c3c32e272487fbe9e49e48dcea38aafcd","design_sha256":"259dbaa21198eb3d372c36d0f03e1fada2dd4cc405cabbcf1e385679b4c84312","result":"PASS"},
+      {"id":"IDEA000017","proposal":"research_registry/proposals/hc5_definiteness_anaphora.json","file_sha256":"9e2019cf531cdfc40eb428436f1af45abe4bc6805b7789268b9090a590919836","canonical_json_sha256":"569b1901e3a8235114504be4a7fc2bb4752c0d28ea64ee776ac66a0e42aa07d5","design_sha256":"5c51ba3f2a4d72d14da8bd3736bc085f423665bea0b23d63fea90603a6a5fe03","result":"PASS"}
+    ]
+  },
+  "evidence_validation": {
+    "peer_files": [
+      {"path":"research_registry/decisions/ig_handoff_reference_peer.json","sha256":"7de454f60c1a7feae8bd2667dfe497c8f961c9690d2e6dfca9196c59588020f2","exact_spans":9},
+      {"path":"research_registry/decisions/ig_topic_reference_peer.json","sha256":"5018c8cd9068db59c6aa4a4a4c96b0b0e4a6f5cb8181b670144afd0611367792","exact_spans":9},
+      {"path":"research_registry/decisions/ig_design_discrimination_challenge.json","sha256":"f422ce33c35a575ce07a3fd0de9b0838229f0937eb785229d27769fd2d1400dd","exact_spans":8}
+    ],
+    "total_exact_spans":26,
+    "evidence_checker":"tools.semantic_identity._evidence(Path.cwd(), [evidence])",
+    "result":"All 26 spans passed, with recorded source hashes matching."
+  },
+  "substantive_review": [
+    {"id":"IDEA000003","result":"PASS","note":"The correction properly limits a null to the declared edge-by-ordered-register-pair interaction. Leave-one-pair-out requires a predeclared shared or hierarchical transfer assumption; it cannot be inferred from pair-specific wording."},
+    {"id":"IDEA000008","result":"PASS","note":"The generic class-code countermodel is valid even with held-panel success when a class has one local member. Distinct owner identity and multiple-member contexts are required."},
+    {"id":"IDEA000012","result":"PASS","note":"Positional opener and topic continuity are compatible. The packet correctly requires independently bound topic changes and a candidate-dependent persistence increment."},
+    {"id":"IDEA000017","result":"PASS","note":"Prior-mention cue effects can be general discourse behavior. The packet correctly limits the 70%/20-point quantities to usage-conditioned reference behavior, not lexical identity."}
+  ],
+  "gdt388_scope_check": {
+    "result":"PASS",
+    "finding":"The packet applies GDT388 capacity, held-folio, provenance, and mobile-null gates to proposed authorial directed-relation endpoints only. It explicitly separates local object ownership, panel membership, topic continuity, and reference-history questions from the 50-edge directed-inscription requirement.",
+    "remaining_requirement":"Any future relation packet must still demonstrate that its endpoint is the GDT388 endpoint before invoking those gates; the current method reviews do not claim score readiness."
+  },
+  "overall_limit":"All four remain not_tested with missing independent semantic bindings. The packet records design corrections and reopening requirements, not manuscript evidence or readiness."
+}

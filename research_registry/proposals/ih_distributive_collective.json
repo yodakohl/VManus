@@ -1,0 +1,22 @@
+{
+  "title": "A recurring whole distributes a predicate over members rather than forming one collective",
+  "summary": "Use the GDT238 array/group relation observation to test whether a recurring whole scopes a predicate distributively over independently typed members, rather than naming one collective group or simply marking an array frame.",
+  "scope": "semantic",
+  "design": {
+    "mechanism": "A candidate contributes distributive quantification: the following predicate applies separately to each member in a bounded list.",
+    "unit": "Complete candidate occurrences with independently typed list members, predicate assignments, and collective-versus-distributive interpretation.",
+    "contrast": "candidate-bearing distributed-member contexts versus collective group contexts and candidate-free lists with the same member count and predicate frame.",
+    "prediction": "Candidate contexts should license independently typed member-level predicate attachment or truth conditions, even when every member receives the same predicate outcome. A collective/group model licenses only a group-level predicate; heterogeneous outcomes are useful contrasts but are not required.",
+    "falsifier": "The distributive hypothesis fails if independently bound held cases show that candidate-bearing lists consistently lack member-level predicate scope and are licensed only at group level after matching list size and frame. Uniform member outcomes, repeated fields, or an observed collective-looking result alone do not falsify distributivity.",
+    "availability": "Independent member typing, predicate assignment, and quantifier-scope endpoint availability_unknown; GDT238 explicitly warns that ARRAY_OR_GROUP is a visible relation class, not an established relation word.",
+    "related": "Related to IDEA000032 coordination marker and IDEA000021 amount/unit role, but distinct: this target is member-level quantifier scope, not merely list grouping or a material-independent amount slot. A coordination marker may coexist with either distributive or collective interpretation.",
+    "countermodel": "A renderer can emit repeated member-level fields for a collective group without encoding distributivity; list size, array layout, or register can mimic the predicted member pattern.",
+    "source_evidence": {
+      "path": "GDT238_LABEL_PREFIX_RELATION_MODE_REPORT.md",
+      "line": 15,
+      "line_end": 28,
+      "quote": "The relation inventory is highly asymmetric:\n\n| relation class | rows |\n|---|---:|\n| PROXIMITY | 225 |\n| ATTACHMENT | 73 |\n| ENCLOSURE_OR_CONTACT | 7 |\n| ARRAY_OR_GROUP | 5 |\n\nMost stable-prefix occurrences are proximity descriptions.  The gain is only\nfive rows, so it is not evidence for a rich relation vocabulary.  Exact raw\nfamilies provide an important counterexample: on 112 cross-folio-covered rows\nthey score 65 correct versus 80 for the section baseline (`-.134`), with 6\npaired wins and 21 losses.",
+      "sha256": "b24f86d8f7c04ee7dfaa77b9b87ca493e6bd1ac1bcc3b758b346738484a13060"
+    }
+  }
+}

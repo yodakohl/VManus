@@ -1,0 +1,109 @@
+{
+  "status": "independent_method_source_review",
+  "scope": "IDEA000012 and IDEA000017 only; no experiment rerun, image/raw access, or operative registry change",
+  "designs": {
+    "IDEA000012": {
+      "path": "research_registry/proposals/hc3_record_topic.json",
+      "sha256": "046bda78053eebfec186c43c8b0c790419f5750de204cc03a22a9db98865ba26",
+      "canonical_json_sha256": "64546a6c883678ae64a9bfe2804ecb1c3c32e272487fbe9e49e48dcea38aafcd"
+    },
+    "IDEA000017": {
+      "path": "research_registry/proposals/hc5_definiteness_anaphora.json",
+      "sha256": "9e2019cf531cdfc40eb428436f1af45abe4bc6805b7789268b9090a590919836",
+      "canonical_json_sha256": "569b1901e3a8235114504be4a7fc2bb4752c0d28ea64ee776ac66a0e42aa07d5"
+    }
+  },
+  "findings": [
+    {
+      "id": "IDEA000012",
+      "title": "Record-initial whole establishes a continuing topic",
+      "actual_claim": "A complete whole in a record’s first field introduces an active item/material topic that later compatible fields inherit until an independently visible topic change.",
+      "tested_or_not_tested": "Not independently tested. GDT596 reconstructs 254 authored working clauses from visible type/reference decisions, while GDT594 assigns occurrence-local defaults and distinguishes local carryover from reset; neither independently binds historical topic identity or record boundaries. Repeated category or a coherent article rendering is not an individual topic endpoint.",
+      "countermodel": "The initial whole is a positional opener or inherited renderer choice; later fields follow section, host, or record length without topic continuity. A topic can also shift silently, so continuity failure would not refute all record organization.",
+      "reopening": "Freeze record boundaries and topic/owner changes independently on at least five physical folios, exclude line-end assumptions, and compare candidate initial wholes with structural/opaque opener controls. Require held-field continuity and fewer unexplained owner switches beyond position, section, host class, and record length."
+    },
+    {
+      "id": "IDEA000017",
+      "title": "Prior mention switches a whole from definite to anaphoric use",
+      "actual_claim": "A candidate whole changes reference status after the same owner/item has already been introduced: later mentions retain that owner without a new introduction cue, while first mentions cue introduction.",
+      "tested_or_not_tested": "Not tested as prior-owner conditioning. GDT573 mechanically pronounizes later repetitions of the same fully expanded argument within a card; GDT596 reports 70 anaphoric and 184 definite forms from its phrasebook; GDT594 reports local/reset occurrence defaults. These are authored or inherited rendering decisions, not independent owner/reference annotations. GDT220 and GDT169 show that proximity or page-level referent patterns do not supply singular ownership.",
+      "countermodel": "A fixed lexical or structural role recurs with or without a cue; repeated category does not entail repeated individual. A later occurrence may be a new owner of the same class, so a cue-rate difference cannot be interpreted without independently bound owner identity.",
+      "reopening": "Blindly annotate owner/reference history across five physical folios, then match first-owner and later-same-owner occurrences by record position and section. Test the preregistered 70% later-owner retention and 20-point first-mention cue gap; failure challenges this article-like switch only, not reference generally."
+    }
+  ],
+  "evidence": [
+    {
+      "type": "primary_source",
+      "path": "experiments/yolo/gdt596_bath_object_compound_scope_phrasebook/REPORT.md",
+      "line": 5,
+      "line_end": 17,
+      "quote": "## Ergebnis\n\nDie 254 konkreten GDT595-Badelesungen brauchen keine 254 Einzelkarten und auch\nnicht siebzehn voneinander getrennte Auswahlregeln. Sie lassen sich verlustfrei\nin fünf Typkarten und drei unabhängige Bezugskarten zerlegen. Danach genügen\nsieben Objektlemmas, vier Artikelregeln, zwei Badrahmen, fünfzehn bekannte\nModifikatoren und drei einfache Kompositionsregeln. Insgesamt sind das 39\nPrimitive. Alle 254 vollständigen Klauseln werden bytegenau rekonstruiert.\n\nDas ist die bisher brauchbarste Form der gesuchten Mischung aus produktiven\nFachkürzeln und gelernten Ganztypen: Die Typkarte bestimmt, *was für ein Ding*\ngemeint ist; die Bezugskarte bestimmt getrennt, *ob dasselbe Ding weiterläuft*\noder ein definites Objekt neu bzw. rechts eingeführt wird.",
+      "sha256": "28303de8073bc0a5f6ac2925e8ddae77ec104dd3dc0b2556d9419e3f32cdb3b4"
+    },
+    {
+      "type": "primary_source",
+      "path": "experiments/yolo/gdt596_bath_object_compound_scope_phrasebook/REPORT.md",
+      "line": 78,
+      "line_end": 98,
+      "quote": "Damit entstehen exakt 70 anaphorische und 184 definite Formen. Die 70\nanaphorischen Fälle sind vollständig erklärt: 65 gehören zu T03 und fünf zu\nlokal weitergeführten AIN/OR-Typen aus T04. Ein eigenes langes Wörterbuch für\n`denselben Stationsansatz`, `dieselbe Anwendungsportion` usw. ist unnötig.\n\n## Der übrige Satz ist ebenfalls kompositionell\n\n247 Aktionen haben eine Teilnehmer-NP, sechs haben zwei und eine hat drei. In\n251 Fällen steht das ausgewählte Objekt zuerst. Nur E1433, E1648 und E1795\nführen zunächst Portion oder Einheit und danach den ausgewählten\nStationsansatz. Eine gewöhnliche Listenregel erhält diese Reihenfolge exakt.\n\nNach der Teilnehmerliste folgt `im Bad`, nur bei den zwei Stromlesungen `im\nBadbetrieb`. Fünfzehn vorhandene Modifikatoren erzeugen 338 Vorkommen in vierzig\nbeobachteten Folgen. Die einzige enge Bindung ist Füllung plus Grad:\n\n```text\nAIIN_FILL + E  →  bei der angegebenen Füllung auf Grad I\n```\n\nDanach reicht die normale Listenbildung. So wird etwa eine lange Folge ohne",
+      "sha256": "28303de8073bc0a5f6ac2925e8ddae77ec104dd3dc0b2556d9419e3f32cdb3b4"
+    },
+    {
+      "type": "primary_source",
+      "path": "experiments/yolo/gdt573_intra_clause_argument_pronoun_voice/REPORT.md",
+      "line": 5,
+      "line_end": 15,
+      "quote": "\n## Ergebnis\n\nIn 841 der 5.122 Karten wurde dieselbe bereits ausgeschriebene Argumentform\ninnerhalb derselben Karte zwei- bis fünfmal wiederholt. Das sind 854 getrennte\nWiederholungsgruppen und 1.046 Vollnennungen nach der jeweils ersten Nennung.\nGDT573 lässt die erste Form stehen und spricht die späteren Formen als kurze\ndeutsche Rückbezüge aus:\n\n```text\nalt: Entnimm den laufenden Eintrag und wähle den laufenden Eintrag.",
+      "sha256": "b93bf9c90da208426fd4e888c54310667ad4558e1be59ce10c27690d8c62661e"
+    },
+    {
+      "type": "primary_source",
+      "path": "experiments/yolo/gdt573_intra_clause_argument_pronoun_voice/REPORT.md",
+      "line": 27,
+      "line_end": 34,
+      "quote": "\nDie zwanzig bekannten Register×Argument-Zellen reichen dafür vollständig aus.\nJede ist im Bestand tatsächlich benutzt. `ihn` erscheint 949-mal, `sie` 91-mal.\n\n## Zwei kleine, aber wichtige Grenzfälle\n\nDie schon in GDT565 lizenzierte Doppel-Y-Form wird als wirklicher Plural\nbehandelt:",
+      "sha256": "b93bf9c90da208426fd4e888c54310667ad4558e1be59ce10c27690d8c62661e"
+    },
+    {
+      "type": "primary_source",
+      "path": "experiments/yolo/gdt594_gdt569_y_bath_occurrence_completion/REPORT.md",
+      "line": 7,
+      "line_end": 20,
+      "quote": "Alle 49 nach GDT593 noch neutralen Badegut-Fälle mit spezifischem getragenem\n`Y` besitzen jetzt eine konkrete Primärlesung:\n\n- 17 sichtbare lokale Y-Quellen lesen sich als `denselben Stationsansatz`;\n- 2 sichtbare Umleitungsquellen lesen sich als `denselben Strom im Badbetrieb`;\n- 1 sichtbare Körperquelle liest sich als `denselben Körper`;\n- 2 gleichsatzinterne Quellen liegen hinter einem echten post-donor Neustart;\n- 27 weitere Fälle sind echte Besitzer-Defaults hinter einer Satzgrenze;\n- diese 29 Resetfälle werden am sauberen SH-Badziel zu `dem Körper`.\n\nDie Trennung kommt nicht aus einem globalen Wörterbuch. Sie kommt aus der\nObjektweite des jeweiligen Vorkommens: lokale Quelle behalten, nach Reset den\nZielhost neu lesen. Genau deshalb steht lokal `denselben`, nach Reset aber nur\n`den Körper`.",
+      "sha256": "69c63f2049330985107651071fdd50b56ed07f297bf6e85d2b971d2c78188a23"
+    },
+    {
+      "type": "primary_source",
+      "path": "experiments/yolo/gdt594_gdt569_y_bath_occurrence_completion/REPORT.md",
+      "line": 54,
+      "line_end": 67,
+      "quote": "## Der Host-/Atomkonflikt verbessert die erste Fassung\n\nDie erste Host-basierte Fassung hätte fünf gleichsatzinterne Quellen als Reset\nbehandelt: `E1431`, `E1658`, `E3426`, `E3673`, `E3768`. Das ist für drei Fälle\nzu grob. In `E1656=OT+Y` und `E3425=OT+EE+Y` steht das frische Y **nach** OT;\nbei `E3673` steht das neue Y in `E3672=OL+AL+Y` sogar ein Ereignis nach\n`E3671=OT+AIIN`. GDT559 bestätigt die Weitervererbung jeweils ausdrücklich.\n\nDarum bleiben `E1658` (`denselben Körper`), `E3426` und `E3673` (jeweils\n`denselben Stationsansatz`) lokal. Nur `E1431` und `E3768` besitzen einen\nKontrollschnitt nach dem Donor und vor dem Ziel. Die ältere 17/32-Hostspur wird\nbei den drei Konflikten samt Körperalternative erhalten, aber nicht als\nPrimärmodell benutzt. Nur `E2537` und `E2628` kreuzen zusätzlich einen\nphysischen Absatz; beide sind ohnehin Besitzer-Defaults.",
+      "sha256": "69c63f2049330985107651071fdd50b56ed07f297bf6e85d2b971d2c78188a23"
+    },
+    {
+      "type": "primary_source",
+      "path": "GDT220_FIXED_EDGE_LOCAL_REFERENCE_REPORT.md",
+      "line": 1,
+      "line_end": 14,
+      "quote": "# GDT220 — fixed-edge local reference audit\n\n## Outcome\n\n**FIXED_EDGE_LOCAL_REFERENCE_NOT_ESTABLISHED_F83_CANDIDATE_ONLY**\n\nThe seven exact GDT217 page/key cells do not become seven references when\nchecked against the existing human catalogue.  Only **1/7** is independently\nco-localized: f83r.51 (`darolsy`) is the lower label near the right structure\nof the southwest figure, and f83r.52 starts the text block below that same\nfigure.  Their fixed source-family key is `CA` and the loci are consecutive.\n\nTwo cells are explicit counterexamples.  f75v links a top-pond label key to a\nlower-pond paragraph key; f99v's `KA` cell links a row-1 plant label to the",
+      "sha256": "90ded4506625c0002faa50f184f8f4680cbbc9d468b1ed1802fc2b03bc840522"
+    },
+    {
+      "type": "primary_source",
+      "path": "experiments/yolo/gdt351_remaining_referent_label_capacity/REPORT.md",
+      "line": 1,
+      "line_end": 15,
+      "quote": "# GDT351 — remaining referent-label capacity report\n\nStatus: **STOP_ZERO_NEW_SINGULAR_OWNED_REFERENT_LABELS**\n\nThe four GDT169 `ASSERTED_SAME` Herbal→pharmaceutical relations that lacked a\nlocal query cannot be upgraded from the current cached human sources.\n\n| relation | nominated target | result |\n| --- | --- | --- |\n| f1v → f102r1 | fragment 204 | no separate mapped plant label |\n| f32v → f102r2 | fragment 206 | no separate mapped plant label |\n| f47v → f102r2 | fragment 205 | no separate mapped plant label |\n| f48r → f89v2 | fragment 61 | nearest plausible inscription is between plants 3 and 4; proximity-only |\n\nThe first three failures follow from complete catalogue counts and the two",
+      "sha256": "62bd16f8c9a00a2f698c09177f81ee5acd92e100da09b5a0a3f808ad83051a4e"
+    },
+    {
+      "type": "primary_source",
+      "path": "GDT169_EXTERNAL_REFERENT_TUPLE_REPORT.md",
+      "line": 16,
+      "line_end": 19,
+      "quote": "The decisive ownership check is negative: the five published singular or\nprovisional pharmaceutical labels produce **0/5 exact PAGE_HOST matches**\nand **0/5 exact full-tuple matches** on their paired Herbal pages.\nThus any page-bag lead is not localized to the strongest owned records.",
+      "sha256": "eadb9173dd9ab68af4762f43c5c9f34c3bfe15f6b5d4498572d49fe890bb1656"
+    }
+  ],
+  "decision": "Both ideas remain untested semantic proposals. Prior phrasebook/anaphora outputs are not independent historical evidence; the narrow blockers are missing independent topic boundaries and owner/reference endpoints."
+}

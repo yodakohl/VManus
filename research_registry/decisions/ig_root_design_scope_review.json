@@ -1,0 +1,132 @@
+{
+  "status": "ROOT_FOUR_REFERENCE_METHOD_REVIEWS",
+  "raw_bindings": [
+    {
+      "id": "IDEA000003",
+      "title": "Register-transition edges carry handoff roles",
+      "design": {
+        "mechanism": "A whole at a register boundary signals transfer of the active record or target between adjacent presentation modes; its role depends on the ordered source/target register pair.",
+        "unit": "complete-whole occurrence within one field of a cached register transition, with non-edge occurrences of the same whole as controls",
+        "contrast": "edge occurrence versus matched non-edge occurrence, crossed with ordered register pair and section; leave-one-register-pair-out validation",
+        "prediction": "A small set of whole forms shows reproducible edge-specific continuation/owner-slot changes for one or more ordered register pairs, beyond whole identity, position, section, and host-class baselines.",
+        "scope": "admitted visual-owner spine and cached text/register tags; feasibility unknown for enough held transition edges, and no new page access is assumed",
+        "falsifier": "No held edge interaction, or improvement disappears when whole identity and host class are controlled, falsifies the handoff mechanism; a global class lead is not sufficient.",
+        "related": "post_IL023_system_class_heterogeneity_correction; GDT790_panel_owner_image_grammar_overlay; GDT792_host_transfer; these predecessors do not test ordered register-edge interaction"
+      },
+      "design_sha256": "89194cc51985768f663fe7b5ad966733d0099bf4b1180b3d86e0a608ffaeec30",
+      "proposal": {
+        "path": "research_registry/proposals/hc_register_edge_handoff.json",
+        "sha256": "bd4b7262767bfe8ffced287afc58b4a194c3be568f102aa9c1382fa80b2a368a",
+        "canonical_json_sha256": "6072a876601477fbd47510c57cb710ebbde29d464dccb13fc54f3919d3f8cfd2"
+      }
+    },
+    {
+      "id": "IDEA000008",
+      "title": "Exact local labels point to a prose record member",
+      "design": {
+        "mechanism": "A label whole selects the specific prose item owned by its nearby panel; the same whole outside that panel need not select that item.",
+        "unit": "exact label/prose whole pair with native panel-owner relation",
+        "contrast": "same-panel label/prose pairs versus nearby-label and cross-panel matched controls with equal whole frequency",
+        "prediction": "True pointer candidates recover the same owner or item field on held panels and at least two physical folios, while generic class-code controls do not.",
+        "scope": "admitted visual-owner spine and cached label/prose selectors; feasibility unknown where the panel has no singular native owner",
+        "countermodel": "Labels are reusable class or slot codes; pairings should follow proximity or section frequency and fail owner-held transfer.",
+        "binding": "independent native panel-owner adjudication plus exact text occurrence joins on at least two held physical folios",
+        "related": "GDT247 label-prose member reuse; GDT790 panel-owner overlay; GDT794 repeated labels; no token meaning changes implied"
+      },
+      "design_sha256": "8f3d7dfca914e8f6555e257b3e67c57138e6becc964fa0364fa4a4bd5fcf90a6",
+      "proposal": {
+        "path": "research_registry/proposals/hc3_label_prose_pointer.json",
+        "sha256": "cd55ec40319a1e986c91ba30114a75b8a2a625001a839d145760eee1b4a16740",
+        "canonical_json_sha256": "662432b99e1c8026a7b722360e135da5f4c420afd515dd76e44ee5143c08e4ac"
+      }
+    },
+    {
+      "id": "IDEA000012",
+      "title": "Record-initial whole establishes a continuing topic",
+      "design": {
+        "mechanism": "A record-initial whole introduces a topic that later compatible fields inherit without repeating an owner cue.",
+        "unit": "admitted record with an initial complete whole, later fields, and independently tagged owner/topic changes",
+        "contrast": "records with a candidate initial whole versus matched records whose first field is a structural opener or opaque whole",
+        "prediction": "Candidate initial wholes predict later compatible item/part fields and fewer unexplained owner switches through the record, across held folios.",
+        "scope": "cached record-local fields and admitted owner-spine selectors; feasibility unknown where record boundaries remain inherited rather than independently bound",
+        "countermodel": "The initial whole is only a positional opener; later fields should show no topic continuity beyond section and record length.",
+        "binding": "independent record-boundary and topic/owner annotations across at least five physical folios, excluding line-end assumptions",
+        "related": "GDT581 structural parser limits; GDT791 record-boundary correction; distinct from drawing-reset and line-break hypotheses"
+      },
+      "design_sha256": "259dbaa21198eb3d372c36d0f03e1fada2dd4cc405cabbcf1e385679b4c84312",
+      "proposal": {
+        "path": "research_registry/proposals/hc3_record_topic.json",
+        "sha256": "046bda78053eebfec186c43c8b0c790419f5750de204cc03a22a9db98865ba26",
+        "canonical_json_sha256": "64546a6c883678ae64a9bfe2804ecb1c3c32e272487fbe9e49e48dcea38aafcd"
+      }
+    },
+    {
+      "id": "IDEA000017",
+      "title": "Prior mention switches a whole from definite to anaphoric use",
+      "design": {
+        "mechanism": "Reference status depends on discourse introduction versus prior mention.",
+        "unit": "candidate whole occurrence with prior-owner history",
+        "contrast": "first-owner mention versus later same-owner mention, matched by record position and section",
+        "prediction": "At least 70% of later mentions preserve the prior owner without a new introduction cue, while first mentions show the cue at least 20 points more often.",
+        "scope": "cached record-local fields; feasibility unknown until owner/reference annotations are independently bound",
+        "countermodel": "The whole has a fixed lexical or structural role; prior mention does not change owner-cue behavior.",
+        "binding": "independent owner/reference annotations across five physical folios",
+        "related": "GDT573 and GDT596 anaphoric routes; changed target is quantitative prior-mention conditioning"
+      },
+      "design_sha256": "5c51ba3f2a4d72d14da8bd3736bc085f423665bea0b23d63fea90603a6a5fe03",
+      "proposal": {
+        "path": "research_registry/proposals/hc5_definiteness_anaphora.json",
+        "sha256": "9e2019cf531cdfc40eb428436f1af45abe4bc6805b7789268b9090a590919836",
+        "canonical_json_sha256": "569b1901e3a8235114504be4a7fc2bb4752c0d28ea64ee776ac66a0e42aa07d5"
+      }
+    }
+  ],
+  "peer_receipts": [
+    {
+      "path": "research_registry/decisions/ig_handoff_reference_peer.json",
+      "sha256": "7de454f60c1a7feae8bd2667dfe497c8f961c9690d2e6dfca9196c59588020f2",
+      "exact_spans": 9
+    },
+    {
+      "path": "research_registry/decisions/ig_topic_reference_peer.json",
+      "sha256": "5018c8cd9068db59c6aa4a4a4c96b0b0e4a6f5cb8181b670144afd0611367792",
+      "exact_spans": 9
+    },
+    {
+      "path": "research_registry/decisions/ig_design_discrimination_challenge.json",
+      "sha256": "f422ce33c35a575ce07a3fd0de9b0838229f0937eb785229d27769fd2d1400dd",
+      "exact_spans": 8
+    }
+  ],
+  "root_decisions": [
+    {
+      "id": "IDEA000003",
+      "reason": "The pair-specific handoff mechanism does not entail transfer to an unseen register pair. Source adjacency and shared rendering frames supply no independent ordered handoff endpoint. A null can reject only a specified interaction at adequate power, not handoff in general.",
+      "reopening": "Choose a pair-specific held-edge test or justify a shared cross-pair rule before leave-one-pair-out validation. Freeze candidate inventory, ordered endpoints, the effect to detect and matching controls. A surviving interaction would support that restricted relation model, not a word translation."
+    },
+    {
+      "id": "IDEA000008",
+      "reason": "A generic class code can select the sole local member of that class and pass held-panel owner transfer. The current class/pointer contrast is therefore not exclusive. Exact strings and proximity do not independently bind a specific prose referent.",
+      "reopening": "Freeze the class and indexical models including their contextual selection rules. Use independently bound contexts with distinct predictions, such as multiple same-class local members when the specified pointer would disambiguate them. Require actual held item identity, not only panel membership; retain the original two-held-folio requirement without treating it as a GDT388 gate waiver."
+    },
+    {
+      "id": "IDEA000012",
+      "reason": "A positional opener can coexist with a continuing record topic. Record coherence does not establish that the initial whole introduces that topic; repeated item classes are not individual owner identity. GDT594/596 defaults and inherited boundaries are not independent topic annotations.",
+      "reopening": "Fix independently justified record boundaries and topic changes on at least five physical folios. Specify the added candidate-dependent persistence prediction beyond opener position, host, section and record length, and controls with genuinely different predictions. Test the restricted association without claiming that it proves the lexical cause of topic introduction."
+    },
+    {
+      "id": "IDEA000017",
+      "reason": "Definiteness and anaphora can coexist. A prior-mention cue effect may be general discourse behavior while the whole retains a fixed function. GDT573 pronoun rendering and GDT594/596 assigned reference categories do not establish historical individual-owner history.",
+      "reopening": "Separate new versus previously mentioned referents from definiteness and from the candidate whole role. Freeze independent owner history and cue criteria across five physical folios, plus matched-form controls or another discriminating source relation. The proposed 70 percent retention and 20-point cue gap test usage behavior; they do not alone establish a lexical function switch."
+    }
+  ],
+  "root_peer_corrections": [
+    "The peer canonical_json_sha256 binds the complete proposal object, not design alone. Root verifies it as such and separately computes each actual design_sha256.",
+    "The peers phrase missing endpoints as insufficient for operative review. This blocks manuscript scoring, not an operative method review recording missing design and meaning bindings.",
+    "GDT388 ordered-inscription relation gates apply when that evidence endpoint is proposed. Do not silently impose its 50-edge threshold on every topic/owner question or conflate local object ownership with an authorial directed inscription edge. New relation packets still require the executable capacity, held-folio, provenance and mobile-null checks.",
+    "A hierarchical model is one possible explicit transfer assumption, not a requirement to implement several new models. Choose the smallest valid design before any test.",
+    "Two contexts with different owners alone do not defeat a reusable class model. The models must disagree after allowing their explicitly declared contextual reference rules."
+  ],
+  "existing_scoped_neighbor": "IDEA000022 concerns a locally overt available antecedent contract; these four proposals are retained separately with their own target scope. No whole-design identity merge is claimed.",
+  "new_semantic_evidence": false
+}

@@ -1,0 +1,109 @@
+{
+  "status": "independent_method_source_review",
+  "scope": "IDEA000003 and IDEA000008 only; no experiment rerun, image/raw access, or operative review",
+  "designs": {
+    "IDEA000003": {
+      "path": "research_registry/proposals/hc_register_edge_handoff.json",
+      "sha256": "bd4b7262767bfe8ffced287afc58b4a194c3be568f102aa9c1382fa80b2a368a",
+      "canonical_json_sha256": "6072a876601477fbd47510c57cb710ebbde29d464dccb13fc54f3919d3f8cfd2"
+    },
+    "IDEA000008": {
+      "path": "research_registry/proposals/hc3_label_prose_pointer.json",
+      "sha256": "cd55ec40319a1e986c91ba30114a75b8a2a625001a839d145760eee1b4a16740",
+      "canonical_json_sha256": "662432b99e1c8026a7b722360e135da5f4c420afd515dd76e44ee5143c08e4ac"
+    }
+  },
+  "findings": [
+    {
+      "id": "IDEA000003",
+      "title": "Register-transition edges carry handoff roles",
+      "actual_claim": "An exact whole at an immediately ordered running/local/radial register transition should show an edge-specific owner/continuation interaction beyond whole identity, position, section, and host class.",
+      "tested_or_not_tested": "Not tested by the inspected predecessors. GDT790 supplies a panel-owner layer and 9 usable label/prose edges; GDT792 supplies structural host-transfer observations, while GDT388 reports no normalized ordered inscription edges. The authored ten-page bridge and GDT568 model register-conditioned frames/shared abstractions, not manuscript transition endpoints.",
+      "countermodel": "A whole may be a reusable register-conditioned class or local label whose adjacency reflects panel ownership, position, or section; shared strings and shared register abstractions can coexist without a handoff event.",
+      "reopening": "Freeze register-pair and endpoint labels, admit enough held ordered edges to pass GDT388 capacity/provenance/held/mobile-null gates, then test edge×ordered-pair interaction against whole, position, section, and host-class controls with leave-one-pair-out validation. A null after those controls would falsify this handoff mechanism; section or class frequencies alone do not."
+    },
+    {
+      "id": "IDEA000008",
+      "title": "Exact local labels point to a prose record member",
+      "actual_claim": "A repeated complete label whole selects a specific nearby prose owner/item, with transfer to held panels and at least two physical folios, rather than acting as a reusable class/slot code.",
+      "tested_or_not_tested": "Not tested as an indexical pointer. GDT247 found 3/23 exact label/prose reuses, all PROXIMITY_ONLY; GDT790 found 9 usable edges while changing no token meanings; GDT792 explicitly retains address, class, member, name/grade/number, and opaque-family rivals and assigns zero semantic credit. No independent native owner adjudication or held owner transfer was supplied.",
+      "countermodel": "A generic class code can recur as a standalone label and in prose near a panel; proximity/section frequency can generate the observed pairs without selecting a singular item.",
+      "reopening": "Obtain independently adjudicated native panel owners plus exact occurrence joins on at least two held physical folios, with nearby-label and cross-panel equal-frequency controls. Score owner/item transfer only after direction and endpoint identity are frozen; current shared strings are not manuscript pointers."
+    }
+  ],
+  "evidence": [
+    {
+      "type": "primary_source",
+      "path": "GDT247_LABEL_PROSE_MEMBER_REUSE_REPORT.md",
+      "line": 7,
+      "line_end": 19,
+      "quote": "Across 23 label groups aligned in all three readings, three exact source-native\nmember identities recur as complete internal prose groups:\n\n| source surface | graphical label | neutral human geometry | prose occurrence | paragraph |\n|---|---|---|---|---|\n| `okaly` | f80r.3 | above figure 3 | f80r.31 group 6/8 | P2 |\n| `olky` | f80r.7 | above figure 7 | f80r.38 group 2/13 | P3 |\n| `okal` | f82r.36 | between figure 2 and a vertical feature | f82r.6 group 6/9 | P1 |\n\nAll three equalities hold in ZL3b, IT2a, and RF1b. They are stronger than\nfamily-shape similarity: the complete ordered member vectors and visible\nsource forms agree. All prose occurrences are line-internal, whereas the\ngraphical occurrences stand alone.",
+      "sha256": "e743d1e3999db757120b4f5569606b2e2f8e214ce8ea214b364cad6012acd3be"
+    },
+    {
+      "type": "primary_source",
+      "path": "GDT247_LABEL_PROSE_MEMBER_REUSE_REPORT.md",
+      "line": 32,
+      "line_end": 39,
+      "quote": "## Counterweight\n\nThe interface is sparse: only 3/23 aligned label groups match same-page prose,\nand all three human ownership grades are `PROXIMITY_ONLY`. The remaining 20\nlabels do not have an exact local prose counterpart. Family-level matching is\nbroader than member-level identity, and ordinary prose itself contains many\nrecurrent short groups. This is a candidate code interface, not evidence for a\ndictionary or a named figure.",
+      "sha256": "e743d1e3999db757120b4f5569606b2e2f8e214ce8ea214b364cad6012acd3be"
+    },
+    {
+      "type": "primary_source",
+      "path": "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/REPORT.md",
+      "line": 27,
+      "line_end": 54,
+      "quote": "## Complete coverage\n\n| Scope | Count |\n|---|---:|\n| official images reviewed | 3 |\n| visible panel owners | 10 |\n| paragraph records | 13 |\n| prose lines | 123 |\n| prose tokens | 940 |\n| graphical label loci | 27 |\n| label tokens | 28 |\n| exact label-token/prose occurrence edges | 10 |\n| usable multi-character edges | 9 |\n| token meanings changed | 0 |\n| prefix/root exports | 0 |\n\nThe page-level pattern is coherent:\n\n- f77r's label-rich upper arch owns the longest local record: eight labels and\n  142 prose tokens, versus one/92 and one/87 in the other two panels.\n- f82r's lower communal pool is both the most visually populated and the most\n  label-heavy: twelve labels and 126 prose tokens, versus zero/72 and one/80.\n- f83r's three single-figure panels have no separate labels and 72, 84 and 63\n  tokens. Its lower coupled system has four labels and 122 tokens distributed\n  over two main and two embedded records.\n\nThis supports panel-level ownership. It does not by itself identify the\nlanguage or turn label count into syntax.",
+      "sha256": "c613d9869015e996ed6e8a33463a041a453e468f439ce78c4fdaa54a0bbe0ee3"
+    },
+    {
+      "type": "primary_source",
+      "path": "experiments/yolo/gdt792_target_masked_image_form_host_transfer/REPORT.md",
+      "line": 77,
+      "line_end": 88,
+      "quote": "The two new f72 label-to-prose pairs and two retained f82 pairs are exact\ncomplete-whole reuse observations. They form only two page clusters: two f72\nlabels converge on one prose occurrence, while one f82 label is reused twice\nin prose. The GDT388 intake returns\n`VALID_ACQUISITION_NOT_SCORE_READY`, with zero eligible edges. Transcription\norder is not reference direction, and every edge retains zero semantic credit.\n\nSelecting `Ziel-/Bezugsstelle` from those shared observations would merely\nrepeat the previous failure mode: choose a preferred gloss first, then score\nfeatures that all rival glosses predict equally well. GDT792 records that the\nraw preregistered trigger fired but deliberately withholds its semantic\nconsequence.",
+      "sha256": "4ca6636bceaf98a0a172a00b3b67004f4f658d06d2b9eb20328480c7f14a9003"
+    },
+    {
+      "type": "primary_source",
+      "path": "experiments/yolo/gdt388_acquisition_ready_relation_edge_protocol/REPORT.md",
+      "line": 28,
+      "line_end": 30,
+      "quote": "These are genuine useful geometry observations. They are not independent\nrecord targets: the inventory has no normalized second target locus and no\nordered inscription edge in any of the four channels.",
+      "sha256": "deb8347e1637112afa53ffddb7ebdef51fb70535381db7efd8e5612b946a97e8"
+    },
+    {
+      "type": "primary_source",
+      "path": "experiments/yolo/gdt388_acquisition_ready_relation_edge_protocol/REPORT.md",
+      "line": 34,
+      "line_end": 48,
+      "quote": "1. **Authorial connectors between labeled endpoints.** Census all 61 pages on\n   30 folios in the frozen permitted-annotation frame for visible arrows, lines,\n   ducts, paths, or pointers whose two endpoint inscriptions can both be\n   localized. This is the only primary route that directly matches the GDT387\n   relation endpoint.\n2. **Normalize local text-object relations.** The 95 current positives can\n   support a separate object-relation endpoint after object IDs and ownership\n   are normalized, but they may not be smuggled into the parent-link test.\n3. **Upgrade cross-page referents only if direction is external.** Forty frozen\n   same/similar-drawing pairs have no ordered edge.\n4. **Special-circle pointer census.** The 45 frozen arrays on seven folios have\n   no authorial start/direction; radial or catalogue order is excluded.\n5. **Q20 inter-record pointer census.** The 170 star-owned records on eight\n   folios have no visible record-to-record target. OPEN/BODY is source hierarchy,\n   not a relation edge.",
+      "sha256": "deb8347e1637112afa53ffddb7ebdef51fb70535381db7efd8e5612b946a97e8"
+    },
+    {
+      "type": "primary_source",
+      "path": "experiments/yolo/gdt388_acquisition_ready_relation_edge_protocol/REPORT.md",
+      "line": 57,
+      "line_end": 61,
+      "quote": "No score is authorized until every frozen gate passes. In particular, capacity\nmust reach at least 50 singular directed edges on five folios, and the target\nmust remain mobile after matching. Confirmation planning should still prefer\nthe stronger GDT372 design of one to three external comparisons with many\ncomplete arrays and multiple held folios.",
+      "sha256": "deb8347e1637112afa53ffddb7ebdef51fb70535381db7efd8e5612b946a97e8"
+    },
+    {
+      "type": "primary_source",
+      "path": "experiments/yolo/sidequest_semantic_ten_page_register_bridge/TEN_PAGE_REGISTER_BRIDGE_REPORT.md",
+      "line": 5,
+      "line_end": 25,
+      "quote": "Die Prosa- und Kreisseiten benutzen sehr wahrscheinlich nicht zwei völlig\nverschiedene Schriftsysteme. Sie benutzen denselben kleinen Satz von\nWerkstattkürzeln, aber jedes Seitenregister konkretisiert ihn anders.\n\nDas ist der bisher einfachste Weg, alle zehn Seiten gemeinsam zu lesen:\n\n- Im Pflanzen- und Baderegister bezeichnet `AIR` einen Lauf von Flüssigkeit.\n- Im Kreisregister bezeichnet derselbe Kern einen Lauf entlang eines Rings,\n  Bandes oder Zeigers.\n- `AL` bleibt in beiden Registern ein Ziel.\n- `AR` bleibt in beiden Registern ein Ausgang oder Bezugspunkt.\n- `AIIN` bleibt ein vorgegebener Wert: in der Prosa ein Sollmaß, im Diagramm\n  ein Grad oder Platzwert.\n- `OK` setzt etwas in den laufenden Arbeitsgang; im Diagramm setzt oder\n  aktiviert es einen Platz.\n- `OT` geht zum nächsten Posten, `OL` führt denselben Satz weiter.\n\nDas ist keine wörtliche Übersetzung von „Wasser“ in den Himmel. Es ist eine\ngemeinsame technische Abstraktion. Ein Schreiber lernt den kurzen Kern\n`LAUF`; das aktive Register sagt ihm, ob damit Wasserlauf oder Kreisverlauf\ngemeint ist.",
+      "sha256": "e08b787098c59969607cd7662b2cba83ba11cb7007589e9a6d38951a13d1d2c9"
+    },
+    {
+      "type": "primary_source",
+      "path": "experiments/yolo/gdt568_twenty_owner_action_voice_frames/REPORT.md",
+      "line": 24,
+      "line_end": 29,
+      "quote": "Das ist ein brauchbares Modell für die gesuchte Mischung: Die kurze Wurzel\nträgt einen breiten, wiederverwendbaren Handlungskern; das Register wählt den\ngelernten Fachrahmen. `K` muss deshalb nicht plötzlich drei verschiedene\nWörterbuchbedeutungen erhalten. `GEBEN` bleibt die gemeinsame Arbeitsbedeutung,\nwährend Text/Himmel `zuordnen`, Pflanzen/Pharma `zugeben` und Stationen\n`zuführen` als konkrete Lesestimmen benutzen.",
+      "sha256": "3118c040bd1ee1746c2f9ea1ee58a1c500310a83702571f5a8c12f01d5f75804"
+    }
+  ],
+  "decision": "Both ideas remain untested proposals. Existing reports provide structural prerequisites and counterweights, but no distinct predeclared semantic observable or operative review is justified."
+}

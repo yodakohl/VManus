@@ -1,0 +1,39 @@
+{
+  "review_id": "IH_INTAKE_LOGIC_REVIEW",
+  "status": "CORRECTED_PREADD_NONOPERATIVE",
+  "scope": "Logical review of three unappended IH drafts; no idea add, review, refresh, ledger, build, or experiment.",
+  "method": "Compared the full draft designs with exact bounded cards IDEA000028, IDEA000030, IDEA000032, ran proposal duplicate navigation and route-check, and validated every source span with tools.semantic_identity._evidence(Path.cwd(), [source_evidence]).",
+  "source_validation": [
+    {"proposal_file":"research_registry/proposals/ih_prohibition_description.json","file_sha256":"57dd282e868d97fd47a6bfd385378db5ad115ee925550def92c8f86bdadd591a","design_sha256":"8770bea9aae2ab27ba3257c02df45228f962b9f9232203923caee83a430b0474","source":"GDT269_Q13_WRAPPER_HOST_CONDITIONAL_REPORT.md:34-38","source_sha256":"eb7accca65a6de8ccbc5c80cedf6f39b48b333f9b112fa4e1cbc4bb5f37d453d","evidence_check":"PASS"},
+    {"proposal_file":"research_registry/proposals/ih_temporal_precedence.json","file_sha256":"6d8c9b77154fc20f9b73768aaa3ead4afadadeef0965d52f3f6c90a587df8724","design_sha256":"df62f604f8a990be54910920f1a836432de6003366562aaeba4253c6cf35f8ed","source":"GDT269_Q13_WRAPPER_HOST_CONDITIONAL_REPORT.md:7-15","source_sha256":"eb7accca65a6de8ccbc5c80cedf6f39b48b333f9b112fa4e1cbc4bb5f37d453d","evidence_check":"PASS"},
+    {"proposal_file":"research_registry/proposals/ih_distributive_collective.json","file_sha256":"488546505bbdc4782cfac0621fcfb8d1354c1e55599c9ef146dc03cd2ad4468c","design_sha256":"477d2c75f3e8306e1e3461218d3f295d7efa963b9064203257d6201a17ea9897","source":"GDT238_LABEL_PREFIX_RELATION_MODE_REPORT.md:15-28","source_sha256":"b24f86d8f7c04ee7dfaa77b9b87ca493e6bd1ac1bcc3b758b346738484a13060","evidence_check":"PASS"}
+  ],
+  "corrections": [
+    {
+      "proposal_file":"research_registry/proposals/ih_prohibition_description.json",
+      "decision":"RETAIN_ONLY_AS_NARROW_SPECIALIZATION",
+      "relation_to":"IDEA000028",
+      "reason":"IDEA000028 explicitly covers required/forbidden action. The IH draft now fixes one target: negative prohibition of an otherwise stable action, excluding requirement, non-applicability, and conditionality. This is a narrower falsifier, not a new general modality claim; an independent prohibition endpoint is still missing.",
+      "countermodel":"A register/template wrapper can mimic negative status without encoding prohibition.",
+      "falsifier_scope":"No independently bound prohibition interaction in matched action/material contexts; downstream requirement or non-applicability is a rival outcome, not a pass."
+    },
+    {
+      "proposal_file":"research_registry/proposals/ih_temporal_precedence.json",
+      "decision":"RETAIN_AS_DISTINCT_UNTESTED_CONTRAST",
+      "relation_to":"IDEA000030",
+      "reason":"Temporal order and causal dependence are distinct target relations, but a temporal marker may correlate with a downstream consequence. The former draft incorrectly treated consequence prediction/correlation as a falsifier.",
+      "countermodel":"A wrapper or field-position policy can generate earlier placement without temporal semantics.",
+      "falsifier_scope":"Only failure or reversal of the independently bound candidate/order contrast after controls falsifies precedence. Consequence correlation alone does not; discrimination needs cases varying order and causal relation separately."
+    },
+    {
+      "proposal_file":"research_registry/proposals/ih_distributive_collective.json",
+      "decision":"RETAIN_AS_SCOPE_SPECIALIZATION_RELATED_TO",
+      "relation_to":"IDEA000032",
+      "reason":"IDEA000032 tests shared list grouping. IH now targets member-level predicate scope. Distributivity does not require heterogeneous outcomes: 'each is red' can be uniformly true.",
+      "countermodel":"A renderer can repeat member fields for a collective group.",
+      "falsifier_scope":"Only consistent absence of independently bound member-level predicate scope, with group-level licensing instead, falsifies; uniform outcomes or repeated fields alone do not."
+    }
+  ],
+  "dependency_limits": "All three remain raw/unreviewed with availability_unknown independent meaning endpoints. GDT269 and GDT238 observations motivate contrasts but do not bind meanings. No readiness or empirical pass is claimed.",
+  "intake_draft_updated":"research_registry/decisions/ih_raw_intake_draft.json"
+}

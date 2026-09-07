@@ -1,0 +1,119 @@
+{
+  "status": "adversarial_design_challenge",
+  "scope": "IDEA000003, IDEA000008, IDEA000012, IDEA000017; logical/source review only",
+  "raw_designs": {
+    "IDEA000003": {
+      "path": "research_registry/proposals/hc_register_edge_handoff.json",
+      "sha256": "bd4b7262767bfe8ffced287afc58b4a194c3be568f102aa9c1382fa80b2a368a",
+      "canonical_json_sha256": "6072a876601477fbd47510c57cb710ebbde29d464dccb13fc54f3919d3f8cfd2"
+    },
+    "IDEA000008": {
+      "path": "research_registry/proposals/hc3_label_prose_pointer.json",
+      "sha256": "cd55ec40319a1e986c91ba30114a75b8a2a625001a839d145760eee1b4a16740",
+      "canonical_json_sha256": "662432b99e1c8026a7b722360e135da5f4c420afd515dd76e44ee5143c08e4ac"
+    },
+    "IDEA000012": {
+      "path": "research_registry/proposals/hc3_record_topic.json",
+      "sha256": "046bda78053eebfec186c43c8b0c790419f5750de204cc03a22a9db98865ba26",
+      "canonical_json_sha256": "64546a6c883678ae64a9bfe2804ecb1c3c32e272487fbe9e49e48dcea38aafcd"
+    },
+    "IDEA000017": {
+      "path": "research_registry/proposals/hc5_definiteness_anaphora.json",
+      "sha256": "9e2019cf531cdfc40eb428436f1af45abe4bc6805b7789268b9090a590919836",
+      "canonical_json_sha256": "569b1901e3a8235114504be4a7fc2bb4752c0d28ea64ee776ac66a0e42aa07d5"
+    }
+  },
+  "challenges": [
+    {
+      "id": "IDEA000003",
+      "issue": "Pair-specific mechanism versus transfer validation",
+      "correction": "The design permits pair-specific handoff roles, so leave-one-register-pair-out is not a valid transfer test unless a shared cross-pair rule or hierarchical pooling model is predeclared. A null can reject only the specified edge×pair interaction at adequate held-edge power; it cannot reject all handoff mechanisms.",
+      "required_discrimination": "Predeclare saturated pair-specific, shared-effect, and hierarchical alternatives; require capacity and mobile endpoint gates before scoring. Report which ordered pairs have support and whether any effect transfers to an unseen pair."
+    },
+    {
+      "id": "IDEA000008",
+      "issue": "Generic class may be locally member-selective",
+      "correction": "Held-panel success does not by itself distinguish an indexical pointer from a class code whose class is coextensive with one local member. The generic-class rival must include local member selection and can pass the current owner-transfer criterion.",
+      "required_discrimination": "Cross contexts where the same class label has different independently adjudicated owners/items, or where multiple members share the class; compare exact item identity against proximity, section, and class controls. Owner transfer alone is insufficient."
+    },
+    {
+      "id": "IDEA000012",
+      "issue": "Positional opener and topic can coexist",
+      "correction": "A record-initial positional opener may also introduce a topic. The current opener countermodel is not mutually exclusive with topic persistence, so continuity alone cannot adjudicate the mechanism.",
+      "required_discrimination": "Test an added topic-persistence interaction conditional on opener position, record length, section, and host; independently mark topic changes and compare candidate wholes with structural openers. A null rejects only the added persistence effect."
+    },
+    {
+      "id": "IDEA000017",
+      "issue": "Reference-history effect versus lexical function",
+      "correction": "Definite and anaphoric uses can coexist for every noun or construction. A prior-mention cue-rate effect may be general discourse behavior, not a change in the candidate whole’s function.",
+      "required_discrimination": "Estimate whole×prior-owner interaction against matched forms/owners/positions and an independently annotated cue process. The 70%/20-point thresholds test usage-conditioned reference behavior, not a lexical switch from definite to anaphoric."
+    }
+  ],
+  "evidence": [
+    {
+      "type": "primary_source",
+      "path": "research_registry/proposals/hc_register_edge_handoff.json",
+      "line": 5,
+      "line_end": 12,
+      "quote": "  \"design\": {\n    \"mechanism\": \"A whole at a register boundary signals transfer of the active record or target between adjacent presentation modes; its role depends on the ordered source/target register pair.\",\n    \"unit\": \"complete-whole occurrence within one field of a cached register transition, with non-edge occurrences of the same whole as controls\",\n    \"contrast\": \"edge occurrence versus matched non-edge occurrence, crossed with ordered register pair and section; leave-one-register-pair-out validation\",\n    \"prediction\": \"A small set of whole forms shows reproducible edge-specific continuation/owner-slot changes for one or more ordered register pairs, beyond whole identity, position, section, and host-class baselines.\",\n    \"scope\": \"admitted visual-owner spine and cached text/register tags; feasibility unknown for enough held transition edges, and no new page access is assumed\",\n    \"falsifier\": \"No held edge interaction, or improvement disappears when whole identity and host class are controlled, falsifies the handoff mechanism; a global class lead is not sufficient.\",\n    \"related\": \"post_IL023_system_class_heterogeneity_correction; GDT790_panel_owner_image_grammar_overlay; GDT792_host_transfer; these predecessors do not test ordered register-edge interaction\"",
+      "sha256": "bd4b7262767bfe8ffced287afc58b4a194c3be568f102aa9c1382fa80b2a368a"
+    },
+    {
+      "type": "primary_source",
+      "path": "research_registry/proposals/hc3_label_prose_pointer.json",
+      "line": 5,
+      "line_end": 13,
+      "quote": "  \"design\": {\n    \"mechanism\": \"A label whole selects the specific prose item owned by its nearby panel; the same whole outside that panel need not select that item.\",\n    \"unit\": \"exact label/prose whole pair with native panel-owner relation\",\n    \"contrast\": \"same-panel label/prose pairs versus nearby-label and cross-panel matched controls with equal whole frequency\",\n    \"prediction\": \"True pointer candidates recover the same owner or item field on held panels and at least two physical folios, while generic class-code controls do not.\",\n    \"scope\": \"admitted visual-owner spine and cached label/prose selectors; feasibility unknown where the panel has no singular native owner\",\n    \"countermodel\": \"Labels are reusable class or slot codes; pairings should follow proximity or section frequency and fail owner-held transfer.\",\n    \"binding\": \"independent native panel-owner adjudication plus exact text occurrence joins on at least two held physical folios\",\n    \"related\": \"GDT247 label-prose member reuse; GDT790 panel-owner overlay; GDT794 repeated labels; no token meaning changes implied\"",
+      "sha256": "cd55ec40319a1e986c91ba30114a75b8a2a625001a839d145760eee1b4a16740"
+    },
+    {
+      "type": "primary_source",
+      "path": "research_registry/proposals/hc3_record_topic.json",
+      "line": 5,
+      "line_end": 13,
+      "quote": "  \"design\": {\n    \"mechanism\": \"A record-initial whole introduces a topic that later compatible fields inherit without repeating an owner cue.\",\n    \"unit\": \"admitted record with an initial complete whole, later fields, and independently tagged owner/topic changes\",\n    \"contrast\": \"records with a candidate initial whole versus matched records whose first field is a structural opener or opaque whole\",\n    \"prediction\": \"Candidate initial wholes predict later compatible item/part fields and fewer unexplained owner switches through the record, across held folios.\",\n    \"scope\": \"cached record-local fields and admitted owner-spine selectors; feasibility unknown where record boundaries remain inherited rather than independently bound\",\n    \"countermodel\": \"The initial whole is only a positional opener; later fields should show no topic continuity beyond section and record length.\",\n    \"binding\": \"independent record-boundary and topic/owner annotations across at least five physical folios, excluding line-end assumptions\",\n    \"related\": \"GDT581 structural parser limits; GDT791 record-boundary correction; distinct from drawing-reset and line-break hypotheses\"",
+      "sha256": "046bda78053eebfec186c43c8b0c790419f5750de204cc03a22a9db98865ba26"
+    },
+    {
+      "type": "primary_source",
+      "path": "research_registry/proposals/hc5_definiteness_anaphora.json",
+      "line": 5,
+      "line_end": 13,
+      "quote": "  \"design\": {\n    \"mechanism\": \"Reference status depends on discourse introduction versus prior mention.\",\n    \"unit\": \"candidate whole occurrence with prior-owner history\",\n    \"contrast\": \"first-owner mention versus later same-owner mention, matched by record position and section\",\n    \"prediction\": \"At least 70% of later mentions preserve the prior owner without a new introduction cue, while first mentions show the cue at least 20 points more often.\",\n    \"scope\": \"cached record-local fields; feasibility unknown until owner/reference annotations are independently bound\",\n    \"countermodel\": \"The whole has a fixed lexical or structural role; prior mention does not change owner-cue behavior.\",\n    \"binding\": \"independent owner/reference annotations across five physical folios\",\n    \"related\": \"GDT573 and GDT596 anaphoric routes; changed target is quantitative prior-mention conditioning\"",
+      "sha256": "9e2019cf531cdfc40eb428436f1af45abe4bc6805b7789268b9090a590919836"
+    },
+    {
+      "type": "primary_source",
+      "path": "experiments/yolo/gdt388_acquisition_ready_relation_edge_protocol/REPORT.md",
+      "line": 28,
+      "line_end": 30,
+      "quote": "These are genuine useful geometry observations. They are not independent\nrecord targets: the inventory has no normalized second target locus and no\nordered inscription edge in any of the four channels.",
+      "sha256": "deb8347e1637112afa53ffddb7ebdef51fb70535381db7efd8e5612b946a97e8"
+    },
+    {
+      "type": "primary_source",
+      "path": "experiments/yolo/gdt388_acquisition_ready_relation_edge_protocol/REPORT.md",
+      "line": 34,
+      "line_end": 41,
+      "quote": "1. **Authorial connectors between labeled endpoints.** Census all 61 pages on\n   30 folios in the frozen permitted-annotation frame for visible arrows, lines,\n   ducts, paths, or pointers whose two endpoint inscriptions can both be\n   localized. This is the only primary route that directly matches the GDT387\n   relation endpoint.\n2. **Normalize local text-object relations.** The 95 current positives can\n   support a separate object-relation endpoint after object IDs and ownership\n   are normalized, but they may not be smuggled into the parent-link test.",
+      "sha256": "deb8347e1637112afa53ffddb7ebdef51fb70535381db7efd8e5612b946a97e8"
+    },
+    {
+      "type": "primary_source",
+      "path": "experiments/yolo/gdt388_acquisition_ready_relation_edge_protocol/REPORT.md",
+      "line": 57,
+      "line_end": 61,
+      "quote": "No score is authorized until every frozen gate passes. In particular, capacity\nmust reach at least 50 singular directed edges on five folios, and the target\nmust remain mobile after matching. Confirmation planning should still prefer\nthe stronger GDT372 design of one to three external comparisons with many\ncomplete arrays and multiple held folios.",
+      "sha256": "deb8347e1637112afa53ffddb7ebdef51fb70535381db7efd8e5612b946a97e8"
+    },
+    {
+      "type": "primary_source",
+      "path": "GDT220_FIXED_EDGE_LOCAL_REFERENCE_REPORT.md",
+      "line": 7,
+      "line_end": 26,
+      "quote": "The seven exact GDT217 page/key cells do not become seven references when\nchecked against the existing human catalogue.  Only **1/7** is independently\nco-localized: f83r.51 (`darolsy`) is the lower label near the right structure\nof the southwest figure, and f83r.52 starts the text block below that same\nfigure.  Their fixed source-family key is `CA` and the loci are consecutive.\n\nTwo cells are explicit counterexamples.  f75v links a top-pond label key to a\nlower-pond paragraph key; f99v's `KA` cell links a row-1 plant label to the\nbottom text block.  The remaining four cells have only page-level overlap or\nmix labels from several visual units with prose lacking an exact owner.\n\nThe f83 local permutation diagnostic is also small: placing the observed `CA`\nlabel key in the lower strict-label position occurs in **2/6** reassignments\n(`p=0.3333`).  The other lower label, f83r.50, lacks a strict eligible\nfamily value.  In the available HPR2 rows of f83r.52--55, exact host `arolsy`\noccurs **0** times.  Exact `ol` occurs **4** times and\nAR/AL-like states occur **4** times, but those are common\nconstruction material, not a recovered content address.  HPR2 coverage is\ncomplete for only **2/4** lines, so missing groups are not\nnegative evidence.",
+      "sha256": "90ded4506625c0002faa50f184f8f4680cbbc9d468b1ed1802fc2b03bc840522"
+    }
+  ],
+  "decision": "All four proposals remain potentially testable only after these contrasts are made explicit. Existing endpoint evidence is insufficient for operative review; GDT388 requires at least 50 singular directed edges on five folios and mobile targets, while GDT220 demonstrates that local proximity can produce counterexamples."
+}
