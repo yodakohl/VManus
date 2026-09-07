@@ -16,7 +16,7 @@
     "status": "FAIL_PRE_EXISTING"
   },
   "idea_ids_and_mention_lines_exact": 82,
-  "imported_records": 5100,
+  "imported_records": 5102,
   "importer_invoked": false,
   "index_rows_exact": 870,
   "initial_import_report_bodies_opened": false,
@@ -24,10 +24,10 @@
     "anchor": 11,
     "attempt": 870,
     "family": 59,
-    "history": 4078,
+    "history": 4080,
     "idea": 82
   },
-  "ledger_events_exact": 4152,
+  "ledger_events_exact": 4154,
   "ledger_fields": [
     "date",
     "status",
@@ -45,7 +45,9 @@
   "manuscript_data_opened": false,
   "metadata_refresh_invoked": true,
   "registry_check": {
-    "records": 5100,
+    "authored_idea_records": 6,
+    "imported_records": 5102,
+    "records": 5108,
     "status": "PASS"
   },
   "report_bodies_opened": false,
@@ -65,6 +67,8 @@
     },
     "archived_source_cases": 44,
     "archived_source_error_cards": 44,
+    "authored_proposals_are_not_historical_review_dispositions": true,
+    "authored_proposals_in_inventory": 6,
     "cards": 4119,
     "correction_revisions_checked": 295,
     "default_semantic_cards": 3854,
@@ -218,7 +222,7 @@
       }
     },
     "status": "PASS",
-    "synthetic_tests": 11,
+    "synthetic_tests": 12,
     "validator_source": "tests/test_semantic_ideas.py"
   },
   "semantic_inventory_pass": {
@@ -233,19 +237,19 @@
       "anchor": 11,
       "attempt": 870,
       "family": 59,
-      "history": 4078,
+      "history": 4080,
       "hypothesis_component": 3788,
       "hypothesis_proposal": 427,
-      "idea": 82,
+      "idea": 88,
       "source_excerpt": 4943,
       "unresolved_source_block": 15478
     },
-    "ledger_events_exact": 4152,
+    "ledger_events_exact": 4154,
     "limitation": "Full coverage of current registered metadata and retained extraction records only. Candidate, source excerpt, unresolved block and historical record are distinct units, not independently deduplicated ideas; omitted or unavailable historical source material is not reconstructed.",
-    "operational_items": 29736,
+    "operational_items": 29744,
     "ready_entries": 0,
     "source_hashes_match": true,
-    "source_records_exact": 5100,
+    "source_records_exact": 5108,
     "statement_and_source_spans_preserved": true,
     "status": "PASS",
     "synthetic_tests": 9,
@@ -263,7 +267,7 @@
       "relations": 42
     },
     "input_sha256": {
-      "research_registry/semantic_failure_decisions.jsonl": "af9f2ad3a1dec30393cb3f06a6488d56fe07f1643db5cc87d72c7ee6fdddfc9c",
+      "research_registry/semantic_failure_decisions.jsonl": "7b6c1e3cb29c1397a5496c2785ea055d8044b594b6e2624559d174ffa7f395bf",
       "research_registry/semantic_identity_decisions.jsonl": "1ba8f2f2e63eea7338625696ed2a9e354137c6f303dcaf9f4136819f6fb89052",
       "research_registry/semantic_priority_decisions.jsonl": "2d8fa90ad00098ca4ffa344b5bce15657a6986c742d767d972cd50489ec450dc",
       "tools/semantic_ideas.py": "582b744494a225954c4b9ad7d60fca058e6f955c07228bded225f9405e2a814d",
@@ -272,7 +276,7 @@
     },
     "scientific_ready_in_reviewed_subset": 0,
     "scope_status_inheritance": false,
-    "scoped_failure_dossiers": 42,
+    "scoped_failure_dossiers": 44,
     "source_binding_checked": true,
     "status": "PASS",
     "validation_scope": "Historical source recovery, scoped corrections, explicit model-revision questions and current decision bindings; no independent meaning validation."

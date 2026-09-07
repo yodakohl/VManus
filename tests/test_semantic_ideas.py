@@ -8,6 +8,7 @@ class SemanticIdeasTests(unittest.TestCase):
         temp=tempfile.TemporaryDirectory();self.addCleanup(temp.cleanup);self.root=Path(temp.name)
         (self.root/'reports').mkdir();(self.root/'reports/evidence.md').write_text('powder is a candidate\nis is a rival candidate\nAn opening role is structural\n')
         (self.root/'research_registry/decisions').mkdir(parents=True)
+        (self.root/'research_registry/imported.jsonl').write_text('')
         self.inventory=self.root/'research_registry/semantic_inventory.jsonl'
         self.inventory.write_text(json.dumps({'id':'SOURCE1'})+'\n'+json.dumps({'id':'SOURCE2'})+'\n')
         for p in ideas.REVIEWS:(self.root/p).write_text(json.dumps({'cards':[],'dispositions':[]}))
@@ -84,6 +85,22 @@ class SemanticIdeasTests(unittest.TestCase):
         (self.root/ideas.CORRECTIONS).write_text(json.dumps(review)+'\n')
         self.build([self.card()])
         return original
+
+    def test_authored_intake_does_not_waive_missing_historical_disposition(self):
+        self.corrected_fixture('archive_source_error')
+        raw=dict(id='IDEA1',source_set='research_registry',item_type='idea')
+        (self.root/'research_registry/ideas.jsonl').write_text(json.dumps(raw)+'\n')
+        with self.inventory.open('a') as stream:stream.write(json.dumps(raw)+'\n')
+        self.build([self.card()])
+        report=audit_actual(self.root)
+        self.assertEqual(report['authored_proposals_in_inventory'],1)
+        self.assertEqual(report['source_disposition_coverage']['ip']['expected'],0)
+        historical=dict(raw,id='IP1')
+        (self.root/'research_registry/imported.jsonl').write_text(json.dumps(historical)+'\n')
+        with self.inventory.open('a') as stream:stream.write(json.dumps(historical)+'\n')
+        self.build([self.card()])
+        with self.assertRaisesRegex(AssertionError,'ip source disposition gap'):
+            audit_actual(self.root)
 
     def test_independent_audit_counts_archived_cases_without_scientific_rejection(self):
         self.corrected_fixture('archive_source_error')
@@ -225,7 +242,12 @@ def audit_actual(root):
     review_files=ideas.REVIEWS+[p for p in getattr(ideas,'EXTRA_REVIEWS',[]) if (root/p).exists()]
     expected_proposals={r['id'] for r in inventory if r.get('source_set')=='legacy_proposal_extraction' and r.get('item_type') in ('source_excerpt','hypothesis_proposal')}
     expected_components={r['id'] for r in inventory if r.get('source_set')=='legacy_semantic_components' and r.get('item_type')=='hypothesis_component'}
-    expected_ip={r['id'] for r in inventory if r.get('source_set')=='research_registry' and r.get('item_type')=='idea'}
+    imported={json.loads(line)['id'] for line in (root/'research_registry/imported.jsonl').read_text().splitlines() if line.strip()}
+    authored={json.loads(line)['id'] for line in (root/'research_registry/ideas.jsonl').read_text().splitlines() if line.strip()} if (root/'research_registry/ideas.jsonl').exists() else set()
+    inventory_ideas={r['id'] for r in inventory if r.get('source_set')=='research_registry' and r.get('item_type')=='idea'}
+    assert not (imported & authored), 'authored/imported identity collision'
+    assert inventory_ideas-imported == authored, 'authored proposal inventory gap'
+    expected_ip=inventory_ideas & imported
     observed={key:[] for key in ('proposal','component','ip')}
     references=0
     all_card_ids={c['id'] for p in review_files for c in json.loads((root/p).read_text())['cards']}
@@ -249,7 +271,8 @@ def audit_actual(root):
         correction_revisions_checked=len(corrections),original_assertions_and_case_fields_preserved=True,
         source_corrections_are_not_scientific_rejections=True,
         member_ids_existing=True,exact_source_quotes_and_hashes=True,ready_entries=0,
-        source_disposition_coverage=coverage,disposition_card_references_checked=references,
+        source_disposition_coverage=coverage,authored_proposals_in_inventory=len(authored),
+        authored_proposals_are_not_historical_review_dispositions=True,disposition_card_references_checked=references,
         accepted_item_types=dict(Counter(c['claim_type'] for c in cards)),disposition_rows_by_review=decisions,
         synthetic_tests=unittest.defaultTestLoader.loadTestsFromTestCase(SemanticIdeasTests).countTestCases(),validator_source='tests/test_semantic_ideas.py',
         input_sha256={'research_registry/semantic_ideas.jsonl':hashlib.sha256(data.read_bytes()).hexdigest(),

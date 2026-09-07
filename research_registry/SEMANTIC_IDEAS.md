@@ -4,6 +4,8 @@ This is the working view of source-attested historical propositions, not a repor
 of decipherment. Source pointers, empty headings, methods without a proposition,
 result-only rows and unfinished extraction work are excluded from the idea list.
 They remain in the source archive. No hypothesis becomes executable by inclusion.
+New IDEA proposals live in the general registry and retain their review status;
+they do not automatically add historical SEM cards or confirmed meanings.
 
 ## Current public snapshot
 
@@ -93,14 +95,14 @@ not mean rejected, and an old source PASS does not confirm a meaning.
 
 ## Failure memory and conditional priorities
 
-Forty-two scoped question dossiers distinguish empirical failure, invalid test,
+Forty-four scoped question dossiers distinguish empirical failure, invalid test,
 insufficient capacity, missing meaning binding, proposal-only status and historical
 model revision. They appear before inherited experiment context under assessments.
 They state the actual compared subclaim, primary evidence, scope and changed-input
-requirements. The current42 dossiers directly target55 semantic cards. The nine
-priorities directly target27, with23 shared targets;3,795 semantic cards have no
+requirements. The current44 dossiers directly target57 semantic cards. The nine
+priorities directly target27, with23 shared targets;3,793 semantic cards have no
 direct target binding in these two lists. This is a coverage limit, not an
-automatic scientific verdict on those cards (see decisions/semantic_scoped_assessment_coverage_ha.json). An editorial wording preference is not an empirical falsifier.
+automatic scientific verdict on those cards (see decisions/hc_assessment_coverage.json; HA remains its earlier snapshot). An editorial wording preference is not an empirical falsifier.
 Original conditional predictions remain distinct from observed counterexamples;
 reviewer-supplied reopening conditions are prospective, not old preregistrations.
 Only the latest linked revision acts; all older decisions remain in the log.

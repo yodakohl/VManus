@@ -1,0 +1,14 @@
+{
+  "title": "Ordinary line breaks preserve local owner and item state",
+  "summary": "Test the rival to a line-as-clause reading: when no DIC001 drawing interruption occurs, a line break should preserve the active owner/item state into the next line, while an interruption should reset it. The proposal uses the same admitted segment and visual-owner scope but asks a different state-transition question from DIC001.",
+  "scope": "semantic",
+  "design": {
+    "mechanism": "Physical line layout is not a semantic closure boundary; state continuity is broken by drawing interruption, not by line ending.",
+    "unit": "adjacent line pairs within cached running prose, stratified by interruption status and folio",
+    "contrast": "ordinary line break without interruption versus matched within-line continuation and interruption-adjacent line break",
+    "prediction": "Owner/item recurrence and compatible argument slots remain continuous across ordinary line breaks at rates comparable to within-line continuations, but drop after interruptions; section-specific classes remain separate.",
+    "scope": "cached 30-page owner-spine and admitted prose selectors; feasibility unknown for complete state labels outside the released owner panel",
+    "falsifier": "A line-break penalty equal to or larger than the interruption penalty, replicated in held folios, falsifies nonreset continuity; do not reinterpret line ends as clauses after the fact.",
+    "related": "DIC001_drawing_interruption_target; drawing_reset_segment_atlas; SIDEQUEST_scribe_memory (historical proposal only); GDT791 line-boundary correction"
+  }
+}

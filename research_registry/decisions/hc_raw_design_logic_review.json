@@ -1,0 +1,30 @@
+{
+  "title": "Logic review of alternate-reading and reciprocal-frame proposals",
+  "scope": "IDEA000004 and IDEA000006 only; abstract design review, no manuscript result",
+  "status": "REQUIRES_SCOPE_REPAIR_BEFORE_SELECTION",
+  "reviews": [
+    {
+      "id": "IDEA000004",
+      "proposal": "Semantic role must survive alternate raw readings",
+      "smallest_counterexamples": [
+        "Transcription: one reading systematically joins a boundary that another correctly leaves uncertain; the true whole-level role is present, but the all-reading intersection deletes the decisive occurrence.",
+        "Register/allomorph: one underlying role has a register-conditioned surface or slot realization, so the role association is strong in one reading/register projection and weak in another without being a false meaning.",
+        "Finite sampling: a true role has only two eligible occurrences, both represented in one reading's usable panel; failure to reach two reading projections is absence of support, not a counterexample."
+      ],
+      "logical_assessment": "The proposed falsifier can reject the stronger claim that a context-free whole-form role is invariant under every projection. It cannot by itself falsify the broader semantic hypothesis that the locus participates in a role, nor can one-reading failure distinguish bad transcription, sparse support, or genuine reading dependence.",
+      "repair_requirements": "Rename the target to reading-robust whole-level attachment; separate transcription disagreement, register interaction, and insufficient support; use uncertainty-aware raw-locus joins and report INCONCLUSIVE below a preregistered folio/occurrence minimum. Require invariance only within a fixed register and treat a reading-specific surface role as a different hypothesis."
+    },
+    {
+      "id": "IDEA000006",
+      "proposal": "Candidate same-role wholes require reciprocal frame compatibility",
+      "smallest_counterexamples": [
+        "Register/allomorph: A is a general carrier and B a restricted variant licensed only before one closure type; both share a broad role, but B-to-A and A-to-B frame transfer are asymmetric.",
+        "Transcription: one target's neighboring group is misread or split in a held folio, producing a one-direction failure while the underlying frames are compatible.",
+        "Finite sampling: A has four independent frames and B has one; the absent reverse frame is unobserved rather than semantically forbidden."
+      ],
+      "logical_assessment": "The falsifier is valid against context-free interchangeability or an equality-of-frame hypothesis. It is invalid as a falsifier of the broader claim that A and B share a semantic family or broad role. A directional failure can reveal specialization, selectional restriction, transcription uncertainty, or low power.",
+      "repair_requirements": "Split broad-role identity from interchangeability before testing. Replace reciprocal equality with preregistered alternatives: bidirectional interchangeability, frame inclusion (general-to-specialized), or distinct roles. Require minimum independent frames per direction and classify missing directions as INCONCLUSIVE; preserve alternate readings and do not use component decomposition to rescue a failed equality claim."
+    }
+  ],
+  "selection_guidance": "IDEA000004 is salvageable only as a bounded reading-robustness gate. IDEA000006 needs the larger conceptual split first; its current falsifier overclaims against broad shared meaning. Neither is selection-ready as written."
+}

@@ -1,0 +1,38 @@
+{
+  "review_id": "HC",
+  "status": "TWO_HISTORICAL_SCOPED_CANDIDATES",
+  "scope_note": "Selected outside the current 42 scoped dossier targets; exact source cases and current corrections were read. These are source-model adjudications, not manuscript-wide meaning refutations.",
+  "candidates": [
+    {
+      "sem_id": "SEM:23659586e96e83395266",
+      "claim": "Pass1023 blanket binding: non-L/AIR attachments close on the left action head, while L/AIR frame the right head at unequal multi-head positions.",
+      "previous_review_ids": ["FAILURE_AW:PASS1023_BLANKET_BINDING:v1", "FAILURE_AW:PASS1023_BLANKET_BINDING:v2", "semantic_counterexample_peer_aw", "clean_gap_review_aw_integrated"],
+      "primary_evidence": {
+        "path": "experiments/yolo/sidequest_semantic_scope_ambiguity_resolution_one_thousand_twenty_third/EQUAL_DISTANCE_GENERALIZATION_REPORT.md",
+        "lines": "5-30",
+        "linehash": "962c746972a3483f9171aa597db511381b345c947e34a08279b20e1bbd5167c6",
+        "quote": "Die wörtliche Vollregel ... erzeugt außerhalb der 120 Gleichstände vier klare Widersprüche ... SA00090 ... SA00557 ... SA00563 ... SA00636."
+      },
+      "actual_compared_claim_result": "The literal universal side rule was checked against the existing interpreted binding trace over 4,345 focus rows: 2,859 consistent, 28 same-value unresolved, 1,454 without a local head, and 4 clear contradictions. The successor nearest-head rule matches 3,100 locally testable rows; the blanket extension is rejected, while the 120-tie rule remains.",
+      "falsifier": "Any documented source/attachment-trace correction must remove all four contradictions under the unchanged blanket rule; otherwise the rule remains failed.",
+      "already_assessed": "Yes, by AW primary/peer review; no current 42 scoped dossier target. The review explicitly says no independent syntax gold standard, so this is an internal model counterexample.",
+      "smallest_remaining_unknown": "Whether any of the four existing trace bindings is wrong under independently reviewable source evidence; correcting one alone cannot rescue the universal rule."
+    },
+    {
+      "sem_id": "SEM:8966b3eec7bc1a705e2f",
+      "claim": "All 40 Pass1021 doubled-core cases encode outer/inner nested levels.",
+      "previous_review_ids": ["FAILURE_BC:ALL_DOUBLES_NESTED:v1", "semantic_failure_proposal_bc", "clean_gap_review_az_integrated"],
+      "primary_evidence": {
+        "path": "experiments/yolo/sidequest_semantic_repeated_core_operator_one_thousand_twenty_first/PASS1021_REPORT.md",
+        "lines": "8-16; 33-57",
+        "linehash": "84affc6bc0549129ba953cac240822bfdc475a458088933a6fa944aa0306c38d",
+        "quote": "Die 40 Fälle teilen sich sauber in zwei Werkstattregeln ... PAKETGRENZE X+X+Z ... FREI X+X ... freies dalal und ychey haben keine innere Ergänzung für einen Stufenabstieg."
+      },
+      "actual_compared_claim_result": "The universal nesting candidate was compared with a two-branch account. Free AL+AL (dalal) and Y+Y (ychey) lack the internal complement required for level descent, so the report rejects universal nesting and retains nesting only at package boundaries; free doubles are plural/iterative.",
+      "falsifier": "A source or parse correction must make both free dalal and ychey genuinely complemented under the original universal contract; otherwise those concrete countercases remain.",
+      "already_assessed": "Yes, in the BC proposal and AZ source review; no current 42 scoped dossier target (coverage lists it only as nonsemantic/inactive). This is a source-model countercase, not independent semantic gold.",
+      "smallest_remaining_unknown": "Whether the free-versus-complemented classifications or component boundaries are erroneous; absent that, a restricted package-boundary rule is the smallest surviving claim."
+    }
+  ],
+  "limits": ["No new experiment, raw TSV/image access, web source, or operative registry mutation.", "Route-check searches found no exact successor experiment that changes either counterexample."]
+}

@@ -1,0 +1,35 @@
+{
+  "record_id": "IDEA000006",
+  "scope": "method",
+  "verdict": "not_tested",
+  "reviewer": "root logical design review after Luna counterexample screen",
+  "reason": "Reciprocal observed frame equality is not necessary for a shared broad role. A tested violation can concern the stronger frozen interchangeability model; low power or absent observations remain inconclusive. Do not refute meaning by failure to outperform opaque controls.",
+  "assessment_basis": "logical_design_review_no_manuscript_test",
+  "blockers": [
+    {
+      "code": "invalid_test",
+      "detail": "A and B both realize semantic role R. A is licensed only in context C1, B only in C2 (a contextual realization rule); both contexts occur. Their frames are disjoint although R(A)=R(B). Even genuine context-free interchangeability can fail an observed reciprocal-transfer threshold by finite sampling. Reciprocal observed frame equality is not necessary for a shared broad role. A tested violation can concern the stronger frozen interchangeability model; low power or absent observations remain inconclusive. Do not refute meaning by failure to outperform opaque controls.",
+      "evidence": [
+        "research_registry/decisions/hc_root_raw_design_logic.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "scope_repair",
+        "change": "new_design",
+        "detail": "Distinguish semantic family, conditional realization, directional inclusion and context-free interchangeability; freeze target pair/context and uncertainty/capacity policy before selection.",
+        "evidence": [
+          "research_registry/decisions/hc_root_raw_design_logic.json"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "More examples or more alternate transcriptions without repairing the inference.",
+      "Failure to reach significance or to beat a control interpreted as semantic refutation."
+    ]
+  },
+  "relations": []
+}

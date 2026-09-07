@@ -1,0 +1,14 @@
+{
+  "title": "Register-transition edges carry handoff roles",
+  "summary": "Test whether complete whole forms at immediate transitions between running prose, local labels, and radial units act as handoff markers, rather than having one global meaning or merely reflecting section frequency. The design follows the post-IL023 correction by fitting register-specific classes and evaluates only an edge interaction.",
+  "scope": "semantic",
+  "design": {
+    "mechanism": "A whole at a register boundary signals transfer of the active record or target between adjacent presentation modes; its role depends on the ordered source/target register pair.",
+    "unit": "complete-whole occurrence within one field of a cached register transition, with non-edge occurrences of the same whole as controls",
+    "contrast": "edge occurrence versus matched non-edge occurrence, crossed with ordered register pair and section; leave-one-register-pair-out validation",
+    "prediction": "A small set of whole forms shows reproducible edge-specific continuation/owner-slot changes for one or more ordered register pairs, beyond whole identity, position, section, and host-class baselines.",
+    "scope": "admitted visual-owner spine and cached text/register tags; feasibility unknown for enough held transition edges, and no new page access is assumed",
+    "falsifier": "No held edge interaction, or improvement disappears when whole identity and host class are controlled, falsifies the handoff mechanism; a global class lead is not sufficient.",
+    "related": "post_IL023_system_class_heterogeneity_correction; GDT790_panel_owner_image_grammar_overlay; GDT792_host_transfer; these predecessors do not test ordered register-edge interaction"
+  }
+}

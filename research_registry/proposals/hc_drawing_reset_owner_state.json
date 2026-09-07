@@ -1,0 +1,14 @@
+{
+  "title": "Drawing interruptions reset inherited process state",
+  "summary": "Test whether the 440 unanimous drawing interruptions define a semantic state reset: the first complete field after an interruption should reintroduce an owner or item cue, while an ordinary same-page gap should usually continue the prior state. This retains DIC001's distributed-reset result and the drawing-reset segment atlas, but does not infer picture ownership, words, or translation.",
+  "scope": "semantic",
+  "design": {
+    "mechanism": "A drawing interruption clears the active owner/item state and begins a new process segment; ordinary transcription spaces do not.",
+    "unit": "eligible interruption and matched ordinary gap on the same folio/page, with adjacent cached fields",
+    "contrast": "interruption versus equal-count, position- and folio-matched ordinary gap; include section and line-position nuisance controls",
+    "prediction": "After interruptions, first fields have higher rates of explicit owner/item introduction and lower anaphoric continuation than after matched ordinary gaps, replicating across held folios and alternate readings.",
+    "scope": "cached admitted transcription and DIC001/segment-atlas boundary inventory only; feasibility unknown for a clean owner/item coding panel",
+    "falsifier": "No held-folio interaction after controls, or an effect explained by page position/line length alone, falsifies the reset-state mechanism; do not rescue it by changing boundary thresholds.",
+    "related": "DIC001_drawing_interruption_target; drawing_reset_segment_atlas; DIC001 limitations explicitly prohibit picture-ownership or translation claims"
+  }
+}

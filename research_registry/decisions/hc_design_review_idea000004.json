@@ -1,0 +1,35 @@
+{
+  "record_id": "IDEA000004",
+  "scope": "method",
+  "verdict": "not_tested",
+  "reviewer": "root logical design review after Luna counterexample screen",
+  "reason": "This gate can reject a reading-robust implementation, not the underlying semantic role. Three projections of one manuscript are not independent meaning witnesses. Neither sparse coverage nor a non-significant association is a semantic counterexample.",
+  "assessment_basis": "logical_design_review_no_manuscript_test",
+  "blockers": [
+    {
+      "code": "invalid_test",
+      "detail": "An inscription has a true role and reader A records its groups correctly. Readers B and C make the same boundary error exactly at the informative loci. The true role fails the proposed cross-reading/intersection gate. No fact about its truth changed. This gate can reject a reading-robust implementation, not the underlying semantic role. Three projections of one manuscript are not independent meaning witnesses. Neither sparse coverage nor a non-significant association is a semantic counterexample.",
+      "evidence": [
+        "research_registry/decisions/hc_root_raw_design_logic.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "scope_repair",
+        "change": "new_design",
+        "detail": "Name one exact target and separate inscription hypothesis, error model, register restriction, support/power gate and robustness outcome before selection.",
+        "evidence": [
+          "research_registry/decisions/hc_root_raw_design_logic.json"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "More examples or more alternate transcriptions without repairing the inference.",
+      "Failure to reach significance or to beat a control interpreted as semantic refutation."
+    ]
+  },
+  "relations": []
+}

@@ -1,0 +1,23 @@
+{
+  "review_id": "HC_CORRECTION",
+  "status": "NO_NEW_FAILURE_NO_SEMANTIC_CREDIT",
+  "corrects": "candidate_review_hc_failures.json",
+  "finding": "The prior audit incorrectly described both targets as outside the current 42 scoped dossiers. Exact priorities queries show each has a current assessment; both are formal targets excluded from HA's semantic denominator, not unassessed candidates.",
+  "queries": [
+    {
+      "sem_id": "SEM:23659586e96e83395266",
+      "command": "./vmanus-work priorities --show SEM:23659586e96e83395266 --field assessments",
+      "assessment": "FAILURE_AW:PASS1023_BLANKET_BINDING:v2",
+      "scope": "reviewed_question_context; automatic_card_status_propagation=false",
+      "result": "Four internal model counterexamples reject the blanket extension; no independent manuscript syntax falsification or lexical refutation."
+    },
+    {
+      "sem_id": "SEM:8966b3eec7bc1a705e2f",
+      "command": "./vmanus-work priorities --show SEM:8966b3eec7bc1a705e2f --field assessments",
+      "assessment": "FAILURE_BC:ALL_DOUBLES_NESTED:v1",
+      "scope": "reviewed_question_context; automatic_card_status_propagation=false",
+      "result": "The source-model universal nesting claim is rejected by free dalal/ychey countercases; this is not independent manuscript meaning gold."
+    }
+  ],
+  "disposition": "Remove both from candidate novelty/meaning adjudication. Preserve candidate_review_hc_failures.json as an audit trail, but assign no new failure, reopening, or semantic credit. No replacement candidate was found in this bounded pass."
+}
