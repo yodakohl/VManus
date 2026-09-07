@@ -1,0 +1,32 @@
+{
+  "schema": "jj_scope_unit_addendum_v1",
+  "parent": "research_registry/decisions/jj_four_design_selection.json",
+  "scope": "Unit and evidence audit only; no change to the parent nomination and no test or registry review.",
+  "finding": "IDEA000019 proposes a complete modifier whole in a modifier-plus-head sequence, but GDT575/GDT577 report analyst-defined relation/modifier atom slots (E, EE, AR, O, D_ADDR and related sigla) inside event decompositions. The inspected source does not bind those atom slots to complete raw modifier wholes without component export.",
+  "evidence": [
+    {
+      "path": "research_registry/proposals/hc5_modifier_scope.json",
+      "line": 7,
+      "line_end": 12,
+      "quote": "\"unit\": \"modifier-plus-head sequence with one or more neighboring heads\",\n\"contrast\": \"next-head compatibility versus prior-head and whole-field alternatives\",\n\"prediction\": \"At least 70% of held modifier occurrences select the next head, with next-head excess >=20 points over prior-head controls.\",\n\"scope\": \"cached modifier-bearing fields; feasibility unknown until head tags are independently assigned\",\n\"countermodel\": \"Modifier scope is global or backward; next-head preference disappears in interrupted sequences.\",\n\"binding\": \"independent modifier/head annotations across five physical folios\"",
+      "sha256": "53f3f6c5058f069f5a0629af74c015aecd5d826c187503c06bca91073aa975af"
+    },
+    {
+      "path": "experiments/yolo/gdt575_repeated_relation_modifier_scope_atlas/REPORT.md",
+      "line": 44,
+      "line_end": 53,
+      "quote": "Thirty-one duplicate groups are not repeated roots at all. Thirty involve two or more of the seven atoms currently flattened to `an der bezeichneten Stelle`; the remaining case is `G407-E4353`, where `LOCAL_CHAR_I` and `G_LABEL` both sound like `mit der lokalen Variante`.\n\nThis makes a plain `zweimal` rule actively misleading. The better next move is a small common `STELLENVERWEIS`/`VARIANTENVERWEIS` family whose learned short labels keep `D_ADDR`, `A_ADDR`, `AM_ADDR`, `LOCAL_CHAR_F`, `M_LOCAL`, `S_ADDR`, `D_LABEL` and the variant atoms distinguishable. The labels are analytical sigla, not claimed Voynich pronunciations.",
+      "sha256": "060449b5efa5259311cf5758c25146823562b328bf6374253f40e5dbcfbf53a1"
+    },
+    {
+      "path": "experiments/yolo/gdt577_interrupted_modifier_attachment_topology/REPORT.md",
+      "line": 23,
+      "line_end": 37,
+      "quote": "75 Slots — 71 aus den alten 26 Seiten und vier aus den neueren vier Seiten — besitzen bereits Fokusbindungen für E, EE oder AR. GDT577 reproduziert alle 75 exakt.\n\nDie 50 O-/D_ADDR-Slots hatten solche Bindungen bisher nicht. Für sie wird explorativ dieselbe lokale Werkstattlogik angewandt:\n\n- 21 stehen nach dem nächstgelegenen sichtbaren Handlungskopf;\n- 14 stehen vor ihm;\n- 14 gehören zum schon aktiven Besitzerkopf;\n- genau einer, das zweite D_ADDR in `G407-E3030`, gehört zum geschriebenen OL-Fortsetzungsträger.\n\nDas ist ein Anschlussmodell für die deutsche Arbeitsstimme, keine neue Bedeutung von O oder D_ADDR.",
+      "sha256": "27b631f2d6f6ec623320349e1c4afa4fe835f7191df86e18793b1218f368ac55"
+    }
+  ],
+  "correction": "The nomination must be read as a source-starting structural method review, not as evidence that complete modifier wholes have already been identified. The GDT575 quote span 55–58 is exact: its local-action wording is a hypothesis ('likely'), not a scored next-head result. The GDT577 75 replayed bindings are reported as reproduced, but these lines do not establish independent provenance for modifier/head gold.",
+  "smallest_changed_input": "Before any 70% or +20-point calculation, freeze a raw-whole-to-slot mapping that preserves complete candidate wholes and explicitly marks component-derived atoms, then obtain independent modifier/head and held-folio annotations. Only this mapping permits the proposed next-head/prior-head/whole-field contrast.",
+  "decision": "Keep IDEA000019 as at-most-one method-review candidate with this unit restriction; do not treat current attachment defaults, 75 replayed bindings, or renderer success as semantic or complete-whole confirmation."
+}

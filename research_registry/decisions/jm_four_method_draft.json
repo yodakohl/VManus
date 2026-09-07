@@ -1,0 +1,115 @@
+{
+  "schema": "jm_four_method_draft_v1",
+  "status": "draft_not_appended",
+  "scope": "Compact source/logic review of IDEA000024, IDEA000025, IDEA000026 and IDEA000033, with the IDEA000019 unit addendum carried forward. No scientific review append, build, corpus run or registry mutation.",
+  "source_evidence": [
+    {
+      "path": "experiments/yolo/gdt765_ofchy_schor_content_field_discriminator/REPORT.md",
+      "line": 12,
+      "line_end": 15,
+      "quote": "The role decision is substantially stronger than either noun. That is useful,\nnot a retreat: the renderer always has a practical default, while the evidence\ntable says exactly which part may later change. Neither result comes from\nreading EVA `f` as *flos* or EVA `s` as *semen*.",
+      "sha256": "43ee900632971c0f6877447ef3432d21274512d0ed033d2cc85d9874427e4f35"
+    },
+    {
+      "path": "experiments/yolo/gdt765_ofchy_schor_content_field_discriminator/REPORT.md",
+      "line": 36,
+      "line_end": 42,
+      "quote": "The guarded cache contains 25 exact `ofch*` occurrences across thirteen\ncomplete forms and thirteen exact `*fchy` occurrences across eight forms. This\nsupports a real formal neighborhood but not automatic composition. The only\nsemantic bridge is deliberately weak: one scoped `ofchedy` card already reads\n“fully dried flower mass.” GDT765 uses that as a whole-family analogy to choose\n**Blütenmasse** over the close rival **Blütenzubereitung**; it does not create\nan `ofch = flower` component.",
+      "sha256": "43ee900632971c0f6877447ef3432d21274512d0ed033d2cc85d9874427e4f35"
+    },
+    {
+      "path": "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/REPORT.md",
+      "line": 23,
+      "line_end": 25,
+      "quote": "This is not a translation. It is a more informative renderer and a concrete\nroute toward meaning: the prose is no longer ownerless, but the picture is not\npretended to decode every word.",
+      "sha256": "c613d9869015e996ed6e8a33463a041a453e468f439ce78c4fdaa54a0bbe0ee3"
+    },
+    {
+      "path": "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/REPORT.md",
+      "line": 53,
+      "line_end": 54,
+      "quote": "This supports panel-level ownership. It does not by itself identify the\nlanguage or turn label count into syntax.",
+      "sha256": "c613d9869015e996ed6e8a33463a041a453e468f439ce78c4fdaa54a0bbe0ee3"
+    },
+    {
+      "path": "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/REPORT.md",
+      "line": 96,
+      "line_end": 100,
+      "quote": "These are useful working semantics for the *observed whole labels in their\nimage contexts*. They do not license `d`, `ot`, `ol`, `dy`, `sy` or `aiin` as\nfree dictionary entries. In particular, this panel set gives no reason to call\n`ol` “water” or “oil”: ol-like forms label figures, arch endpoints and station\nzones as well as liquid-looking structures.",
+      "sha256": "c613d9869015e996ed6e8a33463a041a453e468f439ce78c4fdaa54a0bbe0ee3"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "IDEA000024",
+      "title": "A fixed whole changes role with argument position, not meaning",
+      "record_sha256": "4ea530070df7e8e6beb6b985c10f11ff80f5b3880bcf8ffaca2ef8549e9db5b4",
+      "design_path": "research_registry/proposals/hc6_material_action_role.json",
+      "design_sha256": "eff2da7d2c4c52050a6ce35734693505a681c889878657e7cc31d0d6e987d087",
+      "scope": "method",
+      "verdict": "not_tested",
+      "blockers": [
+        {"code":"missing_design","detail":"The proposal contrasts action-slot and material/property-slot roles, but does not yet freeze which neighboring field tags are independent rather than inherited working labels."},
+        {"code":"scoped_missing_binding","detail":"A fixed meaning can legitimately show different neighbor profiles by construction or context; a slot interaction alone does not establish meaning change. Preserve the structural interaction as exploratory."}
+      ],
+      "source_logic": "GDT765 explicitly says the role decision can be stronger than the noun and that the whole-family analogy does not create an EVA component (lines 12-15, 36-42). Thus the smallest legitimate question is whether independently typed neighbor fields predict a role-conditioned structural distribution; it cannot be framed as proving two meanings."
+    },
+    {
+      "id": "IDEA000025",
+      "title": "Owner-conditioned whole forms select local referents",
+      "record_sha256": "9ed5b1b5ef4e1e7b62c1b223a4e22d73b660232246dc17ca8dbd403be351096a",
+      "design_path": "research_registry/proposals/hc6_owner_conditioned_referent.json",
+      "design_sha256": "6f0273fd6f6c26a520b0d05a3943cab197fb4780746b54d2cdf3932336cc2114",
+      "scope": "method",
+      "verdict": "not_tested",
+      "blockers": [
+        {"code":"missing_design","detail":"The owner interaction needs a frozen complete-whole identity, exact owner, successor unit and matched register/position strata."},
+        {"code":"scoped_missing_binding","detail":"Owner-conditioned context can change successor distributions while the whole keeps one fixed object meaning; an owner interaction is not by itself a local-referent or lexical claim."}
+      ],
+      "source_logic": "GDT790 reports a panel-owner layer while stating it is not a translation (lines 23-25) and that panel ownership does not identify language or syntax (lines 53-54). This preserves a valid owner-conditioned structural association but blocks automatic referent meaning."
+    },
+    {
+      "id": "IDEA000026",
+      "title": "Panel-local deictic forms reset at visual panel boundaries",
+      "record_sha256": "86249e825fe20b4ae3e1efb7880ae880a4c9210fa8120262806c107787b86025",
+      "design_path": "research_registry/proposals/hc6_panel_deixis.json",
+      "design_sha256": "483a755ca8e8daef5f13df916549c043f9eb1e885c489d318081f63c1d26730e",
+      "scope": "method",
+      "verdict": "not_tested",
+      "blockers": [
+        {"code":"missing_design","detail":"The panel boundary, candidate whole, within-panel continuation and native owner must be frozen before a reset contrast is defined."},
+        {"code":"scoped_missing_binding","detail":"A referent can reset because discourse or panel ownership changes even when the candidate is not deictic. Boundary interaction therefore tests reset behavior, not deictic lexical meaning by itself."}
+      ],
+      "source_logic": "GDT790's owner overlay supports panel-level structure but explicitly refuses translation and dictionary export (lines 23-25, 96-100). A panel-reset observation may be retained as structural evidence with a generic opener/discourse-reset rival."
+    },
+    {
+      "id": "IDEA000033",
+      "title": "A source marker separates reported from directly observed content",
+      "record_sha256": "3f907707d75e2c16a19d49f1afce515f6e91a76ae7b62e2f9cba62f13cba253e",
+      "design_path": "research_registry/proposals/hq_evidential_source.json",
+      "design_sha256": "6a9835ed322c9fb7b4f2e557699c6426bdd0bf84215722009ff5b89d805a238b",
+      "scope": "method",
+      "verdict": "not_tested",
+      "blockers": [
+        {"code":"missing_design","detail":"The source/report status coding, candidate whole and matched register/field controls are not frozen in the imported design."},
+        {"code":"scoped_missing_binding","detail":"Provenance association can arise from topic, lexical content or record type; a generic null must be justified against those alternatives rather than assumed."}
+      ],
+      "source_logic": "The inspected primary evidence supports cautious whole-form and panel-context observations, not a source-status lexicon: GDT790 says observed whole labels do not license free dictionary entries (lines 96-100). A provenance contrast needs independent source-status endpoints and a content/topic null."
+    },
+    {
+      "id": "IDEA000019",
+      "title": "A modifier whole scopes over the next head only",
+      "record_sha256": "3c543ab78ccba969ecb1463f3de6540eca2b1cfea565860266a9d9647d95141d",
+      "design_path": "research_registry/proposals/hc5_modifier_scope.json",
+      "design_sha256": "53f3f6c5058f069f5a0629af74c015aecd5d826c187503c06bca91073aa975af",
+      "scope": "method",
+      "verdict": "not_tested",
+      "blockers": [
+        {"code":"missing_design","detail":"The proposed unit is a complete modifier whole, whereas the cited GDT575/GDT577 source packets expose analyst atom slots inside event decompositions."},
+        {"code":"scoped_missing_binding","detail":"The 75 replayed bindings and exploratory O/D_ADDR attachments are not established here as independent complete-whole modifier/head gold. Raw-whole-to-slot mapping must precede the 70% or +20-point test."}
+      ],
+      "source_logic": "Retain the structural question, but do not promote attachment defaults or renderer success to complete-whole scope or semantic evidence. This carries forward jj_scope_unit_addendum.json."
+    }
+  ],
+  "overall": "All five designs remain method-level, not_tested. The valid exploratory objects are role-by-slot association, owner interaction, panel reset and provenance interaction; none licenses an automatic lexical or referent claim without the scoped bindings above."
+}

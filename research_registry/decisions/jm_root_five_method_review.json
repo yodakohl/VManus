@@ -1,0 +1,176 @@
+{
+  "status": "ROOT_FIVE_METHOD_REVIEWS_NOT_TESTED",
+  "raw_bindings": [
+    {
+      "id": "IDEA000024",
+      "title": "A fixed whole changes role with argument position, not meaning",
+      "design": {
+        "contrast": "same whole in action-slot versus material/property-slot contexts, matched by owner and register",
+        "falsifier": "No role-by-slot interaction on held occurrences, or it vanishes after whole identity and register controls.",
+        "mechanism": "The compiler assigns role by argument position and neighboring field types while preserving the whole's local identity.",
+        "prediction": "Successor and predecessor type constraints separate the two roles reproducibly, while a portable translation model predicts the same neighbor-type profile.",
+        "related": "GDT633/GDT685 and GDT765 discuss role/context contrasts; this proposal tests a fixed whole's slot interaction without adding a decoder",
+        "scope": "cached source cases with existing field-role annotations; feasibility_unknown for enough cross-slot repeats",
+        "unit": "exact whole occurrences with two independently typed neighboring fields"
+      },
+      "design_sha256": "ada88dbe9cd31ceaa29baa2f90fbcccc6aef2bd07460dc9064df4a8a050cf4b8"
+    },
+    {
+      "id": "IDEA000025",
+      "title": "Owner-conditioned whole forms select local referents",
+      "design": {
+        "contrast": "same whole across two owners versus within-owner matched occurrences, controlling register and position",
+        "falsifier": "Held-owner interaction disappears after position/register controls, or within-owner successors are not more coherent than cross-owner successors.",
+        "mechanism": "The owner supplies a local referent namespace; the whole contributes a role and successor constraint within that owner.",
+        "prediction": "Successor role distributions differ by owner for the same whole, while each owner retains an internally reproducible successor pattern; a portable-object model predicts no owner interaction.",
+        "related": "GDT790/GDT791 owner overlays and GDT415 owner expansion are predecessors; this is a bounded interaction test, not a new owner atlas",
+        "scope": "admitted visual-owner selectors and cached text only; feasibility_unknown for sufficient repeated wholes per owner",
+        "unit": "admitted complete-whole occurrences with an exact visual owner and one following field"
+      },
+      "design_sha256": "2765fd26ed9bd564df1b540feb6c77f5b4b30b72367cead3d7f547765509d62b"
+    },
+    {
+      "id": "IDEA000026",
+      "title": "Panel-local deictic forms reset at visual panel boundaries",
+      "design": {
+        "contrast": "within-panel continuation versus first occurrence after a panel boundary, matched by register and line position",
+        "falsifier": "Held panels show no boundary interaction, or owner compatibility is unchanged after controlling register/position.",
+        "mechanism": "A panel-local index binds to the active diagram unit and is reintroduced after a panel boundary.",
+        "prediction": "After a boundary, candidate occurrences show renewed local-owner compatibility and reduced continuation to the prior panel; within-panel occurrences preserve the prior owner.",
+        "related": "GDT790/GDT791 panel-owner work supplies boundaries but does not test deictic reset; distinct from line-break/reset and register-handoff proposals",
+        "scope": "admitted visual selectors plus cached labels; feasibility_unknown for enough repeated candidate occurrences",
+        "unit": "admitted panel boundary with adjacent label/prose occurrences of the candidate whole"
+      },
+      "design_sha256": "52eda076f8170bc53a5e30d806aedf036602fa766715660a8b9662e7e2ca2d03"
+    },
+    {
+      "id": "IDEA000033",
+      "title": "A source marker separates reported from directly observed content",
+      "design": {
+        "contrast": "candidate-bearing reported fields versus candidate-free direct-observation fields, matched by register and field position",
+        "falsifier": "No held provenance contrast after record controls, or the contrast follows one annotator's wording, falsifies the source-marker mechanism.",
+        "mechanism": "The candidate scopes over a field's provenance and does not name the field's material or action.",
+        "prediction": "Candidate-bearing contexts show a reproducible increase in source/report framing while local action and material roles remain unchanged; a lexical/content reading predicts no provenance interaction.",
+        "related": "Different from modal obligation and genre interaction: provenance is source status, not command force or record type",
+        "scope": "cached records plus external source-status coding; endpoint availability_unknown",
+        "unit": "complete candidate occurrences in records with independently classified source/report status"
+      },
+      "design_sha256": "05ec5c938fcac77ab755b9ce7b982665af5bc6acc4c76f1036e6609bbcf244a7"
+    },
+    {
+      "id": "IDEA000019",
+      "title": "A modifier whole scopes over the next head only",
+      "design": {
+        "binding": "independent modifier/head annotations across five physical folios",
+        "contrast": "next-head compatibility versus prior-head and whole-field alternatives",
+        "countermodel": "Modifier scope is global or backward; next-head preference disappears in interrupted sequences.",
+        "mechanism": "The modifier has local forward scope over one head.",
+        "prediction": "At least 70% of held modifier occurrences select the next head, with next-head excess >=20 points over prior-head controls.",
+        "related": "GDT575/GDT577 modifier-scope history; this freezes a one-head quantitative rival",
+        "scope": "cached modifier-bearing fields; feasibility unknown until head tags are independently assigned",
+        "unit": "modifier-plus-head sequence with one or more neighboring heads"
+      },
+      "design_sha256": "dd66a518937aa053bb74a203826e7327e3c4533b7484f416c03f8269d38d856f"
+    }
+  ],
+  "source_evidence": [
+    {
+      "path": "experiments/yolo/gdt765_ofchy_schor_content_field_discriminator/REPORT.md",
+      "line": 12,
+      "line_end": 15,
+      "quote": "The role decision is substantially stronger than either noun. That is useful,\nnot a retreat: the renderer always has a practical default, while the evidence\ntable says exactly which part may later change. Neither result comes from\nreading EVA `f` as *flos* or EVA `s` as *semen*.",
+      "sha256": "43ee900632971c0f6877447ef3432d21274512d0ed033d2cc85d9874427e4f35"
+    },
+    {
+      "path": "experiments/yolo/gdt765_ofchy_schor_content_field_discriminator/REPORT.md",
+      "line": 36,
+      "line_end": 42,
+      "quote": "The guarded cache contains 25 exact `ofch*` occurrences across thirteen\ncomplete forms and thirteen exact `*fchy` occurrences across eight forms. This\nsupports a real formal neighborhood but not automatic composition. The only\nsemantic bridge is deliberately weak: one scoped `ofchedy` card already reads\n“fully dried flower mass.” GDT765 uses that as a whole-family analogy to choose\n**Blütenmasse** over the close rival **Blütenzubereitung**; it does not create\nan `ofch = flower` component.",
+      "sha256": "43ee900632971c0f6877447ef3432d21274512d0ed033d2cc85d9874427e4f35"
+    },
+    {
+      "path": "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/REPORT.md",
+      "line": 23,
+      "line_end": 25,
+      "quote": "This is not a translation. It is a more informative renderer and a concrete\nroute toward meaning: the prose is no longer ownerless, but the picture is not\npretended to decode every word.",
+      "sha256": "c613d9869015e996ed6e8a33463a041a453e468f439ce78c4fdaa54a0bbe0ee3"
+    },
+    {
+      "path": "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/REPORT.md",
+      "line": 53,
+      "line_end": 54,
+      "quote": "This supports panel-level ownership. It does not by itself identify the\nlanguage or turn label count into syntax.",
+      "sha256": "c613d9869015e996ed6e8a33463a041a453e468f439ce78c4fdaa54a0bbe0ee3"
+    },
+    {
+      "path": "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/REPORT.md",
+      "line": 96,
+      "line_end": 100,
+      "quote": "These are useful working semantics for the *observed whole labels in their\nimage contexts*. They do not license `d`, `ot`, `ol`, `dy`, `sy` or `aiin` as\nfree dictionary entries. In particular, this panel set gives no reason to call\n`ol` “water” or “oil”: ol-like forms label figures, arch endpoints and station\nzones as well as liquid-looking structures.",
+      "sha256": "c613d9869015e996ed6e8a33463a041a453e468f439ce78c4fdaa54a0bbe0ee3"
+    },
+    {
+      "path": "experiments/yolo/gdt575_repeated_relation_modifier_scope_atlas/REPORT.md",
+      "line": 44,
+      "line_end": 58,
+      "quote": "Thirty-one duplicate groups are not repeated roots at all. Thirty involve two\nor more of the seven atoms currently flattened to `an der bezeichneten Stelle`;\nthe remaining case is `G407-E4353`, where `LOCAL_CHAR_I` and `G_LABEL` both\nsound like `mit der lokalen Variante`.\n\nThis makes a plain `zweimal` rule actively misleading. The better next move is\na small common `STELLENVERWEIS`/`VARIANTENVERWEIS` family whose learned short\nlabels keep `D_ADDR`, `A_ADDR`, `AM_ADDR`, `LOCAL_CHAR_F`, `M_LOCAL`, `S_ADDR`,\n`D_LABEL` and the variant atoms distinguishable. The labels are analytical\nsigla, not claimed Voynich pronunciations.\n\nThe 62 interrupted same-root groups also stay open. Almost every repeated grade\nis separated by an action, so its useful reading is likely local\naction–modifier attachment (`… auf Grad I … auf Grad I`) or a repeat particle,\nnot a detached global count.",
+      "sha256": "060449b5efa5259311cf5758c25146823562b328bf6374253f40e5dbcfbf53a1"
+    },
+    {
+      "path": "experiments/yolo/gdt577_interrupted_modifier_attachment_topology/REPORT.md",
+      "line": 23,
+      "line_end": 37,
+      "quote": "75 Slots — 71 aus den alten 26 Seiten und vier aus den neueren vier Seiten —\nbesitzen bereits Fokusbindungen für E, EE oder AR. GDT577 reproduziert alle\n75 exakt.\n\nDie 50 O-/D_ADDR-Slots hatten solche Bindungen bisher nicht. Für sie wird\nexplorativ dieselbe lokale Werkstattlogik angewandt:\n\n- 21 stehen nach dem nächstgelegenen sichtbaren Handlungskopf;\n- 14 stehen vor ihm;\n- 14 gehören zum schon aktiven Besitzerkopf;\n- genau einer, das zweite D_ADDR in `G407-E3030`, gehört zum geschriebenen\n  OL-Fortsetzungsträger.\n\nDas ist ein Anschlussmodell für die deutsche Arbeitsstimme, keine neue\nBedeutung von O oder D_ADDR.",
+      "sha256": "27b631f2d6f6ec623320349e1c4afa4fe835f7191df86e18793b1218f368ac55"
+    }
+  ],
+  "peer_inputs": [
+    {
+      "path": "research_registry/decisions/jm_four_method_draft.json",
+      "sha256": "dd0c2d073eaf8dcf7a53f8f42d23dc07630d91e638bb3a3abbef01d275277a92"
+    },
+    {
+      "path": "research_registry/decisions/jj_four_design_selection.json",
+      "sha256": "da4f635f58ff7285aad91fe843feee1bce3746b408cfac1da12e8262e1163a21"
+    },
+    {
+      "path": "research_registry/decisions/jj_scope_unit_addendum.json",
+      "sha256": "5c23bc8b70743a86f30a3ec0a6d6023f1a9cd2d63294d5e03ab8387a8832ba38"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "IDEA000024",
+      "reason": "A portable meaning does not entail an invariant neighboring-field profile. A fixed lexical meaning can occur in different constructions or grammatical roles. The source GDT765 comparison uses inherited content labels and whole-family analogy; its preferences do not supply independently identified action/material heads for this design.",
+      "required_design": "Specify separate distributional and semantic questions. Freeze source-whole units, independent field tags and the competing portable-meaning model including its contextual variation. Retain the role-by-slot observation if justified, but only select a meaning contrast when the rivals make different conditional predictions."
+    },
+    {
+      "id": "IDEA000025",
+      "reason": "Owner or topic can change successor distributions while the same whole retains a portable object meaning. GDT790 supplies an exploratory panel hierarchy and exact repeated strings, not independently identified single-word referents at every occurrence. An owner interaction alone does not identify a local namespace.",
+      "required_design": "Freeze exact owner/referent bindings and occurrence units. Allow the portable-object rival its explicit topic/context dependence, then identify a context where its prediction differs from the local-reference model. Matched register and position alone do not establish that distinction."
+    },
+    {
+      "id": "IDEA000026",
+      "reason": "A panel boundary can change discourse referents without the candidate itself being deictic. Source order and panel assignment do not independently establish continued reference. The proposed boundary interaction can describe reset behavior but does not isolate the contribution of the candidate whole.",
+      "required_design": "Freeze panel/source boundaries and independent reference history. Compare a declared candidate-dependent reset prediction with a discourse-only reset model that can change referents at the same boundary. Require divergent predictions; do not treat an unobserved or ambiguous referent as proof of reset."
+    },
+    {
+      "id": "IDEA000033",
+      "reason": "A lexical/content reading can correlate with reported-source status through topic, genre or content. Its no-provenance-interaction null is therefore not entailed. No inspected source supplies independent reported-versus-observed annotations for the proposed candidate; this bounded review does not claim to exhaust all possible bindings.",
+      "required_design": "Define source/report status independently of candidate identity and inherited wording. Freeze the content/topic rival and matching variables, then state the extra scope prediction that discriminates a source marker. An exploratory association is allowed but is not alone an evidential-marker identification."
+    },
+    {
+      "id": "IDEA000019",
+      "reason": "GDT575/577 work with analyst relation/modifier atom slots inside event decompositions; IDEA19 asks about a complete modifier whole. No complete-whole mapping is supplied here. The 75 replayed attachments and 50 exploratory O/D_ADDR defaults do not become independent scope truth through replay. Next-head compatibility may also overlap prior/global compatibility.",
+      "required_design": "Bind complete raw modifier wholes to independently justified head/attachment units without exporting analyst atom meanings. Keep the original five-physical-folio,70-percent and20-point design conditions if testing that claim; predeclare compatibility versus actual attachment, overlapping alternatives, held units and adequate power. Do not score the source defaults against themselves."
+    }
+  ],
+  "root_corrections": [
+    "Peer design_sha256 binds the proposal file; root separately hashes the actual design object.",
+    "Peer scoped_missing_binding is prose, not a supported blocker enum; operative reviews use missing_meaning_binding with bounded source scope.",
+    "GDT765 role preference and GDT790 panel assignment are historical model claims, not adopted independent semantic labels.",
+    "Missing binding blocks the proposed semantic score, not every exploratory structural observation or a useful method review.",
+    "No manuscript experiment, new meaning, independent attachment or whole-word annotation was obtained.",
+    "All five declared JJ/addendum excerpts differ from their exact physical spans (collapsed wrapping, indentation or wrong span). Preserve peer drafts; the complete proposal-file hash and root-reconstructed primary spans control this review. The peer assertion that55–58was exact is not adopted."
+  ]
+}

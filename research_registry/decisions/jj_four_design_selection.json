@@ -1,0 +1,68 @@
+{
+  "schema": "jj_four_design_selection_v1",
+  "scope": "Independent bounded review of exactly IDEA000015, IDEA000019, IDEA000020 and IDEA000021. Compact records and proposal designs were inspected programmatically; only GDT575 and GDT577 primary reports were opened. No registry review, build, corpus, image or experiment was performed.",
+  "records": [
+    {
+      "id": "IDEA000015",
+      "title": "A material whole recurs with one independently named part",
+      "record_sha256": "3f5afe5f403c59548746f448fe042cf77ff46543611f668b699b010429142a73",
+      "design_path": "research_registry/proposals/hc4_part_recurrence.json",
+      "design_sha256": "d465480cda36c26da2bbf28a63a7396e9812302cbc74ca29ec545c5cac25d08c",
+      "assessment": "Not nominated: its concentration statistic is a reasonable structural association screen, but the proposed independent part binding and five-folio panel are not present in the compact record; section-driven co-occurrence remains a direct rival."
+    },
+    {
+      "id": "IDEA000019",
+      "title": "A modifier whole scopes over the next head only",
+      "record_sha256": "3c543ab78ccba969ecb1463f3de6540eca2b1cfea565860266a9d9647d95141d",
+      "design_path": "research_registry/proposals/hc5_modifier_scope.json",
+      "design_sha256": "53f3f6c5058f069f5a0629af74c015aecd5d826c187503c06bca91073aa975af",
+      "assessment": "Nominate for method review: unlike a gloss claim, this is a falsifiable ordered-attachment contrast (next head versus prior head versus whole-field) and can change the structural parser choice."
+    },
+    {
+      "id": "IDEA000020",
+      "title": "A record-initial whole points to the visible source",
+      "record_sha256": "2d42877c38e74d7cf041aff5d0cf836b76fb0ea8b2889070a809c7294da87d3f",
+      "design_path": "research_registry/proposals/hc5_record_initial_deixis.json",
+      "design_sha256": "4ec69c503224987b06a325dcd20b7e5106d9986e99500b68601ed03d6fedba27",
+      "assessment": "Not nominated: native-owner evidence is a concrete requirement, but source pointing, positional opening, and proximity/section ownership remain confounded until the owner mapping is independently frozen."
+    },
+    {
+      "id": "IDEA000021",
+      "title": "A unit whole recurs across amounts without naming material",
+      "record_sha256": "c4caaab3240e988be7d24bbec4905e6debee296d3111d583607e910d63ef4903",
+      "design_path": "research_registry/proposals/hc5_unit_material_role.json",
+      "design_sha256": "83e4fc5161b47da1b01a200d7f6eb0182bea56b4a71c6b684f0bb2c0f90edd53",
+      "assessment": "Not nominated: cross-material recurrence is an interpretable contrast, but the required material identities and unit slots are precisely the semantic bindings the proposal has not yet supplied."
+    }
+  ],
+  "nomination": {
+    "id": "IDEA000019",
+    "question": "Among the already structured relation/modifier slots, does a candidate modifier attach to the immediately following head more often than to the preceding head or whole field on held interrupted sequences?",
+    "source_start": [
+      {
+        "gdt": "GDT575",
+        "path": "experiments/yolo/gdt575_repeated_relation_modifier_scope_atlas/REPORT.md",
+        "line": 55,
+        "line_end": 58,
+        "quote": "The 62 interrupted same-root groups also stay open. Almost every repeated grade is separated by an action, so its useful reading is likely local action–modifier attachment (`… auf Grad I … auf Grad I`) or a repeat particle, not a detached global count.",
+        "sha256": "060449b5efa5259311cf5758c25146823562b328bf6374253f40e5dbcfbf53a1"
+      },
+      {
+        "gdt": "GDT577",
+        "path": "experiments/yolo/gdt577_interrupted_modifier_attachment_topology/REPORT.md",
+        "line": 27,
+        "line_end": 37,
+        "quote": "Die 50 O-/D_ADDR-Slots hatten solche Bindungen bisher nicht. Für sie wird explorativ dieselbe lokale Werkstattlogik angewandt:\n\n- 21 stehen nach dem nächstgelegenen sichtbaren Handlungskopf;\n- 14 stehen vor ihm;\n- 14 gehören zum schon aktiven Besitzerkopf;\n- genau einer, das zweite D_ADDR in `G407-E3030`, gehört zum geschriebenen\n  OL-Fortsetzungsträger.\n\nDas ist ein Anschlussmodell für die deutsche Arbeitsstimme, keine neue\nBedeutung von O oder D_ADDR.",
+        "sha256": "27b631f2d6f6ec623320349e1c4afa4fe835f7191df86e18793b1218f368ac55"
+      }
+    ],
+    "why_this_is_less_shared_by_rivals": "The ordered next/prior/whole-field alternatives make a concrete structural prediction about attachment direction. A generic count, opener, or material model does not by itself predict that direction. The source reports already expose the rival topologies, while explicitly labeling the O/D_ADDR assignments exploratory, so this is a method-review starting point rather than semantic confirmation.",
+    "decision_consequence": "A held, independently coded next-head excess would support a local forward attachment rule in the structural parser; a prior-head/whole-field result or stable mixed topology would reject the one-head rule while retaining the observed slot order.",
+    "required_review_repairs": [
+      "Freeze modifier/head unit and held interrupted sequences before scoring.",
+      "Treat GDT577's 21/14/14/1 O/D_ADDR assignments as exploratory, not gold.",
+      "Keep the distinct five topology classes and test next-head, prior-head and whole-field alternatives without converting structural success into meaning."
+    ]
+  },
+  "limitations": "The nomination is a structural method-review priority only. It does not establish a modifier meaning, a Voynich lexeme, or independent semantic gold; the other three designs remain unreviewed beyond this bounded screen."
+}

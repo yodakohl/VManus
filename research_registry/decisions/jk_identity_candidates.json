@@ -1,0 +1,146 @@
+{
+  "schema": "jk_identity_candidates_v1",
+  "status": "CANDIDATE_ONLY_NO_APPEND",
+  "scope": "One bounded historical OKEEDY family pair; current identity decisions were screened and recent HW/HZ/IF/IM/IW/JE families and excluded lexical families were not used. At most six pairs were requested; one pair survived exact full-proposition screening.",
+  "identity_review_manifest": {
+    "path": "research_registry/IDENTITY_REVIEW_INPUTS.json",
+    "sha256": "663cf4073b9faa1dc52a89e664c22e0c3be679a56fb0983a12e7e6fb9d7b3c80",
+    "input_count": 100,
+    "loaded_before_selection": true
+  },
+  "existing_review_input_checks": {
+    "pair_already_in_identity_decisions": false,
+    "pair_currently_equated_or_explicitly_nonidentity_linked": false,
+    "source_review_scope": "Both cards retain their own CLEAN_COMPONENT cases and original alternatives; the candidate is a historical proposition equivalence review, not raw-word meaning confirmation."
+  },
+  "candidates": [
+    {
+      "pair_id": "JK01",
+      "relation_proposal": "equivalent_proposition",
+      "member_card_ids": [
+        "SEM:de8e1747652ee88282dd",
+        "SEM:eea75cd4061670310030"
+      ],
+      "historical_family": "OKEEDY",
+      "reason": "Both cards assert the same normalized proposition LÄNGER EINWEICHEN/länger einweichen for the complete OKEEDY form. Their source scopes differ: one is a local Bad-/Spülzellen rival retained against a broader LÄNGER EINWIRKEN; SCHLUSS card, while the other is a workshop contact-grid short reading with DY schließen. Case-specific alternatives remain attached and do not contradict the shared proposition.",
+      "countermodel_or_limit": "Equivalence is only between the complete historical card proposition; it does not establish OKEEDY as a manuscript lexeme, erase either source’s alternatives, or merge the broader LÄNGER EINWIRKEN; SCHLUSS proposition.",
+      "cards": [
+        {
+          "id": "SEM:de8e1747652ee88282dd",
+          "claim": "OKEEDY → LÄNGER EINWEICHEN",
+          "claim_type": "lexical_hypothesis",
+          "status": "unconfirmed",
+          "card_basis": "97cc79bd6de982fbb9a418cbe2c580fb932d4e034b4709b262a4a5ff004201d2",
+          "effective_basis": "d1848d55e6a8a66beaf889641fe8cb6c22eff434b382ce30ca24f95b20d3a854",
+          "member_ids": [
+            "LEGACY_COMPONENT:b1caeabdc0a8bee32d0a"
+          ],
+          "source_case_ids": [
+            "CLEAN_COMPONENT:ff65f222414000fe838e"
+          ],
+          "cases": [
+            {
+              "claim_type": "lexical_hypothesis",
+              "form_or_model": "OKEEDY",
+              "id": "CLEAN_COMPONENT:ff65f222414000fe838e",
+              "limitations": "Original alternatives, negation and limits remain in the evidence quote. No software PASS or inherited working vocabulary establishes a confirmed meaning.",
+              "member_ids": [
+                "LEGACY_COMPONENT:b1caeabdc0a8bee32d0a"
+              ],
+              "proposed_value_or_model": "LÄNGER EINWEICHEN",
+              "registry_context_ids": [],
+              "review_basis": "conservative_assignment_rule_with_manual_pattern_audit",
+              "review_file": "research_registry/decisions/clean_component_review.json",
+              "scope": {
+                "kind": "source_bound_working_hypothesis",
+                "parent_gdt": null,
+                "section": "Rivalen, die bewusst stehen bleiben",
+                "semantic_column": null,
+                "source": "experiments/yolo/sidequest_semantic_application_completion/APPLICATION_HISTORICAL_REPORT.md"
+              },
+              "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+              "status": "unconfirmed"
+            }
+          ],
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 284,
+              "line_end": 284,
+              "path": "experiments/yolo/sidequest_semantic_application_completion/APPLICATION_HISTORICAL_REPORT.md",
+              "quote": "- `OKEEDY=LÄNGER EINWEICHEN` bleibt in Bad-/Spülzellen lokal richtig; als Kartenwert ist **LÄNGER EINWIRKEN; SCHLUSS** breiter und wiederverwendbarer.",
+              "sha256": "c69b192b19b5d4537e5c8736d02aadefd17a103a242f7c6851594df467657087",
+              "source_id": "LEGACY_COMPONENT:b1caeabdc0a8bee32d0a",
+              "source_section": "Rivalen, die bewusst stehen bleiben",
+              "table_header": null
+            }
+          ]
+        },
+        {
+          "id": "SEM:eea75cd4061670310030",
+          "claim": "OKEEDY → länger einweichen",
+          "claim_type": "lexical_hypothesis",
+          "status": "unconfirmed",
+          "card_basis": "2ec8bbe5f570c817a3a80a42770ec5a02fdbf31abf292f14bf40649b8fd3d012",
+          "effective_basis": "d45422a4d5baa40ef5a8d8772cff4025b118f13c4b14f83dbb70b4234ddcd367",
+          "member_ids": [
+            "LEGACY_COMPONENT:ae90788f4e5350be36d1"
+          ],
+          "source_case_ids": [
+            "CLEAN_COMPONENT:a770a4f9683bf16669dd"
+          ],
+          "cases": [
+            {
+              "claim_type": "lexical_hypothesis",
+              "form_or_model": "OKEEDY",
+              "id": "CLEAN_COMPONENT:a770a4f9683bf16669dd",
+              "limitations": "Original alternatives, negation and limits remain in the evidence quote. No software PASS or inherited working vocabulary establishes a confirmed meaning.",
+              "member_ids": [
+                "LEGACY_COMPONENT:ae90788f4e5350be36d1"
+              ],
+              "proposed_value_or_model": "länger einweichen",
+              "registry_context_ids": [],
+              "review_basis": "conservative_assignment_rule_with_manual_pattern_audit",
+              "review_file": "research_registry/decisions/clean_component_review.json",
+              "scope": {
+                "kind": "source_bound_working_hypothesis",
+                "parent_gdt": null,
+                "section": "Das Kontaktraster",
+                "semantic_column": "kurze Lesung",
+                "source": "experiments/yolo/sidequest_semantic_application_completion/APPLICATION_WORKSHOP_REPORT.md"
+              },
+              "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+              "status": "unconfirmed"
+            }
+          ],
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 102,
+              "line_end": 102,
+              "path": "experiments/yolo/sidequest_semantic_application_completion/APPLICATION_WORKSHOP_REPORT.md",
+              "quote": "| `OKEEDY` | 10 | länger einweichen | `DY`: schließen |",
+              "sha256": "fdf5941da011e0af7331fef3b3554379cb3a998d15f211b7351c19be31e0d3c8",
+              "source_id": "LEGACY_COMPONENT:ae90788f4e5350be36d1",
+              "source_section": "Das Kontaktraster",
+              "table_header": "| Form | Ereignisse | kurze Lesung | Ausgang |"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "exact_evidence": "passed tools.semantic_identity._evidence for both cards",
+    "current_bases": "computed from current semantic_ideas.jsonl",
+    "operative_mutation": false
+  }
+}

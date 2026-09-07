@@ -1,0 +1,62 @@
+{
+  "schema": "missing_historical_model_inventory_v1",
+  "batch": "jl",
+  "scope": "GDT735-GDT743 primary reports and bounded SEM priority searches",
+  "status": "TWO_CANDIDATES_ONE_COVERED_NEIGHBOR",
+  "candidates": [
+    {
+      "source_id": "GDT735",
+      "claim": "Late-medieval pharmaceutical sources support two separate record types, descriptive learned wholes and prescriptive bound fields; a mixed architecture keeps them distinct.",
+      "evidence": {
+        "path": "experiments/yolo/gdt735_historical_semantic_bridge_atlas/REPORT.md",
+        "line": 5,
+        "line_end": 16,
+        "quote": "Die historische Brücke ist real, aber sie liegt **eine Ebene höher als ein\nWörterbuchgleichnis**. Spätmittelalterliche pharmazeutische Handschriften\nbelegen zwei komplementäre Recordtypen:\n\n1. **deskriptiv:** gelernter Drogenname oder Lemma, optional Pflanzenteil oder\n   Stoffform, Qualität/Zustand und Grad;\n2. **präskriptiv:** Befehl, benannte Zutat oder Zubereitung, gebundene Menge,\n   Einheit und Prozess/Produkt.\n\nDer beste historische Arbeitsrahmen ist deshalb ein gemischtes System aus\ngelernten Ganzformen und gebundenen Fachfeldern, das beide Recordtypen getrennt\nhält. Das ist eine bessere Architektur als ein flaches Wort-für-Wort-Lexikon.",
+        "sha256": "934a3cda39d4c1f069778d789d3c7db2dfe1f54a26f343e3bd610fd53936e141"
+      },
+      "counterpart_ids": [
+        "SEM:2527b81cfdb5b1ebb118"
+      ],
+      "comparison": "SEM:2527b81cfdb5b1ebb118 covers a local GDT744 lkaiin occurrence whose dimension is host-selected across descriptive and prescriptive channels. It does not state the full GDT735 two-record-type architecture or its historical distinction between learned whole forms and bound fields. Candidate is a missing historical model card, not a new translation.",
+      "uncertainty": "Historical architecture is attested in the report, but no H1-H4 meaning or independent Voynich binding follows."
+    },
+    {
+      "source_id": "GDT736",
+      "claim": "The four opaque head classes form a crossed 2x2 record-role system: H1 paragraph/record opener, H2 line item/subentry, H4 internal form/state field, H3 later ingredient/value reference, with a strong location axis and a weaker body-affinity axis.",
+      "evidence": {
+        "path": "experiments/yolo/gdt736_opaque_head_record_role_bridge/REPORT.md",
+        "line": 5,
+        "line_end": 18,
+        "quote": "Die vier alten „Stoffköpfe“ sind am besten als **gekreuztes 2×2-System von\nRecordrollen** zu behandeln, nicht als Pulver, Samen, Wurzel und Holz:\n\n| | Cluster A: form-/zustandslastige Körper | Cluster B: materia-/wertlastige Körper |\n|---|---|---|\n| **Eintrag** | **H1:** Absatz-/Record-Öffner | **H2:** Zeilenposten/Untereintrag |\n| **intern/final** | **H4:** internes Form-/Zustandsfeld | **H3:** später Zutaten-/Wertbezug |\n\nDie erste Achse ist stark. H1/H2 stehen bei 294 von 575 Zielvorkommen am\nZeilenanfang; H3/H4 nur bei 39 von 591. Das ergibt eine Odds Ratio von 14,81\n(95-%-Intervall 10,29–21,30). Nach Kontrolle für Körper und Manuskriptsektion\nsteigt sie auf 16,68; mit der geerbten Sprach-Metadatenklasse auf 18,02. Die\nRichtung bleibt in allen sechs vertretenen Sektionen gleich und bei 21 von 24\nKörpern auch im Vergleich der mittleren normalisierten Position.",
+        "sha256": "1aa02432a4c7619ee4743bd1414fabf3dfbacd81de6c390121ef0ac22415cd4e"
+      },
+      "counterpart_ids": [],
+      "comparison": "Bounded priorities searches for record role, paragraph opener, body affinity, and four heads returned no exact SEM card. GDT739 SEM:caeb194626079dc8a8ea covers host-first field class plus ordered level for twelve whole forms, but not the H1-H4 2x2 head-class construction or its location/body-affinity distinction. Candidate remains an inventory gap, not a claim that the role model is true.",
+      "uncertainty": "GDT737 later downgrades body-affinity transfer; preserve that correction and treat only the explicitly retained location/role construction as the historical model."
+    }
+  ],
+  "covered_or_excluded": [
+    {
+      "source_id": "GDT739",
+      "counterpart_ids": [
+        "SEM:caeb194626079dc8a8ea"
+      ],
+      "reason": "Host-first occurrence renderer and field-class/ordered-level construction are directly represented; no missing model nominated."
+    },
+    {
+      "source_ids": [
+        "GDT738",
+        "GDT740",
+        "GDT741",
+        "GDT742",
+        "GDT743"
+      ],
+      "reason": "These reports primarily adjudicate occurrence binding, relay grammar, collision roles, and method gates; no additional complete historical semantic model was isolated in the bounded pass."
+    }
+  ],
+  "limits": [
+    "No lexical part card was treated as representing the full construction.",
+    "No source-path absence was used as proof of a gap; candidate gaps are based on complete-claim comparison with returned SEM cards.",
+    "No registry, review, ledger, build, refresh, or experiment mutation performed."
+  ]
+}
