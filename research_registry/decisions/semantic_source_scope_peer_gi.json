@@ -1,0 +1,140 @@
+{
+  "review_id": "SEMANTIC_SOURCE_SCOPE_PEER_GI",
+  "status": "APPROVE_TWO_SAME_ID_MODEL_COMPLETIONS_AND_REUSED_THIRD_RECEIPT",
+  "reviews": [
+    {
+      "target": "SEM:2fd4e8bffbbed966bfea",
+      "decision": "approve_same_ID_restate_scope",
+      "card_basis": "993c18640cbaa722da81e8c5c06eaa0494b0f902d461eeb7f68540795667f232",
+      "effective_basis": "4d55a6e2a5b004c6ae3a3783c4a51a9568e16cdc7c353c2c0ad60a353b9d5360",
+      "current_case_ids": [
+        "REPORT_PROPOSAL:3b143334dcd116556ec8"
+      ],
+      "reason": "The sole current case explicitly names the GDT092 HYBRID CONTENT LEXICON model and already contains its introduction, reuse explanation and failed-grounding limits. The omitted fence defines that same model: early q/O, late d/Y, conditional ch/che/sh/s, opaque or O/Y+tail/terminal host, and host/register/wrapper-dependent right rendering. Restoring it under the same ID is justified. Keep the direct lexical-like host premise historical; GDT100 judges that premise too strong but does not retrospectively turn GDT092 into the address alternative.",
+      "evidence": [
+        {
+          "path": "GDT092_HPR2_GENERATIVE_THEORY_REPORT.md",
+          "line": 3,
+          "line_end": 39,
+          "quote": "## Leading theory\n\n**HYBRID CONTENT LEXICON + ABBREVIATION + RECORD COMPILER**\n\nVoynichese is best modeled as a page-conditioned technical record system.  A\nPAGE_HOST sequence supplies the lexical-like local vocabulary.  Formal layers\nselect construction branches, record placement, rendering, and boundaries.\nThis is more coherent than ordinary compressed natural language alone and\nmore coherent than pure notation alone.\n\n```text\nPAGE := PAGE_PROFILE + LOCAL_HOST_LEXICON + LINE+\nLINE := ENTRY? FIELD (DY_CHECKPOINT FIELD)* B3_CLOSE?\nFIELD := OUTER_WRAPPER? LOCAL_O_OT_FRAME? PAGE_HOST RIGHT_FAMILY?\n\nOUTER_WRAPPER:\n    q -> O-base host, early\n    d -> Y-base host, late\n    ch/che/sh/s -> host/register conditional\n\nPAGE_HOST := opaque host | O/Y base + tail/terminal\nRIGHT_FAMILY := render(PAGE_HOST, register, wrapper)\n```\n\nThis explains free/bound reuse: the same host may appear bare, wrapped, or\nright-rendered because the host and compiler layers are distinct.  It explains\nthe dense q-X families without treating q as a sound or lexical morpheme.  It\nexplains Currier/register effects as compiler-profile shifts, line reset as\nrecord serialization, DY as a field checkpoint, and repeated labels as reuse\nof content hosts under different renderings.\n\nThe theory remains awkward in three places.  GDT003 transformation completion\ndoes not beat string statistics.  Compiler-only features themselves cluster\nby page.  Exact PAGE_HOSTs do not yet preserve complete visual-property\nbundles; the strongest content seed (`os` with DARK_LEAF/LIGHT_ROOT) has only\ntwo scored loci and fails global correction.  Therefore the model is explicit\nenough to predict, but not ready to translate.",
+          "sha256": "e77a4dacfff98e7051458932635b85a9257b5ad9433525da5962038b4a2f1ac0"
+        },
+        {
+          "path": "GDT100_HPR2_THEORY_REVISION_REPORT.md",
+          "line": 5,
+          "line_end": 22,
+          "quote": "**HYBRID CONTENT ADDRESS + ABBREVIATION + RECORD COMPILER**\n\nThe best current generator is still hybrid, but GDT092's claim that PAGE_HOST\ndirectly supplies a content lexicon was too strong. The safer and more useful\nmodel is:\n\n```text\nPAGE  := PAGE_PROFILE + CONTENT_ADDRESS_INVENTORY + LINE+\nLINE  := ENTRY? FIELD (DY_CHECKPOINT FIELD)* B3_CLOSE?\nFIELD := OUTER_WRAPPER? O_OT_FRAME? CONTENT_ADDRESS RIGHT_FAMILY?\n\nCONTENT_ADDRESS := opaque PAGE_HOST\n                 | O/Y branch + tail\n                 | reusable subhost motif + residual\n\nq -> O branch, early          d -> Y branch, late\nRIGHT_FAMILY -> register-conditioned rendering\n```",
+          "sha256": "377e1d829e7d350b7156ebd5754ab67f1b533a2f287af732713afbf8160ee862"
+        }
+      ],
+      "replacement_supported": true,
+      "claim_type": "semantic_model",
+      "type_reason": "Each contract hypothesizes a content-bearing lexical/address component as part of the manuscript information architecture; it is not only formal grammar bookkeeping. All syntax remains historical model machinery, not confirmed linguistic categories.",
+      "new_card": false,
+      "case_addition": false
+    },
+    {
+      "target": "SEM:b2fb10dededfad16dc78",
+      "decision": "approve_same_ID_restate_scope",
+      "card_basis": "60c5c8c3d327ce758ca571eebaf1b536d5b1327f91f7801ceaa54bb95244e405",
+      "effective_basis": "6e85fda9aa383125e22e4e71324291b60afd96d3823af917c5522209a0defbc1",
+      "current_case_ids": [
+        "REPORT_PROPOSAL:cc41825ff2418379dcd3"
+      ],
+      "reason": "The sole current case names GDT100 HYBRID CONTENT ADDRESS and explicitly includes its revision of GDT092. The three alternative address realizations and fixed field/line compiler complete that same named contract, rather than create another model. The replacement preserves ungrounded content, failed global descriptor/submotif association and the domain-local PCH limit; those are source-specific limits, not a global denial of meaningful text or a new scientific test.",
+      "evidence": [
+        {
+          "path": "GDT100_HPR2_THEORY_REVISION_REPORT.md",
+          "line": 3,
+          "line_end": 39,
+          "quote": "## Leading theory\n\n**HYBRID CONTENT ADDRESS + ABBREVIATION + RECORD COMPILER**\n\nThe best current generator is still hybrid, but GDT092's claim that PAGE_HOST\ndirectly supplies a content lexicon was too strong. The safer and more useful\nmodel is:\n\n```text\nPAGE  := PAGE_PROFILE + CONTENT_ADDRESS_INVENTORY + LINE+\nLINE  := ENTRY? FIELD (DY_CHECKPOINT FIELD)* B3_CLOSE?\nFIELD := OUTER_WRAPPER? O_OT_FRAME? CONTENT_ADDRESS RIGHT_FAMILY?\n\nCONTENT_ADDRESS := opaque PAGE_HOST\n                 | O/Y branch + tail\n                 | reusable subhost motif + residual\n\nq -> O branch, early          d -> Y branch, late\nRIGHT_FAMILY -> register-conditioned rendering\n```\n\nThe compiler half is the strongest part. q/O and d/Y transfer to unseen tails\nand folios, RIGHT_FAMILY transfers by register, and line/reset/field structure\nis pervasive. Those operations still do not beat string statistics as a\nlinguistic morphology model.\n\nThe content-address half is plausible but ungrounded. PAGE_HOSTs have page-local\ninventory signal. The narrow GDT089 and GDT096 external leads favor PAGE_HOST\nover compiler features in limited panels, but GDT095's exhaustive descriptor\nchannel does not pay selection and GDT099 finds no global submotif association.\n`PCH` is the clearest concrete new candidate: a recurrent HB/S record-phase\nhost family with a domain-local pharmaceutical spatial-context association,\nnot a manuscript-wide spatial word.\n\nThis remains more coherent than compressed natural language alone or pure\nnotation alone because it explains formal reuse, register rendering, page\nvocabulary, and record serialization together. It is not ready for translation.",
+          "sha256": "377e1d829e7d350b7156ebd5754ab67f1b533a2f287af732713afbf8160ee862"
+        }
+      ],
+      "replacement_supported": true,
+      "claim_type": "semantic_model",
+      "type_reason": "Each contract hypothesizes a content-bearing lexical/address component as part of the manuscript information architecture; it is not only formal grammar bookkeeping. All syntax remains historical model machinery, not confirmed linguistic categories.",
+      "new_card": false,
+      "case_addition": false
+    }
+  ],
+  "source_receipt_audit": [
+    {
+      "source_id": "LEGACY_PROPOSAL:2196584e7aa2c3003e34823a",
+      "decision": "approve",
+      "counterpart_ids": [
+        "SEM:2fd4e8bffbbed966bfea"
+      ],
+      "reason": "The existing model has a concrete source-defined omitted contract; this scoped follow-up resolves the previously open comparison without claiming all neighboring assertions are covered."
+    },
+    {
+      "source_id": "LEGACY_PROPOSAL:96a8cce0f8dd8a491c14d2e2",
+      "decision": "approve",
+      "counterpart_ids": [
+        "SEM:b2fb10dededfad16dc78"
+      ],
+      "reason": "The existing model has a concrete source-defined omitted contract; this scoped follow-up resolves the previously open comparison without claiming all neighboring assertions are covered."
+    },
+    {
+      "source_id": "LEGACY_PROPOSAL:6238a491f9240cab1f2ba29c",
+      "decision": "approve",
+      "counterpart_ids": [
+        "SEM:8d91919c2365f7c2c05d"
+      ],
+      "reason": "Same-ID source assessment preserves initial intake and creates no duplicate case. GDT239 is explicitly repeated-source verification, not new gap recovery."
+    }
+  ],
+  "prior_scope_checks": {
+    "ER": "Entries8/9 explicitly leave full GDT092/GDT100 definitions unreassessed. GI resolves those precise questions; this is not a new initial source reading. ER component IDs59ec0b9ef82dc6665d64 and6f83867abf3af107ea4b point to the same selected contracts, while current cases use their proposal-source IDs. Preserve that navigation correspondence in integration.",
+    "AB_GDT239": "Block17 already reviews the four GDT239 page-model/rival statements. The source itself retains uncertain owner mapping and25-percent scaffold coverage; GI neither repairs that with GDT100 nor claims a new page theory.",
+    "AB_GDT100": "Block20 concerns GDT247 exact okaly/olky/okal content-address leads and uses GDT100 as a broader counterpart. That comparison neither licenses those word identities in GDT100 nor establishes a complete audit of the GDT100 grammar.",
+    "no_identity_change": "GDT092 lexical-host and GDT100 address variants remain separate historical models. No identity or relation log changes are implied."
+  },
+  "reviewed_inputs": [
+    {
+      "path": "research_registry/decisions/clean_gap_review_gi.json",
+      "sha256": "9098caf3d96858e58e4a5648285670899616b517131f0c86edbd5043f8358c86"
+    },
+    {
+      "path": "research_registry/decisions/source_coverage_gap_batch_gi.json",
+      "sha256": "63d1c7a75d8973b7883dd99a868b120893b6fe04f7361b720e9f2b4afbbb5100"
+    },
+    {
+      "path": "research_registry/decisions/semantic_remaining_coverage_review_er.json",
+      "sha256": "3f29793fcc55594ca3943be5221a69f3ea57d003f0f931dab4ad4c3216124238"
+    },
+    {
+      "path": "research_registry/decisions/source_coverage_gap_batch_ab.json",
+      "sha256": "3f030b313271d176d45f43228f43e6d996fec6123b3deaef87cf74adf65f7638"
+    }
+  ],
+  "primary_read_scope": [
+    {
+      "path": "GDT092_HPR2_GENERATIVE_THEORY_REPORT.md",
+      "line": 1,
+      "line_end": 42
+    },
+    {
+      "path": "GDT100_HPR2_THEORY_REVISION_REPORT.md",
+      "line": 1,
+      "line_end": 41
+    },
+    {
+      "path": "GDT239_F82R_TRANSLATION_DOSSIER_REPORT.md",
+      "line": 38,
+      "line_end": 97
+    }
+  ],
+  "validation": {
+    "scope_restatements_approved": 2,
+    "complete_current_target_cases": 2,
+    "additional_GDT239_case_checked": 1,
+    "source_reassessments": 3,
+    "current_bases_match": true,
+    "exact_quotes_and_source_hashes": "PASS",
+    "blocking_corrections": 0,
+    "new_cards": 0,
+    "new_cases": 0
+  },
+  "operational_mutation": false
+}

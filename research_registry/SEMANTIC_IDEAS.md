@@ -81,7 +81,7 @@ source/case counts belong to that representative; `group_scope_cases` counts all
 member cases. Open `--field equivalents` or `--field relations` for the others.
 No failure, success or execution permission propagates across an identity link.
 
-The append-only correction log currently archives44 erroneous exports and restates209
+The append-only correction log currently archives44 erroneous exports and restates212
 source assertions. Every original claim, case and quote remains retrievable,
 including via `--show ID` for archived cards. Numeric columns, alias-column
 misparses, unlicensed constituent exports and metadata are extraction errors;
@@ -129,13 +129,13 @@ quality construction) and L (productive only before CHED), and preserves CHAR
 THEN as a considered but criticized V18 rival. VAL-B warm remains an actual
 historical wager despite the absence of independent comparator binding.
 
-GB links two complete V9 model cases after explicit review of the FY correction;
-original cases and rivals stay separate from the display representative. GD
-restores ora's owner-bound name-class scope. GE completes the historical PRS-1
-and GDT236 models, retaining invented polarity, anonymous content and exact
-optional/repeated grammar fields. GG exposes ten source assessments, including
-GC's distinction between computed structure and assumed numerical/renderer
-meanings; no additional failure dossier or model card follows from these audits.
+GI completes two distinct historical contracts: GDT092's lexical-like host
+model and GDT100's explicitly weaker content-address revision. Optional fields,
+repeated lines and alternative address realizations remain explicit; the later
+revision does not erase the earlier hypothesis or refute all content-bearing
+text. GH limits the a value-attachment rival to a learned whole function card,
+without identifying a Latin recipe sign. GL records six source assessments;
+the GDT239 sibling review is reused, not counted as a newly uncovered model.
 A073/A004 mappings remain available but uninspected, not missing data.
 
 Before adding a fuller model card, check whether an existing short card already

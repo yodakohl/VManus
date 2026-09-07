@@ -512,3 +512,15 @@ checks PASS:4118active3853semantic265formal4639cases,209restatements,
 Full-history export and legacy catalog validation regenerated after metadata
 refresh; these stale derived snapshots were maintenance, not a research failure.
 GD trailing quote newline normalized only in derived receipt; source bytes retained.
+
+GH/GI/GL checkpoint: three same-ID scope completions, six source-only receipts,
+no cards/cases added. Both PAGE models explicitly require one or more lines;
+GDT100 optional wrapper/frame remain independent. Raw peer approvals preserved,
+root clarification accepted by peer. GH a is a whole function card, not an
+arbitrary glyph value. GI records exact AB-GDT239 reuse rather than fresh recovery.
+Expected212restatements; other semantic/identity/question counts unchanged.
+
+GH/GI/GL validation: exact-source, operative and preservation audits PASS;212
+restatements,4118active3853semantic265formal4639cases,52groups/61reductions,
+41relations,41dossiers and9unreadypriorities. Full-history and catalog exports
+regenerated with5091records/4143ledger events. No semantic discovery.
