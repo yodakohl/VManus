@@ -5,7 +5,12 @@ ideas, research families, attempts and historical events separate. Record counts
 are **not** counts of independent meaning hypotheses. Importing an old PASS or
 FAIL does not endorse its scientific interpretation.
 
-## All historical semantic ideas in the operational list
+## Source-attested historical semantic hypotheses
+
+The repository-root README and `docs/WORKFLOW.md` are hash-bound import
+sources. Their older index-first and mixed-history entry instructions are
+superseded by this section and the current route. Keep those source bytes
+frozen; update operational guidance here.
 
 Use `./vmanus-work priorities QUERY` (also `--queue`) for concrete, source-attested
 semantic hypotheses. Eight cards are shown by default. Source pointers, methods,

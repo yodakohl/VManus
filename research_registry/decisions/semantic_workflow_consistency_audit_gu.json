@@ -1,0 +1,244 @@
+{
+  "review_id": "SEMANTIC_WORKFLOW_CONSISTENCY_AUDIT_GU",
+  "status": "FIVE_CONCRETE_LIVE_DOC_FIXES_ONE_OPTIONAL_HEADING_CLARIFICATION",
+  "observed_at_utc": "2026-09-07T02:05:29.585201+00:00",
+  "inputs": [
+    {
+      "path": "README.md",
+      "sha256": "25a1cb474a0ee4594785a5905f92c34aa568be9b980ecd313c1a6877501a8ea4"
+    },
+    {
+      "path": "research_registry/README.md",
+      "sha256": "287b3da37a1d46be154c7d08d657cd189efc40684c35af72dce8439b97b54e79"
+    },
+    {
+      "path": "docs/WORKFLOW.md",
+      "sha256": "8928ec8e0cfd1717c31323b3f33e35d6cdad728612d273f374c6d0e34966414b"
+    },
+    {
+      "path": "VOYNICH_CURRENT_ROUTE.md",
+      "sha256": "4a85cc491a2ee814cfe337942f1affc124016a03a52e6e89ebb05f70f6923861"
+    },
+    {
+      "path": "research_registry/SEMANTIC_IDEAS.md",
+      "sha256": "5941654c50d51d586f6036414b84655ef54ba433216632b8d6444d89bcdf6591"
+    },
+    {
+      "path": "research_registry/SEMANTIC_IDEAS_MANIFEST.json",
+      "sha256": "249d995b47e3ae26deb59d88c157f3bb8edd3ef04691bac8b8119e4dda00c0da"
+    },
+    {
+      "path": "research_registry/IDENTITY_REVIEW_INPUTS.json",
+      "sha256": "fec23ffdcf9cec34f071c8145c41b58ddf5de97a9c1058c3e743a9226ae5ec60"
+    },
+    {
+      "path": "research_registry/semantic_identity_decisions.jsonl",
+      "sha256": "4691e02c1037d8430810a46729356fddac45411758255b3e3ce00d444f988255"
+    }
+  ],
+  "findings": [
+    {
+      "id": "GU_README_ROUTING",
+      "severity": "navigation_mismatch",
+      "evidence": [
+        {
+          "path": "README.md",
+          "line": 14,
+          "line_end": 18,
+          "quote": "For routine scientific work, read these in order:\n\n1. [`VOYNICH_CURRENT_ROUTE.md`](VOYNICH_CURRENT_ROUTE.md)\n2. [`experiments/EXPERIMENT_INDEX.md`](experiments/EXPERIMENT_INDEX.md)\n3. The named primary report for the active route",
+          "sha256": "25a1cb474a0ee4594785a5905f92c34aa568be9b980ecd313c1a6877501a8ea4"
+        },
+        {
+          "path": "README.md",
+          "line": 34,
+          "line_end": 35,
+          "quote": "The active state and ledger are authoritative but no longer short documents;\nthe generated index is the practical routing layer. The curated pre-reset",
+          "sha256": "25a1cb474a0ee4594785a5905f92c34aa568be9b980ecd313c1a6877501a8ea4"
+        },
+        {
+          "path": "docs/WORKFLOW.md",
+          "line": 8,
+          "line_end": 14,
+          "quote": "The whole-history working memory is now [research_registry/README.md](../research_registry/README.md).\nStart with `./vmanus-work ideas search QUERY`, `ideas duplicates QUERY`, then\n`ideas show ID`. Eight compact cards are the default; twenty is the maximum.\nUse `events`, `sources`, `relations` or `requirements` with offsets for detail.\nDo not load the registry JSONL or giant ledger into model context. Existing\n`route-check` remains the required legacy duplicate screen before experiments;\nthe new search additionally covers historical keys and the idea pipeline.",
+          "sha256": "8928ec8e0cfd1717c31323b3f33e35d6cdad728612d273f374c6d0e34966414b"
+        }
+      ],
+      "problem": "The root README makes reading the large experiment index the second routine step and calls it the practical routing layer, whereas the current route and working guide prescribe bounded research-memory retrieval and lookup pointers.",
+      "proposed_fix": "Replace the routine order with: read current route; use ideas search/show for history and priorities for concrete semantic propositions; use lookup GDTNNN and the named primary report. Keep the experiment index links as optional browsing resources.",
+      "not_required": "Do not remove or rewrite the legacy index."
+    },
+    {
+      "id": "GU_WORKFLOW_SEMANTIC_VIEW",
+      "severity": "missing_current_entry_point",
+      "evidence": [
+        {
+          "path": "docs/WORKFLOW.md",
+          "line": 8,
+          "line_end": 14,
+          "quote": "The whole-history working memory is now [research_registry/README.md](../research_registry/README.md).\nStart with `./vmanus-work ideas search QUERY`, `ideas duplicates QUERY`, then\n`ideas show ID`. Eight compact cards are the default; twenty is the maximum.\nUse `events`, `sources`, `relations` or `requirements` with offsets for detail.\nDo not load the registry JSONL or giant ledger into model context. Existing\n`route-check` remains the required legacy duplicate screen before experiments;\nthe new search additionally covers historical keys and the idea pipeline.",
+          "sha256": "8928ec8e0cfd1717c31323b3f33e35d6cdad728612d273f374c6d0e34966414b"
+        },
+        {
+          "path": "research_registry/README.md",
+          "line": 10,
+          "line_end": 23,
+          "quote": "Use `./vmanus-work priorities QUERY` (also `--queue`) for concrete, source-attested\nsemantic hypotheses. Eight cards are shown by default. Source pointers, methods,\nresults and unresolved intake are not idea cards. `--include-formal` additionally\nshows explicitly separated formal-role hypotheses. `--show ID --field cases`\nopens retained source-specific interpretations; `--field evidence` opens exact quotes.\n\nThe complete source archive remains available through `priorities --sources QUERY`.\nThe older assessed groups are available through `priorities --groups`.\nSee [SEMANTIC_IDEAS.md](SEMANTIC_IDEAS.md) for curation coverage and limitations;\n[SEMANTIC_INVENTORY.md](SEMANTIC_INVENTORY.md) describes the source archive.\nMatching assertion wording groups display only; competing meanings and distinct\nexperimental scopes remain separate. Historical proposals are not confirmed meanings\nor permission to rerun failed experiments. Use linked registry dossiers for assessed\nfailures, changed-input review and reopening conditions.",
+          "sha256": "287b3da37a1d46be154c7d08d657cd189efc40684c35af72dce8439b97b54e79"
+        }
+      ],
+      "problem": "The workflow entry section describes only the heterogeneous ideas/history commands; it never exposes priorities as the ordinary concrete semantic view. Those commands remain valid, but a reader following only this guide can land in the old mixed view.",
+      "proposed_fix": "Add a short distinction after the start instructions: priorities QUERY is the semantic proposition view; --show ID --field cases/evidence opens full scope; --shortlist is the separately reviewed conditional subset. Keep ideas search/show for historic experiment and reopening dossiers."
+    },
+    {
+      "id": "GU_IDENTITY_INPUT_COUNT",
+      "severity": "snapshot_drift",
+      "evidence": [
+        {
+          "path": "research_registry/SEMANTIC_IDEAS.md",
+          "line": 64,
+          "line_end": 69,
+          "quote": "Before selecting another identity comparison, consult `IDENTITY_REVIEW_INPUTS.json`\nand the current operative identity log. The manifest records fifty-two hashed review\ninputs, including earlier proposal and peer formats missed by the narrower DO\nselection list. It is a bounded coverage receipt, not an automatic pair verdict.\nUpdate it when new identity reviews are added; distinguish an old recommendation\nfrom a committed relation. The three DO selections did not repeat a reviewed pair.",
+          "sha256": "5941654c50d51d586f6036414b84655ef54ba433216632b8d6444d89bcdf6591"
+        }
+      ],
+      "observed_declared_inputs": 54,
+      "problem": "The guide says fifty-two mandatory hashed identity inputs, while the current manifest has54.",
+      "proposed_fix": "At publication refresh fifty-two to the current manifest count, or omit the mutable numeral and instruct use of the current manifest. Do not retroactively fault earlier reviews for files added later."
+    },
+    {
+      "id": "GU_SPECIALIZATION_COUNT",
+      "severity": "snapshot_drift",
+      "evidence": [
+        {
+          "path": "research_registry/SEMANTIC_IDEAS.md",
+          "line": 58,
+          "line_end": 61,
+          "quote": "Explicit equivalence decisions add52 groups without deleting any original ID.\nThe identity log also retains seven related-but-distinct links,31 rival links and\nthree specializations. Conflicting nonidentity blocks transitive merging; changed\nclaim or case bindings require a new review. Shared spelling, shortened wording",
+          "sha256": "5941654c50d51d586f6036414b84655ef54ba433216632b8d6444d89bcdf6591"
+        }
+      ],
+      "observed_identity_counts": {
+        "equivalent_proposition": 52,
+        "related_not_equivalent": 7,
+        "alternative_to": 31,
+        "specializes": 4
+      },
+      "problem": "The guide says three specializations; the current operative log has four. Its52 equivalence,7 related and31 rival counts remain correct at this audit.",
+      "proposed_fix": "Update three to four at publication, or refer readers to the current bounded relation view for mutable counts."
+    },
+    {
+      "id": "GU_LATEST_PACKET_LABEL",
+      "severity": "stale_relative_label",
+      "evidence": [
+        {
+          "path": "research_registry/SEMANTIC_IDEAS.md",
+          "line": 127,
+          "line_end": 138,
+          "quote": "Latest integrated packet: FV restores source restrictions on sh (GDT623 V2\nquality construction) and L (productive only before CHED), and preserves CHAR\nTHEN as a considered but criticized V18 rival. VAL-B warm remains an actual\nhistorical wager despite the absence of independent comparator binding.\n\nGN scopes ychol's temporal continuation reading to the examined formula-role\npanel, keeps Item/ferner live and distinguishes C2 positional confidence from\nword confirmation. The ols oil-preparation rival is a genuine whole-form\nproposal; it is not an export from embedded ol. GR records both source audits.\nGP excludes ten late-source candidates using exact existing source/case reviews;\nits corrected metadata-filter exposure is disclosed, with no repeated full\nreviews, added cards or blanket coverage claim.",
+          "sha256": "5941654c50d51d586f6036414b84655ef54ba433216632b8d6444d89bcdf6591"
+        }
+      ],
+      "problem": "Latest integrated packet: FV is contradicted by the same page’s later GN/GR/GP integration notes and current inputs. The FV scientific/source summary itself need not be changed.",
+      "proposed_fix": "Replace Latest integrated packet: with The FV packet, or collapse this historical paragraph into a dated scope example. Avoid introducing another growing latest-packet chronology."
+    },
+    {
+      "id": "GU_ALL_HISTORY_HEADING",
+      "severity": "optional_scope_clarity",
+      "evidence": [
+        {
+          "path": "research_registry/README.md",
+          "line": 8,
+          "line_end": 19,
+          "quote": "## All historical semantic ideas in the operational list\n\nUse `./vmanus-work priorities QUERY` (also `--queue`) for concrete, source-attested\nsemantic hypotheses. Eight cards are shown by default. Source pointers, methods,\nresults and unresolved intake are not idea cards. `--include-formal` additionally\nshows explicitly separated formal-role hypotheses. `--show ID --field cases`\nopens retained source-specific interpretations; `--field evidence` opens exact quotes.\n\nThe complete source archive remains available through `priorities --sources QUERY`.\nThe older assessed groups are available through `priorities --groups`.\nSee [SEMANTIC_IDEAS.md](SEMANTIC_IDEAS.md) for curation coverage and limitations;\n[SEMANTIC_INVENTORY.md](SEMANTIC_INVENTORY.md) describes the source archive.",
+          "sha256": "287b3da37a1d46be154c7d08d657cd189efc40684c35af72dce8439b97b54e79"
+        },
+        {
+          "path": "research_registry/SEMANTIC_IDEAS.md",
+          "line": 119,
+          "line_end": 125,
+          "quote": "All5,370 retained proposal fragments,3,788 component excerpts and82 IP entries\nhave explicit initial dispositions. These are source-intake units, not independent\nideas. The archive's9,917 unresolved extraction blocks and5,561 pointer rows keep\nimmutable intake labels; they are not a current count of missing propositions.\nLater full-scope reviews and audit-only source comparisons live in the bounded\n`decisions/clean_gap_review_*.json` artifacts. An audit pointer does not add a\nsource-case payload. Quote overlap alone never certifies complete review.",
+          "sha256": "5941654c50d51d586f6036414b84655ef54ba433216632b8d6444d89bcdf6591"
+        }
+      ],
+      "problem": "All historical semantic ideas in the operational list can suggest completed recovery of every historical proposition, while the actual source archive retains immutable unresolved intake and later bounded reviews. Body text does qualify coverage, so this is not evidence of a false count.",
+      "proposed_fix": "Prefer Source-attested historical semantic hypotheses in the operational list; retain the explicit archive and coverage limitations.",
+      "mandatory": false
+    }
+  ],
+  "consistent_checks": [
+    {
+      "subject": "public and local semantic totals",
+      "decision": "consistent",
+      "facts": {
+        "public_active_semantic": 3853,
+        "public_formal": 265,
+        "public_display": 3792,
+        "local_semantic_supplement": 95,
+        "local_formal_supplement": 1,
+        "ordinary_default_query_matched": 3887,
+        "include_formal_query_matched": 4153
+      },
+      "reason": "Observed priorities counts equal public display plus declared local supplement; formal view adds266. These are display/proposition units, not independently solved meanings."
+    },
+    {
+      "subject": "source/intake accounting",
+      "decision": "consistent_with_manifest",
+      "facts": {
+        "review_cards_before_exact_grouping": 4639,
+        "archived_source_errors": 44,
+        "exact_assertion_repetitions_grouped": 477
+      },
+      "reason": "The current clean manifest matches the guide. Source-excerpt and unresolved/pointer intake units are explicitly distinguished from a current missing-proposition count."
+    },
+    {
+      "subject": "conditional shortlist",
+      "decision": "consistent",
+      "facts": {
+        "query_matched": 9
+      },
+      "reason": "Bounded --shortlist returns nine; documentation explicitly says conditional/unready and subset rather than global scientific ranking."
+    },
+    {
+      "subject": "source and older-group views",
+      "decision": "commands_work",
+      "facts": {
+        "sources_query_matched": 29812,
+        "groups_query_matched": 90,
+        "queue_alias_matched": 3887
+      },
+      "reason": "--sources and --groups are separate archive/old-group views; --queue aliases the semantic default. No placeholder source rows were offered as idea cards in these bounded queries. One-row checks are not a global content audit."
+    },
+    {
+      "subject": "example detail ID",
+      "decision": "consistent",
+      "reason": "SEM:0018dcd7222eec8bfc97 resolves to the AROL course/carrier/connection claim, matching the explanatory sentence; cases request works."
+    },
+    {
+      "subject": "current route",
+      "decision": "no_change_required",
+      "reason": "Route already distinguishes priorities, --sources and --groups; preserves zero confirmed lexemes, stopped imaging and historical scope limits. No operative count contradiction located in the route."
+    },
+    {
+      "subject": "scientific effort targets and producer workflow",
+      "decision": "no_change_required_in_this_audit",
+      "reason": "WORKFLOW labels the small-pass timing as targets, not scientific success promises; the replenishment quota is explicitly raw speculative supply, not a quota of distinct validated hypotheses. These are task-dependent instructions rather than an unfulfilled placeholder promise."
+    },
+    {
+      "subject": "legacy frozen files",
+      "decision": "no_edit_required",
+      "reason": "All proposed fixes concern live navigation/summary prose. No legacy experiment source, report or hash-bound implementation needs alteration."
+    }
+  ],
+  "query_scope": "Read-only CLI requests with limit1 and compact total extraction; semantic_ideas.connect for one exact example ID; metadata counts only. No full registry or source archive dump.",
+  "counts": {
+    "required_live_doc_fixes": 5,
+    "optional_heading_clarifications": 1,
+    "code_changes_proposed": 0,
+    "operative_mutations": 0
+  },
+  "limits": [
+    "Counts are bound to the observed file hashes; root may be integrating more records concurrently and should refresh final numbers at publication.",
+    "This is a bounded consistency/usability audit, not global scientific content review, complete placeholder detection, or verification of every historical claim.",
+    "No new infrastructure, software changes, legacy/archive rewrites or hash-bound edits. Root owns any accepted prose changes."
+  ]
+}

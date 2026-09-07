@@ -548,3 +548,20 @@ model navigation8sourcegroups supplied no extra full-review credit or new idea.
 GN/GP/GR validation: exact-source, operative and preservation audits PASS;
 4118active3853semantic265formal4639cases unchanged,214restatements,42questions,
 52groups/61reductions,41relations,9unreadypriorities,5093records/4145ledger events.
+
+GQ/GT/GW/GX/GU integration: GQ directed specialization, GT attribution-preserving
+AROL completion, GW one full V26 construction plus held V69 identity scope. Actual
+GW item_type unresolved despite LEGACY_COMPONENT prefix; zero prior exact intake
+hits, so two first dispositions are correct. Root initial prefix assumption rejected.
+GX splitlines-only error claim withdrawn after3exact declared spans included
+terminal blank lines; GQv2 clarifies normalization without changing the relation.
+GU root README/WORKFLOW edits rejected by extraction source hash guard and restored
+exactly; live registry README documents supersession, no frozen hash rebased.
+
+GQ/GT/GW/GX/GU validation: source, operative, preservation and registry checks
+PASS after restoring hash-bound README/WORKFLOW.4119active3854semantic265formal,
+4640cases (+775 versus committed baseline),477exact assertion repetitions,
+52equivalencegroups/61reductions,42otherrelations,42questions/43failure rows,
+215restatements and55identity inputs. GQv2 is a proof-description correction,
+not another relation. Public3793 plus95local=3888. V69 scope hold remains
+explicit and is not counted as an idea; source remains available.

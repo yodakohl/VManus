@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "decisions": [
+    {
+      "id": "CORRECTION_GT:3822636e7b17288ea99b:v1",
+      "target": "SEM:3822636e7b17288ea99b",
+      "previous_revision": null,
+      "action": "restate_scope",
+      "replacement": {
+        "claim": "Die historische AROL-Wasser/Flüssigkeitslesung bewahrt zwei getrennte Quellenfassungen: GDT002 berichtet „AROL means flow/water“ wegen der genannten Pflanzenlabel-Gegenfälle als FAILED semantic root claim. Die spätere Werkstatt-Iteration4 nennt die frühere Argumentation zu stark und deutet sie als Ausschluss einer starren AROL=WATER-Gleichung; sie hält AROL als Wasser-/Flüssigkeitsnomen weiterhin für einen informellen Rivalen, weil Pflanzenbeschriftungen Wasser, Saft, Einweichen oder verwandte Inhalte nicht ausschließen. Dieser Rivale bleibt dort in Kreiskontexten und angesichts wechselnder Ränder problematisch; course/carrier/connection ist die bevorzugte weitere Deutung. Die beiden Aussagen werden nicht als derselbe präzise Testvertrag behandelt. GDT002s berichteter Testausgang bleibt erhalten; die spätere Einschränkung identifiziert weder ein allgemeines Wasserwort noch eine frei übertragbare AROL-Teilfolge und entscheidet den alten Manuskripttest nicht neu.",
+        "claim_type": "lexical_hypothesis"
+      },
+      "reason": "One stored case has two source variants, not two independently identical scientific contracts. GDT002 reports AROL means flow/water as FAILED semantic root claim on its stated plant-label counterexamples. Workshop iteration4 later calls the earlier wording too strong and informally retains a fluid-noun rival beside stem/branch and course/carrier/connection. Preserve both source voices without turning the later warning into a new verdict on GDT002 or a claim that the original report had preregistered the later rigid-versus-flexible distinction. The original export's complete-AROL wording should not silently impose wholeword/root equivalence on cited darol/sarol/orarol examples. No new case or identity decision is required. Attribute the label rigid equation to the later workshop interpretation, not to a newly reconstructed original GDT002 test contract.",
+      "target_basis_sha256": "21e1eeb070ad0e788f853d7e456caeadf3a2b2c3ca4336899fa3865f1a85c0b6",
+      "evidence": [
+        {
+          "path": "GDT002_MORPHOLOGY_FALSIFICATION_REPORT.md",
+          "line": 100,
+          "line_end": 110,
+          "quote": "## Counterexamples\n\n| Candidate claim | Counterexample | Consequence |\n|---|---|---|\n| `AROL` means flow/water | f99v.8 is all-reading `arol` in an unhedged plant-label annotation; f102v2.14 is all-reading `sarol` in another unhedged plant-label annotation | **FAILED** semantic root claim |\n| f82r.38 anchors `d + ar` | The readings are `darary`, `daryry`, and `jarary` | Must marginalize the onset/internal reading |\n| f83r.50 is securely `s + ar + ol + dal` | ZL3b has `sasoldal`; IT2a/RF1b have `saroldal` | Complete segmentation is provisional |\n| `TE` or `TEE` is an independent reusable core | Each has only one stable free physical occurrence and they overlap extensively | **WEAK**, despite many substrings |\n| `d-`, `s-`, or `q-` has a recovered semantic operator role | The contrasts span sections and registers, while controlled visual scans find no stable partition | Formal productivity is not meaning |\n| f75v labels number/name spouts | The 20 labels are primarily associated with figures in the human atlas; spout ownership is not established | f75v cannot validate a spout-value morphology |\n| The proposed four-slot system is a better complete generator | The existing reversible GDT001 morphology grammar is 100,562.898 bits worse than the global source winner | **FAILED** as a complete explanatory model |",
+          "sha256": "353a9272d467c07a7b354076bbfc6f0f5f12ec067b2d1b533d1150ecc4504456"
+        },
+        {
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "line": 467,
+          "line_end": 488,
+          "quote": "## Iteration 4 — allow water in plant records\n\nThe original wording made the plant-label counterexamples do too much work. A\nplant illustration can perfectly well be accompanied by a note about water,\nsap, juice, soaking, irrigation, root uptake, or a conduit-like stalk. The\ncounterexamples exclude only the rigid equation `AROL = WATER`.\n\nThree competing readings were compared informally:\n\n1. **AROL = a water/fluid noun.** This fits `darol` beside the f82r waterfall,\n   the f75v pond context, and `orarol` in front of Rosettes tubes. It becomes\n   strained in circular contexts and does not explain why the form changes at\n   its edges.\n2. **AROL = a plant stem/branch.** This fits `sarol` near a stalk on f102v2,\n   `darolaly` near a stem on f99v, and longer AROL labels below leaves. It fails\n   to generalize naturally to waterfalls, tubes, and circular diagrams.\n3. **AROL = a course/carrier/connection.** This can be realized physically as\n   a stem or sap path in a plant, a pipe/watercourse in an apparatus, and a\n   connection/orbit in a circle. It explains the cross-domain distribution\n   with one abstract workshop category.\n\nVersion 3 is the new leading guess. The microlexicon becomes:",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+        }
+      ],
+      "reviewer": "root after GT producer and independent historical-attribution peer"
+    }
+  ],
+  "derived_from": [
+    {
+      "path": "research_registry/decisions/semantic_source_scope_review_gt.json",
+      "sha256": "6f51b242ee9df78e06ecc713397743d44ef8ca33ed160d16e52d10ce85647e95"
+    },
+    {
+      "path": "research_registry/decisions/semantic_source_scope_peer_gt.json",
+      "sha256": "144cc2674a1e20fcdaa521152c89d7b7c5566de0e543a42f308d1a832f8e7498"
+    }
+  ],
+  "root_fixes": [
+    "Attribute rigid-equation reinterpretation to later workshop; GDT002 reported root failure unchanged",
+    "AROL one stored case with two source variants, not two stored cases"
+  ],
+  "new_cards": 0
+}

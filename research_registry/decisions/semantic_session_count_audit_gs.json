@@ -1,0 +1,211 @@
+{
+  "review_id": "SEMANTIC_SESSION_COUNT_AUDIT_GS",
+  "status": "PASS_SNAPSHOT_COUNTS",
+  "as_of_utc": "2026-09-07T01:59:10.783957+00:00",
+  "baseline": {
+    "requested_revision": "401928ab^",
+    "resolved_commit": "3e9b8336e6cb3e92a4600372442ba742e1ff0faa",
+    "active_cards": 3412,
+    "semantic_cards": 3013,
+    "formal_cards": 399,
+    "source_cases": 3865,
+    "exact_repetitions": 453,
+    "manifest_sha256": "ec3a8578f44979f8c1ebb62b7979f778bcefbc7995a1732c183691110485a246",
+    "commit_time": "2026-09-06T16:38:23Z"
+  },
+  "current": {
+    "active_cards": 4118,
+    "semantic_cards": 3853,
+    "formal_cards": 265,
+    "current_archived_cards": 44,
+    "all_source_cases": 4639,
+    "active_source_cases": 4595,
+    "archived_source_cases": 44,
+    "exact_repetitions": 477
+  },
+  "delta": {
+    "active_cards": 706,
+    "semantic_cards": 840,
+    "formal_cards": -134,
+    "new_original_card_ids": 750,
+    "new_original_card_types": {
+      "semantic_model": 215,
+      "functional_hypothesis": 255,
+      "lexical_hypothesis": 262,
+      "formal_role": 18
+    },
+    "new_current_semantic_ids": 731,
+    "new_current_formal_ids": 19,
+    "baseline_ids_now_archived": 44,
+    "baseline_semantic_ids_now_archived": 35,
+    "shared_active_type_transitions": [
+      {
+        "before": "formal_role",
+        "after": "functional_hypothesis",
+        "cards": 114
+      },
+      {
+        "before": "formal_role",
+        "after": "lexical_hypothesis",
+        "cards": 39
+      },
+      {
+        "before": "lexical_hypothesis",
+        "after": "formal_role",
+        "cards": 10
+      },
+      {
+        "before": "lexical_hypothesis",
+        "after": "functional_hypothesis",
+        "cards": 9
+      },
+      {
+        "before": "lexical_hypothesis",
+        "after": "semantic_model",
+        "cards": 1
+      },
+      {
+        "before": "formal_role",
+        "after": "semantic_model",
+        "cards": 1
+      }
+    ],
+    "new_source_case_ids": 774,
+    "missing_baseline_case_ids": [],
+    "baseline_case_payload_changes": 0,
+    "additional_exact_repetition_groupings": 24
+  },
+  "corrections": {
+    "log_rows": 294,
+    "actions": {
+      "archive_source_error": 66,
+      "restate_scope": 214,
+      "retain_as_hypothesis": 14
+    },
+    "latest_target_actions": {
+      "archive_source_error": 44,
+      "restate_scope": 214,
+      "retain_as_hypothesis": 14
+    },
+    "current_archives": 44
+  },
+  "identities": {
+    "equivalence_groups": 52,
+    "display_reduction": 61,
+    "semantic_display_reduction": 61,
+    "public_semantic_display": 3792,
+    "raw_log_rows": 93,
+    "latest_decision_keys": 93,
+    "actions": {
+      "equivalent_proposition": 52,
+      "related_not_equivalent": 7,
+      "alternative_to": 31,
+      "specializes": 3
+    }
+  },
+  "failures": {
+    "log_revisions": 43,
+    "current_scoped_questions": 42
+  },
+  "snapshot_hashes": {
+    "research_registry/semantic_ideas.jsonl": "209f17dab2a6f8b087adffa25d6dcb71e5fb8f2892e13c15b974e7f12364e8bc",
+    "research_registry/semantic_ideas_excluded.jsonl": "88b913fe4183b4bcf8cc01387324991c894544856ed62adebb79e6b78270e3fc",
+    "research_registry/semantic_claim_corrections.jsonl": "1afbc017b60736ac250df9d65bb726dc433c41e5cd60c146b25759aaf38343b1",
+    "research_registry/semantic_identity_decisions.jsonl": "7894fbd59df86b21c5c71eacd4f85c7fab38cb52f8260351c7a70037e9fc2f01",
+    "research_registry/semantic_failure_decisions.jsonl": "af9f2ad3a1dec30393cb3f06a6488d56fe07f1643db5cc87d72c7ee6fdddfc9c",
+    "research_registry/SEMANTIC_IDEAS_MANIFEST.json": "bb80df6cdf7ab3423dc2d42bab9a2f17c000a11b8329ad7e2a7624949b41e720",
+    "research_registry/IDENTITY_REVIEW_INPUTS.json": "85065c5511ac7bf9917227692aeda4303151c02683f124d9513aa03ec0e931c8",
+    "research_registry/SEMANTIC_IDEAS.md": "5941654c50d51d586f6036414b84655ef54ba433216632b8d6444d89bcdf6591"
+  },
+  "freshness": {
+    "pass_": true,
+    "error": null
+  },
+  "limits": [
+    "A snapshot comparison, not an independently adjudicated number of distinct ideas or decipherment successes.",
+    "New source cases, new card IDs, reclassification, archives and display equivalence use different units.",
+    "Later publication/builds can change these counts; compare the recorded file hashes before reuse.",
+    "Ignored local overlay is excluded from public card/case counts."
+  ],
+  "source_id_union": {
+    "baseline": 3115,
+    "current": 3615,
+    "new": 500,
+    "missing": 0,
+    "unit": "distinct retained source member IDs; not case count and not idea count"
+  },
+  "arithmetic_checks": {
+    "semantic_delta": "731 new currently-semantic IDs +154 old formal-to-semantic -10 old semantic-to-formal -35 old semantic archives =840",
+    "formal_delta": "19 new currently-formal IDs +10 old semantic-to-formal -154 old formal-to-semantic -9 old formal archives = -134",
+    "all_card_delta": "750 new original IDs -44 currently archived baseline IDs =706 active-card increase",
+    "case_delta": "774 new case IDs =750 new original cards +24 extra exact-assertion case groupings",
+    "old_case_preservation": "All3865 original case IDs retained; byte-equivalent canonical case payloads in the current active+archive JSON objects."
+  },
+  "guide_checks": {
+    "table": [
+      {
+        "label": "Active semantic hypothesis variants",
+        "printed": "3,853",
+        "value": 3853,
+        "status": "PASS",
+        "comma_policy": "thousands separator, not decimal"
+      },
+      {
+        "label": "Separately typed formal-role cards",
+        "printed": "265",
+        "value": 265,
+        "status": "PASS",
+        "comma_policy": "thousands separator, not decimal"
+      },
+      {
+        "label": "Reviewed source cases, including the correction archive",
+        "printed": "4,639",
+        "value": 4639,
+        "status": "PASS",
+        "comma_policy": "thousands separator, not decimal"
+      },
+      {
+        "label": "Archived source-extraction errors",
+        "printed": "44",
+        "value": 44,
+        "status": "PASS",
+        "comma_policy": "thousands separator, not decimal"
+      },
+      {
+        "label": "Exact normalized assertion repetitions grouped",
+        "printed": "477",
+        "value": 477,
+        "status": "PASS",
+        "comma_policy": "thousands separator, not decimal"
+      },
+      {
+        "label": "Public semantic display entries",
+        "printed": "3,792",
+        "value": 3792,
+        "status": "PASS",
+        "comma_policy": "thousands separator, not decimal"
+      }
+    ],
+    "identity_groups_reduction": "PASS 52/61",
+    "correction_sentence": "PASS: archives44 describes current archive state; it must not be paraphrased as44 total archive actions (66). Restates214 matches log actions and214 latest restatement targets.",
+    "questions_and_log": "PASS42 questions; independent log count43 revisions.",
+    "identity_inputs": "PASS52",
+    "public_vs_local_display": "PASS public3792; fresh cached local display3887; difference95. Local source bodies not inspected.",
+    "intake_unit_counts": "5370 proposal source fragments agrees clean manifest;3788 component excerpts and82 ideas agree broad manifest.9917 blocks+5561 pointers=15478 unresolved_source_block intake rows; labels do not count remaining missing meanings.",
+    "shortlist": "9 latest conditional questions, not a global ranking.",
+    "claim_ceiling": "PASS: guide explicitly disclaims decipherment, independent-theory totals, universal coverage and readiness; current-source reviews are bounded. No impermissible blanket completeness claim located.",
+    "wording_caution": "The phrase latest integrated packet introduces FV while later GN/GR paragraphs follow; chronology heading is not a count error and should not be used to identify the latest material event."
+  },
+  "interval": {
+    "requested_start": "2026-09-06T16:41:44Z",
+    "baseline_precedes_start_seconds": 201,
+    "interpretation": "Requested pre401928ab snapshot is3m21s before the stated10h start, so this is the authorized baseline-to-snapshot comparison rather than exact wall-clock transaction counting."
+  },
+  "validation": {
+    "no_original_case_loss": true,
+    "unchanged_baseline_case_payloads": true,
+    "guide_thousands_commas_parsed": true,
+    "read_only_public_metadata": true,
+    "later_changes_require_hash_recheck": true
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "review_id": "SEMANTIC_QUOTE_ENDPOINT_PEER_GX",
+  "status": "GX_ERROR_CLASSIFICATION_NOT_ESTABLISHED_THREE_SAMPLES_VALID",
+  "reviewed_input": {
+    "path": "research_registry/decisions/semantic_quote_endpoint_audit_gx.json",
+    "sha256": "179d109a1bc5971173fc2fd5af3e4c862a9a31aa5cfb832180aec060a32789fa"
+  },
+  "scope": {
+    "active_md_examples": 3,
+    "selection": "First three distinct active MD source paths in GX finding_groups; no expansion beyond three sources."
+  },
+  "samples": [
+    {
+      "path": "GDT247_LABEL_PROSE_MEMBER_REUSE_REPORT.md",
+      "id": "SEM:b9aa084276de19d20fa3",
+      "line": 41,
+      "end": 47,
+      "last_declared_line": "''",
+      "declared_join_equals_quote": true,
+      "split_count": 7,
+      "splitlines_count": 6,
+      "declared_count": 7,
+      "truncated_join_equals_quote": false,
+      "source_sha256": "e743d1e3999db757120b4f5569606b2e2f8e214ce8ea214b364cad6012acd3be",
+      "decision": "DECLARED_SPAN_VALID_INCLUDES_FINAL_BLANK_LINE"
+    },
+    {
+      "path": "GDT298_LEXICALIZED_HYBRID_GRAMMAR_REVISION_REPORT.md",
+      "id": "SEM:8875f68aee34b4126673",
+      "line": 42,
+      "end": 51,
+      "last_declared_line": "''",
+      "declared_join_equals_quote": true,
+      "split_count": 10,
+      "splitlines_count": 9,
+      "declared_count": 10,
+      "truncated_join_equals_quote": false,
+      "source_sha256": "5712ed2b29745bd620a65e98fd10944394cc10fa4d4f36a7661105e28a0941d6",
+      "decision": "DECLARED_SPAN_VALID_INCLUDES_FINAL_BLANK_LINE"
+    },
+    {
+      "path": "experiments/yolo/gdt562_thirty_page_actionless_state_role_reader/REPORT.md",
+      "id": "SEM:ed1e21430d5b72c60dda",
+      "line": 119,
+      "end": 133,
+      "last_declared_line": "''",
+      "declared_join_equals_quote": true,
+      "split_count": 15,
+      "splitlines_count": 14,
+      "declared_count": 15,
+      "truncated_join_equals_quote": false,
+      "source_sha256": "f59a6f3c02369ee862c2592d433b3559fb9c3abab9c7d3a925172f36672d2442",
+      "decision": "DECLARED_SPAN_VALID_INCLUDES_FINAL_BLANK_LINE"
+    }
+  ],
+  "conclusion": "All three declared source intervals include a genuine final blank line. Joining the exact declared source span with newline reproduces the quote byte-for-byte as text; shortening line_end as GX proposed does not. splitlines() drops the terminal empty segment and is therefore not a universal validity criterion for line_end.",
+  "correction_to_gx": {
+    "retract_error_count": true,
+    "reason": "The292 locations establish divergence between splitlines and split-newline counting conventions only. GX did not establish292 erroneous endpoints, nor60 active display errors. Its proposed automatic line_end decrement is unwarranted and would make the three checked declared-span joins nonidentical to their preserved quotes.",
+    "retained_observation": "Serialized quotes end in newline and declared endpoints exceed the splitlines-derived endpoint by1 at those recorded locations.",
+    "remaining_uncertainty": "Only3 source-span joins checked here; neither blanket validity nor blanket error is established for the other locations. They remain convention flags until checked against the declared source interval and the actual serializer contract."
+  },
+  "minimal_action": "No mass rebase, source correction, or claim/case rebinding. Preserve raw GX as historical audit with this correcting peer attached. A future validator should accept the exact declared-span join convention rather than blindly force splitlines length.",
+  "operational_mutation": false
+}

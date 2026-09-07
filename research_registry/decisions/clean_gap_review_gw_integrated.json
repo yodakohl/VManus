@@ -1,0 +1,184 @@
+{
+  "review_id": "CLEAN_GAP_REVIEW_GW_INTEGRATED",
+  "cards": [
+    {
+      "id": "CLEAN_GAP_GW:V26_OPERATION_COMMIT_HIERARCHY",
+      "claim": "V26 interprets a SPACE/JOIN field as a local clause or operand package, DY closure as commitment of one local operation, and B3 closure as commitment of a major step or record-sized unit. An open field retains owner, batch and discourse state and continues; a physical line ending is not automatically a sentence boundary. This is a forced working sentence/operation interpretation, not established ordinary sentence syntax or plaintext.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:00f9ad203e55a89d607b"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v26/V26_THEORY_SELECTION.md",
+          "line": 28,
+          "line_end": 39,
+          "quote": "## Reading rule\n\n```text\nphysical line end   no automatic sentence boundary\nSPACE/JOIN field    local clause or operand package\nDY close            commit one local operation\nB3 close            commit a major step or record-sized unit\nOPEN field          retain owner, batch and discourse state; continue\n```\n\nThis explains why a Herbal instruction can begin on one line and finish several\nlines later, while a Bio line can contain several separately closed operations.",
+          "sha256": "c0d20f1be27f96ef6c33a11e039e269efe133ebc2c70765501566477d22d3ef3"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v26/V26_THEORY_SELECTION.md",
+          "line": 61,
+          "line_end": 65,
+          "quote": "The English content remains the forced working translation. The new result is\nthe clause hierarchy: line is layout, field is the local construction, closure\ncommits a step, and record holds the continuing owner/process state. This does\nnot establish ordinary sentence syntax, a specific language or plaintext. f84\nand f84r remained sealed.",
+          "sha256": "c0d20f1be27f96ef6c33a11e039e269efe133ebc2c70765501566477d22d3ef3"
+        }
+      ],
+      "status": "unconfirmed",
+      "scope": {
+        "historical_model": "V26 fixed 135-field/11-record edition",
+        "unit": "whole field/closure hierarchy; not free glyph translation"
+      },
+      "comparison": {
+        "counterpart_ids": [
+          "SEM:751b1a92abfa9f5764d0",
+          "SEM:72c57906166ca532589a",
+          "SEM:7860069d513e0b49718b"
+        ],
+        "reason": "The source asserts an interpreted granularity hierarchy, not merely parser order: local clause/operand package, one-operation DY commitment, larger-step/record B3 commitment, and open owner/batch/discourse persistence despite line reflow. V41 only gives the genre/field contrast. The V28 existing card says DY/B3 commit an operation and its surrounding manual carries state; it does not distinguish DY from B3 granularity. The old standalone B3 record-completion card provides only one part. Their separate existence does not equal an addressable full conjunction. Within these exact source comparisons, recovery is justified; no global model novelty is asserted.",
+        "complete_cases_reviewed": true,
+        "peer": {
+          "path": "research_registry/decisions/clean_gap_peer_gw.json",
+          "sha256": "0e2c596a0c61df1ff44f65d3812528126ff41e6a7718a6a6753e90175c49ad21"
+        }
+      },
+      "independent_new_idea": false
+    }
+  ],
+  "dispositions": [
+    {
+      "source_id": "LEGACY_COMPONENT:00f9ad203e55a89d607b",
+      "decision": "historical_full_proposition_recovered",
+      "card_ids": [
+        "CLEAN_GAP_GW:V26_OPERATION_COMMIT_HIERARCHY"
+      ],
+      "counterpart_ids": [
+        "SEM:751b1a92abfa9f5764d0",
+        "SEM:72c57906166ca532589a",
+        "SEM:7860069d513e0b49718b"
+      ],
+      "reason": "The source asserts an interpreted granularity hierarchy, not merely parser order: local clause/operand package, one-operation DY commitment, larger-step/record B3 commitment, and open owner/batch/discourse persistence despite line reflow. V41 only gives the genre/field contrast. The V28 existing card says DY/B3 commit an operation and its surrounding manual carries state; it does not distinguish DY from B3 granularity. The old standalone B3 record-completion card provides only one part. Their separate existence does not equal an addressable full conjunction. Within these exact source comparisons, recovery is justified; no global model novelty is asserted.",
+      "full_selected_span_read": true,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v26/V26_THEORY_SELECTION.md",
+          "line": 28,
+          "line_end": 39,
+          "quote": "## Reading rule\n\n```text\nphysical line end   no automatic sentence boundary\nSPACE/JOIN field    local clause or operand package\nDY close            commit one local operation\nB3 close            commit a major step or record-sized unit\nOPEN field          retain owner, batch and discourse state; continue\n```\n\nThis explains why a Herbal instruction can begin on one line and finish several\nlines later, while a Bio line can contain several separately closed operations.",
+          "sha256": "c0d20f1be27f96ef6c33a11e039e269efe133ebc2c70765501566477d22d3ef3"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v26/V26_THEORY_SELECTION.md",
+          "line": 61,
+          "line_end": 65,
+          "quote": "The English content remains the forced working translation. The new result is\nthe clause hierarchy: line is layout, field is the local construction, closure\ncommits a step, and record holds the continuing owner/process state. This does\nnot establish ordinary sentence syntax, a specific language or plaintext. f84\nand f84r remained sealed.",
+          "sha256": "c0d20f1be27f96ef6c33a11e039e269efe133ebc2c70765501566477d22d3ef3"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:093a8919edf940228be9",
+      "decision": "scope_comparison_open",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:c557b9f3cd8b79671468",
+        "SEM:cd84a697e19a56c0527f"
+      ],
+      "reason": "The V69 text really authors the proposed production mechanism and its source limits. However V9 and V70 are not the strongest complete production counterparts. The existing V76 card already describes master-selected image/exemplar ownership, copied opaque cards, image/register ellipsis, hand rendering, correction of resets/namespaces and inability to recover rare semantics without the master. The early typed exemplar-register card also supplies shared-card/register templates and externalized rare content. V69 adds a specific four-register/14-control/159-opaque realization and teachability/replay ceiling. Those details may be a distinct bounded implementation assertion or a source-specific realization of an already named general production model; numerical specificity and a new report heading alone do not decide this. The producer did not compare these full contracts. Do not activate this as a second complete production model yet.",
+      "full_selected_span_read": true,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v69/V69_R4_FINAL_SECOND_EDITION_REPORT.md",
+          "line": 5,
+          "line_end": 24,
+          "quote": "## Endmodell\n\n```text\nDOMAIN_NEUTRAL_EXEMPLAR_CARD_REGISTER\n\ngewöhnliche Fachquelle\n  -> Bild-/Registerellipse\n  -> 4 recordlokale Register\n  -> 14 exakte Control-Karten\n  -> 159 lokale opake Prosa-Ganzkartentypen\n  -> Felder, Reflow, Renderer\n\nAstro: drei getrennte seitenlokale Diagrammnamespaces\n```\n\nDieses Modell ist für eine kleine Werkstatt um 1420 lehrbar, sofern\nMasterexemplar, Codeblatt und Rendererbeispiele vorhanden sind. Es ist nicht\nselbstbeschreibend: Die formale Seite kann mit den Hilfsmitteln 776/776\nreproduziert werden; die vollständige konkrete Quellintention ist ohne\nMasterexemplar 0/776 rücklesbar.",
+          "sha256": "dbc2a8b682d4e73ea7922b6397ce9e55853b6434577788e51d455302f114b4c6"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v69/V69_R4_FINAL_SECOND_EDITION_REPORT.md",
+          "line": 45,
+          "line_end": 56,
+          "quote": "Die übrigen 159 Kartentypen sind `UNKNOWN_EXEMPLAR_WHOLE_CARD`. Die 14\nControl-Karten erkennen 119/381 Prosaereignisse; 262 Ereignisse bleiben lokale\nExemplarkarten. Kein Kartenstück, PAGE_HOST, sichtbarer Stamm oder Wrapper\nerhält einen Inhaltswert.\n\n## Syntax und Speicher\n\n116 Quellenstatements laufen über 135 Felder und 57 physische Loci. Die Felder\nsind 14 `UNIQUE`, 56 `AMBIGUOUS`, 65 `UNPARSED`; die Aussagen 12/49/55.\nPhysische Zeilen sind Reflow. Vier Register — OWNER, ACTIVE, TARGET, PREVIOUS —\nresetten an jedem Record und sind für die gewählte Edition minimal. `CLOSE`\nbeendet ein Feld, nicht notwendig einen Satz.",
+          "sha256": "dbc2a8b682d4e73ea7922b6397ce9e55853b6434577788e51d455302f114b4c6"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v69/V69_R4_FINAL_SECOND_EDITION_REPORT.md",
+          "line": 58,
+          "line_end": 87,
+          "quote": "## Zwei gleichrangige Inhaltseditionen\n\nV68 hat den früheren medizinischen Vorsprung aufgehoben. V69 publiziert deshalb\nbeide Volltexte:\n\n### Iatromedizinische Lesefassung\n\n- Herbal: fünf bebilderte Simple-Artikel mit Wurzel-, Blüten-, Blatt- und\n  Feuchtkrautbereitungen;\n- Biological: therapeutische Bad-/Wascharbeit mit realer Becken-, Filter-,\n  Leitungs- und Auslassbedienung;\n- Astro: 7×12 medizinischer Wahlrahmen, 28 Mondstationsadressen und unabhängige\n  28er Wahlregeln.\n\n### Praktisch-technische Lesefassung\n\n- Herbal: Pflanzenrohstoffe, Auszüge, Materialproben und Vorräte;\n- Biological: Badehaus-/Waschhausbecken, Filter, Leitungen, Rücklauf und\n  Wartung;\n- Astro: generischer Arbeits-, Termin- und Stationsplan.\n\nDas sind `SIMPLE/BATH/ELECTION` und `MATERIAL/PROCESS/SCHEDULE`. Keine Fassung\nist robust Sieger; beide benutzen dieselbe formale Maschine.\n\n## Astro-Grenze\n\nf67r2 bleibt ein 7×12-Selektor, f68r1 ein Zentrum-plus-28-Raumkatalog und f69v\neine unabhängige 28er-Regelfolge. Es gibt keinen sichtbaren f68↔f69-Schlüssel,\nkeine lizenzierte Orientierung und keinen Prosa-Kartenimport. Alle 395 Gruppen\nsind lokale Diagrammfragmente, keine gelesenen Wörter.",
+          "sha256": "dbc2a8b682d4e73ea7922b6397ce9e55853b6434577788e51d455302f114b4c6"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v76/V76_R4_CHANCERY_BOOK_PURPOSE_REPORT.md",
+          "line": 16,
+          "line_end": 19,
+          "quote": "Das Manuskript wäre darin kein Fließtextbuch, sondern ein stark elliptisches\nArbeits- und Nachschlageexemplar. Bilder werden zuerst gezeichnet und liefern\nden stillen Besitzer. Danach kopieren mehrere Schreiber kurze opake Karten aus\neinem ausführlicheren Masterexemplar in die verbleibenden Räume.",
+          "sha256": "cb9949e811d576be700044655a884e30af18d146d2f3fbc49096e3484c7281e1"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v76/V76_R4_CHANCERY_BOOK_PURPOSE_REPORT.md",
+          "line": 31,
+          "line_end": 35,
+          "quote": "Dieser Rivale ist keine bloße Nullhypothese. Er besitzt denselben\nProduktionsworkflow und gewinnt bei den technischen Nachträgen B5/B6 sowie bei\nden Astro-Seiten. Das Gesundheitskompendium gewinnt knapp, weil nackte Figuren\nund die Abfolge Stoff → Anwendung → Himmelswahl eine geschlossenere\nGesamtbenutzung ergeben.",
+          "sha256": "cb9949e811d576be700044655a884e30af18d146d2f3fbc49096e3484c7281e1"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v76/V76_R4_CHANCERY_BOOK_PURPOSE_REPORT.md",
+          "line": 44,
+          "line_end": 62,
+          "quote": "## Herstellungsmodell um 1420\n\n1. Ein Meister sammelt Pflanzenartikel, Stationsbeschreibungen und\n   Himmelsnachschläge aus mehreren Quellen.\n2. Ein Zeichner plant die großen Pflanzen, Figurenstationen und Räder.\n3. Der Meister weist jedem Bild oder lokalen Teilbild einen Exemplarabschnitt\n   zu.\n4. Schreiber kopieren opake Ganzkarten statt einen unbekannten Wert produktiv\n   neu zu schreiben.\n5. Wiederholte Besitzer und Argumente werden bild- oder registergestützt\n   ausgelassen.\n6. Handspezifische Renderer und lokale Schlüsse passen die Karten in den Raum.\n7. Ein Korrektor prüft Kartenidentität, Besitzer, Resets und Namensräume gegen\n   das Masterexemplar.\n8. Der Benutzer konsultiert Bild plus lokalen Eintrag; ohne Exemplar kann er\n   seltene Karten nicht semantisch erschließen.\n\nDas ist für mehrere Schreiber lehrbar, weil nur der kleine Formalapparat\nproduktiv ist. Der große Inhaltsrest wird kopiert oder memoriert.",
+          "sha256": "cb9949e811d576be700044655a884e30af18d146d2f3fbc49096e3484c7281e1"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates/CANDIDATE_SCRIBAL_CODEBOOK.md",
+          "line": 21,
+          "line_end": 27,
+          "quote": "1. **Leading theory (0.62, architectural only):** the seven prose pages are\n   written in an exemplar-coded practical register. A visible group is usually\n   the rendered form of a learned formula card, not a letter-by-letter cipher\n   word. Common cards express reusable record relations; pictures and local\n   register cards carry much of the content. Different scribes share the card\n   values and field stencils but render licensed cards with somewhat different\n   entry wrappers and closure habits.",
+          "sha256": "d47fdfeea17b90712d8b803cb18fa387414d022d3e7235f576a9432c730e6b34"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates/CANDIDATE_SCRIBAL_CODEBOOK.md",
+          "line": 40,
+          "line_end": 64,
+          "quote": "The novel step beyond the current base is to treat the system as a\n**compressed exemplar register**: scribes copy formula-bearing cards from a\nshared stock, while pictures and table geometry replace repeated nouns and\narguments. “Ledger” need not mean a lost physical table; it may have been a\nmemorized repertory plus model sheets.\n\n## Why a workshop could learn it around 1420\n\nThe learner does not memorize 1,676 arbitrary meanings. The ten-page evidence\nis compatible with a much smaller active curriculum:\n\n1. learn the common card silhouettes and their permitted exact cells;\n2. learn a few register stencils (open Herbal row; closed Bio cell sequence;\n   local circle-label array);\n3. copy rare technical cards from an exemplar rather than deriving them;\n4. select a hand-appropriate entry allograph (`s`, `q`, or unwrapped) only\n   after the card has been chosen;\n5. close a Bio field with one licensed terminal card when its local entry is\n   resolved;\n6. repeat the boundary card when a record is physically reflowed and the next\n   line needs a pickup cue.\n\nThis is simple enough for a small workshop: semantic choice is local and\ntemplate-driven; the difficult rare inventory stays in exemplars. The exact\njoint card remains the authoritative unit. Wrapper pieces are scribal",
+          "sha256": "d47fdfeea17b90712d8b803cb18fa387414d022d3e7235f576a9432c730e6b34"
+        }
+      ],
+      "smallest_followup": "Choose the proposition unit explicitly: compare the full V69 domain-neutral four-register realization with the already-defined V76 production mechanism and the early typed-register case. If the intended idea is the shared production mechanism, enrich the existing source-bound case/ID without counting another model; if the independently testable claim is the specific operational realization, state precisely what additional semantic-production restriction it predicts beyond that mechanism. No new corpus test is needed."
+    }
+  ],
+  "source_reassessments": [],
+  "derived_from": [
+    {
+      "path": "research_registry/decisions/clean_gap_review_gw.json",
+      "sha256": "70b4ecb7c021d96c20fe4fc10589e9ceee4caee9c18d5d6b579e12204e84f093"
+    },
+    {
+      "path": "research_registry/decisions/source_coverage_gap_batch_gw.json",
+      "sha256": "a036b73e22b406e5434f5dafddc2dd75eff320d72c0bc98873f82fcdc21ed4e3"
+    },
+    {
+      "path": "research_registry/decisions/clean_gap_peer_gw.json",
+      "sha256": "0e2c596a0c61df1ff44f65d3812528126ff41e6a7718a6a6753e90175c49ad21"
+    }
+  ],
+  "counts": {
+    "new_cards": 1,
+    "new_cases": 1,
+    "initial_dispositions": 2,
+    "source_reassessments": 0,
+    "held_model_scopes": 1
+  },
+  "source_id_classification": {
+    "actual_item_types": {
+      "LEGACY_COMPONENT:00f9ad203e55a89d607b": "unresolved_source_block",
+      "LEGACY_COMPONENT:093a8919edf940228be9": "unresolved_source_block"
+    },
+    "prior_exact_source_receipt_hits": [],
+    "note": "LEGACY_COMPONENT prefix does not imply one of the3788 extracted component assertions. These two actual unresolved blocks had no prior exact intake."
+  },
+  "limits": [
+    "V26 construction hierarchy is distinct from separate closure/record atom assertions; historical working interpretation only.",
+    "V69 source is available and authentic, but new-model identity versus existing exemplar workflow remains unresolved. No placeholder card or missing-data claim."
+  ]
+}

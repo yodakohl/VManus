@@ -9,17 +9,17 @@ They remain in the source archive. No hypothesis becomes executable by inclusion
 
 | Unit | Count |
 |---|---:|
-| Active semantic hypothesis variants | 3,853 |
+| Active semantic hypothesis variants | 3,854 |
 | Separately typed formal-role cards | 265 |
-| Reviewed source cases, including the correction archive | 4,639 |
+| Reviewed source cases, including the correction archive | 4,640 |
 | Archived source-extraction errors | 44 |
 | Exact normalized assertion repetitions grouped | 477 |
 | Reviewed equivalence groups / display reduction | 52 / 61 |
-| Public semantic display entries | 3,792 |
+| Public semantic display entries | 3,793 |
 
 These are different units, not a deduplicated total of independent theories.
 A local ignored supplement contributes95 semantic cards and one formal card;
-the ordinary local default therefore displays3,887 semantic entries. A fresh
+the ordinary local default therefore displays3,888 semantic entries. A fresh
 public clone has the public view only. Local source files and quotes are not
 published or silently folded into public counts.
 
@@ -57,12 +57,12 @@ an atomic gloss does not cover a complete multi-card model.
 Whitespace and backtick typography alone are normalized for exact assertions.
 Explicit equivalence decisions add52 groups without deleting any original ID.
 The identity log also retains seven related-but-distinct links,31 rival links and
-three specializations. Conflicting nonidentity blocks transitive merging; changed
+four specializations. Conflicting nonidentity blocks transitive merging; changed
 claim or case bindings require a new review. Shared spelling, shortened wording
 or a matching source title alone proves neither identity nor nonidentity.
 
 Before selecting another identity comparison, consult `IDENTITY_REVIEW_INPUTS.json`
-and the current operative identity log. The manifest records fifty-two hashed review
+and the current operative identity log. The manifest records the required hashed review
 inputs, including earlier proposal and peer formats missed by the narrower DO
 selection list. It is a bounded coverage receipt, not an automatic pair verdict.
 Update it when new identity reviews are added; distinguish an old recommendation
@@ -81,7 +81,7 @@ source/case counts belong to that representative; `group_scope_cases` counts all
 member cases. Open `--field equivalents` or `--field relations` for the others.
 No failure, success or execution permission propagates across an identity link.
 
-The append-only correction log currently archives44 erroneous exports and restates214
+The append-only correction log currently archives44 erroneous exports and restates215
 source assertions. Every original claim, case and quote remains retrievable,
 including via `--show ID` for archived cards. Numeric columns, alias-column
 misparses, unlicensed constituent exports and metadata are extraction errors;
@@ -124,18 +124,14 @@ Later full-scope reviews and audit-only source comparisons live in the bounded
 `decisions/clean_gap_review_*.json` artifacts. An audit pointer does not add a
 source-case payload. Quote overlap alone never certifies complete review.
 
-Latest integrated packet: FV restores source restrictions on sh (GDT623 V2
-quality construction) and L (productive only before CHED), and preserves CHAR
-THEN as a considered but criticized V18 rival. VAL-B warm remains an actual
-historical wager despite the absence of independent comparator binding.
-
-GN scopes ychol's temporal continuation reading to the examined formula-role
-panel, keeps Item/ferner live and distinguishes C2 positional confidence from
-word confirmation. The ols oil-preparation rival is a genuine whole-form
-proposal; it is not an export from embedded ol. GR records both source audits.
-GP excludes ten late-source candidates using exact existing source/case reviews;
-its corrected metadata-filter exposure is disclosed, with no repeated full
-reviews, added cards or blanket coverage claim.
+GW recovers V26's full local-operation/major-step/open-state hierarchy as one
+historical construction hypothesis. V69's exemplar implementation remains held
+against existing complete production models: its source is available, but a new
+model identity is not established. Both are first reviews of actual unresolved
+source blocks; their LEGACY_COMPONENT prefix does not make them part of the
+3,788 extracted component assertions. GX's apparent endpoint errors were a
+newline-counting convention; three exact selected spans include a final blank
+line. No mass source correction or semantic regrading follows.
 A073/A004 mappings remain available but uninspected, not missing data.
 
 Before adding a fuller model card, check whether an existing short card already

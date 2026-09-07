@@ -1,0 +1,166 @@
+{
+  "review_id": "SEMANTIC_SOURCE_SCOPE_PEER_GT",
+  "status": "APPROVE_ONE_SCOPE_COMPLETION_WITH_SOURCE_ATTRIBUTION_PRECISION_TWO_REUSES",
+  "reviewed_inputs": [
+    {
+      "path": "research_registry/decisions/semantic_source_scope_review_gt.json",
+      "sha256": "6f51b242ee9df78e06ecc713397743d44ef8ca33ed160d16e52d10ce85647e95"
+    },
+    {
+      "path": "research_registry/decisions/semantic_type_review_at.json",
+      "sha256": "9260470bbc86c49733c6fae16db0d3e81784383fba15491521020e44db357df3",
+      "locators": [
+        "/reviews/16"
+      ],
+      "reason": "Current active-mode withdrawal already corrected; reuse, no new verdict."
+    },
+    {
+      "path": "research_registry/decisions/semantic_type_review_ak.json",
+      "sha256": "ab34ce759b37c680e472f6ca4ab66a0401308a2843877f007e233f22b622c809",
+      "locators": [
+        "/reviews/28"
+      ],
+      "reason": "Current CKHY exact-gloss rejection/type already corrected; reuse."
+    },
+    {
+      "path": "research_registry/decisions/clean_proposal_review.json",
+      "sha256": "b61b945b3101822932c4bcb4b5a3236e2da3d3675441357e0adf02c12b3de19f",
+      "locators": [
+        "/cards/44"
+      ],
+      "reason": "Existing AROL case contains both historical variants; same-ID completion, not a duplicate new idea."
+    }
+  ],
+  "decisions": [
+    {
+      "target": "SEM:3822636e7b17288ea99b",
+      "card_basis": "21e1eeb070ad0e788f853d7e456caeadf3a2b2c3ca4336899fa3865f1a85c0b6",
+      "effective_basis": "afd5d31d50441590f0ddd0a09985c9ee3605ebe68542c7643215f744a16dcdd2",
+      "current_claim": "The complete AROL denotes flow or water.",
+      "current_type": "lexical_hypothesis",
+      "case_ids": [
+        "CLEAN_HYP:2e8dd3b9f08fd6d54d66"
+      ],
+      "evidence": [
+        {
+          "path": "GDT002_MORPHOLOGY_FALSIFICATION_REPORT.md",
+          "line": 100,
+          "line_end": 110,
+          "quote": "## Counterexamples\n\n| Candidate claim | Counterexample | Consequence |\n|---|---|---|\n| `AROL` means flow/water | f99v.8 is all-reading `arol` in an unhedged plant-label annotation; f102v2.14 is all-reading `sarol` in another unhedged plant-label annotation | **FAILED** semantic root claim |\n| f82r.38 anchors `d + ar` | The readings are `darary`, `daryry`, and `jarary` | Must marginalize the onset/internal reading |\n| f83r.50 is securely `s + ar + ol + dal` | ZL3b has `sasoldal`; IT2a/RF1b have `saroldal` | Complete segmentation is provisional |\n| `TE` or `TEE` is an independent reusable core | Each has only one stable free physical occurrence and they overlap extensively | **WEAK**, despite many substrings |\n| `d-`, `s-`, or `q-` has a recovered semantic operator role | The contrasts span sections and registers, while controlled visual scans find no stable partition | Formal productivity is not meaning |\n| f75v labels number/name spouts | The 20 labels are primarily associated with figures in the human atlas; spout ownership is not established | f75v cannot validate a spout-value morphology |\n| The proposed four-slot system is a better complete generator | The existing reversible GDT001 morphology grammar is 100,562.898 bits worse than the global source winner | **FAILED** as a complete explanatory model |",
+          "sha256": "353a9272d467c07a7b354076bbfc6f0f5f12ec067b2d1b533d1150ecc4504456"
+        },
+        {
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "line": 467,
+          "line_end": 488,
+          "quote": "## Iteration 4 — allow water in plant records\n\nThe original wording made the plant-label counterexamples do too much work. A\nplant illustration can perfectly well be accompanied by a note about water,\nsap, juice, soaking, irrigation, root uptake, or a conduit-like stalk. The\ncounterexamples exclude only the rigid equation `AROL = WATER`.\n\nThree competing readings were compared informally:\n\n1. **AROL = a water/fluid noun.** This fits `darol` beside the f82r waterfall,\n   the f75v pond context, and `orarol` in front of Rosettes tubes. It becomes\n   strained in circular contexts and does not explain why the form changes at\n   its edges.\n2. **AROL = a plant stem/branch.** This fits `sarol` near a stalk on f102v2,\n   `darolaly` near a stem on f99v, and longer AROL labels below leaves. It fails\n   to generalize naturally to waterfalls, tubes, and circular diagrams.\n3. **AROL = a course/carrier/connection.** This can be realized physically as\n   a stem or sap path in a plant, a pipe/watercourse in an apparatus, and a\n   connection/orbit in a circle. It explains the cross-domain distribution\n   with one abstract workshop category.\n\nVersion 3 is the new leading guess. The microlexicon becomes:",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+        }
+      ],
+      "decision": "approve_with_attribution_precision",
+      "reason": "One stored case has two source variants, not two independently identical scientific contracts. GDT002 reports AROL means flow/water as FAILED semantic root claim on its stated plant-label counterexamples. Workshop iteration4 later calls the earlier wording too strong and informally retains a fluid-noun rival beside stem/branch and course/carrier/connection. Preserve both source voices without turning the later warning into a new verdict on GDT002 or a claim that the original report had preregistered the later rigid-versus-flexible distinction. The original export's complete-AROL wording should not silently impose wholeword/root equivalence on cited darol/sarol/orarol examples. No new case or identity decision is required.",
+      "required_precision": "Attribute the label rigid equation to the later workshop interpretation, not to a newly reconstructed original GDT002 test contract.",
+      "approved_replacement": {
+        "claim": "Die historische AROL-Wasser/Flüssigkeitslesung bewahrt zwei getrennte Quellenfassungen: GDT002 berichtet „AROL means flow/water“ wegen der genannten Pflanzenlabel-Gegenfälle als FAILED semantic root claim. Die spätere Werkstatt-Iteration4 nennt die frühere Argumentation zu stark und deutet sie als Ausschluss einer starren AROL=WATER-Gleichung; sie hält AROL als Wasser-/Flüssigkeitsnomen weiterhin für einen informellen Rivalen, weil Pflanzenbeschriftungen Wasser, Saft, Einweichen oder verwandte Inhalte nicht ausschließen. Dieser Rivale bleibt dort in Kreiskontexten und angesichts wechselnder Ränder problematisch; course/carrier/connection ist die bevorzugte weitere Deutung. Die beiden Aussagen werden nicht als derselbe präzise Testvertrag behandelt. GDT002s berichteter Testausgang bleibt erhalten; die spätere Einschränkung identifiziert weder ein allgemeines Wasserwort noch eine frei übertragbare AROL-Teilfolge und entscheidet den alten Manuskripttest nicht neu.",
+        "claim_type": "lexical_hypothesis"
+      },
+      "scope_limits": [
+        "The later warning is source interpretation, not an independently observed semantic counterexample or rescue.",
+        "Water/fluid remains a real considered rival, so neither archive nor affirmative universal rehabilitation is appropriate.",
+        "Workshop prose explicitly leaves d/s polarity uncontrolled and AR+OL segmentation unestablished (lines501–505); cited longer forms do not validate an authorial morpheme."
+      ]
+    },
+    {
+      "target": "SEM:8a46de89bc985ea7a0b6",
+      "card_basis": "d761125ccd03bc4516481428c1a446483cee8c5f66e42b228d74d317eb06768b",
+      "effective_basis": "1e65adb216c6962daccf702d8de2972a9e58d8bd0f094aa67420135a4da89a5b",
+      "current_claim": "GDT009 proposed d = active; GDT011 later calls this concrete active-mode interpretation too specific.",
+      "current_type": "functional_hypothesis",
+      "case_ids": [
+        "CLEAN_COMPONENT:a5698dba05b4fe38292f"
+      ],
+      "evidence": [
+        {
+          "path": "GDT011_FIELD_LAYER_REPORT.md",
+          "line": 50,
+          "line_end": 56,
+          "quote": "## What changed\n\nGDT010's q-early and DY-late constraints survive.  GDT009's concrete\n`d=active`, `s=state`, and line-wide current-scope language is too specific.\nThe useful decoder is a field-state grammar: entry carriers, early carriers,\nlocal host material, and closure.  Exact lexical content remains inside the\npage-local host inventory.",
+          "sha256": "07ef1bf0ddf9c5531bd5986ca17aabb922aa90da77b0620c797c88e3f68a6a73"
+        }
+      ],
+      "decision": "approve_retain_prior_at",
+      "reason": "Current correction already preserves d=active as historical GDT009 proposal and GDT011's too-specific judgment. The field grammar and matched distributions do not independently identify active semantics. No new source revision or repeated type verdict needed.",
+      "reused_correction_ids": [
+        "SOURCE_CORRECTION_AT:8a46de89bc985ea7a0b6:v1"
+      ]
+    },
+    {
+      "target": "SEM:b5de9609168c0a208688",
+      "card_basis": "c77064de1b7cf13cc2ca309c5c2df9f20234a3a28540df3a3cf611d236148666",
+      "effective_basis": "fbae166f5ee90d53e8c9fb32ab312af11b41ac4eccba6b126d0b691c2a31856e",
+      "current_claim": "CKHY → parallel/fused leaf-or-stalk configuration descriptor is rejected",
+      "current_type": "lexical_hypothesis",
+      "case_ids": [
+        "CLEAN_COMPONENT:03e88b48be81d30bc904"
+      ],
+      "evidence": [
+        {
+          "path": "GDT035_CKHY_SECOND_TRANSFER_REPORT.md",
+          "line": 1,
+          "line_end": 11,
+          "quote": "# GDT035 second CKHY semantic transfer\n\nStatus: **FAIL SECOND SEMANTIC GLOSS REJECTED**\n\nThe target f101v and positive CKHY prediction were frozen from visible geometry in public commit `6fc23b0`. The v1 query then proved unscorable because GDT016 contains no f101v rows of any host. This was registered as a capacity defect rather than a miss. Public correction commit `b3dfab3` retained the same page, geometry, gloss, binary outcome, and four exact forms while freezing the complete source-native group table before its f101v content was opened.\n\nThe corrected reveal contains 233 physical f101v source groups. **Zero** have unanimous ZL3b/IT2a/RF1b rendering as `ckhy`, `chckhy`, `checkhy`, or `shckhy`. No fuzzy form, family neighbor, alternative page, nearby host, component reassignment, or replacement meaning was inspected or admitted.\n\nUnder the frozen decision rule, the second prospective prediction fails and the exact semantic gloss **CKHY = parallel/fused leaf-or-stalk configuration descriptor is rejected**. GDT034's first-page hit remains a historical hit, but it does not transfer to the second comparable botanical geometry and is compatible with CKHY's substantial background occurrence.\n\nThis result does not weaken CKHY as a recurrent formal residual host and does not modify the parser. It rejects only the tested visual meaning. No word, morpheme, POS, sound, language, plaintext, translation, authorship, or origin is established. f84r was not opened, retained, queried, joined, or scored.",
+          "sha256": "27686495a5f765970ce2b2224da28f7ba71b74125d37467c1441661a3c8c14fc"
+        }
+      ],
+      "decision": "approve_retain_prior_ak",
+      "reason": "The source distinguishes the initial capacity defect from the corrected frozen second-transfer miss, and keeps the first-page hit as historical. Rejecting the exact parallel/fused configuration gloss under its stated prediction does not reject the recurrent formal host or all CKHY meanings. Current negative historical claim already carries this distinction.",
+      "reused_correction_ids": [
+        "SOURCE_CORRECTION_AK:b5de9609168c0a208688:v1"
+      ]
+    }
+  ],
+  "counts": {
+    "current_cards": 3,
+    "stored_cases": 3,
+    "arol_source_variants": 2,
+    "source_reassessments": 4,
+    "new_cards": 0,
+    "scope_completions": 1,
+    "retentions": 2
+  },
+  "reassessment_checks": {
+    "card_ids_empty": true,
+    "initial_intakes_unchanged": true,
+    "source_ids_cover_both_arol_variants": true
+  },
+  "primary_read_scope": [
+    {
+      "path": "GDT002_MORPHOLOGY_FALSIFICATION_REPORT.md",
+      "scope": "complete authored report"
+    },
+    {
+      "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+      "line": 440,
+      "line_end": 525,
+      "scope": "context around complete Iteration4, not whole workshop history"
+    },
+    {
+      "path": "GDT011_FIELD_LAYER_REPORT.md",
+      "scope": "complete authored report"
+    },
+    {
+      "path": "GDT035_CKHY_SECOND_TRANSFER_REPORT.md",
+      "scope": "complete authored report"
+    }
+  ],
+  "validation": {
+    "fresh_connect_and_current_bases": "PASS",
+    "case_parity": "PASS",
+    "quote_sha_endpoint_checks": 8,
+    "prior_review_hashes_and_locators": "PASS"
+  },
+  "limits": [
+    "No operative mutation, raw-event access, image inspection or model run.",
+    "This peer retains old reported tests and historical rivals; it does not recalculate or globally validate their semantic inference."
+  ]
+}
