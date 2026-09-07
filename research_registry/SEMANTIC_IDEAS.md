@@ -81,7 +81,7 @@ source/case counts belong to that representative; `group_scope_cases` counts all
 member cases. Open `--field equivalents` or `--field relations` for the others.
 No failure, success or execution permission propagates across an identity link.
 
-The append-only correction log currently archives44 erroneous exports and restates213
+The append-only correction log currently archives44 erroneous exports and restates214
 source assertions. Every original claim, case and quote remains retrievable,
 including via `--show ID` for archived cards. Numeric columns, alias-column
 misparses, unlicensed constituent exports and metadata are extraction errors;
@@ -129,13 +129,13 @@ quality construction) and L (productive only before CHED), and preserves CHAR
 THEN as a considered but criticized V18 rival. VAL-B warm remains an actual
 historical wager despite the absence of independent comparator binding.
 
-GM adds a scoped question on GDT092's direct host-lexicon commitment and
-GDT100's narrower address revision. Specific negative channels and the small
-positive GDT096 host marginal remain distinct; more internal counts do not
-supply an independent endpoint. GJ separates V32's general regimen from its
-narrower unconfirmed indication. GK keeps two pairs of different whole claims
-separate despite similar wording; it adds no operative equivalence. GO exposes
-seven selected source assessments without new cards or cases.
+GN scopes ychol's temporal continuation reading to the examined formula-role
+panel, keeps Item/ferner live and distinguishes C2 positional confidence from
+word confirmation. The ols oil-preparation rival is a genuine whole-form
+proposal; it is not an export from embedded ol. GR records both source audits.
+GP excludes ten late-source candidates using exact existing source/case reviews;
+its corrected metadata-filter exposure is disclosed, with no repeated full
+reviews, added cards or blanket coverage claim.
 A073/A004 mappings remain available but uninspected, not missing data.
 
 Before adding a fuller model card, check whether an existing short card already

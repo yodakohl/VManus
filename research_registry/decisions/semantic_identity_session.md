@@ -537,3 +537,14 @@ GJ/GK/GM/GO validation: current source, operative and preservation audits PASS;
 42 scoped questions with all target bindings fresh,9 priorities still unready.
 52groups/61reductions and41operative relations unchanged. Public/display guide
 counts match current data;52identity review inputs,5092records/4144ledger events.
+
+GN/GP/GR checkpoint: one ychol source restriction and two source receipts;
+ols true rival retained. GP ten exact prior-source/case hits, zero repeated full
+reviews; initial broad filter corrected,28 distinct metadata titles disclosed
+against25budget, no further expansion.214restatements;42questions and52identity
+inputs unchanged. Root metadata-only formal-card scan16rows and same-source
+model navigation8sourcegroups supplied no extra full-review credit or new idea.
+
+GN/GP/GR validation: exact-source, operative and preservation audits PASS;
+4118active3853semantic265formal4639cases unchanged,214restatements,42questions,
+52groups/61reductions,41relations,9unreadypriorities,5093records/4145ledger events.

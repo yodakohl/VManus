@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "decisions": [
+    {
+      "id": "CORRECTION_GN:1cd6d788a3b2a0fcf967:v1",
+      "target": "SEM:1cd6d788a3b2a0fcf967",
+      "previous_revision": null,
+      "action": "restate_scope",
+      "replacement": {
+        "claim": "Im GDT757-Formelrollenmodell wird die gelernte Ganzform `ychol` vorläufig als „danach / als Nächstes“ gelesen: im untersuchten Formelrollenpanel als Fortsetzungsform eines laufenden Absatzes, wobei „Item / ferner“ der wichtigste Rivale bleibt. Die C2-Einstufung betrifft Stellungsgeometrie der Rollenfamilie, nicht die Bestätigung dieser Wortbedeutung.",
+        "claim_type": "lexical_hypothesis"
+      },
+      "reason": "The current positive table-only claim omits the source-defined continuation-versus-Item competition and conflates a displayed C2 word gloss with its actual role-family confidence ceiling. The eight line-initial ychol examples are the basis of the displayed placement contrast; this is not an obligatory placement law for every manuscript occurrence, a translation of free y, or proof of a German sequence adverb. The same single source case can be scoped without a new model/card.",
+      "target_basis_sha256": "0184c64628dd0f83aa14360fa36119112966d1f4401e35d68f3c80b5761b0aee",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt757_initial_formula_role_atlas/REPORT.md",
+          "line": 16,
+          "line_end": 26,
+          "quote": "| `ycheol` | **danach** | 0/8 Anfang; 2/8 Ende | C2 |\n| `ychol` | **danach / als Nächstes** | 0/8 Anfang; 3/8 Ende | C2 |\n| `dcheol` | **danach / darauf** | 0/5 Anfang; 1/5 Ende | C1 |\n| `paiin` | **drei Teile / dritte Menge** | 2/5 Anfang; Mengenachse nur 1/5 | C0 |\n| `qokchor` | **mische hinein** | 0/5 Anfang; Inhalt folgt 5/5 | C1 |\n| `tshol` | **für / gegen** | 4/5 Anfang; alle fünf Herbal | C2 |\n| `ycheor` | **zum Schluss** | 3/5 Absatzende | C2 |\n\n`C2` bedeutet hier starke Stellungsgeometrie für die Rollenfamilie, nicht ein\nentziffertes Wort. Die vollständige Evidenz, Gegenargumente und jeweils zwei\nRivalen stehen im Ganzwortatlas.",
+          "sha256": "564eb45ebf78278340bd973bf3c9f58956c9eb790d2ecf444760a2fcac1751c4"
+        },
+        {
+          "path": "experiments/yolo/gdt757_initial_formula_role_atlas/REPORT.md",
+          "line": 51,
+          "line_end": 65,
+          "quote": "## Eine zweite Formelfamilie\n\nDie vier nahen Ganzformen `ycheol`, `ychol`, `dcheol` und `ycheor` ergeben\nzusammen:\n\n```text\n26 zeileninitiale Vorkommen\n 1 Absatzanfang\n 9 Absatzenden\n```\n\nSie sehen daher nicht wie vier weitere Rezeptüberschriften aus. Die beste\nArbeitsteilung ist `danach/darauf` für die ersten drei und `zum Schluss` für\n`ycheor`, das mit 3/5 die höchste Endrate der elf Kandidaten besitzt. `Item /\nferner` bleibt bei den drei Fortsetzungsformen jeweils der wichtigste Rivale.",
+          "sha256": "564eb45ebf78278340bd973bf3c9f58956c9eb790d2ecf444760a2fcac1751c4"
+        },
+        {
+          "path": "experiments/yolo/gdt757_initial_formula_role_atlas/REPORT.md",
+          "line": 125,
+          "line_end": 130,
+          "quote": "## Grenze\n\nDie elf Bedeutungen sind eine verbesserte, überprüfbare Arbeitstheorie. Kein\nWort ist bestätigt, kein Körpertext wurde als Klartext ausgegeben und kein\nEVA-Zeichen oder Teilstring erhielt einen Wert. Es wurde keine neue Seite,\nAbbildung oder Transkription geöffnet; `f84` und `f84r` blieben gesperrt.",
+          "sha256": "564eb45ebf78278340bd973bf3c9f58956c9eb790d2ecf444760a2fcac1751c4"
+        },
+        {
+          "path": "experiments/yolo/gdt757_initial_formula_role_atlas/METHOD.md",
+          "line": 53,
+          "line_end": 66,
+          "quote": "Near complete forms are then compared at EVA Levenshtein distance one. This is\na predictive whole-form diagnostic only: it grants no meaning to the differing\ncharacter or to any substring.\n\n## Interpretation boundary\n\nThe output may install short, concrete, replaceable working readings for the\neleven complete forms and may identify an opening-versus-continuation contrast\nbetween `pchor` and `ychor`, plus an internal/closure neighborhood around\n`ycheol`, `ychol`, `dcheol`, and `ycheor`. It identifies no confirmed lexeme,\nlanguage, plaintext clause, phonetic value, Latin initial, manuscript glyph\nvalue, substring value, plant, ingredient, quantity, process or disease. The\n79-line reader deliberately leaves bodies in EVA rather than filling them with\ngeneric prose.",
+          "sha256": "4953fba3786182073d2e89b5bfab597f410279e09d957d79af825e53428ca2bd"
+        }
+      ],
+      "reviewer": "root after GN producer and independent whole-form peer"
+    }
+  ],
+  "derived_from": [
+    {
+      "path": "research_registry/decisions/semantic_source_scope_review_gn.json",
+      "sha256": "27c19fdaa6680494d1e416af7478a726120f6cb6415a8d11631dc7b5b545e799"
+    },
+    {
+      "path": "research_registry/decisions/semantic_source_scope_peer_gn.json",
+      "sha256": "6891d6089d5cab8f7107f553a147425edbeccfe429625dd1aa02a82661abbeb4"
+    }
+  ],
+  "root_fixes": [
+    "Scope paragraph continuation to the examined formula-role panel; C2 is positional-role confidence"
+  ],
+  "new_cards": 0
+}
