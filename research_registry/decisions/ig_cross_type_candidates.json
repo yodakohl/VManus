@@ -1,0 +1,119 @@
+{
+  "status": "CROSS_TYPE_EXACT_ASSERTION_NAVIGATION_ONLY",
+  "candidate_groups": [
+    {
+      "cards": [
+        {
+          "id": "SEM:a8f0ccb06e841b39a78e",
+          "claim": "ydy → Wertfeldwechsel bzw. Eintragsschluss",
+          "claim_type": "lexical_hypothesis",
+          "card_basis": "ecd244ebd2b4bc1406dbbec99416f572c887768e0d00c0bec1f8a2a302465eed",
+          "evidence": [
+            {
+              "inherited_status_not_adopted": [
+                {
+                  "text": "not_explicitly_declared_in_first_50_lines"
+                }
+              ],
+              "line": 22,
+              "line_end": 22,
+              "path": "experiments/yolo/gdt660_seventeen_residual_concrete_completion/REPORT.md",
+              "quote": "| `ydy` | 5 / 5 | Wertfeldwechsel bzw. Eintragsschluss | abgeschlossene Grundform |",
+              "sha256": "e12818271a98bbe1930091c126ab973b7ae14f7579011c5894d769c7df9bf417",
+              "source_id": "LEGACY_COMPONENT:f44ed42b0f0cdce3dfd2",
+              "source_section": "Ergebnis",
+              "table_header": "| Form | Positionen / Seiten | konkrete V37-Arbeitslesung | stärkster Rivale |"
+            }
+          ],
+          "cases": [
+            {
+              "claim_type": "lexical_hypothesis",
+              "form_or_model": "ydy",
+              "id": "CLEAN_COMPONENT:8659febd34df1773d9b0",
+              "limitations": "Original alternatives, negation and limits remain in the evidence quote. No software PASS or inherited working vocabulary establishes a confirmed meaning.",
+              "member_ids": [
+                "LEGACY_COMPONENT:f44ed42b0f0cdce3dfd2"
+              ],
+              "proposed_value_or_model": "Wertfeldwechsel bzw. Eintragsschluss",
+              "registry_context_ids": [
+                "GDT660"
+              ],
+              "review_basis": "conservative_assignment_rule_with_manual_pattern_audit",
+              "review_file": "research_registry/decisions/clean_component_review.json",
+              "scope": {
+                "kind": "source_bound_working_hypothesis",
+                "parent_gdt": "GDT660",
+                "section": "Ergebnis",
+                "semantic_column": "konkrete V37-Arbeitslesung",
+                "source": "experiments/yolo/gdt660_seventeen_residual_concrete_completion/REPORT.md"
+              },
+              "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+              "status": "unconfirmed"
+            }
+          ]
+        },
+        {
+          "id": "SEM:a99a4480062f3d186a66",
+          "claim": "ydy → Wertfeldwechsel bzw. Eintragsschluss",
+          "claim_type": "formal_role",
+          "card_basis": "f3c57e6cc9a7b075a6e5895afefdedc76bc3a14588ebb5b0c02b3e0bd6547492",
+          "evidence": [
+            {
+              "line": 22,
+              "path": "experiments/yolo/gdt660_seventeen_residual_concrete_completion/REPORT.md",
+              "quote": "| `ydy` | 5 / 5 | Wertfeldwechsel bzw. Eintragsschluss | abgeschlossene Grundform |",
+              "sha256": "e12818271a98bbe1930091c126ab973b7ae14f7579011c5894d769c7df9bf417"
+            }
+          ],
+          "cases": [
+            {
+              "assessment_basis": "source_excerpt_and_semantic_column_or_manually_selected_model_review",
+              "claim_type": "formal_role",
+              "id": "REPORT_PROPOSAL:6bad0688001632fb2b52",
+              "limits": "Historical claim only. Exact source evidence retains alternatives, negative results, scope restrictions and later qualifications. No inherited software PASS establishes meaning.",
+              "member_ids": [
+                "LEGACY_PROPOSAL:df8c7813783da1e1223ff003"
+              ],
+              "registry_context_ids": [
+                "GDT660"
+              ],
+              "related_review_ids": [
+                "CLEAN_COMPONENT:8659febd34df1773d9b0"
+              ],
+              "review_file": "research_registry/decisions/clean_report_proposals_review.json",
+              "scope": {
+                "case": "exact_existing_component_case",
+                "section": "Ergebnis / Form | Positionen / Seiten | konkrete V37-Arbeitslesung | stärkster Rivale",
+                "source": "experiments/yolo/gdt660_seventeen_residual_concrete_completion/REPORT.md"
+              },
+              "source_status_not_adopted": "UNSPECIFIED_IN_SOURCE",
+              "status": "unconfirmed"
+            },
+            {
+              "assessment_basis": "source_excerpt_and_semantic_column_or_manually_selected_model_review",
+              "claim_type": "formal_role",
+              "id": "REPORT_PROPOSAL:d90d29d98074457f6a01",
+              "limits": "Historical claim only. Exact source evidence retains alternatives, negative results, scope restrictions and later qualifications. No inherited software PASS establishes meaning.",
+              "member_ids": [
+                "LEGACY_PROPOSAL:df8c7813783da1e1223ff003"
+              ],
+              "registry_context_ids": [
+                "GDT660"
+              ],
+              "review_file": "research_registry/decisions/clean_report_proposals_review.json",
+              "scope": {
+                "case": "konkrete V37-Arbeitslesung",
+                "section": "Ergebnis / Form | Positionen / Seiten | konkrete V37-Arbeitslesung | stärkster Rivale",
+                "source": "experiments/yolo/gdt660_seventeen_residual_concrete_completion/REPORT.md"
+              },
+              "source_status_not_adopted": "UNSPECIFIED_IN_SOURCE",
+              "status": "unconfirmed"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "count": 1,
+  "scope": "Different extraction categories do not imply different historical propositions or a classification error. Primary source adjudication required; no cross-type identity override."
+}

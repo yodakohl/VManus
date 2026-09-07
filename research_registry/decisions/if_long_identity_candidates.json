@@ -1,0 +1,305 @@
+{
+  "id": "IF_LONG_IDENTITY_CANDIDATES",
+  "type": "identity_navigation_screen",
+  "status": "bounded_source_review",
+  "scope": "Near-duplicate semantic-model navigation only; identity groups and explicitly reviewed nonidentity pairs excluded. Token overlap was navigation, not a verdict. No identity append or source edit.",
+  "identity_input_receipt": {
+    "path": "research_registry/IDENTITY_REVIEW_INPUTS.json",
+    "sha256": "837cddd31d0dd5f74677b3b06c547ef367c3c81f9629305e037c10aa46f2818f",
+    "declared_inputs": 83,
+    "verified_inputs": 83,
+    "manifest_counts": {
+      "review_inputs": 66,
+      "new_pair_judgments": 0,
+      "new_scientific_results": 0
+    },
+    "meaning": "Input membership/hash receipt only; no identity or semantic verdict."
+  },
+  "excluded": {
+    "existing_identity_groups": "Checked current semantic_identity_decisions.jsonl through IdentityIndex.lookup_cards; proposed IDs are singleton groups and therefore are not already equivalent groups.",
+    "explicit_nonidentity_pairs": "Checked current IdentityIndex relations for every proposed pair; none has an operative explicit nonidentity relation.",
+    "mere_file_comention": "Not treated as identity evidence. Historical proposal files and non-operative identity proposal packets were not used as operative group decisions."
+  },
+  "candidate_count": 4,
+  "pairs": [
+    {
+      "pair_id": "LONG-001",
+      "members": [
+        "SEM:a8f0ccb06e841b39a78e",
+        "SEM:a99a4480062f3d186a66"
+      ],
+      "classification": "near_duplicate_proposition_but_type_blocked",
+      "reason": "The target, normalized claim, GDT660 line, and strongest rival are identical. However, one current card is lexical_hypothesis and the other formal_role. The operative identity builder forbids equivalence groups crossing claim_type, so this is a proposition-level near duplicate requiring explicit type adjudication, not a merge-ready identity pair. The source scope itself is the same GDT660 working row.",
+      "evidence_ids": [
+        "SEM:a8f0ccb06e841b39a78e",
+        "SEM:a99a4480062f3d186a66"
+      ],
+      "cards": {
+        "SEM:a8f0ccb06e841b39a78e": {
+          "id": "SEM:a8f0ccb06e841b39a78e",
+          "claim": "ydy → Wertfeldwechsel bzw. Eintragsschluss",
+          "status": "unconfirmed",
+          "member_ids": [
+            "LEGACY_COMPONENT:f44ed42b0f0cdce3dfd2"
+          ],
+          "registry_context_ids": [
+            "GDT660"
+          ],
+          "review_ids": [
+            "CLEAN_COMPONENT:8659febd34df1773d9b0"
+          ],
+          "source_case_ids": [
+            "CLEAN_COMPONENT:8659febd34df1773d9b0"
+          ],
+          "card_basis": "ecd244ebd2b4bc1406dbbec99416f572c887768e0d00c0bec1f8a2a302465eed",
+          "effective_basis": "5249f3b8f79331b3d85a70f215857a933f63e09e8b717b919e9b9a5d42b39d42",
+          "identity_index_group": "IDENTITY:9d65c51ab05ef549f210017c0b8ad16fb8e1557ee4c14ffe3d13c18b782a3113",
+          "claim_type": "lexical_hypothesis"
+        },
+        "SEM:a99a4480062f3d186a66": {
+          "id": "SEM:a99a4480062f3d186a66",
+          "claim": "ydy → Wertfeldwechsel bzw. Eintragsschluss",
+          "status": "unconfirmed",
+          "member_ids": [
+            "LEGACY_PROPOSAL:df8c7813783da1e1223ff003"
+          ],
+          "registry_context_ids": [
+            "GDT660"
+          ],
+          "review_ids": [
+            "REPORT_PROPOSAL:6bad0688001632fb2b52",
+            "REPORT_PROPOSAL:d90d29d98074457f6a01"
+          ],
+          "source_case_ids": [
+            "REPORT_PROPOSAL:6bad0688001632fb2b52",
+            "REPORT_PROPOSAL:d90d29d98074457f6a01"
+          ],
+          "card_basis": "f3c57e6cc9a7b075a6e5895afefdedc76bc3a14588ebb5b0c02b3e0bd6547492",
+          "effective_basis": "1ab13818445f46a6d1845391ddc07daf51dcf2e3772a2d2d4d33582fba9ff8b5",
+          "identity_index_group": "IDENTITY:2e00d5d707d2a8d0c3328b4b082822007c5eb175b8b8b2cff8e3c09ad70f44fe",
+          "claim_type": "formal_role"
+        }
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt660_seventeen_residual_concrete_completion/REPORT.md",
+          "line": 22,
+          "line_end": 22,
+          "quote": "| `ydy` | 5 / 5 | Wertfeldwechsel bzw. Eintragsschluss | abgeschlossene Grundform |",
+          "sha256": "e12818271a98bbe1930091c126ab973b7ae14f7579011c5894d769c7df9bf417"
+        }
+      ]
+    },
+    {
+      "pair_id": "LONG-002",
+      "members": [
+        "SEM:958592fa90e3164edaf4",
+        "SEM:d1e453ffc97e3064c1eb"
+      ],
+      "classification": "plausible_identical_proposition",
+      "reason": "Exact same AROL target, gloss, source passage, and scope limitation (speculative and fails to generalize). Difference is component versus proposal provenance, not semantic content. Existing identity-group and explicit nonidentity screens did not include these IDs.",
+      "evidence_ids": [
+        "SEM:958592fa90e3164edaf4",
+        "SEM:d1e453ffc97e3064c1eb"
+      ],
+      "cards": {
+        "SEM:958592fa90e3164edaf4": {
+          "id": "SEM:958592fa90e3164edaf4",
+          "claim": "AROL → a plant stem/branch",
+          "status": "unconfirmed",
+          "member_ids": [
+            "LEGACY_COMPONENT:6b3ce8d2857f80ab7f29"
+          ],
+          "registry_context_ids": [],
+          "review_ids": [
+            "CLEAN_COMPONENT:2d3973ac7fcd3cf91ef8"
+          ],
+          "source_case_ids": [
+            "CLEAN_COMPONENT:2d3973ac7fcd3cf91ef8"
+          ],
+          "card_basis": "892a80a14ffbd656bba8ccfc1ee08f47e9cf39d078e9fd39c29c5f55ee4c9356",
+          "effective_basis": "d2934ea1eb70110bbb51c5d8156aacdd823288ac783b543b0a758d6240cd82fd",
+          "identity_index_group": "IDENTITY:8bd453764ccb24d05b07c5a7a199bfef0a4007497300eb419a9ba9e1ad0a11a9",
+          "claim_type": "lexical_hypothesis"
+        },
+        "SEM:d1e453ffc97e3064c1eb": {
+          "id": "SEM:d1e453ffc97e3064c1eb",
+          "claim": "AROL denotes a plant stem or branch.",
+          "status": "unconfirmed",
+          "member_ids": [
+            "LEGACY_PROPOSAL:6573279f14c8afc7aa6efc39"
+          ],
+          "registry_context_ids": [],
+          "review_ids": [
+            "CLEAN_HYP:2df7d603299ccf345434"
+          ],
+          "source_case_ids": [
+            "CLEAN_HYP:2df7d603299ccf345434"
+          ],
+          "card_basis": "5f2abf70832e9f23f4320dd3e70da75d41a2fa891e981970f871862ccb7a853a",
+          "effective_basis": "524612f069cc219f9446961b47897e3cad99588af81d46bef066008238dc3b0e",
+          "identity_index_group": "IDENTITY:1db7edc988c7127261eeb61ec7c58070468888a1b45774a71e33ea1391cfec6b",
+          "claim_type": "lexical_hypothesis"
+        }
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+          "line": 480,
+          "line_end": 482,
+          "quote": "2. **AROL = a plant stem/branch.** This fits `sarol` near a stalk on f102v2,\n   `darolaly` near a stem on f99v, and longer AROL labels below leaves. It fails\n   to generalize naturally to waterfalls, tubes, and circular diagrams.",
+          "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"
+        }
+      ]
+    },
+    {
+      "pair_id": "LONG-003",
+      "members": [
+        "SEM:096323f6f6eecb1545fc",
+        "SEM:dea9d076bb9ceba7512a"
+      ],
+      "classification": "related_but_scope_distinct",
+      "reason": "Same surface CHOY and same operation family, but the first is a broad “with water wash” card while the second explicitly scopes the reading to H5 “Stelle”. The added H5 station/role is a meaningful scope difference; do not treat as identity without source-case unification.",
+      "evidence_ids": [
+        "SEM:096323f6f6eecb1545fc",
+        "SEM:dea9d076bb9ceba7512a"
+      ],
+      "cards": {
+        "SEM:096323f6f6eecb1545fc": {
+          "id": "SEM:096323f6f6eecb1545fc",
+          "claim": "CHOY → MIT WASSER WASCHEN",
+          "status": "unconfirmed",
+          "member_ids": [
+            "LEGACY_COMPONENT:dbf9128d45279da0b4b3"
+          ],
+          "registry_context_ids": [],
+          "review_ids": [
+            "CLEAN_COMPONENT:ab289016e7939f033dc6"
+          ],
+          "source_case_ids": [
+            "CLEAN_COMPONENT:ab289016e7939f033dc6"
+          ],
+          "card_basis": "9dc541db42bdd1f02bd5dc3238a19fae3a63738a165eb6ddebe887cad89f238e",
+          "effective_basis": "12de8e267fe1bec4483d3b70fb52122686c2c23ca4aa380efb14a53b7c9fbd9f",
+          "identity_index_group": "IDENTITY:b355a94565b40d09c489853d1fddeea606f4d0a1223c1d87d6ab4c44d0093bd2",
+          "claim_type": "lexical_hypothesis"
+        },
+        "SEM:dea9d076bb9ceba7512a": {
+          "id": "SEM:dea9d076bb9ceba7512a",
+          "claim": "CHOY → H5: Stelle mit Wasser waschen",
+          "status": "unconfirmed",
+          "member_ids": [
+            "LEGACY_COMPONENT:9303fbf1d469f618820f"
+          ],
+          "registry_context_ids": [],
+          "review_ids": [
+            "CLEAN_COMPONENT:c56b3382be5e78e01814"
+          ],
+          "source_case_ids": [
+            "CLEAN_COMPONENT:c56b3382be5e78e01814"
+          ],
+          "card_basis": "f4879d12a317925dd4a95b950c954b2ed7f7f18310456a1e7e05e2d8d8eff175",
+          "effective_basis": "3cbb3b667149d724c77f6b770b4c1a4751941d6a08107a94a5487c1c5e7e9004",
+          "identity_index_group": "IDENTITY:028af6129a2df8bb705cd6cb4bba2d836a548feade8241143d280e57c6ff257a",
+          "claim_type": "lexical_hypothesis"
+        }
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_filtration_separation_completion/WORKSHOP_FILTRATION_REPORT.md",
+          "line": 62,
+          "line_end": 66,
+          "quote": "Daneben bleiben konkrete Karten erhalten: `CHEEETY=ERSTSPÜLUNG`,\n`LKEDY=DOPPELWÄSCHE; SCHLUSS`, `CHOY=MIT WASSER WASCHEN`,\n`DSHEDY=SAUBERES WASSER ZUGEBEN; SCHLUSS` und\n`RSHEDY=TEIL ALS WASCHUNG; SCHLUSS`. Gerade `DSHEDY` und `LSHEDY` zeigen,\ndass sichtbares SHED nicht automatisch die Ruhefamilie ist.",
+          "sha256": "5ff712952a88928ba1f596a08a1951f11d9409e4182202585e07ce2d4b9ba77a"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_application_completion/SELECTED_APPLICATION_COMPLETION_REPORT.md",
+          "line": 68,
+          "line_end": 68,
+          "quote": "| `CHOY` | **WASCHEN** | H5: Stelle mit Wasser waschen |",
+          "sha256": "0dc5a20cabf4ef190522de94f7458a2dfbb3448d61a71d4617d2899e7015ed6d"
+        }
+      ]
+    },
+    {
+      "pair_id": "LONG-004",
+      "members": [
+        "SEM:94fb4fc67b1c520be94e",
+        "SEM:c781f9f3a5ad12f4338d"
+      ],
+      "classification": "related_but_distinct_target",
+      "reason": "Both assign the same three-part gloss family, but qokar and okar are distinct exact whole forms with separate source rows and occurrence counts. Shared gloss is token overlap; it does not make the two target-form propositions identical.",
+      "evidence_ids": [
+        "SEM:94fb4fc67b1c520be94e",
+        "SEM:c781f9f3a5ad12f4338d"
+      ],
+      "cards": {
+        "SEM:94fb4fc67b1c520be94e": {
+          "id": "SEM:94fb4fc67b1c520be94e",
+          "claim": "qokar → heiße Teilmenge · heißes Wertfeld · Ganzname",
+          "status": "unconfirmed",
+          "member_ids": [
+            "LEGACY_PROPOSAL:e5892fbe6cd02bbc92519b87"
+          ],
+          "registry_context_ids": [
+            "GDT789"
+          ],
+          "review_ids": [
+            "REPORT_PROPOSAL:07cb574a52c554f9ecb5"
+          ],
+          "source_case_ids": [
+            "REPORT_PROPOSAL:07cb574a52c554f9ecb5"
+          ],
+          "card_basis": "2e9a51e06731463d90b5b7ffdf6205dce9eb1d090541664ed225abc52cec76ac",
+          "effective_basis": "0af198b0e25192f1ac197b49226f72f880e13c4ada0efa0403a40360a830a439",
+          "identity_index_group": "IDENTITY:d9e56649531129a098cdfb96f33f428a44ce16d2d476cee55d10e4e08fb9af35",
+          "claim_type": "lexical_hypothesis"
+        },
+        "SEM:c781f9f3a5ad12f4338d": {
+          "id": "SEM:c781f9f3a5ad12f4338d",
+          "claim": "okar → heiße Teilmenge · heißes Wertfeld · Ganzname",
+          "status": "unconfirmed",
+          "member_ids": [
+            "LEGACY_PROPOSAL:2992746bb761776b05af7a70"
+          ],
+          "registry_context_ids": [
+            "GDT789"
+          ],
+          "review_ids": [
+            "REPORT_PROPOSAL:3287fb14b9d8774953d9"
+          ],
+          "source_case_ids": [
+            "REPORT_PROPOSAL:3287fb14b9d8774953d9"
+          ],
+          "card_basis": "c3c3f35c1466909660ef0c54d3d52194a2543260b89eed20693c1e0bdd2ea857",
+          "effective_basis": "eb4e22a39325b22b218ef8453e27b2da42248c9771df94d9cc52e94953038efa",
+          "identity_index_group": "IDENTITY:d6b6833b768d339de54e53c01d52b1da7322063d5e9c351dcdb9284b26d5afdd",
+          "claim_type": "lexical_hypothesis"
+        }
+      },
+      "evidence": []
+    }
+  ],
+  "current_identity_index": {
+    "source": "research_registry/semantic_identity_decisions.jsonl",
+    "counts": {
+      "cards": 4118,
+      "groups": 4028,
+      "multi_member_groups": 77,
+      "relations": 44
+    },
+    "candidate_lookup": {
+      "SEM:096323f6f6eecb1545fc": "IDENTITY:b355a94565b40d09c489853d1fddeea606f4d0a1223c1d87d6ab4c44d0093bd2",
+      "SEM:94fb4fc67b1c520be94e": "IDENTITY:d9e56649531129a098cdfb96f33f428a44ce16d2d476cee55d10e4e08fb9af35",
+      "SEM:958592fa90e3164edaf4": "IDENTITY:8bd453764ccb24d05b07c5a7a199bfef0a4007497300eb419a9ba9e1ad0a11a9",
+      "SEM:a8f0ccb06e841b39a78e": "IDENTITY:9d65c51ab05ef549f210017c0b8ad16fb8e1557ee4c14ffe3d13c18b782a3113",
+      "SEM:a99a4480062f3d186a66": "IDENTITY:2e00d5d707d2a8d0c3328b4b082822007c5eb175b8b8b2cff8e3c09ad70f44fe",
+      "SEM:c781f9f3a5ad12f4338d": "IDENTITY:d6b6833b768d339de54e53c01d52b1da7322063d5e9c351dcdb9284b26d5afdd",
+      "SEM:d1e453ffc97e3064c1eb": "IDENTITY:1db7edc988c7127261eeb61ec7c58070468888a1b45774a71e33ea1391cfec6b",
+      "SEM:dea9d076bb9ceba7512a": "IDENTITY:028af6129a2df8bb705cd6cb4bba2d836a548feade8241143d280e57c6ff257a"
+    },
+    "operative_relation_pair_hits": [],
+    "decisions_path_sha256": "c24ddaaf576e40224e3514a98ff0890d191797d80d7ee37707bdab25df6a6cc7"
+  },
+  "navigation_limits": "Current lookup returns singleton groups for all eight candidate members and no operative relation hit for the four pairs. Singleton status is not a nonidentity verdict. Formal-role versus lexical-hypothesis type remains an explicit merge blocker for LONG-001; no type correction is proposed here."
+}

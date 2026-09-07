@@ -1,0 +1,55 @@
+{
+  "id": "IF_FINAL_PACKET_PEER",
+  "type": "identity_packet_review",
+  "status": "approve_scope_with_correction_pending",
+  "audited_files": {
+    "correction_draft": {
+      "path": "research_registry/decisions/if_identity_correction_draft.json",
+      "sha256": "4f43d09a41b08cfd6bb8509ee2b3f667d77d879146bb08c2f4fdfa7b5948966d",
+      "exact_source_spans": 8,
+      "span_validation": "8/8 contiguous quote, line-bound, and SHA checks pass"
+    },
+    "root_scope_review": {
+      "path": "research_registry/decisions/if_root_identity_scope_review.json",
+      "sha256": "6f54b7408f1bac6341811972956951a9c6253335ace9924c865feec7659ae117",
+      "exact_source_spans": 0,
+      "span_validation": "No embedded source spans; peer receipt and scope decisions checked"
+    },
+    "primary_peer": {
+      "path": "research_registry/decisions/if_primary_identity_peer.json",
+      "sha256": "7b7468098c98c4a14b569ce98494479a9a67bc79c6294332f84ddd536e5a6985",
+      "exact_source_spans": 6,
+      "span_validation": "6/6 contiguous quote, line-bound, and SHA checks pass"
+    },
+    "navigation_candidates": {
+      "path": "research_registry/decisions/if_long_identity_candidates.json",
+      "sha256": "6877662483e195c4ec3a3afb709033c65a6858e6a7eb9aea1dae106c676752c0"
+    }
+  },
+  "simulated_correction_check": {
+    "operation": "In memory only: restate SEM:a8f0ccb06e841b39a78e claim_type lexical_hypothesis -> formal_role, then apply the four draft identity decisions to a fresh identity index.",
+    "type_guard": "PASS; all resulting groups contain one claim_type",
+    "resulting_counts": {
+      "cards": 4118,
+      "groups": 4026,
+      "multi_member_groups": 79,
+      "relations": 46
+    },
+    "ydy_group": "IDENTITY:86723332aee1cbfb673647e3547eae092e0e805c7a46afa50d60195fc9891758",
+    "arol_group": "IDENTITY:209875004d2c568e85e3541afd326d74194950f44d7d7085469c37fbb00c7034",
+    "source_cases_preserved": {
+      "ydy": 3,
+      "arol": 2,
+      "choy": 2,
+      "qokar_okar": 2
+    },
+    "basis_check": "The corrected ydy card has the same validated card_basis target and effective_basis as the formal-role counterpart; no stale basis or cross-type group remains."
+  },
+  "material_review": [
+    "ydy is a GDT660 whole-surface working role: three medial switches and two terminal closures; the source explicitly rejects global y+dy semantics.",
+    "AROL equivalence is limited to the same speculative historical stem/branch hypothesis and preserves its non-generalizing caveat.",
+    "CHOY remains related_not_equivalent because the filtration card is broader while the H5 card adds local treatment-site context.",
+    "qokar and okar remain related_not_equivalent because GDT789 binds separate exact forms and preferred displays; no q-null transfer is licensed."
+  ],
+  "decision": "Approve the packet for root integration after the append-only ydy type correction is applied through the normal correction path. No operative mutation was performed in this review."
+}
