@@ -1,0 +1,251 @@
+{
+  "review_id": "HY_POLARITY_PEER_A",
+  "status": "SOURCE_CONTEXT_POLARITY_REVIEW",
+  "scope": "Only cards 1–10 from hy_polarity_risk_candidates.json. Regex proximity is treated as a navigation signal, not a verdict. No source bytes or registry entries were changed.",
+  "cards": [
+    {
+      "id": "SEM:0a481d7778b83f1d5250",
+      "claim": "raiin → leicht?",
+      "recommendation": "retain",
+      "rationale": "Positive rival sentence states raiin=leicht? remains worth exploring; nearby “does not force ... impossible” targets the ascent reading, while the source keeps both meanings C0.",
+      "current_case_ids": [
+        "CLEAN_COMPONENT:9393604bc22592d2022d"
+      ],
+      "prior_review_files": [
+        "research_registry/decisions/clean_component_review.json"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt821_raiin_admitted_paragraph_transfer/REPORT.md",
+          "line": 5,
+          "line_end": 11,
+          "quote": "The complete admitted occurrence set does not force `raiin=steigt?` to be\nimpossible, but it supplies no securely identified moving subject outside the\noriginal guessed air reading. One additional air...raiin contact at f77r.45\nkeeps that construction worth exploring. A single separate post-reading rival,\n`raiin=leicht?` in the physical-weight sense, can describe a substance without\ninventing its ascent; it also loses the finite verb supplied by the original\ntrial. Neither is a global winner. Keep both meanings separate and C0.",
+          "sha256": "85e54762b22b19bda5df98115827989ac01b6b67b527a0802247ad834893eaab",
+          "type": "candidate_primary_context"
+        }
+      ]
+    },
+    {
+      "id": "SEM:1f9e4edea7f596ce6659",
+      "claim": "K+E+Y → DIES KURZ ZUFÜHREN",
+      "recommendation": "retain",
+      "rationale": "The negated alternatives WURZELTEIL/KRAUT ZERSTOSSEN are beside explicit positive K+E+Y assignment; retain the scoped compositional hypothesis.",
+      "current_case_ids": [
+        "CLEAN_COMPONENT:c353592078a214330d0f"
+      ],
+      "prior_review_files": [
+        "research_registry/decisions/clean_component_review.json"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_herbal_component_completion_four_hundred_fifty_fourth/FOUR_HUNDRED_FIFTY_FOURTH_REPORT.md",
+          "line": 9,
+          "line_end": 12,
+          "quote": "Damit verschwindet ein großer Teil der alten Pflanzenfantasie. `DCHEY` ist\nnicht automatisch WURZELTEIL, sondern `CH+E+Y = DIES KURZ ABZIEHEN`; `CTHAIIN`\nist nicht KRAUT ZERSTOSSEN, sondern `CTH+AIIN = AUF MASS BEREITSTELLEN`;\n`KCHEY` ist nicht GROB ZERREIBEN, sondern `K+E+Y = DIES KURZ ZUFÜHREN`.",
+          "sha256": "0cd60ae7202d0a09a1112a57fbf6e40237e2a9849c56bcf3c52fc6ced98f4d2f",
+          "type": "candidate_primary_context"
+        }
+      ]
+    },
+    {
+      "id": "SEM:3e093262480ebf90f5c7",
+      "claim": "otork/otol → HOT",
+      "recommendation": "archive",
+      "rationale": "The only quoted source instruction is “Do not retain ... otork/otol=HOT as word meanings”; this candidate is a denial of the extracted positive card, with no positive assignment in scope.",
+      "current_case_ids": [
+        "CLEAN_COMPONENT:9cfffb6a4b64a0afb496"
+      ],
+      "prior_review_files": [
+        "research_registry/decisions/clean_component_review.json"
+      ],
+      "evidence": [
+        {
+          "path": "GDT195_F77_READABLE_HOMOLOG_REPORT.md",
+          "line": 63,
+          "line_end": 68,
+          "quote": "Do not retain `olkchs=COLD`, `otedy=DRY`, `otork/otol=HOT`, or `dchdy=MOIST` as\nword meanings.  They are exposed local state assignments whose most striking\nfour-element consequence is algebraically dependent.  A genuine advance now\nrequires either a readable comparator with the complete mixed-output topology\nor a second source-owned Voynich structure on which the state sequence is\nfrozen before its inscriptions are exposed.",
+          "sha256": "250e610738ddb4624748563148df0b9c95decde5f917622f59c7e8391ae43a66",
+          "type": "candidate_primary_context"
+        }
+      ]
+    },
+    {
+      "id": "SEM:44160502c3f86b6707fa",
+      "claim": "ODY → kühl lagern; Schluss",
+      "recommendation": "retain",
+      "rationale": "The source positively assigns ODY=kühl lagern; Schluss and uses the preceding negations to distinguish other cards, not to deny ODY.",
+      "current_case_ids": [
+        "CLEAN_COMPONENT:baf064f3eefb4f1846c3"
+      ],
+      "prior_review_files": [
+        "research_registry/decisions/clean_component_review.json"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_filtration_separation_completion/WORKSHOP_FILTRATION_REPORT.md",
+          "line": 183,
+          "line_end": 186,
+          "quote": "`LY`, `QOLCHEY` und `YTEY` sind drei gelernte Karten für „Gefäß füllen“.\n`OS=Gefäß`, `OYKCHOR=glasiertes Gefäß` und `QOTEDAIIN=breites Gefäß` wählen\nden Empfänger; sie sind nicht dieselbe Karte. `ODY=kühl lagern; Schluss` und\ndie Kühlkarten schließen die Aufbewahrungsseite an.",
+          "sha256": "5ff712952a88928ba1f596a08a1951f11d9409e4182202585e07ce2d4b9ba77a",
+          "type": "candidate_primary_context"
+        }
+      ]
+    },
+    {
+      "id": "SEM:66dc23a48cf901d7d5a5",
+      "claim": "SHEY → Klarauszug",
+      "recommendation": "archive",
+      "rationale": "The sole quote says another card is not derived from SHEY=Klarauszug; it does not positively establish SHEY. This is a decomposition prohibition misextracted as a lexical assignment.",
+      "current_case_ids": [
+        "CLEAN_COMPONENT:632ec08126040ab45fe6"
+      ],
+      "prior_review_files": [
+        "research_registry/decisions/clean_component_review.json"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_application_completion/APPLICATION_WORKSHOP_REPORT.md",
+          "line": 92,
+          "line_end": 93,
+          "quote": "`QOLKY` wird nicht als `OL=weiter + KY=Wärme` zerlegt. `LCHEEY` wird nicht aus\n`SHEY=Klarauszug` oder dem EEY-Kontaktgrad abgeleitet.",
+          "sha256": "fdf5941da011e0af7331fef3b3554379cb3a998d15f211b7351c19be31e0d3c8",
+          "type": "candidate_primary_context"
+        }
+      ]
+    },
+    {
+      "id": "SEM:711147e14b50f610a373",
+      "claim": "IIN → GRAD",
+      "recommendation": "retain",
+      "rationale": "The quote positively states IIN=GRAD while rejecting AIIN=ZEIT; retain IIN as a scoped component hypothesis and preserve the decomposition boundary.",
+      "current_case_ids": [
+        "CLEAN_COMPONENT:8b25e1ec3be88a0c364e"
+      ],
+      "prior_review_files": [
+        "research_registry/decisions/clean_component_review.json"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_thermal_temporal_completion/R2_REPORT.md",
+          "line": 112,
+          "line_end": 112,
+          "quote": "`IIN=GRAD` ist nicht `AIIN=ZEIT`. Die exakte AIIN-Karte `aiin|chaiin|daiin|saiin|taiin` bleibt in 20 Ereignissen **VORGESCHRIEBENES MASS**. Zwei gelernte Ganzkarten können AIIN dennoch lokal in einen zeit-/standähnlichen Fachnamen aufnehmen:",
+          "sha256": "3938eafaba2acf826e87f2e22a7ba993dcecf2a14a6e8b896ce405b20bdcab14",
+          "type": "candidate_primary_context"
+        }
+      ]
+    },
+    {
+      "id": "SEM:84716aefc49ada1bcd1c",
+      "claim": "CH+E+Y → DIES KURZ ABZIEHEN",
+      "recommendation": "retain",
+      "rationale": "The quote explicitly assigns CH+E+Y=DIES KURZ ABZIEHEN; nearby negations reject an alternative whole-word reading, not this candidate.",
+      "current_case_ids": [
+        "CLEAN_COMPONENT:52a659c15b65893aa78d"
+      ],
+      "prior_review_files": [
+        "research_registry/decisions/clean_component_review.json"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_herbal_component_completion_four_hundred_fifty_fourth/FOUR_HUNDRED_FIFTY_FOURTH_REPORT.md",
+          "line": 9,
+          "line_end": 12,
+          "quote": "Damit verschwindet ein großer Teil der alten Pflanzenfantasie. `DCHEY` ist\nnicht automatisch WURZELTEIL, sondern `CH+E+Y = DIES KURZ ABZIEHEN`; `CTHAIIN`\nist nicht KRAUT ZERSTOSSEN, sondern `CTH+AIIN = AUF MASS BEREITSTELLEN`;\n`KCHEY` ist nicht GROB ZERREIBEN, sondern `K+E+Y = DIES KURZ ZUFÜHREN`.",
+          "sha256": "0cd60ae7202d0a09a1112a57fbf6e40237e2a9849c56bcf3c52fc6ced98f4d2f",
+          "type": "candidate_primary_context"
+        }
+      ]
+    },
+    {
+      "id": "SEM:93aca9d4ba45bf3e5e85",
+      "claim": "DAIN → TUCH",
+      "recommendation": "retain",
+      "rationale": "Multiple quoted lines positively assign DAIN=TUCH and separately prohibit exporting that value through CHEDAIN or visible AIIN proximity; retain as a whole-card hypothesis.",
+      "current_case_ids": [
+        "CLEAN_COMPONENT:a6d853a6bcf6522f415a"
+      ],
+      "prior_review_files": [
+        "research_registry/decisions/clean_component_review.json"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_application_completion/SELECTED_APPLICATION_COMPLETION_REPORT.md",
+          "line": 126,
+          "line_end": 128,
+          "quote": "Nach `TSHEY=SPÜLFLÜSSIGKEIT` darf der Satz weiterhin „länger einweichen“\nheißen. Nach `DAIN=TUCH` darf er „Tuchanwendung länger einwirken lassen“\nheißen. Der Kartenwert selbst bleibt derselbe.",
+          "sha256": "0dc5a20cabf4ef190522de94f7458a2dfbb3448d61a71d4617d2899e7015ed6d",
+          "type": "candidate_primary_context"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_filtration_separation_completion/HISTORICAL_FILTRATION_REPORT.md",
+          "line": 198,
+          "line_end": 198,
+          "quote": "- `CHEDAIN` heißt **PORTION UMSETZEN** und darf nicht aus `DAIN=TUCH` gelesen werden.",
+          "sha256": "255e6bfaca13343e66ff182c1cc3b2fefa9a8460348384fc2c5502a8dd7d0480",
+          "type": "candidate_primary_context"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_filtration_separation_completion/HISTORICAL_FILTRATION_REPORT.md",
+          "line": 219,
+          "line_end": 219,
+          "quote": "> `CFHY=AUSWRINGEN`, `SHFY=STEHEN LASSEN`, `CPHY=NACHSEIHEN`, `CHEEY/SHEY=KLARAUSZUG`, `DAIN=TUCH`, `SOLKAIIN=SEIHTUCH`, `QOCTHOLY=ABPRESSEN`, `KCHAL=ABSEIHEN`, `CKH=DURCHLAUF`, `CKHE=SEIHEN`, `LSH=WASCHEN`, `SOLK=AUFFANGSTELLE`.",
+          "sha256": "255e6bfaca13343e66ff182c1cc3b2fefa9a8460348384fc2c5502a8dd7d0480",
+          "type": "candidate_primary_context"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_filtration_separation_completion/SELECTED_FILTRATION_SEPARATION_REPORT.md",
+          "line": 233,
+          "line_end": 234,
+          "quote": "- `DAIN=TUCH` überstimmt in dieser exakten Karte die sichtbare Nähe zu\n  `AIIN=MAẞ`.",
+          "sha256": "40056f6e7ef9c9d09874bc9e9f3282eb595cb5e87bfd1336618fa2c722f8db67",
+          "type": "candidate_primary_context"
+        }
+      ]
+    },
+    {
+      "id": "SEM:a40f7fdc000dab6a932f",
+      "claim": "CTH+AIIN → AUF MASS BEREITSTELLEN",
+      "recommendation": "retain",
+      "rationale": "The quote explicitly assigns CTH+AIIN=AUF MASS BEREITSTELLEN while rejecting an older botanical reading; retain the scoped composition.",
+      "current_case_ids": [
+        "CLEAN_COMPONENT:3d89b52fe4d1bb9a78ee"
+      ],
+      "prior_review_files": [
+        "research_registry/decisions/clean_component_review.json"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_herbal_component_completion_four_hundred_fifty_fourth/FOUR_HUNDRED_FIFTY_FOURTH_REPORT.md",
+          "line": 9,
+          "line_end": 12,
+          "quote": "Damit verschwindet ein großer Teil der alten Pflanzenfantasie. `DCHEY` ist\nnicht automatisch WURZELTEIL, sondern `CH+E+Y = DIES KURZ ABZIEHEN`; `CTHAIIN`\nist nicht KRAUT ZERSTOSSEN, sondern `CTH+AIIN = AUF MASS BEREITSTELLEN`;\n`KCHEY` ist nicht GROB ZERREIBEN, sondern `K+E+Y = DIES KURZ ZUFÜHREN`.",
+          "sha256": "0cd60ae7202d0a09a1112a57fbf6e40237e2a9849c56bcf3c52fc6ced98f4d2f",
+          "type": "candidate_primary_context"
+        }
+      ]
+    },
+    {
+      "id": "SEM:b427a535312ccfd4f4fa",
+      "claim": "m → eine Handvoll",
+      "recommendation": "restate",
+      "rationale": "The source positively gives m=eine Handvoll but explicitly limits it to a free learned whole-card and forbids exporting m as a general component; restate with that scope.",
+      "current_case_ids": [
+        "CLEAN_COMPONENT:913c69d64526f8cb5419"
+      ],
+      "prior_review_files": [
+        "research_registry/decisions/clean_component_review.json"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt664_one_hundred_forty_residual_family_completion/REPORT.md",
+          "line": 89,
+          "line_end": 94,
+          "quote": "`m=eine Handvoll` ist eine freie, nicht exportierte Siglenkarte. `am=ein Maß`\nbleibt separat. `-g=ein Gran` gilt nur in den drei gelernten Ganzformen\n`chkag`, `kcharg`, `chokolg`; es wird nicht auf andere g-Endungen übertragen.\n`b` erhält weiterhin keinen Stammwert: `oleeeb=stark eingedickter\nHolzdrogenauszug` bleibt ein LOW-Ganzwort, während „Bad“ als Rivale erhalten\nist.",
+          "sha256": "5b61c293e7cd0216b42da9c2ae59637f64cd7738a43a539afb762e86bbde0d2e",
+          "type": "candidate_primary_context"
+        }
+      ]
+    }
+  ]
+}

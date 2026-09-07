@@ -675,3 +675,9 @@ HY decision note (13:41UTC): HWdyerror motivatesbounded20single-caseactivelexica
 HX material pass:actualraw1/2/7methodreviewednot_tested;37raw14reviewed23unreviewed. OnePass225ABAquestiongives80dossiers99semantic targets. Clear/reloadcountermodel, ACArenaming andnormalizedvsprintedexactunits fixedbeforeanytest.6of9printedendpointmatches is reportauditonly; no rawcapacity/manuscriptmeaning. Finalpeer scopeclarification explicitlypreservespurestructuralwork.
 
 HX validation: sourcepreservation,currentcards/cases,broadinventory,scopedbindings,prioritycoverage andfreshnessPASS.5127imports+37raw=5164records;4179ledger events;80dossiers99targets.4118cards/75groupsunchanged. Raw1/2/7areoperativecuratednot_tested;14methodreviewed23unreviewed. No scientifictest.
+
+HY material pass:20polarityriskcards yield17retain-as-hypothesis and3scope restatements,0archives. RootcorrectedHOT/MOISTandSHEYoverdeletion, Yglobalnegativeargumentskept, mstandalonebounded. Originalcases/assertionspreserved. Peer rawSHEYquoteomittedcodefence; operativeexactquote restoredandreceiptkept. No newmeaning oridentitychange.
+
+HZ decision note (13:53UTC): English/German glossnavigationmap proposes7pairs in4effectivegroups: CHdry/moist, OLcontinue andOTCHEYportion/Anteil.78requiredidentityinputs currenthash/memberreceiptPASS;7priorco-mentionedpairs excluded. Semantictranslationofmodernlabelsisnavigationonly; especiallyPortion/Anteilmaybefrozenrivals. Primaryunit/modelscope decides equivalenceversusretainseparate. Budget18min includesprimaryreview10,rootadjudication3,validation/publication5. No newmanuscripttest orsourcebytechange.
+
+HY validation: sourcepreservation, currentcards/cases, broadinventory, scopedbindings, prioritycoverage andfreshnessPASS.5128imports+37raw=5165records;4180ledger events.4118cards4640cases,75groups87reduction,80questions99targets;3scoperestatements preserveoriginalassertions. No newmeaning.

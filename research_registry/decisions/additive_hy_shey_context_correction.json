@@ -1,0 +1,23 @@
+{
+  "review_id": "ADDITIVE_HY_SHEY_CONTEXT_CORRECTION",
+  "status": "corrects_prior_polarity_review_without_deleting_it",
+  "scope": "SHEY whole-card context and Y global-noun argument; no registry mutation.",
+  "shey": {
+    "id": "SEM:66dc23a48cf901d7d5a5",
+    "recommendation": "retain_unconfirmed_whole_value_and_preserve_existing_equivalence",
+    "reason": "The earlier peer read line 92 correctly as a decomposition warning, but that line does not deny the SHEY value. The same report gives SHEY an explicit whole-context role in B2-S012, and the approved IDENTITY_CQ:shey decision already equates this card with SEM:06cad87d75fc0f5368fa at exact whole-card scope. Keep the card unconfirmed; do not archive it.",
+    "evidence": [
+      {"path":"experiments/yolo/sidequest_semantic_application_completion/APPLICATION_WORKSHOP_REPORT.md","line":230,"line_end":238,"quote":"LCHY · SHEY · QCTHEY · QOKEEY · LCHEEY · DAIIN · CHEY · QOKEEEDY\n\n> Flüssigen Anteil abziehen; Klarauszug; laufenden Posten gebrauchsfertig\n> halten; länger einwirken lassen; benetzte Stelle; Maß; dieser Posten;\n> vollständig durchtränken; Schluss.\n\nDiese Aussage trennt Ergebnisziel `LCHEEY`, Maß, Referent und vollständigen\nKontakt besonders sauber.","sha256":"fdf5941da011e0af7331fef3b3554379cb3a998d15f211b7351c19be31e0d3c8"},
+      {"path":"experiments/yolo/sidequest_semantic_application_completion/APPLICATION_WORKSHOP_REPORT.md","line":92,"line_end":93,"quote":"`QOLKY` wird nicht als `OL=weiter + KY=Wärme` zerlegt. `LCHEEY` wird nicht aus\n`SHEY=Klarauszug` oder dem EEY-Kontaktgrad abgeleitet.","sha256":"fdf5941da011e0af7331fef3b3554379cb3a998d15f211b7351c19be31e0d3c8"},
+      {"path":"experiments/yolo/sidequest_semantic_medium_substance_completion/SELECTED_MEDIUM_SUBSTANCE_COMPLETION_REPORT.md","line":23,"line_end":26,"quote":"`SHEY = KLARAUSZUG` remains a recurrent learned result card rather than a\nglobally split `SH+EY` word. `SHECTHY = TEMPERIERT` is now a state card, not a\nsecond word for water. This is still a deliberately speculative workshop\ntranslation, not a decipherment claim.","sha256":"515bc2a753d71cfa054c1dbcc6b13f97e7f3e22b8742a0ad516911c892b1dfa8"}
+    ],
+    "identity_note": "Existing approved IDENTITY_CQ:shey already records SEM:06cad87d75fc0f5368fa ≡ SEM:66dc23a48cf901d7d5a5 at exact whole-card scope; no new identity mutation is made here."
+  },
+  "y_global_noun_cards": {
+    "ids": ["SEM:c101320513651182f349", "SEM:d54ca25595448d0cb647"],
+    "recommendation": "restate_scope_as_negative_global_meaning_argument",
+    "reason": "Y_CHY lines 132-139 compare owner contexts and reject a universal Y=Wasser/Y=Pflanze noun model. That is a source-argued scope constraint, not an independent denotation test and not grounds to delete all semantic analysis. Preserve the negative global-model argument and local-use alternatives as unconfirmed.",
+    "evidence": {"path":"experiments/yolo/sidequest_semantic_component_completion/Y_CHY_REPORT.md","line":132,"line_end":139,"quote":"Die vorhandenen V70--V75-Bildberichte zeigen auf Herbal vier ganze Pflanzen,\naber kein abgebildetes einheitliches Wasser-, Oel- oder Waermezeichen. f81v\nzeigt ein gemeinsames Figurenfeld, f82r mehrere teilweise getrennte Stationen\nund f83r lokale Gefaess-/Leitungsverbindungen ohne gezeichnete Richtung. Diese\nBesitzer koennen sehr verschiedene aktuelle Arbeitsgueter bereitstellen. Sie\npassen deshalb zu einer allgemeinen Postenverweiskarte, nicht zu `Y = Wasser`\noder `Y = Pflanze`. Wasser darf weiterhin in einer einzelnen Pflanzen- oder\nBadrezeptur stehen; es ist nur nicht der uebertragbare Y-Wert.","sha256":"abbe73138d5ae2ff15b925ce69bf37ccc3a3b735836b3850dd81d8cf34db1b81"}
+  },
+  "no_registry_mutation": true
+}

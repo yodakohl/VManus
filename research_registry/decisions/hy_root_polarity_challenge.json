@@ -1,0 +1,30 @@
+{
+  "review_id": "HY_ROOT_POLARITY_CHALLENGE",
+  "status": "source_polarity_correction_recommendations",
+  "scope": "otork/otol HOT, dchdy MOIST, and SHEY Klarauszug; no registry mutation.",
+  "cases": [
+    {
+      "id": "SEM:3e093262480ebf90f5c7",
+      "claim": "otork/otol → HOT",
+      "recommendation": "retain_as_rejected_historical_hypothesis",
+      "reason": "GDT195 is an explicit tested rejection of the exposed local state assignment, not evidence that the historical candidate never existed. Do not archive it as a pure negation; retain the candidate with rejected/nonportable polarity and its stated reopening condition.",
+      "evidence": {"path":"GDT195_F77_READABLE_HOMOLOG_REPORT.md","line":63,"line_end":68,"quote":"Do not retain `olkchs=COLD`, `otedy=DRY`, `otork/otol=HOT`, or `dchdy=MOIST` as\nword meanings.  They are exposed local state assignments whose most striking\nfour-element consequence is algebraically dependent.  A genuine advance now\nrequires either a readable comparator with the complete mixed-output topology\nor a second source-owned Voynich structure on which the state sequence is\nfrozen before its inscriptions are exposed.","sha256":"250e610738ddb4624748563148df0b9c95decde5f917622f59c7e8391ae43a66"}
+    },
+    {
+      "id": "SEM:bfd3cd52dd2655c58d12",
+      "claim": "dchdy → MOIST",
+      "recommendation": "retain_as_rejected_historical_hypothesis",
+      "reason": "The same GDT195 sentence explicitly names and rejects dchdy=MOIST. This has the same tested/rejected status as HOT; peer-B's retain direction is correct, but should be labelled rejected rather than positive lexical support.",
+      "evidence": {"path":"GDT195_F77_READABLE_HOMOLOG_REPORT.md","line":63,"line_end":68,"quote":"Do not retain `olkchs=COLD`, `otedy=DRY`, `otork/otol=HOT`, or `dchdy=MOIST` as\nword meanings.  They are exposed local state assignments whose most striking\nfour-element consequence is algebraically dependent.  A genuine advance now\nrequires either a readable comparator with the complete mixed-output topology\nor a second source-owned Voynich structure on which the state sequence is\nfrozen before its inscriptions are exposed.","sha256":"250e610738ddb4624748563148df0b9c95decde5f917622f59c7e8391ae43a66"}
+    },
+    {
+      "id": "SEM:66dc23a48cf901d7d5a5",
+      "claim": "SHEY → Klarauszug",
+      "recommendation": "polarity_correction_archive_this_card_only",
+      "reason": "The bound source does not positively assign SHEY. It says LCHEEY is not derived from SHEY=Klarauszug, which negates a decomposition/derivational inference rather than establishing SHEY's value. Archive or correct this extracted positive card, while preserving separate positive SHEY/CHEEY whole-card claims elsewhere; do not merge them into this case.",
+      "evidence": {"path":"experiments/yolo/sidequest_semantic_application_completion/APPLICATION_WORKSHOP_REPORT.md","line":92,"line_end":93,"quote":"`QOLKY` wird nicht als `OL=weiter + KY=Wärme` zerlegt. `LCHEEY` wird nicht aus\n`SHEY=Klarauszug` oder dem EEY-Kontaktgrad abgeleitet.","sha256":"fdf5941da011e0af7331fef3b3554379cb3a998d15f211b7351c19be31e0d3c8"}
+    }
+  ],
+  "unit_note": "GDT195 rejects HOT and MOIST as exposed local state meanings under one shared algebraic-dependence argument; their candidate histories should remain parallel and equally retained as rejected hypotheses. SHEY's quoted line is a decomposition prohibition, not a positive lexical assignment.",
+  "no_registry_mutation": true
+}
