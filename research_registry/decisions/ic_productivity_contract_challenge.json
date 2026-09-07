@@ -1,0 +1,88 @@
+{
+  "id": "IC_PRODUCTIVITY_CONTRACT_CHALLENGE",
+  "type": "source_scope_peer",
+  "status": "additive_challenge",
+  "summary": "Three contract corrections: GDT754 provenance is not the earlier 170-card experiment; GDT560 DY closure is renderer/state evidence; GDT568 adapter coverage does not identify shared architecture against lookup. No registry, ledger, raw data, or first-peer mutation.",
+  "items": [
+    {
+      "target": "SEM:0172f4ab8f77188dc5a7",
+      "finding": "GDT754 is a downstream provenance audit of 172 exact whole-form cards sourced to GDT664/GDT666, with 168 composition-axis hypotheses. That is not evidence that its 168 axes are the earlier 170-card dictation experiment. A finite observed inventory can reject a frozen exhaustive lexicon if a held novel whole is predeclared, but does not by itself reject learned-whole production or establish authorial exclusion licensing.",
+      "countermodel": "The earlier finite compatibility model and the later analyst-built PRODUCTIVE_COMPOUND cards can both be true while no authorially licensed productive inventory has been identified.",
+      "reopen": "Predeclare the competing inventory contract: frozen exhaustive lexicon versus learned-whole fallback, then test a held novel whole with independently sourced segmentation and meaning. Replaying the 172 cards cannot discriminate these models.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt754_active_productive_compound_provenance_sieve/REPORT.md",
+          "line": 7,
+          "line_end": 11,
+          "quote": "Der in GDT753 sichtbare Fehler war kein Einzelfall. Das aktive Wörterbuch\nenthielt 172 exakte Ganzformkarten aus GDT664/GDT666, deren konkrete deutsche\nSätze ausdrücklich als `PRODUCTIVE_COMPOUND` aus Analystenbausteinen gebaut\nworden waren. Diese Karten sprechen derzeit an 889 Cachepositionen auf 159\nzugelassenen Seiten; 686 Positionen sind reader-exakt.",
+          "sha256": "88063124968132fbb3ab80fc4733cbf9d6994a52751444569a64fb1f9a3ea4af"
+        },
+        {
+          "path": "experiments/yolo/gdt754_active_productive_compound_provenance_sieve/REPORT.md",
+          "line": 55,
+          "line_end": 64,
+          "quote": "Die 172 Entscheidungen teilen sich so auf:\n\n- 168 reine Kompositionsachsen-Hypothesen;\n- zwei korrigierte gemeinsame Ganzformhypothesen (`qokeol/okeol`);\n- eine Formanalogierolle (`lky`);\n- eine globale Hypothese mit lokalen stärkeren Rollenpatches (`lkaiin`).\n\nDamit sind keine 172 Wörter entschlüsselt. Wir besitzen nun aber eine saubere\nTrennung zwischen dem, was früher kreativ zusammengesetzt wurde, und dem, was\nspäter tatsächlich eine Form oder ein konkretes Vorkommen stützt. Genau diese",
+          "sha256": "88063124968132fbb3ab80fc4733cbf9d6994a52751444569a64fb1f9a3ea4af"
+        }
+      ]
+    },
+    {
+      "target": "SEM:00e23948b4d66b561e01",
+      "finding": "GDT560’s 67/67 DY closure is an assignment inside an admitted OT/OL/DY working grammar, not an independent observation of authorial clause truth or a semantic relation value. The report itself says DY, rather than the relation, controls closure.",
+      "countermodel": "A renderer/state machine can place DY at a closing boundary and therefore produce 67/67 closure even if the source relation has no clause-closing meaning; the same relation can remain open without DY.",
+      "reopen": "Only a source-native, independently coded boundary or role outcome that is not supplied by the OT/OL/DY renderer could discriminate semantic clause truth. Existing closure counts should remain structural evidence.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt560_relation_state_geometry_grammar/experiment.json",
+          "line": 6,
+          "line_end": 6,
+          "quote": "  \"claim_ceiling\": \"A creative complete working grammar for the existing AL=ZIELORT, AR=AUSGANG, L=VERBINDUNG and AIR=BAHN values inside already admitted OT/OL/DY state cards. It may assign directional geometry, control envelopes, substitution families and short readings, but changes no root value, surface, segmentation, recipe, statement boundary or page. No plaintext, historical syntax, language, codebook identity, object or future-form license follows.\",",
+          "sha256": "ece17434002141fc5f24114fa4cc809d86e2f6ee27071b7745090deb32633317"
+        },
+        {
+          "path": "experiments/yolo/gdt560_relation_state_geometry_grammar/METHOD.md",
+          "line": 22,
+          "line_end": 29,
+          "quote": "2. Jede Relationsstelle erhält den nächsten `OT/OL/DY`-Rand links und rechts.\n   Die8 beobachteten Hüllen werden in geschriebener Reihenfolge gelesen.\n3. Innerhalb derselben Hülle wird festgehalten, ob die Relation am linken oder\n   rechten Blockrand steht und ob links oder rechts ein sichtbares Argument\n   oder eine Handlung liegt.\n4. Jede Karte mit genau einer Relation wird nur an diesem Slot zu `REL`\n   normalisiert. Mindestens zwei vorhandene Relationswerte im sonst exakten\n   Rezept ergeben eine Austauschfamilie.",
+          "sha256": "e4c2d7c698810df6d302d11cb2557f9615b4e38e883517e312f68ce83fe4df89"
+        },
+        {
+          "path": "experiments/yolo/gdt560_relation_state_geometry_grammar/REPORT.md",
+          "line": 84,
+          "line_end": 87,
+          "quote": "Die Kontrollreichweite bleibt stabil:67/67 Familienkarten mit DY schließen\nihre Aussage,77/77 ohne DY bleiben offen. Über alle Vorkommen schließen auch\n94/94 Relationen mit rechtem DY. Der Relationswert entscheidet nicht über den\nSchluss; das tut DY.",
+          "sha256": "b5df8d51cb73e2778d6b1f41d2ff644242632c2cf09357bbcf6ebf7f348d6a84"
+        }
+      ]
+    },
+    {
+      "target": "SEM:067e37fff33713fa6970",
+      "finding": "GDT568 demonstrates a successful rendering adapter over 45 already observed register×action cells and 1,834 state-event root uses. It does not identify shared root-plus-register parameters against a per-register lookup table: those two models can be extensionally identical on every tested cell and replay.",
+      "countermodel": "A per-register table independently stores the same 20 frame strings for the 45 observed cells and happens to yield the same 866 contacts and 1,834 event outputs. All GDT568 pass metrics remain unchanged, despite no shared root/frame architecture.",
+      "reopen": "Freeze the architectural restriction before testing: shared-root/frame predicts an unseen or held-out register×root cell from the shared parameterization, while unrestricted lookup does not. A held cell or independently confirmed parameter tie is required; more replay of the 45 cells is not.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt568_twenty_owner_action_voice_frames/experiment.json",
+          "line": 6,
+          "line_end": 6,
+          "quote": "  \"claim_ceiling\": \"A 20-card German owner-action rendering deck for the current exploratory edition. It may realize all 45 already observed register-action cells, change 763 of 1,656 state clauses, and make 866 shared-root action contacts use the same owner frame while leaving all nonstate clauses, written atoms, recipes, boundaries and nine portable root values unchanged. This confirms no Voynich lexeme, plaintext, language, syntax, genre, historical codebook or object identity and licenses no new page, event, statement, surface, recipe or root value.\",",
+          "sha256": "fed14e2b318ce1b8a80bc6042995ad1a3d35964ae46abea18467a8d6f0585801"
+        },
+        {
+          "path": "experiments/yolo/gdt568_twenty_owner_action_voice_frames/METHOD.md",
+          "line": 23,
+          "line_end": 31,
+          "quote": "1. Retain the nine portable action values and all five register labels exactly.\n   Read the 45 old register×action cells from GDT415.\n2. Express every cell as a short verb frame with one explicit argument slot.\n   Cells with the same frame are grouped. The 45 cells collapse to 20 distinct\n   cards; no unavailable cell is filled by analogy.\n3. For every state card, reconstruct its generic action chain from the GDT565\n   action topology, including separated and repeated action units. Substitute\n   only that generated chain with the applicable owner frame; keep arguments,\n   modifiers, relations, closure, written atoms and event boundaries fixed.",
+          "sha256": "8ede7e46309f77efb0a2a3a29394070e44d1b4a74587c18ddbb480ce3c91fd02"
+        },
+        {
+          "path": "experiments/yolo/gdt568_twenty_owner_action_voice_frames/REPORT.md",
+          "line": 66,
+          "line_end": 69,
+          "quote": "An 854 gemischten Zustands/Nichtzustands-Anschlüssen teilen beide Seiten\nmindestens eine Handlungswurzel; zehn davon teilen zwei, insgesamt also 866\nHandlungskontakte. Vor dem Adapter waren 517/866 vollständige Verbrahmen und\n730/866 Verbköpfe identisch. Danach sind es jeweils 866/866.",
+          "sha256": "3118c040bd1ee1746c2f9ea1ee58a1c500310a83702571f5a8c12f01d5f75804"
+        }
+      ]
+    }
+  ]
+}
