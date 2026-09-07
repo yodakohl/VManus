@@ -1,0 +1,64 @@
+{
+  "review_id": "hk_four_quality_p1_followup",
+  "target_semid": "SEM:120be1a6d641c178351a",
+  "scope": "GDT181 prediction P1: another independently owned four-quality register should reproduce a two-coordinate four-state partition.",
+  "lookup": {
+    "gdt": "GDT202",
+    "primary_report": "GDT202_HYBRID_THEORY_RECONCILIATION_REPORT.md",
+    "runner": "run_gdt202_hybrid_theory_reconciliation.py"
+  },
+  "p1_reconciliation": {
+    "status": "UNTESTED_NO_NEW_SCHEMA",
+    "referenced_results": "gdt182_result.json;gdt184_result.json",
+    "finding": "The runner records no fresh source-owned four-quality register; semantic value is NONE and local four-state diagram code is not licensed."
+  },
+  "adjudication": {
+    "classification": "MISSING_DATA_OR_SCHEMA_NOT_FAILURE",
+    "actually_tested": [
+      "GDT182 within-f57 predicate multiplicity/nonuniqueness",
+      "GDT184 R2 reference-ring capacity",
+      "later post-hoc N1→D1 same-folio surface metric"
+    ],
+    "not_tested": "A predeclared transfer to a qualifying independently owned second register with independently anchored four-quality labels.",
+    "posthoc_boundary": "The N1→D1 screen is explicitly post-hoc on one exposed folio; its rank changes after removing known ot/ok/y bits are diagnostic of surface-coordinate reuse, not an independent P1 replication.",
+    "aggregate_caution": "GDT202 0/7 is an aggregate reconciliation and must not be read as seven P1 failures; P1 has its own untested status."
+  },
+  "reopen_condition": "Acquire a genuinely independent source-owned second register or readable homolog, freeze the transfer/topology and value assignment before inspecting its strings, then test held replication. More same-folio metric ablations do not reopen P1.",
+  "evidence": [
+    {
+      "path": "run_gdt202_hybrid_theory_reconciliation.py",
+      "line": 53,
+      "line_end": 56,
+      "quote": "RECON = {\n    \"P1\": (\"UNTESTED_NO_NEW_SCHEMA\", \"gdt182_result.json;gdt184_result.json\",\n           \"The exposed f57 decoder is nonunique and its fourfold ring lacks four-state capacity; no fresh source-owned four-quality register was acquired.\",\n           \"NONE\", \"Local four-state diagram code not licensed.\"),",
+      "sha256": "46df2035a4c7317772595301cbf615ddb101259258af83516ee7a728d37a4f20"
+    },
+    {
+      "path": "GDT202_HYBRID_THEORY_RECONCILIATION_METHOD.md",
+      "line": 14,
+      "line_end": 24,
+      "quote": "## Fixed rules\n\n1. Preserve each GDT181 prediction verbatim.\n2. Distinguish a successful *negative* prediction from a translation-bearing\n   success.  Demonstrating that a simple alphabetic decoder fails supports a\n   layered architecture but translates nothing.\n3. `NO_HOMOLOG_FOUND` and `UNTESTED_NO_CAPACITY` are not successes or\n   falsifications.\n4. A page-local semantic rule is withdrawn from the active decoder if its\n   selecting feature is not unique and no fixed transfer or readable homolog\n   succeeds.",
+      "sha256": "e110c6c9b693485d444c71e0354efe89774b8fae1282f3a5048d408631f01fdb"
+    },
+    {
+      "path": "GDT182_F57_DECODER_MULTIPLICITY_REPORT.md",
+      "line": 24,
+      "line_end": 27,
+      "quote": "But they are not the only complete pairs.  N1 can also be partitioned by the\n`al/dal` mask, and D1 can be partitioned by an `r/ar` mask.  A complete grid is\ntherefore partly a consequence of searching flexible predicates on four\nexposed labels.",
+      "sha256": "db637313a6df7987a4cd2069e13be045a3655aa5ef41e9a35c5d6a258f805cd2"
+    },
+    {
+      "path": "GDT184_F57_R2_REFERENCE_RING_REPORT.md",
+      "line": 5,
+      "line_end": 13,
+      "quote": "R2 contains four physical repetitions of a 17-position sequence, but only one\ncolumn changes stably across all three readings: `f,f,p,p`. Sixteen columns\nsupply no stable period contrast. The stable row capacity is therefore one\nbit (two profiles), while four unique element identities require two bits.\n\nThis fails the strong reading “four rows individually identify Fire, Air,\nWater, and Earth.” It leaves a weaker one-property table logically possible,\nbut its sole bit is exactly aliased among hot/cold, upper/lower page half, and\nLatin masculine/feminine in the exposed comparator.",
+      "sha256": "d07589601dfb465a254a90db8b3d4a2127fd586e6474917c914db20a7af1c3ff"
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/f57_cross_register_quality_identity_worth_report.md",
+      "line": 3,
+      "line_end": 11,
+      "quote": "Status: **POSTHOC_LOCAL_MATCH_EXPLAINED_BY_KNOWN_STATE_BITS**.\n\nThe physical Hot–Moist–Cold–Dry N1→D1 assignment is uniquely best among all 24 assignments under the already published corresponding-reading normalized edit-similarity metric. It remains uniquely best in all four leave-one-pair-out views.\n\nThat apparent support is not independent. Removing one terminal `y` where present drops the physical assignment to tie-inclusive rank **9/24**. Removing the already documented leading `ot`/`ok` and terminal `y` state bits leaves it at rank **3/24**. The raw optimum therefore largely re-detects the known local coordinate code instead of showing that both registers spell the same four values.\n\nThis was post-hoc on one exposed folio. Do not promote it to a quality lexicon or translation.\n\nClaim ceiling: The physical N1-to-D1 coordinate assignment is uniquely best under the already published raw surface metric and every one-pair deletion, but it falls to ninth after terminal-y removal and third after removing the known ot/ok/y state bits. This is post-hoc single-folio local consistency dominated by previously known coordinate features, not independent lexical identity and not a quality word, sound, language, cipher, plaintext, meaning, or translation.",
+      "sha256": "835dcb0eb3268c96870e4d035353de7d3616af998c422017bedd27276aa31f28"
+    }
+  ]
+}
