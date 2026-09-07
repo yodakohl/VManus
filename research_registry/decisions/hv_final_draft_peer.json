@@ -1,0 +1,62 @@
+{
+  "review_id": "HV_FINAL_DRAFT_PEER",
+  "status": "APPROVED_WITH_SCOPE_NOTES",
+  "scope": "Final audit of six HV scoped questions and root scope review; no registry mutation, source rerun, raw/image access, or new test.",
+  "inputs": {
+    "draft": {
+      "path": "research_registry/decisions/hv_scoped_question_draft.json",
+      "sha256": "f8763eb1b4765ad15374c3ae1d6a0b55b1fe75d5f866bbe0f28847072926f1d6"
+    },
+    "root_scope_review": {
+      "path": "research_registry/decisions/hv_root_scope_review.json",
+      "sha256": "e98f66fbb9dbb1d041606fe055061ece97a6185cf3842d29e152a6d27ed5fc50"
+    }
+  },
+  "question_checks": [
+    {
+      "id": "FAILURE_HV:CHEDAL_PROJECTED_MATERIAL_AMOUNT_PROFILE:v1",
+      "target": "SEM:0479f37d9427261549a4",
+      "result": "pass",
+      "finding": "The exact 21-occurrence/15-folio scope is retained. GDT805 projections have zero semantic/renderer credit and the GDT388 packet is formally ineligible after prior access; the draft correctly calls this unsupported meaning plus invalidity, not sample insufficiency or universal material-model failure."
+    },
+    {
+      "id": "FAILURE_HV:QOFCHEY_SINGLETON_FORM_FALLBACK:v1",
+      "target": "SEM:060514eb7cd34baf8fb4",
+      "result": "pass",
+      "finding": "The draft binds only the one qofchey occurrence. It preserves S00/F00 with level 0, moist 1/1/1, PREP 0/0/0, and C0 fallback/default. It does not transfer family-level preparation support or a form gate from other OFCH/chor cards."
+    },
+    {
+      "id": "FAILURE_HV:V9_CATEGORICAL_STATUS_VECTOR_VERSUS_PAYLOAD_MODELS:v1",
+      "target": "SEM:0196909055d03ae3f46c",
+      "result": "pass_with_scope_note",
+      "finding": "The draft correctly states that V9 never predeclared a complete fixed binary encoding. The 38-type observation disfavors only the assumed two-surface/two-answer encoding; context-dependent binary semantic values remain untested. Exact repeated terminals support structural identity, not status or COMMIT meaning."
+    },
+    {
+      "id": "FAILURE_HV:V3_MEDIUM_PROCESS_WORKSHEET_RIVAL:v1",
+      "target": "SEM:0790ed6245707d07f366",
+      "result": "pass",
+      "finding": "Entry bias, nine right neighbors, and the subjective .24 WATER rating are not treated as a refutation of the broader liquid/matrix rival. The draft also correctly says ownership of one wet object would not validate all five worksheet roles."
+    },
+    {
+      "id": "FAILURE_HV:CLAUSE_ATTACHMENT_NEAREST_HEAD_AND_ELLIPSIS:v1",
+      "target": "SEM:03a857d2784ffc634f3b",
+      "result": "pass",
+      "finding": "The draft distinguishes hardcoded attachment fallback and 27 equal-distance ties from semantic ambiguity or image-supplied action evidence. It retains the DCHOL learned-card claim as separate and unconfirmed."
+    },
+    {
+      "id": "FAILURE_HV:V61_MIXED_CLAUSE_CELL_VERSUS_PROSE_LIST:v1",
+      "target": "SEM:06abf69cd679d392b252",
+      "result": "pass",
+      "finding": "The 14 reflows and 121 statements are treated as authored keyed interpretations, while existing nonline-bound surface structure is preserved. The draft does not turn byte-preserved mnemonics or consistency validation into semantic gold."
+    }
+  ],
+  "evidence_validation": {
+    "method": "All six decision evidence arrays were checked with tools.semantic_identity._evidence against contiguous paths, line spans, quotes and hashes.",
+    "decisions": 6,
+    "evidence_objects": 25,
+    "result": "all exact"
+  },
+  "material_corrections": [],
+  "reopening_scope": "Reopening requirements remain conditional and claim-specific: a semantic promotion needs a specified rival and independently judged discriminating outcome. This does not require semantic gold before every future structural exploration; structural work may proceed when its own structural decision and falsifier are independently defined.",
+  "no_new_semantic_evidence": true
+}

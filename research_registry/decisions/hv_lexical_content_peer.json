@@ -1,0 +1,56 @@
+{
+  "reviewer": "luna_three_hour_discriminators",
+  "status": "BOTH_UNCONFIRMED__NO_NEW_BOUNDED_CONTRAST_AVAILABLE",
+  "scope": "Source-only audit of SEM:0479f37d9427261549a4 (chedal) and SEM:060514eb7cd34baf8fb4 (qofchey); no lexical inference from dictionary neighbors.",
+  "cards": [
+    {
+      "id": "SEM:0479f37d9427261549a4",
+      "claim": "chedal → Material-/Mengenartikel oder Rohstoff",
+      "observed_case": "GDT805 reports 21 occurrences on 15 folios. The concrete f77v.27 context is `tshedy qokain chedal fchedy cheky`, projected as a material/amount field, but the same field also permits dry, value/degree, part/fraction, process and other rivals.",
+      "result": "Binding/capacity failure, not a lexical negative: GDT805's corrected selector installs zero new roles, gives no direct CONTENT_PREP slot, and retains material/amount rivals unresolved. The premise is already covered by the GDT805 role-profile route; no new available observation changes the decision.",
+      "minimal_reopener": "A held, independently source-bound contrast where chedal and a matched non-material rival occupy the same host/amount slot with an external quantity/material endpoint. More adjacent material-like fields or the same GDT805 projections are insufficient."
+    },
+    {
+      "id": "SEM:060514eb7cd34baf8fb4",
+      "claim": "GDT767 qofchey → angefeuchtete Blütenzubereitung, with Blütenmazerat and angefeuchtete sonstige Zubereitung as rivals",
+      "observed_case": "The card's local premise is a singleton exact B occurrence after a middle-moist state and before a preparation/carrier field; GDT767's target-excluding tournament finds broad form-class evidence for preparations but no independent specific substance identity. It explicitly preserves replaceable concrete defaults and C0 rivals.",
+      "result": "Missing binding, not a failed form-class test: GDT767 supports Rohdroge/Trockenmaterial/Zubereitung as broad classes, while flower versus other material and macerate versus other preparation remain unresolved. GDT765's ofchy/schor result is a neighboring whole-form route and cannot be transferred to qofchey.",
+      "minimal_reopener": "A source-bound held contrast independently fixing flower identity or macerate status for qofchey against the other-preparation rival, with repeated whole-form occurrences and an external or author-visible endpoint. Additional cofield counts or historical plausibility do not suffice."
+    }
+  ],
+  "overlap": "Both cards overlap existing whole-form role/content routes (GDT805 and GDT767, with GDT765 as a neighboring OFCH/CHOR route). Preserve them as separate unconfirmed whole-form cases; do not export `chedal` or `ofch` component meanings and do not merge the two cards.",
+  "evidence": [
+    {
+      "path": "experiments/yolo/gdt805_eleven_whole_context_role_discriminator/REPORT.md",
+      "line": 54,
+      "line_end": 66,
+      "quote": "## Korrektur des Kandidatenwählers\n\nDer erste Diagnoselauf bevorzugte breite Materialmodelle, zählte volle Leads\nnochmals als Near-Leads und wertete Feldnähe beziehungsweise eine offene\nMengenposition als direkten Inhaltsbeleg. Das war falsch. Der korrigierte Lauf\nmacht Full und Near disjunkt, skaliert den Diagnosescore durch die deklarierte\nModellbreite und vergibt keinen\nBreiten- oder Feldbonus und installiert aus den Projektionen null neue Rollen.\nMehrere korrelierte Achsentags derselben Kontaktzelle können weiter einzeln\nzählen; deshalb ist der Score ausdrücklich kein vollständig normalisierter Beleg.\nGDT804s direkter sauberer CONTENT_PREP-Kontakt bleibt für alle elf Formen null.\nDie konkreten Rivalen bleiben sichtbar, damit die nächste Runde sie tatsächlich\nprüfen kann.",
+      "sha256": "a7d1149d3341973909288cd531d863d446fd7acefadff98844db55eac56625f5",
+      "type": "chedal_route_correction"
+    },
+    {
+      "path": "experiments/yolo/gdt805_eleven_whole_context_role_discriminator/REPORT.md",
+      "line": 70,
+      "line_end": 87,
+      "quote": "| Form | Außenstellen/Folios | führender konkreter Rivale | Gegenrivale | Entscheidung |\n|---|---:|---|---|---|\n| `chal` | 41/26 | Stoff- oder Zubereitungseintrag | Qualitäts- oder Zustandsfeld | `PROJECTED_MATERIAL_OR_QUALITY_CONTEXT_PROFILE__NO_DIRECT_SLOT` |\n| `chedal` | 21/15 | Material-/Mengenfeld | Material-/Mengenartikel oder Rohstoff | `MATERIAL_OR_AMOUNT_RIVALS_UNRESOLVED__NO_DIRECT_SLOT` |\n| `cheol` | 141/70 | Stoff- oder Zubereitungseintrag | Qualitäts- oder Zustandsfeld | `DRY_VALUE_CONTEXT_PROFILE__MATERIAL_OR_QUALITY_UNRESOLVED__NO_DIRECT_SLOT` |\n| `okail` | 0/0 | uninterpretierter Eintrag | Material- oder Zustandsfeld | `NO_EXTERNAL_CAPACITY` |\n| `okal` | 122/62 | Kennstellen-/Systemcode | Ansatz- oder Materialeintrag | `RETAIN_GDT793_OPAQUE_ENTRY_PRIOR__MATERIAL_CONTEXT_RIVAL` |\n| `ol` | 462/104 | Ansatz-/Zubereitungsträger | bestimmtes Medium: Öl, Wasser oder Wein | `RETAIN_GDT762_GENERAL_CARRIER_PRIOR__SPECIFIC_MEDIUM_UNSUPPORTED` |\n| `otal` | 117/56 | Ausgangsansatz oder Stoffzubereitung | Qualitäts- oder Zustandsfeld | `PREPARATION_OR_QUALITY_CONTEXT_PROFILE__NO_DIRECT_SLOT` |\n| `qokeol` | 38/25 | Zubereitungs- oder Stofffeld | Behandlungs- oder Prozessfeld | `HOT_VALUE_CONTEXT_FIELD__PROCESS_PREPARATION_QUALITY_UNRESOLVED` |\n| `qokol` | 87/51 | Zubereitungs- oder Stofffeld | Behandlungs- oder Prozessfeld | `VALUE_CONTEXT_FIELD__PROCESS_PREPARATION_UNRESOLVED` |\n| `qotal` | 56/34 | Stoff- oder Zubereitungsfeld | Qualitäts- oder Zustandsfeld | `MATERIAL_OR_QUALITY_RIVALS_UNRESOLVED__NO_ROLE_LEAD` |\n| `sail` | 1/1 | uninterpretierter Eintrag | Stoffart oder Mengenfeld | `NO_EXTERNAL_CAPACITY` |\n\nNeu ausgewählt wird keine Rolle. Beibehalten werden nur zwei ältere\nBasismodelle: `okal` als Kennstellen-/Systemeintrag mit Materialkontext-Rivale\nund `ol` als allgemeiner mengenfähiger Inhaltsträger. Insbesondere bleibt offen,\nob `ol` Öl, Wasser, Wein oder überhaupt ein konkretes Medium bezeichnet.",
+      "sha256": "a7d1149d3341973909288cd531d863d446fd7acefadff98844db55eac56625f5",
+      "type": "chedal_exact_role_result"
+    },
+    {
+      "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/REPORT.md",
+      "line": 45,
+      "line_end": 67,
+      "quote": "Für die 43 `ofch`-Vorkommen bleibt danach folgendes Profil:\n\n| zielwort-freies Merkmal | D1 | R3 | Linie |\n|---|---:|---:|---:|\n| trocken | 4 | 10 | 14 |\n| feucht | 3 | 6 | 13 |\n| heiß | 4 | 7 | 13 |\n| kalt | 2 | 5 | 10 |\n| Stufe/Grad | 8 | 21 | 29 |\n| Wert/Menge | 5 | 9 | 11 |\n| Zubereitung | 0 | 6 | 8 |\n| Vorgang/Abschluss | 1 | 8 | 9 |\n| H1-Recordform | 3 | 8 | 10 |\n| H2-Recordform | 2 | 2 | 4 |\n| exaktes `cthy` als Blattgutanker | 0 | 0 | 0 |\n| exaktes `chor` als Reproduktionsanker | 0 | 0 | 0 |\n\nDas ist ein gutes Profil für Drogen- oder Zubereitungsformen mit Zustands-,\nStufen- und Mengenfeldern. Es ist kein Profil, das eine bestimmte Pflanze oder\nSubstanz benennt. Gerade die beiden Nullreihen sind entscheidend: Kein\n`ofch`-Ziel besitzt einen unabhängigen exakten Blattgutanker, und exaktes\n`chor` darf als ebenfalls untersuchtes Ziel nicht als Geber zurückgeschmuggelt\nwerden.",
+      "sha256": "ea39b855a34e2a6c560bd5f68794dd4b0e52f9d79c5aeac23579f3f7f900a0d5",
+      "type": "qofchey_form_class_limit"
+    },
+    {
+      "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/REPORT.md",
+      "line": 132,
+      "line_end": 155,
+      "quote": "## Warum die Blüte trotzdem im Reader bleibt\n\nEin exploratives Wörterbuch ist nur dann nützlich, wenn es konkrete, ersetzbare\nLesungen ausgibt. Deshalb werden die bisherigen Blütenwerte nicht durch\n„Material X“ ersetzt. Alle 28 Zielwörter erhalten weiterhin einen konkreten\nDefault, aber ihre Stoffidentität steht ausdrücklich auf\n`C0_REPLACEABLE_DEFAULT`.\n\nDas ist eine bewusste Zweiteilung:\n\n- **portable Ebene:** Drogenkopf, Rohdroge, Trockenmaterial, Zubereitung,\n  Anteil oder Endprodukt;\n- **mutige Leseschicht:** Blütenmasse, Blütenanteil, Blütenzubereitung,\n  Blütenstand und verwandte konkrete Varianten.\n\nDie mutige Schicht bleibt stehen, bis sie widersprochen oder durch eine bessere\nIdentität ersetzt wird. Sie erhält aus GDT767 keinen zusätzlichen\nLexemkredit.\n\nZwei Defaults werden enger statt blumiger: `ofcheol` und `qofcheol` heißen nun\n**Blütenzubereitung**, nicht mehr **Blütenauszug**. Auszug, Öl, Wasser, Wein und\nEssig bleiben sichtbare C0-Rivalen. Beide Wörter besitzen keine unabhängige\nFlüssigkeits- oder Auszugsachse; `qofcheol` besitzt sogar überhaupt kein\nzugelassenes target-freies Merkmal.",
+      "sha256": "ea39b855a34e2a6c560bd5f68794dd4b0e52f9d79c5aeac23579f3f7f900a0d5",
+      "type": "qofchey_replaceable_default_limit"
+    }
+  ]
+}

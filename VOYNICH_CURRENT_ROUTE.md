@@ -4,7 +4,7 @@ Updated: 2026-09-07. Read first.
 ## Current mandate and effort limit
 
 4h active:2026-09-07 12:57:35–16:57:35UTC minimum; user may steer.
-HU:73questions;65identitygroups/77reduction;37raw/26unreviewed;0newmeaning.
+HV:79questions;65identitygroups/77reduction;37raw/26unreviewed;0newmeaning.
 Report: `research_registry/decisions/semantic_3h_completion.md`.
 
 GDT858:855/963primary808folds retained opposite-face training;169faces/90leaves.

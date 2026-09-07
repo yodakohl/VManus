@@ -1,0 +1,78 @@
+{
+  "review_id": "HV_ROOT_CHALLENGE_PEER",
+  "status": "CORRECTIONS_REQUIRED_BEFORE_FINAL_SCOPE",
+  "scope": "Bounded correction of V9 binary comparison, GDT767 qofchey singleton metadata/default retention, and GDT805 claim ceiling. No raw manuscript access, rerun, or registry mutation.",
+  "evidence": [
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v9/CANDIDATE_V9_STENCIL_VALUE_VECTOR.md",
+      "line": 129,
+      "line_end": 134,
+      "quote": "**Retain only the broad status/value part; reject binary YES/NO.** Thirty-eight\nexact terminal types across 90 terminal events are far too rich for an\nunqualified two-answer system. No pair of families alternates cleanly in the\nsame repeated slot. However, singleton committed cells, adjacent repeated\nvalues (`f81v.18` F3–F4), and the S3=S6 repeat on f82r.27 fit a compact\ncategorical status inventory.",
+      "sha256": "c2eaf4b098fd41e814a238162bd613e7f2afb64f8f535ef0e130d06b29552c89",
+      "type": "V9_binary_comparison"
+    },
+    {
+      "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/artifacts/GDT767_28_WORKING_DICTIONARY.tsv",
+      "line": 26,
+      "line_end": 26,
+      "quote": "qofchey\tOFCH_CONTAINING\t1\tMOIST_PREPARATION\tS00\tbenannte Arzneidroge\t0\tF00\tArzneiform offen\t0\tfeuchte Zubereitung einer benannten Droge; target-freie Kontextklasse Arzneiform offen\tangefeuchtete Blütenzubereitung\tC0_REPLACEABLE_DEFAULT\tC0_LOCAL_OR_FALLBACK_FORM\tangefeuchtete Blütenzubereitung\tlegacy concrete default retained until contradicted or replaced\tBlütenmazerat\tangefeuchtete sonstige Zubereitung\t0/0/0\t1/1/1\t0/0/1\t0/0/0\t0/0/0\t0/0/0\t0/0/0\t0\tform=F00 level=0, hits D1/R3/line=0/0/0; substance=S00 level=0\tNo independent exact chor or cthy anchor identifies an ofch substance; specific noun is a forced working default.\t1\t0\t0\t0",
+      "sha256": "417e93cb6277215f40b37d884b666f15aa96fc4ac58bd350140795a83393b487",
+      "type": "GDT767_qofchey_exact_dictionary_row"
+    },
+    {
+      "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+      "line": 461,
+      "line_end": 480,
+      "quote": "def selected_candidate(\n    rows: Sequence[Mapping[str, object]], layer: str, fallback_id: str\n) -> Mapping[str, object]:\n    candidates = [row for row in rows if row[\"candidate_layer\"] == layer]\n    supported = [\n        row for row in candidates\n        if int(row[\"evidence_level_0_4\"]) >= 2\n        and not int(row[\"semantic_redundancy_penalty\"])\n        and int(row[\"repeat_requirement_met\"])\n    ]\n    if not supported:\n        return next(row for row in candidates if row[\"candidate_id\"] == fallback_id)\n    return sorted(\n        supported,\n        key=lambda row: (\n            -int(row[\"evidence_level_0_4\"]),\n            -float(row[\"evidence_score\"]),\n            str(row[\"candidate_id\"]),\n        ),\n    )[0]",
+      "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed",
+      "type": "GDT767_candidate_fallback_code"
+    },
+    {
+      "path": "experiments/yolo/gdt767_ofch_historical_identity_cofield_tournament/src/run.py",
+      "line": 530,
+      "line_end": 535,
+      "quote": "        form_level = int(form[\"evidence_level_0_4\"])\n        form_confidence = (\n            \"C2_REPEATED_TARGET_FREE_FORM_GATE\" if form_level >= 4 else\n            \"C1_TARGET_FREE_FORM_GATE\" if form_level >= 2 else\n            \"C0_LOCAL_OR_FALLBACK_FORM\"\n        )",
+      "sha256": "080f55a3e649bd25bc033d379cf5b9a99a462c6d1708449b4bb38a20ac8a83ed",
+      "type": "GDT767_form_confidence_code"
+    },
+    {
+      "path": "experiments/yolo/gdt805_eleven_whole_context_role_discriminator/METHOD.md",
+      "line": 75,
+      "line_end": 85,
+      "quote": "## Decision and claim ceiling\n\nProjected axes may expose context profiles and passage cards, but cannot select\na new target role. Only the already published `okal` opaque/system-entry prior\nand `ol` general content/preparation-carrier prior may be retained. Specific\nsubstances such as oil, water, wine, salt, root or leaf require a separate\ndirect bridge.\n\nEvery mapped relation is submitted to the executable GDT388 intake. Because\nthe text relations were formally accessed before sealing, the packet is\nineligible and not score-ready despite its descriptive capacity.",
+      "sha256": "ea417917b794a97952208d61f58f0d73110ee3c37fcfce86f40958eba749ef12",
+      "type": "GDT805_claim_ceiling_and_formal_ineligibility"
+    },
+    {
+      "path": "experiments/yolo/gdt805_eleven_whole_context_role_discriminator/REPORT.md",
+      "line": 56,
+      "line_end": 65,
+      "quote": "Der erste Diagnoselauf bevorzugte breite Materialmodelle, zählte volle Leads\nnochmals als Near-Leads und wertete Feldnähe beziehungsweise eine offene\nMengenposition als direkten Inhaltsbeleg. Das war falsch. Der korrigierte Lauf\nmacht Full und Near disjunkt, skaliert den Diagnosescore durch die deklarierte\nModellbreite und vergibt keinen\nBreiten- oder Feldbonus und installiert aus den Projektionen null neue Rollen.\nMehrere korrelierte Achsentags derselben Kontaktzelle können weiter einzeln\nzählen; deshalb ist der Score ausdrücklich kein vollständig normalisierter Beleg.\nGDT804s direkter sauberer CONTENT_PREP-Kontakt bleibt für alle elf Formen null.\nDie konkreten Rivalen bleiben sichtbar, damit die nächste Runde sie tatsächlich",
+      "sha256": "a7d1149d3341973909288cd531d863d446fd7acefadff98844db55eac56625f5",
+      "type": "GDT805_projection_correction"
+    }
+  ],
+  "corrections": [
+    {
+      "item": "V9 binary YES/NO wording",
+      "finding": "The source compares against an unqualified two-answer checklist and notes 38 terminal types with no clean pair alternation. That only disfavors a fixed two-surface/two-answer encoding. It does not reject binary semantic values rendered by slot-conditioned spellings, multiple synonyms, or a larger formal inventory.",
+      "required_wording": "Replace any broad “binary semantic model rejected” reading with: “the observed inventory disfavors the specified unqualified binary surface encoding; slot-conditioned binary semantics remain untested.”"
+    },
+    {
+      "item": "GDT767 qofchey singleton",
+      "finding": "Generated dictionary row 26 has qofchey with reader_exact_occurrences=1, selected substance S00/evidence 0, selected form F00/evidence 0, moist D1/R3/line=1/1/1 and preparation 0/0/0. It retains an explicit C0_LOCAL_OR_FALLBACK_FORM and C0_REPLACEABLE_DEFAULT. This is a real singleton metadata row, not evidence inherited from the other 43 chor occurrences or a general preparation gate.",
+      "required_wording": "Keep qofchey as a bounded moist-preparation working default with no form credit; do not borrow broad preparation support from other forms or treat the row as a failed capacity test."
+    },
+    {
+      "item": "GDT805 chedal 21/15",
+      "finding": "GDT805 reports 21 outside occurrences on 15 folios but its method says projected axes have semantic and renderer credit zero, and the packet is formally accessed before sealing and therefore ineligible/not score-ready. The report retains `chedal` as unresolved material/amount rivals and selects zero new roles.",
+      "required_wording": "Classify this as unsupported meaning plus formal-access invalidity for the packet, not general insufficient capacity or a universal failure of chedal/material models."
+    }
+  ],
+  "scope_preservation": {
+    "V9": "No whole-model semantic conclusion follows from the binary inventory; the categorical, operation/result, and formal-closer alternatives remain scoped.",
+    "GDT767": "The q... singleton does not establish a substance/form identity and does not propagate to the broader ofch/chor family.",
+    "GDT805": "No new target role, lexeme, substance, unit, or translation is licensed; narrower prior roles remain separate."
+  },
+  "no_new_test_or_evidence": true
+}

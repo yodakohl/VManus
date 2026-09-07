@@ -1,0 +1,61 @@
+{
+  "id": "HV_CLAUSE_MODELS_PEER",
+  "target_cards": [
+    "SEM:03a857d2784ffc634f3b",
+    "SEM:06abf69cd679d392b252"
+  ],
+  "scope": "Independent source-contract audit; no raw-data access, rerun, registry mutation, or new semantic claim.",
+  "assessment": "The mixed clause/cell reading is a bounded abductive preference, not an empirically discriminated result against the pure prose/list rival. The attachment report does establish a useful source-level structural fact: 381 events were grouped into statements, with 27 attachments between action heads left visible and four no-visible-head cases. But its construction classifies atoms from a hardcoded ACTION_ATOMS inventory, supplies OWNER_SUPPLIED_ACTION when no action head exists, and chooses nearest previous/following heads; only equal distance is exposed as ambiguity. Thus the 27 count is not an independently adjudicated syntax gold set, and non-equal-distance assignments are not semantic proof. V61 likewise reports 14 open reflows, B5 and B1 as reasons against the list rival, but its 46 boundary decisions are explicitly keyed curated specifications and its validation separates 85 exact mnemonic events from 296 UNKNOWN events. Physical-line continuation and byte-preserved markers are source-known structure; they do not by themselves establish clause meaning or distinguish a mixed semantic model from a list with layout continuation. No claim that all boundaries are wrong follows.",
+  "decision": "Do not mark either card as a confirmed semantic discrimination. Retain the qualified mixed-model preference and the explicit open cases. A genuine reopening would require a blind, independently fixed boundary/attachment annotation on repeated records where pure list and mixed-clause models make different predictions, with a held-out set and an endpoint external to the same mnemonic/interpretive labels. Repeating curated V61 boundaries, adding more prose reflows, or rerunning the nearest-head builder would not change the decision.",
+  "evidence": [
+    {
+      "path": "experiments/yolo/sidequest_semantic_clause_attachment/CLAUSE_ATTACHMENT_REPORT.md",
+      "line": 1,
+      "line_end": 31,
+      "quote": "# Werkstattgrammatik: Kartenwerte an Handlungen anheften\n\n## Der eigentliche Fortschritt\n\nDie vorige Ausgabe las fast jede Karte wie ein eigenes Verb. Das machte Sätze künstlich lang. In der neuen Werkstattlesung sind `AIIN/AIN/IIN`, `AL/AR/AIR`, `Y`, `E/EE/EEE`, Materialkarten und der Schluss meist **Argumente einer benachbarten Handlung**. `OK/OL`, Umsetzen, Durchleiten, Wärmen, Absetzen, Sammeln, Waschen, Teilen, Zu-/Abführen und die wenigen gelernten Arbeitsgänge bilden die Köpfe.\n\nAlle 381 Ereignisse sind genau einem der 116 Statements und einer Fusionsgruppe zugeordnet. Es entstehen 254 Arbeitsgruppen. 4 Aussagen besitzen keinen sichtbaren Handlungskopf; dort liefert Bild/Exemplar weiterhin das Verb. 27 Anheftungen liegen genau zwischen zwei Köpfen und bleiben in der Tabelle sichtbar statt eine Scheinsicherheit zu erzeugen.\n\n## Rollenbilanz\n\n- `ACTION_HEAD`: 250 Ereignisse\n- `ARGUMENT_OR_MODIFIER`: 73 Ereignisse\n- `CONTENT_OR_STATE`: 34 Ereignisse\n- `ELLIPTIC_HEAD`: 4 Ereignisse\n- `ENDPOINT_ONLY`: 3 Ereignisse\n- `ORDER_MARKER`: 17 Ereignisse\n\nAnheftungsrichtungen:\n\n- `BACKWARD`: 75\n- `FORWARD`: 52\n- `SELF`: 254\n\n\n## Bedeutungsgewinn\n\n`dchol/schol` wird jetzt in allen Kontexten als **eine gelernte Karte VORIGER POSTEN** behandelt; die falsche Analyse `DCH+OL` ist aus der 381-Ereignis-Schicht verschwunden. Die kurzen Werte bleiben erhalten, werden aber nicht mehr als lauter Einzelbefehle missverstanden. Beispielsweise wird `qokaiin ... al ...` zu einem Arbeitsgang *auf Sollmaß am Ziel ansetzen*, und eine Reihe aus `CHEEY`, `AIN`, `CKH+AL`, `SOLK+E+Y`, `L+CHD+CLOSE` wird zu *klare Fraktion portionsweise zur Zielstelle leiten, kurz sammeln, abführen und schließen*.\n\n## Offene Stelle\n\nDie Anheftung sagt noch nicht, ob ein lokaler Besitzer eine Wurzel, ein Tuch, ein Becken oder ein Sternfeld liefert. Sie verbessert die Syntax: ein Kartenwert kann jetzt Material, Maß, Quelle, Ziel, Grad oder Endpunkt sein, ohne als separates Vollverb ausgegeben zu werden. Der nächste Pass nutzt diese Gruppen, um alle elf Records noch einmal als knappe Werkstattanweisungen zu redigieren.",
+      "sha256": "a601362af2d77604f85f831b60c1a1e5f52780c96aef8ae95b80b84f8155abb5"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_clause_attachment/build_clause_attachment.py",
+      "line": 36,
+      "line_end": 43,
+      "quote": "ACTION_ATOMS = {\n    \"OK\", \"OL\", \"CHD\", \"CTH\", \"CKH\", \"CKHE\", \"CHK\", \"SHED\", \"SOLK\",\n    \"WASH\", \"PARTITION\", \"L\", \"P\", \"KCH\", \"SH\", \"CFH\", \"CPH\", \"ODY\",\n    \"SK\", \"DAN\", \"AM\", \"LDDY\",\n}\nCONTENT_ATOMS = {\"OR\", \"HO\", \"CHEO\", \"DCHOL\", \"DCHE\", \"DL\", \"LOCAL_WHOLE\", \"DAIN\", \"OS\", \"CHEEY\"}\nARGUMENT_ATOMS = {\"AIIN\", \"AIN\", \"IIN\", \"AL\", \"AR\", \"AIR\", \"Y\", \"E\", \"EE\", \"EEE\", \"TY\"}\nENDPOINT_ATOMS = {\"CLOSE\"}",
+      "sha256": "eaf28068d753d431bcfa5618b5c8559337d078895ca28cf8393bfba5dd75fc29"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_clause_attachment/build_clause_attachment.py",
+      "line": 61,
+      "line_end": 101,
+      "quote": "def attach_group(rows: list[dict[str, object]]) -> None:\n    action_indices = [index for index, row in enumerate(rows) if row[\"syntactic_role\"] == \"ACTION_HEAD\"]\n    if not action_indices:\n        # Elliptic notation: choose the richest content card, otherwise first.\n        content = [index for index, row in enumerate(rows) if row[\"syntactic_role\"] in {\"CONTENT_OR_STATE\", \"MEMORIZED_CONTENT\"}]\n        host = content[0] if content else 0\n        rows[host][\"syntactic_role\"] = \"ELLIPTIC_HEAD\"\n        rows[host][\"action_head\"] = \"OWNER_SUPPLIED_ACTION\"\n        action_indices = [host]\n\n    for index, row in enumerate(rows):\n        if index in action_indices:\n            row[\"attachment_host_event_id\"] = row[\"event_id\"]\n            row[\"attachment_direction\"] = \"SELF\"\n            row[\"attachment_ambiguity\"] = \"NONE\"\n            continue\n        previous = [candidate for candidate in action_indices if candidate < index]\n        following = [candidate for candidate in action_indices if candidate > index]\n        prev_idx = previous[-1] if previous else None\n        next_idx = following[0] if following else None\n        if prev_idx is None:\n            chosen, direction, ambiguity = next_idx, \"FORWARD\", \"NONE\"\n        elif next_idx is None:\n            chosen, direction, ambiguity = prev_idx, \"BACKWARD\", \"NONE\"\n        else:\n            prev_distance = index - prev_idx\n            next_distance = next_idx - index\n            if row[\"syntactic_role\"] == \"ORDER_MARKER\":\n                chosen, direction, ambiguity = next_idx, \"FORWARD\", \"NONE\"\n            elif row[\"syntactic_role\"] == \"ENDPOINT_ONLY\":\n                chosen, direction, ambiguity = prev_idx, \"BACKWARD\", \"NONE\"\n            elif prev_distance < next_distance:\n                chosen, direction, ambiguity = prev_idx, \"BACKWARD\", \"NONE\"\n            elif next_distance < prev_distance:\n                chosen, direction, ambiguity = next_idx, \"FORWARD\", \"NONE\"\n            else:\n                chosen, direction, ambiguity = prev_idx, \"BACKWARD\", \"EQUAL_DISTANCE\"\n        assert chosen is not None\n        row[\"attachment_host_event_id\"] = rows[chosen][\"event_id\"]\n        row[\"attachment_direction\"] = direction\n        row[\"attachment_ambiguity\"] = ambiguity",
+      "sha256": "eaf28068d753d431bcfa5618b5c8559337d078895ca28cf8393bfba5dd75fc29"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v61/V61_R2_HISTORICAL_CLAUSE_REFLOW_REPORT.md",
+      "line": 110,
+      "line_end": 117,
+      "quote": "Der stärkste Gesamtrivale ist kein anderer Fließtext, sondern eine bebilderte\nMaterial-/Stationsliste: Herbal-Zeilen katalogisieren Teile und getrennte\nVerwendungen; Bio-Felder sind unabhängige Gefäß-, Leitungs- oder Badezellen.\nDiese Lesung erklärt besonders die vielen Ein-Feld-Terminalsätze und benötigt\nweniger still fortgeltende Syntax. Gegen sie sprechen die 14 gut lesbaren\noffenen Reflows, das fragmentarische Zeitglied B5 und der anaphorische\n`VORIGES?`-Einstieg B1. Die Daten entscheiden daher für ein gemischtes\nKlausel-/Zellmodell, nicht für reine Prosa.",
+      "sha256": "87bd1af13f86cb6a516dac469b97bdc143a7e498de7f4222c49dc0943072c97d"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v61/V61_R2_HISTORICAL_CLAUSE_REFLOW_REPORT.md",
+      "line": 119,
+      "line_end": 127,
+      "quote": "## Validierung und Scope\n\n`V61_R2_VALIDATION.json` meldet **PASS**: 11 Records, 57 Zeilen, 135 Felder,\n381 Ereignisse, 121 Statements und 46 vollständig klassifizierte\nZeilenübergänge. Die kanonischen Feldexpansionen und alle elf V60-Kurzmerker\nsind byteinhaltlich übernommen; keine neue Kurzglosse erscheint. Alle\nseitenführenden Quellen wurden vor Materialisierung auf die sieben erlaubten\nProsaseiten gefiltert. Keine V61-Geschwisterdatei, keine neue Seite und weder\nf84 noch f84r wurden gelesen; keine externe Recherche wurde durchgeführt.",
+      "sha256": "87bd1af13f86cb6a516dac469b97bdc143a7e498de7f4222c49dc0943072c97d"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v61/V61_R2_BUILD_CLAUSE_REFLOW.py",
+      "line": 64,
+      "line_end": 70,
+      "quote": "# Exact boundary decisions are keyed by the last field of one physical line and\n# the first field of the next physical line.  No surface or substring rule is\n# used to generate them.\nBOUNDARY_SPECS = [\n    (\"F001\", \"F002\", \"RESUME_ACTIVE_ITEM\", \"Die zweite Zeile setzt die bereits bereitete Arznei als stilles Objekt voraus.\", \"IMPLICIT_ACTIVE_PREPARATION\", \".53\"),\n    (\"F003\", \"F004\", \"CONTINUE_SAME_CLAUSE\", \"Beide Felder bleiben offen; Erntezeit, Ansatz und Mass können dieselbe Simplex-Bereitung fortsetzen.\", \"NONE\", \".42\"),\n    (\"F004\", \"F005\", \"START_NEW_CLAUSE\", \"Der Wechsel von vor der Blüte zu geöffneter Blüte und neuer Aufbewahrung spricht für einen neuen parataktischen Satz.\", \"NONE\", \".45\"),",
+      "sha256": "d3635fe5377c17b1e7c0646c08aabb78b5baef08e8f8f4a0de54d85bec021a2e"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v61/V61_R2_BUILD_CLAUSE_REFLOW.py",
+      "line": 540,
+      "line_end": 550,
+      "quote": "        \"all_11_prose_records_present\": [row[\"record_unit_id\"] for row in record_rows] == record_order,\n        \"all_135_fields_mapped_once\": len(field_map_rows) == 135 and len({row[\"field_id\"] for row in field_map_rows}) == 135,\n        \"all_381_events_preserved\": len(events) == 381 and sum(int(row[\"event_count\"]) for row in fields) == 381,\n        \"all_46_interline_boundaries_catalogued\": len(boundary_rows) == 46 and len(boundary_spec) == 46,\n        \"boundary_vocabulary_exact\": set(boundary_counts) <= VALID_BOUNDARY_CLASSES,\n        \"physical_lines_count_57\": physical_lines == 57,\n        \"statement_count_121\": len(statement_rows) == 121,\n        \"line_spanning_statements_exist\": any(row[\"spans_physical_lines\"] == \"YES\" for row in statement_rows),\n        \"every_statement_has_concrete_expansion\": all(row[\"german_source_expansion\"] for row in statement_rows),\n        \"every_statement_has_historical_rival\": all(row[\"strongest_historical_rival\"] for row in statement_rows),\n        \"exact_85_vs_unknown_296_separated\": len(exact_events) == 85 and len(unknown_events) == 296,",
+      "sha256": "d3635fe5377c17b1e7c0646c08aabb78b5baef08e8f8f4a0de54d85bec021a2e"
+    }
+  ]
+}
