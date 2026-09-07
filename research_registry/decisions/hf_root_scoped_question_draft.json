@@ -1,0 +1,234 @@
+{
+  "review_id": "HF_ROOT_SCOPED_QUESTION_DRAFT",
+  "status": "PENDING_INTEGRATION",
+  "decisions": [
+    {
+      "id": "FAILURE_HF:F69_FIXED_ROSTER_FINAL_NONCONFIRMATION:v1",
+      "decision_key": "FAILURE_HF:F69_FIXED_ROSTER_FINAL_NONCONFIRMATION",
+      "revision": 1,
+      "previous_revision": null,
+      "status": "reviewed_scoped_context",
+      "review_status": "reviewed_scoped_context",
+      "reviewer": "root after bounded independent primary scope review",
+      "targets": [
+        "SEM:e55acad31c8b3340b24a"
+      ],
+      "card_basis": {
+        "SEM:e55acad31c8b3340b24a": "4fd59f61eaf40a125a811841086f8a869978cacbfebf39e126849b72ada51249"
+      },
+      "effective_basis": {
+        "SEM:e55acad31c8b3340b24a": "47f816533520a682143120334cfc9c2cd0aff11bad6f48abecc1c9cbb7f4a859"
+      },
+      "source_case_ids": {
+        "SEM:e55acad31c8b3340b24a": [
+          "SEM-HIST-MANSION-ROSTER"
+        ]
+      },
+      "original_assertion": {
+        "SEM:e55acad31c8b3340b24a": "The fixed Agrippa lunar-mansion roster explains the ordered 28-slot f69v labels and their prefix topology."
+      },
+      "claim": "Does the fixed Agrippa28-name roster pass the registered anonymous three-depth prefix-topology test on ordered f69v labels?",
+      "scope": "F69M001 fixed roster, consensus-family representation,28orderedlabels,56dihedral alignments and two8192assignment nulls; not every lunar/calendar system.",
+      "reason_class": "tested_nonconfirmation_fixed_representation",
+      "actually_tested_falsifier": "The method jointly requires S>=.25, full-null p<=.01, initial-conditioned p<=.05, all depths positive with depths2/3>=.25, margin>=.03, deletion>=.15 and source/control/independent reconstruction gates. The final independent validator reproduces the nonconfirmation.",
+      "outcome": "S=.269181, conditioned p=.029537 and deletions=.236767 pass their gates; depth2=.275357 also passes. Depth3=.008247 fails the deeper joint gate, margin=.010020 fails .03 and global p=.018064 fails .01. Independent reconstruction is complete, not pending. This is evidence against this fixed representational alignment at its registered criterion, not proof that the28labels cannot be lunar names in another encoding.",
+      "claim_ceiling": "Exact source-contract assessment, not a new manuscript experiment, lexical identification, blanket family refutation or automatic source-card status change.",
+      "evidence": [
+        {
+          "path": "experiments/semantic_assumptions/F69M001_LUNAR_MANSION_PREFIX_METHOD.md",
+          "line": 5,
+          "line_end": 36,
+          "quote": "## Narrow question and route exception\n\nPublic human catalogues define 28 inward radial labels on f69v in the complete\ncyclic order `X1.1` through `X1.28` and mention the 28 lunar mansions as an\nobvious possibility. A human-transcribed table supplies one fixed Latin roster\nof Agrippa mansion names. Does the **pattern of which labels share prefixes**\nalign between these two ordered 28-item systems, without assigning sounds or\nmatching letters?\n\nThe generic NUMBER/CALENDAR route remains closed. This experiment satisfies\nonly its stated reopen condition—an explicit ordered coordinate—and tests one\nnarrow roster. Public discussion has already exposed the broad observations\nthat most roster names begin `A`, most Voynich labels begin EVA `o/y`, and the\nroster contains four consecutive `Caad...` names. The method is therefore not\nexaminer-blind. No complete Voynich prefix-equivalence matrix or alignment\nscore was inspected before registration.\n\n## Frozen inputs and representation\n\n- `results/f69m001_capacity.json` fixes the 28 current loci, their Stolfi\n  `X1.1..28` cyclic order, and the 28-name roster.\n- `results/source_sta_family_consensus_loci.tsv` supplies one all-reading\n  family sequence per locus. ZL3b/IT2a/RF1b are alternate readings, not three\n  samples.\n- For the historical name, lowercase ASCII letters and take the first word;\n  for the Voynich label, take the complete consensus family sequence.\n- At depths `k=1,2,3`, each item is represented only by its first `k` symbols.\n  Exact letter/family identities are discarded. The response is the 378-entry\n  binary vector over unordered item pairs: 1 when their prefixes are equal and\n  0 otherwise.\n\nNo retained parser root/role, EVA spelling distance, phonetic mapping, member",
+          "sha256": "48d7311cacc6d3f83866ec7f81bf3388261a318d25a8c61c3e842f31ee1954c9"
+        },
+        {
+          "path": "experiments/semantic_assumptions/F69M001_LUNAR_MANSION_PREFIX_METHOD.md",
+          "line": 56,
+          "line_end": 97,
+          "quote": "## Frozen controls and gates\n\nBefore manuscript prefixes are opened, eight deterministic worlds must recover\na full three-depth equivalence plant and reject exact-null, dominant-first-\nletter-only, four-name-block-only, and shallow-two-depth-only fixtures. Rotation,\nreflection, anonymous family relabeling, and row serialization must preserve\nthe registered result. Duplicate, missing, wrong-ordinal, wrong-locus, too-\nshort, and unknown-family mutations must stop. An independent nonimporting\nimplementation must reconstruct all controls.\n\nThe one manuscript target confirms only if:\n\n1. `S >= .25`;\n2. full-permutation p <= `.01`;\n3. first-letter-conditioned p <= `.05`;\n4. all three selected-alignment phi values are positive and the depth-2 and\n   depth-3 values are each at least `.25`; the initial `.15` draft was rejected\n   target-blind because a fixture with correct depths 1--2 but deliberately\n   scrambled depth 3 still attained `.168` and passed;\n5. the best mean exceeds the second distinct dihedral mean by at least `.03`;\n6. deleting any one item while retaining the selected original alignment gives\n   mean phi at least `.15`;\n7. all source, capacity, control, hash, finiteness, uniqueness, isolation, and\n   independent-reconstruction gates pass.\n\nNo roster, normalization, depth, statistic, phase, direction, threshold, or\nsubset may change after target prefixes are opened. Runners-up and individual\nprefix identities are diagnostic, not discoveries.\n\n## Claim ceiling\n\nOn pass: the anonymous three-depth repeated-prefix topology of f69v aligns with\nthis fixed Latin lunar-mansion roster more strongly than full and dominant-\ninitial-conditioned permutation controls. This would support that roster as a\nsystem-family candidate and justify a separately preregistered mapping test.\n\nOn failure: this exact prefix-topology representation does not support this\nfixed roster. The 28-count remains compatible with lunar mansions, days, winds,\nor another 28-part system.\n\nNeither outcome identifies a mansion, name, letter, sound, word, language,\ncipher, plaintext, or translation.",
+          "sha256": "48d7311cacc6d3f83866ec7f81bf3388261a318d25a8c61c3e842f31ee1954c9"
+        },
+        {
+          "path": "experiments/semantic_assumptions/results/f69m001_target.md",
+          "line": 3,
+          "line_end": 9,
+          "quote": "Status: **PROVISIONAL_AWAITING_INDEPENDENT_VALIDATION**\n\nDecision: **NONCONFIRM_FIXED_LATIN_MANSION_PREFIX_TOPOLOGY**\n\nThe best of 56 cyclic/reflected alignments is **REVERSE rotation 7**, with mean phi **0.269181** and depth values **0.523938, 0.275357, 0.008247**. The full-permutation p is **0.018064** and the dominant-initial-conditioned p is **0.029537**. Alignment margin is **0.010020** and minimum one-item deletion score is **0.236767**.\n\nIndependent reconstruction is mandatory. Neither outcome identifies a mansion, name, number, letter, sound, word, meaning, plaintext, or translation.",
+          "sha256": "6fc63d6e563e3f52e2b99d7f568c82d45c0e0c671682d1c5783fbcfd884989ab"
+        },
+        {
+          "path": "experiments/semantic_assumptions/results/f69m001_target_validation.md",
+          "line": 3,
+          "line_end": 5,
+          "quote": "Status: **PASS_PRODUCTION_FREE_TARGET_RECONSTRUCTION**\n\nThe frozen clean-room implementation passes **16502 checks** and reconstructs all 28 ordered prefix sequences, 56 alignments, both 8,192-assignment nulls, deletions, gates, report, and final decision **NONCONFIRM_FIXED_LATIN_MANSION_PREFIX_TOPOLOGY**. No mansion, name, number, letter, sound, word, meaning, plaintext, or translation follows.",
+          "sha256": "1eea25baf92d33934c3737b305217e64fa1cf7430c06f062ec275bced2c6f8b1"
+        }
+      ],
+      "reopening": {
+        "status": "REVIEW_REQUIRED_NOT_TEST_READY",
+        "assessed_by": "curation_review",
+        "criteria_origin": "Original fixed gates plus source-bound reviewer distinction between source correction and a genuinely new question.",
+        "all_of": [
+          "Do not rerun the unchanged fixed representation or repair it after outcome access. A provenance-clean correction to its source/implementation requires separate review and preserves the old outcome.",
+          "A different explicit authorial coordinate plus independently licensed roster, or independently repeated arithmetic equality, is a family-level new-binding condition requiring its own question. An unrelated new binding does not automatically reopen this exact roster test."
+        ],
+        "not_sufficient": [
+          "The frozen target report still saying provisional despite the later independent validator.",
+          "More permutations alone, different roster spellings, normalization, prefix depths, rotation/direction, thresholds or subsets chosen after the target.",
+          "Cardinality28, image orientation or another fluent name list without the required independent binding."
+        ]
+      },
+      "automatic_card_status_propagation": false,
+      "empirical_meaning_refutation": false
+    },
+    {
+      "id": "FAILURE_HF:GDT298_ARCHITECTURE_NOT_SEMANTIC_TEST:v1",
+      "decision_key": "FAILURE_HF:GDT298_ARCHITECTURE_NOT_SEMANTIC_TEST",
+      "revision": 1,
+      "previous_revision": null,
+      "status": "reviewed_scoped_context",
+      "review_status": "reviewed_scoped_context",
+      "reviewer": "root after bounded independent primary scope review",
+      "targets": [
+        "SEM:8875f68aee34b4126673"
+      ],
+      "card_basis": {
+        "SEM:8875f68aee34b4126673": "bc02f6b751ecd296a775b73d65b9e2e864d81261cbc485ac640927840d9ec1e4"
+      },
+      "effective_basis": {
+        "SEM:8875f68aee34b4126673": "3c4f569c98900465d76e0e1c888e923c9407614192a60cc52d5d325a2589206a"
+      },
+      "source_case_ids": {
+        "SEM:8875f68aee34b4126673": [
+          "REPORT_PROPOSAL:c4a6f28867ce2c3d08c5",
+          "CLEAN_GAP_AB:lexicalized_hybrid_report_source_case"
+        ]
+      },
+      "original_assertion": {
+        "SEM:8875f68aee34b4126673": "A lexicalized hybrid record shorthand combines shared record constraints with many joint host/renderer surface forms."
+      },
+      "claim": "Does GDT298 establish a semantic lexicalized hybrid shorthand, rather than choose a formal working representation?",
+      "scope": "GDT298 abductive synthesis of exposed GDT289–297 formal results, including within-host renderer/form aliasing and tested compact transfer policies.",
+      "reason_class": "abductive_model_selection_missing_meaning_binding",
+      "actually_tested_falsifier": "GDT298 declares no new manuscript score or confirmation experiment. GDT297 finds a bijection in all59auditedhosts; GDT289/290 capacity passes but tested cross-host/compact-class gains and transfer gates fail. Those observations constrain these representations, not semantic content or all language/cipher models.",
+      "outcome": "The high-capacity joint form lexicon is the selected working architecture, not a measured posterior probability, discovered causal generator or translated codebook. Formal exact-host success cannot identify payload. The source requests an independently repeated referent with joint-form transfer and comparison of complete form, joint state and PAGE_HOST; its historical absence statement is not a present exhaustive audit of every later dataset.",
+      "claim_ceiling": "Exact source-contract assessment, not a new manuscript experiment, lexical identification, blanket family refutation or automatic source-card status change.",
+      "evidence": [
+        {
+          "path": "GDT298_LEXICALIZED_HYBRID_GRAMMAR_REVISION_METHOD.md",
+          "line": 3,
+          "line_end": 30,
+          "quote": "## Purpose\n\nRevise the exposed GDT288 operational generator using the direct outcomes of\nGDT289--297.  This is a YOLO abductive synthesis, not a new manuscript score or\na confirmation experiment.\n\nThe revision must resolve every published GDT288 prediction, preserve negative\nresults, and choose one executable architecture.  It may not mine PAGE_HOST\nsubstrings, assign semantics, or access f84.\n\n## Model alternatives\n\nCompare, qualitatively and with frozen published evidence only:\n\n1. ordinary or abbreviated prose with largely independent morphology;\n2. a fixed local codebook;\n3. a compact Cartesian/factorial technical notation;\n4. a lexicalized hybrid record shorthand in which shared record constraints\n   coexist with a high-capacity inventory of joint host+renderer surface forms;\n5. a nonsemantic string-statistical source process.\n\n## Required correction\n\nGDT293's exact-host renderer completion may not be represented as independent\ncomposition after GDT297: within all 59 audited hosts, renderer and complete\nsurface form are bijective.  GDT289--290 reject the tested compact cross-host\nand latent-class renderers.  The executable generator must therefore select a\njoint lexicalized surface-form state, with shared compiler tendencies acting",
+          "sha256": "79e04008acf955eb68c5270e4facfee824f1d348b22f2163abf12cf1671f4ad5"
+        },
+        {
+          "path": "GDT298_LEXICALIZED_HYBRID_GRAMMAR_REVISION_REPORT.md",
+          "line": 20,
+          "line_end": 40,
+          "quote": "The crucial change from GDT288 is that `PAGE_HOST -> renderer` is no longer a\nclaimed causal step. GDT297 shows a within-host bijection between every exact\nrenderer tuple and complete source form, while GDT289--290 fail to transfer a\ncompact renderer across unseen hosts. The safest executable representation is\ntherefore a high-capacity **joint form lexicon** constrained by reusable record\nand graphematic tendencies.\n\n## What remains genuinely reusable\n\n- Physical lines, line reset, field chaining, and record/paragraph opportunity\n  remain the strongest low-capacity architecture.\n- The outer-wrapper channel transfers across folios, sections, hands, and\n  unseen host buckets, but it is a formal onset constraint rather than a\n  translated prefix.\n- O/OT, RIGHT_FAMILY, DY, and B3 remain useful parser coordinates; none has an\n  independently established meaning.\n- Compiler-conditioned PAGE_HOST character form is the best held-folio MDL\n  channel, but calibration does not distinguish language, abbreviation,\n  notation, or code.\n- Exact same-group completion is strong; immediate next-host and repeated-\n  referent invariance are not.",
+          "sha256": "5712ed2b29745bd620a65e98fd10944394cc10fa4d4f36a7661105e28a0941d6"
+        },
+        {
+          "path": "GDT298_LEXICALIZED_HYBRID_GRAMMAR_REVISION_REPORT.md",
+          "line": 42,
+          "line_end": 69,
+          "quote": "## Theory ranking\n\n| rank | world | current fit |\n|---:|---|---|\n| 1 | lexicalized hybrid record shorthand | best current coherence |\n| 2 | abbreviation-heavy natural language | plausible payload/rendering component |\n| 3 | nonsemantic string-statistical process | mandatory strong adversarial null |\n| 4 | compact factorial technical notation | too low-capacity for observed host-specific rendering |\n| 5 | fixed local codebook | transfer and referent failures |\n\n## Translation consequence\n\nA future translation attempt should not begin by assigning meanings to stripped\nPAGE_HOSTs. It needs an independent repeated content endpoint and must compare\nthree units simultaneously: complete source form, parsed joint form state, and\nPAGE_HOST projection. A meaning that follows only the stripped host is no\nlonger the default prediction.\n\nThe next decisive formal success would be a renderer alternant predicted for a\ngenuinely unseen host without character-substring tuning. The next decisive\nsemantic success would be an independently repeated referent whose joint form\ndistribution transfers across folios. Neither currently exists.\n\n## Claim ceiling\n\nThis selects a formal working architecture only. It supplies no word,\nmorpheme, code value, sound, language, meaning, plaintext, translation,\nauthorship, or origin. No f84 material was accessed.",
+          "sha256": "5712ed2b29745bd620a65e98fd10944394cc10fa4d4f36a7661105e28a0941d6"
+        },
+        {
+          "path": "GDT297_HOST_SURFACE_ALIAS_AUDIT_REPORT.md",
+          "line": 5,
+          "line_end": 25,
+          "quote": "## Result\n\nAll 59/59 hosts have a bijection between their renderer tuples and complete raw source forms. Only 1/59 has exactly one raw surface; the other hosts express two or more whole-form alternants. Held renderer top-1 is therefore also the top-1 accuracy of the corresponding whole-form alternant for the same exact host.\n\nThe five GDT296 canonical candidates are:\n\n| host | events | surfaces | dominant complete form | share | held top-1 |\n|---|---:|---:|---|---:|---:|\n| `lche` | 42 | 1 | `lchedy` | 1.000 | 1.000 |\n| `cthol` | 30 | 2 | `cthol` | 0.967 | 0.967 |\n| `cthor` | 20 | 2 | `cthor` | 0.950 | 0.950 |\n| `okee` | 126 | 5 | `qokeedy` | 0.786 | 0.786 |\n| `okeey` | 115 | 4 | `qokeey` | 0.783 | 0.783 |\n\n## Consequence\n\nGDT293 remains a strong exact-host completion result and GDT296 remains useful as a normalization atlas. But at exact-host resolution it does not separate a productive renderer from memorized whole-form alternants: every renderer choice corresponds one-to-one to a raw form. This agrees with the failed GDT289--290 cross-host and compact-class transfer tests. The current executable model should therefore treat the exact host+renderer table as a high-capacity surface lexicon unless a future cross-host rule predicts unseen alternants.\n\n## Claim ceiling\n\nThis is a parser-defined formal alias audit. It identifies no word, morpheme, code value, sound, language, meaning, plaintext, translation, or f84 evidence.",
+          "sha256": "65df505c5f4703a03753839f77d95669f355022c31ba91fb626d96ebe476484d"
+        }
+      ],
+      "reopening": {
+        "status": "REVIEW_REQUIRED_NOT_TEST_READY",
+        "assessed_by": "curation_review",
+        "criteria_origin": "Original fixed gates plus source-bound reviewer distinction between source correction and a genuinely new question.",
+        "all_of": [
+          "Separate an unseen-host renderer prediction from an independently bound semantic referent test; each has a different evidential endpoint.",
+          "Before a new test, verify the exact predecessor/closed family, fix units and a genuinely different discriminant. No same-host whole-form alias can serve as independent composition evidence."
+        ],
+        "not_sufficient": [
+          "More faithful rendering, overall compression or qualitative theory rank treated as meaning proof.",
+          "Rejected compact policies treated as proof against every cipher or language model.",
+          "Assuming stripped host meaning or inherited parser roles as semantic gold."
+        ]
+      },
+      "automatic_card_status_propagation": false,
+      "empirical_meaning_refutation": false
+    },
+    {
+      "id": "FAILURE_HF:V55_LOOKUP_NAMESPACES_AND_UNLICENSED_JOIN:v1",
+      "decision_key": "FAILURE_HF:V55_LOOKUP_NAMESPACES_AND_UNLICENSED_JOIN",
+      "revision": 1,
+      "previous_revision": null,
+      "status": "reviewed_scoped_context",
+      "review_status": "reviewed_scoped_context",
+      "reviewer": "root after bounded independent primary scope review",
+      "targets": [
+        "SEM:0e44f0a744d632a6948e"
+      ],
+      "card_basis": {
+        "SEM:0e44f0a744d632a6948e": "8db57b3889390a443e8790304ddf001a415e6e3a7fae90c5c470b8cca4e54e83"
+      },
+      "effective_basis": {
+        "SEM:0e44f0a744d632a6948e": "cb5e7627c55e6d05f5083485b696b11a82c1a62500bb6e548933763a5c6fd480"
+      },
+      "source_case_ids": {
+        "SEM:0e44f0a744d632a6948e": [
+          "MID-SEM:ca59c0f0b4061ee6d64e"
+        ]
+      },
+      "original_assertion": {
+        "SEM:0e44f0a744d632a6948e": "V55 R3 proposes a stations/lookup catalogue with three separate local namespaces: f67r2 selects a local table value using seven keys, twelve selection positions with corresponding values, and eight separate central conditions; f68r1 locates one of 28 plotted spatial addresses relative to a centre and three orientation anchors, without an established cycle start or direction; f69v uses an ordered slot and its complete one- or two-group entry to look up a local technical rule. The repeated whole entry okeod receives the same local default Beckenlauf freigeben; LONG/SHORT is layout capacity, not rule polarity. A direct f68r1–f69v join is unlicensed: equal inventory sizes do not supply a shared index or reading direction. A learned conventional key remains a possibility. Calendar, medical election-table and copying-pattern-book interpretations remain rivals; station content and the local release/block/rinse/supply/drain/temper/filter/hold palette are authored expansions, not established word values. Complete surface coverage does not establish semantics."
+      },
+      "claim": "Does V55 technical lookup coverage identify station meanings or license a same-index f68r1–f69v link?",
+      "scope": "V55R3 authored three local namespaces; selected catalogue compared qualitatively with calendar, medical table and pattern book, with full source-case scope already corrected by FR.",
+      "reason_class": "unlicensed_cross_inventory_join_model_underidentified",
+      "actually_tested_falsifier": "The report assigns all395groups to local address/rule roles but explicitly refuses JOIN(F68.SPATIAL[s],F69.ORDERED[s]): equal28counts do not establish shared index/start/direction, and complete-entry matches are reported zero. These are source-model accounting/permission limits, not a held semantic discrimination.",
+      "outcome": "The separate lookup model remains an unconfirmed creative interpretation, not a failed fixed-index model: it explicitly excludes that join. Zero matching full entries does not rule out a learned conventional key. Local release/rinse/filter defaults and same-entry consistency are authored content. Under its fixed whole-entry model LONG/SHORT is not a stable polarity value; that does not identify an operation or prove every layout distinction meaningless.",
+      "claim_ceiling": "Exact source-contract assessment, not a new manuscript experiment, lexical identification, blanket family refutation or automatic source-card status change.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v55/V55_R3_TECHNICAL_CIRCLE_REPORT.md",
+          "line": 7,
+          "line_end": 38,
+          "quote": "## Ergebnis\n\nDie drei Diagramme arbeiten am sparsamsten als **drei lokale\nNachschlageinstrumente mit getrennten Namensräumen**:\n\n```text\nf67r2  SELECT(P7, Z12, C8) -> lokaler Tabellenwert\nf68r1  LOCATE(CENTER, ANCHOR, plotted_position) -> räumlicher S28-Schlüssel\nf69v   READ(ordered_position, exact_complete_entry) -> lokale technische Regel\n```\n\nDiese Notation ist ausführbar, ohne einem sichtbaren Wort „Planet“, „Körper“,\n„Mondstation“, „Bad“ oder „Monat“ zuzuschreiben. Diagrammrolle, Slotadresse und\nInhalt bleiben getrennt. Die drei vollständigen Regeln stehen in\n`V55_R3_THREE_DIAGRAM_TECHNICAL_SUMMARIES.tsv`.\n\n## Abdeckungsnachweis\n\nV16/V22 liefern bereits eine vollständige 395-Gruppen-Ausgabe. V55 druckt\ndiese Gruppen nicht redundant neu, sondern ordnet jede durch eine erschöpfende\nAdressregel einem lokalen Default zu.\n\n| Seite | Gruppen | erschöpfende Partition |\n|---|---:|---|\n| f67r2 | 190 | Z12-Köpfe 12 + Erweiterungen 16 + P7-Gruppen 9 + Z12-Werte 17 + C8-Gruppen 10 + Rubrik 126 |\n| f68r1 | 65 | Rubrik 28 + Anker 3 + Zentrum 1 + räumliches S28-Inventar 28 + Zentrallegende 5 |\n| f69v | 140 | drei Rubrikbänder 107 + 28 Radialeinträge mit 33 Gruppen |\n| **Gesamt** | **395** | **jede primäre ZL3b-Gruppe genau einer Rolle zugeordnet** |\n\nDie 28 f69-Einträge bestehen aus 23 einteiligen und fünf zweiteiligen\nEinträgen. Ein mehrteiliger Eintrag erhält erst als vollständige sichtbare\nFolge seinen Regelwert; seine Einzelgruppen bleiben adressierte Fragmente.",
+          "sha256": "10d11352bec2f4116b5e8027c38352e6e9a7ca86855ddce11cf4ecf5fb9cb32c"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v55/V55_R3_TECHNICAL_CIRCLE_REPORT.md",
+          "line": 80,
+          "line_end": 125,
+          "quote": "\n### f69v: geordneter 28er-Regelkatalog\n\nDie drei äußeren Bänder bleiben Bedienrubrik. Loci 4–31 sind 28 geordnete\nSlots. Der Slot liefert die Adresse; der vollständige ein- oder zweiteilige\nEintrag liefert eine registerlokale `RULE_ID`.\n\n```text\ni := choose_ordered_slot(1..28)\nentry := concatenate(all visible groups at slot i)\nrule := exact_entry_lookup(entry)\nexecute(rule)\n```\n\nDie im TSV ausgeschriebene technische Palette ist eine konkrete\nWerkstatt-Defaultwelt aus Freigeben, Sperren, Spülen, Zuführen, Ablassen,\nTemperieren, Filtern und Halten. Diese Handlungen sind lokale Expansionen des\nganzen Slots, keine Wörterbuchwerte der Einzelgruppen.\n\nDer vollständige Eintrag `okeod` steht an den Arbeitsplätzen 11, 15 und 24 und\nerhält dreimal denselben Default „Beckenlauf freigeben“. Damit bleibt V22s\nIdentitätskorrektur erhalten: LONG/LONG/SHORT kann nicht „günstig/günstig/\nungünstig“ oder irgendeine feste Polarität bedeuten. LONG/SHORT ist nur\nLayoutkapazität.\n\n## Direkter f68↔f69-Test\n\nEine indexweise Verbindung ist mechanisch formulierbar, aber nicht lizenziert:\n\n- beide Inventare besitzen 28 Slots;\n- f68 besitzt 28 einteilige räumliche Labels, f69 33 Gruppen in 28 Regeln;\n- unter den 28 möglichen Gleichindexpaaren gibt es **0 exakte\n  Vollflächenübereinstimmungen**;\n- auch über alle 28×28 Kombinationen gibt es **0 exakte\n  Vollflächenübereinstimmungen**;\n- f68 besitzt keinen festgestellten Autorenstart und keine festgestellte\n  Richtung.\n\nDeshalb gilt:\n\n```text\nJOIN(F68.SPATIAL[s], F69.ORDERED[s]) = UNLICENSED\n```\n\nEin erlernter konventioneller Index könnte beide Instrumente verbinden. Bis\nein sichtbarer oder externer Schlüssel vorliegt, werden sie als zwei getrennte",
+          "sha256": "10d11352bec2f4116b5e8027c38352e6e9a7ca86855ddce11cf4ecf5fb9cb32c"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v55/V55_R3_TECHNICAL_CIRCLE_REPORT.md",
+          "line": 128,
+          "line_end": 159,
+          "quote": "## Fairer Modellvergleich\n\n| Modell | Gewinn | stärkster Verlust |\n|---|---|---|\n| Kalender | erklärt 7/12/28 als gewöhnliche astronomische Kardinalitäten | identifiziert weder Datum noch Phase, Start oder Richtung |\n| medizinische Wahltafel | verbindet 7×12 und 28 historisch plausibel mit Wahlzeit und Körper-/Behandlungsregeln | keine Gruppe bezeichnet unabhängig Körperteil, Leiden oder Behandlung |\n| Stationskatalog | liefert die klarste ausführbare Adress-/Lookup-Notation und respektiert lokale Namensräume | Stations- und Bedieninhalt bleibt kreativ ergänzt |\n| Musterbuch | erklärt Kopierform, Mehrgruppenlabels, Ringe und Wiederholung mit minimaler Semantik | erklärt nicht, warum oder wie ein Benutzer eine Auswahl ausführt |\n\nDer **Stations-/Lookup-Katalog** gewinnt für R3. Die medizinische Wahltafel ist\nder stärkste Inhaltsrivale; das Musterbuch ist der stärkste konservative Null.\nEin Kalender bleibt als Quellenfamilie möglich, aber nicht als gelesene Skala.\n\n## Revision gegenüber der bisherigen Kreisfassung\n\n- Die V16/V22-Vollabdeckung und alle sichtbaren Reihenfolgen bleiben erhalten.\n- Medizinische oder kalendarische Wörter werden aus den Einzelgruppen\n  entfernt und nur noch als konkurrierende ganze Diagrammwelten geführt.\n- f67 trennt sieben Schlüsselplätze, zwölf Auswahlplätze, zwölf Werte und acht\n  Zentralbedingungen, statt benachbarte Inventare still zusammenzuwerfen.\n- f68 behält Zentrum plus 28 räumliche Labels ohne erfundenen Zyklusstart.\n- f69 bindet Regeln an vollständige Eintragsidentität; Positionsparität erhält\n  keinen Inhalt.\n- Die f68↔f69-Paarung wird nicht aus gleicher Kardinalität erzwungen.\n\n## Stärkster Gesamtwiderspruch\n\nEine Slotmaschine kann jede opake Gruppe als Adress- oder Regelfragment führen,\nohne ihren Inhalt zu kennen. Vollständigkeit beweist deshalb gerade keine\nSemantik. V55 liefert eine saubere, lernbare technische Benutzungsweise für\n395/395 Gruppen; Kalender, medizinische Wahltafel, Stationskatalog und\nMusterbuch bleiben mit denselben Oberflächen weitgehend unterbestimmt.",
+          "sha256": "10d11352bec2f4116b5e8027c38352e6e9a7ca86855ddce11cf4ecf5fb9cb32c"
+        }
+      ],
+      "reopening": {
+        "status": "REVIEW_REQUIRED_NOT_TEST_READY",
+        "assessed_by": "curation_review",
+        "criteria_origin": "Original fixed gates plus source-bound reviewer distinction between source correction and a genuinely new question.",
+        "all_of": [
+          "For a cross-inventory claim supply an independent authorial/external coordinate or key and a fixed test; do not infer it from the shared count.",
+          "For actual station/rule meaning supply a separately grounded content contrast that distinguishes the declared catalogue from its explicit rivals. A licensed index alone does not translate a rule."
+        ],
+        "not_sufficient": [
+          "Full surface coverage or an executable lookup procedure treated as decipherment.",
+          "Joining equal slot numbers without a shared authorial index.",
+          "Arbitrary but consistent operation defaults, or a negative exact-spelling match used to exclude all conventional links."
+        ]
+      },
+      "automatic_card_status_propagation": false,
+      "empirical_meaning_refutation": false
+    }
+  ]
+}

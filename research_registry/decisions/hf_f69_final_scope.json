@@ -1,0 +1,59 @@
+{
+  "scope": "F69M001 final target, independent validator, and current family boundary audit",
+  "decision": "SPECIFIC_FIXED_ROSTER_NONCONFIRMATION; DO_NOT_AUTOMATICALLY_REOPEN",
+  "evidence": [
+    {
+      "id": "target_primary",
+      "path": "experiments/semantic_assumptions/results/f69m001_target.json",
+      "sha256": "a1bb02accf5e8463c76dd685a613d283aea8514b3da79fd7f158295701c0da69",
+      "exact_objects": {
+        "decision": "NONCONFIRM_FIXED_LATIN_MANSION_PREFIX_TOPOLOGY",
+        "S": 0.2691806789416425,
+        "best_direction": "REVERSE",
+        "best_rotation": 7,
+        "best_depth_phi": [0.5239379649071602, 0.27535722769694676, 0.008246844220820409],
+        "alignment_margin": 0.010020219693809507,
+        "p_global": 0.018064201147320883,
+        "p_initial_conditioned": 0.029537409984132797,
+        "min_deletion": 0.2367670032126734,
+        "passes": false,
+        "failed_gates": ["alignment_margin_at_least_003", "depth2_and_depth3_at_least_025", "global_p_at_most_001"]
+      },
+      "interpretation": "The fixed roster resembles only a shallow prefix; depth three collapses and the global alignment gate fails. This is a model-specific nonconfirmation, not a rejection of calendars generally."
+    },
+    {
+      "id": "independent_validator",
+      "path": "experiments/semantic_assumptions/results/f69m001_target_validation.json",
+      "sha256": "9008159b5b92878acc8c8b94bd1cc8e87d0277a98326e46533b2286b808b5c89",
+      "exact_objects": {
+        "status": "PASS_PRODUCTION_FREE_TARGET_RECONSTRUCTION",
+        "checks": 16502,
+        "final_decision": "NONCONFIRM_FIXED_LATIN_MANSION_PREFIX_TOPOLOGY",
+        "S": 0.2691806789416425,
+        "p_global": 0.018064201147320883,
+        "p_initial_conditioned": 0.029537409984132797,
+        "scientific_gates": {"alignment_margin_at_least_003": false, "depth2_and_depth3_at_least_025": false, "global_p_at_most_001": false}
+      },
+      "exact_quote": {"path": "experiments/semantic_assumptions/results/f69m001_target_validation.md", "sha256": "1eea25baf92d33934c3737b305217e64fa1cf7430c06f062ec275bced2c6f8b1", "text": "The frozen clean-room implementation passes 16502 checks and reconstructs all 28 ordered prefix sequences, 56 alignments, both 8,192-assignment nulls, deletions, gates, report, and final decision NONCONFIRM_FIXED_LATIN_MANSION_PREFIX_TOPOLOGY."}
+    },
+    {
+      "id": "independent_controls",
+      "path": "experiments/semantic_assumptions/results/f69m001_controls_validation.md",
+      "sha256": "a3fa6cb1e2272e6ceb8d7b1b2f7aa7e00436a2b8acd84aac60dc35a4d70f3499",
+      "exact_quote": "A nonimporting implementation passes 80 checks and reconstructs the ordered capacity, all 40 worlds, both 8,192-permutation nulls, deletions, gates, and bindings. No f69v target prefix was accessed.",
+      "meaning": "Controls validate reconstruction and target isolation; they do not rescue the fixed-roster target gates."
+    },
+    {
+      "id": "family_boundary",
+      "path": "research_registry/decisions/semantic_family_review.json",
+      "sha256": "a505303446731402575f3fa30b3c029b01211dfabd34ad9a1e58fb35d2f93995",
+      "exact_objects": {
+        "record_id": "FAMILY:NUMBER_CALENDAR_AND_COUNTING",
+        "decision": "retain_specific_stop_no_current_reopening",
+        "reconsider_condition_verbatim": "independent repeated arithmetic equality or a different explicit authorial coordinate and independently licensed roster; not another mansion spelling roster rotation depth threshold or inference from cardinality"
+      },
+      "limitation": "The family condition is a scoped registry boundary backed by the cited legacy family record; it is not evidence that an alternative coordinate or licensed roster exists."
+    }
+  ],
+  "conclusion": "The exact fixed Latin roster/topology fails alignment margin, deeper-topology, and global-p gates after independent reconstruction. A different explicit authorial coordinate plus independently licensed roster, or an independent repeated arithmetic equality, would be a new binding condition requiring fresh design review; it is not an automatic rerun trigger. No mansion identity, number, name, sound, word, meaning, plaintext, or translation follows."
+}
