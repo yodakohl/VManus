@@ -1,0 +1,29 @@
+{
+  "review_id": "HD_P_PROOF_CORRECTION",
+  "supersedes": "research_registry/decisions/hd_p_lineage_review.json",
+  "corrections": [
+    {
+      "path": "experiments/yolo/sidequest_semantic_p_recipient_eight_hundred_fourth/EIGHT_HUNDRED_FOURTH_REPORT.md",
+      "sha256": "7dadbfed39d62e025ed780e9b2076147e9a1d18cc136505b4dd1e81a9a47e1ef",
+      "exact_spans": [
+        {"lines": "3-4", "quote": "`P = FÜLLEN` was usable but vague. The three occurrences all place material\ninto an owner-local receiver:"},
+        {"lines": "10-14", "quote": "Four readings were compared. `HINEIN` lacks a verb in the first card;\n`EMPFAENGER` produces noun piles; plain `FUELLEN` omits the shared inward\ndirection. The compact portable value is:\n\n> `P = EINFÜLLEN`"},
+        {"lines": "22-25", "quote": "The recipient itself is not encoded as a universal word. It comes from the\nlocal picture owner: a vessel, basin station, or the next container implied by\nthe preparation sequence. `P` supplies the directed action, while `CHD`, `AL`,\n`Y`, and `DY` keep their existing values."}
+      ]
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_p_bring_in_eight_hundred_twenty_second/EIGHT_HUNDRED_TWENTY_SECOND_REPORT.md",
+      "sha256": "4b700bae342debfdff227841c9b3ea12a5c93c66b2ea6e69de597d9b0e8af076",
+      "exact_spans": [
+        {"lines": "3-12", "quote": "P occurs in only three exact cards, but the contexts are unusually helpful:\n\n- f11r has a plant-owned work sequence without a visible vessel;\n- f82r addresses the small stations at the lower basin;\n- f83r addresses a lower figure in a basket-like vessel.\n\nEINFUELLEN fits the two Biological receivers but is too vessel-specific for the\nHerbal occurrence. The invariant core is:\n\n> `P = EINBRINGEN`"},
+        {"lines": "14-15", "quote": "The direction remains inward, while the receiver may be a vessel, work site,\nfilter, or application locus supplied by the local owner."}
+      ]
+    }
+  ],
+  "provenance_correction": {
+    "status": "P804/P822 are the only provenance-bearing primary report spans used here.",
+    "PASS984": "Later comparison/background only; no chronology or provenance claim is made that it predates P804/P822.",
+    "TSV_type": "The already inspected TSVs are authored dictionary/renderer tables with page/card metadata, not mixed raw page-selector sources; no new TSV rows were read for this correction."
+  },
+  "finding": "P804 compares inherited owner-local renderings and selects EINFÜLLEN; P822 revises that to EINBRINGEN because the f11r context lacks a visible vessel. The reports do not independently identify the receiver or provide an external falsifier."
+}

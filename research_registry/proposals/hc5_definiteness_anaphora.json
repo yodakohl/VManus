@@ -1,0 +1,15 @@
+{
+  "title": "Prior mention switches a whole from definite to anaphoric use",
+  "summary": "Test whether a candidate whole behaves like a definite first mention but an anaphoric reuse after the same owner/item has already been introduced, rather than having one fixed article-like function.",
+  "scope": "semantic",
+  "design": {
+    "mechanism": "Reference status depends on discourse introduction versus prior mention.",
+    "unit": "candidate whole occurrence with prior-owner history",
+    "contrast": "first-owner mention versus later same-owner mention, matched by record position and section",
+    "prediction": "At least 70% of later mentions preserve the prior owner without a new introduction cue, while first mentions show the cue at least 20 points more often.",
+    "scope": "cached record-local fields; feasibility unknown until owner/reference annotations are independently bound",
+    "countermodel": "The whole has a fixed lexical or structural role; prior mention does not change owner-cue behavior.",
+    "binding": "independent owner/reference annotations across five physical folios",
+    "related": "GDT573 and GDT596 anaphoric routes; changed target is quantitative prior-mention conditioning"
+  }
+}

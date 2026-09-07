@@ -1,0 +1,57 @@
+{
+  "semantic_id": "SEM:301221b25024ec96ad5f",
+  "claim": "free l = Pfund/Gewichtseinheit outside visibly joined forms",
+  "disposition": "unconfirmed_working_card; no direct semantic refutation found",
+  "strongest_direct_counterreason": "The candidate has only one explicitly described front example, while the surrounding audit finds many occurrences that are visibly joined or bound. This weakens portability and leaves the weight reading underdetermined, but it does not show that an actually free l cannot be a weight siglum.",
+  "evidence": [
+    {
+      "path": "experiments/yolo/gdt663_one_hundred_two_residual_family_completion/REPORT.md",
+      "sha256": "6d71b5873a2138f7f3385fdd8abbab1fd177fdd498bb90beff15bf1109769ec6",
+      "lines": "66-81",
+      "quotes": [
+        "Nur 38 Stellen sind in den drei Leserfassungen als freies `l` exakt stabil.",
+        "Außerhalb einer sichtbaren Zusammenschreibung liest V40 freies `l` vorläufig als `Pfund/Gewichtseinheit`; im einzigen Frontbeispiel `f80v.12` ergibt das zeilenfinal tatsächlich „ein Pfund“.",
+        "Der Holzdrogenwert bleibt der stärkste Rivale.",
+        "Das ist nur ein Vergleich, keine Glyphidentifikation"
+      ]
+    },
+    {
+      "path": "experiments/yolo/gdt663_one_hundred_two_residual_family_completion/METHOD.md",
+      "sha256": "0266bc8d9732c7725b1d8cd6cdc7fb85483b54d6e80a0d0f5597c2ac6f16eaf9",
+      "lines": "31-55",
+      "quotes": [
+        "Outside such joins, free `l` receives the learned weight-siglum default `Pfund`; bound `l-` remains the inherited Holzdrogenkopf.",
+        "Pass when all 1,105 target positions and all 105 frontier rows are concrete",
+        "The result is an aggressive working translation, not established plaintext."
+      ]
+    },
+    {
+      "path": "experiments/yolo/gdt683_ol_semantic_debt_reconciliation/REPORT.md",
+      "sha256": "09b1289942202bc1d43ac0b35e20e2cdf7d57c515fb6454906b081b9ad8febe3",
+      "lines": "125-138",
+      "quotes": [
+        "auf f111v.18 trägt ein freies `l` noch denselben alten Materialträgertext",
+        "`Grundansatz` ist eine konkrete, ersetzbare Arbeitskarte ... kein bestätigtes deutsches Wort."
+      ]
+    },
+    {
+      "path": "experiments/yolo/gdt684_v57_complete_semantic_debt_census/REPORT.md",
+      "sha256": "036ce8a40cad923e61ff2b42cb6260a590553c45e3f309b75061c94832f5efbb",
+      "lines": "132-133",
+      "quotes": [
+        "Das freie `l` auf f111v.18 ist dagegen keine der 479 V57-Positionen. Es bleibt als genau ein outside-V57-Begleitposten separat erhalten."
+      ]
+    },
+    {
+      "path": "experiments/yolo/gdt721_v94_four_head_construction_scope_and_b003_restore/REPORT.md",
+      "sha256": "e4437208a25b40fffe553178661b15a4ba3cab657bdb5088e4fce1d87dae138d",
+      "lines": "49-62",
+      "quotes": [
+        "An dieser Stelle verschmelzen die Alternativleser `l|karchees`; der Gesamtspan wird einmal als „vollständig getrocknete Charge aus Anteil I der erhitzten Holzdroge“ ausgegeben.",
+        "Ein zusätzliches „Wurzel“ wäre Doppelrendering."
+      ]
+    }
+  ],
+  "logic": "GDT663's PASS is a complete rendering-assignment and byte-stability result under a preregistered policy. It does not test mass semantics, and the one f80v.12 example is a model rendering, not an independently identified unit. GDT721's l|karchees case is a direct boundary correction: that occurrence is not free l, so it narrows the free-l set rather than falsifying Pfund. GDT683's f111v.18 and GDT684's outside-V57 entry preserve the old material rendering as a neighboring card; neither is a new weight counterexample or a semantic successor. The strongest conclusion is competition between two unconfirmed working cards, not refutation of free l=Pfund.",
+  "decision": "Retain free l=Pfund as an explicitly provisional renderer default with Holzdroge as rival. Do not call the GDT663 assignment success a weight test, and do not treat l|karchees or the f111v.18 companion entry as direct semantic disproof."
+}

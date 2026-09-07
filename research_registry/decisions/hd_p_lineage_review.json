@@ -1,0 +1,65 @@
+{
+  "review_id": "HD_P_LINEAGE",
+  "target_semid": "SEM:9c7ce50b643faf3e8bbe",
+  "assessment_check": {
+    "command": "./vmanus-work priorities --show SEM:9c7ce50b643faf3e8bbe --field assessments",
+    "result": "items=[]"
+  },
+  "primary_lineage": [
+    {
+      "stage": "P804",
+      "path": "experiments/yolo/sidequest_semantic_p_recipient_eight_hundred_fourth/EIGHT_HUNDRED_FOURTH_REPORT.md",
+      "lines": "3-25",
+      "sha256": "7dadbfed39d62e025ed780e9b2076147e9a1d18ec136505b4dd1e81a9a47e1ef",
+      "quote": "`P = FÜLLEN` was usable but vague. The three occurrences all place material"
+    },
+    {
+      "stage": "P804 decision",
+      "path": "experiments/yolo/sidequest_semantic_p_recipient_eight_hundred_fourth/EIGHT_HUNDRED_FOURTH_REPORT.md",
+      "lines": "15-25",
+      "sha256": "7dadbfed39d62e025ed780e9b2076147e9a1d18ec136505b4dd1e81a9a47e1ef",
+      "quote": "> `P = EINFÜLLEN`"
+    },
+    {
+      "stage": "P822 successor",
+      "path": "experiments/yolo/sidequest_semantic_p_bring_in_eight_hundred_twenty_second/EIGHT_HUNDRED_TWENTY_SECOND_REPORT.md",
+      "lines": "3-24",
+      "sha256": "4b700bae342debfdff227841c9b3ea12a5c93c66b2ea6e69de597d9b0e8af076",
+      "quote": "> `P = EINBRINGEN`"
+    }
+  ],
+  "nearest_prior_role_assignments": [
+    {
+      "path": "experiments/yolo/sidequest_semantic_53_root_plain_dictionary_nine_hundred_eighty_fourth/PASS984_53_PORTABLE_ROOT_DICTIONARY.tsv",
+      "line": 24,
+      "sha256": "7dce014b34424aa8ed5886ada1b67c9dd7049e6a176a93b970075623ce6d0300",
+      "quote": "R-P\tP\tEINSETZEN\tden Pflanzenteil einbringen\tin Becken oder Anschluss einsetzen\tin Ring/Tabelle eintragen",
+      "scope": "prior dictionary assumption; not independent receiver evidence"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_action_grade_doctrine_six_hundred_eleventh/SIX_HUNDRED_ELEVENTH_173_GRADE_AWARE_DICTIONARY.tsv",
+      "lines": "31,126,135",
+      "sha256": "59f1dcfa36337ad5d20e76df16d44e494e3ae131b862b9755fa105781e036192",
+      "quote": "cphy\tP+Y\tP+Y\tHINEIN·DIES; pchedy\tP+CHD+DY\tP+CHD+DY\tHINEIN·UMSETZEN·SCHLUSS; pchedal\tP+CHD+AL\tP+CHD+AL\tHINEIN·UMSETZEN·ZIEL",
+      "scope": "prior rendering of the same three cards; not independent semantic confirmation"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_53_root_plain_dictionary_nine_hundred_eighty_fourth/PASS984_53_PORTABLE_ROOT_DICTIONARY.tsv",
+      "lines": "18,41",
+      "sha256": "7dce014b34424aa8ed5886ada1b67c9dd7049e6a176a93b970075623ce6d0300",
+      "quote": "R-CHD\tCHD\tUMSETZEN\tin ein anderes Gefäß versetzen; R-CPH\tCPH\tUMLEITEN\tin einen anderen Empfänger leiten",
+      "scope": "recipient/transfer roles already supplied by prior codebook assumptions"
+    }
+  ],
+  "adjudication": {
+    "owner_local_recipient_roles_already_assigned": true,
+    "empirically_discriminated": false,
+    "actual_compared_claim": "P is an inward-directed action over exactly three cards; the local owner supplies the receiver, while P supplies direction/action.",
+    "result": "P804 is an internal four-reading comparison built on owner-local picture/context assumptions. P822 changes EINFÜLLEN to EINBRINGEN because f11r lacks a visible vessel and preserves an inward invariant across the three cards. This is a model/readability correction, not an independently adjudicated falsifier result.",
+    "alternative_readings": ["FÜLLEN", "EINFÜLLEN", "EINSETZEN", "HINEIN", "EMPFAENGER"],
+    "smallest_remaining_unknown": "An independent source-bound receiver or operation for f11r, plus a contrasting K/L construction, is missing.",
+    "new_data_that_could_change_decision": "Independent authorial/source evidence identifying the receiver or operation type across the three cards, without inheriting the owner-local gloss.",
+    "invalid_test": "Fluent paraphrase, picture-owner inference, substitution coverage, or additional counts cannot independently distinguish EINBRINGEN from EINFÜLLEN/EINSETZEN."
+  },
+  "disposition": "historical source review only; no new meaning credit; target remains unconfirmed"
+}

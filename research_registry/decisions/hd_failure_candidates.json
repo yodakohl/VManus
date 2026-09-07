@@ -1,0 +1,50 @@
+{
+  "review_id": "HD_FAILURE_CANDIDATES",
+  "status": "TWO_UNASSESSED_HISTORICAL_CLAIMS_WITH_SUCCESSOR_RESTRICTIONS",
+  "method": "Direct priorities --show assessments were empty for both exact semantic IDs. Route-check/lookup were used for successor trails; no new experiment or registry mutation was performed.",
+  "candidates": [
+    {
+      "sem_id": "SEM:82cea98d87d0ccd66a78",
+      "claim": "SHED = STEHENLASSEN (leave standing), rather than older ABSETZEN or pure result ABGESETZT.",
+      "assessment_query": "./vmanus-work priorities --show SEM:82cea98d87d0ccd66a78 --field assessments -> items=[]",
+      "primary_claim_source": {
+        "path": "experiments/yolo/sidequest_semantic_shed_state_eight_hundred_third/EIGHT_HUNDRED_THIRD_REPORT.md",
+        "lines": "3-29",
+        "sha256": "57516ececee553c2ad5fe8380984eed49b61d3fc08b04c510ed11ebb39ed7e0e",
+        "quote": "The old ABSETZEN reading assumed sediment separation wherever the form occurred; the portable reading across all fifteen events is SHED = STEHENLASSEN, with SHED+DY (12), R+SHED+DY (1), and SHED+AL (2)."
+      },
+      "successor_decision": {
+        "path": "experiments/yolo/sidequest_semantic_hold_wait_eight_hundred_twenty_third/EIGHT_HUNDRED_TWENTY_THIRD_REPORT.md",
+        "lines": "3-21",
+        "sha256": "daa557ac6e5a045348db6d0709ac5de84ad9615fe49c59523dd9d7a2dcd20fa3",
+        "quote": "Complete contexts retain SH = HALTEN and SHED = STEHENLASSEN; SHED closes 13/15, while two SHED+AL cases leave the item at a target. ABSETZEN would invent sediment separation everywhere; RUHEN loses the transitive instruction.",
+        "decision_scope": "Restricts the portable core to an imperative released/standing state; local settling, resting, soaking or waiting remain context expansions, not universal meanings."
+      },
+      "alternatives": ["ABSETZEN (local liquid expansion)", "ABGESETZT (pure result)", "RUHEN", "ABSTELLEN", "HALTEN"],
+      "new_data_that_could_change_decision": "An independently source-owned state or endpoint distinction showing that the same SHED construction requires sediment separation, passive rest, or active holding, especially in the two nonterminal SHED+AL cases.",
+      "invalid_test": "More endpoint counts, repeating the same 15-context paraphrase, or assuming liquid sediment from the local picture would not discriminate the alternatives."
+    },
+    {
+      "sem_id": "SEM:9c7ce50b643faf3e8bbe",
+      "claim": "P = EINFÜLLEN, a directed filling action in three owner-local receiving constructions.",
+      "assessment_query": "./vmanus-work priorities --show SEM:9c7ce50b643faf3e8bbe --field assessments -> items=[]",
+      "primary_claim_source": {
+        "path": "experiments/yolo/sidequest_semantic_p_recipient_eight_hundred_fourth/EIGHT_HUNDRED_FOURTH_REPORT.md",
+        "lines": "3-25",
+        "sha256": "7dadbfed39d62e025ed780e9b2076147e9a1d18ec136505b4dd1e81a9a47e1ef",
+        "quote": "The three occurrences place material into owner-local receivers; HINEIN lacks a verb, EMPFAENGER produces noun piles, and plain FUELLEN omits the shared inward direction; compact value P = EINFÜLLEN."
+      },
+      "successor_decision": {
+        "path": "experiments/yolo/sidequest_semantic_p_bring_in_eight_hundred_twenty_second/EIGHT_HUNDRED_TWENTY_SECOND_REPORT.md",
+        "lines": "3-24",
+        "sha256": "4b700bae342debfdff227841c9b3ea12a5c93c66b2ea6e69de597d9b0e8af076",
+        "quote": "EINFÜLLEN fits the two Biological receivers but is too vessel-specific for the Herbal occurrence; invariant core P = EINBRINGEN, inward direction with receiver supplied by local owner, across 3 events.",
+        "decision_scope": "Narrows the claim from vessel-specific filling to inward bringing into a receiver, work site, filter or application locus; K=ZUGEBEN and L=LEITEN remain separate."
+      },
+      "alternatives": ["EINFÜLLEN (vessel-specific)", "FÜLLEN (vague free verb)", "EMPFAENGER (recipient marker)", "HINEIN (inward adverb/particle)"],
+      "new_data_that_could_change_decision": "Independent evidence identifying the operation and receiver role in the f11r Herbal occurrence, plus a source-owned contrast separating P from K and L without relying on the owner picture to supply the conclusion.",
+      "invalid_test": "Three fluent owner-local paraphrases, receiver pictures, or substitution coverage cannot establish a lexical translation; the three occurrences are a bounded construction, not global proof."
+    }
+  ],
+  "limits": "These are historical source claims and successor restrictions, not confirmed meanings. No broad lexical refutation is inferred."
+}

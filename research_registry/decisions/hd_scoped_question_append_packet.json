@@ -1,0 +1,266 @@
+{
+  "review_id": "HD_SCOPED_QUESTION_APPEND_PACKET",
+  "decisions": [
+    {
+      "id": "FAILURE_HD:FREE_L_POUND_COMPLETION_SCOPE:v1",
+      "decision_key": "FAILURE_HD:FREE_L_POUND_COMPLETION_SCOPE",
+      "revision": 1,
+      "previous_revision": null,
+      "status": "reviewed_scoped_context",
+      "review_status": "reviewed_scoped_context",
+      "reviewer": "root exact primary contract audit with independent Luna scope review",
+      "targets": [
+        "SEM:301221b25024ec96ad5f"
+      ],
+      "card_basis": {
+        "SEM:301221b25024ec96ad5f": "fc98ce24a4d014b7f17231f882951a9c82aa0489604bf0f8d1d12ea49f171658"
+      },
+      "effective_basis": {
+        "SEM:301221b25024ec96ad5f": "5f2c3bf323f427ad90fc8f9065eeb7f42bc699859075a9fd420f66ffa09bb6ea"
+      },
+      "source_case_ids": {
+        "SEM:301221b25024ec96ad5f": [
+          "CLEAN_GAP_DT:free_l_pound"
+        ]
+      },
+      "original_assertion": {
+        "SEM:301221b25024ec96ad5f": "GDT663 provisionally reads standalone l outside a visible reader-supported joining as Pfund/Gewichtseinheit; in its sole frontier example f80v.12 the terminal reading is ein Pfund. The wood-drug value remains the strongest rival. The libra comparison is historical analogy, not identification of the manuscript glyph or a meaning for every l substring."
+      },
+      "claim": "Did GDT663 establish a pound/weight-unit meaning for standalone l, and does GDT721 revise that same claim?",
+      "scope": "GDT663 occurrence-sensitive free-l default outside reader-attested joins, including the authored f80v.12 frontier paraphrase; GDT721 active joined l|karchees is a different scope.",
+      "reason_class": "implementation_pass_missing_meaning_binding",
+      "actually_tested_falsifier": "GDT663 passes when all target/frontier positions receive concrete assignments, reader joins are attested, other projections remain unchanged and replay succeeds. Its rule contains no independent quantitative value, unit or weight discrimination.",
+      "outcome": "A completed rendering and a libra analogy do not identify a pound. The reported 38 reader-stable free l positions concern transcription, not semantic replication. GDT721 limits initial L and consumes one joined occurrence; it neither proves nor refutes the GDT663 unjoined weight default. The f111v.18 debt in GDT683/684 is outside the V57 panel, so no global l semantic succession follows.",
+      "claim_ceiling": "Source-contract assessment only. No new manuscript observation, confirmed lexeme, automatic rejection of lexical alternatives or change to source cards.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt663_one_hundred_two_residual_family_completion/REPORT.md",
+          "line": 66,
+          "line_end": 81,
+          "quote": "Ein blindes `l=Holzdroge` an allen 163 Stellen wäre falsch. Nur 38 Stellen sind\nin den drei Leserfassungen als freies `l` exakt stabil. Die beiden\nAlternativleser schreiben 105 weitere ZL3b-Grenzen sichtbar zusammen, darunter\n15-mal `o | l -> ol`, dreimal `qo | l -> qol` und zahlreiche `l | X -> lX`\nvor bereits bekannten Holzdrogenformen. V40 benutzt an diesen Stellen genau die\nbelegte Zusammenschreibung als occurrence-spezifische Karte und unterdrückt in\nder praktischen Satzfassung die doppelte Nachbarglosse.\n\nAußerhalb einer sichtbaren Zusammenschreibung liest V40 freies `l` vorläufig\nals `Pfund/Gewichtseinheit`; im einzigen Frontbeispiel `f80v.12` ergibt das\nzeilenfinal tatsächlich „ein Pfund“. Der Holzdrogenwert bleibt der stärkste\nRivale. Historisch ist ein gemischtes Register aus Wörtern und Maßsiglen\nplausibel: medizinische Rezepte verwenden *libra* als Pfund mit Kürzeln wie\n`lib`, `lb` oder einem Pfundzeichen. Das ist nur ein Vergleich, keine\nGlyphidentifikation ([Übersicht zu Gewichten und Siglen in medizinischen\nRezepten](https://www.ncbi.nlm.nih.gov/books/NBK608570/)).",
+          "sha256": "6d71b5873a2138f7f3385fdd8abbab1fd177fdd498bb90beff15bf1109769ec6"
+        },
+        {
+          "path": "experiments/yolo/gdt663_one_hundred_two_residual_family_completion/METHOD.md",
+          "line": 31,
+          "line_end": 55,
+          "quote": "   inherited structural meta-description.\n5. Treat free `l` separately from bound initial `l-`. For every `l` position,\n   search the two alternate readings for an actually attested adjacent join.\n   A visible `o|l -> ol`, `qo|l -> qol` or `l|X -> lX` receives an\n   occurrence-scoped merge card. Outside such joins, free `l` receives the\n   learned weight-siglum default `Pfund`; bound `l-` remains the inherited\n   Holzdrogenkopf.\n6. Rebuild all 4,128 lines, all complete passages, all one-hole passages and\n   the working dictionary. Verify that all non-target token projections are\n   byte-stable, then replay every generated result file in a temporary\n   directory.\n\n## Decision rule and claim ceiling\n\nPass when all 1,105 target positions and all 105 frontier rows are concrete;\nthe target counts agree with the guarded source; no generic work filler or\nstructural `ol` meta-gloss enters practical prose; every alternate-reader\n`l` merge is visibly attested; non-target token gloss/source/scope projections\nremain identical; and the independent validator plus byte replay pass.\n\nThe result is an aggressive working translation, not established plaintext.\n`alkal=Laugensalz`, `sol=Salz`, free `l=Pfund`, `ylg=Holzgefäß`, `sg=Rückstand`\nand `deeeese=ruhen lassen` are deliberately concrete low-confidence cards.\nThey may remain until a sibling form or future page makes them impossible or\na replacement explains more material. No language, phonetics, exact plant,",
+          "sha256": "0266bc8d9732c7725b1d8cd6cdc7fb85483b54d6e80a0d0f5597c2ac6f16eaf9"
+        },
+        {
+          "path": "experiments/yolo/gdt721_v94_four_head_construction_scope_and_b003_restore/REPORT.md",
+          "line": 49,
+          "line_end": 62,
+          "quote": "## Nacktes `l` und `r`\n\nDer produktive L-Kopf ist mit 1.224 Anfangsvorkommen in 344 Typen stark, aber\nGDT635 trennt 163 nackte `l` ausdrücklich davon. Deshalb bedeutet P435 nicht\nfrei und überall Holz. An dieser Stelle verschmelzen die Alternativleser\n`l|karchees`; der Gesamtspan wird einmal als „vollständig getrocknete Charge\naus Anteil I der erhitzten Holzdroge“ ausgegeben.\n\nFür R gilt dasselbe: 332 Anfangsvorkommen in 116 Typen stützen den\nWurzel-/Radix-Kopf, während 129 nackte `r` getrennt bleiben. P289 ist die rechte\nHälfte von `keo|r`; der ausführbare Gesamtwert lautet einmal „heiße Portion“.\nEin zusätzliches „Wurzel“ wäre Doppelrendering. Ebenso wird `r` nicht zu\n„Portion“ umdefiniert: Der Portionswert gehört dem gebundenen Ganzen, und im\nproduktiven Restmodell trägt OR die Portionsfunktion.",
+          "sha256": "e4437208a25b40fffe553178661b15a4ba3cab657bdb5088e4fce1d87dae138d"
+        },
+        {
+          "path": "experiments/yolo/gdt683_ol_semantic_debt_reconciliation/REPORT.md",
+          "line": 124,
+          "line_end": 129,
+          "quote": "\nGDT683 schließt nur die OL-Familie. Zwei unmittelbar sichtbare Fremdschulden\nbleiben absichtlich stehen: auf f111v.18 trägt ein freies `l` noch denselben\nalten Materialträgertext; auf f80v.35 ist `tol` weiterhin nur „Kaltes Gut“.\nGDT684 muss deshalb den gesamten V57-Reader nach solchen strukturellen oder\ngenerischen Tokenwerten durchsuchen und sie nach Häufigkeit, Aktionsnähe und",
+          "sha256": "09b1289942202bc1d43ac0b35e20e2cdf7d57c515fb6454906b081b9ad8febe3"
+        },
+        {
+          "path": "experiments/yolo/gdt684_v57_complete_semantic_debt_census/REPORT.md",
+          "line": 132,
+          "line_end": 133,
+          "quote": "Das freie `l` auf f111v.18 ist dagegen keine der 479 V57-Positionen. Es bleibt\nals genau ein outside-V57-Begleitposten separat erhalten.",
+          "sha256": "036ce8a40cad923e61ff2b42cb6260a590553c45e3f309b75061c94832f5efbb"
+        }
+      ],
+      "reopening": {
+        "status": "REVIEW_REQUIRED_NOT_TEST_READY",
+        "assessed_by": "curation_review",
+        "criteria_origin": "Prospective root synthesis, not a recovered historical preregistration.",
+        "all_of": [
+          "Freeze genuinely standalone inscription units with reading uncertainty separated from meaning.",
+          "Specify an independently constrained quantitative/unit contrast that would distinguish this exact pound interpretation from wood, another measure, or a nonmeasure; state how the observation changes that claim."
+        ],
+        "not_sufficient": [
+          "More complete German renderings, historical similarity of libra, or reader agreement alone.",
+          "A bound initial-l result silently exported to standalone l.",
+          "New pages without the relevant value/unit binding."
+        ]
+      },
+      "automatic_card_status_propagation": false,
+      "empirical_meaning_refutation": false,
+      "review_artifacts": [
+        {
+          "path": "research_registry/decisions/hd_free_l_peer.json",
+          "sha256": "bd93691fbb3ddb35edbfb30db56d2c975396a37e367a0b57fd42358e0f0387c5"
+        },
+        {
+          "path": "research_registry/decisions/hd_root_scoped_question_draft.json",
+          "sha256": "eef323d94444a62723427e6393d85ddd9f26a9cff89c1362b39352e189f33f88"
+        }
+      ],
+      "raw_review_limits": "Raw agent quotations/SHAs are navigation, not operative proof; root evidence spans were reconstructed from current primary bytes. P proof corrections are explicit. No new conservative core meaning or independence of the alternate transcriptions is adopted."
+    },
+    {
+      "id": "FAILURE_HD:SHED_STANDING_RENDERER_PREFERENCE:v1",
+      "decision_key": "FAILURE_HD:SHED_STANDING_RENDERER_PREFERENCE",
+      "revision": 1,
+      "previous_revision": null,
+      "status": "reviewed_scoped_context",
+      "review_status": "reviewed_scoped_context",
+      "reviewer": "root exact primary contract audit with independent Luna scope review",
+      "targets": [
+        "SEM:82cea98d87d0ccd66a78"
+      ],
+      "card_basis": {
+        "SEM:82cea98d87d0ccd66a78": "3857159830d89eb6bbe14d353409dd0c98e74cc7cb4035dd2c6ab1d7ad7d2a2b"
+      },
+      "effective_basis": {
+        "SEM:82cea98d87d0ccd66a78": "a5848a517b6bd6c8526ab79183d57937a9d261cf0caa3c2ebab26941feecca0a"
+      },
+      "source_case_ids": {
+        "SEM:82cea98d87d0ccd66a78": [
+          "CLEAN_COMPONENT:cd0383640c187b892c7f"
+        ]
+      },
+      "original_assertion": {
+        "SEM:82cea98d87d0ccd66a78": "SHED → STEHENLASSEN"
+      },
+      "claim": "Do Pass803 and Pass823 discriminate SHED=STEHENLASSEN from sediment settling, resting, putting aside or holding?",
+      "scope": "The authored workshop-component model of 15 SHED events, reported as 12 SHED+DY,1 R+SHED+DY,2 SHED+AL; not a raw-whole dictionary or independent authorial sentence segmentation.",
+      "reason_class": "model_revision_not_independent_semantic_test",
+      "actually_tested_falsifier": "The reports compare German readings under an inherited imperative workshop grammar, interpret DY as step closure and AL as a target, then prefer a transitive general action over a sediment-specific or result-only phrase. Pass823 retains the dictionary. No independent operational state/handling contrast is scored.",
+      "outcome": "Retain the historical preference as a source-model decision. Thirteen closure-associated uses and two AL cases do not independently identify unattended time, release, standing or sediment separation. German transitivity and avoiding an unlicensed mechanism can improve a renderer without testing meaning. A newly phrased broad core such as release is also unconfirmed.",
+      "claim_ceiling": "Source-contract assessment only. No new manuscript observation, confirmed lexeme, automatic rejection of lexical alternatives or change to source cards.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_shed_state_eight_hundred_third/EIGHT_HUNDRED_THIRD_REPORT.md",
+          "line": 3,
+          "line_end": 29,
+          "quote": "The old dictionary used `SHED = ABSETZEN`. That was too narrow: it silently\nassumed sediment separation wherever the form occurred. A pure result reading\n`ABGESETZT` is worse because the rest of the workshop grammar is imperative and\nthe two target-addressed forms become awkward.\n\nThe portable reading across all fifteen events is:\n\n> `SHED = STEHENLASSEN`\n\nIt gives three simple constructions:\n\n- `SHED + DY`: **stehen lassen; Schritt schließen** (12 events);\n- `R + SHED + DY`: **abkühlen und stehen lassen; schließen** (1 event);\n- `SHED + AL`: **an der Zielstelle stehen lassen** (2 events).\n\nThis fits a decoction, bath, vessel, application, or apparatus equally well.\nLocal context may still expand it to settling, resting, soaking, or waiting,\nbut none of those narrower nouns belongs in the core dictionary.\n\nThe revised reading also explains the endpoint-heavy distribution: thirteen\nof fifteen uses close a cell because “leave it standing” naturally ends a\nworkshop step. The two open `AL` uses keep the placed item available for the\nnext instruction.\n\n`SHED` therefore joins the productive core20. This is a semantic improvement,\nnot merely a promotion: the new value removes an invented material mechanism\nand gives one unchanged imperative across all fifteen affected statements.",
+          "sha256": "57516ececee553c2ad5fe8380984eed49b61d3fc08b04c510ed11ebb39ed7e0e"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_hold_wait_eight_hundred_twenty_third/EIGHT_HUNDRED_TWENTY_THIRD_REPORT.md",
+          "line": 3,
+          "line_end": 21,
+          "quote": "The complete contexts retain the existing distinction:\n\n> `SH = HALTEN`\n> `SHED = STEHENLASSEN`\n\nSH occurs 25 times and keeps the item under active control. SHED occurs 15\ntimes. Thirteen uses close the local step; two `SHED+AL` cards leave the item at\na target and continue working with it afterward.\n\nThat distribution is exactly what the workshop verbs predict. HALTEN keeps an\noperation live. STEHENLASSEN releases active handling and creates a pause or\nplaced intermediate state.\n\nABSETZEN is a plausible local expansion for liquid, but it would invent\nsediment separation everywhere. RUHEN loses the transitive instruction to the\nscribe/operator. ABSTELLEN is shorter but ambiguously means either put down or\nshut off. HALTEN would collapse the useful active/released contrast.\n\nNo dictionary value changes in this pass.",
+          "sha256": "daa557ac6e5a045348db6d0709ac5de84ad9615fe49c59523dd9d7a2dcd20fa3"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_p_bring_in_eight_hundred_twenty_second/EIGHT_HUNDRED_TWENTY_SECOND_REPORT.md",
+          "line": 26,
+          "line_end": 28,
+          "quote": "Next, pressure-test SH=HALTEN against SHED=STEHENLASSEN, especially the two\nnon-terminal SHED+AL cards. If SHED always implies unattended time, retain it;\notherwise seek a more concrete state operation.",
+          "sha256": "4b700bae342debfdff227841c9b3ea12a5c93c66b2ea6e69de597d9b0e8af076"
+        }
+      ],
+      "reopening": {
+        "status": "REVIEW_REQUIRED_NOT_TEST_READY",
+        "assessed_by": "curation_review",
+        "criteria_origin": "Prospective root synthesis, not a recovered historical preregistration.",
+        "all_of": [
+          "State exact component/whole and construction scope before transferring the claim.",
+          "Independently establish an operational state or active-versus-unattended contrast, with a predeclared contrary prediction separating the specified lexical models; inherited DY/AL meanings cannot serve as their own verification."
+        ],
+        "not_sufficient": [
+          "Rephrasing the same15 interpreted events or larger endpoint counts alone.",
+          "Treating German grammatical preference or a newly broad English/German paraphrase as manuscript evidence.",
+          "Assuming a depicted liquid establishes sediment separation."
+        ]
+      },
+      "automatic_card_status_propagation": false,
+      "empirical_meaning_refutation": false,
+      "review_artifacts": [
+        {
+          "path": "research_registry/decisions/hd_shed_lineage_review.json",
+          "sha256": "ebcdf78c169077c5ae7aba231c3608097b92d8b5c0b6131eb557a5142a098c81"
+        },
+        {
+          "path": "research_registry/decisions/hd_root_scoped_question_draft.json",
+          "sha256": "eef323d94444a62723427e6393d85ddd9f26a9cff89c1362b39352e189f33f88"
+        }
+      ],
+      "raw_review_limits": "Raw agent quotations/SHAs are navigation, not operative proof; root evidence spans were reconstructed from current primary bytes. P proof corrections are explicit. No new conservative core meaning or independence of the alternate transcriptions is adopted."
+    },
+    {
+      "id": "FAILURE_HD:P_FILL_BRING_IN_MODEL_REVISION:v1",
+      "decision_key": "FAILURE_HD:P_FILL_BRING_IN_MODEL_REVISION",
+      "revision": 1,
+      "previous_revision": null,
+      "status": "reviewed_scoped_context",
+      "review_status": "reviewed_scoped_context",
+      "reviewer": "root exact primary contract audit with independent Luna scope review",
+      "targets": [
+        "SEM:9c7ce50b643faf3e8bbe"
+      ],
+      "card_basis": {
+        "SEM:9c7ce50b643faf3e8bbe": "4ba6d44607fc949559a5f908e7d265df1252226ee60eb059eaeeb87b3634a00e"
+      },
+      "effective_basis": {
+        "SEM:9c7ce50b643faf3e8bbe": "7c9df4984bde428dd711004c3e4e75712f8b47126b55e8f69d50c6e4544605d3"
+      },
+      "source_case_ids": {
+        "SEM:9c7ce50b643faf3e8bbe": [
+          "CLEAN_GAP_AN:p_fill"
+        ]
+      },
+      "original_assertion": {
+        "SEM:9c7ce50b643faf3e8bbe": "Pass804 assigns the registered P component the directed action EINFÜLLEN across the three owner-local receiving constructions."
+      },
+      "claim": "Does Pass822 independently refute P=EINFÜLLEN or establish its replacement EINBRINGEN?",
+      "scope": "Pass804 three component cards cphy=P+Y, pchedy=P+CHD+DY and pchedal=P+CHD+AL; Pass822 same three picture/context-owned working constructions, not arbitrary p substrings.",
+      "reason_class": "model_revision_not_independent_semantic_test",
+      "actually_tested_falsifier": "Pass804 prefers a directed action over HINEIN/EMPFAENGER/FÜLLEN using existing workshop values and local picture owners. Pass822 notes f11r lacks a visible vessel and broadens the German default to EINBRINGEN while keeping the inward direction and the other components.",
+      "outcome": "This is a renderer/model revision, not a lexical counterexample. Absence of a visible vessel is not evidence that a written instruction cannot mention filling one; inward movement and recipient ownership are themselves assumed here. K/P/L counts21/3/27 describe the working decomposition and do not independently validate the three action meanings. The broad successor remains unconfirmed alongside the older source claim.",
+      "claim_ceiling": "Source-contract assessment only. No new manuscript observation, confirmed lexeme, automatic rejection of lexical alternatives or change to source cards.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_p_recipient_eight_hundred_fourth/EIGHT_HUNDRED_FOURTH_REPORT.md",
+          "line": 3,
+          "line_end": 25,
+          "quote": "`P = FÜLLEN` was usable but vague. The three occurrences all place material\ninto an owner-local receiver:\n\n- after squeezing the pictured plant preparation: `cphy = P+Y`;\n- at the small basin stations: `pchedy = P+CHD+DY`;\n- at the lower figure in the basket-like vessel: `pchedal = P+CHD+AL`.\n\nFour readings were compared. `HINEIN` lacks a verb in the first card;\n`EMPFAENGER` produces noun piles; plain `FUELLEN` omits the shared inward\ndirection. The compact portable value is:\n\n> `P = EINFÜLLEN`\n\nThe three cards then read:\n\n- `P+Y`: **dies einfüllen**;\n- `P+CHD+DY`: **einfüllen, umsetzen; Schluss**;\n- `P+CHD+AL`: **an der Zielstelle einfüllen und umsetzen**.\n\nThe recipient itself is not encoded as a universal word. It comes from the\nlocal picture owner: a vessel, basin station, or the next container implied by\nthe preparation sequence. `P` supplies the directed action, while `CHD`, `AL`,\n`Y`, and `DY` keep their existing values.",
+          "sha256": "7dadbfed39d62e025ed780e9b2076147e9a1d18cc136505b4dd1e81a9a47e1ef"
+        },
+        {
+          "path": "experiments/yolo/sidequest_semantic_p_bring_in_eight_hundred_twenty_second/EIGHT_HUNDRED_TWENTY_SECOND_REPORT.md",
+          "line": 3,
+          "line_end": 24,
+          "quote": "P occurs in only three exact cards, but the contexts are unusually helpful:\n\n- f11r has a plant-owned work sequence without a visible vessel;\n- f82r addresses the small stations at the lower basin;\n- f83r addresses a lower figure in a basket-like vessel.\n\nEINFUELLEN fits the two Biological receivers but is too vessel-specific for the\nHerbal occurrence. The invariant core is:\n\n> `P = EINBRINGEN`\n\nThe direction remains inward, while the receiver may be a vessel, work site,\nfilter, or application locus supplied by the local owner.\n\nThis preserves a clean three-way rule over all 51 component-event memberships:\n\n- K=ZUGEBEN: material joins the active mixture (21 events);\n- P=EINBRINGEN: material moves inward to a receiver/work site (3 events);\n- L=LEITEN: material travels along a path (27 events).\n\nThe f11r sentence now says “in den lokalen Empfänger einbringen”; the two basin\nsentences say “einbringen und umsetzen”. No K or L reading changes.",
+          "sha256": "4b700bae342debfdff227841c9b3ea12a5c93c66b2ea6e69de597d9b0e8af076"
+        }
+      ],
+      "reopening": {
+        "status": "REVIEW_REQUIRED_NOT_TEST_READY",
+        "assessed_by": "curation_review",
+        "criteria_origin": "Prospective root synthesis, not a recovered historical preregistration.",
+        "all_of": [
+          "Fix exact three source constructions and distinguish independently observed diagram facts from inferred text ownership and operation.",
+          "Supply an independent operation/recipient contrast plus the model-specific prediction that would change the filling-versus-bringing-in choice; do not require a new page if suitable existing evidence can be established."
+        ],
+        "not_sufficient": [
+          "A plant drawing without a vessel, fluent recipient wording or repetition of the three interpreted cards.",
+          "Transferring initial p=powder or later dictionary defaults across models without a source-unit bridge.",
+          "Treating unchanged K/L renderings or more same-role counts as independent meaning controls."
+        ]
+      },
+      "automatic_card_status_propagation": false,
+      "empirical_meaning_refutation": false,
+      "review_artifacts": [
+        {
+          "path": "research_registry/decisions/hd_p_lineage_review.json",
+          "sha256": "aaec9835c914a849c0d23624585203241496b617d9b4dd3b000be8dca4fd2fac"
+        },
+        {
+          "path": "research_registry/decisions/hd_p_proof_correction.json",
+          "sha256": "19ed42e46f4e4ec1149a8e77631c5cd9e49ccb8eec6415947f431f23295bf8af"
+        },
+        {
+          "path": "research_registry/decisions/hd_root_scoped_question_draft.json",
+          "sha256": "eef323d94444a62723427e6393d85ddd9f26a9cff89c1362b39352e189f33f88"
+        }
+      ],
+      "raw_review_limits": "Raw agent quotations/SHAs are navigation, not operative proof; root evidence spans were reconstructed from current primary bytes. P proof corrections are explicit. No new conservative core meaning or independence of the alternate transcriptions is adopted."
+    }
+  ],
+  "new_cards": 0,
+  "new_cases": 0,
+  "new_scoped_questions": 3,
+  "new_manuscript_results": 0
+}
