@@ -1,0 +1,33 @@
+{
+  "id": "IA_NAMESPACE_CONTRACT_CHALLENGE",
+  "scope": "Additive correction to IA namespace review; source/design only, no model test or registry mutation.",
+  "corrections": [
+    "Copied-master reuse and local namespace reset are explicitly conjoined by V75 R4; they are not rival models unless a new contract specifies whether reuse crosses namespace boundaries or is re-bound locally.",
+    "The builder’s copying_rule/reset string is an editorial implementation policy. It is not evidence that the manuscript scribe used visible reset markers, so no marker prediction may be assigned to the authored-policy label.",
+    "Independent bindings alone do not identify unspecified rivals. A new test would first need mutually exclusive, predeclared model commitments and observable consequences."
+  ],
+  "assessment": "The prior IA reopener was over-specified. V75 currently supports one composite working rule: copy opaque fragments from a local master exemplar and reset interpretation at visible namespace changes. A copied master can itself be namespace-indexed. The only legitimate future contrast is between explicit contracts such as (A) globally reusable fragment identity across namespaces, (B) namespace-local rebinding despite a shared master, or (C) a purely editorial segmentation rule with no manuscript-level namespace claim. C cannot predict visible reset markers merely because the builder emits a reset string. Until those commitments and an independently observable endpoint are fixed, no namespace model test is available and no falsifier should be declared.",
+  "evidence": [
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v75/V75_R4_CHANCERY_CELESTIAL_ATLAS_REPORT.md",
+      "line": 22,
+      "line_end": 33,
+      "quote": "## Konkrete Leseregel\n\nDer Lehrling setzt zuerst Paneel, Rad oder Sternplatz. Dann kopiert er die\nopaken Fragmente des lokalen Masterexemplars und liest sie als örtliche\nSektorbeziehung, Sternstationsnotiz, Wahl-/Meidungsnotiz oder Radlegende. Beim\nWechsel des sichtbaren Namensraums wird alles zurückgesetzt.\n\nDiese Bedeutung ist bewusst minimal und ausführbar: „an diesem Himmelsplatz\ndie zugehörige lokale Notiz nachschlagen“. Die engeren Wörter Planet,\nTierkreiszeichen, Mondhaus, Mondtag, Körperteil, günstige Handlung und\nmedizinische Wahl sind mögliche Exemplarfüllungen, aber keine entschlüsselten\nLabels.",
+      "sha256": "28f1c2845321c1eb96a94b4927cb5ff70b2397747b5d37048b0f1602506408a8"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v75/V75_R4_CHANCERY_CELESTIAL_ATLAS_REPORT.md",
+      "line": 51,
+      "line_end": 56,
+      "quote": "## Grenze\n\nEine vollständige formale Adresslesung ist möglich, eine externe Benennung\nnicht. Dieselben 395 Oberflächen könnten unter einem isomorphen Masterexemplar\nandere Himmelsnamen und Regeln tragen. Die Ausgabe fügt daher keine Karte,\nkeinen Stamm, Laut, Textsprache, Startpunkt, Rotation oder seitenübergreifende",
+      "sha256": "28f1c2845321c1eb96a94b4927cb5ff70b2397747b5d37048b0f1602506408a8"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v75/build_v75_r4_chancery_celestial_atlas.py",
+      "line": 119,
+      "line_end": 130,
+      "quote": "        instrument_rows.append({\n            \"diagram_id\": diagram_id,\n            \"page\": page,\n            \"locus_count\": len(rows),\n            \"group_count\": group_count,\n            \"local_namespace_count\": len({row[\"local_namespace_owner\"] for row in rows}),\n            \"complete_instrument_reading\": reading,\n            \"copying_rule\": \"Copy owner-local fragments from master exemplar; reset at panel or wheel boundary.\",\n            \"orientation_rule\": \"Do not select start, direction, or rotation.\",\n            \"cross_page_rule\": \"NO_F68_F69_MAPPING; NO_PROSE_CARD_IMPORT\",\n            \"strongest_rival\": \"Celestial iconographic or mnemonic diagram with no operational semantic content.\",\n            \"semantic_ceiling\": \"COMPLETE_LOCAL_CELESTIAL_WORKING_EDITION_NOT_DECIPHERMENT\",",
+      "sha256": "4a02ad29d724cd9df87216139c5b4a048138ab0b736735eb90df1087bfcc2526"
+    }
+  ]
+}

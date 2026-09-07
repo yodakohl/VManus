@@ -1,0 +1,64 @@
+{
+  "status": "bounded_source_question_peer_review",
+  "target": "SEM:18257114823fbef923b5",
+  "experiment_disambiguation": "Pass638 ten-page apprentice handbook; not GDT638 sequential compound promotion.",
+  "assessment": "The primary report demonstrates a deliberately teachable two-mode handbook architecture, not a historical discrimination of writing technology or genre. It explicitly keeps seven prose pages and three copied celestial pages separate, with opaque local labels and optional external condition/address use. That is a construction rule and a useful null-preserving scope, not evidence that the manuscript author used two technologies or genres.",
+  "evidence": [
+    {
+      "type": "primary_report",
+      "path": "experiments/yolo/sidequest_semantic_ten_page_apprentice_handbook_six_hundred_thirty_eighth/SIX_HUNDRED_THIRTY_EIGHTH_REPORT.md",
+      "line": 5,
+      "line_end": 13,
+      "quote": "The fixed ten pages now fit one learnable workshop handbook with two explicitly\ndifferent reading modes:\n\n1. seven Herbal/Biological prose pages use productive semantic components,\n   exact cards, and multiscribe rendering;\n2. three celestial pages use local picture addresses and copied whole labels.\n\nThe two modes are kept separate. No prose root is imported into Astro and no\nAstro label is used as a prose word.",
+      "sha256": "7a5f708d982f0515604038103cddb92c2f9c1fbc3ab83502c494e3ac8743b593"
+    },
+    {
+      "type": "primary_report",
+      "path": "experiments/yolo/sidequest_semantic_ten_page_apprentice_handbook_six_hundred_thirty_eighth/SIX_HUNDRED_THIRTY_EIGHTH_REPORT.md",
+      "line": 44,
+      "line_end": 51,
+      "quote": "## Celestial lesson\n\n- identify one of thirteen local namespaces;\n- point to the exact picture locus;\n- copy the complete local label in its visible order;\n- retrieve it only within that namespace;\n- optionally attach it as an external condition/address in the master's spoken\n  workflow, never through a hidden prose pointer.",
+      "sha256": "7a5f708d982f0515604038103cddb92c2f9c1fbc3ab83502c494e3ac8743b593"
+    },
+    {
+      "type": "primary_report",
+      "path": "experiments/yolo/sidequest_semantic_ten_page_apprentice_handbook_six_hundred_thirty_eighth/SIX_HUNDRED_THIRTY_EIGHTH_REPORT.md",
+      "line": 80,
+      "line_end": 95,
+      "quote": "- Astro required by a prose case: 0/395 groups.\n- Prose dictionary imports: 0.\n- Fixed start or direction: 0.\n- f68-f69 keys: 0.\n- Universal 28-step schedule: none.\n\nThis protects the useful image-address function while avoiding the old mistake\nof forcing the three diagrams into one linear calendar.\n\n## Current best working architecture\n\nThe workshop book is an illustrated practical register with a productive\nprose-command layer and a separate celestial exemplar/lookup appendix. The\ncontent lead remains practical plant preparation and bath/application work;\nthe nonmedical plant-material/bathhouse rival remains possible. The writing\ntechnology itself no longer depends on choosing between those two contents.",
+      "sha256": "7a5f708d982f0515604038103cddb92c2f9c1fbc3ab83502c494e3ac8743b593"
+    },
+    {
+      "type": "authored_builder",
+      "path": "experiments/yolo/sidequest_semantic_ten_page_apprentice_handbook_six_hundred_thirty_eighth/build_six_hundred_thirty_eighth.py",
+      "line": 55,
+      "line_end": 70,
+      "quote": "    for row in astro_groups:\n        unified.append({\n            \"unified_id\": f\"ASTRO:{row['opaque_local_id']}\",\n            \"section\": \"ASTRO_COPIED_LOOKUP\",\n            \"page\": row[\"page\"],\n            \"record_or_locus\": row[\"locus\"],\n            \"case_or_namespace\": row[\"canonical_namespace_id\"],\n            \"visible_surface\": row[\"surface_display_only\"],\n            \"local_identity\": row[\"opaque_local_id\"],\n            \"short_default_reading_de\": f\"LOKALE HIMMELS-/ADRESSMARKE AM BILDPLATZ {row['local_image_owner']}\",\n            \"learning_layer\": \"WHOLE_LOCAL_ASTRO_LABEL\",\n            \"writing_or_copy_rule\": \"COPY_COMPLETE_LABEL_FROM_LOCAL_CELESTIAL_EXEMPLAR\",\n            \"owner_address_policy\": row[\"local_image_owner\"],\n            \"required_for_case\": row[\"required_for_case\"],\n            \"orientation\": row[\"orientation_or_rotation\"],\n            \"cross_page_key\": row[\"f68_f69_key\"],",
+      "sha256": "280849a23330a26862b8f775a07bd7933e9d8ae9891832fff24182395e3ba098"
+    },
+    {
+      "type": "authored_builder",
+      "path": "experiments/yolo/sidequest_semantic_ten_page_apprentice_handbook_six_hundred_thirty_eighth/build_six_hundred_thirty_eighth.py",
+      "line": 73,
+      "line_end": 88,
+      "quote": "    namespace_lessons = []\n    for number, row in enumerate(namespaces, 1):\n        namespace_lessons.append({\n            \"lesson_no\": number,\n            \"namespace_id\": row[\"canonical_namespace_id\"],\n            \"page\": row[\"page\"],\n            \"loci\": row[\"loci\"],\n            \"groups\": row[\"groups\"],\n            \"instrument_reading_de\": row[\"instrument_reading_de\"],\n            \"apprentice_action_de\": \"Bildplatz zeigen; vollstaendige lokale Marke in ihrer Reihenfolge kopieren; nur innerhalb dieses Namensraums wiederfinden\",\n            \"possible_case_use_de\": row[\"possible_condition_use_de\"],\n            \"required_for_case\": row[\"required_for_case\"],\n            \"orientation\": row[\"orientation\"],\n            \"cross_page_key\": row[\"cross_page_key\"],\n            \"prose_word_import\": \"NONE\",\n        })",
+      "sha256": "280849a23330a26862b8f775a07bd7933e9d8ae9891832fff24182395e3ba098"
+    },
+    {
+      "type": "immediate_successor",
+      "path": "experiments/yolo/sidequest_semantic_combined_apprentice_exam_six_hundred_thirty_ninth/SIX_HUNDRED_THIRTY_NINTH_APPRENTICE_EXAM.md",
+      "line": 13,
+      "line_end": 23,
+      "quote": "## Aufgabe B: f69 linker Bildplatz 28\n\n**Meistermodell:** `oar alys`\n\n**Fehler des Lehrlings:** `alys oar`\n\nBeide Zeichen sind lokal richtig, aber ihre Reihenfolge am Bildplatz ist falsch. Der Meister liest keine Wortbedeutung hinein; er stellt nur die registrierte lokale Folge wieder her.\n\n## Ergebnis\n\nDas Handbuch diagnostiziert zwei verschiedene Fehlerarten: semantische Prozessinversion in Prosa und reine Kopierreihenfolge im Astro-Namensraum.",
+      "sha256": "ddc536de26662947877eb2100bcca7d713a356c3a8052078eeb21c88a7b4d671"
+    }
+  ],
+  "actually_tested": "The immediate apprentice examination tests internal rule execution: a prose order inversion is corrected as a process inversion, and an Astro pair order inversion is corrected as local copy-order error. It reports successful diagnosis within the authored handbook rules. It does not test whether the source material encodes two genres/technologies, whether the same label can transfer across modes, or whether a unified writing system is empirically impossible.",
+  "scope_limits": [
+    "The report’s 0/395 Astro-required, zero prose imports, and zero fixed orientation are non-rules of this construction, not manuscript-wide observations.",
+    "The builder preserves opaque local_identity and local_image_owner, and sets cross_page_key/prose_word_import constraints; these fields implement the model rather than independently establish it.",
+    "A later unified model would not by itself refute this internal teaching artifact; conversely, this artifact cannot refute a unified historical model."
+  ],
+  "conditional_gates": "A meaningful reopening would require source-owned, independently held cross-mode observations with a predeclared discriminator: e.g. the same local surface or an explicitly shared condition must have competing predictions under (a) copied-local-label/external-address and (b) productive prose transfer, with namespace/owner and transcription provenance fixed. A result must change the technology/genre decision; more successful drills or more locally copied labels alone do not.",
+  "decision": "retain_as_internal_codebook_architecture; no historical technology/genre credit and no broad refutation."
+}

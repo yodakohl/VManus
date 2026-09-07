@@ -1,0 +1,24 @@
+{
+  "schema": "raw_intake_screen",
+  "status": "no_additions",
+  "reason": "The primary observations considered are already executed semantic tests or are covered by existing raw mechanisms; no genuinely different falsifier was available in this bounded pass.",
+  "rejected_candidates": [
+    {
+      "source": "experiments/yolo/gdt635_initial_head_same_remainder_swaps/REPORT.md",
+      "sha256": "31bd8ff643e7e0e651e34d4e2d711a94cab57ff7a1be50e1e1bb33555d9f90d7",
+      "lines": "5-18,22-44",
+      "observation": "The report proposes p/s/r/l material heads over unchanged remainders and documents 24 four-head bodies across 760 bodies.",
+      "decision": "reject_existing_primary_and_correction_family",
+      "reason": "GDT635 and its GDT735 correction already test this exact head-class discriminator; a new proposal would restate the same material-head mechanism without a changed falsifier."
+    },
+    {
+      "source": "experiments/yolo/gdt491_markierungen_observed_phrase_contrast_atlas/REPORT.md",
+      "sha256": "ad80e34c9e060ff50047a1576d6b0e3c80208e3a48a21998b61313a934d3ad75",
+      "lines": "23-43",
+      "observation": "Seven observed T/R minimal pairs preserve the same German remainder and distinguish an action operator from a reference/marking operator.",
+      "decision": "reject_existing_primary_and_contrast_family",
+      "reason": "The contrast is already executed in GDT491 and overlaps the existing contrast/source-marker raw mechanisms; no independent endpoint or new falsifier is available."
+    }
+  ],
+  "added_ids": []
+}

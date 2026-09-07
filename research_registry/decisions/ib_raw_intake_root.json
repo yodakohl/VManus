@@ -1,0 +1,19 @@
+{
+  "status": "RAW_PROPOSAL_RETAINED_UNREVIEWED_WITH_EXACT_SOURCE_CORRECTION",
+  "id": "IDEA000038",
+  "title": "An omitted argument reuses the current carrier value",
+  "design_sha256": "a6ff2537ed3f528da35814b2cf29f1e2d170e0bd71f4f81711bf64162f914e14",
+  "proposal_sha256": "0b627403c6b8fdab71cb742ca2aa5a2ae45da368c526571cce3e8b58b67a90e1",
+  "raw_quote_issue": "The proposal flattened the first source line break and therefore did not quote the declared span exactly. This receipt preserves the original proposal and supplies the exact primary span.",
+  "evidence": [
+    {
+      "path": "experiments/yolo/gdt559_argument_carrier_substitution_grammar/REPORT.md",
+      "line": 71,
+      "line_end": 83,
+      "quote": "Für341 Karten steht das letzte sichtbare Argument rechts von OT oder OL. Ihre\nunmittelbaren Nachfolger teilen sich vollständig:\n\n- 157 Nachfolger schreiben kein neues Argument und übernehmen in157/157 Fällen\n  exakt den gerade gesetzten Wert;\n- 173 Nachfolger schreiben ein neues Argument und ersetzen den Träger sichtbar;\n- elf Karten stehen am Aussageende;\n- null Nachfolger erben einen falschen oder leeren Wert.\n\nDie praktische Regel ist daher sehr klein:\n\n> Ein sichtbares Argument setzt den aktuellen Träger. Das nächste sichtbare\n> Argument ersetzt ihn; eine Ellipse verwendet ihn weiter.",
+      "sha256": "c1f3518d7996c041335ed1abac9899e53079de22ed0f6321065c8f7442559bc4"
+    }
+  ],
+  "claim_limit": "GDT559 reports 157/157 inheritance under its working grammar; this is not independently grounded carrier identity. Its implementation contract is under separate review. No new test or semantic evidence.",
+  "new_semantic_evidence": false
+}

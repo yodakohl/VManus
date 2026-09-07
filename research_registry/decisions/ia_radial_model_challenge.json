@@ -1,0 +1,32 @@
+{
+  "review_id": "IA_RADIAL_MODEL_CHALLENGE",
+  "status": "conditional_scope_review",
+  "scope": "SEM:0048827f69 radial state/value versus unique-name models; no new data, images, or registry mutation.",
+  "findings": [
+    {
+      "question": "What does repeated OKEOD refute?",
+      "decision": "conditional_refutation_only",
+      "reason": "V22's two LONG/odd and one SHORT/even occurrence refutes the joint model in which one fixed whole meaning is assigned an alternating polarity solely by LONG/SHORT parity. It does not refute a model where layout supplies polarity while the stable code names a state/value, nor a unique-name model whose code is non-injective or whose identity is supplied by an unobserved owner/index.",
+      "evidence": [
+        {"path":"experiments/yolo/sidequest_theory_candidates_v22/V22_THEORY_SELECTION.md","line":16,"line_end":22,"quote":"That rule is incompatible with exact visible recurrence. Complete entry\n`okeod` occurs at stations 11, 15 and 24. The first two occupy LONG/odd slots;\nthe third occupies a SHORT/even slot. Alternating polarity would make one exact\nentry mean both “favour” and “withhold.”\n\nThe polarity is therefore **not carried by LONG/SHORT position**. LONG/SHORT is\nnow treated as graphic capacity or alternating entry template.","sha256":"e9cdeb9153a8f21b3747e8bb273eba09380790eea2f8dd10c09a153a7f7ad9d2"},
+        {"path":"experiments/yolo/sidequest_theory_candidates_v22/V22_THEORY_SELECTION.md","line":42,"line_end":43,"quote":"All 28 entries are listed in `V22_F69_28_RULES.tsv`. The three `okeod`\noccurrences have one meaning even though they cross layout parity.","sha256":"e9cdeb9153a8f21b3747e8bb273eba09380790eea2f8dd10c09a153a7f7ad9d2"}
+      ]
+    },
+    {
+      "question": "What remains unidentified?",
+      "decision": "state_value_name_unresolved",
+      "reason": "The source-only F69VSD001 result sets a strict claim ceiling: even a positive start/direction observation could not identify a slot value, roster, word, or meaning. Therefore repeated OKEOD can support recurrence under the V22 working model but cannot by itself choose state/value versus unique name.",
+      "evidence": [
+        {"path":"experiments/semantic_assumptions/results/f69vsd001_start_direction_selection_report.md","line":5,"line_end":7,"quote":"The exact official Yale canvas and the f69v panel were selected before reopening the image. The rubric asks only for an author-visible physical start/direction device; Grove's ordering, clock position, long/short alternation, and every text identity are excluded.\n\nClaim ceiling: A positive could fix only a physical start or direction coordinate; it cannot identify any slot value, roster, word, sound, language, cipher, plaintext, meaning, or translation.","sha256":"634e0336b0664f349597abf9450ade7ea3387e7337de810b5cd75f20fab497ea"},
+        {"path":"experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md","line":385,"line_end":398,"quote":"The external geometry is unusually strong: 28 radial text loci and a strict\n14 LONG / 14 SHORT alternation. The text does not reliably distinguish the two\nvisual classes. Several labels nevertheless look like closed catalogue cells.\n\n```text\nytody  okody  otody  ykeydy  ykeody  sarydy  okeody\n```\n\nWorkshop reading:\n\n> This is a 28-entry cyclic schedule or observational register. Each spoke\n> receives a local address and sometimes an explicit closure. LONG/SHORT is a\n> layout/parity convention—possibly two alternating table states—not a decoded\n> odd/even word contrast.","sha256":"bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945"}
+      ]
+    },
+    {
+      "question": "How should alternate readings be preserved?",
+      "decision": "retain_two_all_reading_OKEOD_cases_and_RF_split_case",
+      "reason": "The two all-reading cases where OKEOD is stable can support a bounded recurrence observation. The third case's RF split remains a reading-specific uncertainty and must not be silently collapsed into exact three-reading identity; neither pattern establishes a unique roster name.",
+      "falsifier_requirements": "A true polarity refutation would require a predeclared model in which layout parity is the sole polarity carrier and the exact whole is fixed; a true unique-name refutation would additionally require an injective-name assumption. Neither assumption is established by the current sources."
+    }
+  ],
+  "no_registry_mutation": true
+}
