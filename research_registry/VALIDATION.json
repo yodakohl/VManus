@@ -16,7 +16,7 @@
     "status": "FAIL_PRE_EXISTING"
   },
   "idea_ids_and_mention_lines_exact": 82,
-  "imported_records": 5085,
+  "imported_records": 5086,
   "importer_invoked": false,
   "index_rows_exact": 870,
   "initial_import_report_bodies_opened": false,
@@ -24,10 +24,10 @@
     "anchor": 11,
     "attempt": 870,
     "family": 59,
-    "history": 4063,
+    "history": 4064,
     "idea": 82
   },
-  "ledger_events_exact": 4137,
+  "ledger_events_exact": 4138,
   "ledger_fields": [
     "date",
     "status",
@@ -45,7 +45,7 @@
   "manuscript_data_opened": false,
   "metadata_refresh_invoked": true,
   "registry_check": {
-    "records": 5085,
+    "records": 5086,
     "status": "PASS"
   },
   "report_bodies_opened": false,
@@ -154,6 +154,8 @@
       "research_registry/decisions/clean_gap_review_ey_integrated.json": 0,
       "research_registry/decisions/clean_gap_review_fc_integrated.json": 0,
       "research_registry/decisions/clean_gap_review_fe_integrated.json": 0,
+      "research_registry/decisions/clean_gap_review_fk_integrated.json": 0,
+      "research_registry/decisions/clean_gap_review_fq_integrated.json": 0,
       "research_registry/decisions/clean_gap_review_l.json": 3,
       "research_registry/decisions/clean_gap_review_o.json": 2,
       "research_registry/decisions/clean_gap_review_q.json": 6,
@@ -173,12 +175,12 @@
     "formal_role_cards": 265,
     "input_sha256": {
       "research_registry/semantic_ideas.jsonl": "9403755fc3993c4942fa272d5c2dc55a9133d78d4fcb0ba7fdc63d7e3ac619e9",
-      "tools/semantic_ideas.py": "3992b22190bab357783a0868d28944a20115e028a9583f4eb465d85246699ba0"
+      "tools/semantic_ideas.py": "0c96f9df79c1199eb4022e0f34a66934ed59f79e98792653add01ba734124df3"
     },
     "limitation": "Checks concrete-card schema, source evidence and case preservation. Does not independently establish every semantic classification, logical equivalence, historical meaning, truth, or scientific novelty.",
     "local_overlay_semantic_cards": 95,
     "member_ids_existing": true,
-    "operational_default_cards": 3889,
+    "operational_default_cards": 3888,
     "original_assertions_and_case_fields_preserved": true,
     "ready_entries": 0,
     "review_cases_preserved": 4639,
@@ -219,19 +221,19 @@
       "anchor": 11,
       "attempt": 870,
       "family": 59,
-      "history": 4063,
+      "history": 4064,
       "hypothesis_component": 3788,
       "hypothesis_proposal": 427,
       "idea": 82,
       "source_excerpt": 4943,
       "unresolved_source_block": 15478
     },
-    "ledger_events_exact": 4137,
+    "ledger_events_exact": 4138,
     "limitation": "Full coverage of current registered metadata and retained extraction records only. Candidate, source excerpt, unresolved block and historical record are distinct units, not independently deduplicated ideas; omitted or unavailable historical source material is not reconstructed.",
-    "operational_items": 29721,
+    "operational_items": 29722,
     "ready_entries": 0,
     "source_hashes_match": true,
-    "source_records_exact": 5085,
+    "source_records_exact": 5086,
     "statement_and_source_spans_preserved": true,
     "status": "PASS",
     "synthetic_tests": 9,
@@ -241,24 +243,24 @@
   "semantic_operational_pass": {
     "active_source_cards": 4118,
     "conditional_priorities": 9,
-    "display_reduction": 59,
+    "display_reduction": 60,
     "identity_counts": {
       "cards": 4118,
-      "groups": 4059,
-      "multi_member_groups": 50,
+      "groups": 4058,
+      "multi_member_groups": 51,
       "relations": 38
     },
     "input_sha256": {
-      "research_registry/semantic_failure_decisions.jsonl": "adb84a29bbab9c908f3bd9741ecff6dcd75e7de7248baddac3ade1d2c33f7692",
-      "research_registry/semantic_identity_decisions.jsonl": "30e07fae65c7620c9a1fc1ee81061cf7919afdc68d1ba9eae7d3f16a58eef651",
+      "research_registry/semantic_failure_decisions.jsonl": "900ef4392bb8a8ddd03e88e44791deb53f33ae000ad9af202546ce06ac44f09c",
+      "research_registry/semantic_identity_decisions.jsonl": "74b5677d691a6af9c2ec5056f6e8c27ce21458f795208b716aa1d25cb40a33b2",
       "research_registry/semantic_priority_decisions.jsonl": "2d8fa90ad00098ca4ffa344b5bce15657a6986c742d767d972cd50489ec450dc",
-      "tools/semantic_ideas.py": "3992b22190bab357783a0868d28944a20115e028a9583f4eb465d85246699ba0",
+      "tools/semantic_ideas.py": "0c96f9df79c1199eb4022e0f34a66934ed59f79e98792653add01ba734124df3",
       "tools/semantic_identity.py": "ad2e4da44b795dcece2a3e8334587751e2d929f45b463d27d728e4cfc20a6272",
       "tools/semantic_priority_view.py": "85c5ff10606849028d749aee11a75c45b8b09ea64bc3b7814f67138a39bab0b4"
     },
     "scientific_ready_in_reviewed_subset": 0,
     "scope_status_inheritance": false,
-    "scoped_failure_dossiers": 40,
+    "scoped_failure_dossiers": 41,
     "source_binding_checked": true,
     "status": "PASS",
     "validation_scope": "Historical source recovery, scoped corrections, explicit model-revision questions and current decision bindings; no independent meaning validation."

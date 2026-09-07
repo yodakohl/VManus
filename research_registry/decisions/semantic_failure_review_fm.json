@@ -1,0 +1,676 @@
+{
+  "review_id": "SEMANTIC_FAILURE_REVIEW_FM",
+  "status": "NO_ADD_PRECISE_LIMITS_ALREADY_PRESERVED",
+  "dossier_proposals": [],
+  "selection_receipt": {
+    "metadata_candidates": 4,
+    "full_primary_reports": 1,
+    "full_primary_path": "experiments/yolo/gdt648_strict_v24_hole_completion/REPORT.md",
+    "fully_compared_current_card_scopes": 3,
+    "additional_scope_boundary_cards": 1,
+    "source_review_receipts": [
+      {
+        "path": "research_registry/decisions/semantic_rejection_review_bz.json",
+        "sha256": "60883ae3a7298bb76e0c7991db9abb6ad0a10e83713139e58a202e79ecf22434"
+      },
+      {
+        "path": "research_registry/decisions/clean_gap_review_bz_integrated.json",
+        "sha256": "235c6477c67855b489264f3de4a6049f074a5e1442b2ae6e6560cd1922ea770b"
+      },
+      {
+        "path": "research_registry/decisions/clean_gap_review_bx_integrated.json",
+        "sha256": "5499c2c12ce06bededde14a57dd2b7aadf177259959b51ddea79392bc430200f"
+      },
+      {
+        "path": "research_registry/decisions/clean_gap_review_bs_integrated.json",
+        "sha256": "deb7e56307b4e68267fadc1b66ac00a112745f55d82fc1727e2f13b719445189"
+      }
+    ],
+    "dossier_log": {
+      "path": "research_registry/semantic_failure_decisions.jsonl",
+      "sha256": "adb84a29bbab9c908f3bd9741ecff6dcd75e7de7248baddac3ade1d2c33f7692",
+      "rows": 41,
+      "latest_decision_keys": 40
+    },
+    "current_dossier_metadata_screen": [
+      {
+        "id": "FAILURE_F:Y_OPEN_SENTENCE:v1",
+        "targets": [
+          "SEM:7926a19e357cdbe0b97d"
+        ],
+        "reason_class": "empirical_failure",
+        "claim": "Y universally means that the sentence remains open."
+      },
+      {
+        "id": "FAILURE_F:CHOR_SHOR_DRY_MOIST:v1",
+        "targets": [
+          "SEM:2469f26ba5b615b52f13",
+          "SEM:5d6f63cc60805193e0fc"
+        ],
+        "reason_class": "empirical_failure",
+        "claim": "chor and shor are dry/moist states of the same reproductive plant part."
+      },
+      {
+        "id": "FAILURE_F:FLOWER_SEED_DIRECTION:v1",
+        "targets": [
+          "SEM:3b7e0bbed92f12eb0a26",
+          "SEM:a59298de7c588bb6e701",
+          "SEM:b9e6d625631606b62761"
+        ],
+        "reason_class": "insufficient_capacity",
+        "claim": "chor=flower and shor=seed/fruit, rather than the exact reverse."
+      },
+      {
+        "id": "FAILURE_F:CTHY_LEAF_SPECIFIC:v1",
+        "targets": [
+          "SEM:d9d586ecbf77f8e96850",
+          "SEM:2e54c5efd4ef7c274e5b"
+        ],
+        "reason_class": "invalid_test",
+        "claim": "The complete cthy specifically denotes leaf material rather than herba or an unnamed botanical head."
+      },
+      {
+        "id": "FAILURE_F:OKAIIN_THERMAL:v1",
+        "targets": [
+          "SEM:7be1e4f37215895ddc58"
+        ],
+        "reason_class": "missing_meaning_binding",
+        "claim": "okaiin means warm, as a property rather than cold, bitter, possession or a copula."
+      },
+      {
+        "id": "FAILURE_F:OKAIIN_POSSESSIVE_ANTECEDENT:v1",
+        "targets": [
+          "SEM:08a05de29068958d3f58"
+        ],
+        "reason_class": "empirical_failure",
+        "claim": "With okaiin=dessen, qokain okaiin refers back to the already named otedy source."
+      },
+      {
+        "id": "FAILURE_F:LO_PENDING_PARTICIPANT:v1",
+        "targets": [
+          "SEM:26b7688a1909e931f7d8",
+          "SEM:d70ff59ce383e36325cd"
+        ],
+        "reason_class": "proposal_only",
+        "claim": "Final L/O at f83r.52 takes the initial AIIN at f83r.54 as its right participant."
+      },
+      {
+        "id": "FAILURE_H:OKAIIN_PURE_COPULA:v1",
+        "targets": [
+          "SEM:40f989b099e36ca42871",
+          "SEM:a893f42823fa925f8695",
+          "SEM:cf57c58c46652d794cc6"
+        ],
+        "reason_class": "missing_meaning_binding",
+        "claim": "okaiin is a pure copula equivalent to ist, with the same meaning outside f17r.11."
+      },
+      {
+        "id": "FAILURE_H:OKAIIN_POWDER:v1",
+        "targets": [
+          "SEM:9f367740d80b66c21d64",
+          "SEM:26db488a75bdf59ec8ee",
+          "SEM:cc9fdf1078b1ccc1d751"
+        ],
+        "reason_class": "missing_meaning_binding",
+        "claim": "okaiin denotes powder rather than an unnamed content term, property or copula."
+      },
+      {
+        "id": "FAILURE_H:OKAL_FOUR_ORDINAL:v1",
+        "targets": [
+          "SEM:640ae5b083ca77e23719"
+        ],
+        "reason_class": "empirical_failure",
+        "claim": "okal means four under a fixed simple ordinal/position-family reading."
+      },
+      {
+        "id": "FAILURE_H:OKAL_GRADE_ONE:v1",
+        "targets": [
+          "SEM:c0f047b2df909590a51a"
+        ],
+        "reason_class": "insufficient_capacity",
+        "claim": "okal denotes quality grade I."
+      },
+      {
+        "id": "FAILURE_H:AQABAC_BENEFIC_FACIES:v1",
+        "targets": [
+          "SEM:8fccb8d3f3840b8c2432"
+        ],
+        "reason_class": "empirical_failure",
+        "claim": "The complete AQABAC family means favorable/benefic facies under a common historical sign-part mapping."
+      },
+      {
+        "id": "FAILURE_H:OKAL_F82_REFERENTIAL_KEY:v1",
+        "targets": [
+          "SEM:df49adc4127372a550d4",
+          "SEM:19601a461d4e5f6f7b7c"
+        ],
+        "reason_class": "missing_meaning_binding",
+        "claim": "Exact OKAL reuses a page-local apparatus caption as a referential key from the f82 prose records."
+      },
+      {
+        "id": "FAILURE_X:F77_QUALITY_PROCESS_DECODER:v1",
+        "targets": [
+          "SEM:682522514ab537cc7f4c"
+        ],
+        "reason_class": "missing_meaning_binding",
+        "claim": "The provisional GDT180 f77 process maps COLD via EARTH output to DRY, DRY via FIRE to HOT, HOT via HOLD to HOT, HOT via AIR to MOIST, and MOIST via WATER to COLD."
+      },
+      {
+        "id": "FAILURE_AD:BACA_LOCAL_PAIR_VERSUS_WATER_FLOW:v1",
+        "targets": [
+          "SEM:0962c8271ffeb26472df",
+          "SEM:380e65aefa750099fa6c"
+        ],
+        "reason_class": "missing_meaning_binding",
+        "claim": "GDT231 proposed the shared BACA family prefix of two f82r labels as a local matched-apparatus/referent-class candidate, with literal dar=flow as a weaker comparator. These are not a licensed global BACA=water word equation."
+      },
+      {
+        "id": "FAILURE_AD:EXACT_STRICT_RESIDUAL_OBJECT_TRANSFER:v1",
+        "targets": [
+          "SEM:a826d588e016db28a332"
+        ],
+        "reason_class": "empirical_failure",
+        "claim": "After stripping the transferred graphical-label prefix, exact residual identity supplies a cross-folio broad visible-object class beyond section/register."
+      },
+      {
+        "id": "FAILURE_AW:PASS1023_BLANKET_BINDING:v2",
+        "targets": [
+          "SEM:23659586e96e83395266"
+        ],
+        "reason_class": "empirical_failure",
+        "claim": "The Pass1023 blanket binding generalization extends the equal-distance rule to unequal multi-head positions: non-L/AIR attachments close on the left action head, while L/AIR frame the right action head."
+      },
+      {
+        "id": "FAILURE_BC:OKEEOL_WIDE_VESSEL:v1",
+        "targets": [
+          "SEM:3ab7ad3ab4a95a82fe99"
+        ],
+        "reason_class": "historical_model_revision",
+        "claim": "The exact whole okeeol card means breites Gefäß."
+      },
+      {
+        "id": "FAILURE_BC:ALL_DOUBLES_NESTED:v1",
+        "targets": [
+          "SEM:8966b3eec7bc1a705e2f"
+        ],
+        "reason_class": "historical_model_revision",
+        "claim": "All40 doubled-core cases in the Pass1021 set encode outer/inner nested levels."
+      },
+      {
+        "id": "FAILURE_BC:CHEEKY_DRY_PREPARATION:v1",
+        "targets": [
+          "SEM:1ade1c95c55064d9deb0"
+        ],
+        "reason_class": "historical_model_revision",
+        "claim": "The whole cheeky card is adequately rendered Trockenpräparat."
+      },
+      {
+        "id": "FAILURE_BU:SHECTHY_STATE_VERSUS_SUBSTANCE:v1",
+        "targets": [
+          "SEM:edf31c46635204622849"
+        ],
+        "reason_class": "historical_model_revision",
+        "claim": "In the fixed B3-S021/E276 reading, SHECTHY contributes warm water or a warm working-medium object rather than the attained tempered state of the already active item."
+      },
+      {
+        "id": "FAILURE_BU:THREE_REGISTER_SOURCEWORD_REFINEMENT:v1",
+        "targets": [
+          "SEM:eff43b3e6522ac91dc54"
+        ],
+        "reason_class": "historical_model_revision",
+        "claim": "The selected Pass80 source-content layer uses the twelve old values explicitly listed by BY; Pass81 replaces them with preferred workshop wording and Pass82 propagates those source-slot choices. In B16 the old value is Filtern and the new value Seihgang, both process readings. This is revision memory, not a historical hypothesis that undifferentiated cloth was encoded."
+      },
+      {
+        "id": "FAILURE_CT:CHK_DY_REGISTER_ABSTRACTION:v1",
+        "targets": [
+          "SEM:bfe696ab8c2fbd3ea40f",
+          "SEM:071e689872fa95a5bf7a"
+        ],
+        "reason_class": "historical_model_revision",
+        "claim": "Pass278 replaces portable CHK=WÄRMEN with ZUSTAND_JUSTIEREN and DY=SCHLUSS with FESTSETZEN while retaining the concrete register realizations."
+      },
+      {
+        "id": "FAILURE_CT:ODY_CONTEXTUAL_EXECUTION:v1",
+        "targets": [
+          "SEM:70c640cdb7f9ae32340c"
+        ],
+        "reason_class": "historical_model_revision",
+        "claim": "Pass1022 replaces the guessed fixed ody=kühlen entry with execution of the active local action plus closure, where the owner or exemplar supplies the action."
+      },
+      {
+        "id": "FAILURE_CY:qeeey_terminal_portion:v1",
+        "targets": [
+          "SEM:cb5e52af94982808487a"
+        ],
+        "reason_class": "historical_model_revision",
+        "claim": "qeeey → Schlussportion"
+      },
+      {
+        "id": "FAILURE_CY:sol_seed_family_revision:v1",
+        "targets": [
+          "SEM:aa5cf61db710fc3e786d",
+          "SEM:4c49ed552dbfa49074cd"
+        ],
+        "reason_class": "historical_model_revision",
+        "claim": "solaiin → drei Teile Saatgutansatz ; sols → fertiger Saatgutansatz"
+      },
+      {
+        "id": "FAILURE_CY:shx_gum_resin:v1",
+        "targets": [
+          "SEM:9db69b9ff18a7e13a93e"
+        ],
+        "reason_class": "missing_meaning_binding",
+        "claim": "shx → eingeweichtes Gummiharz"
+      },
+      {
+        "id": "FAILURE_CY:tolg_grain:v1",
+        "targets": [
+          "SEM:20477cd200ca5f19e28b"
+        ],
+        "reason_class": "source_ambiguity_and_missing_meaning_binding",
+        "claim": "tolg → ein Gran kalten Drogenmaterials"
+      },
+      {
+        "id": "FAILURE_CY:a048_terminal_product_hold:v1",
+        "targets": [
+          "SEM:14f954b4c260354e1a3a"
+        ],
+        "reason_class": "unresolved_path_binding_no_edge",
+        "claim": "GDT709 A048/f77r.38#3–5 is tentatively read as adding an end portion, followed by hot grade III, with a possible terminal completed medicinal composite dried to the middle stage."
+      },
+      {
+        "id": "FAILURE_CY:free_g_gutta:v1",
+        "targets": [
+          "SEM:c458a3ad2df97692ec6c"
+        ],
+        "reason_class": "historical_distributional_model_preference",
+        "claim": "G → gutta"
+      },
+      {
+        "id": "FAILURE_DB:PASS323_REFERENCE_REVISION:v1",
+        "targets": [
+          "SEM:6cc81edaa4d1da2a7cde"
+        ],
+        "reason_class": "historical_model_revision",
+        "claim": "Whether the earlier equal-quantity/ana interpretation is needed to interpret Y–AIIN–Y in the fixed ten-page atom-based Pass323 working deck, compared with maintaining the same item referent around a prescribed-measure value."
+      },
+      {
+        "id": "FAILURE_DF:CH_SH_T_OL_PREPARATION_HEAD:v1",
+        "targets": [
+          "SEM:b0091a43c32504d9857f"
+        ],
+        "reason_class": "historical_model_revision",
+        "claim": "Whether the GDT684 chol/shol/tol preparation-noun candidates can serve as shared defaults across the admitted exact family while respecting the proposal's local-carrier condition."
+      },
+      {
+        "id": "FAILURE_DL:H4_COOLING_HANDOFF:v1",
+        "targets": [
+          "SEM:02c63b4dee2fd4571228"
+        ],
+        "reason_class": "historical_model_revision",
+        "claim": "Only the cooled-leaf-extract qualification in the fourth Pass319 Herbal-output/Biological-input correspondence; not the entire five-handoff proposition."
+      },
+      {
+        "id": "FAILURE_DL:DSHEDY_FRESH_RINSE:v1",
+        "targets": [
+          "SEM:c832f681da39d2bea4ad"
+        ],
+        "reason_class": "historical_model_revision",
+        "claim": "The fresh-rinsing-liquid admission content of the Pass304 dshedy/MC138 working clause, not every wet-material reading or other historical dshedy contract."
+      },
+      {
+        "id": "FAILURE_DR:DAL_WHOLEWORD_TO_MEASURED_MATERIAL:v1",
+        "targets": [
+          "SEM:94a0aebd1caf3051dc56"
+        ],
+        "reason_class": "historical_model_revision",
+        "claim": "DAL → Rohdrogenposten"
+      },
+      {
+        "id": "FAILURE_EH:PCHEEY_DRY_SOURCE_TO_NEUTRAL_BOUND_FIELD:v1",
+        "targets": [
+          "SEM:66e6f5e8da93dc21a0d6"
+        ],
+        "reason_class": "historical_model_revision",
+        "claim": "pcheey → dry source/complement"
+      },
+      {
+        "id": "FAILURE_EN:CTHY_GDT756_ORGAN_DEFAULT:v1",
+        "targets": [
+          "SEM:cfd39b0b539a4bcfeaf3"
+        ],
+        "reason_class": "historical_model_revision",
+        "claim": "cthy → Wurzel"
+      },
+      {
+        "id": "FAILURE_EN:CHOR_GDT756_ORGAN_DEFAULT:v1",
+        "targets": [
+          "SEM:dedccc5aecbe1a19e036"
+        ],
+        "reason_class": "historical_model_revision",
+        "claim": "chor → Blätter"
+      },
+      {
+        "id": "FAILURE_ET:QOL_MATERIAL_SOURCE_AND_JOINED_COMPOSITION_LIMITS:v1",
+        "targets": [
+          "SEM:eb2565605d47718a5f26"
+        ],
+        "reason_class": "missing_meaning_and_attachment_binding_separate_invalid_relation_packet",
+        "claim": "qol → daraus?"
+      },
+      {
+        "id": "FAILURE_FB:V3_QOKAIIN_MATRIX_VERSUS_ENTRY:v1",
+        "targets": [
+          "SEM:f77bd45d9cf83cddef64"
+        ],
+        "reason_class": "historical_model_revision",
+        "claim": "qokaiin denotes a recurrent working medium or liquid matrix."
+      }
+    ],
+    "matching_target_dossiers": [],
+    "excluded_task_families": [
+      "GDT827 FI",
+      "V3 FB",
+      "qol ET",
+      "cthy/chor EN"
+    ],
+    "selection_limit": "One tightly connected GDT648 neighborhood selected through existing BZ/BX/BS primary pointers. No global assertion that the remaining semantic archive lacks missing failure distinctions."
+  },
+  "current_cards": [
+    {
+      "id": "SEM:0c6f4ea1745d0e53d44c",
+      "claim": "GDT648 reports the earlier automatic whole-form reading sheor = Samendroge from s+heor and withdraws that reading in favor of the SH-first parse sh+e+or.",
+      "cases": [
+        {
+          "claim_type": "lexical_hypothesis",
+          "comparison": {
+            "counterpart_ids": [
+              "SEM:c66502f44f43985b9c58"
+            ],
+            "reason": "Existing card addresses the replacement feuchter Drogenteil and quotes the old revision as evidence. The old complete Samendroge assignment is not separately addressable in the bounded current claim search; evidence presence is not whole-proposition identity."
+          },
+          "failure_reason": "The source states that heor is unattested in its panel while the SH series is visible; splitting sheor as seed-head s+heor therefore loses to SH-first parsing in this working model. This is a model-internal segmentation rationale, not independent meaning disproof.",
+          "historical_source_rejected": true,
+          "id": "CLEAN_GAP_BZ:sheor_old_seed_drug",
+          "identity_status": "global_novelty_unknown",
+          "independent_new_idea": false,
+          "member_ids": [
+            "LEGACY_COMPONENT:a4aa54be551717809c41"
+          ],
+          "registry_context_ids": [
+            "GDT648"
+          ],
+          "review_file": "research_registry/decisions/clean_gap_review_bz_integrated.json",
+          "scope": {
+            "experiment": "GDT648",
+            "kind": "historical_source_bound_replaced_gloss",
+            "limits": "Only the earlier automatic Samendroge interpretation under s+heor. Do not infer global impossibility of seed meanings, independently validated SH phonetics, or confirmation of feuchter Drogenteil."
+          },
+          "source_disposition": "historical_automatic_gloss_withdrawn",
+          "status": "unconfirmed"
+        }
+      ],
+      "evidence": [
+        {
+          "line": 53,
+          "line_end": 56,
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/REPORT.md",
+          "quote": "Die wichtigste Parsekorrektur lautet **SH vor S**. `sheor` ist `sh+e+or`,\nnicht `s+heor`: Ein Stamm `heor` ist im Panel unbelegt, während die ganze\nSH-Reihe sichtbar ist. Damit entfällt die frühere automatische\n„Samendroge“-Glosse.",
+          "sha256": "86faa123f0f26671e5815e4bd63db78dca3047c4947959805260853f18c8761f"
+        },
+        {
+          "line": 42,
+          "line_end": 50,
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/REPORT.md",
+          "quote": "### `sheor` und `keol`: zwei fehlende Zellen desselben Rasters\n\nDas E×OL/OR-Feld ist für K, T, CH und SH vollständig belegt:\n\n```text\ncheol  trockener Drogenstoff     cheor  trockener Drogenteil\nsheol  feuchtes Material         sheor  feuchter Drogenteil\nkol    heißes Material           keol   heißer Drogenstoff\nkor    heißer Teil               keor   heißer Drogenteil",
+          "sha256": "86faa123f0f26671e5815e4bd63db78dca3047c4947959805260853f18c8761f"
+        }
+      ],
+      "card_basis": "8b106a75ddefe21034d91b92ec3db3e82cfc77a314691ae7b16c84f81d71b717",
+      "effective_basis": "0f41d0ec5af5a553c0adee4cb009106c0444d8638ff92d17125818c28164c257"
+    },
+    {
+      "id": "SEM:f1a5d4569d1313e8c04d",
+      "claim": "GDT648 reads the exact whole form odaiin as Zubereitungsdosis III in its V25 working reader.",
+      "cases": [
+        {
+          "claim_type": "lexical_hypothesis",
+          "comparison": {
+            "counterpart_claims": [
+              {
+                "claim": "odaiin → Kopfstoffzubereitung, Dosis III",
+                "id": "SEM:cc27807d7fa798230ec3"
+              }
+            ],
+            "counterpart_ids": [
+              "SEM:cc27807d7fa798230ec3"
+            ],
+            "reason": "Existing SEM:cc27807d7fa798230ec3 is GDT636 head-bound remainder. This is explicitly the new naked exact whole word; dose versus batch remains an open rival."
+          },
+          "coverage_class": "additional_addressable_source_assertion",
+          "id": "CLEAN_GAP_BS:gdt648_odaiin_whole",
+          "identity_status": "global_novelty_unknown",
+          "independent_new_idea": false,
+          "member_ids": [
+            "LEGACY_COMPONENT:8554dcaeee2d2f5f0f77"
+          ],
+          "registry_context_ids": [
+            "GDT648"
+          ],
+          "review_file": "research_registry/decisions/clean_gap_review_bs_integrated.json",
+          "scope": {
+            "case": null,
+            "experiment": "GDT648",
+            "limits": "Historical source-bound 179-page working reader; alternate readings are one manuscript; no identified meaning, language or independently validated syntax.",
+            "reader_version": "V25"
+          },
+          "status": "unconfirmed"
+        }
+      ],
+      "evidence": [
+        {
+          "line": 13,
+          "line_end": 13,
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/REPORT.md",
+          "quote": "| `odaiin` | `o+d+(a+iin)` | Zubereitungsdosis III | 55/42 | 42 |",
+          "sha256": "86faa123f0f26671e5815e4bd63db78dca3047c4947959805260853f18c8761f"
+        },
+        {
+          "line": 29,
+          "line_end": 40,
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/REPORT.md",
+          "quote": "### `otol`: der vollständigste neue Stoffwert\n\nAlle 32 Zellen des Vergleichsrasters\n\n```text\n{nackt,o,qo,y} × {k,t} × {ohne ch,mit ch} × {ol,or}\n```\n\nsind beobachtet. O hält den Zubereitungsrahmen, T den kalten Gegenpol und OL\nden Gut-/Materialträger. Der knappe Wert **kaltes Zubereitungsgut** hält sich\nvon `oteol` als ausdrücklich attributivem „kaltem Zubereitungsstoff“ getrennt.\n„Kaltes Material im Ansatzrahmen“ bleibt der engste Rivale.",
+          "sha256": "86faa123f0f26671e5815e4bd63db78dca3047c4947959805260853f18c8761f"
+        },
+        {
+          "line": 53,
+          "line_end": 92,
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/REPORT.md",
+          "quote": "Die wichtigste Parsekorrektur lautet **SH vor S**. `sheor` ist `sh+e+or`,\nnicht `s+heor`: Ein Stamm `heor` ist im Panel unbelegt, während die ganze\nSH-Reihe sichtbar ist. Damit entfällt die frühere automatische\n„Samendroge“-Glosse.\n\n### `odaiin`: ein alter Rest wird zum echten Ganzwort\n\nGDT636 kannte `odaiin` bereits als Körper in `podaiin`, `sodaiin`, `rodaiin`\nund `lodaiin`: Pulver-, Saat-, Wurzel- und Holzzubereitung, jeweils Dosis III.\nDer damalige Schutzwall verbot, daraus ohne eigenen Lauf ein nacktes Wort zu\nmachen. GDT648 führt nun genau diesen fehlenden Lauf aus: 55 nackte Belege,\n42 dreileser-exakt und drei neu geschlossene Zeilen.\n\nDer alte Wörterbucheintrag `odaiin@GDT636_REMAINDER` bleibt unverändert; neu\nkommt `odaiin@GDT648_EXACT_WHOLE` hinzu. Das ist keine globale Restregel.\n„Zubereitungscharge III“ bleibt ernst, weil `odaiin` in 17 Zeilen neben einem\nweiteren Zahlenfeld steht. Dosis und Qualitätsgrad können aber auch gemeinsam\nauftreten und sind daher nicht automatisch doppelt.\n\n### `cholkaiin`: sichtbare Fusion\n\n`chol` ist Trockengut, `kaiin` heiß im dritten Grad. Die Folge `chol kaiin`\nkommt im erlaubten Panel zweimal getrennt vor — in jeder der drei Lesungen.\nDaneben stehen fünf verbundene `cholkaiin`; vier sind dreifach tokenexakt.\nDiese reale Grenzvariation macht **Trockengut, heiß im dritten Grad** stärker\nals eine frei erfundene Teilstringlesung.\n\n### `lkar` und `lsheey`: Materialkopf bleibt Materialkopf\n\n`lkar/lkair/lkaiir = 31/4/2` bildet eine beobachtete Dreierleiter neben den\nunmarkierten L+AR-Werten. Darum bleibt `l+(k+ar)` zunächst **heiße\nHolzfraktion I**. Eine einzelne ZL3b/RF1b-Grenze `l kar ↔ lkar` stützt die\nZerlegung, fehlt aber in IT2a. „Heißes Drogenholz“ bleibt deshalb der starke\nGanzwortrivale.\n\nBei `lsheey` wäre eine mechanische Übertragung von GDT647 falsch. GDT647 hatte\nP/S/R/L-Materialköpfe ausdrücklich von der Gradbeginn/-mitte/-ende-Achse\nausgeschlossen. Im geerbten Materialsystem stehen `lshey` als eingeweichtes\nDrogenholz, Form I und `lcheey` als trockene Holzform II. Deshalb lautet die\nneue exakte Karte **eingeweichtes Drogenholz, Form II**, nicht „am Gradende“.",
+          "sha256": "86faa123f0f26671e5815e4bd63db78dca3047c4947959805260853f18c8761f"
+        },
+        {
+          "line": 152,
+          "line_end": 170,
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/REPORT.md",
+          "quote": "f10r.12 enthält Dosis III neben einem weiteren Grad-/Maßwert III und bleibt\ndeshalb ein sichtbarer Bedeutungsrivale, kein verschwiegener Erfolg. f75r.46\nist in der Lesergrenze instabil. Beide stehen vollständig im Artefakt.\n\n## Der ganze 26er-Rand\n\nNichts wurde stillschweigend weggeworfen. `STRICT_FRONTIER_ADJUDICATION.tsv`\nenthält alle 26 Oberflächen:\n\n- 7 gehen in V25 ein;\n- 13 bleiben als konkrete Einzelaufgaben stehen, darunter die EEE-Leiter,\n  umgestellte CH-O-K-Formen, `qolchey`, `shedal` und zwei CTH-/AL-Kandidaten;\n- 6 werden auf dieser Route verworfen: nacktes `dy`, initiales `ykeey` und\n  `ykeody`, die CKH-Formen `checkhy/sheckhy` sowie das intern mehrdeutige\n  `olsaly`.\n\nDie Verwerfungen sind kein globales Verbot. Sie bedeuten nur: Ihre derzeitige\nGlosse würde einen sichtbaren Bauteil löschen oder eine noch nicht gelöste\nAchse einschmuggeln.",
+          "sha256": "86faa123f0f26671e5815e4bd63db78dca3047c4947959805260853f18c8761f"
+        },
+        {
+          "line": 207,
+          "line_end": 208,
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/REPORT.md",
+          "quote": "Diese Vergleiche stützen das Mischmodell aus gelerntem Ganzwort und knappen\nFachfeldern. Sie identifizieren weder Ausgangssprache noch Klartext.",
+          "sha256": "86faa123f0f26671e5815e4bd63db78dca3047c4947959805260853f18c8761f"
+        }
+      ],
+      "card_basis": "f05e78ddddb2edff6d828e974a8263bad7b7aa5f01c80bdcf585d11a6e44342a",
+      "effective_basis": "fa70a04ec9002bc822b49101f9aedea6265579e5823a36e09f2c118784e7ec11"
+    },
+    {
+      "id": "SEM:d86c72033a7277baab26",
+      "claim": "GDT648 retains the explicit whole-word rival odaiin = Zubereitungscharge III.",
+      "cases": [
+        {
+          "claim_type": "lexical_hypothesis",
+          "comparison": {
+            "counterpart_claims": [
+              {
+                "claim": "odaiin → Kopfstoffzubereitung, Dosis III",
+                "id": "SEM:cc27807d7fa798230ec3"
+              }
+            ],
+            "counterpart_ids": [
+              "SEM:cc27807d7fa798230ec3"
+            ],
+            "reason": "Head-bound GDT636 remainder and BS naked-dose proposal are not this naked preparation-BATCH alternative. Shared III does not establish dose/batch identity."
+          },
+          "historical_source_rejected": false,
+          "id": "CLEAN_GAP_BX:gdt648_odaiin_rival",
+          "identity_status": "global_novelty_unknown",
+          "independent_new_idea": false,
+          "member_ids": [
+            "LEGACY_COMPONENT:6ad174e429668411dd89"
+          ],
+          "original_review_failure_reason": "Co-occurrence with another number field motivates batch rival, but dose and quality degree can coexist; neither is eliminated.",
+          "registry_context_ids": [
+            "GDT648"
+          ],
+          "review_file": "research_registry/decisions/clean_gap_review_bx_integrated.json",
+          "scope": {
+            "experiment": "GDT648",
+            "kind": "historical_source_bound_whole_form_candidate",
+            "limits": "Concrete historical proposal only on the report-bound text selection. Unresolved components remain unresolved; no global productive mapping, language identification, or scientific reopening.",
+            "reader_version": "V25"
+          },
+          "source_disposition": "retained_rival",
+          "source_rival_reason": "Co-occurrence with another number field motivates batch rival, but dose and quality degree can coexist; neither is eliminated.",
+          "status": "unconfirmed"
+        }
+      ],
+      "evidence": [
+        {
+          "line": 58,
+          "line_end": 70,
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/REPORT.md",
+          "quote": "### `odaiin`: ein alter Rest wird zum echten Ganzwort\n\nGDT636 kannte `odaiin` bereits als Körper in `podaiin`, `sodaiin`, `rodaiin`\nund `lodaiin`: Pulver-, Saat-, Wurzel- und Holzzubereitung, jeweils Dosis III.\nDer damalige Schutzwall verbot, daraus ohne eigenen Lauf ein nacktes Wort zu\nmachen. GDT648 führt nun genau diesen fehlenden Lauf aus: 55 nackte Belege,\n42 dreileser-exakt und drei neu geschlossene Zeilen.\n\nDer alte Wörterbucheintrag `odaiin@GDT636_REMAINDER` bleibt unverändert; neu\nkommt `odaiin@GDT648_EXACT_WHOLE` hinzu. Das ist keine globale Restregel.\n„Zubereitungscharge III“ bleibt ernst, weil `odaiin` in 17 Zeilen neben einem\nweiteren Zahlenfeld steht. Dosis und Qualitätsgrad können aber auch gemeinsam\nauftreten und sind daher nicht automatisch doppelt.",
+          "sha256": "86faa123f0f26671e5815e4bd63db78dca3047c4947959805260853f18c8761f"
+        }
+      ],
+      "card_basis": "2509b3d10a928616997c94e9f699b8719af97bc28804d31af5bf4142625de812",
+      "effective_basis": "f1f58f99fe57f9440799f3eccbd240237dc3aff20dac030c7ae50cd05fd5ae6f"
+    },
+    {
+      "id": "SEM:cc27807d7fa798230ec3",
+      "claim": "odaiin → Kopfstoffzubereitung, Dosis III",
+      "cases": [
+        {
+          "claim_type": "lexical_hypothesis",
+          "form_or_model": "odaiin",
+          "id": "CLEAN_COMPONENT:3bae021ba3742243122b",
+          "limitations": "Original alternatives, negation and limits remain in the evidence quote. No software PASS or inherited working vocabulary establishes a confirmed meaning.",
+          "member_ids": [
+            "LEGACY_COMPONENT:3b1cbc882c5c364adcee"
+          ],
+          "proposed_value_or_model": "Kopfstoffzubereitung, Dosis III",
+          "registry_context_ids": [
+            "GDT636"
+          ],
+          "review_basis": "conservative_assignment_rule_with_manual_pattern_audit",
+          "review_file": "research_registry/decisions/clean_component_review.json",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT636",
+            "section": "Die vollständige 19er-Tabelle",
+            "semantic_column": "konkrete Vierkopflesung",
+            "source": "experiments/yolo/gdt636_residual_four_head_semantics/REPORT.md"
+          },
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+          "status": "unconfirmed"
+        }
+      ],
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 39,
+          "line_end": 39,
+          "path": "experiments/yolo/gdt636_residual_four_head_semantics/REPORT.md",
+          "quote": "| `odaiin` | `o+d+a+III` | Zubereitungsdosis III | Kopfstoffzubereitung, Dosis III |",
+          "sha256": "cd031640976c12d169cb0058873d06f076a6abd1143a70e39ab1a56b46319a67",
+          "source_id": "LEGACY_COMPONENT:3b1cbc882c5c364adcee",
+          "source_section": "Die vollständige 19er-Tabelle",
+          "table_header": "| Rest | Zerlegung | kurzer Default | konkrete Vierkopflesung |"
+        }
+      ],
+      "card_basis": "6e091f94a737c5d45eaa3367c4bade2388a677b990e1de51d560cf48f9b3eaa6",
+      "effective_basis": "d986c07959ea5068b6cea7814ae095723b437a1295f58e68b55560c252951067"
+    }
+  ],
+  "case_results": [
+    {
+      "target": "SEM:0c6f4ea1745d0e53d44c",
+      "decision": "NO_ADD_ALREADY_PRECISE_CASE_FAILURE_MEMORY",
+      "historical_limit": "GDT648 withdrew an automatic s+heor seed-drug interpretation after preferring sh+e+or: heor is reported unattested in its selected panel while an SH series is reported present.",
+      "test_vs_meaning": "This is an internal segmentation/model revision. Neither independent semantic disproof of seed-drug nor confirmation of moist-drug-part follows. No event/source-token test was repeated here.",
+      "why_no_dossier": "Current claim itself says the old reading was withdrawn; its case already gives the exact segmentation rationale, historical_source_rejected flag, source_disposition and the no-global-refutation ceiling. A missing separate dossier row is not a missing substantive failure explanation.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/REPORT.md",
+          "line": 42,
+          "line_end": 56,
+          "quote": "### `sheor` und `keol`: zwei fehlende Zellen desselben Rasters\n\nDas E×OL/OR-Feld ist für K, T, CH und SH vollständig belegt:\n\n```text\ncheol  trockener Drogenstoff     cheor  trockener Drogenteil\nsheol  feuchtes Material         sheor  feuchter Drogenteil\nkol    heißes Material           keol   heißer Drogenstoff\nkor    heißer Teil               keor   heißer Drogenteil\n```\n\nDie wichtigste Parsekorrektur lautet **SH vor S**. `sheor` ist `sh+e+or`,\nnicht `s+heor`: Ein Stamm `heor` ist im Panel unbelegt, während die ganze\nSH-Reihe sichtbar ist. Damit entfällt die frühere automatische\n„Samendroge“-Glosse.",
+          "sha256": "86faa123f0f26671e5815e4bd63db78dca3047c4947959805260853f18c8761f"
+        }
+      ]
+    },
+    {
+      "targets": [
+        "SEM:f1a5d4569d1313e8c04d",
+        "SEM:d86c72033a7277baab26"
+      ],
+      "decision": "NO_ADD_LIVE_RIVAL_AND_LIMIT_ALREADY_ADDRESSABLE",
+      "historical_limit": "The report introduces a naked exact-whole dose-III reading separately from GDT636 head-bound remainder and keeps preparation-batch III as a serious rival because of another numerical field. It explicitly allows dose and quality grade to coexist, so doubled numerical values are not automatic contradictions.",
+      "test_vs_meaning": "Observed/context-count assertions belong to the historical report. No named unit, dose identity, semantic falsifier or victorious batch value is independently established. The report explicitly preserves f10r.12 as a visible semantic rival, not a suppressed success.",
+      "why_no_dossier": "The exact-whole card already limits itself to V25 and unconfirmed meaning; the current batch card explicitly stores the co-occurrence motivation, lack of elimination and retained-rival disposition. These complementary current cards already retain the narrow substantive distinction. Adding a generic missing-binding dossier would not add a distinct tested failure or revision.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/REPORT.md",
+          "line": 58,
+          "line_end": 70,
+          "quote": "### `odaiin`: ein alter Rest wird zum echten Ganzwort\n\nGDT636 kannte `odaiin` bereits als Körper in `podaiin`, `sodaiin`, `rodaiin`\nund `lodaiin`: Pulver-, Saat-, Wurzel- und Holzzubereitung, jeweils Dosis III.\nDer damalige Schutzwall verbot, daraus ohne eigenen Lauf ein nacktes Wort zu\nmachen. GDT648 führt nun genau diesen fehlenden Lauf aus: 55 nackte Belege,\n42 dreileser-exakt und drei neu geschlossene Zeilen.\n\nDer alte Wörterbucheintrag `odaiin@GDT636_REMAINDER` bleibt unverändert; neu\nkommt `odaiin@GDT648_EXACT_WHOLE` hinzu. Das ist keine globale Restregel.\n„Zubereitungscharge III“ bleibt ernst, weil `odaiin` in 17 Zeilen neben einem\nweiteren Zahlenfeld steht. Dosis und Qualitätsgrad können aber auch gemeinsam\nauftreten und sind daher nicht automatisch doppelt.",
+          "sha256": "86faa123f0f26671e5815e4bd63db78dca3047c4947959805260853f18c8761f"
+        },
+        {
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/REPORT.md",
+          "line": 147,
+          "line_end": 154,
+          "quote": "```text\nf89v1.12 qokar odaiin\n          Heiße Portion; Zubereitungsdosis III.\n```\n\nf10r.12 enthält Dosis III neben einem weiteren Grad-/Maßwert III und bleibt\ndeshalb ein sichtbarer Bedeutungsrivale, kein verschwiegener Erfolg. f75r.46\nist in der Lesergrenze instabil. Beide stehen vollständig im Artefakt.",
+          "sha256": "86faa123f0f26671e5815e4bd63db78dca3047c4947959805260853f18c8761f"
+        }
+      ]
+    },
+    {
+      "target": "SEM:cc27807d7fa798230ec3",
+      "decision": "SCOPE_BOUNDARY_NAVIGATION_ONLY_NOT_PRIMARY_REVIEWED",
+      "reason": "Current GDT636 head-bound remainder case was checked only to prevent assigning GDT648 naked-whole costs to it. Its own GDT636 primary report was not reopened; no fresh conclusion about that earlier hypothesis. Its scope is not merged with the new naked-whole declaration."
+    }
+  ],
+  "conclusion": "No new scoped dossier proposed. Absence of a dossier target alone does not warrant duplicating precise current source-case memory. One withdrawn automatic gloss and one unresolved dose/batch contrast already retain their materially different limits; the nominally generic dose-card ceiling is complemented by the explicitly addressable rival case.",
+  "validation": {
+    "fresh_current_bases": "PASS",
+    "source_quotes_and_file_sha256": "PASS",
+    "source_case_specific_failure_and_rival_fields": "INSPECTED",
+    "new_cards": 0,
+    "new_dossiers": 0,
+    "operative_mutation": false
+  },
+  "limits": [
+    "No raw/event tables, images, web, new experiments or old runner execution.",
+    "Historical report claims are not new native observations or verified measurements.",
+    "No new reopening conditions or unchanged-model rerun proposed. Existing dossier gates and source-case assessments remain untouched."
+  ]
+}

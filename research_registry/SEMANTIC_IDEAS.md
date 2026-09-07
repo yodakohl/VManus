@@ -14,12 +14,12 @@ They remain in the source archive. No hypothesis becomes executable by inclusion
 | Reviewed source cases, including the correction archive | 4,639 |
 | Archived source-extraction errors | 44 |
 | Exact normalized assertion repetitions grouped | 477 |
-| Reviewed equivalence groups / display reduction | 50 / 59 |
-| Public semantic display entries | 3,794 |
+| Reviewed equivalence groups / display reduction | 51 / 60 |
+| Public semantic display entries | 3,793 |
 
 These are different units, not a deduplicated total of independent theories.
 A local ignored supplement contributes95 semantic cards and one formal card;
-the ordinary local default therefore displays3,889 semantic entries. A fresh
+the ordinary local default therefore displays3,888 semantic entries. A fresh
 public clone has the public view only. Local source files and quotes are not
 published or silently folded into public counts.
 
@@ -55,14 +55,14 @@ paragraph does not automatically make every subclaim independently addressable;
 an atomic gloss does not cover a complete multi-card model.
 
 Whitespace and backtick typography alone are normalized for exact assertions.
-Explicit equivalence decisions add50 groups without deleting any original ID.
+Explicit equivalence decisions add51 groups without deleting any original ID.
 The identity log also retains six related-but-distinct links,30 rival links and
 two specializations. Conflicting nonidentity blocks transitive merging; changed
 claim or case bindings require a new review. Shared spelling, shortened wording
 or a matching source title alone proves neither identity nor nonidentity.
 
 Before selecting another identity comparison, consult `IDENTITY_REVIEW_INPUTS.json`
-and the current operative identity log. The manifest records forty hashed review
+and the current operative identity log. The manifest records forty-two hashed review
 inputs, including earlier proposal and peer formats missed by the narrower DO
 selection list. It is a bounded coverage receipt, not an automatic pair verdict.
 Update it when new identity reviews are added; distinguish an old recommendation
@@ -91,7 +91,7 @@ not mean rejected, and an old source PASS does not confirm a meaning.
 
 ## Failure memory and conditional priorities
 
-Forty scoped question dossiers distinguish empirical failure, invalid test,
+Forty-one scoped question dossiers distinguish empirical failure, invalid test,
 insufficient capacity, missing meaning binding, proposal-only status and historical
 model revision. They appear before inherited experiment context under assessments.
 They state the actual compared subclaim, primary evidence, scope and changed-input
@@ -124,19 +124,18 @@ Later full-scope reviews and audit-only source comparisons live in the bounded
 `decisions/clean_gap_review_*.json` artifacts. An audit pointer does not add a
 source-case payload. Quote overlap alone never certifies complete review.
 
-Latest integrated packet: FE recovers the complete fixed eight-whole FLOW
-contract, beyond five existing lexical guesses. It preserves the unknown flowing
-subject, repeated pipe, speculative syntax and same-key coverage limitation.
-FF restores VAL-S's selected parent class under its existing ID; the subordinate
-alternatives and speculative ratings are neither four decoded words nor measured
-probabilities. FG groups exactly the two GDT814 retained N powder cases, preserving
-both source stages and excluding GDT813 and the competing copula/quality readings.
+Latest integrated packet: FJ groups the two unchanged GDT814 G copula cases,
+with the complete shared contract and no GDT813/Q/R merge. FK/FN records V79's
+later formal-first ET/PER policy on the two existing V78 word hypotheses. R1's
+provisional retention and R2/selection's preference remain distinct. Successful
+copying of a stipulated edition is neither a lexical proof nor word refutation.
+The source-specific dossier adds no new manuscript model.
 
-The FG producer's40-file list covered only36 of38 mandatory inputs plus four
-extras. Its peer completed the two missing S reviews; the42-file union found no
-prior target judgment. This corrects input coverage, not a semantic finding.
-The operative manifest now contains40 inputs after adding the two FG reviews.
-A073/A004 mappings remain available but uninspected, not missing source data.
+FL/FM primary checks retain three actual hypotheses and decline redundant
+dossiers for three already explicit GDT648 cases. FQ exposes these six no-op
+reviews through source-ID reassessment receipts, without duplicate cases or
+status changes. FM's GDT636 boundary pointer is explicitly not a new primary
+review. A073/A004 mappings remain available but uninspected, not missing data.
 
 Before adding a fuller model card, check whether an existing short card already
 names that uniquely defined historical source model. Compare its complete case

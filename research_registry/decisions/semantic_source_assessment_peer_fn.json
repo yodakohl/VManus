@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "review_id": "FN_PEER",
+  "status": "APPROVE_DOSSIER_WITH_FK_RECEIPT_ENDPOINT_FIX",
+  "source_artifacts": [
+    {
+      "path": "research_registry/decisions/semantic_source_assessment_fn.json",
+      "sha256": "ccf97e389c086dd23061b1ef03eee58f14e2e2278d6d3889115d409810a3509b"
+    },
+    {
+      "path": "research_registry/decisions/clean_gap_review_fk.json",
+      "sha256": "90489c211773688f50af99c401384068f7c577a8cad6cc0095343235243f431d"
+    }
+  ],
+  "dossier_decisions": [
+    {
+      "id": "SOURCE_ASSESSMENT_FN:V78_ET_PER_V79_TWO_LAYER_SELECTION",
+      "decision": "approve",
+      "targets": [
+        "SEM:64e7e5d817c96d8a0322",
+        "SEM:784c83cb4bf299a8690f"
+      ],
+      "card_basis": {
+        "SEM:64e7e5d817c96d8a0322": "2cdba7a5e0334fd850deea1d808aca3ca6029b22c344d194409223634d912eb0",
+        "SEM:784c83cb4bf299a8690f": "91f4336565d5ad83540f2bc097d9cee8e0bee4657091f1a9e23b94fa3a6a3608"
+      },
+      "effective_basis": {
+        "SEM:64e7e5d817c96d8a0322": "4f06e506e020821f77c31e5f8b72a92e474fc0b9c03b237e4e38b8bae0c69839",
+        "SEM:784c83cb4bf299a8690f": "89d0df6e4e083a4a2e655dd405117f72a3f0a291234326b594ca7bf43ec651e3"
+      },
+      "reason": "V78 explicitly assigns the two exact card IDs questioned ET/PER readings. V79R1 retains them provisionally, whereas R2 and selection prefer formal autonomous readback with optional master-supplied word glosses. This source-policy divergence is not already encoded by the bare lexical claims and is not a new content model. The proposed scoped dossier preserves real candidates and the later policy without rewriting them as nonword facts or assigning semantic failure.",
+      "scope_limits": [
+        "One creative-edition exercise and its readback controls, not four independent manuscript replications.",
+        "1/19 read-once match, nine visible/eight source positions and reversible form copying do not identify ET/PER or prove a universal catchword convention.",
+        "Historical codebook categories permit the question; their existence does not bind these exact Voynich cards. This peer checks the reported source distinction, not the external codebook anew.",
+        "No-master failure measures access to stipulated exemplar content, not an independent falsifier of manuscript lexical recoverability.",
+        "Reopening condition is explicitly prospective reviewer reasoning, not a newly recovered preregistration or permission to rerun.",
+        "Neither the V3 medium/matrix account of a related card nor any generic exemplar-production model inherits this V78/V79 verdict."
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v78/V78_R1_REPORT.md",
+          "line": 25,
+          "line_end": 43,
+          "quote": "## Feste Werkstattregel\n\nEin Lehrling erhält zwei übereinanderliegende Spuren.\n\n**Schreibspur**\n\n1. Kopiere jede exakte Karten-ID in der gegebenen Reihenfolge.\n2. Lies `dcda95c81a5460feb191` nur als `ET?`; im deutschen Arbeitslauf darf es ausschließlich `UND?` oder `AUCH?` werden.\n3. Lies `b5fcea1eaed06b2f2291` nur als `PER?`; im deutschen Arbeitslauf darf es ausschließlich `DURCH?` oder `GEMÄSS?` werden.\n4. Schreibe die beiden Karten `2f1c5e56e8f0ff459065` und `308e8ea2d5d190c498e8` nur als `[FORMAL; KEIN WORT]`. Der Lehrling darf ihnen weder Maß, Ziel noch irgendeinen anderen Wortwert geben.\n5. Jede andere Karte bleibt in der Literalspur `[EXEMPLARWERT UNBEKANNT]`.\n\n**Rücklesespur**\n\n1. Alles Konkrete aus Bildbesitzer, Mastervorlage oder früherer Arbeitsedition steht vollständig innerhalb `[EXEMPLAR:…]`.\n2. Fehlt ein Prädikat, ein Objekt oder ein Rückbezug, steht die Ergänzungsstelle nochmals als `[ELLIPSE:…]` in dieser Exemplarklammer.\n3. Ein Satz darf über physische Linien und Felder weiterlaufen, wenn V72 denselben Satzverband trägt.\n4. Bei einem sichtbaren Stationswechsel beginnt ein neuer lokaler Besitzer. Stoff, Ziel und Richtung werden nicht vererbt.\n5. Erst wird die Literalspur Karten für Karte kontrolliert; erst danach darf die Quellenausweitung flüssig gelesen werden.",
+          "sha256": "4d9f040fdba6b6339d046ec99186276e0f2134f0561363c69a8a878325b91d91"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v79/V79_FOUR_ROLE_SELECTION.md",
+          "line": 76,
+          "line_end": 105,
+          "quote": "## `ET?` and `PER?`: selected two-layer treatment\n\nThe four roles agree on form and disagree only on whether the two historical\nword candidates should be spoken during autonomous readback.\n\n### `dcda…`\n\n- Historical admissibility: Fi1 (1414) contains an actual whole-word codebook\n  category `et`; therefore `ET?` is allowed under the user's codebook rule.\n- Internal result: all 19 positions are equally compatible with a silent\n  `FORMAL_LINK_OR_SLOT`.\n- Selected operational value: `FORMAL_LINK_OR_SLOT`.\n- Optional master-supplied word gloss: `ET? = UND/AUCH?`.\n\n### `b5fcea…`\n\n- Historical admissibility: Fi1 (1414) contains an actual whole-word codebook\n  category `per`; therefore `PER?` is allowed under the same rule.\n- Mechanical result: nine visible cards become eight source positions after\n  the one read-once pair; the generic repair is reversible.\n- Internal result: `FORMAL_RELATION_OR_ENTRY_MARK_WITH_ENTRY_BIAS` is simpler\n  or tied and requires no semantic label.\n- Selected operational value:\n  `FORMAL_RELATION_OR_ENTRY_MARK_WITH_ENTRY_BIAS`.\n- Optional master-supplied word gloss: `PER? = DURCH/GEMÄSS?`.\n\nThis does not contradict the historical source. A period codebook establishes\nthat the categories existed, not that these two Voynich card identities encode\nthem. V80 must show the operational value first and the questioned word only as\na rival/master convention.",
+          "sha256": "1ca69213f5b2a984ec7fbccff339a39621d24c0170815b7b8b2dbdfc9e3d2cf8"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v79/V79_R1_REPORT.md",
+          "line": 150,
+          "line_end": 162,
+          "quote": "## Entzugsentscheidungen\n\n### ET?\n\n`RETAIN_PROVISIONAL__FORMAL_LINK_RIVAL_TIED`\n\nET? wird nicht entzogen, weil ein Lehrling alle 19 exakten Karten mit genau einer additiven Fragezeichenkategorie reproduzieren kann, ohne Zusatzsinn. Es wird nicht promoviert: Dieselbe formale Spur kann weiterhin ein stummer Link oder Slotfüller sein. Formrückgewinnung entscheidet diese Alternative nicht.\n\n### PER?\n\n`RETAIN_ON_PROBATION__VISIBLE_CARRY_RULE_TP1_FP0_FN0__FORMAL_OR_DITTOGRAPHY_RIVAL_LIVE`\n\nPER? wird in dieser Runde nicht entzogen, weil die vorab verlangte lokusfreie Carry-Regel auf allen 19 Übergängen ohne FP/FN funktioniert und E180/E181 reversibel macht. Es wird nicht promoviert. Die Evidenz besteht aus genau einem positiven Carry-Fall; ein formaler Feldanfangs-/Resetmarker oder bloße Dittographie bleibt mindestens ebenso möglich.",
+          "sha256": "4a6416ff47495ee191966079354bff4e02dee6213b9b9dcf9a18fcb335b6abef"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v79/V79_R2_APPRENTICE_WORKFLOW_REPORT.md",
+          "line": 3,
+          "line_end": 25,
+          "quote": "## Ergebnis\n\nDer formale Kopier- und Rückleseablauf ist mit einem Masterexemplar lehrbar;\neine konkrete Bedeutungsfortsetzung ohne Masterexemplar ist es nicht. Alle 19\naussageninternen physischen Zeilenübergänge wurden vor jeder Bedeutungsdeutung\ngeprüft. Nur **E180→E181** erfüllt gleichzeitig dieselbe exakte Karte,\ndenselben sichtbaren Owner, keinen `Close` und keinen Owner-Reset.\n\nFür dieses eine sichtbare Paar gilt daher eine **lokale\nanticipation/carry/dittography-Hypothese**: Beide Schriftbilder bleiben erhalten,\naber die erste Kopie wird nicht als zweiter Quelltoken gelesen. Das ist **kein\nbelegter Standard-Catchword** und keine allgemeine Kustodenregel. Absichtliche\nVorausnahme und versehentliche Dittographie bleiben bei einem einzigen Beispiel\nbeobachtungsmäßig unentscheidbar.\n\nDie interne Rückleseentscheidung lautet:\n\n- `dcda…`: `FORMAL_LINK`; `ET?` nur, falls ein Master/Schlüssel genau diese\n  Zuordnung vorgibt.\n- `b5fcea…`: `FORMAL_RELATION_OR_ENTRY_MARK_WITH_ENTRY_BIAS`; `PER?` nur,\n  falls ein Master/Schlüssel genau diese Zuordnung vorgibt.\n\nEs wird keine neue portable Wortbedeutung eingeführt.",
+          "sha256": "60896a04fcfeb9f66b8bb9d9caee414dc4ace52ddaaaadf5f67efbdc665731e3"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v79/V79_FOUR_ROLE_SELECTION.md",
+          "line": 70,
+          "line_end": 74,
+          "quote": "R3's combined machine test therefore reconstructs 137 exact formal atoms both\nwith and without the master (104 visible prose cards plus 33 Astro groups).\nBut without the master it recovers **0/103** concrete prose source positions\nand **0/28** concrete Astro values. With the master, the meanings are retrieved\nby lookup, not inferred from the script.",
+          "sha256": "1ca69213f5b2a984ec7fbccff339a39621d24c0170815b7b8b2dbdfc9e3d2cf8"
+        }
+      ]
+    }
+  ],
+  "FK_decisions": [
+    {
+      "source_id": "LEGACY_PROPOSAL:071379ece057db4aa0d760cd",
+      "decision": "approve_source_only_reassessment",
+      "reason": "Original heading is not a separate semantic proposition. The specifically open ET/PER policy question is resolved by FN as an assessment of existing two word candidates; this does not label every proposition anywhere in the full report as nonsemantic. No new initial intake or model card."
+    },
+    {
+      "source_id": "LEGACY_PROPOSAL:1d2c807a93ffec083ba8d2c5",
+      "decision": "approve_source_only_reassessment",
+      "reason": "Original heading is not a separate semantic proposition. The specifically open ET/PER policy question is resolved by FN as an assessment of existing two word candidates; this does not label every proposition anywhere in the full report as nonsemantic. No new initial intake or model card."
+    },
+    {
+      "source_id": "LEGACY_PROPOSAL:2ed5a7a9068760d4364cb984",
+      "decision": "approve_source_only_reassessment",
+      "reason": "Original heading is not a separate semantic proposition. The specifically open ET/PER policy question is resolved by FN as an assessment of existing two word candidates; this does not label every proposition anywhere in the full report as nonsemantic. No new initial intake or model card."
+    }
+  ],
+  "open_comparison_resolution": "Approve resolved_as_source_assessment_of_existing_exact_cards; zero new model/lexical cards and zero new initial dispositions.",
+  "duplicate_check": {
+    "revision_rows": 41,
+    "latest_scoped_dossiers": 40,
+    "exact_target_matches": 0,
+    "V78_V79_existing_scope_matches": 0,
+    "count_limit": "Revision count is not a count of independent scientific questions."
+  },
+  "validation": {
+    "fresh_card_bases": true,
+    "current_whole_cases": 2,
+    "current_case_evidence_spans": 2,
+    "primary_dossier_spans": 5,
+    "FK_source_receipts": 3,
+    "all_quotes_SHA": true,
+    "line_endpoints_match": false,
+    "endpoint_fixes": [
+      {
+        "path": "experiments/yolo/sidequest_theory_candidates_v79/V79_FOUR_ROLE_SELECTION.md",
+        "line": 1,
+        "recorded_line_end": 25,
+        "correct_line_end": 24,
+        "reason": "Trailing newline is not an additional quoted source line under splitlines contract; quoted text and SHA match."
+      }
+    ],
+    "old_initial_dispositions_and_FK_hash": true
+  },
+  "operational_mutation": false,
+  "new_cards": 0,
+  "new_experiment": false,
+  "images_read": false,
+  "raw_event_data_read": false
+}

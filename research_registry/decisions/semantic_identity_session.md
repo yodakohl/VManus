@@ -441,3 +441,16 @@ FH/FI completion: read-only identity-inputs guard with bounded diagnostics;
 comparison to earlier FG distinguishes later FG additions from omitted S reviews.
 FI declines redundant dossier after primary818/827 review: no new question beyond
 FE obligations. No manuscript finding. FJ and FK/FN remain pending next packet.
+
+FJ–FN/FQ packet: one GDT814 copula equivalence and one two-target V78/V79
+source-policy dossier; no new cards. FK three source-only reassessments preserve
+old heading intakes; root endpoint1–24 correction. FQ six source-ID receipts
+make FL/FM no-op primary audits discoverable without duplicated cases, excluding
+FM GDT636 navigation-only pointer. Counts expected4118active3853semantic265formal,
+4639cases,51equivalence groups/60reductions,38otherrelations,41dossierkeys.
+Current identity-input manifest42; historical40 preserved in94a91cbd.
+
+FJ–FN/FQ validation: current exact source/operative/source-preservation audits
+PASS,41 scoped questions and9 priorities remain unready. FQ uses existing
+recorded-decision vocabulary and full-selected-span markers; source-ID lookup
+returns the no-op rationale. No new card cases or source bytes changed.
