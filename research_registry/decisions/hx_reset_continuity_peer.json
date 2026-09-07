@@ -1,0 +1,100 @@
+{
+  "id": "HX_RESET_CONTINUITY_PEER",
+  "scope": "Bounded source/design review of IDEA000001 and IDEA000002 with DIC001 and released owner-spine scope. No corpus, raw TSV, manuscript or registry mutation.",
+  "findings": [
+    {
+      "id": "IDEA000001",
+      "title": "Drawing interruptions reset inherited process state",
+      "design_binding": {
+        "contrast": "interruption versus equal-count, position- and folio-matched ordinary gap; include section and line-position nuisance controls",
+        "falsifier": "No held-folio interaction after controls, or an effect explained by page position/line length alone, falsifies the reset-state mechanism; do not rescue it by changing boundary thresholds.",
+        "mechanism": "A drawing interruption clears the active owner/item state and begins a new process segment; ordinary transcription spaces do not.",
+        "prediction": "After interruptions, first fields have higher rates of explicit owner/item introduction and lower anaphoric continuation than after matched ordinary gaps, replicating across held folios and alternate readings.",
+        "related": "DIC001_drawing_interruption_target; drawing_reset_segment_atlas; DIC001 limitations explicitly prohibit picture-ownership or translation claims",
+        "scope": "cached admitted transcription and DIC001/segment-atlas boundary inventory only; feasibility unknown for a clean owner/item coding panel",
+        "unit": "eligible interruption and matched ordinary gap on the same folio/page, with adjacent cached fields"
+      },
+      "assessment": "DIC001 already establishes the structural reset-likeness contrast, but does not answer this semantic proposal. Its own claim ceiling excludes ownership, words, meaning and translation, while IDEA000001 requires independently coded owner/item reintroduction and anaphoric continuation. The proposed falsifier is therefore valid only for the observable owner/item coding model; a null cue difference cannot logically falsify every semantic reset, because reset may be nonlexical, implicit, or incorrectly operationalized. Current feasibility remains unknown as the idea says; stop before a test unless an independent owner/item panel is frozen.",
+      "tested_vs_not_tested": "DIC001 tested drawing-interruption versus ordinary-space family-edge shape with nuisance controls; the segment atlas tested/preserved structural reset segmentation. Neither tested owner/item recurrence, anaphora, or semantic state.",
+      "smallest_adequate_falsifier_or_stop": "Freeze owner/item and item-continuation labels independently of DIC001, with inter-rater provenance, then use held folio/page-matched interruptions and ordinary gaps. If no independent panel exists, stop; do not treat DIC001 as the missing semantic endpoint.",
+      "evidence": [
+        {
+          "path": "research_registry/ideas.jsonl",
+          "line": 1,
+          "line_end": 1,
+          "quote": "{\"aliases\":[],\"blockers\":[],\"design\":{\"contrast\":\"interruption versus equal-count, position- and folio-matched ordinary gap; include section and line-position nuisance controls\",\"falsifier\":\"No held-folio interaction after controls, or an effect explained by page position/line length alone, falsifies the reset-state mechanism; do not rescue it by changing boundary thresholds.\",\"mechanism\":\"A drawing interruption clears the active owner/item state and begins a new process segment; ordinary transcription spaces do not.\",\"prediction\":\"After interruptions, first fields have higher rates of explicit owner/item introduction and lower anaphoric continuation than after matched ordinary gaps, replicating across held folios and alternate readings.\",\"related\":\"DIC001_drawing_interruption_target; drawing_reset_segment_atlas; DIC001 limitations explicitly prohibit picture-ownership or translation claims\",\"scope\":\"cached admitted transcription and DIC001/segment-atlas boundary inventory only; feasibility unknown for a clean owner/item coding panel\",\"unit\":\"eligible interruption and matched ordinary gap on the same folio/page, with adjacent cached fields\"},\"events\":[],\"id\":\"IDEA000001\",\"kind\":\"idea\",\"relations\":[],\"reopen\":{\"all_of\":[],\"not_sufficient\":[],\"policy\":\"unreviewed\"},\"review_status\":\"imported_unreviewed\",\"scope\":\"semantic\",\"source_status\":\"NEW_PROPOSAL\",\"sources\":[],\"summary\":\"Test whether the 440 unanimous drawing interruptions define a semantic state reset: the first complete field after an interruption should reintroduce an owner or item cue, while an ordinary same-page gap should usually continue the prior state. This retains DIC001's distributed-reset result and the drawing-reset segment atlas, but does not infer picture ownership, words, or translation.\",\"title\":\"Drawing interruptions reset inherited process state\",\"verdict\":\"untested\"}",
+          "sha256": "f43842f6c57fc358398d627dbb7ce9915ae6770c973134f360252e6779ad24db"
+        }
+      ]
+    },
+    {
+      "id": "IDEA000002",
+      "title": "Ordinary line breaks preserve local owner and item state",
+      "design_binding": {
+        "contrast": "ordinary line break without interruption versus matched within-line continuation and interruption-adjacent line break",
+        "falsifier": "A line-break penalty equal to or larger than the interruption penalty, replicated in held folios, falsifies nonreset continuity; do not reinterpret line ends as clauses after the fact.",
+        "mechanism": "Physical line layout is not a semantic closure boundary; state continuity is broken by drawing interruption, not by line ending.",
+        "prediction": "Owner/item recurrence and compatible argument slots remain continuous across ordinary line breaks at rates comparable to within-line continuations, but drop after interruptions; section-specific classes remain separate.",
+        "related": "DIC001_drawing_interruption_target; drawing_reset_segment_atlas; SIDEQUEST_scribe_memory (historical proposal only); GDT791 line-boundary correction",
+        "scope": "cached 30-page owner-spine and admitted prose selectors; feasibility unknown for complete state labels outside the released owner panel",
+        "unit": "adjacent line pairs within cached running prose, stratified by interruption status and folio"
+      },
+      "assessment": "IDEA000002 asks a genuinely different state-transition question from DIC001: whether ordinary line breaks preserve an active owner/item state while interruptions reset it. GDT791 supports record-local structural boundaries and quarantines cross-boundary inheritance; it does not provide a complete independent owner/item panel. A line-break penalty equal to an interruption penalty would challenge the proposed nonreset continuity contrast, but absence of recurrence cannot falsify all continuity because topic/state changes can coincide with ordinary line breaks. The design is therefore conditionally meaningful but not currently test-ready.",
+      "tested_vs_not_tested": "DIC001 tested reset-like family-edge shape, not line-break continuity. GDT791 tested/repaired record and panel boundary precedence and quarantined two inherited aliases; it did not test semantic owner persistence across ordinary line breaks.",
+      "smallest_adequate_falsifier_or_stop": "Freeze independent owner/item labels and matched within-line, ordinary-line-break, and interruption-adjacent pairs, stratified by record/folio/section, with held folios. Use the predeclared interruption-versus-line-break interaction; do not reinterpret line ends as clauses.",
+      "evidence": [
+        {
+          "path": "research_registry/ideas.jsonl",
+          "line": 2,
+          "line_end": 2,
+          "quote": "{\"aliases\":[],\"blockers\":[],\"design\":{\"contrast\":\"ordinary line break without interruption versus matched within-line continuation and interruption-adjacent line break\",\"falsifier\":\"A line-break penalty equal to or larger than the interruption penalty, replicated in held folios, falsifies nonreset continuity; do not reinterpret line ends as clauses after the fact.\",\"mechanism\":\"Physical line layout is not a semantic closure boundary; state continuity is broken by drawing interruption, not by line ending.\",\"prediction\":\"Owner/item recurrence and compatible argument slots remain continuous across ordinary line breaks at rates comparable to within-line continuations, but drop after interruptions; section-specific classes remain separate.\",\"related\":\"DIC001_drawing_interruption_target; drawing_reset_segment_atlas; SIDEQUEST_scribe_memory (historical proposal only); GDT791 line-boundary correction\",\"scope\":\"cached 30-page owner-spine and admitted prose selectors; feasibility unknown for complete state labels outside the released owner panel\",\"unit\":\"adjacent line pairs within cached running prose, stratified by interruption status and folio\"},\"events\":[],\"id\":\"IDEA000002\",\"kind\":\"idea\",\"relations\":[],\"reopen\":{\"all_of\":[],\"not_sufficient\":[],\"policy\":\"unreviewed\"},\"review_status\":\"imported_unreviewed\",\"scope\":\"semantic\",\"source_status\":\"NEW_PROPOSAL\",\"sources\":[],\"summary\":\"Test the rival to a line-as-clause reading: when no DIC001 drawing interruption occurs, a line break should preserve the active owner/item state into the next line, while an interruption should reset it. The proposal uses the same admitted segment and visual-owner scope but asks a different state-transition question from DIC001.\",\"title\":\"Ordinary line breaks preserve local owner and item state\",\"verdict\":\"untested\"}",
+          "sha256": "f43842f6c57fc358398d627dbb7ce9915ae6770c973134f360252e6779ad24db"
+        }
+      ]
+    }
+  ],
+  "shared_primary_evidence": [
+    {
+      "path": "experiments/semantic_assumptions/results/dic001_drawing_interruption_target_report.md",
+      "line": 1,
+      "line_end": 7,
+      "quote": "# DIC001 drawing-interruption target\n\nStatus: **CONFIRMED_DISTRIBUTED_RESET_LIKENESS**.\n\nAcross **59** equally weighted physical folios, raw reset-likeness is **0.445162** (p **0.000015**) and nuisance-residual reset-likeness is **0.280449** (p **0.000076**); **44/59** residual folios are positive. Currier A/B residual effects are **0.287434/0.257995**, and Herbal/non-Herbal effects are **0.276649/0.308677**.\n\nDrawing interruptions have a distributed local family-edge shape more like known continuation-line restarts than same-page ordinary spaces, beyond frozen position, group-count, page, and length nuisance fields; no ownership, word boundary, word, sound, POS, meaning, plaintext, language, cipher, or translation follows.",
+      "sha256": "49aee3741d9e7690c6b463304f903d72e2b321a02da531b05e9dbbdbb67596ab"
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/drawing_reset_segment_atlas_report.md",
+      "line": 1,
+      "line_end": 7,
+      "quote": "# Drawing-reset segment atlas\n\nStatus: **PASS_COMPLETE_DIC001_SEGMENTATION**.\n\nThe atlas preserves all **23,281** groups in **3,572** physical loci and splits **440** confirmed drawing-reset boundaries into **4,012** segments. **375** loci contain at least one split; the maximum is **5** segments in one locus.\n\nThis corrects structural unit boundaries only. It does not assign either side to the illustration and supplies no word, meaning, plaintext, or translation.",
+      "sha256": "302bd9f7f053b945fe2f4cfa8a241888fc7c3a6113d87e6afcc273debef46ed5"
+    },
+    {
+      "path": "experiments/semantic_assumptions/DIC001_DRAWING_INTERRUPTION_TARGET_PREREGISTRATION.md",
+      "line": 57,
+      "line_end": 66,
+      "quote": "## Decision and claim ceiling\n\nAll gates passing gives `CONFIRMED_DISTRIBUTED_RESET_LIKENESS`: text groups on\nopposite sides of drawings have a distributed local edge shape more like known\ncontinuation restarts than same-page ordinary spaces, beyond the frozen nuisance\nprojection.  A failed gate gives `FINAL_NONCONFIRMATION`: the fixed reset-like\ncontrast is not established; this is not proof that text continues through a\ndrawing.  Neither outcome establishes that adjacent text names or describes the\ndrawing, nor any word boundary, word, sound, POS, meaning, plaintext, language,\ncipher, or translation.",
+      "sha256": "555826495df936778840e73a56e88213ea5da461ab2f1bd5a6ee21ad19e23a80"
+    },
+    {
+      "path": "experiments/semantic_assumptions/DRAWING_RESET_SEGMENT_ATLAS_SPEC.md",
+      "line": 10,
+      "line_end": 16,
+      "quote": "Do not split at uncertain, mixed, or unaligned drawing profiles.  Do not merge\nphysical loci, infer picture ownership, or reinterpret definite spaces as\nEuropean word boundaries.  ZL3b/IT2a/RF1b remain alternate readings of one\nmanuscript.\n\nThe atlas is segmentation infrastructure.  Segment positions are structural\ncoordinates, not POS, sentence roles, words, meaning, plaintext, or translation.",
+      "sha256": "3abffcb352c900992872c08a8a9bc8b53a8fd7851cb18615629efd10a1d3beff"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/REPORT.md",
+      "line": 48,
+      "line_end": 58,
+      "quote": "Only the f77r crossing carries concrete inheritance across the boundary. Two\naliases transfer CH action and Y object from `qolchy` at f77r.24/F77_P1 to\n`otedy` at f77r.25/F77_P2. A third raw focus governor crosses the same edge, but\nits effective host is already the local `CONTROL:G407-E2535:OT>G<DY` envelope.\nThe two aliases are quarantined, the raw governor is clipped and the local\ncontrol host survives. Consequently the inherited rendering “take the same\nstation item” is removed from `otedy`; no replacement translation is invented.\n\nThe remaining 460 concrete aliases stay inside their record. All 283 source-free\nowner defaults are reparented to the local record owner rather than allowed to\nfloat at page level.",
+      "sha256": "9e185152b625a51a755b3fb12c425542cb59ce89d4121223e6ce07a037350150"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/REPORT.md",
+      "line": 60,
+      "line_end": 66,
+      "quote": "## Exact label/prose reuse\n\nAll ten GDT790 exact label/prose bridges cross panel owners, including the three\nsame-page edges. They remain a separate `EXACT_STRING_REFERENCE` graph with\nzero record-merge and zero meaning-transfer credit. In particular, exact reuse\ncan nominate `otedy` or `okal` for a host-distribution test, but it cannot join\ntheir source and target panels or supply a gloss.",
+      "sha256": "9e185152b625a51a755b3fb12c425542cb59ce89d4121223e6ce07a037350150"
+    }
+  ]
+}

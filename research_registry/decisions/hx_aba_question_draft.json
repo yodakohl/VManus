@@ -1,0 +1,81 @@
+{
+  "id": "FAILURE_HX:ABA_NORMALIZED_RETURN_FRAME:v1",
+  "decision_key": "FAILURE_HX:ABA_NORMALIZED_RETURN_FRAME",
+  "revision": 1,
+  "previous_revision": null,
+  "status": "reviewed_scoped_context",
+  "review_status": "reviewed_scoped_context",
+  "reviewer": "root after exact225/224source and independent logical challenge",
+  "targets": [
+    "SEM:a67fe04d412da478fd34"
+  ],
+  "card_basis": {
+    "SEM:a67fe04d412da478fd34": "3adacef8dc70dc1fcab293384be0cf85f53300d1b85f1b1b716b4f2303d1fe24"
+  },
+  "effective_basis": {
+    "SEM:a67fe04d412da478fd34": "d428cebb09fe854cbc3b38626e6b02381e2d3775514b6bb089dfc9d09224bea4"
+  },
+  "source_case_ids": {
+    "SEM:a67fe04d412da478fd34": [
+      "CLEAN_GAP_AO:aba_state_retention"
+    ]
+  },
+  "original_assertion": {
+    "SEM:a67fe04d412da478fd34": "Pass225 reads its nine A–B–A windows as maintaining the same outer referent or work state during the middle operation: continue–brief warming–continue retains the ongoing process, item–processing–item retains the item, and prescribed value–long target operation–prescribed value maintains that value during the operation."
+  },
+  "claim": "Does Pass225 independently identify preservation or resumption of the same referent/work state in the nine normalized ABA windows?",
+  "scope": "Pass224/225nine normalized-card windows anddeterministicreaderintegration; rawIDEA7hasdifferentexactwhole scope.",
+  "reason_class": "authored_construction_and_unit_mismatch_not_semantic_test",
+  "actually_tested_falsifier": "224enumeratesnineequalnormalizedoutercardwindows;225groups381eventsinto354singlecardsand9frames=363units andrewrites9of116statements. Sixofnineprintedtripleshaveequalendpointstrings; threesurfacepairsdiffer.",
+  "outcome": "Same normalizedcardandGermanworkingstateexpansionsdonotindependentlyidentifyreferentialretention. The6/9printedcomparison is sourceprecisiononly, notrawreaderparity/capacity. GDT573is aseparatewithin-cardGermanpronounrenderer andcannot supplyreferencegold. No empiricalrefutationofresumptionorwithdrawalofsurfacepattern.",
+  "claim_ceiling": "Source/designaudit only; no newmanuscriptexperiment ormeaning andnoautomaticcrosscardverdict.",
+  "evidence": [
+    {
+      "path": "experiments/yolo/sidequest_semantic_aba_return_frame_two_hundred_twenty_fourth/TWO_HUNDRED_TWENTY_FOURTH_REPORT.md",
+      "line": 1,
+      "line_end": 11,
+      "quote": "# Zweihundertvierundzwanzigster Durchgang: A–B–A ist ein Rückkehrrahmen\n\nDie 381 Prosaereignisse enthalten neun exakte A–B–A-Fenster. In jedem Fall ist die äußere normalisierte Karte identisch. Die Fenster verteilen sich auf vier Referentenrückkehr-, drei Fortsetzungsrückkehr-, einen Werterhaltungs- und einen Handlungswiederholungsfall.\n\nDie gemeinsame Werkstattregel ist einfach und lehrbar:\n\n> A aktivieren, B darauf anwenden, danach exakt dasselbe A wiederaufnehmen.\n\nDamit bekommt die Symmetrie einen konkreten Sinn, ohne den Mittelwert umzudefinieren. `Y–AIIN–Y` heißt nicht, dass `AIIN` selbst „gleich“ bedeutet. Es heißt, dass derselbe aktuelle Posten über den Sollwert hinweg aktiv bleibt. Bei zwei sichtbaren oder textlich gesetzten Posten kann die lokale Expansion dennoch Gleichbehandlung sein.\n\nAls nächstes wird diese Rückkehrregel in die Satzgrammatik aufgenommen. Dann werden alle 116 Aussagen erneut segmentiert, sodass A–B–A als ein einzelner Rahmenbaustein statt als drei lose Wörter gelesen wird.",
+      "sha256": "2c634b4fb129de3c8bf9fce4fd886bda36a5dad160dada87234ed492323460ac"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_aba_return_frame_two_hundred_twenty_fourth/TWO_HUNDRED_TWENTY_FOURTH_ABA_RETURN_RULE.md",
+      "line": 7,
+      "line_end": 59,
+      "quote": "## ABA01 · H2-S001\n\n`chy taiin shy` → **dies > Sollwert > dies**\n\nDiesen Posten auf Sollwert setzen und als denselben Posten weiterführen.\n\n## ABA02 · H2-S002\n\n`chol cholor chol` → **weiter > derselbe Ansatz > weiter**\n\nWeiter im selben Ansatz, dann den Fortgang wieder aufnehmen.\n\n## ABA03 · H2-S003\n\n`chy kaiiin dy` → **dies > Bearbeitungsstufe > dies**\n\nDiesen Posten durch die Bearbeitungsstufe führen und als denselben Posten halten.\n\n## ABA04 · H3-S003\n\n`chy kchy dy` → **dies > Bearbeiten > dies**\n\nDiesen Posten bearbeiten und als denselben Posten weiterführen.\n\n## ABA05 · B1-S002\n\n`daiin qokeedal daiin` → **Sollwert > Langer Zieleinsatz > Sollwert**\n\nDen Sollwert während des langen Zieleinsatzes beibehalten.\n\n## ABA06 · B1-S008\n\n`ol cheky ol` → **weiter > kurz wärmen > weiter**\n\nDen laufenden Gang kurz wärmen und danach denselben Gang fortsetzen.\n\n## ABA07 · B2-S011\n\n`okain char okain` → **Anteil zugeben > davon > Anteil zugeben**\n\nEinen Anteil zugeben, davon nehmen und denselben Zugabegang wiederholen.\n\n## ABA08 · B3-S003\n\n`chey daiin chey` → **dies > Sollwert > dies**\n\nDiesen Bestand auf Sollwert setzen und als denselben Bestand weiterführen.\n\n## ABA09 · B6-S001\n\n`ol daiin ol` → **weiter > Sollwert > weiter**\n\nDen laufenden Gang auf Sollwert bringen und danach fortsetzen.",
+      "sha256": "6c4c4dc75792120791a6a955de629bdbab158550d2a60a6f9ee3e640fb44fc9b"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_aba_integrated_statements_two_hundred_twenty_fifth/TWO_HUNDRED_TWENTY_FIFTH_REPORT.md",
+      "line": 1,
+      "line_end": 9,
+      "quote": "# Zweihundertfünfundzwanzigster Durchgang: Rückkehrrahmen integriert\n\nDie neun A–B–A-Fenster werden nun als je eine Leseeinheit behandelt. Aus 381 sichtbaren Karten entstehen 363 Satzeinheiten: 354 Einzelkarten und neun Rückkehrrahmen. Alle Ereignisse bleiben genau einmal erhalten.\n\nDie wichtigste sprachliche Wirkung ist Kompression. `weiter – kurz wärmen – weiter` wird zu „denselben laufenden Gang kurz wärmen und weiterführen“. `dies – bearbeiten – dies` wird zu „denselben Posten bearbeiten und behalten“. `Sollwert – langer Zieleinsatz – Sollwert` wird zu „denselben Sollwert während des langen Zieleinsatzes halten“.\n\nNur neun Aussagen werden neu formuliert; die übrigen 107 bleiben unverändert. Damit ist der Rahmen eine kleine produktive Konstruktion und keine Universalgrammatik.\n\nAls nächstes werden die wiederholten Doppelungen A–A und A–A–B untersucht. Wenn auch sie lehrbar als Verstärkung, Mehrzahl oder Wiederaufnahme funktionieren, lässt sich die Referenzgrammatik um genau eine weitere Regel erweitern.",
+      "sha256": "c88af791c2ffec233452ae278b830bee71df0d84c2e9208c00b5e0751d9079cb"
+    },
+    {
+      "path": "experiments/yolo/gdt573_intra_clause_argument_pronoun_voice/METHOD.md",
+      "line": 37,
+      "line_end": 45,
+      "quote": "## Decision rule and claim ceiling\n\nPass only if all 854 repeat groups and all 1,046 later argument mentions are\ncovered; all twenty single-root cards plus the paired and coordinate cards are\nused; the resulting 1,043 surface anaphors contain no `ihn und ihn`; no exact\nowner argument remains multiply repeated; all 5,122 event expansions are exact;\nall source order and boundaries remain unchanged; and generation is\ndeterministic. The anaphors are German workshop voice, not Voynich lexemes or\nevidence for recovered syntax, plaintext, language, genre or object identity.",
+      "sha256": "bdd01e490d90837659371dfb7d52fa0ae40d00fad027294ffcba8141041e88dd"
+    }
+  ],
+  "review_artifact": {
+    "path": "research_registry/decisions/hx_root_design_scope.json",
+    "sha256": "62b3e47b9eb0d60b41b881030c75b815c89122c824b229d2e140fac8e3bcb62f"
+  },
+  "reopening": {
+    "status": "REVIEW_REQUIRED_NOT_TEST_READY",
+    "assessed_by": "curation_review",
+    "criteria_origin": "Sourceunitlimitsandrootlogicalcountermodels, notnewpreregistration.",
+    "all_of": [
+      "Fixexactwholeversusnormalizedunitanddistinctmodelpredictions; ACAisnotdifferentfromABAwithoutindependentB/Cclasses.",
+      "Use independentreference/discourseconstraints thatdistinguishresumptionfromordinarysame-noun/classrepetition andadequateheldcapacity."
+    ],
+    "not_sufficient": [
+      "Nineinheritednormalizedwindowscallednineexactrawwholes.",
+      "Deterministicunitcompression, fluentpronounsor sameownerrecurrence treatedassemanticresumptiongold."
+    ]
+  },
+  "automatic_card_status_propagation": false,
+  "empirical_meaning_refutation": false
+}

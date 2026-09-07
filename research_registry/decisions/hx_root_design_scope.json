@@ -1,0 +1,220 @@
+{
+  "status": "ROOT_THREE_RAW_DESIGN_REVIEWS_AND_ABA_SOURCE_QUESTION",
+  "peer_receipts": [
+    {
+      "path": "research_registry/decisions/hx_reset_continuity_peer.json",
+      "sha256": "51ad4a0f7831bb7e973930fdc4b125df61357a167904336eb49bb629a86cd381",
+      "exact_quotes": 8,
+      "bound_corrections": []
+    },
+    {
+      "path": "research_registry/decisions/hx_aba_resumption_peer.json",
+      "sha256": "424f79f899386ca39411b9dee35c1d6825a5725d5c165905bb4784ea0fb26bac",
+      "exact_quotes": 8,
+      "bound_corrections": []
+    },
+    {
+      "path": "research_registry/decisions/hx_aba_control_challenge.json",
+      "sha256": "54b05f1a7a24ff5de4a831bd8a4eff588eac1293500be3211379a684a3983f58",
+      "exact_quotes": 2,
+      "bound_corrections": []
+    }
+  ],
+  "actual_idea_bindings": [
+    {
+      "id": "IDEA000001",
+      "title": "Drawing interruptions reset inherited process state",
+      "design": {
+        "contrast": "interruption versus equal-count, position- and folio-matched ordinary gap; include section and line-position nuisance controls",
+        "falsifier": "No held-folio interaction after controls, or an effect explained by page position/line length alone, falsifies the reset-state mechanism; do not rescue it by changing boundary thresholds.",
+        "mechanism": "A drawing interruption clears the active owner/item state and begins a new process segment; ordinary transcription spaces do not.",
+        "prediction": "After interruptions, first fields have higher rates of explicit owner/item introduction and lower anaphoric continuation than after matched ordinary gaps, replicating across held folios and alternate readings.",
+        "related": "DIC001_drawing_interruption_target; drawing_reset_segment_atlas; DIC001 limitations explicitly prohibit picture-ownership or translation claims",
+        "scope": "cached admitted transcription and DIC001/segment-atlas boundary inventory only; feasibility unknown for a clean owner/item coding panel",
+        "unit": "eligible interruption and matched ordinary gap on the same folio/page, with adjacent cached fields"
+      },
+      "design_sha256": "75fecb6f8aaf689214ae0836b1619648106138fe6bd0529db3d5782b6eeca377"
+    },
+    {
+      "id": "IDEA000002",
+      "title": "Ordinary line breaks preserve local owner and item state",
+      "design": {
+        "contrast": "ordinary line break without interruption versus matched within-line continuation and interruption-adjacent line break",
+        "falsifier": "A line-break penalty equal to or larger than the interruption penalty, replicated in held folios, falsifies nonreset continuity; do not reinterpret line ends as clauses after the fact.",
+        "mechanism": "Physical line layout is not a semantic closure boundary; state continuity is broken by drawing interruption, not by line ending.",
+        "prediction": "Owner/item recurrence and compatible argument slots remain continuous across ordinary line breaks at rates comparable to within-line continuations, but drop after interruptions; section-specific classes remain separate.",
+        "related": "DIC001_drawing_interruption_target; drawing_reset_segment_atlas; SIDEQUEST_scribe_memory (historical proposal only); GDT791 line-boundary correction",
+        "scope": "cached 30-page owner-spine and admitted prose selectors; feasibility unknown for complete state labels outside the released owner panel",
+        "unit": "adjacent line pairs within cached running prose, stratified by interruption status and folio"
+      },
+      "design_sha256": "965e87cfb926bd4c0365f27faef8ebf33fa99fed44996d3cebb67254f5717902"
+    },
+    {
+      "id": "IDEA000007",
+      "title": "A-B-A frames resume the same active referent",
+      "design": {
+        "binding": "independent source or visual owner links for both A positions, with ambiguous crossings quarantined",
+        "contrast": "A-B-A versus matched A-B-C and A-C-A windows with the same lengths and section",
+        "countermodel": "A-B-A is a layout or template recurrence with no referential continuity; A positions should then match controls after section/position adjustment.",
+        "mechanism": "B is a bounded intervening operation or qualification; repeated A reactivates the prior referent and inherits its slot.",
+        "prediction": "The two A positions preserve owner/target and compatible slot tags more often than both controls, across held folios.",
+        "related": "SIDEQUEST_semantic_aba_return_frame; GDT573 anaphoric phrase route; retained as a distinct window-level referent test",
+        "scope": "cached complete fields and admitted owner-spine records; feasibility unknown until independent referent bindings exist on at least five physical folios",
+        "unit": "cached exact A-B-A window with owner/target and structural-slot annotations"
+      },
+      "design_sha256": "66ec7e6a9e2ca2cb1d5b5bdde369b7bc9b9c5d9d664c03d6a643500a508ccefd"
+    }
+  ],
+  "material_corrections": [
+    "DIC001frozen scoredpanel428interruptions/4143controls on87pages59folios isnot the full440-boundaryatlas. Bothalreadyknownstructuralresultsremain, neither hassemanticownerendpoints.",
+    "Asemanticstateclear neednotemit anexplicitcue. ClearthenreloadsameownerX andcontinuousownerXyieldidentical ownerlabels X→X. Thus evenperfectreferentlabels alonedonotidentify latentreset; freezeanobservable narrowercontract withdifferentpredictions.",
+    "Ordinarylineboundary effects are a jointsource/layout/state question. Topicchanges may coincidewithlinebreaks, andsameowner doesnotprove stateunchanged. A positiveor null cueinteractiondoesnotclassifyall lineends assentence/non-sentence.",
+    "R224ninewindows useequalNORMALIZEDcards. Only6ofthe9printedtriples haveequalprintedendpointstrings;3do not. This is areportquotationaudit, NOT a native/rawthree-readingcapacitycensus. No selectionofthesixforanewtest.",
+    "UnspecifiedACA isABAundersymbolrenamingB→C; frozenindependentB/Cclasses arerequiredforadifferentcontrol. Sharedowner canbeordinarynoun/classrepetition,notsemanticresumption.",
+    "PeerfirstABAassessment anditsreopeningrecipeoverstate rawexactcapacity andindependentACAcontrols. Additivechallengecorrectsthosepoints; evenitsnewsame-ownercontrastalonecannotidentifylatentreset/anaphoravsnounrepetition.",
+    "GDT573pronouns areGermanrenderer choiceswithinonecard, no crosscardABA orindependentreference endpoint."
+  ],
+  "report_printed_triplets": [
+    {
+      "line": 9,
+      "printed_tokens": [
+        "chy",
+        "taiin",
+        "shy"
+      ],
+      "same_printed_endpoints": false
+    },
+    {
+      "line": 15,
+      "printed_tokens": [
+        "chol",
+        "cholor",
+        "chol"
+      ],
+      "same_printed_endpoints": true
+    },
+    {
+      "line": 21,
+      "printed_tokens": [
+        "chy",
+        "kaiiin",
+        "dy"
+      ],
+      "same_printed_endpoints": false
+    },
+    {
+      "line": 27,
+      "printed_tokens": [
+        "chy",
+        "kchy",
+        "dy"
+      ],
+      "same_printed_endpoints": false
+    },
+    {
+      "line": 33,
+      "printed_tokens": [
+        "daiin",
+        "qokeedal",
+        "daiin"
+      ],
+      "same_printed_endpoints": true
+    },
+    {
+      "line": 39,
+      "printed_tokens": [
+        "ol",
+        "cheky",
+        "ol"
+      ],
+      "same_printed_endpoints": true
+    },
+    {
+      "line": 45,
+      "printed_tokens": [
+        "okain",
+        "char",
+        "okain"
+      ],
+      "same_printed_endpoints": true
+    },
+    {
+      "line": 51,
+      "printed_tokens": [
+        "chey",
+        "daiin",
+        "chey"
+      ],
+      "same_printed_endpoints": true
+    },
+    {
+      "line": 57,
+      "printed_tokens": [
+        "ol",
+        "daiin",
+        "ol"
+      ],
+      "same_printed_endpoints": true
+    }
+  ],
+  "evidence": [
+    {
+      "path": "experiments/semantic_assumptions/DIC001_DRAWING_INTERRUPTION_TARGET_PREREGISTRATION.md",
+      "line": 5,
+      "line_end": 12,
+      "quote": "## Question and fixed panel\n\nDoes the local family-edge shape across a unanimous manual drawing interruption\nlook more like a known continuation-line restart than the unanimous definite\nspaces on the same page?  The target is exactly the masked DIC001 capacity panel:\n428 drawing boundaries and 4,143 definite-space controls on 87 pages and 59\nphysical folios.  ZL3b, IT2a, and RF1b supply one consensus STA-family sequence,\nnot three samples.  No image or OCR feature is used.",
+      "sha256": "555826495df936778840e73a56e88213ea5da461ab2f1bd5a6ee21ad19e23a80"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_aba_return_frame_two_hundred_twenty_fourth/TWO_HUNDRED_TWENTY_FOURTH_ABA_RETURN_RULE.md",
+      "line": 7,
+      "line_end": 59,
+      "quote": "## ABA01 · H2-S001\n\n`chy taiin shy` → **dies > Sollwert > dies**\n\nDiesen Posten auf Sollwert setzen und als denselben Posten weiterführen.\n\n## ABA02 · H2-S002\n\n`chol cholor chol` → **weiter > derselbe Ansatz > weiter**\n\nWeiter im selben Ansatz, dann den Fortgang wieder aufnehmen.\n\n## ABA03 · H2-S003\n\n`chy kaiiin dy` → **dies > Bearbeitungsstufe > dies**\n\nDiesen Posten durch die Bearbeitungsstufe führen und als denselben Posten halten.\n\n## ABA04 · H3-S003\n\n`chy kchy dy` → **dies > Bearbeiten > dies**\n\nDiesen Posten bearbeiten und als denselben Posten weiterführen.\n\n## ABA05 · B1-S002\n\n`daiin qokeedal daiin` → **Sollwert > Langer Zieleinsatz > Sollwert**\n\nDen Sollwert während des langen Zieleinsatzes beibehalten.\n\n## ABA06 · B1-S008\n\n`ol cheky ol` → **weiter > kurz wärmen > weiter**\n\nDen laufenden Gang kurz wärmen und danach denselben Gang fortsetzen.\n\n## ABA07 · B2-S011\n\n`okain char okain` → **Anteil zugeben > davon > Anteil zugeben**\n\nEinen Anteil zugeben, davon nehmen und denselben Zugabegang wiederholen.\n\n## ABA08 · B3-S003\n\n`chey daiin chey` → **dies > Sollwert > dies**\n\nDiesen Bestand auf Sollwert setzen und als denselben Bestand weiterführen.\n\n## ABA09 · B6-S001\n\n`ol daiin ol` → **weiter > Sollwert > weiter**\n\nDen laufenden Gang auf Sollwert bringen und danach fortsetzen.",
+      "sha256": "6c4c4dc75792120791a6a955de629bdbab158550d2a60a6f9ee3e640fb44fc9b"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_aba_return_frame_two_hundred_twenty_fourth/TWO_HUNDRED_TWENTY_FOURTH_REPORT.md",
+      "line": 1,
+      "line_end": 11,
+      "quote": "# Zweihundertvierundzwanzigster Durchgang: A–B–A ist ein Rückkehrrahmen\n\nDie 381 Prosaereignisse enthalten neun exakte A–B–A-Fenster. In jedem Fall ist die äußere normalisierte Karte identisch. Die Fenster verteilen sich auf vier Referentenrückkehr-, drei Fortsetzungsrückkehr-, einen Werterhaltungs- und einen Handlungswiederholungsfall.\n\nDie gemeinsame Werkstattregel ist einfach und lehrbar:\n\n> A aktivieren, B darauf anwenden, danach exakt dasselbe A wiederaufnehmen.\n\nDamit bekommt die Symmetrie einen konkreten Sinn, ohne den Mittelwert umzudefinieren. `Y–AIIN–Y` heißt nicht, dass `AIIN` selbst „gleich“ bedeutet. Es heißt, dass derselbe aktuelle Posten über den Sollwert hinweg aktiv bleibt. Bei zwei sichtbaren oder textlich gesetzten Posten kann die lokale Expansion dennoch Gleichbehandlung sein.\n\nAls nächstes wird diese Rückkehrregel in die Satzgrammatik aufgenommen. Dann werden alle 116 Aussagen erneut segmentiert, sodass A–B–A als ein einzelner Rahmenbaustein statt als drei lose Wörter gelesen wird.",
+      "sha256": "2c634b4fb129de3c8bf9fce4fd886bda36a5dad160dada87234ed492323460ac"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_aba_integrated_statements_two_hundred_twenty_fifth/TWO_HUNDRED_TWENTY_FIFTH_REPORT.md",
+      "line": 1,
+      "line_end": 9,
+      "quote": "# Zweihundertfünfundzwanzigster Durchgang: Rückkehrrahmen integriert\n\nDie neun A–B–A-Fenster werden nun als je eine Leseeinheit behandelt. Aus 381 sichtbaren Karten entstehen 363 Satzeinheiten: 354 Einzelkarten und neun Rückkehrrahmen. Alle Ereignisse bleiben genau einmal erhalten.\n\nDie wichtigste sprachliche Wirkung ist Kompression. `weiter – kurz wärmen – weiter` wird zu „denselben laufenden Gang kurz wärmen und weiterführen“. `dies – bearbeiten – dies` wird zu „denselben Posten bearbeiten und behalten“. `Sollwert – langer Zieleinsatz – Sollwert` wird zu „denselben Sollwert während des langen Zieleinsatzes halten“.\n\nNur neun Aussagen werden neu formuliert; die übrigen 107 bleiben unverändert. Damit ist der Rahmen eine kleine produktive Konstruktion und keine Universalgrammatik.\n\nAls nächstes werden die wiederholten Doppelungen A–A und A–A–B untersucht. Wenn auch sie lehrbar als Verstärkung, Mehrzahl oder Wiederaufnahme funktionieren, lässt sich die Referenzgrammatik um genau eine weitere Regel erweitern.",
+      "sha256": "c88af791c2ffec233452ae278b830bee71df0d84c2e9208c00b5e0751d9079cb"
+    },
+    {
+      "path": "experiments/yolo/gdt573_intra_clause_argument_pronoun_voice/METHOD.md",
+      "line": 37,
+      "line_end": 45,
+      "quote": "## Decision rule and claim ceiling\n\nPass only if all 854 repeat groups and all 1,046 later argument mentions are\ncovered; all twenty single-root cards plus the paired and coordinate cards are\nused; the resulting 1,043 surface anaphors contain no `ihn und ihn`; no exact\nowner argument remains multiply repeated; all 5,122 event expansions are exact;\nall source order and boundaries remain unchanged; and generation is\ndeterministic. The anaphors are German workshop voice, not Voynich lexemes or\nevidence for recovered syntax, plaintext, language, genre or object identity.",
+      "sha256": "bdd01e490d90837659371dfb7d52fa0ae40d00fad027294ffcba8141041e88dd"
+    }
+  ],
+  "new_manuscript_observation": false,
+  "new_semantic_evidence": false,
+  "logical_countermodels": [
+    {
+      "proposed_observation": "same owner X before and after a drawing gap",
+      "continuity_model": "retain X",
+      "reset_model": "clear state and immediately resolve X from the same local context",
+      "implication": "Owner recurrence alone does not distinguish these models."
+    },
+    {
+      "proposed_observation": "same outer A and same referent after B",
+      "resumption_model": "return to prior referent X",
+      "repeated_noun_model": "mention X explicitly again",
+      "implication": "Co-reference alone does not show a dedicated resumption operation."
+    }
+  ],
+  "final_peer_receipt": {
+    "path": "research_registry/decisions/hx_final_packet_peer.json",
+    "sha256": "9ded9a7e6a7522108b1fbf4ac93f606821e42b959b24092b06d2ff762a206efc",
+    "reviewed_prior_root_sha256": "54fa550999e9b7e75564b53c76175d71dcf2b5ec58c847b440bc4bb1e1c30269",
+    "subsequent_change": "Only this receipt and explicit semantic-endpoint scope clarification added."
+  },
+  "semantic_endpoint_scope": "Independent semantic endpoint blockers concern only the proposed owner/item/reset/resumption meaning questions. Known DIC001 structural reset-likeness remains valid; pure structural work does not require semantic gold."
+}

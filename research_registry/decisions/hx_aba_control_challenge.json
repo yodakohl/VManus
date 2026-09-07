@@ -1,0 +1,50 @@
+{
+  "review_id": "HX_ABA_CONTROL_CHALLENGE",
+  "status": "ADDITIVE_LOGICAL_CORRECTION",
+  "preserves": "research_registry/decisions/hx_aba_resumption_peer.json remains unchanged; this file adds the control-logic correction only.",
+  "target": "IDEA000007 — A-B-A frames resume the same active referent",
+  "raw_design_scope": "The raw design asks whether exact ABA windows encode interruption/resumption of the same active item or target after B rather than a generic repeated whole. It does not predeclare independent B/C classes or operations.",
+  "evidence": [
+    {
+      "path": "experiments/yolo/sidequest_semantic_aba_return_frame_two_hundred_twenty_fourth/TWO_HUNDRED_TWENTY_FOURTH_REPORT.md",
+      "line": 3,
+      "line_end": 9,
+      "quote": "Die 381 Prosaereignisse enthalten neun exakte A–B–A-Fenster. In jedem Fall ist die äußere normalisierte Karte identisch. Die Fenster verteilen sich auf vier Referentenrückkehr-, drei Fortsetzungsrückkehr-, einen Werterhaltungs- und einen Handlungswiederholungsfall.\n\nDie gemeinsame Werkstattregel ist einfach und lehrbar:\n\n> A aktivieren, B darauf anwenden, danach exakt dasselbe A wiederaufnehmen.\n\nDamit bekommt die Symmetrie einen konkreten Sinn, ohne den Mittelwert umzudefinieren. `Y–AIIN–Y` heißt nicht, dass `AIIN` selbst „gleich“ bedeutet. Es heißt, dass derselbe aktuelle Posten über den Sollwert hinweg aktiv bleibt. Bei zwei sichtbaren oder textlich gesetzten Posten kann die lokale Expansion dennoch Gleichbehandlung sein.",
+      "sha256": "2c634b4fb129de3c8bf9fce4fd886bda36a5dad160dada87234ed492323460ac",
+      "type": "ABA_same_outer_card_and_workshop_rule"
+    },
+    {
+      "path": "experiments/yolo/gdt573_intra_clause_argument_pronoun_voice/METHOD.md",
+      "line": 20,
+      "line_end": 35,
+      "quote": "1. Match the explicit and carried form of each of the twenty owner-root cells\n   with Unicode word boundaries. This deliberately prevents `den\n   Positionsposten` from matching inside `die beiden Positionsposten`.\n2. Inside each card and separately for each argument root, retain the first\n   exact mention and collect the second through fifth mentions. Do not carry an\n   anaphor across a card boundary.\n3. Render masculine later mentions as `ihn` and feminine or plural later\n   mentions as `sie`. Preserve outer, inner and third-level wording around the\n   nominal host.\n4. If two different masculine roots recur together as one exact coordinate,\n   render the later coordinate as `beide`. This rule fires exactly three times\n   and prevents the ambiguous surface `ihn und ihn`.\n5. Store every replaced source fragment, its source and target spans, root,\n   form class and voice card. Expand each anaphor from that channel and require\n   exact recovery of the source card before rebuilding all statements and\n   pages.",
+      "sha256": "bdd01e490d90837659371dfb7d52fa0ae40d00fad027294ffcba8141041e88dd",
+      "type": "repeat_argument_renderer_contract"
+    }
+  ],
+  "logical_challenges": [
+  {
+   "issue":"R224's nine windows are not nine raw exact-whole ABA cases",
+   "correction":"R224 says the outer normalized card is identical, while ABA01 is visibly `chy taiin shy`: the endpoints differ on the surface. Therefore the nine windows establish normalized structural recurrence only; they do not meet IDEA000007's exact cached-whole ABA design capacity without a separately frozen normalization contract."
+  },
+  {
+      "issue": "ABA versus ACA is not an independent control as stated",
+      "correction": "With A, B and C unspecified whole-card variables, ACA is ABA after renaming B to C. It becomes a control only if B and C are frozen as independently different operation/classes before inspection, with distinct referent predictions."
+    },
+    {
+      "issue": "Same A-owner cooccurrence is not anaphora-specific",
+      "correction": "The same outer card/owner can recur as an ordinary repeated noun, class label, template slot, or copied whole. Exact outer identity and cooccurrence establish repetition; they do not identify interruption, resumption or a pronoun-like relation."
+    },
+    {
+      "issue": "Contrast enrichment does not itself identify anaphora",
+      "correction": "Adding ABC/ACA/ABX patterns can distinguish structural repetition from some fixed B/C alternatives, but it cannot by itself show that the second A is an anaphoric reference. Independent owner/reference endpoints or an independently judged same-item relation are still required for the narrower semantic question."
+    },
+    {
+      "issue": "Do not use a universal null falsifier",
+      "correction": "A missing visible cue, pronoun or dedicated marker cannot universally falsify cue-free anaphora. It can count against a predeclared cue-required model, while a cue-free model remains open unless independent owner/reference contrasts disagree."
+    }
+  ],
+  "narrow_question_that_remains": "Does a fixed outer A recover an independently identified owner/reference after a predeclared B operation, at a rate exceeding matched repeated-whole and slot-template controls?",
+  "adequate_control": "Freeze B and C by role before reading; include matched ABA, AB-C, and A-C-A windows across multiple records/pages; independently annotate owner/reference endpoints; score the second A against the control predictions. Preserve structural ABA observations even if semantic resumption fails.",
+  "no_tests_or_registry_mutation": true
+}
