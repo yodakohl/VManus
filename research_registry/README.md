@@ -124,6 +124,12 @@ and, if known, `design` fields `mechanism`, `unit`, `contrast`, `prediction`,
 
 The example is synthetic and should not be added to the real registry. New ideas
 receive stable `IDEA000001`-style IDs; old IP/GDT/family IDs remain usable.
+Optional `design.source_evidence` must be one object with a repository-relative
+Markdown `path`, positive `line`, literal multiline `quote`, and exact `sha256`.
+An optional `line_end` must match the quote's physical span. Add and review check
+newly supplied evidence before saving; they do not rewrite or revalidate an old
+inherited design. Source-free raw hypotheses remain allowed. This verifies quote
+integrity, not scientific validity; mixed tables still require `query-tsv`.
 Matching normalized design fields produces a duplicate **candidate**, not an
 automatic merge. A confirmed `duplicate_of` decision needs source evidence and
 a written reason. The original record and its events remain accessible.

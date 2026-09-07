@@ -1,0 +1,26 @@
+{
+  "status": "DESIGN_REVIEW_ONLY_NO_IMPLEMENTATION",
+  "recommendation": "One small helper validate_optional_design_source_evidence(root, design), called by add_idea and append_review before the first write_jsonl. Do not put it in _base_records, _assemble or build_index; old records must remain readable and correctable.",
+  "locations": {
+    "add_idea": "tools/research_registry.py:603; validate proposal.get(design,{}) before writing ideas.jsonl",
+    "append_review": "tools/research_registry.py:630; validate only the newly supplied review design when present, before writing curation.jsonl. Do not revalidate the inherited raw design when the review merely documents its defects."
+  },
+  "contract": [
+    "source_evidence absent is allowed. Raw proposals need no semantic gold, semantic approval or source quotation at all. If a source quotation is asserted, it must be faithful.",
+    "Existing shape is one evidence object: all 35 current occurrences checked are dicts and all paths end .md. Smallest guard supports this existing shape; a list extension is unnecessary for the reported failure. Explicit malformed null/string/list should raise a clear ValueError rather than bypass validation.",
+    "Require repository-safe path through evidence_path, existing regular Markdown file, nonempty literal quote, positive integer line (reject bool), and a valid matching SHA256 of original bytes. Decode utf-8-sig consistently with semantic_ideas.validate_card. Compare quote.splitlines() to the exact physical source lines from line; do not join, strip, casefold, normalize indentation, repair escaping or collapse whitespace.",
+    "Optional line_end: when omitted, derive the end from the number of quote lines. When supplied, require integer end >= line and exact agreement with that derived end. A full multiline literal quote without line_end is valid.",
+    "Validate extension and resolved target extension before digest/open. Reject TSV/CSV/JSONL and binary targets in this small Markdown source-quote guard; do not read then filter. A .md symlink to .tsv must also be rejected. Direct mixed TSV quoting requires the established selector-first query-tsv workflow and is outside this change; do not implement a fallback parser.",
+    "Use source-report Markdown only; the guard verifies existing reported prose, not admission of manuscript images or raw rows. References to sealed pages inside historical reports are not permission to inspect them. Do not introduce a blanket ban on reports merely mentioning f84.",
+    "Failure leaves ideas/curation bytes and index unchanged and must not allocate a persistent ID. Keep existing write rollback for later errors. Do not rewrite any old quote or historical proposal."
+  ],
+  "tests": [
+    "Synthetic multiline Markdown + matching SHA succeeds with and without line_end, including indentation and UTF-8 text; no-source_evidence raw proposal still succeeds.",
+    "Correct SHA but collapsed lines, wrong text, wrong start, wrong explicit end, stale/malformed SHA or missing file each fails before append; assert unchanged ideas/curation bytes and mock build_index not called.",
+    "For append_review, reject a newly supplied bad design quote; permit a review with no replacement design on an old bad-quote record, preserving the old bytes.",
+    "Reject unsafe or escaping paths and non-Markdown/resolved-TSV targets before source content read; use read/open spies to prove no TSV payload or digest read.",
+    "Existing lifecycle suite confirms stable IDs, historical append chains and normal review behavior. No scientific decoder tests or broad new framework."
+  ],
+  "existing_validator_limits": "semantic_ideas.validate_card already verifies literal physical quote lines and optional hashes, but requires a semantic card and does not enforce explicit line_end consistency. Do not import that module into research_registry (semantic_ideas imports registry), and do not build a fake card. Copy the small line comparison into the local helper. Existing _evidence only extracts path references from blockers/relations/reopen, not design.source_evidence.",
+  "freshness_scope": "This is a pre-mutation quote-integrity guard only. Adding design paths to _evidence or retroactive build validation changes historical freshness semantics and is unnecessary for this bounded fix."
+}

@@ -600,6 +600,41 @@ def refresh(root):
         return build_index(root)
 
 
+def validate_optional_design_source_evidence(root, design):
+    """Check newly asserted Markdown quotations, without regrading old records."""
+    if not isinstance(design, dict):
+        raise ValueError('design must be an object')
+    if 'source_evidence' not in design:
+        return
+    evidence = design['source_evidence']
+    if not isinstance(evidence, dict):
+        raise ValueError('design.source_evidence must be one evidence object')
+    path = evidence_path(root, evidence.get('path'))
+    # Check both names before reading: a Markdown symlink must not bypass
+    # the selector-first handling required for mixed manuscript tables.
+    if path.suffix.lower() != '.md' or path.resolve().suffix.lower() != '.md':
+        raise ValueError('design.source_evidence supports Markdown reports only')
+    if not path.is_file():
+        raise ValueError('missing design source report')
+    line, quote = evidence.get('line'), evidence.get('quote')
+    if type(line) is not int or line < 1 or not isinstance(quote, str) or not quote:
+        raise ValueError('source evidence needs a positive line and literal quote')
+    quoted_lines = quote.splitlines()
+    if 'line_end' in evidence:
+        end = evidence['line_end']
+        if type(end) is not int or end != line + len(quoted_lines) - 1:
+            raise ValueError('source evidence line_end disagrees with quote span')
+    data = path.read_bytes()
+    if evidence.get('sha256') != hashlib.sha256(data).hexdigest():
+        raise ValueError('source evidence SHA256 mismatch')
+    try:
+        lines = data.decode('utf-8-sig').splitlines()
+    except UnicodeDecodeError as exc:
+        raise ValueError('source report must be UTF-8 Markdown') from exc
+    if lines[line - 1:line - 1 + len(quoted_lines)] != quoted_lines:
+        raise ValueError('source evidence quote does not match physical source lines')
+
+
 def add_idea(root, proposal):
     with writer(root):
         records = _base_records(root)
@@ -611,6 +646,7 @@ def add_idea(root, proposal):
             raise ValueError('ID already exists; use a review instead of overwriting')
         if not proposal.get('title') or not proposal.get('summary'):
             raise ValueError('new idea needs title and summary')
+        validate_optional_design_source_evidence(root, proposal.get('design', {}))
         row = {'id':identifier,'kind':'idea','aliases':[],'title':proposal['title'],
                'summary':proposal['summary'],'source_status':'NEW_PROPOSAL','scope':proposal.get('scope','unknown'),
                'review_status':'imported_unreviewed','verdict':'untested','blockers':[],
@@ -635,6 +671,8 @@ def append_review(root, review):
         identifier = review['record_id']
         if identifier not in records:
             raise ValueError('unknown review ID')
+        if 'design' in review:
+            validate_optional_design_source_evidence(root, review['design'])
         old = _review_rows(root).get(identifier)
         review = dict(review)
         review['previous_sha256'] = hashlib.sha256(canonical(old).encode()).hexdigest() if old else None
