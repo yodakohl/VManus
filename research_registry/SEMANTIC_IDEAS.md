@@ -9,12 +9,12 @@ They remain in the source archive. No hypothesis becomes executable by inclusion
 
 | Unit | Count |
 |---|---:|
-| Active semantic hypothesis variants | 3,852 |
+| Active semantic hypothesis variants | 3,853 |
 | Separately typed formal-role cards | 265 |
-| Reviewed source cases, including the correction archive | 4,638 |
+| Reviewed source cases, including the correction archive | 4,639 |
 | Archived source-extraction errors | 44 |
 | Exact normalized assertion repetitions grouped | 477 |
-| Reviewed equivalence groups / display reduction | 49 / 58 |
+| Reviewed equivalence groups / display reduction | 50 / 59 |
 | Public semantic display entries | 3,794 |
 
 These are different units, not a deduplicated total of independent theories.
@@ -55,25 +55,33 @@ paragraph does not automatically make every subclaim independently addressable;
 an atomic gloss does not cover a complete multi-card model.
 
 Whitespace and backtick typography alone are normalized for exact assertions.
-Explicit equivalence decisions add49 groups without deleting any original ID.
+Explicit equivalence decisions add50 groups without deleting any original ID.
 The identity log also retains six related-but-distinct links,30 rival links and
 two specializations. Conflicting nonidentity blocks transitive merging; changed
 claim or case bindings require a new review. Shared spelling, shortened wording
 or a matching source title alone proves neither identity nor nonidentity.
 
 Before selecting another identity comparison, consult `IDENTITY_REVIEW_INPUTS.json`
-and the current operative identity log. The manifest records thirty-eight hashed review
+and the current operative identity log. The manifest records forty hashed review
 inputs, including earlier proposal and peer formats missed by the narrower DO
 selection list. It is a bounded coverage receipt, not an automatic pair verdict.
 Update it when new identity reviews are added; distinguish an old recommendation
 from a committed relation. The three DO selections did not repeat a reviewed pair.
+
+Use `./vmanus-work identity-inputs --declared REVIEW.json --field FIELD` on the
+explicit path/hash list actually used. The read-only check compares required
+membership and both recorded hashes with current bytes; extra files cannot
+replace omitted mandatory reviews. Diagnostics show at most20 entries per field,
+with exact totals. A PASS proves input coverage, not reading or proposition
+novelty. A later enlarged manifest is a new preparation requirement, not proof
+that an earlier reviewer omitted files which did not yet exist.
 
 One representative appears per reviewed equivalent group. Its status and normal
 source/case counts belong to that representative; `group_scope_cases` counts all
 member cases. Open `--field equivalents` or `--field relations` for the others.
 No failure, success or execution permission propagates across an identity link.
 
-The append-only correction log currently archives44 erroneous exports and restates196
+The append-only correction log currently archives44 erroneous exports and restates197
 source assertions. Every original claim, case and quote remains retrievable,
 including via `--show ID` for archived cards. Numeric columns, alias-column
 misparses, unlicensed constituent exports and metadata are extraction errors;
@@ -116,19 +124,18 @@ Later full-scope reviews and audit-only source comparisons live in the bounded
 `decisions/clean_gap_review_*.json` artifacts. An audit pointer does not add a
 source-case payload. Quote overlap alone never certifies complete review.
 
-Latest integrated packet: EX/EY/FC recovers four full historical contracts:
-q13 content roles, the scalar-family comparison, V3 medium/process worksheet
-and the fixed N/G root-powder/copula comparison. The last preserves the extra
-unpictured-preparation assumption, unknown label owner, favourable copula case,
-radial context and the limited54-locus transfer. No noun or copula is confirmed.
+Latest integrated packet: FE recovers the complete fixed eight-whole FLOW
+contract, beyond five existing lexical guesses. It preserves the unknown flowing
+subject, repeated pipe, speculative syntax and same-key coverage limitation.
+FF restores VAL-S's selected parent class under its existing ID; the subordinate
+alternatives and speculative ratings are neither four decoded words nor measured
+probabilities. FG groups exactly the two GDT814 retained N powder cases, preserving
+both source stages and excluding GDT813 and the competing copula/quality readings.
 
-FA completes the existing GDT209 model with its restricted comparator-specificity
-limits; EZ links the two GDT208/GDT210 interpretations as historical rivals.
-FB preserves the V3 authors' disagreement about neighbour diversity and keeps
-literal versus carry-adjusted counts separate from semantic falsification.
-FD withholds two proposed NETWORK/MANUAL duplicates: their named eight-key models
-were already addressable through active-state cases. Existing IDs now contain
-the full mappings and debts. Raw reviews and exact earlier EY snapshots remain.
+The FG producer's40-file list covered only36 of38 mandatory inputs plus four
+extras. Its peer completed the two missing S reviews; the42-file union found no
+prior target judgment. This corrects input coverage, not a semantic finding.
+The operative manifest now contains40 inputs after adding the two FG reviews.
 A073/A004 mappings remain available but uninspected, not missing source data.
 
 Before adding a fuller model card, check whether an existing short card already

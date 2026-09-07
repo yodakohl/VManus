@@ -414,3 +414,30 @@ in peer-ready/pre-FD snapshots; the FC prior reassessment payload is unchanged
 and rebound to final EY. The guide also refreshes three stale inline counters
 (restatements, identity-inputs, rival-links), not new research results. Current
 source and operative audits plus158repository tests PASS. FE/FF pending.
+
+FH bounded workflow decision: DU already established the authoritative identity
+input manifest, yet FG again used a larger filename-derived set that omitted
+two required S relation reviews. The actual pair survived peer completion, but
+file count is not input coverage. Unknown operational question: can a small
+set-and-hash receipt guard reliably expose missing required reviews before
+claiming a complete prior screen? PASS permits bounded primary pair review;
+missing/stale inputs require completing preparation, never semantic rejection
+or automatic novelty. Smallest adequate change: a read-only command using the
+existing manifest, exact set/hash comparison against an explicit declared list,
+and regression cases for a larger incomplete list and stale hash. No graph
+parser, embedding index or broad infrastructure. Budget20minutes including
+implementation, tests and publication; stop expansion at limit. Engineering
+work supports deduplication decisions but is not a manuscript finding.
+
+FE–FG checkpoint:4118 active=3853 semantic+265 formal;4639 sourcecases;
+197 restatements;50 equivalence groups/59 display reductions;38 other relations;
+40 scoped dossiers and9 unready priorities unchanged. Public semantic display
+3794 remains unchanged: one recovered model and one additional display merge.
+FG corrected historical input coverage36/38 plus4 extras+2 peer completions;
+current manifest40 after adding FG raw/peer. FH engineering and FI/FJ pending.
+
+FH/FI completion: read-only identity-inputs guard with bounded diagnostics;
+8 targeted regression tests PASS. Real40-input receipt binds the current manifest;
+comparison to earlier FG distinguishes later FG additions from omitted S reviews.
+FI declines redundant dossier after primary818/827 review: no new question beyond
+FE obligations. No manuscript finding. FJ and FK/FN remain pending next packet.

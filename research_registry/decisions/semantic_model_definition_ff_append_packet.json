@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "decisions": [
+    {
+      "id": "CORRECTION_FF:01aea223e555f46f9160:v1",
+      "target": "SEM:01aea223e555f46f9160",
+      "previous_revision": null,
+      "action": "restate_scope",
+      "replacement": {
+        "claim": "In the V15 selected latent-value taxonomy, the named family VAL-S is provisionally SET_OR_RESULT_STATE, with subordinate alternative readings standard/as usual or hold/rest. These are uncertain content-class suggestions within one technical value deck, not four simultaneous decoded words, a fixed action order, or a new free S meaning. The family/class confidence .45 and subordinate .30 are historical speculative ratings, not measured semantic probabilities.",
+        "claim_type": "semantic_model"
+      },
+      "reason": "The current claim preserves the subordinate alternatives but drops the selected parent class, making VAL-S look like a full model name rather than an already defined value-family member. V15 taxonomy explicitly distinguishes latent configuration/state roles from visible-object naming and warns against English-word or morpheme identity. This can be stated under the existing ID.",
+      "target_basis_sha256": "af2b352d475686b910a4cef94ba3ca75df90b233f5dbc2237029bd719e7b3cd7",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v15/V15_THEORY_SELECTION.md",
+          "line": 20,
+          "line_end": 29,
+          "quote": "The shared decision is:\n\n```text\nthe four families are probably latent application/configuration values\nlicensed by a page/record stencil,\nnot names of visible bodies, pools, pipes, junctions or outlets\n```\n\nThe generic exemplar/stencil/cadence model remains close and is now the\nstrongest rival.",
+          "sha256": "f749cb689fe4a9cfb41dfcb5ead797eca2cb5704931eb386a2861d672ae9c092"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v15/V15_THEORY_SELECTION.md",
+          "line": 68,
+          "line_end": 91,
+          "quote": "## Selected value taxonomy\n\nThe four agents disagree on literal actions but converge on a useful latent\nstate taxonomy:\n\n| family | selected working class | confidence | concrete subordinate glosses |\n|---|---|---:|---|\n| `VAL-Q` | `BASE_CONFIGURATION` | .50 | standard/ground setting; immersion only .20 |\n| `VAL-QE` | `MARKED_MEDIUM_OR_APPLICATION` | .48 | circulation/throughput; tempered/warm .27 |\n| `VAL-S` | `SET_OR_RESULT_STATE` | .45 | standard/as usual or hold/rest .30 |\n| `VAL-L` | `LOCAL_HELD_OR_CARRIED_APPLICATION` | .43 | local/body-end use; pour/rinse .25 |\n\nThe labels describe different roles within one technical answer deck. They do\nnot assert that Q/QE are authorially related morphemes, nor that the source\nlanguage used these English words.\n\nAt deck level, the medical scribe's most concrete application sequence remains\nuseful but low-confidence:\n\n```text\nSTANDARD -> TEMPERED/WARM -> POUR/RINSE -> IMMERSE/SOAK\n```\n\nThis should be treated as a content palette, not a fixed order or dictionary.",
+          "sha256": "f749cb689fe4a9cfb41dfcb5ead797eca2cb5704931eb386a2861d672ae9c092"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v15/CANDIDATE_V15_R3_VALUE_REGISTER.md",
+          "line": 120,
+          "line_end": 137,
+          "quote": "Die äußere Wrapperklasse ist sogar deterministisch mit dem Wertdeck verwoben:\n`Q` trägt alle 10 `VAL-QE` und 8 `VAL-Q`, `L` alle 8 `VAL-L`, und die\n`S/CH/T`-Realisierungen alle 12 `VAL-S` (MI `1.509` bit). Das ist jedoch kein\nunabhängiger Sachkontrollwert, sondern Teil der exakten Kartenidentität. Es\nzeigt: Der Schreiber erkennt die Wertklasse an der ganzen Karte; das Bild\nersetzt sie nicht.\n\n## Konkrete, vorläufige Werttaxonomie\n\nIch behalte vier in einer Werkstatt lehrbare Arbeitsglossen. Sie sind\nKontextklassen, keine englischen Lexeme:\n\n| Familie | ausführbare Arbeitsglosse | Konfidenz | Grund / Grenze |\n|---|---|---:|---|\n| `VAL-Q` | `BASE_CONFIGURATION` — Grundmodus/gewöhnliche Einstellung | .46 | konzentriert in allgemeinen und Junction-Blöcken; wiederholt sich in benachbarten Slots, aber fehlt f82r |\n| `VAL-QE` | `MARKED_APPLICATION` — angewandter/gefüllter markierter Modus | .51 | stark auf f82r und im Beckenblock; f82r.27 wiederholt ihn; kein Stoff oder Badname folgt |\n| `VAL-S` | `ACTIVE_OR_RESULT_STATE` — gesetzte Arbeits-/Ergebnislage | .49 | breiteste Familie, häufiger Ende befüllter Felder und in mehreren Apparaturzonen; zu mobil für ein sichtbares Objekt |\n| `VAL-L` | `HELD_OR_CARRIED_STATE` — gehaltene/gebundene Trägerlage | .47 | singletonreich, Figur/Leitung/Becken statt allgemeiner Konfiguration; nicht exklusiv genug für „Leitung“ oder „Auslass“ |\n",
+          "sha256": "6236154ded31960446101bf2c8a63e363d7e99d04d9068574f170aa045215d3c"
+        }
+      ],
+      "reviewer": "idea_pipeline FF definition audit and independent FF peer; root activation pending",
+      "review_artifact": "research_registry/decisions/semantic_model_definition_audit_ff.json",
+      "peer_artifact": "research_registry/decisions/semantic_model_definition_peer_ff.json"
+    }
+  ],
+  "new_cards": 0,
+  "new_empirical_meaning_refutation": false,
+  "validation": {
+    "current_card_basis": "af2b352d475686b910a4cef94ba3ca75df90b233f5dbc2237029bd719e7b3cd7",
+    "current_effective_basis": "a241ea3ab28b3d4ce9d81a3e9d2b4c3d99973c3593e992078f4b5ab7a1fcfbf8",
+    "prior_target_revisions": 0,
+    "exact_quote_sha_checks": "PASS",
+    "source_quote_completed": "V15_THEORY_SELECTION.md20–29",
+    "operative_mutation": false
+  },
+  "derived_from": {
+    "research_registry/decisions/semantic_model_definition_audit_ff.json": "a94ca2c6cdb9dcb29f1973e0aae326aa3daa9d1a5bfef678c4f98a1fe442d699",
+    "research_registry/decisions/semantic_model_definition_peer_ff.json": "0c0c1e35d5528eefd83dcb016eb6bacbf21e485f55430aa852b6770f62e64dcc"
+  }
+}

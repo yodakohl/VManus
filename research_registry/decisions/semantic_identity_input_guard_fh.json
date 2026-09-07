@@ -1,0 +1,121 @@
+{
+  "review_id": "FH",
+  "kind": "engineering_read_only_input_receipt",
+  "source_files": [
+    {
+      "path": "tools/identity_input_receipt.py",
+      "sha256": "95a8a5753b130634fb612096b86fae2dc29169e1488bc47c2f0a1b5f75b13ae2"
+    },
+    {
+      "path": "tools/work_cli.py",
+      "sha256": "e7f7d5bef5915ad26f5ae9bddd9e3caae9b6deed05f0151e1c28c6d7999433ec"
+    },
+    {
+      "path": "tests/test_identity_input_receipt.py",
+      "sha256": "e6269aa90025f169d2ab3ffc60efd0c2095fb18d333934120f2da06927b9bdc4"
+    }
+  ],
+  "tests": {
+    "command": "python -m unittest tests.test_identity_input_receipt -q",
+    "passed": 8
+  },
+  "real_input_receipts": [
+    {
+      "command": [
+        "./vmanus-work",
+        "identity-inputs",
+        "--declared",
+        "research_registry/IDENTITY_REVIEW_INPUTS.json"
+      ],
+      "exit_code": 0,
+      "receipt": {
+        "all_required_current": true,
+        "declaration": {
+          "field": "inputs",
+          "path": "research_registry/IDENTITY_REVIEW_INPUTS.json",
+          "sha256": "95d7abc5eb95b23f331d138f9bc858c6b4a0314deec6ca3ba3037a66c73387f0"
+        },
+        "declared_count": 40,
+        "diagnostic_limit": 20,
+        "exact_set_match": true,
+        "extra_declared": [],
+        "extra_declared_count": 0,
+        "manifest": {
+          "path": "research_registry/IDENTITY_REVIEW_INPUTS.json",
+          "sha256": "95d7abc5eb95b23f331d138f9bc858c6b4a0314deec6ca3ba3037a66c73387f0"
+        },
+        "meaning": "Input receipt only: no novelty, proposition identity, semantic approval, scientific verdict, or rerun authorization. File membership is not proof of reading.",
+        "missing_files": [],
+        "missing_files_count": 0,
+        "missing_required": [],
+        "missing_required_count": 0,
+        "required_count": 40,
+        "required_set_covered": true,
+        "required_verified_count": 40,
+        "stale_declared_hashes": [],
+        "stale_declared_hashes_count": 0,
+        "stale_manifest_hashes": [],
+        "stale_manifest_hashes_count": 0,
+        "status": "INPUT_COVERAGE_PASS",
+        "truncated_fields": []
+      }
+    },
+    {
+      "command": [
+        "./vmanus-work",
+        "identity-inputs",
+        "--declared",
+        "research_registry/decisions/semantic_identity_proposal_fg.json",
+        "--field",
+        "prior_identity_screen.paths_and_hashes"
+      ],
+      "exit_code": 1,
+      "receipt": {
+        "all_required_current": false,
+        "declaration": {
+          "field": "prior_identity_screen.paths_and_hashes",
+          "path": "research_registry/decisions/semantic_identity_proposal_fg.json",
+          "sha256": "a2889cc07cc6a3156189f29ed9b71403d808f634782a098d2d036cb866018154"
+        },
+        "declared_count": 40,
+        "diagnostic_limit": 20,
+        "exact_set_match": false,
+        "extra_declared": [
+          "research_registry/decisions/semantic_identity_ed_append_packet.json",
+          "research_registry/decisions/semantic_identity_ez_append_packet.json",
+          "research_registry/decisions/semantic_identity_selection_diagnostic_du.json",
+          "research_registry/decisions/semantic_identity_selection_inputs_peer_du.json"
+        ],
+        "extra_declared_count": 4,
+        "manifest": {
+          "path": "research_registry/IDENTITY_REVIEW_INPUTS.json",
+          "sha256": "95d7abc5eb95b23f331d138f9bc858c6b4a0314deec6ca3ba3037a66c73387f0"
+        },
+        "meaning": "Input receipt only: no novelty, proposition identity, semantic approval, scientific verdict, or rerun authorization. File membership is not proof of reading.",
+        "missing_files": [],
+        "missing_files_count": 0,
+        "missing_required": [
+          "research_registry/decisions/semantic_identity_peer_fg.json",
+          "research_registry/decisions/semantic_identity_proposal_fg.json",
+          "research_registry/decisions/semantic_relation_peer_review_s.json",
+          "research_registry/decisions/semantic_relation_review_s.json"
+        ],
+        "missing_required_count": 4,
+        "required_count": 40,
+        "required_set_covered": false,
+        "required_verified_count": 36,
+        "stale_declared_hashes": [],
+        "stale_declared_hashes_count": 0,
+        "stale_manifest_hashes": [],
+        "stale_manifest_hashes_count": 0,
+        "status": "INPUT_COVERAGE_INCOMPLETE",
+        "truncated_fields": []
+      }
+    }
+  ],
+  "meaning": "Engineering verification only, not a new Voynich result. Missing listed reviews require input preparation, not scientific rejection. An input PASS proves file/hash coverage only, never that a reader inspected content or that a candidate is novel.",
+  "legacy_changes": "No route checker, graph, index, registry source, authoritative manifest or operative log changed. CLI dispatcher was searched in experiment locks/manifests before editing; no binding located in that bounded search.",
+  "operational_mutation": false,
+  "temporal_scope": "Receipts compare against the CURRENT 40-file manifest after FG raw proposal and peer were added. The FG proposal declared its earlier list: missing its own later-added proposal/peer is expected temporal growth, not a retrospective selection fault. The two S review omissions were already established by the independent historical audit. This receipt does not reconstruct a historical36/38 comparison.",
+  "output_contract": "CLI omits full required_verified paths and limits each diagnostic array to20, preserving exact per-array totals and truncated_fields. Python check(root, declared) retains full arrays for machine inspection; no pagination or graph infrastructure."
+}
