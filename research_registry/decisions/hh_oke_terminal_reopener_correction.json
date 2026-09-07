@@ -1,0 +1,55 @@
+{
+  "review_id": "HH_OKE_TERMINAL_REOPENER_CORRECTION",
+  "target": "OKE selected whole-card joint_tuple_id",
+  "correction": {
+    "terminal_status_derivation": "The published V60 code does not derive terminal_status from joint_tuple_id. It selects events by joint_tuple_id, then copies each source event terminal_status unchanged; validation explicitly checks source-event identity including terminal_status.",
+    "current_representation": "Current OKE source events all carry the formal terminal wrapper in the V60 R1/R3 source packet. That is an observed property of the eight event rows, not a tuple-level mathematical rule.",
+    "physical_last_distinction": "V51 R3 uses terminal in a separate physical-position sense: OKE is once FIRST, seven MIDDLE, zero LAST while all eight carry CLOSE. Thus a physical non-LAST/nonterminal position is already present and is not a new semantic contrast.",
+    "reopener_correction": "A hypothetical same-tuple OKE event with different formal terminal_status is not ordinary additional data within the current frozen event representation; it would require a new source event, changed segmentation/status assignment, or a new admitted source packet. More current OKE examples remain terminal-status confounded. A physical LAST/non-LAST example alone does not reopen action versus CLOSE."
+  },
+  "verified_primary_evidence": [
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v60/build_v60_r4_corrector.py",
+      "line": 110,
+      "line_end": 132,
+      "quote": "    occurrence_rows = []\n    for event in events:\n        joint_id = event[\"joint_tuple_id\"]\n        if joint_id not in DECISIONS:\n            continue\n        seq = by_field[event[\"field_id\"]]\n        index = seq.index(event)\n        field = field_by_id[event[\"field_id\"]]\n        occurrence_rows.append({\n            \"event_serial\": event[\"event_serial\"],\n            \"page\": event[\"page\"],\n            \"locus\": event[\"locus\"],\n            \"record\": event[\"record\"],\n            \"field_id\": event[\"field_id\"],\n            \"surface\": event[\"surface\"],\n            \"joint_tuple_id\": joint_id,\n            \"selected_mnemonic\": DECISIONS[joint_id][0],\n            \"previous_surface_in_field\": seq[index - 1][\"surface\"] if index else \"FIELD_START\",\n            \"next_surface_in_field\": seq[index + 1][\"surface\"] if index + 1 < len(seq) else \"FIELD_END\",\n            \"field_surface_sequence\": field[\"surface_sequence\"],\n            \"field_local_expansion_v59\": field[\"LOCAL_IATROMEDICAL_EXPANSION\"],\n            \"terminal_status\": event[\"terminal_status\"],\n        })",
+      "sha256": "2ddaef19a8bdedeb38ba7af4a8e69b7d7d7117fc7f9b0c3a18a5d790fd3cced3"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R3_VALIDATE_TECHNICAL_MNEMONIC_REVISION.py",
+      "line": 50,
+      "line_end": 60,
+      "quote": "    checks[\"counts_11_85_173_381\"] = (len(decisions), len(audit), len(cards), len(events)) == (11, 85, 173, 381)\n    checks[\"decision_exact_ids_unique\"] = len({row[\"exact_joint_tuple_id\"] for row in decisions}) == 11\n    checks[\"audit_rows_unique\"] = len({row[\"event_serial\"] for row in audit}) == 85\n    checks[\"source_card_identity_preserved\"] = [row[\"joint_tuple_id\"] for row in cards] == [row[\"joint_tuple_id\"] for row in source_cards]\n    checks[\"source_event_identity_preserved\"] = all(\n        all(new[key] == old[key] for key in (\"event_serial\", \"page\", \"locus\", \"record\", \"record_unit_id\", \"field_id\", \"surface\", \"joint_tuple_id\", \"formal_formula_opaque\", \"FORMAL_VALUE\", \"terminal_status\", \"strict_control_prompt\"))\n        for new, old in zip(events, source_events)\n    )\n    checks[\"formal_card_layer_preserved\"] = all(\n        all(new[key] == old[key] for key in (\"surface_examples\", \"occurrences\", \"pages\", \"formal_formula_opaque\", \"FORMAL_VALUE\", \"strict_control_prompt\"))\n        for new, old in zip(cards, source_cards)",
+      "sha256": "d3afea77ada939e0eeed1c612b5f19730892d026fc85c8768dc8baf52fb0bbc8"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R3_TECHNICAL_EXACT_CARD_REPORT.md",
+      "line": 9,
+      "line_end": 15,
+      "quote": "## Bindungsvertrag\n\n1. Schlüssel ist ausschließlich die vollständige, opake `joint_tuple_id`.\n2. Oberflächenformen dienen nur der Anzeige. Weder `PAGE_HOST`, Stringähnlichkeit noch Teilkarten oder Komponenten vererben einen Wert.\n3. Der technische Default ist ein knapper Arbeitsbefehl, Parameter, Zustand oder Relationsslot. Lokale iatromedizinische und nichtmedizinische Expansionen bleiben getrennte Record-Füller.\n4. `formal_formula_opaque`, `FORMAL_VALUE`, `strict_control_prompt` und `terminal_status` bleiben unverändert. Ein physischer Zeilenanfang ist kein Satzanfang.\n5. Nachbarn, Feldstellung und `CLOSE` dürfen einen Kandidaten belasten, erzeugen aber keine Bedeutung.",
+      "sha256": "6f943caad4300b135b8efd096c79c16deeaa49bff5cb323dc29d513c3793842d"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v51/V51_R3_NOTATION_WHOLE_CARD_REPORT.md",
+      "line": 30,
+      "line_end": 42,
+      "quote": "- Die Einheit ist der feste `joint_tuple_id` der ganzen Karte. Sichtbare\n  Varianten wie `aiin`, `daiin`, `saiin`, `okeey` oder `qokeey` werden weder\n  zerlegt noch mit einer freien Bedeutung versehen.\n- Die V49-Ganzkartenexpansion wird als ein bereits gewählter lokaler Satz\n  behandelt. Ihre Wiederholung bei demselben exakten Typ ist keine neue\n  unabhängige Bedeutungsprobe.\n- Direkte Nachbarn wurden innerhalb desselben festen\n  `page + locus + record` über `event_index ± 1` gezählt. `BOUNDARY` bedeutet,\n  dass auf dieser Seite kein Ereignis im Locus steht.\n- Stellung wurde relativ zu demselben Locus als `FIRST`, `MIDDLE`, `LAST` oder\n  `SINGLE` gezählt.\n- Keine der neun Karten trägt ein eigenes RIGHT oder FRAME. Nur `LCHE` und\n  `OKE` tragen ausnahmslos den separaten Wrapper `CLOSE`.",
+      "sha256": "32f89e5bfe403d0425be28733e4a2d77a402bcc401700a3b5343f07ac8346df2"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v51/V51_R3_NOTATION_WHOLE_CARD_REPORT.md",
+      "line": 131,
+      "line_end": 145,
+      "quote": "### `OKE`: `SPÜLEN` fällt ebenfalls wegen CLOSE-Konfundierung aus\n\nAuch `OKE` ist in allen acht Ereignissen geschlossen und ausschließlich\nBiological. Es steht einmal am Anfang, siebenmal in der Mitte und niemals am\nEnde. In `f81v.18` wiederholt sich `OKE` sogar unmittelbar. Links häuft sich\nnur `OKEEY` zweimal, rechts nur `OK` zweimal.\n\nDamit lässt sich ein eigener Spülvorgang nicht von einem gelernten\ngeschlossenen Kartentyp unterscheiden. Das in V49 eingesetzte „einmal“ ist\nbesonders nicht atomar und darf aus der Doppelung nicht wegdiskutiert werden.\n\nStärkster Widerspruch: 8/8 CLOSE, 0/8 terminal und eine direkte\n`OKE`–`OKE`-Doppelung.\n\nEntscheidung: `UNKNOWN`. Einwort-Rivalen: `SPÜLEN`, `WASCHEN`.",
+      "sha256": "32f89e5bfe403d0425be28733e4a2d77a402bcc401700a3b5343f07ac8346df2"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v51/V51_R3_NOTATION_WHOLE_CARD_REPORT.md",
+      "line": 215,
+      "line_end": 224,
+      "quote": "| Karte | stärkster Druck | formaler Status | Auflösung |\n|---|---|---|---|\n| `AIIN` | keine Einheit oder fester Partner | allgemeiner Parameterlead | `MASS` |\n| `EY` | kein CLOSE; alle Stellungen und Nachbarn | kein Commit nachweisbar | `UNKNOWN` |\n| `OKY` | 7/10 nichtterminal; Gegenstand wechselt | kein Opcode | `GEBRAUCH` |\n| `LCHE` | 8/8 CLOSE; nur Biological | vom Wrapper untrennbar | `UNKNOWN` |\n| `OKE` | 8/8 CLOSE, 0/8 terminal, direkte Doppelung | vom Wrapper untrennbar | `UNKNOWN` |\n| `CTHY` | alle sieben Nachfolger verschieden | schwacher Statuslead | `BEREIT` |\n| `OKEEY` | Grad und Einheit fehlen; nur Biological | schwacher Parameterlead | `WÄRME` |\n| `CKHY` | keine Nachbarwiederholung; Konkurrenz zu `L` | kein Link-Opcode | `UNKNOWN` |",
+      "sha256": "32f89e5bfe403d0425be28733e4a2d77a402bcc401700a3b5343f07ac8346df2"
+    }
+  ],
+  "disposition": "correction only; preserve hh_oke_scope_peer.json and make no registry or experiment mutation"
+}

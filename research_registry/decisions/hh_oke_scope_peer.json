@@ -1,0 +1,88 @@
+{
+  "review_id": "HH_OKE_SCOPE_PEER",
+  "target_cards": [
+    {
+      "semid": "SEM:08bf7e0793a6642191e8",
+      "claim": "OKE → spülen",
+      "assessments": "direct priorities --show --field assessments: items=[]"
+    },
+    {
+      "semid": "SEM:146ce405cae2d0e2d85f",
+      "claim": "OKE → beenden",
+      "assessments": "direct priorities --show --field assessments: items=[]"
+    },
+    {
+      "semid": "SEM:256725a0de1610028db0",
+      "claim": "OKE → reinigen",
+      "assessments": "direct priorities --show --field assessments: items=[]"
+    }
+  ],
+  "scope_finding": {
+    "registered_unit": "OKE is a selected whole-card/joint_tuple_id in the V60 registry; V60 R1 audits 8 OKE events, and the broader 85-event audit distinguishes card identity from raw surface/stem occurrences.",
+    "actual_tested": "The reports compared three short whole-card readings against the same eight registered OKE events and their formal positions. The only observed contrast is action wording versus terminal/close position: all 8/8 are TERMINAL/CLOSE.",
+    "confounding": "R1 explicitly retains spülen while stating that beenden is the parsimonious pure-position reading; R2/R3 retain the candidate only because no rival wins. This does not identify an action independently of terminal status.",
+    "raw_scope_boundary": "Surface forms, components, PAGE_HOST and global occurrences are not licensed to inherit the OKE value. V60 R3 makes joint_tuple_id the sole key; V46 lists OKE among recurring whole cards; V51 records the same terminal-card confounding.",
+    "unknown": "Whether OKE denotes a physical/process action at all, and whether it is distinct from a terminal marker, remains unresolved. The selected whole-card registry does not supply a nonterminal OKE contrast.",
+    "falsifier_requirements": "A predeclared source-bound contrast must hold OKE fixed while varying terminal status (or hold terminal status fixed while independently identifying the action), with an external/local action cue and the same complete joint_tuple_id. A merely fluent translation or a new terminal example cannot falsify the positional account.",
+    "changed_data_vs_more_terminal_examples": "A nonterminal OKE occurrence, or an independently anchored wash/clean operation paired with a non-OKE terminal card, would change the decision. More OKE TERMINAL/CLOSE examples, raw stem matches, or repeated end-position counts would only reproduce the confound."
+  },
+  "verified_primary_evidence": [
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+      "line": 38,
+      "line_end": 42,
+      "quote": "| OKE | spülen | Verb | reinigen · beenden | 0/8 | 0.35 | 0 |\n| LCHE | ablassen | Verb | sammeln · beenden | 0/8 | 0.36 | 0 |\n\n`H/B` zählt Herbal-/Biological-Vorkommen, nicht unabhängige Belege. Das\nWörterbuch bindet jeden Wert ausschließlich an die vollständige",
+      "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_EXACT_CARD_AUDIT_REPORT.md",
+      "line": 99,
+      "line_end": 102,
+      "quote": "10. **OKE — spülen.** Acht Bio-Fälle; zweimal `OKEEY→OKE`, einmal folgt die\n    Karte einer lokal so gelesenen Erstspülung. Lehrregel: Prompt und formalen\n    Schluss getrennt ausführen. Widerspruch: 8/8 sind TERMINAL; „beenden“ ist\n    die sparsamere reine Positionslesung.",
+      "sha256": "65cdd8ad6200f0e902e7f3a998bd7310042bbf0894079879f265d9e95cf89bba"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R2_HISTORICAL_FUNCTION_WORD_COMPETITION_REPORT.md",
+      "line": 25,
+      "line_end": 27,
+      "quote": "Die 85 Belege verteilen sich wie folgt: `AIIN` 20, `OKY` 10, `CTHY` 7, `OR` 7,\n`AL` 10, `EY` 4, `OLOR` 2, `OTCHEY` 2, `OKEEY` 7, `OKE` 8 und `LCHE` 8. Der\nzeilenweise Nachweis steht in `V60_R2_85_OCCURRENCE_AUDIT.tsv`.",
+      "sha256": "eae7d9225e61203f56f0a56100f70c813657819e06ca216390b917c515f69597"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R2_HISTORICAL_FUNCTION_WORD_COMPETITION_REPORT.md",
+      "line": 41,
+      "line_end": 46,
+      "quote": "| OKEEY | WARM? | Temperaturadjektiv | LAUWARM?, ERWÄRMEN? | KEEP | .52 | Nur Bio-Belege und kein unabhängiges Temperaturzeichen; technische Prozesslesungen bleiben möglich. |\n| OKE | SPÜLEN? | terminales Handlungsverb | WASCHEN?, SCHLIESSEN? | KEEP | .31 | Alle 8/8 Belege sind formal `CLOSE`; Tätigkeit und bloßer Schlusswert sind vollständig konfundiert. |\n| LCHE | ABLASSEN? | terminales Handlungsverb | LEEREN?, SCHLIESSEN? | KEEP | .34 | Ebenfalls 8/8 `CLOSE`; nicht an jedem Ort ist ein sichtbarer Ablauf vorhanden. |\n\n`KEEP` bedeutet nur, dass innerhalb dieses Wettbewerbs kein Rivale klar besser\npasst. Das Fragezeichen bleibt Bestandteil jeder explorativen Lesung.",
+      "sha256": "eae7d9225e61203f56f0a56100f70c813657819e06ca216390b917c515f69597"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R3_TECHNICAL_EXACT_CARD_REPORT.md",
+      "line": 5,
+      "line_end": 15,
+      "quote": "Der streng ID-gebundene Drucktest ist **ausführbar, aber explorativ**. Allen elf Zielkarten kann ein kurzer technischer Default zugewiesen werden, ohne eine sichtbare Kartenschreibung zu zerlegen. Die 85 kanonischen Vorkommen sind einzeln auditiert. Der Test rechtfertigt keine Entzifferung: Besonders `OLOR` und `OTCHEY` bleiben wegen jeweils nur zwei Belegen schwach; `OKE` und `LCHE` sind in sämtlichen 16 Belegen mit formalem `CLOSE` konfundiert.\n\nDie revidierte strikte Edition enthält genau 173 Kartentypen und 381 Prosaereignisse. Nur die elf vorab festgelegten exakten Joint-Tuple-IDs erhalten einen technischen Default (85 Ereignisse). Die anderen 162 Kartentypen beziehungsweise 296 Ereignisse bleiben `UNKNOWN_EXEMPLAR`.\n\n## Bindungsvertrag\n\n1. Schlüssel ist ausschließlich die vollständige, opake `joint_tuple_id`.\n2. Oberflächenformen dienen nur der Anzeige. Weder `PAGE_HOST`, Stringähnlichkeit noch Teilkarten oder Komponenten vererben einen Wert.\n3. Der technische Default ist ein knapper Arbeitsbefehl, Parameter, Zustand oder Relationsslot. Lokale iatromedizinische und nichtmedizinische Expansionen bleiben getrennte Record-Füller.\n4. `formal_formula_opaque`, `FORMAL_VALUE`, `strict_control_prompt` und `terminal_status` bleiben unverändert. Ein physischer Zeilenanfang ist kein Satzanfang.\n5. Nachbarn, Feldstellung und `CLOSE` dürfen einen Kandidaten belasten, erzeugen aber keine Bedeutung.",
+      "sha256": "6f943caad4300b135b8efd096c79c16deeaa49bff5cb323dc29d513c3793842d"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R3_TECHNICAL_EXACT_CARD_REPORT.md",
+      "line": 29,
+      "line_end": 39,
+      "quote": "| OKEEY | 7 | `TEMPERIEREN?` | `WARMHALTEN?`, `NACHFÜLLEN?` | Temperaturkontrolle; setze Arbeitsband | Keine Skala oder unabhängige Wärmereferenz; nur Bio-Belege | 0,69 |\n| OKE | 8 | `SPÜLEN?` | `REINIGEN?`, `UMWÄLZEN?` | Spülaktion; markiere gespült, dann formaler Commit | Alle acht Belege sind terminal; Semantik ist nicht von `CLOSE` isolierbar | 0,46 |\n| LCHE | 8 | `ABFÜHREN?` | `ABLASSEN?`, `AUSGEBEN?` | Abflussaktion; route aktive Charge zum lokalen Ausgang, dann Commit | Alle acht Belege sind terminal, fünf davon Ein-Karten-Felder | 0,51 |\n\nDamit werden gegenüber V59 R1 `OKE = SPÜLEN?` beibehalten und zehn Werte technisch präzisiert oder verbreitert. Die wichtigsten funktionalen Revisionen sind `MASS? → SOLLWERT?`, `VERWENDEN? → AUSFÜHREN?`, `BEREIT? → FREIGABE?`, `AN? → ZIEL?` und `WARM? → TEMPERIEREN?`.\n\n## Vorkommensdruck\n\nDie Auditklassifikation ergibt 57/85 Vorkommen, die mit Default plus lokalem Füller vereinbar sind. Weitere 16/85 sind ausdrücklich `CLOSE_CONFOUNDED_NOT_DISPROVED`; 4/85 lassen Zustand gegen Aktion offen; je 2/85 tragen Druck durch identische Nachbarschaft, LINK-Nachbarschaft oder formalen Rahmen; je ein Ein-Karten-Feld belastet den geerbten Aktions- beziehungsweise Zielslot. „Vereinbar“ ist dabei kein positiver Bedeutungsbeweis, sondern nur das Ausbleiben eines positions- oder nachbarschaftsbedingten Widerspruchs.\n\n`AIIN` ist als formaler Parameterwert plausibler als als konkrete Maßeinheit: Der Wert bleibt bei FIRST/MIDDLE/LAST-Wechsel stabil, doch seine Dimension muss lokal geliefert werden. Analog ist `AL` besser als formaler Zielslot denn als inhaltlich benannte Station. `OKE` und `LCHE` dürfen dagegen nicht als unabhängige semantische Erfolge gewertet werden, solange kein nichtterminaler Beleg vorliegt.",
+      "sha256": "6f943caad4300b135b8efd096c79c16deeaa49bff5cb323dc29d513c3793842d"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v51/V51_R4_CORRECTOR_WHOLE_CARD_REPORT.md",
+      "line": 30,
+      "line_end": 33,
+      "quote": "`LCHE` und `OKE` sind vollständig mit je einer bestimmten DY-geschlossenen\nKarte konfundiert; ihre vermeintlichen Aktionen sind daher nicht unabhängig\nvom alten Wörterbuch beobachtet. `MASS`, `KLAR`, `ANWENDEN`, `ABLASS`,\n`SPÜLEN`, `BEREIT`, `WÄRMEN`, `LEITUNG` und `DAVON` bleiben lediglich kurze",
+      "sha256": "35ddc5cd1dec8988a3ad74a96673b203f754d13b6553e48ba9557b27e36709ad"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v46/V46_CONSOLIDATED_STEM_CORRECTION.md",
+      "line": 101,
+      "line_end": 102,
+      "quote": "wiederkehrende Ganzkarten:   AIIN, EY, OKY, LCHE, OKE, CTHY, OKEEY, CKHY, OLOR\nexplorative lokale Familien: CHOR, CHEY",
+      "sha256": "9abb8e356b726e671f8b99f2f0ea5b3551074133fd2f8f191f0f1ed96bf5ccad"
+    }
+  ],
+  "disposition": "source-scope dossier only; no new meaning, experiment, registry edit, or assessment credit"
+}

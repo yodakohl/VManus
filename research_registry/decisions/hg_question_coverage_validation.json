@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "scope": "Engineering: bounded public-card/question coverage; no scientific meaning validation",
+  "tests": {
+    "command": "python -m unittest tests.test_semantic_question_coverage",
+    "passed": 10,
+    "synthetic_checks": [
+      "default includes source-only cards",
+      "without-question excludes directly assessed cards",
+      "formal roles opt-in",
+      "filter before pagination",
+      "real validator rejects altered binding",
+      "dangling target rejected before query filtering",
+      "empty target set rejected",
+      "shared question count distinct from card bindings"
+    ]
+  },
+  "smoke": {
+    "command": "./vmanus-work question-coverage OKE --without-question --limit 3",
+    "returned": 3,
+    "matched_before_HH": 131,
+    "all_returned_direct_questions": 0,
+    "scope": "before four HH questions were integrated; count is a historical smoke observation, not a current coverage total"
+  },
+  "limitations": [
+    "Validates current scoped question contracts, not all scientific claims.",
+    "Public individual card universe, excludes local supplements and equivalent-card grouping.",
+    "Retains existing binding validator; first implementation benchmark about15seconds for whole public scan, not a speed guarantee."
+  ],
+  "source_sha256": {
+    "tools/semantic_question_coverage.py": "fbbad724de712dc58f8a4bb238bd9371956314861d0523bae4d6807b2b90c752",
+    "tests/test_semantic_question_coverage.py": "84fad450f6fb499c20cc4f5dbe0b0d4ef05bbe8958cbf1bac94d11f236538a7e",
+    "tools/work_cli.py": "f6d908531c8cb1a35a844d8598945a992f15a4c50ad170054c59e8756f3fb389"
+  }
+}

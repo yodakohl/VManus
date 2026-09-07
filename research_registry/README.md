@@ -27,6 +27,17 @@ experimental scopes remain separate. Historical proposals are not confirmed mean
 or permission to rerun failed experiments. Use linked registry dossiers for assessed
 failures, changed-input review and reopening conditions.
 
+Before delegating a candidate audit, use
+`./vmanus-work question-coverage "OKE" --without-question` to select public
+cards with no directly bound scoped question. Default output includes both
+covered and uncovered cards; eight results per page, twenty maximum. Source
+case counts are reported separately from question IDs: a source-case review
+does not establish a scientific assessment. This view shows individual public
+cards, excluding local supplements and equivalent-card grouping. It validates
+current question bindings before filtering; zero coverage does not prove
+novelty, readiness, or absence of related historical work. Continue with
+`priorities --show ID`, duplicate screening, and the relevant primary reports.
+
 ## Normal work: load a shortlist, then one dossier
 
 ```bash

@@ -1,0 +1,57 @@
+{
+  "review_id": "HH_OKE_TUPLE_TERMINAL_CONTRACT",
+  "target": "OKE exact whole-card tuple and formal CLOSE status",
+  "verified_primary_evidence": [
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v59/V59_R1_BUILD_FINAL_EDITION.py",
+      "line": 43,
+      "line_end": 45,
+      "quote": "# V56's eleven exact cross-register bridge cards: three formal constructions\n# and eight exposed mnemonic cards.  The mapping is by exact tuple ID, never by\n# a visible substring or host coordinate.",
+      "sha256": "5d3c90549719b266cf953a1036f286a76ce6238801328c930de5eac0199badb3"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v59/V59_R1_BUILD_FINAL_EDITION.py",
+      "line": 286,
+      "line_end": 295,
+      "quote": "    card_ids = {r[\"joint_tuple_id\"] for r in cards_in}\n    assert card_ids == set(v43_prose) == set(v22_prose_lex)\n    for card in cards_in:\n        tid = card[\"joint_tuple_id\"]\n        assert card[\"complete_default_German\"] == v43_prose[tid][\"current_default\"]\n    for v49, v22 in zip(events_in, v22_prose_events, strict=True):\n        assert v49[\"page\"] == v22[\"page\"]\n        assert v49[\"locus\"] == v22[\"locus\"]\n        assert v49[\"surface\"] == v22[\"surface\"]\n        assert v49[\"joint_tuple_id\"] == v22[\"exact_tuple_id\"]",
+      "sha256": "5d3c90549719b266cf953a1036f286a76ce6238801328c930de5eac0199badb3"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v59/V59_R1_BUILD_FINAL_EDITION.py",
+      "line": 353,
+      "line_end": 376,
+      "quote": "        tid = event[\"joint_tuple_id\"]\n        unit_id = RECORD_UNIT[(event[\"page\"], event[\"record\"])]\n        pos, total = event_pos[id(event)]\n        field_id, field_ord = event_field[id(event)]\n        formula_raw = event[\"formal_formula\"]\n        terminal = formula_raw.startswith(\"CLOSE\")\n        terminal_events += int(terminal)\n        mnemonic, mnemonic_scope = mnemonic_for(tid)\n        rival_clause = event_rival_clause[id(event)]\n        row = {\n            \"event_serial\": serial,\n            \"page\": event[\"page\"],\n            \"locus\": event[\"locus\"],\n            \"record\": event[\"record\"],\n            \"record_unit_id\": unit_id,\n            \"field_id\": field_id,\n            \"field_ordinal_in_locus\": field_ord,\n            \"event_index_in_locus\": event[\"event_index\"],\n            \"event_index_in_record\": pos,\n            \"surface\": event[\"surface\"],\n            \"joint_tuple_id\": tid,\n            \"formal_formula_opaque\": sanitize_formula(formula_raw),\n            \"FORMAL_VALUE\": formal_value(formula_raw),\n            \"terminal_status\": \"TERMINAL\" if terminal else \"NONCLOSE\",",
+      "sha256": "5d3c90549719b266cf953a1036f286a76ce6238801328c930de5eac0199badb3"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v59/V59_R1_BUILD_FINAL_EDITION.py",
+      "line": 439,
+      "line_end": 442,
+      "quote": "        terminal_flags = [e[\"formal_formula\"].startswith(\"CLOSE\") for e in assigned]\n        assert sum(terminal_flags) <= 1\n        if any(terminal_flags):\n            assert terminal_flags[-1]",
+      "sha256": "5d3c90549719b266cf953a1036f286a76ce6238801328c930de5eac0199badb3"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R3_TECHNICAL_EXACT_CARD_REPORT.md",
+      "line": 9,
+      "line_end": 15,
+      "quote": "## Bindungsvertrag\n\n1. Schlüssel ist ausschließlich die vollständige, opake `joint_tuple_id`.\n2. Oberflächenformen dienen nur der Anzeige. Weder `PAGE_HOST`, Stringähnlichkeit noch Teilkarten oder Komponenten vererben einen Wert.\n3. Der technische Default ist ein knapper Arbeitsbefehl, Parameter, Zustand oder Relationsslot. Lokale iatromedizinische und nichtmedizinische Expansionen bleiben getrennte Record-Füller.\n4. `formal_formula_opaque`, `FORMAL_VALUE`, `strict_control_prompt` und `terminal_status` bleiben unverändert. Ein physischer Zeilenanfang ist kein Satzanfang.\n5. Nachbarn, Feldstellung und `CLOSE` dürfen einen Kandidaten belasten, erzeugen aber keine Bedeutung.",
+      "sha256": "6f943caad4300b135b8efd096c79c16deeaa49bff5cb323dc29d513c3793842d"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v51/V51_R3_NOTATION_WHOLE_CARD_REPORT.md",
+      "line": 30,
+      "line_end": 42,
+      "quote": "- Die Einheit ist der feste `joint_tuple_id` der ganzen Karte. Sichtbare\n  Varianten wie `aiin`, `daiin`, `saiin`, `okeey` oder `qokeey` werden weder\n  zerlegt noch mit einer freien Bedeutung versehen.\n- Die V49-Ganzkartenexpansion wird als ein bereits gewählter lokaler Satz\n  behandelt. Ihre Wiederholung bei demselben exakten Typ ist keine neue\n  unabhängige Bedeutungsprobe.\n- Direkte Nachbarn wurden innerhalb desselben festen\n  `page + locus + record` über `event_index ± 1` gezählt. `BOUNDARY` bedeutet,\n  dass auf dieser Seite kein Ereignis im Locus steht.\n- Stellung wurde relativ zu demselben Locus als `FIRST`, `MIDDLE`, `LAST` oder\n  `SINGLE` gezählt.\n- Keine der neun Karten trägt ein eigenes RIGHT oder FRAME. Nur `LCHE` und\n  `OKE` tragen ausnahmslos den separaten Wrapper `CLOSE`.",
+      "sha256": "32f89e5bfe403d0425be28733e4a2d77a402bcc401700a3b5343f07ac8346df2"
+    }
+  ],
+  "findings": {
+    "tuple_identity_chain": "The inspected V59 builder consumes pre-existing joint_tuple_id values from V49 cards/events and checks equality against V43/V22 IDs. It does not construct or hash a tuple ID in the inspected code.",
+    "formula_terminal_chain": "V59 reads event[\"formal_formula\"], sets terminal_status to TERMINAL exactly when formula_raw.startswith(\"CLOSE\"), and keeps the tuple ID as a separate field. V60 validators preserve both fields unchanged.",
+    "dy_in_tuple_hash": "UNKNOWN. No inspected source-code span exposes the tuple-ID hash/input definition, so inclusion of DY closure in the tuple identity cannot be established.",
+    "tuple_implies_close": "UNPROVEN. The code proves event formula→terminal flag, not tuple→formula or tuple→CLOSE. The current OKE packet may correlate all observed IDs with CLOSE, but that does not establish a tuple-level derivation.",
+    "position_contract": "V51 FIRST/MIDDLE/LAST is explicitly locus/field position metadata in the notation layer; this audit does not call it physical whole-line position. It is separate from formal terminal_status.",
+    "reopener": "Do not recommend an ordinary same-tuple nonterminal example unless the upstream tuple/formula contract is first established. A valid reopener would require either (a) source code/schema proving tuple identity permits formula/status variation, or (b) a new source packet/segmentation whose changed formal formula and tuple identity are independently documented. More current OKE examples alone remain confounded."
+  },
+  "disposition": "correction only; prior OKE scope files preserved; no registry or experiment mutation"
+}

@@ -1,0 +1,52 @@
+{
+  "scope": "V51 R1 whole-card logic audit for SEM:f65a7ab53b3385123b6b (OKE=SPÜLEN) and SEM:616d52cb35736a949149 (LCHE=ABLASSEN).",
+  "source": {
+    "path": "experiments/yolo/sidequest_theory_candidates_v51/V51_R1_WHOLE_CARD_REPORT.md",
+    "sha256": "d753d07ce7e5a13a19004d194635d49d87d47046a59f7dcd9597fdb41969b62a"
+  },
+  "evidence": [
+    {
+      "line": 23,
+      "line_end": 32,
+      "quote": "Keines dieser Merkwörter ist eine bestätigte Übersetzung. Sie dienen nur\ndem Rücklesen einer **ganzen exakten Kartenidentität**. Kein sichtbarer Teil\nder Oberfläche erbt einen Wert, und aus keinem Merkwort darf eine Oberfläche\ngebaut werden. Insbesondere werden die V50-Hostwerte nicht in diese neun\nGanzkarten hineinkomponiert.\n\n`VERWENDEN`, `ABLASSEN` und `SPÜLEN` haben in der deutschen Merkhilfe eine\noffene Ergänzungsstelle. Der jeweilige Gegenstand ist nicht im Wort verborgen.\n`DURCH` ist eine offene Relation; Lauf, Gefäß oder Material gehören nicht zu\nihr. `VORHER` markiert nur Rückwärtsbezug und enthält kein stilles „Ding“.",
+      "logical_use": "The registered unit is the exact whole card and its gloss leaves object, target, and operation details open."
+    },
+    {
+      "line": 73,
+      "line_end": 87,
+      "quote": "| Karte | feste Oberflächen mit Zahl | n | unveränderte lokale V49-Expansion |\n|---|---|---:|---|\n| `AIIN` | `aiin` 3; `chaiin` 1; `daiin` 11; `saiin` 4; `taiin` 1 | 20 | Ein vorgeschriebenes Maß |\n| `EY` | `cheey` 2; `shey` 2 | 4 | Bis die Flüssigkeit klar abläuft |\n| `OKY` | `choky` 2; `oky` 1; `qoky` 7 | 10 | Die aktive Portion verwenden |\n| `LCHE` | `lchedy` 8 | 8 | lasse die verbrauchte Flüssigkeit in das untere Auffanggefäß ablaufen und beende den Schritt |\n| `OKE` | `qokedy` 8 | 8 | spüle die bezeichnete Stelle einmal und beende den Schritt |\n| `CTHY` | `checthy` 2; `cthy` 3; `shcthy` 2 | 7 | Sobald die Zubereitung gebrauchsfertig ist |\n| `OKEEY` | `okeey` 1; `qokeey` 6 | 7 | temperiere die Arbeitsflüssigkeit und halte sie lauwarm |\n| `CKHY` | `chckhy` 3; `shckhy` 1 | 4 | durch die verbundenen Läufe |\n| `OLOR` | `cholor` 1; `olor` 1 | 2 | Aus dem vorigen Ansatz entnehmen |\n\nDiese neun Expansionen sind Ganzkarten-Defaults. Ihre Wiederholung in allen\nEreignissen derselben Tuple-ID ist Konsistenz der Ausgabe, keine unabhängige\nsemantische Bestätigung.",
+      "logical_use": "The local expansions contain extra procedure content; repeated output is not independent semantic evidence."
+    },
+    {
+      "line": 130,
+      "line_end": 154,
+      "quote": "### `LCHE = ABLASSEN` — `ABLASS` ersetzen\n\n- **Lehrregel:** Die exakte ganze LCHE-Karte heißt als Arbeitsruf\n  `ABLASSEN`. Welche Substanz wohin läuft und ob danach ein Schritt endet,\n  steht nicht im Merkwort.\n- **Vollvorkommensdruck:** Acht Ereignisse stehen siebenmal innen und nur\n  einmal am Ende. Die Karte bleibt eine lokale Handlung und ist kein\n  Datensatzabschluss.\n- **Stärkster Widerspruch:** Auf mehreren f83r-Datensätzen folgen nach LCHE\n  weitere Karten; die ganze Defaultphrase „... und beende den Schritt“ darf\n  daher nicht zu `ABSCHLUSS` verkürzt werden. `ABLASSEN` bewahrt nur die\n  wiederkehrende Kernhandlung und ist als Verb eindeutiger als `ABLASS`.\n- **Einwort-Rivalen:** `ABLASS`; `ENTLEEREN`.\n\n### `OKE = SPÜLEN` — behalten\n\n- **Lehrregel:** Die ganze OKE-Karte erhält den Arbeitsruf `SPÜLEN`. Stelle,\n  Wasser, Anzahl und Beendigung werden nicht hineingelesen.\n- **Vollvorkommensdruck:** Acht Ereignisse liegen in sechs Datensätzen;\n  einmal am Anfang und siebenmal innen. In `f81v.18` steht OKE zweimal direkt\n  hintereinander, in `f83r.20` zweimal mit Abstand.\n- **Stärkster Widerspruch:** Die direkte Doppelung widerspricht der lokalen\n  Formulierung „einmal“, wenn dieses Zahlwort als Karteninhalt gelten sollte.\n  Sie widerlegt nicht den kleineren Vorgang `SPÜLEN`; Zahl und Ziel müssen aus\n  dem Ganzkontext verschwinden.",
+      "logical_use": "The report itself limits LCHE to a recurring core action and explicitly says the OKE duplicate does not refute SPÜLEN."
+    }
+  ],
+  "countermodels": [
+    {
+      "target": "OKE",
+      "overclaim": "Two adjacent OKE cards contradict 'spülen ... einmal'.",
+      "countermodel": "Each card can instruct one application to a different local target, or 'once' can scope per occurrence rather than to the card type. Both preserve two written slots and one wash per slot.",
+      "consequence": "The duplicate refutes only importing the number once into the whole-card gloss; it does not refute SPÜLEN."
+    },
+    {
+      "target": "LCHE",
+      "overclaim": "No visible outflow refutes ABLASSEN.",
+      "countermodel": "A procedure can instruct draining while the illustration omits the liquid movement, depicts a different phase, or records only the vessel/state. Absence is refuting only under an independently established exhaustive, temporally matched depiction convention.",
+      "consequence": "The current record leaves ABLASSEN versus a closure/emptying rival underdetermined; it does not logically refute the action."
+    },
+    {
+      "target": "LCHE",
+      "overclaim": "Later cards after LCHE refute a drain action.",
+      "countermodel": "Draining may be one operation within a longer procedure; later cards refute only the compound gloss 'drain and end the step'.",
+      "consequence": "Retain the narrower action mnemonic with its open object, direction, and endpoint."
+    }
+  ],
+  "reopen_requirements": [
+    "For OKE: a matched repeated-action design fixing target, scope, and per-occurrence count before comparing SPÜLEN with its rivals.",
+    "For LCHE: an independently justified exhaustive and temporally matched depiction rule plus a contrasting non-outflow terminal case, or a source-bound operation/state contrast; additional same-card examples alone are insufficient.",
+    "Keep all claims bound to the complete registered whole-card identity; do not transfer them to raw glyphs, stems, or global tokens."
+  ]
+}

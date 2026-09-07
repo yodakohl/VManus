@@ -1,0 +1,65 @@
+{
+  "review_id": "HH_ROOT_SCOPE_AND_LOGIC_CORRECTION",
+  "status": "ROOT_SOURCE_REVIEW_NOT_NEW_MANUSCRIPT_TEST",
+  "contract": "For the frozen V49/V59/V60 registered mapping, a card has one formal formula; event formulas are copied by tuple ID, and terminal_status is calculated from its CLOSE prefix. More events with the same fixed card/formula cannot produce a NONCLOSE counterexample. This does not establish authorial discourse completion. No assertion about the original tuple hash is needed.",
+  "earlier_peer_limits": [
+    "Initial OKE/LCHE peers recommend a same-tuple nonterminal counterexample without checking whether the formal map permits it. Later fixed-card peer and this root correction supersede that recommendation for the frozen representation.",
+    "Intermediate OKE contract peers stopped at inherited event fields. Their uncertainty did not prove independent variation; V49 upstream code resolves the necessary frozen-map contract.",
+    "V51 FIRST/MIDDLE/LAST counts positions within page+locus+record; V60 also uses field positions. Neither is independent authorial clause gold. V51 OKE 1initial/7interior and LCHE7interior/1final do not contradict V60 all-formally-terminal.",
+    "Expanded-gloss peer offers correct countermodels but then still says duplication refutes the word once and later cards refute ending a step. Those consequences are not adopted: one execution per instruction and successive locally completed steps satisfy the compound glosses.",
+    "The expanded-gloss peer has source path/hash outside its evidence objects and one quote changes punctuation. Those objects are not accepted as exact operative evidence; root rebuilt contiguous primary spans below.",
+    "Missing visible outflow is not an action refutation without independently justified exhaustive and temporally matched depiction. Confounding alone is not the logical reason."
+  ],
+  "independent_review": "hh_fixed_card_terminal_peer.json agrees with the root chain. All earlier raw artifacts are retained as review history, not automatically operative evidence.",
+  "evidence": [
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v49/build_v49_r3_atomic_component_contract.py",
+      "line": 150,
+      "line_end": 157,
+      "quote": "    frame = card[\"local_frame\"]\n    if frame != \"NONE\":\n        expression = f\"{FRAME_ATOMS[frame]}({expression})\"\n\n    if card[\"dy_closure\"] == \"1\":\n        expression = f\"CLOSE({expression})\"\n    if card[\"b3\"] == \"1\":\n        expression = f\"CLOSE_B3({expression})\"",
+      "sha256": "1ab8de767ccbc866cbb4d171e4a0bbe154a769cbf05446ec565d261d80976e3c"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v49/build_v49_r3_atomic_component_contract.py",
+      "line": 310,
+      "line_end": 347,
+      "quote": "    by_tuple: dict[str, dict[str, object]] = {}\n    for source in cards_in:\n        atom, status, formula, generic = structural_formula(source)\n        row: dict[str, object] = {\n            \"joint_tuple_id\": source[\"joint_tuple_id\"],\n            \"page_host\": source[\"page_host\"],\n            \"surface_examples\": source[\"surface_examples\"],\n            \"host_atomic_value\": atom,\n            \"host_value_status\": status,\n            \"local_frame\": source[\"local_frame\"],\n            \"inner_d\": source[\"inner_d\"],\n            \"right_family\": source[\"right_family\"],\n            \"dy_closure\": source[\"dy_closure\"],\n            \"b3\": source[\"b3\"],\n            \"executable_atomic_formula\": formula,\n            \"generic_argument_completion_German\": generic,\n            \"source_semantic_gloss\": \"UNASSIGNED\",\n            \"rule\": \"ONLY_CONTRACT_ATOMS_COMPOSE; UNKNOWN_HOST_REMAINS_UNKNOWN\",\n        }\n        cards.append(row)\n        by_tuple[source[\"joint_tuple_id\"]] = row\n    write(OUT / \"V49_R3_COMPLETE_173_ATOMIC_CARD_LEXICON.tsv\", cards)\n\n    events: list[dict[str, object]] = []\n    for source in events_in:\n        card = by_tuple[source[\"joint_tuple_id\"]]\n        events.append({\n            \"page\": source[\"page\"],\n            \"locus\": source[\"locus\"],\n            \"record\": source[\"record\"],\n            \"event_index\": source[\"event_index\"],\n            \"surface\": source[\"surface\"],\n            \"joint_tuple_id\": source[\"joint_tuple_id\"],\n            \"page_host\": source[\"page_host\"],\n            \"executable_atomic_formula\": card[\"executable_atomic_formula\"],\n            \"generic_argument_completion_German\": card[\"generic_argument_completion_German\"],\n            \"source_semantic_gloss\": \"UNASSIGNED\",\n        })",
+      "sha256": "1ab8de767ccbc866cbb4d171e4a0bbe154a769cbf05446ec565d261d80976e3c"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v49/build_v49_selected_atomic_revision.py",
+      "line": 160,
+      "line_end": 178,
+      "quote": "        (row[\"page\"], row[\"locus\"], row[\"event_index\"], row[\"joint_tuple_id\"]): row\n        for row in r3_events\n    }\n    events: list[dict[str, object]] = []\n    for local in r2_events:\n        key = (local[\"page\"], local[\"locus\"], local[\"event_index\"], local[\"joint_tuple_id\"])\n        formal = r3_event_by_key[key]\n        card = cards_by_id[local[\"joint_tuple_id\"]]\n        events.append({\n            \"page\": local[\"page\"],\n            \"locus\": local[\"locus\"],\n            \"record\": local[\"record\"],\n            \"event_index\": local[\"event_index\"],\n            \"surface\": local[\"surface\"],\n            \"joint_tuple_id\": local[\"joint_tuple_id\"],\n            \"page_host\": local[\"page_host\"],\n            \"formal_formula\": formal[\"executable_atomic_formula\"],\n            \"atomic_working_value_German\": card[\"atomic_working_value_German\"],\n            \"atomic_status\": card[\"atomic_status\"],",
+      "sha256": "55129e496e9452527cfe31c19853e8de02e5b3e55a03c005a6fbb632b4cedde2"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v59/V59_R1_BUILD_FINAL_EDITION.py",
+      "line": 353,
+      "line_end": 376,
+      "quote": "        tid = event[\"joint_tuple_id\"]\n        unit_id = RECORD_UNIT[(event[\"page\"], event[\"record\"])]\n        pos, total = event_pos[id(event)]\n        field_id, field_ord = event_field[id(event)]\n        formula_raw = event[\"formal_formula\"]\n        terminal = formula_raw.startswith(\"CLOSE\")\n        terminal_events += int(terminal)\n        mnemonic, mnemonic_scope = mnemonic_for(tid)\n        rival_clause = event_rival_clause[id(event)]\n        row = {\n            \"event_serial\": serial,\n            \"page\": event[\"page\"],\n            \"locus\": event[\"locus\"],\n            \"record\": event[\"record\"],\n            \"record_unit_id\": unit_id,\n            \"field_id\": field_id,\n            \"field_ordinal_in_locus\": field_ord,\n            \"event_index_in_locus\": event[\"event_index\"],\n            \"event_index_in_record\": pos,\n            \"surface\": event[\"surface\"],\n            \"joint_tuple_id\": tid,\n            \"formal_formula_opaque\": sanitize_formula(formula_raw),\n            \"FORMAL_VALUE\": formal_value(formula_raw),\n            \"terminal_status\": \"TERMINAL\" if terminal else \"NONCLOSE\",",
+      "sha256": "5d3c90549719b266cf953a1036f286a76ce6238801328c930de5eac0199badb3"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v51/V51_R1_WHOLE_CARD_REPORT.md",
+      "line": 35,
+      "line_end": 47,
+      "quote": "\nGezählt wurde innerhalb von `page + locus + record`. Eine physische Zeile ist\nkein angenommener Satz. Wiederholungen derselben Tuple-ID bestätigen die\nWiederverwendung der Karte, nicht mehrfach unabhängig ihre kreative Bedeutung.\n\n| Karte | Ereignisse | Seiten | Datensätze | Oberflächen | Anfang | innen | Ende |\n|---|---:|---:|---:|---:|---:|---:|---:|\n| `AIIN` | 20 | 7 | 18 | 5 | 4 | 11 | 5 |\n| `EY` | 4 | 3 | 4 | 2 | 1 | 2 | 1 |\n| `OKY` | 10 | 5 | 10 | 3 | 0 | 7 | 3 |\n| `LCHE` | 8 | 2 | 8 | 1 | 0 | 7 | 1 |\n| `OKE` | 8 | 2 | 6 | 1 | 1 | 7 | 0 |\n| `CTHY` | 7 | 3 | 7 | 3 | 0 | 6 | 1 |",
+      "sha256": "d753d07ce7e5a13a19004d194635d49d87d47046a59f7dcd9597fdb41969b62a"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v51/V51_R1_WHOLE_CARD_REPORT.md",
+      "line": 130,
+      "line_end": 154,
+      "quote": "### `LCHE = ABLASSEN` — `ABLASS` ersetzen\n\n- **Lehrregel:** Die exakte ganze LCHE-Karte heißt als Arbeitsruf\n  `ABLASSEN`. Welche Substanz wohin läuft und ob danach ein Schritt endet,\n  steht nicht im Merkwort.\n- **Vollvorkommensdruck:** Acht Ereignisse stehen siebenmal innen und nur\n  einmal am Ende. Die Karte bleibt eine lokale Handlung und ist kein\n  Datensatzabschluss.\n- **Stärkster Widerspruch:** Auf mehreren f83r-Datensätzen folgen nach LCHE\n  weitere Karten; die ganze Defaultphrase „... und beende den Schritt“ darf\n  daher nicht zu `ABSCHLUSS` verkürzt werden. `ABLASSEN` bewahrt nur die\n  wiederkehrende Kernhandlung und ist als Verb eindeutiger als `ABLASS`.\n- **Einwort-Rivalen:** `ABLASS`; `ENTLEEREN`.\n\n### `OKE = SPÜLEN` — behalten\n\n- **Lehrregel:** Die ganze OKE-Karte erhält den Arbeitsruf `SPÜLEN`. Stelle,\n  Wasser, Anzahl und Beendigung werden nicht hineingelesen.\n- **Vollvorkommensdruck:** Acht Ereignisse liegen in sechs Datensätzen;\n  einmal am Anfang und siebenmal innen. In `f81v.18` steht OKE zweimal direkt\n  hintereinander, in `f83r.20` zweimal mit Abstand.\n- **Stärkster Widerspruch:** Die direkte Doppelung widerspricht der lokalen\n  Formulierung „einmal“, wenn dieses Zahlwort als Karteninhalt gelten sollte.\n  Sie widerlegt nicht den kleineren Vorgang `SPÜLEN`; Zahl und Ziel müssen aus\n  dem Ganzkontext verschwinden.",
+      "sha256": "d753d07ce7e5a13a19004d194635d49d87d47046a59f7dcd9597fdb41969b62a"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v60/V60_R2_HISTORICAL_FUNCTION_WORD_COMPETITION_REPORT.md",
+      "line": 42,
+      "line_end": 46,
+      "quote": "| OKE | SPÜLEN? | terminales Handlungsverb | WASCHEN?, SCHLIESSEN? | KEEP | .31 | Alle 8/8 Belege sind formal `CLOSE`; Tätigkeit und bloßer Schlusswert sind vollständig konfundiert. |\n| LCHE | ABLASSEN? | terminales Handlungsverb | LEEREN?, SCHLIESSEN? | KEEP | .34 | Ebenfalls 8/8 `CLOSE`; nicht an jedem Ort ist ein sichtbarer Ablauf vorhanden. |\n\n`KEEP` bedeutet nur, dass innerhalb dieses Wettbewerbs kein Rivale klar besser\npasst. Das Fragezeichen bleibt Bestandteil jeder explorativen Lesung.",
+      "sha256": "eae7d9225e61203f56f0a56100f70c813657819e06ca216390b917c515f69597"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "review_id": "HH_FIXED_CARD_TERMINAL_PEER",
+  "target": "OKE fixed registered card terminal contract",
+  "verified_primary_evidence": [
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v49/build_v49_r3_atomic_component_contract.py",
+      "line": 127,
+      "line_end": 157,
+      "quote": "def structural_formula(card: dict[str, str]) -> tuple[str, str, str, str]:\n    \"\"\"Return atom/status/formula/generic argument completion for one card.\"\"\"\n    host = card[\"page_host\"]\n    if host in HOST_ATOMS:\n        host_atom = HOST_ATOMS[host][\"atom\"]\n        host_status = HOST_ATOMS[host][\"status\"]\n        expression = host_atom\n    else:\n        host_atom = \"UNKNOWN\"\n        host_status = \"OPAQUE_HOST_NO_ATOMIC_GLOSS\"\n        expression = f\"UNKNOWN_HOST[{host.upper()}]\"\n\n    if card[\"inner_d\"] == \"1\":\n        expression = f\"VARIANT_D({expression})\"\n\n    right = card[\"right_family\"]\n    if right != \"NONE\":\n        arg = RIGHT_ATOMS[right]\n        if host_atom != \"UNKNOWN\":\n            expression = f\"{expression}(<{arg}>)\"\n        else:\n            expression = f\"{expression} + <{arg}>\"\n\n    frame = card[\"local_frame\"]\n    if frame != \"NONE\":\n        expression = f\"{FRAME_ATOMS[frame]}({expression})\"\n\n    if card[\"dy_closure\"] == \"1\":\n        expression = f\"CLOSE({expression})\"\n    if card[\"b3\"] == \"1\":\n        expression = f\"CLOSE_B3({expression})\"",
+      "sha256": "1ab8de767ccbc866cbb4d171e4a0bbe154a769cbf05446ec565d261d80976e3c"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v49/build_v49_r3_atomic_component_contract.py",
+      "line": 309,
+      "line_end": 347,
+      "quote": "    cards: list[dict[str, object]] = []\n    by_tuple: dict[str, dict[str, object]] = {}\n    for source in cards_in:\n        atom, status, formula, generic = structural_formula(source)\n        row: dict[str, object] = {\n            \"joint_tuple_id\": source[\"joint_tuple_id\"],\n            \"page_host\": source[\"page_host\"],\n            \"surface_examples\": source[\"surface_examples\"],\n            \"host_atomic_value\": atom,\n            \"host_value_status\": status,\n            \"local_frame\": source[\"local_frame\"],\n            \"inner_d\": source[\"inner_d\"],\n            \"right_family\": source[\"right_family\"],\n            \"dy_closure\": source[\"dy_closure\"],\n            \"b3\": source[\"b3\"],\n            \"executable_atomic_formula\": formula,\n            \"generic_argument_completion_German\": generic,\n            \"source_semantic_gloss\": \"UNASSIGNED\",\n            \"rule\": \"ONLY_CONTRACT_ATOMS_COMPOSE; UNKNOWN_HOST_REMAINS_UNKNOWN\",\n        }\n        cards.append(row)\n        by_tuple[source[\"joint_tuple_id\"]] = row\n    write(OUT / \"V49_R3_COMPLETE_173_ATOMIC_CARD_LEXICON.tsv\", cards)\n\n    events: list[dict[str, object]] = []\n    for source in events_in:\n        card = by_tuple[source[\"joint_tuple_id\"]]\n        events.append({\n            \"page\": source[\"page\"],\n            \"locus\": source[\"locus\"],\n            \"record\": source[\"record\"],\n            \"event_index\": source[\"event_index\"],\n            \"surface\": source[\"surface\"],\n            \"joint_tuple_id\": source[\"joint_tuple_id\"],\n            \"page_host\": source[\"page_host\"],\n            \"executable_atomic_formula\": card[\"executable_atomic_formula\"],\n            \"generic_argument_completion_German\": card[\"generic_argument_completion_German\"],\n            \"source_semantic_gloss\": \"UNASSIGNED\",\n        })",
+      "sha256": "1ab8de767ccbc866cbb4d171e4a0bbe154a769cbf05446ec565d261d80976e3c"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v49/build_v49_selected_atomic_revision.py",
+      "line": 128,
+      "line_end": 157,
+      "quote": "        formal = r3_by_id[tuple_id]\n        local = r2_by_id[tuple_id]\n        host = formal[\"page_host\"]\n        if host in HOST_GLOSSES:\n            value, status, basis = HOST_GLOSSES[host]\n            unit = \"PAGE_HOST\"\n        elif host in WHOLE_CARD_GLOSSES:\n            value, status = WHOLE_CARD_GLOSSES[host]\n            basis = \"One recurrent exact-card mnemonic only; no productive segmentation.\"\n            unit = \"EXACT_WHOLE_CARD\"\n        else:\n            value = \"UNBEKANNT\"\n            status = \"WITHDRAWN\" if host in WITHDRAWN else \"OPAQUE_WHOLE_CARD\"\n            basis = WITHDRAWN.get(host, \"No selected reusable atomic meaning.\")\n            unit = \"PAGE_HOST\" if host in WITHDRAWN else \"EXACT_WHOLE_CARD\"\n        row = {\n            \"joint_tuple_id\": tuple_id,\n            \"page_host\": host,\n            \"surface_examples\": formal[\"surface_examples\"],\n            \"formal_formula\": formal[\"executable_atomic_formula\"],\n            \"atomic_working_value_German\": value,\n            \"atomic_unit_type\": unit,\n            \"atomic_status\": status,\n            \"complete_default_German\": local[\"local_creative_expansion_German\"],\n            \"interpretation_basis\": basis,\n            \"rule\": \"FORMAL_FORMULA_AND_ATOMIC_GLOSS_ARE_SEPARATE; COMPLETE_DEFAULT_IS_CREATIVE_NOT_WORD_MEANING\",\n        }\n        cards.append(row)\n        cards_by_id[tuple_id] = row\n    write_tsv(HERE / \"V49_SELECTED_173_CARD_DICTIONARY.tsv\", cards)",
+      "sha256": "55129e496e9452527cfe31c19853e8de02e5b3e55a03c005a6fbb632b4cedde2"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v49/build_v49_selected_atomic_revision.py",
+      "line": 163,
+      "line_end": 180,
+      "quote": "    events: list[dict[str, object]] = []\n    for local in r2_events:\n        key = (local[\"page\"], local[\"locus\"], local[\"event_index\"], local[\"joint_tuple_id\"])\n        formal = r3_event_by_key[key]\n        card = cards_by_id[local[\"joint_tuple_id\"]]\n        events.append({\n            \"page\": local[\"page\"],\n            \"locus\": local[\"locus\"],\n            \"record\": local[\"record\"],\n            \"event_index\": local[\"event_index\"],\n            \"surface\": local[\"surface\"],\n            \"joint_tuple_id\": local[\"joint_tuple_id\"],\n            \"page_host\": local[\"page_host\"],\n            \"formal_formula\": formal[\"executable_atomic_formula\"],\n            \"atomic_working_value_German\": card[\"atomic_working_value_German\"],\n            \"atomic_status\": card[\"atomic_status\"],\n            \"complete_default_German\": local[\"local_creative_expansion_German\"],\n        })",
+      "sha256": "55129e496e9452527cfe31c19853e8de02e5b3e55a03c005a6fbb632b4cedde2"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v59/V59_R1_BUILD_FINAL_EDITION.py",
+      "line": 22,
+      "line_end": 35,
+      "quote": "P = {\n    \"v49_cards\": ROOT / \"experiments/yolo/sidequest_theory_candidates_v49/V49_SELECTED_173_CARD_DICTIONARY.tsv\",\n    \"v49_events\": ROOT / \"experiments/yolo/sidequest_theory_candidates_v49/V49_SELECTED_381_EVENT_INTERLINEAR.tsv\",\n    \"v49_fields\": ROOT / \"experiments/yolo/sidequest_theory_candidates_v49/V49_SELECTED_135_FIELD_TRANSLATION.tsv\",\n    \"v43_dictionary\": ROOT / \"experiments/yolo/sidequest_theory_candidates_v43/V43_CURRENT_COMPLETE_DICTIONARY.tsv\",\n    \"v22_lexicon\": ROOT / \"experiments/yolo/sidequest_theory_candidates_v22/V22_SELECTED_COMPLETE_DEFAULT_LEXICON.tsv\",\n    \"v22_ledger\": ROOT / \"experiments/yolo/sidequest_theory_candidates_v22/V22_SELECTED_COMPLETE_TRANSLATION_LEDGER.tsv\",\n    \"v53_articles\": ROOT / \"experiments/yolo/sidequest_theory_candidates_v53/V53_SELECTED_FIVE_ARTICLES.tsv\",\n    \"v54_bio\": ROOT / \"experiments/yolo/sidequest_theory_candidates_v54/V54_SELECTED_SIX_BIO_RECORDS.tsv\",\n    \"v55_diagrams\": ROOT / \"experiments/yolo/sidequest_theory_candidates_v55/V55_SELECTED_THREE_DIAGRAMS.tsv\",\n    \"v56_phrasebook\": ROOT / \"experiments/yolo/sidequest_theory_candidates_v56/V56_SELECTED_SHARED_PHRASEBOOK.tsv\",\n    \"v57_manual\": ROOT / \"experiments/yolo/sidequest_theory_candidates_v57/V57_SELECTED_TEACHING_MANUAL.tsv\",\n    \"v58_comparison\": ROOT / \"experiments/yolo/sidequest_theory_candidates_v58/V58_SELECTED_MODEL_COMPARISON.tsv\",\n}",
+      "sha256": "5d3c90549719b266cf953a1036f286a76ce6238801328c930de5eac0199badb3"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v59/V59_R1_BUILD_FINAL_EDITION.py",
+      "line": 353,
+      "line_end": 376,
+      "quote": "        tid = event[\"joint_tuple_id\"]\n        unit_id = RECORD_UNIT[(event[\"page\"], event[\"record\"])]\n        pos, total = event_pos[id(event)]\n        field_id, field_ord = event_field[id(event)]\n        formula_raw = event[\"formal_formula\"]\n        terminal = formula_raw.startswith(\"CLOSE\")\n        terminal_events += int(terminal)\n        mnemonic, mnemonic_scope = mnemonic_for(tid)\n        rival_clause = event_rival_clause[id(event)]\n        row = {\n            \"event_serial\": serial,\n            \"page\": event[\"page\"],\n            \"locus\": event[\"locus\"],\n            \"record\": event[\"record\"],\n            \"record_unit_id\": unit_id,\n            \"field_id\": field_id,\n            \"field_ordinal_in_locus\": field_ord,\n            \"event_index_in_locus\": event[\"event_index\"],\n            \"event_index_in_record\": pos,\n            \"surface\": event[\"surface\"],\n            \"joint_tuple_id\": tid,\n            \"formal_formula_opaque\": sanitize_formula(formula_raw),\n            \"FORMAL_VALUE\": formal_value(formula_raw),\n            \"terminal_status\": \"TERMINAL\" if terminal else \"NONCLOSE\",",
+      "sha256": "5d3c90549719b266cf953a1036f286a76ce6238801328c930de5eac0199badb3"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v59/V59_R1_BUILD_FINAL_EDITION.py",
+      "line": 439,
+      "line_end": 442,
+      "quote": "        terminal_flags = [e[\"formal_formula\"].startswith(\"CLOSE\") for e in assigned]\n        assert sum(terminal_flags) <= 1\n        if any(terminal_flags):\n            assert terminal_flags[-1]",
+      "sha256": "5d3c90549719b266cf953a1036f286a76ce6238801328c930de5eac0199badb3"
+    }
+  ],
+  "conclusion": {
+    "fixed_map_chain": "V49 structural_formula places CLOSE around the card expression when dy_closure=1; V49 stores one executable formula per joint_tuple_id and assigns that same card formula to every event with that ID. V49 selected revision carries the formula from the card into each event. V59 consumes those selected V49 cards/events and derives TERMINAL from formula_raw.startswith(\"CLOSE\").",
+    "operative_logical_result": "For the frozen registered map, a given OKE joint_tuple_id has one fixed formula. If its dy_closure yields CLOSE, every current event carrying that ID necessarily receives formal terminal_status=TERMINAL. A same-ID nonterminal OKE event is impossible without changing the upstream card formula/map or event assignment.",
+    "dy_hash_question": "No hash claim is needed for this conclusion: the published structural map and by-tuple event propagation are sufficient. Whether the opaque ID was originally hashed from DY is outside the needed contract.",
+    "reopen_scope": "More examples of the same registered OKE ID cannot create a nonterminal contrast. A meaningful reopening would require a changed upstream tuple/formula contract, a newly admitted card ID with independently justified identity, or an independently observed action cue outside the fixed map. FIRST/MIDDLE/LAST remains locus/field position metadata and is not treated as physical whole-line position.",
+    "status_boundary": "This establishes a formal parser/card contract only. It does not establish that OKE means SPÜLEN, nor that formal TERMINAL equals discourse completion."
+  },
+  "disposition": "correction only; prior OKE peer files preserved; no registry or experiment mutation"
+}
