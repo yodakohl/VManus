@@ -1,11 +1,11 @@
 # Voynich current route
-Updated: 2026-09-06. Read first.
+Updated: 2026-09-07. Read first.
 
 ## Current mandate and effort limit
 
-10h from2026-09-06 16:41:44UTC to2026-09-07 02:41:44UTC unless interrupted.
-Semantic source recovery, scoped identity and failure/priorities.
-Session: `research_registry/decisions/semantic_identity_session.md`.
+10h curation ended2026-09-07 02:41:44UTC; no experiment selected.
+Open: completeness, scoped assessments and duplicate review.
+Report: `research_registry/decisions/semantic_10h_completion.md`.
 
 GDT858:855/963primary808folds retained opposite-face training;169faces/90leaves.
 GDT865 whole-leaf correction retains both primary thresholds: nuisance macroAUC

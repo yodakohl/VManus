@@ -7,6 +7,8 @@ They remain in the source archive. No hypothesis becomes executable by inclusion
 
 ## Current public snapshot
 
+Ten-hour comparison and remaining coverage limits: [completion report](decisions/semantic_10h_completion.md).
+
 | Unit | Count |
 |---|---:|
 | Active semantic hypothesis variants | 3,854 |
