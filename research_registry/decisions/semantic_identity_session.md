@@ -495,3 +495,20 @@ source-preservation audits PASS:4118active3853semantic265formal4639cases,
 206restatements,51groups/60reductions,41otherrelations,41dossiers and9unready
 priorities.48identity inputs. GB must re-review the changed FY effective claim;
 its older raw binding is preserved, not automatically rebased. No manuscript finding.
+
+GB/GC/GD/GE bounded decision: unresolved source scope in already named early
+models and owner-bound lexical proposals; possible outcomes change same-ID wording,
+scoped equivalence, or leave a reusable no-op receipt. Smallest test is whole-case
+and complete primary definition comparison, independent peer, then existing
+validators and publication; budget25minutes including integration. No new science
+or decoder. Separate coverage-check correction: the optional full-history export
+was stale after the latest ledger refresh; rebuild that derived metadata table and
+check before the next publication. No legacy source or semantic finding changes.
+
+GB/GC/GD/GE validation: three same-ID completions and one source-contract
+equivalence; GG10 source-only receipts. Current source/operative/preservation
+checks PASS:4118active3853semantic265formal4639cases,209restatements,
+52groups/61reductions,41otherrelations,41dossiers,9unreadypriorities and50inputs.
+Full-history export and legacy catalog validation regenerated after metadata
+refresh; these stale derived snapshots were maintenance, not a research failure.
+GD trailing quote newline normalized only in derived receipt; source bytes retained.

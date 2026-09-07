@@ -1,0 +1,2155 @@
+{
+  "review_id": "CLEAN_GAP_REVIEW_GG",
+  "cards": [],
+  "dispositions": [],
+  "source_reassessments": [
+    {
+      "source_id": "LEGACY_COMPONENT:efde63de5b7c946eae61",
+      "decision": "existing_proposition_source_audit_only",
+      "card_ids": [],
+      "new_card_ids": [],
+      "counterpart_ids": [
+        "SEM:05ccb791cfc8e683ca31"
+      ],
+      "reason": "The exact claim is already the two-component frame T+AL, not a free T or AL translation. The source explicitly calls the owner-specific Zielposition/Zielstation phrases realizations of the same fixed component value. Adding one default Stationsposten sentence to the claim would replace its intended invariant with a local realization; retain. The 89 checks concern replay/formal bookkeeping, not independent semantics.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt490_einstellen_observed_phrase_atlas/REPORT.md",
+          "line": 5,
+          "line_end": 27,
+          "quote": "## Ergebnis\n\nAlle elf T-seitigen GDT428-Rahmen treffen exakte GDT416-Klauseln. Die 30\nTräger liegen auf fünfzehn bereits zugelassenen Seiten, decken alle fünf\nRegister und neun Besitzerklassen ab und liefern 22 verschiedene deutsche\nSatzformen. Alle dreißig Rückprojektionen sind exakt.\n\nFür jeden Rahmen wurde eine bestehende Form als Default ausgewählt. Beispiele:\n\n- `T+AIIN = EINSTELLEN · WERT`: „Stelle den Arbeitswert ein.“;\n- `T+AIN = EINSTELLEN · ANTEIL`: „Stelle den Drogenanteil ein.“;\n- `T+AL = EINSTELLEN · ZIELORT`: „Stelle den Stationsposten [wie zuvor] ein;\n  zur Zielstation.“;\n- `T+OL = EINSTELLEN · FORTSETZEN`: „Weiter stelle den Pflanzenposten [wie\n  zuvor] ein.“;\n- `T+Y = EINSTELLEN · POSTEN`: „Stelle den Pflanzenposten ein.“;\n- `CH+T = NEHMEN · EINSTELLEN`: „Nimm den Arbeitswert [wie zuvor] und stelle\n  den Arbeitswert [wie zuvor] ein.“\n\nRegistervarianten bleiben als echte Alternativen sichtbar: WERT erscheint als\nArbeits-, Mengen- oder Stationswert; ANTEIL als Drogen- oder Stationsanteil;\nZIELORT als Zielposition oder Zielstation. Das sind owner-lokale deutsche\nRealisierungen desselben festen Komponentenwerts.",
+          "sha256": "4be58dc442befab958e5884f2d28f642a1bb1d97c89b18240e69a5892d390ae0"
+        },
+        {
+          "path": "experiments/yolo/gdt490_einstellen_observed_phrase_atlas/REPORT.md",
+          "line": 39,
+          "line_end": 45,
+          "quote": "Die lokale Abwesenheit bleibt bestehen; die übergreifende Satzkarte ist nun\nkonkret gefüllt.\n\nDer deterministische Validator besteht 89 von 89 Prüfungen. Elf Defaults und\n22 Varianten sind beobachtet, erfundene Phrasen: **0**. Keine Bedeutung,\nFormulierung, Modellfolge, Grenze, Oberfläche, Rezeptfolge, Event- oder\nSeitenzuordnung ändert sich.",
+          "sha256": "4be58dc442befab958e5884f2d28f642a1bb1d97c89b18240e69a5892d390ae0"
+        }
+      ],
+      "full_selected_span_read": true,
+      "initial_review_preserved": true,
+      "new_intake": false,
+      "initial_review_file": "research_registry/decisions/clean_component_review.json"
+    },
+    {
+      "source_id": "LEGACY_PROPOSAL:438b6bc04424cd19ea45cbfa",
+      "decision": "existing_proposition_source_audit_only",
+      "card_ids": [],
+      "new_card_ids": [],
+      "counterpart_ids": [
+        "SEM:0837b387c460e6166a6b"
+      ],
+      "reason": "The source table actually offers AUSWAHL? as the hardest rival to the selected ANTEIL? value, and the complete current case already identifies the rival column. The question mark is preserved in the claim. There is no negative extraction error or material missing construction restriction to fix: this is a genuine live competing whole-card noun hypothesis, not a confirmed selected value. Retain instead of cosmetic rewriting or archiving.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/CANDIDATE_V60_R4_CHANCERY_CORRECTOR.md",
+          "line": 21,
+          "line_end": 38,
+          "quote": "## Revidiertes Kurzdeck\n\n| Karte | Quellklasse | V60-R4-Wert | härtester Rivale |\n|---|---|---|---|\n| AIIN | Parameter-Nomen | `MASS?` | `STANDARD?` |\n| OKY | Handlung | `ANWENDEN?` | `AUSFÜHREN?` |\n| CTHY | Zustand | `BEREIT?` | `FERTIG?` |\n| OR | Arbeitsstoff | `ANSATZ?` | `BEREITUNG?` |\n| AL | Relationsargument | `ZIEL?` | `STELLE?` |\n| EY | Zustand | `KLAR?` | `ENDE?` |\n| OLOR | Rückverweis | `VORIGES?` | `DARAUS?` |\n| OTCHEY | Auswahl-Nomen | `ANTEIL?` | `AUSWAHL?` |\n| OKEEY | Handlung | `TEMPERIEREN?` | `WARM?` |\n| OKE | terminale Handlung | `SPÜLEN?` | `DURCHGANG?` |\n| LCHE | terminale Handlung | `ABLASSEN?` | `AUSLAUF?` |\n\nDas Fragezeichen gehört zum Wert. Es verhindert, dass ein kreativer Default\nspäter als bestätigtes historisches Lexem zitiert wird.",
+          "sha256": "913bede9f275b266efdbceb6836c822a7248a13528ea1b07362521ddb725507b"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/CANDIDATE_V60_R4_CHANCERY_CORRECTOR.md",
+          "line": 60,
+          "line_end": 72,
+          "quote": "\nLerne diese elf Formen als unteilbare Karten. Sprich niemals sichtbare Teile\neinzeln aus. Setze pro Karte höchstens das kurze Tabellenwort ein; ergänze\nObjekt, Medium, Ziel, Horizont und Ergebnis erst aus Bild, Record und Exemplar.\nDamit wird etwa:\n\n```text\nQOKEEY  QOKEDY\nTEMPERIEREN?  SPÜLEN?\nlokal: Temperiere den aktiven Ansatz; spüle den bezeichneten Lauf und schließe.\n```\n\nDie dritte Zeile ist Quellenexpansion, nicht Wörterbuch.",
+          "sha256": "913bede9f275b266efdbceb6836c822a7248a13528ea1b07362521ddb725507b"
+        }
+      ],
+      "full_selected_span_read": true,
+      "initial_review_preserved": true,
+      "new_intake": false,
+      "initial_review_file": "research_registry/decisions/clean_late_sidequest_review.json"
+    },
+    {
+      "source_id": "LEGACY_PROPOSAL:7b068eb8a37c1ba5bce852a5",
+      "decision": "existing_whole_card_scope_revision",
+      "card_ids": [],
+      "new_card_ids": [],
+      "counterpart_ids": [
+        "SEM:0d93928a8c82a752282f"
+      ],
+      "reason": "The GDT585 table is explicitly Kern in der Drogenklasse, its result changes only fixed learned-name slots, and its concluding scope denies global word equations. The current bare ora→mehrfingrige Blütenwurzel omits the owner/class licensing condition and can misstate a universal word meaning. Restore that condition and the retained old Eiweiß rival under the same ID; the author explicitly denies species identification and independently confirmed vocabulary.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt585_learned_name_compound_atlas/REPORT.md",
+          "line": 25,
+          "line_end": 59,
+          "quote": "\n## Was gegenüber GDT582 besser wird\n\nGDT582 hatte absichtlich jedes Namensfeld gefüllt, aber seine Stoffpalette war\nweitgehend eine frei gewählte Apothekerliste. Dadurch konnten nebeneinander\nsichtbare Wurzelfragmente zufällig `Wasser`, `Wein`, `Essig`, `Bienenwachs`,\n`Eiweiß` oder `Eigelb` heißen. GDT585 setzt das Bild wieder vor diese Aliase.\n\nDie 38 pharmazeutischen Slots verteilen sich auf 29 Pflanzenfragment-, sieben\nGefäß- und zwei Grenzlabelpositionen. Entsprechend lauten die Primärwerte nun\nWurzel, Blatt/Kraut, Blütenstand, Wurzelstock, gelernte Mutterpflanze,\nWurzelvariante oder neutraler Arzneivorrat. Der alte Stoff bleibt in derselben\nZeile erhalten und kann jederzeit wieder Primärwert werden, wenn eine ganze\nPassage ihn besser trägt.\n\nEinige zentrale Umstellungen sind:\n\n| Kern in der Drogenklasse | neuer Primärdefault | sichtbarer alter Rivale |\n|---|---|---|\n| `d` | Wurzeldroge / Wurzel | Wasser |\n| `y` | Krautdroge | Wein |\n| `s` | Blattdroge | Salz |\n| `sy` | Blütenstand | Vitriol |\n| `oiin` | Wurzelstock | Myrrhe |\n| `e` | breitblättrige gelernte Mutterpflanze | Weihrauch |\n| `yt` | Blattteil | Salbeiblatt |\n| `em` | grauwurzelige gelernte Mutterpflanze | Raute/Rautenblatt |\n| `cheo` | dunkle Faserwurzeldroge | Essig |\n| `cheosdy` | gebänderte Faserwurzel derselben Familie | Eigelb |\n| `or` | helle Wurzeldroge | Olivenöl |\n| `ora` | mehrfingrige Blütenwurzel | Eiweiß |\n\nDiese Werte sind bewusst beschreibend. `mehrfingrige Blütenwurzel` ist keine\nArtbestimmung, und `Arzneivorrat` ist kein identifizierter Stoff. Der Gewinn ist\nnur, dass das Label jetzt zuerst zum sichtbaren Objekt passt.",
+          "sha256": "64c22c0d024fcde4abea03d857fa6db809264b340eaa02f098b7e3c1e8d36a1f"
+        },
+        {
+          "path": "experiments/yolo/gdt585_learned_name_compound_atlas/REPORT.md",
+          "line": 170,
+          "line_end": 175,
+          "quote": "Nicht vorliegt: eine Entzifferung, eine Artbestimmung, ein Stoffnachweis, eine\nbestätigte Kalenderfunktion oder ein historisches Codebuch. Vor allem sind\n`d=Wurzel`, `y=Kraut` und `s=Blatt` keine globalen Wortgleichungen; sie gelten\nnur in der festen ownerbestimmten Namensklasse dieses Experiments. `dy` und\nlängere Kerne bleiben Ganzkerne, solange kein eigener Kompositionstest eine\nTeilung trägt.",
+          "sha256": "64c22c0d024fcde4abea03d857fa6db809264b340eaa02f098b7e3c1e8d36a1f"
+        },
+        {
+          "path": "experiments/yolo/gdt585_learned_name_compound_atlas/REPORT.md",
+          "line": 186,
+          "line_end": 193,
+          "quote": "## Claim ceiling\n\nGDT585 ist die beste gegenwärtige explorative Arbeitstheorie für die schon\nabgegrenzte Namensschicht. Der Pass bestätigt kein Voynich-Wort, keinen\nKlartext, keine Sprache, keine botanische oder pharmazeutische Identität,\nkeinen Stern-/Kalenderwert und keine historische Codebuchgleichung. Er ändert\nkeine Seite, Oberfläche, Segmentierung, Event-ID, produktive Funktion oder\nGDT581/GDT584-Grammatik und liefert keinen Parser für ungesehene Formen.",
+          "sha256": "64c22c0d024fcde4abea03d857fa6db809264b340eaa02f098b7e3c1e8d36a1f"
+        }
+      ],
+      "full_selected_span_read": true,
+      "initial_review_preserved": true,
+      "new_intake": false,
+      "initial_review_file": "research_registry/decisions/clean_report_proposals_review.json"
+    },
+    {
+      "source_id": "LEGACY_PROPOSAL:09f94b92d2aedf5628bf25b4",
+      "decision": "existing_whole_card_scope_revision",
+      "review_state": "existing_whole_card_scope_revision",
+      "full_selected_span_read": true,
+      "full_proposition_comparison_complete": true,
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:a0527b64d6a86c83569b"
+      ],
+      "reason": "The current case identifies the unique PRS-1 model, but its evidence skips the fenced concrete mnemonic contract. Complete that existing named model under its ID, preserving its explicit invented polarity, no-number and pure-template-rival limits. Do not create one extra card per mnemonic or another whole PRS-1 model.",
+      "evidence": [
+        {
+          "path": "GDT009_SEMANTIC_BOOTSTRAP_REPORT.md",
+          "line": 5,
+          "line_end": 25,
+          "quote": "## Best current meaning theory\n\nVoynich lines most plausibly behave as **compact technical assertions about\npage-local referents**.  A line opens or continues a record, selects an item or\nvalue frame, states an association/operation, adds a grade or configuration,\nand optionally closes the result.  Labels are compressed one-field or\nmulti-field records, not necessarily names.  This is the semantic layer of the\nHPR-1 renderer.\n\nIn deliberately concrete mnemonic English:\n\n```text\nq    under the current record/frame       t    start a new record\nd    set/apply or active rendering        s    describe/state rendering\no/ot item/local frame                     che  an explicit value/reference follows\nAR   association or operation link        OL   the referent/item field\nAI/AII, TE/TEE  reduced/expanded grade    DAL/DAR configuration A/B\nSY   secondary or exception status        DY   closed/default/resolved result\n```\n\nThese are provisional functional readings, not dictionary translations.",
+          "sha256": "6b5d0f65380395ca19407b8f3979f5410b65c1303ba46b8599a4e227aca0485e"
+        },
+        {
+          "path": "GDT009_SEMANTIC_BOOTSTRAP_REPORT.md",
+          "line": 47,
+          "line_end": 59,
+          "quote": "- **q** is an outer dependency/current-frame instruction: not “a word”, but\n  “interpret the enclosed field under the active record.”\n- **d/s/t** select record mode.  `t` starts; `d` and `s` continue.  The working\n  polarity is active/set versus descriptive/state, but it may reverse.\n- **che** is the best candidate for an explicit value/assignment carrier.\n- **AR** is an association/operation link and **OL** a referent/item field.\n  `AROL` therefore means roughly *associated item / relation-to-referent*, not\n  water, flow, woman, or plant.\n- **AI/AII** and **TE/TEE** are reduced/expanded grades.  No number is assigned.\n- **DAL/DAR** are alternative result configurations.  No left/right,\n  source/destination, or upper/lower assignment survives yet.\n- **SY** marks a secondary/exception state; **DY** is the default resolved or\n  closed result.",
+          "sha256": "6b5d0f65380395ca19407b8f3979f5410b65c1303ba46b8599a4e227aca0485e"
+        },
+        {
+          "path": "GDT009_SEMANTIC_BOOTSTRAP_REPORT.md",
+          "line": 88,
+          "line_end": 101,
+          "quote": "## Counterexamples that shaped the theory\n\n`AROL = water/flow`, `DAR = water`, `d/s = source/destination`, and\n`DAL = upper` are rejected.  q and DY are not confirmed morphemes because the\nnested algebra does not outperform string baselines.  The theory instead\nassigns abstract record functions, where cross-object reuse is expected.\n\n## What remains awkward\n\nThe pure-template source model is still a formidable alternative and compresses\nbetter.  No core referent is securely named.  d/s polarity, DAL/DAR polarity,\nand TE/TEE segmentation are invented.  Several strongest visual clues are\npage-confounded.  PRS-1 is therefore a theory to generate sharper observations,\nnot a decoded paragraph.",
+          "sha256": "6b5d0f65380395ca19407b8f3979f5410b65c1303ba46b8599a4e227aca0485e"
+        },
+        {
+          "path": "GDT009_SEMANTIC_BOOTSTRAP_REPORT.md",
+          "line": 114,
+          "line_end": 123,
+          "quote": "The best current concrete meaning theory is **PRS-1**: a procedural\nreference-state register.  The manuscript is not merely a list of names and\nnot ordinary visible prose.  It records page-local items through reusable\nassociation, grade, configuration, status, and closure fields, rendered with\nscope/mode operators and aggressive abbreviation.  That theory explains more\nobservations at once than a literal flow vocabulary, object nomenclature, or\npure quantified catalogue, while remaining explicitly vulnerable to the pure\ntemplate null.\n\nf84r remains sealed.  No language, sound, plaintext, or translation is claimed.",
+          "sha256": "6b5d0f65380395ca19407b8f3979f5410b65c1303ba46b8599a4e227aca0485e"
+        }
+      ],
+      "previous_initial_disposition_preserved": true,
+      "previous_source_receipt": {
+        "results": [
+          {
+            "source_id": "LEGACY_PROPOSAL:09f94b92d2aedf5628bf25b4",
+            "relationships": [
+              "exact_id"
+            ],
+            "review_state": "unknown",
+            "full_read_recorded": false,
+            "decision": "accepted",
+            "original_decision": "",
+            "reason": "Explicit proposed value/model or exact already-reviewed component overlap; source scope retained.",
+            "source_binding": "unknown",
+            "evidence": [],
+            "evidence_count": 0,
+            "review_path": "research_registry/decisions/clean_report_proposals_review.json",
+            "review_sha256": "17055a7e3c76fc821f9caf787d2d5d48c69072010936ddffd553f8fd1555caa1",
+            "locator": "/dispositions/32"
+          }
+        ],
+        "matched": 1,
+        "limit": 8,
+        "offset": 0,
+        "next_offset": null,
+        "review_inputs": [
+          {
+            "path": "research_registry/decisions/clean_component_review.json",
+            "sha256": "66203c3a57d8827dcdfc86ed497925d81368ebd7c3048f965367ced8d11cb24e"
+          },
+          {
+            "path": "research_registry/decisions/clean_final_sidequest_review.json",
+            "sha256": "55be386a0e1980355cb403076a0217767d587277205d112ab1ed3519c192ad11"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_aa.json",
+            "sha256": "df6879cccf384c36c940dc1e1493f1fb1c99ab4d2043c9aa22d4eb117d830000"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ab.json",
+            "sha256": "aba7be7299550c3f14e3ec4b5f19e183bcb80bb714110a98c8a0b6bd575ea423"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ac.json",
+            "sha256": "eb18f4a4169f74a67a4601d9ab1526362582ff890b3f86607a3bba6ddbbce8f9"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ae.json",
+            "sha256": "f6be998c27c0bf356ac9221806fbe06c28d00fe93c962352857c33708fe9226d"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_af.json",
+            "sha256": "399339fe6d552749ff397d441e4c60b82433da0cefcce93022f885d0ed180042"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ag.json",
+            "sha256": "a962d8b0ad4dd0f9219c7ba559f7da4f612c393ae546c6257f5acd9122f44f64"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ai.json",
+            "sha256": "5168e1f81ec411e74c0058fea583ef648fe89893a37ea9306ec2a1fb7b9f0d73"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_al.json",
+            "sha256": "a7f5566080892f12a30f863e0e5181e2fca6970e4cc29c40fba683229b50ae55"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_am_integrated.json",
+            "sha256": "88e676a7d225b77576822cbbd318efc22eb8b55b9b902b4d3f8280a0c712f48f"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_an_integrated.json",
+            "sha256": "105129391fc1fa64bb58ff4291dfdc4de67c784e6ec4543ca1296432d74d9f61"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ao_integrated.json",
+            "sha256": "1d8c99d915fcfc5d48c6e2e97e15516386a0967db70937d2507d1b767ba68609"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_aq_integrated.json",
+            "sha256": "88b05f1339271e23f8b6c91b9dd855823f7beed9b9b28693d1f56b4f76cdab78"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_aw_integrated.json",
+            "sha256": "7d1a74afa444596417828d70a1fc7477a8096230014b74fcd0c78eb786f04fbd"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ax_integrated.json",
+            "sha256": "77bd20ae3bc60a0824aa5b3704e00fde4d4519fd6edb50a22f889dedc2af90c0"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ay_integrated.json",
+            "sha256": "5f538b709782a996e3bc2ca17c0b3c90aa93f6f6b312884b6c331c7fe2a346f2"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_az_integrated.json",
+            "sha256": "a29b365de56c822d48eaddcf297b75c22ac7b57ac8d852ec51ccba895c992616"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ba.json",
+            "sha256": "fe238aada1a43e0962686819a2c81a4a2726c5ce25018d4b997f1d9c8e5e4c34"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bb_integrated.json",
+            "sha256": "ebe30e76bcb6c56bf71d3f9b731b7ac9a5d80a53bc8d624f5cb5089e9281c377"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bd_integrated.json",
+            "sha256": "18b701133df42d8ebb70a62c58d47c5820e076f8cd40b9072c2aa332551e4f93"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_be_integrated.json",
+            "sha256": "51fe0afa36d98823f8fca0b5c2fe21c4cddb442f2854ae115e6537bc2e9d1a42"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bg.json",
+            "sha256": "3faaa12a2873c61f2813f30614def2ec46e743a5e687ef832673f2844a9e4afd"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bh_integrated.json",
+            "sha256": "95486c527d6f97bcdea53422ae82dc5c7047bf0c3f6a1284c37f60bc20e51504"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bi_integrated.json",
+            "sha256": "1dcf08a0b44e31491f7e4c222ae5e4722dea8479d21d486559fe9e663a5cf358"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bj_integrated.json",
+            "sha256": "9f8083fce18f423bb3a4e39fa630543a48baa47699a9973f90fd96b4436da1bf"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bk_integrated.json",
+            "sha256": "03c01d7f5433247608dd2181cf44fe9f526b6ba8e62518e9873fe8f00ec2abfe"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bm_integrated.json",
+            "sha256": "c426a1899a0c1fe00a5048b1c171e871fa235a49834ea95a0bcedb8c427f236e"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bn_integrated.json",
+            "sha256": "8a57d1647d7c052a2d7807a03702a69b667fce4ffdd4357a63c5586056e6878f"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bo_integrated.json",
+            "sha256": "03229b33ceba00772464d6d5691f8a74b6c1d36a8bac99ab7d0779be464667fd"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bp_integrated.json",
+            "sha256": "f2f67874548e4f8b19b03ab75f5e0a32cbb8d0ed9ffce68302438f4d7ae4d466"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bq_integrated.json",
+            "sha256": "580f3c5270dd68ad7187cee82224fb8d792dcc540c7b3e922e40db44e18f78c6"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_br_integrated.json",
+            "sha256": "047c1ac5ec10631bb4390e2f488c28ebba0afb5fbb9b5d8cf85fa9c05c7d64e3"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bs_integrated.json",
+            "sha256": "deb7e56307b4e68267fadc1b66ac00a112745f55d82fc1727e2f13b719445189"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bv_integrated.json",
+            "sha256": "7264035e337b840c45f4de9d317ad2d5404a0929fefca7cbf35c8843abd27ec8"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bw_integrated.json",
+            "sha256": "3bb12d0c237068925c3253995988e46c01a6b58190ad4b39dbf19cbb60263159"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bx_integrated.json",
+            "sha256": "5499c2c12ce06bededde14a57dd2b7aadf177259959b51ddea79392bc430200f"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bz_integrated.json",
+            "sha256": "235c6477c67855b489264f3de4a6049f074a5e1442b2ae6e6560cd1922ea770b"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ca_integrated.json",
+            "sha256": "7db9700ea3b30fefd94fa66f772440eeff047ad79c9bd07b887e898cd5bba64e"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cb_integrated.json",
+            "sha256": "dd6236e0c4cc9766e6dc72c7b692e28f8b9c9be7318149dce3ffee80d3da8db3"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cc_integrated.json",
+            "sha256": "896dab7e5900eb424ecf2df3ff546511db24b997e41ee2bd05662e0ea8c88157"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ce_integrated.json",
+            "sha256": "10d2c1bd7b15d26f18a8d412701f1bbbc6b78ae25a7fa4f6af8902240c436221"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cf_integrated.json",
+            "sha256": "c49afdf0fa9ecbd38602b58fb6cbe683c111d0f64bd8b17d496f9ea3ebb605f1"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cg_integrated.json",
+            "sha256": "8f41c8df1e533495dc89597c1fc69003f39128c9b958e85120a4f18f5cf83cd4"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ch_integrated.json",
+            "sha256": "4d2bb5c02485a085d13cf18c81146878e39ebed31cb77c08669a44276d1ca95c"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ci_integrated.json",
+            "sha256": "99c5474cc00033118b158c899f29fe4a81b0087796c49cc2bd756436fff45328"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ck_integrated.json",
+            "sha256": "7e9ba362be909280b34ced12dea5eb1b9b364c191e37684e1d74b9e95e911e0f"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cl_integrated.json",
+            "sha256": "50e6e32c21a0477e0a0f9d91be33552907b8e6688b427ed22ea237c75fc224a3"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cm_integrated.json",
+            "sha256": "7f0c679bc2e28043f7ff2067055b4d0bed9afbc3861ec5535b4734526c4af915"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cn_integrated.json",
+            "sha256": "3e4e318dce44df88cdc4ebba41eaafe1b0a039d17ee195b8121cb54ca1755de9"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_co_integrated.json",
+            "sha256": "2b105c2b2afaf8012d911a4055031ff6cabc9e02c08d9779f19d48fc295345fa"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cp_integrated.json",
+            "sha256": "b0b5aac47ea0f349a5c7190b011ec073fd21b77515747c3c854385cb8bb2572f"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cr_integrated.json",
+            "sha256": "530f8b47a33a146701012a1d6eccbdb4124e2f79f0eef63add7466a5bd4615f3"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cs_integrated.json",
+            "sha256": "dedca51cff508b9a0919f0c16b0e7f50a204fff477b67371a17442ad6b419b16"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cu_integrated.json",
+            "sha256": "c0b78b68bc4a017ee3bc9e22f80d9f4f885dc8b9226cda450a3833d3b2147248"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cw_integrated.json",
+            "sha256": "ab319959744006cc6bfb672015aee3f6d3a143a2374fda19db06eb7cd3d75fa8"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cx_integrated.json",
+            "sha256": "11215995d77803ddddc5023ddd36181d9e8be154d4be91635392b1870d8f3eeb"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_da_integrated.json",
+            "sha256": "9f82017d43a997e3c231e9cd222774279862ef9279bdc090135395156da146b7"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dc_integrated.json",
+            "sha256": "754ed611c8030f93d19d815d23a8409d53bd1a3a221cf335c38d2337ea391907"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_de_integrated.json",
+            "sha256": "043202f15fa069787d3256c2b336082bab786f8a05c93ffa60ce005ed2d2762d"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_df_integrated.json",
+            "sha256": "dcd00417434a8f93791c1400965feaf36d17d811e1fe38489e41bd8bc103031c"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dj_integrated.json",
+            "sha256": "2b92807e4056f8141afa6c08667f8eae0084eeb5551f3012794ce5a3ab3fdf7f"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dk_integrated.json",
+            "sha256": "133735eb435174c80caf45cc9f0a798e910dd8c0b5c62082bf374522ddc002ec"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dm_integrated.json",
+            "sha256": "30d1a40c04feef5506087cb978d439fc393d93341ba07fbe29068d6a2d941d4f"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dp_integrated.json",
+            "sha256": "03203a4176285d974c9ec9bc4878eee06f16fd21c5ce5a045024cd6b11f726f5"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dq_integrated.json",
+            "sha256": "80f232b09d1d36821668d2f467f8c7cbf9af7e666bd289aee5fe6c5f11d52028"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ds_integrated.json",
+            "sha256": "f0cfa4f8b134c3b7ba01d6359a0849dc8e8b6d0e541580609974279adb039d69"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dt_integrated.json",
+            "sha256": "5729a9884a5ab7a0531b999fe8ea33db27001402b2dd1ba0e054c7097f3a8901"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dv_integrated.json",
+            "sha256": "88cf4a5c6de5a9f8b06e6ca2d468c9ffdb1f1c95d153ad45fc10fb3ff0c1640d"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dw_integrated.json",
+            "sha256": "2e7342496b503f411eb0cf3e26ff78160309b6cae510b7d4b41c8cc8288c0643"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dx_integrated.json",
+            "sha256": "c4b591756d6f09b83ce1f809a43d7b30c5806e823221ec9fa7b7f53dbd2ed5c9"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dy_integrated.json",
+            "sha256": "1a84761f2663028d0dae633facae7fdf58202a36dee805ef2afadf977f955a81"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ec_integrated.json",
+            "sha256": "1f7c11877de40f429aa751e103acb27c40372e61eb7efc55d90375f95c726bd2"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ef_integrated.json",
+            "sha256": "9221846d72836f12b22c6aa2c0e654b1105d616fd030990ad1c4a1a905fa92f0"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ej_integrated.json",
+            "sha256": "e630dd198bee185189cc47d5639ec8592d88a840b49fc6ae672a3fa76629b8dd"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ek_integrated.json",
+            "sha256": "5ce4122652e61d3c8fcb9fa3fb60f94afd2451761ddb67d68862c3a5a8917d4d"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_el_integrated.json",
+            "sha256": "b5823a5df058c71dad74ba33325d21c63618a0fe6aa238132aae4b16a76773d9"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_em_integrated.json",
+            "sha256": "17c709b15f63285ffddb1f0579f49b0d7374ae2c47daeceec854aa20932c7868"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_eq_integrated.json",
+            "sha256": "8702c7fd1b88ae915358fd26c79471ca439d9ed6e60438e7141c000773af20d7"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_eu_integrated.json",
+            "sha256": "6eb6be24479c855b8441376a6c968ea1723b4fc37a93618a5144d469837e4d42"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ex_integrated.json",
+            "sha256": "dd7236fd285dcdcf1c6929b18623cacc7bf009d7c3b35002260543b8aad4146d"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ey_integrated.json",
+            "sha256": "f55f7585d684b0b5ab5b7427bb94c7c6213798e255577e95d038034952d2c58c"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_fc_integrated.json",
+            "sha256": "dc29c7b6122d5dded4a021c67d367d27c73812eba60ec875506ed07d5a945b09"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_fe_integrated.json",
+            "sha256": "71891ea022e39b83f519093dc3fef2cd9fdc89e23e451a30f27286bc72fd99dd"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_fk_integrated.json",
+            "sha256": "733e8bc979d6f5c5e8770eac0e014870032cfdb089ed9e8e8b8b4d1b76c2e442"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_fq_integrated.json",
+            "sha256": "b7927271aa1169d88a07b6b49cdb05e90f3c95bbaf069e86721e27bb9704bca7"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ft_integrated.json",
+            "sha256": "d94f6ab5d7f4d3c6abdc596049b91664e3a32b1555987be1c51be9940a558c94"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_fu_integrated.json",
+            "sha256": "d6a3c4e712ac2d8793b2928ec9b27e8670759dd23a03f41f788c37f5e7a44019"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_fw_integrated.json",
+            "sha256": "832fd809aa87d6ae1a6e52dcc58630bf4d0f528bc7bd59616ff961403d5b3f44"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ga_integrated.json",
+            "sha256": "27a57337c15432df0bee30d689af500aaf5a5f6adf6f5b11fc50b4974f578d66"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_gf_integrated.json",
+            "sha256": "25ab0693d83e8c08ebb18272e840be482ec02a8d5f9fae6b26d67ba4684d0068"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_l.json",
+            "sha256": "9963545b58e12b14d2408dd3ffeca89e180b874bc7b2d0480a42a30b89c141a2"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_o.json",
+            "sha256": "f2cdb0c902df9ef6c7827028d3f71087a5ffc7f30c9cd39307a7997ee4185edf"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_q.json",
+            "sha256": "5f0dd23cf90f2a9e0d1f8783da1d7d1bf555669e87a00bf0208a6d0df2b1f0d4"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_t.json",
+            "sha256": "9c675474ff46af0b9fff06bf716f4303c2b67b05cd8666bcce2419da27d79481"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_u.json",
+            "sha256": "ee83972c462537930796bad095fad5a2b7579a126408f6cf8556e577b1e2c867"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_w.json",
+            "sha256": "c0fd3b84ce6233248d4bac0085a3c4d2f4ca3316371adb7d287d9bc3db650264"
+          },
+          {
+            "path": "research_registry/decisions/clean_historical_review.json",
+            "sha256": "b68bac220d14b9258467b6cf6831cf636042425e563e3f857bf53ce7d33baa1e"
+          },
+          {
+            "path": "research_registry/decisions/clean_ip_review.json",
+            "sha256": "222e28b299c639f4bedddb923399b93de530785bfd4d1438ccda5733628d4958"
+          },
+          {
+            "path": "research_registry/decisions/clean_late_sidequest_review.json",
+            "sha256": "2b2435bbf824e64048efc702e4e5e1d7a8644335808c56dd4fcaf0ba4c1d3650"
+          },
+          {
+            "path": "research_registry/decisions/clean_middle_sidequest_review.json",
+            "sha256": "2b8611a50cba6bbb47d186959ba566b9a64639c8514254a2b29d76c49b9b3d28"
+          },
+          {
+            "path": "research_registry/decisions/clean_prereg_candidate_review.json",
+            "sha256": "394fc385235eb4ffce04bc2a1747a34ff27267d663af2b4329ef482e6e8564f3"
+          },
+          {
+            "path": "research_registry/decisions/clean_proposal_review.json",
+            "sha256": "b61b945b3101822932c4bcb4b5a3236e2da3d3675441357e0adf02c12b3de19f"
+          },
+          {
+            "path": "research_registry/decisions/clean_report_proposals_review.json",
+            "sha256": "17055a7e3c76fc821f9caf787d2d5d48c69072010936ddffd553f8fd1555caa1"
+          },
+          {
+            "path": "research_registry/decisions/clean_root_early_review.json",
+            "sha256": "f5d6c0297403f7ec6d173dc779c4dff8cf8e937dd0556b682cda63061a173646"
+          }
+        ],
+        "meaning": "NAVIGATION_ONLY: no automatic skip, proposition identity, complete coverage, scientific verdict, or reopening authorization",
+        "source_bytes_read": false
+      },
+      "scope": "Selected authored proposition and explicit nearby source limits only; no global model-family or empirical validity audit."
+    },
+    {
+      "source_id": "LEGACY_PROPOSAL:138058a9c7f932275fd7c438",
+      "decision": "existing_whole_card_scope_revision",
+      "review_state": "existing_whole_card_scope_revision",
+      "full_selected_span_read": true,
+      "full_proposition_comparison_complete": true,
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:006c827e026adaba15b4"
+      ],
+      "reason": "The current case identifies the unique hybrid page-conditioned technical record compiler, but its evidence omits the fenced four-level grammar. Complete that same named architecture and its unresolved-content boundary under the existing ID. Zero active semantic assignments and older decoder withdrawal are historical limits, not proof that every possible opaque-content interpretation is false.",
+      "evidence": [
+        {
+          "path": "GDT236_TRANSLATION_FRONTIER_REPORT.md",
+          "line": 3,
+          "line_end": 20,
+          "quote": "## Leading theory\n\nThe best current generator is a **hybrid page-conditioned technical record\ncompiler**.  It is more specific than “abbreviated language,” but less specific\nthan a decipherment:\n\n```text\nPAGE := PAGE_PROFILE + REGISTER_INVENTORY + RECORD+\nRECORD := ENTRY_STATE? + FIELD+ + PHYSICAL_CLOSE?\nFIELD := WRAPPER? + FRAME? + OPAQUE_CONTENT + RIGHT_RENDERER? + CHECKPOINT?\nGRAPHICAL_LABEL := TRANSFERRED_LABEL_PREFIX? + OPAQUE_REGISTER_RESIDUAL\n```\n\nThe opaque content component may eventually prove lexical, abbreviated,\ncode-like, or distributed across the tuple.  Current diagnostics cannot choose\namong those realizations.  What they do reject is the easy reading in which a\nfrequent exact PAGE_HOST or a stripped label residual is already a portable\nobject word.",
+          "sha256": "592f6563ad48823bc373d94b6d39ddab85a4f6ba4e0b70b3f5ce3ca39335d0a3"
+        },
+        {
+          "path": "GDT236_TRANSLATION_FRONTIER_REPORT.md",
+          "line": 42,
+          "line_end": 49,
+          "quote": "## Correction to the older executable theory\n\nGDT181's f57/f77 four-quality decoder is no longer an executable semantic\nfragment.  GDT182 showed that its fit is not above the searched feature\nmultiplicity; GDT184 removed the four-element interpretation of f57 R2; GDT185\nrejected the direct 17-position bridge.  The page-local pattern remains a\ndescriptive candidate, but the active generator now contains **zero semantic\nsource-unit assignments**.",
+          "sha256": "592f6563ad48823bc373d94b6d39ddab85a4f6ba4e0b70b3f5ce3ca39335d0a3"
+        }
+      ],
+      "previous_initial_disposition_preserved": true,
+      "previous_source_receipt": {
+        "results": [
+          {
+            "source_id": "LEGACY_PROPOSAL:138058a9c7f932275fd7c438",
+            "relationships": [
+              "exact_id"
+            ],
+            "review_state": "unknown",
+            "full_read_recorded": false,
+            "decision": "accepted",
+            "original_decision": "",
+            "reason": "Explicit proposed value/model or exact already-reviewed component overlap; source scope retained.",
+            "source_binding": "unknown",
+            "evidence": [],
+            "evidence_count": 0,
+            "review_path": "research_registry/decisions/clean_report_proposals_review.json",
+            "review_sha256": "17055a7e3c76fc821f9caf787d2d5d48c69072010936ddffd553f8fd1555caa1",
+            "locator": "/dispositions/75"
+          }
+        ],
+        "matched": 1,
+        "limit": 8,
+        "offset": 0,
+        "next_offset": null,
+        "review_inputs": [
+          {
+            "path": "research_registry/decisions/clean_component_review.json",
+            "sha256": "66203c3a57d8827dcdfc86ed497925d81368ebd7c3048f965367ced8d11cb24e"
+          },
+          {
+            "path": "research_registry/decisions/clean_final_sidequest_review.json",
+            "sha256": "55be386a0e1980355cb403076a0217767d587277205d112ab1ed3519c192ad11"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_aa.json",
+            "sha256": "df6879cccf384c36c940dc1e1493f1fb1c99ab4d2043c9aa22d4eb117d830000"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ab.json",
+            "sha256": "aba7be7299550c3f14e3ec4b5f19e183bcb80bb714110a98c8a0b6bd575ea423"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ac.json",
+            "sha256": "eb18f4a4169f74a67a4601d9ab1526362582ff890b3f86607a3bba6ddbbce8f9"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ae.json",
+            "sha256": "f6be998c27c0bf356ac9221806fbe06c28d00fe93c962352857c33708fe9226d"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_af.json",
+            "sha256": "399339fe6d552749ff397d441e4c60b82433da0cefcce93022f885d0ed180042"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ag.json",
+            "sha256": "a962d8b0ad4dd0f9219c7ba559f7da4f612c393ae546c6257f5acd9122f44f64"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ai.json",
+            "sha256": "5168e1f81ec411e74c0058fea583ef648fe89893a37ea9306ec2a1fb7b9f0d73"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_al.json",
+            "sha256": "a7f5566080892f12a30f863e0e5181e2fca6970e4cc29c40fba683229b50ae55"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_am_integrated.json",
+            "sha256": "88e676a7d225b77576822cbbd318efc22eb8b55b9b902b4d3f8280a0c712f48f"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_an_integrated.json",
+            "sha256": "105129391fc1fa64bb58ff4291dfdc4de67c784e6ec4543ca1296432d74d9f61"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ao_integrated.json",
+            "sha256": "1d8c99d915fcfc5d48c6e2e97e15516386a0967db70937d2507d1b767ba68609"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_aq_integrated.json",
+            "sha256": "88b05f1339271e23f8b6c91b9dd855823f7beed9b9b28693d1f56b4f76cdab78"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_aw_integrated.json",
+            "sha256": "7d1a74afa444596417828d70a1fc7477a8096230014b74fcd0c78eb786f04fbd"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ax_integrated.json",
+            "sha256": "77bd20ae3bc60a0824aa5b3704e00fde4d4519fd6edb50a22f889dedc2af90c0"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ay_integrated.json",
+            "sha256": "5f538b709782a996e3bc2ca17c0b3c90aa93f6f6b312884b6c331c7fe2a346f2"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_az_integrated.json",
+            "sha256": "a29b365de56c822d48eaddcf297b75c22ac7b57ac8d852ec51ccba895c992616"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ba.json",
+            "sha256": "fe238aada1a43e0962686819a2c81a4a2726c5ce25018d4b997f1d9c8e5e4c34"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bb_integrated.json",
+            "sha256": "ebe30e76bcb6c56bf71d3f9b731b7ac9a5d80a53bc8d624f5cb5089e9281c377"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bd_integrated.json",
+            "sha256": "18b701133df42d8ebb70a62c58d47c5820e076f8cd40b9072c2aa332551e4f93"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_be_integrated.json",
+            "sha256": "51fe0afa36d98823f8fca0b5c2fe21c4cddb442f2854ae115e6537bc2e9d1a42"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bg.json",
+            "sha256": "3faaa12a2873c61f2813f30614def2ec46e743a5e687ef832673f2844a9e4afd"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bh_integrated.json",
+            "sha256": "95486c527d6f97bcdea53422ae82dc5c7047bf0c3f6a1284c37f60bc20e51504"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bi_integrated.json",
+            "sha256": "1dcf08a0b44e31491f7e4c222ae5e4722dea8479d21d486559fe9e663a5cf358"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bj_integrated.json",
+            "sha256": "9f8083fce18f423bb3a4e39fa630543a48baa47699a9973f90fd96b4436da1bf"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bk_integrated.json",
+            "sha256": "03c01d7f5433247608dd2181cf44fe9f526b6ba8e62518e9873fe8f00ec2abfe"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bm_integrated.json",
+            "sha256": "c426a1899a0c1fe00a5048b1c171e871fa235a49834ea95a0bcedb8c427f236e"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bn_integrated.json",
+            "sha256": "8a57d1647d7c052a2d7807a03702a69b667fce4ffdd4357a63c5586056e6878f"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bo_integrated.json",
+            "sha256": "03229b33ceba00772464d6d5691f8a74b6c1d36a8bac99ab7d0779be464667fd"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bp_integrated.json",
+            "sha256": "f2f67874548e4f8b19b03ab75f5e0a32cbb8d0ed9ffce68302438f4d7ae4d466"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bq_integrated.json",
+            "sha256": "580f3c5270dd68ad7187cee82224fb8d792dcc540c7b3e922e40db44e18f78c6"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_br_integrated.json",
+            "sha256": "047c1ac5ec10631bb4390e2f488c28ebba0afb5fbb9b5d8cf85fa9c05c7d64e3"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bs_integrated.json",
+            "sha256": "deb7e56307b4e68267fadc1b66ac00a112745f55d82fc1727e2f13b719445189"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bv_integrated.json",
+            "sha256": "7264035e337b840c45f4de9d317ad2d5404a0929fefca7cbf35c8843abd27ec8"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bw_integrated.json",
+            "sha256": "3bb12d0c237068925c3253995988e46c01a6b58190ad4b39dbf19cbb60263159"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bx_integrated.json",
+            "sha256": "5499c2c12ce06bededde14a57dd2b7aadf177259959b51ddea79392bc430200f"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bz_integrated.json",
+            "sha256": "235c6477c67855b489264f3de4a6049f074a5e1442b2ae6e6560cd1922ea770b"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ca_integrated.json",
+            "sha256": "7db9700ea3b30fefd94fa66f772440eeff047ad79c9bd07b887e898cd5bba64e"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cb_integrated.json",
+            "sha256": "dd6236e0c4cc9766e6dc72c7b692e28f8b9c9be7318149dce3ffee80d3da8db3"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cc_integrated.json",
+            "sha256": "896dab7e5900eb424ecf2df3ff546511db24b997e41ee2bd05662e0ea8c88157"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ce_integrated.json",
+            "sha256": "10d2c1bd7b15d26f18a8d412701f1bbbc6b78ae25a7fa4f6af8902240c436221"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cf_integrated.json",
+            "sha256": "c49afdf0fa9ecbd38602b58fb6cbe683c111d0f64bd8b17d496f9ea3ebb605f1"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cg_integrated.json",
+            "sha256": "8f41c8df1e533495dc89597c1fc69003f39128c9b958e85120a4f18f5cf83cd4"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ch_integrated.json",
+            "sha256": "4d2bb5c02485a085d13cf18c81146878e39ebed31cb77c08669a44276d1ca95c"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ci_integrated.json",
+            "sha256": "99c5474cc00033118b158c899f29fe4a81b0087796c49cc2bd756436fff45328"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ck_integrated.json",
+            "sha256": "7e9ba362be909280b34ced12dea5eb1b9b364c191e37684e1d74b9e95e911e0f"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cl_integrated.json",
+            "sha256": "50e6e32c21a0477e0a0f9d91be33552907b8e6688b427ed22ea237c75fc224a3"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cm_integrated.json",
+            "sha256": "7f0c679bc2e28043f7ff2067055b4d0bed9afbc3861ec5535b4734526c4af915"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cn_integrated.json",
+            "sha256": "3e4e318dce44df88cdc4ebba41eaafe1b0a039d17ee195b8121cb54ca1755de9"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_co_integrated.json",
+            "sha256": "2b105c2b2afaf8012d911a4055031ff6cabc9e02c08d9779f19d48fc295345fa"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cp_integrated.json",
+            "sha256": "b0b5aac47ea0f349a5c7190b011ec073fd21b77515747c3c854385cb8bb2572f"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cr_integrated.json",
+            "sha256": "530f8b47a33a146701012a1d6eccbdb4124e2f79f0eef63add7466a5bd4615f3"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cs_integrated.json",
+            "sha256": "dedca51cff508b9a0919f0c16b0e7f50a204fff477b67371a17442ad6b419b16"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cu_integrated.json",
+            "sha256": "c0b78b68bc4a017ee3bc9e22f80d9f4f885dc8b9226cda450a3833d3b2147248"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cw_integrated.json",
+            "sha256": "ab319959744006cc6bfb672015aee3f6d3a143a2374fda19db06eb7cd3d75fa8"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cx_integrated.json",
+            "sha256": "11215995d77803ddddc5023ddd36181d9e8be154d4be91635392b1870d8f3eeb"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_da_integrated.json",
+            "sha256": "9f82017d43a997e3c231e9cd222774279862ef9279bdc090135395156da146b7"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dc_integrated.json",
+            "sha256": "754ed611c8030f93d19d815d23a8409d53bd1a3a221cf335c38d2337ea391907"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_de_integrated.json",
+            "sha256": "043202f15fa069787d3256c2b336082bab786f8a05c93ffa60ce005ed2d2762d"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_df_integrated.json",
+            "sha256": "dcd00417434a8f93791c1400965feaf36d17d811e1fe38489e41bd8bc103031c"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dj_integrated.json",
+            "sha256": "2b92807e4056f8141afa6c08667f8eae0084eeb5551f3012794ce5a3ab3fdf7f"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dk_integrated.json",
+            "sha256": "133735eb435174c80caf45cc9f0a798e910dd8c0b5c62082bf374522ddc002ec"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dm_integrated.json",
+            "sha256": "30d1a40c04feef5506087cb978d439fc393d93341ba07fbe29068d6a2d941d4f"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dp_integrated.json",
+            "sha256": "03203a4176285d974c9ec9bc4878eee06f16fd21c5ce5a045024cd6b11f726f5"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dq_integrated.json",
+            "sha256": "80f232b09d1d36821668d2f467f8c7cbf9af7e666bd289aee5fe6c5f11d52028"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ds_integrated.json",
+            "sha256": "f0cfa4f8b134c3b7ba01d6359a0849dc8e8b6d0e541580609974279adb039d69"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dt_integrated.json",
+            "sha256": "5729a9884a5ab7a0531b999fe8ea33db27001402b2dd1ba0e054c7097f3a8901"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dv_integrated.json",
+            "sha256": "88cf4a5c6de5a9f8b06e6ca2d468c9ffdb1f1c95d153ad45fc10fb3ff0c1640d"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dw_integrated.json",
+            "sha256": "2e7342496b503f411eb0cf3e26ff78160309b6cae510b7d4b41c8cc8288c0643"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dx_integrated.json",
+            "sha256": "c4b591756d6f09b83ce1f809a43d7b30c5806e823221ec9fa7b7f53dbd2ed5c9"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dy_integrated.json",
+            "sha256": "1a84761f2663028d0dae633facae7fdf58202a36dee805ef2afadf977f955a81"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ec_integrated.json",
+            "sha256": "1f7c11877de40f429aa751e103acb27c40372e61eb7efc55d90375f95c726bd2"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ef_integrated.json",
+            "sha256": "9221846d72836f12b22c6aa2c0e654b1105d616fd030990ad1c4a1a905fa92f0"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ej_integrated.json",
+            "sha256": "e630dd198bee185189cc47d5639ec8592d88a840b49fc6ae672a3fa76629b8dd"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ek_integrated.json",
+            "sha256": "5ce4122652e61d3c8fcb9fa3fb60f94afd2451761ddb67d68862c3a5a8917d4d"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_el_integrated.json",
+            "sha256": "b5823a5df058c71dad74ba33325d21c63618a0fe6aa238132aae4b16a76773d9"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_em_integrated.json",
+            "sha256": "17c709b15f63285ffddb1f0579f49b0d7374ae2c47daeceec854aa20932c7868"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_eq_integrated.json",
+            "sha256": "8702c7fd1b88ae915358fd26c79471ca439d9ed6e60438e7141c000773af20d7"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_eu_integrated.json",
+            "sha256": "6eb6be24479c855b8441376a6c968ea1723b4fc37a93618a5144d469837e4d42"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ex_integrated.json",
+            "sha256": "dd7236fd285dcdcf1c6929b18623cacc7bf009d7c3b35002260543b8aad4146d"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ey_integrated.json",
+            "sha256": "f55f7585d684b0b5ab5b7427bb94c7c6213798e255577e95d038034952d2c58c"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_fc_integrated.json",
+            "sha256": "dc29c7b6122d5dded4a021c67d367d27c73812eba60ec875506ed07d5a945b09"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_fe_integrated.json",
+            "sha256": "71891ea022e39b83f519093dc3fef2cd9fdc89e23e451a30f27286bc72fd99dd"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_fk_integrated.json",
+            "sha256": "733e8bc979d6f5c5e8770eac0e014870032cfdb089ed9e8e8b8b4d1b76c2e442"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_fq_integrated.json",
+            "sha256": "b7927271aa1169d88a07b6b49cdb05e90f3c95bbaf069e86721e27bb9704bca7"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ft_integrated.json",
+            "sha256": "d94f6ab5d7f4d3c6abdc596049b91664e3a32b1555987be1c51be9940a558c94"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_fu_integrated.json",
+            "sha256": "d6a3c4e712ac2d8793b2928ec9b27e8670759dd23a03f41f788c37f5e7a44019"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_fw_integrated.json",
+            "sha256": "832fd809aa87d6ae1a6e52dcc58630bf4d0f528bc7bd59616ff961403d5b3f44"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ga_integrated.json",
+            "sha256": "27a57337c15432df0bee30d689af500aaf5a5f6adf6f5b11fc50b4974f578d66"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_gf_integrated.json",
+            "sha256": "25ab0693d83e8c08ebb18272e840be482ec02a8d5f9fae6b26d67ba4684d0068"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_l.json",
+            "sha256": "9963545b58e12b14d2408dd3ffeca89e180b874bc7b2d0480a42a30b89c141a2"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_o.json",
+            "sha256": "f2cdb0c902df9ef6c7827028d3f71087a5ffc7f30c9cd39307a7997ee4185edf"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_q.json",
+            "sha256": "5f0dd23cf90f2a9e0d1f8783da1d7d1bf555669e87a00bf0208a6d0df2b1f0d4"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_t.json",
+            "sha256": "9c675474ff46af0b9fff06bf716f4303c2b67b05cd8666bcce2419da27d79481"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_u.json",
+            "sha256": "ee83972c462537930796bad095fad5a2b7579a126408f6cf8556e577b1e2c867"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_w.json",
+            "sha256": "c0fd3b84ce6233248d4bac0085a3c4d2f4ca3316371adb7d287d9bc3db650264"
+          },
+          {
+            "path": "research_registry/decisions/clean_historical_review.json",
+            "sha256": "b68bac220d14b9258467b6cf6831cf636042425e563e3f857bf53ce7d33baa1e"
+          },
+          {
+            "path": "research_registry/decisions/clean_ip_review.json",
+            "sha256": "222e28b299c639f4bedddb923399b93de530785bfd4d1438ccda5733628d4958"
+          },
+          {
+            "path": "research_registry/decisions/clean_late_sidequest_review.json",
+            "sha256": "2b2435bbf824e64048efc702e4e5e1d7a8644335808c56dd4fcaf0ba4c1d3650"
+          },
+          {
+            "path": "research_registry/decisions/clean_middle_sidequest_review.json",
+            "sha256": "2b8611a50cba6bbb47d186959ba566b9a64639c8514254a2b29d76c49b9b3d28"
+          },
+          {
+            "path": "research_registry/decisions/clean_prereg_candidate_review.json",
+            "sha256": "394fc385235eb4ffce04bc2a1747a34ff27267d663af2b4329ef482e6e8564f3"
+          },
+          {
+            "path": "research_registry/decisions/clean_proposal_review.json",
+            "sha256": "b61b945b3101822932c4bcb4b5a3236e2da3d3675441357e0adf02c12b3de19f"
+          },
+          {
+            "path": "research_registry/decisions/clean_report_proposals_review.json",
+            "sha256": "17055a7e3c76fc821f9caf787d2d5d48c69072010936ddffd553f8fd1555caa1"
+          },
+          {
+            "path": "research_registry/decisions/clean_root_early_review.json",
+            "sha256": "f5d6c0297403f7ec6d173dc779c4dff8cf8e937dd0556b682cda63061a173646"
+          }
+        ],
+        "meaning": "NAVIGATION_ONLY: no automatic skip, proposition identity, complete coverage, scientific verdict, or reopening authorization",
+        "source_bytes_read": false
+      },
+      "scope": "Selected authored proposition and explicit nearby source limits only; no global model-family or empirical validity audit."
+    },
+    {
+      "source_id": "LEGACY_PROPOSAL:3f41fdbe347fae9ea28a1a4d",
+      "decision": "existing_proposition_source_audit_only",
+      "review_state": "existing_proposition_source_audit_only",
+      "full_selected_span_read": true,
+      "full_proposition_comparison_complete": true,
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:5903bfc7ab4a348d7e00"
+      ],
+      "reason": "The current card and complete attached case already state the whole page/register-conditioned record-code alternative, including joint body/edge generation and record/template-level content versus portable isolated hosts. The source's abductive scores are explicitly not a statistical test. No additional card, case or expanded model is needed.",
+      "evidence": [
+        {
+          "path": "GDT113_PAGE_CONDITIONED_RECORD_CODE_REPORT.md",
+          "line": 3,
+          "line_end": 15,
+          "quote": "## Leading theory\n\n**PAGE_CONDITIONED_RECORD_CODE**\n\nThe strongest current generative theory is no longer “stable content-bearing\nPAGE_HOST plus detachable renderer.” It is a page/register-conditioned codebook\nwhose codeword body and final edge are jointly generated inside a record\ncompiler. Any recoverable content association is now predicted to live first\nat the **record/template and page-codebook level**, not at isolated exact hosts.\n\nThis theory scores 9/10 abductively versus compressed natural language 4/10,\nstable token notation 5/10, and the prior hybrid content-address model 5/10.\nThe score is explanatory judgment, not statistical evidence.",
+          "sha256": "69fa5f58de093ea5978f376c3381cb92dd7344a17ba6503c3c92da142988e71a"
+        }
+      ],
+      "previous_initial_disposition_preserved": true,
+      "previous_source_receipt": {
+        "results": [
+          {
+            "source_id": "LEGACY_PROPOSAL:3f41fdbe347fae9ea28a1a4d",
+            "relationships": [
+              "exact_id"
+            ],
+            "review_state": "unknown",
+            "full_read_recorded": false,
+            "decision": "accepted",
+            "original_decision": "",
+            "reason": "Explicit proposed value/model or exact already-reviewed component overlap; source scope retained.",
+            "source_binding": "unknown",
+            "evidence": [],
+            "evidence_count": 0,
+            "review_path": "research_registry/decisions/clean_report_proposals_review.json",
+            "review_sha256": "17055a7e3c76fc821f9caf787d2d5d48c69072010936ddffd553f8fd1555caa1",
+            "locator": "/dispositions/218"
+          }
+        ],
+        "matched": 1,
+        "limit": 8,
+        "offset": 0,
+        "next_offset": null,
+        "review_inputs": [
+          {
+            "path": "research_registry/decisions/clean_component_review.json",
+            "sha256": "66203c3a57d8827dcdfc86ed497925d81368ebd7c3048f965367ced8d11cb24e"
+          },
+          {
+            "path": "research_registry/decisions/clean_final_sidequest_review.json",
+            "sha256": "55be386a0e1980355cb403076a0217767d587277205d112ab1ed3519c192ad11"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_aa.json",
+            "sha256": "df6879cccf384c36c940dc1e1493f1fb1c99ab4d2043c9aa22d4eb117d830000"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ab.json",
+            "sha256": "aba7be7299550c3f14e3ec4b5f19e183bcb80bb714110a98c8a0b6bd575ea423"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ac.json",
+            "sha256": "eb18f4a4169f74a67a4601d9ab1526362582ff890b3f86607a3bba6ddbbce8f9"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ae.json",
+            "sha256": "f6be998c27c0bf356ac9221806fbe06c28d00fe93c962352857c33708fe9226d"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_af.json",
+            "sha256": "399339fe6d552749ff397d441e4c60b82433da0cefcce93022f885d0ed180042"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ag.json",
+            "sha256": "a962d8b0ad4dd0f9219c7ba559f7da4f612c393ae546c6257f5acd9122f44f64"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ai.json",
+            "sha256": "5168e1f81ec411e74c0058fea583ef648fe89893a37ea9306ec2a1fb7b9f0d73"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_al.json",
+            "sha256": "a7f5566080892f12a30f863e0e5181e2fca6970e4cc29c40fba683229b50ae55"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_am_integrated.json",
+            "sha256": "88e676a7d225b77576822cbbd318efc22eb8b55b9b902b4d3f8280a0c712f48f"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_an_integrated.json",
+            "sha256": "105129391fc1fa64bb58ff4291dfdc4de67c784e6ec4543ca1296432d74d9f61"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ao_integrated.json",
+            "sha256": "1d8c99d915fcfc5d48c6e2e97e15516386a0967db70937d2507d1b767ba68609"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_aq_integrated.json",
+            "sha256": "88b05f1339271e23f8b6c91b9dd855823f7beed9b9b28693d1f56b4f76cdab78"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_aw_integrated.json",
+            "sha256": "7d1a74afa444596417828d70a1fc7477a8096230014b74fcd0c78eb786f04fbd"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ax_integrated.json",
+            "sha256": "77bd20ae3bc60a0824aa5b3704e00fde4d4519fd6edb50a22f889dedc2af90c0"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ay_integrated.json",
+            "sha256": "5f538b709782a996e3bc2ca17c0b3c90aa93f6f6b312884b6c331c7fe2a346f2"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_az_integrated.json",
+            "sha256": "a29b365de56c822d48eaddcf297b75c22ac7b57ac8d852ec51ccba895c992616"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ba.json",
+            "sha256": "fe238aada1a43e0962686819a2c81a4a2726c5ce25018d4b997f1d9c8e5e4c34"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bb_integrated.json",
+            "sha256": "ebe30e76bcb6c56bf71d3f9b731b7ac9a5d80a53bc8d624f5cb5089e9281c377"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bd_integrated.json",
+            "sha256": "18b701133df42d8ebb70a62c58d47c5820e076f8cd40b9072c2aa332551e4f93"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_be_integrated.json",
+            "sha256": "51fe0afa36d98823f8fca0b5c2fe21c4cddb442f2854ae115e6537bc2e9d1a42"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bg.json",
+            "sha256": "3faaa12a2873c61f2813f30614def2ec46e743a5e687ef832673f2844a9e4afd"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bh_integrated.json",
+            "sha256": "95486c527d6f97bcdea53422ae82dc5c7047bf0c3f6a1284c37f60bc20e51504"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bi_integrated.json",
+            "sha256": "1dcf08a0b44e31491f7e4c222ae5e4722dea8479d21d486559fe9e663a5cf358"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bj_integrated.json",
+            "sha256": "9f8083fce18f423bb3a4e39fa630543a48baa47699a9973f90fd96b4436da1bf"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bk_integrated.json",
+            "sha256": "03c01d7f5433247608dd2181cf44fe9f526b6ba8e62518e9873fe8f00ec2abfe"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bm_integrated.json",
+            "sha256": "c426a1899a0c1fe00a5048b1c171e871fa235a49834ea95a0bcedb8c427f236e"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bn_integrated.json",
+            "sha256": "8a57d1647d7c052a2d7807a03702a69b667fce4ffdd4357a63c5586056e6878f"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bo_integrated.json",
+            "sha256": "03229b33ceba00772464d6d5691f8a74b6c1d36a8bac99ab7d0779be464667fd"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bp_integrated.json",
+            "sha256": "f2f67874548e4f8b19b03ab75f5e0a32cbb8d0ed9ffce68302438f4d7ae4d466"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bq_integrated.json",
+            "sha256": "580f3c5270dd68ad7187cee82224fb8d792dcc540c7b3e922e40db44e18f78c6"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_br_integrated.json",
+            "sha256": "047c1ac5ec10631bb4390e2f488c28ebba0afb5fbb9b5d8cf85fa9c05c7d64e3"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bs_integrated.json",
+            "sha256": "deb7e56307b4e68267fadc1b66ac00a112745f55d82fc1727e2f13b719445189"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bv_integrated.json",
+            "sha256": "7264035e337b840c45f4de9d317ad2d5404a0929fefca7cbf35c8843abd27ec8"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bw_integrated.json",
+            "sha256": "3bb12d0c237068925c3253995988e46c01a6b58190ad4b39dbf19cbb60263159"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bx_integrated.json",
+            "sha256": "5499c2c12ce06bededde14a57dd2b7aadf177259959b51ddea79392bc430200f"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bz_integrated.json",
+            "sha256": "235c6477c67855b489264f3de4a6049f074a5e1442b2ae6e6560cd1922ea770b"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ca_integrated.json",
+            "sha256": "7db9700ea3b30fefd94fa66f772440eeff047ad79c9bd07b887e898cd5bba64e"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cb_integrated.json",
+            "sha256": "dd6236e0c4cc9766e6dc72c7b692e28f8b9c9be7318149dce3ffee80d3da8db3"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cc_integrated.json",
+            "sha256": "896dab7e5900eb424ecf2df3ff546511db24b997e41ee2bd05662e0ea8c88157"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ce_integrated.json",
+            "sha256": "10d2c1bd7b15d26f18a8d412701f1bbbc6b78ae25a7fa4f6af8902240c436221"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cf_integrated.json",
+            "sha256": "c49afdf0fa9ecbd38602b58fb6cbe683c111d0f64bd8b17d496f9ea3ebb605f1"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cg_integrated.json",
+            "sha256": "8f41c8df1e533495dc89597c1fc69003f39128c9b958e85120a4f18f5cf83cd4"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ch_integrated.json",
+            "sha256": "4d2bb5c02485a085d13cf18c81146878e39ebed31cb77c08669a44276d1ca95c"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ci_integrated.json",
+            "sha256": "99c5474cc00033118b158c899f29fe4a81b0087796c49cc2bd756436fff45328"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ck_integrated.json",
+            "sha256": "7e9ba362be909280b34ced12dea5eb1b9b364c191e37684e1d74b9e95e911e0f"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cl_integrated.json",
+            "sha256": "50e6e32c21a0477e0a0f9d91be33552907b8e6688b427ed22ea237c75fc224a3"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cm_integrated.json",
+            "sha256": "7f0c679bc2e28043f7ff2067055b4d0bed9afbc3861ec5535b4734526c4af915"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cn_integrated.json",
+            "sha256": "3e4e318dce44df88cdc4ebba41eaafe1b0a039d17ee195b8121cb54ca1755de9"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_co_integrated.json",
+            "sha256": "2b105c2b2afaf8012d911a4055031ff6cabc9e02c08d9779f19d48fc295345fa"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cp_integrated.json",
+            "sha256": "b0b5aac47ea0f349a5c7190b011ec073fd21b77515747c3c854385cb8bb2572f"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cr_integrated.json",
+            "sha256": "530f8b47a33a146701012a1d6eccbdb4124e2f79f0eef63add7466a5bd4615f3"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cs_integrated.json",
+            "sha256": "dedca51cff508b9a0919f0c16b0e7f50a204fff477b67371a17442ad6b419b16"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cu_integrated.json",
+            "sha256": "c0b78b68bc4a017ee3bc9e22f80d9f4f885dc8b9226cda450a3833d3b2147248"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cw_integrated.json",
+            "sha256": "ab319959744006cc6bfb672015aee3f6d3a143a2374fda19db06eb7cd3d75fa8"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cx_integrated.json",
+            "sha256": "11215995d77803ddddc5023ddd36181d9e8be154d4be91635392b1870d8f3eeb"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_da_integrated.json",
+            "sha256": "9f82017d43a997e3c231e9cd222774279862ef9279bdc090135395156da146b7"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dc_integrated.json",
+            "sha256": "754ed611c8030f93d19d815d23a8409d53bd1a3a221cf335c38d2337ea391907"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_de_integrated.json",
+            "sha256": "043202f15fa069787d3256c2b336082bab786f8a05c93ffa60ce005ed2d2762d"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_df_integrated.json",
+            "sha256": "dcd00417434a8f93791c1400965feaf36d17d811e1fe38489e41bd8bc103031c"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dj_integrated.json",
+            "sha256": "2b92807e4056f8141afa6c08667f8eae0084eeb5551f3012794ce5a3ab3fdf7f"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dk_integrated.json",
+            "sha256": "133735eb435174c80caf45cc9f0a798e910dd8c0b5c62082bf374522ddc002ec"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dm_integrated.json",
+            "sha256": "30d1a40c04feef5506087cb978d439fc393d93341ba07fbe29068d6a2d941d4f"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dp_integrated.json",
+            "sha256": "03203a4176285d974c9ec9bc4878eee06f16fd21c5ce5a045024cd6b11f726f5"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dq_integrated.json",
+            "sha256": "80f232b09d1d36821668d2f467f8c7cbf9af7e666bd289aee5fe6c5f11d52028"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ds_integrated.json",
+            "sha256": "f0cfa4f8b134c3b7ba01d6359a0849dc8e8b6d0e541580609974279adb039d69"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dt_integrated.json",
+            "sha256": "5729a9884a5ab7a0531b999fe8ea33db27001402b2dd1ba0e054c7097f3a8901"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dv_integrated.json",
+            "sha256": "88cf4a5c6de5a9f8b06e6ca2d468c9ffdb1f1c95d153ad45fc10fb3ff0c1640d"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dw_integrated.json",
+            "sha256": "2e7342496b503f411eb0cf3e26ff78160309b6cae510b7d4b41c8cc8288c0643"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dx_integrated.json",
+            "sha256": "c4b591756d6f09b83ce1f809a43d7b30c5806e823221ec9fa7b7f53dbd2ed5c9"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dy_integrated.json",
+            "sha256": "1a84761f2663028d0dae633facae7fdf58202a36dee805ef2afadf977f955a81"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ec_integrated.json",
+            "sha256": "1f7c11877de40f429aa751e103acb27c40372e61eb7efc55d90375f95c726bd2"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ef_integrated.json",
+            "sha256": "9221846d72836f12b22c6aa2c0e654b1105d616fd030990ad1c4a1a905fa92f0"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ej_integrated.json",
+            "sha256": "e630dd198bee185189cc47d5639ec8592d88a840b49fc6ae672a3fa76629b8dd"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ek_integrated.json",
+            "sha256": "5ce4122652e61d3c8fcb9fa3fb60f94afd2451761ddb67d68862c3a5a8917d4d"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_el_integrated.json",
+            "sha256": "b5823a5df058c71dad74ba33325d21c63618a0fe6aa238132aae4b16a76773d9"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_em_integrated.json",
+            "sha256": "17c709b15f63285ffddb1f0579f49b0d7374ae2c47daeceec854aa20932c7868"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_eq_integrated.json",
+            "sha256": "8702c7fd1b88ae915358fd26c79471ca439d9ed6e60438e7141c000773af20d7"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_eu_integrated.json",
+            "sha256": "6eb6be24479c855b8441376a6c968ea1723b4fc37a93618a5144d469837e4d42"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ex_integrated.json",
+            "sha256": "dd7236fd285dcdcf1c6929b18623cacc7bf009d7c3b35002260543b8aad4146d"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ey_integrated.json",
+            "sha256": "f55f7585d684b0b5ab5b7427bb94c7c6213798e255577e95d038034952d2c58c"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_fc_integrated.json",
+            "sha256": "dc29c7b6122d5dded4a021c67d367d27c73812eba60ec875506ed07d5a945b09"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_fe_integrated.json",
+            "sha256": "71891ea022e39b83f519093dc3fef2cd9fdc89e23e451a30f27286bc72fd99dd"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_fk_integrated.json",
+            "sha256": "733e8bc979d6f5c5e8770eac0e014870032cfdb089ed9e8e8b8b4d1b76c2e442"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_fq_integrated.json",
+            "sha256": "b7927271aa1169d88a07b6b49cdb05e90f3c95bbaf069e86721e27bb9704bca7"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ft_integrated.json",
+            "sha256": "d94f6ab5d7f4d3c6abdc596049b91664e3a32b1555987be1c51be9940a558c94"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_fu_integrated.json",
+            "sha256": "d6a3c4e712ac2d8793b2928ec9b27e8670759dd23a03f41f788c37f5e7a44019"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_fw_integrated.json",
+            "sha256": "832fd809aa87d6ae1a6e52dcc58630bf4d0f528bc7bd59616ff961403d5b3f44"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ga_integrated.json",
+            "sha256": "27a57337c15432df0bee30d689af500aaf5a5f6adf6f5b11fc50b4974f578d66"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_gf_integrated.json",
+            "sha256": "25ab0693d83e8c08ebb18272e840be482ec02a8d5f9fae6b26d67ba4684d0068"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_l.json",
+            "sha256": "9963545b58e12b14d2408dd3ffeca89e180b874bc7b2d0480a42a30b89c141a2"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_o.json",
+            "sha256": "f2cdb0c902df9ef6c7827028d3f71087a5ffc7f30c9cd39307a7997ee4185edf"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_q.json",
+            "sha256": "5f0dd23cf90f2a9e0d1f8783da1d7d1bf555669e87a00bf0208a6d0df2b1f0d4"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_t.json",
+            "sha256": "9c675474ff46af0b9fff06bf716f4303c2b67b05cd8666bcce2419da27d79481"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_u.json",
+            "sha256": "ee83972c462537930796bad095fad5a2b7579a126408f6cf8556e577b1e2c867"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_w.json",
+            "sha256": "c0fd3b84ce6233248d4bac0085a3c4d2f4ca3316371adb7d287d9bc3db650264"
+          },
+          {
+            "path": "research_registry/decisions/clean_historical_review.json",
+            "sha256": "b68bac220d14b9258467b6cf6831cf636042425e563e3f857bf53ce7d33baa1e"
+          },
+          {
+            "path": "research_registry/decisions/clean_ip_review.json",
+            "sha256": "222e28b299c639f4bedddb923399b93de530785bfd4d1438ccda5733628d4958"
+          },
+          {
+            "path": "research_registry/decisions/clean_late_sidequest_review.json",
+            "sha256": "2b2435bbf824e64048efc702e4e5e1d7a8644335808c56dd4fcaf0ba4c1d3650"
+          },
+          {
+            "path": "research_registry/decisions/clean_middle_sidequest_review.json",
+            "sha256": "2b8611a50cba6bbb47d186959ba566b9a64639c8514254a2b29d76c49b9b3d28"
+          },
+          {
+            "path": "research_registry/decisions/clean_prereg_candidate_review.json",
+            "sha256": "394fc385235eb4ffce04bc2a1747a34ff27267d663af2b4329ef482e6e8564f3"
+          },
+          {
+            "path": "research_registry/decisions/clean_proposal_review.json",
+            "sha256": "b61b945b3101822932c4bcb4b5a3236e2da3d3675441357e0adf02c12b3de19f"
+          },
+          {
+            "path": "research_registry/decisions/clean_report_proposals_review.json",
+            "sha256": "17055a7e3c76fc821f9caf787d2d5d48c69072010936ddffd553f8fd1555caa1"
+          },
+          {
+            "path": "research_registry/decisions/clean_root_early_review.json",
+            "sha256": "f5d6c0297403f7ec6d173dc779c4dff8cf8e937dd0556b682cda63061a173646"
+          }
+        ],
+        "meaning": "NAVIGATION_ONLY: no automatic skip, proposition identity, complete coverage, scientific verdict, or reopening authorization",
+        "source_bytes_read": false
+      },
+      "scope": "Selected authored proposition and explicit nearby source limits only; no global model-family or empirical validity audit."
+    },
+    {
+      "source_id": "LEGACY_PROPOSAL:0ec7d0ada63bf6949d7eaa4c",
+      "decision": "existing_proposition_source_audit_only",
+      "review_state": "existing_proposition_source_audit_only",
+      "full_selected_span_read": true,
+      "full_proposition_comparison_complete": true,
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:0962c8271ffeb26472df"
+      ],
+      "reason": "The selected section's local apparatus/array content possibility is already present as a whole disjunctive GDT231 assertion: component class, parallel slots, array template or unrelated lexical material remain unresolved. GDT232 additionally calls BACA a graphical-label-register family and reports nonexclusive distribution; this is a structural/register hypothesis and limitation, not a new word meaning. The existing local referent card does not purport to assert the entire later census. Preserve this later source assessment without importing its census counts as semantic validation or silently broadening the local semantic card.",
+      "evidence": [
+        {
+          "path": "GDT232_BACA_LABEL_REGISTER_CENSUS_REPORT.md",
+          "line": 22,
+          "line_end": 41,
+          "quote": "The exposed one-sided global label-enrichment tail is `3.10e-5`; within the 19\nprefix occurrences, concentration in q13 or Pharma labels has tail `.00627`.\nThese values are descriptive because `BACA-` was selected after GDT231 and is\none of many nested family prefixes.  They do not establish an authorial label\nmorpheme.\n\n## Interpretation\n\nThe best current reading is architectural:\n\n- `BACA-` is a candidate **graphical-label-register family**, especially in\n  q13 and Pharma;\n- the f82r `BACAB/BACACA` pair may additionally share a local array or\n  apparatus-class template;\n- the prefix is poor evidence for a word meaning water, flow, waterfall, pool,\n  or a particular object.\n\nThe six prose and one radial occurrences are important counterexamples to a\nuniversal label marker.  The f75v and f83r label occurrences also show that it\nis not exclusive to the f82r paired structures.",
+          "sha256": "183b85c37c1defefd4fe87d9d13f38a8ae78a0bb0be9f4814cf378ca7c1596c1"
+        },
+        {
+          "path": "GDT232_BACA_LABEL_REGISTER_CENSUS_REPORT.md",
+          "line": 43,
+          "line_end": 53,
+          "quote": "## Consequence for the working translation\n\nGDT229's field-level semantic lattice remains intact, but `dar-`/`BACA-`\nshould move from the provisional content column to the **rendering/register or\nlocal-class** column.  If an independent paired hydraulic target later shares\nits own within-pair prefix, the transferable rule to test is “parallel visual\nitems share a local family stem,” not “BACA means flow.”\n\nNo label marker, object class, water/flow term, word, morpheme, sound, language,\nplaintext, or translation is established.  No f84 row was retained, joined, or\nscored and no new f84 access occurred.",
+          "sha256": "183b85c37c1defefd4fe87d9d13f38a8ae78a0bb0be9f4814cf378ca7c1596c1"
+        },
+        {
+          "path": "GDT231_Q13_VISUAL_HOMOLOG_FAMILY_ATLAS_REPORT.md",
+          "line": 50,
+          "line_end": 61,
+          "quote": "## Best working interpretation\n\n`BACA-` is now a **local matched-apparatus/referent-class candidate** for the\ntwo f82r positions.  That is narrower and more defensible than `dar = flow`:\n\n- it may mark the same depicted component class;\n- it may mark parallel left/right slots;\n- it may be an array/register template;\n- the differing final families may distinguish instance, side, state, or\n  simply unrelated lexical material.\n\nThe current data cannot choose among those explanations.",
+          "sha256": "af968af6986269afef31a20e2a1248365be3c50baf508bf9835fb0f11b65aae5"
+        }
+      ],
+      "previous_initial_disposition_preserved": true,
+      "previous_source_receipt": {
+        "results": [
+          {
+            "source_id": "LEGACY_PROPOSAL:0ec7d0ada63bf6949d7eaa4c",
+            "relationships": [
+              "exact_id"
+            ],
+            "review_state": "recorded_decision",
+            "full_read_recorded": false,
+            "decision": "result",
+            "original_decision": "",
+            "reason": "Result, correction or interpretation limit retained in the archive; no distinct concrete assignment extracted without reconstructing omitted context.",
+            "source_binding": "unknown",
+            "evidence": [],
+            "evidence_count": 0,
+            "review_path": "research_registry/decisions/clean_report_proposals_review.json",
+            "review_sha256": "17055a7e3c76fc821f9caf787d2d5d48c69072010936ddffd553f8fd1555caa1",
+            "locator": "/dispositions/60"
+          }
+        ],
+        "matched": 1,
+        "limit": 8,
+        "offset": 0,
+        "next_offset": null,
+        "review_inputs": [
+          {
+            "path": "research_registry/decisions/clean_component_review.json",
+            "sha256": "66203c3a57d8827dcdfc86ed497925d81368ebd7c3048f965367ced8d11cb24e"
+          },
+          {
+            "path": "research_registry/decisions/clean_final_sidequest_review.json",
+            "sha256": "55be386a0e1980355cb403076a0217767d587277205d112ab1ed3519c192ad11"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_aa.json",
+            "sha256": "df6879cccf384c36c940dc1e1493f1fb1c99ab4d2043c9aa22d4eb117d830000"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ab.json",
+            "sha256": "aba7be7299550c3f14e3ec4b5f19e183bcb80bb714110a98c8a0b6bd575ea423"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ac.json",
+            "sha256": "eb18f4a4169f74a67a4601d9ab1526362582ff890b3f86607a3bba6ddbbce8f9"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ae.json",
+            "sha256": "f6be998c27c0bf356ac9221806fbe06c28d00fe93c962352857c33708fe9226d"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_af.json",
+            "sha256": "399339fe6d552749ff397d441e4c60b82433da0cefcce93022f885d0ed180042"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ag.json",
+            "sha256": "a962d8b0ad4dd0f9219c7ba559f7da4f612c393ae546c6257f5acd9122f44f64"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ai.json",
+            "sha256": "5168e1f81ec411e74c0058fea583ef648fe89893a37ea9306ec2a1fb7b9f0d73"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_al.json",
+            "sha256": "a7f5566080892f12a30f863e0e5181e2fca6970e4cc29c40fba683229b50ae55"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_am_integrated.json",
+            "sha256": "88e676a7d225b77576822cbbd318efc22eb8b55b9b902b4d3f8280a0c712f48f"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_an_integrated.json",
+            "sha256": "105129391fc1fa64bb58ff4291dfdc4de67c784e6ec4543ca1296432d74d9f61"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ao_integrated.json",
+            "sha256": "1d8c99d915fcfc5d48c6e2e97e15516386a0967db70937d2507d1b767ba68609"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_aq_integrated.json",
+            "sha256": "88b05f1339271e23f8b6c91b9dd855823f7beed9b9b28693d1f56b4f76cdab78"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_aw_integrated.json",
+            "sha256": "7d1a74afa444596417828d70a1fc7477a8096230014b74fcd0c78eb786f04fbd"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ax_integrated.json",
+            "sha256": "77bd20ae3bc60a0824aa5b3704e00fde4d4519fd6edb50a22f889dedc2af90c0"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ay_integrated.json",
+            "sha256": "5f538b709782a996e3bc2ca17c0b3c90aa93f6f6b312884b6c331c7fe2a346f2"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_az_integrated.json",
+            "sha256": "a29b365de56c822d48eaddcf297b75c22ac7b57ac8d852ec51ccba895c992616"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ba.json",
+            "sha256": "fe238aada1a43e0962686819a2c81a4a2726c5ce25018d4b997f1d9c8e5e4c34"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bb_integrated.json",
+            "sha256": "ebe30e76bcb6c56bf71d3f9b731b7ac9a5d80a53bc8d624f5cb5089e9281c377"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bd_integrated.json",
+            "sha256": "18b701133df42d8ebb70a62c58d47c5820e076f8cd40b9072c2aa332551e4f93"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_be_integrated.json",
+            "sha256": "51fe0afa36d98823f8fca0b5c2fe21c4cddb442f2854ae115e6537bc2e9d1a42"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bg.json",
+            "sha256": "3faaa12a2873c61f2813f30614def2ec46e743a5e687ef832673f2844a9e4afd"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bh_integrated.json",
+            "sha256": "95486c527d6f97bcdea53422ae82dc5c7047bf0c3f6a1284c37f60bc20e51504"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bi_integrated.json",
+            "sha256": "1dcf08a0b44e31491f7e4c222ae5e4722dea8479d21d486559fe9e663a5cf358"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bj_integrated.json",
+            "sha256": "9f8083fce18f423bb3a4e39fa630543a48baa47699a9973f90fd96b4436da1bf"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bk_integrated.json",
+            "sha256": "03c01d7f5433247608dd2181cf44fe9f526b6ba8e62518e9873fe8f00ec2abfe"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bm_integrated.json",
+            "sha256": "c426a1899a0c1fe00a5048b1c171e871fa235a49834ea95a0bcedb8c427f236e"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bn_integrated.json",
+            "sha256": "8a57d1647d7c052a2d7807a03702a69b667fce4ffdd4357a63c5586056e6878f"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bo_integrated.json",
+            "sha256": "03229b33ceba00772464d6d5691f8a74b6c1d36a8bac99ab7d0779be464667fd"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bp_integrated.json",
+            "sha256": "f2f67874548e4f8b19b03ab75f5e0a32cbb8d0ed9ffce68302438f4d7ae4d466"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bq_integrated.json",
+            "sha256": "580f3c5270dd68ad7187cee82224fb8d792dcc540c7b3e922e40db44e18f78c6"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_br_integrated.json",
+            "sha256": "047c1ac5ec10631bb4390e2f488c28ebba0afb5fbb9b5d8cf85fa9c05c7d64e3"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bs_integrated.json",
+            "sha256": "deb7e56307b4e68267fadc1b66ac00a112745f55d82fc1727e2f13b719445189"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bv_integrated.json",
+            "sha256": "7264035e337b840c45f4de9d317ad2d5404a0929fefca7cbf35c8843abd27ec8"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bw_integrated.json",
+            "sha256": "3bb12d0c237068925c3253995988e46c01a6b58190ad4b39dbf19cbb60263159"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bx_integrated.json",
+            "sha256": "5499c2c12ce06bededde14a57dd2b7aadf177259959b51ddea79392bc430200f"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_bz_integrated.json",
+            "sha256": "235c6477c67855b489264f3de4a6049f074a5e1442b2ae6e6560cd1922ea770b"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ca_integrated.json",
+            "sha256": "7db9700ea3b30fefd94fa66f772440eeff047ad79c9bd07b887e898cd5bba64e"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cb_integrated.json",
+            "sha256": "dd6236e0c4cc9766e6dc72c7b692e28f8b9c9be7318149dce3ffee80d3da8db3"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cc_integrated.json",
+            "sha256": "896dab7e5900eb424ecf2df3ff546511db24b997e41ee2bd05662e0ea8c88157"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ce_integrated.json",
+            "sha256": "10d2c1bd7b15d26f18a8d412701f1bbbc6b78ae25a7fa4f6af8902240c436221"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cf_integrated.json",
+            "sha256": "c49afdf0fa9ecbd38602b58fb6cbe683c111d0f64bd8b17d496f9ea3ebb605f1"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cg_integrated.json",
+            "sha256": "8f41c8df1e533495dc89597c1fc69003f39128c9b958e85120a4f18f5cf83cd4"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ch_integrated.json",
+            "sha256": "4d2bb5c02485a085d13cf18c81146878e39ebed31cb77c08669a44276d1ca95c"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ci_integrated.json",
+            "sha256": "99c5474cc00033118b158c899f29fe4a81b0087796c49cc2bd756436fff45328"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ck_integrated.json",
+            "sha256": "7e9ba362be909280b34ced12dea5eb1b9b364c191e37684e1d74b9e95e911e0f"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cl_integrated.json",
+            "sha256": "50e6e32c21a0477e0a0f9d91be33552907b8e6688b427ed22ea237c75fc224a3"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cm_integrated.json",
+            "sha256": "7f0c679bc2e28043f7ff2067055b4d0bed9afbc3861ec5535b4734526c4af915"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cn_integrated.json",
+            "sha256": "3e4e318dce44df88cdc4ebba41eaafe1b0a039d17ee195b8121cb54ca1755de9"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_co_integrated.json",
+            "sha256": "2b105c2b2afaf8012d911a4055031ff6cabc9e02c08d9779f19d48fc295345fa"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cp_integrated.json",
+            "sha256": "b0b5aac47ea0f349a5c7190b011ec073fd21b77515747c3c854385cb8bb2572f"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cr_integrated.json",
+            "sha256": "530f8b47a33a146701012a1d6eccbdb4124e2f79f0eef63add7466a5bd4615f3"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cs_integrated.json",
+            "sha256": "dedca51cff508b9a0919f0c16b0e7f50a204fff477b67371a17442ad6b419b16"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cu_integrated.json",
+            "sha256": "c0b78b68bc4a017ee3bc9e22f80d9f4f885dc8b9226cda450a3833d3b2147248"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cw_integrated.json",
+            "sha256": "ab319959744006cc6bfb672015aee3f6d3a143a2374fda19db06eb7cd3d75fa8"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_cx_integrated.json",
+            "sha256": "11215995d77803ddddc5023ddd36181d9e8be154d4be91635392b1870d8f3eeb"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_da_integrated.json",
+            "sha256": "9f82017d43a997e3c231e9cd222774279862ef9279bdc090135395156da146b7"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dc_integrated.json",
+            "sha256": "754ed611c8030f93d19d815d23a8409d53bd1a3a221cf335c38d2337ea391907"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_de_integrated.json",
+            "sha256": "043202f15fa069787d3256c2b336082bab786f8a05c93ffa60ce005ed2d2762d"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_df_integrated.json",
+            "sha256": "dcd00417434a8f93791c1400965feaf36d17d811e1fe38489e41bd8bc103031c"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dj_integrated.json",
+            "sha256": "2b92807e4056f8141afa6c08667f8eae0084eeb5551f3012794ce5a3ab3fdf7f"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dk_integrated.json",
+            "sha256": "133735eb435174c80caf45cc9f0a798e910dd8c0b5c62082bf374522ddc002ec"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dm_integrated.json",
+            "sha256": "30d1a40c04feef5506087cb978d439fc393d93341ba07fbe29068d6a2d941d4f"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dp_integrated.json",
+            "sha256": "03203a4176285d974c9ec9bc4878eee06f16fd21c5ce5a045024cd6b11f726f5"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dq_integrated.json",
+            "sha256": "80f232b09d1d36821668d2f467f8c7cbf9af7e666bd289aee5fe6c5f11d52028"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ds_integrated.json",
+            "sha256": "f0cfa4f8b134c3b7ba01d6359a0849dc8e8b6d0e541580609974279adb039d69"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dt_integrated.json",
+            "sha256": "5729a9884a5ab7a0531b999fe8ea33db27001402b2dd1ba0e054c7097f3a8901"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dv_integrated.json",
+            "sha256": "88cf4a5c6de5a9f8b06e6ca2d468c9ffdb1f1c95d153ad45fc10fb3ff0c1640d"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dw_integrated.json",
+            "sha256": "2e7342496b503f411eb0cf3e26ff78160309b6cae510b7d4b41c8cc8288c0643"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dx_integrated.json",
+            "sha256": "c4b591756d6f09b83ce1f809a43d7b30c5806e823221ec9fa7b7f53dbd2ed5c9"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_dy_integrated.json",
+            "sha256": "1a84761f2663028d0dae633facae7fdf58202a36dee805ef2afadf977f955a81"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ec_integrated.json",
+            "sha256": "1f7c11877de40f429aa751e103acb27c40372e61eb7efc55d90375f95c726bd2"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ef_integrated.json",
+            "sha256": "9221846d72836f12b22c6aa2c0e654b1105d616fd030990ad1c4a1a905fa92f0"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ej_integrated.json",
+            "sha256": "e630dd198bee185189cc47d5639ec8592d88a840b49fc6ae672a3fa76629b8dd"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ek_integrated.json",
+            "sha256": "5ce4122652e61d3c8fcb9fa3fb60f94afd2451761ddb67d68862c3a5a8917d4d"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_el_integrated.json",
+            "sha256": "b5823a5df058c71dad74ba33325d21c63618a0fe6aa238132aae4b16a76773d9"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_em_integrated.json",
+            "sha256": "17c709b15f63285ffddb1f0579f49b0d7374ae2c47daeceec854aa20932c7868"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_eq_integrated.json",
+            "sha256": "8702c7fd1b88ae915358fd26c79471ca439d9ed6e60438e7141c000773af20d7"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_eu_integrated.json",
+            "sha256": "6eb6be24479c855b8441376a6c968ea1723b4fc37a93618a5144d469837e4d42"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ex_integrated.json",
+            "sha256": "dd7236fd285dcdcf1c6929b18623cacc7bf009d7c3b35002260543b8aad4146d"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ey_integrated.json",
+            "sha256": "f55f7585d684b0b5ab5b7427bb94c7c6213798e255577e95d038034952d2c58c"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_fc_integrated.json",
+            "sha256": "dc29c7b6122d5dded4a021c67d367d27c73812eba60ec875506ed07d5a945b09"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_fe_integrated.json",
+            "sha256": "71891ea022e39b83f519093dc3fef2cd9fdc89e23e451a30f27286bc72fd99dd"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_fk_integrated.json",
+            "sha256": "733e8bc979d6f5c5e8770eac0e014870032cfdb089ed9e8e8b8b4d1b76c2e442"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_fq_integrated.json",
+            "sha256": "b7927271aa1169d88a07b6b49cdb05e90f3c95bbaf069e86721e27bb9704bca7"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ft_integrated.json",
+            "sha256": "d94f6ab5d7f4d3c6abdc596049b91664e3a32b1555987be1c51be9940a558c94"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_fu_integrated.json",
+            "sha256": "d6a3c4e712ac2d8793b2928ec9b27e8670759dd23a03f41f788c37f5e7a44019"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_fw_integrated.json",
+            "sha256": "832fd809aa87d6ae1a6e52dcc58630bf4d0f528bc7bd59616ff961403d5b3f44"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_ga_integrated.json",
+            "sha256": "27a57337c15432df0bee30d689af500aaf5a5f6adf6f5b11fc50b4974f578d66"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_gf_integrated.json",
+            "sha256": "25ab0693d83e8c08ebb18272e840be482ec02a8d5f9fae6b26d67ba4684d0068"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_l.json",
+            "sha256": "9963545b58e12b14d2408dd3ffeca89e180b874bc7b2d0480a42a30b89c141a2"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_o.json",
+            "sha256": "f2cdb0c902df9ef6c7827028d3f71087a5ffc7f30c9cd39307a7997ee4185edf"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_q.json",
+            "sha256": "5f0dd23cf90f2a9e0d1f8783da1d7d1bf555669e87a00bf0208a6d0df2b1f0d4"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_t.json",
+            "sha256": "9c675474ff46af0b9fff06bf716f4303c2b67b05cd8666bcce2419da27d79481"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_u.json",
+            "sha256": "ee83972c462537930796bad095fad5a2b7579a126408f6cf8556e577b1e2c867"
+          },
+          {
+            "path": "research_registry/decisions/clean_gap_review_w.json",
+            "sha256": "c0fd3b84ce6233248d4bac0085a3c4d2f4ca3316371adb7d287d9bc3db650264"
+          },
+          {
+            "path": "research_registry/decisions/clean_historical_review.json",
+            "sha256": "b68bac220d14b9258467b6cf6831cf636042425e563e3f857bf53ce7d33baa1e"
+          },
+          {
+            "path": "research_registry/decisions/clean_ip_review.json",
+            "sha256": "222e28b299c639f4bedddb923399b93de530785bfd4d1438ccda5733628d4958"
+          },
+          {
+            "path": "research_registry/decisions/clean_late_sidequest_review.json",
+            "sha256": "2b2435bbf824e64048efc702e4e5e1d7a8644335808c56dd4fcaf0ba4c1d3650"
+          },
+          {
+            "path": "research_registry/decisions/clean_middle_sidequest_review.json",
+            "sha256": "2b8611a50cba6bbb47d186959ba566b9a64639c8514254a2b29d76c49b9b3d28"
+          },
+          {
+            "path": "research_registry/decisions/clean_prereg_candidate_review.json",
+            "sha256": "394fc385235eb4ffce04bc2a1747a34ff27267d663af2b4329ef482e6e8564f3"
+          },
+          {
+            "path": "research_registry/decisions/clean_proposal_review.json",
+            "sha256": "b61b945b3101822932c4bcb4b5a3236e2da3d3675441357e0adf02c12b3de19f"
+          },
+          {
+            "path": "research_registry/decisions/clean_report_proposals_review.json",
+            "sha256": "17055a7e3c76fc821f9caf787d2d5d48c69072010936ddffd553f8fd1555caa1"
+          },
+          {
+            "path": "research_registry/decisions/clean_root_early_review.json",
+            "sha256": "f5d6c0297403f7ec6d173dc779c4dff8cf8e937dd0556b682cda63061a173646"
+          }
+        ],
+        "meaning": "NAVIGATION_ONLY: no automatic skip, proposition identity, complete coverage, scientific verdict, or reopening authorization",
+        "source_bytes_read": false
+      },
+      "scope": "Selected authored proposition and explicit nearby source limits only; no global model-family or empirical validity audit."
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:723ad132b7e0e600de6b",
+      "decision": "existing_proposition_source_audit_only",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:0229909e2349f19a41d4"
+      ],
+      "full_selected_span_read": true,
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt626_mobile_operation_lexicon/REPORT.md",
+          "line": 38,
+          "line_end": 90,
+          "quote": "## Why I/II/III/IV is the best practical default\n\nFifteenth-century medical recipes write Roman quantities with a terminal\n`j`: `j`, `ij`, `iij`, `iiij`. If Voynich terminal `n` performs the same final\nstroke function, the exact surface mapping is:\n\n```text\n-an    I       -ain   II       -aiin   III       -aiiin   IV\n```\n\nThe comparison is unusually close, but still analogical. EVA deliberately\nexposes visible minim strings that earlier transcription alphabets sometimes\ntreated as the single units N and M. Nothing in EVA itself supplies a number.\n\nThe strongest countermodel is therefore not random spelling but a four-grade\ninflectional or abbreviation slot. Its distributions really are conditioned:\nvalue III among II+III is 0.821 in Herbal but 0.455 in Biological material,\nand 0.840 for Hand 1 versus 0.608 for Hand 2. Value I is also line-final in\n38/102 cases, compared with 368/3,404 value-III cases. GDT626 keeps that rival\nalive. Yet conditioning does not contradict a numerical code: medieval\nquantities and degrees also vary by content and scribe. The new reader is a\nworking default because it predicts concrete compounds that the pure\ninflection account does not yet interpret.\n\n## Concrete quality readings\n\nThe inherited `k/t × ch/sh` layer supplies hot/cold × dry/moist. Forty-seven\nsafe tokens on 33 pages combine one of those quality cores with the new value\ntail; 37 are stable across all three readings. The direct registered forms\ninclude:\n\n| surface | composition | practical reading |\n|---|---|---|\n| `kchan`, `kchain`, `kchaiin` | `k+ch+I/II/III` | hot-dry, degree I/II/III |\n| `okchan`, `okchain`, `okchaiin` | `o+k+ch+I/II/III` | hot-dry degree I/II/III in o-scope |\n| `qokchain`, `qokchaiin` | `qo+k+ch+II/III` | hot-dry, degree II/III |\n| `qotchain`, `qotchaiin` | `qo+t+ch+II/III` | cold-dry, degree II/III |\n| `otshaiin` | `o+t+sh+III` | cold-moist, degree III |\n\nFour direct line readings now say something specific:\n\n```text\nf35r.13 qokchaiin   hot-dry, degree III\nf44v.2  qokchain    hot-dry, degree II\nf25r.4  qotchain    cold-dry, degree II\nf28r.3  qotchaiin   cold-dry, degree III\n```\n\nThis mirrors real early-fifteenth-century materia-medica phrasing. Wellcome\nMS.542 describes aloes as hot and dry in the second degree and white hellebore\nroot as hot and dry in the third degree. Pal.lat.1234 organizes drugs under\nhot-degree rubrics from first through fourth. The manuscripts do not decode\nVoynich, but they demonstrate that the exact semantic architecture existed.",
+          "sha256": "e1f8c803562e1d1b2ea74b0df0f7ce61ee8d11e0bc73c22c3268641d1458cc3d"
+        },
+        {
+          "path": "experiments/yolo/gdt626_mobile_operation_lexicon/METHOD.md",
+          "line": 55,
+          "line_end": 83,
+          "quote": "Plant-part compounds match a known `cth`, `chor`, `shor`, `dair`, or `sair`\nhead followed by the same value tail. A quality head receives the concrete\ndefault `degree I-IV`. A part head receives only `amount/dose/degree/class\nI-IV`: no absolute unit and no literal number of pictured organs is invented.\n\nThe full `dan/dain/daiin/daiiin` family is retained occurrence by occurrence.\nThis resegments `daiin` as `d+III`; it does not identify the `d` head or exclude\nan additional learned surface-specific linking use.\n\n## Historical and visual comparison\n\nThe manual comparator file binds dated medical witnesses around the fifteenth\ncentury. Real recipes use final-`j` Roman series and independently use Roman\nvalues for dosage. Real materia-medica glossaries combine compact hot/cold and\ndry/moist descriptions with degrees I-IV. They support a mechanism and a\nworking reading, not a glyph identity.\n\nManual judgments use only already opened Herbal images. They distinguish a\npart-plus-value layout from literal counts such as “three leaves” or “three\ndrachms,” neither of which is licensed.\n\n## Claim ceiling\n\nGDT626 promotes a reproducible four-cell minim slot and an exploratory\nI/II/III/IV reader. It promotes degree readings only on the inherited quality\nheads and an unresolved value reading on part heads. It does not prove that\nEVA `n` is Latin `j`, that every value is numerical, that `a` is a unit, that\nthe inherited quality orientation is correct, or that any complete sentence\nhas been translated.",
+          "sha256": "72ae9739533e02ad8f9da55c9ea0e2c12ef48d7e9ab4ce15b95e6cf6ad31bede"
+        }
+      ],
+      "reason": "No new failure dossier: the target is an unconfirmed positive compound assignment, not a tested and rejected meaning. The source itself already states the numerical-binding gap and next discriminator; source-specific receipt preserves that distinction without inventing a failed route.",
+      "initial_disposition_preserved": true
+    },
+    {
+      "source_id": "LEGACY_PROPOSAL:936fa8da8d098e91b72f37fb",
+      "decision": "existing_proposition_source_audit_only",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:0479f37d9427261549a4"
+      ],
+      "full_selected_span_read": true,
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt805_eleven_whole_context_role_discriminator/REPORT.md",
+          "line": 54,
+          "line_end": 87,
+          "quote": "## Korrektur des Kandidatenwählers\n\nDer erste Diagnoselauf bevorzugte breite Materialmodelle, zählte volle Leads\nnochmals als Near-Leads und wertete Feldnähe beziehungsweise eine offene\nMengenposition als direkten Inhaltsbeleg. Das war falsch. Der korrigierte Lauf\nmacht Full und Near disjunkt, skaliert den Diagnosescore durch die deklarierte\nModellbreite und vergibt keinen\nBreiten- oder Feldbonus und installiert aus den Projektionen null neue Rollen.\nMehrere korrelierte Achsentags derselben Kontaktzelle können weiter einzeln\nzählen; deshalb ist der Score ausdrücklich kein vollständig normalisierter Beleg.\nGDT804s direkter sauberer CONTENT_PREP-Kontakt bleibt für alle elf Formen null.\nDie konkreten Rivalen bleiben sichtbar, damit die nächste Runde sie tatsächlich\nprüfen kann.\n\n## Rollenstand statt Scheinübersetzung\n\n| Form | Außenstellen/Folios | führender konkreter Rivale | Gegenrivale | Entscheidung |\n|---|---:|---|---|---|\n| `chal` | 41/26 | Stoff- oder Zubereitungseintrag | Qualitäts- oder Zustandsfeld | `PROJECTED_MATERIAL_OR_QUALITY_CONTEXT_PROFILE__NO_DIRECT_SLOT` |\n| `chedal` | 21/15 | Material-/Mengenfeld | Material-/Mengenartikel oder Rohstoff | `MATERIAL_OR_AMOUNT_RIVALS_UNRESOLVED__NO_DIRECT_SLOT` |\n| `cheol` | 141/70 | Stoff- oder Zubereitungseintrag | Qualitäts- oder Zustandsfeld | `DRY_VALUE_CONTEXT_PROFILE__MATERIAL_OR_QUALITY_UNRESOLVED__NO_DIRECT_SLOT` |\n| `okail` | 0/0 | uninterpretierter Eintrag | Material- oder Zustandsfeld | `NO_EXTERNAL_CAPACITY` |\n| `okal` | 122/62 | Kennstellen-/Systemcode | Ansatz- oder Materialeintrag | `RETAIN_GDT793_OPAQUE_ENTRY_PRIOR__MATERIAL_CONTEXT_RIVAL` |\n| `ol` | 462/104 | Ansatz-/Zubereitungsträger | bestimmtes Medium: Öl, Wasser oder Wein | `RETAIN_GDT762_GENERAL_CARRIER_PRIOR__SPECIFIC_MEDIUM_UNSUPPORTED` |\n| `otal` | 117/56 | Ausgangsansatz oder Stoffzubereitung | Qualitäts- oder Zustandsfeld | `PREPARATION_OR_QUALITY_CONTEXT_PROFILE__NO_DIRECT_SLOT` |\n| `qokeol` | 38/25 | Zubereitungs- oder Stofffeld | Behandlungs- oder Prozessfeld | `HOT_VALUE_CONTEXT_FIELD__PROCESS_PREPARATION_QUALITY_UNRESOLVED` |\n| `qokol` | 87/51 | Zubereitungs- oder Stofffeld | Behandlungs- oder Prozessfeld | `VALUE_CONTEXT_FIELD__PROCESS_PREPARATION_UNRESOLVED` |\n| `qotal` | 56/34 | Stoff- oder Zubereitungsfeld | Qualitäts- oder Zustandsfeld | `MATERIAL_OR_QUALITY_RIVALS_UNRESOLVED__NO_ROLE_LEAD` |\n| `sail` | 1/1 | uninterpretierter Eintrag | Stoffart oder Mengenfeld | `NO_EXTERNAL_CAPACITY` |\n\nNeu ausgewählt wird keine Rolle. Beibehalten werden nur zwei ältere\nBasismodelle: `okal` als Kennstellen-/Systemeintrag mit Materialkontext-Rivale\nund `ol` als allgemeiner mengenfähiger Inhaltsträger. Insbesondere bleibt offen,\nob `ol` Öl, Wasser, Wein oder überhaupt ein konkretes Medium bezeichnet.",
+          "sha256": "a7d1149d3341973909288cd531d863d446fd7acefadff98844db55eac56625f5"
+        },
+        {
+          "path": "experiments/yolo/gdt805_eleven_whole_context_role_discriminator/METHOD.md",
+          "line": 40,
+          "line_end": 90,
+          "quote": "## Three evidence levels for neighbour axes\n\nGDT739 contributes 230 locally selected neighbour contacts over 131 unique\ncomplete surfaces. The source deck is audited before use:\n\n- only radius-one or radius-two source assignments are active;\n- GDT754-quarantined source-composed wholes are removed;\n- GDT738 manual HOLD readings and all eleven target surfaces are masked;\n- an axis at the identical page, locus, ordinal and surface is an exact active\n  GDT739 cell;\n- reuse of that axis at another occurrence of the same surface is a new GDT805\n  exploratory surface projection.\n\nThis leaves 75 projection-eligible surfaces. The German source wording is not\nimported, although the broad axes were derived from earlier German working\nprose. Therefore every projection and every profile lead has semantic credit\nzero and renderer licence zero. Of 184 mapped flanks in the external atlas,\nonly six are exact GDT739 source cells; 178 are explicitly marked projections.\n\n## Candidate and frame diagnostics\n\nTwenty predeclared whole-form rival cards specify expected left/right axes.\nFull leads and near-only signals are disjoint. The diagnostic score is\n`5 × dominant + 2 × non-dominant full + near-only`, divided by the number of\ndeclared expected axes for display ranking. Field proximity, positional amount\ncandidates and inherited priors receive no score. Correlated axes from one\ncontact may still count separately, so this is a width-scaled,\naxis-correlated diagnostic—not a probability or a fully normalized semantic\ntest.\n\nRepeated exact L1–target–R1 frames must occur on at least two physical folios.\nBoundary-anchored one-sided frames are counted separately and `NONE` is never a\ntoken. Frames can order concrete rivals but cannot install a word meaning from\na single pattern.\n\n## Decision and claim ceiling\n\nProjected axes may expose context profiles and passage cards, but cannot select\na new target role. Only the already published `okal` opaque/system-entry prior\nand `ol` general content/preparation-carrier prior may be retained. Specific\nsubstances such as oil, water, wine, salt, root or leaf require a separate\ndirect bridge.\n\nEvery mapped relation is submitted to the executable GDT388 intake. Because\nthe text relations were formally accessed before sealing, the packet is\nineligible and not score-ready despite its descriptive capacity.\n\nGDT805 may enumerate the external context atlas, audited projections, K12\nprofiles, repeated whole frames and concrete rival displays. It establishes no\nlexeme, plaintext, component value, language, sound, glyph value, ingredient,\nplant, disease, cure, unit or translation.",
+          "sha256": "ea417917b794a97952208d61f58f0d73110ee3c37fcfce86f40958eba749ef12"
+        }
+      ],
+      "reason": "No new dossier: no chedal model was selected or semantically rejected. The primary METHOD explicitly forbids installing new roles from these projected profiles. A separate failure/reopening entry would merely repeat that documented missing binding and source-ineligible scoring boundary without authorizing a different research decision.",
+      "initial_disposition_preserved": true
+    },
+    {
+      "source_id": "LEGACY_PROPOSAL:7bc6882c8a4fa47a4e9d0a2c",
+      "decision": "existing_proposition_source_audit_only",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:07f76eb4374b978915e7"
+      ],
+      "full_selected_span_read": true,
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt773_ol_capacity_equalized_composition_audit/METHOD.md",
+          "line": 25,
+          "line_end": 63,
+          "quote": "### 1. Equal structural capacity\n\nThe old score rewarded its relator for a synthetic two-sided `FIELD_EDGE`, but\ndid not give the nominal rival an equivalent way to consume the same right\nmodifier. GDT773 removes every candidate-specific binder. At each occurrence,\nall five pure readings may consume the same one left and one right typed edge.\nThe capacity penalty is therefore only the number of absent typed sides and\nmust be identical for all five candidates case by case, in aggregate and after\nleaving out any physical folio. A difference is an implementation failure, not\nsemantic evidence.\n\n### 2. Formal five-way topology score\n\nThe immediate left and right observations are reduced without reading the\ntarget as either amount/value (`A`), content/field/process (`C`), or absent\n(`0`). This yields the observed topology inventory `AC=7`, `CA=2`, `CC=2`, and\none each of `A0`, `0A`, `AA`, and `C0`.\n\nThe authored topology rules charge `0` for support, `1` for neutral evidence,\nand `2` for contradiction. Nominal-head support is bidirectional (`AC|CA`);\npartitive `von` supports `AC` but contradicts `CA`; field/sequence supports\n`CC`; measure/unit supports `AA|A0|0A` and contradicts content-only frames; and\ndirectional `aus` can receive support only if an independent right-hand\n`SOURCE|MATERIAL` role is visible. No such directional case occurs.\n\nThe formal whole-deck scores are therefore:\n\n- quantifiable nominal head: **6**;\n- partitive `von`: **10**;\n- field/sequence marker: **13**;\n- measure/unit complement: **15**;\n- directional `aus`: **24**.\n\nThe nominal head is the unique invariant fallback, remains uniquely lowest in\nall ten leave-one-physical-folio-out folds, has nine supports on eight folios,\nincludes two supports on two folios outside the seven focal acquisitions, and\nhas no contradiction. The entire four-point margin over `von` comes from the\ntwo reverse `CA` cases; the seven focal `AC` cases contribute a zero nominal\nversus-`von` delta.",
+          "sha256": "d262f2a2336f3b3e7175957b037b27884d1586e5117097d579e1b2974aef2cb2"
+        },
+        {
+          "path": "experiments/yolo/gdt773_ol_capacity_equalized_composition_audit/METHOD.md",
+          "line": 81,
+          "line_end": 105,
+          "quote": "### 4. Contextual record-field model\n\nThe sixth model is a single record-field operator with two main branches and\nfive ordered context rules:\n\n1. amount/value→content opens the associated content field as `Ansatz:` (five\n   cases);\n2. content→amount opens the associated quantity field as `Menge:` (two cases);\n3. before an independent process it continues as `und dann` (two cases);\n4. between two content fields it coordinates as `und` (one case);\n5. at a field boundary or after an already filled value/content field it emits\n   `;`, with the one explicitly authored nested-field display emitted as `:`\n   (five cases).\n\nThus the practical split is exactly seven amount/content associations and\neight field/sequence connections. It does not emit `von` or `aus` as its\nselected output.\n\nOrdered rules in `src/DISPATCH_RULE_SPECS.tsv` must cover every one of the\nfifteen cases exactly once. The mixed model pays a fixed complexity cost of\ntwo; it cannot win merely by choosing the cheapest word after seeing each case.\nIts selected local cost is zero in all fifteen cases, hence adjusted cost\n**2**, compared with **6** for the best pure practical model,\nfield/sequence. Every selected output remains visible in the occurrence ledger\nand eleven-line reader.",
+          "sha256": "d262f2a2336f3b3e7175957b037b27884d1586e5117097d579e1b2974aef2cb2"
+        },
+        {
+          "path": "experiments/yolo/gdt773_ol_capacity_equalized_composition_audit/METHOD.md",
+          "line": 139,
+          "line_end": 162,
+          "quote": "## Decision rule and claim ceiling\n\nThe experiment records two deliberately separate decisions:\n\n1. the formal topology score selects an invariant whole-form fallback only if\n   the support, non-acquisition support, margin, contradiction, directional,\n   unique-minimum, and folio-holdout gates pass;\n2. the practical renderer selects the lowest total of authored local fit plus\n   declared model-complexity cost.\n\nTies remain explicit. The composite operator is accepted only if every case is\ncovered once, no rule uses target prose or an assumed `ol` identity, and it\nimproves on every pure practical model after its complexity cost. Accordingly,\n`Ansatz-/Zubereitungsposten` is the invariant single-word fallback, while the\n5/2/8 contextual operator is the selected running-text renderer.\n\nThe result may select a replaceable occurrence-conditioned renderer and state\nthat `von`, `aus`, nominal head, separator and unit are not interchangeable.\nIt confirms no Voynich lexeme, word class, plaintext clause, language, cipher,\nsubstance, liquid, operation, EVA character value or productive component.\n\nThe independent validator completes 6,507 checks: eight source locks, separate\ncapacity/topology/dispatch/reader reconstruction, all decision invariants, and\na byte-identical replay of all 20 runner artifacts plus `REPORT.md`.",
+          "sha256": "d262f2a2336f3b3e7175957b037b27884d1586e5117097d579e1b2974aef2cb2"
+        }
+      ],
+      "reason": "No new dossier: exact source-case scope was already reviewed in clean_gap_peer_ef.json, including this card and the later calibration/transfer distinction. Reuse that specific receipt; do not claim that all41 dossiers duplicate this narrow branch.",
+      "initial_disposition_preserved": true
+    }
+  ],
+  "derived_from": [
+    {
+      "path": "research_registry/decisions/semantic_source_scope_review_gd.json",
+      "sha256": "188c2c809eeee7a4b2dbaaf67c53756bfa792061b21189837446be5cf442eb80"
+    },
+    {
+      "path": "research_registry/decisions/semantic_source_scope_peer_gd.json",
+      "sha256": "5e7fb8a9cd73d94a0c66696f9d10a07ed9c659080644d40f7b303df1089c781f"
+    },
+    {
+      "path": "research_registry/decisions/clean_gap_review_ge.json",
+      "sha256": "1df67943d2cec447d9b5ac640cf9d0180522df2713fefedab2dd14da3d972fe6"
+    },
+    {
+      "path": "research_registry/decisions/source_coverage_gap_batch_ge.json",
+      "sha256": "feb13f7799598539768bc7350654e3ebd142858e8b5010d049cb89249085558e"
+    },
+    {
+      "path": "research_registry/decisions/semantic_source_scope_peer_ge.json",
+      "sha256": "8a4b955dfa6688de0630fa2bc59d487eca532b18c4fe9e5657b8f9c6535e9697"
+    },
+    {
+      "path": "research_registry/decisions/semantic_failure_review_gc.json",
+      "sha256": "2790384dde14d37bf9522b134f9a166cecdcb41eb7c240268af173ce96eec2e1"
+    }
+  ],
+  "counts": {
+    "source_reassessments": 10,
+    "new_cards": 0,
+    "new_cases": 0,
+    "scope_corrections": 3,
+    "new_failure_dossiers": 0
+  }
+}

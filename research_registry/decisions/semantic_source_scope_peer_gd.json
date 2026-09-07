@@ -1,0 +1,167 @@
+{
+  "review_id": "SEMANTIC_SOURCE_SCOPE_PEER_GD",
+  "status": "APPROVE_ORA_SCOPE_RESTATEMENT_AND_TWO_RETAINS_WITH_GDT490_QUOTE_COMPLETION",
+  "input": {
+    "path": "research_registry/decisions/semantic_source_scope_review_gd.json",
+    "sha256": "188c2c809eeee7a4b2dbaaf67c53756bfa792061b21189837446be5cf442eb80"
+  },
+  "reviews": [
+    {
+      "target": "SEM:05ccb791cfc8e683ca31",
+      "decision": "APPROVE_SUBSTANCE_COMPLETE_EVIDENCE_BEFORE_APPEND",
+      "approved_action": "retain_no_op",
+      "card_basis": "6c07728d1c420328c72ce35b657a1b4b233433d12f35c84eea673ec93854e992",
+      "effective_basis": "b0727cd35e52e58cd6483f2aa3235dd9c459741a8952b0659a6fafa36509bd41",
+      "complete_case_ids": [
+        "CLEAN_COMPONENT:c79ce885cf0a5718fd4d"
+      ],
+      "reason": "Retain the invariant T+AL frame: the complete report calls Zielposition/Zielstation owner-local realizations of the same fixed component value. Selecting one complete station sentence as the card would narrow it incorrectly. Existing GDT416 phrase/reprojection matching is not independent confirmation of EINSTELLEN or ZIELORT.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt490_einstellen_observed_phrase_atlas/REPORT.md",
+          "line": 5,
+          "line_end": 26,
+          "quote": "## Ergebnis\n\nAlle elf T-seitigen GDT428-Rahmen treffen exakte GDT416-Klauseln. Die 30\nTräger liegen auf fünfzehn bereits zugelassenen Seiten, decken alle fünf\nRegister und neun Besitzerklassen ab und liefern 22 verschiedene deutsche\nSatzformen. Alle dreißig Rückprojektionen sind exakt.\n\nFür jeden Rahmen wurde eine bestehende Form als Default ausgewählt. Beispiele:\n\n- `T+AIIN = EINSTELLEN · WERT`: „Stelle den Arbeitswert ein.“;\n- `T+AIN = EINSTELLEN · ANTEIL`: „Stelle den Drogenanteil ein.“;\n- `T+AL = EINSTELLEN · ZIELORT`: „Stelle den Stationsposten [wie zuvor] ein;\n  zur Zielstation.“;\n- `T+OL = EINSTELLEN · FORTSETZEN`: „Weiter stelle den Pflanzenposten [wie\n  zuvor] ein.“;\n- `T+Y = EINSTELLEN · POSTEN`: „Stelle den Pflanzenposten ein.“;\n- `CH+T = NEHMEN · EINSTELLEN`: „Nimm den Arbeitswert [wie zuvor] und stelle\n  den Arbeitswert [wie zuvor] ein.“\n\nRegistervarianten bleiben als echte Alternativen sichtbar: WERT erscheint als\nArbeits-, Mengen- oder Stationswert; ANTEIL als Drogen- oder Stationsanteil;\nZIELORT als Zielposition oder Zielstation. Das sind owner-lokale deutsche",
+          "sha256": "4be58dc442befab958e5884f2d28f642a1bb1d97c89b18240e69a5892d390ae0"
+        },
+        {
+          "path": "experiments/yolo/gdt490_einstellen_observed_phrase_atlas/REPORT.md",
+          "line": 39,
+          "line_end": 44,
+          "quote": "Die lokale Abwesenheit bleibt bestehen; die übergreifende Satzkarte ist nun\nkonkret gefüllt.\n\nDer deterministische Validator besteht 89 von 89 Prüfungen. Elf Defaults und\n22 Varianten sind beobachtet, erfundene Phrasen: **0**. Keine Bedeutung,\nFormulierung, Modellfolge, Grenze, Oberfläche, Rezeptfolge, Event- oder",
+          "sha256": "4be58dc442befab958e5884f2d28f642a1bb1d97c89b18240e69a5892d390ae0"
+        }
+      ]
+    },
+    {
+      "target": "SEM:0837b387c460e6166a6b",
+      "decision": "APPROVE",
+      "approved_action": "retain_no_op",
+      "card_basis": "275e2f28f0f3ac0b023ab929c52968119363afd6c4c7a86fb2364ccdbf8bf53b",
+      "effective_basis": "69cf36ae035a777a444f5d75a9104b9832917bb44ada777465ff2dfc81fb8955",
+      "complete_case_ids": [
+        "LATE_SIDEQUEST:bc2ce11ee4186b8bb96f"
+      ],
+      "reason": "Retain the actual question-marked V60 R4 rival AUSWAHL? in the hardest-rival column against ANTEIL?. Its full case already preserves that status. The source explicitly forbids speaking visible parts separately and distinguishes a short whole-card default from local source expansion. Do not archive a real live rival or import its whole local clause.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/CANDIDATE_V60_R4_CHANCERY_CORRECTOR.md",
+          "line": 21,
+          "line_end": 38,
+          "quote": "## Revidiertes Kurzdeck\n\n| Karte | Quellklasse | V60-R4-Wert | härtester Rivale |\n|---|---|---|---|\n| AIIN | Parameter-Nomen | `MASS?` | `STANDARD?` |\n| OKY | Handlung | `ANWENDEN?` | `AUSFÜHREN?` |\n| CTHY | Zustand | `BEREIT?` | `FERTIG?` |\n| OR | Arbeitsstoff | `ANSATZ?` | `BEREITUNG?` |\n| AL | Relationsargument | `ZIEL?` | `STELLE?` |\n| EY | Zustand | `KLAR?` | `ENDE?` |\n| OLOR | Rückverweis | `VORIGES?` | `DARAUS?` |\n| OTCHEY | Auswahl-Nomen | `ANTEIL?` | `AUSWAHL?` |\n| OKEEY | Handlung | `TEMPERIEREN?` | `WARM?` |\n| OKE | terminale Handlung | `SPÜLEN?` | `DURCHGANG?` |\n| LCHE | terminale Handlung | `ABLASSEN?` | `AUSLAUF?` |\n\nDas Fragezeichen gehört zum Wert. Es verhindert, dass ein kreativer Default\nspäter als bestätigtes historisches Lexem zitiert wird.",
+          "sha256": "913bede9f275b266efdbceb6836c822a7248a13528ea1b07362521ddb725507b"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v60/CANDIDATE_V60_R4_CHANCERY_CORRECTOR.md",
+          "line": 60,
+          "line_end": 72,
+          "quote": "\nLerne diese elf Formen als unteilbare Karten. Sprich niemals sichtbare Teile\neinzeln aus. Setze pro Karte höchstens das kurze Tabellenwort ein; ergänze\nObjekt, Medium, Ziel, Horizont und Ergebnis erst aus Bild, Record und Exemplar.\nDamit wird etwa:\n\n```text\nQOKEEY  QOKEDY\nTEMPERIEREN?  SPÜLEN?\nlokal: Temperiere den aktiven Ansatz; spüle den bezeichneten Lauf und schließe.\n```\n\nDie dritte Zeile ist Quellenexpansion, nicht Wörterbuch.\n",
+          "sha256": "913bede9f275b266efdbceb6836c822a7248a13528ea1b07362521ddb725507b"
+        }
+      ]
+    },
+    {
+      "target": "SEM:0d93928a8c82a752282f",
+      "decision": "APPROVE",
+      "approved_action": "restate_scope",
+      "card_basis": "8e1969311aa908330e66128059c943f734e483863c9a5e6be516f4567b459fa0",
+      "effective_basis": "97f2d99ebceea5b192e19d5f371071da0382a60098d837c57625a9b07878a3c6",
+      "complete_case_ids": [
+        "REPORT_PROPOSAL:d2313df25c8423cd9ce7"
+      ],
+      "reason": "Approve same-ID scope restoration: the table says Kern in der Drogenklasse, the pass changes only the fixed learned-name layer, and the claim ceiling confines named cores to owner-defined classes. The ora value is a descriptive learned-core default, not a free word or species. Eiweiß is explicitly retained as an older rival, not empirically refuted. The replacement preserves the historical proposal without inventing any new organ identity or contemporary visual verification.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt585_learned_name_compound_atlas/REPORT.md",
+          "line": 25,
+          "line_end": 59,
+          "quote": "\n## Was gegenüber GDT582 besser wird\n\nGDT582 hatte absichtlich jedes Namensfeld gefüllt, aber seine Stoffpalette war\nweitgehend eine frei gewählte Apothekerliste. Dadurch konnten nebeneinander\nsichtbare Wurzelfragmente zufällig `Wasser`, `Wein`, `Essig`, `Bienenwachs`,\n`Eiweiß` oder `Eigelb` heißen. GDT585 setzt das Bild wieder vor diese Aliase.\n\nDie 38 pharmazeutischen Slots verteilen sich auf 29 Pflanzenfragment-, sieben\nGefäß- und zwei Grenzlabelpositionen. Entsprechend lauten die Primärwerte nun\nWurzel, Blatt/Kraut, Blütenstand, Wurzelstock, gelernte Mutterpflanze,\nWurzelvariante oder neutraler Arzneivorrat. Der alte Stoff bleibt in derselben\nZeile erhalten und kann jederzeit wieder Primärwert werden, wenn eine ganze\nPassage ihn besser trägt.\n\nEinige zentrale Umstellungen sind:\n\n| Kern in der Drogenklasse | neuer Primärdefault | sichtbarer alter Rivale |\n|---|---|---|\n| `d` | Wurzeldroge / Wurzel | Wasser |\n| `y` | Krautdroge | Wein |\n| `s` | Blattdroge | Salz |\n| `sy` | Blütenstand | Vitriol |\n| `oiin` | Wurzelstock | Myrrhe |\n| `e` | breitblättrige gelernte Mutterpflanze | Weihrauch |\n| `yt` | Blattteil | Salbeiblatt |\n| `em` | grauwurzelige gelernte Mutterpflanze | Raute/Rautenblatt |\n| `cheo` | dunkle Faserwurzeldroge | Essig |\n| `cheosdy` | gebänderte Faserwurzel derselben Familie | Eigelb |\n| `or` | helle Wurzeldroge | Olivenöl |\n| `ora` | mehrfingrige Blütenwurzel | Eiweiß |\n\nDiese Werte sind bewusst beschreibend. `mehrfingrige Blütenwurzel` ist keine\nArtbestimmung, und `Arzneivorrat` ist kein identifizierter Stoff. Der Gewinn ist\nnur, dass das Label jetzt zuerst zum sichtbaren Objekt passt.",
+          "sha256": "64c22c0d024fcde4abea03d857fa6db809264b340eaa02f098b7e3c1e8d36a1f"
+        },
+        {
+          "path": "experiments/yolo/gdt585_learned_name_compound_atlas/REPORT.md",
+          "line": 170,
+          "line_end": 175,
+          "quote": "Nicht vorliegt: eine Entzifferung, eine Artbestimmung, ein Stoffnachweis, eine\nbestätigte Kalenderfunktion oder ein historisches Codebuch. Vor allem sind\n`d=Wurzel`, `y=Kraut` und `s=Blatt` keine globalen Wortgleichungen; sie gelten\nnur in der festen ownerbestimmten Namensklasse dieses Experiments. `dy` und\nlängere Kerne bleiben Ganzkerne, solange kein eigener Kompositionstest eine\nTeilung trägt.",
+          "sha256": "64c22c0d024fcde4abea03d857fa6db809264b340eaa02f098b7e3c1e8d36a1f"
+        },
+        {
+          "path": "experiments/yolo/gdt585_learned_name_compound_atlas/REPORT.md",
+          "line": 186,
+          "line_end": 193,
+          "quote": "## Claim ceiling\n\nGDT585 ist die beste gegenwärtige explorative Arbeitstheorie für die schon\nabgegrenzte Namensschicht. Der Pass bestätigt kein Voynich-Wort, keinen\nKlartext, keine Sprache, keine botanische oder pharmazeutische Identität,\nkeinen Stern-/Kalenderwert und keine historische Codebuchgleichung. Er ändert\nkeine Seite, Oberfläche, Segmentierung, Event-ID, produktive Funktion oder\nGDT581/GDT584-Grammatik und liefert keinen Parser für ungesehene Formen.",
+          "sha256": "64c22c0d024fcde4abea03d857fa6db809264b340eaa02f098b7e3c1e8d36a1f"
+        }
+      ]
+    }
+  ],
+  "source_reassessments": [
+    {
+      "source_id": "LEGACY_COMPONENT:efde63de5b7c946eae61",
+      "decision": "APPROVE",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:05ccb791cfc8e683ca31"
+      ],
+      "full_selected_span_read": true,
+      "initial_disposition_preserved": true
+    },
+    {
+      "source_id": "LEGACY_PROPOSAL:438b6bc04424cd19ea45cbfa",
+      "decision": "APPROVE",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:0837b387c460e6166a6b"
+      ],
+      "full_selected_span_read": true,
+      "initial_disposition_preserved": true
+    },
+    {
+      "source_id": "LEGACY_PROPOSAL:7b068eb8a37c1ba5bce852a5",
+      "decision": "APPROVE",
+      "card_ids": [],
+      "counterpart_ids": [
+        "SEM:0d93928a8c82a752282f"
+      ],
+      "full_selected_span_read": true,
+      "initial_disposition_preserved": true
+    }
+  ],
+  "evidence_completion": {
+    "target": "SEM:05ccb791cfc8e683ca31",
+    "required_in_integration": true,
+    "reason": "Both GDT490 snippets stop mid-sentence exactly before the decisive completion: same fixed component value at27 and no changed page assignment at45. Byte equality passes, but full evidence should include the sentence endings.",
+    "replace_evidence": [
+      {
+        "path": "experiments/yolo/gdt490_einstellen_observed_phrase_atlas/REPORT.md",
+        "line": 5,
+        "line_end": 27,
+        "quote": "## Ergebnis\n\nAlle elf T-seitigen GDT428-Rahmen treffen exakte GDT416-Klauseln. Die 30\nTräger liegen auf fünfzehn bereits zugelassenen Seiten, decken alle fünf\nRegister und neun Besitzerklassen ab und liefern 22 verschiedene deutsche\nSatzformen. Alle dreißig Rückprojektionen sind exakt.\n\nFür jeden Rahmen wurde eine bestehende Form als Default ausgewählt. Beispiele:\n\n- `T+AIIN = EINSTELLEN · WERT`: „Stelle den Arbeitswert ein.“;\n- `T+AIN = EINSTELLEN · ANTEIL`: „Stelle den Drogenanteil ein.“;\n- `T+AL = EINSTELLEN · ZIELORT`: „Stelle den Stationsposten [wie zuvor] ein;\n  zur Zielstation.“;\n- `T+OL = EINSTELLEN · FORTSETZEN`: „Weiter stelle den Pflanzenposten [wie\n  zuvor] ein.“;\n- `T+Y = EINSTELLEN · POSTEN`: „Stelle den Pflanzenposten ein.“;\n- `CH+T = NEHMEN · EINSTELLEN`: „Nimm den Arbeitswert [wie zuvor] und stelle\n  den Arbeitswert [wie zuvor] ein.“\n\nRegistervarianten bleiben als echte Alternativen sichtbar: WERT erscheint als\nArbeits-, Mengen- oder Stationswert; ANTEIL als Drogen- oder Stationsanteil;\nZIELORT als Zielposition oder Zielstation. Das sind owner-lokale deutsche\nRealisierungen desselben festen Komponentenwerts.",
+        "sha256": "4be58dc442befab958e5884f2d28f642a1bb1d97c89b18240e69a5892d390ae0"
+      },
+      {
+        "path": "experiments/yolo/gdt490_einstellen_observed_phrase_atlas/REPORT.md",
+        "line": 39,
+        "line_end": 45,
+        "quote": "Die lokale Abwesenheit bleibt bestehen; die übergreifende Satzkarte ist nun\nkonkret gefüllt.\n\nDer deterministische Validator besteht 89 von 89 Prüfungen. Elf Defaults und\n22 Varianten sind beobachtet, erfundene Phrasen: **0**. Keine Bedeutung,\nFormulierung, Modellfolge, Grenze, Oberfläche, Rezeptfolge, Event- oder\nSeitenzuordnung ändert sich.",
+        "sha256": "4be58dc442befab958e5884f2d28f642a1bb1d97c89b18240e69a5892d390ae0"
+      }
+    ]
+  },
+  "validation": {
+    "current_bases": "PASS",
+    "complete_target_cases": 3,
+    "original_curated_records": 3,
+    "exact_input_quotes_sha_endpoints": "PASS",
+    "new_cards": 0,
+    "new_cases": 0,
+    "archives": 0
+  },
+  "limits": [
+    "No new word/species identification, image adjudication or semantic test.",
+    "Ora descriptive root default is source-class/owner-bound; historical Eiweiß remains a rival.",
+    "GDT490 current whole frame is distinct from a local German realization.",
+    "Only complete report490, complete V60 R4 and the GDT585 defining/limiting spans1–59 and155–193 were read; no raw events or whole GDT585 compound atlas audit."
+  ],
+  "operational_mutation": false
+}

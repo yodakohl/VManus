@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "decisions": [
+    {
+      "id": "CORRECTION_GD:0d93928a8c82a752282f:v1",
+      "target": "SEM:0d93928a8c82a752282f",
+      "previous_revision": null,
+      "action": "restate_scope",
+      "replacement": {
+        "claim": "Im GDT585-Atlas wird der gelernte Kern ora nur innerhalb der festen ownerbestimmten Drogen-Namensklasse beschreibend als mehrfingrige Blütenwurzel angesetzt. Eiweiß bleibt der sichtbare ältere Rivale. Dies ist weder eine allgemeine Wortgleichung noch eine Artbestimmung oder unabhängig bestätigte Stofflesung.",
+        "claim_type": "lexical_hypothesis"
+      },
+      "reason": "The GDT585 table is explicitly Kern in der Drogenklasse, its result changes only fixed learned-name slots, and its concluding scope denies global word equations. The current bare ora→mehrfingrige Blütenwurzel omits the owner/class licensing condition and can misstate a universal word meaning. Restore that condition and the retained old Eiweiß rival under the same ID; the author explicitly denies species identification and independently confirmed vocabulary.",
+      "target_basis_sha256": "8e1969311aa908330e66128059c943f734e483863c9a5e6be516f4567b459fa0",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt585_learned_name_compound_atlas/REPORT.md",
+          "line": 25,
+          "line_end": 59,
+          "quote": "\n## Was gegenüber GDT582 besser wird\n\nGDT582 hatte absichtlich jedes Namensfeld gefüllt, aber seine Stoffpalette war\nweitgehend eine frei gewählte Apothekerliste. Dadurch konnten nebeneinander\nsichtbare Wurzelfragmente zufällig `Wasser`, `Wein`, `Essig`, `Bienenwachs`,\n`Eiweiß` oder `Eigelb` heißen. GDT585 setzt das Bild wieder vor diese Aliase.\n\nDie 38 pharmazeutischen Slots verteilen sich auf 29 Pflanzenfragment-, sieben\nGefäß- und zwei Grenzlabelpositionen. Entsprechend lauten die Primärwerte nun\nWurzel, Blatt/Kraut, Blütenstand, Wurzelstock, gelernte Mutterpflanze,\nWurzelvariante oder neutraler Arzneivorrat. Der alte Stoff bleibt in derselben\nZeile erhalten und kann jederzeit wieder Primärwert werden, wenn eine ganze\nPassage ihn besser trägt.\n\nEinige zentrale Umstellungen sind:\n\n| Kern in der Drogenklasse | neuer Primärdefault | sichtbarer alter Rivale |\n|---|---|---|\n| `d` | Wurzeldroge / Wurzel | Wasser |\n| `y` | Krautdroge | Wein |\n| `s` | Blattdroge | Salz |\n| `sy` | Blütenstand | Vitriol |\n| `oiin` | Wurzelstock | Myrrhe |\n| `e` | breitblättrige gelernte Mutterpflanze | Weihrauch |\n| `yt` | Blattteil | Salbeiblatt |\n| `em` | grauwurzelige gelernte Mutterpflanze | Raute/Rautenblatt |\n| `cheo` | dunkle Faserwurzeldroge | Essig |\n| `cheosdy` | gebänderte Faserwurzel derselben Familie | Eigelb |\n| `or` | helle Wurzeldroge | Olivenöl |\n| `ora` | mehrfingrige Blütenwurzel | Eiweiß |\n\nDiese Werte sind bewusst beschreibend. `mehrfingrige Blütenwurzel` ist keine\nArtbestimmung, und `Arzneivorrat` ist kein identifizierter Stoff. Der Gewinn ist\nnur, dass das Label jetzt zuerst zum sichtbaren Objekt passt.",
+          "sha256": "64c22c0d024fcde4abea03d857fa6db809264b340eaa02f098b7e3c1e8d36a1f"
+        },
+        {
+          "path": "experiments/yolo/gdt585_learned_name_compound_atlas/REPORT.md",
+          "line": 170,
+          "line_end": 175,
+          "quote": "Nicht vorliegt: eine Entzifferung, eine Artbestimmung, ein Stoffnachweis, eine\nbestätigte Kalenderfunktion oder ein historisches Codebuch. Vor allem sind\n`d=Wurzel`, `y=Kraut` und `s=Blatt` keine globalen Wortgleichungen; sie gelten\nnur in der festen ownerbestimmten Namensklasse dieses Experiments. `dy` und\nlängere Kerne bleiben Ganzkerne, solange kein eigener Kompositionstest eine\nTeilung trägt.",
+          "sha256": "64c22c0d024fcde4abea03d857fa6db809264b340eaa02f098b7e3c1e8d36a1f"
+        },
+        {
+          "path": "experiments/yolo/gdt585_learned_name_compound_atlas/REPORT.md",
+          "line": 186,
+          "line_end": 193,
+          "quote": "## Claim ceiling\n\nGDT585 ist die beste gegenwärtige explorative Arbeitstheorie für die schon\nabgegrenzte Namensschicht. Der Pass bestätigt kein Voynich-Wort, keinen\nKlartext, keine Sprache, keine botanische oder pharmazeutische Identität,\nkeinen Stern-/Kalenderwert und keine historische Codebuchgleichung. Er ändert\nkeine Seite, Oberfläche, Segmentierung, Event-ID, produktive Funktion oder\nGDT581/GDT584-Grammatik und liefert keinen Parser für ungesehene Formen.",
+          "sha256": "64c22c0d024fcde4abea03d857fa6db809264b340eaa02f098b7e3c1e8d36a1f"
+        }
+      ],
+      "reviewer": "root after GD producer and independent whole-case peer"
+    },
+    {
+      "id": "CORRECTION_GE:a0527b64d6a86c83569b:v1",
+      "target": "SEM:a0527b64d6a86c83569b",
+      "previous_revision": null,
+      "action": "restate_scope",
+      "replacement": {
+        "claim": "GDT009's PRS-1 procedural reference-state model proposes compact technical assertions about page-local referents: a line opens or continues a record, selects an item/value frame, states an association or operation, adds grade/configuration, and optionally closes the result; labels are compressed records, not necessarily names. Its provisional mnemonic contract assigns q=current record/frame, t=new record, d=set/apply or active rendering, s=describe/state rendering, o/ot=item/local frame, che=explicit value/reference follows, AR=association/operation link, OL=referent/item field, AI/AII and TE/TEE=reduced/expanded grade, DAL/DAR=configuration A/B, SY=secondary/exception status, and DY=closed/default/resolved result. No numeric grade or spatial polarity is assigned; d/s and DAL/DAR polarity and TE/TEE segmentation are explicitly invented or uncertain. These are functional hypotheses, not dictionary translations or confirmed morphemes. The source rejects its earlier literal water/flow and source/destination/upper readings while keeping the pure-template null as a strong rival; its post-hoc preference is not semantic identification.",
+        "claim_type": "semantic_model"
+      },
+      "reason": "The current case identifies the unique PRS-1 model, but its evidence skips the fenced concrete mnemonic contract. Complete that existing named model under its ID, preserving its explicit invented polarity, no-number and pure-template-rival limits. Do not create one extra card per mnemonic or another whole PRS-1 model. GDT236 multiplicity is explicit in the peer-approved grammar.",
+      "target_basis_sha256": "a75dde220648cd33d495fe90b234ec39a277b383196ceff4de372b5432511679",
+      "evidence": [
+        {
+          "path": "GDT009_SEMANTIC_BOOTSTRAP_REPORT.md",
+          "line": 5,
+          "line_end": 25,
+          "quote": "## Best current meaning theory\n\nVoynich lines most plausibly behave as **compact technical assertions about\npage-local referents**.  A line opens or continues a record, selects an item or\nvalue frame, states an association/operation, adds a grade or configuration,\nand optionally closes the result.  Labels are compressed one-field or\nmulti-field records, not necessarily names.  This is the semantic layer of the\nHPR-1 renderer.\n\nIn deliberately concrete mnemonic English:\n\n```text\nq    under the current record/frame       t    start a new record\nd    set/apply or active rendering        s    describe/state rendering\no/ot item/local frame                     che  an explicit value/reference follows\nAR   association or operation link        OL   the referent/item field\nAI/AII, TE/TEE  reduced/expanded grade    DAL/DAR configuration A/B\nSY   secondary or exception status        DY   closed/default/resolved result\n```\n\nThese are provisional functional readings, not dictionary translations.",
+          "sha256": "6b5d0f65380395ca19407b8f3979f5410b65c1303ba46b8599a4e227aca0485e"
+        },
+        {
+          "path": "GDT009_SEMANTIC_BOOTSTRAP_REPORT.md",
+          "line": 47,
+          "line_end": 59,
+          "quote": "- **q** is an outer dependency/current-frame instruction: not “a word”, but\n  “interpret the enclosed field under the active record.”\n- **d/s/t** select record mode.  `t` starts; `d` and `s` continue.  The working\n  polarity is active/set versus descriptive/state, but it may reverse.\n- **che** is the best candidate for an explicit value/assignment carrier.\n- **AR** is an association/operation link and **OL** a referent/item field.\n  `AROL` therefore means roughly *associated item / relation-to-referent*, not\n  water, flow, woman, or plant.\n- **AI/AII** and **TE/TEE** are reduced/expanded grades.  No number is assigned.\n- **DAL/DAR** are alternative result configurations.  No left/right,\n  source/destination, or upper/lower assignment survives yet.\n- **SY** marks a secondary/exception state; **DY** is the default resolved or\n  closed result.",
+          "sha256": "6b5d0f65380395ca19407b8f3979f5410b65c1303ba46b8599a4e227aca0485e"
+        },
+        {
+          "path": "GDT009_SEMANTIC_BOOTSTRAP_REPORT.md",
+          "line": 88,
+          "line_end": 101,
+          "quote": "## Counterexamples that shaped the theory\n\n`AROL = water/flow`, `DAR = water`, `d/s = source/destination`, and\n`DAL = upper` are rejected.  q and DY are not confirmed morphemes because the\nnested algebra does not outperform string baselines.  The theory instead\nassigns abstract record functions, where cross-object reuse is expected.\n\n## What remains awkward\n\nThe pure-template source model is still a formidable alternative and compresses\nbetter.  No core referent is securely named.  d/s polarity, DAL/DAR polarity,\nand TE/TEE segmentation are invented.  Several strongest visual clues are\npage-confounded.  PRS-1 is therefore a theory to generate sharper observations,\nnot a decoded paragraph.",
+          "sha256": "6b5d0f65380395ca19407b8f3979f5410b65c1303ba46b8599a4e227aca0485e"
+        },
+        {
+          "path": "GDT009_SEMANTIC_BOOTSTRAP_REPORT.md",
+          "line": 114,
+          "line_end": 123,
+          "quote": "The best current concrete meaning theory is **PRS-1**: a procedural\nreference-state register.  The manuscript is not merely a list of names and\nnot ordinary visible prose.  It records page-local items through reusable\nassociation, grade, configuration, status, and closure fields, rendered with\nscope/mode operators and aggressive abbreviation.  That theory explains more\nobservations at once than a literal flow vocabulary, object nomenclature, or\npure quantified catalogue, while remaining explicitly vulnerable to the pure\ntemplate null.\n\nf84r remains sealed.  No language, sound, plaintext, or translation is claimed.",
+          "sha256": "6b5d0f65380395ca19407b8f3979f5410b65c1303ba46b8599a4e227aca0485e"
+        }
+      ],
+      "reviewer": "root after GE producer and independent full-model peer"
+    },
+    {
+      "id": "CORRECTION_GE:006c827e026adaba15b4:v1",
+      "target": "SEM:006c827e026adaba15b4",
+      "previous_revision": null,
+      "action": "restate_scope",
+      "replacement": {
+        "claim": "GDT236's hybrid page-conditioned technical record compiler proposes the following ordered grammar: a PAGE contains PAGE_PROFILE, REGISTER_INVENTORY, and one or more RECORDs; each RECORD contains an optional ENTRY_STATE, one or more FIELDs, and an optional PHYSICAL_CLOSE; each FIELD contains an optional WRAPPER, an optional FRAME, mandatory OPAQUE_CONTENT, an optional RIGHT_RENDERER, and an optional CHECKPOINT; a GRAPHICAL_LABEL contains an optional TRANSFERRED_LABEL_PREFIX and mandatory OPAQUE_REGISTER_RESIDUAL. The opaque content may be lexical, abbreviated, code-like or distributed across the tuple; the source does not choose among them and does not identify a frequent exact host or stripped label residual as a portable object word. This is a historical generator architecture with an unresolved content channel, not a recovered dictionary: its active generator has zero semantic source-unit assignments after withdrawal of the older four-quality decoder. That withdrawal does not refute every possible realization of the opaque content.",
+        "claim_type": "semantic_model"
+      },
+      "reason": "The current case identifies the unique hybrid page-conditioned technical record compiler, but its evidence omits the fenced four-level grammar. Complete that same named architecture and its unresolved-content boundary under the existing ID. Zero active semantic assignments and older decoder withdrawal are historical limits, not proof that every possible opaque-content interpretation is false. GDT236 multiplicity is explicit in the peer-approved grammar.",
+      "target_basis_sha256": "793c0189b5f1fbd549af1405c3a8d154e1329d986d2f7772dc796ed6aa81428f",
+      "evidence": [
+        {
+          "path": "GDT236_TRANSLATION_FRONTIER_REPORT.md",
+          "line": 3,
+          "line_end": 20,
+          "quote": "## Leading theory\n\nThe best current generator is a **hybrid page-conditioned technical record\ncompiler**.  It is more specific than “abbreviated language,” but less specific\nthan a decipherment:\n\n```text\nPAGE := PAGE_PROFILE + REGISTER_INVENTORY + RECORD+\nRECORD := ENTRY_STATE? + FIELD+ + PHYSICAL_CLOSE?\nFIELD := WRAPPER? + FRAME? + OPAQUE_CONTENT + RIGHT_RENDERER? + CHECKPOINT?\nGRAPHICAL_LABEL := TRANSFERRED_LABEL_PREFIX? + OPAQUE_REGISTER_RESIDUAL\n```\n\nThe opaque content component may eventually prove lexical, abbreviated,\ncode-like, or distributed across the tuple.  Current diagnostics cannot choose\namong those realizations.  What they do reject is the easy reading in which a\nfrequent exact PAGE_HOST or a stripped label residual is already a portable\nobject word.",
+          "sha256": "592f6563ad48823bc373d94b6d39ddab85a4f6ba4e0b70b3f5ce3ca39335d0a3"
+        },
+        {
+          "path": "GDT236_TRANSLATION_FRONTIER_REPORT.md",
+          "line": 42,
+          "line_end": 49,
+          "quote": "## Correction to the older executable theory\n\nGDT181's f57/f77 four-quality decoder is no longer an executable semantic\nfragment.  GDT182 showed that its fit is not above the searched feature\nmultiplicity; GDT184 removed the four-element interpretation of f57 R2; GDT185\nrejected the direct 17-position bridge.  The page-local pattern remains a\ndescriptive candidate, but the active generator now contains **zero semantic\nsource-unit assignments**.",
+          "sha256": "592f6563ad48823bc373d94b6d39ddab85a4f6ba4e0b70b3f5ce3ca39335d0a3"
+        }
+      ],
+      "reviewer": "root after GE producer and independent full-model peer"
+    }
+  ],
+  "derived_from": [
+    {
+      "path": "research_registry/decisions/semantic_source_scope_review_gd.json",
+      "sha256": "188c2c809eeee7a4b2dbaaf67c53756bfa792061b21189837446be5cf442eb80"
+    },
+    {
+      "path": "research_registry/decisions/semantic_source_scope_peer_gd.json",
+      "sha256": "5e7fb8a9cd73d94a0c66696f9d10a07ed9c659080644d40f7b303df1089c781f"
+    },
+    {
+      "path": "research_registry/decisions/clean_gap_review_ge.json",
+      "sha256": "1df67943d2cec447d9b5ac640cf9d0180522df2713fefedab2dd14da3d972fe6"
+    },
+    {
+      "path": "research_registry/decisions/source_coverage_gap_batch_ge.json",
+      "sha256": "feb13f7799598539768bc7350654e3ebd142858e8b5010d049cb89249085558e"
+    },
+    {
+      "path": "research_registry/decisions/semantic_source_scope_peer_ge.json",
+      "sha256": "8a4b955dfa6688de0630fa2bc59d487eca532b18c4fe9e5657b8f9c6535e9697"
+    },
+    {
+      "path": "research_registry/decisions/semantic_failure_review_gc.json",
+      "sha256": "2790384dde14d37bf9522b134f9a166cecdcb41eb7c240268af173ce96eec2e1"
+    }
+  ],
+  "root_fixes": [
+    "GDT490 complete5–27 and39–45 sentences",
+    "GDT236 one or more RECORDs/FIELDs; all optional fields retained"
+  ],
+  "new_cards": 0
+}

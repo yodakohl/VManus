@@ -14,7 +14,7 @@ They remain in the source archive. No hypothesis becomes executable by inclusion
 | Reviewed source cases, including the correction archive | 4,639 |
 | Archived source-extraction errors | 44 |
 | Exact normalized assertion repetitions grouped | 477 |
-| Reviewed equivalence groups / display reduction | 51 / 60 |
+| Reviewed equivalence groups / display reduction | 52 / 61 |
 | Public semantic display entries | 3,793 |
 
 These are different units, not a deduplicated total of independent theories.
@@ -55,14 +55,14 @@ paragraph does not automatically make every subclaim independently addressable;
 an atomic gloss does not cover a complete multi-card model.
 
 Whitespace and backtick typography alone are normalized for exact assertions.
-Explicit equivalence decisions add51 groups without deleting any original ID.
+Explicit equivalence decisions add52 groups without deleting any original ID.
 The identity log also retains seven related-but-distinct links,31 rival links and
 three specializations. Conflicting nonidentity blocks transitive merging; changed
 claim or case bindings require a new review. Shared spelling, shortened wording
 or a matching source title alone proves neither identity nor nonidentity.
 
 Before selecting another identity comparison, consult `IDENTITY_REVIEW_INPUTS.json`
-and the current operative identity log. The manifest records forty-eight hashed review
+and the current operative identity log. The manifest records fifty hashed review
 inputs, including earlier proposal and peer formats missed by the narrower DO
 selection list. It is a bounded coverage receipt, not an automatic pair verdict.
 Update it when new identity reviews are added; distinguish an old recommendation
@@ -81,7 +81,7 @@ source/case counts belong to that representative; `group_scope_cases` counts all
 member cases. Open `--field equivalents` or `--field relations` for the others.
 No failure, success or execution permission propagates across an identity link.
 
-The append-only correction log currently archives44 erroneous exports and restates206
+The append-only correction log currently archives44 erroneous exports and restates209
 source assertions. Every original claim, case and quote remains retrievable,
 including via `--show ID` for archived cards. Numeric columns, alias-column
 misparses, unlicensed constituent exports and metadata are extraction errors;
@@ -129,12 +129,13 @@ quality construction) and L (productive only before CHED), and preserves CHAR
 THEN as a considered but criticized V18 rival. VAL-B warm remains an actual
 historical wager despite the absence of independent comparator binding.
 
-FY completes the existing V9 categorical-value model and V11 ordinary-content
-rival without naming their unknown values. Recurrence and position can constrain
-models without distinguishing topic, anaphora and ordinary content. GF records
-four selected source audits without adding cards or duplicate cases. FZ retains
-two explicitly different Astro reading-value expressions as related claims;
-the added current-entry qualification is not an independently translated Y.
+GB links two complete V9 model cases after explicit review of the FY correction;
+original cases and rivals stay separate from the display representative. GD
+restores ora's owner-bound name-class scope. GE completes the historical PRS-1
+and GDT236 models, retaining invented polarity, anonymous content and exact
+optional/repeated grammar fields. GG exposes ten source assessments, including
+GC's distinction between computed structure and assumed numerical/renderer
+meanings; no additional failure dossier or model card follows from these audits.
 A073/A004 mappings remain available but uninspected, not missing data.
 
 Before adding a fuller model card, check whether an existing short card already
