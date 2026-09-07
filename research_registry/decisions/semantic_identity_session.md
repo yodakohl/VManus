@@ -565,3 +565,9 @@ PASS after restoring hash-bound README/WORKFLOW.4119active3854semantic265formal,
 215restatements and55identity inputs. GQv2 is a proof-description correction,
 not another relation. Public3793 plus95local=3888. V69 scope hold remains
 explicit and is not counted as an idea; source remains available.
+
+Final-audit dispatch correction: root initially used send_message on completed agents, which queued instructions without triggering work. The status check exposed the mistake; followup_task explicitly restarted GY peer, GZ count audit and HA coverage audit. Several minutes were lost and the prior progress description of running audits was premature. Use followup_task for completed agents; send_message only steers an already-running task. No unfinished audit was accepted as a PASS.
+
+GY closes the GW V69 new-model counting hold after complete counterpart comparison: implementation source receipt only, no new card/case or full equivalence. Current model-specific details remain in the audited source rather than a placeholder or another nominally independent idea. Root checked31 exact quote records at28 distinct locations; current source and effective card bindings pass.
+
+GY/GZ/HA publication validation: source preservation, concrete cards, broad inventory, current operative bindings and registry freshness PASS. Counts remain4119active/3854semantic/265formal/4640cases;5098metadata records and4150ledger events afterGY. IndependentGZ confirms775newcases and unchanged3865baseline payloads. HA measures55direct semantic dossier targets and27priority targets (23shared), not a blanket scientific assessment of3854cards.

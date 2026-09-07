@@ -95,7 +95,10 @@ Forty-two scoped question dossiers distinguish empirical failure, invalid test,
 insufficient capacity, missing meaning binding, proposal-only status and historical
 model revision. They appear before inherited experiment context under assessments.
 They state the actual compared subclaim, primary evidence, scope and changed-input
-requirements. An editorial wording preference is not an empirical falsifier.
+requirements. The current42 dossiers directly target55 semantic cards. The nine
+priorities directly target27, with23 shared targets;3,795 semantic cards have no
+direct target binding in these two lists. This is a coverage limit, not an
+automatic scientific verdict on those cards (see decisions/semantic_scoped_assessment_coverage_ha.json). An editorial wording preference is not an empirical falsifier.
 Original conditional predictions remain distinct from observed counterexamples;
 reviewer-supplied reopening conditions are prospective, not old preregistrations.
 Only the latest linked revision acts; all older decisions remain in the log.
@@ -125,13 +128,14 @@ Later full-scope reviews and audit-only source comparisons live in the bounded
 source-case payload. Quote overlap alone never certifies complete review.
 
 GW recovers V26's full local-operation/major-step/open-state hierarchy as one
-historical construction hypothesis. V69's exemplar implementation remains held
-against existing complete production models: its source is available, but a new
-model identity is not established. Both are first reviews of actual unresolved
-source blocks; their LEGACY_COMPONENT prefix does not make them part of the
-3,788 extracted component assertions. GX's apparent endpoint errors were a
-newline-counting convention; three exact selected spans include a final blank
-line. No mass source correction or semantic regrading follows.
+historical construction hypothesis. GY resolves the V69 counting hold: its concrete
+exemplar implementation adds no separate semantic mechanism beyond the existing
+complete models. Its source receipt retains the implementation details without
+asserting full equivalence or adding a duplicate card. GW's two initial reviews
+concern actual unresolved source blocks, despite their LEGACY_COMPONENT prefix;
+they are distinct from the3,788 extracted component assertions. GX's apparent
+endpoint errors were a newline-counting convention; three exact selected spans
+include a final blank line. No mass correction or semantic regrading follows.
 A073/A004 mappings remain available but uninspected, not missing data.
 
 Before adding a fuller model card, check whether an existing short card already

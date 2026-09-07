@@ -1,0 +1,61 @@
+{
+  "review_id": "CLEAN_GAP_REVIEW_GY_INTEGRATED",
+  "cards": [],
+  "dispositions": [],
+  "source_reassessments": [
+    {
+      "source_id": "LEGACY_COMPONENT:093a8919edf940228be9",
+      "decision": "existing_proposition_source_audit_only",
+      "counterpart_ids": [
+        "SEM:c557b9f3cd8b79671468",
+        "SEM:cd84a697e19a56c0527f"
+      ],
+      "card_ids": [],
+      "new_card_ids": [],
+      "full_selected_span_read": true,
+      "reason": "GY resolves the concrete GW counterpart hold: retain V69 implementation details in source memory, do not create the GW named model as an additional independent semantic idea; do not assert automatic full equivalence or attach a new case.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v69/V69_R4_FINAL_SECOND_EDITION_REPORT.md",
+          "line": 5,
+          "line_end": 25,
+          "quote": "## Endmodell\n\n```text\nDOMAIN_NEUTRAL_EXEMPLAR_CARD_REGISTER\n\ngewöhnliche Fachquelle\n  -> Bild-/Registerellipse\n  -> 4 recordlokale Register\n  -> 14 exakte Control-Karten\n  -> 159 lokale opake Prosa-Ganzkartentypen\n  -> Felder, Reflow, Renderer\n\nAstro: drei getrennte seitenlokale Diagrammnamespaces\n```\n\nDieses Modell ist für eine kleine Werkstatt um 1420 lehrbar, sofern\nMasterexemplar, Codeblatt und Rendererbeispiele vorhanden sind. Es ist nicht\nselbstbeschreibend: Die formale Seite kann mit den Hilfsmitteln 776/776\nreproduziert werden; die vollständige konkrete Quellintention ist ohne\nMasterexemplar 0/776 rücklesbar.\n",
+          "sha256": "dbc2a8b682d4e73ea7922b6397ce9e55853b6434577788e51d455302f114b4c6"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v69/V69_R4_FINAL_SECOND_EDITION_REPORT.md",
+          "line": 45,
+          "line_end": 56,
+          "quote": "Die übrigen 159 Kartentypen sind `UNKNOWN_EXEMPLAR_WHOLE_CARD`. Die 14\nControl-Karten erkennen 119/381 Prosaereignisse; 262 Ereignisse bleiben lokale\nExemplarkarten. Kein Kartenstück, PAGE_HOST, sichtbarer Stamm oder Wrapper\nerhält einen Inhaltswert.\n\n## Syntax und Speicher\n\n116 Quellenstatements laufen über 135 Felder und 57 physische Loci. Die Felder\nsind 14 `UNIQUE`, 56 `AMBIGUOUS`, 65 `UNPARSED`; die Aussagen 12/49/55.\nPhysische Zeilen sind Reflow. Vier Register — OWNER, ACTIVE, TARGET, PREVIOUS —\nresetten an jedem Record und sind für die gewählte Edition minimal. `CLOSE`\nbeendet ein Feld, nicht notwendig einen Satz.",
+          "sha256": "dbc2a8b682d4e73ea7922b6397ce9e55853b6434577788e51d455302f114b4c6"
+        }
+      ],
+      "original_decision": "existing_semantic_mechanism_scoped_implementation_source_audit_only",
+      "previous_review": {
+        "path": "research_registry/decisions/clean_gap_review_gw_integrated.json",
+        "sha256": "d446ccebbf7af66e3e5c2298676ca476c4247bf67e047f49ce5f179486bcd489"
+      },
+      "limits": "No full model equivalence, case attachment or implementation commitment is propagated to the earlier cards."
+    }
+  ],
+  "derived_from": [
+    {
+      "path": "research_registry/decisions/semantic_source_scope_followup_gy.json",
+      "sha256": "0534fa2fd5cfd8fb06a4b3a3424d30d110a525d9a0e870e03f3720681310dd1e"
+    },
+    {
+      "path": "research_registry/decisions/semantic_source_scope_followup_peer_gy.json",
+      "sha256": "7b5c646e8de2a99b26bd78d0359a149152639fb8c5bc968f0b15117933cf4533"
+    }
+  ],
+  "counts": {
+    "source_reassessments": 1,
+    "new_cards": 0,
+    "new_cases": 0,
+    "identity_relations": 0
+  },
+  "limits": [
+    "Closes the concrete GW new-model counting hold. Exact implementation identity remains unestablished and unnecessary for this source-only disposition.",
+    "The initial GW hold and producer proposal remain unchanged."
+  ]
+}

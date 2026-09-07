@@ -1,0 +1,194 @@
+{
+  "review_id": "SEMANTIC_SESSION_FINAL_COUNT_AUDIT_GZ",
+  "status": "PASS_SNAPSHOT_COUNTS",
+  "as_of_utc": "2026-09-07T02:29:56.570439+00:00",
+  "baseline": {
+    "requested_revision": "401928ab^",
+    "resolved_commit": "3e9b8336e6cb3e92a4600372442ba742e1ff0faa",
+    "active_cards": 3412,
+    "semantic_cards": 3013,
+    "formal_cards": 399,
+    "source_cases": 3865,
+    "exact_repetitions": 453,
+    "manifest_sha256": "ec3a8578f44979f8c1ebb62b7979f778bcefbc7995a1732c183691110485a246",
+    "operative_logs": {
+      "correction_rows": 0,
+      "correction_actions": {},
+      "current_archives": 0,
+      "identity_rows": 0,
+      "scoped_question_log_rows": 0,
+      "scoped_question_keys": 0,
+      "missing_files_at_baseline": [
+        "research_registry/semantic_claim_corrections.jsonl",
+        "research_registry/semantic_identity_decisions.jsonl",
+        "research_registry/semantic_failure_decisions.jsonl",
+        "research_registry/semantic_ideas_excluded.jsonl"
+      ]
+    },
+    "equivalence_groups": 0,
+    "display_reduction": 0
+  },
+  "current": {
+    "active_cards": 4119,
+    "semantic_cards": 3854,
+    "formal_cards": 265,
+    "current_archived_cards": 44,
+    "all_source_cases": 4640,
+    "active_source_cases": 4596,
+    "archived_source_cases": 44,
+    "exact_repetitions": 477
+  },
+  "delta": {
+    "active_cards": 707,
+    "semantic_cards": 841,
+    "formal_cards": -134,
+    "new_original_card_ids": 751,
+    "new_original_card_types": {
+      "semantic_model": 215,
+      "functional_hypothesis": 256,
+      "lexical_hypothesis": 262,
+      "formal_role": 18
+    },
+    "new_current_semantic_ids": 732,
+    "new_current_formal_ids": 19,
+    "baseline_ids_now_archived": 44,
+    "baseline_semantic_ids_now_archived": 35,
+    "shared_active_type_transitions": [
+      {
+        "before": "formal_role",
+        "after": "functional_hypothesis",
+        "cards": 114
+      },
+      {
+        "before": "formal_role",
+        "after": "lexical_hypothesis",
+        "cards": 39
+      },
+      {
+        "before": "lexical_hypothesis",
+        "after": "formal_role",
+        "cards": 10
+      },
+      {
+        "before": "lexical_hypothesis",
+        "after": "functional_hypothesis",
+        "cards": 9
+      },
+      {
+        "before": "lexical_hypothesis",
+        "after": "semantic_model",
+        "cards": 1
+      },
+      {
+        "before": "formal_role",
+        "after": "semantic_model",
+        "cards": 1
+      }
+    ],
+    "new_source_case_ids": 775,
+    "missing_baseline_case_ids": [],
+    "baseline_case_payload_changes": 0,
+    "additional_exact_repetition_groupings": 24,
+    "scope_restatement_actions": 215,
+    "archive_actions": 66,
+    "current_archives": 44,
+    "equivalence_groups": 52,
+    "identity_display_reduction": 61,
+    "scoped_question_keys": 42,
+    "dossier_log_revisions": 43
+  },
+  "corrections": {
+    "log_rows": 295,
+    "actions": {
+      "archive_source_error": 66,
+      "restate_scope": 215,
+      "retain_as_hypothesis": 14
+    },
+    "latest_target_actions": {
+      "archive_source_error": 44,
+      "restate_scope": 215,
+      "retain_as_hypothesis": 14
+    },
+    "current_archives": 44
+  },
+  "identities": {
+    "equivalence_groups": 52,
+    "display_reduction": 61,
+    "semantic_display_reduction": 61,
+    "public_semantic_display": 3793,
+    "raw_log_rows": 95,
+    "latest_decision_keys": 94,
+    "actions": {
+      "equivalent_proposition": 52,
+      "related_not_equivalent": 7,
+      "alternative_to": 31,
+      "specializes": 5
+    },
+    "latest_relation_types": {
+      "equivalent_proposition": 52,
+      "related_not_equivalent": 7,
+      "alternative_to": 31,
+      "specializes": 4
+    },
+    "revision_note": "Five raw specializes rows represent four latest specialization decisions; GQv2 revises one decision, not a fifth independent relation."
+  },
+  "failures": {
+    "log_revisions": 43,
+    "current_scoped_questions": 42
+  },
+  "snapshot_hashes": {
+    "research_registry/semantic_ideas.jsonl": "e645f490023cb188f2039cfe965bf315b58f9ffb64c626804c6ff6af8ea5167a",
+    "research_registry/semantic_ideas_excluded.jsonl": "88b913fe4183b4bcf8cc01387324991c894544856ed62adebb79e6b78270e3fc",
+    "research_registry/semantic_claim_corrections.jsonl": "ce3208ea0a25ae9b13250ebda71c3d81585f20b68d114d7da1f6c35257eea784",
+    "research_registry/semantic_identity_decisions.jsonl": "1ba8f2f2e63eea7338625696ed2a9e354137c6f303dcaf9f4136819f6fb89052",
+    "research_registry/semantic_failure_decisions.jsonl": "af9f2ad3a1dec30393cb3f06a6488d56fe07f1643db5cc87d72c7ee6fdddfc9c",
+    "research_registry/SEMANTIC_IDEAS_MANIFEST.json": "3fff57c4e0f907e160ea273357d8009ee1fa7d8248dd6be19bc9d760be5b4849",
+    "research_registry/IDENTITY_REVIEW_INPUTS.json": "41798657291c4d44eee837978d4985526a894492968390d93e265e46c457dc5b",
+    "research_registry/SEMANTIC_IDEAS.md": "ba83e82238639bd998bef16158a2e5bef3e258f7e462d0add9090163bf41e1d7"
+  },
+  "freshness": {
+    "pass_": true,
+    "error": null
+  },
+  "limits": [
+    "A snapshot comparison, not an independently adjudicated number of distinct ideas or decipherment successes.",
+    "New source cases, new card IDs, reclassification, archives and display equivalence use different units.",
+    "Later publication/builds can change these counts; compare the recorded file hashes before reuse.",
+    "Ignored local overlay is excluded from public card/case counts."
+  ],
+  "source_member_ids": {
+    "baseline": 3115,
+    "current": 3616,
+    "new": 501,
+    "missing": 0,
+    "unit": "source identifiers, distinct from775 additional case payloads"
+  },
+  "arithmetic_checks": {
+    "active": "751 new original IDs minus44 currently archived baseline IDs =707 additional active cards",
+    "semantic": "732 new active semantic IDs +154 baseline formal-to-semantic -10 baseline semantic-to-formal -35 baseline semantic archives =841 net semantic-card increase",
+    "source_cases": "3865 unchanged baseline cases +775 new cases =4640 total including44 archived cases",
+    "repetition": "775 additional cases -751 additional original card IDs =24 additional exact normalized repetition groupings",
+    "public_display": "3854 semantic cards -61 equivalence display reduction =3793 public semantic entries"
+  },
+  "interval": {
+    "start": "2026-09-06T16:41:44Z",
+    "baseline_commit_time": "2026-09-06T16:38:23Z",
+    "baseline_precedes_start_seconds": 201,
+    "interpretation": "Authorized baseline-to-snapshot comparison; not exact wall-clock transaction counting. Baseline contains no operative correction/identity/failure logs, so corresponding current counts equal deltas from this baseline, but they are different units and not decipherment outputs."
+  },
+  "supersedes_counts_only_of": {
+    "path": "research_registry/decisions/semantic_session_count_audit_gs.json",
+    "sha256": "18f45448c8f921db228632d63e42519d6d58d061ae21e8782dd16b4c9e9dafdc",
+    "old_file_unchanged": true
+  },
+  "guide_hash_policy": "Recorded guide hash is an as-of snapshot only. Subsequent wording/link/source-reassessment edits need not alter card/case/identity/failure counts; this receipt does not certify their future freshness.",
+  "validation": {
+    "expected_4119_active": true,
+    "expected_3854_semantic": true,
+    "expected_265_formal": true,
+    "expected_4640_cases": true,
+    "expected_775_new_cases": true,
+    "all_3865_original_case_payloads_unchanged": true,
+    "fresh_connect": true
+  }
+}

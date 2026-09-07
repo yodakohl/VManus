@@ -1,0 +1,1062 @@
+{
+  "audit_id": "SEMANTIC_SCOPED_ASSESSMENT_COVERAGE_HA",
+  "status": "METADATA_BINDING_PASS",
+  "counts": {
+    "active_semantic_cards": 3854,
+    "active_public_cards_including_formal": 4119,
+    "local_overlay_cards_excluded": 96,
+    "current_scoped_dossiers": 42,
+    "dossier_log_revisions": 43,
+    "current_conditional_priorities": 9,
+    "priority_log_revisions": 9,
+    "distinct_direct_semantic_dossier_targets": 55,
+    "distinct_direct_semantic_priority_targets": 27,
+    "distinct_direct_targets_in_both": 23,
+    "distinct_direct_targets_in_either": 59,
+    "semantic_cards_without_direct_dossier_targeting": 3799,
+    "semantic_cards_without_direct_priority_targeting": 3827,
+    "semantic_cards_without_either_direct_targeting": 3795
+  },
+  "definition": "Current is latest valid revision per decision_key. Semantic denominator is active public SEM cards where claim_type != formal_role (SEMLOCAL overlay excluded), including distinct variants before identity-display grouping. Targets are explicit targets/sem_ids only. No equivalent, specialized, source-neighbour or dossier-to-priority propagation.",
+  "direct_ids": {
+    "scoped_dossiers": [
+      "SEM:02c63b4dee2fd4571228",
+      "SEM:071e689872fa95a5bf7a",
+      "SEM:08a05de29068958d3f58",
+      "SEM:0962c8271ffeb26472df",
+      "SEM:14f954b4c260354e1a3a",
+      "SEM:19601a461d4e5f6f7b7c",
+      "SEM:1ade1c95c55064d9deb0",
+      "SEM:20477cd200ca5f19e28b",
+      "SEM:2469f26ba5b615b52f13",
+      "SEM:26b7688a1909e931f7d8",
+      "SEM:26db488a75bdf59ec8ee",
+      "SEM:2e54c5efd4ef7c274e5b",
+      "SEM:2fd4e8bffbbed966bfea",
+      "SEM:380e65aefa750099fa6c",
+      "SEM:3ab7ad3ab4a95a82fe99",
+      "SEM:3b7e0bbed92f12eb0a26",
+      "SEM:40f989b099e36ca42871",
+      "SEM:4c49ed552dbfa49074cd",
+      "SEM:5d6f63cc60805193e0fc",
+      "SEM:640ae5b083ca77e23719",
+      "SEM:64e7e5d817c96d8a0322",
+      "SEM:66e6f5e8da93dc21a0d6",
+      "SEM:682522514ab537cc7f4c",
+      "SEM:6cc81edaa4d1da2a7cde",
+      "SEM:70c640cdb7f9ae32340c",
+      "SEM:784c83cb4bf299a8690f",
+      "SEM:7926a19e357cdbe0b97d",
+      "SEM:7be1e4f37215895ddc58",
+      "SEM:8fccb8d3f3840b8c2432",
+      "SEM:94a0aebd1caf3051dc56",
+      "SEM:9db69b9ff18a7e13a93e",
+      "SEM:9f367740d80b66c21d64",
+      "SEM:a59298de7c588bb6e701",
+      "SEM:a826d588e016db28a332",
+      "SEM:a893f42823fa925f8695",
+      "SEM:aa5cf61db710fc3e786d",
+      "SEM:b0091a43c32504d9857f",
+      "SEM:b2fb10dededfad16dc78",
+      "SEM:b9e6d625631606b62761",
+      "SEM:bfe696ab8c2fbd3ea40f",
+      "SEM:c0f047b2df909590a51a",
+      "SEM:c458a3ad2df97692ec6c",
+      "SEM:c832f681da39d2bea4ad",
+      "SEM:cb5e52af94982808487a",
+      "SEM:cc9fdf1078b1ccc1d751",
+      "SEM:cf57c58c46652d794cc6",
+      "SEM:cfd39b0b539a4bcfeaf3",
+      "SEM:d70ff59ce383e36325cd",
+      "SEM:d9d586ecbf77f8e96850",
+      "SEM:dedccc5aecbe1a19e036",
+      "SEM:df49adc4127372a550d4",
+      "SEM:eb2565605d47718a5f26",
+      "SEM:edf31c46635204622849",
+      "SEM:eff43b3e6522ac91dc54",
+      "SEM:f77bd45d9cf83cddef64"
+    ],
+    "conditional_priorities": [
+      "SEM:08a05de29068958d3f58",
+      "SEM:19601a461d4e5f6f7b7c",
+      "SEM:2469f26ba5b615b52f13",
+      "SEM:26b7688a1909e931f7d8",
+      "SEM:26db488a75bdf59ec8ee",
+      "SEM:28f18f24bb412dfb6a64",
+      "SEM:2e54c5efd4ef7c274e5b",
+      "SEM:3b7e0bbed92f12eb0a26",
+      "SEM:40f989b099e36ca42871",
+      "SEM:5d6f63cc60805193e0fc",
+      "SEM:640ae5b083ca77e23719",
+      "SEM:7926a19e357cdbe0b97d",
+      "SEM:7be1e4f37215895ddc58",
+      "SEM:8fccb8d3f3840b8c2432",
+      "SEM:9f367740d80b66c21d64",
+      "SEM:a094135472e4c94ddce3",
+      "SEM:a59298de7c588bb6e701",
+      "SEM:a893f42823fa925f8695",
+      "SEM:b9e6d625631606b62761",
+      "SEM:c0f047b2df909590a51a",
+      "SEM:cc9fdf1078b1ccc1d751",
+      "SEM:cf57c58c46652d794cc6",
+      "SEM:d70ff59ce383e36325cd",
+      "SEM:d86c72033a7277baab26",
+      "SEM:d9d586ecbf77f8e96850",
+      "SEM:df49adc4127372a550d4",
+      "SEM:f1a5d4569d1313e8c04d"
+    ],
+    "both": [
+      "SEM:08a05de29068958d3f58",
+      "SEM:19601a461d4e5f6f7b7c",
+      "SEM:2469f26ba5b615b52f13",
+      "SEM:26b7688a1909e931f7d8",
+      "SEM:26db488a75bdf59ec8ee",
+      "SEM:2e54c5efd4ef7c274e5b",
+      "SEM:3b7e0bbed92f12eb0a26",
+      "SEM:40f989b099e36ca42871",
+      "SEM:5d6f63cc60805193e0fc",
+      "SEM:640ae5b083ca77e23719",
+      "SEM:7926a19e357cdbe0b97d",
+      "SEM:7be1e4f37215895ddc58",
+      "SEM:8fccb8d3f3840b8c2432",
+      "SEM:9f367740d80b66c21d64",
+      "SEM:a59298de7c588bb6e701",
+      "SEM:a893f42823fa925f8695",
+      "SEM:b9e6d625631606b62761",
+      "SEM:c0f047b2df909590a51a",
+      "SEM:cc9fdf1078b1ccc1d751",
+      "SEM:cf57c58c46652d794cc6",
+      "SEM:d70ff59ce383e36325cd",
+      "SEM:d9d586ecbf77f8e96850",
+      "SEM:df49adc4127372a550d4"
+    ],
+    "nonsemantic_or_inactive_dossier_targets": [
+      "SEM:23659586e96e83395266",
+      "SEM:8966b3eec7bc1a705e2f"
+    ],
+    "nonsemantic_or_inactive_priority_targets": []
+  },
+  "current_dossier_target_map": [
+    {
+      "id": "FAILURE_F:Y_OPEN_SENTENCE:v1",
+      "decision_key": "FAILURE_F:Y_OPEN_SENTENCE",
+      "direct_targets": [
+        "SEM:7926a19e357cdbe0b97d"
+      ]
+    },
+    {
+      "id": "FAILURE_F:CHOR_SHOR_DRY_MOIST:v1",
+      "decision_key": "FAILURE_F:CHOR_SHOR_DRY_MOIST",
+      "direct_targets": [
+        "SEM:2469f26ba5b615b52f13",
+        "SEM:5d6f63cc60805193e0fc"
+      ]
+    },
+    {
+      "id": "FAILURE_F:FLOWER_SEED_DIRECTION:v1",
+      "decision_key": "FAILURE_F:FLOWER_SEED_DIRECTION",
+      "direct_targets": [
+        "SEM:3b7e0bbed92f12eb0a26",
+        "SEM:a59298de7c588bb6e701",
+        "SEM:b9e6d625631606b62761"
+      ]
+    },
+    {
+      "id": "FAILURE_F:CTHY_LEAF_SPECIFIC:v1",
+      "decision_key": "FAILURE_F:CTHY_LEAF_SPECIFIC",
+      "direct_targets": [
+        "SEM:d9d586ecbf77f8e96850",
+        "SEM:2e54c5efd4ef7c274e5b"
+      ]
+    },
+    {
+      "id": "FAILURE_F:OKAIIN_THERMAL:v1",
+      "decision_key": "FAILURE_F:OKAIIN_THERMAL",
+      "direct_targets": [
+        "SEM:7be1e4f37215895ddc58"
+      ]
+    },
+    {
+      "id": "FAILURE_F:OKAIIN_POSSESSIVE_ANTECEDENT:v1",
+      "decision_key": "FAILURE_F:OKAIIN_POSSESSIVE_ANTECEDENT",
+      "direct_targets": [
+        "SEM:08a05de29068958d3f58"
+      ]
+    },
+    {
+      "id": "FAILURE_F:LO_PENDING_PARTICIPANT:v1",
+      "decision_key": "FAILURE_F:LO_PENDING_PARTICIPANT",
+      "direct_targets": [
+        "SEM:26b7688a1909e931f7d8",
+        "SEM:d70ff59ce383e36325cd"
+      ]
+    },
+    {
+      "id": "FAILURE_H:OKAIIN_PURE_COPULA:v1",
+      "decision_key": "FAILURE_H:OKAIIN_PURE_COPULA",
+      "direct_targets": [
+        "SEM:40f989b099e36ca42871",
+        "SEM:a893f42823fa925f8695",
+        "SEM:cf57c58c46652d794cc6"
+      ]
+    },
+    {
+      "id": "FAILURE_H:OKAIIN_POWDER:v1",
+      "decision_key": "FAILURE_H:OKAIIN_POWDER",
+      "direct_targets": [
+        "SEM:9f367740d80b66c21d64",
+        "SEM:26db488a75bdf59ec8ee",
+        "SEM:cc9fdf1078b1ccc1d751"
+      ]
+    },
+    {
+      "id": "FAILURE_H:OKAL_FOUR_ORDINAL:v1",
+      "decision_key": "FAILURE_H:OKAL_FOUR_ORDINAL",
+      "direct_targets": [
+        "SEM:640ae5b083ca77e23719"
+      ]
+    },
+    {
+      "id": "FAILURE_H:OKAL_GRADE_ONE:v1",
+      "decision_key": "FAILURE_H:OKAL_GRADE_ONE",
+      "direct_targets": [
+        "SEM:c0f047b2df909590a51a"
+      ]
+    },
+    {
+      "id": "FAILURE_H:AQABAC_BENEFIC_FACIES:v1",
+      "decision_key": "FAILURE_H:AQABAC_BENEFIC_FACIES",
+      "direct_targets": [
+        "SEM:8fccb8d3f3840b8c2432"
+      ]
+    },
+    {
+      "id": "FAILURE_H:OKAL_F82_REFERENTIAL_KEY:v1",
+      "decision_key": "FAILURE_H:OKAL_F82_REFERENTIAL_KEY",
+      "direct_targets": [
+        "SEM:df49adc4127372a550d4",
+        "SEM:19601a461d4e5f6f7b7c"
+      ]
+    },
+    {
+      "id": "FAILURE_X:F77_QUALITY_PROCESS_DECODER:v1",
+      "decision_key": "FAILURE_X:F77_QUALITY_PROCESS_DECODER",
+      "direct_targets": [
+        "SEM:682522514ab537cc7f4c"
+      ]
+    },
+    {
+      "id": "FAILURE_AD:BACA_LOCAL_PAIR_VERSUS_WATER_FLOW:v1",
+      "decision_key": "FAILURE_AD:BACA_LOCAL_PAIR_VERSUS_WATER_FLOW",
+      "direct_targets": [
+        "SEM:0962c8271ffeb26472df",
+        "SEM:380e65aefa750099fa6c"
+      ]
+    },
+    {
+      "id": "FAILURE_AD:EXACT_STRICT_RESIDUAL_OBJECT_TRANSFER:v1",
+      "decision_key": "FAILURE_AD:EXACT_STRICT_RESIDUAL_OBJECT_TRANSFER",
+      "direct_targets": [
+        "SEM:a826d588e016db28a332"
+      ]
+    },
+    {
+      "id": "FAILURE_AW:PASS1023_BLANKET_BINDING:v2",
+      "decision_key": "FAILURE_AW:PASS1023_BLANKET_BINDING",
+      "direct_targets": [
+        "SEM:23659586e96e83395266"
+      ]
+    },
+    {
+      "id": "FAILURE_BC:OKEEOL_WIDE_VESSEL:v1",
+      "decision_key": "FAILURE_BC:OKEEOL_WIDE_VESSEL",
+      "direct_targets": [
+        "SEM:3ab7ad3ab4a95a82fe99"
+      ]
+    },
+    {
+      "id": "FAILURE_BC:ALL_DOUBLES_NESTED:v1",
+      "decision_key": "FAILURE_BC:ALL_DOUBLES_NESTED",
+      "direct_targets": [
+        "SEM:8966b3eec7bc1a705e2f"
+      ]
+    },
+    {
+      "id": "FAILURE_BC:CHEEKY_DRY_PREPARATION:v1",
+      "decision_key": "FAILURE_BC:CHEEKY_DRY_PREPARATION",
+      "direct_targets": [
+        "SEM:1ade1c95c55064d9deb0"
+      ]
+    },
+    {
+      "id": "FAILURE_BU:SHECTHY_STATE_VERSUS_SUBSTANCE:v1",
+      "decision_key": "FAILURE_BU:SHECTHY_STATE_VERSUS_SUBSTANCE",
+      "direct_targets": [
+        "SEM:edf31c46635204622849"
+      ]
+    },
+    {
+      "id": "FAILURE_BU:THREE_REGISTER_SOURCEWORD_REFINEMENT:v1",
+      "decision_key": "FAILURE_BU:THREE_REGISTER_SOURCEWORD_REFINEMENT",
+      "direct_targets": [
+        "SEM:eff43b3e6522ac91dc54"
+      ]
+    },
+    {
+      "id": "FAILURE_CT:CHK_DY_REGISTER_ABSTRACTION:v1",
+      "decision_key": "FAILURE_CT:CHK_DY_REGISTER_ABSTRACTION",
+      "direct_targets": [
+        "SEM:bfe696ab8c2fbd3ea40f",
+        "SEM:071e689872fa95a5bf7a"
+      ]
+    },
+    {
+      "id": "FAILURE_CT:ODY_CONTEXTUAL_EXECUTION:v1",
+      "decision_key": "FAILURE_CT:ODY_CONTEXTUAL_EXECUTION",
+      "direct_targets": [
+        "SEM:70c640cdb7f9ae32340c"
+      ]
+    },
+    {
+      "id": "FAILURE_CY:qeeey_terminal_portion:v1",
+      "decision_key": "FAILURE_CY:qeeey_terminal_portion",
+      "direct_targets": [
+        "SEM:cb5e52af94982808487a"
+      ]
+    },
+    {
+      "id": "FAILURE_CY:sol_seed_family_revision:v1",
+      "decision_key": "FAILURE_CY:sol_seed_family_revision",
+      "direct_targets": [
+        "SEM:aa5cf61db710fc3e786d",
+        "SEM:4c49ed552dbfa49074cd"
+      ]
+    },
+    {
+      "id": "FAILURE_CY:shx_gum_resin:v1",
+      "decision_key": "FAILURE_CY:shx_gum_resin",
+      "direct_targets": [
+        "SEM:9db69b9ff18a7e13a93e"
+      ]
+    },
+    {
+      "id": "FAILURE_CY:tolg_grain:v1",
+      "decision_key": "FAILURE_CY:tolg_grain",
+      "direct_targets": [
+        "SEM:20477cd200ca5f19e28b"
+      ]
+    },
+    {
+      "id": "FAILURE_CY:a048_terminal_product_hold:v1",
+      "decision_key": "FAILURE_CY:a048_terminal_product_hold",
+      "direct_targets": [
+        "SEM:14f954b4c260354e1a3a"
+      ]
+    },
+    {
+      "id": "FAILURE_CY:free_g_gutta:v1",
+      "decision_key": "FAILURE_CY:free_g_gutta",
+      "direct_targets": [
+        "SEM:c458a3ad2df97692ec6c"
+      ]
+    },
+    {
+      "id": "FAILURE_DB:PASS323_REFERENCE_REVISION:v1",
+      "decision_key": "FAILURE_DB:PASS323_REFERENCE_REVISION",
+      "direct_targets": [
+        "SEM:6cc81edaa4d1da2a7cde"
+      ]
+    },
+    {
+      "id": "FAILURE_DF:CH_SH_T_OL_PREPARATION_HEAD:v1",
+      "decision_key": "FAILURE_DF:CH_SH_T_OL_PREPARATION_HEAD",
+      "direct_targets": [
+        "SEM:b0091a43c32504d9857f"
+      ]
+    },
+    {
+      "id": "FAILURE_DL:H4_COOLING_HANDOFF:v1",
+      "decision_key": "FAILURE_DL:H4_COOLING_HANDOFF",
+      "direct_targets": [
+        "SEM:02c63b4dee2fd4571228"
+      ]
+    },
+    {
+      "id": "FAILURE_DL:DSHEDY_FRESH_RINSE:v1",
+      "decision_key": "FAILURE_DL:DSHEDY_FRESH_RINSE",
+      "direct_targets": [
+        "SEM:c832f681da39d2bea4ad"
+      ]
+    },
+    {
+      "id": "FAILURE_DR:DAL_WHOLEWORD_TO_MEASURED_MATERIAL:v1",
+      "decision_key": "FAILURE_DR:DAL_WHOLEWORD_TO_MEASURED_MATERIAL",
+      "direct_targets": [
+        "SEM:94a0aebd1caf3051dc56"
+      ]
+    },
+    {
+      "id": "FAILURE_EH:PCHEEY_DRY_SOURCE_TO_NEUTRAL_BOUND_FIELD:v1",
+      "decision_key": "FAILURE_EH:PCHEEY_DRY_SOURCE_TO_NEUTRAL_BOUND_FIELD",
+      "direct_targets": [
+        "SEM:66e6f5e8da93dc21a0d6"
+      ]
+    },
+    {
+      "id": "FAILURE_EN:CTHY_GDT756_ORGAN_DEFAULT:v1",
+      "decision_key": "FAILURE_EN:CTHY_GDT756_ORGAN_DEFAULT",
+      "direct_targets": [
+        "SEM:cfd39b0b539a4bcfeaf3"
+      ]
+    },
+    {
+      "id": "FAILURE_EN:CHOR_GDT756_ORGAN_DEFAULT:v1",
+      "decision_key": "FAILURE_EN:CHOR_GDT756_ORGAN_DEFAULT",
+      "direct_targets": [
+        "SEM:dedccc5aecbe1a19e036"
+      ]
+    },
+    {
+      "id": "FAILURE_ET:QOL_MATERIAL_SOURCE_AND_JOINED_COMPOSITION_LIMITS:v1",
+      "decision_key": "FAILURE_ET:QOL_MATERIAL_SOURCE_AND_JOINED_COMPOSITION_LIMITS",
+      "direct_targets": [
+        "SEM:eb2565605d47718a5f26"
+      ]
+    },
+    {
+      "id": "FAILURE_FB:V3_QOKAIIN_MATRIX_VERSUS_ENTRY:v1",
+      "decision_key": "FAILURE_FB:V3_QOKAIIN_MATRIX_VERSUS_ENTRY",
+      "direct_targets": [
+        "SEM:f77bd45d9cf83cddef64"
+      ]
+    },
+    {
+      "id": "FAILURE_FN:V78_ET_PER_V79_TWO_LAYER_SELECTION:v1",
+      "decision_key": "FAILURE_FN:V78_ET_PER_V79_TWO_LAYER_SELECTION",
+      "direct_targets": [
+        "SEM:64e7e5d817c96d8a0322",
+        "SEM:784c83cb4bf299a8690f"
+      ]
+    },
+    {
+      "id": "FAILURE_GM:HPR2_DIRECT_HOST_LEXICON_TO_CONTENT_ADDRESS:v1",
+      "decision_key": "FAILURE_GM:HPR2_DIRECT_HOST_LEXICON_TO_CONTENT_ADDRESS",
+      "direct_targets": [
+        "SEM:2fd4e8bffbbed966bfea",
+        "SEM:b2fb10dededfad16dc78"
+      ]
+    }
+  ],
+  "current_priority_target_map": [
+    {
+      "id": "K01_OKAIIN_CONTENT_CONTRAST:v1",
+      "decision_key": "K01_OKAIIN_CONTENT_CONTRAST",
+      "direct_targets": [
+        "SEM:26db488a75bdf59ec8ee",
+        "SEM:40f989b099e36ca42871",
+        "SEM:7be1e4f37215895ddc58",
+        "SEM:9f367740d80b66c21d64",
+        "SEM:a893f42823fa925f8695",
+        "SEM:cc9fdf1078b1ccc1d751",
+        "SEM:cf57c58c46652d794cc6"
+      ]
+    },
+    {
+      "id": "K02_CTHY_LEAF_VS_HERB:v1",
+      "decision_key": "K02_CTHY_LEAF_VS_HERB",
+      "direct_targets": [
+        "SEM:2e54c5efd4ef7c274e5b",
+        "SEM:d9d586ecbf77f8e96850"
+      ]
+    },
+    {
+      "id": "K03_CHOR_SHOR_DIRECTION:v1",
+      "decision_key": "K03_CHOR_SHOR_DIRECTION",
+      "direct_targets": [
+        "SEM:3b7e0bbed92f12eb0a26",
+        "SEM:a59298de7c588bb6e701",
+        "SEM:b9e6d625631606b62761"
+      ]
+    },
+    {
+      "id": "K04_LO_CARRY_OR_NEW_RELATION:v1",
+      "decision_key": "K04_LO_CARRY_OR_NEW_RELATION",
+      "direct_targets": [
+        "SEM:26b7688a1909e931f7d8",
+        "SEM:d70ff59ce383e36325cd"
+      ]
+    },
+    {
+      "id": "K05_AQABAC_PHASE:v1",
+      "decision_key": "K05_AQABAC_PHASE",
+      "direct_targets": [
+        "SEM:8fccb8d3f3840b8c2432"
+      ]
+    },
+    {
+      "id": "K06_OKAL_GRADE_OR_REFERENCE:v1",
+      "decision_key": "K06_OKAL_GRADE_OR_REFERENCE",
+      "direct_targets": [
+        "SEM:19601a461d4e5f6f7b7c",
+        "SEM:c0f047b2df909590a51a",
+        "SEM:df49adc4127372a550d4"
+      ]
+    },
+    {
+      "id": "K07_RETAIN_FIXED_COUNTEREXAMPLES:v1",
+      "decision_key": "K07_RETAIN_FIXED_COUNTEREXAMPLES",
+      "direct_targets": [
+        "SEM:08a05de29068958d3f58",
+        "SEM:2469f26ba5b615b52f13",
+        "SEM:5d6f63cc60805193e0fc",
+        "SEM:640ae5b083ca77e23719",
+        "SEM:7926a19e357cdbe0b97d"
+      ]
+    },
+    {
+      "id": "K08_AIR_OWNER_ROLE_CONTRAST:v1",
+      "decision_key": "K08_AIR_OWNER_ROLE_CONTRAST",
+      "direct_targets": [
+        "SEM:28f18f24bb412dfb6a64"
+      ]
+    },
+    {
+      "id": "K09_ODAIIN_SUBSTANTIVE_VALUE_AXIS:v1",
+      "decision_key": "K09_ODAIIN_SUBSTANTIVE_VALUE_AXIS",
+      "direct_targets": [
+        "SEM:f1a5d4569d1313e8c04d",
+        "SEM:d86c72033a7277baab26",
+        "SEM:a094135472e4c94ddce3"
+      ]
+    }
+  ],
+  "binding_checks": [
+    {
+      "decision_id": "FAILURE_F:Y_OPEN_SENTENCE:v1",
+      "target": "SEM:7926a19e357cdbe0b97d",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_F:CHOR_SHOR_DRY_MOIST:v1",
+      "target": "SEM:2469f26ba5b615b52f13",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_F:CHOR_SHOR_DRY_MOIST:v1",
+      "target": "SEM:5d6f63cc60805193e0fc",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_F:FLOWER_SEED_DIRECTION:v1",
+      "target": "SEM:3b7e0bbed92f12eb0a26",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_F:FLOWER_SEED_DIRECTION:v1",
+      "target": "SEM:a59298de7c588bb6e701",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_F:FLOWER_SEED_DIRECTION:v1",
+      "target": "SEM:b9e6d625631606b62761",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_F:CTHY_LEAF_SPECIFIC:v1",
+      "target": "SEM:d9d586ecbf77f8e96850",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_F:CTHY_LEAF_SPECIFIC:v1",
+      "target": "SEM:2e54c5efd4ef7c274e5b",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_F:OKAIIN_THERMAL:v1",
+      "target": "SEM:7be1e4f37215895ddc58",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_F:OKAIIN_POSSESSIVE_ANTECEDENT:v1",
+      "target": "SEM:08a05de29068958d3f58",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_F:LO_PENDING_PARTICIPANT:v1",
+      "target": "SEM:26b7688a1909e931f7d8",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_F:LO_PENDING_PARTICIPANT:v1",
+      "target": "SEM:d70ff59ce383e36325cd",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_H:OKAIIN_PURE_COPULA:v1",
+      "target": "SEM:40f989b099e36ca42871",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_H:OKAIIN_PURE_COPULA:v1",
+      "target": "SEM:a893f42823fa925f8695",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_H:OKAIIN_PURE_COPULA:v1",
+      "target": "SEM:cf57c58c46652d794cc6",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_H:OKAIIN_POWDER:v1",
+      "target": "SEM:9f367740d80b66c21d64",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_H:OKAIIN_POWDER:v1",
+      "target": "SEM:26db488a75bdf59ec8ee",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_H:OKAIIN_POWDER:v1",
+      "target": "SEM:cc9fdf1078b1ccc1d751",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_H:OKAL_FOUR_ORDINAL:v1",
+      "target": "SEM:640ae5b083ca77e23719",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_H:OKAL_GRADE_ONE:v1",
+      "target": "SEM:c0f047b2df909590a51a",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_H:AQABAC_BENEFIC_FACIES:v1",
+      "target": "SEM:8fccb8d3f3840b8c2432",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_H:OKAL_F82_REFERENTIAL_KEY:v1",
+      "target": "SEM:df49adc4127372a550d4",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_H:OKAL_F82_REFERENTIAL_KEY:v1",
+      "target": "SEM:19601a461d4e5f6f7b7c",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_X:F77_QUALITY_PROCESS_DECODER:v1",
+      "target": "SEM:682522514ab537cc7f4c",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_AD:BACA_LOCAL_PAIR_VERSUS_WATER_FLOW:v1",
+      "target": "SEM:0962c8271ffeb26472df",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_AD:BACA_LOCAL_PAIR_VERSUS_WATER_FLOW:v1",
+      "target": "SEM:380e65aefa750099fa6c",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_AD:EXACT_STRICT_RESIDUAL_OBJECT_TRANSFER:v1",
+      "target": "SEM:a826d588e016db28a332",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_AW:PASS1023_BLANKET_BINDING:v2",
+      "target": "SEM:23659586e96e83395266",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_BC:OKEEOL_WIDE_VESSEL:v1",
+      "target": "SEM:3ab7ad3ab4a95a82fe99",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_BC:ALL_DOUBLES_NESTED:v1",
+      "target": "SEM:8966b3eec7bc1a705e2f",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_BC:CHEEKY_DRY_PREPARATION:v1",
+      "target": "SEM:1ade1c95c55064d9deb0",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_BU:SHECTHY_STATE_VERSUS_SUBSTANCE:v1",
+      "target": "SEM:edf31c46635204622849",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_BU:THREE_REGISTER_SOURCEWORD_REFINEMENT:v1",
+      "target": "SEM:eff43b3e6522ac91dc54",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_CT:CHK_DY_REGISTER_ABSTRACTION:v1",
+      "target": "SEM:bfe696ab8c2fbd3ea40f",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_CT:CHK_DY_REGISTER_ABSTRACTION:v1",
+      "target": "SEM:071e689872fa95a5bf7a",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_CT:ODY_CONTEXTUAL_EXECUTION:v1",
+      "target": "SEM:70c640cdb7f9ae32340c",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_CY:qeeey_terminal_portion:v1",
+      "target": "SEM:cb5e52af94982808487a",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_CY:sol_seed_family_revision:v1",
+      "target": "SEM:aa5cf61db710fc3e786d",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_CY:sol_seed_family_revision:v1",
+      "target": "SEM:4c49ed552dbfa49074cd",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_CY:shx_gum_resin:v1",
+      "target": "SEM:9db69b9ff18a7e13a93e",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_CY:tolg_grain:v1",
+      "target": "SEM:20477cd200ca5f19e28b",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_CY:a048_terminal_product_hold:v1",
+      "target": "SEM:14f954b4c260354e1a3a",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_CY:free_g_gutta:v1",
+      "target": "SEM:c458a3ad2df97692ec6c",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_DB:PASS323_REFERENCE_REVISION:v1",
+      "target": "SEM:6cc81edaa4d1da2a7cde",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_DF:CH_SH_T_OL_PREPARATION_HEAD:v1",
+      "target": "SEM:b0091a43c32504d9857f",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_DL:H4_COOLING_HANDOFF:v1",
+      "target": "SEM:02c63b4dee2fd4571228",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_DL:DSHEDY_FRESH_RINSE:v1",
+      "target": "SEM:c832f681da39d2bea4ad",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_DR:DAL_WHOLEWORD_TO_MEASURED_MATERIAL:v1",
+      "target": "SEM:94a0aebd1caf3051dc56",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_EH:PCHEEY_DRY_SOURCE_TO_NEUTRAL_BOUND_FIELD:v1",
+      "target": "SEM:66e6f5e8da93dc21a0d6",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_EN:CTHY_GDT756_ORGAN_DEFAULT:v1",
+      "target": "SEM:cfd39b0b539a4bcfeaf3",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_EN:CHOR_GDT756_ORGAN_DEFAULT:v1",
+      "target": "SEM:dedccc5aecbe1a19e036",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_ET:QOL_MATERIAL_SOURCE_AND_JOINED_COMPOSITION_LIMITS:v1",
+      "target": "SEM:eb2565605d47718a5f26",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_FB:V3_QOKAIIN_MATRIX_VERSUS_ENTRY:v1",
+      "target": "SEM:f77bd45d9cf83cddef64",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_FN:V78_ET_PER_V79_TWO_LAYER_SELECTION:v1",
+      "target": "SEM:64e7e5d817c96d8a0322",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_FN:V78_ET_PER_V79_TWO_LAYER_SELECTION:v1",
+      "target": "SEM:784c83cb4bf299a8690f",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_GM:HPR2_DIRECT_HOST_LEXICON_TO_CONTENT_ADDRESS:v1",
+      "target": "SEM:2fd4e8bffbbed966bfea",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "FAILURE_GM:HPR2_DIRECT_HOST_LEXICON_TO_CONTENT_ADDRESS:v1",
+      "target": "SEM:b2fb10dededfad16dc78",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "K01_OKAIIN_CONTENT_CONTRAST:v1",
+      "target": "SEM:26db488a75bdf59ec8ee",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "K01_OKAIIN_CONTENT_CONTRAST:v1",
+      "target": "SEM:40f989b099e36ca42871",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "K01_OKAIIN_CONTENT_CONTRAST:v1",
+      "target": "SEM:7be1e4f37215895ddc58",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "K01_OKAIIN_CONTENT_CONTRAST:v1",
+      "target": "SEM:9f367740d80b66c21d64",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "K01_OKAIIN_CONTENT_CONTRAST:v1",
+      "target": "SEM:a893f42823fa925f8695",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "K01_OKAIIN_CONTENT_CONTRAST:v1",
+      "target": "SEM:cc9fdf1078b1ccc1d751",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "K01_OKAIIN_CONTENT_CONTRAST:v1",
+      "target": "SEM:cf57c58c46652d794cc6",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "K02_CTHY_LEAF_VS_HERB:v1",
+      "target": "SEM:2e54c5efd4ef7c274e5b",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "K02_CTHY_LEAF_VS_HERB:v1",
+      "target": "SEM:d9d586ecbf77f8e96850",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "K03_CHOR_SHOR_DIRECTION:v1",
+      "target": "SEM:3b7e0bbed92f12eb0a26",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "K03_CHOR_SHOR_DIRECTION:v1",
+      "target": "SEM:a59298de7c588bb6e701",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "K03_CHOR_SHOR_DIRECTION:v1",
+      "target": "SEM:b9e6d625631606b62761",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "K04_LO_CARRY_OR_NEW_RELATION:v1",
+      "target": "SEM:26b7688a1909e931f7d8",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "K04_LO_CARRY_OR_NEW_RELATION:v1",
+      "target": "SEM:d70ff59ce383e36325cd",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "K05_AQABAC_PHASE:v1",
+      "target": "SEM:8fccb8d3f3840b8c2432",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "K06_OKAL_GRADE_OR_REFERENCE:v1",
+      "target": "SEM:19601a461d4e5f6f7b7c",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "K06_OKAL_GRADE_OR_REFERENCE:v1",
+      "target": "SEM:c0f047b2df909590a51a",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "K06_OKAL_GRADE_OR_REFERENCE:v1",
+      "target": "SEM:df49adc4127372a550d4",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "K07_RETAIN_FIXED_COUNTEREXAMPLES:v1",
+      "target": "SEM:08a05de29068958d3f58",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "K07_RETAIN_FIXED_COUNTEREXAMPLES:v1",
+      "target": "SEM:2469f26ba5b615b52f13",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "K07_RETAIN_FIXED_COUNTEREXAMPLES:v1",
+      "target": "SEM:5d6f63cc60805193e0fc",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "K07_RETAIN_FIXED_COUNTEREXAMPLES:v1",
+      "target": "SEM:640ae5b083ca77e23719",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "K07_RETAIN_FIXED_COUNTEREXAMPLES:v1",
+      "target": "SEM:7926a19e357cdbe0b97d",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "K08_AIR_OWNER_ROLE_CONTRAST:v1",
+      "target": "SEM:28f18f24bb412dfb6a64",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "K09_ODAIIN_SUBSTANTIVE_VALUE_AXIS:v1",
+      "target": "SEM:f1a5d4569d1313e8c04d",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "K09_ODAIIN_SUBSTANTIVE_VALUE_AXIS:v1",
+      "target": "SEM:d86c72033a7277baab26",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    },
+    {
+      "decision_id": "K09_ODAIIN_SUBSTANTIVE_VALUE_AXIS:v1",
+      "target": "SEM:a094135472e4c94ddce3",
+      "original_basis_match": true,
+      "effective_basis_match": true
+    }
+  ],
+  "priority_dossier_basis_checked": true,
+  "errors": [],
+  "source_logs": [
+    {
+      "path": "research_registry/semantic_failure_decisions.jsonl",
+      "sha256": "af9f2ad3a1dec30393cb3f06a6488d56fe07f1643db5cc87d72c7ee6fdddfc9c"
+    },
+    {
+      "path": "research_registry/semantic_priority_decisions.jsonl",
+      "sha256": "2d8fa90ad00098ca4ffa344b5bce15657a6986c742d767d972cd50489ec450dc"
+    }
+  ],
+  "snapshot": {
+    "data_path": "research_registry/semantic_ideas.jsonl",
+    "data_sha256": "e645f490023cb188f2039cfe965bf315b58f9ffb64c626804c6ff6af8ea5167a"
+  },
+  "limits": [
+    "Direct coverage is not the count of rejected hypotheses: dossiers record scoped questions, missing binding, invalid tests, revisions and failures.",
+    "Untargeted cards are not automatically unreviewed in every other respect, viable, false, failed, confirmed or ready. They merely lack direct targeting in these two current logs.",
+    "Only metadata logs, current card payloads and fingerprints were inspected. No primary report evidence or manuscript data was opened for this audit.",
+    "Current original/effective bindings and priority-to-dossier revision hashes were checked; primary evidence quote validity was not re-audited."
+  ],
+  "operational_mutation": false
+}
