@@ -1,0 +1,38 @@
+{
+  "review_id": "JF_COMPLETION_PEER",
+  "status": "CONSISTENCY_REVIEW_COMPLETE",
+  "scope": "Bounded report review against JC root baseline and current registry units; no report or registry mutation. Scientific results are not inferred from curation counts.",
+  "inputs": {
+    "report": {
+      "path": "research_registry/decisions/semantic_4h_completion.md",
+      "sha256": "b30c93ee96e5668502f1c8e9963e99bc4c4ee224cb49f210f8f4af7026dcc4c7"
+    },
+    "root_baseline": {
+      "path": "research_registry/decisions/jc_four_hour_root_baseline_audit.json",
+      "sha256": "ca2484e968768ad03c391762ed30ffbc15f4086e0940d5bee76a9126cffd6d8d"
+    }
+  },
+  "checks": {
+    "source_preservation_units": "Report correctly uses active-plus-archived source cases 4640→4647 and 4163 original cards; this is distinct from scientific assessment.",
+    "seven_recovered_cards": "Correct: seven source-bound cards, net semantic gain five after one formal retype and one archive.",
+    "question_units": "Correct: 70→114 scoped dossiers (+44), 89→136 direct semantic targets (+47); these are dossiers/target bindings, not experiments.",
+    "identity_units": "Correct as stated for post-JE expected state: 81 groups, 94 display reduction, 53 nonidentity links; JC snapshot currently records 51 nonidentity links before JE.",
+    "raw_queue_units": "35/11/24→52/25/27 and +17 raw/+14 method-reviewed are consistent with JC.",
+    "coverage_math": "3859- (136+27-23) = 3719; covered distinct variants 140 is arithmetically consistent."
+  },
+  "necessary_corrections": [
+    {
+      "severity": "clarify",
+      "field": "identity timing",
+      "issue": "The report states 53 related/rival/specialization links, while the current JC audit snapshot is 51.",
+      "correction": "Mark 53 as the expected post-JE value or label the report count as pending JE; do not present 53 as the current pre-JE snapshot."
+    },
+    {
+      "severity": "none",
+      "field": "semantic status",
+      "issue": "No claim of new decipherment, independent meaning, or universal assessment was found in the reviewed report.",
+      "correction": "Preserve the existing ceilings and explicit separation of curation, method review, failures, and meaning confirmation."
+    }
+  ],
+  "conclusion": "No material preservation or coverage-math error requires report rewriting beyond the pending JE identity-link timing label. Time receipt remains intentionally outside this peer review."
+}

@@ -61,7 +61,7 @@ an atomic gloss does not cover a complete multi-card model.
 
 Whitespace and backtick typography alone are normalized for exact assertions.
 Explicit equivalence decisions add81 groups without deleting any original ID.
-The identity log also retains 14 related-but-distinct links,33 rival links and
+The identity log also retains 16 related-but-distinct links,33 rival links and
 four specializations. Conflicting nonidentity blocks transitive merging; changed
 claim or case bindings require a new review. Shared spelling, shortened wording
 or a matching source title alone proves neither identity nor nonidentity.
@@ -103,7 +103,7 @@ They state the actual compared subclaim, primary evidence, scope and changed-inp
 requirements. The current114 dossiers directly target136 semantic cards. The nine
 priorities directly target27, with23 shared targets;3,719 semantic cards have no
 direct target binding in these two lists. This is a coverage limit, not an
-automatic scientific verdict on those cards (see decisions/iy_assessment_coverage.json; earlier snapshots remain preserved). An editorial wording preference is not an empirical falsifier.
+automatic scientific verdict on those cards (see decisions/jg_assessment_coverage.json; earlier snapshots remain preserved). An editorial wording preference is not an empirical falsifier.
 Original conditional predictions remain distinct from observed counterexamples;
 reviewer-supplied reopening conditions are prospective, not old preregistrations.
 Only the latest linked revision acts; all older decisions remain in the log.

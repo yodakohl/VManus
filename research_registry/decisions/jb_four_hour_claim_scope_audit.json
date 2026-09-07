@@ -1,0 +1,122 @@
+{
+  "schema": "jb_four_hour_claim_scope_audit_v1",
+  "baseline": {
+    "commit": "e76e60a255f6c3ddf1d83c971d035fb995f1428c",
+    "description": "Close requested three-hour interval with verified results and limits",
+    "latest_dossiers": 70,
+    "dossier_records": 72,
+    "direct_targets": 91,
+    "raw_proposals": 35,
+    "method_reviewed": 10,
+    "unreviewed": 25,
+    "method_count_basis": "Baseline ledger/root intake recorded 35 raw, 10 method-reviewed, 25 unreviewed."
+  },
+  "current": {
+    "latest_dossiers": 114,
+    "dossier_records": 117,
+    "direct_targets": 138,
+    "raw_proposals": 52,
+    "method_reviewed": 25,
+    "unreviewed": 27,
+    "raw_count_basis": "ideas.jsonl contains 52 NEW_PROPOSAL records; iz_raw_intake_root.json records 52/25/27.",
+    "raw_receipt": {
+      "path": "research_registry/decisions/iz_raw_intake_root.json",
+      "sha256": "5265cc77d36f3031be29b935e74daa52650b68965a63e8a02dbc23b7d79d9916"
+    }
+  },
+  "delta": {
+    "latest_dossiers": 44,
+    "direct_targets": 47,
+    "raw_proposals": 17,
+    "method_reviewed": 15,
+    "unreviewed": 2
+  },
+  "operative_claim_scope": {
+    "latest_dossier_status_counts": {
+      "reviewed_scoped_context": 114
+    },
+    "empirical_meaning_refutation_true": 0,
+    "scientific_test_ready_true": 0,
+    "new_manuscript_experiment_claim_found": false,
+    "finding": "The 114 latest dossiers are scoped source/claim assessments. None is marked scientific_test_ready or empirical_meaning_refutation, and no current dossier asserts a new manuscript experiment or confirmed meaning. Raw proposals remain unreviewed intake; method-reviewed means design review, not execution."
+  },
+  "priority_snapshot_check": {
+    "validated_by": "tools.semantic_priority_view.get_page(limit=20)",
+    "matched": 9,
+    "latest_count": 9,
+    "all_basis_and_effective_bindings_validated": true,
+    "all_scientific_test_ready_false": true,
+    "rows": [
+      {
+        "id": "K01_OKAIIN_CONTENT_CONTRAST:v2",
+        "rank": 1,
+        "readiness": "needs_independent_binding",
+        "scientific_test_ready": false
+      },
+      {
+        "id": "K02_CTHY_LEAF_VS_HERB:v1",
+        "rank": 2,
+        "readiness": "needs_independent_binding",
+        "scientific_test_ready": false
+      },
+      {
+        "id": "K03_CHOR_SHOR_DIRECTION:v1",
+        "rank": 3,
+        "readiness": "needs_directional_binding",
+        "scientific_test_ready": false
+      },
+      {
+        "id": "K04_LO_CARRY_OR_NEW_RELATION:v1",
+        "rank": 4,
+        "readiness": "proposal_only_roles_unbound",
+        "scientific_test_ready": false
+      },
+      {
+        "id": "K05_AQABAC_PHASE:v1",
+        "rank": 5,
+        "readiness": "closed_unchanged_mapping_needs_new_phase",
+        "scientific_test_ready": false
+      },
+      {
+        "id": "K06_OKAL_GRADE_OR_REFERENCE:v1",
+        "rank": 6,
+        "readiness": "needs_independent_scale_or_reference",
+        "scientific_test_ready": false
+      },
+      {
+        "id": "K07_RETAIN_FIXED_COUNTEREXAMPLES:v1",
+        "rank": 7,
+        "readiness": "closed_unchanged_claims",
+        "scientific_test_ready": false
+      },
+      {
+        "id": "K08_AIR_OWNER_ROLE_CONTRAST:v1",
+        "rank": 8,
+        "readiness": "needs_independent_role_binding",
+        "scientific_test_ready": false
+      },
+      {
+        "id": "K09_ODAIIN_SUBSTANTIVE_VALUE_AXIS:v1",
+        "rank": 9,
+        "readiness": "needs_independent_role_binding",
+        "scientific_test_ready": false
+      }
+    ],
+    "scope_note": "These nine are conditional priorities in the reviewed subset, not a global ranking or evidence of meaning."
+  },
+  "inventory_scope_warning": "The semantic-card inventory is an inventory of source propositions, not scientific review. Do not describe all current semantic cards as scientifically reviewed; likewise do not sum dossiers, raw proposals, and cards as independent theory totals.",
+  "conclusion": "The four-hour continuation expanded source curation and design intake from the e76 baseline, with +44 latest dossiers and +17 raw proposals. The file-level and priority checks show no scope breach into a new manuscript experiment or meaning result.",
+  "snapshot_check": {
+    "manifest": "research_registry/SOURCE_MANIFEST.json",
+    "snapshot_path": "research_registry/imported.jsonl",
+    "manifest_snapshot_sha256": "ea27966641687ee49e486cf98be63ec0e310a6ab9fea987ed1652480e7fb355e",
+    "actual_snapshot_sha256": "ea27966641687ee49e486cf98be63ec0e310a6ab9fea987ed1652480e7fb355e",
+    "matches": true
+  },
+  "inventory_scope": {
+    "semantic_ideas_records": 3859,
+    "formal_role_records": 266,
+    "total_records": 4125,
+    "meaning": "Inventory counts are not scientific review counts."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schema": "method_scope_peer_v1",
+  "batch": "jg_final",
+  "status": "PEER_CHECK_COMPLETE",
+  "source": "jg_root_method_scope_review.json",
+  "raw_bindings": {
+    "IDEA000031": {
+      "title": "A contrast marker selects between explicitly opposed alternatives",
+      "design_sha256": "d16634d8b4d4ba9d710335ae26304e09b9715456afcfe2ca3e3c545f0e20d397",
+      "design": {
+        "contrast": "explicit alternative pair with candidate versus matched paired fields without candidate",
+        "falsifier": "No held alternative-structure contrast, or alternatives are not mutually exclusive under a blinded coding rule, falsifies the contrast mechanism.",
+        "mechanism": "The candidate introduces or scopes an opposition whose two alternatives remain separately typed.",
+        "prediction": "Candidate contexts show higher rates of mutually exclusive alternative structures and polarity reversal across the two fields; a generic connector predicts no alternative interaction.",
+        "related": "Not negative-context exclusion, polarity retuning, or simple adjacency counting; alternatives must be predeclared",
+        "scope": "cached paired fields only; endpoint availability_unknown for independent opposition coding",
+        "unit": "candidate occurrences with two bounded alternative fields in the same record"
+      }
+    },
+    "IDEA000032": {
+      "title": "A coordination marker scopes over a multi-item list",
+      "design_sha256": "1f333e276cb42e6d9b98455770c519d3a89dc21f5a8a8acc1d7af6786c55f756",
+      "design": {
+        "contrast": "candidate-bearing multi-item list versus matched adjacent item sequences without shared-predicate structure",
+        "falsifier": "No held shared-predicate contrast, or list grouping depends on a single segmentation choice, falsifies the coordination mechanism.",
+        "mechanism": "The candidate contributes coordination scope over a bounded list and leaves each item independently typed.",
+        "prediction": "Candidate contexts show repeated shared-predicate/list structures and fewer independent predicate assignments; an item-noun model predicts no scope shift.",
+        "related": "Distinct from amount frames, part cooccurrence, and role-position interaction; no quantity meaning is assumed",
+        "scope": "cached bounded fields; endpoint availability_unknown for independent list-scope annotation",
+        "unit": "candidate occurrences with two or more independently typed neighboring items and a shared predicate"
+      }
+    }
+  },
+  "decisions": [
+    {
+      "id": "IDEA000031",
+      "decision": "needs_correction",
+      "scope_fidelity": "PASS",
+      "reason": "The integrated review correctly preserves the explicit mutually-exclusive alternative restriction. The remaining valid objection is narrower: the generic-connector rival is asserted to predict no alternative interaction, but a generic connector can occur between independently opposed alternatives. That is a rival-null/model specification problem, not a correction that broadens the proposal to scalar or corrective contrast.",
+      "accepted_correction": "Freeze the generic-connector null and its expected interaction after matching content/discourse; do not define the candidate/control contrast by the outcome. Treat failure of the exclusive branch as failure of this predeclared variant only."
+    },
+    {
+      "id": "IDEA000032",
+      "decision": "needs_correction",
+      "scope_fidelity": "PASS",
+      "reason": "The integrated review correctly keeps the design restricted to shared-predicate multi-item lists; clause-coordination examples must not be used against it. The remaining valid objection is that an item-noun model can also occur in a shared-predicate list, so “no scope shift” does not follow from that rival without a frozen parse and explicit rival prediction. Segmentation dependence is a measurement stop, not a semantic refutation.",
+      "accepted_correction": "Freeze the parse or alternatives before outcome selection, and define a candidate-dependent scope/position prediction that the item-noun rival cannot also satisfy."
+    }
+  ],
+  "overall": "No material scope misrepresentation remains in the integrated review after excluding the prior out-of-scope scalar/clausal examples. Both remain untested method designs with missing independent annotation; no semantic evidence or readiness follows.",
+  "no_registry_mutation": true
+}

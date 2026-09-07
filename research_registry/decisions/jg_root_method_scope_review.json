@@ -1,0 +1,84 @@
+{
+  "status": "ROOT_TWO_RESTRICTED_METHOD_REVIEWS",
+  "raw_bindings": [
+    {
+      "id": "IDEA000031",
+      "title": "A contrast marker selects between explicitly opposed alternatives",
+      "design": {
+        "contrast": "explicit alternative pair with candidate versus matched paired fields without candidate",
+        "falsifier": "No held alternative-structure contrast, or alternatives are not mutually exclusive under a blinded coding rule, falsifies the contrast mechanism.",
+        "mechanism": "The candidate introduces or scopes an opposition whose two alternatives remain separately typed.",
+        "prediction": "Candidate contexts show higher rates of mutually exclusive alternative structures and polarity reversal across the two fields; a generic connector predicts no alternative interaction.",
+        "related": "Not negative-context exclusion, polarity retuning, or simple adjacency counting; alternatives must be predeclared",
+        "scope": "cached paired fields only; endpoint availability_unknown for independent opposition coding",
+        "unit": "candidate occurrences with two bounded alternative fields in the same record"
+      },
+      "design_sha256": "d16634d8b4d4ba9d710335ae26304e09b9715456afcfe2ca3e3c545f0e20d397"
+    },
+    {
+      "id": "IDEA000032",
+      "title": "A coordination marker scopes over a multi-item list",
+      "design": {
+        "contrast": "candidate-bearing multi-item list versus matched adjacent item sequences without shared-predicate structure",
+        "falsifier": "No held shared-predicate contrast, or list grouping depends on a single segmentation choice, falsifies the coordination mechanism.",
+        "mechanism": "The candidate contributes coordination scope over a bounded list and leaves each item independently typed.",
+        "prediction": "Candidate contexts show repeated shared-predicate/list structures and fewer independent predicate assignments; an item-noun model predicts no scope shift.",
+        "related": "Distinct from amount frames, part cooccurrence, and role-position interaction; no quantity meaning is assumed",
+        "scope": "cached bounded fields; endpoint availability_unknown for independent list-scope annotation",
+        "unit": "candidate occurrences with two or more independently typed neighboring items and a shared predicate"
+      },
+      "design_sha256": "1f333e276cb42e6d9b98455770c519d3a89dc21f5a8a8acc1d7af6786c55f756"
+    }
+  ],
+  "peer": {
+    "path": "research_registry/decisions/jg_two_shortlist_method_peer.json",
+    "sha256": "90ac4434c687bd17e1785df9d020ab94e82e8f705a8d519232677c0848c1d27c"
+  },
+  "evidence": [
+    {
+      "path": "experiments/yolo/gdt815_referent_property_discrimination/REPORT.md",
+      "line": 27,
+      "line_end": 32,
+      "quote": "Neither okol nor otedy is semantically named. Neither a same-paragraph sequence\nnor proximity establishes reference, a part-whole relation or picture ownership.\nThere are other possible antecedents. qokain, solkeey and ychey remain unknown,\nnot conveniently supplied root/leaf/seed nouns. GDT811 already documented the\nfirst two label/prose identities. The f77r target is not the nearest paragraph\nto the upper labels. Full context and variants: src/TEXT_REFERENT_AUDIT.md.",
+      "sha256": "699a06fccd9298c304e76c38b7d743a8282d4b6a521e59f4c6ee8008bc852144"
+    },
+    {
+      "path": "experiments/yolo/gdt819_written_predicate_boundary_review/REPORT.md",
+      "line": 77,
+      "line_end": 81,
+      "quote": "Der relative Vorteil von „wenn“ gegenüber dem ausdrücklich rechtsgerichteten\npräpositionalen „mit + nominaler Ergänzung“ auf f81r.19 hängt weiterhin daran,\ndass `chedy` wirklich finit wäre. Die Aufnahme bestätigt diese Wortart nicht.\nDie tatsächlichen Doubletten sind gerade ein Grund, die Finite-Verb-Annahme\nnicht aus dem gut klingenden Einzelsatz auf den ganzen Text zu übertragen.",
+      "sha256": "ab8ea4327ac2744543fced3a439a092e36b239d7abc99ed4d354338146707792"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "IDEA000031",
+      "reason": "The design explicitly selects opposed alternatives; an exclusive-branch variant may legitimately require exclusivity. However a generic connector can occur between independently opposed alternatives, so the asserted no-interaction null does not follow from that rival. Candidate-versus-control contrast must not be defined by the semantic outcome itself. Failure of exclusivity rejects only the predeclared exclusive variant, not contrast marking generally.",
+      "reopening": "Freeze exclusive, scalar or corrective opposition and the generic-connector rival before annotation. Define contexts independently of the outcome, allow the rival its declared content/discourse associations, and state the candidate-dependent prediction that differs after matching. Specify held units, detectable effect and power. Supply independent scope/opposition bindings rather than inherited component glosses."
+    },
+    {
+      "id": "IDEA000032",
+      "reason": "The actual design is restricted to multi-item lists under a shared predicate; examples of clause coordination do not refute that restricted mechanism. Its selected unit already requires a shared predicate, while its comparator lacks shared-predicate structure, risking outcome-conditioned selection. An item noun can occur in such lists, so a no-scope-association prediction does not follow from the noun rival. Boundary sensitivity blocks the proposed measurement, not coordination in general.",
+      "reopening": "Freeze an independently justified parse or explicit alternative parses and the candidate inventory before selecting by list outcome. Declare how the list-coordinator and item-noun models differ after allowing noun participation in lists. Use held data with a discriminating candidate-position/scope prediction and adequate power. Resolve source-group uncertainty or preserve it without treating one convenient segmentation as semantic gold."
+    }
+  ],
+  "root_peer_corrections": [
+    "IDEA31 already mentions mutually exclusive alternatives. Exclusivity is not wholly unannounced; scalar counterexamples delimit a broader contrast claim but do not refute a defined exclusive-branch mechanism.",
+    "IDEA32 explicitly concerns a shared-predicate multi-item list. Clause-coordination examples are outside that scope and are not accepted as falsifiers of the restricted proposal.",
+    "The accepted design objection is the unjustified rival-null prediction and risk of selecting on the tested outcome, plus missing independent annotation. No new manuscript data was scored.",
+    "Root inspected GDT815/819 and peer GDT428/429 excerpts: four reports across two independent screens. The initial note estimated two; no source or corpus search was expanded beyond those four."
+  ],
+  "ordinary_language_logic_checks": [
+    {
+      "id": "IDEA000031",
+      "example": "Take tea or coffee; tea and coffee are the available alternatives.",
+      "point": "A generic and can join the names of alternatives; their opposition can be supplied by context. This is a counterexample to a universal no-association rival, not evidence about a Voynich word."
+    },
+    {
+      "id": "IDEA000032",
+      "example": "Add salt, pepper and oil.",
+      "point": "Salt is an item noun in a shared-predicate list. Its list association does not make it a coordinator; the model must discriminate structural positions or scope independently."
+    }
+  ],
+  "new_semantic_evidence": false
+}

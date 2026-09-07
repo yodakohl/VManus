@@ -1,0 +1,41 @@
+{
+  "schema": "method_peer_review_v1",
+  "batch": "jg",
+  "status": "LOGICAL_SCOPE_REVIEW",
+  "source_predecessors": [
+    {
+      "path": "experiments/yolo/gdt428_within_class_action_semantic_contrasts/REPORT.md",
+      "line": 5,
+      "line_end": 12,
+      "quote": "Die breiten GDT427-Klassen verschlucken die Wortbedeutungen nicht. Wir finden\n**104 exakte Austauschrahmen**: Eine Handlung wird durch eine andere ersetzt,\nwährend jede übrige Komponente und ihre Position gleich bleibt.\n\nBeispiele der Form sind `@ACTION+AIIN`, `@ACTION+AL`, `@ACTION+EE+DY` oder\n`CH+@ACTION+E+Y`. Das sieht genau nach einer kleinen produktiven\nKürzelgrammatik aus: Der Rahmen bleibt, das Handlungskürzel wechselt, und damit\nwechselt der Arbeitsgang.",
+      "sha256": "82df1791157e0c43181e372369b486182d275cfceaffec6bfbb2bffbf5674b33"
+    },
+    {
+      "path": "experiments/yolo/gdt429_nonaction_core_semantic_contrasts/REPORT.md",
+      "line": 5,
+      "line_end": 8,
+      "quote": "Die gleiche Methode wie bei den neun Handlungen findet **256 exakte\nAustauschrahmen** für die zehn übrigen Kerne. Argumente, Relationen und\nReihenfolgezeichen sitzen also in produktiven Slots. Trotzdem sind ihre kurzen\nBedeutungen nicht beliebig austauschbar.",
+      "sha256": "4712ddfda427bb1ce18bc72a85f8cc3c57e85f5a2b9f3bd3270a6ae999626e03"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "IDEA000031",
+      "title": "A contrast marker selects between explicitly opposed alternatives",
+      "decision": "needs_correction",
+      "finding": "The mechanism is coherent only after opposition is typed. Its prediction does not follow as written: alternatives may be scalar or pragmatically contrasted while both remain jointly true (e.g. “warm and fragrant”), and a generic connector can occur between alternatives. The falsifier “alternatives are not mutually exclusive” therefore rejects one unannounced exclusivity variant, not contrast marking generally.",
+      "counterexample": "“Tea or coffee, preferably tea” is contrastive/alternative but not a binary factually exclusive pair; “wood and charcoal differ in color” contrasts two jointly asserted items.",
+      "repair": "Predeclare exclusive, scalar, or corrective opposition as separate models; independently code alternative relation and polarity; use matched generic connectors. Treat absence of the selected opposition pattern as a model-specific failure, while non-exclusivity alone is not a falsifier."
+    },
+    {
+      "id": "IDEA000032",
+      "title": "A coordination marker scopes over a multi-item list",
+      "decision": "needs_correction",
+      "finding": "Shared-predicate/list structure is not entailed by coordination. Coordination can join items with separate predicates (“wood burns and charcoal smolders”), while an item noun can appear in a shared-predicate list (“wood and charcoal burn”). Thus “fewer independent predicate assignments” does not distinguish coordination from the item-noun rival without an independently frozen parse.",
+      "counterexample": "“Add salt and stir” coordinates two clauses/operations with no one shared predicate; “wood and charcoal burn” has a shared predicate although both nouns remain independently typed items.",
+      "repair": "Define the unit as a frozen syntactic coordination parse with independently typed conjuncts, compare shared and separate predicates, and make the rival predict a concrete alternative parse. Segmentation ambiguity is a capacity stop until resolved, not by itself evidence against coordination."
+    }
+  ],
+  "overall": "Both designs are useful shortlist questions but neither current falsifier follows from its broad mechanism. GDT428/GDT429 establish exchange-frame observations and working contrasts, not independent opposition, list-scope, or English meaning bindings. No readiness or semantic confirmation follows.",
+  "no_mutation": true
+}
