@@ -1,0 +1,418 @@
+{
+  "review_id": "CLEAN_GAP_PEER_EY",
+  "status": "TWO_REQUIRED_FULL_MAPPING_COMPLETIONS_TWO_APPROVED_CARDS",
+  "reviewed_files": [
+    {
+      "path": "research_registry/decisions/clean_gap_review_ey.json",
+      "sha256": "464b070bb08f59d79ce0effde5a6366f1d2b05f755c65128b6d9d9a6e1f0fe90"
+    },
+    {
+      "path": "research_registry/decisions/source_coverage_gap_batch_ey.json",
+      "sha256": "2746a84454f4d1a3533fecbbb9656ba69b467fd030789553c0212da62519e246"
+    }
+  ],
+  "cards": [
+    {
+      "id": "CLEAN_GAP_EY:fixed_scalar_family_and_same_chol_rivals",
+      "claim_type": "semantic_model",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/REPORT.md",
+          "line": 147,
+          "line_end": 152,
+          "quote": "The [family synthesis](src/FAMILY_SYNTHESIS.md) gives all four wholes one\nconsistent exploratory assignment: dan very little, dain little, daiin much,\ndaiiin very much. All four are C0. This is the next practical baseline because\nit needs fewer unobserved comparison standards than the preserved less/more/\nmuch/too-much rival. Neither beats the I–IV hypothesis on decoded meaning;\nthe global dictionary and renderer are unchanged.",
+          "sha256": "826a5fe21f0cc7e60cda633b72f4b475950a7d21c66f7be8126d8b4098f5cc32"
+        },
+        {
+          "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/WORKING_THEORY.md",
+          "line": 58,
+          "line_end": 65,
+          "quote": "For the next text work, use the explicit C0 baseline dan=very little,\ndain=little, daiin=much, daiiin=very much. This supplies a fixed whole-family\nalternative, not four confirmed meanings or a new character decoder.\nThe less/more/much/too-much rival and the old I–IV hypothesis stay visible.\nWith the same tentative chol=dry, the three written chol dain/daiin/daiiin\npairs conditionally become slightly/very/extremely dry; the comparison rival\ninstead says drier/very/too dry. No picture or source decides those values yet.\nSee src/FAMILY_SYNTHESIS.md for confidence, evidence and exact alternatives.",
+          "sha256": "566421c8069077d7d5587e578526babcff63af7d0118ad9a39c4e436e32c4d6c"
+        },
+        {
+          "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/src/FAMILY_SYNTHESIS.md",
+          "line": 5,
+          "line_end": 23,
+          "quote": "The next exploratory family default is **A: very little / little / much /\nvery much**. It costs fewer unobserved comparison standards and normative\nlimits than B. This is a practical research priority, not measured semantic\nsuperiority. The global dictionary/renderer stays unchanged.\n\n## Four fixed meanings rather than four convenient repairs\n\n| Whole | A: next exploratory default | B: preserved alternative | Confidence in exact meaning |\n|---|---|---|---|\n| dan | very little / very low magnitude | less than a comparison standard | C0: unconfirmed |\n| dain | little / low magnitude | more than a comparison standard | C0: unconfirmed |\n| daiin | much / high magnitude | much / high magnitude | C0: unconfirmed |\n| daiiin | very much / very high magnitude | too much / beyond an acceptable limit | C0: unconfirmed |\n\nEvidence for spelling families is not evidence for these exact values.\nThe original I–IV interpretation remains a separate rival, not the premise\nfrom which this table is translated. No EVA character receives a meaning.\nThe [model declaration](FAMILY_MODEL_PROPOSAL.md) records its pre-context\ndraft revision, exact scope rule, predictions and subsequent results.",
+          "sha256": "1d9e8d208cf0a97e12eb89fc6c27b09e6d02fd678437923128b9b616ef376d33"
+        },
+        {
+          "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/src/FAMILY_SYNTHESIS.md",
+          "line": 44,
+          "line_end": 61,
+          "quote": "A retrospective descriptive query preserves11 complete loci with `chol` plus\none family member in at least one reading. This is separate from the83-locus\nblock selection. It supplies the following exact-whole contrast without\nassigning a new meaning to each preceding word:\n\n| Source phrase | Representative source | If chol remains dry?, A says | B says | Ordinal rival |\n|---|---|---|---|---|\n| chol dain | f1r.23 and f81r.10 | slightly dry? | drier? | dry in grade II? |\n| chol daiin | f20v.10 and f32v.10 | very dry? | very dry? | dry in grade III? |\n| chol daiiin | f17r.11 | extremely dry? | too dry? | dry in grade IV? |\n\nThese cited pairs agree in all three readings; they are one manuscript,\nnot independent witnesses. The pair inventory is inherited evidence applied\nto new meanings, not a newly discovered paradigm. Dry itself remains C0.\nNeither material identity, actual dryness, comparison baseline nor harm is\nindependently established. Thus the table gives explicit competing content,\nnot a translated passage. There is no exact chol dan pair in this particular\nwithin-locus scan. Its absence does not refute the very-low candidate.",
+          "sha256": "1d9e8d208cf0a97e12eb89fc6c27b09e6d02fd678437923128b9b616ef376d33"
+        }
+      ],
+      "decision": "approve_with_quarantine_evidence",
+      "reason": "Both full A/B assignments, ordinal rival and conditional chol applications agree with FAMILY_SYNTHESIS. Inherited pairs and model priorities are not independent semantics. The absence of chol dan in this particular scan does not refute A.",
+      "additional_evidence": [
+        {
+          "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/REPORT.md",
+          "line": 128,
+          "line_end": 142,
+          "quote": "**Corrected provenance:** Yale1006204 is labelled \"72v (part)\", not f72r.\nPASS1008 propagated the wrong-side binding into GDT791 and GDT811. Their\nf72r visual authentication through that image is quarantined; their correctly\nselector-bound text is not discarded. Yale1006203 is the proper parent. The\npresent inspection covers a correctly sourced f72r3 target region, not a\ncomplete new foldout audit. [Exact chain, affected claims and source hashes](src/F72R_SOURCE_CORRECTION.md).\nThe old bound files remain reproducible as historical records of the error;\nthis correction governs current interpretation. No f72v image was reopened.\n\nThe two inspected label contexts do not choose number versus intensity.\nRF1b reads tol aiin at f67r2.56 and fused oteeydaiin at f72r3.9. The latter\nphrase resembles the exact oteey daiin prose pair on f100v.14 in ZL3b/IT2a;\nit supplies no plant/person/property identity. Its explicit GDT388 packet has\nzero eligible edges and fails capacity, held-folio and mobile-null gates.\nNo scored relation or decoded word follows. Admissions remain34 page keys /",
+          "sha256": "826a5fe21f0cc7e60cda633b72f4b475950a7d21c66f7be8126d8b4098f5cc32"
+        }
+      ],
+      "scope_note": "Wrong-canvas f72r authentication remains quarantined; correctly selector-bound text survives. This card does not use the false image binding or count one manuscript as three witnesses."
+    },
+    {
+      "id": "CLEAN_GAP_EY:v3_medium_process_worksheet",
+      "claim_type": "semantic_model",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v3/V3_THEORY_SELECTION.md",
+          "line": 75,
+          "line_end": 92,
+          "quote": "## Strongest rival\n\nThe adversarial model reads the same cards as a medium/process worksheet:\n\n```text\nqokaiin = working liquid or matrix\nL/O      = part/portion slot\nAIIN     = mix/apply/contact operation\nY        = current/same referent\nCTHY     = work/treat, possibly heat\n```\n\nIt explains the f82r boundary repetition as continuous material rather than a\ncatchword. It loses provisionally because qokaiin is strongly entry-biased,\nhas nine different right neighbors, and owns no independently identified\nliquid referent. Literal WATER remains only a `.24` subordinate hypothesis.\nThis rival wins if fixed-page ownership ties qokaiin specifically to liquid-\nbearing components and not to dry, solid or route-only contexts.",
+          "sha256": "9fd0ff502063c00ef596c08241ae14093282e50ee92b40963590a9bcae12f412"
+        }
+      ],
+      "decision": "approve",
+      "reason": "The V3 five-unit worksheet and boundary-repeat interpretation is an authored full rival beyond qokaiin matrix/WATER atom cards. Provisional editorial loss, .24 literal-water subordinate hypothesis and unresolved independent ownership remain explicit; no claim of tested liquid identification."
+    },
+    {
+      "id": "CLEAN_GAP_EY:network_core_contact_rival",
+      "claim_type": "semantic_model",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt827_joint_core_paragraph_contrast/REPORT.md",
+          "line": 5,
+          "line_end": 11,
+          "quote": "## Main outcome\n\nFour distinct eight-whole models were compared over the same four known text\nwindows. The inherited physical-transformation account no longer has a\nprotected water/becomes core in this comparison. The exercise does not show\nthat it is false: it shows concretely why the polished f77r.35 sentence is\ninsufficient to prefer it. Two independent agents supplied countermodels;",
+          "sha256": "9dcd5f3aee7145861bd7c20d0db9cae65876296a0515f463c86fe3bf5e6497ae"
+        },
+        {
+          "path": "experiments/yolo/gdt827_joint_core_paragraph_contrast/REPORT.md",
+          "line": 29,
+          "line_end": 36,
+          "quote": "NETWORK independently proposes outlet/its/joins/channel/where/basin and\nleaves the last two wholes unknown. Its relation is contact between coexisting\nphysical endpoints, not a change of substance or physical liquid flow.\nMANUAL instead proposes rub/press/stroke/hand/foot/skin/on/it. It leaves much\nof the showcase line unknown and tries to explain repeated action sequences\nelsewhere. These are different whole-core hypotheses, not eight synonyms for\ngeneric work. Full definitions/debts are in the two agent notes and the\n32-row CANDIDATES.tsv, with C0 confidence for every model/whole entry.",
+          "sha256": "9dcd5f3aee7145861bd7c20d0db9cae65876296a0515f463c86fe3bf5e6497ae"
+        },
+        {
+          "path": "experiments/yolo/gdt827_joint_core_paragraph_contrast/REPORT.md",
+          "line": 38,
+          "line_end": 45,
+          "quote": "## What distinguishes them in the actual selected text\n\n| Source fact | Consequence for the competing accounts |\n|---|---|\n| f75r.38 AABBA; f76r.52 BAB; f77r.29 AA | MANUAL gives rub-rub-press-press-rub, press-rub-press, rub-rub. This preserves actions but was invented from these known patterns. Others leave the pair unknown; that is missing explanation, not their refutation. |\n| f81r.27 ZL/IT chedy.qokedy | MANUAL produces on + imperative press: a concrete local syntactic debt. Do not rescue it by changing press to pressure. Other models do not earn a win by leaving qokedy unknown. |\n| f77r.34 qokaiin ... chedy ... qokaiin.qokaiin | Air, pipe, foot and basin all remain repeated. No model may turn the last pair into two objects, both feet, or emphasis without a construction. FLOW also needs a flowing subject: the preceding pipe cannot automatically be it. |\n| IT f77r.34 qol.chedy after an earlier chedy | In MANUAL, on-it-on; in NETWORK, joins-there-joins. Both inherit a real extra relation, not an erased word. Root's core-only TRANSFORMATION/FLOW leave qol unknown; full inherited extension retains its prior extra becomes debt. |",
+          "sha256": "9dcd5f3aee7145861bd7c20d0db9cae65876296a0515f463c86fe3bf5e6497ae"
+        }
+      ],
+      "decision": "fix_required_exact_whole_contract",
+      "replacement_claim": "GDT827 proposes the exact-whole C0 NETWORK model: qokain=channel, qokaiin=basin, chedy=joins, solkeey=outlet, okaiin=its, sheedy=where, qol=there, otedy=inlet. These denote spatial contact between coexisting physical endpoints, not substance transformation or flowing contents. Antecedents, both joined endpoints, clause scope and inlet/outlet direction remain unproved; no substring export is licensed. In the known f77r.35 showcase, chedaiin and chealy stay unknown: these are the last two showcase wholes, not missing entries in the eight-key NETWORK inventory. qokeey, qopchedy, dar and raiin also remain unknown in this isolated model. This is a post-exposure whole-core rival applied to four known windows, without a model winner, independently identified referents or complete relational grammar.",
+      "additional_evidence": [
+        {
+          "path": "experiments/yolo/gdt827_joint_core_paragraph_contrast/src/VISUAL_RELATIONAL_READER.md",
+          "line": 17,
+          "line_end": 33,
+          "quote": "| Exact whole | Fixed trial gloss | Scope restriction and principal debt |\n|---|---|---|\n| qokain | channel? | A bounded passage between places, not the fluid in it. No substring export to qokedy/qolkain. |\n| qokaiin | basin? | Container/place, not water, air or an ordinal. Repeated spellings are not automatically different basins. |\n| chedy | joins? | Physical contact/connectivity between two referents, not becomes, heats or contains. Binary argument identities remain unproved. |\n| solkeey | outlet? | A discharge opening, not vapour. Source and discharge direction unproved. |\n| okaiin | its? | Possessive reference, with antecedent unknown. Post-head placement at .35 is an additional grammatical hypothesis. |\n| sheedy | where? | Locative linkage, not if, with or a physical condition. Clause and antecedent unknown. |\n| qol | there? | Spatial anaphor, not material-from-there or a causal therefore. Location and scope unknown. |\n| otedy | inlet? | A receiving opening, not a named liquid or source substance. Direction cannot be read from blue paint. |\n\nAll eight are exact-whole C0 inventions selected after seeing the inherited\nmeanings, images and passage. Some reuse relational intuitions already present\nin the route (possession and openings); none is independent lexical evidence.\nNo historical language, sounding, genre attribution or etymology is proposed.\nqokeey, qopchedy, dar, raiin, chedaiin and chealy remain unknown in *this*\nrival, not silently redefined or borrowed to finish its sentences.",
+          "sha256": "bc1df068aef7c791336245a78eb82c5c96b9d643b806f917d4ff02746a3084c2"
+        }
+      ],
+      "reason": "Report names six showcase outputs, but the independently authored full NETWORK inventory adds qol/otedy and leaves chedaiin/chealy unknown. A glossary list without its whole-key mapping is not the complete asserted model."
+    },
+    {
+      "id": "CLEAN_GAP_EY:manual_core_action_rival",
+      "claim_type": "semantic_model",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt827_joint_core_paragraph_contrast/REPORT.md",
+          "line": 5,
+          "line_end": 11,
+          "quote": "## Main outcome\n\nFour distinct eight-whole models were compared over the same four known text\nwindows. The inherited physical-transformation account no longer has a\nprotected water/becomes core in this comparison. The exercise does not show\nthat it is false: it shows concretely why the polished f77r.35 sentence is\ninsufficient to prefer it. Two independent agents supplied countermodels;",
+          "sha256": "9dcd5f3aee7145861bd7c20d0db9cae65876296a0515f463c86fe3bf5e6497ae"
+        },
+        {
+          "path": "experiments/yolo/gdt827_joint_core_paragraph_contrast/REPORT.md",
+          "line": 29,
+          "line_end": 45,
+          "quote": "NETWORK independently proposes outlet/its/joins/channel/where/basin and\nleaves the last two wholes unknown. Its relation is contact between coexisting\nphysical endpoints, not a change of substance or physical liquid flow.\nMANUAL instead proposes rub/press/stroke/hand/foot/skin/on/it. It leaves much\nof the showcase line unknown and tries to explain repeated action sequences\nelsewhere. These are different whole-core hypotheses, not eight synonyms for\ngeneric work. Full definitions/debts are in the two agent notes and the\n32-row CANDIDATES.tsv, with C0 confidence for every model/whole entry.\n\n## What distinguishes them in the actual selected text\n\n| Source fact | Consequence for the competing accounts |\n|---|---|\n| f75r.38 AABBA; f76r.52 BAB; f77r.29 AA | MANUAL gives rub-rub-press-press-rub, press-rub-press, rub-rub. This preserves actions but was invented from these known patterns. Others leave the pair unknown; that is missing explanation, not their refutation. |\n| f81r.27 ZL/IT chedy.qokedy | MANUAL produces on + imperative press: a concrete local syntactic debt. Do not rescue it by changing press to pressure. Other models do not earn a win by leaving qokedy unknown. |\n| f77r.34 qokaiin ... chedy ... qokaiin.qokaiin | Air, pipe, foot and basin all remain repeated. No model may turn the last pair into two objects, both feet, or emphasis without a construction. FLOW also needs a flowing subject: the preceding pipe cannot automatically be it. |\n| IT f77r.34 qol.chedy after an earlier chedy | In MANUAL, on-it-on; in NETWORK, joins-there-joins. Both inherit a real extra relation, not an erased word. Root's core-only TRANSFORMATION/FLOW leave qol unknown; full inherited extension retains its prior extra becomes debt. |",
+          "sha256": "9dcd5f3aee7145861bd7c20d0db9cae65876296a0515f463c86fe3bf5e6497ae"
+        }
+      ],
+      "decision": "fix_required_exact_whole_contract",
+      "replacement_claim": "GDT827 proposes the exact-whole C0 MANUAL model: qokeedy=rub, qokedy=press, shedy=stroke, qokain=anatomical hand, qokaiin=anatomical foot, qokeey=skin, chedy=on and qol=it. Rub is back-and-forth hand contact, press sustained contact force and stroke a single sweep; imperative force is hypothesized. On denotes physical surface contact/location and it a singular anaphor with unknown antecedent. This differs from the showcase eight-key inventory: solkeey, okaiin, sheedy, chedaiin and chealy receive no borrowed meanings, and no component inheritance or opaque-entity normalization is allowed. Known repeated movements motivate the model rather than independently confirming it. On plus imperative press, unresolved antecedents, repeated foot/relations and differing f81r paragraph boundaries remain debts; press cannot silently become pressure, nor foot-foot both feet. No bodily-treatment genre or global winner is established.",
+      "additional_evidence": [
+        {
+          "path": "experiments/yolo/gdt827_joint_core_paragraph_contrast/src/PRACTICAL_READER.md",
+          "line": 13,
+          "line_end": 26,
+          "quote": "| Exact source group | Trial gloss | Fixed physical meaning |\n|---|---|---|\n| `qokeedy` | rub | Move the contacting hand back and forth against a surface. |\n| `qokedy` | press | Exert sustained contact force against a surface. |\n| `shedy` | stroke | Move the contacting hand along a surface in a single sweep. |\n| `qokain` | hand | The anatomical hand. |\n| `qokaiin` | foot | The anatomical foot. |\n| `qokeey` | skin | The bodily covering. |\n| `chedy` | on | Physical surface contact/location, not becomes or contains. |\n| `qol` | it | A singular anaphoric referent; antecedent must still be recovered. |\n\nThe operational glosses are deliberately different physical movements, not interchangeable “do/process/treat” placeholders. Imperative force is part of the hypothesis, not an independently identified grammatical fact. Anatomical hand is not freely swapped to arm, operator, instrument, or measure; foot is not lower part, base, or unit. Skin is not heat or a preparation. `it` cannot silently become from-it, therefore, or there.\n\nNo component inheritance: `okeedy`, `qokeey`, and `qokeedy` are separate; `qolchedy`, `olchedy`, `lchedy`, `solchedy`, and `chedaiin` stay unknown. Bracket alternatives and extended entities stay opaque. In particular, RF `qokee@152;y` is not assigned rub merely because other editions read `qokeedy`.",
+          "sha256": "d9671090a67d28afed6982f40b29836af7e702af5823e039bf5fefc71714287c"
+        },
+        {
+          "path": "experiments/yolo/gdt827_joint_core_paragraph_contrast/src/PRACTICAL_READER.md",
+          "line": 7,
+          "line_end": 9,
+          "quote": "This is a concrete C0 rival, not a translation or a claim that these are treatment instructions. Its attraction is a coherent inventory of physical operations and contact surfaces across paragraphs. Its weakness is that this inventory was chosen after seeing the patterns, and large portions remain unread. It does not establish eight words, POS, syntax, or a manuscript genre.\n\nNative paragraph flags were separately checked after the coordinator relayed a boundary-audit warning: ZL marks f81r.16–31 as one paragraph; IT ends one at .23 and starts another at .24; RF has no start/end flags throughout this selection. ZL and IT agree on the endpoints of the other three assigned blocks. Thus “complete blocks” describes the supplied selection, not three-edition agreement on paragraph segmentation. The f81r sketch must pay an additional continuity debt across the IT boundary. This metadata audit is not independent semantic evidence, and the relayed correction is an additional exposure; no competing glosses were relayed.",
+          "sha256": "d9671090a67d28afed6982f40b29836af7e702af5823e039bf5fefc71714287c"
+        }
+      ],
+      "reason": "MANUAL has a different eight-key inventory from the showcase. Preserve exact physical operations and anaphor/whole restrictions instead of inferring bindings from report order."
+    }
+  ],
+  "source_reassessment_checks": [
+    {
+      "source_id": "LEGACY_COMPONENT:6414665970532e6ca3b6",
+      "decision": "approve_reassessment_with_card_fixes",
+      "source_decision": "historical_full_contract_recovered",
+      "reason": "Exact previously nonconcrete intake reassessed for the full proposition; see proposed cards and explicit current counterparts.",
+      "counterpart_ids": [],
+      "prior_intake_checked": true,
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/REPORT.md",
+          "line": 147,
+          "line_end": 152,
+          "quote": "The [family synthesis](src/FAMILY_SYNTHESIS.md) gives all four wholes one\nconsistent exploratory assignment: dan very little, dain little, daiin much,\ndaiiin very much. All four are C0. This is the next practical baseline because\nit needs fewer unobserved comparison standards than the preserved less/more/\nmuch/too-much rival. Neither beats the I–IV hypothesis on decoded meaning;\nthe global dictionary and renderer are unchanged.",
+          "sha256": "826a5fe21f0cc7e60cda633b72f4b475950a7d21c66f7be8126d8b4098f5cc32"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:82d4c081388a24fb4c57",
+      "decision": "approve_audit_disposition",
+      "source_decision": "existing_full_counterpart",
+      "reason": "The full working-miscellany assertion and its same-workflow comparison are explicitly in the current whole card, not merely its quote.",
+      "counterpart_ids": [
+        "SEM:33e2ee75762d0ba7b0ee"
+      ],
+      "prior_intake_checked": true,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v76/V76_R4_CHANCERY_BOOK_PURPOSE_REPORT.md",
+          "line": 31,
+          "line_end": 35,
+          "quote": "Dieser Rivale ist keine bloße Nullhypothese. Er besitzt denselben\nProduktionsworkflow und gewinnt bei den technischen Nachträgen B5/B6 sowie bei\nden Astro-Seiten. Das Gesundheitskompendium gewinnt knapp, weil nackte Figuren\nund die Abfolge Stoff → Anwendung → Himmelswahl eine geschlossenere\nGesamtbenutzung ergeben.",
+          "sha256": "cb9949e811d576be700044655a884e30af18d146d2f3fbc49096e3484c7281e1"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:92721030923dea850f16",
+      "decision": "approve_reassessment_with_card_fixes",
+      "source_decision": "historical_full_contract_recovered",
+      "reason": "Exact previously nonconcrete intake reassessed for the full proposition; see proposed cards and explicit current counterparts.",
+      "counterpart_ids": [],
+      "prior_intake_checked": true,
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/WORKING_THEORY.md",
+          "line": 58,
+          "line_end": 65,
+          "quote": "For the next text work, use the explicit C0 baseline dan=very little,\ndain=little, daiin=much, daiiin=very much. This supplies a fixed whole-family\nalternative, not four confirmed meanings or a new character decoder.\nThe less/more/much/too-much rival and the old I–IV hypothesis stay visible.\nWith the same tentative chol=dry, the three written chol dain/daiin/daiiin\npairs conditionally become slightly/very/extremely dry; the comparison rival\ninstead says drier/very/too dry. No picture or source decides those values yet.\nSee src/FAMILY_SYNTHESIS.md for confidence, evidence and exact alternatives.",
+          "sha256": "566421c8069077d7d5587e578526babcff63af7d0118ad9a39c4e436e32c4d6c"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:8f084e0f22a84cd478d5",
+      "decision": "approve_audit_disposition",
+      "source_decision": "existing_document_model_summary",
+      "reason": "The GDT236 summary adds the current abstract lattice count and opacity limit to the existing q13 therapeutic/balneological-with-hydraulic-setting document model. These do not constitute a new separately testable semantic purpose. GDT239 is narrower page-local and is not used as a forced whole-q13 identity. No new card and no relation merge proposed.",
+      "counterpart_ids": [
+        "SEM:58445d074ebfab547ce0",
+        "SEM:20912ed9ab65fa3e132b"
+      ],
+      "prior_intake_checked": true,
+      "evidence": [
+        {
+          "path": "GDT236_TRANSLATION_FRONTIER_REPORT.md",
+          "line": 53,
+          "line_end": 57,
+          "quote": "The manuscript is partially parsed at the level of document mechanics:\nregister, record, field, graphical-label rendering, and closure are plausible\nlayers.  q13 has a complete 701-field role lattice and a leading\ntherapeutic/hydraulic practical-record *document hypothesis*, but every field\nstill carries alternatives and every source identity is opaque.",
+          "sha256": "592f6563ad48823bc373d94b6d39ddab85a4f6ba4e0b70b3f5ce3ca39335d0a3"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:a6a2d135e70b149c0812",
+      "decision": "approve_reassessment_with_card_fixes",
+      "source_decision": "historical_full_contract_recovered",
+      "reason": "Exact previously nonconcrete intake reassessed for the full proposition; see proposed cards and explicit current counterparts.",
+      "counterpart_ids": [],
+      "prior_intake_checked": true,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v3/V3_THEORY_SELECTION.md",
+          "line": 87,
+          "line_end": 92,
+          "quote": "It explains the f82r boundary repetition as continuous material rather than a\ncatchword. It loses provisionally because qokaiin is strongly entry-biased,\nhas nine different right neighbors, and owns no independently identified\nliquid referent. Literal WATER remains only a `.24` subordinate hypothesis.\nThis rival wins if fixed-page ownership ties qokaiin specifically to liquid-\nbearing components and not to dry, solid or route-only contexts.",
+          "sha256": "9fd0ff502063c00ef596c08241ae14093282e50ee92b40963590a9bcae12f412"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:d09d80d13f543f700b1d",
+      "decision": "approve_audit_disposition",
+      "source_decision": "scope_comparison_unresolved",
+      "reason": "GDT813 explicitly permits an unpictured derived preparation as an extra N assumption. Whether the complete current N construction already addresses this specific f88v referent extension needs a further full-case check; no placeholder or assertion of missingness added.",
+      "counterpart_ids": [],
+      "prior_intake_checked": true,
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt813_f17_content_word_transfer/REPORT.md",
+          "line": 88,
+          "line_end": 94,
+          "quote": "On the correct Yale1006233 f88v region, both manual reviewers see the target\nas a short isolated inscription in the second illustrated band, separate\nfrom the prose above and below. No leader or caption box uniquely assigns\nit to a root, leaf, whole specimen or group. The visible fragment has leaves;\nit is not powder. An unpictured derived preparation is possible but is an\nadditional N hypothesis. Exact official URLs, hashes and limits are in\nsrc/SOURCE_REGISTER.tsv; no new manuscript page was admitted.",
+          "sha256": "d945b7e02bb21be92767a7f12eb2e7597eebfac7647d19bdbd08f55d00e4d92e"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:f326c9973d680fb4bb90",
+      "decision": "approve_reassessment_with_card_fixes",
+      "source_decision": "historical_full_contract_recovered",
+      "reason": "Exact previously nonconcrete intake reassessed for the full proposition; see proposed cards and explicit current counterparts.",
+      "counterpart_ids": [],
+      "prior_intake_checked": true,
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt827_joint_core_paragraph_contrast/REPORT.md",
+          "line": 29,
+          "line_end": 36,
+          "quote": "NETWORK independently proposes outlet/its/joins/channel/where/basin and\nleaves the last two wholes unknown. Its relation is contact between coexisting\nphysical endpoints, not a change of substance or physical liquid flow.\nMANUAL instead proposes rub/press/stroke/hand/foot/skin/on/it. It leaves much\nof the showcase line unknown and tries to explain repeated action sequences\nelsewhere. These are different whole-core hypotheses, not eight synonyms for\ngeneric work. Full definitions/debts are in the two agent notes and the\n32-row CANDIDATES.tsv, with C0 confidence for every model/whole entry.",
+          "sha256": "9dcd5f3aee7145861bd7c20d0db9cae65876296a0515f463c86fe3bf5e6497ae"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_PROPOSAL:fc66b6638ab866193870a741",
+      "decision": "approve_audit_disposition",
+      "source_decision": "existing_model_comparison_summary",
+      "reason": "Conclusion restates the two declared book models sharing the already specified production mechanism; no additional concrete word meaning or production step. Both whole cards, not a bare gloss, were checked.",
+      "counterpart_ids": [
+        "SEM:7d53d22fcd484fd16310",
+        "SEM:d35bae1fd5be8e072796"
+      ],
+      "prior_intake_checked": true,
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v76/V76_R3_TECHNICAL_BOOK_PURPOSE_REPORT.md",
+          "line": 170,
+          "line_end": 182,
+          "quote": "## Codebuchregel und Interpretationsgrenze\n\nV76 R3 fuegt **null** portable Woerter, **null** Kartenbedeutungen und **null**\nKlartextklauseln hinzu. Die alten Mnemonics bleiben\n`PROVISIONAL_UNATTESTED_MNEMONIC`; konkrete deutsche Inhaltswoerter sind nur\noccurrence-gebundene Masterexemplar-Expansionen. Keine reale Quelle von\n1370–1450 wird als Codebucheintrag beansprucht, also wird auch kein\nWörterbuchgloss lizenziert.\n\nDas positive Ergebnis ist enger: Beide Buchzwecke koennen mit derselben\nlernbaren Bildbesitzer-, Register- und Namensraummaschine geschrieben werden.\nDer lokale technische Rival ist ernsthaft; der medizinische Gesamtzweck ist\ninhaltlich geschlossener. Auf diesen zehn Seiten bleibt der Buchzweck offen.",
+          "sha256": "08b56231fd6b1c2cea83d4ca32f8e51ef8ba69cba00ba25b9329ddaf42a472a4"
+        }
+      ]
+    }
+  ],
+  "current_counterpart_bindings": [
+    {
+      "id": "SEM:ebf457fec93f4691ffd3",
+      "card_basis": "5e227f440cc23ed3044b6b34db535ed4609d8348f6ed839e5e039d94d012a075",
+      "effective_basis": "5606aa0c9b8cbaea3b19b0371bddafbc9b8b5dd77c22274148c44530eb198ea8",
+      "claim": "E W daiin intensifies the already written scalar expression; with W=dain the two fixed models yield distinct readings.",
+      "case_ids": [
+        "REPORT_PROPOSAL:e6fd4ff30114b3f573ec"
+      ]
+    },
+    {
+      "id": "SEM:7f06530165e60f1c3632",
+      "card_basis": "b14a78bc1995988b1362197a335e9e46c0b900a16217be4ad6ff3822d87bc0bd",
+      "effective_basis": "095248d62c98f3c14b0052adcfa660d3fe0a79adacc35ba2c15fe780de1b6c05",
+      "claim": "Within the two fixed scalar models, E daiin daiin expresses sehr viel E, preserving both daiin occurrences.",
+      "case_ids": [
+        "REPORT_PROPOSAL:86bfe7f3adde4000465d"
+      ]
+    },
+    {
+      "id": "SEM:e3b4e94e531ba2af9eef",
+      "card_basis": "cd82b9c76c3fbab31976c111a31ad870ae362e819655dff6464f7ebcece8c0e1",
+      "effective_basis": "a551bdecacfa97a9f3902210b28d5007b002ce01235a0e86ad8bfb3d784fa394",
+      "claim": "GDT816 compares two fixed C0 content worlds. Both set chor=leaves?, ychey=plant sap?, otedy=water source?, qokain=water? and solkeey=water vapour?. Q sets okol=botanical medicinal material? and okaiin=humorally warm?; R sets okol=whole plant? and okaiin=whose?. Both retain otchol=this?, cthar=root?, chol=humorally dry? and dan/dain/daiin/daiiin=very little/little/much/very much?. Thus the f88r sap is warm/dry under Q or belongs to the earlier written plant under R; the f77r source is a proposed R owner. The common humoral refinement was introduced after external inspection and is not confirmation by the original physically warm Q; other models and scalar alternatives remain.",
+      "case_ids": [
+        "CLEAN_GAP_EM:fixed_named_qr_content_worlds"
+      ]
+    },
+    {
+      "id": "SEM:f77bd45d9cf83cddef64",
+      "card_basis": "1c00d9c26c43d9e7153ada99aae1ade9885d55f5319a7cbb47efe0a0dbbf0c68",
+      "effective_basis": "911cf00397ed50cf47e76d9992d6e2e462b1d4bcbe9c71a84414e0785f50d350",
+      "claim": "qokaiin denotes a recurrent working medium or liquid matrix.",
+      "case_ids": [
+        "ROOT400:4e0236fe43a242aef8b6"
+      ]
+    },
+    {
+      "id": "SEM:3602d03c1a3de6111e3d",
+      "card_basis": "51715b2e8e86c548cc9a1dd6930060fce99064e9c7341587f5f3c8097c7f16c3",
+      "effective_basis": "1ad208a29142305d4908212d30e259b31a9e5599dc461690550b222ada869bbb",
+      "claim": "qokaiin means WATER.",
+      "case_ids": [
+        "ROOT400:501f67b365566e30b53c"
+      ]
+    },
+    {
+      "id": "SEM:33e2ee75762d0ba7b0ee",
+      "card_basis": "92636f56cd14dd515b6a26252dcfdda83ca547bdb86f0e5a15d12cd2ec23b7bf",
+      "effective_basis": "79b92b02e9aad2133b53f1498d1d5aa702c82f39f7fc522690d9f96290d12317",
+      "claim": "Ein illustriertes Pflanzenmaterial-, Badehaus-/Waschhaus- und astronomisches Arbeitsmiszellaneum erklärt dieselben zehn Seiten ohne medizinische Indikationen: - Pflanzenbilder besitzen Rohstoff-, Press-, Lager- und Auszugslose; - Biological zeigt Becken-, Gefäß-, Wasch-, Übergabe- und Wartungsstationen; - Astro ist ein gewöhnlicher Himmels-/Kalenderalmanach. Dieser Rivale ist keine bloße Nullhypothese. Er besitzt denselben Produktionsworkflow und gewinnt bei den technischen Nachträgen B5/B6 sowie bei den Astro-Seiten. Das Gesundheitskompendium gewinnt knapp, weil nackte Figuren und die Abfolge Stoff → Anwendung → Himmelswahl eine geschlossenere Gesamtbenutzung ergeben",
+      "case_ids": [
+        "LATE_SIDEQUEST:f3d78c08a072ed72e50b"
+      ]
+    },
+    {
+      "id": "SEM:58445d074ebfab547ce0",
+      "card_basis": "4b461705781f87f5e5000452a7d31c4d6123d9a130d39cce7e4cb3e50727e43e",
+      "effective_basis": "8ac619543d29b1ce70f266b28f1ff23b31904444bc180a5dc521134eb7d81611",
+      "claim": "A hybrid therapeutic/balneological practical record combines hydraulic/setting description with shorter fields.",
+      "case_ids": [
+        "REPORT_PROPOSAL:46133e2c3d6c057dc0f8"
+      ]
+    },
+    {
+      "id": "SEM:20912ed9ab65fa3e132b",
+      "card_basis": "0abbf89126ba0e25864651f3a4b4ed9b35f0b9436472329dcfcd40eee3fcd9eb",
+      "effective_basis": "ec785191300c20e41864ffdcdadbead2501f48dbe63278be233e025affbac214",
+      "claim": "The q13 pages contain therapeutic balneological records with an abstract hydraulic/process representation.",
+      "case_ids": [
+        "REPORT_PROPOSAL:74a317d59897a637aa3e"
+      ]
+    },
+    {
+      "id": "SEM:7d53d22fcd484fd16310",
+      "card_basis": "545d465a3dd2b0776d36157891189aafbd00605350e7e7d469cd9280c2661393",
+      "effective_basis": "2b830e1a9e66888c96503899a4b6c13a49513fda4eec0823204b7da081413735",
+      "claim": "Competing scope-wide readings: an iatromedical compendium versus a nonmedical working almanac; their Herbal, Biological and Astro sections receive different content interpretations.",
+      "case_ids": [
+        "LATE_SIDEQUEST:149d4919f6cffc42c1b2"
+      ]
+    },
+    {
+      "id": "SEM:d35bae1fd5be8e072796",
+      "card_basis": "d2fac22874bdfc815ada3b316f1c82474f83ef4d43c87258d871968c59c5ab58",
+      "effective_basis": "6ca80aab7287813b2250dfe31fdd833d55ba9d09fc986d2869ff07f4a3d40d16",
+      "claim": "Proposed historical production model: Ein Kompilator waehlt Bild- und Textelemente aus mehreren Abschnittsvorlagen oder einem gebuendelten Masterexemplar. Pflanzen, Figuren-/Apparatekonfigurationen und Himmelsdiagramme werden als grosse Seitenbesitzer geplant und zuerst eingetragen. Der Kompilator teilt jedem Resttextfeld den kleinsten lokalen Besitzer oder Adressraum zu. Ein Schreiber uebernimmt ganze gelernte Karten oder Kopiersegmente und den konkreten Inhalt aus der Vorlage; die Manuskriptform muss den Inhalt nicht allein tragen. Der Text wird um Konturen und Bildtaschen herum neu gebrochen. Dadurch darf eine Aussage physische Zeilen kreuzen und eine Zeile mehrere lokale Buchungen enthalten. Mehrere Haende teilen sich Quire, Seiten oder Sektionen. Sie muessen nur dieselbe Besitzer-/Resetregel und die formalen Karten beherrschen; lokale Renderer und lokale Endkadenzen duerfen variieren. Korrektur prueft lokale Besitzer, Schlusszeichen und Auslassungen, nicht einen erfundenen Gesamtstrom oder eine seitenweite Astroreihenfolge. Das ist eine Produktionsrekonstruktion, kein Beweis der tatsaechlichen Chronologie. Dass Text an Bilder angepasst ist, kann auch nur Platzmanagement sein. Mehrere Haende koennen bloss Quire geteilt haben",
+      "case_ids": [
+        "LATE_SIDEQUEST:8902472670ad83c8bf61"
+      ]
+    }
+  ],
+  "selection_audit": {
+    "metadata_candidates": 14,
+    "full_selected_intervals": 8,
+    "recovery_intervals": 4,
+    "proposed_cards": 4,
+    "existing_counterpart_intervals": 3,
+    "unresolved_intervals": 1,
+    "initial_dispositions": 0,
+    "later_reassessments": 8,
+    "limit": "Metadata navigation is not source adjudication. The GDT813 f88v unpictured preparation extension remains an available full-case comparison not yet resolved, not missing manuscript data. No conclusion extends to all GDT812/813/827 assertions."
+  },
+  "validation": {
+    "source_quotes_and_sha256": "PASS",
+    "new_cards_schema": "PASS",
+    "old_intakes_exact": 8,
+    "fresh_counterpart_bases": "PASS",
+    "counterparts": 10,
+    "cases": 10,
+    "safe_sources_only": true
+  },
+  "limits": [
+    "No raw/event tables, image access, external sources, experiments or operative mutation.",
+    "Full scalar model plus local chol consequence counts as one historical contract; fixed NETWORK and MANUAL inventories are two authored rivals, not sixteen independently established glosses.",
+    "No new semantic evidence or global scientific novelty is claimed."
+  ]
+}

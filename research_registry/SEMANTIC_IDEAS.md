@@ -9,17 +9,17 @@ They remain in the source archive. No hypothesis becomes executable by inclusion
 
 | Unit | Count |
 |---|---:|
-| Active semantic hypothesis variants | 3,848 |
+| Active semantic hypothesis variants | 3,852 |
 | Separately typed formal-role cards | 265 |
-| Reviewed source cases, including the correction archive | 4,634 |
+| Reviewed source cases, including the correction archive | 4,638 |
 | Archived source-extraction errors | 44 |
 | Exact normalized assertion repetitions grouped | 477 |
 | Reviewed equivalence groups / display reduction | 49 / 58 |
-| Public semantic display entries | 3,790 |
+| Public semantic display entries | 3,794 |
 
 These are different units, not a deduplicated total of independent theories.
 A local ignored supplement contributes95 semantic cards and one formal card;
-the ordinary local default therefore displays3,885 semantic entries. A fresh
+the ordinary local default therefore displays3,889 semantic entries. A fresh
 public clone has the public view only. Local source files and quotes are not
 published or silently folded into public counts.
 
@@ -56,13 +56,13 @@ an atomic gloss does not cover a complete multi-card model.
 
 Whitespace and backtick typography alone are normalized for exact assertions.
 Explicit equivalence decisions add49 groups without deleting any original ID.
-The identity log also retains six related-but-distinct links,29 rival links and
+The identity log also retains six related-but-distinct links,30 rival links and
 two specializations. Conflicting nonidentity blocks transitive merging; changed
 claim or case bindings require a new review. Shared spelling, shortened wording
 or a matching source title alone proves neither identity nor nonidentity.
 
 Before selecting another identity comparison, consult `IDENTITY_REVIEW_INPUTS.json`
-and the current operative identity log. The manifest records thirty-four hashed review
+and the current operative identity log. The manifest records thirty-eight hashed review
 inputs, including earlier proposal and peer formats missed by the narrower DO
 selection list. It is a bounded coverage receipt, not an automatic pair verdict.
 Update it when new identity reviews are added; distinguish an old recommendation
@@ -73,7 +73,7 @@ source/case counts belong to that representative; `group_scope_cases` counts all
 member cases. Open `--field equivalents` or `--field relations` for the others.
 No failure, success or execution permission propagates across an identity link.
 
-The append-only correction log currently archives44 erroneous exports and restates191
+The append-only correction log currently archives44 erroneous exports and restates196
 source assertions. Every original claim, case and quote remains retrievable,
 including via `--show ID` for archived cards. Numeric columns, alias-column
 misparses, unlicensed constituent exports and metadata are extraction errors;
@@ -83,7 +83,7 @@ not mean rejected, and an old source PASS does not confirm a meaning.
 
 ## Failure memory and conditional priorities
 
-Thirty-nine scoped question dossiers distinguish empirical failure, invalid test,
+Forty scoped question dossiers distinguish empirical failure, invalid test,
 insufficient capacity, missing meaning binding, proposal-only status and historical
 model revision. They appear before inherited experiment context under assessments.
 They state the actual compared subclaim, primary evidence, scope and changed-input
@@ -116,23 +116,27 @@ Later full-scope reviews and audit-only source comparisons live in the bounded
 `decisions/clean_gap_review_*.json` artifacts. An audit pointer does not add a
 source-case payload. Quote overlap alone never certifies complete review.
 
-Latest integrated packet: EQ preserves four full conditional constructions around
-raiin, fire and source reference; the GDT824 compound remains one source group
-and does not solve repeated predicates or identify the input. ET records missing
-referents separately from that composition and the invalid relation packet.
-Downstream gate flags were computed on zero eligible rows or without null
-candidates; this is not an independent failure of each scientific comparison.
-Meaning comparison and scored-relation reopening requirements remain separate.
+Latest integrated packet: EX/EY/FC recovers four full historical contracts:
+q13 content roles, the scalar-family comparison, V3 medium/process worksheet
+and the fixed N/G root-powder/copula comparison. The last preserves the extra
+unpictured-preparation assumption, unknown label owner, favourable copula case,
+radial context and the limited54-locus transfer. No noun or copula is confirmed.
 
-EV completes two existing GDT208/GDT210 genre cards with their figure-denotation
-and hydraulic roles, preserving their IDs. The later comparator preference is
-not an empirical meaning refutation. ES proves a shared declared CTHY tuple but
-leaves whole-claim identity open; OR rivalry stays local to the named V60 cases.
-EU retains one explicitly hypothetical draft-strip/fair-copy production model.
-The broad historical-model category includes production accounts; this case is
-marked historical_manuscript_production and semantic_content_claim=false, not a
-word or content reading. ER's eighteen-span diagnosis is bounded navigation,
-not global completeness. A073/A004 mappings remain available but uninspected.
+FA completes the existing GDT209 model with its restricted comparator-specificity
+limits; EZ links the two GDT208/GDT210 interpretations as historical rivals.
+FB preserves the V3 authors' disagreement about neighbour diversity and keeps
+literal versus carry-adjusted counts separate from semantic falsification.
+FD withholds two proposed NETWORK/MANUAL duplicates: their named eight-key models
+were already addressable through active-state cases. Existing IDs now contain
+the full mappings and debts. Raw reviews and exact earlier EY snapshots remain.
+A073/A004 mappings remain available but uninspected, not missing source data.
+
+Before adding a fuller model card, check whether an existing short card already
+names that uniquely defined historical source model. Compare its complete case
+and defining sources across intake paths; enrich the existing ID when appropriate.
+A short description is not automatically a different proposition. Conversely,
+a broad card quoting an unrelated claim does not automatically cover that claim.
+FD records a real selection error, not two newly discovered semantic mechanisms.
 
 Four append-only type alignments preserve the original claims and IDs. Pure
 ordering/reset over predefined roles is formal, including the corrected DE335

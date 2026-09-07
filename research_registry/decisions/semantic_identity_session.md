@@ -393,3 +393,24 @@ display reductions and37 other relations;39 scoped dossiers and9 unready
 priorities. Identity navigation includes36hashed reviews. Source preservation,
 current bindings and158repository tests PASS. EX/EY/EZ pending; EV does not
 cover the distinct GDT209 historical source case by implication.
+
+EX/EY/EZ/FA/FB/FC/FD integration decision: recover the one215content-role,
+one812scalar-family, oneV3joint-worksheet and one813N/G contracts. FD corrects
+a concrete EY selection error: two uniquely named827models already exist in
+active-state-sourced cases. Enrich those IDs rather than add two proposals;
+preserve exact pre-FD and peer-ready EY snapshots and old assessments. FA
+enriches only209; EZ links208/210 as historical alternatives, not exclusive
+possible realities. FB records disputed V3 selection reasoning with no matrix
+meaning failure. Smallest adequate work is reviewed scope/current-basis checks,
+three restatements, four review cases, one relation and one scoped dossier,
+then publication. Budget25minutes including validation. No new manuscript
+observation, model execution or scientific reopening.
+
+EX–FD checkpoint:4117 active=3852 semantic+265 formal;4638 sourcecases;
+44 archive cards unchanged;196 restatements.49 equivalence groups/58 display
+reductions and38 other relations(30 rivals);40 scoped dossiers and9 unready
+priorities.38 identity navigation inputs. Exact earlier EY bytes are retained
+in peer-ready/pre-FD snapshots; the FC prior reassessment payload is unchanged
+and rebound to final EY. The guide also refreshes three stale inline counters
+(restatements, identity-inputs, rival-links), not new research results. Current
+source and operative audits plus158repository tests PASS. FE/FF pending.

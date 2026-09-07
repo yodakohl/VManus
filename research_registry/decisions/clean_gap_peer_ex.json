@@ -1,0 +1,276 @@
+{
+  "review_id": "CLEAN_GAP_PEER_EX",
+  "status": "COMPLETE_APPROVE_WITH_TWO_SCOPED_COMPLETIONS",
+  "reviewed_files": [
+    {
+      "path": "research_registry/decisions/clean_gap_review_ex.json",
+      "sha256": "f001aed1800ea8782e078b28f97a2b71bbb19811928fbcc9338791e692188ebf"
+    },
+    {
+      "path": "research_registry/decisions/source_coverage_gap_batch_ex.json",
+      "sha256": "acfceafcdfefa94c00538d6cdd89fe9c3278ddf5df1599a90ff8783a1addbfc6"
+    }
+  ],
+  "cards": [
+    {
+      "id": "CLEAN_GAP_EX:q13_latent_document_role_contract",
+      "decision": "approve_with_evidence_completion",
+      "claim": "GDT215 proposes a layered q13 document-content contract: PAGE_PROFILE supplies a site/system context; VISUAL_SYSTEM a physical setting or hydraulic/process model; graphical labels component, state, case or reference values; RECORD_OPEN an identity or setting header; and RECORD_BODY practical description, indication, procedure, caution or testimony, without localizing those alternatives. PAGE_HOST remains the formal candidate for an opaque content address/value, while wrappers, right families, DY and B3 supply rendering and closure. These are provisional latent document roles in the hybrid model, not English translations, parts of speech, identified field contents or established authorial boundaries.",
+      "claim_type": "semantic_model",
+      "reason": "Approve new full layered content-role model. Site/setting, label referents, header identity and practical-body alternatives are interpretations of document content, beyond the EBNF. The current hybrid ranking alone does not assert their full conjunction. No local word translation or identified field follows.",
+      "recommended_evidence": [
+        {
+          "path": "GDT215_Q13_GENERATIVE_THEORY_REPORT.md",
+          "line": 17,
+          "line_end": 37,
+          "quote": "## Explicit generative model\n\n```text\nPAGE := PAGE_PROFILE VISUAL_SYSTEM GRAPHICAL_LABEL_REGISTER? RECORD+\nRECORD := RECORD_OPEN? RECORD_BODY+\nRECORD_BODY := ENTRY_STATE? FIELD (DY_CLASS FIELD)* B3_CLASS?\nFIELD := WRAPPER? INNER_D? POSITION_FRAME? PAGE_HOST RIGHT_FAMILY?\n```\n\nThe provisional document roles are:\n\n- `PAGE_PROFILE`: site/system context;\n- `VISUAL_SYSTEM`: physical setting or hydraulic/process model;\n- `GRAPHICAL_LABEL_REGISTER`: component, state, case, or reference values;\n- `RECORD_OPEN`: identity or setting header;\n- `RECORD_BODY`: practical description, indication, procedure, caution, or\n  testimony, with those alternatives not localized;\n- `PAGE_HOST`: the best formal candidate for an opaque content address/value;\n- wrappers, right families, `DY`, and `B3`: record rendering and closure.\n\nThese are latent document roles, not English translations or parts of speech.",
+          "sha256": "fe99aa09bdc654deef082608af888bd746a7022a0bff0f3d5963451532bbf4de"
+        }
+      ],
+      "required_claim_changes": []
+    }
+  ],
+  "source_reassessment_checks": [
+    {
+      "source_id": "LEGACY_PROPOSAL:89ca403b383a7769ea127ea5",
+      "decision": "approve",
+      "reason": "Approve preserving GDT209 as specificity-limited personification proposal. GDT208/210 EV restatements are not a new GDT209 case nor proof of equivalence. No direct descent or f77 element mapping follows; archive evidence retains that limit.",
+      "prior_initial_receipt_exact": true,
+      "counterpart_ids": [
+        "SEM:ca4f6abba10e0dc08533"
+      ],
+      "evidence": [
+        {
+          "path": "GDT209_DQE_APPARATUS_TOPOLOGY_REPORT.md",
+          "line": 33,
+          "line_end": 40,
+          "quote": "## Updated theory\n\nThe best current q13 theory remains a medicinal-alchemical circulation,\nseparation, and staged-transformation system, possibly using figures as\nmaterial/process personifications. Its historical plausibility is stronger;\nits **iconographic specificity is low**. The evidence supports membership in a\nbroad apparatus ecology, not descent from Rupescissa's diagram and not the\nf77 four-elements-plus-fifth-essence mapping.",
+          "sha256": "9754c450f0900ff6865cb4d43436f6845219645493ef3887eb3fc69c21ae0799"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_PROPOSAL:8cc377975415a5fce0979550",
+      "decision": "approve",
+      "reason": "Approve audit-only: AE explicitly addresses the component/state/reference alternative, separately from the broad therapeutic genre. GDT187 nonexceptional key reuse remains a failed prediction, not a refutation of all reference notation.",
+      "prior_initial_receipt_exact": true,
+      "counterpart_ids": [
+        "SEM:20912ed9ab65fa3e132b",
+        "SEM:3d7dcebcdd2f97838c2e"
+      ],
+      "evidence": [
+        {
+          "path": "GDT214_HYDRAULIC_COMPONENT_KEY_COMPARATOR_REPORT.md",
+          "line": 40,
+          "line_end": 51,
+          "quote": "## Updated working theory\n\nThe most economical q13 model remains therapeutic balneological records with\nan unusually abstract hydraulic/process rendering.  GDT214 adds a distinct\nrendering possibility: the graphical-label register may include component or\nstate references rather than names.  It does not displace GDT210's bath-content\nlead because al-Jazari supplies mechanics, not therapeutic content.\n\nNo Voynich group is assigned a component, water, wheel, bath, procedure,\nfigure, or index value.  No direct source relationship, language, plaintext,\nor translation follows.  No f84 source, image, annotation, or formal payload\nwas accessed.",
+          "sha256": "3b4eb7a83374124ca02cb375ba224b080f994389c7056f0bf100c4d10d6c4d8b"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_PROPOSAL:8daf440a63dcc2141bdc1649",
+      "decision": "approve",
+      "reason": "Approve new full layered content-role model. Site/setting, label referents, header identity and practical-body alternatives are interpretations of document content, beyond the EBNF. The current hybrid ranking alone does not assert their full conjunction. No local word translation or identified field follows.",
+      "prior_initial_receipt_exact": true,
+      "counterpart_ids": [
+        "SEM:d0f325b890780c80ffbc"
+      ],
+      "evidence": [
+        {
+          "path": "GDT215_Q13_GENERATIVE_THEORY_REPORT.md",
+          "line": 17,
+          "line_end": 37,
+          "quote": "## Explicit generative model\n\n```text\nPAGE := PAGE_PROFILE VISUAL_SYSTEM GRAPHICAL_LABEL_REGISTER? RECORD+\nRECORD := RECORD_OPEN? RECORD_BODY+\nRECORD_BODY := ENTRY_STATE? FIELD (DY_CLASS FIELD)* B3_CLASS?\nFIELD := WRAPPER? INNER_D? POSITION_FRAME? PAGE_HOST RIGHT_FAMILY?\n```\n\nThe provisional document roles are:\n\n- `PAGE_PROFILE`: site/system context;\n- `VISUAL_SYSTEM`: physical setting or hydraulic/process model;\n- `GRAPHICAL_LABEL_REGISTER`: component, state, case, or reference values;\n- `RECORD_OPEN`: identity or setting header;\n- `RECORD_BODY`: practical description, indication, procedure, caution, or\n  testimony, with those alternatives not localized;\n- `PAGE_HOST`: the best formal candidate for an opaque content address/value;\n- wrappers, right families, `DY`, and `B3`: record rendering and closure.\n\nThese are latent document roles, not English translations or parts of speech.",
+          "sha256": "fe99aa09bdc654deef082608af888bd746a7022a0bff0f3d5963451532bbf4de"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_PROPOSAL:5a03f75d5b1ce214076c6684",
+      "decision": "approve",
+      "reason": "Approve no new content card: the true-key prediction is an acquisition/identifiability condition rather than an additional meaning assignment. It is not equivalent to the existing comparative visual-grounding hypothesis, and no bilingual resource is now identified.",
+      "prior_initial_receipt_exact": true,
+      "counterpart_ids": [
+        "SEM:aeaf015f971383a288dd"
+      ],
+      "evidence": [
+        {
+          "path": "GDT215_Q13_GENERATIVE_THEORY_REPORT.md",
+          "line": 111,
+          "line_end": 116,
+          "quote": "5. a true bilingual/keyed legend should collapse page-conditioned ambiguity\n   and create stable full-tuple correspondences.\n\nThe first, second, third, and fifth predictions were not used to build the\ntheory.  Failure narrows or rejects the implicated layer; it does not license\npost-hoc gloss repair.",
+          "sha256": "fe99aa09bdc654deef082608af888bd746a7022a0bff0f3d5963451532bbf4de"
+        },
+        {
+          "path": "GDT215_Q13_GENERATIVE_THEORY_REPORT.md",
+          "line": 96,
+          "line_end": 116,
+          "quote": "## Novel predictions\n\nThe highest-value predictions, frozen in\n`gdt215_prediction_registry.tsv`, are:\n\n1. a new singular repeated hydraulic component should preserve the full\n   record/label construction more often than PAGE_HOST alone across held\n   folios;\n2. a readable q13-like homolog should align local captions with an\n   explanatory reference mechanism even if therapeutic payload remains\n   visually hidden;\n3. a repeated bath/site/installation should preserve opening plus\n   setting/hydraulic tuple structure despite exact-host variation;\n4. visual grounding should recover setting/hydraulics better than indication,\n   procedure, or outcome content;\n5. a true bilingual/keyed legend should collapse page-conditioned ambiguity\n   and create stable full-tuple correspondences.\n\nThe first, second, third, and fifth predictions were not used to build the\ntheory.  Failure narrows or rejects the implicated layer; it does not license\npost-hoc gloss repair.",
+          "sha256": "fe99aa09bdc654deef082608af888bd746a7022a0bff0f3d5963451532bbf4de"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_PROPOSAL:51773481c2c4e8c453ba73cc",
+      "decision": "approve",
+      "reason": "Approve audit-only: AB preserves q13 procedure/argument interleaving and differing termination, with no field-as-ingredient assignment. Local-label/page-final/non-DY closer locations are prospective formal mechanisms, not missing content values.",
+      "prior_initial_receipt_exact": true,
+      "counterpart_ids": [
+        "SEM:dcef9f7c88c9250f32fa"
+      ],
+      "evidence": [
+        {
+          "path": "GDT224_Q13_RECIPE_ROLE_TRANSFER_REPORT.md",
+          "line": 25,
+          "line_end": 49,
+          "quote": "## Interpretation\n\nThis is a useful partial scaffold. q13 contains clause-sized and short-\nargument-sized formal fields in almost the same **global balance** learned from\nthe readable recipes, substantially closer than Herbal-B. That is compatible\nwith a practical record compiler containing procedure-like spans interleaved\nwith compact argument/value-like spans.\n\nIt is not a complete recipe architecture. The expected final closer-like field\nis much less common in q13 than in Herbal-B, and the apparent abundance of\nmixed records is largely a consequence of q13's longer mechanical records.\nThe strongest surviving statistic is a distributional balance, not a recovered\nrole transition or readable clause.\n\nThe result therefore narrows the leading theory without translating it:\nq13 is compatible with a **mixed procedural/argument record body**, but its\nrecord termination differs from the readable recipe collections. A plausible\nnext step is to test whether q13's missing closer has moved into a diagram-\nlocal label, page-final structure, or non-DY closure class using a predeclared\nmechanism—not to call individual fields ingredients or actions.\n\nThe classifier cannot distinguish tools from ingredients and nearly fails\nopeners even in readable data. No PAGE_HOST, token, wrapper, source group, or\nfield receives an ingredient, tool, action, object, disease, bath, word,\nlanguage, plaintext, or translation. No f84 artifact was accessed.",
+          "sha256": "9c946b1748a013d64131e7706d3b1614a826d481503649492da0d63b66a437ba"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_PROPOSAL:7de682e5d3a655ea2b5af094",
+      "decision": "approve",
+      "reason": "Approve audit-only using the longer whole counterpart. Weak postselected multiregion/short-item compatibility retains component/parameter/state/case alternatives; the compact declarative variant is not stronger evidence and is not silently made equivalent.",
+      "prior_initial_receipt_exact": true,
+      "counterpart_ids": [
+        "SEM:882d39059250fa37ac3e",
+        "SEM:a6f659d3d61f7ff06de1"
+      ],
+      "evidence": [
+        {
+          "path": "GDT228_Q13_VISUAL_ROLE_ATLAS_REPORT.md",
+          "line": 28,
+          "line_end": 49,
+          "quote": "## Interpretation\n\nThe weak pattern is nevertheless coherent enough to preserve as a hypothesis:\npages depicting several separate bounded regions may serialize more short\ncomponent-, parameter-, state-, or case-like items and less continuous long\nmaterial than pages organized around one region.  Those alternatives are not\ndistinguished.  The result does not show that a pool is a process stage, an\nargument is a material, or any field belongs to a particular drawing.\n\nThis is explicitly postselected: both visual axes and their scratch effects\nwere inspected before the method was published.  The page annotations are\nhuman catalogue statements normalized to visible geometry, but the join is\npage-level and supplies no authorial field ownership.  The role endpoint is\nstill the position/length likeness from GDT176.\n\nThe lead should therefore guide acquisition rather than interpretation.  A\nfresh comparable page set would need independently counted bounded regions\nand source-bound prose blocks before their abstract role profile is opened.\n\nNo field, PAGE_HOST, pool, path, material, action, word, language, plaintext,\nor translation is established.  No f84 row occurs in the manifest or score;\nno new f84 access occurred.",
+          "sha256": "99767f6d224b2e961769a42f26ade2ac213b440382fa4eae5df72a3fa49f05ec"
+        }
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "target": "LEGACY_PROPOSAL:89ca403b383a7769ea127ea5",
+      "field": "reason and unresolved_scope",
+      "severity": "scope_coordination",
+      "recommendation": "EV is now complete for GDT208 and GDT210 only. Preserve GDT209 as a separately unresolved consolidation question; do not imply EV has added or will automatically add this source case."
+    },
+    {
+      "target": "CLEAN_GAP_EX:q13_latent_document_role_contract",
+      "field": "evidence",
+      "severity": "evidence_completion",
+      "recommendation": "Extend current lines17–35 to17–37 using the already exact reassessment span, binding the explicit no-English/no-POS ceiling directly to this case."
+    }
+  ],
+  "comparison_scope": {
+    "whole_current_counterparts_required": 8,
+    "source_counterpart_cases_inspected": 9,
+    "current_basis_validation": "PASS after authorized fresh connect; all eight supplied bases unchanged",
+    "source_case_provenance": "All eight active whole assertions and nine source cases compared against exact primary reports; earlier source claims and active overlays retained."
+  },
+  "validation": {
+    "selected_spans": 6,
+    "full_public_reports_read": [
+      "GDT209",
+      "GDT214",
+      "GDT215",
+      "GDT224",
+      "GDT228"
+    ],
+    "source_quotes_and_sha256": "PASS",
+    "prior_initial_dispositions_exact": 6,
+    "new_initial_dispositions": 0,
+    "reassessments": 6,
+    "new_cards_source_approved": 1,
+    "current_basis_and_exact_evidence": "PASS",
+    "validate_card": "PASS"
+  },
+  "limits": [
+    "No events, images, web, raw manuscript records or operative mutations.",
+    "No global coverage, equivalence or empirical meaning verdict is asserted."
+  ],
+  "current_counterpart_bindings": [
+    {
+      "id": "SEM:ca4f6abba10e0dc08533",
+      "card_basis": "c48c58ea637f52731aa5733dd6d788742da596d2ea35ac786a0a1025d0954f84",
+      "effective_basis": "b175d924377a6a88d860d3887e6879c76fb9f8a60d1279248a856efcd2117ccf",
+      "claim": "The q13 working model describes medicinal-alchemical circulation, separation and staged transformation.",
+      "claim_type": "semantic_model",
+      "cases": [
+        "REPORT_PROPOSAL:78e00aeced51a497856b"
+      ]
+    },
+    {
+      "id": "SEM:20912ed9ab65fa3e132b",
+      "card_basis": "0abbf89126ba0e25864651f3a4b4ed9b35f0b9436472329dcfcd40eee3fcd9eb",
+      "effective_basis": "ec785191300c20e41864ffdcdadbead2501f48dbe63278be233e025affbac214",
+      "claim": "The q13 pages contain therapeutic balneological records with an abstract hydraulic/process representation.",
+      "claim_type": "semantic_model",
+      "cases": [
+        "REPORT_PROPOSAL:74a317d59897a637aa3e"
+      ]
+    },
+    {
+      "id": "SEM:3d7dcebcdd2f97838c2e",
+      "card_basis": "8c727f2956ef9590857ae1d15b91331bb11bafc958142b89e753f90c6331626e",
+      "effective_basis": "d5ec8e36edda48edd39ef50918fd469ad06483f949a5ad69ada281b0e66082cc",
+      "claim": "In the GDT214 q13 rendering hypothesis, some diagram-local strings may refer into explanatory prose or serve as component/state keys rather than ordinary object names. No particular group, device component or therapeutic content is identified.",
+      "claim_type": "functional_hypothesis",
+      "cases": [
+        "CLEAN_GAP_AE:q13_component_state_reference"
+      ]
+    },
+    {
+      "id": "SEM:d0f325b890780c80ffbc",
+      "card_basis": "1b070971d44f6e20ec2f0589948a25d5c06fb9c8542e501a49d7d7fa38bd0b93",
+      "effective_basis": "a633d5c1524af2061deb4cf2604d656dd56eb5f203075bdf3675607942d6bd08",
+      "claim": "Hybrid language, abbreviation and notation is the leading proposed architecture.",
+      "claim_type": "semantic_model",
+      "cases": [
+        "REPORT_PROPOSAL:669f152f7d4c7e64df18"
+      ]
+    },
+    {
+      "id": "SEM:aeaf015f971383a288dd",
+      "card_basis": "47ce78eed893ba3140a023ad84de03d3bd617f95d164f5973f353e17c3246b4e",
+      "effective_basis": "637d5fff39b8692c2f8f3955d1f32a1e27e85e1c3468655f6e6540067007008f",
+      "claim": "In the q13 theory, visual grounding should recover setting/hydraulics better than indication, procedure or outcome content.",
+      "claim_type": "semantic_model",
+      "cases": [
+        "REPORT_PROPOSAL:30fba68f809e42b40717"
+      ]
+    },
+    {
+      "id": "SEM:dcef9f7c88c9250f32fa",
+      "card_basis": "c6be4867f44d5dcfa267edf2dc6565585a12bcb0d06700b8a2860aa03bc7fd86",
+      "effective_basis": "4eed0026bace9619fce6e5a70e4ebc3763534aa312f675513af6ab6f4bca98f5",
+      "claim": "GDT224 proposes that q13 records may interleave procedure-like spans with compact argument/value-like spans, while using a termination regime different from the readable recipe collections; this is a mixed procedural/argument body hypothesis, not identification of individual fields as actions or ingredients.",
+      "claim_type": "functional_hypothesis",
+      "cases": [
+        "CLEAN_GAP_AB:q13_mixed_procedural_argument_body"
+      ]
+    },
+    {
+      "id": "SEM:882d39059250fa37ac3e",
+      "card_basis": "a56705190fcb354072b347008699f9ecbcad2ca56ef13a13381b49055059b4a7",
+      "effective_basis": "ecf01eb7c844f21b09dba372fb676535ca2a6198ce93e0a11297e45ca9ea5405",
+      "claim": "The weak pattern is nevertheless coherent enough to preserve as a hypothesis: pages depicting several separate bounded regions may serialize more short component-, parameter-, state-, or case-like items and less continuous long material than pages organized around one region. Those alternatives are not distinguished. The result does not show that a pool is a process stage, an argument is a material, or any field belongs to a particular drawing",
+      "claim_type": "semantic_model",
+      "cases": [
+        "CLEAN_COMPONENT:0c87b45ddf4fad4b11b4",
+        "REPORT_PROPOSAL:3dbfb7dfb426f4538e9f"
+      ]
+    },
+    {
+      "id": "SEM:a6f659d3d61f7ff06de1",
+      "card_basis": "fbca460dd933f844ccb015d13fec46d36bd4b10ffb7679a032356deaedde0b65",
+      "effective_basis": "dcbbec29cd419c566e946dee6e5fd42cc0a70ad918fcda893b3bd4bf02cfbace",
+      "claim": "Pages with several bounded regions serialize more short component/parameter/state/case-like items than pages with one region.",
+      "claim_type": "semantic_model",
+      "cases": [
+        "REPORT_PROPOSAL:4d7bc36e06a783a7f5b5"
+      ]
+    }
+  ]
+}
