@@ -1,0 +1,44 @@
+{
+  "id": "LX_GDT708_ARCHITECTURE_CLARIFICATION",
+  "preserves": "research_registry/decisions/lw_action_result_source_706_708_audit.json",
+  "scope": "Read-only additive clarification of GDT708 C021 and A073/A004 boundaries; no operative mutation.",
+  "architecture_check": {
+    "claim": "GDT708 proposes an action followed by the shortest coherent batch card ending at the first terminal material product or an analytical reset.",
+    "current_counterparts": [
+      "SEM:14f954b4c260354e1a3a is GDT709 A048, a later separate terminal-product hold.",
+      "SEM:8a95911ecba9b176d722, SEM:d45f3db4e03a94f1b58e and SEM:e74ff3e8107b30a08b40 cover A070/A017/A029 shorter holds, not the general GDT708 variable-card architecture.",
+      "No current card located in bounded search states the GDT708 action-plus-shortest-coherent-first-terminal rule as a general model."
+    ],
+    "adjudication": "Retain as a distinct historical model claim, while keeping it unconfirmed and source-bound. C021 is its concrete A012 instantiation; C020 is a different f8r.15 bundle."
+  },
+  "C021_scope": "f106r.23 #2–6 is the exact claimed local bundle. #2–5 provide attributes/carriers and #6 supplies the possible terminal product; #7 is only an analytical exclusion/reset point, not written punctuation or proof of a new patient. Do not promote C021 to a general batch syntax or completed meaning.",
+  "A073_A004_scope": {
+    "correction": "The report does not quote or identify the positive contents of the two-item prefixes for A073 or A004. Preserve only the exact source-supported boundary hypotheses: their third item is the first overextension, with A073 changing to dry Arzneikompositum and grade reset, and A004 changing middle degree to grade end. Do not invent their unseen prefix readings or treat the stopping reason as a complete positive proposition.",
+    "status": "boundary_only_retain_unresolved"
+  },
+  "evidence": [
+    {
+      "role": "C021-full-definition-and-limit",
+      "path": "experiments/yolo/gdt708_v81_variable_batch_terminal_product/REPORT.md",
+      "line": 5,
+      "line_end": 21,
+      "quote": "The best next reading is A012:\n\n> **C021 / f106r.23#2-6:** Das Arzneikompositum bis zur Mittelstufe\n> aufbereiten. Danach stehen: abgemessener Anteil II; Rohstoff I; heiße\n> Mittelstufe. Mögliches terminales Produkt: bis zur Mittelstufe eingeweichtes\n> und abgeschlossenes Arzneikompositum.\n\nThe decisive information is not another generic continuation. The earlier\nthree-item path ended at #5 with only a hot middle-stage checkpoint and had\nlost the action's material head. #6 supplies the missing terminal product:\n`Arzneikompositum`, `Mittelstufe`, `eingeweicht` and `abgeschlossen` occur\ntogether. The working reading cuts before #7, which changes to hot-dry at the\nbeginning of the grade. This is an analytical exclusion point, not written\npunctuation or a written patient change; #7 may begin another phase of the\nsame material.\nSoaking and completion occur only on the right; they are not silently\nderived from the broader action `aufbereiten`.",
+      "sha256": "8b5ab065af225d0272109687c5624949997152f688cf5eb74dbc246318496785"
+    },
+    {
+      "role": "A073-A004-boundary-only-definition",
+      "path": "experiments/yolo/gdt708_v81_variable_batch_terminal_product/REPORT.md",
+      "line": 45,
+      "line_end": 62,
+      "quote": "## The five shorter paths\n\nA073, A070, A029, A017 and A004 all have the same best cut at two items. Their\nthird item is the first overextension:\n\n- A073 changes to dry Arzneikompositum and restarts the grade;\n- A070 restarts with broad `trocken` after the hot-dry checkpoint;\n- A029 adds a new dry, measured, completed middle-stage product;\n- A017 contradicts middle degree with cold grade-start;\n- A004 changes the just-written middle degree to grade end.\n\nA024 also has a tempting later #9 `oechedy`, “fertige, bis zur Mittelstufe\ngetrocknete Masse”. It matches drying and middle degree better than #7, but the\nfirst terminal product #7 and the new quantity/material start #8 intervene.\nThe no-skip first-terminal rule therefore cannot jump to #9.\n\nThese are useful practical fragments, but still lack enough material, degree\nor action agreement for new graph edges.",
+      "sha256": "8b5ab065af225d0272109687c5624949997152f688cf5eb74dbc246318496785"
+    }
+  ],
+  "source_owner": {
+    "id": "LEGACY_COMPONENT:078976fc5dee38ef3aa0",
+    "gdt": "GDT708",
+    "path": "experiments/yolo/gdt708_v81_variable_batch_terminal_product/REPORT.md",
+    "sha256": "8b5ab065af225d0272109687c5624949997152f688cf5eb74dbc246318496785"
+  },
+  "validation": "Literal report spans and source SHA validated programmatically. The prior LW receipt and renamed artifact were not edited; no registry, ledger, raw TSV or experiment file was modified."
+}

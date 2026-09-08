@@ -1,0 +1,271 @@
+{
+  "status": "ROOT_VALIDATED_SIX_HISTORICAL_HYPOTHESES",
+  "cards": [
+    {
+      "id": "CLEAN_GAP_LY:C019",
+      "claim": "GDT706 C019 extends f86v6.25 locally: from a hot wood-preparation share I, measure hot drug share I and heat it to stage III; the written result bundle is a drug portion led fully to the terminal heating state. The edge is ykaiin#5 → okeeeey#7; or#6 supplies the written drug-portion carrier inside the bundle, not another edge. The live rival is two separate register entries at #6/#7; changed material and operation at ofchedy#8 stop the path, so later qokaiin#9 cannot be reached by skipping it.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:d7807e4be1d85e4f22a6"
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scientific_test_ready": false,
+      "independent_new_idea": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt706_v79_second_nominal_item_result_census/REPORT.md",
+          "line": 5,
+          "line_end": 36,
+          "quote": "## Result\n\nThe search now has both a complete outer map and a completely read near zone.\nForty-two action windows that were still unbound at the start contain 161 later semantic items. The\nnearest 28 rank-2/rank-3 cells divide into one admitted result bundle, ten\nuseful holds, and seventeen visible stops.\n\nThe new local reading is:\n\n> **C019 / f86v6.25#2-7:** Aus dem Anteil I des heißen Holzansatzes einen\n> heißen Drogenanteil I abmessen. Den so abgemessenen Drogenanteil I auf Stufe\n> III erhitzen. Ergebnis: Die Drogenportion ist vollständig bis zur letzten\n> Heizstufe geführt.\n\nThis is materially more concrete than a generic action sequence: it names the\nsource share, measured drug share, heat stage, written result material, and\nwritten terminal heating state.\n\n## Why #6 is not skipped\n\nThe new relation's source is `#5 ykaiin`, while its state endpoint is\n`#7 okeeeey`. The intervening `#6 or` is not discarded. It supplies the missing\nwritten patient, *Drogenportion*, and remains in the rendered result bundle\n`#6-7`. In the cumulative graph it is a hull-only material carrier rather than\nan endpoint, because C019 asserts one action-to-result relation, not two\nindependent relations.\n\nThe strongest alternative is that #6 and #7 begin two separate register\nentries. That keeps C019 occurrence-bound. The next entry, `#8 ofchedy`\n(*fertig getrocknete Blütenmasse*), changes both material and operation and\ntherefore ends this result path. The later `#9 qokaiin` cannot be selected by\nskipping that break.",
+          "sha256": "436022e3e1732981ee1c0ec701b98f4838bec68a3e4fb9bd8d215b974f160957"
+        }
+      ],
+      "scope": "Named historical result/argument hypothesis or source-bound variable-batch model; inherited vocabulary and exploratory edge status do not establish independent meaning or GDT388 readiness.",
+      "source_polarity": "historical_working_hypothesis_with_explicit_rivals_and_holds"
+    },
+    {
+      "id": "CLEAN_GAP_LY:A063",
+      "claim": "GDT706 retains A063 as the local working reading Drogenstoff in einen heißen Empfänger geben (put drug material into a hot receiver). It is a concrete argument-chain hypothesis, but no transformed output is written; the source retains it as a hold rather than an accepted result edge.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:d7807e4be1d85e4f22a6"
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scientific_test_ready": false,
+      "independent_new_idea": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt706_v79_second_nominal_item_result_census/REPORT.md",
+          "line": 55,
+          "line_end": 65,
+          "quote": "## Strongest holds\n\n| case | practical reading | what remains open |\n|---|---|---|\n| A029 | leicht erhitzter Ansatzstoff | `dar` supplies a share, but measurement is not licensed and *leicht* is not mirrored exactly |\n| A070 | trockenes Maß bis zum heiß-trockenen Anfang erhitzen | heating matches; measure and exact destination degree remain unwritten |\n| A017 | getrockneter Krautanteil I | the herb preparation is a plausible patient, but the middle stage is absent |\n| A063 | Drogenstoff in einen heißen Empfänger geben | concrete argument chain, but no transformed output is written |\n| A082 | trockenen Drogenstoff in heißen Ansatzstoff geben | useful patient/destination order candidate, not yet a result edge |\n\nThese remain available working readings rather than being erased.",
+          "sha256": "436022e3e1732981ee1c0ec701b98f4838bec68a3e4fb9bd8d215b974f160957"
+        }
+      ],
+      "scope": "Named historical result/argument hypothesis or source-bound variable-batch model; inherited vocabulary and exploratory edge status do not establish independent meaning or GDT388 readiness.",
+      "source_polarity": "historical_working_hypothesis_with_explicit_rivals_and_holds"
+    },
+    {
+      "id": "CLEAN_GAP_LY:A082",
+      "claim": "GDT706 retains A082 as the local working reading trockenen Drogenstoff in heißen Ansatzstoff geben (put dry drug material into hot preparation material). It is a patient/destination-order candidate, not an admitted result edge or a portable lexical meaning.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:d7807e4be1d85e4f22a6"
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scientific_test_ready": false,
+      "independent_new_idea": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt706_v79_second_nominal_item_result_census/REPORT.md",
+          "line": 55,
+          "line_end": 65,
+          "quote": "## Strongest holds\n\n| case | practical reading | what remains open |\n|---|---|---|\n| A029 | leicht erhitzter Ansatzstoff | `dar` supplies a share, but measurement is not licensed and *leicht* is not mirrored exactly |\n| A070 | trockenes Maß bis zum heiß-trockenen Anfang erhitzen | heating matches; measure and exact destination degree remain unwritten |\n| A017 | getrockneter Krautanteil I | the herb preparation is a plausible patient, but the middle stage is absent |\n| A063 | Drogenstoff in einen heißen Empfänger geben | concrete argument chain, but no transformed output is written |\n| A082 | trockenen Drogenstoff in heißen Ansatzstoff geben | useful patient/destination order candidate, not yet a result edge |\n\nThese remain available working readings rather than being erased.",
+          "sha256": "436022e3e1732981ee1c0ec701b98f4838bec68a3e4fb9bd8d215b974f160957"
+        }
+      ],
+      "scope": "Named historical result/argument hypothesis or source-bound variable-batch model; inherited vocabulary and exploratory edge status do not establish independent meaning or GDT388 readiness.",
+      "source_polarity": "historical_working_hypothesis_with_explicit_rivals_and_holds"
+    },
+    {
+      "id": "CLEAN_GAP_LY:C021",
+      "claim": "GDT708 C021/A012 proposes f106r.23#2–6: prepare medicinal composite to middle stage; then a measured share II, raw material I and hot middle stage precede a possible terminal soaked-and-completed middle-stage medicinal composite. Only #2→#6 is an edge; #3 dair, #4 al and #5 qokedy remain visible attribute carriers. Soaking and completion occur only on the right and are not inferred from prepare. The cut before #7 is analytical, not punctuation or a proven new patient; #7 may start another phase of the same material.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:078976fc5dee38ef3aa0"
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scientific_test_ready": false,
+      "independent_new_idea": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt708_v81_variable_batch_terminal_product/REPORT.md",
+          "line": 5,
+          "line_end": 21,
+          "quote": "The best next reading is A012:\n\n> **C021 / f106r.23#2-6:** Das Arzneikompositum bis zur Mittelstufe\n> aufbereiten. Danach stehen: abgemessener Anteil II; Rohstoff I; heiße\n> Mittelstufe. Mögliches terminales Produkt: bis zur Mittelstufe eingeweichtes\n> und abgeschlossenes Arzneikompositum.\n\nThe decisive information is not another generic continuation. The earlier\nthree-item path ended at #5 with only a hot middle-stage checkpoint and had\nlost the action's material head. #6 supplies the missing terminal product:\n`Arzneikompositum`, `Mittelstufe`, `eingeweicht` and `abgeschlossen` occur\ntogether. The working reading cuts before #7, which changes to hot-dry at the\nbeginning of the grade. This is an analytical exclusion point, not written\npunctuation or a written patient change; #7 may begin another phase of the\nsame material.\nSoaking and completion occur only on the right; they are not silently\nderived from the broader action `aufbereiten`.",
+          "sha256": "8b5ab065af225d0272109687c5624949997152f688cf5eb74dbc246318496785"
+        },
+        {
+          "path": "experiments/yolo/gdt708_v81_variable_batch_terminal_product/REPORT.md",
+          "line": 64,
+          "line_end": 73,
+          "quote": "## Exact graph effect\n\nC021 forms the isolated component M014. Only #2 and #6 are edge nodes. #3\n`dair`, #4 `al` and #5 `qokedy` remain visible hull-only attribute carriers.\nThe cumulative graph is now 20 edges / 14 components / 37 unique nodes / 43\nincidences / 45 hull and render positions. Shared nodes remain six; hull-only\npositions rise to eight.\n\nAll 479 token glosses, 51 line translations and three bound spans remain\nunchanged. The independent validator performs more than 83,000 checks. The",
+          "sha256": "8b5ab065af225d0272109687c5624949997152f688cf5eb74dbc246318496785"
+        }
+      ],
+      "scope": "Named historical result/argument hypothesis or source-bound variable-batch model; inherited vocabulary and exploratory edge status do not establish independent meaning or GDT388 readiness.",
+      "source_polarity": "historical_working_hypothesis_with_explicit_rivals_and_holds"
+    },
+    {
+      "id": "CLEAN_GAP_LY:A024",
+      "claim": "GDT708 A024 retains an object-block hold with state/degree → state/degree → material → terminal product ending at #7. Later oechedy#9 is a tempting finished middle-stage dried-mass reading matching drying and middle degree better, but the first terminal product at #7 and a new quantity/material start at #8 intervene. The first-terminal no-skip model therefore cannot link to #9 by omitting them; no new result edge is admitted.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:078976fc5dee38ef3aa0"
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scientific_test_ready": false,
+      "independent_new_idea": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt708_v81_variable_batch_terminal_product/REPORT.md",
+          "line": 31,
+          "line_end": 43,
+          "quote": "Three cases place the terminal product after an attribute stack:\n\n| case | visible order | best end | decision |\n|---|---|---:|---|\n| A012 | quantity → material → state/degree → terminal product | #6 | C021 |\n| A014 | quantity → state/degree → terminal product | #5 | object-block hold |\n| A024 | state/degree → state/degree → material → terminal product | #7 | object-block hold |\n\nA043 is the strongest local/formal countercase because explicit #2 `dy`/`;`\nplaces its finished dry portion immediately at #3. It loses to A012 only on\nthe exact material-and-degree return needed for a new edge. #4\nchanges middle degree to grade end and #5 adds grade III. The old immediate\nhold therefore survives, while its GDT707 three-item extension is stopped.",
+          "sha256": "8b5ab065af225d0272109687c5624949997152f688cf5eb74dbc246318496785"
+        },
+        {
+          "path": "experiments/yolo/gdt708_v81_variable_batch_terminal_product/REPORT.md",
+          "line": 56,
+          "line_end": 62,
+          "quote": "A024 also has a tempting later #9 `oechedy`, “fertige, bis zur Mittelstufe\ngetrocknete Masse”. It matches drying and middle degree better than #7, but the\nfirst terminal product #7 and the new quantity/material start #8 intervene.\nThe no-skip first-terminal rule therefore cannot jump to #9.\n\nThese are useful practical fragments, but still lack enough material, degree\nor action agreement for new graph edges.",
+          "sha256": "8b5ab065af225d0272109687c5624949997152f688cf5eb74dbc246318496785"
+        }
+      ],
+      "scope": "Named historical result/argument hypothesis or source-bound variable-batch model; inherited vocabulary and exploratory edge status do not establish independent meaning or GDT388 readiness.",
+      "source_polarity": "historical_working_hypothesis_with_explicit_rivals_and_holds"
+    },
+    {
+      "id": "CLEAN_GAP_LY:VARIABLE_BATCH_MODEL",
+      "claim": "GDT708 proposes a variable batch architecture: an action is followed by the shortest coherent batch card, ending at the first terminal material product or the first material, operation or grade reset. An attribute stack may precede the product; this replaces a fixed three-token result description in that working model. A012/C021 is the local product candidate, A014/A024 remain object-block holds, and shorter prefixes remain held at their first overextension. These analytical cuts do not establish written punctuation, participant changes or a portable semantic syntax.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "LEGACY_COMPONENT:078976fc5dee38ef3aa0"
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scientific_test_ready": false,
+      "independent_new_idea": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt708_v81_variable_batch_terminal_product/REPORT.md",
+          "line": 23,
+          "line_end": 43,
+          "quote": "## What changed in the working model\n\nThe surviving material is not well described by a fixed three-token result.\nThe useful form is variable:\n\n> action + shortest coherent batch card, ending at the first terminal\n> material product or at the first material, operation or grade reset\n\nThree cases place the terminal product after an attribute stack:\n\n| case | visible order | best end | decision |\n|---|---|---:|---|\n| A012 | quantity → material → state/degree → terminal product | #6 | C021 |\n| A014 | quantity → state/degree → terminal product | #5 | object-block hold |\n| A024 | state/degree → state/degree → material → terminal product | #7 | object-block hold |\n\nA043 is the strongest local/formal countercase because explicit #2 `dy`/`;`\nplaces its finished dry portion immediately at #3. It loses to A012 only on\nthe exact material-and-degree return needed for a new edge. #4\nchanges middle degree to grade end and #5 adds grade III. The old immediate\nhold therefore survives, while its GDT707 three-item extension is stopped.",
+          "sha256": "8b5ab065af225d0272109687c5624949997152f688cf5eb74dbc246318496785"
+        },
+        {
+          "path": "experiments/yolo/gdt708_v81_variable_batch_terminal_product/REPORT.md",
+          "line": 45,
+          "line_end": 62,
+          "quote": "## The five shorter paths\n\nA073, A070, A029, A017 and A004 all have the same best cut at two items. Their\nthird item is the first overextension:\n\n- A073 changes to dry Arzneikompositum and restarts the grade;\n- A070 restarts with broad `trocken` after the hot-dry checkpoint;\n- A029 adds a new dry, measured, completed middle-stage product;\n- A017 contradicts middle degree with cold grade-start;\n- A004 changes the just-written middle degree to grade end.\n\nA024 also has a tempting later #9 `oechedy`, “fertige, bis zur Mittelstufe\ngetrocknete Masse”. It matches drying and middle degree better than #7, but the\nfirst terminal product #7 and the new quantity/material start #8 intervene.\nThe no-skip first-terminal rule therefore cannot jump to #9.\n\nThese are useful practical fragments, but still lack enough material, degree\nor action agreement for new graph edges.",
+          "sha256": "8b5ab065af225d0272109687c5624949997152f688cf5eb74dbc246318496785"
+        }
+      ],
+      "scope": "Named historical result/argument hypothesis or source-bound variable-batch model; inherited vocabulary and exploratory edge status do not establish independent meaning or GDT388 readiness.",
+      "source_polarity": "historical_working_hypothesis_with_explicit_rivals_and_holds",
+      "source_applications": [
+        {
+          "id": "A014",
+          "observed_in_working_model": "quantity → state/degree → terminal product; best end #5; object-block hold",
+          "meaning_limit": "Order/end application of this model, not an additional independently identified noun or instruction."
+        },
+        {
+          "id": "A073",
+          "observed_in_working_model": "Two-item prefix retained; third item changes to dry medicinal composite and restarts grade.",
+          "meaning_limit": "Positive prefix contents not supplied in this report; preserve only the stated stopping reason."
+        },
+        {
+          "id": "A004",
+          "observed_in_working_model": "Two-item prefix retained; third item changes middle degree to grade end.",
+          "meaning_limit": "Positive prefix contents not supplied in this report; preserve only the stated stopping reason."
+        }
+      ]
+    }
+  ],
+  "dispositions": [],
+  "source_reassessments": [
+    {
+      "source_id": "LEGACY_COMPONENT:d7807e4be1d85e4f22a6",
+      "decision": "partial_named_local_hypotheses_and_model_recovered",
+      "card_ids": [
+        "CLEAN_GAP_LY:C019",
+        "CLEAN_GAP_LY:A063",
+        "CLEAN_GAP_LY:A082"
+      ],
+      "reason": "Selected named propositions; explicit prefix stopping applications retained inside the model rather than invented positive readings.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt706_v79_second_nominal_item_result_census/REPORT.md",
+          "line": 5,
+          "line_end": 36,
+          "quote": "## Result\n\nThe search now has both a complete outer map and a completely read near zone.\nForty-two action windows that were still unbound at the start contain 161 later semantic items. The\nnearest 28 rank-2/rank-3 cells divide into one admitted result bundle, ten\nuseful holds, and seventeen visible stops.\n\nThe new local reading is:\n\n> **C019 / f86v6.25#2-7:** Aus dem Anteil I des heißen Holzansatzes einen\n> heißen Drogenanteil I abmessen. Den so abgemessenen Drogenanteil I auf Stufe\n> III erhitzen. Ergebnis: Die Drogenportion ist vollständig bis zur letzten\n> Heizstufe geführt.\n\nThis is materially more concrete than a generic action sequence: it names the\nsource share, measured drug share, heat stage, written result material, and\nwritten terminal heating state.\n\n## Why #6 is not skipped\n\nThe new relation's source is `#5 ykaiin`, while its state endpoint is\n`#7 okeeeey`. The intervening `#6 or` is not discarded. It supplies the missing\nwritten patient, *Drogenportion*, and remains in the rendered result bundle\n`#6-7`. In the cumulative graph it is a hull-only material carrier rather than\nan endpoint, because C019 asserts one action-to-result relation, not two\nindependent relations.\n\nThe strongest alternative is that #6 and #7 begin two separate register\nentries. That keeps C019 occurrence-bound. The next entry, `#8 ofchedy`\n(*fertig getrocknete Blütenmasse*), changes both material and operation and\ntherefore ends this result path. The later `#9 qokaiin` cannot be selected by\nskipping that break.",
+          "sha256": "436022e3e1732981ee1c0ec701b98f4838bec68a3e4fb9bd8d215b974f160957"
+        },
+        {
+          "path": "experiments/yolo/gdt706_v79_second_nominal_item_result_census/REPORT.md",
+          "line": 55,
+          "line_end": 65,
+          "quote": "## Strongest holds\n\n| case | practical reading | what remains open |\n|---|---|---|\n| A029 | leicht erhitzter Ansatzstoff | `dar` supplies a share, but measurement is not licensed and *leicht* is not mirrored exactly |\n| A070 | trockenes Maß bis zum heiß-trockenen Anfang erhitzen | heating matches; measure and exact destination degree remain unwritten |\n| A017 | getrockneter Krautanteil I | the herb preparation is a plausible patient, but the middle stage is absent |\n| A063 | Drogenstoff in einen heißen Empfänger geben | concrete argument chain, but no transformed output is written |\n| A082 | trockenen Drogenstoff in heißen Ansatzstoff geben | useful patient/destination order candidate, not yet a result edge |\n\nThese remain available working readings rather than being erased.",
+          "sha256": "436022e3e1732981ee1c0ec701b98f4838bec68a3e4fb9bd8d215b974f160957"
+        },
+        {
+          "path": "experiments/yolo/gdt706_v79_second_nominal_item_result_census/REPORT.md",
+          "line": 55,
+          "line_end": 65,
+          "quote": "## Strongest holds\n\n| case | practical reading | what remains open |\n|---|---|---|\n| A029 | leicht erhitzter Ansatzstoff | `dar` supplies a share, but measurement is not licensed and *leicht* is not mirrored exactly |\n| A070 | trockenes Maß bis zum heiß-trockenen Anfang erhitzen | heating matches; measure and exact destination degree remain unwritten |\n| A017 | getrockneter Krautanteil I | the herb preparation is a plausible patient, but the middle stage is absent |\n| A063 | Drogenstoff in einen heißen Empfänger geben | concrete argument chain, but no transformed output is written |\n| A082 | trockenen Drogenstoff in heißen Ansatzstoff geben | useful patient/destination order candidate, not yet a result edge |\n\nThese remain available working readings rather than being erased.",
+          "sha256": "436022e3e1732981ee1c0ec701b98f4838bec68a3e4fb9bd8d215b974f160957"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:078976fc5dee38ef3aa0",
+      "decision": "partial_named_local_hypotheses_and_model_recovered",
+      "card_ids": [
+        "CLEAN_GAP_LY:C021",
+        "CLEAN_GAP_LY:A024",
+        "CLEAN_GAP_LY:VARIABLE_BATCH_MODEL"
+      ],
+      "reason": "Selected named propositions; explicit prefix stopping applications retained inside the model rather than invented positive readings.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt708_v81_variable_batch_terminal_product/REPORT.md",
+          "line": 5,
+          "line_end": 21,
+          "quote": "The best next reading is A012:\n\n> **C021 / f106r.23#2-6:** Das Arzneikompositum bis zur Mittelstufe\n> aufbereiten. Danach stehen: abgemessener Anteil II; Rohstoff I; heiße\n> Mittelstufe. Mögliches terminales Produkt: bis zur Mittelstufe eingeweichtes\n> und abgeschlossenes Arzneikompositum.\n\nThe decisive information is not another generic continuation. The earlier\nthree-item path ended at #5 with only a hot middle-stage checkpoint and had\nlost the action's material head. #6 supplies the missing terminal product:\n`Arzneikompositum`, `Mittelstufe`, `eingeweicht` and `abgeschlossen` occur\ntogether. The working reading cuts before #7, which changes to hot-dry at the\nbeginning of the grade. This is an analytical exclusion point, not written\npunctuation or a written patient change; #7 may begin another phase of the\nsame material.\nSoaking and completion occur only on the right; they are not silently\nderived from the broader action `aufbereiten`.",
+          "sha256": "8b5ab065af225d0272109687c5624949997152f688cf5eb74dbc246318496785"
+        },
+        {
+          "path": "experiments/yolo/gdt708_v81_variable_batch_terminal_product/REPORT.md",
+          "line": 64,
+          "line_end": 73,
+          "quote": "## Exact graph effect\n\nC021 forms the isolated component M014. Only #2 and #6 are edge nodes. #3\n`dair`, #4 `al` and #5 `qokedy` remain visible hull-only attribute carriers.\nThe cumulative graph is now 20 edges / 14 components / 37 unique nodes / 43\nincidences / 45 hull and render positions. Shared nodes remain six; hull-only\npositions rise to eight.\n\nAll 479 token glosses, 51 line translations and three bound spans remain\nunchanged. The independent validator performs more than 83,000 checks. The",
+          "sha256": "8b5ab065af225d0272109687c5624949997152f688cf5eb74dbc246318496785"
+        },
+        {
+          "path": "experiments/yolo/gdt708_v81_variable_batch_terminal_product/REPORT.md",
+          "line": 31,
+          "line_end": 43,
+          "quote": "Three cases place the terminal product after an attribute stack:\n\n| case | visible order | best end | decision |\n|---|---|---:|---|\n| A012 | quantity → material → state/degree → terminal product | #6 | C021 |\n| A014 | quantity → state/degree → terminal product | #5 | object-block hold |\n| A024 | state/degree → state/degree → material → terminal product | #7 | object-block hold |\n\nA043 is the strongest local/formal countercase because explicit #2 `dy`/`;`\nplaces its finished dry portion immediately at #3. It loses to A012 only on\nthe exact material-and-degree return needed for a new edge. #4\nchanges middle degree to grade end and #5 adds grade III. The old immediate\nhold therefore survives, while its GDT707 three-item extension is stopped.",
+          "sha256": "8b5ab065af225d0272109687c5624949997152f688cf5eb74dbc246318496785"
+        },
+        {
+          "path": "experiments/yolo/gdt708_v81_variable_batch_terminal_product/REPORT.md",
+          "line": 56,
+          "line_end": 62,
+          "quote": "A024 also has a tempting later #9 `oechedy`, “fertige, bis zur Mittelstufe\ngetrocknete Masse”. It matches drying and middle degree better than #7, but the\nfirst terminal product #7 and the new quantity/material start #8 intervene.\nThe no-skip first-terminal rule therefore cannot jump to #9.\n\nThese are useful practical fragments, but still lack enough material, degree\nor action agreement for new graph edges.",
+          "sha256": "8b5ab065af225d0272109687c5624949997152f688cf5eb74dbc246318496785"
+        },
+        {
+          "path": "experiments/yolo/gdt708_v81_variable_batch_terminal_product/REPORT.md",
+          "line": 23,
+          "line_end": 43,
+          "quote": "## What changed in the working model\n\nThe surviving material is not well described by a fixed three-token result.\nThe useful form is variable:\n\n> action + shortest coherent batch card, ending at the first terminal\n> material product or at the first material, operation or grade reset\n\nThree cases place the terminal product after an attribute stack:\n\n| case | visible order | best end | decision |\n|---|---|---:|---|\n| A012 | quantity → material → state/degree → terminal product | #6 | C021 |\n| A014 | quantity → state/degree → terminal product | #5 | object-block hold |\n| A024 | state/degree → state/degree → material → terminal product | #7 | object-block hold |\n\nA043 is the strongest local/formal countercase because explicit #2 `dy`/`;`\nplaces its finished dry portion immediately at #3. It loses to A012 only on\nthe exact material-and-degree return needed for a new edge. #4\nchanges middle degree to grade end and #5 adds grade III. The old immediate\nhold therefore survives, while its GDT707 three-item extension is stopped.",
+          "sha256": "8b5ab065af225d0272109687c5624949997152f688cf5eb74dbc246318496785"
+        },
+        {
+          "path": "experiments/yolo/gdt708_v81_variable_batch_terminal_product/REPORT.md",
+          "line": 45,
+          "line_end": 62,
+          "quote": "## The five shorter paths\n\nA073, A070, A029, A017 and A004 all have the same best cut at two items. Their\nthird item is the first overextension:\n\n- A073 changes to dry Arzneikompositum and restarts the grade;\n- A070 restarts with broad `trocken` after the hot-dry checkpoint;\n- A029 adds a new dry, measured, completed middle-stage product;\n- A017 contradicts middle degree with cold grade-start;\n- A004 changes the just-written middle degree to grade end.\n\nA024 also has a tempting later #9 `oechedy`, “fertige, bis zur Mittelstufe\ngetrocknete Masse”. It matches drying and middle degree better than #7, but the\nfirst terminal product #7 and the new quantity/material start #8 intervene.\nThe no-skip first-terminal rule therefore cannot jump to #9.\n\nThese are useful practical fragments, but still lack enough material, degree\nor action agreement for new graph edges.",
+          "sha256": "8b5ab065af225d0272109687c5624949997152f688cf5eb74dbc246318496785"
+        }
+      ]
+    }
+  ]
+}
