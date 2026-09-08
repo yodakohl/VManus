@@ -4,8 +4,8 @@ Updated: 2026-09-08. Read first.
 ## Current mandate and effort limit
 
 10h requested:2026-09-07 20:29:06–2026-09-08 06:29:06UTC minimum.
-KW:75designkeys/42oldhashesPASS;11tests;10h incomplete.
-9cards/12questions;8definitions repaired;85groups/103reduction.
+KX:75designkeys/42oldhashesPASS;11tests;10h incomplete.
+9cards/13questions;10definitions repaired;85groups/103reduction.
 75rawrecords74afterknown55dup;35method/39unreviewed;10source-onlyrepairs.
 
 GDT858:855/963primary808folds retained opposite-face training;169faces/90leaves.

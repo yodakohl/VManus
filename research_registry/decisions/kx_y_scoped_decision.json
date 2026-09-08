@@ -1,0 +1,63 @@
+{
+  "status": "ROOT_VALIDATED",
+  "decisions": [
+    {
+      "id": "FAILURE_KX:Y_OPEN_ACTIVE_REVISION:v1",
+      "decision_key": "FAILURE_KX:Y_OPEN_ACTIVE_REVISION",
+      "previous_revision": null,
+      "revision": 1,
+      "targets": [
+        "SEM:a546430d19dcf9ad8546"
+      ],
+      "claim": "What was revised in the old Y=open/active value, and does the universal-open-sentence counterexample automatically reject it?",
+      "status": "reviewed_scoped_context",
+      "review_status": "reviewed_scoped_context",
+      "reviewer": "root exact primary and existing dossier scope comparison",
+      "scope": "Selected173-card ten-page historical Y/CHY dictionary, not all visible y or universal D+Y decomposition.",
+      "reason_class": "historical_contribution_reassignment_not_global_semantic_refutation",
+      "actually_tested_falsifier": "The existing dossier tests a universally open sentence reading using internal Y before another close. The short open/active historical card does not itself state that universal sentence claim; do not propagate its failure or assume that an intermediate active state is impossible before later closure.",
+      "outcome": "The source replaces old open/active with current referent and attributes continuing openness to absent closure in licensed constructions. This is an authored division of semantic contributions, not independent proof of reference meaning.",
+      "empirical_meaning_refutation": false,
+      "automatic_card_status_propagation": false,
+      "claim_ceiling": "No unique referent identification or automatic rejection of every local active-state reading.",
+      "card_basis": {
+        "SEM:a546430d19dcf9ad8546": "ab125dcd47cf3590767f558799a622d30ba8d5403515dd13e2cfe80889696949"
+      },
+      "effective_basis": {
+        "SEM:a546430d19dcf9ad8546": "190fd21321ba6cd9c8b6341eead389b77443fa0b9ad93693bfa2c9b5975f5283"
+      },
+      "source_case_ids": {
+        "SEM:a546430d19dcf9ad8546": [
+          "CLEAN_COMPONENT:10595c633d583d71775a"
+        ]
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_component_completion/Y_CHY_REPORT.md",
+          "line": 8,
+          "line_end": 26,
+          "quote": "Die kuerzeste gemeinsame Lesung ist:\n\n```text\nY       DER AKTUELL GEMEINTE ARBEITSPOSTEN; DIES / ES\nCHY     umhuellte Realisierung derselben Y-Verweiskarte\n```\n\nIn laufendem deutschem Werkstatttext wird daraus je nach Besitzer `dieser\nAnsatz`, `diese Portion`, `dieses Arbeitsgut`, `die laufende Charge` oder bloss\n`sie/es`. Wasser, Pflanzengut, Oel, Bad, Waerme oder Koerperstelle sind dagegen\nlokale Ausfuellungen des Postens. Keiner dieser Stoffwerte steckt fest in\n`Y`.\n\nDamit wird die bisherige Bezeichnung `Y = offen/aktiv` korrigiert. `Y` traegt\nden **aktuellen Referenten**, nicht selbst die Eigenschaft `offen`. Ein\noffener beziehungsweise noch fortsetzbarer Arbeitsstand ergibt sich in den\nlizenzierten Reihen daraus, dass keine Abschlusskonstruktion folgt. `...DY`\nkann in bestimmten exakten Karten einen lokalen Abschluss bilden; es darf aber\nnicht ueberall als frei zerlegbares `D+Y` gelesen werden.",
+          "sha256": "abbe73138d5ae2ff15b925ce69bf37ccc3a3b735836b3850dd81d8cf34db1b81"
+        }
+      ],
+      "review_artifact": {
+        "path": "research_registry/decisions/kx_root_y_open_active_question.json",
+        "sha256": "d38cd2432d1e990a5873409a0b8f335bd84838deeec70946f582d9d0fd278c87"
+      },
+      "reopening": {
+        "status": "REVIEW_REQUIRED_NOT_TEST_READY",
+        "assessed_by": "curation_review",
+        "criteria_origin": "Source-question prospective conditions, not a new experiment preregistration.",
+        "all_of": [
+          "Define whether open/active refers to the whole statement or a local referent/state and nominate the exact licensed construction.",
+          "For a semantic distinction, supply independently justified reference/state and closure contrasts; inherited parser labels or missing closure alone cannot establish the unique Y contribution. A genuinely restricted structural comparison may use a narrower claim ceiling."
+        ],
+        "not_sufficient": [
+          "More compatible Y examples without a discriminating contrast.",
+          "Applying the universal-sentence witness automatically to every local active-state interpretation.",
+          "Renaming the old value current referent or treating every visible y as the same independent unit."
+        ]
+      }
+    }
+  ]
+}
