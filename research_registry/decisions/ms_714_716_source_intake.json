@@ -1,0 +1,128 @@
+{
+  "scope": "Read-only source/card comparison; no operative write, build, experiment, image, or mixed corpus TSV.",
+  "status": "bounded_decisions",
+  "sources": {
+    "GDT714": {
+      "path": "experiments/yolo/gdt714_v87_bound_c1_core_context_repair/REPORT.md",
+      "sha256": "30e6f6ba4f2f4c9a7f8717e8625a8e85894af947c3053280be0ef75fac9c1b51"
+    },
+    "GDT715": {
+      "path": "experiments/yolo/gdt715_v88_axis_action_patient_core_context_repair/REPORT.md",
+      "sha256": "854376f0a2077cafe47afc0a239747b7e30b1125cce94bf22f4c4cff98719a91"
+    },
+    "GDT716": {
+      "path": "experiments/yolo/gdt716_v89_indexed_share_core_context_repair/REPORT.md",
+      "sha256": "f3f875983ba7e3f8c28767f2cdae00e7f66a1de0adf7b6b14c4d9a19bf8df975"
+    }
+  },
+  "decisions": [
+    {
+      "id": "MS-01",
+      "source": "GDT714",
+      "proposition": "18 bound-C1 wholeform repairs retain fields but explicitly leave dshees internal D-SH-EE-S boundary unresolved.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt714_v87_bound_c1_core_context_repair/REPORT.md",
+          "line": 7,
+          "line_end": 12,
+          "quote": "V87 bearbeitet die naechsten 18 schwachen C1-Ganzwortlesungen an 18\nunveraenderten Positionen auf zwoelf bereits zugelassenen Seiten. Die 18\nKerne werden semantisch kompakter und kompositionell einheitlicher. Unbelegte Identitaeten\nwie Droge, Arznei, Dosis und Charge verschwinden; erhalten bleiben die im\nArbeitsmodell sichtbaren Felder Menge, Portion, Zubereitung, trocken,\nfeucht, heiß, kalt sowie Anfangs-, Mittel- und Endstufe.",
+          "sha256": "30e6f6ba4f2f4c9a7f8717e8625a8e85894af947c3053280be0ef75fac9c1b51"
+        },
+        {
+          "path": "experiments/yolo/gdt714_v87_bound_c1_core_context_repair/REPORT.md",
+          "line": 26,
+          "line_end": 31,
+          "quote": "`dshees` bleibt bewusst W1: `abgemessene Feuchtform, Endstufe` ist eine\nbrauchbare Default-Komposition, aber die interne Grenze D-SH-EE-S ist nicht\nunabhaengig gesichert und gibt deshalb null neue Scorepunkte. `cholkain`,\n`kc`, `keo`, `oteor` und `oty` werden sprachlich oder kontextuell repariert,\nohne Confidence-Promotion. `os` erhaelt ausschliesslich den maschinengeprueften\nF_O-Bonus von drei Punkten und bleibt W0.",
+          "sha256": "30e6f6ba4f2f4c9a7f8717e8625a8e85894af947c3053280be0ef75fac9c1b51"
+        }
+      ],
+      "counterparts": [
+        "SEM:15b8933cf8aba4ad2ad9",
+        "SEM:a0062190cae4db700918",
+        "SEM:2e3bf371d21d949b422e"
+      ],
+      "disposition": "The generic C1 family is not a new standalone meaning card; named forms overlap existing whole/card hypotheses. dshees boundary is a genuine source-limited truncation/open segmentation issue and must not be silently converted into a confirmed decomposition."
+    },
+    {
+      "id": "MS-02",
+      "source": "GDT714",
+      "proposition": "keo+r at f7r.2 is a one-shot local span, while keo and r retain their other global scopes.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt714_v87_bound_c1_core_context_repair/REPORT.md",
+          "line": 35,
+          "line_end": 55,
+          "quote": "GDT678 hatte den f7r.2-Rand bereits explizit entschieden. V87 macht diese\nEntscheidung nun im kanonischen Kontextstrom ausfuehrbar:\n\n```text\nP288 keo + P289 r  ->  heiße Portion        (einmal)\n```\n\nDer neue Consumer-Trace konsumiert beide Quellpositionen, ersetzt P288 durch\ngenau diese eine Ausgabe und laesst P289 ohne eigene Ausgabe. Die komplette\nf7r.2-Ausgabe besitzt dadurch acht statt neun Einheiten:\n\n```text\neine Dosis vollständig trocknen und abschließen · heiße Portion · Blüte · Drogenstoff abmessen und abschließen · fertige abgemessene Mittelstufen-Trockenportion · heiß-trocken, Mittelstufe · kalt-trockene Zubereitung am Anfang des Grades · getrocknete Masse\n```\n\nDamit wird an dieser Stelle weder `heiße Zubereitung auf Mittelstufe` noch\n`Wurzel` gedruckt. Der Span ist lokal und nicht exportierbar. Die globalen\nArbeitswerte bleiben erhalten: `keo = heiße Zubereitung, Mittelstufe` fuer seine\nanderen GDT678-Kontexte und `r = Wurzel` fuer die 129 GDT661-Kontexte. Es wird\nalso weder ein freies `keo+r`-Gesetz noch ein neuer historischer Wortwert\nerfunden.",
+          "sha256": "30e6f6ba4f2f4c9a7f8717e8625a8e85894af947c3053280be0ef75fac9c1b51"
+        }
+      ],
+      "counterparts": [
+        "GDT678 source route; existing keo/r cards should remain separate"
+      ],
+      "disposition": "Renderer/context repair already addresses this local construction. It is not a missing portable semantic core and does not authorize a free keo+r law."
+    },
+    {
+      "id": "MS-03",
+      "source": "GDT715",
+      "proposition": "aiiin has portable core Wert IV with local Menge IV; ydaiin has Bezugswert III with local davon: Wert III; five action cores keep patients local.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt715_v88_axis_action_patient_core_context_repair/REPORT.md",
+          "line": 7,
+          "line_end": 25,
+          "quote": "Die letzten sieben V87-Holds dieser Klasse haben jetzt einen engen\nWoerterbuchkern und eine getrennte konkrete Fundstellenlesung:\n\n| Form | Woerterbuchkern | konkrete Stelle | Confidence |\n|---|---|---|---|\n| `aiiin` | Wert IV | Menge IV | 36→39 (W1_WEAK_WORKING) |\n| `ydaiin` | Bezugswert III | davon: Wert III | 28→31 (W1_WEAK_WORKING) |\n| `dold` | abmessen und abschließen | diese Blüte abmessen und abschließen | 39→39 (W1_WEAK_WORKING) |\n| `qckhedy` | bis zur Mittelstufe fertig aufbereiten | den vorstehenden Trockenposten bis zur Mittelstufe fertig aufbereiten | 36→36 (W1_WEAK_WORKING) |\n| `qey` | anschließend nehmen | die vorstehende trockene Mittelstufenportion anschließend nehmen | 39→39 (W1_WEAK_WORKING) |\n| `qochedain` | Trockenwert II auf Mittelstufe abmessen | hiervon die Trockenmenge II auf Mittelstufe abmessen | 39→39 (W1_WEAK_WORKING) |\n| `yky` | leicht erhitzen | die heiße Portion auf Stufe III leicht nachwärmen | 35→35 (W1_WEAK_WORKING) |\n\nDer entscheidende Gewinn ist nicht mehr Prosa, sondern Vorhersagbarkeit der\nKomposition. `aiiin` liefert nur **Wert IV**; erst P052 waehlt **Menge IV**.\n`ydaiin` liefert **Bezugswert III**; weder \"drei\" noch \"Maße\" bleiben im Kern.\nBei den fuenf Aktionen sitzt der Vorgang im Wort, waehrend der Patient aus der\nexplizit benannten linken Stelle kommt. So kann derselbe Aktionskern spaeter an\neinem anderen Patienten getestet werden.",
+          "sha256": "854376f0a2077cafe47afc0a239747b7e30b1125cce94bf22f4c4cff98719a91"
+        },
+        {
+          "path": "experiments/yolo/gdt715_v88_axis_action_patient_core_context_repair/REPORT.md",
+          "line": 53,
+          "line_end": 58,
+          "quote": "## Grenze\n\nDie konkreten Patienten sind bewusst als Fundstellenhypothesen markiert. Sie\nwerden nicht in den portablen Wortkern und nicht in freie Komponenten\nexportiert. Das ist die beste aktuelle Arbeitsuebersetzung, keine bestaetigte\nKlartextlesung; historische Bestaetigung bleibt `H0_NONE`.",
+          "sha256": "854376f0a2077cafe47afc0a239747b7e30b1125cce94bf22f4c4cff98719a91"
+        }
+      ],
+      "counterparts": [
+        "SEM:65df0512fb5705d7a792",
+        "SEM:3c29de088687414047d9",
+        "SEM:3c29de088687414047d9"
+      ],
+      "disposition": "This is a later source-scope correction of older value/action renderings, not independent semantic confirmation. Existing cards cover parts of the forms; preserve the newer core/local distinction and the older numeric/action rivals rather than collapsing them."
+    },
+    {
+      "id": "MS-04",
+      "source": "GDT716",
+      "proposition": "A bounded indexed-share family: R selects share/index while state, frame, or action remains visible; concrete material patient is local only.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt716_v89_indexed_share_core_context_repair/REPORT.md",
+          "line": 7,
+          "line_end": 33,
+          "quote": "Die dreizehn Karten folgen jetzt derselben vorhersagbaren Regel: R waehlt den\nindexierten Anteil; Zustand, Rahmen oder Aktion bleiben sichtbar; ein konkreter\nStoffpatient steht nur im exakten Kontext.\n\n| Form | portabler Kern | konkrete Fundstelle | Score |\n|---|---|---|---:|\n| `aiir` | Anteil III | Anteil III der vorstehenden trockenen Zubereitung | 30→38 |\n| `oar` | Zubereitungsanteil I | Anteil I der Zubereitung | 26→34 |\n| `oair` | Zubereitungsanteil II | Anteil II der Zubereitung | 26→34 |\n| `otar` | kalter Zubereitungsanteil I | Anteil I der kalten Zubereitung | 30→38 |\n| `otarar` | kalter Unteranteil I von Zubereitungsanteil I | Unteranteil I des Anteils I der kalten Zubereitung | 30→38 |\n| `otardy` | fertiger kalter Zubereitungsanteil I | fertiger Anteil I der kalten Zubereitung | 30→38 |\n| `qodar` | Anteil I abmessen | den vorstehenden heißen Holzanteil I abmessen | 30→38 |\n| `qokaiir` | heißen Anteil III nehmen | hiervon den heißen Anteil III nehmen | 30→38 |\n| `char` | trockener Anteil I | trockener Anteil I der vorstehenden Krautansatzportion | 30→38 |\n| `chair` | trockener Anteil II | trockener Anteil II der vorstehenden Zubereitung | 30→38 |\n| `chdar` | abgemessener trockener Anteil I | abgemessener trockener Anteil I der vorstehenden kalten Portion | 30→38 |\n| `kard` | erhitzter Anteil I, abgezogen | vorstehend abgemessener, erhitzter und abgezogener Anteil I | 30→38 |\n| `qochar` | trockenen Anteil I nehmen | den trockenen Anteil I dieser Portion nehmen | 30→38 |\n\n`oar/oair` bilden Zubereitungsanteil I/II, `char/chair` den trockenen Anteil\nI/II. `otarar` behaelt beide sichtbaren R-Schritte als Anteil und Unteranteil.\n`qodar`, `qokaiir` und `qochar` behalten ihre exakten Verben. Kein Kern braucht\nmehr den generischen Kopf \"Droge\".\n\nJede Lesung erhaelt genau einmal `F_R +8`; alle dreizehn bleiben W1. Es gibt\nkeinen Bonus fuer geloeschte Substantive, flüssigere Saetze oder Aktionsprosa.",
+          "sha256": "f3f875983ba7e3f8c28767f2cdae00e7f66a1de0adf7b6b14c4d9a19bf8df975"
+        },
+        {
+          "path": "experiments/yolo/gdt716_v89_indexed_share_core_context_repair/REPORT.md",
+          "line": 46,
+          "line_end": 51,
+          "quote": "## Grenze\n\nAnteil ist ein gebundener Arbeitswert der exakten Karten, kein bestaetigtes\nhistorisches Wort und kein frei exportiertes `ar`. Lokale Kraut-, Holz-,\nPortions- und Zubereitungsbezüge sind Fundstellenhypothesen. Alle historischen\nFelder bleiben `H0_NONE`; keine neue Seite oder Transkription wurde benutzt.",
+          "sha256": "f3f875983ba7e3f8c28767f2cdae00e7f66a1de0adf7b6b14c4d9a19bf8df975"
+        }
+      ],
+      "counterparts": [
+        "SEM:dd55ad1024888b2732bc",
+        "SEM:1723b9e0ca78252eff4d",
+        "SEM:2e3bf371d21d949b422e",
+        "SEM:459c8263a1f7865bdab9",
+        "SEM:1271671244d2c37528cb",
+        "SEM:0712918e676c045fec40"
+      ],
+      "disposition": "Individual forms have related cards and rivals, but bounded search found no single complete indexed-share family proposition with the stated local-patient/non-export limits. Retain as one source-scoped family model candidate; do not count its 13 applications as 13 independent meanings or normalize ar/air/aiir."
+    }
+  ],
+  "limits": [
+    "PASS labels, scores, repeated evidence bindings and fluent patient renderings are not independent meaning confirmation.",
+    "Static report lines are literal physical spans; no claim is made about uninspected source families or global card absence.",
+    "No free component export, numeric translation, or action/patient identity is inferred from these repairs."
+  ],
+  "artifact": "MS bounded GDT714-716 source intake"
+}

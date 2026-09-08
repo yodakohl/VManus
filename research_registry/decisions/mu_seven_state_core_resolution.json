@@ -1,0 +1,290 @@
+{
+  "artifact": "MU seven-state-core resolution",
+  "status": "source_bound_unconfirmed",
+  "scope": "GDT712 non-AL/non-cheop rows; exact current SEM claims/cases and GDT647/678/750/684 predecessor scope",
+  "static_spec_source": {
+    "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/src/V85_33_AUDIT_SPECS.tsv",
+    "sha256": "c9b7b71ac2815853c3bb09a8f420e19e7b7e5c11fcdbd0f8ca5f61160a8e301a"
+  },
+  "source_reports_checked": [
+    "GDT647",
+    "GDT678",
+    "GDT750",
+    "GDT684"
+  ],
+  "resolutions": [
+    {
+      "form": "cheol",
+      "static_spec": {
+        "source_reading_id": "cheol#1",
+        "decision": "REVISE",
+        "family_ids": "F_STATE|F_OL",
+        "decomposition": "CH+E+OL_WITHIN_EXACT_WHOLE",
+        "v85_lexical_core_de": "trockenes Material",
+        "v85_context_realization_de": "trockenes Material",
+        "repair_mode": "EXACT_WHOLE_IDENTITY_RETREAT",
+        "evidence_class": "EXACT_WHOLE_STATE_INTERSECTION",
+        "evidence_de": "Die exakte E+OL-Ganzform traegt nach GDT642 einen nominalen Kopf; GDT684 sieht MATERIAL_ROLE und STATE_DRY, GDT685 verbietet nur den Rueckexport eines universalen OL-Kopfes.",
+        "counterevidence_de": "Singleton; Drogenidentitaet und freie CH/E/OL-Wortwerte sind nicht belegt.",
+        "open_semantic_slots": "MATERIAL_IDENTITY",
+        "component_global_export_allowed": "0"
+      },
+      "current_semantic_cards": [
+        {
+          "id": "SEM:28aebd28e0b50acca467",
+          "claim": "GDT750 assigns DRY state roles to its two licensed cheol occurrences."
+        },
+        {
+          "id": "SEM:d24c873d4a73392d0b55",
+          "claim": "cheol → trockener Drogenstoff"
+        },
+        {
+          "id": "SEM:0bfd31d5e59f8048b5d5",
+          "claim": "cheol → Qualitäts- oder Zustandsfeld"
+        }
+      ],
+      "primary_evidence": [
+        {
+          "path": "experiments/yolo/gdt750_form_gated_direct_host_dispatch/REPORT.md",
+          "line": 39,
+          "line_end": 45,
+          "quote": "| Form | aktive Stellen/Seiten | lokale Achsen | praktische Lesart |\n|---|---:|---|---|\n| `okeey` | 14/10 | HOT 13; END 13 | 12× heißer Endzustand, 1× heiß, 1× Endstufe |\n| `cheol` | 2/2 | DRY 2 | zweimal trockener Zustand |\n| `cheey` | 1/1 | END 1 | einmal End-/Vollstufe |\n| `cheky` | 1/1 | DRY 1 | einmal trockener Zustand |\n| `sheey` | 1/1 | MOIST 1; END 1 | einmal feuchter/eingeweichter Endzustand |",
+          "sha256": "2245c80b399f6fece7741fda6ab396eae19c3a16c1d74d39753a14c05c2955df"
+        },
+        {
+          "path": "experiments/yolo/gdt750_form_gated_direct_host_dispatch/REPORT.md",
+          "line": 67,
+          "line_end": 72,
+          "quote": "`cheol` ist der zweitbeste kleine Befund: zwei Außenstellen auf zwei Seiten\nwerden jeweils durch das unmittelbar benachbarte `cheos` als DRY gebunden.\n`cheky` erhält an einer Stelle DRY und widerspricht damit der alten globalen\nMIDDLE_STAGE-Voreinstellung; seine allgemeine Stufe bleibt offen.  Die\nEinzelkarten `cheey` und `sheey` sind verwendbar, aber noch keine\nformweiten Defaults.",
+          "sha256": "2245c80b399f6fece7741fda6ab396eae19c3a16c1d74d39753a14c05c2955df"
+        }
+      ],
+      "disposition": "scope_changed",
+      "reason": "GDT750 directly covers dry state at two licensed occurrences; the older SEM cards add a dry-drug or quality/state rival. GDT712 removes drug identity and retains only dry material, so this is a narrowed source scope, not a missing form claim."
+    },
+    {
+      "form": "ches",
+      "static_spec": {
+        "source_reading_id": "ches#1",
+        "decision": "REVISE",
+        "family_ids": "F_STATE",
+        "decomposition": "CH+E_WITHIN_CHES_EXACT_WHOLE",
+        "v85_lexical_core_de": "trocken, Mittelstufe",
+        "v85_context_realization_de": "trockenes Material, Mittelstufe",
+        "repair_mode": "EXACT_WHOLE_IDENTITY_RETREAT",
+        "evidence_class": "EXACT_WHOLE_STATE_INTERSECTION",
+        "evidence_de": "GDT684 traegt MATERIAL_ROLE, STATE_DRY und VALUE_GRADE; der neue Kern behaelt genau Trockenheit und Mittelstufe.",
+        "counterevidence_de": "Singleton; finales S und Materialidentitaet bleiben offen.",
+        "open_semantic_slots": "MATERIAL_IDENTITY|FINAL_S_VALUE",
+        "component_global_export_allowed": "0"
+      },
+      "current_semantic_cards": [
+        {
+          "id": "SEM:2d9b9bbe54e97377a94f",
+          "claim": "ches → trockenes Drogenmaterial, Mittelstufe"
+        },
+        {
+          "id": "SEM:643e2ebcf83435c8a7f6",
+          "claim": "GDT639 retains the unexecuted whole-form working default ches = trockene S-Form, attributiv gebunden."
+        }
+      ],
+      "primary_evidence": [
+        {
+          "path": "experiments/yolo/gdt678_seventeen_two_hole_family_completion/REPORT.md",
+          "line": 40,
+          "line_end": 53,
+          "quote": "| Form | Arbeitsbedeutung | Belege |\n|---|---|---:|\n| `yey` | hieran anschließend | 1 |\n| `qodor` | eine Portion Ansatz abmessen | 2 |\n| `otsheody` | kalt angefeuchteter Ansatz, abgeschlossen | 1 |\n| `olchey` | Holzdrogenansatz, bis Mittelstufe getrocknet | 20 |\n| `chotar` | erste Fraktion des abgekühlten Trockenansatzes | 9 |\n| `okeeodar` | erste abgemessene Fraktion des vollständig erhitzten Ansatzes | 1 |\n| `qokeod` | heißen Auszug bereiten und abschließen | 5 |\n| `keeey` | stark erhitzt, Endstufe III | 9 |\n| `qoin` | zweiten Ansatz nehmen | 2 |\n| `cholches` | nachgetrocknetes Drogenmaterial, Mittelstufe | 1 |\n| `qochar` | erste Trockenfraktion nehmen | 1 |\n| `keeaiin` | vollständig erhitzt, Stufe III | 1 |",
+          "sha256": "e9a30423438f55ac97be2a2aae06d100382f868d2816bf7e3b08f83e850c5e57"
+        }
+      ],
+      "disposition": "scope_changed",
+      "reason": "SEM:2d9... is the same surface but carries drug identity; SEM:643... preserves an S-form rival. GDT712 removes the drug head while retaining dry and middle, so predecessor coverage is not exact equality."
+    },
+    {
+      "form": "cholches",
+      "static_spec": {
+        "source_reading_id": "cholches#1",
+        "decision": "REVISE",
+        "family_ids": "F_STATE",
+        "decomposition": "CHOL+CHES_VISIBLE_WHOLE_ANALYSIS",
+        "v85_lexical_core_de": "nachgetrocknet, Mittelstufe",
+        "v85_context_realization_de": "nachgetrocknetes Material, Mittelstufe",
+        "repair_mode": "EXACT_WHOLE_IDENTITY_RETREAT",
+        "evidence_class": "EXACT_WHOLE_STATE_INTERSECTION",
+        "evidence_de": "Die exakte Ganzform traegt zweimal sichtbare Trockenstruktur sowie MATERIAL_ROLE, STATE_DRY und VALUE_GRADE; nur der Drogenkopf wird entfernt.",
+        "counterevidence_de": "Singleton; nach- bleibt eine Ganzwortlesung, keine frei exportierte Reihenfolge von CHOL und CHES.",
+        "open_semantic_slots": "MATERIAL_IDENTITY|INTERNAL_ORDER",
+        "component_global_export_allowed": "0"
+      },
+      "current_semantic_cards": [
+        {
+          "id": "SEM:730eae383da183018d7a",
+          "claim": "cholches → nachgetrocknetes Drogenmaterial, Mittelstufe"
+        }
+      ],
+      "primary_evidence": [
+        {
+          "path": "experiments/yolo/gdt678_seventeen_two_hole_family_completion/REPORT.md",
+          "line": 49,
+          "line_end": 53,
+          "quote": "| `keeey` | stark erhitzt, Endstufe III | 9 |\n| `qoin` | zweiten Ansatz nehmen | 2 |\n| `cholches` | nachgetrocknetes Drogenmaterial, Mittelstufe | 1 |\n| `qochar` | erste Trockenfraktion nehmen | 1 |\n| `keeaiin` | vollständig erhitzt, Stufe III | 1 |",
+          "sha256": "e9a30423438f55ac97be2a2aae06d100382f868d2816bf7e3b08f83e850c5e57"
+        },
+        {
+          "path": "experiments/yolo/gdt678_seventeen_two_hole_family_completion/REPORT.md",
+          "line": 124,
+          "line_end": 129,
+          "quote": "- Beide Alternativleser schreiben auf f86v6.4 `lkarchees`; der Praxistext\n  verdoppelt Holz und Charge nicht künstlich.\n- `cholches/chol ches` und `aiindy/aiin dy` bewahren dieselben Komponenten;\n  die abweichende Wortgrenze ändert den Bedeutungskern nicht.\n- `olchey/oleeey`, `qoin/qoain`, `rr/rchr` und der `aiindy`-Schluss bleiben als\n  echte Leserentscheidungen dokumentiert.",
+          "sha256": "e9a30423438f55ac97be2a2aae06d100382f868d2816bf7e3b08f83e850c5e57"
+        }
+      ],
+      "disposition": "scope_changed",
+      "reason": "SEM:730... directly covers the surface and stage but says drug material. GDT678 also says the alternative word boundary preserves the same components; GDT712 changes the material scope by removing drug identity."
+    },
+    {
+      "form": "dolkain",
+      "static_spec": {
+        "source_reading_id": "dolkain#1",
+        "decision": "REVISE",
+        "family_ids": "F_STATE|F_N",
+        "decomposition": "DOLK+AIN_WITHIN_EXACT_WHOLE",
+        "v85_lexical_core_de": "abgemessen und heiß; Wert II",
+        "v85_context_realization_de": "abgemessenes heißes Material, Stufe II",
+        "repair_mode": "EXACT_WHOLE_CORE_CONTEXT_SPLIT",
+        "evidence_class": "EXACT_WHOLE_STATE_INTERSECTION",
+        "evidence_de": "GDT684 traegt MATERIAL_ROLE, STATE_HOT und VALUE_GRADE; GDT711 lizenziert die abstrakte Wertleiter und trennt ihre lokale Gradrealisierung.",
+        "counterevidence_de": "Singleton; die innere Grenze und eine konkrete Materialidentitaet bleiben offen.",
+        "open_semantic_slots": "MATERIAL_IDENTITY|VALUE_AXIS",
+        "component_global_export_allowed": "0"
+      },
+      "current_semantic_cards": [
+        {
+          "id": "SEM:06cb4b23945d517dd024",
+          "claim": "dolkain → abgemessenes heißes Drogenmaterial, Stufe II"
+        }
+      ],
+      "primary_evidence": [
+        {
+          "path": "experiments/yolo/gdt678_seventeen_two_hole_family_completion/REPORT.md",
+          "line": 70,
+          "line_end": 75,
+          "quote": "| `olkechy` | Holzdrogenansatz mäßig erhitzen, trocknen und abschließen | 1 |\n| `aiindy` | drei Teile, fertig abgeteilt | 1 |\n| `oteor` | eine Portion kalten Ansatzes, Mittelstufe | 10 |\n| `karchees` | vollständig getrocknete Kräutercharge der ersten heißen Fraktion | 1 |\n| `dolkain` | abgemessenes heißes Drogenmaterial, Stufe II | 1 |\n| `otardy` | erste kalte Ansatzfraktion, abgeschlossen | 1 |",
+          "sha256": "e9a30423438f55ac97be2a2aae06d100382f868d2816bf7e3b08f83e850c5e57"
+        }
+      ],
+      "disposition": "scope_changed",
+      "reason": "SEM:06cb... is an exact surface predecessor with drug material and stage II. GDT712 separates abstract measure/value II from local hot-material realization and does not license the old drug head."
+    },
+    {
+      "form": "kchey",
+      "static_spec": {
+        "source_reading_id": "kchey#1",
+        "decision": "REVISE",
+        "family_ids": "F_STATE|F_STAGE",
+        "decomposition": "K+CH+E+Y",
+        "v85_lexical_core_de": "heiß-trocken, Mittelstufe",
+        "v85_context_realization_de": "heiß-trocken, Mittelstufe",
+        "repair_mode": "DIRECT_STATE_CELL_NORMALIZATION",
+        "evidence_class": "DIRECT_STATE_CELL",
+        "evidence_de": "GDT647 belegt diese genaue Zustandszelle 18-mal auf 18 Seiten, davon 17 reader-exakt; die aktive Stelle traegt Hitze, Trockenheit und Mittelposition.",
+        "counterevidence_de": "Die Felder sind Arbeitstags, keine historisch bestaetigten freien Morpheme.",
+        "open_semantic_slots": "NONE",
+        "component_global_export_allowed": "0"
+      },
+      "current_semantic_cards": [
+        {
+          "id": "SEM:36d4a9ef0f3f55f80730",
+          "claim": "GDT647 extends its grade-position reading to 107 observed complete forms with visible quality heads; y/ey/eey mark beginning/middle/end, dy/edy/eedy completed positions; k/t hot/cold and ch/sh dry/moist; fields remain bound analytical fields within three enumerated templates."
+        },
+        {
+          "id": "SEM:cf04e56980019cccb2f3",
+          "claim": "Pass459 treats KCHEY and QEKY as record-dependent writings of the same DIES KURZ ZUFUEHREN reading."
+        }
+      ],
+      "primary_evidence": [
+        {
+          "path": "experiments/yolo/gdt647_quality_subdegree_family_migration/REPORT.md",
+          "line": 22,
+          "line_end": 38,
+          "quote": "Sie gilt in GDT647 ausschließlich für vollständige Wörter mit sichtbarem\nQualitätskopf. Beispiele:\n\n```text\nkchey      heiß und trocken in der Mitte des Grades\nqotcheey   kalt und trocken am Ende des Grades          [Leserwarnung]\nokshedy    heiß-feuchter Ansatz in der Mitte des Grades, abgeschlossen\nsheedy     feucht am Ende des Grades, abgeschlossen\nqokeey     heiß am Ende des Grades\noteedy     kalter Ansatz am Ende des Grades, abgeschlossen\n```\n\n`qo` wird nicht als deutsches Pseudowort ausgesprochen; es bleibt im\nKompositionsfeld gebunden. Ein initiales `o` unterscheidet dagegen die\nAnsatzformen. In der Temperaturfamilie bezeichnet `k/t` heiß/kalt, in der\nFeuchtefamilie `ch/sh` trocken/feucht. Das sind weiterhin Analysefelder\ngelernter Ganzwörter, keine freigesetzten Voynich-Wörter.",
+          "sha256": "6d139a35b41546a5e8bc4a49b83e3d6367d91d04245eeb848f0ce0d0f2bc905d"
+        }
+      ],
+      "disposition": "covered_model",
+      "reason": "SEM:36d4... is the actual complete restricted GDT647 model covering kchey within its enumerated templates. SEM:cf04... is a separate record-dependent whole reading, not a reason to merge or call the state cell missing."
+    },
+    {
+      "form": "keeaiin",
+      "static_spec": {
+        "source_reading_id": "keeaiin#1",
+        "decision": "REVISE",
+        "family_ids": "F_STATE|F_N",
+        "decomposition": "K+EE+AIIN_WITHIN_EXACT_WHOLE",
+        "v85_lexical_core_de": "heiß, Endstufe; Wert III",
+        "v85_context_realization_de": "heiß, Endstufe III",
+        "repair_mode": "EXACT_WHOLE_CORE_CONTEXT_SPLIT",
+        "evidence_class": "EXACT_WHOLE_STATE_INTERSECTION",
+        "evidence_de": "K+EE-Geschwister tragen heißen Endbereich; GDT711 traegt AIIN als Wert III, die aktive Stelle STATE_HOT und VALUE_GRADE.",
+        "counterevidence_de": "Singleton; das fehlende terminale Y macht die Kreuzung zur Ganzwortlesung, nicht zu freien K/EE/AIIN-Woertern.",
+        "open_semantic_slots": "VALUE_AXIS|PATIENT",
+        "component_global_export_allowed": "0"
+      },
+      "current_semantic_cards": [
+        {
+          "id": "SEM:59308d52ca76eb3c07ae",
+          "claim": "keeaiin → vollständig erhitzt, Stufe III"
+        }
+      ],
+      "primary_evidence": [
+        {
+          "path": "experiments/yolo/gdt678_seventeen_two_hole_family_completion/REPORT.md",
+          "line": 49,
+          "line_end": 54,
+          "quote": "| `keeey` | stark erhitzt, Endstufe III | 9 |\n| `qoin` | zweiten Ansatz nehmen | 2 |\n| `cholches` | nachgetrocknetes Drogenmaterial, Mittelstufe | 1 |\n| `qochar` | erste Trockenfraktion nehmen | 1 |\n| `keeaiin` | vollständig erhitzt, Stufe III | 1 |\n| `qocho` | Trockenansatz nehmen | 2 |",
+          "sha256": "e9a30423438f55ac97be2a2aae06d100382f868d2816bf7e3b08f83e850c5e57"
+        }
+      ],
+      "disposition": "scope_changed",
+      "reason": "SEM:593... is the exact GDT678 predecessor, but its fully-heated whole wording is broader than GDT712’s hot/end/value-III core and local realization. Preserve the predecessor as a rival/scope history."
+    },
+    {
+      "form": "qotaiin",
+      "static_spec": {
+        "source_reading_id": "qotaiin#1",
+        "decision": "REVISE",
+        "family_ids": "F_STATE|F_N|F_REF",
+        "decomposition": "QO+T+AIIN_WITHIN_EXACT_WHOLE",
+        "v85_lexical_core_de": "kalt; Wert III",
+        "v85_context_realization_de": "kalt, Grad III",
+        "repair_mode": "EXACT_WHOLE_CORE_CONTEXT_SPLIT",
+        "evidence_class": "EXACT_WHOLE_STATE_INTERSECTION",
+        "evidence_de": "GDT684 traegt STATE_COLD und VALUE_GRADE; GDT711 traegt AIIN als abstrakten Wert III und erlaubt Grad nur in der lokalen Realisierung.",
+        "counterevidence_de": "Singleton; QO, T und AIIN bleiben gebundene Analysefelder und sind historisch unbestaetigt.",
+        "open_semantic_slots": "VALUE_AXIS|QO_ROLE",
+        "component_global_export_allowed": "0"
+      },
+      "current_semantic_cards": [
+        {
+          "id": "SEM:a097004ada604b558457",
+          "claim": "chaiin qotaiin → dry degree III; cold degree III"
+        }
+      ],
+      "primary_evidence": [
+        {
+          "path": "experiments/yolo/gdt647_quality_subdegree_family_migration/REPORT.md",
+          "line": 47,
+          "line_end": 60,
+          "quote": "Das zugelassene Universum ist stattdessen vollständig vorgegeben:\n\n```text\nA  (leer|o|qo)+(k|t)+(ch|sh)+S     61/72 beobachtet\nB  (ch|sh)+S                       12/12 beobachtet\nC  (k|t|ok|ot|qok|qot)+S          34/36 beobachtet\nS  y, ey, eey, dy, edy, eedy\n```\n\nDamit sind 107 von 120 Zellen real. Die 13 Nullzellen bleiben im HOLD-Deck und\nerhalten keinen Glossareintrag. Ebenfalls unverändert bleiben nackte CTH- und\nMaterialformen, umgestellte Wörter wie `choky/chokchy`, `qokeeedy`, `keechy`,\ninitiale y-Formen sowie die getrennten Leitern `aN`, `oiin`, `air`, `al`, `ol`\nund `or`.",
+          "sha256": "6d139a35b41546a5e8bc4a49b83e3d6367d91d04245eeb848f0ce0d0f2bc905d"
+        }
+      ],
+      "disposition": "scope_changed",
+      "reason": "SEM:a097... covers a compound qotaiin context with cold and dry degree III. GDT712’s qotaiin core is cold plus abstract value III, with QO/T/AIIN bound; it is a narrower source-bound scope, not an absent surface."
+    }
+  ],
+  "limits": [
+    "No current card is treated as confirmed meaning or independent gold.",
+    "Historical predecessor wording is not silently equated with a later narrowed core.",
+    "GDT684 claim ceiling remains: practical semantic information is not confirmed lexical meaning."
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "artifact": "MN bounded GDT712 state/carrier core intake",
+  "status": "source_bound_unconfirmed",
+  "scope": "Non-AL, non-cheop rows from V85 static audit specifications; bounded semantic-card comparison; no registry mutation",
+  "static_source": {
+    "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/src/V85_33_AUDIT_SPECS.tsv",
+    "sha256": "c9b7b71ac2815853c3bb09a8f420e19e7b7e5c11fcdbd0f8ca5f61160a8e301a",
+    "selector": "source_reading_id rows; no folio or corpus access"
+  },
+  "candidates": [
+    {
+      "form": "tal",
+      "static_spec": {
+        "source_reading_id": "tal#1",
+        "decision": "REVISE",
+        "family_ids": "F_AL|F_STATE",
+        "decomposition": "T+AL",
+        "v85_lexical_core_de": "kaltes Material I, Anfangsstufe",
+        "v85_context_realization_de": "kaltes Material I, Anfangsstufe",
+        "repair_mode": "ATLAS_FAMILY_CORE",
+        "evidence_class": "ATLAS_FAMILY_INTERSECTION",
+        "evidence_de": "14 reader-exakte GDT656-Atlaspositionen tragen die kalte T-Startzelle mit AL-I; die aktive Stelle besitzt dieselben Signale.",
+        "counterevidence_de": "Nur eine aktive Stelle; T kann eine Qualitaet statt einer Kuehlhandlung bezeichnen, Materialart bleibt offen.",
+        "open_semantic_slots": "MATERIAL_IDENTITY",
+        "component_global_export_allowed": "0"
+      },
+      "counterparts": [],
+      "disposition": "possible_missing_core",
+      "assessment": "No direct form card located in bounded claim search; the static specification gives cold material I at beginning, while the only family-direction hit is not the same proposition."
+    },
+    {
+      "form": "cheol",
+      "static_spec": {
+        "source_reading_id": "cheol#1",
+        "decision": "REVISE",
+        "family_ids": "F_STATE|F_OL",
+        "decomposition": "CH+E+OL_WITHIN_EXACT_WHOLE",
+        "v85_lexical_core_de": "trockenes Material",
+        "v85_context_realization_de": "trockenes Material",
+        "repair_mode": "EXACT_WHOLE_IDENTITY_RETREAT",
+        "evidence_class": "EXACT_WHOLE_STATE_INTERSECTION",
+        "evidence_de": "Die exakte E+OL-Ganzform traegt nach GDT642 einen nominalen Kopf; GDT684 sieht MATERIAL_ROLE und STATE_DRY, GDT685 verbietet nur den Rueckexport eines universalen OL-Kopfes.",
+        "counterevidence_de": "Singleton; Drogenidentitaet und freie CH/E/OL-Wortwerte sind nicht belegt.",
+        "open_semantic_slots": "MATERIAL_IDENTITY",
+        "component_global_export_allowed": "0"
+      },
+      "counterparts": [
+        {
+          "id": "SEM:28aebd28e0b50acca467",
+          "claim": "GDT750 assigns DRY state roles to two licensed cheol occurrences"
+        },
+        {
+          "id": "SEM:d24c873d4a73392d0b55",
+          "claim": "cheol → trockener Drogenstoff"
+        }
+      ],
+      "disposition": "scope_changed_neighbor",
+      "assessment": "Existing cards cover cheol as dry state/dry drug, but not the GDT712 narrowed dry-material core with this exact whole-form limit."
+    },
+    {
+      "form": "ches",
+      "static_spec": {
+        "source_reading_id": "ches#1",
+        "decision": "REVISE",
+        "family_ids": "F_STATE",
+        "decomposition": "CH+E_WITHIN_CHES_EXACT_WHOLE",
+        "v85_lexical_core_de": "trocken, Mittelstufe",
+        "v85_context_realization_de": "trockenes Material, Mittelstufe",
+        "repair_mode": "EXACT_WHOLE_IDENTITY_RETREAT",
+        "evidence_class": "EXACT_WHOLE_STATE_INTERSECTION",
+        "evidence_de": "GDT684 traegt MATERIAL_ROLE, STATE_DRY und VALUE_GRADE; der neue Kern behaelt genau Trockenheit und Mittelstufe.",
+        "counterevidence_de": "Singleton; finales S und Materialidentitaet bleiben offen.",
+        "open_semantic_slots": "MATERIAL_IDENTITY|FINAL_S_VALUE",
+        "component_global_export_allowed": "0"
+      },
+      "counterparts": [
+        {
+          "id": "SEM:2d9b9bbe54e97377a94f",
+          "claim": "ches → trockenes Drogenmaterial, Mittelstufe"
+        },
+        {
+          "id": "SEM:643e2ebcf83435c8a7f6",
+          "claim": "GDT639 retains ches = trockene S-Form"
+        }
+      ],
+      "disposition": "scope_changed_neighbor",
+      "assessment": "Existing cards retain dry drug or dry S-form rivals; GDT712 removes drug identity and keeps dry + middle material scope."
+    },
+    {
+      "form": "cholches",
+      "static_spec": {
+        "source_reading_id": "cholches#1",
+        "decision": "REVISE",
+        "family_ids": "F_STATE",
+        "decomposition": "CHOL+CHES_VISIBLE_WHOLE_ANALYSIS",
+        "v85_lexical_core_de": "nachgetrocknet, Mittelstufe",
+        "v85_context_realization_de": "nachgetrocknetes Material, Mittelstufe",
+        "repair_mode": "EXACT_WHOLE_IDENTITY_RETREAT",
+        "evidence_class": "EXACT_WHOLE_STATE_INTERSECTION",
+        "evidence_de": "Die exakte Ganzform traegt zweimal sichtbare Trockenstruktur sowie MATERIAL_ROLE, STATE_DRY und VALUE_GRADE; nur der Drogenkopf wird entfernt.",
+        "counterevidence_de": "Singleton; nach- bleibt eine Ganzwortlesung, keine frei exportierte Reihenfolge von CHOL und CHES.",
+        "open_semantic_slots": "MATERIAL_IDENTITY|INTERNAL_ORDER",
+        "component_global_export_allowed": "0"
+      },
+      "counterparts": [
+        {
+          "id": "SEM:730eae383da183018d7a",
+          "claim": "cholches → nachgetrocknetes Drogenmaterial, Mittelstufe"
+        }
+      ],
+      "disposition": "scope_changed_neighbor",
+      "assessment": "GDT678 has the same surface and stage but retains drug material; GDT712 explicitly removes that identity and keeps after-dry + middle."
+    },
+    {
+      "form": "dolkain",
+      "static_spec": {
+        "source_reading_id": "dolkain#1",
+        "decision": "REVISE",
+        "family_ids": "F_STATE|F_N",
+        "decomposition": "DOLK+AIN_WITHIN_EXACT_WHOLE",
+        "v85_lexical_core_de": "abgemessen und heiß; Wert II",
+        "v85_context_realization_de": "abgemessenes heißes Material, Stufe II",
+        "repair_mode": "EXACT_WHOLE_CORE_CONTEXT_SPLIT",
+        "evidence_class": "EXACT_WHOLE_STATE_INTERSECTION",
+        "evidence_de": "GDT684 traegt MATERIAL_ROLE, STATE_HOT und VALUE_GRADE; GDT711 lizenziert die abstrakte Wertleiter und trennt ihre lokale Gradrealisierung.",
+        "counterevidence_de": "Singleton; die innere Grenze und eine konkrete Materialidentitaet bleiben offen.",
+        "open_semantic_slots": "MATERIAL_IDENTITY|VALUE_AXIS",
+        "component_global_export_allowed": "0"
+      },
+      "counterparts": [
+        {
+          "id": "SEM:06cb4b23945d517dd024",
+          "claim": "dolkain → abgemessenes heißes Drogenmaterial, Stufe II"
+        }
+      ],
+      "disposition": "scope_changed_neighbor",
+      "assessment": "GDT678 counterpart has the old drug head; GDT712 separates abstract measure/value II from local hot-material realization and refuses free segmentation."
+    },
+    {
+      "form": "kchey",
+      "static_spec": {
+        "source_reading_id": "kchey#1",
+        "decision": "REVISE",
+        "family_ids": "F_STATE|F_STAGE",
+        "decomposition": "K+CH+E+Y",
+        "v85_lexical_core_de": "heiß-trocken, Mittelstufe",
+        "v85_context_realization_de": "heiß-trocken, Mittelstufe",
+        "repair_mode": "DIRECT_STATE_CELL_NORMALIZATION",
+        "evidence_class": "DIRECT_STATE_CELL",
+        "evidence_de": "GDT647 belegt diese genaue Zustandszelle 18-mal auf 18 Seiten, davon 17 reader-exakt; die aktive Stelle traegt Hitze, Trockenheit und Mittelposition.",
+        "counterevidence_de": "Die Felder sind Arbeitstags, keine historisch bestaetigten freien Morpheme.",
+        "open_semantic_slots": "NONE",
+        "component_global_export_allowed": "0"
+      },
+      "counterparts": [
+        {
+          "id": "SEM:cf04e56980019cccb2f3",
+          "claim": "KCHEY/QEKY record-dependent DIES KURZ ZUFUEHREN reading"
+        }
+      ],
+      "disposition": "possible_missing_core",
+      "assessment": "No direct kchey semantic card was located; the nearest card is a record-dependent whole reading, not the GDT712 hot-dry middle state cell."
+    },
+    {
+      "form": "keeaiin",
+      "static_spec": {
+        "source_reading_id": "keeaiin#1",
+        "decision": "REVISE",
+        "family_ids": "F_STATE|F_N",
+        "decomposition": "K+EE+AIIN_WITHIN_EXACT_WHOLE",
+        "v85_lexical_core_de": "heiß, Endstufe; Wert III",
+        "v85_context_realization_de": "heiß, Endstufe III",
+        "repair_mode": "EXACT_WHOLE_CORE_CONTEXT_SPLIT",
+        "evidence_class": "EXACT_WHOLE_STATE_INTERSECTION",
+        "evidence_de": "K+EE-Geschwister tragen heißen Endbereich; GDT711 traegt AIIN als Wert III, die aktive Stelle STATE_HOT und VALUE_GRADE.",
+        "counterevidence_de": "Singleton; das fehlende terminale Y macht die Kreuzung zur Ganzwortlesung, nicht zu freien K/EE/AIIN-Woertern.",
+        "open_semantic_slots": "VALUE_AXIS|PATIENT",
+        "component_global_export_allowed": "0"
+      },
+      "counterparts": [
+        {
+          "id": "SEM:59308d52ca76eb3c07ae",
+          "claim": "keeaiin → vollständig erhitzt, Stufe III"
+        }
+      ],
+      "disposition": "scope_changed_neighbor",
+      "assessment": "GDT678 has the old fully-heated whole; GDT712 narrows to hot/end/value III and explicitly blocks free K/EE/AIIN export."
+    },
+    {
+      "form": "qotaiin",
+      "static_spec": {
+        "source_reading_id": "qotaiin#1",
+        "decision": "REVISE",
+        "family_ids": "F_STATE|F_N|F_REF",
+        "decomposition": "QO+T+AIIN_WITHIN_EXACT_WHOLE",
+        "v85_lexical_core_de": "kalt; Wert III",
+        "v85_context_realization_de": "kalt, Grad III",
+        "repair_mode": "EXACT_WHOLE_CORE_CONTEXT_SPLIT",
+        "evidence_class": "EXACT_WHOLE_STATE_INTERSECTION",
+        "evidence_de": "GDT684 traegt STATE_COLD und VALUE_GRADE; GDT711 traegt AIIN als abstrakten Wert III und erlaubt Grad nur in der lokalen Realisierung.",
+        "counterevidence_de": "Singleton; QO, T und AIIN bleiben gebundene Analysefelder und sind historisch unbestaetigt.",
+        "open_semantic_slots": "VALUE_AXIS|QO_ROLE",
+        "component_global_export_allowed": "0"
+      },
+      "counterparts": [
+        {
+          "id": "SEM:a097004ada604b558457",
+          "claim": "chaiin qotaiin → dry degree III; cold degree III"
+        }
+      ],
+      "disposition": "scope_changed_neighbor",
+      "assessment": "The existing card preserves a cold/dry degree rival, while GDT712 selects cold + abstract value III and keeps QO/T/AIIN bound."
+    }
+  ],
+  "preserved_exact_coverage": [
+    {
+      "form": "keeey",
+      "claim": "keeey → stark erhitzt, Endstufe III",
+      "counterpart_ids": [
+        "SEM:bb0c41d247041b91ce97"
+      ],
+      "reason": "static row deliberately HOLD outside direct stage lattice; exact whole-form card exists, so no new candidate"
+    },
+    {
+      "form": "qokeeey",
+      "claim": "qokeeey → stark erhitzt, Endstufe III",
+      "counterpart_ids": [
+        "SEM:f41033641fcb34ddbd45"
+      ],
+      "reason": "static row deliberately HOLD outside direct stage lattice; exact whole-form card exists, so no new candidate"
+    },
+    {
+      "form": "okol",
+      "claim": "okol → heißer Ansatzstoff",
+      "counterpart_ids": [
+        "SEM:1fa1eaf3b976f2e628a1",
+        "SEM:69d4609889acccd58e91"
+      ],
+      "reason": "static row deliberately HOLD as exact nominal head; existing competing whole-form cards retained"
+    }
+  ],
+  "limits": [
+    "Static specs are model definitions, not independent semantic gold.",
+    "A predecessor with the same surface is only a counterpart when its scope is compared; narrowed GDT712 cores remain separate source-bound hypotheses.",
+    "No readiness, confirmation, or experiment selection is implied."
+  ]
+}

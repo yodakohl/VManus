@@ -1,0 +1,137 @@
+{
+  "artifact": "MY independent MT axis/action/share peer",
+  "scope": "Read-only peer of clean_gap_review_mt_integrated.json and mt_root_fourteen_proposition_recovery.json; Markdown reports only for GDT715/716, no TSV row parsing, registry mutation, image or experiment.",
+  "file_hashes": {
+    "clean_gap_review_mt_integrated.json": "b5ff387582db7b13a0534893c0d4870d435b14bb5b23e3d80f18148ccdd36bee",
+    "mt_root_fourteen_proposition_recovery.json": "4c0e1d8aeecfc93e0e468d8f89659cde786791982f1bc8a63e1078f94badb960",
+    "GDT715_REPORT": "854376f0a2077cafe47afc0a239747b7e30b1125cce94bf22f4c4cff98719a91",
+    "GDT716_REPORT": "f3f875983ba7e3f8c28767f2cdae00e7f66a1de0adf7b6b14c4d9a19bf8df975"
+  },
+  "status": "approve_with_scope_corrections",
+  "source_evidence": [
+    {
+      "path": "experiments/yolo/gdt715_v88_axis_action_patient_core_context_repair/REPORT.md",
+      "line": 7,
+      "line_end": 25,
+      "quote": "Die letzten sieben V87-Holds dieser Klasse haben jetzt einen engen\nWoerterbuchkern und eine getrennte konkrete Fundstellenlesung:\n\n| Form | Woerterbuchkern | konkrete Stelle | Confidence |\n|---|---|---|---|\n| `aiiin` | Wert IV | Menge IV | 36→39 (W1_WEAK_WORKING) |\n| `ydaiin` | Bezugswert III | davon: Wert III | 28→31 (W1_WEAK_WORKING) |\n| `dold` | abmessen und abschließen | diese Blüte abmessen und abschließen | 39→39 (W1_WEAK_WORKING) |\n| `qckhedy` | bis zur Mittelstufe fertig aufbereiten | den vorstehenden Trockenposten bis zur Mittelstufe fertig aufbereiten | 36→36 (W1_WEAK_WORKING) |\n| `qey` | anschließend nehmen | die vorstehende trockene Mittelstufenportion anschließend nehmen | 39→39 (W1_WEAK_WORKING) |\n| `qochedain` | Trockenwert II auf Mittelstufe abmessen | hiervon die Trockenmenge II auf Mittelstufe abmessen | 39→39 (W1_WEAK_WORKING) |\n| `yky` | leicht erhitzen | die heiße Portion auf Stufe III leicht nachwärmen | 35→35 (W1_WEAK_WORKING) |\n\nDer entscheidende Gewinn ist nicht mehr Prosa, sondern Vorhersagbarkeit der\nKomposition. `aiiin` liefert nur **Wert IV**; erst P052 waehlt **Menge IV**.\n`ydaiin` liefert **Bezugswert III**; weder \"drei\" noch \"Maße\" bleiben im Kern.\nBei den fuenf Aktionen sitzt der Vorgang im Wort, waehrend der Patient aus der\nexplizit benannten linken Stelle kommt. So kann derselbe Aktionskern spaeter an\neinem anderen Patienten getestet werden.",
+      "sha256": "854376f0a2077cafe47afc0a239747b7e30b1125cce94bf22f4c4cff98719a91"
+    },
+    {
+      "path": "experiments/yolo/gdt715_v88_axis_action_patient_core_context_repair/REPORT.md",
+      "line": 53,
+      "line_end": 58,
+      "quote": "## Grenze\n\nDie konkreten Patienten sind bewusst als Fundstellenhypothesen markiert. Sie\nwerden nicht in den portablen Wortkern und nicht in freie Komponenten\nexportiert. Das ist die beste aktuelle Arbeitsuebersetzung, keine bestaetigte\nKlartextlesung; historische Bestaetigung bleibt `H0_NONE`.",
+      "sha256": "854376f0a2077cafe47afc0a239747b7e30b1125cce94bf22f4c4cff98719a91"
+    },
+    {
+      "path": "experiments/yolo/gdt716_v89_indexed_share_core_context_repair/REPORT.md",
+      "line": 7,
+      "line_end": 33,
+      "quote": "Die dreizehn Karten folgen jetzt derselben vorhersagbaren Regel: R waehlt den\nindexierten Anteil; Zustand, Rahmen oder Aktion bleiben sichtbar; ein konkreter\nStoffpatient steht nur im exakten Kontext.\n\n| Form | portabler Kern | konkrete Fundstelle | Score |\n|---|---|---|---:|\n| `aiir` | Anteil III | Anteil III der vorstehenden trockenen Zubereitung | 30→38 |\n| `oar` | Zubereitungsanteil I | Anteil I der Zubereitung | 26→34 |\n| `oair` | Zubereitungsanteil II | Anteil II der Zubereitung | 26→34 |\n| `otar` | kalter Zubereitungsanteil I | Anteil I der kalten Zubereitung | 30→38 |\n| `otarar` | kalter Unteranteil I von Zubereitungsanteil I | Unteranteil I des Anteils I der kalten Zubereitung | 30→38 |\n| `otardy` | fertiger kalter Zubereitungsanteil I | fertiger Anteil I der kalten Zubereitung | 30→38 |\n| `qodar` | Anteil I abmessen | den vorstehenden heißen Holzanteil I abmessen | 30→38 |\n| `qokaiir` | heißen Anteil III nehmen | hiervon den heißen Anteil III nehmen | 30→38 |\n| `char` | trockener Anteil I | trockener Anteil I der vorstehenden Krautansatzportion | 30→38 |\n| `chair` | trockener Anteil II | trockener Anteil II der vorstehenden Zubereitung | 30→38 |\n| `chdar` | abgemessener trockener Anteil I | abgemessener trockener Anteil I der vorstehenden kalten Portion | 30→38 |\n| `kard` | erhitzter Anteil I, abgezogen | vorstehend abgemessener, erhitzter und abgezogener Anteil I | 30→38 |\n| `qochar` | trockenen Anteil I nehmen | den trockenen Anteil I dieser Portion nehmen | 30→38 |\n\n`oar/oair` bilden Zubereitungsanteil I/II, `char/chair` den trockenen Anteil\nI/II. `otarar` behaelt beide sichtbaren R-Schritte als Anteil und Unteranteil.\n`qodar`, `qokaiir` und `qochar` behalten ihre exakten Verben. Kein Kern braucht\nmehr den generischen Kopf \"Droge\".\n\nJede Lesung erhaelt genau einmal `F_R +8`; alle dreizehn bleiben W1. Es gibt\nkeinen Bonus fuer geloeschte Substantive, flüssigere Saetze oder Aktionsprosa.",
+      "sha256": "f3f875983ba7e3f8c28767f2cdae00e7f66a1de0adf7b6b14c4d9a19bf8df975"
+    },
+    {
+      "path": "experiments/yolo/gdt716_v89_indexed_share_core_context_repair/REPORT.md",
+      "line": 46,
+      "line_end": 51,
+      "quote": "## Grenze\n\nAnteil ist ein gebundener Arbeitswert der exakten Karten, kein bestaetigtes\nhistorisches Wort und kein frei exportiertes `ar`. Lokale Kraut-, Holz-,\nPortions- und Zubereitungsbezüge sind Fundstellenhypothesen. Alle historischen\nFelder bleiben `H0_NONE`; keine neue Seite oder Transkription wurde benutzt.",
+      "sha256": "f3f875983ba7e3f8c28767f2cdae00e7f66a1de0adf7b6b14c4d9a19bf8df975"
+    }
+  ],
+  "checks": [
+    "All fourteen recovered propositions remain unconfirmed/source-bound; no PASS or score is treated as meaning confirmation.",
+    "GDT715 local Menge IV is an axis realization selected by P052, not a patient; the five-patient model is separate.",
+    "GDT715 dold portable core is already covered by SEM:2d0227bfbf1290e3010f; only its local flower assignment is additional.",
+    "GDT716 is a specific thirteen-card indexed-share map. GDT693/GDT647 common R-head or grade-field policies are predecessors/context, not the same complete map; the 13 applications are one model, not 13 independent meanings."
+  ],
+  "old_card_comparison": [
+    {
+      "id": "SEM:36d4a9ef0f3f55f80730",
+      "claim": "GDT647 grade/temperature/moisture fields are analytical fields of learned whole words, not free words; bounded templates and absent cells remain limited.",
+      "relation": "related predecessor, not full GDT716 indexed-share map",
+      "status": "unconfirmed"
+    },
+    {
+      "id": "SEM:0114bfd0a0029e9d95f6",
+      "claim": "GDT721 locally joins keo|r as one heiße Portion span; r is not independently rendered there.",
+      "relation": "covers GDT714 local renderer, not MT GDT715/716 cores",
+      "status": "unconfirmed"
+    },
+    {
+      "id": "SEM:2d0227bfbf1290e3010f",
+      "claim": "dold → abmessen und abschließen",
+      "relation": "exact portable GDT715 core covered; local flower remains separate",
+      "status": "unconfirmed"
+    },
+    {
+      "id": "SEM:65df0512fb5705d7a792",
+      "claim": "aiiin → STUFE",
+      "relation": "older related value proposal, not GDT715 Wert IV",
+      "status": "unconfirmed"
+    },
+    {
+      "id": "SEM:3c29de088687414047d9",
+      "claim": "ydaiin → davon drei Maße",
+      "relation": "older numeric rival, not GDT715 Bezugswert III",
+      "status": "unconfirmed"
+    },
+    {
+      "id": "SEM:870d011b823614053b76",
+      "claim": "qochedain → zwei Dosen mittelgetrocknetes Gut abmessen",
+      "relation": "different older whole/material reading",
+      "status": "unconfirmed"
+    },
+    {
+      "id": "SEM:df45c9f6bcf0026580aa",
+      "claim": "qey → die vorstehende Mittelstufenportion anschließend nehmen",
+      "relation": "older patient-in-core reading; GDT715 separates action from patient",
+      "status": "unconfirmed"
+    },
+    {
+      "id": "SEM:f05a264104fe28bfeee7",
+      "claim": "yky → Y+K+Y",
+      "relation": "formal packaging rival; not GDT715 heating action",
+      "status": "unconfirmed"
+    },
+    {
+      "id": "SEM:dd55ad1024888b2732bc",
+      "claim": "aiir → Drogenfraktion III",
+      "relation": "older whole/material rival to GDT716 aiir share core",
+      "status": "unconfirmed"
+    },
+    {
+      "id": "SEM:1723b9e0ca78252eff4d",
+      "claim": "oair → zweite Ansatzfraktion",
+      "relation": "older local/material reading to GDT716 oair indexed share II",
+      "status": "unconfirmed"
+    },
+    {
+      "id": "SEM:2e3bf371d21d949b422e",
+      "claim": "otar → kalter Zubereitungsanteil",
+      "relation": "related whole/material card to GDT716 otar share map",
+      "status": "unconfirmed"
+    },
+    {
+      "id": "SEM:459c8263a1f7865bdab9",
+      "claim": "otarar → erste Unterfraktion der kalten Ansatzfraktion I",
+      "relation": "related nested share reading; GDT716 retains share/subshare structure",
+      "status": "unconfirmed"
+    },
+    {
+      "id": "SEM:1271671244d2c37528cb",
+      "claim": "chdar → abgemessene Trockenfraktion I, Anfangsstufe",
+      "relation": "older fraction/grade reading; GDT716 dry indexed-share core remains scoped separately",
+      "status": "unconfirmed"
+    },
+    {
+      "id": "SEM:0712918e676c045fec40",
+      "claim": "qochar → erste Trockenfraktion nehmen",
+      "relation": "older action/fraction reading; GDT716 keeps explicit take action local",
+      "status": "unconfirmed"
+    }
+  ],
+  "conclusion": {
+    "GDT715": "Two value cores, four action cores and one five-patient construction are correctly separated. Dold core is covered; other exact narrower cores remain source-scoped despite related older cards.",
+    "GDT716": "The thirteen-card indexed-share composition is addressable as one bounded model. Existing common R-head/grade cards do not make it a new general R theory, and its applications are not independent meanings."
+  }
+}

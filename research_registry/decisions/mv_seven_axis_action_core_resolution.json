@@ -1,0 +1,179 @@
+{
+  "artifact": "MV GDT715 seven axis/action core resolution",
+  "scope": "Read-only bounded comparison; no operative write, raw TSV, images or experiments.",
+  "source": {
+    "path": "experiments/yolo/gdt715_v88_axis_action_patient_core_context_repair/REPORT.md",
+    "line": 7,
+    "line_end": 25,
+    "quote": "Die letzten sieben V87-Holds dieser Klasse haben jetzt einen engen\nWoerterbuchkern und eine getrennte konkrete Fundstellenlesung:\n\n| Form | Woerterbuchkern | konkrete Stelle | Confidence |\n|---|---|---|---|\n| `aiiin` | Wert IV | Menge IV | 36→39 (W1_WEAK_WORKING) |\n| `ydaiin` | Bezugswert III | davon: Wert III | 28→31 (W1_WEAK_WORKING) |\n| `dold` | abmessen und abschließen | diese Blüte abmessen und abschließen | 39→39 (W1_WEAK_WORKING) |\n| `qckhedy` | bis zur Mittelstufe fertig aufbereiten | den vorstehenden Trockenposten bis zur Mittelstufe fertig aufbereiten | 36→36 (W1_WEAK_WORKING) |\n| `qey` | anschließend nehmen | die vorstehende trockene Mittelstufenportion anschließend nehmen | 39→39 (W1_WEAK_WORKING) |\n| `qochedain` | Trockenwert II auf Mittelstufe abmessen | hiervon die Trockenmenge II auf Mittelstufe abmessen | 39→39 (W1_WEAK_WORKING) |\n| `yky` | leicht erhitzen | die heiße Portion auf Stufe III leicht nachwärmen | 35→35 (W1_WEAK_WORKING) |\n\nDer entscheidende Gewinn ist nicht mehr Prosa, sondern Vorhersagbarkeit der\nKomposition. `aiiin` liefert nur **Wert IV**; erst P052 waehlt **Menge IV**.\n`ydaiin` liefert **Bezugswert III**; weder \"drei\" noch \"Maße\" bleiben im Kern.\nBei den fuenf Aktionen sitzt der Vorgang im Wort, waehrend der Patient aus der\nexplizit benannten linken Stelle kommt. So kann derselbe Aktionskern spaeter an\neinem anderen Patienten getestet werden.",
+    "sha256": "854376f0a2077cafe47afc0a239747b7e30b1125cce94bf22f4c4cff98719a91"
+  },
+  "source_hash": "854376f0a2077cafe47afc0a239747b7e30b1125cce94bf22f4c4cff98719a91",
+  "source_owner": "experiments/yolo/gdt715_v88_axis_action_patient_core_context_repair/REPORT.md",
+  "rows": [
+    {
+      "form": "aiiin",
+      "current_id": "SEM:65df0512fb5705d7a792",
+      "current_claim": "aiiin → STUFE",
+      "resolution": "exact_core_missing_but_related_card",
+      "disposition": "GDT715 says portable Wert IV and local Menge IV; existing STUFE is a related older creative cell, not exact coverage. Local Menge IV is a separate patient/context assignment.",
+      "gdt715_evidence": {
+        "path": "experiments/yolo/gdt715_v88_axis_action_patient_core_context_repair/REPORT.md",
+        "line": 7,
+        "line_end": 25,
+        "quote": "Die letzten sieben V87-Holds dieser Klasse haben jetzt einen engen\nWoerterbuchkern und eine getrennte konkrete Fundstellenlesung:\n\n| Form | Woerterbuchkern | konkrete Stelle | Confidence |\n|---|---|---|---|\n| `aiiin` | Wert IV | Menge IV | 36→39 (W1_WEAK_WORKING) |\n| `ydaiin` | Bezugswert III | davon: Wert III | 28→31 (W1_WEAK_WORKING) |\n| `dold` | abmessen und abschließen | diese Blüte abmessen und abschließen | 39→39 (W1_WEAK_WORKING) |\n| `qckhedy` | bis zur Mittelstufe fertig aufbereiten | den vorstehenden Trockenposten bis zur Mittelstufe fertig aufbereiten | 36→36 (W1_WEAK_WORKING) |\n| `qey` | anschließend nehmen | die vorstehende trockene Mittelstufenportion anschließend nehmen | 39→39 (W1_WEAK_WORKING) |\n| `qochedain` | Trockenwert II auf Mittelstufe abmessen | hiervon die Trockenmenge II auf Mittelstufe abmessen | 39→39 (W1_WEAK_WORKING) |\n| `yky` | leicht erhitzen | die heiße Portion auf Stufe III leicht nachwärmen | 35→35 (W1_WEAK_WORKING) |\n\nDer entscheidende Gewinn ist nicht mehr Prosa, sondern Vorhersagbarkeit der\nKomposition. `aiiin` liefert nur **Wert IV**; erst P052 waehlt **Menge IV**.\n`ydaiin` liefert **Bezugswert III**; weder \"drei\" noch \"Maße\" bleiben im Kern.\nBei den fuenf Aktionen sitzt der Vorgang im Wort, waehrend der Patient aus der\nexplizit benannten linken Stelle kommt. So kann derselbe Aktionskern spaeter an\neinem anderen Patienten getestet werden.",
+        "sha256": "854376f0a2077cafe47afc0a239747b7e30b1125cce94bf22f4c4cff98719a91"
+      },
+      "current_evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_quantity_composition_eight_hundred_thirty_eighth/EIGHT_HUNDRED_THIRTY_EIGHTH_REPORT.md",
+          "line": 20,
+          "line_end": 23,
+          "quote": "Three new creative cells follow: bare `aiiin=STUFE`, `qokaiiin=OK+IIN` (“set\nat/through a stage”), and `ykaiiin=Y+K+IIN` (“add the current item to a\nstage”). They are predictions only, but unlike free glosses they follow a\nvisible card family.",
+          "sha256": "969d4d188c9cfe233a36cda6cb8eb5d2ef3c96755c6cc8ce5a6049ecbf4b523d"
+        }
+      ]
+    },
+    {
+      "form": "ydaiin",
+      "current_id": "SEM:3c29de088687414047d9",
+      "current_claim": "ydaiin → davon drei Maße",
+      "resolution": "exact_core_missing_older_numeric_rival_preserved",
+      "disposition": "GDT715 narrows portable core to Bezugswert III and localizes Wert III; the older numeric “davon drei Maße” is preserved as a rival, not exact coverage.",
+      "gdt715_evidence": {
+        "path": "experiments/yolo/gdt715_v88_axis_action_patient_core_context_repair/REPORT.md",
+        "line": 7,
+        "line_end": 25,
+        "quote": "Die letzten sieben V87-Holds dieser Klasse haben jetzt einen engen\nWoerterbuchkern und eine getrennte konkrete Fundstellenlesung:\n\n| Form | Woerterbuchkern | konkrete Stelle | Confidence |\n|---|---|---|---|\n| `aiiin` | Wert IV | Menge IV | 36→39 (W1_WEAK_WORKING) |\n| `ydaiin` | Bezugswert III | davon: Wert III | 28→31 (W1_WEAK_WORKING) |\n| `dold` | abmessen und abschließen | diese Blüte abmessen und abschließen | 39→39 (W1_WEAK_WORKING) |\n| `qckhedy` | bis zur Mittelstufe fertig aufbereiten | den vorstehenden Trockenposten bis zur Mittelstufe fertig aufbereiten | 36→36 (W1_WEAK_WORKING) |\n| `qey` | anschließend nehmen | die vorstehende trockene Mittelstufenportion anschließend nehmen | 39→39 (W1_WEAK_WORKING) |\n| `qochedain` | Trockenwert II auf Mittelstufe abmessen | hiervon die Trockenmenge II auf Mittelstufe abmessen | 39→39 (W1_WEAK_WORKING) |\n| `yky` | leicht erhitzen | die heiße Portion auf Stufe III leicht nachwärmen | 35→35 (W1_WEAK_WORKING) |\n\nDer entscheidende Gewinn ist nicht mehr Prosa, sondern Vorhersagbarkeit der\nKomposition. `aiiin` liefert nur **Wert IV**; erst P052 waehlt **Menge IV**.\n`ydaiin` liefert **Bezugswert III**; weder \"drei\" noch \"Maße\" bleiben im Kern.\nBei den fuenf Aktionen sitzt der Vorgang im Wort, waehrend der Patient aus der\nexplizit benannten linken Stelle kommt. So kann derselbe Aktionskern spaeter an\neinem anderen Patienten getestet werden.",
+        "sha256": "854376f0a2077cafe47afc0a239747b7e30b1125cce94bf22f4c4cff98719a91"
+      },
+      "current_evidence": [
+        {
+          "path": "experiments/yolo/gdt662_seventy_six_residual_family_completion/REPORT.md",
+          "line": 77,
+          "line_end": 77,
+          "quote": "| `ydaiin` | 14 | davon drei Maße |",
+          "sha256": "c248820081256635e5809a521e666543c4640bc93ad4120ea1b7e3a7f3304d1d"
+        }
+      ]
+    },
+    {
+      "form": "dold",
+      "current_id": "SEM:2d0227bfbf1290e3010f",
+      "current_claim": "dold → abmessen und abschließen",
+      "resolution": "core_covered_local_patient_model_separate",
+      "disposition": "Exact portable action core is covered. GDT715’s patient “diese Blüte” remains a separate local assignment model; older drug-patient card is not overwritten.",
+      "gdt715_evidence": {
+        "path": "experiments/yolo/gdt715_v88_axis_action_patient_core_context_repair/REPORT.md",
+        "line": 7,
+        "line_end": 25,
+        "quote": "Die letzten sieben V87-Holds dieser Klasse haben jetzt einen engen\nWoerterbuchkern und eine getrennte konkrete Fundstellenlesung:\n\n| Form | Woerterbuchkern | konkrete Stelle | Confidence |\n|---|---|---|---|\n| `aiiin` | Wert IV | Menge IV | 36→39 (W1_WEAK_WORKING) |\n| `ydaiin` | Bezugswert III | davon: Wert III | 28→31 (W1_WEAK_WORKING) |\n| `dold` | abmessen und abschließen | diese Blüte abmessen und abschließen | 39→39 (W1_WEAK_WORKING) |\n| `qckhedy` | bis zur Mittelstufe fertig aufbereiten | den vorstehenden Trockenposten bis zur Mittelstufe fertig aufbereiten | 36→36 (W1_WEAK_WORKING) |\n| `qey` | anschließend nehmen | die vorstehende trockene Mittelstufenportion anschließend nehmen | 39→39 (W1_WEAK_WORKING) |\n| `qochedain` | Trockenwert II auf Mittelstufe abmessen | hiervon die Trockenmenge II auf Mittelstufe abmessen | 39→39 (W1_WEAK_WORKING) |\n| `yky` | leicht erhitzen | die heiße Portion auf Stufe III leicht nachwärmen | 35→35 (W1_WEAK_WORKING) |\n\nDer entscheidende Gewinn ist nicht mehr Prosa, sondern Vorhersagbarkeit der\nKomposition. `aiiin` liefert nur **Wert IV**; erst P052 waehlt **Menge IV**.\n`ydaiin` liefert **Bezugswert III**; weder \"drei\" noch \"Maße\" bleiben im Kern.\nBei den fuenf Aktionen sitzt der Vorgang im Wort, waehrend der Patient aus der\nexplizit benannten linken Stelle kommt. So kann derselbe Aktionskern spaeter an\neinem anderen Patienten getestet werden.",
+        "sha256": "854376f0a2077cafe47afc0a239747b7e30b1125cce94bf22f4c4cff98719a91"
+      },
+      "current_evidence": [
+        {
+          "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/REPORT.md",
+          "line": 35,
+          "line_end": 41,
+          "quote": "28 der formal exportierbaren aktiven Ganzwörter wurden zusätzlich redaktionell\ngeprüft. 26 erhalten eine kürzere gesprochene\nFassung, ohne Score, Evidenz oder gespeicherten semantischen Kern umzuschreiben.\nSo wird etwa `Mischgut` zu `Mischung`, `heißen Auszug bereiten` zu `Ansatz\nerhitzen`, und occurrence-lokale Patienten verschwinden aus portablen Kernen.\n`os=Zubereitung` und `dold=abmessen und abschließen` bleiben sichtbar offen,\nstatt mit erfundenem Stoff oder Patienten aufgefüllt zu werden.",
+          "sha256": "7765792747307d5a8097da614d2a834466880f1d2b3942c7c9367bf73f11bfba"
+        }
+      ]
+    },
+    {
+      "form": "qckhedy",
+      "current_id": null,
+      "current_claim": null,
+      "resolution": "source_scoped_candidate_missing",
+      "disposition": "No exact current card was located in the bounded claim search for the portable “bis zur Mittelstufe fertig aufbereiten” core. The GDT715 patient clause is local and should not be generalized.",
+      "gdt715_evidence": {
+        "path": "experiments/yolo/gdt715_v88_axis_action_patient_core_context_repair/REPORT.md",
+        "line": 7,
+        "line_end": 25,
+        "quote": "Die letzten sieben V87-Holds dieser Klasse haben jetzt einen engen\nWoerterbuchkern und eine getrennte konkrete Fundstellenlesung:\n\n| Form | Woerterbuchkern | konkrete Stelle | Confidence |\n|---|---|---|---|\n| `aiiin` | Wert IV | Menge IV | 36→39 (W1_WEAK_WORKING) |\n| `ydaiin` | Bezugswert III | davon: Wert III | 28→31 (W1_WEAK_WORKING) |\n| `dold` | abmessen und abschließen | diese Blüte abmessen und abschließen | 39→39 (W1_WEAK_WORKING) |\n| `qckhedy` | bis zur Mittelstufe fertig aufbereiten | den vorstehenden Trockenposten bis zur Mittelstufe fertig aufbereiten | 36→36 (W1_WEAK_WORKING) |\n| `qey` | anschließend nehmen | die vorstehende trockene Mittelstufenportion anschließend nehmen | 39→39 (W1_WEAK_WORKING) |\n| `qochedain` | Trockenwert II auf Mittelstufe abmessen | hiervon die Trockenmenge II auf Mittelstufe abmessen | 39→39 (W1_WEAK_WORKING) |\n| `yky` | leicht erhitzen | die heiße Portion auf Stufe III leicht nachwärmen | 35→35 (W1_WEAK_WORKING) |\n\nDer entscheidende Gewinn ist nicht mehr Prosa, sondern Vorhersagbarkeit der\nKomposition. `aiiin` liefert nur **Wert IV**; erst P052 waehlt **Menge IV**.\n`ydaiin` liefert **Bezugswert III**; weder \"drei\" noch \"Maße\" bleiben im Kern.\nBei den fuenf Aktionen sitzt der Vorgang im Wort, waehrend der Patient aus der\nexplizit benannten linken Stelle kommt. So kann derselbe Aktionskern spaeter an\neinem anderen Patienten getestet werden.",
+        "sha256": "854376f0a2077cafe47afc0a239747b7e30b1125cce94bf22f4c4cff98719a91"
+      }
+    },
+    {
+      "form": "qey",
+      "current_id": "SEM:df45c9f6bcf0026580aa",
+      "current_claim": "qey → die vorstehende Mittelstufenportion anschließend nehmen",
+      "resolution": "related_core_local_scope_requires_preservation",
+      "disposition": "Existing card includes the same local antecedent, but GDT715 separates portable “anschließend nehmen” from the explicitly named patient. Treat as related scope, not automatic exact identity.",
+      "gdt715_evidence": {
+        "path": "experiments/yolo/gdt715_v88_axis_action_patient_core_context_repair/REPORT.md",
+        "line": 7,
+        "line_end": 25,
+        "quote": "Die letzten sieben V87-Holds dieser Klasse haben jetzt einen engen\nWoerterbuchkern und eine getrennte konkrete Fundstellenlesung:\n\n| Form | Woerterbuchkern | konkrete Stelle | Confidence |\n|---|---|---|---|\n| `aiiin` | Wert IV | Menge IV | 36→39 (W1_WEAK_WORKING) |\n| `ydaiin` | Bezugswert III | davon: Wert III | 28→31 (W1_WEAK_WORKING) |\n| `dold` | abmessen und abschließen | diese Blüte abmessen und abschließen | 39→39 (W1_WEAK_WORKING) |\n| `qckhedy` | bis zur Mittelstufe fertig aufbereiten | den vorstehenden Trockenposten bis zur Mittelstufe fertig aufbereiten | 36→36 (W1_WEAK_WORKING) |\n| `qey` | anschließend nehmen | die vorstehende trockene Mittelstufenportion anschließend nehmen | 39→39 (W1_WEAK_WORKING) |\n| `qochedain` | Trockenwert II auf Mittelstufe abmessen | hiervon die Trockenmenge II auf Mittelstufe abmessen | 39→39 (W1_WEAK_WORKING) |\n| `yky` | leicht erhitzen | die heiße Portion auf Stufe III leicht nachwärmen | 35→35 (W1_WEAK_WORKING) |\n\nDer entscheidende Gewinn ist nicht mehr Prosa, sondern Vorhersagbarkeit der\nKomposition. `aiiin` liefert nur **Wert IV**; erst P052 waehlt **Menge IV**.\n`ydaiin` liefert **Bezugswert III**; weder \"drei\" noch \"Maße\" bleiben im Kern.\nBei den fuenf Aktionen sitzt der Vorgang im Wort, waehrend der Patient aus der\nexplizit benannten linken Stelle kommt. So kann derselbe Aktionskern spaeter an\neinem anderen Patienten getestet werden.",
+        "sha256": "854376f0a2077cafe47afc0a239747b7e30b1125cce94bf22f4c4cff98719a91"
+      },
+      "current_evidence": [
+        {
+          "path": "experiments/yolo/gdt679_eight_three_hole_family_completion/REPORT.md",
+          "line": 77,
+          "line_end": 77,
+          "quote": "| `qey` | die vorstehende Mittelstufenportion anschließend nehmen | 1 |",
+          "sha256": "6cc09c2ebd3ac8b4b804505d4fc9e36dd4426f589eadb159ea5f2251eabf42bd"
+        }
+      ]
+    },
+    {
+      "form": "qochedain",
+      "current_id": "SEM:870d011b823614053b76",
+      "current_claim": "qochedain → zwei Dosen mittelgetrocknetes Gut abmessen",
+      "resolution": "exact_core_missing_different_older_whole",
+      "disposition": "Existing card is a different numeric/material whole reading. GDT715’s portable Trockenwert II/Mittelstufe core and local “hiervon” assignment remain distinct.",
+      "gdt715_evidence": {
+        "path": "experiments/yolo/gdt715_v88_axis_action_patient_core_context_repair/REPORT.md",
+        "line": 7,
+        "line_end": 25,
+        "quote": "Die letzten sieben V87-Holds dieser Klasse haben jetzt einen engen\nWoerterbuchkern und eine getrennte konkrete Fundstellenlesung:\n\n| Form | Woerterbuchkern | konkrete Stelle | Confidence |\n|---|---|---|---|\n| `aiiin` | Wert IV | Menge IV | 36→39 (W1_WEAK_WORKING) |\n| `ydaiin` | Bezugswert III | davon: Wert III | 28→31 (W1_WEAK_WORKING) |\n| `dold` | abmessen und abschließen | diese Blüte abmessen und abschließen | 39→39 (W1_WEAK_WORKING) |\n| `qckhedy` | bis zur Mittelstufe fertig aufbereiten | den vorstehenden Trockenposten bis zur Mittelstufe fertig aufbereiten | 36→36 (W1_WEAK_WORKING) |\n| `qey` | anschließend nehmen | die vorstehende trockene Mittelstufenportion anschließend nehmen | 39→39 (W1_WEAK_WORKING) |\n| `qochedain` | Trockenwert II auf Mittelstufe abmessen | hiervon die Trockenmenge II auf Mittelstufe abmessen | 39→39 (W1_WEAK_WORKING) |\n| `yky` | leicht erhitzen | die heiße Portion auf Stufe III leicht nachwärmen | 35→35 (W1_WEAK_WORKING) |\n\nDer entscheidende Gewinn ist nicht mehr Prosa, sondern Vorhersagbarkeit der\nKomposition. `aiiin` liefert nur **Wert IV**; erst P052 waehlt **Menge IV**.\n`ydaiin` liefert **Bezugswert III**; weder \"drei\" noch \"Maße\" bleiben im Kern.\nBei den fuenf Aktionen sitzt der Vorgang im Wort, waehrend der Patient aus der\nexplizit benannten linken Stelle kommt. So kann derselbe Aktionskern spaeter an\neinem anderen Patienten getestet werden.",
+        "sha256": "854376f0a2077cafe47afc0a239747b7e30b1125cce94bf22f4c4cff98719a91"
+      },
+      "current_evidence": [
+        {
+          "path": "experiments/yolo/gdt681_six_five_hole_family_completion/REPORT.md",
+          "line": 64,
+          "line_end": 64,
+          "quote": "| `qochedain` | zwei Dosen mittelgetrocknetes Gut abmessen | 1 |",
+          "sha256": "8a1f39314bd36593d8341a510cec3c6a2f37ed68a89b208c3570aefcf69bdda8"
+        }
+      ]
+    },
+    {
+      "form": "yky",
+      "current_id": "SEM:f05a264104fe28bfeee7",
+      "current_claim": "yky → Y+K+Y",
+      "resolution": "exact_action_core_missing_formal_rival_preserved",
+      "disposition": "Existing card is formal packaging; GDT715’s “leicht erhitzen” action core and local hot-portion patient are not exact coverage. Keep formal role and action claim separate.",
+      "gdt715_evidence": {
+        "path": "experiments/yolo/gdt715_v88_axis_action_patient_core_context_repair/REPORT.md",
+        "line": 7,
+        "line_end": 25,
+        "quote": "Die letzten sieben V87-Holds dieser Klasse haben jetzt einen engen\nWoerterbuchkern und eine getrennte konkrete Fundstellenlesung:\n\n| Form | Woerterbuchkern | konkrete Stelle | Confidence |\n|---|---|---|---|\n| `aiiin` | Wert IV | Menge IV | 36→39 (W1_WEAK_WORKING) |\n| `ydaiin` | Bezugswert III | davon: Wert III | 28→31 (W1_WEAK_WORKING) |\n| `dold` | abmessen und abschließen | diese Blüte abmessen und abschließen | 39→39 (W1_WEAK_WORKING) |\n| `qckhedy` | bis zur Mittelstufe fertig aufbereiten | den vorstehenden Trockenposten bis zur Mittelstufe fertig aufbereiten | 36→36 (W1_WEAK_WORKING) |\n| `qey` | anschließend nehmen | die vorstehende trockene Mittelstufenportion anschließend nehmen | 39→39 (W1_WEAK_WORKING) |\n| `qochedain` | Trockenwert II auf Mittelstufe abmessen | hiervon die Trockenmenge II auf Mittelstufe abmessen | 39→39 (W1_WEAK_WORKING) |\n| `yky` | leicht erhitzen | die heiße Portion auf Stufe III leicht nachwärmen | 35→35 (W1_WEAK_WORKING) |\n\nDer entscheidende Gewinn ist nicht mehr Prosa, sondern Vorhersagbarkeit der\nKomposition. `aiiin` liefert nur **Wert IV**; erst P052 waehlt **Menge IV**.\n`ydaiin` liefert **Bezugswert III**; weder \"drei\" noch \"Maße\" bleiben im Kern.\nBei den fuenf Aktionen sitzt der Vorgang im Wort, waehrend der Patient aus der\nexplizit benannten linken Stelle kommt. So kann derselbe Aktionskern spaeter an\neinem anderen Patienten getestet werden.",
+        "sha256": "854376f0a2077cafe47afc0a239747b7e30b1125cce94bf22f4c4cff98719a91"
+      },
+      "current_evidence": [
+        {
+          "path": "experiments/yolo/gdt466_future_address_mixed_dictionary_intake/REPORT.md",
+          "line": 15,
+          "line_end": 16,
+          "quote": "- `ykyd`: the general `yky=Y+K+Y` prefix survives, while final `d=HIER` belongs\n  to the known complete card;",
+          "sha256": "f972ae281255673dd32df7180e6f5cc0ad7e000d3b7486de2b7d41ddb34c3e99"
+        },
+        {
+          "path": "experiments/yolo/gdt472_complete_address_template_dictionary/REPORT.md",
+          "line": 19,
+          "line_end": 23,
+          "quote": "`ykyd` retains the exact reading\n`POSTEN · GEBEN · POSTEN · HIER` from `yky|d = Y+K+Y+D_ADDR`. With exact\nidentity hidden, the reader recovers only `yky=Y+K+Y`; final `d` becomes an\nopaque drug-name residue. The whole four-part reading therefore belongs to the\nexact `yky|d` package, not to a free final-`d` suffix rule.",
+          "sha256": "c8eb4d26c350cb423560e89450431969aebeecf09592534fd8162720a14cff61"
+        }
+      ]
+    }
+  ],
+  "global_limits": [
+    "Portable core and local patient assignment are separate propositions.",
+    "Existing older numeric, drug, formal-role and whole-card cases remain preserved as rivals/cases.",
+    "PASS/score and same-page rendering do not independently confirm meaning."
+  ]
+}
