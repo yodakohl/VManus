@@ -1,0 +1,121 @@
+{
+  "schema": "bounded_source_intake_peer_v1",
+  "status": "READ_ONLY_SOURCE_SCOPE_AUDIT",
+  "task": "GDT726-728 occurrence-level semantic relations/models versus renderer corrections and represented claims",
+  "source_reports": {
+    "GDT726_open_debts": {
+      "path": "experiments/yolo/gdt726_v98_51_line_delta_integration/REPORT.md",
+      "line": 40,
+      "line_end": 54,
+      "quote": "Sechs offene Punkte würden die behauptete Bedeutung ändern und bleiben daher\nim Reader sichtbar:\n\n| Schuld | Positionen | offene Entscheidung |\n|---|---:|---|\n| `kodeey` | P025 | Zubereitungsdosis oder fertige Portion |\n| `cpheesy` | P030 | Arzneikompositum oder neutrales Kompositum |\n| `tail` | P053 | Rohdroge II oder Material II |\n| Dosisfamilie | 6 | Dosis, Portion, Maß oder bloßer Wert je lokalem Kopf |\n| Zeilenanfang `hiervon` | 4 | echter Rückbezug über die Recordgrenze oder offener Anschluss |\n| dreifaches `sheky` | 3 | wiederholter Prozess, drei Patienten oder Scope-Wiederholung |\n\nDas ist die entscheidende Trennung: Ein hässlicher Satz darf geglättet werden;\neine unsichere Stoff-, Einheiten- oder Handlungsbedeutung darf nicht als bloße\nStilkorrektur verschwinden.\n",
+      "sha256": "5ceda3eebe96ccbc822c34e4e04326ecd5642e9da20341c5a1373f1dd9143129"
+    },
+    "GDT726_local_repairs": {
+      "path": "experiments/yolo/gdt726_v98_51_line_delta_integration/REPORT.md",
+      "line": 22,
+      "line_end": 36,
+      "quote": "Neun lokale Reparaturen verändern acht Zeilen:\n\n| Locus | vorheriger Bruch | V98R1-Ausgabe |\n|---|---|---|\n| f104v.2 | `davon: Wert III` | `davon drei Maße` |\n| f83v.12 | `drei · feuchte Mischung, Anfangsstufe` | `drei Portionen der feuchten Mischung auf Anfangsstufe` |\n| f116r.12 | zwei nackte `zwei` | `davon zwei Portionen`; `zwei Portionen des Materials I im kalten Anfangsansatz` |\n| f8r.15 | `drei · Materialmaß` | `drei Materialmaße` |\n| f105r.31 | nacktes `eingeweicht` | `vorstehendes Holz, eingeweicht` |\n| f107r.2 | generischer Kopf `Behandlung` | `anschließend bis zur letzten Stufe weiterführen und abschließen` |\n| f115r.23 | drei Verben ohne sichtbaren Patienten | `diese leicht getrocknete Zubereitung erhitzen, trocknen und ansetzen` |\n| f86v6.25 | überladene Wiederholung des heißen Blütenkopfs | `von der vorstehenden fertigen Blütenmasse: Anteil I, davon ein Maß` |\n\nAuf f116r.12 bleibt `heißer Ansatz, Grad II` ausdrücklich als eigene Einheit\nstehen. Die Mengenbindung hat dort keine Gradinformation verschluckt.\n",
+      "sha256": "5ceda3eebe96ccbc822c34e4e04326ecd5642e9da20341c5a1373f1dd9143129"
+    },
+    "GDT727_dispatch": {
+      "path": "experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/REPORT.md",
+      "line": 5,
+      "line_end": 25,
+      "quote": "GDT727 besteht. Alle sechs offenen GDT726-Bedeutungsgruppen haben jetzt einen\nausgabefähigen Default. Fünf Ganzwortkerne wechseln von `Dosis/Dosen` zu\n`Portion/Portionen`; 13 Positionswerte und dadurch neun der 51 Leserzeilen\nändern sich. 479 Positionen werden weiterhin genau einmal in 471 sichtbaren\nEinheiten verbraucht. Scores, Scopes und Komponentenexport bleiben unverändert.\n\nDie wichtigsten neuen Ausgaben sind:\n\n- `ychedaiin`: drei Portionen der bis zur Mittelstufe getrockneten Droge\n  abmessen.\n- `kodeey`: vollständig erhitzte, fertige Portion der Zubereitung.\n- `cpheesy`: vollständig bereitetes und abgeschlossenes Gemisch.\n- `tail`: kaltgestellter Materialanteil II.\n- `ypchesy` auf f86v5.4: das Samenpulver aus dem vorstehenden kalten Ansatz,\n  Grad II, bis zur Mittelstufe trocknen.\n- `yteedy` auf f86v6.25: den soeben abgeseihten heißen Drogenanteil I bis zur\n  Endstufe abkühlen.\n\nAuf f80r.17 wird `sheky` dreimal als dieselbe Handlung gelesen, aber nicht als\n„dreimal“: zuerst an der feuchten Mischung, dann am heißen Drogenanteil I und\nschließlich am heißen Holzanteil I im Ansatz auf Grad II.\n",
+      "sha256": "603fb3731a10946670b8666bad14616c11975f2dc982f7f22fb270312cbe763b"
+    },
+    "GDT727_bos": {
+      "path": "experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/REPORT.md",
+      "line": 27,
+      "line_end": 44,
+      "quote": "## Warum die BOS-Lesungen jetzt besser sind\n\nDie 51 ausgewählten Zeilen sind kein lückenloser Manuskriptauszug. Deshalb war\nder vorherige Deck-Vorgänger als Rückbezugsziel falsch. GDT727 liest die vier\nechten physischen Vorgänger. P002 und P142 sind zu lückenhaft beziehungsweise\nsemantisch zu gemischt und verlieren `hiervon`. f86v5.3 endet dagegen in\n`otaiin otain` (kalter Ansatz Grad III/II), f86v6.24 in `qokar oly` (heißer\nDrogenanteil I, abseihen); diese beiden Anschlüsse werden lokal sichtbar.\n\n## Wörterbuchzustand\n\n`V99_COMPLETE_WORD_CONFIDENCE.tsv` enthält weiterhin alle 1.586 Readings mit\nScore, Confidence-Stufe, positiver Evidenz und Gegenbeleg. Zehn aktive\nLexikrecords erhalten neue Kontextaggregate; nur fünf davon ändern ihren\nportablen Kern. Ältere globale V48-Einträge außerhalb der aktiven 51-Zeilen-\nTranche behalten vorerst ihre geerbten Dosisformulierungen. Sie sind der\nnächste sinnvolle Familientest, nicht etwas, das still per Textersetzung\numgeschrieben werden sollte.\n",
+      "sha256": "603fb3731a10946670b8666bad14616c11975f2dc982f7f22fb270312cbe763b"
+    },
+    "GDT728_roles": {
+      "path": "experiments/yolo/gdt728_v99r2_inherited_unit_term_dispatch/REPORT.md",
+      "line": 5,
+      "line_end": 19,
+      "quote": "GDT728 besteht. Das vollständige Wörterbuch enthält 60 geerbte globale\nGanzwortreadings mit Dosiswortlaut an zusammen 293 Vorkommen. Der explizite\nDispatch ergibt:\n\n| Rolle | Ganzformen | Vorkommen | Arbeitsbedeutung |\n|---|---:|---:|---|\n| `PORTION` | 55 | 217 | zählbare oder bearbeitete Arbeitsmenge |\n| `TEIL` | 1 | 1 | relativer Anteil (`dolas`) |\n| `MASS` | 1 | 4 | exakte Abguss-Messform (`doly`) |\n| `WERT` | 3 | 71 | offene Zubereitungswertstufe (`odan/odain/odaiin`) |\n| `HOLD` | 0 | 0 | in dieser explorativen Runde nicht nötig |\n\nIn beiden semantischen Wörterbuchfeldern verschwinden je 61 Dosis-Tokens.\nDie Evidenzprosa wird nicht bereinigt, weil dort die frühere Hypothese als\nGegenbeleg oder Lineageinformation stehen darf.\n",
+      "sha256": "e0ddeca990cd902e840527713dffc584c9263cdc8d94e7da76327f7c8cb0f868"
+    },
+    "GDT728_examples": {
+      "path": "experiments/yolo/gdt728_v99r2_inherited_unit_term_dispatch/REPORT.md",
+      "line": 36,
+      "line_end": 48,
+      "quote": "Damit wird der Unterschied sichtbar, den `Dosis` zuvor verdeckt hat: ein\nArbeitsanteil ist nicht automatisch eine therapeutische Gabe, ein relativer\nTeil ist keine Portion, ein ausdrücklich lizenzierter Messkopf darf `Maß`\nheißen, und ein offener Wertkopf darf nicht zur Menge umgedeutet werden.\n\n## Warum das kein globaler Wortstammexport ist\n\nDie 60 Entscheidungen sind exakte Ganzwortkarten. GDT627s freie `d`-Reihe\nbleibt eine Wertreihe, deren Sachachse der sichtbare Kopf auswählt. Besonders\n`odan/odain/odaiin` werden deshalb gerade nicht zu ein/zwei/drei Portionen.\nAuch `doly=Maß` und `dolas=Teil` gelten nur für diese vollständigen\nWhitespace-Formen. `d`, `dain`, `daiin`, `dol` oder `a` gewinnen null neue\nRelation- oder Komponentenpunkte.\n",
+      "sha256": "e0ddeca990cd902e840527713dffc584c9263cdc8d94e7da76327f7c8cb0f868"
+    }
+  },
+  "route_checks": [
+    {
+      "query": "GDT726 GDT727 GDT728 portion dose unit dispatch",
+      "result": "navigation only; returned GDT726/GDT727/GDT728 and related attempts including GDT593, GDT705, GDT686, GDT627; no novelty or duplicate conclusion"
+    },
+    {
+      "query": "sheky patient",
+      "result": "returned GDT727 plus occurrence-level attempts GDT705/GDT715/GDT700; no complete independent SEM counterpart identified"
+    },
+    {
+      "query": "dolas doly",
+      "result": "returned GDT728 and historical quantity/measure records; no complete current SEM card establishing these as manuscript meanings"
+    }
+  ],
+  "findings": [
+    {
+      "scope": "GDT726",
+      "classification": "renderer/integration correction",
+      "decision": "not a missing semantic proposition",
+      "basis": "479 positions consumed exactly once, nine local readability repairs, and six meaning debts explicitly left open. Exact evidence is GDT726_open_debts and GDT726_local_repairs. The PASS/byte parity is execution evidence, not meaning evidence."
+    },
+    {
+      "scope": "GDT727 BOS/hiervon",
+      "classification": "occurrence-level candidate, unresolved",
+      "decision": "retain as an open relation question; do not promote as a new meaning card",
+      "relation": "whether each local hiervon points across the selected record boundary to the physical predecessor or is an unattached continuation",
+      "countermodel": "the same four links can be produced by renderer adjacency/default carry, so the dispatch alone does not establish anaphora",
+      "closest_prior": [
+        "GDT593",
+        "GDT705"
+      ],
+      "independent_binding": "unknown"
+    },
+    {
+      "scope": "GDT727 sheky",
+      "classification": "occurrence-level candidate, unresolved",
+      "decision": "retain as local patient/action dispatch only; no new semantic model admitted",
+      "relation": "whether the three f80r.17 sheky occurrences repeat one action over three patients, repeat one scope, or encode a repeated process",
+      "countermodel": "a renderer can assign distinct nearby patients while the lexical form denotes one invariant action; conversely one patient can be carried across all three",
+      "closest_prior": [
+        "GDT705",
+        "GDT715",
+        "GDT700"
+      ],
+      "independent_binding": "unknown"
+    },
+    {
+      "scope": "GDT726/GDT727 kodeey, cpheesy, tail and dose family",
+      "classification": "whole-form defaults, not new occurrence relations",
+      "decision": "already explicitly represented as open debts/defaults in the source reports; no missing model established",
+      "basis": "GDT727 changes working outputs while scores, scopes, component export and confidence remain unchanged. These are renderer defaults unless independent historical binding is supplied."
+    },
+    {
+      "scope": "GDT728 portion/teil/mass/wert",
+      "classification": "renderer taxonomy / exact-whole dispatch",
+      "decision": "not a new semantic proposition",
+      "basis": "60 inherited whole-form cards are repartitioned; report explicitly says no component export and that d/dain/daiin/dol/a gain zero relation or component credit. Historical plausibility paragraph does not identify a Voynich word."
+    },
+    {
+      "scope": "GDT728 odan/odain/odaiin vs dolas/doly",
+      "classification": "candidate lexical distinctions already bounded by existing whole-form dispatch",
+      "decision": "no missing occurrence relation found; independent meaning binding remains unknown",
+      "countermodel": "the same heads and local contexts can be generated by a renderer taxonomy without lexical denotation; do not treat the four role labels as confirmed meanings."
+    }
+  ],
+  "bottom_line": "No genuinely missing complete semantic model was established from GDT726-728 alone. Two occurrence-level questions remain worth preserving for later source-bound review: BOS hiervon antecedence and the three sheky patient/scope links. All other changes audited here are renderer corrections, working defaults, or inherited whole-form taxonomy.",
+  "limitations": [
+    "No raw corpus/images/mixed TSV or experiments accessed.",
+    "Search results are lexical navigation and do not prove coverage or novelty.",
+    "No current SEM card was created or modified; imported attempts/history are not independent semantic evidence."
+  ],
+  "operative_mutations": false
+}

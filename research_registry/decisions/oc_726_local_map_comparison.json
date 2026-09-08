@@ -1,0 +1,99 @@
+{
+  "artifact": "OC bounded GDT726 local map comparison",
+  "scope": "Read-only comparison of all nine local repairs/eight-locus map with bounded semantic cards. No TSV payload, image, experiment or operative write.",
+  "status": "source_bound_local_model_scope",
+  "primary": {
+    "path": "experiments/yolo/gdt726_v98_51_line_delta_integration/REPORT.md",
+    "sha256": "5ceda3eebe96ccbc822c34e4e04326ecd5642e9da20341c5a1373f1dd9143129"
+  },
+  "evidence": [
+    {
+      "path": "experiments/yolo/gdt726_v98_51_line_delta_integration/REPORT.md",
+      "line": 22,
+      "line_end": 36,
+      "quote": "Neun lokale Reparaturen verändern acht Zeilen:\n\n| Locus | vorheriger Bruch | V98R1-Ausgabe |\n|---|---|---|\n| f104v.2 | `davon: Wert III` | `davon drei Maße` |\n| f83v.12 | `drei · feuchte Mischung, Anfangsstufe` | `drei Portionen der feuchten Mischung auf Anfangsstufe` |\n| f116r.12 | zwei nackte `zwei` | `davon zwei Portionen`; `zwei Portionen des Materials I im kalten Anfangsansatz` |\n| f8r.15 | `drei · Materialmaß` | `drei Materialmaße` |\n| f105r.31 | nacktes `eingeweicht` | `vorstehendes Holz, eingeweicht` |\n| f107r.2 | generischer Kopf `Behandlung` | `anschließend bis zur letzten Stufe weiterführen und abschließen` |\n| f115r.23 | drei Verben ohne sichtbaren Patienten | `diese leicht getrocknete Zubereitung erhitzen, trocknen und ansetzen` |\n| f86v6.25 | überladene Wiederholung des heißen Blütenkopfs | `von der vorstehenden fertigen Blütenmasse: Anteil I, davon ein Maß` |\n\nAuf f116r.12 bleibt `heißer Ansatz, Grad II` ausdrücklich als eigene Einheit\nstehen. Die Mengenbindung hat dort keine Gradinformation verschluckt.",
+      "sha256": "5ceda3eebe96ccbc822c34e4e04326ecd5642e9da20341c5a1373f1dd9143129"
+    },
+    {
+      "path": "experiments/yolo/gdt726_v98_51_line_delta_integration/REPORT.md",
+      "line": 40,
+      "line_end": 54,
+      "quote": "Sechs offene Punkte würden die behauptete Bedeutung ändern und bleiben daher\nim Reader sichtbar:\n\n| Schuld | Positionen | offene Entscheidung |\n|---|---:|---|\n| `kodeey` | P025 | Zubereitungsdosis oder fertige Portion |\n| `cpheesy` | P030 | Arzneikompositum oder neutrales Kompositum |\n| `tail` | P053 | Rohdroge II oder Material II |\n| Dosisfamilie | 6 | Dosis, Portion, Maß oder bloßer Wert je lokalem Kopf |\n| Zeilenanfang `hiervon` | 4 | echter Rückbezug über die Recordgrenze oder offener Anschluss |\n| dreifaches `sheky` | 3 | wiederholter Prozess, drei Patienten oder Scope-Wiederholung |\n\nDas ist die entscheidende Trennung: Ein hässlicher Satz darf geglättet werden;\neine unsichere Stoff-, Einheiten- oder Handlungsbedeutung darf nicht als bloße\nStilkorrektur verschwinden.",
+      "sha256": "5ceda3eebe96ccbc822c34e4e04326ecd5642e9da20341c5a1373f1dd9143129"
+    },
+    {
+      "path": "experiments/yolo/gdt726_v98_51_line_delta_integration/REPORT.md",
+      "line": 58,
+      "line_end": 64,
+      "quote": "Die fünf geerbten Spanregeln werden in beiden Kanälen je einmal ausgeführt.\nDie drei neuen Mengenbindungen kommen nur im praktischen Kanal vor. Die zwei\nf7r.2-Direktivzeilen beschreiben weiterhin genau einen `keo r`-Span; die acht\nsichtbaren f7r.2-Einheiten sind in beiden Kanälen unverändert. Der\nf76v.10-Companion gibt weiterhin einmal `drei Portionen des vorstehenden\neingeweichten Arzneikompositums` aus, während der Wörterbuchkern von\n`daiin#6` `Wert III`, sein Kontext `drei` und sein Score 42 bleiben.",
+      "sha256": "5ceda3eebe96ccbc822c34e4e04326ecd5642e9da20341c5a1373f1dd9143129"
+    },
+    {
+      "path": "experiments/yolo/gdt726_v98_51_line_delta_integration/REPORT.md",
+      "line": 103,
+      "line_end": 108,
+      "quote": "Der Duplikatscreen verweist vor allem auf GDT683s abgeschlossene OL-Schuld,\nGDT704s einzelne materialgebundene Wiederholung, GDT694s Anteil-Terminologie\nund GDT593s occurrence-lokale Mengenreferenzen. Keiner dieser Läufe entscheidet\ndie sechs V98-Gruppen. Übernommen wird nur ihr brauchbares Muster: lokale\ngeschriebene Köpfe schlagen ferne oder generische Ergänzungen; neue\nBedeutungen werden nicht aus dem Renderer zurück in Teilstrings exportiert.",
+      "sha256": "5ceda3eebe96ccbc822c34e4e04326ecd5642e9da20341c5a1373f1dd9143129"
+    }
+  ],
+  "decisions": [
+    {
+      "loci": [
+        "f104v.2",
+        "f83v.12",
+        "f116r.12",
+        "f8r.15",
+        "f86v6.25"
+      ],
+      "current_ids": [
+        "SEM:3c29de088687414047d9",
+        "SEM:1c8c247ebc8b283c1608a9",
+        "SEM:4121eb195db22be7eeea",
+        "SEM:61be16365b5e73c4f0a7"
+      ],
+      "disposition": "These quantity/material words have related or exact historical cards, but GDT726’s bindings are occurrence-local renderer assignments. f104v’s `davon drei Maße` overlaps the older ydaiin claim; f116r’s two bindings and f8r’s plural material measures are not thereby independent quantity semantics. Preserve local model without promoting a universal amount rule."
+    },
+    {
+      "loci": [
+        "f105r.31",
+        "f107r.2"
+      ],
+      "current_ids": [
+        "SEM:07296d83276d2f63e4b6",
+        "SEM:f2035c75ecb54526827c"
+      ],
+      "disposition": "lkar and lor have existing wholeform counterparts (`lkar` heated wood share; `lor` wood portion). GDT726 adds occurrence-local preceding-wood and continuation/action text; it does not create free l/r or a new portable operation core."
+    },
+    {
+      "loci": [
+        "f115r.23"
+      ],
+      "current_ids": [],
+      "disposition": "The one patient with three verbs is a source-bound local action construction not represented by an exact current wholeform card in the bounded search. It is a historical local model candidate, but renderer fluency alone does not identify the patient or prove three independent operations."
+    },
+    {
+      "loci": [
+        "f86v6.25"
+      ],
+      "current_ids": [
+        "SEM:61be16365e5b73c4f0a7",
+        "SEM:3c29de088687414047d9"
+      ],
+      "disposition": "The share/amount phrase is covered by existing araram/ydaiin-style quantity cases and GDT724 indexed-share scope; GDT726’s “vorstehende fertige Blütenmasse” is local context, not a new global card."
+    },
+    {
+      "loci": [
+        "f8r.15"
+      ],
+      "current_ids": [
+        "SEM:4121eb195db22be7eeea"
+      ],
+      "disposition": "Materialmaß has an existing dol wholeform card. The plural `drei Materialmaße` is a local quantity rendering; it does not independently settle dose, portion, measure or value."
+    }
+  ],
+  "limits": [
+    "GDT726 itself states six meaning debts remain; local German output is not independent relation evidence.",
+    "No claim is made that an unlisted locus is globally absent; exact source/case scope remains binding.",
+    "All referenced semantic cards are historical unconfirmed cases."
+  ]
+}

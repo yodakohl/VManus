@@ -1,0 +1,38 @@
+{
+  "status": "PASS_EXACT_FOUR_FORMAT_ONLY_DIFFS",
+  "input_hashes": {
+    "research_registry/decisions/clean_gap_review_ob_integrated.json": "14338cd0781552a8a5dc33d5422a103f61de88ec2b5c8e08359c28a22852f73c",
+    "research_registry/decisions/clean_gap_review_ob_corrected.json": "c6c45a364c465417eb96ff388420d2cad680d3010397aae424f1ce39be1ac6a0",
+    "research_registry/decisions/ob_application_format_correction.json": "791c65952175cbd934817321193a4b3231143e157efed487aefeeeda9bf6aefb"
+  },
+  "actual_recursive_diffs": [
+    {
+      "path": "/cards/6/source_applications/2/local_output",
+      "old": "davon zwei Portionen`; `zwei Portionen des Materials I im kalten Anfangsansatz",
+      "new": "davon zwei Portionen; zwei Portionen des Materials I im kalten Anfangsansatz"
+    },
+    {
+      "path": "/cards/6/source_applications/2/prior_output",
+      "old": "zwei nackte `zwei",
+      "new": "zwei nackte zwei"
+    },
+    {
+      "path": "/cards/6/source_applications/4/prior_output",
+      "old": "nacktes `eingeweicht",
+      "new": "nacktes eingeweicht"
+    },
+    {
+      "path": "/cards/6/source_applications/5/prior_output",
+      "old": "generischer Kopf `Behandlung",
+      "new": "generischer Kopf Behandlung"
+    }
+  ],
+  "checks": {
+    "exactly_four_derived_fields_changed": true,
+    "only_backtick_characters_removed": true,
+    "all_seven_case_ids_and_claims_preserved": true,
+    "literal_evidence_and_all_other_JSON_content_preserved": true,
+    "correction_receipt_hash_bindings_valid": true
+  },
+  "limits": "Read-only comparison. OF remains receipt for original draft; subsequent built question bases must use corrected operative successor. No substantive rereview or operative edits."
+}

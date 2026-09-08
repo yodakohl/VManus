@@ -1,0 +1,28 @@
+{
+  "artifact": "OG additive OC counterpart/fidelity correction",
+  "scope": "Read-only correction of oc_726_local_map_comparison.json; no operative mutation.",
+  "status": "corrected_invalid_id_and_local_form_overclaim",
+  "invalid_reference": {
+    "id": "SEM:1c8c247ebc8b283c1608a9",
+    "action": "remove; no matching current semantic card found; intended counterpart remains unresolved"
+  },
+  "valid_references": {
+    "SEM:61be16365e5b73c4f0a7": "araram → ein Maß der ersten Drogenfraktion",
+    "SEM:3c29de088687414047d9": "ydaiin → davon drei Maße",
+    "SEM:07296d83276d2f63e4b6": "GDT648 reads exact lkar as heiße Holzfraktion I",
+    "SEM:f2035c75ecb54526827c": "lor → Holzportion",
+    "SEM:4121eb195db22be7eeea": "GDT638 reads exact dol as Materialmaß"
+  },
+  "exact_evidence": {
+    "path": "experiments/yolo/gdt726_v98_51_line_delta_integration/REPORT.md",
+    "line": 22,
+    "line_end": 33,
+    "sha256": "5ceda3eebe96ccbc822c34e4e04326ecd5642e9da20341c5a1373f1dd9143129",
+    "quote": "Neun lokale Reparaturen verändern acht Zeilen:\n\n| Locus | vorheriger Bruch | V98R1-Ausgabe |\n|---|---|---|\n| f104v.2 | `davon: Wert III` | `davon drei Maße` |\n| f83v.12 | `drei · feuchte Mischung, Anfangsstufe` | `drei Portionen der feuchten Mischung auf Anfangsstufe` |\n| f116r.12 | zwei nackte `zwei` | `davon zwei Portionen`; `zwei Portionen des Materials I im kalten Anfangsansatz` |\n| f8r.15 | `drei · Materialmaß` | `drei Materialmaße` |\n| f105r.31 | nacktes `eingeweicht` | `vorstehendes Holz, eingeweicht` |\n| f107r.2 | generischer Kopf `Behandlung` | `anschließend bis zur letzten Stufe weiterführen und abschließen` |\n| f115r.23 | drei Verben ohne sichtbaren Patienten | `diese leicht getrocknete Zubereitung erhitzen, trocknen und ansetzen` |\n| f86v6.25 | überladene Wiederholung des heißen Blütenkopfs | `von der vorstehenden fertigen Blütenmasse: Anteil I, davon ein Maß` |"
+  },
+  "corrections": [
+    "The f83v.12 intended current form/card is unresolved from this report table; no nonexistent SEM ID is supplied.",
+    "The f105r.31 and f107r.2 rows name loci and German repairs but do not themselves nominate a token form. Existing lkar/lor cards may be contextual comparisons only; OC must not assert that those exact forms occur at both loci from this table.",
+    "The f86v6.25 quantity comparison may retain valid araram and ydaiin IDs, but those are model comparisons, not proof that both forms occupy the locus."
+  ]
+}

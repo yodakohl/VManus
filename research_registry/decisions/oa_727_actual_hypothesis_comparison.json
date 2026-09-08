@@ -1,0 +1,582 @@
+{
+  "schema": "gdt727_actual_hypothesis_comparison_peer_v2",
+  "status": "READ_ONLY_CORRECTION",
+  "source_report_sha256": "603fb3731a10946670b8666bad14616c11975f2dc982f7f22fb270312cbe763b",
+  "source_evidence": {
+    "defaults": {
+      "path": "experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/REPORT.md",
+      "line": 5,
+      "line_end": 25,
+      "quote": "GDT727 besteht. Alle sechs offenen GDT726-Bedeutungsgruppen haben jetzt einen\nausgabefähigen Default. Fünf Ganzwortkerne wechseln von `Dosis/Dosen` zu\n`Portion/Portionen`; 13 Positionswerte und dadurch neun der 51 Leserzeilen\nändern sich. 479 Positionen werden weiterhin genau einmal in 471 sichtbaren\nEinheiten verbraucht. Scores, Scopes und Komponentenexport bleiben unverändert.\n\nDie wichtigsten neuen Ausgaben sind:\n\n- `ychedaiin`: drei Portionen der bis zur Mittelstufe getrockneten Droge\n  abmessen.\n- `kodeey`: vollständig erhitzte, fertige Portion der Zubereitung.\n- `cpheesy`: vollständig bereitetes und abgeschlossenes Gemisch.\n- `tail`: kaltgestellter Materialanteil II.\n- `ypchesy` auf f86v5.4: das Samenpulver aus dem vorstehenden kalten Ansatz,\n  Grad II, bis zur Mittelstufe trocknen.\n- `yteedy` auf f86v6.25: den soeben abgeseihten heißen Drogenanteil I bis zur\n  Endstufe abkühlen.\n\nAuf f80r.17 wird `sheky` dreimal als dieselbe Handlung gelesen, aber nicht als\n„dreimal“: zuerst an der feuchten Mischung, dann am heißen Drogenanteil I und\nschließlich am heißen Holzanteil I im Ansatz auf Grad II.\n",
+      "sha256": "603fb3731a10946670b8666bad14616c11975f2dc982f7f22fb270312cbe763b"
+    },
+    "bos": {
+      "path": "experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/REPORT.md",
+      "line": 27,
+      "line_end": 34,
+      "quote": "## Warum die BOS-Lesungen jetzt besser sind\n\nDie 51 ausgewählten Zeilen sind kein lückenloser Manuskriptauszug. Deshalb war\nder vorherige Deck-Vorgänger als Rückbezugsziel falsch. GDT727 liest die vier\nechten physischen Vorgänger. P002 und P142 sind zu lückenhaft beziehungsweise\nsemantisch zu gemischt und verlieren `hiervon`. f86v5.3 endet dagegen in\n`otaiin otain` (kalter Ansatz Grad III/II), f86v6.24 in `qokar oly` (heißer\nDrogenanteil I, abseihen); diese beiden Anschlüsse werden lokal sichtbar.\n",
+      "sha256": "603fb3731a10946670b8666bad14616c11975f2dc982f7f22fb270312cbe763b"
+    },
+    "state": {
+      "path": "experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/REPORT.md",
+      "line": 36,
+      "line_end": 44,
+      "quote": "## Wörterbuchzustand\n\n`V99_COMPLETE_WORD_CONFIDENCE.tsv` enthält weiterhin alle 1.586 Readings mit\nScore, Confidence-Stufe, positiver Evidenz und Gegenbeleg. Zehn aktive\nLexikrecords erhalten neue Kontextaggregate; nur fünf davon ändern ihren\nportablen Kern. Ältere globale V48-Einträge außerhalb der aktiven 51-Zeilen-\nTranche behalten vorerst ihre geerbten Dosisformulierungen. Sie sind der\nnächste sinnvolle Familientest, nicht etwas, das still per Textersetzung\numgeschrieben werden sollte.\n",
+      "sha256": "603fb3731a10946670b8666bad14616c11975f2dc982f7f22fb270312cbe763b"
+    }
+  },
+  "current_cards": [
+    {
+      "id": "SEM:d2c497faab7b2a637836",
+      "claim": "ychedaiin → hiervon drei Dosen mittelgetrocknete Droge abmessen",
+      "claim_type": "lexical_hypothesis",
+      "status": "unconfirmed",
+      "cases": [
+        {
+          "claim_type": "lexical_hypothesis",
+          "form_or_model": "ychedaiin",
+          "id": "CLEAN_COMPONENT:b3e9806624d6288c46e1",
+          "limitations": "Original alternatives, negation and limits remain in the evidence quote. No software PASS or inherited working vocabulary establishes a confirmed meaning.",
+          "member_ids": [
+            "LEGACY_COMPONENT:077a8f41f19e68024a39"
+          ],
+          "proposed_value_or_model": "hiervon drei Dosen mittelgetrocknete Droge abmessen",
+          "registry_context_ids": [
+            "GDT681"
+          ],
+          "review_basis": "conservative_assignment_rule_with_manual_pattern_audit",
+          "review_file": "research_registry/decisions/clean_component_review.json",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT681",
+            "section": "Konsolidiertes neues Wörterbuch",
+            "semantic_column": "Arbeitsbedeutung",
+            "source": "experiments/yolo/gdt681_six_five_hole_family_completion/REPORT.md"
+          },
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+          "status": "unconfirmed"
+        }
+      ],
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 48,
+          "line_end": 48,
+          "path": "experiments/yolo/gdt681_six_five_hole_family_completion/REPORT.md",
+          "quote": "| `ychedaiin` | hiervon drei Dosen mittelgetrocknete Droge abmessen | 2 |",
+          "sha256": "8a1f39314bd36593d8341a510cec3c6a2f37ed68a89b208c3570aefcf69bdda8",
+          "source_id": "LEGACY_COMPONENT:077a8f41f19e68024a39",
+          "source_section": "Konsolidiertes neues Wörterbuch",
+          "table_header": "| Form | Arbeitsbedeutung | Belege |"
+        }
+      ]
+    },
+    {
+      "id": "SEM:2a81a1942a16c43e1862",
+      "claim": "kodeey → vollständig erhitzte und abgeschlossene Zubereitungsdosis",
+      "claim_type": "lexical_hypothesis",
+      "status": "unconfirmed",
+      "cases": [
+        {
+          "claim_type": "lexical_hypothesis",
+          "form_or_model": "kodeey",
+          "id": "CLEAN_COMPONENT:fd9bc6e009b95c667c58",
+          "limitations": "Original alternatives, negation and limits remain in the evidence quote. No software PASS or inherited working vocabulary establishes a confirmed meaning.",
+          "member_ids": [
+            "LEGACY_COMPONENT:aedbe9561084429109d6"
+          ],
+          "proposed_value_or_model": "vollständig erhitzte und abgeschlossene Zubereitungsdosis",
+          "registry_context_ids": [
+            "GDT681"
+          ],
+          "review_basis": "conservative_assignment_rule_with_manual_pattern_audit",
+          "review_file": "research_registry/decisions/clean_component_review.json",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT681",
+            "section": "Konsolidiertes neues Wörterbuch",
+            "semantic_column": "Arbeitsbedeutung",
+            "source": "experiments/yolo/gdt681_six_five_hole_family_completion/REPORT.md"
+          },
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+          "status": "unconfirmed"
+        }
+      ],
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 53,
+          "line_end": 53,
+          "path": "experiments/yolo/gdt681_six_five_hole_family_completion/REPORT.md",
+          "quote": "| `kodeey` | vollständig erhitzte und abgeschlossene Zubereitungsdosis | 1 |",
+          "sha256": "8a1f39314bd36593d8341a510cec3c6a2f37ed68a89b208c3570aefcf69bdda8",
+          "source_id": "LEGACY_COMPONENT:aedbe9561084429109d6",
+          "source_section": "Konsolidiertes neues Wörterbuch",
+          "table_header": "| Form | Arbeitsbedeutung | Belege |"
+        }
+      ]
+    },
+    {
+      "id": "SEM:bf8c3d122980ef2bbaaf",
+      "claim": "GDT725 assigns whole cpheesy the portable core vollständig bereitetes und abgeschlossenes Kompositum. Its exact local output is vollständig bereitetes und abgeschlossenes Arzneikompositum. Arznei is removed from the portable compound head, while preparation/completion content remains. This is an unconfirmed historical core/local hypothesis, with no free component export.",
+      "claim_type": "lexical_hypothesis",
+      "status": "unconfirmed",
+      "cases": [
+        {
+          "claim_type": "lexical_hypothesis",
+          "id": "CLEAN_GAP_NM:CPHEESY_CORE",
+          "independent_new_idea": false,
+          "member_ids": [
+            "LEGACY_COMPONENT:e47c274ee6bed5d69f56"
+          ],
+          "registry_context_ids": [
+            "GDT725"
+          ],
+          "review_file": "research_registry/decisions/clean_gap_review_nm_integrated.json",
+          "scientific_test_ready": false,
+          "scope": "GDT725 exact historical wholeform or bounded map; lexical core and local realization remain distinct.",
+          "source_applications": [
+            {
+              "evidence": {
+                "line": 16,
+                "line_end": 16,
+                "path": "experiments/yolo/gdt725_v98_final_low_hardcap_dictionary_dispatch/REPORT.md",
+                "quote": "| cpheesy | vollständig bereitetes und abgeschlossenes Kompositum | vollständig bereitetes und abgeschlossenes Arzneikompositum | revidiert |",
+                "sha256": "c17950752bdaef469daad3c46d55bbee844d3a51e1cfa9fcee3e2124fe450631"
+              },
+              "form": "cpheesy",
+              "lexical_core": "vollständig bereitetes und abgeschlossenes Kompositum",
+              "local_realization": "vollständig bereitetes und abgeschlossenes Arzneikompositum"
+            }
+          ],
+          "source_polarity": "historical_scope_revision_not_independent_meaning_confirmation",
+          "status": "unconfirmed"
+        }
+      ],
+      "evidence": [
+        {
+          "line": 16,
+          "line_end": 16,
+          "path": "experiments/yolo/gdt725_v98_final_low_hardcap_dictionary_dispatch/REPORT.md",
+          "quote": "| cpheesy | vollständig bereitetes und abgeschlossenes Kompositum | vollständig bereitetes und abgeschlossenes Arzneikompositum | revidiert |",
+          "sha256": "c17950752bdaef469daad3c46d55bbee844d3a51e1cfa9fcee3e2124fe450631"
+        },
+        {
+          "line": 33,
+          "line_end": 66,
+          "path": "experiments/yolo/gdt725_v98_final_low_hardcap_dictionary_dispatch/REPORT.md",
+          "quote": "Ein pauschales Kürzen aller Verben wäre hier falsch gewesen. `da` stammt aus\neiner elf Kontexte umfassenden Teilungs-/Dosisfunktion, `qy` aus vier\nEntnahme-/Referenzkontexten. `aiijy` und `ypchesy` sind zwar Einzelbelege, ihre\nGDT681-Ganzkarten sind aber ausdrücklich aktionslizenziert. Deshalb bleiben\ndie konkreten Verben im exakten Ganzwortdefault. Verboten bleibt nur der\nSchritt von diesen Ganzwörtern zu freien Werten wie `q = nehmen` oder\n`y = schließen`.\n\n## Was bei y und dy jetzt wirklich im Wörterbuch steht\n\nPunkt und Semikolon sind Renderer, nicht angeblich gesprochene Wörter. V98\nspeichert darum eine eigene Funktionsebene:\n\n- `dy#1` und `y#1`: `[STRUKTUR: SATZSCHLUSS]`, Ausgabe `.`\n- `dy#2`: `[STRUKTUR: ARBEITSSCHRITT-TRENNER]`, Ausgabe `;`\n- `y#2`: `[STRUKTUR: ANSCHLUSS AN FOLGENDEN POSTEN]`, Ausgabe `Hierzu:` oder\n  vor einem reinen Folgezustand `Anschließend:`\n- `yey`: `[STRUKTUR: FORTSETZUNG DES VORSTEHENDEN POSTENS]`, Ausgabe\n  `anschließend:`\n\nDamit erhält jede Sequenz einen Default, ohne Satzzeichen als deutsche\nLexeme zu verkaufen. Die fünf Werte bleiben W0 und positionsgebunden.\n\n## Stärkste und schwächste konkrete Aussagen\n\n`oror = zwei Portionen` ist die stärkste Invariante dieser Runde: drei aktive\nStellen auf drei Seiten plus die ältere Quellkarte. `da = eine Teilmenge\nabmessen` und `qy = hiervon nehmen` besitzen breitere Quellkontexte, aber\nLeser- und Imperativ/Etikett-Rivalen bleiben offen.\n\nAm schwächsten bleiben `taiky`, die Leserpolarität von `tail`, die genaue\nGebindeart bei `aiijy` und Samen gegen Wurzel bei `ypchesy`. Sie behalten\ndennoch einen praktischen Default, weil die Gegenmodelle sie nicht klar\nunmöglich machen.",
+          "sha256": "c17950752bdaef469daad3c46d55bbee844d3a51e1cfa9fcee3e2124fe450631"
+        }
+      ]
+    },
+    {
+      "id": "SEM:a7e59ce5b62e3d3924ee",
+      "claim": "GDT725 assigns whole tail the portable core kaltgestellter Materialanteil II. Its exact local output is kaltgestellte Rohdroge II. The material-share II core removes Rohdroge as a portable head. Reader polarity remains unresolved; this is not a validated cold/material/index reading. This is an unconfirmed historical core/local hypothesis, with no free component export.",
+      "claim_type": "lexical_hypothesis",
+      "status": "unconfirmed",
+      "cases": [
+        {
+          "claim_type": "lexical_hypothesis",
+          "id": "CLEAN_GAP_NM:TAIL_CORE",
+          "independent_new_idea": false,
+          "member_ids": [
+            "LEGACY_COMPONENT:e47c274ee6bed5d69f56"
+          ],
+          "registry_context_ids": [
+            "GDT725"
+          ],
+          "review_file": "research_registry/decisions/clean_gap_review_nm_integrated.json",
+          "scientific_test_ready": false,
+          "scope": "GDT725 exact historical wholeform or bounded map; lexical core and local realization remain distinct.",
+          "source_applications": [
+            {
+              "evidence": {
+                "line": 25,
+                "line_end": 25,
+                "path": "experiments/yolo/gdt725_v98_final_low_hardcap_dictionary_dispatch/REPORT.md",
+                "quote": "| tail | kaltgestellter Materialanteil II | kaltgestellte Rohdroge II | revidiert |",
+                "sha256": "c17950752bdaef469daad3c46d55bbee844d3a51e1cfa9fcee3e2124fe450631"
+              },
+              "form": "tail",
+              "lexical_core": "kaltgestellter Materialanteil II",
+              "local_realization": "kaltgestellte Rohdroge II"
+            }
+          ],
+          "source_polarity": "historical_scope_revision_not_independent_meaning_confirmation",
+          "status": "unconfirmed"
+        }
+      ],
+      "evidence": [
+        {
+          "line": 25,
+          "line_end": 25,
+          "path": "experiments/yolo/gdt725_v98_final_low_hardcap_dictionary_dispatch/REPORT.md",
+          "quote": "| tail | kaltgestellter Materialanteil II | kaltgestellte Rohdroge II | revidiert |",
+          "sha256": "c17950752bdaef469daad3c46d55bbee844d3a51e1cfa9fcee3e2124fe450631"
+        },
+        {
+          "line": 33,
+          "line_end": 66,
+          "path": "experiments/yolo/gdt725_v98_final_low_hardcap_dictionary_dispatch/REPORT.md",
+          "quote": "Ein pauschales Kürzen aller Verben wäre hier falsch gewesen. `da` stammt aus\neiner elf Kontexte umfassenden Teilungs-/Dosisfunktion, `qy` aus vier\nEntnahme-/Referenzkontexten. `aiijy` und `ypchesy` sind zwar Einzelbelege, ihre\nGDT681-Ganzkarten sind aber ausdrücklich aktionslizenziert. Deshalb bleiben\ndie konkreten Verben im exakten Ganzwortdefault. Verboten bleibt nur der\nSchritt von diesen Ganzwörtern zu freien Werten wie `q = nehmen` oder\n`y = schließen`.\n\n## Was bei y und dy jetzt wirklich im Wörterbuch steht\n\nPunkt und Semikolon sind Renderer, nicht angeblich gesprochene Wörter. V98\nspeichert darum eine eigene Funktionsebene:\n\n- `dy#1` und `y#1`: `[STRUKTUR: SATZSCHLUSS]`, Ausgabe `.`\n- `dy#2`: `[STRUKTUR: ARBEITSSCHRITT-TRENNER]`, Ausgabe `;`\n- `y#2`: `[STRUKTUR: ANSCHLUSS AN FOLGENDEN POSTEN]`, Ausgabe `Hierzu:` oder\n  vor einem reinen Folgezustand `Anschließend:`\n- `yey`: `[STRUKTUR: FORTSETZUNG DES VORSTEHENDEN POSTENS]`, Ausgabe\n  `anschließend:`\n\nDamit erhält jede Sequenz einen Default, ohne Satzzeichen als deutsche\nLexeme zu verkaufen. Die fünf Werte bleiben W0 und positionsgebunden.\n\n## Stärkste und schwächste konkrete Aussagen\n\n`oror = zwei Portionen` ist die stärkste Invariante dieser Runde: drei aktive\nStellen auf drei Seiten plus die ältere Quellkarte. `da = eine Teilmenge\nabmessen` und `qy = hiervon nehmen` besitzen breitere Quellkontexte, aber\nLeser- und Imperativ/Etikett-Rivalen bleiben offen.\n\nAm schwächsten bleiben `taiky`, die Leserpolarität von `tail`, die genaue\nGebindeart bei `aiijy` und Samen gegen Wurzel bei `ypchesy`. Sie behalten\ndennoch einen praktischen Default, weil die Gegenmodelle sie nicht klar\nunmöglich machen.",
+          "sha256": "c17950752bdaef469daad3c46d55bbee844d3a51e1cfa9fcee3e2124fe450631"
+        }
+      ]
+    },
+    {
+      "id": "SEM:c8b138f11f6ab82a6fac",
+      "claim": "sheky → bis zur Mittelstufe einweichen, erhitzen und abschließen",
+      "claim_type": "lexical_hypothesis",
+      "status": "unconfirmed",
+      "cases": [
+        {
+          "claim_type": "lexical_hypothesis",
+          "form_or_model": "sheky",
+          "id": "CLEAN_COMPONENT:0d7ef013af3c98fd3ae4",
+          "limitations": "Original alternatives, negation and limits remain in the evidence quote. No software PASS or inherited working vocabulary establishes a confirmed meaning.",
+          "member_ids": [
+            "LEGACY_COMPONENT:14bb2f5a828da6a6b2e7"
+          ],
+          "proposed_value_or_model": "bis zur Mittelstufe einweichen, erhitzen und abschließen",
+          "registry_context_ids": [
+            "GDT667"
+          ],
+          "review_basis": "conservative_assignment_rule_with_manual_pattern_audit",
+          "review_file": "research_registry/decisions/clean_component_review.json",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT667",
+            "section": "Concrete cards produced by the composition",
+            "semantic_column": "V44 working reading",
+            "source": "experiments/yolo/gdt667_one_hundred_one_residual_family_completion/REPORT.md"
+          },
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+          "status": "unconfirmed"
+        }
+      ],
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "line": 3,
+              "text": "Status: `PASS_438_TARGET_POSITIONS__V44_CONCRETE_RECIPE_REGISTER`"
+            }
+          ],
+          "line": 53,
+          "line_end": 53,
+          "path": "experiments/yolo/gdt667_one_hundred_one_residual_family_completion/REPORT.md",
+          "quote": "| `sheky` | 28 | bis zur Mittelstufe einweichen, erhitzen und abschließen |",
+          "sha256": "9c0b839672401873a0bbb7c50df014a0c496cb6e817a9f081d2d26c37de8e3a1",
+          "source_id": "LEGACY_COMPONENT:14bb2f5a828da6a6b2e7",
+          "source_section": "Concrete cards produced by the composition",
+          "table_header": "| surface | positions | V44 working reading |"
+        }
+      ]
+    },
+    {
+      "id": "SEM:faee9760ea3414e0de5a",
+      "claim": "sheky → einweichen, erhitzen und abschließen",
+      "claim_type": "lexical_hypothesis",
+      "status": "unconfirmed",
+      "cases": [
+        {
+          "claim_type": "lexical_hypothesis",
+          "form_or_model": "sheky",
+          "id": "CLEAN_COMPONENT:61eee6537c3a641c3e80",
+          "limitations": "Original alternatives, negation and limits remain in the evidence quote. No software PASS or inherited working vocabulary establishes a confirmed meaning.",
+          "member_ids": [
+            "LEGACY_COMPONENT:aba71363a71942026d56"
+          ],
+          "proposed_value_or_model": "einweichen, erhitzen und abschließen",
+          "registry_context_ids": [
+            "GDT688"
+          ],
+          "review_basis": "conservative_assignment_rule_with_manual_pattern_audit",
+          "review_file": "research_registry/decisions/clean_component_review.json",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT688",
+            "section": "Ergebnis",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt688_v61_exact_verb_ordinal_provenance_renderer/REPORT.md"
+          },
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+          "status": "unconfirmed"
+        }
+      ],
+      "evidence": [
+        {
+          "inherited_status_not_adopted": [
+            {
+              "text": "not_explicitly_declared_in_first_50_lines"
+            }
+          ],
+          "line": 21,
+          "line_end": 23,
+          "path": "experiments/yolo/gdt688_v61_exact_verb_ordinal_provenance_renderer/REPORT.md",
+          "quote": "Damit bleibt etwa `sheky = einweichen, erhitzen und abschließen` als eine\ngeschriebene dreigliedrige Aktionskarte erhalten, ohne drei hypothetische\nVoynichwörter zu erfinden.",
+          "sha256": "1d1b172aa1d2312886a990e7bbed3243d11f64bc408c22bdedca7ba962d98ced",
+          "source_id": "LEGACY_COMPONENT:aba71363a71942026d56",
+          "source_section": "Ergebnis",
+          "table_header": null
+        }
+      ]
+    },
+    {
+      "id": "SEM:b25afaa9aca502cad36b",
+      "claim": "GDT705 C017 proposes only f80r.17 sheky#3 → shkeol#4: soak, heat to middle stage and complete, followed by soaked drug material heated to middle stage. Material identity remains open because sheckhy#2 names moist medicinal composite; qokar#5 remains unbound. Other same-line sheky occurrences have different successors, so the source does not assert that sheky always produces shkeol.",
+      "claim_type": "functional_hypothesis",
+      "status": "unconfirmed",
+      "cases": [
+        {
+          "claim_type": "functional_hypothesis",
+          "id": "CLEAN_GAP_LS:C017",
+          "independent_new_idea": false,
+          "member_ids": [
+            "LEGACY_SOURCE:81fecb29ff0f00f4309e18f8"
+          ],
+          "registry_context_ids": [
+            "GDT705"
+          ],
+          "review_file": "research_registry/decisions/clean_gap_review_ls_integrated.json",
+          "scientific_test_ready": false,
+          "scope": "Occurrence-bound historical working relation or held alternative in GDT705; inherited German vocabulary and exploratory graph acceptance do not establish independent meaning or executable GDT388 gates.",
+          "source_polarity": "historical_local_relation_with_source_limits",
+          "status": "unconfirmed"
+        }
+      ],
+      "evidence": [
+        {
+          "line": 7,
+          "line_end": 17,
+          "path": "experiments/yolo/gdt705_v78_complete_action_nominal_result_census/REPORT.md",
+          "quote": "The first nominal token after all 60 immediate ACTION-to-NOMINAL transitions is now classified. Later entries inside those nominal blocks are not claimed as resolved. Two first-token cases say something substantially more concrete than “continue the work.”\n\n> **C017 / f80r.17 `sheky#3 → shkeol#4`:** Bis zur Mittelstufe einweichen, erhitzen und abschließen. Ergebnis: eingeweichter Drogenstoff, bis Mittelstufe erhitzt.\n\n> **C018 / f7r.2 `dold#5 → dchey#6`:** Drogenstoff abmessen und abschließen. Ergebnis: fertige abgemessene Mittelstufen-Trockenportion.\n\nC017 binds only #3 to #4; `qokar#5` is an unbound later register entry. C018 binds only #5 to #6; #7-9 are unbound later register entries, not proven separate batches.\n\n## Why these two improve the renderer\n\nC017 writes the state created by two operations and the same stage: `einweichen → eingeweicht`, `erhitzen → erhitzt`, and `Mittelstufe → Mittelstufe`; its material identity remains open because #2 `sheckhy` names feuchtes Arzneikompositum. C018 writes `abmessen → abgemessen`, while `abschließen → fertig` is a semantic equivalence rather than an identical lemma; #6 itself has no Drogenstoff head. These are usable local event/result statements, not generic procedural filler.",
+          "sha256": "0a11a091813d3e6af1619bd72625c6d55f3508650e41e78c55949bf625a8453c"
+        },
+        {
+          "line": 29,
+          "line_end": 33,
+          "path": "experiments/yolo/gdt705_v78_complete_action_nominal_result_census/REPORT.md",
+          "quote": "## The two useful contrasts\n\n`sheky` occurs three times in the same line with the same action gloss. Only A057 is followed by the soaked, heated middle-stage drug state. A058 is followed by another action; A060 by hot raw material at the beginning of the grade. C017 therefore cannot become “`sheky` always produces `shkeol`.”\n\n`dchey` is the immediate HIGH target in both A056 and A043. A056 supplies measurement and completion; A043 does not. C018 therefore cannot become “`dchey` is always the result of the preceding action.” The contrast is useful precisely because target identity alone does not decide the binding.",
+          "sha256": "0a11a091813d3e6af1619bd72625c6d55f3508650e41e78c55949bf625a8453c"
+        }
+      ]
+    },
+    {
+      "id": "SEM:00f0bd84ae74f3a9d9b7",
+      "claim": "GDT727 retracts hiervon from P002 and P142 because their actual physical predecessors are incomplete or semantically mixed; a predecessor in its discontinuous 51-line deck is not a valid antecedent merely by deck adjacency. It retains two local readings using the physical predecessor: ypchesy at f86v5.4 dries seed powder from the preceding cold preparation, grade II, to the middle stage; yteedy at f86v6.25 cools the just-strained hot drug share I to the final stage. These are local reference realizations under the working reader, not independent patient links.",
+      "claim_type": "functional_hypothesis",
+      "status": "unconfirmed",
+      "cases": [
+        {
+          "claim_type": "functional_hypothesis",
+          "comparison": {
+            "counterpart_ids": [
+              "SEM:5b5804de938073b58ae4"
+            ],
+            "global_novelty": "not_established_by_bounded_search",
+            "reason": "Existing T recovery covers only the YTEEDY local clause. It does not cover the full two-withdrawal/two-retention antecedent repair or YPCHESY context. Keep YTEEDY as an overlapping case, not a second independent idea. No reopened historical identity pair."
+          },
+          "id": "CLEAN_GAP_DY:physical_predecessor_reference_repair",
+          "independent_new_idea": false,
+          "member_ids": [
+            "LEGACY_COMPONENT:5d4f1d6ea2639c245dd5"
+          ],
+          "registry_context_ids": [
+            "GDT727"
+          ],
+          "review_file": "research_registry/decisions/clean_gap_review_dy_integrated.json",
+          "scope": {
+            "kind": "four_local_reference_case_repair_bundle",
+            "limits": "Historical working claim only; no independent meaning confirmation, gate passage, universal substring export or new experiment authorization.",
+            "source": "experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/REPORT.md"
+          },
+          "status": "unconfirmed"
+        }
+      ],
+      "evidence": [
+        {
+          "line": 18,
+          "line_end": 21,
+          "path": "experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/REPORT.md",
+          "quote": "- `ypchesy` auf f86v5.4: das Samenpulver aus dem vorstehenden kalten Ansatz,\n  Grad II, bis zur Mittelstufe trocknen.\n- `yteedy` auf f86v6.25: den soeben abgeseihten heißen Drogenanteil I bis zur\n  Endstufe abkühlen.",
+          "sha256": "603fb3731a10946670b8666bad14616c11975f2dc982f7f22fb270312cbe763b"
+        },
+        {
+          "line": 29,
+          "line_end": 34,
+          "path": "experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/REPORT.md",
+          "quote": "Die 51 ausgewählten Zeilen sind kein lückenloser Manuskriptauszug. Deshalb war\nder vorherige Deck-Vorgänger als Rückbezugsziel falsch. GDT727 liest die vier\nechten physischen Vorgänger. P002 und P142 sind zu lückenhaft beziehungsweise\nsemantisch zu gemischt und verlieren `hiervon`. f86v5.3 endet dagegen in\n`otaiin otain` (kalter Ansatz Grad III/II), f86v6.24 in `qokar oly` (heißer\nDrogenanteil I, abseihen); diese beiden Anschlüsse werden lokal sichtbar.",
+          "sha256": "603fb3731a10946670b8666bad14616c11975f2dc982f7f22fb270312cbe763b"
+        }
+      ]
+    },
+    {
+      "id": "SEM:5b5804de938073b58ae4",
+      "claim": "At the GDT727 f86v6.25 context, yteedy is rendered as cooling the just-strained hot drug fraction I to its final stage.",
+      "claim_type": "lexical_hypothesis",
+      "status": "unconfirmed",
+      "cases": [
+        {
+          "assessment_basis": "direct_original_source_review",
+          "claim_limits": [
+            "No atom or stem value exported.",
+            "No new manuscript observation or scientific test."
+          ],
+          "claim_type": "lexical_hypothesis",
+          "failure_reason": "Source-bound working reading only. Model consistency and fluent rendering do not identify a manuscript word; no semantic confirmation is inherited.",
+          "id": "CLEAN_GAP_T:r_yteedy_context",
+          "member_ids": [
+            "LEGACY_COMPONENT:5470d92169bdffe342eb"
+          ],
+          "registry_context_ids": [
+            "GDT727"
+          ],
+          "review_file": "research_registry/decisions/clean_gap_review_t.json",
+          "scope": "An occurrence-bound expansion using the previous physical line, not a portable lexical identity or an independently confirmed reading.",
+          "source_polarity": "historical_working_hypothesis",
+          "status": "unconfirmed",
+          "unit": "single occurrence f86v6.25 in GDT727"
+        }
+      ],
+      "evidence": [
+        {
+          "line": 20,
+          "line_end": 21,
+          "path": "experiments/yolo/gdt727_v99_six_meaning_debt_dispatch/REPORT.md",
+          "quote": "- `yteedy` auf f86v6.25: den soeben abgeseihten heißen Drogenanteil I bis zur\n  Endstufe abkühlen.",
+          "sha256": "603fb3731a10946670b8666bad14616c11975f2dc982f7f22fb270312cbe763b"
+        }
+      ]
+    },
+    {
+      "id": "SEM:be98f9221b5867e19116",
+      "claim": "GDT728 replaces inherited generic dose wording by four exact-whole roles: countable or worked portion, relative part, explicitly licensed measured unit and open preparation-value level. Odan/odain/odaiin remain open values rather than one/two/three portions. The sixty decisions do not export d, dain, daiin, dol or a meanings and do not add semantic evidence or alter the active reader.",
+      "claim_type": "functional_hypothesis",
+      "status": "unconfirmed",
+      "cases": [
+        {
+          "claim_type": "functional_hypothesis",
+          "id": "CLEAN_GAP_CF:gdt728_four_role_dispatch",
+          "identity_status": "global_novelty_unknown",
+          "independent_new_idea": false,
+          "member_ids": [
+            "GDT728"
+          ],
+          "registry_context_ids": [
+            "GDT728"
+          ],
+          "review_file": "research_registry/decisions/clean_gap_review_cf_integrated.json",
+          "scope": {
+            "kind": "historical_exact_whole_role_dispatch",
+            "limits": "Source model revision only, not identified numerical semantics or a new experiment."
+          },
+          "status": "unconfirmed"
+        }
+      ],
+      "evidence": [
+        {
+          "line": 5,
+          "line_end": 19,
+          "path": "experiments/yolo/gdt728_v99r2_inherited_unit_term_dispatch/REPORT.md",
+          "quote": "GDT728 besteht. Das vollständige Wörterbuch enthält 60 geerbte globale\nGanzwortreadings mit Dosiswortlaut an zusammen 293 Vorkommen. Der explizite\nDispatch ergibt:\n\n| Rolle | Ganzformen | Vorkommen | Arbeitsbedeutung |\n|---|---:|---:|---|\n| `PORTION` | 55 | 217 | zählbare oder bearbeitete Arbeitsmenge |\n| `TEIL` | 1 | 1 | relativer Anteil (`dolas`) |\n| `MASS` | 1 | 4 | exakte Abguss-Messform (`doly`) |\n| `WERT` | 3 | 71 | offene Zubereitungswertstufe (`odan/odain/odaiin`) |\n| `HOLD` | 0 | 0 | in dieser explorativen Runde nicht nötig |\n\nIn beiden semantischen Wörterbuchfeldern verschwinden je 61 Dosis-Tokens.\nDie Evidenzprosa wird nicht bereinigt, weil dort die frühere Hypothese als\nGegenbeleg oder Lineageinformation stehen darf.",
+          "sha256": "e0ddeca990cd902e840527713dffc584c9263cdc8d94e7da76327f7c8cb0f868"
+        },
+        {
+          "line": 36,
+          "line_end": 48,
+          "path": "experiments/yolo/gdt728_v99r2_inherited_unit_term_dispatch/REPORT.md",
+          "quote": "Damit wird der Unterschied sichtbar, den `Dosis` zuvor verdeckt hat: ein\nArbeitsanteil ist nicht automatisch eine therapeutische Gabe, ein relativer\nTeil ist keine Portion, ein ausdrücklich lizenzierter Messkopf darf `Maß`\nheißen, und ein offener Wertkopf darf nicht zur Menge umgedeutet werden.\n\n## Warum das kein globaler Wortstammexport ist\n\nDie 60 Entscheidungen sind exakte Ganzwortkarten. GDT627s freie `d`-Reihe\nbleibt eine Wertreihe, deren Sachachse der sichtbare Kopf auswählt. Besonders\n`odan/odain/odaiin` werden deshalb gerade nicht zu ein/zwei/drei Portionen.\nAuch `doly=Maß` und `dolas=Teil` gelten nur für diese vollständigen\nWhitespace-Formen. `d`, `dain`, `daiin`, `dol` oder `a` gewinnen null neue\nRelation- oder Komponentenpunkte.",
+          "sha256": "e0ddeca990cd902e840527713dffc584c9263cdc8d94e7da76327f7c8cb0f868"
+        },
+        {
+          "line": 65,
+          "line_end": 72,
+          "path": "experiments/yolo/gdt728_v99r2_inherited_unit_term_dispatch/REPORT.md",
+          "quote": "## Stabilität\n\n- alle 1.586 Wörterbuchreadings behalten Score, Confidence, positive Evidenz\n  und Gegenbeleg;\n- alle 324 aktiven V99-Readings sind vollständig bytegleich;\n- alle 1.202 nicht betroffenen globalen Readings sind vollständig bytegleich;\n- der 51-Zeilen-Reader und vier weitere aktive Reader-Artefakte sind bytegleich;\n- Scope, Exportrechte, Struktur-Tags und Komponentenwerte ändern sich nicht.",
+          "sha256": "e0ddeca990cd902e840527713dffc584c9263cdc8d94e7da76327f7c8cb0f868"
+        }
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "proposal": "ychedaiin: three portions of middle-dried drug, measure from here",
+      "current_counterparts": [
+        "SEM:d2c497faab7b2a637836"
+      ],
+      "coverage": "PARTIAL / REVISED",
+      "finding": "Current card preserves the same whole-form locus and source-bound proposal but says drei Dosen, while GDT727 changes the working output to drei Portionen. This is not absent; it is a scope/default revision requiring explicit predecessor relation. Status remains unconfirmed."
+    },
+    {
+      "proposal": "kodeey: fully heated, finished preparation portion",
+      "current_counterparts": [
+        "SEM:2a81a1942a16c43e1862",
+        "SEM:a465855ac9493f057060"
+      ],
+      "coverage": "PARTIAL / REVISED",
+      "finding": "Current cards preserve kodeey, but the older exact proposal retains Dosis/Zubereitungsdosis, whereas GDT727 selects fertige Portion der Zubereitung. Treat as changed whole-form rival, not missing card and not identical wording."
+    },
+    {
+      "proposal": "cpheesy: fully prepared and completed neutral mixture",
+      "current_counterparts": [
+        "SEM:bf8c3d122980ef2bbaaf"
+      ],
+      "coverage": "COVERED",
+      "finding": "Exact current card already preserves Kompositum as portable and Arzneikompositum only local. GDT727 says Gemisch in its output, but this is wording/local realization, not a missing historical proposition."
+    },
+    {
+      "proposal": "tail: cooled material share II",
+      "current_counterparts": [
+        "SEM:a7e59ce5b62e3d3924ee"
+      ],
+      "coverage": "COVERED",
+      "finding": "Exact current card preserves kaltgestellter Materialanteil II, keeps Rohdroge local, and retains unresolved reader polarity. GDT727’s default is represented; no new card."
+    },
+    {
+      "proposal": "three sheky occurrences on f80r.17 assigned successively to wet mixture, hot drug fraction I, hot wood fraction I at grade II",
+      "current_counterparts": [
+        "SEM:c8b138f11f6ab82a6fac",
+        "SEM:faee9760ea3414e0de5a",
+        "SEM:b25afaa9aca502cad36b"
+      ],
+      "coverage": "PARTIAL / OCCURRENCE MODEL NOT FULLY COVERED",
+      "finding": "Current cards preserve the invariant action and one GDT705 occurrence-bound result (sheky#3→shkeol#4), while explicitly warning that the other same-line occurrences differ. No current card preserves GDT727’s exact three-patient assignment as one model. Keep it as an unconfirmed local occurrence model, not a portable lexical claim."
+    },
+    {
+      "proposal": "four physical BOS predecessor links / hiervon correction",
+      "current_counterparts": [
+        "SEM:00f0bd84ae74f3a9d9b7",
+        "SEM:5b5804de938073b58ae4"
+      ],
+      "coverage": "COVERED WITH SCOPE LIMIT",
+      "finding": "The current DY card explicitly preserves the full four-case repair and says yteedy is only an overlapping case. It is not absent; it remains unconfirmed local reference realization and does not establish independent patient links."
+    },
+    {
+      "proposal": "GDT728 four exact-whole roles: Portion, Teil, Maß, Wert; no component export",
+      "current_counterparts": [
+        "SEM:be98f9221b5867e19116",
+        "SEM:5beae707421bcaaf6fe9",
+        "SEM:0cb9bf3db25fcc6a9610",
+        "SEM:83b5588bd99a0e416d1c"
+      ],
+      "coverage": "COVERED",
+      "finding": "The functional role model and exact-whole cards are current and unconfirmed. The model explicitly does not export component meanings or add semantic evidence."
+    }
+  ],
+  "correction_to_NX": "NX incorrectly reported no complete current cards. Priorities shows exact counterparts for cpheesy, tail, the four-BOS repair, ychedaiin and kodeey; only the exact three-sheky assignment remains incompletely represented as a current occurrence model.",
+  "limitations": [
+    "Priorities displays representative cards; equivalent variants remain separate in registry.",
+    "No meaning is confirmed; PASS/renderer output is not independent binding.",
+    "No operative registry, ledger, build, or source mutation."
+  ]
+}

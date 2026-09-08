@@ -4,8 +4,8 @@ Updated: 2026-09-08. Read first.
 ## Current mandate and effort limit
 
 10h requested:2026-09-07 20:29:06–2026-09-08 06:29:06UTC minimum.
-NV:9/10/18role-order designs need actual discriminating observations;10h incomplete.
-83recoveries/7scoreerrors;41questions;13definitions;86groups/104reduction.
+OB:five portion cores and two local maps;three scoped questions;10h incomplete.
+90recoveries/7scoreerrors;44questions;13definitions;86groups/104reduction.
 83rawrecords82afterknown55dup;51method/31unreviewed;10source-onlyrepairs.
 
 GDT858:855/963primary808folds retained opposite-face training;169faces/90leaves.
