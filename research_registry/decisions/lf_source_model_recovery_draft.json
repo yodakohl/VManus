@@ -1,0 +1,62 @@
+{
+  "schema": "lf_source_model_recovery_draft_v1",
+  "scope": "Source-only recovery draft from GDT749; no method review, rerun, raw table, image access, or registry mutation.",
+  "source_owner": {
+    "id": "LEGACY_SOURCE:5ad9354dc48d5df1815e94b1",
+    "path": "experiments/yolo/gdt749_outside_frame_whole_role_distribution/REPORT.md",
+    "source_scope": "GDT749 outside-frame whole-role distribution report"
+  },
+  "cards": [
+    {
+      "id": "CLEAN_GAP_LF:GDT749_QOCHEY_END_TRANSITION_ROLE",
+      "claim_type": "functional_hypothesis",
+      "claim": "GDT749 revises the global working role of the complete form qochey toward an END/transition role, while retaining DRY/MIDDLE_STAGE as the strongest single serial-frame reading and HOT/END as a local rival. The evidence is a context-dependent whole-form working hypothesis, not a fixed quality translation, lexical identity, or confirmed meaning.",
+      "member_ids": [
+        "LEGACY_SOURCE:5ad9354dc48d5df1815e94b1"
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scientific_test_ready": false,
+      "independent_new_idea": false,
+      "scope": {
+        "source": "GDT749 outside-frame complete-form comparison",
+        "unit": "complete qochey occurrence/form role; not q/o/chey component semantics",
+        "limits": "Global classifier is not a meaning decoder; no literal identity, lexeme, component export, or transfer to other forms."
+      },
+      "source_polarity": "historical_full_model_recovered_from_primary_report",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt749_outside_frame_whole_role_distribution/REPORT.md",
+          "line": 78,
+          "line_end": 93,
+          "quote": "## `qochey`: die Endrolle gewinnt den Außenvergleich\n\nAußerhalb der drei GDT748-Rahmen existieren drei weitere reader-exakte Stellen.\nDer getrennte Vergleich ergibt:\n\n| Hypothese | bester Referenzrang | Treffer in Top 5 | direkte Voll-/Teiltreffer |\n|---|---:|---:|---:|\n| DRY + MIDDLE_STAGE | 5 | 1 | 0/0 |\n| END_STAGE | 1 | 4 | 1/1 |\n| HOT + END_STAGE | 4 | 1 | 1/1 |\n\nDamit wird der frühere Einzelrahmen nicht gelöscht, aber die globale\nArbeitsreihenfolge ändert sich: **`qochey` ist eher eine End-/Übergangsrolle;\nDRY/MIDDLE_STAGE bleibt die Lesart des stärksten einzelnen Serienrahmens, und\nHOT/END bleibt ein lokaler Rivale.** Eine fixe Qualitätsübersetzung ist derzeit\nschlechter als diese kontextabhängige Karte.",
+          "sha256": "1ef04ad320f84900f81580880c1009ec814150bfbb59f045573d7d07cbe31d96",
+          "why": "full qochey outside comparison and context-dependent role revision"
+        }
+      ]
+    }
+  ],
+  "existing_counterpart_check": {
+    "SEM:e44bd09a0f7bd109f2e9": "GDT747 occurrence-local qochey DRY/probable MIDDLE_STAGE card; it is a distinct stronger single-frame case, not the GDT749 global/context-dependent role.",
+    "okechy": "Already represented by SEM:1432706660d13b0761ed from GDT749 lines72-76; do not duplicate or create a second card."
+  },
+  "known_outcome_limits": {
+    "GDT749_classifier": "23 TP, 42 FP, 60 FN on 46 known references; global distribution cannot confirm or reject qochey meaning.",
+    "next_question": "Only a source-bound future comparison of independently specified whole-form role endpoints could distinguish context-dependent END/transition from the retained DRY/MIDDLE and HOT/END rival frames; more qochey ranks or reusing the failed classifier is insufficient."
+  },
+  "validation": {
+    "source_hash": "1ef04ad320f84900f81580880c1009ec814150bfbb59f045573d7d07cbe31d96",
+    "literal_spans": [
+      {
+        "path": "experiments/yolo/gdt749_outside_frame_whole_role_distribution/REPORT.md",
+        "line": 78,
+        "line_end": 93,
+        "quote": "## `qochey`: die Endrolle gewinnt den Außenvergleich\n\nAußerhalb der drei GDT748-Rahmen existieren drei weitere reader-exakte Stellen.\nDer getrennte Vergleich ergibt:\n\n| Hypothese | bester Referenzrang | Treffer in Top 5 | direkte Voll-/Teiltreffer |\n|---|---:|---:|---:|\n| DRY + MIDDLE_STAGE | 5 | 1 | 0/0 |\n| END_STAGE | 1 | 4 | 1/1 |\n| HOT + END_STAGE | 4 | 1 | 1/1 |\n\nDamit wird der frühere Einzelrahmen nicht gelöscht, aber die globale\nArbeitsreihenfolge ändert sich: **`qochey` ist eher eine End-/Übergangsrolle;\nDRY/MIDDLE_STAGE bleibt die Lesart des stärksten einzelnen Serienrahmens, und\nHOT/END bleibt ein lokaler Rivale.** Eine fixe Qualitätsübersetzung ist derzeit\nschlechter als diese kontextabhängige Karte.",
+        "sha256": "1ef04ad320f84900f81580880c1009ec814150bfbb59f045573d7d07cbe31d96",
+        "why": "full qochey outside comparison and context-dependent role revision"
+      }
+    ],
+    "all_literal_spans_and_hashes_valid": true
+  },
+  "status": "draft_for_root_review"
+}

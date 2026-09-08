@@ -1,0 +1,48 @@
+{
+  "status": "bounded_stop_no_new_proposals",
+  "prefix": "le",
+  "draft_count": 0,
+  "registry_mutation": false,
+  "decision": "No GDT730–732 observation supports a new semantic proposition without reusing an existing default/grade/rendering route. Retain reports as control/rendering evidence only.",
+  "evidence": [
+    {
+      "path": "experiments/yolo/gdt730_v99r4_ninety_four_ambiguity_default_dispatch/REPORT.md",
+      "line": 7,
+      "line_end": 12,
+      "quote": "The broad selector found 95 global rows with 1,050 occurrences. One was not a\nsemantic ambiguity: `cphol = zusammengesetzter Drogenstoff` matched only\nbecause `menge` occurs inside `zusammengesetzter`. GDT730 therefore changes\nexactly 94 rows with 1,039 occurrences and keeps `cphol` byte-identical.\n\nEvery target now has one default in both semantic-rendering fields. The rival\n",
+      "sha256": "8e46899197dbd175743b273f86d8f1a39e3d069d70380399b0c3ae2efb3b19d7"
+    },
+    {
+      "path": "experiments/yolo/gdt731_v99r4_occurrence_passage_impact/REPORT.md",
+      "line": 7,
+      "line_end": 25,
+      "quote": "All 94 GDT730 surfaces reconstruct exactly at all 1,039 canonical occurrences\ninside 911 of the 4,128 cached lines. Every per-surface count matches V99R4.\nExactly 31,300 non-target token cells remain unchanged. Of the affected lines,\n351 already had zero unknown tokens in the inherited V48 register.\n\nInside the changed cells, visible alternative notation drops as follows:\n\n| Marker | V99R3 | V99R4 |\n|---|---:|---:|\n| slash | 823 | 0 |\n| standalone `oder` | 76 | 0 |\n| case-insensitive `menge` | 251 | 0 |\n\nThe mean target-cell length falls from 4.05 to 2.68 words. This is a measured\ngain in concision and audible single-default dispatch: the dictionary no\nlonger speaks two rival guesses at once. Practical informativeness is mixed;\nsome cells merely replace one analytic placeholder with a shorter one. None\nof these changes is evidence that the chosen guess is plaintext.\n\n",
+      "sha256": "12360c48659e13380a9492aea7d289eb6de4d4e2aa70f7e43c295f44151ef1ff"
+    },
+    {
+      "path": "experiments/yolo/gdt732_v99r5_grade_frame_spoken_renderer/REPORT.md",
+      "line": 10,
+      "line_end": 28,
+      "quote": "positions. Every original dictionary field remains byte-identical; the new\nspoken channel is an overlay.\n\nSeventy-five readings/1,748 positions support direct state prose. The other\n100/683 remain deliberately neutral because they contain several modalities,\na composite whose stage attachment is ambiguous, or no explicit modality.\n\n| Renderer | Readings | Positions |\n|---|---:|---:|\n| single-axis participle | 71 | 1,710 |\n| clause-local two-stage participles | 4 | 38 |\n| mixed state, neutral stage | 82 | 604 |\n| single composite, neutral stage | 9 | 21 |\n| no modality, neutral stage | 9 | 58 |\n\nAcross the licensed cells, 2,469 audible grade markers fall to zero. The 728\nexplicit `abgeschlossen/fertig` markers and all 3,015 modality mentions remain\nexactly preserved. Mean target-cell length falls from 6.03 to 3.77 words. That\nis a measured rendering gain, not evidence that the inherited word meanings\n",
+      "sha256": "dcb27cc936cf96759e6c25ac8f647b67270ff43ced1a5359ea445b9d5665f4d5"
+    }
+  ],
+  "screened_candidates": [
+    {
+      "candidate": "cphol substring false-positive / whole-form boundary",
+      "result": "already corrected inside GDT730 selector; re-proposing would repeat a completed lexical control."
+    },
+    {
+      "candidate": "GDT731 default concision and passage impact",
+      "result": "renderer impact only; report explicitly says chosen guesses are not plaintext evidence."
+    },
+    {
+      "candidate": "GDT732 direct versus neutral grade-frame state",
+      "result": "existing grade-frame renderer policy; source explicitly says measured rendering gain is not evidence of inherited meanings."
+    }
+  ],
+  "limitations": [
+    "No new source, image, TSV, experiment, or external material opened.",
+    "No independent semantic binding or new falsifier was identified."
+  ]
+}

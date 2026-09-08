@@ -1,0 +1,39 @@
+{
+  "status": "retain_scope_audit",
+  "target_ids": [
+    "SEM:2cbef76e1cd93f32b77f",
+    "SEM:033c445e75c6f4571c3b",
+    "SEM:34337ee1bc5b79f3e4e2"
+  ],
+  "decision": "retain_unconfirmed_score_only",
+  "finding": "Across the three cited V14 sources, the proposition is a scored model/alternative label and purpose-comparison result. The sources do not provide a complete independently bound semantic construction, token inventory, or operational word-to-meaning rule. Preserve the equivalent identity dependency; do not archive or promote solely from score 66/422-style references.",
+  "source_evidence": [
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v14/V14_SELECTION_PROTOCOL.md",
+      "line": 36,
+      "line_end": 40,
+      "quote": "4. exemplar/pattern/training book;\n5. natural-philosophical or cosmological technical compendium;\n6. abbreviated ordinary-language miscellany;\n7. an explicit hybrid with a simple rule explaining why registers differ.\n\n",
+      "sha256": "f0c46eb6d80f2587135bea34dfab30b53df2c866c74bd60a41cd371c8b01e572"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v14/CANDIDATE_V14_R3_REGISTER_SYNTHESIS.md",
+      "line": 416,
+      "line_end": 428,
+      "quote": "| Modell | Abdeckung /25 | Workflow /20 | Register /15 | Lesungen /15 | historisch /15 | Rivalen/Prognosen /10 | Gesamt |\n|---|---:|---:|---:|---:|---:|---:|---:|\n| WHAT/HOW/WHEN in Kartenmaschine | 23 | 18 | 14 | 12 | 14 | 9 | **90** |\n| generisches indexiertes Formular-/Exemplarbuch | 22 | 19 | 13 | 8 | 11 | 9 | **82** |\n| medizinische Herbal+Bio-Sammlung, Astro unverbundener Annex | 21 | 16 | 12 | 11 | 14 | 8 | **82** |\n| natürlich-philosophisches Kompendium | 17 | 14 | 12 | 9 | 13 | 7 | **72** |\n| abgekürzte gewöhnliche Mischprosa | 15 | 13 | 8 | 10 | 13 | 7 | **66** |\n\nDer Sieger gewinnt nicht, weil WHEN bewiesen wäre, sondern weil er mit einer\nlosen Konsultationsregel mehr erklärt als der generische Rivale. Der Rivale\nbleibt gefährlich: Falls die Bio-Bilder keine wiederholbaren praktischen Slots\ntragen und die Astro-Instrumente keinerlei medizinisch nutzbare\nAuswahlstruktur zeigen, fällt der Zweckgewinn weg; die Kartenmaschine selbst\n",
+      "sha256": "8a0790d1c81915ca02b3995640da8b22c8a624c644aaf543cc46d4867df49eb9"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v14/CANDIDATE_V14_R4_CHANCERY_PURPOSE_AUDIT.md",
+      "line": 382,
+      "line_end": 390,
+      "quote": "| illustriertes technisches Exemplar-/Nachschlageregister mit medizinisch-naturkundlichem Inhalt | 92 | **ausgewählt** |\n| praktisches medizinisches Arbeitsbuch | 87 | stärkster Rivale und wahrscheinlicher Inhaltsrahmen |\n| iatromedizinische WHAT/HOW/WHEN-Konkordanz | 78 | attraktive Synthese, aber ohne gebundenen Querpointer |\n| naturphilosophisch-kosmologisches Kompendium | 75 | deckt Vielfalt, erklärt Bio-Wertzellen schwächer |\n| reines Muster-/Trainingsbuch | 69 | erklärt Kopierform, nicht den Aufwand des Inhalts |\n| beliebige abgekürzte Prosa-Miszellaneen | 66 | erklärt Herbal, nicht Bio-Stencil und Astro-Ortsregister |\n\nDer Sieger ist ausdrücklich ein Hybrid mit einer einfachen Differenzregel:\n\n",
+      "sha256": "6d8dcab1b4d5159881f31a06656d433ebf58e8b9ce24655c87b2e5579a74263c"
+    }
+  ],
+  "scope_limits": [
+    "R3 supplies a rubric table and explicit non-proof caveat; R4 supplies a purpose comparison and a relative explanatory limitation.",
+    "No source examined here independently binds a Voynich form to abbreviated mixed prose or validates the historical model.",
+    "The equivalent proposition group remains an identity/navigation dependency, not scientific confirmation."
+  ],
+  "correction": "No source correction warranted: the existing card should remain retained as an unconfirmed score-only historical model. A future reopening would need a complete proposition definition and an independent binding, not another score comparison."
+}

@@ -1,0 +1,61 @@
+{
+  "status": "scope_correction_addendum",
+  "preserves_original": "research_registry/decisions/lf_source_screen_stop_740_746.json",
+  "original_receipt_sha256": "872a1b3bde5053662fe5b7e06bee174985556b74ca02223c13f0ca0f4ba910d3",
+  "corrected_finding": "The LF screen selected zero new discriminators from the inspected GDT740–746 report claims. It did not perform complete current-card coverage and must not claim exhaustive absence of historical propositions or refutation of any meaning hypothesis.",
+  "source_specific_limits": {
+    "GDT740": "The report contains two working semantic relay hypotheses; they were screened as existing attachment/relay claims, not disproven.",
+    "GDT744": "The report contains contextual field-channel hypotheses and explicitly withholds translation; that does not exclude later historical card recovery.",
+    "GDT745": "The report contains 41 exploratory working defaults; no claim is made that all are represented or absent from current cards.",
+    "GDT746": "Analogy-distribution results were treated as method evidence only."
+  },
+  "quote_validation": {
+    "method": "For each stored evidence object, read bytes, decode UTF-8, splitlines, reconstruct lines[line-1:line_end] plus final newline, and hash raw bytes with SHA-256.",
+    "results": [
+      {
+        "path": "experiments/yolo/gdt740_local_host_attachment_adjudication/REPORT.md",
+        "line": 71,
+        "line_end": 113,
+        "quote_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "experiments/yolo/gdt741_local_attachment_boundary_relay_grammar/REPORT.md",
+        "line": 97,
+        "line_end": 138,
+        "quote_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "experiments/yolo/gdt742_r2_open_collision_adjudication/REPORT.md",
+        "line": 49,
+        "line_end": 52,
+        "quote_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "experiments/yolo/gdt743_r2_run_intersection_adjudication/REPORT.md",
+        "line": 41,
+        "line_end": 44,
+        "quote_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "experiments/yolo/gdt744_historical_microfield_channel_bridge/REPORT.md",
+        "line": 4,
+        "line_end": 43,
+        "quote_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "experiments/yolo/gdt745_exact_open_content_role_expansion/REPORT.md",
+        "line": 9,
+        "line_end": 37,
+        "quote_match": true,
+        "sha256_match": true
+      }
+    ],
+    "all_passed": true
+  },
+  "operative_changes": false
+}

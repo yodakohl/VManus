@@ -1,0 +1,95 @@
+{
+  "task": "LE bounded GDT750–752 historical-value audit",
+  "proposed_count": 1,
+  "proposals": [
+    {
+      "proposed_id": "CLEAN_GAP_LE:cheky_old_global_middle_stage",
+      "claim": "GDT750 recalls an old global MIDDLE_STAGE default for cheky, then reports that its single locally licensed DRY assignment conflicts with that default and leaves cheky’s general stage open. This preserves the earlier stage assignment as a historical working hypothesis; the report does not establish a dry translation or independently disprove a middle-stage meaning.",
+      "claim_type": "functional_hypothesis",
+      "form_or_model": "cheky",
+      "proposed_value_or_model": "old global MIDDLE_STAGE default",
+      "status": "unconfirmed",
+      "source_owner_id": "LEGACY_COMPONENT:794fb32fbe3629b3b0d3",
+      "source_owner_span": {
+        "line": 1,
+        "line_end": 124
+      },
+      "ownership_reason": "Actual full-report unresolved remainder spans the retirement sentence; not the one-row local DRY component or a status-only fragment. Reassess only the quoted historical proposition, not all remaining source prose.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt750_form_gated_direct_host_dispatch/REPORT.md",
+          "line": 67,
+          "line_end": 72,
+          "quote": "`cheol` ist der zweitbeste kleine Befund: zwei Außenstellen auf zwei Seiten\nwerden jeweils durch das unmittelbar benachbarte `cheos` als DRY gebunden.\n`cheky` erhält an einer Stelle DRY und widerspricht damit der alten globalen\nMIDDLE_STAGE-Voreinstellung; seine allgemeine Stufe bleibt offen.  Die\nEinzelkarten `cheey` und `sheey` sind verwendbar, aber noch keine\nformweiten Defaults.",
+          "sha256": "2245c80b399f6fece7741fda6ab396eae19c3a16c1d74d39753a14c05c2955df"
+        },
+        {
+          "path": "experiments/yolo/gdt750_form_gated_direct_host_dispatch/REPORT.md",
+          "line": 39,
+          "line_end": 45,
+          "quote": "| Form | aktive Stellen/Seiten | lokale Achsen | praktische Lesart |\n|---|---:|---|---|\n| `okeey` | 14/10 | HOT 13; END 13 | 12× heißer Endzustand, 1× heiß, 1× Endstufe |\n| `cheol` | 2/2 | DRY 2 | zweimal trockener Zustand |\n| `cheey` | 1/1 | END 1 | einmal End-/Vollstufe |\n| `cheky` | 1/1 | DRY 1 | einmal trockener Zustand |\n| `sheey` | 1/1 | MOIST 1; END 1 | einmal feuchter/eingeweichter Endzustand |",
+          "sha256": "2245c80b399f6fece7741fda6ab396eae19c3a16c1d74d39753a14c05c2955df"
+        }
+      ],
+      "nearest_existing": [
+        {
+          "id": "SEM:e1ae91e395cf0d752726",
+          "claim": "GDT750 assigns a DRY state role to its one licensed cheky occurrence.",
+          "difference": "Evidence and case own table44 only; current claim contains no old global MIDDLE_STAGE assignment."
+        },
+        {
+          "id": "SEM:a1028a44eae479bab013",
+          "claim": "cheky → sanfte Wärme",
+          "difference": "Different warmth value."
+        },
+        {
+          "id": "SEM:ada70999c04feb075916",
+          "claim": "cheky → Kurzwärme",
+          "difference": "Different warmth/duration value."
+        },
+        {
+          "id": "SEM:b712099e66740727e168",
+          "difference": "Pass321 short/long warmth paradigm; does not preserve the MIDDLE_STAGE default."
+        }
+      ],
+      "scope_limits": [
+        "MIDDLE_STAGE remains a historical structural/semantic working tag; do not invent a longer German literal sentence.",
+        "The contrast concerns old form-wide stage versus one locally assigned DRY role. Dry and middle-stage are not logically exclusive without additional model constraints; retain the source’s stated conflict without converting it into independent falsification.",
+        "The existing local DRY card must remain; no automatic identity merge or status propagation."
+      ],
+      "reopening_condition": "An independently grounded complete-form stage contrast or a genuinely different predeclared falsifier would be needed to reassess the old form-wide assignment. Replaying inherited host-axis labels is not that change."
+    }
+  ],
+  "already_covered": [
+    {
+      "source": "GDT75169 and GDT75240–49",
+      "id": "SEM:efc978b25d3c146d8ded",
+      "reason": "Full ten-occurrence okeey preparation proposal and subsequent carrier withdrawal already preserved by EC, including retained HOT+END and exploratory preparation background."
+    },
+    {
+      "source": "GDT75062–65",
+      "ids": [
+        "SEM:001dfd83463ba4fb0552",
+        "SEM:54d1048f8a03f43fb051"
+      ],
+      "reason": "Archived incorrect standalone extraction of negated universal hot/end readings. Source explicitly says not yet; do not recover as an old asserted default."
+    }
+  ],
+  "audit_method": {
+    "reports_read": [
+      "GDT750",
+      "GDT751",
+      "GDT752"
+    ],
+    "active_archive_comparison": "Selective exact cheky claims plus complete cases and evidence of all cards sourced to these three reports; supplementary cheky case scan catches claims lacking form in summary.",
+    "priorities_attempts": "cheky limit8 and exact EC show both rejected changed builder/rebuild required; no retry or rebuild. Root confirms LB build in flight.",
+    "registry_mutations": false,
+    "raw_tsv_or_images": false,
+    "source_owner_extraction": {
+      "line_start": 1,
+      "line_end": 124,
+      "record_type": "unresolved_block"
+    },
+    "priorities_after_build": "After root confirmed LB completion, cheky limit8 and exact e1ae91 detail succeeded; same no-old-middle-stage conclusion. Existing correction SCR:9f94490b3a4248c1fa12 has only local DRY table and general scope evidence, not old MIDDLE_STAGE."
+  }
+}
