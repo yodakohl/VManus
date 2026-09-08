@@ -1,0 +1,109 @@
+{
+  "status": "PASS_NV_WITH_ADDITIVE_NW_RECEIPT_CORRECTION",
+  "file_hashes": {
+    "research_registry/decisions/nv_root_three_design_review.json": "7c1b03c4e55daa106778fedbd7c67bde76019101bbc236cf10d468a84e67730b",
+    "research_registry/decisions/nv_review_idea000009.json": "34f1397f75e08dfca36052ac05b33465e1be039a1ad3f74c0f25f65d5a5ddd32",
+    "research_registry/decisions/nv_review_idea000010.json": "c567bbc6d59d0d5b61a5d1484cc95dc25cf6ec3c6f33941c39c18773b1946a8c",
+    "research_registry/decisions/nv_review_idea000018.json": "5ea174966d5f3db13b97795d19def8a088467ef264dd2ba15153044383183f67",
+    "research_registry/decisions/nu_three_role_design_review.json": "1d6ba261f31362c92c0f90b9669648f27c11b1c1e54ca1ae907eef444f2f8775",
+    "research_registry/decisions/nw_nu_design_fidelity_correction.json": "041a062a906ec6d92c245d48e9deb5abcfd48501f36d6377e9106b9b5dda740e"
+  },
+  "effective_design_checks": [
+    {
+      "id": "IDEA000009",
+      "fingerprint": "ae6802b47f3ee0532e31a58d267438efeff466684d13cf3c449edee8ad4e6290",
+      "design_sha256": "d702e683c961ac8817a3494a2324344e03509367f03c6eee2e1d1bc98ea86539"
+    },
+    {
+      "id": "IDEA000010",
+      "fingerprint": "31a6f392aa08ca040b1c65fef998a7c06e9127c37cd054791570e7bb155afae7",
+      "design_sha256": "4fcd440d770bd9fecf29f6d61c6e1dde0398ce510d6ecf1877920d9e3449561b"
+    },
+    {
+      "id": "IDEA000018",
+      "fingerprint": "c12be37649e303d921c5d4374771028bafecc1abe78af7c72c451ea6902ed9f3",
+      "design_sha256": "bce4e6d6fe3a39e9525818b5d89d2ede340229050ad4f2588910e61f53e78222"
+    }
+  ],
+  "design_comparison": "All three current _assemble effective designs equal NV design_before and proposed review design exactly; all three research_registry.design_fingerprint values match. Full canonical design SHA256 values separately retained.",
+  "literal_source_checks": [
+    {
+      "path": "experiments/yolo/gdt805_eleven_whole_context_role_discriminator/REPORT.md",
+      "line": 15,
+      "line_end": 20,
+      "quote": "Oberflächen für eine ausdrücklich neue Surface-Achsenprojektion. Der deutsche\nQuellstring wird nicht ausgegeben; die Tags sind aber aus früherer deutscher\nArbeitsprosa abgeleitet. Sie sind keine unabhängige Semantik und keine\nRenderer-Lizenz. Nur 6 Flankenzellen im Außenatlas sind zugleich\ndieselben lokal aktiven GDT739-Quellzellen; alle anderen Tags erscheinen nur als\nmarkierte Kandidaten.",
+      "sha256": "a7d1149d3341973909288cd531d863d446fd7acefadff98844db55eac56625f5",
+      "verified_literal_span_and_file_sha256": true
+    },
+    {
+      "path": "experiments/yolo/gdt745_exact_open_content_role_expansion/REPORT.md",
+      "line": 10,
+      "line_end": 13,
+      "quote": "Der naheliegende Kontextversuch scheitert vollständig und sichtbar: Wird jede\nForm selbst zum Mittelpunkt des GDT744-Fensters, überlebt an keiner der 136\nStellen ein sauberer W2/W3-Anker. Alle 136 Kanäle bleiben OPEN. Das ist wichtig,\ndenn die GDT744-Feldbedeutung darf deshalb nicht einfach zum Wortwert werden.",
+      "sha256": "f0eac44c662075e52ff3f9b7c9a1055399cb0cc9731c853bf5cf465bb9b42073",
+      "verified_literal_span_and_file_sha256": true
+    },
+    {
+      "path": "experiments/yolo/gdt760_quantity_bilateral_content_attachment/REPORT.md",
+      "line": 10,
+      "line_end": 21,
+      "quote": "Die ursprünglich geplante Regel „Zutat steht links von der Menge“ ist falsch.\nGlobal sind beide Seiten praktisch identisch: links 20/163 oder 12,2699 Prozent,\nrechts 25/204 oder 12,2549 Prozent. Die Zeilenposition löst das scheinbare Chaos:\n\n| Mengenposition | linke Inhaltsplätze | rechte Inhaltsplätze | Arbeitsrichtung |\n|---|---:|---:|---|\n| Zeilenanfang | kein linker Platz | 14/72 | zuerst rechts lesen |\n| Zeilenmitte | 19/140 | 11/132 | zuerst links lesen |\n| Zeilenende | 1/23 | kein rechter Platz | kein automatischer Inhalt |\n\nDas ist keine allgemeine Sprachwortstellung. Es ist eine unmittelbar\nausführbare Readerregel für genau diese Mengenformen.",
+      "sha256": "a58f98014700da93e4d8e3db2a8e7a16d94b110313649f0a7f2a7952a8d6cfdd",
+      "verified_literal_span_and_file_sha256": true
+    },
+    {
+      "path": "experiments/yolo/gdt804_bracket_middle_independent_field_bridge/REPORT.md",
+      "line": 40,
+      "line_end": 46,
+      "quote": "Das sind **keine automatisch lizenzierten Inhaltsplätze**: Keine der fünfzehn\nausgewählten Mittelformseiten war in GDT760 bereits ein sauberer CONTENT_PREP-\nKontakt. In `f88r.10` steht zwar `cheol` auf der bevorzugten linken Seite, aber\nGDT760s tatsächliche Inhaltslizenz gehört rechts zu `cheos`. Die offenen\nPositionsnachbarn liegen im aggregierten Null bei 14.0056\n(`p=0.648470305939`).\nDamit fällt der behauptete einheitliche Stoffslot weg.",
+      "sha256": "9f66d00da23ba8d54aed193ae59e9a5d67616df7a3228ab8547f0185618e4748",
+      "verified_literal_span_and_file_sha256": true
+    },
+    {
+      "path": "GDT311_OPERATION_EVENT_CHOICE_REPORT.md",
+      "line": 25,
+      "line_end": 27,
+      "quote": "## Claim ceiling\n\nStochastic formal operation choice on already licensed exact pairs only; no unseen license morphology category semantics sound language plaintext meaning or translation. No f84 row was opened, parsed, retained, joined, or scored.",
+      "sha256": "ae91b540e3bace366da82f5be76e7deecb942017eb8d3455f9c0b27bd3062671",
+      "verified_literal_span_and_file_sha256": true
+    },
+    {
+      "path": "experiments/yolo/gdt386_independent_relation_edge_capacity/REPORT.md",
+      "line": 7,
+      "line_end": 11,
+      "quote": "The existing permitted annotation inventory does **not** contain a relation\nendpoint homologous enough to CoReMA's explicit editor parent links to justify\na new Voynich score. This is a capacity result, not a negative semantic test:\nno Voynich text identity, formal family, PAGE_HOST, or GDT327 tuple was read or\nscored.",
+      "sha256": "cc7b657614eb053f9104928c018b09b892d97fb4263c2b5134017f25999f4f12",
+      "verified_literal_span_and_file_sha256": true
+    },
+    {
+      "path": "experiments/yolo/gdt437_future_card_state_transition_order_repair/REPORT.md",
+      "line": 15,
+      "line_end": 17,
+      "quote": "The cause was simple: the old German clause builder gathered arguments and\nrelations into semantic buckets and printed the buckets in a fixed order. It\ntherefore discarded the order already present in the card.",
+      "sha256": "662b64cace626fb30a8bb2017225884cb82b0ef60070a9ee8ce1f9ae8de1cf0d",
+      "verified_literal_span_and_file_sha256": true
+    },
+    {
+      "path": "experiments/yolo/gdt496_semantic_action_substitution_atlas/REPORT.md",
+      "line": 14,
+      "line_end": 19,
+      "quote": "- 95 beobachtete Handlungskopf-Zellen mit 242 Events;\n- 242/242 identische portable Bedeutungsreste;\n- 242/242 identische owner-lokale Bedeutungsreste;\n- 242/242 identische Komponentenreihenfolgen;\n- 242/242 exakte Rückwärtsabbildungen;\n- keine Bedeutungskollision.",
+      "sha256": "0e63851eb5956a81175c1008b8b7667e6bde8c806afac52a7bf1b6aef1499f8d",
+      "verified_literal_span_and_file_sha256": true
+    }
+  ],
+  "method_judgments": {
+    "IDEA000009": "Stable ordered framing is compatible with an ordered field convention and does not alone distinguish operator modality from a content carrier. Missing nominated whole and noncircular response, not missing named ingredient or full translation.",
+    "IDEA000010": "Amounts may count operations; material role is not entailed by adjacency/countability.760 directional conditioning and804 distinction between preferred neighbor and licensed contact are retained.45 contacts are source working annotations, not independently confirmed material meanings.",
+    "IDEA000018": "Fixed field convention may transfer order beyond discovery.75percent/20point thresholds do not establish distinct predictions or semantic endpoint roles.311 formal source/target choice and437/496 renderer preservation remain valid within their own structural scopes.386 capacity failure not propagated to every local role observation;388 conditions apply to an ordered relation evidence packet."
+  },
+  "additive_correction_to_preserved_NW": {
+    "field": "verification.IDEA000009_mismatch",
+    "problem": "The explanatory sentence reverses actual and NU wording, contradicting its own correct diff and canonical_designs.",
+    "correct_actual": "opaque carrier controls lack this ordered signature.",
+    "correct_NU": "opaque carrier controls lack that ordered signature.",
+    "scope": "Fidelity-only transcription error, no semantic difference. NW and NU bytes preserved. NV design and explicit computed diff already correct."
+  },
+  "operative_mutation": false,
+  "limits": "Three method judgments and eight primary spans audited; no experiment, manuscript measurement, gate upgrade or universal translation prerequisite."
+}
