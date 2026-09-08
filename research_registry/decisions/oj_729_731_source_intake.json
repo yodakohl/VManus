@@ -1,0 +1,463 @@
+{
+  "schema": "bounded_gdt729_731_source_intake_v1",
+  "status": "READ_ONLY_SOURCE_SCOPE_AUDIT",
+  "source_reports": {
+    "GDT729_table": {
+      "path": "experiments/yolo/gdt729_v99r3_fourteen_indexed_quantity_dispatch/REPORT.md",
+      "line": 5,
+      "line_end": 28,
+      "quote": "GDT729 resolves the fourteen forms explicitly named by the current route. The\nresult is five cardinal amounts, one amount inside an indexed share, seven\nopen value levels and one quality grade. None remains a slash-separated\nnon-answer, and none is put on HOLD.\n\nStatus:\n`PASS_V99R3_14_QUANTITY_READINGS__5_CARDINAL_1_INDEXED_SHARE_7_OPEN_VALUE_1_QUALITY_GRADE_0_MEASURE_0_HOLD__140_OCCURRENCES__NO_SLASH_AMBIGUITY_IN_TARGET_MEANINGS__324_ACTIVE_1248_OTHER_GLOBAL_BYTE_STABLE__SCORE_EVIDENCE_SCOPE_EXPORT_UNCHANGED__ZERO_COMPONENT_CREDIT__ALL_H0_NONE`.\n\n| surface | occurrences | V99R2 | V99R3 default | class | confidence |\n|---|---:|---|---|---|---|\n| `arain` | 4 | erste Drogenfraktion in Menge II | zwei Teile des Drogenanteils I | indexed share amount | 66 / W3 |\n| `chorain` | 2 | Blüten-/Pflanzenteil, Menge/Klasse II | Blütenteil, Wertstufe II | open value | 53 / W2 |\n| `choraiin` | 3 | Blüten-/Pflanzenteil, Menge/Klasse III | Blütenteil, Wertstufe III | open value | 58 / W2 |\n| `cthan` | 2 | Blatt-/Krautgut, Menge/Klasse I | Blattgut, Wertstufe I | open value | 53 / W2 |\n| `cthain` | 4 | Blatt-/Krautgut, Menge/Klasse II | Blattgut, Wertstufe II | open value | 58 / W2 |\n| `cthaiin` | 11 | Blatt-/Krautgut, Menge/Klasse III | Blattgut, Wertstufe III | open value | 59 / W2 |\n| `dan` | 17 | Grad-/Maßwert I | Wertstufe I | open value | 55 / W2 |\n| `daiiin` | 17 | Grad-/Maßwert IV | Wertstufe IV | open value | 55 / W2 |\n| `olain` | 11 | Drogenstoff, Menge II | zwei Portionen Drogenstoff | cardinal amount | 76 / W3 |\n| `olaiin` | 39 | Drogenstoff, Menge III | drei Portionen Drogenstoff | cardinal amount | 76 / W3 |\n| `oraiin` | 26 | Portion III | drei Portionen | cardinal amount | 68 / W3 |\n| `qoraiin` | 1 | nimm eine Drogenportion, Menge III | drei Drogenportionen nehmen | cardinal amount | 36 / W1 |\n| `solaiin` | 1 | Salz, Menge III | drei Portionen Salz | cardinal amount | 28 / W1 |\n| `tdain` | 2 | kalter Grad-/Maßwert II | Kältegrad II | quality grade | 16 / W0 |\n",
+      "sha256": "14d2d659b619c16301d3a34274f0fab9f50ca1e64469d49004d7ef667317523f"
+    },
+    "GDT729_rationale": {
+      "path": "experiments/yolo/gdt729_v99r3_fourteen_indexed_quantity_dispatch/REPORT.md",
+      "line": 34,
+      "line_end": 69,
+      "quote": "## Why the plant-part series is not counted\n\nOne independent audit proposed `choraiin = three portions of flower material`\nand `cthaiin = three portions of leaf material`. That sounds practical, but it\ncontradicts the primary head rule. GDT627 explicitly records that these\ncompounds may encode amount, strength, size, maturity or class and must not be\nsilently converted to literal organ counts. Their useful default is therefore\nthe concrete patient plus an honest level:\n\n```text\nchoraiin  Blütenteil, Wertstufe III\ncthaiin   Blattgut, Wertstufe III\n```\n\nThis is more informative than `Menge/Klasse III`, while leaving the exact axis\navailable for later local context.\n\n## Why the other quantities can be spoken\n\n`olain/olaiin` already had practical source renderers with two or three parts\nof the learned drug material. `oraiin` has a visible OR portion head, and the\nGDT693 R/OR contrast requires OR to remain the divided portion rather than an\nindexed share. `qoraiin` is a learned action whole, so its old duplicate\nwording becomes the single instruction **three drug portions take**.\n`solaiin` receives the same cardinal renderer but remains W1: `Saatgut, Charge\nIII` is retained as its strongest rival.\n\n`arain` is different. It contains the indexed share and an amount inside that\nshare, so collapsing it to `two portions` would lose information. V99R3 keeps\nboth levels as **two parts of drug share I**.\n\nFinally, GDT686 showed that the naked D series is a value ladder whose visible\nouter head chooses the axis. `dan/daiiin` therefore become `Wertstufe I/IV`.\nExact `tdain` does have a visible cold-quality head, so `Kältegrad II` is the\nbest working default—still at its inherited W0 score because only two weak\noccurrences support it.\n",
+      "sha256": "14d2d659b619c16301d3a34274f0fab9f50ca1e64469d49004d7ef667317523f"
+    },
+    "GDT730_result": {
+      "path": "experiments/yolo/gdt730_v99r4_ninety_four_ambiguity_default_dispatch/REPORT.md",
+      "line": 7,
+      "line_end": 25,
+      "quote": "The broad selector found 95 global rows with 1,050 occurrences. One was not a\nsemantic ambiguity: `cphol = zusammengesetzter Drogenstoff` matched only\nbecause `menge` occurs inside `zusammengesetzter`. GDT730 therefore changes\nexactly 94 rows with 1,039 occurrences and keeps `cphol` byte-identical.\n\nEvery target now has one default in both semantic-rendering fields. The rival\nreading remains attached to the audit; it no longer leaks into the spoken\ndefault through a slash, `oder`, or unresolved `Menge` label.\n\n| Family | Rows | Occurrences | Working policy |\n|---|---:|---:|---|\n| learned technical wholes | 12 | 148 | one form, state, entry or measured-input reading |\n| open value wholes | 3 | 116 | indexed value or field boundary without a fabricated unit |\n| plant wholes | 25 | 341 | global Pflanzendroge/material; Blattgut stays a local rival |\n| powder wholes | 8 | 38 | Pulver, Pulveranteil, Pulverpaste and preparations |\n| quantity wholes | 8 | 90 | cardinal amount or measured DAL input, kept distinct |\n| root wholes | 12 | 30 | Wurzeldroge, preparation, share and processing state |\n| seed wholes | 20 | 233 | Samen, preparation, quantity class and processing state |\n| wood wholes | 6 | 43 | Holzdroge, measure and preparation states |\n",
+      "sha256": "8e46899197dbd175743b273f86d8f1a39e3d069d70380399b0c3ae2efb3b19d7"
+    },
+    "GDT730_limits": {
+      "path": "experiments/yolo/gdt730_v99r4_ninety_four_ambiguity_default_dispatch/REPORT.md",
+      "line": 41,
+      "line_end": 66,
+      "quote": "## Confidence and evidence\n\nNo confidence was upgraded merely because a default was selected. The 94\ntargets retain 20 W3, 48 W2, 20 W1 and six W0 readings. Every row still carries\nits inherited positive evidence and counterevidence; the separate evidence\ntable binds those fields by hash. Component and historical-relation credit are\nzero throughout.\n\nThree inherited comparator decks show that learned drug names, plant-part and\nquality slots, compact form systems, dosage rubrics and relative parts all\noccur in late-medieval technical manuscripts. They constrain the style of the\nworking codebook but do not identify a Voynich sign or word.\n\n## Controls and limits\n\nAll 324 active V99 readings, 1,168 non-target global rows, fourteen GDT729\ntargets and five active reader artifacts are unchanged. Only the target\nsemantic, provenance and audit fields move; scores, confidence, evidence,\nscope, spans, source-reading identities, export permissions and action or\nstructural flags do not.\n\nV99R4 is still a working dictionary, not verified plaintext. The immediate\nnext useful pass is to test how much concrete prose these defaults actually\nproduce in fixed already-admitted passages and to inventory the remaining\nabstract `Wertstufe`, form, charge and entry labels that still block a practical\nreading. No new page is needed for that test.\n",
+      "sha256": "8e46899197dbd175743b273f86d8f1a39e3d069d70380399b0c3ae2efb3b19d7"
+    },
+    "GDT731_impact": {
+      "path": "experiments/yolo/gdt731_v99r4_occurrence_passage_impact/REPORT.md",
+      "line": 7,
+      "line_end": 24,
+      "quote": "All 94 GDT730 surfaces reconstruct exactly at all 1,039 canonical occurrences\ninside 911 of the 4,128 cached lines. Every per-surface count matches V99R4.\nExactly 31,300 non-target token cells remain unchanged. Of the affected lines,\n351 already had zero unknown tokens in the inherited V48 register.\n\nInside the changed cells, visible alternative notation drops as follows:\n\n| Marker | V99R3 | V99R4 |\n|---|---:|---:|\n| slash | 823 | 0 |\n| standalone `oder` | 76 | 0 |\n| case-insensitive `menge` | 251 | 0 |\n\nThe mean target-cell length falls from 4.05 to 2.68 words. This is a measured\ngain in concision and audible single-default dispatch: the dictionary no\nlonger speaks two rival guesses at once. Practical informativeness is mixed;\nsome cells merely replace one analytic placeholder with a shorter one. None\nof these changes is evidence that the chosen guess is plaintext.\n",
+      "sha256": "12360c48659e13380a9492aea7d289eb6de4d4e2aa70f7e43c295f44151ef1ff"
+    },
+    "GDT731_blockers": {
+      "path": "experiments/yolo/gdt731_v99r4_occurrence_passage_impact/REPORT.md",
+      "line": 51,
+      "line_end": 77,
+      "quote": "## Reality check: this is still not polished prose\n\nThe explicit blocker census over the complete 1,586-row V99R4 dictionary finds:\n\n| Blocker | Rows | Canonical occurrences | Cells in affected passages |\n|---|---:|---:|---:|\n| audible grade frame | 175 | 2,431 | 1,836 |\n| `Wertstufe/Form/Charge/Klasse` union | 111 | 691 | 363 |\n| strict unnamed material carriers | 18 | 191 | 170 |\n| audible `Eintrag/Eintragsform` | 17 | 146 | 105 |\n| inherited unknown cells | — | — | 1,609 |\n\nThe grade-frame renderer is now the largest avoidable prose defect: phrases\nsuch as `heiß am Ende des Grades` carry a plausible ordered state but sound\nlike analysis metadata. The next pass should retain the formal tag separately\nand speak the state as `leicht`, `bis zur Mittelstufe` or `vollständig`\nheated, cooled, dried or soaked. Audible Y structure is a smaller, lower-risk\ncleanup. Truly unnamed `Material` heads need family evidence rather than a\nblanket substitution.\n\n## Limits\n\nGDT731 projects global whole defaults; it does not overwrite GDT696's locally\nbound actions, patients or relation clauses, whose three artifacts remain\nbyte-identical. The 351 complete lines are complete under the inherited V48\ncoverage definition, not historically verified translations. No new page or\ntranscription is used.\n",
+      "sha256": "12360c48659e13380a9492aea7d289eb6de4d4e2aa70f7e43c295f44151ef1ff"
+    }
+  },
+  "bounded_semantic_cards": [
+    {
+      "id": "SEM:771ceac09d297cbcf540",
+      "claim": "choraiin → three portions of flower material",
+      "claim_type": "lexical_hypothesis",
+      "status": "unconfirmed",
+      "cases": [
+        {
+          "claim_type": "lexical_hypothesis",
+          "form_or_model": "choraiin",
+          "id": "CLEAN_COMPONENT:40c30623116b5d6f1fea",
+          "limitations": "Original alternatives, negation and limits remain in the evidence quote. No software PASS or inherited working vocabulary establishes a confirmed meaning.",
+          "member_ids": [
+            "LEGACY_COMPONENT:935bc58dcda16b5cbc67"
+          ],
+          "proposed_value_or_model": "three portions of flower material",
+          "registry_context_ids": [
+            "GDT729"
+          ],
+          "review_basis": "conservative_assignment_rule_with_manual_pattern_audit",
+          "review_file": "research_registry/decisions/clean_component_review.json",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT729",
+            "section": "Why the plant-part series is not counted",
+            "semantic_column": null,
+            "source": "experiments/yolo/gdt729_v99r3_fourteen_indexed_quantity_dispatch/REPORT.md"
+          },
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+          "status": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "id": "SEM:2cc8583421c07ade5d18",
+      "claim": "cthan → leaf/above-ground drug material, value I",
+      "claim_type": "lexical_hypothesis",
+      "status": "unconfirmed",
+      "cases": [
+        {
+          "claim_type": "formal_role",
+          "form_or_model": "cthan",
+          "id": "CLEAN_COMPONENT:6f3602aaf8f81fe8bc95",
+          "limitations": "Original alternatives, negation and limits remain in the evidence quote. No software PASS or inherited working vocabulary establishes a confirmed meaning.",
+          "member_ids": [
+            "LEGACY_COMPONENT:beb12ccb4698c435e879"
+          ],
+          "proposed_value_or_model": "leaf/above-ground drug material, value I",
+          "registry_context_ids": [
+            "GDT626"
+          ],
+          "review_basis": "conservative_assignment_rule_with_manual_pattern_audit",
+          "review_file": "research_registry/decisions/clean_component_review.json",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT626",
+            "section": "Concrete plant-part readings",
+            "semantic_column": "practical reading",
+            "source": "experiments/yolo/gdt626_mobile_operation_lexicon/REPORT.md"
+          },
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+          "status": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "id": "SEM:83e4525b22a6640efc50",
+      "claim": "cthain → leaf/above-ground drug material, value II",
+      "claim_type": "lexical_hypothesis",
+      "status": "unconfirmed",
+      "cases": [
+        {
+          "claim_type": "formal_role",
+          "form_or_model": "cthain",
+          "id": "CLEAN_COMPONENT:69e359d4b245e3275b48",
+          "limitations": "Original alternatives, negation and limits remain in the evidence quote. No software PASS or inherited working vocabulary establishes a confirmed meaning.",
+          "member_ids": [
+            "LEGACY_COMPONENT:1198f3cb7de507f16e8b"
+          ],
+          "proposed_value_or_model": "leaf/above-ground drug material, value II",
+          "registry_context_ids": [
+            "GDT626"
+          ],
+          "review_basis": "conservative_assignment_rule_with_manual_pattern_audit",
+          "review_file": "research_registry/decisions/clean_component_review.json",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT626",
+            "section": "Concrete plant-part readings",
+            "semantic_column": "practical reading",
+            "source": "experiments/yolo/gdt626_mobile_operation_lexicon/REPORT.md"
+          },
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+          "status": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "id": "SEM:b24ef18e9d5ccb8d875d",
+      "claim": "cthaiin → leaf/above-ground drug material, value III",
+      "claim_type": "lexical_hypothesis",
+      "status": "unconfirmed",
+      "cases": [
+        {
+          "claim_type": "formal_role",
+          "form_or_model": "cthaiin",
+          "id": "CLEAN_COMPONENT:1ab2b16584ec58d857c0",
+          "limitations": "Original alternatives, negation and limits remain in the evidence quote. No software PASS or inherited working vocabulary establishes a confirmed meaning.",
+          "member_ids": [
+            "LEGACY_COMPONENT:81baacc5d620dd3f75a6"
+          ],
+          "proposed_value_or_model": "leaf/above-ground drug material, value III",
+          "registry_context_ids": [
+            "GDT626"
+          ],
+          "review_basis": "conservative_assignment_rule_with_manual_pattern_audit",
+          "review_file": "research_registry/decisions/clean_component_review.json",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT626",
+            "section": "Concrete plant-part readings",
+            "semantic_column": "practical reading",
+            "source": "experiments/yolo/gdt626_mobile_operation_lexicon/REPORT.md"
+          },
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+          "status": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "id": "SEM:500b79cb89555113f302",
+      "claim": "GDT812 fixes the four exact wholes dan/dain/daiin/daiiin to very little/little/much/very much as exploratory model A. Model B retains less than a standard/more than a standard/much/too much; I–IV remains a separate rival. With conjectural chol=dry, chol dain/daiin/daiiin consequently yield slightly/very/extremely dry under A, drier/very/too dry under B, or grades II/III/IV. A is prioritized for fewer unobserved standards, not measured semantic superiority. Neither the property, comparison standard nor harmful excess is independently identified; no character meaning or dictionary replacement follows. The inherited f72r visual-authentication chain through Yale1006204 is quarantined because it depicts the wrong side; separately selector-bound text remains usable without identified graphical ownership.",
+      "claim_type": "semantic_model",
+      "status": "unconfirmed",
+      "cases": [
+        {
+          "claim_type": "semantic_model",
+          "counterpart_comparison": {
+            "current_bindings": [
+              {
+                "card_basis": "5e227f440cc23ed3044b6b34db535ed4609d8348f6ed839e5e039d94d012a075",
+                "case_ids": [
+                  "REPORT_PROPOSAL:e6fd4ff30114b3f573ec"
+                ],
+                "claim": "E W daiin intensifies the already written scalar expression; with W=dain the two fixed models yield distinct readings.",
+                "effective_basis": "5606aa0c9b8cbaea3b19b0371bddafbc9b8b5dd77c22274148c44530eb198ea8",
+                "id": "SEM:ebf457fec93f4691ffd3",
+                "scope_comparison_basis": "Whole claim and cases, with exact evidence where needed; no identity decision by shared quote alone."
+              },
+              {
+                "card_basis": "b14a78bc1995988b1362197a335e9e46c0b900a16217be4ad6ff3822d87bc0bd",
+                "case_ids": [
+                  "REPORT_PROPOSAL:86bfe7f3adde4000465d"
+                ],
+                "claim": "Within the two fixed scalar models, E daiin daiin expresses sehr viel E, preserving both daiin occurrences.",
+                "effective_basis": "095248d62c98f3c14b0052adcfa660d3fe0a79adacc35ba2c15fe780de1b6c05",
+                "id": "SEM:7f06530165e60f1c3632",
+                "scope_comparison_basis": "Whole claim and cases, with exact evidence where needed; no identity decision by shared quote alone."
+              },
+              {
+                "card_basis": "cd82b9c76c3fbab31976c111a31ad870ae362e819655dff6464f7ebcece8c0e1",
+                "case_ids": [
+                  "CLEAN_GAP_EM:fixed_named_qr_content_worlds"
+                ],
+                "claim": "GDT816 compares two fixed C0 content worlds. Both set chor=leaves?, ychey=plant sap?, otedy=water source?, qokain=water? and solkeey=water vapour?. Q sets okol=botanical medicinal material? and okaiin=humorally warm?; R sets okol=whole plant? and okaiin=whose?. Both retain otchol=this?, cthar=root?, chol=humorally dry? and dan/dain/daiin/daiiin=very little/little/much/very much?. Thus the f88r sap is warm/dry under Q or belongs to the earlier written plant under R; the f77r source is a proposed R owner. The common humoral refinement was introduced after external inspection and is not confirmation by the original physically warm Q; other models and scalar alternatives remain.",
+                "effective_basis": "a551bdecacfa97a9f3902210b28d5007b002ce01235a0e86ad8bfb3d784fa394",
+                "id": "SEM:e3b4e94e531ba2af9eef",
+                "scope_comparison_basis": "Whole claim and cases, with exact evidence where needed; no identity decision by shared quote alone."
+              }
+            ],
+            "nearest_ids": [
+              "SEM:ebf457fec93f4691ffd3",
+              "SEM:7f06530165e60f1c3632",
+              "SEM:e3b4e94e531ba2af9eef"
+            ],
+            "reason": "The first two cards assert mixed/doubled expression rules, not the complete fixed four-whole alternatives and same-chol consequences. GDT816 inherits only A inside another content model; inheritance is not an addressed full A/B/ordinal comparison."
+          },
+          "id": "CLEAN_GAP_EY:fixed_scalar_family_and_same_chol_rivals",
+          "independent_new_idea": false,
+          "member_ids": [
+            "LEGACY_COMPONENT:6414665970532e6ca3b6",
+            "LEGACY_COMPONENT:92721030923dea850f16"
+          ],
+          "original_review_claim": "GDT812 fixes the four exact wholes dan/dain/daiin/daiiin to very little/little/much/very much as exploratory model A. Model B retains less than a standard/more than a standard/much/too much; I–IV remains a separate rival. With conjectural chol=dry, chol dain/daiin/daiiin consequently yield slightly/very/extremely dry under A, drier/very/too dry under B, or grades II/III/IV. A is prioritized for fewer unobserved standards, not measured semantic superiority. Neither the property, comparison standard nor harmful excess is independently identified; no character meaning or dictionary replacement follows.",
+          "original_review_evidence": [
+            {
+              "line": 147,
+              "line_end": 152,
+              "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/REPORT.md",
+              "quote": "The [family synthesis](src/FAMILY_SYNTHESIS.md) gives all four wholes one\nconsistent exploratory assignment: dan very little, dain little, daiin much,\ndaiiin very much. All four are C0. This is the next practical baseline because\nit needs fewer unobserved comparison standards than the preserved less/more/\nmuch/too-much rival. Neither beats the I–IV hypothesis on decoded meaning;\nthe global dictionary and renderer are unchanged.",
+              "sha256": "826a5fe21f0cc7e60cda633b72f4b475950a7d21c66f7be8126d8b4098f5cc32"
+            },
+            {
+              "line": 58,
+              "line_end": 65,
+              "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/WORKING_THEORY.md",
+              "quote": "For the next text work, use the explicit C0 baseline dan=very little,\ndain=little, daiin=much, daiiin=very much. This supplies a fixed whole-family\nalternative, not four confirmed meanings or a new character decoder.\nThe less/more/much/too-much rival and the old I–IV hypothesis stay visible.\nWith the same tentative chol=dry, the three written chol dain/daiin/daiiin\npairs conditionally become slightly/very/extremely dry; the comparison rival\ninstead says drier/very/too dry. No picture or source decides those values yet.\nSee src/FAMILY_SYNTHESIS.md for confidence, evidence and exact alternatives.",
+              "sha256": "566421c8069077d7d5587e578526babcff63af7d0118ad9a39c4e436e32c4d6c"
+            },
+            {
+              "line": 5,
+              "line_end": 23,
+              "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/src/FAMILY_SYNTHESIS.md",
+              "quote": "The next exploratory family default is **A: very little / little / much /\nvery much**. It costs fewer unobserved comparison standards and normative\nlimits than B. This is a practical research priority, not measured semantic\nsuperiority. The global dictionary/renderer stays unchanged.\n\n## Four fixed meanings rather than four convenient repairs\n\n| Whole | A: next exploratory default | B: preserved alternative | Confidence in exact meaning |\n|---|---|---|---|\n| dan | very little / very low magnitude | less than a comparison standard | C0: unconfirmed |\n| dain | little / low magnitude | more than a comparison standard | C0: unconfirmed |\n| daiin | much / high magnitude | much / high magnitude | C0: unconfirmed |\n| daiiin | very much / very high magnitude | too much / beyond an acceptable limit | C0: unconfirmed |\n\nEvidence for spelling families is not evidence for these exact values.\nThe original I–IV interpretation remains a separate rival, not the premise\nfrom which this table is translated. No EVA character receives a meaning.\nThe [model declaration](FAMILY_MODEL_PROPOSAL.md) records its pre-context\ndraft revision, exact scope rule, predictions and subsequent results.",
+              "sha256": "1d9e8d208cf0a97e12eb89fc6c27b09e6d02fd678437923128b9b616ef376d33"
+            },
+            {
+              "line": 44,
+              "line_end": 61,
+              "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/src/FAMILY_SYNTHESIS.md",
+              "quote": "A retrospective descriptive query preserves11 complete loci with `chol` plus\none family member in at least one reading. This is separate from the83-locus\nblock selection. It supplies the following exact-whole contrast without\nassigning a new meaning to each preceding word:\n\n| Source phrase | Representative source | If chol remains dry?, A says | B says | Ordinal rival |\n|---|---|---|---|---|\n| chol dain | f1r.23 and f81r.10 | slightly dry? | drier? | dry in grade II? |\n| chol daiin | f20v.10 and f32v.10 | very dry? | very dry? | dry in grade III? |\n| chol daiiin | f17r.11 | extremely dry? | too dry? | dry in grade IV? |\n\nThese cited pairs agree in all three readings; they are one manuscript,\nnot independent witnesses. The pair inventory is inherited evidence applied\nto new meanings, not a newly discovered paradigm. Dry itself remains C0.\nNeither material identity, actual dryness, comparison baseline nor harm is\nindependently established. Thus the table gives explicit competing content,\nnot a translated passage. There is no exact chol dan pair in this particular\nwithin-locus scan. Its absence does not refute the very-low candidate.",
+              "sha256": "1d9e8d208cf0a97e12eb89fc6c27b09e6d02fd678437923128b9b616ef376d33"
+            }
+          ],
+          "registry_context_ids": [
+            "GDT812"
+          ],
+          "review_file": "research_registry/decisions/clean_gap_review_ey_integrated.json",
+          "scope": {
+            "kind": "historical_whole_contract_recovery",
+            "limits": "Historical proposed meanings only; no new manuscript observation, decoded word, independent model success or scientific novelty established.",
+            "source_bound": true
+          },
+          "status": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "id": "SEM:817dc7f762e9602e9ce4",
+      "claim": "olaiin → Drogenstoff, Menge III",
+      "claim_type": "lexical_hypothesis",
+      "status": "unconfirmed",
+      "cases": [
+        {
+          "claim_type": "lexical_hypothesis",
+          "form_or_model": "olaiin",
+          "id": "CLEAN_COMPONENT:d6810a9d3a823fce377b",
+          "limitations": "Original alternatives, negation and limits remain in the evidence quote. No software PASS or inherited working vocabulary establishes a confirmed meaning.",
+          "member_ids": [
+            "LEGACY_COMPONENT:49c4730a28f19871ede0"
+          ],
+          "proposed_value_or_model": "Drogenstoff, Menge III",
+          "registry_context_ids": [
+            "GDT663"
+          ],
+          "review_basis": "conservative_assignment_rule_with_manual_pattern_audit",
+          "review_file": "research_registry/decisions/clean_component_review.json",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT663",
+            "section": "Die dichte Front",
+            "semantic_column": "V40-Arbeitslesung",
+            "source": "experiments/yolo/gdt663_one_hundred_two_residual_family_completion/REPORT.md"
+          },
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+          "status": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "id": "SEM:8125fd6ee046d4ae882c",
+      "claim": "oraiin → Pulver-/Samen-/Wurzel-/Holzportion III",
+      "claim_type": "lexical_hypothesis",
+      "status": "unconfirmed",
+      "cases": [
+        {
+          "claim_type": "lexical_hypothesis",
+          "form_or_model": "oraiin",
+          "id": "CLEAN_COMPONENT:ab4c0a4559e6c7e085ad",
+          "limitations": "Original alternatives, negation and limits remain in the evidence quote. No software PASS or inherited working vocabulary establishes a confirmed meaning.",
+          "member_ids": [
+            "LEGACY_COMPONENT:85c44aa4152f9a329ca9"
+          ],
+          "proposed_value_or_model": "Pulver-/Samen-/Wurzel-/Holzportion III",
+          "registry_context_ids": [
+            "GDT636"
+          ],
+          "review_basis": "conservative_assignment_rule_with_manual_pattern_audit",
+          "review_file": "research_registry/decisions/clean_component_review.json",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT636",
+            "section": "Die vollständige 19er-Tabelle",
+            "semantic_column": "konkrete Vierkopflesung",
+            "source": "experiments/yolo/gdt636_residual_four_head_semantics/REPORT.md"
+          },
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+          "status": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "id": "SEM:4d8dddcd625a92870b65",
+      "claim": "solaiin → Saatgut, Charge III",
+      "claim_type": "lexical_hypothesis",
+      "status": "unconfirmed",
+      "cases": [
+        {
+          "assessment_basis": "source_excerpt_and_semantic_column_or_manually_selected_model_review",
+          "claim_type": "lexical_hypothesis",
+          "id": "REPORT_PROPOSAL:ef9c1bff852928a24f4d",
+          "limits": "Historical claim only. Exact source evidence retains alternatives, negative results, scope restrictions and later qualifications. No inherited software PASS establishes meaning.",
+          "member_ids": [
+            "LEGACY_PROPOSAL:c5127455db3ffe323bb50261"
+          ],
+          "registry_context_ids": [
+            "GDT663"
+          ],
+          "review_file": "research_registry/decisions/clean_report_proposals_review.json",
+          "scope": {
+            "case": "ernsthafter Rivale",
+            "section": "Bewusst riskante, aber informative Ganzwörter / Form | V40 | ernsthafter Rivale",
+            "source": "experiments/yolo/gdt663_one_hundred_two_residual_family_completion/REPORT.md"
+          },
+          "source_status_not_adopted": "Status: `PASS_1105_TARGET_POSITIONS__V40_CONCRETE_RECIPE_REGISTER`",
+          "status": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "id": "SEM:16efd405fd10426d86d1",
+      "claim": "tdain → kalter Grad-/Maßwert II",
+      "claim_type": "lexical_hypothesis",
+      "status": "unconfirmed",
+      "cases": [
+        {
+          "claim_type": "lexical_hypothesis",
+          "form_or_model": "tdain",
+          "id": "CLEAN_COMPONENT:9793484e45d05f43b44f",
+          "limitations": "Original alternatives, negation and limits remain in the evidence quote. No software PASS or inherited working vocabulary establishes a confirmed meaning.",
+          "member_ids": [
+            "LEGACY_COMPONENT:ec5fee71c1d5f2dd569a"
+          ],
+          "proposed_value_or_model": "kalter Grad-/Maßwert II",
+          "registry_context_ids": [
+            "GDT661"
+          ],
+          "review_basis": "conservative_assignment_rule_with_manual_pattern_audit",
+          "review_file": "research_registry/decisions/clean_component_review.json",
+          "scope": {
+            "kind": "source_bound_working_hypothesis",
+            "parent_gdt": "GDT661",
+            "section": "Das vollständige 48-Wörter-Deck",
+            "semantic_column": "konkrete V38-Arbeitslesung",
+            "source": "experiments/yolo/gdt661_forty_eight_residual_family_completion/REPORT.md"
+          },
+          "source_polarity": "unconfirmed_historical_proposal_with_original_limits",
+          "status": "unconfirmed"
+        }
+      ]
+    }
+  ],
+  "bounded_searches": [
+    "arain",
+    "chorain",
+    "choraiin",
+    "cthan",
+    "cthain",
+    "cthaiin",
+    "dan/daiiin",
+    "olain/olaiin",
+    "oraiin",
+    "qoraiin",
+    "solaiin",
+    "tdain",
+    "GDT730",
+    "GDT731"
+  ],
+  "findings": [
+    {
+      "scope": "GDT729 exact 14-row quantity dispatch",
+      "classification": "mixed historical scope and renderer defaults",
+      "missing_or_covered": {
+        "covered_or_near": [
+          "choraiin",
+          "cthan",
+          "cthain",
+          "cthaiin",
+          "daiiin",
+          "olaiin",
+          "oraiin",
+          "solaiin",
+          "tdain"
+        ],
+        "no_exact_priority_card_in_bounded_search": [
+          "arain",
+          "chorain",
+          "olain",
+          "qoraiin"
+        ]
+      },
+      "decision": "Treat rows as source-bound unconfirmed whole-form choices. Existing cards do not make changed V99 cores or rival defaults identical; no new meaning evidence is created. The four no-hit forms are candidates for historical scope recovery only, not confirmed gaps."
+    },
+    {
+      "scope": "GDT729 plant-part series",
+      "classification": "explicit rival choice",
+      "decision": "The report rejects literal three-flower/three-leaf portion readings and retains patient + open value level. Existing SEM:771ceac09d297cbcf540 and SEM:6c99c1bb867ed1acb34a preserve the rejected/rival proposals; SEM:b24ef18e9d5ccb8d875d and related value cards preserve the selected level family. Keep rivals, do not merge."
+    },
+    {
+      "scope": "GDT730 94-row consolidation",
+      "classification": "mostly renderer/default consolidation with historical choices attached",
+      "decision": "The cphol selector hit is explicitly a lexical false positive and byte-identical. Family policies and representative defaults are working whole-form choices, but the report supplies no independent semantic evidence; exact per-form historical coverage needs source-card comparison before declaring gaps."
+    },
+    {
+      "scope": "GDT731 passage impact",
+      "classification": "renderer projection only",
+      "decision": "No new historical semantic proposition: it projects V99R4 defaults over 1,039 cached occurrences, measures slash/oder/menge removal, and explicitly leaves local action/patient/relation artifacts unchanged. Remaining grade/form/charge/material blockers are not meaning assignments."
+    }
+  ],
+  "decision": "GDT729 supplies a finite set of unconfirmed whole-form quantity/value choices, with several exact current counterparts and four bounded search candidates needing scope recovery. GDT730 adds a larger default map whose individual historical propositions remain source-specific; GDT731 is impact analysis only. No operative new cards or reviews.",
+  "limitations": [
+    "Priorities search is bounded navigation, not proof of global absence.",
+    "No raw corpus, mixed TSV, images, experiments, or external data accessed.",
+    "All statuses remain unconfirmed; no ledger/build/registry mutation."
+  ]
+}

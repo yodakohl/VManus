@@ -1,0 +1,166 @@
+{
+  "schema": "gdt729_full_quantity_model_comparison_v1",
+  "status": "READ_ONLY_MODEL_SCOPE_AUDIT",
+  "source_reports": {
+    "gdt729_table": {
+      "path": "experiments/yolo/gdt729_v99r3_fourteen_indexed_quantity_dispatch/REPORT.md",
+      "line": 5,
+      "line_end": 28,
+      "quote": "GDT729 resolves the fourteen forms explicitly named by the current route. The\nresult is five cardinal amounts, one amount inside an indexed share, seven\nopen value levels and one quality grade. None remains a slash-separated\nnon-answer, and none is put on HOLD.\n\nStatus:\n`PASS_V99R3_14_QUANTITY_READINGS__5_CARDINAL_1_INDEXED_SHARE_7_OPEN_VALUE_1_QUALITY_GRADE_0_MEASURE_0_HOLD__140_OCCURRENCES__NO_SLASH_AMBIGUITY_IN_TARGET_MEANINGS__324_ACTIVE_1248_OTHER_GLOBAL_BYTE_STABLE__SCORE_EVIDENCE_SCOPE_EXPORT_UNCHANGED__ZERO_COMPONENT_CREDIT__ALL_H0_NONE`.\n\n| surface | occurrences | V99R2 | V99R3 default | class | confidence |\n|---|---:|---|---|---|---|\n| `arain` | 4 | erste Drogenfraktion in Menge II | zwei Teile des Drogenanteils I | indexed share amount | 66 / W3 |\n| `chorain` | 2 | Blüten-/Pflanzenteil, Menge/Klasse II | Blütenteil, Wertstufe II | open value | 53 / W2 |\n| `choraiin` | 3 | Blüten-/Pflanzenteil, Menge/Klasse III | Blütenteil, Wertstufe III | open value | 58 / W2 |\n| `cthan` | 2 | Blatt-/Krautgut, Menge/Klasse I | Blattgut, Wertstufe I | open value | 53 / W2 |\n| `cthain` | 4 | Blatt-/Krautgut, Menge/Klasse II | Blattgut, Wertstufe II | open value | 58 / W2 |\n| `cthaiin` | 11 | Blatt-/Krautgut, Menge/Klasse III | Blattgut, Wertstufe III | open value | 59 / W2 |\n| `dan` | 17 | Grad-/Maßwert I | Wertstufe I | open value | 55 / W2 |\n| `daiiin` | 17 | Grad-/Maßwert IV | Wertstufe IV | open value | 55 / W2 |\n| `olain` | 11 | Drogenstoff, Menge II | zwei Portionen Drogenstoff | cardinal amount | 76 / W3 |\n| `olaiin` | 39 | Drogenstoff, Menge III | drei Portionen Drogenstoff | cardinal amount | 76 / W3 |\n| `oraiin` | 26 | Portion III | drei Portionen | cardinal amount | 68 / W3 |\n| `qoraiin` | 1 | nimm eine Drogenportion, Menge III | drei Drogenportionen nehmen | cardinal amount | 36 / W1 |\n| `solaiin` | 1 | Salz, Menge III | drei Portionen Salz | cardinal amount | 28 / W1 |\n| `tdain` | 2 | kalter Grad-/Maßwert II | Kältegrad II | quality grade | 16 / W0 |\n",
+      "sha256": "14d2d659b619c16301d3a34274f0fab9f50ca1e64469d49004d7ef667317523f"
+    },
+    "gdt729_rationale": {
+      "path": "experiments/yolo/gdt729_v99r3_fourteen_indexed_quantity_dispatch/REPORT.md",
+      "line": 34,
+      "line_end": 69,
+      "quote": "## Why the plant-part series is not counted\n\nOne independent audit proposed `choraiin = three portions of flower material`\nand `cthaiin = three portions of leaf material`. That sounds practical, but it\ncontradicts the primary head rule. GDT627 explicitly records that these\ncompounds may encode amount, strength, size, maturity or class and must not be\nsilently converted to literal organ counts. Their useful default is therefore\nthe concrete patient plus an honest level:\n\n```text\nchoraiin  Blütenteil, Wertstufe III\ncthaiin   Blattgut, Wertstufe III\n```\n\nThis is more informative than `Menge/Klasse III`, while leaving the exact axis\navailable for later local context.\n\n## Why the other quantities can be spoken\n\n`olain/olaiin` already had practical source renderers with two or three parts\nof the learned drug material. `oraiin` has a visible OR portion head, and the\nGDT693 R/OR contrast requires OR to remain the divided portion rather than an\nindexed share. `qoraiin` is a learned action whole, so its old duplicate\nwording becomes the single instruction **three drug portions take**.\n`solaiin` receives the same cardinal renderer but remains W1: `Saatgut, Charge\nIII` is retained as its strongest rival.\n\n`arain` is different. It contains the indexed share and an amount inside that\nshare, so collapsing it to `two portions` would lose information. V99R3 keeps\nboth levels as **two parts of drug share I**.\n\nFinally, GDT686 showed that the naked D series is a value ladder whose visible\nouter head chooses the axis. `dan/daiiin` therefore become `Wertstufe I/IV`.\nExact `tdain` does have a visible cold-quality head, so `Kältegrad II` is the\nbest working default—still at its inherited W0 score because only two weak\noccurrences support it.\n",
+      "sha256": "14d2d659b619c16301d3a34274f0fab9f50ca1e64469d49004d7ef667317523f"
+    },
+    "gdt627_head_axis": {
+      "path": "experiments/yolo/gdt627_value_head_role_atlas/REPORT.md",
+      "line": 5,
+      "line_end": 17,
+      "quote": "GDT626 found a bounded four-cell ending but could only call it “value I–IV.”\nGDT627 supplies the missing head semantics. The same written slot is reused\nproductively:\n\n```text\nquality head + a + value  = quality in degree I/II/III/IV\nd            + a + value  = free measure or grade I/II/III/IV\n```\n\nIn a plant-part list, the practical default for the second construction is a\nlocal amount or dose. Thus `daiin` no longer means a generic operation and no\nlonger remains the opaque “d-value III.” It reads **three local measures or\nportions**, with the kind of unit still open.\n",
+      "sha256": "db6df328d4bdf7b0595cff5573078deb8a6dbc67e4ffb31f47d94519728d96ba"
+    },
+    "gdt627_cth_chor_limits": {
+      "path": "experiments/yolo/gdt627_value_head_role_atlas/REPORT.md",
+      "line": 127,
+      "line_end": 160,
+      "quote": "## Attachment in plant-part lists\n\nThere are 46 immediate contacts between `d` values and inherited part terms:\n23 part→`d`, 21 `d`→part, and two part→`d`→part. Forty-one use value III and\nfive value II. Ten wider contexts bracket `d` between nearby part terms.\n\nThe strongest local example is f45v.2:\n\n```text\nokol | chor | daiin | cthy | okchol ...\n       part    d+III   part\n\nBlüten-/Pflanzenteil: drei Portionen/Maße; Blattgut ...\n```\n\nThe measure binds left by default and the next part starts a new entry. The\ndrawing has three flowering shoots, so “three pictured shoots” remains an\ninteresting local alternative. It does not generalize. On f15r the identical\n`cthy` is followed once by `daiin` and once by `dain`; f15v presents the same\nIII contact beside four conspicuous leaves; f2v carries D-IV and D-III in one\nline. The values therefore behave more like local quantities or grades than a\npage-wide count of pictured organs.\n\n`cth/chor + a + value` remains less resolved than free `d`:\n\n```text\ncthaiin   Blatt-/oberirdisches Drogengut, Menge/Grad/Klasse III\nchorain   Blüten-/Pflanzenteil, Menge/Grad/Klasse II\nchoraiin  Blüten-/Pflanzenteil, Menge/Grad/Klasse III\n```\n\nThose compounds may encode amount, pharmacological strength, size, maturity,\nor another material class. They are not silently converted into literal organ\ncounts.\n",
+      "sha256": "db6df328d4bdf7b0595cff5573078deb8a6dbc67e4ffb31f47d94519728d96ba"
+    },
+    "gdt686_head_axis": {
+      "path": "experiments/yolo/gdt686_v59_dain_daiin_qodaiin_value_head_dispatch/REPORT.md",
+      "line": 7,
+      "line_end": 27,
+      "quote": "Die alte Karte `Grad-/Maßwert` war keine Übersetzung, sondern zwei\nunentschiedene Möglichkeiten in einem Feld. V59 trennt jetzt Form und Achse:\n\n```text\ndain     = d + Wertstufe II\ndaiin    = d + Wertstufe III\nqodaiin  = qod + Wertstufe III\n```\n\nDanach entscheidet der sichtbare Satzkopf:\n\n```text\nQualitätskopf + d-Wert   -> Qualität im Grad II/III\nStoff-/Teilkopf + d-Wert -> zwei/drei lokale Portionen oder Maße\nkein typisierter Kopf    -> Wertstufe bleibt stabil, Sachachse lokal offen\n```\n\nFür den globalen Renderer gibt es deshalb kein universelles `Grad III` und\nkein universelles `drei Portionen`. Für die elf Stellen unseres aktuellen\nReaders wählt V59 dagegen bewusst je einen konkreten lokalen Default: vier\nGrade und sieben Mengen.\n",
+      "sha256": "67bafd8836bb5fbce962d8d89be495aaae61a075179cd7586dd28918210a0c03"
+    },
+    "gdt686_context_axis": {
+      "path": "experiments/yolo/gdt686_v59_dain_daiin_qodaiin_value_head_dispatch/REPORT.md",
+      "line": 57,
+      "line_end": 84,
+      "quote": "## Wo die Achse tatsächlich sichtbar ist\n\nNach exakter Überlappungsbereinigung zerfallen die 914 nackten d-Ziele so:\n\n| Kontext | Positionen | Arbeitsachse |\n|---|---:|---|\n| kernhaltiger OL-Qualitätskopf | 75 | Grad |\n| sichtbarer OR-/Teil-/Materialkopf | 53 | lokale Menge/Portion |\n| nackter OL-Träger | 11 | Achse offen |\n| äußerer Kopf nicht unmittelbar typisiert | 775 | Achse lokal bestimmen |\n\nDie kleinsten Discriminatoren sind bereits konkrete Klauseln:\n\n```text\nchol daiin cthy\nBlattgut: trocken, Grad III.\n\nchor daiin cthy\nPflanzenteil: drei lokale Portionen/Maße; danach Blattgut.\n\nchor qotol daiin\nPflanzenteil: kalt, Grad III.\n```\n\nDer Qualitätskopf unmittelbar vor `daiin` schlägt also den weiter außen\nstehenden Teilkopf. Umgekehrt darf ein sichtbarer Teil- oder Fraktionskopf\neine Mengenlesung tragen, wenn kein konkurrierender Qualitätskopf dazwischen\nsteht.\n",
+      "sha256": "67bafd8836bb5fbce962d8d89be495aaae61a075179cd7586dd28918210a0c03"
+    }
+  },
+  "current_cards": [
+    {
+      "id": "SEM:771ceac09d297cbcf540",
+      "claim": "choraiin → three portions of flower material",
+      "status": "unconfirmed",
+      "claim_type": "lexical_hypothesis"
+    },
+    {
+      "id": "SEM:2cc8583421c07ade5d18",
+      "claim": "cthan → leaf/above-ground drug material, value I",
+      "status": "unconfirmed",
+      "claim_type": "lexical_hypothesis"
+    },
+    {
+      "id": "SEM:83e4525b22a6640efc50",
+      "claim": "cthain → leaf/above-ground drug material, value II",
+      "status": "unconfirmed",
+      "claim_type": "lexical_hypothesis"
+    },
+    {
+      "id": "SEM:b24ef18e9d5ccb8d875d",
+      "claim": "cthaiin → leaf/above-ground drug material, value III",
+      "status": "unconfirmed",
+      "claim_type": "lexical_hypothesis"
+    },
+    {
+      "id": "SEM:500b79cb89555113f302",
+      "claim": "GDT812 fixes the four exact wholes dan/dain/daiin/daiiin to very little/little/much/very much as exploratory model A. Model B retains less than a standard/more than a standard/much/too much; I–IV remains a separate rival. With conjectural chol=dry, chol dain/daiin/daiiin consequently yield slightly/very/extremely dry under A, drier/very/too dry under B, or grades II/III/IV. A is prioritized for fewer unobserved standards, not measured semantic superiority. Neither the property, comparison standard nor harmful excess is independently identified; no character meaning or dictionary replacement follows. The inherited f72r visual-authentication chain through Yale1006204 is quarantined because it depicts the wrong side; separately selector-bound text remains usable without identified graphical ownership.",
+      "status": "unconfirmed",
+      "claim_type": "semantic_model"
+    },
+    {
+      "id": "SEM:817dc7f762e9602e9ce4",
+      "claim": "olaiin → Drogenstoff, Menge III",
+      "status": "unconfirmed",
+      "claim_type": "lexical_hypothesis"
+    },
+    {
+      "id": "SEM:8125fd6ee046d4ae882c",
+      "claim": "oraiin → Pulver-/Samen-/Wurzel-/Holzportion III",
+      "status": "unconfirmed",
+      "claim_type": "lexical_hypothesis"
+    },
+    {
+      "id": "SEM:4d8dddcd625a92870b65",
+      "claim": "solaiin → Saatgut, Charge III",
+      "status": "unconfirmed",
+      "claim_type": "lexical_hypothesis"
+    },
+    {
+      "id": "SEM:16efd405fd10426d86d1",
+      "claim": "tdain → kalter Grad-/Maßwert II",
+      "status": "unconfirmed",
+      "claim_type": "lexical_hypothesis"
+    }
+  ],
+  "model_comparison": [
+    {
+      "model": "GDT627 quality-head/value-slot and d-measure-head atlas",
+      "current_ids": [
+        "SEM:500b79cb89555113f302"
+      ],
+      "entails": "dan/daiiin as value ladder; cth/chor + a + value remains axis-open; local d can be portion/measure",
+      "does_not_entail": "arain indexed-share amount, olain/olaiin/oraiin/qoraiin/solaiin cardinal defaults, or tdain cold-quality choice",
+      "decision": "GDT729’s 14-row policy is not reducible to one inherited model; retain form-specific historical assignments and rivals."
+    },
+    {
+      "model": "GDT686 visible-head axis dispatch",
+      "current_ids": [
+        "SEM:500b79cb89555113f302"
+      ],
+      "entails": "quality head→grade, material/part head→local portion/measure, untyped head→open value; qodaiin remains head-open",
+      "does_not_entail": "the exact 14 GDT729 assignments, especially arain nested share, qoraiin action whole, solaiin salt/seed rival, or tdain cold head",
+      "decision": "GDT686 supplies a compatible constraint, not complete coverage."
+    },
+    {
+      "model": "GDT627 cth/chor caution",
+      "current_ids": [
+        "SEM:771ceac09d297cbcf540",
+        "SEM:b24ef18e9d5ccb8d875d"
+      ],
+      "entails": "do not silently turn choraiin/cthaiin into literal organ counts; preserve open level",
+      "decision": "The existing literal three-portion cards are retained rivals, while GDT729’s selected open-value defaults remain distinct."
+    }
+  ],
+  "form_scope": [
+    {
+      "forms": [
+        "arain",
+        "chorain",
+        "olain",
+        "qoraiin"
+      ],
+      "bounded_exact_current_card": "none found in priorities/form searches",
+      "decision": "historical scope candidates only; no global absence claim"
+    },
+    {
+      "forms": [
+        "choraiin",
+        "cthan",
+        "cthain",
+        "cthaiin",
+        "daiiin",
+        "olaiin",
+        "oraiin",
+        "solaiin",
+        "tdain"
+      ],
+      "bounded_current_cards": "present as exact or close cards",
+      "decision": "GDT729 defaults still require explicit source-scope comparison; existing card presence does not prove identical later policy."
+    }
+  ],
+  "decision": "Neither GDT627 nor GDT686 entails all fourteen GDT729 defaults. They constrain head-axis interpretation and preserve open alternatives. GDT729 remains a set of unconfirmed form-specific whole readings; no new semantic evidence or experiment follows.",
+  "limitations": [
+    "Priorities/search is bounded navigation, not proof of global absence.",
+    "No raw corpus, mixed TSV, images, experiments, or external sources accessed.",
+    "No operative registry, ledger, review, or build mutation."
+  ]
+}
