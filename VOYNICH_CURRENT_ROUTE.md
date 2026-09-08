@@ -10,7 +10,10 @@ Prior10h:85net recovered variants,0new manuscript experiment/image/meaning.
 GDT872complete:198rawanchors;1930opportunities178hits;all3diagnostic274/31.
 Distalwithin51/529forward vs66/646backward;nooverallforwarddensityexcess.
 CHcomposition41/51vs36/66onlyprimary;strictdiagnosticdoesnotrepeatdirection.
-No persistentstate/reset/meaning;possibleposition-onlycontrast underreview.
+No persistentstate/reset/meaning.872published42881456.
+873registered:one sameparagraph positionalcontrol withfixedlags3–8 andexact
+offsetmasks;no widenedinventory. Budget08:25UTC;no controlchain.
+85raw/84unique;51method;33pending(two new source-grounded unreviewed proposals).
 734twenty-whole mappings remain unassessed;no automatic cleanup cycle.
 
 GDT858:855/963primary808folds retained opposite-face training;169faces/90leaves.

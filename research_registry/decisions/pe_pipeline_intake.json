@@ -1,0 +1,47 @@
+{
+  "schema": "pe_pipeline_intake_v1",
+  "status": "added_raw_unreviewed",
+  "source": {
+    "path": "experiments/yolo/gdt872_whole_pair_directed_profile/REPORT.md",
+    "line": 25,
+    "line_end": 33,
+    "sha256": "26bb7da2a8e48ea659819f3c40805a792f6f626ab9a55de8cb212e205ab7d04c",
+    "quote": "The response-side composition is worth preserving separately: in distal within-\nparagraph ZL hits,41/51 forward responses are CH-side versus36/66 backward.\nForward CH-side responses occur after both CH anchors (25/31) and SH anchors\n(16/20). Thus pooled same-side concordance is misleading as a state-copying\ninterpretation. The strict diagnostic has7/9 CH-side forward and5/6 backward;\nit does not reproduce the primary directional composition contrast. Its small,\nselectively retained sample does not prove the primary contrast false either.\nAll nine response pairs contribute distal hits; the counts are retained rather\nthan selecting a winning pair after inspection."
+  },
+  "screened_duplicates": [
+    "GDT872",
+    "IDEA000079",
+    "IDEA000010",
+    "GDT762",
+    "GDT760"
+  ],
+  "proposals": [
+    {
+      "file": "pn_common_procedure_attractor.json",
+      "sha256": "3c06dcbc039d59078dad4bf85c6f0178902cbce273bb7b622efe614109c1a27e",
+      "status": "prepared_for_add"
+    },
+    {
+      "file": "pn_pair_inventory_gating.json",
+      "sha256": "dfd277c04b1618ae1e79f23a227c50158cd99ad93099edc450373b63094ea9ee",
+      "status": "prepared_for_add"
+    }
+  ],
+  "added_ids": [
+    {
+      "id": "IDEA000084",
+      "title": "A common procedure response follows either operand-side anchor",
+      "file": "research_registry/proposals/pn_common_procedure_attractor.json",
+      "input_sha256": "3c06dcbc039d59078dad4bf85c6f0178902cbce273bb7b622efe614109c1a27e",
+      "design_status": "UNTESTED_PROPOSAL"
+    },
+    {
+      "id": "IDEA000085",
+      "title": "Anchor pair identity gates a downstream response inventory",
+      "file": "research_registry/proposals/pn_pair_inventory_gating.json",
+      "input_sha256": "dfd277c04b1618ae1e79f23a227c50158cd99ad93099edc450373b63094ea9ee",
+      "design_status": "UNTESTED_PROPOSAL"
+    }
+  ],
+  "note": "No semantic readiness or source meaning binding claimed; GDT873 position control remains separate."
+}

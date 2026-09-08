@@ -1,0 +1,106 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "One retrospective descriptive position comparison; no causal setting, semantic relation, significance or translation claim.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt873_matched_paragraph_position_profile/src/run.py",
+    "validate": "python3 experiments/yolo/gdt873_matched_paragraph_position_profile/src/validate.py"
+  },
+  "created": "2026-09-08",
+  "dependencies": [
+    "GDT872",
+    "GDT751",
+    "GDT807"
+  ],
+  "experiment_id": "GDT873",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt872_whole_pair_directed_profile/REPORT.md",
+      "role": "protocol, executable implementation or guarded-source provenance",
+      "sha256": "26bb7da2a8e48ea659819f3c40805a792f6f626ab9a55de8cb212e205ab7d04c"
+    },
+    {
+      "path": "experiments/yolo/gdt872_whole_pair_directed_profile/artifacts/GDT872_QUERY_RECEIPTS.json",
+      "role": "protocol, executable implementation or guarded-source provenance",
+      "sha256": "e31b817ca895cbb858fb254dca9262cbcbb1caae5ba9efe51896d9a00bca249b"
+    },
+    {
+      "path": "experiments/yolo/gdt872_whole_pair_directed_profile/src/SPEC.json",
+      "role": "protocol, executable implementation or guarded-source provenance",
+      "sha256": "f3bf15db88a5aae09d15a3b46f492b007ba013a7d253e36328c91ae093d55c31"
+    },
+    {
+      "path": "experiments/yolo/gdt872_whole_pair_directed_profile/src/run.py",
+      "role": "protocol, executable implementation or guarded-source provenance",
+      "sha256": "8baa195ecb3829588b76ab546f90b46637d77732236f06412b2b9dde0b676fa9"
+    },
+    {
+      "path": "experiments/yolo/gdt872_whole_pair_directed_profile/src/validate.py",
+      "role": "protocol, executable implementation or guarded-source provenance",
+      "sha256": "c1cf490bc44727f94763397f44d87ee4bac8e90f38610b61b0b038481f9f495c"
+    },
+    {
+      "path": "experiments/yolo/gdt873_matched_paragraph_position_profile/.gitignore",
+      "role": "protocol, executable implementation or guarded-source provenance",
+      "sha256": "7c97da9d69b3c1ad1cc201ed8637dd519b10f98047b1eaa697fb2be7bd0f351f"
+    },
+    {
+      "path": "experiments/yolo/gdt873_matched_paragraph_position_profile/METHOD.md",
+      "role": "protocol, executable implementation or guarded-source provenance",
+      "sha256": "6fc2865b080e938fa392d1329aa0050bb3916092ad288510ef8ed762eefd41ec"
+    },
+    {
+      "path": "experiments/yolo/gdt873_matched_paragraph_position_profile/PREREGISTRATION.md",
+      "role": "protocol, executable implementation or guarded-source provenance",
+      "sha256": "f6bd25884cd7f1ad0aa3ac0adb713be82910be060f3fd00d4aa1eea3da559b22"
+    },
+    {
+      "path": "experiments/yolo/gdt873_matched_paragraph_position_profile/README.md",
+      "role": "protocol, executable implementation or guarded-source provenance",
+      "sha256": "a9e6eb1b2a173d48eec63923ac92e941105496f68b0b1be03780105f5ec24254"
+    },
+    {
+      "path": "experiments/yolo/gdt873_matched_paragraph_position_profile/src/PREREG_LOCK.json",
+      "role": "protocol, executable implementation or guarded-source provenance",
+      "sha256": "0f82c746c4ec087371a87587de8edc4e85cfe34c6b33a9b5efe91810ea425db9"
+    },
+    {
+      "path": "experiments/yolo/gdt873_matched_paragraph_position_profile/src/SPEC.json",
+      "role": "protocol, executable implementation or guarded-source provenance",
+      "sha256": "86a6e02bd0974268c228cc9a997c3bdca48b27cc730f4281aa8f40f104977648"
+    },
+    {
+      "path": "experiments/yolo/gdt873_matched_paragraph_position_profile/src/run.py",
+      "role": "protocol, executable implementation or guarded-source provenance",
+      "sha256": "17292c67aaaecff58ae91124580b7d0db76f9fb6e3047e9b177ec9dcad7ed5e6"
+    },
+    {
+      "path": "experiments/yolo/gdt873_matched_paragraph_position_profile/src/validate.py",
+      "role": "protocol, executable implementation or guarded-source provenance",
+      "sha256": "4e2f5ae430ecee7ef5837f5454274610d76a8965ef58133477ba84576040eda7"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt873_matched_paragraph_position_profile/artifacts/README.md",
+      "role": "compact descriptive result",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    }
+  ],
+  "question": "Do same-paragraph nonanchor positions with exact opportunity masks reproduce the GDT872 directional CH/SH response-density profile?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "matched_paragraph_position_profile",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Matched within-paragraph position specificity",
+  "updated": "2026-09-08",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

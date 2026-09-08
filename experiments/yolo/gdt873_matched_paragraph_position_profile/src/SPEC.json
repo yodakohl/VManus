@@ -1,0 +1,136 @@
+{
+  "experiment_id": "GDT873",
+  "purpose": "Descriptive discovery; no semantic test or relation score",
+  "allowlist": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+  "reader": "experiments/yolo/gdt807_target_masked_paragraph_exchange_codebook/src/run.py",
+  "atlas": {
+    "columns": [
+      "source_group_id",
+      "edition",
+      "page",
+      "locus",
+      "source_group_index",
+      "source_group_count",
+      "left_separator",
+      "right_separator",
+      "ivtff_group_raw",
+      "clean_ascii_fragments",
+      "clean_ascii_fragment_count",
+      "legacy_surface_positions_1based",
+      "legacy_mapping_status",
+      "source_row_index"
+    ],
+    "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+    "selector": "page"
+  },
+  "anchors": [
+    {
+      "pair_id": "SP10",
+      "CH": "cheor",
+      "SH": "sheor"
+    },
+    {
+      "pair_id": "SP11",
+      "CH": "cheo",
+      "SH": "sheo"
+    }
+  ],
+  "responses": [
+    {
+      "pair_id": "SP01",
+      "CH": "cho",
+      "SH": "sho"
+    },
+    {
+      "pair_id": "SP02",
+      "CH": "chy",
+      "SH": "shy"
+    },
+    {
+      "pair_id": "SP03",
+      "CH": "chey",
+      "SH": "shey"
+    },
+    {
+      "pair_id": "SP04",
+      "CH": "cheey",
+      "SH": "sheey"
+    },
+    {
+      "pair_id": "SP05",
+      "CH": "chdy",
+      "SH": "shdy"
+    },
+    {
+      "pair_id": "SP06",
+      "CH": "chedy",
+      "SH": "shedy"
+    },
+    {
+      "pair_id": "SP07",
+      "CH": "cheedy",
+      "SH": "sheedy"
+    },
+    {
+      "pair_id": "SP08",
+      "CH": "chol",
+      "SH": "shol"
+    },
+    {
+      "pair_id": "SP09",
+      "CH": "cheol",
+      "SH": "sheol"
+    }
+  ],
+  "lags": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "lag_bands": {
+    "NEAR": [
+      1,
+      2
+    ],
+    "DISTAL": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "primary_edition": "ZL3b",
+  "diagnostic_editions": [
+    "ZL3b",
+    "IT2a",
+    "RF1b"
+  ],
+  "forbidden": [
+    "f84",
+    "f84r"
+  ],
+  "boundary_exclusions": [
+    "UNCERTAIN_SMALL_SPACE",
+    "DRAWING_"
+  ],
+  "no_cross_page": true,
+  "no_inferred_translation": true,
+  "rate_definition": {
+    "micro": "hits / eligible signed-lag opportunities",
+    "macro_anchor": "mean of per-anchor hits/opportunities, restricted to anchors with opportunities in cell",
+    "conditional_concordance": "same-side hits / all response hits; null if no hits",
+    "pooled_denominator": "unique anchor plus signed lag; not multiplied by response pairs"
+  },
+  "separator_scope": "traversed gaps only, not outer endpoint boundaries",
+  "raw_line_order": "primary edition source_row_index, then source_group_index; extra atlas loci remain barriers",
+  "source_receipt": "experiments/yolo/gdt872_whole_pair_directed_profile/artifacts/GDT872_QUERY_RECEIPTS.json",
+  "source_receipt_sha256": "e31b817ca895cbb858fb254dca9262cbcbb1caae5ba9efe51896d9a00bca249b",
+  "minimum_matched_anchors": 25,
+  "minimum_matched_folios": 10,
+  "minimum_matched_fraction": 0.5
+}
