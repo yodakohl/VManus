@@ -1,0 +1,30 @@
+{
+  "schema": "bounded_source_proposal_screen_v1",
+  "batch": "kd",
+  "status": "NO_NEW_CANDIDATE",
+  "screened": [
+    {
+      "source":"GDT766",
+      "observation":"ofch forms are paragraph-start-line enriched but almost never true paragraph openers; chor/pchor positions separate strongly.",
+      "decision":"reject_as_existing_or_report_conclusion",
+      "reason":"The exact role-switch and two-level boundary distinction is already the GDT766 tested mechanism and overlaps IDEA000020/IDEA000035-style opener/diagram role hypotheses. Recasting the report's own conclusion would not supply a new falsifier.",
+      "report":"experiments/yolo/gdt766_ofch_chor_role_switch_prediction/REPORT.md",
+      "source_sha256":"d0d18c1673a524356c8e082f6aad351f734d327912b6da26ce02d6bccdf7709e"
+    },
+    {
+      "source":"GDT767/GDT768",
+      "observation":"target-excluding cofields and complete multi-anchor lines leave substance/form rivals unresolved.",
+      "decision":"reject_as_existing_route",
+      "reason":"These are already the immediate successor cofield and role-tournament routes; a new proposal would restate unresolved rival selection without a new parameter-free discriminator."
+    },
+    {
+      "source":"GDT419",
+      "observation":"cross-register one-atom paradigms.",
+      "decision":"excluded_by_task_scope",
+      "reason":"The current round excludes grade/composition-family mechanisms already represented in the KB/JX raw pool."
+    }
+  ],
+  "conclusion":"No distinct source-starting kd proposal survives the bounded screen. Zero is retained rather than recycling a report conclusion or adding a generic context profile.",
+  "registry_mutation":false,
+  "scientific_status":"No proposal, review, ledger edit, refresh, build, or experiment."
+}
