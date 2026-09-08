@@ -1,0 +1,134 @@
+{
+  "status": "ROOT_EFFECTIVE_DESIGN_AND_PRIMARY_REVIEW",
+  "items": [
+    {
+      "id": "IDEA000076",
+      "design_before": {
+        "contrast": "ratio-preserving scaling versus fixed indexed amounts",
+        "countermodel": "The same surface alternation could reflect editorial batch conventions, lexicalized forms, or analyst counting choices without either proposed semantic rule.",
+        "endpoint_status": "availability_unknown",
+        "falsifier": "A matched count change preserves absolute amounts while the source explicitly marks a scaled batch, or ratios vary without a batch/count change.",
+        "mechanism": "proportional recipe scaling rule",
+        "prediction": "When product count changes within the same recipe template, ingredient ratios should remain constant under the scaling model; the indexed model predicts stable absolute amounts and changing ratios.",
+        "principal_risk": "Independent product counts and ingredient amounts are unavailable. Near IDEA000049 quantity calibration and old recipe quantity families, but the contrast is transformation across batch size, not unit interpretation or conservation.",
+        "unit": "matched recipe records with an explicit product count and at least two ingredient amounts"
+      },
+      "fingerprint_before": "ef51c5558e3e00ddc2e207856f0fbc0ab10400d2d3656f06919f48a917471dfc",
+      "reason": "The declared ingredient-ratio endpoint does not distinguish the named models: both (a,b) and (ka,kb) have ratio a/b. Fixed absolute amounts do not imply changing ingredient ratios when product count changes. No named matched recipe/count/amount observations are supplied. This is a logical design defect plus an absent concrete observation, not an empirical rejection of proportional scaling.",
+      "completion": "Replace the ratio-only discriminator with a predeclared absolute-amount scaling factor or amount-per-product comparison using an actual product-count change and comparable independently read amounts. A known historical unit or ingredient name is unnecessary if comparability and scale are independently established. Preserve the original design in history; a new design must explicitly correct its rival prediction.",
+      "blocker_class": "invalid_test"
+    },
+    {
+      "id": "IDEA000077",
+      "design_before": {
+        "contrast": "participant cardinality agreement versus lexical category marking",
+        "countermodel": "The same surface alternation could reflect editorial batch conventions, lexicalized forms, or analyst counting choices without either proposed semantic rule.",
+        "endpoint_status": "availability_unknown",
+        "falsifier": "The form stays fixed when the selected count changes, or switches when only an unselected set changes under matched scope.",
+        "mechanism": "participant-set number agreement",
+        "prediction": "Holding lexical category and record type fixed, changing the selected participant count from one to multiple should switch the form; changing an unselected neighboring set should not.",
+        "principal_risk": "Independent participant counts and number meanings are unavailable. Near IDEA000064 argument agreement and historical flower-count material, but targets cardinality of a designated set rather than a modifier’s argument class or a lexical category.",
+        "unit": "records with a counted participant set and a candidate singular/plural form"
+      },
+      "fingerprint_before": "3786b4f90ad5e202fa6e23a3538786dda2e14926531215ef0cb4f0267bc23924",
+      "reason": "No candidate form pair, independently owned selected participant set or matched unselected set is nominated. PHF001 has nine owned flower-count labels with only two plural folios, and its17 stable complete literals have no repeats across24clear cells. That observation does not supply the fixed lexical-category, selected-versus-neighbor contrast specified here. Number sensitivity remains a possible structural subquestion, not a tested semantic agreement rule.",
+      "completion": "Nominate an actual form alternation and independently owned selected/unselected count comparison, freeze a restricted lexical-category rival and the observation that changes the decision, and check applicable held capacity. This does not require decoded participant nouns. It does not reopen the closed PHF001 exact-recurrence route through looser proximity/morphology or treating alternate readings as extra data.",
+      "blocker_class": "missing_design"
+    },
+    {
+      "id": "IDEA000079",
+      "design_before": {
+        "contrast": "idempotent transformation versus cumulative iteration",
+        "countermodel": "A context-conditioned lexical convention or editorial repetition could generate the same surface pattern without the proposed operation rule.",
+        "endpoint_status": "availability_unknown",
+        "falsifier": "A repeated operation changes the state again under the same input and no intervening operation, or an intervening change is required to produce the observed difference.",
+        "mechanism": "idempotent operation rule",
+        "prediction": "When the same operation is repeated without an intervening state change, the second output should equal the first; a cumulative operation should expose a second increment or distinct result marker.",
+        "principal_risk": "Independent operation identity and state measurements are missing. Near quantity scaling and identity persistence, but the discriminator is repeat application under unchanged input.",
+        "unit": "paired records or repeated operation frames with the same input/state"
+      },
+      "fingerprint_before": "4293fc927c4e0dbde0f32623073e5f28b53403eb9d1eaf790ac4aa392ca89a6a",
+      "reason": "No named operation with a tracked before/after state response and a matched once-versus-twice comparison is supplied. GDT500 edits15 composed German cells; GDT574 extends two-slot voice to43 adjacent pairs,42CH+CH and1OK+OK, while62interrupted cases stay ordered. These are existing slot-preservation observations, not output-state measurements. Serial idempotence requires f(f(s)) versus f(s); a repeated application from independently reset input is not that contrast.",
+      "completion": "Specify operation identity, tracked participant, same starting state for once/twice conditions and a state-response resolution sufficient to distinguish restricted non-saturating additive and idempotent rivals. The second serial input is the first output; no unrelated intervening operation is allowed. Existing repeated slots may locate candidates but cannot stand in for the state response. A structural operation test can be stated without translating the full passage.",
+      "blocker_class": "missing_design"
+    }
+  ],
+  "peer": {
+    "path": "research_registry/decisions/mp_candidate_readiness_audit.json",
+    "sha256": "1722c5b70c0803e910c86d3a445cf433833e1615abbfc41991a38aaa0f6c2355"
+  },
+  "evidence": [
+    {
+      "path": "experiments/semantic_assumptions/results/phf001_pharma_flower_recurrence_report.md",
+      "line": 3,
+      "line_end": 9,
+      "quote": "Status: **STOP — NO TRANSFERABLE FLOWER COUNT AND ZERO EXACT RECURRENCE**.\n\nThe human catalogue contains **25** explicit singular/plural flower descriptions: **13 singular** and **12 plural**. **18** have a primary current-locus map. Reusing the frozen ownership audit and reviewing five preselected official-image records yields **9** clear owned flower-count labels: **7 singular** on f88, f89, f100, f102 and **2 plural** on f89, f100. Only f89, f100 mix states. The plural state remains confined to two folios.\n\nAcross all **24** clear owned pharmaceutical cells, **17** have one identical complete compact literal surface in ZL3b, IT2a, and RF1b. **None repeats**, within or across folios. A development diagnostic exposed those surfaces after ownership selection, so this is an exploratory zero-recurrence result, not an analyst-blind target test.\n\nNo formal root/role or image recognizer was used. This supplies no FLOWER/count word, plant name, sound, language, cipher, plaintext, meaning, or translation.",
+      "sha256": "e889d132bd9a63104e39197490cc2c855e6b00ef99d4feb940bddf3d972ee476"
+    },
+    {
+      "path": "experiments/yolo/gdt500_repeated_action_fluency_matrix/REPORT.md",
+      "line": 7,
+      "line_end": 18,
+      "quote": "Das aktuelle deutsche Arbeitsdeck enthält wieder alle 495 Zellen in einer\nAusgabe. Genau fünfzehn komponierte Zellen ändern nur ihre redaktionelle\nOberfläche. Die mechanische Form „Nimm X und nimm X“ oder „Bearbeite X und\nbearbeite X“ wird als zweimalige Handlung ausgesprochen:\n\n- `CH+CH`: „Nimm das zuvor Genannte zweimal.“;\n- `CHD+CHD+Y`: „Bearbeite den Pflanzenposten zweimal.“;\n- `CH+CH+E+Y`: „Nimm den Drogenposten zweimal; auf Grad I.“.\n\nIm celestialen Register bleibt das trennbare Verb natürlich geordnet:\n„Nimm den Positionsposten zweimal auf.“ Jede der drei Regeln greift genau\nfünfmal, einmal pro Register.",
+      "sha256": "90efbc965fdbfb1a0a71f522575c4f494cba0a11192064b1a6668d67d7bdd331"
+    },
+    {
+      "path": "experiments/yolo/gdt500_repeated_action_fluency_matrix/REPORT.md",
+      "line": 29,
+      "line_end": 43,
+      "quote": "Die fünfzehn Änderungen sind deshalb kein neues Wörterbuch. `zweimal` ist die\nknappe deutsche Realisierung der bereits vorhandenen zwei identischen\nHandlungsslots.\n\n## Rückführung\n\nJede geänderte Zeile bewahrt die erste Handlungsklausel, die zweite\nHandlungsklausel und ihren Satz- oder Gradabschluss separat. Aus diesen drei\nFeldern wird die alte Phrase exakt rekonstruiert. Das gelingt 15/15 Mal; auch\nbeide technischen Handlungsslots bleiben 15/15 Mal sichtbar. Die neue\nLesefassung kann daher nicht versehentlich aus `CH+CH` nur ein einzelnes CH\nmachen.\n\nDer unabhängige Validator besteht 2.521 von 2.521 Prüfungen. Es wurde keine\nManuskriptseite geöffnet und keine Oberfläche oder Vorkunft vorhergesagt.",
+      "sha256": "90efbc965fdbfb1a0a71f522575c4f494cba0a11192064b1a6668d67d7bdd331"
+    },
+    {
+      "path": "experiments/yolo/gdt574_adjacent_action_count_voice/REPORT.md",
+      "line": 7,
+      "line_end": 13,
+      "quote": "\nIn der vollständigen Ausgabe wiederholt sich in 105 Karten mindestens eine\nHandlungswurzel. Diese Zahl allein reicht nicht für `zweimal`. Nur 43 Karten\nenthalten zwei identische Handlungsatome unmittelbar nebeneinander im\ngeschriebenen Rezept. Die anderen 62 sind unterbrochene Folgen wie CH–P–CH,\nK–CH–K oder längere ABA/ABCA-Folgen. Sie bleiben vollständig ausgeschrieben,\nweil eine Zählform ihre Reihenfolge zerstören würde.",
+      "sha256": "ff51ab2fcc03c69e01d3b86b6ce478ea99b7fa0e0483ba7ff35a7310fa57f690"
+    },
+    {
+      "path": "experiments/yolo/gdt574_adjacent_action_count_voice/REPORT.md",
+      "line": 24,
+      "line_end": 35,
+      "quote": "Die 43 echten Nachbarpaare bestehen aus 42 CH+CH-Fällen und einem OK+OK-Fall.\nSie benötigen nur fünf bereits vorbereitete Besitzerstimmen:\n\n| Karte | Form | Fälle |\n|---|---|---:|\n| C01 | `Entnimm X zweimal` | 28 |\n| C02 | `Nimm X zweimal` | 12 |\n| C03 | `Nimm X zweimal auf` | 1 |\n| C04 | `Nimm zweimal` | 1 |\n| C05 | `Setze X im Arbeitsgang zweimal an` | 1 |\n\nSieben Zustandskarten trugen die GDT500-Stimme schon. GDT574 lässt sie",
+      "sha256": "ff51ab2fcc03c69e01d3b86b6ce478ea99b7fa0e0483ba7ff35a7310fa57f690"
+    },
+    {
+      "path": "experiments/yolo/gdt574_adjacent_action_count_voice/REPORT.md",
+      "line": 69,
+      "line_end": 79,
+      "quote": "wieder her. Die 36 neuen Änderungen liegen in 33 Aussagen auf 17 Seiten. Alle\nZustandskarten bleiben unverändert. Nach dem Pass stehen genau 43 `zweimal` im\nvollständigen Buch; alle 55 unabhängigen Prüfungen bestehen.\n\n## Bedeutung für die Arbeitstheorie\n\nDie alte Idee aus GDT500 trägt also über das ganze aktuelle Buch, aber nur mit\neiner wichtigen Grenze: gezählt wird rohe Nachbarschaft, nicht bloß dasselbe\nVerb irgendwo später. Dadurch bleibt die Aktionsreihenfolge weiterhin\nvorhersagbar und sichtbar. `zweimal` ist Werkstattdeutsch für zwei vorhandene\nSlots, kein vorgeschlagener Voynich-Zahlwert.",
+      "sha256": "ff51ab2fcc03c69e01d3b86b6ce478ea99b7fa0e0483ba7ff35a7310fa57f690"
+    }
+  ],
+  "logical_example": {
+    "product_count": [
+      1,
+      2
+    ],
+    "scaled_amounts": [
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        6
+      ]
+    ],
+    "fixed_amounts": [
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "ingredient_ratio_both": "2/3 in both conditions and both models",
+    "distinguishing_quantity": "absolute amount change or amount per product unit",
+    "status": "illustrative arithmetic, not manuscript data"
+  },
+  "limits": "Three design assessments, no manuscript measurement. Original designs and fingerprints are retained; prospective correction does not create an already performed or ready experiment."
+}

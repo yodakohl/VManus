@@ -4,9 +4,9 @@ Updated: 2026-09-08. Read first.
 ## Current mandate and effort limit
 
 10h requested:2026-09-07 20:29:06–2026-09-08 06:29:06UTC minimum.
-ML:five family/span/core models and four scoped questions;10h incomplete.
+MR:76ratio contrast corrected prospectively;77/79method-only;10h incomplete.
 41recoveries/7scoreerrors;23questions;13definitions;86groups/104reduction.
-83rawrecords82afterknown55dup;45method/37unreviewed;10source-onlyrepairs.
+83rawrecords82afterknown55dup;48method/34unreviewed;10source-onlyrepairs.
 
 GDT858:855/963primary808folds retained opposite-face training;169faces/90leaves.
 GDT865 whole-leaf correction retains both primary thresholds: nuisance macroAUC
