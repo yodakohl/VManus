@@ -1,0 +1,162 @@
+{
+  "artifact": "NA bounded GDT717-719 source intake",
+  "status": "no_missing_scope_propositions_found",
+  "scope": "Primary REPORT.md sources and bounded current SEM comparison; no static TSV rows or corpus/image/experiment access",
+  "covered_comparisons": [
+    {
+      "source_group": "GDT717 five repeated quality/stage grid forms",
+      "forms": [
+        "otchy",
+        "otchey",
+        "otchdy",
+        "okchedy",
+        "otshey"
+      ],
+      "counterparts": [
+        {
+          "id": "SEM:36d4a9ef0f3f55f80730",
+          "claim": "GDT647 extends its grade-position reading to 107 observed complete forms with visible quality heads: y/ey/eey mark beginning/middle/end, dy/edy/eedy completed positions; k/t hot/cold and ch/sh dry/moist; fields remain bound within three enumerated templates, with absent cells and excluded forms preserved."
+        }
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt717_v90_quality_stage_core_context_repair/REPORT.md",
+          "line": 7,
+          "line_end": 25,
+          "quote": "Sieben singletonlastige Produktformulierungen werden auf ein wiederholtes,\nvorhersagbares Zustands-/Stufenmodell zurueckgefuehrt. Der portable Kern sagt\nheiß/kalt, trocken/feucht und Anfang/Mitte/erreicht; der konkrete\nZubereitungskopf bleibt nur in der Fundstellenausgabe.\n\n| Form | portabler Kern | konkrete Fundstelle | Score |\n|---|---|---|---:|\n| `otchy` | kalt-trocken; Anfangsstufe | kalt-trockene Zubereitung, Anfangsstufe | 30→38 |\n| `otchey` | kalt-trocken; Mittelstufe | kalt-trockene Zubereitung, Mittelstufe | 30→38 |\n| `otchdy` | kalt-trocken; Anfangsstufe erreicht | kalt-trockene Zubereitung; Anfangsstufe erreicht | 30→38 |\n| `okchedy` | heiß-trocken; Mittelstufe erreicht | heiß-trockene Zubereitung; Mittelstufe erreicht | 30→38 |\n| `otshey` | kalt-feucht; Mittelstufe | kalt-feuchte Zubereitung, Mittelstufe | 30→38 |\n| `chody` | leicht getrocknet; abgeschlossen | leicht getrocknete Zubereitung; abgeschlossen | 30→34 |\n| `sheody` | feucht angesetzt; Anfangsstufe abgeschlossen | feucht angesetzte Zubereitung; Anfangsstufe abgeschlossen | 30→34 |\n\n`otchy/otchey/otchdy` bilden Anfang, Mitte und erreichte Anfangsstufe derselben\nkalt-trockenen O-Rahmenfamilie. `okchedy` liefert die heiß-trockene erreichte\nMittelzelle, `otshey` die kalt-feuchte offene Mittelzelle. Diese fuenf Karten\nerhalten je einmal `F_STATE +4` und `F_STAGE +4`.",
+          "sha256": "2e17e4ff95250586ea7f8247d6cf2ffff6fd7b90c86728cb388eda4be3167159"
+        },
+        {
+          "path": "experiments/yolo/gdt717_v90_quality_stage_core_context_repair/REPORT.md",
+          "line": 43,
+          "line_end": 49,
+          "quote": "## Grenze\n\nDie Rasterfelder sind gebundene Arbeitswerte exakter Ganzformen, keine freien\nWoerter. Der lokale Kopf Zubereitung ist weiterhin ersetzbar; ein bestimmtes\nProdukt oder historisches Stufenvokabular ist nicht bestaetigt. Alle\nhistorischen Felder bleiben `H0_NONE`; keine neue Seite oder Transkription\nwurde benutzt.",
+          "sha256": "2e17e4ff95250586ea7f8247d6cf2ffff6fd7b90c86728cb388eda4be3167159"
+        }
+      ],
+      "disposition": "covered_existing_restricted_template",
+      "reason": "The five GDT717 forms are instances of the already complete GDT647 quality-head grid. Moving preparation heads out of portable defaults changes local rendering scope, not the underlying state/stage proposition."
+    },
+    {
+      "source_group": "GDT717 two result sisters",
+      "forms": [
+        "chody",
+        "sheody"
+      ],
+      "counterparts": [
+        {
+          "id": "SEM:ce07546e53959e672d23",
+          "claim": "chody → abgeschlossener Trockenansatz"
+        },
+        {
+          "id": "SEM:a9cfb9e7e75b1c8ffc37",
+          "claim": "sheody → angefeuchteter Ansatz, abgeschlossen"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt717_v90_quality_stage_core_context_repair/REPORT.md",
+          "line": 19,
+          "line_end": 30,
+          "quote": "| `chody` | leicht getrocknet; abgeschlossen | leicht getrocknete Zubereitung; abgeschlossen | 30→34 |\n| `sheody` | feucht angesetzt; Anfangsstufe abgeschlossen | feucht angesetzte Zubereitung; Anfangsstufe abgeschlossen | 30→34 |\n\n`otchy/otchey/otchdy` bilden Anfang, Mitte und erreichte Anfangsstufe derselben\nkalt-trockenen O-Rahmenfamilie. `okchedy` liefert die heiß-trockene erreichte\nMittelzelle, `otshey` die kalt-feuchte offene Mittelzelle. Diese fuenf Karten\nerhalten je einmal `F_STATE +4` und `F_STAGE +4`.\n\n`chody` und `sheody` behalten ihre exakten GDT689-Schwesterresultate, aber ihr\nsichtbares `dy` ist kein formales DY. Deshalb erhalten sie nur `F_STATE +4` und\nkeinen Stufenbonus. Kein Ziel erhaelt Punkte fuer geloeschtes `Ansatz`,\n`Zubereitung`, `Mazerat` oder fluessigere Prosa; alle sieben bleiben W1.",
+          "sha256": "2e17e4ff95250586ea7f8247d6cf2ffff6fd7b90c86728cb388eda4be3167159"
+        },
+        {
+          "path": "experiments/yolo/gdt717_v90_quality_stage_core_context_repair/REPORT.md",
+          "line": 43,
+          "line_end": 49,
+          "quote": "## Grenze\n\nDie Rasterfelder sind gebundene Arbeitswerte exakter Ganzformen, keine freien\nWoerter. Der lokale Kopf Zubereitung ist weiterhin ersetzbar; ein bestimmtes\nProdukt oder historisches Stufenvokabular ist nicht bestaetigt. Alle\nhistorischen Felder bleiben `H0_NONE`; keine neue Seite oder Transkription\nwurde benutzt.",
+          "sha256": "2e17e4ff95250586ea7f8247d6cf2ffff6fd7b90c86728cb388eda4be3167159"
+        }
+      ],
+      "disposition": "covered_with_local_scope_refinement",
+      "reason": "Existing whole-form cards cover the completed dry/moist result sisters. GDT717 narrows the portable claim to state and keeps preparation heads local; that is a scope refinement, not a new independent meaning."
+    },
+    {
+      "source_group": "GDT718 three workflow wholes",
+      "forms": [
+        "oteed",
+        "keeod",
+        "kchod"
+      ],
+      "counterparts": [
+        {
+          "id": "SEM:dfade750d68a0d74f10e",
+          "claim": "oteed → vollständig abgekühlter und abgezogener Ansatz"
+        },
+        {
+          "id": "SEM:cb215d0d71250c60031",
+          "claim": "keeod → vollständig erhitzter und abgezogener Ansatz"
+        },
+        {
+          "id": "SEM:314a8c8966ce6ecc472e",
+          "claim": "kchod → heiß-trockener Ansatz, abgeschlossen"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt718_v91_three_result_whole_core_context_repair/REPORT.md",
+          "line": 7,
+          "line_end": 22,
+          "quote": "Drei konkrete Auszug-Renderer werden auf ihre engeren portablen Zustandskerne\nzurueckgefuehrt. Der konkrete GDT691-Produktkopf bleibt nur in der jeweiligen\nFundstellenausgabe. Eine gemeinsame Auszug-/Abziehfamilie wird ausdruecklich\nverworfen: Die Karten sind gelernte Ganzwoerter ohne gemeinsamen lizenzierten\nSchriftstamm.\n\n| Form | portabler Kern | konkrete Fundstelle | Score |\n|---|---|---|---:|\n| `oteed` | vollständig abgekühlt; abgezogen | vollständig abgekühlter und abgezogener Auszug | 30→30 |\n| `keeod` | vollständig erhitzt; abgezogen | vollständig erhitzter und abgezogener Auszug | 30→30 |\n| `kchod` | heiß-trocken; abgeschlossen | heißer Auszug aus Trockengut, abgezogen und abgeschlossen | 30→30 |\n\n`oteed` und `keeod` behalten den belegten abgekuehlten beziehungsweise erhitzten\nZustand samt lokalem Abgezogen-Resultat. `kchod` behaelt nur heiß-trocken und\nabgeschlossen; Auszug, Trockengut und Abgezogen-Identitaet bleiben dort lokal.\nKein Ziel erhaelt einen Familien- oder Fluessigkeitsbonus; alle drei bleiben 30/W1.",
+          "sha256": "2fac822705d0e63c13aa49627560e3d932b81ab1d3ef30e66696921e0d0eebdf"
+        },
+        {
+          "path": "experiments/yolo/gdt718_v91_three_result_whole_core_context_repair/REPORT.md",
+          "line": 35,
+          "line_end": 39,
+          "quote": "## Grenze\n\nAuszug bleibt eine ersetzbare lokale Rendererwahl. Es wird kein freies d, e,\need, O, K, T oder CH und keine Entnahmemorpheme exportiert. Alle historischen\nFelder bleiben `H0_NONE`; keine neue Seite oder Transkription wurde benutzt.",
+          "sha256": "2fac822705d0e63c13aa49627560e3d932b81ab1d3ef30e66696921e0d0eebdf"
+        }
+      ],
+      "disposition": "covered_with_local_renderer_scope",
+      "reason": "All three forms already have direct unconfirmed whole-form cards. GDT718 explicitly removes portable Auszug/Trockengut/Abgezogen identities where applicable and rejects a shared family; it does not leave a missing core."
+    },
+    {
+      "source_group": "GDT719 three dry result wholes",
+      "forms": [
+        "kchody",
+        "ochdy",
+        "oechedy"
+      ],
+      "counterparts": [
+        {
+          "id": "SEM:f59993d25e541379f04e",
+          "claim": "kchody → fertiggestellter heiß-trockener Ansatz"
+        },
+        {
+          "id": "SEM:7f566d0bf26c2cdc5c31",
+          "claim": "ochdy → fertiggestellter Trockenansatz"
+        },
+        {
+          "id": "SEM:181ecde226a9ca303409",
+          "claim": "oechedy → mittelgetrockneter und fertiggestellter Ansatz"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt719_v92_three_result_whole_dy_rejection/REPORT.md",
+          "line": 7,
+          "line_end": 20,
+          "quote": "Drei konkrete GDT691-Produktkoepfe werden auf engere portable Zustandskerne\nzurueckgefuehrt. Eine gemeinsame freie DY-Zerlegung wird ausdruecklich\nverworfen: zwei Formen sind GDT689 `NO_FORMAL_DY`, die dritte ist `UNRESOLVED`\nund besitzt keine reale Schwester.\n\n| Form | portabler Kern | konkrete Fundstelle | Score |\n|---|---|---|---:|\n| `kchody` | heiß-trocken; abgeschlossen | fertige heiß-trockene Zubereitung | 30→30 |\n| `ochdy` | trocken; abgeschlossen | fertige Trockenmasse | 30→30 |\n| `oechedy` | bis Mittelstufe getrocknet; abgeschlossen | fertige, bis zur Mittelstufe getrocknete Masse | 30→30 |\n\n`kchody` behaelt heiß-trocken und abgeschlossen, `ochdy` trocken und\nabgeschlossen, `oechedy` bis Mittelstufe getrocknet und abgeschlossen.\nKein Ziel erhaelt einen Familien- oder Fluessigkeitsbonus; alle drei bleiben 30/W1.",
+          "sha256": "f6c38a06cde8a6d940bda1bd1b55c29932ad4ef7278fe5eec4ad9c098c2b2ba7"
+        },
+        {
+          "path": "experiments/yolo/gdt719_v92_three_result_whole_dy_rejection/REPORT.md",
+          "line": 33,
+          "line_end": 37,
+          "quote": "## Grenze\n\nZubereitung, Masse und Trockenmasse bleiben ersetzbare lokale Renderer. Es wird\nkein freies DY oder eine andere Binnenkomponente exportiert. Alle historischen\nFelder bleiben `H0_NONE`; keine neue Seite oder Transkription wurde benutzt.",
+          "sha256": "f6c38a06cde8a6d940bda1bd1b55c29932ad4ef7278fe5eec4ad9c098c2b2ba7"
+        }
+      ],
+      "disposition": "covered_with_component_scope_guard",
+      "reason": "Direct whole-form predecessors cover all three state/result readings. GDT719’s new content is the rejection of shared free DY and the preservation of local product heads, not a missing semantic core."
+    }
+  ],
+  "missing_scope_propositions": [],
+  "limits": [
+    "A predecessor card is unconfirmed historical scope, not semantic gold.",
+    "Repair labels do not erase predecessor alternatives; local argument/product assignment remains separate from portable state cores.",
+    "Counts and PASS labels were not treated as independent meanings."
+  ]
+}

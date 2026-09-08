@@ -1,0 +1,137 @@
+{
+  "artifact": "NB bounded GDT720-722 source intake",
+  "scope": "Read-only primary Markdown and bounded semantic-card comparison. Excludes already-covered GDT721 bound-ol body and keo|r; no TSV, images, experiment, or operative write.",
+  "source_hashes": {
+    "experiments/yolo/gdt720_v93_cold_result_whole_domain_repair/REPORT.md": "c0d6c9b513d50c8cd2f81163004f7de15b91c44ee579adac338dc5d2043c1eed",
+    "experiments/yolo/gdt721_v94_four_head_construction_scope_and_b003_restore/REPORT.md": "e4437208a25b40fffe553178661b15a4ba3cab657bdb5088e4fce1d87dae138d",
+    "experiments/yolo/gdt722_v95_op_whole_scope_and_context_separation/REPORT.md": "6eda0ad1805fcfc8bf5b015ae9dc487fcb37dd013f124c2660ae7cf32b0f71b3"
+  },
+  "status": "bounded_counterpart_decisions",
+  "decisions": [
+    {
+      "id": "NB-01",
+      "source": "GDT720",
+      "proposition": "etyd and teeedy retain distinct cold-completed-result defaults, without shared written morphology.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt720_v93_cold_result_whole_domain_repair/REPORT.md",
+          "line": 7,
+          "line_end": 37,
+          "quote": "Die beiden Formen behalten konkrete Kälte-Ergebnisdefaults, werden aber nicht\nzu einer gemeinsamen Schriftfamilie.\n\n| form | portable default | exact local realization | score |\n|---|---|---|---:|\n| `etyd` | bis Mittelstufe gekühlt; abgeschlossen | bis zur Mittelstufe gekühlte, abgeschlossene Zubereitung | 30→30 |\n| `teeedy` | vollständig abgekühlt; abgeschlossen | vollständig abgekühlte Zubereitung, fertig | 30→30 |\n\n`etyd` steht auf f10r.2 zeilenfinal nach `daiin`. Die Zeile hat nur eine\nlizenzierte Handlung am ersten Token; das Ziel ist ein nominales Ergebnis.\nGrad-, Kälte- und Abschlusssignal bleiben erhalten, während `Zubereitung`,\nDosis und Übergabe nicht in das portable Wort gelangen.\n\n`teeedy` steht medial in einer nominalen Ergebnisfolge auf f115r.1. Vier exakte\nglobale Oberflächenvorkommen machen die Form wiederkehrend; die aktive Zeile\nbewahrt den exakten Kälte-plus-Abschlusszustand. GDT689 klassifiziert sie\ntrotzdem als `UNRESOLVED`, `NO_REAL_SISTER`, ohne formales Rezept. Weder `DY`,\n`EEE` noch ein anderes inneres Stück wird exportiert.\n\n## Rival models\n\nDas Modell des gekühlten Ergebnisses gewinnt für beide Formen. Das alte\nDosis-/Übergabemodell zählt Information doppelt, die bereits das benachbarte\n`daiin` beziehungsweise `oroiir` trägt. Rückstand/Ruhe bleibt als lokaler\nProduktkontext möglich, doch keine Form besitzt ein eigenes Rückstands-, Dauer-\noder Ruhesignal. Die sechs Rivalenzeilen bewahren diese Alternativen sichtbar.\n\nDie nützliche Gemeinsamkeit ist semantisch: Beide Defaults bezeichnen ein\ngekühltes abgeschlossenes Ergebnis. Sie ist nicht morphologisch. `teeedy` ist\neine wiederholte, aber ungelöste Form; `etyd` hat überhaupt keine lizenzierte\nSchwester oder Zerlegung.",
+          "sha256": "c0d6c9b513d50c8cd2f81163004f7de15b91c44ee579adac338dc5d2043c1eed"
+        }
+      ],
+      "counterparts": [
+        {
+          "id": "SEM:b1408fb1c9533831f8c0",
+          "claim": "etyd → bis Mittelstufe gekühlter Ansatz, abgeschlossen",
+          "status": "unconfirmed"
+        }
+      ],
+      "disposition": "etyd is an existing older counterpart but GDT720 narrows it by removing portable Ansatz/Dosis/Übergabe. No exact teeedy card was found in the bounded search; retain teeedy as a distinct weak wholeform proposition. The report explicitly rejects a common cooling morphology, so the two forms must not be merged."
+    },
+    {
+      "id": "NB-02",
+      "source": "GDT721",
+      "proposition": "pol and lor are bounded initial-head plus body wholeforms, while naked l/r remain span-bound.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt721_v94_four_head_construction_scope_and_b003_restore/REPORT.md",
+          "line": 7,
+          "line_end": 28,
+          "quote": "Das Vier-Kopf-Modell liefert zwei konkrete, kompositionell vorhersagbare\nGanzwörter. Die beiden nackten Einzeichenbelege werden davon getrennt.\n\n| Form | Arbeitsbedeutung | Zerlegung | aktive Fundstelle |\n|---|---|---|---|\n| `pol` | Pulverstoff | `P_INITIAL_POWDER + OL_MATERIAL_BODY` | selbständig: Pulverstoff |\n| `lor` | Holzportion | `L_INITIAL_WOOD + OR_PORTION_BODY` | selbständig: Holzportion |\n| `l` | Holz / holziger Pflanzenteil (nur als Kompositionskopf) | initialer L-Kopf | keine Einzelausgabe; in B003 konsumiert |\n| `r` | Wurzel / Wurzeldroge (nur als Kompositionskopf) | initialer R-Kopf | keine Einzelausgabe; in `keo r` konsumiert |\n\n`pol` steht auf f77r.38 am Zeilenanfang vor `shedy`. GDT635 belegt die Form\n16-mal auf zwölf Seiten und dreizehnmal lesergenau. Entscheidend ist nicht nur\ndieser Wiederholung: Im vollständigen `pol/sol/rol/lol`-Gitter reproduziert die\nZerlegung den Körper `ol=Stoff/Material`, den Anfangskopf\n`p=Pulver/Pulverform` und damit `pol=Pulverstoff`. Der exakte Rahmen `pol shedy` wechselt an\nvergleichbaren Stellen mit `sol shedy`.\n\n`lor` steht auf f107r.2 zeilenfinal als Nomen. Die Form kommt 38-mal auf 28\nSeiten vor und ist dreißigmal lesergenau. Das vollständige\n`por/sor/ror/lor`-Gitter reproduziert `l + or = Holzportion`; GDT693 bewahrt\ndie geerbte Lesung der aktiven Position als `OR_PORTION`-Kontrollfall. OR bleibt dabei ein\nzugelassener Körper und wird nicht künstlich als O+R zerlegt.",
+          "sha256": "e4437208a25b40fffe553178661b15a4ba3cab657bdb5088e4fce1d87dae138d"
+        },
+        {
+          "path": "experiments/yolo/gdt721_v94_four_head_construction_scope_and_b003_restore/REPORT.md",
+          "line": 49,
+          "line_end": 62,
+          "quote": "## Nacktes `l` und `r`\n\nDer produktive L-Kopf ist mit 1.224 Anfangsvorkommen in 344 Typen stark, aber\nGDT635 trennt 163 nackte `l` ausdrücklich davon. Deshalb bedeutet P435 nicht\nfrei und überall Holz. An dieser Stelle verschmelzen die Alternativleser\n`l|karchees`; der Gesamtspan wird einmal als „vollständig getrocknete Charge\naus Anteil I der erhitzten Holzdroge“ ausgegeben.\n\nFür R gilt dasselbe: 332 Anfangsvorkommen in 116 Typen stützen den\nWurzel-/Radix-Kopf, während 129 nackte `r` getrennt bleiben. P289 ist die rechte\nHälfte von `keo|r`; der ausführbare Gesamtwert lautet einmal „heiße Portion“.\nEin zusätzliches „Wurzel“ wäre Doppelrendering. Ebenso wird `r` nicht zu\n„Portion“ umdefiniert: Der Portionswert gehört dem gebundenen Ganzen, und im\nproduktiven Restmodell trägt OR die Portionsfunktion.",
+          "sha256": "e4437208a25b40fffe553178661b15a4ba3cab657bdb5088e4fce1d87dae138d"
+        }
+      ],
+      "counterparts": [
+        {
+          "id": "SEM:ff830523c2fb36791328",
+          "claim": "pol → Pulverstoff",
+          "status": "unconfirmed"
+        },
+        {
+          "id": "SEM:f2035c75ecb54526827c",
+          "claim": "lor → Holzportion",
+          "status": "unconfirmed"
+        }
+      ],
+      "disposition": "Both portable wholeform claims have exact counterparts. GDT721 adds construction scope and naked-head limits; it is a source refinement, not a missing standalone lexical proposition. Excluded covered bound-ol and keo|r cases were not re-counted."
+    },
+    {
+      "id": "NB-03",
+      "source": "GDT722",
+      "proposition": "Five OP/P forms retain bound powder wholeform renderers, while qopaiin alone has a local licensed take action and inner p is not freely exported.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt722_v95_op_whole_scope_and_context_separation/REPORT.md",
+          "line": 7,
+          "line_end": 40,
+          "quote": "Die fünf offenen OP/P-Formen behalten konkrete Pulverbedeutungen. V95 macht\ndaraus aber absichtlich kein pauschales `o+p`-Wörterbuch. Das derzeit beste\nArbeitsmodell ist eine kleine Gruppe unzerlegter, gebundener Rendererwerte.\nGDT691 lässt ihre formale Herkunft ausdrücklich zwischen gelerntem Ganzwert\nund unexportierter Komposition offen:\n\n| Form | portabler Wortkern | exakte lokale Ausgabe |\n| --- | --- | --- |\n| `opchedaiin` | drei Portionen bis zur Mittelstufe getrockneten Pulvers | gleich |\n| `chopo` | Pulverzubereitung aus Trockengut | gleich |\n| `op` | Pulverzubereitung | gleich |\n| `qopaiin` | drei Teile Pulverzubereitung | drei Teile der Pulverzubereitung nehmen |\n| `opchey` | Trockenpulver, Form I | gleich |\n\nAlle fünf bleiben bei 30/W1 und H0. Das ist kein Rückzug in neutrale\nArbeitsprosa: Pulver, Trockenzustand, Form, Portion und Teilmenge bleiben\nausgeschrieben. Nur eine falsche Behauptung wird entfernt: `nehmen` gehört bei\n`qopaiin` zur einzigen aktionslizenzierten Position P158, nicht zum portablen\nWortkern jeder gleich geschriebenen Form.\n\n## Warum `p=Pulver` hier noch nicht frei eingesetzt wird\n\nGDT635 stützt einen engen Wert: wortinitiales `p-` in zugelassenen\nVier-Kopf-Kompositionen bedeutet Pulver/Pulverform. Derselbe Scope-Report zählt\naber 858 Token mit innerem `p` und trennt diese ausdrücklich vom initialen\nKopf. In allen fünf Zielwörtern ist `p` nicht das erste Zeichen.\n\nDamit bleibt `O_PREP + P_INTERNAL + ...` eine interessante Arbeitshypothese,\naber noch keine ausführbare Zerlegung. Besonders `chopo` ist der Belastungsfall:\n`CH + O + P + O` lässt ein zweites `O` ohne unabhängig bezahlte Funktion\nzurück. V95 verwirft die Pulveridee nicht; es bewahrt sie als Rivalen, ohne aus\nihr neue Wörter vorherzusagen oder Komponenten global zu exportieren. Die fünf\nexakten Ganzoberflächen behalten ihren Wörterbuchdefault; verboten bleibt der\nproduktive Export von `op`, innerem `p` oder anderen Teilstrings.",
+          "sha256": "6eda0ad1805fcfc8bf5b015ae9dc487fcb37dd013f124c2660ae7cf32b0f71b3"
+        }
+      ],
+      "counterparts": [
+        {
+          "id": "SEM:2b0884daa1ce7b5c4812",
+          "claim": "opchedaiin → drei Dosen bis zur Mittelstufe getrockneter Pulveransatz",
+          "status": "unconfirmed"
+        },
+        {
+          "id": "SEM:f869bc3cd215373f378d",
+          "claim": "chopo → Pulverzubereitung aus Trockenansatz",
+          "status": "unconfirmed"
+        },
+        {
+          "id": "SEM:6a73403cfb1011a0f0a6",
+          "claim": "op → Pulveransatz",
+          "status": "unconfirmed"
+        },
+        {
+          "id": "SEM:8c4f6684afef23a61511",
+          "claim": "qopaiin → drei Teile Pulveransatz nehmen",
+          "status": "unconfirmed"
+        },
+        {
+          "id": "SEM:9c500ea41eff58300df1",
+          "claim": "opchey → Trockenpulveransatz, Form I",
+          "status": "unconfirmed"
+        }
+      ],
+      "disposition": "All five individual historical wholeform claims have counterparts, but the joint source model—bound renderers, qopaiin action/local split, and no internal-p export—is materially broader than any one card. Retain as one source-scoped construction model; do not normalize OP/P or treat the five as independent meanings."
+    },
+    {
+      "id": "NB-04",
+      "source": "GDT722",
+      "proposition": "opchey/opcheey recurrence is a formal sister pattern, not evidence that op/ch/e/y carry the German subvalues.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt722_v95_op_whole_scope_and_context_separation/REPORT.md",
+          "line": 42,
+          "line_end": 55,
+          "quote": "## Der stärkste neue Formbefund\n\n`opchey` ist oberflächlich kein Singleton. GDT633s formale E-Lauf-Familie\nenthält:\n\n```text\nopchey   26 Vorkommen\nopcheey   4 Vorkommen\n```\n\nDas bestätigt ein wiederkehrendes `opch<E>y`-Gerüst. Es bestätigt noch nicht,\ndass `op`, `ch`, `e` oder `y` die deutschen Teilwerte Pulver, trocken oder\nFormstufe tragen. Deshalb erhöht V95 den semantischen Score nicht, hält die\nFamilie aber ausdrücklich für den nächsten Schwestervergleich fest.",
+          "sha256": "6eda0ad1805fcfc8bf5b015ae9dc487fcb37dd013f124c2660ae7cf32b0f71b3"
+        }
+      ],
+      "counterparts": [
+        {
+          "id": "SEM:9c500ea41eff58300df1",
+          "claim": "opchey → Trockenpulveransatz, Form I",
+          "status": "unconfirmed"
+        }
+      ],
+      "disposition": "The recurring surface pattern is a bounded formal observation and a useful future sibling comparison. It does not add a semantic card or confirm component meanings; preserve the existing wholeform card and rival."
+    }
+  ],
+  "limits": [
+    "All source statuses remain unconfirmed; PASS and repeated bindings are not meaning confirmation.",
+    "No generic repair was treated as no idea, and no named substance or portability gate was imposed.",
+    "No global absence claim beyond the bounded current-card search."
+  ]
+}

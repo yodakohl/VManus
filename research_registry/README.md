@@ -39,6 +39,11 @@ A numerical table can itself state a hypothesis. Distinguish that from a score-o
 reference to a separately defined model; preserve the complete model before
 archiving such a reference. An incidental quotation in another card is not an
 exact counterpart, and field-name absence alone does not prove a coverage gap.
+Search both the source experiment ID and the exact form before declaring a gap.
+Read the complete claim and retained cases: a model may explicitly cover several
+forms. Keep lexical content separate from local contextual additions; removing
+a product noun from the portable core can change a hypothesis even when its
+local rendering stays the same. A search preview cannot establish equivalence.
 
 Before delegating a candidate audit, use
 `./vmanus-work question-coverage "OKE" --without-question` to select public
