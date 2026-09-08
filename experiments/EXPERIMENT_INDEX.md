@@ -21,6 +21,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
 | GDT878 | GDT878_text_picture_combination_feasibility | `STOP_NOMINATED_JOINT_ENTRIES_NO_CROSSED_CONSTRUCTION_OR_REUSABLE_BINDING` | [report](../experiments/yolo/gdt878_text_picture_combination_feasibility/REPORT.md) | 15 | 80.7 KiB | 4 | STRUCTURED_YOLO |
+| GDT879 | GDT879 | `STOP_INCOMPLETE_NATIVE_GRAPH_ENDPOINT` | [report](../experiments/yolo/gdt879_plant_topology_endpoint_pilot/REPORT.md) | 15 | 82.0 KiB | 4 | STRUCTURED_YOLO |
 | GDT871 | GDT871 | `COMPLETE_PERSONAL_ORIENTATION_SOURCE_BOUNDARY` | [report](../experiments/yolo/gdt871_remaining_shared_diagram_orientation/REPORT.md) | 19 | 28.9 KiB | 2 | STRUCTURED_YOLO |
 | GDT870 | GDT870 | `NO_NEW_EXPLICIT_REFERENCE` | [report](../experiments/yolo/gdt870_f100r_complete_scene_discovery/REPORT.md) | 20 | 61.7 KiB | 2 | STRUCTURED_YOLO |
 | GDT869 | GDT869 | `UNRESOLVED_OPAQUE_METADATA` | [report](../experiments/yolo/gdt869_f17r_capture_metadata_inventory/REPORT.md) | 19 | 89.5 KiB | 0 | STRUCTURED_YOLO |

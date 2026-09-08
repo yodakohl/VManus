@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "experiment_id": "GDT879",
+  "decision": "STOP_UNSTABLE_ENDPOINT",
+  "status": "STOP_INCOMPLETE_NATIVE_GRAPH_ENDPOINT",
+  "support": {
+    "agreed_pages": [],
+    "exact_terminal_count_agreement": false,
+    "compatible_rooted_relations": false,
+    "topology_difference_beyond_size_position": false,
+    "reason": "Neither packet supplies an exact complete inventory and complete rooted hierarchy on any page. All three ROOT inventories remain incomplete with open upper bound; B f4r inventory is incomplete and f10r/f13r have finite non-singleton intervals and unresolved ancestry. Zero pages meet the frozen exact-compatible-graph gate; at least two required.",
+    "page_adjudications": [
+      {
+        "page": "f4r",
+        "exact_complete_inventory_agreement": false,
+        "complete_compatible_rooted_graph": false,
+        "local_forks_present": true
+      },
+      {
+        "page": "f10r",
+        "exact_complete_inventory_agreement": false,
+        "complete_compatible_rooted_graph": false,
+        "local_forks_present": true
+      },
+      {
+        "page": "f13r",
+        "exact_complete_inventory_agreement": false,
+        "complete_compatible_rooted_graph": false,
+        "local_forks_present": true
+      }
+    ]
+  },
+  "packet_sha256": {
+    "ROOT_OBSERVATION.json": "702f315e5dd4486418e321d3685ae06f49ee4c2f7e5024d37321608f55492e45",
+    "B_OBSERVATION.json": "76819dec563779702a19a4ab8b91ee070d2600c51f8cbb7c2fbffb3f32d3f197"
+  },
+  "measurement_limit": "Missing finite bounds retained as missing observations; bounded-count rubric not completed on those pages. This stop is measurement feasibility, not a semantic negative.",
+  "observations_not_merged": "Observers differ on f4r basal-hub clarity and completeness/precision of leaf enumeration. Local overlaps are not substituted for the preregistered whole graph.",
+  "new_page_admissions": 0,
+  "confirmed_meanings": 0,
+  "next_decision": "Do not build the whole-plant graph decoder under this endpoint definition. No automatic ontology refinement. Other genuinely different joint semantic inference routes remain open."
+}

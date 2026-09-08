@@ -1,0 +1,122 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "Three official source images remain local runtime only; no image bytes are published. Public packets are compact.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Native measurement feasibility only; no semantic negative, text correspondence, species, decoder or translation.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt879_plant_topology_endpoint_pilot/src/run.py",
+    "validate": "python3 experiments/yolo/gdt879_plant_topology_endpoint_pilot/src/validate.py"
+  },
+  "created": "2026-09-08",
+  "dependencies": [
+    "GDT202",
+    "GDT346",
+    "GDT360",
+    "GDT878"
+  ],
+  "experiment_id": "GDT879",
+  "inputs": [
+    {
+      "path": "docs/visual_overview/PLANT_ORIENTATION_2026-09-06_SOURCES.json",
+      "sha256": "d54bb10c09ed8c45788b80463749d81db80994cc9f457541751e26b8cfc9bb22",
+      "role": "fixed_source_or_predecessor"
+    },
+    {
+      "path": "research_registry/proposals/translation_reconstruction_plan.md",
+      "sha256": "8bc24aa88249557850c11fd6a0d00319eebfadf803233bc64e1a223e646b816c",
+      "role": "fixed_source_or_predecessor"
+    },
+    {
+      "path": "experiments/yolo/gdt878_text_picture_combination_feasibility/REPORT.md",
+      "sha256": "89c07e832a92deda342407bffe85700179aee9c7025b827a871c801921910a3b",
+      "role": "fixed_source_or_predecessor"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt879_plant_topology_endpoint_pilot/.gitignore",
+      "sha256": "429a7ff8e3befe5ac528bb832881840115d63940883b125526b582eedcdcb7a9",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt879_plant_topology_endpoint_pilot/METHOD.md",
+      "sha256": "b18cbfc470bf5df50362227d59f37072bb52123d31cd83fee662f6f5a27599b1",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt879_plant_topology_endpoint_pilot/PREREGISTRATION.md",
+      "sha256": "d47c248754d3fa5b79b6f4bc07eba07f495ed55835ccced30f821a37814f7b41",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt879_plant_topology_endpoint_pilot/README.md",
+      "sha256": "a48b76b7a48637528ef015d0dda49d90702f7c12e00f6254ed3480f1ee8b06e2",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt879_plant_topology_endpoint_pilot/REPORT.md",
+      "sha256": "50d8d8020925c5efa4d0eba8fecae060b3d7accfde811f05292ae5798a344e20",
+      "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt879_plant_topology_endpoint_pilot/artifacts/B_OBSERVATION.json",
+      "sha256": "76819dec563779702a19a4ab8b91ee070d2600c51f8cbb7c2fbffb3f32d3f197",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt879_plant_topology_endpoint_pilot/artifacts/PACKET_PACKAGE.json",
+      "sha256": "d0b8199babee8ee37f72536d32483599457ee735ffece9feeb9aa0ec62b8369f",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt879_plant_topology_endpoint_pilot/artifacts/README.md",
+      "sha256": "3daddf78e55401cd6ea986f9baa318f7a14bea9e57ac458fa120ff2d0521ea72",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt879_plant_topology_endpoint_pilot/artifacts/RESULT.json",
+      "sha256": "29537bb8acb9e7a1f02c856c86d40da320f4d34f25a016b176a12aad40f1f305",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt879_plant_topology_endpoint_pilot/artifacts/ROOT_OBSERVATION.json",
+      "sha256": "702f315e5dd4486418e321d3685ae06f49ee4c2f7e5024d37321608f55492e45",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt879_plant_topology_endpoint_pilot/artifacts/SOURCES.json",
+      "sha256": "d2e795fc3a1cc9abc1b95212eb1aaa1f19d4de26c3118a928cc3111edb978b98",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt879_plant_topology_endpoint_pilot/artifacts/VALIDATION.json",
+      "sha256": "9606cf74851d41719695f5c5ae08dd55bd80026c9df223d651c126b039c3ef8c",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt879_plant_topology_endpoint_pilot/src/run.py",
+      "sha256": "f718429ef8f26611bffcca4cfaa036da1348d69525b4c142b45762578ff0d95a",
+      "role": "source_or_artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt879_plant_topology_endpoint_pilot/src/validate.py",
+      "sha256": "c42b1dfc96aa7b43b80d1562cb895597e2c8049c5d0b8eaebc2aa444af3a0df1",
+      "role": "source_or_artifact"
+    }
+  ],
+  "question": "Can two native observers obtain complete exact terminal inventories and compatible rooted topology on two of three fixed plant pages?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "plant_topology_endpoint_pilot",
+  "status": "STOP_INCOMPLETE_NATIVE_GRAPH_ENDPOINT",
+  "title": "Intrinsic plant topology endpoint pilot",
+  "updated": "2026-09-08",
+  "validation": {
+    "artifact": "experiments/yolo/gdt879_plant_topology_endpoint_pilot/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

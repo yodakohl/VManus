@@ -11,7 +11,10 @@ Session:research_registry/decisions/semantic_10h_translation_session.md.
 B12medallions distinguish3coarsered-area states includingzero;reusablebindingfalse.
 Differentobservers/endpoints;prior/preliminarysummaryexposure disclosed;no measured
 phaselaw, score, meaning ornewpage. Bothnominatedentries stop;no794positionrerun.
-Next semanticexperiment notselected. Plan remainsconditional, notpreregistration.
+879nativepilot complete:3fixedplantpages,0exact completecompatiblegraphs.
+Bothviewers findlocalforks;fullunitcounts/ancestry remainunresolved. Measurement
+stop only;no decoder/textscore/meaning/newpage. Source/packetvalidationPASS.
+Next: source-grounded part-reuse feasibility underreview;no testselected.
 
 4h continuation completed:2026-09-08 07:12:17–11:12:18UTC.
 Session:research_registry/decisions/semantic_4h_followon_session.md.

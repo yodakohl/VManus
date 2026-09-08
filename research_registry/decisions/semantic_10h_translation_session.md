@@ -18,6 +18,11 @@ No public decipherment approach search or external LLM API keys. f84/f84r sealed
 GDT878 native packets frozen by13:42:04UTC. Seven source-guided root anchors;
 no crossed construction. B inventories12medallions with3coarse red-area states
 includingzero; reusable text binding remainsfalse. Both nominated entries stop.
-No translation/newpage. Source/contract validationPASS. Public packet prepared;
+No translation/newpage. Source/contract validationPASS. Published and remoteverified13:55:37UTC at66dddf809c8207aaba1baddef03c1e3394ab069c;
 full audit retains8known unrelatedGDT600/index errorgroups.
 Producer added8raw unreviewed proposals93–100; no semantic promotion.
+
+GDT879 pilot14:08UTC, publication deadline14:28UTC. Preregistration frozen
+7f5939d7 before native observations. ROOT/B independent packets preserved.
+Zero of3pages supplies exact complete compatible graph; measurementstop,
+not semanticnegative. Source/packetvalidationPASS; no newpage or decoder.

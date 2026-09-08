@@ -1,0 +1,517 @@
+{
+  "observer": "B",
+  "mode": "native",
+  "exposure_declaration": "Prior project source/planning context exists. For this pass I read GDT879 PREREGISTRATION.md and SOURCES.json, personally viewed all three original images, and did not read root observations or exchange preliminary findings. Incidental page writing was visible but was not transcribed or used. No species or lexical interpretation was used.",
+  "sources": [
+    {
+      "page": "f4r",
+      "path": "experiments/yolo/gdt879_plant_topology_endpoint_pilot/runtime/1006082.jpg",
+      "source_sha256": "fb166d0fe36d8cb635bb73b1d70b7d62e51a5f1ebf896f51921bd1854a06d904",
+      "viewed": true,
+      "operation": "native original view; no crop, rotation or enhancement"
+    },
+    {
+      "page": "f10r",
+      "path": "experiments/yolo/gdt879_plant_topology_endpoint_pilot/runtime/1006094.jpg",
+      "source_sha256": "8d8d5636691bae1be1ff908afad1388c25c53154e8808be572675ae8500c2ac5",
+      "viewed": true,
+      "operation": "native original view; no crop, rotation or enhancement"
+    },
+    {
+      "page": "f13r",
+      "path": "experiments/yolo/gdt879_plant_topology_endpoint_pilot/runtime/1006098.jpg",
+      "source_sha256": "454eb5f05db936ed0cf729c3881af0ded0993bc116246c6c8fd0c2789f4e9833",
+      "viewed": true,
+      "operation": "native original view; no crop, rotation or enhancement"
+    }
+  ],
+  "coordinate_convention": "Approximate full-image normalized x,y centers, origin upper-left. Locators are not pixel-segmented regions.",
+  "observations": {
+    "f4r": {
+      "basal_hub_clear": false,
+      "hierarchy_clear": false,
+      "terminal_count": null,
+      "terminal_count_interval": null,
+      "count_status": "UNRESOLVED_COMPLETE_ENUMERATION",
+      "counted_terminal_locators": [
+        {
+          "id": "H01",
+          "center_normalized": [
+            0.566,
+            0.176
+          ],
+          "description": "Left head of upper attached spray"
+        },
+        {
+          "id": "H02",
+          "center_normalized": [
+            0.606,
+            0.167
+          ],
+          "description": "Middle head of upper attached spray"
+        },
+        {
+          "id": "H03",
+          "center_normalized": [
+            0.642,
+            0.177
+          ],
+          "description": "Right head of upper attached spray"
+        },
+        {
+          "id": "H04",
+          "center_normalized": [
+            0.754,
+            0.245
+          ],
+          "description": "Upper right lateral head"
+        },
+        {
+          "id": "H05",
+          "center_normalized": [
+            0.503,
+            0.363
+          ],
+          "description": "Upper left lateral head"
+        },
+        {
+          "id": "H06",
+          "center_normalized": [
+            0.495,
+            0.429
+          ],
+          "description": "Inner left lateral head"
+        },
+        {
+          "id": "H07",
+          "center_normalized": [
+            0.724,
+            0.36
+          ],
+          "description": "Inner right lateral head"
+        },
+        {
+          "id": "H08",
+          "center_normalized": [
+            0.875,
+            0.412
+          ],
+          "description": "Far right lateral head"
+        }
+      ],
+      "enumeration_complete": false,
+      "count_explanation": "Eight clearly recognizable attached head-like terminals are listed as a partial inventory, not the plant total. Numerous red/green narrow blades also potentially satisfy the terminal rubric, but I cannot reproducibly distinguish all separate stalk-ended bodies from compound overlapping blade groups in this full-source view. I decline to invent a finite total interval. The separate uppermost spray is visibly disconnected or its connecting path is obscured; it is not silently attached to the main graph.",
+      "parent_child_relations": [
+        {
+          "parent": "upper main connector near (0.610,0.218)",
+          "children": [
+            "H01",
+            "H02",
+            "H03"
+          ],
+          "status": "CLEAR_LOCAL_FORK"
+        },
+        {
+          "parent": "main stem near (0.619,0.395)",
+          "children": [
+            "upward main stem",
+            "right ascending branch toward H04"
+          ],
+          "status": "CLEAR_LOCAL_FORK"
+        }
+      ],
+      "fork_or_crossing_example": "Upper attached three-head spray has a visible convergence of stalks. The colored leaf-like bodies along side branches often meet in tight overlapping groups: treating each color patch as a separate outgoing stalk would change the graph.",
+      "ambiguities": [
+        "Fine pale basal connectors converge above a detached-looking lower root-like object; a single uninterrupted basal connector is not securely traced. Lower structure excluded from the provisional above-stem examples, but this is not a certified full rooted graph.",
+        "Uppermost separate spray above the text cannot be joined solely because it is vertically aligned.",
+        "Terminal heads alone would ignore qualifying blade-like bodies and would violate the fixed rubric."
+      ]
+    },
+    "f10r": {
+      "basal_hub_clear": true,
+      "basal_hub_center_normalized": [
+        0.551,
+        0.861
+      ],
+      "hierarchy_clear": false,
+      "terminal_count": null,
+      "terminal_count_interval": [
+        14,
+        16
+      ],
+      "counted_terminal_locators": [
+        {
+          "id": "T01",
+          "center_normalized": [
+            0.514,
+            0.387
+          ],
+          "description": "Small upper left blade"
+        },
+        {
+          "id": "T02",
+          "center_normalized": [
+            0.585,
+            0.371
+          ],
+          "description": "Small upper right lobed blade, one continuous outlined body"
+        },
+        {
+          "id": "T03",
+          "center_normalized": [
+            0.769,
+            0.34
+          ],
+          "description": "Large terminal head, blue internal lobes not separate terminals"
+        },
+        {
+          "id": "T04",
+          "center_normalized": [
+            0.453,
+            0.463
+          ],
+          "description": "Upper left narrow blade"
+        },
+        {
+          "id": "T05",
+          "center_normalized": [
+            0.432,
+            0.48
+          ],
+          "description": "Upper left brown curved blade"
+        },
+        {
+          "id": "T06",
+          "center_normalized": [
+            0.421,
+            0.508
+          ],
+          "description": "Upper left green curved blade"
+        },
+        {
+          "id": "T07",
+          "center_normalized": [
+            0.414,
+            0.541
+          ],
+          "description": "Upper left lower brown curved blade"
+        },
+        {
+          "id": "T08",
+          "center_normalized": [
+            0.657,
+            0.472
+          ],
+          "description": "Upper right brown curved blade"
+        },
+        {
+          "id": "T09",
+          "center_normalized": [
+            0.671,
+            0.51
+          ],
+          "description": "Upper right green curved blade"
+        },
+        {
+          "id": "T10",
+          "center_normalized": [
+            0.693,
+            0.551
+          ],
+          "description": "Upper right lower brown curved blade"
+        },
+        {
+          "id": "T11",
+          "center_normalized": [
+            0.417,
+            0.612
+          ],
+          "description": "Large middle left green blade"
+        },
+        {
+          "id": "T12",
+          "center_normalized": [
+            0.697,
+            0.615
+          ],
+          "description": "Large middle right green blade"
+        },
+        {
+          "id": "T13",
+          "center_normalized": [
+            0.421,
+            0.714
+          ],
+          "description": "Lower left narrow curved blade"
+        },
+        {
+          "id": "T14",
+          "center_normalized": [
+            0.478,
+            0.774
+          ],
+          "description": "Lower left broad green blade"
+        },
+        {
+          "id": "T15",
+          "center_normalized": [
+            0.699,
+            0.728
+          ],
+          "description": "Lower right narrow curved blade"
+        },
+        {
+          "id": "T16",
+          "center_normalized": [
+            0.667,
+            0.769
+          ],
+          "description": "Lower right broad green blade"
+        }
+      ],
+      "enumeration_complete": true,
+      "count_explanation": "Sixteen candidate terminal bodies are localized; uncertainty in the crowded upper curved-blade stack could merge two candidate units, giving 14–16. This interval is a segmentation uncertainty, not a measured biological count. The upper oval segment on the bent stalk is not counted as a separate terminal because the path continues to the large blue head. Internal blue lobes and leaf teeth are not separately counted.",
+      "parent_child_relations": [
+        {
+          "parent": "lower central junction near (0.565,0.733)",
+          "children": [
+            "T14",
+            "T16",
+            "upward main stem"
+          ],
+          "status": "CLEAR_LOCAL_FORK"
+        },
+        {
+          "parent": "upper small-blade junction near (0.552,0.378)",
+          "children": [
+            "T01",
+            "T02",
+            "continuing bent stalk to T03"
+          ],
+          "status": "CLEAR_LOCAL_FORK"
+        }
+      ],
+      "fork_or_crossing_example": "At the lower broad green pair, two lateral stalks visibly leave the main stem. The crowded curved-blade stack above has overlapping outlines and very close insertion points; exact binary-junction order is not secure.",
+      "ambiguities": [
+        "T04–T07 include crowded outlines; at least two candidate separations are uncertain.",
+        "The brown lateral basal structure and its two red bodies are below the distinct erect-stem boundary and excluded under the fixed basal rule.",
+        "Local forks are visible, but a complete ordered rooted hierarchy would require observer-specific resolution of crowded insertion points."
+      ]
+    },
+    "f13r": {
+      "basal_hub_clear": false,
+      "hierarchy_clear": false,
+      "terminal_count": null,
+      "terminal_count_interval": [
+        19,
+        21
+      ],
+      "counted_terminal_locators": [
+        {
+          "id": "H01",
+          "center_normalized": [
+            0.532,
+            0.262
+          ],
+          "description": "Topmost small head"
+        },
+        {
+          "id": "H02",
+          "center_normalized": [
+            0.509,
+            0.286
+          ],
+          "description": "Upper left head"
+        },
+        {
+          "id": "H03",
+          "center_normalized": [
+            0.548,
+            0.283
+          ],
+          "description": "Upper right head"
+        },
+        {
+          "id": "H04",
+          "center_normalized": [
+            0.505,
+            0.304
+          ],
+          "description": "Left head beneath upper left"
+        },
+        {
+          "id": "H05",
+          "center_normalized": [
+            0.527,
+            0.302
+          ],
+          "description": "Central head beneath topmost"
+        },
+        {
+          "id": "H06",
+          "center_normalized": [
+            0.56,
+            0.305
+          ],
+          "description": "Right head beneath upper right"
+        },
+        {
+          "id": "H07",
+          "center_normalized": [
+            0.488,
+            0.324
+          ],
+          "description": "Left middle head"
+        },
+        {
+          "id": "H08",
+          "center_normalized": [
+            0.471,
+            0.339
+          ],
+          "description": "Left lower-middle head"
+        },
+        {
+          "id": "H09",
+          "center_normalized": [
+            0.456,
+            0.355
+          ],
+          "description": "Left low head"
+        },
+        {
+          "id": "H10",
+          "center_normalized": [
+            0.515,
+            0.358
+          ],
+          "description": "Central low head"
+        },
+        {
+          "id": "H11",
+          "center_normalized": [
+            0.562,
+            0.335
+          ],
+          "description": "Right middle head"
+        },
+        {
+          "id": "H12",
+          "center_normalized": [
+            0.575,
+            0.354
+          ],
+          "description": "Right lower-middle head"
+        },
+        {
+          "id": "H13",
+          "center_normalized": [
+            0.568,
+            0.375
+          ],
+          "description": "Right low head"
+        },
+        {
+          "id": "L01",
+          "center_normalized": [
+            0.371,
+            0.455
+          ],
+          "description": "Large upper left outlined blade; colored lobes not separate"
+        },
+        {
+          "id": "L02",
+          "center_normalized": [
+            0.667,
+            0.464
+          ],
+          "description": "Large upper right outlined blade"
+        },
+        {
+          "id": "L03",
+          "center_normalized": [
+            0.394,
+            0.555
+          ],
+          "description": "Brown middle left blade"
+        },
+        {
+          "id": "L04",
+          "center_normalized": [
+            0.657,
+            0.563
+          ],
+          "description": "Brown middle right blade"
+        },
+        {
+          "id": "L05",
+          "center_normalized": [
+            0.312,
+            0.611
+          ],
+          "description": "Broad lower left lobed blade"
+        },
+        {
+          "id": "L06",
+          "center_normalized": [
+            0.709,
+            0.649
+          ],
+          "description": "Broad lower right lobed blade"
+        },
+        {
+          "id": "U01",
+          "center_normalized": [
+            0.449,
+            0.451
+          ],
+          "description": "Possible separate narrow upper-left inner blade, or lobe of the larger outlined blade",
+          "counted_if_separate": true
+        },
+        {
+          "id": "U02",
+          "center_normalized": [
+            0.588,
+            0.447
+          ],
+          "description": "Possible separate narrow upper-right inner blade, or lobe of the larger outlined blade",
+          "counted_if_separate": true
+        }
+      ],
+      "enumeration_complete": true,
+      "count_explanation": "Thirteen small head-like endpoints and six large blade-like bodies are provisionally distinguishable; two narrow inner green bodies may be separate blade terminals or parts of their continuous larger outlines. This gives 19–21 above the basal cut-stem cluster, conditional on that boundary. Top cluster overlaps make individual attachment ancestry uncertain even where head centers are visible.",
+      "parent_child_relations": [
+        {
+          "parent": "central stem near (0.514,0.503)",
+          "children": [
+            "upper-left large blade path",
+            "upper-right large blade path",
+            "ascending head-cluster path"
+          ],
+          "status": "CLEAR_LOCAL_FORK"
+        },
+        {
+          "parent": "crowded head cluster near (0.515,0.403)",
+          "children": [
+            "several paths toward H01–H13"
+          ],
+          "status": "UNRESOLVED_ANCESTRY"
+        }
+      ],
+      "fork_or_crossing_example": "Broad upper left and right blade paths visibly diverge from the upright stem. At the compact terminal-head cluster, superposed colored tubes do not expose every junction, so a head list cannot determine the tree.",
+      "ambiguities": [
+        "Several erect stalks emerge from distinct circular cut-like ends above the red lower structure. A single shared visible basal hub is not independently clear; joining these through the root-like mass would add an inferred connection.",
+        "The lower red mass is morphologically distinct, but the exact root of one above-basal connected graph remains uncertain.",
+        "Narrow inner blades may be internal lobes of continuous outlines; teeth and round markings within heads are not terminals."
+      ]
+    }
+  },
+  "findings": "Several local forks and outlined terminal bodies are recognizable, but I cannot certify two exact complete terminal inventories with reproducible rooted hierarchies. f4r complete enumeration remains unresolved; f10r/f13r have explicit compound-unit/topology ambiguities.",
+  "uncertainties": [
+    "This is a native qualitative observation record, not automated graph extraction.",
+    "Counts describe a graphic rubric, not biological leaves, flowers or roots.",
+    "The missing complete f4r count is explicitly retained instead of an artificial broad numeric interval."
+  ],
+  "translation": null,
+  "claim_ceiling": "No text-picture correspondence, semantics, species, device use or phonetic reading established."
+}
