@@ -64,3 +64,9 @@ Practical lesson: preserve a shared exact candidate/source packet across agents 
 The full worktree audit now has only the eight previously known error groups (sevenGDT600unbound files and the stale global index TSV/Markdown). Local derived-runtime justifications were missing and are now explicitly documented without changing results or raising inline limits. No global repository PASS is claimed; no unrelated files were published or altered.
 
 QUvalidationcomplete11:10:13UTC; publicationfinishingafter11:10budgetwithoutfurtherexpansion. Threeexistingindependentregistryaudits raninparallel againstthefrozennewsnapshot, then their receipts werecombined; allPASS. No runtime source/code/semanticexperiment rerun wasrequired bythepolicy-descriptionchange. Fullworktreecheckretains8knownerrorgroups; focusedpublicationchecksremainseparate.
+
+## Interval closure
+
+Minimum duration reached at2026-09-08 11:12:18UTC: start07:12:17UTC, elapsed4h00m01s. This closes the requested work interval, not the undeciphered manuscript objective. QUpublication57dcd708 followed successful exact staged privacy/scope checks; all material scientific/source findings were public earlier. Final route and this completion record are published separately without changing any scientific result or source snapshot.
+
+The retained positive source result is four all-reading literal/clear constructions; the other main correction is two false later written-position claims, not new manuscript geometry. Two cross-leaf candidates remain unconfirmed by native inspection. There is no confirmed lexical or clause meaning. Subsequent work should select from the bounded pending queue using actual different observable predictions; no automatic continuation of the stopped branches or replay of incompatible-endpoint comparisons is justified by these findings alone.

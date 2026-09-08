@@ -9,7 +9,7 @@ they do not automatically add historical SEM cards or confirmed meanings.
 
 ## Current public snapshot
 
-Active four-hour continuation: [session record](decisions/semantic_4h_followon_session.md); [twenty-whole recovery](decisions/pn_root_twenty_whole_recovery.json).
+Completed four-hour continuation: [session record](decisions/semantic_4h_followon_session.md); [twenty-whole recovery](decisions/pn_root_twenty_whole_recovery.json).
 Previous completed continuation: [scoped completion](decisions/semantic_10h_continuation_completion.md).
 
 Earlier completed ten-hour comparison and remaining coverage limits: [completion report](decisions/semantic_10h_completion.md).

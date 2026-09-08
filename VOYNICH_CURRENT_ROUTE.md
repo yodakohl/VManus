@@ -1,39 +1,38 @@
 # Voynich current route
 Updated: 2026-09-08. Read first.
 
-## Current mandate and effort limit
+## Latest completed continuation and next selection
 
-4h continuation active:2026-09-08 07:12:17–11:12:17UTC minimum.
+4h continuation completed:2026-09-08 07:12:17–11:12:18UTC.
 Session:research_registry/decisions/semantic_4h_followon_session.md.
-Baseline9254994c:3944semantic;160dossiers;83raw/82unique;51method/31pending.
-Prior10h:85net recovered variants,0new manuscript experiment/image/meaning.
-GDT872complete:198rawanchors;1930opportunities178hits;all3diagnostic274/31.
-Distalwithin51/529forward vs66/646backward;nooverallforwarddensityexcess.
-CHcomposition41/51vs36/66onlyprimary;strictdiagnosticdoesnotrepeatdirection.
-No persistentstate/reset/meaning.872published42881456.
-873complete:82eligible41matched29folios;matchedD0,control−.010967,residual+.010967.
-Folioresidual15negative12positive2zero;strictdiagnostic1matched failscoverage.
-Selectedhalf/newdensityendpoint doesnotexplain872composition. Branchstopped;no controlchain.
-92raw/91unique;54method;36pending;87semanticnot-tested.84–86methodreviewed, notsemanticfalsifications.
-734twenty-whole and28spoken-scope policies recovered as2finite models;
-separate19rolemodel andstoredcores preserved.3946semantic/162dossiers.
-874complete:392localrecords;eligible40ZL78IT41RF;two reading-specific
-cross-leaf matches(f67r2.56→f89r2.8;f67r2.64→f89r2.28),zeroall3sameindex.
-f81v.28whole ZL/ITeligiblezero;RFentityineligible. No phrase/meaning/nullscore.
-875nativeaudit:2originals2viewers;bothrunninglineslocated,criticalreadingsopen.
-56bothunlocalized;64rootspatialcandidate,Bunlocalized. Neitherbridgepromoted.
-OldR3owners notvalidated here; no blanketfalsification or furtherautomaticcensus.
-876corrects two exactR3positions:72/73 are horizontalbelowrightcircle,
-notleft/rightcircularbands;74alsohorizontal,butreferentopen. Bothviewersagree.
-R1alreadyhadlowerblock: latermapregression,notnewgeometry/meaning.
-Quarantineonlythose72/73written-positionclaims; no broadatlas/rendererrepair.
-QM confirms those positions propagate into selectedV71 andV75R4 sources.
-ExistingIAcopy/reset question amendedv2; generalmeaningnotrefuted.
-74V75R2applications retained ascontext, notnewmodels/canonicalcases.
-877complete:4/5fixed764triples literal/clear inall3;all15consecutiveclear.
+No next semantic experiment selected;36rawproposals remainunreviewed.
+92raw/91unique;54method;87semanticnot-tested. No automatic decoder/control/atlas follow-on.
+3946semantic variants/266formal cards;4893sourcecases;162scopedquestions.
+Thisinterval recovered2historicalfinite models with20+28applications, notnewmeanings.
+
+872:198rawanchors;1930opportunities178hits;all3diagnostic274/31.
+Distal51/529forward vs66/646backward: nooverallforwarddensityexcess.
+CHcomposition41/51vs36/66primaryonly;strictdiagnosticdoesnotrepeatdirection.
+No persistentstate/reset/meaning.873:82eligible41matched29folios;
+matchedD0,control−.010967,residual+.010967;folios15negative12positive2zero.
+Differentdensityendpoint/selectedhalf doesnotexplain872composition. Branchstopped.
+874:392localrecords;eligible40ZL78IT41RF;two reading-specific cross-leafmatches
+(f67r2.56→f89r2.8;64→f89r2.28),zeroall3sameindex. No phrase/meaning/nullscore.
+875nativeaudit:2originals2viewers;runninglineslocated,criticalreadingsopen;
+56bothunlocalized,64rootcandidate/Bunlocalized. Neitherbridgepromoted.
+876:bothviewersplace72/73/74horizontalbelowrightcircle. TwoR3circular-band
+writtenpositionscontradicted;74referentopen. R1alreadycorrect: mapregression,
+notnewgeometry. Quarantineonlythosepositions; no broadR3falsification.
+QMconfirms propagationinto selectedV71/V75R4. ExistingIAcopy/resetquestionv2;
+generalmeaningnotrefuted;74V75R2applications retainedascontext,notnewcases/models.
+877:4/5fixed764triplesliteral/clear inall3;all15consecutive/definiteinternals.
 ZLf99r.15raw<!gap>daiin qualifiesfifth;ITRFexact. No nativegap/III/meaning.
-QS87: fixedvalue andX-selecteddomain compatible; require distinctcontract.
-Fourrawanchors do notsupplythemissingsemanticendpoint.
+QS87: fixedvalue andX-selecteddomain compatible. Preserveoriginalproposal;
+require an actuallydifferent observablecontract andindependentsemanticendpoint.
+Fourrawanchorsalone donotsupplythatendpoint. See scopedreview, notoldglosses.
+Fourtranscription-data passes plus2nativeaudits of2previousoriginals thisinterval;
+zero confirmedmeanings. Source/registryvalidationPASS; globalcheckstill8known
+GDT600/indexerrorgroups.872/875localruntimejustifications corrected;nosourcechange.
 
 GDT858:855/963primary808folds retained opposite-face training;169faces/90leaves.
 GDT865 whole-leaf correction retains both primary thresholds: nuisance macroAUC
