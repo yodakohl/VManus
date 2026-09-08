@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "review_id": "QA3_REPRESENTATION_MECHANISMS",
+  "status": "TWO_CONCRETE_HYPOTHESES_NO_SELECTION",
+  "scope": "compact record/program and positional-code alternatives for translation",
+  "prior_closures": [
+    {
+      "id": "GDT605",
+      "report": "experiments/yolo/gdt605_multisymbol_unit_alphabet/REPORT.md",
+      "report_sha256": "44cf08b69f9b182c413f493312eec9b6b3c1e759c6f2e6c32f7248b79174e57d",
+      "limit": "98 recurrent units recover separator information, but the one-unit/one-letter route is rejected; no unit meaning follows."
+    },
+    {
+      "id": "GDT856",
+      "report": "experiments/yolo/gdt856_codeword_unique_decodability/REPORT.md",
+      "report_sha256": "05cd84805ae3aca16a8c8f043d41eb2f2e9b88e024b333c4326cee93ecc5e0c8",
+      "limit": "CE=[C,E]=[CE] defeats free unique decoding of the published inventory; this is a code property, not a manuscript reading."
+    },
+    {
+      "id": "GDT857",
+      "report": "experiments/yolo/gdt857_cyclic_inventory_triple_bound/REPORT.md",
+      "report_sha256": "05af605f6a2088821e93d0181ac2ee4402d48650ad0543c0bce5045895195c80",
+      "limit": "Only the explicitly restricted nonsingleton cyclic-pool model fails; homophony, meaning, and general code behavior remain open."
+    },
+    {
+      "id": "GDT581",
+      "report": "experiments/yolo/gdt581_grammar_content_boundary_audit/REPORT.md",
+      "report_sha256": "2956f609b9a71cceb3411a011c9d4d09ef5467156c5e0ac4baf4dc11de4567c5",
+      "limit": "The reversible working structure assigns hosts/slots and roundtrips, but explicitly does not establish meanings or a codebook."
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "typed_stack_effect_record_program",
+      "unit": "complete recurring whole-form records, with each occurrence represented by its source-observed host, predecessor/successor relation, closure flag, and local state transition; no English labels",
+      "measurable_invariant": "For a repeated whole form, the same finite transition signature (push, update, return, or terminal) must predict the next bounded record field and closure behavior on held folios, after conditioning on an explicitly frozen record state. A context-conditioned renderer rival may fit training records but must not retain the signature on held records.",
+      "why_not_old_GDT581": "GDT581 assigns every occurrence a working host and can roundtrip its representation. This mechanism asks whether a form has a held-out, path-dependent stack effect that constrains the next record transition; host coverage alone does not entail that invariant.",
+      "falsifier": "The same form's transition signature changes arbitrarily with host/context, or a host-only renderer matches held next-field/closure outcomes equally well.",
+      "route_change": "If it survives predeclared held records, decode control/opcode-like forms first and use the inferred state machine to isolate payload slots; only then attempt a translation of payload forms. If it fails, retain GDT581's structural voice and stop the program interpretation.",
+      "limit": "This would establish a representation/control layer, not a word meaning. It is not justified by GDT581 counts alone and would require a new bounded audit with held source records."
+    },
+    {
+      "name": "redundant_record_signature_code",
+      "unit": "repeated complete records or record fragments that share a source-observed field signature, including a bounded closure/return relation; whole groups remain indivisible and alternate readings stay separate",
+      "measurable_invariant": "A record's finite signature (ordered field roles, repetition pattern, and terminal/return marker) must be recoverable from one occurrence and reproduce the same signature in an independently held occurrence, while a permutation-only label model cannot predict the held signature without the shared record identity. The test compares exact source relations, not decoded words.",
+      "why_not_GDT605/856/857": "It does not posit one letter per unit, free unique segmentation, or fixed nonsingleton pools. It tests redundancy at the complete-record level, where a repeated signature can act as an error-detecting/checking relation even when the 98-unit code is non-UD.",
+      "falsifier": "Held repetitions do not preserve the predeclared signature, or a label-permutation/context-only model reproduces it with equal held performance.",
+      "route_change": "A positive result would supply a source-bound record identity/check layer for joint decoding: infer record boundaries and stable fields before proposing lexical values. A negative result leaves the current structural inventory without this leverage.",
+      "limit": "Repeated surface or host patterns alone are insufficient; the signature must include an independently observed relation and a held occurrence. No current report establishes the needed redundancy, so this is a feasibility question, not a result."
+    }
+  ],
+  "decision": {
+    "recommendation": "Do not rerun GDT605, GDT856, GDT857, or GDT581. Neither mechanism is ready for execution because the required held source relation has not been frozen.",
+    "smallest_next_observation": "For a bounded source packet, predeclare one finite transition/signature and one held repeated complete record; reject the route if the relation is only an analyst host, position, or renderer label.",
+    "translation_leverage": "Both mechanisms can identify a representation layer without pretending it is German or Latin. They change decoding order only if held source relations beat a context-conditioned/permutation rival."
+  }
+}

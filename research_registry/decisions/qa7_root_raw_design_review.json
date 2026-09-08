@@ -1,0 +1,49 @@
+{
+  "status": "SIX_DESIGN_ASSESSMENTS_NO_MANUSCRIPT_SEMANTIC_TEST",
+  "peer_report_preserved": "research_registry/decisions/qa1_raw_method_review.json",
+  "root_limits": "No exact duplicate merges asserted; primary overlap pointers remain related navigation, not complete scientific identity. Three proposals are semantic and three methodological. Counterexample for103 concerns the ablation criterion only.",
+  "assessments": [
+    {
+      "id": "IDEA000101",
+      "scope": "method",
+      "reason": "A reading-marginalization policy is not a new manuscript semantic law. Competing uncertain transcriptions may legitimately imply different candidate propositions until the actual source reading is resolved. Specify a finite observable prediction beyond edition invariance before selecting a test.",
+      "proposal": "research_registry/proposals/qa0_latent_reading_invariant.json",
+      "proposal_sha256": "2cba4f4c785a1e1a14354cb3df04dda2a9331903f777fe5881321377225a6e12"
+    },
+    {
+      "id": "IDEA000102",
+      "scope": "semantic",
+      "reason": "Feature compatibility does not uniquely identify the same participant: a fresh participant with the same features satisfies the proposed positive result. Fix an independently distinguishing participant relation and explicit predictions of both full models.",
+      "proposal": "research_registry/proposals/qa0_referent_chain_interruption.json",
+      "proposal_sha256": "8ba764243642cd26ac46767edc174214908abc8dbe85dbe5f9936d2aa8399caa"
+    },
+    {
+      "id": "IDEA000103",
+      "scope": "method",
+      "reason": "The ablation requirement can reject a correctly identified intersection key. Let U={a,b,c}, constraint1={a,b}, constraint2={a,c}. Their intersection uniquely selects a, but removing either nonredundant constraint leaves two possibilities. Loss of unique identification after removal is not a falsification of the correct intersection. This is a design counterexample, not a manuscript test.",
+      "proposal": "research_registry/proposals/qa0_constraint_intersection_key.json",
+      "proposal_sha256": "8ad8c8313634e477625bf40d9743321a5a08fb3c12eaa56af7cbbbe7482f12c5"
+    },
+    {
+      "id": "IDEA000104",
+      "scope": "semantic",
+      "reason": "Distinct operations can agree on the observed input/output states. The named rival explicitly allows coincident contexts, so output preservation on another such context does not distinguish it. Specify a separating input or relation where the two complete operations predict different outcomes; no preknown word translation is required for joint inference.",
+      "proposal": "research_registry/proposals/qa0_function_preserving_reconstruction.json",
+      "proposal_sha256": "c373b97bfb0760e9ee813999370c25b378188556e5720917c54e956c6f9ce400"
+    },
+    {
+      "id": "IDEA000105",
+      "scope": "semantic",
+      "reason": "Asserted versus conditional is a substantive semantic proposal, but no particular source construction and independently observable commitment contrast are nominated. Operation changes or layout alone do not fix commitment. Preserve the hypothesis untested.",
+      "proposal": "research_registry/proposals/qa0_commitment_scope_protocol.json",
+      "proposal_sha256": "2182a795723eeef9c705229cc1f7418b61d87c4ad4b6a327c904576fea70b31c"
+    },
+    {
+      "id": "IDEA000106",
+      "scope": "method",
+      "reason": "A held reconstruction criterion can assess a proposed model, but source/target relations and the semantic representation remain unspecified. Reversibility by itself does not identify denotation. Nominate a finite independently observed relation with a real held recombination; do not count an analyst-state roundtrip as a translated clause.",
+      "proposal": "research_registry/proposals/qa0_semantic_roundtrip.json",
+      "proposal_sha256": "dba7f24a9f89ceae26e0c6bd7ab8d11abcf9db5d722f928d8f3355bb03d455d3"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Independent modifiers commute when they target separate fields",
+  "summary": "GDT575 distinguishes adjacent and interrupted relation/modifier slots. A semantic law can require two modifiers to commute only when they target disjoint fields; a scope-sensitive operator predicts order-dependent output.",
+  "scope": "semantic",
+  "status": "draft_unreviewed_not_added",
+  "design": {
+    "mechanism": "field-disjoint modifier commutation versus ordered semantic scope",
+    "unit": "source-bound relation/modifier or argument-envelope construction",
+    "contrast": "Swap two disjoint modifiers in a matched construction: the typed field outputs should remain unchanged under commutation. If one modifier scopes over the other, swapping changes the output or makes the construction invalid.",
+    "prediction": "The old atlas preserved written order and German renderer attachment but did not test a semantic commutation law against an order-sensitive rival.",
+    "countermodel": "A renderer or position-conditioned convention can reproduce the observed layouts without the proposed semantic law.",
+    "falsifier": "A swap changes the typed output despite disjoint fields, or an order-sensitive effect appears only after importing renderer labels.",
+    "principal_risk": "Need independently typed fields and a matched swapped construction; current field labels are not gold.",
+    "endpoint_status": "availability_unknown",
+    "smallest_test": "Use two existing adjacent/interrupted pairs and define disjointness from a nonsemantic slot relation before checking outputs.",
+    "prior_duplicate_pointers": "Nearest GDT575/GDT577 and IDEA000018; this proposal is the algebraic commutation falsifier, not order preservation.",
+    "selection_status": "raw unreviewed; no readiness or novelty claim"
+  }
+}

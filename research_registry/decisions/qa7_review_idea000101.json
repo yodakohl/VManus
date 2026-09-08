@@ -1,0 +1,50 @@
+{
+  "record_id": "IDEA000101",
+  "reviewer": "root with independent QA1 design screen",
+  "scope": "method",
+  "verdict": "not_tested",
+  "assessment_basis": "logical_design_review_no_manuscript_test",
+  "reason": "A reading-marginalization policy is not a new manuscript semantic law. Competing uncertain transcriptions may legitimately imply different candidate propositions until the actual source reading is resolved. Specify a finite observable prediction beyond edition invariance before selecting a test.",
+  "design": {
+    "mechanism": "one proposition invariant across readings versus a reading-conditioned semantic code",
+    "unit": "held complete constructions or paired reading contexts",
+    "contrast": "After marginalizing reading uncertainty, held paraphrase/role commitments should agree across all three readings; a reading-conditioned code predicts systematic proposition changes tied to the edition.",
+    "prediction": "Old reading-fidelity and latent-channel work tested surface prediction or transcription policy, not a held semantic invariant with a rival reading-conditioned meaning.",
+    "countermodel": "A surface-copying, renderer, or context-conditioned convention can mimic training observations without the proposed semantic mechanism.",
+    "falsifier": "A held family requires different semantic propositions by reading despite equal source context, or the invariant model only succeeds through renderer labels.",
+    "principal_risk": "Need cached alternate readings and independently defined proposition constraints; no English gold is available.",
+    "endpoint_status": "availability_unknown",
+    "smallest_test": "Fit on two reading-stable construction families, hold one family out, and compare invariant versus reading-conditioned predictions.",
+    "prior_duplicate_pointers": "Near GDT832 and LTG001; distinct target is semantic proposition invariance, not transcription accuracy.",
+    "selection_status": "raw unreviewed; no readiness or novelty claim"
+  },
+  "blockers": [
+    {
+      "code": "missing_design",
+      "detail": "A reading-marginalization policy is not a new manuscript semantic law. Competing uncertain transcriptions may legitimately imply different candidate propositions until the actual source reading is resolved. Specify a finite observable prediction beyond edition invariance before selecting a test.",
+      "evidence": [
+        "research_registry/decisions/qa7_root_raw_design_review.json",
+        "research_registry/proposals/qa0_latent_reading_invariant.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "finite_discriminating_source_contract",
+        "change": "new_design",
+        "detail": "Provide a finite source-specific contract that addresses this recorded design objection and a rival with different observable predictions. Independently bound words are not a blanket prerequisite for exploratory joint inference.",
+        "evidence": [
+          "research_registry/decisions/qa7_root_raw_design_review.json",
+          "research_registry/proposals/qa0_latent_reading_invariant.json"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "A new model, renderer, larger corpus or more matching formal labels without resolving the recorded objection."
+    ]
+  },
+  "relations": [],
+  "claim_ceiling": "Original proposal preserved; no empirical semantic refutation or confirmed meaning."
+}

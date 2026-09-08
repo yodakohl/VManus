@@ -1,0 +1,19 @@
+{
+  "title": "A candidate plaintext must survive encode/decode roundtrip on a held construction",
+  "summary": "Infer a candidate semantic representation from several complete constructions, then regenerate their observable relation pattern and decode a held construction without changing the key.",
+  "scope": "semantic",
+  "status": "draft_unreviewed_not_added",
+  "design": {
+    "mechanism": "roundtrip-stable semantic representation versus overfit local renderer",
+    "unit": "held complete constructions or paired reading contexts",
+    "contrast": "The same finite representation should regenerate both source-side relation constraints and held target constraints; an overfit renderer reproduces training contexts but fails the held construction.",
+    "prediction": "Existing decoders and renderers optimize surface reconstruction or German fluency, not a predeclared semantic roundtrip with a held construction.",
+    "countermodel": "A surface-copying, renderer, or context-conditioned convention can mimic training observations without the proposed semantic mechanism.",
+    "falsifier": "Training passes but the held construction requires a new slot or ad hoc exception, so the candidate is discarded.",
+    "principal_risk": "A representation can be structurally adequate without being linguistic; no solved words are required but an independent relation target is.",
+    "endpoint_status": "availability_unknown",
+    "smallest_test": "Define a three-slot abstract semantic representation and hold one complete construction; require exact preservation of participant/order/state constraints.",
+    "prior_duplicate_pointers": "Near GDT581/GDT832 and IDEA000097; distinct criterion is held semantic roundtrip, not raw adjacency or renderer fit.",
+    "selection_status": "raw unreviewed; no readiness or novelty claim"
+  }
+}

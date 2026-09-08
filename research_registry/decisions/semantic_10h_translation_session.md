@@ -26,3 +26,14 @@ GDT879 pilot14:08UTC, publication deadline14:28UTC. Preregistration frozen
 7f5939d7 before native observations. ROOT/B independent packets preserved.
 Zero of3pages supplies exact complete compatible graph; measurementstop,
 not semanticnegative. Source/packetvalidationPASS; no newpage or decoder.
+
+GDT879 publication verified14:23:41UTC at5e8c4e35bd6fbc621e3fe3718e1e19763c466b16,
+within15m41s of20m pilot budget. Native part comparison didnotnominate crossed
+components. Graphicbatch reconfirmedknownmotifs; publication missed14:58UTC
+25mdeadline while separate880 work proceeded; no furthergraphicexpansion.
+GDT880 prereg/spec frozenb54e7669; first target by15:00UTC, validation15:01UTC.
+Three immediate same-head triples on3lines/3leaves/3heads, below20line/5leaftriage;
+no arithmetic score orvalue meaning. Publication deadline15:15UTC.
+Nine newrawagentideas101–109 plusroot110 retained. Sixdesignreviews101–106;
+three methodological,three semanticnot-tested.103ablationcriterion has an
+explicit logicalcounterexample.110 capacityreview links880, notnumericfailure.

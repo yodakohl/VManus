@@ -1,0 +1,50 @@
+{
+  "record_id": "IDEA000103",
+  "reviewer": "root with independent QA1 design screen",
+  "scope": "method",
+  "verdict": "not_tested",
+  "assessment_basis": "logical_design_review_no_manuscript_test",
+  "reason": "The ablation requirement can reject a correctly identified intersection key. Let U={a,b,c}, constraint1={a,b}, constraint2={a,c}. Their intersection uniquely selects a, but removing either nonredundant constraint leaves two possibilities. Loss of unique identification after removal is not a falsification of the correct intersection. This is a design counterexample, not a manuscript test.",
+  "design": {
+    "mechanism": "intersection-selected key versus arbitrary best single-channel gloss",
+    "unit": "held complete constructions or paired reading contexts",
+    "contrast": "A held form should retain the same commitment when any one training channel is removed; a single-channel gloss should change or become underdetermined.",
+    "prediction": "GDT360 and GDT832 combine channels for prediction but do not require a finite semantic commitment to survive leave-one-channel-out permutation.",
+    "countermodel": "A surface-copying, renderer, or context-conditioned convention can mimic training observations without the proposed semantic mechanism.",
+    "falsifier": "The commitment changes under removal of one nonredundant channel, or all permutations tie after honest capacity control.",
+    "principal_risk": "Independent channels may be dependent and no readable plaintext anchor is currently available.",
+    "endpoint_status": "availability_unknown",
+    "smallest_test": "Freeze three constraint families, learn on two, then leave one family out on a held form and inspect whether the candidate commitment remains uniquely ranked.",
+    "prior_duplicate_pointers": "Near GDT360/GDT832; distinct falsifier is commitment stability under channel ablation, not score improvement.",
+    "selection_status": "raw unreviewed; no readiness or novelty claim"
+  },
+  "blockers": [
+    {
+      "code": "invalid_test",
+      "detail": "The ablation requirement can reject a correctly identified intersection key. Let U={a,b,c}, constraint1={a,b}, constraint2={a,c}. Their intersection uniquely selects a, but removing either nonredundant constraint leaves two possibilities. Loss of unique identification after removal is not a falsification of the correct intersection. This is a design counterexample, not a manuscript test.",
+      "evidence": [
+        "research_registry/decisions/qa7_root_raw_design_review.json",
+        "research_registry/proposals/qa0_constraint_intersection_key.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "finite_discriminating_source_contract",
+        "change": "new_design",
+        "detail": "Provide a finite source-specific contract that addresses this recorded design objection and a rival with different observable predictions. Independently bound words are not a blanket prerequisite for exploratory joint inference.",
+        "evidence": [
+          "research_registry/decisions/qa7_root_raw_design_review.json",
+          "research_registry/proposals/qa0_constraint_intersection_key.json"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "A new model, renderer, larger corpus or more matching formal labels without resolving the recorded objection."
+    ]
+  },
+  "relations": [],
+  "claim_ceiling": "Original proposal preserved; no empirical semantic refutation or confirmed meaning."
+}

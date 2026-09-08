@@ -1,0 +1,50 @@
+{
+  "record_id": "IDEA000104",
+  "reviewer": "root with independent QA1 design screen",
+  "scope": "semantic",
+  "verdict": "not_tested",
+  "assessment_basis": "logical_design_review_no_manuscript_test",
+  "reason": "Distinct operations can agree on the observed input/output states. The named rival explicitly allows coincident contexts, so output preservation on another such context does not distinguish it. Specify a separating input or relation where the two complete operations predict different outcomes; no preknown word translation is required for joint inference.",
+  "design": {
+    "mechanism": "function-preserving paraphrase versus distinct operations with coincident contexts",
+    "unit": "held complete constructions or paired reading contexts",
+    "contrast": "A held variant substitution should preserve the typed output relation and downstream state; a distinct-operation rival predicts a changed output or required intermediate.",
+    "prediction": "Earlier paraphrase archives compare renderer cards or surface forms without a held semantic operation output.",
+    "countermodel": "A surface-copying, renderer, or context-conditioned convention can mimic training observations without the proposed semantic mechanism.",
+    "falsifier": "The substitution changes the next typed state or requires an unrecorded operation, so the variants remain distinct.",
+    "principal_risk": "Typed input/output states are not independently named; only relation-level endpoints can be used.",
+    "endpoint_status": "availability_unknown",
+    "smallest_test": "Find two existing whole variants with shared written input/output surroundings, hold one occurrence out, and test output preservation before assigning any paraphrase.",
+    "prior_duplicate_pointers": "Near historical controlled-paraphrase work, but requires a held output relation and no ordinary-language gloss.",
+    "selection_status": "raw unreviewed; no readiness or novelty claim"
+  },
+  "blockers": [
+    {
+      "code": "missing_design",
+      "detail": "Distinct operations can agree on the observed input/output states. The named rival explicitly allows coincident contexts, so output preservation on another such context does not distinguish it. Specify a separating input or relation where the two complete operations predict different outcomes; no preknown word translation is required for joint inference.",
+      "evidence": [
+        "research_registry/decisions/qa7_root_raw_design_review.json",
+        "research_registry/proposals/qa0_function_preserving_reconstruction.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "finite_discriminating_source_contract",
+        "change": "new_design",
+        "detail": "Provide a finite source-specific contract that addresses this recorded design objection and a rival with different observable predictions. Independently bound words are not a blanket prerequisite for exploratory joint inference.",
+        "evidence": [
+          "research_registry/decisions/qa7_root_raw_design_review.json",
+          "research_registry/proposals/qa0_function_preserving_reconstruction.json"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "A new model, renderer, larger corpus or more matching formal labels without resolving the recorded objection."
+    ]
+  },
+  "relations": [],
+  "claim_ceiling": "Original proposal preserved; no empirical semantic refutation or confirmed meaning."
+}

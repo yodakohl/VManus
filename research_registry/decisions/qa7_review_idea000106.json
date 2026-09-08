@@ -1,0 +1,50 @@
+{
+  "record_id": "IDEA000106",
+  "reviewer": "root with independent QA1 design screen",
+  "scope": "method",
+  "verdict": "not_tested",
+  "assessment_basis": "logical_design_review_no_manuscript_test",
+  "reason": "A held reconstruction criterion can assess a proposed model, but source/target relations and the semantic representation remain unspecified. Reversibility by itself does not identify denotation. Nominate a finite independently observed relation with a real held recombination; do not count an analyst-state roundtrip as a translated clause.",
+  "design": {
+    "mechanism": "roundtrip-stable semantic representation versus overfit local renderer",
+    "unit": "held complete constructions or paired reading contexts",
+    "contrast": "The same finite representation should regenerate both source-side relation constraints and held target constraints; an overfit renderer reproduces training contexts but fails the held construction.",
+    "prediction": "Existing decoders and renderers optimize surface reconstruction or German fluency, not a predeclared semantic roundtrip with a held construction.",
+    "countermodel": "A surface-copying, renderer, or context-conditioned convention can mimic training observations without the proposed semantic mechanism.",
+    "falsifier": "Training passes but the held construction requires a new slot or ad hoc exception, so the candidate is discarded.",
+    "principal_risk": "A representation can be structurally adequate without being linguistic; no solved words are required but an independent relation target is.",
+    "endpoint_status": "availability_unknown",
+    "smallest_test": "Define a three-slot abstract semantic representation and hold one complete construction; require exact preservation of participant/order/state constraints.",
+    "prior_duplicate_pointers": "Near GDT581/GDT832 and IDEA000097; distinct criterion is held semantic roundtrip, not raw adjacency or renderer fit.",
+    "selection_status": "raw unreviewed; no readiness or novelty claim"
+  },
+  "blockers": [
+    {
+      "code": "missing_design",
+      "detail": "A held reconstruction criterion can assess a proposed model, but source/target relations and the semantic representation remain unspecified. Reversibility by itself does not identify denotation. Nominate a finite independently observed relation with a real held recombination; do not count an analyst-state roundtrip as a translated clause.",
+      "evidence": [
+        "research_registry/decisions/qa7_root_raw_design_review.json",
+        "research_registry/proposals/qa0_semantic_roundtrip.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "finite_discriminating_source_contract",
+        "change": "new_design",
+        "detail": "Provide a finite source-specific contract that addresses this recorded design objection and a rival with different observable predictions. Independently bound words are not a blanket prerequisite for exploratory joint inference.",
+        "evidence": [
+          "research_registry/decisions/qa7_root_raw_design_review.json",
+          "research_registry/proposals/qa0_semantic_roundtrip.json"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "A new model, renderer, larger corpus or more matching formal labels without resolving the recorded objection."
+    ]
+  },
+  "relations": [],
+  "claim_ceiling": "Original proposal preserved; no empirical semantic refutation or confirmed meaning."
+}

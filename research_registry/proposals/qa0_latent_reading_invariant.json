@@ -1,0 +1,19 @@
+{
+  "title": "A semantic key preserves propositions across alternate readings",
+  "summary": "A latent transcription-channel model first assigns alternate reading uncertainty, then infers a small semantic key whose proposition is invariant across ZL3b, IT2a and RF1b readings.",
+  "scope": "semantic",
+  "status": "draft_unreviewed_not_added",
+  "design": {
+    "mechanism": "one proposition invariant across readings versus a reading-conditioned semantic code",
+    "unit": "held complete constructions or paired reading contexts",
+    "contrast": "After marginalizing reading uncertainty, held paraphrase/role commitments should agree across all three readings; a reading-conditioned code predicts systematic proposition changes tied to the edition.",
+    "prediction": "Old reading-fidelity and latent-channel work tested surface prediction or transcription policy, not a held semantic invariant with a rival reading-conditioned meaning.",
+    "countermodel": "A surface-copying, renderer, or context-conditioned convention can mimic training observations without the proposed semantic mechanism.",
+    "falsifier": "A held family requires different semantic propositions by reading despite equal source context, or the invariant model only succeeds through renderer labels.",
+    "principal_risk": "Need cached alternate readings and independently defined proposition constraints; no English gold is available.",
+    "endpoint_status": "availability_unknown",
+    "smallest_test": "Fit on two reading-stable construction families, hold one family out, and compare invariant versus reading-conditioned predictions.",
+    "prior_duplicate_pointers": "Near GDT832 and LTG001; distinct target is semantic proposition invariance, not transcription accuracy.",
+    "selection_status": "raw unreviewed; no readiness or novelty claim"
+  }
+}

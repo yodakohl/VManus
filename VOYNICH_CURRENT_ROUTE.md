@@ -14,12 +14,17 @@ phaselaw, score, meaning ornewpage. Bothnominatedentries stop;no794positionrerun
 879nativepilot complete:3fixedplantpages,0exact completecompatiblegraphs.
 Bothviewers findlocalforks;fullunitcounts/ancestry remainunresolved. Measurement
 stop only;no decoder/textscore/meaning/newpage. Source/packetvalidationPASS.
-Next: source-grounded part-reuse feasibility underreview;no testselected.
+880complete:163selectors,3immediate same-head triples/3lines/3leaves/3heads;
+all3readingconcordant. Below20line/5leaftriage; noarithmeticscore ornumbermeaning.
+No widerwindow/headmerger follow-on.110semanticnot-tested; capacity+design gates.
+Nativepart/graphicbatch selectsno newcontrast; knownmotifs,0newpages.
+103ablationcriterion flawed: complementaryconstraints canidentifyonlyjointly.
+No next experimentselected; jointlybound constraints remain the intended route.
 
 4h continuation completed:2026-09-08 07:12:17–11:12:18UTC.
 Session:research_registry/decisions/semantic_4h_followon_session.md.
-No next semantic experiment selected;44rawproposals remainunreviewed.
-100raw/99unique;54method;87semanticnot-tested. No automatic decoder/control/atlas follow-on.
+No next semantic experiment selected;47rawproposals remainunreviewed.
+110raw/109unique;57method;87/102/104/105/110semanticnot-tested. No automatic decoder/control/atlas follow-on.
 3946semantic variants/266formal cards;4893sourcecases;162scopedquestions.
 Thisinterval recovered2historicalfinite models with20+28applications, notnewmeanings.
 

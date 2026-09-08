@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "review_id": "QA1_RAW_METHOD_SCREEN",
+  "status": "NO_SELECTION",
+  "scope": "IDEA000101-IDEA000106 and their six qa0 proposal files",
+  "question": "Does any proposal supply a finite observable that distinguishes a semantic model from arbitrary semantic-label permutation and therefore changes the translation route?",
+  "prior_checked": [
+    {
+      "pointer": "research_registry/proposals/translation_reconstruction_plan.md",
+      "sha256": "8bc24aa88249557850c11fd6a0d00319eebfadf803233bc64e1a223e646b816c",
+      "finding": "requires a new source-bound relation prediction; labels, fluent rendering, and formal structure alone do not identify meaning"
+    },
+    {"pointer": "GDT346", "finding": "cross-coordinate operator transfer was formal compatibility without transfer"},
+    {"pointer": "GDT581", "finding": "grammar hosts and exact roundtrips were completed without concrete meanings"},
+    {"pointer": "GDT809", "finding": "competing complete paragraph readings left meanings unresolved"},
+    {"pointer": "GDT832", "finding": "joint context/family control failed; a shared key and held recovery were not established"}
+  ],
+  "candidates": [
+    {
+      "id": "IDEA000101",
+      "proposal": "qa0_latent_reading_invariant.json",
+      "proposal_sha256": "2cba4f4c785a1e1a14354cb3df04dda2a9331903f777fe5881321377225a6e12",
+      "verdict": "reject_for_now",
+      "reason": "Reading-invariant versus reading-conditioned propositions is a meaningful rival only after an independently defined proposition endpoint. Marginalizing ZL3b/IT2a/RF1b cannot make an unobserved semantic label identifiable; either model can relabel the latent key."
+    },
+    {
+      "id": "IDEA000102",
+      "proposal": "qa0_referent_chain_interruption.json",
+      "proposal_sha256": "8ba764243642cd26ac46767edc174214908abc8dbe85dbe5f9936d2aa8399caa",
+      "verdict": "duplicate_or_blocked",
+      "reason": "This is IDEA000007's A-B-A continuity question with a renamed feature-inheritance endpoint. Participant identity and incompatible-feature judgments remain unobserved; no finite semantic contrast is supplied."
+    },
+    {
+      "id": "IDEA000103",
+      "proposal": "qa0_constraint_intersection_key.json",
+      "proposal_sha256": "8ad8c8313634e477625bf40d9743321a5a08fb3c12eaa56af7cbbbe7482f12c5",
+      "verdict": "method_only",
+      "reason": "Leave-one-channel-out ranking is an identifiability/training procedure, not a new observable. Without a finite plaintext or proposition endpoint, channel ablation can select among arbitrary keys while preserving every measured structural output; it is close to GDT832/GDT360."
+    },
+    {
+      "id": "IDEA000104",
+      "proposal": "qa0_function_preserving_reconstruction.json",
+      "proposal_sha256": "c373b97bfb0760e9ee813999370c25b378188556e5720917c54e956c6f9ce400",
+      "verdict": "strongest_but_not_selectable",
+      "reason": "A held variant substitution could falsify a distinct-operation model if typed input/output states were independently observed. Here those states are analyst labels; preserving a relation-level renderer endpoint is compatible with arbitrary paraphrase names and with GDT581/GDT809-style formal reconstructions."
+    },
+    {
+      "id": "IDEA000105",
+      "proposal": "qa0_commitment_scope_protocol.json",
+      "proposal_sha256": "2182a795723eeef9c705229cc1f7418b61d87c4ad4b6a327c904576fea70b31c",
+      "verdict": "duplicate_or_blocked",
+      "reason": "This repeats IDEA000070's asserted-versus-conditional operator. No independently authorial commitment cue, matched same-frame contrast, or finite falsifier is available; punctuation/layout cannot be assumed semantic."
+    },
+    {
+      "id": "IDEA000106",
+      "proposal": "qa0_semantic_roundtrip.json",
+      "proposal_sha256": "dba7f24a9f89ceae26e0c6bd7ab8d11abcf9db5d722f928d8f3355bb03d455d3",
+      "verdict": "duplicate_or_blocked",
+      "reason": "Held encode/decode roundtrip is a stronger held-out criterion than surface fit, but its three-slot semantic representation and participant/order/state constraints are supplied by the analyst. A reversible renderer can satisfy them without identifying a word or proposition; this overlaps GDT581, GDT809 and the plan's explicit roundtrip warning."
+    }
+  ],
+  "selection": {
+    "candidate": null,
+    "reason": "None supplies both a predeclared finite semantic observable and a rival prediction that cannot be reproduced by relabeling latent meanings or rendering analyst-defined states. IDEA000104 is the closest, but needs an independently observed typed state/output relation before it becomes a source-grounded question.",
+    "smallest_missing_step": "Find a repeated whole-form contrast whose downstream input/output or participant relation is fixed by an admitted source feature independent of the proposed translation. Then freeze one held occurrence and its rival predictions before assigning labels.",
+    "do_not_run": "No decoder, renderer, corpus expansion, or semantic-gold acquisition follows from this screen."
+  }
+}
