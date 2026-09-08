@@ -3,6 +3,14 @@ Updated: 2026-09-08. Read first.
 
 ## Latest completed continuation and next selection
 
+Translation plan prepared 2026-09-08:
+research_registry/proposals/translation_reconstruction_plan.md.
+Next proposed action:30min bounded discovery of a real text/image recombination;
+parallel f67r2 geometric feasibility only. Existing GDT794 repeated forms are
+starting examples, not a proved crossed construction; no position-test rerun.
+No experiment selected or meaning promoted. Conditional semantic test≤60min
+only after an actual rival-divergent observable exists. Plan is not preregistration.
+
 4h continuation completed:2026-09-08 07:12:17–11:12:18UTC.
 Session:research_registry/decisions/semantic_4h_followon_session.md.
 No next semantic experiment selected;36rawproposals remainunreviewed.
