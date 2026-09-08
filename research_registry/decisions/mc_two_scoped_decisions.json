@@ -1,0 +1,162 @@
+{
+  "status": "ROOT_VALIDATED",
+  "decisions": [
+    {
+      "id": "FAILURE_MC:VALUE_CORE_AXIS_AND_SEGMENTATION:v1",
+      "decision_key": "FAILURE_MC:VALUE_CORE_AXIS_AND_SEGMENTATION",
+      "previous_revision": null,
+      "revision": 1,
+      "targets": [
+        "SEM:5fca3d7fce3e47d8eeda",
+        "SEM:92d697a971304c759240",
+        "SEM:51c056fee563bd3fa3e9"
+      ],
+      "claim": "What does the shared II/III core claim add beyond working head/axis labels, and which claim can be assessed without assuming the others?",
+      "status": "reviewed_scoped_context",
+      "review_status": "reviewed_scoped_context",
+      "reviewer": "root exact source and current-card review after MF draft",
+      "scope": "The named GDT711 core variants, with686 predecessor or693 local-context limits; no automatic claims about other model variants.",
+      "reason_class": "working_core_consolidation_without_independent_attribute_binding",
+      "actually_tested_falsifier": "GDT686 already separates proposed value II/III from a head-selected quality/count axis; GDT711 consolidates lexical entries and local realizations. The source head meanings and numeric assignments are working assumptions, not independent semantic observations. Repeated forms alone do not universally refute and/take interpretations. qodaiin boundary alternatives belong to alternate readings of one manuscript.",
+      "outcome": "The historical core and local realization remain source-attested unconfirmed hypotheses. No independent numeric, axis, material or component identity was established by this curation.",
+      "empirical_meaning_refutation": false,
+      "automatic_card_status_propagation": false,
+      "claim_ceiling": "No new manuscript test, word meaning or automatic reopening of a closed family.",
+      "card_basis": {
+        "SEM:5fca3d7fce3e47d8eeda": "e48d3c01cc2514223e95cca618482eeafaedb1df8f01a5361be072c971e606fa",
+        "SEM:92d697a971304c759240": "f9c177523d99dc97f73d5f86337e42501eaa24e6f70970dcfa9d68f7bdf8cb2c",
+        "SEM:51c056fee563bd3fa3e9": "cd85cb7c4824c625f3d9cf1842eac8041fc36d1b794afb286f15c0b472d179fa"
+      },
+      "effective_basis": {
+        "SEM:5fca3d7fce3e47d8eeda": "b5287b8fbca1336b5fd25dc42c624ad1f8339b969e35071a79a54c6680e1934a",
+        "SEM:92d697a971304c759240": "c4caca89bf0921d5b8dfba16d4cd813285070bc270cc9035cb82f903ddfa5da5",
+        "SEM:51c056fee563bd3fa3e9": "7f02fa6cbc60fe5668a93361555d5db66a81034c847ed14b1f0b14258d19d18d"
+      },
+      "source_case_ids": {
+        "SEM:5fca3d7fce3e47d8eeda": [
+          "CLEAN_GAP_MC:DAIN_CORE"
+        ],
+        "SEM:92d697a971304c759240": [
+          "CLEAN_GAP_MC:DAIIN_CORE"
+        ],
+        "SEM:51c056fee563bd3fa3e9": [
+          "CLEAN_GAP_MC:QODAIIN_CORE"
+        ]
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt711_v84_active_weak_family_repair/REPORT.md",
+          "line": 7,
+          "line_end": 13,
+          "quote": "V84 audits all 181 active W0/W1 readings and repairs the first 30 source readings (49 unchanged token positions on 25 pages). The central correction is architectural: the dictionary now stores a compact lexical core, while the occurrence table stores the practical local realization. Thus the seven active `daiin` senses collapse to one lexical core `Wert III`, with `Grad III` or `drei` retained only as context realizations; the three `dain` senses analogously collapse to `Wert II`.\n\nThe active dictionary contracts from 332 to 324 lexical readings without deleting or resegmenting any of the 479 token positions. The complete dictionary contracts from 1,594 to 1,586 readings while retaining 1,582 surfaces. Active levels are 11 W0, 149 W1, 145 W2 and 19 W3. Every historical confirmation remains `H0_NONE`, and GDT696–GDT709 still contribute zero word-confidence points.\n\n## Material repairs\n\n- Value family: `dain/daiin` become abstract values II/III; local grade-versus-count rendering is separate. `qodaiin` remains a distinct W1 `Wert III` reading; its decomposition field keeps `qod|aiin` versus `qo|daiin` open and QO receives no free semantic credit.",
+          "sha256": "a74950a653c731e4cf569f88ae460508acdb87539efa0cb10aa27e119d2f4fd0"
+        },
+        {
+          "path": "experiments/yolo/gdt686_v59_dain_daiin_qodaiin_value_head_dispatch/REPORT.md",
+          "line": 7,
+          "line_end": 26,
+          "quote": "Die alte Karte `Grad-/Maßwert` war keine Übersetzung, sondern zwei\nunentschiedene Möglichkeiten in einem Feld. V59 trennt jetzt Form und Achse:\n\n```text\ndain     = d + Wertstufe II\ndaiin    = d + Wertstufe III\nqodaiin  = qod + Wertstufe III\n```\n\nDanach entscheidet der sichtbare Satzkopf:\n\n```text\nQualitätskopf + d-Wert   -> Qualität im Grad II/III\nStoff-/Teilkopf + d-Wert -> zwei/drei lokale Portionen oder Maße\nkein typisierter Kopf    -> Wertstufe bleibt stabil, Sachachse lokal offen\n```\n\nFür den globalen Renderer gibt es deshalb kein universelles `Grad III` und\nkein universelles `drei Portionen`. Für die elf Stellen unseres aktuellen\nReaders wählt V59 dagegen bewusst je einen konkreten lokalen Default: vier",
+          "sha256": "67bafd8836bb5fbce962d8d89be495aaae61a075179cd7586dd28918210a0c03"
+        },
+        {
+          "path": "experiments/yolo/gdt686_v59_dain_daiin_qodaiin_value_head_dispatch/REPORT.md",
+          "line": 93,
+          "line_end": 104,
+          "quote": "\nSie besitzt keinen kontrollierten Mehrwert-Nachbarrahmen. Zwei\nAlternativleser zeigen sogar verschiedene innere Grenzen desselben Spans:\n\n```text\nf86v3.25  qodaiin  <->  qod | aiin\nf95r2.1   qodaiin  <->  qo  | daiin\n```\n\nDarum bleibt die globale Karte `qod-Wertzelle III; Kopf offen`. Das freie\n`qo`-Aktionsgloss wird nicht in das gebundene Wort hineinkopiert. Am einzelnen\nLocus darf ein sichtbarer Kopf dennoch einen praktischen Default auswählen.",
+          "sha256": "67bafd8836bb5fbce962d8d89be495aaae61a075179cd7586dd28918210a0c03"
+        }
+      ],
+      "review_artifact": {
+        "path": "research_registry/decisions/mc_root_two_core_questions.json",
+        "sha256": "9912792a87103b23555ff7dd8244747c6a84774d801ea930bc18d053e9e9d163"
+      },
+      "reopening": {
+        "status": "REVIEW_REQUIRED_NOT_TEST_READY",
+        "assessed_by": "curation_review",
+        "criteria_origin": "Prospective source-question review, not an experimental preregistration.",
+        "all_of": [
+          "Choose the particular claim being tested: numeric value, context-selected axis, or internal segmentation. Nominate complete occurrences and an observable on which explicitly restricted rival models differ; establish the applicable held/provenance capacity. These are not one conjunction of all unresolved claims."
+        ],
+        "per_aspect": {
+          "numeric_value": "For II/III identity, bind relevant wholeform occurrences to independently observed order or cardinality under a fixed mapping rule. Reused i-count labels or inherited German values do not supply that observation. A slot-reuse test alone remains a structural result.",
+          "axis": "To assess grade versus count selection, nominate an independently justified local axis contrast and response; the tested renderer cannot provide both head-type gold and the outcome. Preserve value-only interpretations when the substantive axis remains open.",
+          "qodaiin_segmentation": "A wholeform-value test does not require internal segmentation to be settled. A separate segmentation or QO-meaning claim needs its own licensed contrast; affinity with similarly spelled qod/daiin forms is not automatically a distinct prediction of the two parses."
+        },
+        "not_sufficient": [
+          "More repeated values or neighbor frames with the same inherited numeric/axis labels.",
+          "Treating ZL3b/IT2a/RF1b as independent manuscripts.",
+          "Requiring every future wholeform test to resolve all component meanings first."
+        ]
+      }
+    },
+    {
+      "id": "FAILURE_MC:OLKAR_RIVAL_INTERSECTION:v1",
+      "decision_key": "FAILURE_MC:OLKAR_RIVAL_INTERSECTION",
+      "previous_revision": null,
+      "revision": 1,
+      "targets": [
+        "SEM:4d9bd18a69bff4bcc9a3"
+      ],
+      "claim": "What supports each olkar core attribute independently of the inherited rival intersection, and when can the local preparation/product refinement be distinguished?",
+      "status": "reviewed_scoped_context",
+      "review_status": "reviewed_scoped_context",
+      "reviewer": "root exact source and current-card review after MF draft",
+      "scope": "The named GDT711 core variants, with686 predecessor or693 local-context limits; no automatic claims about other model variants.",
+      "reason_class": "intersection_of_inherited_rivals_not_independent_agreement",
+      "actually_tested_falsifier": "GDT711 keeps the common hot/wood/share-I intersection of inherited rivals and removes preparation/extract from the core. GDT693 has six locally motivated product readings while preserving a preparation rival. Agreement between two inherited glosses on wood/hot/share is not independent confirmation of those attributes; the local referent refinement does not establish another R meaning.",
+      "outcome": "The historical core and local realization remain source-attested unconfirmed hypotheses. No independent numeric, axis, material or component identity was established by this curation.",
+      "empirical_meaning_refutation": false,
+      "automatic_card_status_propagation": false,
+      "claim_ceiling": "No new manuscript test, word meaning or automatic reopening of a closed family.",
+      "card_basis": {
+        "SEM:4d9bd18a69bff4bcc9a3": "4a9b2f7f40746e344edc98bf656d7c3f9493986d9ca4159b90d99d4d9691ddb8"
+      },
+      "effective_basis": {
+        "SEM:4d9bd18a69bff4bcc9a3": "f58f43ed88fe1e2d3d5bfc9e1caa9104f86c3875557e3f8ac74d2b35e31995f3"
+      },
+      "source_case_ids": {
+        "SEM:4d9bd18a69bff4bcc9a3": [
+          "CLEAN_GAP_MC:OLKAR_CORE"
+        ]
+      },
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt711_v84_active_weak_family_repair/REPORT.md",
+          "line": 14,
+          "line_end": 21,
+          "quote": "- Unsupported nouns and units are deleted: no automatic Gummi, Gran, Handvoll, Dosis, Mazerat, Absud or Auszug identity survives merely because a fluent renderer used it.\n- `am/dam/dal/oidal` retain only visible measure/material structure; no historical unit is claimed.\n- CKH forms retain exact-family `Mischgut/Mischung`, never a free universal CKH word or an identified medicine.\n- `olkar` retains the intersection shared by both live rivals—hot, wood, share I—while Ansatz versus Auszug is removed. Free `ol` stays W1; bound `ol#2` stays W0 and nonportable.\n\n## Guardrails\n\nExact normalized master-card matches are published as navigation links only and always receive automatic score credit 0. All 19 prior W3 readings and their 77 positions preserve meaning, score, semantic scope, applicability, export boundary, bound spans, writer and provenance. Structural readings remain structural; the compound-only `ol#2` is explicitly non-exportable. No new page, spelling, segmentation, historical analogue, plaintext identification, `f84`, or `f84r` is used.",
+          "sha256": "a74950a653c731e4cf569f88ae460508acdb87539efa0cb10aa27e119d2f4fd0"
+        },
+        {
+          "path": "experiments/yolo/gdt693_ar_head_semantic_tournament/REPORT.md",
+          "line": 115,
+          "line_end": 122,
+          "quote": "Six `olkar` contexts make a Holz product plausible through soaking, heating,\nmacerate context, subsequent additions or established amount binding. Their\napparatus reading is **Anteil I des heißen Holzauszugs** rather than **Anteil I\ndes heißen Holzansatzes**. They occur at f75r.3, f80r.17, f80v.35, f83v.12,\nf86v3.13 and f86v6.5.\n\nThis is a change of local referent, not a second meaning for R. The selected\nmain therefore does not infer extraction wherever `olkar` occurs.",
+          "sha256": "7c3b4ad0c18e0c36a069f316b74b216f68edff61eeb242a910a15daa957552b5"
+        }
+      ],
+      "review_artifact": {
+        "path": "research_registry/decisions/mc_root_two_core_questions.json",
+        "sha256": "9912792a87103b23555ff7dd8244747c6a84774d801ea930bc18d053e9e9d163"
+      },
+      "reopening": {
+        "status": "REVIEW_REQUIRED_NOT_TEST_READY",
+        "assessed_by": "curation_review",
+        "criteria_origin": "Prospective source-question review, not an experimental preregistration.",
+        "all_of": [
+          "Select one attribute or the preparation/product refinement to assess, bind an independently observable consequence to actual complete olkar occurrences, and freeze rival predictions and eligible comparison scope. Other unresolved attributes need not all be decoded first."
+        ],
+        "per_aspect": {
+          "core_attributes": "Test hot, wood or share-I content using an independently justified binding relevant to that attribute. Shared inherited labels across competing renderer readings are not independent corroboration.",
+          "preparation_product": "A local apparatus/process or reference cue can motivate a restricted preparation-versus-product comparison. Do not assume that a context-variable underspecified core and unrestricted lexical polysemy are distinguishable by the same-word contexts alone; specify an actual differing prediction.",
+          "export": "An occurrence-level result does not automatically release OL, OLK or R meanings or a portable all-occurrences olkar rule."
+        },
+        "not_sufficient": [
+          "Taking the intersection of two old glosses as new semantic evidence.",
+          "More of the same six GDT693 contexts with unchanged analyst labels.",
+          "A form-conditioned split when every nominated form is identically olkar and no conditioning contrast is defined."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "MA_ACTION_RESULT_709_711_SOURCE_MEMORY_AUDIT",
+  "scope": "Bounded read-only audit of GDT709–711 after lookup; no raw TSV, images, new experiments or operative mutation.",
+  "verdict": "zero_missing_historical_propositions_in_bounded_reports",
+  "source_owners": {
+    "GDT709_report": "LEGACY_COMPONENT:4b9456427a13c1ba9e1f",
+    "GDT710_report": "LEGACY_COMPONENT:3cbe445738905da6ae06",
+    "GDT711_report": "LEGACY_COMPONENT:372a21154de2b87492c6"
+  },
+  "findings": [
+    {
+      "source": "GDT709",
+      "proposition": "A048 f77r.38#3–5: end portion added, hot grade III, possible terminal completed middle-dried medicinal composite; retained HIGH_HOLD_NO_EDGE.",
+      "counterpart": "SEM:14f954b4c260354e1a3a already stores the exact A048 source-bound hold. GDT709 also explicitly says C019/C021 are inherited and A048 is not an edge or word default.",
+      "disposition": "covered; preserve local rival and limits"
+    },
+    {
+      "source": "GDT710",
+      "proposition": "No new historical semantic proposition: confidence/evidence bookkeeping over existing 1582 surfaces/1594 readings and 2115 master rows.",
+      "counterpart": "No current card is needed for the audit index itself; all historical readings remain H0_NONE.",
+      "disposition": "audit metadata, not omitted proposition"
+    },
+    {
+      "source": "GDT711",
+      "proposition": "No new historical proposition: repairs compact lexical cores versus occurrence-bound German realizations, preserving existing source positions and readings.",
+      "counterpart": "Existing cards for daiin/dain/olkar/CKH and other repaired readings are predecessor/source-bound claims; the report explicitly describes repair and deletion of unsupported atoms, not a new source model.",
+      "disposition": "scope correction/repair, not omitted proposition"
+    }
+  ],
+  "not_invented": [
+    "GDT709 reader partitions and stopping statistics were not promoted to extra meanings.",
+    "GDT710 confidence levels were not treated as semantic confirmation.",
+    "GDT711 removed unsupported noun/unit atoms but did not create new historical cards.",
+    "No claim is made that all later source remainders are exhausted; only these three reports were audited."
+  ],
+  "evidence": [
+    {
+      "role": "A048 explicit high hold",
+      "source_owner_id": "LEGACY_COMPONENT:4b9456427a13c1ba9e1f",
+      "path": "experiments/yolo/gdt709_v82_complete_first_terminal_product_census/REPORT.md",
+      "line": 20,
+      "line_end": 32,
+      "quote": "\nThe manual partition of all 42 windows is exact: nine locally readable endpoints,\nseven earlier completions that block longer paths, twelve reset/break cases,\nthirteen with no coherent product path, and C020/A083 as one coherent but\nnon-finished result-state exception.\n\n## Best new working reading\n\n> **A048 / f77r.38#3-5:** Endportion hinzugeben. Danach steht: heiß, Grad III.\n> Mögliches terminales Produkt: abgeschlossenes, bis zur Mittelstufe\n> getrocknetes Arzneikompositum.\n\nThis is not generic renderer filler. It names an input portion, a thermal and",
+      "sha256": "8ebf1d0a20ad1f50d0ed8185b8d65637936626e43fe09f1b0fc2147ba64a5e0d"
+    },
+    {
+      "role": "GDT709 interpretation ceiling",
+      "source_owner_id": "LEGACY_COMPONENT:4b9456427a13c1ba9e1f",
+      "path": "experiments/yolo/gdt709_v82_complete_first_terminal_product_census/REPORT.md",
+      "line": 56,
+      "line_end": 68,
+      "quote": "\nLikewise, “nine endpoints” does not mean nine blocker-free causal paths. A005,\nA014, A041 and A048 have their first unresolved operation or degree mismatch\nin the selected terminal field itself. They remain visible because the local\nproduct phrase is readable; the mismatch is precisely why they stay holds or\nSTOPs.\n\n## Graph and dictionary effect\n\nNone. The V81 graph remains 20 edges, 14 components, 37 unique edge nodes, 43\nincidences, 45 hull positions and 45 render positions. All 479 token glosses,\n51 line translations and three bound spans remain inherited unchanged. No\nGDT388 packet is needed because this pass adds no relation evidence.",
+      "sha256": "8ebf1d0a20ad1f50d0ed8185b8d65637936626e43fe09f1b0fc2147ba64a5e0d"
+    },
+    {
+      "role": "GDT710 confidence audit scope",
+      "source_owner_id": "LEGACY_COMPONENT:3cbe445738905da6ae06",
+      "path": "experiments/yolo/gdt710_v83_complete_dictionary_confidence_evidence/REPORT.md",
+      "line": 3,
+      "line_end": 14,
+      "quote": "Status: `PASS_V83_2115_MASTER_CARDS__1430_GLOBAL_SURFACES__1582_COMPLETE_WORD_SURFACES_1594_READINGS__320_LIVE_SURFACES_332_LIVE_READINGS_479_OCCURRENCES__ALL_H0_NONE__CONFIDENCE_IS_NOT_PLAINTEXT`\n\n## Ergebnis\n\nDie primäre Worttabelle enthält 1.582 verschiedene Oberflächenformen und 1.594 Lesarten. Sie verwendet für jede der 320 aktiven Formen den neueren V68-Sinnbestand und für die übrigen Formen den globalen V48-Default. Polyseme Formen werden nicht zusammengemittelt.\n\nDie 2.115 Zeilen des Master-Wörterbuchs sind separat bewertet, weil darunter Regeln und 563 praktische Renderer-Karten stehen. Eine Renderer-Karte ist kein zusätzliches Voynich-Wort.\n\nJede Zeile nennt positive Evidenz, Gegenbeleg, Formniveau, sechs Scorekomponenten, Abzüge/Caps und den letzten semantischen Writer. Der Zahlenwert ist ein Auditindex innerhalb der Arbeitstheorie, keine Wahrscheinlichkeit.\n\nNur 127/479 aktive Positionen stimmen zugleich in Surface und Gloss mit V48 überein. Weitere 152 haben dieselbe Surface, aber einen später revidierten Gloss; 200 besitzen keine V48-Surfacekarte. Alte V48-Glossen sind dann superseded prior, nicht Evidenz der neuen Bedeutung.\n",
+      "sha256": "eed57051bea0f97722a7c788a3c450ba781e63e07afaff9313defbbbc36b1d9f"
+    },
+    {
+      "role": "GDT711 repair scope",
+      "source_owner_id": "LEGACY_COMPONENT:372a21154de2b87492c6",
+      "path": "experiments/yolo/gdt711_v84_active_weak_family_repair/REPORT.md",
+      "line": 5,
+      "line_end": 18,
+      "quote": "## Outcome\n\nV84 audits all 181 active W0/W1 readings and repairs the first 30 source readings (49 unchanged token positions on 25 pages). The central correction is architectural: the dictionary now stores a compact lexical core, while the occurrence table stores the practical local realization. Thus the seven active `daiin` senses collapse to one lexical core `Wert III`, with `Grad III` or `drei` retained only as context realizations; the three `dain` senses analogously collapse to `Wert II`.\n\nThe active dictionary contracts from 332 to 324 lexical readings without deleting or resegmenting any of the 479 token positions. The complete dictionary contracts from 1,594 to 1,586 readings while retaining 1,582 surfaces. Active levels are 11 W0, 149 W1, 145 W2 and 19 W3. Every historical confirmation remains `H0_NONE`, and GDT696–GDT709 still contribute zero word-confidence points.\n\n## Material repairs\n\n- Value family: `dain/daiin` become abstract values II/III; local grade-versus-count rendering is separate. `qodaiin` remains a distinct W1 `Wert III` reading; its decomposition field keeps `qod|aiin` versus `qo|daiin` open and QO receives no free semantic credit.\n- Unsupported nouns and units are deleted: no automatic Gummi, Gran, Handvoll, Dosis, Mazerat, Absud or Auszug identity survives merely because a fluent renderer used it.\n- `am/dam/dal/oidal` retain only visible measure/material structure; no historical unit is claimed.\n- CKH forms retain exact-family `Mischgut/Mischung`, never a free universal CKH word or an identified medicine.\n- `olkar` retains the intersection shared by both live rivals—hot, wood, share I—while Ansatz versus Auszug is removed. Free `ol` stays W1; bound `ol#2` stays W0 and nonportable.\n",
+      "sha256": "a74950a653c731e4cf569f88ae460508acdb87539efa0cb10aa27e119d2f4fd0"
+    }
+  ],
+  "validation": "Evidence quotes were generated from literal physical spans and SHA-validated programmatically; no operative file was changed."
+}

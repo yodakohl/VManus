@@ -1,0 +1,67 @@
+{
+  "status": "identity_recommendation",
+  "pair": [
+    "SEM:0fefd3af71cc395b85f4",
+    "SEM:9899472e940ed1675ef0"
+  ],
+  "recommendation": "related_not_equivalent",
+  "reason": "Bare durch Tuch and durch ein Tuch can be article-level paraphrases in ordinary German, but these source cases do not assert the same scoped proposition. SEM:0f... is a selected learned whole-card value in a directional working grammar. SEM:989... is explicitly a counterexample to a quantity-family reading and is retained as an indivisible card or homograph exception. Its source scope and evidential role differ. Do not merge.",
+  "current_card_bases": {
+    "SEM:0fefd3af71cc395b85f4": "d417b05493d840c034c46d1c5b28ae5294be1b36b9404cf776c184a912b6d2be",
+    "SEM:9899472e940ed1675ef0": "a84d89cee15f70af7072c813dce1411e511521d2a8d7df3c559236547e01f077"
+  },
+  "cases": {
+    "SEM:0fefd3af71cc395b85f4": {
+      "claim": "dain → durch Tuch",
+      "scope": null,
+      "status": "unconfirmed",
+      "review_ids": [
+        "CLEAN_COMPONENT:db889e834d696ab50d28"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_semantic_directional_completion/SELECTED_DIRECTIONAL_COMPLETION_REPORT.md",
+          "line": 99,
+          "line_end": 106,
+          "quote": "## Seven recurrent whole cards become compositional\n\nThe ten most frequent remaining whole cards were reviewed separately. Three\nkeep their useful learned values (`chety|chty=zerkleinern`, `dain=durch Tuch`,\n`dl=Badezusatz`). Seven now use the existing component inventory:\n\n| Card | Selected composition | New default |\n|---|---|---|\n",
+          "sha256": "b5b313994f43aee0ca6ffe844a40a84baf002417460459be63fdbf4740305a45"
+        }
+      ]
+    },
+    "SEM:9899472e940ed1675ef0": {
+      "claim": "dain → durch ein Tuch",
+      "scope": null,
+      "status": "unconfirmed",
+      "review_ids": [
+        "CLEAN_COMPONENT:3cf406f8b7855345f3e9"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v44/V44_R2_MEDICAL_ABBREVIATION_REPORT.md",
+          "line": 81,
+          "line_end": 86,
+          "quote": "Sätze.\n\n`dain = durch ein Tuch` ist der wichtigste Gegenfall. Ich würde ihn vorläufig\nals unteilbare Karte oder homographe Ausnahme behandeln, nicht die starke\nMengenfamilie wegen eines schwachen Zweierbelegs aufgeben.\n\n",
+          "sha256": "219fc0d91d3a8e34c97d1ca9dcabd154beb6e2ff1dd66077eae2acb15a224471"
+        }
+      ]
+    }
+  },
+  "existing_identity_records": [
+    {
+      "decision_key": "BT:DAIN:full-proposition-relation",
+      "members": [
+        "SEM:0fefd3af71cc395b85f4",
+        "SEM:a6a548c47e8792e586fb"
+      ],
+      "relation": "related_not_equivalent",
+      "status": "approved",
+      "note": "No SEM:989... membership found; article variation was not previously merged."
+    }
+  ],
+  "noun_only_exclusion": "Any noun-only DAIN→TUCH card is outside this pair and remains separate.",
+  "limits": [
+    "Both cases are unconfirmed historical working hypotheses.",
+    "No scientific confirmation or lexical identity follows from article variation.",
+    "No registry mutation, review, ledger, refresh, or build performed."
+  ]
+}
