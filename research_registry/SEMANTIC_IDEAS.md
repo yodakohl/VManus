@@ -105,7 +105,7 @@ They state the actual compared subclaim, primary evidence, scope and changed-inp
 requirements. The current127 dossiers directly target152 semantic cards. The nine
 priorities directly target27, with23 shared targets;3,711 semantic cards have no
 direct target binding in these two lists. This is a coverage limit, not an
-automatic scientific verdict on those cards (see decisions/lj_assessment_coverage.json; earlier snapshots remain preserved). An editorial wording preference is not an empirical falsifier.
+automatic scientific verdict on those cards (see decisions/lo_assessment_coverage.json; earlier snapshots remain preserved). An editorial wording preference is not an empirical falsifier.
 Original conditional predictions remain distinct from observed counterexamples;
 reviewer-supplied reopening conditions are prospective, not old preregistrations.
 Only the latest linked revision acts; all older decisions remain in the log.

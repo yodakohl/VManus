@@ -1,0 +1,73 @@
+{
+  "task": "LM effective IDEA58 method review",
+  "id": "IDEA000058",
+  "effective_design": {
+    "contrast": "wrapper selects a role/argument interpretation versus wrapper is orthographic notation around one invariant meaning",
+    "countermodel": "Renderer stripping may discard semantically decisive material, or the shared payload may be a chance formal collision with no role relation.",
+    "endpoint_status": "availability_unknown",
+    "falsifier": "Independent role coding finds no reproducible wrapper-conditioned slot change across paired payloads, while payload-only and wrapper models tie.",
+    "mechanism": "outer-wrapper role operator over stable payload",
+    "prediction": "Across held paired forms, wrapper changes should predict a fixed change in edge/node or state/figure argument slot while the inner payload remains stable; unwrapped payload-only matching should not predict the role.",
+    "principal_risk": "The source explicitly reports proximity-only ownership and no semantic role binding.",
+    "related": "Near GDT198 and IDEA000035/039, but narrows the proposition to an explicit wrapper-to-role operation rather than payload reuse, instrument/endpoint, or component identity.",
+    "source_evidence": {
+      "line": 5,
+      "line_end": 23,
+      "path": "GDT198_F77_DIAGRAM_PAYLOAD_REUSE_REPORT.md",
+      "quote": "Two of the three all-reading-stable figure-associated labels share the same\nrenderer-stripped HPR2 payload as one of the six tube-state labels:\n\n| figure label | tube label | shared payload | surface change |\n|---|---|---|---|\n| `dotedy` (`f77r.8`) | `otedy` (`f77r.3`) | `e|NONE|DY1|B30` | add outer `d` wrapper |\n| `otchdy` (`f77r.49`) | `dchdy` (`f77r.6`) | `ch|NONE|DY1|B30` | `d` wrapper versus `OT` frame |\n\nThe southwest figure label supplies a weaker third resemblance: ZL3b writes\n`otolaiin | o`, while IT2a/RF1b join `otolaiino`; its initial `otol` equals the\nfourth tube label, but the reading-dependent boundary prevents an exact\npayload comparison.\n\nThis is a coherent local compiler pattern: opaque payload can remain stable\nwhile its left rendering changes with visual label class.  It is not strong\nenough to identify a role.  Across all 84 assignments of three figure roles to\nthe nine stable labels, 20 achieve at least the observed two cross-class\nmatches (**p=0.238095**).  Neither matched pair shares a complete surface or\nfull HPR2 tuple, and all human ownership is proximity-only.",
+      "sha256": "ee593de8b1d271b131ba9b2c477a18328ec161512e1297f122a6fc0aba5adce3"
+    },
+    "unit": "paired complete forms sharing renderer-stripped payload but differing in outer frame"
+  },
+  "effective_design_sha256": "dfcc79616cf0e9d336e814e84938232cd45a2f0445552e46e0f1db452e2f6764",
+  "current_assessment": "source_quote_repair_only_method_unreviewed; no existing scientific failure adopted",
+  "disposition": "NOT_EXECUTABLE_AS_WRITTEN_NO_NEW_TEST",
+  "findings": [
+    {
+      "issue": "No single directed rewrite",
+      "detail": "Pair1 is otedy→dotedy (prepend d), tube-associated→figure-associated. Pair2 is otchdy→dchdy (replace initial ot with d), figure-associated→tube-associated. These are not the same surface rewrite, and d occurs on opposite class sides. They do not establish one fixed d-to-figure or d-to-tube operator. They also do not refute a context-dependent operator, toggle, or distinct operator realization: none is specified in the effective design."
+    },
+    {
+      "issue": "Projected identity is not a fixed raw payload unit",
+      "detail": "The equal objects are renderer-stripped HPR2 tuples e|NONE|DY1|B30 and ch|NONE|DY1|B30. The primary explicitly says neither complete surface nor full HPR2 tuple matches. A test must state the transformation and which raw content is preserved before treating projection equality as semantic argument identity."
+    },
+    {
+      "issue": "Discriminating endpoint remains unspecified",
+      "detail": "Prediction offers edge/node or state/figure argument slot without choosing one. Physical label association could support a purely structural contrast without known translations, but figure versus tube association is not already a directed argument relation. Proximity-only ownership is a limit on the given ownership inference, not a blanket ban on structural tests."
+    },
+    {
+      "issue": "Capacity for stated transfer not supplied",
+      "detail": "Both exact pairs are exposed on f77r; the weaker third is segmentation-dependent. No held paired forms, repeated instance of the same frozen rewrite, or separate held physical folio is identified. The two pairs cannot simultaneously define an operator and serve as untouched confirmation."
+    },
+    {
+      "issue": "Rival and falsifier too broad",
+      "detail": "Orthographic notation around invariant meaning can correlate with local visual class; payload-only can predict class if payload frequencies differ. A generic operator does not guarantee classifier separation. A tied or underpowered classifier cannot refute all wrapper operators."
+    }
+  ],
+  "predecessor_boundary": "GDT198 already counts two cross-class projected-payload matches, with20/84 assignments as good or better. Repeating that count is not a new directed rewrite test; its null concerns local class assignment, not every operator or lexical mechanism.",
+  "smallest_test_now": null,
+  "precise_completion_conditions": [
+    "Name one directed surface rewrite or a finite separately motivated context-conditioned rule; fix direction and conditioning before outcome inspection.",
+    "Declare preserved raw unit and projection/error assumptions. Select one observable physical or written-role endpoint and explain differing predictions under a specified rival.",
+    "Identify actual additional independent instances and a held unit for that frozen rule; verify capacity before fitting. Known meanings are not required for a structural endpoint."
+  ],
+  "outcome_changes_if_defined": "Counterexamples can reject a restricted unconditional rewrite-to-class rule; transferred predicted structural behavior could support that rule over a genuinely distinct rival. Neither outcome alone chooses a meaning. Presently even this smallest rule is not fixed, so no manuscript test is selected.",
+  "source_evidence": [
+    {
+      "line": 5,
+      "line_end": 23,
+      "path": "GDT198_F77_DIAGRAM_PAYLOAD_REUSE_REPORT.md",
+      "quote": "Two of the three all-reading-stable figure-associated labels share the same\nrenderer-stripped HPR2 payload as one of the six tube-state labels:\n\n| figure label | tube label | shared payload | surface change |\n|---|---|---|---|\n| `dotedy` (`f77r.8`) | `otedy` (`f77r.3`) | `e|NONE|DY1|B30` | add outer `d` wrapper |\n| `otchdy` (`f77r.49`) | `dchdy` (`f77r.6`) | `ch|NONE|DY1|B30` | `d` wrapper versus `OT` frame |\n\nThe southwest figure label supplies a weaker third resemblance: ZL3b writes\n`otolaiin | o`, while IT2a/RF1b join `otolaiino`; its initial `otol` equals the\nfourth tube label, but the reading-dependent boundary prevents an exact\npayload comparison.\n\nThis is a coherent local compiler pattern: opaque payload can remain stable\nwhile its left rendering changes with visual label class.  It is not strong\nenough to identify a role.  Across all 84 assignments of three figure roles to\nthe nine stable labels, 20 achieve at least the observed two cross-class\nmatches (**p=0.238095**).  Neither matched pair shares a complete surface or\nfull HPR2 tuple, and all human ownership is proximity-only.",
+      "sha256": "ee593de8b1d271b131ba9b2c477a18328ec161512e1297f122a6fc0aba5adce3"
+    }
+  ],
+  "source_literal_hash_check": "PASS",
+  "navigation": [
+    "ideas show IDEA000058",
+    "lookup GDT198",
+    "ideas search wrapper payload role limit3",
+    "route-check wrapper payload role: GDT198 first; no other reports opened"
+  ],
+  "registry_mutation": false,
+  "raw_or_image_read": false
+}

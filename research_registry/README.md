@@ -112,7 +112,10 @@ method failures and the known duplicate, use:
 
 `submitted_scope` is derived from the authored NEW_PROPOSAL entry, not inferred
 from imported history. It does not replace current scope, change any verdict or
-reopening requirement, or establish independent idea counts. Results and filters
+reopening requirement, or establish independent idea counts. A later method
+review must explicitly retain any earlier corrected effective design: reviews
+replace the effective overlay, so omitting that design would expose the original
+raw version again. Preserve the append-only chain. Results and filters
 remain paged before display; add `--offset 8` to retrieve the next page.
 
 ## What changed, and could it justify another test?

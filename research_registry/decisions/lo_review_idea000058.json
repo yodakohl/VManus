@@ -1,0 +1,67 @@
+{
+  "record_id": "IDEA000058",
+  "scope": "method",
+  "verdict": "not_tested",
+  "reviewer": "root effective-design and exact primary review after independent discriminator audit",
+  "reason": "The proposal names two payload-sharing pairs but not a single directed rewrite or one entailed observable role change. Pair1 prepends d; pair2 replaces ot with d and points the other way in the figure/tube classification. A context-dependent operator is not refuted; it must first be specified. GDT198 already reports20/84 equally good or better class assignments.",
+  "assessment_basis": "source_and_logical_design_review_no_manuscript_test",
+  "design": {
+    "contrast": "wrapper selects a role/argument interpretation versus wrapper is orthographic notation around one invariant meaning",
+    "countermodel": "Renderer stripping may discard semantically decisive material, or the shared payload may be a chance formal collision with no role relation.",
+    "endpoint_status": "availability_unknown",
+    "falsifier": "Independent role coding finds no reproducible wrapper-conditioned slot change across paired payloads, while payload-only and wrapper models tie.",
+    "mechanism": "outer-wrapper role operator over stable payload",
+    "prediction": "Across held paired forms, wrapper changes should predict a fixed change in edge/node or state/figure argument slot while the inner payload remains stable; unwrapped payload-only matching should not predict the role.",
+    "principal_risk": "The source explicitly reports proximity-only ownership and no semantic role binding.",
+    "related": "Near GDT198 and IDEA000035/039, but narrows the proposition to an explicit wrapper-to-role operation rather than payload reuse, instrument/endpoint, or component identity.",
+    "source_evidence": {
+      "line": 5,
+      "line_end": 23,
+      "path": "GDT198_F77_DIAGRAM_PAYLOAD_REUSE_REPORT.md",
+      "quote": "Two of the three all-reading-stable figure-associated labels share the same\nrenderer-stripped HPR2 payload as one of the six tube-state labels:\n\n| figure label | tube label | shared payload | surface change |\n|---|---|---|---|\n| `dotedy` (`f77r.8`) | `otedy` (`f77r.3`) | `e|NONE|DY1|B30` | add outer `d` wrapper |\n| `otchdy` (`f77r.49`) | `dchdy` (`f77r.6`) | `ch|NONE|DY1|B30` | `d` wrapper versus `OT` frame |\n\nThe southwest figure label supplies a weaker third resemblance: ZL3b writes\n`otolaiin | o`, while IT2a/RF1b join `otolaiino`; its initial `otol` equals the\nfourth tube label, but the reading-dependent boundary prevents an exact\npayload comparison.\n\nThis is a coherent local compiler pattern: opaque payload can remain stable\nwhile its left rendering changes with visual label class.  It is not strong\nenough to identify a role.  Across all 84 assignments of three figure roles to\nthe nine stable labels, 20 achieve at least the observed two cross-class\nmatches (**p=0.238095**).  Neither matched pair shares a complete surface or\nfull HPR2 tuple, and all human ownership is proximity-only.",
+      "sha256": "ee593de8b1d271b131ba9b2c477a18328ec161512e1297f122a6fc0aba5adce3"
+    },
+    "unit": "paired complete forms sharing renderer-stripped payload but differing in outer frame"
+  },
+  "blockers": [
+    {
+      "code": "missing_design",
+      "detail": "Freeze the rewrite and its direction/conditioning, preserved raw unit, one observable endpoint and a rival making a different prediction. Identify actual additional held instances for that rule before fitting.",
+      "evidence": [
+        "research_registry/decisions/lo_root_gate_and_wrapper_review.json",
+        "research_registry/decisions/lm_idea58_effective_method_review.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "fixed_wrapper_rule_and_held_instances",
+        "change": "new_design",
+        "detail": "Specify one directed raw rewrite or a finite motivated conditional rule, independent endpoint coding, differing restricted rival predictions and actual additional held instances. Check capacity before testing; a structural endpoint does not require known translations.",
+        "evidence": [
+          "research_registry/decisions/lo_root_gate_and_wrapper_review.json"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Repeating the two known projected-payload matches or their20/84 role-assignment null.",
+      "Calling every outer difference the same operator after seeing class labels.",
+      "More admitted pages without instances and a fixed rule."
+    ]
+  },
+  "relations": [
+    {
+      "detail": "Primary source observation for this unreviewed proposal; not a semantic identity or a successful test.",
+      "evidence": [
+        "research_registry/decisions/jz_root_raw_source_correction.json",
+        "research_registry/proposals/jx_wrapper_payload_role.json",
+        "GDT198_F77_DIAGRAM_PAYLOAD_REUSE_REPORT.md"
+      ],
+      "target": "GDT198",
+      "type": "related_to"
+    }
+  ],
+  "claim_ceiling": "No test selected and no operator or lexical family globally refuted. Earlier source-only quote correction remains exactly preserved in the effective design."
+}
