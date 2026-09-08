@@ -1,0 +1,55 @@
+{
+  "status": "NO_EXECUTABLE_DISCRIMINATOR_SELECTED_FROM_THE_TWO_RAW_SKETCHES",
+  "records": [
+    {
+      "id": "IDEA000064",
+      "title": "A modifier value agrees with one selected argument class",
+      "design_sha256": "81a0f6f2c21c0508ba081afaeafa7bea1b7877a218001fcb1f94f1207eb11458"
+    },
+    {
+      "id": "IDEA000066",
+      "title": "An exception marker scopes to one field and then releases",
+      "design_sha256": "06617a34f18e3c00c791ddadef4d430368ae3e0f04604e86b4d0a12a90902434"
+    }
+  ],
+  "IDEA000064": {
+    "missing_observation": "The design names neither a written modifier form nor its proposed alternative, neither a designated argument surface class nor an observed matched change. Its sentence “holding the modifier constant ... force the modifier alternation” also needs disambiguation: semantic feature can be held fixed while written realization changes; the written form cannot simultaneously be fixed and alternate.",
+    "actual_nearest_source": "GDT577 G407-E3605 has D_ADDR+CH+E+O+K+E+D_ADDR+Y; E and D_ADDR are paired with the same two analytical heads. G407-E0491 has CH+E+T+E+LOCAL_CHAR_G. Both provide repeated modifier slots across different heads, but no observed two-form agreement alternation with a changing designated class. Seventy-five old focus bindings are replayed; fifty O/D_ADDR attachments are newly hypothesized.",
+    "decision": "Do not run a modifier-class classifier on these inferred bindings and call its score agreement. A purely structural test is possible once a named raw-form alternation and an observed carrier substitution are specified; semantic gold is not needed for that structural comparison."
+  },
+  "IDEA000066": {
+    "missing_observation": "No exception-marker surface is nominated, and no actual record shows the proposed default–override–default sequence for a fixed observable target feature. Thus neither the treatment position nor the putative release can be extracted without inventing the candidate after observing outcomes.",
+    "actual_nearest_source": "GDT765 f22r.4/5 prints ofchy daiin ... schor daiin and ol daiin ... dar daiin, and calls cfhy a local transition. These are concrete complete-form positions, but all four printed right members are the same daiin. There is no displayed altered field value followed by a return value; cfhy as a semantic exception is not demonstrated. Known DY local scope supplies no new discriminator for this distinct proposal.",
+    "decision": "Do not infer one-field exception from an interpreted transition or ordinary variation among neighboring fields."
+  },
+  "strongest_concrete_alternative": {
+    "observation": "Use the named f22r repeated X daiin cells as a starting observation, retaining complete forms and reported loci rather than semantic head labels.",
+    "potential_question": "A prospective structural selector could ask whether a nominated non-DY intervening form is followed by a temporary change in a specified written field feature that reverts at the next eligible field, versus persistent change. Freeze marker, feature and eligible sequence before inspecting outcomes.",
+    "why_not_run_now": "The cited example has no temporary change; it therefore supplies no override/release contrast. The existing source does not identify another contrasting record. Merely counting more X daiin cells or inventing a generic exception model would leave the research decision unchanged. This is an unavailable observation specification, not a new experiment recommendation."
+  },
+  "source_audit": [
+    {
+      "path": "experiments/yolo/gdt577_interrupted_modifier_attachment_topology/REPORT.md",
+      "line": 21,
+      "line_end": 37,
+      "quote": "## Was schon fest war und was neu vorgeschlagen wird\n\n75 Slots — 71 aus den alten 26 Seiten und vier aus den neueren vier Seiten —\nbesitzen bereits Fokusbindungen für E, EE oder AR. GDT577 reproduziert alle\n75 exakt.\n\nDie 50 O-/D_ADDR-Slots hatten solche Bindungen bisher nicht. Für sie wird\nexplorativ dieselbe lokale Werkstattlogik angewandt:\n\n- 21 stehen nach dem nächstgelegenen sichtbaren Handlungskopf;\n- 14 stehen vor ihm;\n- 14 gehören zum schon aktiven Besitzerkopf;\n- genau einer, das zweite D_ADDR in `G407-E3030`, gehört zum geschriebenen\n  OL-Fortsetzungsträger.\n\nDas ist ein Anschlussmodell für die deutsche Arbeitsstimme, keine neue\nBedeutung von O oder D_ADDR.",
+      "sha256": "27b631f2d6f6ec623320349e1c4afa4fe835f7191df86e18793b1218f368ac55"
+    },
+    {
+      "path": "experiments/yolo/gdt577_interrupted_modifier_attachment_topology/REPORT.md",
+      "line": 39,
+      "line_end": 74,
+      "quote": "## Konkrete Lesefolgen\n\n`G407-E0491 · CH+E+T+E+LOCAL_CHAR_G`\n\n```text\nCH → E    und    T → E\nNehmen auf Grad I; Einstellen ebenfalls auf Grad I.\n```\n\nDie beiden Grade hängen an zwei verschiedenen Handlungen. Ein globales\n„Grad I zweimal“ wäre weniger informativ.\n\n`G407-E0607 · O+P+O+AM_ADDR`\n\n```text\nO → P → erneut O → AM_ADDR\n```\n\nHier umklammern beide O-Slots denselben P-Kopf. Die Arbeitsstimme darf diese\nFolge aussprechen, soll aber O keine zusätzliche Prozessdefinition geben.\n\n`G407-E3030 · D_ADDR+SH+OL+Y+D_ADDR`\n\n```text\nD-Stelle → Halten; OL → wieder D-Stelle\n```\n\nDas ist der einzige gemischte Handlung/Fortsetzung-Fall.\n\n`G407-E3605 · D_ADDR+CH+E+O+K+E+D_ADDR+Y`\n\nE und D_ADDR benutzen dieselben zwei lokalen Köpfe CH und K. Solche\nüberlappenden Gruppen werden auf Ereignisebene einmal gemeinsam gerendert,\nnicht zweimal unabhängig übereinandergelegt.\n\n## Ein nützlicher Fehlerfund",
+      "sha256": "27b631f2d6f6ec623320349e1c4afa4fe835f7191df86e18793b1218f368ac55"
+    },
+    {
+      "path": "experiments/yolo/gdt765_ofchy_schor_content_field_discriminator/REPORT.md",
+      "line": 66,
+      "line_end": 95,
+      "quote": "## The f22r record now says something\n\nThe first two lines of the local paragraph contain four exact value cells:\n\n```text\nf22r.4  ofchy daiin  ...  schor daiin\nf22r.5  ol daiin     ...  dar daiin\n```\n\nAcross the entire cache there are twelve exact `H-head X daiin` triples\n(H1 five, H2 five, H4 two); f22r.4 alone contains two on one line. That makes a\nmain-field/subfield inventory much more natural than a sequence of actions.\n\nThe deliberately concrete f22r.4 working translation is:\n\n> Haupteintrag, Trockenklasse III: drei Einheiten Blütenmasse; abgemessene\n> Drogenportion Form III mit dazugehörigem Trockenmaterial; Unterposten: drei\n> Einheiten Blütenstand.\n\nThis line covers all nine written tokens. The central `cfhy` now acts locally\nas a field transition. It occurs reader-exact six times, five medial and once\nline-final, never at paragraph end and never directly before `daiin`; the old\n“take,” “wring,” and free cfh/flower readings are not used. `doroiin` and\n`ypchol` retain explicit C0 local defaults, so this is a complete working\nreading rather than a claim of recovered plaintext.\n\nThe amount wording is also a choice. The portable form remains “value III”\nbecause `daiin` can still be class, degree, or amount. The concrete f22 renderer\nchooses three units because four neighboring material/preparation heads make\nan inventory or recipe quantity list plausible.",
+      "sha256": "43ee900632971c0f6877447ef3432d21274512d0ed033d2cc85d9874427e4f35"
+    }
+  ],
+  "workflow_decision": "Keep both as unreviewed raw sketches. No new model, null corpus, tests or data admission. One future bounded source-observation nomination would change availability; repeated generic missing-gold reviews will not.",
+  "limits": "Read-only source selection, no manuscript data extraction, native image access, public approach search or registry mutation. Sources were returned by route-check. Structural confirmation would not identify agreement, exception or any word meaning."
+}

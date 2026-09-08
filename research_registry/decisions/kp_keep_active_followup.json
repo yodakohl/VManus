@@ -1,0 +1,70 @@
+{
+  "schema": "kp_keep_active_followup_v1",
+  "scope": "Bounded read-only primary-scope follow-up; no registry mutation.",
+  "preserved_prior": "research_registry/decisions/kp_ol_identity_peer.json",
+  "decision": {
+    "pair": [
+      "SEM:d41c9fcc68597f341d53",
+      "IDENTITY_HS:OL_CONTINUE_CORE existing members"
+    ],
+    "recommendation": "approve_equivalence_at_bounded_OL_core",
+    "reason": "GDT557 explicitly retains OL=FORTSETZEN while assigning the default operation keep the current carrier active, and its OL-only sequence is continue the current carrier. This directly supports identity of the short OL continuation/active-core card; the earlier rejection was too broad because active-state realizations are already part of the historical core’s contexts.",
+    "scope_limit": "Equivalence covers the OL lexical/core contribution only. GDT557’s OT/NEXT, DY/CLOSE, sequence counts and state-reader architecture remain separate model commitments; no all-model identity or confirmed meaning is claimed."
+  },
+  "evidence": [
+    {
+      "path": "experiments/yolo/gdt557_thirty_page_ot_ol_dy_state_grammar/REPORT.md",
+      "line": 9,
+      "line_end": 18,
+      "quote": "| root | unchanged value | occurrences | positional signature | default operation |\n|---|---|---:|---|---|\n| `OT` | DANACH | 404 | right carrier in 402/404 (99.50%) | open/advance the next carrier |\n| `OL` | FORTSETZEN | 761 | 199 initial, 85 bridge, 288 terminal, 189 alone | keep the current carrier active |\n| `DY` | ABSCHLIESSEN | 705 | left carrier 705/705; statement-final 702/705 | close the current step |\n\nThis is the first version in which the three meanings operate together as a\nsmall reader rather than as isolated German glosses:\n\n`OT = NEXT` → `OL = KEEP ACTIVE` → `DY = CLOSE`.",
+      "sha256": "8fa2a821b1924d166facd0ca20d1c9248f3ed4008f0a698e822db82460cffb80",
+      "why": "unchanged FORTSETZEN value, keep-active default and equation"
+    },
+    {
+      "path": "experiments/yolo/gdt557_thirty_page_ot_ol_dy_state_grammar/REPORT.md",
+      "line": 45,
+      "line_end": 55,
+      "quote": "| sequence | cards | working reading | statement-final |\n|---|---:|---|---:|\n| `OL` | 619 | continue the current carrier | 14 |\n| `DY` | 544 | close the current step | 542 |\n| `OT` | 279 | open the next carrier | 5 |\n| `OT+DY` | 86 | open the next carrier, then close it | 86 |\n| `OL+DY` | 74 | continue the carrier, then close it | 74 |\n| `OT+OL` | 38 | open the next carrier and keep it active | 0 |\n| `OL+OL` | 14 | continue, then continue the new active scope | 1 |\n| `DY+OL` | 1 | close the local step, then continue | 0 |\n| `OL+OT` | 1 | continue the current carrier, then open the next | 0 |",
+      "sha256": "8fa2a821b1924d166facd0ca20d1c9248f3ed4008f0a698e822db82460cffb80",
+      "why": "OL sequence is continue current carrier; paired state sequences"
+    },
+    {
+      "path": "experiments/yolo/gdt557_thirty_page_ot_ol_dy_state_grammar/REPORT.md",
+      "line": 63,
+      "line_end": 69,
+      "quote": "The dominant direction is start → continue → close:\n\n| pair | joint cards | dominant order | reverse |\n|---|---:|---:|---:|\n| OT / OL | 39 | OT→OL 38 | OL→OT 1 |\n| OT / DY | 86 | OT→DY 86 | 0 |\n| OL / DY | 75 | OL→DY 74 | DY→OL 1 |",
+      "sha256": "8fa2a821b1924d166facd0ca20d1c9248f3ed4008f0a698e822db82460cffb80",
+      "why": "pair-order context for OL/DY state model"
+    }
+  ],
+  "validation": {
+    "checks": [
+      {
+        "path": "experiments/yolo/gdt557_thirty_page_ot_ol_dy_state_grammar/REPORT.md",
+        "line": 9,
+        "line_end": 18,
+        "line_end_within_file": true,
+        "quote_literal": true,
+        "sha256": "8fa2a821b1924d166facd0ca20d1c9248f3ed4008f0a698e822db82460cffb80"
+      },
+      {
+        "path": "experiments/yolo/gdt557_thirty_page_ot_ol_dy_state_grammar/REPORT.md",
+        "line": 45,
+        "line_end": 55,
+        "line_end_within_file": true,
+        "quote_literal": true,
+        "sha256": "8fa2a821b1924d166facd0ca20d1c9248f3ed4008f0a698e822db82460cffb80"
+      },
+      {
+        "path": "experiments/yolo/gdt557_thirty_page_ot_ol_dy_state_grammar/REPORT.md",
+        "line": 63,
+        "line_end": 69,
+        "line_end_within_file": true,
+        "quote_literal": true,
+        "sha256": "8fa2a821b1924d166facd0ca20d1c9248f3ed4008f0a698e822db82460cffb80"
+      }
+    ],
+    "all_literal_spans_and_hashes_valid": true
+  },
+  "status": "followup_complete_no_operative_change"
+}

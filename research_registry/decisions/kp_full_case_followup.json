@@ -1,0 +1,104 @@
+{
+  "schema": "kp_full_case_followup_v1",
+  "scope": "Read-only correction of the KP core-versus-example distinction; first peer bytes preserved, no registry mutation.",
+  "preserved_prior": "research_registry/decisions/kp_ol_identity_peer.json",
+  "correction": {
+    "prior_issue": "The first peer withheld SEM:a09a5b527cfd38b07922 from the OL continuation core partly because its local prediction mentions a further portion.",
+    "assessment": "That is insufficient for nonidentity. The WEITER source itself lists further portion among local realizations, and separately says the OL reading may be a purely formal linkage. FORTSETZUNG likewise lists continuation, further portion and continuation-approach as prediction/examples. These additions should remain source-local and do not by themselves change the short OL core.",
+    "revised_recommendation": "approve_core_equivalence_candidate",
+    "pair": [
+      "SEM:2d01575083d91a46242f",
+      "SEM:a09a5b527cfd38b07922"
+    ],
+    "scope_limit": "Equivalence is only the bounded OL continuation core. Preserve each source’s local examples, formal-link caveat, register and model context; do not assert identity of every surrounding construction or any confirmed meaning."
+  },
+  "remaining_boundary": "SEM:d41c9fcc68597f341d53 KEEP ACTIVE remains withheld from the core because its explicit OT=NEXT and DY=CLOSE state grammar adds commitments, not merely an example.",
+  "evidence": [
+    {
+      "path": "experiments/yolo/sidequest_semantic_order_words_eight_hundred_twenty_fourth/EIGHT_HUNDRED_TWENTY_FOURTH_REPORT.md",
+      "line": 5,
+      "line_end": 5,
+      "quote": "- `OL = WEITER` continues the same operation or relation (48 events);",
+      "sha256": "121b4b1597bcb75e458cbe650beb29d96836705afbdea946823c86e6dbee2007",
+      "why": "WEITER core declaration"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_thermal_temporal_completion/R4_REPORT.md",
+      "line": 10,
+      "line_end": 10,
+      "quote": "- `OL = WEITER`: weiter, Ansatz weiterführen, weitere Portion, weiter ruhen;",
+      "sha256": "c24155fe02c30651334e53a2e8fdf774a770ca16139e081e3fdd431f253a78e0",
+      "why": "WEITER local examples including further portion"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_thermal_temporal_completion/R4_REPORT.md",
+      "line": 121,
+      "line_end": 122,
+      "quote": "- `OL = WEITER` ist über 19 Ereignisse sehr attraktiv, kann aber eine rein\n  formale Verknüpfung sein.",
+      "sha256": "c24155fe02c30651334e53a2e8fdf774a770ca16139e081e3fdd431f253a78e0",
+      "why": "R4 explicitly marks OL as possibly formal linkage"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_workflow_memory_seven_hundred_thirty_first/SEVEN_HUNDRED_THIRTY_FIRST_REPORT.md",
+      "line": 8,
+      "line_end": 8,
+      "quote": "- **OL = WEITER:** 25 Karten / 48 Ereignisse; hält denselben Arbeitsfaden aktiv.",
+      "sha256": "70d1ffbab03699889472e55e8c1ac2a1572753e5b4ed4f1513cd800b02a13cc7",
+      "why": "same active-thread example"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_thermal_temporal_completion/SELECTED_THERMAL_TEMPORAL_REPORT.md",
+      "line": 33,
+      "line_end": 33,
+      "quote": "| `OL` | FORTSETZUNG | Fortsetzungsansatz, weitere Portion, fortsetzen |",
+      "sha256": "eb99d0fea0b322cf0ec1694f8b36021bdc8093b23b7e4fccd4d99c73c391d1a1",
+      "why": "FORTSETZUNG core plus local prediction"
+    }
+  ],
+  "validation": {
+    "checks": [
+      {
+        "path": "experiments/yolo/sidequest_semantic_order_words_eight_hundred_twenty_fourth/EIGHT_HUNDRED_TWENTY_FOURTH_REPORT.md",
+        "line": 5,
+        "line_end": 5,
+        "line_end_within_file": true,
+        "quote_literal": true,
+        "sha256": "121b4b1597bcb75e458cbe650beb29d96836705afbdea946823c86e6dbee2007"
+      },
+      {
+        "path": "experiments/yolo/sidequest_semantic_thermal_temporal_completion/R4_REPORT.md",
+        "line": 10,
+        "line_end": 10,
+        "line_end_within_file": true,
+        "quote_literal": true,
+        "sha256": "c24155fe02c30651334e53a2e8fdf774a770ca16139e081e3fdd431f253a78e0"
+      },
+      {
+        "path": "experiments/yolo/sidequest_semantic_thermal_temporal_completion/R4_REPORT.md",
+        "line": 121,
+        "line_end": 122,
+        "line_end_within_file": true,
+        "quote_literal": true,
+        "sha256": "c24155fe02c30651334e53a2e8fdf774a770ca16139e081e3fdd431f253a78e0"
+      },
+      {
+        "path": "experiments/yolo/sidequest_semantic_workflow_memory_seven_hundred_thirty_first/SEVEN_HUNDRED_THIRTY_FIRST_REPORT.md",
+        "line": 8,
+        "line_end": 8,
+        "line_end_within_file": true,
+        "quote_literal": true,
+        "sha256": "70d1ffbab03699889472e55e8c1ac2a1572753e5b4ed4f1513cd800b02a13cc7"
+      },
+      {
+        "path": "experiments/yolo/sidequest_semantic_thermal_temporal_completion/SELECTED_THERMAL_TEMPORAL_REPORT.md",
+        "line": 33,
+        "line_end": 33,
+        "line_end_within_file": true,
+        "quote_literal": true,
+        "sha256": "eb99d0fea0b322cf0ec1694f8b36021bdc8093b23b7e4fccd4d99c73c391d1a1"
+      }
+    ],
+    "all_literal_spans_and_hashes_valid": true
+  },
+  "status": "followup_complete_no_operative_change"
+}

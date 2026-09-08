@@ -1,0 +1,45 @@
+{
+  "record_id": "IDEA000064",
+  "scope": "method",
+  "verdict": "not_tested",
+  "reviewer": "root source review with independent bounded candidate selection",
+  "reason": "The design names neither a written modifier form nor its proposed alternative, neither a designated argument surface class nor an observed matched change. Its sentence “holding the modifier constant ... force the modifier alternation” also needs disambiguation: semantic feature can be held fixed while written realization changes; the written form cannot simultaneously be fixed and alternate.",
+  "assessment_basis": "source_and_logical_design_review_no_manuscript_test",
+  "blockers": [
+    {
+      "code": "missing_design",
+      "detail": "The design names neither a written modifier form nor its proposed alternative, neither a designated argument surface class nor an observed matched change. Its sentence “holding the modifier constant ... force the modifier alternation” also needs disambiguation: semantic feature can be held fixed while written realization changes; the written form cannot simultaneously be fixed and alternate.",
+      "evidence": [
+        "research_registry/decisions/ko_two_candidate_selection.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "named_observed_contrast",
+        "change": "new_design",
+        "detail": "Name modifier role separately from its written realization, nominate both surface variants and a designated carrier class, and show an actual matched substitution before freezing the held test.",
+        "evidence": [
+          "research_registry/decisions/ko_two_candidate_selection.json"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "More inherited semantic labels or additional pages without the named structural contrast.",
+      "A positional or contextual association treated as unique proof of the proposed semantic mechanism."
+    ]
+  },
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "GDT577",
+      "detail": "GDT577 G407-E3605 has D_ADDR+CH+E+O+K+E+D_ADDR+Y; E and D_ADDR are paired with the same two analytical heads. G407-E0491 has CH+E+T+E+LOCAL_CHAR_G. Both provide repeated modifier slots across different heads, but no observed two-form agreement alternation with a changing designated class. Seventy-five old focus bindings are replayed; fifty O/D_ADDR attachments are newly hypothesized.",
+      "evidence": [
+        "research_registry/decisions/ko_two_candidate_selection.json"
+      ]
+    }
+  ],
+  "claim_ceiling": "Exploratory structure can be tested without meaning gold; semantic agreement/exception interpretation requires separate binding and rival comparison."
+}

@@ -1,0 +1,70 @@
+{
+  "status": "NO_NEW_HISTORICAL_CARD_PROPOSED",
+  "cards": [],
+  "reports_inspected": 4,
+  "evidence": [
+    {
+      "path": "experiments/yolo/gdt766_ofch_chor_role_switch_prediction/REPORT.md",
+      "line": 103,
+      "line_end": 110,
+      "quote": "## Corrections that materially improved the renderer\n\n- The former `qofchedy` instruction “take … dry … finish” is removed. Both\n  `ofchedy` and `qofchedy` now remain nominal complete-word result candidates,\n  with five exact occurrences each.\n- The old `lchor = woody plant part` composition remains retired. Its current\n  bold default is the less specific **flower preparation**, with flower extract\n  retained as a rival.",
+      "sha256": "d0d18c1673a524356c8e082f6aad351f734d327912b6da26ce02d6bccdf7709e"
+    },
+    {
+      "path": "experiments/yolo/gdt768_chor_shor_part_identity_tournament/REPORT.md",
+      "line": 90,
+      "line_end": 101,
+      "quote": "## Why the dry/moist same-part model lost\n\nThe raw D1 state counts initially look promising:\n\n| target | ED0 DRY/MOIST | ED1 | ED2 |\n|---|---:|---:|---:|\n| `chor` | 45/9 | 28/9 | 12/7 |\n| `shor` | 8/12 | 8/5 | 7/2 |\n\n`chor` remains dry-affine, though weakly. `shor`, however, is moist-affine\nonly at ED0; it reverses to dry-affine after near-family forms are removed.\nThe direct state opposition therefore survives just one of three radii.",
+      "sha256": "bf02e42ce7b03daf319eca7d9d572ccd45ac9d87212530fe8ed46e44e1aa2b7e"
+    },
+    {
+      "path": "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/REPORT.md",
+      "line": 97,
+      "line_end": 100,
+      "quote": "Two inherited line defaults were corrected before carrying the twelve-line reader forward:\n\n- `sain` is no longer rendered from the old EVA-`s` plant association. Its recurring complete-word behavior is a fused amount/value form II. The concrete reader default is `zwei Drachmen`, while drachms versus equal parts or ounces remains C0 at unit level.\n- `chekar` is source-composed in the GDT754 registry, so its former hot/dry/fraction semantics cannot enter as whole-word evidence. In `f75r.43` it is now only the forced local C0 placeholder `Zwischenzubereitung`; even a concrete intermediate operation is not independently established.",
+      "sha256": "a00ca7b7fd36013a78b8118395e88e5e091f087515d0def577ba25af7623e346"
+    },
+    {
+      "path": "experiments/yolo/gdt774_ol_376_contextual_transfer/REPORT.md",
+      "line": 90,
+      "line_end": 97,
+      "quote": "## Vergleich zum alten `Grundansatz`\n\nAlle 376 Stellen kreuzen zum alten GDT683-Output `Grundansatz`; alle beruhen\nauf derselben geerbten GDT664-Karte, nicht auf 376 unabhängigen Bestätigungen.\nGDT774 verwirft diesen Bestand nicht. Es zerlegt ihn in 49\ngerichtete Feldausgaben und 327 schwächere nominale\nFallbacks. Öl, Wasser und Wein bleiben ununterscheidbar.\n",
+      "sha256": "832d29aa84ee851c30df8bb5aece64b4eeb686f55c6fb0c7b5b7e83c9a5b24f6"
+    }
+  ],
+  "decisions": [
+    {
+      "source": "GDT766",
+      "claim": "lchor → woody plant part",
+      "existing_id": "SEM:0f7ade468e66bdbef163",
+      "reason": "Exact existing card has the GDT766 retired-composition source case. No omission."
+    },
+    {
+      "source": "GDT766",
+      "claim": "qofchedy prior instruction",
+      "reason": "Source gives only “take … dry … finish”, an elliptical summary. Do not manufacture a complete historical lexical sentence from omitted words; no exact recovery proposed."
+    },
+    {
+      "source": "GDT768",
+      "existing_ids": [
+        "SEM:2469f26ba5b615b52f13",
+        "SEM:5d6f63cc60805193e0fc"
+      ],
+      "reason": "Dry/moist same-part model already represented. Family-ablation nonconfirmation does not justify duplicating it as newly recovered old lexemes."
+    },
+    {
+      "source": "GDT769",
+      "reason": "sain old EVA-s plant association and chekar old hot/dry/fraction semantics are summarized rather than a complete old lexical sentence. No precise absent sentence can be recovered from these four-report spans alone."
+    },
+    {
+      "source": "GDT774",
+      "existing_ids": [
+        "SEM:f2d87edc66b728af6e7a",
+        "SEM:ff2b7836d4b8620e48cb"
+      ],
+      "reason": "ol=Grundansatz already has GDT664/665/683 source cases; GDT774 explicitly does not discard this inventory, but splits contextual outputs and nominal fallbacks. It is not an unrecorded wholesale withdrawal."
+    }
+  ],
+  "checks": "Current and archive exact/related claims scanned without dumping registry; lchor and ol full relevant source cases inspected through bounded priorities. All evidence spans generated from original report lines and hashed. No source-owner recovery required because no card is nominated.",
+  "registry_mutation": false
+}

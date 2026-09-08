@@ -1,0 +1,16 @@
+{
+  "title": "A polarity marker negates the operation rather than its result",
+  "summary": "A narrow polarity model attaches a negative marker to an operation predicate, leaving the input/result description asserted; a result-scoped model instead denies the resulting state.",
+  "scope": "semantic",
+  "status": "draft_unreviewed_not_added",
+  "design": {
+    "mechanism": "operation-scoped polarity",
+    "unit": "records containing an operation, its input, a result/state field, and one polarity marker",
+    "contrast": "negated operation versus negated result state",
+    "prediction": "With the operation marker present, the input may remain asserted while the operation is absent; a result-scoped marker should preserve the operation but deny the result state.",
+    "countermodel": "A context-conditioned lexical convention or editorial packaging could produce the same surface distribution without the proposed semantic mechanism.",
+    "falsifier": "Matched records show the marker consistently denies the result while the operation remains asserted, or it changes both operation and result with no scope distinction.",
+    "principal_risk": "Independent polarity and event annotations are missing. Related to earlier polarity and action/result routes, but the proposed distinction is attachment target.",
+    "endpoint_status": "availability_unknown"
+  }
+}

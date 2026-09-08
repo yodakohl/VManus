@@ -1,0 +1,140 @@
+{
+  "schema": "kp_ol_identity_peer_v1",
+  "scope": "Bounded read-only historical identity audit; at most three unreviewed comparisons, no registry mutation or full-history dump.",
+  "prior_checked": "IDENTITY_HS:OL_CONTINUE_CORE and IDENTITY_HZ:OL_CONTINUE_CORE already equate the source-bound OL/ol FORTSETZEN/continue core for their listed members; no duplicate decision is proposed for those members.",
+  "comparisons": [
+    {
+      "pair": [
+        "SEM:2d01575083d91a46242f",
+        "IDENTITY_HS:OL_CONTINUE_CORE existing members"
+      ],
+      "recommendation": "approve_equivalence_candidate",
+      "reason": "The unreviewed WEITER card says OL continues the same operation or relation. Existing primary OL=fortsetzen records define the same bounded continuation contribution and preserve positional realizations separately. This is a wording variant at the abstract core, subject to the existing source-unit limits; it does not merge local constructions or assessments."
+    },
+    {
+      "pair": [
+        "SEM:a09a5b527cfd38b07922",
+        "IDENTITY_HS:OL_CONTINUE_CORE existing members"
+      ],
+      "recommendation": "withhold",
+      "reason": "FORTSETZUNG is compatible with continuation, but its source couples the noun to “Fortsetzungsansatz, weitere Portion, fortsetzen”; that added local prediction is not shown to be the same proposition as the stripped core. Preserve as related candidate pending source-scope review."
+    },
+    {
+      "pair": [
+        "SEM:d41c9fcc68597f341d53",
+        "IDENTITY_HS:OL_CONTINUE_CORE existing members"
+      ],
+      "recommendation": "withhold_related_not_equivalent",
+      "reason": "KEEP ACTIVE is a state-grammar formulation paired with OT=NEXT and DY=CLOSE. It may describe a continuation effect, but adds active-state and closure commitments absent from the OL continuation core."
+    }
+  ],
+  "limits": [
+    "All claims remain unconfirmed historical hypotheses, not confirmed meanings.",
+    "Do not transfer the equivalence to OL compound cards, other units, or model/test verdicts.",
+    "Case and register differences alone are not used as nonidentity evidence; the withholds reflect added proposition content."
+  ],
+  "evidence": [
+    {
+      "path": "experiments/yolo/sidequest_semantic_order_words_eight_hundred_twenty_fourth/EIGHT_HUNDRED_TWENTY_FOURTH_REPORT.md",
+      "line": 5,
+      "line_end": 5,
+      "quote": "- `OL = WEITER` continues the same operation or relation (48 events);",
+      "sha256": "121b4b1597bcb75e458cbe650beb29d96836705afbdea946823c86e6dbee2007",
+      "why": "WEITER declaration: continuation of same operation/relation"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_f10_two_section_article_five_hundred_thirtieth/FIVE_HUNDRED_THIRTIETH_REPORT.md",
+      "line": 44,
+      "line_end": 50,
+      "quote": "## Warum die Zusammenlesung funktioniert\n\n- gleiche Seite und dieselbe gezeichnete Pflanze;\n- zwei nachvollziehbare sichtbare Pflanzenteil-Besitzer;\n- vier identische Kartenfamilien in beiden Abschnitten: `AR = von dort`,\n  `AIIN = Maß`, `OL = fortsetzen`, `CTH+Y = diesen Posten bereit`;\n- semantisch lesbarer `bereit dies → dies kurz abziehen`-Übergang;",
+      "sha256": "ab621dd6b09d52726335616f75504b879ab0bedd7ae06ac9b2df15ae328f015c",
+      "why": "existing equivalent core: OL fortsetzen in repeated card families"
+    },
+    {
+      "path": "experiments/yolo/gdt475_ot_ol_page_microrecord_itineraries/REPORT.md",
+      "line": 5,
+      "line_end": 21,
+      "quote": "`OT=DANACH` and `OL=FORTSETZEN` now have different, concrete jobs in the local\naddress stream:\n\n| root | occurrences | bundle-leading | later-event-leading | event-internal |\n|---|---:|---:|---:|---:|\n| `OT` | 41 | 40 | 1 | **0** |\n| `OL` | 28 | 11 | 1 | **16** |\n\nOT never sits inside an event. It always opens one: forty times it is the first\natom of the whole locus bundle, and once it opens the second card at the same\nlocus. OL is genuinely a continuation operator: eleven occurrences continue\nthe previous locus record, one continues with a later card at the same locus,\nand sixteen hold the active relation/action inside a card.\n\nThis is exactly the distinction suggested by the older GDT429 running profile\nbut now made concrete inside the complete address edition: OT opens the next\nequal-rank unit; OL keeps the current unit going.",
+      "sha256": "43b52550e99afde2a95aa2239afd7287dd55c9378df85e6627296352a46289d2",
+      "why": "existing equivalent core: OL continuation operator with positional jobs"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_thermal_temporal_completion/SELECTED_THERMAL_TEMPORAL_REPORT.md",
+      "line": 33,
+      "line_end": 33,
+      "quote": "| `OL` | FORTSETZUNG | Fortsetzungsansatz, weitere Portion, fortsetzen |",
+      "sha256": "eb99d0fea0b322cf0ec1694f8b36021bdc8093b23b7e4fccd4d99c73c391d1a1",
+      "why": "FORTSETZUNG includes continuation noun and local predictions"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_h2_two_batch_flow_four_hundred_first/FOUR_HUNDRED_FIRST_REPORT.md",
+      "line": 10,
+      "line_end": 13,
+      "quote": "Der wichtige Fortschritt ist grammatisch: H2 benötigt weder SHOYTY noch QOTCHY.\nSeine Verzweigung und Wiedervereinigung entstehen aus den tragbaren kleinen\nBausteinen `OT = Folge`, `OL = Fortsetzung/voriger`, `OR = Ansatz`,\n`AIIN = Sollmaß`, `AR = aus demselben Vorrat` und `Y = dieser Posten`.",
+      "sha256": "9e6598f8cbc0561bb12ce0ed13bf25af2c1c3242fbb789533ee7246652ab5df7",
+      "why": "Fortsetzung/voriger adds prior-reference scope"
+    },
+    {
+      "path": "experiments/yolo/gdt557_thirty_page_ot_ol_dy_state_grammar/REPORT.md",
+      "line": 18,
+      "line_end": 18,
+      "quote": "`OT = NEXT` → `OL = KEEP ACTIVE` → `DY = CLOSE`.",
+      "sha256": "8fa2a821b1924d166facd0ca20d1c9248f3ed4008f0a698e822db82460cffb80",
+      "why": "KEEP ACTIVE is a state-machine formulation"
+    }
+  ],
+  "validation": {
+    "checks": [
+      {
+        "path": "experiments/yolo/sidequest_semantic_order_words_eight_hundred_twenty_fourth/EIGHT_HUNDRED_TWENTY_FOURTH_REPORT.md",
+        "line": 5,
+        "line_end": 5,
+        "line_end_within_file": true,
+        "quote_literal": true,
+        "sha256": "121b4b1597bcb75e458cbe650beb29d96836705afbdea946823c86e6dbee2007"
+      },
+      {
+        "path": "experiments/yolo/sidequest_semantic_f10_two_section_article_five_hundred_thirtieth/FIVE_HUNDRED_THIRTIETH_REPORT.md",
+        "line": 44,
+        "line_end": 50,
+        "line_end_within_file": true,
+        "quote_literal": true,
+        "sha256": "ab621dd6b09d52726335616f75504b879ab0bedd7ae06ac9b2df15ae328f015c"
+      },
+      {
+        "path": "experiments/yolo/gdt475_ot_ol_page_microrecord_itineraries/REPORT.md",
+        "line": 5,
+        "line_end": 21,
+        "line_end_within_file": true,
+        "quote_literal": true,
+        "sha256": "43b52550e99afde2a95aa2239afd7287dd55c9378df85e6627296352a46289d2"
+      },
+      {
+        "path": "experiments/yolo/sidequest_semantic_thermal_temporal_completion/SELECTED_THERMAL_TEMPORAL_REPORT.md",
+        "line": 33,
+        "line_end": 33,
+        "line_end_within_file": true,
+        "quote_literal": true,
+        "sha256": "eb99d0fea0b322cf0ec1694f8b36021bdc8093b23b7e4fccd4d99c73c391d1a1"
+      },
+      {
+        "path": "experiments/yolo/sidequest_semantic_h2_two_batch_flow_four_hundred_first/FOUR_HUNDRED_FIRST_REPORT.md",
+        "line": 10,
+        "line_end": 13,
+        "line_end_within_file": true,
+        "quote_literal": true,
+        "sha256": "9e6598f8cbc0561bb12ce0ed13bf25af2c1c3242fbb789533ee7246652ab5df7"
+      },
+      {
+        "path": "experiments/yolo/gdt557_thirty_page_ot_ol_dy_state_grammar/REPORT.md",
+        "line": 18,
+        "line_end": 18,
+        "line_end_within_file": true,
+        "quote_literal": true,
+        "sha256": "8fa2a821b1924d166facd0ca20d1c9248f3ed4008f0a698e822db82460cffb80"
+      }
+    ],
+    "all_literal_spans_and_hashes_valid": true
+  },
+  "status": "peer_review_complete_no_operative_change"
+}
