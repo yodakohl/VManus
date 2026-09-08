@@ -1,0 +1,60 @@
+{
+  "budget_end_utc": "2026-09-08 11:05:00 UTC",
+  "claim_ceiling": "Five existing construction anchors only. No native wordhood, III, nominality, value-axis, semantic relation or translation validation. Three readings of one manuscript.",
+  "clean_columns": {
+    "IT2a": "it2a_clean",
+    "RF1b": "rf1b_clean",
+    "ZL3b": "zl3b_clean"
+  },
+  "decision": "Retain an all-reading raw anchor only if each reading has one unique complete cleaned pattern, three distinct consecutive literal single raw groups, and no uncertain-small-space or drawing internal boundary. Qualification affects only that reading and all-reading claim; other literal reading evidence is retained.",
+  "editions": [
+    "ZL3b",
+    "IT2a",
+    "RF1b"
+  ],
+  "experiment_id": "GDT877",
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "selectors": [
+    "f105r",
+    "f105v",
+    "f10v",
+    "f22r",
+    "f99r"
+  ],
+  "sources": {
+    "ATLAS": {
+      "columns": [
+        "source_group_id",
+        "edition",
+        "page",
+        "locus",
+        "source_group_index",
+        "source_group_count",
+        "left_separator",
+        "right_separator",
+        "ivtff_group_raw",
+        "clean_ascii_fragments",
+        "clean_ascii_fragment_count",
+        "legacy_surface_positions_1based",
+        "legacy_mapping_status"
+      ],
+      "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "selector": "page"
+    },
+    "CROSS": {
+      "columns": [
+        "page",
+        "locus",
+        "zl3b_clean",
+        "it2a_clean",
+        "rf1b_clean"
+      ],
+      "path": "transcription/voynich_cross_transcription_lines.tsv",
+      "selector": "page"
+    }
+  },
+  "targets_path": "experiments/yolo/gdt877_h1_raw_construction_fidelity/src/TARGETS.json"
+}

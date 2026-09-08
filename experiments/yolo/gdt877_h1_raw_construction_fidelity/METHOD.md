@@ -1,0 +1,1 @@
+Source-contract census on exactly five inherited constructions. Selector-first queries for the five frozen pages, explicit f84/f84r rejection before payload; complete-line parity before unique-pattern/raw-group classification. Independent validator reconstructs the retained source packet. See PREREGISTRATION.md for decision and scope.

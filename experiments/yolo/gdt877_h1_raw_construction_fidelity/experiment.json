@@ -1,0 +1,115 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Construction transcription fidelity only; no III, nominality, value axis, native wordhood or meaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt877_h1_raw_construction_fidelity/src/run.py",
+    "validate": "python3 experiments/yolo/gdt877_h1_raw_construction_fidelity/src/validate.py"
+  },
+  "created": "2026-09-08",
+  "dependencies": [
+    "GDT764",
+    "GDT868"
+  ],
+  "experiment_id": "GDT877",
+  "inputs": [
+    {
+      "path": "experiments/semantic_assumptions/build_source_separator_transcription.py",
+      "role": "protocol, source implementation or fixed predecessor",
+      "sha256": "dd93f78547a4917334b3bbf3d10e6af075b2ef2d2870e25bcfcdab5cd41aee51"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "role": "protocol, source implementation or fixed predecessor",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+    },
+    {
+      "path": "experiments/yolo/gdt764_bounded_value_field_dispatch/PREREGISTRATION.md",
+      "role": "protocol, source implementation or fixed predecessor",
+      "sha256": "9ada6ec3c25fe9664d432967e3879c3a564be3d97abbdccf3e87e71cb27f8b66"
+    },
+    {
+      "path": "experiments/yolo/gdt764_bounded_value_field_dispatch/REPORT.md",
+      "role": "protocol, source implementation or fixed predecessor",
+      "sha256": "04a16ba71959c74d1e43090724eb6d3727294f4e788987badd7f756861c56d67"
+    },
+    {
+      "path": "experiments/yolo/gdt764_bounded_value_field_dispatch/src/run.py",
+      "role": "protocol, source implementation or fixed predecessor",
+      "sha256": "fe25e46a0a15e53ea3fbb0d95364a4afb8a351a494cfdfd818fdcf9551ceb687"
+    },
+    {
+      "path": "experiments/yolo/gdt868_core13_raw_group_fidelity/REPORT.md",
+      "role": "protocol, source implementation or fixed predecessor",
+      "sha256": "5b693475afda2190653bb1aab506ffc4db68558d93aac26686cd8acb65c682ea"
+    },
+    {
+      "path": "experiments/yolo/gdt877_h1_raw_construction_fidelity/METHOD.md",
+      "role": "protocol, source implementation or fixed predecessor",
+      "sha256": "510918dfb2be1cc24dc9e6a3f30f1c7e7075d3d45c1f6a4eb5f4d20aaa3da1b1"
+    },
+    {
+      "path": "experiments/yolo/gdt877_h1_raw_construction_fidelity/PREREGISTRATION.md",
+      "role": "protocol, source implementation or fixed predecessor",
+      "sha256": "e98c10b70cfedb37738b407918fa8b365c480e7d81108b7cd57585896ba5f1c0"
+    },
+    {
+      "path": "experiments/yolo/gdt877_h1_raw_construction_fidelity/README.md",
+      "role": "protocol, source implementation or fixed predecessor",
+      "sha256": "841006c831a850c9f3fc4d387995952208e609c56403c0285def1c6c27210858"
+    },
+    {
+      "path": "experiments/yolo/gdt877_h1_raw_construction_fidelity/src/PREREG_LOCK.json",
+      "role": "protocol, source implementation or fixed predecessor",
+      "sha256": "d099f6a55a82f05e1a8610cb8866b735cde98d66ed970587ce8dc2976423da5c"
+    },
+    {
+      "path": "experiments/yolo/gdt877_h1_raw_construction_fidelity/src/SPEC.json",
+      "role": "protocol, source implementation or fixed predecessor",
+      "sha256": "f7c87611ac86ec0c3eaa8c1675d46849b8ba620aa03d4dd5bf469151a5ae1333"
+    },
+    {
+      "path": "experiments/yolo/gdt877_h1_raw_construction_fidelity/src/TARGETS.json",
+      "role": "protocol, source implementation or fixed predecessor",
+      "sha256": "0f839f5355c018a7fc2f82bda9c21b36df20da10b9081902b8bee89c260030c3"
+    },
+    {
+      "path": "experiments/yolo/gdt877_h1_raw_construction_fidelity/src/TARGET_SOURCE_RECEIPT.json",
+      "role": "protocol, source implementation or fixed predecessor",
+      "sha256": "433a8056830549862dcc0f8dd4cfa50571480cf2ba85913e4f66da5571c8d25d"
+    },
+    {
+      "path": "experiments/yolo/gdt877_h1_raw_construction_fidelity/src/run.py",
+      "role": "protocol, source implementation or fixed predecessor",
+      "sha256": "d0e6343b196043106bbf7731875e800bfd1502b81945522130eac84364b99e6f"
+    },
+    {
+      "path": "experiments/yolo/gdt877_h1_raw_construction_fidelity/src/validate.py",
+      "role": "protocol, source implementation or fixed predecessor",
+      "sha256": "09666b0f67041ad16dbdc1e3cd24dbd544d4c18ffea83455d7019945ad4795ee"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt877_h1_raw_construction_fidelity/artifacts/README.md",
+      "role": "retained source, fixed construction audit and validation",
+      "sha256": "3964ea8793872c51bd4f65f5ca264388c41d6ac36fac398a525640e0334f01da"
+    }
+  ],
+  "question": "Do the five fixed GDT764 H1-X-daiin constructions retain contiguous literal raw groups and definite internal spaces in each reading?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "h1_raw_construction_fidelity",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Five H1 construction raw-source audit",
+  "updated": "2026-09-08",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

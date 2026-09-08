@@ -30,6 +30,8 @@ Quarantineonlythose72/73written-positionclaims; no broadatlas/rendererrepair.
 QM confirms those positions propagate into selectedV71 andV75R4 sources.
 ExistingIAcopy/reset question amendedv2; generalmeaningnotrefuted.
 74V75R2applications retained ascontext, notnewmodels/canonicalcases.
+877registered: five764H1-X-daiin whole-construction/raw-internal-gap audit.
+Onlyall-readingstructuralanchoreligibility; no III/nominality/meaning.11:05budget.
 
 GDT858:855/963primary808folds retained opposite-face training;169faces/90leaves.
 GDT865 whole-leaf correction retains both primary thresholds: nuisance macroAUC
