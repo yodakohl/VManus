@@ -11,9 +11,10 @@ GDT872complete:198rawanchors;1930opportunities178hits;all3diagnostic274/31.
 Distalwithin51/529forward vs66/646backward;nooverallforwarddensityexcess.
 CHcomposition41/51vs36/66onlyprimary;strictdiagnosticdoesnotrepeatdirection.
 No persistentstate/reset/meaning.872published42881456.
-873registered:one sameparagraph positionalcontrol withfixedlags3–8 andexact
-offsetmasks;no widenedinventory. Budget08:25UTC;no controlchain.
-85raw/84unique;51method;33pending(two new source-grounded unreviewed proposals).
+873complete:82eligible41matched29folios;matchedD0,control−.010967,residual+.010967.
+Folioresidual15negative12positive2zero;strictdiagnostic1matched failscoverage.
+Selectedhalf/newdensityendpoint doesnotexplain872composition. Branchstopped;no controlchain.
+86raw/85unique;51method;34pending(three new unreviewed proposals this interval).
 734twenty-whole mappings remain unassessed;no automatic cleanup cycle.
 
 GDT858:855/963primary808folds retained opposite-face training;169faces/90leaves.

@@ -1,0 +1,25 @@
+{
+  "title": "Record/form channel conditions an expanded carrier variant",
+  "summary": "GDT808 reports distinct Xol/Xeol and Xedy/Xeody channel contrasts whose surrounding record/form regimes predict the variant better than immediate neighbors. A raw semantic hypothesis asks whether a carrier’s expanded/base choice is channel-conditioned rather than one universal operator.",
+  "scope": "semantic",
+  "status": "draft_unreviewed_not_added",
+  "design": {
+    "mechanism": "record/form-channel-conditioned carrier variant",
+    "unit": "complete Xol/Xeol and Xedy/Xeody carrier forms with independently coded record/form channel and repeated carrier context",
+    "contrast": "channel-conditioned expanded/base relation versus one universal e-like operator or orthographic alternation",
+    "prediction": "Within held carrier and folio strata, the expanded/base variant should shift with the independently coded record/form channel, with L and DY allowed separate channel rules; a universal operator predicts one direction and rule across both axes.",
+    "countermodel": "Register, paragraph or formula composition can correlate with the observed variant without any channel-conditioned semantic or functional relation.",
+    "falsifier": "Held channel-matched occurrences show no reproducible variant difference, or a single common rule predicts L and DY as well as separate channel rules; the proposed channel-conditioned hypothesis then loses its restricted prediction.",
+    "principal_risk": "GDT808 is a structural working analysis with zero lexemes; channel labels and carrier identity are not independent semantic gold. This is distinct from caption/prose arity because it targets expanded/base choice within repeated carrier forms.",
+    "related": "Near GDT808, GDT627/GDT764 value-head dispatch and caption/prose channel proposals, but targets channel-conditioned carrier variant selection rather than value interpretation, page genre, or a universal e meaning.",
+    "source_evidence": {
+      "path": "experiments/yolo/gdt808_exact_relation_slot_residual_bridge/REPORT.md",
+      "line": 43,
+      "line_end": 61,
+      "quote": "`Xol/Xeol` und `Xedy/Xeody` verhalten sich am besten wie zwei getrennte\nSchreib- oder Recordkanäle, in denen derselbe Carrier in zwei Varianten\nauftreten kann. Der übrige Absatz, Topic und Formregime sagen die Variante\ndeutlich besser voraus als die unmittelbaren Wörter links und rechts.\n\nDas ist konkrete Information, aber noch kein Wörterbuch:\n\n- `e` darf nicht als universeller Operator gelesen werden;\n- L und DY dürfen nicht in eine gemeinsame Bedeutungstabelle gezwungen werden;\n- eine vollständige Form muss zusammen mit ihrem Recordkanal und ihrem\n  wiederkehrenden Ganzwortkopf interpretiert werden;\n- die DY-Achse ist wesentlich stärker und robuster als die L-Achse.\n\nDie destruktive ED1-Kontrolle bestätigt diese Asymmetrie. DY bleibt mit\nnuisance AUC 0,726426 und augmented AUC 0,736094 deutlich erhalten. L fällt\nauf 0,592049 beziehungsweise 0,567733. Auch die dünnen `Xkol/Xtal`- und die\ngelernten `cheol/otal`-Kontrollen werden hauptsächlich vom Record-/Formumfeld,\nnicht vom lokalen Slot getragen. Das stützt eine breite Kanalgrammatik und\nspricht gegen ein aus diesen Paaren direkt ablesbares Lexikon.",
+      "sha256": "7dcf23794cf134702ebea986eb8210c9ed59d517f8f432392c7b4157f9ab5e4c"
+    },
+    "endpoint_status": "availability_unknown",
+    "smallest_next_step": "Review existing complete carrier cases for independently coded record/form channels and freeze L/DY-specific variant predictions before any new extraction."
+  }
+}

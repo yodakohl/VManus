@@ -62,6 +62,11 @@
       "sha256": "a9e6eb1b2a173d48eec63923ac92e941105496f68b0b1be03780105f5ec24254"
     },
     {
+      "path": "experiments/yolo/gdt873_matched_paragraph_position_profile/REPORT.md",
+      "role": "protocol, executable implementation or guarded-source provenance",
+      "sha256": "d89950a079983b47a3a2c872b9a0d072f839de814f5d75d4834a5d1e58490604"
+    },
+    {
       "path": "experiments/yolo/gdt873_matched_paragraph_position_profile/src/PREREG_LOCK.json",
       "role": "protocol, executable implementation or guarded-source provenance",
       "sha256": "0f82c746c4ec087371a87587de8edc4e85cfe34c6b33a9b5efe91810ea425db9"
@@ -84,9 +89,34 @@
   ],
   "outputs": [
     {
+      "path": "experiments/yolo/gdt873_matched_paragraph_position_profile/artifacts/ANCHOR_MATCHES.json",
+      "role": "compact descriptive result",
+      "sha256": "70b47b1e58fbad7baf8d88a02038efb9665cfd4ec89ade15d5ba9a0c1a843ffd"
+    },
+    {
+      "path": "experiments/yolo/gdt873_matched_paragraph_position_profile/artifacts/CONTROL_CELLS.json",
+      "role": "compact descriptive result",
+      "sha256": "f0049537f78825f9bf8c4adde60890d1375e1737e29ffc494660a0ada683da8d"
+    },
+    {
       "path": "experiments/yolo/gdt873_matched_paragraph_position_profile/artifacts/README.md",
       "role": "compact descriptive result",
       "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt873_matched_paragraph_position_profile/artifacts/RESULT.json",
+      "role": "compact descriptive result",
+      "sha256": "92a19858b8bd8489d08e9523149f3a1e4c0d956a0318c4a703642807f03b8d10"
+    },
+    {
+      "path": "experiments/yolo/gdt873_matched_paragraph_position_profile/artifacts/SOURCE_RECEIPT.json",
+      "role": "compact descriptive result",
+      "sha256": "0fa6e13f5a11102baec43b41908a24f40d5a56e88f2382fe506972989014d28d"
+    },
+    {
+      "path": "experiments/yolo/gdt873_matched_paragraph_position_profile/artifacts/VALIDATION.json",
+      "role": "compact descriptive result",
+      "sha256": "9f1dfd9169292f429916303689855e1e826705215995dcbf46f36fdd20720960"
     }
   ],
   "question": "Do same-paragraph nonanchor positions with exact opportunity masks reproduce the GDT872 directional CH/SH response-density profile?",
@@ -96,11 +126,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "matched_paragraph_position_profile",
-  "status": "REGISTERED_UNSCORED",
+  "status": "COMPLETE_RETROSPECTIVE_POSITION_PROFILE",
   "title": "Matched within-paragraph position specificity",
   "updated": "2026-09-08",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "artifact": "experiments/yolo/gdt873_matched_paragraph_position_profile/artifacts/VALIDATION.json",
+    "status": "PASS"
   }
 }
