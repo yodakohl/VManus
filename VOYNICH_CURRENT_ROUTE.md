@@ -20,7 +20,9 @@ separate19rolemodel andstoredcores preserved.3946semantic/162dossiers.
 874complete:392localrecords;eligible40ZL78IT41RF;two reading-specific
 cross-leaf matches(f67r2.56→f89r2.8;f67r2.64→f89r2.28),zeroall3sameindex.
 f81v.28whole ZL/ITeligiblezero;RFentityineligible. No phrase/meaning/nullscore.
-Native unit/reading status of the two candidates remains unverified here.
+875nativeaudit:2originals2viewers;bothrunninglineslocated,criticalreadingsopen.
+56bothunlocalized;64rootspatialcandidate,Bunlocalized. Neitherbridgepromoted.
+OldR3owners notvalidated here; no blanketfalsification or furtherautomaticcensus.
 
 GDT858:855/963primary808folds retained opposite-face training;169faces/90leaves.
 GDT865 whole-leaf correction retains both primary thresholds: nuisance macroAUC

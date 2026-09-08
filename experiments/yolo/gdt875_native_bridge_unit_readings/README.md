@@ -1,5 +1,5 @@
-# GDT875 — native bridge unit readings
+# GDT875 — native bridge source audit
 
-Status: `REGISTERED_UNSCORED`
+Status: `COMPLETE_NATIVE_SOURCE_AUDIT`
 
-See `METHOD.md` and `experiment.json`.
+Neither exposed complete bridge confirmed natively. Both running lines localized; critical reading/segmentation unresolved. See REPORT.md and the two original viewer records.

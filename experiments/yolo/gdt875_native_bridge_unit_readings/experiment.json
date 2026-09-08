@@ -59,7 +59,12 @@
     {
       "path": "experiments/yolo/gdt875_native_bridge_unit_readings/README.md",
       "role": "protocol, executable source or fixed provenance",
-      "sha256": "9b830d89703c56cf92ac9c263d4c65421d480af4d2a8de852606b53b5d91e18d"
+      "sha256": "1e4ad703683bc9d8d4fee0f214d504a62087018731e91d9c86ac61197c764375"
+    },
+    {
+      "path": "experiments/yolo/gdt875_native_bridge_unit_readings/REPORT.md",
+      "role": "protocol, executable source or fixed provenance",
+      "sha256": "d26b3faa93bc57f45e2057a7fe1cac0cf0fbdd70b28442d0944f8e744ef56368"
     },
     {
       "path": "experiments/yolo/gdt875_native_bridge_unit_readings/src/PREREG_LOCK.json",
@@ -70,6 +75,11 @@
       "path": "experiments/yolo/gdt875_native_bridge_unit_readings/src/SPEC.json",
       "role": "protocol, executable source or fixed provenance",
       "sha256": "c4a31c0808f94278dbf67e57e41470e9177b72658683605019099fca39d0877a"
+    },
+    {
+      "path": "experiments/yolo/gdt875_native_bridge_unit_readings/src/recreate_root_views.py",
+      "role": "protocol, executable source or fixed provenance",
+      "sha256": "cdec5a21a3a9fd32ad804691e5f2855a0c22990bac254b561fcd8d70522f6854"
     },
     {
       "path": "experiments/yolo/gdt875_native_bridge_unit_readings/src/run.py",
@@ -89,6 +99,16 @@
   ],
   "outputs": [
     {
+      "path": "experiments/yolo/gdt875_native_bridge_unit_readings/artifacts/A_SEAL.json",
+      "role": "source packet and native observations",
+      "sha256": "214153ef40070b44c4dde0936c7b3ddd9debbe6dbab76a8c5ec95c85934f5f42"
+    },
+    {
+      "path": "experiments/yolo/gdt875_native_bridge_unit_readings/artifacts/B_VIEWS.json",
+      "role": "source packet and native observations",
+      "sha256": "7d6ca457f11b74d08d0434c06a7783126323b32a8b20fc601ad957dad8b0519b"
+    },
+    {
       "path": "experiments/yolo/gdt875_native_bridge_unit_readings/artifacts/READINGS.json",
       "role": "source packet and native observations",
       "sha256": "c7d8a894a8b5f6cd27e6e5bb93289a3f45a724d976e78695b36f284435ce8a9c"
@@ -97,6 +117,26 @@
       "path": "experiments/yolo/gdt875_native_bridge_unit_readings/artifacts/README.md",
       "role": "source packet and native observations",
       "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt875_native_bridge_unit_readings/artifacts/ROOT_VIEWS.json",
+      "role": "source packet and native observations",
+      "sha256": "56aad6b2de702ad9e45b0e68c68c046e16abb6eab83bd098e514411b14fdc710"
+    },
+    {
+      "path": "experiments/yolo/gdt875_native_bridge_unit_readings/artifacts/VALIDATION.json",
+      "role": "source packet and native observations",
+      "sha256": "6a316c8bba5f3c5517f9968023842a46f1348244895c8b2430f8b66c736c9227"
+    },
+    {
+      "path": "experiments/yolo/gdt875_native_bridge_unit_readings/artifacts/VIEWER_A.json",
+      "role": "source packet and native observations",
+      "sha256": "67701e67a3d1f04f8327b3c2986222c89a7e66ea5b0bafd1a7c579ebae575214"
+    },
+    {
+      "path": "experiments/yolo/gdt875_native_bridge_unit_readings/artifacts/VIEWER_B.json",
+      "role": "source packet and native observations",
+      "sha256": "8d266719c3ba9c8302062a6eda27e2c1140c2b07b6d97887f83a6c6587554919"
     }
   ],
   "question": "Can four fixed exposed bridge endpoints be localized as shared spatial local entries and source reading descriptions?",
@@ -106,11 +146,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "native_bridge_unit_readings",
-  "status": "REGISTERED_UNSCORED",
+  "status": "COMPLETE_NATIVE_SOURCE_AUDIT",
   "title": "Native unit and reading audit of two exposed bridges",
   "updated": "2026-09-08",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "artifact": "experiments/yolo/gdt875_native_bridge_unit_readings/artifacts/VALIDATION.json",
+    "status": "PASS"
   }
 }

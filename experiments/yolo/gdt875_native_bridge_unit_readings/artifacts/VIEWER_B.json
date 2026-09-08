@@ -1,0 +1,71 @@
+{
+  "viewer": "B",
+  "prior_exposure": "Read only the supplied GDT875 preregistration, SPEC and READINGS packet for this task, then the two original source images and my own lossless crops. General earlier textual Voynich research exposure exists, including the supplied target strings. No VIEWER_A, A_SEAL, old owner maps, other viewer observations, or earlier candidate crops were consulted. This is not blind to the supplied transcription alternatives.",
+  "method": "Native visual inspection; source-coordinate crops only, without OCR, enhancement, resampling or glyph-classification software. Coordinates are approximate original-image pixel bounds, not adjudicated token boxes.",
+  "viewed_sources": [
+    "experiments/yolo/gdt871_remaining_shared_diagram_orientation/runtime/1006194.jpg",
+    "docs/visual_overview/runtime/1006233.jpg"
+  ],
+  "viewed_crops": [
+    "experiments/yolo/gdt875_native_bridge_unit_readings/runtime/B_67_left.png",
+    "experiments/yolo/gdt875_native_bridge_unit_readings/runtime/B_67_right.png",
+    "experiments/yolo/gdt875_native_bridge_unit_readings/runtime/B_89_text.png",
+    "experiments/yolo/gdt875_native_bridge_unit_readings/runtime/B_67_right_outer.png",
+    "experiments/yolo/gdt875_native_bridge_unit_readings/runtime/B_67_left_full.png",
+    "experiments/yolo/gdt875_native_bridge_unit_readings/runtime/B_89_upper_line.png",
+    "experiments/yolo/gdt875_native_bridge_unit_readings/runtime/B_89_lower_lines.png",
+    "experiments/yolo/gdt875_native_bridge_unit_readings/runtime/B_89_8_detail.png",
+    "experiments/yolo/gdt875_native_bridge_unit_readings/runtime/B_89_28_detail.png",
+    "experiments/yolo/gdt875_native_bridge_unit_readings/runtime/B_89_28_end.png"
+  ],
+  "observations": {
+    "f67r2.56": {
+      "localized": false,
+      "status": "UNRESOLVED",
+      "evidence": "I inspected both circular diagrams and enlarged source crops. The image contains several short radial inscriptions, but I could not independently identify the supplied tol daiin sequence securely among them. A superficially plausible two-cluster inscription at the left side of the larger wheel is insufficient to bind the numbered target. Therefore I cannot judge whether this target is one spatial entry or has separate visible owners.",
+      "uncertainty": "Target-to-image localization unresolved; no owner assignment or word-boundary conclusion."
+    },
+    "f67r2.64": {
+      "localized": false,
+      "status": "UNRESOLVED",
+      "evidence": "I inspected the source spread and crops of the smaller wheel and its outer right inscriptions. Rotated and curved short inscriptions are visible, but I did not securely localize the supplied s air sequence without an owner map. No visible-owner conclusion follows from the transcription space alone.",
+      "uncertainty": "Target-to-image localization unresolved; neither one entry nor separate owners established."
+    },
+    "f89r2.8": {
+      "localized": true,
+      "status": "LOCALIZED_READING_DESCRIPTION",
+      "coords": {
+        "source": "1006233.jpg",
+        "approx_line_window_xyxy": [
+          5500,
+          1110,
+          8850,
+          1260
+        ]
+      },
+      "evidence": "The upper prose band has a line beginning with a tall crossed/looped sign, a round sign and a small terminal hook/curved stroke, followed by three visually similar loop-and-minim groups. That repeated following sequence and the subsequent longer writing support localization to the supplied .8 packet. The initial short whole is visibly separated from the first repeated group; the terminal stroke is too ambiguous for me to choose tol versus toy. In the repeated sequence there is spacing before the following small round/looped material, but I cannot confidently promote its size to a definite daiinody versus daiin ody boundary.",
+      "uncertainty": "Line localization is substantially more secure than individual EVA readings. I do not adjudicate l/y or the internal separation in daiinody, and I do not infer a meaning."
+    },
+    "f89r2.28": {
+      "localized": true,
+      "status": "LOCALIZED_READING_DESCRIPTION",
+      "coords": {
+        "source": "1006233.jpg",
+        "approx_line_window_xyxy": [
+          5500,
+          2740,
+          7570,
+          2900
+        ],
+        "disputed_ending_detail_xyxy": [
+          6750,
+          2690,
+          7570,
+          2870
+        ]
+      },
+      "evidence": "The final prose line above the lower plants begins with a small round mark, a curved upright and a minim group, then another curved-upright/minim sequence. Repeated round/upright and loop/minim groups continuing toward the vertical fold match the distinctive supplied .28 sequence sufficiently to localize it. The disputed ending lies at and immediately around the fold: several pale curved/looped strokes and minims are visible, with uneven spacing and a strong vertical surface crease. I cannot securely divide this into the proposed s air yl dairl versus joined dair/dairyl alternatives. The visible sequence is running prose on one baseline; this does not establish the number of linguistic words.",
+      "uncertainty": "Localization rests on the full preceding sequence. Faint strokes and the fold prevent confident glyph or gap adjudication at the disputed ending; no independent confirmation of a running s air whole."
+    }
+  }
+}
