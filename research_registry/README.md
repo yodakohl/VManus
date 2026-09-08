@@ -27,6 +27,17 @@ experimental scopes remain separate. Historical proposals are not confirmed mean
 or permission to rerun failed experiments. Use linked registry dossiers for assessed
 failures, changed-input review and reopening conditions.
 
+Historical inclusion does not require a confirmed translation or a named substance.
+Explicit weak or withdrawn semantic roles such as HOT/COLD, process stage, or a
+proposed operation remain hypotheses with their original limits. Purely formal
+position tags remain separately typed. Do not reject a source proposition merely
+because its report says zero confirmed lexemes.
+
+A numerical table can itself state a hypothesis. Distinguish that from a score-only
+reference to a separately defined model; preserve the complete model before
+archiving such a reference. An incidental quotation in another card is not an
+exact counterpart, and field-name absence alone does not prove a coverage gap.
+
 Before delegating a candidate audit, use
 `./vmanus-work question-coverage "OKE" --without-question` to select public
 cards with no directly bound scoped question. Default output includes both

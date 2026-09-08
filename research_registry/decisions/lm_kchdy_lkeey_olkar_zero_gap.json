@@ -1,0 +1,79 @@
+{
+  "id": "LM_KCHDY_LKEEY_OLKAR_ZERO_GAP",
+  "task_scope": "Read-only GDT748-749 audit of kchdy COLD/DRY rival and any exact old lkeey/olkar substance wording; qochey and cheky excluded as handled by LG.",
+  "verdict": "zero_genuinely_missing_historical_propositions",
+  "recommendation": "Do not recover or add a substance card from these reports. Preserve the kchdy role rival as a bounded unconfirmed structural lead; preserve existing source-bound lkeey and olkar cards and their limits.",
+  "audited_targets": [
+    {
+      "target": "kchdy",
+      "sources": [
+        "GDT748",
+        "GDT749"
+      ],
+      "finding": "GDT748 explicitly says the repeated roles do not name a substance or verb. GDT749 records COLD/DRY only as a rival beside HOT after poor calibration; this is not a substance proposition or empirical semantic refutation.",
+      "existing_card_action": "none"
+    },
+    {
+      "target": "lkeey/olkar old substance identities",
+      "sources": [
+        "GDT749",
+        "GDT661",
+        "GDT693"
+      ],
+      "finding": "GDT749 says previously withdrawn substance identities are not revived, but gives no substance values. Exact source-bound values already exist in SEM:3dd3bbcff142aaa52d47 (GDT661 lkeey) and SEM:166819fa7e83a06a21da (GDT693 local olkar rivals).",
+      "existing_card_action": "preserve existing cards; no duplicate recovery"
+    }
+  ],
+  "existing_card_pointers": [
+    {
+      "id": "SEM:3dd3bbcff142aaa52d47",
+      "scope": "GDT661 source-bound unconfirmed lkeey working hypothesis",
+      "claim": "lkeey → Drogenholz, heiß am Gradende"
+    },
+    {
+      "id": "SEM:166819fa7e83a06a21da",
+      "scope": "GDT692/GDT693 local unconfirmed olkar alternatives",
+      "claim": "Anteil I des heißen Holzauszugs vs Anteil I des heißen Holzansatzes"
+    }
+  ],
+  "evidence": [
+    {
+      "role": "kchdy-role-scope",
+      "path": "experiments/yolo/gdt748_complete_whole_serial_paradigm_census/REPORT.md",
+      "line": 58,
+      "line_end": 60,
+      "quote": "`chdy`, `cheey`, `cheky` und `olkaiin` liefern kleinere wiederholte\nBestätigungen. `kchdy` hat drei, aber keine leserexakte Zielstelle und bleibt\nentsprechend schwach. Keine dieser Rollen benennt einen Stoff oder ein Verb.",
+      "sha256": "293c072ae653913632b93089d97301b67fd76469ada475fa4bd207408174dbe5"
+    },
+    {
+      "role": "withdrawn-substance-identity-limit",
+      "path": "experiments/yolo/gdt749_outside_frame_whole_role_distribution/REPORT.md",
+      "line": 45,
+      "line_end": 48,
+      "quote": "`lkeey`, `olkar` und `qokaiin` sind außen nur baseline-artig oder leicht gegen\nihre HOT-Vorrolle verschoben. Die HOT-Annahme darf explorativ stehen bleiben,\nist aber kein sinnvoller Standardrenderer. Insbesondere werden die früher\nzurückgezogenen Stoffidentitäten für `lkeey` und `olkar` nicht wiederbelebt.",
+      "sha256": "1ef04ad320f84900f81580880c1009ec814150bfbb59f045573d7d07cbe31d96"
+    },
+    {
+      "role": "kchdy-cold-dry-rival",
+      "path": "experiments/yolo/gdt749_outside_frame_whole_role_distribution/REPORT.md",
+      "line": 58,
+      "line_end": 62,
+      "quote": "`kchdy` hat nur zehn reader-exakte Außenstellen und nur eine polarisierte\nunmittelbare Stelle. Das globale Rohprofil stellt drei COLD- und null HOT-Karten\nin die Top fünf. Wegen der schlechten Kalibrierung und der einzelnen direkten\nStelle ist das kein Gegenbeweis; COLD/DRY wird lediglich als neuer Rivale neben\nHOT geführt.",
+      "sha256": "1ef04ad320f84900f81580880c1009ec814150bfbb59f045573d7d07cbe31d96"
+    },
+    {
+      "role": "no-new-substance-conclusion",
+      "path": "experiments/yolo/gdt749_outside_frame_whole_role_distribution/REPORT.md",
+      "line": 97,
+      "line_end": 102,
+      "quote": "GDT749 liefert keine neue konkrete Substanz und kein Lexem. Es verhindert aber\nzwei falsche Vereinfachungen:\n\n1. globale Abschnitts-/Positionsähnlichkeit ist kein Bedeutungsdecoder;\n2. eine Serienrolle darf nicht automatisch auf jedes Vorkommen derselben Form\n   übertragen werden.",
+      "sha256": "1ef04ad320f84900f81580880c1009ec814150bfbb59f045573d7d07cbe31d96"
+    }
+  ],
+  "limits": [
+    "GDT749 calibration failure and role-rival ranking do not supply a new semantic binding.",
+    "The phrase about withdrawn identities is a disposition statement, not an exact historical substance reading.",
+    "No claim is made that all lkeey/olkar history is exhausted beyond the audited source paths."
+  ],
+  "source_audit": "All evidence quotes were generated from the declared physical line spans and hashed programmatically; no registry, ledger, raw data, or source bytes were modified."
+}

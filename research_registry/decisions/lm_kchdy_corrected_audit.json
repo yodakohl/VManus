@@ -1,0 +1,63 @@
+{
+  "id": "LM_KCHDY_CORRECTED_AUDIT",
+  "preserves": "research_registry/decisions/lm_kchdy_lkeey_olkar_zero_gap.json",
+  "scope": "Read-only correction for GDT749 kchdy: retain a historical functional/semantic rival even without a named substance. lkeey/olkar disposition remains separate.",
+  "current_counterpart_check": {
+    "searched": "research_registry/semantic_ideas.jsonl",
+    "exact_form_fields": [
+      "form",
+      "form_or_model",
+      "target_form"
+    ],
+    "exact_value": "kchdy",
+    "matches": [],
+    "interpretation": "No current semantic card has an exact kchdy form binding; nearby qokchdy/sshkchdy matches were not treated as kchdy."
+  },
+  "draft_missing_proposition": {
+    "kind": "historical_functional_hypothesis",
+    "form": "kchdy",
+    "claim": "GDT749 keeps kchdy as a bounded COLD/DRY functional or state-role rival alongside the earlier HOT role hypothesis; the report does not identify a substance, lexical value, or transferable global role.",
+    "source_owner": {
+      "gdt": "GDT749",
+      "path": "experiments/yolo/gdt749_outside_frame_whole_role_distribution/REPORT.md",
+      "sha256": "1ef04ad320f84900f81580880c1009ec814150bfbb59f045573d7d07cbe31d96",
+      "source_scope": "outside-frame whole-role distribution; source-specific report only"
+    },
+    "limits": [
+      "10 reader-exact outside occurrences",
+      "one polarized immediate contact",
+      "global raw profile places three COLD and zero HOT cards in top five",
+      "calibration is poor, so COLD/DRY is neither confirmed nor a counterexample",
+      "no substance or lexeme export"
+    ],
+    "verdict": "retain_unconfirmed_historical_rival; not method-reviewed or operative"
+  },
+  "evidence": [
+    {
+      "role": "exact-kchdy-cold-dry-rival",
+      "path": "experiments/yolo/gdt749_outside_frame_whole_role_distribution/REPORT.md",
+      "line": 58,
+      "line_end": 62,
+      "quote": "`kchdy` hat nur zehn reader-exakte Außenstellen und nur eine polarisierte\nunmittelbare Stelle. Das globale Rohprofil stellt drei COLD- und null HOT-Karten\nin die Top fünf. Wegen der schlechten Kalibrierung und der einzelnen direkten\nStelle ist das kein Gegenbeweis; COLD/DRY wird lediglich als neuer Rivale neben\nHOT geführt.",
+      "sha256": "1ef04ad320f84900f81580880c1009ec814150bfbb59f045573d7d07cbe31d96"
+    },
+    {
+      "role": "calibration-limit",
+      "path": "experiments/yolo/gdt749_outside_frame_whole_role_distribution/REPORT.md",
+      "line": 10,
+      "line_end": 16,
+      "quote": "Der zunächst attraktivste Befund war falsch stark: ein globales Profil aus\nAbschnitt, Zeilenposition, Nachbarachsen und Abschlussnähe schien sieben Rollen\nzu bestätigen. Im Leave-self-out-Test auf den 46 bekannten Referenzwörtern\nliefert derselbe Klassifikator aber nur 23 richtige Qualitäts-/Stufenlabels,\n42 falsche und 60 verpasste. Das entspricht 35,4 Prozent Precision und 27,7\nProzent Recall. Sämtliche X-Ränge bleiben deshalb als Rohdaten sichtbar, dürfen\naber keine Bedeutung hochstufen oder verwerfen.",
+      "sha256": "1ef04ad320f84900f81580880c1009ec814150bfbb59f045573d7d07cbe31d96"
+    },
+    {
+      "role": "no-substance-export",
+      "path": "experiments/yolo/gdt749_outside_frame_whole_role_distribution/REPORT.md",
+      "line": 95,
+      "line_end": 102,
+      "quote": "## Was sich an der Arbeitstheorie ändert\n\nGDT749 liefert keine neue konkrete Substanz und kein Lexem. Es verhindert aber\nzwei falsche Vereinfachungen:\n\n1. globale Abschnitts-/Positionsähnlichkeit ist kein Bedeutungsdecoder;\n2. eine Serienrolle darf nicht automatisch auf jedes Vorkommen derselben Form\n   übertragen werden.",
+      "sha256": "1ef04ad320f84900f81580880c1009ec814150bfbb59f045573d7d07cbe31d96"
+    }
+  ],
+  "non_duplicate_reason": "The existing GDT749 SEM card concerns okechy, and qochey/cheky are handled by LG. This draft is specifically kchdy and preserves its COLD/DRY-versus-HOT historical role rival.",
+  "write_policy": "Draft only; no registry, ledger, source bytes, raw data, or priorities mutation."
+}
