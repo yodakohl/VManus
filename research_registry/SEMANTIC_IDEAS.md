@@ -16,17 +16,17 @@ Earlier four-hour curation delta: [scoped results](decisions/semantic_4h_complet
 
 | Unit | Count |
 |---|---:|
-| Active semantic hypothesis variants | 3,921 |
+| Active semantic hypothesis variants | 3,935 |
 | Separately typed formal-role cards | 266 |
-| Reviewed source cases, including the correction archive | 4,716 |
+| Reviewed source cases, including the correction archive | 4,730 |
 | Archived source-extraction errors | 52 |
 | Exact normalized assertion repetitions grouped | 477 |
 | Reviewed equivalence groups / display reduction | 86 / 104 |
-| Public semantic display entries | 3,818 |
+| Public semantic display entries | 3,832 |
 
 These are different units, not a deduplicated total of independent theories.
 A local ignored supplement contributes95 semantic cards and one formal card;
-the ordinary local default therefore displays3,913 semantic entries. A fresh
+the ordinary local default therefore displays3,927 semantic entries. A fresh
 public clone has the public view only. Local source files and quotes are not
 published or silently folded into public counts.
 
@@ -98,14 +98,14 @@ not mean rejected, and an old source PASS does not confirm a meaning.
 
 ## Failure memory and conditional priorities
 
-149 scoped question dossiers distinguish empirical failure, invalid test,
+155 scoped question dossiers distinguish empirical failure, invalid test,
 insufficient capacity, missing meaning binding, proposal-only status and historical
 model revision. They appear before inherited experiment context under assessments.
 They state the actual compared subclaim, primary evidence, scope and changed-input
-requirements. The current149 dossiers directly target200 semantic cards. The nine
+requirements. The current155 dossiers directly target214 semantic cards. The nine
 priorities directly target27, with23 shared targets;3,717 semantic cards have no
 direct target binding in these two lists. This is a coverage limit, not an
-automatic scientific verdict on those cards (see decisions/nd_assessment_coverage.json; earlier snapshots remain preserved). An editorial wording preference is not an empirical falsifier.
+automatic scientific verdict on those cards (see decisions/nm_assessment_coverage.json; earlier snapshots remain preserved). An editorial wording preference is not an empirical falsifier.
 Original conditional predictions remain distinct from observed counterexamples;
 reviewer-supplied reopening conditions are prospective, not old preregistrations.
 Only the latest linked revision acts; all older decisions remain in the log.

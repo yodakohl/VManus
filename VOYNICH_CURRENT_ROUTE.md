@@ -4,8 +4,8 @@ Updated: 2026-09-08. Read first.
 ## Current mandate and effort limit
 
 10h requested:2026-09-07 20:29:06–2026-09-08 06:29:06UTC minimum.
-ND:14result/powder core variants, six scoped questions;10h incomplete.
-69recoveries/7scoreerrors;35questions;13definitions;86groups/104reduction.
+NM:14remaining core/map variants, six scoped questions;10h incomplete.
+83recoveries/7scoreerrors;41questions;13definitions;86groups/104reduction.
 83rawrecords82afterknown55dup;48method/34unreviewed;10source-onlyrepairs.
 
 GDT858:855/963primary808folds retained opposite-face training;169faces/90leaves.
