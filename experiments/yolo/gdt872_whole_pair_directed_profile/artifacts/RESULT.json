@@ -1,0 +1,74 @@
+{
+  "anchor_occurrences": {
+    "cheo": 53,
+    "cheor": 69,
+    "sheo": 37,
+    "sheor": 39
+  },
+  "anchor_surface_count": 4,
+  "atlas_edition": "ZL3b",
+  "atlas_loci_outside_gdt807": 0,
+  "claim_ceiling": "Raw-group directed opportunities and response hits only; no p-values, semantic winner, or meaning claim.",
+  "declared_response_pair_count": 9,
+  "diagnostic_all_three_disagreement_count": 3223,
+  "diagnostic_all_three_raw_line_count": 4131,
+  "diagnostic_disagreement_policy": "exclude opportunities traversing a non-identical diagnostic line; do not abort primary corpus",
+  "diagnostic_opportunity_count": 274,
+  "diagnostic_response_hit_count": 31,
+  "macroanchor_rate": {
+    "aggregate_cells": 9486,
+    "definition": "unweighted mean of per-anchor hit/opportunity rates among anchors with opportunities, within each physical-folio aggregate cell"
+  },
+  "opportunity_count": 1930,
+  "query_stats": {
+    "atlas": {
+      "selected": 96184,
+      "skipped_forbidden": 2122,
+      "skipped_not_allowed": 17164
+    },
+    "gdt807": [
+      {
+        "allowed_value_count": 179,
+        "forbidden_prefixes": "f84|f84r",
+        "output_columns": "page,locus,line_number,section,language,hand,paragraph_start,paragraph_end,token_count,eva_clean",
+        "query_id": "ZL3B_LINES_179",
+        "query_returncode": 0,
+        "selected_rows": 4137,
+        "selector_column": "page",
+        "skipped_forbidden_rows": 98,
+        "skipped_not_allowed_rows": 1150,
+        "source_path": "transcription/voynich_zl3b_lines.tsv"
+      },
+      {
+        "allowed_value_count": 179,
+        "forbidden_prefixes": "f84|f84r",
+        "output_columns": "page,locus,token_index,eva,section,language,hand",
+        "query_id": "ZL3B_TOKENS_179",
+        "query_returncode": 0,
+        "selected_rows": 32339,
+        "selector_column": "page",
+        "skipped_forbidden_rows": 709,
+        "skipped_not_allowed_rows": 5940,
+        "source_path": "transcription/voynich_zl3b_tokens.tsv"
+      },
+      {
+        "allowed_value_count": 179,
+        "forbidden_prefixes": "f84|f84r",
+        "output_columns": "page,locus,all_three_present,all_present_exact,zl3b_clean,it2a_clean,rf1b_clean",
+        "query_id": "CROSS_READER_LINES_179",
+        "query_returncode": 0,
+        "selected_rows": 4137,
+        "selector_column": "page",
+        "skipped_forbidden_rows": 98,
+        "skipped_not_allowed_rows": 1151,
+        "source_path": "transcription/voynich_cross_transcription_lines.tsv"
+      }
+    ]
+  },
+  "response_hit_count": 178,
+  "source_hashes": {
+    "atlas": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0",
+    "gdt807_runner": "1f1b723b1bae896787211abfc5e1e1451ebd44858d77e0845d18b67feb1b533e"
+  },
+  "status": "COMPLETE_DESCRIPTIVE_DIRECTED_PROFILE"
+}

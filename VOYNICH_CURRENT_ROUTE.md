@@ -7,9 +7,10 @@ Updated: 2026-09-08. Read first.
 Session:research_registry/decisions/semantic_4h_followon_session.md.
 Baseline9254994c:3944semantic;160dossiers;83raw/82unique;51method/31pending.
 Prior10h:85net recovered variants,0new manuscript experiment/image/meaning.
-Current:GDT872 registered raw-group directional discovery;4anchors/18responses,
-lags3–8,near1–2reference;sourceparagraph boundaries;no semantic score.
-Budget08:05UTC; source/code validation before target run.
+GDT872complete:198rawanchors;1930opportunities178hits;all3diagnostic274/31.
+Distalwithin51/529forward vs66/646backward;nooverallforwarddensityexcess.
+CHcomposition41/51vs36/66onlyprimary;strictdiagnosticdoesnotrepeatdirection.
+No persistentstate/reset/meaning;possibleposition-onlycontrast underreview.
 734twenty-whole mappings remain unassessed;no automatic cleanup cycle.
 
 GDT858:855/963primary808folds retained opposite-face training;169faces/90leaves.

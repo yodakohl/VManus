@@ -1,0 +1,84 @@
+{
+  "atlas_guarded_query": {
+    "selected": 96184,
+    "skipped_forbidden": 2122,
+    "skipped_not_allowed": 17164
+  },
+  "atlas_source": {
+    "columns": [
+      "source_group_id",
+      "edition",
+      "page",
+      "locus",
+      "source_group_index",
+      "source_group_count",
+      "left_separator",
+      "right_separator",
+      "ivtff_group_raw",
+      "clean_ascii_fragments",
+      "clean_ascii_fragment_count",
+      "legacy_surface_positions_1based",
+      "legacy_mapping_status",
+      "source_row_index"
+    ],
+    "forbidden_prefixes": [
+      "f84",
+      "f84r"
+    ],
+    "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+    "selector": "page"
+  },
+  "gdt807_guarded_queries": [
+    {
+      "allowed_value_count": 179,
+      "forbidden_prefixes": "f84|f84r",
+      "output_columns": "page,locus,line_number,section,language,hand,paragraph_start,paragraph_end,token_count,eva_clean",
+      "query_id": "ZL3B_LINES_179",
+      "query_returncode": 0,
+      "selected_rows": 4137,
+      "selector_column": "page",
+      "skipped_forbidden_rows": 98,
+      "skipped_not_allowed_rows": 1150,
+      "source_path": "transcription/voynich_zl3b_lines.tsv"
+    },
+    {
+      "allowed_value_count": 179,
+      "forbidden_prefixes": "f84|f84r",
+      "output_columns": "page,locus,token_index,eva,section,language,hand",
+      "query_id": "ZL3B_TOKENS_179",
+      "query_returncode": 0,
+      "selected_rows": 32339,
+      "selector_column": "page",
+      "skipped_forbidden_rows": 709,
+      "skipped_not_allowed_rows": 5940,
+      "source_path": "transcription/voynich_zl3b_tokens.tsv"
+    },
+    {
+      "allowed_value_count": 179,
+      "forbidden_prefixes": "f84|f84r",
+      "output_columns": "page,locus,all_three_present,all_present_exact,zl3b_clean,it2a_clean,rf1b_clean",
+      "query_id": "CROSS_READER_LINES_179",
+      "query_returncode": 0,
+      "selected_rows": 4137,
+      "selector_column": "page",
+      "skipped_forbidden_rows": 98,
+      "skipped_not_allowed_rows": 1151,
+      "source_path": "transcription/voynich_cross_transcription_lines.tsv"
+    }
+  ],
+  "reader": "experiments/yolo/gdt807_target_masked_paragraph_exchange_codebook/src/run.py",
+  "runtime_projections": {
+    "atlas_tsv": {
+      "path": "experiments/yolo/gdt872_whole_pair_directed_profile/runtime/ATLAS.tsv",
+      "sha256": "b36ff6782a06985b5bdcf8b584eec94b42698ed4708fc0bb3e19ece0e945bca0"
+    },
+    "line_records_json": {
+      "path": "experiments/yolo/gdt872_whole_pair_directed_profile/runtime/LINE_RECORDS.json",
+      "sha256": "a311045ae45fcc14d243328a32905cc17070182d8991246c545986c3b0012da3"
+    },
+    "opportunities_json": {
+      "path": "experiments/yolo/gdt872_whole_pair_directed_profile/runtime/OPPORTUNITIES.json",
+      "sha256": "9ba29551dfc594b7f431dc51d0df12cdd7dd1dc2ed3ee8b0f3465b58060013f4"
+    }
+  }
+}

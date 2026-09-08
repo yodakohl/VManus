@@ -59,6 +59,11 @@
       "sha256": "69f6e38f61806e98989bdab9d14ce120926a812dadb80f734d4574e586673e64"
     },
     {
+      "path": "experiments/yolo/gdt872_whole_pair_directed_profile/REPORT.md",
+      "role": "reproducibility protocol/code or guarded source binding",
+      "sha256": "26bb7da2a8e48ea659819f3c40805a792f6f626ab9a55de8cb212e205ab7d04c"
+    },
+    {
       "path": "experiments/yolo/gdt872_whole_pair_directed_profile/src/PREREG_LOCK.json",
       "role": "reproducibility protocol/code or guarded source binding",
       "sha256": "173b432801ddd18bee5a6a11e1f477ac777558c25a8c644f5a96b53be5316ad1"
@@ -72,6 +77,11 @@
       "path": "experiments/yolo/gdt872_whole_pair_directed_profile/src/run.py",
       "role": "reproducibility protocol/code or guarded source binding",
       "sha256": "8baa195ecb3829588b76ab546f90b46637d77732236f06412b2b9dde0b676fa9"
+    },
+    {
+      "path": "experiments/yolo/gdt872_whole_pair_directed_profile/src/summarize.py",
+      "role": "reproducibility protocol/code or guarded source binding",
+      "sha256": "9a775bc738f0c0d8e7ca1e6d956de1e185f122b4d84fcde5712bbf9aac10102f"
     },
     {
       "path": "experiments/yolo/gdt872_whole_pair_directed_profile/src/validate.py",
@@ -106,9 +116,49 @@
   ],
   "outputs": [
     {
+      "path": "experiments/yolo/gdt872_whole_pair_directed_profile/artifacts/ANCHOR_SUMMARY.json",
+      "role": "compact descriptive artifact",
+      "sha256": "130d2f95b05a64bf7f9d349aa9bfc599d44c6d9741bace9ac6bdc4cc8c76950e"
+    },
+    {
+      "path": "experiments/yolo/gdt872_whole_pair_directed_profile/artifacts/DIRECTION_SUMMARY.json",
+      "role": "compact descriptive artifact",
+      "sha256": "5653ed8d7e8d46ae66e524b444463e085a52bfffa15ab056f061e1a7b53e6432"
+    },
+    {
+      "path": "experiments/yolo/gdt872_whole_pair_directed_profile/artifacts/GDT872_DIRECTED_HITS.tsv",
+      "role": "compact descriptive artifact",
+      "sha256": "e998c5fe51bb0d2a32156553b564ff1d96789faf4300744322758c90fe08606f"
+    },
+    {
+      "path": "experiments/yolo/gdt872_whole_pair_directed_profile/artifacts/GDT872_OPPORTUNITY_AGGREGATES.tsv",
+      "role": "compact descriptive artifact",
+      "sha256": "41c301cf2bfbcb5114bb7a771ddf54a7ce2db8a7f87189ccca11ac4e85dc4e24"
+    },
+    {
+      "path": "experiments/yolo/gdt872_whole_pair_directed_profile/artifacts/GDT872_QUERY_RECEIPTS.json",
+      "role": "compact descriptive artifact",
+      "sha256": "e31b817ca895cbb858fb254dca9262cbcbb1caae5ba9efe51896d9a00bca249b"
+    },
+    {
       "path": "experiments/yolo/gdt872_whole_pair_directed_profile/artifacts/README.md",
       "role": "compact descriptive artifact",
       "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt872_whole_pair_directed_profile/artifacts/RESPONSE_PAIR_SUMMARY.json",
+      "role": "compact descriptive artifact",
+      "sha256": "37ce1e995cf51017105e1396479c56d4b727191641681fa0eee7c58e8b799dca"
+    },
+    {
+      "path": "experiments/yolo/gdt872_whole_pair_directed_profile/artifacts/RESULT.json",
+      "role": "compact descriptive artifact",
+      "sha256": "3e1857ace365b0ce60be5c9f2363c9e72c9d7403e0f828110fc80f0b461d6582"
+    },
+    {
+      "path": "experiments/yolo/gdt872_whole_pair_directed_profile/artifacts/VALIDATION.json",
+      "role": "compact descriptive artifact",
+      "sha256": "ca9e0fb7be54c12941609ec76725f7f685d39576879491c3079560912c835b3f"
     }
   ],
   "question": "What directional raw-group co-occurrence profile do four fixed complete-word anchors have with eighteen disjoint response wholes at lags3\u20138, within versus across source paragraphs?",
@@ -118,11 +168,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "whole_pair_directed_profile",
-  "status": "REGISTERED_UNSCORED",
+  "status": "COMPLETE_DESCRIPTIVE_DIRECTED_PROFILE_NO_SEMANTIC_PROMOTION",
   "title": "Directed exact-whole profile beyond immediate neighbours",
   "updated": "2026-09-08",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "artifact": "experiments/yolo/gdt872_whole_pair_directed_profile/artifacts/VALIDATION.json",
+    "status": "PASS"
   }
 }
