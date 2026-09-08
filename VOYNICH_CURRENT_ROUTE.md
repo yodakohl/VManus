@@ -27,6 +27,9 @@ OldR3owners notvalidated here; no blanketfalsification or furtherautomaticcensus
 notleft/rightcircularbands;74alsohorizontal,butreferentopen. Bothviewersagree.
 R1alreadyhadlowerblock: latermapregression,notnewgeometry/meaning.
 Quarantineonlythose72/73written-positionclaims; no broadatlas/rendererrepair.
+QM confirms those positions propagate into selectedV71 andV75R4 sources.
+ExistingIAcopy/reset question amendedv2; generalmeaningnotrefuted.
+74V75R2applications retained ascontext, notnewmodels/canonicalcases.
 
 GDT858:855/963primary808folds retained opposite-face training;169faces/90leaves.
 GDT865 whole-leaf correction retains both primary thresholds: nuisance macroAUC

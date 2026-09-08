@@ -99,17 +99,20 @@ not mean rejected, and an old source PASS does not confirm a meaning.
 
 ## Failure memory and conditional priorities
 
-160 scoped question dossiers distinguish empirical failure, invalid test,
+162 scoped question dossiers distinguish empirical failure, invalid test,
 insufficient capacity, missing meaning binding, proposal-only status and historical
 model revision. They appear before inherited experiment context under assessments.
 They state the actual compared subclaim, primary evidence, scope and changed-input
-requirements. The current160 dossiers directly target223 semantic cards. The nine
+requirements. The current162 dossiers directly target225 semantic cards. The nine
 priorities directly target27, with23 shared targets;3,717 semantic cards have no
 direct target binding in these two lists. This is a coverage limit, not an
-automatic scientific verdict on those cards (see decisions/ok_assessment_coverage.json; earlier snapshots remain preserved). An editorial wording preference is not an empirical falsifier.
+automatic scientific verdict on those cards (see decisions/qm_assessment_coverage.json; earlier snapshots remain preserved). An editorial wording preference is not an empirical falsifier.
 Original conditional predictions remain distinct from observed counterexamples;
 reviewer-supplied reopening conditions are prospective, not old preregistrations.
 Only the latest linked revision acts; all older decisions remain in the log.
+The V75 local-copy/reset question now links GDT876’s correction of two inherited
+written locations. This does not refute the general semantic policy; the related
+74 authored V75 R2 applications are retained as context, not new canonical cases.
 
 The separate shortlist contains nine conditional questions in an explicitly
 reviewed subset, not a global ranking of every variant. All nine remain unready.

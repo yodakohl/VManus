@@ -1,0 +1,52 @@
+[
+  {
+    "command": [
+      "./vmanus-exp",
+      "query-tsv",
+      "experiments/yolo/sidequest_theory_candidates_v71/V71_SELECTED_OWNER_LEDGER.tsv",
+      "--selector",
+      "page",
+      "--allow",
+      "f67r2",
+      "--columns",
+      "page,unit_id,unit_kind,selected_visible_owner,owner_status,visible_basis",
+      "--forbid-prefix",
+      "f84",
+      "--forbid-prefix",
+      "f84r"
+    ],
+    "guard_stats": {
+      "selected": 74,
+      "skipped_forbidden": 0,
+      "skipped_not_allowed": 203
+    },
+    "projection_sha256": "789af7e060ac829a4098a2882d42aac5921c6f852af5f0e132c647254f41caca",
+    "retained_target_rows": 3,
+    "source": "experiments/yolo/sidequest_theory_candidates_v71/V71_SELECTED_OWNER_LEDGER.tsv"
+  },
+  {
+    "command": [
+      "./vmanus-exp",
+      "query-tsv",
+      "experiments/yolo/sidequest_theory_candidates_v75/V75_R4_142_LOCUS_CELESTIAL_ATLAS.tsv",
+      "--selector",
+      "page",
+      "--allow",
+      "f67r2",
+      "--columns",
+      "page,locus,owner_status,local_namespace_owner,visible_basis",
+      "--forbid-prefix",
+      "f84",
+      "--forbid-prefix",
+      "f84r"
+    ],
+    "guard_stats": {
+      "selected": 74,
+      "skipped_forbidden": 0,
+      "skipped_not_allowed": 68
+    },
+    "projection_sha256": "1756eaf4a9e5d7308bbdfb5a7593fc6d2a42a6e18acf2c61f67ec4f863364e7b",
+    "retained_target_rows": 3,
+    "source": "experiments/yolo/sidequest_theory_candidates_v75/V75_R4_142_LOCUS_CELESTIAL_ATLAS.tsv"
+  }
+]

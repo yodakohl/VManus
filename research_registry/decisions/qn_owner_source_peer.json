@@ -1,0 +1,161 @@
+{
+  "artifact": "qn_owner_source_peer.json",
+  "status": "BOUNDED_GUARDED_SOURCE_AUDIT",
+  "scope": [
+    "selector-first query-tsv only for both TSV sources",
+    "allow-values page=f67r2",
+    "columns restricted to qm_owner_source_spec",
+    "no direct TSV reads",
+    "no images/native rerun/target outputs",
+    "no semantic card or canonical mutation"
+  ],
+  "input_hashes": {
+    "qm_owner_source_spec.json": "1815d5e3bcc8ef8d0851995302d89ef634a57b7db9634e924b5e3ce57b2ccded",
+    "qm_owner_projection.jsonl": "7182653dcef18318f233a7d00c7135a6d9afb23a5890cddfb19929c19aff3b7f",
+    "qm_guard_receipts.json": "4dd804342a371d7b787c55fb2185a82652213a4bbbbf9b0aace1351c4103aa56",
+    "qk_v75_f67_applications.json": "a76ac26708d3812d904bc878a6a0364fbd92bac3e5acda35bc7917f867748619",
+    "V71_R3_TECHNICAL_REPORT.md": "4d435f0421c8312230056d886e0a4d3cbace3fea2085d2bfc21fa90abeed6735",
+    "V75_R2_CELESTIAL_MULTI_INSTRUMENT_REPORT.md": "7618b0236d63bf73cbafd8c48e93cd72fab812b6a6b1f84ab649a37aa43a7d2d",
+    "V75_R4_CHANCERY_CELESTIAL_ATLAS_REPORT.md": "28f1c2845321c1eb96a94b4927cb5ff70b2397747b5d37048b0f1602506408a8",
+    "build_v75_r4_chancery_celestial_atlas.py": "4a02ad29d724cd9df87216139c5b4a048138ab0b736735eb90df1087bfcc2526"
+  },
+  "guarded_queries": [
+    {
+      "source": "experiments/yolo/sidequest_theory_candidates_v71/V71_SELECTED_OWNER_LEDGER.tsv",
+      "selector": "page",
+      "allow": [
+        "f67r2"
+      ],
+      "columns": [
+        "page",
+        "unit_id",
+        "unit_kind",
+        "selected_visible_owner",
+        "owner_status",
+        "visible_basis"
+      ],
+      "forbidden_prefixes": [
+        "f84",
+        "f84r"
+      ],
+      "guard_stats": {
+        "selected": 74,
+        "skipped_forbidden": 0,
+        "skipped_not_allowed": 203
+      },
+      "projection_sha256": "789af7e060ac829a4098a2882d42aac5921c6f852af5f0e132c647254f41caca"
+    },
+    {
+      "source": "experiments/yolo/sidequest_theory_candidates_v75/V75_R4_142_LOCUS_CELESTIAL_ATLAS.tsv",
+      "selector": "page",
+      "allow": [
+        "f67r2"
+      ],
+      "columns": [
+        "page",
+        "locus",
+        "owner_status",
+        "local_namespace_owner",
+        "visible_basis"
+      ],
+      "forbidden_prefixes": [
+        "f84",
+        "f84r"
+      ],
+      "guard_stats": {
+        "selected": 74,
+        "skipped_forbidden": 0,
+        "skipped_not_allowed": 68
+      },
+      "projection_sha256": "1756eaf4a9e5d7308bbdfb5a7593fc6d2a42a6e18acf2c61f67ec4f863364e7b"
+    }
+  ],
+  "retained_loci": [
+    {
+      "locus": "f67r2.72",
+      "selected_owner": "A1_LEFT_OUTER_RING_TEXT",
+      "owner_status": "DIRECT_VISIBLE",
+      "later_owner": "A1_LEFT_OUTER_RING_TEXT",
+      "agreement": true,
+      "basis": "konzentrische Schrift umschließt nur das linke Kreisbild"
+    },
+    {
+      "locus": "f67r2.73",
+      "selected_owner": "A1_RIGHT_OUTER_RING_TEXT",
+      "owner_status": "DIRECT_VISIBLE",
+      "later_owner": "A1_RIGHT_OUTER_RING_TEXT",
+      "agreement": true,
+      "basis": "konzentrische Schrift umschließt nur das rechte Kreisbild"
+    },
+    {
+      "locus": "f67r2.74",
+      "selected_owner": "A1_PAIRED_WHEEL_LEGEND_UNRESOLVED",
+      "owner_status": "UNRESOLVED",
+      "later_owner": "A1_PAIRED_WHEEL_LEGEND_UNRESOLVED",
+      "agreement": true,
+      "basis": "der verbleibende Textblock ist keinem der zwei Räder durch eine Kante zugewiesen"
+    }
+  ],
+  "source_application_check": {
+    "qk_source_sha256_verified": true,
+    "qk_source_line": 27,
+    "qk_record_count": 74,
+    "target_offsets_exact": {
+      "f67r2.72": [
+        19015,
+        19266
+      ],
+      "f67r2.73": [
+        19267,
+        19501
+      ],
+      "f67r2.74": [
+        19502,
+        19764
+      ]
+    },
+    "finding": "All three qk records exactly match their declared contiguous slices of the single V75 R2 Markdown line; .74 was checked once as the single source application, not duplicated across cases."
+  },
+  "code_contract": {
+    "path": "experiments/yolo/sidequest_theory_candidates_v75/build_v75_r4_chancery_celestial_atlas.py",
+    "lines": [
+      64,
+      73,
+      74,
+      75,
+      78,
+      99,
+      100
+    ],
+    "finding": "R4 builder passes owner[\"selected_visible_owner\"] into default_for and emits it as local_namespace_owner/exact literal owner; unresolved status is retained separately."
+  },
+  "markdown_evidence": [
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v75/V75_R2_CELESTIAL_MULTI_INSTRUMENT_REPORT.md",
+      "line": 25,
+      "line_end": 25,
+      "quote": "**Arbeitslesung:** Zwei getrennte Himmelsräder: rechts ein zwölfteiliger Zeichen-/Kalenderrahmen mit eigenen Ring- und Bedingungsfeldern, links ein Stern-/Strahlenrad mit lokalen Innen- und Außenplätzen. Beide werden nebeneinander kopiert, aber nicht miteinander verrechnet.",
+      "sha256": "7618b0236d63bf73cbafd8c48e93cd72fab812b6a6b1f84ab649a37aa43a7d2d"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v75/V75_R3_TECHNICAL_REPORT.md",
+      "line": 26,
+      "line_end": 26,
+      "quote": "Locus f67r2.74 bleibt eine quarantänisierte gemeinsame Legende.",
+      "sha256": "4d435f0421c8312230056d886e0a4d3cbace3fea2085d2bfc21fa90abeed6735"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v75/V75_R4_CHANCERY_CELESTIAL_ATLAS_REPORT.md",
+      "line": 24,
+      "line_end": 24,
+      "quote": "Der Lehrling setzt zuerst Paneel, Rad oder Sternplatz. Dann kopiert er die",
+      "sha256": "28f1c2845321c1eb96a94b4927cb5ff70b2397747b5d37048b0f1602506408a8"
+    }
+  ],
+  "interpretation": {
+    "propagation_check": "The guarded projections agree exactly on all three retained owner assignments, and the R4 code consumes selected_visible_owner. This verifies inheritance of the represented historical policy, not current native geometry.",
+    "semantic_limit": "The two corrected spatial premises for .72/.73 are a location/cache correction; they do not falsify the authored copy/reset policy. The unresolved .74 applications are one finite source model application, not three new semantic ideas.",
+    "decision": "Append revision 2 to the existing FAILURE_IA:V75_LOCAL_NAMESPACE_COPY_RESET record as a source-propagation correction only; no new card/question and no semantic status change."
+  },
+  "canonical_files_mutated": false
+}

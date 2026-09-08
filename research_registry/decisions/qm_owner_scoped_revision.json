@@ -1,0 +1,181 @@
+{
+  "actually_tested_falsifier": "The builder branches on page and owner and emits fixed copy/reset and no-cross-page/no-prose-import policies. The report leaves 24/56/56 orientation variants unselected and allows isomorphic masters with other names or rules. Separately, GDT876 preregistered a native written-location check of three records: both viewers placed allthree below the right circle, contradicting only the two definite circular-band positions for72/73. A guarded source audit confirms those same old values and visible-basis strings in the selectedV71ledger andV75R4atlas.",
+  "automatic_card_status_propagation": false,
+  "card_basis": {
+    "SEM:053baa67925252fe4590": "fc13bd6dab655addeeeec8ed3b8f9a5a4eee3824cb526bc6654a59611009f3a1"
+  },
+  "claim": "Does V75 R4 establish copied-master local interpretation resets as manuscript semantics?",
+  "claim_ceiling": "This source review adds no native observations beyondGDT876. Two inherited written-location premises fail; semanticcopy/reset, referent and scope remain untested. No automatic cross-card verdict or renderer rewrite.",
+  "context_relation": "RelatedV75R2authoredapplications only; no exactidentitymerge with theV75R4card and no newsemanticmodel.",
+  "decision_key": "FAILURE_IA:V75_LOCAL_NAMESPACE_COPY_RESET",
+  "effective_basis": {
+    "SEM:053baa67925252fe4590": "abd41020031b32082de8fc4f5bfb546d3d137172585cb9949168eb332b89df15"
+  },
+  "empirical_meaning_refutation": false,
+  "evidence": [
+    {
+      "line": 22,
+      "line_end": 41,
+      "path": "experiments/yolo/sidequest_theory_candidates_v75/V75_R4_CHANCERY_CELESTIAL_ATLAS_REPORT.md",
+      "quote": "## Konkrete Leseregel\n\nDer Lehrling setzt zuerst Paneel, Rad oder Sternplatz. Dann kopiert er die\nopaken Fragmente des lokalen Masterexemplars und liest sie als örtliche\nSektorbeziehung, Sternstationsnotiz, Wahl-/Meidungsnotiz oder Radlegende. Beim\nWechsel des sichtbaren Namensraums wird alles zurückgesetzt.\n\nDiese Bedeutung ist bewusst minimal und ausführbar: „an diesem Himmelsplatz\ndie zugehörige lokale Notiz nachschlagen“. Die engeren Wörter Planet,\nTierkreiszeichen, Mondhaus, Mondtag, Körperteil, günstige Handlung und\nmedizinische Wahl sind mögliche Exemplarfüllungen, aber keine entschlüsselten\nLabels.\n\n## Orientierungsaudit\n\nFür das rechte f67-Zwölferrad bleiben 24 Start-/Richtungsvarianten offen; für\ndie 28 f68-Sternplätze und die 28 linken f69-Radialplätze je 56. Keine Variante\nwird ausgewählt. Die mittleren und rechten f69-Räder werden nicht an das linke\nInventar angehängt. Es gibt keinen f68↔f69-Schlüssel und keinen Import der\nProsakartenwerte.",
+      "sha256": "28f1c2845321c1eb96a94b4927cb5ff70b2397747b5d37048b0f1602506408a8"
+    },
+    {
+      "line": 51,
+      "line_end": 58,
+      "path": "experiments/yolo/sidequest_theory_candidates_v75/V75_R4_CHANCERY_CELESTIAL_ATLAS_REPORT.md",
+      "quote": "## Grenze\n\nEine vollständige formale Adresslesung ist möglich, eine externe Benennung\nnicht. Dieselben 395 Oberflächen könnten unter einem isomorphen Masterexemplar\nandere Himmelsnamen und Regeln tragen. Die Ausgabe fügt daher keine Karte,\nkeinen Stamm, Laut, Textsprache, Startpunkt, Rotation oder seitenübergreifende\nZuordnung hinzu. f84 und f84r blieben versiegelt; aktive V75-Geschwister wurden\nnicht gelesen.",
+      "sha256": "28f1c2845321c1eb96a94b4927cb5ff70b2397747b5d37048b0f1602506408a8"
+    },
+    {
+      "line": 30,
+      "line_end": 52,
+      "path": "experiments/yolo/sidequest_theory_candidates_v75/build_v75_r4_chancery_celestial_atlas.py",
+      "quote": "def default_for(page: str, owner: str, event_index: str) -> tuple[str, str, str]:\n    if page == \"f67r2\":\n        return (\n            f\"Am lokalen Himmelsfeld „{owner}“ das Beschriftungsfragment {event_index} der zugehörigen Sektorbeziehung eintragen und nur innerhalb dieses Rades nachschlagen.\",\n            \"PAIRED_CELESTIAL_RELATION_WHEEL_LOCAL_LOOKUP\",\n            \"Iatromathematischer Rivale: örtliche Zeichen-, Körper- oder Wahlrelation; konkrete Namen bleiben im Exemplar.\",\n        )\n    if page == \"f68r1\":\n        return (\n            f\"Im lokalen Sternfeld „{owner}“ Fragment {event_index} des Stationsnamens oder Stationsmerkmals eintragen und nur im selben Paneel verwenden.\",\n            \"MULTIPANEL_STAR_STATION_CATALOGUE_LOCAL_LOOKUP\",\n            \"Astronomischer Rivale: Sternname, Sternbildteil oder Mondstationsmerkmal aus dem lokalen Exemplar.\",\n        )\n    if \"RADIAL_SLOT\" in owner:\n        return (\n            f\"Am ungeordneten linken Radialplatz „{owner}“ Fragment {event_index} der lokalen Wahl- oder Meidungsnotiz eintragen; weder Start noch Umlaufrichtung übernehmen.\",\n            \"LEFT_WHEEL_UNORDERED_28_SLOT_LOCAL_LOOKUP\",\n            \"Almanach-Rivale: lokaler Mondtag oder Mondhaus mit Tätigkeit; Nummer und Richtung sind unbewiesen.\",\n        )\n    return (\n        f\"Im eigenständigen Rad „{owner}“ Fragment {event_index} der örtlichen Radlegende eintragen; kein Wert darf in ein anderes f69v-Rad übergehen.\",\n        \"INDEPENDENT_CELESTIAL_WHEEL_RING_LEGEND\",\n        \"Kosmographischer Rivale: eigenständige Rad-, Sphären- oder Kalenderlegende ohne Arbeitsanweisung.\",",
+      "sha256": "4a02ad29d724cd9df87216139c5b4a048138ab0b736735eb90df1087bfcc2526"
+    },
+    {
+      "line": 119,
+      "line_end": 130,
+      "path": "experiments/yolo/sidequest_theory_candidates_v75/build_v75_r4_chancery_celestial_atlas.py",
+      "quote": "        instrument_rows.append({\n            \"diagram_id\": diagram_id,\n            \"page\": page,\n            \"locus_count\": len(rows),\n            \"group_count\": group_count,\n            \"local_namespace_count\": len({row[\"local_namespace_owner\"] for row in rows}),\n            \"complete_instrument_reading\": reading,\n            \"copying_rule\": \"Copy owner-local fragments from master exemplar; reset at panel or wheel boundary.\",\n            \"orientation_rule\": \"Do not select start, direction, or rotation.\",\n            \"cross_page_rule\": \"NO_F68_F69_MAPPING; NO_PROSE_CARD_IMPORT\",\n            \"strongest_rival\": \"Celestial iconographic or mnemonic diagram with no operational semantic content.\",\n            \"semantic_ceiling\": \"COMPLETE_LOCAL_CELESTIAL_WORKING_EDITION_NOT_DECIPHERMENT\",",
+      "sha256": "4a02ad29d724cd9df87216139c5b4a048138ab0b736735eb90df1087bfcc2526"
+    },
+    {
+      "line": 10,
+      "line_end": 21,
+      "path": "experiments/yolo/gdt867_shared_canvas_native_orientation/REPORT.md",
+      "quote": "Its source covers f69v together with f70r1/f70r2.42admitted keys48selectors;\neight discretionary keys remain.\n\n## Direct visual understanding\n\nAt left, a central pointed motif is surrounded by narrow elongated blue and pale-green radial forms with rounded green outer ends. Short inscriptions lie in the surrounding radial space, and longer writing follows enclosing circular bands. No radial-slot count or ordering is recorded.\n\nThe middle composition has a pointed central motif, a close ring of small loop-like outlines and a broader blue scalloped/lobed body. Short radial writing and enclosing curved writing occur at different distances from its center. These are visible layout descriptions, not labels for astronomical quantities or functions.\n\nThe right composition has a drawn face in its center, a narrow surrounding text band, blue leaf- or ray-like lobes and fine extended outline rays. More writing follows outer curved bands. The text block to its upper right has roughly horizontal baselines, unlike the writing rotating around the neighboring circle. No reading, shared argument or text ownership is assigned.\n\nA pronounced near-vertical book opening separates the left circular composition from the other two. Further vertical folds or creases cross the broad right-hand surface. The original therefore visibly contains a spread/foldout context; its catalogue/source metadata jointly name f69v and f70r. I do not assign the middle and right circles to f70r1 versus f70r2 from this image alone.",
+      "sha256": "942ef0db47dd6d9e1ab907f71fabbb8a73828bfdee49dc9261d43fdc4836865d"
+    },
+    {
+      "line": 25,
+      "line_end": 33,
+      "path": "experiments/yolo/gdt867_shared_canvas_native_orientation/REPORT.md",
+      "quote": "## Scope and previous knowledge\n\nThe three compositions were already described in V70 under f69v. The current\nview supplies personal visual understanding and preserves the finer distinction\nbetween the joint Yale canvas and text selectors; it is not a new discovery of\nthree manuscript wheels. F69VSD001's narrower start/direction audit stays closed.\nNo new slot count, start/direction score, transcript, glyph, authorial relation\nor meaning is reported. This is not a second independent manuscript witness\nor a blinded image review. Root knew the old descriptions before viewing.",
+      "sha256": "942ef0db47dd6d9e1ab907f71fabbb8a73828bfdee49dc9261d43fdc4836865d"
+    },
+    {
+      "line": 1,
+      "line_end": 1,
+      "path": "research_registry/decisions/qm_owner_projection.jsonl",
+      "quote": "{\"locus\":\"f67r2.72\",\"selected_fields\":{\"owner_status\":\"DIRECT_VISIBLE\",\"page\":\"f67r2\",\"selected_visible_owner\":\"A1_LEFT_OUTER_RING_TEXT\",\"unit_id\":\"f67r2.72\",\"unit_kind\":\"ASTRO_LOCUS\",\"visible_basis\":\"konzentrische Schrift umschließt nur das linke Kreisbild\"},\"source_name\":\"selected_owner_ledger\",\"source_path\":\"experiments/yolo/sidequest_theory_candidates_v71/V71_SELECTED_OWNER_LEDGER.tsv\",\"source_sha256\":\"8e6aabf63d59ce1bfb33d366a9c8e0a762335a0cd680e2a81a696e08ded709c9\"}",
+      "sha256": "7182653dcef18318f233a7d00c7135a6d9afb23a5890cddfb19929c19aff3b7f"
+    },
+    {
+      "line": 2,
+      "line_end": 2,
+      "path": "research_registry/decisions/qm_owner_projection.jsonl",
+      "quote": "{\"locus\":\"f67r2.73\",\"selected_fields\":{\"owner_status\":\"DIRECT_VISIBLE\",\"page\":\"f67r2\",\"selected_visible_owner\":\"A1_RIGHT_OUTER_RING_TEXT\",\"unit_id\":\"f67r2.73\",\"unit_kind\":\"ASTRO_LOCUS\",\"visible_basis\":\"konzentrische Schrift umschließt nur das rechte Kreisbild\"},\"source_name\":\"selected_owner_ledger\",\"source_path\":\"experiments/yolo/sidequest_theory_candidates_v71/V71_SELECTED_OWNER_LEDGER.tsv\",\"source_sha256\":\"8e6aabf63d59ce1bfb33d366a9c8e0a762335a0cd680e2a81a696e08ded709c9\"}",
+      "sha256": "7182653dcef18318f233a7d00c7135a6d9afb23a5890cddfb19929c19aff3b7f"
+    },
+    {
+      "line": 3,
+      "line_end": 3,
+      "path": "research_registry/decisions/qm_owner_projection.jsonl",
+      "quote": "{\"locus\":\"f67r2.74\",\"selected_fields\":{\"owner_status\":\"UNRESOLVED\",\"page\":\"f67r2\",\"selected_visible_owner\":\"A1_PAIRED_WHEEL_LEGEND_UNRESOLVED\",\"unit_id\":\"f67r2.74\",\"unit_kind\":\"ASTRO_LOCUS\",\"visible_basis\":\"der verbleibende Textblock ist keinem der zwei Räder durch eine Kante zugewiesen\"},\"source_name\":\"selected_owner_ledger\",\"source_path\":\"experiments/yolo/sidequest_theory_candidates_v71/V71_SELECTED_OWNER_LEDGER.tsv\",\"source_sha256\":\"8e6aabf63d59ce1bfb33d366a9c8e0a762335a0cd680e2a81a696e08ded709c9\"}",
+      "sha256": "7182653dcef18318f233a7d00c7135a6d9afb23a5890cddfb19929c19aff3b7f"
+    },
+    {
+      "line": 4,
+      "line_end": 4,
+      "path": "research_registry/decisions/qm_owner_projection.jsonl",
+      "quote": "{\"locus\":\"f67r2.72\",\"selected_fields\":{\"local_namespace_owner\":\"A1_LEFT_OUTER_RING_TEXT\",\"locus\":\"f67r2.72\",\"owner_status\":\"DIRECT_VISIBLE\",\"page\":\"f67r2\",\"visible_basis\":\"konzentrische Schrift umschließt nur das linke Kreisbild\"},\"source_name\":\"later_locus_atlas\",\"source_path\":\"experiments/yolo/sidequest_theory_candidates_v75/V75_R4_142_LOCUS_CELESTIAL_ATLAS.tsv\",\"source_sha256\":\"f37bc8bae81c51e3d910f4ad350109f56e8a6ef5109bb15d139eea7f0ac69d28\"}",
+      "sha256": "7182653dcef18318f233a7d00c7135a6d9afb23a5890cddfb19929c19aff3b7f"
+    },
+    {
+      "line": 5,
+      "line_end": 5,
+      "path": "research_registry/decisions/qm_owner_projection.jsonl",
+      "quote": "{\"locus\":\"f67r2.73\",\"selected_fields\":{\"local_namespace_owner\":\"A1_RIGHT_OUTER_RING_TEXT\",\"locus\":\"f67r2.73\",\"owner_status\":\"DIRECT_VISIBLE\",\"page\":\"f67r2\",\"visible_basis\":\"konzentrische Schrift umschließt nur das rechte Kreisbild\"},\"source_name\":\"later_locus_atlas\",\"source_path\":\"experiments/yolo/sidequest_theory_candidates_v75/V75_R4_142_LOCUS_CELESTIAL_ATLAS.tsv\",\"source_sha256\":\"f37bc8bae81c51e3d910f4ad350109f56e8a6ef5109bb15d139eea7f0ac69d28\"}",
+      "sha256": "7182653dcef18318f233a7d00c7135a6d9afb23a5890cddfb19929c19aff3b7f"
+    },
+    {
+      "line": 6,
+      "line_end": 6,
+      "path": "research_registry/decisions/qm_owner_projection.jsonl",
+      "quote": "{\"locus\":\"f67r2.74\",\"selected_fields\":{\"local_namespace_owner\":\"A1_PAIRED_WHEEL_LEGEND_UNRESOLVED\",\"locus\":\"f67r2.74\",\"owner_status\":\"UNRESOLVED\",\"page\":\"f67r2\",\"visible_basis\":\"der verbleibende Textblock ist keinem der zwei Räder durch eine Kante zugewiesen\"},\"source_name\":\"later_locus_atlas\",\"source_path\":\"experiments/yolo/sidequest_theory_candidates_v75/V75_R4_142_LOCUS_CELESTIAL_ATLAS.tsv\",\"source_sha256\":\"f37bc8bae81c51e3d910f4ad350109f56e8a6ef5109bb15d139eea7f0ac69d28\"}",
+      "sha256": "7182653dcef18318f233a7d00c7135a6d9afb23a5890cddfb19929c19aff3b7f"
+    },
+    {
+      "line": 56,
+      "line_end": 77,
+      "path": "experiments/yolo/sidequest_theory_candidates_v75/build_v75_r4_chancery_celestial_atlas.py",
+      "quote": "def main() -> None:\n    groups = read_tsv(V69 / \"V69_R4_FINAL_395_ASTRO_GROUPS.tsv\")\n    owners = [row for row in read_tsv(V71 / \"V71_SELECTED_OWNER_LEDGER.tsv\") if row[\"unit_kind\"] == \"ASTRO_LOCUS\"]\n    owner_by_locus = {row[\"unit_id\"]: row for row in owners}\n\n    group_rows: list[dict[str, object]] = []\n    for row in groups:\n        owner = owner_by_locus[row[\"locus\"]]\n        default, source_class, historical_rival = default_for(row[\"page\"], owner[\"selected_visible_owner\"], row[\"event_index\"])\n        group_rows.append({\n            \"group_serial\": row[\"group_serial\"],\n            \"diagram_id\": row[\"diagram_id\"],\n            \"page\": row[\"page\"],\n            \"locus\": row[\"locus\"],\n            \"event_index\": row[\"event_index\"],\n            \"opaque_local_id\": row[\"opaque_local_id\"],\n            \"surface_display_only\": row[\"surface_display_only\"],\n            \"owner_status\": owner[\"owner_status\"],\n            \"local_namespace_owner\": owner[\"selected_visible_owner\"],\n            \"exact_literal_layer\": f\"[SURFACE:{row['surface_display_only']}] > [OPAQUE_LOCAL:{row['opaque_local_id']}] > [OWNER:{owner['selected_visible_owner']}] > [EXEMPLAR:LOCAL_CELESTIAL_LABEL_OR_RULE_FRAGMENT]\",\n            \"concrete_local_default\": default,\n            \"source_class\": source_class,",
+      "sha256": "4a02ad29d724cd9df87216139c5b4a048138ab0b736735eb90df1087bfcc2526"
+    },
+    {
+      "line": 3,
+      "line_end": 3,
+      "path": "experiments/yolo/gdt876_f67r2_long_record_placement/REPORT.md",
+      "quote": "Both native viewers localize f67r2.72, .73 and .74 to the three horizontal lines below the right circular composition on Yale1006194. The V71 R3 claims that .72 is written on the left outer circular band and .73 on the right outer circular band are contradicted. The written location of .74 is narrowed, while its semantic referent remains unknown.",
+      "sha256": "e65bbc286708758aff7bb1f962e231c9350dbe7372f5e66f335488995de768a0"
+    },
+    {
+      "line": 5,
+      "line_end": 5,
+      "path": "experiments/yolo/gdt876_f67r2_long_record_placement/REPORT.md",
+      "quote": "This is a correction of a later working-map regression, not discovery of previously unknown manuscript geometry or a translation. The earlier V71 R1 code already assigns all three to the lower horizontal block. Only these three records were evaluated; no complete f67r2 remapping or restoration of all R1 claims follows.",
+      "sha256": "e65bbc286708758aff7bb1f962e231c9350dbe7372f5e66f335488995de768a0"
+    }
+  ],
+  "id": "FAILURE_IA:V75_LOCAL_NAMESPACE_COPY_RESET:v2",
+  "original_assertion": {
+    "SEM:053baa67925252fe4590": "V75 R4 reads the three celestial diagrams by first selecting the local panel, wheel or star place, then consulting its copied local sector-relation, star-station, choice/avoidance note or wheel legend; interpretation resets at each visible namespace change, without assigning planet, zodiac, lunar-day, body-part or medical-election names."
+  },
+  "outcome": "The source implements a coherent local-copy/reset policy; it does not independently test that policy as manuscript semantics. Copied-master and namespace-reset rules are compatible and are not rivals without additional commitments. Editorial policies do not imply authored reset markers. GDT867 clarifies the joint visual canvas versus text selectors; it does not validate interpretation resets or identify all three wheels with one textual selector. The two circular-band spatial premises are now contradicted, and therefore cannot ground the corresponding concrete applications. Record74 has a narrower written location but no identified referent. This doesnot falsify the general copied-master/reset hypothesis or establish a replacement meaning.",
+  "previous_revision": "FAILURE_IA:V75_LOCAL_NAMESPACE_COPY_RESET:v1",
+  "reason_class": "source_contract_with_two_invalid_written_location_premises",
+  "related_context_packet": {
+    "path": "research_registry/decisions/qk_v75_f67_applications.json",
+    "sha256": "a76ac26708d3812d904bc878a6a0364fbd92bac3e5acda35bc7917f867748619"
+  },
+  "reopening": {
+    "all_of": [
+      "Predeclare genuinely different observable contracts, including whether invariance concerns meaning, referent, code identity, or owner. A copied master alone entails no global reuse.",
+      "Use independently fixed local or transitional bindings and appropriate held capacity. Do not require a new image or start search automatically, and do not require semantic gold for unrelated purely structural work.",
+      "If a selected semantic prediction relies on one of the affected written positions, use the corrected local source location and independently justify any referent/scope claim; do not demand a fresh complete142locus image census as an automatic prerequisite. GDT876 supplies location only, not meaning."
+    ],
+    "assessed_by": "curation_review",
+    "criteria_origin": "Source constraints and the root logical scope, not a new preregistration.",
+    "not_sufficient": [
+      "More authored defaults, codebook coverage, or fluent workshop readings.",
+      "Treating compatible policies as competing models, or treating shape or the same owner as semantic truth.",
+      "Treating source-canvas coordinates as an authorial start or as new meaning bindings.",
+      "Reusing the two DIRECT_VISIBLE circular-band tags or a later fluent rendering of them as image evidence.",
+      "Treating74authored context applications or copied source fields as independent hypotheses or observations.",
+      "Treating GDT876 spatial corrections as an empirical rejection of the general local-copy/reset interpretation."
+    ],
+    "status": "REVIEW_REQUIRED_NOT_TEST_READY"
+  },
+  "review_artifact": {
+    "path": "research_registry/decisions/qm_root_owner_review.json",
+    "sha256": "bf5415d144acba17000ad7ec69a322f1aed0b60eb5784b8c9d1a75e85a8139df"
+  },
+  "review_status": "reviewed_scoped_context",
+  "reviewer": "root bounded source-propagation and native-result scope review",
+  "revision": 2,
+  "scope": "V75 R4 three-instrument edition, 395 groups and 142 loci; joint canvas and text selectors remain distinct. Revision2 adds only the written locations of f67r2.72/.73/.74 and their propagation into two stored source layers; the other139loci are not newly inspected.",
+  "source_case_ids": {
+    "SEM:053baa67925252fe4590": [
+      "CLEAN_GAP_W:v75_local_celestial_note_rule"
+    ]
+  },
+  "source_geometry_refutation": {
+    "does_not_refute": [
+      "semanticreferent",
+      "copy/resetpolicy",
+      "allotherR3owners"
+    ],
+    "field": "definite physical circular-band writing location",
+    "loci": [
+      "f67r2.72",
+      "f67r2.73"
+    ],
+    "origin": "GDT876"
+  },
+  "status": "reviewed_scoped_context",
+  "targets": [
+    "SEM:053baa67925252fe4590"
+  ]
+}
