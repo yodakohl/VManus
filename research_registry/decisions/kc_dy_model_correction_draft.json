@@ -1,0 +1,41 @@
+{
+  "status": "DRAFT_ROOT_REVIEW_REQUIRED",
+  "decisions": [
+    {
+      "id": "SCR_KC:dy_local_and_statement_scope:v2",
+      "target": "SEM:f9be710b26b8da73d0af",
+      "target_basis_sha256": "299e52538fbc9a7ce957d170e27e294df8207fab08ef31112e0e12b1f60043fd",
+      "previous_revision": "SOURCE_CORRECTION_AU:f9be710b26b8da73d0af:v1",
+      "action": "restate_scope",
+      "replacement": {
+        "claim": "In GDT557’s exploratory state reader, DY=CLOSE/ABSCHLIESSEN closes the current local step; when that step ends the existing statement, it also closes the statement. GDT556 distinguishes internal local closure from statement-final closure, and the DY+OL example closes a local step before continuing the same statement. This is contextual scope for the same proposed working function, not two lexical DY meanings or an unconditional sentence-ending glyph. The units are inherited analytical recipe atoms, cards and statement assignments; no statement boundaries were independently recovered or changed. The source also allows two post-DY L tails at statement ends, so the general closing function should not be replaced by an exceptionless rule that any following atom necessarily prevents statement closure.",
+        "claim_type": "functional_hypothesis"
+      },
+      "reason": "The existing functional DY=CLOSE card and its AU correction correctly preserve close-the-current-step as the intended value, but do not expose the source-defined distinction between internal local closure and coincident whole-statement closure. Restate that same single-case functional proposition rather than add a duplicate DY meaning or duplicate the separate GDT559 carrier grammar. Preserve the source-specific post-DY L exceptions and inherited-boundary ceiling.",
+      "reviewer": "independent bounded KC source-fidelity audit",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt556_dy_closure_boundary_scope/REPORT.md",
+          "line": 23,
+          "line_end": 59,
+          "quote": "## Abschluss von Schritt oder Aussage\n\nDer bessere Default lautet jetzt präzise:\n\n```text\nDY = den aktuellen Schritt abschließen\nam Aussageende: zugleich die Aussage abschließen\nim Aussageinneren: lokaler Schrittabschluss, danach weiter\n```\n\nDie drei internen Rezepte sind jeweils einmalig:\n\n- `Y+DY+D_LABEL` auf f1r schließt einen Postenschritt vor einer lokalen\n  Kennung; danach folgen noch 26 Karten;\n- `D_ADDR+O+DY+D_LABEL` auf f55v schließt einen Ausführungsschritt vor einer\n  lokalen Kennung; drei Karten später endet die Aussage mit einem zweiten\n  `DY`;\n- `OK+EE+DY+OL` auf f75r sagt sichtbar „setzen, Grad II, abschließen,\n  fortsetzen“; drei Karten später folgt wiederum der Aussageabschluss.\n\nGerade `DY+OL` ist semantisch nützlich: „abschließen“ und „fortsetzen“ sind\nnicht widersprüchlich, wenn das erste den lokalen Schritt und das zweite den\nlaufenden Satz betrifft.\n\n## Position innerhalb der Karte\n\n`DY` steht in 700/705 Rezepten als letztes Atom. Die fünf Nachträge sind eng\nbegrenzt:\n\n- zweimal `D_LABEL`;\n- zweimal `L`;\n- einmal `OL`.\n\nDie beiden `D_LABEL`- und das `OL`-Vorkommen sind genau die drei internen\nSchlüsse. Die zwei `L`-Nachträge stehen trotzdem am Aussageende. `DY` ist damit\nkein ausnahmslos letztes Schriftatom, aber ein nahezu terminaler funktionaler\nSlot, hinter dem nur eine lokale Kennung, Verbindung oder Fortsetzung hängt.",
+          "sha256": "24a92e1464ee7be0784b9ba9e138edba6760820b1dc2174c86308f7dca2442ab"
+        },
+        {
+          "path": "experiments/yolo/gdt557_thirty_page_ot_ol_dy_state_grammar/REPORT.md",
+          "line": 9,
+          "line_end": 18,
+          "quote": "| root | unchanged value | occurrences | positional signature | default operation |\n|---|---|---:|---|---|\n| `OT` | DANACH | 404 | right carrier in 402/404 (99.50%) | open/advance the next carrier |\n| `OL` | FORTSETZEN | 761 | 199 initial, 85 bridge, 288 terminal, 189 alone | keep the current carrier active |\n| `DY` | ABSCHLIESSEN | 705 | left carrier 705/705; statement-final 702/705 | close the current step |\n\nThis is the first version in which the three meanings operate together as a\nsmall reader rather than as isolated German glosses:\n\n`OT = NEXT` → `OL = KEEP ACTIVE` → `DY = CLOSE`.",
+          "sha256": "8fa2a821b1924d166facd0ca20d1c9248f3ed4008f0a698e822db82460cffb80"
+        },
+        {
+          "path": "experiments/yolo/gdt557_thirty_page_ot_ol_dy_state_grammar/REPORT.md",
+          "line": 111,
+          "line_end": 136,
+          "quote": "## Working reader adopted\n\nFor the current sidequest edition, use these defaults:\n\n1. `OT · X`: “danach X”; `X · OT · Y`: “nach X folgt Y”; bare OT obtains X\n   from the sentence context.\n2. `OL · X`: “weiter mit X”; `X · OL · Y`: “X in Y weiterführen”;\n   `X · OL`: “X weiterführen”; bare OL retains the active contextual carrier.\n3. `X · DY`: close X. If DY is the last card operation, close the statement as\n   well; if another atom or card follows, close only the current local step and\n   continue in written order.\n\nThese three rules are now a better base than treating OT, OL and DY as free\nGerman connective words. They predict direction, compound order and closure.\n\n## Validation and ceiling\n\nThe independent validator passes 37/37 checks, including guarded old-source\nmaterialization, exact atom positions, all nine sequences, all pair orders,\npage transfer, GDT478 seed values, exact parity with GDT556's 705 DY rows and a\nbyte-identical rebuild.\n\nThis is an exploratory state renderer for existing roots, not decipherment or\nconfirmed historical syntax. No surface, recipe, segmentation, root value,\nstatement boundary, page, plaintext, language, object or historical codebook\nidentity changes.",
+          "sha256": "8fa2a821b1924d166facd0ca20d1c9248f3ed4008f0a698e822db82460cffb80"
+        }
+      ]
+    }
+  ]
+}

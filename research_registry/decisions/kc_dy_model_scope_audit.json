@@ -1,0 +1,63 @@
+{
+  "status": "ONE_EXISTING_CARD_SCOPE_RESTATEMENT_PROPOSED",
+  "current_target": {
+    "id": "SEM:f9be710b26b8da73d0af",
+    "claim": "DY → CLOSE",
+    "basis": "299e52538fbc9a7ce957d170e27e294df8207fab08ef31112e0e12b1f60043fd",
+    "effective_basis": "d3e00292f979b46ac050210fe141799c954438377ef9e6f0f5bc4db0223650ab",
+    "source_case_ids": [
+      "CLEAN_COMPONENT:756bab72a800dc22a3ef"
+    ],
+    "previous_correction": "SOURCE_CORRECTION_AU:f9be710b26b8da73d0af:v1"
+  },
+  "coverage_finding": "Not a wholly missing DY hypothesis: active GDT557 card and its AU correction already encode CLOSE as a functional current-step value. The exact two-level scope is only partially represented. Recommend one existing-card scope correction, no new card.",
+  "counterparts": [
+    {
+      "id": "SEM:9a779a6fb3aff55e57f2",
+      "current_basis": "981e0719cfa33b55999f6964d72d77aaa08c682db2d669dd397c9ac78d1d2ecc",
+      "claim": "V26 interprets a SPACE/JOIN field as a local clause or operand package, DY closure as commitment of one local operation, and B3 closure as commitment of a major step or record-sized unit. An open field retains owner, batch and discourse state and continues; a physical line ending is not automatically a sentence boundary. This is a forced working sentence/operation interpretation, not established ordinary sentence syntax or plaintext.",
+      "source_case_ids": [
+        "CLEAN_GAP_GW:V26_OPERATION_COMMIT_HIERARCHY"
+      ]
+    },
+    {
+      "id": "SEM:cda11d7d5d908c3befc0",
+      "current_basis": "4a3581143a1ddf8cb5ac07e8aefdb5f6e9da04a797c8e36348916aedf5277f3f",
+      "claim": "GDT559 proposes a shared carrier grammar: OT opens or shifts to the next carrier, OL keeps the current carrier active and DY closes the current step; Y, AIIN, AIN and OR supply respectively POSTEN, WERT, ANTEIL and EINHEIT as the carrier value. Written order composes these short contributions. Thus OT+AIIN does not give AIIN the entire meaning of opening the next value as carrier. The six stated wrappers are OT>A<END, OL>A<END, START>A<DY, START>A<OL, OT>A<OL and OL>A<OL; their ARG position receives the short carrier value.",
+      "source_case_ids": [
+        "CLEAN_GAP_CP:carrier_control_composition"
+      ]
+    }
+  ],
+  "comparison_reason": "V26 explicitly distinguishes DY local-operation from B3 larger-unit commitment, which is a different hierarchy from one DY function closing a local step and sometimes the whole inherited statement. GDT559 already faithfully represents control-versus-carrier composition; do not create another full OT/OL/DY model for this audit.",
+  "source_tension": "GDT557 adopted rule3 says a later atom/card yields only local closure; GDT556 expressly records two DY+L tails still at statement ends, and GDT557 preserves those tails. Keep the contextual closure proposition and disclose this exception instead of promoting the simplified prose into an exceptionless automaton.",
+  "dependencies": {
+    "identity_decisions": [],
+    "scoped_dossiers": [],
+    "correction_chain_requires_previous": "SOURCE_CORRECTION_AU:f9be710b26b8da73d0af:v1"
+  },
+  "evidence": [
+    {
+      "path": "experiments/yolo/gdt556_dy_closure_boundary_scope/REPORT.md",
+      "line": 23,
+      "line_end": 59,
+      "quote": "## Abschluss von Schritt oder Aussage\n\nDer bessere Default lautet jetzt präzise:\n\n```text\nDY = den aktuellen Schritt abschließen\nam Aussageende: zugleich die Aussage abschließen\nim Aussageinneren: lokaler Schrittabschluss, danach weiter\n```\n\nDie drei internen Rezepte sind jeweils einmalig:\n\n- `Y+DY+D_LABEL` auf f1r schließt einen Postenschritt vor einer lokalen\n  Kennung; danach folgen noch 26 Karten;\n- `D_ADDR+O+DY+D_LABEL` auf f55v schließt einen Ausführungsschritt vor einer\n  lokalen Kennung; drei Karten später endet die Aussage mit einem zweiten\n  `DY`;\n- `OK+EE+DY+OL` auf f75r sagt sichtbar „setzen, Grad II, abschließen,\n  fortsetzen“; drei Karten später folgt wiederum der Aussageabschluss.\n\nGerade `DY+OL` ist semantisch nützlich: „abschließen“ und „fortsetzen“ sind\nnicht widersprüchlich, wenn das erste den lokalen Schritt und das zweite den\nlaufenden Satz betrifft.\n\n## Position innerhalb der Karte\n\n`DY` steht in 700/705 Rezepten als letztes Atom. Die fünf Nachträge sind eng\nbegrenzt:\n\n- zweimal `D_LABEL`;\n- zweimal `L`;\n- einmal `OL`.\n\nDie beiden `D_LABEL`- und das `OL`-Vorkommen sind genau die drei internen\nSchlüsse. Die zwei `L`-Nachträge stehen trotzdem am Aussageende. `DY` ist damit\nkein ausnahmslos letztes Schriftatom, aber ein nahezu terminaler funktionaler\nSlot, hinter dem nur eine lokale Kennung, Verbindung oder Fortsetzung hängt.",
+      "sha256": "24a92e1464ee7be0784b9ba9e138edba6760820b1dc2174c86308f7dca2442ab"
+    },
+    {
+      "path": "experiments/yolo/gdt557_thirty_page_ot_ol_dy_state_grammar/REPORT.md",
+      "line": 9,
+      "line_end": 18,
+      "quote": "| root | unchanged value | occurrences | positional signature | default operation |\n|---|---|---:|---|---|\n| `OT` | DANACH | 404 | right carrier in 402/404 (99.50%) | open/advance the next carrier |\n| `OL` | FORTSETZEN | 761 | 199 initial, 85 bridge, 288 terminal, 189 alone | keep the current carrier active |\n| `DY` | ABSCHLIESSEN | 705 | left carrier 705/705; statement-final 702/705 | close the current step |\n\nThis is the first version in which the three meanings operate together as a\nsmall reader rather than as isolated German glosses:\n\n`OT = NEXT` → `OL = KEEP ACTIVE` → `DY = CLOSE`.",
+      "sha256": "8fa2a821b1924d166facd0ca20d1c9248f3ed4008f0a698e822db82460cffb80"
+    },
+    {
+      "path": "experiments/yolo/gdt557_thirty_page_ot_ol_dy_state_grammar/REPORT.md",
+      "line": 111,
+      "line_end": 136,
+      "quote": "## Working reader adopted\n\nFor the current sidequest edition, use these defaults:\n\n1. `OT · X`: “danach X”; `X · OT · Y`: “nach X folgt Y”; bare OT obtains X\n   from the sentence context.\n2. `OL · X`: “weiter mit X”; `X · OL · Y`: “X in Y weiterführen”;\n   `X · OL`: “X weiterführen”; bare OL retains the active contextual carrier.\n3. `X · DY`: close X. If DY is the last card operation, close the statement as\n   well; if another atom or card follows, close only the current local step and\n   continue in written order.\n\nThese three rules are now a better base than treating OT, OL and DY as free\nGerman connective words. They predict direction, compound order and closure.\n\n## Validation and ceiling\n\nThe independent validator passes 37/37 checks, including guarded old-source\nmaterialization, exact atom positions, all nine sequences, all pair orders,\npage transfer, GDT478 seed values, exact parity with GDT556's 705 DY rows and a\nbyte-identical rebuild.\n\nThis is an exploratory state renderer for existing roots, not decipherment or\nconfirmed historical syntax. No surface, recipe, segmentation, root value,\nstatement boundary, page, plaintext, language, object or historical codebook\nidentity changes.",
+      "sha256": "8fa2a821b1924d166facd0ca20d1c9248f3ed4008f0a698e822db82460cffb80"
+    }
+  ],
+  "status_limit": "No new manuscript test, boundary validation, raw token access or semantic confirmation. No registry mutation. Existing card ID, original assertion, case and AU correction remain recoverable."
+}

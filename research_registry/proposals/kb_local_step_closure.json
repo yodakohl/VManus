@@ -1,0 +1,24 @@
+{
+  "title": "An internal DY closes a local step while a following continuation remains in scope",
+  "summary": "GDT556 reports three internal DY recipes, including DY+OL, alongside overwhelmingly statement-final DY. A restricted hypothesis is that an internal DY closes the current step and leaves the same statement scope active for the following continuation.",
+  "scope": "semantic",
+  "status": "draft_unreviewed_not_added",
+  "design": {
+    "mechanism": "local-step closure with retained statement scope",
+    "unit": "complete DY-containing recipe followed by a same-statement continuation card",
+    "contrast": "internal DY commits one step while preserving statement scope versus DY always releases the whole statement",
+    "prediction": "Held internal DY+continuation cases should show a same-statement successor whose carried scope matches the pre-DY record; statement-final DY should have no such successor under the same ownership rule.",
+    "countermodel": "The three internal cases may be exceptional templates or segmentation artifacts, and the apparent continuation may begin a new record despite visual proximity.",
+    "falsifier": "An independently bounded internal DY case has no carried scope into its successor, or a statement-final DY regularly licenses a same-scope successor after matched boundary controls.",
+    "principal_risk": "The current statement and scope assignments are working structural annotations, not independent semantic gold.",
+    "related": "Near GDT556, IDEA000016, and GDT557, but narrows the claim to a predeclared internal DY+continuation rule rather than generic closure prediction.",
+    "source_evidence": {
+      "path": "experiments/yolo/gdt556_dy_closure_boundary_scope/REPORT.md",
+      "line": 23,
+      "line_end": 45,
+      "sha256": "24a92e1464ee7be0784b9ba9e138edba6760820b1dc2174c86308f7dca2442ab",
+      "quote": "## Abschluss von Schritt oder Aussage\n\nDer bessere Default lautet jetzt präzise:\n\n```text\nDY = den aktuellen Schritt abschließen\nam Aussageende: zugleich die Aussage abschließen\nim Aussageinneren: lokaler Schrittabschluss, danach weiter\n```\n\nDie drei internen Rezepte sind jeweils einmalig:\n\n- `Y+DY+D_LABEL` auf f1r schließt einen Postenschritt vor einer lokalen\n  Kennung; danach folgen noch 26 Karten;\n- `D_ADDR+O+DY+D_LABEL` auf f55v schließt einen Ausführungsschritt vor einer\n  lokalen Kennung; drei Karten später endet die Aussage mit einem zweiten\n  `DY`;\n- `OK+EE+DY+OL` auf f75r sagt sichtbar „setzen, Grad II, abschließen,\n  fortsetzen“; drei Karten später folgt wiederum der Aussageabschluss.\n\nGerade `DY+OL` ist semantisch nützlich: „abschließen“ und „fortsetzen“ sind\nnicht widersprüchlich, wenn das erste den lokalen Schritt und das zweite den\nlaufenden Satz betrifft.\n"
+    },
+    "endpoint_status": "availability_unknown"
+  }
+}

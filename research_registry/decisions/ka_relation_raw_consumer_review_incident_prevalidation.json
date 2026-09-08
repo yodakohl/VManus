@@ -1,0 +1,71 @@
+{
+  "schema": "ka_relation_raw_consumer_review_v1",
+  "scope": "Read-only consumer screen of corrected IDEA000060-063 against GDT701 and explicit relation successors; no method review, registry mutation, corpus/raw-data access, or universal edge gate.",
+  "source_artifacts": [
+    {"path":"research_registry/decisions/jz_source_review_idea000060.json","record_id":"IDEA000060","sha256":"f111f1453a6e9f8f731427f350e4508fe3d1bb29f0183bc9bc4f1685c02b882e"},
+    {"path":"research_registry/decisions/jz_source_review_idea000061.json","record_id":"IDEA000061","sha256":"7f7381dc7593231a61f198f80d92df90f59b30a44cb6504b26ab7701812b7633"},
+    {"path":"research_registry/decisions/jz_source_review_idea000062.json","record_id":"IDEA000062","sha256":"d7703abed6c0e986c864e41f4480bcd3ac12dd4f308afecf26581818f609e8e7"},
+    {"path":"research_registry/decisions/jz_source_review_idea000063.json","record_id":"IDEA000063","sha256":"cc1404c60b88018d0dc6a9da8e8f377c0bc2947d9c1809f4193e6456331fea77"}
+  ],
+  "primary_basis": [
+    {
+      "path":"experiments/yolo/gdt701_v74_cumulative_relation_components/REPORT.md",
+      "sha256":"68b95cd1ca5da5651ebfc4ebd7667760a0bb4e9dae6507fbaf60da9db890e7a0",
+      "spans":[
+        {"line":23,"line_end":27,"quote":"The atlas now gives one exact home to every current edge.  Seven components\ncontain one edge, M006 is a two-action fan-out to one written destination, and\nM007 is the sole serial chain with a written intermediate product.  The last\naction in every component still lacks an admitted, separately named final\nresult."},
+        {"line":31,"line_end":40,"quote":"The graph has 23 unique edge nodes and 25 edge incidences. Only\n`f80v.35#3` and `f86v6.25#4` are genuine shared nodes. Two visually intervening\npositions are not nodes:\n- `f86v5.24#2 aiin` is an unbound quantity register inside the C010 hull;\n- `f26r.2#5 chedy` is an exact state checkpoint inside the C011 hull.\nThe free `dy` at `f26r.2#7` is retained only to close the rendered clause; it\nlies outside C011's #4–#6 hull."},
+        {"line":48,"line_end":57,"quote":"## Scope and gain\n- 11/11 inherited edges assigned exactly once to 9 components.\n- 7 one-edge components, 1 repeated-destination fan-out, 1 serial chain.\n- 23 edge nodes, 25 incidences, 25 minimal-hull positions, 2 hull-only\n  positions and 1 render-only structural position.\n- 17 held rivals and 27 reference decisions preserved unchanged.\n- 479 token glosses, 51 line translations and 3 bound spans byte-identical.\n- 0 new edges, participant identities, word meanings, pages or f84/f84r\n  access."}
+      ]
+    },
+    {
+      "path":"experiments/yolo/gdt697_v69_exact_relation_microrecords/REPORT.md",
+      "sha256":"026e86aa3d970e77bfd821b60b248879269e6c642c93ca721047554644e7cceb",
+      "spans":[{"line":26,"line_end":33,"quote":"Only f86v6.25 is a real two-step transformation chain. The written action at\n#4 both produces the measured drug share and supplies the exact object heated\nat #5. That licenses a named intermediate product, but the material after\nheating is not separately named.\n\nf80v.35 is different. Its two additions share the hot wood-preparation share\nat #3 as destination, but no edge carries the output of the first addition\ninto the second."}]
+    },
+    {
+      "path":"experiments/yolo/gdt702_v75_exact_written_result_contrast/REPORT.md",
+      "sha256":"d415efefc3cd895d74a7903e27976407945046a5817987e3f88096a2e605247d",
+      "spans":[{"line":64,"line_end":79,"quote":"Die Materialübereinstimmung beruht auf dem bereits eingefrorenen deutschen\nArbeitsrenderer. GDT682 hatte dieselbe Stelle schon proseartig als Ergebnis\ngelesen, und GDT687 hatte `olpchedy#5` bereits als nominalen Fertigzustand\nklassifiziert. GDT702 entdeckt daher weder die Bedeutung noch ein unabhängiges\nhistorisches Ergebniswort; es formalisiert diese vorhandene Werkstattlektüre\nerstmals als occurrence-genaue, gegen alle elf Zielaktionen abgegrenzte\nRelation.\n\nDer Graph wächst von 11 auf 12 Kanten und von 23 auf 24 eindeutige Knoten."
+      }]
+    }
+  ],
+  "candidate_assessments": [
+    {
+      "id":"IDEA000060",
+      "classification":"known_topology_with_unbound_semantic_consequence",
+      "finding":"M006's shared destination is already a GDT701 structural fact. 'One shared result/state' is an inherited interpretation: GDT701 explicitly says every final result remains unnamed, and GDT702 says its sole result relation is renderer-derived and occurrence-bound.",
+      "decision":"retain as unreviewed structural candidate; not a genuinely new semantic model",
+      "next_question":null
+    },
+    {
+      "id":"IDEA000061",
+      "classification":"known_serial_topology_with_unbound_product_semantics",
+      "finding":"M007/f86v6.25 is already the sole serial chain and GDT697 records the exact intermediate-object bridge. The proposal's output-to-input equality is not independently observed as a semantic state; 'product' is a gloss, while the post-heating final material is explicitly unnamed.",
+      "decision":"retain as unreviewed topology restatement; no new semantic question without an independently coded state endpoint",
+      "next_question":null
+    },
+    {
+      "id":"IDEA000062",
+      "classification":"conditional_new_structural_model",
+      "finding":"The hull-only versus participant distinction is the only materially different mechanism: it predicts graph incidence/continuity separately from visually intervening positions. GDT701 supplies the observed protocol cases (`aiin` quantity register, `chedy` checkpoint, free `dy` closure), but also warns that these are not nodes; independent participant status is not yet established.",
+      "decision":"only candidate worth a bounded next-question draft; structural and not a word-meaning claim",
+      "next_question":"On a predeclared held set of existing relation hulls, does independently coded graph incidence/participant continuity predict which intervening positions affect closure, while the current hull-only coding predicts none?",
+      "required_binding":"An independently specified incidence/continuity endpoint, with the current `aiin`/`chedy`/`dy` structural labels preserved as observations rather than translated action/product meanings.",
+      "stop":"If endpoint labels are inherited renderer glosses or protocol labels only, stop as underidentified; do not convert the result into a lexical or semantic refutation."
+    },
+    {
+      "id":"IDEA000063",
+      "classification":"known_component_topology_plus_process_gloss",
+      "finding":"Connected components and singleton/fan-out/serial signatures are already GDT697/GDT701's graph result. 'Microrecord' or 'process unit' adds an interpretation of the component, not a new observation; GDT701 reports no new participant identities or meanings.",
+      "decision":"retain as unreviewed structural restatement; no distinct next question",
+      "next_question":null
+    }
+  ],
+  "successor_scope": {
+    "GDT697":"already fixes seven minimal windows, including one shared destination and one serial bridge; it states zero word-meaning delta.",
+    "GDT702":"adds one occurrence-bound C012 written-result relation, explicitly renderer-derived and not a portable action-output rule; it does not independently validate IDEA000060/061 result semantics.",
+    "gate":"No 50-edge universal requirement is inferred. Any future check must use a predeclared existing held subset and an independent endpoint; more topology counts alone do not change the semantic decision."
+  },
+  "recommendation":{"candidate":"IDEA000062","status":"conditional_only","reason":"It separates an observable topology/status question from inherited action/product glosses. The other three are already represented by GDT697/GDT701 or explicitly renderer-bound by GDT702."},
+  "review_status":"consumer source review only; no method review or registry mutation"
+}
