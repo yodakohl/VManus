@@ -23,6 +23,10 @@ f81v.28whole ZL/ITeligiblezero;RFentityineligible. No phrase/meaning/nullscore.
 875nativeaudit:2originals2viewers;bothrunninglineslocated,criticalreadingsopen.
 56bothunlocalized;64rootspatialcandidate,Bunlocalized. Neitherbridgepromoted.
 OldR3owners notvalidated here; no blanketfalsification or furtherautomaticcensus.
+876corrects two exactR3positions:72/73 are horizontalbelowrightcircle,
+notleft/rightcircularbands;74alsohorizontal,butreferentopen. Bothviewersagree.
+R1alreadyhadlowerblock: latermapregression,notnewgeometry/meaning.
+Quarantineonlythose72/73written-positionclaims; no broadatlas/rendererrepair.
 
 GDT858:855/963primary808folds retained opposite-face training;169faces/90leaves.
 GDT865 whole-leaf correction retains both primary thresholds: nuisance macroAUC

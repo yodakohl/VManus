@@ -1,5 +1,5 @@
-# GDT876 — f67r2 long record placement
+# GDT876 — long-record source placement
 
-Status: `REGISTERED_UNSCORED`
+Status: `COMPLETE_NATIVE_SOURCE_AUDIT`
 
-See `METHOD.md` and `experiment.json`.
+Both viewers place .72/.73/.74 below the right circle. Two later circular-band placements contradicted; earlier R1 already retained the correct lower block. See REPORT.md and artifacts/CORRECTIONS.json. No meaning established.
