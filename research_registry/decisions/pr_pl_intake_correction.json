@@ -1,0 +1,102 @@
+{
+  "schema": "pr_pl_intake_correction_v1",
+  "status": "additive_binding_correction_only",
+  "original_receipt": "research_registry/decisions/pl_diverse_supply.json",
+  "original_receipt_preserved": true,
+  "ids_corrected": "IDEA000087 through IDEA000092",
+  "mechanism_label_caveat": "The six labels are producer mechanism labels for navigation, not source-reviewed independent-family findings; several are near existing primary tests or proposals.",
+  "bindings": [
+    {
+      "id": "IDEA000087",
+      "file": "research_registry/proposals/pq_value_head_axis.json",
+      "title": "Head conditioned value axis",
+      "design_sha256": "e98bbaa20599b910680971310d6a7ca5abc39b318ec1d9884de3629bcfa9ae50",
+      "proposal_file_sha256": "bf993285e33139cf763efaf9dffcb5efdf8d0ca9a6b2d9d16b39e6b0048175de",
+      "source_evidence": {
+        "path": "experiments/yolo/gdt764_bounded_value_field_dispatch/REPORT.md",
+        "line": 20,
+        "line_end": 29,
+        "sha256": "04a16ba71959c74d1e43090724eb6d3727294f4e788987badd7f756861c56d67",
+        "quote": "| Exact triple | Local axis | Portable reading | Stronger C1 reading |\n|---|---|---|---|\n| `pcheey qoty daiin` | quality/grade | dry Form II: cold grade III | dry Form II: cold in the third degree |\n| `pcheey dal daiin` | measured material; axis open | dry Form II: raw material I, measured; value III | dry Form II: three local measures of raw material I |\n| `pchedal qopchdy daiin` | nominal field; axis open | measured dry material, Form I: `qopchdy` field, value III | finished dry preparation on stage III |\n| `pcheody oteody daiin` | result/stage | dry prepared result, Form I: cooling/result field, stage III | cooled finished preparation on stage III |\n| `pchaiin ofchy daiin` | open | dry index/grade III: `ofchy` field, value III | if `ofchy` is a learned content name: content class III |\n\nAll five triples are reader-exact, stand on paragraph-start lines, and are not\nparagraph-final. Three lines contain a second `Y daiin` cell. The clearest is:"
+      },
+      "effective_status": "semantic / untested / raw unreviewed"
+    },
+    {
+      "id": "IDEA000088",
+      "file": "research_registry/proposals/pq_quantity_class.json",
+      "title": "Quantity class constrained value interpretation",
+      "design_sha256": "330ade9f195e776fa5d2e2d7928171e6bbf737bb7d10341efe9413e76cee5acd",
+      "proposal_file_sha256": "514bd9f6c9bc415abcbdec7fc21b6697731562458408e4cef2970213e10335f4",
+      "source_evidence": {
+        "path": "experiments/yolo/gdt729_v99r3_fourteen_indexed_quantity_dispatch/REPORT.md",
+        "line": 5,
+        "line_end": 18,
+        "sha256": "14d2d659b619c16301d3a34274f0fab9f50ca1e64469d49004d7ef667317523f",
+        "quote": "GDT729 resolves the fourteen forms explicitly named by the current route. The\nresult is five cardinal amounts, one amount inside an indexed share, seven\nopen value levels and one quality grade. None remains a slash-separated\nnon-answer, and none is put on HOLD.\n\nStatus:\n`PASS_V99R3_14_QUANTITY_READINGS__5_CARDINAL_1_INDEXED_SHARE_7_OPEN_VALUE_1_QUALITY_GRADE_0_MEASURE_0_HOLD__140_OCCURRENCES__NO_SLASH_AMBIGUITY_IN_TARGET_MEANINGS__324_ACTIVE_1248_OTHER_GLOBAL_BYTE_STABLE__SCORE_EVIDENCE_SCOPE_EXPORT_UNCHANGED__ZERO_COMPONENT_CREDIT__ALL_H0_NONE`.\n\n| surface | occurrences | V99R2 | V99R3 default | class | confidence |\n|---|---:|---|---|---|---|\n| `arain` | 4 | erste Drogenfraktion in Menge II | zwei Teile des Drogenanteils I | indexed share amount | 66 / W3 |\n| `chorain` | 2 | Blüten-/Pflanzenteil, Menge/Klasse II | Blütenteil, Wertstufe II | open value | 53 / W2 |\n| `choraiin` | 3 | Blüten-/Pflanzenteil, Menge/Klasse III | Blütenteil, Wertstufe III | open value | 58 / W2 |\n| `cthan` | 2 | Blatt-/Krautgut, Menge/Klasse I | Blattgut, Wertstufe I | open value | 53 / W2 |"
+      },
+      "effective_status": "semantic / untested / raw unreviewed"
+    },
+    {
+      "id": "IDEA000089",
+      "file": "research_registry/proposals/pq_okal_class_code.json",
+      "title": "Repeated class code reference without unique referent",
+      "design_sha256": "59eb62dedc89c38dc5d9e5d13e30f1bdc10597716c5703712eaf460ac4b22d2a",
+      "proposal_file_sha256": "6589f53d7a728d53f88768f37c35e1cd6dff320f171f5e964edfd797088ccbee",
+      "source_evidence": {
+        "path": "experiments/yolo/gdt793_okal_whole_record_candidate_discriminator/REPORT.md",
+        "line": 15,
+        "line_end": 30,
+        "sha256": "e748c61ae6039437a6640d918bb475fe87053e5b2345870af97043e90b705b2e",
+        "quote": "is not exported to `ok`, `al`, `okaly`, `okaldy`, `qokal` or any other longer\nor shorter form.\n\nThis is more specific than GDT792's structural tag. It says that `okal` most\nlikely classifies or codes a member/slot of an organised set. It does **not**\nsay “go to this target”, identify one unique named member, or mean a numeral.\nAn entirely opaque productive renderer remains a live null, so the confidence\nstays C0.\n\nThe guarded build passes 181 checks and two byte-identical replays.\n\n## Whole-record capacity\n\nThe literal complete-surface family `^okal.*$` contributes 41 occurrences,\nfourteen whole forms and seventeen running paragraph units on the released\nthirty-page spine:"
+      },
+      "effective_status": "semantic / untested / raw unreviewed"
+    },
+    {
+      "id": "IDEA000090",
+      "file": "research_registry/proposals/pq_head_item_relation.json",
+      "title": "Paired content head versus plant part item construction",
+      "design_sha256": "dc9eb5a4f7b97e868198307da1440225ce92ddf5bbd3169c277c731238cc536f",
+      "proposal_file_sha256": "7500af0f25be7576c3a2dcda0e09a611861262340f2873fa101af3658d4a9103",
+      "source_evidence": {
+        "path": "experiments/yolo/gdt765_ofchy_schor_content_field_discriminator/REPORT.md",
+        "line": 10,
+        "line_end": 28,
+        "sha256": "43ee900632971c0f6877447ef3432d21274512d0ed033d2cc85d9874427e4f35",
+        "quote": "| `schor` | plant-part item/subentry | **Blütenstand** | C1 reproductive-part lead, 39/100 |\n\nThe role decision is substantially stronger than either noun. That is useful,\nnot a retreat: the renderer always has a practical default, while the evidence\ntable says exactly which part may later change. Neither result comes from\nreading EVA `f` as *flos* or EVA `s` as *semen*.\n\n## Why `ofchy` is a material name\n\nThere are four raw `ofchy` strings and three reader-exact positions. The raw\nf39v.5 form is excluded because ZL3b reads `ofchy` while IT2a/RF1b read\n`opchy`. All admitted positions are in the Herbal register, all are medial,\nand each opens a different but compatible nominal specification:\n\n| locus | exact span | concrete working reading |\n|---|---|---|\n| f22r.4 | `ofchy daiin` | Blütenmasse, drei Einheiten |\n| f26v.5 | `ofchy chs ar` | ein Anteil trockener Blütenmasse in Grundform |\n| f39v.1 | `ofchy kar or aiin` | drei Portionen der ersten heißen Blütenfraktion |"
+      },
+      "effective_status": "semantic / untested / raw unreviewed"
+    },
+    {
+      "id": "IDEA000091",
+      "file": "research_registry/proposals/pq_record_position_role.json",
+      "title": "Record position role conditioned by a two axis construction",
+      "design_sha256": "8b5e628f39f6e45e412a92848f1ff75089564f279090384551b262b0fcca1738",
+      "proposal_file_sha256": "45d3d1032444f736aeee9ab247ec1da8035dae769f132322dfbb99540b04580c",
+      "source_evidence": {
+        "path": "experiments/yolo/gdt736_opaque_head_record_role_bridge/REPORT.md",
+        "line": 5,
+        "line_end": 22,
+        "sha256": "1aa02432a4c7619ee4743bd1414fabf3dfbacd81de6c390121ef0ac22415cd4e",
+        "quote": "Die vier alten „Stoffköpfe“ sind am besten als **gekreuztes 2×2-System von\nRecordrollen** zu behandeln, nicht als Pulver, Samen, Wurzel und Holz:\n\n| | Cluster A: form-/zustandslastige Körper | Cluster B: materia-/wertlastige Körper |\n|---|---|---|\n| **Eintrag** | **H1:** Absatz-/Record-Öffner | **H2:** Zeilenposten/Untereintrag |\n| **intern/final** | **H4:** internes Form-/Zustandsfeld | **H3:** später Zutaten-/Wertbezug |\n\nDie erste Achse ist stark. H1/H2 stehen bei 294 von 575 Zielvorkommen am\nZeilenanfang; H3/H4 nur bei 39 von 591. Das ergibt eine Odds Ratio von 14,81\n(95-%-Intervall 10,29–21,30). Nach Kontrolle für Körper und Manuskriptsektion\nsteigt sie auf 16,68; mit der geerbten Sprach-Metadatenklasse auf 18,02. Die\nRichtung bleibt in allen sechs vertretenen Sektionen gleich und bei 21 von 24\nKörpern auch im Vergleich der mittleren normalisierten Position.\n\nInnerhalb des Einstiegspaars trennt eine höhere Ebene: H1 ist in 49 von 135\nFällen das erste Token einer neuen Absatzzeile, H2 nur in 3 von 440. H1 ist\ndamit der bessere Absatz-/Record-Öffner; H2 der bessere Posten oder Untereintrag."
+      },
+      "effective_status": "semantic / untested / raw unreviewed"
+    },
+    {
+      "id": "IDEA000092",
+      "file": "research_registry/proposals/pq_mixed_channel_whole_field.json",
+      "title": "Mixed channel interpretation of one construction",
+      "design_sha256": "b27fcec3a31497fbfd3de69767ba9f266b80382177b9635ac54fb63f595664af",
+      "proposal_file_sha256": "c9300d4d5eae34840db0fae010adf01deab31c9636de8d4e4db9faa3fa91d7fc",
+      "source_evidence": {
+        "path": "experiments/yolo/gdt735_historical_semantic_bridge_atlas/REPORT.md",
+        "line": 5,
+        "line_end": 16,
+        "sha256": "934a3cda39d4c1f069778d789d3c7db2dfe1f54a26f343e3bd610fd53936e141",
+        "quote": "Die historische Brücke ist real, aber sie liegt **eine Ebene höher als ein\nWörterbuchgleichnis**. Spätmittelalterliche pharmazeutische Handschriften\nbelegen zwei komplementäre Recordtypen:\n\n1. **deskriptiv:** gelernter Drogenname oder Lemma, optional Pflanzenteil oder\n   Stoffform, Qualität/Zustand und Grad;\n2. **präskriptiv:** Befehl, benannte Zutat oder Zubereitung, gebundene Menge,\n   Einheit und Prozess/Produkt.\n\nDer beste historische Arbeitsrahmen ist deshalb ein gemischtes System aus\ngelernten Ganzformen und gebundenen Fachfeldern, das beide Recordtypen getrennt\nhält. Das ist eine bessere Architektur als ein flaches Wort-für-Wort-Lexikon."
+      },
+      "effective_status": "semantic / untested / raw unreviewed"
+    }
+  ],
+  "no_design_changes": true,
+  "no_registry_mutation": true
+}

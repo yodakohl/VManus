@@ -14,8 +14,9 @@ No persistentstate/reset/meaning.872published42881456.
 873complete:82eligible41matched29folios;matchedD0,control−.010967,residual+.010967.
 Folioresidual15negative12positive2zero;strictdiagnostic1matched failscoverage.
 Selectedhalf/newdensityendpoint doesnotexplain872composition. Branchstopped;no controlchain.
-86raw/85unique;51method;34pending(three new unreviewed proposals this interval).
-734twenty-whole mappings remain unassessed;no automatic cleanup cycle.
+92raw/91unique;54method;37pending.84–86methodreviewed, notsemanticfalsifications.
+734twenty-whole gap recovered asone finite model/20pagedapplications;3945semantic.
+Separate19rolemodel preserved;161scoped dossiers. No automatic cleanup cycle.
 
 GDT858:855/963primary808folds retained opposite-face training;169faces/90leaves.
 GDT865 whole-leaf correction retains both primary thresholds: nuisance macroAUC

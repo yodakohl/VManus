@@ -9,24 +9,25 @@ they do not automatically add historical SEM cards or confirmed meanings.
 
 ## Current public snapshot
 
-Latest continuation: [scoped completion](decisions/semantic_10h_continuation_completion.md); [session record](decisions/semantic_10h_session.md).
+Active four-hour continuation: [session record](decisions/semantic_4h_followon_session.md); [twenty-whole recovery](decisions/pn_root_twenty_whole_recovery.json).
+Previous completed continuation: [scoped completion](decisions/semantic_10h_continuation_completion.md).
 
 Earlier completed ten-hour comparison and remaining coverage limits: [completion report](decisions/semantic_10h_completion.md).
 Earlier four-hour curation delta: [scoped results](decisions/semantic_4h_completion.md).
 
 | Unit | Count |
 |---|---:|
-| Active semantic hypothesis variants | 3,944 |
+| Active semantic hypothesis variants | 3,945 |
 | Separately typed formal-role cards | 266 |
-| Reviewed source cases, including the correction archive | 4,845 |
+| Reviewed source cases, including the correction archive | 4,865 |
 | Archived source-extraction errors | 52 |
-| Exact normalized assertion repetitions grouped | 583 |
+| Exact normalized assertion repetitions grouped | 602 |
 | Reviewed equivalence groups / display reduction | 86 / 104 |
-| Public semantic display entries | 3,841 |
+| Public semantic display entries | 3,842 |
 
 These are different units, not a deduplicated total of independent theories.
 A local ignored supplement contributes95 semantic cards and one formal card;
-the ordinary local default therefore displays3,936 semantic entries. A fresh
+the ordinary local default therefore displays3,937 semantic entries. A fresh
 public clone has the public view only. Local source files and quotes are not
 published or silently folded into public counts.
 

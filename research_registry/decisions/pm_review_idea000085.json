@@ -1,0 +1,73 @@
+{
+  "record_id": "IDEA000085",
+  "scope": "method",
+  "verdict": "not_tested",
+  "reviewer": "root original-endpoint review with independent PI audit",
+  "reason": "Stable allocation among nine response pairs could reflect formula-specific collocation or unequal exposure without functional gating. The design specifies no allowed set, distribution, effect criterion, exposure model or held partition. GDT873 collapses pair identity into CH/SH density, so it cannot test this allocation claim.",
+  "assessment_basis": "source_and_logical_design_review_no_manuscript_test",
+  "design": {
+    "contrast": "pair-specific downstream inventory versus a common procedure pool whose pair identities are exchangeable",
+    "countermodel": "Page formula reuse or unequal anchor placement can produce a stable response-pair distribution without a lexical or functional inventory rule.",
+    "endpoint_status": "availability_unknown",
+    "falsifier": "Balanced held strata show response-pair allocations interchangeable between SP10 and SP11, while only side totals vary; the pair-gating account then loses its prediction.",
+    "mechanism": "anchor-pair-conditioned response inventory",
+    "prediction": "Within fixed direction, lag-band, paragraph and folio strata, each anchor pair should show a reproducible response-pair distribution; a common-pool model predicts no stable anchor-pair-specific pair allocation beyond exposure.",
+    "principal_risk": "The observed report gives aggregate counts, not independent response-pair bindings or a semantic inventory. Availability of balanced held occurrences is unknown.",
+    "related": "Near GDT872’s retained nine-pair table, but asks about pair identity conditionality rather than the already reported CH/SH aggregate composition or a position-only control.",
+    "smallest_next_step": "Freeze anchor-side, direction, lag-band, paragraph and folio strata; then inspect held response-side records without changing the GDT872 pair inventory.",
+    "source_evidence": {
+      "line": 25,
+      "line_end": 33,
+      "path": "experiments/yolo/gdt872_whole_pair_directed_profile/REPORT.md",
+      "quote": "The response-side composition is worth preserving separately: in distal within-\nparagraph ZL hits,41/51 forward responses are CH-side versus36/66 backward.\nForward CH-side responses occur after both CH anchors (25/31) and SH anchors\n(16/20). Thus pooled same-side concordance is misleading as a state-copying\ninterpretation. The strict diagnostic has7/9 CH-side forward and5/6 backward;\nit does not reproduce the primary directional composition contrast. Its small,\nselectively retained sample does not prove the primary contrast false either.\nAll nine response pairs contribute distal hits; the counts are retained rather\nthan selecting a winning pair after inspection.",
+      "sha256": "26bb7da2a8e48ea659819f3c40805a792f6f626ab9a55de8cb212e205ab7d04c"
+    },
+    "unit": "the two anchor pairs SP10/SP11 crossed with the nine fixed response pairs at signed lags 3–8, retaining response pair and side separately"
+  },
+  "blockers": [
+    {
+      "code": "missing_design",
+      "detail": "Stable allocation among nine response pairs could reflect formula-specific collocation or unequal exposure without functional gating. The design specifies no allowed set, distribution, effect criterion, exposure model or held partition. GDT873 collapses pair identity into CH/SH density, so it cannot test this allocation claim.",
+      "evidence": [
+        "research_registry/decisions/pi_84_85_method_review.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "distinct_observable_and_comparison",
+        "change": "new_design",
+        "detail": "Nominateonepair-specificobservablewithrestrictedformula/positionrival, freezeexpectedallocationorabsence andopportunitybasis, andidentifyactualuntouchedcomparisoncapacity. Preservefixedforms/lags; no873repairorclaimsemanticgolduniversallyrequired.",
+        "evidence": [
+          "research_registry/decisions/pi_84_85_method_review.json"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Treating GDT873 as a failed test of this different endpoint.",
+      "Relabelling already inspected GDT872 records as untouched held confirmation.",
+      "More pages or another CH majority without the declared contrasting prediction."
+    ]
+  },
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "GDT872",
+      "detail": "Motivating observation; neither independent semantic binding nor held confirmation.",
+      "evidence": [
+        "experiments/yolo/gdt872_whole_pair_directed_profile/REPORT.md"
+      ]
+    },
+    {
+      "type": "related_to",
+      "target": "GDT873",
+      "detail": "873collapsesresponsepairidentitytoCH/SHsigns. Manydistinct9-categoryallocationsgiveidenticalD, soitsnull/mixedresidualcannotfalsifypairgating.",
+      "evidence": [
+        "experiments/yolo/gdt873_matched_paragraph_position_profile/REPORT.md"
+      ]
+    }
+  ],
+  "claim_ceiling": "Original semantic proposition remains untested, not falsified; unknown capacity is not measured capacity failure; effective source/design preserved."
+}

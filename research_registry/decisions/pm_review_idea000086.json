@@ -1,0 +1,73 @@
+{
+  "record_id": "IDEA000086",
+  "scope": "method",
+  "verdict": "not_tested",
+  "reviewer": "root primary808 and corrected865 design review",
+  "reason": "GDT808 already compared the two axes and reported that paragraph, topic and form regime predict expanded/base choice. GDT865 retained the two primary nuisance thresholds after whole-leaf exclusion, without repeating all old controls or establishing meaning. The new proposal does not identify an independently coded channel, its exact predicted change, or an observation separating functional channel use from register or formula composition. A universal semantic operator need not give the same raw frequency direction in different lexical contexts. This is an incomplete proposed method, not a failed semantic experiment or an adjudicated duplicate.",
+  "assessment_basis": "source_and_logical_design_review_no_manuscript_test",
+  "design": {
+    "mechanism": "record/form-channel-conditioned carrier variant",
+    "unit": "complete Xol/Xeol and Xedy/Xeody carrier forms with independently coded record/form channel and repeated carrier context",
+    "contrast": "channel-conditioned expanded/base relation versus one universal e-like operator or orthographic alternation",
+    "prediction": "Within held carrier and folio strata, the expanded/base variant should shift with the independently coded record/form channel, with L and DY allowed separate channel rules; a universal operator predicts one direction and rule across both axes.",
+    "countermodel": "Register, paragraph or formula composition can correlate with the observed variant without any channel-conditioned semantic or functional relation.",
+    "falsifier": "Held channel-matched occurrences show no reproducible variant difference, or a single common rule predicts L and DY as well as separate channel rules; the proposed channel-conditioned hypothesis then loses its restricted prediction.",
+    "principal_risk": "GDT808 is a structural working analysis with zero lexemes; channel labels and carrier identity are not independent semantic gold. This is distinct from caption/prose arity because it targets expanded/base choice within repeated carrier forms.",
+    "related": "Near GDT808, GDT627/GDT764 value-head dispatch and caption/prose channel proposals, but targets channel-conditioned carrier variant selection rather than value interpretation, page genre, or a universal e meaning.",
+    "source_evidence": {
+      "path": "experiments/yolo/gdt808_exact_relation_slot_residual_bridge/REPORT.md",
+      "line": 43,
+      "line_end": 61,
+      "quote": "`Xol/Xeol` und `Xedy/Xeody` verhalten sich am besten wie zwei getrennte\nSchreib- oder Recordkanäle, in denen derselbe Carrier in zwei Varianten\nauftreten kann. Der übrige Absatz, Topic und Formregime sagen die Variante\ndeutlich besser voraus als die unmittelbaren Wörter links und rechts.\n\nDas ist konkrete Information, aber noch kein Wörterbuch:\n\n- `e` darf nicht als universeller Operator gelesen werden;\n- L und DY dürfen nicht in eine gemeinsame Bedeutungstabelle gezwungen werden;\n- eine vollständige Form muss zusammen mit ihrem Recordkanal und ihrem\n  wiederkehrenden Ganzwortkopf interpretiert werden;\n- die DY-Achse ist wesentlich stärker und robuster als die L-Achse.\n\nDie destruktive ED1-Kontrolle bestätigt diese Asymmetrie. DY bleibt mit\nnuisance AUC 0,726426 und augmented AUC 0,736094 deutlich erhalten. L fällt\nauf 0,592049 beziehungsweise 0,567733. Auch die dünnen `Xkol/Xtal`- und die\ngelernten `cheol/otal`-Kontrollen werden hauptsächlich vom Record-/Formumfeld,\nnicht vom lokalen Slot getragen. Das stützt eine breite Kanalgrammatik und\nspricht gegen ein aus diesen Paaren direkt ablesbares Lexikon.",
+      "sha256": "7dcf23794cf134702ebea986eb8210c9ed59d517f8f432392c7b4157f9ab5e4c"
+    },
+    "endpoint_status": "availability_unknown",
+    "smallest_next_step": "Review existing complete carrier cases for independently coded record/form channels and freeze L/DY-specific variant predictions before any new extraction."
+  },
+  "blockers": [
+    {
+      "code": "missing_design",
+      "detail": "GDT808 already compared the two axes and reported that paragraph, topic and form regime predict expanded/base choice. GDT865 retained the two primary nuisance thresholds after whole-leaf exclusion, without repeating all old controls or establishing meaning. The new proposal does not identify an independently coded channel, its exact predicted change, or an observation separating functional channel use from register or formula composition. A universal semantic operator need not give the same raw frequency direction in different lexical contexts. This is an incomplete proposed method, not a failed semantic experiment or an adjudicated duplicate.",
+      "evidence": [
+        "research_registry/decisions/pm_root_three_method_reviews.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "specific_channel_observable_and_new_contrast",
+        "change": "new_design",
+        "detail": "Specify an observable channel coding independent of the target variant, concrete competing predictions, and actual eligible comparison cases. Explain what goes beyond the existing808/865 nuisance prediction and how either outcome changes the proposed functional interpretation. A purely structural test need not start with confirmed word translations.",
+        "evidence": [
+          "research_registry/decisions/pm_root_three_method_reviews.json"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Recounting the already known L/DY register asymmetry.",
+      "Another neighbor classifier or stronger old nuisance fit.",
+      "More pages without a distinct observable prediction."
+    ]
+  },
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "GDT808",
+      "detail": "Primary predecessor relevant to the proposed contrast; not a confirmed duplicate or semantic meaning binding.",
+      "evidence": [
+        "research_registry/decisions/pm_root_three_method_reviews.json"
+      ]
+    },
+    {
+      "type": "related_to",
+      "target": "GDT865",
+      "detail": "Primary predecessor relevant to the proposed contrast; not a confirmed duplicate or semantic meaning binding.",
+      "evidence": [
+        "research_registry/decisions/pm_root_three_method_reviews.json"
+      ]
+    }
+  ],
+  "claim_ceiling": "Preserve the raw hypothesis; no semantic falsification or universal e conclusion."
+}
