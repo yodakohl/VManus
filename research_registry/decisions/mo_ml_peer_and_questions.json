@@ -1,0 +1,56 @@
+{
+  "artifact":"MO independent ML five-card peer and scoped questions",
+  "scope":"Read-only peer of clean_gap_review_ml_integrated.json and ml_root_five_proposition_recovery.json; exact GDT712/GDT713 report and static audit rows only. No registry mutation, raw TSV, images, experiments, or meaning admission.",
+  "peer_verdict":"approve_with_scope_notes",
+  "source_owner_check":{
+    "AL_FAMILY":{"owner":"LEGACY_COMPONENT:868b50fd09e42c95fb46","report":"experiments/yolo/gdt712_v85_al_state_core_context_repair/REPORT.md","report_sha256":"2e4caf2703707c57922316903b68fea67eb4e58e0f9678bc0e22859a0af9811e"},
+    "CHEOP_OL":{"owner":"LEGACY_COMPONENT:868b50fd09e42c95fb46","report":"experiments/yolo/gdt712_v85_al_state_core_context_repair/REPORT.md","report_sha256":"2e4caf2703707c57922316903b68fea67eb4e58e0f9678bc0e22859a0af9811e"},
+    "CKH_CPH_ORAM_OTAM":{"owner":"LEGACY_COMPONENT:8565fc515dc17943aab2","report":"experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/REPORT.md","report_sha256":"1fd5ab1bb30ac01e5cb5bfbff1462e52ba631d4c493b5aa8c4365c5a6fe4b71d"}
+  },
+  "material_checks":[
+    "All five recovered propositions retain unconfirmed/source-bound status and scientific_test_ready=false.",
+    "The corrected oram/otam cards preserve the older Ansatz-bearing claims as historical cases while separating later lexical core from local rendering; they must not be overwritten or collapsed.",
+    "The CKH/CPH card explicitly keeps CPH distinct from CKH; no AL component export, free E_ATTR/O_PREP word, medicine identity, or six confirmed meanings is asserted.",
+    "The ten AL applications and six CKH/CPH applications are static source-model rows. They are valid provenance applications, but page counts/static rows do not independently validate meaning or provide a new folio selector."
+  ],
+  "evidence": [
+    {"path":"experiments/yolo/gdt712_v85_al_state_core_context_repair/REPORT.md","line":7,"line_end":11,"sha256":"2e4caf2703707c57922316903b68fea67eb4e58e0f9678bc0e22859a0af9811e","quote":"Die wichtigste neue Defaultregel lautet `AL -> Material I` und, nur in den zugelassenen DAL-Schwestern, `DAL -> abgemessenes Material I`. Dadurch verschwinden `Rohstoffklasse`, `Rohdroge`, `Drogenrohstoff`, erfundene Dosis- und Mengenkoepfe, ohne eine konkrete Zutat einzusetzen."},
+    {"path":"experiments/yolo/gdt712_v85_al_state_core_context_repair/REPORT.md","line":15,"line_end":15,"sha256":"2e4caf2703707c57922316903b68fea67eb4e58e0f9678bc0e22859a0af9811e","quote":"Die einzige `cheop`-Position ist nach beiden Alternativlesern die linke Haelfte von `cheop ol`. V85 markiert deshalb f115r.1#5 als `G683_CHEOP_OL LEFT`; das bereits gebundene `ol#2` bleibt RIGHT. Der lokale Span rendert einmal als `bis zur Mittelstufe getrockneter Pulverstoff`, beide Komponenten sind nicht global exportierbar."},
+    {"path":"experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/REPORT.md","line":7,"line_end":17,"sha256":"1fd5ab1bb30ac01e5cb5bfbff1462e52ba631d4c493b5aa8c4365c5a6fe4b71d","quote":"Die sechs CKH/CPH-Ganzformen tragen jetzt den gelernten Familienkopf `Mischung`, nie `Arznei`. Sichtbare Trocken-/Feucht- und Grund-/Anfangsfelder bleiben erhalten. E_ATTR und O_PREP bleiben Strukturmetadaten; sie werden nicht zu freien deutschen Woertern. Wo der O-Rahmen lokal praktisch lesbar ist, steht `Ansatz` nur in der Fundstellenrealisierung."},
+    {"path":"experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/REPORT.md","line":19,"line_end":23,"sha256":"1fd5ab1bb30ac01e5cb5bfbff1462e52ba631d4c493b5aa8c4365c5a6fe4b71d","quote":"Bei den Massformen wird `oram` zu `Maßportion` verdichtet; der unbelegte Ansatzkopf und der lexikalisierte Artikel verschwinden aus dem Wortkern. `otam` traegt als Kern `kalt; Maß I` und rendert an beiden benachbarten Stellen weiter konkret als `ein Maß kalten Ansatzes`. Inhalt und historische Einheit bleiben offene Slots, nicht erfundene Substantive."}
+  ],
+  "prospective_questions":[
+    {
+      "id":"MO-Q1",
+      "target":"CLEAN_GAP_ML:AL_FAMILY / SEM:f2a75ce104035b4318a4",
+      "question":"Does the bounded AL/DAL family default remain stable across admitted AL forms while quality/stage fields vary, or does AL acquire a portable material-class/ingredient or unit role outside the admitted family?",
+      "rivals":"family-intersection Material I versus free AL/D lexical/component export and named-material/unit readings.",
+      "changed_observation":"A predeclared occurrence set with independently coded family membership, state/stage, and any material/unit cue could change the family-default decision; page-count increase or fluent translation cannot.",
+      "limits":"DAL measurement and AL material core remain separate; no free A/L decomposition is assumed."
+    },
+    {
+      "id":"MO-Q2",
+      "target":"CLEAN_GAP_ML:CKH_CPH_FAMILY / SEM:3385b1ab7d998d6923d1",
+      "question":"Do the six named CKH/CPH whole forms support one bounded Mischung family head with dry/wet and stage metadata, or does the source support an Arznei/other-head split?",
+      "rivals":"Mischung family head versus Arznei/Arzneizubereitung or action-of-mixing readings.",
+      "changed_observation":"Matched whole forms with independently coded CKH versus CPH shell, E_ATTR/O_PREP status, and stage/state can discriminate the family model; CPH must remain a separate construction and no component is exported as a word.",
+      "limits":"Static applications are provenance, not independent confirmation; no requirement to identify medicine or translate E_ATTR."
+    },
+    {
+      "id":"MO-Q3",
+      "target":"CLEAN_GAP_ML:CHEOP_OL / SEM:f9752121f54affe9c223",
+      "question":"Is the cheop+ol left/right span a local whole construction whose powder/drying realization is context-bound, or does cheop carry that realization independently?",
+      "rivals":"two-group local span versus cheop-alone portable powder/drying core.",
+      "changed_observation":"A predeclared set of independently segmented cheop and cheop-ol spans with local role/rendering annotations could alter the scope; agreement of alternate readers or same-page repetition cannot confirm the lexical meaning.",
+      "limits":"Preserve free ol#1 and bound ol#2 separately; span segmentation is testable independently of substance identity."
+    },
+    {
+      "id":"MO-Q4",
+      "target":"CLEAN_GAP_ML:ORAM_CORE + CLEAN_GAP_ML:OTAM_CORE / SEM:f54109c0702ca0964dcc + SEM:8291007113d0d0553631",
+      "question":"Can core content, local rendering, internal segmentation, and unit/measure behavior be separated for oram and otam?",
+      "rivals":"oram OR+AM Maßportion versus O+R+AM or preparation-head readings; otam kalt;Maß I core versus learned-unit/cold-preparation rival.",
+      "changed_observation":"Independent segmentation and unit-behavior annotations can test OR+AM versus O+R+AM and measure/unit hypotheses without first resolving German content; local Ansatz rendering must be scored separately and the two neighboring otam positions cannot count as independent page transfer.",
+      "limits":"Do not require all attributes to be decoded jointly; preserve older Ansatz claims and the learned-unit rival."
+    }
+  ]
+}

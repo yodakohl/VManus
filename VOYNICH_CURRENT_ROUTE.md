@@ -4,8 +4,8 @@ Updated: 2026-09-08. Read first.
 ## Current mandate and effort limit
 
 10h requested:2026-09-07 20:29:06–2026-09-08 06:29:06UTC minimum.
-MC:four lexical cores, two scoped questions, one cloth identity;10h incomplete.
-36recoveries/7scoreerrors;19questions;13definitions;86groups/104reduction.
+ML:five family/span/core models and four scoped questions;10h incomplete.
+41recoveries/7scoreerrors;23questions;13definitions;86groups/104reduction.
 83rawrecords82afterknown55dup;45method/37unreviewed;10source-onlyrepairs.
 
 GDT858:855/963primary808folds retained opposite-face training;169faces/90leaves.

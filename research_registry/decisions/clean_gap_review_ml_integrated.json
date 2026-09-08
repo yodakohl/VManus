@@ -1,0 +1,611 @@
+{
+  "status": "ROOT_VALIDATED_FIVE_HISTORICAL_SCOPE_PROPOSITIONS",
+  "cards": [
+    {
+      "id": "CLEAN_GAP_ML:AL_FAMILY",
+      "claim": "GDT712 replaces the raw-drug/class-I head with Material I in its admitted AL family, and measured Material I only in the admitted DAL sisters. The ten atlas-backed whole forms are al, chal, kal, otal, qoal, qokal, shal, shdal, shedal and tal; their quality/stage fields remain. This is a bounded family default, not a free AL or D translation, named ingredient, physical unit or automatic extension to the five later whole forms whose lexical wording alone is repaired.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "LEGACY_COMPONENT:868b50fd09e42c95fb46"
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scientific_test_ready": false,
+      "independent_new_idea": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/REPORT.md",
+          "line": 7,
+          "line_end": 11,
+          "quote": "V85 arbeitet die naechsten 33 schwachen Lesungen vollstaendig ab: alle 15 AL-/DAL-nahe Formen und alle 18 Zustands-/Traegerformen, zusammen 38 unveraenderte Positionen auf 23 bereits zugelassenen Seiten. 30 Lesungen werden kompakter oder in Wortkern und lokale Realisierung getrennt; drei konkrete, aber ausserhalb des produktiven Gradrasters liegende Ganzwoerter (`keeey`, `qokeeey`, `okol`) bleiben stehen.\n\nDie wichtigste neue Defaultregel lautet `AL -> Material I` und, nur in den zugelassenen DAL-Schwestern, `DAL -> abgemessenes Material I`. Dadurch verschwinden `Rohstoffklasse`, `Rohdroge`, `Drogenrohstoff`, erfundene Dosis- und Mengenkoepfe, ohne eine konkrete Zutat einzusetzen. Zehn atlasgestuetzte Formen erhalten den vorhandenen F_AL-Familienkredit; fuenf spaetere Ganzformen werden nur lexikalisch bereinigt und nicht hochgestuft.\n\nBei den Zustandsformen bleibt die greifbare Information sichtbar: heiß, kalt, trocken, feucht sowie Anfang, Mitte, Ende und Wert II/III. `Droge`, `Gut` und aktive Prozessformulierungen werden dort entfernt, wo die aktuelle Position nur einen nominalen Zustand traegt. Strukturelle Restfragen stehen separat in `v85_open_semantic_slots`, nicht in der deutschen Uebersetzung.",
+          "sha256": "2e4caf2703707c57922316903b68fea67eb4e58e0f9678bc0e22859a0af9811e"
+        },
+        {
+          "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/REPORT.md",
+          "line": 28,
+          "line_end": 28,
+          "quote": "Das ist die konkrete Arbeitsuebersetzung des aktuellen Modells, kein bestaetigter Klartext. Confidence bleibt ein interner Evidenzindex, keine Wahrscheinlichkeit. Keine Komponente wird als freies Voynich-Wort exportiert; alle historischen Felder bleiben `H0_NONE`. Es wurden keine neue Seite, kein Bild, keine neue Transkription, kein `f84` und kein `f84r` benutzt.",
+          "sha256": "2e4caf2703707c57922316903b68fea67eb4e58e0f9678bc0e22859a0af9811e"
+        },
+        {
+          "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/src/V85_33_AUDIT_SPECS.tsv",
+          "line": 2,
+          "line_end": 2,
+          "quote": "al#1\tREVISE\tF_AL\tAL\tRohstoffklasse I\tMaterial I\tMaterial I\tATLAS_FAMILY_CORE\t8\t59\t59\tROHSTOFF+KLASSENHAUPT\tATLAS_FAMILY_INTERSECTION\tDrei aktive Positionen auf drei Seiten; GDT655 belegt AL als unterste Stufe der AL/DAL-Materialleiter, und GDT684 sieht MATERIAL_ROLE ohne Identitaetssignal.\tEine freie A|L-Grenze fehlt; Materialart und historische Benennung bleiben offen.\tMATERIAL_IDENTITY\t0\tNONE\tNONE\t1",
+          "sha256": "c9b7b71ac2815853c3bb09a8f420e19e7b7e5c11fcdbd0f8ca5f61160a8e301a"
+        },
+        {
+          "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/src/V85_33_AUDIT_SPECS.tsv",
+          "line": 4,
+          "line_end": 4,
+          "quote": "chal#1\tREVISE\tF_AL|F_STATE\tCH+AL\tRohstoffklasse I, trocken am Gradanfang\ttrockenes Material I, Anfangsstufe\ttrockenes Material I, Anfangsstufe\tATLAS_FAMILY_CORE\t8\t59\t59\tROHSTOFF+KLASSENHAUPT\tATLAS_FAMILY_INTERSECTION\tZwei aktive Positionen sowie 35 dreifach reader-exakte GDT656-Atlaspositionen tragen die CH-Trocken-/AL-I-Schnittmenge.\tCH und AL bleiben familiengebundene Analysefelder; keine Stoffidentitaet ist bekannt.\tMATERIAL_IDENTITY\t0\tNONE\tNONE\t1",
+          "sha256": "c9b7b71ac2815853c3bb09a8f420e19e7b7e5c11fcdbd0f8ca5f61160a8e301a"
+        },
+        {
+          "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/src/V85_33_AUDIT_SPECS.tsv",
+          "line": 8,
+          "line_end": 8,
+          "quote": "kal#1\tREVISE\tF_AL|F_STATE\tK+AL\tRohstoffklasse I, heiß am Gradanfang\theißes Material I, Anfangsstufe\tMaterial I im heißen Anfangsansatz\tATLAS_FAMILY_CORE_CONTEXT\t8\t59\t39\tROHSTOFF+KLASSENHAUPT\tATLAS_FAMILY_INTERSECTION\tGDT656 belegt die heiße K-Startzelle mit 14 reader-exakten Atlaspositionen; die aktive Stelle traegt MATERIAL_ROLE, STATE_HOT und VALUE_GRADE.\tNur eine aktive Stelle; Ansatz ist lokale Realisierung und keine neue freie K- oder AL-Bedeutung.\tMATERIAL_IDENTITY\t0\tNONE\tNONE\t1",
+          "sha256": "c9b7b71ac2815853c3bb09a8f420e19e7b7e5c11fcdbd0f8ca5f61160a8e301a"
+        },
+        {
+          "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/src/V85_33_AUDIT_SPECS.tsv",
+          "line": 10,
+          "line_end": 10,
+          "quote": "otal#1\tREVISE\tF_AL|F_STATE|F_O\tOT+AL\tRohstoffklasse I im kalten Ansatz, Gradanfang\tMaterial I im kalten Anfangsansatz\tMaterial I im kalten Anfangsansatz\tATLAS_FAMILY_CORE\t8\t59\t39\tROHSTOFF+KLASSENHAUPT\tATLAS_FAMILY_INTERSECTION\t109 reader-exakte GDT656-Atlaspositionen tragen O-Rahmen, kalte T-Zelle und AL-I; GDT691 bestaetigt die lokale Zubereitungsrolle.\tDie aktive Stelle hat den Rivalen Kaltzubereitung; Ansatz bleibt praktische Rahmensprache, keine Identitaet.\tMATERIAL_IDENTITY|PREPARATION_HEAD\t0\tNONE\tNONE\t1",
+          "sha256": "c9b7b71ac2815853c3bb09a8f420e19e7b7e5c11fcdbd0f8ca5f61160a8e301a"
+        },
+        {
+          "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/src/V85_33_AUDIT_SPECS.tsv",
+          "line": 11,
+          "line_end": 11,
+          "quote": "qoal#1\tREVISE\tF_AL|F_REF\tQO+AL\tRohstoffklasse I\tMaterial I\tMaterial I\tATLAS_FAMILY_CORE\t8\t39\t39\tROHSTOFF+KLASSENHAUPT\tATLAS_FAMILY_INTERSECTION\tGDT656 belegt die unqualifizierte QO-AL-Zelle; die aktive Stelle traegt MATERIAL_ROLE ohne Identitaetssignal.\tSingleton; QO hat keinen festen deutschen Wortwert und der AL-Kern bleibt familiengebunden.\tMATERIAL_IDENTITY|QO_ROLE\t0\tNONE\tNONE\t1",
+          "sha256": "c9b7b71ac2815853c3bb09a8f420e19e7b7e5c11fcdbd0f8ca5f61160a8e301a"
+        },
+        {
+          "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/src/V85_33_AUDIT_SPECS.tsv",
+          "line": 12,
+          "line_end": 12,
+          "quote": "qokal#1\tREVISE\tF_AL|F_STATE|F_REF\tQOK+AL\tRohstoffklasse I, heiß am Gradanfang\theißes Material I, Anfangsstufe\tMaterial I im heißen Anfangsansatz\tATLAS_FAMILY_CORE_CONTEXT\t8\t59\t39\tROHSTOFF+KLASSENHAUPT\tATLAS_FAMILY_INTERSECTION\t158 reader-exakte GDT656-Atlaspositionen tragen die QOK-Heiß-/AL-I-Schnittmenge; die aktive Stelle zeigt Material, Hitze und Gradlage.\tNur eine aktive Stelle; QOK kann ein gelerntes Ganzwortfeld sein und QO bleibt ohne freien Wortwert.\tMATERIAL_IDENTITY|QO_ROLE\t0\tNONE\tNONE\t1",
+          "sha256": "c9b7b71ac2815853c3bb09a8f420e19e7b7e5c11fcdbd0f8ca5f61160a8e301a"
+        },
+        {
+          "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/src/V85_33_AUDIT_SPECS.tsv",
+          "line": 13,
+          "line_end": 13,
+          "quote": "shal#1\tREVISE\tF_AL|F_STATE\tSH+AL\tRohstoffklasse I, feucht am Gradanfang\tfeuchtes Material I, Anfangsstufe\tfeuchtes Material I, Anfangsstufe\tATLAS_FAMILY_CORE\t8\t59\t59\tROHSTOFF+KLASSENHAUPT\tATLAS_FAMILY_INTERSECTION\tElf reader-exakte GDT656-Atlaspositionen tragen die feuchte SH-Startzelle mit AL-I; die aktive Stelle besitzt dieselben Signale.\tNur eine aktive Stelle; Materialart und historischer Wert bleiben offen.\tMATERIAL_IDENTITY\t0\tNONE\tNONE\t1",
+          "sha256": "c9b7b71ac2815853c3bb09a8f420e19e7b7e5c11fcdbd0f8ca5f61160a8e301a"
+        },
+        {
+          "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/src/V85_33_AUDIT_SPECS.tsv",
+          "line": 14,
+          "line_end": 14,
+          "quote": "shdal#1\tREVISE\tF_AL|F_STATE\tSH+DAL\tfeuchte abgemessene Rohstoffmenge I am Gradanfang\tfeuchtes, abgemessenes Material I, Anfangsstufe\tfeuchtes, abgemessenes Material I, Anfangsstufe\tATLAS_FAMILY_CORE\t8\t59\t59\tROHSTOFF+MENGENHAUPT\tATLAS_FAMILY_INTERSECTION\tZwei aktive Positionen auf zwei Seiten sowie die akzeptierte GDT655-SH+DAL-Schwester tragen feucht, abgemessen, Material I und Anfangsstufe.\tD|AL ist nicht frei belegt; weder Materialidentitaet noch Maßeinheit ist bekannt.\tMATERIAL_IDENTITY|MEASURE_UNIT\t0\tNONE\tNONE\t1",
+          "sha256": "c9b7b71ac2815853c3bb09a8f420e19e7b7e5c11fcdbd0f8ca5f61160a8e301a"
+        },
+        {
+          "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/src/V85_33_AUDIT_SPECS.tsv",
+          "line": 15,
+          "line_end": 15,
+          "quote": "shedal#1\tREVISE\tF_AL|F_STATE\tSHE+DAL\tfeuchte abgemessene Rohstoffmenge I in der Gradmitte\tfeuchtes, abgemessenes Material I, Mittelstufe\tfeuchtes, abgemessenes Material I, Mittelstufe\tATLAS_FAMILY_CORE\t8\t59\t59\tROHSTOFF+MENGENHAUPT\tATLAS_FAMILY_INTERSECTION\tDie aktive Stelle und die akzeptierte GDT655-SHE+DAL-Schwester tragen feucht, abgemessen, Material I und Mittelstufe.\tSingleton; SHE und DAL bleiben gebundene Ganzwortfelder, Material und Einheit unidentifiziert.\tMATERIAL_IDENTITY|MEASURE_UNIT\t0\tNONE\tNONE\t1",
+          "sha256": "c9b7b71ac2815853c3bb09a8f420e19e7b7e5c11fcdbd0f8ca5f61160a8e301a"
+        },
+        {
+          "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/src/V85_33_AUDIT_SPECS.tsv",
+          "line": 16,
+          "line_end": 16,
+          "quote": "tal#1\tREVISE\tF_AL|F_STATE\tT+AL\tRohstoffklasse I, kalt am Gradanfang\tkaltes Material I, Anfangsstufe\tkaltes Material I, Anfangsstufe\tATLAS_FAMILY_CORE\t8\t59\t59\tROHSTOFF+KLASSENHAUPT\tATLAS_FAMILY_INTERSECTION\t14 reader-exakte GDT656-Atlaspositionen tragen die kalte T-Startzelle mit AL-I; die aktive Stelle besitzt dieselben Signale.\tNur eine aktive Stelle; T kann eine Qualitaet statt einer Kuehlhandlung bezeichnen, Materialart bleibt offen.\tMATERIAL_IDENTITY\t0\tNONE\tNONE\t1",
+          "sha256": "c9b7b71ac2815853c3bb09a8f420e19e7b7e5c11fcdbd0f8ca5f61160a8e301a"
+        }
+      ],
+      "source_applications": [
+        {
+          "form": "al",
+          "lexical_core": "Material I",
+          "local_realization": "Material I",
+          "evidence": {
+            "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/src/V85_33_AUDIT_SPECS.tsv",
+            "line": 2,
+            "line_end": 2,
+            "quote": "al#1\tREVISE\tF_AL\tAL\tRohstoffklasse I\tMaterial I\tMaterial I\tATLAS_FAMILY_CORE\t8\t59\t59\tROHSTOFF+KLASSENHAUPT\tATLAS_FAMILY_INTERSECTION\tDrei aktive Positionen auf drei Seiten; GDT655 belegt AL als unterste Stufe der AL/DAL-Materialleiter, und GDT684 sieht MATERIAL_ROLE ohne Identitaetssignal.\tEine freie A|L-Grenze fehlt; Materialart und historische Benennung bleiben offen.\tMATERIAL_IDENTITY\t0\tNONE\tNONE\t1",
+            "sha256": "c9b7b71ac2815853c3bb09a8f420e19e7b7e5c11fcdbd0f8ca5f61160a8e301a"
+          },
+          "counterevidence": "Eine freie A|L-Grenze fehlt; Materialart und historische Benennung bleiben offen.",
+          "open_slots": "MATERIAL_IDENTITY"
+        },
+        {
+          "form": "chal",
+          "lexical_core": "trockenes Material I, Anfangsstufe",
+          "local_realization": "trockenes Material I, Anfangsstufe",
+          "evidence": {
+            "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/src/V85_33_AUDIT_SPECS.tsv",
+            "line": 4,
+            "line_end": 4,
+            "quote": "chal#1\tREVISE\tF_AL|F_STATE\tCH+AL\tRohstoffklasse I, trocken am Gradanfang\ttrockenes Material I, Anfangsstufe\ttrockenes Material I, Anfangsstufe\tATLAS_FAMILY_CORE\t8\t59\t59\tROHSTOFF+KLASSENHAUPT\tATLAS_FAMILY_INTERSECTION\tZwei aktive Positionen sowie 35 dreifach reader-exakte GDT656-Atlaspositionen tragen die CH-Trocken-/AL-I-Schnittmenge.\tCH und AL bleiben familiengebundene Analysefelder; keine Stoffidentitaet ist bekannt.\tMATERIAL_IDENTITY\t0\tNONE\tNONE\t1",
+            "sha256": "c9b7b71ac2815853c3bb09a8f420e19e7b7e5c11fcdbd0f8ca5f61160a8e301a"
+          },
+          "counterevidence": "CH und AL bleiben familiengebundene Analysefelder; keine Stoffidentitaet ist bekannt.",
+          "open_slots": "MATERIAL_IDENTITY"
+        },
+        {
+          "form": "kal",
+          "lexical_core": "heißes Material I, Anfangsstufe",
+          "local_realization": "Material I im heißen Anfangsansatz",
+          "evidence": {
+            "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/src/V85_33_AUDIT_SPECS.tsv",
+            "line": 8,
+            "line_end": 8,
+            "quote": "kal#1\tREVISE\tF_AL|F_STATE\tK+AL\tRohstoffklasse I, heiß am Gradanfang\theißes Material I, Anfangsstufe\tMaterial I im heißen Anfangsansatz\tATLAS_FAMILY_CORE_CONTEXT\t8\t59\t39\tROHSTOFF+KLASSENHAUPT\tATLAS_FAMILY_INTERSECTION\tGDT656 belegt die heiße K-Startzelle mit 14 reader-exakten Atlaspositionen; die aktive Stelle traegt MATERIAL_ROLE, STATE_HOT und VALUE_GRADE.\tNur eine aktive Stelle; Ansatz ist lokale Realisierung und keine neue freie K- oder AL-Bedeutung.\tMATERIAL_IDENTITY\t0\tNONE\tNONE\t1",
+            "sha256": "c9b7b71ac2815853c3bb09a8f420e19e7b7e5c11fcdbd0f8ca5f61160a8e301a"
+          },
+          "counterevidence": "Nur eine aktive Stelle; Ansatz ist lokale Realisierung und keine neue freie K- oder AL-Bedeutung.",
+          "open_slots": "MATERIAL_IDENTITY"
+        },
+        {
+          "form": "otal",
+          "lexical_core": "Material I im kalten Anfangsansatz",
+          "local_realization": "Material I im kalten Anfangsansatz",
+          "evidence": {
+            "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/src/V85_33_AUDIT_SPECS.tsv",
+            "line": 10,
+            "line_end": 10,
+            "quote": "otal#1\tREVISE\tF_AL|F_STATE|F_O\tOT+AL\tRohstoffklasse I im kalten Ansatz, Gradanfang\tMaterial I im kalten Anfangsansatz\tMaterial I im kalten Anfangsansatz\tATLAS_FAMILY_CORE\t8\t59\t39\tROHSTOFF+KLASSENHAUPT\tATLAS_FAMILY_INTERSECTION\t109 reader-exakte GDT656-Atlaspositionen tragen O-Rahmen, kalte T-Zelle und AL-I; GDT691 bestaetigt die lokale Zubereitungsrolle.\tDie aktive Stelle hat den Rivalen Kaltzubereitung; Ansatz bleibt praktische Rahmensprache, keine Identitaet.\tMATERIAL_IDENTITY|PREPARATION_HEAD\t0\tNONE\tNONE\t1",
+            "sha256": "c9b7b71ac2815853c3bb09a8f420e19e7b7e5c11fcdbd0f8ca5f61160a8e301a"
+          },
+          "counterevidence": "Die aktive Stelle hat den Rivalen Kaltzubereitung; Ansatz bleibt praktische Rahmensprache, keine Identitaet.",
+          "open_slots": "MATERIAL_IDENTITY|PREPARATION_HEAD"
+        },
+        {
+          "form": "qoal",
+          "lexical_core": "Material I",
+          "local_realization": "Material I",
+          "evidence": {
+            "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/src/V85_33_AUDIT_SPECS.tsv",
+            "line": 11,
+            "line_end": 11,
+            "quote": "qoal#1\tREVISE\tF_AL|F_REF\tQO+AL\tRohstoffklasse I\tMaterial I\tMaterial I\tATLAS_FAMILY_CORE\t8\t39\t39\tROHSTOFF+KLASSENHAUPT\tATLAS_FAMILY_INTERSECTION\tGDT656 belegt die unqualifizierte QO-AL-Zelle; die aktive Stelle traegt MATERIAL_ROLE ohne Identitaetssignal.\tSingleton; QO hat keinen festen deutschen Wortwert und der AL-Kern bleibt familiengebunden.\tMATERIAL_IDENTITY|QO_ROLE\t0\tNONE\tNONE\t1",
+            "sha256": "c9b7b71ac2815853c3bb09a8f420e19e7b7e5c11fcdbd0f8ca5f61160a8e301a"
+          },
+          "counterevidence": "Singleton; QO hat keinen festen deutschen Wortwert und der AL-Kern bleibt familiengebunden.",
+          "open_slots": "MATERIAL_IDENTITY|QO_ROLE"
+        },
+        {
+          "form": "qokal",
+          "lexical_core": "heißes Material I, Anfangsstufe",
+          "local_realization": "Material I im heißen Anfangsansatz",
+          "evidence": {
+            "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/src/V85_33_AUDIT_SPECS.tsv",
+            "line": 12,
+            "line_end": 12,
+            "quote": "qokal#1\tREVISE\tF_AL|F_STATE|F_REF\tQOK+AL\tRohstoffklasse I, heiß am Gradanfang\theißes Material I, Anfangsstufe\tMaterial I im heißen Anfangsansatz\tATLAS_FAMILY_CORE_CONTEXT\t8\t59\t39\tROHSTOFF+KLASSENHAUPT\tATLAS_FAMILY_INTERSECTION\t158 reader-exakte GDT656-Atlaspositionen tragen die QOK-Heiß-/AL-I-Schnittmenge; die aktive Stelle zeigt Material, Hitze und Gradlage.\tNur eine aktive Stelle; QOK kann ein gelerntes Ganzwortfeld sein und QO bleibt ohne freien Wortwert.\tMATERIAL_IDENTITY|QO_ROLE\t0\tNONE\tNONE\t1",
+            "sha256": "c9b7b71ac2815853c3bb09a8f420e19e7b7e5c11fcdbd0f8ca5f61160a8e301a"
+          },
+          "counterevidence": "Nur eine aktive Stelle; QOK kann ein gelerntes Ganzwortfeld sein und QO bleibt ohne freien Wortwert.",
+          "open_slots": "MATERIAL_IDENTITY|QO_ROLE"
+        },
+        {
+          "form": "shal",
+          "lexical_core": "feuchtes Material I, Anfangsstufe",
+          "local_realization": "feuchtes Material I, Anfangsstufe",
+          "evidence": {
+            "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/src/V85_33_AUDIT_SPECS.tsv",
+            "line": 13,
+            "line_end": 13,
+            "quote": "shal#1\tREVISE\tF_AL|F_STATE\tSH+AL\tRohstoffklasse I, feucht am Gradanfang\tfeuchtes Material I, Anfangsstufe\tfeuchtes Material I, Anfangsstufe\tATLAS_FAMILY_CORE\t8\t59\t59\tROHSTOFF+KLASSENHAUPT\tATLAS_FAMILY_INTERSECTION\tElf reader-exakte GDT656-Atlaspositionen tragen die feuchte SH-Startzelle mit AL-I; die aktive Stelle besitzt dieselben Signale.\tNur eine aktive Stelle; Materialart und historischer Wert bleiben offen.\tMATERIAL_IDENTITY\t0\tNONE\tNONE\t1",
+            "sha256": "c9b7b71ac2815853c3bb09a8f420e19e7b7e5c11fcdbd0f8ca5f61160a8e301a"
+          },
+          "counterevidence": "Nur eine aktive Stelle; Materialart und historischer Wert bleiben offen.",
+          "open_slots": "MATERIAL_IDENTITY"
+        },
+        {
+          "form": "shdal",
+          "lexical_core": "feuchtes, abgemessenes Material I, Anfangsstufe",
+          "local_realization": "feuchtes, abgemessenes Material I, Anfangsstufe",
+          "evidence": {
+            "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/src/V85_33_AUDIT_SPECS.tsv",
+            "line": 14,
+            "line_end": 14,
+            "quote": "shdal#1\tREVISE\tF_AL|F_STATE\tSH+DAL\tfeuchte abgemessene Rohstoffmenge I am Gradanfang\tfeuchtes, abgemessenes Material I, Anfangsstufe\tfeuchtes, abgemessenes Material I, Anfangsstufe\tATLAS_FAMILY_CORE\t8\t59\t59\tROHSTOFF+MENGENHAUPT\tATLAS_FAMILY_INTERSECTION\tZwei aktive Positionen auf zwei Seiten sowie die akzeptierte GDT655-SH+DAL-Schwester tragen feucht, abgemessen, Material I und Anfangsstufe.\tD|AL ist nicht frei belegt; weder Materialidentitaet noch Maßeinheit ist bekannt.\tMATERIAL_IDENTITY|MEASURE_UNIT\t0\tNONE\tNONE\t1",
+            "sha256": "c9b7b71ac2815853c3bb09a8f420e19e7b7e5c11fcdbd0f8ca5f61160a8e301a"
+          },
+          "counterevidence": "D|AL ist nicht frei belegt; weder Materialidentitaet noch Maßeinheit ist bekannt.",
+          "open_slots": "MATERIAL_IDENTITY|MEASURE_UNIT"
+        },
+        {
+          "form": "shedal",
+          "lexical_core": "feuchtes, abgemessenes Material I, Mittelstufe",
+          "local_realization": "feuchtes, abgemessenes Material I, Mittelstufe",
+          "evidence": {
+            "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/src/V85_33_AUDIT_SPECS.tsv",
+            "line": 15,
+            "line_end": 15,
+            "quote": "shedal#1\tREVISE\tF_AL|F_STATE\tSHE+DAL\tfeuchte abgemessene Rohstoffmenge I in der Gradmitte\tfeuchtes, abgemessenes Material I, Mittelstufe\tfeuchtes, abgemessenes Material I, Mittelstufe\tATLAS_FAMILY_CORE\t8\t59\t59\tROHSTOFF+MENGENHAUPT\tATLAS_FAMILY_INTERSECTION\tDie aktive Stelle und die akzeptierte GDT655-SHE+DAL-Schwester tragen feucht, abgemessen, Material I und Mittelstufe.\tSingleton; SHE und DAL bleiben gebundene Ganzwortfelder, Material und Einheit unidentifiziert.\tMATERIAL_IDENTITY|MEASURE_UNIT\t0\tNONE\tNONE\t1",
+            "sha256": "c9b7b71ac2815853c3bb09a8f420e19e7b7e5c11fcdbd0f8ca5f61160a8e301a"
+          },
+          "counterevidence": "Singleton; SHE und DAL bleiben gebundene Ganzwortfelder, Material und Einheit unidentifiziert.",
+          "open_slots": "MATERIAL_IDENTITY|MEASURE_UNIT"
+        },
+        {
+          "form": "tal",
+          "lexical_core": "kaltes Material I, Anfangsstufe",
+          "local_realization": "kaltes Material I, Anfangsstufe",
+          "evidence": {
+            "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/src/V85_33_AUDIT_SPECS.tsv",
+            "line": 16,
+            "line_end": 16,
+            "quote": "tal#1\tREVISE\tF_AL|F_STATE\tT+AL\tRohstoffklasse I, kalt am Gradanfang\tkaltes Material I, Anfangsstufe\tkaltes Material I, Anfangsstufe\tATLAS_FAMILY_CORE\t8\t59\t59\tROHSTOFF+KLASSENHAUPT\tATLAS_FAMILY_INTERSECTION\t14 reader-exakte GDT656-Atlaspositionen tragen die kalte T-Startzelle mit AL-I; die aktive Stelle besitzt dieselben Signale.\tNur eine aktive Stelle; T kann eine Qualitaet statt einer Kuehlhandlung bezeichnen, Materialart bleibt offen.\tMATERIAL_IDENTITY\t0\tNONE\tNONE\t1",
+            "sha256": "c9b7b71ac2815853c3bb09a8f420e19e7b7e5c11fcdbd0f8ca5f61160a8e301a"
+          },
+          "counterevidence": "Nur eine aktive Stelle; T kann eine Qualitaet statt einer Kuehlhandlung bezeichnen, Materialart bleibt offen.",
+          "open_slots": "MATERIAL_IDENTITY"
+        }
+      ],
+      "scope": "GDT712 exact historical wholeform/family model; local realization and lexical scope remain distinct.",
+      "source_polarity": "historical_model_revision_not_independent_meaning_confirmation"
+    },
+    {
+      "id": "CLEAN_GAP_ML:CHEOP_OL",
+      "claim": "GDT712 retains the GDT683 local cheop ol construction at f115r.1#5–6: cheop is LEFT and bound ol#2 is RIGHT, jointly rendered once as bis zur Mittelstufe getrockneter Pulverstoff. The components have no global export from this span; free ol#1 is unchanged. This two-group local reading differs from GDT681 cheop alone as Pulveransatz; agreement of alternate readings on the compound is not independent confirmation of the powder or drying meaning.",
+      "claim_type": "functional_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:868b50fd09e42c95fb46"
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scientific_test_ready": false,
+      "independent_new_idea": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/REPORT.md",
+          "line": 15,
+          "line_end": 15,
+          "quote": "Die einzige `cheop`-Position ist nach beiden Alternativlesern die linke Haelfte von `cheop ol`. V85 markiert deshalb f115r.1#5 als `G683_CHEOP_OL LEFT`; das bereits gebundene `ol#2` bleibt RIGHT. Der lokale Span rendert einmal als `bis zur Mittelstufe getrockneter Pulverstoff`, beide Komponenten sind nicht global exportierbar. Freies `ol#1` bleibt unveraendert.",
+          "sha256": "2e4caf2703707c57922316903b68fea67eb4e58e0f9678bc0e22859a0af9811e"
+        },
+        {
+          "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/REPORT.md",
+          "line": 28,
+          "line_end": 28,
+          "quote": "Das ist die konkrete Arbeitsuebersetzung des aktuellen Modells, kein bestaetigter Klartext. Confidence bleibt ein interner Evidenzindex, keine Wahrscheinlichkeit. Keine Komponente wird als freies Voynich-Wort exportiert; alle historischen Felder bleiben `H0_NONE`. Es wurden keine neue Seite, kein Bild, keine neue Transkription, kein `f84` und kein `f84r` benutzt.",
+          "sha256": "2e4caf2703707c57922316903b68fea67eb4e58e0f9678bc0e22859a0af9811e"
+        },
+        {
+          "path": "experiments/yolo/gdt683_ol_semantic_debt_reconciliation/REPORT.md",
+          "line": 59,
+          "line_end": 67,
+          "quote": "## Die sechs V57-Korrekturen\n\n| Locus | Entscheidung | konkrete Lesung |\n|---|---|---|\n| f112r.36#2 | bilateral freies `ol` | Grundansatz |\n| f115r.1#6 | gebundenes `cheopol` | bis zur Mittelstufe getrockneter Pulverstoff |\n| f80r.17#8 | Mehrheitsdefault; RF1b liest `l` | Grundansatz; `Pfund/Gewichtseinheit` bleibt Rivale |\n| f80v.35#9 | bilateral freies `ol` | Grundansatz im nominalen Ergebnisregister |\n| f86v5.2#9 | bilateral freies `ol` | Grundansatz vor dem leserunsicheren Abkühlbefehl |",
+          "sha256": "09b1289942202bc1d43ac0b35e20e2cdf7d57c515fb6454906b081b9ad8febe3"
+        },
+        {
+          "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/src/V85_33_AUDIT_SPECS.tsv",
+          "line": 18,
+          "line_end": 18,
+          "quote": "cheop#1\tREVISE\tNONE\tCHEOP_EXACT_WHOLE\tbis zur Mittelstufe getrocknet\ttrocken, Mittelstufe\tbis zur Mittelstufe getrockneter Pulverstoff\tBOUND_COMPOUND_CORE_CONTEXT\t0\t39\t39\tACTIVE_PROCESS_WORDING\tBOUND_COMPOUND_REPAIR\tGDT684 traegt STATE_DRY und VALUE_GRADE; IT2a und RF1b binden diese einzige Stelle laut GDT683 mit dem folgenden ol zu cheop ol.\tOP besitzt keinen freien Wert; die Ganzform ist nur als linke Compoundkomponente beobachtet.\tPATIENT|OP_VALUE\t0\tG683_CHEOP_OL\tLEFT\t0",
+          "sha256": "c9b7b71ac2815853c3bb09a8f420e19e7b7e5c11fcdbd0f8ca5f61160a8e301a"
+        }
+      ],
+      "source_applications": [
+        {
+          "form": "cheop",
+          "lexical_core": "trocken, Mittelstufe",
+          "local_realization": "bis zur Mittelstufe getrockneter Pulverstoff",
+          "evidence": {
+            "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/src/V85_33_AUDIT_SPECS.tsv",
+            "line": 18,
+            "line_end": 18,
+            "quote": "cheop#1\tREVISE\tNONE\tCHEOP_EXACT_WHOLE\tbis zur Mittelstufe getrocknet\ttrocken, Mittelstufe\tbis zur Mittelstufe getrockneter Pulverstoff\tBOUND_COMPOUND_CORE_CONTEXT\t0\t39\t39\tACTIVE_PROCESS_WORDING\tBOUND_COMPOUND_REPAIR\tGDT684 traegt STATE_DRY und VALUE_GRADE; IT2a und RF1b binden diese einzige Stelle laut GDT683 mit dem folgenden ol zu cheop ol.\tOP besitzt keinen freien Wert; die Ganzform ist nur als linke Compoundkomponente beobachtet.\tPATIENT|OP_VALUE\t0\tG683_CHEOP_OL\tLEFT\t0",
+            "sha256": "c9b7b71ac2815853c3bb09a8f420e19e7b7e5c11fcdbd0f8ca5f61160a8e301a"
+          },
+          "counterevidence": "OP besitzt keinen freien Wert; die Ganzform ist nur als linke Compoundkomponente beobachtet.",
+          "open_slots": "PATIENT|OP_VALUE"
+        }
+      ],
+      "scope": "GDT712 exact historical wholeform/family model; local realization and lexical scope remain distinct.",
+      "source_polarity": "historical_model_revision_not_independent_meaning_confirmation"
+    },
+    {
+      "id": "CLEAN_GAP_ML:CKH_CPH_FAMILY",
+      "claim": "GDT713 assigns checkhy, cheockhy, ckhy, cphochy, cphy and sheckhy the learned whole-family head Mischung instead of Arznei. Dry/moist and beginning/base fields remain in the six complete forms; E_ATTR and O_PREP are structural metadata, and Ansatz belongs only to licensed local realizations. CPH is not silently normalized to CKH. This historical bounded family proposal does not identify a medicine, a mixing action or a free component meaning.",
+      "claim_type": "semantic_model",
+      "member_ids": [
+        "LEGACY_COMPONENT:8565fc515dc17943aab2"
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scientific_test_ready": false,
+      "independent_new_idea": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/REPORT.md",
+          "line": 7,
+          "line_end": 17,
+          "quote": "V86 auditiert die tatsaechlich noch offenen drei Massformen und sechs\nCKH/CPH-Formen: neun Lesungen an zehn unveraenderten Positionen auf sieben\nbereits zugelassenen Seiten. Acht Wortkerne werden repariert; `dol =\nMaterialmaß` bleibt als bereits kleinster sinnvoller Kern stehen und gewinnt\nnur den expliziten D+OL-Ganzformbeleg hinzu.\n\nDie sechs CKH/CPH-Ganzformen tragen jetzt den gelernten Familienkopf\n`Mischung`, nie `Arznei`. Sichtbare Trocken-/Feucht- und Grund-/Anfangsfelder\nbleiben erhalten. E_ATTR und O_PREP bleiben Strukturmetadaten; sie werden nicht\nzu freien deutschen Woertern. Wo der O-Rahmen lokal praktisch lesbar ist,\nsteht `Ansatz` nur in der Fundstellenrealisierung.",
+          "sha256": "1fd5ab1bb30ac01e5cb5bfbff1462e52ba631d4c493b5aa8c4365c5a6fe4b71d"
+        },
+        {
+          "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/REPORT.md",
+          "line": 43,
+          "line_end": 48,
+          "quote": "\nDas ist die konkrete Arbeitsuebersetzung des aktuellen Modells, kein\nbestaetigter Klartext. Confidence bleibt ein interner Evidenzindex, keine\nWahrscheinlichkeit. Keine Komponente wird als freies Voynich-Wort exportiert;\nalle historischen Felder bleiben `H0_NONE`. Es wurden keine neue Seite, kein\nBild, keine neue Transkription, kein `f84` und kein `f84r` benutzt.",
+          "sha256": "1fd5ab1bb30ac01e5cb5bfbff1462e52ba631d4c493b5aa8c4365c5a6fe4b71d"
+        },
+        {
+          "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/src/V86_9_AUDIT_SPECS.tsv",
+          "line": 2,
+          "line_end": 2,
+          "quote": "checkhy#1\tREVISE\tF_CKH|F_STATE|F_STAGE\tCH+E_ATTR+CKH+Y\ttrockenes Arzneikompositum am Gradanfang\ttrockene Mischung, Anfangsstufe\ttrockene Mischung, Anfangsstufe\tLEARNED_HEAD_COMPRESSION\t14\t49\t49\tUNSUPPORTED_DRUG_IDENTITY\tEXACT_FAMILY_CORE\tGDT651 belegt die exakte trockene CKH-Schwesterzelle und die Anfangsstufe; die aktive Stelle ist nominal und ohne Identitaetssignal.\tE_ATTR hat keine bekannte lexikalische Bedeutung; Mischung bleibt ein gelernter Familienkopf und keine freie CKH-Uebersetzung.\tMIXTURE_IDENTITY|E_ATTR_VALUE\t0\tNONE\tNONE\t1",
+          "sha256": "74847fbf49b3f028382393c1349dc99be3d77f7251351df79feceec2a489b7a6"
+        },
+        {
+          "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/src/V86_9_AUDIT_SPECS.tsv",
+          "line": 3,
+          "line_end": 3,
+          "quote": "cheockhy#1\tREVISE\tF_CKH|F_STATE|F_O|F_STAGE\tCH+E_ATTR+O_PREP+CKH+Y\ttrocken angesetztes Arzneikompositum am Gradanfang\ttrockene Mischung, Anfangsstufe\ttrocken angesetzte Mischung, Anfangsstufe\tLEARNED_HEAD_CORE_CONTEXT_SPLIT\t14\t49\t45\tUNSUPPORTED_DRUG_IDENTITY\tEXACT_FAMILY_CORE\tGDT652 belegt die exakte CH-E-O-CKH-Y-Familie; trocken, CKH-Mischkopf und Anfangsstufe sind sichtbar, waehrend der O-Rahmen nur lokal als angesetzt realisiert wird.\tE_ATTR und O_PREP sind Strukturfelder ohne freie deutsche Wortwerte; nur eine aktive Position und keine Aktionslizenz.\tMIXTURE_IDENTITY|E_ATTR_VALUE|O_PREP_VALUE\t0\tNONE\tNONE\t1",
+          "sha256": "74847fbf49b3f028382393c1349dc99be3d77f7251351df79feceec2a489b7a6"
+        },
+        {
+          "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/src/V86_9_AUDIT_SPECS.tsv",
+          "line": 4,
+          "line_end": 4,
+          "quote": "ckhy#1\tREVISE\tF_CKH|F_STAGE\tCKH+Y\tArzneikompositum am Gradanfang\tMischung, Anfangsstufe\tMischung, Anfangsstufe\tLEARNED_HEAD_COMPRESSION\t14\t49\t49\tUNSUPPORTED_DRUG_IDENTITY\tEXACT_FAMILY_CORE\tGDT652 auditiert 34 CKHY-Vorkommen und stuetzt den neutralen CKH-Mischkopf mit terminaler Anfangsstufe; die aktive Stelle ist nominal.\tCKH ist nicht frei als Mischung exportierbar, und Y kann ausserhalb dieser Ganzwortfamilie andere Rollen tragen.\tMIXTURE_IDENTITY|Y_STAGE_SCOPE\t0\tNONE\tNONE\t1",
+          "sha256": "74847fbf49b3f028382393c1349dc99be3d77f7251351df79feceec2a489b7a6"
+        },
+        {
+          "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/src/V86_9_AUDIT_SPECS.tsv",
+          "line": 5,
+          "line_end": 5,
+          "quote": "cphochy#1\tREVISE\tF_CKH|F_O|F_STATE|F_STAGE\tCPH+O_PREP+CH+Y\tleicht angetrocknetes Arzneikompositum im Ansatz\ttrockene Mischung, Grundstufe\ttrockene Mischung im Ansatz, Grundstufe\tLEARNED_HEAD_CORE_CONTEXT_SPLIT\t14\t49\t45\tUNSUPPORTED_DRUG_IDENTITY|UNSUPPORTED_DRY_SUBDEGREE\tEXACT_FAMILY_CORE\tGDT681 traegt die exakte nominale CPH-O-CH-Y-Familie: Mischkopf, Trockenmerkmal und Grundstufe bleiben erhalten; O wird nur lokal als Ansatzrahmen realisiert.\tNur eine aktive Zielposition; leicht, eine Trocknungshandlung und eine Arzneiidentitaet sind nicht separat signalisiert; CPH wird nicht stillschweigend zu CKH normalisiert.\tMIXTURE_IDENTITY|O_PREP_VALUE|CPH_CKH_RELATION\t0\tNONE\tNONE\t1",
+          "sha256": "74847fbf49b3f028382393c1349dc99be3d77f7251351df79feceec2a489b7a6"
+        },
+        {
+          "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/src/V86_9_AUDIT_SPECS.tsv",
+          "line": 6,
+          "line_end": 6,
+          "quote": "cphy#1\tREVISE\tF_CKH|F_STAGE\tCPH+Y\tArzneikompositum in Grundform\tMischung, Grundform\tMischung, Grundform\tLEARNED_HEAD_COMPRESSION\t14\t49\t49\tUNSUPPORTED_DRUG_IDENTITY\tEXACT_FAMILY_CORE\tGDT670 belegt neun CPHY-Ganzformen; die aktive nominale Stelle traegt den CPH-Mischkopf und die Grundform ohne Aktionslizenz.\tY kann in anderen Umgebungen Anfang oder Abschluss markieren; Mischung ist nur die gelernte exakte Familienlesung.\tMIXTURE_IDENTITY|Y_BASE_OR_CLOSE\t0\tNONE\tNONE\t1",
+          "sha256": "74847fbf49b3f028382393c1349dc99be3d77f7251351df79feceec2a489b7a6"
+        },
+        {
+          "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/src/V86_9_AUDIT_SPECS.tsv",
+          "line": 10,
+          "line_end": 10,
+          "quote": "sheckhy#1\tREVISE\tF_CKH|F_STATE|F_STAGE\tSH+E_ATTR+CKH+Y\tfeuchtes Arzneikompositum am Gradanfang\tfeuchte Mischung, Anfangsstufe\tfeuchte Mischung, Anfangsstufe\tLEARNED_HEAD_COMPRESSION\t14\t49\t49\tUNSUPPORTED_DRUG_IDENTITY\tEXACT_FAMILY_CORE\tGDT651 belegt die exakte feuchte CKH-Schwesterzelle und Anfangsstufe; die bereits reparierte Schwester SHCKHY traegt denselben kompakten Kern.\tE_ATTR hat keine bekannte lexikalische Bedeutung; Mischung bleibt familiengebunden und die aktive Auswahl hat nur eine Position.\tMIXTURE_IDENTITY|E_ATTR_VALUE\t0\tNONE\tNONE\t1",
+          "sha256": "74847fbf49b3f028382393c1349dc99be3d77f7251351df79feceec2a489b7a6"
+        }
+      ],
+      "source_applications": [
+        {
+          "form": "checkhy",
+          "lexical_core": "trockene Mischung, Anfangsstufe",
+          "local_realization": "trockene Mischung, Anfangsstufe",
+          "evidence": {
+            "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/src/V86_9_AUDIT_SPECS.tsv",
+            "line": 2,
+            "line_end": 2,
+            "quote": "checkhy#1\tREVISE\tF_CKH|F_STATE|F_STAGE\tCH+E_ATTR+CKH+Y\ttrockenes Arzneikompositum am Gradanfang\ttrockene Mischung, Anfangsstufe\ttrockene Mischung, Anfangsstufe\tLEARNED_HEAD_COMPRESSION\t14\t49\t49\tUNSUPPORTED_DRUG_IDENTITY\tEXACT_FAMILY_CORE\tGDT651 belegt die exakte trockene CKH-Schwesterzelle und die Anfangsstufe; die aktive Stelle ist nominal und ohne Identitaetssignal.\tE_ATTR hat keine bekannte lexikalische Bedeutung; Mischung bleibt ein gelernter Familienkopf und keine freie CKH-Uebersetzung.\tMIXTURE_IDENTITY|E_ATTR_VALUE\t0\tNONE\tNONE\t1",
+            "sha256": "74847fbf49b3f028382393c1349dc99be3d77f7251351df79feceec2a489b7a6"
+          },
+          "counterevidence": "E_ATTR hat keine bekannte lexikalische Bedeutung; Mischung bleibt ein gelernter Familienkopf und keine freie CKH-Uebersetzung.",
+          "open_slots": "MIXTURE_IDENTITY|E_ATTR_VALUE"
+        },
+        {
+          "form": "cheockhy",
+          "lexical_core": "trockene Mischung, Anfangsstufe",
+          "local_realization": "trocken angesetzte Mischung, Anfangsstufe",
+          "evidence": {
+            "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/src/V86_9_AUDIT_SPECS.tsv",
+            "line": 3,
+            "line_end": 3,
+            "quote": "cheockhy#1\tREVISE\tF_CKH|F_STATE|F_O|F_STAGE\tCH+E_ATTR+O_PREP+CKH+Y\ttrocken angesetztes Arzneikompositum am Gradanfang\ttrockene Mischung, Anfangsstufe\ttrocken angesetzte Mischung, Anfangsstufe\tLEARNED_HEAD_CORE_CONTEXT_SPLIT\t14\t49\t45\tUNSUPPORTED_DRUG_IDENTITY\tEXACT_FAMILY_CORE\tGDT652 belegt die exakte CH-E-O-CKH-Y-Familie; trocken, CKH-Mischkopf und Anfangsstufe sind sichtbar, waehrend der O-Rahmen nur lokal als angesetzt realisiert wird.\tE_ATTR und O_PREP sind Strukturfelder ohne freie deutsche Wortwerte; nur eine aktive Position und keine Aktionslizenz.\tMIXTURE_IDENTITY|E_ATTR_VALUE|O_PREP_VALUE\t0\tNONE\tNONE\t1",
+            "sha256": "74847fbf49b3f028382393c1349dc99be3d77f7251351df79feceec2a489b7a6"
+          },
+          "counterevidence": "E_ATTR und O_PREP sind Strukturfelder ohne freie deutsche Wortwerte; nur eine aktive Position und keine Aktionslizenz.",
+          "open_slots": "MIXTURE_IDENTITY|E_ATTR_VALUE|O_PREP_VALUE"
+        },
+        {
+          "form": "ckhy",
+          "lexical_core": "Mischung, Anfangsstufe",
+          "local_realization": "Mischung, Anfangsstufe",
+          "evidence": {
+            "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/src/V86_9_AUDIT_SPECS.tsv",
+            "line": 4,
+            "line_end": 4,
+            "quote": "ckhy#1\tREVISE\tF_CKH|F_STAGE\tCKH+Y\tArzneikompositum am Gradanfang\tMischung, Anfangsstufe\tMischung, Anfangsstufe\tLEARNED_HEAD_COMPRESSION\t14\t49\t49\tUNSUPPORTED_DRUG_IDENTITY\tEXACT_FAMILY_CORE\tGDT652 auditiert 34 CKHY-Vorkommen und stuetzt den neutralen CKH-Mischkopf mit terminaler Anfangsstufe; die aktive Stelle ist nominal.\tCKH ist nicht frei als Mischung exportierbar, und Y kann ausserhalb dieser Ganzwortfamilie andere Rollen tragen.\tMIXTURE_IDENTITY|Y_STAGE_SCOPE\t0\tNONE\tNONE\t1",
+            "sha256": "74847fbf49b3f028382393c1349dc99be3d77f7251351df79feceec2a489b7a6"
+          },
+          "counterevidence": "CKH ist nicht frei als Mischung exportierbar, und Y kann ausserhalb dieser Ganzwortfamilie andere Rollen tragen.",
+          "open_slots": "MIXTURE_IDENTITY|Y_STAGE_SCOPE"
+        },
+        {
+          "form": "cphochy",
+          "lexical_core": "trockene Mischung, Grundstufe",
+          "local_realization": "trockene Mischung im Ansatz, Grundstufe",
+          "evidence": {
+            "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/src/V86_9_AUDIT_SPECS.tsv",
+            "line": 5,
+            "line_end": 5,
+            "quote": "cphochy#1\tREVISE\tF_CKH|F_O|F_STATE|F_STAGE\tCPH+O_PREP+CH+Y\tleicht angetrocknetes Arzneikompositum im Ansatz\ttrockene Mischung, Grundstufe\ttrockene Mischung im Ansatz, Grundstufe\tLEARNED_HEAD_CORE_CONTEXT_SPLIT\t14\t49\t45\tUNSUPPORTED_DRUG_IDENTITY|UNSUPPORTED_DRY_SUBDEGREE\tEXACT_FAMILY_CORE\tGDT681 traegt die exakte nominale CPH-O-CH-Y-Familie: Mischkopf, Trockenmerkmal und Grundstufe bleiben erhalten; O wird nur lokal als Ansatzrahmen realisiert.\tNur eine aktive Zielposition; leicht, eine Trocknungshandlung und eine Arzneiidentitaet sind nicht separat signalisiert; CPH wird nicht stillschweigend zu CKH normalisiert.\tMIXTURE_IDENTITY|O_PREP_VALUE|CPH_CKH_RELATION\t0\tNONE\tNONE\t1",
+            "sha256": "74847fbf49b3f028382393c1349dc99be3d77f7251351df79feceec2a489b7a6"
+          },
+          "counterevidence": "Nur eine aktive Zielposition; leicht, eine Trocknungshandlung und eine Arzneiidentitaet sind nicht separat signalisiert; CPH wird nicht stillschweigend zu CKH normalisiert.",
+          "open_slots": "MIXTURE_IDENTITY|O_PREP_VALUE|CPH_CKH_RELATION"
+        },
+        {
+          "form": "cphy",
+          "lexical_core": "Mischung, Grundform",
+          "local_realization": "Mischung, Grundform",
+          "evidence": {
+            "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/src/V86_9_AUDIT_SPECS.tsv",
+            "line": 6,
+            "line_end": 6,
+            "quote": "cphy#1\tREVISE\tF_CKH|F_STAGE\tCPH+Y\tArzneikompositum in Grundform\tMischung, Grundform\tMischung, Grundform\tLEARNED_HEAD_COMPRESSION\t14\t49\t49\tUNSUPPORTED_DRUG_IDENTITY\tEXACT_FAMILY_CORE\tGDT670 belegt neun CPHY-Ganzformen; die aktive nominale Stelle traegt den CPH-Mischkopf und die Grundform ohne Aktionslizenz.\tY kann in anderen Umgebungen Anfang oder Abschluss markieren; Mischung ist nur die gelernte exakte Familienlesung.\tMIXTURE_IDENTITY|Y_BASE_OR_CLOSE\t0\tNONE\tNONE\t1",
+            "sha256": "74847fbf49b3f028382393c1349dc99be3d77f7251351df79feceec2a489b7a6"
+          },
+          "counterevidence": "Y kann in anderen Umgebungen Anfang oder Abschluss markieren; Mischung ist nur die gelernte exakte Familienlesung.",
+          "open_slots": "MIXTURE_IDENTITY|Y_BASE_OR_CLOSE"
+        },
+        {
+          "form": "sheckhy",
+          "lexical_core": "feuchte Mischung, Anfangsstufe",
+          "local_realization": "feuchte Mischung, Anfangsstufe",
+          "evidence": {
+            "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/src/V86_9_AUDIT_SPECS.tsv",
+            "line": 10,
+            "line_end": 10,
+            "quote": "sheckhy#1\tREVISE\tF_CKH|F_STATE|F_STAGE\tSH+E_ATTR+CKH+Y\tfeuchtes Arzneikompositum am Gradanfang\tfeuchte Mischung, Anfangsstufe\tfeuchte Mischung, Anfangsstufe\tLEARNED_HEAD_COMPRESSION\t14\t49\t49\tUNSUPPORTED_DRUG_IDENTITY\tEXACT_FAMILY_CORE\tGDT651 belegt die exakte feuchte CKH-Schwesterzelle und Anfangsstufe; die bereits reparierte Schwester SHCKHY traegt denselben kompakten Kern.\tE_ATTR hat keine bekannte lexikalische Bedeutung; Mischung bleibt familiengebunden und die aktive Auswahl hat nur eine Position.\tMIXTURE_IDENTITY|E_ATTR_VALUE\t0\tNONE\tNONE\t1",
+            "sha256": "74847fbf49b3f028382393c1349dc99be3d77f7251351df79feceec2a489b7a6"
+          },
+          "counterevidence": "E_ATTR hat keine bekannte lexikalische Bedeutung; Mischung bleibt familiengebunden und die aktive Auswahl hat nur eine Position.",
+          "open_slots": "MIXTURE_IDENTITY|E_ATTR_VALUE"
+        }
+      ],
+      "scope": "GDT713 exact historical wholeform/family model; local realization and lexical scope remain distinct.",
+      "source_polarity": "historical_model_revision_not_independent_meaning_confirmation"
+    },
+    {
+      "id": "CLEAN_GAP_ML:ORAM_CORE",
+      "claim": "GDT713 reduces the lexical core of oram to Maßportion, expressly removing the preparation head and lexicalized article from the earlier eine Maßportion Ansatz reading. The active local realization is eine Maßportion, with content and historical unit open; OR+AM versus O+R+AM is unresolved. This narrower core is a historical hypothesis, not an independently identified measure or a rewrite of the older full meaning.",
+      "claim_type": "lexical_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:8565fc515dc17943aab2"
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scientific_test_ready": false,
+      "independent_new_idea": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/REPORT.md",
+          "line": 19,
+          "line_end": 23,
+          "quote": "Bei den Massformen wird `oram` zu `Maßportion` verdichtet; der unbelegte\nAnsatzkopf und der lexikalisierte Artikel verschwinden aus dem Wortkern.\n`otam` traegt als Kern `kalt; Maß I` und rendert an beiden benachbarten Stellen\nweiter konkret als `ein Maß kalten Ansatzes`. Inhalt und historische Einheit\nbleiben offene Slots, nicht erfundene Substantive.",
+          "sha256": "1fd5ab1bb30ac01e5cb5bfbff1462e52ba631d4c493b5aa8c4365c5a6fe4b71d"
+        },
+        {
+          "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/REPORT.md",
+          "line": 43,
+          "line_end": 48,
+          "quote": "\nDas ist die konkrete Arbeitsuebersetzung des aktuellen Modells, kein\nbestaetigter Klartext. Confidence bleibt ein interner Evidenzindex, keine\nWahrscheinlichkeit. Keine Komponente wird als freies Voynich-Wort exportiert;\nalle historischen Felder bleiben `H0_NONE`. Es wurden keine neue Seite, kein\nBild, keine neue Transkription, kein `f84` und kein `f84r` benutzt.",
+          "sha256": "1fd5ab1bb30ac01e5cb5bfbff1462e52ba631d4c493b5aa8c4365c5a6fe4b71d"
+        },
+        {
+          "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/src/V86_9_AUDIT_SPECS.tsv",
+          "line": 8,
+          "line_end": 8,
+          "quote": "oram#1\tREVISE\tF_OR|F_AM\tOR+AM\teine Maßportion Ansatz\tMaßportion\teine Maßportion\tEXACT_FAMILY_CORE_CONTEXT_SPLIT\t14\t49\t49\tUNSUPPORTED_PREPARATION_HEAD|LEXICALIZED_ARTICLE\tEXACT_FAMILY_CORE\tGDT681 deklariert OR+AM als produktive Portion-plus-Mass-I-Ganzwortfamilie; die aktive Stelle traegt Material- und Mengensignale.\tNur eine aktive Position; eine O+R+AM-Rivalensegmentierung bleibt offen, und weder Inhalt noch historische Einheit sind identifiziert.\tPORTION_CONTENT|MEASURE_UNIT|OR_AM_VS_O_R_AM\t0\tNONE\tNONE\t1",
+          "sha256": "74847fbf49b3f028382393c1349dc99be3d77f7251351df79feceec2a489b7a6"
+        }
+      ],
+      "source_applications": [
+        {
+          "form": "oram",
+          "lexical_core": "Maßportion",
+          "local_realization": "eine Maßportion",
+          "evidence": {
+            "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/src/V86_9_AUDIT_SPECS.tsv",
+            "line": 8,
+            "line_end": 8,
+            "quote": "oram#1\tREVISE\tF_OR|F_AM\tOR+AM\teine Maßportion Ansatz\tMaßportion\teine Maßportion\tEXACT_FAMILY_CORE_CONTEXT_SPLIT\t14\t49\t49\tUNSUPPORTED_PREPARATION_HEAD|LEXICALIZED_ARTICLE\tEXACT_FAMILY_CORE\tGDT681 deklariert OR+AM als produktive Portion-plus-Mass-I-Ganzwortfamilie; die aktive Stelle traegt Material- und Mengensignale.\tNur eine aktive Position; eine O+R+AM-Rivalensegmentierung bleibt offen, und weder Inhalt noch historische Einheit sind identifiziert.\tPORTION_CONTENT|MEASURE_UNIT|OR_AM_VS_O_R_AM\t0\tNONE\tNONE\t1",
+            "sha256": "74847fbf49b3f028382393c1349dc99be3d77f7251351df79feceec2a489b7a6"
+          },
+          "counterevidence": "Nur eine aktive Position; eine O+R+AM-Rivalensegmentierung bleibt offen, und weder Inhalt noch historische Einheit sind identifiziert.",
+          "open_slots": "PORTION_CONTENT|MEASURE_UNIT|OR_AM_VS_O_R_AM"
+        }
+      ],
+      "scope": "GDT713 exact historical wholeform/family model; local realization and lexical scope remain distinct.",
+      "source_polarity": "historical_model_revision_not_independent_meaning_confirmation"
+    },
+    {
+      "id": "CLEAN_GAP_ML:OTAM_CORE",
+      "claim": "GDT713 gives otam the lexical core kalt; Maß I while retaining ein Maß kalten Ansatzes only as its two neighboring local realizations. Those active positions are on one page, not independent page transfer; substance, historical unit and exact O role remain open. The reduced core/local distinction does not erase the earlier full preparation reading or the learned-unit-versus-cold-preparation rival.",
+      "claim_type": "lexical_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:8565fc515dc17943aab2"
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scientific_test_ready": false,
+      "independent_new_idea": false,
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/REPORT.md",
+          "line": 19,
+          "line_end": 23,
+          "quote": "Bei den Massformen wird `oram` zu `Maßportion` verdichtet; der unbelegte\nAnsatzkopf und der lexikalisierte Artikel verschwinden aus dem Wortkern.\n`otam` traegt als Kern `kalt; Maß I` und rendert an beiden benachbarten Stellen\nweiter konkret als `ein Maß kalten Ansatzes`. Inhalt und historische Einheit\nbleiben offene Slots, nicht erfundene Substantive.",
+          "sha256": "1fd5ab1bb30ac01e5cb5bfbff1462e52ba631d4c493b5aa8c4365c5a6fe4b71d"
+        },
+        {
+          "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/REPORT.md",
+          "line": 43,
+          "line_end": 48,
+          "quote": "\nDas ist die konkrete Arbeitsuebersetzung des aktuellen Modells, kein\nbestaetigter Klartext. Confidence bleibt ein interner Evidenzindex, keine\nWahrscheinlichkeit. Keine Komponente wird als freies Voynich-Wort exportiert;\nalle historischen Felder bleiben `H0_NONE`. Es wurden keine neue Seite, kein\nBild, keine neue Transkription, kein `f84` und kein `f84r` benutzt.",
+          "sha256": "1fd5ab1bb30ac01e5cb5bfbff1462e52ba631d4c493b5aa8c4365c5a6fe4b71d"
+        },
+        {
+          "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/src/V86_9_AUDIT_SPECS.tsv",
+          "line": 9,
+          "line_end": 9,
+          "quote": "otam#1\tREVISE\tF_O|F_STATE|F_AM\tO_PREP+T+AM\tein Maß kalten Ansatzes\tkalt; Maß I\tein Maß kalten Ansatzes\tEXACT_FAMILY_CORE_CONTEXT_SPLIT\t15\t59\t50\tLEXICALIZED_ARTICLE\tEXACT_FAMILY_CORE\tGDT658 belegt 44 O-T-AM-Familienvorkommen und das vollstaendige K/T-AM-Raster; zwei aktive Nachbarpositionen tragen kalt und Mass I.\tBeide aktiven Positionen liegen auf derselben Seite und sind kein unabhaengiger Seitentransfer; Einheit, Stoff und genaue O-Rolle bleiben offen.\tMEASURE_UNIT|MEASURED_SUBSTANCE|O_PREP_VALUE\t0\tNONE\tNONE\t1",
+          "sha256": "74847fbf49b3f028382393c1349dc99be3d77f7251351df79feceec2a489b7a6"
+        }
+      ],
+      "source_applications": [
+        {
+          "form": "otam",
+          "lexical_core": "kalt; Maß I",
+          "local_realization": "ein Maß kalten Ansatzes",
+          "evidence": {
+            "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/src/V86_9_AUDIT_SPECS.tsv",
+            "line": 9,
+            "line_end": 9,
+            "quote": "otam#1\tREVISE\tF_O|F_STATE|F_AM\tO_PREP+T+AM\tein Maß kalten Ansatzes\tkalt; Maß I\tein Maß kalten Ansatzes\tEXACT_FAMILY_CORE_CONTEXT_SPLIT\t15\t59\t50\tLEXICALIZED_ARTICLE\tEXACT_FAMILY_CORE\tGDT658 belegt 44 O-T-AM-Familienvorkommen und das vollstaendige K/T-AM-Raster; zwei aktive Nachbarpositionen tragen kalt und Mass I.\tBeide aktiven Positionen liegen auf derselben Seite und sind kein unabhaengiger Seitentransfer; Einheit, Stoff und genaue O-Rolle bleiben offen.\tMEASURE_UNIT|MEASURED_SUBSTANCE|O_PREP_VALUE\t0\tNONE\tNONE\t1",
+            "sha256": "74847fbf49b3f028382393c1349dc99be3d77f7251351df79feceec2a489b7a6"
+          },
+          "counterevidence": "Beide aktiven Positionen liegen auf derselben Seite und sind kein unabhaengiger Seitentransfer; Einheit, Stoff und genaue O-Rolle bleiben offen.",
+          "open_slots": "MEASURE_UNIT|MEASURED_SUBSTANCE|O_PREP_VALUE"
+        }
+      ],
+      "scope": "GDT713 exact historical wholeform/family model; local realization and lexical scope remain distinct.",
+      "source_polarity": "historical_model_revision_not_independent_meaning_confirmation"
+    }
+  ],
+  "dispositions": [],
+  "source_reassessments": [
+    {
+      "source_id": "LEGACY_COMPONENT:868b50fd09e42c95fb46",
+      "decision": "partial_named_family_and_core_propositions_recovered",
+      "card_ids": [
+        "CLEAN_GAP_ML:AL_FAMILY",
+        "CLEAN_GAP_ML:CHEOP_OL"
+      ],
+      "reason": "Explicit semantic scope revisions preserved; source repair summaries are not automatically empty or exhaustive coverage.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt712_v85_al_state_core_context_repair/REPORT.md",
+          "line": 7,
+          "line_end": 28,
+          "quote": "V85 arbeitet die naechsten 33 schwachen Lesungen vollstaendig ab: alle 15 AL-/DAL-nahe Formen und alle 18 Zustands-/Traegerformen, zusammen 38 unveraenderte Positionen auf 23 bereits zugelassenen Seiten. 30 Lesungen werden kompakter oder in Wortkern und lokale Realisierung getrennt; drei konkrete, aber ausserhalb des produktiven Gradrasters liegende Ganzwoerter (`keeey`, `qokeeey`, `okol`) bleiben stehen.\n\nDie wichtigste neue Defaultregel lautet `AL -> Material I` und, nur in den zugelassenen DAL-Schwestern, `DAL -> abgemessenes Material I`. Dadurch verschwinden `Rohstoffklasse`, `Rohdroge`, `Drogenrohstoff`, erfundene Dosis- und Mengenkoepfe, ohne eine konkrete Zutat einzusetzen. Zehn atlasgestuetzte Formen erhalten den vorhandenen F_AL-Familienkredit; fuenf spaetere Ganzformen werden nur lexikalisch bereinigt und nicht hochgestuft.\n\nBei den Zustandsformen bleibt die greifbare Information sichtbar: heiß, kalt, trocken, feucht sowie Anfang, Mitte, Ende und Wert II/III. `Droge`, `Gut` und aktive Prozessformulierungen werden dort entfernt, wo die aktuelle Position nur einen nominalen Zustand traegt. Strukturelle Restfragen stehen separat in `v85_open_semantic_slots`, nicht in der deutschen Uebersetzung.\n\n## Wichtige Einzelkorrektur\n\nDie einzige `cheop`-Position ist nach beiden Alternativlesern die linke Haelfte von `cheop ol`. V85 markiert deshalb f115r.1#5 als `G683_CHEOP_OL LEFT`; das bereits gebundene `ol#2` bleibt RIGHT. Der lokale Span rendert einmal als `bis zur Mittelstufe getrockneter Pulverstoff`, beide Komponenten sind nicht global exportierbar. Freies `ol#1` bleibt unveraendert.\n\n## Bestand\n\n- auditierte Lesungen / Positionen / Seiten: 33 / 38 / 23\n- revidiert / bewusst gehalten: 30 / 3\n- aktive Lesungen / Positionen: 324 / 479\n- aktive Confidence-Stufen: `{\"W0_PLACEHOLDER_OR_SEMANTICALLY_EMPTY\": 8, \"W1_WEAK_WORKING\": 149, \"W2_PROVISIONAL_WORKING\": 148, \"W3_SOLID_WORKING_THEORY\": 19}`\n- komplettes Woerterbuch: 1582 Oberflaechen / 1586 Lesungen\n- noch nicht in V84/V85 einzeln bearbeitete schwache Lesungen: 118\n\n## Grenze\n\nDas ist die konkrete Arbeitsuebersetzung des aktuellen Modells, kein bestaetigter Klartext. Confidence bleibt ein interner Evidenzindex, keine Wahrscheinlichkeit. Keine Komponente wird als freies Voynich-Wort exportiert; alle historischen Felder bleiben `H0_NONE`. Es wurden keine neue Seite, kein Bild, keine neue Transkription, kein `f84` und kein `f84r` benutzt.",
+          "sha256": "2e4caf2703707c57922316903b68fea67eb4e58e0f9678bc0e22859a0af9811e"
+        }
+      ]
+    },
+    {
+      "source_id": "LEGACY_COMPONENT:8565fc515dc17943aab2",
+      "decision": "partial_named_family_and_core_propositions_recovered",
+      "card_ids": [
+        "CLEAN_GAP_ML:CKH_CPH_FAMILY",
+        "CLEAN_GAP_ML:ORAM_CORE",
+        "CLEAN_GAP_ML:OTAM_CORE"
+      ],
+      "reason": "Explicit semantic scope revisions preserved; source repair summaries are not automatically empty or exhaustive coverage.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/REPORT.md",
+          "line": 7,
+          "line_end": 31,
+          "quote": "V86 auditiert die tatsaechlich noch offenen drei Massformen und sechs\nCKH/CPH-Formen: neun Lesungen an zehn unveraenderten Positionen auf sieben\nbereits zugelassenen Seiten. Acht Wortkerne werden repariert; `dol =\nMaterialmaß` bleibt als bereits kleinster sinnvoller Kern stehen und gewinnt\nnur den expliziten D+OL-Ganzformbeleg hinzu.\n\nDie sechs CKH/CPH-Ganzformen tragen jetzt den gelernten Familienkopf\n`Mischung`, nie `Arznei`. Sichtbare Trocken-/Feucht- und Grund-/Anfangsfelder\nbleiben erhalten. E_ATTR und O_PREP bleiben Strukturmetadaten; sie werden nicht\nzu freien deutschen Woertern. Wo der O-Rahmen lokal praktisch lesbar ist,\nsteht `Ansatz` nur in der Fundstellenrealisierung.\n\nBei den Massformen wird `oram` zu `Maßportion` verdichtet; der unbelegte\nAnsatzkopf und der lexikalisierte Artikel verschwinden aus dem Wortkern.\n`otam` traegt als Kern `kalt; Maß I` und rendert an beiden benachbarten Stellen\nweiter konkret als `ein Maß kalten Ansatzes`. Inhalt und historische Einheit\nbleiben offene Slots, nicht erfundene Substantive.\n\n## Warum `dol` gehalten wird\n\nGDT638 hatte `dol` bereits ueber 76 Vorkommen als exakte D+OL-Ganzform\nauditiert: Wert-/Masskopf plus Materialtraeger, bewusst ohne Dosis, Messverb\noder historische Einheit. Darum waere eine neue Umschreibung keine\nVerbesserung. V86 erhoeht nur den Evidenzindex `18 -> 23`; D und OL bleiben\nfamiliengebunden und nicht frei exportierbar.",
+          "sha256": "1fd5ab1bb30ac01e5cb5bfbff1462e52ba631d4c493b5aa8c4365c5a6fe4b71d"
+        }
+      ]
+    }
+  ]
+}

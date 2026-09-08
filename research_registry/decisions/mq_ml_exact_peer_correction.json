@@ -1,0 +1,26 @@
+{
+  "artifact":"MQ exact-evidence peer correction for ML",
+  "status":"source_quote_defects_confirmed_in_MO_corrected_here",
+  "scope":"Read-only validation of ML artifacts and four root scope/decision files; no registry mutation or scientific selection.",
+  "current_artifact_hashes":{
+    "clean_gap_review_ml_integrated.json":"d43c1ebf42b6d21ba5c3186263f3935d38cffcf1a43b17b8da08eddab6c72cbe",
+    "ml_root_five_proposition_recovery.json":"cd15339156d7f8371fae0212e72a4fcbb3bd0f989986ac2104263506a9f582f2",
+    "ml_root_four_scope_questions.json":"80f63a2309c7f805723e6c63a4719505800fc5f9aaeace493cfe92cc074e7888",
+    "ml_four_scoped_decisions.json":"d6d8ee200a620398019ff9d424b90ca8d2cf8a9660bfd81a624d92bef8e955e8"
+  },
+  "material_defects": [
+    "MO's four report quotes were shortened or reflowed and therefore should not be used as literal evidence: the AL excerpt begins at physical line 9 rather than 7, the cheop excerpt omitted the final free-ol sentence, and the multiline GDT713 excerpts were flattened.",
+    "The corrected root artifacts bind exact source spans and preserve the five claims; this is an evidence-format correction, not a change in claim status."
+  ],
+  "exact_primary_evidence": [
+    {"path":"experiments/yolo/gdt712_v85_al_state_core_context_repair/REPORT.md","line":7,"line_end":11,"sha256":"2e4caf2703707c57922316903b68fea67eb4e58e0f9678bc0e22859a0af9811e","quote":"V85 arbeitet die naechsten 33 schwachen Lesungen vollstaendig ab: alle 15 AL-/DAL-nahe Formen und alle 18 Zustands-/Traegerformen, zusammen 38 unveraenderte Positionen auf 23 bereits zugelassenen Seiten. 30 Lesungen werden kompakter oder in Wortkern und lokale Realisierung getrennt; drei konkrete, aber ausserhalb des produktiven Gradrasters liegende Ganzwoerter (`keeey`, `qokeeey`, `okol`) bleiben stehen.\n\nDie wichtigste neue Defaultregel lautet `AL -> Material I` und, nur in den zugelassenen DAL-Schwestern, `DAL -> abgemessenes Material I`. Dadurch verschwinden `Rohstoffklasse`, `Rohdroge`, `Drogenrohstoff`, erfundene Dosis- und Mengenkoepfe, ohne eine konkrete Zutat einzusetzen. Zehn atlasgestuetzte Formen erhalten den vorhandenen F_AL-Familienkredit; fuenf spaetere Ganzformen werden nur lexikalisch bereinigt und nicht hochgestuft.\n\nBei den Zustandsformen bleibt die greifbare Information sichtbar: heiß, kalt, trocken, feucht sowie Anfang, Mitte, Ende und Wert II/III. `Droge`, `Gut` und aktive Prozessformulierungen werden dort entfernt, wo die aktuelle Position nur einen nominalen Zustand traegt. Strukturelle Restfragen stehen separat in `v85_open_semantic_slots`, nicht in der deutschen Uebersetzung."},
+    {"path":"experiments/yolo/gdt712_v85_al_state_core_context_repair/REPORT.md","line":13,"line_end":15,"sha256":"2e4caf2703707c57922316903b68fea67eb4e58e0f9678bc0e22859a0af9811e","quote":"## Wichtige Einzelkorrektur\n\nDie einzige `cheop`-Position ist nach beiden Alternativlesern die linke Haelfte von `cheop ol`. V85 markiert deshalb f115r.1#5 als `G683_CHEOP_OL LEFT`; das bereits gebundene `ol#2` bleibt RIGHT. Der lokale Span rendert einmal als `bis zur Mittelstufe getrockneter Pulverstoff`, beide Komponenten sind nicht global exportierbar. Freies `ol#1` bleibt unveraendert."},
+    {"path":"experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/REPORT.md","line":7,"line_end":17,"sha256":"1fd5ab1bb30ac01e5cb5bfbff1462e52ba631d4c493b5aa8c4365c5a6fe4b71d","quote":"V86 auditiert die tatsaechlich noch offenen drei Massformen und sechs\nCKH/CPH-Formen: neun Lesungen an zehn unveraenderten Positionen auf sieben\nbereits zugelassenen Seiten. Acht Wortkerne werden repariert; `dol =\nMaterialmaß` bleibt als bereits kleinster sinnvoller Kern stehen und gewinnt\nnur den expliziten D+OL-Ganzformbeleg hinzu.\n\nDie sechs CKH/CPH-Ganzformen tragen jetzt den gelernten Familienkopf\n`Mischung`, nie `Arznei`. Sichtbare Trocken-/Feucht- und Grund-/Anfangsfelder\nbleiben erhalten. E_ATTR und O_PREP bleiben Strukturmetadaten; sie werden nicht\nzu freien deutschen Woertern. Wo der O-Rahmen lokal praktisch lesbar ist,\nsteht `Ansatz` nur in der Fundstellenrealisierung."},
+    {"path":"experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/REPORT.md","line":19,"line_end":23,"sha256":"1fd5ab1bb30ac01e5cb5bfbff1462e52ba631d4c493b5aa8c4365c5a6fe4b71d","quote":"Bei den Massformen wird `oram` zu `Maßportion` verdichtet; der unbelegte\nAnsatzkopf und der lexikalisierte Artikel verschwinden aus dem Wortkern.\n`otam` traegt als Kern `kalt; Maß I` und rendert an beiden benachbarten Stellen\nweiter konkret als `ein Maß kalten Ansatzes`. Inhalt und historische Einheit\nbleiben offene Slots, nicht erfundene Substantive."}
+  ],
+  "root_scope_check":{
+    "CKH_CPH":"No material defect: shell/state labels alone are not treated as a semantic discriminator; the root question retains the Mischung-versus-Arznei rival and CPH distinct from CKH.",
+    "CHEOP_OL":"No material defect: local render annotations are not reused as an independent renderer test; segmentation/span scope is kept separate from powder/drying content.",
+    "ORAM_OTAM":"No material defect: segmentation and unit/measure behavior are separate prospective observations; neither requires the other or complete translation. Older Ansatz claims and rivals remain preserved."
+  }
+}

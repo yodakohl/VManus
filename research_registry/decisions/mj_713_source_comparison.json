@@ -1,0 +1,104 @@
+{
+  "artifact": "MJ bounded GDT713 source/card comparison",
+  "scope": "GDT713 only; source-bound comparison with bounded current semantic cards and GDT651/652/658/681 pointers. No registry mutation, experiment, TSV, image, or meaning confirmation.",
+  "status": "family_scope_truncated_measure_refinement_already_covered",
+  "source": {
+    "path": "experiments/yolo/gdt713_v86_measure_ckh_core_context_repair/REPORT.md",
+    "sha256": "1fd5ab1bb30ac01e5cb5bfbff1462e52ba631d4c493b5aa8c4365c5a6fe4b71d",
+    "spans": [
+      {
+        "line": 7,
+        "line_end": 17,
+        "quote": "V86 auditiert die tatsaechlich noch offenen drei Massformen und sechs\nCKH/CPH-Formen: neun Lesungen an zehn unveraenderten Positionen auf sieben\nbereits zugelassenen Seiten. Acht Wortkerne werden repariert; `dol =\nMaterialmaß` bleibt als bereits kleinster sinnvoller Kern stehen und gewinnt\nnur den expliziten D+OL-Ganzformbeleg hinzu.\n\nDie sechs CKH/CPH-Ganzformen tragen jetzt den gelernten Familienkopf\n`Mischung`, nie `Arznei`. Sichtbare Trocken-/Feucht- und Grund-/Anfangsfelder\nbleiben erhalten. E_ATTR und O_PREP bleiben Strukturmetadaten; sie werden nicht\nzu freien deutschen Woertern. Wo der O-Rahmen lokal praktisch lesbar ist,\nsteht `Ansatz` nur in der Fundstellenrealisierung."
+      },
+      {
+        "line": 19,
+        "line_end": 23,
+        "quote": "Bei den Massformen wird `oram` zu `Maßportion` verdichtet; der unbelegte\nAnsatzkopf und der lexikalisierte Artikel verschwinden aus dem Wortkern.\n`otam` traegt als Kern `kalt; Maß I` und rendert an beiden benachbarten Stellen\nweiter konkret als `ein Maß kalten Ansatzes`. Inhalt und historische Einheit\nbleiben offene Slots, nicht erfundene Substantive."
+      }
+    ]
+  },
+  "findings": [
+    {
+      "id": "MJ-Q1",
+      "subject": "six CKH/CPH wholeform family-core hypothesis",
+      "current_counterparts": [
+        {
+          "id": "SEM:bb5a20711a782b702cee",
+          "claim": "ckhy → Mischung/Kompositum",
+          "scope": "GDT769 explicit rival block; one ckhy proposition, not a complete six-form CKH/CPH family."
+        },
+        {
+          "id": "SEM:34fe86cfff32fdfef868",
+          "claim": "ckhy → nominal preparation/compositum at a beginning stage",
+          "scope": "GDT762 rival, not the GDT713 six-form family."
+        },
+        {
+          "id": "SEM:5cd1fdcd0f250ef2357a",
+          "claim": "ckhy → line-final process frame: mischen/verrühren; medial content frame: Mischung/Kompositum",
+          "scope": "GDT769 context-conditioned ckhy claim."
+        }
+      ],
+      "predecessor_scope": [
+        {
+          "path": "experiments/yolo/gdt651_ckh_four_shell_family_migration/REPORT.md",
+          "sha256": "d5a3c447ed292d9a5f3fca426df89280f23c66c41a6b12836444767055cc6660",
+          "line": 10,
+          "line_end": 14,
+          "quote": "Die wichtigste inhaltliche Korrektur ist bewusst deutlich: **„Arzneimischung“\nund physisch „gebunden“ waren zu konkret, ohne dass eine Mischhandlung oder\nBindung sichtbar war.** V28 verwendet stattdessen den ersetzbaren Sachkopf\n„Arzneikompositum“ und behandelt das äußere `E` nur familienintern als\nattributive Fügung (`E_ATTR`)."
+        },
+        {
+          "path": "experiments/yolo/gdt652_strict_v28_frontier_completion/REPORT.md",
+          "sha256": "c5c991f33400c83136ce928286976829f7627af6031d80576aefb1c1df0a6ef9",
+          "line": 41,
+          "line_end": 49,
+          "quote": "| `ckhy` | Arzneikompositum am Gradanfang | 34 / 25 |\n| `ckhey` | Arzneikompositum in der Gradmitte | 22 / 20 |\n| `ckheey` | Arzneikompositum am Gradende | 8 / 8 |\n| `ckhdy` | Arzneikompositum am Gradanfang, abgeschlossen | 4 / 1 |\n| `ckhedy` | Arzneikompositum in der Gradmitte, abgeschlossen | 2 / 1 |\n\n`ckheedy` fehlt und bekommt keinen Wert. Der wichtigste Gegenleser bleibt\n„Arzneizubereitung“: CKH ist als Sachklasse brauchbar, aber nicht unabhängig\nphonetisch oder lexikalisch identifiziert."
+        }
+      ],
+      "disposition": "The family-level historical assertion is materially broader than SEM:bb5a... and the individual CKH cards: six forms, visible dry/wet and beginning fields, metadata non-export, and local Ansatz restriction are not represented by one complete counterpart. Retain as a source-scoped family hypothesis if recovered; do not promote it to six confirmed meanings or silently replace the earlier Arznei rival."
+    },
+    {
+      "id": "MJ-Q2",
+      "subject": "oram/otam core and local rendering",
+      "current_counterparts": [
+        {
+          "id": "SEM:b5d74e8a9e1dd07fe7f4",
+          "claim": "oram → eine Maßportion Ansatz",
+          "scope": "GDT681 whole-card working hypothesis; source-bound and unconfirmed."
+        },
+        {
+          "id": "SEM:76dad8ff6d311e32ba66",
+          "claim": "otam → ein Maß des kalten Ansatzes",
+          "scope": "GDT658 exact component case; source-bound and unconfirmed."
+        },
+        {
+          "id": "SEM:d12c4c78e44437f8489e",
+          "claim": "otam → gelernte Einheitsform oder kalte Zubereitung der Form I",
+          "scope": "GDT658 explicit rival."
+        }
+      ],
+      "predecessor_scope": [
+        {
+          "path": "experiments/yolo/gdt681_six_five_hole_family_completion/REPORT.md",
+          "sha256": "8a1f39314bd36593d8341a510cec3c6a2f37ed68a89b208c3570aefcf69bdda8",
+          "line": 46,
+          "line_end": 53,
+          "quote": "| Form | Arbeitsbedeutung | Belege |\n|---|---|---:|\n| `ychedaiin` | hiervon drei Dosen mittelgetrocknete Droge abmessen | 2 |\n| `qoteed` | Ansatz vollständig abkühlen und abziehen | 2 |\n| `qokamdy` | ein Maß nehmen, erhitzen und fertigstellen | 1 |\n| `otarar` | erste Unterfraktion der kalten Ansatzfraktion I | 4 |\n| `oram` | eine Maßportion Ansatz | 8 |"
+        },
+        {
+          "path": "experiments/yolo/gdt658_four_residual_concrete_completion/REPORT.md",
+          "sha256": "71dac0d8656909f655821a1ca3f0c6b8cb47e69d06388857d96ca465ba6a343c",
+          "line": 13,
+          "line_end": 13,
+          "quote": "| `otam` | 44 / 39 | `O + T + AM` | ein Maß des kalten Ansatzes | gelernte Einheitsform oder kalte Zubereitung der Form I |"
+        }
+      ],
+      "disposition": "No missing standalone oram/otam semantic core was found. GDT713 narrows/removes an Ansatz head and article from oram and keeps content/historical unit open; for otam it preserves local Ansatz rendering while separating the portable core. This is a source correction/scope refinement, not a new card and not confirmation. Keep the otam rival visible."
+    }
+  ],
+  "limits": [
+    "GDT713's PASS and evidence index are bookkeeping, not independent meaning evidence.",
+    "The six-form family claim must retain its source alternatives and may not export E_ATTR/O_PREP or Ansatz as free words.",
+    "The bounded comparison does not claim global absence of other cards; exact lexical overlap is navigation, not identity."
+  ]
+}
