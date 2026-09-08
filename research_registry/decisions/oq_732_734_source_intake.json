@@ -1,0 +1,127 @@
+{
+  "schema": "bounded_gdt732_734_source_intake_v1",
+  "status": "READ_ONLY_SOURCE_SCOPE_AUDIT",
+  "source_reports": {
+    "GDT732_renderer": {
+      "path": "experiments/yolo/gdt732_v99r5_grade_frame_spoken_renderer/REPORT.md",
+      "line": 7,
+      "line_end": 29,
+      "quote": "GDT732 finds 175 grade-bearing readings in the 1,586-row V99R4 dictionary and\nreconstructs all 2,431 of their licensed cache positions. The exact scope is\n162 global readings/2,401 positions plus thirteen active readings/thirty\npositions. Every original dictionary field remains byte-identical; the new\nspoken channel is an overlay.\n\nSeventy-five readings/1,748 positions support direct state prose. The other\n100/683 remain deliberately neutral because they contain several modalities,\na composite whose stage attachment is ambiguous, or no explicit modality.\n\n| Renderer | Readings | Positions |\n|---|---:|---:|\n| single-axis participle | 71 | 1,710 |\n| clause-local two-stage participles | 4 | 38 |\n| mixed state, neutral stage | 82 | 604 |\n| single composite, neutral stage | 9 | 21 |\n| no modality, neutral stage | 9 | 58 |\n\nAcross the licensed cells, 2,469 audible grade markers fall to zero. The 728\nexplicit `abgeschlossen/fertig` markers and all 3,015 modality mentions remain\nexactly preserved. Mean target-cell length falls from 6.03 to 3.77 words. That\nis a measured rendering gain, not evidence that the inherited word meanings\nare true.\n",
+      "sha256": "dcb27cc936cf96759e6c25ac8f647b67270ff43ced1a5359ea445b9d5665f4d5"
+    },
+    "GDT733_cache": {
+      "path": "experiments/yolo/gdt733_v99r6_integrated_legacy_grade_cache_renderer/REPORT.md",
+      "line": 7,
+      "line_end": 25,
+      "quote": "GDT733 produces the first single current renderer for every one of the 32,339\ncached token positions. The integration partition is:\n\n| Priority | Cell source | Cells |\n|---:|---|---:|\n| 1 | exact V99 + GDT732 spoken | 30 |\n| 2 | exact V99 superseding old V48 grade text | 52 |\n| 3 | other exact V99 | 397 |\n| 4 | global GDT732 spoken overlay | 2,401 |\n| 5 | occurrence-local legacy grade context | 4,692 |\n| 6 | legacy contextual alias/merge anchor | 8 |\n| 7 | further unconditional V99R4 global default | 6,866 |\n| 8 | inherited other | 17,893 |\n|  | **Total** | **32,339** |\n\nThe integration changes 1,530 current semantic cells relative to V48 and\napplies spoken formatting to 7,132 cells. It neither changes nor invents any\ndictionary reading. All confidence, evidence, score, scope and export fields\nremain inherited.\n",
+      "sha256": "cbdac77727c90b71f3bc02bdd6de3143b93c5072401285e6f666ba4eb1dd5f1e"
+    },
+    "GDT734_repairs": {
+      "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/REPORT.md",
+      "line": 7,
+      "line_end": 24,
+      "quote": "Der erste, rein technische Pass findet einen reproduzierbaren\nV99R6/V99R7-Projektionsfehler: 71 aktive Ganzwortlesungen\nwaren als `ACTIVE_WORKING_DEFAULT` und bedingungslos exportierbar markiert,\nblieben in GDT733 aber an 305 identischen Cache-Stellen `?`, weil dessen\nProjektionsfilter nur die ältere `GLOBAL_V48_DEFAULT`-Schicht einsammelte.\nV99R7 repariert alle 305 Stellen. `dchey` und `olkar` bleiben als die beiden\nbewusst kontext- beziehungsweise spangebundenen Ausnahmen draußen.\n\nDavon getrennt prüft der zweite, explorative Pass 20 häufige Restformen an 226\nStellen und gibt jeder einen konkreten Ganzwortdefault. Jede besitzt genau eine\nZweiteilung unter den derzeit konkreten V99R4-Lesartenkombinationen; das ist\nkeine Behauptung einer sprachlich eindeutigen Segmentierung. Der manuelle\nGegencheck trennt neun kompositionell gestützte,\nfünf rollenbeschränkte und sechs nur als gelernte Ganzwörter lesbare Formen.\nEine eindeutige Trennstelle zählt ausdrücklich nicht automatisch als\nsemantischer Beleg. Die neue Tranche spricht unter anderem trockenes Pulver,\nDrogenholz, Blütenfraktion, Ansatz, Trocknen, Kühlen, Einweichen und Abmessen\naus. Kein Kandidat mit mehreren Zerlegungen wird übernommen.\n",
+      "sha256": "7765792747307d5a8097da614d2a834466880f1d2b3942c7c9367bf73f11bfba"
+    },
+    "GDT734_model": {
+      "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/REPORT.md",
+      "line": 49,
+      "line_end": 73,
+      "quote": "## Wortstamm- und Codebuchmodell\n\nInnerhalb des aktuellen Arbeitswörterbuchs ist die ausgewählte 19-Formen-\nKreuzmatrix mit Rollen konsistenter als mit universellen Wörtern:\n`-ol` verhält sich als Stoff-/Materialrolle, `-or` als Portion, `-aiin/-ain`\nals Index III/II und `-ar` als Anteil I. `cth`, `p` und `s` sind dabei\nexakte-Ganzwort-Arbeitsköpfe für Pflanzendroge, Pulver und Samen; kein freier\nKopfwert wird exportiert. `olk` bleibt gebunden, `olkol` begrenzt die\n`-ol`-Regel und `-dy` wird nicht als portable Rolle freigegeben. Der nächste\nhistorische Architekturvergleich ist ein Apothekerbuch-Mikroeintrag aus\ngelerntem Drogenwort, kurzem Qualitätsrahmen und separatem Mengen-/Gradslot.\nDiese Parallelen bestätigen weder eine Form noch eine Bedeutung: Sie erhalten\nexakt null Relations- und Zeichenwertkredit.\n\n## Confidence und Evidenz\n\nDas vollständige V99R7-Wörterbuch enthält 1.606 Lesarten für 1.602 Formen.\nJede Zeile trägt Arbeitsbedeutung, Score, Confidence, positive Evidenz,\nGegenbeleg, Scope und Exportrecht. Die 20 neuen Formen liegen bewusst nur in\nW1/W2. Ihre Scores werden aus dem schwächeren Teilwert, einem begrenzten\nWiederholungsbonus und einem expliziten Routenabzug berechnet. Wiederholung und\nScore sind ausschließlich interne Arbeitsmodell-Rangwerte, keine semantische\noder historische Bestätigung. Die Teilwerte werden nicht frei exportiert. Die\nganze Form darf im\nbereits zugelassenen Cache als explorativer Default laufen.\n",
+      "sha256": "7765792747307d5a8097da614d2a834466880f1d2b3942c7c9367bf73f11bfba"
+    },
+    "GDT734_limits": {
+      "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/REPORT.md",
+      "line": 75,
+      "line_end": 81,
+      "quote": "## Grenze\n\nDies ist ein konkreter explorativer Arbeitsrenderer, kein bestätigter Klartext. Die\n3.971 singletonlastigen Restformen, konkrete Pflanzenarten, Krankheiten,\nHeilungen, historische Einheiten und die mehrdeutigen Spitzenformen\n`qokeody`, `okeody`, `qokeor`, `chdaiin`, `ory` bleiben offen. Keine neue\nSeite, kein Bild, keine Transkription, kein `f84` und kein `f84r` wurde benutzt.\n",
+      "sha256": "7765792747307d5a8097da614d2a834466880f1d2b3942c7c9367bf73f11bfba"
+    }
+  },
+  "current_semantic_models": [
+    {
+      "id": "SEM:5305ce019d74d3597ba7",
+      "claim": "The selected 19-form matrix treats -ol as material role, -or as portion, -aiin/-ain as III/II and -ar as share I, without exporting free head meanings.",
+      "claim_type": "semantic_model",
+      "status": "unconfirmed"
+    },
+    {
+      "id": "SEM:1da248ce67fa86457647",
+      "claim": "Within GDT734's selected 19-form working matrix, -ol carries material, -or portion, -aiin/-ain index III/II and -ar share I, with CTH/P/S retained only as whole-word plant-drug/powder/seed heads. OLK stays bound, OLKOL limits the -ol rule, and DY is not released as a portable role. The proposed historical parallel is an apothecary microentry combining a learned drug word, short quality frame and separate quantity/degree slot; it supplies no form or meaning identification.",
+      "claim_type": "semantic_model",
+      "status": "unconfirmed"
+    },
+    {
+      "id": "SEM:d5a6c62350d08116efd8",
+      "claim": "cth (exact-whole working head only) → Pflanzendroge",
+      "claim_type": "lexical_hypothesis",
+      "status": "unconfirmed"
+    },
+    {
+      "id": "SEM:b3981819da2577b95260",
+      "claim": "p (exact-whole working head only) → Pulver",
+      "claim_type": "lexical_hypothesis",
+      "status": "unconfirmed"
+    },
+    {
+      "id": "SEM:7470e11f4dbd7e28aec0",
+      "claim": "s (exact-whole working head only) → Samen",
+      "claim_type": "lexical_hypothesis",
+      "status": "unconfirmed"
+    },
+    {
+      "id": "SEM:b9985e2826ec3d466b2e",
+      "claim": "os → Zubereitung",
+      "claim_type": "lexical_hypothesis",
+      "status": "unconfirmed"
+    },
+    {
+      "id": "SEM:2d0227bfbf1290e3010f",
+      "claim": "dold → abmessen und abschließen",
+      "claim_type": "lexical_hypothesis",
+      "status": "unconfirmed"
+    }
+  ],
+  "findings": [
+    {
+      "scope": "GDT732",
+      "classification": "renderer overlay",
+      "decision": "No new semantic proposition. It converts stored grade/state fields into spoken prose while dictionary fields, scores, evidence, scope and exports remain byte-identical; neutral/mixed modalities remain explicitly unresolved."
+    },
+    {
+      "scope": "GDT733",
+      "classification": "cache integration and positional renderer",
+      "decision": "No new meaning assignment. It resolves precedence and span/punctuation display, explicitly says no dictionary reading is changed or invented, and leaves 755 indexed placeholders and unknown forms."
+    },
+    {
+      "scope": "GDT734 71 active export repairs",
+      "classification": "renderer/export repair",
+      "decision": "No new model. It fixes a projection filter omission; dchey and olkar remain context/span-bound exceptions."
+    },
+    {
+      "scope": "GDT734 20 recurrent unknown forms",
+      "classification": "historical working model with scope choices",
+      "decision": "The 9 compositional, 5 role-constrained and 6 learned whole-form defaults are a finite unconfirmed tranche. The 19-form role matrix is represented by SEM:5305ce019d74d3597ba7 / SEM:1da248ce67fa86457647, with exact heads cth/p/s and no free export. The 20 individual form assignments are not 20 independent meanings; scores W1/W2 and route deductions remain explicit."
+    },
+    {
+      "scope": "GDT734 editorial 28/26 repairs",
+      "classification": "renderer wording/local-core cleanup",
+      "decision": "Mischgut→Mischung and heißen Auszug bereiten→Ansatz erhitzen are wording changes; os and dold remain open. Occurrence-local patients are removed from portable cores; no new lexical evidence follows."
+    }
+  ],
+  "model_ids": [
+    "SEM:5305ce019d74d3597ba7",
+    "SEM:1da248ce67fa86457647",
+    "SEM:d5a6c62350d08116efd8",
+    "SEM:b3981819da2577b95260",
+    "SEM:7470e11f4dbd7e28aec0",
+    "SEM:b9985e2826ec3d466b2e",
+    "SEM:2d0227bfbf1290e3010f"
+  ],
+  "decision": "GDT732 and GDT733 are rendering/integration work. GDT734 contains one represented 19-form role-constrained working model plus 20 unconfirmed whole-form applications; retain their source scope and W1/W2 uncertainty without treating cache coverage or composition as meaning evidence.",
+  "limitations": [
+    "No raw corpus, image, mixed TSV, experiment rerun, or operative registry mutation.",
+    "Current semantic search is bounded; absence of a card was not used to claim global absence.",
+    "All models remain unconfirmed and no plaintext is inferred."
+  ]
+}

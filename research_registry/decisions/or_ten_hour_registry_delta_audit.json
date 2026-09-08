@@ -1,0 +1,84 @@
+{
+  "artifact": "or_ten_hour_registry_delta_audit",
+  "status": "read_only_preservation_audit",
+  "baseline": {
+    "commit": "c56bda4a",
+    "semantic_variants": 3859,
+    "formal_cards": 266,
+    "raw_records": 52,
+    "method_reviewed": 27,
+    "unreviewed": 25,
+    "start_utc": "2026-09-07T20:29:06Z"
+  },
+  "current_verified": {
+    "semantic_variants": 3944,
+    "formal_cards": 266,
+    "active_cards": 4210,
+    "archived_cards": 52,
+    "active_source_cases": 4793,
+    "all_source_cases_including_archived": 4845,
+    "raw_records": 83,
+    "raw_unique_after_known_IDEA000055_duplicate": 82,
+    "nontrivial_identity_groups": 86,
+    "identity_reduction": 104,
+    "identity_decisions": 148
+  },
+  "session_delta": {
+    "semantic_delta": 85,
+    "formal_delta": 0,
+    "raw_record_delta": 31,
+    "raw_nonduplicate_additions_reported": 30,
+    "known_accidental_duplicate": "IDEA000055",
+    "recoveries_reported": 92,
+    "score_only_references_reported": 7,
+    "net_semantic_delta_reported": 85,
+    "existing_definition_restatements_reported": 13
+  },
+  "ok_models": [
+    {
+      "id": "SEM:e7a57c3177ad8898aca5",
+      "model_key": "G729_FINITE_DEFAULT_MAP",
+      "case_count": 14,
+      "applications": 14
+    },
+    {
+      "id": "SEM:6004558a52c144f8f6d2",
+      "model_key": "G730_FINITE_DEFAULT_MAP",
+      "case_count": 94,
+      "applications": 94
+    }
+  ],
+  "checks": {
+    "semantic_cards_current": true,
+    "formal_cards_current": true,
+    "total_active_cards": true,
+    "archived_source_error_cards": true,
+    "active_source_cases": true,
+    "total_source_cases_with_archived": true,
+    "raw_records_current": true,
+    "raw_unique_excluding_known_55_duplicate": true,
+    "nontrivial_identity_groups": true,
+    "identity_display_reduction": true,
+    "ok_two_models_108_cases": true,
+    "ok_two_model_applications": true
+  },
+  "metric_discrepancies": [
+    "The raw ideas.jsonl contains 83 records and all retain imported_unreviewed metadata; the 51-method/31-unreviewed split is the session queue classification over 82 unique records, not a field stored on these 83 raw records.",
+    "The compact route says 46 questions, while the session checkpoint says 160 dossiers. These are different scopes/metrics; neither was silently substituted for the other.",
+    "The route says 86 groups/104 reduction; the current identity index independently reproduces 86 nontrivial groups and 104 member reduction. Its 4,106 total groups includes singleton groups and is therefore not the compact group count.",
+    "The seven score-only references are a subset of the 52 archived source-error cards; the archive file does not encode a score-only category, so that subset is retained as the session provenance count."
+  ],
+  "source_hashes": {
+    "VOYNICH_CURRENT_ROUTE.md": "a9162f96663e91dfa5daf2630c87d34660db6fc1d9c6c12cb5cd9b50c490d203",
+    "research_registry/decisions/semantic_10h_session.md": "8ab6743156d249dd814ada15f1e89b8e85af371394867e037a2e2742c16df2c3",
+    "research_registry/SEMANTIC_IDEAS_MANIFEST.json": "cdca8f6d22df695784a22ad451d9e548830a28352d094f34d0ac542c1b1ec5ff",
+    "research_registry/semantic_ideas.jsonl": "cb35cb0ab0c16119a0eb86dbaeedc2c5b487a35e9ec26c95798aa05ebde7e71a",
+    "research_registry/semantic_ideas_excluded.jsonl": "cb33f71f9a089e05a0f6067221e77dafe8a261595c58114265091822f160de07",
+    "research_registry/ideas.jsonl": "53a4414600e823ac6d6b3bc16938c04a51eceed1690a867125436e92034ae6a2",
+    "research_registry/decisions/ok_root_two_model_recovery.json": "c324b00ddd8c598bcbb83f954b2381539798050219c8614b04f055aab67a0e13"
+  },
+  "limits": [
+    "This compares registry and session bookkeeping only. It does not assert a decipherment result, semantic truth, or scientific success.",
+    "No operative registry, ledger, route, or source bytes were changed."
+  ]
+}

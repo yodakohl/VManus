@@ -20,7 +20,7 @@ Earlier four-hour curation delta: [scoped results](decisions/semantic_4h_complet
 | Separately typed formal-role cards | 266 |
 | Reviewed source cases, including the correction archive | 4,845 |
 | Archived source-extraction errors | 52 |
-| Exact normalized assertion repetitions grouped | 477 |
+| Exact normalized assertion repetitions grouped | 583 |
 | Reviewed equivalence groups / display reduction | 86 / 104 |
 | Public semantic display entries | 3,841 |
 
@@ -88,7 +88,7 @@ source/case counts belong to that representative; `group_scope_cases` counts all
 member cases. Open `--field equivalents` or `--field relations` for the others.
 No failure, success or execution permission propagates across an identity link.
 
-The append-only correction log currently retains45 archived source-error cards and220 scope-restatement
+The append-only correction log currently retains52 archived source-error cards and233 scope-restatement
 decisions. Every original claim, case and quote remains retrievable,
 including via `--show ID` for archived cards. Numeric columns, alias-column
 misparses, unlicensed constituent exports and metadata are extraction errors;
