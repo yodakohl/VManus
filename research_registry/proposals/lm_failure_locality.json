@@ -1,0 +1,16 @@
+{
+  "title": "A failed operation blocks its result locally but leaves later operations available",
+  "summary": "A narrow failure model makes a failure marker suppress only the result of the immediately associated operation; subsequent independent operations remain executable.",
+  "scope": "semantic",
+  "status": "draft_unreviewed_not_added",
+  "design": {
+    "mechanism": "local failure-to-result propagation",
+    "unit": "multi-operation records with one marked failure, an associated result slot, and a later independent operation",
+    "contrast": "local failure versus sequence-wide cancellation",
+    "prediction": "Only the failed operation’s result slot should be absent or marked unresolved; a later operation with its own input should retain its result.",
+    "countermodel": "The same sequence could result from missing records, editorial omission, or context-conditioned lexical conventions without the proposed functional rule.",
+    "falsifier": "A single failure suppresses all later results, or the failed operation still produces its result while a later independent operation is suppressed.",
+    "principal_risk": "Failure and result status need independent annotations. Near IDEA000073/074 and action/result routes; retained only as a narrow propagation rule, not a polarity or agent claim.",
+    "endpoint_status": "availability_unknown"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "A repair marker replaces one prior field value",
+  "summary": "A narrow repair hypothesis assigns a marker the function of revising exactly one immediately preceding field; the subsequent field should use the replacement value.",
+  "scope": "semantic",
+  "status": "draft_unreviewed_not_added",
+  "design": {
+    "mechanism": "single-field retroactive repair operator",
+    "unit": "records containing a prior field, repair marker, and replacement/restatement",
+    "contrast": "retroactive repair versus ordinary continuation",
+    "prediction": "A repair marker should be followed by one replacement that differs from the prior field, while later fields retain the repaired value and are not independently rewritten.",
+    "countermodel": "Editorial correction or omitted context could create the same pattern without a repair or hedge operator.",
+    "falsifier": "The marker leaves the prior value active, rewrites multiple earlier fields, or changes a later field without a replacement.",
+    "principal_risk": "Independent correction annotations are unavailable. Near operator and exception families, but the restriction is one retroactive target plus one replacement.",
+    "endpoint_status": "availability_unknown"
+  }
+}

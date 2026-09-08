@@ -1,0 +1,110 @@
+{
+  "task": "LN effective IDEA60/61 source-method review",
+  "items": [
+    {
+      "id": "IDEA000060",
+      "effective_design": {
+        "contrast": "one shared result/state versus two independent results coincidentally written at one destination",
+        "countermodel": "The same destination may be a repeated notation or editor-compressed location with no shared semantic result.",
+        "endpoint_status": "availability_unknown",
+        "falsifier": "Independent destination/state coding shows the two incoming actions require distinct results, or a matched fan-out has no shared downstream state constraint.",
+        "mechanism": "shared-destination result bundling",
+        "prediction": "A held fan-out should preserve one destination state and constrain both incoming actions to the same result class; an independent-output model predicts separable destination behavior when one incoming action changes.",
+        "principal_risk": "Current destination/result labels are working readings and no separately named final result is admitted.",
+        "related": "Near GDT697/GDT701/GDT702, but targets the semantic consequence of fan-out topology rather than merely composing or counting relation edges.",
+        "source_evidence": {
+          "line": 23,
+          "line_end": 27,
+          "path": "experiments/yolo/gdt701_v74_cumulative_relation_components/REPORT.md",
+          "quote": "The atlas now gives one exact home to every current edge.  Seven components\ncontain one edge, M006 is a two-action fan-out to one written destination, and\nM007 is the sole serial chain with a written intermediate product.  The last\naction in every component still lacks an admitted, separately named final\nresult.",
+          "sha256": "68b95cd1ca5da5651ebfc4ebd7667760a0bb4e9dae6507fbaf60da9db890e7a0"
+        },
+        "unit": "two admitted action edges converging on one exact written destination node"
+      },
+      "effective_design_sha256": "fbaa461cec1a1f9e6a0e0911b80d3a77201c03b2aee2a61c2623e10264543772",
+      "retain_repaired_quote_exact": true,
+      "disposition": "METHOD_NOT_TESTED_MISSING_SPECIFIED_RESULT_CONTRACT",
+      "reason": "M006 shares the written destination f80v.35#3, not a separately written resulting state. Two actions affecting or referring to one destination can have different outputs or alter its state sequentially. Destination-node identity does not entail one result class. The summary also calls the proposed result consumed by both actions whereas the prediction constrains both actions to the same result; input/recipient versus produced result must be fixed.",
+      "missing": [
+        "Choose recipient/input identity, resulting state identity or shared-result class as the target; these are distinct propositions.",
+        "Nominate an actual observable state/role response and a particular action substitution or contrast. No such changed-action pair is supplied.",
+        "Specify independent-output rival conditional behavior: independence of outputs does not entail observably different destination behavior after an arbitrary action change.",
+        "Identify additional eligible fan-outs and held scope; one existing M006 cannot supply held variation."
+      ],
+      "reopening": "Freeze an explicit result or recipient model with an observable endpoint, action contrast and differing conditional rival prediction; supply target-specific endpoint/provenance and held capacity. Physical or structural observations suffice for their own restricted questions; confirmed translation is not required.",
+      "smallest_test_now": null
+    },
+    {
+      "id": "IDEA000061",
+      "effective_design": {
+        "contrast": "output-to-input state transfer versus independent adjacent actions sharing only local context",
+        "countermodel": "The apparent intermediate product may be a repeated checkpoint or editorial bridge, not a participant transferred between actions.",
+        "endpoint_status": "availability_unknown",
+        "falsifier": "A held serial chain with independently observed states has a second input incompatible with the first output, or no transfer relation survives after removing inherited glosses.",
+        "mechanism": "serial intermediate-product transfer",
+        "prediction": "Across held serial chains, the second action's input state must equal the first action's written intermediate state; independent-adjacency rivals permit a mismatch without changing edge topology.",
+        "principal_risk": "GDT701 explicitly retains material persistence as a B-tier inference in one component; no general result meaning is established.",
+        "related": "Near GDT697/GDT700/GDT701, but makes one narrow output-input equality prediction rather than a general continuation or result gloss.",
+        "source_evidence": {
+          "line": 23,
+          "line_end": 27,
+          "path": "experiments/yolo/gdt701_v74_cumulative_relation_components/REPORT.md",
+          "quote": "The atlas now gives one exact home to every current edge.  Seven components\ncontain one edge, M006 is a two-action fan-out to one written destination, and\nM007 is the sole serial chain with a written intermediate product.  The last\naction in every component still lacks an admitted, separately named final\nresult.",
+          "sha256": "68b95cd1ca5da5651ebfc4ebd7667760a0bb4e9dae6507fbaf60da9db890e7a0"
+        },
+        "unit": "two admitted action edges joined by one written intermediate product node"
+      },
+      "effective_design_sha256": "76933b08824c9ca433f70c2b23e47230ecef3d6894c3a22dc68d3970959e1b3d",
+      "retain_repaired_quote_exact": true,
+      "disposition": "METHOD_NOT_TESTED_MISSING_STATE_IDENTITY_ENDPOINT",
+      "reason": "M007 joins C007→C006 at written f86v6.25#4. That shared graph-node identity is already known; it does not independently supply two measured state descriptions whose equality can test transfer. If both states are assigned from the same node, equality is true by construction. If they are separate observations, neither state dimension nor observation is nominated.",
+      "missing": [
+        "Separate graph-node reuse from participant identity and state equality; predeclare which state features must persist, when measured, and allowed intervening change.",
+        "Nominate independent first-output and second-input observations. Do not score one inherited intermediate gloss against itself.",
+        "Specify a rival with different predictions: independent adjacent actions may have equal input/output states because of shared context; permission for mismatch is not a predicted mismatch rate.",
+        "Identify additional serial chains and untouched held scope beyond the exposed sole M007."
+      ],
+      "source_fidelity": "GDT701 explicitly assigns B-tier inferred persistence to M009, not M007. IDEA61 principal_risk mentions one component without identifying it; do not transfer M009 caveat as evidence that M007 itself has B-tier persistence status. M007 still uses inherited working interpretation and adds zero word meanings.",
+      "reopening": "A fixed state-transfer contract with independently observable output/input features, a rival differing on those features, and actual held chain capacity; new data must supply these specific bindings. A purely structural shared-node census is already GDT701, not a new semantic discriminator.",
+      "smallest_test_now": null
+    }
+  ],
+  "common_limit": "No new test selected. This is a method/source interpretation review, not empirical refutation. Do not rerun GDT701 outgoing-result route simply to recount nodes or inherit result glosses.",
+  "source_evidence": [
+    {
+      "path": "experiments/yolo/gdt701_v74_cumulative_relation_components/REPORT.md",
+      "line": 18,
+      "line_end": 27,
+      "quote": "| M006 | `f80v.35` | C004+C008 | Dem Anteil I des heißen Holzansatzes Drogenstoff zugeben. Dem Anteil I des heißen Holzansatzes nochmals Drogenstoff zugeben. |\n| M007 | `f86v6.25` | C007→C006 | Aus dem Anteil I des heißen Holzansatzes einen heißen Drogenanteil I abmessen. Den so abgemessenen Drogenanteil I auf Stufe III erhitzen. |\n| M008 | `f86v5.24` | C010 | Anteil I des Ansatzes. [Ungebundene Mengenangabe #2: „Menge III“.] Den Ansatzanteil auf Stufe II erhitzen. |\n| M009 | `f26r.2` | C011 | Hiervon Krautdroge bis zur Mittelstufe erhitzen und abschließen [Quelle von „hiervon“ offen]. [Zustandsvermerk ohne eigenen Materialträger: Mittlere Trockenstufe erreicht.] Die erhitzte Krautdroge bis zur Mittelstufe abkühlen und abschließen [C011-Arbeitshypothese]. |\n\nThe atlas now gives one exact home to every current edge.  Seven components\ncontain one edge, M006 is a two-action fan-out to one written destination, and\nM007 is the sole serial chain with a written intermediate product.  The last\naction in every component still lacks an admitted, separately named final\nresult.",
+      "sha256": "68b95cd1ca5da5651ebfc4ebd7667760a0bb4e9dae6507fbaf60da9db890e7a0"
+    },
+    {
+      "path": "experiments/yolo/gdt701_v74_cumulative_relation_components/REPORT.md",
+      "line": 31,
+      "line_end": 46,
+      "quote": "The graph has 23 unique edge nodes and 25 edge incidences.  Only\n`f80v.35#3` and `f86v6.25#4` are genuine shared nodes.  Two visually intervening\npositions are not nodes:\n\n- `f86v5.24#2 aiin` is an unbound quantity register inside the C010 hull;\n- `f26r.2#5 chedy` is an exact state checkpoint inside the C011 hull.\n\nThe free `dy` at `f26r.2#7` is retained only to close the rendered clause; it\nlies outside C011's #4--#6 hull.  These distinctions prevent readable prose\nfrom silently becoming extra relation evidence.\n\nM009 is the only component whose material persistence is itself an inferred\nB-tier action-output link.  The source action writes *Krautdroge* as its\npatient, but it writes no separate word meaning “heated herb.”  M008 likewise\ndoes not attach “Menge III” to the heating object.  These brackets expose the\nremaining uncertainty instead of replacing it with generic filler.",
+      "sha256": "68b95cd1ca5da5651ebfc4ebd7667760a0bb4e9dae6507fbaf60da9db890e7a0"
+    },
+    {
+      "path": "experiments/yolo/gdt701_v74_cumulative_relation_components/REPORT.md",
+      "line": 50,
+      "line_end": 57,
+      "quote": "- 11/11 inherited edges assigned exactly once to 9 components.\n- 7 one-edge components, 1 repeated-destination fan-out, 1 serial chain.\n- 23 edge nodes, 25 incidences, 25 minimal-hull positions, 2 hull-only\n  positions and 1 render-only structural position.\n- 17 held rivals and 27 reference decisions preserved unchanged.\n- 479 token glosses, 51 line translations and 3 bound spans byte-identical.\n- 0 new edges, participant identities, word meanings, pages or f84/f84r\n  access.",
+      "sha256": "68b95cd1ca5da5651ebfc4ebd7667760a0bb4e9dae6507fbaf60da9db890e7a0"
+    },
+    {
+      "path": "experiments/yolo/gdt701_v74_cumulative_relation_components/REPORT.md",
+      "line": 66,
+      "line_end": 70,
+      "quote": "explicitly written result label occurs in the exact immediate right context\nof any of the eleven target actions.  Such a label may nominate an outgoing\nresult edge; mere adjacency, fluent recipe order or an assumed default output\nmay not.",
+      "sha256": "68b95cd1ca5da5651ebfc4ebd7667760a0bb4e9dae6507fbaf60da9db890e7a0"
+    }
+  ],
+  "navigation": [
+    "ideas show60/61",
+    "lookup701",
+    "route-check serial intermediate shared destination result; returned697,748,720,718; no additional report needed to settle current missing contract"
+  ],
+  "registry_mutation": false,
+  "raw_or_images": false
+}

@@ -1,0 +1,66 @@
+{
+  "record_id": "IDEA000063",
+  "scope": "method",
+  "verdict": "not_tested",
+  "reviewer": "root primary successor and effective-design review after bounded independent audits",
+  "reason": "Connectedness does not independently establish a semantic microrecord or participant continuity. GDT791 already provides some visible record annotations, so their global absence is not the blocker. The design does not specify equality, containment or another relation to those records, nor establish a nontrivial held comparison beyond the local graph construction.",
+  "assessment_basis": "source_and_logical_design_review_no_manuscript_test",
+  "design": {
+    "contrast": "graph component is one process unit versus line/page proximity defines the unit",
+    "countermodel": "The graph may reflect sparse surviving evidence while the true record unit follows paragraph or line boundaries independently.",
+    "endpoint_status": "availability_unknown",
+    "falsifier": "A held component crosses an independently observed record boundary without continuity, or adjacent unconnected edges form the same process unit more often than connected components do.",
+    "mechanism": "topology-defined microrecord grouping",
+    "prediction": "Held components should preserve internal participant continuity and isolate from neighboring actions; singleton, fan-out, and serial topologies should predict distinct unit signatures.",
+    "principal_risk": "Current graph edges are occurrence-bound and sparse; no broad record semantics or translation follows from topology alone.",
+    "related": "Near GDT697/GDT701 and the closed relation-edge capacity routes, but proposes a unit-boundary rule rather than a new edge or word meaning.",
+    "source_evidence": {
+      "line": 48,
+      "line_end": 57,
+      "path": "experiments/yolo/gdt701_v74_cumulative_relation_components/REPORT.md",
+      "quote": "## Scope and gain\n\n- 11/11 inherited edges assigned exactly once to 9 components.\n- 7 one-edge components, 1 repeated-destination fan-out, 1 serial chain.\n- 23 edge nodes, 25 incidences, 25 minimal-hull positions, 2 hull-only\n  positions and 1 render-only structural position.\n- 17 held rivals and 27 reference decisions preserved unchanged.\n- 479 token glosses, 51 line translations and 3 bound spans byte-identical.\n- 0 new edges, participant identities, word meanings, pages or f84/f84r\n  access.",
+      "sha256": "68b95cd1ca5da5651ebfc4ebd7667760a0bb4e9dae6507fbaf60da9db890e7a0"
+    },
+    "unit": "connected occurrence-node component containing admitted relation edges"
+  },
+  "blockers": [
+    {
+      "code": "missing_design",
+      "detail": "Connectedness does not independently establish a semantic microrecord or participant continuity. GDT791 already provides some visible record annotations, so their global absence is not the blocker. The design does not specify equality, containment or another relation to those records, nor establish a nontrivial held comparison beyond the local graph construction.",
+      "evidence": [
+        "research_registry/decisions/lp_root_four_relation_design_reviews.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "independent_observable_contract_and_cases",
+        "change": "new_design",
+        "detail": "Nominate an existing independently annotated record/continuity endpoint, explain the predicted relationship between components and records, and establish eligible variation and held cases. A containment test that all same-line input components satisfy by construction would not discriminate the models. A structural endpoint does not require confirmed English/German meanings; semantic identity must be independently justified for its own claim.",
+        "evidence": [
+          "research_registry/decisions/lp_root_four_relation_design_reviews.json"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Replaying graph-node incidence or connectedness as its own independent endpoint.",
+      "Reusing inherited working glosses as independent state observations.",
+      "More pages or another adjacent word without the fixed endpoint/model contrast."
+    ]
+  },
+  "relations": [
+    {
+      "detail": "Primary source observation for this unreviewed proposal; not a semantic identity or a successful test.",
+      "evidence": [
+        "research_registry/decisions/jz_root_raw_source_correction.json",
+        "research_registry/proposals/jz_component_topology_unit.json",
+        "experiments/yolo/gdt701_v74_cumulative_relation_components/REPORT.md"
+      ],
+      "target": "GDT701",
+      "type": "related_to"
+    }
+  ],
+  "claim_ceiling": "No new test selected. Existing topology and historical candidate meanings remain preserved; earlier source-only quote repair is retained exactly."
+}

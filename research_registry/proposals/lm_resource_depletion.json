@@ -1,0 +1,16 @@
+{
+  "title": "A consumable carrier must be replenished before reuse",
+  "summary": "A finite-resource model says one operation consumes the active carrier; a later operation can use it only after an explicit replenishment marker. A reusable-carrier model allows repeated operations without replenishment.",
+  "scope": "semantic",
+  "status": "draft_unreviewed_not_added",
+  "design": {
+    "mechanism": "single-use carrier with explicit replenishment",
+    "unit": "ordered operation records containing a carrier, first use, later use, and candidate replenishment marker",
+    "contrast": "consumable carrier versus reusable carrier",
+    "prediction": "After one carrier-consuming operation, a second operation without replenishment should lack that carrier or use a new carrier; inserting replenishment should restore eligibility.",
+    "countermodel": "The same sequence could result from missing records, editorial omission, or context-conditioned lexical conventions without the proposed functional rule.",
+    "falsifier": "The same carrier supports repeated operations with no replenishment, or a replenishment marker appears without changing later carrier eligibility under matched records.",
+    "principal_risk": "Carrier identity and consumption are unavailable. Near IDEA000038/046 and carrier-transfer families, but the restriction is resource exhaustion and recovery rather than argument inheritance or scope.",
+    "endpoint_status": "availability_unknown"
+  }
+}

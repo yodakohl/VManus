@@ -4,9 +4,9 @@ Updated: 2026-09-08. Read first.
 ## Current mandate and effort limit
 
 10h requested:2026-09-07 20:29:06–2026-09-08 06:29:06UTC minimum.
-LO:submitted-scope added;79raw;10h incomplete.
+LP:four relation designs reviewed;83 raw;10h incomplete.
 15recoveries/7scoreerrors;13questions;13definitions;85groups/103reduction.
-79rawrecords78afterknown55dup;37method/41unreviewed;10source-onlyrepairs.
+83rawrecords82afterknown55dup;41method/41unreviewed;10source-onlyrepairs.
 
 GDT858:855/963primary808folds retained opposite-face training;169faces/90leaves.
 GDT865 whole-leaf correction retains both primary thresholds: nuisance macroAUC

@@ -1,0 +1,16 @@
+{
+  "title": "An uncertainty marker scopes over one proposition",
+  "summary": "A narrow hedge hypothesis marks exactly one proposition as uncertain while leaving adjacent propositions unhedged; a global confidence mode would spread the uncertainty.",
+  "scope": "semantic",
+  "status": "draft_unreviewed_not_added",
+  "design": {
+    "mechanism": "single-proposition uncertainty scope",
+    "unit": "multi-proposition records with one candidate hedge and independently separated propositions",
+    "contrast": "local hedge versus record-wide confidence mode",
+    "prediction": "Only the proposition immediately selected by the hedge should receive an uncertainty flag; an adjacent proposition should retain its ordinary status under fixed boundaries.",
+    "countermodel": "Editorial correction or omitted context could create the same pattern without a repair or hedge operator.",
+    "falsifier": "The hedge changes every proposition in the record, or changes a nonselected proposition while leaving its selected target unchanged.",
+    "principal_risk": "Independent uncertainty judgments are unavailable. Near IDEA000070 provenance and GDT710/730 confidence renderers, but targets semantic scope of uncertainty rather than source status or confidence display.",
+    "endpoint_status": "availability_unknown"
+  }
+}

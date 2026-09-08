@@ -1,0 +1,66 @@
+{
+  "record_id": "IDEA000060",
+  "scope": "method",
+  "verdict": "not_tested",
+  "reviewer": "root primary successor and effective-design review after bounded independent audits",
+  "reason": "The shared M006 destination does not by itself identify one produced result. Recipient/input identity and resulting-state identity are different claims; no changed-action pair or separately observed result response is nominated. Independent outputs need not yield visibly different destination behavior.",
+  "assessment_basis": "source_and_logical_design_review_no_manuscript_test",
+  "design": {
+    "contrast": "one shared result/state versus two independent results coincidentally written at one destination",
+    "countermodel": "The same destination may be a repeated notation or editor-compressed location with no shared semantic result.",
+    "endpoint_status": "availability_unknown",
+    "falsifier": "Independent destination/state coding shows the two incoming actions require distinct results, or a matched fan-out has no shared downstream state constraint.",
+    "mechanism": "shared-destination result bundling",
+    "prediction": "A held fan-out should preserve one destination state and constrain both incoming actions to the same result class; an independent-output model predicts separable destination behavior when one incoming action changes.",
+    "principal_risk": "Current destination/result labels are working readings and no separately named final result is admitted.",
+    "related": "Near GDT697/GDT701/GDT702, but targets the semantic consequence of fan-out topology rather than merely composing or counting relation edges.",
+    "source_evidence": {
+      "line": 23,
+      "line_end": 27,
+      "path": "experiments/yolo/gdt701_v74_cumulative_relation_components/REPORT.md",
+      "quote": "The atlas now gives one exact home to every current edge.  Seven components\ncontain one edge, M006 is a two-action fan-out to one written destination, and\nM007 is the sole serial chain with a written intermediate product.  The last\naction in every component still lacks an admitted, separately named final\nresult.",
+      "sha256": "68b95cd1ca5da5651ebfc4ebd7667760a0bb4e9dae6507fbaf60da9db890e7a0"
+    },
+    "unit": "two admitted action edges converging on one exact written destination node"
+  },
+  "blockers": [
+    {
+      "code": "missing_design",
+      "detail": "The shared M006 destination does not by itself identify one produced result. Recipient/input identity and resulting-state identity are different claims; no changed-action pair or separately observed result response is nominated. Independent outputs need not yield visibly different destination behavior.",
+      "evidence": [
+        "research_registry/decisions/lp_root_four_relation_design_reviews.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "independent_observable_contract_and_cases",
+        "change": "new_design",
+        "detail": "Choose recipient or result semantics, nominate a specific action contrast and observable response, and restrict the rival to a different predicted response. Identify additional eligible fan-outs and held cases for that fixed rule. A structural endpoint does not require confirmed English/German meanings; semantic identity must be independently justified for its own claim.",
+        "evidence": [
+          "research_registry/decisions/lp_root_four_relation_design_reviews.json"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Replaying graph-node incidence or connectedness as its own independent endpoint.",
+      "Reusing inherited working glosses as independent state observations.",
+      "More pages or another adjacent word without the fixed endpoint/model contrast."
+    ]
+  },
+  "relations": [
+    {
+      "detail": "Primary source observation for this unreviewed proposal; not a semantic identity or a successful test.",
+      "evidence": [
+        "research_registry/decisions/jz_root_raw_source_correction.json",
+        "research_registry/proposals/jz_shared_destination_bundle.json",
+        "experiments/yolo/gdt701_v74_cumulative_relation_components/REPORT.md"
+      ],
+      "target": "GDT701",
+      "type": "related_to"
+    }
+  ],
+  "claim_ceiling": "No new test selected. Existing topology and historical candidate meanings remain preserved; earlier source-only quote repair is retained exactly."
+}

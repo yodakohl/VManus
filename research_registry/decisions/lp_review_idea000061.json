@@ -1,0 +1,66 @@
+{
+  "record_id": "IDEA000061",
+  "scope": "method",
+  "verdict": "not_tested",
+  "reviewer": "root primary successor and effective-design review after bounded independent audits",
+  "reason": "M007 shared-node identity is known topology. Scoring one inherited intermediate gloss as both first output and second input makes equality automatic. The design supplies neither two independent state observations nor a state feature that must persist. Independent adjacent actions may share a state through context.",
+  "assessment_basis": "source_and_logical_design_review_no_manuscript_test",
+  "design": {
+    "contrast": "output-to-input state transfer versus independent adjacent actions sharing only local context",
+    "countermodel": "The apparent intermediate product may be a repeated checkpoint or editorial bridge, not a participant transferred between actions.",
+    "endpoint_status": "availability_unknown",
+    "falsifier": "A held serial chain with independently observed states has a second input incompatible with the first output, or no transfer relation survives after removing inherited glosses.",
+    "mechanism": "serial intermediate-product transfer",
+    "prediction": "Across held serial chains, the second action's input state must equal the first action's written intermediate state; independent-adjacency rivals permit a mismatch without changing edge topology.",
+    "principal_risk": "GDT701 explicitly retains material persistence as a B-tier inference in one component; no general result meaning is established.",
+    "related": "Near GDT697/GDT700/GDT701, but makes one narrow output-input equality prediction rather than a general continuation or result gloss.",
+    "source_evidence": {
+      "line": 23,
+      "line_end": 27,
+      "path": "experiments/yolo/gdt701_v74_cumulative_relation_components/REPORT.md",
+      "quote": "The atlas now gives one exact home to every current edge.  Seven components\ncontain one edge, M006 is a two-action fan-out to one written destination, and\nM007 is the sole serial chain with a written intermediate product.  The last\naction in every component still lacks an admitted, separately named final\nresult.",
+      "sha256": "68b95cd1ca5da5651ebfc4ebd7667760a0bb4e9dae6507fbaf60da9db890e7a0"
+    },
+    "unit": "two admitted action edges joined by one written intermediate product node"
+  },
+  "blockers": [
+    {
+      "code": "missing_design",
+      "detail": "M007 shared-node identity is known topology. Scoring one inherited intermediate gloss as both first output and second input makes equality automatic. The design supplies neither two independent state observations nor a state feature that must persist. Independent adjacent actions may share a state through context.",
+      "evidence": [
+        "research_registry/decisions/lp_root_four_relation_design_reviews.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "independent_observable_contract_and_cases",
+        "change": "new_design",
+        "detail": "Freeze a state-transfer contract, timing and permitted changes, independently observable output/input features and a rival with differing predictions; nominate actual eligible held chains. GDT702 offers an additional working chain but not independent state-meaning evidence. A structural endpoint does not require confirmed English/German meanings; semantic identity must be independently justified for its own claim.",
+        "evidence": [
+          "research_registry/decisions/lp_root_four_relation_design_reviews.json"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Replaying graph-node incidence or connectedness as its own independent endpoint.",
+      "Reusing inherited working glosses as independent state observations.",
+      "More pages or another adjacent word without the fixed endpoint/model contrast."
+    ]
+  },
+  "relations": [
+    {
+      "detail": "Primary source observation for this unreviewed proposal; not a semantic identity or a successful test.",
+      "evidence": [
+        "research_registry/decisions/jz_root_raw_source_correction.json",
+        "research_registry/proposals/jz_serial_chain_transfer.json",
+        "experiments/yolo/gdt701_v74_cumulative_relation_components/REPORT.md"
+      ],
+      "target": "GDT701",
+      "type": "related_to"
+    }
+  ],
+  "claim_ceiling": "No new test selected. Existing topology and historical candidate meanings remain preserved; earlier source-only quote repair is retained exactly."
+}
