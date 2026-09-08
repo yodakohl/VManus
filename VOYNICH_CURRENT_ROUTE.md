@@ -3,13 +3,14 @@ Updated: 2026-09-08. Read first.
 
 ## Current mandate and effort limit
 
-10h continuation elapsed checkpoint completed: 2026-09-08 06:30:00 UTC.
-Report:research_registry/decisions/semantic_10h_continuation_completion.md.
-92recoveries–7scoreerrors=85net;3944semantic;46new/160total dossiers.
-83raw/82unique;51method;31pending(28unreviewed+3design-corrected).
-No new manuscript experiment/image/meaning;provider gap was notactive work.
-734twenty-whole mappings unassessed;19-form matrix doesnotprovecoverage.
-Next:bounded discriminating candidate selection;no unbounded cleanup/decoder cycle.
+4h continuation active:2026-09-08 07:12:17–11:12:17UTC minimum.
+Session:research_registry/decisions/semantic_4h_followon_session.md.
+Baseline9254994c:3944semantic;160dossiers;83raw/82unique;51method/31pending.
+Prior10h:85net recovered variants,0new manuscript experiment/image/meaning.
+Current:GDT872 registered raw-group directional discovery;4anchors/18responses,
+lags3–8,near1–2reference;sourceparagraph boundaries;no semantic score.
+Budget08:05UTC; source/code validation before target run.
+734twenty-whole mappings remain unassessed;no automatic cleanup cycle.
 
 GDT858:855/963primary808folds retained opposite-face training;169faces/90leaves.
 GDT865 whole-leaf correction retains both primary thresholds: nuisance macroAUC

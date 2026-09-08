@@ -1,0 +1,128 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Descriptive discovery in existing admitted raw transcriptions; no causal setting/reset, semantic relation score, lexeme, translation or independent-reader replication.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt872_whole_pair_directed_profile/src/run.py",
+    "validate": "python3 experiments/yolo/gdt872_whole_pair_directed_profile/src/validate.py"
+  },
+  "created": "2026-09-08",
+  "dependencies": [
+    "GDT760",
+    "GDT761",
+    "GDT762",
+    "GDT807",
+    "GDT868"
+  ],
+  "experiment_id": "GDT872",
+  "inputs": [
+    {
+      "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "role": "reproducibility protocol/code or guarded source binding",
+      "sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "role": "reproducibility protocol/code or guarded source binding",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+    },
+    {
+      "path": "experiments/yolo/gdt762_moist_medium_candidate_discrimination/src/STATE_PAIR_PRIORS.tsv",
+      "role": "reproducibility protocol/code or guarded source binding",
+      "sha256": "8f6fc21b56910299598a6bec2484a4c48edf8cee4cf17c2efd9c119f1acbf02c"
+    },
+    {
+      "path": "experiments/yolo/gdt807_target_masked_paragraph_exchange_codebook/src/run.py",
+      "role": "reproducibility protocol/code or guarded source binding",
+      "sha256": "1f1b723b1bae896787211abfc5e1e1451ebd44858d77e0845d18b67feb1b533e"
+    },
+    {
+      "path": "experiments/yolo/gdt872_whole_pair_directed_profile/.gitignore",
+      "role": "reproducibility protocol/code or guarded source binding",
+      "sha256": "429a7ff8e3befe5ac528bb832881840115d63940883b125526b582eedcdcb7a9"
+    },
+    {
+      "path": "experiments/yolo/gdt872_whole_pair_directed_profile/METHOD.md",
+      "role": "reproducibility protocol/code or guarded source binding",
+      "sha256": "59940f6df1d981abfef05228f3311ff1276e1e0795431dba4227fff432aa9b5c"
+    },
+    {
+      "path": "experiments/yolo/gdt872_whole_pair_directed_profile/PREREGISTRATION.md",
+      "role": "reproducibility protocol/code or guarded source binding",
+      "sha256": "7cfc7db26527232a25adea0eabadc07149cf786f987a2dd998ba86e91ce12bc6"
+    },
+    {
+      "path": "experiments/yolo/gdt872_whole_pair_directed_profile/README.md",
+      "role": "reproducibility protocol/code or guarded source binding",
+      "sha256": "69f6e38f61806e98989bdab9d14ce120926a812dadb80f734d4574e586673e64"
+    },
+    {
+      "path": "experiments/yolo/gdt872_whole_pair_directed_profile/src/PREREG_LOCK.json",
+      "role": "reproducibility protocol/code or guarded source binding",
+      "sha256": "173b432801ddd18bee5a6a11e1f477ac777558c25a8c644f5a96b53be5316ad1"
+    },
+    {
+      "path": "experiments/yolo/gdt872_whole_pair_directed_profile/src/SPEC.json",
+      "role": "reproducibility protocol/code or guarded source binding",
+      "sha256": "f3bf15db88a5aae09d15a3b46f492b007ba013a7d253e36328c91ae093d55c31"
+    },
+    {
+      "path": "experiments/yolo/gdt872_whole_pair_directed_profile/src/run.py",
+      "role": "reproducibility protocol/code or guarded source binding",
+      "sha256": "8baa195ecb3829588b76ab546f90b46637d77732236f06412b2b9dde0b676fa9"
+    },
+    {
+      "path": "experiments/yolo/gdt872_whole_pair_directed_profile/src/validate.py",
+      "role": "reproducibility protocol/code or guarded source binding",
+      "sha256": "c1cf490bc44727f94763397f44d87ee4bac8e90f38610b61b0b038481f9f495c"
+    },
+    {
+      "path": "tools/guarded_tsv_query.py",
+      "role": "reproducibility protocol/code or guarded source binding",
+      "sha256": "eeb8f325b3f7b10ad94eef4907d2d3baaa20bb1b81a9aa36782f96c9008551e3"
+    },
+    {
+      "path": "transcription/voynich_cross_transcription_lines.tsv",
+      "role": "reproducibility protocol/code or guarded source binding",
+      "sha256": "ff3a4559004a29764c60102326de154b29fbba06a2a206bdd76d7feda432e16c"
+    },
+    {
+      "path": "transcription/voynich_zl3b_lines.tsv",
+      "role": "reproducibility protocol/code or guarded source binding",
+      "sha256": "7520dd4c11f4d23c8492e4b2a52cc0fcbda6d9fc88a96ead8f1c31081a4d7ed2"
+    },
+    {
+      "path": "transcription/voynich_zl3b_tokens.tsv",
+      "role": "reproducibility protocol/code or guarded source binding",
+      "sha256": "6a061a26edc05ff37dc386c2215774c229a5ff087d3091e68bdd4983a6c007aa"
+    },
+    {
+      "path": "vmanus-exp",
+      "role": "reproducibility protocol/code or guarded source binding",
+      "sha256": "53b69eec8412b54d1248fd52d91c06e0eabc7f436b9015d0cfdb0746606c1528"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt872_whole_pair_directed_profile/artifacts/README.md",
+      "role": "compact descriptive artifact",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    }
+  ],
+  "question": "What directional raw-group co-occurrence profile do four fixed complete-word anchors have with eighteen disjoint response wholes at lags3\u20138, within versus across source paragraphs?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "whole_pair_directed_profile",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Directed exact-whole profile beyond immediate neighbours",
+  "updated": "2026-09-08",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}
