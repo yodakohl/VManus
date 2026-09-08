@@ -32,6 +32,10 @@ couldnotresolvefainttarget. No two-viewer confirmation orpaint chronology.
 qc3/qc4locationclaim superseded byqe2_f2r15_wrong_region_correction.md.
 Separate f2r14ytoail is caption-like; bothinscriptions' meanings unknown.
 Currentvisual47keys/53selectors,3remain. Admission below.
+User-requested available-observation search:qg3_available_observation_search.md.
+Fourwrittenvaluecells fitgradeandquantity; starcounts supplyvisiblevariable,
+notselectedwordrule; okal/dakocth/carrier examples lackdecisivereferentcontrast.
+No newexperimentselected; no decoder/count/owner follow-on fromthissearch.
 
 4h continuation completed:2026-09-08 07:12:17–11:12:18UTC.
 Session:research_registry/decisions/semantic_4h_followon_session.md.
