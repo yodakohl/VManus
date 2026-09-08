@@ -18,8 +18,8 @@ Earlier four-hour curation delta: [scoped results](decisions/semantic_4h_complet
 |---|---:|
 | Active semantic hypothesis variants | 3,864 |
 | Separately typed formal-role cards | 266 |
-| Reviewed source cases, including the correction archive | 4,658 |
-| Archived source-extraction errors | 51 |
+| Reviewed source cases, including the correction archive | 4,659 |
+| Archived source-extraction errors | 52 |
 | Exact normalized assertion repetitions grouped | 477 |
 | Reviewed equivalence groups / display reduction | 85 / 103 |
 | Public semantic display entries | 3,762 |
@@ -105,7 +105,7 @@ They state the actual compared subclaim, primary evidence, scope and changed-inp
 requirements. The current127 dossiers directly target152 semantic cards. The nine
 priorities directly target27, with23 shared targets;3,708 semantic cards have no
 direct target binding in these two lists. This is a coverage limit, not an
-automatic scientific verdict on those cards (see decisions/la_assessment_coverage.json; earlier snapshots remain preserved). An editorial wording preference is not an empirical falsifier.
+automatic scientific verdict on those cards (see decisions/lb_assessment_coverage.json; earlier snapshots remain preserved). An editorial wording preference is not an empirical falsifier.
 Original conditional predictions remain distinct from observed counterexamples;
 reviewer-supplied reopening conditions are prospective, not old preregistrations.
 Only the latest linked revision acts; all older decisions remain in the log.

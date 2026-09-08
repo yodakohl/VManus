@@ -1,0 +1,16 @@
+{
+  "title": "A repeated operation is idempotent rather than cumulatively additive",
+  "summary": "A narrow operation model says applying the same operation twice to the same state yields the same result as once; a cumulative model predicts a second measurable change.",
+  "scope": "semantic",
+  "status": "draft_unreviewed_not_added",
+  "design": {
+    "mechanism": "idempotent operation rule",
+    "unit": "paired records or repeated operation frames with the same input/state",
+    "contrast": "idempotent transformation versus cumulative iteration",
+    "prediction": "When the same operation is repeated without an intervening state change, the second output should equal the first; a cumulative operation should expose a second increment or distinct result marker.",
+    "countermodel": "A context-conditioned lexical convention or editorial repetition could generate the same surface pattern without the proposed operation rule.",
+    "falsifier": "A repeated operation changes the state again under the same input and no intervening operation, or an intervening change is required to produce the observed difference.",
+    "principal_risk": "Independent operation identity and state measurements are missing. Near quantity scaling and identity persistence, but the discriminator is repeat application under unchanged input.",
+    "endpoint_status": "availability_unknown"
+  }
+}

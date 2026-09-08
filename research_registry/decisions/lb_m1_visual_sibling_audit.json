@@ -1,0 +1,82 @@
+{
+  "schema": "lb_m1_visual_sibling_audit_v1",
+  "scope": "Bounded read-only audit of M1 full definition versus current SEM score/proxy cards; no source/image/rawTSV access or registry mutation.",
+  "target": {
+    "id": "SEM:8436a1ef8e3cd57919cb",
+    "claim": "The picture supplies only the omitted subject of an otherwise textual record.",
+    "current_evidence": "V4 M1 score row only at line 208"
+  },
+  "primary_full_definition": {
+    "model": "M1 subject-only ellipsis",
+    "location": "CANDIDATE_V4_VISUAL_OWNER_RECORDS.md lines 59-67",
+    "proposition": "The picture silently supplies only this plant or apparatus; other arguments remain in the card stream. The model is parsimonious for Herbal but does not explain Bio short cells or give the f82r.3–4 repeat special function."
+  },
+  "current_counterparts": {
+    "exact_full_M1_card": "none found in current semantic_ideas index",
+    "SEM:a67ec96fa1dc9841ccfe": "broader visual-role freeze: Herbal pictured plant and Bio page-local apparatus, with paragraph reactivation; not identical to M1 because it adds register-specific apparatus/address commitments",
+    "SEM:4f86763aa8b2450b9d74": "V17 silent-subject proxy, not the exact V4 M1 source-bound model",
+    "SEM:47e06a8bbc98ecfbbeb4": "local carry repair, not full M1"
+  },
+  "finding": {
+    "classification": "unique_full_primary_model_with_score_only_sem_binding",
+    "recommendation": "recover_full_source_bound_M1_card_then_archive_or_demote_the_score_only_representation_as_result_only",
+    "reason": "The score row alone is not semantic evidence, but the exact primary contains a substantive M1 rival definition. Therefore it should not be treated as an invalid semantic proposition or merged with M2/M3. The proper correction is provenance recovery: bind M1 to lines 59-67 while retaining the score row as comparative result metadata. Preserve the current score-row case and source bytes until that curation is performed.",
+    "model_boundary": "M1 is distinct from M2 drawn-argument addressing and M3 text-only formula register; shared page-level subject language does not collapse their argument inventories."
+  },
+  "evidence": [
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_VISUAL_OWNER_RECORDS.md",
+      "line": 31,
+      "line_end": 55,
+      "quote": "## Visual-role freeze before record interpretation\n\nThese are candidate **silent roles**, frozen from the permitted visual facts\nbefore assigning functions to cards in the selected records. They are not\npicture glosses.\n\n| selected record | owner | part | path | vessel/station | medium | ownership limit |\n|---|---|---|---|---|---|---|\n| `f10r` R1, lines 1–5 | pictured simple/page dossier | whole plant; an unspecified organ is possible | none pictured as an operational path | none | none independently pictured | the plant owns the page plausibly, but no organ owns a particular line |\n| `f10r` R2, lines 6–12 | same pictured simple, reactivated at the paragraph start | same unresolved whole/part fork | none | none | none | paragraph inheritance is plausible; a change of plant part is not visible |\n| `f83r` R1, lines 1–8 | page-local figure/apparatus system | figure, arch/tube end, or outlet are candidates | connection/arch is available page-locally | connected structure or endpoint is available | no independently owned liquid | no annotation ties the opening paragraph to one figure, tube, or outlet |\n| `f83r` R2, lines 9–17 | same page system, with a new paragraph address | same candidate components | same connection system | same candidate stations/endpoints | unresolved; color/region is not a substance identification | paragraph reset is visible, but local visual ownership remains unknown |\n| `f82r` R1, lines 1–9 (carry diagnostic) | upper connected system or page apparatus | one of the connected figures/components | two linear elements plus a joining element | upper/lower system or bounded region | green/blue region only, not WATER | the prose-to-system association is page-level; no line-to-component leader exists |\n\nThe only licensed role switches are therefore register- or paragraph-level:\n\n- Herbal owner: pictured simple; Bio owner: a page-local figure/apparatus\n  system.\n- Herbal part: whole-versus-organ unresolved; Bio part: figure/component or\n  endpoint unresolved.\n- `PATH` and `VESSEL/STATION` are available only in Bio.\n- `MEDIUM` is **unfilled** in Herbal and remains an unowned colored/bounded\n  region candidate in Bio. It never becomes a universal WATER argument.\n- A new paragraph may reactivate or change the current visual address, but the\n  fixed annotations cannot tell which component it selects.",
+      "sha256": "3bcd78fbf8a257906f9bb1712b07bb3f5f5bdb239a7e3d73f12cde24fca75233",
+      "why": "pre-model visual-role limits"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_VISUAL_OWNER_RECORDS.md",
+      "line": 59,
+      "line_end": 67,
+      "quote": "### M1 — subject-only ellipsis\n\nThe picture silently supplies only “this plant” or “this apparatus.” All other\narguments must be in the card stream.\n\nThis is parsimonious for Herbal, but it does not explain why Bio can sustain\nmany short closed cells around a multi-component drawing without repeatedly\nnaming components, paths, or endpoints. It also gives the `f82r.3–4` boundary\nrepeat no special function beyond a copied entry head.",
+      "sha256": "3bcd78fbf8a257906f9bb1712b07bb3f5f5bdb239a7e3d73f12cde24fca75233",
+      "why": "full M1 subject-only ellipsis definition"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_VISUAL_OWNER_RECORDS.md",
+      "line": 200,
+      "line_end": 213,
+      "quote": "## Model comparison\n\nThe frozen V4 rubric is applied abductively, not as a statistical result.\n\n| model | coverage /25 | continuity /20 | few role changes /15 | discrimination /15 | history /10 | controlled fluency /10 | predictions /5 | total |\n|---|---:|---:|---:|---:|---:|---:|---:|---:|\n| M2 drawn-argument addressing | 23 | 18 | 13 | 12 | 8 | 8 | 4 | **86** |\n| M3 text-only formula register | 23 | 15 | 14 | 8 | 8 | 6 | 3 | **77** |\n| M1 subject-only ellipsis | 21 | 13 | 12 | 7 | 8 | 6 | 2 | **69** |\n\nM2 wins because it resolves all six required constructions with one operator\nmapping and gives the Bio short-cell register an economical source layer. It\ndoes not win by identifying any pictured object. M3 remains the strongest\nlosing lexicon and should replace M2 if address-sensitive predictions fail.",
+      "sha256": "3bcd78fbf8a257906f9bb1712b07bb3f5f5bdb239a7e3d73f12cde24fca75233",
+      "why": "comparative score row and decision"
+    }
+  ],
+  "validation": {
+    "checks": [
+      {
+        "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_VISUAL_OWNER_RECORDS.md",
+        "line": 31,
+        "line_end": 55,
+        "line_end_within_file": true,
+        "quote_literal": true,
+        "sha256": "3bcd78fbf8a257906f9bb1712b07bb3f5f5bdb239a7e3d73f12cde24fca75233"
+      },
+      {
+        "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_VISUAL_OWNER_RECORDS.md",
+        "line": 59,
+        "line_end": 67,
+        "line_end_within_file": true,
+        "quote_literal": true,
+        "sha256": "3bcd78fbf8a257906f9bb1712b07bb3f5f5bdb239a7e3d73f12cde24fca75233"
+      },
+      {
+        "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_VISUAL_OWNER_RECORDS.md",
+        "line": 200,
+        "line_end": 213,
+        "line_end_within_file": true,
+        "quote_literal": true,
+        "sha256": "3bcd78fbf8a257906f9bb1712b07bb3f5f5bdb239a7e3d73f12cde24fca75233"
+      }
+    ],
+    "all_literal_spans_and_hashes_valid": true
+  },
+  "status": "audit_complete_no_operative_change"
+}

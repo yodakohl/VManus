@@ -1,0 +1,80 @@
+{
+  "status": "ROOT_VALIDATED_AUTHORIZED_PENDING_ATOMIC_BUILD",
+  "new_cards": [
+    {
+      "id": "SEM:3165e007f45f1dfe65cd",
+      "claim": "V4 M1 proposes subject-only ellipsis: the picture silently supplies only “this plant” or “this apparatus,” while all other arguments remain in the card stream. The source judges the model parsimonious for Herbal but insufficient to explain why Biological pages sustain many short closed cells around multi-component drawings without repeatedly naming components, paths or endpoints, and it gives the f82r.3–4 boundary repeat no special function beyond a copied entry head. This is a historical competing grammar, not a decoded translation or lexical assignment.",
+      "source_case_id": "CLEAN_GAP_LB:V4_M1_FULL_SUBJECT_ONLY_ELLIPSIS"
+    }
+  ],
+  "source_owner": {
+    "id": "LEGACY_SOURCE:f5deb27c1a6c10bee9512076",
+    "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_VISUAL_OWNER_RECORDS.md",
+    "line": 59,
+    "line_end": 67
+  },
+  "archives": [
+    {
+      "id": "SCR_LB:score_reference_m1:v1",
+      "target": "SEM:8436a1ef8e3cd57919cb",
+      "target_basis_sha256": "880481c055be69d2dce10eef56383addb08cfe5eefc3d1d3893cf08fed18390a",
+      "previous_revision": null,
+      "action": "archive_source_error",
+      "reason": "The score row is comparative result metadata, not the full M1 proposition. The source-owned M1 card is recovered before archival; original source case and primary bytes remain preserved.",
+      "reviewer": "root source-owner and M1 full-definition review",
+      "evidence": [
+        {
+          "line": 208,
+          "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_VISUAL_OWNER_RECORDS.md",
+          "quote": "| M1 subject-only ellipsis | 21 | 13 | 12 | 7 | 8 | 6 | 2 | **69** |",
+          "sha256": "3bcd78fbf8a257906f9bb1712b07bb3f5f5bdb239a7e3d73f12cde24fca75233"
+        }
+      ],
+      "review_artifact": {
+        "path": "research_registry/decisions/clean_gap_review_lb_integrated.json",
+        "sha256": "75b7b15d02e0f8e2cd1d9aaa6aa08092a14c371b8d4230e0cb06a30eaf477425"
+      },
+      "full_model_card": "SEM:3165e007f45f1dfe65cd",
+      "before_target": {
+        "claim": "The picture supplies only the omitted subject of an otherwise textual record.",
+        "claim_type": "semantic_model",
+        "case_ids": [
+          "CLEAN_HYP:023d4051f580068f8695"
+        ],
+        "evidence": [
+          {
+            "line": 208,
+            "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_VISUAL_OWNER_RECORDS.md",
+            "quote": "| M1 subject-only ellipsis | 21 | 13 | 12 | 7 | 8 | 6 | 2 | **69** |",
+            "sha256": "3bcd78fbf8a257906f9bb1712b07bb3f5f5bdb239a7e3d73f12cde24fca75233"
+          }
+        ]
+      }
+    }
+  ],
+  "reason": "Recover M1 from the complete definition span before archiving the score-only SEM representation. M1 remains a distinct rival to M2/M3; no score is treated as semantic evidence.",
+  "limits": "No meaning confirmation, visual ownership claim, model win, or deletion of original cases/source bytes.",
+  "source_member_verified": true,
+  "current_counts_before_execution": {
+    "semantic_ideas_records": 4130,
+    "semantic_inventory_records": 29905
+  },
+  "expected_counts_after_execution": {
+    "net_semantic_cards": 3864,
+    "total_cards": 4130,
+    "source_cases": 4659,
+    "archived_source_errors": 52,
+    "display_cards": 3762,
+    "identity_groups": 85,
+    "identity_reduction": 103,
+    "historical_recoveries": 12,
+    "source_archives": 7
+  },
+  "before_target": {
+    "claim": "The picture supplies only the omitted subject of an otherwise textual record.",
+    "claim_type": "semantic_model",
+    "case_ids": [
+      "CLEAN_HYP:023d4051f580068f8695"
+    ]
+  }
+}

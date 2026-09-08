@@ -1,0 +1,16 @@
+{
+  "title": "An operation form coerces only a compatible material class",
+  "summary": "A narrow selectional model says one operation form accepts a predeclared argument class; an incompatible class requires a distinct coercion form or is disallowed.",
+  "scope": "semantic",
+  "status": "draft_unreviewed_not_added",
+  "design": {
+    "mechanism": "typed argument selection with explicit coercion",
+    "unit": "same operation in records whose candidate argument classes differ",
+    "contrast": "type-compatible operation versus free lexical operation",
+    "prediction": "Holding operation and context fixed, replacing the argument with an incompatible class should change the form to the coercion variant or remove the operation; compatible substitutions preserve the form.",
+    "countermodel": "A context-conditioned lexical convention or editorial repetition could generate the same surface pattern without the proposed operation rule.",
+    "falsifier": "The same form accepts incompatible classes without a coercion marker, or compatible classes require different forms for no other scoped change.",
+    "principal_risk": "Independent argument types and coercion meanings are unavailable. Near IDEA000064 argument agreement, but this predicts acceptability/coercion, not modifier agreement.",
+    "endpoint_status": "availability_unknown"
+  }
+}

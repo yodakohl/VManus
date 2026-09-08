@@ -1,0 +1,42 @@
+{
+  "status": "ROOT_VALIDATED_PENDING_ATOMIC_BUILD",
+  "decisions": [
+    {
+      "id": "SCR_LB:score_reference_m1:v1",
+      "target": "SEM:8436a1ef8e3cd57919cb",
+      "target_basis_sha256": "880481c055be69d2dce10eef56383addb08cfe5eefc3d1d3893cf08fed18390a",
+      "previous_revision": null,
+      "action": "archive_source_error",
+      "reason": "The score row is comparative result metadata, not the full M1 proposition. The source-owned M1 card is recovered before archival; original source case and primary bytes remain preserved.",
+      "reviewer": "root source-owner and M1 full-definition review",
+      "evidence": [
+        {
+          "line": 208,
+          "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_VISUAL_OWNER_RECORDS.md",
+          "quote": "| M1 subject-only ellipsis | 21 | 13 | 12 | 7 | 8 | 6 | 2 | **69** |",
+          "sha256": "3bcd78fbf8a257906f9bb1712b07bb3f5f5bdb239a7e3d73f12cde24fca75233"
+        }
+      ],
+      "review_artifact": {
+        "path": "research_registry/decisions/lb_root_recovery_and_reference_scope.json",
+        "sha256": "f957de2010feb721492b6bd0610b501f8365f2e61d1a8c660f04460725121c85"
+      },
+      "full_model_card": "SEM:3165e007f45f1dfe65cd",
+      "before_target": {
+        "claim": "The picture supplies only the omitted subject of an otherwise textual record.",
+        "claim_type": "semantic_model",
+        "case_ids": [
+          "CLEAN_HYP:023d4051f580068f8695"
+        ],
+        "evidence": [
+          {
+            "line": 208,
+            "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_VISUAL_OWNER_RECORDS.md",
+            "quote": "| M1 subject-only ellipsis | 21 | 13 | 12 | 7 | 8 | 6 | 2 | **69** |",
+            "sha256": "3bcd78fbf8a257906f9bb1712b07bb3f5f5bdb239a7e3d73f12cde24fca75233"
+          }
+        ]
+      }
+    }
+  ]
+}
