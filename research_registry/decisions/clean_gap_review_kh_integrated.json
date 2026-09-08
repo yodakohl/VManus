@@ -1,0 +1,99 @@
+{
+  "review_id": "KH:one_missing_historical_counterpart",
+  "cards": [
+    {
+      "id": "CLEAN_GAP_KH:okeol_withdrawn_base_preparation",
+      "claim": "okeol → Grundansatz bis zur mittleren Heizstufe erwärmt",
+      "claim_type": "lexical_hypothesis",
+      "member_ids": [
+        "LEGACY_COMPONENT:bdb16ce96961cd2d22b7"
+      ],
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt753_qokeol_okeol_whole_role_census/REPORT.md",
+          "line": 25,
+          "line_end": 37,
+          "quote": "Die Provenienz ist eindeutig:\n\n| Form | bisherige Prosa | Quelle | damalige Konstruktion |\n|---|---|---|---|\n| `qokeol` | erhitze den Drogenstoff bis zur Mittelstufe | GDT666, `G666-D149` | `QO_COMMAND+K_HOT+E_MIDDLE+OL_MATERIAL` |\n| `okeol` | Grundansatz bis zur mittleren Heizstufe erwärmt | GDT664, `G664-D030` | `O_PREP+K_HOT+E_MIDDLE+OL_BASE` |\n\nBeide Karten waren ausdrücklich `PRODUCTIVE_COMPOUND` und ersetzbare\nWerkstattwerte. Die konkrete Handlung, der Drogenstoff und der Grundansatz\nwurden also aus Analystenbausteinen zusammengesetzt; sie wurden nicht als\nunabhängige Bedeutungen der beiden Ganzformen gefunden. Der heutige\nNo-component-export-Renderer darf diese Karten deshalb nicht als Bestätigung\nseiner eigenen Bausteine verwenden.",
+          "sha256": "c4501622f42d32ab0935d148456688465a564ed99d49f32fc7ee7607c36b5f0f"
+        },
+        {
+          "path": "experiments/yolo/gdt753_qokeol_okeol_whole_role_census/REPORT.md",
+          "line": 39,
+          "line_end": 54,
+          "quote": "## Renderer-Korrektur\n\nDie beiden alten Sätze werden als gesprochene Ganzwortwerte abgezogen. Der\nexplorative Arbeitsdefault lautet nun für beide Formen:\n\n> **Wärme-/Mittelstufenfeld; genaue Funktion und Träger offen.**\n\nDas ist bewusst nicht „bedeutungslos“. Der gemeinsame Wärme-/Stufenansatz\nbleibt als Arbeitshypothese erhalten, weil er die Formfamilie weiterhin knapp\nbeschreibt und hier nicht unmöglich wird. Nicht mehr behauptet werden:\n\n- `qokeol` sei bereits als Imperativ „erhitze“ identifiziert;\n- sein Patient sei bereits „Drogenstoff“;\n- `okeol` bezeichne bereits einen „Grundansatz“;\n- der sichtbare q/Basis-Unterschied schalte sicher zwischen Handlung und\n  Zubereitung um.",
+          "sha256": "c4501622f42d32ab0935d148456688465a564ed99d49f32fc7ee7607c36b5f0f"
+        },
+        {
+          "path": "experiments/yolo/gdt753_qokeol_okeol_whole_role_census/REPORT.md",
+          "line": 12,
+          "line_end": 19,
+          "quote": "| Form | vollständige Felder | Prozess/Stoff + Mittelstufe | Zubereitung |\n|---|---:|---:|---:|\n| `qokeol` | 15 | 3 auf 2 Seiten | 6 auf 6 Seiten |\n| `okeol` | 19 | 4 auf 4 Seiten | 8 auf 8 Seiten |\n\nDer q-minus-Basis-Unterschied für Prozess/Stoff+Mittelstufe ist `-0.010526`;\nder Basis-minus-q-Unterschied für Zubereitung ist `0.021053`. Das ist\npraktisch dieselbe Verteilung, nicht die behauptete Gegenüberstellung. Der",
+          "sha256": "c4501622f42d32ab0935d148456688465a564ed99d49f32fc7ee7607c36b5f0f"
+        }
+      ],
+      "status": "unconfirmed",
+      "ready": false,
+      "scientific_test_ready": false,
+      "independent_new_idea": false,
+      "source_polarity": "historical_component_derived_whole_prose_withdrawn",
+      "scope": {
+        "version": "GDT664 G664-D030 as explicitly quoted and withdrawn by GDT753",
+        "unit": "old surface-specific spoken default for complete okeol",
+        "limits": "PRODUCTIVE_COMPOUND O_PREP+K_HOT+E_MIDDLE+OL_BASE, not an independently learned whole meaning. No substring meaning export."
+      },
+      "comparison": {
+        "counterpart_ids": [
+          "SEM:4681989f9775f2c0248c",
+          "SEM:e1512f0655cc61a60587"
+        ],
+        "reason": "The later shared heat/middle model and the separate qokeol imperative are different propositions; neither makes this old okeol sentence independently addressable.",
+        "global_identity": "not_established_by_bounded_review"
+      },
+      "failure_reason": "GDT753 withdraws the spoken base-preparation sentence because it was composed from analyst labels rather than independently identified. The base-preparation contrast is positive; the joint role gate fails on the q-process/material-middle direction. This is not an empirical rejection of every preparation interpretation."
+    }
+  ],
+  "dispositions": [],
+  "source_reassessments": [
+    {
+      "source_id": "LEGACY_COMPONENT:bdb16ce96961cd2d22b7",
+      "original_decision": "no_standalone_old_okeol_proposition_binding",
+      "decision": "partial_source_proposition_recovered_after_scope_comparison",
+      "card_ids": [
+        "CLEAN_GAP_KH:okeol_withdrawn_base_preparation"
+      ],
+      "counterpart_ids": [
+        "SEM:4681989f9775f2c0248c",
+        "SEM:e1512f0655cc61a60587"
+      ],
+      "reason": "Use the full report remainder spanning1–87, not the unrelated status-line-only remainder. The exact former value and its withdrawal are explicitly printed in the source table and text.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt753_qokeol_okeol_whole_role_census/REPORT.md",
+          "line": 25,
+          "line_end": 37,
+          "quote": "Die Provenienz ist eindeutig:\n\n| Form | bisherige Prosa | Quelle | damalige Konstruktion |\n|---|---|---|---|\n| `qokeol` | erhitze den Drogenstoff bis zur Mittelstufe | GDT666, `G666-D149` | `QO_COMMAND+K_HOT+E_MIDDLE+OL_MATERIAL` |\n| `okeol` | Grundansatz bis zur mittleren Heizstufe erwärmt | GDT664, `G664-D030` | `O_PREP+K_HOT+E_MIDDLE+OL_BASE` |\n\nBeide Karten waren ausdrücklich `PRODUCTIVE_COMPOUND` und ersetzbare\nWerkstattwerte. Die konkrete Handlung, der Drogenstoff und der Grundansatz\nwurden also aus Analystenbausteinen zusammengesetzt; sie wurden nicht als\nunabhängige Bedeutungen der beiden Ganzformen gefunden. Der heutige\nNo-component-export-Renderer darf diese Karten deshalb nicht als Bestätigung\nseiner eigenen Bausteine verwenden.",
+          "sha256": "c4501622f42d32ab0935d148456688465a564ed99d49f32fc7ee7607c36b5f0f"
+        },
+        {
+          "path": "experiments/yolo/gdt753_qokeol_okeol_whole_role_census/REPORT.md",
+          "line": 39,
+          "line_end": 54,
+          "quote": "## Renderer-Korrektur\n\nDie beiden alten Sätze werden als gesprochene Ganzwortwerte abgezogen. Der\nexplorative Arbeitsdefault lautet nun für beide Formen:\n\n> **Wärme-/Mittelstufenfeld; genaue Funktion und Träger offen.**\n\nDas ist bewusst nicht „bedeutungslos“. Der gemeinsame Wärme-/Stufenansatz\nbleibt als Arbeitshypothese erhalten, weil er die Formfamilie weiterhin knapp\nbeschreibt und hier nicht unmöglich wird. Nicht mehr behauptet werden:\n\n- `qokeol` sei bereits als Imperativ „erhitze“ identifiziert;\n- sein Patient sei bereits „Drogenstoff“;\n- `okeol` bezeichne bereits einen „Grundansatz“;\n- der sichtbare q/Basis-Unterschied schalte sicher zwischen Handlung und\n  Zubereitung um.",
+          "sha256": "c4501622f42d32ab0935d148456688465a564ed99d49f32fc7ee7607c36b5f0f"
+        },
+        {
+          "path": "experiments/yolo/gdt753_qokeol_okeol_whole_role_census/REPORT.md",
+          "line": 12,
+          "line_end": 19,
+          "quote": "| Form | vollständige Felder | Prozess/Stoff + Mittelstufe | Zubereitung |\n|---|---:|---:|---:|\n| `qokeol` | 15 | 3 auf 2 Seiten | 6 auf 6 Seiten |\n| `okeol` | 19 | 4 auf 4 Seiten | 8 auf 8 Seiten |\n\nDer q-minus-Basis-Unterschied für Prozess/Stoff+Mittelstufe ist `-0.010526`;\nder Basis-minus-q-Unterschied für Zubereitung ist `0.021053`. Das ist\npraktisch dieselbe Verteilung, nicht die behauptete Gegenüberstellung. Der",
+          "sha256": "c4501622f42d32ab0935d148456688465a564ed99d49f32fc7ee7607c36b5f0f"
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "new_historical_cards": 1,
+    "new_independent_research_ideas": 0
+  },
+  "source_review_scope": "One explicit historical old-value row; not exhaustive review of every report remainder."
+}

@@ -1,0 +1,16 @@
+{
+  "title": "An exception marker scopes to one field and then releases",
+  "summary": "A restricted exception model makes one marker override the default value of exactly one selected field, after which later fields resume the inherited default.",
+  "scope": "semantic",
+  "status": "draft_unreviewed_not_added",
+  "design": {
+    "mechanism": "single-field exception operator",
+    "unit": "multi-field record containing a defaultable field before and after one exception marker",
+    "contrast": "local override versus global mode switch",
+    "prediction": "In matched records, only the selected field changes and the next eligible field returns to the default; a global mode would propagate the change.",
+    "countermodel": "The same surface pattern could arise from a context-conditioned lexical convention or editorial packaging without the proposed semantic mechanism.",
+    "falsifier": "The same marker changes every later eligible field, or changes an unselected earlier field, under fixed record layout.",
+    "principal_risk": "Field selection and defaults are not independently meaning-bound. Near IDEA000034/042; retain as raw only if root judges the one-field release condition genuinely distinct.",
+    "endpoint_status": "availability_unknown"
+  }
+}

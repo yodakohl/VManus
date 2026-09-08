@@ -1,0 +1,28 @@
+{
+  "schema": "bounded_source_proposal_screen_v1",
+  "batch": "kf",
+  "status": "NO_NEW_CANDIDATE",
+  "screened": [
+    {
+      "source":"GDT795",
+      "observation":"source-native family/member signatures and boundary agreements are enumerated, but exact member transfer fails.",
+      "decision":"reject_existing_route",
+      "reason":"The available falsifiers are already the GDT795 member-signature and transfer tests; a new proposal would restate failed transfer or use generic signature invariance."
+    },
+    {
+      "source":"GDT486/GDT496",
+      "observation":"one-component substitutions preserve or alter fixed phrase slots in admitted frames.",
+      "decision":"reject_existing_route",
+      "reason":"Both functional substitution contrasts are already directly tested. A new candidate would not add a distinct source observation or parameter-free falsifier."
+    },
+    {
+      "source":"GDT800/GDT801",
+      "observation":"terminal l/m contrasts and closure beyond line position.",
+      "decision":"excluded_by_task_scope",
+      "reason":"The current round excludes the recent terminal-lm/boundary family."
+    }
+  ],
+  "conclusion":"No genuinely distinct kf proposal survived the bounded screen. Zero is retained rather than recycling existing source conclusions or generic invariance claims.",
+  "registry_mutation":false,
+  "scientific_status":"No proposal, review, ledger edit, refresh, build, or experiment."
+}

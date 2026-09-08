@@ -1,0 +1,16 @@
+{
+  "title": "A subclass record inherits parent properties unless an override is written",
+  "summary": "A narrow taxonomy model treats a shared head as a parent class: a child entry inherits one predeclared property, and an explicit modifier is required to override it.",
+  "scope": "semantic",
+  "status": "draft_unreviewed_not_added",
+  "design": {
+    "mechanism": "single-parent taxonomy with explicit override",
+    "unit": "paired parent/child entries sharing a head and a separately observed property",
+    "contrast": "inherited property versus independently repeated property",
+    "prediction": "Across held parent/child pairs, the child should show the parent property without repeating its marker; a written override should be the only allowed way to reverse it.",
+    "countermodel": "The same surface pattern could arise from a context-conditioned lexical convention or editorial packaging without the proposed semantic mechanism.",
+    "falsifier": "A child reverses the parent property with no override, or an override leaves the property unchanged in matched pairs.",
+    "principal_risk": "Parenthood and properties need independently bound source observations; no gold binding is assumed. Near hierarchy/whole-form cards, but the falsifier concerns inheritance and override, not shared topology.",
+    "endpoint_status": "availability_unknown"
+  }
+}

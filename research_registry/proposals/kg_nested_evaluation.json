@@ -1,0 +1,16 @@
+{
+  "title": "A nested operation evaluates its inner operand before the outer operation",
+  "summary": "A compositional model assigns an inside-out evaluation order to nested operation records, so the outer result consumes the completed inner result rather than the original input.",
+  "scope": "semantic",
+  "status": "draft_unreviewed_not_added",
+  "design": {
+    "mechanism": "inside-out nested operation evaluation",
+    "unit": "a record with visibly nested inner and outer operation shells and a carried operand",
+    "contrast": "inner-first composition versus flat left-to-right sequencing",
+    "prediction": "Where both shells are present, the outer operation should take the inner result as its operand; changing the inner operand should alter the outer input while leaving an untouched external operand unchanged.",
+    "countermodel": "The same surface pattern could arise from a context-conditioned lexical convention or editorial packaging without the proposed semantic mechanism.",
+    "falsifier": "The outer operation consistently targets the original operand while the inner result is an independent side product, under a fixed nested construction.",
+    "principal_risk": "Nested shell boundaries and operation/result meanings are not independently bound. Near composition and continuation families, but the falsifier is operand routing inside a nested unit.",
+    "endpoint_status": "availability_unknown"
+  }
+}

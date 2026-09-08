@@ -1,0 +1,16 @@
+{
+  "title": "A binary state form flips at a predeclared threshold",
+  "summary": "A threshold model assigns a binary state marker to whether a measured property is below or above one fixed threshold, rather than treating the marker as an ordinal quantity or free quality modifier.",
+  "scope": "semantic",
+  "status": "draft_unreviewed_not_added",
+  "design": {
+    "mechanism": "fixed-threshold state classifier",
+    "unit": "records with a comparable measured property and a binary state form",
+    "contrast": "thresholded state versus ordinal/continuous value",
+    "prediction": "After calibrating the threshold on a designated development set, all held values on the same scale below it receive one state and all above it the other, with no dependence on record position.",
+    "countermodel": "The proposed rule may be an analyst projection: the same observations could arise from a context-conditioned lexical or editorial convention without the proposed semantic operator.",
+    "falsifier": "A held value on the same scale crosses the threshold but retains the old state, or equal-side values split by position with no scale change.",
+    "principal_risk": "A shared physical scale and independent measurements are unknown; no threshold is asserted. Near quantity/grade cards, but its falsifier is a fixed decision boundary rather than conservation, ordinal counting, or degree insertion.",
+    "endpoint_status": "availability_unknown"
+  }
+}

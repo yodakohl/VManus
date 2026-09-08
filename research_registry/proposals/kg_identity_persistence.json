@@ -1,0 +1,16 @@
+{
+  "title": "A stable item identifier survives a transformation while attributes change",
+  "summary": "A transformation model treats one token slot as an item identity carried through successive operations; material/state attributes may change, but the identity marker remains linked.",
+  "scope": "semantic",
+  "status": "draft_unreviewed_not_added",
+  "design": {
+    "mechanism": "persistent identity with mutable attributes",
+    "unit": "two-step transformation record with a source item, operation, and resulting item",
+    "contrast": "same individual through change versus newly introduced item",
+    "prediction": "In held multi-step records, the identity-bearing form should recur at source and result positions even when state/material attributes differ; a new item requires an explicit introduction marker.",
+    "countermodel": "The same surface pattern could arise from a context-conditioned lexical convention or editorial packaging without the proposed semantic mechanism.",
+    "falsifier": "A result changes state but uses the introduction pattern while the source identity pattern persists, or identity recurrence occurs across unrelated records without a transformation link.",
+    "principal_risk": "Independent item identity is currently unavailable. Near apposition/reference and relation-chain ideas, but requires persistence across change rather than adjacency or document direction.",
+    "endpoint_status": "availability_unknown"
+  }
+}
