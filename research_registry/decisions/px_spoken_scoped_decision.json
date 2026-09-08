@@ -1,0 +1,295 @@
+{
+  "id": "FAILURE_PX:SPOKEN_PROJECTION_734_SCOPE:v1",
+  "decision_key": "FAILURE_PX:SPOKEN_PROJECTION_734_SCOPE",
+  "previous_revision": null,
+  "revision": 1,
+  "targets": [
+    "SEM:be84d0a51666f65befca"
+  ],
+  "claim": "Which local reference, patient or extraction claim in the twenty-eight-entry spoken policy can be independently licensed for a portable reading?",
+  "status": "reviewed_scoped_context",
+  "review_status": "reviewed_scoped_context",
+  "reviewer": "root exact source and projection-scope review",
+  "scope": "The twenty-eight editorial entries in the lower-priority active-whole export path only; stored lexical cores and exact context/span realizations remain separate.",
+  "reason_class": "source_scope_revision_or_unidentified_model_contrast",
+  "actually_tested_falsifier": "GDT734 shortened26spoken outputs and retained2open ones while preserving stored cores, scores and evidence. Some changes are paraphrases; others suppress globally unlicensed reference, patient, extraction or action content. The305repair cells belong to the broader71-whole repair, not an independently counted28-entry semantic panel.",
+  "outcome": "The finite spoken policy and its restrictions are retained as historical interpretation scope. No empirical word-meaning comparison was performed in this recovery.",
+  "empirical_meaning_refutation": false,
+  "automatic_card_status_propagation": false,
+  "claim_ceiling": "No lexical core rewrite, empirical rejection of extraction or proof of semantic portability.",
+  "card_basis": {
+    "SEM:be84d0a51666f65befca": "43ccb4e931eec5f7ddc1f6ce05b1b279eaad25342052ba54ce124951cca812f5"
+  },
+  "effective_basis": {
+    "SEM:be84d0a51666f65befca": "cd120ac81aa27fd5048f85c36af752112d4e1ffda8ea7f94ab78fd4ba49912e9"
+  },
+  "source_case_ids": {
+    "SEM:be84d0a51666f65befca": [
+      "CLEAN_GAP_PV:EDITORIAL_YTEDY",
+      "CLEAN_GAP_PV:EDITORIAL_ODAR",
+      "CLEAN_GAP_PV:EDITORIAL_ORAM",
+      "CLEAN_GAP_PV:EDITORIAL_OS",
+      "CLEAN_GAP_PV:EDITORIAL_CKHOL",
+      "CLEAN_GAP_PV:EDITORIAL_QOCKHOL",
+      "CLEAN_GAP_PV:EDITORIAL_QEEEY",
+      "CLEAN_GAP_PV:EDITORIAL_LS",
+      "CLEAN_GAP_PV:EDITORIAL_AROR",
+      "CLEAN_GAP_PV:EDITORIAL_QOPAIIN",
+      "CLEAN_GAP_PV:EDITORIAL_CHEPY",
+      "CLEAN_GAP_PV:EDITORIAL_YKCHO",
+      "CLEAN_GAP_PV:EDITORIAL_CHOKOL",
+      "CLEAN_GAP_PV:EDITORIAL_QOCHO",
+      "CLEAN_GAP_PV:EDITORIAL_QOPCHOL",
+      "CLEAN_GAP_PV:EDITORIAL_DCHAL",
+      "CLEAN_GAP_PV:EDITORIAL_ALCHED",
+      "CLEAN_GAP_PV:EDITORIAL_DSHEES",
+      "CLEAN_GAP_PV:EDITORIAL_QOLSHEEDY",
+      "CLEAN_GAP_PV:EDITORIAL_OLPCHEDY",
+      "CLEAN_GAP_PV:EDITORIAL_OFCHEDY",
+      "CLEAN_GAP_PV:EDITORIAL_QOKEOD",
+      "CLEAN_GAP_PV:EDITORIAL_QOEEO",
+      "CLEAN_GAP_PV:EDITORIAL_OTEED",
+      "CLEAN_GAP_PV:EDITORIAL_KEEOD",
+      "CLEAN_GAP_PV:EDITORIAL_DOLD",
+      "CLEAN_GAP_PV:EDITORIAL_CHECTHEDY",
+      "CLEAN_GAP_PV:EDITORIAL_KEO"
+    ]
+  },
+  "evidence": [
+    {
+      "line": 2,
+      "line_end": 2,
+      "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/src/ACTIVE_WHOLE_EDITORIAL_SPECS.tsv",
+      "quote": "ytedy\tytedy#1\thiervon bis zur Mittelstufe abkühlen und abschließen\tbis zur Mittelstufe abkühlen und abschließen\tRENDERER_REVISE\tOPEN_DEICTIC_SOURCE\tDer portable Aktionskern bewahrt Kühlung, Mittelstufe und Abschluss; hiervon wird nicht an Cache-Stellen ohne sichtbaren Referenten globalisiert.\tDer deiktische Ausgang ist nur an der aktiven gebundenen Position belegt und bleibt occurrence-lokal.",
+      "sha256": "6fb256e99c054d29c1e78eab9df9092c213353e5e5014240fa8248ec55a9d54e"
+    },
+    {
+      "line": 35,
+      "line_end": 46,
+      "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/REPORT.md",
+      "quote": "28 der formal exportierbaren aktiven Ganzwörter wurden zusätzlich redaktionell\ngeprüft. 26 erhalten eine kürzere gesprochene\nFassung, ohne Score, Evidenz oder gespeicherten semantischen Kern umzuschreiben.\nSo wird etwa `Mischgut` zu `Mischung`, `heißen Auszug bereiten` zu `Ansatz\nerhitzen`, und occurrence-lokale Patienten verschwinden aus portablen Kernen.\n`os=Zubereitung` und `dold=abmessen und abschließen` bleiben sichtbar offen,\nstatt mit erfundenem Stoff oder Patienten aufgefüllt zu werden.\n\nDiese gesprochene Fassung gilt für die 305 zuvor ausgelassenen\nGanzwortprojektionen. Bereits vorhandene exakte V99-Kontexte und gebundene\nSpans behalten als höhere Präzedenz ihre positionsgebundene Realisierung; die\nabweichende Ausgabe derselben Oberfläche ist damit explizit lokal und kein",
+      "sha256": "7765792747307d5a8097da614d2a834466880f1d2b3942c7c9367bf73f11bfba"
+    },
+    {
+      "line": 7,
+      "line_end": 13,
+      "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/REPORT.md",
+      "quote": "Der erste, rein technische Pass findet einen reproduzierbaren\nV99R6/V99R7-Projektionsfehler: 71 aktive Ganzwortlesungen\nwaren als `ACTIVE_WORKING_DEFAULT` und bedingungslos exportierbar markiert,\nblieben in GDT733 aber an 305 identischen Cache-Stellen `?`, weil dessen\nProjektionsfilter nur die ältere `GLOBAL_V48_DEFAULT`-Schicht einsammelte.\nV99R7 repariert alle 305 Stellen. `dchey` und `olkar` bleiben als die beiden\nbewusst kontext- beziehungsweise spangebundenen Ausnahmen draußen.",
+      "sha256": "7765792747307d5a8097da614d2a834466880f1d2b3942c7c9367bf73f11bfba"
+    },
+    {
+      "line": 3,
+      "line_end": 3,
+      "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/src/ACTIVE_WHOLE_EDITORIAL_SPECS.tsv",
+      "quote": "odar\todar#1\tAnteil I des Ansatzes abmessen\tAnteil I abmessen\tRENDERER_REVISE\tOPEN_PATIENT\tAbmessen und Anteil I bleiben als konkrete portable Aktion erhalten; der Ansatzpatient wird nicht aus zwei aktiven Positionen in alle Cache-Kontexte exportiert.\tAnsatz, Auszug und anderer lokaler Stoff bleiben konkurrierende Patienten.",
+      "sha256": "6fb256e99c054d29c1e78eab9df9092c213353e5e5014240fa8248ec55a9d54e"
+    },
+    {
+      "line": 4,
+      "line_end": 4,
+      "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/src/ACTIVE_WHOLE_EDITORIAL_SPECS.tsv",
+      "quote": "oram\toram#1\tMaßportion\tein Maß\tRENDERER_REVISE\tOPEN_UNIT\tEin Maß ist natürliches Werkstattdeutsch und bewahrt den Messkern, ohne Maß und Portion tautologisch zu verdoppeln.\tDie historische Einheit und ein möglicher Portionsbezug bleiben offen.",
+      "sha256": "6fb256e99c054d29c1e78eab9df9092c213353e5e5014240fa8248ec55a9d54e"
+    },
+    {
+      "line": 5,
+      "line_end": 5,
+      "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/src/ACTIVE_WHOLE_EDITORIAL_SPECS.tsv",
+      "quote": "os\tos#1\tZubereitung\tZubereitung\tHOLD_UNCHANGED\tGENERIC_BLOCKER\tDer formal exportierbare Ganzwert wird nicht erfunden präzisiert; die Stelle bleibt als unspezifischer Zubereitungskopf sichtbar.\tDer Wert unterscheidet Stoff, Ansatz, Produkt und Gefäßinhalt nicht.",
+      "sha256": "6fb256e99c054d29c1e78eab9df9092c213353e5e5014240fa8248ec55a9d54e"
+    },
+    {
+      "line": 6,
+      "line_end": 6,
+      "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/src/ACTIVE_WHOLE_EDITORIAL_SPECS.tsv",
+      "quote": "ckhol\tckhol#V84_1\tMischgut\tMischung\tRENDERER_REVISE\tOPEN_IDENTITY\tMischung ist natürliches Deutsch und bewahrt den vorhandenen Mischkern ohne das logistische Kunstwort Mischgut.\tStoff, Produkt und bloßer Mischzustand bleiben offen.",
+      "sha256": "6fb256e99c054d29c1e78eab9df9092c213353e5e5014240fa8248ec55a9d54e"
+    },
+    {
+      "line": 7,
+      "line_end": 7,
+      "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/src/ACTIVE_WHOLE_EDITORIAL_SPECS.tsv",
+      "quote": "qockhol\tqockhol#V84_1\tMischgut zugeben\tMischung zugeben\tRENDERER_REVISE\tOPEN_PATIENT\tDie vorhandene Aktion bleibt erhalten; nur der unnatürliche Patient Mischgut wird zu Mischung geglättet.\tDie konkrete Mischung oder Arznei ist nicht identifiziert.",
+      "sha256": "6fb256e99c054d29c1e78eab9df9092c213353e5e5014240fa8248ec55a9d54e"
+    },
+    {
+      "line": 8,
+      "line_end": 8,
+      "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/src/ACTIVE_WHOLE_EDITORIAL_SPECS.tsv",
+      "quote": "qeeey\tqeeey#1\tdie vorstehende Behandlung bis zur letzten Stufe führen und abschließen\tbis zur Endstufe weiterführen und abschließen\tRENDERER_REVISE\tOPEN_PATIENT\tDie Metasprache Behandlung wird entfernt; Weiterführung und Abschluss bleiben hörbar.\tDer fortgeführte Patient ist deiktisch und nicht im Ganzwort identifiziert.",
+      "sha256": "6fb256e99c054d29c1e78eab9df9092c213353e5e5014240fa8248ec55a9d54e"
+    },
+    {
+      "line": 9,
+      "line_end": 9,
+      "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/src/ACTIVE_WHOLE_EDITORIAL_SPECS.tsv",
+      "quote": "ls\tls#1\teine Charge Holz\tein Posten Drogenholz\tRENDERER_REVISE\tOPEN_UNIT\tDrogenholz vermeidet die Brennholzlesung; Posten bewahrt einen einzelnen Arbeitsbestand, ohne eine Portion oder historische Einheit zu erfinden.\tDie genaue Einheit und Holzart bleiben offen.",
+      "sha256": "6fb256e99c054d29c1e78eab9df9092c213353e5e5014240fa8248ec55a9d54e"
+    },
+    {
+      "line": 10,
+      "line_end": 10,
+      "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/src/ACTIVE_WHOLE_EDITORIAL_SPECS.tsv",
+      "quote": "aror\taror#1\teine Portion des Drogenanteils I\tein Teil aus Anteil I\tRENDERER_REVISE\tOPEN_MATERIAL\tDie verschachtelte Wiederholung Portion des Anteils wird zu einer lesbaren Teilrelation geglättet, ohne eine Portionseinheit festzuschreiben.\tDas Ausgangsmaterial und Teil gegen Portion oder Fraktion bleiben offen.",
+      "sha256": "6fb256e99c054d29c1e78eab9df9092c213353e5e5014240fa8248ec55a9d54e"
+    },
+    {
+      "line": 11,
+      "line_end": 11,
+      "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/src/ACTIVE_WHOLE_EDITORIAL_SPECS.tsv",
+      "quote": "qopaiin\tqopaiin#1\tdrei Teile Pulverzubereitung\tdrei Teile Pulver\tRENDERER_REVISE\tOPEN_UNIT\tPulver ist praktischer als Pulverzubereitung; Teile bewahrt die gespeicherte Dreimenge ohne eine Portionseinheit zu erfinden.\tDer aiin-Teil allein lizenziert keine universelle Kardinalzahl oder Einheit.",
+      "sha256": "6fb256e99c054d29c1e78eab9df9092c213353e5e5014240fa8248ec55a9d54e"
+    },
+    {
+      "line": 12,
+      "line_end": 12,
+      "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/src/ACTIVE_WHOLE_EDITORIAL_SPECS.tsv",
+      "quote": "chepy\tchepy#1\tTrockenpulver in Grundform\ttrockenes Pulver, Grundform\tRENDERER_REVISE\tOPEN_FORM_NAME\tDie attributive Fassung ist natürliches Deutsch und bewahrt Pulver, Trockenzustand und Grundform.\tGrundform ist ein Arbeitsindex, kein historisch identifizierter Formname.",
+      "sha256": "6fb256e99c054d29c1e78eab9df9092c213353e5e5014240fa8248ec55a9d54e"
+    },
+    {
+      "line": 13,
+      "line_end": 13,
+      "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/src/ACTIVE_WHOLE_EDITORIAL_SPECS.tsv",
+      "quote": "ykcho\tykcho#1\twarme Trockenmischung\terwärmte Trockenmischung\tRENDERER_REVISE\tOPEN_HEAT_DEGREE\tErwärmt bindet den k-Zustand an einen Arbeitsprozess, ohne eine exakte Temperatur vorzutäuschen.\tWarm gegen heiß und Mischung gegen Zubereitung bleiben offen.",
+      "sha256": "6fb256e99c054d29c1e78eab9df9092c213353e5e5014240fa8248ec55a9d54e"
+    },
+    {
+      "line": 14,
+      "line_end": 14,
+      "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/src/ACTIVE_WHOLE_EDITORIAL_SPECS.tsv",
+      "quote": "chokol\tchokol#V84_1\theißes Trockengut\terhitzte trockene Zubereitung\tRENDERER_REVISE\tOPEN_PRODUCT_HEAD\tDie Fassung bewahrt Hitze und Trockenzustand, ohne aus dem alten Trockengut heimlich eine medizinische Droge zu machen.\tZubereitung, Trockengut und getrockneter Stoff bleiben offene Produktköpfe.",
+      "sha256": "6fb256e99c054d29c1e78eab9df9092c213353e5e5014240fa8248ec55a9d54e"
+    },
+    {
+      "line": 15,
+      "line_end": 15,
+      "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/src/ACTIVE_WHOLE_EDITORIAL_SPECS.tsv",
+      "quote": "qocho\tqocho#1\tTrockengut\tgetrocknete Zubereitung\tRENDERER_REVISE\tACTION_LOCAL_ONLY\tDer portable Ganzwortkern bleibt nominal und konkretisiert nur einen getrockneten Zubereitungszustand.\tNehmen ist nur an der exakten aktionslizenzierten Position erlaubt; Zubereitung gegen Trockengut bleibt offen.",
+      "sha256": "6fb256e99c054d29c1e78eab9df9092c213353e5e5014240fa8248ec55a9d54e"
+    },
+    {
+      "line": 16,
+      "line_end": 16,
+      "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/src/ACTIVE_WHOLE_EDITORIAL_SPECS.tsv",
+      "quote": "qopchol\tqopchol#1\tnimm getrockneten Pulverstoff\tgetrocknetes Pulver nehmen\tRENDERER_REVISE\tOPEN_POWDER_IDENTITY\tDie Wortstellung wird natürlich und Pulverstoff zu Pulver verkürzt, ohne die vorhandene Aktion zu verlieren.\tDie konkrete Pulversubstanz bleibt unbekannt.",
+      "sha256": "6fb256e99c054d29c1e78eab9df9092c213353e5e5014240fa8248ec55a9d54e"
+    },
+    {
+      "line": 17,
+      "line_end": 17,
+      "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/src/ACTIVE_WHOLE_EDITORIAL_SPECS.tsv",
+      "quote": "dchal\tdchal#1\tangetrocknetes, abgemessenes Material I\tangetrockneter, abgemessener Anteil I\tRENDERER_REVISE\tOPEN_MATERIAL\tDie Fassung bewahrt Trockenzustand, Abmessung und Index I, ohne eine neue Portionseinheit zu erfinden.\tDer konkrete Stoff und Anteil gegen Fraktion bleiben offen.",
+      "sha256": "6fb256e99c054d29c1e78eab9df9092c213353e5e5014240fa8248ec55a9d54e"
+    },
+    {
+      "line": 18,
+      "line_end": 18,
+      "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/src/ACTIVE_WHOLE_EDITORIAL_SPECS.tsv",
+      "quote": "alched\talched#1\tMaterial I, bis Mittelstufe getrocknet und abgeschlossen\tRohstoff I, mitteltrocken; abgeschlossen\tRENDERER_REVISE\tOPEN_MATERIAL\tDie Fassung spricht Klasse I, Trockenzustand und Abschluss kurz aus, ohne eine unbelegte Portionseinheit einzuführen.\tDer konkrete Rohstoff und Anteil gegen Materialklasse bleiben offen.",
+      "sha256": "6fb256e99c054d29c1e78eab9df9092c213353e5e5014240fa8248ec55a9d54e"
+    },
+    {
+      "line": 19,
+      "line_end": 19,
+      "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/src/ACTIVE_WHOLE_EDITORIAL_SPECS.tsv",
+      "quote": "dshees\tdshees#1\tabgemessene feuchte Form, Endstufe\tabgemessene feuchte Zubereitung, Endstufe\tRENDERER_REVISE\tOPEN_PRODUCT_HEAD\tDie Fassung bewahrt Abmessung, Feuchte und Endstufe, ohne eine neue Portionseinheit zu erfinden.\tZubereitung gegen Form- oder Chargenwert bleibt offen.",
+      "sha256": "6fb256e99c054d29c1e78eab9df9092c213353e5e5014240fa8248ec55a9d54e"
+    },
+    {
+      "line": 20,
+      "line_end": 20,
+      "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/src/ACTIVE_WHOLE_EDITORIAL_SPECS.tsv",
+      "quote": "qolsheedy\tqolsheedy#1\tvollständig eingeweichten Drogenstoff zugeben und abschließen\tvollständig Eingeweichtes zugeben und abschließen\tRENDERER_REVISE\tOPEN_PATIENT\tEinweichen, Zugabe und Abschluss bleiben hörbar, ohne einen Stoff oder eine Portionseinheit zu erfinden.\tDer konkrete Patient bleibt offen.",
+      "sha256": "6fb256e99c054d29c1e78eab9df9092c213353e5e5014240fa8248ec55a9d54e"
+    },
+    {
+      "line": 21,
+      "line_end": 21,
+      "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/src/ACTIVE_WHOLE_EDITORIAL_SPECS.tsv",
+      "quote": "olpchedy\tolpchedy#1\tfertiges Holzextraktpulver\tfertiges Pulver aus Drogenholz\tRENDERER_REVISE\tEXTRACT_UNSUPPORTED\tDie Herkunft aus Drogenholz und das fertige Pulver bleiben; die unbelegte Extraktionsbehauptung entfällt.\tPulver aus Holz kann weiterhin Extrakt, Abrieb oder getrocknete Zubereitung sein.",
+      "sha256": "6fb256e99c054d29c1e78eab9df9092c213353e5e5014240fa8248ec55a9d54e"
+    },
+    {
+      "line": 22,
+      "line_end": 22,
+      "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/src/ACTIVE_WHOLE_EDITORIAL_SPECS.tsv",
+      "quote": "ofchedy\tofchedy#1\tBlütenmaterial; vollständig getrocknet\tvollständig getrockneter Blüten-/Fruchtstand\tRENDERER_REVISE\tFLOWER_FRUIT_RIVAL\tDie Ausgabe bewahrt einen konkreten reproduktiven Pflanzenteil und den fertigen Trockenzustand.\tBlüte gegen Fruchtstand bleibt sichtbar offen; keine Art ist identifiziert.",
+      "sha256": "6fb256e99c054d29c1e78eab9df9092c213353e5e5014240fa8248ec55a9d54e"
+    },
+    {
+      "line": 23,
+      "line_end": 23,
+      "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/src/ACTIVE_WHOLE_EDITORIAL_SPECS.tsv",
+      "quote": "qokeod\tqokeod#1\theißen Auszug bereiten und abschließen\tAnsatz erhitzen und abschließen\tRENDERER_REVISE\tEXTRACTION_UNSUPPORTED\tDer sichere Hitze- und Abschlusskern bleibt, während die unbelegte Extraktion zu einem neutraleren Ansatz zurückgenommen wird.\tAnsatz gegen Auszug oder Sud bleibt offen.",
+      "sha256": "6fb256e99c054d29c1e78eab9df9092c213353e5e5014240fa8248ec55a9d54e"
+    },
+    {
+      "line": 24,
+      "line_end": 24,
+      "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/src/ACTIVE_WHOLE_EDITORIAL_SPECS.tsv",
+      "quote": "qoeeo\tqoeeo#V84_1\tzweite Feuchtzubereitung\tzweiter feuchter Ansatz\tRENDERER_REVISE\tOPEN_PRODUCT_HEAD\tDie Fassung ist kürzer und konkretisiert den feuchten zweiten Ansatz ohne das Kunstwort Feuchtzubereitung.\tAnsatz gegen Mazerat oder feuchtes Produkt bleibt offen.",
+      "sha256": "6fb256e99c054d29c1e78eab9df9092c213353e5e5014240fa8248ec55a9d54e"
+    },
+    {
+      "line": 25,
+      "line_end": 25,
+      "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/src/ACTIVE_WHOLE_EDITORIAL_SPECS.tsv",
+      "quote": "oteed\toteed#1\tvollständig abgekühlt; abgezogen\tvollständig abgekühlt; entnommen\tRENDERER_REVISE\tOPEN_SOURCE\tEntnommen vermeidet die unbelegte technische Auszugsbedeutung von abgezogen.\tQuelle, Gefäß und Patient bleiben offen; auch bloßer Resultatzustand ist möglich.",
+      "sha256": "6fb256e99c054d29c1e78eab9df9092c213353e5e5014240fa8248ec55a9d54e"
+    },
+    {
+      "line": 26,
+      "line_end": 26,
+      "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/src/ACTIVE_WHOLE_EDITORIAL_SPECS.tsv",
+      "quote": "keeod\tkeeod#1\tvollständig erhitzt; abgezogen\tvollständig erhitzt; entnommen\tRENDERER_REVISE\tOPEN_SOURCE\tEntnommen vermeidet die unbelegte technische Auszugsbedeutung von abgezogen.\tQuelle, Gefäß und Patient bleiben offen; auch bloßer Resultatzustand ist möglich.",
+      "sha256": "6fb256e99c054d29c1e78eab9df9092c213353e5e5014240fa8248ec55a9d54e"
+    },
+    {
+      "line": 27,
+      "line_end": 27,
+      "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/src/ACTIVE_WHOLE_EDITORIAL_SPECS.tsv",
+      "quote": "dold\tdold#1\tabmessen und abschließen\tabmessen und abschließen\tHOLD_UNCHANGED\tOPEN_PATIENT\tDie knappe Aktion ist brauchbar und wird nicht mit einem erfundenen Patienten aufgefüllt.\tOhne lokalen Kontext ist sie keine vollständige Rezeptanweisung.",
+      "sha256": "6fb256e99c054d29c1e78eab9df9092c213353e5e5014240fa8248ec55a9d54e"
+    },
+    {
+      "line": 28,
+      "line_end": 28,
+      "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/src/ACTIVE_WHOLE_EDITORIAL_SPECS.tsv",
+      "quote": "checthedy\tchecthedy#1\tKrautdroge mäßig trocknen, nochmals mäßig trocknen und abschließen\tmäßig trocknen, nachtrocknen und abschließen\tRENDERER_REVISE\tPATIENT_LOCAL_ONLY\tDer doppelte Trocknungsgang und Abschluss bleiben; der occurrence-lokale Krautkopf wird nicht globalisiert.\tPatient und genaue Stufe bleiben offen.",
+      "sha256": "6fb256e99c054d29c1e78eab9df9092c213353e5e5014240fa8248ec55a9d54e"
+    },
+    {
+      "line": 29,
+      "line_end": 29,
+      "path": "experiments/yolo/gdt734_v99r7_recurrent_unknown_family_dispatch/src/ACTIVE_WHOLE_EDITORIAL_SPECS.tsv",
+      "quote": "keo\tkeo#1\theiße Zubereitung, Mittelstufe\terhitzter Ansatz, Mittelstufe\tRENDERER_REVISE\tBOUND_SPAN_PRECEDENCE\tDie Soloform wird natürlich und konkret; bestehende keo+r-Spans haben weiterhin Vorrang und rendern nur einmal.\tAnsatz gegen Zubereitung und die genaue Mittelstufe bleiben offen.",
+      "sha256": "6fb256e99c054d29c1e78eab9df9092c213353e5e5014240fa8248ec55a9d54e"
+    }
+  ],
+  "review_artifact": {
+    "path": "research_registry/decisions/px_spoken_scope_question.json",
+    "sha256": "7f0aa44ad876dd7c0727c136e15ba4a69d8024e51c0464ce40cf15a42798df6a"
+  },
+  "reopening": {
+    "status": "REVIEW_REQUIRED_NOT_TEST_READY",
+    "assessed_by": "curation_review",
+    "criteria_origin": "Prospective source-memory question, not an original preregistered semantic test.",
+    "all_of": [
+      "Select one entry and a genuinely differing interpretation-scope prediction, identify the independent observable and the relevant local/portable comparison, and preserve the actual source precedence. Do not require every unrelated open aspect at once."
+    ],
+    "per_aspect": {
+      "reference_patient": "For ytedy, odar, qeeey, qolsheedy or checthedy, an independently observed reference or participant difference must justify adding the local content elsewhere; the reader field itself is not that observation.",
+      "extraction": "For qokeod or olpchedy, distinguish extraction from other preparation or material accounts. Omitting extraction from a conservative spoken output does not demonstrate that the older lexical hypothesis is false.",
+      "action": "Qocho retains an occurrence-local action allowance. A new portable-action proposal needs an actual differing consequence outside that exact licensed context, not a q-prefix assumption.",
+      "identity_unit": "Powder, wood, flower/fruit, numbered share and stage labels remain different unresolved questions; a numerical contrast can proceed without full material identification.",
+      "precedence": "A general spoken default and an exact local span may intentionally differ. Do not count such differences as semantic contradictions or extra independent discoveries."
+    },
+    "not_sufficient": [
+      "A more fluent spoken paraphrase or reduced unknown-output count.",
+      "Treating extraction-unsupported as empirical extraction-refuted.",
+      "Counting the305repair cells as a new28-entry semantic test.",
+      "Applying a local patient or action globally because its field was once rendered."
+    ]
+  }
+}

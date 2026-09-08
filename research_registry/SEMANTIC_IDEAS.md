@@ -17,17 +17,17 @@ Earlier four-hour curation delta: [scoped results](decisions/semantic_4h_complet
 
 | Unit | Count |
 |---|---:|
-| Active semantic hypothesis variants | 3,945 |
+| Active semantic hypothesis variants | 3,946 |
 | Separately typed formal-role cards | 266 |
-| Reviewed source cases, including the correction archive | 4,865 |
+| Reviewed source cases, including the correction archive | 4,893 |
 | Archived source-extraction errors | 52 |
-| Exact normalized assertion repetitions grouped | 602 |
+| Exact normalized assertion repetitions grouped | 629 |
 | Reviewed equivalence groups / display reduction | 86 / 104 |
-| Public semantic display entries | 3,842 |
+| Public semantic display entries | 3,843 |
 
 These are different units, not a deduplicated total of independent theories.
 A local ignored supplement contributes95 semantic cards and one formal card;
-the ordinary local default therefore displays3,937 semantic entries. A fresh
+the ordinary local default therefore displays3,938 semantic entries. A fresh
 public clone has the public view only. Local source files and quotes are not
 published or silently folded into public counts.
 
