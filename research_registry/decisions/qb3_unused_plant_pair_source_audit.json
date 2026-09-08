@@ -1,0 +1,51 @@
+{
+  "decision": "STOP_EXACT_PAIR_PROVENANCE_NOT_RECOVERED_NO_ADMISSION_JUSTIFIED",
+  "pairs": [
+    {
+      "pair": "f43r–f101v[2,5]",
+      "small_plant_locator": "Inherited card supplies row2,item5 only; no independently recovered source diagram/coordinate mapping.",
+      "rating": null,
+      "original_publication_pointer": null,
+      "human_relation_evidence": null,
+      "text_endpoints": "No exact small-plant inscription or larger-plant prose binding recovered from the inspected tracked sources. Whole-page prose may exist but was not checked or assigned here.",
+      "missing": "Original rated-table row and source publication; actual text endpoint; present exposure status."
+    },
+    {
+      "pair": "f52v–f101r[1,1]",
+      "small_plant_locator": "Inherited card supplies row1,item1 only; source row and exact physical region not independently recovered.",
+      "rating": null,
+      "original_publication_pointer": null,
+      "human_relation_evidence": null,
+      "text_endpoints": "GDT812 primary explicitly states f101r has zero local inscription loci and three paragraphs in ten lines. Thus no singular small-plant name label may be inferred for [1,1]. Whole-page prose exists, but assignment to this individual plant is not established.",
+      "missing": "Original rated-table row and source publication; actual part/whole contrast rather than inherited similarity; present exposure status."
+    }
+  ],
+  "bounded_source_checks": [
+    {
+      "path": "experiments/semantic_assumptions/cache/existing_human_annotations/stolfi_2025_internal_plant_pairs.tsv",
+      "method": "Header inspection then guarded query-tsv first_page allow f43r,f52v; explicit relation metadata columns only.",
+      "result": "0 selected of12 nonallowed rows; neither requested pair recovered. No source_url inferred from other rows."
+    },
+    {
+      "path": "experiments/semantic_assumptions/cache/existing_human_annotations/manual_herbal_internal_relations.tsv",
+      "method": "Header inspection then two guarded query-tsv calls page_a and page_b allow f43r,f52v; explicit relation metadata columns only.",
+      "result": "0 selected of24 nonallowed rows in each direction; neither pair recovered."
+    }
+  ],
+  "primary_report_missing": "results/recovered_human_plant_relation_exposure_audit.md remains absent; earlier bounded search also found no relocated copy. HIST:328950443bb428c5 preserves an exposure-summary claim only, not ratings, source URL, exact endpoint texts or proof that these remain untouched today.",
+  "current_admission_implication": "f101r is already admitted and was natively inspected in GDT812. f52v would require an additional admission; f43r and f101v would require additional admission keys under the checked route. New access could inspect the drawings but would not reconstruct the missing source assertion or create a local label on f101r. Current admission is not an unexposed-data certification.",
+  "contrast_requirement": "A whole-page joint model need not have branch labels, so f101r no-label alone does not forbid all semantic research. But two asserted same-plant similarities with unverified regions do not define a part-changing or identity-preserving counterfactual. Before an admission proposal, recover the actual relation statement and specify which depicted part is retained versus changed, plus a comparison on which whole-name and part-description models predict differently. No such concrete contrast was recovered.",
+  "not_authorized": "No image, new admission, manuscript text body, field-similarity score, corpus scan, registry mutation or publication. Null evidence fields mean missing, not zero or poor rating.",
+  "primary_evidence": {
+    "path": "experiments/yolo/gdt812_additional_page_semantic_bridge/REPORT.md",
+    "line": 30,
+    "line_end": 35,
+    "quote": "   f100v has13 local inscription loci and one9-line paragraph. f101r has no\n   local loci and three paragraphs in10 lines; two broad visual text bands\n   must not be miscounted as two paragraphs. Its displaced lower vessel is\n   real, but no local label exists to track with that movement. No proximity\n   rule or missing label is invented to rescue that test.\n   [Detailed visual comparison](src/VISUAL_LAYOUT_REVIEW.md).",
+    "sha256": "826a5fe21f0cc7e60cda633b72f4b475950a7d21c66f7be8126d8b4098f5cc32"
+  },
+  "source_hashes": {
+    "experiments/semantic_assumptions/cache/existing_human_annotations/stolfi_2025_internal_plant_pairs.tsv": "53248c1ab2a50ec43a56ecee0bb22478a890a00f38671c75882620d8c5d28230",
+    "experiments/semantic_assumptions/cache/existing_human_annotations/manual_herbal_internal_relations.tsv": "8cfaed94f7b05693dbe79173bc8da2637d6bed69badb9dd23698e28941e2530e",
+    "experiments/yolo/gdt812_additional_page_semantic_bridge/REPORT.md": "826a5fe21f0cc7e60cda633b72f4b475950a7d21c66f7be8126d8b4098f5cc32"
+  }
+}

@@ -20,11 +20,16 @@ No widerwindow/headmerger follow-on.110semanticnot-tested; capacity+design gates
 Nativepart/graphicbatch selectsno newcontrast; knownmotifs,0newpages.
 103ablationcriterion flawed: complementaryconstraints canidentifyonlyjointly.
 No next experimentselected; jointlybound constraints remain the intended route.
+881native audit: f99v admitted before access;46keys/52selectors,4remain.
+Both independent viewers: ordinary lines in pale stem/blade recess,0clear shared
+writing/anatomy strokes,inside-body placement uncertain. PVO001 solepositive
+UNRESOLVED_QUARANTINED; old12canvascensus preserved,notrerun.111notrefuted.
 
 4h continuation completed:2026-09-08 07:12:17–11:12:18UTC.
 Session:research_registry/decisions/semantic_4h_followon_session.md.
 No next semantic experiment selected;47rawproposals remainunreviewed.
-110raw/109unique;57method;87/102/104/105/110semanticnot-tested. No automatic decoder/control/atlas follow-on.
+111raw/110unique;57method;87/102/104/105/110/111semanticnot-tested.
+No automatic decoder/control/atlas follow-on.
 3946semantic variants/266formal cards;4893sourcecases;162scopedquestions.
 Thisinterval recovered2historicalfinite models with20+28applications, notnewmeanings.
 
@@ -97,7 +102,8 @@ Use primary internal evidence and established manuscript/history context.
 
 ## Visual understanding and earlier routes
 
-871complete: full67r/68r views; all45admittedkeys have personal native contexts.
+871complete: full67r/68r views;45admittedkeys had personal native contexts.
+881adds nativef99v,bringing currentpersonalcontextto46keys.
 Sources: `docs/visual_overview/README.md`.
 f76r offset signs are a known functionally unresolved column; f4r rot is an
 ordinary-alphabet note. No decipherment/admission.95v images stay distinct.
@@ -128,13 +134,15 @@ Understanding dossier: `docs/VOYNICH_UNDERSTANDING.md`;
 - Visual: original30 keys/35 selectors in `experiments/yolo/gdt791_thirty_page_visual_owner_spine/src/PAGE_SELECTOR_SPECS.tsv`,
   plus f21r/f32v/f100v/f101r in `experiments/yolo/gdt812_additional_page_semantic_bridge/src/PAGE_ADMISSIONS.tsv`:34 keys/39 selectors,
   plus GDT844 f6v/f9v, GDT848 f104r/f104v, GDT852 f75v:39 keys/44 selectors.
-  871adds f67r1/f68r2/f68r3:45keys/51selectors,5remain.861/867admissions retained.
+  871adds f67r1/f68r2/f68r3:45keys/51selectors.861/867admissions retained.
+  881adds f99v:46keys/52selectors,4remain; source below.
   GDT844 admission source: `experiments/yolo/gdt844_ychor_visual_subentry/src/PAGE_ADMISSIONS.tsv`.
   GDT848 source: `experiments/yolo/gdt848_f104_visual_e_run_audit/src/PAGE_ADMISSIONS.tsv`.
   GDT852 source: `experiments/yolo/gdt852_f75v_native_join_split_spacing/src/PAGE_ADMISSIONS.tsv`.
   GDT861 source: `experiments/yolo/gdt861_extended_entity_native_comparison/src/PAGE_ADMISSIONS.tsv`.
   GDT867: `experiments/yolo/gdt867_shared_canvas_native_orientation/src/PAGE_ADMISSIONS.tsv`.
   GDT871: `experiments/yolo/gdt871_remaining_shared_diagram_orientation/src/PAGE_ADMISSIONS.tsv`.
+  GDT881: `experiments/yolo/gdt881_f99v_text_graphic_stroke_interface/src/PAGE_ADMISSIONS.tsv`.
   Register before any new page access.
 - Cached NVA002/EBA001: ten MSI folios already routed; repeated UV traces leave material role unresolved. No new layer located.
 - Text:179 selectors in `experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv`, not179 visually
