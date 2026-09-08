@@ -1,0 +1,36 @@
+{
+  "changes": [
+    {
+      "code_inputs_outputs_and_scientific_status_unchanged": true,
+      "experiment_id": "GDT872",
+      "manifest": "experiments/yolo/gdt872_whole_pair_directed_profile/experiment.json",
+      "new_manifest_sha256": "4b69332502aefbf0fcb1854234d7f796ed79169a998b990f61a359df5b921493",
+      "old_manifest_sha256": "395b4413d8fb7e88524f238cc41e857dd01367c181be81b608a864b354ab655e",
+      "only_changed_field": "artifact_policy.large_artifact_justification",
+      "public_inline_limit_unchanged": 5000000
+    },
+    {
+      "code_inputs_outputs_and_scientific_status_unchanged": true,
+      "experiment_id": "GDT875",
+      "manifest": "experiments/yolo/gdt875_native_bridge_unit_readings/experiment.json",
+      "new_manifest_sha256": "5a48b6d1ebcb64ad600094da9027c8af402bb18b02bd8d89f8ec9ef8df2626d1",
+      "old_manifest_sha256": "4c8ead4443e6961b68d9ba59fbb6ed691be6c38b362618406208f3afea2e30c4",
+      "only_changed_field": "artifact_policy.large_artifact_justification",
+      "public_inline_limit_unchanged": 5000000
+    }
+  ],
+  "full_worktree_check": {
+    "command": "./vmanus-exp check --all",
+    "current_runtime_policy_failures_cleared": true,
+    "not_a_global_pass": true,
+    "remaining": [
+      "GDT600 seven unbound reproducibility files",
+      "Stale global experiment index TSV and Markdown"
+    ],
+    "remaining_error_groups": 8,
+    "status": "FAIL_UNRELATED_PREEXISTING_DEBT_REMAINS",
+    "unpublished_draft_layout_paths_excluded_locally_bytes_preserved": true
+  },
+  "scope": "No source file, scientific result, validator, admission or checker rule changed. Exact corresponding index rows regenerated; no global legacy index rebuild.",
+  "status": "MANIFEST_METADATA_CORRECTION_ONLY"
+}
