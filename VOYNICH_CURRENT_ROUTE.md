@@ -4,8 +4,8 @@ Updated: 2026-09-08. Read first.
 ## Current mandate and effort limit
 
 10h requested:2026-09-07 20:29:06–2026-09-08 06:29:06UTC minimum.
-KD:27current rawquotesPASS;agent quota retry;10h incomplete.
-KC:5models/5questions;8definitions repaired;85groups/99reduction.
+KD:27current rawquotesPASS;agents resumed;10h incomplete.
+KE:5models/7questions;8definitions repaired;85groups/100reduction.
 63rawrecords62afterknown55dup;33method/29unreviewed;10source-onlyrepairs.
 
 GDT858:855/963primary808folds retained opposite-face training;169faces/90leaves.

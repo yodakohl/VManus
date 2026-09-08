@@ -1,0 +1,190 @@
+{
+  "schema": "kd_o_identity_peer_v1",
+  "scope": "Bounded read-only historical identity audit of five O cards after fresh semantic selector; no registry mutation or meaning confirmation.",
+  "targets": [
+    "SEM:18c2c46fe6765bd545eb",
+    "SEM:22188952e55949376588",
+    "SEM:97a4c87961a2f3733e8c",
+    "SEM:0c23236ad0885bdaaf05",
+    "SEM:1c904d93feff230dc239",
+    "SEM:2c5a2199eb452d680104"
+  ],
+  "decision": {
+    "pair": {
+      "member": "SEM:18c2c46fe6765bd545eb",
+      "existing_equivalent_pair": [
+        "SEM:22188952e55949376588",
+        "SEM:97a4c87961a2f3733e8c"
+      ]
+    },
+    "recommendation": "approve_equivalence_at_O_execute_work_core",
+    "reason": "All three declarations bind the same O code to an execution/work-step core. The 1020 wording explicitly leaves the concrete action unspecified, while 1022 says the O form executes or continues the existing gang; this is compatible with the 1000/993/996 execute forms. The noun/infinitive spelling difference is a surface realization within this source-bound core, not evidence for a different O proposition.",
+    "limits": [
+      "Historical unconfirmed hypothesis only; no confirmed German meaning.",
+      "Do not infer a productive universal, exact morphology, or portability beyond the declared O card.",
+      "ARBEITSGANG, GANG and LAUF remain withheld: their source scopes add noun/work-step, mnemonic, or workshop/image-invocation content not entailed by the execute core."
+    ]
+  },
+  "withheld_comparisons": [
+    {
+      "pair": [
+        "SEM:0c23236ad0885bdaaf05",
+        "SEM:1c904d93feff230dc239"
+      ],
+      "recommendation": "withhold",
+      "reason": "ARBEITSGANG is a concrete work-step noun and GANG is a shorter mnemonic; source declarations differ in granularity, and examples alone do not establish identity."
+    },
+    {
+      "pair": [
+        "SEM:1c904d93feff230dc239",
+        "SEM:2c5a2199eb452d680104"
+      ],
+      "recommendation": "withhold",
+      "reason": "GANG is a short core, whereas LAUF is documented with both workshop and image invocation; cross-register extension is a scope difference, not proof of a distinct lexical unit or identity."
+    },
+    {
+      "pair": [
+        "SEM:0c23236ad0885bdaaf05",
+        "SEM:2c5a2199eb452d680104"
+      ],
+      "recommendation": "withhold",
+      "reason": "The ARBEITSGANG noun and LAUF work/image invocation are not reduced to the execute core without importing a normalization rule."
+    }
+  ],
+  "evidence": [
+    {
+      "path": "experiments/yolo/sidequest_semantic_embedded_pair_grammar_one_thousandth/PASS1000_REPORT.md",
+      "line": 39,
+      "line_end": 41,
+      "quote": "Auch `O=AUSFUEHREN` ist produktiver als das alte Raster zeigte: seine scheinbar\nfehlenden Paare mit ZIEL, LAUF, ANSATZ und BEREIT stehen 11, 1, 3 und 12 Mal\ndirekt in laengeren Karten.",
+      "sha256": "0ba1b50fd22a5b62825c16f4a487ce6b8317bed782c5be227e3ad0d3a4feb4c4",
+      "why": "O=AUSFUEHREN productive pair contexts"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_apprentice_sheet_roundtrip_one_thousand_twentieth/PASS1020_REPORT.md",
+      "line": 77,
+      "line_end": 81,
+      "quote": "Das Blatt erklärt die Handlungs- und Bezugskette vollständig. Es nennt aber\nnicht, welcher konkrete Organplatz jeweils `HIER` ist, welchen Inhalt ein WERT\noder GRAD hat und welche konkrete Handlung `O=AUSFÜHRUNG` aktiviert. Diese\nLücken gehören zum Bild- oder Meisterexemplar, nicht in zusätzliche\nWörterbuchstämme.",
+      "sha256": "4fbf1fb52e997be8f4dab6c395759bc9c652d3b944ae7d9da3157b2db717033c",
+      "why": "AUSFÜHRUNG remains an unspecified concrete action"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_argument_scope_stack_one_thousand_twenty_second/SCOPE_STACK_REPORT.md",
+      "line": 39,
+      "line_end": 43,
+      "quote": "`O=AUSFÜHRUNG`, `OT=DANACH` und `OL=FORTSETZEN` öffnen dabei keinen neuen\nHandlungskopf. Sie führen den vorhandenen Gang aus oder weiter. Bei mehreren\nHandlungen in derselben Karte bekommt der nächste Kopf den Kern unmittelbar;\ndie ältere Handlung enthält dann die jüngere Handlungsgruppe. So braucht\n`CH+K+Y` keine Sonderregel: `CH[ K[Y] ]`.",
+      "sha256": "8db0e6aa97dcd5e5bd8891f0289945bd76eefda7368cd206cb3cfa275f35c1d9",
+      "why": "AUSFÜHRUNG executes or continues existing gang"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_canonical_scribe_workshop_fifth_edition_nine_hundred_ninety_third/PASS993_CURRENT_WORKING_THEORY.md",
+      "line": 33,
+      "line_end": 33,
+      "quote": "- `Y=POSTEN`, `DY=SCHLUSS`, `OK=SETZEN`, `O=AUSFÜHREN`;",
+      "sha256": "854440a27a70c1113da0fe0fdd507d2f904348ce1017d82197893442b644095c",
+      "why": "AUSFÜHREN canonical core"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_canonical_scribe_workshop_sixth_edition_nine_hundred_ninety_sixth/PASS996_CURRENT_WORKING_THEORY.md",
+      "line": 19,
+      "line_end": 19,
+      "quote": "- `Y=POSTEN`, `DY=SCHLUSS`, `OK=SETZEN`, `O=AUSFÜHREN`;",
+      "sha256": "ed8810a3f66854a6d9e4f9a4ba42563a755326d5af399f02650ce96557995291",
+      "why": "AUSFÜHREN repeated canonical core"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_concrete_medium_revision_seven_hundred_twenty_fourth/SEVEN_HUNDRED_TWENTY_FOURTH_REPORT.md",
+      "line": 3,
+      "line_end": 8,
+      "quote": "Die zweite kleine Bedeutungswelle setzt vier Werte:\n\n- `S = TEIL` statt TEILEN;\n- `CTH = BEREITEN` statt BEREIT;\n- `O = ARBEITSGANG` statt GANG;\n- `AIR = WASSER` statt LAUF.",
+      "sha256": "82dc7a6f5d95ac9efe72104f6f2b6d218f46d86d4007db8473b6c749e391a050",
+      "why": "ARBEITSGANG and GANG are separate historical assignments"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_atomic_pocket_lexicon_nine_hundred_thirty_fifth/PASS935_REPORT.md",
+      "line": 9,
+      "line_end": 16,
+      "quote": "Die wichtigen Unterschiede bleiben sichtbar: `O=GANG`, `OK=START`,\n`CH=AUSWAHL`, `K=ZUORDNUNG`, `SH=HALT`, `CHD=WECHSEL`, `AIR=LAUFWEG`,\n`AIN=EINHEIT`, `AIIN=SOLLWERT`, `IIN=STUFE`, `Y=DIES`, `DY=ENDE`.\n\nDas beseitigt genau den früheren Fehler „ein Stamm = ein ganzer moderner Satz“.\nEine konkrete Lesung wie „führe die Flüssigkeit zur nächsten Beckenstelle“\nentsteht aus `GANG/WECHSEL + LAUFWEG + ZIEL + DIES` unter einem sichtbaren\nBeckenbesitzer; kein einzelner Stamm bedeutet diesen ganzen Satz.",
+      "sha256": "e7ff3208c0c69d7210bf7d47743745ee0ce1a379ff025dc64bf960d5d92e4f86",
+      "why": "GANG short core composes with other components"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_bilevel_component_dictionary_nine_hundred_thirty_first/PASS931_REPORT.md",
+      "line": 10,
+      "line_end": 18,
+      "quote": "## Die wichtigsten gemeinsamen Kerne\n\n- `O = LAUF`: Werkstattgang ausführen / Bildreihe aufrufen;\n- `OK = AKTIVIEREN`: Arbeitsgang ansetzen / Bildplatz aktivieren;\n- `CH = AUSWAHL_ENTNAHME`: Anteil entnehmen / Klasse kennzeichnen;\n- `K = ZUORDNUNG`: Material zugeben / Wert zuordnen;\n- `AIR = LAUFWEG`: Flüssigkeits- oder Stationslauf / Ringlauf;\n- `AL = ZIEL`, `AR = QUELLE`, `Y = REFERENT` funktionieren in beiden Registern\n  beinahe wörtlich gleich.",
+      "sha256": "364f27fd6782f9fe09974205d9852b625abd8d0a92b99d69b9cddd2399050b38",
+      "why": "LAUF includes workshop and image invocation"
+    }
+  ],
+  "validation": {
+    "checks": [
+      {
+        "path": "experiments/yolo/sidequest_semantic_embedded_pair_grammar_one_thousandth/PASS1000_REPORT.md",
+        "line": 39,
+        "line_end": 41,
+        "line_end_within_file": true,
+        "quote_literal": true,
+        "sha256": "0ba1b50fd22a5b62825c16f4a487ce6b8317bed782c5be227e3ad0d3a4feb4c4"
+      },
+      {
+        "path": "experiments/yolo/sidequest_semantic_apprentice_sheet_roundtrip_one_thousand_twentieth/PASS1020_REPORT.md",
+        "line": 77,
+        "line_end": 81,
+        "line_end_within_file": true,
+        "quote_literal": true,
+        "sha256": "4fbf1fb52e997be8f4dab6c395759bc9c652d3b944ae7d9da3157b2db717033c"
+      },
+      {
+        "path": "experiments/yolo/sidequest_semantic_argument_scope_stack_one_thousand_twenty_second/SCOPE_STACK_REPORT.md",
+        "line": 39,
+        "line_end": 43,
+        "line_end_within_file": true,
+        "quote_literal": true,
+        "sha256": "8db0e6aa97dcd5e5bd8891f0289945bd76eefda7368cd206cb3cfa275f35c1d9"
+      },
+      {
+        "path": "experiments/yolo/sidequest_semantic_canonical_scribe_workshop_fifth_edition_nine_hundred_ninety_third/PASS993_CURRENT_WORKING_THEORY.md",
+        "line": 33,
+        "line_end": 33,
+        "line_end_within_file": true,
+        "quote_literal": true,
+        "sha256": "854440a27a70c1113da0fe0fdd507d2f904348ce1017d82197893442b644095c"
+      },
+      {
+        "path": "experiments/yolo/sidequest_semantic_canonical_scribe_workshop_sixth_edition_nine_hundred_ninety_sixth/PASS996_CURRENT_WORKING_THEORY.md",
+        "line": 19,
+        "line_end": 19,
+        "line_end_within_file": true,
+        "quote_literal": true,
+        "sha256": "ed8810a3f66854a6d9e4f9a4ba42563a755326d5af399f02650ce96557995291"
+      },
+      {
+        "path": "experiments/yolo/sidequest_semantic_concrete_medium_revision_seven_hundred_twenty_fourth/SEVEN_HUNDRED_TWENTY_FOURTH_REPORT.md",
+        "line": 3,
+        "line_end": 8,
+        "line_end_within_file": true,
+        "quote_literal": true,
+        "sha256": "82dc7a6f5d95ac9efe72104f6f2b6d218f46d86d4007db8473b6c749e391a050"
+      },
+      {
+        "path": "experiments/yolo/sidequest_semantic_atomic_pocket_lexicon_nine_hundred_thirty_fifth/PASS935_REPORT.md",
+        "line": 9,
+        "line_end": 16,
+        "line_end_within_file": true,
+        "quote_literal": true,
+        "sha256": "e7ff3208c0c69d7210bf7d47743745ee0ce1a379ff025dc64bf960d5d92e4f86"
+      },
+      {
+        "path": "experiments/yolo/sidequest_semantic_bilevel_component_dictionary_nine_hundred_thirty_first/PASS931_REPORT.md",
+        "line": 10,
+        "line_end": 18,
+        "line_end_within_file": true,
+        "quote_literal": true,
+        "sha256": "364f27fd6782f9fe09974205d9852b625abd8d0a92b99d69b9cddd2399050b38"
+      }
+    ],
+    "all_literal_spans_and_bounds_valid": true
+  },
+  "status": "peer_review_complete_no_operative_change"
+}
