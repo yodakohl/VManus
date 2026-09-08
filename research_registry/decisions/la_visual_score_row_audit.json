@@ -1,0 +1,105 @@
+{
+  "schema": "la_visual_score_row_audit_v1",
+  "scope": "Bounded read-only audit of SEM:175fdf857ea12aa85c6a and SEM:23a7652d5006ec856e9a against their exact V4 primary. No image/rawTSV access, source mutation, identity merge, or registry mutation.",
+  "targets": [
+    {
+      "id": "SEM:175fdf857ea12aa85c6a",
+      "claim": "Drawn arguments supply the addresses of written records.",
+      "evidence_only": "score row 206"
+    },
+    {
+      "id": "SEM:23a7652d5006ec856e9a",
+      "claim": "Records form a text-only formula register.",
+      "evidence_only": "score row 207"
+    }
+  ],
+  "counterpart_check": {
+    "primary_full_models": {
+      "M2": "present at lines 69-87",
+      "M3": "present at lines 89-99"
+    },
+    "current_semantic_registry": "No separate current SEM card was found whose evidence carries the full M2 or M3 definition from this primary. SEM:175... and SEM:23... are the only direct score-row cards; related prediction cards are partial and not full counterparts.",
+    "ids_not_full_counterparts": [
+      "SEM:2bb797208079bb475bcf",
+      "SEM:bf9575c99bc535d201c6"
+    ]
+  },
+  "finding": {
+    "classification": "result_row_with_unique_underlying_model_propositions_but_under_evidenced_card",
+    "recommendation": "do_not_archive_as_invalid; retain source cases and preserve both model propositions as addressable historical hypotheses, but treat current score-row evidence as insufficient until a source-bound full-definition evidence card is curated",
+    "reason": "Unlike a bare duplicate model-name pointer, this primary contains substantive, rival model definitions and explicit limits. The score rows are comparative outputs, not independent evidence, but the named M2/M3 propositions are genuinely present in the same primary and are not separately represented in the current semantic registry. Archiving the cards as extraction errors would erase the only direct SEM bindings; it would also conflate comparative score results with the models they compare.",
+    "score_ceiling": "The 86/77 totals are abductive rubric scores, not semantic confirmation; the decision itself says M2 wins narrowly and M3 remains the strongest losing model. No score is transferred as evidence for pictured objects or text-only status."
+  },
+  "evidence": [
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_VISUAL_OWNER_RECORDS.md",
+      "line": 69,
+      "line_end": 87,
+      "quote": "### M2 — drawn-argument addressing\n\nThe picture supplies a current owner and a small set of addressable local\narguments. Text selects or reactivates an address, relates pointers to it,\nbinds an opaque value, qualifies its state, and commits a local cell.\n\n```text\nRECORD := inherited PAGE_OWNER + ADDRESS_FRAME+\nADDRESS_FRAME := ADDRESS? + POINTER/RELATION/VALUE/STATE* + TERMINAL(COMMIT)?\nADDRESS := qokaiin  [activate or renew the current drawn/dossier address]\nRELATION := L/O     [associate with the current owner, slot, or path]\nVALUE := AIIN       [bind a parameter/index/reference; not necessarily amount]\nPOINTER := Y        [current item/endpoint anaphor]\nSTATE := CTHY       [property/configuration state of the active address]\n```\n\nThe bracketed terms are source-class paraphrases. They are not English lexeme\nassignments. Exact terminal cards retain opaque payload identity plus a shared\nCOMMIT realization; they are neither typed English results nor punctuation.",
+      "sha256": "3bcd78fbf8a257906f9bb1712b07bb3f5f5bdb239a7e3d73f12cde24fca75233",
+      "why": "Full M2 drawn-argument addressing definition and limits"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_VISUAL_OWNER_RECORDS.md",
+      "line": 89,
+      "line_end": 99,
+      "quote": "### M3 — text-only formula register\n\nThe page chooses Herbal or Bio stencils, but no drawn argument participates in\nrecord interpretation. `qokaiin` is a formula entry marker, L/O a generic\nrelation, AIIN a parameter, Y a formal item tag, and CTHY a state.\n\nM3 fits placement nearly as well as M2 and is the strongest losing model. It\ncannot, however, say what repeated tags and relations range over, and it must\nencode every Bio component distinction in otherwise opaque local cards. Its\npseudo-translation is consequently a template description rather than a\nrecord addressed to anything.",
+      "sha256": "3bcd78fbf8a257906f9bb1712b07bb3f5f5bdb239a7e3d73f12cde24fca75233",
+      "why": "Full M3 text-only formula-register definition and limits"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_VISUAL_OWNER_RECORDS.md",
+      "line": 202,
+      "line_end": 213,
+      "quote": "The frozen V4 rubric is applied abductively, not as a statistical result.\n\n| model | coverage /25 | continuity /20 | few role changes /15 | discrimination /15 | history /10 | controlled fluency /10 | predictions /5 | total |\n|---|---:|---:|---:|---:|---:|---:|---:|---:|\n| M2 drawn-argument addressing | 23 | 18 | 13 | 12 | 8 | 8 | 4 | **86** |\n| M3 text-only formula register | 23 | 15 | 14 | 8 | 8 | 6 | 3 | **77** |\n| M1 subject-only ellipsis | 21 | 13 | 12 | 7 | 8 | 6 | 2 | **69** |\n\nM2 wins because it resolves all six required constructions with one operator\nmapping and gives the Bio short-cell register an economical source layer. It\ndoes not win by identifying any pictured object. M3 remains the strongest\nlosing lexicon and should replace M2 if address-sensitive predictions fail.",
+      "sha256": "3bcd78fbf8a257906f9bb1712b07bb3f5f5bdb239a7e3d73f12cde24fca75233",
+      "why": "V4 scoring rows and decision"
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_VISUAL_OWNER_RECORDS.md",
+      "line": 236,
+      "line_end": 243,
+      "quote": "   one referent, not two substances.\n2. L/O should fall between fields or cards whose candidate visual arguments\n   are more homogeneous than those around frequency- and position-matched\n   interior cards. Failure favors M3.\n3. The two `Y–AIIN–Y` records should admit two addressable operands under one\n   frame. If neither does, retract the dyadic reading and reduce Y to a formal\n   tag.\n4. CTHY should cluster in records where a stable owner can bear a changed",
+      "sha256": "3bcd78fbf8a257906f9bb1712b07bb3f5f5bdb239a7e3d73f12cde24fca75233",
+      "why": "M2 prediction examples and falsifier direction"
+    }
+  ],
+  "validation": {
+    "checks": [
+      {
+        "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_VISUAL_OWNER_RECORDS.md",
+        "line": 69,
+        "line_end": 87,
+        "line_end_within_file": true,
+        "quote_literal": true,
+        "sha256": "3bcd78fbf8a257906f9bb1712b07bb3f5f5bdb239a7e3d73f12cde24fca75233"
+      },
+      {
+        "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_VISUAL_OWNER_RECORDS.md",
+        "line": 89,
+        "line_end": 99,
+        "line_end_within_file": true,
+        "quote_literal": true,
+        "sha256": "3bcd78fbf8a257906f9bb1712b07bb3f5f5bdb239a7e3d73f12cde24fca75233"
+      },
+      {
+        "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_VISUAL_OWNER_RECORDS.md",
+        "line": 202,
+        "line_end": 213,
+        "line_end_within_file": true,
+        "quote_literal": true,
+        "sha256": "3bcd78fbf8a257906f9bb1712b07bb3f5f5bdb239a7e3d73f12cde24fca75233"
+      },
+      {
+        "path": "experiments/yolo/sidequest_theory_candidates_v4/CANDIDATE_V4_VISUAL_OWNER_RECORDS.md",
+        "line": 236,
+        "line_end": 243,
+        "line_end_within_file": true,
+        "quote_literal": true,
+        "sha256": "3bcd78fbf8a257906f9bb1712b07bb3f5f5bdb239a7e3d73f12cde24fca75233"
+      }
+    ],
+    "all_literal_spans_and_hashes_valid": true
+  },
+  "status": "audit_complete_no_operative_change"
+}
