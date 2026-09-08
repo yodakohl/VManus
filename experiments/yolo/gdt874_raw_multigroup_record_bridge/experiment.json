@@ -58,7 +58,12 @@
     {
       "path": "experiments/yolo/gdt874_raw_multigroup_record_bridge/README.md",
       "role": "protocol, executable source or fixed input provenance",
-      "sha256": "5911a36044f064fd16ee78f1a3c6ea365a04f2e9fffcd5570fab8803a5e44509"
+      "sha256": "2b8635b1b46a52dbb12fc41cb950067358233b71b2429aa036e4c98cf2eef274"
+    },
+    {
+      "path": "experiments/yolo/gdt874_raw_multigroup_record_bridge/REPORT.md",
+      "role": "protocol, executable source or fixed input provenance",
+      "sha256": "cdc1b12e15a0c031074ff239769a90e3cce8e3dbef883ac33ba54ca5b2797287"
     },
     {
       "path": "experiments/yolo/gdt874_raw_multigroup_record_bridge/src/PREREG_LOCK.json",
@@ -83,9 +88,34 @@
   ],
   "outputs": [
     {
+      "path": "experiments/yolo/gdt874_raw_multigroup_record_bridge/artifacts/BRIDGES.json",
+      "role": "compact descriptive census and validation",
+      "sha256": "2e349373e46979ef2e44ff47115e13f1424a4b160ae937e5017938bcbff99fbc"
+    },
+    {
+      "path": "experiments/yolo/gdt874_raw_multigroup_record_bridge/artifacts/CANDIDATES.json",
+      "role": "compact descriptive census and validation",
+      "sha256": "31fa2c2d7f65f94bcdd8332a9ca93c16c9ed78a6947ce14bca2afc0b2c9ef9e8"
+    },
+    {
       "path": "experiments/yolo/gdt874_raw_multigroup_record_bridge/artifacts/README.md",
       "role": "compact descriptive census and validation",
       "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt874_raw_multigroup_record_bridge/artifacts/RESULT.json",
+      "role": "compact descriptive census and validation",
+      "sha256": "82281b28b9c7484af152535018aa3e47e5d8bad7dcb1f323b1ce6662bf52b751"
+    },
+    {
+      "path": "experiments/yolo/gdt874_raw_multigroup_record_bridge/artifacts/SOURCE_RECEIPTS.json",
+      "role": "compact descriptive census and validation",
+      "sha256": "9ed39dfeec65c36edf162771afffcad0966a45d31a0684239167a6c5c325f77b"
+    },
+    {
+      "path": "experiments/yolo/gdt874_raw_multigroup_record_bridge/artifacts/VALIDATION.json",
+      "role": "compact descriptive census and validation",
+      "sha256": "b99a88d68f6dcc8232265d1f13cb3d1a68b95b1a48ce044338e0ed038bdd0509"
     }
   ],
   "question": "Which complete multigroup local records recur as contiguous raw running-text windows on the fixed GDT791 thirty-page roster?",
@@ -95,11 +125,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "raw_multigroup_record_bridge",
-  "status": "REGISTERED_UNSCORED",
+  "status": "COMPLETE_EXPLORATORY_AVAILABILITY_CENSUS",
   "title": "Complete raw multigroup local-record bridges",
   "updated": "2026-09-08",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "artifact": "experiments/yolo/gdt874_raw_multigroup_record_bridge/artifacts/VALIDATION.json",
+    "status": "PASS"
   }
 }

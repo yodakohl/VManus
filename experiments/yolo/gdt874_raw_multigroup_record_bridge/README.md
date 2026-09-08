@@ -1,5 +1,5 @@
 # GDT874 — raw multigroup record bridge
 
-Status: `REGISTERED_UNSCORED`
+Status: `COMPLETE_EXPLORATORY_AVAILABILITY_CENSUS`
 
-See `METHOD.md` and `experiment.json`.
+Two reading-specific cross-leaf matches; zero same-index three-reading bridges. See [REPORT.md](REPORT.md), PREREGISTRATION.md and experiment.json. No meaning established.

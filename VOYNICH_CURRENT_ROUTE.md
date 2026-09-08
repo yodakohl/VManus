@@ -17,8 +17,10 @@ Selectedhalf/newdensityendpoint doesnotexplain872composition. Branchstopped;no c
 92raw/91unique;54method;37pending.84–86methodreviewed, notsemanticfalsifications.
 734twenty-whole and28spoken-scope policies recovered as2finite models;
 separate19rolemodel andstoredcores preserved.3946semantic/162dossiers.
-874registered:complete raw2+group local-record→running-window census on791's
-fixed35selectors. No newadmission/meaning/nullscore. Budget09:20UTC.
+874complete:392localrecords;eligible40ZL78IT41RF;two reading-specific
+cross-leaf matches(f67r2.56→f89r2.8;f67r2.64→f89r2.28),zeroall3sameindex.
+f81v.28whole ZL/ITeligiblezero;RFentityineligible. No phrase/meaning/nullscore.
+Native unit/reading status of the two candidates remains unverified here.
 
 GDT858:855/963primary808folds retained opposite-face training;169faces/90leaves.
 GDT865 whole-leaf correction retains both primary thresholds: nuisance macroAUC
