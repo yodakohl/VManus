@@ -47,3 +47,18 @@ Root nativef100v/f101r review is contextual reuse of known812source, notfinding.
 question at the source-nominated folded-body interface; no PVOstate mapping.
 Both881packets frozenby15:40:41UTC beforeexchange.0clear dual-roleinterfaces,
 inside-body uncertainboth; oldPVOsinglepositive nowquarantined,not0ownercensus.
+
+881 public main verified by16:02:29UTC at1ef38661011b1e3c17075267140f5efe5e3fa5d9,
+within the16:03 deadline. User then rejects low-value microchecks as the main
+route. Hole idea112 remains raw, not selected. Whole-model comparison itself
+already has GDT809 predecessors; qd0/qd1 identify no new discriminating endpoint.
+qb0's f2r15 conjunction is withdrawn using the already-existing Aug11 correction.
+User asks about the separate isolated word: admit f2r before native access;
+verified Yale1006078 personally viewed. f2r14 reads ytoail in ZL/RF; caption-like
+placement, function unknown. It is distinct from f2r15 ios an on. No translation.
+
+Further explicit user request to inspect f2r15 reveals the recovered Aug11
+correction's own wrong detail:1750,900,900,900 showsf2r14. Root views correct lower
+leaf:visiblefaintsequenceinsidegreenblade. Bfirstlocatesprose, then cannot resolve
+guidedfainttarget; no independent two-viewer agreement. qc3/qc4locationclaim
+superseded byqe2; paintorder andmeaning remainopen. Not a new decipherment test.

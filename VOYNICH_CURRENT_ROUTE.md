@@ -24,6 +24,14 @@ No next experimentselected; jointlybound constraints remain the intended route.
 Both independent viewers: ordinary lines in pale stem/blade recess,0clear shared
 writing/anatomy strokes,inside-body placement uncertain. PVO001 solepositive
 UNRESOLVED_QUARANTINED; old12canvascensus preserved,notrerun.111notrefuted.
+User rejects low-value microchecks as main route.112hole idea not selected.
+Whole-model comparison already tried in809; qd0/qd1 nominate no new prediction.
+f2r user follow-up: Aug11 boundary-overlap correction used f2r14detail forf2r15.
+Root native lowerf2r15visible signs insidegreenleaf; Bmislocalizedprose then
+couldnotresolvefainttarget. No two-viewer confirmation orpaint chronology.
+qc3/qc4locationclaim superseded byqe2_f2r15_wrong_region_correction.md.
+Separate f2r14ytoail is caption-like; bothinscriptions' meanings unknown.
+Currentvisual47keys/53selectors,3remain. Admission below.
 
 4h continuation completed:2026-09-08 07:12:17–11:12:18UTC.
 Session:research_registry/decisions/semantic_4h_followon_session.md.
@@ -143,6 +151,8 @@ Understanding dossier: `docs/VOYNICH_UNDERSTANDING.md`;
   GDT867: `experiments/yolo/gdt867_shared_canvas_native_orientation/src/PAGE_ADMISSIONS.tsv`.
   GDT871: `experiments/yolo/gdt871_remaining_shared_diagram_orientation/src/PAGE_ADMISSIONS.tsv`.
   GDT881: `experiments/yolo/gdt881_f99v_text_graphic_stroke_interface/src/PAGE_ADMISSIONS.tsv`.
+  User-directed f2r question adds f2r:47keys/53selectors,3remain; admission:
+  `docs/visual_overview/F2R_USER_QUESTION_ADMISSION.md`.
   Register before any new page access.
 - Cached NVA002/EBA001: ten MSI folios already routed; repeated UV traces leave material role unresolved. No new layer located.
 - Text:179 selectors in `experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv`, not179 visually

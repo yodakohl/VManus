@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "review_id": "QC0_ANCHOR_CORRECTION_AUDIT",
+  "scope": "PUBLIC_ZODIAC_FIGURE_ATTRIBUTES, SCP001_STAR_COLOUR_ROWS, S104_HERBAL_COMPONENT_RELATIONS, STOLFI_EXACT_LOCAL_RELATIONS",
+  "prior_audit": {
+    "path": "research_registry/decisions/qb0_joint_constraint_anchor_audit.json",
+    "sha256": "7a54d6457afd1d419b41c8d3e8791e2ed8d4410d746b47128888382bbad4b7b1"
+  },
+  "anchors": [
+    {
+      "anchor": "PUBLIC_ZODIAC_FIGURE_ATTRIBUTES",
+      "earlier_claim": "qb0 treated related figure and star states as a possible joint constraint but explicitly found no shared literal inscription or authorial ownership binding.",
+      "later_sources": [
+        {
+          "path": "experiments/semantic_assumptions/results/zodiac_star_slot_ownership_report.md",
+          "sha256": "af7f91adc5fec880d8bcfb501674adf06749e99e328212eec829554684b12b65",
+          "correction": "The f72r2 aggregate 29=29 inference is invalid: the missing star and missing label occur at different figures."
+        },
+        {
+          "path": "experiments/semantic_assumptions/results/zodiac_paranatellonta_public_source_audit.md",
+          "sha256": "3516818358834584c09cd99a31e5c218dc163603b95f8a098592072b3769813f",
+          "correction": "The historical degree analogy does not supply a Voynich start, direction, band continuation, or one-to-one label key."
+        }
+      ],
+      "outcome": "QUALIFIED_UNCHANGED",
+      "live_effect": "Any aggregate star/label ownership shortcut must remain rejected. The anchor still lacks explicit label-to-figure connectors on the required folio spread; no candidate or gate reopens."
+    },
+    {
+      "anchor": "SCP001_STAR_COLOUR_ROWS",
+      "earlier_claim": "qb0 correctly recorded that color and parity were separated but no literal text intersection or authorial marker meaning was established.",
+      "later_sources": [
+        {
+          "path": "experiments/semantic_assumptions/results/star_color_source_capacity_report.md",
+          "sha256": "671c011aff69b845dd75409096dd5124be2cb75d62daed41490a5ce7711cc2b6",
+          "correction": "Only nine pages on seven folios survive the exact manual-marker/star-count binding; six otherwise clean-color pages were rejected for unequal counts."
+        },
+        {
+          "path": "experiments/semantic_assumptions/results/star_color_target_report.md",
+          "sha256": "7103f5381ae2b443a360c322bcd4655bb361f19eff1723162049cf7ae6d80d62",
+          "correction": "The registered target has zero of fifteen eligible formal features passing."
+        },
+        {
+          "path": "experiments/semantic_assumptions/results/star_color_anonymous_control_report.md",
+          "sha256": "eb632be6f719305290bdea6601311bc2232a571fceeb5173e6413aca59d58a59",
+          "correction": "The target-blind controls validate the engine only; they provide no color function or meaning."
+        }
+      ],
+      "outcome": "QUALIFIED_UNCHANGED",
+      "live_effect": "The source panel is a capacity artifact, not author-visible captions naming marker values. The anchor remains nonconfirmed/missing-binding; no color meaning or text gate changes."
+    },
+    {
+      "anchor": "S104_HERBAL_COMPONENT_RELATIONS",
+      "earlier_claim": "The inherited card described a 16-page, seven-family human component panel, but qb0 treated it as a source-bound candidate requiring exact recovery.",
+      "later_sources": [
+        {
+          "path": "experiments/semantic_assumptions/results/s104_visual_panel_recovery_check_report.md",
+          "sha256": "53cca6aea16977e0e3debb40a8b743b22ce2f9ec168e220d08f777a46ef07042",
+          "correction": "The four registered inventory/builder paths are absent; narrative ledger summaries cannot reconstruct exact page identities or relation families."
+        },
+        {
+          "path": "experiments/semantic_assumptions/results/s104_visual_panel_recovery_check_validation.json",
+          "sha256": "1697119b862f2d2b282ccfea20f9c15157caace1533f6a201ba0c8daafb0bca2",
+          "correction": "The provenance stop is independently validated as unavailable data, not as a negative Herbal ownership result."
+        }
+      ],
+      "outcome": "SCOPE_REDUCED_PROVENANCE_STOP",
+      "live_effect": "The 16-page/seven-family panel cannot be used as a live candidate or gate. Any downstream source claim must remain quarantined; this does not create a scientific failure or reopen a replacement test."
+    },
+    {
+      "anchor": "STOLFI_EXACT_LOCAL_RELATIONS",
+      "earlier_claim": "qb0 used GDT870's exact all-reading dakocth at f100r.10 as a local contact example, while explicitly refusing to infer ownership or reference.",
+      "later_sources": [
+        {
+          "path": "experiments/yolo/gdt870_f100r_complete_scene_discovery/REPORT.md",
+          "sha256": "e5558e489818602e7f029a922a5ee9d31516d94e8a6b8091314bac6e12541d91",
+          "correction": "The contact reproduces the prior localization but supplies no new explicit connector; proximity does not identify the named plant."
+        },
+        {
+          "path": "experiments/semantic_assumptions/results/public_circle_seam_coordinate_audit.md",
+          "sha256": "5ea20de6318f0bb7038ce40effcbbee4fea4f1c3c70636fdaafa2d71bc477fe1",
+          "correction": "The concentrated C start position is editorial/transcriptional rather than an authorial global phase; 25/62 loci have no obvious start."
+        }
+      ],
+      "outcome": "QUALIFIED_UNCHANGED",
+      "live_effect": "Retain dakocth as a localized exact source occurrence only. Do not promote contact, C-start position, or public-note proximity to ownership; the anchor remains missing an independently repeated owned relation."
+    }
+  ],
+  "summary": "One material correction affects scope: S104 is an unrecoverable provenance stop and cannot be treated as an available 16-page panel. PUBLIC, SCP001, and STOLFI remain qualified unchanged after later corrections; none supplies a new live joint constraint or translation gate.",
+  "limits": "Four anchors only; no images, target formal runs, raw TSV payloads, registry mutation, or claim of exhaustive correction absence."
+}

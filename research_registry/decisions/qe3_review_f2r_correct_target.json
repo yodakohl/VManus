@@ -1,0 +1,37 @@
+{
+  "record_id": "ANCHOR:COL001_F2R15_UNDERPAINT_NOTE",
+  "reviewer": "root after direct user-requested native inspection and exact old-detail verification",
+  "scope": "semantic",
+  "verdict": "inconclusive",
+  "assessment_basis": "source_location_correction_with_root_native_observation_and_unresolved_second_observer",
+  "reason": "Supersede qc4 location claim: the Aug11 correction registered an upper f2r14 detail while discussing lower f2r15. Root sees the faint lower sequence inside the painted blade; B first mislocalized prose and remained unresolved after target guidance. Restore local enclosed-annotation plausibility, not paint chronology or any meaning. Preserve all prior reviews and the original qb0 chronology overclaim.",
+  "blockers": [
+    {
+      "code": "missing_meaning_binding",
+      "detail": "A leaf-contained annotation is plausible, but GREEN, plant identity, part identity or a painting instruction is not independently read. Exact layer order and literal native reading remain unresolved.",
+      "evidence": [
+        "research_registry/decisions/qe2_f2r15_wrong_region_correction.md",
+        "research_registry/decisions/qe1_f2r15_native_ROOT.json",
+        "experiments/semantic_assumptions/results/f2r15_native_visual_ownership_correction.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "source_bound_discriminating_relation",
+        "change": "new_binding",
+        "detail": "A complete fixed content hypothesis and provenance-clean contrasting observations that distinguish it from non-color or non-instruction alternatives. Do not use the Aug11 wrong-detail correction as evidence against enclosure, and do not use enclosure as proof of ink-before-paint.",
+        "evidence": [
+          "research_registry/decisions/qe2_f2r15_wrong_region_correction.md",
+          "research_registry/decisions/qe1_f2r15_native_ROOT.json",
+          "experiments/semantic_assumptions/results/f2r15_native_visual_ownership_correction.json"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Green-paint overlap alone, rejecting a mislocalized old correction, or a new analyst gloss without a different checkable prediction."
+    ]
+  }
+}

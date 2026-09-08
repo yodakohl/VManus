@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "review_id": "QD1_SEMANTIC_MODEL_IDENTIFICATION_CRITIC",
+  "status": "PLAN_REQUIRES_STRICTER_DECISIVE_CONSTRAINT",
+  "question": "Would a complete-model held-passage test identify a semantic model, or rerun GDT809/GDT685 and fluent working renderers?",
+  "sources": [
+    {
+      "id": "GDT809",
+      "path": "experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/REPORT.md",
+      "sha256": "4ba0b56b633b85771f533c1ec00737f6a71109d91086c9d1ac7701e06529d86f",
+      "prior_model_freedoms": [
+        "16-entry common dictionary applied to four complete paragraphs",
+        "Descriptive and recipe readings could assign different meanings to the same spans",
+        "99 of 145 token positions remained unresolved; candidate-specific requirements were UNOBSERVED",
+        "working numbers, subjects, scope, and connective roles remained adjustable; two record/form associations were not lexeme evidence"
+      ],
+      "decisive_limit": "A held paragraph was reconstructed, but the relation endpoints and glosses were analyst working assumptions, so fluency and held regeneration did not select a meaning."
+    },
+    {
+      "id": "GDT685",
+      "path": "experiments/yolo/gdt685_v58_ch_sh_t_ol_ansatz_dispatch/REPORT.md",
+      "sha256": "b4fc6d1fdfd393e2b42fb082c1f4dc8b0f0d6875799b7b208523c873f3d922c9",
+      "prior_model_freedoms": [
+        "Universal chol/shol/tol Ansatz nouns were removed",
+        "The surviving rule dispatches state cells to visible or locally inherited heads",
+        "64 target positions retain alternate-reader variants and missing heads remain open",
+        "A visible head can support a local quality reading, but a missing head is deliberately left unresolved"
+      ],
+      "decisive_limit": "State-cell coverage is a formal/local renderer constraint; it does not identify the missing material head or a portable translation."
+    },
+    {
+      "id": "GDT700",
+      "path": "experiments/yolo/gdt700_v73_action_output_state_checkpoint_carry/REPORT.md",
+      "sha256": "158fb3f5880dd70f0aa0a526f4ece5105c14efb604b4e45c10360ba7745d3ec8",
+      "finite_model": "f26r.2#4 ykecthey -> #5 chedy -> #6 ytedy, with f77v.7#3-5 as the unresolved countercase",
+      "limit": "One occurrence-bound C011 edge was nominated, but the proposed Krautdroge participant is a working gloss and participant identity was not verified."
+    }
+  ],
+  "critic": {
+    "rerun_diagnosis": "A new complete-model held passage that reuses GDT809's dictionary, GDT685's local state/head dispatch, or fluent German regeneration would only change which unresolved labels are selected. It would inherit the same per-occurrence head choice, unknown subject/scope, recipe-versus-descriptive alternatives, and renderer freedom.",
+    "one_decisive_difference_required": "The new model must freeze a source-visible relation before looking at the held passage: for example, a finite record rule learned from complete action/checkpoint/action windows must predict on a held window whether the next written head is a carried output or a fresh head. The held outcome must be an exact occurrence-level relation or boundary already represented in the source, not a gloss, topic label, fluent sentence, or analyst state tag.",
+    "rival": "A context-conditioned renderer with independent local records, the GDT685 visible/local-head dispatcher, and a relabeled semantic dictionary must be able to fit training passages but must make a different held relation prediction. If they can match the same relation by changing labels or local head ownership, the test has no identification power.",
+    "falsifier": "On the held passage the fixed relation rule fails, or the rival matches the same source relation while assigning different meanings. A held prose sentence that only sounds better is not a falsifier or confirmation.",
+    "route_change": "Only a positive held relation prediction would justify decoding a finite record/control scaffold first and delaying lexical translation. Otherwise preserve GDT809's competing readings and GDT685's unresolved heads; do not publish a complete translation."
+  },
+  "decision": "Do not run the existing complete-model plan as written. First freeze one non-gloss source relation and a rival with a different prediction; without that change it is a rerun of GDT809/GDT685 and old fluent renderers.",
+  "plan_hash": "8bc24aa88249557850c11fd6a0d00319eebfadf803233bc64e1a223e646b816c",
+  "claim_ceiling": "This is a design critique. It establishes no lexical meaning, translation, or new manuscript result."
+}
