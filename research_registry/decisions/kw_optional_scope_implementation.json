@@ -1,0 +1,29 @@
+{
+  "status": "IMPLEMENTED_TESTED",
+  "change": "Require four core declared fields; include and validate scope only when present. Preserve old five-field hashes; never substitute mutable top-level scope.",
+  "files_changed": [
+    "tools/research_registry.py",
+    "tests/test_research_registry_optional_design_scope.py"
+  ],
+  "checks": [
+    {
+      "command": "python -m unittest discover -s tests -p test_research_registry_optional_design_scope.py -v",
+      "tests": 3,
+      "result": "PASS"
+    },
+    {
+      "command": "python -m unittest discover -s tests -p test_research_registry_lifecycle.py -v",
+      "tests": 8,
+      "result": "PASS"
+    }
+  ],
+  "readonly_actual_design_parity": {
+    "authored": 75,
+    "old_valid": 42,
+    "old_hashes_equal": 42,
+    "new_valid": 75
+  },
+  "registry_mutations": false,
+  "source_quote_guard_changes": false,
+  "scientific_claim": "Duplicate candidates only; no automatic merge or novelty decision. All index writes occurred in synthetic temporary fixtures."
+}

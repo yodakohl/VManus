@@ -1,0 +1,59 @@
+{
+  "scope": "structural",
+  "verdict": "unreviewed",
+  "blockers": [
+    {
+      "code": "nonconfirmation",
+      "detail": "Registry-reported limitation; see the verbatim inherited summary. This triage does not independently audit that limitation.",
+      "evidence": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ]
+    },
+    {
+      "code": "not_reviewed",
+      "detail": "Inherited registry summary; primary-source review is required before reconsideration.",
+      "evidence": [
+        "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+      ]
+    },
+    {
+      "code": "missing_primary_source",
+      "detail": "The named IL019 primary report is unavailable in the checked workspace and local refs. This is distinct from too few manuscript pages, empirical nonconfirmation, or absence of every possible source copy.",
+      "evidence": [
+        "research_registry/decisions/kv_closed_primary_availability.json",
+        "research_registry/decisions/kv_il019_history_lookup.json",
+        "research_registry/decisions/kw_root_pointer_validation.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "all_of": [
+      {
+        "change": "new_binding",
+        "detail": "independent authorial stage labels or a genuinely different repeated relation; not another feature set, classifier, channel subset, reading, threshold, fold, boundary treatment, or addition of 3+ pages after these results",
+        "evidence": [
+          "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv"
+        ],
+        "id": "source_reopening_requirement",
+        "interpretation": "Verbatim source condition, including any alternatives; change types are navigation facets, not executable sufficiency or AND/OR logic."
+      },
+      {
+        "id": "recover_primary_for_reaudit",
+        "change": "source_correction",
+        "detail": "Locate an authorized primary report and verify its experiment/version before independently reassessing the inherited conclusion. Merely finding the report supplies review access, not satisfaction of scientific reopening gates.",
+        "evidence": [
+          "research_registry/decisions/kw_root_pointer_validation.json"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "not another feature set, classifier, channel subset, reading, threshold, fold, boundary treatment, or addition of 3+ pages after these results"
+    ],
+    "policy": "conditional"
+  },
+  "relations": [],
+  "record_id": "FAMILY:HERBAL_PARAGRAPH_ORDINAL_TEMPLATE",
+  "reviewer": "root bounded local source-pointer audit with independent history lookup",
+  "reason": "IL019 primary report pointer cannot be resolved in the workspace or located in searched local Git path history. Four comparison pointers resolve normally. The inherited closed-family disposition is retained; primary findings have not been independently re-audited.",
+  "assessment_basis": "primary_pointer_availability_only_inherited_scientific_disposition"
+}

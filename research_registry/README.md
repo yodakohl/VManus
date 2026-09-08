@@ -114,8 +114,10 @@ experimental admission, sealed-data and GDT388 gates still apply separately.
 ## Add an idea; retain decisions
 
 Save a small repository-relative JSON proposal with `title`, `summary`, `scope`
-and, if known, `design` fields `mechanism`, `unit`, `contrast`, `prediction`,
-`scope`. Then:
+and, if known, `design` fields `mechanism`, `unit`, `contrast`, `prediction`.
+`design.scope` is optional; when supplied it must be nonempty and participates
+in the exact design comparison. An omitted scope is not inferred from the
+record’s mutable review scope and does not act as a wildcard. Then:
 
 ```bash
 ./vmanus-work ideas duplicates --proposal research_registry/examples/proposal.json

@@ -4,7 +4,7 @@ Updated: 2026-09-08. Read first.
 ## Current mandate and effort limit
 
 10h requested:2026-09-07 20:29:06–2026-09-08 06:29:06UTC minimum.
-KT:27current rawquotesPASS;10h incomplete.
+KW:75designkeys/42oldhashesPASS;11tests;10h incomplete.
 9cards/12questions;8definitions repaired;85groups/103reduction.
 75rawrecords74afterknown55dup;35method/39unreviewed;10source-onlyrepairs.
 

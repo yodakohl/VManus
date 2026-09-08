@@ -1,0 +1,29 @@
+{
+  "schema": "kv_il019_history_lookup_v1",
+  "scope": "Metadata-only search of local Git refs/objects for the IL019 archived report basename and close path variants. No restoration, publication, or source-content inspection.",
+  "searched_refs": [
+    "refs/heads/main f68381e519ee4f739f8003f1354d49691fab2db2",
+    "refs/heads/yolo/gdt001-global-decipherment c7874a932a3842b4a8eaee9dfa534c1f5291bdc5",
+    "refs/heads/yolo/gdt002-visual-grammar-constraints 396dfab56f0f6b7ab9a1819172372f9afa45695c",
+    "refs/remotes/origin/HEAD 396dfab56f0f6b7ab9a1819172372f9afa45695c",
+    "refs/remotes/origin/main 396dfab56f0f6b7ab9a1819172372f9afa45695c",
+    "refs/remotes/origin/yolo/gdt001-global-decipherment c7874a932a3842b4a8eaee9dfa534c1f5291bdc5",
+    "refs/remotes/origin/yolo/gdt002-visual-grammar-constraints 8ec60417a896163705b04cb68d122e285b769de7"
+  ],
+  "queries": [
+    {
+      "command": "git log --all --name-status --format=%H%x09%ad%x09%s --date=iso-strict -- *il019* *IL019* *paragraph*construction*ordinal*",
+      "returncode": 0,
+      "matching_output": "",
+      "match_count": 0
+    },
+    {
+      "command": "git rev-list --all --objects",
+      "returncode": 0,
+      "matching_output": "",
+      "match_count": 0
+    }
+  ],
+  "finding": "No matching path or object name was found in the local Git history/object index, so no deletion commit or recoverable earlier copy was identified.",
+  "privacy_and_ceiling": "This does not establish that no copy exists outside local refs, nor does it alter the closed-family disposition. No recovery is proposed without a separately located authorized source."
+}

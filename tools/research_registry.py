@@ -118,7 +118,11 @@ def record_fingerprint(record):
 
 def design_fingerprint(record):
     design = record.get('design', {})
-    keys = ('mechanism', 'unit', 'contrast', 'prediction', 'scope')
+    if not isinstance(design, dict):
+        return ''
+    keys = ('mechanism', 'unit', 'contrast', 'prediction')
+    if 'scope' in design:
+        keys += ('scope',)
     if not all(isinstance(design.get(k), str) and design[k].strip() for k in keys):
         return ''
     normalized = {k: ' '.join(design[k].casefold().split()) for k in keys}
