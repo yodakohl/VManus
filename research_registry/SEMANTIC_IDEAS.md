@@ -9,7 +9,7 @@ they do not automatically add historical SEM cards or confirmed meanings.
 
 ## Current public snapshot
 
-Current continuation remains in progress: [session record](decisions/semantic_10h_session.md).
+Latest continuation: [scoped completion](decisions/semantic_10h_continuation_completion.md); [session record](decisions/semantic_10h_session.md).
 
 Earlier completed ten-hour comparison and remaining coverage limits: [completion report](decisions/semantic_10h_completion.md).
 Earlier four-hour curation delta: [scoped results](decisions/semantic_4h_completion.md).

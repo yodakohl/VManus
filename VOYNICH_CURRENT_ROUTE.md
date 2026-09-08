@@ -3,10 +3,13 @@ Updated: 2026-09-08. Read first.
 
 ## Current mandate and effort limit
 
-10h requested:2026-09-07 20:29:06–2026-09-08 06:29:06UTC minimum.
-OK:two finite default models,108paged cases,two scoped questions;10h incomplete.
-92recoveries/7scoreerrors;46questions;13definitions;86groups/104reduction.
-83rawrecords82afterknown55dup;51method/31unreviewed;10source-onlyrepairs.
+10h continuation elapsed checkpoint completed: 2026-09-08 06:30:00 UTC.
+Report:research_registry/decisions/semantic_10h_continuation_completion.md.
+92recoveries–7scoreerrors=85net;3944semantic;46new/160total dossiers.
+83raw/82unique;51method;31pending(28unreviewed+3design-corrected).
+No new manuscript experiment/image/meaning;provider gap was notactive work.
+734twenty-whole mappings unassessed;19-form matrix doesnotprovecoverage.
+Next:bounded discriminating candidate selection;no unbounded cleanup/decoder cycle.
 
 GDT858:855/963primary808folds retained opposite-face training;169faces/90leaves.
 GDT865 whole-leaf correction retains both primary thresholds: nuisance macroAUC
@@ -22,11 +25,7 @@ Retrospective primary robustness only; no old null/verdict/meaning reuse.
 869:144metadata tagsPASS; no direction map. Metadata/imaging side route stopped by user; do not resume.
 870:f100rL2sixloci nativelylocalized withrawgroups; no new explicitreference. Known391contact unchanged. Stop.
 
-GDT859:f56r.1 upperlink seenby2viewers; firstgroupseam definitein3readings.
-ZL/RF@167/@168 versus ITt retained; rootonly alignment, no glyph/meaning.
-860locators:861two nativeviewers see f100r.12 upperlink,f114r.1 no link.
-Manualalignment; codes do not guarantee a link or meaning.
-850joined/split28loci;851ABAB2loci;852native75v.44 seamcontrast. No wordhood.
+859–864: prior seam/link observations remain structural only; lookup primary reports. No meaning.
 GDT853:25W qualify, zero held pairs meet fixed source/start-index matching;
 no predictor or automatic looser pairing. GDT854:146events,14mixed cells;
 CKH one-e positions vary within9folios, CTH onlyf83. Cross-kernel capacity
