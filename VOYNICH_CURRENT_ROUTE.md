@@ -42,6 +42,8 @@ f8r19/f30r11; chol…daiin andol…aiin frames. Root10literalhighlightsall3,
 QI context: bothABAB/fullcontexts alreadyGDT851. cheor chey also single at
 f82r33all3definite; f5r6ZL/IT,ZLuncertain. shol kaiin onlyitsABAB in179scope.
 No sharedlongerimmediateformula/meaning; qi1_pair_context_followup.md.
+QJ parks selectedQH/QI repeat/framebranch:642/761alreadygrid/sharedcontexts,
+no independentsemanticcontrast. Reopenconditions:qj1_text_pattern_branch_decision.md.
 
 4h continuation completed:2026-09-08 07:12:17–11:12:18UTC.
 Session:research_registry/decisions/semantic_4h_followon_session.md.
