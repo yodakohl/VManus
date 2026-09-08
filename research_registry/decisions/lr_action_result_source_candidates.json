@@ -1,0 +1,83 @@
+{
+  "id": "LR_ACTION_RESULT_SOURCE_CANDIDATES",
+  "scope": "Bounded source-to-memory audit of GDT703, GDT704 and GDT705; no raw TSV/sealed access and no operative mutation.",
+  "result": "two_missing_source_bound_local_propositions",
+  "card_context_check": {
+    "exact_registry_context_matches": [],
+    "interpretation": "No semantic card is registered under GDT703, GDT704 or GDT705 contexts. Existing earlier cards cover some component values, but not the two local relation claims below."
+  },
+  "candidates": [
+    {
+      "source_claim": "C014",
+      "kind": "historical_local_action_result_relation",
+      "source_owner": {
+        "gdt": "GDT703",
+        "report": "experiments/yolo/gdt703_v76_all_action_finished_result_census/REPORT.md"
+      },
+      "claim": "At f115r.23, qokeod#3 → chody#4 is retained as a lower-confidence local relation: a completed hot extract may precede the written completed, lightly dried preparation; #4 may instead be an independent material checkpoint.",
+      "existing_comparison": {
+        "counterpart_cards": [
+          "SEM:140c6653acfbc0f61220 (qokeod lexical working value)",
+          "SEM:ce07546e53959e672d23 (chody lexical working value)"
+        ],
+        "gap": "Those cards preserve individual whole-form readings, not the C014 predecessor/result relation or its explicit independent-checkpoint rival."
+      },
+      "status": "unconfirmed_source_bound_candidate",
+      "not_meaning": "This is an occurrence-bound relation hypothesis, not a portable qokeod/chody translation or global action→result rule.",
+      "evidence": {
+        "role": "C014",
+        "path": "experiments/yolo/gdt703_v76_all_action_finished_result_census/REPORT.md",
+        "line": 30,
+        "line_end": 36,
+        "quote": "### C014 — f115r.23\n\n> Heißen Auszug bereiten und abschließen. Ergebnis: leicht getrocknete,\n> abgeschlossene Zubereitung.\n\nC014 is `#3 qokeod → #4 chody`.  It is deliberately lower-confidence: #4 may\ninstead be an independent material checkpoint, and the light drying is not a",
+        "sha256": "20b92653f58fb1e54a5863588b09565ae52f11dd1c9a66d27445709c1da75a3e"
+      }
+    },
+    {
+      "source_claim": "C015",
+      "kind": "historical_local_output_continuation_relation",
+      "source_owner": {
+        "gdt": "GDT704",
+        "report": "experiments/yolo/gdt704_v77_repeated_written_material_continuation/REPORT.md"
+      },
+      "claim": "At f26r.2, the already carried cooling batch in C011/C013 continues to drying action #8 because Krautdroge is written again; the strongest rival is a different herb batch with the same name.",
+      "existing_comparison": {
+        "counterpart_cards": [
+          "SEM:1383f723ae5672dc98a4 (GDT701 M009/C011 local model)",
+          "SEM:2084aec5264a322bc05c (IP003 generic same-participant-versus-new-participant question)"
+        ],
+        "gap": "These preserve the earlier C011 model or a generic discriminator, not the GDT704 C015 output→#8 local claim with its explicit same-name new-batch rival."
+      },
+      "status": "unconfirmed_source_bound_candidate",
+      "not_meaning": "No global repetition rule or confirmed Krautdroge dictionary meaning follows; C015 remains local and rivalized.",
+      "evidence": {
+        "role": "C015",
+        "path": "experiments/yolo/gdt704_v77_repeated_written_material_continuation/REPORT.md",
+        "line": 10,
+        "line_end": 18,
+        "quote": "> **f26r.2 / C011+C013+C015:** Die Krautdroge bis zur Mittelstufe erhitzen und\n> abschließen. Zustand: mittlere Trockenstufe erreicht. Dieselbe erhitzte\n> Krautdroge bis zur Mittelstufe abkühlen und abschließen. Die so abgekühlte\n> Krautdroge mäßig trocknen, nochmals mäßig trocknen und abschließen.\n\nThe source of the first `hiervon` remains open.  The new claim begins only at\nthe already carried cooling batch: C015 links the output of the complete\ncooling clause #6–7 to drying action #8, where `Krautdroge` is written again.\n",
+        "sha256": "e306901fb99c3a223bbd06aec200109030589ce541a39df60e4f41c49526c5cf"
+      }
+    }
+  ],
+  "covered_controls": [
+    {
+      "claim": "GDT705 C017",
+      "covered_by": "SEM:3e14a3ba58f12c52c546 (GDT680 shkeol working card)"
+    },
+    {
+      "claim": "GDT705 C018",
+      "covered_by": "SEM:600c692b4012184de94a (GDT687 dchey action/result scope)"
+    },
+    {
+      "claim": "GDT703 C013",
+      "covered_by": "SEM:1383f723ae5672dc98a4 (GDT701 M009/C011 scope)"
+    }
+  ],
+  "limits": [
+    "GDT703/704 local relations are historical working hypotheses; PASS statuses do not confirm semantic meanings.",
+    "The two candidates should not be merged: C014 is qokeod→chody at f115r.23; C015 is f26r.2 cooling-output→drying continuation.",
+    "No test, rerun, registry append, ledger update, or source-byte edit is authorized by this audit."
+  ],
+  "validation": "Evidence quotes were generated from literal declared line spans and SHA-validated programmatically."
+}

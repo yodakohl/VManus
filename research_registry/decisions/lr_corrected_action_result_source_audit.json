@@ -1,0 +1,105 @@
+{
+  "id": "LR_CORRECTED_ACTION_RESULT_SOURCE_AUDIT",
+  "preserves": "research_registry/decisions/lr_action_result_source_candidates.json",
+  "scope": "Read-only correction of the GDT703–705 source-to-memory audit. Historical weak/held relations count as semantic memory candidates even when not accepted graph edges; no operative mutation.",
+  "verdict": "retain_seven_bounded_source_candidates",
+  "source_owner_note": "Full source owner IDs are the extracted LEGACY_SOURCE records for each report: GDT703=LEGACY_SOURCE:a41405e81ad0102cb89cf405; GDT704=LEGACY_SOURCE:cee3b2d3fdb83751ba608294; GDT705=LEGACY_SOURCE:81fecb29ff0f00f4309e18f8.",
+  "correction": "The prior LR receipt incorrectly treated C013, C017 and C018 as covered by nearby cards. Their component/value cards do not assert the exact occurrence-bound edge or predecessor/result relation. C016 and the five GDT705 holds must also remain represented as historical hypotheses or open local alternatives.",
+  "candidates": [
+    {
+      "id": "C013",
+      "owner": "LEGACY_SOURCE:a41405e81ad0102cb89cf405",
+      "claim": "f26r.2 #4 ykecthey → #5 chedy: written herb-heating action followed by the exact state checkpoint; separate from the existing #4→#6 C011 carry/fork.",
+      "status": "retain_source_bound_local_relation",
+      "comparison": "SEM:1383f723ae5672dc98a4 GDT701 M009 contains the state-only C011 model, not the C013 #4→#5 edge."
+    },
+    {
+      "id": "C014",
+      "owner": "LEGACY_SOURCE:a41405e81ad0102cb89cf405",
+      "claim": "f115r.23 qokeod#3 → chody#4: completed hot extract may precede completed lightly dried preparation; independent material checkpoint remains rival.",
+      "status": "retain_source_bound_local_relation",
+      "comparison": "SEM:140c6653acfbc0f61220 and SEM:ce07546e53959e672d23 cover qokeod/chody values separately, not this relation."
+    },
+    {
+      "id": "C015",
+      "owner": "LEGACY_SOURCE:cee3b2d3fdb83751ba608294",
+      "claim": "f26r.2 carried cooling output → drying action #8 where Krautdroge is rewritten; same-name new herb batch remains rival.",
+      "status": "retain_source_bound_local_relation",
+      "comparison": "SEM:1383f723ae5672dc98a4 and SEM:2084aec5264a322bc05c preserve adjacent/general scope, not this exact output continuation."
+    },
+    {
+      "id": "C016",
+      "owner": "LEGACY_SOURCE:cee3b2d3fdb83751ba608294",
+      "claim": "f115r.23 lightly dried completed preparation → further heat/dry/set-up is a usable lower-tier alternative; qokcho lacks material/deictic cue and #6 writes Samenposten.",
+      "status": "retain_open_held_hypothesis",
+      "comparison": "Not an accepted edge, but explicitly held in GDT704 and therefore not discardable as mere score output."
+    },
+    {
+      "id": "C017_C018",
+      "owner": "LEGACY_SOURCE:81fecb29ff0f00f4309e18f8",
+      "claim": "C017 f80r.17 sheky#3→shkeol#4 mirrors soak/heat/middle-stage result; C018 f7r.2 dold#5→dchey#6 mirrors measurement plus finished dry portion. Both are occurrence-bound relations with local controls.",
+      "status": "retain_two_source_bound_local_relations",
+      "comparison": "SEM:3e14a3ba58f12c52c546 preserves shkeol value and SEM:600c692b4012184de94a preserves dchey action/result scope, but neither asserts these exact predecessor/result edges."
+    },
+    {
+      "id": "GDT705_HOLDS",
+      "owner": "LEGACY_SOURCE:81fecb29ff0f00f4309e18f8",
+      "claim": "Five named held alternatives remain source hypotheses: A066 f86v3.13#10→11, A072 f86v5.2#10→11, A046 f76v.10#1→2, A006 f105r.31#5→6, A043 f56r.6#1-2→3. Their cited operation/material/stage matches and mismatches are retained as local rival cases.",
+      "status": "retain_five_open_hypotheses",
+      "comparison": "No current GDT705 semantic context card was found; they are not portable word meanings or accepted edges."
+    }
+  ],
+  "evidence": [
+    {
+      "role": "C013 exact local edge",
+      "source_owner_id": "LEGACY_SOURCE:a41405e81ad0102cb89cf405",
+      "path": "experiments/yolo/gdt703_v76_all_action_finished_result_census/REPORT.md",
+      "line": 18,
+      "line_end": 28,
+      "quote": "### C013 — f26r.2\n\n> Die Krautdroge bis zur Mittelstufe erhitzen und abschließen [Quelle von\n> „hiervon“ offen]. Zustand: mittlere Trockenstufe erreicht. Dieselbe erhitzte\n> Krautdroge bis zur Mittelstufe abkühlen und abschließen\n> [C011/C013-Arbeitshypothese].\n\nC013 is `#4 ykecthey → #5 chedy`.  GDT700 had already classified #5 as the\nexact state-only result checkpoint between #4 and #6.  C013 now records the\nlocal result relation.  C011 remains the separate `#4→#6` carry.  The graph is\na common-source fork, not a new `#5→#6` chain.",
+      "sha256": "20b92653f58fb1e54a5863588b09565ae52f11dd1c9a66d27445709c1da75a3e"
+    },
+    {
+      "role": "C014 exact local edge",
+      "source_owner_id": "LEGACY_SOURCE:a41405e81ad0102cb89cf405",
+      "path": "experiments/yolo/gdt703_v76_all_action_finished_result_census/REPORT.md",
+      "line": 30,
+      "line_end": 36,
+      "quote": "### C014 — f115r.23\n\n> Heißen Auszug bereiten und abschließen. Ergebnis: leicht getrocknete,\n> abgeschlossene Zubereitung.\n\nC014 is `#3 qokeod → #4 chody`.  It is deliberately lower-confidence: #4 may\ninstead be an independent material checkpoint, and the light drying is not a",
+      "sha256": "20b92653f58fb1e54a5863588b09565ae52f11dd1c9a66d27445709c1da75a3e"
+    },
+    {
+      "role": "C015 exact local continuation",
+      "source_owner_id": "LEGACY_SOURCE:cee3b2d3fdb83751ba608294",
+      "path": "experiments/yolo/gdt704_v77_repeated_written_material_continuation/REPORT.md",
+      "line": 10,
+      "line_end": 18,
+      "quote": "> **f26r.2 / C011+C013+C015:** Die Krautdroge bis zur Mittelstufe erhitzen und\n> abschließen. Zustand: mittlere Trockenstufe erreicht. Dieselbe erhitzte\n> Krautdroge bis zur Mittelstufe abkühlen und abschließen. Die so abgekühlte\n> Krautdroge mäßig trocknen, nochmals mäßig trocknen und abschließen.\n\nThe source of the first `hiervon` remains open.  The new claim begins only at\nthe already carried cooling batch: C015 links the output of the complete\ncooling clause #6–7 to drying action #8, where `Krautdroge` is written again.\n",
+      "sha256": "e306901fb99c3a223bbd06aec200109030589ce541a39df60e4f41c49526c5cf"
+    },
+    {
+      "role": "C016 held local alternative",
+      "source_owner_id": "LEGACY_SOURCE:cee3b2d3fdb83751ba608294",
+      "path": "experiments/yolo/gdt704_v77_repeated_written_material_continuation/REPORT.md",
+      "line": 40,
+      "line_end": 47,
+      "quote": "## C016 stays open\n\nThe tempting f115r.23 reading is:\n\n> Die leicht getrocknete fertige Zubereitung weiter erhitzen, trocknen und\n> ansetzen.\n\nIt is usable as a working alternative, but not yet as an edge.  `qokcho` at #5",
+      "sha256": "e306901fb99c3a223bbd06aec200109030589ce541a39df60e4f41c49526c5cf"
+    },
+    {
+      "role": "C017 and C018 exact local relations",
+      "source_owner_id": "LEGACY_SOURCE:81fecb29ff0f00f4309e18f8",
+      "path": "experiments/yolo/gdt705_v78_complete_action_nominal_result_census/REPORT.md",
+      "line": 5,
+      "line_end": 17,
+      "quote": "## Result\n\nThe first nominal token after all 60 immediate ACTION-to-NOMINAL transitions is now classified. Later entries inside those nominal blocks are not claimed as resolved. Two first-token cases say something substantially more concrete than “continue the work.”\n\n> **C017 / f80r.17 `sheky#3 → shkeol#4`:** Bis zur Mittelstufe einweichen, erhitzen und abschließen. Ergebnis: eingeweichter Drogenstoff, bis Mittelstufe erhitzt.\n\n> **C018 / f7r.2 `dold#5 → dchey#6`:** Drogenstoff abmessen und abschließen. Ergebnis: fertige abgemessene Mittelstufen-Trockenportion.\n\nC017 binds only #3 to #4; `qokar#5` is an unbound later register entry. C018 binds only #5 to #6; #7-9 are unbound later register entries, not proven separate batches.\n\n## Why these two improve the renderer\n\nC017 writes the state created by two operations and the same stage: `einweichen → eingeweicht`, `erhitzen → erhitzt`, and `Mittelstufe → Mittelstufe`; its material identity remains open because #2 `sheckhy` names feuchtes Arzneikompositum. C018 writes `abmessen → abgemessen`, while `abschließen → fertig` is a semantic equivalence rather than an identical lemma; #6 itself has no Drogenstoff head. These are usable local event/result statements, not generic procedural filler.",
+      "sha256": "0a11a091813d3e6af1619bd72625c6d55f3508650e41e78c55949bf625a8453c"
+    }
+  ],
+  "limits": [
+    "No GDT703–705 PASS status is semantic confirmation.",
+    "No candidate licenses a portable sheky, dold, qokeod, chody or repeated-head dictionary rule.",
+    "The five holds are grouped as one audit entry to stay within the ten-candidate bound; their five named cases remain individually identified."
+  ],
+  "validation": "All evidence quotes were generated from literal report spans and SHA-validated programmatically; no source, registry, ledger, raw TSV or experiment file was modified."
+}

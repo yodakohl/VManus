@@ -1,0 +1,140 @@
+{
+  "task": "LQ bounded selection",
+  "selected_candidate_count": 3,
+  "reviewed_candidates": [
+    {
+      "id": "IDEA000046",
+      "effective_design": {
+        "contrast": "Whole-sequence scope versus nearest-argument attachment, holding carrier type and envelope fixed.",
+        "countermodel": "Renderer composition can repeat a local operator label across each carrier and mimic broad scope without a single scoped construction.",
+        "falsifier": "Held cases with independently bound scope show the effect consistently stops at the nearest argument despite a second compatible value, or broad and nearest models make identical predictions in every case.",
+        "intake_limit": "Raw proposal retained for later method review. Missing independently bound endpoints or identical model predictions are design/capacity stops, not empirical refutations. Source working glosses do not supply semantic gold.",
+        "mechanism": "A constructional operator applies to all compatible argument values in its local sequence until a scope boundary, rather than selecting only the adjacent carrier.",
+        "original_draft": {
+          "path": "research_registry/proposals/is_argument_scope.json",
+          "sha256": "e472cf3cf9f82830aa1ba47dc223de8dbbeef66024bf619d42b56bbd96308ac1"
+        },
+        "prediction": "If broad scope is encoded, adding a second compatible argument preserves the operator's effect on both values; nearest attachment affects only the adjacent value.",
+        "related": "Near IDEA000038 ellipsis and GDT559 carrier grammar, but target is operator scope over multiple explicit arguments, not inherited-carrier reuse.",
+        "scope": "GDT559 state cards; independent semantic scope endpoint availability_unknown.",
+        "source_evidence": {
+          "line": 8,
+          "line_end": 29,
+          "path": "experiments/yolo/gdt559_argument_carrier_substitution_grammar/REPORT.md",
+          "quote": "Die vier bisherigen Einwortwerte bleiben kurz:\n\n```text\nY     POSTEN\nAIIN  WERT\nAIN   ANTEIL\nOR    EINHEIT\n```\n\nNeu ist nicht ein längeres Wörterbuch, sondern ihre gemeinsame Grammatik.\nUnter den1,656 Zustandskarten tragen382 Karten insgesamt390 dieser\nArgumentstellen. Alle fallen in nur sechs sichtbare `OT/OL/DY`-Hüllen und alle\nerhalten eine kompositionelle Standardlesung.\n\n| Hülle | Stellen | kurze Lesung |\n|---|---:|---|\n| `OT>A<END` | 185 | `DANACH · ARG` |\n| `OL>A<END` | 156 | `FORTSETZEN · ARG` |\n| `START>A<DY` | 31 | `ARG · ABSCHLIESSEN` |\n| `START>A<OL` | 16 | `ARG · FORTSETZEN` |\n| `OT>A<OL` | 1 | `DANACH · ARG · FORTSETZEN` |\n| `OL>A<OL` | 1 | `FORTSETZEN · ARG · FORTSETZEN` |",
+          "sha256": "c1f3518d7996c041335ed1abac9899e53079de22ed0f6321065c8f7442559bc4"
+        },
+        "unit": "Complete OT/OL/DY envelopes with one or more argument carriers and independently marked scope boundaries."
+      },
+      "design_sha256": "04f69b64dd267790a55474f9382bb92ae1e13aeb457904ede15ec19863c00403",
+      "source_evidence": [
+        {
+          "line": 8,
+          "line_end": 29,
+          "path": "experiments/yolo/gdt559_argument_carrier_substitution_grammar/REPORT.md",
+          "quote": "Die vier bisherigen Einwortwerte bleiben kurz:\n\n```text\nY     POSTEN\nAIIN  WERT\nAIN   ANTEIL\nOR    EINHEIT\n```\n\nNeu ist nicht ein längeres Wörterbuch, sondern ihre gemeinsame Grammatik.\nUnter den1,656 Zustandskarten tragen382 Karten insgesamt390 dieser\nArgumentstellen. Alle fallen in nur sechs sichtbare `OT/OL/DY`-Hüllen und alle\nerhalten eine kompositionelle Standardlesung.\n\n| Hülle | Stellen | kurze Lesung |\n|---|---:|---|\n| `OT>A<END` | 185 | `DANACH · ARG` |\n| `OL>A<END` | 156 | `FORTSETZEN · ARG` |\n| `START>A<DY` | 31 | `ARG · ABSCHLIESSEN` |\n| `START>A<OL` | 16 | `ARG · FORTSETZEN` |\n| `OT>A<OL` | 1 | `DANACH · ARG · FORTSETZEN` |\n| `OL>A<OL` | 1 | `FORTSETZEN · ARG · FORTSETZEN` |",
+          "sha256": "c1f3518d7996c041335ed1abac9899e53079de22ed0f6321065c8f7442559bc4"
+        }
+      ],
+      "available": "GDT559 qoty/qotaiin/qotain/qotor and qoly/qolaiin/qolain/olor;390 argument positions in382 cards, six envelopes.",
+      "missing": "No nominated complete two-explicit-argument case or measurable effect on its second argument.390−382 does not identify eight eligible scope cases. Last-carrier succession is not broad operator scope.",
+      "rival": "A copied renderer scope readout or productive substitution family satisfies both analyses.",
+      "decision": "A restricted broad-versus-nearest scope rule could be tested if a named second-argument response is required under only one rule.",
+      "smallest_test_now": null,
+      "capacity": "First nominate complete units and a rival-specific response, then actual recurring/held instances of that same contrast; do not borrow aggregated predecessor counts as eligible capacity.",
+      "title": "An argument operator scopes over a whole argument sequence rather than only its nearest value"
+    },
+    {
+      "id": "IDEA000050",
+      "effective_design": {
+        "contrast": "directional reciprocal relation versus symmetric coordination or generic local adjacency",
+        "countermodel": "A generic adjacency or coordination marker can appear in nearly symmetric local frames and therefore mimic reciprocity unless endpoint identities and reversal are independently frozen.",
+        "falsifier": "On a predeclared set with independently bound endpoint identities, reversing the endpoint order leaves the same marker and frame without any stable inverse or argument-order effect, while the directional model had required one.",
+        "intake_limit": "Raw unreviewed design draft; independent semantic binding is unavailable unless separately established. A positive structural match would not by itself identify an English or German meaning.",
+        "intake_scope_caution": "Ordered relation inversion is not automatically reciprocity. A directional relation may keep the same written marker while argument order supplies direction. Before testing, freeze the endpoint-role interpretation and a predicted difference that is not already the observed swap; invariant marker shape alone is not a falsifier.",
+        "mechanism": "A recurring field marker encodes an ordered relation between two independently identified argument fields, with a stable inverse behavior under source-target exchange.",
+        "original_draft": {
+          "path": "research_registry/proposals/ix_relational_reciprocity.json",
+          "sha256": "d348b8cc184ec59c70801f540e8184455fc5aeb08a2b66f89541579b1a4024f0"
+        },
+        "prediction": "Across held ordered pairs, the marker or its licensed frame should distinguish source-to-target from target-to-source, while a symmetric coordination model predicts no directional change.",
+        "related": "Near IDEA000006 reciprocal frame compatibility and the GDT769 R05 field-role dispatch, but changes the unit and falsifier: ordered endpoint reversal rather than mutual frame interchangeability.",
+        "scope_note": "The source only motivates field relation and does not establish endpoint meanings; this is a conditional design question, not a claim that ol is a relational lexeme.",
+        "source_evidence": {
+          "line": 25,
+          "line_end": 27,
+          "path": "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/REPORT.md",
+          "quote": "The current atlas contains 376 reader-exact `ol` occurrences. Nine immediate exact amount contacts occur on eight pages and are nearly symmetric around the target. Repeated `ol` field sequences, together with the fact that 58 of 59 apparent line-edge positions remain embedded in continuing records, fit a small relation that travels with a field better than a fixed liquid name. In `f58r.13`, `ol` joins a dry-state field to an independent process field; in `f3r.19`, it joins a cold-dry portion to a dry form. The least committal useful rendering is therefore contextual `und/mit`, with `von/aus` available in an amount attachment.\n\nThese local frames justify keeping the relation as the most useful reader default, but they do not produce a role win. R05, R01, and R03 each pass their gates with the same role score of 1.0; R05 is selected only because its dispatch priority is more specific. R01 *Ansatz/Zubereitungsbasis* and R03 measurable product/result are supported rivals, not failed alternatives. Confidence is therefore `C1_LOCAL_FRAME__C0_ROLE_TIEBREAK`. The form is extremely frequent, repetition is not exceptional among frequent forms, and its local environments are broad. Nothing distinguishes plant juice, extract, decoction, medicinal water, oil, wine, or vinegar. Visible similarity between EVA `ol` and Latin *oleum* earns zero identity credit.",
+          "sha256": "a00ca7b7fd36013a78b8118395e88e5e091f087515d0def577ba25af7623e346"
+        },
+        "unit": "complete target occurrences with independently established left and right field identities and an adjudicated source-target order"
+      },
+      "design_sha256": "7553ea727afa950b02905aa28a15c8c2e10edfc66bbdbbd36586fb7a135d99d9",
+      "source_evidence": [
+        {
+          "line": 25,
+          "line_end": 27,
+          "path": "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/REPORT.md",
+          "quote": "The current atlas contains 376 reader-exact `ol` occurrences. Nine immediate exact amount contacts occur on eight pages and are nearly symmetric around the target. Repeated `ol` field sequences, together with the fact that 58 of 59 apparent line-edge positions remain embedded in continuing records, fit a small relation that travels with a field better than a fixed liquid name. In `f58r.13`, `ol` joins a dry-state field to an independent process field; in `f3r.19`, it joins a cold-dry portion to a dry form. The least committal useful rendering is therefore contextual `und/mit`, with `von/aus` available in an amount attachment.\n\nThese local frames justify keeping the relation as the most useful reader default, but they do not produce a role win. R05, R01, and R03 each pass their gates with the same role score of 1.0; R05 is selected only because its dispatch priority is more specific. R01 *Ansatz/Zubereitungsbasis* and R03 measurable product/result are supported rivals, not failed alternatives. Confidence is therefore `C1_LOCAL_FRAME__C0_ROLE_TIEBREAK`. The form is extremely frequent, repetition is not exceptional among frequent forms, and its local environments are broad. Nothing distinguishes plant juice, extract, decoction, medicinal water, oil, wine, or vinegar. Visible similarity between EVA `ol` and Latin *oleum* earns zero identity credit.",
+          "sha256": "a00ca7b7fd36013a78b8118395e88e5e091f087515d0def577ba25af7623e346"
+        }
+      ],
+      "available": "GDT769 nine amount contacts around376 ol occurrences on eight pages; nearly symmetric aggregate positions; f58r.13/f3r.19 working field readings.",
+      "missing": "No actual A-ol-B/B-ol-A reversal with the same independently identifiable endpoints and observed direction, and no fixed inverse marker or frame transformation.",
+      "rival": "Directional meaning may keep the same marker and use order; symmetric coordination may have order-sensitive writing conventions. Aggregate left/right symmetry is not endpoint reversal.",
+      "decision": "A restricted inverse-marker/order rule could be challenged by a independently tracked reversal and response other than the swap itself.",
+      "smallest_test_now": null,
+      "capacity": "First nominate complete units and a rival-specific response, then actual recurring/held instances of that same contrast; do not borrow aggregated predecessor counts as eligible capacity.",
+      "title": "A field relation preserves ordered reciprocity rather than mere adjacency"
+    },
+    {
+      "id": "IDEA000053",
+      "effective_design": {
+        "contrast": "apposition/alias of one referent versus separate material, part, or value-field entries",
+        "countermodel": "A fixed recipe template can place independently typed fields adjacently and make them look appositional; repeated daiin may be a shared value slot without shared referent.",
+        "falsifier": "In a held set with independent referent/class coding, parallel X+daiin cells consistently have distinct typed heads and no alias recurrence, falsifying the apposition variant.",
+        "mechanism": "A repeated X+daiin construction can place an appositional alias or alternate label beside one referent, rather than introducing an independently typed entry for every neighboring X.",
+        "prediction": "Under apposition, paired X+daiin cells should share an independently coded referent or class and show alias-like recurrence; under separate-entry analysis, the cells should occupy distinct typed field roles and recur with different head/body profiles.",
+        "principal_risk": "No independent referent or class annotation may exist, and the apparent apposition can be produced by the same local field template.",
+        "related": "Near GDT764 bounded H1-X-daiin field dispatch and GDT765's main-field/subfield renderer, but changes the discriminator to apposition versus separate entries rather than axis assignment or concrete noun selection.",
+        "scope_note": "The source supplies working whole-form roles and no independent material gold; this is an exploratory construction question, not a claim that ofchy or schor is translated.",
+        "source_evidence": {
+          "line": 66,
+          "line_end": 77,
+          "path": "experiments/yolo/gdt765_ofchy_schor_content_field_discriminator/REPORT.md",
+          "quote": "## The f22r record now says something\n\nThe first two lines of the local paragraph contain four exact value cells:\n\n```text\nf22r.4  ofchy daiin  ...  schor daiin\nf22r.5  ol daiin     ...  dar daiin\n```\n\nAcross the entire cache there are twelve exact `H-head X daiin` triples\n(H1 five, H2 five, H4 two); f22r.4 alone contains two on one line. That makes a\nmain-field/subfield inventory much more natural than a sequence of actions.",
+          "sha256": "43ee900632971c0f6877447ef3432d21274512d0ed033d2cc85d9874427e4f35"
+        },
+        "unit": "complete parallel X+daiin cells with independently coded head class, field position, and recurrence outside the motivating f22r lines"
+      },
+      "design_sha256": "95ea07793488f5dae18aad9ec46366202d18c6d04795950b89bc299d28d56478",
+      "source_evidence": [
+        {
+          "line": 66,
+          "line_end": 77,
+          "path": "experiments/yolo/gdt765_ofchy_schor_content_field_discriminator/REPORT.md",
+          "quote": "## The f22r record now says something\n\nThe first two lines of the local paragraph contain four exact value cells:\n\n```text\nf22r.4  ofchy daiin  ...  schor daiin\nf22r.5  ol daiin     ...  dar daiin\n```\n\nAcross the entire cache there are twelve exact `H-head X daiin` triples\n(H1 five, H2 five, H4 two); f22r.4 alone contains two on one line. That makes a\nmain-field/subfield inventory much more natural than a sequence of actions.",
+          "sha256": "43ee900632971c0f6877447ef3432d21274512d0ed033d2cc85d9874427e4f35"
+        }
+      ],
+      "available": "GDT765 f22r.4 ofchy daiin ... schor daiin;f22r.5 ol daiin ... dar daiin. Twelve H-head X daiin triples are not twelve independently bound appositional pairs.",
+      "missing": "Referent identity versus class is unresolved. No specific alias-like recurrence beyond repeated daiin template, or complete outside-f22r pair with tracked identity, is nominated.",
+      "rival": "Separate entries may share a class; aliases may have different head/body profiles. Structural head-profile difference alone does not distinguish generic apposition.",
+      "decision": "A restricted alias/shared-referent versus distinct-entry rule could be tested using actual independently tracked identity or a stipulated distinct structural consequence.",
+      "smallest_test_now": null,
+      "capacity": "First nominate complete units and a rival-specific response, then actual recurring/held instances of that same contrast; do not borrow aggregated predecessor counts as eligible capacity.",
+      "title": "Parallel X+daiin cells distinguish apposition from separate field entries"
+    }
+  ],
+  "selected_test": null,
+  "decision": "No new test selected. Concrete surface observations exist, but none supplies the fixed rival-specific structural response and complete contrast required by its design. Recounting these observations repeats known structure.",
+  "limits": "Only46/50/53 primary-source audited; no global absence claim. Initial first20 navigation output also included design previews before narrowing. No reviews, raw-table or image reads, experimental implementation or hypothesis rejection.",
+  "navigation": [
+    "submitted-scope semantic plus effective scope semantic",
+    "lookup559/765/769",
+    "route-check argument sequence nearest scope",
+    "route-check ordered reciprocity field relation"
+  ],
+  "meaning_gold_rule": "Independent structural outcomes can suffice. Stops here are missing nominated response/contrast/units, not absence of confirmed English/German meanings.",
+  "source_verification": "All3 effective intake spans literally checked against physical Markdown lines and whole-source SHA256."
+}
