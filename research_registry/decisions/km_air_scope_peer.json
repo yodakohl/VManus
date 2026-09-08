@@ -1,0 +1,90 @@
+{
+  "schema": "km_air_scope_peer_v1",
+  "scope": "Bounded read-only historical identity/variant audit; no registry or operative mutation, no raw tables.",
+  "targets": [
+    "SEM:7bab0e274b2510335f3c",
+    "GDT754 air whole-form historical default"
+  ],
+  "decision": {
+    "recommendation": "retain_related_not_equivalent_historical_variants",
+    "reason": "GDT636 and GDT754 overlap on a fraction-II/part core, so the propositions are not unrelated. They remain separate addressable historical variants because GDT636 declares a compositional four-head field reading, while GDT754 audits an older exact-whole PRODUCTIVE_COMPOUND default (“second drug fraction”) and then withdraws its literal drug prose, retaining only an open fraction/part field. Source scope and claim level differ; identity should remain unresolved rather than forced.",
+    "identity_limit": "No claim that the forms have different manuscript meanings; only that the recorded historical propositions are not safely identical.",
+    "reopen": "An independently source-bound whole-form role that explicitly bridges the shared fraction-II core to the same complete air card could support a later identity review."
+  },
+  "patch_check": {
+    "finding": "GDT754 reports stronger local occurrence readings for lkaiin; GDT738 explicitly says discovery forms including lky produce no renderer patch. Do not generalize the 42-cell local patch family to air or lky.",
+    "scope": "The cited GDT754 air row retains “Index/Stufe II und Teil-/Fraktionsfeld; genaue Ganzform offen”; it does not reinstate “Droge.”"
+  },
+  "evidence": [
+    {
+      "path": "experiments/yolo/gdt636_residual_four_head_semantics/REPORT.md",
+      "line": 26,
+      "line_end": 30,
+      "quote": "| `ar` | `a+R` | Fraktionsklasse I | Pulver-/Samen-/Wurzel-/Holzfraktion I |\n| `chey` | `ch+e+y` | Trockenform I | jeweiliger Kopfstoff, trocken gebunden, Form I |\n| `al` | `a+L` | Rohstoffform I | Pulver-, Saat-, Wurzel- oder Holzrohstoff I |\n| `y` | `y` | unmarkierte Grundform | Kopfstoff in Grundform |\n| `air` | `a+i+R` | Fraktionsklasse II | Pulver-/Samen-/Wurzel-/Holzfraktion II |",
+      "sha256": "cd031640976c12d169cb0058873d06f076a6abd1143a70e39ab1a56b46319a67",
+      "why": "GDT636 core: air is fraction II across head materials"
+    },
+    {
+      "path": "experiments/yolo/gdt754_active_productive_compound_provenance_sieve/REPORT.md",
+      "line": 34,
+      "line_end": 46,
+      "quote": "| Form | alte konkrete Prosa | neuer gesprochener Arbeitsdefault |\n|---|---|---|\n| `air` | zweite Drogenfraktion | Index/Stufe II und Teil-/Fraktionsfeld; genaue Ganzform offen |\n| `lkaiin` | Holzdroge, heiß auf Stufe III | heiß/warm, Stufe III und Stoffrolle; genaue Ganzform offen |\n| `opchedy` | vollständig getrocknetes Pulverpräparat | trocken plus Stoff-, Zubereitungs-, Vorgangs- und Abschlussfeld; genaue Ganzform offen |\n| `qokeol`, `okeol` | zwei verschiedene konkrete Heizsätze | gemeinsames Wärme-/Mittelstufenfeld; Funktion und Träger offen |\n\nDas ist eine Korrektur der Behauptungsebene, kein Rückfall auf bedeutungslose\nProsa. `air` behält zum Beispiel die Hypothese Stufe II/Teil, sagt aber nicht\nmehr ohne Beleg „Droge“. `opchedy` behält sein trockenes\nZubereitungs-/Prozessprofil, behauptet aber nicht mehr „Pulver“. `lkaiin`\nbehält global nur die Rollenarbeitshypothese; an 42 genau lokalisierten Zellen\nbleiben die stärkeren GDT738-Vorkommenslesarten erhalten.",
+      "sha256": "88063124968132fbb3ab80fc4733cbf9d6994a52751444569a64fb1f9a3ea4af",
+      "why": "GDT754 old bare-whole drug prose corrected to open whole form while retaining fraction/part field"
+    },
+    {
+      "path": "experiments/yolo/gdt738_held_body_occurrence_semantic_adjudication/REPORT.md",
+      "line": 98,
+      "line_end": 105,
+      "quote": "Die fünf zusätzlichen Discovery-Formen `lcheor`, `lkeey`, `lkey`, `lky` und\n`pcheor` bleiben mit positiver Evidenz und Gegenbeleg in der Kartendatei. Ihre\nKörper verlieren jedoch auf dem W2/W3-Achsendeck den Familienpass; deshalb\nerzeugen diese Formen keinen Renderer-Patch.\n\nZusammen besitzen die zwölf lizenzierten Formen 203 reader-exakte Vorkommen.\nDer Positionsfilter erzeugt **202** konkrete Patches. Nur die exakte initiale\nH4-Ausnahme von `lkaiin` bleibt ungesprochen; `skaiin` ist dagegen als",
+      "sha256": "7dd9f253279f61f0309db060cb7d008200cc8eabffff9597579fd71601d754e7",
+      "why": "GDT738 discovery forms, including lky, do not generate renderer patches"
+    },
+    {
+      "path": "experiments/yolo/gdt754_active_productive_compound_provenance_sieve/REPORT.md",
+      "line": 41,
+      "line_end": 46,
+      "quote": "Das ist eine Korrektur der Behauptungsebene, kein Rückfall auf bedeutungslose\nProsa. `air` behält zum Beispiel die Hypothese Stufe II/Teil, sagt aber nicht\nmehr ohne Beleg „Droge“. `opchedy` behält sein trockenes\nZubereitungs-/Prozessprofil, behauptet aber nicht mehr „Pulver“. `lkaiin`\nbehält global nur die Rollenarbeitshypothese; an 42 genau lokalisierten Zellen\nbleiben die stärkeren GDT738-Vorkommenslesarten erhalten.",
+      "sha256": "88063124968132fbb3ab80fc4733cbf9d6994a52751444569a64fb1f9a3ea4af",
+      "why": "GDT754 local role patch scope and air limit"
+    }
+  ],
+  "validation": {
+    "checks": [
+      {
+        "path": "experiments/yolo/gdt636_residual_four_head_semantics/REPORT.md",
+        "line": 26,
+        "line_end": 30,
+        "line_end_within_file": true,
+        "quote_literal": true,
+        "sha256": "cd031640976c12d169cb0058873d06f076a6abd1143a70e39ab1a56b46319a67"
+      },
+      {
+        "path": "experiments/yolo/gdt754_active_productive_compound_provenance_sieve/REPORT.md",
+        "line": 34,
+        "line_end": 46,
+        "line_end_within_file": true,
+        "quote_literal": true,
+        "sha256": "88063124968132fbb3ab80fc4733cbf9d6994a52751444569a64fb1f9a3ea4af"
+      },
+      {
+        "path": "experiments/yolo/gdt738_held_body_occurrence_semantic_adjudication/REPORT.md",
+        "line": 98,
+        "line_end": 105,
+        "line_end_within_file": true,
+        "quote_literal": true,
+        "sha256": "7dd9f253279f61f0309db060cb7d008200cc8eabffff9597579fd71601d754e7"
+      },
+      {
+        "path": "experiments/yolo/gdt754_active_productive_compound_provenance_sieve/REPORT.md",
+        "line": 41,
+        "line_end": 46,
+        "line_end_within_file": true,
+        "quote_literal": true,
+        "sha256": "88063124968132fbb3ab80fc4733cbf9d6994a52751444569a64fb1f9a3ea4af"
+      }
+    ],
+    "all_literal_spans_and_hashes_valid": true
+  },
+  "status": "peer_review_complete_no_operative_change"
+}
