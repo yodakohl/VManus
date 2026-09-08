@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "readings_checked": 15,
+  "eligible_readings": 14,
+  "all_three_eligible_fields": [
+    "G764-HF01",
+    "G764-HF02",
+    "G764-HF03",
+    "G764-HF04"
+  ],
+  "synthetic_checks": [
+    "clear",
+    "entity",
+    "annotation",
+    "fragmentation",
+    "empty_raw_interruption",
+    "outer_gap_irrelevant",
+    "uncertain",
+    "drawing",
+    "multiple",
+    "absent",
+    "missing",
+    "cross_parity_rejected",
+    "actual_cli_repeated_allow"
+  ],
+  "guarded_fresh_source_checks": {
+    "ATLAS": {
+      "guard_stats": {
+        "selected": 3384,
+        "skipped_forbidden": 2122,
+        "skipped_not_allowed": 109964
+      },
+      "selectors": [
+        "f105r",
+        "f105v",
+        "f10v",
+        "f22r",
+        "f99r"
+      ],
+      "projection_sha256": "a9f1cbe856fad1d75e5a42566fb6531eea948acbd411ed980a21cdd50e31fb48",
+      "retained_rows": 150
+    },
+    "CROSS": {
+      "guard_stats": {
+        "selected": 147,
+        "skipped_forbidden": 98,
+        "skipped_not_allowed": 5141
+      },
+      "selectors": [
+        "f105r",
+        "f105v",
+        "f10v",
+        "f22r",
+        "f99r"
+      ],
+      "projection_sha256": "d36ebf3b10bb81a6688607c2200c0dc25acd977a8cd1317caa840042e5a386b4",
+      "retained_rows": 5
+    }
+  },
+  "scope": "Independent source, mapping and endpoint replay only; no semantic or native-vision validation."
+}

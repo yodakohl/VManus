@@ -14,7 +14,7 @@ No persistentstate/reset/meaning.872published42881456.
 873complete:82eligible41matched29folios;matchedD0,control−.010967,residual+.010967.
 Folioresidual15negative12positive2zero;strictdiagnostic1matched failscoverage.
 Selectedhalf/newdensityendpoint doesnotexplain872composition. Branchstopped;no controlchain.
-92raw/91unique;54method;37pending.84–86methodreviewed, notsemanticfalsifications.
+92raw/91unique;54method;36pending;87semanticnot-tested.84–86methodreviewed, notsemanticfalsifications.
 734twenty-whole and28spoken-scope policies recovered as2finite models;
 separate19rolemodel andstoredcores preserved.3946semantic/162dossiers.
 874complete:392localrecords;eligible40ZL78IT41RF;two reading-specific
@@ -30,8 +30,10 @@ Quarantineonlythose72/73written-positionclaims; no broadatlas/rendererrepair.
 QM confirms those positions propagate into selectedV71 andV75R4 sources.
 ExistingIAcopy/reset question amendedv2; generalmeaningnotrefuted.
 74V75R2applications retained ascontext, notnewmodels/canonicalcases.
-877registered: five764H1-X-daiin whole-construction/raw-internal-gap audit.
-Onlyall-readingstructuralanchoreligibility; no III/nominality/meaning.11:05budget.
+877complete:4/5fixed764triples literal/clear inall3;all15consecutiveclear.
+ZLf99r.15raw<!gap>daiin qualifiesfifth;ITRFexact. No nativegap/III/meaning.
+QS87: fixedvalue andX-selecteddomain compatible; require distinctcontract.
+Fourrawanchors do notsupplythemissingsemanticendpoint.
 
 GDT858:855/963primary808folds retained opposite-face training;169faces/90leaves.
 GDT865 whole-leaf correction retains both primary thresholds: nuisance macroAUC

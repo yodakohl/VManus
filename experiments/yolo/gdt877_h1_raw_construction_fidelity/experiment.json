@@ -61,6 +61,11 @@
       "sha256": "841006c831a850c9f3fc4d387995952208e609c56403c0285def1c6c27210858"
     },
     {
+      "path": "experiments/yolo/gdt877_h1_raw_construction_fidelity/REPORT.md",
+      "role": "protocol, source implementation or fixed predecessor",
+      "sha256": "0d5b12c82d885a4b88a43c044477f7d7f34e6409f4618067b9a3e512772a2c6c"
+    },
+    {
       "path": "experiments/yolo/gdt877_h1_raw_construction_fidelity/src/PREREG_LOCK.json",
       "role": "protocol, source implementation or fixed predecessor",
       "sha256": "d099f6a55a82f05e1a8610cb8866b735cde98d66ed970587ce8dc2976423da5c"
@@ -93,9 +98,39 @@
   ],
   "outputs": [
     {
+      "path": "experiments/yolo/gdt877_h1_raw_construction_fidelity/artifacts/LINE_PARITY.json",
+      "role": "retained source, fixed construction audit and validation",
+      "sha256": "690443fd8b6bcc4ac6dda9667fd463fd243085468b59b32a2b74cece3f07e394"
+    },
+    {
       "path": "experiments/yolo/gdt877_h1_raw_construction_fidelity/artifacts/README.md",
       "role": "retained source, fixed construction audit and validation",
       "sha256": "3964ea8793872c51bd4f65f5ca264388c41d6ac36fac398a525640e0334f01da"
+    },
+    {
+      "path": "experiments/yolo/gdt877_h1_raw_construction_fidelity/artifacts/RESULT.json",
+      "role": "retained source, fixed construction audit and validation",
+      "sha256": "2ad1189ca6f3a08d1299a86b9b1981c8996dc4d44363ab09fa015ed19fd7b1f1"
+    },
+    {
+      "path": "experiments/yolo/gdt877_h1_raw_construction_fidelity/artifacts/SOURCE_ATLAS.json",
+      "role": "retained source, fixed construction audit and validation",
+      "sha256": "02886c1a4566099a973470b15b68af032b1d717fae2e58486819a17a98638376"
+    },
+    {
+      "path": "experiments/yolo/gdt877_h1_raw_construction_fidelity/artifacts/SOURCE_CROSS.json",
+      "role": "retained source, fixed construction audit and validation",
+      "sha256": "aec7dc0ab57ba01a18e056d5291c91e9a4ddaa7aa1976503abf4a7ca5364198f"
+    },
+    {
+      "path": "experiments/yolo/gdt877_h1_raw_construction_fidelity/artifacts/SOURCE_RECEIPTS.json",
+      "role": "retained source, fixed construction audit and validation",
+      "sha256": "185347d6e7ff0450d9211584620f3cb0849d50a5ab2510071d2083f45c61eb8f"
+    },
+    {
+      "path": "experiments/yolo/gdt877_h1_raw_construction_fidelity/artifacts/VALIDATION.json",
+      "role": "retained source, fixed construction audit and validation",
+      "sha256": "8c406321f94e395b6b3f5fb4433b1ad10294c405d8e0156c33126d4a7c109c2a"
     }
   ],
   "question": "Do the five fixed GDT764 H1-X-daiin constructions retain contiguous literal raw groups and definite internal spaces in each reading?",
@@ -105,11 +140,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "h1_raw_construction_fidelity",
-  "status": "REGISTERED_UNSCORED",
+  "status": "COMPLETE_FIXED_CONSTRUCTION_SOURCE_AUDIT",
   "title": "Five H1 construction raw-source audit",
   "updated": "2026-09-08",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "artifact": "experiments/yolo/gdt877_h1_raw_construction_fidelity/artifacts/VALIDATION.json",
+    "status": "PASS"
   }
 }

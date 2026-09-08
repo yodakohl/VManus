@@ -1,0 +1,91 @@
+{
+  "assessment_basis": "source_and_logical_design_review_no_semantic_test",
+  "blockers": [
+    {
+      "code": "missing_design",
+      "detail": "Domain/axis change and numeric-value invariance can hold simultaneously. The original contrast and falsifier do not make the two stated models observationally exclusive. Specify which semantic object is claimed invariant and a consequence on which the two full models differ.",
+      "evidence": [
+        "research_registry/decisions/qs_value_axis_rival_review.json",
+        "experiments/yolo/gdt764_bounded_value_field_dispatch/REPORT.md",
+        "experiments/yolo/gdt877_h1_raw_construction_fidelity/REPORT.md"
+      ]
+    },
+    {
+      "code": "missing_meaning_binding",
+      "detail": "The five cited renderings and their X classes inherit working interpretations. GDT877 supplies raw construction fidelity only. The inspected packet does not independently bind a value or measurement/grade domain; this is not a claim that no such evidence can exist elsewhere.",
+      "evidence": [
+        "research_registry/decisions/qs_value_axis_rival_review.json",
+        "experiments/yolo/gdt764_bounded_value_field_dispatch/REPORT.md",
+        "experiments/yolo/gdt877_h1_raw_construction_fidelity/REPORT.md"
+      ]
+    }
+  ],
+  "claim_ceiling": "Original semantic hypothesis remains untested, not refuted. GDT877 qualifies source units only. No canonical SEM card or historical source bytes are changed.",
+  "design": {
+    "contrast": "The same written value slot changes between grade, measured material, nominal field and result/stage when X changes",
+    "countermodel": "A fixed ordinal value model predicts invariant value interpretation and treats X as ordinary lexical content",
+    "endpoint_status": "availability_unknown",
+    "falsifier": "Hold exact X-daiin triples with independently coded X classes; if the value remains invariant across classes, stop this hypothesis",
+    "mechanism": "head-conditioned value axis",
+    "prediction": "The same written value slot changes between grade, measured material, nominal field and result/stage when X changes",
+    "principal_risk": "The cited report supplies structural or working observations, not independently bound Voynich meaning; required semantic endpoints may be unavailable.",
+    "related": "Near GDT764/GDT686 and existing quantity/calibration routes; targets head-conditioned axis selection rather than free component meaning.",
+    "smallest_next_step": "Check exact current semantic counterparts and freeze the endpoint coding before any new extraction.",
+    "source_evidence": {
+      "line": 20,
+      "line_end": 29,
+      "path": "experiments/yolo/gdt764_bounded_value_field_dispatch/REPORT.md",
+      "quote": "| Exact triple | Local axis | Portable reading | Stronger C1 reading |\n|---|---|---|---|\n| `pcheey qoty daiin` | quality/grade | dry Form II: cold grade III | dry Form II: cold in the third degree |\n| `pcheey dal daiin` | measured material; axis open | dry Form II: raw material I, measured; value III | dry Form II: three local measures of raw material I |\n| `pchedal qopchdy daiin` | nominal field; axis open | measured dry material, Form I: `qopchdy` field, value III | finished dry preparation on stage III |\n| `pcheody oteody daiin` | result/stage | dry prepared result, Form I: cooling/result field, stage III | cooled finished preparation on stage III |\n| `pchaiin ofchy daiin` | open | dry index/grade III: `ofchy` field, value III | if `ofchy` is a learned content name: content class III |\n\nAll five triples are reader-exact, stand on paragraph-start lines, and are not\nparagraph-final. Three lines contain a second `Y daiin` cell. The clearest is:",
+      "sha256": "04a16ba71959c74d1e43090724eb6d3727294f4e788987badd7f756861c56d67"
+    },
+    "unit": "exact whole-form or complete construction occurrences in the cited source scope"
+  },
+  "reason": "The proposed head-conditioned axis and fixed ordinal plus lexical X are compatible without extra commitments: the same numerical value can apply to different measure or grade domains. The source itself keeps III in all five renderings. Finding a different X class or a stable value therefore does not distinguish these models. GDT877 establishes four all-reading literal/clear construction anchors and one annotated ZL qualification, not an independently coded axis or value.",
+  "record_id": "IDEA000087",
+  "relations": [
+    {
+      "detail": "Historical source of the five constructions and working axis dispatch; retained as an untested functional hypothesis, not merged with fixed-ordinal rivals.",
+      "evidence": [
+        "research_registry/decisions/qs_value_axis_rival_review.json",
+        "experiments/yolo/gdt764_bounded_value_field_dispatch/REPORT.md",
+        "experiments/yolo/gdt877_h1_raw_construction_fidelity/REPORT.md"
+      ],
+      "target": "GDT764",
+      "type": "related_to"
+    }
+  ],
+  "reopen": {
+    "all_of": [
+      {
+        "change": "new_design",
+        "detail": "Declare incompatible observable predictions of the complete models, explicitly separating a value from its domain/unit and allowing a fixed value to combine with lexical heads. A purely structural contrast may be tested without assigning a number; it must be reported as such.",
+        "evidence": [
+          "research_registry/decisions/qs_value_axis_rival_review.json",
+          "experiments/yolo/gdt764_bounded_value_field_dispatch/REPORT.md",
+          "experiments/yolo/gdt877_h1_raw_construction_fidelity/REPORT.md"
+        ],
+        "id": "value_vs_domain_contract"
+      },
+      {
+        "change": "new_binding",
+        "detail": "For semantic adjudication, justify the relevant value/domain endpoint independently of the inherited German renderings and reserve adequate untouched comparison material. Use the executable relation gates when an ordered inscription evidence packet is proposed. The existing four raw anchors are a source precondition, not this semantic endpoint.",
+        "evidence": [
+          "research_registry/decisions/qs_value_axis_rival_review.json",
+          "experiments/yolo/gdt764_bounded_value_field_dispatch/REPORT.md",
+          "experiments/yolo/gdt877_h1_raw_construction_fidelity/REPORT.md"
+        ],
+        "id": "independent_semantic_endpoint"
+      }
+    ],
+    "not_sufficient": [
+      "More identical raw triples or additional X classes alone.",
+      "Different grade/amount/stage labels copied from old working readings.",
+      "Treating invariant numeric value and variable domain as incompatible.",
+      "Treating the ZL <!gap> annotation as an empirical failure of the semantic hypothesis."
+    ],
+    "policy": "conditional"
+  },
+  "reviewer": "root original-design review with independent QS source/concept review",
+  "scope": "semantic",
+  "verdict": "not_tested"
+}
