@@ -5,16 +5,18 @@ Updated: 2026-09-08. Read first.
 
 Translation plan prepared 2026-09-08:
 research_registry/proposals/translation_reconstruction_plan.md.
-Next proposed action:30min bounded discovery of a real text/image recombination;
-parallel f67r2 geometric feasibility only. Existing GDT794 repeated forms are
-starting examples, not a proved crossed construction; no position-test rerun.
-No experiment selected or meaning promoted. Conditional semantic test≤60min
-only after an actual rival-divergent observable exists. Plan is not preregistration.
+10h continuation active:2026-09-08 13:27:56UTC; earliestend23:27:56UTC.
+Session:research_registry/decisions/semantic_10h_translation_session.md.
+878firstnativepass complete:7fixedrootanchors source-guided;no crossedconstruction.
+B12medallions distinguish3coarsered-area states includingzero;reusablebindingfalse.
+Differentobservers/endpoints;prior/preliminarysummaryexposure disclosed;no measured
+phaselaw, score, meaning ornewpage. Bothnominatedentries stop;no794positionrerun.
+Next semanticexperiment notselected. Plan remainsconditional, notpreregistration.
 
 4h continuation completed:2026-09-08 07:12:17–11:12:18UTC.
 Session:research_registry/decisions/semantic_4h_followon_session.md.
-No next semantic experiment selected;36rawproposals remainunreviewed.
-92raw/91unique;54method;87semanticnot-tested. No automatic decoder/control/atlas follow-on.
+No next semantic experiment selected;44rawproposals remainunreviewed.
+100raw/99unique;54method;87semanticnot-tested. No automatic decoder/control/atlas follow-on.
 3946semantic variants/266formal cards;4893sourcecases;162scopedquestions.
 Thisinterval recovered2historicalfinite models with20+28applications, notnewmeanings.
 

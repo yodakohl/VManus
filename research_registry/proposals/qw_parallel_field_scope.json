@@ -1,0 +1,29 @@
+{
+  "title": "A parallel field constrains scope without asserting apposition",
+  "summary": "GDT764 records `qopchdy daiin` beside `chedy daiin` and says this is field parallelism. The hypothesis is that parallel fields share a record scope but retain distinct semantic entries.",
+  "scope": "semantic",
+  "status": "draft_unreviewed_not_added",
+  "design": {
+    "mechanism": "parallel scoped fields versus appositional alias",
+    "unit": "source-bound complete records or visual-text contexts named in source_observation",
+    "contrast": "parallel scoped fields versus appositional alias",
+    "prediction": "two adjacent fields should permit different values or operations under one record; apposition predicts a single referent and substitution equivalence",
+    "countermodel": "Near IDEA000055; the distinct proposal is value/operation non-equivalence under shared record scope, rather than apposition versus separate entries alone.",
+    "falsifier": "The two fields are freely substitutable in held contexts with identical value/operation behavior, or one does not share the record scope.",
+    "principal_risk": "No independent referent or value endpoint; source parallelism is structural evidence only.",
+    "endpoint_status": "availability_unknown",
+    "source_observation": {
+      "description": "GDT764 parallel field example",
+      "evidence": {
+        "path": "experiments/yolo/gdt764_bounded_value_field_dispatch/REPORT.md",
+        "line": 28,
+        "line_end": 36,
+        "quote": "All five triples are reader-exact, stand on paragraph-start lines, and are not\nparagraph-final. Three lines contain a second `Y daiin` cell. The clearest is:\n\n```text\npchedal | qopchdy daiin | chedy daiin | ...\n```\n\nThat is field parallelism, not a plausible place to import an imperative. It\nselects nominal syntax; it does not identify the field axis.",
+        "sha256": "04a16ba71959c74d1e43090724eb6d3727294f4e788987badd7f756861c56d67"
+      }
+    },
+    "smallest_test": "Compare the existing parallel cell with one held X–daiin cell, recording only whether value/operation slots differ; no inherited glosses.",
+    "prior_duplicate_pointers": [],
+    "selection_status": "raw_unreviewed; no readiness or novelty claim"
+  }
+}

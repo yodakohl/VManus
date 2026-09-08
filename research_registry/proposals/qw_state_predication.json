@@ -1,0 +1,29 @@
+{
+  "title": "A state label and a process verb occupy different syntactic frames",
+  "summary": "GDT783 keeps HOT as a portable state minimum while heating-process and preparation-stage rivals remain. The hypothesis predicts a state predicate can attach to a carrier without an operation event.",
+  "scope": "semantic",
+  "status": "draft_unreviewed_not_added",
+  "design": {
+    "mechanism": "state predication versus heating operation",
+    "unit": "source-bound complete records or visual-text contexts named in source_observation",
+    "contrast": "state predication versus heating operation",
+    "prediction": "the same HOT-bearing form should appear with a carrier/state frame lacking an operation/result transition, while a process verb requires an operation/result frame",
+    "countermodel": "This does not reuse HOT/DRY as gold; it tests a frame distinction and leaves the form untranslated.",
+    "falsifier": "HOT-form occurrences systematically require an operation/result frame, or state-frame occurrences require an event marker.",
+    "principal_risk": "No independent operation marker or state measurement; candidate remains raw.",
+    "endpoint_status": "availability_unknown",
+    "source_observation": {
+      "description": "GDT783 hot-only and heating-process candidates",
+      "evidence": {
+        "path": "experiments/yolo/gdt783_chsky_majority_variant_external_field/REPORT.md",
+        "line": 62,
+        "line_end": 77,
+        "quote": "## Six explicit candidates and the unresolved dissent\n\n| rank | id | default | axes | clean analogs | external full fields | score | practical spec |\n|---:|---|---|---|---:|---:|---:|---:|\n| 1 | C01_HOT_QUALITY | heiß | `HOT` | 3 | 1 | 10.000000 | 0 |\n| 2 | C02_HOT_DRY_QUALITY | heiß und trocken | `HOT|DRY` | 3 | 0 | 4.500000 | 1 |\n| 3 | C05_DRY_PREPARATION | Trockenzubereitung | `DRY|PREPARATION` | 1 | 1 | 4.250000 | 0 |\n| 4 | C04_HOT_PREPARATION_STAGE | Heißstufe der Zubereitung | `HOT|PREPARATION|STAGE` | 1 | 0 | 2.166667 | 0 |\n| 5 | C06_HEATING_PROCESS | Erwärmungsvorgang | `HOT|PROCESS` | 1 | 0 | 1.000000 | 0 |\n| 6 | C03_HOT_DRY_MATERIAL | heißgetrocknetes Arzneigut | `HOT|DRY|MATERIAL` | 0 | 0 | -2.166667 | 0 |\n\nThe diagnostic score is not a lexical probability. It favors minimum complete\naxis coverage and therefore chooses HOT-only. The separate frozen practical\nselection retains the still-possible parent HOT|DRY card with split confidence.\nMaterial, preparation-stage and process readings remain published rivals;\n`erhitzt` would overstate a process absent from the primary fields.",
+        "sha256": "245d1f162404120ea4ee0912500db5d89e3461ca11c7b1f51a9c7cd68409ea0a"
+      }
+    },
+    "smallest_test": "Blindly classify the three source loci and two clean analogs by carrier/state versus operation/result; retain both German-free hypotheses.",
+    "prior_duplicate_pointers": [],
+    "selection_status": "raw_unreviewed; no readiness or novelty claim"
+  }
+}

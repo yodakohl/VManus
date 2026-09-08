@@ -1,0 +1,29 @@
+{
+  "title": "A transition marker is direction-neutral continuation rather than an endpoint verb",
+  "summary": "GDT769 reports mixed-direction state bridges for otar and a supported continuation rival. The hypothesis is a reversible continuation relation that composes both forward and backward record transitions.",
+  "scope": "semantic",
+  "status": "draft_unreviewed_not_added",
+  "design": {
+    "mechanism": "direction-neutral continuation versus terminal/one-way endpoint",
+    "unit": "source-bound complete records or visual-text contexts named in source_observation",
+    "contrast": "direction-neutral continuation versus terminal/one-way endpoint",
+    "prediction": "the same form should occur in both transition directions without changing the relation; an endpoint model predicts a stable rightward attained state",
+    "countermodel": "This is near existing operator ideas, but the committed contrast is reversibility under direction, not generic “then”.",
+    "falsifier": "A form assigned as continuation is confined to one direction or consistently precedes a terminal state.",
+    "principal_risk": "No independent event ordering gold; source line boundaries are not clause gold.",
+    "endpoint_status": "availability_unknown",
+    "source_observation": {
+      "description": "GDT769 otar mixed state bridges",
+      "evidence": {
+        "path": "experiments/yolo/gdt769_liquid_process_role_identity_dispatch/REPORT.md",
+        "line": 29,
+        "line_end": 33,
+        "quote": "### `otar`: R05 step transition, not `bis`\n\nOf 110 exact `otar` occurrences on 55 pages, 105 are medial. Four clean state bridges run in mixed directions rather than repeatedly pointing toward one endpoint. In `f86v5.13`, `otar` follows a complete amount expression and opens the next value field; in `f75r.43`, it sits between a state block and a repeated close/result form; in `f115v.5`, it directly precedes an independent process word. A general `dann/anschließend/weiter` survives all three uses better than a specific material or process term.\n\nThe local frames make `weiter/dann` a useful reader default, but R05 and R01 both pass with the same score of 1.0. R05 is selected only by specificity priority, so the nominal preparation/record field remains the principal supported role rival. Confidence is `C1_LOCAL_FRAME__C0_ROLE_TIEBREAK`. At identity level, `bis` is now the primary rival: mixed transition directions make it less portable than a general continuation marker, but do not eliminate it. No lexical identity is confirmed.",
+        "sha256": "a00ca7b7fd36013a78b8118395e88e5e091f087515d0def577ba25af7623e346"
+      }
+    },
+    "smallest_test": "Use the three named GDT769 otar frames plus one held frame; classify direction and endpoint only, keeping all lexical identities open.",
+    "prior_duplicate_pointers": [],
+    "selection_status": "raw_unreviewed; no readiness or novelty claim"
+  }
+}
