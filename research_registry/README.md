@@ -15,7 +15,9 @@ frozen; update operational guidance here.
 Use `./vmanus-work priorities QUERY` (also `--queue`) for concrete, source-attested
 semantic hypotheses. Eight cards are shown by default. Source pointers, methods,
 results and unresolved intake are not idea cards. `--include-formal` additionally
-shows explicitly separated formal-role hypotheses. `--show ID --field cases`
+shows explicitly separated formal-role hypotheses. `lexical_hypothesis` names a
+proposed meaning type; the separate status records whether it is confirmed.
+`--show ID --field cases`
 opens retained source-specific interpretations; `--field evidence` opens exact quotes.
 
 The complete source archive remains available through `priorities --sources QUERY`.
@@ -98,7 +100,20 @@ German/English navigation vocabulary. A low score or no hit proves no novelty.
 
 `--blocker` selects assessed classifications. `--signal` selects explicit
 historical wording, **not** an adjudicated failure. `--scope semantic` excludes
-unclassified records; use unrestricted search as well during duplicate checks.
+unclassified records and proposals whose effective review scope is now method or
+workflow; use unrestricted search as well during duplicate checks. To retrieve
+all authored proposals originally submitted as semantic, including their current
+method failures and the known duplicate, use:
+
+```bash
+./vmanus-work ideas search --submitted-scope semantic
+./vmanus-work ideas search --submitted-scope semantic --scope method --blocker missing_design
+```
+
+`submitted_scope` is derived from the authored NEW_PROPOSAL entry, not inferred
+from imported history. It does not replace current scope, change any verdict or
+reopening requirement, or establish independent idea counts. Results and filters
+remain paged before display; add `--offset 8` to retrieve the next page.
 
 ## What changed, and could it justify another test?
 

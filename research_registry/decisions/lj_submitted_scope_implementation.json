@@ -1,0 +1,31 @@
+{
+  "task": "LJ implementation",
+  "files": [
+    "tools/research_registry.py",
+    "tests/test_research_registry_submitted_scope.py",
+    "research_registry/decisions/lj_submitted_scope_decision.md"
+  ],
+  "implementation": "Index-only derivation from authored ideas.jsonl NEW_PROPOSAL rows; payload and existing facet, original FTS content unchanged. Optional SQL filter composes before count/pagination. Compact card exposes metadata only where supplied by index. No _assemble/canonical/review mutations.",
+  "final_command": "python -m unittest tests.test_research_registry_submitted_scope tests.test_research_registry_optional_design_scope tests.test_research_registry_source_quotes tests.test_research_registry_lifecycle tests.test_research_registry tests.test_research_registry_import",
+  "final_result": "49 tests PASS",
+  "new_tests": 3,
+  "coverage": [
+    "actual temporary DB and actual review append twice",
+    "canonical authored bytes and record/design fingerprints preserved",
+    "blocker/verdict/reopening policy remain method-reviewed",
+    "FTS body byte-equivalent to original assembled canonical text",
+    "scope intersections, matched counts and pagination before limit",
+    "structural/unknown submitted classifications excluded from semantic",
+    "imported metadata excluded even with mimicked NEW_PROPOSAL status",
+    "CLI valid filter and invalid choices; Python invalid scope"
+  ],
+  "initial_test_repairs": "Synthetic fixture used direct snapshot write without manifest and show returns full blocker dicts; corrected fixtures. Removed invalid assumption that tokenized query submitted_scope was one token: exact FTS-body equality is the correct invariant. All final tests pass.",
+  "real_registry_mutations": false,
+  "real_index_refresh": false,
+  "parent_responsibilities": [
+    "README and ledger",
+    "real79/36/42/1 retrieval counts and captured baseline comparison",
+    "semantic rebuild needed for parent LI correction",
+    "publication"
+  ]
+}

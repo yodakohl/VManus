@@ -1,0 +1,267 @@
+{
+  "task": "LJ submitted semantic scope retrieval audit",
+  "counts_new_proposal_only": {
+    "raw_count": 79,
+    "base_scopes": {
+      "semantic": 79
+    },
+    "effective_scopes": {
+      "method": 36,
+      "semantic": 42,
+      "workflow": 1
+    },
+    "changes": [
+      [
+        "IDEA000001",
+        "semantic",
+        "method"
+      ],
+      [
+        "IDEA000002",
+        "semantic",
+        "method"
+      ],
+      [
+        "IDEA000003",
+        "semantic",
+        "method"
+      ],
+      [
+        "IDEA000004",
+        "semantic",
+        "method"
+      ],
+      [
+        "IDEA000005",
+        "semantic",
+        "method"
+      ],
+      [
+        "IDEA000006",
+        "semantic",
+        "method"
+      ],
+      [
+        "IDEA000007",
+        "semantic",
+        "method"
+      ],
+      [
+        "IDEA000008",
+        "semantic",
+        "method"
+      ],
+      [
+        "IDEA000011",
+        "semantic",
+        "method"
+      ],
+      [
+        "IDEA000012",
+        "semantic",
+        "method"
+      ],
+      [
+        "IDEA000013",
+        "semantic",
+        "method"
+      ],
+      [
+        "IDEA000014",
+        "semantic",
+        "method"
+      ],
+      [
+        "IDEA000016",
+        "semantic",
+        "method"
+      ],
+      [
+        "IDEA000017",
+        "semantic",
+        "method"
+      ],
+      [
+        "IDEA000019",
+        "semantic",
+        "method"
+      ],
+      [
+        "IDEA000022",
+        "semantic",
+        "method"
+      ],
+      [
+        "IDEA000023",
+        "semantic",
+        "method"
+      ],
+      [
+        "IDEA000024",
+        "semantic",
+        "method"
+      ],
+      [
+        "IDEA000025",
+        "semantic",
+        "method"
+      ],
+      [
+        "IDEA000026",
+        "semantic",
+        "method"
+      ],
+      [
+        "IDEA000027",
+        "semantic",
+        "method"
+      ],
+      [
+        "IDEA000028",
+        "semantic",
+        "method"
+      ],
+      [
+        "IDEA000029",
+        "semantic",
+        "method"
+      ],
+      [
+        "IDEA000030",
+        "semantic",
+        "method"
+      ],
+      [
+        "IDEA000031",
+        "semantic",
+        "method"
+      ],
+      [
+        "IDEA000032",
+        "semantic",
+        "method"
+      ],
+      [
+        "IDEA000033",
+        "semantic",
+        "method"
+      ],
+      [
+        "IDEA000036",
+        "semantic",
+        "method"
+      ],
+      [
+        "IDEA000037",
+        "semantic",
+        "method"
+      ],
+      [
+        "IDEA000038",
+        "semantic",
+        "method"
+      ],
+      [
+        "IDEA000039",
+        "semantic",
+        "method"
+      ],
+      [
+        "IDEA000040",
+        "semantic",
+        "method"
+      ],
+      [
+        "IDEA000041",
+        "semantic",
+        "method"
+      ],
+      [
+        "IDEA000055",
+        "semantic",
+        "workflow"
+      ],
+      [
+        "IDEA000064",
+        "semantic",
+        "method"
+      ],
+      [
+        "IDEA000066",
+        "semantic",
+        "method"
+      ],
+      [
+        "IDEA000072",
+        "semantic",
+        "method"
+      ]
+    ]
+  },
+  "finding": "Real retrieval conflation: assessment scope replaces the single topic-like scope field. All79 authored NEW_PROPOSAL records were submitted semantic;37 currently excluded by effective scope semantic (36 method,1 workflow). This is not loss of source records, and unrestricted duplicate search still finds them.",
+  "documented_behavior": "README documents --scope semantic excluding unclassified records and recommends unrestricted duplicate search. It does not explain that semantic proposals reviewed for method viability become method-scoped, nor provide an original-topic filter. Code intentionally allows scope reclassification, but using it to count all meaning proposals loses36 reviewed semantic designs and the authored duplicate record55.",
+  "bounded_examples": [
+    {
+      "id": "IDEA000072",
+      "original_scope": "semantic",
+      "effective_scope": "method",
+      "verdict": "not_tested",
+      "review": "curated",
+      "blocker": "missing_design",
+      "observation": "Unrestricted compound meaning transparent search returns72 first; same search with --scope semantic cannot return it."
+    },
+    {
+      "id": "IDEA000064",
+      "original_scope": "semantic",
+      "effective_scope": "method",
+      "reason": "Argument/modifier design ambiguity; topic remains semantic agreement."
+    },
+    {
+      "id": "IDEA000001",
+      "original_scope": "semantic",
+      "effective_scope": "method",
+      "reason": "Endpoint equivalence assessment, not evidence original proposal concerned a different subject."
+    }
+  ],
+  "smallest_backward_compatible_change": {
+    "name": "Derived submitted_scope metadata plus opt-in --submitted-scope filter",
+    "behavior": "Leave --scope and effective scope exactly as now. For NEW_PROPOSAL records only, derive submitted_scope from canonical authored base record scope before review overlays. Expose it in bounded show/search cards. Add an optional search --submitted-scope semantic filter using an existing facets row per authored record, not a new table. This filter means originally submitted classification, not scientifically certified topic. Combine with --scope method or --blocker missing_design when desired.",
+    "why_facets": "Existing facets table and EXISTS search mechanism already support additional bounded navigation filters; no schema-column migration or history rewrite needed.",
+    "fingerprint_constraint": "Do not inject derived metadata into canonical base before review basis validation. Capture original values separately, validate/merge reviews as before, then add derived display/index metadata. Preserve existing record/design fingerprints, review chains and source bytes.",
+    "unknown_or_imported": "Do not infer submitted scope for imported attempt/history records. They do not match this authored-proposal filter. A truly unknown authored submission remains unknown rather than semantic.",
+    "preserve": [
+      "effective review scope",
+      "verdict",
+      "review_status",
+      "blockers",
+      "reopening gates",
+      "duplicate relations",
+      "default unrestricted and --scope retrieval semantics"
+    ],
+    "do_not_do": [
+      "Rewrite37 old reviews to semantic",
+      "Treat method-reviewed proposals as scientifically ready",
+      "Use submitted_scope as a new test-selection gate",
+      "Report79 as distinct hypotheses; record55 is known duplicate and remains retrievable"
+    ]
+  },
+  "decision_changed": "User asks for all authored ideas about meaning and their failures: --submitted-scope semantic returns79 records rather than42 while exposing reviewed method failures. Operational user can inspect all36 method-reviewed designs and their changed-input requirements before selecting a genuinely new proposal. The current42 count otherwise resembles a shrinking history or a less-reviewed inventory.",
+  "focused_checks_if_implemented": [
+    "Synthetic semantic submission reviewed method: old --scope semantic excludes; --submitted-scope semantic includes with not_tested/blocker/conditional policy unchanged.",
+    "Combine --submitted-scope semantic --scope method yields intended intersection, with matched/pagination computed in SQL before limit.",
+    "Unreviewed semantic submission included; originally structural or imported records excluded.",
+    "Existing basis hashes and exact design hashes unchanged; append review on original record still validates.",
+    "Current real counts expected79 submitted semantic,36 submitted semantic/effective method,42 effective semantic,1workflow duplicate; snapshot counts only."
+  ],
+  "source_locations": {
+    "merge": "tools/research_registry.py:_assemble scope overlay around220",
+    "index": "tools/research_registry.py:records/facets builder around305–332",
+    "search": "tools/research_registry.py:search scope SQL equality and facets around448–458",
+    "documentation": "research_registry/README.md scope paragraph around99–101; review contract151–155"
+  },
+  "source_hashes": {
+    "tools/research_registry.py": "ecaa3b17b5252aa082f49f65fee05846aa1b6b84e3228e02e6a87f9c1cfc9783",
+    "research_registry/README.md": "7c53bb29d351c6cfc83aa6ba38bd1477c65eacab95f720f287c49bb8059ca8df"
+  },
+  "mutations": "Draft only. No implementation or review appended."
+}

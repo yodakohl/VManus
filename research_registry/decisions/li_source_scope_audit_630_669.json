@@ -1,0 +1,91 @@
+{
+  "status": "source_scope_audit_complete",
+  "range": "GDT630-GDT669",
+  "audited_card_ids": [
+    "SEM:0016054f34f508da9caf",
+    "SEM:0152bad8d1ae903b5d84",
+    "SEM:017a1b01dcc26c6ceb75",
+    "SEM:01b6ca68225dbe1a33de",
+    "SEM:0318efe79c4bf00954f1",
+    "SEM:0336c117a34a0e856eef",
+    "SEM:045e273e539a5bb079fe",
+    "SEM:048b13dbe58a4fbf165f",
+    "SEM:067434bf322acf718cc2",
+    "SEM:07296d83276d2f63e4b6",
+    "SEM:07560a586dedcc6f155e",
+    "SEM:0782dbe48c270d63f72c",
+    "SEM:078302c29517b607e20e",
+    "SEM:0883240e0f1d513e0345",
+    "SEM:0949435c835542390b65",
+    "SEM:097387ec1f804855c581",
+    "SEM:0a551df2dfd02a9f33c7",
+    "SEM:0ad3f56750b042f1235a",
+    "SEM:0b2920d630493cf790c4",
+    "SEM:0ba791d1169c73ee976f"
+  ],
+  "audited_count": 20,
+  "registry_mutation": false,
+  "finding_count": 1,
+  "findings": [
+    {
+      "card_id": "SEM:07296d83276d2f63e4b6",
+      "source_report": "GDT648",
+      "scope_mismatch": "Card claim_type is lexical_hypothesis and its sentence reads as a value for lkar, while the primary report labels the table value V25-Arbeitswert (working value). The source supports an unconfirmed working whole-form hypothesis, not a lexical identification.",
+      "proposed_scope": "Retain the card and rivals, but describe it as an unconfirmed working whole-form/functional hypothesis; do not export lkar or k/ar as established lexical meanings.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/REPORT.md",
+          "line": 7,
+          "line_end": 17,
+          "quote": "\n| Oberfläche | Zerlegung | V25-Arbeitswert | Belege/Seiten | dreileser-exakt |\n|---|---|---|---:|---:|\n| `otol` | `o+t+ol` | kaltes Zubereitungsgut | 58/48 | 56 |\n| `sheor` | `sh+e+or` | feuchter Drogenteil | 40/32 | 31 |\n| `keol` | `k+e+ol` | heißer Drogenstoff | 18/16 | 16 |\n| `odaiin` | `o+d+(a+iin)` | Zubereitungsdosis III | 55/42 | 42 |\n| `cholkaiin` | `chol+(k+a+iin)` | Trockengut, heiß im dritten Grad | 5/5 | 4 |\n| `lkar` | `l+(k+ar)` | heiße Holzfraktion I | 31/21 | 29 |\n| `lsheey` | `l+(sh+ee+y)` | eingeweichtes Drogenholz, Form II | 6/5 | 6 |\n\n",
+          "sha256": "86faa123f0f26671e5815e4bd63db78dca3047c4947959805260853f18c8761f"
+        },
+        {
+          "path": "experiments/yolo/gdt648_strict_v24_hole_completion/REPORT.md",
+          "line": 53,
+          "line_end": 60,
+          "quote": "Die wichtigste Parsekorrektur lautet **SH vor S**. `sheor` ist `sh+e+or`,\nnicht `s+heor`: Ein Stamm `heor` ist im Panel unbelegt, während die ganze\nSH-Reihe sichtbar ist. Damit entfällt die frühere automatische\n„Samendroge“-Glosse.\n\n### `odaiin`: ein alter Rest wird zum echten Ganzwort\n\nGDT636 kannte `odaiin` bereits als Körper in `podaiin`, `sodaiin`, `rodaiin`\n",
+          "sha256": "86faa123f0f26671e5815e4bd63db78dca3047c4947959805260853f18c8761f"
+        }
+      ],
+      "correction_history": "No matching correction found for this card in semantic_claim_corrections.jsonl; this is a proposed scope clarification only."
+    }
+  ],
+  "correction_checks": [
+    {
+      "card_id": "SEM:0883240e0f1d513e0345",
+      "correction_id": "SCR:a197d5a7f323e0ee6ad2",
+      "result": "aligned",
+      "reason": "Existing correction explicitly preserves cheeytal as a formal segmentation proposal and says it is not a lexical translation.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt660_seventeen_residual_concrete_completion/REPORT.md",
+          "line": 30,
+          "line_end": 30,
+          "quote": "| `cheeytal` | 1 / 1 | Rohstoffklasse I: trocken am Gradende, kalt am Gradanfang | zwei getrennte Karten |\n",
+          "sha256": "e12818271a98bbe1930091c126ab973b7ae14f7579011c5894d769c7df9bf417"
+        }
+      ]
+    },
+    {
+      "card_id": "SEM:0b2920d630493cf790c4",
+      "correction_id": "CORRECTION_GH:0b2920d630493cf790c4:v1",
+      "result": "aligned",
+      "reason": "Existing correction restores whole-card scope and the explicit rival; no short-claim mismatch remains.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt662_seventy_six_residual_family_completion/REPORT.md",
+          "line": 12,
+          "line_end": 38,
+          "quote": "Der wichtige Fortschritt ist nicht bloß ein größeres Stoffverzeichnis. V39\nliest einige sehr häufige kurze Formen erstmals als praktische Mikrohandlungen:\n\n| Form | Vorkommen | V39-Default / praktischer Renderer | stärkster Rivale |\n|---|---:|---|---|\n| `qo` | 50 | `nimm Folgendes:`; zweimal zeilenfinal `nimm Vorstehendes` | Rezept-/Qualitätsrahmen |\n| `qol` | 132 | `gib Folgendes hinzu:`; vor neuer Handlung `gib Vorstehendes hinzu` | Rezeptgrundlage/Trägerdroge |\n| `qokol` | 88 | `erhitze Folgendes:`; vor Grad II–IV `erhitze bis Grad …` | heißes Drogenmaterial |\n| `oly` | 53 | `seihe Vorstehendes ab` | Drogenmaterial in Grundform |\n| `chl` | 28 | `trockne Folgendes:`; in zwei Rückbezügen `trockne die vorstehende …` | Trockengut oder verkürztes `chol` |\n| `ey` | 14 | `anschließend:`; am Rand oder zwischen Trockenstoffen `mische …` | Mittelstufe |\n| `a` | 9 | `je, zu gleichen Teilen` | davon/mit als Wertanschluss |\n| `qodaiin` | 41 | Qualitätsgrad III | Ansatzdosis III |\n\n`qodaiin` bleibt bewusst ein Wertwort: die sichtbare Reihe `qodain` (II),\n`qodaiin` (III), `qodaiiin` (IV) ist stärker als ein zusätzlicher Imperativ.\nEbenso wird freies `qo` exakt gelernt; sein Verbwert wird nicht in gebundene\n`qo-`-Formen exportiert.\n\n## Architektur\n\n| Kartentyp | Formen | Positionen | Anteil |\n|---|---:|---:|---:|\n| produktive Komposita | 61 | 741 | 86,1 % |\n| gelernte Funktionswörter (`qo`, `a`, `ey`) | 3 | 73 | 8,5 % |\n| gelernte Ganzwörter (`chl`, `far`, `los`, `cheyet`) | 4 | 36 | 4,2 % |\n| exakte Hybrid-/Ausnahmekarten | 8 | 11 | 1,3 % |\n",
+          "sha256": "c248820081256635e5809a521e666543c4640bc93ad4120ea1b7e3a7f3304d1d"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "This is not exhaustive current-card coverage; audited IDs were selected programmatically from source mentions and capped at 20.",
+    "No claim refutes any meaning hypothesis or establishes independent binding.",
+    "No TSV, images, web, experiments, ledger, review, refresh, or build actions performed."
+  ]
+}

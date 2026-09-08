@@ -295,6 +295,9 @@ def build_index(root):
     if errors:
         raise ValueError('; '.join(errors) + '; run ideas refresh')
     records = _assemble(root)
+    submitted_scopes = {record['id']: record.get('scope', 'unknown')
+                        for record in read_jsonl(root / DIRECTORY / 'ideas.jsonl')
+                        if record.get('source_status') == 'NEW_PROPOSAL'}
     folder = root / DIRECTORY / 'runtime'
     folder.mkdir(parents=True, exist_ok=True)
     temporary = folder / 'index-building.sqlite3'
@@ -318,10 +321,16 @@ def build_index(root):
         ''')
         for record in records.values():
             identifier = record['id']
+            # Derived display metadata must not enter canonical records or FTS text.
+            payload = dict(record)
+            if identifier in submitted_scopes:
+                payload['submitted_scope'] = submitted_scopes[identifier]
+                connection.execute('INSERT INTO facets VALUES (?,?,?)',
+                    (identifier, 'submitted_scope', submitted_scopes[identifier]))
             connection.execute('INSERT INTO records VALUES (?,?,?,?,?,?,?)',
                 (identifier, record['kind'], record.get('scope','unknown'),
                  record.get('verdict','unreviewed'), record.get('review_status','imported_unreviewed'),
-                 design_fingerprint(record), canonical(record)))
+                 design_fingerprint(record), canonical(payload)))
             for alias in set([identifier] + record.get('aliases', [])):
                 connection.execute('INSERT INTO aliases VALUES (?,?)', (alias.casefold(), identifier))
             for item in record.get('blockers', []):
@@ -405,6 +414,7 @@ def bounded_view(value, budget=12000):
 
 def _card(record):
     return {'id': record['id'], 'kind': record['kind'], 'scope': record.get('scope','unknown'),
+            **({'submitted_scope': record['submitted_scope']} if 'submitted_scope' in record else {}),
             'title': _clip(record['title'], 150), 'summary': _clip(record.get('summary',''),260),
             'verdict': record.get('verdict','unreviewed'),
             'review': record.get('review_status','imported_unreviewed'),
@@ -422,7 +432,8 @@ def _get(connection, identifier):
     return json.loads(row['payload'])
 
 
-def search(root, query='', limit=8, kind=None, blocker=None, offset=0, scope=None, change=None, signal=None):
+def search(root, query='', limit=8, kind=None, blocker=None, offset=0, scope=None, change=None, signal=None,
+           submitted_scope=None):
     _limit(limit)
     if offset < 0:
         raise ValueError('offset must be nonnegative')
@@ -430,6 +441,8 @@ def search(root, query='', limit=8, kind=None, blocker=None, offset=0, scope=Non
         raise ValueError('unknown kind')
     if scope is not None and scope not in SCOPES:
         raise ValueError('unknown scope')
+    if submitted_scope is not None and submitted_scope not in SCOPES:
+        raise ValueError('unknown submitted scope')
     terms = re.findall(r'[^\W_]+', query.casefold(), flags=re.UNICODE)[:30]
     # Small bilingual navigation vocabulary, explicitly not a semantic classifier.
     for token, alternatives in {'seiten':['folios','pages'], 'bedeutung':['semantic','meaning'],
@@ -448,7 +461,8 @@ def search(root, query='', limit=8, kind=None, blocker=None, offset=0, scope=Non
     for column, value in [('kind',kind), ('scope',scope)]:
         if value:
             where.append('r.'+column+'=?'); parameters.append(value)
-    for facet, value in [('blocker',blocker), ('change',change), ('signal',signal)]:
+    for facet, value in [('blocker',blocker), ('change',change), ('signal',signal),
+                         ('submitted_scope',submitted_scope)]:
         if value:
             where.append('EXISTS (SELECT 1 FROM facets f WHERE f.id=r.id AND f.facet=? AND f.value=?)')
             parameters.extend([facet,value])
@@ -711,6 +725,8 @@ def main(argv=None, root=ROOT):
     search_parser.add_argument('--offset',type=int,default=0)
     search_parser.add_argument('--kind',choices=sorted(KINDS))
     search_parser.add_argument('--scope',choices=sorted(SCOPES))
+    search_parser.add_argument('--submitted-scope',choices=sorted(SCOPES),
+                               help='original authored proposal scope; does not change review scope')
     search_parser.add_argument('--blocker')
     search_parser.add_argument('--change',choices=sorted(CHANGES))
     search_parser.add_argument('--signal',help='lexical historical hint, not an adjudicated blocker')
@@ -745,7 +761,7 @@ def main(argv=None, root=ROOT):
                           'groups':[dict(row) for row in connection.execute(
                               'SELECT kind,scope,review_status,count(*) AS n FROM records GROUP BY kind,scope,review_status')],
                           'warning':'record counts are not deduplicated semantic hypothesis counts'}
-        elif args.command == 'search': result = search(root,args.query,args.limit,args.kind,args.blocker,args.offset,args.scope,args.change,args.signal)
+        elif args.command == 'search': result = search(root,args.query,args.limit,args.kind,args.blocker,args.offset,args.scope,args.change,args.signal,args.submitted_scope)
         elif args.command == 'show': result = show(root,args.identifier,args.events)
         elif args.command in {'events','sources','requirements','relations','reviews'}:
             result = page_field(root,args.identifier,args.command,args.limit,args.offset)
