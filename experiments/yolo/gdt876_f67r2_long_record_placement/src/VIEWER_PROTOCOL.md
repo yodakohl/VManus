@@ -1,0 +1,5 @@
+# Neutral native viewer instructions
+
+Using the original image in SPEC.json and the three records in artifacts/READINGS.json, locate f67r2.72, .73 and .74. Only these three are targets; use whole-image/neighbour context as needed. No OCR, enhancement, generative reconstruction or other viewer/old owner maps. Lossless source crops and right-angle rotation may be used and must retain exact coordinates and hashes. Preserve uncertainty rather than choosing a region from text numbering.
+
+Write artifacts/VIEWER_B.json with viewer, prior_exposure, observations mapping allthree targets. Each observation has localized bool, region oneof LEFT_CIRCULAR_BAND,RIGHT_CIRCULAR_BAND,RIGHT_BELOW_HORIZONTAL,OTHER,UNRESOLVED; evidence string; coordinates and uncertainty. If not localized, region must beUNRESOLVED. Describe multiple ordered shapes/neighbouring sequence for localization. Written location is not semantic referent, scope or pictured ownership. Do not inspect PREREGISTRATION.md, VIEWER_A.json, A_SEAL.json, root views or historical predictions before saving your record. Full-image prior exposure exists, not blind to alternative text readings.
